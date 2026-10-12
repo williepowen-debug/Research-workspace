@@ -1,0 +1,9 @@
+Calculation of Total Common Stockholders’ Equity, Total Tangible Common Stockholders’ Equity and the Ratio of 
+
+Total Tangible Common Stockholders’ Equity to Total Tangible Assets 
+
+Unaudited (Dollars in Thousands, Except per Share) 
+
+37 
+
+June 30,December 31,June 30,202520252026Total stockholders' equity before noncontrolling interest5,924,875$   6,129,851$   6,278,068$   Less preferred stock(338,980) (338,980) (338,980) Total common stockholders' equity5,585,895$   5,790,871$   5,939,088$   Less Goodwill(660,789) (660,789) (660,789) Total tangible common stockholders' equity4,925,106$   5,130,082$   5,278,299$   Total assets41,454,390$   40,785,840$   41,703,135$   Less Goodwill(660,789) (660,789) (660,789) Total tangible assets40,793,601$   40,125,051$   41,042,346$   Ratio of total common stockholders' equity to total assets13.47%14.20%14.24%Ratio of total tangible common stockholders' equity to totaltangible assets12.07%12.79%12.86%

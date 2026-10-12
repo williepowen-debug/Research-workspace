@@ -1,10 +1,10 @@
 # OZK — Dashboard
 
-**Updated:** 2026-10-12 — DOCKET L635; executed RaDD extension/new capital disclosed at FDIC FLNG 12019. Evidence → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`; session → `MEMORY.md`.
+**Updated:** 2026-10-12 — L635 completed/consumed (ba61b01e1); L690 bounded review + Q3 card + Horton check delivered. Evidence → `research/threads/2026-10-12_POST_EXTENSION_REVIEW.md`; session → `MEMORY.md`.
 **Price:** **$44.86** [live intraday 2026-10-12 ~10:37 ET, FORGE fetch.py/yfinance; unfinished session, not a close] · <$45 previously FIRED 10/6 · <$40 **$4.86 / 10.8% below** this quote | **TBV:** $48.41 [Q2'26] | **P/TBV:** ~0.93×
-**Thesis:** RESERVOIR **v1.6** — RaDD maturity-failure catalyst materially disconfirmed by executed multi-year extension/new capital; other RESG and debt-on-debt evidence still tested at Q3. **Conviction:** prior Q2 🔴🔴 HIGH, not re-graded today; material adverse evidence requires review. **OZK-09 OPEN** (45% scoring prior; recognition measurement STUCK); A30/B45/C8/D17 and ~$129M EL are **pre-outcome model records on $555M**, not refreshed forecasts | **KB:** 247 rows / 37 groups
+**Thesis:** RESERVOIR **v1.6** — RaDD maturity-failure catalyst materially disconfirmed by executed multi-year extension/new capital; other RESG and debt-on-debt evidence still tested at Q3. **Conviction:** prior Q2 🔴🔴 HIGH, not re-graded today; bounded L690 review completed: no specific near-term large-loss catalyst established. **OZK-09 OPEN** (45% scoring prior; recognition measurement STUCK); A30/B45/C8/D17 and ~$129M EL are **pre-outcome model records on $555M**, not refreshed forecasts | **KB:** 250 rows / 37 groups
 **Short interest:** **~16.3% of float** (16.51M sh, **9/15/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 17.6** — up from 16.21M / 16.0 (8/31) and 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
-**Next:** Tue 10/13 dividend record date ($0.49) · Wed 10/14 Horton CHECK-BY · Tue 10/20 after close Q3 earnings / Wed 10/21 08:30 ET call (L520): RaDD recognition attribution, rating, redraw budget, other workouts · early-Nov Q3 10-Q / Call Report (JWT expires 11/5). **Bridge outcome established; accounting amount unresolved.**
+**Next:** Wed 10/14 Horton disposition checkpoint (bounded search done 10/12; occupancy UNRESOLVED) · Tue 10/20 AMC / Wed 10/21 08:30 ET Q3 L520: run prepared card · October-31 L520 check-by · early-Nov 10-Q/CR (JWT expires 11/5). L635 outcome closed; recognition amount remains unresolved.
 
 ---
 
@@ -111,8 +111,8 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 | Date | Event | Thesis Impact |
 |---|---|---|
 | **Tue Oct 13** | Dividend record date ($0.49, payable 10/20; ex-date = record date under T+1, INFERRED) | Not a thesis event; listed for the put arithmetic (TERRY's) |
-| **Wed Oct 14** | **Campus at Horton leasing check — CHECK-BY** (TODO C1) | Holds the D-severity band 50–65% ($275–360M); matters more with RaDD on a bridge |
-| **Tue Oct 20 AMC · Wed Oct 21 8:30 ET** | **Q3 earnings + call** — the "~92-day" RaDD report-back (DOCKET L520) | Extension terms (executed? term? curtailment? new equity?) · **RaDD 9/30 risk rating + past-due status** · SpecMention $616M reversal rate · NCO vs "back under industry" · provision "drift down" · OREO sale prices vs carrying |
+| **Wed Oct 14** | **Horton original CHECK-BY preserved** (C1) | Bounded search DONE 10/12; **current occupancy UNRESOLVED**. No lease-up/vacancy or new severity claim; next evidence path in bounded-check memo |
+| **Tue Oct 20 AMC · Wed Oct 21 08:30 ET** | **Q3 release + call (L520)** | PRE-PRINT card READY; Boston financing/title, OREO net cash prices, named SM migration, earnings/loss burden and RaDD recognition attribution; L635 execution already established |
 | ~~Oct 2026~~ ⚠️ **UNVERIFIED EVENT** | Affinius Capital "$2.7B bond maturity" — **issuer, instrument, amount and date all unverified** (possible Affinius / USAA Capital conflation, open since 4/22; TODO C5). **Not an actionable catalyst until verified.** | Separately, asset-level co-lending IS confirmed (OZK holds $95M of the Affinius-originated 777 Industrial note) [KB-203] |
 | **~Nov 1-10** | Q3 Call Report | LOG-ONLY: does `RIAD5409` keep printing? · `RCON2746` trajectory. ⏰ FFIEC JWT expires 11/5 (Will action) |
 | **Q4'26 print (~late Jan 2027)** | OZK-09 Option-2 window closes | Recognition ≥$140M through this print, absent an executed extension; negative branch resolves only after a named 3-leg sweep |
@@ -121,7 +121,7 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 ## Open Items (live queue → `TODO.md`)
 
-1. 🔴 **Campus at Horton leasing check** — owed since late July, **CHECK-BY 2026-10-14** (set 10/1); web searches on 9/24 and 9/27 found no lease, which does **not** discharge it (the only listing — Cushman, Bldg 200, 204,842 SF "Available" — is undated and still names pre-foreclosure owner Stockdale; needs SD trade press). The still-empty branch is what holds RaDD's D-severity band at **50–65% ($275–360M)** (label corrected 9/27 from "65-70%", which contradicted the playbook's own dollars).
+1. **Horton occupancy remains UNRESOLVED** after completed bounded check 10/12; original CHECK-BY 10/14 retained. No current still-empty claim or numerical severity move. Dated owner/tenant evidence is the next path → `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`.
 2. **RaDD accounting after executed extension** — recognition amount/valid upper bound not supplied in the 10/12 8-K; next resolver L520, Q3 call/10-Q. `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`.
 3. 🟡 **Does OZK populate MI3 from the debt-on-debt book only?** MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose balance ever reported from item 4.
 4. 🟡 **Bluerock/IQHQ marks** — last documented marks are H2'25 vintage; the BPRE webinar was held **10/6 at 4 PM ET (after the close)**, and its replay (posted 10/7) is video, so its content is UNKNOWN to this desk. BPRE top holdings at 8/31: IQHQ warrant equity 5.1% + IQHQ equity 2.6% of gross assets. **Aimco v. IQHQ** — no ruling found (as of 9/27 web search; docket pull owed). BPRE traded **~47% below NAV** on 9/3 (derived from its 9/3 distribution release: 7.3% on NAV vs 13.8% on $11.91 → NAV ≈ $22.5; the "38%" is Bisnow's **Dec-2025** listing-day figure — corrected 9/27 PM).
@@ -133,7 +133,7 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 ## Navigation
 
-**Cold boot → `INDEX.md`** · **Thesis → `THESIS.md` (v1.5)** · **IQHQ → `IQHQ_PLAYBOOK.md`** · **Credits → `SEVEN_CREDIT_DEEP_DIVE.md`** · **Bull pushback → `WEAKNESSES.md`** · **MI3 → `MI3_2025Q3_ADJUDICATION.md`** · **Backlog → `TODO.md`** · **KB → `workbook/KB_INDEX.md`** · **Q1 detail → `Q1_2026_ANALYSIS.md`**
+**Cold boot → `INDEX.md`** · **Thesis → `THESIS.md` (v1.6)** · **IQHQ → `IQHQ_PLAYBOOK.md`** · **Credits → `SEVEN_CREDIT_DEEP_DIVE.md`** · **Bull pushback → `WEAKNESSES.md`** · **MI3 → `MI3_2025Q3_ADJUDICATION.md`** · **Backlog → `TODO.md`** · **KB → `workbook/KB_INDEX.md`** · **Q1 detail → `Q1_2026_ANALYSIS.md`**
 
 ---
 
@@ -142,3 +142,5 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 **The RaDD maturity catalyst has materially weakened for Will's Nov-20 puts.** OZK's October 12 8-K confirms a multi-year extension executed October 9 with new sponsor/partner capital. WQ-395's extension requirement is met. **The paydown may be advanced again, the appraisal is as-stabilized, and RaDD-specific recognition is not disclosed** — so OZK-09 stays OPEN/STUCK on its separate attribution condition, not because the maturity outcome remains unknown.
 
 **RESERVOIR v1.6 separates this adverse outcome from portfolio stress.** Q2 adverse selection, OREO growth and debt-on-debt charge-offs remain dated evidence; the other-credit Q3 test (L520) still stands. The old 45% mark, A30/B45/C8/D17 and ~$129M EL are scoring/model history awaiting a supported review, not evidence-refreshed forecasts. TERRY receives the held-position evidence; this desk supplies no order or hold/roll advice.
+
+**L690 review:** independently supported other-credit stress, strong capital/cure contrary evidence; **no compelling specific near-term downside opportunity established**. Q3 is an information event, not a known loss event. Review `research/threads/2026-10-12_POST_EXTENSION_REVIEW.md` · card `workbook/Q3_2026_SCORING_CARD.md`. No automatic numerical conviction/weight change; no card/order recommendation.

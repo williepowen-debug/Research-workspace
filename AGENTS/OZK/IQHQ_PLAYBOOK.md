@@ -13,7 +13,7 @@
 
 1. **Outcome established 10/12:** a multi-year extension **executed 10/9**, with actual new capital. **WQ-395 qualifying-extension leg MET** (encoded 83aad459e); no longer negotiation color. The separate <$140M recognition leg is UNKNOWN, so **OZK-09 remains OPEN/STUCK**. → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`.
 2. **PRE-OUTCOME model record:** A30/B45/C8/D17, ~$129M lifetime EL on **historical $555M** funded; OZK-09 **45% scoring prior**. Do not cite these as outcome-refreshed probabilities/EL or transplant the old severity dollars to $579.1M. No numerical re-mark made.
-3. **Campus at Horton is the comp.** AllianceBernstein's **$130M credit bid on a $399M loan (Sep 2025) = 67% severity**; $169/SF × RaDD 1.5M SF ≈ $253M → the D band $275-360M holds as a **terminal/disposition** loss. Whether Horton has leased since is an **owed, unrun check** — it is what holds the D-severity band **50–65% ($275–360M on $555M funded; top end anchored by Horton's 67%)** — label corrected 9/27, was "65-70%", which never matched the band's own dollars.
+3. **Horton is a historical, imperfect comp:** bounded C1 search DONE 10/12, **current occupancy UNRESOLVED** → `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`. The old $130M credit-bid / $399M loan and 50–65% ($275–360M on old $555M) model inputs are not reverified market loss estimates. A lender bid is not an independent cash sale; unfinished conversion/completion obligations differ from completed RaDD. No new severity number.
 4. **Sponsor support now observed:** the issuer reports actual additional capital in 2026 and prior project contributions totaling approximately $1.23B. The prior no-new-2026-capital finding is superseded. Partners/source/legal funding form unspecified; corporate IQHQ/Bluerock stress is a different layer.
 5. **Next information:** Q3 recognition attribution, rating, loan budget/redraw conditions, leases and capital-provider obligations. Will's Nov-20 $40P ×4 was observed 10/7 (no new broker data); the bridge-default premise materially weakened. TERRY owns the card; this desk provides evidence.
 
@@ -261,7 +261,7 @@ The Apr-Aug position reads that stood here are retired (text → git history). *
 1. **Post-execution accounting/budget:** terms disclosed at 10/12 8-K (see `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`); now obtain attributable recognition, September-30 rating/past-due, redraw rules and gross funding roll-forward. Legal funding form/provider and future capital obligations remain unknown. → L520 Q3 call/10-Q.
 2. **Bluerock (now BPRE) IQHQ mark** — last documented marks are H2'25 vintage; a fresh markdown confirms sponsor distress. → 10/6 webinar.
 3. **Aimco MTD outcome** — no ruling found as of 9/24; direct docket pull owed (TODO C3).
-4. **Campus at Horton leasing** — owed, unrun (TODO C1).
+4. **Horton current occupancy UNRESOLVED** — bounded check completed 10/12 under L690; original 10/14 disposition retained. No current still-empty inference. → `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`.
 5. **Bioterra ($202M OZK loan, Sorrento Mesa)** — a second SD life-sci data point if it needs restructuring.
 6. **Affinius "$2.7B maturity"** — the **event itself** is unverified (issuer/amount/date unsourced; possible USAA Capital conflation) — not a catalyst until sourced (TODO C5).
 

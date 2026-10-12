@@ -1,0 +1,67 @@
+# OZK post-extension review — L690
+
+**Written:** 2026-10-12, before Q3 results. **Authority:** full committed approval `25e8cd00eddf0d7da4880c0aa4128e3cfc62f5e6`, Will's verbatim **Okay approved go ahead and direct OZK**. Consumed at 11:09 ET, acknowledgment `b3157aa26`; queue acceptance `01a130aa-5986-7a40-bbf5-8f9d27a2099c`. Existing OZK window; no delegated owner/helper, new direction or trade work.
+
+**Judgment:** the supported case is now **other-credit earnings/recognition risk**, not an imminent RaDD maturity default or a demonstrated capital crisis. Q2 disclosed real losses and a larger foreclosed-property inventory; those facts survive. Actual RaDD extension/new capital, sponsor-backed cures, the large earnings buffer and the fall in past-due balances are the strongest contrary evidence. **This review establishes no compelling, specific near-term downside opportunity.** The scheduled Q3 disclosure may expose one, but no unpublished credit loss is assumed and no price/option valuation was performed. This is research judgment, not a sale/hold/roll instruction on Will's positions.
+
+Deliverables: `workbook/Q3_2026_SCORING_CARD.md`; `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`. **No numerical gate, confidence, weight, conviction level, recognition threshold or window changed.** L635 is completed and consumed at PROME **ba61b01e1**; this review reuses its evidence, not its search. Thesis v1.6 is the existing factual architecture; no additional version bump needed for this review. Old ~$129M EL, A30/B45/C8/D17 and ~$150–300M reserve-build estimate are historical models, not forecasts repaired by prose.
+
+## Supported independently of RaDD
+
+| Argument | Dated issuer evidence | What it supports / what it does not |
+|---|---|---|
+| **Some projects already crystallized losses** | Q2 MC pp.22–24, FDIC **11969** (July 21): San Carlos $14.8M partial loss; Seattle office $22.3M, Seattle lab $3.7M, Atlanta office $8.5M; total **$49.3M** on four RESG loans | Actual losses and sponsor/buyer failures, not hypothetical appraisal marks. These are historical Q2 outcomes, **not four new Q3 catalysts**. Credit-specific paths differ |
+| **Foreclosed inventory is large and largely unrealized** | June-30 10-Q **11981**, p.22 (filed August 5): $61.076M at December-31 → **$292.744M** at June-30; H1 transfers $241.569M, sales $6.918M, markdowns $2.983M | Retained assets expose earnings to carrying costs and future markdowns; actual net cash disposals will test values. Stock build alone cannot prove how much remains overvalued |
+| **A concentration pattern survives** | Q2 MC p.22 combined total **$1,282M** vs **$1,215M** Q1 while RESG commitments **$25.7B** vs $27.8B; five RESG special-mention loans **$529.2M** of bank-wide $616.2M | Troubled exposure rose while total book shrank; future named cures/migrations are a discriminator. The pattern does not prove every repayment was healthy, gross migration rates or deliberate masking |
+| **Named unresolved credits have actual next-stage decisions** | Q2 MC p.23: **Boston 10 Prospect $169.3M**, nonaccrual, buyer pursuing financing on pending $330M property sale; The Jack $25.9M recap LOI and Wauwatosa $16.7M sale expected Q3; Baltimore $40M buyer talks. p.24: 8150 Sunset $54.5M OREO LOI | Boston is the largest remaining named potential loss event. Financing/closing and updated collateral evidence matter; the property sale price is not the bank's net payoff. None of the hoped-for transactions is assumed complete or failed today |
+| **Collateral methodology permits low initial reserve despite troubled status** | June-30 10-Q p.19: **$257.817M** of $300.416M nonaccrual balances have **no ALL**; collateral-dependent methodology/values in p.25 | Recognition depends on appraisal shortfall, so future cash pricing matters. No-ALL status is **not proof of an unrecognized loss**; independent sale-price evidence is thin |
+| **The CRE-lender transmission route has loss evidence** | Q2 Call Report `RIAD5409` **$42.437M YTD**, debt-on-debt balance **$430.277M**; prior sourced log and Q2 10-Q “Other” charge-off category | Losses occurred in this distinct CRE-purpose unsecured category. The Jack/San Carlos attribution remains **INFERRED**, not a primary borrower mapping. Book runoff origin remains unproven; one H1 flow is not a trend |
+
+Primaries already in the repository were re-extracted for relevant locators, not refreshed to pretend September data exists. Whole Q2 documents had been read in the September-24 desk pass; this review inspects the decisive rows/paragraphs. Source records and hashes → `sources/2026-10-12_L690/`. Reported MC and Call Report NPA/OREO bases remain separate; do not interchange them.
+
+## Weakened or disconfirmed arguments — contrary evidence stated fully
+
+| Argument formerly carrying weight | Strong contrary evidence | Honest remaining limit |
+|---|---|---|
+| **Near-term RaDD maturity failure / sponsor unable to provide cash** | Completed L635: October-12 issuer 8-K **12019** says extension **executed October 9 to December 2029**, with **$100M actual new capital**. This exceeds WQ-395's multi-year/new-money condition | Capital source/legal form undisclosed; $121.3M cash paydown may be advanced again; fully funded 68.4% LTV is September **as-stabilized**. Those are retained credit risks, not a revived October default catalyst |
+| **Any sponsor-supported extension is mere fiction** | RaDD has actual fresh contributions; Sullivan's $156.4M nonaccrual credit was recapitalized into a pass loan in Q2 (MC p.22) | Sullivan had a **$72.4M Q4-25 charge-off**; no Q2 charge-off does not make lifetime loss zero. New loan size/performance still limited. The original uncertainty cannot justify denying a real execution |
+| **Large problem balance implies imminent capital failure** | Q2 MC p.3 (bundle p.9): **PPNR $259.4M**, net common income $163.3M, TBV $48.41. PPNR / Q2 NCO $56.3M ≈ **4.6×** (arithmetic, historical). Q2 CET1 **11.80%** (prior Call Report primary); no new stress-model calculation here | PPNR fell 5.6% YoY and OREO costs can erode earnings; timing/buyback changes buffer. Still no independently established near-term capital crisis. Prior September “$424M probability-weighted stress” inherits old RaDD priors and is **not a post-extension forecast** |
+| **Every collateral figure is necessarily wrong** | Q2 MC p.25: **46% weighted fully funded LTV / 49% LTC on 243 credits**; sponsor equity below senior loans is a substantial cushion | Appraisal-based average masks dispersion; cash disposals, not assertions, decide tail losses. Do not turn a book average into proof each loan is protected—or dismiss the cushion without contrary values |
+| **Past-due reversal is harmless migration** | Q2 MC p.22: **past due $465M → $298M**; later CR 30–89 balance fell 88%. The thesis's own Q2 <$400M warning fired | Endpoints cannot separate cures from migration; NPA rose. Warning remains **FIRED-LITERAL / mechanism UNDETERMINED**, not safely dismissed and not automatically re-specified |
+| **Dead MI3 ratio / disclosure gap proves hidden defaults** | The **37.6% / worst-in-screen** claim was retracted. Operational extensions and financial-difficulty accounting disclosures use different definitions | Debt-on-debt losses survive as separately sourced evidence. The 37 extensions vs $0 CRE hardship table is a disclosure distinction, not proof of fraud/concealed nonaccrual |
+
+**The strongest challenge to the remaining thesis** is not an argument about future vacancy: it is that sponsor cash and selected cures are already happening while earnings absorb losses. Q3 could show The Jack/Wauwatosa/Boston resolving without additional loss and special mention reverting to pass. The bear case must allow that outcome to weaken it. It cannot retain an unchanged “inevitable loss” conclusion by relabeling every positive development as deferral.
+
+## Unresolved — missing information is not a bearish observation
+
+- **RaDD recognition:** no attributable amount or valid <$140M bound in October-12 8-K; OZK-09 **OPEN/STUCK** on accounting only. Original **45% is a scoring prior**, not an updated belief. If sourced qualifying sub-$140M evidence arrives, FALSE resolves immediately; aggregate losses alone do not allocate to RaDD. Legal equity form remains unknown under original kill-§3 wording.
+- **Current property values / completion:** the old OREO stress anchor is small-n; the 760 Aloha marked-to-offer versus completed-sale question belongs to REGINALD. No fresh mark or closure invented here. Horton occupancy is unresolved; no new RaDD market liquidation estimate follows from it.
+- **Modification durability / classification flows:** cures, payoffs and migration require credit-level paths; stocks and absent names cannot identify all flows. Q3 guidance may remain aggregate; unresolved is a valid result.
+- **RESG versus bank-wide NCO scope:** OZK-03's registered RESG object is not repaired by substituting the readily available total-loan rate. Existing P-OZK-5 remains separately gated. No retrospective reinterpretation of the Q2 grade.
+
+## TERRY's question: supported catalyst, timing, falsification
+
+| Remaining observation | When / evidence | What would strengthen an OZK-specific downside case | What would weaken it / leave it unresolved |
+|---|---|---|---|
+| **Boston 10 Prospect sale/financing outcome** | October-20 release/MC; October-21 call; early-Nov 10-Q | Failed financing/closing plus title, new collateral shortfall or attributable recognized loss | Executed cash payoff clearing lender carrying value weakens. Still-pending financing, appraisal or unnamed aggregate NCO leaves specific-loss timing/amount unresolved |
+| **OREO sale/markdown realization** | Same Q3 sequence, L520 W3–W6/W11 | Disclosed net proceeds below carrying or new markdown on an identified property | Cash sales at/above carrying weaken. **No OREO sale priced in Q3** means no market-clearing test, not confirmation |
+| **Special-mention migration / concentration** | Same Q3 sequence, combined MC basis | Named migrations/new reserves while commitments run off | Sourced pass reversals/cures with cash support weaken. A smaller SM stock without flow detail remains ambiguous |
+| **Loan-loss / earnings burden** | Q3 as-printed NCO/provision/PPNR; later 10-Q | New losses with attribution and earnings impact, broader than the four historical Q2 credits | Low losses plus evidenced cures weaken. Lower NCO alone is not proof all delayed losses vanished; Q3 ≤55bps alone also cannot make Q2's 0.69% a sustained two-quarter low-loss result |
+
+These are **scheduled potential information catalysts**, not confirmed forthcoming loss events. There is no date-certain RaDD default catalyst left in the November-put horizon from L635. A post-extension undisclosed reserve might emerge, but its possibility alone is not sufficient evidence to underwrite it. Price, option premium, structure, sizing, hedge/roll and execution remain TERRY/Will's work; this review does not recommend an order or commission a successor to the ruled-closed salvage proposal.
+
+## Horton and model-work disposition
+
+**C1:** twelve bounded search queries plus targeted direct opens completed October 12, before the **October-14 check-by**. Dated Q1-26 office research offers a development forecast; old retail announcements and undated available-space listings do not measure post-foreclosure occupancy. Current owner/operator lease evidence and underlying city documents inaccessible. **Work leg complete; occupancy/result UNRESOLVED**; next available evidence path named in the check. No fresh vacancy/lease-up claim or severity-band change. Horton completion/permit obligations make it an imperfect comparison with completed RaDD; lender credit bid is not a cash-sale price proving a loss percentage.
+
+**Broader reserve-model rebuild: deferred.** Its decision value would become concrete if Q3 reveals new named classifications/appraisals, actual disposal prices, retained balances after cures and attribution of charge-offs; those inputs would resolve the existing $150–300M estimate's stale roster/mix weaknesses. Rebuilding now from the same old appraisals and unknown flows risks a more precise-looking unsupported number. No new model scope or numerical proposal is requested by this memo; return with the specific data gap/value if the Q3 card establishes it.
+
+## Completion of the bounded assignment
+
+| L690 leg | Delivery | State |
+|---|---|---|
+| Post-extension supported/weakened/unresolved review + contrary evidence/catalyst answer | This memo | **DONE**, qualitative research judgment; no numerical re-mark |
+| Existing D3/D3b scoring card | `workbook/Q3_2026_SCORING_CARD.md` | **DONE**, PRE-PRINT; original priors/thresholds preserved; Q3 result observations pending publication |
+| Existing C1 Horton check | `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md` | **DONE as bounded search**, current occupancy **UNRESOLVED**; original October-14 disposition explicitly retained |
+
+Remaining dates: L520 release October 20 / call October 21, CHECK-BY October 31; early-Nov 10-Q/CR and November-5 JWT expiry. No repeated L635 search, further county attempt, cross-desk analysis, general subdomain refresh, model rebuild, trade, or automatic score/conviction change performed. Results/source/owner-state and PROME/TERRY delivery will be committed before idling. This assignment is not a session-closeout request.

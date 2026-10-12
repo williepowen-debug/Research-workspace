@@ -41,7 +41,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 | Bluerock TI+ NAV mark | **No fresh Q1'26 mark found (checked 7/4)** — all documented IQHQ marks are H2-2025 vintage (TI+ −4.4% → $6.28). Fresh mark = leading indicator for RaDD credit + re-arms the Bluerock trade gate. | Watch via COUNTERPARTY_WATCH |
 | **Aug 2026 bullet maturity** | Gleason Q1 26 call: "August is an eternity," framing possible sponsor support. 4-scenario tree in IQHQ_PLAYBOOK: **A-extend 30% / B-substandard 45% / C-takeout 8% / D-foreclose 17%** [re-weighted 7/23, Will-approved]. Weighted EL **~$129M**; pre-registered reads OZK-08/09. | ✅ **Q2 26 earnings RESOLVED Jul 21-22** — OZK-08 **FALSE** (no IQHQ reserve); mgmt: multi-year extension + recap in negotiation, "remain pass-rated", interest from interest reserves, "~92d" → **Q3 call (~Oct 21)** is the next test |
 | OZK impairment | No specific reserve Q1 26 **or Q2 26**. | ✅ **OZK-08 resolved FALSE 7/22** (Brier 0.0784 — the low-prob read verified). Next: **Q3 call ~Oct 21** |
-| Campus at Horton (comp) | AllianceBernstein credit bid Sep 2025 (per KB). Leasing activity since would be demand signal; still-empty holds RaDD D-severity **50–65% ($275–360M)** (label corrected 2026-09-27 from "65-70%" to match `IQHQ_PLAYBOOK.md` §3). | Late Jul |
+| Campus at Horton (comp) | **Bounded search DONE 10/12; current occupancy UNRESOLVED** → `../research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`. Historical credit-bid/severity model not refreshed; no current still-empty inference | Original 10/14 checkpoint, next dated operator/tenant evidence |
 
 ## SD Market Context
 
@@ -107,7 +107,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 - [ ] Bluerock TI+ NAV marks — ⚠️ **RE-OPENED 2026-08-28.** ✅ checked 7/4: no fresh Q1 mark existed *then*; latest documented remains H2'25 vintage (TI+ −4.4% → $6.28). **The `[x]` was the defect: a negative closed with a tick stops being re-checked, and this one is 55 days old with Q2 fund reporting since elapsed.** A fresh TI+ mark is a leading indicator for RaDD credit. Standing watch → COUNTERPARTY_WATCH.
 - [ ] Aimco v. IQHQ MTD — ⚠️ **RE-OPENED 2026-08-28.** ✅ checked 7/4: no ruling *as of then*; likely still in briefing; complaint does not name Bluerock. **Its own re-check trigger — "with Q2 prep" — FIRED on 7/21 and nobody acted, because the `[x]` made it look settled.** Docket pull owed (courts.delaware.gov, Del. Chancery).
 - [ ] IQHQ next capital raise or asset sale announcement
-- [ ] Campus at Horton post-foreclosure leasing update (late July)
+- [ ] Horton current occupancy unresolved after completed 10/12 bounded check; original 10/14 disposition retained, evidence path above (no indefinite search).
 - [ ] Any new RaDD lease signing (changes narrative)
 - [ ] Bioterra ($202M) status — leasing or restructuring?
 - [ ] Q2 2026 vacancy data refresh (CBRE/JLL July releases — Q1 April releases were never pulled; get both if possible)

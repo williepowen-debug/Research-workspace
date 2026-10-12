@@ -1,8 +1,8 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-10-12 — D7 bridge outcome DONE, P-OZK-6 encoded (83aad459e), R3 $87M date resolved by primary; remaining RaDD accounting/budget folded into existing D3/L520.
+**Last updated:** 2026-10-12 — L690 review/card/Horton bounded leg complete; Q3 results not graded. L635 closed/consumed. C1 occupancy UNRESOLVED with next evidence path; original dates preserved.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
-**▶ WORK ORDER (set 2026-09-24, CATO: evidence before restructuring): C1 Horton → R1 reserve re-derivation → D2/D3 Q3 date + card → D1 10/2 read.**
+**▶ WORK ORDER (L690, Will-approved 10/12):** run the ready Q3 card at L520; review Horton unresolved disposition at original 10/14 checkpoint. Broader reserve-model rebuild **DEFERRED** pending decision-relevant Q3 inputs; no general subdomain refresh.
 
 ⛔ **Standing fence:** **D1 / OZK-salvage is RULED-CLOSED.** Do not re-present, re-litigate, or propose a successor position. Any future OZK expression is a **new** trade — TERRY builds, Will approves.
 
@@ -14,9 +14,9 @@
 |---|---|---|---|
 | D1 | ✅ **DONE 10/2 08:31 ET** — reset HAPPENED, uncontradicted (FLNG rc0 182 + press empty; thread §5, KB-242) · ~~Sub-notes 10/1 read~~ (DOCKET L463) | **Fri 10/2 AM** | Coupon CLOSED 10/1 (≈6.19%, ≈+$12.3M/yr — `research/threads/2026-10-01_SUBNOTES_RESET.md`); 10/2 = `flng_watch.py` + one press search only: rc 0 = SCHEDULED-UNCONTRADICTED (never "confirmed") · rc 1 = read filing; redemption/refi = 🟠 REGINALD · rc 2 = UNKNOWN, re-run |
 | D2 | ✅ **DONE 10/2** — Q3 release Tue 10/20 after close, call Wed 10/21 8:30 ET (OZK release 9/30); CALENDAR + boot.py set · ~~Q3 date~~ | (the 10/1 'not announced' was wrong — FLNG omits press releases) | Aggregators guess ~10/15 |
-| D3 | **Build Q3 scoring card** before 10/20 after close | before Q3 print | RaDD execution established 10/12 (WQ-395 encoded); recognition amount/valid upper bound remains UNKNOWN; 9/30 rating/past-due; $700.4M inferred pre-paydown funding reconciliation; redraw budget/capital obligations; other RESG workouts, SpecMention $616M reversal, NCO, provision, classified+criticized/RESG. → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md` |
+| D3 | **Q3 scoring card READY** — prepared 10/12 under L690 | **Run** 10/20 AMC / 10/21 08:30 ET; check-by 10/31 | `workbook/Q3_2026_SCORING_CARD.md`; original priors/definitions unchanged, no Q3 observation graded. Boston/OREO/SM/earnings + remaining RaDD accounting/budget/rating questions |
 | ~~D4~~ | ✅ **DONE 9/24 — Q2'26 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md` (+ Q2 MC credit pages). Roster turned over; Dec 18 misattribution found; RIAD5409 attribution inferred; RaDD pass-rated by elimination | — | ⭐ The Q1 read produced the debt-on-debt pillar and the $250.4M-at-$0-ALL deferral finding; the Q2 one is unread (keyword pass only). Q2'25 + Q3'25 10-Qs are local too |
-| D3b | **PROME DOCKET L520 — Q3 workout follow-through** (CHECK-BY 10/31): re-grade `2026-09-27_Q2_WORKOUT_CHECK_OZK.md` W1–W14 on the Q3 print — OREO sale price vs carrying · Boston · RaDD terms · SM migration · buyback run-rate. No OREO sale priced ⇒ record "no OREO sale priced in Q3" (hypothesis stays open) | Q3 print | Fold into the D3 scoring card |
+| D3b | **L520 W1–W14 collection pre-staged** | Q3 publication sequence | All existing workout rows in `workbook/Q3_2026_SCORING_CARD.md`. No priced OREO sale ⇒ exact unresolved phrase in card; retain early-Nov 10-Q needed legs |
 | D5 | **Insider pull after the Q3 print** (FDIC EFR cert 110) | post-print | Last pull 9/24: zero buys since 7/6 |
 | D6 | **Q3 Call Report pull** (LOG-ONLY) | ~Nov 1-10 | ⏰ **FFIEC JWT expires 11/5 — Will action.** `RIAD5409` continuation · `RCON2746` vs Q3 10-Q debt-on-debt · Memo-10 PV05-09 |
 
@@ -24,7 +24,7 @@
 
 | # | Item | Status | Note |
 |---|---|---|---|
-| C1 | **Campus at Horton leasing** (downtown SD, 770K SF, lender AllianceBernstein) | 🔴 owed since late Jul · **CHECK-BY 2026-10-14** (set 10/1: before the ~10/15 Q3 window, so the RaDD report-back is read against a known Horton state) | 9/24 + 9/27 web searches empty ≠ discharged. 9/27: the only listing (Cushman, Bldg 200, 204,842 SF "Available") is undated and names pre-foreclosure owner Stockdale → stale page, proves nothing. Needs SD Business Journal / Bisnow SD / CoStar (browser) or an AB/owner release. Holds the RaDD severity band (see R6). 10/1: lane phrase `Campus at Horton` landed (RESEARCH-INTAKE 52b3ae6) — RECALL-UNPROVEN (0 lane / 0 live, WALTER 4e51f69ee); a silent phrase never discharges this check |
+| C1 | **Horton current leasing/occupancy evidence** | **Bounded search DONE 10/12; result UNRESOLVED** · original CHECK-BY **10/14** retained | `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`: no dated current operator occupancy measure; dated forecast/undated listing/old retail announcements insufficient. Next owner/tenant/city evidence path, no indefinite search |
 | C2 | **SD County Recorder — signed RaDD extension/covenants** | 10/12 403; instrument unread | Issuer establishes 10/9 execution to Dec-2029. Independent recorder number/title, covenants, redraw terms remain UNKNOWN; no claimed Sixth Modification |
 | C3 | **Aimco v. IQHQ** motion-to-dismiss ruling | 🟡 none found (as of 9/27, web only) | Direct docket pull (courts.delaware.gov) |
 | C4 | **Severity comp refresh** (KB-OZK-177 bands) | 🟠 stale since 7/31 | Q2-Q3 distressed CRE transactions; Spur deed-in-lieu (9/17) is a new data point |
@@ -34,7 +34,7 @@
 
 | # | Item | Priority | Note |
 |---|---|---|---|
-| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | 🟠 **now unblocked** | Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) |
+| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | **DEFERRED by L690** | Rebuild only if Q3 supplies decision-relevant new classifications/cash prices/retained balances; not commissioned now. Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) |
 | R2 | **Refresh the 4 subdomain STATUS files** — LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT (was S2) | 🟠 | All pre-Q2-print; INSIDERS/SELLING got the 9/24 pull only. Largest body of work |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |
 | R5 | **Bluerock BPRE / IQHQ marks** | 🟡 | Last marks H2'25 vintage; BPRE webinar held 10/6 4 PM ET (after the close); replay posted 10/7 is video, content UNKNOWN; IQHQ = 5.1% warrant equity + 2.6% equity of BPRE gross assets at 8/31. **BPRE ~47% below NAV @9/3 (derived, KB-239), widened from ~38% at the Dec-25 listing.** A Bluerock trade idea is a **TERRY/BROCK** question, not this desk's |

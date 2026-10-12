@@ -61,19 +61,21 @@
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-10-12 — Will launch, L635; OpenAI Codex, GPT-6 exposed, exact variant/session ID UNKNOWN)
+### LAST SESSION (2026-10-12 — Will launch L635 + approved L690 continuation; OpenAI Codex, GPT-6 exposed, exact variant/session ID UNKNOWN)
 - Explicit root/desk boot reads completed; corrections rc0. Sandbox DNS failure recovered by authorized network escalation. Boot found **FDIC FLNG 12019**, read all 3 pages, preserved PDF/text/index + dated market receipt.
 - **WQ-395 ENCODED 83aad459e** from committed ruling d28131cb3; actual October-9 multi-year/new-capital execution recorded separately afterward. Recognition attribution guard prevents an unsupported FALSE/zero-loss grade.
 - Thesis **v1.6** + CHANGELOG: RaDD near-maturity catalyst materially disconfirmed; original invalidation letters and numerical priors/weights unchanged. Prior Q2 HIGH conviction carries review caveat; old model explicitly pre-outcome.
-- D7/L635 outcome complete; R3 $87M date resolved from primary; D3/L520 carries accounting, draw roll-forward and capital-provider questions. KB 245–247; INDEX/KB_INDEX synced. LIFE_SCI has dated RaDD overlay; other data historical.
+- L635 complete/consumed; R3 $87M date resolved. **L690 approval 25e8cd00e consumed 11:09 ET**, receipt b3157aa26; native queue accepted 01a130aa-5986-7a40-bbf5-8f9d27a2099c. Three legs DONE: post-extension review, PRE-PRINT Q3 card, bounded Horton search (occupancy UNRESOLVED). KB 245–250 / 250 rows / 37 groups; mirrors synced. No new scoring/conviction/model number, other-data refresh or trade.
 - Required deliverables: `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`, PROME completion memo, TERRY held-position evidence, WALTER routing packet. Disk delivery is not recipient consumption. Native model tools lacked cross-runtime messaging; **CLI queue discovered and notification accepted ~10:55 ET** on PROME's explicit status request (receipt in outbox). **PROME consumption VERIFIED at committed ba61b01e1**, `PROME/reports/2026-10-12_OZK-L635-consumption.md`: status, source and evidence actually read; DOCKET L635 RESOLVED. TERRY working-state integration observed by PROME, not a committed TERRY completion receipt. No duplicate maturity search; this receipt is **not a closeout request**.
 - Boot pull deferred under root Before pulling (DAEDALUS modified files + BRENT untracked data outside OZK); commit locally and defer push. Others' residue untouched. Full persistence receipt in delivery memo. PROME ba61b01e1 records prior evidence/delivery included in its guarded push through 6163b43eb; publication of newer coordination commits remains for the next guarded push.
 
+- L690 judgment: supported other-credit stress, strong contrary sponsor/cure/earnings evidence; **no specific near-term large-loss catalyst or compelling downside opportunity established**. Full memo `research/threads/2026-10-12_POST_EXTENSION_REVIEW.md`; no county retry, model rebuild or price/option work. Deliver PROME/TERRY artifacts before idling; no closeout requested.
+
 ### NEXT SESSION — existing obligations
-1. **CHECK-BY 10/14:** C1 Campus at Horton leasing check.
-2. **Before 10/20 AMC:** D3 Q3 scoring card; RaDD recognition/valid bound, 9/30 rating/past-due, pre-paydown funding roll-forward, redraw budget and future capital obligations. **10/20 print / 10/21 08:30 ET call = L520**.
+1. **Original 10/14 C1 checkpoint:** bounded work completed 10/12; current occupancy UNRESOLVED. Record that disposition; next dated owner/tenant/city evidence path in `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`, no indefinite retry or new empty/vacancy claim.
+2. **D3/D3b card READY:** run `workbook/Q3_2026_SCORING_CARD.md` on **10/20 AMC / 10/21 08:30 ET (L520)**. All W1–W14, six RaDD accounting/funding rows and same-basis portfolio diagnostics; no unpublished observations graded. L520 CHECK-BY 10/31; 10-Q/CR follow-on retained.
 3. L635 consumption complete at PROME; preserve TERRY's observed working integration and distinguish committed completion. WALTER routing of remaining primary/corrections follows its normal lane. No new broker capture received; no option quote or order from this desk.
 4. Early-Nov 10-Q/Call Report; **FFIEC JWT expires 11/5**. November 2–December 22 sub-notes call-notice watch unchanged.
-5. Carry queue → TODO: R1 reserve re-derivation, R4 MI3-population, R5 marks, C2 county instrument, C3 Aimco, C4 comps, C5 Affinius; tooling T1; P-OZK-1/4/5 still gated. **P-OZK-6 is done**.
+5. Carry queue → TODO: **R1 reserve rebuild DEFERRED under L690** until new Q3 inputs establish value, R4 MI3-population, R5 marks, C2 county instrument, C3 Aimco, C4 comps, C5 Affinius; tooling T1; P-OZK-1/4/5 still gated. **P-OZK-6 is done**.
 
 ⛔ D1/OZK-salvage remains RULED-CLOSED. TERRY builds any card; Will owns orders. Do not read prediction OPEN as a hold/roll instruction.

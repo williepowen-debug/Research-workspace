@@ -1,0 +1,6354 @@
+UNITED	STATES
+FEDERAL	DEPOSIT	INSURANCE	CORPORATION
+WASHINGTON,	DC	20429
+
+FORM	8-K
+CURRENT	REPORT
+
+Pursuant	to	Section	13	or	15(d)	of	the
+Securities	Exchange	Act	of	1934
+
+Date	of	report	(Date	of	earliest	event	reported):
+
+July	21,	2026
+
+BANK	OZK
+(Exact	name	of	registrant	as	specified	in	its	charter)
+Arkansas
+(State	or	other	jurisdiction	of	incorporation)
+
+110
+(FDIC	Certificate	Number)
+
+71-0130170
+(IRS	Employer	Identification	No.)
+
+18000	Cantrell	Road,	Little	Rock,	Arkansas
+(Address	of	principal	executive	offices)
+
+72223
+(Zip	Code)
+
+(501)	978-2265
+(Registrant’s	telephone	number,	including	area	code)
+
+Not	Applicable
+
+(Former	name	or	former	address,	if	changed	since	last	report)
+
+Check	the	appropriate	box	below	if	the	form	8-K	filing	is	intended	to	simultaneously	satisfy	the	filing	
+obligation	of	the	registrant	under	any	of	the	following	provisions	(see	General	Instruction	A.2.):
+
+(		)	 Written	communications	pursuant	to	Rule	425	under	the	Securities	Act	(17	CFR	230.425)
+
+(		)	
+
+(		)	
+
+(		)	
+
+Soliciting	material	pursuant	to	Rule	14a-12	under	the	Exchange	Act	(17	CFR	240.14a-12)
+
+Pre-commencement	communications	pursuant	to	Rule	14d-2(b)	under	the	Exchange	Act	
+(17	CFR	240.14d-2(b))
+
+Pre-commencement	communications	pursuant	to	Rule	13e-4(c)	under	the	Exchange	Act	
+(17	CFR	240.13e-4(c))
+
+Securities	registered	pursuant	to	Section	12(b)	of	the	Act:
+
+Title	of	each	class
+Common	Stock,	$0.01	par	value	per	share
+4.625%	Series	A	Non-Cumulative	Perpetual	
+Preferred	Stock,	$0.01	par	value	per	share
+
+Trading	Symbol(s)
+OZK
+
+Name	of	each	exchange	on	which	registered
+Nasdaq	Global	Select	Market
+
+OZKAP
+
+Nasdaq	Global	Select	Market
+
+Indicate	by	check	mark	whether	the	registrant	is	an	emerging	growth	company	as	defined	in	Rule	405	of	the	
+Securities	Act	of	1933	(17	CFR	§230.405)	or	Rule	12b-2	of	the	Securities	Exchange	Act	of	1934	(17	CFR	
+§240.12b-2).	
+
+Emerging	growth	company	☐	
+
+If	an	emerging	growth	company,	indicate	by	check	mark	if	the	registrant	has	elected	not	to	use	the	extended	
+transition	period	for	complying	with	any	new	or	revised	financial	accounting	standards	provided	pursuant	to	
+Section	13(a)	of	the	Exchange	Act.	☐
+
+Item	2.02	Results	of	Operations	and	Financial	Condition.
+
+On	July	21,	2026,	Bank	OZK	(the	“Bank”)	issued	a	press	release	announcing	its	financial	results	for	
+
+the	second	quarter	and	first	six	months	of	2026	and	made	available	its	management	comments	and	earnings	
+release	financial	supplement.	The	materials	contain	forward-looking	statements	regarding	the	Bank	and	
+include	cautionary	language	identifying	important	factors	that	could	cause	actual	results	to	differ	materially	
+from	those	anticipated.	The	second	quarter	and	first	six	months	of	2026	press	release,	management	
+comments	and	earnings	release	financial	supplement	with	respect	thereto	are	furnished	as	Exhibits	99.1,	
+99.2	and	99.3,	respectively,	to	this	Current	Report	on	Form	8-K	and	are	available	on	the	Bank’s	investor	
+relations	website.	
+
+As	previously	reported,	the	Bank	will	conduct	a	conference	call	and	webcast	on	July	22,	2026	to	
+
+answer	questions	regarding	the	Bank’s	financial	results	for	the	second	quarter	and	first	six	months	of	2026.
+
+The	information	furnished	pursuant	to	this	Item	2.02,	including	Exhibits	99.1,	99.2	and	99.3,	shall	
+
+not	be	deemed	to	be	“filed”	for	purposes	of	Section	18	of	the	Securities	Exchange	Act	of	1934,	as	amended	
+(the	“Exchange	Act”),	or	otherwise	subject	to	the	liabilities	under	that	section,	and	shall	not	be	deemed	to	
+be	incorporated	by	reference	into	any	filing	of	the	Bank	under	the	Securities	Act	of	1933,	as	amended,	or	the	
+Exchange	Act	except	as	expressly	set	forth	by	specific	reference	in	such	filing.	All	information	in	the	second	
+quarter	and	first	six	months	of	2026	press	release,	management	comments	and	earnings	release	financial	
+supplement	with	respect	thereto	speaks	as	of	the	date	thereof,	and	the	Bank	does	not	assume	any	
+obligation	to	update	such	information	in	the	future.
+
+Item	7.01	Regulation	FD	Disclosures.
+
+See	Item	2.02	Results	of	Operations	and	Financial	Condition.
+
+Cautionary	Statements	Regarding	Forward-Looking	Information
+
+This	Current	Report	on	Form	8-K	(including	the	Exhibits	hereto)	contains	forward-looking	statements	
+
+within	the	meaning	of	the	Private	Securities	Litigation	Reform	Act	of	1995.	These	statements	are	based	on	the	
+current	beliefs	and	expectations	of	the	Bank’s	management	and	are	subject	to	significant	risks	and	
+uncertainties.	Actual	results	may	differ	from	those	set	forth	in	the	forward-looking	statements.	Factors	that	
+could	cause	the	Bank’s	actual	results	to	differ	materially	from	those	described	in	the	forward-looking	
+statements	can	be	found	in	the	forepart	of	Part	I	and	Item	1A	of	the	Bank’s	most	recent	Annual	Report	on	Form	
+10-K;	and	Item	2	of	Part	I	and	Item	2A	of	Part	II	of	the	Bank’s	Quarterly	Report(s)	on	Form	10-Q	filed	after	the	
+Annual	Report,	all	of	which	have	been	filed	with	the	Federal	Deposit	Insurance	Corporation	(“FDIC”)	pursuant	to	
+the	Exchange	Act	and	are	available	on	the	Bank’s	website	(https://ir.ozk.com/filings/documents)	and	on	the	
+FDIC’s	website	(https://efr.fdic.gov/fcxweb/efr/index.html).	The	Bank	assumes	no	obligation	to	update	any	
+forward-looking	statements.
+
+Item	9.01	Financial	Statements	and	Exhibits.
+
+(d)	Exhibits:
+
+The	following	exhibits	are	being	furnished	to	this	Current	Report	on	Form	8-K.
+
+99.1
+
+99.2
+
+99.3
+
+Press	Release	dated	July	21,	2026:	Bank	OZK	Announces	Second	Quarter	2026	Earnings
+Management	Comments	for	the	Second	Quarter	and	First	Six	Months	of	2026	-	dated	July	21,	
+2026
+Earnings	Release	Financial	Supplement	for	the	Second	Quarter	and	First	Six	Months	of	2026
+
+SIGNATURES
+
+Pursuant	to	the	requirements	of	the	Securities	Exchange	Act	of	1934,	the	registrant	has	duly	caused	
+
+this	report	to	be	signed	on	its	behalf	by	the	undersigned	hereunto	duly	authorized.
+
+Date:		July	21,	2026
+
+BANK	OZK
+
+/s/	Tim	Hicks________________
+Name:	Tim	Hicks
+Title:				Chief	Financial	Officer
+
+Exhibit	
+No.
+
+99.1
+
+99.2
+
+99.3
+
+Document	Description
+
+Press	Release	dated	July	21,	2026:	Bank	OZK	Announces	Second	Quarter	2026	Earnings
+Management	Comments	for	the	Second	Quarter	and	First	Six	Months	of	2026	-	dated	
+July	21,	2026
+Earnings	Release	Financial	Supplement	for	the	Second	Quarter	and	First	Six	Months	of	
+2026
+
+NEWS	RELEASE
+Date:
+Release	Time:
+Investor	Contact:
+Media	Contact:
+
+July	21,	2026
+3:05	p.m.	(CT)
+Jay	Staley	(501)	906-7842
+Michelle	Rossow	(501)	906-3922
+
+Exhibit 99.1
+
+Bank	OZK	Announces	
+Second	Quarter	2026	Earnings	
+
+LITTLE	ROCK,	ARKANSAS:		Bank	OZK	(the	“Bank”)	(Nasdaq:	OZK)	today	announced	that	net	income	
+
+available	to	common	stockholders	for	the	second	quarter	of	2026	was	$163.3	million,	a decrease of 8.7%	from	
+
+$178.9	million	for	the	second	quarter	of	2025, but an increase of 2.5% from $159.3 million for the first quarter 
+
+of 2026.	For	the	first	six	months	of	2026,	net	income	available	to	common	stockholders	was	$322.6	million,	a	
+
+7.0%	decrease	from	$346.8	million	for	the	first	six	months	of	2025.	Diluted	earnings	per	common	share	(“EPS”)	
+
+for	the	second	quarter	of	2026	were	$1.49,	a	decrease of 5.7% from	$1.58	for	the	second	quarter	of	2025, but 
+
+an increase of 3.5% from $1.44 for the first quarter of 2026.	EPS	for	the	first	six	months	of	2026	were	$2.93,	a	
+
+3.9%	decrease	from	$3.05	for	the	first	six	months	of	2025.
+
+George	Gleason,	Chairman	and	Chief	Executive	Officer,	stated,	“We	are	pleased	to	report	our	solid	
+
+financial	results	for	the	quarter	including	EPS	of	$1.49,	a	1.60%	return	on	assets,	a	4.24%	net	interest	margin,	a	
+
+39.2%	efficiency	ratio,	strong	increases	in	our	book	value	and	tangible	book	value	per	common	share,	and	
+
+meaningful	increases	in	our	capital	ratios.	We	continued	to	make	significant	progress	with	the	strategic	
+
+diversification	of	our	loan	portfolio.	Our	solid	financial	performance	and	steady	progress	on	numerous	
+
+strategic	initiatives	have	us	well-positioned	for	the	future.”
+
+MANAGEMENT	COMMENTS,	FINANCIAL	SUPPLEMENT	AND	CONFERENCE	CALL
+
+In	connection	with	this	release,	the	Bank	released	its	management	comments	on	its	quarterly	results	
+
+and	a	financial	supplement,	which	are	available	at	the	Bank's	investor	relations	website.	
+
+Management	will	conduct	a	conference	call	to	take	questions	at	7:30	a.m.	CT	(8:30	a.m.	ET)	on	
+
+Wednesday,	July	22,	2026.	Interested	parties	may	access	the	conference	call	live	via	webcast	on	the	Bank’s	
+
+investor	relations	website,	or	may	participate	via	telephone	by	registering	using	this	online	form.	Upon	
+
+registration,	all	telephone	participants	will	receive	the	dial-in	number	along	with	a	unique	PIN	number	that	
+
+can	be	used	to	access	the	call.	A	replay	of	the	conference	call	webcast	will	be	archived	on	the	Bank’s	website	
+
+for	at	least	30	days.
+
+1
+
+GENERAL	INFORMATION
+
+Bank	OZK	(Nasdaq:	OZK)	is	a	regional	bank	providing	innovative	financial	solutions	delivered	by	expert	
+
+bankers	with	a	relentless	pursuit	of	excellence.	Established	in	1903,	Bank	OZK	conducts	banking	operations	in	
+
+267	offices	in	nine	states	including	Arkansas,	Georgia,	Florida,	Texas,	North	Carolina,	Tennessee,	New	York,	
+
+California	and	Mississippi	and	had	$41.7	billion	in	total	assets	as	of	June	30,	2026.	For	more	information,	visit	
+
+ozk.com.
+
+The	Bank	files	annual,	quarterly	and	current	reports,	proxy	materials,	and	other	information	required	
+
+by	the	Securities	Exchange	Act	of	1934	with	the	Federal	Deposit	Insurance	Corporation	(“FDIC”),	copies	of	
+
+which	are	available	electronically	at	the	FDIC’s	website	and	are	also	available	on	the	Bank’s	investor	relations	
+
+website	at	ir.ozk.com.	Use	this	online	form	to	receive	automated	email	notifications	for	these	materials.
+
+FORWARD-LOOKING	STATEMENTS
+
+This	press	release	and	other	communications	by	the	Bank	and	its	management	may	include	certain	
+
+statements	that	constitute	“forward-looking	statements”	within	the	meaning	of	the	Private	Securities	
+
+Litigation	Reform	Act	of	1995.	These	statements	can	be	identified	by	the	fact	that	they	do	not	relate	strictly	to	
+
+historical	or	current	facts.	Forward-looking	statements	often	use	words	such	as	“anticipates,”	“targets,”	
+
+“expects,”	“hopes,”	“estimates,”	“intends,”	“plans,”	“goals,”	“believes,”	"	feels,"	“continue”	and	other	similar	
+
+expressions	or	future	or	conditional	verbs	such	as	“will,”	“may,”	“might,”	“should,”	“would”	and	“could.”	
+
+Forward-looking	statements	represent	the	Bank’s	current	expectations,	plans	or	forecasts	of	its	future	results,	
+
+revenues,	liquidity,	net	interest	income,	provision	for	credit	losses,	expenses,	efficiency	ratio,	capital	
+
+measures,	strategy,	deposits,	assets,	and	future	business	and	economic	conditions	more	generally,	and	other	
+
+future	matters.	These	statements	are	not	guarantees	of	future	results	or	performance	and	involve	certain	
+
+known	and	unknown	risks,	uncertainties	and	assumptions	that	are	difficult	to	predict	and	are	often	beyond	
+
+the	Bank’s	control.	Actual	outcomes	and	results	may	differ	materially	from	those	expressed	in,	or	implied	by,	
+
+any	of	these	forward-looking	statements.
+
+2
+
+Exhibit 99.2
+
+FORWARD-LOOKING STATEMENTS 
+
+This presentation and other communications by the Bank and its management may include certain statements that constitute 
+“forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. These statements can 
+be identified by the fact that they do not relate strictly to historical or current facts. Forward-looking statements often use words 
+such as “anticipates,” “targets,” “expects,” “hopes,” “estimates,” “intends,” “plans,” “goals,” “believes,” “feels,” “continue” and 
+other similar expressions or future or conditional verbs such as “will,” “may,” “might,” “should,” “would” and “could.” Forward-
+looking statements represent the Bank’s current expectations, plans or forecasts of its future results, revenues, liquidity, net 
+interest income, provision for credit losses, expenses, efficiency ratio, capital measures, strategy, deposits, assets, and future 
+business and economic conditions more generally, and other future matters. Those statements are not guarantees of future 
+results or performance and are subject to certain known and unknown risks, uncertainties and other factors that may cause 
+actual results to differ materially from those expressed in, or implied by, such forward-looking statements. These risks, 
+uncertainties and other factors include, but are not limited to: potential delays or other problems in implementing the Bank’s 
+growth and expansion strategies, including obtaining regulatory or other approvals, acquiring satisfactory sites, obtaining 
+permits and designing, constructing and opening new offices or relocating, selling or closing existing offices; the availability of 
+and access to capital; the competition for and costs of recruiting and retaining qualified personnel; possible downgrades in the 
+Bank’s credit ratings or outlook which could increase the costs of or decrease the availability of funding from capital markets; 
+the ability to attract new or retain existing deposits or to retain or grow loans, including growth from unfunded closed loans; the 
+ability to generate future revenue growth or to control future growth in non-interest expense; interest rate fluctuations, 
+including changes in the yield curve between short-term and long-term interest rates or changes in the relative relationships of 
+various interest rate indices; competitive factors and pricing pressures, including their effect on the Bank’s net interest margin; 
+general economic, unemployment, credit market and real estate market conditions, and the effect of such conditions on the 
+creditworthiness of borrowers, collateral values, the value of investment securities and asset recovery values; the potential 
+impact of continuing inflationary pressures; conditions within the banking industry; recently enacted and potential new federal 
+or state laws and regulatory requirements or changes to existing federal or state laws and regulatory requirements, including 
+changes affecting oversight of the financial services industry, changes intended to manage or mitigate climate and related 
+environmental risks, changes in the interpretation and enforcement of such laws and requirements, changes as a result of U.S. 
+presidential, congressional, state and local elections, and the costs and expenses to comply with new and/or existing legislation 
+and regulatory requirements; the impact of potential changes in U.S. tax, tariff and immigration laws, regulations and policies 
+and changes in state and local tax laws, regulations and policies; uncertainty regarding changes in U.S. government monetary 
+and fiscal policy; the impact of any U.S. federal government shutdown or budgetary crisis; Federal Deposit Insurance 
+Corporation (“FDIC”) special assessments or changes to regular assessments; the ability to keep pace with technological 
+changes, including changes regarding artificial intelligence and maintaining cybersecurity; the impact of any failure in, or breach 
+of, our operational or security systems or infrastructure, or those of third parties with whom we do business or others, including 
+as a result of cyber-attacks or an increase in the incidence or severity of fraud, illegal payments, security breaches or other 
+illegal acts impacting the Bank or our customers or others; natural disasters; acts of war or terrorism; national or international 
+political instability or military conflicts, including the current conflicts in Ukraine and the Middle East; the potential impact of 
+supply chain disruptions; impairment of our goodwill; adoption of new accounting standards, or changes in existing standards; 
+and adverse results (including costs, fines, reputational harm and/or other negative effects) from current or future litigation, 
+regulatory examinations or other legal and/or regulatory actions or rulings as well as other factors identified in this 
+communication or as detailed from time to time in our public filings, including those factors described in the disclosures under 
+the headings “Forward-Looking Information” and “Item 1A. Risk Factors” in our most recent Annual Report on Form 10-K for the 
+year ended December 31, 2025 and in Item 2 of Part I and Item 2A of Part II of the Bank’s Quarterly Report(s) on Form 10-Q filed 
+after the Annual Report, which are available on the Bank’s website (https://ir.ozk.com/filings/documents) and on the FDIC’s 
+website (https://efr.fdic.gov/fcxweb/efr/index.html). Should one or more of the foregoing risks materialize, or should underlying 
+assumptions prove incorrect, actual results or outcomes may vary materially from those described in, or implied by, such 
+forward-looking statements. The Bank disclaims any obligation to update or revise any forward-looking statements based on the 
+occurrence of future events, the receipt of new information or otherwise. 
+
+1 
+
+MANAGEMENT COMMENTS FOR THE SECOND QUARTER OF 2026 
+
+We are pleased to provide our second quarter 2026 Management Comments.  During the quarter just ended: 
+
+•  We delivered solid financial results including net income available to common stockholders of $163.3 
+
+million; diluted earnings per common share of $1.49; an annualized return on average assets of 1.60%; 
+
+net interest margin of 4.24%; an efficiency ratio of 39.2%; meaningful increases in our capital ratios; and 
+
+strong growth in our book value (up $1.28) and tangible book value (up $1.26) per common share. 
+
+•  We continued to make significant progress with the strategic diversification of our loan portfolio as 
+
+Corporate & Institutional Banking (“CIB”) and other lending teams delivered strong growth mostly 
+
+offsetting near-record Real Estate Specialties Group (“RESG”) loan repayments.   
+
+• 
+
+CIB not only achieved excellent growth, both from its established and recently added lending teams, but 
+
+also enhanced diversification within its own portfolio.  This diversification of growth within CIB is one 
+
+important aspect of our strategy to increase our franchise value. 
+
+•  We made steady progress in working through the late cycle challenges being faced by a small number of 
+
+commercial real estate (“CRE”) sponsors, while achieving solid financial results, growing capital and 
+
+increasing our capital ratios. 
+
+•  We achieved record non-interest income (excluding unusual items in previous quarters), reflecting 
+
+progress from our focus on growing and expanding sources of non-interest income.   
+
+•  We continued to expand our valuable Sun Belt deposit franchise and to make other investments to 
+
+achieve our strategic objectives. 
+
+We look forward to sharing the details of these and many other accomplishments in the following pages. 
+
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Profitability and Earnings Metrics 
+
+Net income available to common stockholders for the second quarter of 2026 was $163.3 million, a decrease of 
+
+8.7% from $178.9 million for the second quarter of 2025, but an increase of 2.5% from $159.3 million for the first 
+
+quarter of 2026.  For the first six months of 2026, net income available to common stockholders was $322.6 
+
+million, a 7.0% decrease from $346.8 million for the first six months of 2025. 
+
+Diluted earnings per common share (“EPS”) for the second quarter of 2026 were $1.49, a decrease of 5.7% from 
+
+$1.58 for the second quarter of 2025, but an increase of 3.5% from $1.44 for the first quarter of 2026.  EPS for the 
+
+first six months of 2026 were $2.93, a 3.9% decrease from $3.05 for the first six months of 2025. 
+
+Pre-tax pre-provision net revenue1 (“PPNR”) for the second quarter of 2026 was $259.4 million, a decrease of 5.6% 
+
+from $274.9 million for the second quarter of 2025, but an increase of 2.3% from $253.6 million for the first 
+
+quarter of 2026.  For the first six months of 2026, PPNR was $512.9 million, a 4.5% decrease from $537.2 million 
+
+for the first six months of 2025. 
+
+Annualized return on average assets (“ROAA”) for the second quarter of 2026 was 1.60% compared to 1.81% for 
+
+the second quarter of 2025 and 1.58% for the first quarter of 2026.  Annualized ROAA for the first six months of 
+
+2026 was 1.59% compared to 1.79% for the first six months of 2025. 
+
+Annualized return on average common stockholders’ equity1 (“ROACE”) and return on average tangible common 
+
+stockholders’ equity1 (“ROATCE”) for the second quarter of 2026 were 11.14% and 12.55%, respectively, compared 
+
+to 12.98% and 14.75%, respectively, for the second quarter of 2025, and 11.06% and 12.47%, respectively, for the 
+
+first quarter of 2026.  Annualized ROACE and ROATCE for the first six months of 2026 were 11.10% and 12.51%, 
+
+respectively, compared to 12.75% and 14.50%, respectively, for the first six months of 2025. 
+
+Book value per common share and tangible book value per common share1 increased $1.28 and $1.26 during the 
+
+quarter just ended to $54.47 and $48.41, respectively.  Over the last four quarters, they increased $4.88 and $4.69, 
+
+respectively. 
+
+1 The calculations of the Bank’s non-GAAP financial measures and the reconciliations to GAAP are included in the schedules in 
+Appendix A. 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Net Interest Income 
+
+Net interest income for the second quarter of 2026 was $392.1 million, a decrease of 1.2% from the second 
+
+quarter of 2025, but an increase of 1.7% from the first quarter of 2026.  Net interest income for the first six 
+
+months of 2026 was $777.7 million, a 0.8% increase from $771.3 million for the first six months of 2025. 
+
+As expected, the level of RESG loan repayments remained elevated in recent quarters (i.e., $9.95 billion over the 
+
+last four quarters).  At the same time, CIB and our other lending teams have generated strong growth.  These 
+
+offsetting factors have restrained growth in net interest income and average earning assets.  Specifically, our 
+
+average earning assets in the first half of 2026 were up only slightly to $37.6 billion from $37.1 billion for the full 
+
+year of 2025 and were down slightly from $37.9 billion for the fourth quarter of 2025. 
+
+Figure 1: Quarterly Net Interest Income 
+
+$388 
+
+$389 
+
+$379 
+
+$375 
+
+$397 
+
+$414 
+
+$407 
+
+$386 
+
+$392 
+
+ $450
+ $400
+ $350
+ $300
+ $250
+ $200
+ $150
+ $100
+ $50
+ $-
+
+e
+m
+o
+c
+n
+
+I
+
+t
+s
+e
+r
+e
+t
+n
+
+I
+
+t
+e
+N
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+m
+$
+(
+
+2Q24
+
+3Q24
+
+4Q24
+
+1Q25
+
+2Q25
+
+3Q25
+
+4Q25
+
+1Q26
+
+2Q26
+
+We expect net interest income in the second half of 2026 to increase only modestly compared to the first half.  
+
+Improving on 2025’s record net interest income of $1.59 billion is now considered a stretch goal that will require 
+
+meaningful growth in average earning assets in the second half of the year.  While we expect RESG repayments to 
+
+remain elevated through 2026 and 2027, we expect strong growth from CIB and other lending teams to contribute 
+
+to an improving net interest income trajectory in 2027. 
+
+Future net interest income will depend on numerous factors, including, among others, growth in earning assets, 
+
+changes in loan yields, changes in cost of interest bearing deposits (“COIBD”) and any Fed interest rate changes.   
+
+4 
+
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Loans  
+
+Loans were $32.56 billion at June 30, 2026, a decrease of $0.41 billion, or 1.3% not annualized, from March 31, 
+
+2026, but an increase of $0.24 billion, or 0.8%, from December 31, 2025, as shown in Figure 2.  As expected, during 
+
+the quarter just ended, strong growth from CIB and other lending teams mostly offset near-record RESG loan 
+
+repayments.   
+
+For the full year of 2026, we continue to expect mid-single digit percentage loan growth.  For the full year of 2027, 
+
+we continue to expect loan growth to accelerate to a 10% to 11% range as our lending teams other than RESG are 
+
+expected to grow significantly.  In subsequent years our goal is to have all our lending teams contribute to strong 
+
+loan growth.   
+
+Loan growth may vary significantly from quarter to quarter and may be impacted by the volume of loan 
+
+originations and repayments, interest rates, economic conditions, competition or other factors. 
+
+Figure 2: Loan Balances and Yields 
+
+s
+n
+a
+o
+L
+
+d
+n
+E
+-
+d
+o
+i
+r
+e
+P
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+m
+$
+(
+
+ $35,000
+
+ $30,000
+
+ $25,000
+
+ $20,000
+
+ $15,000
+
+ $10,000
+
+ $5,000
+
+ $-
+
+$28,674  $29,218  $29,969 
+
+$31,108 
+
+8.76%
+
+8.66%
+
+8.17%
+
+$33,005  $32,846  $32,318  $32,975  $32,561 
+
+14.00%
+
+12.00%
+
+10.00%
+
+8.00%
+
+7.79%
+
+7.78%
+
+7.74%
+
+7.50%
+
+7.24%
+
+7.17%
+
+6.00%
+
+4.00%
+
+2.00%
+
+0.00%
+
+i
+
+l
+
+d
+e
+Y
+n
+a
+o
+L
+
+2Q24
+
+3Q24
+
+4Q24
+
+1Q25
+
+2Q25
+
+3Q25
+
+4Q25
+
+1Q26
+
+2Q26
+
+Period-End Loans
+
+Loan Yield
+
+In the second quarter of 2026, our yield on loans was 7.17%, decreases of 61 basis points (“bps”) and 7 bps, 
+
+respectively, from the second quarter of 2025 and the first quarter of 2026.  Figure 2 reflects the impact on our 
+
+predominately variable-rate loan portfolio of the 100-basis point reduction in the Fed funds rate during the last 
+
+four months of 2024 and the 75-basis point reduction during the last four months of 2025 and various other 
+
+factors including the very competitive environment.   
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Investment Securities 
+
+Investment securities, all of which are categorized as available-for-sale, were $4.24 billion at June 30, 2026, 
+
+increases of $0.39 billion from March 31, 2026 and $1.62 billion from December 31, 2025, as shown in Figure 3.  
+
+During the first half of 2026, we capitalized on market conditions by utilizing previously uninvested cash and 
+
+proceeds from maturing securities to purchase $1.98 billion of investment securities.  These purchases resulted in 
+
+our investment portfolio growth and, along with the roll-off of lower yielding securities, contributed to our 
+
+improved portfolio yield.   
+
+In the second quarter of 2026, our tax-equivalent yield on investment securities was 4.72%, increases of 45 bps 
+
+and 25 bps, respectively, from the second quarter of 2025 and the first quarter of 2026. 
+
+As a result of the purchases during the quarter just ended, we expect our tax equivalent yield on investment 
+
+securities to increase further in the third quarter of 2026 to somewhere in the range of 4.75% to 4.80%.  
+
+Figure 3: Investment Securities Balances and Yields 
+
+l
+
+e
+c
+n
+a
+a
+B
+s
+e
+i
+t
+i
+r
+u
+c
+e
+S
+d
+n
+E
+-
+d
+o
+i
+r
+e
+P
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+m
+$
+(
+
+ $4,500
+
+ $4,000
+
+ $3,500
+
+ $3,000
+
+ $2,500
+
+ $2,000
+
+ $1,500
+
+ $1,000
+
+ $500
+
+ $-
+
+$4,235 
+
+8.00%
+
+$3,844 
+
+$1,844 
+
+$2,293 
+
+$2,982 
+
+$2,952 
+
+$1,159 
+
+$1,233 
+
+$2,836 
+
+$1,280 
+
+$2,968 
+
+$1,358 
+
+$2,822 
+
+$2,760 
+
+$1,319 
+
+$1,390 
+
+$2,610 
+
+$1,381 
+
+4.03%
+
+4.27%
+
+4.25%
+
+4.34%
+
+4.47%
+
+4.72%
+
+3.05%
+
+3.00%
+
+3.27%
+
+$1,823 
+
+$1,719 
+
+$1,556 
+
+$1,610 
+
+$1,503 
+
+$1,370 
+
+$1,230 
+
+$2,000 
+
+$1,942 
+
+2Q24
+
+3Q24
+
+4Q24
+
+1Q25
+
+2Q25
+
+3Q25
+
+4Q25
+
+1Q26
+
+2Q26
+
+Taxable
+
+Tax-exempt
+
+Total Tax Equivalent Yield
+
+7.00%
+
+6.00%
+
+5.00%
+
+4.00%
+
+3.00%
+
+2.00%
+
+1.00%
+
+l
+
+i
+
+l
+
+d
+e
+Y
+t
+n
+e
+a
+v
+i
+u
+q
+E
+x
+a
+T
+
+l
+
+a
+t
+o
+T
+
+At June 30, 2026, our investment securities had an average effective duration of approximately 6.3 years. 
+
+Further growth, if any, in our investment securities portfolio in 2026 will depend on market conditions and 
+
+resulting investment opportunities, among other factors.   
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Deposits 
+
+Deposits were a record $34.00 billion at June 30, 2026, increases of $0.23 billion, or 0.7% not annualized, from 
+
+March 31, 2026, and $0.61 billion, or 1.8% not annualized, from December 31, 2025, as shown in Figure 4.   
+
+Figure 4: Deposit Balances and Cost of Interest Bearing Deposits (“COIBD”) 
+
+s
+t
+i
+s
+o
+p
+e
+D
+
+d
+n
+E
+-
+d
+o
+i
+r
+e
+P
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+m
+$
+(
+
+ $40,000
+
+ $35,000
+
+ $30,000
+
+ $25,000
+
+ $20,000
+
+ $15,000
+
+ $10,000
+
+ $5,000
+
+ $-
+
+$29,944  $30,572  $31,043  $31,926 
+
+$33,522  $33,985  $33,385  $33,765  $33,997 
+
+4.24%
+
+4.31%
+
+4.07%
+
+3.78%
+
+3.70%
+
+3.64%
+
+3.47%
+
+3.29%
+
+3.24%
+
+7.00%
+
+6.00%
+
+5.00%
+
+4.00%
+
+3.00%
+
+D
+B
+O
+C
+
+I
+
+2.00%
+
+1.00%
+
+0.00%
+
+2Q24
+
+3Q24
+
+4Q24
+
+1Q25
+
+2Q25
+
+3Q25
+
+4Q25
+
+1Q26
+
+2Q26
+
+Total Deposits
+
+COIBD
+
+In the second quarter of 2026, our COIBD was 3.24%, decreases of 46 bps and 5 bps from the second quarter of 
+
+2025 and the first quarter of 2026, respectively, as shown in Figure 4.  Given the current competitive environment 
+
+for deposits, the quarter just ended is likely an inflection point in our COIBD.  
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Net Interest Margin 
+
+During the quarter just ended, our net interest margin was 4.24%, a decrease of 12 bps from the second quarter of 
+
+2025, but an increase of 4 bps from this year’s first quarter.  As shown in Figure 5, in the first quarter of 2026, the 
+
+latest quarter for which comparative data is available, our net interest margin outperformed the industry by         
+
+89 bps, continuing our long history of outperformance. 
+
+Figure 5: Quarterly Net Interest Margin (%) 
+
+While our team did an excellent job increasing our net interest margin in the quarter just ended, assuming no 
+
+changes in the Fed funds rate, we expect our net interest margin in the remaining quarters of 2026 will be slightly 
+
+less than the first quarter’s 4.20% net interest margin.  
+
+If there is any Fed interest rate increase, we anticipate our loan yields would increase faster than our deposit costs, 
+
+likely resulting in some increase in our net interest margin until time deposits reprice, typically over several 
+
+quarters.  Conversely, if there is any Fed interest rate reduction, we anticipate our loan yields will decrease faster 
+
+than our deposit costs, likely resulting in some decrease in our net interest margin, at least until time deposits 
+
+reprice, typically over several quarters, and/or floor rates are reached on more variable rate loans.     
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan Portfolio Details 
+
+We are pleased that we continued to achieve meaningful portfolio diversification in the quarter just ended, with 
+
+growth in CIB, Indirect RV & Marine and Community Banking.  We expect these lending teams will continue to 
+
+contribute meaningfully to further growth and diversification, while RESG is likely to continue to have elevated 
+
+repayments throughout 2026 and 2027.  Implicit in our diversification strategy is an unwavering focus on asset 
+
+quality from each of our lending teams. 
+
+As expected, RESG’s percentage of our loans continued to decline during the quarter, reaching 47.6% as of June 30, 
+
+2026, down from 52.1% at March 31, 2026, and well below its all-time high of 70%.  We expect RESG will continue 
+
+to have elevated repayments while other parts of our loan portfolio continue to grow, resulting in further 
+
+reductions in RESG’s percentage of loans throughout 2026 and 2027.  Of course, we expect that the unique 
+
+strengths and expertise of RESG will result in meaningful growth over the longer term following this elevated 
+
+repayment cycle.    
+
+Figure 6: Loan Composition (As of June 30, 2026) 
+
+13.7%
+
+16.5%
+
+47.6%
+
+22.2%
+
+Our long-term goal is for all of our lending teams to grow significantly and to achieve more balance and 
+
+diversification in the portfolio.  Of course, opportunities will shift over time, and we will always want to capitalize 
+
+on the best opportunities.  We expect CIB’s and RESG’s loan portfolios will be roughly equal in size at some point, 
+
+likely in 2027, with the remainder of the portfolio being a combination of loans from Community Banking and 
+
+Indirect RV & Marine.  We believe such balance and diversification will enhance our long-term franchise value. 
+
+9 
+
+Funded Balances$ millions%RESG15,486$           47.6%CIB7,240                22.2%Community Banking5,361                16.5%Indirect RV & Marine4,474                13.7%Total32,561$           100.0% 
+ 
+ 
+    
+ 
+ 
+ 
+Funded Loan Balances 
+
+Figures 7 and 8 illustrate the mix in our loan growth in the second quarter and first six months of 2026 and reflect 
+
+our significant progress towards achieving greater portfolio diversification.  During the quarter just ended, CIB 
+
+grew $1.04 billion and Indirect RV & Marine and Community Banking each grew $0.13 billion, while RESG declined 
+
+$1.71 billion.  Over the first six months of 2026, CIB grew $1.99 billion, Indirect RV & Marine grew $0.24 billion and 
+
+Community Banking grew $0.12 billion, while RESG declined $2.10 billion.  We expect this diversification trend will 
+
+continue for some time.         
+
+Figure 7: Loan Growth, Funded Balances – 2Q26 ($ millions) 
+
+$32,975 
+
+$1,043 
+
+$127 
+
+$127 
+
+$32,561 
+
+( $1,711 )
+
+ $34,000
+
+ $32,000
+
+ $30,000
+
+ $28,000
+
+ $26,000
+
+3/31/26
+Balance
+
+RESG
+
+CIB
+
+Community
+Banking
+
+Indirect RV
+& Marine
+
+6/30/26
+Balance
+
+Figure 8: Loan Growth, Funded Balances – 6M26 ($ millions) 
+
+$1,987 
+
+$118 
+
+$235 
+
+$32,561 
+
+ $34,000
+
+ $32,000
+
+$32,318 
+
+ $30,000
+
+( $2,097 )
+
+ $28,000
+
+ $26,000
+
+12/31/25
+Balance
+
+RESG
+
+CIB
+
+Community
+Banking
+
+Indirect RV
+& Marine
+
+6/30/26
+Balance
+
+10 
+
+ 
+ 
+   
+Unfunded Loan Commitments 
+
+Figures 9 and 10 reflect the activity in unfunded loan commitments in the second quarter and first six months of 
+
+2026.  Consistent with our greater portfolio diversification, RESG’s share of unfunded loan commitments 
+
+decreased 5% to 57% over the first six months of 2026, while CIB’s share increased 6% to 36%.  We expect this 
+
+diversification trend will continue for some time.   
+
+Figure 9: Activity in Unfunded Loan Commitments – 2Q26 ($ millions)  
+
+$17,623 
+
+( $428 )
+
+$668 
+
+( $5 )
+
+$17,858 
+
+ $20,000
+
+ $17,500
+
+ $15,000
+
+ $12,500
+
+ $10,000
+
+3/31/26 Balance of
+Unfunded Loan
+Commitments
+
+RESG
+
+CIB
+
+Community
+Banking
+
+6/30/26 Balance of
+Unfunded Loan
+Commitments
+
+Figure 10: Activity in Unfunded Loan Commitments – 6M26 ($ millions)  
+
+ $20,000
+
+ $17,500
+
+ $15,000
+
+ $12,500
+
+ $10,000
+
+$17,996 
+
+( $1,062 )
+
+( $115 )
+
+$17,858 
+
+$1,039 
+
+12/31/25 Balance
+of Unfunded Loan
+Commitments
+
+RESG
+
+CIB
+
+Community
+Banking
+
+6/30/26 Balance of
+Unfunded Loan
+Commitments
+
+11 
+
+ 
+     
+ 
+ 
+ 
+RESG Loan Originations and Repayments 
+
+As shown in Figure 11, RESG loan originations were $1.08 
+
+billion in the second quarter and $4.39 billion over the last 
+
+four quarters.  For some time now, many sponsors have 
+
+faced challenges raising equity capital for new projects as 
+
+capital partners have been cautious due to macroeconomic 
+
+uncertainty, among other factors.  This has tended to restrain 
+
+new project starts.  At the same time, a surge in liquidity 
+
+available for debt financing has created significant 
+
+competition for the new deals that have raised equity, which 
+
+has contributed to our relatively subdued RESG origination volume.   
+
+Our origination volume in the first two quarters of 2026 reflects the headwinds to achieving our previous 2026 
+
+origination goal.  Origination volume may vary significantly from quarter to quarter and may be impacted by 
+
+economic conditions, interest rates, competition or other factors.   
+
+As shown in Figure 12, RESG’s loan repayments and other 
+
+activity were $2.92 billion in the quarter just ended and 
+
+$9.95 billion over the last four quarters.  This elevated level 
+
+of repayments reflects both the natural cadence of the sale 
+
+or refinancing of projects securing the record volume of RESG 
+
+loans originated in 2022 and the recent increase in the 
+
+availability of debt financing generally.  We expect RESG loan 
+
+repayments will remain elevated throughout 2026 and 2027.  
+
+Loan repayments may vary substantially from quarter to 
+
+quarter based on a variety of factors including interest rate levels and refinancing alternatives. 
+
+Elevated RESG loan repayments coupled with the lower origination volume have resulted in RESG total 
+
+commitments, both funded and unfunded, receding by $8.8 billion from a peak of $34.5 billion at March 31, 2024 
+
+to $25.7 billion at June 30, 2026.  This trend in RESG total commitments is expected to continue throughout 2026 
+
+and 2027. 
+
+12 
+
+Figure 11: RESG Quarterly Loan Originations($ billions)Q1Q2Q3Q4Total*FY2021$1.28$1.46$2.21$2.99$7.94FY2022$3.14$3.53$4.35$2.81$13.82FY2023$1.81$1.41$1.95$2.05$7.22FY2024$1.58$1.60$1.23$1.00$5.41FY2025$1.21$1.51$0.70$1.61$5.03FY2026$1.00$1.08$2.08*6M26 Not AnnualizedFigure 12: RESG Quarterly Loan Repayments &Other Activity ($ billions)Q1Q2Q3Q4Total*FY2021$1.48$1.68$1.34$1.72$6.22FY2022$1.31$2.34$1.28$0.72$5.65FY2023$0.91$1.03$1.10$0.97$4.01FY2024 $0.79$1.84$1.60$1.83$6.06FY2025$0.85$0.95$2.44$3.00$7.24FY2026$1.59$2.92$4.51*6M26 Not Annualized 
+ 
+ 
+ 
+ 
+ 
+RESG Origination and Repayment Cadence 
+
+Figure 13 illustrates the cadence of RESG loan originations and repayments.  It shows the amount of each year’s 
+
+originations which have been repaid and which remain as outstanding commitments, both funded and unfunded. 
+
+Figure 13: RESG Origination and Repayment Trends by Year of Origination (Total Commitment) 
+(As of June 30, 2026) 
+
+RESG repayments in the quarter just ended included repayments of some older vintage loans. Specifically, during 
+
+the quarter total commitments (both funded and unfunded) were reduced by $0.08 billion for 2019 originations, 
+
+by $0.06 billion for 2020 originations, $0.16 billion for 2021 originations, $1.82 billion for 2022 originations, $0.97 
+
+billion for 2023 originations and $0.13 billion for 2024 originations.    
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+RESG Portfolio Diversification 
+
+Figure 14 shows the product type diversification within the RESG portfolio. 
+
+Figure 14: RESG Portfolio Diversification by Product Type (As of June 30, 2026) 
+
+e
+p
+y
+T
+t
+c
+u
+d
+o
+r
+P
+y
+b
+t
+n
+e
+m
+
+t
+i
+
+m
+m
+o
+C
+
+l
+
+a
+t
+o
+T
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+m
+$
+(
+
+ $10,000
+ $9,000
+ $8,000
+ $7,000
+ $6,000
+ $5,000
+ $4,000
+ $3,000
+ $2,000
+ $1,000
+ $-
+
+Funded Balance
+
+Unfunded Commitment
+
+Loan-to-Cost*
+
+Loan-to-Value*
+
+95%
+
+93%
+
+52%
+
+48%
+
+46%
+
+51%
+
+47%
+
+39%
+
+46%
+
+43%
+
+54%
+
+49%
+
+54%
+
+50%
+
+41%
+
+42%
+
+57%
+
+37%
+
+120%
+
+100%
+
+80%
+
+60%
+
+40%
+
+20%
+
+0%
+
+s
+o
+i
+t
+a
+R
+V
+T
+L
+&
+C
+T
+L
+
+y
+l
+i
+
+m
+a
+f
+i
+t
+l
+u
+M
+
+B
+5
+6
+$
+
+.
+
+)
+
+.
+
+%
+1
+5
+2
+(
+
+o
+d
+n
+o
+C
+
+B
+6
+4
+$
+
+.
+
+)
+
+.
+
+%
+7
+7
+1
+(
+
+l
+
+.
+
+.
+
+.
+
+.
+
+)
+
+)
+
+)
+
+e
+c
+i
+f
+f
+
+B
+6
+3
+$
+
+B
+9
+3
+$
+
+%
+0
+4
+1
+(
+
+%
+3
+5
+1
+(
+
+a
+i
+r
+t
+s
+u
+d
+n
+
+*
+*
+e
+s
+U
+d
+e
+x
+i
+M
+Product Type / Total Commitment ($B) / (% of Total Commitment)
+
+e
+c
+n
+e
+i
+c
+S
+e
+f
+i
+L
+
+%
+5
+0
+1
+(
+
+%
+4
+3
+1
+(
+
+B
+3
+0
+$
+
+B
+7
+2
+$
+
+B
+4
+3
+$
+
+B
+7
+0
+$
+
+%
+6
+2
+(
+
+e
+t
+o
+H
+
+d
+n
+a
+L
+
+O
+
+)
+
+)
+
+.
+
+.
+
+.
+
+.
+
+I
+
+.
+
+.
+
+.
+
+l
+
+)
+
+%
+3
+1
+(
+
+.
+
+s
+e
+m
+o
+H
+&
+s
+t
+o
+L
+F
+S
+
+B
+0
+0
+$
+
+.
+
+)
+
+%
+2
+0
+(
+
+.
+
+* LTC and LTV ratios are weighted averages and assume all loans are fully funded. LTVs are based on the most recent appraisals and, in most cases, utilize "as-
+stabilized" values for income-producing property types. However, “as-is” values are utilized to calculate LTVs for certain loans.
+** Mixed use projects contain multiple property types, none of which individually contribute 75% or more of the project value.
+
+The stratification of the RESG portfolio by commitment size is reflected in Figure 15. 
+
+Figure 15: RESG Portfolio Stratification by Loan Size – Total Commitment (As of June 30, 2026) 
+
+14 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 16 shows RESG’s total commitments in each geographic area in which it currently has loans, reflecting the 
+
+national scope and significant geographic diversification in RESG’s business.     
+
+Figure 16: RESG Portfolio Diversification – All Geographies (As of June 30, 2026) 
+
+0
+1
+p
+o
+T
+
+0
+2
+#
+-
+1
+1
+#
+
+a
+e
+r
+A
+c
+i
+h
+p
+a
+r
+g
+o
+e
+G
+
+Miami-Fort Lauderdale-West Palm Beach, FL
+
+New York-Newark-Jersey City, NY-NJ
+
+San Diego-Chula Vista-Carlsbad, CA
+
+Los Angeles-Long Beach-Anaheim, CA
+
+Boston-Cambridge-Newton, MA-NH
+
+San Francisco-Oakland-Fremont, CA
+
+Dallas-Fort Worth-Arlington, TX
+
+Denver-Aurora-Centennial, CO
+
+Riverside-San Bernardino-Ontario, CA
+
+Nashville-Davidson--Murfreesboro--Franklin, TN
+
+Phoenix-Mesa-Chandler, AZ
+
+Chicago-Naperville-Elgin, IL-IN
+
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD
+
+Atlanta-Sandy Springs-Roswell, GA
+
+Austin-Round Rock-San Marcos, TX
+
+Seattle-Tacoma-Bellevue, WA
+
+Tampa-St. Petersburg-Clearwater, FL
+
+North Port-Bradenton-Sarasota, FL
+
+Savannah, GA
+
+Naples-Marco Island, FL
+
+Portland-Vancouver-Hillsboro, OR-WA
+
+Cape Coral-Fort Myers, FL
+
+Washington-Arlington-Alexandria, DC-VA-MD-WV
+
+Baltimore-Columbia-Towson, MD
+
+San Jose-Sunnyvale-Santa Clara, CA
+
+San Antonio-New Braunfels, TX
+
+Cincinnati, OH-KY-IN
+
+Provo-Orem-Lehi, UT
+
+Kansas City, MO-KS
+
+Las Vegas-Henderson-North Las Vegas, NV
+
+Oxnard-Thousand Oaks-Ventura, CA
+
+Columbus, OH
+
+Raleigh-Cary, NC
+
+Sacramento-Roseville-Folsom, CA
+
+Rockford, IL
+
+Durham-Chapel Hill, NC
+
+El Paso, TX
+
+Pittsburgh, PA
+
+Houston-Pasadena-The Woodlands, TX
+
+Longview-Kelso, WA
+
+Edwards, CO
+
+Orlando-Kissimmee-Sanford, FL
+
+Salt Lake City-Murray, UT
+
+Reno, NV
+
+Bridgeport-Stamford-Danbury, CT
+
+Ogden, UT
+
+St. Louis, MO-IL
+
+LaGrange, GA-AL
+
+Laredo, TX
+
+Milwaukee-Waukesha, WI
+
+$4,241 
+
+$2,149 
+
+$1,841 
+
+$1,357 
+$1,330 
+$1,303 
+$1,263 
+
+$1,045 
+$972 
+$926 
+$922 
+$887 
+$873 
+$798 
+
+$521 
+
+$417 
+$369 
+$330 
+$317 
+$306 
+$293 
+$291 
+$249 
+$227 
+$217 
+$188 
+$186 
+$165 
+$146 
+$123 
+$117 
+$110 
+$97 
+$97 
+$97 
+$95 
+$88 
+$87 
+$81 
+$75 
+$73 
+$72 
+$69 
+$66 
+$59 
+$42 
+$29 
+$27 
+$19 
+$17 
+
+ $-
+
+ $1,000
+
+ $2,000
+
+ $3,000
+
+ $4,000
+
+ $5,000
+
+Total Commitment ($ in millions)
+
+15 
+
+ 
+ 
+ 
+ 
+Corporate & Institutional Banking 
+
+CIB continued to achieve excellent growth and enhanced portfolio diversification in the quarter just ended.  It 
+
+accounted for $7.24 billion, or 22.2%, of the funded balance of loans as of June 30, 2026, increasing from 11.8% as 
+
+of June 30, 2025, and 18.8% as of March 31, 2026.  CIB’s portfolio is diversified with loans to borrowers 
+
+representing approximately 40 different North American Industry Classification System (“NAICS”) subsector codes 
+
+at June 30, 2026.  When compared to RESG, CIB’s average credit per client is much smaller. 
+
+CIB engages in relationship-focused lending through Asset Based Lending Group (“ABLG”), Corporate Banking & 
+
+Sponsor Finance (“CBSF”), Fund Finance (“FF”), Lender Finance Group (“LFG”), Natural Resources Group (“NRG”), 
+
+Equipment Finance Group (“EFG”) and Franchise Capital Solutions (“FCS”).  Each of CIB’s teams consists of 
+
+individuals with significant experience and specialized industry expertise. 
+
+In the third quarter of 2026, CIB expects to add the initial members of its Emerging Middle Market (“EMM”) team. 
+
+EMM will pursue commercial and industrial (“C&I”) clients in our largely untapped lower middle-market revenue 
+
+category between the relationships currently served by our Community Bank and our CIB teams.  It will focus 
+
+almost exclusively on the six states in which we have branches and will coordinate closely with other bank teams 
+
+to provide a full-service experience for companies.  This is an important franchise enhancement. 
+
+Figure 17: CIB Loan Composition (Funded Balance)
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+M
+$
+(
+
+I
+
+s
+n
+a
+o
+L
+B
+C
+d
+n
+E
+-
+d
+o
+i
+r
+e
+P
+
+ $8,000
+
+ $7,000
+
+ $6,000
+
+ $5,000
+
+ $4,000
+
+ $3,000
+
+ $2,000
+
+ $1,000
+
+ $-
+
+$3,895 
+
+606 
+
+799 
+
+589 
+
+1,901 
+
+$7,240 
+
+85 
+203 
+652 
+
+873 
+
+1,197 
+
+1,580 
+
+$6,197 
+204 
+521 
+
+813 
+
+970 
+
+1,275 
+
+$4,470 
+195 
+111 
+684 
+
+587 
+
+812 
+
+$5,253 
+
+210 
+426 
+
+693 
+
+772 
+
+1,091 
+
+2,081 
+
+2,061 
+
+2,414 
+
+2,650 
+
+2Q25
+
+3Q25
+
+4Q25
+
+1Q26
+
+2Q26
+
+ABLG
+
+CBSF
+
+Fund Finance
+
+LFG
+
+NRG
+
+EFG
+
+FCS
+
+16 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We continue to make significant investments in CIB as part of our growth and diversification strategy.  Total CIB 
+
+headcount has grown from 18 at year-end 2023 to 123 at June 30, 2026.  This carefully sequenced growth has 
+
+been strategically executed from quarter to quarter over the last 10 quarters to support the addition of new CIB 
+
+business lines and expansion into new geographies as well as expanding our teams which underwrite, service and 
+
+monitor CIB loans.  As of June 30, 2026, the portfolio had a 30+ day past due ratio of 0.00%. For the quarter just 
+
+ended and first six months of 2026, CIB’s annualized net charge-off ratio was 0.00%. 
+
+In addition to loan and deposit growth, CIB expects to meaningfully contribute to future growth in non-interest 
+
+income through its Loan Syndications & Corporate Services teams which include:  Loan Syndications Group, 
+
+Interest Rate Hedging Solutions, Commodity Hedging Solutions and our third-party Capital Markets Program. 
+
+Community Banking 
+
+Community Banking accounted for $5.36 
+
+billion, or 16.5%, of the funded balance of 
+
+loans as of June 30, 2026, and included 
+
+consumer and small business loans, loans 
+
+originated by our Community Banking 
+
+(generalist) lenders, and loans originated 
+
+by our specialty lending teams in 
+
+Community Banking, which include our 
+
+middle market CRE (“MMCRE”), 
+
+agricultural (including poultry), 
+
+homebuilder finance and affordable 
+
+housing teams.  
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+Indirect RV & Marine 
+
+Indirect RV & Marine lending operates nationwide.  Its high-quality consumer portfolio accounted for $4.47 billion, 
+
+or 13.7%, of the funded balance of our loans as of June 30, 2026.  As of June 30, 2026, the portfolio had a 30+ day 
+
+past due ratio of 0.27%.  For the quarter just ended and first six months of 2026, our annualized net charge-off 
+
+ratio for the indirect portfolio was 0.49% and 0.45%, respectively. 
+
+Figure 19: Indirect RV & Marine Loan Balances 
+
+l
+
+e
+c
+n
+a
+a
+B
+n
+a
+o
+L
+d
+n
+E
+-
+d
+o
+i
+r
+e
+P
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+M
+$
+(
+
+ $5,500
+
+ $5,000
+
+ $4,500
+
+ $4,000
+
+ $3,500
+
+ $3,000
+
+ $2,500
+
+ $2,000
+
+ $1,500
+
+ $1,000
+
+ $500
+
+ $-
+
+Marine
+
+RV
+
+$3,530 
+
+$3,627 
+
+$3,738 
+
+$4,200 
+
+$4,238 
+
+$3,987 
+
+$4,346 
+
+$4,474 
+
+$1,699 
+
+$1,754 
+
+$1,803 
+
+$1,969 
+
+$2,105 
+
+$2,110 
+
+$2,186 
+
+$2,284 
+
+$3,320 
+
+$1,573 
+
+$1,747 
+
+$1,831 
+
+$1,873 
+
+$1,935 
+
+$2,019 
+
+$2,095 
+
+$2,128 
+
+$2,160 
+
+$2,190 
+
+2Q24
+
+3Q24
+
+4Q24
+
+1Q25
+
+2Q25
+
+3Q25
+
+4Q25
+
+1Q26
+
+2Q26
+
+Variable Rate Loans and Loan Floors 
+
+At June 30, 2026, 84% of our total commitment of loans had variable rates, of which 78% were tied to 1-month 
+
+term SOFR, 17% to WSJ Prime and 5% to other indexes.  At June 30, 2026, 81% of our total commitment of variable 
+
+rate loans had floor rates and 30% were at their floor rate.   
+
+18 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Asset Quality Details 
+
+Net Charge-Offs  
+
+Our annualized net charge-off ratios were 0.69% and 0.63% for the quarter just ended and the first six months of 
+
+2026, respectively.  During the quarter we recognized charge-offs on four previously classified or criticized RESG 
+
+loans as described in more detail on pages 22-24. 
+
+As shown in Figure 20, in our 29 years as a public company, our net charge-off ratio has outperformed the 
+
+industry’s net charge-off ratio every year.  Despite our elevated annualized net charge-off ratio for the first six 
+
+months of 2026, our goal remains to outperform the industry average for the full year.  Our net charge-off ratio 
+
+may vary significantly from quarter to quarter. 
+
+ Figure 20: Annualized Net Charge-off Ratio vs. the Industry 
+
+19 
+
+ 
+ 
+ 
+   
+ 
+ 
+ 
+The current CRE cycle has proven to be an unusually challenging and prolonged period for some of our CRE 
+
+customers.  Since 2020 they have had to contend with the cumulative impact of a constantly evolving array of 
+
+uncertainties and macroeconomic challenges starting with the COVID-19 pandemic and its resulting lockdowns, 
+
+supply chain disruptions, rapidly increasing inflation, the Fed increasing interest rates 525 bps, higher-for-longer 
+
+interest rates, remote work and a slow return to office, social unrest and efforts to defund the police in many 
+
+major cities, tariffs, reductions in funding for medical research, hostilities in the Middle East and elsewhere, and 
+
+numerous other sources of macroeconomic, political and geopolitical turbulence and uncertainty.  
+
+Notwithstanding all of this, the U.S. economy has proven to be generally resilient and most of our CRE customers 
+
+have continued to work through this multi-year CRE cycle.  We have consistently stated that we expected most 
+
+RESG sponsors/capital partners to continue to support their properties, if needed, through times of economic 
+
+stress until business or economic conditions and property performance normalize.  That expectation has been 
+
+generally realized. 
+
+However, a small number of sponsors have eventually become unable or unwilling to continue to support their 
+
+projects resulting in charge-offs and nonperforming loans that do not meet our historical standards.  Over the past 
+
+16 quarters we prudently prepared for this possibility by more than doubling our ACL, as reflected in detail in 
+
+Figure 21 (see page 21). 
+
+While we continue to operate in an environment with considerable uncertainties, we are seeing signs of improving 
+
+conditions for many of our CRE customers and their projects.  Improving conditions include (i) the reductions over 
+
+the last two years in the Fed funds target rate and other interest rates; (ii) increased liquidity for CRE as reflected 
+
+by elevated RESG repayments in recent quarters; and (iii) improving supply/demand dynamics for certain property 
+
+types and certain markets as reflected in improving sales and leasing activity. 
+
+Nevertheless, uncertainties remain, particularly related to some office and life science properties in some markets.  
+
+In calculating our ACL, we considered these uncertainties, and we believe our ACL is appropriate as we continue 
+
+through what we expect to be the late stages of this CRE cycle.  Similar to 2024 and 2025, we expect that a small 
+
+number of our sponsors may become unable or unwilling to continue to support their projects in 2026, which 
+
+could result in our net charge-offs remaining elevated.  However, we expect to see an improving trend in 2027. 
+
+20 
+
+   
+ 
+ 
+ 
+ 
+ 
+Allowance for Credit Losses (“ACL”) and Provision 
+
+As of June 30, 2026, our ACL of $617.8 million consisted of our allowance for loan losses (“ALL”) at $461.5 million, 
+
+or 1.42% of loans, and our reserve for losses on unfunded loan commitments at $156.3 million, or 0.88% of 
+
+unfunded loan commitments. 
+
+Over the last 16 quarters, our cumulative provision expense was $673 million, or 1.9 times our cumulative net 
+
+charge-offs of $355 million, resulting in a cumulative increase of $318 million in our ACL, as shown in Figure 21.  
+
+This large increase is attributable to both growth in loans and unfunded loan commitments and our cautious 
+
+outlook on macroeconomic conditions.  We believe this ACL build, including the increase in our ACL ratio (ACL 
+
+divided by total loans and unfunded loan commitments) from 0.83% to 1.23%, has been a prudent and appropriate 
+
+response to the shifting mix of risk factors over those 16 quarters.      
+
+Having prudently built our ACL for potential charge-offs, it has been appropriate to decrease our ACL ratio over the 
+
+last three quarters as charge-offs have been recognized.  For the second quarter of 2026, our provision for credit 
+
+losses was $45.6 million and our net charge-offs were $56.3 million resulting in a decrease in our ACL of $10.7 
+
+million.  Net charge-offs in the quarter consisted primarily of partial charge-offs totaling $49.3 million on four 
+
+previously classified or criticized RESG office or life science loans as described in more detail on pages 22-24.  
+
+Figure 21: ACL Build – Last 16 Quarters 
+
+ $750
+
+e
+g
+n
+a
+h
+C
+
+ $500
+
+0.83% 0.85% 0.87%
+
+0.92% 0.95%
+
+1.00%
+
+$300 
+
+ $250
+
+$36 
+
+$33 
+
+$28 
+
+$30 
+
+$40 
+
+$35 
+
+1.07% 1.11%
+
+$37 
+
+$36 
+
+)
+s
+n
+o
+
+i
+l
+l
+i
+
+m
+$
+(
+
+.
+y
+l
+t
+
+l
+
+Q
+&
+s
+e
+c
+n
+a
+a
+B
+d
+n
+E
+d
+o
+i
+r
+e
+P
+L
+C
+A
+
+1.19% 1.23% 1.26% 1.28% 1.30% 1.34%
+
+$27 
+
+$19 
+
+$20 
+
+$25 
+
+$14 
+
+1.26%
+
+1.24% 1.23%
+
+$618
+
+( $48 )
+
+( $3 )
+
+( $11 )
+
+ $-
+
+ACL at
+6/30/22
+
+3Q22
+
+4Q22
+
+1Q23
+
+2Q23
+
+3Q23
+
+4Q23
+
+1Q24
+
+2Q24
+
+3Q24
+
+4Q24
+
+1Q25
+
+2Q25
+
+3Q25
+
+4Q25
+
+1Q26
+
+2Q26 ACL at
+6/30/26
+
+Total ACL at Period End
+
+ACL Change During Period
+
+Total ACL % at Period End
+
+t
+n
+e
+m
+
+t
+i
+
+m
+m
+o
+C
+
+d
+e
+d
+n
+u
+f
+n
+U
++
+s
+n
+a
+o
+L
+
+l
+
+a
+t
+o
+T
+f
+o
+%
+L
+C
+A
+
+1.50%
+
+1.25%
+
+1.00%
+
+0.75%
+
+0.50%
+
+0.25%
+
+0.00%
+
+The calculations of our provision for credit losses for the second quarter of 2026 and our ACL at June 30, 2026, 
+
+were based on a number of key estimates, assumptions and economic forecasts.  We utilized recent Moody’s 
+
+economic forecasts, including their Baseline, S4 (Alternative Adverse Downside) and S6 (Stagflation) scenarios and 
+
+their updates released in June 2026.  Our ACL calculations include certain qualitative adjustments, primarily related 
+
+to specific property types, to capture items not included in our modeled results or other assumptions. 
+
+21 
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Portfolio Credit Quality  
+
+As shown in Figure 22, total classified and criticized assets have increased moderately over the past six quarters, 
+
+but we have continued to make steady progress working through such assets as they have arisen.  For example, 
+
+during the quarter just ended, our largest substandard non-accrual loan ($156.4 million outstanding) at March 31, 
+
+2026 was successfully recapitalized, as expected, by the sponsor and a new capital partner resulting in a new pass-
+
+rated loan.  In addition, once it became clear during the quarter that further sponsor/capital partner support 
+
+would not be forthcoming, we took the opportunity to quickly achieve payoff of a previous special mention loan 
+
+($94.8 million commitment; $63.6 million outstanding) on a challenged San Carlos, CA life science project resulting 
+
+in a $14.8 million charge-off.  Further, we are making good progress and seeing encouraging developments with 
+
+several special mention loans which could restore them to pass status. 
+
+The vast majority of our RESG loans continue to perform as expected as evident in the significant level of 
+
+repayments over the last four quarters.  We continue to see strong sponsor/capital partner support for RESG loans 
+
+as detailed on page 26. 
+
+Figure 22: Risk Categories and Asset Quality Metrics – Last Five Quarters ($ millions) 
+
+22 
+
+As of6/30/259/30/2512/31/253/31/266/30/26Total Loans33,005$        32,846$        32,318$        32,975$        32,561$        Pass Rated Loans32,132$        31,968$        31,394$        31,915$        31,572$        Classified and Criticized Assets:LoansSpecial Mention631$              365$              421$              397$              616$              Substandard Accrual185                363                161                367                73                  Substandard Non-accrual59                  150                341                297                300                Foreclosed Assets160                79                  61                  154                293                Total Classified and Criticized Assets1,034$          957$              984$              1,215$          1,282$          Loans Past Due50$                46$                207$              465$              298$              Loans Past Due % of Total Loans0.15%0.14%0.64%1.41%0.92%Nonperforming Loans59$                150$              341$              297$              300$              Nonperforming Loans % of Total Loans0.18%0.46%1.06%0.90%0.92%Nonperforming Assets218$              228$              402$              451$              593$              Nonperforming Assets % of Total Assets0.53%0.55%0.99%1.08%1.42% 
+ 
+ 
+ 
+The four RESG loans on non-accrual status at quarter end accounted for the vast majority of our past due and 
+
+nonperforming loans at June 30, 2026; specifically, 77 of the total 92 bps of past due loans and 77 of the total 92 
+
+bps of nonperforming loans. 
+
+As detailed in Figure 23, one of these loans has active ongoing negotiations with multiple potential property 
+
+buyers, one loan has an executed letter of intent for recapitalization, and two loans are the subject of pending 
+
+potential property sales. 
+
+RESG Substandard Credits 
+
+Figure 23: RESG Substandard Credits (As of June 30, 2026) 
+
+23 
+
+Property TypeTotalCommitmentOutstanding BalanceUnfunded"Good News" TI/LC Included in Unfunded ACL ReserveLTV *AppraisalDate($ millions)                                     Substandard Non-accrualBaltimore, MD212 days past dueLand$40.0$40.0-                 -                  -                 67%Jun '26Seattle, WAPioneer Square 149 days past dueOffice$25.9$25.9-                 -                  -                 100%Dec '25Wauwatosa, WI169 days past due Hotel $16.7$16.7-                 -                  -                 96%Mar '26Boston, MA138 days past due Life Science $169.3$169.3-                 -                  -                 91%Nov '25Substandard AccrualNear Lake Tahoe, CACurrent SF Lots & Homes $43.2$29.4$13.8-                  $7.393%Sep '25LocationThis loan matured December 18, 2025.  Since that time we have been in active and very detailed discussions and due diligence with multiple potential buyers who are interested in purchasing all or portions of the property.  We believe we have made significant progress towards successful resolution of this complex asset with multiple parcels.  We would prefer and expect to coordinate the sale or sales of the property from our borrower to a new owner or owners.  If an acceptable sale is not ultimately achieved, we will proceed to acquire title to the property.* LTVs on Baltimore Land, Seattle Office, Wauwatosa Hotel and Boston Life Science properties reflect "as-is" values as future funding commitments have been curtailed.  LTV on property near Lake Tahoe reflects the discounted sellout value of lots and homes currently securing the loan and assumes additional loan advances sufficient to fully complete construction in progress.This loan previously migrated to substandard non-accrual in the first quarter of 2026.  In the quarter just ended, the sponsor executed a sales contract for which the due diligence period has been completed and the earnest money is now non-refundable.  Closing is subject to customary conditions and is expected in the third quarter of 2026.  If closed, this sale should result in net proceeds equal to or slightly exceeding our current carrying value.  We are prepared to acquire title to this property if the sale does not close.This loan has been substandard accrual since the fourth quarter of 2019.  Over the life of the loan, we have recognized $44.2 million in interest and fee income. This loan previously migrated to substandard non-accrual in the first quarter of 2026.  In the quarter just ended, the sponsor executed a letter of intent with a new equity partner to recapitalize the project in a transaction which is expected to close in the third quarter of 2026.  If closed, we (i) will continue as senior lender to the new ownership based on the current outstanding balance and (ii) expect our loan to be upgraded and returned to accrual status as a result of the new equity contributed.  We are prepared to acquire title to this property if the recapitalization does not occur.This loan previously migrated to substandard accrual in the first quarter of 2026 following its February 2026 maturity and to substandard non-accrual in the quarter just ended. Despite a pending sale of the property for $330 million, the equity investors declined to contribute additional equity to extend the loan.  Our previously negotiated short-term forbearance agreement has expired, although the potential purchaser continues to pursue financing in support of their purchase of the property.  The migration to non-accrual status in the quarter just ended reflects the ongoing past due status of this loan and our diminished assessment of the likelihood of closing the pending sale.  We are prepared to acquire title to this property if this sale does not close. 
+ 
+ 
+ 
+ 
+RESG Foreclosed Assets 
+
+As of June 30, 2026, our foreclosed assets consisted primarily of six RESG assets, which we are working to 
+
+liquidate, as follows:  
+
+• 
+
+Los Angeles, CA Land - $54.5 million; 86% of March 2026 “As-is” Appraised Value.  After the previous 
+
+prospective purchaser paid us $12.0 million of contract extension fees and forfeited earnest money in 
+
+2024 and 2025, we have engaged with multiple interested parties.  These discussions have resulted in a 
+
+letter of intent which we are actively working to convert to a sales contract.  If closed, this sale should 
+
+result in net proceeds equal to or slightly more than our carrying value.  We also continue to have 
+
+discussions with other interested parties.  
+
+• 
+
+Chicago, IL Life Science - $47.5 million; 95% of June 2026 “As-is” Appraised Value.  This property was 
+
+transferred to foreclosed assets in March 2026 after the sponsor’s potential short sale failed to close.  The 
+
+carrying value of this asset was reduced by $2.5 million during the quarter just ended based on a new 
+
+appraisal. 
+
+• 
+
+Santa Monica, CA Office - $44.8 million; 89% of August 2025 “As-is” Appraised Value.  This property was 
+
+transferred to foreclosed assets in March 2026 and is 15% leased.  We recently engaged a national 
+
+brokerage firm to conduct comprehensive marketing of this property. 
+
+• 
+
+Seattle, WA Office - $56.1 million; 95% of January 2026 “As-is” Appraised Value and Seattle, WA Life 
+
+Science - $48.5 million; 95% of December 2025 “As-is” Appraised Value.  At March 31, 2026, these 
+
+adjacent, vacant University District properties secured substandard accrual loans which migrated to 
+
+substandard non-accrual during the quarter just ended after a potential buyer withdrew.  The properties 
+
+were transferred to foreclosed assets in June 2026 following charge-offs of $22.3 million (office) and $3.7 
+
+million (life science). 
+
+•  Atlanta, GA Office - $36.6 million; 100% of June 2026 “As-is” Appraised Value.  At March 31, 2026, this 
+
+vacant property secured a special mention loan.  In the quarter just ended, the loan migrated to 
+
+substandard non-accrual after the sponsor’s marketing efforts failed to produce a satisfactory offer and 
+
+the loan matured with no further commitment of sponsor support.  The property was subsequently 
+
+transferred to foreclosed assets in June 2026 following a charge-off of $8.5 million. 
+
+24 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RESG Portfolio Bubble Chart 
+
+The loan-to-value (“LTV”) metrics on each of the 243 credits within the RESG portfolio as of June 30, 2026, are 
+
+illustrated in Figure 24.  The significant protection provided by RESG’s conservative loan-to-cost (“LTC”) and LTV 
+
+metrics is always important, and especially so in the current CRE cycle.  Assuming every RESG loan is fully funded, 
+
+the weighted average LTC for the RESG portfolio was 49% and the weighted average LTV was 46% as of June 30, 
+
+2026.  RESG collateral valuations benefit from the fact that the majority of RESG loans are for new construction, 
+
+which provides a distinct competitive advantage compared to older, less desirable properties. 
+
+RESG’s substandard credits previously detailed in Figure 23 are also pointed out in Figure 24.   
+
+Figure 24: RESG Portfolio by LTV & Origination Date (As of June 30, 2026)  
+
+ Bubble Size Reflects Total Funded and Unfunded Commitment Amount 
+
+Mar. 2008 
+
+Mar. 2012 
+
+25 
+
+ 
+ 
+ 
+ 
+ 
+ 
+RESG Sponsor/Capital Partner Support 
+
+We structure RESG loans so that sponsors/capital partners are highly incentivized to support their loans, even in 
+
+challenging times.  Important elements include sizable equity investments relative to our low leverage loans and 
+
+originating loans secured by high quality assets with excellent long-term prospects, motivating sponsors to stay 
+
+engaged even if sales or leasing take longer than expected.   
+
+Strong support from the vast majority of RESG sponsors/capital partners is one of the reasons that, despite the 
+
+unusually challenging environment, we have not had more RESG substandard credits and foreclosed assets over 
+
+the past 16 quarters.    
+
+As shown in Figure 25, we have seen significant support by sponsors/capital partners for our RESG loans over the 
+
+last 16 quarters, evidenced by the $1.4 billion of total additional equity contributions ($923 million of additional 
+
+reserve deposits and $522 million of unscheduled paydowns) received related to the 661 modifications/extensions 
+
+(37 in the quarter just ended).  Additionally, we enhanced our floor rates and spreads on 212 loans and 11 loans, 
+
+respectively, while granting three floor reductions and seven spread reductions during that time frame. 
+
+Figure 25: Demonstrated Sponsor/Capital Partner Support of RESG Loans ($ millions) 
+
+26 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RESG Appraisal Updates 
+
+During the quarter just ended, RESG obtained new appraisals for 23 existing loans with a total commitment of 
+
+$2.04 billion.  Figure 26 shows the resulting changes in LTV as compared to the LTV based on the previous 
+
+appraised value and the previous total loan commitment for each of these loans.  LTVs were little changed (plus or 
+
+minus 10%) for 18 loans, LTVs decreased by more than 10% for 2 loans and LTVs increased more than 10% for 3 
+
+loans. 
+
+As shown in Figure 27, of the RESG loans in the portfolio as of June 
+
+30, 2026, 113 loans with a total commitment of $10.79 billion (42% 
+
+Figure 27: RESG Appraisal Vintage
+As of June 30, 2026
+($ millions - Total Commitment)
+
+based on total commitment) were appraised in the last four 
+
+quarters.  Cumulatively, 207 of the 243 RESG loans with a total 
+
+commitment of $21.98 billion (86% based on total commitment) 
+
+have been appraised within the last eight quarters.  All but one loan 
+
+(which has only a nominal balance) has been appraised after January 
+
+1, 2023 (within the last 14 quarters).   
+
+# of Loans
+
+113
+
+94
+
+ $15,000
+
+ $10,000
+
+ $5,000
+
+35
+
+ $-
+
+3Q25 to
+2Q26
+
+3Q24 to
+2Q25
+
+1Q23 to
+2Q24
+
+Pre-2023
+
+1
+
+27 
+
+Figure 26: RESG New Appraisals - 2Q26 ($ in millions)Property TypeTotal CommitmentPrevious LTVLTV @ 6/30/26Δ in LTVProperty Type# of LoansTotal CommitmentPrevious LTVLTV @ 6/30/26Δ in LTVCondo* $             147 90.4%105.6%15.2%Office $             324 50.1%53.7%3.6%Hotel                   14 71.1%92.0%20.9%Office                   35 60.0%51.2%-8.8%Multifamily                   65 61.8%69.9%8.1%Life Science                 115 52.1%48.9%-3.2%Office                   10 129.0%68.7%-60.3%Hotel                   75 47.9%47.4%-0.5%Multifamily                   67 74.3%67.2%-7.0%Multifamily                   65 44.0%43.6%-0.4%Land**                   40 53.1%66.7%13.6%Industrial                   26 48.1%43.5%-4.7%Multifamily                   69 57.0%62.8%5.8%Industrial                   66 49.1%41.5%-7.6%Multifamily                 147 64.7%61.1%-3.6%Condo                   45 52.8%41.5%-11.3%Office                 242 52.5%60.8%8.3%Condo                 151 37.5%41.3%3.8%Mixed Use*                 196 50.1%59.0%8.9%Land                   21 37.1%37.0%-0.1%Multifamily                   86 55.6%56.3%0.6%Land                   11 33.1%29.8%-3.3%Multifamily                   23 47.6%54.2%6.6%*  These loans are risk rated special mention. **  This loan is risk rated substandard non-accrual and previously listed in Figure 23. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Deposit and Liquidity Details  
+
+Most of our deposits are generated 
+
+through our expanding network of 255 
+
+retail branches located in six dynamic 
+
+southern states: Georgia, Florida, 
+
+Texas, North Carolina, Tennessee and 
+
+Arkansas.  Our franchise includes a 
+
+combination of high-growth 
+
+metropolitan areas (e.g., Dallas, Austin, 
+
+Houston, San Antonio, Miami, 
+
+Jacksonville, Orlando, Tampa, Atlanta, 
+
+Charlotte and Nashville) and a number of deeply entrenched core branch networks in suburban and rural markets, 
+
+many with very favorable economic and demographic trends.  We expect to further enhance our branch network 
+
+by strategically adding approximately 10 branches in each of 2026 and 2027.   
+
+Because of the substantial “retail” nature of our deposit base, 80% of our deposits are either insured (67% at June 
+
+30, 2026) or, in the case of public funds and certain other deposits, collateralized (13% at June 30, 2026).  As of 
+
+June 30, 2026, our average account balance was approximately $52,000.  The diversity of our deposit base is an 
+
+important factor in the demonstrated stability of our deposits.   
+
+Figure 28: Deposit Composition ($ millions) 
+
+We maintain substantial and diverse sources of primary and secondary liquidity.  At June 30, 2026 these sources 
+
+were at a record high total of $19.7 billion, consisting of $1.5 billion of cash and cash equivalents, $3.2 billion of 
+
+unpledged investment securities, $8.3 billion of available FHLB borrowing capacity, $5.4 billion of Fed discount 
+
+window borrowing availability, and $1.2 billion of available unsecured lines of credit.  
+
+28 
+
+Period Ended6/30/20259/30/202512/31/20253/31/20266/30/2026Noninterest Bearing3,836$     11.4%3,902$     11.5%3,833$     11.5%3,901$     11.6%3,951$     11.6%Consumer and CommercialInterest Bearing:Consumer - Non-time3,145       9.4%3,190       9.4%3,276       9.8%3,436       10.2%3,448       10.1%Consumer - Time14,746     44.0%15,313     45.1%15,168     45.4%15,221     45.1%15,495     45.6%Commercial - Non-time3,071       9.2%3,210       9.4%2,984       8.9%3,066       9.1%2,950       8.7%Commercial - Time981          2.9%1,016       3.0%978          2.9%994          2.9%1,004       3.0%Public Funds4,403       13.1%4,249       12.5%4,248       12.7%4,171       12.4%4,108       12.1%Brokered2,850       8.5%2,650       7.8%2,508       7.5%2,483       7.4%2,517       7.4%Reciprocal490          1.5%454          1.3%390          1.3%493          1.3%524          1.5%Total33,522$   100.0%33,985$   100.0%33,385$   100.0%33,765$   100.0%33,997$   100.0% 
+   
+ 
+ 
+ 
+ 
+Non-interest Income  
+
+Non-interest income for the second quarter of 2026 was our highest ever (excluding unusual items in previous 
+
+quarters) at $37.9 million, increases of 21.0% from the second quarter of 2025 and 16.4% from the first quarter of 
+
+2026.  For the first six months of 2026, non-interest income was $70.4 million, an increase of 6.6% from $66.0 
+
+million for the first six months of 2025.  Figures 29 and 30, respectively, summarize non-interest income for the 
+
+most recent five quarters and year-over-year trends for the second quarter and first six months of 2026.     
+
+We remain focused on growing non-interest income including increasing revenue from CIB-related fee-generating 
+
+businesses, trust and wealth, treasury management and secondary market mortgage lending.  We continue to 
+
+expect these efforts to contribute to a mid- to high-single digit percentage increase in non-interest income in 2026 
+
+compared to $135.7 million in 2025 and to contribute additional growth in 2027 and subsequent years. 
+
+Figure 29: Quarterly Trends in Non-interest Income ($ thousands) 
+
+Figure 30: Trends in Non-interest Income – 2025 vs. 2026 ($ thousands) 
+
+29 
+
+For the Three Months Ended6/30/20259/30/202512/31/20253/31/20266/30/2026     Deposit-related fees11,027$     11,398$     11,366$     11,058$     11,398$     Loan-related fees7,925        9,181        8,638        8,819        12,478      BOLI income5,854        6,346        6,061        6,061        6,131        Trust income2,946        2,971        3,030        3,044        3,038        Gains on sales of other assets514           1,968        939           807           966           Other3,025        4,213        3,570        2,742        3,863        Total non-interest income31,291$     36,077$     33,604$     32,531$     37,874$     For the Three Months EndedFor the Six Months Ended6/30/20256/30/2026% Change6/30/20256/30/2026% Change           Deposit-related fees11,027$     11,398$     3.4%21,533      22,456      4.3%Loan-related fees7,925        12,478      57.5% 16,910      21,297       25.9%BOLI income5,854        6,131        4.7%11,598      12,192      5.1%Trust income2,946        3,038        3.1% 5,460        6,082         11.4%Gains on sales of other assets514           966           88.0% 1,283        1,773         38.2%Other3,025        3,863        27.7% 9,232        6,606         -28.4%Total non-interest income31,291$     37,874$     21.0% 66,016$     70,406$      6.7% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Non-interest Expense 
+
+Non-interest expense for the second quarter of 2026 was $170.6 million, increases of 11.4% from the second 
+
+quarter of 2025 and 3.7% from the first quarter of 2026.  Non-interest expense for the quarter just ended included 
+
+elevated expenses related to nonperforming assets including a $2.5 million write-down discussed on page 24.  
+
+Non-interest expense for the first six months of 2026 was $335.2 million, an increase of 11.7% from the first six 
+
+months of 2025.  Figures 31 and 32, respectively, summarize non-interest expense for the most recent five 
+
+quarters and year-over-year trends for the second quarter and first six months of 2026. 
+
+We currently expect growth in non-interest expense of approximately 9% to 10% for the full year of 2026 
+
+compared to $621.1 million for 2025. 
+
+Figure 31: Quarterly Trends in Non-interest Expense ($ thousands) 
+
+Figure 32: Trends in Non-interest Expense – 2025 vs. 2026 ($ thousands) 
+
+30 
+
+For the Three Months Ended6/30/20259/30/202512/31/20253/31/20266/30/2026Salaries & employee benefits86,224$     89,954$     87,689$     94,578$     92,194$     Net occupancy and equipment18,677       21,111       21,551       22,585       23,638       Software and data processing11,121       10,591       11,776       11,423       11,817       Deposit insurance and assessments6,605         7,581         5,620         6,830         8,775         Professional and outside services6,360         7,360         9,812         6,507         6,367         Advertising and public relations4,572         6,351         5,335         4,478         4,510         Other 19,604       16,360       19,866       18,139       23,346       Total non-interest expense153,163$   159,308$   161,649$   164,540$   170,647$   For the Three Months EndedFor the Six Months EndedFor the Year Ended6/30/20256/30/2026% Change6/30/20256/30/2026% ChangeSalaries & employee benefits86,224$         92,194$         6.9%168,424$       186,772$       10.9%Net occupancy and equipment18,677           23,638           26.6%37,122           46,223           24.5%Software and data processing11,121           11,817           6.3%21,102           23,240           10.1%Deposit insurance and assessments6,605             8,775             32.9%13,380           15,605           16.6%Professional and outside services6,360             6,367             0.1%12,565           12,874           2.5%Advertising and public relations4,572             4,510             -1.4%8,623             8,988             4.2%Other expenses19,604           23,346           19.1%38,901           41,485           6.6%Total non-interest expense153,163$       170,647$       11.4%300,117$       335,187$       11.7% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Efficiency Ratio 
+
+In recent years, we have made significant investments to enhance our future capabilities, including growth and 
+
+expansion of our CIB team, branch network, technology, private banking/wealth management, treasury 
+
+management and community bank lending (mortgage, consumer and small business lending).  We believe these 
+
+strategic investments will greatly enhance the future growth and profitability of our franchise. 
+
+These strategic initiatives have contributed to significant increases in our headcount with full time equivalent 
+
+employees (“FTEs”) increasing by 284 in 2024 and 252 in 2025 before moderating to an increase of 6 FTEs in the 
+
+first half of 2026.  The recent slower headcount growth reflects the fine-tuning of organizational structures and 
+
+staffing plans for various teams throughout the bank in order to improve both effectiveness and efficiency. 
+
+Even with these increases in non-interest expense, our efficiency ratio continues to be among the best in the 
+
+industry.  Our efficiency ratio was 39.2% for the quarter just ended and 39.1% for the first six months of 2026. Our 
+
+efficiency ratio has been in the top decile of the industry for 24 consecutive years.*   
+
+Figure 33: Quarterly Efficiency Ratio (%) 
+
+31 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Effective Tax Rate 
+
+Our effective tax rate was 21.7% for the quarter just ended and was 22.3% for the first six months of 2026.  Our 
+
+effective tax rate has recently benefited from our increase in tax-exempt investment securities and from tax credit 
+
+investments.  Assuming no changes in applicable state or federal income tax rates, we currently expect our 
+
+effective tax rate for the full year of 2026 to be between 22% and 23%.  
+
+Capital Return - Stock Repurchase Program and Dividends 
+
+Over the past two years, we have focused on returning capital to our shareholders as (i) our balance sheet growth 
+
+has moderated due primarily to elevated RESG loan repayments and (ii) our capital ratios have generally increased 
+
+due to our strong earnings. 
+
+Stock Repurchase Program 
+
+During the quarter just ended, we repurchased 0.33 million shares of common stock for $15.5 million, including 
+
+applicable federal excise tax, for an average price per share of $47.43, which was below our quarter-end tangible 
+
+book value of $48.41 per share.  Our purchases were thus accretive to both tangible book value per share and 
+
+earnings per share. 
+
+These purchases were part of our previous stock repurchase program which expired July 1, 2026.  From July 1, 
+
+2025 through July 1, 2026, we repurchased 3.89 million shares of common stock for $176.6 million, including 
+
+applicable federal excise tax, for an average price per share of $45.34. 
+
+In June 2026, our Board authorized a new stock repurchase program for up to $200 million of our outstanding  
+
+common stock, which was effective July 1, 2026, and expires on July 1, 2027, unless extended, shortened or  
+
+suspended by the Board. 
+
+In establishing parameters for repurchase price and share volume, we will consider a variety of factors including 
+
+our stock price, expected growth, capital position, alternative uses of capital, liquidity, financial performance, the 
+
+current and expected macroeconomic environment, regulatory requirements and other factors.   
+
+Dividends 
+
+We have increased our common stock cash dividend in each of the last 64 quarters and every year since going 
+
+public in 1997.  We expect that we will continue to increase our common stock cash dividend in future quarters. 
+
+32 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Subordinated Notes 
+
+At June 30, 2026, we had $350.0 million in aggregate principal amount of our 2.75% Fixed-to-Floating rate 
+
+subordinated notes (the “2.75% Notes”) due 2031, which bear interest at a fixed rate of 2.75% per annum until 
+
+September 30, 2026.  On October 1, 2026, the 2.75% Notes (i) will reprice from the current fixed rate of 2.75% to 
+
+bear interest at a floating rate equal to three-month term SOFR + 209 bps, (ii) will be subject to a reduction in Tier 
+
+2 capital treatment by 20% for the next 12 months, and (iii) will be redeemable at par at our election on any 
+
+quarterly interest payment date.  Given the favorable terms of these subordinated notes, we currently have no 
+
+plans to replace them with new subordinated notes.  
+
+Capital  
+
+As shown in Figure 34, our capital ratios remained robust at June 30, 2026, and actually increased during the 
+
+quarter even after our share repurchases and increased dividend.  Our strong earnings and earnings retention rate 
+
+should continue to support robust capital levels, providing significant capacity to grow, add new business lines, 
+
+increase our dividend, repurchase stock and pursue acquisitions, if appropriate.  
+
+Figure234: Regulatory Capital Ratios 
+
+2 Ratios as of June 30, 2026 are preliminary estimates and are subject to revision upon filing of our FFIEC 041 Call 
+Report.  
+
+33 
+
+Regulatory MinimumCapital in ExcessRequired To of WellActual EstimatedBe ConsideredCapitalized3/31/2026 6/30/20262Well CapitalizedMinimumCET 1 Ratio*11.60%11.84%6.50%5.34%Tier 1 Ratio*12.35%12.59%8.00%4.59%Total RBC Ratio*14.63%14.87%10.00%4.87%Tier 1 Leverage13.77%13.96%5.00%8.96%* Ratios are risk-based 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Book Value and Tangible Book Value 
+
+During the quarter just ended, our book value per common share increased $1.28, or 2.4% not annualized, to 
+
+$54.47.  Over the last four quarters, our book value per common share increased $4.88, or 9.8%.  Over the last 10 
+
+years, we increased book value per common share by a cumulative 217%, resulting in a compound annual growth 
+
+rate of 12.2%, as shown in Figure 35. 
+
+Figure 35: Book Value per Common Share (Period End) 
+
+$25.43 
+
+$28.10 
+
+$17.16 
+
+$30.97 
+
+$31.78 
+
+$34.70 
+
+$35.87 
+
+$54.47 
+
+$49.59 
+
+$44.67 
+
+$39.51 
+
+ $60.00
+
+ $50.00
+
+ $40.00
+
+ $30.00
+
+ $20.00
+
+ $10.00
+
+ $-
+
+2Q16
+
+2Q17
+
+2Q18
+
+2Q19
+
+2Q20
+
+2Q21
+
+2Q22
+
+2Q23
+
+2Q24
+
+2Q25
+
+2Q26
+
+During the quarter just ended, our tangible book value per common share increased $1.26, or 2.7% not annualized, 
+
+to $48.41. Over the last four quarters, our tangible book value per common share increased $4.69, or 10.7%.  Over 
+
+the last 10 years, we increased tangible book value per common share by a cumulative 212%, resulting in a 
+
+compound annual growth rate of 12.1%, as shown in Figure 36. 
+
+Figure 36: Tangible Book Value per Common Share (Period End) 3 
+
+ $60.00
+
+ $50.00
+
+ $40.00
+
+ $30.00
+
+ $20.00
+
+ $10.00
+
+ $-
+
+$19.85 
+
+$22.63 
+
+$15.51 
+
+$25.61 
+
+$26.53 
+
+$29.52 
+
+$30.27 
+
+$48.41 
+
+$43.72 
+
+$38.85 
+
+$33.67 
+
+2Q16
+
+2Q17
+
+2Q18
+
+2Q19
+
+2Q20
+
+2Q21
+
+2Q22
+
+2Q23
+
+2Q24
+
+2Q25
+
+2Q26
+
+3 See the schedule in Appendix A at the end of this presentation for the reconciliation of tangible book value per 
+common share to the most directly comparable GAAP measure. 
+
+34 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX A 
+
+Non-GAAP Reconciliations 
+
+Calculation of Average Common Stockholders’ Equity, Average Tangible Common Stockholders’ Equity and the 
+
+Annualized Returns on Average Common Stockholders’ Equity and  
+
+Average Tangible Common Stockholders’ Equity 
+
+Unaudited (Dollars in Thousands) 
+
+Calculation of Pre-Tax Pre-Provision Net Revenue 
+
+Unaudited (Dollars in Thousands) 
+
+35 
+
+Three Months Ended *Six Months Ended*6/30/20256/30/20266/30/20256/30/2026Net Income Available To Common Stockholders178,931$       163,325$       346,843$       322,641$      Average Stockholders' Equity Before   Noncontrolling Interest5,866,660$     6,218,347$     5,822,853$     6,200,457$    Less Average Preferred Stock(338,980)        (338,980)        (338,980)        (338,980)       Total Average common stockholders' equity 5,527,680$     5,879,367$     5,483,873$     5,861,477$    Less Goodwill(660,789)        (660,789)        (660,789)        (660,789)       Average Tangible Common Stockholders' Equity4,866,891$     5,218,578$     4,823,084$     5,200,688$    Return On Average Common Stockholders' Equity12.98%11.14%12.75%11.10%Return On Average Tangible Common Stockholders' Equity14.75%12.55%14.50%12.51%* Ratios for interim periods annualized based on actual daysThree Months EndedSix Months Ended6/30/20256/30/20266/30/20256/30/2026 Net income available to common stockholders178,931$       163,325$       346,843$       322,641$       Preferred stock dividends4,047             4,047             8,094             8,094             Earnings attributable to noncontrolling interest25                 -                    37                 -                    Provision for income taxes56,656           46,400           108,548         94,648           Provision for credit losses35,215           45,601           73,632           87,549           Pre-tax pre-provision net revenue274,874$       259,373$       537,154$       512,932$        
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Calculation of Total Common Stockholders’ Equity, Total Tangible Common Stockholders’ Equity and Tangible 
+
+Book Value per Common Share 
+
+Unaudited (Dollars in Thousands, Except per Share) 
+
+36 
+
+As of June 30, AsofSeptember30,201620172018201920202021Total stockholders' equity before noncontrolling interest1,556,921$    3,260,123$    3,613,903$    3,993,247$    4,110,666$    4,501,676$    Less preferred stock- - - - - - Total common stockholders' equity1,556,921     3,260,123     3,613,903     3,993,247     4,110,666     4,501,676     Less intangible assets:Goodwill(126,289)       (660,789)       (660,789)       (660,789)       (660,789)       (660,789)       Core deposit and other intangibles, net of accumulated amortization(23,615)         (54,541)         (41,962)         (29,515)         (18,377)         (11,336)         Total intangibles(149,904)       (715,330)       (702,751)       (690,304)       (679,166)       (672,125)       Total tangible common stockholders' equity1,407,017$    2,544,793$    2,911,152$    3,302,943$    3,431,500$    3,829,551$    Common shares outstanding (thousands)90,745 128,190        128,616        128,947        129,350        129,720        Book value per common share17.16$    25.43$    28.10$    30.97$    31.78$    34.70$    Tangible book value per common share15.51$    19.85$    22.63$    25.61$    26.53$    29.52$    As of June 30,As of20222023202420252026Mar. 31, 2026Total stockholders' equity before noncontrolling interest4,606,782$    4,809,891$    5,407,800$    5,924,875$    6,278,068$    6,156,210$    Less preferred stock(338,980)       (338,980)       (338,980)       (338,980)       (338,980)       (338,980)       Total common stockholders' equity4,267,802     4,470,911     5,068,820     5,585,895     5,939,088     5,817,230     Less intangible assets:Goodwill(660,789)       (660,789)       (660,789)       (660,789)       (660,789)       (660,789)       Core deposit and other intangibles, net of accumulated amortization(5,240) (377) - - - - Total intangibles(666,029)       (661,166)       (660,789)       (660,789)       (660,789)       (660,789)       Total tangible common stockholders' equity3,601,773$    3,809,745$    4,408,031$    4,925,106$    5,278,299$    5,156,441$    Common shares outstanding (thousands)118,996        113,145        113,465        112,641        109,040        109,368        Book value per common share35.87$    39.51$    44.67$    49.59$    54.47$    53.19$    Tangible book value per common share30.27$    33.67$    38.85$    43.72$    48.41$    47.15$    Calculation of Total Common Stockholders’ Equity, Total Tangible Common Stockholders’ Equity and the Ratio of 
+
+Total Tangible Common Stockholders’ Equity to Total Tangible Assets 
+
+Unaudited (Dollars in Thousands, Except per Share) 
+
+37 
+
+June 30,December 31,June 30,202520252026Total stockholders' equity before noncontrolling interest5,924,875$   6,129,851$   6,278,068$   Less preferred stock(338,980) (338,980) (338,980) Total common stockholders' equity5,585,895$   5,790,871$   5,939,088$   Less Goodwill(660,789) (660,789) (660,789) Total tangible common stockholders' equity4,925,106$   5,130,082$   5,278,299$   Total assets41,454,390$   40,785,840$   41,703,135$   Less Goodwill(660,789) (660,789) (660,789) Total tangible assets40,793,601$   40,125,051$   41,042,346$   Ratio of total common stockholders' equity to total assets13.47%14.20%14.24%Ratio of total tangible common stockholders' equity to totaltangible assets12.07%12.79%12.86%Exhibit 99.3
+
+Bank	OZK
+Consolidated	Balance	Sheets
+Unaudited
+
+ASSETS
+
+Cash	and	cash	equivalents
+Investment	securities	–	available	for	sale	(“AFS”)
+Federal	Home	Loan	Bank	of	Dallas	(“FHLB”)	and	other	bankers’	bank	stocks
+Loans
+Allowance	for	loan	losses
+
+Net	Loans
+
+Premises	and	equipment,	net
+Foreclosed	assets
+Accrued	interest	receivable
+Bank	owned	life	insurance
+Goodwill
+Other	assets
+
+Total	assets
+
+LIABILITIES	AND	STOCKHOLDERS’	EQUITY
+
+Deposits:
+
+Demand	non-interest	bearing
+Savings	and	interest	bearing	transaction
+Time
+
+Total	deposits
+
+Other	borrowings
+Subordinated	notes
+Subordinated	debentures
+Reserve	for	losses	on	unfunded	loan	commitments
+Accrued	interest	payable	and	other	liabilities
+
+Total	liabilities
+
+Commitments	and	contingencies
+
+Stockholders’	equity:
+
+June	30,	2026
+
+December	31,	2025
+
+(Dollars	in	thousands,	except	per	share	amounts)
+
+$	
+
+$	
+
+1,554,322	 $	
+4,235,075	
+12,617	
+32,560,970	
+(461,534)	
+32,099,436	
+980,587	
+292,744	
+175,389	
+862,952	
+660,789	
+829,224	
+41,703,135	 $	
+
+$	
+
+3,951,241	 $	
+
+11,558,850	
+18,486,661	
+33,996,752	
+734	
+349,793	
+113,404	
+156,274	
+808,110	
+35,425,067	
+
+2,833,821	
+2,610,143	
+14,292	
+32,317,785	
+(475,721)	
+31,842,064	
+921,998	
+61,076	
+171,583	
+851,632	
+660,789	
+818,442	
+40,785,840	
+
+3,832,875	
+11,268,506	
+18,283,584	
+33,384,965	
+537	
+349,389	
+113,652	
+156,130	
+651,316	
+34,655,989	
+
+Preferred	stock:	$0.01	par	value;	100,000,000	shares	authorized;	14,000,000	
+			issued	and	outstanding	at	June	30,	2026	and	December	31,	2025
+Common	stock:	$0.01	par	value;	300,000,000	shares	authorized;	109,040,487	
+			and	110,382,626	shares	issued	and	outstanding	at	June	30,	2026	and	
+			December	31,	2025,	respectively
+Additional	paid-in	capital
+Retained	earnings
+Accumulated	other	comprehensive	loss
+
+Total	stockholders’	equity
+
+Total	liabilities	and	stockholders’	equity
+
+338,980	
+
+338,980	
+
+1,090	
+1,427,636	
+4,537,125	
+(26,763)	
+6,278,068	
+
+$	
+
+41,703,135	 $	
+
+1,104	
+1,497,334	
+4,317,292	
+(24,859)	
+6,129,851	
+40,785,840	
+
+1
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Bank	OZK
+Consolidated	Statements	of	Income
+Unaudited
+
+Three	Months	Ended	June	30,
+
+2026
+
+2025
+
+Six	Months	Ended	June	30,
+
+2026
+
+2025
+
+(Dollars	in	thousands,	except	per	share	amounts)
+
+$	
+
+587,048	 $	
+
+619,387	 $	
+
+1,165,367	 $	
+
+1,207,947	
+
+34,051	
+36,808	
+27,809	
+1,264,035	
+
+26,175	
+27,525	
+42,432	
+1,304,079	
+
+Interest	income:
+
+Loans
+Investment	securities:
+
+Taxable
+Tax-exempt
+Deposits	with	banks
+
+Total	interest	income
+
+Interest	expense:
+
+Deposits
+Other	borrowings
+Subordinated	notes
+Subordinated	debentures
+
+Total	interest	expense
+
+Net	interest	income
+Provision	for	credit	losses
+Net	interest	income	after	provision	for	credit	losses
+
+Non-interest	income:
+
+Deposit-related	fees
+Loan-related	fees
+Other
+
+Total	non-interest	income
+
+Non-interest	expense:
+
+Salaries	and	employee	benefits
+Net	occupancy	and	equipment
+Other	operating	expenses
+
+Total	non-interest	expense
+
+18,971	
+21,296	
+7,705	
+635,020	
+
+237,037	
+1,428	
+2,603	
+1,806	
+242,874	
+
+392,146	
+45,601	
+346,545	
+
+11,398	
+12,478	
+13,998	
+37,874	
+
+92,194	
+23,638	
+54,815	
+170,647	
+
+12,986	
+14,470	
+21,499	
+668,342	
+
+262,564	
+4,426	
+2,603	
+2,003	
+271,596	
+
+396,746	
+35,215	
+361,531	
+
+11,027	
+7,925	
+12,339	
+31,291	
+
+86,224	
+18,677	
+48,262	
+153,163	
+
+476,067	
+1,465	
+5,177	
+3,613	
+486,322	
+
+777,713	
+87,549	
+690,164	
+
+22,456	
+21,297	
+26,653	
+70,406	
+
+186,772	
+46,223	
+102,192	
+335,187	
+
+Income	before	taxes
+Provision	for	income	taxes
+Net	income
+Earnings	attributable	to	noncontrolling	interest
+Preferred	stock	dividends
+Net	income	available	to	common	stockholders
+
+Basic	earnings	per	common	share
+
+Diluted	earnings	per	common	share
+
+213,772	
+46,400	
+167,372	
+—	
+4,047	
+163,325	 $	
+
+239,659	
+56,656	
+183,003	
+(25)
+4,047	
+178,931	 $	
+
+425,383	
+94,648	
+330,735	
+—
+8,094	
+322,641	 $	
+
+1.49	 $	
+
+1.59	 $	
+
+2.93	 $	
+
+1.49	 $	
+
+1.58	 $	
+
+2.93	 $	
+
+$	
+
+$	
+
+$	
+
+2
+
+518,369	
+5,292	
+5,177	
+3,986	
+532,824	
+
+771,255	
+73,632	
+697,623	
+
+21,533	
+16,910	
+27,573	
+66,016	
+
+168,424	
+37,122	
+94,571	
+300,117	
+
+463,522	
+108,548	
+354,974	
+(37)	
+8,094	
+346,843	
+
+3.06	
+
+3.05	
+
+Bank	OZK
+Consolidated	Statements	of	Stockholders’	Equity
+Unaudited
+
+Three	months	ended	June	30,	2026
+
+Balances	–	March	31,	2026
+
+Net	income
+
+Total	other	comprehensive	income
+
+Preferred	stock	dividends,	$0.28906	per	share
+
+Common	stock	dividends,	$0.47	per	share
+Repurchase	and	cancellation	of	326,921	shares	of	common	
+stock	under	share	repurchase	program,	including	excise	tax
+
+Stock-based	compensation	expense
+
+Balances	–	June	30,	2026
+
+Six	months	ended	June	30,	2026
+
+Balances	–	December	31,	2025
+
+Net	income
+
+Total	other	comprehensive	loss
+
+Preferred	stock	dividends,	$0.57812	per	share
+
+Common	stock	dividends,	$0.93		per	share
+
+Repurchase	and	cancellation	of	1,646,914	shares	of	common	
+stock	under	share	repurchase	program,	including	excise	tax
+
+Common	stock	activity	pursuant	to	stock-based	
+compensation	plans
+
+Stock-based	compensation	expense
+
+Balances	–	June	30,	2026
+
+Preferred	
+Stock
+
+Common	
+Stock
+
+Additional
+Paid-in
+Capital
+
+Retained	
+Earnings
+
+Accumulated	
+Other	
+Comprehensive	
+(Loss)	Income
+
+Total
+
+(Dollars	in	thousands,	except	per	share	amounts)
+
+$	338,980	 $	
+
+1,094	 $	1,438,574	 $	4,425,459	 $	
+
+(47,897)	 $	6,156,210	
+
+	 167,372	
+
+—	
+
+167,372	
+
+—	
+
+21,134	
+
+21,134	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+(4,047)	
+
+(51,659)	
+
+(4)	 	—		
+
+(15,490)	
+
+—	
+
+4,552	
+
+—	
+
+—	
+
+$	338,980	 $	
+
+1,090	 $	1,427,636	 $	4,537,125	 $	
+
+(26,763)	 $	6,278,068	
+
+$	338,980	 $	
+
+1,104	 $	1,497,334	 $	4,317,292	 $	
+
+(24,859)	 $	6,129,851	
+
+	 330,735	
+
+—	
+
+330,735	
+
+—	
+
+(1,904)	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+(8,094)	
+
+(102,808)	
+
+—	
+
+—	
+
+—	
+
+—	
+
+(4,047)	
+
+(51,659)	
+
+(15,494)	
+
+4,552	
+
+(1,904)	
+
+(8,094)	
+
+(102,808)	
+
+(75,449)	
+
+(4,770)	
+
+10,507	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+(17)	
+
+(75,432)	
+
+3	
+
+—	
+
+(4,773)	
+
+10,507	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+—	
+
+$	338,980	 $	
+
+1,090	 $	1,427,636	 $	4,537,125	 $	
+
+(26,763)	 $	6,278,068	
+
+3
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Bank	OZK
+Allowance	for	Credit	Losses
+Unaudited
+
+Allowance	for	
+Loan	Losses	
+
+Reserve	for	Losses	
+on	Unfunded	Loan	
+Commitments
+
+(Dollars	in	thousands)
+
+Total	Allowance	for	
+Credit	Losses
+
+479,945	 $	
+(56,253)	
+37,842	
+
+461,534	 $	
+
+148,515	 $	
+—	
+7,759	
+156,274	 $	
+
+628,460	
+(56,253)	
+45,601	
+617,808	
+
+475,721	 $	
+(101,592)	
+87,405	
+
+461,534	 $	
+
+156,130	 $	
+—	
+144	
+156,274	 $	
+
+631,851	
+(101,592)	
+87,549	
+617,808	
+
+488,150	 $	
+(8,208)	
+38,692	
+
+518,634	 $	
+
+150,609	 $	
+—	
+(3,477)	
+147,132	 $	
+
+465,547	 $	
+(27,226)	
+80,313	
+
+518,634	 $	
+
+153,813	 $	
+—	
+(6,681)	
+147,132	 $	
+
+638,759	
+(8,208)	
+35,215	
+665,766	
+
+619,360	
+(27,226)	
+73,632	
+665,766	
+
+$	
+
+$	
+
+$	
+
+$	
+
+$	
+
+$	
+
+$	
+
+$	
+
+Three	months	ended	June	30,	2026:
+Balances	–	March	31,	2026
+Net	charge-offs
+Provision	for	credit	losses
+Balances	–	June	30,	2026
+
+Six	months	ended	June	30,	2026:
+Balances	–	December	31,	2025
+Net	charge-offs
+Provision	for	credit	losses
+Balances	–	June	30,	2026
+
+Three	months	ended	June	30,	2025:
+Balances	–	March	31,	2025
+Net	charge-offs
+Provision	for	credit	losses
+Balances	–	June	30,	2025
+
+Six	months	ended	June	30,	2025:
+Balances	–	December	31,	2024
+Net	charge-offs
+Provision	for	credit	losses
+Balances	–	June	30,	2025
+
+4
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Bank	OZK
+Selected	Consolidated	Financial	Data
+Unaudited
+
+June	30,	2026
+
+Three	Months	Ended
+
+%	Change
+
+March	31,	
+March	31,	2026
+2026
+(Dollars	in	thousands,	except	per	share	amounts)
+
+June	30,	2025
+
+June	30,	
+2025
+
+	1.7%	
+	8.7	
+	16.4	
+	3.7	
+	2.5	
+	2.3	
+
+	3.5%	
+	2.4	
+	2.7	
+	2.2	
+	(1.1)	
+	(0.3)	
+
+	0.1%	
+	(1.3)	
+	(3.8)	
+	10.2	
+	0.7	
+	(99.8)	
+	1.3	
+	5.2	
+	2.1	
+	2.4	
+
+	(1.2%)	
+	29.5	
+	21.0	
+	11.4	
+	(8.7)	
+	(5.6)	
+
+	(5.7%)	
+	9.8	
+	10.7	
+	9.3	
+	(3.2)	
+	(3.2)	
+
+	0.6%	
+	(1.3)	
+	(11.0)	
+	50.1	
+	1.4	
+	(99.9)	
+	(2.9)	
+	6.2	
+	6.3	
+	7.2	
+
+Income	statement	data:
+Net	interest	income
+Provision	for	credit	losses
+Non-interest	income
+Non-interest	expense
+Net	income	available	to	common	stockholders
+Pre-tax	pre-provision	net	revenue(1)
+Common	share	and	per	common	share	data:
+Diluted	earnings	per	common	share
+Book	value	per	common	share
+Tangible	book	value	per	common	share(1)
+Common	stock	dividends	per	share
+Weighted-average	diluted	shares	outstanding	(thousands)
+End	of	period	shares	outstanding	(thousands)
+
+Balance	sheet	data	at	period	end:
+
+Total	assets
+Loans
+Allowance	for	loan	losses
+Investment	Securities	-	AFS
+Deposits
+Other	borrowings
+Unfunded	loan	commitments
+Reserve	for	losses	on	unfunded	loan	commitments
+Total	common	stockholders’	equity(1)
+Total	tangible	common	stockholders’	equity	(“TCE”)(1)
+
+Average	balance	sheet	data:
+
+Total	average	earning	assets
+Total	average	assets
+Total	average	common	stockholders’	equity
+
+Selected	ratios:
+
+Return	on	average	assets(2)
+Return	on	average	common	stockholders’	equity(1)(2)
+Return	on	average	tangible	common	stockholders’	equity(1)(2)
+Loan	to	deposit	ratio
+TCE	to	total	tangible	assets	(“TCE	ratio”)(1)
+Net	interest	margin	-	FTE(2)
+Efficiency	Ratio
+Asset	quality	ratios:
+
+Net	charge-offs	to	average	loans(2)
+Nonperforming	loans	to	loans
+Nonperforming	assets	to	total	assets	
+Allowance	for	loan	losses	to	loans
+Allowance	for	credit	losses	to	loans	and	unfunded	
+			loan	commitments
+
+Other	Information:
+
+Non-accrual	loans
+Foreclosed	assets
+
+$	
+
+$	
+
+$	
+
+$	
+
+392,146	
+45,601	
+37,874	
+170,647	
+163,325	
+259,373	
+
+1.49	
+54.47	
+48.41	
+0.47	
+109,702	
+
+109,040	
+
+$	
+
+$	
+
+385,568	
+41,948	
+32,531	
+164,540	
+159,317	
+253,559	
+
+1.44	
+53.19	
+47.15	
+0.46	
+110,916	
+
+109,368	
+
+396,746	
+35,215	
+31,291	
+153,163	
+178,931	
+274,874	
+
+1.58	
+49.59	
+43.72	
+0.43	
+113,307	
+
+112,641	
+
+$	 41,703,135	
+	 32,560,970	
+461,534	
+4,235,075	
+	 33,996,752	
+734	
+	 17,858,327	
+156,274	
+5,939,088	
+5,278,299	
+
+$	 41,663,976	
+	 32,975,210	
+479,945	
+3,843,525	
+	 33,764,926	
+350,636	
+	 17,622,654	
+148,515	
+5,817,230	
+5,156,441	
+
+$	 41,454,390	
+33,005,054	
+518,634	
+2,822,206	
+33,522,080	
+800,589	
+18,391,958	
+147,132	
+5,585,895	
+4,925,106	
+
+$	 37,604,576	
+	 41,009,313	
+5,879,367	
+
+$	 37,659,220	
+	 40,861,758	
+5,843,389	
+
+$	 36,844,253	
+39,754,292	
+5,527,680	
+
+	1.60%	
+
+	1.58%	
+
+	1.81%	
+
+	11.14	
+
+	12.55	
+	95.78	
+	12.86	
+	4.24	
+	39.16	
+
+	0.69%	
+	0.92	
+	1.42	
+	1.42	
+
+	1.23	
+
+	11.06	
+
+	12.47	
+	97.66	
+	12.58	
+	4.20	
+	38.96	
+
+	0.57%	
+	0.90	
+	1.08	
+	1.46	
+
+	1.24	
+
+	12.98	
+
+	14.75	
+	98.46	
+	12.07	
+	4.36	
+	35.46	
+
+	0.10%	
+	0.18	
+	0.53	
+	1.57	
+
+	1.30	
+
+$	
+
+300,416	
+292,744	
+
+$	
+
+296,575	
+154,496	
+
+$	
+
+58,545	
+159,894	
+
+(1) See	accompanying	schedules	for	reconciliation	of	non-GAAP	financial	measures.	
+(2) Ratios	for	interim	periods	annualized	based	on	actual	days.
+
+5
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Bank	OZK
+Selected	Consolidated	Financial	Data
+Unaudited
+
+Six	Months	Ended
+
+June	30,	2026
+
+June	30,	2025
+
+%	Change
+
+(Dollars	in	thousands,	except	per	share	amounts)
+
+	0.8%	
+
+	18.9	
+	6.6	
+	11.7	
+	(7.0)	
+	(4.5)	
+
+	(3.9%)	
+	9.8	
+	10.7	
+	9.4	
+	(3.1)	
+	(3.2)	
+
+	0.6%	
+	(1.3)	
+	(11.0)	
+	50.1	
+	1.4	
+	(99.9)	
+	(2.9)	
+	6.2	
+	6.3	
+	7.2	
+
+Income	statement	data:
+Net	interest	income
+Provision	for	credit	losses
+Non-interest	income
+Non-interest	expense
+Net	income	available	to	common	stockholders
+Pre-tax	pre-provision	net	revenue(1)
+Common	share	and	per	common	share	data:
+Diluted	earnings	per	common	share
+Book	value	per	common	share
+Tangible	book	value	per	common	share(1)
+Common	stock	dividends	per	share
+Weighted-average	diluted	shares	outstanding	(thousands)
+End	of	period	shares	outstanding	(thousands)
+
+Balance	sheet	data	at	period	end:
+
+Total	assets
+Loans
+Allowance	for	loan	losses
+Investment	Securities	-	AFS
+Deposits
+Other	borrowings
+Unfunded	loan	commitments
+Reserve	for	losses	on	unfunded	loan	commitments
+Total	common	stockholders’	equity(1)
+Total	tangible	common	stockholders’	equity	(“TCE”)(1)
+
+Average	balance	sheet	data:
+
+Total	average	earning	assets
+Total	average	assets
+Total	average	common	stockholders’	equity
+
+Selected	ratios:
+
+Return	on	average	assets(2)
+Return	on	average	common	stockholders’	equity(1)(2)
+Return	on	average	tangible	common	stockholders’	equity(1),	(2)
+Loan	to	deposit	ratio
+TCE	to	total	tangible	assets	(“TCE	ratio”)(1)
+Net	interest	margin	-	FTE(2)
+Efficiency	Ratio
+Asset	quality	ratios:
+
+Net	charge-offs	to	average	loans(2)
+Nonperforming	loans	to	loans
+Nonperforming	assets	to	total	assets	
+Allowance	for	loan	losses	to	loans
+Allowance	for	credit	losses	to	loans	and	unfunded	loan	commitments
+
+Other	Information:
+
+Non-accrual	loans
+Foreclosed	assets
+
+$	
+
+$	
+
+777,713	
+87,549	
+70,406	
+335,187	
+322,641	
+512,932	
+
+2.93	
+54.47	
+48.41	
+0.93	
+110,264	
+109,040	
+
+$	
+
+$	
+
+771,255	
+73,632	
+66,016	
+300,117	
+346,843	
+537,154	
+
+3.05	
+49.59	
+43.72	
+0.85	
+113,773	
+112,641	
+
+$	41,703,135	
+	 32,560,970	
+461,534	
+4,235,075	
+	 33,996,752	
+734	
+	 17,858,327	
+156,274	
+5,939,088	
+5,278,299	
+
+$	41,454,390	
+	 33,005,054	
+518,634	
+2,822,206	
+	 33,522,080	
+800,589	
+	 18,391,958	
+147,132	
+5,585,895	
+4,925,106	
+
+$	37,631,748	
+	 40,935,943	
+5,861,477	
+
+$	36,224,850	
+	 39,065,100	
+5,483,873	
+
+	1.59%	
+
+	1.79%	
+
+	11.10	
+	12.51	
+	95.78	
+	12.86	
+	4.22	
+	39.06	
+
+	0.63%	
+	0.92	
+	1.42	
+	1.42	
+	1.23	
+
+	12.75	
+	14.50	
+	98.46	
+	12.07	
+	4.34	
+	35.53	
+
+	0.18%	
+	0.18	
+	0.53	
+	1.57	
+	1.30	
+
+$	
+
+300,416	
+292,744	
+
+$	
+
+58,545	
+159,894	
+
+(1) See	accompanying	schedules	for	reconciliation	of	non-GAAP	financial	measures.
+(2) Ratios	for	interim	periods	annualized	based	on	actual	days.
+
+6
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Bank	OZK
+Selected	Quarterly	Consolidated	Financial	Data
+Unaudited
+
+Income	Statement	Data:
+Net	interest	income
+Provision	for	credit	losses
+Non-interest	income
+Non-interest	expense
+Net	income	available	to	common	stockholders
+Pre-tax	pre-provision	net	revenue(1)
+
+Common	share	and	per	common	share	data:
+
+Diluted	earnings	per	common	share
+Book	value	per	share
+Tangible	book	value	per	common	share(1)
+Common	stock	dividends	per	share
+
+Balance	sheet	data	at	period	end:
+
+Total	assets
+Loans
+Investment	securities	–	AFS
+Deposits
+Unfunded	loan	commitments
+
+Allowance	for	credit	losses:
+
+Balance	at	beginning	of	period
+Net	charge-offs
+Provision	for	credit	losses
+
+Balance	at	end	of	period
+
+Allowance	for	loan	losses
+
+Reserve	for	losses	on	unfunded	loan	
+			commitments
+
+Total	allowance	for	credit	losses
+
+Allowance	for	loan	losses	to	loans
+Allowance	for	credit	losses	to	loans
+			and	unfunded	loan	commitments
+
+Selected	ratios:
+
+Net	interest	margin	–	FTE(2)
+Efficiency	ratio
+Net	charge-offs	to	average	loans(2)
+Nonperforming	loans	to	total	loans	
+Nonperforming	assets	to	total	assets	
+Loans	past	due	30	days	or	more,	including	
+			past	due	non-accrual	loans,	to	total	loans
+
+Other	Information:
+
+Non-accrual	loans
+Foreclosed	assets
+
+June	30,	2026
+
+March	31,	2026
+
+December	31,	2025
+
+September	30,	2025
+
+June	30,	2025
+
+(Dollars	in	thousands,	except	per	share	amounts)
+
+Three	Months	Ended
+
+$	
+
+$	
+
+392,146	
+45,601	
+37,874	
+170,647	
+163,325	
+259,373	
+
+1.49	
+54.47	
+48.41	
+0.47	
+
+$	
+
+$	
+
+385,568	
+41,948	
+32,531	
+164,540	
+159,317	
+253,559	
+
+1.44	
+53.19	
+47.15	
+0.46	
+
+$	
+
+$	
+
+$	
+
+$	
+
+407,047	
+50,568	
+33,604	
+161,649	
+171,916	
+279,002	
+
+1.53	
+52.46	
+46.48	
+0.45	
+
+413,859	
+48,314	
+36,077	
+159,308	
+180,533	
+290,628	
+
+1.59	
+51.09	
+45.23	
+0.44	
+
+$	
+
+$	
+
+396,746	
+35,215	
+31,291	
+153,163	
+178,931	
+274,874	
+
+1.58	
+49.59	
+43.72	
+0.43	
+
+$	41,703,135	
+	 32,560,970	
+	 4,235,075	
+	 33,996,752	
+	 17,858,327	
+
+$	41,663,976	
+	 32,975,210	
+	 3,843,525	
+	 33,764,926	
+	 17,622,654	
+
+$	 40,785,840	
+32,317,785	
+2,610,143	
+33,384,965	
+17,996,454	
+
+$	 41,606,548	
+32,846,115	
+2,759,722	
+33,984,925	
+17,897,812	
+
+$	41,454,390	
+	 33,005,054	
+	 2,822,206	
+	 33,522,080	
+	 18,391,958	
+
+$	
+
+$	
+$	
+
+$	
+
+628,460	
+(56,253)	
+45,601	
+617,808	
+461,534	
+
+156,274	
+617,808	
+
+$	
+
+$	
+$	
+
+$	
+
+631,851	
+(45,339)	
+41,948	
+628,460	
+479,945	
+
+148,515	
+628,460	
+
+$	
+
+$	
+$	
+
+$	
+
+	1.42%	
+
+	1.46%	
+
+	1.23%	
+
+	1.24%	
+
+	4.24%	
+
+	4.20%	
+
+	39.16	
+	0.69	
+	0.92	
+	1.42	
+
+	38.96	
+	0.57	
+	0.90	
+	1.08	
+
+	0.92	
+
+	1.41	
+
+679,600	
+(98,317)	
+50,568	
+631,851	
+475,721	
+
+156,130	
+631,851	
+
+$	
+
+$	
+$	
+
+$	
+
+	1.47%	
+
+	1.26%	
+
+	4.30%	
+
+	36.36	
+	1.18	
+	1.06	
+	0.99	
+
+	0.64	
+
+665,766	
+(34,480)	
+48,314	
+679,600	
+532,341	
+
+147,259	
+679,600	
+
+$	
+
+$	
+$	
+
+$	
+
+638,759	
+(8,208)	
+35,215	
+665,766	
+518,634	
+
+147,132	
+665,766	
+
+	1.62%	
+
+	1.57%	
+
+	1.34%	
+
+	1.30%	
+
+	4.35%	
+
+	4.36%	
+
+	35.11	
+	0.41	
+	0.46	
+	0.55	
+
+	35.46	
+	0.10	
+	0.18	
+	0.53	
+
+	0.14	
+
+	0.15	
+
+$	
+
+300,416	
+292,744	
+
+$	
+
+296,575	
+154,496	
+
+$	
+
+341,223	
+61,076	
+
+$	
+
+149,742	
+78,580	
+
+$	
+
+58,545	
+159,894	
+
+(1) Calculations	of	pre-tax	pre-provision	net	revenue	and	tangible	book	value	per	common	share	and	the	reconciliations	to	GAAP	are	included	in	the	
+
+schedules	accompanying	this	release.
+
+(2) Ratios	for	interim	periods	annualized	based	on	actual	days.
+
+7
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Bank	OZK
+Average	Consolidated	Balance	Sheets	and	Net	Interest	Analysis	–	FTE
+Unaudited
+
+Three	Months	Ended	June	30,
+
+Six	Months	Ended	June	30,
+
+Average	
+Balance
+
+2026
+Income/	
+Expense
+
+Yield/
+Rate
+
+Average	
+Balance
+
+2025
+Income/	
+Expense
+
+Yield/
+Rate
+
+Average	
+Balance
+
+(Dollars	in	thousands)
+
+2026
+Income/	
+Expense
+
+Yield/
+Rate
+
+Average	
+Balance
+
+2025
+Income/	
+Expense
+
+Yield/
+Rate
+
+$	
+
+866,132	 $	
+
+7,705	
+
+	3.57%	 $	 1,979,182	 $	
+
+21,499	
+
+	4.36%	 $	1,481,591	 $	 27,809	
+
+	3.79%	 $	1,970,726	 $	 42,432	
+
+	4.34%	
+
+18,971	
+26,957	
+	 587,167	
+	 640,800	
+
+	3.92	
+	5.51	
+	7.17	
+	6.84	
+
+	 1,941,152	
+	 1,962,751	
+	 32,834,541	
+	 37,604,576	
+	 3,404,737	
+$	41,009,313	
+
+	 1,572,336	
+	 1,370,401	
+	 31,922,334	
+	 36,844,253	
+	 2,910,039	
+$	39,754,292	
+
+12,986	
+18,317	
+619,479	
+672,281	
+
+	3.31	
+	5.36	
+	7.78	
+	7.32	
+
+34,051	
+46,594	
+	 1,165,602	
+	 1,274,056	
+
+	3.83	
+	5.42	
+	7.21	
+	6.83	
+
+	 1,795,118	
+	 1,732,705	
+	32,622,334	
+	37,631,748	
+	 3,304,195	
+$	40,935,943	
+
+26,175	
+34,842	
+	1,208,148	
+	1,311,597	
+
+	3.26	
+	5.21	
+	7.79	
+	7.30	
+
+	 1,617,092	
+	 1,349,073	
+	31,287,959	
+	36,224,850	
+	 2,840,250	
+$	39,065,100	
+
+$	11,431,009	 $	 70,156	
+	 166,881	
+	 17,928,356	
+	 237,037	
+	 29,359,365	
+1,428	
+151,284	
+2,603	
+349,694	
+1,806	
+113,568	
+	 242,874	
+	 29,973,911	
+
+	2.46%	 $	10,281,055	 $	
+	3.73	
+	3.24	
+	3.79	
+	2.99	
+	6.38	
+	3.25	
+
+	 18,217,108	
+	 28,498,163	
+484,468	
+348,880	
+113,652	
+	 29,445,163	
+
+69,302	
+193,262	
+262,564	
+4,426	
+2,603	
+2,003	
+271,596	
+
+	2.70%	 $	11,452,406	 $	 139,154	
+	 336,913	
+	4.26	
+	 476,067	
+	3.70	
+1,465	
+	3.66	
+5,177	
+	2.99	
+3,613	
+	7.07	
+	 486,322	
+	3.70	
+
+	17,973,388	
+	29,425,794	
+79,147	
+349,593	
+113,610	
+	29,968,144	
+
+	2.45%	 $	10,270,007	 $	 137,042	
+	 381,327	
+	3.78	
+	 518,369	
+	3.26	
+5,292	
+	3.73	
+5,177	
+	2.99	
+	6.41	
+3,986	
+	 532,824	
+	3.27	
+
+	17,712,445	
+	27,982,452	
+323,959	
+348,779	
+113,652	
+	28,768,842	
+
+	2.69%	
+	4.34	
+	3.74	
+	3.29	
+	2.99	
+	7.07	
+	3.73	
+
+	 3,864,367	
+952,688	
+	 34,790,966	
+
+	 5,879,367	
+338,980	
+$	41,009,313	
+
+	 3,780,192	
+661,909	
+	 33,887,264	
+
+	 5,866,660	
+368	
+$	39,754,292	
+
+	 3,865,787	
+901,555	
+	34,735,486	
+
+	 5,861,477	
+338,980	
+$	40,935,943,000	
+
+	 3,803,311	
+669,635	
+	33,241,788	
+
+	 5,822,853	
+459	
+$	39,065,100	
+
+$	 397,926	
+
+$	
+
+400,685	
+
+$	 787,734	
+
+$	 778,773	
+
+	4.24%	
+
+	4.36%	
+
+	4.22%	
+
+	4.34%	
+
+ASSETS
+
+Interest	earning	assets:
+
+Interest	earning	deposits
+Investment	securities:
+
+Taxable
+Tax-exempt	–	FTE
+
+Total	Loans	–	FTE	
+
+Total	earning	assets	–	FTE(1)
+
+Non-interest	earning	assets
+Total	assets
+
+LIABILITIES	AND	STOCKHOLDERS’	EQUITY
+
+Interest	bearing	liabilities:
+
+Deposits:
+
+Savings	and	interest	bearing	transactions
+Time	deposits
+
+Total	interest	bearing	deposits
+
+Other	borrowings
+Subordinated	notes
+Subordinated	debentures
+
+Total	interest	bearing	liabilities(2)
+
+Non-interest	bearing	liabilities:
+Non-interest	bearing	deposits
+Other	non-interest	bearing	liabilities
+
+Total	liabilities
+
+Total	stockholders’	equity	before	noncontrolling	
+interest
+
+Noncontrolling	interest
+
+Total	liabilities	and	stockholders’	equity
+
+Net	interest	income	–	FTE
+Net	interest	margin	–	FTE
+
+(1)			Net	interest	income	and	net	interest	margin	are	analyzed	on	a	fully	taxable	equivalent	basis	(“FTE”).	For	the	three	months	ended	June	30,	2026	and	2025,	the	total	FTE	adjustments	included	in	the	analysis	above	were	$5.8	
+
+million	and	$3.9	million,	respectively.	For	the	six	months	ended	June	30,	2026	and	2025,	the	FTE	adjustments	included	in	the	analysis	above	were	$10.0	million	and	$7.5	million,	respectively.
+
+(2)		The	interest	expense	and	the	rates	paid	on	“Total	interest	bearing	liabilities”	include	capitalized	interest	which	totaled	$0.5	million	and	$1.0	million	in	the	second	quarter	and	first	six	months	of	2026	compared		to	$1.0	million	
+
+and	$1.9	million	for	the	second	quarter	and	first	six	months	of	2025.		
+
+8
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Bank	OZK
+Reconciliation	of	Non-GAAP	Financial	Measures
+
+Calculation	of	Average	Common	Stockholders'	Equity,
+Average	Tangible	Common	Stockholders’	Equity	
+and	the	Annualized	Returns	on	Average	Common	Stockholders’	Equity	and	
+Average	Tangible	Common	Stockholders’	Equity	
+Unaudited
+
+Net	income	available	to	common	stockholders
+Average	stockholders’	equity	before	
+			noncontrolling	interest
+Less	average	preferred	stock
+
+Total	average	common	stockholders’	
+			equity
+Less	goodwill
+Average	tangible	common	stockholders’	equity
+Return	on	average	common	stockholders’	
+			equity(1)
+Return	on	average	tangible	common	
+			stockholders’	equity(1)
+
+Three	Months	Ended
+
+June	30,
+
+2026
+
+2025
+
+March	31,
+
+2026
+
+Six	Months	Ended
+
+June	30,
+
+2026
+
+2025
+
+$	 163,325	
+
+$	 178,931	
+
+(Dollars	in	thousands)
+$	 159,317	
+
+$	 322,641	
+
+$	 346,843	
+
+$	6,218,347	
+	 (338,980)	
+
+$	5,866,660	
+	 (338,980)	
+
+$	6,182,369	
+	 (338,980)	
+
+$	6,200,457	
+	 (338,980)	
+
+$	5,822,853	
+	 (338,980)	
+
+$	5,879,367	
+	 (660,789)	
+$	5,218,578	
+
+$	5,527,680	
+	 (660,789)	
+$	4,866,891	
+
+$	5,843,389	
+	 (660,789)	
+$	5,182,600	
+
+$	5,861,477	
+	 (660,789)	
+$	5,200,688	
+
+$	5,483,873	
+	 (660,789)	
+$	4,823,084	
+
+	11.14%	
+
+	12.98%	
+
+	11.06%	
+
+	11.10%	
+
+	12.75%	
+
+	12.55%	
+
+	14.75%	
+
+	12.47%	
+
+	12.51%	
+
+	14.50%	
+
+(1)	Ratios	for	interim	periods	annualized	based	on	actual	days.
+
+Calculation	of	Total	Common	Stockholders’	Equity,	
+Total	Tangible	Common	Stockholders’	Equity	
+and	Tangible	Book	Value	per	Common	Share
+Unaudited
+
+June	30,
+
+2026
+
+March	31,
+
+December	31,
+
+September	30,
+
+June	30,
+
+2026
+
+2025
+
+2025
+
+2025
+
+Total	stockholders’	equity
+Less	preferred	stock
+
+Total	common	stockholders’	equity
+
+Less	goodwill
+
+Total	tangible	common	stockholders’	
+equity
+
+Shares	of	common	stock	outstanding
+Book	value	per	common	share
+Tangible	book	value	per	common	share
+
+(In	thousands,	except	per	share	amounts)
+$	 6,278,068	 $	 6,156,210	 $	 6,129,851	 $	 6,093,406	 $	 5,924,875	
+(338,980)	
+$	 5,939,088	 $	 5,817,230	 $	 5,790,871	 $	 5,754,426	 $	 5,585,895	
+(660,789)	
+
+(338,980)	 	
+
+(660,789)	 	
+
+(338,980)	 	
+
+(338,980)	 	
+
+(660,789)	 	
+
+(338,980)	 	
+
+(660,789)	 	
+
+(660,789)	 	
+
+109,040	
+
+$	 5,278,299	 $	 5,156,441	 $	 5,130,082	 $	 5,093,637	 $	 4,925,106	
+112,641	
+49.59	
+43.72	
+
+54.47	 $	
+48.41	 $	
+
+51.09	 $	
+45.23	 $	
+
+52.46	 $	
+46.48	 $	
+
+53.19	 $	
+47.15	 $	
+
+109,368	
+
+112,628	
+
+110,383	
+
+$	
+$	
+
+9
+
+	
+	
+	
+	
+	
+	
+	
+Calculation	of	Total	Common	Stockholders’	Equity,
+Total	Tangible	Common	Stockholders’	Equity
+and	the	Ratio	of	Total	Tangible	Common	Stockholders’	Equity	
+to	Total	Tangible	Assets
+Unaudited
+
+June	30,
+
+2026
+
+2025
+
+March	31,
+
+2026
+
+Total	stockholders’	equity
+Less	preferred	stock
+
+Total	common	stockholders’	equity
+
+Less	goodwill
+
+Total	tangible	common	stockholders’	equity
+
+Total	assets
+Less	goodwill
+
+Total	tangible	assets
+
+$	
+
+$	
+
+6,278,068	
+(338,980)	
+5,939,088	
+(660,789)	
+$	
+5,278,299	
+$	 41,703,135	
+(660,789)	
+$	 41,042,346	
+
+(Dollars	in	thousands)
+$	
+
+$	
+
+5,924,875	
+(338,980)	
+5,585,895	
+(660,789)	
+$	
+4,925,106	
+$	 41,454,390	
+(660,789)	
+$	 40,793,601	
+
+$	
+
+$	
+
+6,156,210	
+(338,980)	
+5,817,230	
+(660,789)	
+$	
+5,156,441	
+$	 41,663,976	
+(660,789)	
+$	 41,003,187	
+
+Ratio	of	total	common	stockholders’	equity	to	total	assets
+Ratio	of	total	tangible	common	stockholders’	equity	to	
+			total	tangible	assets
+
+	14.24%	
+
+	13.47%	
+
+	13.96%	
+
+	12.86%	
+
+	12.07%	
+
+	12.58%	
+
+Calculation	of	Pre-Tax	Pre-Provision	Net	Revenue
+Unaudited
+
+Three	Months	Ended
+
+Six	Months	Ended
+
+June	30,
+
+March	31,
+
+Dec.	31,
+
+Sept.	30
+
+June	30,
+
+June	30,
+
+2026
+
+2026
+
+2025
+
+2025
+
+2025
+
+2026
+
+2025
+
+(Dollars	in	thousands)
+
+Net	income	available	to	common	
+			stockholders
+Preferred	stock	dividends
+Earnings	attributable	to	noncontrolling	
+			interest
+Provision	for	income	taxes
+Provision	for	credit	losses
+
+Pre-tax	pre-provision	net	revenue
+
+$	163,325	 $	159,317	 $	171,916	 $	180,533	 $	178,931	 $	322,641	 $	346,843	
+8,094	
+
+4,047	
+
+8,094	
+
+4,047	
+
+4,047	
+
+4,047	
+
+4,047	
+
+(52)	 	
+
+37	
+—	
+	 108,548	
+	 57,740	
+	 46,400	
+	 73,632	
+	 48,314	
+	 45,601	
+$	259,373	 $	253,559	 $	279,002	 $	290,628	 $	274,874	 $	512,932	 $537,154
+
+—	
+	 48,247	
+	 41,948	
+
+25	
+	 56,656	
+	 35,215	
+
+—	
+	 94,648	
+	 87,549	
+
+	 52,523	
+	 50,568	
+
+(6)	 	
+
+10
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

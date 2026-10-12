@@ -1,0 +1,33 @@
+RESG Portfolio Bubble Chart 
+
+The loan-to-value (“LTV”) metrics on each of the 243 credits within the RESG portfolio as of June 30, 2026, are 
+
+illustrated in Figure 24.  The significant protection provided by RESG’s conservative loan-to-cost (“LTC”) and LTV 
+
+metrics is always important, and especially so in the current CRE cycle.  Assuming every RESG loan is fully funded, 
+
+the weighted average LTC for the RESG portfolio was 49% and the weighted average LTV was 46% as of June 30, 
+
+2026.  RESG collateral valuations benefit from the fact that the majority of RESG loans are for new construction, 
+
+which provides a distinct competitive advantage compared to older, less desirable properties. 
+
+RESG’s substandard credits previously detailed in Figure 23 are also pointed out in Figure 24.   
+
+Figure 24: RESG Portfolio by LTV & Origination Date (As of June 30, 2026)  
+
+ Bubble Size Reflects Total Funded and Unfunded Commitment Amount 
+
+Mar. 2008 
+
+Mar. 2012 
+
+25 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
