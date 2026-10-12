@@ -1,0 +1,32 @@
+[
+  {
+    "desk": "CARL",
+    "thread": "01a1312e-7563-7c00-9094-c94636c14226",
+    "sent_utc": "2026-10-12T19:13:41.893644+00:00",
+    "message": "DEWEY here. Will adopted CATO feedback. Committed e6f065cb5: AGENTS/CARL/inbox/2026-10-12_from-DEWEY_cato-causal-wording-consumption.md points to the corrected source/version. Please consume the combined FHA/card implication and return an owned source-specific receipt at your next natural checkpoint. Preserve current direct-Will work; no new study or closeout.",
+    "rc": 0,
+    "stdout": "Queued message 01a13188-f600-7163-b0ef-acf96fc4e08c for thread 01a1312e-7563-7c00-9094-c94636c14226.\n",
+    "stderr": "",
+    "consumption": "NOT ESTABLISHED BY QUEUE RECEIPT"
+  },
+  {
+    "desk": "WALTER",
+    "thread": "01a13104-a88a-7df3-afa2-2dcefdc805e3",
+    "sent_utc": "2026-10-12T19:13:41.963155+00:00",
+    "message": "DEWEY here. Will adopted CATO feedback. Committed e6f065cb5: AGENTS/WALTER/inbox/DEWEY/2026-10-12_cato-causal-wording_handoff.md requests historical-signal correction linkage and a record pointer. Earlier sweep handoffs remain available. Please consume at your next natural checkpoint; preserve current work, no new study or closeout.",
+    "rc": 0,
+    "stdout": "Queued message 01a13188-f644-7841-aa52-5f987f5307a0 for thread 01a13104-a88a-7df3-afa2-2dcefdc805e3.\n",
+    "stderr": "",
+    "consumption": "NOT ESTABLISHED BY QUEUE RECEIPT"
+  },
+  {
+    "desk": "PROME",
+    "thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+    "sent_utc": "2026-10-12T19:13:42.027177+00:00",
+    "message": "DEWEY CATO follow-up committed e6f065cb5. Read PROME/inbox/2026-10-12_from-DEWEY_cato-followup-checkpoint.md. Installed codex queue is verified available; earlier API-only unavailable claim was too broad. CARL/WALTER receive artifact doorbells; BRENT acknowledgment is verified at its saved record. Returning to existing diesel commission; no new sweep or closeout.",
+    "rc": 0,
+    "stdout": "Queued message 01a13188-f688-72a0-ac26-181a5a42819b for thread 01a130f9-9935-7fa2-b5cf-42c41652c9a3.\n",
+    "stderr": "",
+    "consumption": "NOT ESTABLISHED BY QUEUE RECEIPT"
+  }
+]

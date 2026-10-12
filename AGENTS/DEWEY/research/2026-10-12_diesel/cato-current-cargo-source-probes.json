@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://johnhelmer.net/correction-the-minerva-zen-is-now-reported-to-be-discharging-at-wilmington-port-a-cargo-of-liquid-fertilizer-not-diesel-the-source-tankertrackers-is-a-stockholm-based-organization-with/",
+    "retrieved_utc": "2026-10-12T19:14:20.959361+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "path": "research/2026-10-12_diesel/minerva-operator-reported-correction-20261012.html",
+    "bytes": 97305,
+    "sha256": "83a81df0dee15d0daa62d26dbaf732379d26875fdb7ea5c2817ed8badde953a1"
+  },
+  {
+    "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FTankerTrackers%2Fstatus%2F2109512855351410954&omit_script=true",
+    "retrieved_utc": "2026-10-12T19:14:20.960059+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "path": "research/2026-10-12_diesel/tankertrackers-2109512855351410954-oembed.json",
+    "bytes": 1010,
+    "sha256": "e7358a7a76ec52cd49479f9585d9578b4ac5e25fb13b02163c7031e38bc2502b"
+  },
+  {
+    "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FTankerTrackers%2Fstatus%2F2109216468055257129&omit_script=true",
+    "retrieved_utc": "2026-10-12T19:14:20.960517+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "path": "research/2026-10-12_diesel/tankertrackers-2109216468055257129-oembed.json",
+    "bytes": 986,
+    "sha256": "f4f94a78005c6db76c666abbd8e5d43f7b941ceffe94d628a31af19e0df96102"
+  }
+]

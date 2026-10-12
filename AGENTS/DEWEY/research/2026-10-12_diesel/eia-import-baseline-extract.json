@@ -1,0 +1,33 @@
+{
+  "retrieved_utc": "2026-10-12T19:20:22.273513+00:00",
+  "source_class": "PRIMARY EIA",
+  "monthly": {
+    "series": "MDIIMUS1",
+    "units": "thousand barrels per month",
+    "release_date": "2026-09-30",
+    "next_release_date": "2026-10-30",
+    "latest_month": "2026-07",
+    "value": 4306,
+    "derived_kb_per_day": "138.9032258064516129032258065",
+    "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIIMUS1&f=M"
+  },
+  "weekly": {
+    "series": "WDIIMUS2",
+    "units": "thousand barrels per day",
+    "release_date": "2026-10-07",
+    "next_release_date": "2026-10-15",
+    "latest_week_ending": "2026-10-02",
+    "value": 118,
+    "trailing_four_week_values": [
+      114,
+      85,
+      153,
+      118
+    ],
+    "derived_four_week_mean_kb_per_day": "117.5",
+    "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIIMUS2&f=W"
+  },
+  "scope": "US imports from all origins, all distillate grades in EIA category; not Russian-origin delivery data or matching ULSD-only grade. Both latest observations precede deal.",
+  "nonzero_nonabsence_guard": "Blank future monthly rows do not establish zero imports. Next weekly publicationOct15 is after existing Oct14 deadline.",
+  "comparison": "Nov planned500kt globally/30d*7.45=124.1667kb/d, comparable in scale to US predeal imports but not promised exclusively to US or proved additional."
+}

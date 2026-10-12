@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIIMUS1&f=M",
+    "retrieved_utc": "2026-10-12T19:16:25.554996+00:00",
+    "status": 200,
+    "path": "research/2026-10-12_diesel/eia-us-distillate-imports-monthly-20261012.html",
+    "sha256": "b58999dcd7237fcdb552d9de98a094f5c694ec0dca65d8ba5b0c426f8e6c163a",
+    "bytes": 35653
+  },
+  {
+    "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIIMUS2&f=W",
+    "retrieved_utc": "2026-10-12T19:16:25.555842+00:00",
+    "status": 200,
+    "path": "research/2026-10-12_diesel/eia-us-distillate-imports-weekly-20261012.html",
+    "sha256": "9530dfc3d1c57a00d3342b820a972fdc54bf45543ed4bdb3bf86d36275436ae4",
+    "bytes": 234792
+  },
+  {
+    "url": "https://www.eia.gov/dnav/pet/pet_move_impc_a2_nus_epd0_im0_mbbl_m.htm",
+    "retrieved_utc": "2026-10-12T19:16:25.556374+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

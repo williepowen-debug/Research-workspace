@@ -23,16 +23,22 @@
       "scope": "Read9232d7829 gas-helper change for INFO; use at future touches, no cadence/forecast/HANS grade change. Not independent implementation acceptance."
     },
     "CARL": {
-      "state": "Q2-CARDS-CONSUMED; COMBINED-FHA/CARD-RECEIPT-PENDING",
+      "state": "COMBINED-IMPLICATION-CONSUMED-IN-WORKING-OWNER-RECORD, AUTHOR-COMMIT-PENDING",
       "artifact": "AGENTS/CARL/workbook/KB.tsv KB-CARL-518; STATUS.md DEWEY commissions; own received finalized-source receipt",
-      "scope": "New bounded report correction requires joint integration receipt."
+      "scope": "Read full receipt and methods assessment. CARL reconciled97.4/22.5 and31.8 illustrations, incompatible FHA/card counterfactual/denominator limits and NOT COMPUTABLE. Receipt cites9232d7829; later e6f065cb5 wording-specific receipt still queued, not assumed.",
+      "receipt": "AGENTS/DEWEY/inbox/2026-10-12_from-CARL_DR1-erratum-consumed-and-measurability-assessed.md",
+      "methods_artifact": "AGENTS/CARL/domain/sources/2026-10-12_DR1-measurability.md"
     },
     "WALTER": {
-      "state": "HISTORICAL-SIGNAL-LINKAGE-PENDING",
+      "state": "HISTORICAL-SIGNAL-LINK-CREATED-IN-WORKING-RECORD, AUTHOR-COMMIT-PENDING",
       "artifacts": [
         "AGENTS/WALTER/inbox/DEWEY/2026-10-12_fha-aggregation-erratum_sweep-handoff.md",
         "AGENTS/WALTER/inbox/DEWEY/2026-10-12_fha-board-reference_sweep-followup.md"
-      ]
+      ],
+      "correction": "COR-20261012-25",
+      "artifact": "BOARD/SIG-W-20261012-025-CORRECTION-fha-aggregation-97point4-not-causal-kill.md",
+      "receipt": "AGENTS/DEWEY/inbox/WALTER/SIG-W-20261012-025.md",
+      "scope": "Read full card/receipt; explicit correctsSIG-W-20260828-009, ruled arithmetic and accounting-vs-policy limits. Extra-decimal typo corrected by additive source marker; rounded31.8 unchanged. Peer artifacts untracked at read, not staged by DEWEY."
     }
   },
   "transport": {
@@ -43,7 +49,15 @@
       "CARL": "01a1312e-7563-7c00-9094-c94636c14226",
       "WALTER": "01a13104-a88a-7df3-afa2-2dcefdc805e3",
       "PROME": "01a130f9-9935-7fa2-b5cf-42c41652c9a3"
-    }
+    },
+    "verified_send_result": "CARL/WALTER/PROME each returned a queue receipt; saved in cato-queue-receipts.json. Not consumption."
   },
-  "next": "Existing diesel assignment dueOct14; prioritize authenticated cargo/increment; Q3 cards unchanged dueNov13."
+  "next": "Existing diesel assignment dueOct14; prioritize authenticated cargo/increment; Q3 cards unchanged dueNov13.",
+  "diesel_resumed": {
+    "source": "AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md",
+    "progress": "Original TankerTrackers October11/12 posts recovered through public embed API; UAN reported, not a positive diesel example. Separate reported named operator response retained asNEWS. EIA US import baseline118kb/d week10/2,4wkmean117.5; no current Russian increment implied.",
+    "deadline": "2026-10-14",
+    "source_publication_dependency": "EIA weekly page names next releaseOct15; after deadline. Preserve partial limits rather than infer zero flow."
+  },
+  "consumer_checkpoint_utc": "2026-10-12T19:24:23.403755+00:00"
 }
