@@ -14,9 +14,9 @@
 
 **The real finding is the storage trajectory, and it is worse than the puzzle framing implied.** EU storage is **59.32% full (670.4 of 1,130.2 TWh) as of gas day 2026-08-11** — **the lowest for that date in the five-year series, below even 2022**, the Russian-cutoff year. Demand-normalised, it is **19.05% of annual consumption vs 21.71% in 2022**. And the arithmetic to refill is brutal:
 
-> **Reaching 90% requires 3.986 TWh/d for 87 straight days — 1.51× the current pace and 1.49× the best rate Europe has achieved in any of the last four years.** Reaching even the **80% deviation floor requires 2.687 TWh/d against a four-year best of 2.684 — a dead heat with the 2022 crisis-response maximum, sustained for three months.**
+> **Corrected 2026-10-12 using the rounded August inputs:** reaching 90% requires approximately **4.390 TWh/d for 79 days — 1.66× the then-current pace and 1.64× the best measured prior-year pace.** Reaching 80% requires approximately **2.959 TWh/d against a four-year best of 2.684**. This is continuation arithmetic, not a physical ceiling.
 
-**Europe will not refill to target this year.** The landing zone is **77–80%**, and 80% is the ceiling, not the base case.
+**On the August measured-pace continuation, the corrected landing range is approximately 75.4–77.8%.** The categorical forecast and the claim that 80% is a ceiling are withdrawn; future injection can exceed historical pace. Current estimates belong to the October-12 rerun.
 
 ---
 
@@ -38,27 +38,27 @@
 
 **Demand-normalised (storage as % of annual consumption), Aug-11:** 2022 **21.71** · 2023 **28.78** · 2024 **28.37** · 2025 **23.33** · **2026 19.05**. Lowest in the series. ⚠️ *AGSI's `consumption` field is a **static annual reference** (3,519 TWh for 2024, 2025 **and** 2026 — identical), not an observed demand series. It normalises correctly but **cannot** be used to claim demand is flat.* (See §Gaps.)
 
-### (2) The refill arithmetic — 90% is out of reach at any demonstrated pace
+### (2) The refill arithmetic — the August continuation undershoots 90%
 
-Storage does not inject to a regulatory date; it peaks and turns. Actual peaks: **2022-11-13 (95.7%)** · **2023-11-06 (99.5%)** · **2024-10-21 (95.3%)** · **2025-10-12 (83.2%)**. Median peak falls **87 days after Aug 11 ≈ 2026-11-06**, which is the window used below.
+Storage does not inject to a regulatory date; it peaks and turns. Actual peaks: **2022-11-13 (95.7%)** · **2023-11-06 (99.5%)** · **2024-10-21 (95.3%)** · **2025-10-12 (83.2%)**. **Corrected median: 79 days after Aug 11 = 2026-10-29.** Dependent projections below were recomputed October12 from the rounded original stock/capacity/pace inputs; these are not revised-source August observations.
 
 **Pace measured Aug-11 → that year's actual peak, applied to 2026:**
 
 | year | realized pace | 2026 would land at |
 |---|---|---|
-| 2022 (crisis max) | **2.684 TWh/d** | **80.0%** |
-| 2025 | 2.062 | 75.2 |
-| 2023 | 1.488 | 70.8 |
-| 2024 | 1.348 | 69.7 |
-| **2026 current (30d)** | **2.646** | **79.7%** |
-| 2026 current (14d / 7d) | 2.530 / 2.307 | 78.8 / 77.1 |
+| 2022 (crisis max) | **2.684 TWh/d** | **~78.1%** |
+| 2025 | 2.062 | ~73.7 |
+| 2023 | 1.488 | ~69.7 |
+| 2024 | 1.348 | ~68.7 |
+| **2026 then-current (30d)** | **2.646** | **~77.8%** |
+| 2026 then-current (14d / 7d) | 2.530 / 2.307 | ~77.0 / ~75.4 |
 
 **Required pace from here:**
 
 | target | needs | vs current | vs 4-yr best |
 |---|---|---|---|
-| **90%** | 3.986 TWh/d | **1.51×** | **1.49×** |
-| **80%** | 2.687 TWh/d | 1.02× | **1.00× — a dead heat** |
+| **90%** | ~4.390 TWh/d | **~1.66×** | **~1.64×** |
+| **80%** | ~2.959 TWh/d | ~1.12× | **~1.10×** |
 
 **The binding rule:** the amended EU Gas Storage Regulation keeps the **90% target binding but flexible any time between 1 October and 1 December** (replacing the hard 1 November deadline), permits Member States to **deviate up to 10%** in unfavourable market conditions, and makes intermediate trajectories **indicative, not binding**. It was extended for 2025-2027 [[Council of the EU, 2025-07-18](https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/gas-storage-council-greenlights-2-year-extension-of-reserves-filling-rules-to-safeguard-winter-supply/); [S&P Global, 2025-06-25](https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/062525-eu-gas-storage-rules-to-be-made-more-flexible-under-provisional-agreement); [European Parliament legislative train](https://www.europarl.europa.eu/legislative-train/package-clean-industrial-deal/file-amendment-to-gas-storage-regulation)]. **So the effective floor is ~80% — and the projection lands at or below it.**
 
@@ -74,7 +74,7 @@ Storage does not inject to a regulatory date; it peaks and turns. Actual peaks: 
 | **2025** | **3,885** | 42.7% |
 | **2026** | **3,091** | **38.3%** |
 
-**Send-out is −20.4% YoY (−794 GWh/d) in the year Europe most needs it** — and terminals are running at **38.3% of capacity, with 4,896 GWh/d of send-out capability idle.** **The constraint is cargoes, not regasification.** Over the 87-day window, the YoY send-out gap alone is **~69 TWh ≈ 6.1pp of EU storage** — most of the distance between the current trajectory and the 80% floor.
+**Send-out is −20.4% YoY (−794 GWh/d)** — and terminals are running at **38.3% of capacity, with 4,896 GWh/d of send-out capability idle.** Low aggregate utilisation does not by itself identify cargo supply versus demand/location constraints. Over the corrected79-day window, continuing the YoY send-out gap would total **~62.7 TWh ≈ 5.5pp of EU storage**; this is a hypothetical flow accumulation, not an identified storage loss.
 
 That is what "three-plus impaired channels" (Qatar FM in month 4, Libya/Greenstream post-Mellitah, Egypt post-Damietta) looks like measured at the receiving end.
 
@@ -89,11 +89,11 @@ TTF dated closes [PRIMARY: `TTF=F`, EUR/MWh]: **7/1 42.78 → 7/24 63.58 (52wk h
 ## Counter-Evidence
 
 1. **Injection pace is not a constant, and I extrapolated it as one.** Pace responds to price spreads (summer-winter), weather, and cargo arbitrage vs Asia. A sustained JKM-TTF move toward Europe could lift pace above anything in the four-year sample. The projection is a *continuation* estimate, not a forecast.
-2. **The 87-day window is a median of four observations** (62–94 days). Peak timing is weather-dependent; a mild October extends injection materially.
+2. **The corrected79-day window is a median of four observations** (62–94 days). Peak timing is weather-dependent; a mild October extends injection materially.
 3. **80% may be an adequate landing.** 2025 peaked at 83.2% and Europe got through the winter. Low storage is dangerous *conditional on* a cold winter and tight LNG — it is not automatically a crisis, and I have not modelled the winter draw.
 4. **The 10% deviation is conditional, not automatic.** It requires "unfavourable market conditions"; I have not verified whether the Commission has invoked or signalled it for 2026. **If it has not, 90% remains the formal bar and the miss is larger.**
 5. **LNG send-out is a net measure.** A −20.4% YoY fall is consistent with impaired supply *and* with Europe being outbid by Asia *and* with lower European demand. The three are not separated here — the send-out number alone does not attribute cause.
-6. **Two of the four prior years are structurally unlike 2026** (2022-23 crisis response, with emergency demand curtailment and record LNG pull). Using 2022 as "best achievable pace" may overstate what is achievable in a normal policy environment — which makes the 80% dead-heat *optimistic*.
+6. **Two of the four prior years are structurally unlike 2026** (2022-23 crisis response, with emergency demand curtailment and record LNG pull). The largest historical pace is an observed comparator, never a physical ceiling on a future season.
 
 **Explicit negative:** I found **no evidence** that the current TTF level reflects complacency about storage. The price action is directionally consistent with the impairment throughout. The commission's premise that these two facts conflict is **not supported.**
 
@@ -103,7 +103,7 @@ TTF dated closes [PRIMARY: `TTF=F`, EUR/MWh]: **7/1 42.78 → 7/24 63.58 (52wk h
 
 All quantitative claims **[PRIMARY]**: GIE AGSI+ (storage) and ALSI+ (LNG) — the operator-reported EU aggregates, free API, no key; ICE Dutch TTF futures with instrument/currency verified at metadata; EU regulation via Council of the EU + European Parliament + S&P. Every figure reproducible from §Reproduction.
 
-**Weakest links:** the 87-day injection window (n=4); the AGSI `consumption` static reference; and the absence of channel-level attribution, which means the *"what's impaired"* half rests on the LNG aggregate rather than a per-channel ledger.
+**Weakest links:** the corrected79-day injection window (n=4); the AGSI `consumption` static reference; and the absence of channel-level attribution, which means the *"what's impaired"* half rests on the LNG aggregate rather than a per-channel ledger.
 
 ---
 

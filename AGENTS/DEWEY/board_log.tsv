@@ -33,3 +33,9 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-10T15:48:46Z	2026-10-01_from-PROME_CARL-DR-1-card-leg	deferred	INBOX_TOPLEVEL	Still QUEUED: DOCKET L567, after L566; deliver by 11/13.
 2026-10-12T17:45:35.478545+00:00	2026-10-01_from-HANS_rerun-DR4-for-HNS-07	acted	INBOX_TOPLEVEL	Delivered current DR-4 rerun, source evidence and stubs; HANS owns checkpoint grade.
 2026-10-12T17:45:35.478545+00:00	SIG-W-20261008-033	acted	INBOX_WALTER	Own charter WQ399 receipt-form fix committed c0f9933f8; corrections check rc0.
+2026-10-12T17:55:28.158321+00:00	2026-10-10_from-OSPREY_REQ-DEWEY-20261010-001-claims-3-4-5-legs-3-4-inputs	acted	INBOX_TOPLEVEL	Integrated at evidence level, inspected KB183/189/191 and STRIKES; no owner grade changed.
+2026-10-12T17:55:28.158321+00:00	SIG-W-20261011-001	acted	INBOX_WALTER	Conditional refinery halt branch carried, not treated as implemented mutual halt.
+2026-10-12T18:01:47.560336+00:00	2026-10-01_from-PROME_CARL-DR-1-card-leg	acted	INBOX_TOPLEVEL	Q2 evidence delivered to CARL;Q3 not yet filed and remains owed by11/13. No class-widekill disposition.
+2026-10-12T18:06:21.677506+00:00	SIG-W-20261012-015	acted	INBOX_WALTER	Own DR4 correction consumed;COR20261012-15 APPLIED receipt at original report and current rerun;dependent August arithmetic corrected too.
+2026-10-12T18:06:21.677506+00:00	2026-10-12_from-CARL_DR1-Q2-consumed-classwide-wedge-unresolved	noted	INBOX_TOPLEVEL	CARL reports Q2 integration;KB518 read and three ratios agree. Q3 refresh remains existing L567 obligation;peer-authored packet left for its author to commit.
+2026-10-12T18:06:21.677506+00:00	2026-10-10_from-WALTER_REQ-DEWEY-20261010-001_russia-diesel-deal-vs-ukraine-strikes-will-approved	acted	INBOX_TOPLEVEL	Refreshed PARTIAL delivery saved;official market/decree/cargo gaps remain,10/14 deadline not discharged.

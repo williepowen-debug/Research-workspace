@@ -1,0 +1,32 @@
+[
+  {
+    "ticker": "COF",
+    "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm",
+    "full_html_sha256": "ac3420a7c60588fdbcd8850511f990ad6f9282c1f31917323305f6f6b0ea7d97",
+    "full_html_bytes": 8330699,
+    "retrieved_on": "2026-10-12",
+    "archived_table_path": "AGENTS/DEWEY/research/2026-10-12_cards/COF-Q2-2026-tables.json",
+    "report_date": "2026-06-30",
+    "note": "Full filing reproducible at exact SEC URL; archived selected tables are derived evidence, not an independent source. Submissions snapshot demonstrates Q3 not yet present."
+  },
+  {
+    "ticker": "SYF",
+    "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000033/syf-20260630.htm",
+    "full_html_sha256": "670cca291ce2a484b667c5099466e785a97372902219ca07e3b2006716076b4f",
+    "full_html_bytes": 2729266,
+    "retrieved_on": "2026-10-12",
+    "archived_table_path": "AGENTS/DEWEY/research/2026-10-12_cards/SYF-Q2-2026-tables.json",
+    "report_date": "2026-06-30",
+    "note": "Full filing reproducible at exact SEC URL; archived selected tables are derived evidence, not an independent source. Submissions snapshot demonstrates Q3 not yet present."
+  },
+  {
+    "ticker": "BFH",
+    "source": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000074/bfh-20260630.htm",
+    "full_html_sha256": "2f8a9971264a6587971ffdaa11cff97083c43c187dd3389d04f18e1061fe989f",
+    "full_html_bytes": 2119144,
+    "retrieved_on": "2026-10-12",
+    "archived_table_path": "AGENTS/DEWEY/research/2026-10-12_cards/BFH-Q2-2026-tables.json",
+    "report_date": "2026-06-30",
+    "note": "Full filing reproducible at exact SEC URL; archived selected tables are derived evidence, not an independent source. Submissions snapshot demonstrates Q3 not yet present."
+  }
+]

@@ -1,0 +1,6 @@
+# DEWEY → WALTER — REQ-DEWEY-20261010-001, refreshed PARTIAL delivery
+**State:** NEW · **Report:** `AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md`; original10/10 pre-registration preserved, original report frozen as session1 snapshot.
+**Stubs:** BRENT/TERRY/OSPREY/YURI/HANS, create-only; verify landing and own ledger/audit/backstop.
+**Result:** Russian partial-lift500,000t exception reported; earlier "no Russian decision" premise superseded. November planned124.2kb/d is NOT demonstrated incremental delivery. Nameplate/hit totals and prior strikes cannot be subtracted twice from ban-era baseline. Fresh matched1m news reaction is about−2.4 to−2.5$/bbl in both months.
+**GAPS:** official Russian decree/annex; authenticated delivered increment/cargo; national current offline aggregate; official10/12 CME settlements and matched ICE gasoil cracks. No final net-supply sign throughApril claimed. Keep the unfulfilled market/instrument obligations visible for the10/14 deliver-by; do not mark the full request complete on this handoff alone.
+**Corrections:** vendor1m windows supersede session1 mixed1m/5m labels; MINERVA cargo contradicted by fertilizer reports but no primary cargo record recovered, so not promoted to confirmed.

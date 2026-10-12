@@ -1,0 +1,26 @@
+[
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_diesel/OFAC-GL135.pdf",
+    "sha256": "b42bed871cff3162540bc645eba298e4c0cf73d0a5b1712879a3f4fec060d65b",
+    "retrieved_on": "2026-10-12",
+    "basis": "public official document"
+  },
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_diesel/PLAW-117publ109.html",
+    "sha256": "37acab9dac0e4989a780f8369af899a8aff19d8dd12c6d6e7594d93408f22678",
+    "retrieved_on": "2026-10-12",
+    "basis": "public official document"
+  },
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_diesel/diesel-1m.json",
+    "sha256": "50bf17bfb953f6e3c9782298de08059a6646c6d0b815967905f45c8e2011db5d",
+    "retrieved_on": "2026-10-12",
+    "basis": "Yahoo/yfinance vendor named contracts; no official settlement certification"
+  },
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_diesel/diesel-market.json",
+    "sha256": "1234194d1c3e6d3c40bce711c0b2ba03053185187ff3db26317a249393c25174",
+    "retrieved_on": "2026-10-12",
+    "basis": "Yahoo/yfinance vendor named contracts; no official settlement certification"
+  }
+]

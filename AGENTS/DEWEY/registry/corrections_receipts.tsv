@@ -2,3 +2,4 @@ receipt_date	correction_id	action	note
 2026-09-10T17:34Z	COR-20260908-01	APPLIED	
 2026-09-27T18:39Z	COR-20260927-05	NO-OP	
 2026-09-27T18:39Z	COR-20260927-06	APPLIED	
+2026-10-12T18:04Z	COR-20261012-15	APPLIED	artifact=AGENTS/DEWEY/output/2026-08-12_dr4-european-energy-baseline.md#Key Finding; artifact=AGENTS/DEWEY/output/2026-08-12_dr4-european-energy-baseline.md#Evidence; validation_ref=AGENTS/DEWEY/output/2026-10-12_dr4-storage-rerun-hns07.md#Historical peak correction and seasonal check; Own original report corrected in dependent tables as well as its banner; current rerun remains conditional and HANS owns grading

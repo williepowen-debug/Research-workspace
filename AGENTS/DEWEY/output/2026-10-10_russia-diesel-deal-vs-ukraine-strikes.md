@@ -2,6 +2,8 @@
 
 **Date:** 2026-10-10 | **Mode:** Thesis | **Commission:** REQ-DEWEY-20261010-001 (WALTER packet, Will-approved "Okay lets do A and C", commit 16395614d) | **Status:** PARTIAL (session 1 of 2, stopped at PROME closeout ask 11:47 ET) — legs 1 DONE, 2 PARTIAL, 5 PARTIAL, 3 and 4 NOT STARTED | **Confidence:** High (instrument text, tape timing) / Low (net-supply verdict — not yet reached)
 
+**FROZEN 2026-10-12 — session-1 evidence snapshot and pre-registration. The refreshed delivery is `output/2026-10-12_russia-diesel-net-supply-delivery.md`; its partial export-ban lift and updated baselines supersede the open “no decree found” premise here. This file's original pre-registration is preserved.**
+
 ---
 
 ## §0 PRE-REGISTRATION (written 2026-10-10 11:38 ET, BEFORE any primary was read)
