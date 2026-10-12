@@ -1,0 +1,36 @@
+{
+  "recorded": "2026-10-12T14:07:03.635455-04:00",
+  "source_status": "DEWEY report untracked at read; owner publication pending. Exact received copy retained; no independent primary authentication claimed.",
+  "inputs": {
+    "../DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md": {
+      "bytes": 16141,
+      "sha256": "b4187c8a81a05cc46240ad7f8a7af2d56098fea2fac295296162f5de2ff6e4e8"
+    },
+    "inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md": {
+      "bytes": 510,
+      "sha256": "dd43731ce7a0bab5216410912ee126f6084c46036d3f9e1baa4d5a84b0c42646"
+    },
+    "inbox/WALTER/SIG-W-20261012-016.md": {
+      "bytes": 3747,
+      "sha256": "219e9f0ea92e86e05347d9f2eaffbe7aee900c1dc8867ff2ce56bc6bade3eee0"
+    }
+  },
+  "authorization_commit": "1b0c02c29",
+  "prior_synthesis_commit": "ceb81bec8",
+  "transport_discovery": {
+    "method": "native codex agents --no-alt-screen; supported queue help; current TERRY STATUS and PROME coordination receipt",
+    "coverage": "Codex shared-daemon project view only; no cross-runtime absence established; no launch",
+    "terry_thread": "01a13117-7dae-7a81-ac4e-9aab1d1d1b27",
+    "prome_thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+    "native_notification": "pending until content commit"
+  },
+  "scope": "L694 energy domain WAIT disposition; no new study/screen/rule/capital; L633/post14:30 and DEWEY October14 remain open",
+  "intake": {
+    "processed_packets": [
+      "inbox/processed/2026-10-12_from-DEWEY_russia-diesel-net-supply.md",
+      "inbox/WALTER/processed/SIG-W-20261012-016.md"
+    ],
+    "matching_board_rows": 2,
+    "scope": "Integrated PARTIAL owner synthesis only; source publication pending. No new primary/market grade."
+  }
+}

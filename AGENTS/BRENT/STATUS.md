@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 13:43 EDT — SCOPED-PARTIAL canonical write-back:** THESIS v5.12 records war/access and climate refinement; TRADE records candidate versus purchase status and expiry limits. [THESIS](thesis/THESIS.md), [TRADE](TRADE.md), [change record](thesis/CHANGELOG.md). No new market/physical/war-owner/broker grade; quotevintage12:56, positions10/11 received. Existing stand-down and tests retained.
+**Last real data refresh: 2026-10-12 14:08 EDT — SCOPED-PARTIAL L694 domain submission:** explicit WAIT reuses L689 PASS; DEWEY October12 PARTIAL read at owner-report limits, received bytes saved pending owner publication. [Disposition](research/2026-10-12_L694-energy-disposition/NOTE.md). TERRY comparison/PROME acceptance pending; L633/post14:30 remain owed. No market/physical/settlement/broker grade; quotevintage12:56, positions10/11 received. THESIS v5.12/stand-down unchanged.
 
 **Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
 
@@ -15,7 +15,7 @@
 
 ## October12 — L689 AVAILABLE-EVIDENCE OPPORTUNITY MEMO → [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md)
 
-**L689 accepted / TERRY PASS / zero new capital:** conditional MPC margin-resilience candidate, PSX comparison, held VLO comparator. Slower refinery recovery and mispricing unproved; DOE/IEA relief definitions and DEWEY dependency in [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md). PROME consumed `3d772a7d3`; TERRY card `163664085` exceeds the cap at dated vendor screening costs and lacks physical/edge/book evidence. No repeat screen or VLO add. L694 approval preserves the next bounded domain question across reset; full authority at `PROME/proposals/2026-10-12_opportunity-discovery-APPROVED.md`.
+**L689 accepted / TERRY PASS / zero new capital:** conditional MPC margin-resilience candidate, PSX comparison, held VLO comparator. Slower refinery recovery and mispricing unproved; DOE/IEA relief definitions and DEWEY dependency in [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md). PROME consumed `3d772a7d3`; TERRY card `163664085` exceeds the cap at dated vendor screening costs and lacks physical/edge/book evidence. No repeat screen or VLO add. L694 now has a saved explicit WAIT [domain submission](research/2026-10-12_L694-energy-disposition/NOTE.md); TERRY comparison/acceptance pending; full authority at `PROME/proposals/2026-10-12_opportunity-discovery-APPROVED.md`.
 
 **L633 stays PARTIAL:** Sunday survey remains latest obtained, Shell five-asset no-damage scope and Mobile port recovery only. Four refinery run-states still GAP; no authenticated slower-restart comparison. Later-today survey/operator and post14:30 WQ420 measurements outstanding. **10:26EDT dated diagnostic:** WTI Nov/Dec$93.84/$92.97,+$0.87 backwardation; diesel$105.43/$100.30. No new market/settlement/broker pull. [Prior research](research/2026-10-12_resume-l633/REPORT.md).
 
