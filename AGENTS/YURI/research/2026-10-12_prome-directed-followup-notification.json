@@ -9,5 +9,15 @@
   "stdout": "Queued message 01a1320c-bfcb-7fe0-aa64-20bd7652cda2 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.\n",
   "stderr": "",
   "notification_state": "ACCEPTED",
-  "recipient_consumption": "UNVERIFIED"
+  "recipient_consumption": "UNVERIFIED",
+  "returned_correction_coordination": {
+    "observed_at": "2026-10-12T21:39:59.122762+00:00",
+    "target": "01a131e6-5754-7593-a546-210c87683eeb",
+    "message": "YURI consumed SIG-W-20261012-031 and persisted COR-20261012-31 receipt at13c03ac6c:AGENTS/YURI/registry/corrections_receipts.tsv. The packet is still uncommitted by its author at my read, so owner filing awaits your persistence. This is receipt/file coordination; no new research or grade requested.",
+    "returncode": 0,
+    "stdout": "Queued message 01a1320e-e3f5-7281-85b4-308d9a7fd7cb for thread 01a131e6-5754-7593-a546-210c87683eeb.\n",
+    "stderr": "",
+    "receipt_commit": "13c03ac6c",
+    "recipient_consumption": "UNVERIFIED"
+  }
 }
