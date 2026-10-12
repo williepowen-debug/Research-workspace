@@ -1,60 +1,47 @@
 # WALTER STATUS
-
-**Updated 2026-10-11 ~18:0x ET: Tier-1 LIGHT pass (system hygiene, Will's ask) inside `walter-38` (Claude Code, Opus 5.5, laptop), booted 16:14 ET Sunday. Full Tier-2 deferred.** BOARD **1322**; 7 outputs today (`-001`…`-007`; `-001`, `-006`, `-007` IMMEDIATE), 19 kills, 36 handoff rows. **Near-triggers unchanged (no session since 10/9; FRED 10/9 credit prints still unposted at 16:16 ET Sunday; Mon 10/12 is a bond holiday): FRED HY OAS 315bp [obs 10/8], 1.6% under >320 (0 of 3); RED-FT-10 SKEW 1 of 4 (CBOE 10/09 154.34; earliest fire on the Wed 10/14 bar).** Duties and receipts: `LAST_COMPLETION.md` (10/10 vintage; re-cut at the Tier-2).
+**Updated:** 2026-10-12 — Monday full boot / transcript intake, OpenAI Codex. **Boot PARTIAL**; operational receipts and gaps below. BOARD **1332**; **9 signals (1 FLASH, 8 PRIORITY)**; **19 kills**, **0 cluster-mediating signals**; **2 verify-helper instances / 4 completed assignments**. No network-uncertainty-peak trigger.
 
 ## BOTTOM LINE
 
-Nothing on a registered threshold or ladder fired, and there has been no market session since Friday. **The weekend was war news.**
-- **Iran (`-1011-006`, `-007`):** UKMTO confirms two outbound tankers hit by **projectiles** in Hormuz (162-26 Sat 1920Z, 164-26 Sun 1200Z). A drone hit the *Petro Dolphin* at Sohar, **Oman** (outside the strait; 2 crew missing, per India's shipping minister). The IRGC's two **mine** claims are **CLAIM-ONLY**: no mine detonation is established and losses stay at 3. Riyadh and Dammam airports were hit Sunday (GACA).
-- **Diplomacy (`-002`):** Iran says the US reply to its seven Hormuz conditions was "insufficient", all on Iran's account.
-- **Russia/Ukraine (`-001`, `-004`):** Trump posted an "ENERGY CEASEFIRE". It has no terms and the Kremlin is silent. Russia hit Kharkiv's CHP-5 hours later, and Kyiv's refinery-strike halt is conditional on Russia.
-- **Doorbell:** BRENT and FALCON doorbelled to PROME for the 18:00 ET CME reopen (`2313bf2b2`).
-- **Credit:** HY 315bp [10/8], 1.6% under 320; FRED's 10/9 print is still unposted.
-- **REG-T-06:** **RULED (WQ-414, 10/11): the consequence is REVIEW, not a crisis label.** It needs 3 official quarterly prints; the run is 2 of 3 through Q2, and the Q3 nowcast does not count (`design/CROSS_REFS/REGINALD.md` §7).
-- ✅ **Will's QQQ Oct-9 $755P is SETTLED: Fidelity OPTION LIQUIDATION 10/9, +$361.94, no exercise and no QQQ short** (capture 10/11, `research/2026-10-11_fidelity-ira-capture/`; PROME packeted for ANVIL/TERRY). The USO Oct-9 150C was liquidated for +$0.99, not expired.
-- ⚖️ **New and live: QQQ $755 CALL Oct-12 ×1 (Will, 10/9) EXPIRES MON 10/12**, ~$3.73 OTM at Friday's $751.27. Sell-or-roll is Will's call on TERRY's card.
+The executed RaDD extension with fresh capital materially weakens the near-term catalyst for the observed OZK puts; TERRY owns the review and Will owns orders. Will’s three transcripts added historical household income/wealth detail, current survey spending intentions and recovered maritime primaries. Scoped market checks established no new sustained fire on the fetched gradeable series; incomplete instruments and source coverage prevent a fleet-clear claim. X authentication, native receiving-layer visibility and READS attestation remain unresolved. Canonical obligations and publication evidence: `LAST_COMPLETION.md`.
 
-## DATED MARKET OBSERVATIONS — Saturday; latest sessions are 10/8 (FRED) and 10/9 (markets); vintages explicit
+## DATED MARKET OBSERVATIONS — Monday October12; observation vintages remain explicit
 
-| Row | Observation and limit |
+| Object | Observation and limit |
 |---|---|
-|HY / CCC|FRED HY **315bp [obs 10/8]** → RED-FT-02 / REG-T-03 >320 s=3, **0 of 3, NEAR-TRIGGER**. CCC 1,252bp [10/8], RED-FT-07 FIRING-BANKED. 10/9 print still not posted at 16:16 ET Sun 10/11 (re-pulled); Mon 10/12 is a bond-market holiday, so its posting date is UNKNOWN.|
-|VIX / SKEW|^VIX 14.84 [10/9 close, vendor]; VIXCLS 15.41 [10/8]; FT-06 exit ≥18 0/5. **SKEW CBOE 10/09 = 154.34 (publisher of record, fetched 10/10 14:55Z) → RED-FT-10 1 of 4** (10/08 149.19; first CBOE bar ≥150 since 9/14). VIOLET (woken 10/10) holds the count.|
-|Claims / 5y5y|ICSA 197,000 [w/e 10/3]; T5YIFR 2.32 [10/9]. Nothing near.|
-|Rates / funding|DGS10 5.22 / DGS30 5.60 [10/8]; ^TNX 5.24 / ^TYX 5.60 [10/9 vendor]. RED-FT-11 not near. SOFR−IORB −3bp [10/8]. Citi forecasts 20Y/30Y auction cuts at the Wed 11/4 refunding (forecast only; `-004`).|
-|Oil (named)|Vendor daily bars 10/9: CLX26 91.85 · BZZ26 104.72 · HOX26 4.74 (−2.96%) · HOZ26 4.59 (−2.72%). **#8 Brent 3:2:1 Dec $47.81 [10/9], $50.22 [10/8]** — vendor bars, not settlements; 10/9 under $50 so no run. **#6 gasoline crack Nov $46.55 [10/9]** < $50. Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15. #8 → January contracts Mon 11/2.|
-|Freight|**Baltic wk41 [10/9], at the publisher (bdata): TD3C WS1,318.75 / $1,412,594/day · TD34 WS841.07 / $912,660/day · TD22 $79,611,111 / $637,675/day** (`-008`); publisher's w/w changes do not reconcile with our 10/2 values (UNRESOLVED). Gibson TD3C $1,478,500/day [10/8] (different basis). Next weekly review Fri 10/16.|
-|Banks|KRE $69.01 · WAL $74.27 · OZK $44.41 [10/9 close]. REG-T-02 cycle 2 still inside (exit ≥$81.90 ×3). OZK $915M RaDD bridge (matured 10/9): no public outcome found 10/10 ~14:3x ET; OZK says it updates on the 10/21 call (Bank OZK files with the FDIC, not EDGAR). WFC/JPM/C Q3 Tue 10/13; WAL 10/19 AMC; OZK 10/20 AMC.|
-|HANS|CNBC vendor closes 10/9: UK 30Y 5.93% (vs T-13 >6.00) · UK 10Y 5.42% (vs T-06 >5.50) · Bund 3.47 (watch tier open) · FR–DE ~138bp / OAT 4.85 (T-10 OPEN) · IT–DE ~111bp. TTF Nov 81.43 (L2 open). **EU storage 73.29% [gas day 10/8], gap −14.99pp** — T-08 stays OPEN (exit >−12 ×5). HANS grades on its own bases.|
-|CREED|Trepp Sept office 12.16% = T-01a leg 1 of 2 (`-1009-002`); T-01b SS print ~mid-Oct.|
-|Iran|Anchor 23,517 B after the 10/11 rotation (10/08 evening + 10/09 morning limbs → HISTORY verbatim; trigger 24,412 B; still above the 22,785 stop line). 10/11 limbs: diplomacy (`-002`) + kinetic (`-006`/`-007`). Last full sweep 10/8; **next ~10/15, recommended Mon 10/12** given the weekend escalation (Gulf of Oman hit, mine claims). GATE 1 firm-negative PENDING FALCON (Shedgum/Tanajib = Houthi claim only); losses 3; GATE 2 mine leg NOT met (IRGC claims only).|
-|Will's expiries|**QQQ Oct-9 755P ×1: Fidelity OPTION LIQUIDATION 10/9 +$361.94, no short (capture 10/11; WQ-397 answered, PROME packeted).** USO Oct-9 150C: broker shows OPTION LIQUIDATION +$0.99 (WQ-396 recorded "expired worthless"; record correction packeted). **NEW 10/9: QQQ 755C Oct-12 ×1 (−$144.66) EXPIRES MON 10/12; USO 150C Oct-14 ×2 (−$375.33).** QQQ 745P ×1 / 740P ×4 Oct-15; TLT 82P / HBAN 16P ×2 Oct-16. TERRY's cards; Will executes.|
+| Credit | FRED HY315bp / CCC1252bp [October8]; HY is5bp/1.5625% below strict>320, count0/3. CCC fire banked; no repeat. October9 credit print unavailable at the morning pull. |
+| Volatility | VIXCLS14.84 [October9]. CBOE SKEW154.34 [October9], prior149.19 [October8],1/4. October12 close not available at the morning pull. |
+| Labor / inflation | ICSA197K [week endingOctober3, latest revised basis]; T5YIFR2.32 [October9]. No first-release recertification from revised claims. |
+| Rates / funding | DGS10 5.22 /30Y5.60 [October8]; DGS30 five-session changeOctober1→8 -1bp, butterfly+2bp: neither FT11 precondition. SOFR3.87−same-dateIORB3.90=-3bp; forward-stamped IORB not substituted. |
+| UK yields | TE intraday October12 morning:10Y5.4495%,30Y5.9410%,5.05/5.90bp below5.50/6.00. Near observations, not close-based fires. |
+| Storage | AGSI gasdayOctober10 fill73.61%, native five-year norm88.622%, gap−15.012pp. Existing state OPEN, exit>−12 not met; norm composition/economic validation caveats retained. |
+| Energy / instruments | Cushing24.745M bbl [week endingOctober2]; EIA raw24745 thousand bbl converted. Vendor named CLX/CLZ93.87/93.00 [October12 morning]; BZZ/TTFX metadata truncated, product prices rounded, no settlement-grade crack/count. Boundary5 NO INSTRUMENT. |
+| Freight | Baltic/Gibson dated weekly observations remain in `research/tanker-cost-watch/STATE.csv`; publisher week-on-week base discrepancy unresolved. Costs and flows are separate. |
+| Banks | Vendor October12 morning KRE69.36/WAL74.75/OZK44.81, unfinished session, not closes. RaDD October9 execution disclosed October12: December2029, fresh100M, redraw possible, as-stabilized LTV, recognition UNKNOWN. |
+| Consumer | New Michigan October preliminary sentiment46.3; linked June23–September21 survey measures intentions, not realized spending. SCF income2021→24 and wealth2022→25, real dollars; mean/median and group definitions preserved in signals007/008. |
+| Maritime | UKMTO October9 report data throughOctober7: composite129out/146in, US component not independently verified. IMO104/24 as atOctober12. UKMTO5 total losses vs FALCON3 qualifying losses unresolved; owner grade held, no two-loss inference. |
+| Iran | Last full sweep October8; October12 limbs/source-access improvements do not reset it. Losses3 / marks1–14–85 are inherited owner grades. Anchor now22681B, below rotation stop; guards remain active. Source gaps prevent a full current-state clearance. |
+| Book basis | October11 broker receipt, exact capture/mark time UNKNOWN. TERRY October12 header integrates OZK extension and existing expiry cards; no order or fill inferred. |
 
 ## MISSION
 
-Routing + receiving-layer readiness; domain agents own evidence, state and judgment. COP retired. Charter IDENTITY governs.
+Routing plus receiving-layer readiness. Domain agents own evidence, state and judgment. COP retired; charter IDENTITY governs.
 
 ## STATE POINTERS
 
-**Active manual source watch — Will-directed October5:** at every boot read [tanker-cost-watch/WATCH.md](research/tanker-cost-watch/WATCH.md) and STATE.csv; check due dates, collect due weekly freight or new event evidence and route material changes. USO relevance must pass through WTI; costs and flows are separate. No unattended scheduler. (10/10 PM: Baltic wk41 obtained and routed in `-008`; STATE.csv TD3C/TD34 refreshed, TD22 row added, Will's USO 150C marked EXPIRED WORTHLESS per WQ-396; REVIEWS.tsv row.)
-
-Running duties: `LAST_COMPLETION.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`. AM verify records live in the subagent results summarised in `-002`…`-006`. PM records: `research/2026-10-10_gpu-depreciation-financing-verify.md`, `research/2026-10-10_guggenheim-universe-pull/`, `research/2026-10-10_marco-watchfor-live/`, `design/AI_CAPEX_AXIS_CHECK_2026-10-10.md`, `registry/STALENESS_SWEEP_2026-10-10.tsv`.
+Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.tsv. October9 freight retry completed October10; old missing paragraph retained as history. October9 USO call sale disposition corrected separately from October14 calls; current orders remain unverified. Current duties: `LAST_COMPLETION.md`; boot evidence: `research/2026-10-12_boot/BOOT_RECEIPT.md`; transcript review: `research/2026-10-12_boot/TRANSCRIPT_REVIEW.md`.
 
 ## NETWORK AWARENESS
 
-### October 11 routing and receiving snapshot (Sunday, Tier-1 light ~18:0x ET)
+Regenerated from final REGISTRY refresh before this write. Header-only observations refreshed BROCK, BRENT, NEXUS, FERT, DAEDALUS; final owner headers OZK, TERRY, WATT, WALTER. No role, owner grade, readiness class or launch authority changed. Older Updated rows (≥7d, including dormant/special rows; age is not a DARK classification): YEYOU 2026-09-05 (37d; RETIRED), RAV 2026-08-02 (71d; YELLOW), OTTO 2026-10-04 (8d; RED2), ATHENA 2026-03-14 (212d; GREEN), CRUISE 2026-10-03 (9d; RED), DARWIN 2026-02-18 (236d; YELLOW), CREED 2026-10-01 (11d; ORANGE), SENTRY 2026-09-24 (18d; YELLOW), DEWEY 2026-09-10 (32d; YELLOW), MIDAS 2026-10-02 (10d; YELLOW), HOMER 2026-10-02 (10d; RED), FLG 2026-10-01 (11d; YELLOW), YURI 2026-10-02 (10d; YELLOW).
 
-BOARD 1322; 7 outputs (`-001`…`-007`), 19 kills; 3 batch manifests closed (lane 42/42, X bookmarks 28/28 + 5/5). 36 handoff rows (delivery and push state: `LAST_COMPLETION.md` receipt). ACTION routing: FALCON 3, BRENT 3, OSPREY 2, SHADE 1, BROCK 1, HAWK 1. A CARL INFO handoff was written in error on `-006` (CARL is pull-complete) and trashed before commit. **Receiving layer:** fleet visibility is UNKNOWN (Codex sessions, including PROME, are invisible to `ListAgents`; ORCH_INFLIGHT last generated 10/10). Doorbelled: BRENT + FALCON (L3a: the CME reopen vs Will's USO ×37 / VLO ×1). PROME also has a ranked drain list (YURI, HOMER first; 11 domain ACTION items at 7 desks beyond the fleet-wide `-1008-033`). REGISTRY header-only refresh: REGINALD, TERRY, PROME. ⚠️ `5a8168f95` swept three PROME files (byte-identical); disclosed (`6f4166528`), memory n=6.
+Today’s ACTION addresses: LIQUID2, BOND1, FALCON3, BRENT3, OZK1, BROCK1, TERRY2, CARL2. Exemptions and roles follow canonical per-desk delivery rules; TERRY receives ACTION by BOARD ID-diff, CARL receives ACTION handoffs, RED/PROME INFO by ID-diff. There are42 handoff rows; their delivery/consumption distinction and origin proof are in LAST_COMPLETION.
 
-### October 10 routing and receiving snapshot — Tier-2 full closeout ~16:4x ET (prior)
-
-BOARD 1315; 9 outputs (`-001`…`-009`), 1 kill, 0 cluster-mediating; no network-uncertainty-peak trigger. 38 handoff rows to 21 desks (delivery state in the LAST_COMPLETION receipt). PM routing: LIQUID 1A/1I; BROCK 1A/1I; VULCAN 1A; BRENT 1A; HENRY 2I; HAWK, SHADE 1I. AM routing: BRENT 2A; HENRY 1A/2I; VULCAN 1A/1I; VIOLET 1A/1I; FALCON, OSPREY, YURI, BOND, ZHAO, CARL 1A; HAWK, HANS, SAM 2I; MIDAS, LIQUID, HOMER, REGINALD, LABOR, WATT, SHADE 1I. CARL/RED/PROME/TERRY INFO via BOARD ID-diff (exempt).
-
-**Receiving layer (16:3x ET):** live in own windows this afternoon: REGINALD (`reginald-6d`, Will-launched, still writing at closeout) and PROME (`prome-ce`, STANDARD closeout 15:18). PROME's 10/10 spawns all closed per ORCH_INFLIGHT (BRENT ×2, CARL, DEWEY, FALCON, HAWK, MARCO, OSPREY, SHADE, VIOLET); none IN-FLIGHT. **Aged unconsumed (doctor, delivery_log basis): 12 >2d across 5 desks, 5 ACTION / 7 INFO, oldest ACTION 8d: YURI 3, HOMER 3, OTTO 2, CREED 2, MIDAS 2** (76 at the morning closeout). LIQUID, BRENT, VULCAN and BROCK dark on today's PM ACTION items; logged in DOORBELL_LOG, not doorbelled (no dated referent; cadence leg not met). SHADE reports `T-SHADE-01` FIRED (owner reading). REGISTRY header-only refresh today: AEOLUS, CORAL, BRENT, OSPREY, VIOLET (AM); MARCO, HAWK, SHADE, CARL, FALCON (PM); REGINALD, PROME, WALTER (closeout). CATO still not in REGISTRY (WQ-255, PROME carry).
+Receiving telemetry at the pre-closeout doctor:82 unconsumed>2d across16 desks,28ACTION/54INFO, oldestACTION10d; ages use timestamp_routed, one mtime fallback across the full scan. Current fleet visibility UNKNOWN: no native census/cross-runtime messaging instrument. ORCH_INFLIGHT is a partial generated view, not a proof of absence; concurrent owner writes and same-day owner receipts provide partial evidence. No desk was declared DARK merely because a tool was unavailable, and no duplicate spawn/doorbell was issued on that basis. Action-address readiness evaluations are saved in `receivability.tsv`.
 
 ## Active LIAISON channels
 
-All four channels remain DORMANT, ARCHIVED or CLOSED (CARL, RED, REGINALD, BRENT). No live calibration countdown. Read only a newly active turn; prior detailed narrative is preserved in SESSION_LOG.
+CARL, RED, REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or calibration countdown. No live proposal queue item found in top-level outbox.
 
 ## FILTER POSTURE
 
@@ -85,8 +72,9 @@ All four channels remain DORMANT, ARCHIVED or CLOSED (CARL, RED, REGINALD, BRENT
 
 **Standing flags:** ✅ COP RETIRED 6/28 · Quick WALTER RETIRED 6/26 (ONE mode) · `design/STATE.md` §5's pointer here is TRUE. No standing obligation from any. *(Provenance in `SESSION_LOG.md`.)*
 
+
 ---
 
 ## SESSION LOG
 
-Full history: `SESSION_LOG.md`.
+Full history: `SESSION_LOG.md`. Current obligations: `LAST_COMPLETION.md`.

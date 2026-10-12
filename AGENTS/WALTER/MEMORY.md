@@ -89,14 +89,5 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-10 TIER-2 FULL CLOSEOUT (`walter-66`, Claude Code, Opus 5.5, LAPTOP; AM + PM legs)
-
-AM (boot 10:53): `-001`…`-006` (SKEW 1 of 4; IMMEDIATE Ghawar gas-plant fires; Russia diesel GL 135; Citi/Shelton; SCF; markets), X-bookmarks 32/32, DEWEY `REQ-DEWEY-20261010-001`. PM (boot 14:14, Will: "continue working on our owed or incomplete tasks"): inbox 6 → 0, all answered (REGINALD → `-007`; PROME relay order → BOARD_CONSUMPTION_SPEC v0.35; SHADE Guggenheim doc paywalled; MARCO harness 4 PASS / 1 REJECTED; NEXUS S1 FOR, veto withdrawn). `-008` Baltic wk41; `-009` GPU-collateral financing (found by the AI_INFRA_CAPEX review: intake had no collection; PROME landed 4 lane rows `5a3b083` the same afternoon). Staleness sweep (3 tags), CHECKLIST v0.51, X_BOOKMARKS live update, MEMORY #46–47 rotated. All commits on origin (PROME's 16:32 push); 38/38 handoffs delivered. Fleet memory: stamp finding n+1 (typed receipt `as_of`).
-
-### NEXT SESSION
-1. **Machine:** the X token is on the LAPTOP `.env`; the desktop copy and `E:\walter-env.txt` are dead. Carry the laptop `.env` at the next switch.
-2. **First lane hits on `gpu-obsolescence-1..4`** at step 7e (rows live from the next lane run); route through the normal gate, VULCAN/BROCK.
-3. **RED-FT-10:** CBOE `SKEW_History.csv` for 10/12, 10/13, 10/14 (VIOLET owns; a bar <150 resets).
-4. **DEWEY** `REQ-DEWEY-20261010-001` (due Wed 10/14): close the ledger row at step 7d.
-5. **FALCON** grade of Shedgum/Hawiyah (`-002`); Iran full sweep ~10/15; anchor 23,810 B (trigger 24,412).
-6. Owed checks: FRED 10/9 HY print (unposted at 16:38 ET 10/10; Mon is a bond holiday); H.8 Fri 10/16 (small-bank borrowings, `-007` follow-through); tanker weekly review 10/16; MEMORY/anchor size checks 10/15; next staleness sweep ~10/24.
+**October12 Tier-2 full closeout / Codex:** nine signals including held-put FLASH;19 kills; two helper instances/four tasks closed; intake21/21 and transcripts3/3 closed. Root/local instructions explicitly loaded. Main pull/push deferred on concurrent foreign work; approved separate intake pull succeeded. Source/threshold limits, origin/delivery receipts and every open item are in LAST_COMPLETION.
+**Next session:** use LAST_COMPLETION as the sole duty list. X refresh failedHTTP400 (reauthorize; do not report a clean scan). READS attestation is stale despite matching byte basis. Iran source upgrades are partial; full clock remainsOctober8, UKMTO/owner loss-basis discrepancy stays unresolved. No current quantities, orders, new grades or spawns inferred.

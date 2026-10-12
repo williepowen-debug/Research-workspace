@@ -1,0 +1,24 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BRENT/NEXUS_BRIEF.md
+     [not yours]    AGENTS/BRENT/RULINGS.md
+     [not yours]    AGENTS/BRENT/SCRATCH.md
+     [not yours]    AGENTS/BRENT/STATUS.md
+     [not yours]    AGENTS/BRENT/archive/STATUS_dated_2026-10-12_pre-L689.md
+     [not yours]    AGENTS/BRENT/archive/STATUS_receipts_2026-10-12_rotation.md
+     [not yours]    AGENTS/BRENT/board_log.tsv
+     [not yours]    AGENTS/BRENT/demand_destruction/TRACKER.md
+     [not yours]    AGENTS/BRENT/docket/CATALYSTS.tsv
+     [not yours]    AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261012-006.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261012-007.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261012-009.md
+     [not yours]    AGENTS/BRENT/registry/corrections_receipts.tsv
+     [not yours]    AGENTS/BRENT/research/2026-10-12_L689-energy-opportunities/
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md
+     [not yours]    AGENTS/OZK/research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md
+     [not yours]    AGENTS/OZK/sources/2026-10-12_L690/
+     [not yours]    AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-12_morning-bank-tape/
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

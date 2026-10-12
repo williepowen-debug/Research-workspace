@@ -1,0 +1,149 @@
+[
+  {
+    "item": 1,
+    "title": "A US Diesel Export Ban Would Also Roil NGL Markets - East Daley",
+    "source_date": "Fri, 09 Oct 2026 08:06:01 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261009-014 hypothetical US-ban analysis already dispositioned"
+  },
+  {
+    "item": 2,
+    "title": "Russia Weighs Partial Lifting of Diesel Export Ban - Energy Intelligence",
+    "source_date": "Fri, 09 Oct 2026 15:33:20 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261009-014 and SIG-W-20261010-003 export-instrument follow-through"
+  },
+  {
+    "item": 3,
+    "title": "Money market funds attract massive inflows as bond selloff bit - Reuters",
+    "source_date": "Fri, 09 Oct 2026 10:30:32 GMT",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261012-001"
+  },
+  {
+    "item": 4,
+    "title": "Ukraine Says It Attacked 4th Russian Refinery This Week - Rigzone",
+    "source_date": "Fri, 09 Oct 2026 14:42:00 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261009-014 same Bloomberg wire"
+  },
+  {
+    "item": 5,
+    "title": "Ukraine Says It Attacked Fourth Russian Refinery This Week - Bloomberg.com",
+    "source_date": "Fri, 09 Oct 2026 12:28:00 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261009-014 same Bloomberg wire"
+  },
+  {
+    "item": 6,
+    "title": "Harrison County-based Traffic company faces mass layoffs after contract loss - WAJR",
+    "source_date": "Fri, 09 Oct 2026 15:59:04 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-09 local Traffic employer below materiality"
+  },
+  {
+    "item": 7,
+    "title": "Junk bonds are 'flashing yellow.' Watch these warning signs - CNBC",
+    "source_date": "Fri, 09 Oct 2026 19:43:18 GMT",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261012-002"
+  },
+  {
+    "item": 8,
+    "title": "Ares Commercial Real Estate (NYSE:ACRE) Price Target Cut to $4.50 by Analysts at Keefe, Bruyette & Woods - MarketBeat",
+    "source_date": "Fri, 09 Oct 2026 17:53:25 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-09 KBW price target not gas/credit event"
+  },
+  {
+    "item": 9,
+    "title": "Many Major Countries Aren\u2019t Ready For a Bank Failure - Finimize",
+    "source_date": "Fri, 09 Oct 2026 17:21:01 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-09 Finimize generic report, reopen on primary/named institutions"
+  },
+  {
+    "item": 10,
+    "title": "Subprime Auto Loans Make Wall Street Rich as Borrowers Struggle - Bloomberg.com",
+    "source_date": "Mon, 28 Sep 2026 07:00:00 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-01 Bloomberg feature, no new extractable data"
+  },
+  {
+    "item": 11,
+    "title": "Subprime Auto Loans Just Hit Their Worst Delinquency Rate in 32 Years. Here's What It Means for Lenders. - Yahoo Finance",
+    "source_date": "Sat, 11 Jul 2026 07:00:00 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-09 July11 vintage"
+  },
+  {
+    "item": 12,
+    "title": "Reuters Legal News | Lighting the Match - Subprime Auto ABS Structure Comes Under Attack - Davis+Gilbert LLP",
+    "source_date": "Wed, 10 Jun 2026 07:00:00 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-09 June10 vintage"
+  },
+  {
+    "item": 13,
+    "title": "Isaias incoming: Video hurricane forecast ahead of Florida landfall - Tallahassee Democrat",
+    "source_date": "Fri, 09 Oct 2026 19:17:06 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261009-003 hurricane forecast overtaken by landfall"
+  },
+  {
+    "item": 14,
+    "title": "France, Saudi Arabia still studying options to protect Yanbu terminal, army chief says - The Economic Times",
+    "source_date": "Fri, 09 Oct 2026 02:07:43 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261008-043 same French study-phase statement"
+  },
+  {
+    "item": 15,
+    "title": "Saudi Arabia Yanbu Refinery Still Operating, Industrial Info Conf... - Industrial Info",
+    "source_date": "Thu, 17 Sep 2026 07:00:00 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-09 September17 refinery story"
+  },
+  {
+    "item": 16,
+    "title": "Next-generation lasers set for surge in AI data centre demand - TrendForce - Telecompaper",
+    "source_date": "Fri, 09 Oct 2026 04:53:05 GMT",
+    "disposition": "KILL",
+    "evidence": "kill_log 2026-10-09 component forecast below materiality"
+  },
+  {
+    "item": 17,
+    "title": "OPEC+ Agrees to Keep November Oil Output Targets Steady - The Moscow Times",
+    "source_date": "Sun, 04 Oct 2026 12:29:00 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261004-002 OPEC November targets"
+  },
+  {
+    "item": 18,
+    "title": "Heating Oil Eases Toward $4.50: Valero (NYSE:VLO), Chevron (NYSE:CVX) in Focus - kalkine.ca",
+    "source_date": "Tue, 06 Oct 2026 19:41:00 GMT",
+    "disposition": "KILL",
+    "evidence": "October6 commentary; no new named/settled price, current named pulls supersede context"
+  },
+  {
+    "item": 19,
+    "title": "Hormuz Crisis Leaves EU Gas Storage Short Heading Into Winter - Crude Oil Prices Today | OilPrice.com",
+    "source_date": "Fri, 09 Oct 2026 10:30:00 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261009-013 storage basis and already-open HANS states"
+  },
+  {
+    "item": 20,
+    "title": "ENTSOG: EU gas storage enters winter 72% full as LNG import capacity carries the balance - Pipeline and Gas Journal",
+    "source_date": "Fri, 09 Oct 2026 18:05:28 GMT",
+    "disposition": "KILL",
+    "evidence": "SIG-W-20261009-013 ENTSOG same context"
+  },
+  {
+    "item": 21,
+    "title": "US-Israeli war on Iran leaves EU gas storage at record low ahead of winter - thecradle.co",
+    "source_date": "Fri, 09 Oct 2026 15:39:24 GMT",
+    "disposition": "KILL",
+    "evidence": "Already-covered storage shortage; no new dated primary metric or changed observation basis"
+  }
+]

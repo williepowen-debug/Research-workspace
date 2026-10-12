@@ -1,0 +1,305 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-09T19:56:53Z (1 missed weekday runs, 2 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 178 (trailing median 199 over 10 batches)"
+    ]
+  ],
+  "new": [
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-09/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "1 NEW_ALERT item(s) \u2014 read data/2026-10-09/news.json",
+      "label": "1 NEW_ALERT",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-09/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "7 NEW_WATCH item(s) \u2014 read data/2026-10-09/news.json",
+      "label": "7 NEW_WATCH",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:3cff57a53910",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "A US Diesel Export Ban Would Also Roil NGL Markets - East Daley",
+      "label": "WATCH_HIT [BRENT:'US diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:949e92813308",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Weighs Partial Lifting of Diesel Export Ban - Energy Intelligence",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:ce7edaacda35",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ukraine Says It Attacked 4th Russian Refinery This Week - Rigzone",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:564e4ef94151",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ukraine Says It Attacked Fourth Russian Refinery This Week - Bloomberg.com",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:4b04a5fb5baa",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ares Commercial Real Estate (NYSE:ACRE) Price Target Cut to $4.50 by Analysts at Keefe, Bruyette & Woods - MarketBeat",
+      "label": "WATCH_HIT [HENRY:'gas above $4.50']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:44e5eb8af080",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CARL"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Subprime Auto Loans Just Hit Their Worst Delinquency Rate in 32 Years. Here's What It Means for Lenders. - Yahoo Finance",
+      "label": "WATCH_HIT [CARL:'subprime auto delinquency rate']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:73f5247373bd",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "AEOLUS",
+        "CORAL"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Isaias incoming: Video hurricane forecast ahead of Florida landfall - Tallahassee Democrat",
+      "label": "WATCH_HIT [CORAL:'hurricane landfall Florida'; AEOLUS:'hurricane landfall Florida']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f18f5b278366",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HAWK"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "France, Saudi Arabia still studying options to protect Yanbu terminal, army chief says - The Economic Times",
+      "label": "WATCH_HIT [HAWK:'Yanbu terminal']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:b55b0771cfcd",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "OPEC+ Agrees to Keep November Oil Output Targets Steady - The Moscow Times",
+      "label": "WATCH_HIT [BRENT:'OPEC agrees']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:c2147ce65eb0",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Heating Oil Eases Toward $4.50: Valero (NYSE:VLO), Chevron (NYSE:CVX) in Focus - kalkine.ca",
+      "label": "WATCH_HIT [HENRY:'gas above $4.50']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f595027d4cce",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Hormuz Crisis Leaves EU Gas Storage Short Heading Into Winter - Crude Oil Prices Today | OilPrice.com",
+      "label": "WATCH_HIT [HANS:'EU gas storage']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:fa647d587c85",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "ENTSOG: EU gas storage enters winter 72% full as LNG import capacity carries the balance - Pipeline and Gas Journal",
+      "label": "WATCH_HIT [HANS:'EU gas storage']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:9bda4fb2d740",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "US-Israeli war on Iran leaves EU gas storage at record low ahead of winter - thecradle.co",
+      "label": "WATCH_HIT [HANS:'EU gas storage']",
+      "onset": true
+    }
+  ],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=51.7 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.4 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=315.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=315bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "cftc_cot",
+      "key": "cftc:cftc_cot_VIX_lev_money_net_5494_orange_n:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "VIOLET"
+      ],
+      "info_cc": [
+        "SAM"
+      ],
+      "precedence": "ROUTINE",
+      "raw": "cftc_cot VIX lev-money net=5494 [orange] (net-long vol / de-risking regime)",
+      "label": "VIX positioning",
+      "onset": false
+    }
+  ]
+}

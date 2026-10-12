@@ -1,0 +1,402 @@
+[
+  {
+    "title": "A US Diesel Export Ban Would Also Roil NGL Markets - East Daley",
+    "source": "East Daley",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVFdFUHFFUXlpOERZSUdRTUZHVG9WMUcybnYwR3JZZ3lFRUZEYWcwOElOTUJQYkZ2c3hFTWxPRmxMVWVvaHlxbmFqUzRCN3h4VjlvVlcwaVMyWUNZSmJqdXU3MUF0SmZoUng3UXl3Q2hXNEtnRF96QVBDcW14dHE5RHQ4N0lPeEpUaW5meg?oc=5",
+    "date": "Fri, 09 Oct 2026 08:06:01 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "US diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "title": "Russia Weighs Partial Lifting of Diesel Export Ban - Energy Intelligence",
+    "source": "Energy Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PR0ZzRC1kZUktYjJmME9KclN1bzlLamNHSl85OE9KNUFzSEU1bDZNSTRkcXhqcGJORjZTOHlZTVBQM1VVM2xpSjIya3VmMzREaHdjRDFoOTFRcEFUcXBzM01GTC1aaGFlMWFNOWFWWjJuQQ?oc=5",
+    "date": "Fri, 09 Oct 2026 15:33:20 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "title": "Money market funds attract massive inflows as bond selloff bit - Reuters",
+    "source": "Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUXFrdUVhUllTS2VxcXllUDloRkNKXzZkeVhkSW1QZ2ZWVjJQSHZham1xcWRkR0RlNWZNZlhBOG95MHBaclFKVFplX1Z1aGc0Mm9DQWJ6M21HWHZTRGNUV0x1T0tONjdvNEtqQlU2ZktiM2tsU21Vb2ZNaXRrMHpNbGNR?oc=5",
+    "date": "Fri, 09 Oct 2026 10:30:32 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "money market",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "BOND",
+      "HENRY"
+    ],
+    "label": "treasury-moves"
+  },
+  {
+    "title": "Ukraine Says It Attacked 4th Russian Refinery This Week - Rigzone",
+    "source": "Rigzone",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORi1wUnhoWFY4eHpKY3J4dVd0c1ZCTDdVaUFsMXRnMXFxSTR4UzdYNG8zZzhNR203TF82aUZmYzBtSW52TUZZTUt1c04taWFwdXRySzlZUmJwLUk4WXJXNEE2MmowbmFEc2xxemdxd1NUdEZlak43ejZqTTAyT2ZKZHFCM2hfS0Z3dmFBRDY2cnBQeXp3bmNMN2NodGlrX0FMdjhaRTRRM0M4RjF6MUJjbFI1d0VEd1JR?oc=5",
+    "date": "Fri, 09 Oct 2026 14:42:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "gas-supply"
+  },
+  {
+    "title": "Ukraine Says It Attacked Fourth Russian Refinery This Week - Bloomberg.com",
+    "source": "Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSjZ3TXhlS2JlOXBGckc5ajlSZEpldmxzMmx2eGducTMwanhXd1RhYjNOT1BYVWxtU1lWbGZRZGxoMnoyZXE2MjRqVFFUQVd2cGc1NjYyNmtZdjdFTERacGZWMjRWN0s0Qmx1R3loLUkxeWxXUFo4NUUtMzc2eVZWaHF4Vl9ESjAxOHY1NUN3NXRpWWY4V3UwdnlxYjRvU1d6M0RTdFQ0dmRtNmVQVHc?oc=5",
+    "date": "Fri, 09 Oct 2026 12:28:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "gas-supply"
+  },
+  {
+    "title": "Harrison County-based Traffic company faces mass layoffs after contract loss - WAJR",
+    "source": "WAJR",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd01ITkUtS2NDR3RleEN3Nlp5SEdaa2F0Q250YkI1MS15bnRkbGdsMWFYN2VubzNTOWVnblRDSEdGZ05rNi1yaVB4eVA2TktZMEltUHZjc1ZGcXg3bXhBY0pZSHpLdUlKaFAtd1JZckN1STBKbGgyRjFFcEJuMUJtdjdydGtjMWF0WGVnWndCQzFucmhRcFRtSUs5M3Eyc1hfaXRxYjREQ0c?oc=5",
+    "date": "Fri, 09 Oct 2026 15:59:04 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "mass layoff",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "LABOR"
+    ],
+    "label": "labor-layoffs"
+  },
+  {
+    "title": "Junk bonds are 'flashing yellow.' Watch these warning signs - CNBC",
+    "source": "CNBC",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTER4UFlPaFkwY0FSY0Z0RVFXSzljSjlOM3hWR0RYSVNoMVROZUlnQU9KRFA1WG5aNU1lWW5hUU42WmRYQkRJS1ZLcU9GUmJMMXdDMzdrUm5vSWxiS0dvTDdFc3hoSmlOTlU2TFN3a0tiSHo0ZW1BSVB3NUhrLU04RjNfdkxVNU1hWDFwMTR6Z25lbFRYX1BvctIBngFBVV95cUxQU2ZNQ2RaaDZZY05NREpqSUFac1lCRUVxc3ZjdXluaTg4bWpZbU1qR3R0MXdvbDdMS0pRdjZ5a1ItWXJ4d1dTX3JoeGloNU1kZUZDVkVQSkNZUnZ1Yy1CaTdJU3hWenowOWpfanJfeEdtVlZXWS05Sy1zNEZ2UHl6U1F5WlV2ZzdTMkY2cnpQRFNVYUg4clhzTERDWVdMZw?oc=5",
+    "date": "Fri, 09 Oct 2026 19:43:18 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "junk bond",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "LIQUID"
+    ],
+    "label": "credit-spreads"
+  },
+  {
+    "title": "Ares Commercial Real Estate (NYSE:ACRE) Price Target Cut to $4.50 by Analysts at Keefe, Bruyette & Woods - MarketBeat",
+    "source": "MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPODlQWjBFZVJsa2Jhdk9HVWhRalNjSk5zZk9Ga01KMDFmWHlzZ1JLSjFoVlAwS3B4ZC1fcFVfelpuVnZubjRPQVBsSWJJQ3dDaDRTeXZrVjAzZU1rUlhPY05LUENPRmJCeGQwdFRaYWhPai16eXBOTlRMeHJMVzI4THFMOW5kR1VWZXliVEQ5V0VZVUVWcnMxTkV5dzRhcmxDd0hsbDRKaVFxTHNvT1E4T2pZWXZxNHJoRFNkUE9fTE9rUXFxRzBuNU53VTFCbVZyYWxOZnQ3VzYxeHZGLWx5SU42X1UtRkJjbGhOamliQmQ?oc=5",
+    "date": "Fri, 09 Oct 2026 17:53:25 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "gas above $4.50"
+      ]
+    ],
+    "agents": [
+      "REGINALD"
+    ],
+    "label": "cre-stress"
+  },
+  {
+    "title": "Many Major Countries Aren\u2019t Ready For a Bank Failure - Finimize",
+    "source": "Finimize",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcXV3MTQzZlNOd0RDbTVrUERad2tsVzgyTUZxSlhZWlBuMFdiZHRWaGlrQ0tiV3ZQTzZlaXNNaHhucy01Y2RxUGdHUndWb1VCM3MxT1RfWnk2NHo5ZkVkMEJ4bjhDMzFsczlqY2lnRjJNMXo3alNKaVNlMmRNU3l1VUxGUzdSc28?oc=5",
+    "date": "Fri, 09 Oct 2026 17:21:01 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "bank failure",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "REGINALD",
+      "LIQUID"
+    ],
+    "label": "bank-stress"
+  },
+  {
+    "title": "Subprime Auto Loans Make Wall Street Rich as Borrowers Struggle - Bloomberg.com",
+    "source": "Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PTTBTaXdrYjZoNGxNREpheWdSdUhSSHpsbWwxZzhVY3RZaUNaYWxfU2pqRFdoYkJDUVZlMUxoNWxMNDNJc3hhTG1ZMnZPRHVVNTJzNW4zYS1fODF1NjZXWm5xTGVNbURxMkJKZWdPN25ON1BRcXRN?oc=5",
+    "date": "Mon, 28 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress"
+  },
+  {
+    "title": "Subprime Auto Loans Just Hit Their Worst Delinquency Rate in 32 Years. Here's What It Means for Lenders. - Yahoo Finance",
+    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdThSRnBkWUg5aTJWMXNXZER6RFdweHQ2NjFsb1ZUZlQ0SVdheFpJNUxSaDFvUGlNLVB4Yy1CNzJjN1NfQXRpTVEyUWp0eXlXV3pPemhqZE5lRk1hMjBDcDJjRDgydU82ZHR6a1hiTHJIaGNlM1dKWkEwQXNuQ2JhdTdvbmg4bXVxd2VXM0duVXMyRl95cXItcQ?oc=5",
+    "date": "Sat, 11 Jul 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [
+      [
+        "CARL",
+        "subprime auto delinquency rate"
+      ]
+    ],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress"
+  },
+  {
+    "title": "Reuters Legal News | Lighting the Match - Subprime Auto ABS Structure Comes Under Attack - Davis+Gilbert LLP",
+    "source": "Davis+Gilbert LLP",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVlGOGc4Q3Y2Tk51OU4tMzZzMFVPOXk3MV9kNXpXNjJZY0MtbXpSb3hvWElaZUIyNUtkWnMyYnFjcC1URTFucFdneTkzS1pYZ1FqdXFQMjJiVmdNTDVmdHVsUW93WmVCbDduNWt6bW1FQ0NRZlRIbmtLdFhJdWZOTTVYbWdoRmsya3FYZmtnQmRHa1laU21HT0dGRFNIMXExRVQxQVhmTFIwMkE?oc=5",
+    "date": "Wed, 10 Jun 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress"
+  },
+  {
+    "title": "Isaias incoming: Video hurricane forecast ahead of Florida landfall - Tallahassee Democrat",
+    "source": "Tallahassee Democrat",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRF9UZkF1Q1VJU2QwYzdReXlZWV83bUpJRFllaDZxMm1CWmlfVlhDVTVKZzFvVGV6clNFR2pRQ25lQVhITGQzRF9Va1plNjdPMXpua3RKSURFdjFZWVBSY05QN2xBemdneTVDSjN0MW5XSDNfZzlVS0tYMEhyU2tfVzdMUUtaSTRVckVzN0lHX2Z4VHV5aHA3eEtLbTU0SEhJMVhSZW1qcHJKN1dCTWlwaF9YTXp3aDN6UGJEZlQ3RUpSSXpnTi1WbFRzZnVnekFVZ0ZiT1N5MUo?oc=5",
+    "date": "Fri, 09 Oct 2026 19:17:06 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CORAL",
+        "hurricane landfall Florida"
+      ],
+      [
+        "AEOLUS",
+        "hurricane landfall Florida"
+      ]
+    ],
+    "agents": [
+      "AEOLUS"
+    ],
+    "label": "climate-macro"
+  },
+  {
+    "title": "France, Saudi Arabia still studying options to protect Yanbu terminal, army chief says - The Economic Times",
+    "source": "The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxObUdSNDR6Q1RzdmNjMHpJV2djRmRpTGF0TUJIdzVuNXpxSFQ4Q1N1dWlxb2lTNThoMDhvNGpERkpfSDNuOHNnbXJpNjd1dGZDMHAxbW1xZ3R1RTNuTDJZa3dkMkRoOTdXa21GQm1NR2txdWRHTTA4cGJkUC12czdxZjhScWMxUmZSRzE5ZnBiZ2JnendQZFVpVjctZ0VWUDlUWWpDMWNUcnJvelY2amMxRDZSM0MtQkR0bmpzNXJXdHpiQ3ZRT2ZrTDZCT3Nsb0ZGUUU0ZHRBejlMY2VyX3ZHVkd1ZGpDYTNMbGNyaTBTRk1falVoY3RGZFRTcnDSAYICQVVfeXFMTW1TTUxaSFFNV0VTT192RkhGRm9WcEZ2SVE3cjQ1VUF1OEJPS1lvQ1h5aWFXSWZLa3hrZmJ3bll4SFBvMV94eUs4QnNUdVgxSUN4S2ozeVBvUjBhTmJaREsyaHprMzZQT3o0UjU4WkxibWlJOE1GLU1Xbm9ZTS1PM2lkTkxZWnEydHJCem1RcVBGTjhkdW1MYmFqcEVNTXdRUWxhbndZLW4wOTUxQUVqVzUtRkh5c3hMTGZNYjlueGR4akdXMWRGZ2FyNnB2VjBlWWEyZ2VkWG5SRWdvZ2FsSGNTMFB6Zk1sMFJKWkRTeHNybC1uNFJFeEN2aEl1QVZIdE93?oc=5",
+    "date": "Fri, 09 Oct 2026 02:07:43 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [
+      [
+        "HAWK",
+        "Yanbu terminal"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea"
+  },
+  {
+    "title": "Saudi Arabia Yanbu Refinery Still Operating, Industrial Info Conf... - Industrial Info",
+    "source": "Industrial Info",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMVdoQzJmcFB2SnItS0VKOURkbjlFWWotcWVrMnBRSHNJM3hNNzFUNVREVVR2QTZLSG4yT0ZyMEdBcUlKc3M5cVNtU1liV3pnMWtUa3d5Yjg4YkUyQTlYSzNTUE16c0xLWmZJdkpGemRUa01KQ2I3MUJMV09CUnpTWVppYzgxT2lJZjZPdm15NGJheGlwd1dvSVZWeWt2c2RLMlZqbWN3clBuLVZqeVEwYS1oT3ctQkxxV2lwbw?oc=5",
+    "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea"
+  },
+  {
+    "title": "Next-generation lasers set for surge in AI data centre demand - TrendForce - Telecompaper",
+    "source": "Telecompaper",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPajZfQzNsemxtQUJTTjdsMXFlSW5kTHBySk9KRlh6c1BMRVpjSVVHdGtzRDA0dm4tQXdwTHJySmF2UkhXY1BkbUlfWGtoWno2a2VlM0ZYNFV2blVweTNnQmFXa3Z3WlJjTy1uMVJjNGg2Y3o5OWs4a0s5NVF2SjlaaFJrMUJwMlZwajRESzZwdUp1Y3QyeEJteENDenZ2dWVuRkdUZGN1WFlmaUo3bEpMN3ppTHVpUQ?oc=5",
+    "date": "Fri, 09 Oct 2026 04:53:05 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "title": "OPEC+ Agrees to Keep November Oil Output Targets Steady - The Moscow Times",
+    "source": "The Moscow Times",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2xOMXk4Y29US3RmT3VDN0p6Qk9CTDBBdllDeWVpa1FwZ21EZk90a0E1cE9GQ3dOV1A0c0dtdnpiVmhDbllyRTBKRS1JemZaOGt6cUpIX2htcU56dWJEeWsyUkd2dnhDby16MVlaMExpLWVYMHZsaFY5eFRSMzM5cXFyaXRxbUJGSk5iRlRiSmtia3VtX3NzaVN3ZDZhWTU2b1BkVmZR?oc=5",
+    "date": "Sun, 04 Oct 2026 12:29:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "OPEC",
+    "watch_hits": [
+      [
+        "BRENT",
+        "OPEC agrees"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-fuel-export-ban"
+  },
+  {
+    "title": "Heating Oil Eases Toward $4.50: Valero (NYSE:VLO), Chevron (NYSE:CVX) in Focus - kalkine.ca",
+    "source": "kalkine.ca",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNektOS2QzZWF6NEdlNVpvQ1l2ZTJSQnNFbF9qcXFsYmFJOGR5MFZLY2JQMEZndHRTazYwcUxPbkE5VkJkTk52T0VoVUJQdEJUX2hWdkRCcmlqc2swbkdvN3VqanNqWktHbTRGQ1Z5LXR6bEpVY0U3c2Z2aFVJVFpWdFR1aTVONTlic29uU25mLWxPYUc3SmNSRjMxNnk0cWN2?oc=5",
+    "date": "Tue, 06 Oct 2026 19:41:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "gas above $4.50"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-fuel-export-ban"
+  },
+  {
+    "title": "Hormuz Crisis Leaves EU Gas Storage Short Heading Into Winter - Crude Oil Prices Today | OilPrice.com",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWlp2VlZ1MnoxY190dTJNT1h3a092ZFdaUVlSX0JtSmNpM2ptbDJCSXdhSThJRlF6bVZXS1ZjMWo4dEdHU3FYY0lBUFExdnZfWERlOWNuOVpIRlRiR1lmeWZrYUhuMldQVmgtSkpiR2VLRDNFQTlSQlM2ZEtBeE1MeXFsVkx1cVl2bWE2cjV6OFpVX0hNamgxemJTVHp2VTdPQUwxVTNWalk2SDR6dVI5X3pfNzR2TDVP0gG-AUFVX3lxTE1pbmIxSFVkTkE1cWJzaURBUnRiM19lZXY2LUpzZGhiX05GaTY0ZTdnbmVnZk9VckNLMVBRdDZsd3VUNEdkMFoxU3pJemVTbVlzVWdZMWxiT3FHUE55Z0czbmN5MGZrS0tGTnFtdGRtY011Tm0xdUFYeTJGUDRsMUx4cUtTX2VWSm5xUkFwNEF5Wld1YkxpR094Q3RNSlladUt0Y2FmSWxoZFQ2ZHYxQ1NldTBCX2xqZjJwXzFpWkE?oc=5",
+    "date": "Fri, 09 Oct 2026 10:30:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Hormuz",
+    "watch_hits": [
+      [
+        "HANS",
+        "EU gas storage"
+      ]
+    ],
+    "agents": [
+      "HANS",
+      "HENRY",
+      "SAM"
+    ],
+    "label": "ttf-storage-gilts"
+  },
+  {
+    "title": "ENTSOG: EU gas storage enters winter 72% full as LNG import capacity carries the balance - Pipeline and Gas Journal",
+    "source": "Pipeline and Gas Journal",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM3d1LWo3VlZVQ1U3ZkplRWNwY04xSWhnZkI3SlJ1WUp6MXhaemx2RWh6dXZBbXd0dHh1YVhZWHAxWmljYUUyRG5UaUlzelhTVWNYM1JOQi1sUGhpMlNmaTRPUVFVUXd5MWE3cFB1WUhsNGJfQ0kySldlMnI1ZGJrbWVhSHJub1VvUUZkRy16dUhwS05kLUhOZURrZWJ6SWhONFNyX0NLSFRBbUlxMWU4UmxYbFAxcmlYWktobUhvNnRueGF0?oc=5",
+    "date": "Fri, 09 Oct 2026 18:05:28 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HANS",
+        "EU gas storage"
+      ]
+    ],
+    "agents": [
+      "HANS"
+    ],
+    "label": "ttf-storage-gilts"
+  },
+  {
+    "title": "US-Israeli war on Iran leaves EU gas storage at record low ahead of winter - thecradle.co",
+    "source": "thecradle.co",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcDhkR1RFZnkxRXYyUE5jRFp0aHlLaXhZamZScFNibVpoQlpNLWphcHZScVRtdWl4VXhMejdkWWNIWVJMLWUtUFVhZUZFcV9ZOG1Jc1p5RDVtMXo4TDY0ODZqck1OaEZaOHk1UC1Fc25zLURkUFNrTFhLaU4yYjlNWi1wMjJpd3pDd2FqelhvLXlxZ3BaVUFXRG5JX3ptV1NvbUVSbnVQQQ?oc=5",
+    "date": "Fri, 09 Oct 2026 15:39:24 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HANS",
+        "EU gas storage"
+      ]
+    ],
+    "agents": [
+      "HANS"
+    ],
+    "label": "ttf-storage-gilts"
+  }
+]

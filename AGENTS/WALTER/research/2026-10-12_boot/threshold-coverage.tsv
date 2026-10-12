@@ -1,0 +1,49 @@
+trigger_id	eligibility	observation_and_limit
+RED-FT-01	REGISTERED	HY315bp [10/8], <280 false; 0/3.
+RED-FT-02	REGISTERED	HY315bp [10/8], >320 false; 0/3. Near 1.5625% below line on this observation date.
+RED-FT-03	REGISTERED	Named Dec vendor107.08 [10/12 intraday]; identity truncated, official settles unavailable. No sustained grade.
+RED-FT-04	REGISTERED	Same limitations; far from75; no grade from vendor intraday.
+RED-FT-05	REGISTERED	ICSA197K [w/e10/3] latest-revised; far from250K. No new fire established.
+RED-FT-06	REGISTERED	VIXCLS14.84 [10/9]; fired state banked, exit>=18 0/5.
+RED-FT-07	REGISTERED	CCC1252bp [10/8]; firing-banked. Exit<930 not met; suppress continuation.
+RED-FT-08	REGISTERED	Release-derived row; next CPI10/14. No release today; manual exact-decimal release grade remains owner work.
+RED-FT-09	REGISTERED	T5YIFR2.32 [10/9], >2.55 false;0/5.
+RED-FT-10	REGISTERED	Publisher CBOE10/9 154.34;10/8 149.19;1/4. Monday10/12 close future at pull; earliest four closes10/14.
+RED-FT-11	REGISTERED	DGS30 five-session change10/1->10/8 -1bp, precondition<=-10.2 false; butterfly change+2bp, alternate<=-4 false. Same-date endpoints matched.
+RED-FT-12	REGISTERED	HY315bp [10/8], <260 false;0/3.
+REG-T-01	REGISTERED	KRE69.01 [10/9 vendor close]; intraday69.36 [10/12] not a close. <60 false.
+REG-T-02	REGISTERED	WAL74.27 [10/9 vendor close]; already-fired cycle2, exit>=81.90 0/3; intraday74.75 not a close.
+REG-T-03	REGISTERED	HY315bp [10/8], >320 false; 0/3. Near 1.5625% below line on this observation date.
+REG-T-04	REGISTERED	HY315bp [10/8], >350 false;0/3.
+REG-T-05	REGISTERED	ICSA197K [w/e10/3] latest revised; far from300K, no new first-release fire established.
+REG-T-06	REGISTERED	Quarterly official prints only. WQ414 operative consequence REVIEW; run2/3 through Q2 (owner record); Q3 nowcast excluded. No new official release today.
+REG-T-07	REGISTERED	Trepp September officeDQ12.16% [pub10/2, source-read SIG-W-20261009-002]; >15 false;0/3 monthly. Not SS.
+REG-T-08	REGISTERED	SOFR3.87-IORB3.90 on10/8 = -3bp; >15 false;0/3. Forward-stamped IORB10/13 not substituted.
+CREED-T-01a	OWNER-ADJUDICATION	September12.16 [Trepp primary SIG-W-20261009-002] >12, 1/2; Aug12.00 is not >12. No second print today.
+CREED-T-01b	OWNER-ADJUDICATION	Last owner-grade officeSS16.90 [August, pub9/14], 0/2. SeptemberSS due mid-Oct; latest release not independently retrieved in this pass, remains GAP.
+CREED-T-02	OWNER-ADJUDICATION	FIRED/SPENT per owner ledger; repeat suppressed. No new adjudication or current monthly census.
+CREED-T-03	OWNER-ADJUDICATION	Quarterly Q2 combined2.48 falling, coverage172.7 improving per owner primary-read grade; level3.40 suspended; conjunctive direction+coverage. No Q3 QBP today.
+CREED-T-04	OWNER-ADJUDICATION	Qualitative modification-exhaustion row; no numeric instrument, owner evidence required; not cleared.
+CREED-T-05	OWNER-ADJUDICATION	HOMER-owned; excluded from CREED grade, no substitution.
+CREED-T-06	OWNER-ADJUDICATION	Qualitative performing-collateral cluster; no current census executed. Not cleared from prose vector.
+CREED-T-06b	OWNER-ADJUDICATION	Gate COUNT1/SREIT fired in owner ledger; no fresh gate census, no refire or zero claim.
+CREED-T-07	OWNER-ADJUDICATION	Qualitative AND selloff+tenant impairment; current tenant-demand evidence not re-collected. Not cleared.
+CREED-T-08a	OWNER-ADJUDICATION	FIRED effective9/24 per owner total-return adjudication; no un-fire from recovery; no fresh 63-session study commissioned.
+CREED-T-08b	OWNER-ADJUDICATION	Last owner11-name census9/26 NOT FIRED; two legs required. New dividend/book census not performed; no current-clear claim.
+HANS-T-01	MONTHLY-PRINT	Owner last-known 53.9 [2026-10-01]; MONTHLY-PRINT. No fresh owner grade inferred.
+HANS-T-02	MONTHLY-PRINT	Owner last-known 53.9 [2026-10-01]; MONTHLY-PRINT. No fresh owner grade inferred.
+HANS-T-03	MONTHLY-PRINT	Owner last-known 51.8 [2026-09-03]; MONTHLY-PRINT. No fresh owner grade inferred.
+HANS-T-04	EVENT-DRIVEN	Owner last-known 2.50 [2026-09-16]; EVENT-DRIVEN. No fresh owner grade inferred.
+HANS-T-05	SCANNABLE-DAILY	Bund TE3.4777% [10/12 web intraday], below orange3.75; watch remains owner OPEN. Not daily-close grade.
+HANS-T-06	SCANNABLE-DAILY	UK10Y TE5.4495% [10/12 intraday], 5.05bp below5.50; 0.918% one-sided distance on this snapshot; no close fire.
+HANS-T-07	SCANNABLE-DAILY	Named TTFX26 vendor84.04 [10/12 intraday], name truncated/identity unresolved, cannot grade settle. OwnerL2 remains OPEN.
+HANS-T-08	SCANNABLE-DAILY	AGSI gasday10/10 fill73.61 minus native5yr88.622 = -15.012pp (all5years). Existing orange state OPEN; not new fire; exit>-12 false,0/5. Norm-composition/economic-validation caveat retained.
+HANS-T-09	COMPOUND-TWO-LEG	Owner last-known 114.0bp / 4.606 [2026-10-02]; COMPOUND-TWO-LEG. No fresh owner grade inferred.
+HANS-T-10	COMPOUND-TWO-LEG	Owner last-known 139.8bp / 4.90 [2026-10-08]; COMPOUND-TWO-LEG. No fresh owner grade inferred.
+HANS-T-11	SCANNABLE-DAILY	EURUSD vendor1.12 [10/12 intraday, rounded2dp], <1.05 false; current-close grade unavailable.
+HANS-T-12	🔴 UNINSTRUMENTED	UNINSTRUMENTED cross-currency basis: cannot fire; excluded from coverage clearance.
+HANS-T-13	SCANNABLE-DAILY	UK30Y TE5.9410% [10/12 intraday], 5.90bp below6.00, 0.983% distance on this snapshot; no close fire. TE summary rounds differently, not averaged.
+HANS-T-14	🟡 QUALITATIVE-EVENT — fires on judgement, NOT auto-gradable	Owner last-known no qualifying event [swept 2026-09-18] [2026-09-19]; 🟡 QUALITATIVE-EVENT — fires on judgement, NOT auto-gradable. No fresh owner grade inferred.
+HANS-T-15	EVENT-DRIVEN	Owner last-known NOT-MET on (a) - principal unconfirmed; UNINSTRUMENTED on (b) [2026-09-18]; EVENT-DRIVEN. No fresh owner grade inferred. Leg(a) operator primary required; leg(b) monthly-instrumentability label conflict remains owner owed.
+HANS-T-16	MONTHLY-PRINT	Owner last-known 2.4 [2026-08-31]; MONTHLY-PRINT. No fresh owner grade inferred.
+HANS-T-17	MONTHLY-PRINT	Owner last-known 2.6 [2026-08-31]; MONTHLY-PRINT. No fresh owner grade inferred.

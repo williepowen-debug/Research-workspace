@@ -1,118 +1,55 @@
-# WALTER — LAST COMPLETION
-
-> **10/11 TIER-1 LIGHT PASS (`walter-38`, Claude Code, Opus 5.5, laptop; boot 16:14 ET Sunday; light pass ~18:0x ET on Will's "work on the system hygiene now").** This file is still the 10/10 Tier-2 record. Lines marked **[10/11]** were updated, and the receipt below was re-issued. **Full Tier-2 deferred.**
-> - **Boot:** 0→9b complete.
->   - Data limits: FRED's 10/9 credit print is unposted; fleet visibility is UNKNOWN (Codex PROME is invisible to ListAgents).
->   - Dispatched `-1011-001`…`-007` (3 IMMEDIATE); 19 kills; 3 manifests closed (42/42, 28/28, 5/5).
-> - **Hygiene:**
->   - REG-T-06 cache refreshed (WQ-414).
->   - Boot basis re-hashed (4 paths, MATCH 23), plus a READS re-date ask to PROME.
->   - Ranked drain list to PROME.
->   - Retirement pass: 0 eligible files.
->   - 36/36 handoffs reconciled to delivered.
-> - **Will's capture (Telegram 21:53Z):** WQ-397 answered: the 755P was LIQUIDATED by Fidelity, +$361.94, no short. The research dir and PROME packet are at `7e7b4263d`.
-> - **Errors, both handled:**
->   - A CARL handoff written in error was trashed before commit.
->   - `5a8168f95` swept three PROME files (byte-identical); disclosed in `6f4166528`, memory n=6.
-
-Session: **October 10, 2026 TIER-2 FULL CLOSEOUT** of `walter-66` (Claude Code, Opus 5.5, laptop), on Will's word at 16:35 ET ("Okay lets close out here"). This record covers the PM leg (boot 14:14 ET, "continue working on our owed or incomplete tasks"). The AM leg had its own Tier-2 at 11:5x ET: SESSION_LOG 15:52Z entry, and this file's git history at `50e527ee2`.
+# WALTER LAST_COMPLETION — Monday October12, 2026
+Runtime: OpenAI Codex; task name `/root`; exact model variant/native session UUID UNKNOWN. Launched in AGENTS/WALTER, repository root independently resolved. Updated 2026-10-12T15:17:46Z. **Tier-2 FULL closeout; boot PARTIAL.**
 
 ## STATUS
-- **PM boot (14:14 ET):** ran 0 → 9b, COMPLETE. Data limit: Saturday, so no market session since Friday's close. FRED's 10/9 credit prints were still unposted at the 16:38 ET re-pull.
-- **Doctor:** 0 HIGH / 10 MED at PM boot → 0 HIGH / 4 MED at closeout.
-- **Decisions:** none made by WALTER. No trade, gate, threshold, band or routing letter moved.
 
-## CHANGED (PM leg)
-- **Inbox 6 → 0, every packet answered:**
-  - REGINALD signal + amendment → `-007`.
-  - PROME relay order → BOARD_CONSUMPTION_SPEC **v0.35** §3.5.7 (`c03a6dad9`). CLAUDE.md RULE 10's version string synced v0.34 → v0.35, number only.
-  - SHADE: the Guggenheim doc is paywalled. Not bypassed; free material saved.
-  - MARCO WQ-295 R3 harness: 4 PASS, `Canadian trips` REJECTED.
-  - NEXUS S1 (due 10/13) answered early: FOR the boot line, veto withdrawn, a set-definition finding for WQ-401.
-- **Dispatched:**
-  - `-007` PRIORITY: small-bank H.8 borrowings +$32.9B in 3 weeks; FHLB gap; Q3 nowcast. LIQUID action.
-  - `-008` ROUTINE: Baltic wk41 tanker prints; the w/w base is unresolved. BRENT action.
-  - `-009` PRIORITY: GPU-collateral financing and the Burry–Nvidia useful-life fight. Reuters and Bloomberg confirmed; FT relay-only; do-not-carry list attached. VULCAN + BROCK action.
-- **Owed work closed:**
-  - Tanker watch: Baltic wk41 obtained via `bdata`.
-  - OZK bridge checked: no public outcome; OZK updates on its 10/21 call.
-  - Staleness sweep: 3 tags. My own "82 unlinked" script result was WITHDRAWN as a wrong reference.
-  - AI_INFRA_CAPEX review (`design/AI_CAPEX_AXIS_CHECK_2026-10-10.md`): KEEP. It found intake blind to GPU depreciation; PROME landed 4 lane rows at RESEARCH-INTAKE `5a3b083` (verified at the artifact).
-  - Spec fixes: CHECKLIST **v0.51** (rule 1b, finding #46); X_BOOKMARKS live update (finding #47); MEMORY #46–47 rotated verbatim.
-- **Closeout:**
-  - REGISTRY refreshed: 8 PM rows plus REGINALD, PROME and WALTER.
-  - STATUS re-cut.
-  - MEMORY session notes rewritten (23,714 B).
-  - Fleet memory `finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock` n+1: my typed receipt `as_of`, caught by `closeout_check`.
-  - `reconcile_delivery_log --apply`: 10 PM rows flipped to delivered, 0 orphans.
+Authorized intake/routing completed within available access; remaining source/transport/attestation gaps explicit. Nine signals, one FLASH, nineteen kills; two verify-helper instances/four jobs closed. No trade, new research direction, unattended schedule, domain-grade change or fleet spawn authorized by this work.
+
+## CHANGED
+
+- Signals001/002: dated global money-market/bond flows and relay-only CCC bucket detail; no fund-flow/deposit substitution or containment grade.
+- Signals003/004: Sohar source/asset-class update and external August-copy/October-display transit date trap. No extra hull or current throughput manufactured.
+- Signal005 FLASH: issuer October12 disclosure confirms October9 multi-year extension toDecember2029 with fresh100M; redraw/as-stabilized/recognition/contributor limits travel. OZK packet read and consumed; TERRY owns held-put review.
+- Signal006: own October10 freight card’s closed USO call disposition corrected to broker OPTION LIQUIDATION, not expiry. The October14 calls are separate. Original dated content preserved with additive lifecycle markers; own tanker watch and transcription inference corrected.
+- Signals007–009: all three supplied transcripts read; new Michigan spending-intention evidence, historical SCF distribution detail and recovered UKMTO/IMO primaries. Other claims deduped, corrected or quarantined in TRANSCRIPT_REVIEW. Two batches closed21/21 and3/3.
+- Scoped threshold observations saved for all48 owner rows; no new sustained fire established on fetched gradeable series, explicit monthly/qualitative/settlement/access gaps. No owner bands, marks or fire rows changed.
+- Registry refreshed before network summary. Iran history rotation preserved2591bytes verbatim, receipt/hash saved; anchor22681bytes after later primary-access pointer, below rotation stop. Full sweep clock remainsOctober8.
 
 ## RESULT
-- **Thresholds:** nothing fired. Closest: HY 315bp [10/8] vs >320 (0 of 3); RED-FT-10 1 of 4.
-- **Delivery:** 38/38 of the day's handoff rows are on origin. Delivery ≠ consumption.
-- **Push:** every WALTER commit through `483e65900` is on origin, carried by PROME's 16:32 ET push; WALTER pushed nothing. Only this closeout commit is local.
+
+BOARD1332.42 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canonical rules. Fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14` and delivery reconciliation establish listed publication/delivery states below. A delivered file is not consumed; only dated owner evidence establishes specific integration. Final doctor:0HIGH/5MED (historical LABOR_DOWN residual; two amendment-note IDs;20 historical note rows; degraded newsweep;82 aged unconsumed). These are surfaced, not silently cleared. Closeout/basis/version/weekday/R1 checks PASS their explicit scope; READS rc2 and ledger-nudge rc1 retain reasons below. Outputs saved in the boot evidence directory.
 
 ## GAPS / OWED
-- **[10/11] RESOLVED:** the 10/10 closeout commit `aed15e948` reached origin (verified at the 10/11 boot).
-- **Doctor MEDs carried:**
-  - INDEX `LABOR_DOWN` residual (`-1007-013`, open decision).
-  - Two `AMENDMENT-NOTE` delivery_log ids (accurate audit history, not rewritten).
-  - 20 NOTE rows (audit).
-  - 12 aged unconsumed >2d: 5 ACTION (YURI, HOMER, OTTO, CREED, MIDAS); oldest ACTION 8d, delivery_log basis.
-- **Charter text one instance stale (not edited; a charter edit needs Will's word):** CLAUDE.md step 7h says the L3 refresh-failure leg is "not live-validated". It was observed live 10/10 (n=1).
-- **Record mismatch, not WALTER's:** the commit body of RESEARCH-INTAKE `5a3b083` says the FORGE mirror took the GPU rows. It did not (L634 drift). Flagged to PROME.
-- **Skipped, said so:** the research-retirement pass (>60-day files) was not run.
-- **Source limits on the record:**
-  - Guggenheim doc: unread beyond its teaser.
-  - Junk-issuance count: no source.
-  - Baltic: w/w base unresolved.
-  - FT insurer story: relay-only.
+
+- Main workspace pull and WALTER push deferred because foreign work was active. Read-only fetch succeeded; separately approved Research-Intake ff-only pull succeeded. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
+- X-bookmark refresh failed HTTP400; browser reauthorization required. Nothing staged or marked consumed. Laptop-token carry string alone does not repair this desktop scan.
+- No native fleet census/cross-runtime transport or Telegram reply tool/chat_id. Availability UNKNOWN; current-chat FLASH alert delivered and PROME pointer committed, Telegram notification remains owed where an authorized transport exists. No DARK inference or duplicate spawn on tool absence.
+- Ledger nudge rc1 is retained with reasons: REGISTRY and kill_log are refreshed in this closeout commit (the nudge sees their old committed versions). Correction receipts have zero new named rows; no invented receipt is appended. DEEP_RESEARCH_FLAGGED_LOG has no returned DEWEY handoff; its dueOctober14 row cannot be falsely resolved. Threshold ledgers are declared event-driven and their re-pull-attempt clock movedOctober12.
+- READS dated attestation remains stale (October9 vs October10 protocol); byte basis MATCH23 does not certify execution. Final READ-CAP:0 over-budget/over-cap within20 measured cap-bearing files,28 declared-not-counted; two advisories, one generated-file/rotation-tier warning. ORCH_INFLIGHT25598B is79% of budget and owned by PROME; flag rotation there, never edit its generated view. This does not cure stale attestation or establish coverage. PROME re-date request L174 already exists.
+- Newsweep degraded by one RSS timeout (3/4 succeeded), Google News57/57; recent lane runOctober11 19:18:17Z. Feed not dead; no collector-death escalation. Synced alert scan0 new; seen34keys+0/−0 reconciled after dispositions.
+- Iran full-ladder source coverage remains partial. UKMTO/IMO access recovered later, but footage/Poten graph/current cargo volumes and some ladder limbs remain unknown. UKMTO5 total losses vs FALCON3 qualifying losses needs owner definitions; no two-loss/gate inference.
+- Monthly/event/qualitative registers not fully re-collected; first-release claims not certified from revisedFRED; futures official settlements/identities incomplete. No current full market clearance.
+- Baltic publisher week-on-week base unresolved; Guggenheim methodology/paywall and junk-issuance count remain unverified. No new subscription or deep-research assignment.
 
 ## WILL_NEEDS
-✅ **[10/11] QQQ Oct-9 $755P ×1: SETTLED.** Will's Fidelity capture (Telegram 21:53Z 10/11) shows *OPTION LIQUIDATION* on 10/9, +$361.94. There was no exercise and there is no QQQ short. Transcription is at `research/2026-10-11_fidelity-ira-capture/`; PROME is packeted for ANVIL/TERRY to book. The USO Oct-9 150C was also LIQUIDATED (+$0.99), not expired, so the WQ-396 record type needs correcting.
 
-⚖️ **[10/11] NEW: QQQ $755 CALL Oct-12 ×1 (Will's 10/9 buy, −$144.66) EXPIRES MON 10/12.** It is ~$3.73 OTM at Friday's $751.27 (last $0.86). Sell-or-roll is Will's call on TERRY's card (root rule #5). USO $150C Oct-14 ×2 (−$375.33) follows Wed 10/14.
+**ATTENTION — observed OZK Nov20 $40 puts×4:** executed extension/fresh capital weakens the near-term maturity-failure catalyst. Paydown may be redrawn, appraisal assumes stabilization, loan-specific recognition remains UNKNOWN; continued holding after capture unverified. TERRY’s existing card owns the review, Will owns orders.
 
-Other items for Will, none urgent today:
-- **[10/11] WQ-347:** COVERED by the same capture. The 10/1 exits show four sells, +$1,876.41. ANVIL books it, and a $53.54 balance-chain gap Sep-30/Oct-01 is left for ANVIL.
-- **WQ-401 (due Wed 10/14):** the S1 build, plus WALTER's set sub-question.
-- **[10/11] WQ-414:** RULED 10/11 (REG-T-06 = REVIEW). **WQ-418/420:** RULED 10/11 17:10 ET.
-- **Optional:** a Mispriced Assets subscription, if SHADE needs the Guggenheim methodology pages.
-- **Optional:** OK a one-line CLAUDE.md step 7h update.
+Existing expiry-card decisions remain with Will/TERRY: QQQ755C October12 (today’s owner header reports Will-confirmed held/$2 value, not bid); USO150C October14×2; QQQ745P×1/740P×4 October15; TLT82P/HBAN16P October16. Cards exist for the newly observed calls; no current order or fill inferred. VLO December-diesel basis startsOctober15 under existing approval. No new trade decision proposed by WALTER.
 
-Other duties, all on TERRY's cards:
-- QQQ Oct-15 $745P ×1 / $740P ×4: TERRY re-marks 10/13 and sells 10/14 after CPI.
-- TLT $82P / HBAN $16P Oct-16: WQ-357 / WQ-302 by 10/14.
-- VLO ×1: WQ-386; December diesel basis from 10/15. DEWEY's diesel report lands 10/14.
+WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER remains undecided forOctober17 review. Optional subscription and optional one-line step7h encode remain carried, not renewed asks. Prior broker questions are answered by the October11 capture and booked in ANVIL/FORGE and TERRY’s owner state; PROME’s administrative row acceptance is a separate record, not a broker-truth gap re-raised here.
 
 ## FOLLOW-UP
-1. **Next boot, first:**
-   - [10/11] Confirm the four local commits since `6f4166528` (and this light pass) reached origin, then run `reconcile_delivery_log`. All 36 of the 10/11 rows are already delivered.
-   - The X token is on the LAPTOP `.env`; the desktop copy is dead.
-   - **[10/11] Watch PROME's answers:** the READS re-date (L174), the ranked drain list, and the capture packet.
-2. **[10/11] First `gpu-obsolescence` lane hit came 10/11:** MacroMicro 8/21, a stale commentary piece, killed. The rows work. The next AI_INFRA_CAPEX review checks whether fresh items populate.
-2b. **[10/11] Iran:** run the full sweep **Mon 10/12** (recommended over 10/15, given the weekend escalation: the Gulf of Oman hit and the IRGC mine claims). The anchor is at 23,517 B, still above the 22,785 stop line.
-3. **RED-FT-10:** CBOE bars 10/12, 10/13, 10/14. VIOLET owns; earliest fire on the 10/14 bar.
-4. **DEWEY:** close `REQ-DEWEY-20261010-001` at boot step 7d when the handoff lands (due 10/14).
-5. **Owners:**
-   - LIQUID: `-007`. BRENT: `-008`, `-003`. VULCAN + BROCK: `-009`.
-   - FALCON: Shedgum/Hawiyah and the Bab al-Mandab claim (`-002`). OSPREY: the strike campaign vs the deal. YURI: Novak's export-curb lift.
-   - BOND/ZHAO: `-004`. CARL: the SCF (`-005`). HENRY/VULCAN: `-006`.
-   - CORAL: Pembroke Lakes (`-1008-040`). CREED: Trepp September (`-1009-002`).
-   - SHADE: verify the Guggenheim lead at primary. MARCO: adopt or decline the harness result. VULCAN: the useful-life instrument decision.
-6. **X-bookmarks pilot review 10/17:** the L3 refresh-failure leg (live-observed, n=1) and the WSL authorize method are in the spec; carry them into the review.
-7. **Later:**
-   - Mon 10/12: bond-market holiday (FRED 10/9 print timing UNKNOWN).
-   - Tue 10/13: bank Q3 (JPM, WFC, C); KS WARN.
-   - Wed 10/14: CPI 08:30 ET.
-   - Thu 10/15: WPSR noon; Iran full sweep; anchor and MEMORY size checks; VLO December basis.
-   - 10/15–16: LIQ-07.
-   - Fri 10/16: expiries; MTB/CFG; H.8 (`-007` follow-through); tanker weekly review.
-   - 10/19–20: WAL Q3. 10/20–21: OZK Q3 (RaDD update).
-   - 10/24: next staleness sweep; WQ-414 due.
-   - 10/27–28: FOMC. 10/28: UK Budget. 10/29: ECB.
-   - 10/30: BZZ26 LTD (#8 moves to January from 11/2).
-   - 11/2: Treasury financing estimates. 11/4: refunding.
-8. **PROME carry:** WALTER unattended = WQ-388 UNDECIDED; CATO not in REGISTRY (WQ-255); YURI has no WATCH_FOR set.
+
+1. Next boot first: verify this closeout commit’s publication, fresh-fetch origin, and run delivery reconciliation. Today’s dispatches are already evidenced below; do not re-ask whether older listed commits reached origin. Re-check X auth, READS L174 and PROME ranked drain acceptance.
+2. Intake lane: first gpu-obsolescence hitOctober11 was stale MacroMicroAugust21 commentary, killed. Collection rows exist; assess fresh items at the next existing AI_INFRA_CAPEX review. No new monitor or five-axis re-cut approved.
+3. Iran: October12 addressed all ladder limbs with scoped evidence/access limits but did not complete full-source coverage or resetOctober8 clock. Reconcile UKMTO/IMO mappings/loss bases with FALCON; preserve gas/refining OUT classification, no mines/sinking inferred, owner grades unchanged. Next full scheduled targetOctober15, or earlier when sources become available. Anchor rotation discharged; old “above stop line” carry is no longer true.
+4. RED-FT10: CBOE barsOctober12/13/14, earliest four-closing fireOctober14; VIOLET owns. No Monday close invented from morning observations. Re-pull eligible FRED credit when posted; HANS near intraday gilts are not close fires.
+5. DEWEY: REQ-DEWEY-20261010-001 remains open/dueOctober14; no handoff landed at last scan. Close WALTER ledger and verify delivery only when it arrives.
+6. Open owner returns carried: LIQUID -1007; BRENT -1008 and -003; VULCAN/BROCK -1009; FALCON gas/theater claims; OSPREY energy ceasefire/deal branch; YURI Novak curb lift; BOND/ZHAO -004; CARL SCF -005; HENRY/VULCAN -006; CORAL PembrokeLakes -1008-040; CREED Trepp -1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. Today’s new owner addresses add the nine signals but imply no universal reply obligation or consumption. TERRY and OZK primary integration is already observed; do not ask them to rediscover execution.
+7. X pilot reviewOctober17: retain live-observed refresh-failure leg and WSL authorize method; desktop refresh currently fails. Next staleness sweepOctober24. Research-retirement pass>60d not run; not a false completion claim.
+8. Existing dates: bank Q3/KS WARNOctober13; CPIOctober14 08:30ET; WPSROctober15 noonET, VLO December basis and size checks; LIQ07October15–16; October16 expiries/MTB/CFG/H.8/tanker weekly; WALOctober19–20; OZKOctober20AMC/21call; FOMCOctober27–28, UKBudgetOctober28, ECBOctober29; BZZ26LTD October30, boundary8 January switchNovember2; Treasury financingNovember2/refundingNovember4. The October12 bond holiday is current, not a future duty.
+9. PROME carry: CATO absent from REGISTRY (WQ255); YURI WATCH_FOR set absent on charter grep; WQ388 undecided; READS attestation re-date, native receiving visibility and Telegram delivery gaps. No new activation of GateC or unattended scheduling.
 
 ## OPEN DESIGN DECISIONS
 **Approvals preserved:** WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405 (boundary #6/#8). No new unattended-WALTER, Gate C, desk spawn, trade or deployment authority.
@@ -131,7 +68,7 @@ Other duties, all on TERRY's cards:
   - Later, propose retiring doorbell leg 3b (rule 6b, Will-gated).
 - Staleness-sweep P2 narrower-pattern proposal to Will: still not made.
 
-**Closed today:**
+**Previously closed (carried for context):**
 - The relay-order encode (v0.35).
 - Finding #46's CHECKLIST fix (v0.51).
 - Finding #47's X_BOOKMARKS fix.
@@ -141,89 +78,88 @@ Other duties, all on TERRY's cards:
 **Carried process ideas:** k, t, u, a, s, j, p. No active top-level REQ.
 
 ## CLOSEOUT RECEIPT
-- **Re-issued at the 10/11 Tier-1 light pass.**
-- **Publication:** commits through `6f4166528` are on origin, via PROME's pushes (verified with `merge-base --is-ancestor` after a fresh fetch). Four later commits, plus this light-pass commit, are local.
-- **Delivery:** bounded to the 10/11 signal date; 36/36 on origin.
-- Consumption and full market coverage are separate questions.
+
+Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14`. Listed prior and today’s dispatch commits are on origin as proved below.42/42 handoff paths are file-delivered; semantic consumption remains owner-specific. WALTER pushed nothing. This state/evidence closeout still requires the next coordinated train at writing. Closeout checker PASS, if achieved, proves only explicit local-reference/evidence/phrase/R1 checks, not remote freshness after this observation, execution coverage or owner completion.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-11T21:58:22+00:00",
+  "as_of": "2026-10-12T15:17:46Z",
   "publication": [
     {
-      "commit": "80e61cf02",
-      "state": "published"
-    },
-    {
-      "commit": "2313bf2b2",
-      "state": "published"
-    },
-    {
-      "commit": "5a8168f95",
-      "state": "published"
-    },
-    {
-      "commit": "6f4166528",
-      "state": "published"
-    },
-    {
       "commit": "3cacce310",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "4e8b1c794",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "011415a7f",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "7e7b4263d",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "5a9f78a43",
+      "state": "published"
+    },
+    {
+      "commit": "cf123b597",
+      "state": "published"
+    },
+    {
+      "commit": "50ed80552",
+      "state": "published"
+    },
+    {
+      "commit": "f818bf6a3",
+      "state": "published"
     }
   ],
   "delivery": {
-    "signal_date": "20261011",
-    "total": 36,
-    "delivered": 36,
-    "note": "All 36 10/11 handoff rows (-001..-007) on origin via PROME's pushes; reconcile_delivery_log --apply flipped 36, 0 orphans. The CARL row written in error on -006 was removed before commit. Delivery is not consumption."
+    "signal_date": "20261012",
+    "total": 42,
+    "delivered": 42,
+    "note": "Fresh origin fetch proves the listed handoff paths/tree history; reconciliation performed. This is file delivery, not recipient consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "WALTER pushed nothing this session (PROME has uncommitted work; RULE 16 defers). Commits through 6f4166528 reached origin in PROME's pushes; 3cacce310, 4e8b1c794, 011415a7f, 7e7b4263d and this light-pass commit are local."
+    "note": "Listed dispatch commits reached origin through the coordinated train. WALTER pushed nothing; this state/evidence closeout remains a local commit at writing and requires the next authorized train."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "FORGE/STATUS.md",
-        "sha256": "73b763990129dafc7c90fad538645a999f22f351a92f3272231811d27f92507d",
-        "note": "Unchanged since the 10/8 ANVIL reconcile; Will's 10/11 capture (755P liquidated +361.94; new QQQ 755C Oct-12, USO 150C Oct-14 x2) not yet booked; PROME packeted 7e7b4263d."
+        "path": "AGENTS/WALTER/research/2026-10-12_boot/owner-review-snapshot.md",
+        "sha256": "39c42dd3b7d1a2f2ee3162e6d9b11436126801fecc25ba795f7f40aede1fd506",
+        "note": "Scoped evidence manually reviewed; saved observation does not establish later owner state or current broker mark/order."
       },
       {
-        "path": "AGENTS/TERRY/STATUS.md",
-        "sha256": "c046d2d0cb73e3d2fc675dca289772d9277a495275689f6ee616436ca3afce55",
-        "note": "Read 10/11 15:14 ET lead: QQQ sale/exercise UNKNOWN (now answered by Will's capture); USO WQ-396 booking Tue 10/13 as expired (broker row says liquidation +0.99, packeted)."
+        "path": "AGENTS/WALTER/research/2026-10-12_boot/OZK-FDIC-12019.pdf",
+        "sha256": "13585c0379a619112e32c3776dad2bab89c56be4d47abc09ff985ea6fed19d01",
+        "note": "Scoped evidence manually reviewed; saved observation does not establish later owner state or current broker mark/order."
       },
       {
-        "path": "PROME/WILL_QUEUE.md",
-        "sha256": "c65246eca7d9349b760632d12fc58baff63559272897e64e27a278800c7f3731",
-        "note": "Re-read at the 10/11 light pass: WQ-418/420 RULED 17:10 ET; WQ-414 closed; WQ-397/347 answered by the 10/11 capture, pending PROME's write."
+        "path": "AGENTS/WALTER/research/2026-10-11_fidelity-ira-capture/TRANSCRIPTION.md",
+        "sha256": "f8f923c6fee5f926154f0786ef135cad2e35c36cfba5fa8680b4e64260beb72e",
+        "note": "Scoped evidence manually reviewed; saved observation does not establish later owner state or current broker mark/order."
       }
     ]
   },
   "owed": [
-    "QQQ 755C Oct-12 x1 expires Mon 10/12: Will/TERRY sell-or-roll (not WALTER's)",
-    "PROME: book the 10/11 capture via ANVIL; correct WQ-396 record type; close WQ-397/347",
-    "PROME: re-date READS L174 (WALTER fifth filing)",
-    "PROME: triage the ranked drain list (YURI, HOMER)",
-    "Iran full sweep Mon 10/12 (recommended over 10/15)",
-    "CBOE SKEW 10/12-10/14 vs RED-FT-10 (VIOLET)",
-    "DEWEY REQ-DEWEY-20261010-001 by 10/14; WALTER closes the ledger row",
-    "Full Tier-2 closeout of walter-38"
+    "X browser reauthorization after HTTP400; no clean bookmark scan",
+    "PROME READS L174 re-attestation; dated attestation stale despite basis MATCH",
+    "Publish this state/evidence closeout in next authorized train",
+    "FALCON reconcile UKMTO5 total-loss instrument vs owner3 qualifying-loss basis",
+    "Iran full-ladder source coverage remains partial, full clockOctober8",
+    "CBOE SKEW next eligible barsOctober12\u201314; VIOLET owns",
+    "DEWEY REQ-DEWEY-20261010-001 dueOctober14; ledger closure only on handoff",
+    "Will/TERRY remaining live expiry-card choices and current broker/order evidence",
+    "Telegram FLASH notification unavailable in this runtime; current chat alerted, PROME packeted"
   ],
-  "next_review": "2026-10-12"
+  "next_review": "2026-10-13"
 }
 END_CLOSEOUT_RECEIPT -->
