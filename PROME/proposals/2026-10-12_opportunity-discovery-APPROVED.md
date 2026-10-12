@@ -42,6 +42,8 @@ Use plain-language reasons, not a new scoring system: thesis contradicted; no de
 
 ## Delivery and coordination
 
+**Later Will-directed context transition:** Will is closing his spawned windows and will respawn selected desks, including BRENT/TERRY, in fresh contexts. The IDs below identify the original dispatch, not replacement identities. No further task sends to those old windows; no duplicate launch. Verify each replacement owner from its actual boot receipt, reconcile already-saved stages and continue this same approved scope. Current transition record: `PROME/HANDOFF.md`. No reapproval or repeated completed research is required.
+
 Each existing owner verifies this committed approval and its desk-specific pointer, confirms any direct-Will scope conflict with its first substantive saved response, and works in its own files. Domain notes go through self-authored committed TERRY/PROME inbox packets. TERRY's feasibility replies to the relevant owner and PROME follow the same lane. Exact commits are the handoff; native queue carries pointers only. Do not wait for an acknowledgment-only round when your authorized stage is independent. If a technical send is unavailable, save the packet and report it to PROME; no transport workaround or duplicate writer. Market-signal routing stays WALTER's.
 
 Existing identities: PROME `01a1307b-f614-76b3-8caf-49b226027079`; TERRY `01a1308c-677d-7a73-b3c7-ca0e047c6ecc`; BRENT `01a13087-be1f-7ec2-acf1-12f9aa9cfa04`; REGINALD `01a130ac-dde6-76f1-8df7-eb903dc2862a`. Existing Will-owned windows retained; queue acceptance does not establish consumption or lifecycle closeout. No new desk or helper is launched by this assignment.
