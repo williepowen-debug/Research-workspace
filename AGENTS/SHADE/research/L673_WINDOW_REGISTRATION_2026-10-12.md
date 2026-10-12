@@ -36,3 +36,11 @@ These are construction/reachability checks, not an empirical base-rate certifica
 ## Delivery and resume
 
 Save current re-read separately under its legacy/provisional status. Earliest follow-up is after the 2026-10-13 regular close: re-read owner level/anchor and all six closes, grade on the prospective letter, then if MET run AAIA BA → ADS facilities → F&G/Brighthouse/Corebridge BA → BROCK cross-check in order. Lapsed 10/23 items retain their existing priority after the dig. PROME must inspect the amendment/artifact before recording consumption or closing L673.
+
+## Post-registration source and validation receipt — 2026-10-12T16:58:36-04:00
+
+Registration commit `ebb9bc7eb` preceded both source attempts. Owner anchor confirmed at `AGENTS/LIQUID/analysis/2026-09-29_L494-X1-card-owner-position.md point 4`: 280 [9/24] does not count; 293 [9/25] is the first >280. LIQUID STATUS X1 row supplies count 10 through 315 [10/8] (read 10/9). No SHADE parallel count was constructed. FRED fresh web + network-enabled CLI still return 3.15% [10/8]; no newer observation recovered.
+
+`L673_CLOSES_NETWORK_2026-10-12.json` saves 18 exact endpoint rows for six symbols, with RAW and ADJ. Snapshot metadata called the anchor provisional at retrieval; the owner source above now confirms it. The failed sandbox snapshot is retained with its invalid guessed filename explicitly corrected in `metadata_correction`; no data or grade came from that attempt.
+
+Validation: six directional arithmetic cases PASS; four saved window/basis summaries independently recomputed exactly; prior-letter SHA256 recomputed PASS; future-close and existing-output invocations each refused before any source call, rc 2. Today's endpoint is excluded by the letter regardless of its arithmetic. Mixed-direction treatment remains outside the existing examples; no new directional branch was registered.

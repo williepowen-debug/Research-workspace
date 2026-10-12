@@ -4,6 +4,16 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-10-12T17:01:37-04:00 — L673 prospective window and reproducible close snapshot
+
+- **Authority:** Will-directed resume of approved DOCKET L673. Window amended prospectively before the price refresh, registration `ebb9bc7eb`; effective first endpoint 10/13 close. Prior trigger letter preserved in `archive/T-SHADE-01_LETTER_BEFORE_2026-10-12.md`; SHA256 recomputed PASS. No historical grade retrofit or threshold-level change.
+- New `research/tshade01_close_snapshot.py`: exact-date RAW/ADJ endpoint snapshot; no HY series/count or trigger-fire grader; refuses an incomplete/future endpoint and existing output. Six directional arithmetic cases, four saved-summary recomputations, two refusal checks PASS. Two JSON snapshots preserve failed sandbox DNS and successful network-enabled source read; failed metadata's guessed filename explicitly corrected, owner anchor later confirmed at LIQUID's 9/29 L494 point 4.
+- Six inbox consume moves via git mv + six board_log rows; no whole-log Read. Corrections/read-cap check run. Existing MEMORY rotation advisory remains behind the dig per L673; nothing appended there. Two existing MEMORY claims (US statutory wall / general par entry) corrected to their already recorded falsification/withdrawal, without doing the post-dig bulk rotation. Local REFERENCE cold rows corrected against already canonical 10/1 STATUS (US statutory availability / DLIC issuer route); Rosner civil precedent added, allegations only.
+- **Retirement scan:** cutoff >60d means before 8/13; 8/13 documents are exactly 60d and not eligible. June/July maturity-ladder, double-jeopardy, combined-sink, DLIC-restatement, NPORT and peer-canary artifacts remain cited by current CLAUDE/REFERENCE or live canary specifications (same retained set as 10/1 scan). No tmp_* session directories created; no research retired today. Mar'26 domain/sources 01–08 remain stale-marked in STATUS, no new cite/refresh.
+- No auto-memory or live workbook ledgers authored. Exact L673 findings → `research/L673_REFRESH_AND_INTAKE_2026-10-12.md`; constraints and boot/capability receipt → registration memo. Root opening pull deferred for foreign TERRY untracked file. Fleet discovery/transport incomplete; notifications/consumption pending, no DARK claim or new owner launch.
+
+---
+
 ### 2026-10-01 (13:01 ET) — FULL CLOSEOUT on Will's word (via PROME), after touch 2 (ARI match + L241)
 
 - **Retirement scan (step 10a), run at this closeout:** `git mv` → `archive/`: `ARCC_Q2_2026_PREREGISTRATION_2026-07-27.md` (graded 0-of-4 on 8/4; referenced only by LAST_COMPLETION/MAINTENANCE/board_log) and `DELAWARE_LIFE_ACCRUED_INTEREST_TEST_2026-07-27.md` (killed by its own test 7/27; referenced only by logs, incl. WALTER kill_log). **Kept, with reasons:** `AGF_NPORT_crawl/floor_2026-06-22` (cited by the live FABN ladder + DAEDALUS profiles) · `FABN_PEER_SPREAD_NPORT_2026-07-27.{py,json}` (cited by the canary spec + 8/28 rerun) · `FABN_PEER_CANARY_INDEPENDENT_2026-07-27.md` (cited by the 8/4 grade card) · `COMBINED_INSURER_SINK_WELD2`, `DELAWARE_LIFE_RELATED_PARTY_RESTATEMENT`, `INSURER_LENDER_DOUBLE_JEOPARDY` (cited by REFERENCE) · `ATHENE_FABN_MATURITY_LADDER` (cited by CLAUDE.md). `domain/sources/` 01–08 still Mar'26, flagged stale in STATUS (no refresh this session).
