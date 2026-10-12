@@ -26,4 +26,10 @@ Publication, source truth, recipient acceptance and completion are separate. No 
 
 ## Dispatch and results
 
-Assignments prepared; actual queue results and owner replies remain pending at this initial commit. Follow-ups are complete only after exact artifact reads and disposition. ORCH_LOG records each actual touch with owner WILL; no closeout ask is implied by a delivery request.
+All four queue sends returned accepted receipts, and all four owners explicitly accepted the committed tasks. Exact messages and timestamps: `2026-10-12_laptop-orchestration-transport.json`; native owner replies: `2026-10-12_laptop-orchestration-acknowledgments.json`. Follow-up results remain pending until exact artifact reads and disposition. ORCH_LOG records each actual touch with owner WILL; no closeout ask is implied by a delivery request.
+
+Capability recheck succeeded through documented `codex app-server --stdio`: metadata-only `thread/read` and paginated `thread/turns/list` read the existing sessions without resuming or starting a model task. This supersedes the earlier unavailable native-read assumption for this installed CLI. Reader-local notLoaded/persisted interrupted status is not evidence those windows stopped; owner acceptance messages establish actual consumption of the task. Official interface reference: https://learn.chatgpt.com/docs/app-server. The earlier proxy attempt remains a failed transport probe, not a denied action or a bypass.
+
+## Return coordination address
+
+PROME current thread: `01a131cf-1c7d-7900-9dcf-d98af587e290`, confirmed from this runtime environment. Owners may use supported `codex queue --thread <PROME-ID> --message <committed-result-pointer>` for completion, material blocker or correction notices. Save/commit content first. This is the current pair's coordination address, not a fleet discovery certificate or authority to bypass a permission rejection. Initial packets omitted this return address; the addendum supplies it without restarting the assignments.
