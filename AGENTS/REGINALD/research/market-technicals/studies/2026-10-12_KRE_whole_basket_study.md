@@ -82,6 +82,14 @@ The study strengthens the **technical evidence of broad bank-equity weakness** t
 
 Exact historical fund attribution, a causal rates/credit decomposition and current positioning remain unresolved. Those limits are retained in the conclusion; this study adds no new monitoring commitment, trade recommendation, price target or credit-score change. The approved dated package is delivered with a coverage table, full bank metrics, benchmark/rate/volume comparisons, diagnostic chart and preserved primary holdings search.
 
+## October 12 discussion clarification
+
+Will asked whether the study confirms broad unresolved technical weakness. **Yes, through the October 9 settled close:** declines and prices below moving averages extend across nearly the entire current basket. “Unresolved” means the study has not established a convincing recovery across holdings by that cutoff; it is not a forecast of another leg down or evidence that all banks have new credit losses. The October 12 green intraday readings do not establish a sustained reversal of the settled pattern.
+
+With modified equal weighting, participation across many banks matters to KRE's direction. EGBN's positive four-week return is meaningful bank-specific counterevidence, but its small published weight cannot offset widespread declines. Qualitative signs of repair would include broader recovery above moving averages, sustained improvement relative to market benchmarks, and rallies holding their gains. These are explanatory examples, not newly registered thresholds or a recurring monitoring commitment.
+
+The original observation dates, current-membership selection limit, mixed volume evidence, unproved credit cause and unresolved historical fund contributions all remain. This clarification uses the saved study; no new price or primary-source refresh was performed at closeout.
+
 ## Source and calculation record
 
 [Fetch receipt](../../../domain/sources/2026-10-12_KRE_basket_study/fetch-receipt.json), [validation](../../../domain/sources/2026-10-12_KRE_basket_study/validation.json), [daily history](../../../domain/sources/2026-10-12_KRE_basket_study/daily-history.csv.gz), [holdings series selection](../../../domain/sources/2026-10-12_KRE_basket_study/nport-series-selection.json). Yahoo is the single historical price vendor; adjusted closes are its dividend-adjusted return proxy. All old top-ten return calculations reproduce within floating-point precision. Split events are retained in validation.
