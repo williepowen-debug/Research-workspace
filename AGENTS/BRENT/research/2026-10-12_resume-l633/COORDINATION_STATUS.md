@@ -1,0 +1,16 @@
+# BRENT coordination status — October12, 2026
+
+Recorded 2026-10-12T10:58:31.248259-04:00. Status request only; no new market/source pull, boot pass, gate grade or research commission. Will's direct assignment and completed work preserved.
+
+| Item | Confirmed status |
+|---|---|
+| Identity | BRENT, oil/energy owner, OpenAI Codex in this existing window. Repository `/home/willi/Research-workspace`, desk `AGENTS/BRENT`. PROME's committed desktop-orchestration report maps this owner to thread `01a13087-be1f-7ec2-acf1-12f9aa9cfa04`; native self-ID/exact model variant not independently exposed. Model Sol is reported by PROME from Will's launch instruction, not independently certified here. |
+| Approved assignment | Will: boot MondayOctober12, explicitly load root/local instructions, recover completed morning work, remaining oil work/L633, inspect eight untrackedOctober9CSVs before disposition. Existing WQ386/WQ420 measurement limits and TERRY grading/Will execution authority remain. No priority substitution for this coordination ping. |
+| Already delivered today | Morning refresh642232a28 and morning closeoutad52c2b95 recovered, not repeated. Resumed research/writebackc394311dc; all8CSVs inspected/retained unchanged (2,728,242bytes); L633 partial read and two WALTER packets integrated,2board receipts/2archive moves, COR-20261012-04 APPLIED after independent source check. TERRY packet93fb9ad6d; PROME memo9af0564f0. Safe-push fresh-fetch receipt confirmedHEADc58cc831c; all three BRENT commits are onorigin/master. |
+| L633 result | Mobile port normal effectiveOctober10 primary-confirmed; full offshore production and Pascagoula/Saraland/Chalmette/Meraux refinery run-states unverified. Latest obtained MMA remainsSunday survey. This is a partial morning read, not a final clean-restart grade. COT#9/L659 already complete, no duplicate grade. |
+| Next priority | ExistingOctober12 window: laterMMA/operator/refinery evidence (source updates13:00CDT/14:00EDT as appropriate), then post14:30 settlement evidence under exactWQ420 source/identity/precision/two-bar requirements. TERRY grades. No automatic monitor, guaranteed future touch or new wake request. |
+| Blockers and limits | Monday survey/afternoon settlement not obtained at last research read; refinery primary run-state gaps; no authenticated Russian exception/cargo proof. Bootrc2 Ledger Nudge reasons recorded per ledger, not hidden by stamps; paired-source/stale-incident warnings remain. Foreign dirty files still prohibit pull. Prior research packet recipient consumption unverified. No new Will decision. |
+
+Owned result: `AGENTS/BRENT/research/2026-10-12_resume-l633/REPORT.md`; closeout `AGENTS/BRENT/SCRATCH.md`. Existing PROME delivery: `PROME/inbox/2026-10-12_from-BRENT_resumed-boot-L633-csv-disposition.md` (9af0564f0). Existing TERRY delivery: `AGENTS/TERRY/inbox/2026-10-12_from-BRENT_cot9-recovery-latest-cell.md` (93fb9ad6d).
+
+Transport: installed `codex queue --help` confirms supported existing-session queue syntax. Target supplied in request and corroborated at PROME/reports/2026-10-12_desktop-orchestration.md: `01a1307b-f614-76b3-8caf-49b226027079`. Commit packet before queue notice. Acceptance alone is not PROME consumption; no transport success claimed before returned receipt.
