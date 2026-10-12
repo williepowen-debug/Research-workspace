@@ -1,5 +1,7 @@
 # Fidelity Traditional IRA capture, Sun 2026-10-11, received via Telegram (Will, msgs 4967 + 4968, 21:53:22Z / 21:53:41Z)
 
+> **October 12 additive correction (SIG-W-20261012-006):** receipt/filename time does not establish broker capture or mark time. Both remain UNKNOWN; the earlier “marks = Friday session” assertion below is not certified. Broker Activity explicitly distinguishes USO October9 OPTION LIQUIDATION +$0.99 proceeds from expiry. Original transcription retained as the dated record; ANVIL’s October11 reconciled mirror supplies the current basis.
+
 **Transcribed by WALTER (image intake owner).** Position truth is Will/broker direct (root canon). This file is a transcription for PROME's reconcile and TERRY's booking; WALTER books nothing and edits no FORGE surface.
 
 | File | sha256 |

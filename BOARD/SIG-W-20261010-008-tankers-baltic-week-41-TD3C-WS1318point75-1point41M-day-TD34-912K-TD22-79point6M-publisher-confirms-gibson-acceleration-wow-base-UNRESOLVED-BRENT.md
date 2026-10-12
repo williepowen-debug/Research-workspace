@@ -19,6 +19,8 @@ safety_net: clear
 event_window: closed
 word_count: 397
 dispatch_note: "OIL_ENERGY freight -> BRENT action (owns oil/WTI interpretation per the Will-directed tanker-cost watch). HAWK info (shipping). TERRY via BOARD ID-diff (exempt). Closes the 10/9 review's MISSING Baltic week. BRENT dark (brent-1010b delivered 12:14 ET; not in ListAgents; not IN-FLIGHT); no doorbell: ROUTINE weekly level, next review 10/16."
+status: PARTIALLY-CORRECTED
+status_ref: SIG-W-20261012-006 — USO Oct9 call disposition only; freight figures and dated source record retained.
 ---
 
 # Baltic week 41 (dated 09 Oct 2026): TD3C WS1,318.75 = $1,412,594/day, TD34 WS841.07 = $912,660/day, TD22 $79.6M per trip ($637,675/day). The Baltic standard basis confirms the acceleration Gibson showed on 10/8. The publisher's own week-on-week changes do not reconcile with the 10/2 values we hold
