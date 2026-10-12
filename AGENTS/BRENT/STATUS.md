@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 14:08 EDT — SCOPED-PARTIAL L694 domain submission:** explicit WAIT reuses L689 PASS; DEWEY October12 PARTIAL read at owner-report limits, received bytes saved pending owner publication. [Disposition](research/2026-10-12_L694-energy-disposition/NOTE.md). TERRY comparison/PROME acceptance pending; L633/post14:30 remain owed. No market/physical/settlement/broker grade; quotevintage12:56, positions10/11 received. THESIS v5.12/stand-down unchanged.
+**Last real data refresh: 2026-10-12 14:54 EDT — SCOPED-PARTIAL desk audit:** boot8OK/1WARNINGS/1FINDINGS/0FAIL;74tests pass. L694 accepted; TERRY BNO NO TRADE integrated. Monday MMA604,503b/d expected oil shut in, four refinery run-statesGAP. Afternoon inputs saved; accepted crack observation UNKNOWN, TERRY grades. [Audit](audits/2026-10-12_desk-health/REPORT.md). No broker/incident/phase/capital change.
 
 **Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
 
@@ -15,9 +15,9 @@
 
 ## October12 — L689 AVAILABLE-EVIDENCE OPPORTUNITY MEMO → [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md)
 
-**L689 accepted / TERRY PASS / zero new capital:** conditional MPC margin-resilience candidate, PSX comparison, held VLO comparator. Slower refinery recovery and mispricing unproved; DOE/IEA relief definitions and DEWEY dependency in [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md). PROME consumed `3d772a7d3`; TERRY card `163664085` exceeds the cap at dated vendor screening costs and lacks physical/edge/book evidence. No repeat screen or VLO add. L694 now has a saved explicit WAIT [domain submission](research/2026-10-12_L694-energy-disposition/NOTE.md); TERRY comparison/acceptance pending; full authority at `PROME/proposals/2026-10-12_opportunity-discovery-APPROVED.md`.
+**L689 accepted / TERRY PASS / zero new capital:** conditional MPC margin-resilience candidate, PSX comparison, held VLO comparator. Slower refinery recovery and mispricing unproved; DOE/IEA relief definitions and DEWEY dependency in [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md). PROME consumed `3d772a7d3`; TERRY card `163664085` exceeds the cap at dated vendor screening costs and lacks physical/edge/book evidence. No repeat screen or VLO add. L694 now has a saved explicit WAIT [domain submission](research/2026-10-12_L694-energy-disposition/NOTE.md); PROME accepted L694/TERRY comparison complete; future dependencies stay open; full authority at `PROME/proposals/2026-10-12_opportunity-discovery-APPROVED.md`.
 
-**L633 stays PARTIAL:** Sunday survey remains latest obtained, Shell five-asset no-damage scope and Mobile port recovery only. Four refinery run-states still GAP; no authenticated slower-restart comparison. Later-today survey/operator and post14:30 WQ420 measurements outstanding. **10:26EDT dated diagnostic:** WTI Nov/Dec$93.84/$92.97,+$0.87 backwardation; diesel$105.43/$100.30. No new market/settlement/broker pull. [Prior research](research/2026-10-12_resume-l633/REPORT.md).
+**L633 afternoon read delivered / physical result PARTIAL:** MMA Monday11:00CDT expected oil shut in604,503b/d/29.63%; further partial recovery, not full output. Four refinery run-states remain GAP. Post14:30 named two-bar diagnostic Nov104.4986968480911832460970628/Dec99.66487578612550292386229845EST; no CME pair, bar-convention/published-precision proof incomplete, accepted observation UNKNOWN. TERRY grades; [audit evidence](audits/2026-10-12_desk-health/REPORT.md).
 
 ### Transit-vintage refusal
 
@@ -71,8 +71,6 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 | Date | Release | Priority |
 |------|---------|----------|
 | **Tue Sep 1** | RUSSIA producer-direct carve-out — September 8 Q1 read UNKNOWN-AT-PRIMARY | 🔴 |
-| **Sun Oct 4** | ✅ OPEC+ SEVEN-COUNTRY MONTHLY MEETING — November 2026 decision — GRADED 2026-10-04 11:3x ET: OUTCOME (1) NOVEMBER HELD at September/October required production (2nd consecutive monthly ho… | 🟠 |
-| **~Mon Oct 5** ⌁*modeled* | ✅ ARAMCO NOVEMBER OSPs — GRADED 2026-10-04: Asia CUT to −$5; NW Europe/Mediterranean raised $3; US unchanged | 🟠 |
 | **Tue Oct 6** | ✅ EIA October STEO — GRADED 2026-10-07: release and same-series comparison MET | 🟠 |
 | **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
 | **~Thu Oct 8** ⌁*modeled* | ✅ CHINA PRODUCT-EXPORT HALT — GRADED 2026-10-09: GUIDANCE MET (unofficial) — October exports APPROVED ~3.7 Mt gasoline+diesel+jet combined, below Sep ~4 Mt expected and Aug 4.6 Mt actual;… | 🟠 |
@@ -98,9 +96,9 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 27 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 6 of 25 rows are modeled.*
 
-*27 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*25 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.

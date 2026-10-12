@@ -1,8 +1,10 @@
 # Trade obligations — September 8 migration record
 
+**Historical inventory, reconciled October 12:** this records the migration, not current holdings or receipt status. [TRADE](../TRADE.md) and complete specs own live decisions. Superseded position/rider cells are marked below; no new rule or authority.
+
 Will approved the BRENT cleanup in this session. Supersedes the unfinished tranches/plan in the [before-image](../archive/2026-09-08_cleanup/workbook/TRADE_OBLIGATIONS.md). Original TRADE: 156,190 UTF-8 bytes, preserved unchanged with SHA-256 and CRC32 in the [archive manifest](../archive/2026-09-08_cleanup/manifest.json).
 
-The inventory separates rule identity, disposition and decision-time reader. A script checking feed health or a timestamp is not a reader of trading rules. The actual human route is CLAUDE step 1 → TRADE Decision read paths → complete relevant spec(s); it explicitly applies when a session becomes trade-relevant after boot. Step 6c independently reaffirms pending execution rows. TRACKER points routines to the surviving frame-breaker; routines record/flag and cannot approve.
+The inventory separates rule identity, disposition and decision-time reader. A script checking feed health or a timestamp is not a reader of trading rules. The actual human route is CLAUDE step 1 → TRADE Decision read paths → complete relevant spec(s); it explicitly applies when a session becomes trade-relevant after boot. Step 6c verifies pending execution rows against matched artifacts; label-only reaffirmation is prohibited. TRACKER points routines to the surviving frame-breaker; routines record/flag and cannot approve.
 
 ## Preserved binding excerpts
 
@@ -56,16 +58,16 @@ Source line ranges below refer only to the archived before-image, never to a shi
 | BS-01 | Current stance / frame-breaker stand down, LIVE | TRADE Current stance; all decision routes | Current before-image lines 5–8; WQ-189/192 |
 | BS-02 | USO shares 37, no scaffold ratification, LIVE | TRADE Positions; review | September 9 correction from newer September 3/9 broker mirrors; research/2026-09-09_squeeze-review/REPORT.md |
 | BS-03 | October 135C CLOSED September 9; B/C discharged; first-sale price UNKNOWN/no re-ask | TRADE Positions / execution log | Final ×1 sale receipt recorded by PROME; current TRADE reader governs. No trigger inferred fired or replacement authorized. |
-| BS-04 | September 150/165 spread ×1 HOLD to expiry, LIVE | TRADE Positions; review | WQ-168 §3, before-image current mirror |
-| BS-05 | XLE ×2 selected September 9 open exit, receipt PENDING, LIVE | TRADE Positions and execution log; step 6c + review | WQ-168 §7, before-image current mirror; no broker action inferred |
-| BS-06 | Reaffirm pending rows; execution evidence differs from a handoff, LIVE | CLAUDE step 6c → TRADE execution log | July 27 hygiene adoption, original lines 820–822; existing guard retained |
+| BS-04 | HISTORICAL September 8 mirror; SUPERSEDED by September 10 sale and discharged WQ-207. No hold-to-expiry rule live | TRADE Positions / execution log | WQ-207; sale receipt retained in October12 before-image |
+| BS-05 | HISTORICAL September 8 mirror; SUPERSEDED by September 11 fill, WQ-210 discharged. No pending XLE exit | TRADE execution log / October12 before-image | Broker receipt bcc962bbd; current TRADE closed-leg pointer |
+| BS-06 | Verify pending rows at matched artifacts; label-only reaffirmation is not an output | CLAUDE step 6c / scripts/pending_receipts.py → TRADE | Existing September14 mechanical repair and MEMORY; wording reconciled October12 |
 | BS-07 | Option observation date separate from rule update, LIVE | TRADE header → existing ledger freshness reader | Two-clock distinction retained; September 9 delayed quote capture in TRADE evidence, not a broker mark |
 | BH-06a | WAR-RISK-HALVES RETIRED | Holding spec BH-06, before proposal/review | REGISTRY retirement August 7; not the July 31 Worldscale retirement |
 | BH-06b | STAGE-A-AIS RETIRED | Holding spec BH-06, before proposal/review | REGISTRY August 7, feed did not exist |
 | BH-06c | KILL-LEG2-TRANSIT RETIRED; JWC successor prompt-only LIVE | Holding spec BH-06, before proposal/review | Will August 21 ruling linked there; instrument failure, premise not refuted |
 | BH-06d | P&I observation retained; compound institutional exit applicability UNRESOLVED | Holding spec BH-06/BH-07, before proposal/review | Original 25-session letter preserved; no inspected amendment independently retires P&I |
 | BH-08 | COT successor sizing-only, both legs gating, per-print NO-VERDICT base case, LIVE | Holding spec BH-08 → full REGISTRY COT-FUEL-35B row, before sizing | August 14 registration and own per-print default; old COT-FUEL numerical REVERT test RETIRED |
-| BH-09 | Exposure facts vs TERRY sizing; dated concentration is not current valuation, LIVE | Holding spec BH-09, review | Original lines 28–149; current one-call quantity supersedes old two-call marks |
+| BH-09 | Exposure facts vs TERRY sizing; dated concentration is not current valuation, LIVE | Holding spec BH-09, review | Original lines 28–149; current holdings in TRADE, no historical call count carried forward |
 | BH-11a | Spread receipt approximate, exact fill unestablished, UNRESOLVED | Holding spec BH-11 + TRADE, review | Original line 820; no new receipt supplied; current owner instructions prevail |
 | BH-11b | Pre-trigger convex starter remains declined, LIVE restriction | Holding spec BH-11, before proposal | June 29 decision at original line 829; reopen only if Will requests |
 | BX-01 | v1/v2/v3 arm mechanics, tiers, clock, re-ratchet SUPERSEDED | Provenance archive; surviving BG-01–03 govern | August 7 retirement; no current OVX release condition |

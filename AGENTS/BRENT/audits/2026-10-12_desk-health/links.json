@@ -1,0 +1,16 @@
+{
+  "checked_files": [
+    "STATUS.md",
+    "TRADE.md",
+    "SCRATCH.md",
+    "NEXUS_BRIEF.md",
+    "thesis/THESIS.md",
+    "MEMORY.md",
+    "SCHEDULED_RUNS.md",
+    "setups/SPECS_GATES.md",
+    "setups/SPECS_TRADE_RULES.md",
+    "setups/SPECS_OFFRAMP_ENTRY.md"
+  ],
+  "missing_local_path_targets": [],
+  "limits": "Existing Markdown link paths only. Anchors, external URLs and entire archive tree not comprehensively checked."
+}

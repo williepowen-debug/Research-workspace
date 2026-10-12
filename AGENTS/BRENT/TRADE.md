@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-10-12 13:43 EDT — thesis/expression synthesis only; Last real position data refresh: 2026-10-11 received**, exact capture/quote time UNKNOWN. Source: [PROME broker transcription](../../PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS (54748614c). USO 37 shares, VLO 1 share, USO Oct-14 $150C ×2. October9 call SOLD CLOSE; no live marks or roll linkage inferred.
+**Updated: 2026-10-12 14:54 EDT — owner feasibility/audit reconciliation only; Last real position data refresh: 2026-10-11 received**, exact capture/quote time UNKNOWN. Source: [PROME broker transcription](../../PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS (54748614c). USO 37 shares, VLO 1 share, USO Oct-14 $150C ×2. October9 call SOLD CLOSE; no live marks or roll linkage inferred.
 
 **Existing management:** October9 call rail discharged by its sell-closing receipt. New October14 calls are distinct: standing sell-or-roll before expiry applies; TERRY Oct14 card exists; working orders UNKNOWN, no old hard stop inherited. Held VLO WQ-386 remains; two extra shares STOOD DOWN. **WQ-420 approved prospectively October11:** exact [Approved exact insert](../../PROME/proposals/2026-10-11_wq418-420-RULED.md#approved-exact-insert) governs leg-A precision and [14:28,14:30) proxy window alongside WQ-386 below. Read that entire insert before computing a grade; no historical regrade. TERRY encoded `08158a2c4`; PROME L684 acceptance remains owed. No new order approved here.
 
@@ -27,12 +27,12 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 ### October 12 expression assessment — research candidates, no new ticket
 
-**Recommendation: wait on new purchases.** [THESIS v5.12](thesis/THESIS.md) supports elevated crude and escalation vulnerability without demonstrated underpricing. The [comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md) separates benchmark fit from return; no current USO/BNO cost, liquidity or option-value ranking is established.
+**Wait on new purchases.** [Comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md) separates benchmark fit from return. [TERRY BNO review](../TERRY/research/2026-10-12_BNO-feasibility/NOTE.md): dated common-share feasibility, NO TRADE/no edge; no current broker ticket.
 
 | Expression | Current disposition |
 |---|---|
 | **USO** | Existing WTI/crude exposure and recorded structural vehicle under BG-02. Replacement demand can help, but foreign delivered costs need not lift WTI proportionately. No fresh add recommended. |
-| **BNO** | First comparison candidate for seaborne crude-access risk: Brent futures exposure. Better fit is not an established buy, USO switch, roll or registered vehicle replacement. |
+| **BNO** | TERRY October12 d6062b88a: common-share candidate feasible at dated screening, NO TRADE/no edge; no returned structural-band option expiry. No buy, USO switch, roll or vehicle replacement. |
 | **VLO** | Existing product-margin exposure; no add. Two extra shares remain terminally stood down. Higher crude alone does not establish higher refining profits. |
 | **MPC / PSX** | MPC conditional margin-resilience lead; PSX comparator. [TERRY L689](../TERRY/setups/MPC_refiner-margin-resilience_L689_2026-10-12.md) PASS: physical separation/valuation edge missing; screened spreads exceed the existing cap. Shares do not repair that gap. Multiple refiners share margin/relief risk. |
 

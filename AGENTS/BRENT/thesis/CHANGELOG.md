@@ -1,3 +1,9 @@
+## 2026-10-12 — reader/obligation audit; v5.12 unchanged
+
+Old → new reader state: L694 pending comparison → PROME accepted bounded pass; wholly unevaluated BNO feasibility → dated TERRY common-share feasible/NO TRADE, no pricing edge. WQ252/HEN46 choice called open → Will's existing WQ392 December decision verified at DOCKET L471 and committed owner packet; HENRY encoding remains separate/unverified. Historical inventory closed-position labels and existing pending-receipt instruction reconciled to current TRADE/September14 repair. No new rule, threshold, forecast or capital authority.
+
+Existing observations addressed: Monday MMA shows further partial offshore recovery; four refinery run-states remain GAP. Exact afternoon named-bar diagnostic saved, accepted observation UNKNOWN because exchange pair/vendor proof incomplete. No holding grade or Phase2 result inferred. Full findings/repairs/dependencies: [desk audit](../audits/2026-10-12_desk-health/REPORT.md).
+
 ## 2026-10-12 — v5.11 → v5.12: war access, climate and expression refinement
 
 **Authority:** Will requested THESIS.md and TRADE.md updates after today's discussion; documenting the assessment, not a new trade.

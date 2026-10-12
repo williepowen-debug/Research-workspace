@@ -1,0 +1,28 @@
+{
+  "whole_before_image_bytes": 41578,
+  "whole_before_image_sha256": "a7bebc680c3090663da1cb05f8b2480ec1c7427ca45cf6ef3a8f3b30df847670",
+  "pruned_rows": [
+    {
+      "date": "2026-10-04",
+      "event": "\u2705 OPEC+ SEVEN-COUNTRY MONTHLY MEETING \u2014 November 2026 decision \u2014 GRADED 2026-10-04 11:3x ET: OUTCOME (1) NOVEMBER HELD at September/October required production (2nd consecutive monthly hold; next meeting 1 Nov 2026)",
+      "what_to_check": "Successor registered 2026-09-06 after the 9/6 row graded DEFERRED AGAIN. The seven-country group decides one month at a time; this meeting could produce a NOVEMBER number only. THREE OUTCOMES, graded on the OPEC Secretariat STATEMENT TEXT: (1) NOVEMBER HELD at October required production; (2) a stated November increment resumed; (3) no November decision / deferred. DELIVERABILITY GATE: re-read available capacity evidence before grading, but match the series population to the seven participants; an OPEC-only series cannot quantify Russia, Kazakhstan or Oman or the seven-country counterfactual. Resolution at opec.org via the root-page release list. Not a BRT-xx because this is a fixed-letter event read.",
+      "threshold_signal": "\u26a0\ufe0f Grade the paper-quota decision on the STATEMENT. Treat modeled capacity and price effects as separate estimates, with population, vintage and instrument named. Pre-meeting consensus direction is not a measured zero expectations gap.",
+      "priority": "\ud83d\udfe0",
+      "who_cares": "BRENT \u00b7 HAWK (scenario supply inputs) \u00b7 TERRY",
+      "notes": "GRADED 2026-10-04: OUTCOME (1) MET. Secretariat text https://www.opec.org/pr-detail/1891616-4-october-2026.html: 'decided to maintain September 2026 required production for November 2026'; next meeting 1 November. (2) and (3) NOT MET. 'Pause' applies only to the PAPER quota path Sept\u2192Oct\u2192Nov. EIA STEO COPS_OPEC = 0.02 mb/d Oct\u2013Dec (pulled 2026-10-04; 9/9 vintage; Oct STEO due 10/6), but COPS_OPEC covers OPEC and omits participating Russia, Kazakhstan and Oman; second agency SEARCH-NOT-FOUND. Therefore it is conditional context for limited OPEC deliverability, not a seven-country physical-effect estimate. Pre-meeting sourcing expected a hold; no event-window price/signaling test was run. Same-day JMMC next meets 29 Nov. No registered line moved. Per-country table UNKNOWN-AT-PRIMARY. Successors 2026-11-01 and 2026-11-29. Grade: research/2026-10-04_opec-november-grade/NOTE.md. || Created 2026-09-06 before delegate sourcing; 10/2 sourcing is context, not the grade.",
+      "date_class": "confirmed"
+    },
+    {
+      "date": "2026-10-05",
+      "event": "\u2705 ARAMCO NOVEMBER OSPs \u2014 GRADED 2026-10-04: Asia CUT to \u2212$5; NW Europe/Mediterranean raised $3; US unchanged",
+      "what_to_check": "November Arab Light: Asia \u2212$5.00 vs Oman/Dubai (October \u2212$2.00); NW Europe +$0.85 vs ICE Brent (October \u2212$2.15); Mediterranean +$0.65 (October \u2212$2.35); US +$4.60 vs ASCI (unchanged). Arab Medium/Heavy Asia cut $5 to \u2212$6.00/\u2212$7.35.",
+      "threshold_signal": "Observed regional split supports placement/logistics pressure rather than uniform Saudi scarcity: deeper Asia discounts, higher westbound prices after reported Yanbu export resumption, unchanged US. It is a pricing signal, not proof of Petroline throughput or zero loss.",
+      "priority": "\ud83d\udfe0",
+      "who_cares": "BRENT, SAM (Japan unit cost), HAWK",
+      "notes": "GRADED 2026-10-04 23:25 ET (published before the modeled 10/5 date): Reuters/The Edge read the Aramco pricing document; Arab Light Asia cut $3 to \u2212$5, opposite Reuters survey expectation of +$3. All NW Europe and Mediterranean grades raised $3; US unchanged. Reuters 10/5 market update: Middle East exports exceeded pre-war levels on 4 of the final 7 September days, but regional aggregate is not Saudi throughput; no Saudi confirmation of latest Riyadh/Khurais claim. Conclusion: direct commercial signal points away from immediate Saudi scarcity; full physical restoration remains unproved. Evidence: research/2026-10-04_aramco-november-osp/NOTE.md. || Baseline resolved 2026-10-02: October Arab Light Asia \u2212$2.00 vs Oman/Dubai, unchanged from September (Argaam 2026-09-03). || Registered 2026-09-18; date modeled because Aramco usually publishes around the 5th.",
+      "date_class": "modeled"
+    }
+  ],
+  "basis": "Already graded October4, more than seven days old on October12. Preserved original full TSV; no unresolved event pruned.",
+  "remaining_rows": 25
+}

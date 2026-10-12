@@ -1,0 +1,47 @@
+{
+  "recorded": "2026-10-12 14:55 EDT",
+  "packets": [
+    {
+      "original": "inbox/2026-10-12_from-TERRY_BNO-construction-review.md",
+      "processed": "inbox/processed/2026-10-12_from-TERRY_BNO-construction-review.md",
+      "identity": "2026-10-12_from-TERRY_BNO-construction-review",
+      "bytes": 2219,
+      "sha256": "524135f58982367f866be6176b320383bdf149d3dae0f23f3abf515162880455",
+      "disposition": "noted"
+    },
+    {
+      "original": "inbox/2026-10-12_from-TERRY_L694-energy-stage-needed.md",
+      "processed": "inbox/processed/2026-10-12_from-TERRY_L694-energy-stage-needed.md",
+      "identity": "2026-10-12_from-TERRY_L694-energy-stage-needed",
+      "bytes": 1016,
+      "sha256": "ad1ff5e6f21236bce897095002ab330023c09b3f4b3c05efeee59f1233a7c2c7",
+      "disposition": "noted"
+    },
+    {
+      "original": "inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "processed": "inbox/processed/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "identity": "2026-10-12_from-DEWEY_diesel-evidence-checkpoint",
+      "bytes": 644,
+      "sha256": "3a1677ef18d25bffb9ee02fbb46bdf9b468c4cb4676f6869a6b1abf48c69043a",
+      "disposition": "noted"
+    },
+    {
+      "original": "inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md",
+      "processed": "inbox/processed/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md",
+      "identity": "2026-10-12_from-DEWEY_dr4-storage-rerun-hns07",
+      "bytes": 660,
+      "sha256": "45e00b8fd4e035d078370a4a47ffe39c9a235c4d8f256bec3c1be8e1d50c5d14",
+      "disposition": "info-only"
+    },
+    {
+      "original": "inbox/WALTER/SIG-W-20261012-015.md",
+      "processed": "inbox/WALTER/processed/SIG-W-20261012-015.md",
+      "identity": "SIG-W-20261012-015",
+      "bytes": 2660,
+      "sha256": "781d3f1a3c9a60fb5c3333edccf72717878a3f4e7aa1c278cccf9ad665886dcf",
+      "disposition": "info-only"
+    }
+  ],
+  "expected_moves": 5,
+  "board_rows": 5
+}
