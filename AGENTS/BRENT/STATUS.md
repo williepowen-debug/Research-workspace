@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-11 21:24 EDT evening news catch-up — SCOPED-PARTIAL:** named vendor quotes21:06 EDT (Monday trading session); MMA10/10–11 and DOE10/10 direct primaries; IEA10/7/11 and G7Oct2 web primary text; Russia/TASS cabinet report. Older standing rows retain dates. No official settlements, fresh refinery run-state, Russian signed decree/cargo delivery or current USO weights verified. [Report](research/2026-10-11_evening-news/REPORT.md).
+**Last real data refresh: 2026-10-12 10:04 EDT — SCOPED-PARTIAL morning catch-up:** named vendor completed09:46 minute quotes;USO09:56;network boot09:57;Shell operatorUpdate5 viaweb and ReutersSohar/APOct12 reporting. Older standing rows retain dates. No fresh broker receipt,official settlements,MondayMMA,refinery run-state,Russian cargo manifest or signed decree verified. [REPORT](research/2026-10-12_morning-news/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -9,15 +9,17 @@
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## October11 evening news — CRUDE REVERSES / SUPPLY RELIEF → [REPORT](research/2026-10-11_evening-news/REPORT.md)
+## October12 morning — CRUDE REBOUNDS / SHELL NO-DAMAGE / SOHAR UPGRADE → [REPORT](research/2026-10-12_morning-news/REPORT.md)
 
-**Tape [EST Yahoo common21:06 EDT, zero-volume carried prices]:** Nov/Dec WTI $89.89/$89.19, Nov−Dec+$0.70 backwardation. Nov declined≈$2.55 vs19:03. Matched diesel diagnostics Nov $103.22/Dec $97.83. No executed paired fill, settlement or TERRY grade. BZZ26 requested symbol $102.60, maturity UNKNOWN in metadata; no Brent-curve test. Cause of decline not isolated.
+**Tape [CONF single-vendor completed09:46 minute;EST arithmetic]:** Nov/Dec WTI $93.51/$92.71,Nov−Dec+$0.80 backwardation. Matched diesel diagnostics $104.39/$99.27;positive volume on all legs. Sunday-night decline reversed;cause unmeasured. BZZ26 requested$106.66 withmaturityUNKNOWN;no Brent curve test. USO09:56 $151.83,above150strike;holdings/order truth at [TRADE](TRADE.md),no fresh broker receipt or new grade.
 
-**Isaias [CONF MMA survey, expected-output EST]:** oil shut-in Sat1,402,692b/d/68.76% → Sun1,173,863/57.54%; down284,951b/d versusFri. Restart underway in assessment, major damage/refinery run-state not cleared; fork remains OPEN to10/12. Prior NOT-YET-PUBLISHED label withdrawn: current RSS dates Saturday release earlier than yesterday's non-discovery, visibility then unknown.
+**Newly verified Shell operatorUpdate5 [dated10/10,pageupdated10/11]:** no storm damage toMars/Olympus/Ursa/Vito/Appomattox;redeployment ongoing. Supports transient offshore branch on those5assets,not full Gulf/refinery clearance. Latest obtained MMA remainsSunday57.54% oil shut;Monday figure still future/not obtained. Isaias fork partial/open to10/12.
 
-**Relief policy:** DOE authorized up to4M crude exchange10/10 (Exxon/BP≤2M each; Exxon accelerates earlier award; return+premium2027). No all4M incremental/delivered assumption. TASS quotes cabinet allowing500,000t diesel exception from10/10; signed decree/cargoes not verified. IEA10/11 urges old-release acceleration plus possible additional diesel ahead of10/15 Board. **G7/IEA100M overlaps outstanding March pledges; prior second-release label corrected, no extra100M automatically added.**
+**Sohar:** ReutersOct12 reportsUKMTO reclassified known incident asdroneattack;damage/environmentunknown. Source upgrade,sameevent,not another tanker. **Ceasefire:** ZelenskyOct12 reiterates reciprocal condition and saysRussian energy attacks continue;effective agreement and recoveredRussian outputunproved. No authenticatednewdieselarrival;MinervaZen cargo rumor disputed,not counted.
 
-**War:** effective reciprocal energy ceasefire not established; tanker risk persists, no measured new crude loss. Crude relief/product policy can coexist with dangerous routes. Thesis/stand-down unchanged; positions and October14 expiry → [TRADE](TRADE.md). No new capital grade.
+**Boot:**10checks,9OK/1WARNINGS/0FAIL,rc0advisory. Standing breaches persist;coverage/staleincidents remain. No due prediction,no new threshold/phase/capital authority. Noonstorm evidence and14:30settlement are next,not already observed.
+
+> **Rotated October12:** prior evening header/body/operator summary → [archive](archive/STATUS_dated_2026-10-12_morning_rotation.md),2486 UTF-8 payload bytes,crc32 `33edaab0`;payload after first standalone separator,outer whitespace stripped.
 
 > **Rotated news follow-up:** prior boot header/body/operator summary → [archive](archive/STATUS_dated_2026-10-11_news_rotation.md), 2476 UTF-8 payload bytes, crc32 `a6c6ada7`; payload after first standalone separator, outer whitespace stripped.
 
@@ -102,6 +104,6 @@
 
 ## SUMMARY FOR WILL
 
-*(October11, ~9 PM)* **Crude reversed lower. Gulf estimated shut-ins are falling; DOE crude exchanges and Russian/IEA diesel policy add relief paths. Neither a working ceasefire nor recovered Russian shipments is proved. Don't double-count re-announced stock commitments. Stand-down unchanged.**
+*(October12 AM)* **Crude regained last-night losses;USO back above150. Shell reports no damage atfiveoffshoreassets,but full restart/refinery status still missing. Sohar confirmed-drone report upgrades known event;effectiveRussia–Ukraine energy ceasefire remainsunproved. Stand-down unchanged.**
 
 *(Prior: 10/8 → [archive](archive/STATUS_DETAIL_2026-10-09.md) (1772 B, crc32 `a3288962`); 10/7 → [archive](archive/STATUS_summary-for-will_2026-10-07.md), 503 B crc32 `b716a32f`; 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

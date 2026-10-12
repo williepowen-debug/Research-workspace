@@ -1,0 +1,47 @@
+{
+  "saved_at": "2026-10-12T10:04:50.955148-04:00",
+  "sources": [
+    {
+      "url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates/hurricane-isaias-update-5.html",
+      "method": "web open/full operator statement + find; curl rendered title shell only",
+      "publication": "October10,2026 21:00 CST as printed; page last updatedOct11, not converted to another timezone",
+      "observed": "Operator reports no storm damage at Mars,Olympus,Ursa,Vito,Appomattox; redeployment ongoing, no full-production confirmation."
+    },
+    {
+      "url": "https://www.timesofisrael.com/liveblog_entry/maritime-agency-confirms-tanker-near-oman-was-struck-by-a-drone/",
+      "method": "Reuters syndicated full paragraph opened and located; UKMTO direct curl blocked",
+      "publication": "October12 page,12:27am publisher clock, timezone unverified",
+      "observed": "UKMTO reclassifies already-known Sohar incident as drone attack; crew evacuation assisted; damage/environment unknown. Same event, not additional strike."
+    },
+    {
+      "url": "https://apnews.com/article/6fdef6ff4d033b379c74e1d62183d078",
+      "method": "web news full short content; full-page open failed",
+      "publication": "October12 AP item08:03:58Z",
+      "observed": "Zelensky reports continuing Russian energy attacks and reciprocal condition at Warsaw Security Forum; no Russian approval heard by him. Attributed claim, no effective ceasefire proven."
+    },
+    {
+      "url": "https://www.worldports.org/us-gulf-production-being-restored-post-isaias/",
+      "method": "direct curl Argus syndication text read",
+      "publication": "PageOct12, dispatchHoustonOct11",
+      "observed": "BP Saturday crew-return/restart report; operator statement not re-authenticated, report only. Shell Sunday wording contrasted with operator own Oct10 label."
+    },
+    {
+      "url": "https://insights.windward.ai/",
+      "method": "direct public vendor report read",
+      "publication": "Oct12 report, data throughOct11",
+      "observed": "Vendor reports traffic and Gulf outflow; geographic perimeter/coverage not independently verified; counts not barrels, regional outflow not through-Hormuz volume. Not a gate grade."
+    },
+    {
+      "url": "https://www.chevron.com/newsroom/2026/q4/october-2026-severe-weather-updates",
+      "method": "curl did not yield article; web open failed",
+      "observed": "No refreshed refinery run-state established, no absence-of-damage inference."
+    },
+    {
+      "url": "https://www.bsee.gov/rss.xml",
+      "method": "direct XML parsed",
+      "saved_file": "bsee-rss.xml",
+      "sha256": "05a6e58dcf48368b426e8521330a3a10e76fffb90b94b3035f813addf154c890",
+      "observed": "Newest Isaias release remainsSundayisaias5 at this morning read; Monday figure not obtained, not a publisher-outage claim."
+    }
+  ]
+}
