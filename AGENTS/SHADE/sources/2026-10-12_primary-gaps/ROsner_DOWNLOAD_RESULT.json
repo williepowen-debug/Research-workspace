@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Rosner_CourtListener",
+    "url": "https://www.courtlistener.com/docket/74800082/",
+    "access_method": "direct public urllib GET",
+    "at": "2026-10-12T22:52:22.293754+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Rosner_GovInfo",
+    "url": "https://www.govinfo.gov/app/details/USCOURTS-flsd-1_26-cv-26388",
+    "access_method": "direct public urllib GET",
+    "at": "2026-10-12T22:52:22.404699+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  }
+]

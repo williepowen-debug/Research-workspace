@@ -23,7 +23,7 @@ If MET prospectively: **(a)** AAIA FY2025 BA→ADS equity **(b)** ADS facility c
 .venv/bin/python AGENTS/SHADE/research/tshade01_close_snapshot.py --anchor 2026-09-24 --end 2026-10-13 --previous-end 2026-10-12 --owner-ref 'REPLACE with fresh LIQUID artifact and dated count/anchor' --output AGENTS/SHADE/research/L673_CLOSES_2026-10-13.json
 ```
 
-**Behind the dig, existing 10/23 list unchanged:** PREDICTIONS.tsv + declared-flat TRADE + thesis-level falsifier; MEMORY rotation to <22,785B; ARI DEFM14A; illiquid-ABS definition proposal; SVO count (never zero by absence). Other rails: TWG swap primary; AG55 text; Clear Spring filer; Q3 Athene/DLIC; C2 11/18; BROCK W3 11/30. W1/L182 covered by WQ364, no 10/16 enumeration owed.
+**Behind the dig, existing 10/23 list unchanged:** PREDICTIONS.tsv + declared-flat TRADE + thesis-level falsifier; MEMORY rotation to <22,785B; ARI DEFM14A; illiquid-ABS definition proposal; SVO count (never zero by absence). Other rails: TWG execution primary; AG55 final2026/completed filings; Clear Spring filer; Q3 Athene/DLIC; C2 11/18; BROCK W3 11/30. W1/L182 covered by WQ364, no 10/16 enumeration owed.
 
 ## CAVEATS / OPEN THREADS
 
@@ -48,3 +48,11 @@ Return address verified against `d1f922500:PROME/reports/2026-10-12_laptop-orche
 ## Targeted freshness continuation — 2026-10-12T18:21:15-04:00
 
 PROME/Will e982011fb, same window: one saved-evidence/official pass complete, source verdict PARTIAL. Delta/access log → `research/TARGETED_FRESHNESS_2026-10-12.md` / `sources/2026-10-12_freshness/ACCESS_RESULT.json`. DLICSept11 primary parent-plan target/approval; ClearSpringSept21 Q2 table; AMBestJuly31 BCAR decline distinct from statutory surplus; SEC list+Aug12 EJR distinction checked. No swap-closing/distributor-resumption/new enforcement certificate. AG55 adopted text/template failed and one fallback403: STOP; Sept10 guidance DRAFT, blanket L3/PIK/PLR remainsUNVERIFIED. Force-seller inference withdrawn; cold contradictions reconciled. Watch8 deployed5b47424 confirmed, no recall certificate. WALTER8df3e97b1 Rosner pass consumed once,0 primary court docs; no duplicate search. No early L673 read/dig, instrument/score/backlog change, helper cycle or lifecycle closeout.
+
+## Remaining primary gaps continuation — 2026-10-12T18:56:31-04:00
+
+Will/PROME140e1bdde; accepted82568265d baseline/WALTER8df3e97b1 reused. **Bounded pass complete, evidence PARTIAL:**2 routes per each of6 questions,12 total. Adopted AG55 + final2025YE template recovered; scoped regulatory/confidential analysis, no dedicated L3/PIK/PLR fields found; blanket public mandate unsupported. Final2026 template and its adoption remain unverified. Full result/locators/hashes/stops→`research/REMAINING_PRIMARY_GAPS_2026-10-12.md` / `sources/2026-10-12_primary-gaps/`.
+
+ClearSpring ownQ2 statutory/jurat/NAIC/reconciliation all unread; official2023 exam is older. No approval/closing/later named-bank decision recovered. SEC9/11–10/9 rows bounded; AMBest table unloaded. Rosner0 primary bodies, concrete CourtListener403/GovInfo500; allegations/bases/merits UNKNOWN. Route2 regulator search was logged after execution: exact exception retained, no backdating;12-route cap held. No helper, install, outreach, paid/login retrieval or repeated old failed route.
+
+No early L673 re-read/dig, frozen-spec/score change or October23 priority change. First eligible grade October13 after close requires renewed LIQUID owner inputs + six common RAW closes/ADJ beside; missing/mixed case withholds. Final STATUS commit precedes NEXUS fold. Dated result to PROME exact thread01a131cf-1c7d-7900-9dcf-d98af587e290; commit/queue receipts separate. Existing Will-owned window remains open; no lifecycle closeout.

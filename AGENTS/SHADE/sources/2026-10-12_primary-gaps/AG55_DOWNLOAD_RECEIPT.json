@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://content.naic.org/sites/default/files/inline-files/AG%2055(adopted)_1.pdf",
+    "observed_at": "2026-10-12T22:48:58.649073+00:00",
+    "status": "SAVED",
+    "path": "AGENTS/SHADE/sources/2026-10-12_primary-gaps/AG55_ADOPTED.pdf",
+    "bytes": 330441,
+    "sha256": "cddb702009cf5458d9ba4b6964bd74f89a8faa64c58233b05e2bd3d1d5be6cc6",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://content.naic.org/sites/default/files/inline-files/AG%2055%20Templates%20-%202025%20YE.xlsx",
+    "observed_at": "2026-10-12T22:48:58.898489+00:00",
+    "status": "SAVED",
+    "path": "AGENTS/SHADE/sources/2026-10-12_primary-gaps/AG55_TEMPLATE_2025YE.xlsx",
+    "bytes": 60829,
+    "sha256": "07b6627bb7ad60fe618c4011e22f9ca2e2f586c11eb6c9004ebd0d548d0f9301",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  }
+]

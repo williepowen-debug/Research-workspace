@@ -1,0 +1,68 @@
+{
+  "read_at": "2026-10-12T18:55:37-04:00",
+  "adopted_pdf": {
+    "pages": 14,
+    "all_text_extracted": true,
+    "focused_printed_pages": [
+      1,
+      3,
+      5,
+      10,
+      11,
+      12,
+      13
+    ],
+    "adoptions": [
+      "LATF2025-06-05",
+      "ACommittee2025-07-14",
+      "EXPlenary2025-08-13"
+    ],
+    "effective_valuation": "2025-12-31 annual and later",
+    "reporting": "April1 following valuation; domiciliary hardship extension possible",
+    "confidentiality_locator": "9A printedpp10-11, state adoptions Model820",
+    "asset_documentation_locator": "9B.ii printedp11 AG53 linkage",
+    "dedicated_L3_PIK_PLR_fields_identified": false,
+    "limit": "No claim about every external AG53/VM30 requirement or completed confidential submission"
+  },
+  "workbook": {
+    "index_label": "AG55 Templates2025YE",
+    "internal_version": null,
+    "internal_revision": null,
+    "metadata_modified": "2025-11-06 19:37:15",
+    "metadata_is_adoption_evidence": false,
+    "sheets_read": [
+      "Company Info and Instructions",
+      "Counterparty",
+      "Risk Identification",
+      "Counterparty Portfolio",
+      "Asset Yields - Ceding",
+      "Asset Yields - Assuming",
+      "Cash Flow Testing",
+      "Attribution - Product 1",
+      "Assumptions - Product 1",
+      "PADs"
+    ],
+    "guidance_locators": [
+      "Company Info and Instructions!B13:B18",
+      "Counterparty Portfolio!F1",
+      "Counterparty Portfolio!B3:O3",
+      "Counterparty Portfolio!B11",
+      "Counterparty Portfolio!B26:B30",
+      "Risk Identification!B14",
+      "Asset Yields - Ceding!C3:I3",
+      "Asset Yields - Assuming!C3:I3"
+    ],
+    "dedicated_L3_PIK_PLR_labels_identified": false,
+    "richtext_check": "Counterparty Portfolio!I3,K3,M3 contain superscript5 footnote marker, NOT ratingcategories15/25. Correct NAICcategories1,2,belowinvestmentgrade. Footnote5 maps non-US counterparties toNAIC ratings.",
+    "template_adoption_date": "UNKNOWN, not dated in workbook/index evidence read",
+    "2026_final_template": "NOT_VERIFIED; Sept10,2026 draft remains draft;2-route stop"
+  },
+  "AG55_ADOPTED.pdf": {
+    "bytes": 330441,
+    "sha256": "cddb702009cf5458d9ba4b6964bd74f89a8faa64c58233b05e2bd3d1d5be6cc6"
+  },
+  "AG55_TEMPLATE_2025YE.xlsx": {
+    "bytes": 60829,
+    "sha256": "07b6627bb7ad60fe618c4011e22f9ca2e2f586c11eb6c9004ebd0d548d0f9301"
+  }
+}

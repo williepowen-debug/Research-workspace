@@ -4,6 +4,14 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+
+### 2026-10-12T18:56:31-04:00 — remaining primary gaps (140e1bdde)
+
+- Added one finite six-row synthesis and public AG55 adopted-PDF/final2025YE-workbook source bundle with hashes, focused locators and twelve-route stop log. No tools, feeds, libraries or frozen-rule changes. Source-verdict corrections replace stale inaccessible-final wording in owned hot/cold state.
+- One route-entry sequencing exception disclosed; budget held. One PROME task packet consumed via git mv, board_log receipt. L673 and October23 priorities retained; NEXUS fold follows final STATUS commit. Persistence checkpoint only; no lifecycle closeout.
+
+---
+
 ### 2026-10-12T18:21:15-04:00 — bounded freshness metadata/source qualifiers (e982011fb)
 
 - **C4 own-charter only:** removed stale March26 STATUS metadata in favor of STATUS's own vintage; §0l pointer→§0o. Boot/authority/routes/thresholds unchanged. No new tool/feed, memory rotation or KB rewrite.
