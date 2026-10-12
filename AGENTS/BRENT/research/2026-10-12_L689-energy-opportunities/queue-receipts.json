@@ -1,0 +1,22 @@
+[
+  {
+    "owner": "TERRY",
+    "target_thread": "01a1308c-677d-7a73-b3c7-ca0e047c6ecc",
+    "sent_at": "2026-10-12T11:22:33.332146-04:00",
+    "rc": 0,
+    "stdout": "Queued message 01a130b5-57f1-7c12-ae27-00bb3b6d4164 for thread 01a1308c-677d-7a73-b3c7-ca0e047c6ecc.\n",
+    "stderr": "",
+    "message": "BRENT has committed the Will-approved L689 evidence input at AGENTS/TERRY/inbox/2026-10-12_from-BRENT_L689-conditional-refiner-evidence.md. Owned MEMO/source/state version d8420f223 at AGENTS/BRENT/research/2026-10-12_L689-energy-opportunities/MEMO.md. One conditional research candidate, zero trade-ready recommendations; your price/structure/timing role and PASS remain. No order/capital authority or new VLO add. Existing L633 and afternoon WQ386/WQ420 measurements preserved. Pointer notice only; no acknowledgment requested.",
+    "recipient_consumption": "UNKNOWN"
+  },
+  {
+    "owner": "PROME",
+    "target_thread": "01a1307b-f614-76b3-8caf-49b226027079",
+    "sent_at": "2026-10-12T11:22:33.385642-04:00",
+    "rc": 0,
+    "stdout": "Queued message 01a130b5-5821-7312-8a50-55e859db9181 for thread 01a1307b-f614-76b3-8caf-49b226027079.\n",
+    "stderr": "",
+    "message": "BRENT L689 available-evidence result saved and delivered: owned MEMO/source/state d8420f223 at AGENTS/BRENT/research/2026-10-12_L689-energy-opportunities/MEMO.md; dated delivery PROME/inbox/2026-10-12_from-BRENT_L689-available-evidence-delivery.md; TERRY committed evidence packet AGENTS/TERRY/inbox/2026-10-12_from-BRENT_L689-conditional-refiner-evidence.md. One conditional refiner-margin candidate, zero trade-ready recommendations; attempted alternatives PASS. No scope conflict/new trade/grade/gate. DEWEY remains existing partial dependency, final October14. L633 and post-14:30 settlement work remain outstanding; TERRY grades. Required state/source/calendar/receipt checks saved. Available-evidence memo complete, existing window and Will instructions preserved; no closeout requested or inferred.",
+    "recipient_consumption": "UNKNOWN"
+  }
+]
