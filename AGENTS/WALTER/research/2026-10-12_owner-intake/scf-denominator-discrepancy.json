@@ -1,0 +1,9 @@
+{
+  "method": "Compare both numerator and denominator scopes. Fixed source zip; no source edits.",
+  "row_count": 21800,
+  "any_late_all": 19.57940884315948,
+  "any_late_all_numerator_over_debtor_weight": 25.431809217563668,
+  "any_late_debtor_conditional": 25.314814297522283,
+  "difference_pp": 0.11699492004138579,
+  "weighted_any_late_without_current_debt": 121564.36027060077
+}

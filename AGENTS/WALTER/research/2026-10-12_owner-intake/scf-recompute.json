@@ -1,0 +1,13 @@
+{
+  "source": "AGENTS/CARL/domain/sources/2026-10-12_catchup/scf2025-extract.zip",
+  "sha256": "7f1600daefd9caa6fef32e74977c4aa3e362172f3c5f91ba6d122c64c805e494",
+  "csv": "SCFP2025.csv",
+  "rows": 21800,
+  "method": "WGT-weighted public point estimates across five implicates; common scale cancels. No significance/error bar claim. HDEBT>0 conditional debtor base.",
+  "values": {
+    "LATE_ALL": 19.57940884315948,
+    "LATE_DEBTORS": 25.314814297522283,
+    "LATE60_ALL": 8.248319761447693,
+    "LATE60_DEBTORS": 10.71379101478265
+  }
+}
