@@ -23,11 +23,15 @@
       "scope": "Read9232d7829 gas-helper change for INFO; use at future touches, no cadence/forecast/HANS grade change. Not independent implementation acceptance."
     },
     "CARL": {
-      "state": "CORRECTED-VERSION-CONSUMED-IN-WORKING-OWNER-RECORD, AUTHOR-COMMIT-PENDING",
+      "state": "COMMITTED-CONSUMPTION-VERIFIED",
       "artifact": "AGENTS/CARL/workbook/KB.tsv KB-CARL-518; STATUS.md DEWEY commissions; own received finalized-source receipt",
-      "scope": "Later receipt explicitly verifies e6f065cb5 and matching sourceSHA256. Corrected header/key finding/flow table/policy timing/aggregation read alongside Q2cards. CARL live FHA row/methods record andKB530 retain accounting-versus-policy limits; no owner grade/weight change. Source hash independently compared by DEWEY.",
+      "scope": "Exact receipt and methods bytes verified at their actual author commitf87345319. Later receipt verifiese6f065cb5/sourceSHA256 and combined Q2/FHA source read. Methods and live FHA limits remain NOT COMPUTABLE; no owner grade/weight change or full implementation acceptance.",
       "receipt": "AGENTS/DEWEY/inbox/2026-10-12_from-CARL_DR1-erratum-consumed-and-measurability-assessed.md",
-      "methods_artifact": "AGENTS/CARL/domain/sources/2026-10-12_DR1-measurability.md"
+      "methods_artifact": "AGENTS/CARL/domain/sources/2026-10-12_DR1-measurability.md",
+      "consumer_commits": {
+        "AGENTS/DEWEY/inbox/2026-10-12_from-CARL_DR1-erratum-consumed-and-measurability-assessed.md": "f873453196435c01f17357241326eadcfd05245b",
+        "AGENTS/CARL/domain/sources/2026-10-12_DR1-measurability.md": "f873453196435c01f17357241326eadcfd05245b"
+      }
     },
     "WALTER": {
       "state": "HISTORICAL-SIGNAL-LINK-CREATED-IN-WORKING-RECORD, AUTHOR-COMMIT-PENDING",
@@ -60,6 +64,6 @@
     "deadline": "2026-10-14",
     "source_publication_dependency": "EIA weekly page names next releaseOct15; after deadline. Preserve partial limits rather than infer zero flow."
   },
-  "consumer_checkpoint_utc": "2026-10-12T19:28:28.044850+00:00",
+  "consumer_checkpoint_utc": "2026-10-12T19:34:49.704490+00:00",
   "working_evidence_backup": "AGENTS/DEWEY/research/2026-10-12_desk-sweep/cato-consumption-working-snapshots.json"
 }
