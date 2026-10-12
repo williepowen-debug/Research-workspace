@@ -1,0 +1,110 @@
+[
+  {
+    "name": "scf26.pdf",
+    "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+    "accessed": "2026-10-12T17:43:16.642925+00:00",
+    "bytes": 10203488,
+    "sha256": "eda4822ea2144b428d3ac60c3a1ddb342d84f24d2410fc4b4d6c48183ec821d8",
+    "content_type": "application/pdf",
+    "last_modified": "Fri, 09 Oct 2026 14:00:23 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "scf-macro.txt",
+    "url": "https://www.federalreserve.gov/econres/files/bulletin.macro.txt",
+    "accessed": "2026-10-12T17:43:16.500384+00:00",
+    "bytes": 168277,
+    "sha256": "5aef2019a0bbb4f3d77909c404d52c516a706b216b0cc1b25a0cd9a7f9014f98",
+    "content_type": "text/plain",
+    "last_modified": "Fri, 09 Oct 2026 14:00:11 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "michigan-oct-prelim.html",
+    "url": "https://www.sca.isr.umich.edu/",
+    "accessed": "2026-10-12T17:43:16.561466+00:00",
+    "bytes": 6869,
+    "sha256": "640bb87d5bfc62026c962b438cc1131c66b7ab17099b3f76382e0354f05bfdf0",
+    "content_type": "text/html; charset=utf-8",
+    "last_modified": "Mon, 12 Oct 2026 13:58:02 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "michigan-gas-spending.pdf",
+    "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=82236",
+    "accessed": "2026-10-12T17:43:16.871436+00:00",
+    "bytes": 759188,
+    "sha256": "f7ce4afd4dd5cf58a889603535cb988e8179965f407cf4ccdd6981ac21ce14f0",
+    "content_type": "application/pdf",
+    "last_modified": "",
+    "status": "OK"
+  },
+  {
+    "name": "carnival-q3.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000104/a20263qearningsrelease8-k.htm",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "confidence-september.html",
+    "url": "https://www.conference-board.org/topics/consumer-confidence/",
+    "accessed": "2026-10-12T17:43:17.362156+00:00",
+    "bytes": 333739,
+    "sha256": "a420e8f58908ebdcb9213a04b5953e4c110fe72e5023841ad914ea9e3433d864",
+    "content_type": "text/html;charset=UTF-8",
+    "last_modified": "",
+    "status": "OK"
+  },
+  {
+    "name": "census-revisions.html",
+    "url": "https://www.census.gov/retail/mrts/historic_releases.html",
+    "accessed": "2026-10-12T17:43:17.154059+00:00",
+    "bytes": 335597,
+    "sha256": "ca5068f737e321b6aacb7bbd56f907ddfea81b494c1c4d72a22ba60824157839",
+    "content_type": "text/html; charset=utf-8",
+    "last_modified": "Mon, 28 Sep 2026 15:55:44 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "census-sales-sa.xlsx",
+    "url": "https://www.census.gov/retail/mrts/www/data/xls/mrtssales92-present.xlsx",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "census-sales-nsa.xlsx",
+    "url": "https://www.census.gov/retail/mrts/www/data/xls/mrtssales92-present_nsa.xlsx",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "nyfed-tariffs.html",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/how-fast-do-tariffs-pass-through-into-consumer-prices/",
+    "accessed": "2026-10-12T17:43:16.774674+00:00",
+    "bytes": 186321,
+    "sha256": "ad8e95456d6529c32debb659dcd09c8eb1cad8650fb8775f02ba4d3ac68ef0e0",
+    "content_type": "text/html; charset=UTF-8",
+    "last_modified": "",
+    "status": "OK"
+  },
+  {
+    "name": "g19.html",
+    "url": "https://www.federalreserve.gov/releases/g19/current/",
+    "accessed": "2026-10-12T17:43:16.969347+00:00",
+    "bytes": 132216,
+    "sha256": "a27c5a2a631c61dbd50ba5362ad808f287b12ef5853cc588ab76c7c940018059",
+    "content_type": "text/html",
+    "last_modified": "Wed, 07 Oct 2026 19:00:12 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "epiq-september.html",
+    "url": "https://www.epiqglobal.com/en-us/resource-center/news/small-business-subchapter-v-elections-increase-46-compared-to-last-year",
+    "accessed": "2026-10-12T17:43:17.104340+00:00",
+    "bytes": 156285,
+    "sha256": "9188e8602e9ecadf227a7ab1bbbe881b189a6f6f76d2a159d6ed602246467c16",
+    "content_type": "text/html; charset=utf-8",
+    "last_modified": "",
+    "status": "OK"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "file": "SCFP2025.csv",
+  "rows": 21800,
+  "method": "weighted mean across all five implicates; scale factor cancels in ratios; point estimates only, no standard errors or significance claim",
+  "values": {
+    "LATE": {
+      "ALL": 19.579408843159484,
+      "DEBTORS": 25.431809217563668
+    },
+    "LATE60": {
+      "ALL": 8.248319761447696,
+      "DEBTORS": 10.713791014782652
+    },
+    "HDEBT_ALL": 76.98787245398802
+  }
+}

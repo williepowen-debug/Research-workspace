@@ -1,0 +1,168 @@
+www.sec.gov (https://www.sec.gov/Archives/edgar/data/815097/000081509726000104/a20263qearningsrelease8-k.htm)
+citeturn15view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn1view3","lineno":15}); Total lines: 473
+L0: EX-99.1 2 a20263qearningsrelease8-k.htm EX-99.1 Document
+L1: 
+L2: Exhibit 99.1
+L3: 
+L4: CARNIVAL CORPORATION OUTPERFORMS GUIDANCE, DELIVERING BEST EVER REVENUES,
+L5: 
+L6: NET YIELDS AND NET INCOME
+L7: 
+L8: Record bookings provide a strong foundation for 2027
+L9: 
+L10: MIAMI (September 29, 2026) - Carnival Corporation (NYSE: CCL) announced financial results for the third quarter 2026 and provided an updated outlook.
+L11: 
+L12: •All-time high net income1 of $1.9 billion with adjusted net income2 of $2.0 billion.
+L13: •All-time high revenues and net yields2 (in constant currency), demonstrating continued demand strength.
+L14: 
+L15: •Full year outlook operational improvement of more than $150 million in adjusted net income compared to June guidance, overcoming a spike in fuel prices.
+L16: 
+L17: •Record third quarter customer deposits up nearly seven percent compared to the prior year record, on flat capacity growth.
+L18: 
+L19: •2027 booked occupancy and pricing at record levels.
+L20: •Completed approximately $1.2 billion of share repurchases year to date.
+L21: 
+L22: “We delivered another quarter of top and bottom-line records, with accelerating demand and even stronger cost discipline driving results ahead of our expectations. This performance reinforces the underlying trajectory of our business and the consistency of our commercial execution, as evidenced by our sustained track record of high-quality same-ship yield growth.
+L23: “Our world-class cruise lines and destinations, exceptional guest experiences delivered by the best team in travel and leisure, and enhanced demand-generation against intentionally measured capacity growth position us to continue driving higher returns. At the same time, we are putting our increasingly durable cash flow to work, reinvesting in our business while returning more capital to shareholders,” said Carnival Corporation’s Chief Executive Officer Josh Weinstein.
+L24: 
+L25: Third Quarter 2026 Results
+L26: •Diluted EPS of $1.40; adjusted EPS2 of $1.43, in line with prior year despite a $0.10 ($131 million) unfavorable net impact from fuel prices and currency rates.
+L27: 
+L28: •Adjusted EBITDA2 of $3.0 billion, in line with last year’s historic high and $110 million better than June guidance.
+L29: 
+L30: •Gross margin yields down 1.3 percent compared to prior year, driven by higher fuel prices. All-time high net yields (in constant currency) up 2.4 percent, over a point better than June guidance.
+L31: •Cruise costs per available lower berth day (“ALBD”) increased 4.2 percent compared to prior year, driven by higher fuel prices. Adjusted cruise costs excluding fuel per ALBD2 (in constant currency) increased 1.8 percent, one point better than June guidance.
+L32: 
+L33: •Fuel consumption per ALBD improved 3.8 percent compared to prior year, reflecting the company’s efforts and investments to continuously reduce fuel consumption.
+L34: 
+L35: Advance Sales
+L36: “Our booking trends continued to strengthen throughout the quarter, with volumes meaningfully ahead of last year and far outpacing capacity growth. This momentum underscores the effectiveness of our demand generation efforts and the enduring appeal of our cruise lines,” Weinstein said.
+L37: “For full-year 2027, both booked occupancy and pricing3 are at record levels, providing a strong foundation for another year of solid yield growth. Looking further ahead, 2028 is also off to an excellent start at higher occupancy and prices than last year.”
+L38: 
+L39: “Customer deposits, another key leading indicator, also reached a third-quarter record of $7.6 billion, surpassing the prior-year record by $0.5 billion despite flat capacity growth over the next twelve months.”
+L40: “Taken together, the ongoing strength we are seeing across our record booking curve, which has extended out even further, reinforces our confidence in the durability of demand for our cruise lines and the earnings power of our business,” Weinstein added.
+L41: 
+L42: 1 Net income attributable to Carnival Corporation.
+L43: 
+L44: 2 See “Non-GAAP Financial Measures” and “Constant Currency.”
+L45: 
+L46: 3 Pricing in constant currency.
+L47: 
+L48: * * *
+L49: 
+L50: 2026 Outlook
+L51: 
+L52: For the full year 2026, the company expects:
+L53: •Operational improvement of more than $150 million in adjusted net income compared to June guidance, driven by improvements in net yields, adjusted cruise costs excluding fuel per ALBD and fuel consumption per ALBD, overcoming $150 million impact from increased fuel prices.
+L54: •Net yields (in constant currency) up approximately 2.3 percent compared to record 2025 levels and 0.5 percentage points better than June guidance.
+L55: Net yields (in constant currency) up approximately 2.7 percent, after reflecting the impact of the summer 2025 close-in decision to redeploy away from the previously planned first quarter 2026 Arabian Gulf voyages and the impacts of loyalty program accounting for Carnival Cruise Line which requires the deferral of a portion of the ticket price paid by the guest.
+L56: •Adjusted cruise costs excluding fuel per ALBD (in constant currency) up approximately 2.2 percent and better than June guidance. Adjusted cruise costs excluding fuel per ALBD (in constant currency) up approximately 1.1 percent, after reflecting the timing of certain expenses between the years, partial year operating expenses from two exclusive destinations and the impact of certain elevated logistics costs as a result of disruption from the Middle East conflict.
+L57: For the fourth quarter of 2026, the company expects net yields (in constant currency) up approximately 1.7 percent compared to 2025 record levels. Net yields (in constant currency) up approximately 2.3 percent after reflecting the impact of loyalty program accounting for Carnival Cruise Line.
+L58: 
+L59: See “Guidance” for additional information on the company’s 2026 outlook, “Non-GAAP Financial Measures,” “Reconciliation of Forecasted Data” and “Constant Currency.”
+L60: 
+L61: Capital Allocation
+L62: “Our strong operating cash flow enabled us to continue strengthening our financial position while advancing our commitment to return value to shareholders,” commented Carnival Corporation’s Chief Financial Officer David Bernstein. “With nearly $1.2 billion of share repurchases so far this year — nearly $800 million since the beginning of the third quarter — and our ongoing dividend program, we are making meaningful progress toward our PROPEL target of distributing cash to our shareholders, responsibly.
+L63: During the third quarter we were also able to use cash on hand to opportunistically redeem $500 million of seven percent coupon notes, which were among our highest coupon debt. Even with the substantial capital we are returning to shareholders, we continue to expect year-over-year improvement in our balance sheet and leverage metrics.”
+L64: During the quarter, S&P upgraded the company's credit rating, making it the second rating agency to award the company an investment grade rating. Following this upgrade, the company does not have any remaining secured debt.
+L65: 
+L66: The company distributed $204 million in dividends during the quarter, bringing the year to date total to $618 million.
+L67: 
+L68: Other Recent Highlights
+L69: •Celebration Key commemorated one year of creating memorable guest experiences and a lasting positive impact in Grand Bahama, welcoming almost 2.5 million guests during its first year (learn more here).
+L70: 
+L71: •RelaxAway, Half Moon Cay and Isla Tropicale each welcomed more than 250,000 guests, following the completion of their recent enhancements.
+L72: •Carnival Cruise Line successfully launched its new Carnival Rewards loyalty program on September 1, generating substantial early engagement with co-branded credit card issuances increasing over 300 percent in the weeks following the launch compared to pre-announcement levels (learn more here).
+L73: 
+L74: •Carnival Cruise Line unveiled Carnival Destiny, arriving in 2029, the first ship in its next-generation Ace class (learn more here).
+L75: •Holland America Line announced Zuiderdam as the second ship set for major transformation as part of its Evolution program (learn more here).
+L76: 
+L77: •Princess Cruises became the first global cruise line to launch a native app in ChatGPT, creating a seamless AI-powered experience for travelers to discover, compare and plan a Princess cruise using real-time pricing and availability (learn more here).
+L78: 
+L79: •Recognitions:
+L80: ◦Named to TIME’s World’s Best Companies 2026, recognizing the company for leading with responsibility and resilience (learn more here).
+L81: 
+L82: ◦Named to TIME’s America’s Best Companies 2026, recognized for its excellence in employee satisfaction, sustained financial performance and sustainability achievements (learn more here).
+L83: 
+L84: ◦Named to Forbes America’s Best Employers for Women for 2026, recognizing the company’s commitment to fostering an environment of well-being, inclusion and belonging (learn more here).
+L85: •Released its 16th annual sustainability report, Doing Business Responsibly from Ship to Shore, detailing the
+L86: 
+L87: * * *
+L88: 
+L89: company’s continued progress towards its sustainability goals.
+L90: 
+L91: * * *
+L92: 
+L93: Guidance
+L94: 
+L95: (See “Non-GAAP Financial Measures,” “Reconciliation of Forecasted Data” and “Constant Currency”)
+L96:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L97:  | 4Q 2026  |  | Full Year 2026
+L98: Year over year change  | Current Dollars  |  | Constant Currency  |  | Current Dollars  |  | Constant Currency
+L99: Net yields  | Approx. 2.3%  |  | Approx. 1.7%  |  | Approx. 3.8%  |  | Approx. 2.3%
+L100: Adjusted cruise costs excluding fuel per ALBD  | Approx. 1.9%  |  | Approx. 1.7%  |  | Approx. 3.5%  |  | Approx. 2.2%
+L101:  |  |  |  |  |  |  |  |  |  |  |
+L102:  | 4Q 2026  |  | Full Year 2026
+L103: ALBDs (in millions) (a)  | 24.1   |  |  | 97.4   |
+L104: Capacity growth compared to prior year  | (0.1)  | %  |  | 1.0   | %
+L105:  |  |  |
+L106: Fuel consumption in metric tons (in millions)  | 0.7   |  |  | 2.7   |
+L107: Fuel cost per metric ton consumed (excluding emission allowances)  | $  | 896   |  |  | $  | 768   |
+L108: Fuel expense (including emission allowances expense) (in billions)  | $  | 0.64   |  |  | $  | 2.25   |
+L109:  |  |  |
+L110: Depreciation and amortization expense (in billions)  | $  | 0.75   |  |  | $  | 2.92   |
+L111: Interest expense, net of capitalized interest and interest income (in billions)  | $  | 0.26   |  |  | $  | 1.08   |
+L112:  |  |  |
+L113: Adjusted EBITDA (in billions)  | Approx. $1.30  |  | Approx. $7.14
+L114: Adjusted net income (in millions)  | Approx. $274  |  | Approx. $3,080
+L115: Adjusted earnings per share - diluted  | Approx. $0.20  |  | Approx. $2.24
+L116: Weighted-average shares outstanding - basic  | 1,352  |  | 1,369
+L117: Adjusted weighted-average shares outstanding - diluted  | 1,358  |  | 1,376
+L118: (a)    See “Notes to Statistical Information.”
+L119: 
+L120:  |  |  |  |  |  |  |  |
+L121: Currencies (USD to 1)  | 4Q 2026  | Full Year 2026
+L122: AUD  | $  | 0.71   |  | $  | 0.70   |
+L123: CAD  | $  | 0.71   |  | $  | 0.72   |
+L124: EUR  | $  | 1.15   |  | $  | 1.16   |
+L125: GBP  | $  | 1.34   |  | $  | 1.35   |
+L126:  |  |  |  |  |  |  |  |
+L127: Sensitivities (impact to adjusted net income in millions)  | 4Q 2026
+L128: 1% change in net yields  | $  | 49   |
+L129: 1% change in adjusted cruise costs excluding fuel per ALBD  | $  | 30   |
+L130: 10% change in fuel cost per metric ton (excluding emission allowances)  | $  | 59   |
+L131: 100 basis point change in variable rate debt  | $  | 4   |
+L132: 1% change in currency exchange rates  | $  | 7   |
+L133:  |  |
+L134: 
+L135: Capital Expenditures
+L136: For the fourth quarter of 2026, newbuild capital expenditures are $0.3 billion and non-newbuild capital expenditures are $0.9 billion. These future capital expenditures will fluctuate with foreign currency movements relative to the U.S. Dollar.
+L137: 
+L138: * * *
+L139: 
+L140: Conference Call
+L141: The company has scheduled a conference call with analysts at 10:00 a.m. EDT today to discuss its earnings release. This call can be listened to live and additional information including the company’s earnings presentation can be obtained on its website at www.carnivalcorp.com.
+L142: Carnival Corporation is the largest global cruise company and among the largest leisure travel companies, with a portfolio of world-class cruise lines – AIDA Cruises, Carnival Cruise Line, Costa Cruises, Cunard, Holland America Line, P&O Cruises, Princess Cruises and Seabourn. Carnival Corporation trades under the ticker symbol CCL on the NYSE and is included in the S&P 500.
+L143: Additional information can be found on www.carnivalcorp.com, www.aida.de, www.carnival.com, www.costacruises.com, www.cunard.com, www.hollandamerica.com, www.pocruises.com, www.princess.com, and www.seabourn.com.
+L144: 
+L145: To learn more about Carnival Corporation’s purpose and its commitment to sustainability, go to Our Impact.
+L146: 
+L147:  |  |  |  |  |  |  |  |
+L148: MEDIA CONTACT  |  | INVESTOR RELATIONS CONTACT
+L149: Jody Venturoni  |  | Beth Roberts
+L150: +1 469 797 6380  |  | +1 305 406 4832
+L151: 
+L152: * * *
+L153: Cautionary Note Concerning Factors That May Affect Future Results
+L154: Some of the statements, estimates or projections contained in this document are “forward-looking statements” that involve risks, uncertainties and assumptions with respect to us, including statements concerning future results, operations, strategy, outlooks, plans, goals, reputation, cash flows, liquidity and other events which have not yet occurred.
+L155: These statements are intended to qualify for the safe harbors from liability provided by Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934, as amended. All statements other than statements of historical facts are statements that could be deemed forward-looking. These statements are based on current expectations, estimates, forecasts and projections about our business and the industry in which we operate and the beliefs and assumptions of our management.
+L156: We have tried, whenever possible, to identify these statements by using words like “will,” “may,” “could,” “should,” “would,” “believe,” “depends,” “expect,” “goal,” “aspiration,” “anticipate,” “forecast,” “project,” “future,” “intend,” “plan,” “estimate,” “target,” “indicate,” “outlook,” and similar expressions of future intent or the negative of such terms.
+L157: Forward-looking statements include, but are not limited to, statements that relate to our outlook and financial position, as well as, statements regarding:
+L158: 
+L159:  |  |  |  |  |
+L160: •Revenues  | •Financial outlook
+L161: •Costs and expenses  | •Non-GAAP measures
+L162: •Capital expenditures  | •Passenger capacity
+L163: •Leverage metrics  | •Demand and booking trends
+L164: •Shareholder returns  | •Progress toward achieving our goals and targets
+

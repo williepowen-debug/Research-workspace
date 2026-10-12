@@ -50,6 +50,8 @@
 
 ⛔ **TIER 1 CANNOT CONFIRM THIS LEG AND MUST NEVER BE USED TO.** These are aggregates dominated by the top-40% who do most of the spending — CARL's own masking framework says so. **Tier 1 is a DISCONFIRMATION tripwire only.**
 
+**Current-vintage update2026-10-12 (Census9/28 benchmark, same observations):** Augustgrocery−1.542%realproxy vsrestaurants+1.940%;GMshare12.753→12.647%;apparel+0.491%. July remains3/3against. Old9/16numbers above remain explicitly that vintage, not current. Source/derivation: `domain/sources/2026-10-12_catchup/retail-derived.json`; scope findingKB512. No direction rule, resolver or score changed.
+
 ## TIER 2 — cohort-resolved, quarterly, company-reported (WHERE THE MECHANISM IS ACTUALLY VISIBLE)
 
 | # | Instrument | Source | Note |

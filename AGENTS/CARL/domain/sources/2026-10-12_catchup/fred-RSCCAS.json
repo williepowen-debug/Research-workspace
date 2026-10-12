@@ -1,0 +1,138 @@
+{
+  "realtime_start": "2026-10-12",
+  "realtime_end": "2026-10-12",
+  "observation_start": "2025-01-01",
+  "observation_end": "9999-12-31",
+  "units": "lin",
+  "output_type": 1,
+  "file_type": "json",
+  "order_by": "observation_date",
+  "sort_order": "asc",
+  "count": 20,
+  "offset": 0,
+  "limit": 100000,
+  "observations": [
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-01-01",
+      "value": "24313.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-02-01",
+      "value": "23918.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-03-01",
+      "value": "24349.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-04-01",
+      "value": "24534.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-05-01",
+      "value": "24612.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-06-01",
+      "value": "24967.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-07-01",
+      "value": "25254.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-08-01",
+      "value": "25453.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-09-01",
+      "value": "25206.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-10-01",
+      "value": "25533.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-11-01",
+      "value": "25696.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2025-12-01",
+      "value": "25539.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-01-01",
+      "value": "25344.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-02-01",
+      "value": "25999.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-03-01",
+      "value": "26049.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-04-01",
+      "value": "25864.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-05-01",
+      "value": "26136.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-06-01",
+      "value": "25987.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-07-01",
+      "value": "26311.0"
+    },
+    {
+      "realtime_start": "2026-10-12",
+      "realtime_end": "2026-10-12",
+      "date": "2026-08-01",
+      "value": "26503.0"
+    }
+  ],
+  "series_id": "RSCCAS",
+  "accessed": "2026-10-12T17:46:56.301495+00:00"
+}

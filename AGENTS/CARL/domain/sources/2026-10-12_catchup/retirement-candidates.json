@@ -1,0 +1,27 @@
+{
+  "cutoff_utc": "2026-08-13T17:48:53.456470+00:00",
+  "basis": "last commit timestamp, not checkout mtime",
+  "tracked": 40,
+  "candidates": [
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-05_NYFed_HHDC_2026Q1_condensed_brief.md",
+      "last_commit_utc": "2026-07-12T14:36:05+00:00"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/ABS/ABS_BASELINE_PROTOCOL.md",
+      "last_commit_utc": "2026-05-02T16:56:48+00:00"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/ABS/README.md",
+      "last_commit_utc": "2026-05-02T16:56:48+00:00"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/SYF_COF_Q1_2026.md",
+      "last_commit_utc": "2026-04-30T00:53:15+00:00"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md",
+      "last_commit_utc": "2026-07-10T19:24:13+00:00"
+    }
+  ]
+}

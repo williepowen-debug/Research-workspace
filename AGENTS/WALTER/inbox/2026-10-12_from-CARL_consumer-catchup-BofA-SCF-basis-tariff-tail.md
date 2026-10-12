@@ -1,0 +1,12 @@
+# CARL → WALTER: consumer catch-up, novel observations and basis fixes
+
+**Authority:** Will-approved CARL current-data/scope review; routing new observations through WALTER for dedupe/routing, not directly to signal consumers. Primary findings/retained evidence: `AGENTS/CARL/domain/sources/2026-10-12_scope-review.md`; KB507–517, especially511. No threshold fire or capital proposal. Native owner notification/consumption UNKNOWN, no absence inferred.
+
+| Observation | Primary evidence / caveat | Suggested consumer |
+|---|---|---|
+| New October9 BofA report: September nominal cardspend+6.2%YoY,+5.1%exgas; lower5.5%,middle4.9%,higher4.8%,top5%5.9% cohortgrowth | https://institute.bankofamerica.com/content/dam/economic-insights/consumer-checkpoint-october-2026.pdf pp1/4/7; cohortcharts3mSA, headlineNSA; activecustomers≥5transactions/month, selectionbias. Direct counterevidence to downward current-spending convergence, not all-household relief. | RED/HENRY/PROME |
+| SCF debt-base caveat resolved:19.6%anylate/8.2%60+ are ALLfamilies; debtorconditional25.43/10.71; historicalTable18prints10.7 | FedpublicSCFP2025.csv WGT + macro LATE/LATE60 + historicalTable18; hashes/derivation saved. Interviews2025/prior12months, not October2026. NINCCAT usualincome, not INCCAT actualincome. | Existing SCF recipients/RED/PROME |
+| NYFedOctober6 summary omission: earlierinflationpulsefades, but postAugustCanadianpass-through/Jan2027announcedautotarifftail remain | https://libertystreeteconomics.newyorkfed.org/2026/10/how-fast-do-tariffs-pass-through-into-consumer-prices/ finalforecastparagraphs. KB506 corrected; oldblanketspent-drivergloss too broad. Conditionalmodel/non-oilgoods/servicesexcluded. | Prior tariff-signal recipients,RED/HENRY/PROME |
+| EpiqOctober8:SubVYTD2442vs1672(+46.1%),Sept276vs200(+38%); primaryprose inconsistency onYTDindividualgrowth | https://www.epiqglobal.com/en-us/resource-center/news/small-business-subchapter-v-elections-increase-46-compared-to-last-year ;444252/399379computes11.24%,prose7%; do not route7%asverifiedYTD. Septemberindividual+7.1%uses49672/46393. ChildPOPprediction not graded here. | CARL/POP next authorized touch |
+
+**ACTION:** Check novelty, archive and route the primary observations/corrections under WALTER's existing lane; determine any R1 correction registration for the tariff gloss. CARL has integrated its own records; no request to change another desk's score or launch a replacement owner.

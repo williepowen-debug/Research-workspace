@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-12 — scope review completed late; new data and basis repairs, no rule/score change
+Will approved current-data catch-up and the suggested review. Written finding `domain/sources/2026-10-12_scope-review.md`: concentrated credit/affordability mechanism remains supported; current downward spending convergence is not established. New BofASeptember6.2%headline/5.1%exgas and cohort growth argue against that broad clause (nominal/customer sample caveats retained); surveys/SCF don't resolve realized spending. Score53/70,v2.6.6 and13OPEN predictions unchanged on their registered letters.
+SCF504denominator UNSETTLED→RESOLVED(all families), verified from publicWGT/macro and debtorconditionalTable18; prior-income/wealth clocks and usual-income gradient added507/508. Census current control1.36→1.22%MoM;T1figures re-vintaged, direction remains3/3against. NYFed506partialforwarddriver gloss corrected with Canadian-tail paragraph. UMichSeptfinal/Octprelim,CCBSept,CCLQ3,AAAOct12,PMMS andEpiq integrated. EARTAugustcard written but exhibitsSOURCE-INCOMPLETE; no deepgrade invented. WQ3997ecommand fields repaired. No research/trade expansion, no child launch; TERRY's priorKEEPDORMANT answer stands untilQ3grade.
+
+
 ## 2026-10-02 — V16 DROP-BACK BRANCH GRADED: NOT SATISFIED, count 1→0 of 2 (no version bump, no score change)
 
 **What:** print 2 of 2 of V16's drop-back-to-3 branch, letter *"NFP positive WITH net up-revisions for 2 consecutive prints"* (THESIS matrix COL7; ratified as written WQ-182, 2026-09-10).

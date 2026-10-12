@@ -1,0 +1,41 @@
+{
+  "basis": "NINCCAT, usual-income categories, weighted point estimates only; public implicates, no significance claim",
+  "values": [
+    {
+      "NINCCAT": 1,
+      "LATE": 22.269228365505683,
+      "LATE60": 11.48980792794707,
+      "HDEBT": 52.713816795333145
+    },
+    {
+      "NINCCAT": 2,
+      "LATE": 26.682406332809872,
+      "LATE60": 11.397388063766876,
+      "HDEBT": 76.7846584059011
+    },
+    {
+      "NINCCAT": 3,
+      "LATE": 23.82098804439114,
+      "LATE60": 10.823060089245384,
+      "HDEBT": 84.23540220113885
+    },
+    {
+      "NINCCAT": 4,
+      "LATE": 17.555009660147554,
+      "LATE60": 5.675358563134308,
+      "HDEBT": 86.33477048191224
+    },
+    {
+      "NINCCAT": 5,
+      "LATE": 9.777453733326253,
+      "LATE60": 3.043375680958451,
+      "HDEBT": 89.2146965731486
+    },
+    {
+      "NINCCAT": 6,
+      "LATE": 5.366440208666703,
+      "LATE60": 0.6713921239935051,
+      "HDEBT": 80.52174633952622
+    }
+  ]
+}

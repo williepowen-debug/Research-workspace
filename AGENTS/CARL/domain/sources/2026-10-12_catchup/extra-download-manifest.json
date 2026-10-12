@@ -1,0 +1,42 @@
+[
+  {
+    "name": "census-benches26.xlsx",
+    "url": "https://www.census.gov/retail/mrts/www/benchmark/2026/excel/benchsales26.xlsx",
+    "accessed": "2026-10-12T17:45:31.534627+00:00",
+    "bytes": 441168,
+    "sha256": "e1243966e8e40ea1b99ddb7158f2224ba91147bc40b7a47c2ab7b398077d8796",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "last_modified": "Mon, 28 Sep 2026 14:00:17 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "scf-historical-internal.xlsx",
+    "url": "https://www.federalreserve.gov/econres/files/scf2025_tables_internal_real_historical.xlsx",
+    "accessed": "2026-10-12T17:45:31.038264+00:00",
+    "bytes": 2336316,
+    "sha256": "9e500c456c685011fe2959ff969d20adf501fcb6282cab2474891d0389524e2d",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "last_modified": "Fri, 09 Oct 2026 14:00:16 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "scf-historical-public.xlsx",
+    "url": "https://www.federalreserve.gov/econres/files/scf2025_tables_public_real_historical.xlsx",
+    "accessed": "2026-10-12T17:45:31.023249+00:00",
+    "bytes": 2493413,
+    "sha256": "fd6813a7a9f7c54ac0f530c8dc7c61a476767c8d5dd5d65d174cde85dd7149e5",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "last_modified": "Fri, 09 Oct 2026 14:00:16 GMT",
+    "status": "OK"
+  },
+  {
+    "name": "scf2025-extract.zip",
+    "url": "https://www.federalreserve.gov/econres/files/scfp2025excel.zip",
+    "accessed": "2026-10-12T17:45:31.076055+00:00",
+    "bytes": 2148297,
+    "sha256": "7f1600daefd9caa6fef32e74977c4aa3e362172f3c5f91ba6d122c64c805e494",
+    "content_type": "application/x-zip-compressed",
+    "last_modified": "Fri, 09 Oct 2026 14:00:33 GMT",
+    "status": "OK"
+  }
+]

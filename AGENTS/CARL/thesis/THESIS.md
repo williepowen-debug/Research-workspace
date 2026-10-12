@@ -3,6 +3,9 @@
 
 ---
 
+## October12, 2026 scope assessment (evidence update, registered rules unchanged)
+Will-approved overdue scope review: `domain/sources/2026-10-12_scope-review.md`. Current evidence supports concentrated credit and affordability stress, but broad downward convergence in realized spending is not established; BofASeptember spending grows across income cohorts in its selected nominal sample. Michigan intentions and2025SCF show uneven buffers, not a current populationwide spending collapse. “60%structurally fragile” remains a framework assumption, not a measured share. Score53/70/version2.6.6/tests unchanged; V8's DGfirstOOS and premium discrimination remain pending, no new kill registered. This is the current evidence assessment; dated historical wording below is not a new confirm. Structural re-charter or altered kill would be a separate Will ruling.
+
 ## Core Thesis
 
 60% of American households are structurally fragile. Aggregate data masks a K-shaped deterioration where the bottom 60% (subprime, paycheck-to-paycheck, BNPL-dependent) are collapsing while the top 40% (prime, asset-owning) are now also pulling back. The thesis originally held that employment was the detonator — a labor market crack would convert latent vulnerability into acute credit stress.

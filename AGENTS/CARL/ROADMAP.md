@@ -1,5 +1,5 @@
 # CARL ROADMAP — "Where are we"
-**Updated:** 2026-10-10: L0 drain (carl-1010). One thread moved: TRY-FIRE-002 answered KEEP DORMANT. The 10/05 scope review did not run; it is still owed. Prior 2026-09-24: data catch-up after a 7-day gap; source `domain/sources/2026-09-24_data-catchup.md`. Presser reviewed, FSA FY26-Q3 integrated, V2 broad August read, inbox 10→0, 36 BOARD dispositions. Scores and probabilities unchanged. WQ-151/182/183/227 approvals remain effective.
+**Updated:** 2026-10-12: Will-approved catch-up/scope finding delivered; newspending evidence challengesbroadconvergence. EARTcardSOURCE-INCOMPLETE;10/14retry. Scores/registeredrules unchanged.
 
 ⛔ **STRUCTURE CHANGED 2026-09-05 (Will-directed structural read-cap fix).** This file was **51,744 B = 1.57× the 32,550 B budget**, and **61% of it was the OPEN THREADS table** — **28 genuinely-open threads at ~865 B each.** ⚠️ **Rotation could not fix that: the content was LIVE, not residue** (measured — closed-rows-mis-filed were only **6%**), which is the same finding STUE produced on its own surface the same day.
 **THE FIX — read-mode, not byte-trim:** the per-thread **Status narrative** now lives in **`ROADMAP_THREADS.md`** (**grep it, NEVER read it whole**); this file carries a **GENERATED index**. **Edit threads in `ROADMAP_THREADS.md`, then `python3 AGENTS/CARL/scripts/roadmap_index.py --rebuild`.** `--check` fails closed on drift and is a closeout gate.
@@ -29,7 +29,7 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | 4 | **DAEDALUS STATUS two-state PILOT (WATT/HENRY/CARL)** | **Execute rotation in the post-HHDC session** (deliberate: tomorrow's print supersedes many dashboard rows — rotating after integration avoids doub… | 2026-08-10 |
 | 5 | **GIG-P03/P06 re-instrumentation (structural data gap)** | Decide: re-spec onto a published series (platform-disclosed driver earnings/ride — Lyft publishes +8% YoY), re-date to the annual Gridwise cadence,… | 2026-08-10 |
 | 6 | **CRL-04 basis check + CRL-30 first grade — the residual of the CRL-05 void** | **(a)** Settle CRL-04 at the next HHDC read (~Nov) — decide whether an absolute HHDC-stock bar inherits any part of the reporting-duration effect,… | 2026-09-10 |
-| 7 | **CARL-DR-1 — private-book leg decision (FHA leg DONE 8/27)** | **DECIDED 10/01 (early; WALTER's doctor carried DR-1 13d past DEWEY's 9/18 deliver_by):** request ONE private-book leg = **CARDS**, from issuer 10-… | 2026-10-01 |
+| 7 | **CARL-DR-1 — private-book leg decision (FHA leg DONE 8/27)** | **2026-11-13:DEWEYexistingL567Q3refresh;CARLgradesonlywithcompatiblecounterfactual/denominator. No newcommission.** | 2026-10-12 |
 | 8 | **🟠 FERT — a chartered agent with NO roster row, pointing at CARL** | **Flagged to PROME 8/15 (`PROME/inbox`), not absorbed — ROSTER is PROME's surface and the disposition (revive / retire / re-charter) is not mine.**… | 2026-08-15 |
 | 9 | **New prediction candidate — student-loan-default trajectory** | Draft a CRL-prediction on the next NY Fed HHDC student-loan-default print (~mid-Aug Q2) — threshold + invalidation. Coordinate with STUE. | 2026-06-22 |
 | 10 | **V16 → RED counter-evidence staging** (residual of V16 4→3) | Stage to handoff_RED: Jun 1-5 acute-employment strength as CONTAINMENT data point (what would ALSO have to break for the bear thesis — cost-squeeze… | 2026-06-06 |
@@ -45,14 +45,14 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | 20 | **Consumer-credit downgrade candidate — INSTRUMENT CORRECTED; HHDC card FROZEN** | (a) **Grading card FROZEN 22d early — `thesis/HHDC_Q2_2026_GRADING_CARD.md`** (Will-insisted): CRL-05 cells + a 4-cell survivor-pool-vs-healing dis… | 2026-07-24 |
 | 21 | **🟠 STATUS two-state rotation — #1 DONE, joint cap NOT met, blocker is the BRIEF** | **Falsifier report due ~9/10** (not hit; zero days elapsed = a null, not a result) — send unprompted either way. Brief compression awaits the cap r… | 2026-08-27 |
 | 22 | **🟠 `CARL-AUTO-OUTFLOW-01` — registered, first grade ~Oct 20** | Build the ≥3-trust / ≥2-vintage panel at **MATCHED SEASONING**; grade ~Oct 20, re-check at the Nov HHDC. | 2026-08-27 |
-| 23 | **V2 August collection grade** | After the EART August 10-Ds (~9/30): write the both-tier card, stating the WQ-151 L1–L4 letter FIRST (per-deal pp, base-vs-level, double-matched co… | 2026-09-24 |
+| 23 | **V2 August collection grade** | **2026-10-14: recover4registeredEARTexhibits, completepp/base/double-matchcells; noyoung-shelfsubstitution.** | 2026-10-12 |
 | 24 | **🟡 V16 drop-back-to-3 branch — RESET to 0 of 2 on 10/02 (print 2 FAILED); count restarts 11/06** | **October NFP, Fri 2026-11-06 08:30 ET = earliest new print 1 of 2** (S>0 AND R>0 ⇒ 1 of 2; anything else stays 0). The earliest possible 4→3 candi… | 2026-10-02 |
 | 25 | **🔴 Read-cap: rotation is a hygiene tool being asked to do a structural job** | **Apply the READ-MODE fix to CARL's own `STATUS.md` — do NOT attempt rotation #11 as a byte-trim.** Order (STUE's diagnosis, not mine): **(c) audit… | 2026-09-11 |
 | 26 | **🔴 FLOW-PHAN-06 leg 2 — instrument FROZEN AT BOTH ENDS and has NO PUBLISHER** | **WILL: re-point leg 2 to a reachable series, or mark it structurally unresolvable and stop reporting it as a testable leg.** Re-pointing an instru… | 2026-09-11 |
 | 27 | **🟠 BaaS / sponsor-bank credit perimeter — RULED 9/15 (WQ-228): REGINALD owns; CARL/PHAN owe the fintech co… | **Define the CARL/PHAN feed — NOT STARTED.** Decide (a) which fintech consumer books CARL watches (candidates: the CCB partner book; Affirm/Klarna… | 2026-09-24 |
 | 28 | **🟡 Card edits owed at step 5b/5b.2 — TWO now, and one instruction is newly FALSE** | **Surface all three to Will together and edit once** — piling a third instruction onto a step with two live ones is the defect, not the fix. CARL a… | 2026-09-11 |
 | 29 | **🔴 As-made confidence walk — CARL's published Brier is flattered, 4 of 4 resolved rows move WORSE** | **Ladder DISCHARGED** (CARL inputs 9/10; DAEDALUS ran H2 as-made 9/17 — per ROADMAP RECENTLY RESOLVED 9/24). Residual: CRL-10/11/17 stay labelled E… | 2026-09-24 |
-| 30 | September retail follow-through | Check Census 9/28 revision vintage then September retail 10/15. (The RED revision audit is split out to its own thread, 9/24 PM.) | 2026-09-24 |
+| 30 | September retail follow-through | **2026-10-15: gradeSeptemberadvance retail withcurrent-vintagecontrol/T1; monthlydata not yet published.** | 2026-10-12 |
 | 31 | **🟠 RED revision-denominator ledger — DELIVERED; 5 of 6 re-grades APPLIED 9/24; CRL-27 HELD on canon** | **CRL-27 RULED + ENCODED 10/01:** WQ-287 option A (Will 9/26): CRL-27 RETIRED unscored (record preserved, WQ-161 ② intact), successor **CRL-31** re… | 2026-10-01 |
 
 <!-- ROADMAP-INDEX:END -->
@@ -109,3 +109,5 @@ September24 eve (stale-record fix, Will-directed): **4 threads closed, each veri
 - V2 collection-month grading, WQ151 encoding check, V16 October2 resolver and all existing approvals remain live at their canonical homes.
 
 **Rotation September16:** recheck this surface on any append and every closeout; hard review October1. Thirty-five generated open threads retained unchanged; no thread dropped to achieve the byte target.
+
+October12: scope review completed late (domain/sources/2026-10-12_scope-review.md); Michigan/CCB/CCL/Census/BofA integrated, SCFdenominator resolved, tariffCanadian-tail repaired;KB507–517. No childlaunch or forecastchange. WQ3997ecommandfields encoded. Retirement disposition in source report; no broad-macro collapse inferred.
