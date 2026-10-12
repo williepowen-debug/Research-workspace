@@ -1,0 +1,618 @@
+{
+  "searchHits": [
+    {
+      "reference": "{C299ACB8-F09E-C5F6-86EC-A0C43ED00000}-{48FFE3F0-F12C-C3C2-964E-A0C43ED00000}",
+      "documentId": "C299ACB8-F09E-C5F6-86EC-A0C43ED00000",
+      "description": "Order Dismissing Request for Rehearing and Clarification re PJM Interconnection, L.L.C. et al. under EL26-67. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260921-3020",
+      "issuedDate": "09/21/2026",
+      "filedDate": "09/21/2026",
+      "postedDate": "09/21/2026",
+      "classTypes": [
+        {
+          "documentClass": "Order/Opinion",
+          "documentType": "Commission Order/Opinion"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "EL26-67-001"
+      ],
+      "transmittals": [
+        {
+          "fileId": "48FFE3F0-F12C-C3C2-964E-A0C43ED00000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "EL26-67-001.docx",
+          "fileDesc": "Notational Order",
+          "fileSize": 72181,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "REESE",
+          "firstInitial": "D",
+          "middleInitial": "A"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        }
+      ]
+    },
+    {
+      "reference": "{658C26E8-77D2-C6D0-843C-A01F09900000}-{33A31EDB-570A-C1DE-9593-A01F09900000}",
+      "documentId": "658C26E8-77D2-C6D0-843C-A01F09900000",
+      "description": "Notice of Denial of Rehearing by Operation of Law and Providing for Further Consideration re PJM Interconnection, L.L.C. et al. under EL26-67.",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260820-3006",
+      "issuedDate": "08/20/2026",
+      "filedDate": "08/20/2026",
+      "postedDate": "08/20/2026",
+      "classTypes": [
+        {
+          "documentClass": "Notice",
+          "documentType": "Formal Notice"
+        },
+        {
+          "documentClass": "Order/Opinion",
+          "documentType": "Delegated Order"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "EL26-67-001"
+      ],
+      "transmittals": [
+        {
+          "fileId": "33A31EDB-570A-C1DE-9593-A01F09900000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "EL26-67-001.docx",
+          "fileDesc": "Notice of Denial of Rehearing by Operation of Law and Providing for Further Consideration",
+          "fileSize": 45508,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION - FERC",
+          "lastName": "Reese",
+          "firstInitial": "D",
+          "middleInitial": "A"
+        }
+      ]
+    },
+    {
+      "reference": "{B8E7B3E8-2E89-CF3A-875C-A00156D00000}-{E940B2CF-613D-C3D5-97AB-A00156D00000}",
+      "documentId": "B8E7B3E8-2E89-CF3A-875C-A00156D00000",
+      "description": "Letter order granting PJM Interconnection, L.L.C.s et al. 07/28/2026 filing of an Abeyance Motion to hold this proceeding in abeyance for 90 days under EL26-67.",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260814-3059",
+      "issuedDate": "08/14/2026",
+      "filedDate": "08/14/2026",
+      "postedDate": "08/14/2026",
+      "classTypes": [
+        {
+          "documentClass": "Order/Opinion",
+          "documentType": "Commission Order/Opinion"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "EL26-67-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "E940B2CF-613D-C3D5-97AB-A00156D00000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "EL26-67-000.docx",
+          "fileDesc": "Notational Order",
+          "fileSize": 57853,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Reese",
+          "firstInitial": "D",
+          "middleInitial": "A"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "AGENT",
+          "affiliation": "WRIGHT & TALISMAN, PC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "AGENT",
+          "affiliation": "DAVIS WRIGHT TREMAINE LLP",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "AGENT",
+          "affiliation": "LS POWER DEVELOPMENT, LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "PJM INTERCONNECTION, L.L.C.",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "AEP INDIANA MICHIGAN TRANSMISSION COMPANY, INC.",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "AEP KENTUCKY TRANSMISSION COMPANY INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "AEP OHIO TRANSMISSION COMPANY INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "AEP WEST VIRGINIA TRANSMISSION COMPANY INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "AMERICAN TRANSMISSION SYSTEMS, INCORPORATED",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "APPALACHIAN POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "ATLANTIC CITY ELECTRIC COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "BALTIMORE GAS AND ELECTRIC COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "COMMONWEALTH EDISON COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "COMMONWEALTH EDISON COMPANY OF INDIANA INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "DAYTON POWER AND LIGHT COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "DELMARVA POWER AND LIGHT COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "DUKE ENERGY KENTUCKY INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "DUKE ENERGY OHIO INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "DUQUESNE LIGHT COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "ESSENTIAL POWER ROCK SPRINGS LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "HUDSON TRANSMISSION PARTNERS LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "INDIANA MICHIGAN POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "JERSEY CENTRAL POWER & LIGHT COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "KENTUCKY POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "KEYSTONE APPALACHIAN TRANSMISSION COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "KINGSPORT POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "LINDEN VFT LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "MID-ATLANTIC INTERSTATE TRANSMISSION LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "MONONGAHELA POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "NEPTUNE REGIONAL TRANSMISSION SYSTEM LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "NEXTERA ENERGY TRANSMISSION MIDATLANTIC INDIANA INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "OHIO POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "OHIO VALLEY ELECTRIC CORPORATION",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "OLD DOMINION ELECTRIC COOPERATIVE",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "PECO ENERGY COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "PPL ELECTRIC UTILITIES CORPORATION",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "THE POTOMAC EDISON COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "POTOMAC ELECTRIC POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "PUBLIC SERVICE ELECTRIC AND GAS COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "ROCKLAND ELECTRIC COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "SILVER RUN ELECTRIC LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "TRANS-ALLEGHENY INTERSTATE LINE COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "TRANSOURCE WEST VIRGINIA LLC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "UGI UTILITIES INC",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "VIRGINIA ELECTRIC AND POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "WHEELING POWER COMPANY",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "RECIPIENT",
+          "affiliation": "AEP APPALACHIAN TRANSMISSION COMPANY INC.",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        }
+      ]
+    },
+    {
+      "reference": "{05663840-A8DE-C7E6-873E-9FFB57A00000}-{A2033FCC-DBFC-C1AF-9650-9FFB57A00000}",
+      "documentId": "05663840-A8DE-C7E6-873E-9FFB57A00000",
+      "description": "Errata to the 06/18/2026 Commission issued Order Instituting Proceeding Under Section 206 of the Federal Power Act; correcting footnote 13 re PJM Interconnection, L.L.C. et al. under EL26-67. For order see accession number 20260618-3105. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260813-3025",
+      "issuedDate": "08/13/2026",
+      "filedDate": "08/13/2026",
+      "postedDate": "08/13/2026",
+      "classTypes": [
+        {
+          "documentClass": "Order/Opinion",
+          "documentType": "Commission Order/Opinion"
+        },
+        {
+          "documentClass": "Order/Opinion",
+          "documentType": "Dissent/Concurrence by the Commissioner"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "child",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "EL26-67-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "A2033FCC-DBFC-C1AF-9650-9FFB57A00000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "EL26-67-000 Errata Notice.docx",
+          "fileDesc": "Errata",
+          "fileSize": 52302,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION - FERC",
+          "lastName": "Reese",
+          "firstInitial": "D",
+          "middleInitial": "A"
+        }
+      ]
+    },
+    {
+      "reference": "{D17877C6-31AB-CE7B-8608-9FCDF4900000}-{E0DCE3D7-0691-C4E8-960E-9FCDF4900000}",
+      "documentId": "D17877C6-31AB-CE7B-8608-9FCDF4900000",
+      "description": "Notice Establishing Answer Period re PJM Interconnection, L.L.C. et al. under EL26-67. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260804-3065",
+      "issuedDate": "08/04/2026",
+      "filedDate": "08/04/2026",
+      "postedDate": "08/04/2026",
+      "classTypes": [
+        {
+          "documentClass": "Notice",
+          "documentType": "Formal Notice"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "EL26-67-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "E0DCE3D7-0691-C4E8-960E-9FCDF4900000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "EL26-67-000 Answer.docx",
+          "fileDesc": "Notice",
+          "fileSize": 44918,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Reese",
+          "firstInitial": "D",
+          "middleInitial": "A"
+        }
+      ]
+    }
+  ],
+  "totalHits": 5,
+  "numHits": 5,
+  "success": true,
+  "errorMessage": null,
+  "searchResultId": null
+}

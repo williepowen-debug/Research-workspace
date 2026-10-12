@@ -1,0 +1,42 @@
+
+  ERROR PJM emergency postings fetch/parse FAILED: <urlopen error [Errno -3] Temporary failure in name resolution>
+  Manual check: https://emergencyprocedures.pjm.com/
+
+  ERROR PJM demand (EIA-930) FAILED: EIA-930 PJM demand fetch failed: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  ERROR retail price backdrop FAILED: EIA retail-sales fetch failed: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  ERROR LMP-proxy (EIA wholesale) FAILED: <urlopen error [Errno -3] Temporary failure in name resolution>
+  Manual check: https://www.eia.gov/electricity/wholesale/
+
+  ERROR official LMP (Data Miner 2) FAILED: <urlopen error [Errno -3] Temporary failure in name resolution>
+  Manual check: https://dataminer2.pjm.com/feed/rt_unverified_fivemin_lmps
+power_watch: 5 leg(s) FAILED — PJM-EP: <urlopen error [Errno -3] Temporary failure in name resolution>; EIA-930: EIA-930 PJM demand fetch failed: <urlopen error [Errno -3] Temporary failure in name resolution>; retail: EIA retail-sales fetch failed: <urlopen error [Errno -3] Temporary failure in name resolution>; EIA-wholesale: <urlopen error [Errno -3] Temporary failure in name resolution>; DM2-LMP: <urlopen error [Errno -3] Temporary failure in name resolution>
+========================================================================
+  WATT BOOT — power_watch · ledger staleness · predictions-due
+========================================================================
+
+--- 1. power_watch (P1 stress->price live read) ---
+========================================================================
+  POWER WATCH (PJM leg) — fetched 2026-10-12 14:41 UTC
+========================================================================
+
+  NOTE: EIA LEG PROVENANCE — date stamps above are DATA vintage (authoritative). SOURCE-MODE (live pull vs <=1hr FORGE cache hit) is NOT distinguishable from this side — fetch.py cache hits carry no payload marker. Not an alert; a stated wall.
+
+  Power leg: PJM demand FETCH-FAIL · emergencies: FETCH-FAIL — check https://emergencyprocedures.pjm.com/ · LMP official FETCH-FAIL · LMP-proxy FETCH-FAIL · retail FETCH-FAIL
+
+--- 2. ledger staleness (workbook + TRADE.md vs STATUS) ---
+perimeter [WATT]: 6 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv
+⚠️  [WATT] 1 stale ledger(s) behind STATUS: TRADE.md (+14d behind)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+
+--- 3. READ-CAP: every boot-read surface vs the 32,550 B fleet budget ---
+  ✓ STATUS.md 22,067 B = 68% of 32,550 B read-cap budget (120 lines, 184 B/line)
+  ✓ SCRATCH.md 6,958 B = 21% of 32,550 B read-cap budget (38 lines, 183 B/line)
+  ✓ workbook/PREDICTIONS.tsv 7,275 B = 22% of 32,550 B read-cap budget (4 lines, 1819 B/line)
+
+--- 4. predictions-due scan ---
+  none due (or newborn ledger)
+
+========================================================================
+  WATT boot: power_watch FAILED — check manually, do NOT assume quiet.

@@ -1,0 +1,131 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.pjm.com/api/v1/gen_outages_by_type?RowCount=100&Order=Asc&StartRow=1&IsActiveMetadata=True&Fields=forced_outages_mw%2Cforecast_date%2Cforecast_execution_date_ept%2Cmaintenance_outages_mw%2Cplanned_outages_mw%2Cregion%2Ctotal_outages_mw&forecast_execution_date_ept=10%2F9%2F2026%2000%3A00to10%2F12%2F2026%2023%3A59&forecast_date=10%2F9%2F2026%2000%3A00to10%2F12%2F2026%2023%3A59&region=PJM%20RTO"
+    },
+    {
+      "rel": "metadata",
+      "href": "https://api.pjm.com/api/v1/gen_outages_by_type/metadata"
+    }
+  ],
+  "items": [
+    {
+      "forecast_execution_date_ept": "2026-10-09T00:00:00",
+      "forecast_date": "2026-10-09T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 70793,
+      "planned_outages_mw": 49691,
+      "maintenance_outages_mw": 7894,
+      "forced_outages_mw": 13208
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-09T00:00:00",
+      "forecast_date": "2026-10-10T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 69640,
+      "planned_outages_mw": 52756,
+      "maintenance_outages_mw": 5509,
+      "forced_outages_mw": 11375
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-09T00:00:00",
+      "forecast_date": "2026-10-11T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 67082,
+      "planned_outages_mw": 51215,
+      "maintenance_outages_mw": 6321,
+      "forced_outages_mw": 9546
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-09T00:00:00",
+      "forecast_date": "2026-10-12T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 65742,
+      "planned_outages_mw": 53118,
+      "maintenance_outages_mw": 4317,
+      "forced_outages_mw": 8307
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-10T00:00:00",
+      "forecast_date": "2026-10-10T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 70749,
+      "planned_outages_mw": 51572,
+      "maintenance_outages_mw": 6762,
+      "forced_outages_mw": 12415
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-10T00:00:00",
+      "forecast_date": "2026-10-11T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 67512,
+      "planned_outages_mw": 49636,
+      "maintenance_outages_mw": 6816,
+      "forced_outages_mw": 11060
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-10T00:00:00",
+      "forecast_date": "2026-10-12T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 64607,
+      "planned_outages_mw": 48780,
+      "maintenance_outages_mw": 5827,
+      "forced_outages_mw": 10000
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-11T00:00:00",
+      "forecast_date": "2026-10-11T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 68045,
+      "planned_outages_mw": 48594,
+      "maintenance_outages_mw": 6495,
+      "forced_outages_mw": 12956
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-11T00:00:00",
+      "forecast_date": "2026-10-12T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 66498,
+      "planned_outages_mw": 48694,
+      "maintenance_outages_mw": 5895,
+      "forced_outages_mw": 11909
+    },
+    {
+      "forecast_execution_date_ept": "2026-10-12T00:00:00",
+      "forecast_date": "2026-10-12T00:00:00",
+      "region": "PJM RTO",
+      "total_outages_mw": 62592,
+      "planned_outages_mw": 46499,
+      "maintenance_outages_mw": 5759,
+      "forced_outages_mw": 10334
+    }
+  ],
+  "searchSpecification": {
+    "rowCount": 100,
+    "order": "Asc",
+    "startRow": 1,
+    "isActiveMetadata": true,
+    "fields": [
+      "forced_outages_mw",
+      "forecast_date",
+      "forecast_execution_date_ept",
+      "maintenance_outages_mw",
+      "planned_outages_mw",
+      "region",
+      "total_outages_mw"
+    ],
+    "filters": [
+      {
+        "forecast_execution_date_ept": "10/9/2026 00:00to10/12/2026 23:59"
+      },
+      {
+        "forecast_date": "10/9/2026 00:00to10/12/2026 23:59"
+      },
+      {
+        "region": "PJM RTO"
+      }
+    ]
+  },
+  "totalRows": 10
+}

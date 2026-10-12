@@ -1,0 +1,41 @@
+{
+  "searchText": "",
+  "searchFullText": true,
+  "searchDescription": true,
+  "dateSearches": [
+    {
+      "dateType": "filed_date",
+      "startDate": "2026-08-01",
+      "endDate": "2026-10-12"
+    }
+  ],
+  "relativeDateSearches": [],
+  "categories": [
+    "Issuance"
+  ],
+  "libraries": [],
+  "affiliations": [],
+  "docketSearches": [
+    {
+      "docketNumber": "ER26-3515",
+      "subDocketNumbers": []
+    }
+  ],
+  "fedRegisterCite": null,
+  "fedCourtCaseNumber": null,
+  "fercCite": null,
+  "accessionNumber": null,
+  "opinion": null,
+  "orderNumber": null,
+  "docketed": null,
+  "parentAccessionNumber": null,
+  "eFiling": false,
+  "availability": [],
+  "resultsPerPage": 100,
+  "curPage": 0,
+  "sortBy": "",
+  "groupBy": "NONE",
+  "idolResultID": "",
+  "allDates": false,
+  "classTypes": []
+}

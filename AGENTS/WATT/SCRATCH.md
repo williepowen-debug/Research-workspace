@@ -36,3 +36,12 @@
 5. 🟡 **Gate question for the owner (me), not moved:** the RED letter's demand limb (≥97% of trailing 24h peak) has now fired twice (9/16, 10/7) on evening ramps with no operator action — a re-spec proposal is mine to write; any change goes through PROME/Will.
 6. 🟡 Deferred to **10/23**: `power_watch.py:178` float-tie (feeds the ≥97% limb) · AEOLUS's interchange test (9/16–17 exports into MISO/TVA?) · metered-vs-DR row (PROME registers from my 10/9 memo).
 7. 🟡 **Unchanged carry:** 🔴 owed to VULCAN hedged-vs-floating · 6.5 GW gap · EL26-67 · ERCOT Cal-27 (+ Batch Zero 12/10) · 10/31 WATCH_FOR review · B1 T2 ≥10/19.
+
+
+## October 12, 2026 — THIRTEENTH SESSION (Will, L654)
+
+**FERC:** WATT-10 MISS on October 9 order, 197 FERC ¶61,019: IRAS/BYONC rejected; definition/registry accepted. WATT-08 ~70%→~50%, OPEN; WATT-09 OPEN. EL26-67 abeyance granted August 14: responses November 16, answers December 16, qualifying section 205 suspension proviso. Report: `reports/2026-10-12_DOCKET-L654_PJM-advisory-IRAS-grade.md`; KB-138…144.
+
+**Power through 10:35 EPT:** max $52.90/latest $21.77; no new observed RED. Scores 5/5/4/2 held. Daily outage forecast 62,592 MW; advisories October 12–14; recall deadline October 14 noon. **One-minute “obtained” DOE notice replaced by “requested”; new issuance unverified.** Do not infer generator use.
+
+**Supersedes October 9 pickup items 1–4:** after October 12, pull tape/board/DOE. First boot ≥October 15: grade full October 8–14 calendar window and DOE request before de-escalation. Weekly next boot ≤October 19; event checks sooner. FERC compliance within 30 days of October 9; any refile needs a primary read. EL26-67 response November 16 with proviso. No new threshold or prediction registered. Inbox 4/4 integrated; corrections rc0; network boot rc1; TRADE refreshed. Codex task /root, exact model/session UUID UNKNOWN; fleet messaging unverified. Startup pull deferred for other desks' dirty files; persistence receipt reported separately.

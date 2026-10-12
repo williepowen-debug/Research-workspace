@@ -1,0 +1,66 @@
+========================================================================
+  WATT BOOT — power_watch · ledger staleness · predictions-due
+========================================================================
+
+--- 1. power_watch (P1 stress->price live read) ---
+========================================================================
+  POWER WATCH (PJM leg) — fetched 2026-10-12 14:41 UTC
+========================================================================
+
+  PJM EMERGENCY POSTINGS (8 on board, times EPT):
+    [10.11.2026 20:49] Informational: Special Notice (PJM-RTO, #105554)
+    [10.11.2026 20:48] Informational: Special Notice (PJM-RTO, #105553)
+    [10.11.2026 12:00] Informational: Maintenance Outage Recall (PJM-RTO, #105552)
+    [10.11.2026 08:45] Advisory: Capacity Advisory (PJM-RTO, #105551)
+    [10.10.2026 13:52] Warning: Geomagnetic Disturbance Warning (PJM-RTO, #105550)
+    [10.09.2026 10:10] Advisory: Capacity Advisory (PJM-RTO, #105549)
+    [10.08.2026 11:45] Advisory: Capacity Advisory (PJM-RTO, #105546)
+    [09.02.2026 12:06] Warning: Post Contingency Local Load Relief Warning (FE-AP, #105478)
+
+  PJM DEMAND (EIA-930, UTC hour stamps; publishes ~2-6h behind real time):
+    Latest:      87,837 MW  @2026-10-12T13Z  << NEAR 24h PEAK
+    24h peak:    91,870 MW  @2026-10-12T00Z  (latest = 95.6% of peak)
+
+  RETAIL PRICE BACKDROP (US avg, EIA monthly, ~2mo lag):
+    Industrial:  9.77 c/kWh (2026-07)
+    Residential: 18.31 c/kWh (2026-07)
+
+  NOTE: EIA LEG PROVENANCE — date stamps above are DATA vintage (authoritative). SOURCE-MODE (live pull vs <=1hr FORGE cache hit) is NOT distinguishable from this side — fetch.py cache hits carry no payload marker. Not an alert; a stated wall.
+
+  LMP-PROXY (EIA ICE wholesale, PJM WH Real Time Peak; BIWEEKLY file — latest row can lag ~2wk, cite delivery dates):
+    deliv 2026-09-24 (traded 2026-09-23): wtd $46.27/MWh (hi 47.50 / lo 45.05)
+    deliv 2026-09-25 (traded 2026-09-24): wtd $44.98/MWh (hi 46.50 / lo 44.00)
+    deliv 2026-09-28 (traded 2026-09-25): wtd $58.85/MWh (hi 62.75 / lo 57.25)
+    deliv 2026-09-29 (traded 2026-09-28): wtd $83.35/MWh (hi 87.00 / lo 79.50)
+    deliv 2026-09-30 (traded 2026-09-29): wtd $124.31/MWh (hi 127.50 / lo 121.00)
+    window max: $173.97/MWh deliv 2026-09-18 [YELLOW (>=$150)] — 10-row window
+
+  SPARK SPREAD (P4; heat rate 7.0 MMBtu/MWh = EIA benchmark 7,000 Btu/kWh (efficient-CCGT proxy, not live marginal HR)):
+    SAME-VINTAGE (primary): PJM-RTO on-peak mean $59.20/MWh (HE08-23 EPT, 2026-10-06..2026-10-11, n=1,142) - 7.0 x HH $3.139 (2026-10-12) = +$37.23/MWh
+      ⚠️ SINGLE-DAY OUTLIER(S) vs the window median $52.50: 2026-10-07 $117.44 (2.2x). This mean is a STRESS read, not a baseline — cite the window composition beside it and re-measure on a clean window before any DIRECTION claim. NOTE: median-based, so it CANNOT see contamination that is the majority of the window; silence != clean.
+      sensitivity @ HR 8.0 (older marginal unit): +$34.09/MWh (delta $3.14 — low while gas is cheap)
+    NOTE: PROXY-BASIS spark REFUSED (by design) — power leg deliv 2026-09-30 vs gas leg 2026-10-12 = 12-day vintage gap (> 3d limit). Would have printed +$102.34/MWh — a stale-regime power leg against today's gas. Use the same-vintage figure above.
+      NOTE: BASIS — RT on-peak LMP != ICE peak-period OTC — different products. Never treat the two as one compression time-series.
+
+  OFFICIAL LMP (Data Miner 2, PJM-RTO 5-min UNVERIFIED — operational read, not settlement; verified hourly lags ~4 days [measured 8/17]):
+    latest:    $    21.77/MWh  @10:35 EPT
+    today max: $    52.90/MWh  @08:00 EPT  (127 prints since 00:00 EPT)
+
+  Power leg: PJM demand 87,837 MW @2026-10-12T13Z (95.6% of 24h peak) · emergencies: 8 postings (routine/local, 0 emergency-class) · LMP 21.77 @10:35 EPT / max 52.90 @08:00 EPT [normal] (DM2 5-min unverified) · LMP-proxy $124.31/MWh deliv 2026-09-30 [normal] · spark +$37.23/MWh (HR 7.0 = EIA benchmark; gas 2026-10-12) · retail ind 9.77 c/kWh (2026-07), res 18.31 (2026-07)
+  boot.py: power_watch printed an alert MARKER at rc 0 — escalating to REVIEW (SFG guard, 2026-08-17).
+
+--- 2. ledger staleness (workbook + TRADE.md vs STATUS) ---
+perimeter [WATT]: 6 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv
+⚠️  [WATT] 1 stale ledger(s) behind STATUS: TRADE.md (+14d behind)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+
+--- 3. READ-CAP: every boot-read surface vs the 32,550 B fleet budget ---
+  ✓ STATUS.md 22,067 B = 68% of 32,550 B read-cap budget (120 lines, 184 B/line)
+  ✓ SCRATCH.md 6,958 B = 21% of 32,550 B read-cap budget (38 lines, 183 B/line)
+  ✓ workbook/PREDICTIONS.tsv 7,275 B = 22% of 32,550 B read-cap budget (4 lines, 1819 B/line)
+
+--- 4. predictions-due scan ---
+  none due (or newborn ledger)
+
+========================================================================
+  WATT boot: REVIEW — power_watch, staleness

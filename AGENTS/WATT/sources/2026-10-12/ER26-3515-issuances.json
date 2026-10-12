@@ -1,0 +1,372 @@
+{
+  "searchHits": [
+    {
+      "reference": "{85B44ED1-C294-CB1B-847D-A122D3800000}-{AA5986A3-4945-C7A8-8BDD-A122D3900000}",
+      "documentId": "85B44ED1-C294-CB1B-847D-A122D3800000",
+      "description": "Order Accepting Tariff Revisions in Part and Rejecting Tariff Revisions in Part re PJM Interconnection, L.L.C. under ER26-3515. Commissioner Rosner is concurring with a separate statement attached. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20261009-3055",
+      "issuedDate": "10/09/2026",
+      "filedDate": "10/09/2026",
+      "postedDate": "10/09/2026",
+      "classTypes": [
+        {
+          "documentClass": "Order/Opinion",
+          "documentType": "Commission Order/Opinion"
+        },
+        {
+          "documentClass": "Order/Opinion",
+          "documentType": "Dissent/Concurrence by the Commissioner"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "ER26-3515-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "AA5986A3-4945-C7A8-8BDD-A122D3900000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "ER26-3515-000.docx",
+          "fileDesc": "Notational Order",
+          "fileSize": 233754,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Reese",
+          "firstInitial": "D",
+          "middleInitial": "A"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+          "lastName": "*",
+          "firstInitial": "*",
+          "middleInitial": ""
+        }
+      ]
+    },
+    {
+      "reference": "{40A81058-EC05-CE66-8669-A01FC6700000}-{781A0C22-311F-C9CB-9786-A01FC6700000}",
+      "documentId": "40A81058-EC05-CE66-8669-A01FC6700000",
+      "description": "Notice Rescinding Prior Notice re PJM Interconnection, L.L.C. under ER26-3515. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260820-3043",
+      "issuedDate": "08/20/2026",
+      "filedDate": "08/20/2026",
+      "postedDate": "08/20/2026",
+      "classTypes": [
+        {
+          "documentClass": "Notice",
+          "documentType": "Formal Notice"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "ER26-3515-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "781A0C22-311F-C9CB-9786-A01FC6700000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "ER26-3515-000 Rescind Notice.docx",
+          "fileDesc": "Rescind Notice",
+          "fileSize": 27847,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Clay",
+          "firstInitial": "C",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        }
+      ]
+    },
+    {
+      "reference": "{69E72FFC-118E-CEFD-85E2-A06285200000}-{F2C7A7BE-70C1-C446-9542-A06285200000}",
+      "documentId": "69E72FFC-118E-CEFD-85E2-A06285200000",
+      "description": "Notice Denying Extension of Time re PJM Interconnection, L.L.C. under ER26-3515. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260902-3019",
+      "issuedDate": "09/02/2026",
+      "filedDate": "09/02/2026",
+      "postedDate": "09/02/2026",
+      "classTypes": [
+        {
+          "documentClass": "Notice",
+          "documentType": "Formal Notice"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "ER26-3515-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "F2C7A7BE-70C1-C446-9542-A06285200000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "ER26-3515-000 Denying EOT.docx",
+          "fileDesc": "NOTICE DENYING EXTENSION OF TIME",
+          "fileSize": 47201,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Clay",
+          "firstInitial": "C",
+          "middleInitial": "D"
+        }
+      ]
+    },
+    {
+      "reference": "{39C94958-2FDC-C635-85AD-A0599C300000}-{9DA07B09-D595-CE64-93F3-A0599C400000}",
+      "documentId": "39C94958-2FDC-C635-85AD-A0599C300000",
+      "description": "Notice Shortening Answer Period re PJM Interconnection, L.L.C. under ER26-3515. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260831-3082",
+      "issuedDate": "08/31/2026",
+      "filedDate": "08/31/2026",
+      "postedDate": "08/31/2026",
+      "classTypes": [
+        {
+          "documentClass": "Notice",
+          "documentType": "Formal Notice"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "ER26-3515-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "9DA07B09-D595-CE64-93F3-A0599C400000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "ER26-3515-000 Shortening Answer Period.docx",
+          "fileDesc": "NOTICE SHORTENING ANSWER PERIOD",
+          "fileSize": 45344,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Clay",
+          "firstInitial": "C",
+          "middleInitial": "D"
+        }
+      ]
+    },
+    {
+      "reference": "{A275D031-4551-CC45-8414-A001F5500000}-{1B852FED-315E-C96F-9376-A001F5500000}",
+      "documentId": "A275D031-4551-CC45-8414-A001F5500000",
+      "description": "Combined Notice of Filings #1, August 14, 2026: This notice contains information concerning multiple filings received by FERC. ",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260814-3081",
+      "issuedDate": "08/14/2026",
+      "filedDate": "08/14/2026",
+      "postedDate": "08/14/2026",
+      "classTypes": [
+        {
+          "documentClass": "Notice",
+          "documentType": "Formal Notice"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "ER17-360-012",
+        "ER17-540-011",
+        "ER21-40-000",
+        "ER26-1969-001",
+        "ER26-2598-001",
+        "ER26-2893-001",
+        "ER26-3514-000",
+        "ER26-3515-000",
+        "ER26-3516-000",
+        "ER26-3517-000",
+        "ER26-3518-000",
+        "ER26-3520-000",
+        "ER26-3521-000",
+        "ER26-3523-000",
+        "ER26-3525-000",
+        "ER26-3526-000",
+        "ER21-2832-003",
+        "ER16-141-018",
+        "ER17-361-012",
+        "ER17-539-011",
+        "ER21-62-000",
+        "ER21-2833-003",
+        "ER25-416-003",
+        "ER26-1966-001",
+        "ER26-3513-000",
+        "ER26-3522-000",
+        "ER26-3524-000",
+        "ER26-3527-000",
+        "ER17-362-012"
+      ],
+      "transmittals": [
+        {
+          "fileId": "1B852FED-315E-C96F-9376-A001F5500000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "CNF081426.docx",
+          "fileDesc": "COMBINED NOTICE OF FILINGS #1",
+          "fileSize": 38466,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Clay",
+          "firstInitial": "C",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        }
+      ]
+    },
+    {
+      "reference": "{AF441C85-21FC-C44F-8724-9FFCF5E00000}-{A71F7226-DDFD-C022-9200-9FFCF5E00000}",
+      "documentId": "AF441C85-21FC-C44F-8724-9FFCF5E00000",
+      "description": "Combined Notice of Filings #2, August 13, 2026: This notice contains information concerning multiple filings received by FERC.",
+      "summary": null,
+      "category": "Issuance",
+      "acesssionNumber": "20260813-3119",
+      "issuedDate": "08/13/2026",
+      "filedDate": "08/13/2026",
+      "postedDate": "08/13/2026",
+      "classTypes": [
+        {
+          "documentClass": "Notice",
+          "documentType": "Formal Notice"
+        }
+      ],
+      "availCode": "P",
+      "familyValue": "None",
+      "libraries": [
+        "Electric"
+      ],
+      "score": 85.35,
+      "docketNumbers": [
+        "ER23-2760-003",
+        "ER26-2598-001",
+        "ER26-3513-000",
+        "ER26-3514-000",
+        "ER26-3517-000",
+        "ER26-3515-000",
+        "ER26-3516-000"
+      ],
+      "transmittals": [
+        {
+          "fileId": "A71F7226-DDFD-C022-9200-9FFCF5E00000",
+          "fileType": "DOCX",
+          "fileFormat": "Standard",
+          "fileName": "CNF081326B.docx",
+          "fileDesc": "Combined Notice #2",
+          "fileSize": 27373,
+          "transmittalFk": null
+        }
+      ],
+      "affiliations": [
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Clay",
+          "firstInitial": "C",
+          "middleInitial": "D"
+        },
+        {
+          "afType": "AUTHOR",
+          "affiliation": "SECRETARY OF THE COMMISSION, FERC",
+          "lastName": "Bose",
+          "firstInitial": "K",
+          "middleInitial": "D"
+        }
+      ]
+    }
+  ],
+  "totalHits": 6,
+  "numHits": 6,
+  "success": true,
+  "errorMessage": null,
+  "searchResultId": null
+}
