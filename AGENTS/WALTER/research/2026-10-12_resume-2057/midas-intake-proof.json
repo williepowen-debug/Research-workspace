@@ -5,7 +5,7 @@
   "source_report": "AGENTS/MIDAS/analysis/2026-10-12_due-metals-review-held-GLD.md",
   "source_report_sha256": "9931fe410ae9bd52f090cf61dd26319640341aea77d684519b10aeb6cd7ef5e7",
   "source_status_sha256": "6c73fd386c5b35f755e436d96586ff975a11c9014d149ca91e971f5a0c1227e1",
-  "source_publication": "Author work is uncommitted at read; do not claim completed Git filing.",
+  "source_publication": "MIDAS authored60815a590, exact packet bytes verified against HEAD before Git move; report matched committed core bytes.",
   "batch": "BM-20261012-08",
   "dispositions": [
     "NOTE owner consumption/correction context",
@@ -16,5 +16,8 @@
   ],
   "new_dispatches": 0,
   "new_kill_log_rows": 0,
-  "basis_limit": "Context intake only; source dates/association/forecast/vendor-settlement limits preserved; no fresh primary certification or grade."
+  "basis_limit": "Context intake only; source dates/association/forecast/vendor-settlement limits preserved; no fresh primary certification or grade.",
+  "initial_source_publication": "Author work is uncommitted at read; do not claim completed Git filing.",
+  "processed_path": "AGENTS/WALTER/inbox/processed/2026-10-12_from-MIDAS_current-context-COT-and-primary-metal-review.md",
+  "consumed_at": "2026-10-12T21:19:31Z"
 }

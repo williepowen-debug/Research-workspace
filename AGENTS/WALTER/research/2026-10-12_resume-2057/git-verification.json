@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-10-12T21:17:35Z",
+  "checkpoint": "5a0c5a65ff7823de174717ca3f69d9d2ff363048",
+  "checkpoint_published": false,
+  "origin": "bdacfca4a2e56bea6b02623828045f08e3616032",
+  "checkpoint_path_count": 54,
+  "unexpected_paths": [],
+  "midas_source_tracked": true,
+  "midas_source_sha256": "889ebd5ab2b2894bc03484ded3fec5f672192374eec4e30b721d1d9c5d2e4582",
+  "own_push": "DEFERRED; foreign owner work; no WALTER push performed"
+}

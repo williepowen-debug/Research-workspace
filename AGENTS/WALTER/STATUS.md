@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-12T21:15:02Z — Will-launched fresh boot and ordinary intake, ACTIVE. **Boot PARTIAL**. BOARD **1353**; day total **30 signals (1 FLASH, 29 PRIORITY)**, **33 kills**, **0 cluster-mediating signals**. This boot: 0 new dispatches or helpers; prior helper receipts remain historical.
+**Updated:** 2026-10-12T21:19:31Z — Will-launched fresh boot and ordinary intake, ACTIVE. **Boot PARTIAL**. BOARD **1353**; day total **30 signals (1 FLASH, 29 PRIORITY)**, **33 kills**, **0 cluster-mediating signals**. This boot: 0 new dispatches or helpers; prior helper receipts remain historical.
 
 ## BOTTOM LINE
 
-Resumed the published checkpoint 34e4dbde4. Ordinary lane intake is quiet; one late MIDAS context packet was read and folded to its refreshed owner record. Source author commit/filing is pending; no new dispatch, DEWEY return or file drop. All 107 required day handoffs are now origin-proven; consumption remains recipient-owned. The fresh X scan failed token renewal with HTTP400 and consumed nothing; earlier 29 bookmarks remain handled. Boot stays PARTIAL under the explicit charter cap and source/instrument limits. Dated threshold observations establish no new sustained fire. Existing expiry decisions remain with Will/TERRY; current QQQ order/outcome UNKNOWN. Durable duties stay in LAST_COMPLETION.
+Resumed the published checkpoint 34e4dbde4. Ordinary lane intake is quiet; one late MIDAS context packet was read and folded to its refreshed owner record. Exact authored packet verified and filed; no new dispatch, DEWEY return or file drop. All 107 required day handoffs are now origin-proven; consumption remains recipient-owned. The fresh X scan failed token renewal with HTTP400 and consumed nothing; earlier 29 bookmarks remain handled. Boot stays PARTIAL under the explicit charter cap and source/instrument limits. Dated threshold observations establish no new sustained fire. Existing expiry decisions remain with Will/TERRY; current QQQ order/outcome UNKNOWN. Durable duties stay in LAST_COMPLETION.
 
 ## DATED MARKET OBSERVATIONS — retrieved October12 20:58Z unless separately dated
 
@@ -51,7 +51,7 @@ Supported local Codex overview0.162.1 returned10 entries at20:59–21:00Z: BRENT
 
 Receiving telemetry at21:08Z:78 unconsumed >2d across15 desks,25 ACTION/53 INFO; oldest ACTION10d. Age basis is delivery_log.timestamp_routed, with one mtime fallback across the full scan. Exact publication and delivery counts remain in LAST_COMPLETION. Local discovery remains partial; no current-pair acknowledgment or universal consumption claimed.
 
-Late MIDAS context receipt: research/2026-10-12_resume-2057/MIDAS_INTAKE.md. October2 header capture remains historical; current owner context read with author-publication caveat.
+Late MIDAS context receipt: research/2026-10-12_resume-2057/MIDAS_INTAKE.md. October2 header capture remains historical; current owner context read and exact authored packet filed.
 
 ## Active LIAISON channels
 
