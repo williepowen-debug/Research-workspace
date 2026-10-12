@@ -1,71 +1,71 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 Last assessment53/70 (10/10), unchanged. October12 startup recovered L672, already assigned today; scope review pending.
+**Status:** 🔴 Registered 53/70 unchanged; October12 scope review challenges broad spending convergence.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-12 13:39 ET | **STATUS commit:** d88824eca (startup recovery only; market/data claims below retain their stated prior dates; live pulls failed DNS).
-**Position:** No real capital authority; paper sleeve unchanged except PS-0001..0005 re-pointed CRL-27 → CRL-31 (record-keeping, no capital). Structural references only, no marks.
+**As of:** 2026-10-12 14:08 ET | **STATUS commit:** c7ca374df
+**Position:** No capital authority. Paper references only; no marks or broker position claims.
 
 ## CROSS-DOMAIN
 
-**SENDING:** only rows marked *sent* were committed deliveries.
+**SENDING:** committed packets at c7ca374df; native notification and recipient consumption UNKNOWN.
 
-| To | Signal | Priority | Mechanism it triggers in recipient's domain |
-|---|---|---|---|
-| TERRY (sent 10/10) | TRY-FIRE-002 re-lock ask: CRL-21 vintage leg UNCHANGED (25%); bureau flow into 90+ NOT turned and no print before 10/19; KEEP DORMANT | 🟠 | TERRY's card archives un-graded at 10/16 under its own 9/2 rule unless TERRY decides otherwise. |
-| RED (staged 10/10 in `handoff_RED/COUNTER_LOG.md`) | NY Fed SR1201: the tariff effect on goods inflation peaked Feb-2026 and its 12-month contribution falls to ~0 by Aug-2026 (KB-506) | 🟡 | Counter-evidence to tariff pass-through as a forward squeeze leg. |
-| PROME (sent 10/01) | CRL-08 graded MISSED at its 7/06 fire (28%); CRL-27 → CRL-31; STUE rows L152/L153 read; DR-1 card leg requested; cadence WEEKLY | 🟠 | Ledger events forced by WQ-288/WQ-287. The card-leg commission is PROME's to route (Tier 1). |
-| DAEDALUS (sent 10/01) | CRL-17 forced call → NO-VERDICT-BY-INSTRUMENT (no published dollar series); forfeits a possible miss (Brier 0.3025 at 55%) | 🟠 | Scoreboard owner rules whether the token stands. |
-| HOMER (sent 10/01, `d9d9eeede`) | 3c handle: V10↔C1+A1 confirmed; V3 re-scope was to be decided 10/05 (**NOT decided: the review did not run**); R3 candidate | 🟡 | HOMER builds 3c with the CARL side labelled; the V3 decision is still owed. |
-| LABOR (via the docket) | V16 graded 10/02 on the pre-registered map: outcome C (S=+29K, R=−60K), count 0 of 2; LABOR grades its own letters off the same print | 🟠 | R<0, so the R=0 letter gap did not arise. Two tests on one print; never read as one. |
-| LIQUID / REGINALD | HY 315bp (10/8); CCC 1,252bp (10/8), above 9/29's 1,157bp; widening reached B | 🟠 | The quality split is still widening; broad HY sits under REGINALD/RED's >320 sustain-3 bars. |
-| RED (staged in `handoff_RED/COUNTER_LOG.md`) | Saving rate re-based Jul 3.0 → 4.6%; MARCO voter-reg half relabelled NEUTRAL | 🟠 | Aggregate counter-evidence to broad fragility. The cohort holding the savings is unidentified. |
+| To | Evidence / analysis | Mechanism / limitation |
+|---|---|---|
+| PROME (sent10/12) | Scope finding and L672 disposition, `PROME/inbox/2026-10-12_from-CARL_scope-review-and-data-catchup.md` | Review/command repair/retirement done; EART source gap retained. No new decision or capital proposal. |
+| WALTER (sent10/12) | Newly found BofA October9 spending, SCF denominator resolution, Canadian tariff tail, Epiq source inconsistency | Dedupe and route signals; no direct bypass to signal consumers. Source packet in its inbox. |
+| DEWEY (sent10/12) | DR1 Q2 working artifact read; card current-cohort/book ratios are not causal suppression | Class-wide50bp test NOT COMPUTABLE, not zero. Original DEWEY source/packet untracked at18:05UTC; finalized delivery remains pending. Existing Q3 refresh11/13, no new commission. |
+| TERRY (sent10/10) | TRY-FIRE-002 CRL21 premise: KEEP DORMANT, vintage leg25% unchanged | Prior answer stands; new result due at Q3 issuer print, packet either way. |
+| RED (staged in owned counter-log, historical) | DR3 premium leg unresolved; earlier tariff pulse faded | October12 source finding adds Canadian pass-through tail; no blanket forward-driver removal. New signal routing goes through WALTER. |
+| HOMER (prior join) | V10 joins its C1+A1; broader C2 is not identical to CARL's Fannie-based V3 | Do not inherit HOMER C2score4 into V3score3. Its August Fannie0.57%/Freddie0.64% diverge (peer evidence, no fresh CARL primary pull). |
 
 **WAITING FOR:**
 
-| From | Input | Expected by | Why it matters | How it changes my view |
-|---|---|---|---|---|
-| LABOR / BLS | October NFP + net Aug–Sep revisions | Fri 11/6 08:30 | V16 drop-back count restarts (earliest print 1 of 2) | S>0 AND R>0 → 1 of 2, no candidate yet; anything else stays 0 of 2. |
-| DEWEY | DR-1 card leg (FDM tables) | proposed 11/13 | DR-3 is done: SCORED 10/01, kill NOT fired (trade-down half restored after style factors; premium leg UNRESOLVED, a tie and window-unstable, per RED 10/01, adopted) | Card-leg wedge vs the 50bps kill. |
-| PROME / DEWEY | DR-1 card leg (issuer FDM tables) | proposed 11/13 | DR-1 PARTIAL until a private leg lands | Wedge vs the 50bps class-wide kill. |
-| FSA | Data Center refresh with 9/30 data | ~mid/late Dec (inferred) | First public proxy for CRL-13 (a stock, not a wave rate) | Non-selection read; RAP enrollment. |
-| STUE | ES-01/04/06 grades | 10/2 (overdue) | Cure vs inflow behind slower default growth | STUE still dark 10/10; spawn or re-date via PROME. |
-| ALLY / COF / SYF | Q3 prints with vintage-loss commentary | ~10/20 (not IR-confirmed) | CRL-21 vintage leg (the only live path), CRL-20 count, first CRL-31 check | FY25/26 vintages at least +50bp over FY2023 at comparable seasoning confirm CRL-21's surviving leg; its invalidation needs them within ±25bp of FY2023. A read in between is graded on the letter at the time, not here. |
+| From | Input | Expected by | Consequence |
+|---|---|---|---|
+| BLS | September CPI |10/14,08:30ET| CRL10 food trajectory; full deferred signals. October YoY denominator missing, November/December govern. |
+| SEC / own pull | Four registered EART August exhibits |10/14retry| Card remains source-incomplete; detect filing is not parse collection period/grade. |
+| Census | September retail |10/15| First official September control/T1 read; benchmark update is not new month. |
+| SYF / ALLY / COF | Q3 prints |10/20:~06:00/~07:30/16:05ET, IR-confirmed10/12| CRL21 surviving vintage leg, CRL20 count, CRL31 reachability. TERRY receives CRL21 result either way. Other issuer dates not covered. |
+| DEWEY | Final committed Q2 card artifact and existing Q3 refresh | Q2 commit pending;Q3by11/13| Reconcile source hash against finalized version; do not treat cohort scale as hidden-DQ wedge. |
+| STUE | ES01/04/06 grades | overdue10/02;parentreview10/14| Cure vs inflow; no launch in this session, PROME separate owner/slate. |
+| LABOR / BLS | October NFP |11/06,08:30ET| V16 earliest new print1; drop-back0/2 after10/02. |
+| FSA |9/30data public refresh|~mid/lateDecember,inferred| SAVE/RAP stock is not a non-selection wave rate; denominator required. |
 
 ## VIEW
 
-- Fuel: GASREGW $4.354 (w/e 10/5), the second weekly decline; it never printed ≥$4.50 in Aug–Sep. AAA diesel $6.282 (10/10), off the 9/22 record. CRL-08 is closed (MISSED, resolved 7/06).
-- Against the thesis: the saving rate re-based to 4.6% (Jul) / 4.1% (Aug); BofA's closed card-spending K; flat-to-better VantageScore DQ; slower student-default growth; claims 197K (w/e 10/3); ISM services hiring back above 50 (Sept 50.1); NY Fed finds the tariff inflation effect already peaked.
-- New 10/10, both sides: Fed SCF 2025 has 19.6% of families behind on a loan payment (12.2% in 2022; base unsettled at primary, KB-504); G.19 August revolving −4.2% annualized, a flow that cannot separate paydown from tighter supply (KB-505).
-- For the thesis: the CCC split at FRED-window highs; KBRA non-prime auto losses up; 3.5M federal borrowers 30+ late; FL #1 in foreclosure starts; August's 0.5pp saving drawdown as spending outran income.
-- Student loans: wave-1 SAVE deadlines passed 9/29 with no public selection count. The one easing lever (1% auto-pay cut) had its deadline extended to 12/31.
-- Ledger: CRL-08 MISSED (7/06 fire, 28%), CRL-17 NO-VERDICT (contestable), CRL-27 retired → CRL-31 50%, DR-3 kill not fired; premium leg UNRESOLVED (tie). 'K converging downward' is NOT an earned upgrade (RED 10/01).
-- Score unchanged does not mean evidence unchanged; each observation carries its own date and basis in STATUS.
+- **Scope:** concentrated credit and affordability strain remains supported. Current broad downward spending convergence is not established. The60% fragile population share is a framework assumption, not measured by these releases.
+- **Realized spending against the broad claim:** BofASeptember card spend+6.2%YoY,+5.1%exgas; lower-income spending grows within the sample. Nominal, selected active bank customers, not all households or units. CensusAugust revised rebound and CCLQ3 net yields+2.4%constantcurrency corroborate spending resilience on different, imperfect perimeters.
+- **Survey/history on the strain:** MichiganOctprelim sentiment46.3,1Y inflation4.7%,longrun3.5%; usual-spending intentions20% lower-income third vs42% upper. Intentions are not actual outlays; the June–Sept interview window differs. Fed2025SCF reports19.6%ALLfamilies late versus12.2%2022; public-data denominator resolved, historical timing retained.
+- **Current costs:** AAA10/12regular$4.356,diesel$6.266,FL$4.068, slightly below10/10. PMMS7.40%(10/8) keeps affordability tight. Weekly EIA remains10/5 and spreads/claims keep their observation dates; successful re-pull does not create new observations.
+- **Method repairs:** September28 Census benchmark changes August control1.36→1.22%MoM; T1still3/3against. NYFed earlier tariff inflation fades but Canadian tail persists. DR1 card ratios show program scale, not causal hidden delinquency or necessarily deferred accounting loss.
+- **Registered grades:** score53/70 and13OPEN unchanged. V2 Augustdeep SOURCE-INCOMPLETE; V12un-fire0/2;V16drop-back0/2. Score staying high is not proof counter-evidence is harmless.
 
 ## CALIBRATION
 
-- **Conviction:** carried direction MEDIUM-HIGH, timing MEDIUM, level MEDIUM; no re-grade. The 14 vectors share ~10 roots; do not count them as independent witnesses.
-- **Diverge from market by:** stress concentrated in lower-quality borrowers (subprime auto losses, CCC spreads, student delinquency) while aggregate spending and broad HY stay firm. This is narrower than claiming an aggregate spending collapse.
-- **Cross-agent tensions known to me:** BofA's closed-K reading versus CARL's V8 "converging downward" framing. It is unresolved: BofA's customer-base and withholding caveats are real, but it is primary data against the thesis. CRUISE/MARCO counter-evidence is staged to RED, not scored.
-- **Uncertain about:** whether slower default growth reflects cures or fewer new defaults; bottom-cohort spending beneath aggregates; auto extension behaviour; how fast the pump follows crude down.
-- **DR-5 (9/24): causal adjudication UNRESOLVED, not scored** (relabelled 9/24 late from "scored strike" on CATO AP1). Grocery units are still NOT used as cyclical evidence. The pre-registered cycle test (state volume vs state UR) could not be run: the substitute is a low-power null, policy could reach ~64% on a unit basis (passes half at ≥1.17×; DEWEY dc1bddd37), and the fuel mechanism is unmapped. KB-CARL-498.
-- **Failure patterns:** threshold vs mechanism; stock vs flow; same-deal YoY includes pool ageing; re-pricing just before resolution flatters Brier (avoided on CRL-08, which scored at its pre-fire 28%, not the 7% walk). CRL-05's 13.74% bar is DEAD; CRL-30 uses FLOW.
-- **RED counter-frame:** the evidence that moved most this week is counter-evidence. Coarse triggers can hold 53/70 while evidence weakens; that does not license dismissing it.
+- **Conviction:** concentrated consumer credit/affordability strain MEDIUM-HIGH; populationwide spending-collapse claim UNESTABLISHED; timing MEDIUM. Registered score is a threshold tally with shared roots, not14 independent confirmations.
+- **Diverge from market by:** lower-quality credit and affordability can remain strained while aggregate/selected-customer spending grows. Magnitude and population coverage still unresolved; no measured aggregate spending collapse claimed.
+- **Cross-agent tensions:** BofA measured growth across cohorts versus CARL's older downward-convergence assertion. The current assessment carries the contradictory observation rather than assuming masking wins. Michigan and SCF measure intentions/history, not a refutation of observed September spending.
+- **Uncertain about:** EART's inaccessible Augustdeep values/cures; bottom-cohort outlays outside bank customers; borrower cures vs fewer new defaults; modification counterfactual and class-wide overlap. Late DR1 source is not yet committed by its author.
+- **RED counter-frame:** containment/spending resilience has concrete current evidence. The scope finding adopts that limitation without inventing broad household healing or bypassing registered kill tests.
+- **Failure patterns:** source identity and collection-period discipline; stock/flow; survey vs realized behavior; same-vintage revision comparisons; current modified balances vs causal hidden delinquency. CRL05GFC13.74%bar stays retired. No confidence walk or early grading.
 
 ## NEXT DECISION POINT
 
-- **What / when:** DOCKET L672 assigns the overdue scope review to October12, before October13 bank prints; no renewed approval needed. Include the new Michigan cohort and SCF historical-distribution signals (deferred to today) and assess WATT's IRAS packet without assuming all power cost is removed. Independent primary verification and the scope finding remain pending.
-- **What changes the view:** V16 4→3 needs two new consecutive positive-with-up-revision prints, the earliest pair Nov 6 + Dec release. A V2 downgrade still needs two qualifying collection months in both tiers.
+- **What / when:** October14CPI and EART source retry, October15retail, October20 issuer cluster. Approved scope review is complete; no renewed permission needed.
+- **What changes the view:** registered food path, qualifying same-pool two-tier auto reversal, CRL21 vintage-loss comparisons and CRL31 reachability. V8 DG first out-of-sample and premium discriminators remain pending. Structural test changes still require a separate Will ruling.
 
-## WATCH (next 2–4 weeks)
+## WATCH
 
-| Date | Event | Threshold / signal |
+| Date | Event | Registered question |
 |---|---|---|
-| 11/6 | October NFP | V16 drop-back count restarts (0 of 2 after 10/02) |
-| 10/12 (L672; missed10/5) | **Thesis-scope review** | Broad fragility vs concentrated credit; structural change → Will |
-| 10/13 | Bank Q3: JPM, WFC (corrected from 10/14), C | Consumer-credit commentary; REGINALD owns bank-level |
-| 10/14 | September CPI; AFT v. ED status conference | CRL-10 food (beef, diesel freight deferrals); SAVE backlog figure? |
-| 10/15 | September retail sales | Spending response |
-| ~10/20 | Q3 issuer prints; CRL-29 first grade; DHI FQ4 | CRL-20/21 + first CRL-31 check; DR-1 auto leg; CRL-23 |
+|10/13| JPM/WFC/C | Consumer commentary; REGINALD owns bank grade |
+|10/14| CPI;AFTvED;EARTretry | Food/SAVE denominators, complete primary collection-period cells |
+|10/15| Retail/claims | Actual September spending and labor-owner grades |
+|10/20| SYF/ALLY/COF | Credit conversion/vintage losses, TERRY packet either way |
+|10/23| Michiganfinal | Persistence of preliminary survey turn |
+|10/30| DOC GDP/KFFgate | Child owner data/source obligations |
+|11/06| NFP | Earliest V16 new print1 |
+|11/12–13| PHAN/POLLY;DR1Q3 | Existing source gates/commission, no new research launch |
 
-**Delivery:** Startup receipt `domain/sources/2026-10-12_startup-recovery.md`; check results in SCRATCH. CARL authored paths locally committed; pull/push deferred for concurrent dirty peers, remote delivery unverified. Partial closeout: no live refresh, research/retirement/staleness work remains. Three inbox copies retained; two BOARD deferrals are receipts, not integration.
+**Delivery / gaps:** scope/evidence persisted atc7ca374df; three self-authored packets committed. Source-incomplete EART, child data-clock warnings and uncommitted late DEWEY input remain material. RawPDF/HTML local under repo ignore; text, publicSCFZIP/CensusXLSX and computations tracked. Final checks/push receipt in closeout notes; remote delivery is not recipient consumption.
