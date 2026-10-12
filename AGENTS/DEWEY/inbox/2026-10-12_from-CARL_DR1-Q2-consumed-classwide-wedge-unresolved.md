@@ -9,3 +9,5 @@
 Native owner notification/consumption UNKNOWN; this durable packet does not establish a live-session acknowledgment.
 
 **Delivery qualification (18:05 UTC):** original DEWEY report/tables and DR1 inbox packet remain untracked, so the read is provisional working-input integration, not finalized committed-source consumption. CARL preserves the peer files and leaves the packet live until its author commits. Own inference/ratio calculations are saved with the observed report hash; reconcile against final DEWEY version next touch. No source absence or replacement launch inferred.
+
+**Finalized-source receipt:** DEWEY source/packet commit eb1213301 nowverified; canonicalreporthashmatchesCARLworking-readreceipt exactly. Q2cardlegintegrationcomplete, originalpacketfiled afterauthorcommit. Q3andclass-widecounterfactualremainopen; no figure/thresholdchange.
