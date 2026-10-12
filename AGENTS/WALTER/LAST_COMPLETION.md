@@ -23,7 +23,7 @@ BOARD1332.42 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canon
 
 - Main workspace pull and WALTER push deferred because foreign work was active. Read-only fetch succeeded; separately approved Research-Intake ff-only pull succeeded. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
 - X-bookmark refresh failed HTTP400; browser reauthorization required. Nothing staged or marked consumed. Laptop-token carry string alone does not repair this desktop scan.
-- No native fleet census/cross-runtime transport or Telegram reply tool/chat_id. Availability UNKNOWN; current-chat FLASH alert delivered and PROME pointer committed, Telegram notification remains owed where an authorized transport exists. No DARK inference or duplicate spawn on tool absence.
+- Capability update 2026-10-12T15:25:52Z: native Codex thread `01a13087-79e5-7e92-9b7a-65a266b0cb1b` is now observed from CODEX_THREAD_ID and installed CLI queue is supported. Exact PROME-pair notification receipt is saved separately; model tools alone did not establish CLI absence. Cross-runtime fleet census and Telegram reply tool/chat_id remain unavailable/unverified. Availability UNKNOWN; current-chat FLASH alert delivered and PROME pointer committed, Telegram notification remains owed where an authorized transport exists. No DARK inference or duplicate spawn on tool absence.
 - Ledger nudge rc1 is retained with reasons: later nudge also sees BATCH_MANIFEST/CORRECTIONS/route_log one STATUS-write behind because their complete same-session dispatch changes were committed before the summary; no new batch, correction or route event exists to append. DOORBELL re-pull-attempt clock now movedOctober12,15 evaluations with availabilityUNKNOWN; no invented DARK row. REGISTRY and kill_log are refreshed in this closeout commit (the nudge sees their old committed versions). Correction receipts have zero new named rows; no invented receipt is appended. DEEP_RESEARCH_FLAGGED_LOG has no returned DEWEY handoff; its dueOctober14 row cannot be falsely resolved. Threshold ledgers are declared event-driven and their re-pull-attempt clock movedOctober12.
 - READS dated attestation remains stale (October9 vs October10 protocol); byte basis MATCH23 does not certify execution. Final READ-CAP:0 over-budget/over-cap within20 measured cap-bearing files,28 declared-not-counted; two advisories, one generated-file/rotation-tier warning. ORCH_INFLIGHT25598B is79% of budget and owned by PROME; flag rotation there, never edit its generated view. This does not cure stale attestation or establish coverage. PROME re-date request L174 already exists.
 - Newsweep degraded by one RSS timeout (3/4 succeeded), Google News57/57; recent lane runOctober11 19:18:17Z. Feed not dead; no collector-death escalation. Synced alert scan0 new; seen34keys+0/−0 reconciled after dispositions.
@@ -49,7 +49,7 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 6. Open owner returns carried: LIQUID -1007; BRENT -1008 and -003; VULCAN/BROCK -1009; FALCON gas/theater claims; OSPREY energy ceasefire/deal branch; YURI Novak curb lift; BOND/ZHAO -004; CARL SCF -005; HENRY/VULCAN -006; CORAL PembrokeLakes -1008-040; CREED Trepp -1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. Today’s new owner addresses add the nine signals but imply no universal reply obligation or consumption. TERRY and OZK primary integration is already observed; do not ask them to rediscover execution.
 7. X pilot reviewOctober17: retain live-observed refresh-failure leg and WSL authorize method; desktop refresh currently fails. Next staleness sweepOctober24. Research-retirement pass>60d not run; not a false completion claim.
 8. Existing dates: bank Q3/KS WARNOctober13; CPIOctober14 08:30ET; WPSROctober15 noonET, VLO December basis and size checks; LIQ07October15–16; October16 expiries/MTB/CFG/H.8/tanker weekly; WALOctober19–20; OZKOctober20AMC/21call; FOMCOctober27–28, UKBudgetOctober28, ECBOctober29; BZZ26LTD October30, boundary8 January switchNovember2; Treasury financingNovember2/refundingNovember4. The October12 bond holiday is current, not a future duty.
-9. PROME carry: CATO absent from REGISTRY (WQ255); YURI WATCH_FOR set absent on charter grep; WQ388 undecided; READS attestation re-date, native receiving visibility and Telegram delivery gaps. No new activation of GateC or unattended scheduling.
+9. PROME carry: CATO absent from REGISTRY (WQ255); YURI WATCH_FOR set absent on charter grep; WQ388 undecided; READS attestation re-date, native fleet receiving visibility and Telegram delivery gaps; CLI queue now verified as supported, exact-pair receipt separate. No new activation of GateC or unattended scheduling.
 
 ## OPEN DESIGN DECISIONS
 **Approvals preserved:** WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405 (boundary #6/#8). No new unattended-WALTER, Gate C, desk spawn, trade or deployment authority.
@@ -79,12 +79,12 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## CLOSEOUT RECEIPT
 
-Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14`. Listed prior and today’s dispatch commits are on origin as proved below.42/42 handoff paths are file-delivered; semantic consumption remains owner-specific. WALTER pushed nothing. State/evidence closeout commit bee3b2d02 publication is listed below; this receipt update requires the next coordinated train at writing. Closeout checker PASS, if achieved, proves only explicit local-reference/evidence/phrase/R1 checks, not remote freshness after this observation, execution coverage or owner completion.
+Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14`. Listed prior and today’s dispatch commits are on origin as proved below.42/42 handoff paths are file-delivered; semantic consumption remains owner-specific. WALTER pushed nothing. Prior state/evidence closeout commits bee3b2d02 and aa834f27e publication refreshed below; this coordination update requires the next coordinated train at writing. Closeout checker PASS, if achieved, proves only explicit local-reference/evidence/phrase/R1 checks, not remote freshness after this observation, execution coverage or owner completion.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T15:22:31Z",
+  "as_of": "2026-10-12T15:25:52Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -120,7 +120,11 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
     },
     {
       "commit": "bee3b2d02",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "aa834f27e",
+      "state": "published"
     }
   ],
   "delivery": {
@@ -131,7 +135,7 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "WALTER pushed nothing. Fresh fetch proves listed commits individually; bee3b2d02 is the exact state/evidence closeout commit. This final receipt-update commit is outside the listed prior-commit scope at writing and requires the next coordinated train."
+    "note": "WALTER pushed nothing. Fresh fetch proves all listed dispatch and prior closeout commits on origin; this coordination status/receipt work is outside that prior-commit scope and remains local until a coordinated train."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -162,7 +166,7 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
     "CBOE SKEW next eligible barsOctober12\u201314; VIOLET owns",
     "DEWEY REQ-DEWEY-20261010-001 dueOctober14; ledger closure only on handoff",
     "Will/TERRY remaining live expiry-card choices and current broker/order evidence",
-    "Telegram FLASH notification unavailable in this runtime; current chat alerted, PROME packeted"
+    "Telegram FLASH notification unavailable in this runtime; current chat alerted, PROME packeted; Codex queue coordination available with exact-pair receipt separate"
   ],
   "next_review": "2026-10-13"
 }

@@ -33,6 +33,8 @@ Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.t
 
 ## NETWORK AWARENESS
 
+**Coordination capability update (2026-10-12T15:25:52Z):** existing WALTER native Codex thread `01a13087-79e5-7e92-9b7a-65a266b0cb1b` observed from CODEX_THREAD_ID. Installed CLI0.162.0 supports `codex queue --thread --message`; exact PROME-pair acceptance is recorded in the dated coordination receipt. This corrects the earlier model-tool-only transport limitation as a lasting claim; cross-runtime fleet census remains UNKNOWN. Existing market routing ownership and approvals retained.
+
 Regenerated from final REGISTRY refresh before this write. Header-only observations refreshed BROCK, BRENT, NEXUS, FERT, DAEDALUS; final owner headers OZK, TERRY, WATT, WALTER. No role, owner grade, readiness class or launch authority changed. Older Updated rows (≥7d, including dormant/special rows; age is not a DARK classification): YEYOU 2026-09-05 (37d; RETIRED), RAV 2026-08-02 (71d; YELLOW), OTTO 2026-10-04 (8d; RED2), ATHENA 2026-03-14 (212d; GREEN), CRUISE 2026-10-03 (9d; RED), DARWIN 2026-02-18 (236d; YELLOW), CREED 2026-10-01 (11d; ORANGE), SENTRY 2026-09-24 (18d; YELLOW), DEWEY 2026-09-10 (32d; YELLOW), MIDAS 2026-10-02 (10d; YELLOW), HOMER 2026-10-02 (10d; RED), FLG 2026-10-01 (11d; YELLOW), YURI 2026-10-02 (10d; YELLOW).
 
 Today’s ACTION addresses: LIQUID2, BOND1, FALCON3, BRENT3, OZK1, BROCK1, TERRY2, CARL2. Exemptions and roles follow canonical per-desk delivery rules; TERRY receives ACTION by BOARD ID-diff, CARL receives ACTION handoffs, RED/PROME INFO by ID-diff. There are42 handoff rows; their delivery/consumption distinction and origin proof are in LAST_COMPLETION.
