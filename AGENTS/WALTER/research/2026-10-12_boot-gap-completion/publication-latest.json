@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-12T18:07:09Z",
+  "origin": "ceb81bec841635d78451b33cf494c92af2faf1bc",
+  "commits": [
+    {
+      "commit": "4f9ad8eb6",
+      "state": "published"
+    },
+    {
+      "commit": "7a7334af5",
+      "state": "pending"
+    },
+    {
+      "commit": "39fd03670",
+      "state": "pending"
+    }
+  ],
+  "native_message": "01a1314b-0908-7123-ac08-db28ef53e46e",
+  "notification": "accepted",
+  "consumption": "unverified",
+  "WALTER_push": false
+}

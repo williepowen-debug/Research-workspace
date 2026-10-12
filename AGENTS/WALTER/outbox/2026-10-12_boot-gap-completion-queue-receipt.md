@@ -5,3 +5,5 @@ Observed2026-10-12T18:00:51Z. RuntimeCodex CLI0.162.0, supported `codex queue --
 Packet:`PROME/inbox/2026-10-12_from-WALTER_boot-gap-completion.md`, source7a7334af5. Result:29originalbookmarksassessed/exactstageconsumed,41header scopesread, partiallocaloverview, threefollow-upsignals/12handoffs includingDR4correction; signedREADS91rows/29BASIS andunactivatedchartercandidate. AskedPROME totranscribeownreaderrows/attestation andnotifyWALTER beforepairedhashinstallation. Deliveryaccepted only; consumption/transcriptionunverified. NoWALTERpush.
 
 Dieselreturnarrivedafterthe firstnotice; subsequentcommittedfollow-up packet/receipt governs its separatePARTIAL disposition. No claimthatthismessage carriedthelaterresult.
+
+Follow-up observed2026-10-12T18:07:09Z: message01a1314b-0908-7123-ac08-db28ef53e46e accepted for the same verifiedPROME thread, carrying39fd03670 and `PROME/inbox/2026-10-12_from-WALTER_boot-gap-diesel-followup.md`. Notificationacceptance only; transcription/consumption unverified. Freshorigin `ceb81bec841635d78451b33cf494c92af2faf1bc` checked; noownpush.

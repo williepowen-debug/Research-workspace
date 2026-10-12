@@ -31,6 +31,8 @@ BOARD1339.67 required handoff rows (prior51origin-proven;16new written, publicat
 
 ## WILL_NEEDS
 
+Charter migration requires the local CLAUDE.md per-pass Will checkpoint; candidate prepared, PROME registration requested. No live migration approved.
+
 **ATTENTION — observed OZK Nov20 $40 puts×4:** executed extension/fresh capital weakens the near-term maturity-failure catalyst. Paydown may be redrawn, appraisal assumes stabilization, loan-specific recognition remains UNKNOWN; continued holding after capture unverified. TERRY’s existing card owns the review, Will owns orders.
 
 Existing expiry-card decisions remain with Will/TERRY: QQQ755C October12 (today’s owner header reports Will-confirmed held/$2 value, not bid); USO150C October14×2; QQQ745P×1/740P×4 October15; TLT82P/HBAN16P October16. Cards exist for the newly observed calls; no current order or fill inferred. VLO December-diesel basis startsOctober15 under existing approval. No new trade decision proposed by WALTER.
@@ -100,7 +102,7 @@ SessionACTIVE, bootPARTIAL. Current continuation report governs. Historical rece
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T18:00:51Z",
+  "as_of": "2026-10-12T18:07:09Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -188,6 +190,10 @@ SessionACTIVE, bootPARTIAL. Current continuation report governs. Historical rece
     },
     {
       "commit": "7a7334af5",
+      "state": "pending"
+    },
+    {
+      "commit": "39fd03670",
       "state": "pending"
     }
   ],
