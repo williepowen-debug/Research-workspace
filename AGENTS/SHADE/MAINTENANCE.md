@@ -4,6 +4,14 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-10-12T18:21:15-04:00 — bounded freshness metadata/source qualifiers (e982011fb)
+
+- **C4 own-charter only:** removed stale March26 STATUS metadata in favor of STATUS's own vintage; §0l pointer→§0o. Boot/authority/routes/thresholds unchanged. No new tool/feed, memory rotation or KB rewrite.
+- Named live-source qualifiers corrected in STATUS/REFERENCE: parent remediation plan not forced-sale mandate; AG55 blanket disclosure assertion remains UNVERIFIED; Summer2026 plan not a future date now. Exact delta/access-stop log saved. Watch-query deployment verified from actual Research-Intake5b47424; current-pair queue/consumption wording updated by committed evidence, no fleet-discovery certificate.
+- Two root inbox packets consumed/logged with git mv; WALTER Rosner acquisition reused, not repeated. Original L673 handoff and October13/October23 ordering retained. No frozen spec, score, confidence, threshold or capital change. NEXUS folded after final STATUS commit; persistence is a checkpoint, not lifecycle closeout.
+
+---
+
 ### 2026-10-12T17:01:37-04:00 — L673 prospective window and reproducible close snapshot
 
 - **Authority:** Will-directed resume of approved DOCKET L673. Window amended prospectively before the price refresh, registration `ebb9bc7eb`; effective first endpoint 10/13 close. Prior trigger letter preserved in `archive/T-SHADE-01_LETTER_BEFORE_2026-10-12.md`; SHA256 recomputed PASS. No historical grade retrofit or threshold-level change.

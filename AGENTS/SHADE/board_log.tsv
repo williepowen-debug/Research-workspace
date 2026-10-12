@@ -151,3 +151,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-12T16:58:36-04:00	SIG-W-20261012-001	noted	INBOX_WALTER	Fund subscriptions not deposit flight; LIQUID/BOND-owned; no SHADE change.
 2026-10-12T16:58:36-04:00	SIG-W-20261012-002	noted	INBOX_WALTER	Unresolved spread-to-worst basis; not FRED CCC OAS, not independent confirmation.
 2026-10-12T17:29:56-04:00	2026-10-12_from-PROME_laptop-orchestration.md	acted	INBOX_PROME	Bounded checkpoint accepted; exact prior handoff covers 6 requirements/10 clauses; no source refresh, early grade or lifecycle closeout; dated PROME result saved.
+2026-10-12T18:21:15-04:00	2026-10-12_from-PROME_targeted-freshness-catchup.md	acted	INBOX_PROME	One authorized source pass; explicit unresolved inputs and metadata repair; existing L673 reused, no early grade/dig or lifecycle closeout.
+2026-10-12T18:21:15-04:00	2026-10-12_from-WALTER_Rosner-free-source-pass-partial.md	acted	INBOX_WALTER_ROOT	8df3e97b1 consumed once;0 primary complaint/docket/order bodies, secondary case lead only; no duplicate acquisition or financial/enforcement adoption.

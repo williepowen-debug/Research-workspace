@@ -1,0 +1,112 @@
+{
+  "recorded_at": "2026-10-12T18:18:52-04:00",
+  "scope": "PROME e982011fb targeted freshness; saved evidence first, one bounded official-source pass; no trigger refresh/Rosner acquisition repeat",
+  "source_reads": [
+    {
+      "url": "https://www.delawarelife.com/content/affiliated-investments-reduction-plan-update",
+      "source_date": "2026-09-11",
+      "status": "READ",
+      "locator": "Affiliated Investments Reduction Plan; table; rating paragraphs",
+      "observed": "Up to $6.5B equivalent-value exchange, agreement Aug17, regulatory approval condition and target before Q3 statements; no external reduction mandate; no closing certificate. Q2 table 19,148/49,336 million, 39%."
+    },
+    {
+      "url": "https://clearspringlife.com/affiliated-investments-reduction-update",
+      "source_date": "2026-09-21",
+      "status": "READ",
+      "locator": "Reduction Plan and affiliated assets table",
+      "observed": "APA subject to approval; target approximately10% by June30 2027, no external reduction mandate. Affiliated assets 5,895/5,323/4,898 million against invested GA9,923/10,142/10,033 million, YE25/Q1/Q2. Capital/surplus/earnings unchanged FY24/FY25 per issuer."
+    },
+    {
+      "url": "https://news.ambest.com/pr/PressContent.aspx?altsrc=2&refnum=37618",
+      "source_date": "2026-07-31",
+      "status": "READ",
+      "locator": "Group1001 Life & Annuity rating and BCAR paragraphs",
+      "observed": "DLIC/ClearSpring A- affirmed, outlook negative; reclassification reduced year-end2025 BCAR risk-adjusted capitalization; statutory-surplus claim and rating capital are different measures. No later rating action established."
+    },
+    {
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3594422",
+      "source_date": "July2026 issuer attribution; direct body unread",
+      "status": "TITLE_ONLY",
+      "fallback": "Working fallback: September11 issuer summary, expressly issuer-reported; no new agency-action certificate."
+    },
+    {
+      "url": "https://www.fitchratings.com/research/insurance/fitch-places-delaware-life-on-rating-watch-negative-22-07-2026",
+      "source_date": "2026-07-22",
+      "status": "BODY_NOT_VERIFIED",
+      "access": "Initial returned title/page followed by timeout on body verification and one redundant same-page open; no further attempt. Working fallback is already-read September11 issuer summary, A-/Rating Watch Negative; no current-action certificate."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/853285/000119312526335421/d113772d497.htm",
+      "source_date": "2026-08-05 document; expiration2026-09-21",
+      "status": "READ",
+      "locator": "First page, Background and Terms",
+      "observed": "Voluntary eligible May1-June29 premium/payment rescission with7% interest, no surrender fee; no amounts/uptake recovered; expired offer is not current distribution resumption or official enforcement order."
+    },
+    {
+      "url": "https://www.sec.gov/about/divisions-offices/office-credit-ratings/current-nrsros",
+      "source_date": "Live page read2026-10-12; header2016 is not new order date",
+      "status": "READ",
+      "locator": "Current list and Egan-Jones section",
+      "observed": "Egan-Jones remains listed as currently registered. Page is not a comprehensive current proceeding docket or a class-by-class fresh order."
+    },
+    {
+      "url": "https://www.sec.gov/files/litigation/opinions/2026/34-106092.pdf",
+      "source_date": "2026-08-12",
+      "status": "READ",
+      "locator": "pp1-2, footnote23 p6, order p8",
+      "observed": "Denied application for two added classes iv/v; retained i/ii/iii stated in opinion. Commission did not reach resource/integrity issue. This is not new revocation of remaining registration."
+    },
+    {
+      "url": "https://content.naic.org/committees/a/life-actuarial-tf",
+      "source_date": "Live page read2026-10-12",
+      "status": "WEB_READ_FALLBACK_403",
+      "locator": "Related Documents AG55; exposures YE2026 templates/guidance, comments dueOct9",
+      "observed": "Adopted guideline link and YE2026 template link each web internal error; one urllib HTTPS fallback to public LATF page HTTP403. Final adopted guideline/template not read; stop reached."
+    },
+    {
+      "url": "https://content.naic.org/sites/default/files/inline-files/ag-55-guidance-ye-2026-draft-09.10.2026-1.pdf",
+      "source_date": "INITIAL DRAFT2026-09-10",
+      "status": "READ_DRAFT_ONLY",
+      "locator": "II.c; III.b; V.c; confidentiality footnote",
+      "observed": "Draft asks treaty RBC before/after, asset/capital explanations, AG53 references and maintains confidentiality. No Level/PIK exact text matches; no basis to infer a comprehensive blanket L3/PIK/private-letter-rating mandate. Final template fields still unresolved; draft is not adopted law."
+    }
+  ],
+  "official_queries": [
+    "site:insurance.delaware.gov \"Delaware Life\" 2026",
+    "site:sec.gov \"Egan-Jones\" 2026 NRSRO registration",
+    "site:content.naic.org \"Actuarial Guideline\" \"55\"",
+    "site:spglobal.com/ratings \"Delaware Life\" 2026 rating outlook",
+    "site:news.ambest.com \"Group 1001\" 2026",
+    "site:justice.gov (\"Delaware Life\" OR \"Clear Spring Life\") 2026",
+    "(\"Delaware Life\" OR \"Clear Spring Life\") site:sec.gov 2026 enforcement",
+    "\"Delaware Life\" site:truist.com annuity 2026",
+    "\"Delaware Life\" site:53.com annuity 2026",
+    "site:clearspringlife.com \"2026\" financial rating",
+    "site:group1001.com \"2026\" \"affiliated\""
+  ],
+  "search_limits": "No post-baseline enforcement disposition or bank pause/resumption statement recovered in these queries. Search non-discovery is not proof of no event. Truist hit is a2024 sponsor list, not a2026 distribution decision. No paywall, login, purchase, or new source-discovery loop.",
+  "saved_evidence": [
+    "8df3e97b1:AGENTS/SHADE/inbox/2026-10-12_from-WALTER_Rosner-free-source-pass-partial.md",
+    "AGENTS/WALTER/research/2026-10-12_Rosner-primary-pass/REPORT.md",
+    "AGENTS/WALTER/research/2026-10-12_Rosner-primary-pass/ACCESS_RESULT.json",
+    "AGENTS/SHADE/research/FABN_CANARY_RERUN_AND_AG55_2026-08-28.md"
+  ],
+  "lane_evidence": {
+    "repo": "/home/willi/Research-Intake",
+    "path": "scripts/newsweep_config.py",
+    "deployment_commit": "5b47424",
+    "deployment_at": "2026-10-10T13:00:25-04:00",
+    "labels": [
+      "shade-D1",
+      "shade-D2",
+      "shade-D3",
+      "shade-D4",
+      "shade-D5",
+      "shade-D6",
+      "shade-E1",
+      "shade-E2"
+    ],
+    "observed_dispatch": "SIG-W-20261011-003 describes actual SHADE watch-row discovery; not a coverage/recall certificate"
+  },
+  "stop": "Source pass complete at available evidence perimeter. Adopted AG55 text/template, post-August bank distribution decisions, swap closing/approval and comprehensive current enforcement/rating docket remain unresolved; no further retries."
+}

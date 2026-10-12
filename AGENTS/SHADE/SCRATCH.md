@@ -34,7 +34,7 @@ If MET prospectively: **(a)** AAIA FY2025 BA→ADS equity **(b)** ADS facility c
 
 ## MAIL / PERSISTENCE
 
-Six intake rows saved in board_log; exact consume moves use git mv. Outbound: dated PROME L673 delivery + LIQUID owner-read request + BROCK provisional-fire qualification. **No verified fleet transport exposed; recipient identity/presence UNKNOWN, never DARK.** Thread-local list_agents sees only /root; notification and consumption remain unverified.
+Six intake rows saved in board_log; exact consume moves use git mv. Outbound: dated PROME L673 delivery + LIQUID owner-read request + BROCK provisional-fire qualification. **Current PROME↔SHADE supported queue verified at dc181f608; prior registration/checkpoint consumed per e982011fb.** No all-fleet discovery/transport claim; LIQUID/BROCK request consumption remains unverified.
 Opening pull withheld under root Before pulling for foreign TERRY untracked file. Own files committed path-scoped; closeout push receipt is reported separately. No live workbook ledgers or auto-memory authored. MEMORY rotation remains the already dated post-dig obligation; nothing appended there.
 
 ## PROME coordination checkpoint — 2026-10-12T17:29:56-04:00
@@ -44,3 +44,7 @@ Accepted the bounded follow-up at `0cb6d515f` in this same thread. **Preparation
 ## PROME return transport receipt — 2026-10-12T17:33:18-04:00
 
 Return address verified against `d1f922500:PROME/reports/2026-10-12_laptop-orchestration.md` § Return coordination address: `01a131cf-1c7d-7900-9dcf-d98af587e290`. Supported `codex queue --thread` sent the exact already-committed completion pointer `28e568687:PROME/inbox/2026-10-12_from-SHADE_prome-directed-followup.md`; approved runtime escalation, rc 0. **Actual receipt:** `Queued message 01a13208-64bf-77d1-8358-a0eee85b56ff for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.` Notification accepted; result consumption remains PROME's to record. This resolves the prior missing-return-address gap. No source refresh, task restart, replacement launch or lifecycle closeout.
+
+## Targeted freshness continuation — 2026-10-12T18:21:15-04:00
+
+PROME/Will e982011fb, same window: one saved-evidence/official pass complete, source verdict PARTIAL. Delta/access log → `research/TARGETED_FRESHNESS_2026-10-12.md` / `sources/2026-10-12_freshness/ACCESS_RESULT.json`. DLICSept11 primary parent-plan target/approval; ClearSpringSept21 Q2 table; AMBestJuly31 BCAR decline distinct from statutory surplus; SEC list+Aug12 EJR distinction checked. No swap-closing/distributor-resumption/new enforcement certificate. AG55 adopted text/template failed and one fallback403: STOP; Sept10 guidance DRAFT, blanket L3/PIK/PLR remainsUNVERIFIED. Force-seller inference withdrawn; cold contradictions reconciled. Watch8 deployed5b47424 confirmed, no recall certificate. WALTER8df3e97b1 Rosner pass consumed once,0 primary court docs; no duplicate search. No early L673 read/dig, instrument/score/backlog change, helper cycle or lifecycle closeout.

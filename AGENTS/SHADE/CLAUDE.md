@@ -104,7 +104,7 @@ Rule: reference BROCK for fund-level facts with `[CONF BROCK date]`; SHADE adds 
 
 ## SPAWN PROTOCOL
 
-**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** SHADE is currently in architecture catch-up mode: `STATUS.md` is stale to Mar 26, so boot must explicitly mark old market/position rows as historical until refreshed.
+**Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** `STATUS.md` is the live dashboard; use its own update stamp. Treat any March price/position row as historical until refreshed.
 
 Read→write pairings: STATUS (read 1 → write 6), SCRATCH (read 2 → write 8), MEMORY (read 3 → prune/promote 9), **`NEXUS_BRIEF.md` (write 11a — LAST)**. *(The "not built yet, add it in a later architecture pass" deferral is CLOSED — the brief was created 2026-08-03 and is a standing surface; step 11a owns it.)*
 
@@ -112,7 +112,7 @@ Read→write pairings: STATUS (read 1 → write 6), SCRATCH (read 2 → write 8)
 
 > ⚠️ **READ-CAP DISCIPLINE (P1, Will-approved 2026-08-28; canon `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`).** Every file named as a WHOLE read below stays under **32,550 B** (60% of the 54,250 B harness single-read cap). **Past the cap a Read returns a PARTIAL file with no error and every line-count guard still passes.** **`REFERENCE.md` is deliberately NOT a whole read** — it is consulted **on demand, by section**. ⛔ **Never raise the budget.** Check: `python3 scripts/read_cap_check.py --agent SHADE`.
 
-1. **Read `STATUS.md` WHOLE** — the LIVE dashboard: session verdict + live rails (§0l), vector dashboard (§3), the dated forward calendar and the Delaware Life escalation ladder (§6), cross-agent routing (§7), the owed list (§10), BOTTOM LINE. **Canonical on live state.** *(Treat any March price/position row as historical until refreshed.)*
+1. **Read `STATUS.md` WHOLE** — the LIVE dashboard: session verdict + live rails (§0o), vector dashboard (§3), the dated forward calendar and the Delaware Life escalation ladder (§6), cross-agent routing (§7), the owed list (§10), BOTTOM LINE. **Canonical on live state.** *(Treat any March price/position row as historical until refreshed.)*
 2. **Read `SCRATCH.md` WHOLE** — canonical session handoff: what moved, what's owed, numbers discipline, open threads, mail state.
 3. **Read `MEMORY.md` WHOLE** — durable SHADE-specific learnings: BROCK boundary, source-quality caveats, forensic-discipline lessons, operational traps.
 3a. **`REFERENCE.md` — ON DEMAND, BY SECTION. Do NOT read it whole at boot.** Open it **before citing any figure** (§2 carried figures: every load-bearing number with its source, date and handling rule), or when opening a watchlist name (§5), picking up an open question (§8), or needing a vector's evidence narrative (§3D) / the full transmission map (§4) / the standing monitor-class calendar rows (§6M). ⚠️ **`STATUS.md` wins on live state where the two disagree.**
