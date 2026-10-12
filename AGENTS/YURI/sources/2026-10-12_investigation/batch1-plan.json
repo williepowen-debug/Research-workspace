@@ -1,0 +1,34 @@
+{
+  "batch": "batch1",
+  "authorization": "Will direct: Can you dig into these now? Existing session, new research pass; earlier PROME bounded packets completed.",
+  "requests": [
+    {
+      "file": "aptar-8k.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/896622/000110465926109359/tm2625862d1_8k.htm"
+    },
+    {
+      "file": "metro-statement.html",
+      "url": "https://newsroom.metroag.de/en/news/metro-russia-placed-under-temporary-forced-administration"
+    },
+    {
+      "file": "minenergo-main.js",
+      "url": "https://minenergo.gov.ru/f/dist/main.57cad5b17bea28ab.js"
+    },
+    {
+      "file": "gov-1272-identify.html",
+      "url": "http://publication.pravo.gov.ru/search/government?Number=1272&NumberSearchType=0&DocumentDateSearchType=1&DocumentDate=30.09.2026&pageSize=30"
+    },
+    {
+      "file": "goods-codes-title.html",
+      "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=12.10.2026&pageSize=30"
+    },
+    {
+      "file": "goods-information-title.html",
+      "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=12.10.2026&pageSize=30"
+    },
+    {
+      "file": "302-amendments.html",
+      "url": "http://publication.pravo.gov.ru/search/president?Name=302&DocumentDateSearchType=0&DocumentDateFrom=25.04.2023&DocumentDateTo=12.10.2026&pageSize=200"
+    }
+  ]
+}

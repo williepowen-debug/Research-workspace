@@ -1,0 +1,23 @@
+[
+  {
+    "entity": "aptar",
+    "total_pages": 17,
+    "text_candidate_pages": [
+      1,
+      2,
+      3
+    ],
+    "coverage": "Text candidates only until manually inspected; full-history body not certified"
+  },
+  {
+    "entity": "metro",
+    "total_pages": 178,
+    "text_candidate_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "coverage": "Text candidates only until manually inspected; full-history body not certified"
+  }
+]

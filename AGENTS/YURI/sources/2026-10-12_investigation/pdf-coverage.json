@@ -1,0 +1,41 @@
+{
+  "read_at": "2026-10-12T23:47:37.855206+00:00",
+  "PDFs": [
+    {
+      "file": "gov-1272.pdf",
+      "total_pages": 2,
+      "read_pages": [
+        1,
+        2
+      ],
+      "coverage": "COMPLETE",
+      "finding": "Space-activity licensing; no Decree302 companion."
+    },
+    {
+      "file": "egrul-aptar-extract.pdf",
+      "total_pages": 17,
+      "read_pages": [
+        1,
+        2,
+        3
+      ],
+      "coverage": "PARTIAL field coverage",
+      "unread_pages": "4–17"
+    },
+    {
+      "file": "egrul-metro-extract.pdf",
+      "total_pages": 178,
+      "read_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coverage": "PARTIAL field coverage",
+      "unread_pages": "5–178"
+    }
+  ],
+  "new_PDF_pages_read": 9,
+  "issuer_published_bodies_read": 2,
+  "registry_dates": "Generated 2026-10-13 02:45 Moscow during 2026-10-12 ET session; never backdate to 12 October Moscow."
+}

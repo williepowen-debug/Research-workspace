@@ -1,0 +1,57 @@
+[
+  {
+    "file": "egrul-index.js",
+    "url": "https://egrul.nalog.ru/js/index.js?ver=1.8.14&lang=RUS",
+    "started_at": "2026-10-12T23:42:58.458816+00:00",
+    "observed_at": "2026-10-12T23:42:59.111552+00:00",
+    "curl_exit": 0,
+    "http": "200 https://egrul.nalog.ru/js/index.js?ver=1.8.14&lang=RUS",
+    "error": "",
+    "bytes": 10165,
+    "sha256": "35769bffbc70164867ba061ef923db1d0d7991bacfc3a7a09058661c3833a8dd"
+  },
+  {
+    "file": "exchange-products-http.html",
+    "url": "http://spimex.com/markets/oil_products/trades/results/",
+    "started_at": "2026-10-12T23:42:58.459904+00:00",
+    "observed_at": "2026-10-12T23:43:05.482262+00:00",
+    "curl_exit": 28,
+    "http": "000 http://spimex.com/markets/oil_products/trades/results/",
+    "error": "curl: (28) Failed to connect to spimex.com port 80 after 7002 ms: Timeout was reached\n",
+    "bytes": 0,
+    "sha256": null
+  },
+  {
+    "file": "minenergo-export-news-recent.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82&model=NEWS&dateFrom=2026-09-28&dateTo=2026-10-12",
+    "started_at": "2026-10-12T23:42:58.461198+00:00",
+    "observed_at": "2026-10-12T23:42:59.647435+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82&model=NEWS&dateFrom=2026-09-28&dateTo=2026-10-12",
+    "error": "",
+    "bytes": 1333,
+    "sha256": "e8462059334e58396a1516bcfd63de3c88310aeffee6b385f0f8900ee917ba6d"
+  },
+  {
+    "file": "minenergo-fuel-news-recent.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&model=NEWS&dateFrom=2026-09-28&dateTo=2026-10-12",
+    "started_at": "2026-10-12T23:42:58.463413+00:00",
+    "observed_at": "2026-10-12T23:42:59.464148+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&model=NEWS&dateFrom=2026-09-28&dateTo=2026-10-12",
+    "error": "",
+    "bytes": 1345,
+    "sha256": "9f3653953244779531a311d756df587ed035a7b9becd987a11a5168063c1eed5"
+  },
+  {
+    "file": "minenergo-restricted-docs-recent.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-12",
+    "started_at": "2026-10-12T23:42:59.111813+00:00",
+    "observed_at": "2026-10-12T23:43:00.154577+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-12",
+    "error": "",
+    "bytes": 32,
+    "sha256": "7f277e16377526da9c3d5a39aca0b4c1cfda30697df2239c8d8201e67bc1a36f"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "query": "АПТАР ВЛАДИМИР",
+    "method": "POST read-only public search",
+    "url": "https://egrul.nalog.ru/",
+    "file": "egrul-aptar-query.json",
+    "started_at": "2026-10-12T23:44:33.845520+00:00",
+    "observed_at": "2026-10-12T23:44:34.321340+00:00",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "65244aa98c0d7e66b39c506d1b42fffd28c4fefc3891c91988749686f82d9b49"
+  },
+  {
+    "query": "АПТАР ВЛАДИМИР",
+    "method": "GET",
+    "url": "https://egrul.nalog.ru/search-result/DC46D89B6F60A123A4AE8A82F153FF4D43C04A8B00F237135D66A0E1B52FD7B25B2BF4C130465953FCFA4F5465D30FBAF19C0C4B29562897B70DF0D45E4F4D961DF2A4BD18721922C71BCE999598FE21E2C9A512EA0423BD9FA9B4BAEA0407C4",
+    "file": "egrul-aptar-result.json",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "observed_at": "2026-10-12T23:44:34.848981+00:00",
+    "sha256": "ece3ea98a333b47368aacbf8be7afc49db6b10cc5664bad3ea451173e2b3ab87"
+  },
+  {
+    "query": "МЕТРО КЭШ ЭНД КЕРРИ",
+    "method": "POST read-only public search",
+    "url": "https://egrul.nalog.ru/",
+    "file": "egrul-metro-query.json",
+    "started_at": "2026-10-12T23:44:34.849098+00:00",
+    "observed_at": "2026-10-12T23:44:35.350046+00:00",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "d12404ef638d24725e2630e81dcd9ca39d6e517448104fadb5495ec89a236554"
+  },
+  {
+    "query": "МЕТРО КЭШ ЭНД КЕРРИ",
+    "method": "GET",
+    "url": "https://egrul.nalog.ru/search-result/0FB1E386AC5BCEAA060A979D14BC11A5C06B982119F0BC185693E0D42312B157BEBDD0F728B31FE25DFEB55C7F39A90D1F1C25C9140AB1503284CF1D0AA12B40",
+    "file": "egrul-metro-result.json",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "observed_at": "2026-10-12T23:44:35.842724+00:00",
+    "sha256": "b2655655370a0a9c87d30de9514210a70d203eb8edb2e8b0d1b532ca5a6bb233"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "file": "minenergo-search-diesel.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C",
+    "started_at": "2026-10-12T23:40:14.547213+00:00",
+    "observed_at": "2026-10-12T23:40:17.547971+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C",
+    "error": "",
+    "bytes": 62485,
+    "sha256": "76aa192674a454a46f032b033a6c4c3d76de117eb941d6423874f8e435790d4b"
+  },
+  {
+    "file": "minenergo-search-686.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=686",
+    "started_at": "2026-10-12T23:40:14.547677+00:00",
+    "observed_at": "2026-10-12T23:40:18.366419+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=686",
+    "error": "",
+    "bytes": 129160,
+    "sha256": "d037596fcb1284d1953483004500e5113af35d63ece386efe537f8d6dca194d0"
+  },
+  {
+    "file": "minenergo-search-codes.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2",
+    "started_at": "2026-10-12T23:40:14.549648+00:00",
+    "observed_at": "2026-10-12T23:40:17.544773+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2",
+    "error": "",
+    "bytes": 69024,
+    "sha256": "dbf19a119d6cf21dc70176b475b7a1cc1ddcf1d05e926551166029727bb3ceb1"
+  },
+  {
+    "file": "minenergo-search-fuel-control.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0",
+    "started_at": "2026-10-12T23:40:14.550801+00:00",
+    "observed_at": "2026-10-12T23:40:17.695170+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0",
+    "error": "",
+    "bytes": 43461,
+    "sha256": "0c96a566a46b2b9f57cf8c4d5ede32819179d6f28edee44202fab4ca9bfc88e2"
+  },
+  {
+    "file": "gov-1272.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610010031",
+    "started_at": "2026-10-12T23:40:17.545104+00:00",
+    "observed_at": "2026-10-12T23:40:18.978228+00:00",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610010031",
+    "error": "",
+    "bytes": 299474,
+    "sha256": "a8ebd33131f4ebe4e7e88f4cf0a4c287d44a870a3b574df2988538ebe948df46"
+  },
+  {
+    "file": "temporary-framework-title.html",
+    "url": "http://publication.pravo.gov.ru/search/president?Name=%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC+%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=25.04.2023&DocumentDateTo=12.10.2026&pageSize=100",
+    "started_at": "2026-10-12T23:40:17.548226+00:00",
+    "observed_at": "2026-10-12T23:40:18.565241+00:00",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/search/president?Name=%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC+%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=25.04.2023&DocumentDateTo=12.10.2026&pageSize=100",
+    "error": "",
+    "bytes": 35223,
+    "sha256": "63ad0c1f14f4e0e96f0d1d32ca2422ed79eb6500e7a7dc6bd6d115d48a4e29a1"
+  }
+]

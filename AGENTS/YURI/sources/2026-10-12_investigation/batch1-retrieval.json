@@ -1,0 +1,81 @@
+[
+  {
+    "file": "aptar-8k.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/896622/000110465926109359/tm2625862d1_8k.htm",
+    "started_at": "2026-10-12T23:38:40.857168+00:00",
+    "observed_at": "2026-10-12T23:38:41.045182+00:00",
+    "curl_exit": 0,
+    "http": "403 https://www.sec.gov/Archives/edgar/data/896622/000110465926109359/tm2625862d1_8k.htm",
+    "error": "",
+    "bytes": 4818,
+    "sha256": "af73f06ff27d415887054d876f324302cb5a440c5a26f2949608fb47f8bdc5aa"
+  },
+  {
+    "file": "metro-statement.html",
+    "url": "https://newsroom.metroag.de/en/news/metro-russia-placed-under-temporary-forced-administration",
+    "started_at": "2026-10-12T23:38:40.857837+00:00",
+    "observed_at": "2026-10-12T23:38:41.230349+00:00",
+    "curl_exit": 0,
+    "http": "403 https://newsroom.metroag.de/en/news/metro-russia-placed-under-temporary-forced-administration",
+    "error": "",
+    "bytes": 470,
+    "sha256": "56f1a536b575a8e0f7243dbb0445ad859e957ee2ca6f3125375296dd31163210"
+  },
+  {
+    "file": "minenergo-main.js",
+    "url": "https://minenergo.gov.ru/f/dist/main.57cad5b17bea28ab.js",
+    "started_at": "2026-10-12T23:38:40.858536+00:00",
+    "observed_at": "2026-10-12T23:38:44.873431+00:00",
+    "curl_exit": 0,
+    "http": "200 https://minenergo.gov.ru/f/dist/main.57cad5b17bea28ab.js",
+    "error": "",
+    "bytes": 3859131,
+    "sha256": "21d2b63023dc1c4d3e4e9e08e0aa4536842c0fcd3e4704ff8f5048fc4c26ab57",
+    "archived_as": "minenergo-main.js.gz",
+    "archive_note": "Lossless gzip; original-byte sha256 retained, decompression verified; uncompressed working copy moved to /tmp."
+  },
+  {
+    "file": "gov-1272-identify.html",
+    "url": "http://publication.pravo.gov.ru/search/government?Number=1272&NumberSearchType=0&DocumentDateSearchType=1&DocumentDate=30.09.2026&pageSize=30",
+    "started_at": "2026-10-12T23:38:40.859376+00:00",
+    "observed_at": "2026-10-12T23:38:41.899633+00:00",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/search/government?Number=1272&NumberSearchType=0&DocumentDateSearchType=1&DocumentDate=30.09.2026&pageSize=30",
+    "error": "",
+    "bytes": 32900,
+    "sha256": "51db1549e4724286d97f4012ca1747610b5a7e1ba5cfcb0ea0226595d42dedea"
+  },
+  {
+    "file": "goods-codes-title.html",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=12.10.2026&pageSize=30",
+    "started_at": "2026-10-12T23:38:41.045462+00:00",
+    "observed_at": "2026-10-12T23:38:42.465720+00:00",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/search/government?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=12.10.2026&pageSize=30",
+    "error": "",
+    "bytes": 29496,
+    "sha256": "2df6f164fd6ecf40a2b427dc0e542c8121e42340781f843b38119cae018b963a"
+  },
+  {
+    "file": "goods-information-title.html",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=12.10.2026&pageSize=30",
+    "started_at": "2026-10-12T23:38:41.230499+00:00",
+    "observed_at": "2026-10-12T23:38:42.778583+00:00",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/search/government?Name=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=12.10.2026&pageSize=30",
+    "error": "",
+    "bytes": 29481,
+    "sha256": "6c0195915c32752add45780843fc6d34cdcaadbd63d6ab9ead893d2170519660"
+  },
+  {
+    "file": "302-amendments.html",
+    "url": "http://publication.pravo.gov.ru/search/president?Name=302&DocumentDateSearchType=0&DocumentDateFrom=25.04.2023&DocumentDateTo=12.10.2026&pageSize=200",
+    "started_at": "2026-10-12T23:38:41.899806+00:00",
+    "observed_at": "2026-10-12T23:38:43.442412+00:00",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/search/president?Name=302&DocumentDateSearchType=0&DocumentDateFrom=25.04.2023&DocumentDateTo=12.10.2026&pageSize=200",
+    "error": "",
+    "bytes": 129911,
+    "sha256": "84c58fb71b96afa93d623e4b26bc601f7cf68325681c07ac3294b4e89f8b09f6"
+  }
+]

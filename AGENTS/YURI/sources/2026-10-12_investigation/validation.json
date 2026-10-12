@@ -1,0 +1,65 @@
+{
+  "observed_at": "2026-10-12T23:52:22.834478+00:00",
+  "checks": [
+    {
+      "check": "batch1-retrieval.json hashes",
+      "result": "PASS",
+      "record_count": 7
+    },
+    {
+      "check": "batch2-retrieval.json hashes",
+      "result": "PASS",
+      "record_count": 6
+    },
+    {
+      "check": "batch3-retrieval.json hashes",
+      "result": "PASS",
+      "record_count": 5
+    },
+    {
+      "check": "batch4-retrieval.json hashes",
+      "result": "PASS",
+      "record_count": 5
+    },
+    {
+      "check": "registry-extract-retrieval.json hashes",
+      "result": "PASS",
+      "record_count": 6
+    },
+    {
+      "check": "registry-retrieval.json hashes",
+      "result": "PASS",
+      "record_count": 4
+    },
+    {
+      "check": "PDF total197/read9; registry selected-field coverage7/195, unread188",
+      "result": "PASS",
+      "basis": "Manual read attestation; page/hash check does not independently verify reading"
+    },
+    {
+      "check": "Two named entity share totals each100%; actual pages/field indices inspected",
+      "result": "PASS"
+    },
+    {
+      "check": "Dated ministry control5 and current alternative queries1 each; negatives scope-indexed only",
+      "result": "PASS"
+    },
+    {
+      "check": "All ledger bytes, historical grades and registered dates unchanged",
+      "result": "PASS",
+      "comparison_commit": "f26c5d58cf2e2d930db205896ce336fbe28f829f"
+    },
+    {
+      "check": "Historical grade memo as-made body exactly preserved after removing one dated source-correction notice",
+      "result": "PASS"
+    },
+    {
+      "check": "Current status corrects1272 and carries issuer/register source limits",
+      "result": "PASS"
+    },
+    {
+      "check": "Successful web-reader issuer representation saved separately from direct403 bodies",
+      "result": "PASS"
+    }
+  ]
+}

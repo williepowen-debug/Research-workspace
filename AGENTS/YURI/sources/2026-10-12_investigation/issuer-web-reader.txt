@@ -1,0 +1,241 @@
+# Read 2026-10-12 through web reader. Direct curl returned 403 for both URLs; these are reader representations, not raw HTML. Complete published issuer bodies inspected; navigation is not substantive coverage.
+
+www.sec.gov (https://www.sec.gov/Archives/edgar/data/896622/000110465926109359/tm2625862d1_8k.htm)
+citeturn13view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn12search0","lineno":null}); Total lines: 125
+L0: false 0000896622 0000896622 2026-09-21 2026-09-21 iso4217:USD xbrli:shares iso4217:USD xbrli:shares
+L1: 
+L2: 
+L3: 
+L4: 
+L5: 
+L6: UNITED STATES
+L7: 
+L8: SECURITIES AND EXCHANGE COMMISSION
+L9: 
+L10: Washington, D.C. 20549
+L11: 
+L12: 
+L13: 
+L14: FORM 8-K
+L15: 
+L16: 
+L17: 
+L18: CURRENT REPORT
+L19: Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934
+L20: 
+L21: 
+L22: 
+L23: September 21, 2026
+L24: 
+L25: Date of Report (Date of earliest event reported)
+L26: 
+L27: 
+L28: 
+L29: AptarGroup, Inc.
+L30: 
+L31: (Exact name of registrant as specified in its charter)
+L32: Delaware
+L33: (State or other jurisdiction of
+L34: incorporation)  |    | 1-11846
+L35: (Commission File Number)  |    | 36-3853103
+L36: (IRS Employer Identification No.)
+L37: 
+L38: 
+L39: 
+L40: 265 Exchange Drive, Suite 301, Crystal Lake, Illinois 60014
+L41: 
+L42: (Address of principal executive offices)
+L43: 
+L44: 
+L45: 
+L46: Registrant’s telephone number, including area code: 815-477-0424
+L47: 
+L48: 
+L49: 
+L50: N/A
+L51: 
+L52: (Former name or former address, if changed since last report)
+L53: Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+L54: 
+L55: 
+L56: 
+L57: ¨ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+L58: 
+L59: 
+L60: 
+L61: ¨ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+L62: 
+L63: 
+L64: 
+L65: ¨ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+L66: ¨ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+L67: 
+L68: 
+L69: 
+L70: Securities registered pursuant to Section 12(b) of the Act:
+L71: 
+L72: 
+L73: 
+L74: Title of each class  | Trading Symbol(s)  | Name of each exchange on which registered
+L75: Common Stock, $.01 par value  | ATR  | New York Stock Exchange
+L76: Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+L77: 
+L78: 
+L79: 
+L80: Emerging growth company   ¨
+L81: If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.  ¨
+L82: 
+L83: 
+L84: 
+L85: 
+L86: 
+L87: 
+L88: 
+L89: 
+L90: 
+L91: 
+L92: 
+L93: Item 7.01  | Regulation FD Disclosure
+L94: AptarGroup, Inc. (the “Company”) takes note of the decree of the President of the Russian Federation, published on September 21, 2026, that places the Company’s Russian subsidiary, OOO Aptar Vladimir (“Aptar Vladimir”), under temporary external administration. The Company is assessing the situation and its options.
+L95: 
+L96: 
+L97: 
+L98: The Company is committed to taking all necessary steps to protect its rights.
+L99: As of December 31, 2025, Aptar Vladimir represented less than 0.6% of consolidated net sales and operating income, and less than 1% of consolidated assets of the Company.
+L100: The information in this Item 7.01 is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated by reference into any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as expressly set forth by specific reference in such filing.
+L101: This Current Report on Form 8-K contains forward-looking statements, including statements regarding the Company’s assessment of the decree and its options, and the steps the Company intends to take to protect its rights.
+L102: Words such as “expects,” “anticipates,” “believes,” “estimates,” “intends,” “committed,” “seek,” “assessing,” “future,” “potential,” “continues” and other similar expressions or future or conditional verbs such as “will,” “should,” “would” and “could” are intended to identify such forward-looking statements.
+L103: Forward-looking statements are made pursuant to the safe harbor provisions of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934 and are based on our beliefs as well as assumptions made by and information currently available to us.
+L104: Accordingly, our actual results or other events may differ materially from those expressed or implied in such forward-looking statements due to known or unknown risks and uncertainties, including, but not limited to: further actions by the Russian government or the external manager appointed for Aptar Vladimir affecting the operations, assets, employees or ownership of Aptar Vladimir; the duration of the temporary external administration and whether the Company will regain control of Aptar Vladimir; the Company’s ability to protect its rights as shareholder of Aptar Vladimir under Russian law, international law or otherwise; changes in, or additional, sanctions, counter-sanctions or other legal restrictions affecting Aptar Vladimir or the Company’s other operations; the accounting consequences of the decree for the Company, including potential impairment of the Company’s investment; geopolitical conflicts worldwide and the resulting indirect impact on demand from our customers selling their products into these countries; direct or indirect consequences of acts of war, terrorism or social unrest; the outcome of any legal proceeding that has been or may be instituted by or against us; and the other risks associated with our operations.
+L105: For additional information on these and other risks and uncertainties, please see our filings with the Securities and Exchange Commission, including the discussion under “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Form 10-K and Form 10-Qs. We undertake no obligation to update publicly any forward-looking statements, whether as a result of new information, future events or otherwise, except as required by law.
+L106: 
+L107: 
+L108: 
+L109: 
+L110: 
+L111: 
+L112: SIGNATURES
+L113: 
+L114: 
+L115: 
+L116: Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+L117: 
+L118: 
+L119: 
+L120:    | AptarGroup, Inc.
+L121:    |
+L122: Date: September 21, 2026  | By:  | /s/ Irene Hudson
+L123:    |    | Irene Hudson
+L124:    |    | Executive Vice President, Chief Legal Officer and Secretary
+--------------------------------------------------------------------------------
+METRO Russia placed under temporary forced administration | METRO AG (https://newsroom.metroag.de/en/news/metro-russia-placed-under-temporary-forced-administration)
+citeturn13view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn12search1","lineno":null}); Total lines: 182
+L0: cite0†iframe†www.googletagmanager.com L1: cite1†Image†careers-internal.metroag.de cite2†Image cite3†Image†responsibility.metroag.de cite4†Image†verantwortung.metroag.de cite5†Image†investors.metroag.de cite6†Image†investoren.metroag.de cite7†Image†www.metroag.de cite8†Image†careers.metroag.de cite9†Image†karriere.metroag.de cite10†Image†company.metroag.de cite11†Image†unternehmen.metroag.de cite1†Image†careers-internal.metroag.de cite12†Image†www.metro-sourcing.hk cite13†Image†www.metro-gsc.in cite14†Image†www.miag.com cite15†Image†www.metro-gsc.pl cite16†Image†www.metro-potentials.com cite17†Image†politics.metroag.eu cite18†Image†politik.metroag.de cite2†Image cite19†Image†www.metro-properties.de cite20†Image†www.metro-campus.de cite3†Image†responsibility.metroag.de cite4†Image†verantwortung.metroag.de cite5†Image†investors.metroag.de cite6†Image†investoren.metroag.de cite7†Image†www.metroag.de cite21†Image†www.metro-vto.es cite22†Image†www.metro-properties.com.tr cite8†Image†careers.metroag.de cite9†Image†karriere.metroag.de cite23†Image†careers-demo.metroag.de cite10†Image†company.metroag.de cite11†Image†unternehmen.metroag.de L2: Dear visitor,
+L3: To provide you with the best possible service, we use cookies. Some cookies are necessary for the operation of the website. Other cookies for anonymous statistics, language preferences or the display of third-party content are optional. Depending on your choice, your consent also includes a transfer of data to recipients in third countries without an adequate level of data protection, such as the USA in particular, with the risk of access by authorities there without legal recourse.
+L4: Under cite24†Data Privacy†www.metroag.de , you will find further information and can adjust the settings for cookies at any time.
+L5: Necessary
+L6: 
+L7: These cookies are necessary to ensure the basic functionality of the website, including session management and provision of sorted overviews.
+L8: 
+L9: cite25†Necessary Cookies Details L10: Name  | Description  | Retention Period
+L11: --- | --- | ---
+L12: _mg  | This cookie used for the user's authentication.  | Session
+L13: allowedCookie  | This cookie stores whether a decision has already been made to use cookies or not.  | Session
+L14: allowedUserCookieCategories  | This cookie stores the consent given by the visitor to the use of cookies and to the integration of third-party content (see below for selection) for current session.  | Session
+L15: ASP.NET_SessionId  | This cookie stores the visitors session state to ensure smooth communication between server and client.  | Session
+L16: lang  | This cookie stores the language chosen by the visitor for the duration of the session.  | Session
+L17: sxa_site  | This cookie stores the name of the site  | Session
+L18: theme  | This cookie stores the theme value  | Session
+L19: __RequestVerificationToken  | This cookie stores the visitors request verification token to ensure smooth communication between server and client.  | Session
+L20: Preference
+L21: 
+L22: These cookies allow the site to remember any decisions you make about preferences. For example, what language you have chosen.
+L23: 
+L24: cite26†Preferences Cookies Details L25: 
+L26: Statistics
+L27: 
+L28: These cookies allow the website to collect anonymised statistics and thus improve the user experience, usability and accessibility of the content.
+L29: 
+L30: cite27†Statistics Cookies Details L31: 
+L32: Third Party Content and Services
+L33: These settings allow the website to load and display third-party content. This applies, for example, to the display of videos, tweets or also a share price.
+L34: 
+L35: cite28†Third-Party Content Details L36:  | Name  | Description  | Retention Period
+L37: --- | --- | --- | ---
+L38:  | Google Maps  | The Google Maps content embedded on these pages use a number of cookies for display. For details, please refer to the cite29†privacy policy of Google†www.google.com .  | For details, please refer to the privacy policy of the service provider mentioned in the description.
+L39:  | mailjet  | Mailjet is an email platform used to subscribe to newsletter emails and campaigns. The platform embedded on these pages uses a number of cookies. Please refer to the privacy policy and the cookie policy of mailjet.  | For details, please refer to the privacy policy of the service provider mentioned in the description.
+L40:  | YouTube  | The YouTube videos embedded on these pages use a number of cookies for display. For details, please refer to the privacy policy of Google.  | For details, please refer to the privacy policy of the service provider mentioned in the description.
+L41:  | Flockler  | We use Flockler to display content from Facebook, Instagram, TikTok, X, LinkedIn and YouTube. Flockler does not use cookies. For details, please refer to the cite30†privacy policy of flockler†flockler.com | Please refer to the cite31†privacy policy of flockler†flockler.com for further information.
+L42: cite32†Newsroom L43: 
+L44:   * cite33†News L45: 
+L46:     * cite33†News L47:     * cite34†Press Releases L48:     * cite35†Investor News L49:     * cite36†Sustainability News L50:     * cite37†Updates L51:     * cite38†Social Media L52: 
+L53: cite39†Image: METRO Newsroom L54: ### News archive
+L55: 
+L56: All news, press releases and insights of the past years on all topics of METRO at a glance.
+L57: 
+L58:   * cite40†Events L59:   * cite41†Publications L60: 
+L61:     * cite41†Publications L62:     * cite42†Annual Reports L63:     * cite43†Quarterly Statements L64:     * cite44†Corporate Governance L65:     * cite45†Policies and Commitments L66:     * cite46†METRO Stories L67:     * cite47†Images L68: 
+L69: cite48†Image: Publications L70: ### Publications
+L71: 
+L72: All METRO AG publications clearly listed and available for download.
+L73: 
+L74:   * cite49†Legal Announcements L75:   * more
+L76: 
+L77:   * cite50†Contact L78:   * Open search
+L79: 
+L80: [Input: Search here...]
+L81: 
+L82: Search
+L83: 
+L84:   * Select Mode
+L85: 
+L86: Select Mode
+L87: 
+L88:   * Select Language
+L89: 
+L90:   * Share now: Share now:
+L91:   *   *   *   *   *   *   * Copied
+L92: # METRO Russia placed under temporary forced administration
+L93: 
+L94: 28 September 2026cite51†Download L95: 
+L96: By means of Decree No. 302 issued by the President of the Russian Federation, the Russian government has placed METRO Russia under temporary forced administration with immediate effect.
+L97: 
+L98: cite52†Image: METRO L99:   * Under Decree No. 302, the Government of the Russian Federation has placed METRO Russia under temporary forced administration with immediate effect
+L100:   * METRO AG no longer has operational control over its Russian subsidiary
+L101:   * Further implications of the Russian government's decision currently being evaluated
+L102: 
+L103: Even though the ownership of METRO Russia formally remains with METRO AG, the decree means that METRO itself no longer has operational control.
+L104: The Russian state has transferred operational control to “UK Torg RUS”, a company owned by the CEO of METRO Russia, Johannes Tholey.
+L105: 
+L106: Since the beginning of Russia's war against Ukraine in February 2022, METRO has taken a variety of measures to reduce the links between the Russian business and METRO AG. Further effects of the decree on METRO AG are currently being analyzed.
+L107: METRO expanded into the Russian market in 2001 and is present in Russia with 91 wholesale stores. Around 9,000 employees work for METRO in Russia.
+L108: ### About METRO
+L109: METRO is a leading international food wholesaler which specialises in serving the needs of hotels, restaurants, and caterers (HoReCa) as well as independent merchants (Traders). Around the world, METRO has approx. 15 million customers who benefit from the wholesale company’s unique multichannel mix: customers can purchase their goods in one of the large stores in their area as well as by delivery (Food Service Distribution, FSD) – all digitally supported and connected.
+L110: Parallel to this, the subsidiary METRO MARKETS operates an international online marketplace tailored to the needs of professional customers, which has been growing and expanding steadily since 2019. Acting sustainably is one of the company principles of METRO which has been listed in various sustainability indices and rankings, including MSCI, Sustainalytics and CDP. METRO operates in over 30 countries and employs more than 84,000 people worldwide.
+L111: In the 2024/25 financial year, METRO generated sales of €32.4 billion.
+L112: Read more
+L113: 
+L114: Show less
+L115: ## Related News
+L116: 
+L117: cite33†All News L118: 
+L119: No results found
+L120: 
+L121: cite53†Image: METRO Stories Artwork Comic L122: 
+L123: ## METRO Stories
+L124: 
+L125: cite54†More stories†stories.metroag.de L126: 
+L127: Follow METRO on social media
+L128: 
+L129:   *   *   *   *   * cite55†Image: METRO L130: 
+L131:   * All websites
+L132: ### cite56†Image: METRO cite55†Image: METRO All websites
+L133: 
+L134:   * cite57†Imprint†www.metroag.de L135:   * cite24†Data Privacy†www.metroag.de L136:   * cite58†Terms of Use†www.metroag.de L137:   * cite59†Report vulnerabilities†www.metroag.de L138:   * cite50†Contact L139: cite60†© 2026 METRO AG†www.metroag.de L140: 
+L141: cite61†Company L142: 
+L143:   * cite62†Company†company.metroag.de L144:   * cite63†Strategy†company.metroag.de L145:   * cite64†Governance†company.metroag.de L146:   * cite65†Finance†company.metroag.de L147: 
+L148: cite66†Newsroom L149:   * cite32†Newsroom L150:   * cite33†News L151:   * cite40†Events L152:   * cite41†Publications L153:   * cite49†Legal Announcements L154: 
+L155: cite67†Responsibility L156: 
+L157:   * cite68†Responsibility†responsibility.metroag.de L158:   * cite69†ESG Strategy†responsibility.metroag.de L159:   * cite70†Climate & Carbon†responsibility.metroag.de L160:   * cite71†Ethics & Trust†responsibility.metroag.de L161:   * cite72†Publications†responsibility.metroag.de L162:   * cite73†Contact†responsibility.metroag.de L163: 
+L164: cite74†Careers L165:   * cite75†Careers†careers.metroag.de L166:   * cite76†Jobs†careers.metroag.de L167:   * cite77†Working at METRO†careers.metroag.de L168:   * cite78†Young talents†careers.metroag.de L169:   * cite79†Professionals†careers.metroag.de L170: 
+L171: cite80†Stories L172:   * cite54†Stories†stories.metroag.de L173:   * cite81†Assortment†stories.metroag.de L174:   * cite82†Delivery†stories.metroag.de L175:   * cite83†Digitalisation†stories.metroag.de L176:   * cite84†Gastronomy†stories.metroag.de L177:   * cite85†Innovation†stories.metroag.de L178:   * cite86†Own brands†stories.metroag.de L179:   * cite87†Responsibility†stories.metroag.de L180:   * cite88†Supplier†stories.metroag.de L181:   * cite89†Trader†stories.metroag.de 

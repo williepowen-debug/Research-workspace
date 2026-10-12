@@ -1,0 +1,68 @@
+[
+  {
+    "file": "egrul-aptar-extract-request.json",
+    "url": "https://egrul.nalog.ru/vyp-request/CA0C004F1E1F556446C6A5C3C1DF9C56A08892478223AD2AE83E636C305DCBBE099E28F15608E8D14D7FF31FD62302B9D54A7BCC3C04DC21102BE8847994D50E",
+    "method": "GET",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 160,
+    "sha256": "f89f0b627953e18f49ca55ca6ce9630ce8b9382d947ed87ba5b5f46bb7067ff4",
+    "observed_at": "2026-10-12T23:45:36.924679+00:00"
+  },
+  {
+    "file": "egrul-aptar-extract-status.json",
+    "url": "https://egrul.nalog.ru/vyp-status/CA0C004F1E1F556446C6A5C3C1DF9C56A08892478223AD2AE83E636C305DCBBE099E28F15608E8D14D7FF31FD62302B9D54A7BCC3C04DC21102BE8847994D50E",
+    "method": "GET",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 18,
+    "sha256": "31bf75f4c0a97cc1f7b60df824fa390b3be9ba014f29b63c87c698ba63d9a9fd",
+    "observed_at": "2026-10-12T23:45:37.437796+00:00"
+  },
+  {
+    "file": "egrul-aptar-extract.pdf",
+    "url": "https://egrul.nalog.ru/vyp-download/CA0C004F1E1F556446C6A5C3C1DF9C56A08892478223AD2AE83E636C305DCBBE099E28F15608E8D14D7FF31FD62302B9D54A7BCC3C04DC21102BE8847994D50E",
+    "method": "GET",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 186759,
+    "sha256": "3b4abcad470fe399b7c7c6138dac538ec5b6cee9bb2fe45cb86f43ae63174da6",
+    "observed_at": "2026-10-12T23:45:39.163668+00:00"
+  },
+  {
+    "file": "egrul-metro-extract-request.json",
+    "url": "https://egrul.nalog.ru/vyp-request/1F493D58F611FA613E2991CBBDC2DBFBCCE5F8D230C60845CBD09325835A62848000494470E1C0CD2BD8A06C5D25A15306AD823535F3905052973F29A217FA08E49944B8720274DE5B621063F2FE205A",
+    "method": "GET",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 192,
+    "sha256": "b52f54dec24b18baf5161de74021d60e9c46581b9ab535eee4f9c01f7f8b2449",
+    "observed_at": "2026-10-12T23:45:39.796100+00:00"
+  },
+  {
+    "file": "egrul-metro-extract-status.json",
+    "url": "https://egrul.nalog.ru/vyp-status/1F493D58F611FA613E2991CBBDC2DBFBCCE5F8D230C60845CBD09325835A62848000494470E1C0CD2BD8A06C5D25A15306AD823535F3905052973F29A217FA08E49944B8720274DE5B621063F2FE205A",
+    "method": "GET",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 18,
+    "sha256": "31bf75f4c0a97cc1f7b60df824fa390b3be9ba014f29b63c87c698ba63d9a9fd",
+    "observed_at": "2026-10-12T23:45:40.312923+00:00"
+  },
+  {
+    "file": "egrul-metro-extract.pdf",
+    "url": "https://egrul.nalog.ru/vyp-download/1F493D58F611FA613E2991CBBDC2DBFBCCE5F8D230C60845CBD09325835A62848000494470E1C0CD2BD8A06C5D25A15306AD823535F3905052973F29A217FA08E49944B8720274DE5B621063F2FE205A",
+    "method": "GET",
+    "http": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 529911,
+    "sha256": "add3dcc229cdf234486211055ef968f0f30b803699eb0e7e913816a4feb24bd2",
+    "observed_at": "2026-10-12T23:45:44.303326+00:00"
+  }
+]

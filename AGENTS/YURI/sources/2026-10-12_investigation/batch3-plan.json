@@ -1,0 +1,26 @@
+{
+  "batch": "batch3",
+  "requests": [
+    {
+      "file": "minenergo-diesel-news-recent.json",
+      "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&model=NEWS&dateFrom=2026-09-28&dateTo=2026-10-12"
+    },
+    {
+      "file": "minenergo-codes-docs-recent.json",
+      "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-12"
+    },
+    {
+      "file": "minenergo-fuel-news-control.json",
+      "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&model=NEWS&dateFrom=2026-07-01&dateTo=2026-07-31"
+    },
+    {
+      "file": "egrul-home.html",
+      "url": "https://egrul.nalog.ru/index.html"
+    },
+    {
+      "file": "exchange-products.html",
+      "url": "https://spimex.com/markets/oil_products/trades/results/"
+    }
+  ],
+  "scope": "Finite filtered public searches, official registry entry point and exchange publication page"
+}

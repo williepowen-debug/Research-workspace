@@ -1,0 +1,44 @@
+{
+  "observed_at": "2026-10-12T23:47:37.854811+00:00",
+  "artifacts": [
+    {
+      "path": "AGENTS/HAWK/STATUS.md",
+      "last_commit": "329a63b972d97926e7c5d36ea4d991387c785db3",
+      "exists": true
+    },
+    {
+      "path": "AGENTS/OSPREY/STATUS.md",
+      "last_commit": "89d9218624e303f8b561d5a78bc7efea3aeae4e8",
+      "exists": true
+    },
+    {
+      "path": "AGENTS/BRENT/research/2026-10-12_L694-energy-disposition/NOTE.md",
+      "last_commit": "b6aac51051eeb857e7953f1579c2b2e37a4f7b9c",
+      "exists": true
+    },
+    {
+      "path": "AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md",
+      "last_commit": "42c6af6abe8cc9551932d44117788611c315eed3",
+      "exists": true
+    },
+    {
+      "path": "AGENTS/HANS/STATUS.md",
+      "last_commit": "9b2d6b02ba52467853db46bc97a31f31cdebac0c",
+      "exists": true
+    },
+    {
+      "path": "AGENTS/HAWK/STATUS.md",
+      "known_prior_combination": [
+        {
+          "line": 50,
+          "text": "The asymmetry holds and has moved. **Russia's damage is REFINING/PRODUCTS** while its crude exports hold (Bloomberg four-week average 3.76 mb/d to 10/04, B3/UNCONFIRMED per OSPREY). **The Saudi damage was CRUDE TRANSPORT and is REPORTED recovered**, while the threat has moved to upstream sites and hulls inside the Gulf. Different molecules and mechanisms: no pooled lost-barrel figure. **New cross-war link:** GL 135 ties a US product-supply arrangement to Russian refining that Ukraine is striking. Trump's own text makes the 3 Mt tranche conditional on *\"the condition of their Diesel Refineries\"*. ⛔ A diesel barrel lost to a refinery strike and an undelivered GL 135 tranche are ONE barrel: count it once, at the refinery."
+        },
+        {
+          "line": 114,
+          "text": "- **Russia:** Ukraine keeps knocking out refineries, even as the US licensed Russian diesel imports. That makes part of Washington's diesel plan depend on the capacity Ukraine is destroying."
+        }
+      ],
+      "consequence": "This single desk already joins diesel licensing/refinery damage; candidate fails F01 marginality. No exhaustive absence search is claimed."
+    }
+  ]
+}
