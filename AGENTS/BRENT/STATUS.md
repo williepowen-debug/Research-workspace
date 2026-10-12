@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-11 19:13 EDT network boot; named-contract vendor 19:03 EDT minute pulled at evening boot. Writeback 2026-10-11 19:17 EDT — SCOPED-PARTIAL:** October11 block and broker receipt only. Older standing/evidence rows retain their own vintages. Official settlements, BZ maturity identity, current USO weights, Isaias restart and fresh war-risk quotes not verified. [Boot/evidence](research/2026-10-11_evening-boot/NOTE.md).
+**Last real data refresh: 2026-10-11 21:24 EDT evening news catch-up — SCOPED-PARTIAL:** named vendor quotes21:06 EDT (Monday trading session); MMA10/10–11 and DOE10/10 direct primaries; IEA10/7/11 and G7Oct2 web primary text; Russia/TASS cabinet report. Older standing rows retain dates. No official settlements, fresh refinery run-state, Russian signed decree/cargo delivery or current USO weights verified. [Report](research/2026-10-11_evening-news/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -9,15 +9,17 @@
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## October11 evening — REOPEN / RECEIPT RECOVERY → [NOTE](research/2026-10-11_evening-boot/NOTE.md)
+## October11 evening news — CRUDE REVERSES / SUPPLY RELIEF → [REPORT](research/2026-10-11_evening-news/REPORT.md)
 
-**Tape [EST Yahoo,19:03 EDT same-minute carried prices]:** Nov WTI $92.44 / Dec $91.62; matched diesel cracks ≈$104.41 / $99.09. Product bars have zero volume; these are last-price diagnostics, not executed matched fills, settlements or TERRY grades. Dec does not govern held VLO until10/15. Crude firmness with softer diesel is consistent with product relief; ceasefire causality unproved. Requested BZZ26 $105.47 has truncated maturity metadata: identity UNKNOWN, no Brent curve test graded.
+**Tape [EST Yahoo common21:06 EDT, zero-volume carried prices]:** Nov/Dec WTI $89.89/$89.19, Nov−Dec+$0.70 backwardation. Nov declined≈$2.55 vs19:03. Matched diesel diagnostics Nov $103.22/Dec $97.83. No executed paired fill, settlement or TERRY grade. BZZ26 requested symbol $102.60, maturity UNKNOWN in metadata; no Brent-curve test. Cause of decline not isolated.
 
-**Weekend intake:** Trump announced an energy ceasefire; effective reciprocal cessation and recovered Russian product output unestablished. Projectile and Sohar tanker reports widen route-risk concern; bulletin details not independently re-authenticated this boot, mines/sinking/production loss unestablished. Ghawar heat cannot quantify crude loss. Baltic wk41 publisher levels supplied by WALTER; w/w base unresolved, no derived delta or measured freight-to-WTI effect. Isaias restart not refreshed;10/12 read still owed.
+**Isaias [CONF MMA survey, expected-output EST]:** oil shut-in Sat1,402,692b/d/68.76% → Sun1,173,863/57.54%; down284,951b/d versusFri. Restart underway in assessment, major damage/refinery run-state not cleared; fork remains OPEN to10/12. Prior NOT-YET-PUBLISHED label withdrawn: current RSS dates Saturday release earlier than yesterday's non-discovery, visibility then unknown.
 
-**Mechanical correction:** October9 call SOLD CLOSE, new October14 calls×2 recorded from broker Activity/holdings; position/action truth → [TRADE](TRADE.md). WQ-420 prospective precision/window ruling read; TERRY encoding pending at read. Stand-down and thesis unchanged.
+**Relief policy:** DOE authorized up to4M crude exchange10/10 (Exxon/BP≤2M each; Exxon accelerates earlier award; return+premium2027). No all4M incremental/delivered assumption. TASS quotes cabinet allowing500,000t diesel exception from10/10; signed decree/cargoes not verified. IEA10/11 urges old-release acceleration plus possible additional diesel ahead of10/15 Board. **G7/IEA100M overlaps outstanding March pledges; prior second-release label corrected, no extra100M automatically added.**
 
-**Boot:**10 checks ran,3 FINDINGS /7 OK /0 FAIL; receipt finding repaired and rechecked separately. Threshold and tanker-instrument findings remain; no new entry authority. Corrections0 unreceipted. [Full output](research/2026-10-11_evening-boot/boot-network.txt).
+**War:** effective reciprocal energy ceasefire not established; tanker risk persists, no measured new crude loss. Crude relief/product policy can coexist with dangerous routes. Thesis/stand-down unchanged; positions and October14 expiry → [TRADE](TRADE.md). No new capital grade.
+
+> **Rotated news follow-up:** prior boot header/body/operator summary → [archive](archive/STATUS_dated_2026-10-11_news_rotation.md), 2476 UTF-8 payload bytes, crc32 `a6c6ada7`; payload after first standalone separator, outer whitespace stripped.
 
 > **Rotated October11:** prior refresh header, October10 dated block and October10/9 operator summaries → [archive](archive/STATUS_dated_2026-10-11_boot_rotation.md), 3635 UTF-8 payload bytes, crc32 `61ae14c2`; payload after first standalone separator, outer whitespace stripped.
 
@@ -73,8 +75,9 @@
 | **Sat Oct 10** | HURRICANE ISAIAS — northern Gulf landfall (late Fri 10/9 – early Sat 10/10) and offshore/refinery restart read | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **Sat Oct 10** | DIESEL TAX RELIEF — five-day implementation directive from October5 order | 🟠 |
-| **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
-| **~Thu Oct 22** ⌁*modeled* | G7 STOCK RELEASE — end of the first 20-day window for the 'substantial diesel release' (decided 10/02, up to 100M bbl diesel + crude over 4 months, IEA-coordinated) | 🟠 |
+| **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — stock-release delivery / supplemental-diesel watch + global stock draw | 🟠 |
+| **Thu Oct 15** | IEA GOVERNING BOARD — diesel-release implementation and supplemental-volume assessment | 🟠 |
+| **~Thu Oct 22** ⌁*modeled* | G7 STOCK IMPLEMENTATION — modeled end of first20-day frontloaded-diesel window (October2 commitment,100M oil over4months; incremental overlap not assumed) | 🟠 |
 | **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
 | **Fri Oct 30** | BZZ26 LAST TRADING DAY — boundary #8 (Brent 3:2:1) month switch: Dec legs BZZ26/RBZ26/HOZ26 → Jan BZF27/RBF27/HOF27 from the FIRST SESSION AFTER (Mon 11/2) | 🟡 |
 | **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
@@ -88,9 +91,9 @@
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 23 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 24 rows are modeled.*
 
-*23 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*24 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -99,6 +102,6 @@
 
 ## SUMMARY FOR WILL
 
-*(October11 evening)* **Firm crude / softer diesel on thin Sunday vendor prices; ceasefire implementation and recovered barrels unproved. New USO calls expire10/14; October9 call was sold, not expired. Stand-down unchanged. Monday's matched settlement and hurricane restart read are next.**
+*(October11, ~9 PM)* **Crude reversed lower. Gulf estimated shut-ins are falling; DOE crude exchanges and Russian/IEA diesel policy add relief paths. Neither a working ceasefire nor recovered Russian shipments is proved. Don't double-count re-announced stock commitments. Stand-down unchanged.**
 
 *(Prior: 10/8 → [archive](archive/STATUS_DETAIL_2026-10-09.md) (1772 B, crc32 `a3288962`); 10/7 → [archive](archive/STATUS_summary-for-will_2026-10-07.md), 503 B crc32 `b716a32f`; 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

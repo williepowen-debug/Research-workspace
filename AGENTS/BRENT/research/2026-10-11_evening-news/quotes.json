@@ -1,0 +1,674 @@
+{
+  "saved_at": "2026-10-11T21:22:13.648878-04:00",
+  "basis": "Common clock last-price diagnostics, no executed paired fills, all common21:06 bars zero volume. No official settlements. BZ maturity unresolved in truncated metadata.",
+  "series": {
+    "CLX26": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLX26.NYM?range=5d&interval=1m",
+      "meta": {
+        "currency": "USD",
+        "symbol": "CLX26.NYM",
+        "exchangeName": "NYM",
+        "fullExchangeName": "NY Mercantile",
+        "instrumentType": "FUTURE",
+        "firstTradeDate": 1516597200,
+        "regularMarketTime": 1791767203,
+        "hasPrePostMarketData": false,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 89.84,
+        "regularMarketChangePercent": -2.188,
+        "fulldayPrice": 89.84,
+        "fulldayChange": -2.01,
+        "fulldayChangePercent": -2.188,
+        "fiftyTwoWeekHigh": 101.69,
+        "fiftyTwoWeekLow": 55.64,
+        "regularMarketDayHigh": 92.62,
+        "regularMarketDayLow": 89.63,
+        "regularMarketVolume": 15799,
+        "longName": "Crude Oil Nov 26",
+        "shortName": "Crude Oil Nov 26",
+        "chartPreviousClose": 89.44,
+        "previousClose": 91.85,
+        "scale": 3,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1791691200,
+            "end": 1791691200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1791691200,
+            "end": 1791777540,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1791777540,
+            "end": 1791777540,
+            "gmtoffset": -14400
+          }
+        },
+        "tradingPeriods": [
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791259200,
+              "end": 1791345540,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791345600,
+              "end": 1791431940,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791432000,
+              "end": 1791518340,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791518400,
+              "end": 1791604740,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791691200,
+              "end": 1791777540,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "dataGranularity": "1m",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      },
+      "common_minute": [
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 89.88999938964844,
+          "volume": 0
+        }
+      ],
+      "last_rows": [
+        {
+          "timestamp": "2026-10-11T21:05:00-04:00",
+          "close": 89.80000305175781,
+          "volume": 125
+        },
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 89.88999938964844,
+          "volume": 0
+        },
+        {
+          "timestamp": "2026-10-11T21:06:43-04:00",
+          "close": 89.83999633789062,
+          "volume": 0
+        }
+      ]
+    },
+    "CLZ26": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLZ26.NYM?range=5d&interval=1m",
+      "meta": {
+        "currency": "USD",
+        "symbol": "CLZ26.NYM",
+        "exchangeName": "NYM",
+        "fullExchangeName": "NY Mercantile",
+        "instrumentType": "FUTURE",
+        "firstTradeDate": 1511240400,
+        "regularMarketTime": 1791767203,
+        "hasPrePostMarketData": false,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 89.14,
+        "regularMarketChangePercent": -2.055,
+        "fulldayPrice": 89.14,
+        "fulldayChange": -1.87,
+        "fulldayChangePercent": -2.055,
+        "fiftyTwoWeekHigh": 96.41,
+        "fiftyTwoWeekLow": 55.63,
+        "regularMarketDayHigh": 91.8,
+        "regularMarketDayLow": 88.92,
+        "regularMarketVolume": 7496,
+        "longName": "Crude Oil Dec 26",
+        "shortName": "Crude Oil Dec 26",
+        "chartPreviousClose": 88.43,
+        "previousClose": 91.01,
+        "scale": 3,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "end": 1791691200,
+            "start": 1791691200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "end": 1791777540,
+            "start": 1791691200,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "end": 1791777540,
+            "start": 1791777540,
+            "gmtoffset": -14400
+          }
+        },
+        "tradingPeriods": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791345540,
+              "start": 1791259200,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791431940,
+              "start": 1791345600,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791518340,
+              "start": 1791432000,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791604740,
+              "start": 1791518400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791777540,
+              "start": 1791691200,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "dataGranularity": "1m",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      },
+      "common_minute": [
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 89.19000244140625,
+          "volume": 0
+        }
+      ],
+      "last_rows": [
+        {
+          "timestamp": "2026-10-11T21:05:00-04:00",
+          "close": 89.05000305175781,
+          "volume": 28
+        },
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 89.19000244140625,
+          "volume": 0
+        },
+        {
+          "timestamp": "2026-10-11T21:06:43-04:00",
+          "close": 89.13999938964844,
+          "volume": 0
+        }
+      ]
+    },
+    "HOX26": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOX26.NYM?range=5d&interval=1m",
+      "meta": {
+        "currency": "USD",
+        "symbol": "HOX26.NYM",
+        "exchangeName": "NYM",
+        "fullExchangeName": "NY Mercantile",
+        "instrumentType": "FUTURE",
+        "firstTradeDate": 1669784400,
+        "regularMarketTime": 1791767201,
+        "hasPrePostMarketData": false,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 4.5978,
+        "regularMarketChangePercent": -2.9673,
+        "fulldayPrice": 4.5978,
+        "fulldayChange": -0.1406,
+        "fulldayChangePercent": -2.9673,
+        "fiftyTwoWeekHigh": 5.0499,
+        "fiftyTwoWeekLow": 2.0326,
+        "regularMarketDayHigh": 4.6986,
+        "regularMarketDayLow": 4.5859,
+        "regularMarketVolume": 1774,
+        "longName": "Heating Oil Nov 26",
+        "shortName": "Heating Oil Nov 26",
+        "chartPreviousClose": 4.5694,
+        "previousClose": 4.7384,
+        "scale": 4,
+        "priceHint": 4,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1791691200,
+            "end": 1791691200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1791691200,
+            "end": 1791777540,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1791777540,
+            "end": 1791777540,
+            "gmtoffset": -14400
+          }
+        },
+        "tradingPeriods": [
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791259200,
+              "end": 1791345540,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791345600,
+              "end": 1791431940,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791432000,
+              "end": 1791518340,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791518400,
+              "end": 1791604740,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791691200,
+              "end": 1791777540,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "dataGranularity": "1m",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "ytd",
+          "max"
+        ]
+      },
+      "common_minute": [
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 4.597799777984619,
+          "volume": 0
+        }
+      ],
+      "last_rows": [
+        {
+          "timestamp": "2026-10-11T21:05:00-04:00",
+          "close": 4.594299793243408,
+          "volume": 63
+        },
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 4.597799777984619,
+          "volume": 0
+        },
+        {
+          "timestamp": "2026-10-11T21:06:41-04:00",
+          "close": 4.597799777984619,
+          "volume": 0
+        }
+      ]
+    },
+    "HOZ26": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOZ26.NYM?range=5d&interval=1m",
+      "meta": {
+        "currency": "USD",
+        "symbol": "HOZ26.NYM",
+        "exchangeName": "NYM",
+        "fullExchangeName": "NY Mercantile",
+        "instrumentType": "FUTURE",
+        "firstTradeDate": 1669784400,
+        "regularMarketTime": 1791767201,
+        "hasPrePostMarketData": false,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 4.4528,
+        "regularMarketChangePercent": -2.9553,
+        "fulldayPrice": 4.4528,
+        "fulldayChange": -0.1356,
+        "fulldayChangePercent": -2.9553,
+        "fiftyTwoWeekHigh": 4.7926,
+        "fiftyTwoWeekLow": 2.0334,
+        "regularMarketDayHigh": 4.5517,
+        "regularMarketDayLow": 4.4445,
+        "regularMarketVolume": 1574,
+        "longName": "Heating Oil Dec 26",
+        "shortName": "Heating Oil Dec 26",
+        "chartPreviousClose": 4.4231,
+        "previousClose": 4.5884,
+        "scale": 4,
+        "priceHint": 4,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1791691200,
+            "end": 1791691200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1791691200,
+            "end": 1791777540,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1791777540,
+            "end": 1791777540,
+            "gmtoffset": -14400
+          }
+        },
+        "tradingPeriods": [
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791259200,
+              "end": 1791345540,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791345600,
+              "end": 1791431940,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791432000,
+              "end": 1791518340,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791518400,
+              "end": 1791604740,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791691200,
+              "end": 1791777540,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "dataGranularity": "1m",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "ytd",
+          "max"
+        ]
+      },
+      "common_minute": [
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 4.4527997970581055,
+          "volume": 0
+        }
+      ],
+      "last_rows": [
+        {
+          "timestamp": "2026-10-11T21:04:00-04:00",
+          "close": 4.45389986038208,
+          "volume": 10
+        },
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 4.4527997970581055,
+          "volume": 0
+        },
+        {
+          "timestamp": "2026-10-11T21:06:41-04:00",
+          "close": 4.4527997970581055,
+          "volume": 0
+        }
+      ]
+    },
+    "BZZ26": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZZ26.NYM?range=5d&interval=1m",
+      "meta": {
+        "currency": "USD",
+        "symbol": "BZZ26.NYM",
+        "exchangeName": "NYM",
+        "fullExchangeName": "NY Mercantile",
+        "instrumentType": "FUTURE",
+        "firstTradeDate": 1541044800,
+        "regularMarketTime": 1791767178,
+        "hasPrePostMarketData": false,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 102.6,
+        "regularMarketChangePercent": -2.024,
+        "fulldayPrice": 102.6,
+        "fulldayChange": -2.12,
+        "fulldayChangePercent": -2.024,
+        "fiftyTwoWeekHigh": 105.91,
+        "fiftyTwoWeekLow": 59.17,
+        "regularMarketDayHigh": 105.61,
+        "regularMarketDayLow": 102.35,
+        "regularMarketVolume": 3218,
+        "longName": "Brent Crude Oil Last Day Financ",
+        "shortName": "Brent Crude Oil Last Day Financ",
+        "chartPreviousClose": 100.58,
+        "previousClose": 104.72,
+        "scale": 3,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "end": 1791691200,
+            "start": 1791691200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "end": 1791777540,
+            "start": 1791691200,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "end": 1791777540,
+            "start": 1791777540,
+            "gmtoffset": -14400
+          }
+        },
+        "tradingPeriods": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791345540,
+              "start": 1791259200,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791431940,
+              "start": 1791345600,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791518340,
+              "start": 1791432000,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791604740,
+              "start": 1791518400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791777540,
+              "start": 1791691200,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "dataGranularity": "1m",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      },
+      "common_minute": [
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 102.5999984741211,
+          "volume": 0
+        }
+      ],
+      "last_rows": [
+        {
+          "timestamp": "2026-10-11T21:05:00-04:00",
+          "close": 102.5199966430664,
+          "volume": 4
+        },
+        {
+          "timestamp": "2026-10-11T21:06:00-04:00",
+          "close": 102.5999984741211,
+          "volume": 0
+        },
+        {
+          "timestamp": "2026-10-11T21:06:18-04:00",
+          "close": 102.5999984741211,
+          "volume": 0
+        }
+      ]
+    }
+  },
+  "unrounded_binary_diagnostics": {
+    "nov_crack": 103.21759128570557,
+    "dec_crack": 97.82758903503418,
+    "wti_nov_minus_dec": 0.6999969482421875
+  }
+}

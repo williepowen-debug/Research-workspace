@@ -1,41 +1,41 @@
-# BRENT SCRATCH — October11,2026 evening
+# BRENT SCRATCH — October11,2026 late evening
 
-Writeback 2026-10-11 19:18 EDT; direct Will boot request19:12 EDT. OpenAI Codex, GPT-6 family; exact model variant/sessionid UNKNOWN. Root/local/runtime instructions explicitly read. Shell/web/files available; fleet live discovery/transport unverified. No helpers spawned. Pull/push deferred under root Git Protocol because foreign work dirty; cached HEAD/origin matched at boot only. Other desks untouched.
+Writeback 2026-10-11 21:24 EDT; Will requested evening oil-news catch-up in existing Codex BRENT session after19:12 boot. Root/local/runtime instructions loaded earlier same session. Model variant/sessionid UNKNOWN; PROME two-way native connection confirmed between tasks, no other discovery inferred. No helpers. Pull/push deferred for foreign dirty paths; own local commits only.
 
 ## CHANGES SINCE LAST SESSION
-- Energy-ceasefire announcement and conditional Ukrainian willingness arrived; effective reciprocal halt/output recovery not established. Shipping incident reports extend outside Hormuz; mine/sinking/lost-barrel claims not proved.
-- WALTER supplied Baltic wk41 publisher figures, with unresolved week-on-week comparison base. No measured freight→WTI beta.
-- New10/11 broker Activity: October9 call SOLD CLOSE, superseding worthless disposition; new distinct USO October14 calls×2. Source/cash at TRADE, no roll linkage inferred.
-- WQ420 precise calculation/window wording approved prospectively; TERRY owner encoding pending technical approval when read.
+- Sunday crude reversed early gains; named21:06 vendor diagnostics in REPORT, not settles. Relief paths strengthened, cause of the price change not isolated.
+- Post-landfall MMA10/10–11 now obtained: estimated offshore shut-ins decline, but clean restart/damage/refinery status unproved.
+- DOE10/10 storm exchanges≤4M include acceleration of prior award; TASS quotes Russian500,000t diesel exception effective10/10; decree/shipments not verified.
+- IEA10/11 urges old-release acceleration and possible supplemental diesel at confirmed10/15 Board. Earlier own second100M label corrected: overlap with March commitments, no automatic extra100M.
 
 ## WHAT I DID THIS SESSION
-- Ran full network boot:10 checks,3 FINDINGS/7 OK/0 FAIL; initial sandbox DNS failure retried with approved network access. Corrections0 unreceipted; no OPEN prediction due. Read latest Friday routine, no new grade.
-- Corrected TRADE from committed broker transcription/FORGE; separately rechecked pending-receipts guard. Recorded WQ420 pointer/rationale without claiming TERRY completion.
-- Saved named19:03 EDT minute diagnostics and source limits: products carry zero-volume prices, BZ maturity UNKNOWN; no settlement or causal grade.
-- Dispositioned7 WALTER +2 general packets;9 board_log rows,9 archive moves. FALCON optional measured Saudi-output ask: not obtained; OSPREY exports read: not yet obtained. Brief carries both.
-- Updated STATUS/NEXUS/TRACKER scoped-partial; prior STATUS content archived verbatim with computed byte/crc receipt. No new trade, threshold, prediction or thesis change.
+- Searched/reconciled evening oil reports and primaries; saved source manifest, three government pages, RSS and quote excerpts plus five-point REPORT.
+- Updated Isaias partial evidence, existing SPR/OMR/G7 docket rows and confirmed IEA Board date; generated calendar. Fork stays OPEN to10/12; no due prediction/registered line graded.
+- Updated STATUS/NEXUS/TRACKER scoped-partial and archived prior dated boot block with computed receipt. No phase/conviction/threshold/capital change. Prior broker correction remains at TRADE.
+- Acknowledged prior PROME connection check using native return tool; this news work sends no live signal/recipient-consumption claim. No new inbox arrivals, zero new moves/rows this follow-up.
 
 ## NEXT SESSION (dated, future-verifiable)
 1. Mon10/12: first post-weekend matched settlement diagnostic; WQ420 requires complete two opening-time bars14:28/14:29, verified convention, separate Close×Volume leg VWAPs, unrounded arithmetic. TERRY grades; no automatic touch promised. November governs through10/14.
-2. By10/12: Isaias first post-landfall MMA/operator damage/restart read, Pascagoula GAP; DOCKET L633 window. Not pulled this boot; yesterday's unpublished-at-time statement not asserted current.
+2. By10/12: Isaias operator damage/refinery run-state and clean restart read, Pascagoula GAP; DOCKET L633 window. Post-landfall MMA10/10–11 obtained; no full fork grade.
 3. ~10/13: Russian4wk exports to10/11 if published; OSPREY OSP-06 grade10/15. TERRY new-USO management source/order receipt needed before10/14 expiry, already visible in FORGE; no new commission sent.
-4.10/14: USO Oct14 expiry, standing sell-or-roll before expiry; IEA OMR/DEWEY report and final governing November settlement.10/15 noon: WPSR wk10/9, BRT31 first print; December starts governing VLO; CPC outlook.
+4.10/14: USO Oct14 expiry, standing sell-or-roll before expiry; IEA OMR (modeled)/DEWEY report and final governing November settlement.10/15 noon: WPSR wk10/9, BRT31 first print; December starts governing VLO; CPC outlook plus confirmed IEA Governing Board supplemental-diesel assessment.
 5.10/16~15:30: COT #10 as-of10/13; verify raw primary and existing observation before recording. Rigs record-only.
 6.10/24 shadow end;10/26 BRT30;10/30 BZZ26 last trading day;11/2 boundary#8 January switch. Russia diesel-ban expiry10/31 (YURI). VLO basis review11/18, last authorized December observation11/19.
 
 ## OPEN THREADS / WATCHES
-- Route/war-risk widening versus product-supply relief; shipments and measured output required, heat/hulls not barrels.
-- Isaias restart, signed Russian decree/refinery recovery, Baltic comparison base, SPR awards remain source gaps; no fresh verification claimed.
-- Carried: WQ252/HEN46 owner debt; RF013 primary/re-key; routine deployment parked at CATO; no restart/activation inferred.
+- Shipping risk versus supply-relief repricing: effective ceasefire and measured losses unproved; no new mine/sinking/production-loss grade.
+- Russia signed exception/decree and loaded diesel; Isaias damage/refinery run-states; genuine incremental IEA volumes;40M SPR solicitation awards still unresolved.
+- Carried WQ252/HEN46/RF013 owner debt and CATO routine deployment; no new architecture or monitor.
 
 ## POSITION DECISIONS PENDING
-- New October14 calls at TRADE: no contract-specific TERRY card/order established; standing sell-or-roll applies. No new BRENT proposal or commission.
-- VLO one share: manual owner grade under WQ386/420; precision/window prospective, calibration caveat unchanged. Broker facts/quantities at TRADE; no marks copied here.
+- October14 calls: standing sell-or-roll, contract-specific card/order UNKNOWN at boot receipt; no new commission or proposal.
+- Held VLO: November through10/14, December10/15–11/19; TERRY grades under WQ386/420. Tonight's quotes cannot grade it. No fresh broker state or TERRY encode completion asserted.
 
 ## MAIL STATE
-- Inbox: clear after7 WALTER +2 general disposition/archives;9 rows=9 moves. No MSG files.
-- Outbox: no new packet; steady-state synthesis at NEXUS. Fleet live transport/peer consumption unverified.
+- Inbox clear, zero new arrivals/moves this follow-up. Prior boot9 packets/9rows/9moves already committed.
+- Outbox none new; steady-state results and accounting correction at NEXUS. No peer consumption claimed for this report.
 
 ## WORKBOOK HEALTH
-- Full boot3 FINDINGS; pending-receipts repaired/rechecked, threshold and tanker instrument findings remain. No clean-boot claim. Stale incident evidence not downgraded on a timer.
-- Local commit required; push deferred while foreign work remains dirty (root Before pulling#2). Saved source artifacts and explicit owned paths only.
+- Boot receipt finding previously repaired; threshold/tanker coverage findings retained. No new boot rerun needed for news-only follow-up.
+- Docket refreshed; REGISTRY/LESSONS/INCIDENTS/COT data unchanged because no respective new source/grade/spec/lesson moved. Official settlements, current weights and operator-run evidence still missing.
+- Local commit/push state: commit required for this writeback; push deferred under root Before pulling#2 while foreign dirty work remains.

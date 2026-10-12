@@ -1,0 +1,62 @@
+{
+  "written_at": "2026-10-11T21:22:13.648878-04:00",
+  "user_scope": "Oil news catch-up this evening; existing BRENT session",
+  "sources": [
+    {
+      "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias4",
+      "method": "direct curl; content inspected",
+      "saved_file": "isaias4.html",
+      "sha256": "89d2149102a292223d6873049b95bcbd7d3b1531cfd1644a5beaf718e0c566af"
+    },
+    {
+      "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias5",
+      "method": "direct curl; content inspected",
+      "saved_file": "isaias5.html",
+      "sha256": "d2911b28e55cb4a2720a3c626d3a71ff7880862a2eb844f56f171172f41264cb"
+    },
+    {
+      "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply",
+      "method": "direct curl; content inspected",
+      "saved_file": "doe.html",
+      "sha256": "072fe8735f942066256798c288eb1c1f4812e60faf42f4bcae6b44b9a45e36a8"
+    },
+    {
+      "url": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
+      "method": "web open full text; direct curl challenge rejected"
+    },
+    {
+      "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+      "method": "web open full text; direct curl challenge rejected"
+    },
+    {
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability",
+      "method": "web open full statement"
+    },
+    {
+      "url": "https://tass.com/economy/2200347",
+      "method": "TASS report opened and direct curl text read; quotes cabinet, signed decree not authenticated"
+    },
+    {
+      "url": "https://apnews.com/article/f621fa788196f204448e7f75fcc78c68",
+      "method": "web search complete short news content; full page/challenge failed"
+    },
+    {
+      "url": "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
+      "method": "web search complete short news content; full page/challenge failed"
+    },
+    {
+      "url": "https://www.ukmto.org/?rev=d6bef2b424e648ed97666d5903403b95",
+      "method": "search indexed incident summaries; open dynamically omitted incident details, curl recent-incidents blocked"
+    },
+    {
+      "url": "https://www.chevron.com/newsroom/2026/q4/hurricane-isaias",
+      "method": "direct curl no operator article; search returns10/9 vintage. No fresh run-state established"
+    },
+    {
+      "url": "https://www.bsee.gov/rss.xml",
+      "method": "direct curl XML parsed; isaias4 pubDate10/10 16:07:01Z,isaias5 10/11 16:05Z",
+      "saved_file": "bsee-rss.xml",
+      "sha256": "05a6e58dcf48368b426e8521330a3a10e76fffb90b94b3035f813addf154c890"
+    }
+  ]
+}
