@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-10-12T23:24:38.607249+00:00",
+  "design_commit": "041cfdfb5",
+  "sample_start": "2010-01-04",
+  "paired_cutoff": "2026-10-08",
+  "GLD_basis": "Yahoo MIRROR daily Close, auto_adjust=False",
+  "DFII10_basis": "FRED MIRROR latest-revised; separate ALFRED first-published comparison",
+  "GLD_rows": 4218,
+  "latest_rows": 5752,
+  "first_attempt": {
+    "error": "first-published pull failed for window realtime 2009-12-18..9999-12-31, observations from 2010-01-01: HTTP 400: Bad Request.  There are 4138 vintage dates in the specified real-time period: 2009-12-18 to 9999-12-31.  This exceeds the maximum number of vintage dates allowed for this file type (2000).",
+    "short": false,
+    "under_limit": false
+  },
+  "first_blocks": [
+    {
+      "file": "DFII10_first_2010_2015.json",
+      "error": null,
+      "rows": 1565
+    },
+    {
+      "file": "DFII10_first_2016_2021.json",
+      "error": null,
+      "rows": 1566
+    },
+    {
+      "file": "DFII10_first_2022_2026.json",
+      "error": null,
+      "rows": 1244
+    }
+  ],
+  "sha256": {
+    "DFII10_first_2022_2026.json": "fcfe8777a4f912b1c0f99fa3aadfef7e2f524c121f19f6e26e96a5d5cac6e394",
+    "DFII10_latest.json": "a5f05962f5dd13ebf47662cbe65dd5960252818d58d9d099256e5022bdf0d519",
+    "DFII10_first_attempt.json": "ea4d8b6250b599bc811feb4c768dbab960ca36a3e60cb48778f7913a87a1d485",
+    "GLD.csv": "fe9e07ff4b06af3d0dc68f97215574f6ea5f2d2738e67c805fa0e37803ac43de",
+    "DFII10_first_2010_2015.json": "29dbb78504bb092318e838f46165fd4d79b1605358e12e7b0f9587ed1f43ac7a",
+    "DFII10_first_2016_2021.json": "3cde41eb6ff4ba72fa558e507d5722ec1254817c411a389f88184b72b8dcbee5"
+  }
+}

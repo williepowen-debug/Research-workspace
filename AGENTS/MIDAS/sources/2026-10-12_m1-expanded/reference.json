@@ -1,0 +1,64 @@
+{
+  "calculated_at": "2026-10-12T23:28:43.494990+00:00",
+  "design_commit": "041cfdfb5",
+  "pairs": 4186,
+  "first": "2010-01-05",
+  "last": "2026-10-08",
+  "parameters": {
+    "window": 120,
+    "horizon": 20,
+    "flip": -0.08,
+    "grid": "phase anchored on old2024 first pair+119;141-step both directions",
+    "phase_index": 3615
+  },
+  "old_690_pairs_reconcile": true,
+  "max_old_ret_error": 4.440892098500626e-14,
+  "max_old_dy_error": 0.0,
+  "overlapping_anchors": 4047,
+  "overlapping_counts": {
+    "below_flip": {
+      "n": 1578,
+      "A": 1334,
+      "B": 244,
+      "B_frequency": 0.15462610899873258
+    },
+    "at_or_above": {
+      "n": 2469,
+      "A": 261,
+      "B": 2208,
+      "B_frequency": 0.8942891859052248
+    }
+  },
+  "disjoint_episodes": 28,
+  "disjoint_counts": {
+    "below_flip": {
+      "n": 9,
+      "A": 7,
+      "B": 2,
+      "B_frequency": 0.2222222222222222
+    },
+    "at_or_above": {
+      "n": 19,
+      "A": 3,
+      "B": 16,
+      "B_frequency": 0.8421052631578947
+    }
+  },
+  "original_four_episodes_preserved": true,
+  "alfred_used_level_dates": 4195,
+  "alfred_missing": [
+    "2020-08-19"
+  ],
+  "latest_vs_first_differences": [],
+  "vintage_limit": "First-published per-observation comparison is not a set of historic latest-carried 120-row endpoint snapshots; GLD is a single later Yahoo capture.",
+  "forward_probability": "UNASSIGNED pending regime/endpoint-vintage review; disjoint support does not establish independent macro episodes",
+  "input_sha256": {
+    "capture.json": "737e7eabc214e55e4f1abc16fada7e8196646ac4ff1622852af9d199132d4202",
+    "DFII10_first_2022_2026.json": "fcfe8777a4f912b1c0f99fa3aadfef7e2f524c121f19f6e26e96a5d5cac6e394",
+    "DFII10_latest.json": "a5f05962f5dd13ebf47662cbe65dd5960252818d58d9d099256e5022bdf0d519",
+    "DFII10_first_attempt.json": "ea4d8b6250b599bc811feb4c768dbab960ca36a3e60cb48778f7913a87a1d485",
+    "GLD.csv": "fe9e07ff4b06af3d0dc68f97215574f6ea5f2d2738e67c805fa0e37803ac43de",
+    "DFII10_first_2010_2015.json": "29dbb78504bb092318e838f46165fd4d79b1605358e12e7b0f9587ed1f43ac7a",
+    "DFII10_first_2016_2021.json": "3cde41eb6ff4ba72fa558e507d5722ec1254817c411a389f88184b72b8dcbee5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "basis": "first-published",
+  "series": "DFII10",
+  "rows": [],
+  "request": {
+    "series_id": "DFII10",
+    "output_type": 4,
+    "observation_start": "2010-01-01",
+    "realtime_start": "2009-12-18",
+    "realtime_end": "9999-12-31",
+    "limit": 5000
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": false,
+  "error": "first-published pull failed for window realtime 2009-12-18..9999-12-31, observations from 2010-01-01: HTTP 400: Bad Request.  There are 4138 vintage dates in the specified real-time period: 2009-12-18 to 9999-12-31.  This exceeds the maximum number of vintage dates allowed for this file type (2000)."
+}
