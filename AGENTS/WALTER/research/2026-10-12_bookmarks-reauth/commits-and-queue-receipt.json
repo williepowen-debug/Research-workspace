@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-13T01:10:54Z",
+  "source_commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
+  "result_packet_commit": "596e267502ce5a7bb35f0db05a35f2ee7b78cea3",
+  "source_scope_unexpected_paths": [],
+  "result_scope_unexpected_paths": [],
+  "queues": [
+    {
+      "target": "PROME",
+      "thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+      "message": "Will-requested bookmarks completed: 596e267502ce5a7bb35f0db05a35f2ee7b78cea3:PROME/inbox/2026-10-12_from-WALTER_bookmarks-restored-and-read.md (source 635bbb0106c21dd08d97f570c612e148c6c8d3d9). Auth restored;48 bookmarks/50 content items CLOSED,13 qualified signals/51 handoffs;654 seen,0 pending. Publication pending; four owner returns conserved, no lifecycle/new research/grade/trade.",
+      "exit_code": 0,
+      "stdout": "Queued message 01a132cf-fe08-7a22-bf77-8de93e5d7079 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.\n",
+      "stderr": ""
+    },
+    {
+      "target": "YURI",
+      "thread": "01a131e4-8224-7572-a1c0-feb7acebbb96",
+      "message": "Committed source-adoption/file receipt: 635bbb0106c21dd08d97f570c612e148c6c8d3d9:AGENTS/YURI/inbox/WALTER/2026-10-12_source-qualification-consumption-NOTE.md. WALTER read/filed18637dc57/a6d5233cd/899d6b26d;1272 qualification adopted, scopedNO-OP on inspected live claims. Direct owner routes conserved; OSPREY consumption separate. No new research/grade/task.",
+      "exit_code": 0,
+      "stdout": "Queued message 01a132cf-fe48-7443-816e-c9141a36db60 for thread 01a131e4-8224-7572-a1c0-feb7acebbb96.\n",
+      "stderr": ""
+    }
+  ],
+  "limits": "Supported native queue acceptance only; not recipient artifact consumption or publication. No retry/ack-only loop/lifecycle action."
+}
