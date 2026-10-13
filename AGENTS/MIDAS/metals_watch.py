@@ -10,14 +10,16 @@ precedent (see that file's header + FORGE README "shared client" note). If
 fetch.py itself needs extending, that is a FORGE edit — flag to PROME, don't
 fork it here.
 
-SCOPE (per SCRATCH.md 2026-07-11 pickup, PAT-041 — wire the cadence durably
-at build time): real yield (FRED DFII10) + gold/silver/copper/platinum/
-palladium spot (COMEX futures primary: GC=F/SI=F/HG=F/PL=F/PA=F; ETF proxies
-GLD/SLV/CPER/PPLT/PALL as a secondary cross-check row) + gold/silver ratio
-(GSR, computed off futures) + an M1 divergence classifier (gold trend vs
+SCOPE: real yield (FRED DFII10 MIRROR, latest-revised) + named gold/silver/
+copper/platinum/palladium vendor daily bars. FRONT_MONTHS supplies the exact
+contracts; GC=F/SI=F/HG=F/PL=F/PA=F are diagnostic pointers only. The newest
+futures history row is excluded because its volume is duplicated. Vendor
+Close is not a certified exchange settlement. ETF proxies are a secondary
+quote row. GSR binds to same-date, same-delivery-month named contracts. The
+M1 divergence classifier uses one named gold contract throughout (gold trend vs
 real-yield trend over a trailing ~90-day window — CONVERGE = real-rate-
-consistent / debasement premium NOT confirmed this window; DIVERGE = gold
-holding/rising through rising real yields / premium confirmed this window).
+consistent; DIVERGE = gold holding/rising through rising real yields).
+These sign patterns do not identify a debasement premium or a regime change.
 
 LME COPPER INVENTORY LEG (round-2 2026-07-12; BASELINE DEFINED round-3):
 westmetall.com publishes the LME copper stock series (daily) in a plain
@@ -44,11 +46,9 @@ re-coupled, moving inversely to real rates) = the EXPECTED/quiet baseline (rc=0)
 DIVERGE (gold holding/rising THROUGH rising real yields = premium reassertion,
 v2 kill-cond #3) = the REVIEW trigger (rc=1). See the verdict block + SCRATCH.md.
 
-OUT OF SCOPE (documented gaps, not silently dropped):
-  - CFTC COT (gold/silver/copper net positioning) — weekly cadence (Fri
-    release, Tue data), not a daily-pull fit for this script. Pulled manually
-    this session via the CFTC Socrata API (see STATUS.md baseline + KB rows);
-    a future increment could wire a weekly-cadence COT leg here.
+OUT OF SCOPE FOR THIS SCRIPT:
+  - CFTC COT is checked by separate gold and Ag/Pt/Pd boot legs. Copper
+    positioning remains manual. Do not mistake separation for absent wiring.
   - Copper vs 200dma (I1 threshold table) — needs a 200-trading-day history
     pull; scoped OUT of this first increment (kept to the SCRATCH-specified
     spot+yield+GSR legs). Computed manually this session (see STATUS.md);
@@ -66,11 +66,13 @@ Usage (self-locating, works from any cwd):
 """
 
 import re
+import math
 import statistics
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # Self-locate the shared FORGE client regardless of cwd.
 # This file lives at AGENTS/MIDAS/metals_watch.py -> parents[2] == repo root.
@@ -106,8 +108,207 @@ ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
 #      so the stale map graded a DYING contract "OK" at 100% share — the failure above).
 FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGZ26.CMX",
                 "PL=F": "PLF27.NYM", "PA=F": "PAZ26.NYM"}
+FRONT_MONTHS_REVIEW_ON = "2026-10-19"  # chosen weekly maintenance date, not an expiry
+MAX_PRIOR_BAR_AGE_DAYS = 7  # source freshness bound, not a market alarm level
 # A pointer carrying under this share of the explicit month's volume is DYING.
 DYING_VOL_SHARE = 0.05
+
+
+def contract_month(ticker):
+    """Read a named futures delivery month; never infer the current liquid month."""
+    match = re.search(r"([FGHJKMNQUVXZ])(\d{2})(?:\.|$)", ticker)
+    if not match:
+        raise ValueError(f"unnamed delivery month: {ticker}")
+    return 2000 + int(match[2]), "FGHJKMNQUVXZ".index(match[1]) + 1
+
+
+def contract_map_review(today=None):
+    """Administrative weekly review, independent of the market's alarm bands."""
+    today = today or datetime.now(ZoneInfo("America/New_York")).date()
+    notes = []
+    if today >= date.fromisoformat(FRONT_MONTHS_REVIEW_ON):
+        notes.append(f"Mapped contracts need the owner review dated {FRONT_MONTHS_REVIEW_ON}.")
+    for ptr, front in FRONT_MONTHS.items():
+        try:
+            if (today.year, today.month) > contract_month(front):
+                notes.append(f"{ptr}: mapped delivery month has passed ({front}); do not grade this contract.")
+        except ValueError as exc:
+            notes.append(str(exc))
+    return notes
+
+
+def _prior_vendor_bar(data):
+    """Conservative T+1 bar. Exclude the newest row's duplicated volume."""
+    if "error" in data:
+        raise ValueError(data["error"])
+    bars = data.get("history", [])
+    if len(bars) < 2:
+        raise ValueError("fewer than two bars; prior vendor row unavailable")
+    dates = [date.fromisoformat(b["date"]) for b in bars]
+    if any(a >= b for a, b in zip(dates, dates[1:])):
+        raise ValueError("vendor bar dates are duplicate or unordered")
+    bar = bars[-2]
+    if not math.isfinite(float(bar["close"])) or bar["close"] <= 0:
+        raise ValueError("prior vendor Close is not a positive finite value")
+    return bar
+
+
+def read_contract_history(tickers, days=12):
+    """Keep native futures tick precision for the binding ratio/volume snapshot.
+
+    FORGE price_history rounds every Close to two decimals. That rounds away
+    silver/copper ticks; the narrow local adapter retains vendor Close and
+    Volume without changing the shared client. Long-window gold/GLD history
+    still uses FORGE. No settlement certification is implied.
+    """
+    import yfinance as yf
+    result = {}
+    for ticker in tickers:
+        try:
+            frame = yf.Ticker(ticker).history(period=f"{days}d", auto_adjust=False).sort_index()
+            if frame.empty or frame["Close"].isna().any():
+                raise ValueError("empty history or a null Close; no prior-row certification")
+            result[ticker] = {"history": [dict(date=str(idx.date()), close=float(row["Close"]),
+                                               volume=int(row["Volume"])) for idx, row in frame.iterrows()]}
+        except Exception as exc:
+            result[ticker] = {"error": str(exc)}
+    return result
+
+
+def read_contract_snapshot(front_months=None, history=None, today=None):
+    """Bind prices to named contracts; pointers are diagnostic only.
+
+    A failed pointer cannot replace a named-contract price. A failed named
+    contract is UNKNOWN even when its pointer happens to return a quote.
+    """
+    front_months = FRONT_MONTHS if front_months is None else front_months
+    today = today or datetime.now(ZoneInfo("America/New_York")).date()
+    if history is None:
+        history = read_contract_history(list(dict.fromkeys([*front_months, *front_months.values()])), days=12)
+    primary, rows, flags = {}, [], []
+    for ptr, front in front_months.items():
+        b = history.get(front, {"error": "named-contract history absent"})
+        try:
+            if not front.startswith(ptr.split("=")[0]):
+                raise ValueError(f"contract does not identify the expected metal: {ptr} -> {front}")
+            if (today.year, today.month) > contract_month(front):
+                raise ValueError(f"mapped contract month has passed: {front}")
+            br = _prior_vendor_bar(b)
+            if date.fromisoformat(br["date"]) > today:
+                raise ValueError("prior vendor bar is future-dated")
+            if (today - date.fromisoformat(br["date"])).days > MAX_PRIOR_BAR_AGE_DAYS:
+                raise ValueError(f"prior vendor bar is older than {MAX_PRIOR_BAR_AGE_DAYS} calendar days")
+            if br.get("volume", 0) <= 0:
+                raise ValueError("named-contract prior volume is absent or zero")
+            previous = b["history"][-3]["close"] if len(b["history"]) >= 3 else None
+            primary[ptr] = dict(contract=front, date=br["date"], price=br["close"],
+                                prev=previous, volume=br["volume"],
+                                change_pct=(br["close"] / previous - 1) * 100 if previous else None)
+        except (ValueError, KeyError, TypeError) as exc:
+            primary[ptr] = dict(contract=front, error=str(exc))
+        try:
+            a = history.get(ptr, {"error": "pointer history absent"})
+            ar, br = _prior_vendor_bar(a), _prior_vendor_bar(b)
+            if ar["date"] != br["date"]:
+                raise ValueError(f"prior-row dates disagree: {ar['date']} vs {br['date']}")
+            pv, fv = ar["volume"], br["volume"]
+            spread = (ar["close"] / br["close"] - 1) * 100
+            state = "UNKNOWN" if fv <= 0 else ("DYING" if pv < DYING_VOL_SHARE * fv else "OK")
+            rows.append((ptr, front, ar["date"], pv, fv, ar["close"], br["close"], spread, state))
+            if state != "OK":
+                flags.append(ptr)
+        except (ValueError, KeyError, TypeError) as exc:
+            rows.append((ptr, front, None, None, None, None, None, None, f"UNKNOWN ({exc})"))
+            flags.append(ptr)
+    return primary, rows, flags
+
+
+def primary_gsr(primary):
+    """Same-date, same-delivery-month USD/oz ratio from named contracts only."""
+    g, s = primary.get("GC=F", {}), primary.get("SI=F", {})
+    if "error" in g or "error" in s or not g or not s:
+        raise ValueError("named gold or silver contract is unavailable")
+    if g["date"] != s["date"]:
+        raise ValueError(f"gold/silver dates disagree: {g['date']} vs {s['date']}")
+    if contract_month(g["contract"]) != contract_month(s["contract"]):
+        raise ValueError("gold/silver delivery months disagree; no GSR band grade")
+    return g["price"] / s["price"]
+
+
+def copper_conjunction_context(inventory_pct):
+    """Report the measured inventory leg without manufacturing a price leg."""
+    state = "REACHED" if inventory_pct >= LME_RED else "CLEAR"
+    return (f"Inventory leg {state}: {inventory_pct:+.1f}% vs dated median; boundary +{LME_RED}%. "
+            "Copper price leg UNMEASURED here; the full price/inventory conjunction is not graded.")
+
+
+def measure_three_week(obs, gld_history, end):
+    """The existing endpoint shape requires GLD; never fall back to a roll."""
+    if "error" in gld_history:
+        raise ValueError(f"GLD arbiter unavailable: {gld_history['error']}")
+    obs = sorted((o for o in obs if o.get("value") not in (None, "", ".") and o["date"] <= end),
+                 key=lambda o: o["date"], reverse=True)
+    if not obs:
+        raise ValueError("no DFII10 observation by the named ending date")
+    latest_y = obs[0]
+    latest_d = date.fromisoformat(latest_y["date"])
+    y_then = next((o for o in obs if (latest_d - date.fromisoformat(o["date"])).days >= 21), None)
+    if y_then is None:
+        raise ValueError("fewer than 21 calendar days of yield history")
+    bars = gld_history.get("history", [])
+
+    def price_asof(dt):
+        prior = [b for b in bars if b["date"] <= dt]
+        if not prior:
+            raise ValueError(f"GLD has no bar at or before {dt}")
+        b = max(prior, key=lambda b: b["date"])
+        if not math.isfinite(float(b["close"])) or b["close"] <= 0:
+            raise ValueError(f"GLD Close is invalid on {b['date']}")
+        return b
+
+    a, b = price_asof(y_then["date"]), price_asof(latest_y["date"])
+    dy_bp = round((float(latest_y["value"]) - float(y_then["value"])) * 100)
+    return dict(latest_y=latest_y, y_then=y_then, gld_start=a, gld_end=b,
+                dy_bp=dy_bp, return_pct=(b["close"] / a["close"] - 1) * 100)
+
+
+def measure_weekly_shape(obs, gld_history, end, calendar_as_of=None):
+    """Apply the already-ruled three-Friday-interval endpoint basis (L-12).
+
+    Non-publication days use the last common observation by that Friday.
+    Print the actual common dates; do not call a four-week-old row a close.
+    """
+    if "error" in gld_history:
+        raise ValueError(f"GLD arbiter unavailable: {gld_history['error']}")
+    yields = {o['date']: o for o in obs if o.get('value') not in (None, '', '.') and o['date'] <= end}
+    prices = {b['date']: b for b in gld_history.get('history', []) if b.get('close') is not None}
+    common = sorted(yields.keys() & prices.keys())
+    # The Friday clock belongs to the capture, not the latest published yield.
+    # A Friday with a missing publication uses its prior common observation.
+    end_date = date.fromisoformat(calendar_as_of or end)
+    friday = end_date - timedelta(days=(end_date.weekday() - 4) % 7)
+    points = []
+    for offset in [21, 14, 7, 0]:
+        nominal = friday - timedelta(days=offset)
+        available = [d for d in common if d <= nominal.isoformat()]
+        if not available:
+            raise ValueError(f"no common GLD/DFII10 observation by Friday {nominal}")
+        actual = available[-1]
+        if (nominal - date.fromisoformat(actual)).days > MAX_PRIOR_BAR_AGE_DAYS:
+            raise ValueError(f"common observation by Friday {nominal} is stale")
+        price = prices[actual]['close']
+        if not math.isfinite(float(price)) or price <= 0:
+            raise ValueError(f"invalid GLD Close on {actual}")
+        points.append(dict(friday=nominal.isoformat(),date=actual,yield_pct=float(yields[actual]['value']),gld=price))
+    if len({p['date'] for p in points}) != 4:
+        raise ValueError("four distinct weekly endpoint observations are required")
+    dy_bp = round((points[-1]['yield_pct'] - points[0]['yield_pct']) * 100)
+    ret = (points[-1]['gld'] / points[0]['gld'] - 1) * 100
+    weeks = [dict(start=a['date'],end=b['date'],dy_bp=round((b['yield_pct']-a['yield_pct'])*100),
+                  return_pct=(b['gld']/a['gld']-1)*100,
+                  joint_up=b['yield_pct']>a['yield_pct'] and b['gld']>a['gld']) for a,b in zip(points,points[1:])]
+    return dict(points=points,dy_bp=dy_bp,return_pct=ret,weekly_signs=weeks,
+                endpoint_shape=dy_bp>0 and ret>0,weekly_continuous=all(w['joint_up'] for w in weeks))
 
 
 def check_contract_identity(front_months=None):
@@ -120,35 +321,7 @@ def check_contract_identity(front_months=None):
 
     Fail-LOUD: a pointer whose history cannot be pulled is UNKNOWN and is listed,
     never silently treated as OK. An absent discriminator is not a clean bill."""
-    front_months = FRONT_MONTHS if front_months is None else front_months
-    rows, flags = [], []
-    for ptr, front in front_months.items():
-        try:
-            hist = fetch.price_history([ptr, front], days=12)
-            a, b = hist.get(ptr, {}), hist.get(front, {})
-            if "error" in a or "error" in b:
-                raise ValueError(f"{a.get('error') or b.get('error')}")
-            ah, bh = a["history"], b["history"]
-            if len(ah) < 2 or len(bh) < 2:
-                raise ValueError("fewer than 2 bars — cannot use the PRIOR session")
-            # RULE 1: the PRIOR settled session, never the newest (duplicated) bar.
-            ar, br = ah[-2], bh[-2]
-            if ar["date"] != br["date"]:
-                raise ValueError(f"prior-session dates disagree: {ar['date']} vs {br['date']}")
-            pv, fv = ar["volume"], br["volume"]
-            spread = ((ar["close"] - br["close"]) / br["close"] * 100) if br["close"] else float("nan")
-            if fv <= 0:
-                state = "UNKNOWN"
-            elif pv < DYING_VOL_SHARE * fv:
-                state = "DYING"
-            else:
-                state = "OK"
-            rows.append((ptr, front, ar["date"], pv, fv, ar["close"], br["close"], spread, state))
-            if state != "OK":
-                flags.append(ptr)
-        except Exception as e:
-            rows.append((ptr, front, None, None, None, None, None, None, f"UNKNOWN ({e})"))
-            flags.append(ptr)
+    _, rows, flags = read_contract_snapshot(front_months)
     return rows, flags
 
 
@@ -282,24 +455,30 @@ def main():
     latest_y = target_y = None
     try:
         latest_y, target_y = read_real_yield()
-        print(f"\n  REAL YIELD (FRED DFII10, T+1 publication lag):")
+        print(f"\n  REAL YIELD (FRED DFII10 MIRROR, latest-revised; T+1 publication lag):")
         print(f"    Latest: {latest_y['value']} [{latest_y['date']}]")
         print(f"    ~90d prior: {target_y['value']} [{target_y['date']}]")
     except Exception as e:
         failures.append(f"DFII10: {e}")
         print(f"\n  ERROR real-yield fetch FAILED: {e}", file=sys.stderr)
 
-    # --- 2. Futures spot (primary) ---
+    # --- 2. Named-contract vendor bars (primary); pointers never bind a grade ---
     fut = None
+    dying_pointers = []
+    ci_rows = []
+    map_notes = contract_map_review()
     try:
-        fut = read_spot(FUTURES)
-        print(f"\n  METALS SPOT — COMEX futures (yfinance, weekend/holiday = last close):")
+        fut, ci_rows, dying_pointers = read_contract_snapshot()
+        print("\n  METALS — named futures, MIRROR vendor daily Close; newest row excluded.")
+        print("    These bars are not certified exchange settlements. Units: USD/oz; copper USD/lb.")
         for t, label in FUTURES.items():
             d = fut.get(t, {})
             if "error" in d:
-                print(f"    {t:<8} {label:<14} ERROR: {d['error']}")
+                failures.append(f"named-{t}: {d['error']}")
+                print(f"    {d['contract']:<12} {label:<14} UNKNOWN: {d['error']}")
             else:
-                print(f"    {t:<8} {label:<14} ${d['price']:>10,.2f}  chg {d['change_pct']:+.2f}%  (prev ${d['prev']:,.2f})")
+                delta = f"{d['change_pct']:+.2f}%" if d['change_pct'] is not None else "UNMEASURED"
+                print(f"    {d['contract']:<12} {label:<14} ${d['price']:>10,.3f} [{d['date']}]  prior-bar change {delta}")
     except Exception as e:
         failures.append(f"futures: {e}")
         print(f"\n  ERROR futures spot fetch FAILED: {e}", file=sys.stderr)
@@ -320,12 +499,9 @@ def main():
         print(f"\n  ERROR ETF proxy spot fetch FAILED: {e}", file=sys.stderr)
 
     # --- 3b. Contract-identity guard (KB-112) — are the `=F` pointers alive? ---
-    dying_pointers = []
-    ci_rows = []
     try:
-        ci_rows, dying_pointers = check_contract_identity()
         print(f"\n  CONTRACT IDENTITY — `=F` pointer vs explicit front month "
-              f"(graded on the PRIOR settled session; the newest futures bar's volume is duplicated):")
+              f"(prior vendor row; the newest futures row's volume is duplicated):")
         for ptr, front, dt, pv, fv, pc, fc, sp, state in ci_rows:
             if dt is None:
                 print(f"    {ptr:<6} vs {front:<11} {state}")
@@ -335,48 +511,51 @@ def main():
                       f"${pc:>9,.2f} vs ${fc:>9,.2f}  spread {sp:+.2f}%  -> {state}")
         if dying_pointers:
             print(f"    ⛔ {len(dying_pointers)} pointer(s) NOT on the front month: {', '.join(dying_pointers)}"
-                  f" — quote the EXPLICIT month, never the `=F` level, and never a cross-roll delta.")
+                  " — pointer prices are excluded from primary prices and GSR.")
+        for note in map_notes:
+            print(f"    ⚠️ CONTRACT MAP REVIEW: {note}")
     except Exception as e:
         failures.append(f"contract-identity: {e}")
         print(f"\n  ERROR contract-identity guard FAILED: {e}", file=sys.stderr)
 
-    # --- 4. Gold/silver ratio (off futures) ---
+    # --- 4. Binding gold/silver ratio: same-date, same-month named futures ---
     gsr = None
     gsr_band = None
-    if fut and "error" not in fut.get("GC=F", {"error": 1}) and "error" not in fut.get("SI=F", {"error": 1}):
-        gsr = fut["GC=F"]["price"] / fut["SI=F"]["price"]
+    try:
+        gsr = primary_gsr(fut or {})
         gsr_band = ("RED" if gsr >= GSR_RED else
                     "ORANGE" if gsr >= GSR_ORANGE else
                     "YELLOW" if gsr >= GSR_YELLOW else "benign")
-        print(f"\n  GOLD/SILVER RATIO: {gsr:.2f}  (bands: Y{GSR_YELLOW}/O{GSR_ORANGE}/R{GSR_RED} — currently {gsr_band})")
-        # PROME L429 item 2 (2026-09-25): GC=F / SI=F can sit on DIFFERENT expiries (mode iii).
-        # Print the same-basis ratio on the EXPLICIT front months, prior settled session. Additive only:
-        # the band call above is unchanged; this line shows whether the pointer ratio mixes months.
-        ci = {r[0]: r for r in ci_rows if r[2] is not None}
-        if "GC=F" in ci and "SI=F" in ci and ci["GC=F"][2] == ci["SI=F"][2] and ci["SI=F"][6]:
-            g, s_ = ci["GC=F"], ci["SI=F"]
-            gsr_x = g[6] / s_[6]
-            mixed = "MIXED MONTHS — cite the explicit line" if (g[8] != "OK" or s_[8] != "OK") else "same basis"
-            print(f"    explicit months {g[1]}/{s_[1]} [{g[2]} prior session]: {gsr_x:.2f}  ({mixed})")
-    else:
-        failures.append("GSR: could not compute (gold or silver futures leg failed)")
-        print(f"\n  ERROR GSR not computed — gold/silver futures leg failed", file=sys.stderr)
+        g, s = fut["GC=F"], fut["SI=F"]
+        print(f"\n  GOLD/SILVER RATIO: {gsr:.2f} [{g['date']}]  "
+              f"{g['contract']}/{s['contract']} (MIRROR vendor Close)")
+        print(f"    Bands unchanged: Y{GSR_YELLOW}/O{GSR_ORANGE}/R{GSR_RED}; current {gsr_band}.")
+    except (ValueError, KeyError, ZeroDivisionError) as exc:
+        failures.append(f"GSR: {exc}")
+        print(f"\n  ERROR GSR not graded: {exc}", file=sys.stderr)
 
     # --- 5. M1 divergence classifier ---
     divergence_state = None
+    gold_bars = None
+    gld_long_history = None
+    basis_sensitive = False
     if latest_y and target_y and fut and "error" not in fut.get("GC=F", {"error": 1}):
         try:
             y_chg_bp = (float(latest_y["value"]) - float(target_y["value"])) * 100
             # need gold closes for the SAME dates the yield leg uses
-            hist = fetch.price_history(["GC=F"], days=140)["GC=F"]
+            gold_contract = fut["GC=F"]["contract"]
+            long_history = fetch.price_history([gold_contract, "GLD"], days=140)
+            hist = long_history[gold_contract]
+            gld_long_history = long_history.get("GLD")
             if "error" in hist:
                 raise ValueError(hist["error"])
             bars = [b for b in hist["history"] if b.get("close") is not None]
+            gold_bars = bars
             if not bars:
-                raise ValueError("no usable GC=F bars")
+                raise ValueError(f"no usable {gold_contract} bars")
 
             def close_asof(target_date):
-                """Settled close ON target_date, else the nearest PRIOR bar.
+                """Vendor Close ON target_date, else the nearest PRIOR bar.
 
                 FIX 2026-08-23 (KB-061 / L-29). This used to read the LIVE quote
                 (`fut["GC=F"]["price"]`) for the end of the window while LABELLING
@@ -390,7 +569,7 @@ def main():
                 """
                 prior = [b for b in bars if b["date"] <= target_date]
                 if not prior:
-                    raise ValueError(f"no GC=F bar at or before {target_date}")
+                    raise ValueError(f"no {gold_contract} bar at or before {target_date}")
                 b = prior[-1]
                 return b["close"], b["date"]
 
@@ -402,15 +581,16 @@ def main():
             # turns on, expressed against this window's own daily noise. A state
             # decided inside 1 sigma is a coin flip with a label (L-29).
             rets = []
-            for a, b in zip(bars, bars[1:]):
+            completed_bars = [b for b in bars if b["date"] <= latest_y["date"]]
+            for a, b in zip(completed_bars, completed_bars[1:]):
                 if a["close"]:
                     rets.append((b["close"] - a["close"]) / a["close"] * 100)
             sigma = (statistics.stdev(rets) if len(rets) > 2 else float("nan"))
             inside_noise = (sigma == sigma) and abs(gold_chg_pct) < sigma
             if y_chg_bp > 0 and gold_chg_pct < 0:
-                divergence_state = "CONVERGE (real-rate-consistent — yields up, gold down; debasement premium NOT confirmed this window)"
+                divergence_state = "CONVERGE (real-rate-consistent pattern — yields up, gold down; mechanism unidentified)"
             elif y_chg_bp > 0 and gold_chg_pct >= 0:
-                divergence_state = "DIVERGE (debasement premium LIVE — yields up, gold holding/up)"
+                divergence_state = "DIVERGE (yields up, gold holding/up; mechanism unidentified)"
             elif y_chg_bp <= 0 and gold_chg_pct > 0:
                 divergence_state = "CLASSIC (yields down, gold up — expected inverse relationship)"
             else:
@@ -418,13 +598,26 @@ def main():
             print(f"\n  M1 DIVERGENCE CHECK (trailing ~90d, INTERVAL-MATCHED on both legs):")
             print(f"    DFII10:      {target_y['value']} [{target_y['date']}] -> "
                   f"{latest_y['value']} [{latest_y['date']}]  ({y_chg_bp:+.0f}bp)")
-            print(f"    Gold (GC=F): ${gold_then:,.2f} [{gold_then_date}] -> "
+            print(f"    Gold ({gold_contract}): ${gold_then:,.2f} [{gold_then_date}] -> "
                   f"${gold_now:,.2f} [{gold_now_date}]  ({gold_chg_pct:+.2f}%)  "
-                  f"[settled closes, NOT the live quote — L-29]")
+                  "[MIRROR vendor daily Close; uncertified settlement]")
             if gold_now_date != latest_y["date"] or gold_then_date != target_y["date"]:
-                print("    ⚠️ leg dates differ (nearest prior settled bar used) — "
+                print("    ⚠️ leg dates differ (nearest prior vendor bar used) — "
                       "compare the bracketed dates before reading the state")
             print(f"    State: {divergence_state}")
+            if gld_long_history and "error" not in gld_long_history:
+                ga = [b for b in gld_long_history['history'] if b['date']<=target_y['date']]
+                gb = [b for b in gld_long_history['history'] if b['date']<=latest_y['date']]
+                if ga and gb:
+                    gld_change = (gb[-1]['close']/ga[-1]['close']-1)*100
+                    basis_sensitive = (gld_change >= 0) != (gold_chg_pct >= 0)
+                    print(f"    No-roll GLD cross-check: {gld_change:+.2f}% [{ga[-1]['date']}->{gb[-1]['date']}].")
+                    if basis_sensitive:
+                        print("    ⚠️ BASIS SENSITIVE: named gold and GLD have opposite signs; do not infer a regime change.")
+                else:
+                    print("    GLD90d cross-check UNMEASURED: endpoint history unavailable.")
+            else:
+                print("    GLD90d cross-check UNMEASURED: source unavailable.")
             if sigma == sigma:
                 print(f"    decided by: |{gold_chg_pct:+.2f}%| vs a 0.00% sign boundary; "
                       f"window daily sigma {sigma:.2f}%"
@@ -447,103 +640,51 @@ def main():
     # This leg is NOT a new threshold: 3+wk is the already-registered,
     # Will-approved spec. It makes the instrument match the spec. (LESSON L-11)
     kc3_state = None
-    if latest_y and fut and "error" not in fut.get("GC=F", {"error": 1}):
+    if latest_y:
         try:
-            from datetime import date as _d
-            obs_y = [o for o in fetch.fred_fetch("DFII10", limit=60)
-                     if o.get("value") not in (None, "", ".")]
-            latest_d = _d.fromisoformat(obs_y[0]["date"])
-            y_then = next((o for o in obs_y
-                           if (latest_d - _d.fromisoformat(o["date"])).days >= 21), None)
-            hist3 = fetch.price_history(["GC=F"], days=30)["GC=F"]
-            if "error" in hist3:
-                raise ValueError(hist3["error"])
-            rows3 = [r for r in hist3["history"]
-                     if (latest_d - _d.fromisoformat(r["date"])).days >= 21]
-            if y_then and rows3:
-                g_then, g_then_d = rows3[-1]["close"], rows3[-1]["date"]
-                # SETTLED close as-of the yield leg's date — never the live quote.
-                # Same FIX/rationale as the 90d leg (KB-061 / L-29), and it matters
-                # MORE here: this is the REGISTERED kill-cond #3 window, its state
-                # trips rc and feeds the kill rail.
-                #
-                # ⛔ CORRECTION 2026-09-02 (KB-096, L-45). The lines that stood here
-                # claimed settled+prior-bar "keeps both legs on one contract and one
-                # calendar." THAT WAS FALSE AND IT CERTIFIED THE DEFECT AS FIXED.
-                # Settling the bar cures the IN-FLIGHT defect (L-29) only. It cannot
-                # cure the CROSS-CONTRACT one, because `GC=F` IS the roll: it is a
-                # continuous ticker whose underlying contract changes inside a 21d
-                # window, so both endpoints can be settled and still be different
-                # contracts. Measured on 2026-09-02: this leg read GC=F 4,361.80
-                # [8/10, vol 1,303] -> 4,431.10 [8/31, vol 360] = +1.59%, both of them
-                # thin dying-contract prints, against same-contract GCZ26 +1.398% and
-                # no-roll GLD +1.461%. The 8/23 fix relocated the constraint and
-                # reported it removed. ⇒ GLD now ARBITRATES the state decision (it
-                # never rolls — STATUS standing warning ②); GC=F is printed for
-                # continuity and a divergence >0.50pp is reported as roll contamination.
-                _bars3 = [b for b in hist3["history"] if b.get("close") is not None]
-                _prior3 = [b for b in _bars3 if b["date"] <= latest_y["date"]]
-                if not _prior3:
-                    raise ValueError(f"no GC=F bar at or before {latest_y['date']}")
-                g_now, g_now_d = _prior3[-1]["close"], _prior3[-1]["date"]
-                # DFII10 is published to 0.01 percentage point (one basis point).
-                # Round before the strict 0 < dy_bp < 5 comparison: an exact
-                # +5bp print must not enter the inside-noise caveat (L546).
-                dy_bp = round((float(latest_y["value"]) - float(y_then["value"])) * 100)
-                dg_pct = (g_now - g_then) / g_then * 100
-
-                # --- ROLL ARBITER: GLD never rolls, so it grades the same window ---
-                dg_arb, arb_src, roll_note = dg_pct, "GC=F", None
-                try:
-                    _hg = fetch.price_history(["GLD"], days=30)["GLD"]
-                    if "error" not in _hg:
-                        _gb = [b for b in _hg["history"] if b.get("close") is not None]
-                        _gthen = [b for b in _gb
-                                  if (latest_d - _d.fromisoformat(b["date"])).days >= 21]
-                        _gnow = [b for b in _gb if b["date"] <= latest_y["date"]]
-                        if _gthen and _gnow:
-                            _a, _b = _gthen[-1]["close"], _gnow[-1]["close"]
-                            dg_gld = (_b - _a) / _a * 100
-                            dg_arb, arb_src = dg_gld, "GLD (no-roll arbiter)"
-                            if abs(dg_gld - dg_pct) > 0.50:
-                                roll_note = (f"ROLL CONTAMINATION — GC=F {dg_pct:+.2f}% vs "
-                                             f"GLD {dg_gld:+.2f}% differ by "
-                                             f"{abs(dg_gld - dg_pct):.2f}pp; GC=F endpoints "
-                                             f"are not one contract. STATE GRADED ON GLD.")
-                except Exception as _e:                       # arbiter is advisory
-                    roll_note = f"GLD arbiter unavailable ({_e}) — GC=F ungraded for roll"
-
-                # the registered shape is graded on the ARBITER, never on GC=F alone
-                dg_pct = dg_arb
-                if dy_bp > 0 and dg_pct > 0:
-                    kc3_state = ("KILL-COND-#3 SHAPE PRESENT (gold UP through RISING real "
-                                 "yields over 3wk = debasement-premium reassertion) — REVIEW/escalate")
-                elif dy_bp <= 0 and dg_pct > 0:
-                    kc3_state = ("classic inverse over 3wk (yields down, gold up) — but CHECK MAGNITUDE: "
-                                 f"empirical beta ~-0.05%/bp means {dy_bp:+.0f}bp explains only "
-                                 f"{abs(-0.0513 * dy_bp):.2f}% of the {dg_pct:+.1f}% move")
-                else:
-                    kc3_state = "no kill-cond-#3 shape (gold flat/down over 3wk)"
-                print(f"\n  M1 KILL-COND-#3 WINDOW (registered 3-WEEK test, INTERVAL-MATCHED):")
-                print(f"    DFII10:      {y_then['value']} [{y_then['date']}] -> "
-                      f"{latest_y['value']} [{latest_y['date']}]  ({dy_bp:+.0f}bp)")
-                print(f"    Gold (GC=F): ${g_then:,.2f} [{g_then_d}] -> "
-                      f"${g_now:,.2f} [{g_now_d}]  ({(g_now - g_then) / g_then * 100:+.2f}%)  "
-                      f"[settled closes, NOT the live quote — L-29]")
-                print(f"    Gold graded on: {arb_src}  ({dg_pct:+.2f}%)")
-                if roll_note:
-                    print(f"    ⛔ {roll_note}")
-                # A 3-week yield move inside noise cannot support "RISING real yields"
-                if 0 < dy_bp < 5:
-                    print(f"    ⚠️  YIELD LEG INSIDE NOISE — {dy_bp:+.0f}bp over 3wk is not "
-                          f"a rising-yield regime; the SHAPE test passes on a sign, not a move. "
-                          f"Do not read as decoupling without a yield move that clears ~5bp.")
-                print(f"    State: {kc3_state}")
+            obs_y = fetch.fred_fetch("DFII10", limit=60)
+            gld_history = gld_long_history or fetch.price_history(["GLD"], days=42).get("GLD", {"error": "missing GLD history"})
+            captured = datetime.now(ZoneInfo("America/New_York"))
+            calendar_as_of = captured.date()
+            if captured.weekday() == 4 and captured.hour < 16:
+                calendar_as_of -= timedelta(days=1)
+            weekly = measure_weekly_shape(obs_y, gld_history, latest_y["date"],
+                                          calendar_as_of.isoformat())
+            dy_bp, dg_pct = weekly["dy_bp"], weekly["return_pct"]
+            if weekly['endpoint_shape']:
+                kc3_state = "KILL-COND-#3 SHAPE PRESENT (gold up through rising real yields over three weekly intervals) — REVIEW; mechanism unidentified"
+            elif dy_bp <= 0 and dg_pct > 0:
+                kc3_state = "classic inverse over three weekly intervals; mechanism unidentified"
             else:
-                failures.append("kc3-window: insufficient history")
-        except Exception as e:
-            failures.append(f"kc3-window: {e}")
-            print(f"\n  ERROR kill-cond-#3 window FAILED: {e}", file=sys.stderr)
+                kc3_state = "no kill-cond-#3 endpoint shape on the ruled weekly basis"
+            a, b = weekly['points'][0], weekly['points'][-1]
+            print("\n  M1 KILL-COND-#3 (RULED Friday-as-of endpoints, three weekly intervals):")
+            print(f"    DFII10: {a['yield_pct']:.2f} [{a['date']}] -> {b['yield_pct']:.2f} [{b['date']}] ({dy_bp:+.0f}bp)")
+            print(f"    GLD: ${a['gld']:,.2f} [{a['date']}] -> ${b['gld']:,.2f} [{b['date']}] ({dg_pct:+.2f}%)")
+            print("    Gold graded on GLD, MIRROR vendor daily Close; no futures-roll fallback.")
+            for w in weekly['weekly_signs']:
+                print(f"    Weekly joint-up {w['start']}->{w['end']}: {w['joint_up']} ({w['dy_bp']:+.0f}bp / {w['return_pct']:+.2f}%).")
+            print(f"    Endpoint shape {weekly['endpoint_shape']}; weekly-continuous {weekly['weekly_continuous']} (DECLINED alternative, no grading effect).")
+            for point in weekly['points']:
+                if point['friday'] != point['date']:
+                    print(f"    Friday {point['friday']} uses common observation {point['date']} across non-publication days.")
+            if gold_bars:
+                ga = [r for r in gold_bars if r['date']<=a['date']]
+                gb = [r for r in gold_bars if r['date']<=b['date']]
+                if ga and gb:
+                    q = (gb[-1]['close']/ga[-1]['close']-1)*100
+                    print(f"    Named-contract cross-check {gold_contract}: {q:+.2f}% [{ga[-1]['date']}->{gb[-1]['date']}]; GLD remains binding.")
+            daily = measure_three_week(obs_y, gld_history, latest_y['date'])
+            print(f"    Rolling21-calendar-day diagnostic: {daily['dy_bp']:+.0f}bp / {daily['return_pct']:+.2f}% (not the ruled weekly grade).")
+            print("    Magnitude attribution UNMEASURED: no current same-window empirical model fitted by this script.")
+            if 0 < dy_bp < 5:
+                print(f"    ⚠️ YIELD LEG INSIDE NOISE: {dy_bp:+.0f}bp; endpoint shape passes on a sign, not a move.")
+            print(f"    State: {kc3_state}")
+        except Exception as exc:
+            failures.append(f"kc3-window: {exc}")
+            print(f"\n  ERROR kill-cond-#3 window UNKNOWN: {exc}", file=sys.stderr)
+    else:
+        failures.append("kc3-window: missing real-yield observations")
 
     # --- 6. LME copper stocks (I1 inventory leg — westmetall scrape) ---
     lme_latest = None
@@ -563,10 +704,10 @@ def main():
             lme_band = ("RED" if lme_vs_median_pct >= LME_RED else
                         "ORANGE" if lme_vs_median_pct >= LME_ORANGE else
                         "YELLOW" if lme_vs_median_pct >= LME_YELLOW else "benign")
-            direction = "FALLING (drawing down)" if lme_drawdown_pct < -3 else "flat/rising"
             print(f"    vs 2yr median {median_2yr:,.0f} t (n={n_win}): {lme_vs_median_pct:+.1f}%  ->  band {lme_band}")
             print(f"    band context: Y+{LME_YELLOW}/O+{LME_ORANGE}/R+{LME_RED}% vs median; but the RED demand-collapse")
-            print(f"    fire needs the CONJUNCTION (copper -20% AND inv +100%) — inventory {direction}, price UP = NOT firing")
+            print("    fire needs copper -20% AND inventory +100%.")
+            print(f"    {copper_conjunction_context(lme_vs_median_pct)}")
         except Exception as be:
             failures.append(f"LME-baseline: {be}")
             print(f"    2yr-median baseline UNAVAILABLE: {be}", file=sys.stderr)
@@ -574,12 +715,13 @@ def main():
         failures.append(f"LME-stocks: {e}")
         print(f"\n  ERROR LME copper stocks scrape FAILED: {e}", file=sys.stderr)
 
-    print(f"\n  NOTE: CFTC COT (weekly cadence) and copper-vs-200dma (I1) are NOT wired "
-          f"into this script — documented gaps, see file header + STATUS.md.")
+    print("\n  NOTE: gold and Ag/Pt/Pd COT freshness run in separate boot legs. "
+          "Copper price history/conjunction remains UNMEASURED in this script.")
 
     # --- Verdict (always printed; failed legs say so, never fabricated) ---
     y_s = f"DFII10 {latest_y['value']} [{latest_y['date']}]" if latest_y else "real-yield FETCH-FAIL"
-    g_s = (f"gold ${fut['GC=F']['price']:,.2f}" if fut and "error" not in fut.get("GC=F", {"error": 1}) else "gold FETCH-FAIL")
+    g_s = (f"gold {fut['GC=F']['contract']} ${fut['GC=F']['price']:,.2f} [{fut['GC=F']['date']}]"
+           if fut and "error" not in fut.get("GC=F", {"error": 1}) else "gold FETCH-FAIL")
     gsr_s = f"GSR {gsr:.2f} ({gsr_band})" if gsr else "GSR FETCH-FAIL"
     div_s = divergence_state or "divergence FETCH-FAIL"
     kc3_s = f" · KC#3(3wk): {kc3_state}" if kc3_state else ""
@@ -589,13 +731,13 @@ def main():
 
     if dying_pointers:
         print(f"  ⛔ CONTRACT IDENTITY: {len(dying_pointers)} `=F` pointer(s) off the front month "
-              f"({', '.join(dying_pointers)}) — every level printed above for those is the WRONG CONTRACT.")
+              f"({', '.join(dying_pointers)}) — primary prices and GSR use named contracts.")
 
     rc = 0
     if failures:
         print(f"  metals_watch.py: {len(failures)} leg(s) FAILED: {'; '.join(failures)}", file=sys.stderr)
         rc = 2
-    elif (dying_pointers
+    elif (dying_pointers or map_notes or basis_sensitive or lme_band == "RED"
           # 2026-09-11: a pointer off the front month is a REVIEW condition, not a
           # fetch failure — the fetch SUCCEEDED and returned the wrong object, which
           # is worse (it prints a plausible number). rc=1 so the operator re-reads
