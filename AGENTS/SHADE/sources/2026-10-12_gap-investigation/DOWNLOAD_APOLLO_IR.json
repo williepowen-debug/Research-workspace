@@ -1,0 +1,10 @@
+{
+  "url": "https://ir.apollo.com/sec-filings/content/0001858681-26-000040/apo-20260630.htm",
+  "at": "2026-10-13T00:00:50.168507+00:00",
+  "method": "directissuerpublicGET",
+  "status": 200,
+  "final_url": "https://ir.apollo.com/sec-filings/content/0001858681-26-000040/apo-20260630.htm",
+  "bytes": 9390324,
+  "sha256": "888a4a2f997c1bf8bc6bf29151d56eabce45ff68ca80e3c0f346211145c16d33",
+  "content_type": "text/html;charset=UTF-8"
+}

@@ -1,0 +1,62 @@
+{
+  "DLIC": {
+    "audit_amounts_in_thousands": {
+      "floor": 4475893,
+      "conditional_bond_numerator": 17095231
+    },
+    "same_audit_percentages": {
+      "floor": {
+        "GA": 9.750722569560685,
+        "GA_plus_SA": 6.917906535797436
+      },
+      "unapproved_affiliate_bond_proxy": {
+        "GA": 37.2419212754982,
+        "GA_plus_SA": 26.422260377061505
+      },
+      "all_formal_abs_hypothesis": {
+        "GA": 32.496482325314496,
+        "GA_plus_SA": 23.055483925931004
+      }
+    },
+    "original_dollars_to_audit_thousands_differences_USD": {
+      "floor": 1092,
+      "ga_admitted": 323,
+      "sa_admitted": -45,
+      "total_admitted": 278,
+      "formal_abs": -493
+    },
+    "formal_abs_less_than_affiliate_bonds": true,
+    "charter_grade": null,
+    "prior_mixed_vintage_proxy_percentages": {
+      "GA": 37.24118282640822,
+      "GA_plus_SA": 26.421736392545785
+    }
+  },
+  "Clear_Spring": {
+    "percentages": {
+      "2025-12-31": 59.407437266955554,
+      "2026-03-31": 52.48471701833958,
+      "2026-06-30": 48.818897637795274
+    },
+    "affiliate_change_millions": -997,
+    "affiliate_change_percent": -16.912637828668363,
+    "invested_ga_change_millions": 110,
+    "invested_ga_change_percent": 1.1085357250831402,
+    "share_change_pp": -10.58853962916028
+  },
+  "Athene": {
+    "amaps_named_floor_millions": 13515,
+    "fhlb_nominal_conditional_room_millions": 6100,
+    "fhlb_available_cash": null,
+    "restricted_asset_sum_millions": 120985,
+    "whco_gross_formula": "0.15 * O",
+    "whco_after_reimbursement_if_collectible_formula": "0.0975 * O",
+    "whco_guarantee_dollars": null,
+    "stressed_loss_dollars": null
+  },
+  "Global_Atlantic": {
+    "AUM_excluding_included_sidecars_billions": 158,
+    "not_statutory_retained_risk": true
+  },
+  "source_status": "primary arithmetic; unresolved classification/access; no grades or loss estimates"
+}

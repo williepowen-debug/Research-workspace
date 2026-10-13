@@ -1,0 +1,593 @@
+{
+  "policy": "Raw public statutory binaries, full copied text and temporary extraction scratch outside Git. Machine-local temporary storage, not persistent publication; exact source URLs/receipts enable hash-checked reacquisition. Untracked source scratch relocated with shutil; no tracked inbox/research move.",
+  "files": [
+    {
+      "file": "AARe_GROUP_FY2025.pdf",
+      "bytes": 614729,
+      "sha256": "5dadb3d244e8d8dc5f1d81bd39439455dc1c1806d4b80cb535350ac74c6df5b9",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/AARe_GROUP_FY2025.pdf",
+      "public_url": "https://cdn.bma.bm/documents/2026-07-16-21-19-56-Athene-Bermuda-2025-Financial-Statement-Group.pdf"
+    },
+    {
+      "file": "AARe_GROUP_TEXT.txt",
+      "bytes": 271158,
+      "sha256": "4849a53f0621e831d967d66c15facd3d20a752df71e0871b4257b298734fb592",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/AARe_GROUP_TEXT.txt",
+      "derived_from": "AARe_GROUP_FY2025.pdf"
+    },
+    {
+      "file": "APOLLO_FOCUSED_EXTRACTS.json",
+      "bytes": 18798,
+      "sha256": "b2f1d1773be924f1a567f7965d83275d8fbd4fd0cdaa2223c0877ba1ae1ae01b",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/APOLLO_FOCUSED_EXTRACTS.json",
+      "derived_from": "Apollo_issuer_copy.html"
+    },
+    {
+      "file": "APOLLO_NOTE_LOCATORS.json",
+      "bytes": 39635,
+      "sha256": "bd590ec3726ede134c23b7d20872665e2a6ab6c5359ed218b76dab67df7353bc",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/APOLLO_NOTE_LOCATORS.json",
+      "derived_from": "Apollo_issuer_copy.html"
+    },
+    {
+      "file": "APOLLO_PURCHASE_GUARANTEE.txt",
+      "bytes": 8213,
+      "sha256": "a3191f4dcfb676d5e5cea3757beb5c9e4708a8dcd5d336a41426a6596a386bb7",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/APOLLO_PURCHASE_GUARANTEE.txt",
+      "derived_from": "Apollo_issuer_copy.html"
+    },
+    {
+      "file": "Apollo_Q2_TEXT.txt",
+      "bytes": 561352,
+      "sha256": "35ecca3843001d25efdcfdfe007b320f6efa5d26b156eae6fb96c5d155738c12",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Apollo_Q2_TEXT.txt",
+      "derived_from": "Apollo_issuer_copy.html"
+    },
+    {
+      "file": "Apollo_issuer_copy.html",
+      "bytes": 9390324,
+      "sha256": "888a4a2f997c1bf8bc6bf29151d56eabce45ff68ca80e3c0f346211145c16d33",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Apollo_issuer_copy.html",
+      "public_url": "https://ir.apollo.com/sec-filings/content/0001858681-26-000040/apo-20260630.htm"
+    },
+    {
+      "file": "DLIC_39_105.txt",
+      "bytes": 466961,
+      "sha256": "f63a10f171c0b4b9364ca6b70977879a3d6a0b0d57d07bc4daf61175de75a0a7",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_39_105.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_AUDIT_SELECTED.txt",
+      "bytes": 58933,
+      "sha256": "d197cbc188e804c53239e64ada7716f765158e3091472344e2001f35f28cca49",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_AUDIT_SELECTED.txt",
+      "derived_from": "DLIC_FY2025_AUDITED.pdf"
+    },
+    {
+      "file": "DLIC_FRONT_01_38.txt",
+      "bytes": 405135,
+      "sha256": "e65786655934c794b2e1a9dbd4c7a61280675afa236f3dfd8c29755866cf269c",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_FRONT_01_38.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_FY2025.pdf",
+      "bytes": 10949843,
+      "sha256": "cc9acf23dd86ce98a5cd39b5ebafccac7a88e2ed1168ea8943dac9cfe09fda9d",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_FY2025.pdf",
+      "public_url": "https://cdn.bfldr.com/RVAMRK5C/at/593vjttrssmhjkcp9p7pcn/2025_DLIC_Annual_Statement_Final.pdf"
+    },
+    {
+      "file": "DLIC_FY2025_AUDITED.pdf",
+      "bytes": 796181,
+      "sha256": "878cec76e99109b5c982e393e82d4130f0f3ece1b83df45770a9d3a60f4de87a",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_FY2025_AUDITED.pdf",
+      "public_url": "https://cdn.bfldr.com/RVAMRK5C/at/3z4rhgvb9ntztvrbxq8mfsbc/Report_-_Independent_Auditors_-_2025.pdf"
+    },
+    {
+      "file": "DLIC_INVESTMENT_RISK.txt",
+      "bytes": 23145,
+      "sha256": "b5ed3e2a4ca84753e99cac7ce5e3b509165e700e9d54f896d24d374eaf492f17",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_INVESTMENT_RISK.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_143.txt",
+      "bytes": 12912,
+      "sha256": "343f359064619ee706d9ed83bcfaeb2a21829801253a19e70ca0f70e6c73917f",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_143.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_148.txt",
+      "bytes": 15270,
+      "sha256": "a6167c059b22ca51862af3929df54caab1908060515b3f7b8d90042346f86377",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_148.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_149.txt",
+      "bytes": 15081,
+      "sha256": "771fb82970d1b8b1843e95dcbd1fc18d47a2e0a743205ca6b5bd8c0de24814b2",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_149.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_150.txt",
+      "bytes": 15127,
+      "sha256": "a5cf2ec1eb4f729f1bcf25bc8f0428497c74887aa55b4d0b0ba4056dc0610277",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_150.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_151.txt",
+      "bytes": 15297,
+      "sha256": "f8fed4bbc193523b34bac6c40e92b81834d2c0fff1fb10316e8518cbd95f9f09",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_151.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_152.txt",
+      "bytes": 15426,
+      "sha256": "8c1218356c6f20b5f28fff477bfa369bc5b30221067a320c3529e7c8cd4cd4da",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_152.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_153.txt",
+      "bytes": 15055,
+      "sha256": "f50428968ad3389244b1e408dd2425721bbb8f0f5b9b99775ecc924c09a04b5a",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_153.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_154.txt",
+      "bytes": 15147,
+      "sha256": "0d2e9267e30d35f706ea1e396d7046519d72135cf9a678601922fc4203740210",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_154.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_155.txt",
+      "bytes": 15321,
+      "sha256": "df3f5e57bdd2a4473b60d522a579ad73177d502cced679ce4acc28bf71615c1b",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_155.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_156.txt",
+      "bytes": 8027,
+      "sha256": "a659ffb823a02eed101c660cab5b124b0294a2d443384670bad94e8b42dd1be5",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_156.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_157.txt",
+      "bytes": 13199,
+      "sha256": "550945541759223d3f2b994c073937d49dd171bdb8d0f585cf954676518a5b24",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_157.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_159.txt",
+      "bytes": 8620,
+      "sha256": "489c577cd34aa422cf39d7c24bc081481e8820c308dc842b0d6a9918ed9b8d45",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_159.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_162.txt",
+      "bytes": 3236,
+      "sha256": "a4f9df62172763cdf757cb611315ae53fcc6df7a84f537369102326b63610044",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_162.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_278.txt",
+      "bytes": 24578,
+      "sha256": "6382e937f1c5428cc449e03d8bd051c9a57b53e99c668114e6e984a9011007ba",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_278.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_279.txt",
+      "bytes": 19827,
+      "sha256": "036e7cf4cfd6b7b1ec179adea8897a8dc0d30def0978433ff76813fcab70e527",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_279.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_280.txt",
+      "bytes": 24596,
+      "sha256": "b1bb2f0526d06bf4e0ce54b52dbcda0e1bc1284605db8a68a339accbbe95276c",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_280.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_281.txt",
+      "bytes": 24464,
+      "sha256": "d8a9a098203c3aa89922a88ebc02ea1884c039f2e817517a98a128d494cbcc3f",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_281.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_282.txt",
+      "bytes": 24781,
+      "sha256": "bc79a5fcd81b0cd606e7ce616faea336046ada41e71e7d50648fdeffe461b09f",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_282.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_283.txt",
+      "bytes": 22178,
+      "sha256": "2840e61c3a850bc9b473ae6bb9d3b50482509eb224a00d0b63c60527b4ac869b",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_283.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_284.txt",
+      "bytes": 24219,
+      "sha256": "f4508cf272d88ff46c74798410640627819b539ea7d514caa0a4a066edd86319",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_284.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_285.txt",
+      "bytes": 20300,
+      "sha256": "990a43cf5ad864ec3d99929388e1e59f1bcadfd68dac8cea08959668478ad0ae",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_285.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_286.txt",
+      "bytes": 21733,
+      "sha256": "565e3204bf696a5990cd4e5c294b88d824c2cc8f48e19b89e632d778b4c255d1",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_286.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_287.txt",
+      "bytes": 20806,
+      "sha256": "8398fbcc943ff7441fca26b70085a0a21b97ea458047f130f1c170e684411e41",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_287.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_288.txt",
+      "bytes": 21274,
+      "sha256": "efa01474a26240e798adf01df02867c8d8498730cf92bb31f9bd92f50dba919c",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_288.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_289.txt",
+      "bytes": 21350,
+      "sha256": "15992e4006276ce8915f88ad056d23501cffd08ee3fcb1bf5f9d560fd298fce5",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_289.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_290.txt",
+      "bytes": 21334,
+      "sha256": "8b36be5c8a7f2b1c844f204ae34414eef196d1e6025e328da140c4a8a4181efa",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_290.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_291.txt",
+      "bytes": 20846,
+      "sha256": "0a40ba2d2b9980bb8115710492573c848f7043e5403472579e1c3214d2d7c85a",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_291.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_292.txt",
+      "bytes": 21668,
+      "sha256": "f53652943ebd98b14d6e6bd57ecc517b84949b52e75dd2870293c4264a2628d5",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_292.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_293.txt",
+      "bytes": 20335,
+      "sha256": "871bac1c6051fd1d7d9f962f068a7ab33913d60043a640bd9235e9b90cbf387b",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_293.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_294.txt",
+      "bytes": 21724,
+      "sha256": "d220a1e0e82cfed5db5795881588e7af0b3856377c41a92b4b66e029b1e0aa95",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_294.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_295.txt",
+      "bytes": 20209,
+      "sha256": "7f4548288861df5562545bf3263c8c89552c66d43915418717f5cf169a776be6",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_295.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_296.txt",
+      "bytes": 20770,
+      "sha256": "cc03b4bdd56560a391410d5cc021b0e8fd316d4bb14286d1d8c5b0e1b04a6cbe",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_296.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_297.txt",
+      "bytes": 20810,
+      "sha256": "54278aece258f615971263b2f9e88a07e267dba7d5223af6c975f3fcb2f0f41b",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_297.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_298.txt",
+      "bytes": 20786,
+      "sha256": "fa214164d1a435bca5b99f0e46e235e0aa3776dd329872594c96ee5fbb2533ee",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_298.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_299.txt",
+      "bytes": 21188,
+      "sha256": "203baccf9797362e0365e227cd37bb2e43b228fc20e3e06592f5b07f87737850",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_299.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_300.txt",
+      "bytes": 20782,
+      "sha256": "ff94e0d682122db9e2dc71ec9b79832f127f7f577592a9850936d61331c5826d",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_300.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_301.txt",
+      "bytes": 20809,
+      "sha256": "39fe55c82f71e0e22c2b415225e6e97d7ab76bb1d9905baaf453d6d4c6030179",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_301.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_302.txt",
+      "bytes": 20726,
+      "sha256": "a647f7c0d0ada94b03b50002dffebcfc159de5647d38ad8efa526a17393080c8",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_302.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_303.txt",
+      "bytes": 19751,
+      "sha256": "b656e55c9e53c0b8f9a11da5328df1665320959b1253fc00d7ba2ce40564d5a8",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_303.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_304.txt",
+      "bytes": 21267,
+      "sha256": "7c466c41fa767a36f00bd7f7ae50dd0a211eee5a9cb2093d9354ba50865d0fef",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_304.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_305.txt",
+      "bytes": 20889,
+      "sha256": "1ffa84a3d594c4d76c3969999fe57b6723ac488f74cc9481d3a54dd1a8acc89c",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_305.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_306.txt",
+      "bytes": 20806,
+      "sha256": "6bd63aabe9ef381213980ca18e2596a537de683f3a6192dec100f1bb26a7712b",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_306.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_307.txt",
+      "bytes": 20804,
+      "sha256": "53506b87bbb2eb6fee769c3d1f50bd49c69e5851a5c21e10bcdfc9fb75a8abc6",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_307.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_308.txt",
+      "bytes": 15533,
+      "sha256": "0853a81e2959ddf3d47c54dc65dc5ee4c47f5c47560d58c62b47372dad128b3f",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_308.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_309.txt",
+      "bytes": 19191,
+      "sha256": "4be41b3ae81851c79d0038179e2f6c98da6c5b5619ddb14400edf051276c1f9c",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_309.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_310.txt",
+      "bytes": 21263,
+      "sha256": "6a329c11308f3f6d42ee97570234ffa6ad0f1601e031bf21432e36ef162de48c",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_310.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_311.txt",
+      "bytes": 19838,
+      "sha256": "9027d0375d1cfe8ae28cf8ac8a708260bc02b77bb1df15d3bf876f75189776e0",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_311.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_312.txt",
+      "bytes": 20343,
+      "sha256": "0ebf5519aeafaa753669d06f01e83c7482c84926f7cfd527bcd0c0f49d57b740",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_312.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_313.txt",
+      "bytes": 3657,
+      "sha256": "be0764bd2bdb60445b733b8eb3084b3e45015db4289775279a0c7a2ebdb131e0",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_313.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_316.txt",
+      "bytes": 12077,
+      "sha256": "5b4b5d8ca1837f43d5b2e0a141e2ce4da129d5529da219a4a2f85752ada045e0",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_316.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_413.txt",
+      "bytes": 10446,
+      "sha256": "d9ba179416b84c1ad31459ffca78439c309031232d4f93c743c1aff4c17ffbb5",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_413.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_414.txt",
+      "bytes": 13091,
+      "sha256": "15aaa45a862e82953b1dcff0d81e232857edefd59639b6a32fc5f7ad68345d1d",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_414.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_415.txt",
+      "bytes": 13582,
+      "sha256": "8733cee78002f1679d4f7684764aec3d9655fcdbb968c5124094d098a3b42933",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_415.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_416.txt",
+      "bytes": 13557,
+      "sha256": "6121ada09f59e034e1be38cc5a90bccb287bf132040560feae38b34105c0e12f",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_416.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_417.txt",
+      "bytes": 13581,
+      "sha256": "190d1ebf0ba40e2eb63ba81cf6920bacf1eba4f2ad4cdc2c91786b582f9dc213",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_417.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_418.txt",
+      "bytes": 13604,
+      "sha256": "590a5c38b0b5480fbc71c766e7a3bacccebaa013f834470aaa1ab0dc0916ecde",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_418.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_419.txt",
+      "bytes": 13602,
+      "sha256": "db090484b00a95a1296a14dc990fa6871663e13f7964acccd8bf6ff9a0219662",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_419.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_420.txt",
+      "bytes": 13674,
+      "sha256": "c20dba657b6a66f2aaff0f53dee9c2e8444dae52a9a2603f085ea57503812502",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_420.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_421.txt",
+      "bytes": 13772,
+      "sha256": "8dbc21489b47bcd4e0ca76da52959ce54c71ce46d8320f3b885848504895c1b4",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_421.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_422.txt",
+      "bytes": 13800,
+      "sha256": "9a4def9500817f3707b3f1227ef2e9fac54ef73038acb0c70d7b9f26d4add878",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_422.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_445.txt",
+      "bytes": 14577,
+      "sha256": "aed88a63048dea5544788f2cf4582080e67617a8fe7ea081edb44d2739c77645",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_445.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_478.txt",
+      "bytes": 4361,
+      "sha256": "990d6e2f9973cf04d75b30cbfe2ae0ce04bd95348a7bae913c83ba17b27cfa0b",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_478.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_480.txt",
+      "bytes": 11326,
+      "sha256": "9e9a97927a95d2e12f86d04d3411c36178509ae9e787e7a85ea525ddcf230c0e",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_480.txt",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_PAGE_TITLES.json",
+      "bytes": 130046,
+      "sha256": "d7907dfb2f233748fd1f1f9be0982200220bc5dc5c34b811752ff66721284bf9",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_PAGE_TITLES.json",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "DLIC_TARGET_PAGES.json",
+      "bytes": 21874,
+      "sha256": "28fcac91fb5b0dd43c097fbd3f30394e58f4414adfef79d4b1187fcd523b9838",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/DLIC_TARGET_PAGES.json",
+      "derived_from": "DLIC_FY2025.pdf"
+    },
+    {
+      "file": "Group1001.html",
+      "bytes": 131128,
+      "sha256": "794d02f1d035cabf0f34670cfa3340a1ef428a17c9a9e316d5c7e31bf93a44f3",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Group1001.html",
+      "public_url": "https://www.group1001.com/about/financial-strength/"
+    },
+    {
+      "file": "Group1001_LINKS.json",
+      "bytes": 674,
+      "sha256": "2f36b2f333fc17575ea5c9e501080624f131a0d961ac9875fde0f4027788a675",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Group1001_LINKS.json",
+      "derived_from": "Group1001.html"
+    },
+    {
+      "file": "Group1001_RENDER.txt",
+      "bytes": 1035,
+      "sha256": "0bf697d8dc78a62c4aba723c5507e140f78f965f324fbbeb92efe4c0866bd650",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Group1001_RENDER.txt",
+      "derived_from": "Group1001.html"
+    },
+    {
+      "file": "Group1001_companies.html",
+      "bytes": 131128,
+      "sha256": "bf69a8e16db28a00b4b82073efcfe05bcf346c44e1c88cc7bef44ef60e3a03c0",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Group1001_companies.html",
+      "public_url": "https://www.group1001.com/companies"
+    },
+    {
+      "file": "Rosner_complaint_TEXT.txt",
+      "bytes": 144784,
+      "sha256": "40cb8b4d75ab1bfdbe638539b5c11ff1b77225a593f41588f24e70a082493b03",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Rosner_complaint_TEXT.txt",
+      "derived_from": "Rosner_complaint_candidate.pdf"
+    },
+    {
+      "file": "Rosner_complaint_candidate.pdf",
+      "bytes": 348212,
+      "sha256": "54e5a9746bed022f29d2d8a549e7c72e53bc91c0783fbe78c1e90141de5b2465",
+      "local_path": "/tmp/SHADE-gap-investigation-2026-10-12/Rosner_complaint_candidate.pdf",
+      "public_url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.723744/gov.uscourts.flsd.723744.1.0.pdf"
+    }
+  ]
+}

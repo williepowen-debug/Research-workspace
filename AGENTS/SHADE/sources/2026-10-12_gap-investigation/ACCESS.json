@@ -1,0 +1,512 @@
+{
+  "authority": "Will direct bounded consequential-gap follow-up, current user turn2026-10-12",
+  "baseline": [
+    "1ad4e6ea2 source pass",
+    "7582957b5 coverage audit",
+    "WALTER8df3e97b1"
+  ],
+  "opened_at": "2026-10-12T19:54:06.947741-04:00",
+  "scope": "Nine material gaps; existing tools/public access only. Primary evidence or exact limit/next step per gap. No paid/outreach/agent launch/automatic governing-definition changes.",
+  "routes": [
+    {
+      "gap": "CS statutory",
+      "entry": "https://www.group1001.com/about/financial-strength/",
+      "change": "Corporate issuer financial-index route, not prior ClearSpring product page or failed DOI financial query",
+      "recorded_before_use_at": "2026-10-12T19:54:06.947741-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Corporate URL200 but rendered generalhomepagefallback, notfinancialstrength index; sourcehash retained.",
+      "record_id": 0
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "\"Clear Spring Life and Annuity\" \"2026\" \"statement\" \"pdf\"",
+      "change": "Exact public statement-document discovery; prior query was statutory financial index, not this exact document route",
+      "recorded_before_use_at": "2026-10-12T19:54:06.947741-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Searchreturnedsecondaryforums/media andGainbridgefilings, noownCSstatement; discardedasfinancialproof.",
+      "record_id": 1
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "https://clearspringlife.com/sitemap.xml",
+      "change": "New official sitemap attachment/index discovery, not repeated old home/product read",
+      "recorded_before_use_at": "2026-10-12T19:54:06.947741-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Webreaderunavailable; directGET404; stop.",
+      "record_id": 2
+    },
+    {
+      "gap": "remediation",
+      "entry": "site:group1001.com (\"exchange\" OR \"affiliated investments\") (\"closed\" OR \"completed\" OR \"approved\")",
+      "change": "Different corporate issuer publication channel; no repeat failed DLIC/DOI query",
+      "recorded_before_use_at": "2026-10-12T19:54:06.947741-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "No primarycompletedexchange returned.",
+      "record_id": 3
+    },
+    {
+      "gap": "measurement",
+      "entry": "https://content.naic.org/industry/financial-filing/annual-statements",
+      "change": "Official statutory filing form/instruction definitions; not previously inspected ratio basis",
+      "recorded_before_use_at": "2026-10-12T19:54:06.947741-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Indexlocatorunavailable; discoveredcurrentNAIC2026instructionPDF withhistorical25filename. Focusedpp850-851 excludeSA, notclaimed2025edition.",
+      "record_id": 4
+    },
+    {
+      "gap": "economic",
+      "entry": "Apollo Q2 2026 10Q primary SEC file + saved Athene statutory extracts",
+      "change": "Previously unrun RetirementServices cross-check; reuse already-obtained statutory source evidence",
+      "recorded_before_use_at": "2026-10-12T19:54:06.947741-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "SEC R30primarytable recovered. SECfullHTML403; issuerexactfiling copy publicGET200, focusedNotes4/16/17 andMD&A read.",
+      "record_id": 5
+    },
+    {
+      "gap": "litigation",
+      "entry": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.723744/gov.uscourts.flsd.723744.1.0.pdf",
+      "change": "New free public RECAP binary repository, distinct from failed docket-page403/blank ECF/paid archives",
+      "recorded_before_use_at": "2026-10-12T19:54:06.947741-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "DirectpublicRECAPPDF200,348212B;68pagesSept16courtstamp, complaintDoc1. Focusedpp1,2,5,8,14-16,19-22,34-38,67-68; paragraphs7-8,34-38,46-56. Allegationsnotfindings.",
+      "record_id": 6
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "https://www.group1001.com/companies",
+      "change": "Returned corporate financial-strength locator is homepage fallback; follow actual Companies navigation for entity financial attachments",
+      "recorded_before_use_at": "2026-10-12T19:55:38.733290-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "200 generalhomepagefallbacklikefinancialstrengthURL; nofinancialdownload.",
+      "record_id": 7
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "\"Clear Spring Life\" (\"10783\" OR \"statutory\") (\"2025\" OR \"2026\") financial filetype:pdf",
+      "change": "Specific statutory/identity document discovery different from prior statement query; avoid substituting Gainbridge subsidiary filings",
+      "recorded_before_use_at": "2026-10-12T19:55:38.733290-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Specificqueryhadwrongunverified10783lead; noownfiling. Correct83607establishedlaterfromprimarydirectory. No10783adopted.",
+      "record_id": 8
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "site:dfs.ny.gov \"Clear Spring Life\" financial statement",
+      "change": "Different regulator foreign-admitted insurer disclosure channel, not Delaware exam-only route",
+      "recorded_before_use_at": "2026-10-12T19:55:38.733290-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "No financialprimarybody recovered.",
+      "record_id": 9
+    },
+    {
+      "gap": "remediation/distribution",
+      "entry": "site:delawarelife.com \"Truist\" \"2026\"",
+      "change": "Different issuer named-bank confirmation channel; prior named-bank product pages were generic",
+      "recorded_before_use_at": "2026-10-12T19:55:38.733290-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "ReturnedconcretenewissuerTruistportal; followed16.",
+      "record_id": 10
+    },
+    {
+      "gap": "remediation/distribution",
+      "entry": "site:53.com \"Delaware Life\" \"2026\"",
+      "change": "Later direct named-provider release/document route; not repeated prior generic site query without year",
+      "recorded_before_use_at": "2026-10-12T19:55:38.733290-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "No laterdatedFifthThirddecisionreturned.",
+      "record_id": 11
+    },
+    {
+      "gap": "measurement",
+      "entry": "https://cdn.bfldr.com/RVAMRK5C/at/593vjttrssmhjkcp9p7pcn/2025_DLIC_Annual_Statement_Final.pdf",
+      "change": "Reacquire saved FY2025 annual to read previously unread SummaryInvestmentSchedule and ScheduleD ABS; different section relevant to newly authorized definition analysis",
+      "recorded_before_use_at": "2026-10-12T19:55:38.733290-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "DLIC484pageannualPDFrecoveredSHA256cc9acf23; headersscanned, focusedassets2/liabilities3/SI1PDF143/ABSsection278-313 readataggregate/headerlevel; nofullholdingjoin.",
+      "record_id": 12
+    },
+    {
+      "gap": "AG55",
+      "entry": "site:content.naic.org \"AG 55\" \"2026\" \"adopted\" template",
+      "change": "New final2026 version/adoption-publication discovery after final2025 document recovery; adopted text reused, not repeated",
+      "recorded_before_use_at": "2026-10-12T19:55:38.733290-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Currentofficialexposurecataloglabels2026templates/guidanceexposureOct9close; noadopted2026revisionrecovered. 2025templateadoptionNov6confirmedbyofficialsearchsnippetminutes; fullminutesweb20.7MBrefused/direct403.",
+      "record_id": 13
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "https://tableau.naic.org/views/CIS-WB-CompanyResults-pantheonsite-live/CompanyResultsDashboard-pantheon.csv?:embed=y",
+      "change": "Known usable primary directory export now queried for correct ClearSpring legalidentity/cocode83607 lead, not assumed Q2jurat or used as financials",
+      "recorded_before_use_at": "2026-10-12T19:56:41.929697-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "NAICdirectoryCSV200; exactcocode83607/companyverified. Datasetnotstatutoryjurat.",
+      "record_id": 14
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "site:clearspringlife.com \"83607\" OR \"financial strength\" OR \"annual statement\"",
+      "change": "New primary page/file discovery with concrete correct identity lead; secondarycode not adopted without primarydirectoryverification",
+      "recorded_before_use_at": "2026-10-12T19:56:41.929697-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "No officialstatement download; issuerSept21tablepreviouslyreadbaseline reused.",
+      "record_id": 15
+    },
+    {
+      "gap": "distribution",
+      "entry": "https://truist.delawarelife.com/home",
+      "change": "Concrete returned issuer-bank portal lead, never previously read; inspect dated product/rate notices without login or application",
+      "recorded_before_use_at": "2026-10-12T19:56:41.929697-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Publicissuer-bankportalrecovered;TruMaxbrochure/businessguidelinesread, nodated2026resumptiondecision. Portalpresence\u2260salesresumption. No login/application.",
+      "record_id": 16
+    },
+    {
+      "gap": "economic",
+      "entry": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000040/Financial_Report.xlsx",
+      "change": "Official same filing structured companion for notes inaccessible in fullHTML; no change to rawsourcefacts",
+      "recorded_before_use_at": "2026-10-12T19:56:41.929697-04:00",
+      "status": "NOT_USED",
+      "result": "NOT USED: issuerfullcopylaterrecovered, structuredXLSXunnecessary.",
+      "record_id": 17
+    },
+    {
+      "gap": "economic",
+      "entry": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/ahl-20260630.htm",
+      "change": "Separate Athene consolidated issuer Q2primary basis, sourcepage unlike unavailableApollofullbody",
+      "recorded_before_use_at": "2026-10-12T19:56:41.929697-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Directwebreaderunavailable; supersededbyverifiedApolloissuerfullcopyforcurrenteconomicmapping, no identicalretry.",
+      "record_id": 18
+    },
+    {
+      "gap": "economic",
+      "entry": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000040/FilingSummary.xml",
+      "change": "Official SEC filing notes catalog to locate economic-reinsurance/VIE/collateral notes",
+      "recorded_before_use_at": "2026-10-12T19:56:41.929697-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "OfficialFilingSummaryXMLwebunavailable; catalognotread.",
+      "record_id": 19
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "\"836072026\" OR (\"83607\" \"2026\" \"quarterly\")",
+      "change": "Primary NAICdirectorynowverifies83607; new exactbarcode/filing discovery, replaceswrongidentitylead, notfinancialassertion",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "No actualQ2barcode/bodyreturned.",
+      "record_id": 20
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "\"Clear Spring Life and Annuity\" \"2025\" \"audited\" pdf",
+      "change": "Specific restated audited parent filing search; excludes subsidiary Gainbridge and examination substitutes",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Gainbridgesubsidiaryfilingsreturned, notCSparent; rejectedsubstitution.",
+      "record_id": 21
+    },
+    {
+      "gap": "CS funding",
+      "entry": "site:sec.gov \"Clear Spring Life\" \"2026\" \"Federal Home Loan\"",
+      "change": "Independent primary lender/counterparty funding disclosure channel; no issuerstatutorysubstitution",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "No actualCSFHLBbalanceprimarybodyreturned.",
+      "record_id": 22
+    },
+    {
+      "gap": "economic",
+      "entry": "site:sec.gov/Archives/edgar/data/1858681/000185868126000040 \"ACRA\" \"63\"",
+      "change": "New exactsame-filing note fragment retrieval afterfullHTML403; source/APIrenderchange allows focusedmaterial reading",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Queryfailedtoisolatecurrentnote, olderprimaryACRAdatareturned. CurrentQ2ownershipverifiedlaterfromissuerfullcopy.",
+      "record_id": 23
+    },
+    {
+      "gap": "economic",
+      "entry": "site:sec.gov/Archives/edgar/data/1858681/000185868126000040 \"FHLB\" \"33.8\"",
+      "change": "Exact funded/total capacity counterparty disclosure, no readingtotalasfree",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "NOT_USED",
+      "result": "NOT USED exact33.8query: alternativecapacityqueryandfullissuerfilingreadrecoveredvalue.",
+      "record_id": 24
+    },
+    {
+      "gap": "cohort",
+      "entry": "site:sec.gov/Archives/edgar/data/1404912/ \"2026\" \"reinsurance\" \"third-party\"",
+      "change": "Global Atlantic parent KKR official quarterfiler for coarsecomparableeconomicriskownership; no conditionalADScohortdig",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "NOT_USED",
+      "result": "NOT USED: directKKRissuerroute38usedinstead.",
+      "record_id": 25
+    },
+    {
+      "gap": "system/loss allocation",
+      "entry": "site:content.naic.org \"Life\" \"Guaranty\" \"premium tax\" \"assessments\"",
+      "change": "Primary model/official mechanism basis, distinguish model from adoptedstatecode",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "NOT_USED",
+      "result": "NOT USED: actualFloridaadoptedstatuteroute40usedinstead.",
+      "record_id": 26
+    },
+    {
+      "gap": "official action",
+      "entry": "site:portal.ct.gov \"PHL Variable\" \"2026\" liquidation",
+      "change": "Official Connecticut insurance rehabilitation docket/neworder channel for named realized-loss precedent, notsecondarycivilallegations",
+      "recorded_before_use_at": "2026-10-12T19:58:01.566671-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "OfficialConnecticutPHLindexrecovered onceviaquery37; duplicateplannedentrynotduplicateresearch.",
+      "record_id": 27
+    },
+    {
+      "gap": "remediation/flows",
+      "entry": "https://www.delawarelife.com/content/business-highlights",
+      "change": "Check for new Q3/current filing availability since savedAug28 financial-index baseline; prior Oct12 pass intentionally did notaccesscurrentindex. Newreleasecouldestablishexecution/flows.",
+      "recorded_before_use_at": "2026-10-12T19:59:01.660662-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Currentissuerindex listsQ1/Q2only for2026; post-pauseQ3flowsnotyetthereasreadOct12. FY25audited/annualandQ22026primarybaseline retained.",
+      "record_id": 28
+    },
+    {
+      "gap": "economic",
+      "entry": "https://ir.athene.com/financial-information/statutory-filings",
+      "change": "Known issuer index to locate Q2BMA/USnote sources, use alreadyheldartifactstore first; current source identity notconditionalADSdig",
+      "recorded_before_use_at": "2026-10-12T19:59:01.660662-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "CurrentAtheneissuerquarterlyindexconfirmed; oldrawartifactstore~/research-artifacts/SHADEnotfoundonthismachine. BMAFY25recoveredindependently.",
+      "record_id": 29
+    },
+    {
+      "gap": "economic",
+      "entry": "site:sec.gov/Archives/edgar/data/1858681/000185868126000040/R \"Reinsurance\"",
+      "change": "SEC structured note catalog discovery for unavailable fullfiling, distinct accessroute",
+      "recorded_before_use_at": "2026-10-12T19:59:01.660662-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Exactpathqueryreturnednoapplicablecurrentnotebody; laterissuerfullcopyrecovered.",
+      "record_id": 30
+    },
+    {
+      "gap": "economic",
+      "entry": "site:sec.gov/Archives/edgar/data/1858681/000185868126000040/R \"Variable Interest Entities\"",
+      "change": "Exact samefiling VIE note primary toseparateconsolidationfromeconomicownership",
+      "recorded_before_use_at": "2026-10-12T19:59:01.660662-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "ReturnedunrelatedVIEfilers,discarded; do notsubstitute.",
+      "record_id": 31
+    },
+    {
+      "gap": "official action",
+      "entry": "site:justice.gov/usao-sdny (\"Delaware Life\" OR \"Clear Spring\" OR \"Guggenheim\")",
+      "change": "ActualSDNYoffice publiccase/releasechannel, notprior allDOJ2026query",
+      "recorded_before_use_at": "2026-10-12T19:59:01.660662-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "SDNYofficequeryreturnednounambiguousnamedcaserelease; notallproceedingsabsencecertificate.",
+      "record_id": 32
+    },
+    {
+      "gap": "SVO/TSR",
+      "entry": "site:content.naic.org \"SVO\" \"challenge\" \"count\" 2026",
+      "change": "Officialdesignation-challenge reporting/actionroute, separatefromEJRregistrationlist",
+      "recorded_before_use_at": "2026-10-12T19:59:01.660662-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "NoDLICcountreturned; correctIDAWGsummer2026summarysubsequentlyconfirmsdiscretionoperational, notfiler-specificcount.",
+      "record_id": 33
+    },
+    {
+      "gap": "SVO/TSR",
+      "entry": "\"Gober\" \"TSR\" insurance ratio",
+      "change": "Trace original metric definition ratherthan computea proxyfrominsufficientdata",
+      "recorded_before_use_at": "2026-10-12T19:59:01.660662-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Creator-author2022essay andpublicGCU2019samplelocated; Rasset/Treinsuranceaxesverified, currentreproducibleTSRformulaandweightsnotprovided; nocount.",
+      "record_id": 34
+    },
+    {
+      "gap": "economic",
+      "entry": "site:ir.apollo.com \"2026\" \"Q2\" \"10-Q\"",
+      "change": "New directissuerIR copy/index afterSECfullbody403; primaryissuerrepository",
+      "recorded_before_use_at": "2026-10-12T19:59:48.016995-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Issuersearchdidnotreturnexactbody; exactsame-filingIRcopypublicGETlater200; differentmethodresolvedaccess.",
+      "record_id": 35
+    },
+    {
+      "gap": "economic",
+      "entry": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000040/R9.htm ; R10.htm ; R11.htm ; R12.htm",
+      "change": "Focused SECstructured financial-note pages in samefiling availableR30; bounded4page read with titleverification, notassertknownnotes",
+      "recorded_before_use_at": "2026-10-12T19:59:48.016995-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Fourstructurednotelocatorswebunavailable, titlesnotconfirmed; stop, issuercopyused.",
+      "record_id": 36
+    },
+    {
+      "gap": "official action",
+      "entry": "site:portal.ct.gov \"PHL Variable\" \"2026\" liquidation",
+      "change": "Officialregulator litigationnewreleasechannel afterSeptember28savedsecondarybaseline",
+      "recorded_before_use_at": "2026-10-12T19:59:48.016995-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "OfficialPHLindexandcourtJune30reportrecovered: transitionexpected2027, not2026orenteredorder. Currentfulldocketunavailable; old34-57%modelnotupdatedcurrentstress.",
+      "record_id": 37
+    },
+    {
+      "gap": "cohort",
+      "entry": "site:ir.kkr.com \"2026\" \"second quarter\" \"Global Atlantic\"",
+      "change": "PrimaryKKRquarterlyfinancial/reinsuranceinsurerpage with comparableextentnotconditionalfundholdingdig",
+      "recorded_before_use_at": "2026-10-12T19:59:48.016995-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "KKRQ2releaseJuly30readpp16-17:220BAUMincludes62BIvy/sidecars, positivequarterIOE288.22MnonGAAPnotcredit-lossabsenceproof.",
+      "record_id": 38
+    },
+    {
+      "gap": "cohort",
+      "entry": "site:aspida.com \"2026\" \"financial\" statutory",
+      "change": "DirectAspidapublicfinancial-report route tocheckcohortbasis",
+      "recorded_before_use_at": "2026-10-12T19:59:48.016995-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Onlydatedissuerproduct/ratingmarketingreturned; noAspidastatement/capitaldata.",
+      "record_id": 39
+    },
+    {
+      "gap": "system/loss allocation",
+      "entry": "site:leg.state.fl.us 631.717 premium tax credit life insurance",
+      "change": "ExactFloridaadoptedstatute channel, previouswasonlymodelmechanismlead; currentstatedscopeFloridaonly",
+      "recorded_before_use_at": "2026-10-12T19:59:48.016995-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Florida2026\u00a7631.72(1)(b)verified5%annually20years; taxcapacity/refunds/nodoublepremium-incomeoffset matter. One-staterule, notmoststates.",
+      "record_id": 40
+    },
+    {
+      "gap": "economic",
+      "entry": "https://cdn.bma.bm/documents/2026-07-16-21-19-56-Athene-Bermuda-2025-Financial-Statement-Group.pdf",
+      "change": "Reuse saved W1negativeNote15 split, read distinct corporateentity/relatedpartybasis forAAReversusALRe chain; no unrelatedprivateborrowerexpansion",
+      "recorded_before_use_at": "2026-10-12T20:04:01.804081-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "BMA72pagegroupPDFrecovered, hashmatchessavedbaseline. FocusedNote1p12;Note15p69-70;Note16p70-71; collectionnotcompleteallocationcontract.",
+      "record_id": 41
+    },
+    {
+      "gap": "measurement",
+      "entry": "DLIC originalFY25 statutoryPDF printedSI1 andScheduleD Part1Section2 nowrecovered",
+      "change": "New focused section fromsameprimarysource: totalABS10441030493 versusaffiliate-contingent classification; explicitlydifferentvintages",
+      "recorded_before_use_at": "2026-10-12T20:04:01.804081-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "DLICSI1PDF143/printedSI1totalABS10441030493 andissuercredit21148681832 tie31589712325. AffiliateriskclassificationnotABS/illiquiditysynonym.",
+      "record_id": 42
+    },
+    {
+      "gap": "AG55",
+      "entry": "https://content.naic.org/sites/default/files/national_meeting/07_Minutes-LATF_0.pdf",
+      "change": "Returned officialminutes toverify2025templateadoptiondate, distinctfromalreadyreadguidelineandworkbook",
+      "recorded_before_use_at": "2026-10-12T20:04:01.804081-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "OfficialsearchindexedNov6templateadoptionminutesmotion; fullwebbodyunavailable20.7MB/directGET403. Snippet+Fallsummarysupportadoption; completedsubmissionsnotread.",
+      "record_id": 43
+    },
+    {
+      "gap": "cohort",
+      "entry": "site:aspida.com \"statutory\" OR \"capital and surplus\" OR \"2025 annual\"",
+      "change": "Newexactfilerfinancialdocdiscoveryaftergenericfinancialqueryreturnedmarketingonly",
+      "recorded_before_use_at": "2026-10-12T20:04:01.804081-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "NoAspidastatutorysourcebodyreturned.",
+      "record_id": 44
+    },
+    {
+      "gap": "cohort",
+      "entry": "site:ir.brookfieldwealthsolutions.com \"2026\" \"reinsurance\" \"Hanover\"",
+      "change": "Directcohortpublicissuer/reinsurercounterpartydisclosure, no reliancecriticXOLheadline",
+      "recorded_before_use_at": "2026-10-12T20:04:01.804081-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "NoBrookfieldHanovercurrentissuerprimarybodyreturned; noverificationofoldXOLclaim.",
+      "record_id": 45
+    },
+    {
+      "gap": "cohort",
+      "entry": "site:kuvare.com \"2026\" \"Blue Owl\" investments",
+      "change": "Namedtargetdirectissuerstatement, separatefrompriorcritic/relay framing",
+      "recorded_before_use_at": "2026-10-12T20:04:01.804081-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "KuvaredirectFeb24statementreturned, updatedMarch5decimalcorrection; ownership/control/passiveinvestment/consent statementsverifiedasissuerrepresentations, notindependentloanmarks.",
+      "record_id": 46
+    },
+    {
+      "gap": "SVO",
+      "entry": "https://content.naic.org/committees/e/valuation-analysis-wg",
+      "change": "OfficialVAWG/SVOreporting/actionindex tocheckpublicfiler-specificoverrideavailability, notassumeportfoliozeros",
+      "recorded_before_use_at": "2026-10-12T20:04:01.804081-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "VAWGactualcurrentchargesofferconfidentialAG55targetedreviews; wrongscopeforSVOfiler-count, correctivecurrentIDAWGindexfollowed.",
+      "record_id": 47
+    },
+    {
+      "gap": "CS statutory",
+      "entry": "site:content.naic.org \"Consumer Insurance Search\" \"financial\" report",
+      "change": "One concrete officialconsumerreport-options check: directoryfieldsmentionreportoptions; distinguish freefinancialsummaryfromfullstatements",
+      "recorded_before_use_at": "2026-10-12T20:06:36.620886-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "NAICadvertisesfinancialreportoptions; discoverednewnotdirectory-onlysurface, actualCSfinancialdataunretrieved.",
+      "record_id": 48
+    },
+    {
+      "gap": "AG55",
+      "entry": "DirectGET official20.7MBminutes withexistingPDFreader focusedattachment",
+      "change": "Web reader explicitly refusescontentlength20.7MB; concreteaccessmethodchange, notrepeatno-changefailure",
+      "recorded_before_use_at": "2026-10-12T20:06:36.620886-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Direct20.7MBminutesGET403afterwebsizelimit; stop.",
+      "record_id": 49
+    },
+    {
+      "gap": "SVO",
+      "entry": "https://content.naic.org/committees/e/investment-designation-analysis-wg officialSummer2026Summary",
+      "change": "CorrectcurrentrenamedVOSTFofficialindex->Summaryattachment; nofiler-specificcountifnotpublished",
+      "recorded_before_use_at": "2026-10-12T20:06:36.620886-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "CorrectIDAWGcurrentindex/SummerAug13summaryread, operationsconfirmed; noindividualoraggregateoverridecounttablefoundinreadmaterial.",
+      "record_id": 50
+    },
+    {
+      "gap": "CS statutory/capital",
+      "entry": "https://content.naic.org/cis_refined_results.htm?COCODE=83607&REALM=PROD&TABLEAU=CIS_FINANCIAL",
+      "change": "New official consumer per-company financial-dashboard route explicitlyadvertisedbyNAIC; correct83607 verified, distinctfromdirectoryCSV; summarynotfullstatutory",
+      "recorded_before_use_at": "2026-10-12T20:07:03.998393-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Correctcocode83607financialwrapperwebunavailable/direct403; financialtabclickrendered29lineemptyframe. FreefinancialreportrouteexistsbutbodyNOTOBTAINED; fullstatutorynotobtained, notproofnopublicdata.",
+      "record_id": 51
+    },
+    {
+      "record_id": 52,
+      "gap": "measurement/vintage",
+      "entry": "DLICcurrentissuerbusiness-highlights link7:2025 Audited FinancialStatement",
+      "change": "Newrestatedauditedfinancialstatementsectionroute toputoriginalannualandcorrectedaffiliatebondmetriconcomparableYE2025dates; sameissuerindex, childdocumentnotreadthispass",
+      "recorded_before_use_at": "2026-10-12T20:14:04.340818-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Official issuer FY2025 audited109pagePDF recovered HTTP200/hash878cec76; June26audit EOMrelatedpartyreclassification. Read financialsprinted4-5, relatedparty26, ABS34/Schedule1p99, SA66-67, SupplementalInvestmentRisks101. Matching thousands-dollar basis resolves vintage for37.2vs26.4 diagnostic; no illiquidABS holderjoin."
+    },
+    {
+      "record_id": 53,
+      "gap": "system totals",
+      "entry": "https://www.federalreserve.gov/releases/z1/current/html/l116.htm",
+      "change": "Previously untested officialholder-basedFinancialAccountstableL116, testwhetherCMBS/privatelendingseparatefromaggregatelifemortgages; nopeer-dashboardreplacement",
+      "recorded_before_use_at": "2026-10-12T20:17:04.333099-04:00",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Legacy L116 URL web unavailable; directGET404. Official catalog search reveals June11_2026 renumbering. Actual S1281.1.s opened; no claim that current holder tables unavailable."
+    },
+    {
+      "record_id": 54,
+      "gap": "system totals",
+      "entry": "Official Fed catalog discovery + https://www.federalreserve.gov/releases/z1/current/html/s1281_1_s.htm and preview/html/table_desc_sectors.htm",
+      "change": "Legacy L116 directGET404; newly verified table renumbering June11_2026. Correct public holder table and sector definition, not repetition of failed legacy route.",
+      "recorded_after_use_at": "2026-10-12T20:22:23.416850-04:00",
+      "sequence_exception": "Catalog search and corrective table opens occurred before this final route entry. No invented pre-use timestamp.",
+      "status": "CLOSED_AT_RECORDED_RESULT",
+      "result": "Current GA stocks table updatedSep11: Q22026 assets7797.8B, mortgages857.3B, private debt fund shares92.1B. Corporate/foreign bond bucket does not separatelyidentify insurer-held CMBS/private-credit lookthrough; no migration/loss allocation proof. Sector notes separate GA/SA and use market-value securities."
+    }
+  ],
+  "limit": "Sourcepassstopswithnine-gapprimaryanswersorpreciseevidence/accesslimits,nextsteps; noall-public-routes-exhaustedclaim.",
+  "prior_provisional_completed_at": "2026-10-12T20:12:56.659531-04:00",
+  "completed_at": "2026-10-12T20:22:23.416850-04:00",
+  "execution_note": "54 prior entries plus corrective route54; entries marked NOT_USED were plans, not accesses. Route54 logged after use as disclosed. Route12 header regex also matched irrelevant DB pages; retain actual ABS section PDF278-313 and SI1PDF143 locators only. No full-holding join or whole484page substantive read."
+}

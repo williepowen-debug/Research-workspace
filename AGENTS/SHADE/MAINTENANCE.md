@@ -5,6 +5,15 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 ---
 
 
+
+### 2026-10-12T20:31:53-04:00 — consequential-gap reconciliation and source receipts
+
+- Added bounded nine-gap investigation, primary-source index/access receipts/structured numeric inputs and reproducible arithmetic script. Same audited vintage, statutory ABS class, issuer carrying bridge, partial AMAPS sum and unknown-guarantee-base safeguards verified. RawstatutoryPDFs/fullHTML/extraction retained outsideGit in/tmp with byte/hashmanifest; no installation or paid/outreach/helper access.
+- STATUS22701B preserved verbatim in archive/STATUS_BEFORE_GAP_INVESTIGATION_2026-10-12.md, payloadline5/crc32 32d98c70; compact current§0r keeps under22785B. ColdREFERENCE and historicalresearch get source-status corrections/addenda; original findings retained. Consumercheck11B noise inspected: BROCKhistoricalJune8source/datedprediction context, different partial-scopeQ2floor—not a comparabletotal replacement; currentfloor travels inNEXUS/PROME. No peerfile edits.
+- ApolloRScheck and comparable-vintage analysis completed; definitionapproval/loanallocation/count remainpending. L673October13 and October23 falsifier/calibration/rotation retained; charter/score/threshold unchanged. NEXUSlastfoldpins finalSTATUScommit. No liveledger/auto-memory/feedchange, originreceipt or lifecyclecloseout inferred.
+
+---
+
 ### 2026-10-12T19:24:34-04:00 — coverage audit and ratio-basis qualification
 
 - Added existing-evidence coverage map on Will's question, no public-source expansion. Qualified GA-only illiquidity figures in owned state and Oct1 ratio analysis; denominator/perimeter is unresolved alongside ABS leg. No official grade, replacement across bases or frozen-rule change.

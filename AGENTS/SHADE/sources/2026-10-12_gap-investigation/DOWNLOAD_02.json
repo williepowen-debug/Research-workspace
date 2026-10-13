@@ -1,0 +1,31 @@
+[
+  {
+    "file": "DLIC_FY2025.pdf",
+    "url": "https://cdn.bfldr.com/RVAMRK5C/at/593vjttrssmhjkcp9p7pcn/2025_DLIC_Annual_Statement_Final.pdf",
+    "method": "public direct GET",
+    "at": "2026-10-12T23:56:09.004663+00:00",
+    "status": 200,
+    "final_url": "https://cdn.bfldr.com/RVAMRK5C/at/593vjttrssmhjkcp9p7pcn/2025_DLIC_Annual_Statement_Final.pdf",
+    "bytes": 10949843,
+    "sha256": "cc9acf23dd86ce98a5cd39b5ebafccac7a88e2ed1168ea8943dac9cfe09fda9d",
+    "content_type": "application/pdf"
+  },
+  {
+    "file": "Apollo_Q2_2026.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000040/apo-20260630.htm",
+    "method": "public direct GET",
+    "at": "2026-10-12T23:56:09.005412+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "Group1001_companies.html",
+    "url": "https://www.group1001.com/companies",
+    "method": "public direct GET",
+    "at": "2026-10-12T23:56:09.006085+00:00",
+    "status": 200,
+    "final_url": "https://www.group1001.com/companies",
+    "bytes": 131128,
+    "sha256": "bf69a8e16db28a00b4b82073efcfe05bcf346c44e1c88cc7bef44ef60e3a03c0",
+    "content_type": "text/html; charset=utf-8"
+  }
+]

@@ -1,5 +1,7 @@
 # SHADE — WELD 2: The Combined Insurer Sink
 
+**Dated source follow-up2026-10-12:** this July record retains its point-in-time figures. Current ApolloQ2 Note4 names five AMAPS issuer-risk positions totaling$13.515B, a disclosed floor/partial scope rather than a comparable complete total replacing the historical$11B. Current economic/allocation and system-holder limits→`GAP_INVESTIGATION_2026-10-12.md`. The unreconciled pool totals below remain overlapping; do not sum them. No original weld verdict or registered falsifier changed.
+
 **Date:** 2026-07-27 ET
 **Owner:** SHADE (insurer side). CRE flow series: CREED. Fund/gate layer: BROCK.
 **Origin:** PROME cross-read weld #2 (`inbox/processed/2026-07-20_from-PROME_crossread-welds-combined-sink-ask.md`), accepted 7/27; CRE leg released by CREED 7/27.

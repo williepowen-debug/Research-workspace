@@ -1,0 +1,31 @@
+[
+  {
+    "file": "CS_sitemap.xml",
+    "url": "https://clearspringlife.com/sitemap.xml",
+    "method": "public direct urllib GET",
+    "at": "2026-10-12T23:54:40.848775+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "Group1001.html",
+    "url": "https://www.group1001.com/about/financial-strength/",
+    "method": "public direct urllib GET",
+    "at": "2026-10-12T23:54:40.849392+00:00",
+    "status": 200,
+    "final_url": "https://www.group1001.com/about/financial-strength/",
+    "bytes": 131128,
+    "sha256": "794d02f1d035cabf0f34670cfa3340a1ef428a17c9a9e316d5c7e31bf93a44f3",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "file": "Rosner_complaint_candidate.pdf",
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.723744/gov.uscourts.flsd.723744.1.0.pdf",
+    "method": "public direct urllib GET",
+    "at": "2026-10-12T23:54:40.849742+00:00",
+    "status": 200,
+    "final_url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.723744/gov.uscourts.flsd.723744.1.0.pdf",
+    "bytes": 348212,
+    "sha256": "54e5a9746bed022f29d2d8a549e7c72e53bc91c0783fbe78c1e90141de5b2465",
+    "content_type": "application/pdf"
+  }
+]

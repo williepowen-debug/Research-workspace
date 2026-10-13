@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-10-12",
+  "dlic_audited": {
+    "source": "DLIC_AUDIT",
+    "valuation_date": "2025-12-31",
+    "unit": "USD_thousands",
+    "mortgages": 2874148,
+    "schedule_ba": 1601745,
+    "ga_admitted": 45903193,
+    "sa_admitted": 18796915,
+    "total_admitted": 64700108,
+    "affiliate_contingent_bonds": 12619338,
+    "formal_abs": 10441030,
+    "locators": "printed p4/PDF6 assets; p26/PDF28 affiliated risk; p34/PDF36 ABS; p101/PDF103 explicit GA denominator",
+    "illiquid_abs_verified": null
+  },
+  "dlic_original": {
+    "source": "DLIC_ORIGINAL",
+    "valuation_date": "2025-12-31",
+    "unit": "USD",
+    "mortgage_first": 2603582731,
+    "mortgage_other": 270564592,
+    "schedule_ba": 1601744585,
+    "ga_admitted": 45903192677,
+    "sa_admitted": 18796915045,
+    "total_admitted": 64700107722,
+    "formal_abs": 10441030493,
+    "issuer_credit_obligations": 21148681832,
+    "bonds": 31589712325,
+    "old_rounded_affiliate_bond_proxy": 12619000000,
+    "locators": "PDF2 Page2 assets; PDF143 printed SI1 lines2.03/2.04/2.05"
+  },
+  "clear_spring": {
+    "source": "CS_ISSUER",
+    "unit": "USD_millions",
+    "basis": "issuer Sept21 table, affiliates / Page2 line12 col3 net cash and invested assets; not independently reconstructed statutory",
+    "rows": [
+      {"date": "2025-12-31", "affiliate": 5895, "invested_ga": 9923},
+      {"date": "2026-03-31", "affiliate": 5323, "invested_ga": 10142},
+      {"date": "2026-06-30", "affiliate": 4898, "invested_ga": 10033}
+    ]
+  },
+  "athene": {
+    "source": "APO_Q2",
+    "valuation_date": "2026-06-30",
+    "unit": "USD_millions",
+    "amaps_named_single_issuer_risk": {"AMAPS_2": 3000, "AMAPS_3": 2995, "AMAPS_4": 2571, "AMAPS_1": 2544, "AMAPS_5": 2405},
+    "amaps_locator": "Note4 printed p46; SEC R30 major related-party issuer-risk list and footnote1: may only include portion",
+    "fhlb_drawn": 27700,
+    "fhlb_estimated_total_capacity": 33800,
+    "restricted_assets": 120985,
+    "restricted_components": [64567, 3788, 200, 48172, 296, 207, 2154, 1601],
+    "fhlb_locators": "Note17 pp93-94 restricted assets; MD&A FHLB p155 estimated capacity includes outstanding",
+    "whco_outstanding_purchase_obligation": null,
+    "whco_guarantee_fraction": "0.15",
+    "whco_reimbursement_fraction": "0.35",
+    "whco_project_agreement_total_not_obligation": 35000,
+    "whco_locator": "Note17 p94 Purchase Obligation Guarantee; guarantor AHL, outstanding O not disclosed in read note"
+  },
+  "global_atlantic": {"source": "KKR_Q2", "unit": "USD_billions", "valuation_date": "2026-06-30", "insurance_aum_including_sidecars": 220, "ivy_other_sidecars_included": 62, "locator": "July30 earnings release printed pp16-17, insurance AUM composition"},
+  "fed_context": {"source": "FED_GA", "unit": "USD_billions", "valuation_date": "2026-06-30", "release_date": "2026-09-11", "ga_financial_assets": "7797.8", "ga_mortgages": "857.3", "ga_private_debt_fund_shares": "92.1", "locator": "S1281.1.s lines1/11/19; not an insurer-CMBS/private-credit union"}
+}

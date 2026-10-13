@@ -1,0 +1,33 @@
+{
+  "url": "https://tableau.naic.org/views/CIS-WB-CompanyResults-pantheonsite-live/CompanyResultsDashboard-pantheon.csv?:embed=y",
+  "at": "2026-10-12T23:57:23.739115+00:00",
+  "status": 200,
+  "bytes": 1890884,
+  "sha256": "c7f2cff0cceb5106a197c8e4395352dbcd29b4eb7dfa9aff4933ee1f9c75c73b",
+  "header": [
+    "Cocode",
+    "Company Information",
+    "Company Licensed In...",
+    "Company Name",
+    "Insurance Types",
+    "Reports Description",
+    "URL_START",
+    "Web Site",
+    "Full Company Name",
+    "REALM"
+  ],
+  "target_rows": [
+    [
+      "83607",
+      "10555 GROUP 1001 WAY\r\nZIONSVILLE, IN  46077\r\n\r\nWWW.CLEARSPRINGLIFE.COM\r\n800-990-7626",
+      "AK, AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NM, NV, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VA, VT, WA, WI, WV, WY",
+      "Clear Spring Life & Ann Co  (NAIC Company Code 83607)",
+      "Annuity, Health, Life",
+      "Click for \r\nReport Options",
+      "https://content.naic.org/",
+      "WWW.CLEARSPRINGLIFE.COM",
+      "Clear Spring Life and Annuity Company",
+      "PROD"
+    ]
+  ]
+}

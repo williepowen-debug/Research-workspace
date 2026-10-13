@@ -1,5 +1,7 @@
 # SHADE — Delaware Life FY2025 annual statement: charter ratios #1 and #2 (DOCKET L241) · 2026-10-01
 
+**Dated follow-up2026-10-12:** original worksheet below is preserved. [Consequential-gap investigation](GAP_INVESTIGATION_2026-10-12.md) now uses the same corrected FY2025 audited statement for all inputs: floor$4,475.893M, contingent bonds$12,619.338M, GA$45,903.193M, total$64,700.108M. This yields9.7507/37.2419% on GA and6.9179/26.4223% on total. The new comparison resolves the earlier mixed-vintage qualification; it does not approve a definition or grade. FormalABS$10,441.030M is smaller than the contingent bond category, so the entire bond proxy cannot be statutoryABS. Aggregate ScheduleD/SI1 class identified; holding-level illiquidity join still missing. SVO authority verified operationalAugust13, count still not obtained. Proposed GA-matched evidencedABS definition routed through PROME;30%unchanged, no breach.
+
 **Source:** Delaware Life Insurance Company, NAIC annual statement for the year 2025 (cocode 79065), `cdn.bfldr.com/RVAMRK5C/at/593vjttrssmhjkcp9p7pcn/2025_DLIC_Annual_Statement_Final.pdf`. The issuer's own page, free. Fetched 2026-10-01: 10,949,843 B, 484 pp. Cross-check: total admitted assets **$64,700,107,722** and GA **$45,903,192,677** tie exactly to the carried $64.7B / $45.90B (REFERENCE §2Q).
 
 ## Ratio #1 — Affiliated Reinsurance Ratio (charter: reserve credit from affiliates ÷ total surplus; >100% = critical)
