@@ -3,11 +3,11 @@ Runtime: OpenAI Codex; native thread `01a131e6-5754-7593-a546-210c87683eeb`; roo
 
 ## STATUS
 
-Existing session closing on Will's direct request. Owned full write-back is saved; all3 bookmark helpers explicitly answered closeout. Requested48-bookmark/50-content-item review and exact48-ID marking are complete at their saved scan (654 seen,0 pending). No new research, grade, trade, watch, owner launch or charter activation. Publication of the new closeout candidate remains separate from already-published intake results.
+Existing session handoff complete on Will's direct closeout request; runtime exit is not inferred. Owned full write-back is saved; all3 bookmark helpers explicitly answered closeout. Requested48-bookmark/50-content-item review and exact48-ID marking are complete at their saved scan (654 seen,0 pending). No new research, grade, trade, watch, owner launch or charter activation. Publication of the new closeout candidate remains separate from already-published intake results.
 
 ## CHANGED
 
-REGISTRY and derived STATUS/network refreshed; MEMORY session notes and SESSION_LOG full-closeout entry updated. LAST_COMPLETION overwritten with preserved live duties and exact old archive.51 delivery states reconciled; one new MIDAS correction packet filed exactly with consume declaration and BM-20261013-03 CLOSED3/3 FOLD. Dated closeout proof/check bundle and PROME handoff prepared.
+REGISTRY and derived STATUS/network refreshed; MEMORY session notes and SESSION_LOG full-closeout entry updated. LAST_COMPLETION overwritten with preserved live duties and exact old archive.51 delivery states reconciled; one new MIDAS correction packet filed exactly with consume declaration and BM-20261013-03 CLOSED3/3 FOLD. Dated closeout proof/check bundle and PROME handoff committed75a0e9959; exact native queue accepted. Follow-up receipt persistence is separate.
 
 ## RESULT
 
@@ -84,7 +84,7 @@ Will's direct closeout ask received; all3 thread-local helper closeout receipts 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-13T14:24:38Z",
+  "as_of": "2026-10-13T14:33:25Z",
   "publication": [
     {
       "commit": "bf00c875c9506c18179a16dc7b10a84a1d3db267",
@@ -117,6 +117,10 @@ Will's direct closeout ask received; all3 thread-local helper closeout receipts 
     {
       "commit": "58e6594ebe22fc40b06f9154935c1392a6acd243",
       "state": "published"
+    },
+    {
+      "commit": "75a0e9959e444b0a9e71310b7b0923bba7ef2c30",
+      "state": "published"
     }
   ],
   "delivery": {
@@ -127,7 +131,7 @@ Will's direct closeout ask received; all3 thread-local helper closeout receipts 
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Named prior result commits are published; this new closeout candidate is local until the shared push train. Own push deferred for foreign PROME/TERRY work; no pull/rebase."
+    "note": "Named prior result commits origin-proven; closeout75a0e9959 published at current local origin. This receipt/queue proof follow-up also needs shared publication. Own push deferred for observed foreign work; no main pull/rebase."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -196,6 +200,11 @@ Will's direct closeout ask received; all3 thread-local helper closeout receipts 
         "path": "AGENTS/WALTER/research/2026-10-13_session-closeout/REPORT.md",
         "sha256": "ce1dde091dd063bff060c4eac377644785562d48773b65e5410ee4921d6a7f01",
         "note": "Actual full closeout outcomes; review/source/publication qualifications preserved."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-13_session-closeout/commits-and-notification.json",
+        "sha256": "a819e72e75dc4c4f112c98fdb04a7e16fbe25ff7958b86c32d441348e53783ca",
+        "note": "Actual exact37-path source commit proof and native PROME queue acceptance; not recipient consumption."
       }
     ],
     "prior_evidence_archive": "AGENTS/WALTER/archive/LAST_COMPLETION_2026-10-13_before-session-closeout.md"
@@ -232,7 +241,7 @@ Will's direct closeout ask received; all3 thread-local helper closeout receipts 
     "root.weekdays": "Required fleet files + owned STATUS supplied to full runner; no optional absent workbook/calendar invented.",
     "root.ledger": "REGISTRY/delivery/BATCH_MANIFEST actually refreshed; no new dispatch/kill/fire/COR/doorbell/research grade. Other event-driven ledgers retain actualOct12re-pull vintage; nudge disposition explained in commit body.",
     "helpers": "Three existing read-only helper followup closeout asks and actual no-work receipts saved; no helper research/edits and no process exit claimed. PROME owns ORCH_LOG.",
-    "16": "Fresh git fetch verified named prior commits.51 delivery states reconciled from origin. New own exact-path commit to follow; own push/main pull deferred for observed foreign work. Postcommit receipt check and exact PROME queue notice follow."
+    "16": "Source closeout75a0e9959 committed37 exact pathspecs/36logical files incl1exact rename,0unexpected/0missing. Native PROME queue accepted01a135ae-0a21-7e11-919d-c643b3a01cbf. Publication source state=published at cachedoriginef0f848d295658415109481ec50bd59715549cac; own push/main pull deferred for foreign work. Delivery161/161; final receipt check follows this reconciliation. No recipient consumption or process exit inferred."
   },
   "selected_checks": "Full11-check runner completed:0UNKNOWN. Receipt/archives/weekdays/basis/versions/MEMORY PASS; orphans ADVISORY; read-cap/READS/ledger-nudge/doctor REVIEW. Five inherited doctorMEDs: LABOR_DOWN,2amendmentIDs,20NOTE rows,newsweep,89aged unconsumed. No whole-doctor/full-market PASS."
 }
