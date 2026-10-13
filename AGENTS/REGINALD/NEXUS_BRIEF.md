@@ -1,6 +1,6 @@
 # REGINALD — NEXUS Brief
 
-**Status:** 🔴 on the LEVEL and 🔴 on the MACRO INPUT, 🟠 on the MECHANISM. **`REG-T-02` FIRED since 2026-09-01 (cycle 2), still FIRED through the 10/9 close:** 28 closes graded, none qualifying, run **`0-of-3`**; latest **WAL $74.27 [10/9 settled, two routes]** (exit ≥81.90 ×3; count lives in `registry/REG_T02_EXIT_LOG.tsv`). **`REG-T-03` (HY >320 ×3) 0-of-3** at the 10/8 cell — 309 [10/7], 315 [10/8]; 324 [10/1] was one print. CCC 1,252 [10/8] = FRED-window high. **FLG ladder `VX-REG-6.03` RED** since the 10/7 close $11.30; 3 settled closes below RED through 10/9 ($11.32). Matrix unchanged. **Nano Banc (10/9):** FDIC bid summary posted 10/8 (P&A not yet) — Sunwest bought Pools B/C at 82.30%/80.17% of book, 0.85% deposit premium, no loss-share; shared figure ≈$120M ≈17% [9/22] unchanged, retained-pool allocation ≈32–42% (desk scenario) → `reports/2026-10-09_nano-banc-bid-summary-and-section3-rerun.md`.
+**Status:** severity remains concentrated on June30 bank evidence. WAL exit FIRED,0-of-3 through10/12 (29 rows); FLG ladder RED,4 settled closes belowRED through10/12. Current prices/tiers and their vintages → STATUS; no new fire. Nano10/13 FDIC page still lists bid summary only, no P&A link; unlisted agreement not excluded.
 
 **WAL quarantine (cutover 7/25):** WAL thesis/predictions/positions are **`../WAL/`-owned — no WAL figure is restated here**; read `../WAL/STATUS.md`. REGINALD keeps the matrix row + cohort context. New via WAL 8/7 (consume-with-fences): **the V1a MI3 falsifier finally RAN and came back PLATEAUED <24%**, and WAL's NDFI share made a new high — **both under WAL's explicit "weights UNCHANGED pending Will's rulings" fence; do not consume WAL's scores as settled.**
 
@@ -75,14 +75,16 @@
 
 ## CALIBRATION
 
-- **Conviction (decomposed):** direction-H on the *concentration* shape (5 independent confirmations; cross-bank Q2 CRE bad-loan rate FELL 2.46% → 2.23%; WQ-318 adds: funding not breaking at 6/30) · timing-M (resolvers: the 10/16–10/27 prints, then the 11/07 Call Report run) · level — my live level claims are threshold distances: **WAL $3.73 under $78 [10/9] (FIRED), HY 5bp under 320 [10/8] (0-of-3), B 15bp over 300 [10/8], claims 103K under 300K, KRE $9.01 over $60 [10/9], FLG through RED.**
+- **Conviction (decomposed):** direction-H on the *concentration* shape (5 independent confirmations; cross-bank Q2 CRE bad-loan rate FELL 2.46% → 2.23%; WQ-318 adds: funding not breaking at 6/30) · timing-M (resolvers: the 10/16–10/27 prints, then the 11/07 Call Report run) · level — my live level claims are threshold distances: **WAL $3.31 under$78 [10/12 settled] (FIRED), HY9bp under320 [10/12] (0-of-3), B10bp over300 [10/12], claims103K under300K [w/e10/3], KRE$9.06 over60 [10/13 quote], FLG through RED.**
 - **Diverge from market by:** less than at any point this year, and honestly so — the narrowing was driven by my own grades, not the tape. Where I still diverge: the market reads benign GSE MF headlines and clean small-tier prints at face value; I carry both as composition-masked (modification suppression; definitional NPA exclusions at BKU).
 - **Uncertain about:** (1) **whether the bank-equity leg is now running AHEAD of credit** (HY half-retraced while KRE/FLG/OZK kept falling) — a non-credit repricing my instruments cannot see, or credit about to re-widen into the prints; (2) whether CFG's +$3.85B Q2 FHLB draw is brokered substitution (INFERENCE) or funding pressure; (3) magnitude attributable to OZK news (owner found Oct6 short-bridge disclosure; Oct12 executed-extension primary now consumed, causal share unmeasured); (4) the MI3 cohort-selection rule, decide before 11/07; (5) **whether the small-bank borrowing step-up continues (10/16 H.8), how much of it is FHLB, and whether a Q3 print shows it with deposits leaving.**
 - **Failure patterns to mind:** a detector that exists only as a TSV cell has no lag guarantee — the FLG band-1 break sat 8 days, the band-2 break was caught at the first boot (zero lag) once `vx_ladder_check.py` existed (census every other frozen-baseline band into it); a broker chart's last print at the bell is not the vendor close (WAL $75.21 vs $75.76 on 9/29 — grade the settled bar, label the other); a correction to my figure gets the same recompute as the figure (lesson 40).
 
 ## NEXT DECISION POINT
 
-- **What:** **the Q3 read plan's frames, one per print, CFG first (Fri 10/16)**: WQ-318 rows (UP/DOWN/INCONCLUSIVE per bank), CRE §6 lines, L35/L521, FL frame + A3, AMTB non-CRE lines. **The §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION.** Plus `REG-T-02` exit grading every settled close (0-of-3, 28 rows through 10/9), the tier test on each FRED cell, and the weekly funding read (H.4.1 Thu 10/15, H.8 Fri 10/16).
+**Research priority (direct Will,10/13):** existing21-row cash/loss/retained-risk bridge plus OZK14-row baseline; valuation analysis → `reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md`. EGBN Prince George's cash and new recognition are most sensitive; OZK residual financing/sale proceeds next. RaDD's October9 amendment is post-Q3. Current consensus/unpublished outcomes remain unresolved; EGBN PASS retains pricing and independent liquidity/horizon failures. WFC SEC restatement guard integrated as context; no PC-loss attribution or regional spread inferred.
+
+- **What:** **the Q3 read plan's frames, one per print, CFG first (Fri 10/16)**: WQ-318 rows (UP/DOWN/INCONCLUSIVE per bank), CRE §6 lines, L35/L521, FL frame + A3, AMTB non-CRE lines. **The §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION.** Plus `REG-T-02` exit grading every settled close (0-of-3,29 rows through10/12), the tier test on each FRED cell, and the weekly funding read (H.4.1 Thu 10/15, H.8 Fri 10/16).
 - **When:** 10/16 · 10/19 · 10/20 · 10/21 (+ FLG/CUBI TBA); every close; FRED each morning ~10:15 ET.
 - **Falsifier context:** the expected modal outcome is INCONCLUSIVE at most banks (declared deposit programs at WAL/EGBN, OZK's pre-announced cost inflection) — written in advance so it can be wrong. An UP row at CUBI or CFG is the result that would change the view.
 
@@ -90,11 +92,11 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 **Every close** | `REG-T-02` EXIT grading (WAL ≥81.90 ×3) | 0-of-3 (28 rows); 10/9 $74.27 is 9.3% short |
+| 🔴 **Every close** | `REG-T-02` EXIT grading (WAL ≥81.90 ×3) | 0-of-3 (29 rows);10/12 $74.69 is8.8% short |
 | 🟠 **Daily ~10:15 ET** | FRED HY/B/BB/CCC (cache-busted CSV) | HY >320 restarts `REG-T-03`'s count; B ORANGE >330 |
 | 🟠 **Thu 10/15** | Claims (197K [w/e 10/3]) | >300K = ORANGE banks → RED (far) |
 | 🟠 **Thu 10/15 · Fri 10/16** | H.4.1 discount window · H.8 small-bank borrowings/deposits | Step-up continues / reverses; a deposit decline alongside = the PNC pattern spreading |
-| 🟠 **Tue 10/13** | Nano Banc P&A posted? (L516; bid summary read 10/9) | Size Pools A/D; re-run §2 |
+| 🟠 **Tue10/20** | Nano Banc P&A posted? (L516; bid summary read 10/9) | Size Pools A/D; re-run §2 |
 | 🔴 **Fri 10/16** | **CFG Q3** — first WQ-318 grade | IB cost ≥2.18%, NIB ≤20%, FHLB >$7.32B, capital call + PC >$15.46B |
 | 🔴 **Mon 10/19 AMC** | **WAL Q3** (call Tue 10/20 12:00) | WQ-318 WAL row; WAL desk frame (L170); AOCI vs scenario |
 | 🔴 **Tue 10/20 AMC** | **OZK Q3** (call 10/21 08:30) | OREO sale prices vs 95–100% marks; COIBD ≥3.34%; L520 |
@@ -104,4 +106,4 @@
 
 ---
 
-*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 10, 12). Created 2026-07-09; rebuilt 2026-08-10. Folded 2026-10-13 as the session's LAST write-back after STATUS commit `6fe886930e969cb144357cd1464972c5c2b9f476`; amendment-12 order now applied. Prior full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
+*Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `9a3da47de`; amendment12 ordering retained. Exact source arithmetic and boot capability gaps are in the October13 report/receipt. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
