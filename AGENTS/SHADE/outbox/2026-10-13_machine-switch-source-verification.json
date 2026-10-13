@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-13T10:09:23.349388-04:00",
+  "store_dir": "/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12",
+  "manifest": "AGENTS/SHADE/sources/2026-10-12_gap-investigation/RAW_MANIFEST.json",
+  "manifest_hash_matches_closeout": true,
+  "expected_files": 84,
+  "verified_files": 84,
+  "verified_bytes": 25601491,
+  "failures": [],
+  "storage_scope": "machine-local outside Git; not replicated to the next computer by Git"
+}

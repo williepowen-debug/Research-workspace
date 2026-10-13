@@ -1,6 +1,6 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-10-12T22:10:12-04:00 — Will-requested closeout; no source/grade refresh. Pass COMPLETE/evidence PARTIAL; pending dates retained. Resume→`SCRATCH.md`; result→`research/GAP_INVESTIGATION_2026-10-12.md`.
+**Last Updated:** 2026-10-13T10:11:12-04:00 — Will-requested machine-switch closeout; persistence checks only, no source/grade refresh. Pass COMPLETE/evidence PARTIAL; pending dates retained. Resume→`SCRATCH.md`; result→`research/GAP_INVESTIGATION_2026-10-12.md`.
 **Prior sessions:** 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
 **Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` 10/10 owner fire = PROVISIONAL; prospective window is registered, first eligible 10/13 close.** Episode-long wrapper decline persists on 10/12 closes (RAW −4.40% vs managers −1.42%; ADJ −2.89% vs −1.42%), while since Friday both baskets rose. HY 315 [10/8] remains latest published; LIQUID owns count/anchor. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.

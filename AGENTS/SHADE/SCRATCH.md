@@ -1,4 +1,14 @@
-# SHADE SCRATCH — active boot / preserved restart handoff
+# SHADE SCRATCH — machine-switch restart handoff
+
+## Machine-switch closeout — 2026-10-13T10:09:23-04:00
+
+**Authority:** Will: "actually SHADE false alarm I am going to switch comps. Can you check that everything SHADE related has been saved/committed/pushed properly?" Current thread `01a13335-0ca0-7ee2-b281-97c6affe060e` closes its work after the final persistence report; UI/process termination is user-controlled. No research or new assessment performed. Existing October13 after-close L673 and October23 obligations remain pending; resume using the steps below and reconcile intervening commits before repeating work.
+
+**Saved-work check:** SHADE tracked tree and authored-packet orphan scan were clean before closeout writes; only ignored Python bytecode is present in the desk. Top-level inbox0 / WALTER0; corrections rc0. The October12 boot commit `3195ffaf68cbdd6ed710e42122b38585dbc95e8f` is already in cached origin history, with fresh publication verification still required at final push. Update STATUS metadata, commit this handoff, fold NEXUS last, and run the approved safe-push script. Earlier boot's push deferral was too restrictive: other desks' dirty files block pulling; safe-push leaves their working files untouched. No pull, stash, rebase or foreign staging is needed on a fast-forward push.
+
+**Source-storage verification:** all84 raw/source-scratch files totaling25,601,491B rechecked against RAW_MANIFEST at10:09:23ET; zero missing/mismatched, manifest hash also matches CLOSEOUT_STORAGE. Check receipt→`outbox/2026-10-13_machine-switch-source-verification.json`. These raw files remain at `/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12/` on this computer, outside Git. Git does not transfer them to the next computer. Public URLs/hashes and analysis/reconstructions are committed; on the next computer copy the existing local store or reacquire the exact sources when needed. No raw statutory PDFs added to Git.
+
+**Coordination and limits:** durable self-authored closeout packet→`PROME/inbox/2026-10-13_from-SHADE_machine-switch-closeout.md`; recipient consumption/native notification UNKNOWN because no verified cross-session tool is exposed here. TERRY's pre-existing untracked `AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md` remains outside SHADE authority and must not be swept into a SHADE commit. No auto-memory, ledger, threshold, score, grade, source conclusion or capital permission changed. MEMORY rotation remains October23. Actual final push receipt is supplied to Will; publication is not inferred from a clean tree.
 
 ## Boot receipt — 2026-10-12T23:04:26-04:00
 
