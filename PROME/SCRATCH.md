@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October13 desktop boot / Git recovery:** [Recovery receipt](reports/2026-10-13_git-recovery-boot.json) records Will-approved rebase, preserved local work, boot checks and capability gaps. Original commits/cache backup is local at the receipt's path. Current receipts, source duties and management clocks below remain in force.
+
 **Will requested PROME closeout and will direct the other agents himself.** [Closeout record](reports/2026-10-13_laptop-closeout.md) owns checks, delivery limits and the next-owner slate. Reconcile later committed receipts before any new work; verify fresh session identity before routing, and never infer process exit from saved work.
 
 **Keep work efficient.** Will asks us to avoid repeated review/change loops and conserve tokens. Reuse accepted findings, check changed work or concrete uncertainty, stop at required acceptance, and avoid acknowledgment-only messages. No fresh research or domain launch is part of this closeout.
