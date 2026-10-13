@@ -1,12 +1,10 @@
 # CATO — current continuity
 
-**Updated October 12, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; open only task-relevant entries in [TASK_INDEX](TASK_INDEX.md). Saved approvals are not commands to start unrelated work.
+**Updated October 13, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; open only task-relevant entries in [TASK_INDEX](TASK_INDEX.md). Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
-**Approved closeout changes implemented; orient and await Will.** Material findings and checks are now saved at each substantive task's stopping point. Closeout keeps this file compact and moves completed-case detail to the continuing report or on-demand index. [Implementation and verification limits](runs/2026-10-01_1152_startup-closeout-review.md#october-12--approved-task-boundary-saving-and-continuity-compaction). No new runner, recurring audit, peer-send authority or measured productivity claim. Root Git and conditional checks still apply.
-
-**Today's directed workflow discussion is complete.** [Evidence and recommendations](runs/2026-10-07_1500_fleet-work-sweep.md#october-12-afternoon--current-owners-and-directed-workflow-discussion) preserves WALTER, DEWEY, OZK and REGINALD advice; saved-data KRE/FHA arithmetic checks; FS5 wording recommendation and later-owner-work limits. No CATO sends, launches or owner edits. PROME records L694 accepted complete (EGBN PASS, energy WAIT); no repeat missing-energy-stage assignment. Further owner developments require changed-evidence review only when Will directs it.
+**Session closed; orient and await Will.** [October 13 record](runs/2026-10-07_1500_fleet-work-sweep.md#october-13--closeout-of-launch-guidance-and-research-discussions) preserves SHADE/YURI/MIDAS follow-up advice and its user-summary-only verification limits. PROME Astra and REGINALD Sol launch commands with automatic approval review were supplied; no launch or permission change was executed. Will prefers fewer permission interruptions. No CATO sends, owner edits or pilot collection; further review/setup requires direction. Earlier workflow findings remain in the same report; L694 already records accepted completion, not a missing energy assignment. [Approved closeout improvements](runs/2026-10-01_1152_startup-closeout-review.md#october-12--approved-task-boundary-saving-and-continuity-compaction) remain implemented.
 
 ## Surviving work and approvals
 
