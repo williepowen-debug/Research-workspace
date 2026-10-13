@@ -1,0 +1,77 @@
+{
+  "artifact": "workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+  "report": "reports/2026-10-12_workout-outcome-bridge.md",
+  "authority": "Will directly asked REGINALD on 2026-10-12 to perform the first bounded portion of the proposed cross-bank workout outcome bridge.",
+  "as_of": "2026-10-12",
+  "scope": "Twelve baseline/event rows for OZK, EGBN, VLY and WAL; no score, threshold, prediction, calendar, frozen-Q3-frame, trade or peer-file change.",
+  "local_inputs": [
+    {
+      "path": "reports/2026-10-12_regional-bank-policy-CRE-report-review.md",
+      "bytes": 12220,
+      "sha256": "f0f01dec102f4169b7812fb284bf0be81cffa388f0a9da99b5163673fe977c54",
+      "coverage": "FULL"
+    },
+    {
+      "path": "reports/2026-10-12_EGBN_cleanup_figure_verification.md",
+      "bytes": 9594,
+      "sha256": "6a3f68788797ba5b7c91e7e92d8243cc3924fba4961c635eff6ef96e07946663",
+      "coverage": "FULL"
+    },
+    {
+      "path": "reports/2026-09-27_VLY_CRE_transmission.md",
+      "bytes": 17497,
+      "sha256": "09758fb2938b4ea603bc13c9e0d04121626de4deaa32bd32cea41bd45061e4ed",
+      "coverage": "FULL"
+    },
+    {
+      "path": "../OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md",
+      "bytes": 12199,
+      "sha256": "1536407167e64fcf03626a1b3554943253c18b30c69d70935f66c4f167039527",
+      "coverage": "FULL owner report; underlying three-page issuer filing read in full by owner"
+    },
+    {
+      "path": "../OZK/research/threads/2026-10-12_CASH_RECOVERIES_AND_CURES.md",
+      "bytes": 8971,
+      "sha256": "ebd97bf9482839e6f04f547f0435c3186d613933ce874039fb4266d2c723a2ae",
+      "coverage": "FULL owner report; selective cited issuer pages"
+    },
+    {
+      "path": "../OZK/workbook/2026-10-12_CASH_RECOVERY_BASELINE.tsv",
+      "bytes": 5185,
+      "sha256": "3d86991c841ab3c3eb75f44a496eccad1aed9646cbc75f4b8c072dc7405e1f37",
+      "coverage": "FULL frozen owner handoff; read-only"
+    }
+  ],
+  "official_urls": [
+    {
+      "url": "https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/12019/attachment/1",
+      "issuer": "Bank OZK",
+      "document": "Form 8-K dated 2026-10-12",
+      "current_web_read": "UNAVAILABLE; consumed pinned full owner report and preserved-filing hash"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings.htm",
+      "issuer": "Eagle Bancorp",
+      "document": "Q2 2026 earnings deck",
+      "current_web_read": "OPENED 2026-10-12; decisive slide 16 roll-forwards reproduced"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/714310/000071431026000041/vly-20260630.htm",
+      "issuer": "Valley National Bancorp",
+      "document": "Q2 2026 Form 10-Q",
+      "current_web_read": "UNAVAILABLE; consumed pinned full desk report based on complete EDGAR filing"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026049001/pressrelease-6302026.htm",
+      "issuer": "Western Alliance Bancorporation",
+      "document": "Q2 2026 earnings release",
+      "current_web_read": "OPENED 2026-10-12; decisive classification table previously verified in report integration"
+    }
+  ],
+  "controls": {
+    "unknown_policy": "UNKNOWN is never imputed as zero.",
+    "basis_policy": "Principal, carrying value, property value, commitment and cash proceeds remain distinct.",
+    "aggregation_policy": "Overlap and cross-object rows are marked DO_NOT_SUM.",
+    "peer_policy": "Peer-owned files were read only and not modified."
+  }
+}

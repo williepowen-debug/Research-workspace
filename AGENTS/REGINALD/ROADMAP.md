@@ -75,7 +75,7 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
-**10/12 regional-bank policy/CRE report integrated:** `reports/2026-10-12_regional-bank-policy-CRE-report-review.md`; KB207–212. Full DOCX plus decisive primaries checked. Useful as a policy/application appendix to the existing Q3 reads; same-day RaDD and deeper VLY evidence prevent stale or denominator-only inference. No new thread, calendar date, score, cohort, frozen-frame or trade change.
+**10/12 regional-bank policy/CRE report + first workout bridge resolved:** `reports/2026-10-12_regional-bank-policy-CRE-report-review.md`; `reports/2026-10-12_workout-outcome-bridge.md`; `workbook/WORKOUT_OUTCOME_BRIDGE.tsv`; KB207–213. Full DOCX plus decisive primaries checked, then 12 OZK/EGBN/VLY/WAL rows encoded with basis/reconciliation/overlap guards. Existing Q3 reads fill unknowns; no new thread, calendar date, score, cohort, frozen-frame or trade change.
 
 **10/12 OZK handoff integrated:** `reports/2026-10-12_OZK_durability-consumption.md`; earlier deferral superseded. Funding/Boston/recovery evidence consumed; existing Q3 outcomes remain pending, no score/cohort change.
 
