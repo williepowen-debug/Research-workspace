@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October13 research priority — Will directs future research/trade planning after broker catch-up:** [decision-focused plan](reports/2026-10-13_research-and-next-trades.md). Banks: actual cash/loss/retained exposure at existing Q3 releases; energy: October14–15 delivered diesel/IEA additionality before reopening WAIT; insurer work conditional; pre-CPI spread remains PASSED. Completed L694 not restarted. No new owner launch or trade; existing tasks/guards remain.
+
 **October13 desktop boot / Git recovery:** [Recovery receipt](reports/2026-10-13_git-recovery-boot.json) records Will-approved rebase, preserved local work, boot checks and capability gaps. Original commits/cache backup is local at the receipt's path. Current receipts, source duties and management clocks below remain in force.
 
 **Will requested PROME closeout and will direct the other agents himself.** [Closeout record](reports/2026-10-13_laptop-closeout.md) owns checks, delivery limits and the next-owner slate. Reconcile later committed receipts before any new work; verify fresh session identity before routing, and never infer process exit from saved work.
