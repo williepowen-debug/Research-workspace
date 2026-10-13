@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-10-13T00:40:25.633084+00:00",
+  "PROME": {
+    "state": "CLOSED-VERIFIED for prior-version1272 source classification",
+    "artifact": "4dc982130:PROME/reports/2026-10-12_YURI-freshness-check.md",
+    "scope": "Prior a6d5233cd/b353c91ab consumed and correction adopted; does not establish consumption of this new follow-up."
+  },
+  "recipients": [
+    {
+      "path": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_energy-control-source-delta.md",
+      "packet_unchanged": true,
+      "present_in_original_inbox": true,
+      "consumption": "UNKNOWN"
+    },
+    {
+      "path": "AGENTS/OSPREY/inbox/2026-10-12_from-YURI_resolution1272-source-correction.md",
+      "packet_unchanged": true,
+      "present_in_original_inbox": true,
+      "consumption": "UNKNOWN"
+    }
+  ],
+  "receipt_paths_checked": [
+    "AGENTS/WALTER/registry/CORRECTIONS.tsv",
+    "AGENTS/WALTER/routed/delivery_log.tsv",
+    "AGENTS/WALTER/registry/DOORBELL_LOG.tsv",
+    "BOARD/",
+    "AGENTS/OSPREY/board_log.tsv",
+    "AGENTS/OSPREY/STATUS.md",
+    "AGENTS/OSPREY/NEXUS_BRIEF.md"
+  ],
+  "matched_receipt": "SEARCH-NOT-FOUND in inspected paths; no consumption inference",
+  "notification": "correction-notification.json"
+}

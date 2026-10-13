@@ -1,0 +1,70 @@
+{
+  "observed_at": "2026-10-13T00:40:25.585063+00:00",
+  "failures": [
+    {
+      "file": "aptar-sec-index.html",
+      "url": "https://investors.aptar.com/financials/sec-filings/default.aspx",
+      "http": "403 https://investors.aptar.com/financials/sec-filings/default.aspx",
+      "curl_exit": 0,
+      "error": "",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    },
+    {
+      "file": "tatneft-press.html",
+      "url": "https://www.tatneft.ru/press-center/press-releases",
+      "http": "000 https://www.tatneft.ru/press-center/press-releases",
+      "curl_exit": 28,
+      "error": "curl: (28) Failed to connect to www.tatneft.ru port 443 after 7002 ms: Timeout was reached\n",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    },
+    {
+      "file": "metro-ir-root.html",
+      "url": "https://investors.metroag.de/en/",
+      "http": "403 https://investors.metroag.de/en/",
+      "curl_exit": 0,
+      "error": "",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    },
+    {
+      "file": "spglobal-baseline.html",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/092926-russias-black-sea-diesel-exports-fall-to-zero-for-first-time-on-record",
+      "http": "403 https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/092926-russias-black-sea-diesel-exports-fall-to-zero-for-first-time-on-record",
+      "curl_exit": 0,
+      "error": "",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    },
+    {
+      "file": "spimex-products.html",
+      "url": "https://spimex.com/markets/oil_products/trades/results/",
+      "http": "000 https://spimex.com/markets/oil_products/trades/results/",
+      "curl_exit": 28,
+      "error": "curl: (28) Failed to connect to spimex.com port 443 after 7001 ms: Timeout was reached\n",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    },
+    {
+      "file": "tatneft-press-http.html",
+      "url": "http://www.tatneft.ru/press-center/press-releases",
+      "http": "000 http://www.tatneft.ru/press-center/press-releases",
+      "curl_exit": 28,
+      "error": "curl: (28) Failed to connect to www.tatneft.ru port 80 after 7002 ms: Timeout was reached\n",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    },
+    {
+      "file": "aptar-q2.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/896622/000089662226000168/atr-20260630.htm",
+      "http": "403 https://www.sec.gov/Archives/edgar/data/896622/000089662226000168/atr-20260630.htm",
+      "curl_exit": 0,
+      "error": "",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    },
+    {
+      "file": "aptar-news.html",
+      "url": "https://investors.aptar.com/news/default.aspx",
+      "http": "403 https://investors.aptar.com/news/default.aspx",
+      "curl_exit": 0,
+      "error": "",
+      "interpretation": "Own access failure; no publication/outcome absence certified."
+    }
+  ],
+  "requests_to_user": "None needed to finish this bounded public-source pass; no paid/authenticated source attempted."
+}

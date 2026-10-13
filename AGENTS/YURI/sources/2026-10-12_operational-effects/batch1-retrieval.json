@@ -1,0 +1,123 @@
+[
+  {
+    "file": "diesel954.html",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=954&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "started_at": "2026-10-13T00:23:49.569576+00:00",
+    "observed_at": "2026-10-13T00:23:51.106535+00:00",
+    "http": "200 http://publication.pravo.gov.ru/search/government?Name=954&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 29414,
+    "sha256": "1eaecdb9247fe35cd44b569109a3ad002f2d5e8e43a4f34f392269c4494af391"
+  },
+  {
+    "file": "diesel-products.html",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "started_at": "2026-10-13T00:23:49.570076+00:00",
+    "observed_at": "2026-10-13T00:23:50.539964+00:00",
+    "http": "200 http://publication.pravo.gov.ru/search/government?Name=%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 29509,
+    "sha256": "b48ca74028433382b73debc4ce2271acedd55e739f560e8b740cbd1493c9f83f"
+  },
+  {
+    "file": "diesel-authorities.html",
+    "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "started_at": "2026-10-13T00:23:49.570677+00:00",
+    "observed_at": "2026-10-13T00:23:50.655611+00:00",
+    "http": "200 http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 71548,
+    "sha256": "b6c7c14f7ff74003539d9d402321aaa258cb52d393e1d2e7ea2c40ba57f1154f"
+  },
+  {
+    "file": "goods686.html",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=686&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "started_at": "2026-10-13T00:23:49.572094+00:00",
+    "observed_at": "2026-10-13T00:23:50.654058+00:00",
+    "http": "200 http://publication.pravo.gov.ru/search/government?Name=686&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 29414,
+    "sha256": "590fe5ef337c5898b6d3e131f32be4c6c4d8a56daa8cde18eebc19b7f0cb6f54"
+  },
+  {
+    "file": "goods-tek.html",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BD%D0%BE-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "started_at": "2026-10-13T00:23:50.540099+00:00",
+    "observed_at": "2026-10-13T00:23:51.956765+00:00",
+    "http": "200 http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BD%D0%BE-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 29573,
+    "sha256": "06e64bdf11b1a36fec52bc154dcae813de1910a691bc19214d0c3a51049a0d35"
+  },
+  {
+    "file": "goods-ministry.html",
+    "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "started_at": "2026-10-13T00:23:50.654190+00:00",
+    "observed_at": "2026-10-13T00:23:52.671923+00:00",
+    "http": "200 http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 71591,
+    "sha256": "dce9519b70c12221a07ffe14a6999bcb0c2aae2caca8247f11f383af4ae64aa2"
+  },
+  {
+    "file": "gov-diesel-body.html",
+    "url": "http://government.ru/news/60156/",
+    "started_at": "2026-10-13T00:23:50.655750+00:00",
+    "observed_at": "2026-10-13T00:23:52.737040+00:00",
+    "http": "200 http://government.ru/news/60156/",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 95394,
+    "sha256": "cbf41cb0b17f5928dc33cdaae9f8711c112dd26598d1cfaed6121ec39e0d255a"
+  },
+  {
+    "file": "sec-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0000896622.json",
+    "started_at": "2026-10-13T00:23:51.106690+00:00",
+    "observed_at": "2026-10-13T00:23:51.499209+00:00",
+    "http": "200 https://data.sec.gov/submissions/CIK0000896622.json",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 170756,
+    "sha256": "45e684be13aea6ad040b003c177e427d21bfd25e2abe24fd0f8d44c5ea4f7eed"
+  },
+  {
+    "file": "aptar-sec-index.html",
+    "url": "https://investors.aptar.com/financials/sec-filings/default.aspx",
+    "started_at": "2026-10-13T00:23:51.499550+00:00",
+    "observed_at": "2026-10-13T00:23:51.701162+00:00",
+    "http": "403 https://investors.aptar.com/financials/sec-filings/default.aspx",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 5504,
+    "sha256": "d58d20ace20c711d4f6af02fc1f8f50c4efbd21555cd1c6cd86be4d7c0842319"
+  },
+  {
+    "file": "tatneft-press.html",
+    "url": "https://www.tatneft.ru/press-center/press-releases",
+    "started_at": "2026-10-13T00:23:51.701271+00:00",
+    "observed_at": "2026-10-13T00:23:58.714027+00:00",
+    "http": "000 https://www.tatneft.ru/press-center/press-releases",
+    "curl_exit": 28,
+    "error": "curl: (28) Failed to connect to www.tatneft.ru port 443 after 7002 ms: Timeout was reached\n",
+    "bytes": 0,
+    "sha256": null
+  },
+  {
+    "file": "metro-ir-root.html",
+    "url": "https://investors.metroag.de/en/",
+    "started_at": "2026-10-13T00:23:51.956955+00:00",
+    "observed_at": "2026-10-13T00:23:52.296392+00:00",
+    "http": "403 https://investors.metroag.de/en/",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 379,
+    "sha256": "37aa766fc65e1c0f6af3467a8ea622076bb19173bbfdfebb70bcb37c12f2a763"
+  }
+]

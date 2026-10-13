@@ -1,0 +1,38 @@
+{
+  "batch": "batch2",
+  "requests": [
+    {
+      "file": "minenergo-diesel-docs.json",
+      "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13"
+    },
+    {
+      "file": "minenergo-codes-docs.json",
+      "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13"
+    },
+    {
+      "file": "minenergo-restriction-docs.json",
+      "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=686&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13"
+    },
+    {
+      "file": "spglobal-baseline.html",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/092926-russias-black-sea-diesel-exports-fall-to-zero-for-first-time-on-record"
+    },
+    {
+      "file": "spimex-products.html",
+      "url": "https://spimex.com/markets/oil_products/trades/results/"
+    },
+    {
+      "file": "tatneft-press-http.html",
+      "url": "http://www.tatneft.ru/press-center/press-releases"
+    },
+    {
+      "file": "aptar-q2.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/896622/000089662226000168/atr-20260630.htm"
+    },
+    {
+      "file": "aptar-news.html",
+      "url": "https://investors.aptar.com/news/default.aspx"
+    }
+  ],
+  "scope": "Final official missing-instrument fallback and bounded publisher/issuer checks; prior issuer event body and legal PDFs reused."
+}

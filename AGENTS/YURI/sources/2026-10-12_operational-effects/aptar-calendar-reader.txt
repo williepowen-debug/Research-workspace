@@ -1,0 +1,10 @@
+{
+  "source": "AptarGroup issuer calendar",
+  "url": "https://investors.aptar.com/news/news-details/2026/Aptar-Announces-2026-Quarterly-Conference-Call-Dates/default.aspx",
+  "published": "2026-01-07",
+  "observed": "2026-10-12 ET",
+  "q3_2026_results": "2026-10-29 after NYSE close",
+  "conference_call": "2026-10-30 08:00 CT",
+  "limits": "Announced schedule can be changed by later issuer release; no later amendment located on searched routes. Schedule is not a current-loss measurement or new fleet obligation.",
+  "reader_representation_sha256": "28ff44a7c8154079561de1b6cecb197b40f44579baf07f21750d21fa1e8d233b"
+}

@@ -1,0 +1,31 @@
+{
+  "observed": "2026-10-12 ET",
+  "sources": [
+    {
+      "url": "https://newsroom.metroag.de/en/downloads",
+      "result": "Client download listing exposed no populated records; cannot certify no financial report"
+    },
+    {
+      "url": "https://newsroom.metroag.de/en/events",
+      "result": "Client calendar listing unpopulated; no verified METRO next-results date"
+    },
+    {
+      "url": "https://newsroom.metroag.de/en/news",
+      "result": "Client archive listing unpopulated; no issuer-wide absence finding"
+    },
+    {
+      "url": "https://spimex.com/markets/oil_products/trades/results/",
+      "result": "Web reader timeout, curl timeout; not observed cessation"
+    },
+    {
+      "url": "https://spimex.com/markets/oil_products/",
+      "result": "Web reader inaccessible"
+    },
+    {
+      "url": "https://www.tatneft.ru/press-center/press-releases",
+      "result": "Web reader inaccessible; HTTP/HTTPS shell connection failures"
+    }
+  ],
+  "limits": "Source access/renderer observations only. No publisher schedule breach, blackout or operational event established.",
+  "reader_representation_sha256": "eed2f8d13c922c6db545d3c5454224f7ee9fa2be4e9ade43fda15d45b9a95221"
+}

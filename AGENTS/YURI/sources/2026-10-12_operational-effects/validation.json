@@ -1,0 +1,52 @@
+{
+  "observed_at": "2026-10-13T00:41:45.043930+00:00",
+  "checks": [
+    {
+      "check": "batch1-retrieval.json response hashes",
+      "result": "PASS",
+      "records": 11
+    },
+    {
+      "check": "batch2-retrieval.json response hashes",
+      "result": "PASS",
+      "records": 8
+    },
+    {
+      "check": "SEC indexed latest filing21Sep and latest quarter30Jun filed31Jul; scoped to returned official submissions",
+      "result": "PASS"
+    },
+    {
+      "check": "Nine explicit official empty-query records; partial legal perimeter",
+      "result": "PASS"
+    },
+    {
+      "check": "AGENTS/YURI/workbook/INTENT_LEDGER.tsv byte-unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "AGENTS/YURI/research/2026-10-02_L434_YUR-003_GRADE.md byte-unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_energy-control-source-delta.md byte-unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "AGENTS/OSPREY/inbox/2026-10-12_from-YURI_resolution1272-source-correction.md byte-unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "13 saved legal pages rechecked; zero additional registry-history pages read",
+      "result": "PASS",
+      "basis": "Manual read attestation; no independent reading verification"
+    },
+    {
+      "check": "Live state retains correction/F01 and below rotation trigger; no registered clock change",
+      "result": "PASS"
+    },
+    {
+      "check": "Report distinguishes legal/issuer/observed/inference, matched-window supplementation and unknown outcomes",
+      "result": "PASS"
+    }
+  ]
+}

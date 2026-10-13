@@ -1,0 +1,90 @@
+[
+  {
+    "file": "minenergo-diesel-docs.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13",
+    "started_at": "2026-10-13T00:25:58.031564+00:00",
+    "observed_at": "2026-10-13T00:25:59.386719+00:00",
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 32,
+    "sha256": "7f277e16377526da9c3d5a39aca0b4c1cfda30697df2239c8d8201e67bc1a36f"
+  },
+  {
+    "file": "minenergo-codes-docs.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13",
+    "started_at": "2026-10-13T00:25:58.032415+00:00",
+    "observed_at": "2026-10-13T00:25:59.424417+00:00",
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 32,
+    "sha256": "7f277e16377526da9c3d5a39aca0b4c1cfda30697df2239c8d8201e67bc1a36f"
+  },
+  {
+    "file": "minenergo-restriction-docs.json",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=686&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13",
+    "started_at": "2026-10-13T00:25:58.033172+00:00",
+    "observed_at": "2026-10-13T00:25:59.645736+00:00",
+    "http": "200 https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=686&model=DOCS&dateFrom=2026-09-28&dateTo=2026-10-13",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 32,
+    "sha256": "7f277e16377526da9c3d5a39aca0b4c1cfda30697df2239c8d8201e67bc1a36f"
+  },
+  {
+    "file": "spglobal-baseline.html",
+    "url": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/092926-russias-black-sea-diesel-exports-fall-to-zero-for-first-time-on-record",
+    "started_at": "2026-10-13T00:25:58.034665+00:00",
+    "observed_at": "2026-10-13T00:25:58.222201+00:00",
+    "http": "403 https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/092926-russias-black-sea-diesel-exports-fall-to-zero-for-first-time-on-record",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 580,
+    "sha256": "ff53adb4477cac5d868ed587d07addaf130005e3a1b3fcbd50ffba9504df91c4"
+  },
+  {
+    "file": "spimex-products.html",
+    "url": "https://spimex.com/markets/oil_products/trades/results/",
+    "started_at": "2026-10-13T00:25:58.222305+00:00",
+    "observed_at": "2026-10-13T00:26:05.234537+00:00",
+    "http": "000 https://spimex.com/markets/oil_products/trades/results/",
+    "curl_exit": 28,
+    "error": "curl: (28) Failed to connect to spimex.com port 443 after 7001 ms: Timeout was reached\n",
+    "bytes": 0,
+    "sha256": null
+  },
+  {
+    "file": "tatneft-press-http.html",
+    "url": "http://www.tatneft.ru/press-center/press-releases",
+    "started_at": "2026-10-13T00:25:59.386899+00:00",
+    "observed_at": "2026-10-13T00:26:06.409437+00:00",
+    "http": "000 http://www.tatneft.ru/press-center/press-releases",
+    "curl_exit": 28,
+    "error": "curl: (28) Failed to connect to www.tatneft.ru port 80 after 7002 ms: Timeout was reached\n",
+    "bytes": 0,
+    "sha256": null
+  },
+  {
+    "file": "aptar-q2.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/896622/000089662226000168/atr-20260630.htm",
+    "started_at": "2026-10-13T00:25:59.424551+00:00",
+    "observed_at": "2026-10-13T00:25:59.685783+00:00",
+    "http": "403 https://www.sec.gov/Archives/edgar/data/896622/000089662226000168/atr-20260630.htm",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 4818,
+    "sha256": "3232f9bbe5cb7c658e37e52320965611f58ba9606ad3d71fba9ca7b26fb55cfe"
+  },
+  {
+    "file": "aptar-news.html",
+    "url": "https://investors.aptar.com/news/default.aspx",
+    "started_at": "2026-10-13T00:25:59.645881+00:00",
+    "observed_at": "2026-10-13T00:25:59.806678+00:00",
+    "http": "403 https://investors.aptar.com/news/default.aspx",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 5428,
+    "sha256": "faa68bb58162038d8735a3593650ad12045334b6819817d2fc872ff7426be2be"
+  }
+]

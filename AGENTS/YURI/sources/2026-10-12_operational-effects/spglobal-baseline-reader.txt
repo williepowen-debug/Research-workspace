@@ -1,0 +1,16 @@
+{
+  "source": "S&P Global Energy, Commodities at Sea provider article",
+  "url": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/092926-russias-black-sea-diesel-exports-fall-to-zero-for-first-time-on-record",
+  "published": "2026-09-29",
+  "access": "Successful public web reader; direct curl403 archived separately",
+  "measurement": "Russian seaborne diesel/gasoil gross loadings",
+  "reference": "Week ending2026-09-24",
+  "quantity_metric_tonnes": 81000,
+  "load_port": "Primorsk",
+  "indicated_destinations": [
+    "Morocco",
+    "Venezuela"
+  ],
+  "limits": "Provider measurement/estimate, not discharge/customs confirmation. Reference period precedes decree and October permission; not a current counterfactual. Public article cadence unverified.",
+  "reader_representation_sha256": "f8e34c18eb21bf6c5057366bcc1ae6f09bd6dced31b56952bbea5795409562da"
+}

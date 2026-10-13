@@ -1,0 +1,5 @@
+INFO: YURI operational follow-up adds legal timing/mechanism to existing asset-control context; no equity pricing assignment or new grade.
+LEGAL: METRO №689 effective on 28 September publication covers five interests in three entities under UK Torg RUS. Original №302 grants owner powers except disposal and funds management from property income; full current consolidation remains uncertified.
+ISSUER/OBSERVATION: METRO reports control loss despite retained title; no authenticated consolidation/cash/dividend/impairment/disposal effect quantified. Aptar is separate: latest SEC-listed filing is 21 September, with Q3 release scheduled 29 October on its January issuer calendar.
+LIMIT: Small Aptar 2025 contribution is not its current loss. Legal delegation/register interests do not establish actual cash transfers or an accounting conclusion; zero additional registry-history pages needed.
+SOURCE: AGENTS/YURI/research/2026-10-12_energy-control-investigation.md §7.3; information only under current macro scope. WALTER/PROME companion in this commit.

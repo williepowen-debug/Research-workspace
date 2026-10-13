@@ -1,0 +1,61 @@
+{
+  "observed_at": "2026-10-13T00:40:25.626560+00:00",
+  "documents": [
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-base302.pdf",
+      "sha256": "ffe4498c1c4d2fc3ded248750f7c83b6d0d295dd08f7138d7c30eb0e43f2aaba",
+      "new_registry_history_read": false
+    },
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-674.pdf",
+      "sha256": "3a5b45eba3ff7a560305cfee21a841ad823d827dd21718e04b07b2e9290ffd10",
+      "new_registry_history_read": false
+    },
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-689.pdf",
+      "sha256": "4305b9baea8ead83838aa6b8ce6a78ec1318ea25cf374374668b08937c04df51",
+      "new_registry_history_read": false
+    },
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/decree-686.pdf",
+      "sha256": "378a8839c86910f864fbb1b78a7805d9e2017c48c273fb7dc8d5ea363fbea0b7",
+      "new_registry_history_read": false
+    },
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12_investigation/egrul-aptar-extract.pdf",
+      "sha256": "3b4abcad470fe399b7c7c6138dac538ec5b6cee9bb2fe45cb86f43ae63174da6",
+      "new_registry_history_read": false
+    },
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12_investigation/egrul-metro-extract.pdf",
+      "sha256": "add3dcc229cdf234486211055ef968f0f30b803699eb0e7e913816a4feb24bd2",
+      "new_registry_history_read": false
+    }
+  ],
+  "legal_pages_reinspected": {
+    "base302": [
+      1,
+      2,
+      3
+    ],
+    "act674": [
+      1,
+      2
+    ],
+    "act689": [
+      1,
+      2,
+      3
+    ],
+    "decree686": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "total_saved_legal_pages_reinspected": 13,
+  "additional_registry_history_pages_read": 0,
+  "source_date": "FNS source date13Oct02:45Moscow retained; observations recorded12OctET."
+}

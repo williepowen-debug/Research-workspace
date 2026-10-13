@@ -1,0 +1,51 @@
+{
+  "observed_at": "2026-10-13T00:32:27.172993+00:00",
+  "routes": [
+    {
+      "source": "diesel954.html",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Signing-date/title query only; generic/non-public/delayed decisions remain outside."
+    },
+    {
+      "source": "diesel-products.html",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Signing-date/title query only; generic/non-public/delayed decisions remain outside."
+    },
+    {
+      "source": "diesel-authorities.html",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Signing-date/title query only; generic/non-public/delayed decisions remain outside."
+    },
+    {
+      "source": "goods686.html",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Signing-date/title query only; generic/non-public/delayed decisions remain outside."
+    },
+    {
+      "source": "goods-tek.html",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Signing-date/title query only; generic/non-public/delayed decisions remain outside."
+    },
+    {
+      "source": "goods-ministry.html",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Signing-date/title query only; generic/non-public/delayed decisions remain outside."
+    },
+    {
+      "source": "minenergo-codes-docs.json",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Public ministry DOCS index query."
+    },
+    {
+      "source": "minenergo-diesel-docs.json",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Public ministry DOCS index query."
+    },
+    {
+      "source": "minenergo-restriction-docs.json",
+      "result": "SEARCH-NOT-FOUND",
+      "perimeter": "Public ministry DOCS index query."
+    }
+  ],
+  "stop": "Nine named official title/index queries yielded no signed-document lead; no blind body sweep."
+}

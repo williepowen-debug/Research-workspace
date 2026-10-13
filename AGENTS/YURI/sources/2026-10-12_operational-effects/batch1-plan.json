@@ -1,0 +1,51 @@
+{
+  "batch": "batch1",
+  "authorization": "Will bounded operational-effects follow-up; no blanket registry read, no paid access/outreach/launch/policy change.",
+  "perimeter": "Signing dates include 13 October Moscow, current observation 12 October ET; title searches only; no future-date publication claim.",
+  "requests": [
+    {
+      "file": "diesel954.html",
+      "url": "http://publication.pravo.gov.ru/search/government?Name=954&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30"
+    },
+    {
+      "file": "diesel-products.html",
+      "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30"
+    },
+    {
+      "file": "diesel-authorities.html",
+      "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=30"
+    },
+    {
+      "file": "goods686.html",
+      "url": "http://publication.pravo.gov.ru/search/government?Name=686&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30"
+    },
+    {
+      "file": "goods-tek.html",
+      "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BD%D0%BE-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30"
+    },
+    {
+      "file": "goods-ministry.html",
+      "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=13.10.2026&pageSize=30"
+    },
+    {
+      "file": "gov-diesel-body.html",
+      "url": "http://government.ru/news/60156/"
+    },
+    {
+      "file": "sec-submissions.json",
+      "url": "https://data.sec.gov/submissions/CIK0000896622.json"
+    },
+    {
+      "file": "aptar-sec-index.html",
+      "url": "https://investors.aptar.com/financials/sec-filings/default.aspx"
+    },
+    {
+      "file": "tatneft-press.html",
+      "url": "https://www.tatneft.ru/press-center/press-releases"
+    },
+    {
+      "file": "metro-ir-root.html",
+      "url": "https://investors.metroag.de/en/"
+    }
+  ]
+}
