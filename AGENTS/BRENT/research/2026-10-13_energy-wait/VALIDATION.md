@@ -22,3 +22,5 @@ Late checks: DEWEYOctober13 received report hash matches pointer5be08366; govern
 ## Local persistence receipt
 
 Owned research/state and self-authored PROME inbox memo committed at **e40ea12fb**. Commit records8renames with both paths;11intake receipts exist, late3archive moves await sender publication. Foreign staged/dirty content excluded. Recipient consumption/native notification unverified. Guarded push pending; no bare local-commit publication claim.
+
+Sender persistence subsequently verified for DEWEYOctober13pointer; ninth archive move completed. Remaining2WALTERpointers were untracked at final receipt check and are deliberately retained in place to avoid racing sender publication; consumed/receipt rows already exist. No duplicate intake needed next boot: archive after sender commit. Main research/source receipt and STATUSpin e40ea12fb remain.

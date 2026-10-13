@@ -32,7 +32,7 @@
 - WQ192 and terminal VLOextra-share stand-down unchanged. No buy/switch/roll/sizing/order recommendation. TERRYconstructs/grades, Willexecutes.
 
 ## MAIL STATE
-- Eleven consumed new packets have board-log rows; original8archived, late3await sender persistence/moves at VALIDATION. No new study or peer acknowledgment requested.
+- Eleven consumed new packets have board-log rows; 9archived, late2WALTERpointers await sender persistence/moves at VALIDATION. No new study or peer acknowledgment requested.
 - Dated completion packet and publication status at VALIDATION; durable delivery is separate from PROMEconsumption. No verified native fleet transport in this runtime.
 
 ## WORKBOOK HEALTH
