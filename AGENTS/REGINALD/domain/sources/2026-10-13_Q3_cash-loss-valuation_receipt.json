@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-13",
+  "authority": "Direct Will: resume existing bank research",
+  "basis": "Q2/June30 baseline; unit sensitivity only; no EPS/price/loss forecast",
+  "inputs_and_calculations": {
+    "EGBN": {
+      "ppnr_q2_m": 29.081,
+      "tce_m": 1150.506,
+      "ending_shares_m": 30.490409,
+      "reported_tbv": 37.73,
+      "boot_quote": 28.19,
+      "quote_over_june_reported_tbv": 0.7471508083752982,
+      "sensitivities": [
+        {
+          "additional_pretax_expense_m": 25.0,
+          "assumed_realizable_tax_rate": 0.0,
+          "aftertax_tce_reduction_m": 25.0,
+          "tbv_per_share_reduction": 0.8199299655180093,
+          "tce_pct_reduction": 2.1729569424235944,
+          "expense_over_q2_ppnr_pct": 85.96678243526702
+        },
+        {
+          "additional_pretax_expense_m": 25.0,
+          "assumed_realizable_tax_rate": 0.25,
+          "aftertax_tce_reduction_m": 18.75,
+          "tbv_per_share_reduction": 0.6149474741385069,
+          "tce_pct_reduction": 1.6297177068176958,
+          "expense_over_q2_ppnr_pct": 85.96678243526702
+        },
+        {
+          "additional_pretax_expense_m": 100.0,
+          "assumed_realizable_tax_rate": 0.0,
+          "aftertax_tce_reduction_m": 100.0,
+          "tbv_per_share_reduction": 3.2797198620720374,
+          "tce_pct_reduction": 8.691827769694378,
+          "expense_over_q2_ppnr_pct": 343.8671297410681
+        },
+        {
+          "additional_pretax_expense_m": 100.0,
+          "assumed_realizable_tax_rate": 0.25,
+          "aftertax_tce_reduction_m": 75.0,
+          "tbv_per_share_reduction": 2.4597898965540277,
+          "tce_pct_reduction": 6.518870827270783,
+          "expense_over_q2_ppnr_pct": 343.8671297410681
+        }
+      ]
+    },
+    "OZK": {
+      "ppnr_q2_m": 259.373,
+      "tce_m": 5278.299,
+      "ending_shares_m": 109.04,
+      "reported_tbv": 48.41,
+      "boot_quote": 45.08,
+      "quote_over_june_reported_tbv": 0.9312125593885561,
+      "sensitivities": [
+        {
+          "additional_pretax_expense_m": 25.0,
+          "assumed_realizable_tax_rate": 0.0,
+          "aftertax_tce_reduction_m": 25.0,
+          "tbv_per_share_reduction": 0.2292736610418195,
+          "tce_pct_reduction": 0.4736374350903577,
+          "expense_over_q2_ppnr_pct": 9.638628538822468
+        },
+        {
+          "additional_pretax_expense_m": 25.0,
+          "assumed_realizable_tax_rate": 0.25,
+          "aftertax_tce_reduction_m": 18.75,
+          "tbv_per_share_reduction": 0.17195524578136462,
+          "tce_pct_reduction": 0.35522807631776826,
+          "expense_over_q2_ppnr_pct": 9.638628538822468
+        },
+        {
+          "additional_pretax_expense_m": 100.0,
+          "assumed_realizable_tax_rate": 0.0,
+          "aftertax_tce_reduction_m": 100.0,
+          "tbv_per_share_reduction": 0.917094644167278,
+          "tce_pct_reduction": 1.8945497403614309,
+          "expense_over_q2_ppnr_pct": 38.55451415528987
+        },
+        {
+          "additional_pretax_expense_m": 100.0,
+          "assumed_realizable_tax_rate": 0.25,
+          "aftertax_tce_reduction_m": 75.0,
+          "tbv_per_share_reduction": 0.6878209831254585,
+          "tce_pct_reduction": 1.420912305271073,
+          "expense_over_q2_ppnr_pct": 38.55451415528987
+        }
+      ]
+    }
+  },
+  "reused_sources": [
+    {
+      "path": "domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_release.txt",
+      "sha256": "247d6a41ec5a7a96005ba742d3308d3673b8cf08e64b2ee11c2ab4e5ef3af67c",
+      "read_scope": "decisive financial tables or existing bridge/baseline"
+    },
+    {
+      "path": "../OZK/sources/2026-10-12_L690/Q2_2026_8K_bundle_PRIMARY_TEXT.txt",
+      "sha256": "eb76571627b8463b7d3aff903cf21082f5339f89bb92318a702c2a2cccf30bf2",
+      "read_scope": "decisive financial tables or existing bridge/baseline"
+    },
+    {
+      "path": "workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+      "sha256": "6156230140d46b4b28705f95bbec32c87dfddb22093641268ebca117c8c02c8e",
+      "read_scope": "decisive financial tables or existing bridge/baseline"
+    },
+    {
+      "path": "../OZK/workbook/2026-10-12_CASH_RECOVERY_BASELINE.tsv",
+      "sha256": "3d86991c841ab3c3eb75f44a496eccad1aed9646cbc75f4b8c072dc7405e1f37",
+      "read_scope": "decisive financial tables or existing bridge/baseline"
+    }
+  ],
+  "nano_page": {
+    "url": "https://www.fdic.gov/bank-failures/failed-bank-list/nano-banc",
+    "status": 200,
+    "retrieved_date": "2026-10-13",
+    "sha256_html": "9cff1bed75be4fac02cb61ed6964cd68017422784a4dd0d1b4c2b58dad61977f",
+    "transaction_excerpt": "Transaction Documentation Bid Summary Report on the bids to purchase the failed bank Brokered Accounts Substantially all deposit accounts have been transferred to Sunwest Bank. If you are a customer who has a Nano Banc deposit through a broker, you\u00a0must\u00a0contact your broker with any questions. Deposit Broker's Processing Guide Back to the Top Banking Services Automatic Payments/Bill Pay/Online Bank",
+    "relevant_links": [
+      {
+        "label": "Bid Summary",
+        "href": "/bank-failures/bid-summary-nano-banc-irvine-ca"
+      }
+    ],
+    "limitation": "No P&A link on inspected page; unlisted agreement not excluded"
+  },
+  "issuer_notices": [
+    {
+      "bank": "WAL",
+      "url": "https://investors.westernalliancebancorporation.com/News-and-Presentations/news/news-details/2026/Western-Alliance-Bancorporation-Announces-Third-Quarter-2026-Earnings-Release-Date-Conference-Call-and-Webcast/default.aspx",
+      "release": "2026-10-19 AMC",
+      "call": "2026-10-20 12:00 ET"
+    },
+    {
+      "bank": "OZK",
+      "url": "https://ir.ozk.com/node/17536/pdf",
+      "release": "2026-10-20 AMC",
+      "call": "2026-10-21 08:30 ET"
+    },
+    {
+      "bank": "EGBN",
+      "url": "https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/default.aspx",
+      "release": "2026-10-21 AMC",
+      "call": "2026-10-22 10:00 ET"
+    },
+    {
+      "bank": "VLY",
+      "url": "https://www.globenewswire.com/news-release/2026/10/07/3376835/0/en/valley-national-bancorp-to-announce-third-quarter-2026-earnings.html",
+      "release": "2026-10-22 BMO",
+      "call": "2026-10-22 08:30 ET",
+      "calendar_previous": "08:30 ET",
+      "change": "Source recheck only; prior date/time already correct"
+    }
+  ],
+  "quote_basis": "market.py vendor regular-market reads; collected approximately 19:07 ET; exact quote timestamp not printed; not settled grades",
+  "consensus": "Current four-bank consensus UNKNOWN; WAL Sept28 owner snapshot is historical",
+  "fred_tiers": {
+    "BAMLH0A0HYM2": {
+      "series": "BAMLH0A0HYM2",
+      "label": "HY OAS",
+      "observations": [
+        {
+          "date": "2026-10-12",
+          "value": "3.11"
+        },
+        {
+          "date": "2026-10-09",
+          "value": "3.11"
+        },
+        {
+          "date": "2026-10-08",
+          "value": "3.15"
+        },
+        {
+          "date": "2026-10-07",
+          "value": "3.09"
+        },
+        {
+          "date": "2026-10-06",
+          "value": "3.03"
+        }
+      ]
+    },
+    "BAMLH0A3HYC": {
+      "series": "BAMLH0A3HYC",
+      "label": "BAMLH0A3HYC",
+      "observations": [
+        {
+          "date": "2026-10-12",
+          "value": "12.53"
+        },
+        {
+          "date": "2026-10-09",
+          "value": "12.53"
+        },
+        {
+          "date": "2026-10-08",
+          "value": "12.52"
+        },
+        {
+          "date": "2026-10-07",
+          "value": "12.29"
+        },
+        {
+          "date": "2026-10-06",
+          "value": "12.14"
+        }
+      ]
+    },
+    "BAMLH0A2HYB": {
+      "series": "BAMLH0A2HYB",
+      "label": "BAMLH0A2HYB",
+      "observations": [
+        {
+          "date": "2026-10-12",
+          "value": "3.1"
+        },
+        {
+          "date": "2026-10-09",
+          "value": "3.1"
+        },
+        {
+          "date": "2026-10-08",
+          "value": "3.15"
+        },
+        {
+          "date": "2026-10-07",
+          "value": "3.08"
+        },
+        {
+          "date": "2026-10-06",
+          "value": "3.02"
+        }
+      ]
+    },
+    "BAMLH0A1HYBB": {
+      "series": "BAMLH0A1HYBB",
+      "label": "BAMLH0A1HYBB",
+      "observations": [
+        {
+          "date": "2026-10-12",
+          "value": "1.88"
+        },
+        {
+          "date": "2026-10-09",
+          "value": "1.88"
+        },
+        {
+          "date": "2026-10-08",
+          "value": "1.94"
+        },
+        {
+          "date": "2026-10-07",
+          "value": "1.89"
+        },
+        {
+          "date": "2026-10-06",
+          "value": "1.85"
+        }
+      ]
+    }
+  },
+  "fred_read_date": "2026-10-13",
+  "fred_observation_date": "2026-10-12",
+  "fred_ratio": 4.028938906752412,
+  "wfc_primary_fetches": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+      "http_status": 200,
+      "sha256": "ed061be23a2390614d9a0c2c2eae50b8a1c64e7efecc39eecc8078a28aa76206",
+      "read_scope": "selective release allowance explanation and supplement commercial-portfolio/footnote3"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex992xsuppl.htm",
+      "http_status": 200,
+      "sha256": "a27805efc5db3d059dfb36108426c04a542cb7f23931d8b4c5f8c6bbd0ec8faf",
+      "read_scope": "selective release allowance explanation and supplement commercial-portfolio/footnote3"
+    }
+  ],
+  "secondary_surfaces": {
+    "POSITIONS": "SKIPPED: no broker data, position action or construction; existing caveats retained",
+    "DECK_EVIDENCE": "SKIPPED: no thesis/gate/score change; pointers retain vintage",
+    "SCRATCH": "SKIPPED: no new scratch material; research and next step saved to canonical report/MEMORY",
+    "SHORT_VOL": "Mandatory boot appended6 rows despite FROZEN banner; removed only this run's6 rows after exact diff check; no thaw or script expansion",
+    "NEXUS": "refresh after final STATUS persistence"
+  }
+}
