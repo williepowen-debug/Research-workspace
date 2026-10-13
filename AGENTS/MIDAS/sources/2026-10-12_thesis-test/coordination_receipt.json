@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-13T03:36:53.817085+00:00",
+  "owner_thread": "01a131e1-82c3-7702-beae-4992d53e8fd5",
+  "return_thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "message_id": "01a13355-1cc7-7553-9fbe-17ed7f994ff9",
+  "transport": "supported codex queue --thread --message",
+  "packet_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+  "result_commit": "672938dec25728315cb9934235444de019a42ad1",
+  "notification": "ACCEPTED",
+  "consumption": "UNKNOWN at receipt; no recipient read claimed",
+  "lifecycle": "existing Will-owned window remains open; no closeout/launch",
+  "sync": "DEFERRED for foreign TERRY untracked work"
+}
