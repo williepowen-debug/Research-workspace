@@ -1,0 +1,72 @@
+{
+  "observed_at": "2026-10-13T01:15:24.957925+00:00",
+  "receipt_commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
+  "receipt_authored_at": "2026-10-13T01:01:45Z",
+  "receipt_path": "AGENTS/YURI/inbox/WALTER/2026-10-12_source-qualification-consumption-NOTE.md",
+  "receipt_filed_path": "AGENTS/YURI/inbox/WALTER/processed/2026-10-12_source-qualification-consumption-NOTE.md",
+  "owner_proof_path": "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/owner-intake-proof.json",
+  "owner_proof_sha256": "ad6a19d61ac68f846442d12edfd5a0d8b58df0167f5030faf73336a40abe4b32",
+  "WALTER": {
+    "consumption": "VERIFIED at committed owner artifact",
+    "classification_adopted": "Government Resolution1272: space-activity licensing",
+    "disposition": "scoped NO-OP on inspected BOARD and WALTER STATUS/LAST_COMPLETION/MEMORY live claims",
+    "scope_limits": "No certification of every historical archive or another recipient; no supplied COR-ID, invented correction row, new research, grade, watch, owner commission or lifecycle action"
+  },
+  "OSPREY": {
+    "consumption": "UNKNOWN separately",
+    "reason": "This WALTER receipt expressly excludes OSPREY adoption; no new OSPREY receipt is supplied by this coordination update."
+  },
+  "WALTER_filed_YURI_packets": [
+    {
+      "author_commit": "18637dc57c2e7bd0e65aea5a3cbc224adbeba8fd",
+      "original_path": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_source-body-detail.md",
+      "processed_path": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261012_source-body-detail.md",
+      "sha256": "78ae20827c336c2af82bc60bfe384eed0cb971cf79611bcb19721441ddf929b0",
+      "exact_bytes_conserved": true,
+      "owner_declared_read_scope": "Whole packet and whole named author report; qualifications integrated before external intake interpretation"
+    },
+    {
+      "author_commit": "a6d5233cde7b99698742fd204cee7d5eb5a96821",
+      "original_path": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_energy-control-source-delta.md",
+      "processed_path": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261012_energy-control-source-delta.md",
+      "sha256": "288badb3a64064d615054dc2ce3890b431af9b4f2c370ccc1e21088624bc3f54",
+      "exact_bytes_conserved": true,
+      "owner_declared_read_scope": "Whole packet and whole named author report; qualifications integrated before external intake interpretation"
+    },
+    {
+      "author_commit": "899d6b26d4e936c19135babf842ce76d683f1886",
+      "original_path": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_operational-effects-boundaries.md",
+      "processed_path": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261012_operational-effects-boundaries.md",
+      "sha256": "3f54a005fa36806175945058d35f7cb64ea95383f84b2b5837249badacf291c2",
+      "exact_bytes_conserved": true,
+      "owner_declared_read_scope": "Whole packet and all specifically addressed report §7, recovering truncated middle"
+    }
+  ],
+  "YURI_filed_incoming_packets": [
+    {
+      "author_commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
+      "original_path": "AGENTS/YURI/inbox/WALTER/2026-10-12_source-qualification-consumption-NOTE.md",
+      "filed_path": "AGENTS/YURI/inbox/WALTER/processed/2026-10-12_source-qualification-consumption-NOTE.md",
+      "sha256": "1d1a476027450826cdb91832ef8e0d9318e3ce9ce432ba1da92612057db76182",
+      "exact_bytes_conserved": true,
+      "disposition": "source-adoption receipt"
+    },
+    {
+      "author_commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
+      "original_path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-032.md",
+      "filed_path": "AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261012-032.md",
+      "sha256": "7f5887a04b5e23225013a461cb67cec62683c46f96d2026ad36be204c35ed3cd",
+      "exact_bytes_conserved": true,
+      "disposition": "INFO/context only; no Russian state decision, verified diesel increment or new grade adopted"
+    },
+    {
+      "author_commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
+      "original_path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-043.md",
+      "filed_path": "AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261012-043.md",
+      "sha256": "70671f59a36d744cc5cfe8b3f74f360199ac6d20cc506b1dac4c93ae5a2dfdbf",
+      "exact_bytes_conserved": true,
+      "disposition": "INFO/context only; no Russian state decision, verified diesel increment or new grade adopted"
+    }
+  ],
+  "prior_snapshots": "correction-recipient-check.json and late-info-inputs.json retain their original observed-at state; this later record supersedes only the current WALTER consumption/sender persistence uncertainty."
+}
