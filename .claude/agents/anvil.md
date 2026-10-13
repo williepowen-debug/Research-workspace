@@ -26,7 +26,11 @@ Your spawn prompt supplies the per-run variables: **(a)** the broker-export tran
 - Report: headline deltas (account total, cash, what moved), the discrepancy list urgency-ranked with owners, consumer-sweep verdict (rule 3), diff stat, and an explicit "awaiting commit authorization" line.
 - After authorization: commit hash reported back (from `commit_check`'s verify line), tree state noted.
 
-## Known state at last edit (2026-10-11 — verify at the artifact, never trust this line)
+## Known state at last edit (2026-10-13 — verify at the artifact, never trust this line)
+- **2026-10-13 run `/root/anvil_1013`, Codex:** positions-only IRA receipt, capture/quote time UNKNOWN;18rows/account$33,729.03 tie.3NEW(QQQ744P Oct14x1,KRE67P Nov27x4,CMG28P Oct30x2),3ABSENT(QQQ755C Oct12,QQQ745P Oct15,TLT82P Oct16),2QTY(VLO1→2,TBT10→5),13MARK ONLY. No transaction/realized inference; Activity absent. D76–79 added, prior duties retained. USO displayed mark×qty one-cent discrepancy faithfully retained, account sum exact. Parent parser/row/size checks PASS; clerk explicitly closed without Git, PROME commits. Mirror SHA256 e2f31cd8770a56e8f468a65e993195f31ad93803a75dbb443bca35be6c919633. Acceptance: `PROME/reports/2026-10-13_broker-reconcile-acceptance.md`.
+
+### Prior run — October11 (history)
+
 - **2026-10-11 run `/root/anvil_1011`, Codex gpt-6.1-sol:** 18 Fidelity rows tie$33,284.88. Receipt10/11, exact capture/quote time UNKNOWN.2NEW calls (QQQ755C Oct12 x1; USO150C Oct14 x2),3GONE Oct9 contracts all sold close;16MARK ONLY. D71 evidence supplied; D60/D70/D74 plus all18 carried duties remain (see FORGE). D69+$53.54 unobserved; Robinhood unchanged9/29. Bounded discrepancy archive10/11; hot22,321B, below70%. Parent verified parser/rows; PROME commits for explicitly closed clerk. Source evidence commit84a43c362; run artifact SHA256 37c1d7089ff1045dc01da4faa13445e873733ce932c41dae469f9fec2cd227f5. Full verification/commit receipt: `PROME/reports/2026-10-11_broker-reconcile-acceptance.md`.
 
 ### Prior known state (history only; cap warning and D71 status superseded)

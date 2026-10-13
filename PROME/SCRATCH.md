@@ -1,5 +1,5 @@
 # SCRATCH.md — Ephemeral Session State
-**Updated:** 2026-10-13 · Laptop Standard closeout. This is a resume index; dated source observations are not refreshed market data.
+**Updated:** 2026-10-13 · Desktop broker reconciliation follows laptop closeout. This is a resume index; dated source observations are not refreshed market data.
 
 ## ★ NEXT SESSION — START HERE
 
@@ -22,9 +22,9 @@
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
-- **Broker limits:** exact capture/quote time UNKNOWN; Robinhood not supplied; D69 +$53.54 unexplained. Working orders and D60 future broker handling remain UNKNOWN. Reconciled positions/activity and closed evidence asks → [broker transcription](data/2026-10-11_broker-capture-TRANSCRIPTION.md); market context has its own vintage in [HEARTBEAT](../HEARTBEAT.md).
-- **Other management clocks:** QQQ Oct15 745P ×1/740P ×4 remain; TLT82P ×1, HBAN16P ×2 and TBT ×10 retain Wednesday management clocks, including TERRY's HBAN-word follow-through. No new trade ruling. Source: FORGE and DOCKET; owner booking correction remains L687.
-- **Standing guards:** new energy capital STAND DOWN (WQ192); concentration ACCEPTED (WQ297 A); X1 CLOSED / DON'T-SIZE, wrapper NOT ARMED; VLO-SCALE TERMINAL. Held VLO ×1 under WQ386 (owner encode 76c75516b; Dec basis from10/15, review11/18), subject to WQ420's exact approved clarification and its still-pending implementation record. RED/REGINALD own HY counts: follow GATES and the owner record, not an old copied count.
+- **Broker receipt October13:** [transcription](data/2026-10-13_broker-capture-TRANSCRIPTION.md); FORGE owns holdings. Exact capture/quote time UNKNOWN; no Activity or Robinhood supplied. Three absent contracts have unknown exit mechanism/proceeds; no realized result booked. Prior D69 $53.54 and D60 broker-policy gaps remain.
+- **Book from the reconciled mirror:** tomorrow October14 USO150C ×2 and NEW QQQ744P ×1; October15 QQQ740P ×4; October16 HBAN16P ×2. QQQ755C/QQQ745P/TLT82P absent from supplied account view. TBT now5, VLO now2. NEW KRE November27 67P ×4 and CMG October30 28P ×2. Other quantities unchanged. Holdings are snapshot evidence, not current orders.
+- **Standing guards:** new energy capital STAND DOWN (WQ192); concentration ACCEPTED (WQ297 A); X1 CLOSED / DON'T-SIZE. VLO-SCALE remains TERMINAL; added share does not establish new approval or silently expand existing held-share management. TBT/HBAN Wednesday clocks retained; TLT disposition evidence owed instead of asserting a held contract. TERRY [packet](../AGENTS/TERRY/inbox/2026-10-13_from-PROME_broker-position-changes.md) requests only the new held QQQ744P card under C5, plus owner record integration; consumption unverified. Existing delivered cards are reused, no discretionary re-mark commission. Owner book truth supersedes older summaries in HEARTBEAT; market observations there retain their dates.
 
 ## Open carry — follow the source, retain the obligation
 - **Near-term desk context:** Monday WATT L654/PJM; DEWEY L566 plus REQ-DEWEY-20261010-001 legs2–5 (final Wednesday); BRENT L633 bounded read complete (0be151800; four refinery gaps); afternoon inputs delivered; TERRY committed A-notice/A-exit UNKNOWN atfdeb3336b; CARL L672 before Tuesday bank prints; SHADE L673 registered window, dig only on eligible MET; VULCAN/FERC L200. Tuesday NEXUS L554 includes S1 corrections and WALTER's answer already in; FDIC Nano Banc L516. Wednesday MARCO L674, VIOLET L667 FT-10 plus ride-alongs, DEWEY final and CPI08:30. Dates/owners/remaining deliverables → DOCKET; Will's dated questions → generated queue above, including WQ401's (a)/(b) set question (prior recommendation b).
