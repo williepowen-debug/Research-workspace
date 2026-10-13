@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-13T00:47:30.286021+00:00",
+  "inputs": [
+    {
+      "path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-032.md",
+      "sha256": "7f5887a04b5e23225013a461cb67cec62683c46f96d2026ad36be204c35ed3cd",
+      "git_status": "?? AGENTS/YURI/inbox/WALTER/SIG-W-20261012-032.md",
+      "source_class": "OWNER-ASSERTED provisional handoff",
+      "disposition": "INFO only; no Russian instrument or authenticated diesel addition adopted. Sender persistence pending at observed snapshot; unchanged inbox path retained."
+    },
+    {
+      "path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-043.md",
+      "sha256": "70671f59a36d744cc5cfe8b3f74f360199ac6d20cc506b1dac4c93ae5a2dfdbf",
+      "git_status": "?? AGENTS/YURI/inbox/WALTER/SIG-W-20261012-043.md",
+      "source_class": "OWNER-ASSERTED provisional handoff",
+      "disposition": "INFO only; no Russian instrument or authenticated diesel addition adopted. Sender persistence pending at observed snapshot; unchanged inbox path retained."
+    }
+  ]
+}
