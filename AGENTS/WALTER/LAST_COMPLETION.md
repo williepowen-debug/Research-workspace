@@ -3,7 +3,7 @@ Runtime: OpenAI Codex; native thread `01a131e6-5754-7593-a546-210c87683eeb`; roo
 
 ## STATUS
 
-Existing Will-launched session ACTIVE. Browser reauthorization succeeded;48 new bookmarks/50 content items fully assessed in two CLOSED manifests.13 source-qualified PRIORITY signals032–044 and51 create-only handoffs saved;3 bounded read-only helpers completed. Two committed YURI source returns reconciled first and filed exactly; two late committed MIDAS/YURI returns also reconciled/filed before persistence. Previous MIDAS/PROME/Rosner/receipt work conserved, no repeated research or replacement owner launch. Authentication need resolved; exact stage marking and publication remain separate. Boot remains PARTIAL under retained charter/source limits, without a current full-market clearance.
+Existing Will-launched session ACTIVE. Browser reauthorization succeeded;48 new bookmarks/50 content items fully assessed in two CLOSED manifests.13 source-qualified PRIORITY signals032–044 and51 create-only handoffs saved;3 bounded read-only helpers completed. Two committed YURI source returns reconciled first and filed exactly; two late committed MIDAS/YURI returns also reconciled/filed before persistence. Previous MIDAS/PROME/Rosner/receipt work conserved, no repeated research or replacement owner launch. Authentication need resolved; exact48-ID marking completed after source commitment;51 new handoffs await shared publication. Boot remains PARTIAL under retained charter/source limits, without a current full-market clearance.
 
 ## CHANGED
 
@@ -11,17 +11,17 @@ Browser authorization restored;48 staged bookmarks/50 content items reviewed.13 
 
 ## RESULT
 
-BOARD1367; October12 operator-day44 signals. Prior110 handoffs are origin-proven at their saved observation;51 new handoffs locally saved, publication pending and consumption unverified. Parent48/48 + additional2/2 content dispositions CLOSED,12 filtered/DUP rows across both batches. Complete hit lists and bounded source/helper/owner proofs live in research/2026-10-12_bookmarks-reauth. Exact48-ID marker remains owed after source persistence; no new settlement/mine/loss gate or owner grade. Prior intake/market and protocol findings remain dated evidence.
+BOARD1367; October12 operator-day44 signals. Prior110 handoffs are origin-proven at their saved observation;51 new handoffs locally saved, publication pending and consumption unverified. Parent48/48 + additional2/2 content dispositions CLOSED,12 filtered/DUP rows across both batches. Complete hit lists and bounded source/helper/owner proofs live in research/2026-10-12_bookmarks-reauth. Exact48-ID marker completed after635bbb010 source persistence:654 total consumed,0 pending; no new settlement/mine/loss gate or owner grade. Prior intake/market and protocol findings remain dated evidence.
 
 ## GAPS / OWED
 
 - Source work retained: Rosner free-source pass PARTIAL/access-stop,0 primary court documents, no repeat commissioned. SIG031/COR31 author published and YURI acted/filed; other recipient/R1 closure separate. Named LIQUID160c0c08d consumption UNKNOWN at last scoped check; no duplicated request, first SHADE assessmentOctober13 post-close still needs owner inputs. HNS-07 storage source correction is consumed, with HANSOctober15/fixedNovember1 resolver and broad DR4 gaps preserved; Oct29/79d was the conditional median, not closure. Reports remain in the archived completed receipt and their live research paths.
 - Main pull and own push remain deferred for foreign MIDAS/SHADE work. Prior bf00c875c/9e0ed74c2 publication is proven at its saved observation;51 new handoffs await coordinated publication. Earlier intake-only approval rejection was resolved by Will, with clean ff-only intake sync; no current approval rejection or main pull. Exact historical refs/times remain in the checkpoint archive.
 
-- X authorization RESOLVED 2026-10-13T00:48:42Z: the existing browser flow saved fresh credentials; one new scanner pass succeeded and staged48 exact IDs. Prior606 consumed keys and empty stage were byte-identical immediately before scanning. Two manifests CLOSED50/50 content items;13 PRIORITY source-qualified updates and51 handoffs saved. Exact staged mark is still owed after persistence. EarlierHTTP400/timed-out windows are dated historical failures, not current auth state. Evidence research/2026-10-12_bookmarks-reauth/REPORT.md.
+- X authorization RESOLVED 2026-10-13T00:48:42Z: the existing browser flow saved fresh credentials; one new scanner pass succeeded and staged48 exact IDs. Prior606 consumed keys and empty stage were byte-identical immediately before scanning. Two manifests CLOSED50/50 content items;13 PRIORITY source-qualified updates and51 handoffs saved. Exact48-ID stage marked after635bbb010 persistence;654 total consumed,0 pending. EarlierHTTP400/timed-out windows are dated historical failures, not current auth state. Evidence research/2026-10-12_bookmarks-reauth/REPORT.md.
 - Native Codex thread/queue capability is verified; exact PROME coordination address and receipts are in owned proofs. Fleet liveness and Telegram reply/chat_id remain UNKNOWN/unverified where unavailable; no DARK or lifecycle inference. Existing Telegram FLASH delivery remains owed through an authorized transport. Historical runtime-capability chronology is in the exact checkpoint archive.
-- Four missing event-ledger cadence/check headers are repaired after actual review; non-comment event rows conserved. Remaining ordinary routing-ledger nudge warnings stay visible: prior bounded procedure/transport work added no events; subsequent ordinaryintake records14routes/40handoffs/1duplicatekill. REGISTRY focus refreshed from scoped owner headers; no fake row or freeze. Corrections checker0 unreceipted named WALTER rows; no new receipt invented. Two research flags remain open:CARL-DR-1 PARTIAL dueNovember13 and REQ-DEWEY-20261010-001 PARTIAL dueOctober14. Their returned partialreports/stubs are verified and handoffs filed; unfulfilled research remains open. Evidence: `research/2026-10-12_closeout-improvements/cadence-review.json`.
-- READS transcription RESOLVED duringsweep: committedPROMEmanifest exactlymatches signed91reader rows/29BASIS; allcurrenthashes matchcandidate, pairedhashes installed. Scopeproof: desk-sweep/reads-transcription-proof.json. Declaration/basis are not execution/cap clearance; explicit70,223Blocalcharter breach remains. L174label withdrawn. RootCLAUDE/PROMEgeneratedview rotation remedies remainowner-held. Concretecharter candidate unactivated; plan/proof in boot-gap report.
+- Cadence headers repaired; route/delivery/kill/batch now record actual new intake. Two existing research flags remain PARTIAL: CARL-DR-1 dueNovember13/Q3 and REQ-DEWEY-20261010-001 dueOctober14. Partial returns are consumed/filed, missing research remains open; exact historical cadence/source receipts stay in archive and research/2026-10-12_closeout-improvements/cadence-review.json.
+- READS transcription/29 paired basis hashes RESOLVED at their dated exact candidate/current bytes; recheck basis after future boot-operation changes. Explicit70223B local charter and66781B guard corpus exceed budget; charter candidate unactivated. Root/generated-view remedies remain PROME-owned; no migration or clearance claim. Exact prior proof stays in archive/desk-sweep receipts.
 - Newsweep remains degraded, lane runOctober11 19:18:17Z; fresh20:59Z scan counts1 missed weekday run, not collector death. Feed not dead; no collector-death escalation. Synced alert scan0 new; seen34keys+0/−0 reconciled after dispositions.
 - Iran full-ladder source coverage remains partial. UKMTO/IMO access recovered later, but footage/Poten graph/current cargo volumes and some ladder limbs remain unknown. UKMTO5 total losses vs FALCON3 qualifying losses needs owner definitions; no two-loss/gate inference.
 - Monthly/event/qualitative registers not fully re-collected; first-release claims not certified from revisedFRED; futures official settlements/identities incomplete. No current full market clearance.
@@ -41,7 +41,7 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## FOLLOW-UP
 
-**Will-requested bookmarks 2026-10-13T00:48:42Z:** authentication restored;48 new posts contain50 content items (bookmark37 has3 screenshots), both declared manifests CLOSED.13 source-qualified signals032–044/51 create-only handoffs;3 bounded charter-required helpers completed read-only. Two initial YURI returns/full reports reconciled first, and two later MIDAS/YURI source returns were also read/filed exactly; direct companion routes verified. No duplicate diesel/shipping owner request, new grade/study/watch/trade or lifecycle action. Guards whole-read66781B exceeds32550B budget; source gaps and dated20:58Z market observations survive. Source/dispatch proof research/2026-10-12_bookmarks-reauth; exact marking still owed after persistence. Publication pending; foreign MIDAS/SHADE work gates own push; receiving liveness UNKNOWN does not license doorbells.
+**Will-requested bookmarks 2026-10-13T00:48:42Z:** authentication restored;48 new posts contain50 content items (bookmark37 has3 screenshots), both declared manifests CLOSED.13 source-qualified signals032–044/51 create-only handoffs;3 bounded charter-required helpers completed read-only. Two initial YURI returns/full reports reconciled first, and two later MIDAS/YURI source returns were also read/filed exactly; direct companion routes verified. No duplicate diesel/shipping owner request, new grade/study/watch/trade or lifecycle action. Guards whole-read66781B exceeds32550B budget; source gaps and dated20:58Z market observations survive. Source/dispatch proof research/2026-10-12_bookmarks-reauth; exact48-ID stage marked after635bbb010 persistence,654 current consumed keys/0 pending. Publication pending; foreign MIDAS/SHADE work gates own push; receiving liveness UNKNOWN does not license doorbells.
 
 Completed pre-bookmark follow-up history and its full structured receipt are preserved verbatim in `archive/LAST_COMPLETION_2026-10-12_before-bookmark-history-rotation.md`; SHA/procedure proof in `research/2026-10-12_bookmarks-reauth/checkpoint-rotation-proof.json`. Current duties remain here.
 
@@ -53,7 +53,7 @@ Completed pre-bookmark follow-up history and its full structured receipt are pre
 4. RED-FT10: CBOE barsOctober12/13/14, earliest four-closing fireOctober14; VIOLET owns. No Monday close invented from morning observations. Re-pull eligible FRED credit when posted; HANS near intraday gilts are not close fires.
 5. DEWEY: CARL-DR-1 PARTIAL/dueNovember13 (Q2leg consumed, Q3pending); REQ-DEWEY-20261010-001 PARTIAL/dueOctober14 (return+sourceupgrade consumed). All4newDEWEYhandoffs filed; broadcommissionclosure requires missingresearch, not another filing step.
 6. Open owner returns carried: LIQUID -1007; BRENT -1008 and -003; VULCAN/BROCK -1009; FALCON gas/theater claims; OSPREY energy ceasefire/deal branch; YURI Novak curb lift; BOND/ZHAO -004; CARL SCF -005 baseanswered/routed018 and debtor-numerator query RESOLVED atKB504/529; HENRY/VULCAN -006; CORAL PembrokeLakes -1008-040; CREED Trepp -1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. Prior-session owner addresses add the ten signals; reboot011/012 add HANS/VULCAN ACTION with availability UNKNOWN but imply no universal reply obligation or consumption. TERRY and OZK primary integration is already observed; do not ask them to rediscover execution.
-7. X pilot reviewOctober17: retain live-observed refresh-failure/timeouts and WSL authorize method as dated evidence. Current browser retry and48-item scan succeeded; prior606 keys preserved; exact staged marking tracked in newest receipt above. No unattended permission added. Next staleness sweepOctober24. Research-retirement assessment now completed:382 tracked research/source files checked by last path commit timestamp,0older than60days, no moves. Underlying source vintages unchanged. Evidence: `research/2026-10-12_closeout-improvements/retirement-review.json`.
+7. X pilot reviewOctober17: retain live-observed refresh-failure/timeouts and WSL authorize method as dated evidence. Current browser retry and48-item scan succeeded; prior606 keys preserved, exactly48 more consumed after committed review (654 total/0 pending); proof in newest receipt above. No unattended permission added. Next staleness sweepOctober24. Research-retirement assessment now completed:382 tracked research/source files checked by last path commit timestamp,0older than60days, no moves. Underlying source vintages unchanged. Evidence: `research/2026-10-12_closeout-improvements/retirement-review.json`.
 8. Existing dates: bank Q3/KS WARNOctober13; CPIOctober14 08:30ET; WPSROctober15 noonET, VLO December basis and size checks; LIQ07October15–16; October16 expiries/MTB/CFG/H.8/tanker weekly; WALOctober19–20; OZKOctober20AMC/21call; FOMCOctober27–28, UKBudgetOctober28, ECBOctober29; BZZ26LTD October30, boundary8 January switchNovember2; Treasury financingNovember2/refundingNovember4. The October12 bond holiday is current, not a future duty.
 9. PROME carry: CATO absent from REGISTRY (WQ255); YURI WATCH_FOR set absent on charter grep; WQ388 undecided; READS Oct12transcription/29-pathhashes discharged; native fleet receiving visibility and Telegram delivery gaps; CLI queue now verified as supported, exact-pair receipt separate. No new activation of GateC or unattended scheduling.
 
@@ -90,7 +90,7 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-13T01:01:45Z",
+  "as_of": "2026-10-13T01:08:35Z",
   "publication": [
     {
       "commit": "bf00c875c9506c18179a16dc7b10a84a1d3db267",
@@ -99,6 +99,10 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
     {
       "commit": "9e0ed74c22873c9959d348ad4382c8bc6a78dbeb",
       "state": "published"
+    },
+    {
+      "commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -109,7 +113,7 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Current bookmark result uncommitted at this checkpoint; exact-path persistence next. Foreign MIDAS/SHADE work observed, own push deferred to coordinated shared publication."
+    "note": "Bookmark source result635bbb010 committed locally; current mark/receipt persistence follows. New51handoffs await shared publication; own push deferred for observed foreign MIDAS/SHADE work."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -131,7 +135,7 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/REPORT.md",
-        "sha256": "b975d035b015b46ba0ec8b5dadcf14a9ef8ea0c1bfdd410bbe92bb3e8e23de27",
+        "sha256": "533e863e9e9cbce9f1a10ed7aaacd4f7a3206c3177019e0a28ce6f2babdaf41f",
         "note": "Current48-bookmark/50-content-item source/read/dispatch dispositions; primary/body/cap/publication limits explicit."
       },
       {
@@ -147,7 +151,12 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
       {
         "path": "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/owner-intake-proof.json",
         "sha256": "ad6a19d61ac68f846442d12edfd5a0d8b58df0167f5030faf73336a40abe4b32",
-        "note": "Two exact committed YURI source packets and full reports read before external interpretation; direct companion packets verified, own incoming originals filed byte-identically."
+        "note": "Four exact committed owner packets, two initial prerequisites and two late returns; direct companion routes conserved; source qualification adoption and exact filing, not an owner grade."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/auth-and-mark-proof.json",
+        "sha256": "8d423575c080a1103e48ada77f5ff26936f9a75953b9a1c9b335dee00438f55b",
+        "note": "Successful auth preserves606 prior IDs; exact committed-review48-item stage consumed,654 total/0 pending; no token/nonce persisted."
       }
     ],
     "prior_evidence_archive": "AGENTS/WALTER/archive/LAST_COMPLETION_2026-10-12_before-bookmark-history-rotation.md"
@@ -161,13 +170,13 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
     "DEWEY dieselcommission PARTIAL dueOct14; cardsworkstreamPARTIAL dueNov13/Q3. Returnedpacketsfiled; missingresearchnotclosed.",
     "Will/TERRY remaining expiry-card choices and currentbroker/order evidence; no order inferred.",
     "TelegramFLASH notification unavailable/unverified; currentchatalert andPROMEpacket delivered. NativeCodexcoordination available; queueacceptance notconsumption.",
-    "48 exact staged bookmark IDs must be marked only after50 content dispositions/manifests and committed source routing are verified; authentication itself resolved. New51handoffs publication pending, consumption separate."
+    "New51 source-qualified handoffs await coordinated publication; consumption separate. Authentication and exact48-ID marking resolved,654 seen/0 pending."
   ],
-  "next_review": "2026-10-12",
+  "next_review": "2026-10-13",
   "procedure": {
     "tier": "light",
     "scope": "Will-requested browser reauthorization and ordinary bookmark intake in existing ACTIVE session",
-    "claim": "48 new bookmarks /50 content items fully dispositioned;13 PRIORITY signals and51 handoffs locally saved. No new trigger/grade, study, trade or lifecycle action. Marking/publication remain separate steps.",
+    "claim": "48 new bookmarks/50 content items fully dispositioned and exactly48 staged IDs marked after635bbb010 commitment;654 seen/0 pending.13 PRIORITY signals/51 handoffs locally committed. No new trigger/grade/study/trade/lifecycle action; publication remains pending.",
     "evidence": "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/REPORT.md",
     "coverage": "All provided post bodies and15 selected media artifacts read; complete novelty hitlist and bounded source checks. Unrecovered primary bodies/denominators and future vendor/model claims remain qualified; no current full-market clearance."
   },
@@ -176,7 +185,7 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
     "Tier1": "Affected auth/source pointers refreshed; prior20:58UTC market observations remain dated. Completed follow-up/history receipt rotated verbatim to archive; all current open duties/design/Will choices kept hot, no charter/spec migration.",
     "15": "Carried ownership/dates/Will design decisions preserved; current authentication resolved, exact mark and new publication separated. Prior LIQUID/SHADE/DEWEY/YURI scope not re-researched.",
     "root.retirement": "Prior585-path Git-age review retained as dated evidence; today-authored intake/source artifacts are not60days old, no retirement move in this bounded pass.",
-    "16": "Exact owned-path source persistence precedes staged mark and final receipt; no main pull/own push with foreign MIDAS/SHADE work. Publication and consumption separate; MIDAS expressly confirms SIG044 pointer/primary-source read in55ee66731, not full packet filing or WALTER publication.",
+    "16": "Exact109-path source commit635bbb010 had0 unexpected paths (105 logical paths incl4renames); marker then consumed the exact48 reviewed IDs. Current receipt/source publication pending; no own push/main pull. MIDAS SIG044 pointer/source consumption verified separately.",
     "Tier1.breadcrumb": "One routing light/full-deferred breadcrumb; no new boot/end-of-day or lifecycle closeout. Existing full-deferred stack remains visible for next applicable Tier2."
   },
   "selected_checks": "Stable targeted BOARD1367/route reconciliation, timestamps, batch closure, action-line and new entities checks PASS; receipt161/110 PASS; archive4 exact moves andweekday PASS. Read-cap/ledger-nudge REVIEW retained, old delivery2malformed amendmentIDs/20NOTE rows retained, full-deferred4 visible; no whole-doctor/full-procedure PASS."
