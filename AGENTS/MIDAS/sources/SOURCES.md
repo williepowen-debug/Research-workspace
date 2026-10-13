@@ -31,3 +31,9 @@ Whole-window ALFRED exceeded2000-vintage cap; three predeclared blocks retrieved
 ## Ownership and remaining access seams
 
 BOND:rate level/curve. ZHAO:China macro/import meaning. LIQUID:liquidity/USD transmission. HAWK:PGM production/geopolitics. HENRY:velocity/demand lag. TERRY:live book/Greeks. MIRROR prices and latest stock snapshots do not settle those causal questions. Settlement certification, additive native-price support, fee/basis interpretation, historical quantities and source-vintage completeness are separately recorded in OPEN_ITEMS/result packets.
+
+## October12 news-source addition
+
+CADA/CPCA PRIMARY Septpassengerretail/wholesale/production/mix, publicationOctober12; useoriginalChineseandNEVcomponentidentity, neverequateNEVwithBEV/catalyst-free. LBMA PRIMARY September vault28985tsilver/+1.95%, notfreefloat/leases. SHFE PRIMARY silveronwarrantkg9/30→10/9 isseparatelyextractedfromsavedtable22. FCX PRIMARY October2operationalramp-up, September2025incidentchronology. PwC PRIMARY October7landingpage, fullPDFnotretrieved. BLS/Fed/NornickelPRIMARYcalendarsverified. ReutersYangshanpremiumisMEDIA; bank2027silverforecastPROV/originalnoteretrievalmissing. Dates/URLs/limits `../analysis/2026-10-12_MIDAS-news-sweep.md`, raw `2026-10-12_news-sweep/`.
+
+The sharedhistorycall leavesadjustmentimplicit; directnewsETFauto_adjust=False returnsnumericOctober12 afterearliersharedNULL12. These aredifferentcaptures, notanadjustmentdelta. SharedClose-precision/explicitadjustmentrequest remainsPROME/FORGE-owned. Futurefrozengradingmustdeclareandcapturetheunadjustedsourcechoice.

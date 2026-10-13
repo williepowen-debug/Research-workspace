@@ -1,0 +1,70 @@
+[
+  {
+    "date": "20260930",
+    "table_index": 22,
+    "headers": [
+      [
+        "Region",
+        "Warehouse",
+        "Previous Week (On Warrant)",
+        "This Week (On Warrant)",
+        "Change",
+        "Storage Capacity"
+      ],
+      [
+        "Last week",
+        "This Week",
+        "Change"
+      ],
+      [
+        "SILVER",
+        "Unit\uff1aKg"
+      ]
+    ],
+    "total": [
+      [
+        "Total",
+        "1443896",
+        "1490865",
+        "46969",
+        "4056104",
+        "4009135",
+        "-46969"
+      ]
+    ]
+  },
+  {
+    "date": "20261009",
+    "table_index": 22,
+    "headers": [
+      [
+        "Region",
+        "Warehouse",
+        "Previous Week (On Warrant)",
+        "This Week (On Warrant)",
+        "Change",
+        "Storage Capacity"
+      ],
+      [
+        "Last week",
+        "This Week",
+        "Change"
+      ],
+      [
+        "SILVER",
+        "Unit\uff1aKg"
+      ]
+    ],
+    "total": [
+      [
+        "Total",
+        "1490865",
+        "1482493",
+        "-8372",
+        "4009135",
+        "4017507",
+        "8372"
+      ]
+    ]
+  }
+]

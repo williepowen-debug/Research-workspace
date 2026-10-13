@@ -1,0 +1,144 @@
+{
+  "captured_at": "2026-10-12T20:30:49.905132-04:00",
+  "basis": "Yahoo MIRROR native named-futures prior vendor row; newest futures row excluded, not certified settlement. ETF raw Close captured separately with auto_adjust=False.",
+  "named_primary": {
+    "GC=F": {
+      "contract": "GCZ26.CMX",
+      "date": "2026-10-09",
+      "price": 4216.2998046875,
+      "prev": 4157.0,
+      "volume": 148432,
+      "change_pct": 1.4265048036444572
+    },
+    "SI=F": {
+      "contract": "SIZ26.CMX",
+      "date": "2026-10-09",
+      "price": 61.04800033569336,
+      "prev": 59.42399978637695,
+      "volume": 48413,
+      "change_pct": 2.7329034651900175
+    },
+    "HG=F": {
+      "contract": "HGZ26.CMX",
+      "date": "2026-10-09",
+      "price": 6.691999912261963,
+      "prev": 6.56850004196167,
+      "volume": 47328,
+      "change_pct": 1.8801837483647166
+    },
+    "PL=F": {
+      "contract": "PLF27.NYM",
+      "date": "2026-10-09",
+      "price": 1693.300048828125,
+      "prev": 1642.0,
+      "volume": 18129,
+      "change_pct": 3.124241706950359
+    },
+    "PA=F": {
+      "contract": "PAZ26.NYM",
+      "date": "2026-10-09",
+      "price": 1150.4000244140625,
+      "prev": 1125.4000244140625,
+      "volume": 7256,
+      "change_pct": 2.2214323314073248
+    }
+  },
+  "GSR": 69.06532206628768,
+  "ETF": {
+    "GLD": {
+      "date": "2026-10-12",
+      "close": 382.1499938964844,
+      "volume": 4854300
+    },
+    "SLV": {
+      "date": "2026-10-12",
+      "close": 54.349998474121094,
+      "volume": 8297600
+    },
+    "CPER": {
+      "date": "2026-10-12",
+      "close": 40.630001068115234,
+      "volume": 228100
+    },
+    "PPLT": {
+      "date": "2026-10-12",
+      "close": 15.270000457763672,
+      "volume": 1074400
+    },
+    "PALL": {
+      "date": "2026-10-12",
+      "close": 20.610000610351562,
+      "volume": 1577500
+    }
+  },
+  "pointer_flags": [
+    "SI=F",
+    "HG=F",
+    "PL=F",
+    "PA=F"
+  ],
+  "identity_rows": [
+    [
+      "GC=F",
+      "GCZ26.CMX",
+      "2026-10-09",
+      148432,
+      148432,
+      4216.2998046875,
+      4216.2998046875,
+      0.0,
+      "OK"
+    ],
+    [
+      "SI=F",
+      "SIZ26.CMX",
+      "2026-10-09",
+      244,
+      48413,
+      60.66999816894531,
+      61.04800033569336,
+      -0.6191884495306499,
+      "DYING"
+    ],
+    [
+      "HG=F",
+      "HGZ26.CMX",
+      "2026-10-09",
+      1137,
+      47328,
+      6.642499923706055,
+      6.691999912261963,
+      -0.7396890197982176,
+      "DYING"
+    ],
+    [
+      "PL=F",
+      "PLF27.NYM",
+      "2026-10-09",
+      0,
+      18129,
+      1679.300048828125,
+      1693.300048828125,
+      -0.8267879050549154,
+      "DYING"
+    ],
+    [
+      "PA=F",
+      "PAZ26.NYM",
+      "2026-10-09",
+      5,
+      7256,
+      1140.5,
+      1150.4000244140625,
+      -0.8605723404000232,
+      "DYING"
+    ]
+  ],
+  "ETF_capture_at": "2026-10-12T20:36:25.607443-04:00",
+  "ETF_basis": "Yahoo MIRROR explicit auto_adjust=False/actions=True. Later raw capture returns completed October12 closes; earlier shared capture had NULL October12. Do not call the date difference an adjustment effect.",
+  "shared_vs_raw_comparison": {
+    "shared_latest_date": "2026-10-09",
+    "later_raw_latest_date": "2026-10-12",
+    "disposition": "DIFFERENT_CAPTURE_DATES; no same-date adjustment inference"
+  }
+}

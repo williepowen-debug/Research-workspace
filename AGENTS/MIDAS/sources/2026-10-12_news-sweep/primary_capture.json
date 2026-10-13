@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://www.cada.cn/Trends/info_91_10580.html",
+    "file": "cada_sep2026.html",
+    "captured_UTC": "2026-10-13T00:32:40.885233+00:00",
+    "status": 200,
+    "sha256": "fc817a85eb1ae69c808fbd3d62c95d7d54e8ddec5abdf8ca0fc6b61b15ffc7cf",
+    "bytes": 112175
+  },
+  {
+    "url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Provides-Third-Quarter-2026-Operational-Update/default.aspx",
+    "file": "fcx_oct2_2026.html",
+    "captured_UTC": "2026-10-13T00:32:41.195230+00:00",
+    "status": 200,
+    "sha256": "502c900f7107cbb463794c8f70456c77fb59ff170680eaf6f9c71a2ad3ceb5f0",
+    "bytes": 98959
+  },
+  {
+    "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data",
+    "file": "lbma_vault_sep2026.html",
+    "captured_UTC": "2026-10-13T00:32:41.815019+00:00",
+    "status": 200,
+    "sha256": "0d5ef9ea7385711759d5fa0d4750779b863bdb9510c24530391e8c2aaf3c059c",
+    "bytes": 273433
+  },
+  {
+    "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "file": "bls_oct2026.html",
+    "captured_UTC": "2026-10-13T00:36:28.550597+00:00",
+    "status": 200,
+    "bytes": 56785,
+    "sha256": "362eb29a5b132a41f14ac7f4a94e803690b4ef26472cc279813d05fb3cb1d69e"
+  },
+  {
+    "url": "https://nornickel.com/investors/events/",
+    "file": "nornickel_calendar.html",
+    "captured_UTC": "2026-10-13T00:36:30.533258+00:00",
+    "status": 200,
+    "bytes": 174603,
+    "sha256": "252e283eba0d99dc5c8ad34b9853a3d13d7394e4c4d610a5af852b3c5ad75de3"
+  },
+  {
+    "url": "https://www.pwc.co.za/en/publications/sa-mine.html",
+    "file": "pwc_sa_mine2026.html",
+    "captured_UTC": "2026-10-13T00:36:31.315695+00:00",
+    "status": 200,
+    "bytes": 222999,
+    "sha256": "064e9f2235bf3216eeacd03b332e0ac7d4d8672d089b9753c9459725083b631a"
+  }
+]

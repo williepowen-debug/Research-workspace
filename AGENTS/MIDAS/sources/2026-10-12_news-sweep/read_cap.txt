@@ -1,0 +1,7 @@
+READ-CAP [MIDAS] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 1 boot section(s) in CLAUDE.md, 8 'read' line(s) scanned (0 on-demand/grep + 2 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 3 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ OPEN_ITEMS.md                         9,459 B    29% of budget    (boot-step line 33)
+  ✅ STATUS.md                             9,252 B    28% of budget    (boot-step line 33)
+  ✅ SCRATCH.md                            4,610 B    14% of budget    (boot-step line 31)
+✅ READ-CAP 0 [MIDAS]: every boot-mandated read this check found is under budget (3 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+  ℹ️  charter AGENTS/MIDAS/CLAUDE.md = 26,703 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=MIDAS reads=3 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=26703

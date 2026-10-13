@@ -1,0 +1,109 @@
+{
+  "as_of_ET": "2026-10-12",
+  "CADA": {
+    "quality": "PRIMARY original Chinese read",
+    "source": "https://www.cada.cn/Trends/info_91_10580.html",
+    "published": "2026-10-12 15:04:19 source clock",
+    "period": "September2026",
+    "retail_vehicles": 1618000,
+    "retail_yoy_pct": -28,
+    "wholesale_vehicles": 2549000,
+    "wholesale_yoy_pct": -8.9,
+    "production_vehicles": 2590000,
+    "production_yoy_pct": -9.1,
+    "NEV_retail_share_pct": 67,
+    "NEV_wholesale_vehicles": 1666000,
+    "BEV_wholesale_vehicles": 1126000,
+    "PHEV_wholesale_vehicles": 423000,
+    "extended_range_wholesale_vehicles": 117000,
+    "BEV_wholesale_share_pct": 44.17418595527658,
+    "conventional_fuel_retail_yoy_pct": -43,
+    "non_plugin_hybrid_retail_yoy_pct": 25,
+    "limit": "Retail differs from catalyst fitment; exports, inventory and loading matter. NEV includes engine-bearing hybrids; no PGM tonnes inferred."
+  },
+  "LBMA": {
+    "quality": "PRIMARY rendered vault data",
+    "source": "https://www.lbma.org.uk/prices-and-data/london-vault-data",
+    "period": "endSeptember2026",
+    "gold_tonnes": 9821,
+    "gold_mom_pct": 1.96,
+    "silver_tonnes": 28985,
+    "silver_mom_pct": 1.95,
+    "limit": "Aggregate Loco London holdings, not free float or leases. Includes ETF-backed metal."
+  },
+  "SHFE_silver": {
+    "quality": "PRIMARY saved report table22",
+    "current_source": "https://www.shfe.cn/data/tradedata/future/stockdata/weeklystock_20261009/EN/all.html",
+    "prior_source": "https://www.shfe.cn/data/tradedata/future/stockdata/weeklystock_20260930/EN/all.html",
+    "category": "On Warrant, kilograms",
+    "prior_date": "2026-09-30",
+    "date": "2026-10-09",
+    "prior_kg": 1490865,
+    "current_kg": 1482493,
+    "delta_kg": -8372,
+    "delta_pct": -0.5615531922742889,
+    "limit": "Two dated warranted points, not total China stocks or a lowest-since2015 test."
+  },
+  "Freeport": {
+    "quality": "PRIMARY company update",
+    "source": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Provides-Third-Quarter-2026-Operational-Update/default.aspx",
+    "published": "2026-10-02",
+    "Q3_copper_production_million_lb": 830,
+    "Q3_gold_production_koz": 230,
+    "gold_sales_deferred_to_Q4_koz": 60,
+    "district_mill_ore_throughput_tonnes_day": 140000,
+    "normalized_capacity_pct": 67,
+    "target_mid2027_capacity_pct": 80,
+    "target_end2027": "approach full capacity",
+    "smelter_restart": "lateAugust2026",
+    "limit": "Existing September2025 incident/ramp-up, not a new October2026 shutdown. Gold sales deferral not production cut."
+  },
+  "Reuters_copper": {
+    "quality": "MEDIA Reuters viaMarketScreener; primary premium source not retrieved",
+    "source": "https://es.marketscreener.com/noticias/cobre-se-dirige-a-alza-semanal-por-riesgos-ligados-a-suministro-minero-y-demanda-china-ce785ddfd08cf524",
+    "published": "2026-10-09",
+    "Yangshan_premium_USD_tonne": 135,
+    "reported_rank": "four-year high",
+    "limit": "Import interest indicator, not national volume/lag. SHFE stocks independently PRIMARY verified."
+  },
+  "Silver_forecast": {
+    "quality": "PROVISIONAL bank attribution; original publisher preview datedOct5, accessible syndication; bank note not retrieved",
+    "source": "https://mineralprices.com/silver-shortage-could-flip-to-surplus-in-2027-deutsche/",
+    "origin": "https://www.northernminer.com/news/silver-shortage-could-flip-to-surplus-in-2027-deutsche/1003895445/",
+    "published": "2026-10-05",
+    "reported_view": "Deutsche silver surplus possible2027; solar thrifting, China premium is upside risk",
+    "limit": "Forecast not realized balance. Do not supersede PRIMARY April2026F deficit46.3Moz or certify300Mozfree float/lease easing. Original full text paywalled."
+  },
+  "PwC": {
+    "quality": "PRIMARY issuer landing page; full42.7MBPDF not retrieved",
+    "source": "https://www.pwc.co.za/en/publications/sa-mine.html",
+    "published": "2026-10-07",
+    "finding": "Brownfield efficiency/life extensions, logistics/cost/regulatory constraints",
+    "limit": "Structural supply elasticity context, not acute confirmed SA outage."
+  },
+  "calendar": {
+    "quality": "PRIMARY official schedules",
+    "CPI": "2026-10-14T08:30:00-04:00",
+    "PPI": "2026-10-15T08:30:00-04:00",
+    "BLS_source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "FOMC": "2026-10-27/28",
+    "Fed_source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "Nornickel_9M_production": "2026-10-26",
+    "Nornickel_source": "https://nornickel.com/investors/events/"
+  },
+  "rejected_recency": {
+    "repost_source": "https://www.assetmarketnews.com/precious-metals/silver-stockpile-slump-in-china-poses-new-risk-to-a-hot-market/",
+    "repost_date": "2026-10-10",
+    "original_date": "2025-11-26",
+    "original_evidence": "https://www.moneycontrol.com/news/business/silver-stockpile-slump-in-china-poses-new-risk-to-a-hot-market-13696994.html",
+    "finding": "Same distinctive China export660t/Shanghai decade-low/London squeeze story recirculated. Exclude from fresh2026 evidence."
+  },
+  "checks": {
+    "CADA_NEV_components": "PASS",
+    "SHFE_previous_current_change": "PASS",
+    "SHFE_input_sha256": {
+      "shfe_20260930_stock.html": "ed1952de4afe519f3796a9e76241e6b8f3294dc66b4ee21a93c4345af7e6b772",
+      "shfe_20261009_stock.html": "8733c559d63d07f45d215637df7f3fc5fb9ebb47bed7bf1479de4091e786e784"
+    }
+  }
+}

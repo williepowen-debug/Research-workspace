@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-13T00:47:39.867360+00:00",
+  "PREDICTIONS_sha256": "50bbe5bfdd4f4a6bd35be4ffc23b07f7f866564e9c2a5c3cf0389ed2094f3212",
+  "frozen_forecasts_unchanged": true,
+  "pinned_companion_unchanged": true,
+  "scores_thresholds_unchanged": true,
+  "actual_composite": 8,
+  "primary_data_identities": {
+    "CADA_NEV_components": "PASS",
+    "SHFE_previous_current_change": "PASS",
+    "SHFE_input_sha256": {
+      "shfe_20260930_stock.html": "ed1952de4afe519f3796a9e76241e6b8f3294dc66b4ee21a93c4345af7e6b772",
+      "shfe_20261009_stock.html": "8733c559d63d07f45d215637df7f3fc5fb9ebb47bed7bf1479de4091e786e784"
+    }
+  },
+  "raw_history_overlap_error": {
+    "SLV": 7.105427357601002e-15,
+    "PPLT": 1.7763568394002505e-15,
+    "PALL": 3.552713678800501e-15,
+    "CPER": 7.105427357601002e-15
+  },
+  "new_T_C_S_crossings": {
+    "SLV": {
+      "T": [],
+      "C": [],
+      "S": []
+    },
+    "PPLT": {
+      "T": [],
+      "C": [],
+      "S": []
+    },
+    "PALL": {
+      "T": [],
+      "C": [],
+      "S": []
+    }
+  },
+  "S_basis": "adopted d200 upside; prior r63 tablelabel corrected, no level change",
+  "source_capture_difference": "Earlier shared NULL10/12 vs later directraw numeric10/12; not adjustment delta",
+  "read_bytes": {
+    "CLAUDE.md": 26703,
+    "STATUS.md": 9252,
+    "OPEN_ITEMS.md": 9459,
+    "SCRATCH.md": 4610,
+    "NEXUS_BRIEF.md": 4893
+  },
+  "read_total_bytes": 54917,
+  "read_cap": "rc0 heuristicthreefiles; explicitfivefilemanualbyteaccountabove; no rotation",
+  "TSV": {
+    "workbook/KB.tsv": {
+      "width": 9,
+      "rows": 146,
+      "unique_ids": true
+    },
+    "workbook/FLOW.tsv": {
+      "width": 7,
+      "rows": 4,
+      "unique_ids": true
+    },
+    "workbook/VX.tsv": {
+      "width": 9,
+      "rows": 5,
+      "unique_ids": true
+    }
+  },
+  "code_changes": "NONE; existing34guardtests not rerun for prose/source integration",
+  "weekday_check": "rc0",
+  "news_result_scope": "DONE bounded news sweep; banknote/fullPwC/primarypremium unavailable and clearlyprovisional",
+  "sync": "DEFERRED for otherdesksdirtypaths; exactownpaths only"
+}

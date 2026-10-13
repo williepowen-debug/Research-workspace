@@ -1,0 +1,69 @@
+{
+  "SLV": {
+    "date": "2026-10-12",
+    "close": 54.349998474121094,
+    "d200": -17.302119008994175,
+    "dd252": -48.53219767096834,
+    "r63_diagnostic_only": 2.2192972462146354,
+    "T_level": 3,
+    "C_level": 1,
+    "C_basis": "prior approved crash decay=1; no fresh deeper crossing on10/12",
+    "S_level": 1,
+    "S_metric": "d200 upside, not r63",
+    "new_crossings_on_oct12": {
+      "T": [],
+      "C": [],
+      "S": []
+    },
+    "old_to_new_common_raw_close_max_error": 7.105427357601002e-15,
+    "prior_source_sha256": "7e53c8b4d31ff43b8f42a93404c06a974ac377a614024f84091c0db4d23745a9"
+  },
+  "PPLT": {
+    "date": "2026-10-12",
+    "close": 15.270000457763672,
+    "d200": -13.223718936111295,
+    "dd252": -39.46481575088099,
+    "r63_diagnostic_only": 3.315295897464643,
+    "T_level": 2,
+    "C_level": 1,
+    "C_basis": "prior approved crash decay=1; no fresh deeper crossing on10/12",
+    "S_level": 1,
+    "S_metric": "d200 upside, not r63",
+    "new_crossings_on_oct12": {
+      "T": [],
+      "C": [],
+      "S": []
+    },
+    "old_to_new_common_raw_close_max_error": 1.7763568394002505e-15,
+    "prior_source_sha256": "66e4c3450fad2c8348667f9e2f76e187171b9a80c49fa716047fee27e12a7d4b"
+  },
+  "PALL": {
+    "date": "2026-10-12",
+    "close": 20.610000610351562,
+    "d200": -22.370510913245546,
+    "dd252": -44.56995037877148,
+    "r63_diagnostic_only": -13.037974907662598,
+    "T_level": 3,
+    "C_level": 1,
+    "C_basis": "prior approved crash decay=1; no fresh deeper crossing on10/12",
+    "S_level": 1,
+    "S_metric": "d200 upside, not r63",
+    "new_crossings_on_oct12": {
+      "T": [],
+      "C": [],
+      "S": []
+    },
+    "old_to_new_common_raw_close_max_error": 3.552713678800501e-15,
+    "prior_source_sha256": "ef977c301f8e971c326b881d52989e35c800aa9e17c0fdfe89f24a1acc921fc1"
+  },
+  "CPER": {
+    "date": "2026-10-12",
+    "close": 40.630001068115234,
+    "d200": 7.934073556144439,
+    "dd252": -1.930966041920601,
+    "r63_diagnostic_only": 5.42293747519309,
+    "old_to_new_common_raw_close_max_error": 7.105427357601002e-15,
+    "prior_source_sha256": "470100a5c117eb0d31dd3d786d706437ae751129e9f87bd51359a116eb267a05",
+    "role": "Copper price-history context only; no standalone crash/upside grid adopted"
+  }
+}

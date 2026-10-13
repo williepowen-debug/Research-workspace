@@ -1,17 +1,17 @@
 # MIDAS — STATUS
 
-**Updated October12,2026, after Will-approved maintenance and final boot saved in the maintenance sources.** Actual M1/M2/I1/I2=**4/1/1/2, composite8/20**. Repairs and record reconciliation complete; unresolved source/interpretation limits remain explicit. Result `analysis/2026-10-12_approved-maintenance-result.md`; original history archived verbatim.
+**Updated October12,2026, after the Will-directed news sweep; final maintenance boot retained.** Actual M1/M2/I1/I2=**4/1/1/2, composite8/20**. Repairs and record reconciliation complete; unresolved source/interpretation limits remain explicit. Result `analysis/2026-10-12_approved-maintenance-result.md`; original history archived verbatim.
 **Class:** Market-agent · L4 · WEEKLY · five boot legs: metals, ledger age, predictions, gold COT, Ag/Pt/Pd COT. Existing Codex window remains open.
 
 ## Dated evidence
 
-| Metal | Named contract | October9 vendor Close | September30→October9 | October9 ETF Close |
+| Metal | Named contract | October9 vendor Close | September30→October9 | October12 ETF Close |
 |---|---|---:|---:|---:|
-| Gold | GCZ26.CMX, Dec2026 | $4216.30 | +0.71% | GLD $384.58 |
-| Silver | SIZ26.CMX, Dec2026 | $61.048 | +0.80% | SLV $54.78 |
-| Platinum | PLF27.NYM, Jan2027 | $1693.30 | −1.49% | PPLT $15.25 |
-| Palladium | PAZ26.NYM, Dec2026 | $1150.40 | −5.11% | PALL $20.77 |
-| Copper | HGZ26.CMX, Dec2026 | $6.692/lb | +1.06% | CPER $40.31 |
+| Gold | GCZ26.CMX, Dec2026 | $4216.30 | +0.71% | GLD $382.15 |
+| Silver | SIZ26.CMX, Dec2026 | $61.048 | +0.80% | SLV $54.35 |
+| Platinum | PLF27.NYM, Jan2027 | $1693.30 | −1.49% | PPLT $15.27 |
+| Palladium | PAZ26.NYM, Dec2026 | $1150.40 | −5.11% | PALL $20.61 |
+| Copper | HGZ26.CMX, Dec2026 | $6.692/lb | +1.06% | CPER $40.63 |
 
 Yahoo MIRROR daily bars, **uncertified exchange settlements**. Newest futures row excluded; native price precision retained. Primary GSR69.07 uses same-date/same-month named gold/silver; Pt/Pd1.472, Pt/Au0.402. Four continuous pointers are DYING and excluded. The map's weekly review is dueOctober19; calendar/price freshness guards do not certify actual liquidity leadership or exchange expiry.
 
@@ -21,23 +21,23 @@ LME latest **231275t October12**, versus234275t trailing2yr median (n505), **−
 
 ## Domain and scoring state
 
-| Channel | Actual score | Current interpretation / limits |
-|---|:---:|---|
-| M1 gold | 4 | Saved GLD/DFII10 beta−0.1632%/bp throughOctober8; −0.08 flip unmet. Structural ETF/CB support persists; composition unquantified. No live successor. |
-| M2 silver | 1 | Actual score stays1 during adopted unscored interval; would-be3. April PRIMARY survey forecasts PV151Moz/−19%, industrial−3%, deficit46.3Moz. PRIMARY COMEX329.874071Moz, registered102.757633Moz, net physical−1.934846Moz October9; no global squeeze proved. |
-| I1 copper | 1 | September construction50.3, manufacturing50.1, composite50.7 rebound. Downside-only grid cannot score tightening. New venue snapshots weaken LME-only inference; imports/lag remain unverified. |
-| I2 PGMs | 2 | PRIMARY WPIC2026 platinum surplus265koz; Pd supply call unconfirmed. Latest primary stocks Pt310939.722oz/Pd249946.262oz, zero daily moves October9. Matched stock/fund quantities/leases still absent. |
+| # | Channel | Score (1–5) | Local state | Independence | Key signal [source/date] | Upgrade trigger |
+|---|---|:---:|---|---|---|---|
+| M1 | Gold / real rates | 4 | Structural demand/rate sensitivity, no live successor | Monetary root shared withM2 | Saved beta−.1632%/bp through10/8; rawGLD$382.15close10/12; CPI10/14primarycalendar | Existing weekly/level rails; successor review10/19 remainsunpriced |
+| M2 | Silver / GSR | 1 | Adopted unscored bands, would-be3; deficit/flow interpretation contested | Monetary and industrial roots | GSR69.07named10/9; PRIMARY London silver+1.95%Sept, SHFEwarrant−.56%9/30→10/9; bank2027surplus viewPROV | Existing GSR/band letter, no scoringbefore11/1floor and qualifyingcross |
+| I1 | Copper / China | 1 | Slow mine recovery/firm import pricing; upside remainsunscoreable | China/industrial root | PRIMARY FCX10/2district67%normalizedcapacity; Reuters10/9Yangshan$135/tMEDIA; primaryvenuepointsretained | Existing copper−20% AND LME+100%; no adopted upsideband |
+| I2 | Platinum / palladium | 2 | New auto-demand headwind, no confirmed new acute outage | Industrial plusprecious/supply roots | PRIMARY CADA10/12:Septretail−28%,wholesale−8.9%; rawPPLT$15.27/PALL$20.61close10/12 | Existing confirmedSA/Russiadisruption rule and adopted unscoredbands |
 
-**CROSSING recommendation approved October12** in response to the sit-rep; approval evidence `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md`. PROME owns shared WQ-368 writeback. The floor remains **November1 21:40ET**, all numerical bands unchanged. Reviewed counterfactual11/20 is diagnostic. PPLT−15% crossedOctober7 after approval and recovered; PALL−20% crossedOctober1 before21:40 approval, no qualifying recross throughOctober9. Trend state does not latch an old cross. Reviewed SLV/PPLT/PALL d200=−16.71/−13.47/−21.96%; crash legs decayed1 and upside legs1. No C/S postapproval crossing throughOctober9.
+**CROSSING recommendation approved October12** in response to the sit-rep; approval evidence `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md`. PROME owns shared WQ-368 writeback. The floor remains **November1 21:40ET**, all numerical bands unchanged. Reviewed counterfactual11/20 is diagnostic. PPLT−15% crossedOctober7 after approval and recovered; PALL−20% crossedOctober1 before21:40 approval, no qualifying recross throughOctober9. Trend state does not latch an old cross. October12 SLV/PPLT/PALL d200=−17.30/−13.22/−22.37%; crash legs decayed1 and upside legs1. No new T/C/S crossing onOctober12. Earlier crossing history throughOctober9 remains unchanged.
 
 
-| ETF | T d200 / level | C dd252 / decayed level | S r63 / level | Would-be max |
+| ETF | d200 / T level | C dd252 / decayed level | S d200 upside / level | Would-be max |
 |---|---|---|---|---:|
-| SLV | −16.71% /3 | −48.13% /1 | +5.02% /1 | 3 |
-| PPLT | −13.47% /2 | −39.54% /1 | +5.03% /1 | 2 |
-| PALL | −21.96% /3 | −44.14% /1 | −8.62% /1 | 3 |
+| SLV | -17.30% /3 | -48.53% /1 | -17.30% /1 | 3 |
+| PPLT | -13.22% /2 | -39.46% /1 | -13.22% /1 | 2 |
+| PALL | -22.37% /3 | -44.57% /1 | -22.37% /1 | 3 |
 
-All legs measured throughOctober9; crash decay is the approved rule, not a new adjustment. The table is diagnostic during the unscored month.
+All legs measured throughOctober12 on explicit unadjusted vendor Close; no new T/C/S crossing onOctober12. S uses the adopted d200 upside basis; r63 remains diagnostic only. Crash decay and actual8/20 remain unchanged.
 
 ## Held GLD and standing rails
 
@@ -46,6 +46,14 @@ The October11-received FORGE mirror carries **17 GLD shares**, broker capture ti
 Gold's structural diversification relevance does not establish positive real-rate hedging. September PRIMARY WGC global ETFs+67t/+US$10bn, holdings4256t; not GLD-specific flow. Rechecked Q2 CB demand288.9t above100t floor; old Q1~244t revised57t. Monthly August reported39t is a different incomplete object. Historical VECTOR3 two-win falsifier stands.
 
 Final boot weekly rail **September18→October8**: DFII10+19bp, GLD−5.62%, joint-up signsFalse/False/False; nominalOctober9 Friday usesOctober8 common data across publication lag. Endpoint and declined weekly-continuous shapesFalse; no new fire. Rolling21-calendar-day September17→October8 is diagnostic, not the ruled Friday test. Historical July17→August7 fire remains1/4. Magnitude attribution UNMEASURED. The90d named GCZ26−0.40% contrasts GLD+0.43%, July10→October8; both are small, named change inside1.44% daily sigma. **BASIS SENSITIVE; no regime change inferred.** Legacy gold3317/yield-spike rail and gold<4050 with DFII10≥2.40→2 unchanged; current named price stays above both. Copper watch marks full price/inventory conjunction UNMEASURED; inventory leg clear. GSR95 invalidation not fired.
+
+## News update — October12
+
+PRIMARY CADA/CPCA September passenger-car retail1.618million/−28%YoY, wholesale2.549million/−8.9%, production−9.1%. Demand headwind forPGMs, not measuredPGMtonnes. NEV includesplug-in/range-extenderhybrids; BEV44.17%ofwholesale, not67%catalyst-free. PRIMARY LBMA Septsilver28985t/+1.95%; SHFE silveronwarrant1482493kg10/9/−8372kgvs9/30. These differfromfreefloat/leases. Deutsche2027surplusviewreported, originalnoteunretrieved, remainsPROV.
+
+PRIMARY Freeport10/2:Grasbergdistrict67%ofpre-September2025incidentcapacity, ramping toward2027; no newOctober2026shutdown. ReutersYangshan$135/tMEDIA is import-interestcontext, not nationaldemandvolume. PRIMARY PwC10/7showsstructuralinvestmentconstraints, notacuteoutage. Nornickel9Mresults scheduledOctober26. CPIOctober14/PPIOctober15 both08:30ET; CPIsharesTERRY's existingmanagementdate. No new capitaldecision. Full citations/limits `analysis/2026-10-12_MIDAS-news-sweep.md`.
+
+A later explicit-unadjusted ETF pull returnedOctober12closes after the earlier shared pull returnedNULL12; don't fill or comparedifferent capture dates as adjustments. Named futures remainconservativeOctober9bars. The sharedAPI's implicitadjustmentpolicy is carried into theFORGEsource-seam packet.
 
 ## Open on MIDAS — top3
 

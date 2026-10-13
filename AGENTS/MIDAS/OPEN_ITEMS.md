@@ -2,6 +2,10 @@
 
 **Updated2026-10-12, approved maintenance.** Read with STATUS's top3; change both when a top3 item changes. The complete pre-maintenance102-line register is preserved verbatim in `analysis/BEFORE_MAINTENANCE_2026-10-12_OPEN_ITEMS.md`. Closed historical grading records remain there and in their dated resolution artifacts; no prediction is reopened by this compression.
 
+## 27. October12 news sweep — new evidence integrated
+
+PRIMARY CADA September production/wholesale decline addsPGMdemand pressure; globalcatalystloadings and exportmix remainunmeasured. London/Shanghai silver quantities nowheld forstated dates/categories; freefloat/leases/Indiaimports remainopen. The reportedDeutsche2027surplusforecast isPROV untilprimarybanknoteisheld. FCXOctober2ramp-up timeline iscurrent, notanewmineoutage. CPI10/14/PPI10/15 both08:30ET and Nornickel9Mproduction10/26 verified; the formercoincideswithTERRYmanagementclock. No newstandingmonitor/forecastoractualscore. Source/recencyfilters and explicit-rawOct12ETFbars in `analysis/2026-10-12_MIDAS-news-sweep.md`. S tablelabel corrected toadoptedd200; r63wasdiagnosticonly.
+
 ## 26. Approved domain maintenance — repairs complete, evidence limits named
 
 Primary futures/GSR now bind to dated named contracts at native vendor precision. Date/month mismatches, stale prices, wrong-metal maps, null/nonpositive prices and expired delivery months fail visibly. Continuous pointers are diagnostics. Weekly map review dueOctober19; exact exchange expiry/liquidity selection still needs owner review. Vendor Close is explicitly uncertified settlement. Copper no longer claims an uncomputed price direction; its full price/inventory conjunction is UNMEASURED here, RED inventory requires review. GLD is required for the standing weekly rail; Friday endpoint sampling, joint-up signs and declined weekly-continuous comparison are printed. Historical fires stay intact. Existing tests34/34 pass; final network validation is in the maintenance sources.
@@ -14,7 +18,7 @@ Will's October12 “Okay approved go ahead” accepts the sit-rep's CROSSING rec
 
 ## 24. Futures/source reliability — binding source repaired, settlement seam remains
 
-Four continuous pointers were wrong against the mapped contracts in the October12 capture; corrected primary calculations exclude their prices. Named GCZ26/SIZ26/HGZ26/PLF27/PAZ26 bars are MIRROR Yahoo, not exchange settlements. Shared FORGE history rounds Close to2dp, so the local snapshot retains native ticks; the shared additive raw_close repair belongs to PROME/FORGE. Near a legacy dollar boundary, verify named/anchor contracts and certified settlement. Map review is weekly with content dates, not filesystem mtime. Missing point/expiry data is not a clean bill.
+Four continuous pointers were wrong against the mapped contracts in the October12 capture; corrected primary calculations exclude their prices. Named GCZ26/SIZ26/HGZ26/PLF27/PAZ26 bars are MIRROR Yahoo, not exchange settlements. Shared FORGE history leaves adjustmentpolicy implicit and rounds Close to2dp, so the local snapshot retains native ticks; the shared additive raw_close repair belongs to PROME/FORGE. Near a legacy dollar boundary, verify named/anchor contracts and certified settlement. Map review is weekly with content dates, not filesystem mtime. Missing point/expiry data is not a clean bill.
 
 ## 21. M1 successor — expanded reference complete, draft still unpriced
 

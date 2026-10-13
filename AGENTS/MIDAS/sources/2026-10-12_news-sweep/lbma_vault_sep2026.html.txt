@@ -1,0 +1,34 @@
+London Vault Data | LBMA
+Prices and Data
+London Vault
+Data
+The data represents the volume of Loco London gold and silver held in the London vaults offering custodian services.
+LBMA London Vault Holdings Data September 2026
+We publish total vault holdings data as part of our continued efforts to improve transparency in the Loco London Precious Metals Market, which also includes reporting weekly LBMA Trade Data. The statistics below include the holdings of the London commercial vaults as well as the Bank of England’s gold holdings (the Bank does not hold any silver).
+Gold and Silver held in London Vaults
+As at end September 2026, the amount of gold held in London vaults was 9,821 tonnes (a 1.96% increase on previous month), valued at $1.3 trillion, which equates to approximately 785,690 gold bars.
+There were also 28,985 tonnes of silver (a 1.95% increase on previous month), valued at $56.6 billion, which equates to approximately 966,175 silver bars.
+These figures provide an important insight into London's ability to underpin the physical OTC market.
+The publication on the fifth business day of each month of the amount of gold the London vaults were holding at the end of the previous month follows the recent move to publish the equivalent data for silver. It represents a continued move towards greater transparency and timeliness.
+Vaulting
+Vaults provide secure locations for storing gold and silver bars (bullion), and act as gatekeepers to the Loco London Precious Metals Market. They are its custodians.
+Find out more
+Notes
+The data:
+Is reported monthly (one month in arrears)
+Represents the holdings on the last day of the month
+Starts from July 2016, when the current set of custodians were established
+Includes precious metals held within the M25, and not outside this area
+Includes all physical forms of metal: large wholesale bars, coin, kilo bars and small bars
+Does not include jewellery and other private holdings held by retailers, individuals and smaller vaults not included in the London Clearing system
+Conversion factor: 1 gram = 0.0321507465 troy ounces
+Valuations are based on the pm LBMA gold and silver prices at month end
+The calculation for number of bars assumes that a standard gold bar weighs 12.5kg and a standard silver bar 30kg
+Vaulting
+Vaults provide secure locations for storing gold and silver bars 
+(bullion), and act as gatekeepers to the Loco London Precious Metals 
+Market. They are its custodians.
+Find out more
+LBMA Precious Metal Prices
+International prices for gold, silver, platinum and palladium.
+Find out more

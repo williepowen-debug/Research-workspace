@@ -34,6 +34,8 @@ The mirrored17 GLD shares, received10/11 with capture time UNKNOWN, remain relev
 
 Silver's adopted trend/crash/spike bands remain unscored through November1 21:40ET; CROSSING recommendation approvedOctober12. Actual M2=1; reviewed would-be3. The September25 design's NOT-IN-FORCE banner is historical, not current policy. The four mechanisms distinguish industrial drag from monetary/speculative roots; do not give one the other's evidence. Existing falsifiers retained: industrial-drag reading fails if silver outperforms gold while copper falls; high-beta-gold reading fails when a>5% gold move accompanies>5 GSR points against it. Frozen MIDAS-09 resolvesOctober30 unchanged.
 
+**October12 news addition:** PRIMARY LBMA September silver28985t/+1.95% versus PRIMARY SHFE on-warrant1482493kg10/9/−.56%vs9/30. Differentcategories/clocks, no freefloat/lease/global-squeeze inference. ReportedDeutsche2027surplusviewPROV, originalbanknoteabsent; doesnotreplacePRIMARYApril2026Fdeficit.
+
 ## I1 — copper, China and venue stocks
 
 | Stage | Current evidence | Limit |
@@ -44,6 +46,8 @@ Silver's adopted trend/crash/spike bands remain unscored through November1 21:40
 | Bonded copper | PRIMARY INE copper11969t10/9 vs11366t9/30 (+603t), warrants4279t | Separate product table; no naive global sum or double count |
 
 The collapse rule remains copper−20% AND LME inventory+100% versus its defined baseline. The daily watch reports the inventory leg and marks the price comparison UNMEASURED, requiring review if the RED inventory leg reaches its boundary. It does not manufacture a price direction. The legacy−41.3% China import claim is expressly unverified and excluded from attribution; ZHAO must supply the month, commodity scope, unit and comparator. September's rebound weakens extrapolating August's collapse, without settling weather causally or establishing a construction-to-refined-copper lag.
+
+**October12 news addition:** PRIMARY FCX10/2districtthroughput67%ofnormalizedpre-September2025incidentcapacity, 80%targetmid2027/nearfullend2027. Slowrecoverycan supportpricewithoutdemandboom. ReutersYangshan$135/t10/9MEDIA notnationaldemandvolume; oldGrasbergshutdownstoryis2025.
 
 ## I2 — platinum and palladium
 
@@ -57,6 +61,8 @@ The collapse rule remains copper−20% AND LME inventory+100% versus its defined
 PGMs carry precious/investment and industrial/supply roots. Use raw returns, not volatility-normalized sigma, for SA/Russia country-shape discrimination: joint/Pt-led fits SA better; Pd-led with flatPt fits Russia better; flows can mimic either. The historical tail events have unlike signatures, so their n=3 is not three independent instances of one mechanism. Do not claim a settled cause from no-news or an isolated inventory point.
 
 Actual I2=2; reviewed would-be Pt2/Pd3. Platinum's−15% trend crossOctober7 was postapproval and recovered; palladium's−20% crossOctober1 close preceded21:40 approval and never recrossed throughOctober9. Trend legs are states, not permanent latches. CROSSING is approved; the November1 floor stands. Frozen MIDAS-10 resolvesOctober30 unchanged. Falsifiers retained: precious-leg interpretation fails if Pt/Pd stop moving with gold on>2σ gold days; supply interpretation fails if a confirmed outage does not lift the affected metal relative to its peer.
+
+**October12 news addition:** PRIMARY CADA/CPCA Septproduction−9.1%/wholesale−8.9%/retail−28% addsauto-demandheadwind. New-energycategories includeengine-bearinghybrids; BEVs44.17%ofwholesale, not67%catalyst-free. No proportionalPGMtonnageclaim. PwC10/7PRIMARYstructuralconstraintsnotacuteoutage; Nornickel9MproductioncalendarOctober26verified. Newsreportholdsallcitations.
 
 ## Shared obligations and boundaries
 
