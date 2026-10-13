@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-13T00:26:19.488337+00:00",
+  "owner_thread": "01a131e1-82c3-7702-beae-4992d53e8fd5",
+  "return_thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "message_id": "01a132a6-a559-71c2-80f1-fb0dc5649af4",
+  "transport": "supported codex queue --thread --message",
+  "delivery_packet_commit": "8915e05fc617687ef16e6d34147ec7d7a3dc3bf8",
+  "packet": "PROME/inbox/2026-10-12_from-MIDAS_approved-maintenance.md",
+  "owned_result_commit": "989d42ad03a66b8058c409810371f31f0724aaa3",
+  "notification": "ACCEPTED",
+  "consumption": "UNKNOWN at receipt; acceptance does not establish recipient read",
+  "lifecycle": "existing Will-owned window remains open",
+  "push": "DEFERRED; outside SHADE/TERRY/WALTER/YURI work dirty"
+}

@@ -95,5 +95,17 @@
     "held_book_clock": "STATUS held GLD; SCRATCH5; TERRY owner packet",
     "miner_trigger": "OPEN_ITEMS calendars and THESIS shared obligations",
     "delivery_sync_window": "SCRATCH6/delivery continuity; PROME packet"
+  },
+  "post_delivery_reading": {
+    "bytes": {
+      "CLAUDE.md": 26703,
+      "STATUS.md": 7529,
+      "OPEN_ITEMS.md": 8670,
+      "SCRATCH.md": 4143,
+      "NEXUS_BRIEF.md": 4031
+    },
+    "total_bytes": 51076,
+    "all_explicit_reads_below_budget": true,
+    "note": "rotation snapshot above is unchanged; this adds only the delivery receipt to SCRATCH"
   }
 }
