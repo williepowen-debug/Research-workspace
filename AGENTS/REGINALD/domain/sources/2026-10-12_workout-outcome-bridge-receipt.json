@@ -1,9 +1,9 @@
 {
   "artifact": "workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
   "report": "reports/2026-10-12_workout-outcome-bridge.md",
-  "authority": "Will directly asked REGINALD on 2026-10-12 to perform the first bounded portion of the proposed cross-bank workout outcome bridge.",
+  "authority": "Will directly asked REGINALD on 2026-10-12 to perform the first bounded portion of the proposed cross-bank workout outcome bridge, then directed REGINALD to continue with the available evidence.",
   "as_of": "2026-10-12",
-  "scope": "Twelve baseline/event rows for OZK, EGBN, VLY and WAL; no score, threshold, prediction, calendar, frozen-Q3-frame, trade or peer-file change.",
+  "scope": "Twenty-one baseline/event rows for OZK, EGBN, VLY and WAL, including the complete four-loan EGBN maturity baseline, VLY maturity-retention and re-default evidence, and WAL classified-asset components; no score, threshold, prediction, calendar, frozen-Q3-frame, trade or peer-file change.",
   "local_inputs": [
     {
       "path": "reports/2026-10-12_regional-bank-policy-CRE-report-review.md",
@@ -53,25 +53,52 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings.htm",
       "issuer": "Eagle Bancorp",
       "document": "Q2 2026 earnings deck",
-      "current_web_read": "OPENED 2026-10-12; decisive slide 16 roll-forwards reproduced"
+      "current_web_read": "OPENED 2026-10-12; decisive slide 16 roll-forwards and slide 25 named-loan table reproduced"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/714310/000071431026000041/vly-20260630.htm",
       "issuer": "Valley National Bancorp",
       "document": "Q2 2026 Form 10-Q",
-      "current_web_read": "UNAVAILABLE; consumed pinned full desk report based on complete EDGAR filing"
+      "current_web_read": "FULL EDGAR HTML retrieved and parsed 2026-10-12; modified-loan tables on pages 32-33 reproduced"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/714310/000071431026000036/a2q26earningspresentatio032.jpg",
+      "issuer": "Valley National Bancorp",
+      "document": "Q2 2026 earnings presentation slide 32",
+      "current_web_read": "OFFICIAL EDGAR image retrieved and visually inspected 2026-10-12"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026049001/pressrelease-6302026.htm",
       "issuer": "Western Alliance Bancorporation",
       "document": "Q2 2026 earnings release",
-      "current_web_read": "OPENED 2026-10-12; decisive classification table previously verified in report integration"
+      "current_web_read": "OPENED 2026-10-12; decisive classification table and Cantor footnote reproduced"
+    }
+  ],
+  "retrieved_primary_snapshots": [
+    {
+      "temporary_path": "/tmp/reginald-egbn-q2-deck.htm",
+      "bytes": 63589,
+      "sha256": "072c83677af9c5c585a55d0c0676d8bfc346c784b83d2ba665e0d1c449fef9e6",
+      "persistence": "Temporary retrieval only; canonical official URL recorded above."
+    },
+    {
+      "temporary_path": "/tmp/reginald-vly-20260630.htm",
+      "bytes": 4578209,
+      "sha256": "2181012bfc0d21194a22585dc34633c9287f26093e6da61fa25f970007fbffa7",
+      "persistence": "Temporary retrieval only; canonical official URL recorded above."
+    },
+    {
+      "temporary_path": "/tmp/reginald-vly-slide32.jpg",
+      "bytes": 129561,
+      "sha256": "e967d38489b4b505f3eae9c858150d55a7e77121b62d86a0e4d4c902b2fa4d44",
+      "persistence": "Temporary retrieval only; canonical official URL recorded above."
     }
   ],
   "controls": {
     "unknown_policy": "UNKNOWN is never imputed as zero.",
     "basis_policy": "Principal, carrying value, property value, commitment and cash proceeds remain distinct.",
-    "aggregation_policy": "Overlap and cross-object rows are marked DO_NOT_SUM.",
+    "aggregation_policy": "Overlap, component, subset and cross-object rows are marked DO_NOT_SUM.",
+    "negative_search_policy": "No public post-maturity disclosure is recorded as UNKNOWN, never as payoff, cure or extension.",
     "peer_policy": "Peer-owned files were read only and not modified."
   }
 }

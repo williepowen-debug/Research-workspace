@@ -1,5 +1,5 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** **2026-10-12 (Will-supplied policy/CRE report integrated after closeout; KRE study and TERRY return preserved).** Other rows retain their stated observation dates. Prior affected operating text → `archive/WQ414_operating_snapshot_2026-10-11.md`.
+**Updated:** **2026-10-12 (Will-supplied policy/CRE report integrated and bounded workout bridge extended; KRE study and TERRY return preserved).** Other rows retain their stated observation dates. Prior affected operating text → `archive/WQ414_operating_snapshot_2026-10-11.md`.
 *Stamps 10/10 AM (BLOCK R5, crc32 `3693ce98`) and 10/9 PM · 10/7 · 9/29 (BLOCK R3, crc32 `adb2708f`) rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-10.md`.*
 *Stamps 9/27 PM, 9/27 and 9/26 rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-07.md` BLOCK R1, crc32 `ebe14531`.*
 *Stamps 9/14 and 9/02 rotated VERBATIM → `archive/STATUS_rotation_2026-09-27.md` BLOCK R1, crc32 `cb6c187f`.*
@@ -75,7 +75,7 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
-**10/12 regional-bank policy/CRE report + first workout bridge resolved:** `reports/2026-10-12_regional-bank-policy-CRE-report-review.md`; `reports/2026-10-12_workout-outcome-bridge.md`; `workbook/WORKOUT_OUTCOME_BRIDGE.tsv`; KB207–213. Full DOCX plus decisive primaries checked, then 12 OZK/EGBN/VLY/WAL rows encoded with basis/reconciliation/overlap guards. Existing Q3 reads fill unknowns; no new thread, calendar date, score, cohort, frozen-frame or trade change.
+**10/12 regional-bank policy/CRE report + bounded workout bridge resolved:** `reports/2026-10-12_regional-bank-policy-CRE-report-review.md`; `reports/2026-10-12_workout-outcome-bridge.md`; `workbook/WORKOUT_OUTCOME_BRIDGE.tsv`; KB207–214. Full DOCX plus decisive primaries checked, then 21 OZK/EGBN/VLY/WAL rows encoded with basis/reconciliation/overlap guards. Second tranche completes the four-loan EGBN maturity baseline, VLY retention/re-default evidence and WAL classified-component identity. Existing Q3 reads fill unknowns; no new thread, calendar date, score, cohort, frozen-frame or trade change.
 
 **10/12 OZK handoff integrated:** `reports/2026-10-12_OZK_durability-consumption.md`; earlier deferral superseded. Funding/Boston/recovery evidence consumed; existing Q3 outcomes remain pending, no score/cohort change.
 
