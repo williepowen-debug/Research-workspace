@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-12 bounded workout bridge extended; STATUS pin `cdad681ce8aea496ade400087826203f0f1ec460`.** Settled gates remain through 10/9; closed-market figures were not refreshed. WQ-419 handoffs/checklist remain accepted by PROME (`9451933aa`/`c7f945a95`), with peer reads unverified; WQ-414 accepted `1b937462e`. **Everything FHLB → `research/FHLB/` (README first).** No new grade, score, cohort, frozen frame or trade.
+**As of:** **2026-10-12 bounded workout bridge extended and canonical surfaces audited; STATUS pin `cdad681ce8aea496ade400087826203f0f1ec460`.** Settled gates remain through 10/9; closed-market figures were not refreshed. WQ-419 handoffs/checklist remain accepted by PROME (`9451933aa`/`c7f945a95`), with peer reads unverified; WQ-414 accepted `1b937462e`. **Everything FHLB → `research/FHLB/` (README first).** No new grade, score, cohort, frozen frame or trade.
 
 ## CROSS-DOMAIN
 
