@@ -1,4 +1,18 @@
-# SHADE SCRATCH — restart handoff
+# SHADE SCRATCH — active boot / preserved restart handoff
+
+## Boot receipt — 2026-10-12T23:04:26-04:00
+
+Will directly requests: "Hi SHADE please boot up". Current SHADE session is Codex/OpenAI (GPT-6 family; exact model variant UNKNOWN), thread `01a13335-0ca0-7ee2-b281-97c6affe060e`, host `WilliePOwen`, repository `/home/willi/Research-workspace`, desk cwd `/home/willi/Research-workspace/AGENTS/SHADE`, branch `master`. This is a boot and handoff recovery, not a new source pass or lifecycle closeout. The previous closeout below belongs to its named prior thread.
+
+**Explicit instruction loading:** root `CLAUDE.md`, `AGENTS.md`, `USER.md`; desk `CLAUDE.md`; `PROME/COMPLETION_SPEC.md` and `PROME/ORCHESTRATION_PLAYBOOK.md` runtime mechanics. Read desk STATUS, SCRATCH and MEMORY in full; checked NEXUS_BRIEF and REFERENCE §2 for carried-figure handling, roster membership/cadence, and the previous recorded owner closeout. Resumed the existing October13/23 obligations; no repeat of accepted October12 source work.
+
+**Capabilities:** exposed shell/Python, filesystem reads/patches and Git; web tool exposed but connectivity not exercised during boot. Thread-local collaboration tools do not certify fleet discovery or PROME transport. No supported native cross-session list/read/send tool is exposed here; prior PROME transport receipts are historical evidence, not a capability grant for this thread. Fleet-wide current writer presence and peer consumption UNKNOWN. No owner/helper launched, no external message or alternate transport attempted.
+
+**Checks:** canonical `inbox_census.py SHADE`: top-level0 / WALTER0; `corrections_boot_check.py SHADE`: rc0, zero unreceipted NAMED rows; `read_cap_check.py --agent SHADE`: rc0 within its declared heuristic perimeter. MEMORY31,944B/98% of budget remains rotation-due October23; no lesson appended. Own desk clean before receipt. Startup pull and push deferred under root Git Protocol: pre-existing untracked `AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md` is outside SHADE ownership. Cached tracking showed master ahead1 before this boot; no fresh remote verification. Persist this receipt in a SHADE-only local commit; remote publication remains pending.
+
+**Next:** October13 after regular equity close, renew LIQUID-owned HY level/count/anchor and six common closes before L673 assessment; prior inputs are predecessors only. Historical October10 fire remains PROVISIONAL; October12 endpoint ineligible. Conditional statutory dig only on an eligible qualifying grade. October23 backlog retained; no source, threshold, score, grade or capital permission changed by this boot. No new Will decision required.
+
+## Preserved previous closeout
 
 **Will-requested closeout, October 12, 2026.** Will asks to save progress and continue at the next spawn. Runtime Codex/OpenAI; exact model label UNKNOWN; current thread `01a131e1-41b2-7f91-aa98-d383b9a2060e`; repo `/home/willi/Research-workspace`, desk `AGENTS/SHADE`, branch master. No subagents or background research. Closeout is persistence/release, not completion of every standing task.
 
