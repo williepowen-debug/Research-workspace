@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October13 owner launches — Will reports:** "All have been spawned and are working" following the supplied Codex Sol commands for REGINALD, DEWEY, BRENT, TERRY and WALTER. These are Will-launched owner sessions; preserve their work and do not spawn duplicates. Actual session IDs/model settings and communication routes have not been independently verified. Research plan below supplies priorities; consume owner deliveries before revising judgments or commissioning follow-ups.
+
 **October13 research priority — Will directs future research/trade planning after broker catch-up:** [decision-focused plan](reports/2026-10-13_research-and-next-trades.md). Banks: actual cash/loss/retained exposure at existing Q3 releases; energy: October14–15 delivered diesel/IEA additionality before reopening WAIT; insurer work conditional; pre-CPI spread remains PASSED. Completed L694 not restarted. No new owner launch or trade; existing tasks/guards remain.
 
 **October13 desktop boot / Git recovery:** [Recovery receipt](reports/2026-10-13_git-recovery-boot.json) records Will-approved rebase, preserved local work, boot checks and capability gaps. Original commits/cache backup is local at the receipt's path. Current receipts, source duties and management clocks below remain in force.
