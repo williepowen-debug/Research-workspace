@@ -1,0 +1,54 @@
+# PROME/HANDOFF.md — pre-closeout snapshot, October13,2026
+
+Verbatim original below; relative links retain their original repository-root PROME/ base. This is historical evidence, not a current instruction override. Source receipt: measure.py crc32=1352181806; crc32_no_final_nl=2461229660.
+
+<!-- BEGIN ORIGINAL -->
+# PROME HANDOFF
+
+**Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns the immediate next actions, blockers and generated queue/calendar. [STATUS](STATUS.md) indexes remaining PROME work; source records establish the decision and each completion/receipt fact. The document cleanups below do not discharge those obligations.
+
+## October12 — laptop boot
+
+[Boot receipt](reports/2026-10-12_laptop-boot.md) records current runtime coverage, source-version intake and correction dispositions. Root/local instructions and context read; automated gate passed. Private Deck pickup and cross-runtime live-owner identities remain unverified. Spawn recommendations delivered; no desk launched. L672 now follows CARL's recovered source delivery, while L696/L697 carry the historical FHA consumer and STUE assignment gaps. This is a boot checkpoint, not a session closeout.
+
+## October12 — computer-switch closeout and current owner coordination
+
+[Closeout record](reports/2026-10-12_machine-switch-closeout.md) owns this boundary's review, publication limits and checkpoint requests. Next computer: pull confirmed origin while safe, boot PROME, then verify fresh owner identities before routing. [Machine-local checklist](MACHINE_LOCAL.md) governs infrastructure that Git cannot carry. Old window IDs are evidence, not reusable launch instructions.
+
+[Consumption record](reports/2026-10-12_active-owner-checkin.md) owns L694 acceptance, WALTER READS/MATCH29, CARL/DEWEY delivery, OZK approved follow-ups and REGINALD KRE study. [L633/TERRY receipt](reports/2026-10-12_BRENT-L633-consumption.md) owns bounded afternoon acceptance and VLO source UNKNOWN. L695 is independently accepted; older scanner weaknesses remain at its acceptance record. Later owner closeout packets need exact committed intake; retain their future evidence dates and independent acceptance duties.
+
+## Earlier October12 transition — approved opportunity discovery (historical window handoff)
+
+**Context transition — Will direct notice:** “by the way on my end I am closing out my spawned agents.  I will respawn some of them(like BRENT, TERRY, etc) in a fresh context window.  Just wanted to let you know incase you get surprised by them or something”. Suspend further task sends to the old window IDs; no duplicate/replacement launches by PROME. Scope/approval of L694 survives. On each fresh owner's actual boot/identity receipt, reconcile latest saved work and any old-session L694 result, then continue only unfinished stages through the verified new identity. Pending queue acceptance does not prove consumption. Do not mark every desk closed from this general notice.
+
+WALTER's explicit Will-requested session-closeout answer at0db4fdf32 was actually read by PROME: `PROME/inbox/2026-10-12_from-WALTER_session-closeout.md`. It is published in confirmed push87bc4111b. Ready for Will to clear; process death/clearing not observed. Fresh WALTER starts at `AGENTS/WALTER/LAST_COMPLETION.md`; source, X-reauthorization, attestation, settlement and downstream duties survive. Other owners' individual closeout receipts remain to be reconciled.
+
+Will approved implementing the early domain/TERRY feasibility approach. [Approved assignment](proposals/2026-10-12_opportunity-discovery-APPROVED.md), DOCKET L694, owns the two-candidate bound, stages, direct approval and existing owner identities; ORCH_LOG records actual notification/consumption. BRENT and REGINALD provide zero or one existing-research candidate each, TERRY checks instrument/horizon/budget before deeper work, then returns a diagnostic comparison. Do not repeat completed stages after a context reset. Research approval grants no capital or rule change.
+
+Latest accepted work: BRENT L689 memo plus TERRY MPC construction PASS163664085/3d61c6af6; OZK L690 and REGINALD L691 complete. [Integration receipt](reports/2026-10-12_OZK-L690-and-CATO-integration.md) preserves unknown Horton occupancy, ungraded Q3 and TERRY broker/acceptance gaps. L633 afternoon and WATT full-day/future checks remain outstanding; L684 independent result read and VIOLET receipt remain owed. Existing owner windows stay Will-owned; old October12 laptop/permission limitations below are historical and do not describe the current desktop TERRY. No lifecycle closeout is requested by L694.
+
+## October11 — current-surface cleanup (scoped continuation)
+
+October12 closure and runtime continuity → [closeout record](reports/2026-10-12_continuation-closeout.md). TERRY's existing approval/lock issue remains unresolved; BRENT's Will-owned window is active on his Monday request and must not be terminated by PROME's closeout. The record distinguishes saved history, idle runtime state, actual communication and session release.
+
+Will: “alright approved go ahead,” on the bounded STATUS/BRIEF/HANDBOOK/HANDOFF cleanup and rendered-output validation. Current work and interpretation are separated from historical narratives; full prior files are preserved at [the snapshot index](archive/CURRENT_SURFACES_2026-10-11/README.md). [Acceptance and review state](reports/2026-10-11_current-surfaces-cleanup.md) owns the cleanup result; do not infer acceptance from the existence of this entry. Instrument repairs retain their existing approved order. Hosted delivery is separate from a local render and requires its own PUBLISH receipt.
+
+## October11 — SCRATCH cleanup and owner-evidence catch-up
+
+[SCRATCH cleanup](reports/2026-10-11_scratch-resume-cleanup.md) implemented and independently accepted, pushed b6979a6b1. [Six existing owner grades consumed](reports/2026-10-11_current-state-improvement-review.md), independently accepted, pushed e0e162ae8. Those completions are bounded: no new market refresh, no broader spine audit and no completion of the process-build backlog. [Key-file sweep](reports/2026-10-11_key-file-staleness-sweep.md) retains its findings.
+
+## October11 — broker reconciliation and ruled owner follow-through
+
+[Broker transcription](data/2026-10-11_broker-capture-TRANSCRIPTION.md) and [reconcile acceptance](reports/2026-10-11_broker-reconcile-acceptance.md) own the reconciled evidence and its limits. [Owner packet](../AGENTS/TERRY/inbox/2026-10-11_from-PROME_broker-reconcile-new-calls.md) / DOCKET L685–L688 retain card, booking and timestamp-consumer duties. [WQ418/420 ruling](proposals/2026-10-11_wq418-420-RULED.md) owns the new continuation; [earlier accepted work](proposals/2026-10-11_wq414-409-RULED.md) owns earlier commission receipts. [October11 Standard closeout](reports/2026-10-11_standard-closeout.md) predates these scoped continuations; they are not another Standard closeout.
+
+## Unresolved continuity — keep across archival
+
+- SCRATCH open carry retains direct LABOR/VULCAN/VIOLET calendar reads, approved L675→L628→L676 order, next HEARTBEAT base/residue, ARGUS L678 unread pass5/L679/P5, older source gaps, next-launch findings and missing receipts. Dates/owners remain in DOCKET; WQ411 full spine audit is still separate.
+- [October7 recovery](reports/2026-10-07_crash-recovery.md), [October4–5 carry block](archive/SCRATCH_ROTATED_2026-10-07_crash-closeout.md) and [October5 bounce](reports/2026-10-05_1140-bounce-closeout.md) preserve unresolved recovery evidence. Older HENRY/VULCAN/TERRY session release/termination remains UNKNOWN; old active/idle lists are not present liveness. [Runtime compatibility](reports/2026-10-05_runtime-compatibility-results.md) retains Claude/mixed execution tests deferred to a suitable verified Claude Code session. Existing approvals/permissions persist; future OpenAI helpers explicitly Sol under USER.md; no duplicate owner or unattended launch.
+- Deck Change B DP5/DP7 and L663 remain at their acceptance/correction-stop records; L602 Helm size debt and ACTIVE_DECISIONS rewrite remain; WQ404's owner repair is withheld pending its required review. CATO/DAEDALUS startup/closeout reads, CARL BOARD gap, owner fire-time flags, expired allowlist cleanup, AEOLUS attestation and FORGE mirror L634 remain tracked at their source records. Quartr re-auth and EDGAR string remain owed.
+- Unverified historical tails are not silently retired: [prior HANDOFF](archive/CURRENT_SURFACES_2026-10-11/HANDOFF.md) preserves October9 ARGUS advisories A–H and their exact bases, including WQ404 ECB-base-rate attribution, L656's rc disclosure and conflicting orchestration counts. Current resolution must be established at the named owner/acceptance record before closing any. [Prior HANDBOOK](archive/CURRENT_SURFACES_2026-10-11/HANDBOOK.md) retains September18 unknown “big task,” MARCO/CATO wording fix and registry review-brief pointers; no closure is claimed. Due NEXUS review and FLG intake maintenance remain in DOCKET. The parked reader-model trial remains historical, with current helper selection governed by USER.md.
+
+## Earlier history
+
+[Complete prior HANDOFF](archive/CURRENT_SURFACES_2026-10-11/HANDOFF.md) contains all five October9–10 entries verbatim, including exact operator words, receipts, slips and unresolved qualifiers. Earlier history remains in `PROME/archive/HANDOFF*`; source-linked obligations above survive the move. Snapshots retain their original relative-link base, documented in the archive index.
+<!-- END ORIGINAL -->

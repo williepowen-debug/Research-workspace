@@ -51,3 +51,13 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+```dashboard-amendment
+{
+  "amendment": 2,
+  "source_sha256": "538b32be655a2432ff95a26a9a479c6375f33718734d77f15a67711141c12e56",
+  "set": {
+    "one": "October12 owner evidence, recorded October13: SHADE prior fire PROVISIONAL; fresh inputs and an eligible close required. Pd supply-only and London silver depletion cases weakened; Pt overall unchanged, available silver unresolved. No insurer cohort loss or realized Russian diesel increment established. Earlier VLO/source and broker qualifications remain; no fresh market quotes or capital action."
+  }
+}
+```

@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-10-12 — machine-switch continuity; owner evidence consumed, no fresh market observation or broker capture.
+**Updated:** 2026-10-13 — laptop closeout; owner results and explicit lifecycle receipts reconciled, no fresh market observation or broker capture.
 **Last spine audit:** 2026-10-02. Re-run when >7d; WQ411 owns the next audit decision. Prior findings and unresolved residue remain at their records; this cleanup is not that audit.
 
 ## Current Work Queue — PROME's own actions
@@ -10,7 +10,8 @@ Immediate priorities, blockers, management clocks and required direct calendar r
 |---|---|---|
 | Position follow-through | [FORGE](../FORGE/STATUS.md): broker mirror/vintage; [DOCKET](DOCKET.tsv) L685–L688: card, booking and consumer obligations | Held-call cards delivered; independent booking acceptance remains at L687. Retain unknown orders, broker quote time, Robinhood and D69 gap. Position-facing work first. |
 | WQ418/420 | [Ruling](proposals/2026-10-11_wq418-420-RULED.md): decision and exact approved scope; DOCKET L681/L684: remaining duties | Follow existing owner; verify delivered encoding separately from approval; retain VIOLET consumption and new closeout obligations. Never infer completion from the prior commission's receipt. |
-| Current owner handoff | [Closeout record](reports/2026-10-12_machine-switch-closeout.md); [consumption record](reports/2026-10-12_active-owner-checkin.md) | On next boot, reconcile committed checkpoint receipts and verify current window identities; then advance only unfinished approved work. |
+| Current owner handoff | [Laptop closeout](reports/2026-10-13_laptop-closeout.md); [four-desk consumption](reports/2026-10-12_laptop-orchestration.md); SHADE/YURI coverage and MIDAS round2 records linked by HANDOFF | Bounded results consumed; SHADE/YURI explicit closeout receipts accepted. Will directs remaining owners' closeout. On next boot consume later exact receipts, verify current identities, then advance only unfinished approved work. |
+| Metals / insurance remaining work | WILL_QUEUE421–424 and DOCKET L241/L698–L701; [MIDAS](reports/2026-10-12_laptop-round2.md), [SHADE](reports/2026-10-12_SHADE-freshness-check.md) | MIDAS frozen-fee interpretation and FORGE precision remain pending; SHADE access is separate from owner-first method specifications. Prior CROSSING approval is recorded, not a new decision. |
 | Coordination repairs | DOCKET L675 → L628 → L676, then remaining L675 sequence | Preserve approved order and direct-calendar workaround until visibility repair. Recorded activity is not verified owner liveness. |
 | Regime / synthesis | [HEARTBEAT](../HEARTBEAT.md), [next-base plan](plans/2026-10-10_heartbeat-30th-rebase-PLAN.md), SCRATCH open carry | Carry owner grades and declared read residue into the next base; no copied base number or fresh-data claim here. |
 | Approved consolidation / remaining defects | DOCKET L647, L583, L602, L655, L663–L665, L678/L679; [WQ371 ruling](proposals/2026-10-02_wq299-c2-c4-consolidation-RULED.md) | Keep approved edits, correction stops, size debt and unread repair residue open until their own acceptance. L647 stays behind the approved process sequence. WQ348/WQ361 residue remains at its ruling record and L583. |

@@ -6,27 +6,27 @@
 
 ## WRITTEN
 
-2026-10-12 — owner-evidence synthesis at computer-switch closeout; no fresh market pull or broker capture.
+2026-10-13 — laptop closeout synthesis of accepted October12 owner evidence; no fresh market pull or broker capture.
 
 ## HEADLINE
 
-The opportunity comparison is complete; source quality and independent acceptance are the next constraints.
+The insurance and metals evidence is better defined; important transmission and availability gaps remain.
 
 ## STORY
 
-PROME accepted the bounded L694 comparison: EGBN passed the feasibility stage and energy remains WAIT; the separate BNO instrument result remains NO TRADE. REGINALD's whole-basket KRE study shows broad technical weakness through October9 but does not establish a causal broad-credit deterioration. CARL's saved spending evidence supplies counterevidence to broad consumer deterioration. BRENT completed the bounded afternoon source read with physical gaps; TERRY grades the governing VLO price leg UNKNOWN because accepted source proof is missing. [Consumed evidence and scope](reports/2026-10-12_active-owner-checkin.md).
+SHADE's source work supports qualified structural insurance risk, while completed asset exchanges, retained losses and a sector-wide cascade remain unproved. MIDAS finds weaker support for a palladium supply-only case and a London silver depletion story; its overall platinum view is unchanged with weaker automotive support, and available silver remains unresolved. YURI completed its saved legal-text reading but still lacks decisive signed terms and operational effects. WALTER restored bookmark access and completed the bounded intake; recipient adoption remains separate. [Accepted work and evidence limits](HANDOFF.md).
 
 ## QUESTION
 
-Existing approval covers the unfinished owner work. The generated queue owns decisions still needing Will; completed research does not authorize capital. Independent WQ420 acceptance and recipient consumption remain separate from implementation.
+The generated queue owns Will's decisions. Existing document access for SHADE and the frozen MIDAS fee/basis question remain open; SHADE's method questions first require owner specifications. Completed research creates no capital authority. Independent WQ420 acceptance remains separate from owner encoding.
 
 ## FALSIFIER
 
-A broad stress thesis still needs corroborating funding, credit and household evidence; bank share weakness alone cannot supply it. Qualified settlement evidence can resolve the VLO UNKNOWN grade, while missing refinery run-states cannot establish complete recovery.
+Completed insurer remediation with stable flows would weaken the pressure assessment. Recovering engine-bearing vehicle production and measured catalyst demand would weaken MIDAS's auto headwind. Matched available London inventory and borrowing costs could distinguish improved supply from a squeeze. These are evidence tests, not new numeric gates.
 
 ## DISAGREEMENT
 
-WALTER identified a narrow conditional SCF numerator discrepancy and routed it to CARL. The disputed conditional figure remains withheld pending the owner's arithmetic answer; the historical all-family basis survives. [Coordination record](reports/2026-10-12_active-owner-checkin.md).
+MIDAS retains the disagreement between WPIC's September platinum surplus forecast and Johnson Matthey's older May deficit model; different models and dates are not a consensus. Chinese vehicle declines are not metal-demand percentages. SHADE's alternative asset ratios do not establish an approved illiquidity breach. [Exact qualifications](reports/2026-10-12_laptop-round2.md) and [insurance evidence](reports/2026-10-12_SHADE-freshness-check.md).
 
 ## POSITION
 
@@ -34,4 +34,4 @@ WALTER identified a narrow conditional SCF numerator discrepancy and routed it t
 
 ## WATCH
 
-[SCRATCH](SCRATCH.md#-next-session--start-here) is the restart point. [DOCKET](DOCKET.tsv) owns dates, [GATES](GATES.tsv) owner grades, and [closeout record](reports/2026-10-12_machine-switch-closeout.md) machine-switch limitations. Consume later committed owner checkpoints before restarting work; preserved evidence duties and independent reviews remain open.
+[SCRATCH](SCRATCH.md#-next-session--start-here) is the restart point. [DOCKET](DOCKET.tsv) owns dates and [GATES](GATES.tsv) owner grades. [Closeout record](reports/2026-10-13_laptop-closeout.md) distinguishes accepted research, lifecycle receipts and unavailable hosted publication. Consume later owner receipts before restarting work; SHADE's after-close assessment requires fresh inputs and its existing eligibility rules.

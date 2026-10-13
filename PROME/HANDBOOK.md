@@ -6,9 +6,9 @@
 
 ## Top priorities
 
-**2026-10-12 — current source index:**
+**2026-10-13 — current source index, without a new market or broker refresh:**
 - **Position-facing work first:** [SCRATCH's next action](SCRATCH.md#-next-session--start-here) names the nearest expiries and existing owner; [FORGE](../FORGE/STATUS.md) carries the book. [Broker evidence](data/2026-10-11_broker-capture-TRANSCRIPTION.md) was received October11; exact capture/quote time and working orders remain UNKNOWN, Robinhood was not supplied, and D69's +$53.54 remains unexplained. Receipt date does not establish fresh quotes.
-- **Computer-switch continuity:** [Closeout record](reports/2026-10-12_machine-switch-closeout.md) and [HANDOFF](HANDOFF.md) distinguish saved work from pending owner intake and hosted publication. Verify fresh owner identities before routing.
+- **Laptop closeout continuity:** [Closeout record](reports/2026-10-13_laptop-closeout.md) and [HANDOFF](HANDOFF.md) distinguish accepted research, SHADE/YURI closeout receipts, remaining owner lifecycle receipts and unavailable hosted publication. Will directs the other windows. Verify fresh owner identities before routing; SHADE's raw source store does not travel with Git.
 - **Already-approved work:** [WQ418/420 ruling and receipts](proposals/2026-10-11_wq418-420-RULED.md) distinguish the decision from owner encoding, independent acceptance, recipient consumption and new closeout. Prior commissioned work's closeout is not evidence that the continuation is finished; no repeat approval is owed.
 - **What needs your word:** the generated queue below owns current asks. Owner work and clocks remain in [DOCKET](DOCKET.tsv); operating condition and remaining repairs are indexed in [STATUS](STATUS.md). No new trade ruling comes from this cleanup.
 
