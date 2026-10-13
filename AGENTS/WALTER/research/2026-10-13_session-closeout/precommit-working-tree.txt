@@ -1,0 +1,39 @@
+ M AGENTS/WALTER/LAST_COMPLETION.md
+ M AGENTS/WALTER/MEMORY.md
+ M AGENTS/WALTER/REGISTRY.tsv
+ M AGENTS/WALTER/SESSION_LOG.md
+ M AGENTS/WALTER/STATUS.md
+ M AGENTS/WALTER/inbox/processed/.consumed.tsv
+R  AGENTS/WALTER/inbox/2026-10-12_from-MIDAS_news-thesis-test-correction.md -> AGENTS/WALTER/inbox/processed/2026-10-12_from-MIDAS_news-thesis-test-correction.md
+ M AGENTS/WALTER/registry/BATCH_MANIFEST.tsv
+ M AGENTS/WALTER/routed/delivery_log.tsv
+ M HEARTBEAT.md
+ M PROME/BRIEF.md
+ M PROME/HANDBOOK.md
+ M PROME/HANDOFF.md
+ M PROME/HEARTBEAT_DASHBOARD.md
+ M PROME/SCRATCH.md
+ M PROME/STATUS.md
+ M PROME/WILL_QUEUE.md
+ M PROME/artifacts/decision_deck.html
+ M PROME/artifacts/decision_reference.html
+ M PROME/artifacts/docket.html
+ M PROME/artifacts/handbook.html
+ M PROME/registry/WQ_EXPLAINERS.tsv
+ M PROME/registry/WQ_LEDGER.crc
+ M PROME/registry/WQ_LEDGER.tsv
+ M PROME/state/ORCH_INFLIGHT.md
+ M PROME/state/ORCH_LOG.tsv
+ M PROME/state/argus_review.json
+ M PROME/state/brief_changes.jsonl
+ M PROME/state/brief_snapshot.json
+ M PROME/tools/dashboard_build.json
+ M PROME/tools/dashboard_state.json
+?? AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md
+?? AGENTS/WALTER/archive/LAST_COMPLETION_2026-10-13_before-session-closeout.md
+?? AGENTS/WALTER/research/2026-10-13_session-closeout/
+?? PROME/archive/HANDOFF_2026-10-13_laptop-closeout.md
+?? PROME/archive/SCRATCH_2026-10-13_laptop-closeout.md
+?? PROME/inbox/2026-10-13_from-WALTER_session-closeout.md
+?? PROME/reports/2026-10-13_laptop-closeout.md
+?? memory/2026-10-13.md

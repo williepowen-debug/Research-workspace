@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-13T00:48:42Z — Will-requested bookmark intake in existing thread, ACTIVE. **Boot PARTIAL**. BOARD **1367**; October12 operator-day total **44 signals (1 FLASH, 43 PRIORITY)**. This pass:13 PRIORITY signals,51 create-only handoffs,12 filtered/DUP rows,3 completed read-only framing helpers;0 new cluster-mediating signals. Prior33 filtered rows are dated evidence; timestamps now cross UTC midnight.
+**Updated:** 2026-10-13T14:24:38Z — Will-requested FULL closeout; handoff saved. Research coverage **PARTIAL**. BOARD **1367**; last routing day October12 **44 signals (1 FLASH,43 PRIORITY)**. This closeout:0 new signals, one MIDAS return CLOSED3/3 FOLD,3 helper closeout receipts. October12 cluster-mediating count0; no threshold alert generated.
 
 ## BOTTOM LINE
 
-Rosner bounded free-source pass stopped with0 primary court documents recovered; secondary case/date lead identified, complaint figures and current orders remain unread. Existing SIG003 not repeated; no new grade or study. Reconciled YURI and SHADE with completed intake; MIDAS was already consumed. One exercise-absence correction now has BOARD/R1 linkage and three handoffs; it changes no mobilisation or NATO-risk grade. Russian diesel permission remains distinct from unknown delivered additional supply. SHADE’s amended test first becomes eligible after October13 close; LIQUID owner inputs and DEWEY’s October14 source work remain dependencies. Eight existing source packets are published but consumption is unverified within the inspected logs; consequential gaps are named to PROME. Ordinary lane, phone and drop have0 new items. X reauthorization succeeded after Will’s fresh retry;48 new bookmarks/50 content items are fully dispositioned in two CLOSED manifests, with13 source-qualified updates locally saved. Exactly48 staged IDs marked after committed review (654 total consumed,0 pending); publication/consumption stay separate in LAST_COMPLETION. Existing expiry decisions and all dated market/source limits stay with their owners. Detailed duties and publication counts live in LAST_COMPLETION.
+Requested bookmark work is complete:48 posts/50 content items assessed,13 source-qualified updates saved, exact48 reviewed IDs marked (654 total,0 pending at the saved scan). YURI source qualifications and the latest MIDAS vehicle/PGM/silver distinctions are adopted without a new grade or research commission. Court-document access, diesel physical additionality and owner-consumption gaps remain unresolved. This closeout adds no October13 market or broker observation; the table below is dated evidence. Current obligations, publication facts and the resume point live in LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS — retrieved October12 20:58Z unless separately dated
 
@@ -23,39 +23,31 @@ Rosner bounded free-source pass stopped with0 primary court documents recovered;
 | Iran | Last full sweep October8; October12 limbs/source-access improvements do not reset it. Losses3 / marks1–14–85 are inherited owner grades. Anchor now22681B, below rotation stop; guards remain active. Source gaps prevent a full current-state clearance. |
 | Book basis | October11 broker receipt, exact capture/mark time UNKNOWN. TERRY October12 header integrates OZK extension and existing expiry cards; no order or fill inferred. |
 
+
+**Closeout disposition 2026-10-13T14:24:38Z:** no fresh market pull in this persistence closeout; every above near-trigger level/count remains at its stated source/retrieval vintage. Current October13 levels and eligible new closes are UNKNOWN until the next ordinary source pass. No threshold fire or trade clearance inferred.
+
 ## MISSION
 
 Routing plus receiving-layer readiness. Domain agents own evidence, state and judgment. COP retired; charter IDENTITY governs.
 
 ## STATE POINTERS
 
-**CL9 fixed on Will’s direct request:** doctor launch/syntax failures now UNKNOWN unless a completed report supports a verdict; normal completed findings remain REVIEW.30regressions PASS; report `research/2026-10-12_runner-cl9/REPORT.md`. Original repairs retained; time savings unmeasured and stale attestation separate. Stop extending the runner; observe ordinary use.
-
-**Current reboot evidence:** `research/2026-10-12_reboot/BOOT_RECEIPT.md`, `THRESHOLD_REVIEW.md`, `BOOKMARK_REVIEW.md` and keyed disposition TSV. Previous closing handoff is preserved verbatim in that directory. Six reboot/continuation signals011-016; exact29bookmark dispositions are complete.
-
-**Procedure repair:** `tools/closeout_run.py` collects existing light/full checks and drafts evidence; manual duty outcomes remain in LAST_COMPLETION. Acceptance: `research/2026-10-12_closeout-improvements/REPORT.md`. No new routing law, owner grade or unattended run.
-
-**Current bookmark read:** browser reauthorization and the subsequent48-item scan succeeded;606 prior consumed IDs were preserved,50 content items fully dispositioned. Evidence: `research/2026-10-12_bookmarks-reauth/REPORT.md`. The16:21Z repair and laterHTTP400/timeouts are historical, not current auth status. No unattended authority was added.
-
-**Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. This reboot is active; prior closeout receipt is historical. All5reboot/continuation helpers explicitlyclosed.12ordinaryownerpackets consumed with datedsource/basis limits. No activeREQoutbox. Original29bookmarkstage fullyassessed/consumed. Do not infer any other desk’s closure.
-
-**Later normal intake:** OZK L690 Horton qualifier routed in signal010; current occupancy unresolved, historical credit-bid/model limits preserved. Source author subsequently committed the packet; read hash matched and WALTER archived/declared consumption, per owned intake receipt.
-
-Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.tsv. October9 freight retry completed October10; old missing paragraph retained as history. October9 USO call sale disposition corrected separately from October14 calls; current orders remain unverified. Current duties: `LAST_COMPLETION.md`; boot evidence: `research/2026-10-12_boot/BOOT_RECEIPT.md`; transcript review: `research/2026-10-12_boot/TRANSCRIPT_REVIEW.md`.
+- Current obligation/design/Will-choice list and resume point: `LAST_COMPLETION.md`.
+- Closeout evidence/manual duty outcomes: `research/2026-10-13_session-closeout/`.
+- Bookmark source/read/dispatch evidence: `research/2026-10-12_bookmarks-reauth/REPORT.md`.
+- CL9 runner repair implemented under Will's direct request;30 regressions passed at its dated test. Runtime friction/time savings and independent acceptance remain separate. No further runner/spec work commissioned.
+- Prior reboot/owner-intake/Rosner evidence remains at its named research paths and exact checkpoint archives. No full-source or first-release certification inferred from those saved passes.
+- Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
 
 ## NETWORK AWARENESS
 
-Registry refreshed before this regeneration at2026-10-12T21:06:26Z. All41 first30-line owner scopes inspected; this is header context, not full-owner or current-market certification. Older registry dates (age is not DARK): YEYOU 2026-09-05 (37d;RETIRED); RAV 2026-08-02 (71d;YELLOW); OTTO 2026-10-04 (8d;RED2); ATHENA 2026-03-14 (212d;GREEN); CRUISE 2026-10-03 (9d;RED); DARWIN 2026-02-18 (236d;YELLOW); CREED 2026-10-01 (11d;ORANGE); SENTRY 2026-09-24 (18d;YELLOW); DEWEY 2026-09-10 (32d;YELLOW); HOMER 2026-10-02 (10d;RED); FLG 2026-10-01 (11d;YELLOW); YURI 2026-10-02 (10d;YELLOW).
+REGISTRY reviewed/refreshed at2026-10-13T14:24:38Z, before this derived subsection. First30-line scopes captured for every existing registry STATUS file; missing files explicitly recorded. This is owner-header context, not full-owner evidence, runtime presence or fresh-market certification. Unchanged metadata retained; dated closeout/thesis updates for REGINALD,SHADE,YURI,MIDAS and WALTER qualified. Older registry dates (age does not establish DARK): YEYOU 2026-09-05 (38d;RETIRED); RAV 2026-08-02 (72d;YELLOW); OTTO 2026-10-04 (9d;RED2); ATHENA 2026-03-14 (213d;GREEN); CRUISE 2026-10-03 (10d;RED); DARWIN 2026-02-18 (237d;YELLOW); CREED 2026-10-01 (12d;ORANGE); SENTRY 2026-09-24 (19d;YELLOW); DEWEY 2026-09-10 (33d;YELLOW); HOMER 2026-10-02 (11d;RED); FLG 2026-10-01 (12d;YELLOW).
 
-Supported local Codex overview0.162.1 returned10 entries at20:59–21:00Z: BRENT1,CATO1,MIDAS1,SHADE1,WALTER1,YURI1 and4 under PROME cwd. It displayed WALTER Inactive while this model worked; labels and cwd do not establish desk identity/absence. Cross-runtime fleet presence remains UNKNOWN. Generated ORCH_INFLIGHT read whole; its33 open touches are ledger evidence, not a census. Foreign MIDAS changes arrived during this boot; SHADE/YURI/TERRY residues also remain, so pull/push deferred. No DARK inference, doorbell or owner launch.
-
-Receiving telemetry at21:08Z:78 unconsumed >2d across15 desks,25 ACTION/53 INFO; oldest ACTION10d. Age basis is delivery_log.timestamp_routed, with one mtime fallback across the full scan. Exact publication and delivery counts remain in LAST_COMPLETION. Local discovery remains partial; no current-pair acknowledgment or universal consumption claimed.
-
-Late MIDAS context receipt: research/2026-10-12_resume-2057/MIDAS_INTAKE.md. October2 header capture remains historical; current owner context read and exact authored packet filed.
+Today's routing:0 new BOARD dispatches. Last completed day October12 has44 BOARD signals; canonical route/delivery facts are in the owned logs and closeout receipt. Fleet liveness UNKNOWN; no doorbell or owner launch. Foreign PROME/TERRY working-tree changes were observed; Git disposition is in LAST_COMPLETION.md. Three existing thread-local helpers answered the explicit closeout ask; no fleet/process-exit inference.
 
 ## Active LIAISON channels
 
-CARL, RED, REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or calibration countdown. No live proposal queue item found in top-level outbox.
+CARL,RED,REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or calibration countdown. No new liaison turn or proposal commissioned.
 
 ## FILTER POSTURE
 
@@ -85,7 +77,6 @@ CARL, RED, REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or 
 6. ⛔ ***"four engagements in Baltic Air Policing's 22-year history"*** — ⚠️ **SPLIT CLAIM: the count of FOUR is fine; the 22-year DENOMINATOR is unsupported.** Kill the denominator, keep the count.
 
 **Standing flags:** ✅ COP RETIRED 6/28 · Quick WALTER RETIRED 6/26 (ONE mode) · `design/STATE.md` §5's pointer here is TRUE. No standing obligation from any. *(Provenance in `SESSION_LOG.md`.)*
-
 
 ---
 

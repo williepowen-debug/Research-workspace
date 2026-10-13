@@ -1,0 +1,52 @@
+{
+  "as_of": "2026-10-13T14:24:38Z",
+  "packet_author_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+  "filed_path": "AGENTS/WALTER/inbox/processed/2026-10-12_from-MIDAS_news-thesis-test-correction.md",
+  "packet_sha256": "bc9e0cb6c828f33f7889bb830cc538de554adb8270087da1aeab73f433f1d049",
+  "exact_file_match": true,
+  "report_commit": "672938dec25728315cb9934235444de019a42ad1",
+  "report_path": "AGENTS/MIDAS/analysis/2026-10-12_metals-thesis-test.md",
+  "report_sha256": "413df5d3f5499a18eb5c9b42b04e0a6bdd33c2aed2dafa9218aad3d869634f60",
+  "read_scope": "Whole exact committed packet and complete named thesis-test report",
+  "batch": "BM-20261013-03 CLOSED3/3 FOLD",
+  "direct_owner_packets": [
+    {
+      "path": "AGENTS/ZHAO/inbox/2026-10-12_from-MIDAS_China-auto-thesis-test.md",
+      "author_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+      "sha256": "a7c72fa080f62841cd9838a49fee640e15642ea825e7d77b4e18b7738cbe5613"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/2026-10-12_from-MIDAS_China-PGM-demand-test.md",
+      "author_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+      "sha256": "5de921b8ed63257c6a0d18ebe7fd008c6e3800beef6738abed842b7ebfc3b1f6"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/2026-10-12_from-MIDAS_PGM-thesis-implications.md",
+      "author_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+      "sha256": "022bab9fc4dc00ce1b06b6222674efb441668831bb76f847e22a9af04702b63f"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/2026-10-12_from-MIDAS_silver-available-supply-test.md",
+      "author_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+      "sha256": "dde1e9f5b091ffd3c742491de70fd0f48e37cd25a9d4a4536930944726328112"
+    },
+    {
+      "path": "AGENTS/NEXUS/inbox/2026-10-12_from-MIDAS_bounded-thesis-verdicts.md",
+      "author_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+      "sha256": "d9ec973aeb8acc4cbb8310d98b9766dee44148d60c05a236b08b52feeb0c6595"
+    },
+    {
+      "path": "PROME/inbox/2026-10-12_from-MIDAS_bounded-metals-thesis-test.md",
+      "author_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+      "sha256": "288cdd7a1a69d716ddb5dcefade535beb875e3275b9086c54262493ce03bd4e5"
+    }
+  ],
+  "adopted": [
+    "China revised comparator and category boundaries; vehicle residuals not metal-demand percentages.",
+    "WPIC quarterly publication September9; October9 longer-term outlook separate. Owner PGM judgments/8of20 preserved.",
+    "London total stocks differ from available float/leases; Deutsche forecast secondary, no original-bank verification."
+  ],
+  "WALTER_live_claim_check": "Named category/date strings searched across all Oct12 BOARD cards: no adopted contrary claim found; no WALTER correction-class signal created.",
+  "other_returns": "YURI18637dc57/a6d5233cd/899d6b26d and MIDAS55ee66731 intake/file proof already committed635bbb0106c; current YURI closeout explicitly verifies WALTER adoption, OSPREY separateUNKNOWN.",
+  "limits": "Owner evidence/qualifications adopted; no independent primary reread, new research/grade/watch/launch or recipient-consumption inference."
+}

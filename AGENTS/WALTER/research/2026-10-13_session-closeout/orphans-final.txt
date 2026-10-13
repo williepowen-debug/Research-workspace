@@ -1,0 +1,39 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-13_from-WALTER_session-closeout.md
+     [not yours]    AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md
+     [not yours]    HEARTBEAT.md
+     [not yours]    PROME/BRIEF.md
+     [not yours]    PROME/HANDBOOK.md
+     [not yours]    PROME/HANDOFF.md
+     [not yours]    PROME/HEARTBEAT_DASHBOARD.md
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/STATUS.md
+     [not yours]    PROME/WILL_QUEUE.md
+     [not yours]    PROME/archive/HANDOFF_2026-10-13_laptop-closeout.md
+     [not yours]    PROME/archive/SCRATCH_2026-10-13_laptop-closeout.md
+     [not yours]    PROME/artifacts/decision_deck.html
+     [not yours]    PROME/artifacts/decision_reference.html
+     [not yours]    PROME/artifacts/docket.html
+     [not yours]    PROME/artifacts/handbook.html
+     [not yours]    PROME/registry/WQ_EXPLAINERS.tsv
+     [not yours]    PROME/registry/WQ_LEDGER.crc
+     [not yours]    PROME/registry/WQ_LEDGER.tsv
+     [not yours]    PROME/reports/2026-10-13_laptop-closeout.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/argus_review.json
+     [not yours]    PROME/state/brief_changes.jsonl
+     [not yours]    PROME/state/brief_snapshot.json
+     [not yours]    PROME/tools/dashboard_build.json
+     [not yours]    PROME/tools/dashboard_state.json
+     [not yours]    memory/2026-10-13.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

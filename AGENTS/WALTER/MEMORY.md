@@ -89,8 +89,5 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October12 handoff saved; coverage PARTIAL:**10 signals (oneFLASH),45 handoffs,19 kills; three transcripts and late OZK Horton qualifier processed; both helpers/four assignments completed with receipts. Publication/gaps: LAST_COMPLETION. No orders or new research direction.
-**October12 reboot checkpoint:** active native thread01a13104-a88a-7df3-afa2-2dcefdc805e3; previous closeout publication verified. X29:29assessed/exactstage consumed;6reboot/continuation signals. Fresh coverage stays PARTIAL; exact duties LAST_COMPLETION.
-**Fresh session:** at2026-10-12T21:06:26Z, thread01a131e6-5754-7593-a546-210c87683eeb resumed published34e4dbde4. Ordinary queues0 new; all107 dayhandoffs origin-proven, consumption separate. X renewal HTTP400 reopened browser-auth need;606 history keys/empty stage preserved. Explicit70KBcharter remains unactivated; Iran/source/expiry duties remain in LAST_COMPLETION. Use observed session IDs and supported CLI, never infer DARK from missing tools.
-OrdinaryOct12ownerintake:12packets consumed/14signals; SCFnumerator query RESOLVED atKB504/529. No newstudy/deskcloseout; duties LAST_COMPLETION.
-Closeout runner: tools/closeout_run.py; CL9 completed-report boundary fixed/30testsPASS on direct Will request; stop expanding, observe ordinary use. Time savings unmeasured; attestation separate. Details: LAST_COMPLETION.
+**Will-requested FULL closeout 2026-10-13T14:24:38Z:** existing session handoff saved;3 helpers explicitly answered closeout. Bookmark48/50 review and exact654/0 marker conserved; latest MIDAS return CLOSED3/3 FOLD. Current publication, source gaps, dated duties and next entry point: LAST_COMPLETION.md.
+No current-market/broker refresh, new trade/grade/watch/launch or charter migration. Prior session-note text conserved verbatim in SESSION_LOG.md at this closeout entry.

@@ -1,63 +1,57 @@
-# WALTER LAST_COMPLETION — Monday October12, 2026
-Runtime: OpenAI Codex; native thread `01a131e6-5754-7593-a546-210c87683eeb`; root task `/root`; exact model variant UNKNOWN. Repository `/home/willi/Research-workspace`. Updated 2026-10-13T00:48:42Z. **Existing session ACTIVE; boot PARTIAL.** Published resume checkpoint34e4dbde4; receipt research/2026-10-12_resume-2057/BOOT_RECEIPT.md.
+# WALTER LAST_COMPLETION — Tuesday October13,2026
+Runtime: OpenAI Codex; native thread `01a131e6-5754-7593-a546-210c87683eeb`; root task `/root`; exact model variant UNKNOWN. Repository `/home/willi/Research-workspace`. Updated 2026-10-13T14:24:38Z. **Will-requested FULL closeout handoff saved; source/procedure gaps retained.**
 
 ## STATUS
 
-Existing Will-launched session ACTIVE. Browser reauthorization succeeded;48 new bookmarks/50 content items fully assessed in two CLOSED manifests.13 source-qualified PRIORITY signals032–044 and51 create-only handoffs saved;3 bounded read-only helpers completed. Two committed YURI source returns reconciled first and filed exactly; two late committed MIDAS/YURI returns also reconciled/filed before persistence. Previous MIDAS/PROME/Rosner/receipt work conserved, no repeated research or replacement owner launch. Authentication need resolved; exact48-ID marking completed after source commitment;51 new handoffs await shared publication. Boot remains PARTIAL under retained charter/source limits, without a current full-market clearance.
+Existing session closing on Will's direct request. Owned full write-back is saved; all3 bookmark helpers explicitly answered closeout. Requested48-bookmark/50-content-item review and exact48-ID marking are complete at their saved scan (654 seen,0 pending). No new research, grade, trade, watch, owner launch or charter activation. Publication of the new closeout candidate remains separate from already-published intake results.
 
 ## CHANGED
 
-Browser authorization restored;48 staged bookmarks/50 content items reviewed.13 new source-qualified signals/51 handoffs,3 completed read-only helpers and4 exact committed owner packets reconciled. Historical repairs/boot/first-round/Rosner results conserved in the exact checkpoint archive; no further tool/spec/charter work commissioned.
+REGISTRY and derived STATUS/network refreshed; MEMORY session notes and SESSION_LOG full-closeout entry updated. LAST_COMPLETION overwritten with preserved live duties and exact old archive.51 delivery states reconciled; one new MIDAS correction packet filed exactly with consume declaration and BM-20261013-03 CLOSED3/3 FOLD. Dated closeout proof/check bundle and PROME handoff prepared.
 
 ## RESULT
 
-BOARD1367; October12 operator-day44 signals. Prior110 handoffs are origin-proven at their saved observation;51 new handoffs locally saved, publication pending and consumption unverified. Parent48/48 + additional2/2 content dispositions CLOSED,12 filtered/DUP rows across both batches. Complete hit lists and bounded source/helper/owner proofs live in research/2026-10-12_bookmarks-reauth. Exact48-ID marker completed after635bbb010 source persistence:654 total consumed,0 pending; no new settlement/mine/loss gate or owner grade. Prior intake/market and protocol findings remain dated evidence.
+BOARD1367; October12 operator-day44 signals (1FLASH,43PRIORITY). Prior48-post/50-item review yielded13 qualified signals/51 handoffs; all161 October12 handoffs now origin-proven, consumption separate. YURI1272/operational qualification adoption already committed635bbb0106c and now verified in YURI's own closeout. Latest MIDAS672938dec complete report/aa7494d86 packet adopted without duplicate routing; three helpers closeout-confirmed. Exact654/0 bookmark state is the prior committed marker observation, not a fresh scan.
 
 ## GAPS / OWED
 
-- Source work retained: Rosner free-source pass PARTIAL/access-stop,0 primary court documents, no repeat commissioned. SIG031/COR31 author published and YURI acted/filed; other recipient/R1 closure separate. Named LIQUID160c0c08d consumption UNKNOWN at last scoped check; no duplicated request, first SHADE assessmentOctober13 post-close still needs owner inputs. HNS-07 storage source correction is consumed, with HANSOctober15/fixedNovember1 resolver and broad DR4 gaps preserved; Oct29/79d was the conditional median, not closure. Reports remain in the archived completed receipt and their live research paths.
-- Main pull and own push remain deferred for foreign MIDAS/SHADE work. Prior bf00c875c/9e0ed74c2 publication is proven at its saved observation;51 new handoffs await coordinated publication. Earlier intake-only approval rejection was resolved by Will, with clean ff-only intake sync; no current approval rejection or main pull. Exact historical refs/times remain in the checkpoint archive.
+- New closeout commit/push receipt: own push and main pull deferred for observed foreign PROME/MIDAS/TERRY work. Existing bookmark/source/result/queue/Rosner commits named in the structured receipt are published at the fresh-fetch observation. No current permission rejection.
+- Current October13 market, eligible CBOE/FRED closes and broker/order outcomes were not refreshed in this closeout; old levels remain explicitly dated. Monthly/qualitative/instrument/settlement/first-release coverage remains PARTIAL.
+- LIQUID160c0c08d consumption UNKNOWN at the existing scoped check; first SHADE assessmentOct13 after regular close requires actual owner inputs. No duplicate request/owner inferred.
+- DEWEY diesel commission PARTIAL/dueOct14 and CARL-DR-1 Q3 leg/dueNov13. Signed authorization/annex, authenticated matched cargo/increment, official named-month settlement and national offline baseline gaps remain. Existing delivered returns are filed; research is not closed by filing.
+- OSPREY1272 adoption remainsUNKNOWN; YURI's existing correction packet is reused. Source-specific information clauses do not prove a public-series blackout. METRO/Aptar issuer control, cash/accounting and reported physical effects stay separate.
+- Rosner bounded public-source pass stopped with0 primary documents. No repeat search/access purchase/grade requested. HANS storage correction consumed, ownerOct15/Nov1 clocks and broader DR4 limits retained.
+- Iran full-ladder coverage PARTIAL; UKMTO5 total losses versus FALCON3 qualifying losses remains owner-definition reconciliation. No gate reset or loss/mines/fire inference.
+- Explicit70223B local charter and66781B guard corpus exceed registered read budgets. Charter candidate remains unactivated and per-pass Will checkpoint required for that structural task. Root/generated-view remedies remain PROME-owned.
+- Newsweep degradation, Baltic week-on-week basis, Guggenheim primary/paywall and junk-count gaps remain at their saved vintages. No collector-death absence inferred or new collector/study installed.
+- Fleet liveness and Telegram FLASH notification remainUNKNOWN/unverified where no evidenced transport exists. Native exact-pair Codex queue available; queue acceptance is not artifact consumption.
 
-- X authorization RESOLVED 2026-10-13T00:48:42Z: the existing browser flow saved fresh credentials; one new scanner pass succeeded and staged48 exact IDs. Prior606 consumed keys and empty stage were byte-identical immediately before scanning. Two manifests CLOSED50/50 content items;13 PRIORITY source-qualified updates and51 handoffs saved. Exact48-ID stage marked after635bbb010 persistence;654 total consumed,0 pending. EarlierHTTP400/timed-out windows are dated historical failures, not current auth state. Evidence research/2026-10-12_bookmarks-reauth/REPORT.md.
-- Native Codex thread/queue capability is verified; exact PROME coordination address and receipts are in owned proofs. Fleet liveness and Telegram reply/chat_id remain UNKNOWN/unverified where unavailable; no DARK or lifecycle inference. Existing Telegram FLASH delivery remains owed through an authorized transport. Historical runtime-capability chronology is in the exact checkpoint archive.
-- Cadence headers repaired; route/delivery/kill/batch now record actual new intake. Two existing research flags remain PARTIAL: CARL-DR-1 dueNovember13/Q3 and REQ-DEWEY-20261010-001 dueOctober14. Partial returns are consumed/filed, missing research remains open; exact historical cadence/source receipts stay in archive and research/2026-10-12_closeout-improvements/cadence-review.json.
-- READS transcription/29 paired basis hashes RESOLVED at their dated exact candidate/current bytes; recheck basis after future boot-operation changes. Explicit70223B local charter and66781B guard corpus exceed budget; charter candidate unactivated. Root/generated-view remedies remain PROME-owned; no migration or clearance claim. Exact prior proof stays in archive/desk-sweep receipts.
-- Newsweep remains degraded, lane runOctober11 19:18:17Z; fresh20:59Z scan counts1 missed weekday run, not collector death. Feed not dead; no collector-death escalation. Synced alert scan0 new; seen34keys+0/−0 reconciled after dispositions.
-- Iran full-ladder source coverage remains partial. UKMTO/IMO access recovered later, but footage/Poten graph/current cargo volumes and some ladder limbs remain unknown. UKMTO5 total losses vs FALCON3 qualifying losses needs owner definitions; no two-loss/gate inference.
-- Monthly/event/qualitative registers not fully re-collected; first-release claims not certified from revisedFRED; futures official settlements/identities incomplete. No current full market clearance.
-- Baltic publisher week-on-week base unresolved; Guggenheim methodology/paywall and junk-issuance count remain unverified. No new subscription or deep-research assignment.
+- Full checks REVIEW: five inherited doctorMEDs (LABOR_DOWN,2amendment IDs,20NOTE rows,newsweep,89aged unconsumed/29ACTION/60INFO/oldestACTION11d). Charter read-cap/READS and ledger nudge qualified;0UNKNOWN checks, no whole-doctor/full-market PASS.
 
 ## WILL_NEEDS
 
-X authorization is RESOLVED on Will’s fresh retry: credentials saved and48 new bookmarks retrieved. No new Will decision is needed for this intake; source, publication and existing trade/charter duties remain separate.
+No new decision is needed for this closeout. X authorization and the requested bookmark read are resolved.
 
-Charter migration requires the local CLAUDE.md per-pass Will checkpoint; candidate prepared, PROME registration requested. No live migration approved.
+Existing Will-owned choices remain: unactivated charter migration requires its per-pass checkpoint; WQ401 set sub-question (line set versus DOORBELL_LOG set), WQ388 unattended-WALTER question forOct17, optional subscription and optional step7h encode. No renewed ask or unattended permission.
 
-**ATTENTION — observed OZK Nov20 $40 puts×4:** executed extension/fresh capital weakens the near-term maturity-failure catalyst. Paydown may be redrawn, appraisal assumes stabilization, loan-specific recognition remains UNKNOWN; continued holding after capture unverified. TERRY’s existing card owns the review, Will owns orders.
-
-Existing expiry-card decisions remain with Will/TERRY: QQQ755C October12 (today’s owner header reports Will-confirmed held/$2 value, not bid); USO150C October14×2; QQQ745P×1/740P×4 October15; TLT82P/HBAN16P October16. Cards exist for the newly observed calls; no current order or fill inferred. VLO December-diesel basis startsOctober15 under existing approval. No new trade decision proposed by WALTER.
-
-WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER remains undecided forOctober17 review. Optional subscription and optional one-line step7h encode remain carried, not renewed asks. Prior broker questions are answered by the October11 capture and booked in ANVIL/FORGE and TERRY’s owner state; PROME’s administrative row acceptance is a separate record, not a broker-truth gap re-raised here.
+TERRY/Will retain existing expiry/order decisions: QQQ755C Oct12 expiry is now past, final disposition UNKNOWN; USO150C Oct14×2, QQQ745P×1/740P×4 Oct15 and TLT82P/HBAN16P Oct16 remain dated prior capture. VLO December basis startsOct15 under existing approval. Observed OZK Nov20$40 puts×4 review retains extension/fresh-capital counterevidence, redraw/stabilized-appraisal/recognition limits. No current position/order/fill or trade recommendation inferred; broker truth remains off-repo.
 
 ## FOLLOW-UP
 
-**Will-requested bookmarks 2026-10-13T00:48:42Z:** authentication restored;48 new posts contain50 content items (bookmark37 has3 screenshots), both declared manifests CLOSED.13 source-qualified signals032–044/51 create-only handoffs;3 bounded charter-required helpers completed read-only. Two initial YURI returns/full reports reconciled first, and two later MIDAS/YURI source returns were also read/filed exactly; direct companion routes verified. No duplicate diesel/shipping owner request, new grade/study/watch/trade or lifecycle action. Guards whole-read66781B exceeds32550B budget; source gaps and dated20:58Z market observations survive. Source/dispatch proof research/2026-10-12_bookmarks-reauth; exact48-ID stage marked after635bbb010 persistence,654 current consumed keys/0 pending. Publication pending; foreign MIDAS/SHADE work gates own push; receiving liveness UNKNOWN does not license doorbells.
+**Resume point:** next WALTER context explicitly loads root/local/runtime rules, then this live duty list. Verify the exact new closeout commit and PROME acceptance/publication; reconcile delivery after shared publication. Refresh eligible live-source observations before using dated near-trigger levels; no repeat48-bookmark scan/mark or repeated owner research.
 
-Completed pre-bookmark follow-up history and its full structured receipt are preserved verbatim in `archive/LAST_COMPLETION_2026-10-12_before-bookmark-history-rotation.md`; SHA/procedure proof in `research/2026-10-12_bookmarks-reauth/checkpoint-rotation-proof.json`. Current duties remain here.
-
-**Closeout repairs:** core91d38ecf9 passes scoped owner tests; acceptance packet `PROME/inbox/2026-10-12_from-WALTER_closeout-repairs.md` authored; recipient acceptance remains unverified; next ordinary closeout should use the thin runner and existing duty evidence. Observe realized friction before any further automation. Other desks’ held Git/prediction repairs remain with their owners; CATO report is the source. No new registry or fleet work commissioned.
-
-1. **October12 reboot executed:**91d38ecf9 and b39d3c48b now on fresh origin. X normal scan and recovery succeeded;29of29assessed, exact original stage consumed. Full boot remains PARTIAL under explicit chartercap and retained source/instrument limits; manifesttranscription/29-pathbasis discharged. Historical restart instruction: Next fresh context boot first: explicitly load root/local instructions, then this completion record. Verify the final closeout commit’s publication, fresh-fetch origin and run delivery reconciliation; all ten dispatches and earlier listed commits are already on origin. The user intends to clear this context after the bounded repairs; do not duplicate an existing owner window. Today’s dispatches are already evidenced below; do not re-ask whether older listed commits reached origin. The earlier normal X scan ran; original29marked. This fresh boot attempted its launch-only scan but renewal failedHTTP400; current bookmark coverage UNKNOWN. Source/precision limits survive. Re-check READS reader packet (L174mislabel withdrawn) and PROME ranked drain acceptance.
-2. Intake lane: first gpu-obsolescence hitOctober11 was stale MacroMicroAugust21 commentary, killed. Collection rows exist; assess fresh items at the next existing AI_INFRA_CAPEX review. No new monitor or five-axis re-cut approved.
-3. Iran: October12 addressed all ladder limbs with scoped evidence/access limits but did not complete full-source coverage or resetOctober8 clock. Reconcile UKMTO/IMO mappings/loss bases with FALCON; preserve gas/refining OUT classification, no mines/sinking inferred, owner grades unchanged. Next full scheduled targetOctober15, or earlier when sources become available. Anchor rotation discharged; old “above stop line” carry is no longer true.
-4. RED-FT10: CBOE barsOctober12/13/14, earliest four-closing fireOctober14; VIOLET owns. No Monday close invented from morning observations. Re-pull eligible FRED credit when posted; HANS near intraday gilts are not close fires.
-5. DEWEY: CARL-DR-1 PARTIAL/dueNovember13 (Q2leg consumed, Q3pending); REQ-DEWEY-20261010-001 PARTIAL/dueOctober14 (return+sourceupgrade consumed). All4newDEWEYhandoffs filed; broadcommissionclosure requires missingresearch, not another filing step.
-6. Open owner returns carried: LIQUID -1007; BRENT -1008 and -003; VULCAN/BROCK -1009; FALCON gas/theater claims; OSPREY energy ceasefire/deal branch; YURI Novak curb lift; BOND/ZHAO -004; CARL SCF -005 baseanswered/routed018 and debtor-numerator query RESOLVED atKB504/529; HENRY/VULCAN -006; CORAL PembrokeLakes -1008-040; CREED Trepp -1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. Prior-session owner addresses add the ten signals; reboot011/012 add HANS/VULCAN ACTION with availability UNKNOWN but imply no universal reply obligation or consumption. TERRY and OZK primary integration is already observed; do not ask them to rediscover execution.
-7. X pilot reviewOctober17: retain live-observed refresh-failure/timeouts and WSL authorize method as dated evidence. Current browser retry and48-item scan succeeded; prior606 keys preserved, exactly48 more consumed after committed review (654 total/0 pending); proof in newest receipt above. No unattended permission added. Next staleness sweepOctober24. Research-retirement assessment now completed:382 tracked research/source files checked by last path commit timestamp,0older than60days, no moves. Underlying source vintages unchanged. Evidence: `research/2026-10-12_closeout-improvements/retirement-review.json`.
-8. Existing dates: bank Q3/KS WARNOctober13; CPIOctober14 08:30ET; WPSROctober15 noonET, VLO December basis and size checks; LIQ07October15–16; October16 expiries/MTB/CFG/H.8/tanker weekly; WALOctober19–20; OZKOctober20AMC/21call; FOMCOctober27–28, UKBudgetOctober28, ECBOctober29; BZZ26LTD October30, boundary8 January switchNovember2; Treasury financingNovember2/refundingNovember4. The October12 bond holiday is current, not a future duty.
-9. PROME carry: CATO absent from REGISTRY (WQ255); YURI WATCH_FOR set absent on charter grep; WQ388 undecided; READS Oct12transcription/29-pathhashes discharged; native fleet receiving visibility and Telegram delivery gaps; CLI queue now verified as supported, exact-pair receipt separate. No new activation of GateC or unattended scheduling.
+1. Prior boot/intake/repair/Rosner receipts remain at their named research paths. Old completion bytes conserved at `archive/LAST_COMPLETION_2026-10-13_before-session-closeout.md`; earlier exact history at `archive/LAST_COMPLETION_2026-10-12_before-bookmark-history-rotation.md`. READS transcription/29 paired hashes were resolved at their committed candidate; recheck basis only after future boot-operation changes. Runner repairs implemented; independent acceptance/time savings remain separate, no expansion commissioned.
+2. Intake lane: first gpu-obsolescence hitOct11 was stale MacroMicroAug21 commentary, killed. Assess fresh items at the next existing AI_INFRA_CAPEX review; no new monitor/five-axis re-cut.
+3. Iran: next existing full targetOct15 or earlier available-source pass. Oct12 source improvements did not resetOct8 full clock. Reconcile UKMTO/IMO losses with FALCON, preserve gas/refining OUT classification and owner grades. Anchor rotation discharged; no stale above-stop carry.
+4. RED-FT10: eligible CBOE Oct12/13/14 closes, earliest four-closing fireOct14; VIOLET owns. New closes not collected in this closeout. Re-pull eligible credit/official settlements; HANS intraday yields are not close fires.
+5. DEWEY: CARL-DR-1 PARTIAL/dueNov13,Q3 pending; REQ-DEWEY-20261010-001 PARTIAL/dueOct14. Existing packets/source upgrade consumed, broad research closure still requires missing evidence.
+6. Existing owner returns retained: LIQUID-1007; BRENT-1008/-003; VULCAN/BROCK-1009; FALCON gas/theater/UKMTO loss basis; OSPREY series/deal branch and1272 correction; YURI signed diesel terms; BOND/ZHAO-004; HENRY/VULCAN-006; CORAL PembrokeLakes-1008-040; CREED Trepp-1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. CARL SCF base/debtor-numerator resolved atKB504/529; do not rediscover it. TERRY/OZK primary integration already observed; no universal reply obligation inferred.
+7. X pilot reviewOct17 carries dated renewal/timeouts/WSL authorization evidence plus successful retry. Exactly48 prior-reviewed IDs marked aftercommit,654 seen/0 pending; no unattended authority. Staleness sweepOct24; MEMORY triggerOct15 remains. Current retirement age assessment saved; source vintages not refreshed.
+8. Existing dated owner clocks: bankQ3/KS WARN and SHADE eligible post-closeOct13; CPIOct14 08:30ET; WPSROct15 noonET/VLO December basis/LIQ07Oct15–16; Oct16 expiries/MTB/CFG/H.8/tanker weekly; WALOct19–20; OZKOct20AMC/21call; FOMCOct27–28/UKBudgetOct28/ECBOct29; BZZ26LTD Oct30/boundary8January switchNov2; Treasury financingNov2/refundingNov4. These are carried owner dates, not independently reverified calendar advice. Oct12 bond holiday/QQQ expiry are historical, not upcoming.
+9. PROME: retain CATO registry questionWQ255, YURI WATCH_FOR gap, WQ388/WQ401 questions, Telegram/receiving-visibility gaps and existing publication/acceptance duties. No GateC or scheduling activation. Three explicit helper closeout answers and Will's direct closeout ask are in the new evidence packet; PROME owns lifecycle ledger write-back, process exit not inferred.
 
 ## OPEN DESIGN DECISIONS
+
 **Approvals preserved:** WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405 (boundary #6/#8). No new unattended-WALTER, Gate C, desk spawn, trade or deployment authority.
 
 **Unresolved proposals retained:**
@@ -85,12 +79,12 @@ Completed pre-bookmark follow-up history and its full structured receipt are pre
 
 ## CLOSEOUT RECEIPT
 
-Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publication limits are recorded below; selected checks never establish full-market or full-procedure clearance. Prior routine Tier2 checkpoint21:06 and all earlier receipts are conserved in the exact archive. Four later full-deferred breadcrumbs remain visible for the next applicable Tier2; no lifecycle action.
+Will's direct closeout ask received; all3 thread-local helper closeout receipts received. Full owned write-back saved; selected checks and inherited/manual/source gaps are separately reported. Four earlier full-deferred breadcrumbs are accounted for by the new FULL CLOSEOUT entry. No current-market, all-owner-consumption or runtime-exit certification.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-13T01:08:35Z",
+  "as_of": "2026-10-13T14:24:38Z",
   "publication": [
     {
       "commit": "bf00c875c9506c18179a16dc7b10a84a1d3db267",
@@ -102,18 +96,38 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
     },
     {
       "commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "596e267502ce5a7bb35f0db05a35f2ee7b78cea3",
+      "state": "published"
+    },
+    {
+      "commit": "e285f0151f42254893e7e522a4989ef7a3bf08d9",
+      "state": "published"
+    },
+    {
+      "commit": "8df3e97b1daec517c12d6a5ef3162704ae8d044a",
+      "state": "published"
+    },
+    {
+      "commit": "4e5b1a1bc5d214cfa6389b8e4f2df98956364e20",
+      "state": "published"
+    },
+    {
+      "commit": "58e6594ebe22fc40b06f9154935c1392a6acd243",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261012",
     "total": 161,
-    "delivered": 110,
-    "note": "Prior110 handoffs origin-proven at saved observation;51 new local source-qualified handoffs pending publication. Consumption separate."
+    "delivered": 161,
+    "note": "Fresh-fetch origin proof;51 newly published bookmark handoffs reconciled. Delivery is not recipient consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Bookmark source result635bbb010 committed locally; current mark/receipt persistence follows. New51handoffs await shared publication; own push deferred for observed foreign MIDAS/SHADE work."
+    "note": "Named prior result commits are published; this new closeout candidate is local until the shared push train. Own push deferred for foreign PROME/TERRY work; no pull/rebase."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -157,37 +171,69 @@ Session ACTIVE, boot PARTIAL. Current routing Tier1 duties and source/publicatio
         "path": "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/auth-and-mark-proof.json",
         "sha256": "8d423575c080a1103e48ada77f5ff26936f9a75953b9a1c9b335dee00438f55b",
         "note": "Successful auth preserves606 prior IDs; exact committed-review48-item stage consumed,654 total/0 pending; no token/nonce persisted."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-13_session-closeout/owner-review.json",
+        "sha256": "581278b222955a338708e938e1daced0bb975c0cef828600e75ebb9e3a3cdfa5",
+        "note": "Dated closeout evidence; scope/UNKNOWN qualifications preserved."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-13_session-closeout/helpers-closeout.json",
+        "sha256": "6083b83cbe98f4980970b5733157ee156a1b3a079ae09d27e2384007a523e44d",
+        "note": "Dated closeout evidence; scope/UNKNOWN qualifications preserved."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-13_session-closeout/publication.json",
+        "sha256": "37ff77a110147cfee2f98e942b6dad6aba83bdd2be397af476b331ada0430a48",
+        "note": "Dated closeout evidence; scope/UNKNOWN qualifications preserved."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-13_session-closeout/retirement-review.json",
+        "sha256": "7af8c6cd7b7c4ab36e7fbdae62e25a7238531351cd496e6725aa35d3c69e6d95",
+        "note": "Dated closeout evidence; scope/UNKNOWN qualifications preserved."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-13_session-closeout/REPORT.md",
+        "sha256": "ce1dde091dd063bff060c4eac377644785562d48773b65e5410ee4921d6a7f01",
+        "note": "Actual full closeout outcomes; review/source/publication qualifications preserved."
       }
     ],
-    "prior_evidence_archive": "AGENTS/WALTER/archive/LAST_COMPLETION_2026-10-12_before-bookmark-history-rotation.md"
+    "prior_evidence_archive": "AGENTS/WALTER/archive/LAST_COMPLETION_2026-10-13_before-session-closeout.md"
   },
   "owed": [
-    "READS Oct12transcription andpaired29-pathhashes RESOLVED at exactcommittedcandidate/currentbytes. Recheckbasis afterfutureboot-operation changes; chartercap remainsopen.",
-    "Explicit70223Blocalcharter breach: candidate unactivated; boundedconsumer/obligation review and per-passWillcheckpoint required. Root/generatedview remedies remainPROME-owned.",
-    "12 owner packets consumed;27 content observations closed. CARL SCF debtor-numerator query RESOLVED atKB504/529; publishedall-family19.6/8.2basis verified. Source25 precisionmarker corrects extra digits, rounded31.8 unchanged.",
-    "FALCON reconcile UKMTO5 total-loss instrument vs owner3 qualifying-loss basis; Iran full-ladder remainspartial, fullclockOct8, scheduledOct15.",
-    "Eligible CBOE SKEW Oct12-14 closes and datedcredit/officialsettlement/firstrelease gaps; no fullmarketclearance.",
-    "DEWEY dieselcommission PARTIAL dueOct14; cardsworkstreamPARTIAL dueNov13/Q3. Returnedpacketsfiled; missingresearchnotclosed.",
-    "Will/TERRY remaining expiry-card choices and currentbroker/order evidence; no order inferred.",
-    "TelegramFLASH notification unavailable/unverified; currentchatalert andPROMEpacket delivered. NativeCodexcoordination available; queueacceptance notconsumption.",
-    "New51 source-qualified handoffs await coordinated publication; consumption separate. Authentication and exact48-ID marking resolved,654 seen/0 pending."
+    "LIQUID160c0c08d actual consumption UNKNOWN; SHADE first prospective endpointOct13 regular close needs owner count/anchor and matched inputs.",
+    "DEWEY diesel PARTIAL dueOct14; CARL-DR-1 Q3 leg dueNov13; exact packet filing does not complete missing research.",
+    "OSPREY1272 adoption UNKNOWN; physical supply/public-series/cash-accounting gaps retained across YURI/DEWEY/OSPREY/HANS.",
+    "CurrentOct13 market/official settlement/eligible CBOE closes not refreshed in this closeout; refresh before using dated near-trigger figures.",
+    "Iran full ladder coverage PARTIAL; next existing scheduled targetOct15; FALCON UKMTO5 versus3 qualifying losses unresolved.",
+    "Will/TERRY expiry and current broker disposition UNKNOWN; Oct12 expiry now past, no order/fill inferred.",
+    "Explicit local charter/guard read-cap breach and unactivated charter candidate; no migration/attended-to-unattended authority added.",
+    "New closeout persistence/publication through shared train; PROME coordination notice follows commit."
   ],
   "next_review": "2026-10-13",
   "procedure": {
-    "tier": "light",
-    "scope": "Will-requested browser reauthorization and ordinary bookmark intake in existing ACTIVE session",
-    "claim": "48 new bookmarks/50 content items fully dispositioned and exactly48 staged IDs marked after635bbb010 commitment;654 seen/0 pending.13 PRIORITY signals/51 handoffs locally committed. No new trigger/grade/study/trade/lifecycle action; publication remains pending.",
-    "evidence": "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/REPORT.md",
-    "coverage": "All provided post bodies and15 selected media artifacts read; complete novelty hitlist and bounded source checks. Unrecovered primary bodies/denominators and future vendor/model claims remain qualified; no current full-market clearance."
+    "tier": "full",
+    "scope": "Will direct lifecycle handoff request in this existing session; no replacement launch",
+    "claim": "Owned full closeout write-back and existing source/receipt reconciliation; inherited/source limits are retained, not a claim of full-source or full-market clearance.",
+    "evidence": "AGENTS/WALTER/research/2026-10-13_session-closeout/REPORT.md",
+    "coverage": "Manual numbered/root duties accounted below; selected checks are scoped and their actual outcomes are saved."
   },
   "manual_duties": {
-    "11": "13 new BOARD signals/51 create-only handoffs; both declared manifests CLOSED50/50,12 filtered/DUP rows. Four exact committed owner packets read/filed (two initial prerequsites, two late returns); existing direct owner routing conserved, no new R1 correction/event grade.",
-    "Tier1": "Affected auth/source pointers refreshed; prior20:58UTC market observations remain dated. Completed follow-up/history receipt rotated verbatim to archive; all current open duties/design/Will choices kept hot, no charter/spec migration.",
-    "15": "Carried ownership/dates/Will design decisions preserved; current authentication resolved, exact mark and new publication separated. Prior LIQUID/SHADE/DEWEY/YURI scope not re-researched.",
-    "root.retirement": "Prior585-path Git-age review retained as dated evidence; today-authored intake/source artifacts are not60days old, no retirement move in this bounded pass.",
-    "16": "Exact109-path source commit635bbb010 had0 unexpected paths (105 logical paths incl4renames); marker then consumed the exact48 reviewed IDs. Current receipt/source publication pending; no own push/main pull. MIDAS SIG044 pointer/source consumption verified separately.",
-    "Tier1.breadcrumb": "One routing light/full-deferred breadcrumb; no new boot/end-of-day or lifecycle closeout. Existing full-deferred stack remains visible for next applicable Tier2."
+    "11": "All already-reviewed batches CLOSED; newMIDAS3content groups CLOSED3/3 FOLD. Original packet/report read whole and exact packet filed; six existing author routes verified.0 new dispatch/COR/owner grade.",
+    "13": "Every available registry STATUS first30 lines captured; five affected Focus/Updated fields qualified. Missing STATUS and unchanged metadata retained. No roster/route-law change.",
+    "12(a,b)": "BOARD/day/cluster-mediating counts inspected. NETWORK AWARENESS regenerated only after REGISTRY. Current tape UNKNOWN: source-dated observations retained, no current levels inferred.",
+    "12(c)": "BALANCED baseline/scoped pre-CPI and bank-Q3 LOOSE unchanged. Standing flags retained verbatim; no confidence/MINIMIZE change.",
+    "12(d,e,f)": "FULL CLOSEOUT entry prepended; four light/full-deferred breadcrumbs accounted. BOTTOM LINE re-cut with its heading. STATUS budget checked by existing runner.",
+    "14": "MEMORY session notes rewritten; original notes conserved verbatim in SESSION_LOG. Under100lines; no new durable finding/auto-memory, no new promotion/spec edit.",
+    "15": "Owned source/peer receipts and carried duties reconciled; old full completion bytes conserved. YURI now independently records WALTER adoption; OSPREY remainsUNKNOWN. ExpiredOct12 date qualified; source/clock/Will design duties retained.",
+    "root.retirement": "All tracked research/source path ages assessed in retirement-review.json; no retirement moves or source-vintage claim.",
+    "root.consumer": "No owned threshold/figure superseded; latest MIDAS category/source judgments adopted from owner, no new WALTER published numerical baseline. Consumer supersession scan not applicable.",
+    "root.memory": "No fleet auto-memory authored/edited; strict slug/index checks not applicable. Local MEMORY limit is explicitly measured by full runner.",
+    "root.weekdays": "Required fleet files + owned STATUS supplied to full runner; no optional absent workbook/calendar invented.",
+    "root.ledger": "REGISTRY/delivery/BATCH_MANIFEST actually refreshed; no new dispatch/kill/fire/COR/doorbell/research grade. Other event-driven ledgers retain actualOct12re-pull vintage; nudge disposition explained in commit body.",
+    "helpers": "Three existing read-only helper followup closeout asks and actual no-work receipts saved; no helper research/edits and no process exit claimed. PROME owns ORCH_LOG.",
+    "16": "Fresh git fetch verified named prior commits.51 delivery states reconciled from origin. New own exact-path commit to follow; own push/main pull deferred for observed foreign work. Postcommit receipt check and exact PROME queue notice follow."
   },
-  "selected_checks": "Stable targeted BOARD1367/route reconciliation, timestamps, batch closure, action-line and new entities checks PASS; receipt161/110 PASS; archive4 exact moves andweekday PASS. Read-cap/ledger-nudge REVIEW retained, old delivery2malformed amendmentIDs/20NOTE rows retained, full-deferred4 visible; no whole-doctor/full-procedure PASS."
+  "selected_checks": "Full11-check runner completed:0UNKNOWN. Receipt/archives/weekdays/basis/versions/MEMORY PASS; orphans ADVISORY; read-cap/READS/ledger-nudge/doctor REVIEW. Five inherited doctorMEDs: LABOR_DOWN,2amendmentIDs,20NOTE rows,newsweep,89aged unconsumed. No whole-doctor/full-market PASS."
 }
 END_CLOSEOUT_RECEIPT -->

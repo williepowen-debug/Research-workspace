@@ -1,3 +1,16 @@
+## 2026-10-13T14:24:38Z — Will-requested FULL CLOSEOUT / Tier-2 closeout
+
+Requested existing WALTER session handoff saved. Bookmark48 posts/50 content items,13 signals/51 handoffs conserved; prior artifacts verified against fetched origin and all161 October12 handoffs reconciled. One new exact MIDAS return processed: BM-20261013-03 CLOSED3/3 FOLD to six existing owner delivery packets. Three helper asks received explicit completed/no-work receipts. REGISTRY reviewed before NETWORK AWARENESS; MEMORY refreshed under100lines; inherited four full-deferred breadcrumbs are accounted for by this full closeout. Current-market/source/owner/charter gaps remain explicit; own push deferred for foreign work. Canonical resume/duties: LAST_COMPLETION.md; evidence AGENTS/WALTER/research/2026-10-13_session-closeout.
+
+### Prior MEMORY session notes — conserved verbatim
+
+
+**October12 handoff saved; coverage PARTIAL:**10 signals (oneFLASH),45 handoffs,19 kills; three transcripts and late OZK Horton qualifier processed; both helpers/four assignments completed with receipts. Publication/gaps: LAST_COMPLETION. No orders or new research direction.
+**October12 reboot checkpoint:** active native thread01a13104-a88a-7df3-afa2-2dcefdc805e3; previous closeout publication verified. X29:29assessed/exactstage consumed;6reboot/continuation signals. Fresh coverage stays PARTIAL; exact duties LAST_COMPLETION.
+**Fresh session:** at2026-10-12T21:06:26Z, thread01a131e6-5754-7593-a546-210c87683eeb resumed published34e4dbde4. Ordinary queues0 new; all107 dayhandoffs origin-proven, consumption separate. X renewal HTTP400 reopened browser-auth need;606 history keys/empty stage preserved. Explicit70KBcharter remains unactivated; Iran/source/expiry duties remain in LAST_COMPLETION. Use observed session IDs and supported CLI, never infer DARK from missing tools.
+OrdinaryOct12ownerintake:12packets consumed/14signals; SCFnumerator query RESOLVED atKB504/529. No newstudy/deskcloseout; duties LAST_COMPLETION.
+Closeout runner: tools/closeout_run.py; CL9 completed-report boundary fixed/30testsPASS on direct Will request; stop expanding, observe ordinary use. Time savings unmeasured; attestation separate. Details: LAST_COMPLETION.
+
 ## 2026-10-13T00:48:42Z — Will-requested bookmarks / light-closeout — full deferred, ACTIVE
 
 Browser reauthorization succeeded;48 staged posts/50 content items fully dispositioned in2 CLOSED manifests.13 PRIORITY source-qualified signals032–044,51 create-only handoffs;3 completed read-only framing helpers,2 committed YURI source packets consumed/filed. No new grade/study/watch/trade or owner launch. Exact mark/publication tracked in LAST_COMPLETION; dated market/source and read-cap limits retained.

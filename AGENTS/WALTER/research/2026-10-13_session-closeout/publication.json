@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-10-13T14:24:38Z",
+  "origin_ref": "0d04a9c33c98ba124bad3baa5e3116c43e6b5818",
+  "fresh_fetch": "git fetch origin returned0 during this closeout; no pull/push",
+  "commits": [
+    {
+      "commit": "bf00c875c9506c18179a16dc7b10a84a1d3db267",
+      "state": "published"
+    },
+    {
+      "commit": "9e0ed74c22873c9959d348ad4382c8bc6a78dbeb",
+      "state": "published"
+    },
+    {
+      "commit": "635bbb0106c21dd08d97f570c612e148c6c8d3d9",
+      "state": "published"
+    },
+    {
+      "commit": "596e267502ce5a7bb35f0db05a35f2ee7b78cea3",
+      "state": "published"
+    },
+    {
+      "commit": "e285f0151f42254893e7e522a4989ef7a3bf08d9",
+      "state": "published"
+    },
+    {
+      "commit": "8df3e97b1daec517c12d6a5ef3162704ae8d044a",
+      "state": "published"
+    },
+    {
+      "commit": "4e5b1a1bc5d214cfa6389b8e4f2df98956364e20",
+      "state": "published"
+    },
+    {
+      "commit": "58e6594ebe22fc40b06f9154935c1392a6acd243",
+      "state": "published"
+    }
+  ],
+  "limit": "This proof covers these already-authored results. The new closeout commit does not yet exist."
+}
