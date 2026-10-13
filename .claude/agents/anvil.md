@@ -27,7 +27,7 @@ Your spawn prompt supplies the per-run variables: **(a)** the broker-export tran
 - After authorization: commit hash reported back (from `commit_check`'s verify line), tree state noted.
 
 ## Known state at last edit (2026-10-13 — verify at the artifact, never trust this line)
-- **2026-10-13 run `/root/anvil_1013`, Codex:** positions-only IRA receipt, capture/quote time UNKNOWN;18rows/account$33,729.03 tie.3NEW(QQQ744P Oct14x1,KRE67P Nov27x4,CMG28P Oct30x2),3ABSENT(QQQ755C Oct12,QQQ745P Oct15,TLT82P Oct16),2QTY(VLO1→2,TBT10→5),13MARK ONLY. No transaction/realized inference; Activity absent. D76–79 added, prior duties retained. USO displayed mark×qty one-cent discrepancy faithfully retained, account sum exact. Parent parser/row/size checks PASS; clerk explicitly closed without Git, PROME commits. Mirror SHA256 e2f31cd8770a56e8f468a65e993195f31ad93803a75dbb443bca35be6c919633. Acceptance: `PROME/reports/2026-10-13_broker-reconcile-acceptance.md`.
+- **2026-10-13 run `/root/anvil_1013`, Codex, Activity follow-up:** initial18row snapshot ties$33,729.03; later Activity resolves QQQ755C expiry,QQQ745P/TLT exits,TBT partial sale,new entries and QQQ750C roundtrip. Five nonAAPL results+$99.29. AAPL5 sold net$1,707.54 processing; remaining5 DERIVED/unvalued, lot basis unknown. Parser17live/4withheld PASS; parent consumer sweep/row checks PASS, known UNKNOWN-asof labeling limitation retained. D76 narrowed; D78/D60 remain. Clerk explicitly closed without Git; parent commits. Mirror SHA256 ae7311f825f9286f075048c37a66da3201242e6b7367acaf5d18e3b0ec70200a. Acceptance: `PROME/reports/2026-10-13_broker-activity-acceptance.md`. Initial positions-only run preserved in Git.
 
 ### Prior run — October11 (history)
 

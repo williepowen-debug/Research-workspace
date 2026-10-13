@@ -42,3 +42,63 @@ VERIFIED using Decimal arithmetic: 18 displayed positions total $21,409.49; plus
 Displayed USO last $152.748 ×37 = $5,651.676, which rounds to $5,651.68, one cent above displayed value $5,651.67. Both image cells are transcribed faithfully. Hidden quote precision/asynchronous fields are possible explanations, not verified. Use displayed value/basis; do not alter either to force the multiplication. Account totals and per-row value-minus-basis arithmetic are checked separately.
 
 Activity ledger not supplied. Exit details for the three absent contracts, entries for three new contracts, VLO/TBT transactions and cash/pending flows remain UNKNOWN. No new realized result booked. Prior Activity remains in the October11 transcription.
+
+
+## 4. Later-received Activity & Orders image — October13
+
+Source SHA256 `8facfa81cd1c2c81cce7dc0fae25c6992c43a5e29f1e6a42ebd08698d966abe4`. Will's `capture capture.JPG`, `/mnt/c/Users/willi/OneDrive/Desktop/capture capture.JPG`; exact capture/fill time and account selector not visible. Same-account continuity inferred from exact matching contracts/cash; not independently identified by account number. This supplements, rather than rewrites, the earlier positions snapshot. Later message receipt is not proof of image timestamp order. AAPL sale is unreflected in the earlier ten-share row; absent intervening trades, remaining five shares are DERIVED, not a fresh holdings capture.
+
+### Orders panel (four visible rows)
+
+| date | order | status | amount |
+| --- | --- | --- | --- |
+| 2026-10-13 | Sell 5 AAPL shares at Market (Day) | Filled at $341.515 | $1,707.54 |
+| 2026-10-13 | Sell to Close 2 QQQ Oct13 2026 $750 calls at Market (Day) | Filled at $0.01 | $1.97 |
+| 2026-10-12 | Sell to Close 1 USO Oct14 2026 $150 call Limit $2.66 (Day) | Verified Canceled | -- |
+| 2026-10-12 | Sell to Close 1 QQQ Oct12 2026 $755 call at Market (Day) | Verified Canceled | -- |
+
+### Past 30 days (all24 visible rows; newest first)
+
+Amounts are net cash, not inferred gross fills. Order rows above duplicate corresponding activity, never additional cash. OPTION LIQUIDATION is the broker description; initiator and future policy are not established.
+
+| row | posted date | description | amount | cash balance |
+| --- | --- | --- | --- | --- |
+| 1 | 2026-10-13 | SOLD APPLE INC (AAPL), Cash | +1707.54 | Processing |
+| 2 | 2026-10-13 | SOLD CLOSING OPTION LIQUIDATION QQQ Oct13 2026 $750 CALL (100 SHS), Cash | +1.97 | Processing |
+| 3 | 2026-10-13 | EXPIRED QQQ Oct12 2026 $755 CALL as of 2026-10-12, Cash | -- | Processing |
+| 4 | 2026-10-12 | BOUGHT VALERO ENERGY CORP (VLO), Cash | -440.00 | 12317.57 |
+| 5 | 2026-10-12 | BOUGHT OPENING KRE Nov27 2026 $67 PUT (100 SHS), Cash | -510.65 | 12757.57 |
+| 6 | 2026-10-12 | SOLD CLOSING QQQ Oct15 2026 $745 PUT (100 SHS), Cash | +393.34 | 13268.22 |
+| 7 | 2026-10-12 | BOUGHT OPENING QQQ Oct14 2026 $744 PUT (100 SHS), Cash | -275.66 | 12874.88 |
+| 8 | 2026-10-12 | BOUGHT OPENING QQQ Oct13 2026 $750 CALL (100 SHS), Cash | -67.66 | 13150.54 |
+| 9 | 2026-10-12 | BOUGHT OPENING QQQ Oct13 2026 $750 CALL (100 SHS), Cash | -68.66 | 13218.20 |
+| 10 | 2026-10-12 | BOUGHT OPENING CMG Oct30 2026 $28 PUT (100 SHS), Cash | -109.33 | 13286.86 |
+| 11 | 2026-10-12 | SOLD CLOSING TLT Oct16 2026 $82 PUT (100 SHS), Cash | +400.34 | 13396.19 |
+| 12 | 2026-10-12 | SOLD PROSHARES ULTRASHORT 20+ YEAR TREASURY (TBT), Cash | +210.40 | 12995.85 |
+| 13 | 2026-10-09 | BOUGHT OPENING USO Oct14 2026 $150 CALL (100 SHS), Cash | -375.33 | 12785.45 |
+| 14 | 2026-10-09 | BOUGHT OPENING QQQ Oct12 2026 $755 CALL (100 SHS), Cash | -144.66 | 13160.78 |
+| 15 | 2026-10-09 | SOLD CLOSING OPTION LIQUIDATION USO Oct09 2026 $150 CALL (100 SHS), Cash | +0.99 | 13305.44 |
+| 16 | 2026-10-09 | SOLD CLOSING QQQ Oct09 2026 $750 CALL (100 SHS), Cash | +237.34 | 13304.45 |
+| 17 | 2026-10-09 | SOLD CLOSING OPTION LIQUIDATION QQQ Oct09 2026 $755 PUT (100 SHS), Cash | +361.94 | 13067.11 |
+| 18 | 2026-10-08 | SOLD CLOSING QQQ Oct15 2026 $745 PUT (100 SHS), Cash | +605.32 | 12705.17 |
+| 19 | 2026-10-08 | BOUGHT OPENING QQQ Oct09 2026 $750 CALL (100 SHS), Cash | -156.66 | 12099.85 |
+| 20 | 2026-10-08 | SOLD CLOSING QQQ Oct09 2026 $755 PUT (100 SHS), Cash | +835.32 | 12256.51 |
+| 21 | 2026-10-07 | BOUGHT OPENING QQQ Oct15 2026 $745 PUT (100 SHS), Cash | -567.33 | 11421.19 |
+| 22 | 2026-10-07 | BOUGHT OPENING WAL Dec18 2026 $65 PUT (100 SHS), Cash | -682.65 | 11988.52 |
+| 23 | 2026-10-07 | BOUGHT OPENING OZK Nov20 2026 $40 PUT (100 SHS), Cash | -322.65 | 12671.17 |
+| 24 | 2026-10-06 | EXPIRED QQQ Oct05 2026 $735 PUT as of 2026-10-05, Cash | -- | 11993.82 |
+
+### Reconciliation disposition
+
+- QQQ Oct12 755C expired October12, posted October13: remaining basis$144.66 ⇒ realized−$144.66. Canceled sell order is not a sale.
+- QQQ Oct15 745P sold close October12 net$393.34 versus remaining basis$283.66 ⇒ realized+$109.68. Full cohort$605.32+$393.34−$567.33=+$431.33; earlier+$321.65 is already recorded, never add full cohort again.
+- TLT Oct16 82P sold close October12 net$400.34 versus remaining basis$167.67 ⇒ realized+$232.67; prior partial sale remains separate.
+- TBT October12 sale net$210.40; quantity reduction10→5 and removed basis$346.46−$172.01=$174.45 derive realized+$35.95. Quantity/basis derived from two positions snapshots; transaction row itself omits them.
+- QQQ Oct13 750C: two October12 buys$67.66+$68.66=$136.32; October13 two-contract sell close at$0.01, net$1.97 ⇒ realized−$134.35. This round trip was absent from both saved holdings views. Sale is already represented by earlier snapshot pending+$1.97; do not add it twice.
+- AAPL five-share sale October13 fill$341.515, net$1,707.54 (processing). Remaining5 shares DERIVED from prior10, assuming no unseen intervening trade. Sold tax-lot basis/realized result and remaining basis UNKNOWN; do not halve aggregate basis to invent a realized gain. No new account valuation/cash capture supplied.
+- VLO October12 buy net$440 confirms entry cash and date; quantity+1 comes from positions bridge. KRE/QQQ744P/CMG opening dates and cash amounts now confirmed. Gross fills/individual transaction quantities/times otherwise absent. No roll linkage or new gate authorization inferred.
+- USO one-contract $2.66 day limit is VERIFIED CANCELED; it is neither a fill nor a resting order. Whether another replacement order exists is UNKNOWN.
+
+Displayed cash ledger sequence ties from October9$12,785.45 through October12 net−$467.88 to$12,317.57. October13 processing sale credits total$1,709.51. Adding these once to the ledger balance gives$14,027.08, a conditional cash-plus-processing bridge, NOT certified settled cash, buying power or refreshed account total. Earlier snapshot already includes+$1.97 pending; only AAPL+$1,707.54 is incremental to that snapshot cash-plus-pending bridge.
+
+Five newly evidenced non-AAPL results sum+$99.29 across October12–13; not today's P/L, not tax treatment, and not inclusive of previously booked partial exits. Prior account total$33,729.03 and Today+$407.34 remain historical screenshot values. D76 is resolved for the named cash/date/disposition evidence, narrowed for missing detailed fills and AAPL lots; D78 management scope stays separate; D60 future handling remains unknown. Historical D69$53.54 gap lies outside this image and stays open.
