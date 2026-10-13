@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-13T00:55:41.978082+00:00",
+  "owner_thread": "01a131e1-82c3-7702-beae-4992d53e8fd5",
+  "return_thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "message_id": "01a132c2-112c-7b52-89d6-f701bae1b9e9",
+  "transport": "supported codex queue --thread --message",
+  "packet_commit": "778ef6a3828a84f59f171bcff6b77f54f919c21c",
+  "result_commit": "55ee66731219e997ba9e8b62c46a28db4f09677d",
+  "notification": "ACCEPTED",
+  "consumption": "UNKNOWN at receipt; no recipientread claimed",
+  "lifecycle": "existing Will-owned window remains open",
+  "sync": "DEFERRED for otherdesksdirtypaths"
+}

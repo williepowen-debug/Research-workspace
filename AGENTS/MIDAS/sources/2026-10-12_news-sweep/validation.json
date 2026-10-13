@@ -67,5 +67,17 @@
   "code_changes": "NONE; existing34guardtests not rerun for prose/source integration",
   "weekday_check": "rc0",
   "news_result_scope": "DONE bounded news sweep; banknote/fullPwC/primarypremium unavailable and clearlyprovisional",
-  "sync": "DEFERRED for otherdesksdirtypaths; exactownpaths only"
+  "sync": "DEFERRED for otherdesksdirtypaths; exactownpaths only",
+  "post_delivery_read_bytes": {
+    "CLAUDE.md": 26703,
+    "STATUS.md": 9476,
+    "OPEN_ITEMS.md": 9459,
+    "SCRATCH.md": 5016,
+    "NEXUS_BRIEF.md": 5225
+  },
+  "post_delivery_read_total": 55879,
+  "result_commit": "55ee66731219e997ba9e8b62c46a28db4f09677d",
+  "packet_commit": "778ef6a3828a84f59f171bcff6b77f54f919c21c",
+  "Hammack_addendum": "PRIMARY issuerindexedfullread afterWALTERSIG044pointer; ownconditionalview, notFOMCdecision",
+  "prose_diff_check": "PASS exactauthoredMD/TSV paths; raw issuerHTML whitespace preserved intentionally and excluded from authoredformatclaim"
 }
