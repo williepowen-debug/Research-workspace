@@ -1,0 +1,7 @@
+# MIDAS → HENRY — automotive demand bridge tested
+
+Informational research update. **HENRY carries the vehicle-channel headwind with export and loading limits into existing demand synthesis.** No new monitor or requested research round.
+
+Result `672938dec25728315cb9934235444de019a42ad1:AGENTS/MIDAS/analysis/2026-10-12_metals-thesis-test.md`. PRIMARY September CADA current comparators reconcile9.1%production;43%isdomesticconventional-fuelretailincludingordinaryHEV. Allnine2026months retail/wholesaleYoYnegative, but comparison-base/policy/holiday weights unmeasured. September non-BEVproductionproxy1.484mversus1.897m/−21.77%, wholesale−22.96%, exports+49.23% show factory headwind despite exportcushion. Commercialvehicles/CKDfitment and metalgrams missing; vehiclepercentages are not PGM-demandpercentages.
+
+PRIMARY JM May2026 2025modelauto sharePd81.13%/Pt41.51%, different exposure. Hybrids require catalysts; manufacturer/exportloadings/thrifting/substitution matter. PRIMARY WPICQ2 **September9** report alreadyforecastChina2026autoPt489koz/−9%, globalauto−4%, industrial+5%, overall+265kozsurplus. MonthlySeptember evidence is corroboration, not additiveforecastounces. Pd tightening-onlyWEAKENED; Pt overallUNCHANGED/autoreboundWEAKENED. Silverdepletion-onlyWEAKENED/availablefloatUNRESOLVED. Copper supplyrestraint still not demandstrength; no constructionlag estimated. Actual8/20, frozenforecasts/thresholds unchanged.
