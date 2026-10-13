@@ -1,0 +1,234 @@
+Deutsche Bank Calls Time on the Silver Squeeze, Sees $70 Silver by Q2 2027
+Exencial Research Partners
+Subscribe
+Sign in
+Research Report Summary
+Deutsche Bank Calls Time on the Silver Squeeze, Sees $70 Silver by Q2 2027
+London's spare silver is up 70% in under a year, solar is using a fifth less of the metal, and Deutsche Bank thinks gold will leave silver behind.
+Team @ Exencial Research
+Oct 08, 2026
+3
+Share
+Deutsche Bank’s
+Head of Metals Research,
+Daniel Ghali, CFA
+, published
+Beyond Peak #Silversqueeze
+on
+2 October 2026
+. It’s a thematic commodities note, so there’s no rating or target. The call is in the forecasts. Deutsche Bank sees silver averaging
+$70/oz by Q2 2027
+, about
+16% above the $60.5 spot
+printed in the note. Over the same stretch it sees gold at
+$5,250/oz
+, about
+26% above its $4,165 spot
+. The basis is the supply and demand balance plus a new yardstick the bank calls inventory cover.
+The logic is straightforward.
+A year ago the world ran short of silver that was free to move. Now there’s plenty of it, and the biggest new buyer, solar, is cutting back. So silver should lag gold, borrowing silver should stay cheap, and price swings should calm down.
+Where did last year’s silver shortage go?
+It went away because the metal came back to London.
+The squeeze peaked in
+mid October 2025
+. One month lease rates (the fee to borrow silver for a month) hit extreme levels. The odd part is that global vaults never held much less than
+1.3bn ounces
+. Deutsche Bank estimates the 2025 deficit at about
+245mn oz
+.
+The gap was in what traders call the
+free float
+. That’s silver sitting in London vaults that isn’t tied up backing an ETF, so anyone can buy it. More than
+914mn oz
+sits in London commercial vaults. At end August, more than
+300mn oz
+of that was free. Deutsche Bank says that’s
+up 70% since end October 2025
+.
+Why does 300mn oz matter? Average daily trading in LBMA spot silver is about
+275mn oz
+. Free float has topped that every month since at least
+April 2026
+. It now beats trading volume by its widest margin since
+November 2024
+.
+The refill wasn’t just metal shuffled from one city to another.
+CME
+warehouse stocks in the US are still about
+25mn oz above November 2024 levels
+. That’s even as CME open interest fell by the equivalent of
+225mn oz
+. Shanghai vaults have added about
+35mn oz
+since running low in early 2026. Deutsche Bank reads this as fresh metal from private vaults, recycling and buyers walking away.
+India helped too. After
+Prime Minister Modi
+asked people not to buy gold and silver, India raised import duties and tightened silver imports. Imports for the year are running
+25% below
+last year. August suggests the buyers’ strike may be over. Imports usually peak in October before Diwali, at about
+40mn oz
+a month over the past five years. Deutsche Bank says London and Shanghai have enough stock to handle that.
+The caveat:
+the CME pile is a backstop only if dealers ship it. If London’s free float drains again, the bank assumes CME metal flows back across the Atlantic. That worked in 2026. It isn’t guaranteed.
+Why is solar buying less silver when panels still get built?
+Because panel makers are using less silver per cell, and fast.
+Deutsche Bank expects global silver used in solar to fall
+more than 20% in 2026
+. Chinese solar use falls about
+33%
+. That’s the worst year for silver in solar in a decade.
+Fewer panels explain only a sliver of it. BNEF sees global solar capacity additions shrinking just
+4.7%
+this year. The rest is
+thrifting
+, which means engineering silver out of each cell. Silver per solar cell should drop about
+17% in 2026
+. Deutsche Bank lists four reasons: laser contact tweaks, copper coated silver pastes, ultra fine cell fingers and new busbar designs.
+On TOPCon, the most common cell type, the fingers are already
+70% smaller
+than in 2022. Back contact cells were meant to need more silver. They’re cutting it too, with copper plating and copper paste. Copper paste could reduce silver loadings by
+up to 80%
+over the next several years.
+Price did this. Silver was
+more than 30%
+of the cost of a solar module earlier this year. It was
+below 10%
+at the start of 2025. It’s back to about
+14%
+now. But inside the cell itself, silver is still
+38%
+of the cost, against under 25% at the start of 2025. So the pressure to thrift hasn’t eased.
+The caveat:
+thrifting is a one way door only if the copper alternatives hold up in the field. A reliability problem with copper pastes would slow the switch. Deutsche Bank doesn’t model that case.
+How much cover does the market have now?
+About 45 years, up from one.
+Deutsche Bank introduces a measure it calls inventory coverage. It asks how many years London’s free float could fund that year’s shortfall. The answer was
+2.4 years in 2023
+and
+1.0 year in 2025
+. For 2026 the chart shows
+45.3 years
+.
+That number explodes for two reasons at once. The pile got bigger, and the hole got smaller. Deutsche Bank’s balance sheet puts the 2026 physical deficit at just
+16.6mn oz
+, or
+2% of demand
+. In 2022 it was
+254.3mn oz
+. Then in
+2027
+the physical market flips to a
+surplus of 18.5mn oz
+, even with generous bar and coin buying assumed.
+Add ETFs and the 2027 surplus widens to
+43.5mn oz
+. ETF flows tend to follow the US Federal Reserve. Based on past Fed hiking cycles, Deutsche Bank expects silver ETFs to shed about
+40mn oz by December 2027
+. Its table pencils in
+25mn oz
+of ETF selling for 2027.
+The caveat:
+the ETF call rests on just
+two
+hiking cycles since silver ETFs began. Deutsche Bank says so itself. In a better case, ETFs keep buying and add up to
+55mn oz
+by Q4 2027. The bank says even that wouldn’t strain London.
+Why is Shanghai paying up if Chinese demand is weak?
+This is the one fact that doesn’t fit, and Deutsche Bank says it can’t fully explain it.
+Every Chinese demand signal it tracks looks soft.
+Chinese solar use is down about
+33%
+this year. Withdrawals from the Shanghai Gold Exchange (SGE) are a proxy for wholesale demand. They’ve averaged about
+70mn oz a year
+over five years. This year’s pace has slowed to
+42% below
+that average, after a burst of retail buying in January to March. Shanghai Futures Exchange stocks are up too.
+Yet the Shanghai price keeps running close to London’s, or above it. For most of 2020 to 2025, shipping silver into China lost an importer
+$2 to $4 an ounce
+. Now it roughly breaks even.
+How do both hold at once? Deutsche Bank’s partial answer is speculative buying of physical metal in China. But that should drain SGE vaults, and it hasn’t. So the bank stays sceptical and calls this an
+upside risk
+to its view. If China launched investment products that hold physical silver, the import route to London is already built. Metal could leave London fast.
+The resolution, for now:
+the soft demand data outnumber one stubborn price signal. Deutsche Bank sides with the data and flags the price.
+What does this mean for silver’s price, gold and lease rates?
+Silver drifts higher, gold runs faster.
+Deutsche Bank forecasts silver at
+$66.7
+in Q4 2026 and about
+$70
+through mid 2027. It doesn’t see silver getting back to the
+$83.9
+Q1 2026 average. Gold climbs to
+$5,500
+by Q3 2027 and
+$6,750
+on average in 2028.
+Do the arithmetic on those forecasts. The gold to silver ratio is about
+69
+at the printed spot. It rises to about
+80
+by Q4 2027 and about
+85
+in 2028. That’s what Deutsche Bank means by a weaker XAGXAU (silver priced in gold). It even suggests silver could be sold to fund gold buying.
+Borrowing costs should stay low. Deutsche Bank expects lease rates to remain
+structurally suppressed
+. Short term lease rates already track the inventory rebuild. Longer ones lag. London’s
+one year lease rate
+is still about
+180 basis points above November 2024
+. The bank expects that gap to close over the coming year. It also expects calmer price swings.
+The caveat:
+a $70 call with a $60.5 spot still implies a rising silver price. This is a relative call against gold, not a crash call.
+What could prove Deutsche Bank wrong?
+Three things, and the first is the one to watch.
+The
+Shanghai premium
+is the cleanest warning sign. If it reflects real Chinese hoarding, a new physical silver product in China could pull metal out of London quickly.
+Retail bar and coin buying
+is the second. Retail bought heavily in Q4 2025 and Q1 2026. Deutsche Bank thinks that hangover drags on demand and that surpluses could be larger than forecast. A fresh retail rush would flip that.
+ETF flows
+are the third. The forecast rests on a two cycle sample, and ETF flows in 2025 hit
+200mn oz
+. A swing of that size in either direction would swamp a 2027 surplus of 18.5mn oz.
+There are also loose ends in the note itself. The text puts 2026 inventory cover at
+46.3 years
+while the chart shows
+45.3
+. Shanghai’s stock build is given as
+30mn oz
+in one heading and
+35mn oz
+in the body. The ETF outflow is about
+40mn oz
+in the text and
+25mn oz
+in the table. None of these changes the direction of the call.
+This column summarises third-party research by Deutsche Bank Research for informational purposes. Exencial Research Partners did not produce the underlying forecasts, does not endorse them, and has no relationship with the issuer. Figures are as published in the source note dated 2 October 2026.
+3
+Share
+Previous
+Next
+Discussion about this post
+Comments
+Restacks
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Exencial Research Partners
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

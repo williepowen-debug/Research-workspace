@@ -1,0 +1,6390 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="ltr" dir="ltr" lang="en-GB">
+
+<head>
+
+		<!-- OneTrust Cookies Consent Notice start for matthey.com -->
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/becb0d1f-dea8-414f-b62f-0b46b7482b93/OtAutoBlock.js" ></script>
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="becb0d1f-dea8-414f-b62f-0b46b7482b93" ></script>
+<script type="text/javascript">
+
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for matthey.com -->
+<script>
+
+(function () {
+
+  'use strict';
+ 
+  var LINK_SELECTOR = '#onetrust-policy a[href^="https://matthey.com/"]';
+
+  var jQueryTries = 0;
+
+  var maxJQueryTries = 100;
+
+  var retries = 0;
+
+  var maxRetries = 10;
+ 
+  function addAttributeWithjQuery(jQ) {
+
+    try {
+
+      var $links = jQ(LINK_SELECTOR);
+
+      if ($links && $links.length) {
+
+        $links.attr('data-senna-off', 'true');
+
+        return true;
+
+      }
+
+    } catch (e) {
+
+      // jQuery not usable here
+
+    }
+
+    return false;
+
+  }
+ 
+  function addAttributeNative(root) {
+
+    try {
+
+      var ctx = root || document;
+
+      var links = ctx.querySelectorAll(LINK_SELECTOR);
+
+      if (!links || links.length === 0) return false;
+
+      Array.prototype.forEach.call(links, function (a) {
+
+        if (!a.hasAttribute || !a.hasAttribute('data-senna-off')) {
+
+          try { a.setAttribute('data-senna-off', 'true'); } catch (ignore) {}
+
+        }
+
+      });
+
+      return true;
+
+    } catch (e) {
+
+      return false;
+
+    }
+
+  }
+ 
+  function run(jQ) {
+
+    if (jQ) {
+
+      if (addAttributeWithjQuery(jQ)) return;
+
+    } else {
+
+      if (addAttributeNative()) return;
+
+    }
+ 
+    if (document.cookie.indexOf('OptanonAlertBoxClosed') === -1 && retries++ < maxRetries) {
+
+      setTimeout(function () { run(jQ); }, 3000);
+
+    }
+
+  }
+ 
+  (function waitForjQuery() {
+
+    if (typeof window.jQuery === 'undefined') {
+
+      if (jQueryTries++ > maxJQueryTries) {
+
+        addAttributeNative();
+
+        return;
+
+      }
+
+      setTimeout(waitForjQuery, 50);
+
+    } else {
+
+      window.jQuery(function () { run(window.jQuery); });
+
+    }
+
+  })();
+
+})();
+</script>
+
+
+		<title>PGM market reports | Johnson Matthey</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+<meta content="PGM market reports" lang="en-GB" name="description" /><meta content="PGM market reports" lang="en-GB" name="keywords" />
+
+
+<script type="importmap">{"imports":{"@clayui/breadcrumb":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$breadcrumb.js","@clayui/form":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$form.js","react-dom":"/o/frontend-js-react-web/__liferay__/exports/react-dom.js","@clayui/popover":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$popover.js","@clayui/charts":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$charts.js","@clayui/shared":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$shared.js","@clayui/localized-input":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$localized-input.js","@clayui/modal":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$modal.js","@clayui/empty-state":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$empty-state.js","@clayui/color-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$color-picker.js","@clayui/navigation-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$navigation-bar.js","react":"/o/frontend-js-react-web/__liferay__/exports/react.js","@clayui/pagination":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination.js","@clayui/icon":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$icon.js","@clayui/table":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$table.js","@clayui/autocomplete":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$autocomplete.js","@clayui/slider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$slider.js","@clayui/management-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$management-toolbar.js","@clayui/multi-select":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-select.js","@clayui/nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$nav.js","@clayui/time-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$time-picker.js","@clayui/provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$provider.js","@clayui/upper-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$upper-toolbar.js","@clayui/loading-indicator":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$loading-indicator.js","@clayui/panel":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$panel.js","@clayui/drop-down":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$drop-down.js","@clayui/list":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$list.js","@clayui/date-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$date-picker.js","@clayui/label":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$label.js","@clayui/data-provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$data-provider.js","@liferay/frontend-js-api/data-set":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api$data-set.js","@clayui/core":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$core.js","@clayui/pagination-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination-bar.js","@clayui/layout":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$layout.js","@clayui/multi-step-nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-step-nav.js","@liferay/frontend-js-api":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api.js","@clayui/css":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$css.js","@clayui/toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$toolbar.js","@clayui/alert":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$alert.js","@clayui/badge":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$badge.js","@clayui/link":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$link.js","@clayui/card":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$card.js","@clayui/progress-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$progress-bar.js","@clayui/tooltip":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tooltip.js","@clayui/button":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$button.js","@clayui/tabs":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tabs.js","@clayui/sticker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$sticker.js"},"scopes":{}}</script><script data-senna-track="temporary">var Liferay = window.Liferay || {};Liferay.Icons = Liferay.Icons || {};Liferay.Icons.controlPanelSpritemap = 'https://matthey.com/o/admin-theme/images/clay/icons.svg';Liferay.Icons.spritemap = 'https://matthey.com/o/jm-platinum-theme/images/clay/icons.svg';</script>
+<script data-senna-track="permanent" src="/combo?browserId=chrome&minifierType=js&languageId=en_GB&t=1790580421352&/o/frontend-js-jquery-web/jquery/jquery.min.js&/o/frontend-js-jquery-web/jquery/init.js&/o/frontend-js-jquery-web/jquery/ajax.js&/o/frontend-js-jquery-web/jquery/bootstrap.bundle.min.js&/o/frontend-js-jquery-web/jquery/collapsible_search.js&/o/frontend-js-jquery-web/jquery/fm.js&/o/frontend-js-jquery-web/jquery/form.js&/o/frontend-js-jquery-web/jquery/popper.min.js&/o/frontend-js-jquery-web/jquery/side_navigation.js" type="text/javascript"></script>
+<script data-senna-track="permanent" type="text/javascript">window.Liferay = window.Liferay || {}; window.Liferay.CSP = {nonce: ''};</script>
+<link data-senna-track="temporary" href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets/pgm-market-reports" rel="canonical" />
+<link data-senna-track="temporary" href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets/pgm-market-reports" hreflang="en-GB" rel="alternate" />
+<link data-senna-track="temporary" href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets/pgm-market-reports" hreflang="x-default" rel="alternate" />
+<meta property="og:description" content="PGM market reports">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:site_name" content="matthey.com">
+<meta property="og:title" content="PGM market reports - matthey.com">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets/pgm-market-reports">
+
+
+<link href="https://matthey.com/o/jm-platinum-theme/images/favicon.ico" rel="apple-touch-icon" />
+<link href="https://matthey.com/o/jm-platinum-theme/images/favicon.ico" rel="icon" />
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://matthey.com/o/jm-platinum-theme/css/clay.css?browserId=chrome&amp;themeId=jmplatinumtheme_WAR_jmplatinumtheme&amp;minifierType=css&amp;languageId=en_GB&amp;t=1790580340000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	<link href="/combo?browserId=chrome&amp;minifierType=css&amp;themeId=jmplatinumtheme_WAR_jmplatinumtheme&amp;languageId=en_GB&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fo%2Fportal-search-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fo%2Fproduct-navigation-product-menu-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fo%2Fproduct-navigation-user-personal-bar-web%2Fcss%2Fmain.css&amp;com_liferay_segments_experiment_web_internal_portlet_SegmentsExperimentPortlet:%2Fo%2Fsegments-experiment-web%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fo%2Fsite-navigation-menu-web%2Fcss%2Fmain.css&amp;t=1790580340000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="14fb7af9" />
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return true;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 146.0;
+			},
+
+			getRevision: function() {
+				return '537.36';
+			},
+			getVersion: function() {
+				return '146.0';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return true;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return true;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return false;
+			},
+			isMac: function() {
+				return true;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return false;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return true;
+			},
+			isSafari: function() {
+				return true;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return true;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+		];
+
+		(function () {
+			var available = {};
+
+			var direction = {};
+
+			
+
+				available['en_GB'] = 'English\x20\x28United\x20Kingdom\x29';
+				direction['en_GB'] = 'ltr';
+
+			
+
+				available['ko_KR'] = 'Korean\x20\x28South\x20Korea\x29';
+				direction['ko_KR'] = 'ltr';
+
+			
+
+			Liferay.Language = {
+				available,
+				direction,
+				get: function(key) {
+					return key;
+				}
+			};
+		})();
+
+		var featureFlags = {"LPD-11018":false,"LPS-193884":false,"LPS-178642":false,"LPS-193005":false,"LPS-187284":false,"LPS-187285":false,"LPS-114786":false,"LPS-192957":false,"COMMERCE-8087":false,"LRAC-10757":false,"LPS-180090":false,"LPS-170809":false,"LPS-178052":false,"LPS-189856":false,"LPS-187436":false,"LPS-182184":false,"LPS-185892":false,"LPS-186620":false,"COMMERCE-12754":false,"LPS-184404":false,"LPS-180328":false,"LPS-198183":false,"LPS-171364":false,"LPS-153714":false,"LPS-96845":false,"LPS-170670":false,"LPS-141392":false,"LPS-169981":false,"LPD-15804":false,"LPS-153839":false,"LPS-200135":false,"LPS-187793":false,"LPS-177027":false,"LPD-10793":false,"COMMERCE-12192":false,"LPD-11003":false,"LPS-196768":false,"LPS-196724":false,"LPS-196847":false,"LPS-163118":false,"LPS-114700":false,"LPS-135430":false,"LPS-134060":false,"LPS-164563":false,"LPS-122920":false,"LPS-203351":false,"LPS-194395":false,"LPD-6368":false,"LPD-10701":false,"LPS-202104":false,"COMMERCE-9599":false,"LPS-187142":false,"LPD-15596":false,"LPS-198959":false,"LPS-196935":true,"LPS-187854":false,"LPS-176691":false,"LPS-197909":false,"LPS-202534":false,"COMMERCE-8949":false,"COMMERCE-11922":false,"LPS-194362":false,"LPS-165481":false,"LPS-153813":false,"LPS-174455":false,"LPD-10735":false,"COMMERCE-13024":false,"LPS-194763":false,"LPS-165482":false,"LPS-193551":false,"LPS-197477":false,"LPS-174816":false,"LPS-186360":false,"LPS-153332":false,"COMMERCE-12170":false,"LPS-179669":false,"LPS-174417":false,"LPS-155284":false,"LRAC-15017":false,"LPS-200108":false,"LPS-159643":false,"LPS-161033":false,"LPS-164948":false,"LPS-186870":false,"LPS-186871":false,"LPS-188058":false,"LPS-129412":false,"LPS-166126":false,"LPS-169837":false};
+
+		Liferay.FeatureFlags = Object.keys(featureFlags).reduce(
+			(acc, key) => ({
+				...acc, [key]: featureFlags[key] === 'true' || featureFlags[key] === true
+			}), {}
+		);
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 5368709120
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '3894';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/guest/~/control_panel/manage';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/products-and-markets/pgms-and-circularity/pgm-markets/pgm-market-reports';
+				},
+				getLayoutURL: function() {
+					return 'https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets/pgm-market-reports';
+				},
+				getParentLayoutId: function() {
+					return '4308';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'en-GB';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https\x3a\x2f\x2fmatthey\x2ecom\x2fproducts-and-markets\x2fpgms-and-circularity\x2fpgm-markets\x2fpgm-market-reports';
+			},
+			getCDNBaseURL: function() {
+				return 'https://matthey.com';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '161602';
+			},
+			getCompanyId: function() {
+				return '161555';
+			},
+			getDefaultLanguageId: function() {
+				return 'en_GB';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'en_GB';
+			},
+			getParentGroupId: function() {
+				return '161599';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://matthey.com/o/jm-platinum-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/jm-platinum-theme';
+			},
+			getPlid: function() {
+				return '7927';
+			},
+			getPortalURL: function() {
+				return 'https://matthey.com';
+			},
+			getRealUserId: function() {
+				return '161561';
+			},
+			getRemoteAddr: function() {
+				return '104.183.101.109';
+			},
+			getRemoteHost: function() {
+				return '104.183.101.109';
+			},
+			getScopeGroupId: function() {
+				return '161599';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '161599';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://matthey.com/group/guest/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '161599';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=7927';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fmatthey\x2ecom\x2fweb\x2fguest';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '161561';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+
+			isStagedPortlet: function() {
+				
+					
+						return false;
+					
+				
+			},
+
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=chrome&minifierType=&languageId=en_GB&t=1790580291306&';
+			},
+			getDateFormat: function() {
+				return '%d/%m/%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=chrome&minifierType=&languageId=en_GB&t=1790580291306';
+			}
+		};
+
+		Liferay.authToken = 'FdoWLMQP';
+
+		
+
+		Liferay.currentURL = '\x2fproducts-and-markets\x2fpgms-and-circularity\x2fpgm-markets\x2fpgm-market-reports';
+		Liferay.currentURLEncoded = '\x252Fproducts-and-markets\x252Fpgms-and-circularity\x252Fpgm-markets\x252Fpgm-market-reports';
+	// ]]>
+</script>
+
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', nonce: '', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules', url: '/combo/?browserId=chrome&minifierType=js&languageId=en_GB&t=1790580291306&', waitTimeout: 7000};</script><script data-senna-track="permanent" src="/o/frontend-js-loader-modules-extender/loader.js?&mac=9WaMmhziBCkScHZwrrVcOR7VZF4=&browserId=chrome&languageId=en_GB&minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="/combo?browserId=chrome&minifierType=js&languageId=en_GB&t=1790580291306&/o/frontend-js-aui-web/aui/aui/aui-min.js&/o/frontend-js-aui-web/liferay/modules.js&/o/frontend-js-aui-web/liferay/aui_sandbox.js&/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&/o/frontend-js-aui-web/aui/oop/oop-min.js&/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&/o/frontend-js-aui-web/liferay/dependency.js&/o/frontend-js-aui-web/liferay/util.js&/o/oauth2-provider-web/js/liferay.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">window.Liferay = Liferay || {}; window.Liferay.OAuth2 = {getAuthorizeURL: function() {return 'https://matthey.com/o/oauth2/authorize';}, getBuiltInRedirectURL: function() {return 'https://matthey.com/o/oauth2/redirect';}, getIntrospectURL: function() { return 'https://matthey.com/o/oauth2/introspect';}, getTokenURL: function() {return 'https://matthey.com/o/oauth2/token';}, getUserAgentApplication: function(externalReferenceCode) {return Liferay.OAuth2._userAgentApplications[externalReferenceCode];}, _userAgentApplications: {}}</script><script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='dynamic-data-mapping-web@5.0.100/index';var MODULE_PATH='/o/dynamic-data-mapping-web';!function(){const a=Liferay.AUI;AUI().applyConfig({groups:{ddm:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:a.getFilterConfig(),modules:{"liferay-ddm-form":{path:"ddm_form.js",requires:["aui-base","aui-datatable","aui-datatype","aui-image-viewer","aui-parse-content","aui-set","aui-sortable-list","json","liferay-form","liferay-map-base","liferay-translation-manager","liferay-util-window"]},"liferay-portlet-dynamic-data-mapping":{condition:{trigger:"liferay-document-library"},path:"main.js",requires:["arraysort","aui-form-builder-deprecated","aui-form-validator","aui-map","aui-text-unicode","json","liferay-menu","liferay-translation-manager","liferay-util-window","text"]},"liferay-portlet-dynamic-data-mapping-custom-fields":{condition:{trigger:"liferay-document-library"},path:"custom_fields.js",requires:["liferay-portlet-dynamic-data-mapping"]}},root:MODULE_PATH+"/js/"}}})}();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-processes-web@5.0.55/index';var MODULE_PATH='/o/staging-processes-web';AUI().applyConfig({groups:{stagingprocessesweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-staging-processes-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='exportimport-web@5.0.83/index';var MODULE_PATH='/o/exportimport-web';AUI().applyConfig({groups:{exportimportweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='contacts-web@5.0.57/index';var MODULE_PATH='/o/contacts-web';AUI().applyConfig({groups:{contactscenter:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-contacts-center":{path:"main.js",requires:["aui-io-plugin-deprecated","aui-toolbar","autocomplete-base","datasource-io","json-parse","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-js-components-web@2.0.63/index';var MODULE_PATH='/o/frontend-js-components-web';AUI().applyConfig({groups:{components:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-kaleo-designer-web@5.0.125/index';var MODULE_PATH='/o/portal-workflow-kaleo-designer-web';AUI().applyConfig({groups:{"kaleo-designer":{base:MODULE_PATH+"/designer/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-kaleo-designer-autocomplete-util":{path:"autocomplete_util.js",requires:["autocomplete","autocomplete-highlighters"]},"liferay-kaleo-designer-definition-diagram-controller":{path:"definition_diagram_controller.js",requires:["liferay-kaleo-designer-field-normalizer","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-dialogs":{path:"dialogs.js",requires:["liferay-util-window"]},"liferay-kaleo-designer-editors":{path:"editors.js",requires:["aui-ace-editor","aui-ace-editor-mode-xml","aui-base","aui-datatype","aui-node","liferay-kaleo-designer-autocomplete-util","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-field-normalizer":{path:"field_normalizer.js",requires:["liferay-kaleo-designer-remote-services"]},"liferay-kaleo-designer-nodes":{path:"nodes.js",requires:["aui-datatable","aui-datatype","aui-diagram-builder","liferay-kaleo-designer-editors","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-remote-services":{path:"remote_services.js",requires:["aui-io"]},"liferay-kaleo-designer-templates":{path:"templates.js",requires:["aui-tpl-snippets-deprecated"]},"liferay-kaleo-designer-utils":{path:"utils.js",requires:[]},"liferay-kaleo-designer-xml-definition":{path:"xml_definition.js",requires:["aui-base","aui-component","dataschema-xml","datatype-xml"]},"liferay-kaleo-designer-xml-definition-serializer":{path:"xml_definition_serializer.js",requires:["escape","liferay-kaleo-designer-xml-util"]},"liferay-kaleo-designer-xml-util":{path:"xml_util.js",requires:["aui-base"]},"liferay-portlet-kaleo-designer":{path:"main.js",requires:["aui-ace-editor","aui-ace-editor-mode-xml","aui-tpl-snippets-deprecated","dataschema-xml","datasource","datatype-xml","event-valuechange","io-form","liferay-kaleo-designer-autocomplete-util","liferay-kaleo-designer-editors","liferay-kaleo-designer-nodes","liferay-kaleo-designer-remote-services","liferay-kaleo-designer-utils","liferay-kaleo-designer-xml-util","liferay-util-window"]}},root:MODULE_PATH+"/designer/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/document-library-web@6.0.177/document_library/js/index';var MODULE_PATH='/o/document-library-web';AUI().applyConfig({groups:{dl:{base:MODULE_PATH+"/document_library/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"document-library-upload-component":{path:"DocumentLibraryUpload.js",requires:["aui-component","aui-data-set-deprecated","aui-overlay-manager-deprecated","aui-overlay-mask-deprecated","aui-parse-content","aui-progressbar","aui-template-deprecated","liferay-search-container","querystring-parse-simple","uploader"]}},root:MODULE_PATH+"/document_library/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-search-web@6.0.127/index';var MODULE_PATH='/o/portal-search-web';AUI().applyConfig({groups:{search:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-search-custom-filter":{path:"custom_filter.js",requires:[]},"liferay-search-date-facet":{path:"date_facet.js",requires:["aui-form-validator","liferay-search-facet-util"]},"liferay-search-facet-util":{path:"facet_util.js",requires:[]},"liferay-search-modified-facet":{path:"modified_facet.js",requires:["aui-form-validator","liferay-search-facet-util"]},"liferay-search-sort-configuration":{path:"sort_configuration.js",requires:["aui-node"]},"liferay-search-sort-util":{path:"sort_util.js",requires:[]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-react-web@5.0.37/index';var MODULE_PATH='/o/frontend-js-react-web';AUI().applyConfig({groups:{react:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-state-web@1.0.20/index';var MODULE_PATH='/o/frontend-js-state-web';AUI().applyConfig({groups:{state:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='calendar-web@5.0.89/index';var MODULE_PATH='/o/calendar-web';AUI().applyConfig({groups:{calendar:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-calendar-a11y":{path:"calendar_a11y.js",requires:["calendar"]},"liferay-calendar-container":{path:"calendar_container.js",requires:["aui-alert","aui-base","aui-component","liferay-portlet-base"]},"liferay-calendar-date-picker-sanitizer":{path:"date_picker_sanitizer.js",requires:["aui-base"]},"liferay-calendar-interval-selector":{path:"interval_selector.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-interval-selector-scheduler-event-link":{path:"interval_selector_scheduler_event_link.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-list":{path:"calendar_list.js",requires:["aui-template-deprecated","liferay-scheduler"]},"liferay-calendar-message-util":{path:"message_util.js",requires:["liferay-util-window"]},"liferay-calendar-recurrence-converter":{path:"recurrence_converter.js",requires:[]},"liferay-calendar-recurrence-dialog":{path:"recurrence.js",requires:["aui-base","liferay-calendar-recurrence-util"]},"liferay-calendar-recurrence-util":{path:"recurrence_util.js",requires:["aui-base","liferay-util-window"]},"liferay-calendar-reminders":{path:"calendar_reminders.js",requires:["aui-base"]},"liferay-calendar-remote-services":{path:"remote_services.js",requires:["aui-base","aui-component","liferay-calendar-util","liferay-portlet-base"]},"liferay-calendar-session-listener":{path:"session_listener.js",requires:["aui-base","liferay-scheduler"]},"liferay-calendar-simple-color-picker":{path:"simple_color_picker.js",requires:["aui-base","aui-template-deprecated"]},"liferay-calendar-simple-menu":{path:"simple_menu.js",requires:["aui-base","aui-template-deprecated","event-outside","event-touch","widget-modality","widget-position","widget-position-align","widget-position-constrain","widget-stack","widget-stdmod"]},"liferay-calendar-util":{path:"calendar_util.js",requires:["aui-datatype","aui-io","aui-scheduler","aui-toolbar","autocomplete","autocomplete-highlighters"]},"liferay-scheduler":{path:"scheduler.js",requires:["async-queue","aui-datatype","aui-scheduler","dd-plugin","liferay-calendar-a11y","liferay-calendar-message-util","liferay-calendar-recurrence-converter","liferay-calendar-recurrence-util","liferay-calendar-util","liferay-scheduler-event-recorder","liferay-scheduler-models","promise","resize-plugin"]},"liferay-scheduler-event-recorder":{path:"scheduler_event_recorder.js",requires:["dd-plugin","liferay-calendar-util","resize-plugin"]},"liferay-scheduler-models":{path:"scheduler_models.js",requires:["aui-datatype","dd-plugin","liferay-calendar-util"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-editor-alloyeditor-web@5.0.46/index';var MODULE_PATH='/o/frontend-editor-alloyeditor-web';AUI().applyConfig({groups:{alloyeditor:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-alloy-editor":{path:"alloyeditor.js",requires:["aui-component","liferay-portlet-base","timers"]},"liferay-alloy-editor-source":{path:"alloyeditor_source.js",requires:["aui-debounce","liferay-fullscreen-source-editor","liferay-source-editor","plugin"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}</script>
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+	
+		
+
+			
+
+			
+				<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MKDKJ8T');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKDKJ8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<style>
+.cc-grower {
+    display: none !important;
+}
+</style>
+			
+		
+	
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://matthey.com/o/jm-platinum-theme/css/main.css?browserId=chrome&amp;themeId=jmplatinumtheme_WAR_jmplatinumtheme&amp;minifierType=css&amp;languageId=en_GB&amp;t=1790580340000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+		.cc-grower {
+    display: none !important;
+}
+.jmarticle__hero-main-container .jmarticle__hero-banner, .article__intro .jmarticle__hero-banner{
+background-size:100% 100%;
+}
+.jmarticle__hero-main-container .article__para {
+    color: #333;
+    opacity: 1;
+}
+@media (min-width: 320px) and (max-width: 539px){
+   .jmarticle__hero-main-container .article__para {
+        font-size:20px !important;
+    }
+}
+.child-menu .child-header  {
+    flex: 0 0 20% !important;
+  }
+	</style>
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<script data-senna-track="temporary">var Liferay = window.Liferay || {}; Liferay.CommerceContext = {"commerceAccountGroupIds":[],"accountEntryAllowedTypes":["person"],"commerceChannelId":"0","showUnselectableOptions":false,"currency":{"currencyId":"4264075","currencyCode":"USD"},"showSeparateOrderItems":false,"commerceSiteType":0};</script><link href="/o/commerce-frontend-js/styles/main.css" rel="stylesheet" type="text/css" />
+<style data-senna-track="temporary" type="text/css">
+</style>
+<link data-senna-track="temporary" href="/o/layout-common-styles/main.css?plid=7927&segmentsExperienceId=4246774&t=1778745637647" rel="stylesheet" type="text/css"><script data-senna-track="permanent" src="https://matthey.com/combo?browserId=chrome&minifierType=js&languageId=en_GB&t=1790580286502&/o/product-experience-manager-theme-contributor/js/liferay-usage-events.js" type = "text/javascript"></script>
+<script type="module">
+import {default as init} from '/o/frontend-js-spa-web/__liferay__/index.js';
+{
+init({"navigationExceptionSelectors":":not([target=\"_blank\"]):not([data-senna-off]):not([data-resource-href]):not([data-cke-saved-href]):not([data-cke-saved-href])","cacheExpirationTime":-1,"clearScreensCache":false,"portletsBlacklist":["com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet","com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet","com_liferay_questions_web_internal_portlet_QuestionsPortlet","com_liferay_account_admin_web_internal_portlet_AccountUsersRegistrationPortlet","com_liferay_portal_language_override_web_internal_portlet_PLOPortlet","com_liferay_login_web_portlet_LoginPortlet","com_liferay_login_web_portlet_FastLoginPortlet"],"excludedTargetPortlets":["com_liferay_users_admin_web_portlet_UsersAdminPortlet","com_liferay_server_admin_web_portlet_ServerAdminPortlet"],"validStatusCodes":[221,490,494,499,491,492,493,495,220],"debugEnabled":false,"loginRedirect":"","excludedPaths":["/c/document_library","/documents","/image"],"userNotification":{"message":"It looks like this is taking longer than expected.","title":"Oops","timeout":30000},"requestTimeout":0});
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="false" name="data-analytics-readable-content" />
+
+<script type="text/javascript" data-senna-track="temporary">
+	var runMiddlewares = function () {
+		Analytics.registerMiddleware(
+	function(request) {
+		request.context.experienceId = 'DEFAULT';
+		request.context.experimentId = '';
+		request.context.variantId = '';
+
+		return request;
+	}
+);
+	};
+
+	var analyticsClientChannelId =
+		'552280225105345307';
+	var analyticsClientGroupIds = ["161599"];
+</script>
+
+<script id="liferayAnalyticsScript" type="text/javascript" data-senna-track="permanent">
+	(function (u, c, a, m, o, l) {
+		o = 'script';
+		l = document;
+		a = l.createElement(o);
+		m = l.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = u;
+		a.onload = c;
+		m.parentNode.insertBefore(a, m);
+	})('https://analytics-js-cdn.liferay.com', () => {
+		var config = {"dataSourceId":"552280225005554961","endpointUrl":"https://osbasahpublisher-ac-europewest2.lfr.cloud","projectId":"asahb5a4030d2477466086579aa5becca659"};
+
+		var dxpMiddleware = function (request) {
+			request.context.canonicalUrl = themeDisplay.getCanonicalURL();
+			request.context.channelId = analyticsClientChannelId;
+			request.context.groupId = themeDisplay.getScopeGroupIdOrLiveGroupId();
+
+			return request;
+		};
+
+		Analytics.create(config, [dxpMiddleware]);
+
+		if (themeDisplay.isSignedIn()) {
+			Analytics.setIdentity({
+				email: themeDisplay.getUserEmailAddress(),
+				name: themeDisplay.getUserName(),
+			});
+		}
+
+		runMiddlewares();
+
+		Analytics.send('pageViewed', 'Page');
+
+		
+			Liferay.on('endNavigate', (event) => {
+				Analytics.dispose();
+
+				var groupId = themeDisplay.getScopeGroupIdOrLiveGroupId();
+
+				if (
+					!themeDisplay.isControlPanel() &&
+					analyticsClientGroupIds.indexOf(groupId) >= 0
+				) {
+					Analytics.create(config, [dxpMiddleware]);
+
+					if (themeDisplay.isSignedIn()) {
+						Analytics.setIdentity({
+							email: themeDisplay.getUserEmailAddress(),
+							name: themeDisplay.getUserName(),
+						});
+					}
+
+					runMiddlewares();
+
+					Analytics.send('pageViewed', 'Page', {page: event.path});
+				}
+			});
+		
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title:event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</head>
+
+<body class="chrome change-tracking-enabled controls-visible  yui3-skin-sam guest-site signed-out public-page site">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="Quick Links" class="bg-dark cadmin quick-access-nav text-center text-white" id="yeus_quickAccessNav">
+		
+			
+				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
+		Skip to Main Content
+	</a>
+			
+			
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="d-flex flex-column min-vh-100">
+
+<div class="container-fluid" id="wrapper">
+	<header id="banner" role="banner">
+		<div class="container-fluid container-fluid-max-xl">
+			<div class="align-items-center autofit-row justify-content-between">
+				<div aria-level="1" class="site-title" role="heading">
+					<a class="logo default-logo " href="https://matthey.com" title="Go to matthey.com">
+						<img  class="jmlogo__img jmlogo_img_mrlft" alt="" height="112" src="https://matthey.com/o/jm-platinum-theme/images/new__jm__images/Johnson_Matthey _Logo_blue.svg" width="112" />
+						<img  class="jmlogo__img--mb" alt="" height="112" src="https://matthey.com/o/jm-platinum-theme/images/new__jm__images/JM Logo__blue.svg" width="112" />
+					</a>
+				</div>
+				<div class="align-items-center autofit-row justify-content-end">
+					<div class="autofit-col search-align">
+						<div class="justify-content-md-end" role="search">
+							<button aria-label="Search for journal articles" class="jmheader__headerbtn" id="jmsearch">
+	                        	<span class="jmheader__headerbtntxt hide--mobile">Search</span>
+	                        	<span class="jmheader__srchicon"></span>
+	                    	</button>
+                            <div class="jmheader__srchcontainer">
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_  portlet-static portlet-static-end portlet-barebone portlet-search-bar " id="p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_">
+		<span id="p_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch">
+
+
+	<div class="portlet-content">
+
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<form action="https://matthey.com/search-results" id="dkrk___fm" method="get" name="dkrk___fm">
+			
+
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="input-group search-bar-simple">	
+	<div class="input-group-item search-bar-keywords-input-wrapper"> 
+		<input
+			autocomplete="off"
+			class="form-control input-group-inset input-group-inset-after search-bar-keywords-input "
+			data-qa-id="searchInput"
+			id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_fzzu"
+			name="q"
+			placeholder="Search..."
+			title="Search"
+			type="text"
+			value=""
+		/>
+
+		<div class="input-group-inset-item input-group-inset-item-after">
+<button class="btn btn-monospaced btn-unstyled" type="submit" aria-label="Search" ><span class="inline-item"><svg class="lexicon-icon lexicon-icon-search" role="presentation" viewBox="0 0 512 512"><use xlink:href="https://matthey.com/o/jm-platinum-theme/images/clay/icons.svg#search" /></svg></span></button>		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_scope"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_scope"     type="hidden" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+		</form>
+
+		<script>
+Liferay.Loader.require(
+'portal-search-web@6.0.127/js/SearchBar',
+function(SearchBar) {
+try {
+(function() {
+Liferay.component('__UNNAMED_COMPONENT__04fbee46-0efa-d0e5-e9c2-e81c8b9869dd', new SearchBar.default({"formId":"dkrk___fm","namespace":"_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_","spritemap":"https:\/\/matthey.com\/o\/jm-platinum-theme\/images\/clay\/icons.svg"}), { destroyOnNavigate: true, portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch'});
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+<span class="jmheader__srchcloseicon"></span>
+                            </div>    
+						</div>
+					</div>
+					<div class="autofit-col img-align">
+						<a class="contact-us" href="/en/about-us/contact-us" title="contact" key="go-to-x" />
+							<img  class="img-support" alt="Support" height="" src="https://matthey.com/o/jm-platinum-theme/images/new__jm__images/call_center_icon.svg" width="" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+<span class="nav__toggler"></span>
+<nav aria-label="Site Pages" class="sort-pages modify-pages jmheader__navbar" id="navigation" role="navigation">
+	<div class="jmalign--container-temp">
+	<ul role="menubar" class="jmheader__navlinks">
+
+
+		<li class="jmheader__navlist " id="layout_2355" role="presentation">
+		 <span class="hidden__overlay"></span>
+		 <a   class="header__menu" href="https://matthey.com/about-us"  role="menuitem">
+		  <span> About us</span>
+		  </a>
+           <span class="jmarrow__right"></span>
+                 
+			  <ul class="child-menu jmchildmenu__lists" role="menu" id="datalist">
+			  
+			  
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3765" role="presentation">
+							<h2><a href="https://matthey.com/what-we-do"  role="menuitem">
+								What we do</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_4381" role="presentation">
+							<h2><a href="https://matthey.com/locations"  role="menuitem">
+								Locations</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2423" role="presentation">
+							<h2><a href="https://matthey.com/about-us/our-strategy"  role="menuitem">
+								Strategy</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2383" role="presentation">
+							<h2><a href="https://matthey.com/about-us/our-leadership"  role="menuitem">
+								Leadership</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2377" role="presentation">
+							<h2><a href="https://matthey.com/about-us/our-heritage"  role="menuitem">
+								Our heritage</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2425" role="presentation">
+							<h2><a href="https://matthey.com/about-us/our-behaviours"  role="menuitem">
+								Our behaviours</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3771" role="presentation">
+							<h2><a href="https://matthey.com/governance"  role="menuitem">
+								Governance</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2359" role="presentation">
+							<h2><a href="https://matthey.com/about-us/partnering-with-us"  role="menuitem">
+								Partnering with us</a></h2>
+							</li>
+						</div>					
+				<div class="jmprdt__btn">
+					<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						   FIND A PRODUCT </a><span class="icon-arrow--right"></span></button>
+				</div>
+			</ul>
+			<!--mobile view submenu: start --!>
+				
+		    <div class="submenu__mb">
+		     <span class="back__arrow" ></span>
+			 <h4 class="submenu__heading">  About us</h4>
+			 <ul class="submenu__child" role="menu">
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3765" role="presentation">
+					   	<a href="https://matthey.com/what-we-do"  role="menuitem" class="submenu__link">
+						What we do
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_4381" role="presentation">
+					   	<a href="https://matthey.com/locations"  role="menuitem" class="submenu__link">
+						Locations
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2423" role="presentation">
+					   	<a href="https://matthey.com/about-us/our-strategy"  role="menuitem" class="submenu__link">
+						Strategy
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2383" role="presentation">
+					   	<a href="https://matthey.com/about-us/our-leadership"  role="menuitem" class="submenu__link">
+						Leadership
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2377" role="presentation">
+					   	<a href="https://matthey.com/about-us/our-heritage"  role="menuitem" class="submenu__link">
+						Our heritage
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2425" role="presentation">
+					   	<a href="https://matthey.com/about-us/our-behaviours"  role="menuitem" class="submenu__link">
+						Our behaviours
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3771" role="presentation">
+					   	<a href="https://matthey.com/governance"  role="menuitem" class="submenu__link">
+						Governance
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2359" role="presentation">
+					   	<a href="https://matthey.com/about-us/partnering-with-us"  role="menuitem" class="submenu__link">
+						Partnering with us
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+				 <div class="submenu__content bor-bot--0 submenu--content-btn-list">
+					   		<li class=" submenu__list" id="layout_2359" role="presentation">
+					   			<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						  			FIND A PRODUCT </a><span class="icon-arrow--right"></span>
+						   		</button>
+						   	</li>
+						</div>
+			   </ul>
+			   </div>
+					
+			</li>
+
+
+		<li class="jmheader__navlist selected" id="layout_23" role="presentation">
+		 <span class="hidden__overlay"></span>
+		 <a aria-haspopup='true'  class="header__menu" href="https://matthey.com/products-and-markets"  role="menuitem">
+		  <span> Products and markets</span>
+		  </a>
+           <span class="jmarrow__right"></span>
+                 
+			  <ul class="child-menu jmchildmenu__lists" role="menu" id="datalist">
+			  
+			  
+
+		        	
+
+		        	
+		        		
+
+							<div class="child-header">
+								<li class="selected" id="layout_2369" role="presentation">
+									<h2><a href="https://matthey.com/products-and-markets/pgms-and-circularity"  role="menuitem">
+										PGMs and circularity</a></h2>
+										
+											<div>
+											<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-chemicals-and-catalysts"  role="menuitem" class="sub-child">
+											PGM chemicals and catalysts</a>
+											</div>
+											<div>
+											<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-industrial-products"  role="menuitem" class="sub-child">
+											PGM industrial products</a>
+											</div>
+											<div>
+											<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-management"  role="menuitem" class="sub-child">
+											PGM prices and trading</a>
+											</div>
+											<div>
+											<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets"  role="menuitem" class="sub-child">
+											PGM markets</a>
+											</div>
+											<div>
+											<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-refining-and-recycling"  role="menuitem" class="sub-child">
+											PGM refining and recycling</a>
+											</div>
+								
+										<h2 style="margin-top: 20px;"><a href="https://matthey.com/products-and-markets/life-science-technology"  role="menuitem">
+											Life science technologies</a></h2>
+										
+												<div>
+												<a href="https://matthey.com/products-and-markets/life-science-technology/biocatalysis1"  role="menuitem" class="sub-child">
+												Biocatalysis</a>
+												</div>
+												<div>
+												<a href="https://matthey.com/products-and-markets/life-science-technology/catalyst-screening-/-optimisation"  role="menuitem" class="sub-child">
+												Catalyst screening / optimisation</a>
+												</div>
+												<div>
+												<a href="https://matthey.com/products-and-markets/life-science-technologies/pharma-and-agrochem-catalysts"  role="menuitem" class="sub-child">
+												Pharma and agrochem catalysts</a>
+												</div>
+											
+								</li>
+							</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="selected" id="layout_2373" role="presentation">
+							<h2><a href="https://matthey.com/products-and-markets/emissions-control"  role="menuitem">
+								Emissions control</a></h2>
+								<div>
+								<a href="https://matthey.com/products-and-markets/other-markets/emission-control-solutions/data-centres"  role="menuitem" class="sub-child">
+								Data centres</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/emissions-control/gas-turbines"  role="menuitem" class="sub-child">
+								Gas turbines</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/emissions-control/mining"  role="menuitem" class="sub-child">
+								Mining</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/emissions-control/mobile"  role="menuitem" class="sub-child">
+								Mobile</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/emissions-control/solid-oxide-fuel-cells"  role="menuitem" class="sub-child">
+								Solid oxide fuel cells</a>
+								</div>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="selected" id="layout_2055" role="presentation">
+							<h2><a href="https://matthey.com/products-and-markets/hydrogen-solutions"  role="menuitem">
+								Hydrogen solutions</a></h2>
+								<div>
+								<a href="https://matthey.com/products-and-markets/hydrogen-solutions/electrolyser-components"  role="menuitem" class="sub-child">
+								Electrolyser components</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/hydrogen-solutions/fuel-cell-components"  role="menuitem" class="sub-child">
+								Fuel cell components</a>
+								</div>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="selected" id="layout_2375" role="presentation">
+							<h2><a href="https://matthey.com/products-and-markets/energy"  role="menuitem">
+								Acquired by Honeywell Technologies</a></h2>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/ammonia"  role="menuitem" class="sub-child">
+								Ammonia</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/energy/biorenewables"  role="menuitem" class="sub-child">
+								Biorenewables</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen"  role="menuitem" class="sub-child">
+								CCS-enabled hydrogen</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/chemical-intermediate-technologies"  role="menuitem" class="sub-child">
+								Chemical intermediate technologies</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/conventional-hydrogen"  role="menuitem" class="sub-child">
+								Conventional hydrogen</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/edible-oil-catalysts"  role="menuitem" class="sub-child">
+								Edible oils</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/fcc-additives"  role="menuitem" class="sub-child">
+								FCC Additives</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/formaldehyde"  role="menuitem" class="sub-child">
+								Formaldehyde</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/methanol"  role="menuitem" class="sub-child">
+								Methanol</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/oleochemicals"  role="menuitem" class="sub-child">
+								Oleochemicals</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/petrochemicals"  role="menuitem" class="sub-child">
+								Petrochemicals</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/purification-for-syngas-production"  role="menuitem" class="sub-child">
+								Purification for syngas production</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/energy/purification-solutions"  role="menuitem" class="sub-child">
+								Purification</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/energy/sustainable-aviation-fuels"  role="menuitem" class="sub-child">
+								Sustainable aviation fuels (SAF) technology</a>
+								</div>
+								<div>
+								<a href="https://matthey.com/products-and-markets/chemicals/syngas-technologies"  role="menuitem" class="sub-child">
+								Syngas technologies</a>
+								</div>
+							</li>
+						</div>					
+				<div class="jmprdt__btn">
+					<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						   FIND A PRODUCT </a><span class="icon-arrow--right"></span></button>
+				</div>
+			</ul>
+			<!--mobile view submenu: start --!>
+				
+		    <div class="submenu__mb">
+		     <span class="back__arrow" ></span>
+			 <h4 class="submenu__heading">  Products and markets</h4>
+			 <ul class="submenu__child" role="menu">
+					
+
+
+                     <div class="submenu__content">
+					   <li class="selected submenu__list" id="layout_2369" role="presentation">
+					   	<span class="hidden__overlay hidden--submenu-overlay"></span>
+					   	<a href="https://matthey.com/products-and-markets/pgms-and-circularity"  role="menuitem" class="submenu__link">
+						PGMs and circularity
+						<span class="jmarrow__right submenu--arrow"></span>
+						</a>
+							<div class="submenu__mb submenu--childmb">
+		     		     		<span class="back__arrow" ></span>
+		     		     		<h4 class="submenu__heading">  PGMs and circularity</h4>
+		     		     		<ul class="submenu__child" role="menu">
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_1611" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-chemicals-and-catalysts"  role="menuitem" class="submenu__link">
+					   							PGM chemicals and catalysts
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_1795" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-industrial-products"  role="menuitem" class="submenu__link">
+					   							PGM industrial products
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_4855" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-management"  role="menuitem" class="submenu__link">
+					   							PGM prices and trading
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_4308" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets"  role="menuitem" class="submenu__link">
+					   							PGM markets
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_4430" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-refining-and-recycling"  role="menuitem" class="submenu__link">
+					   							PGM refining and recycling
+					   						</a>
+					   					</li>
+					   				</div>
+					   			</ul>
+					   		</div>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+					
+
+
+                     <div class="submenu__content">
+					   <li class="selected submenu__list" id="layout_2373" role="presentation">
+					   	<span class="hidden__overlay hidden--submenu-overlay"></span>
+					   	<a href="https://matthey.com/products-and-markets/emissions-control"  role="menuitem" class="submenu__link">
+						Emissions control
+						<span class="jmarrow__right submenu--arrow"></span>
+						</a>
+							<div class="submenu__mb submenu--childmb">
+		     		     		<span class="back__arrow" ></span>
+		     		     		<h4 class="submenu__heading">  Emissions control</h4>
+		     		     		<ul class="submenu__child" role="menu">
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_447" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/other-markets/emission-control-solutions/data-centres"  role="menuitem" class="submenu__link">
+					   							Data centres
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_5049" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/emissions-control/gas-turbines"  role="menuitem" class="submenu__link">
+					   							Gas turbines
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_417" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/emissions-control/mining"  role="menuitem" class="submenu__link">
+					   							Mining
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_353" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/emissions-control/mobile"  role="menuitem" class="submenu__link">
+					   							Mobile
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_4783" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/emissions-control/solid-oxide-fuel-cells"  role="menuitem" class="submenu__link">
+					   							Solid oxide fuel cells
+					   						</a>
+					   					</li>
+					   				</div>
+					   			</ul>
+					   		</div>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class="selected submenu__list" id="layout_2055" role="presentation">
+					   	<span class="hidden__overlay hidden--submenu-overlay"></span>
+					   	<a href="https://matthey.com/products-and-markets/hydrogen-solutions"  role="menuitem" class="submenu__link">
+						Hydrogen solutions
+						<span class="jmarrow__right submenu--arrow"></span>
+						</a>
+							<div class="submenu__mb submenu--childmb">
+		     		     		<span class="back__arrow" ></span>
+		     		     		<h4 class="submenu__heading">  Hydrogen solutions</h4>
+		     		     		<ul class="submenu__child" role="menu">
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_2057" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/hydrogen-solutions/electrolyser-components"  role="menuitem" class="submenu__link">
+					   							Electrolyser components
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_333" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/hydrogen-solutions/fuel-cell-components"  role="menuitem" class="submenu__link">
+					   							Fuel cell components
+					   						</a>
+					   					</li>
+					   				</div>
+					   			</ul>
+					   		</div>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+							<div class="submenu__content">
+								<li class="selected submenu__list"  role="presentation">
+								
+									<span class="hidden__overlay hidden--submenu-overlay"></span>
+								
+									<a href="https://matthey.com/products-and-markets/life-science-technology"  role="menuitem" class="submenu__link">
+									Life science technologies									
+									<span class="jmarrow__right submenu--arrow"></span>									
+									</a>
+									
+									<div class="submenu__mb submenu--childmb">
+										<span class="back__arrow" ></span>
+										<h4 class="submenu__heading">  Life science technologies</h4>
+										<ul class="submenu__child" role="menu">
+												<div class="submenu__content">
+													<li class="selected submenu__list" id="layout_4841" role="presentation">
+														<a href="https://matthey.com/products-and-markets/life-science-technology/biocatalysis1"  role="menuitem" class="submenu__link">
+															Biocatalysis
+														</a>
+													</li>
+												</div>
+												<div class="submenu__content">
+													<li class="selected submenu__list" id="layout_4842" role="presentation">
+														<a href="https://matthey.com/products-and-markets/life-science-technology/catalyst-screening-/-optimisation"  role="menuitem" class="submenu__link">
+															Catalyst screening / optimisation
+														</a>
+													</li>
+												</div>
+												<div class="submenu__content">
+													<li class="selected submenu__list" id="layout_4851" role="presentation">
+														<a href="https://matthey.com/products-and-markets/life-science-technologies/pharma-and-agrochem-catalysts"  role="menuitem" class="submenu__link">
+															Pharma and agrochem catalysts
+														</a>
+													</li>
+												</div>
+										</ul>
+									</div>									
+								</li>
+							</div>
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class="selected submenu__list" id="layout_2375" role="presentation">
+					   	<span class="hidden__overlay hidden--submenu-overlay"></span>
+					   	<a href="https://matthey.com/products-and-markets/energy"  role="menuitem" class="submenu__link">
+						Acquired by Honeywell Technologies
+						<span class="jmarrow__right submenu--arrow"></span>
+						</a>
+							<div class="submenu__mb submenu--childmb">
+		     		     		<span class="back__arrow" ></span>
+		     		     		<h4 class="submenu__heading">  Acquired by Honeywell Technologies</h4>
+		     		     		<ul class="submenu__child" role="menu">
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_2045" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/ammonia"  role="menuitem" class="submenu__link">
+					   							Ammonia
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_1941" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/energy/biorenewables"  role="menuitem" class="submenu__link">
+					   							Biorenewables
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_4526" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen"  role="menuitem" class="submenu__link">
+					   							CCS-enabled hydrogen
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_247" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/chemical-intermediate-technologies"  role="menuitem" class="submenu__link">
+					   							Chemical intermediate technologies
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_3926" role="presentation">
+					   						<a href="https://matthey.com/conventional-hydrogen"  role="menuitem" class="submenu__link">
+					   							Conventional hydrogen
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_2051" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/edible-oil-catalysts"  role="menuitem" class="submenu__link">
+					   							Edible oils
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_3921" role="presentation">
+					   						<a href="https://matthey.com/fcc-additives"  role="menuitem" class="submenu__link">
+					   							FCC Additives
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_1945" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/formaldehyde"  role="menuitem" class="submenu__link">
+					   							Formaldehyde
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_1955" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/methanol"  role="menuitem" class="submenu__link">
+					   							Methanol
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_1959" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/oleochemicals"  role="menuitem" class="submenu__link">
+					   							Oleochemicals
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_2019" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/petrochemicals"  role="menuitem" class="submenu__link">
+					   							Petrochemicals
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_4238" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/purification-for-syngas-production"  role="menuitem" class="submenu__link">
+					   							Purification for syngas production
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_2039" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/energy/purification-solutions"  role="menuitem" class="submenu__link">
+					   							Purification
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_3936" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/energy/sustainable-aviation-fuels"  role="menuitem" class="submenu__link">
+					   							Sustainable aviation fuels (SAF) technology
+					   						</a>
+					   					</li>
+					   				</div>
+		     		     			<div class="submenu__content">
+					   					<li class="selected submenu__list" id="layout_4951" role="presentation">
+					   						<a href="https://matthey.com/products-and-markets/chemicals/syngas-technologies"  role="menuitem" class="submenu__link">
+					   							Syngas technologies
+					   						</a>
+					   					</li>
+					   				</div>
+					   			</ul>
+					   		</div>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+				 <div class="submenu__content bor-bot--0 submenu--content-btn-list">
+					   		<li class="selected submenu__list" id="layout_2375" role="presentation">
+					   			<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						  			FIND A PRODUCT </a><span class="icon-arrow--right"></span>
+						   		</button>
+						   	</li>
+						</div>
+			   </ul>
+			   </div>
+					
+			</li>
+
+
+		<li class="jmheader__navlist " id="layout_2115" role="presentation">
+		 <span class="hidden__overlay"></span>
+		 <a   class="header__menu" href="https://matthey.com/science-and-innovation"  role="menuitem">
+		  <span> Science and innovation</span>
+		  </a>
+           <span class="jmarrow__right"></span>
+                 
+			  <ul class="child-menu jmchildmenu__lists" role="menu" id="datalist">
+			  
+			  
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2147" role="presentation">
+							<h2><a href="https://matthey.com/science-and-innovation/technical-capabilities"  role="menuitem">
+								Technical capabilities</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2117" role="presentation">
+							<h2><a href="https://matthey.com/science-and-innovation/collaboration"  role="menuitem">
+								Collaboration</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_4126" role="presentation">
+							<h2><a href="https://matthey.com/science-and-innovation/expert-insights"  role="menuitem">
+								Expert insights</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3864" role="presentation">
+							<h2><a href="https://matthey.com/science-and-innovation/case-studies"  role="menuitem">
+								Case studies</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2259" role="presentation">
+							<h2><a href="https://matthey.com/science-and-innovation/johnson-matthey-technology-review"  role="menuitem">
+								Johnson Matthey Technology Review</a></h2>
+							</li>
+						</div>					
+				<div class="jmprdt__btn">
+					<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						   FIND A PRODUCT </a><span class="icon-arrow--right"></span></button>
+				</div>
+			</ul>
+			<!--mobile view submenu: start --!>
+				
+		    <div class="submenu__mb">
+		     <span class="back__arrow" ></span>
+			 <h4 class="submenu__heading">  Science and innovation</h4>
+			 <ul class="submenu__child" role="menu">
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2147" role="presentation">
+					   	<a href="https://matthey.com/science-and-innovation/technical-capabilities"  role="menuitem" class="submenu__link">
+						Technical capabilities
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2117" role="presentation">
+					   	<a href="https://matthey.com/science-and-innovation/collaboration"  role="menuitem" class="submenu__link">
+						Collaboration
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_4126" role="presentation">
+					   	<a href="https://matthey.com/science-and-innovation/expert-insights"  role="menuitem" class="submenu__link">
+						Expert insights
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3864" role="presentation">
+					   	<a href="https://matthey.com/science-and-innovation/case-studies"  role="menuitem" class="submenu__link">
+						Case studies
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2259" role="presentation">
+					   	<a href="https://matthey.com/science-and-innovation/johnson-matthey-technology-review"  role="menuitem" class="submenu__link">
+						Johnson Matthey Technology Review
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+				 <div class="submenu__content bor-bot--0 submenu--content-btn-list">
+					   		<li class=" submenu__list" id="layout_2259" role="presentation">
+					   			<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						  			FIND A PRODUCT </a><span class="icon-arrow--right"></span>
+						   		</button>
+						   	</li>
+						</div>
+			   </ul>
+			   </div>
+					
+			</li>
+
+
+		<li class="jmheader__navlist " id="layout_2261" role="presentation">
+		 <span class="hidden__overlay"></span>
+		 <a   class="header__menu" href="https://matthey.com/sustainability"  role="menuitem">
+		  <span> Sustainability</span>
+		  </a>
+           <span class="jmarrow__right"></span>
+                 
+			  <ul class="child-menu jmchildmenu__lists" role="menu" id="datalist">
+			  
+			  
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2263" role="presentation">
+							<h2><a href="https://matthey.com/sustainability/climate"  role="menuitem">
+								Climate</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2265" role="presentation">
+							<h2><a href="https://matthey.com/sustainability/nature-and-circularity"  role="menuitem">
+								Nature and circularity</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2275" role="presentation">
+							<h2><a href="https://matthey.com/sustainability/people"  role="menuitem">
+								People</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2289" role="presentation">
+							<h2><a href="https://matthey.com/sustainability/policies-and-disclosures"  role="menuitem">
+								Policies and disclosures</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2347" role="presentation">
+							<h2><a href="https://matthey.com/sustainability/sustainability-ratings"  role="menuitem">
+								Sustainability ratings</a></h2>
+							</li>
+						</div>					
+				<div class="jmprdt__btn">
+					<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						   FIND A PRODUCT </a><span class="icon-arrow--right"></span></button>
+				</div>
+			</ul>
+			<!--mobile view submenu: start --!>
+				
+		    <div class="submenu__mb">
+		     <span class="back__arrow" ></span>
+			 <h4 class="submenu__heading">  Sustainability</h4>
+			 <ul class="submenu__child" role="menu">
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2263" role="presentation">
+					   	<a href="https://matthey.com/sustainability/climate"  role="menuitem" class="submenu__link">
+						Climate
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2265" role="presentation">
+					   	<a href="https://matthey.com/sustainability/nature-and-circularity"  role="menuitem" class="submenu__link">
+						Nature and circularity
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2275" role="presentation">
+					   	<a href="https://matthey.com/sustainability/people"  role="menuitem" class="submenu__link">
+						People
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2289" role="presentation">
+					   	<a href="https://matthey.com/sustainability/policies-and-disclosures"  role="menuitem" class="submenu__link">
+						Policies and disclosures
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2347" role="presentation">
+					   	<a href="https://matthey.com/sustainability/sustainability-ratings"  role="menuitem" class="submenu__link">
+						Sustainability ratings
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+				 <div class="submenu__content bor-bot--0 submenu--content-btn-list">
+					   		<li class=" submenu__list" id="layout_2347" role="presentation">
+					   			<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						  			FIND A PRODUCT </a><span class="icon-arrow--right"></span>
+						   		</button>
+						   	</li>
+						</div>
+			   </ul>
+			   </div>
+					
+			</li>
+
+
+		<li class="jmheader__navlist " id="layout_2437" role="presentation">
+		 <span class="hidden__overlay"></span>
+		 <a   class="header__menu" href="https://matthey.com/investors"  role="menuitem">
+		  <span> Investors</span>
+		  </a>
+           <span class="jmarrow__right"></span>
+                 
+			  <ul class="child-menu jmchildmenu__lists" role="menu" id="datalist">
+			  
+			  
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_4654" role="presentation">
+							<h2><a href="https://matthey.com/investors/financial-results-and-reports"  role="menuitem">
+								Financial results and reports</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_5310" role="presentation">
+							<h2><a href="https://matthey.com/investors/financial-results-and-reports/report-archive/annual-report-26"  role="menuitem">
+								Annual Report 2026</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2477" role="presentation">
+							<h2><a href="https://matthey.com/investors/regulatory-news"  role="menuitem">
+								Regulatory news</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_4656" role="presentation">
+							<h2><a href="https://matthey.com/investors/share-price-and-analyst-consensus"  role="menuitem">
+								Share price and analyst consensus</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2467" role="presentation">
+							<h2><a href="https://matthey.com/investors/shareholder-services"  role="menuitem">
+								Shareholder services</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2519" role="presentation">
+							<h2><a href="https://matthey.com/investors/investor-enquiries"  role="menuitem">
+								Investor enquiries</a></h2>
+							</li>
+						</div>					
+				<div class="jmprdt__btn">
+					<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						   FIND A PRODUCT </a><span class="icon-arrow--right"></span></button>
+				</div>
+			</ul>
+			<!--mobile view submenu: start --!>
+				
+		    <div class="submenu__mb">
+		     <span class="back__arrow" ></span>
+			 <h4 class="submenu__heading">  Investors</h4>
+			 <ul class="submenu__child" role="menu">
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_4654" role="presentation">
+					   	<a href="https://matthey.com/investors/financial-results-and-reports"  role="menuitem" class="submenu__link">
+						Financial results and reports
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_5310" role="presentation">
+					   	<a href="https://matthey.com/investors/financial-results-and-reports/report-archive/annual-report-26"  role="menuitem" class="submenu__link">
+						Annual Report 2026
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2477" role="presentation">
+					   	<a href="https://matthey.com/investors/regulatory-news"  role="menuitem" class="submenu__link">
+						Regulatory news
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_4656" role="presentation">
+					   	<a href="https://matthey.com/investors/share-price-and-analyst-consensus"  role="menuitem" class="submenu__link">
+						Share price and analyst consensus
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2467" role="presentation">
+					   	<a href="https://matthey.com/investors/shareholder-services"  role="menuitem" class="submenu__link">
+						Shareholder services
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2519" role="presentation">
+					   	<a href="https://matthey.com/investors/investor-enquiries"  role="menuitem" class="submenu__link">
+						Investor enquiries
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+				 <div class="submenu__content bor-bot--0 submenu--content-btn-list">
+					   		<li class=" submenu__list" id="layout_2519" role="presentation">
+					   			<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						  			FIND A PRODUCT </a><span class="icon-arrow--right"></span>
+						   		</button>
+						   	</li>
+						</div>
+			   </ul>
+			   </div>
+					
+			</li>
+
+
+		<li class="jmheader__navlist " id="layout_2521" role="presentation">
+		 <span class="hidden__overlay"></span>
+		 <a   class="header__menu" href="https://matthey.com/news"  role="menuitem">
+		  <span> Media</span>
+		  </a>
+           <span class="jmarrow__right"></span>
+                 
+			  <ul class="child-menu jmchildmenu__lists" role="menu" id="datalist">
+			  
+			  
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3766" role="presentation">
+							<h2><a href="https://matthey.com/news/news"  role="menuitem">
+								News</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3767" role="presentation">
+							<h2><a href="https://matthey.com/news/expert-insights"  role="menuitem">
+								Expert insights</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2911" role="presentation">
+							<h2><a href="https://matthey.com/news/media-enquiries"  role="menuitem">
+								Media enquiries</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_2907" role="presentation">
+							<h2><a href="https://matthey.com/news/media-resources"  role="menuitem">
+								Media resources</a></h2>
+							</li>
+						</div>					
+				<div class="jmprdt__btn">
+					<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						   FIND A PRODUCT </a><span class="icon-arrow--right"></span></button>
+				</div>
+			</ul>
+			<!--mobile view submenu: start --!>
+				
+		    <div class="submenu__mb">
+		     <span class="back__arrow" ></span>
+			 <h4 class="submenu__heading">  Media</h4>
+			 <ul class="submenu__child" role="menu">
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3766" role="presentation">
+					   	<a href="https://matthey.com/news/news"  role="menuitem" class="submenu__link">
+						News
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3767" role="presentation">
+					   	<a href="https://matthey.com/news/expert-insights"  role="menuitem" class="submenu__link">
+						Expert insights
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2911" role="presentation">
+					   	<a href="https://matthey.com/news/media-enquiries"  role="menuitem" class="submenu__link">
+						Media enquiries
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_2907" role="presentation">
+					   	<a href="https://matthey.com/news/media-resources"  role="menuitem" class="submenu__link">
+						Media resources
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+				 <div class="submenu__content bor-bot--0 submenu--content-btn-list">
+					   		<li class=" submenu__list" id="layout_2907" role="presentation">
+					   			<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						  			FIND A PRODUCT </a><span class="icon-arrow--right"></span>
+						   		</button>
+						   	</li>
+						</div>
+			   </ul>
+			   </div>
+					
+			</li>
+
+
+		<li class="jmheader__navlist " id="layout_3617" role="presentation">
+		 <span class="hidden__overlay"></span>
+		 <a   class="header__menu" href="https://matthey.com/careers"  role="menuitem">
+		  <span> Careers</span>
+		  </a>
+           <span class="jmarrow__right"></span>
+                 
+			  <ul class="child-menu jmchildmenu__lists" role="menu" id="datalist">
+			  
+			  
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3623" role="presentation">
+							<h2><a href="https://matthey.com/careers/experienced-professionals"  role="menuitem">
+								Experienced professionals</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3625" role="presentation">
+							<h2><a href="https://matthey.com/careers/early-careers"  role="menuitem">
+								Early careers</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3649" role="presentation">
+							<h2><a href="https://matthey.com/careers/life-at-jm"  role="menuitem">
+								Life at JM</a></h2>
+							</li>
+						</div>					
+
+		        	
+		        		
+		        	    <div class="child-header">
+							<li class="" id="layout_3775" role="presentation">
+							<h2><a href="https://matthey.com/apply-now"  role="menuitem">
+								Apply Now</a></h2>
+							</li>
+						</div>					
+				<div class="jmprdt__btn">
+					<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						   FIND A PRODUCT </a><span class="icon-arrow--right"></span></button>
+				</div>
+			</ul>
+			<!--mobile view submenu: start --!>
+				
+		    <div class="submenu__mb">
+		     <span class="back__arrow" ></span>
+			 <h4 class="submenu__heading">  Careers</h4>
+			 <ul class="submenu__child" role="menu">
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3623" role="presentation">
+					   	<a href="https://matthey.com/careers/experienced-professionals"  role="menuitem" class="submenu__link">
+						Experienced professionals
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3625" role="presentation">
+					   	<a href="https://matthey.com/careers/early-careers"  role="menuitem" class="submenu__link">
+						Early careers
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3649" role="presentation">
+					   	<a href="https://matthey.com/careers/life-at-jm"  role="menuitem" class="submenu__link">
+						Life at JM
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+					
+
+
+                     <div class="submenu__content">
+					   <li class=" submenu__list" id="layout_3775" role="presentation">
+					   	<a href="https://matthey.com/apply-now"  role="menuitem" class="submenu__link">
+						Apply Now
+						</a>
+		          	    </li>
+		          	 </div>
+		          	 
+		          	 
+		          	    
+				 <div class="submenu__content bor-bot--0 submenu--content-btn-list">
+					   		<li class=" submenu__list" id="layout_3775" role="presentation">
+					   			<button class="jmlfry__btn" ><a href="/products-and-markets/all-products">
+						  			FIND A PRODUCT </a><span class="icon-arrow--right"></span>
+						   		</button>
+						   	</li>
+						</div>
+			   </ul>
+			   </div>
+					
+			</li>
+	</ul>
+	
+	<div class="contact__container">
+    <span class="jm__contact" ></span>
+    <p class="contact__text">Contact Us</p>
+     <span class="jmarrow__right contact__arrow"></span>
+    </div>
+</div>
+
+</nav>
+			<nav id="breadcrumbs">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_  portlet-static portlet-static-end portlet-decorate portlet-breadcrumb " id="p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_">
+		<span id="p_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet">
+
+
+	<div class="portlet-content">
+
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav aria-label="Breadcrumb" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen">
+	
+			<ol class="breadcrumb" role="menu">
+    			<li class="breadcrumb-item" role="menuitem" tabindex="0">
+						<a class="breadcrumb-link" href="https://matthey.com/products-and-markets" title="Products and markets">
+							<span class="breadcrumb-text-truncate">Products and markets</span>
+						</a>
+    			</li>
+    			<li class="breadcrumb-item" role="menuitem" tabindex="0">
+						<a class="breadcrumb-link" href="https://matthey.com/products-and-markets/pgms-and-circularity" title="PGMs and circularity">
+							<span class="breadcrumb-text-truncate">PGMs and circularity</span>
+						</a>
+    			</li>
+    			<li class="breadcrumb-item" role="menuitem" tabindex="0">
+						<a class="breadcrumb-link" href="https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets" title="PGM markets">
+							<span class="breadcrumb-text-truncate">PGM markets</span>
+						</a>
+    			</li>
+    			<li class="breadcrumb-item" role="menuitem" tabindex="0">
+                        	
+                         
+                        		<span class="active breadcrumb-text-truncate">PGM market reports</span>
+    			</li>
+	</ol>
+<style>
+  .breadcrumb-text-truncate {
+    color: #ffffff !important;
+	}
+</style>
+	
+</nav>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+			</nav>
+
+		<!--  CT Banner (AFTER breadcrumb) -->
+		
+
+	</header>
+
+	<section id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="layout-content portlet-layout" id="main-content" role="main">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	<div class="lfr-layout-structure-item-7b8acc3c-e155-091b-5656-40e5b3a67f4f lfr-layout-structure-item-container " style=""><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-3431f64a-d7c5-0119-8295-9f962bbb1713 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="7236260" data-analytics-asset-title="Market research - Page Banner 2026" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="7236262">
+			
+
+			
+
+
+
+
+
+
+
+    
+
+
+
+
+
+	<style>
+	    #panels-hero-uwhe_ {
+	        background-image: url("https://matthey.com/documents/161599/509428/electronics+cable+image+market+report+2026.png/3d9870ea-da5b-dd45-7d62-36efc0640f68?t=1778750341052");
+	        background-position: center;
+	        background-size: cover;
+            background-attachment: fixed;
+	    }
+	</style>
+<style>
+    @media screen and (max-device-width: 480px) {
+        .jmpanels--hero-temp {
+            background-attachment: unset!important;
+        }
+    }
+    
+    @media (max-width: 834px){
+        .jmpanels--hero-temp .panel__btnlist {
+            width: calc(100% - 40px);
+            margin-left: 15px !important;
+        }
+    }
+
+    @media screen and (min-width: 640px) and (min-height: 550px){
+        .jmgetintouchmodal button.close {   
+        	top: 50px;
+        	right: 30px;
+        }
+        .jmgetintouchmodal button.close .lexicon-icon {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    
+    @media (min-width: 320px) and (max-width: 834px) {
+        .jmgetintouchmodal button.close {   
+            top: 15px;
+            right: 0px;
+        }
+    }
+    
+    @media (min-width: 100px) and (max-width: 320px) {
+        .ac_blue_button{
+            margin-right:20px;
+        }
+        .jmgetintouchmodal button.close {   
+            top: 15px;
+            right: 0px;
+        }
+ 
+        .jmgetintouchmodal .modal.show .modal-dialog {
+            width: calc(100% - 15px);
+            max-width: calc(100% - 15px);
+        }
+ 
+
+        .jmgetintouchmodal .modal-content {
+            width: auto;
+        }
+        .jmgetintouchmodal .modal-header {
+               max-width: calc(100% - 16px);
+        }
+ 
+        .jmgetintouchmodal .modal-body {
+           max-width: calc(100% - 60px);
+        }
+ 
+        .panel__btn {
+            min-width: 100%;
+            padding: 20px 20px 17px 20px;
+            font-size: 16px;
+        }
+    }
+
+    /* New styles for duplicated CTAs */
+    .btn__hero__panel-wrapper {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 834px) {
+        .btn__hero__panel-wrapper {
+            flex-direction: column;
+        }
+    }
+</style>
+<div id="panels-hero-uwhe_" class="panels-hero jmpanels--hero-temp">
+    <div class="banner container py-6 py-md-8">
+            <div class="row">
+                <div class="col-12">
+                    <div class="panels-hero-header">
+                        <h1> PGM market reports</h1>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+                <div class="col-12">
+                    <div class="panels-hero-para">
+                        We provide unique and informed market insights on key issues in Platinum Group Metals (PGMs), giving you a better understanding of today’s volatile markets.
+                    </div>
+                </div>
+            <div class="panel__btnlist">
+                            <div id="blue_button_click_div" class="fragment_1103 ac_blue_button" data-analytics-asset-type="custom">
+                                    <a id="panel_blue_button_uwhe_0" class="panel__btn" href="https://matthey.com/documents/161599/509428/pgm-market-report-26.pdf/a2d115af-bf7c-f589-29e9-6beacf8a4452?t=1778750383760" title="Download the latest PGM market report in English" target="_blank" data-analytics-asset-action="click" onclick="onBlueButtonClick(this)">
+                                        <span class='panel__btntext'>Download the latest PGM market report in English</span>
+                                        <span class="arrow__forward"></span>
+                                    </a>
+                            </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="panels-hero-panels">
+            <div class="container">
+                <div class="row">
+                        <div class="col-12 hero-panels-panel ">
+                        </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<script>
+   addModalClass = function() {
+    if (jQuery('.modal-backdrop').length) {
+        jQuery('.modal-backdrop').parent().addClass('jmgetintouchmodal');
+    } else {
+        setTimeout(function() {
+            addModalClass();
+        }, 100);
+    }
+}
+
+;
+
+jQuery('.jm-get-in-touch, .btn-person_link').on('click', function() {
+    addModalClass();
+});
+$('a.logo  img ').attr('alt', 'JM Logo');   
+$('a.logo   ').attr('aria-label', 'Go to home');
+$('a.contact-us  ').attr('aria-label', 'Support');
+
+	/*CT SALE BANNER CHANGES*/
+		$( document ).ready(function() {     	
+		   $(".ct-primary").css("font-family","JMSansBold");
+		   $(".ct-secondary").css("font-family","JMSansBold");
+			 
+			  $(".ct-honeywell-txt").each(function () {
+			      if(!$(this).parent().is("a")){
+						    $(this).wrap(
+								    '<a href="https://www.honeywell.com/us/en/lp/ct/overview" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;"></a>'
+								);
+						}
+			 });
+			 $('.breadcrumb-link').each(function () {
+          if($(this).find('.breadcrumb-text-truncate').text().trim() === 'Acquired by Honeywell Technologies'){
+	           $(this).attr('href','https://www.matthey.com/CT-Honeywell-completion');
+	       }
+      });
+  });
+	
+	 $(document).on("click", "#ct-find-out-btn", function(e) {
+		    e.preventDefault();
+		    window.open("https://www.matthey.com/CT-Honeywell-completion","_blank");
+   });
+
+</script>
+
+<style>
+
+  .btn__hero__panel{
+     margin-top: 30px !important;
+     margin-bottom: 30px!important;
+     padding: 20px 10px 20px 20px!important;
+     justify-content: flex-end;
+     text-align: right!important;
+     font-family: JMSansMedium, Helvetica, Arial, Verdana, Tahoma, sans-serif !important;
+     line-height: 22px !important;
+     font-weight: normal;
+     display: inline-flex;
+     width:100%!important;
+     height:100% !important;
+     font-size: 18px !important;
+}
+.jmgetintouchmodal .modal-body {
+    border-top: 0rem solid #dee2e6 !important;
+}
+
+/* CT BANNNER CHANGES */
+.ct-title{
+   font-size: 15px !important;
+	 color: #000 !important;
+}
+.ct-sub {
+    font-size: 14px !important;
+    color: #000 !important;
+}
+@media (max-width: 767px) {
+   .ct-title{
+      font-size: 14px !important;	 
+}
+.ct-sub {
+    font-size: 13px !important;
+}
+}
+
+@media (max-width: 767px) {
+    .ct-mobile-top {
+        top: 11%;
+    }
+	@media (max-width: 375px) {
+   .ct-mobile-top {
+      top: 13%;
+    }
+  }
+ 
+}
+</style>
+
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 7236260);</script>
+</div></div><div class="lfr-layout-structure-item-basic-component-spacer lfr-layout-structure-item-67c89a39-1f57-3aac-9555-693bf16e2fbf " style=""><div id="fragment-259f5cf4-e763-37f4-4c0d-e1103886f509" > <div class="py-3"></div></div></div><div class="lfr-layout-structure-item-69115702-0fc9-4c95-5f85-87f37db9258f lfr-layout-structure-item-container  container-fluid container-fluid-max-xl" style=""><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-43435a77-5d3f-256e-20af-52c8e6dc06c6 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="513911" data-analytics-asset-title="Market research intro 2" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="513913">
+			
+
+			<div class="conainer">
+    <div class="jmrich--text-inner my-2">
+  	    <div class="p-2 my-2 rich--text-details">
+            <p class="jmrich--text"><p>Our PGM market report reviews and forecasts demand and supply developments in the PGM markets, and is published annually in May. It gives an insight into each of the platinum, palladium, rhodium, ruthenium and iridium markets and many include special feature articles. It is free and publicly available, but please read the disclaimer before downloading the report.<br />
+ </p></p>
+        </div>
+    </div>
+</div>
+
+
+<!-- JavaScript for scroll animation -->
+<script>
+      // Function to add 'fade-up' class when card comes into view
+      function animateOnScroll() {
+        const cards = document.querySelectorAll(".purificatin_img2_card");
+        const windowHeight = window.innerHeight;
+        cards.forEach((card) => {
+          const cardHeight = card.offsetHeight;
+          const cardTop = card.getBoundingClientRect().top;
+          const cardBottom = card.getBoundingClientRect().bottom;
+          if (cardTop < windowHeight && cardBottom > 0 ) { 
+            card.classList.add("fade-up");
+          } else {
+            card.classList.remove("fade-up");
+          }
+        });
+      }
+      // Initial animation check and adding scroll event listener
+      document.addEventListener("scroll", animateOnScroll);
+      window.addEventListener("load", animateOnScroll); // Trigger on page load as well
+      
+      // Function to add 'fade-up' class when card comes into view
+      function animatePurificationImageScroll() {
+        const img3_cards = document.querySelectorAll(".purification_img3_card");
+        const windowHeight = window.innerHeight;
+        img3_cards.forEach((img3_card) => {
+          const img3_cardHeight = img3_card.offsetHeight;
+          const img3_cardTop = img3_card.getBoundingClientRect().top;
+          const img3_cardBottom = img3_card.getBoundingClientRect().bottom;
+          if (img3_cardTop < windowHeight && img3_cardBottom > 0 ) { 
+            img3_card.classList.add("fade-up");
+          } else {
+            img3_card.classList.remove("fade-up");
+          }
+        });
+      }
+      // Initial animation check and adding scroll event listener
+      document.addEventListener("scroll", animatePurificationImageScroll);
+      window.addEventListener("load", animatePurificationImageScroll); // Trigger on page load as well
+</script>
+
+<style>
+@media (min-width: 320px) and (max-width: 570px) {
+	.jmrich--text-inner {
+	  margin-left: 15px !important;
+    margin-right: 15px !important;
+	}
+	 .jmrich--text-inner .rich--text-details h2 {
+	    padding-top: 0px !important;
+			line-height: 32px;
+	 }
+}
+@media (min-width: 580px) and (max-width: 800px) {
+	.jmrich--text-inner {
+	  margin-left: 15px !important;
+    margin-right: 15px !important;
+	}
+	 .jmrich--text-inner .rich--text-details h2 {
+	    padding-top: 0px !important;
+			line-height: 40px;
+	 }
+}
+@media (min-width: 820px) and (max-width: 880px) {
+	.jmrich--text-inner {
+	  margin-left: 15px !important;
+    margin-right: 15px !important;
+	}
+}
+@media (min-width: 200px) and (max-width: 390px) {
+  .jm_cta_button {
+	  min-width: 335px !important;
+	}
+}
+@media (max-width: 575.98px){
+  .jmrich--text-inner p {
+     line-height: 27px !important;
+     font-size: 18px !important;
+   }
+}
+</style>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 513911);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-ebc09e51-7acc-bb54-3135-7d6b9a7c35b8 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="513940" data-analytics-asset-title="Disclaimer for market reports - Accordion" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="513942">
+			
+
+			
+<div class="container jmaccrdn">
+
+
+        <div class="accordion" id="accordion">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="513928" data-analytics-asset-title="Disclaimer for market reports - Accordion Section" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="513930">
+			
+
+			
+<div class="jmaccrdn__section">
+    <div class="jmaccrdn__title" role="button" tabindex="0" data-toggle="collapse" data-target="#sectionbcuv_"
+        aria-expanded="true" aria-controls="sectionbcuv_">
+        	<p>
+        	    <span class="jmaccrdn__title-text">Disclaimer for market reports</span>
+        	    <span class="jmaccrdn__arrow"></span>
+        	</p>
+    </div>
+
+    <div id="sectionbcuv_" class="jmaccrdn__body collapse" data-parent="#accordion">
+            <div class="jmaccrdn__answer-sec" data-parent="#accordion" data-analytics-asset-action="download" data-analytics-asset-id="investor-pdf" data-analytics-asset-title="investor-report-pdf" data-analytics-asset-type="custom" id="investor-report-analytics">
+            	<div class="disclmr__answer">
+<p>The PGM Market Report (The “Report”), and the information and materials contained therein, is provided for information only and is not, and should not be interpreted as, financial or other professional advice, or advice that any precious metal related transaction is appropriate or suitable for any investment objective of financial situation. Further, the Report is not and should not be interpreted as an offer to buy or sell or solicitation of an offer to buy or sell, any precious metal or precious metal related products. A decision to invest in any precious metal, precious metal related products, securities or investments should not be made in reliance on any of the information or materials contained in the Report and Johnson Matthey accepts no liability whatsoever in this regards. The information and materials contained in the report are used expressly at your own risk. Before making any investment decision, you should take independent professional advice from appropriate financial, legal, tax and accounting advisers.</p>
+</div>
+            </div>
+    </div>
+</div>
+<style>
+    @media(max-width: 834px){
+        .jmaccrdn__title-text{
+            width: calc(100% - 28px);
+        }
+    }
+
+    .jmaccrdn .jmaccrdn__title p {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+</style>
+
+<script>
+
+  
+$('.jmaccrdn__title').on("click",function(){
+    var AccordionName = $(this).text();
+    
+    accordianname=AccordionName;
+})
+
+jQuery(".jmaccrdn__title").click(function (e) {
+    e.preventDefault();
+    var currentPageUrl = themeDisplay.getLayoutRelativeURL();
+    
+    var targetURL = '/investors/results-reports-and-presentations';
+    
+      if(currentPageUrl === targetURL){
+      
+       jQuery(".jmaccrdn__title").each(function () {
+       if($(this).text()!== accordianname){
+           if (jQuery(this).parent().find(".jmaccrdn__body").hasClass("show")) {
+            jQuery(".jmaccrdn__body").removeClass("show");
+        }
+       }
+    
+  });
+         
+    }
+    
+  });
+  
+
+
+$('#investor-report-analytics a').on("click",function(){
+
+    var addressValue = $(this).attr("href");
+    
+    var btntext = $(this).text();
+    
+    var currentPageUrl = themeDisplay.getLayoutRelativeURL();
+    
+    var targetURL = '/investors/results-reports-and-presentations-archive';
+    
+    if(currentPageUrl === targetURL){
+   
+        if(addressValue.includes('.pdf')){
+          
+            if (typeof Analytics !== 'undefined'){
+             
+                Analytics.track("reportPdfDownload", {
+                  reportTitle:accordianname,
+        		  pdfUrl:themeDisplay.getPortalURL().concat(addressValue),
+        		  pdfBtnText:btntext,
+        	    });
+    	    
+            }else{
+                console.log("Analytics not defined");
+            }
+        }    
+     
+    }
+});
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 513928);</script>
+
+
+
+        </div>
+
+</div>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Disclaimer for market reports",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The PGM Market Report (The “Report”), and the information and materials contained therein, is provided for information only and is not, and should not be interpreted as, financial or other professional advice, or advice that any precious metal related transaction is appropriate or suitable for any investment objective of financial situation. Further, the Report is not and should not be interpreted as an offer to buy or sell or solicitation of an offer to buy or sell, any precious metal or precious metal related products. A decision to invest in any precious metal, precious metal related products, securities or investments should not be made in reliance on any of the information or materials contained in the Report and Johnson Matthey accepts no liability whatsoever in this regards. The information and materials contained in the report are used expressly at your own risk. Before making any investment decision, you should take independent professional advice from appropriate financial, legal, tax and accounting advisers."
+            }
+        }
+    ]
+}
+</script>
+
+<style>
+@media (min-width: 320px) and (max-width: 539px) {
+    .jmaccrdn .jmaccrdn__heading {
+        font-size: 24px;
+        padding-left: 20px !important;
+        padding-bottom: 7px !important;
+        padding-top: 0px !important;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 834px) {
+    .jmaccrdn .jmaccrdn__heading {
+        padding-bottom: 40px !important;
+        padding-top: 0px !important;
+    }
+}
+</style>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 513940);</script>
+</div><div class="lfr-layout-structure-item-8ab18fe0-76b1-029e-4232-5a2e624a74a7 lfr-layout-structure-item-container " style=""></div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-bf6de0b7-2dc6-dfc6-2b3f-d0256413f66c " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="7101236" data-analytics-asset-title="2026" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="7101238">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2026</h2>
+            <div class="quarter-info dis__block list-item" id="milm_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_milm_0">PGM market report May 2026</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_milm_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-26.pdf/a2d115af-bf7c-f589-29e9-6beacf8a4452?t=1778750383760'>English</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='PGM Market Report 2026' data-analytics-asset-title='PGM Market Report 2026'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm-market-report-26.pdf/a2d115af-bf7c-f589-29e9-6beacf8a4452?t=1778750383760' target="_blank" id='download_milm_0' data-analytics-asset-action="download" onclick=onDownloadClick("milm_0","https://matthey.com/documents/161599/509428/pgm-market-report-26.pdf/a2d115af-bf7c-f589-29e9-6beacf8a4452?t=1778750383760")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 7101236);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-1a35351f-b5b5-f75b-6428-2547e1dab9cc " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="4342366" data-analytics-asset-title="2025" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="4342368">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2025</h2>
+            <div class="quarter-info dis__block list-item" id="hjgu_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_hjgu_0">PGM market report May 2025</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_hjgu_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/PGM_Market_Report_25.pdf/5f4e4078-8e9a-3c96-d334-9d14da9de094?t=1771340992972'>English</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='PGM_Market_Report_25' data-analytics-asset-title='PGM_Market_Report_25'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/PGM_Market_Report_25.pdf/5f4e4078-8e9a-3c96-d334-9d14da9de094?t=1771340992972' target="_blank" id='download_hjgu_0' data-analytics-asset-action="download" onclick=onDownloadClick("hjgu_0","https://matthey.com/documents/161599/509428/PGM_Market_Report_25.pdf/5f4e4078-8e9a-3c96-d334-9d14da9de094?t=1771340992972")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 4342366);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-40dd2b76-58c2-c9ef-e187-bdd4f6eadf55 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="3482338" data-analytics-asset-title="2024" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3482340">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2024</h2>
+            <div class="quarter-info dis__block list-item" id="aqca_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_aqca_0">PGM market report May 2024</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_aqca_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/PGM-Market-Report-24.pdf/4d557d3b-47d1-d975-c4af-5df1c81000f0?t=1771341476703'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/PGM-Market-Report-24-Chinese.pdf/cf5f498b-ce52-aeef-bc4d-13c86e434a9d?t=1747663939433'>Chinese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='PGM-Market-Report-24.pdf' data-analytics-asset-title='PGM-Market-Report-24.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/PGM-Market-Report-24.pdf/4d557d3b-47d1-d975-c4af-5df1c81000f0?t=1771341476703' target="_blank" id='download_aqca_0' data-analytics-asset-action="download" onclick=onDownloadClick("aqca_0","https://matthey.com/documents/161599/509428/PGM-Market-Report-24.pdf/4d557d3b-47d1-d975-c4af-5df1c81000f0?t=1771341476703")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 3482338);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-39f8a90c-b8a8-c5c7-2746-aeec4547747e " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="3071361" data-analytics-asset-title="2023" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3071363">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2023</h2>
+            <div class="quarter-info dis__block list-item" id="jvhj_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_jvhj_0">PGM market report May 2023</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_jvhj_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/404086/PGM+Market+Report+May23.pdf/2f048a72-74a8-8b23-f18e-c875000ed76b?t=1771869823385'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/2023%E5%BA%84%E4%BF%A1%E4%B8%87%E4%B8%B0%E9%93%82%E6%97%8F%E9%87%91%E5%B1%9E%E5%B8%82%E5%9C%BA%E6%8A%A5%E5%91%8A-05.29.pdf/861d06bd-c38d-0acc-c443-4fad29b2dac6?t=1747663939410'>Chinese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='PGM Market Report May23.pdf' data-analytics-asset-title='PGM Market Report May23.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/404086/PGM+Market+Report+May23.pdf/2f048a72-74a8-8b23-f18e-c875000ed76b?t=1771869823385' target="_blank" id='download_jvhj_0' data-analytics-asset-action="download" onclick=onDownloadClick("jvhj_0","https://matthey.com/documents/161599/404086/PGM+Market+Report+May23.pdf/2f048a72-74a8-8b23-f18e-c875000ed76b?t=1771869823385")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 3071361);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-a022ce11-164e-bd27-29ce-db5542c3c112 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="513972" data-analytics-asset-title="2022" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="513974">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2022</h2>
+            <div class="quarter-info dis__block list-item" id="pdxx_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_pdxx_0">PGM market report May 2022</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_pdxx_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/PGM-market-report-May-2022.pdf/542bcada-f4ac-a673-5f95-ad1bbfca5106?t=1747663939409'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/%E5%BA%84%E4%BF%A1%E4%B8%87%E4%B8%B0%E4%B8%AD%E6%96%87%E7%89%8820220526.pdf/34a64ad0-748c-1680-8255-c269865d66a7?t=1747663939409'>Chinese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='PGM-market-report-May-2022.pdf' data-analytics-asset-title='PGM-market-report-May-2022.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/PGM-market-report-May-2022.pdf/542bcada-f4ac-a673-5f95-ad1bbfca5106?t=1747663939409' target="_blank" id='download_pdxx_0' data-analytics-asset-action="download" onclick=onDownloadClick("pdxx_0","https://matthey.com/documents/161599/509428/PGM-market-report-May-2022.pdf/542bcada-f4ac-a673-5f95-ad1bbfca5106?t=1747663939409")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 513972);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-39988767-c130-cbad-9c01-4ccf9f949a29 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="514049" data-analytics-asset-title="2021" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="514051">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2021</h2>
+            <div class="quarter-info dis__block list-item" id="hrzq_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_hrzq_0">PGM market report May 2021</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_hrzq_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-may-21.pdf/39796ec4-2b71-2ffd-6b3a-a716e428da3d?t=1747663939409'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-may-21-chinese.pdf/72fef719-951b-7026-9045-cc6afa118b1a?t=1747663939409'>Chinese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm-market-report-may-21.pdf' data-analytics-asset-title='pgm-market-report-may-21.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm-market-report-may-21.pdf/39796ec4-2b71-2ffd-6b3a-a716e428da3d?t=1747663939409' target="_blank" id='download_hrzq_0' data-analytics-asset-action="download" onclick=onDownloadClick("hrzq_0","https://matthey.com/documents/161599/509428/pgm-market-report-may-21.pdf/39796ec4-2b71-2ffd-6b3a-a716e428da3d?t=1747663939409")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="quarter-info dis__block list-item" id="hrzq_1">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_hrzq_1">PGM market report February 2021</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_hrzq_1" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-february-english-2021.pdf/c8d1bb71-caf8-65e0-ef62-761d5c25ebd6?t=1747663939405'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-february-chinese-2021.pdf/d8136dc1-67f2-66fb-9eef-afff221f2290?t=1747663939406'>Chinese</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-february-japanese-2021.pdf/093499f7-85d0-5576-44f7-ab41f8334b1e?t=1747663939406'>Japanese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm-market-report-february-english-2021.pdf' data-analytics-asset-title='pgm-market-report-february-english-2021.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm-market-report-february-english-2021.pdf/c8d1bb71-caf8-65e0-ef62-761d5c25ebd6?t=1747663939405' target="_blank" id='download_hrzq_1' data-analytics-asset-action="download" onclick=onDownloadClick("hrzq_1","https://matthey.com/documents/161599/509428/pgm-market-report-february-english-2021.pdf/c8d1bb71-caf8-65e0-ef62-761d5c25ebd6?t=1747663939405")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 514049);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-7c188d81-35ea-6293-237e-57c3b8bca5d3 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="514072" data-analytics-asset-title="2020" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="514074">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2020</h2>
+            <div class="quarter-info dis__block list-item" id="skst_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_skst_0">PGM market report May 2020</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_skst_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-may-2020.pdf/95cfe55d-edec-0b31-e77e-4f7268c980d2?t=1747663939409'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-may-2020-chinese.pdf/b877d07d-dae2-b6cd-fe24-c286ff2fc6a3?t=1747663939409'>Chinese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm-market-report-may-2020.pdf' data-analytics-asset-title='pgm-market-report-may-2020.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm-market-report-may-2020.pdf/95cfe55d-edec-0b31-e77e-4f7268c980d2?t=1747663939409' target="_blank" id='download_skst_0' data-analytics-asset-action="download" onclick=onDownloadClick("skst_0","https://matthey.com/documents/161599/509428/pgm-market-report-may-2020.pdf/95cfe55d-edec-0b31-e77e-4f7268c980d2?t=1747663939409")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="quarter-info dis__block list-item" id="skst_1">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_skst_1">PGM market report February 2020</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_skst_1" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_february_2020.pdf/2f66199d-4e2b-963a-05b6-c617105d3146?t=1747663939409'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_february_2020_japanese.pdf/54c1814e-f9e4-a3c5-d4ba-3cc259fbe3a7?t=1747663939409'>Japanese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm_market_report_february_2020.pdf' data-analytics-asset-title='pgm_market_report_february_2020.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm_market_report_february_2020.pdf/2f66199d-4e2b-963a-05b6-c617105d3146?t=1747663939409' target="_blank" id='download_skst_1' data-analytics-asset-action="download" onclick=onDownloadClick("skst_1","https://matthey.com/documents/161599/509428/pgm_market_report_february_2020.pdf/2f66199d-4e2b-963a-05b6-c617105d3146?t=1747663939409")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 514072);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-ce693eb2-1293-c174-725c-d0b276155437 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="514089" data-analytics-asset-title="2019" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="514091">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2019</h2>
+            <div class="quarter-info dis__block list-item" id="ohbl_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_ohbl_0">PGM market report May 2019</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_ohbl_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_may_19.pdf/46584d5f-a0e2-d92b-a22e-baba8b33faa0?t=1747663939408'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm-market-report-may-2019-cn+%281%29.pdf/d4de5eb7-7881-966d-111d-52f48ea0ea8a?t=1747663939408'>Chinese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm_market_report_may_19.pdf' data-analytics-asset-title='pgm_market_report_may_19.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm_market_report_may_19.pdf/46584d5f-a0e2-d92b-a22e-baba8b33faa0?t=1747663939408' target="_blank" id='download_ohbl_0' data-analytics-asset-action="download" onclick=onDownloadClick("ohbl_0","https://matthey.com/documents/161599/509428/pgm_market_report_may_19.pdf/46584d5f-a0e2-d92b-a22e-baba8b33faa0?t=1747663939408")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="quarter-info dis__block list-item" id="ohbl_1">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_ohbl_1">PGM market report February 2019</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_ohbl_1" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_february_2019.pdf/1dcf8a9a-75be-bd06-aacd-36c67d1af8bd?t=1747663939408'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_february_2019_japanese.pdf/89e12ff9-4a50-7154-3dbf-72dd387deeb1?t=1747663939408'>Japanese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm_market_report_february_2019.pdf' data-analytics-asset-title='pgm_market_report_february_2019.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm_market_report_february_2019.pdf/1dcf8a9a-75be-bd06-aacd-36c67d1af8bd?t=1747663939408' target="_blank" id='download_ohbl_1' data-analytics-asset-action="download" onclick=onDownloadClick("ohbl_1","https://matthey.com/documents/161599/509428/pgm_market_report_february_2019.pdf/1dcf8a9a-75be-bd06-aacd-36c67d1af8bd?t=1747663939408")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 514089);</script>
+</div><div class="lfr-layout-structure-item-com-liferay-fragment-internal-renderer-contentobjectfragmentrenderer lfr-layout-structure-item-1bb3208c-18ff-b2d2-803c-7c580d18c9d4 " style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="514121" data-analytics-asset-title="2018" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="514123">
+			
+
+			
+<div class="container jmplat__industry">
+    <h2 class="quarter-header">2018</h2>
+            <div class="quarter-info dis__block list-item" id="yegz_0">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_yegz_0">PGM market report May 2018</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_yegz_0" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_may_2018.pdf/9a0eeda2-f14c-35df-143b-720ea6758d6a?t=1747663939408'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_may_2018_chinese.pdf/c0d27e9f-c5c3-08db-5ad5-d36dfd8300e2?t=1747663939410'>Chinese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm_market_report_may_2018.pdf' data-analytics-asset-title='pgm_market_report_may_2018.pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm_market_report_may_2018.pdf/9a0eeda2-f14c-35df-143b-720ea6758d6a?t=1747663939408' target="_blank" id='download_yegz_0' data-analytics-asset-action="download" onclick=onDownloadClick("yegz_0","https://matthey.com/documents/161599/509428/pgm_market_report_may_2018.pdf/9a0eeda2-f14c-35df-143b-720ea6758d6a?t=1747663939408")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+            <div class="quarter-info dis__block list-item" id="yegz_1">
+                <div class="list-content">
+                    <p class="quarter-text" id="download_pdf_lang_yegz_1">PGM market report February 2018</p>
+                </div>
+                <div class="lang__dropdown">
+                        <select id="select_yegz_1" onchange="downloadURL(this)" class="show-tick" aria-label="Choose a option">
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_february_2018+%281%29.pdf/939b26f2-cbf7-9234-e67d-0be07b85f850?t=1747663939407'>English</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_february_2018_chinese+%281%29.pdf/898caf27-c620-215d-242a-98f0070446b8?t=1747663939407'>Chinese</option>
+                                <option value='https://matthey.com/documents/161599/509428/pgm_market_report_february_2018_japanese.pdf/455d57a6-93ea-0e28-1030-aae59d6ca278?t=1747663939406'>Japanese</option>
+                        </select>
+                        <div id="analytics_download_div" class="fragment_1103" data-analytics-asset-type="custom" data-analytics-asset-id='pgm_market_report_february_2018 (1).pdf' data-analytics-asset-title='pgm_market_report_february_2018 (1).pdf'>
+                            <a class="list-link pdf__link" href='https://matthey.com/documents/161599/509428/pgm_market_report_february_2018+%281%29.pdf/939b26f2-cbf7-9234-e67d-0be07b85f850?t=1747663939407' target="_blank" id='download_yegz_1' data-analytics-asset-action="download" onclick=onDownloadClick("yegz_1","https://matthey.com/documents/161599/509428/pgm_market_report_february_2018+%281%29.pdf/939b26f2-cbf7-9234-e67d-0be07b85f850?t=1747663939407")>
+                            Download
+                            </a>
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/javascript">
+    function downloadURL(selectObject) {
+        var id = jQuery(selectObject).attr('id');
+        var rowID = id.substring(id.indexOf('_') + 1);
+        var value = selectObject.value;
+        jQuery("a#download_" + rowID).attr('href', value);
+    }
+
+    Liferay.on('allPortletsReady', function () {
+
+        jQuery('#analytics_download_div').click(function (e) {
+            var t = e.target;
+            if (t.tagName.toLowerCase() === "a") {
+                var documentId = jQuery(t).attr("id");
+                Analytics.track("Download Custom Document", {
+                    'documentId': documentId,
+                });
+            }
+        });
+
+    });
+</script>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 514121);</script>
+</div><div class="lfr-layout-structure-item-jm-button lfr-layout-structure-item-26c1affd-2e2d-251b-a50b-660b8b74f5bc " style=""><div id="fragment-64a77089-9e2e-8733-fdc0-a0e705ed7024" > <div class=" fragment_101 pltnm__view--archieve">
+	<button class="view__archieve__btn" onclick="window.location.href='/products-and-markets/pgms-and-circularity/pgm-management/report-archive';">
+		VIEW ARCHIVE REPORTS (2017-1999) 
+		<span class="archieve__btn--arrow"></span>
+	</button>	
+</div></div></div></div>
+
+
+
+
+		</div>
+	
+
+
+<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><button hidden type="submit">Hidden</button></form>
+
+	
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="282737" data-analytics-asset-title="Footer" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="282739">
+			
+
+			<div class="container-fluid bg--theme">
+    <div class="footer__container">
+			<div class="jmfooter__logo">
+				<a href="javascript:void(0);" title="Johnson Matthey">
+				    <span id="jmLogoWhite"></span>
+				</a>
+			</div>
+				    <div class="jmfooter__lists">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="3201150" data-analytics-asset-title="Quick access" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3201152">
+			
+
+			<div class=""> 
+ <nav aria-label="Quick access list">
+	<h2 class="jmfooter__heading" role="button" tabindex="0">
+	    Quick access
+	    <span class="footersec__chevicon"></span>
+	</h2>
+	<ul class="jmfooter__links">
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Policies and disclosures" href="/sustainability/policies-and-disclosures" target="">
+							Policies and disclosures
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Quality certificates" href="/products-and-markets/quality-certificates" target="">
+							Quality certificates
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Partnering with us" href="/about-us/partnering-with-us" target="">
+							Partnering with us
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Whistleblowing" href="https://app.convercent.com/en-US/LandingPage/b2c0984e-7acd-ed11-a99e-000d3ab9f062?_=1680683033759" target="">
+							Whistleblowing
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Code of Ethics" href="/about-us/governance/code-of-ethics" target="">
+							Code of Ethics
+						</a>
+				</li>
+	</ul>
+</nav>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 3201150);</script>
+    				</div>
+				    <div class="jmfooter__lists">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="3201138" data-analytics-asset-title="Get in touch" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3201140">
+			
+
+			<div class=""> 
+ <nav aria-label="Get in touch list">
+	<h2 class="jmfooter__heading" role="button" tabindex="0">
+	    Get in touch
+	    <span class="footersec__chevicon"></span>
+	</h2>
+	<ul class="jmfooter__links">
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Find a product" href="/products-and-markets/all-products" target="">
+							Find a product
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Media enquiries" href="/news/media-enquiries" target="">
+							Media enquiries
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Investor enquiries" href="/investors/investor-enquiries" target="">
+							Investor enquiries
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Search JM jobs and apply" href="https://matthey.wd3.myworkdayjobs.com/Ext_Career_Site" target="_blank">
+							Search JM jobs and apply
+						</a>
+				</li>
+				<li class="jmfooter__list">
+						<a class="jmfooter__listlink" aria-label="Location and contacts" href="/contact-us" target="">
+							Location and contacts
+						</a>
+				</li>
+	</ul>
+</nav>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 3201138);</script>
+    				</div>
+
+    					<div class="jmfooter__lists jmfooter__lists__general">
+							<h2 class="jmfooter__heading" >Further information<span class="footersec__chevicon"></span></h2>
+								<nav aria-label="Further Information list">
+								<ul class="jmfooter__links">
+									
+											<li class="jmfooter__list">
+												
+													
+													<a class="jmfooter__listlink" aria-label="Acceptable use" href="/website-information/acceptable-use-policy" target="">
+													 Acceptable use
+													</a>
+											
+										
+											</li>
+											<li class="jmfooter__list">
+												
+													
+													<a class="jmfooter__listlink" aria-label="Accessibility" href="/website-information/accessibility" target="">
+													 Accessibility
+													</a>
+											
+										
+											</li>
+											<li class="jmfooter__list">
+												
+													
+													<a class="jmfooter__listlink" aria-label="Cookies" href="/website-information/cookies-notice" target="">
+													 Cookies
+													</a>
+											
+										
+											</li>
+											<li class="jmfooter__list">
+												
+													
+													<a class="jmfooter__listlink" aria-label="Modern slavery" href="/modern-slavery" target="">
+													 Modern slavery
+													</a>
+											
+										
+											</li>
+											<li class="jmfooter__list">
+												
+													
+													<a class="jmfooter__listlink" aria-label="Privacy notice" href="/website-information/privacy-notice" target="">
+													 Privacy notice
+													</a>
+											
+										
+											</li>
+											<li class="jmfooter__list">
+												
+													
+													<a class="jmfooter__listlink" aria-label="Terms of use" href="/website-information/terms-of-use" target="">
+													 Terms of use
+													</a>
+											
+										
+											</li>
+
+								</ul>
+							  </nav>
+						</div>
+
+				
+			
+		</div>
+</div>
+<div class="socialmedia__list bg--white">
+	<div class="jmcopyright__text" role="region" aria-label="JM copyright">&copy;Johnson Matthey 2026</div>
+	<div class="socialmedia__links">
+		<a href="https://www.instagram.com/johnson_matthey/">
+			<img
+			    src="/o/jm-platinum-theme/images/new__jm__images/Instagram_icon.png"
+				alt="instagram "
+				class="socialicons__img"
+			/>
+		</a>
+		<a href="https://www.linkedin.com/company/johnson-matthey/">
+			<img
+			    src="/o/jm-platinum-theme/images/new__jm__images/social_icons-LinkedIN.png"
+				alt="linkedIn "
+				class="socialicons__img"
+			/>
+	    </a>
+	    <a href="https://www.youtube.com/@JohnsonMattheyPlc">
+			<img
+			    src="/documents/161599/0/Youtube%20Icon.png"
+				alt="youtube "
+				class="socialicons__img"
+			/>
+		</a>
+	</div>
+</div>
+
+<script>
+$( document ).ready(function() {
+    $('a:contains("Cookies")').attr('data-senna-off','true');
+
+
+//navigation columns zoom-in-zoom-out fixes
+
+
+	let lastZoom = window.outerWidth / window.innerWidth;
+
+window.addEventListener('resize', function () {
+
+   let currentZoom = window.outerWidth / window.innerWidth;
+
+   if (currentZoom !== lastZoom) {
+
+       lastZoom = currentZoom; // Update last known zoom level
+
+       applyZoomStyles(); // Call the function only when zoom changes
+
+   }
+
+});
+
+function applyZoomStyles() {
+
+   let zoomLevel = Math.round((window.devicePixelRatio || window.outerWidth / window.innerWidth) * 100);
+
+   let menuItems = document.querySelectorAll('.child-menu li h2 a');
+
+   let childMenuLinks = document.querySelectorAll('.sub-child');
+
+	 let menuI = document.querySelectorAll(".jmheader__navlist ul.child-menu");
+
+   console.log("Zoom Level Detected:", zoomLevel); // Debugging log
+
+   if (zoomLevel >= 150) {
+
+       menuItems.forEach(el => {
+
+           el.style.fontSize = "13px";
+
+           el.style.lineHeight = "18px";
+
+       });
+
+       childMenuLinks.forEach(el => {
+
+           el.style.fontSize = "10px";
+
+           el.style.lineHeight = "15px";
+
+       });
+
+			   menuI.forEach(el => {
+
+          el.style.width ="calc(100% - 75px)";
+
+		  el.style.left="40px";
+
+       });
+
+   } else if (zoomLevel >= 125) {
+
+       menuItems.forEach(el => {
+
+           el.style.fontSize = "14px";
+
+           el.style.lineHeight = "22px";
+
+       });
+
+       childMenuLinks.forEach(el => {
+
+           el.style.fontSize = "11px";
+
+           el.style.lineHeight = "24px";
+
+       });
+
+			 menuI.forEach(el => {
+
+          el.style.width ="calc(100% - 216px)";
+
+		  el.style.left="108px";
+
+       });
+
+   } else if (zoomLevel >= 110) {
+
+       menuItems.forEach(el => {
+
+           el.style.fontSize = "16px";
+
+           el.style.lineHeight = "24px";
+
+       });
+
+       childMenuLinks.forEach(el => {
+
+           el.style.fontSize = "12px";
+
+           el.style.lineHeight = "28px";
+
+       });
+
+			  menuI.forEach(el => {
+
+          el.style.width ="calc(100% - 216px)";
+
+		  el.style.left="108px";
+
+       });
+
+   } else {
+
+        menuItems.forEach(el => {
+
+           el.style.fontSize = "16px";
+
+           el.style.lineHeight = "24px";
+
+       });
+
+       childMenuLinks.forEach(el => {
+
+           el.style.fontSize = "14px";
+
+          // el.style.lineHeight = "30px";
+
+       });
+
+			  menuI.forEach(el => {
+
+          el.style.width ="calc(100% - 216px)";
+
+		  el.style.left="108px";
+
+       });
+
+   }
+
+}
+
+
+// Run once on page load
+
+applyZoomStyles();
+});
+
+$(document).ready(function() {
+    jQuery(".logo").attr("data-senna-off","true");
+       
+    $('a.sub-child').each(function() {
+		   
+			 const href = $(this).attr('href');
+			 
+		   if(href && href.includes('chemical-intermediate-technologies')){
+			      this.style.setProperty('line-height','15px','important');
+						return;
+			 }
+		
+        var text = $(this).text();
+       if (text.length > 47) {
+						this.style.setProperty('line-height','15px','important');
+        } else {
+					 this.style.setProperty('line-height','35px','important');
+        }
+    });
+});
+
+//CT Menu Navigation chnages
+$( document ).ready(function() {		
+		document.querySelectorAll('.child-header li').forEach((item) => {
+		    const title = item.querySelector('h2 a');
+				
+				if(title && title.textContent.trim() === 'Acquired by Honeywell Technologies'){
+				    item.classList.add('chemicals-energy-colmn');
+				}
+		});
+		
+		document.querySelectorAll('.submenu__link').forEach((link) => {		    
+				
+				if(link.textContent.trim().includes('Acquired by Honeywell Technologies')){
+				    link.removeAttribute('href');
+						link.style.setProperty('color','#BFC7D5','important');
+				}
+		});
+});
+
+</script>
+
+<style>
+
+.child-menu .child-header  {
+    flex: 0 0 20% !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  }
+	
+	.logo {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+</style>
+
+			
+		</div>
+
+		
+
+	
+
+
+<script>$(document.currentScript).prev('.journal-content-article').attr('data-analytics-asset-id', 282737);</script>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script type="text/javascript">
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function (data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function (event) {
+		if (window.Analytics) {
+			let title = event.contentTitle;
+
+			if (!title) {
+				const dmNode = document.querySelector(
+					'[data-analytics-file-entry-id="' + event.classPK + '"]'
+				);
+
+				if (dmNode) {
+					title = dmNode.dataset.analyticsFileEntryTitle;
+				}
+			}
+
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score,
+				title,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function () {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function (event) {
+		if (window.Analytics) {
+			const eventProperties = {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text,
+			};
+
+			const blogNode = document.querySelector(
+				'[data-analytics-asset-id="' + event.classPK + '"]'
+			);
+
+			const dmNode = document.querySelector(
+				'[data-analytics-file-entry-id="' + event.classPK + '"]'
+			);
+
+			if (blogNode) {
+				eventProperties.title = blogNode.dataset.analyticsAssetTitle;
+			}
+			else if (dmNode) {
+				eventProperties.title = dmNode.dataset.analyticsFileEntryTitle;
+			}
+
+			Analytics.send('posted', 'Comment', eventProperties);
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();
+
+	function getValueByAttribute(node, attr) {
+		return (
+			node.dataset[attr] ||
+			(node.parentElement && node.parentElement.dataset[attr])
+		);
+	}
+
+	function sendDocumentDownloadedAnalyticsEvent(anchor) {
+		var fileEntryId = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryId'
+		);
+		var title = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryTitle'
+		);
+		var version = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryVersion'
+		);
+
+		if (fileEntryId) {
+			Analytics.send('documentDownloaded', 'Document', {
+				groupId: themeDisplay.getScopeGroupId(),
+				fileEntryId,
+				preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+				title,
+				version,
+			});
+		}
+	}
+
+	function handleDownloadClick(event) {
+		if (window.Analytics) {
+			if (event.target.nodeName.toLowerCase() === 'a') {
+				sendDocumentDownloadedAnalyticsEvent(
+					event.target
+				);
+			}
+			else if (
+				event.target.parentNode &&
+				event.target.parentNode.nodeName.toLowerCase() === 'a'
+			) {
+				sendDocumentDownloadedAnalyticsEvent(
+					event.target.parentNode
+				);
+			}
+			else {
+				var target = event.target;
+				var matchTextContent =
+					target.textContent &&
+					target.textContent.toLowerCase() ===
+						'download';
+				var matchTitle =
+					target.title && target.title.toLowerCase() === 'download';
+				var matchAction = target.action === 'download';
+				var matchLexiconIcon = !!target.querySelector(
+					'.lexicon-icon-download'
+				);
+				var matchLexiconClassName = target.classList.contains(
+					'lexicon-icon-download'
+				);
+				var matchParentTitle =
+					target.parentNode &&
+					target.parentNode.title &&
+					target.parentNode.title.toLowerCase() === 'download';
+				var matchParentLexiconClassName =
+					target.parentNode &&
+					target.parentNode.classList.contains('lexicon-icon-download');
+
+				if (
+					matchTextContent ||
+					matchTitle ||
+					matchParentTitle ||
+					matchAction ||
+					matchLexiconIcon ||
+					matchLexiconClassName ||
+					matchParentLexiconClassName
+				) {
+					var selectedFiles = document.querySelectorAll(
+						'.form .custom-control-input:checked'
+					);
+
+					selectedFiles.forEach(({value}) => {
+						var selectedFile = document.querySelector(
+							'[data-analytics-file-entry-id="' + value + '"]'
+						);
+
+						sendDocumentDownloadedAnalyticsEvent(
+							selectedFile
+						);
+					});
+				}
+			}
+		}
+	}
+
+	Liferay.once('destroyPortlet', () => {
+		document.body.removeEventListener(
+			'click',
+			handleDownloadClick
+		);
+	});
+
+	Liferay.once('portletReady', () => {
+		document.body.addEventListener(
+			'click',
+			handleDownloadClick
+		);
+	});
+
+(function() {var $ = AUI.$;var _ = AUI._;
+	
+})();
+
+	if (window.svg4everybody && Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				polyfill: true,
+				validate: function (src, svg, use) {
+					return !src || !src.startsWith('#');
+				}
+			}
+		);
+	}
+
+
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2fproducts-and-markets\x2fpgms-and-circularity\x2fpgm-markets\x2fpgm-market-reports';
+		Liferay.currentURLEncoded = '\x252Fproducts-and-markets\x252Fpgms-and-circularity\x252Fpgm-markets\x252Fpgm-market-reports';
+
+	// ]]>
+
+
+		// <![CDATA[
+			
+				document.body.addEventListener("ceros-analytics-event", function (event) {
+  // If Analytics isn't available, don't attempt to send
+  if (typeof Analytics === "undefined") {
+    console.warn("[Ceros→Liferay] Analytics not available yet.");
+    return;
+  }
+
+  var d = event.detail || {};
+  // Flatten and sanitize payload to avoid undefined values being dropped
+  function S(v) { return (v === undefined || v === null) ? "" : String(v); }
+
+  // Send as a Custom Event (recommended for Analytics Cloud UI)
+  Analytics.track("custom Ceros Integration", {
+    customEventName: "Ceros Interaction",
+    source: "Ceros",
+    eventType: S(d.eventType),
+    componentName: S(d.componentName),
+    experienceName: S(d.experienceName),
+    pageNum: S(d.pageNum)
+  });
+
+  // Debug logs (can be removed after validation)
+  console.log("[Ceros→Liferay] Event sent:", {
+    eventType: d.eventType,
+    componentName: d.componentName,
+    experienceName: d.experienceName,
+    pageNum: d.pageNum,
+    source: "Ceros"
+  });
+});
+
+				
+
+				
+			
+		// ]]>
+	
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_',
+			portletId: 'com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d7927\x26p_p_id\x3dcom_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fproducts-and-markets\x252Fpgms-and-circularity\x252Fpgm-markets\x252Fpgm-market-reports',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_',
+			portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d7927\x26p_p_id\x3dcom_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fproducts-and-markets\x252Fpgms-and-circularity\x252Fpgm-markets\x252Fpgm-market-reports',
+			refreshURLData: {}
+		}
+	);
+
+
+</script><script type="module">
+import {InfoItemActionHandler as ComponentModule} from '/o/layout-taglib/__liferay__/index.js';
+Liferay.Loader.require(
+'frontend-js-web/index',
+function(frontendJsWeb) {
+try {
+AUI().use(
+  'liferay-menu',
+function(A) {
+{
+Liferay.component('infoItemActionComponent', new ComponentModule({"executeInfoItemActionURL":"https:\/\/matthey.com\/c\/portal\/execute_info_item_action?p_l_mode=view&plid=7927","namespace":"","spritemap":"https:\/\/matthey.com\/o\/jm-platinum-theme\/images\/clay\/icons.svg"}), { destroyOnNavigate: true, portletId: ''});
+}
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	var {delegate} = frontendJsWeb;
+
+	delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.add('open');
+		}
+	);
+
+	delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.remove('open');
+		}
+	);
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 0; i < liferayNotices.length; i++) {
+		Liferay.Util.openToast(liferayNotices[i]);
+	}
+
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+		var {openToast} = frontendJsWeb;
+
+		AUI().use(
+			'liferay-session',
+			function() {
+				Liferay.Session = new Liferay.SessionBase(
+					{
+						autoExtend: true,
+						redirectOnExpire: false,
+						redirectUrl: 'https\x3a\x2f\x2fmatthey\x2ecom\x2fweb\x2fguest',
+						sessionLength: 1800,
+						sessionTimeoutOffset: 70,
+						warningLength: 60
+					}
+				);
+
+				
+			}
+		);
+	
+})();
+});
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://matthey.com/o/jm-platinum-theme/js/main.js?browserId=chrome&amp;minifierType=js&amp;languageId=en_GB&amp;t=1790580340000" type="text/javascript"></script>
+
+
+
+
+<script type="module">
+import {default as main} from '/o/frontend-js-tabs-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-dropdown-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-alert-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-collapse-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-tooltip-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="text/javascript">
+Liferay.CustomDialogs = {enabled: false};
+
+</script><script>
+
+</script><script type="module">
+import {runThirdPartyCookiesInterval} from '/o/cookies-banner-web/__liferay__/index.js';
+{
+runThirdPartyCookiesInterval();
+}
+
+</script><script data-senna-track="temporary" src="/o/jm-matthey-journal-edit-global-js/global.6267f69449347eee6081.js" type="text/javascript"></script><script data-senna-track="temporary" src="/o/jm-matthey-hotjar-global-js/global.cde6e88ee063101252ad.js" type="text/javascript"></script><script type="text/javascript">
+    function renderCaptchaWidget(containerSelector) {
+        containerSelector = containerSelector || "";
+        const $captchaContainer = $(`${containerSelector} .g-recaptcha`);
+        if(($captchaContainer.length > 0) && $captchaContainer.children().length === 0 && turnstile) {
+            turnstile.render($captchaContainer[0]);
+        }
+	}
+    Liferay.on('endNavigate', () => {
+        renderCaptchaWidget();
+    });
+</script>   
+	<script type="text/javascript" src="https://matthey.com/o/jm-platinum-theme/js/bootstrap-select.min.js"></script>
+	<script type="text/javascript" src="https://matthey.com/o/jm-platinum-theme/js/accordian.js?v=2"></script>
+	<script type="text/javascript" src="https://matthey.com/o/jm-platinum-theme/js/heroPanel.js?v=1"></script>
+	<script type="text/javascript" src="https://matthey.com/o/jm-platinum-theme/js/productPage.js?v=1"></script>
+	<link rel="stylesheet" href="https://matthey.com/o/jm-platinum-theme/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://matthey.com/o/jm-platinum-theme/css/owl.theme.default.min.css">
+	<script type="text/javascript" src="https://matthey.com/o/jm-platinum-theme/js/owl.carousel.min.js"></script>
+	
+</body>
+
+</html>
+
+		
+	
+

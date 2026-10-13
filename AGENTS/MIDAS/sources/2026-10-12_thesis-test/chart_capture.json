@@ -1,0 +1,20 @@
+[
+  {
+    "file": "cada_sep2026_chart1.png",
+    "source": "https://www.cada.cn/upload/image/20261012/6392741435799026908570293.png",
+    "bytes": 259566,
+    "sha256": "1c7b8eda10d9a0e2f9ca934c8a56feea32f0fec93dc701ef7e315102db5d15b2"
+  },
+  {
+    "file": "cada_sep2026_chart2.png",
+    "source": "https://www.cada.cn/upload/image/20261012/6392741436268756087377427.png",
+    "bytes": 175841,
+    "sha256": "1141decec00143b81c0f4f14437de638af80d11157bd3b5b123e58412bce2bd4"
+  },
+  {
+    "file": "cada_sep2025_chart1.png",
+    "source": "https://www.cada.cn/upload/image/20251013/6389596769304457427769420.png",
+    "bytes": 73134,
+    "sha256": "151793e39a91e16f2356f90c40f22710b810b613fc149c3b0cbca56a09150c7b"
+  }
+]

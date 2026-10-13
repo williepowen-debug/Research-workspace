@@ -1,0 +1,18 @@
+[
+  {
+    "file": "cada_sep2026_chart7.png",
+    "url": "https://www.cada.cn/upload/image/20261012/6392741438857696786550486.png",
+    "status": 200,
+    "bytes": 983856,
+    "sha256": "e46a5cd09c88562199d0584e8c8a9bdfbf2c2b9dbac9822eda3a721f93d16fc2",
+    "retrieved_utc": "2026-10-13T03:17:27.110389+00:00"
+  },
+  {
+    "file": "lbma_definition.html",
+    "url": "https://www.lbma.org.uk/alchemist/issue-86/demystifying-londons-gold-and-silver-vault-holdings",
+    "status": 200,
+    "bytes": 294631,
+    "sha256": "fa641f43e715bc555da34c61c6c2b2e897441c51f6c1de61801594d7dc1b75ed",
+    "retrieved_utc": "2026-10-13T03:17:27.820533+00:00"
+  }
+]

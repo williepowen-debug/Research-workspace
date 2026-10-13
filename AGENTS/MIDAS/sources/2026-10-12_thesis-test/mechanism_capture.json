@@ -1,0 +1,66 @@
+[
+  {
+    "file": "wpic_q2_2026.pdf",
+    "url": "https://platinuminvestment.com/files/354715/WPIC_Platinum_Quarterly_Q2_2026.pdf",
+    "status": 200,
+    "bytes": 2877627,
+    "sha256": "19b45110ca2df81472eac92510c21836ac1e1e36c51368ea9bbec82a1c9331aa",
+    "retrieved_utc": "2026-10-13T03:15:28.951327+00:00"
+  },
+  {
+    "file": "jm_reports.html",
+    "url": "https://matthey.com/products-and-markets/pgms-and-circularity/pgm-markets/pgm-market-reports",
+    "status": 200,
+    "bytes": 177013,
+    "sha256": "815c678e8cfc82c85497acf1072875e0bce6b5535ae1d3b7a07acce50a222c0d",
+    "retrieved_utc": "2026-10-13T03:15:29.470960+00:00"
+  },
+  {
+    "file": "jm_may2026_release.html",
+    "url": "https://matthey.com/media/2026/johnson-matthey-publishes-2026-pgm-market-report1",
+    "status": 200,
+    "bytes": 142271,
+    "sha256": "085625cf342704baeb0549e650771023ffe6f4953abb530f72a9f9bacb6d35c4",
+    "retrieved_utc": "2026-10-13T03:15:30.017097+00:00"
+  },
+  {
+    "file": "slv_2025_10k.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1330568/000143774926006059/slv20251231_10k.htm",
+    "status": 200,
+    "bytes": 824466,
+    "sha256": "d1edafaf48325c3aac309939aeb0c5719122ea8f3eac59cffa1db2de20e7e943",
+    "retrieved_utc": "2026-10-13T03:15:30.588500+00:00"
+  },
+  {
+    "file": "lbma_trade.html",
+    "url": "https://www.lbma.org.uk/prices-and-data/lbma-daily-trade-reporting-data",
+    "status": 200,
+    "bytes": 289474,
+    "sha256": "d5ed79f8cd4767c6dd6ad88c1c9c4e2d7ad5f26824092682cef3ce16cf33ea99",
+    "retrieved_utc": "2026-10-13T03:15:31.345787+00:00"
+  },
+  {
+    "file": "deutsche_secondary.html",
+    "url": "https://exencialrp.substack.com/p/deutsche-bank-calls-time-on-the-silver",
+    "status": 200,
+    "bytes": 251471,
+    "sha256": "464e729cebdb348e2acd64ca661f38661b24926105179ef93609d5425f2926ed",
+    "retrieved_utc": "2026-10-13T03:15:31.561382+00:00"
+  },
+  {
+    "file": "cada_sep2026_chart5.png",
+    "url": "https://www.cada.cn/upload/image/20261012/6392741437838343661848739.png",
+    "status": 200,
+    "bytes": 1070455,
+    "sha256": "fd11fd3f0359d26458f4a5af63fdb1790921cdadef89c398010d6e18f2cf0f61",
+    "retrieved_utc": "2026-10-13T03:15:33.807325+00:00"
+  },
+  {
+    "file": "cada_sep2026_chart6.png",
+    "url": "https://www.cada.cn/upload/image/20261012/6392741438326119265620380.png",
+    "status": 200,
+    "bytes": 982256,
+    "sha256": "ef1d709eaae2a359967d4b1c632dc94f9cf45ab2d83416028cf0380f5c3e1fa0",
+    "retrieved_utc": "2026-10-13T03:15:36.239155+00:00"
+  }
+]

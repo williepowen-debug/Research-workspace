@@ -1,0 +1,171 @@
+{
+  "observed_utc": "2026-10-13T03:30:05.102416+00:00",
+  "tsv": {
+    "KB.tsv": {
+      "columns": 9,
+      "data_rows": 151,
+      "unique_ids": true,
+      "rectangular": true
+    },
+    "FLOW.tsv": {
+      "columns": 7,
+      "data_rows": 4,
+      "unique_ids": true,
+      "rectangular": true
+    },
+    "VX.tsv": {
+      "columns": 9,
+      "data_rows": 5,
+      "unique_ids": true,
+      "rectangular": true
+    }
+  },
+  "whole_read_surfaces": {
+    "STATUS.md": {
+      "bytes": 12567,
+      "lines": 79,
+      "under_cap": true
+    },
+    "OPEN_ITEMS.md": {
+      "bytes": 10955,
+      "lines": 60,
+      "under_cap": true
+    },
+    "SCRATCH.md": {
+      "bytes": 6062,
+      "lines": 26,
+      "under_cap": true
+    },
+    "THESIS.md": {
+      "bytes": 13938,
+      "lines": 73,
+      "under_cap": true
+    },
+    "NEXUS_BRIEF.md": {
+      "bytes": 6648,
+      "lines": 32,
+      "under_cap": true
+    }
+  },
+  "frozen": {
+    "PREDICTIONS.tsv": {
+      "sha256": "50bbe5bfdd4f4a6bd35be4ffc23b07f7f866564e9c2a5c3cf0389ed2094f3212",
+      "unchanged": true
+    },
+    "MIDAS-06_KERNEL_NATIVE_COMPANION.json": {
+      "sha256": "c6f63516ad4cb0f52bdb15f1b2b0851f713dfe7f064903631502986718a15f66",
+      "unchanged": true
+    }
+  },
+  "source_hash_checks": [
+    {
+      "file": "cada_sep2026.html",
+      "PASS": true
+    },
+    {
+      "file": "cada_aug2026.html",
+      "PASS": true
+    },
+    {
+      "file": "cada_jul2026.html",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2025.html",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2026_chart1.png",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2026_chart2.png",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2025_chart1.png",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2026_chart3.png",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2026_chart4.png",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2025_chart3.png",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2025_chart4.png",
+      "PASS": true
+    },
+    {
+      "file": "wpic_q2_2026.pdf",
+      "PASS": true
+    },
+    {
+      "file": "jm_reports.html",
+      "PASS": true
+    },
+    {
+      "file": "jm_may2026_release.html",
+      "PASS": true
+    },
+    {
+      "file": "slv_2025_10k.html",
+      "PASS": true
+    },
+    {
+      "file": "lbma_trade.html",
+      "PASS": true
+    },
+    {
+      "file": "deutsche_secondary.html",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2026_chart5.png",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2026_chart6.png",
+      "PASS": true
+    },
+    {
+      "file": "jm_may2026_report.pdf",
+      "PASS": true
+    },
+    {
+      "file": "cada_sep2026_chart7.png",
+      "PASS": true
+    },
+    {
+      "file": "lbma_definition.html",
+      "PASS": true
+    },
+    {
+      "file": "SIZ26.CMX_curve_history.csv",
+      "PASS": true
+    },
+    {
+      "file": "SIH27.CMX_curve_history.csv",
+      "PASS": true
+    }
+  ],
+  "actual_scores": [
+    4,
+    1,
+    1,
+    2
+  ],
+  "composite": 8,
+  "declared_whole_read_total_bytes": 50170,
+  "pdf_identity": "PASS: validPDF+extractedcoverdates",
+  "claim_check": "PASS: four existing files, weekday",
+  "read_cap": "PASS: explicitfivewhole-readsurfacecheck; registeredmanifest unavailable forMIDAS, notclaimed",
+  "ledger_nudge": "PREDICTIONS unchanged deliberately: no new forecast, no due grade; MIDAS06 pinned and09/10 frozen. Other changed ledgers updated.",
+  "software_tests": "Not repeated: research/state-only follow-up, no operational code/threshold changes; prior34/34 maintenance guardchecks unchanged"
+}

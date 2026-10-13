@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://www.cada.cn/upload/image/20261012/6392741436828363559132935.png",
+    "status": 200,
+    "path": "sources/2026-10-12_thesis-test/cada_sep2026_chart3.png",
+    "sha256": "351087e1b1939916c0ee6b36b2cdc9ecc72143a293416de79897781d2629071d",
+    "bytes": 947598,
+    "retrieved_utc": "2026-10-13T03:14:35.801034+00:00"
+  },
+  {
+    "url": "https://www.cada.cn/upload/image/20261012/6392741437256997891107325.png",
+    "status": 200,
+    "path": "sources/2026-10-12_thesis-test/cada_sep2026_chart4.png",
+    "sha256": "bb58685d06e56926a249e4c2f8239a8de22b7aa114334d1957aa2487d229e38e",
+    "bytes": 957591,
+    "retrieved_utc": "2026-10-13T03:14:39.657449+00:00"
+  },
+  {
+    "url": "https://www.cada.cn/upload/image/20251013/6389596770374360487767742.png",
+    "status": 200,
+    "path": "sources/2026-10-12_thesis-test/cada_sep2025_chart3.png",
+    "sha256": "0f39d2f89449f611278000bfdcc338de760bc60bc5e539eacca2a1e83f6d6ff2",
+    "bytes": 195010,
+    "retrieved_utc": "2026-10-13T03:14:41.419324+00:00"
+  },
+  {
+    "url": "https://www.cada.cn/upload/image/20251013/6389596770992247776249596.png",
+    "status": 200,
+    "path": "sources/2026-10-12_thesis-test/cada_sep2025_chart4.png",
+    "sha256": "9dc50b3080c5deea6f37018c05f4a1983d606b44eb505d05cc5a9355f94bd290",
+    "bytes": 189328,
+    "retrieved_utc": "2026-10-13T03:14:43.260027+00:00"
+  }
+]

@@ -2,9 +2,15 @@
 
 **Updated2026-10-12, approved maintenance.** Read with STATUS's top3; change both when a top3 item changes. The complete pre-maintenance102-line register is preserved verbatim in `analysis/BEFORE_MAINTENANCE_2026-10-12_OPEN_ITEMS.md`. Closed historical grading records remain there and in their dated resolution artifacts; no prediction is reopened by this compression.
 
-## 27. October12 news sweep — new evidence integrated
+## 28. October12 bounded thesis test — complete at the evidence limit
 
-PRIMARY CADA September production/wholesale decline addsPGMdemand pressure; globalcatalystloadings and exportmix remainunmeasured. London/Shanghai silver quantities nowheld forstated dates/categories; freefloat/leases/Indiaimports remainopen. The reportedDeutsche2027surplusforecast isPROV untilprimarybanknoteisheld. FCXOctober2ramp-up timeline iscurrent, notanewmineoutage. CPI10/14/PPI10/15 both08:30ET and Nornickel9Mproduction10/26 verified; the formercoincideswithTERRYmanagementclock. No newstandingmonitor/forecastoractualscore. Source/recencyfilters and explicit-rawOct12ETFbars in `analysis/2026-10-12_MIDAS-news-sweep.md`. S tablelabel corrected toadoptedd200; r63wasdiagnosticonly.
+`analysis/2026-10-12_metals-thesis-test.md` verifies43% asconventional-fueldomesticretailincludingordinaryHEV, notpureICE/production. RevisedcurrentCADAcomparatorsreconcile9.1%production; allnine2026retail/wholesaleYoYnegative. Non-BEVproductionproxy−21.77%, wholesale−22.96%; exportscushion, no metal-demandpercentage. Chart7priorEREVproductioncellinconsistentandexcluded; no guessedrepair. Pd supply-tightening-onlyWEAKENED; Pt2026-surplus/longer-term constraintUNCHANGEDwithautomotivereboundWEAKENED. PRIMARY JM May andWPICSeptember9Q2reportsheld, per-metalexposure/loading/substitutionbridgeestablished directionally; SeptChinagramloadings/CKDfitment andcommercialvehiclequantities stillmissing. WPICChina2026autoPt−9%alreadyinannualforecast; noadditivedowngrade.
+
+Silverdepletion-onlyWEAKENED; available-supplytightnessUNCHANGED/UNRESOLVED. PRIMARYLBMAmethodology/SLV2025custodyrulesestablishallocatedmetalconstraint, notfreefloatamount. DatedUSDec2026/Mar2027MIRRORcontango9/30&10/9notLondonleaseevidence. OriginalDeutschnoteUNAVAILABLE afterboundedexistingaccess; forecastsremainsecondary. No newsearchcadence. RevisitwithordinarynextChina/LBMArelease, existingNornickelOctober26/WPICNovember18calendar oraccesschange. Gold/copperunchanged, no repeatedsweep. Actual8/frozenletters/thresholdsunchanged; no newWilldecision.
+
+## 27. October12 news sweep — integrated; thesis implications now tested
+
+PRIMARY CADA September production/wholesale decline addsPGMdemand pressure; item28quantifiesvehiclechannelandseparatesPt/Pd. ExportpowertrainmixnowheldforSept, catalystgrams/fitment stillunmeasured. London/Shanghai silver quantities nowheld forstated dates/categories; freefloat/leases/Indiaimports remainopen. The reportedDeutsche2027surplusforecast isPROV untilprimarybanknoteisheld. FCXOctober2ramp-up timeline iscurrent, notanewmineoutage. CPI10/14/PPI10/15 both08:30ET and Nornickel9Mproduction10/26 verified; the formercoincideswithTERRYmanagementclock. No newstandingmonitor/forecastoractualscore. Source/recencyfilters and explicit-rawOct12ETFbars in `analysis/2026-10-12_MIDAS-news-sweep.md`. S tablelabel corrected toadoptedd200; r63wasdiagnosticonly.
 
 ## 26. Approved domain maintenance — repairs complete, evidence limits named
 

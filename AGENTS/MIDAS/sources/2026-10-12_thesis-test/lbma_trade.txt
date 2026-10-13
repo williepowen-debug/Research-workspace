@@ -1,0 +1,97 @@
+LBMA Daily Trade Reporting Data | LBMA
+Prices and Data
+LBMA Daily Trade
+Reporting Data
+For the first time in history, LBMA Trade Data makes it possible for market participants to gauge the size and shape of the London OTC precious metals market, the oldest and biggest financial market for gold in the world.
+For the first time in history, LBMA Trade Data makes it possible for market participants to gauge the size and shape of the London OTC precious metals market, the oldest and biggest financial market for gold in the world.
+LBMA Trade Data (formerly LBMA-i) provides a comprehensive view of the precious metals markets, allowing subscribers to make informed trading decisions. The service is provided and managed by
+Nasdaq
+, using daily market data reported electronically by LBMA members.
+By enhancing the transparency, LBMA Trade Data is assisting the forward market and helping market participants better understand gross turnover and liquidity in loco London and Zurich.
+Already a Bloomberg or Refinitiv Subscriber?
+Daily reporting is available through subscription. For more information, including a full list of the function codes, visit
+Nasdaq.com/LBMA-Trade-Data
+or contact
+Bloomberg
+and
+LSEG
+directly.
+Trade Reporting Weekly Turnover
+Total value in US dollar (billions). The data represents the 12 week moving average value of trades for the period ending 11 September 2026.
+Gold: $935.08 bn
+Silver: $137.09 bn
+Platinum: $15.93 bn
+Palladium: $7.20 bn
+All data is sorted by asset class, including spot, swap/forward, options and lease loan deposits. Coverage options include:
+Daily reporting: Gold, silver, platinum and palladium traded and open volume on a T+1 basis
+Weekly reporting: Provides data for the previous week of gold, silver, platinum and palladium traded
+Interested in LBMA Trade Data?
+Check out Nasdaq's site to get daily access to LBMA Trade Data and assess and analyse the most comprehensive source of OTC trade data as soon as it comes out.
+Find out more
+LBMA Webinars
+This webinar brought together industry experts David Gornall (Senior Advisor at LBMA), Rhona O’Connell (Head of Market Analysis, EMEA and Asia Regions, StoneX Financial Ltd), and Donal Larkin (Commodities Content Specialist, Bloomberg LP).
+Donal ran through a live demo of the LBMA Trade Data on the Bloomberg terminal, showing 1) where to find the daily dataset on the LBMA page on Bloomberg, 2) how to examine the dataset in greater detail including charting, and 3) how to extract the data into a usable Excel format. You can access a document detailing terminal instructions
+here
+.
+Explanatory Notes on LBMA Trade Data
+Open Volume Reports
+The data in this section is calculated by aggregating the sum of all unmatured trades within the system. It does not show the actual outstanding volume within the market as the system does not net trades within or between reporting entities.
+Weekly Reports
+The weekly report contains data from two additional sources that are not published in the daily reports.
+The weekly reports include data from entities that contain trading dates such as public holidays and weekends. This is due to electronic systems remaining open for business in some of the reporting entities.
+The weekly reports also contain data from any deferred trades that could not be included on the original date of trade.
+How the Service Works
+Full members report their trading activity into the LBMA Trade Data platform at the end of every trading day. This is data collected from a number of data sets in all four metals which are broken down into the following product groups:
+Spot
+Swaps and forwards
+Options
+Loan/Leases/Deposits
+Client specific data is not included, only the aggregated amounts. 28 fields have been agreed as being reportable however not all fields are mandatory for every instrument.
+The reporting convention used is as follows: The seller or lender reports if the trade took place between two LBMA members. In cases where the trade was between a member and non-LBMA member, it is the responsibility of the LBMA member to report both sides, i.e. both the buy and sell trades.
+It is mandatory for all full LBMA members to participate in LBMA Trade Data by reporting their transactions, and there are sanctions for companies that do not comply. In line with other trade reporting mechanisms, LBMA Trade Data has established de minimis thresholds in order to be able to collect the majority of data, whilst allowing some smaller traders an exemption from reporting.
+Governance, Security and Privacy Measures
+LBMA has placed strong emphasis on governance, and the need to ensure that members trade data is secure, confidentiality is appropriately protected and a clear and transparent framework for non-compliance is established. LBMA has developed a governance framework, which clarifies the roles and responsibilities, who has access to data, how conflicts of interests are managed, how large and/or sensitive trades are addressed and the enforcement process. This document is available on the LBMA Trade Data website, which has been developed in consultation with LBMA members, and supported by an external law firm.
+In addition, Nasdaq, as the operator of trade reporting platform, has been working closely with reporting members to ensure that data security is managed. They have formal InfoSec, privacy governance and compliance policies implemented group wide, reviewed and updated annually. They use industry standard practises derived from ISO 27001, SANS, and NIST Cybersecurity Framework, and also regularly schedule third Party security agencies to do penetration testing, auditing and reviews.
+Background - LBMA’s Commitment to Transparency
+The development of LBMA Trade Data has its roots in the
+Fair and Effective Markets Review (FEMR)
+, which was a comprehensive and forward-looking assessment of the way fixed income, currency and commodity (FICC) markets operate. It was led by the Bank of England, and co-chaired by the FCA and HM Treasury The three organisations published the final report of the review, including findings and recommendations, on 10 June 2015.
+Amongst the recommendations was a call for greater transparency in financial markets. While LBMA already issues clearing statistics for gold and silver, it acknowledged that this was not a full picture of the size of the global precious metals markets. Accordingly, LBMA issued a Request for Proposal (RfP) in 2016 to select a partner who could devise an appropriate mechanism to fully determine the size of the OTC traded market for gold, silver, platinum and palladium.
+News and Analysis
+View all related trade data articles
+here
+.
+Already a Bloomberg Subscriber?
+Weekly data is available to Terminal and B-PIPE subscribers using the following function codes:
+{ ALLX LBWG <GO>} - Silver
+{ ALLX LBWU <GO>} - Gold
+{ ALLX LBWP <GO>} - Platinum
+{ ALLX LBWD <GO>} - Palladium
+Daily reporting is available through subscription. For more information, including a full list of the function codes, visit
+nasdaq.com
+or contact
+Bloomberg
+directly.
+Already a Refinitiv Eikon terminal subscriber?
+If you are already a subscriber you can find the App within the Refinitiv portal Eikon by simply typing the Search Code:
+{LBMA TRADE}
+You can find the full list of RIC codes and other related information
+here
+.
+If you are not an Eikon subscriber, to explore LBMA data in Refinitiv Eikon and learn about the wider features available,
+click here
+.
+LBMA Trade Data Reporting Disclaimer
+Read here
+.
+LBMA Trade Data is owned by LBMA and licensed by Nasdaq. LBMA Trade Data is a transparency service for the precious metals market delivered by Nasdaq. LBMA Trade Data is collated and aggregated from
+LBMA Members
+. The service was formed to meet LBMA’s demand for a trade reporting service that improves transparency and demonstrates liquidity in the global OTC precious metals market. For more information please visit
+www.nasdaq.com/LBMA-Trade-Data
+.
+LBMA Precious Metal Prices
+International prices for gold, silver, platinum and palladium.
+Find out more
+About LBMA Daily Auction Prices
+When are the prices set? Who administers them? We’ve summarised below the main features of each of our precious metal prices.
+Find out more

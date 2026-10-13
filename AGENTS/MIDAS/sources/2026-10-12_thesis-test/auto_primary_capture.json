@@ -1,0 +1,34 @@
+[
+  {
+    "source": "https://www.cada.cn/Trends/info_91_10580.html",
+    "file": "cada_sep2026.html",
+    "captured": "2026-10-13T03:05:35.585597+00:00",
+    "bytes": 112175,
+    "sha256": "fc817a85eb1ae69c808fbd3d62c95d7d54e8ddec5abdf8ca0fc6b61b15ffc7cf"
+  },
+  {
+    "source": "https://www.cada.cn/Trends/info_91_10566.html",
+    "file": "cada_aug2026.html",
+    "captured": "2026-10-13T03:05:37.487474+00:00",
+    "bytes": 111502,
+    "sha256": "0a05fe9d5a6e4c6fd2b806c76f8e699be88397d4f207a3f5e6647ca6607fe156"
+  },
+  {
+    "source": "https://www.cada.cn/Trends/info_91_10550.html",
+    "file": "cada_jul2026.html",
+    "captured": "2026-10-13T03:05:39.141458+00:00",
+    "bytes": 52541,
+    "sha256": "8eccdd286e998bebf216894c94c395903eeca3071c23b68f6892ac2c19910600"
+  },
+  {
+    "source": "https://www.cada.cn/Trends/info_91_10339.html",
+    "file": "cada_sep2025.html",
+    "captured": "2026-10-13T03:05:40.405231+00:00",
+    "bytes": 50926,
+    "sha256": "758590a0bea25167c98624fc3c9c3f9557bc12f60bab65f6cc5bf9dd63416051"
+  },
+  {
+    "source": "https://platinuminvestment.com/investment-research/quarterly-report",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,2085 @@
+PAGE 1
+PGM market report
+May 2026
+
+PAGE 2
+The PGM market report is written by Alison Cowley.
+Johnson Matthey’s PGM market research
+for this report was conducted by:
+Stewart Brown
+Alison Cowley
+Joanna Dickson
+Mikio Fujita
+Nicolas Girardot
+Xiaobai Liu
+Rupen Raithatha
+Michael Underwood
+Athena Wang
+Johnson Matthey defines ‘light duty’ as cars and light trucks with
+a gross vehicle weight (GVW) of up to 3.5 tonnes, except in the
+USA, Canada and Mexico, where vehicles are considered ‘light’
+if they have a GVW of up to 6 tonnes. Automotive production
+data is taken from S&P Global Mobility, Powertrain Production
+Forecast, February 2026 (vehicles with a GVW of up to 6
+tonnes) and KGP-GlobalData Commercial Vehicle Powertrain
+Forecast Q4 2025 (vehicles with a GVW over 6 tonnes).
+The PGM market report is published annually,
+in May each year.
+Disclaimer
+Johnson Matthey PLC endeavours to ensure the accuracy of the information and materials contained
+within this report, but makes no warranty as to accuracy, completeness or suitability for any particular
+purpose. Johnson Matthey PLC accepts no liability whatsoever in respect of reliance placed by the user on
+information and materials contained in this report, which are utilised expressly at the user’s own risk.
+This report has been prepared by the Market Research Department of Johnson Matthey PLC and
+contains information, opinions, estimates and forecasts relating to the development of the PGM
+markets. Such information, opinions, estimates and forecasts are as of the date set out and are
+subject to change. None of the information contained in the report should be construed as, or form
+part of, a recommendation to buy or sell any regulated precious metal related products or any other
+regulated products, securities or investments, or as making any recommendation or as providing any
+investment or other advice with respect to the purchase sale or other disposition of, any regulated
+precious metal related products or any other regulated products, securities or investments.
+A decision to invest in any regulated precious metal related products or any other regulated products, securities
+or investments should not be made in reliance on any of the information or materials in this presentation.
+This report does not, and should not be construed as acting to, sponsor, advocate, endorse or promote any
+regulated precious metal related products or any other regulated products, securities or investments.
+
+PAGE 3
+Table of contents
+Definitions 4 Tables
+Platinum supply and demand: Troy ounces 27
+PGM summary
+Supply and demand in 2025 5 Platinum supply and demand: Tonnes 28
+Palladium supply and demand: Troy ounces 29
+PGM outlook
+Supply and demand in 2026 16 Palladium supply and demand: Tonnes 30
+Rhodium supply and demand: Troy ounces 31
+Emissions legislation update 24
+Rhodium supply and demand: Tonnes 32
+Ruthenium supply and demand: Troy ounces 33
+Ruthenium supply and demand: Tonnes 33
+Iridium supply and demand: Troy ounces 34
+Iridium supply and demand: Tonnes 34
+Glossary 35
+3 Johnson Matthey PGM market report May 2026
+
+PAGE 4
+Definitions
+Europe EU+ (includes UK and Turkey but excludes Russia)
+Japan Japan only
+North America USA and Canada (excludes Mexico)
+China China only
+RoW Rest of World: all countries not captured in the above
+Primary supply Supply figures represent sales of primary PGM by producers and are allocated to the
+region where mining took place, rather than the region of subsequent processing.
+Secondary supply Secondary supply is the quantity of metal recovered from open-loop recycling
+(i.e. where the original purchaser does not retain ownership of the PGM). Outside
+the automotive, jewellery and electronics markets, open-loop recycling is negligible.
+Automotive recycling represents the weight of metal recovered from end-of-life vehicles
+and aftermarket scrap. It does not include warranty or production scrap.
+Demand Demand figures for any given application represent the sum of industry demand for
+new metal in that application, net of any closed-loop recycling (i.e. where industry
+participants retain ownership of the metal).
+Automotive demand is allocated to the region where the vehicle is manufactured and
+is accounted for at the time of vehicle production. It includes emissions catalysts on
+vehicles, motorcycles and three-wheelers, as well as fuel cell vehicles. Non-road mobile
+machinery is counted as industrial demand, in the pollution control category.
+Jewellery demand is allocated to the region where the finished jewellery is
+manufactured, not sold.
+Movements in stocks This figure gives the overall market balance in any one year and reflects the extent of
+stocks that must be mobilised to balance the market in that year. It is thus a proxy for
+changes in stocks held by fabricators, dealers, banks and depositories, but excludes
+stocks held by primary and secondary refiners and final consumers. A positive figure
+(market surplus) thus reflects an increase in global market stocks. A negative value
+(market deficit) indicates a decrease in global market stocks.
+4 Johnson Matthey PGM market report May 2026
+
+PAGE 5
+PGM summary
+Supply and demand in 2025
+All the PGM were in deficit in 2025 All the platinum group metals saw supply fall short of
+demand in 2025. Industrial consumption was firm, and world
+production of internal combustion engine (ICE) vehicles
+Primary supplies contracted, despite
+was stable, although auto PGM use was trimmed by a small
+continued producer destocking
+decline in average catalyst loadings. Investment demand
+for platinum and palladium remained strong, while Chinese
+Production of ICE vehicles proved resilient, platinum jewellery fabrication surged during the first half. The
+supporting auto PGM demand minor PGM also saw some purchasing for strategic holdings,
+but we do not count this in our demand numbers. All five
+metals made significant price gains, especially platinum,
+High gold prices led to a surge in
+rhodium and ruthenium, prices of which more than doubled.
+platinum jewellery fabrication
+Market overview:
+Investor sentiment was positive, as BEV
+platinum, palladium and rhodium
+adoption lagged earlier expectations
+The three autocatalyst PGM recorded deficits in 2025, adding
+to significant cumulative shortfalls over the previous three
+Trade flows to China and the USA drained
+years. While the underlying drivers differed somewhat between
+market liquidity, lifting lease rates
+the metals, a common theme was weak supply: autocatalyst
+recycling has been slow to recover from a downturn during
+Platinum and palladium prices surged 2023–2024, while primary supply from South Africa and
+in December, after PGM futures North America has been eroded by rationalisation and mine
+began trading on China’s GFEX closures. At the same time, industrial demand has been robust,
+especially in the petrochemicals and electronics sectors, and
+output of ICE vehicles has proved resilient, albeit with some
+ongoing substitution, thrifting and model mix impacts.
+5 Johnson Matthey PGM market report May 2026
+)dP
+,tP(
+zo
+rep
+$SU
+0002 1002 2002 3002 4002 5002 6002 7002 8002 9002 0102 1102 2102 3102 4102 5102 6102 7102 8102 9102 0202 1202 2202 3202 4202 5202 6202
+)hR(
+zo
+rep
+$SU
+Platinum (LHS) Palladium (LHS) Rhodium (RHS) Source: Johnson Matthey plc; Bloomberg
+3,000 30,000
+2,500 25,000
+2,000 20,000
+1,500 15,000
+1,000 10,000
+500 5,000
+0 0
+Figure 1 Monthly average platinum, palladium and rhodium prices, 2000–2026
+
+PAGE 6
+Investor sentiment began to revive in 2024 and remained positive and 2024, prices for the autocatalyst PGM were held back by
+during 2025, as it became clear that the pace of battery electric a combination of market anxieties around BEV adoption, the
+vehicle (BEV) adoption would be substantially slower than earlier existence of excess stocks at some consumers (a hangover from
+predictions in all regions except China. Meanwhile, a steep rise in Covid market disruption and extreme price movements), and lack
+the gold price also helped fuel interest in much cheaper platinum of a compelling demand story to sustain any rallies. However, by
+and palladium. There was substantial exchange traded fund (ETF) the beginning of 2025, a new narrative was developing, centring
+buying of both metals during 2025, along with rapid growth in sales on the risk that the incoming Trump administration might disrupt
+of platinum bars to retail investors in China. Rhodium ETFs also saw trade flows with aggressive tariff policies. At the same time,
+active purchasing for the first time in nearly a decade. This investment critical mineral supply was emerging as a national security issue,
+activity was a material contributor to market deficits in 2025. while geopolitical tensions were unusually elevated, and the
+gold price reached a series of all-time highs. This provided the
+Prior to 2025, market liquidity and price had been slow to backdrop for a remarkable turnaround in PGM market sentiment.
+reflect underlying supply-demand dynamics. For much of 2023
+6 Johnson Matthey PGM market report May 2026
+52
+NAJ
+52
+BEF
+52
+RAM
+52
+RPA
+52
+YAM
+52
+NUJ
+52
+LUJ
+52
+GUA
+52
+PES
+52
+TCO
+52
+VON
+52
+CED
+62
+NAJ
+62
+BEF
+30
+25
+20
+15
+10
+5
+0
+zo
+000‘
+,skcotS
+62
+RAM
+%
+etar
+esaeL
+Supply ‘000 oz 2024 2025 2026 Supply ‘000 oz 2024 2025 2026
+South Africa 4,154 3,957 3,873 South Africa 2,438 2,246 2,235
+Russia 700 650 630 Russia 3,000 2,950 2,450
+Others 970 950 952 Others 1,490 1,393 1,347
+Total primary supply 5,824 5,557 5,455 Total primary supply 6,928 6,589 6,032
+Secondary supply* 1,399 1,547 1,576 Secondary supply* 2,921 3,135 3,427
+Total combined supply 7,223 7,104 7,031 Total combined supply 9,849 9,724 9,459
+Demand ‘000 oz 2024 2025 2026 Demand ‘000 oz 2024 2025 2026
+Automotive 3,389 3,329 3,226 Automotive 8,329 8,227 7,829
+Jewellery 1,380 1,507 1,349 Jewellery 85 83 82
+Industrial 2,490 2,627 2,656 Industrial 1,424 1,448 1,449
+Investment 523 556 171 Investment 229 382 -115
+Total demand 7,782 8,019 7,402 Total demand 10,067 10,140 9,245
+Movements in stocks -559 -915 -371 Movements in stocks -218 -416 214
+*Secondary supply comprises open-loop recycling from the automotive, *Secondary supply comprises open-loop recycling from the automotive,
+jewellery, electronics and pollution control industries jewellery, electronics and pollution control industries
+Table 1 Platinum supply and demand Table 2 Palladium supply and demand
+Platinum: NYMEX stocks (LHS) Platinum: three-month lease rate (RHS) Source: Johnson Matthey plc; Bloomberg
+800
+600
+400
+200
+0
+Figure 2 Platinum lease rates and NYMEX warehouse stocks
+
+PAGE 7
+During early 2025, the Trump administration imposed Supply ‘000 oz 2024 2025 2026
+increased tariffs on imports from most countries. Although
+South Africa 593 566 557
+PGM sponge and ingot (and some other critical industrial
+inputs) were exempt from these duties, the risk that tariffs Russia 64 68 55
+might in future be applied to precious metals led to a massive
+Others 72 67 69
+influx of platinum into NYMEX warehouses during the first
+quarter, removing liquidity from the European ingot market. Total primary supply 729 701 681
+Secondary supply* 292 312 339
+“2025 saw a remarkable
+Total combined supply 1,021 1,013 1,020
+turnaround in PGM
+market sentiment”
+Demand ‘000 oz 2024 2025 2026
+Automotive 915 899 856
+Tightness in the platinum market was exacerbated by heavy
+Chemical 94 91 88
+platinum exports to China during April and May 2025, mainly
+in response to a surge in jewellery fabrication. This upturn Glass -3 38 38
+was stimulated by high gold prices, which caused retail gold
+Electrical & Other 24 35 23
+jewellery demand to shrink and the cost of holding inventory
+to soar. In response, jewellery makers and distributors took a Total demand 1,030 1,063 1,005
+gamble on platinum, despite a lack of evidence for a revival
+Movements in stocks -9 -50 15
+in retail demand. It is likely that some of this activity had a
+speculative component, and that a portion of the jewellery
+*Secondary supply comprises open-loop recycling from the automotive industry
+manufactured during this period was recycled and returned to
+the market as metal prices rose. We believe that demand for Table 3 Rhodium supply and demand
+investment bars was also unusually strong during this period.
+Trade statistics show that between August and October, more
+The combination of increased metal flows to the USA and
+than 15 tonnes (around 500,000 oz) of platinum was re-
+China led to a dramatic increase in platinum lease rates as the
+exported from Hong Kong back to European trading hubs.
+traditional European trading hubs were drained of liquidity.
+Short-term borrowing rates moved up from 3% in late 2024
+As the year drew to a close, platinum and palladium prices
+to around 10% during the first quarter, before surging above
+embarked on a remarkable rally, driven by the launch of PGM
+20% in mid-year, in the wake of exceptionally strong exports
+futures contracts on the Guangzhou Futures Exchange (GFEX)
+to Hong Kong and China in April and May. US tariff fears had
+in late November. During December, a trading frenzy on GFEX
+temporarily eased by this point, and platinum flowed out of
+lifted platinum by more than $600 to all-time highs of over
+Nymex warehouses and back to Europe during the second
+$2,300. Following the imposition of trading limits by GFEX on
+quarter, but this was not enough to assuage liquidity shortages.
+29th December, intended to curb speculation, platinum eased
+back to end the year at just over $2,000. Meanwhile, palladium
+While prices were slow to respond to increasing signs of
+leapt to highs of over $1,800 and ended 2025 at around $1,600.
+market stress, platinum finally began to react in May,
+breaking through the $1,300 barrier in June and trading
+above $1,450 in July – its highest level since 2014, when “In December, a trading frenzy
+industrial action severely dented South African PGM
+on GFEX lifted platinum
+production. Palladium also posted some gains, tracking
+platinum upwards (although at an increasing discount). to all-time highs”
+Platinum lease rates remained extremely elevated over the
+second half of 2025, and palladium borrowing costs also Just ahead of the GFEX launch, the Chinese government moved
+moved up sharply during this period. A reawakening of US to end a long-standing 13% VAT exemption on platinum sold on
+tariff fears resulted in both platinum and palladium flooding the Shanghai Gold Exchange (which was exclusively imported
+into Nymex warehouses between July and September, and by the state-controlled China Platinum Company). This policy
+probably into industrial inventories as well. PGM prices began shift, implemented in November, resulted in a collapse in
+to climb again, with spot platinum briefly breaching $1,700 the volumes of platinum traded on the SGE (Figure 5). While
+in October, and palladium closing the gap to reach $1,600. SGE volumes have in the past been a good proxy for jewellery
+and industrial purchasing trends in China, this decline was
+High borrowing rates accompanied by steadily improving not reflective of underlying demand, but rather of a shift in
+prices acted to draw excess metal out of China: by the third industrial buying behaviour, with market participants instead
+quarter, the wave of jewellery fabrication had started to fade, purchasing platinum direct from local refiners or overseas
+and excess platinum holdings were being liquidated at a profit. sellers, and some companies purchasing forward on GFEX.
+7 Johnson Matthey PGM market report May 2026
+
+PAGE 8
+The rhodium price also saw strong gains on the back of in chemical industry demand. However, market liquidity has
+firm demand and constrained supply, exacerbated by some been augmented by intermittent large sales from producer
+strategic buying. In early 2025, the price moved up through stocks, particularly in 2021. Since then, although producers have
+$5,000, probably in response to temporarily weak sales from continued to make sporadic sales from their refined inventory,
+South Africa, where first quarter PGM production is often new primary supply has fallen significantly short of demand.
+constrained by scheduled maintenance and stocktakes.
+Rhodium gained momentum during the second half, surging The market deficit widened to nearly 300,000 oz in 2025
+above $7,000 in late July, reaching $8,000 in October, and – representing a shortfall of almost a quarter of annual
+spiking above $9,000 during the final days of December. consumption. Existing market stocks helped satisfy industrial
+requirements, but by mid-2025, signs of increasing market
+tightness were emerging, eventually driving the price to a
+Market overview: ruthenium and iridium
+then all-time record of $1,275 by the year end. We believe
+The gap between mine supply and industrial consumption that this tightness has been exacerbated by strategic
+of ruthenium has been growing in recent years, following buying, especially in China, reflecting ruthenium’s status
+rationalisation and mine closures in South Africa (which as a critical mineral with a geographically limited resource
+accounts for over 85% of global primary supply), and growth base. In addition, Chinese export controls on ruthenium
+8 Johnson Matthey PGM market report May 2026
+smargoliK zo
+rep
+$SU
+Source: Shanghai Gold Exchange;
+Forward buys (LHS) Spot purchases (LHS) Monthly average platinum prices (RHS) Johnson Matthey plc
+10,000 2,500
+8,000 2,000
+6,000 1,500
+4,000 1,000
+2,000 500
+0 0
+J F M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F M
+2023 2024 2025 2026
+Figure 5 Shanghai Gold Exchange: platinum sales volumes
+zo
+rep
+$
+300 3,000
+250 2,500
+200 2,000
+150 1,500
+100 1,000
+50 500
+0 0
+DEC 25 JAN 26 FEB 26 MAR 26
+sennoT
+Platinum price
+Platinum open interest
+Platinum volume
+Source: Guangzhou Futures Exchange; Johnson Matthey plc
+Figure 3 GFEX daily trading volume and price: platinum
+zo
+rep
+$
+300 3,000
+250 2,500
+200 2,000
+150 1,500
+100 1,000
+50 500
+0 0
+DEC 25 JAN 26 FEB 26 MAR 26
+sennoT
+Palladium price
+Palladium open interest
+Palladium volume
+Figure 4 GFEX daily trading volume and price: palladium
+
+PAGE 9
+and ruthenium-containing materials, imposed in February Supply ‘000 oz 2024 2025 2026
+2025, may have intensified shortages in other regions.
+Primary supply 1,125 972 977
+On a pure supply-demand basis, the iridium market has
+been broadly balanced in recent years. However, in 2020 and
+Demand ‘000 oz 2024 2025 2026
+2021, intense interest in the potential for iridium use in the
+hydrogen economy pushed prices dramatically higher. During Chemical 520 567 477
+this period, we believe that market participants acquired metal
+Electrical 365 413 435
+in excess of their immediate requirements as a buffer against
+potential future shortages. (This buying is not included in our Electrochemical 143 135 127
+demand numbers because of the difficulty of allocating it to
+Other 142 150 154
+any specific industrial application; it is instead considered as a
+movement in market stocks). The iridium market is by far the Total demand 1,170 1,265 1,193
+smallest and least liquid of the PGMs, so even relatively modest
+Movements in stocks -45 -293 -216
+additional buying activity can cause significant volatility.
+Table 4 Ruthenium supply and demand
+The 2020–2021 price spike led to some demand destruction; for
+example, Chinese manufacturers of iridium crucibles adopted
+platinum for some crucible formats. At the same time, demand Supply ‘000 oz 2024 2025 2026
+in hydrogen applications has been slower to emerge than initially
+Primary supply 237 229 229
+expected. With users relatively well-stocked, iridium purchasing
+slowed during the 2022–2024 period, leading prices to drift down
+from the 2021 peak of $6,300 to trade either side of $4,500.
+Demand ‘000 oz 2024 2025 2026
+Chemical 37 34 28
+“Ruthenium market tightness was
+Electrical 27 33 33
+exacerbated by strategic buying”
+Electrochemical 94 100 109
+Other 68 69 70
+More recently, industrial demand has been firm, while a new
+wave of strategic buying has emerged, especially in China. Total demand 226 236 240
+This has removed liquidity from the market, even though
+Movements in stocks 11 -7 -11
+iridium remains close to balance from a conventional supply-
+demand perspective. Unlike the other PGM, iridium prices
+Table 5 Iridium supply and demand
+were relatively stable during 2025, but they began to move
+up at the year-end, setting new all-time highs in early 2026.
+refining timescales, this new mine will only contribute to
+South African supplies PGM supplies from 2026. Target output for Phase 1 of the
+Platreef project is around 100,000 oz of PGM annually.
+Platinum supplies from South Africa fell by just under
+5% to 3.96 million oz in 2025, with mine output once
+South African production of the other PGM broadly followed
+again supplemented by the release of work-in-progress
+the same trends as for platinum, with no material changes
+inventory (albeit to a lesser extent than in 2024).
+to the mix of ore mined last year. However, ruthenium
+sales fell by 14%, as a large release of refined inventory
+Underlying mine production of platinum was around 3.86
+in 2024 was not repeated. We believe that producers still
+million oz, down 3%, following extreme rainfall in the first
+have some remaining ruthenium stock, but holdings of this
+quarter which closed parts of Valterra’s Amandelbult mine for
+metal have been much depleted over the past decade.
+several months, and also disrupted mining activities at some
+other operations. In addition, the Bokoni mine (owned by African
+With PGM prices improving dramatically during 2025, the value
+Rainbow Minerals, ARM) ceased mining and milling at its ‘early
+of a typical South African PGM 4E basket (comprising platinum,
+ounce’ project in mid-year, although the company is continuing
+palladium, rhodium and gold) increased from around ZAR
+to work on a feasibility study of a larger-scale reopening in future.
+24,000 per oz in January to over ZAR 40,000 by the year end. In
+addition, producers benefited from unusually elevated ruthenium
+Elsewhere, and with no significant shaft closures or
+and iridium prices, while chrome and copper prices were also
+rationalisations during the year, most mines reported similar
+firm. This has relieved financial pressure on the industry and
+production volumes to the previous year. One new mine started
+allowed producers to reconsider some additional capital projects,
+commercial operations: Ivanplats’ Platreef mine commissioned
+mainly aimed at extending mine life or providing replacement
+its concentrator and sold its first PGM concentrate to Northam
+ounces when older shafts reach the end of their lives. This is
+Platinum during the final quarter. However, given typical
+discussed in more detail in the outlook section on page 19.
+9 Johnson Matthey PGM market report May 2026
+
+PAGE 10
+North American supplies Russian platinum have become increasingly restricted, due
+to market sanctions such as the withdrawal of LPPM Good
+North American supplies dropped sharply in 2025, mainly
+Delivery status and the imposition of import tariffs in some
+due to rationalisation at the large Stillwater mine in Montana,
+markets. Since 2024, virtually all Russian platinum has been
+USA, where PGM output fell by a third. Impala Platinum’s
+exported to the Chinese market, mainly via Hong Kong.
+Canadian operation also contracted, as the company
+prioritised profitability over volumes. The mine was due to
+Russian platinum exports were low in 2022, but it appears
+shut this year, but in November 2025 received a one-year
+that most of the resulting unsold platinum inventory was
+reprieve, and will now operate until mid-2027. A further
+delivered during 2023 and 2024. Trade data suggests
+five-year life extension might be possible, but would require
+that Russian platinum shipments fell last year, and we
+significant investment at the tailings facility, which will
+estimate that sales were close to mine production.
+in turn depend on the outlook for palladium prices.
+PGM supplies from Canadian nickel mining increased slightly in
+2025, mainly due to higher palladium production at Glencore.
+Most of the company’s PGM output comes from the Raglan nickel
+mine in northern Quebec, which mines relatively palladium-
+rich ores. Glencore also mines nickel in the Sudbury area, but
+Palladium sales were also limited in 2022, with the result that
+volumes here have fallen steeply over the past few years, with
+by the end of that year, Norilsk Nickel held significant unsold
+the closure of the Nickel Rim South mine in 2024 and the
+palladium inventory (accumulated both since the Ukraine
+Fraser mine at the end of 2025. The company’s replacement
+invasion, and during Covid-related disruption in 2020). Based
+Onaping Depth project should begin to ramp up this year
+on a reassessment of available data, we now believe that most
+but did not contribute materially to PGM output last year.
+of this stock was sold during the 2023–2025 period, and we
+have revised our Russian supply estimates accordingly.
+Vale, the other large nickel miner in the Sudbury area, reported
+a significant increase in ore volumes last year, but this was not
+Russian palladium has been protected from some market
+reflected in PGM output. Grades in Canadian nickel-copper ores
+sanctions such as import tariffs, because Norilsk Nickel’s
+are very variable, so PGM volumes do not necessarily track ore
+large share of global mine production means it is harder for
+production. In addition, long processing pipelines mean that
+industrial users to find alternative suppliers. Nevertheless,
+PGM mined in one year may not be refined until the next.
+several countries which were formerly large importers of
+Russian palladium (including the UK, Germany, South
+Russian PGM production and sales Korea and Japan) have either significantly cut, or entirely
+ceased, purchases of Russian metal over the last four years.
+PGM production at Norilsk Nickel was little changed last
+As a result, Norilsk Nickel has become more reliant on
+year, at 2.73 million oz of palladium (down 1% versus 2024)
+sales to the Chinese and (until mid-2025) US markets.
+and 667,000 oz of platinum (unchanged). The company
+reported an increase in the share of disseminated ores,
+Shipments of Russian palladium to the USA were particularly
+which typically have lower grades than the rich and cuprous
+strong during the first seven months of last year, in line with a
+ores mined at its underground Talnakh operations.
+general increase in US imports of PGM in response to the risk
+of trade disruption. Then, at the end of July 2025, an anti-
+Johnson Matthey’s Russian supply numbers are based on
+dumping and countervailing duty petition was filed with the
+estimates of sales of Russian PGM into world markets. Since
+US Department of Commerce by Sibanye-Stillwater and the
+the beginning of the Ukraine conflict in 2022, outlets for
+10 Johnson Matthey PGM market report May 2026
+zo
+rep
+RAZ
+4E basket price, ZAR per oz Source: Johnson Matthey plc; Bloomberg
+60,000
+50,000
+40,000
+30,000
+20,000
+10,000
+0
+2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+Figure 6 Value of a typical South African PGM (4E) basket
+“US imports of Russian palladium
+ceased in August 2025”
+
+PAGE 11
+United Steelworkers Union, claiming that the US palladium
+mining industry had been materially injured by imports of
+Russian palladium, which was alleged to be subsidised by the
+Russian government and sold at less than fair value. The risk
+that any penalties could be backdated led to an immediate
+cessation of Russian palladium imports into the USA. Anti-
+dumping duties have been fixed at 133%, while a preliminary
+ruling has set countervailing duties at 109%; this will
+permanently exclude Russian palladium from the US market.
+This development has left Norilsk Nickel significantly more
+dependent upon trade with China. Most Russian palladium
+has traditionally entered the Chinese market via Hong Kong.
+However, starting in mid-2023, material quantities of Russian
+PGM have been imported directly into the Chinese market,
+mainly via ‘entrepots’: bonded zones in which metal can be
+stored duty-free until it is delivered to a customer (at which point
+any relevant taxes are paid) or re-exported. Since September
+2025, there has been a notable increase in this entrepot trade, Since 2022, new car sales in these regions have recovered,
+as Russian palladium which cannot be sold elsewhere is moved but they are still well below 2019 levels. Used car prices
+into China. We assume that most of this metal has been or remain elevated, and this continues to restrict the flow of
+will be sold into the Chinese domestic market; however, it is end-of-life vehicles into scrap yards. Nevertheless, stronger
+difficult to ascertain the precise time of sale, or whether there prices for scrap steel and PGMs helped stimulate a modest
+has been an accumulation of stocks of unsold metal in China. upturn in the number of vehicles entering scrap yards during
+2025, especially in North America and Europe. In contrast,
+the number of vehicles scrapped in Japan continued to
+Secondary supplies
+fall last year, with many older vehicles being exported to
+Secondary PGM supply again benefited from strong growth in developing markets rather than being recycled. Overall,
+the relatively new autocatalyst recycling market in China, where we estimate that the recovery of PGM from autocatalyst
+scrap volumes have been galvanised by government incentives scrap collected outside China increased by 4% last year.
+aimed at encouraging consumers to scrap older, more polluting
+vehicles. In 2025, this scheme was extended for another year Recovery of platinum from jewellery scrap rose sharply in
+and widened to include vehicles registered before June 2012 2025, reflecting a significant increase in recycling in China.
+meeting China 4 (or earlier) emissions standards. This helped to Fabrication demand increased strongly last year, particularly
+lift the number of Chinese vehicles being recycled by around a during the second quarter, but retail purchasing remained
+quarter in 2025. In addition, rising PGM prices encouraged the lacklustre. As a result, some excess jewellery stock was melted
+release of some spent catalyst material that had been hoarded by down and the metal returned to the market. The Chinese
+small-scale collectors at the bottom of the recycling supply chain. jewellery market is discussed in more detail on page 14.
+Outside China, there was a modest recovery in 2025, reflecting
+Auto production and PGM demand
+some improvement in underlying vehicle scrappage rates
+along with price-related dishoarding of material that had been PGM consumption by automakers saw only a small overall
+held up at different points in the recycling supply chain. change in 2025, falling around 180,000 oz or 1.4%. Demand
+was supported by increased PGM use in the Chinese heavy-duty
+sector, where vehicle production rose by a remarkable 20%, and
+on light vehicles in the Rest of World region, reflecting strong
+growth at domestic Indian automakers. This was offset by a
+further contraction in the European light-duty diesel market, a
+large fall in heavy vehicle output in North America, and ongoing
+thrifting of PGM loadings on light duty gasoline vehicles in China.
+Recycling volumes in the mature auto markets of Europe,
+At the time of our May 2025 report, industry forecasters
+North America and Japan were unusually weak in 2023–2024,
+expected increased tariffs on vehicles, automotive parts
+reflecting a shortfall in the number of end-of-life vehicles
+and raw materials to result in a decline in global light
+reaching scrap yards. This was a consequence of low vehicle
+vehicle production volumes. Ultimately, output grew by
+sales in the aftermath of the Covid pandemic, which drastically
+nearly 4% last year, despite increased trade friction.
+reduced the flow of one-to-three-year-old vehicles onto
+the second-hand market, and led to significant increases in
+Virtually all this growth came from China: domestic sales
+used car prices. This encouraged owners to keep vehicles
+were buoyed by the extension of a vehicle trade-in subsidy
+on the road for significantly longer than in the past.
+programme, while car exports rose by over 20% to more than
+11 Johnson Matthey PGM market report May 2026
+stinu
+noilliM
+Japan
+North America
+Europe Source: S&P Global Mobility LV Sales Forecast
+50
+-9.4 million units
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+2019 2020 2021 2022 2023 2024 2025
+Figure 7 Light vehicle sales in mature auto markets, 2019–2025
+“Chinese auto recycling
+was galvanised by
+government incentives”
+
+PAGE 12
+6 million units. In total, China produced nearly 32 million These factors have enabled Chinese OEMs to make significant
+light duty vehicles in 2025, up 10%. Other markets saw much cuts in the PGM content of their vehicles over the past five
+more limited changes, with Japan and the Rest of World region years, such that catalyst loadings at domestic automakers are
+recording a 2% increase in light vehicle output, European now significantly lower than those used by international joint
+production flat, and North America seeing a marginal decline. ventures in China (which tend to have a more conservative, risk
+averse approach to catalyst fitment) and by car companies in
+Battery electric vehicles accounted for most of last year’s gains, other regions. The PGM content of Chinese vehicles destined for
+with a very strong performance by Chinese BEV producers domestic sale is often significantly lower than on export models,
+in both their domestic and export markets. Chinese light especially those meeting Euro 6 and equivalent legislation.
+duty BEV output rose by a third to over 10 million units,
+accounting for nearly 70% of the global total. However, there European loadings have also seen some marginal thrifting
+was also a modest increase in ICE vehicle volumes in China, over the past two years, as OEMs have become more
+with gasoline car output up by around 450k units (+2%). comfortable with the demands of stringent RDE testing.
+We believe that a significant proportion of these additional In contrast, the PGM content of North American vehicles
+vehicles were inexpensive models destined for export markets. continued to creep higher in 2025, as the phase-in of
+There was also further growth in production of plug-in hybrid Federal Tier 3 emissions standards was completed.
+ICE models, for both the domestic market and for export.
+In the heavy vehicle sector, vehicle production trends saw large
+regional variations in 2025. North American output plunged
+by 28%, with freight volumes depressed, OEMs carrying excess
+inventory, and truck prices inflated by tariffs that raised the costs
+of parts and materials. Uncertainty over the timing and content
+of future emissions legislation also hindered new truck sales,
+Elsewhere, some other Asian markets – particularly India – also with expected pre-buying ahead of tighter federal regulations
+saw increases in gasoline car volumes, with the result that global in 2027 failing to materialise. As a result, PGM use on North
+light gasoline production actually rose slightly last year, to 68.7m American HD vehicles dropped by more than a quarter.
+units, matching the post-Covid peak seen in 2023. However, the
+light diesel segment, dominated by Europe and India, continued In contrast, Chinese truck production surged by 20%, in response
+to shed market share, with world production falling a further 5%. to a widening of eligibility conditions for trade-in subsidies, with
+China IV diesel trucks (sold between 2010 and 2016) qualifying
+Global average PGM loadings on light gasoline vehicles declined for the incentives in 2025. The battery electric segment captured
+marginally in 2025, reflecting some further thrifting along with most of the resulting gains, recording year-on-year growth of
+changes in regional and model mix. In China, PGM loadings 83%, but there was also a significant increase in production of
+have been reduced aggressively in recent years, particularly by heavy vehicles with diesel (+9%) and CNG (+24%) powertrains.
+domestic OEMs, despite the implementation of China 6b with
+real-driving emissions (RDE) testing. While China 6b requires As a result, PGM consumption on Chinese trucks and buses
+vehicles to meet very strict emissions limits during laboratory saw a double-digit increase in 2025 and accounted for nearly
+homologation, RDE testing has comparatively lenient ‘conformity 20% of total Chinese auto demand. This is a much higher share
+factors’ and does not apply to the cold start portion of the than in other regions, where the heavy-duty sector typically
+drive cycle. In addition, Chinese car companies typically use accounts for 5–10% of PGM use. Not only do heavy vehicles
+relatively mild catalyst ageing cycles during durability testing. account for a larger share of total vehicle production in China
+than in other major markets (7%, versus 3–4% in North America
+and Europe), but the Chinese fleet also includes a significant
+number of vehicles with CNG powertrains. These typically have
+heavier catalyst loadings than equivalent diesel-powered trucks.
+Industrial PGM demand
+Since the mid-2010s, Chinese industrial policy has been an
+important driver of industrial PGM demand. The ‘Made in China
+2025’ programme, launched as part of the Thirteenth Five-Year
+Plan (2016–2020), has stimulated heavy investment to improve
+Chinese self-sufficiency in core industrial feedstocks and materials,
+along with the modernisation of the country’s industrial base. This
+has contributed to robust PGM demand in industrial applications
+over the past decade, with China’s share of industrial demand
+rising from around 25% in 2016 to a peak of 40% in 2024.
+The main drivers of Chinese PGM demand have been the
+chemical and glass industries. In recent years, China has
+12 Johnson Matthey PGM market report May 2026
+selcihev
+noilliM
+“World gasoline vehicle output
+set a post-Covid high”
+Rest of World
+China Japan Source: S&P Global Mobility,
+Powertrain Production Forecast,
+North America Europe February 2026
+70
+60
+50
+40
+30
+20
+10
+0
+2020 2021 2022 2023 2024 2025 2026
+Figure 8 World light-duty gasoline vehicle production
+
+PAGE 13
+accounted for more than 50% of total global demand in negative demand. Some Chinese glassmakers now use pure
+the chemicals sector, with heavy investment in integrated platinum equipment to produce the most common grades of
+petrochemical complexes that produce a variety of fibreglass, but rhodium remains essential for some types of
+important chemical feedstocks. Many of these processes specialist glass fibre, as well as for display glass production.
+use PGM catalysts, including paraxylene (platinum), PTA
+(palladium), acetic acid (rhodium or ruthenium-iridium), Lower platinum purchasing by the glass industry resulted
+and caprolactam (ruthenium). In 2025, purchasing of PGM in a fall in total Chinese industrial PGM demand last year,
+by the Chinese chemical industry reached an all-time high with China’s share of the global total falling to a six-year
+of nearly 1 million oz, driven by firm demand in most major low of 36%. However, this decline was more than offset
+PGM-catalysed processes, and above all by record demand by growth in industrial consumption elsewhere, especially
+for ruthenium catalysts used to produce caprolactam Japan and the Rest of World region. These gains were led
+and adipic acid, precursors for nylon production. by the display glass sector, which saw a return to positive
+demand following a period of rationalisation, and by the
+electronics industry, which has been enjoying a robust
+“Data centre construction
+recovery from the post-Covid lows seen in 2022–2023.
+lifted PGM use in hard disks” Electronics demand continues to be concentrated outside
+of China, in particular in the Rest of World region.
+Over the past ten years, China has become by far the All the PGM see material use in the electronics industry,
+world’s largest producer of both fibreglass and display glass, particularly in hard disks (platinum and ruthenium), in
+both of which require production equipment made from passive electronic components such as capacitors and
+platinum alloys. Capacity expansions in these sectors have resistors (palladium and ruthenium), in the plating of
+resulted in heavy buying of platinum by the Chinese glass connectors and lead-frames (mainly palladium, with some
+industry, particularly since 2021. This period of investment platinum), in crucibles for growing single crystals used
+coincided with concerted efforts by Chinese fibreglass in telecommunications and other applications (mainly
+manufacturers to reduce their rhodium use (by increasing iridium, with some platinum), and in thermocouples used in
+the platinum content of glassmaking alloys), contributing to semiconductor production (platinum and rhodium). Since
+strong platinum demand in 2022–2024. Surplus rhodium 2024, consumption of PGM in electronics has returned to
+stocks were sold back to the market during this period. growth, due to a recovery in the consumer electronics and
+automotive sectors (the latter boosted by the increased
+By last year, the wave of expansion in Chinese fibreglass electronic content of BEVs and hybrid vehicles), and more
+and display glass capacity was starting to fade, while some recently in response to a boom in hard disk demand, associated
+pre-buying of platinum during 2024 also reduced new with the construction of data centres to meet the storage
+metal requirements. As a result, purchases of platinum by requirements of artificial intelligence software. Total PGM
+Chinese glassmakers halved last year. However, with rhodium use in electrical and electronics applications rose by around
+thrifting in fibreglass equipment approaching its technical 100,000 oz (+8%) to reach 1.25 million oz in 2025.
+limits, and excess metal stocks largely liquidated, there
+was a return to net rhodium purchasing after four years of
+13 Johnson Matthey PGM market report May 2026
+snoilliM
+Rest of World
+China Japan
+North America Europe
+5
+4
+3
+2
+1
+0
+2022 2023 2024 2025 2026
+Source: KGP-GlobalData Commercial Vehicle Powertrain Forecast Q4 2025 (GVW >6 tonnes) and S&P Global Mobility, Powertrain Production Forecast,
+February 2026 (GVW 3.5–6 tonnes).
+Figure 9 World heavy-duty vehicle production by region
+selcihev
+000‘
+HD Diesel
+HD Gasoline HD BEV
+HD CNG HD FCEV
+2,500
+2,000
+1,500
+1,000
+500
+0
+2022 2023 2024 2025 2026
+Figure 10 China: heavy-duty vehicle production by powertrain
+
+PAGE 14
+Jewellery demand increase in the number of marriages, but the fashion sector
+hit by high metal costs and reduced fabricator margins.
+Global platinum jewellery fabrication climbed by 8% to reach
+1.61 million oz in 2025, the highest level in five years. During
+In the developing Indian market for platinum jewellery,
+the first half, there was a surge in platinum jewellery fabrication
+fabrication demand increased by 5%. The domestic market saw
+in China, as a sustained rise in the gold price hit consumer
+double-digit sales growth, propelled by high gold prices and
+purchasing while greatly increasing the cost of holding gold
+an expansion in the number of stores stocking platinum items.
+jewellery inventory. This encouraged retailers to rotate some gold
+However, export manufacturing volumes declined by around a
+stock into platinum, which in turn stimulated a surge in platinum
+third, as shipments to the US dried up due to high import duties.
+jewellery fabrication, particularly during the second quarter.
+However, better availability of platinum jewellery at retail outlets Investment demand
+failed to translate into stronger consumer demand. As a result,
+Last year was another very strong year for PGM investment,
+the increase in fabrication was very short-lived. During the final
+with positive ETF investment in platinum, palladium and
+quarter of 2025, platinum jewellery manufacturing activity
+rhodium, combined with significant over-the-counter
+slumped, while it appears that some newly fabricated jewellery
+purchasing of platinum bars, especially in China.
+was melted down and the metal sold into industrial applications
+at a profit (reflected in our jewellery recycling numbers).
+Improving sentiment and rising prices boosted ETF purchasing
+during 2025. Investors added nearly 200,000 oz to their
+platinum holdings during the second quarter, as prices broke
+through the $1,100 level and climbed steadily towards $1,300
+– an eleven-year high. This was followed by heavy selling in
+mid-year, probably representing liquidation by longer-term
+investors who had had few profit-taking opportunities in recent
+Demand in Europe also benefited from high gold prices, with
+years. Sustained buying returned during the final quarter,
+platinum jewellery taking share from white and yellow gold.
+especially during periods of sharply rising price in October
+In the UK (the largest European market for platinum bridal
+and December. At the year end, more than 3.3 million oz of
+jewellery), there was an increase of 12% in the number of
+platinum were held in ETFs globally, up around 100,000 oz.
+platinum items hallmarked last year, while fabrication of
+platinum watches in Switzerland also increased by 11%.
+Interest in palladium ETFs has been low in recent years:
+holdings hovered around the 500,000 oz level between 2020
+In contrast, North American demand was flat: although platinum
+and early 2024, at which point ‘value’ investors began to enter
+gained market share from white gold in the bridal sector, the
+the market. Since then, ETF holdings have risen steadily, largely
+fashion jewellery sector came under pressure from fragile
+in line with price movements. During 2025, palladium saw
+consumer confidence, increased economic uncertainty and
+three distinct phases of ETF purchasing: in June–July (when
+high metal prices. The Japanese platinum jewellery industry
+prices climbed steadily from below $1,000 to reach $1,300),
+saw similar trends, with bridal demand supported by an
+in September–October (as palladium moved abruptly towards
+14 Johnson Matthey PGM market report May 2026
+zo
+rep
+$SU
+6,000
+5,000
+4,000
+3,000
+2,000
+1,000
+0
+52
+NAJ
+52
+BEF
+52
+RAM
+52
+RPA
+52
+YAM
+52
+NUJ
+52
+LUJ
+52
+GUA
+52
+PES
+52
+TCO
+52
+VON
+52
+CED
+62
+NAJ
+62
+BEF
+62
+RAM
+“Chinese jewellery retailers rotated
+gold stock into platinum”
+Platinum Gold Source: Bloomberg
+Figure 11 Platinum and gold prices, January 2025 to March 2026
+
+PAGE 15
+and then through the $1,500 level) and finally in December From July onwards, typical Japanese investment patterns
+(during the year-end rally which saw palladium set a two- were upended. Net large bar investment was positive in
+year high of over $1,800). As the year closed, palladium ETF most months, despite exceptionally strong gains in the local
+holdings totalled 1.14 million oz, the highest since early 2015. platinum price, which moved through ¥8,000 per gram
+in September, ¥9,000 in November and peaked at a then
+Rhodium ETFs have seen little activity in recent years. all-time high of over ¥13,000 in late December. Overall,
+However, during 2025, South African investors added Japanese large bar investment was moderately positive in
+modestly to their ETF positions, lifting total rhodium holdings 2025, despite dramatic price movements and record prices.
+to around 22,000 oz, the highest for more than five years.
+In recent years, a market for large (usually between one and
+Demand for large platinum bars in Japan was also positive, five kilogram) investment bars has also emerged in China.
+despite high prices, which would normally have been expected These bars are produced locally by Chinese fabricators and sold
+to result in net liquidation. Historically, platinum investment in to wealthy private individuals. Demand has grown materially
+Japan has been strongest during periods of falling price, while over the past 2–3 years, with platinum bars viewed as a
+investors have returned metal to the market during rallies. diversification opportunity, in the context of weak performance
+Activity tends to be particularly pronounced when prices move in the domestic stock and real estate markets, and restrictions
+sharply higher or lower. This has been a consistent feature of on overseas investments. Gains in the gold price have reinforced
+the Japanese large bar market for many years, although over investor interest in these products, with platinum seen as
+the long term, new investment has exceeded liquidation. underpriced in view of its widening discount to gold.
+Until 2025, demand for small investment bars and coins in
+China was mainly limited to platinum ‘Panda’ coins, issued
+most years by the Chinese Mint. However, during 2025, rising
+precious metal prices triggered a surge of interest in small
+(10 gram to 100 gram) platinum bars and wafers among
+Platinum bar purchases by Japanese investors continued to retail investors. Sales of these bars usually take place online
+follow this typical pattern during the first half of 2025. There via e-commerce platforms, with bars fabricated only after
+was modest net investment between January and April, as orders are placed. Margins are higher than on traditional
+retail platinum prices drifted down towards ¥5,000 per gram, large bars, so growth in demand during 2025 attracted a
+followed by active disinvestment during May and June, when significant number of new entrants to this market. Purchasing
+prices moved decisively higher, breaking through the ¥7,000 of small bars was particularly strong during the second
+level for the first time since 2008. However, net liquidation was quarter, but demand remained positive throughout the
+smaller than had been seen during rallies in previous years – second half, despite significant increases in the platinum price
+suggesting that while longer-term holders were taking profits, that stimulated some sales of metal back to the market.
+new investors were simultaneously entering the market.
+15 Johnson Matthey PGM market report May 2026
+52
+NAJ
+52
+BEF
+52
+RAM
+52
+RPA
+52
+YAM
+52
+NUJ
+52
+LUJ
+52
+GUA
+52
+PES
+52
+TCO
+52
+VON
+52
+CED
+62
+NAJ
+62
+BEF
+62
+RAM
+1.3
+1.2
+1.1
+1.0
+0.9
+0.8
+0.7
+0.6
+munitalp
+zo
+noilliM
+muidallap
+zo
+noilliM
+Platinum (LHS) Palladium (RHS) Source: Bloomberg
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+2.9
+2.8
+Figure 12 Platinum and palladium ETF holdings
+“Chinese investors bought platinum
+bars via e-commerce sites”
+
+PAGE 16
+PGM outlook
+Supply and demand in 2026
+Platinum will be in deficit again, but palladium The near-term outlook for PGM demand is particularly
+and rhodium could move into surplus uncertain, due to conflict in the Middle East, unresolved
+questions over US trade policy, and increasing resource
+nationalism. Our forecast shows demand for all the PGM
+Strong PGM prices are supporting a
+except iridium contracting in 2026. Lower global output of
+recovery in autocatalyst recycling
+ICE vehicles will hit automotive PGM use, while jewellery
+and investment demand could also weaken this year.
+Primary supply is forecast to contract, Ruthenium chemicals demand will fall, but industrial PGM
+due to lower Russian shipments consumption will otherwise be broadly stable, albeit with
+some downside risk due to disruption to petrochemical
+shipments. Mine production is expected to drop, especially
+Autocatalyst PGM demand is set to fall,
+in Russia, but double-digit growth in autocatalyst recycling
+in line with lower ICE vehicle output
+will boost secondary supplies. Prices for platinum, palladium
+and rhodium set multi-year highs in January 2026, before
+Ruthenium chemicals demand will fall, but the moving sharply lower during March, as markets reacted to
+other PGM will see stable industrial consumption high oil prices and a deteriorating world economic outlook.
+Middle East conflict has created downside PGM market outlook
+risk to demand in auto and chemicals
+Primary supplies of PGM are forecast to fall this year, in the wake
+of strong Russian shipments and higher-than-expected South
+Platinum set an all-time high of $2,860 African sales in 2025. The decline in primary palladium supply
+in January, but retreated below $2,000 could be particularly significant, with output at Norilsk Nickel
+in March due to Iran war concerns set to decline by as much as 10%, and Russian inventories of
+refined metal thought to have been depleted over the past 3
+years. Platinum and rhodium supply will see much smaller drops,
+in line with modestly lower refined output in South Africa.
+“Platinum set a record high
+of $2,860 in January”
+2020 2021 2022 2023 2024 2025 2026
+16 Johnson Matthey PGM market report May 2026
+selcihev
+noilliM
+zo
+noilliM
+Source: S&P Global Mobility, Powertrain Production
+LDG LDD BEV Total PGM demand Forecast, February 2026; Johnson Matthey plc
+100 14
+90 13
+80 12
+70 11
+60 10
+50 9
+40 8
+30 7
+20 6
+10 5
+0 4
+Figure 13 PGM demand & light vehicle powertrain split
+
+PAGE 17
+9,000 1,800
+8,000 1,600
+7,000 1,400
+6,000 1,200
+5,000 1,000
+4,000 800
+3,000 600
+2,000 400
+1,000 200
+0 0
+In contrast, secondary supplies are forecast to rise by around likely to have near-term consequences for PGM use in the
+8%, with a gradual improvement in underlying vehicle petrochemical sector. There is also a wider risk to industrial
+scrappage rates in mature markets, combined with some demand, due to potential impacts on supply chains, along
+dishoarding in the recycling supply chain, stimulated by high with higher costs and weaker consumer demand.
+PGM prices. In China, a vehicle trade-in incentive scheme
+has been renewed for another year and should continue to Jewellery fabrication demand will be depressed this year by
+support growth in recycling volumes. Overall, we expect surplus stocks in the Chinese jewellery distribution chain, a
+combined primary and secondary palladium supplies to fall hangover from the mid-2025 surge in jewellery fabrication.
+by around 3%, while those of platinum and rhodium (less While some of last year’s excess inventory has already
+impacted by changes in Russian sales) will be broadly flat. been melted down and returned to the market, retailers
+are well-stocked with platinum jewellery, and consumer
+demand remains lacklustre. As a result, Chinese fabrication
+volumes are forecast to contract sharply this year.
+Prices and market balance
+Automotive PGM consumption is predicted to fall by around PGM prices saw further dramatic movements during the
+4% in 2026, broadly in line with the outlook for global ICE first quarter of 2026. Platinum and palladium surged
+vehicle production. We do not anticipate any material change during January, peaking at over $2,800 and $2,100
+in the average PGM content of light duty vehicles: although respectively. This represented a new all-time high for
+European PGM loadings will rise modestly this year, with Euro platinum. However, prices subsequently slid lower, amid
+7 regulations being enforced on new models starting in late growing concerns over the world economy – especially
+November, this will be offset by thrifting in countries where after the outbreak of war in Iran in March. With US dollar
+there is no near-term change in emissions legislation. strength exacerbating the sell-off, platinum and palladium
+descended below year-opening levels, falling to $1,908 and
+Recent years have seen auto industry production $1,448, respectively, at the end of March. Reflecting these
+forecasts being adjusted progressively upwards over the price movements, platinum ETFs shed around 260,000
+course of the year, so there may be some upside to our oz during the first quarter, while palladium ETFs saw
+automotive PGM demand estimates. However, conflict about 100,000 oz of liquidation. While we still allow for
+in the Middle East and revived uncertainty over global positive demand for small and large platinum investment
+trade will act as headwinds for the auto market this year. bars (especially in China), it remains to be seen how
+It is also possible that high gasoline and diesel prices investors will respond to a less bullish price environment.
+could boost BEV sales, at the expense of ICE vehicles.
+Minor PGM prices were more robust during the first quarter.
+Industrial PGM demand is forecast to be relatively firm this The rhodium price peaked at a three-year high of $12,000 in
+year. However, our 2026 estimates do not yet capture any late February and remained above end-2025 levels throughout
+downside risk due to military conflict in Iran. Damage to oil March, despite a retreat towards $10,000. Iridium and
+and gas installations in the region, combined with significant ruthenium both saw strong gains during the first quarter,
+impacts on shipping through the Strait of Hormuz, are hitting new all-time highs of $8,000 and $1,750, respectively.
+17 Johnson Matthey PGM market report May 2026
+zo
+rep
+$SU
+muidirI
+1002 2002 3002 4002 5002 6002 7002 8002 9002 0102 1102 2102 3102 4102 5102 6102 7102 8102 9102 0202 1202 2202 3202 4202 5202 6202
+zo
+rep
+$SU
+muinehtuR
+Iridium (LHS) Ruthenium (RHS) Source: Johnson Matthey plc
+Figure 14 Monthly average ruthenium and iridium prices
+“Iridium and ruthenium prices
+hit new all-time records”
+
+PAGE 18
+Platinum market balance
+Platinum is forecast to remain in deficit this year. Combined
+primary and secondary supplies are set to contract, with
+moderate growth in autocatalyst recoveries outweighed by
+lower jewellery recycling and weaker mine supply from South
+Africa. On the demand front, platinum has a broader base of
+applications than the other PGM, making it less vulnerable
+to downturns in any single sector. Disruption to oil supplies
+could dent petroleum refining and chemicals demand, while
+high fuel prices represent a downside risk to ICE vehicle
+output, but combined automotive and industrial consumption
+should nevertheless remain robust by historical standards.
+In contrast, platinum demand in the jewellery and
+investment sectors could see a double-digit decline this
+year, following strong purchasing in 2025. Platinum
+jewellery manufacturing in China surged in mid-
+2025, as retailers swapped gold inventory for cheaper
+platinum, but a hoped-for improvement in consumer
+purchasing failed to materialise. Fabrication volumes are
+inflationary pressures could result in tighter monetary policy;
+expected to fall this year, as inventories normalise.
+this would be negative for precious metal ETFs. In contrast,
+investment demand in China appears to be robust, with
+Platinum investment demand could also weaken materially
+platinum enjoying a rising profile among investors and sales
+this year. Some 260,000 oz of platinum ETF holdings were
+of small bars to retail investors seeing double-digit growth
+liquidated during the first quarter, as the price subsided
+in early 2026. This is a new and evolving market, in which
+from the late January high of over $2,800. Interest rates
+investor behaviour is difficult to predict, and which could
+had been expected to fall this year, but a resurgence of
+materially impact the magnitude of the deficit this year.
+Palladium market balance
+Demand for palladium is forecast to decline by 9% this
+year, with automotive use shrinking in line with a drop in
+ICE vehicle production, industrial consumption flat, and
+investment turning negative. Supplies are also expected to
+fall, as a sharp drop in Russian shipments more than offsets
+growth in autocatalyst recycling, but this may not be enough
+to prevent palladium from moving into a small surplus.
+The auto sector accounts for more than 80% of palladium
+demand, so any downside risks to vehicle production are
+particularly significant for the overall market balance. Our
+forecast of automotive palladium use was based on data
+available at the end of the first quarter, which does not yet
+capture likely Iran war impacts. Production and sales of
+vehicles in the Middle East will see the heaviest losses, but
+high fuel prices and fears of future shortages could affect
+the volume and powertrain mix of vehicle sales elsewhere.
+Investment demand will remain an important swing
+there is clearly some scope for a recovery in investment
+factor, with potential to influence market balance in both
+demand, but there is also a risk of further selling, especially
+directions. During February and March, the palladium
+if lower ICE vehicle sales dent investor confidence, or if
+price declined by more than 30% from the late January
+rising inflation puts upward pressure on interest rates.
+high of over $2,100; this triggered around 100,000 oz of
+net liquidation in palladium ETFs. At this stage in the year,
+18 Johnson Matthey PGM market report May 2026
+zo
+000'
+Movement in platinum stocks
+1,500
+1,000
+500
+0
+-500
+-1,000
+2021 2022 2023 2024 2025 2026
+Figure 15 Platinum market balance
+zo
+000'
+Movement in palladium stocks
+400
+200
+0
+-200
+-400
+-600
+-800
+2021 2022 2023 2024 2025 2026
+Figure 16 Palladium market balance
+
+PAGE 19
+Even before allowing for the potential impact of geopolitical mining and milling activities were temporarily halted in mid-
+conflict on industrial and automotive demand, it is likely that 2025. Northam is proceeding with a tailings expansion at its
+the three autocatalyst PGM will move closer to balance in 2026. Booysendal mine, which could facilitate increased production
+Although we still anticipate a deficit in platinum, we expect the volumes in future if PGM prices remain favourable, and has
+gap between supply and demand to close, reflecting lower ICE started work on a fourth shaft at Zondereinde. At Valterra,
+vehicle production, reduced physical investment, and a sharp work on the underground Sandsloot mine at Mogalakwena is
+fall in jewellery fabrication in China. Meanwhile, palladium progressing, with an investment decision due in the first half
+and rhodium – which are more exposed to falling ICE vehicle of 2027. Outside South Africa, Implats has also announced a
+production – are both forecast to move into a small surplus. one-year life extension at Impala Canada and is considering a
+tailings project which could allow another five years of operation.
+Ruthenium and iridium will remain in deficit. The shortfall
+in iridium will be modest, with supply unchanged, and
+demand forecast to increase moderately, as green hydrogen
+projects get underway in Europe. However, ruthenium
+looks set to remain in deep structural deficit, despite lower
+consumption in chemical catalysts. Any additional strategic
+buying, above and beyond current industrial requirements, Most of these projects are intended to replace or extend the life
+would further reduce liquidity in these markets. of existing mines, thereby limiting future declines in production,
+rather than expanding output. However, given a more positive
+price environment and adequate capital spending, we believe
+Primary supply outlook
+that South African PGM production could be maintained
+We expect a modest decline in South African PGM supplies at close to current levels until at least the early 2030s.
+this year, reflecting a smaller benefit from the release of work-
+in-progress than in 2024 and 2025, and a limited contraction Russian supplies are forecast to fall sharply this year. As shown
+in underlying mine production volumes. Company guidance in Figure 17, average grades in the ore mined at Norilsk-
+suggests that output will fall at Sibanye-Stillwater’s western Talnakh have fallen steadily over the past two decades, but PGM
+Bushveld operations, but this will be partly offset by gains at volumes have been supported by a combination of increases
+other producers, including a recovery at Valterra’s Amandelbult in ore production, and the treatment of historic PGM-bearing
+operation (affected by flooding last year), along with additional materials. However, this year, PGM production at Norilsk
+production from projects currently in the ramp-up phase, such Nickel is set to drop steeply, which the company attributes
+as Ivanplats’ Platreef project and Northam’s Eland mine. to a temporary change in the mining mix in favour of lower-
+grade ores. According to guidance, palladium output will be
+Higher prices are starting to filter through into mine planning. in a range of 2.42–2.47 million oz, which would represent
+Both Impala Platinum and Sibanye-Stillwater have a number of a decline of 10–11% compared with 2025, and would be
+life-extension projects at various stages of development, intended the lowest total since at least 2005 (the first year in which
+to bolster life-of-mine at their large western Bushveld operations. Norilsk Nickel was permitted to report PGM production data).
+In addition, Implats (with its JV partner ARM) may consider a Platinum output is expected to fall by between 5% and 8%.
+restart at the mothballed Merensky Reef expansion project at the
+Two Rivers mine on the eastern Bushveld. ARM is also continuing Our forecast does not allow for any further shipments of
+with underground development at its Bokoni mine, although palladium from refined stocks, and we therefore show a
+19 Johnson Matthey PGM market report May 2026
+zo
+000‘
+ennot
+rep
+smarg
+,edarg
+MGP
+5,000 10
+4,500 9
+4,000 8
+3,500 7
+3,000 6
+2,500 5
+2,000 4
+1,500 3
+1,000 2
+500 1
+0 0
+5002 6002 7002 8002 9002 0102 1102 2102 3102 4102 5102 6102 7102 8102 9102 0202 1202 2202 3202 4202 5202 6202
+“Palladium and rhodium could
+move into a small surplus”
+Platinum
+Palladium
+Reported average PGM grade Source: Norilsk Nickel annual reporting; 2026 PGM production forecast is the mid-point of Norilsk Nickel guidance
+Figure 17 Norilsk Nickel PGM production history and average ore grade
+
+PAGE 20
+Rhodium market balance
+We expect rhodium to move into a small surplus
+in 2026. However, liquidity remained tight during
+the first quarter, the result of strong purchasing
+by consumers and other market participants.
+Mine supplies are predicted to fall by around 3% this
+year, with lower shipments from both South Africa and
+Russia. Offsetting this, we expect a further recovery
+in global autocatalyst recycling, leaving combined
+primary and secondary supplies virtually flat. On the
+demand side, automotive consumption will fall by
+around 5%, in line with expected trends in ICE vehicle
+production, while purchases by glassmakers are
+expected to be stable. Our forecast of total demand,
+at just over 1 million oz, represents a ten-year low.
+Rhodium is particularly exposed to demand from the
+auto industry, which in the last ten years has accounted
+for between 85% and 95% of annual consumption.
+has been highly variable in recent years. Between
+Any downward pressure on ICE vehicle production, as a
+2023 and 2025, demand rose by 60,000 oz, as the
+result of high fuel prices and shortages, would therefore
+rhodium content of glass fibre alloys stabilised, following
+have an outsized impact on the rhodium market,
+significant reductions during 2020–2022. We do not
+potentially tipping it into a more substantial surplus.
+expect any significant change in average rhodium
+content this year, but there may now be some upside,
+While the glass sector rarely accounts for more than
+as producers add capacity for specialist e-glass fibre.
+10% of annual rhodium use, purchasing by this industry
+significant decline in Russian supplies in 2026: down 17% Secondary supply outlook
+for palladium and 3% for platinum. We think that Norilsk
+A recovery in the world autoscrap market is forecast to accelerate
+Nickel has liquidated most of its palladium inventory in
+in 2026. Outside China, most market participants have reported
+the past three years. If our assumption is correct, this will
+a positive start to the year, with increased activity at scrapyards,
+result in a material fall in global primary palladium supply
+and high prices helping to accelerate the movement of PGM
+in 2026, helping to limit the move into market surplus.
+through the recycling supply chain. At the time of writing, it
+was difficult to assess how much of the improvement reported
+Beyond 2026, Norilsk Nickel has several projects underway
+by collectors is due to dishoarding, how much to changes in
+that should support or increase PGM output, including an
+market share (following consolidation in the industry last year)
+expansion at its Talnakh concentrator, a deepening of its
+and how much to organic growth in scrap volumes. Our forecast
+Skalisty underground mine, and completion of the South
+is conservative: used car prices remain high, and available
+Cluster open-cast project. The company is also expected to
+data suggests that the average age of vehicles when they enter
+process PGM from the neighbouring Chernogorsky mining
+scrap yards is still rising. In addition, conflict in the Middle East
+project, where concentrator commissioning is expected to
+means that there is some downside risk to auto sales this year,
+take place by end of 2026. At full production, this project
+which could in turn be negative for vehicle scrappage rates.
+could produce up to 500,000 oz of palladium annually.
+North American palladium supply is expected to fall this year.
+Production at the Stillwater mine in Montana, USA, is planned
+to be stable, while output at Impala Canada’s Lac des Iles
+mine will decline as it nears the end of its life (it is currently
+expected to close in mid-2027). This will be only partly offset by
+In China, we expect further double-digit gains in autocatalyst
+additional PGM production from the Sudbury nickel operations,
+recycling volumes, although the rate of growth will slow
+where Vale is expanding mining volumes, and development
+somewhat compared to 2025. Trade-in incentive programmes
+of Glencore’s new Onaping Depth project will be completed
+have been extended for a further year, but subsidies are now
+this year. In contrast, North American platinum supplies
+based on a percentage of the new vehicle’s price (versus a fixed
+should rise slightly, reflecting higher platinum-to-palladium
+amount previously), which is significantly less favourable for
+ratios in Sudbury ores than at Stillwater or Impala Canada.
+buyers of entry-level vehicles. In addition, the purchase tax
+20 Johnson Matthey PGM market report May 2026
+zo
+000'
+Movement in rhodium stocks
+120
+100
+80
+60
+40
+20
+0
+-20
+-40
+-60
+-80
+2021 2022 2023 2024 2025 2026
+Figure 18 Rhodium market balance
+“Domestic Chinese car sales
+shrank 17% in the first quarter”
+
+PAGE 21
+exemption for new energy vehicles (NEVs: includes BEVs and energy’ vehicle. Part of these gains probably represented a
+plug-in hybrids) was withdrawn at the beginning of this year, pull-forward of demand, ahead of less favourable incentives
+with plug-in vehicles now subject to a 5% purchase tax, half in 2026; as a result, growth rates are expected to fall
+that imposed on vehicles with conventional ICE powertrains. sharply this year. Nevertheless, battery powertrains should
+continue to capture share of the heavy-duty market this year,
+These changes contributed to an estimated 17% drop in especially in smaller (3.5–6 tonne GVW) truck categories.
+domestic sales of passenger vehicles in the first quarter of
+2026. This fall was exacerbated by distortions in monthly sales Based on this outlook, we expect global automotive PGM
+patterns caused by the timing of Chinese New Year, and by demand to fall by 4–5% this year, broadly in line with the fall
+pre-buying in late 2025 ahead of the reduction in subsidies. in ICE vehicle production. World average loadings on light duty
+At the time of writing, industry forecasters expect domestic vehicles are expected to be stable this year, with increases in
+sales of light vehicles to fall by around 2% this year, but if Europe and North America offset by some thrifting elsewhere.
+annual sales disappoint, then so too could recycling volumes. Euro 7 will be implemented for new models starting in 2026,
+and this will result in a small uplift in the average PGM content of
+European gasoline vehicles. For light vehicles, Euro 7 represents
+Automotive production and demand
+only a limited increase in overall stringency versus current Euro
+Industry forecasts published in early 2026 anticipated 6e legislation. This means that any changes in loadings are
+little overall change in world light vehicle production this likely to be modest, and we expect OEMs to turn their attention
+year. However, further gains in battery electric market to thrifting as soon as the legislation is fully implemented.
+share will depress output of vehicles with ICE powertrains,
+with the light gasoline and light diesel segments In North America, the implementation of Federal Tier 3
+expected to see declines of 4% and 8%, respectively. regulations was completed during 2025; the phase-in of
+Tier 4 will begin with model-year 2027 vehicles, which will
+Most of this fall will occur in Europe and China. Both regions be launched this year. In addition, changes in vehicle mix
+are expected to see strong BEV growth in the context of a flat are expected to be positive for PGM loadings, with larger
+or modestly declining overall light duty (LD) market. In China, pick-ups and SUVs expected to gain production share versus
+LD BEV production is set to rise by 16% in 2026, to reach 37% smaller passenger cars. Typically, heavier vehicles with larger
+of the total market (up from 32% in 2025). Meanwhile, Europe engines require catalyst systems which contain more PGM.
+is forecast to see BEV output jump by nearly 40%, to capture
+a 20% production share, as several large OEMs launch electric Global average PGM loadings on heavy duty vehicles are forecast
+models. In addition, the Chinese automaker BYD will begin to to decline marginally this year, mainly due to vehicle and
+produce electric cars at its new transplant in Hungary this year. powertrain mix effects in China. The heaviest truck categories are
+expected to account for a smaller proportion of Chinese heavy
+vehicle production in 2026; these vehicle types typically have
+aftertreatment systems that contain more PGM than smaller
+commercial vehicles. In addition, we expect some on-going
+thrifting on catalyst systems used on heavy-duty CNG vehicles.
+Only in North America is LD BEV output forecast to contract,
+in response to the withdrawal of tax credits at the end of
+September 2025. However, with the overall light-duty market
+suffering from a combination of weak consumer sentiment, 40
+rising car prices and high financing costs, ICE vehicle output
+35
+in North America is also expected to fall slightly this year.
+30
+In the heavy-duty sector, global vehicle production is
+forecast to rise by around 2%. Outside China, there should
+25
+be a modest rebound in output of ICE trucks, especially
+in Japan and the Rest of World region, following a weak
+20
+year in 2025. However, this will be largely offset by further
+gains in BEV share in the domestic Chinese market. 15
+China saw dramatic growth in output of electric trucks during 10
+2025, especially in medium (gross vehicle weight over 6
+tonnes) and heavy (GVW over 15 tonnes) truck categories, 5
+where production more than doubled. This was driven by
+falls in battery prices, making electric powertrains more 0
+2020 2021 2022 2023 2024 2025 2026
+competitive in larger vehicles, along with trade-in subsidies
+which incentivised owners of older trucks to acquire a ‘new
+21 Johnson Matthey PGM market report May 2026
+%
+“Euro 7 implementation will
+result in a small increase
+in PGM loadings”
+Europe North America
+Japan Rest of World Source: S&P Global Mobility,
+Powertrain Production
+China Global Forecast, February 2026
+Figure 19 BEV share of light-duty production, by region
+
+PAGE 22
+Ruthenium and iridium market balance in new acetic acid capacity using the Cativa process subsides;
+high iridium and ruthenium prices have made the alternative
+Pressure on liquidity in the ruthenium and iridium
+rhodium-catalysed Monsanto process more competitive.
+markets could intensify this year, with both metals
+expected to remain in deficit. Fundamental shortfalls
+The ruthenium market is forecast to remain in deep deficit,
+could be exacerbated by further strategic purchasing.
+despite a decline in industrial demand. Consumption in the
+Chinese chemicals industry is set to see a double-digit drop,
+The iridium market will edge further into deficit in 2026, with
+as the domestic caprolactam market moves into oversupply,
+mine supply flat, while demand reaches a three-year high.
+triggering the postponement or cancellation of planned
+This year will see the first significant demand for iridium in
+capacity additions. However, this will be partly offset by
+PEM electrolysis, as large green hydrogen projects in Germany
+very strong demand from the electronics industry, both for
+and Portugal near completion and PEM electrolyser arrays are
+ruthenium pastes used in electronic components such as
+delivered. We also expect further gains in iridium demand
+resistors, and for hard disks. With South African producer
+for electrodes used to manufacture copper foil, employed
+stocks much depleted over the past five years, supply will
+in lithium batteries and electronic circuit boards. This will
+once again fall short of demand, requiring existing market
+more than offset a fall in chemicals demand, as investment
+stocks to be mobilised to meet consumer requirements.
+The auto industry production forecasts on which our PGM In addition, high prices are putting pressure on ruthenium
+demand outlook is based were made in early 2026. The use in some applications. With the price almost quadrupling
+outbreak of war in Iran, and its impact on fuel prices and on between January 2025 and March 2026, there has been
+the wider economy, could result in some downside risk to our some demand destruction, for example in catalytic waste-
+numbers. The volume of production and sales at immediate water treatment processes (used to remove toxic organic
+risk from the conflict is relatively small: vehicle sales in the pollutants from industrial effluents), which faces increased
+Middle East were just over 3 million units last year, of which competition from alternative non-PGM processes.
+1.1 million were in Iran itself. However, high fuel prices and
+other supply chain impacts could cause more generalised Iridium consumption is expected to be stable this year.
+economic damage, harming vehicle sales globally. Chemical industry demand is set to fall, with lower demand
+for ruthenium-iridium catalysts used in the Cativa acetic acid
+process, but this will be offset by slightly higher iridium use in
+Industrial PGM demand
+electrochemical applications. Demand for iridium in electrodes
+Consumption of PGM in industrial applications is forecast to used in copper foil production has been hit by overcapacity,
+be broadly stable this year, for all the PGM except ruthenium. but is now recovering, driven by rising requirements in
+The latter is expected to see a sharp fall in demand from the printed circuit boards and lithium batteries. This year should
+chemical industry, following exceptionally high purchasing of also see the first commercial-scale use of iridium in PEM
+ruthenium catalysts by caprolactam producers over the past (proton exchange membrane) electrolysis, with two large
+two years. During 2025, the Chinese caprolactam industry green hydrogen projects in Europe nearing completion.
+moved into oversupply and margins began to fall; as a result,
+producers have reduced their operating rates and postponed or Industrial platinum demand is expected to be relatively robust
+cancelled some expansions that had been planned this year. this year, reflecting an ongoing recovery in electrical applications
+22 Johnson Matthey PGM market report May 2026
+zo
+000'
+Movement in ruthenium stocks
+400
+300
+200
+100
+0
+-100
+-200
+-300
+2021 2022 2023 2024 2025 2026
+Figure 20 Ruthenium market balance
+zo
+000'
+Movement in iridium stocks
+20
+15
+10
+5
+0
+-5
+-10
+-15
+-20
+2021 2022 2023 2024 2025 2026
+Figure 21 Iridium market balance
+
+PAGE 23
+(mainly in hard disks), and expected purchasing of chemical
+catalysts for paraxylene and propane dehydrogenation projects.
+Glass demand could also show a modest improvement,
+following weaker demand in 2024, but consumption in the
+petroleum and liquid fuels industry is expected to fall back
+this year, in the wake of significant purchases of platinum
+catalysts for biofuel and synthetic fuel production in 2025.
+During the 1990s, use of palladium in industrial applications
+was consistently above 3 million oz per annum. Since then,
+repeated cycles of price-driven demand destruction have
+reduced consumption to less than 1.5 million oz annually.
+In 2026, industrial purchasing is expected to be stable,
+with firm demand from the chemicals and electronics
+industries offsetting lower use in dental alloys.
+Industrial consumption of rhodium is also forecast to be stable.
+Demand for rhodium in glassmaking was negative during
+2021–2024, as Chinese fibreglass companies sold surplus
+metal back to the market, but returned to positive territory in As of early April, prices for most basic petrochemical feedstocks
+2025. We expect further net buying by fibreglass producers – including naphtha, propane, benzene and methanol –
+this year. Thrifting of rhodium in glassmaking alloys appears had risen by at least 30%, and some Asian countries were
+to have reached its limits, and there is now some evidence of facing supply shortages. Many PGM-catalysed processes
+additional rhodium use in specialist glass fibre applications. depend on such feedstocks: for example, the production of
+In particular, alloys with a rhodium content of at least 10% paraxylene involves a platinum catalyst and typically uses
+are typically preferred for equipment used to produce high- naphtha as its primary input; propane is used to manufacture
+performance categories of electric glass fibre, employed in propylene via the propane dehydrogenation process (platinum
+advanced composites and electronic materials. This type of catalyst); benzene is a feedstock for caprolactam and adipic
+glass fibre requires high-purity raw materials that must be acid (ruthenium); the Cativa (ruthenium and iridium) and
+processed at elevated temperatures – conditions under which Monsanto (rhodium) processes are based on the carbonylation
+the use of alloys with a higher rhodium content can provide of methanol. Some of these chemicals are, in turn, precursors
+significant benefits, in terms of improved product quality and for other downstream processes, such as purified terephthalic
+longer equipment life. High-performance electric glass fibre acid (which uses a palladium catalyst) and oxo-alcohols
+currently accounts for only a small proportion of total fibreglass (rhodium). Thus, PGM demand from the chemicals industry
+production, but this market segment is seeing rapid growth. – especially in Asia – is highly exposed to disruption to
+oil and petrochemical supplies due to the Iran war.
+Our demand forecasts were finalised in March 2026 and are
+therefore subject to downside risk due to the closure of the
+Strait of Hormuz and damage to petrochemical facilities in the
+region. Disruption to the supply of oil, gas and petrochemicals
+has the potential to impact PGM consumption in the petroleum
+refining and chemical industries, particularly in Asia, which
+is heavily dependent upon imports from the Middle East. At the time of writing, some Asian chemicals producers had
+already responded to high prices and shortages by reducing
+capacity utilisation, or by scheduling maintenance in the hope
+that feedstock supplies will have normalised by the time their
+plants reopen. These temporary closures and lower operating
+rates will have an impact on the frequency of catalyst renewal,
+and hence on ‘top-up’ PGM demand, to replace metal lost
+during routine plant operation. If disruption is relatively short-
+lived, and operating rates subsequently rebound, the effect
+on demand should be limited. However, the longer supply
+disruption continues, the more likely it becomes that planned
+expansions will be postponed or cancelled. This would have a
+more significant impact on PGM demand, especially if it were to
+affect bulk petrochemical projects, which often require an initial
+catalyst charge containing tens of thousands of ounces of PGM.
+2021 2022 2023 2024 2025 2026
+23 Johnson Matthey PGM market report May 2026
+zo
+000‘
+2021 2022 2023 2024 2025 2026
+Chemical Electrical Electrochemical Other
+1,400
+1,200
+1,000
+800
+600
+400
+200
+0
+Figure 22 Ruthenium industrial demand by application
+zo
+000‘
+Platinum Palladium
+Rhodium Ruthenium Iridium
+2,500
+2,000
+1,500
+1,000
+500
+0
+Figure 23 PGM demand in the chemical and petroleum industries
+“Two large green hydrogen projects
+are nearing completion in Europe”
+
+PAGE 24
+Emissions
+legislation update
+Europe Emissions limits for heavy vehicles have been materially
+tightened versus Euro VI, with more stringent NO requirements,
+x
+Euro 7 emissions standards new ammonia and NO limits, and longer durability periods.
+2
+However, there will be little or no impact on the PGM content
+Euro 7 emissions legislation will be phased-in starting
+of heavy-duty catalyst systems, as tighter NO control will be
+on 29th November 2026, when the new standards will x
+achieved using non-PGM selective catalytic reduction (SCR)
+be implemented for new light duty models (they will
+technology. While some vehicles will require additional ammonia
+be extended to all new vehicles one year later).
+slip catalysts (ASC), these have very low PGM loadings and the
+impact on average PGM content per vehicle will be marginal.
+Emissions limit values for light duty gasoline and diesel vehicles
+are unchanged compared to current (Euro 6e) regulations.
+However, the size of particulates on which the particle number European Union CO legislation
+2
+count is made has been reduced from 23nm to 10nm,
+European CO legislation is currently undergoing change.
+while durability requirements and real driving emissions 2
+An amendment has already been adopted to the 2025
+(RDE) testing procedures have also been strengthened.
+standard, which required CO emissions from cars and vans
+2
+to be reduced by 15% relative to a 2021 baseline. Compliance
+In the light duty sector, we anticipate an initial uplift to PGM
+will now be assessed over the 2025–2027 period, with car
+loadings as a result of the new regulations. Although the limit
+companies allowed to offset excess CO emissions in any one
+values for pollutants are unchanged, harsher RDE testing and 2
+year by exceeding the target in other years. The European
+extended durability periods will make them more challenging
+Commission has recently issued further proposals, which
+to meet. In addition, some automakers finalised their Euro 7
+would give automakers some additional compliance flexibility
+catalyst systems before the definitive version of the legislation
+when CO limits tighten again, in 2030 and 2035.
+was adopted (earlier proposals had included tighter emissions 2
+limits). There should be scope to thrift PGM from some of
+these systems once the new legislation has ‘bedded in’. “New EU proposals would allow
+ICE vehicles to be sold after 2035”
+There will also be some initial impact on the platinum-to-
+palladium ratio in European catalysts, with platinum-rich
+systems selected for some Euro 7 models (these catalyst
+Under these proposals, the 2030 target for passenger cars
+decisions were made at a time when palladium was more
+remains unchanged (a 55% reduction versus the 2021 baseline),
+expensive than platinum). As post-Euro 7 thrifting programmes
+but compliance would be assessed over a two-year period; for
+progress, we expect this substitution to be reversed.
+vans, the required CO reduction would be cut to 40%. More
+2
+significantly, the proposed 100% CO reduction in 2035 would
+Euro 7 heavy-duty limits will apply to new truck models from 2
+be set at 90% (for both cars and vans), with the additional CO
+May 2028 and to all new HD registrations from May 2029. 2
+2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032
+Euro VI Euro 7 (May 2028) Europe
+US 2010 EPA 2027 North America
+Japan 2016 Japan
+Euro VI Euro 7 (estimated) South Korea
+PROCONVE PROCONVE P-8 Brazil
+P-7
+BS VI BS VI RDE BS VII (estimated) India
+China VIa China VIb China VII (estimated) China
+Figure 24 Emissions legislation for heavy duty vehicles
+24 Johnson Matthey PGM market report May 2026
+
+PAGE 25
+2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032
+Euro 6 Euro 7 (November 2026) Europe
+Federal Tier 3 Phase-in Federal Tier 4 Phase-in North America (EPA)
+Japan 18 (WLTP) Japan
+LEV III (97g/km CO from 2020) South Korea (Gasoline)
+2
+Euro 6d (RDE Phase II, 97g/km CO) Euro 7 (estimated) South Korea (Diesel)
+2
+China 6a China 6b, RDE China 7 (estimated) China (Nationwide)
+PROCONVE L-7 PROCONVE L-8 Brazil
+BS VI Stage I BS VI Stage II (RDE) BS VII (estimated) India
+(Euro 6b)
+Euro 4 Euro 5 (estimated) Indonesia (Gasoline)
+Euro 4 Indonesia (Diesel)
+Euro 4 Euro 5 Euro 6 Thailand (Gasoline)
+Euro 4 Euro 5 (Diesel) Thailand (Diesel)
+Figure 25 Emissions legislation for light duty vehicles
+offset by credits for the use of EU ‘green steel’ and renewable creation of different emissions ‘bins’, which would enable
+fuels. This would provide significant additional flexibility in automakers to certify their vehicles at different levels of
+meeting the legislation, allowing automakers to continue to sell emissions compliance, to meet fleet average requirements
+ICE vehicles after 2035. Post-2035 ICE vehicle production will (a similar approach to that taken under US federal
+depend on the powertrain strategies adopted by automakers, and legislation). We currently anticipate that China 7 will be
+in particular on the share of highly electrified hybrid powertrains implemented for both light and heavy vehicles in 2029.
+such as PHEVs and REEVs (which currently represent only
+9% of ICE vehicle production across the European region).
+North America
+The new CO proposals, which form part of a wider The Trump administration has signalled its intent to roll
+2
+‘Automotive Omnibus’ (including additional CO credits back environmental legislation implemented by previous
+2
+for small electric vehicles, and country-specific targets for administrations. To date, it has mainly targeted greenhouse gas
+the electrification of corporate fleets), will now undergo (GHG) regulations, revoking waivers granted to the California Air
+consultations before going through the EU legislative Resources Board (CARB) that would have enabled it to impose
+procedure, with final adoption not expected until 2027. zero emission vehicle (ZEV) share mandates for both light- and
+heavy-duty vehicles, repealing the ‘Endangerment Finding’
+which was the basis for federal regulation of CO emissions, and
+China 2
+proposing to weaken corporate average fuel economy (CAFÉ)
+In early 2025, the Chinese authorities published a proposed standards. However, it has also indicated that it could move to
+amendment to China 6 regulations, intended to tighten the delay the tightening of ‘criteria’ (toxic) pollutant emissions limits.
+rules around type approval and in-use compliance testing.
+The amendment provides for improved traceability in type-
+US federal: criteria pollutant regulations
+approval testing; greater information disclosure by car
+manufacturers, including monthly reporting of any emissions In March 2024, the Environmental Protection Agency (EPA)
+equipment failures; a revision to RDE test conditions, along finalised new Tier 4 standards for light- and medium-duty
+with new requirements for portable emissions measurement vehicles, requiring further progressive reductions in emissions
+(PEMS) instrument calibration; and stricter requirements of toxic pollutants, over a five-year phase-in period starting
+for the type approval of hybrid vehicles including PHEVs and with model-year 2027 vehicles. The standards represent
+REEVs. These amendments came into effect in May 2026. an increase in stringency versus Tier 3, and will therefore
+be positive for PGM loadings, particularly in the near-term.
+The publication of draft China 7 legislation has been delayed However, as the Tier 4 phase-in period progresses, we
+and is now expected before the end of 2026. The proposals expect this to be partly offset by changes in the model mix.
+may include more stringent cold-start provisions, and the Automakers are beginning to rationalise their portfolios,
+25 Johnson Matthey PGM market report May 2026
+
+PAGE 26
+phasing out some higher-emitting engines, and replacing Other changes to US federal legislation
+them with smaller, turbocharged versions which have
+Federal tax credits for the purchase of electric vehicles were
+inherently lower emissions and hence PGM requirements.
+withdrawn in October 2025. These credits, which have
+existed since 2008 and were extended under the 2022
+In December 2025, it was reported that the EPA could delay
+Inflation Reduction Act, gave drivers up to $7,500 in credits
+the enforcement of Tier 4 regulations for two years, as part of a
+towards the purchase of a new electric vehicle. The ending
+review of standards set under the previous administration. At the
+of the scheme has had a significant impact on consumer
+time of writing, no further information was available. Because
+enthusiasm for battery vehicles: during the first quarter of
+of the typical timeframe for developing and implementing
+2026, US BEV sales were down 27% year-on-year. It will
+catalyst fitment programmes, a delay to rolling out Tier 4
+also have near-term consequences for the BEV share of light
+standards would have little near-term impact on PGM loadings.
+duty production in North America, which peaked at nearly
+9% in 2023 but is forecast to slip below 8% this year.
+New federal standards for heavy-duty emissions are due to be
+enforced starting in model-year 2027, under the ‘Low-NO rule’
+x
+that formed part of the EPA’s 2022 Clean Trucks Plan. These “US BEV sales fell 27% in
+tighter standards are expected to result in a modest increase in
+the first quarter of 2026”
+PGM loadings on heavy duty diesel vehicles, largely because of
+more challenging durability requirements. At the time of writing,
+the implementation schedule remained unchanged, and no
+California: CARB waiver
+amendments to criteria emissions limits under the Low NO rule
+x
+had been proposed. However, changes to other provisions, such Under the Clean Air Act, the California Air Resources Board
+as a relaxation of durability requirements, remain possible. (CARB) was granted the right to set vehicle emissions standards
+that are stricter than federal legislation, subject to an EPA waiver.
+During the Biden administration, waivers were granted for the
+US federal: GHG regulations
+Advanced Clean Cars II (ACC II) regulation for light-duty vehicles
+In February 2026, the EPA issued a rule rescinding the (revising toxic pollutant limits and imposing future ZEV share
+Greenhouse Gas ‘Endangerment Finding’ of 2009, which had requirements), the Advanced Clean Trucks (ACT) regulation
+become the basis for federal emissions standards regulating CO (mandating an increase in heavy-duty ZEV penetration), and
+2
+emissions from vehicles. The new rule repeals GHG emission the ‘Omnibus’ low-NO regulation (requiring a reduction in toxic
+x
+standards for light-duty, medium-duty, and heavy-duty vehicles pollutant emissions from heavy trucks from model-year 2024).
+and engines, including cuts in CO emissions mandated by
+2
+Federal Tier 4 standards, and ‘Phase 3’ GHG emission standards In May 2025, resolutions were passed by Congress and then
+for heavy-duty vehicles. These regulations would have driven signed by President Trump revoking these waivers. This decision
+increases in the market share of electric vehicles (including BEVs, has been challenged in a lawsuit filed by California and a coalition
+FCEVs and plug-in hybrids). The roll-back of GHG regulations of ten other states, and a ruling is expected later this year.
+is likely to reduce growth prospects for ZEVs and plug-in
+hybrids in the US market, resulting in ICE and conventional Following the revocation of the ACC II waiver, CARB moved to
+hybrid vehicles retaining a higher market share for longer. reinstate the predecessor legislation, ACC I, which was covered by
+an earlier waiver (not subject to revocation) and included GHG
+The revocation of the Endangerment Finding faces legal emissions limits and a ZEV sales requirement. However, the federal
+challenges from public health and environmental organisations, administration has sued to block enforcement of these standards.
+and some US states are also expected to initiate litigation.
+The new rule does not affect corporate average fuel economy
+(CAFÉ) standards, established by the National Highway Traffic
+Safety Administration (NHTSA) under the Energy Policy and
+Conservation Act of 1975. However, in December 2025,
+proposals were announced to roll back tighter fuel efficiency
+rules introduced by NHTSA during the Biden administration;
+these would have required carmakers to achieve a CAFÉ standard
+of 50 miles per US gallon by 2031, versus an average of 27 mpg
+today. The current administration proposes to replace this with a
+new target of 34.5 mpg by 2031. It will also seek to end a credit-
+trading programme that permitted automakers to purchase
+credits from competitors with a more fuel-efficient fleet.
+26 Johnson Matthey PGM market report May 2026
+
+PAGE 27
+Platinum supply
+and demand
+Troy ounces
+Primary supply ‘000 oz 2021 2022 2023 2024 2025 2026
+South Africa 4,609 3,966 3,961 4,154 3,957 3,873
+Russia 640 350 850 700 650 630
+North America 279 270 288 264 224 235
+Zimbabwe 465 488 515 507 513 515
+Others 222 160 162 199 213 202
+Total primary supply 6,215 5,234 5,776 5,824 5,557 5,455
+Secondary supply ‘000 oz1 2021 2022 2023 2024 2025 2026
+Automotive 1,230 1,201 1,082 1,092 1,132 1,204
+Electrical & other 49 48 58 74 85 98
+Jewellery 366 273 226 233 330 274
+Total secondary supply 1,645 1,522 1,366 1,399 1,547 1,576
+Combined primary and secondary supply 7,860 6,756 7,142 7,223 7,104 7,031
+Demand ‘000 oz2 2021 2022 2023 2024 2025 2026
+Automotive 2,409 2,742 3,356 3,389 3,329 3,226
+Chemical 674 700 634 549 614 633
+Dental & biomedical 224 245 258 266 281 282
+Electrical & electronics 262 241 206 236 261 277
+Glass 762 875 813 459 428 443
+Investment -1 -475 179 523 556 171
+Jewellery 1,468 1,401 1,372 1,380 1,507 1,349
+Petroleum 222 234 164 153 213 168
+Pollution control 191 225 280 264 264 283
+Other 446 485 557 563 566 570
+Total demand 6,657 6,673 7,819 7,782 8,019 7,402
+Movement in stocks 1,203 83 -677 -559 -915 -371
+1Secondary supply comprises ‘open-loop’ recycling from the automotive, jewellery, electronics and pollution control sectors.
+2Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+27 Johnson Matthey PGM market report May 2026
+
+PAGE 28
+Platinum supply
+and demand
+Tonnes
+Primary supply tonnes 2021 2022 2023 2024 2025 2026
+South Africa 143.4 123.4 123.2 129.2 123.1 120.5
+Russia 19.9 10.9 26.4 21.8 20.2 19.6
+North America 8.7 8.4 9.0 8.2 7.0 7.3
+Zimbabwe 14.4 15.2 16.0 15.8 16.0 16.0
+Others 6.9 5.0 5.0 6.2 6.6 6.3
+Total primary supply 193.3 162.9 179.6 181.2 172.9 169.7
+Secondary supply tonnes1 2021 2022 2023 2024 2025 2026
+Automotive 38.3 37.4 33.7 34.0 35.2 37.4
+Electrical & other 1.5 1.5 1.8 2.3 2.6 3.1
+Jewellery 11.4 8.5 7.0 7.2 10.3 8.5
+Total secondary supply 51.2 47.4 42.5 43.5 48.1 49.0
+Combined primary and secondary supply 244.5 210.3 222.1 224.7 221.0 218.7
+Demand tonnes2 2021 2022 2023 2024 2025 2026
+Automotive 74.9 85.4 104.4 105.4 103.5 100.3
+Chemical 21.0 21.7 19.7 17.1 19.2 19.7
+Dental & biomedical 6.9 7.6 8.1 8.3 8.8 8.8
+Electrical & electronics 8.1 7.5 6.4 7.3 8.1 8.6
+Glass 23.7 27.2 25.3 14.3 13.3 13.8
+Investment -0.1 -14.7 5.5 16.3 17.3 5.3
+Jewellery 45.7 43.6 42.6 42.9 46.9 42.0
+Petroleum 6.9 7.3 5.1 4.7 6.6 5.2
+Pollution control 6.0 7.0 8.7 8.3 8.2 8.8
+Other 14.0 15.1 17.4 17.5 17.6 17.7
+Total demand 207.1 207.7 243.2 242.1 249.5 230.2
+Movement in stocks 37.4 2.6 -21.1 -17.4 -28.5 -11.5
+1Secondary supply comprises ‘open-loop’ recycling from the automotive, jewellery, electronics and pollution control sectors.
+2Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+28 Johnson Matthey PGM market report May 2026
+
+PAGE 29
+Palladium supply
+and demand
+Troy ounces
+Primary supply ‘000 oz 2021 2022 2023 2024 2025 2026
+South Africa 2,645 2,288 2,340 2,438 2,246 2,235
+Russia 2,689 2,200 2,900 3,000 2,950 2,450
+North America 908 819 863 819 712 660
+Zimbabwe 392 409 427 419 422 424
+Others 212 235 247 252 259 263
+Total primary supply 6,846 5,951 6,777 6,928 6,589 6,032
+Secondary supply ‘000 oz1 2021 2022 2023 2024 2025 2026
+Automotive 2,886 2,790 2,388 2,447 2,657 2,945
+Electrical & other 426 442 455 464 467 470
+Jewellery 9 10 10 10 11 12
+Total secondary supply 3,321 3,242 2,853 2,921 3,135 3,427
+Combined primary and secondary supply 10,167 9,193 9,630 9,849 9,724 9,459
+Demand ‘000 oz2 2021 2022 2023 2024 2025 2026
+Automotive 8,451 8,414 8,806 8,329 8,227 7,829
+Chemical 593 595 543 522 519 529
+Dental & biomedical 208 189 192 172 163 151
+Electrical & electronics 649 547 485 516 535 538
+Investment 17 -109 61 229 382 -115
+Jewellery 88 87 87 85 83 82
+Pollution control 100 110 131 131 131 139
+Other 96 82 85 83 100 92
+Total demand 10,202 9,915 10,390 10,067 10,140 9,245
+Movement in stocks -35 -722 -760 -218 -416 214
+1Secondary supply comprises ‘open-loop’ recycling from the automotive, jewellery, electronics and pollution control sectors.
+2Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+29 Johnson Matthey PGM market report May 2026
+
+PAGE 30
+Palladium supply
+and demand
+Tonnes
+Primary supply tonnes 2021 2022 2023 2024 2025 2026
+South Africa 82.3 71.2 72.8 75.8 69.9 69.5
+Russia 83.6 68.4 90.2 93.3 91.8 76.2
+North America 28.2 25.5 26.8 25.5 22.1 20.5
+Zimbabwe 12.2 12.7 13.3 13.0 13.1 13.2
+Others 6.6 7.3 7.7 7.8 8.1 8.2
+Total primary supply 212.9 185.1 210.8 215.4 205.0 187.6
+Secondary supply tonnes1 2021 2022 2023 2024 2025 2026
+Automotive 89.8 86.8 74.3 76.1 82.6 91.6
+Electrical & other 13.2 13.7 14.1 14.4 14.5 14.6
+Jewellery 0.3 0.3 0.3 0.3 0.3 0.4
+Total secondary supply 103.3 100.8 88.7 90.8 97.4 106.6
+Combined primary and secondary supply 316.2 285.9 299.5 306.2 302.4 294.2
+Demand tonnes2 2021 2022 2023 2024 2025 2026
+Automotive 262.8 261.7 273.9 259.0 255.9 243.5
+Chemical 18.5 18.6 16.9 16.2 16.1 16.5
+Dental & biomedical 6.5 5.9 6.0 5.3 5.1 4.7
+Electrical & electronics 20.2 17.1 15.0 16.1 16.6 16.7
+Investment 0.6 -3.4 1.9 7.1 11.9 -3.6
+Jewellery 2.7 2.6 2.7 2.6 2.5 2.5
+Pollution control 3.0 3.4 4.0 4.2 4.1 4.3
+Other 3.0 2.5 2.6 2.6 3.1 2.8
+Total demand 317.3 308.4 323.0 313.1 315.3 287.4
+Movement in stocks -1.1 -22.5 -23.5 -6.9 -12.9 6.8
+1Secondary supply comprises ‘open-loop’ recycling from the automotive, jewellery, electronics and pollution control sectors.
+2Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+30 Johnson Matthey PGM market report May 2026
+
+PAGE 31
+Rhodium supply
+and demand
+Troy ounces
+Primary supply ‘000 oz 2021 2022 2023 2024 2025 2026
+South Africa 645 570 548 593 566 557
+Russia 53 54 75 64 68 55
+North America 17 20 19 20 15 19
+Zimbabwe 42 43 46 45 45 43
+Others 6 6 7 7 7 7
+Total primary supply 763 693 695 729 701 681
+Secondary supply ‘000 oz1 2021 2022 2023 2024 2025 2026
+Automotive 361 339 289 292 312 339
+Total secondary supply 361 339 289 292 312 339
+Combined primary and secondary supply 1,124 1,032 984 1,021 1,013 1,020
+Demand ‘000 oz2 2021 2022 2023 2024 2025 2026
+Automotive 954 942 979 915 899 856
+Chemical 58 66 81 94 91 88
+Electrical & electronics 8 7 7 8 9 10
+Glass -16 -20 -22 -3 38 38
+Other 10 14 16 16 26 13
+Total demand 1,014 1,009 1,061 1,030 1,063 1,005
+Movement in stocks 110 23 -77 -9 -50 15
+1Secondary supply comprises ‘open-loop’ recycling from the automotive sector.
+2Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+31 Johnson Matthey PGM market report May 2026
+
+PAGE 32
+Rhodium supply
+and demand
+Tonnes
+Primary supply tonnes 2021 2022 2023 2024 2025 2026
+South Africa 20.1 17.7 17.0 18.4 17.6 17.3
+Russia 1.6 1.7 2.3 2.0 2.1 1.7
+North America 0.5 0.6 0.6 0.6 0.5 0.6
+Zimbabwe 1.3 1.3 1.4 1.4 1.4 1.4
+Others 0.2 0.2 0.2 0.2 0.2 0.2
+Total primary supply 23.7 21.5 21.5 22.6 21.8 21.2
+Secondary supply tonnes1 2021 2022 2023 2024 2025 2026
+Automotive 11.2 10.5 9.0 9.1 9.7 10.5
+Total secondary supply 11.2 10.5 9.0 9.1 9.7 10.5
+Combined primary and secondary supply 34.9 32.0 30.5 31.7 31.5 31.7
+Demand tonnes2 2021 2022 2023 2024 2025 2026
+Automotive 29.7 29.3 30.4 28.5 28.0 26.6
+Chemical 1.8 2.0 2.5 2.9 2.8 2.7
+Electrical & electronics 0.2 0.2 0.2 0.2 0.3 0.3
+Glass -0.5 -0.6 -0.7 -0.1 1.2 1.2
+Other 0.3 0.4 0.5 0.5 0.8 0.4
+Total demand 31.5 31.3 32.9 32.0 33.1 31.2
+Movement in stocks 3.4 0.7 -2.4 -0.3 -1.6 0.5
+1Secondary supply comprises ‘open-loop’ recycling from the automotive sector.
+2Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+32 Johnson Matthey PGM market report May 2026
+
+PAGE 33
+Ruthenium supply
+and demand
+Troy ounces
+Primary supply ‘000 oz 2021 2022 2023 2024 2025 2026
+Total primary supply 1,417 971 914 1,125 972 977
+Demand ‘000 oz1 2021 2022 2023 2024 2025 2026
+Chemical 351 324 426 520 567 477
+Electrical & electronics 441 374 300 365 413 435
+Electrochemical 129 131 146 143 135 127
+Other 108 125 136 142 150 154
+Total demand 1,029 954 1,008 1,170 1,265 1,193
+Movement in stocks 388 17 -94 -45 -293 -216
+Tonnes
+Primary supply tonnes 2021 2022 2023 2024 2025 2026
+Total primary supply 44.1 30.2 28.4 35.0 30.2 30.4
+Demand tonnes1 2021 2022 2023 2024 2025 2026
+Chemical 10.9 10.1 13.3 16.2 17.6 14.8
+Electrical & electronics 13.7 11.6 9.3 11.4 12.8 13.5
+Electrochemical 4.0 4.1 4.5 4.4 4.2 4.0
+Other 3.4 3.9 4.2 4.4 4.7 4.8
+Total demand 32.0 29.7 31.3 36.4 39.3 37.1
+Movement in stocks 12.1 0.5 -2.9 -1.4 -9.1 -6.7
+1Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+33 Johnson Matthey PGM market report May 2026
+
+PAGE 34
+Iridium supply
+and demand
+Troy ounces
+Primary supply ‘000 oz 2021 2022 2023 2024 2025 2026
+Total primary supply 235 218 229 237 229 229
+Demand ‘000 oz1 2021 2022 2023 2024 2025 2026
+Chemical 30 25 31 37 34 28
+Electrical & electronics 50 26 25 27 33 33
+Electrochemical 82 88 120 94 100 109
+Other 67 62 70 68 69 70
+Total demand 229 201 246 226 236 240
+Movement in stocks 6 17 -17 11 -7 -11
+Tonnes
+Primary supply tonnes 2021 2022 2023 2024 2025 2026
+Total primary supply 7.3 6.8 7.1 7.4 7.1 7.1
+Demand tonnes1 2021 2022 2023 2024 2025 2026
+Chemical 0.9 0.8 1.0 1.1 1.1 0.9
+Electrical & electronics 1.6 0.8 0.8 0.9 1.0 1.0
+Electrochemical 2.6 2.7 3.7 2.9 3.1 3.4
+Other 2.1 1.9 2.2 2.1 2.1 2.2
+Total demand 7.2 6.2 7.7 7.0 7.3 7.5
+Movement in stocks 0.1 0.6 -0.6 0.4 -0.2 -0.4
+1Industrial demand is net of ‘closed-loop’ recycling and sales of surplus metal back to the market, for example due
+to plant closures. It represents new metal requirements by industrial consumers in each year.
+34 Johnson Matthey PGM market report May 2026
+
+PAGE 35
+Glossary
+ACC I Advanced Clean Cars I, a CARB regulation ICE Internal combustion engine
+ACC II Advanced Clean Cars II, a CARB regulation LD Light duty
+ACT Advanced Clean Trucks, a CARB regulation LDD Light duty diesel
+BEV Battery electric vehicle LDG Light duty gasoline
+CAFÉ Corporate average fuel economy LEV Low emission vehicle
+CARB California Air Resources Board LPPM London Platinum and Palladium Market
+CF Conformity factor LV Light vehicle
+CNG Compressed natural gas NEV New energy vehicle (BEV, PHEV or FCEV)
+CO Carbon monoxide NO Oxides of nitrogen
+x
+CO Carbon dioxide NYMEX New York Mercantile Exchange
+2
+DOC Diesel oxidation catalyst PEM Proton exchange membrane
+DPF Diesel particulate filter PEMS Portable emissions measurement system
+EC European Commission PGM Platinum group metals
+ELV End-of-life vehicle PHEV Plug-in hybrid electric vehicle
+EP European Parliament PM Particulate matter or soot
+EPA Environmental Protection Agency PN Particle number
+ETF Exchange traded fund RDE Real driving emissions
+EUCO European Council REEV Range-extended electric vehicle
+FCEV Fuel cell electric vehicle RoW Rest of World region
+GFEX Guangzhou Futures Exchange SCR Selective catalytic reduction
+GHG Greenhouse gas SGE Shanghai Gold Exchange
+GPF Gasoline particulate filter ZEV Zero emission vehicle
+GVW Gross vehicle weight 4E grade Combined content of four elements: platinum,
+palladium, rhodium and gold
+HD Heavy duty
+6E grade Combined content of six elements: platinum,
+HDD Heavy duty diesel palladium, rhodium, gold, ruthenium and iridium
+35 Johnson Matthey PGM market report May 2026
+
+PAGE 36
+www.matthey.com

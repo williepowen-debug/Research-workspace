@@ -1,0 +1,35 @@
+{
+  "as_of_ET": "2026-10-12",
+  "authority": "Will-adopted CATO bounded follow-up in existing owner thread; no new launch/trade/threshold/paid access",
+  "original_Deutsche_note": {
+    "state": "UNAVAILABLE",
+    "title_reported_only": "Beyond Peak #Silversqueeze",
+    "date_reported_only": "2026-10-02",
+    "secondary_url": "https://exencialrp.substack.com/p/deutsche-bank-calls-time-on-the-silver",
+    "secondary_date": "2026-10-08",
+    "public_searches": [
+      "site.db.com \"Beyond Peak\" \"Silversqueeze\"",
+      "site.research.db.com \"silver\" \"October\" \"2026\" Ghali",
+      "site.db.com \"Beyond Peak #Silversqueeze\""
+    ],
+    "results": "No accessible original bank note found; secondary attribution only",
+    "existing_corpus": "Bounded rg filename/title search of FORGE and AGENTS found no original note",
+    "stop": "Exact evidence limit established; no subscription/payment/login change or search cadence",
+    "matching_secondary_page_links": []
+  },
+  "London_tightness": {
+    "matched_London_only_allocations": "UNMEASURED",
+    "available_float": "UNMEASURED",
+    "current_lease_rates": "UNMEASURED",
+    "public_LBMA_trade_data": "Turnover only, 12-week average ending2026-09-11; daily reporting subscription, no purchase",
+    "accessible_diagnostic": "Saved same-date unadjusted SIZ26 Dec2026/SIH27 Mar2027 histories, prior dated endpoints9/30&10/9; not London lease quotes"
+  },
+  "auto_table_exception": {
+    "image": "cada_sep2026_chart7.png",
+    "cell": "Prior September EREV production1.2wan",
+    "reason": "Does not reconcile with totalNEV150.8wan, other components95.3+44.3wan, or reported13.3%YoY",
+    "disposition": "Excluded cell/rate; not repaired; total andBEV production independently used"
+  },
+  "scope_stop": "Directional metal mechanism supported; SeptemberChina per-metalgramloadings/substitution/CKDfitment not held; no fabricated metal demand change",
+  "gold_copper": "Existing assessments/obligations unchanged; no repeat sweep or current positioning discussion"
+}
