@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 15:04 EDT — SCOPED-PARTIAL:** CME15:02 retry empty; October12 TERRY A-notice/A-exit UNKNOWN now verified committed atfdeb3336b. Physical/market sources retain their dates. [Audit/follow-up](audits/2026-10-12_desk-health/REPORT.md#existing-afternoon-continuation).
+**Last real data refresh: 2026-10-13 19:05 EDT — SCOPED-PARTIAL:** October13 existing-energy research; IEA policy/schedule and issuer historical results/guidance re-read, DEWEY cargo/YURI saved-primary updates consumed. Delivered increment, own-site operation, synchronized earnings expectations and October13 accepted settlements remain gaps; final October12 CME inputs now recovered. [Assessment](research/2026-10-13_energy-wait/REPORT.md). Older measurements retain their dates.
 
 **Will-directed closeout 2026-10-12 15:13 EDT:** [handoff](SCRATCH.md) and [receipt](audits/2026-10-12_desk-health/CLOSEOUT.md). Re-verified saved owner state and exact committed TERRY/PROME receipts; L633/L694 bounded deliveries resolved, physical/source duties remain. L684 independent WQ420 acceptance still owed. No new primary, broker/order, line grade or phase refresh. Closeout contentf23f7eed9 published in authorized shared train1276609e3; fresh-fetch receipt saved.
 
@@ -10,6 +10,10 @@
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
+
+## October13 — ENERGY WAIT UNCHANGED → [ASSESSMENT](research/2026-10-13_energy-wait/REPORT.md)
+
+Permission is better authenticated; Minerva Zen is excluded as positive diesel evidence. Delivered additional diesel remains UNKNOWN; no demonstrated refinery recovery lag or own-asset earnings edge. Q3 endedSeptember30: October relief principally affects Q4/outlook, not Q3 operating profit. Retrieved consensus indication lacks verified update/basis; no synchronized valuation claim. IEA OMR date now confirmedOctober14,04:00EDT; October15 Board is separate. WPSROctober15noon coversweekOctober9, mostly prelandfall and before October10permission. FranceOctober7plan10Mdieselbbl forNovember–January newly recovered; overlap/delivery unknown. FinalOctober12CME matched cracks104.6344/99.7856 measured, no October13holding grade. Existing WAIT/TERRY PASS, THESISv5.12 and stand-downs unchanged; no screen/trade/holding grade. DEWEYOctober13checkpoint remainsPARTIAL; Senate rescission request/FCCoperating-risk lead ungraded. Worksheet and source gaps at assessment.
 
 ## October12 — L689 AVAILABLE-EVIDENCE OPPORTUNITY MEMO → [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md)
 
@@ -75,7 +79,7 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 | **Sat Oct 10** | HURRICANE ISAIAS — northern Gulf landfall (late Fri 10/9 – early Sat 10/10) and offshore/refinery restart read | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **Sat Oct 10** | DIESEL TAX RELIEF — five-day implementation directive from October5 order | 🟠 |
-| **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — stock-release delivery / supplemental-diesel watch + global stock draw | 🟠 |
+| **Wed Oct 14** | 🟠 IEA OMR OCTOBER — stock-release delivery / supplemental-diesel watch + global stock draw | 🟠 |
 | **Thu Oct 15** | IEA GOVERNING BOARD — diesel-release implementation and supplemental-volume assessment | 🟠 |
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK IMPLEMENTATION — modeled end of first20-day frontloaded-diesel window (October2 commitment,100M oil over4months; incremental overlap not assumed) | 🟠 |
 | **Thu Oct 22** | VALERO Q3 2026 RESULTS — L689 margin/operations comparison | 🟠 |
@@ -94,7 +98,7 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 6 of 25 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 25 rows are modeled.*
 
 *25 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
@@ -105,6 +109,6 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 
 ## SUMMARY FOR WILL
 
-*(October12 L689)* **One conditional refiner candidate for TERRY, no trade-ready ticket. Slower refinery restart is unproved; net delivered Russian diesel remains a DEWEY dependency. Relief can compress margins. Existing L633/settlement work and stand-down stay. No new Will decision.**
+*(October13)* **WAIT on new energy capital. Relief permission is real, its delivered increment unknown; refinery capture and earnings beyond expectations unproved. October14–15 are evidence dates, not automatic entry dates. The October15 weekly balance predates Russia’s permission. No new Will decision.**
 
 *(Prior: 10/8 → [archive](archive/STATUS_DETAIL_2026-10-09.md) (1772 B, crc32 `a3288962`); 10/7 → [archive](archive/STATUS_summary-for-will_2026-10-07.md), 503 B crc32 `b716a32f`; 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

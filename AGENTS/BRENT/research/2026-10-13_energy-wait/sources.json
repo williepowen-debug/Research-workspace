@@ -1,0 +1,149 @@
+{
+  "retrieval_day": "2026-10-13",
+  "runtime": "OpenAI Codex; GPT-6 family; variant/session ID UNKNOWN",
+  "desk": "/home/willi/Research-workspace/AGENTS/BRENT",
+  "supersedes": "none; bounded continuation of existing L689/L694",
+  "owner_sources": [
+    {
+      "path": "../../AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md",
+      "bytes": 22192,
+      "sha256": "32a377ed286c64d1b1161288ad1921eb2c4b3e208074b7238b3161ac9d860856"
+    },
+    {
+      "path": "../../AGENTS/YURI/research/2026-10-12_actor-review-and-diesel-instruments.md",
+      "bytes": 17783,
+      "sha256": "e10978779bc3183e62322ae2499c979fd38993acee3a97ea3af420dc997a654c"
+    },
+    {
+      "path": "../../AGENTS/YURI/sources/2026-10-12-followup/government-release.txt",
+      "bytes": 15211,
+      "sha256": "5c2559701809d18123d8506f6bb3ac93400662bb787619a76aec68d198efe9b8"
+    },
+    {
+      "path": "../../PROME/reports/2026-10-13_research-and-next-trades.md",
+      "bytes": 10020,
+      "sha256": "e2dea28e69ffc5884d80fa3b2976d7216de3e11e9f9099c9315d54bcb2beb804"
+    },
+    {
+      "path": "research/2026-10-12_L694-energy-disposition/NOTE.md",
+      "bytes": 4864,
+      "sha256": "e2830b57bedcc3f3fe6bb0d0bce167e327de94532ba13c4f99d9c71d77e6d508"
+    },
+    {
+      "path": "../../AGENTS/TERRY/setups/MPC_refiner-margin-resilience_L689_2026-10-12.md",
+      "bytes": 10473,
+      "sha256": "731a061f465a0fef61108bdd1011ee0f540ec0dcb6f267e5ebb86521622f7d6e"
+    }
+  ],
+  "web_sources": [
+    {
+      "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+      "result": "body read: outstanding March commitments"
+    },
+    {
+      "url": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
+      "result": "body read: acceleration versus possible supplemental; Board October15"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr",
+      "result": "body read: October14,10:00Paris schedule"
+    },
+    {
+      "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+      "result": "body read: weekOctober9 releaseOctober15 noonET"
+    },
+    {
+      "url": "https://ir.marathonpetroleum.com/investor/news-releases/news-details/2026/Marathon-Petroleum-Corp--Reports-Second-Quarter-2026-Results/default.aspx",
+      "result": "body read: historical Q2 / Q3 operating forecast"
+    },
+    {
+      "url": "https://www.marathonpetroleum.com/Investors/Investor-Market-Data/",
+      "result": "body read; financial-documents iframe did not yield margin data"
+    },
+    {
+      "url": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-Delivers-Strong-Second-Quarter-Results-and-Operating-Performance/default.aspx",
+      "result": "body read: historical Q2"
+    },
+    {
+      "url": "https://www.iea.org/commentaries/russian-refining-sector-struggles-amid-intensifying-ukrainian-attacks",
+      "result": "body read: September17 estimates, not current offline capacity"
+    },
+    {
+      "url": "http://government.ru/news/60156/",
+      "result": "direct web open unavailable; saved YURI primary text read"
+    },
+    {
+      "url": "https://www.macroaxis.com/earnings-estimate/MPC?showFullEarningsHistory=true",
+      "result": "body read: Q3 EPS23.15/19analysts; estimate timestamp/accounting basis unverified; quote unused"
+    },
+    {
+      "url": "https://www.tipranks.com/stocks/mpc/earnings",
+      "result": "body available; indexed EPS25.09 not reproduced by find; rejected as load-bearing"
+    },
+    {
+      "url": "https://www.zacks.com/stock/quote/MPC/detailed-earning-estimates",
+      "result": "403; staged indexed value not verified; rejected"
+    },
+    {
+      "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+      "result": "404 before scheduled publication; not a cancellation"
+    },
+    {
+      "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias7",
+      "result": "guessed URL unavailable; no observation inferred"
+    }
+  ],
+  "bounded_searches": [
+    "issuer-domain post-storm Pascagoula/Saraland/Chalmette/Meraux run-state searches: no qualifying update recovered; pre-storm/community material excluded",
+    "MPC issuer current operation/expectations search: no authenticated current site/segment surprise obtained"
+  ],
+  "sensitivity": {
+    "classification": "arithmetic scenario, not forecast",
+    "guidance_total_throughput_million_bpd": "3.005",
+    "days": 92,
+    "realized_margin_change_usd_per_bbl": "1",
+    "gross_margin_million_usd": "276.460"
+  },
+  "before_images": [
+    {
+      "path": "research/2026-10-13_energy-wait/SCRATCH-before.md",
+      "payload_rule": "whole file, exact original bytes",
+      "utf8_bytes": 5241,
+      "crc32": "dbc8a7e6"
+    },
+    {
+      "path": "research/2026-10-13_energy-wait/NEXUS_BRIEF-before.md",
+      "payload_rule": "whole file, exact original bytes",
+      "utf8_bytes": 23711,
+      "crc32": "604c4f0f"
+    }
+  ],
+  "late_primary_recovery": {
+    "origin": "DEWEY raw-source directory, no owner-final/consumption assertion",
+    "publication_day_france": "2026-10-07",
+    "france_reiterated_summary": "2026-10-12",
+    "france_announcement_bbl": 10000000,
+    "additionality_delivery": "UNKNOWN",
+    "cme": {
+      "source": "CME FINAL bulletin196, session2026-10-12, page1",
+      "pdf_sha256": "c3c764cc2cbd7270671be83bdd6b38880bfa472ec8ff6751e79b236fd89b7511",
+      "inspection": "PDF page1 visually read; columns/product names/maturities/header inspected",
+      "HOX26": "4.7232",
+      "CLX26": "93.74",
+      "HOZ26": "4.5868",
+      "CLZ26": "92.86",
+      "nov_crack": "104.6344",
+      "dec_crack": "99.7856",
+      "nov_change_from_bulletin_pt_changes": "-2.5284",
+      "dec_change_from_bulletin_pt_changes": "-1.9172",
+      "basis": "NYH ULSD futures minus WTI futures, same month; not realized Gulf margin",
+      "holding_grade": "not assigned; TERRY owner; not2026-10-13 observation"
+    }
+  },
+  "late_owner_checkpoint": {
+    "path": "AGENTS/DEWEY/output/2026-10-13_diesel-delivery-and-primary-document-checkpoint.md",
+    "received_sha256": "5be083663c8939fdc6c6f2cb90868a61af20c47aebeb455a766e76384a139e92",
+    "publication_at_consumption": "sender pending local commit; snapshot retained",
+    "state": "PARTIAL; originalOctober14 obligation"
+  }
+}

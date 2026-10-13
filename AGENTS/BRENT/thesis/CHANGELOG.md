@@ -1,3 +1,9 @@
+## 2026-10-13 — energy WAIT evidence continuation; v5.12 unchanged
+
+Old → new evidence: initial Russian permission via wires → saved government announcement primary read; Minerva cargo uncertain → current provider/operator-attributed fertilizer evidence excludes this positive diesel example. Country/product relief: FranceOctober7plan10Mdieselbbl newly recovered; delivery and March/G7overlap unknown. October12 CMEsource gap → FINAL196native pair visually verified; exact inputs at research/2026-10-13_energy-wait/cme-inputs.json. No October13holding grade.
+
+Assessment unchanged: delivered net increment, candidate own-asset capture and earnings beyond comparable expectations unproved; WAIT/TERRYPASS retained. MPC Q3 operating baseline recovered; October relief affects Q4/outlook, not already-ended Q3 operations. IEAOMROctober14schedule now confirmed; October15WPSRweekOctober9 predates Russian permission and most poststorm recovery. No phase, probability, threshold/gate or capital change; future outcome worksheet at [assessment](../research/2026-10-13_energy-wait/REPORT.md). Supersedes: modeled October14 publication-date classification only, not the event date or research duties.
+
 ## 2026-10-12 — reader/obligation audit; v5.12 unchanged
 
 Old → new reader state: L694 pending comparison → PROME accepted bounded pass; wholly unevaluated BNO feasibility → dated TERRY common-share feasible/NO TRADE, no pricing edge. WQ252/HEN46 choice called open → Will's existing WQ392 December decision verified at DOCKET L471 and committed owner packet; HENRY encoding remains separate/unverified. Historical inventory closed-position labels and existing pending-receipt instruction reconciled to current TRADE/September14 repair. No new rule, threshold, forecast or capital authority.
