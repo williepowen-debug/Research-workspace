@@ -2,8 +2,8 @@
 
 **Status:** 🟠 Structural/latent insurer-wrapper stress; evidence remains partial.
 **Domain:** PE-owned insurer assets, statutory capital, reinsurance and funding transmission.
-**As of:** 2026-10-12T22:13:15-04:00 | **STATUS commit:** `fa8c8f6af8af9077105fd7f86259b54e18f76e18`
-**Fold:** LAST canonical write after final STATUS commit, amendments10/11. Will-requested closeout/restart handoff; no fresh source/grade. Runtime termination is user-controlled, not inferred.
+**As of:** 2026-10-13T10:11:47-04:00 | **STATUS commit:** `1c90133bdd48b1b06ad7199d5a5087135e80a660`
+**Fold:** LAST canonical write after final STATUS commit, amendments10/11. Will-requested machine-switch closeout/restart handoff; no fresh source/grade. Runtime termination is user-controlled, not inferred.
 
 | To | Signal | Priority | Mechanism / boundary |
 |---|---|---|---|
@@ -25,3 +25,5 @@
 **Evidence/delivery:** `research/GAP_INVESTIGATION_2026-10-12.md`, sourceindex/routes/inputs/script.55plan/resultentries include4unused and1disclosedafter-useFedroute, not exhaustive research. Rawsource scratch outsideGit, hashes verified. PROME consumed exacte586 delivery/4e6 result at309b2f165 and reproduced stored arithmetic; not independent source/classification/model audit. WQ422 is existing-data access; next decisive acquisition ClearSpring83607 correctedFY25+Q2 fullstatutory/Q1bridge, freeNAICsummary firststep only. WQ423/424 await SHADE exact liquidity/unknown and TSR-or-R/T specs under L241/October23, not adoptedrules. Will accepts passCOMPLETE/evidencePARTIAL; no new sourcepass, paid/outreach/helper/feed/charter/capital change or acknowledgment-only queue loop. All dated assessments retained; reassess on new evidence. Prior result consumption verified; downstream consumption unverified. Will now requests closeout: restart atSCRATCH, raw84files/25,601,491B hash-preserved in persistent localstore outsideGit (CLOSEOUT_STORAGE). Gitpublication/queue evidence follows in dated closeout receipts; no all-fleet or runtime-exit certificate.
 
 **Prior accepted edition:** `git show 4a34a8922:AGENTS/SHADE/NEXUS_BRIEF.md`, historical. Closeout changes handoff/storage/lifecycle metadata, not research judgments or dates.
+
+**October13 machine-switch closeout:** current owner thread01a13335-0ca0-7ee2-b281-97c6affe060e ceases work after the final persistence report. Resume SCRATCH; L673 remains pending after today's regular close and October23 duties retained. Source verification84/84 files25,601,491B, zero hash/size failures; raw store machine-local outsideGit and not transferred by a Git pull. Public URLs/hashes/reconstructions remain committed; copy/reacquire the raw store when needed on the next computer. Dated closeout packet in PROME/inbox; native notification/recipient consumption UNKNOWN. No research finding/score/grade/capital change. Final publication verified separately by the approved safe-push receipt.
