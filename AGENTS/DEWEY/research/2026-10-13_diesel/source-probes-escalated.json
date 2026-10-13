@@ -1,0 +1,155 @@
+[
+  {
+    "key": "iea-oct7",
+    "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+    "retrieved_utc": "2026-10-13T23:04:53.040412+00:00",
+    "status": 403,
+    "bytes": 5803,
+    "sha256": "0f2a9351642792e53b69caa6762c3af44cb4a59dfe4a00c13f11b08b67011e47",
+    "final_url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026"
+  },
+  {
+    "key": "iea-oct11",
+    "url": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
+    "retrieved_utc": "2026-10-13T23:04:53.040824+00:00",
+    "status": 403,
+    "bytes": 5686,
+    "sha256": "4067cd02a1b0e53f0617fd7831e7b18273e8cdd0ed74788c58c933ec4a5e38fc",
+    "final_url": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation"
+  },
+  {
+    "key": "france-gazole",
+    "url": "https://www.info.gouv.fr/public/index.php/actualite/baisse-du-prix-du-gazole-ce-qui-va-changer-a-la-pompe",
+    "retrieved_utc": "2026-10-13T23:04:53.042265+00:00",
+    "status": 403,
+    "bytes": 5743,
+    "sha256": "4883784e4a32717824d7f9a8b27606f20d8412207fee0a01ceb665d639f2891c",
+    "final_url": "https://www.info.gouv.fr/public/index.php/actualite/baisse-du-prix-du-gazole-ce-qui-va-changer-a-la-pompe"
+  },
+  {
+    "key": "france-support-oct12",
+    "url": "https://www.economie.gouv.fr/actualites/crise-au-moyen-orient-toutes-les-mesures-de-soutien-economique",
+    "retrieved_utc": "2026-10-13T23:04:53.043033+00:00",
+    "status": 403,
+    "bytes": 5726,
+    "sha256": "8b8e638a1c6a71eb693e0014942bed93d71b7878a2fc6756796cfae8135ee73f",
+    "final_url": "https://www.economie.gouv.fr/actualites/crise-au-moyen-orient-toutes-les-mesures-de-soutien-economique"
+  },
+  {
+    "key": "serveporto-lineup",
+    "url": "https://serveporto.com.br/atuacao/",
+    "retrieved_utc": "2026-10-13T23:04:53.044065+00:00",
+    "status": 200,
+    "bytes": 249099,
+    "sha256": "ac04fb0cf7dac06d15ce356b596072764869cee4bb4809a39eff5fc3daf4cae2",
+    "final_url": "https://serveporto.com.br/atuacao/"
+  },
+  {
+    "key": "russia-60156",
+    "url": "http://government.ru/news/60156/",
+    "retrieved_utc": "2026-10-13T23:04:53.044887+00:00",
+    "status": 200,
+    "bytes": 95801,
+    "sha256": "1c1a47fbd6b5490341586e77c34923d22fe0556564601d59e64d2e7ca7189c50",
+    "final_url": "http://government.ru/news/60156/"
+  },
+  {
+    "key": "spglobal-oct12",
+    "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/101226-russian-diesel-imports-unlikely-to-ease-us-fuel-prices",
+    "retrieved_utc": "2026-10-13T23:04:53.045638+00:00",
+    "status": 403,
+    "bytes": 694,
+    "sha256": "59ac988d9f950aa502188e3a53005e4d400c425fe928a863828d4a2df70a0a61",
+    "final_url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/101226-russian-diesel-imports-unlikely-to-ease-us-fuel-prices"
+  },
+  {
+    "key": "ofac-gl135",
+    "url": "https://ofac.treasury.gov/media/937216/download?inline",
+    "retrieved_utc": "2026-10-13T23:04:53.046308+00:00",
+    "status": 200,
+    "bytes": 190208,
+    "sha256": "b42bed871cff3162540bc645eba298e4c0cf73d0a5b1712879a3f4fec060d65b",
+    "final_url": "https://ofac.treasury.gov/media/937216/download?inline"
+  },
+  {
+    "key": "russia-search-954-oct13",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=954&DocumentDateSearchType=0&DocumentDateFrom=30.07.2026&DocumentDateTo=13.10.2026&pageSize=100",
+    "retrieved_utc": "2026-10-13T23:04:53.167305+00:00",
+    "status": 200,
+    "bytes": 38452,
+    "sha256": "a4607adb8e54c16d651b6cea9c77bfdebc864f2a60b79947e025ac59789a89e8",
+    "final_url": "http://publication.pravo.gov.ru/search/government?Name=954&DocumentDateSearchType=0&DocumentDateFrom=30.07.2026&DocumentDateTo=13.10.2026&pageSize=100"
+  },
+  {
+    "key": "russia-search-fuel-oct13",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=100",
+    "retrieved_utc": "2026-10-13T23:04:53.167972+00:00",
+    "status": 200,
+    "bytes": 29460,
+    "sha256": "5fba682eed55a6f10edcfc4c23c5707c67606665963adb66f0bcf824b14bf8bb",
+    "final_url": "http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=100"
+  },
+  {
+    "key": "russia-search-export-oct13",
+    "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B2%D1%8B%D0%B2%D0%BE%D0%B7&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=100",
+    "retrieved_utc": "2026-10-13T23:04:53.518215+00:00",
+    "status": 200,
+    "bytes": 29446,
+    "sha256": "cd2ac848ea07515fd0ffae9527d18457dab1a5ca7bf99578eedfced1a8768a8c",
+    "final_url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B2%D1%8B%D0%B2%D0%BE%D0%B7&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=13.10.2026&pageSize=100"
+  },
+  {
+    "key": "france-press1098",
+    "url": "https://presse.economie.gouv.fr/le-gouvernement-met-sur-le-marche-10-millions-de-barils-de-diesel-pour-une-baisse-de-prix-estimee-a-de-12-a-18-centimes-du-litre/",
+    "retrieved_utc": "2026-10-13T23:04:53.521081+00:00",
+    "status": 200,
+    "bytes": 83162,
+    "sha256": "f19189c9f5a90f9ccaba2d711ebd02f4687d81470a6fcce0aae598345f09f57f",
+    "final_url": "https://presse.economie.gouv.fr/le-gouvernement-met-sur-le-marche-10-millions-de-barils-de-diesel-pour-une-baisse-de-prix-estimee-a-de-12-a-18-centimes-du-litre/"
+  },
+  {
+    "key": "ebv-oil-tenders",
+    "url": "https://www.ebv-oil.org/cms/cms2.asp?cof=59&nid=&sid=189",
+    "retrieved_utc": "2026-10-13T23:04:53.586176+00:00",
+    "status": 200,
+    "bytes": 8537,
+    "sha256": "71ac122c1d3957eeb31d02722d031326145bc95f6c1a0bf6185ff1143c27791c",
+    "final_url": "https://www.ebv-oil.org/cms/cms2.asp?cof=59&nid=&sid=189"
+  },
+  {
+    "key": "santarem-lineup",
+    "url": "https://serveporto.com.br/atuacao/santarem-pa/",
+    "retrieved_utc": "2026-10-13T23:04:53.614016+00:00",
+    "status": 200,
+    "bytes": 162134,
+    "sha256": "dd7b5ca94a288bc7cd42217457a6bf10bb53f2b4aacd60724830397f5933eb56",
+    "final_url": "https://serveporto.com.br/atuacao/santarem-pa/"
+  },
+  {
+    "key": "vila-do-conde-lineup",
+    "url": "https://serveporto.com.br/atuacao/vila-do-conde-pa/",
+    "retrieved_utc": "2026-10-13T23:04:54.424102+00:00",
+    "status": 200,
+    "bytes": 182353,
+    "sha256": "a7c59b36293ad7edf1e4eb25b14e4575d233cb0f365eba259085cff41ec1610b",
+    "final_url": "https://serveporto.com.br/atuacao/vila-do-conde-pa/"
+  },
+  {
+    "key": "cme-oct12-final",
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf",
+    "retrieved_utc": "2026-10-13T23:04:54.519289+00:00",
+    "status": 200,
+    "bytes": 246012,
+    "sha256": "c3c764cc2cbd7270671be83bdd6b38880bfa472ec8ff6751e79b236fd89b7511",
+    "final_url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf"
+  },
+  {
+    "key": "eia-weekly-imports",
+    "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIIMUS2&f=W",
+    "retrieved_utc": "2026-10-13T23:04:54.555072+00:00",
+    "status": 200,
+    "bytes": 235156,
+    "sha256": "94f33274b6ceb6e4c6c0255326124ec0b0aa92b4ad09a8f95fde44d608c12bf1",
+    "final_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIIMUS2&f=W"
+  }
+]

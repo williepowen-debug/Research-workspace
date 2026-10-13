@@ -1,0 +1,69 @@
+{
+  "asof_utc": "2026-10-13T23:09:11.910214+00:00",
+  "source_hashes_verified": true,
+  "permission_tonnes": 500000,
+  "conversion_bbl_per_tonne": 7.45,
+  "permission_barrels": 3725000,
+  "france_uniform_92day_scenario_kbd": 108.69565217391305,
+  "CME": {
+    "date": "2026-10-12",
+    "bulletin": 196,
+    "status": "FINAL",
+    "page": 1,
+    "November": {
+      "HO": 4.7232,
+      "CL": 93.74,
+      "crack": 104.6344
+    },
+    "December": {
+      "HO": 4.5868,
+      "CL": 92.86,
+      "crack": 99.7856
+    }
+  },
+  "cargo_leads": [
+    {
+      "vessel": "Corallo I",
+      "port": "Vila do Conde,TGL501external",
+      "product": "DIESEL S10",
+      "quantity_literal": "10.000",
+      "unit": "UNKNOWN",
+      "arrival": "2026-10-03",
+      "berth": "2026-10-03",
+      "sailing": "2026-10-06",
+      "origin": "UNKNOWN",
+      "delivered_receipt": "UNKNOWN"
+    },
+    {
+      "vessel": "Tweed",
+      "port": "Santarem",
+      "product": "Gasoline + Diesel",
+      "quantity_literal": "23.900",
+      "unit": "UNKNOWN",
+      "arrival": "2026-10-11",
+      "berth": "2026-10-13",
+      "sailing": "2026-10-15",
+      "origin": "UNKNOWN",
+      "delivered_receipt": "UNKNOWN"
+    },
+    {
+      "vessel": "Clearocean Melody",
+      "port": "Santarem",
+      "product": "Diesel",
+      "quantity_literal": "34.000",
+      "unit": "UNKNOWN",
+      "arrival": "2026-10-13",
+      "berth": "2026-10-15",
+      "sailing": "2026-10-17",
+      "origin": "UNKNOWN",
+      "delivered_receipt": "UNKNOWN"
+    }
+  ],
+  "delivered_increment": "UNKNOWN",
+  "russia_title_queries": {
+    "954": "3/3:954,1097,1252",
+    "fuel_9to13Oct": "documents not found",
+    "export_9to13Oct": "documents not found",
+    "coverage": "title-query only;not complete bodies or non-public acts"
+  }
+}

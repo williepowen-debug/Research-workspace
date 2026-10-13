@@ -1,0 +1,268 @@
+www.ice.com (https://www.ice.com/marketdata/reports/104)
+citeturn15view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn13view0","lineno":38}); Redirected to URL: https://www.ice.com/report/104; Total lines: 139
+L3: ####
+L4: 
+L5: To view all report categories or recently viewed reports, please scroll down.
+L6: 
+L7: Reports
+L8: 
+L9:   * End of day
+L10: 
+L11: Daily futures and options reports from each exchange
+L12: 
+L13:   * Futures U.S. commodity and indices data
+L14: 
+L15:   * Indices
+L16: 
+L17: Daily index reporting
+L18: 
+L19:   * ICE Benchmark Administration
+L20: 
+L21: LIBOR, ICE Swap Rate, LBMA Gold and Silver prices and treasuries
+L22: 
+L23:   * Commitments of Traders
+L24: 
+L25: Report detailing trader positions
+L26: 
+L27:   * Volumes & OI
+L28: 
+L29: Preliminary, daily and historical volume & open interest data
+L30: 
+L31:   * Markers
+L32: Representative weighted average of trades for specific contracts
+L33: 
+L34:   * Deliveries & settlements
+L35: 
+L36: Delivery summaries, daily settlement prices, and notices
+L37: 
+L38:   * Commodity and certified stock reports
+L39: 
+L40: Soft commodity reports
+L41: 
+L42:   * Other reports
+L43: 
+L44: Including UIC (Unique Instrument Codes), auctions, and options exercise
+L45: 
+L46:   * Recently Viewed
+L47: 
+L48: End of day report packages in .csv format are available for purchase on a subscription basis. cite0†Learn more L49: ##### ICE Futures Europe
+L50: 
+L51:   * cite1†Futures L52:   * cite2†Options L53:   * cite3†S2F Futures L54:   * cite4†S2F Options L55:   * cite5†EDSP - Commodities L56:   * cite6†EDSP - Equity Indices L57:   * cite7†EDSP - Financials L58:   * cite8†EDSP - MSCI Index Futures L59:   * cite9†EDSP - IFEU Japanese Power L60:   * cite10†Consolidated Options - Financials L61: 
+L62: ##### ICE Endex
+L63: 
+L64:   * cite11†Futures L65:   * cite12†Options L66: 
+L67: ##### ICE Futures Abu Dhabi
+L68: 
+L69:   * cite13†Futures L70:   * cite14†EDSP - IFAD MSCI Index Futures L71: ##### ICE Futures U.S.
+L72: 
+L73:   * cite15†Futures L74:   * cite16†Options L75:   * cite17†EDSP - IFUS MSCI Index Futures L76: 
+L77: ##### ICE Futures U.S. - energy division
+L78: 
+L79:   * cite18†Futures L80:   * cite19†Options L81: 
+L82: ##### ICE Futures Singapore
+L83: 
+L84:   * cite20†Futures L85: ##### ICE Swap Trade
+L86: 
+L87:   * cite21†IST Commodities L88:   * cite22†IST Credit L89:   * cite23†IST Daily Market Data report L90: 
+L91:   *   *   *   * ##### Solutions
+L92: 
+L93:   * cite24†Exchanges and Clearing L94:   * cite25†Fixed Income and Data Services L95:   * cite26†Mortgage Technology†mortgagetech.ice.com L96:   * cite27†Benchmark Administration L97: 
+L98: ##### Tools and Sources
+L99: 
+L100:   * cite28†Markets L101:   * cite29†Clearing L102:   * cite30†Product guide L103:   * cite31†Market reports L104:   * cite32†Expiry calendars L105:   * cite33†Margins L106:   * cite34†Fees --------------------------------------------------------------------------------
+www.ice.com (https://www.ice.com/marketdata/reports/10)
+citeturn15view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn13view1","lineno":38}); Redirected to URL: https://www.ice.com/report/10; Total lines: 139
+L3: ####
+L4: 
+L5: To view all report categories or recently viewed reports, please scroll down.
+L6: 
+L7: Reports
+L8: 
+L9:   * End of day
+L10: 
+L11: Daily futures and options reports from each exchange
+L12: 
+L13:   * Futures U.S. commodity and indices data
+L14: 
+L15:   * Indices
+L16: 
+L17: Daily index reporting
+L18: 
+L19:   * ICE Benchmark Administration
+L20: 
+L21: LIBOR, ICE Swap Rate, LBMA Gold and Silver prices and treasuries
+L22: 
+L23:   * Commitments of Traders
+L24: 
+L25: Report detailing trader positions
+L26: 
+L27:   * Volumes & OI
+L28: 
+L29: Preliminary, daily and historical volume & open interest data
+L30: 
+L31:   * Markers
+L32: Representative weighted average of trades for specific contracts
+L33: 
+L34:   * Deliveries & settlements
+L35: 
+L36: Delivery summaries, daily settlement prices, and notices
+L37: 
+L38:   * Commodity and certified stock reports
+L39: 
+L40: Soft commodity reports
+L41: 
+L42:   * Other reports
+L43: 
+L44: Including UIC (Unique Instrument Codes), auctions, and options exercise
+L45: 
+L46:   * Recently Viewed
+L47: 
+L48: End of day report packages in .csv format are available for purchase on a subscription basis. cite0†Learn more L49: ##### ICE Futures Europe
+L50: 
+L51:   * cite1†Futures L52:   * cite2†Options L53:   * cite3†S2F Futures L54:   * cite4†S2F Options L55:   * cite5†EDSP - Commodities L56:   * cite6†EDSP - Equity Indices L57:   * cite7†EDSP - Financials L58:   * cite8†EDSP - MSCI Index Futures L59:   * cite9†EDSP - IFEU Japanese Power L60:   * cite10†Consolidated Options - Financials L61: 
+L62: ##### ICE Endex
+L63: 
+L64:   * cite11†Futures L65:   * cite12†Options L66: 
+L67: ##### ICE Futures Abu Dhabi
+L68: 
+L69:   * cite13†Futures L70:   * cite14†EDSP - IFAD MSCI Index Futures L71: ##### ICE Futures U.S.
+L72: 
+L73:   * cite15†Futures L74:   * cite16†Options L75:   * cite17†EDSP - IFUS MSCI Index Futures L76: 
+L77: ##### ICE Futures U.S. - energy division
+L78: 
+L79:   * cite18†Futures L80:   * cite19†Options L81: 
+L82: ##### ICE Futures Singapore
+L83: 
+L84:   * cite20†Futures L85: ##### ICE Swap Trade
+L86: 
+L87:   * cite21†IST Commodities L88:   * cite22†IST Credit L89:   * cite23†IST Daily Market Data report L90: 
+L91:   *   *   *   * ##### Solutions
+L92: 
+L93:   * cite24†Exchanges and Clearing L94:   * cite25†Fixed Income and Data Services L95:   * cite26†Mortgage Technology†mortgagetech.ice.com L96:   * cite27†Benchmark Administration L97: 
+L98: ##### Tools and Sources
+--------------------------------------------------------------------------------
+Actualités | SAGESS (https://www.sagess.fr/fr/actualites)
+citeturn15view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn12view2","lineno":11}); Total lines: 68
+L0: Gestion des stocks
+L1: de sécurité pétroliers
+L2: 
+L3: [Input: Rechercher]
+L4: 
+L5: [Input]
+L6: 
+L7: Menu
+L8: 
+L9: [Input: Rechercher]
+L10: 
+L11: # Actualités
+L12: 
+L13: 2026-06-11
+L14: 
+L15: ## Rapport RSE 2025
+L16: 
+L17: Vous trouverez ci-dessous le rapport RSE de la SAGESS pour l'exercice 2025. Ce rapport est publié dans le cadre d'une démarche volontaire.
+L18: 
+L19: cite0†Lire la suite L20: 
+L21: 2026-02-12
+L22: 
+L23: ## Appel à propositions 2026 - recherche de capacités d'entreposage par la SAGESS
+L24: 
+L25: cite1†Lire la suite L26: 
+L27: 2025-09-03
+L28: ## Brochure institutionnelle (mise à jour juillet 2025)
+L29: 
+L30: Vous trouverez ici notre brochure institutionnelle 2025.
+L31: 
+L32: cite2†Lire la suite L33: 
+L34: 2025-05-23
+L35: 
+L36: ## Déclaration de Performance Extra-Financière 2024
+L37: 
+L38: Vous trouverez ci-dessous la Déclaration de Performance Extra-Financière de la SAGESS pour l'exercice 2024. Ce rapport est publié dans le cadre d'une démarche volontaire.
+L39: 
+L40: cite3†Lire la suite L41: 
+L42: 2025-02-14
+L43: ## Appel à propositions 2025 - recherche de capacités d'entreposage par la SAGESS
+L44: 
+L45: cite4†Lire la suite L46: 
+L47: 2024-06-18
+L48: 
+L49: ## Déclaration de performance extra-financière 2023
+L50: 
+L51: Vous trouverez ci-dessous la déclaration de performance extra-financière de la SAGESS pour l'exercice 2023. Ce rapport est publié dans le cadre d'une démarche volontaire.
+L52: 
+L53: cite5†Lire la suite L54: 
+L55: 2024-02-21
+--------------------------------------------------------------------------------
+Weekly U.S. Imports of Distillate Fuel Oil (Thousand Barrels per Day) (https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=WDIIMUS2)
+citeturn15view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn13view3","lineno":537}); Total lines: 550
+L531:   2026-Mar  | 03/06   | 179     | 03/13   | 221     | 03/20   | 155     | 03/27   | 117     |    |
+L532:   2026-Apr  | 04/03   | 152     | 04/10   | 118     | 04/17   | 190     | 04/24   | 126     |    |
+L533:   2026-May  | 05/01   | 123     | 05/08   | 214     | 05/15   | 173     | 05/22   | 127     | 05/29   | 121
+L534:   2026-Jun  | 06/05   | 130     | 06/12   | 127     | 06/19   | 135     | 06/26   | 108     |    |
+L535:   2026-Jul  | 07/03   | 87     | 07/10   | 93     | 07/17   | 173     | 07/24   | 98     | 07/31   | 99
+L536:   2026-Aug  | 08/07   | 111     | 08/14   | 109     | 08/21   | 176     | 08/28   | 113     |    |
+L537:   2026-Sep  | 09/04   | 185     | 09/11   | 114     | 09/18   | 85     | 09/25   | 153     |    |
+L538:   2026-Oct  | 10/02   | 118     |    |      |    |      |    |      |    |
+L539: * * *
+L540: 
+L541: - = No Data Reported;  -- = Not Applicable;  NA = Not Available;  W = Withheld to avoid disclosure of individual company data.
+L542: Release Date: 10/7/2026
+L543: Next Release Date: 10/15/2026
+L544: 
+L545: Referring Pages:
+L546: 
+L547:   * cite4†Imports of Distillate Fuel Oil L548:   * cite5†Imports of Distillate Fuel Oil L549:   * cite6†U.S. Imports & Exports --------------------------------------------------------------------------------
+Monthly Oil Statistics - Data product - IEA (https://www.iea.org/data-and-statistics/data-product/monthly-oil-statistics)
+citeturn15view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn12view1","lineno":60}); Total lines: 622
+L33: ##### Create an account
+L34: 
+L35: Create a free IEA account to download our reports or subcribe to a paid service.
+L36: 
+L37: cite8†Join for free L38: 
+L39: #### Cite product
+L40: 
+L41: IEA, Monthly Oil Statistics, IEA, Paris https://www.iea.org/data-and-statistics/data-product/monthly-oil-statistics, Licence: Terms of Use for Non-CC Material
+L42: 
+L43: Copy to clipboard
+L44: 
+L45: #### Share
+L46: 
+L47:   * cite9†Twitter L48:   * cite9†Facebook L49:   * cite9†LinkedIn L50:   * cite9†Bluesky L51:   * cite9†Email L52:   * cite9†Print L53: 
+L54: Free
+L55: # Monthly Oil Statistics
+L56: 
+L57: Monthly oil statistics for OECD countries
+L58: 
+L59: Last updated September 2026
+L60: 
+L61: Next release 14th October 2026
+L62: 
+L63: Licence
+L64: 
+L65: cite10†Terms of Use for Non-CC Material L66: 
+L67: cite11†Overview cite12†Data sets cite13†Schedule L68: 
+L69: cite9†Cite cite9†Share L70: 
+L71: cite9†Download L72: ### Overview
+L73: This report includes the latest monthly data on oil production for all OECD member countries, and imports, exports, refinery outputs and net deliveries for major product categories for all OECD regions.
+L74: The publication also includes total oil stock levels and stock changes for major product categories for all OECD member countries. Together with the latest month data are included the last two year and last quarter aggregates, the year-to-date figures for the current and previous year and the year-on-year and year-to-date percentage changes.
+L75: ## Data sets
+L76: 
+L77:   * cite14†Monthly OECD oil statistics 1 files L78: 
+L79: ### Monthly OECD oil statistics
+L80: 
+L81: Latest monthly data on oil production, imports, exports, refinery outputs, deliveries and stocks for all OECD Member countries through June 2026.
+L82: 
+L83:   * File
+L84: 
+L85: Updated
+L86: 
+L87: Download
+L88: 
+L89: .Stat Suite
+L90: 
+L91:   * September 2026 monthly oil statistics
+L92: 
+L93: 11/09/2026
+L94: 
+L95:     * cite9†XLSX L96:     * cite9†CSV L97:     * cite9†PDF 

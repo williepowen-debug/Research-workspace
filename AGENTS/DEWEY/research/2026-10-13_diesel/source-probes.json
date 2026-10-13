@@ -1,0 +1,50 @@
+[
+  {
+    "key": "iea-oct7",
+    "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+    "retrieved_utc": "2026-10-13T23:00:42.071404+00:00",
+    "error": "HTTPSConnectionPool(host='www.iea.org', port=443): Max retries exceeded with url: /news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x76ddda3633e0>: Failed to resolve 'www.iea.org' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "iea-oct11",
+    "url": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
+    "retrieved_utc": "2026-10-13T23:00:42.071982+00:00",
+    "error": "HTTPSConnectionPool(host='www.iea.org', port=443): Max retries exceeded with url: /news/iea-statement-on-responding-to-the-global-diesel-market-situation (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x76dddb4b3a10>: Failed to resolve 'www.iea.org' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "france-gazole",
+    "url": "https://www.info.gouv.fr/public/index.php/actualite/baisse-du-prix-du-gazole-ce-qui-va-changer-a-la-pompe",
+    "retrieved_utc": "2026-10-13T23:00:42.073396+00:00",
+    "error": "HTTPSConnectionPool(host='www.info.gouv.fr', port=443): Max retries exceeded with url: /public/index.php/actualite/baisse-du-prix-du-gazole-ce-qui-va-changer-a-la-pompe (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x76ddda362630>: Failed to resolve 'www.info.gouv.fr' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "france-support-oct12",
+    "url": "https://www.economie.gouv.fr/actualites/crise-au-moyen-orient-toutes-les-mesures-de-soutien-economique",
+    "retrieved_utc": "2026-10-13T23:00:42.074324+00:00",
+    "error": "HTTPSConnectionPool(host='www.economie.gouv.fr', port=443): Max retries exceeded with url: /actualites/crise-au-moyen-orient-toutes-les-mesures-de-soutien-economique (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x76ddda3635c0>: Failed to resolve 'www.economie.gouv.fr' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "serveporto-lineup",
+    "url": "https://serveporto.com.br/atuacao/",
+    "retrieved_utc": "2026-10-13T23:00:42.076066+00:00",
+    "error": "HTTPSConnectionPool(host='serveporto.com.br', port=443): Max retries exceeded with url: /atuacao/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x76ddda362c90>: Failed to resolve 'serveporto.com.br' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "russia-60156",
+    "url": "http://government.ru/news/60156/",
+    "retrieved_utc": "2026-10-13T23:00:42.076474+00:00",
+    "error": "HTTPConnectionPool(host='government.ru', port=80): Max retries exceeded with url: /news/60156/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x76ddda360b00>: Failed to resolve 'government.ru' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "spglobal-oct12",
+    "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/101226-russian-diesel-imports-unlikely-to-ease-us-fuel-prices",
+    "retrieved_utc": "2026-10-13T23:00:42.077518+00:00",
+    "error": "HTTPSConnectionPool(host='www.spglobal.com', port=443): Max retries exceeded with url: /energy/en/news-research/latest-news/crude-oil/101226-russian-diesel-imports-unlikely-to-ease-us-fuel-prices (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x76ddda362ff0>: Failed to resolve 'www.spglobal.com' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "ofac-gl135",
+    "url": "https://ofac.treasury.gov/media/937216/download?inline",
+    "retrieved_utc": "2026-10-13T23:00:42.078228+00:00",
+    "error": "HTTPSConnectionPool(host='ofac.treasury.gov', port=443): Max retries exceeded with url: /media/937216/download?inline (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x76ddda362360>: Failed to resolve 'ofac.treasury.gov' ([Errno -2] Name or service not known)\"))"
+  }
+]

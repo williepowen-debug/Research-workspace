@@ -1,0 +1,1690 @@
+Atuação – Serveporto Group
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+.ast-no-sidebar .entry-content .alignfull {margin-left: calc( -50vw + 50%);margin-right: calc( -50vw + 50%);max-width: 100vw;width: 100vw;}.ast-no-sidebar .entry-content .alignwide {margin-left: calc(-41vw + 50%);margin-right: calc(-41vw + 50%);max-width: unset;width: unset;}.ast-no-sidebar .entry-content .alignfull .alignfull,.ast-no-sidebar .entry-content .alignfull .alignwide,.ast-no-sidebar .entry-content .alignwide .alignfull,.ast-no-sidebar .entry-content .alignwide .alignwide,.ast-no-sidebar .entry-content .wp-block-column .alignfull,.ast-no-sidebar .entry-content .wp-block-column .alignwide{width: 100%;margin-left: auto;margin-right: auto;}.wp-block-gallery,.blocks-gallery-grid {margin: 0;}.wp-block-separator {max-width: 100px;}.wp-block-separator.is-style-wide,.wp-block-separator.is-style-dots {max-width: none;}.entry-content .has-2-columns .wp-block-column:first-child {padding-right: 10px;}.entry-content .has-2-columns .wp-block-column:last-child {padding-left: 10px;}@media (max-width: 782px) {.entry-content .wp-block-columns .wp-block-column {flex-basis: 100%;}.entry-content .has-2-columns .wp-block-column:first-child {padding-right: 0;}.entry-content .has-2-columns .wp-block-column:last-child {padding-left: 0;}}body .entry-content .wp-block-latest-posts {margin-left: 0;}body .entry-content .wp-block-latest-posts li {list-style: none;}.ast-no-sidebar .ast-container .entry-content .wp-block-latest-posts {margin-left: 0;}.ast-header-break-point .entry-content .alignwide {margin-left: auto;margin-right: auto;}.entry-content .blocks-gallery-item img {margin-bottom: auto;}.wp-block-pullquote {border-top: 4px solid #555d66;border-bottom: 4px solid #555d66;color: #40464d;}:root{--ast-post-nav-space:0;--ast-container-default-xlg-padding:6.67em;--ast-container-default-lg-padding:5.67em;--ast-container-default-slg-padding:4.34em;--ast-container-default-md-padding:3.34em;--ast-container-default-sm-padding:6.67em;--ast-container-default-xs-padding:2.4em;--ast-container-default-xxs-padding:1.4em;--ast-code-block-background:#EEEEEE;--ast-comment-inputs-background:#FAFAFA;--ast-normal-container-width:1200px;--ast-narrow-container-width:750px;--ast-blog-title-font-weight:normal;--ast-blog-meta-weight:inherit;--ast-global-color-primary:var(--ast-global-color-5);--ast-global-color-secondary:var(--ast-global-color-4);--ast-global-color-alternate-background:var(--ast-global-color-7);--ast-global-color-subtle-background:var(--ast-global-color-6);--ast-bg-style-guide:var( --ast-global-color-secondary,var(--ast-global-color-5) );--ast-shadow-style-guide:0px 0px 4px 0 #00000057;--ast-global-dark-bg-style:#fff;--ast-global-dark-lfs:#fbfbfb;--ast-widget-bg-color:#fafafa;--ast-wc-container-head-bg-color:#fbfbfb;--ast-title-layout-bg:#eeeeee;--ast-search-border-color:#e7e7e7;--ast-lifter-hover-bg:#e6e6e6;--ast-gallery-block-color:#000;--srfm-color-input-label:var(--ast-global-color-2);}html{font-size:93.75%;}a,.page-title{color:#b97a17;}a:hover,a:focus{color:#253877;}body,button,input,select,textarea,.ast-button,.ast-custom-button{font-family:'Open Sans',sans-serif;font-weight:400;font-size:15px;font-size:1rem;line-height:var(--ast-body-line-height,1.65em);}blockquote{color:var(--ast-global-color-3);}.ast-site-identity .site-title a{color:var(--ast-global-color-2);}.site-title{font-size:35px;font-size:2.3333333333333rem;display:none;}.site-header .site-description{font-size:15px;font-size:1rem;display:none;}.entry-title{font-size:26px;font-size:1.7333333333333rem;}.archive .ast-article-post .ast-article-inner,.blog .ast-article-post .ast-article-inner,.archive .ast-article-post .ast-article-inner:hover,.blog .ast-article-post .ast-article-inner:hover{overflow:hidden;}h1,.entry-content :where(h1){font-size:40px;font-size:2.6666666666667rem;line-height:1.4em;}h2,.entry-content :where(h2){font-size:32px;font-size:2.1333333333333rem;line-height:1.3em;}h3,.entry-content :where(h3){font-size:26px;font-size:1.7333333333333rem;line-height:1.3em;}h4,.entry-content :where(h4){font-size:24px;font-size:1.6rem;line-height:1.2em;}h5,.entry-content :where(h5){font-size:20px;font-size:1.3333333333333rem;line-height:1.2em;}h6,.entry-content :where(h6){font-size:16px;font-size:1.0666666666667rem;line-height:1.25em;}::selection{background-color:#253877;color:#ffffff;}body,h1,h2,h3,h4,h5,h6,.entry-title a,.entry-content :where(h1,h2,h3,h4,h5,h6){color:var(--ast-global-color-3);}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#000000;border-color:#b97a17;background-color:#b97a17;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:#b97a17;}input[type="radio"]:checked,input[type=reset],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type=range]::-webkit-slider-thumb{border-color:#b97a17;background-color:#b97a17;box-shadow:none;}.site-footer a:hover + .post-count,.site-footer a:focus + .post-count{background:#b97a17;border-color:#b97a17;}.single .nav-links .nav-previous,.single .nav-links .nav-next{color:#b97a17;}.entry-meta,.entry-meta *{line-height:1.45;color:#b97a17;}.entry-meta a:not(.ast-button):hover,.entry-meta a:not(.ast-button):hover *,.entry-meta a:not(.ast-button):focus,.entry-meta a:not(.ast-button):focus *,.page-links > .page-link,.page-links .page-link:hover,.post-navigation a:hover{color:#253877;}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:#b97a17;}.secondary .calendar_wrap #today,.ast-progress-val span{background:#b97a17;}.secondary a:hover + .post-count,.secondary a:focus + .post-count{background:#b97a17;border-color:#b97a17;}.calendar_wrap #today > a{color:#000000;}.page-links .page-link,.single .post-navigation a{color:#b97a17;}.ast-search-menu-icon .search-form button.search-submit{padding:0 4px;}.ast-search-menu-icon form.search-form{padding-right:0;}.ast-header-search .ast-search-menu-icon.ast-dropdown-active .search-form,.ast-header-search .ast-search-menu-icon.ast-dropdown-active .search-field:focus{transition:all 0.2s;}.search-form input.search-field:focus{outline:none;}.ast-mobile-header-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element),.ast-mobile-popup-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element){padding:15px 20px;}.widget-title,.widget .wp-block-heading{font-size:21px;font-size:1.4rem;color:var(--ast-global-color-3);}.ast-search-menu-icon.slide-search a:focus-visible:focus-visible,.astra-search-icon:focus-visible,#close:focus-visible,a:focus-visible,.ast-menu-toggle:focus-visible,.site .skip-link:focus-visible,.wp-block-loginout input:focus-visible,.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,.ast-header-navigation-arrow:focus-visible,.ast-orders-table__row .ast-orders-table__cell:focus-visible,a#ast-apply-coupon:focus-visible,#ast-apply-coupon:focus-visible,#close:focus-visible,.button.search-submit:focus-visible,#search_submit:focus,.normal-search:focus-visible,.ast-header-account-wrap:focus-visible,.astra-cart-drawer-close:focus,.ast-single-variation:focus,.ast-button:focus,.ast-builder-button-wrap:has(.ast-custom-button-link:focus),.ast-builder-button-wrap .ast-custom-button-link:focus{outline-style:dotted;outline-color:inherit;outline-width:thin;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,input[type="number"]:focus,textarea:focus,.wp-block-search__input:focus,[data-section="section-header-mobile-trigger"] .ast-button-wrap .ast-mobile-menu-trigger-minimal:focus,.ast-mobile-popup-drawer.active .menu-toggle-close:focus,#ast-scroll-top:focus,#coupon_code:focus,#ast-coupon-code:focus{border-style:dotted;border-color:inherit;border-width:thin;}input{outline:none;}.ast-logo-title-inline .site-logo-img{padding-right:1em;}.site-logo-img img{ transition:all 0.2s linear;}body .ast-oembed-container *{position:absolute;top:0;width:100%;height:100%;left:0;}body .wp-block-embed-pocket-casts .ast-oembed-container *{position:unset;}.ast-single-post-featured-section + article {margin-top: 2em;}.site-content .ast-single-post-featured-section img {width: 100%;overflow: hidden;object-fit: cover;}.site > .ast-single-related-posts-container {margin-top: 0;}@media (min-width: 922px) {.ast-desktop .ast-container--narrow {max-width: var(--ast-narrow-container-width);margin: 0 auto;}}.ast-page-builder-template .hentry {margin: 0;}.ast-page-builder-template .site-content > .ast-container {max-width: 100%;padding: 0;}.ast-page-builder-template .site .site-content #primary {padding: 0;margin: 0;}.ast-page-builder-template .no-results {text-align: center;margin: 4em auto;}.ast-page-builder-template .ast-pagination {padding: 2em;}.ast-page-builder-template .entry-header.ast-no-title.ast-no-thumbnail {margin-top: 0;}.ast-page-builder-template .entry-header.ast-header-without-markup {margin-top: 0;margin-bottom: 0;}.ast-page-builder-template .entry-header.ast-no-title.ast-no-meta {margin-bottom: 0;}.ast-page-builder-template.single .post-navigation {padding-bottom: 2em;}.ast-page-builder-template.single-post .site-content > .ast-container {max-width: 100%;}.ast-page-builder-template .entry-header {margin-top: 4em;margin-left: auto;margin-right: auto;padding-left: 20px;padding-right: 20px;}.single.ast-page-builder-template .entry-header {padding-left: 20px;padding-right: 20px;}.ast-page-builder-template .ast-archive-description {margin: 4em auto 0;padding-left: 20px;padding-right: 20px;}.ast-page-builder-template.ast-no-sidebar .entry-content .alignwide {margin-left: 0;margin-right: 0;}@media (max-width:921.99px){#ast-desktop-header{display:none;}}@media (min-width:922px){#ast-mobile-header{display:none;}}.wp-block-buttons.aligncenter{justify-content:center;}@media (min-width:1200px){.wp-block-group .has-background{padding:20px;}}@media (min-width:1200px){.ast-no-sidebar.ast-separate-container .entry-content .wp-block-group.alignwide,.ast-no-sidebar.ast-separate-container .entry-content .wp-block-cover.alignwide{margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px;}.ast-no-sidebar.ast-separate-container .entry-content .wp-block-cover.alignfull,.ast-no-sidebar.ast-separate-container .entry-content .wp-block-group.alignfull{margin-left:-6.67em;margin-right:-6.67em;padding-left:6.67em;padding-right:6.67em;}}@media (min-width:1200px){.wp-block-cover-image.alignwide .wp-block-cover__inner-container,.wp-block-cover.alignwide .wp-block-cover__inner-container,.wp-block-cover-image.alignfull .wp-block-cover__inner-container,.wp-block-cover.alignfull .wp-block-cover__inner-container{width:100%;}}.wp-block-image.aligncenter{margin-left:auto;margin-right:auto;}.wp-block-table.aligncenter{margin-left:auto;margin-right:auto;}.wp-block-buttons .wp-block-button.is-style-outline .wp-block-button__link.wp-element-button,.ast-outline-button,.wp-block-uagb-buttons-child .uagb-buttons-repeater.ast-outline-button{border-top-width:2px;border-right-width:2px;border-bottom-width:2px;border-left-width:2px;font-family:inherit;font-weight:inherit;line-height:1em;}.wp-block-button .wp-block-button__link.wp-element-button.is-style-outline:not(.has-background),.wp-block-button.is-style-outline>.wp-block-button__link.wp-element-button:not(.has-background),.ast-outline-button{background-color:transparent;}.entry-content[data-ast-blocks-layout] > figure{margin-bottom:1em;}.elementor-widget-container .elementor-loop-container .e-loop-item[data-elementor-type="loop-item"]{width:100%;}@media (max-width:921px){.ast-left-sidebar #content > .ast-container{display:flex;flex-direction:column-reverse;width:100%;}.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single{padding:1.5em 2.14em;}.ast-author-box img.avatar{margin:20px 0 0 0;}}@media (min-width:922px){.ast-separate-container.ast-right-sidebar #primary,.ast-separate-container.ast-left-sidebar #primary{border:0;}.search-no-results.ast-separate-container #primary{margin-bottom:4em;}}.wp-block-button .wp-block-button__link{color:#ffffff;}.wp-block-button .wp-block-button__link:hover,.wp-block-button .wp-block-button__link:focus{color:#ffffff;background-color:#253877;border-color:#253877;}.elementor-widget-heading h1.elementor-heading-title{line-height:1.4em;}.elementor-widget-heading h2.elementor-heading-title{line-height:1.3em;}.elementor-widget-heading h3.elementor-heading-title{line-height:1.3em;}.elementor-widget-heading h4.elementor-heading-title{line-height:1.2em;}.elementor-widget-heading h5.elementor-heading-title{line-height:1.2em;}.elementor-widget-heading h6.elementor-heading-title{line-height:1.25em;}.wp-block-button .wp-block-button__link{border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;border-color:#253877;background-color:#253877;color:#ffffff;font-family:inherit;font-weight:inherit;line-height:1em;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;}.menu-toggle,button,.ast-button,.ast-custom-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;color:#ffffff;border-color:#253877;background-color:#253877;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;font-family:inherit;font-weight:inherit;line-height:1em;}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.ast-custom-button:hover .button:hover,.ast-custom-button:hover ,input[type=reset]:hover,input[type=reset]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#ffffff;background-color:#253877;border-color:#253877;}@media (max-width:921px){.ast-mobile-header-stack .main-header-bar .ast-search-menu-icon{display:inline-block;}.ast-header-break-point.ast-header-custom-item-outside .ast-mobile-header-stack .main-header-bar .ast-search-icon{margin:0;}.ast-comment-avatar-wrap img{max-width:2.5em;}.ast-comment-meta{padding:0 1.8888em 1.3333em;}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 2.14em;}.ast-separate-container .comment-respond{padding:2em 2.14em;}}@media (min-width:544px){.ast-container{max-width:100%;}}@media (max-width:544px){.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single,.ast-separate-container .comments-title,.ast-separate-container .ast-archive-description{padding:1.5em 1em;}.ast-separate-container #content .ast-container{padding-left:0.54em;padding-right:0.54em;}.ast-separate-container .ast-comment-list .bypostauthor{padding:.5em;}.ast-search-menu-icon.ast-dropdown-active .search-field{width:170px;}} #ast-mobile-header .ast-site-header-cart-li a{pointer-events:none;}body,.ast-separate-container{background-color:#ffffff;}.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -6.67em;margin-right: -6.67em;width: auto;}@media (max-width: 1200px) {.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -2.4em;margin-right: -2.4em;}}@media (max-width: 768px) {.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -2.14em;margin-right: -2.14em;}}@media (max-width: 544px) {.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -1em;margin-right: -1em;}}.ast-no-sidebar.ast-separate-container .entry-content .alignwide {margin-left: -20px;margin-right: -20px;}.ast-no-sidebar.ast-separate-container .entry-content .wp-block-column .alignfull,.ast-no-sidebar.ast-separate-container .entry-content .wp-block-column .alignwide {margin-left: auto;margin-right: auto;width: 100%;}@media (max-width:921px){.site-title{display:none;}.site-header .site-description{display:none;}h1,.entry-content :where(h1){font-size:30px;}h2,.entry-content :where(h2){font-size:25px;}h3,.entry-content :where(h3){font-size:20px;}}@media (max-width:544px){.site-title{display:none;}.site-header .site-description{display:none;}h1,.entry-content :where(h1){font-size:30px;}h2,.entry-content :where(h2){font-size:25px;}h3,.entry-content :where(h3){font-size:20px;}}@media (max-width:921px){html{font-size:85.5%;}}@media (max-width:544px){html{font-size:85.5%;}}@media (min-width:922px){.ast-container{max-width:1240px;}}@font-face {font-family: "Astra";src: url(https://serveporto.com.br/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url(https://serveporto.com.br/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url(https://serveporto.com.br/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");font-weight: normal;font-style: normal;font-display: swap;}@media (min-width:922px){.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu:hover > .sub-menu,.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu.focus > .sub-menu{margin-left:-0px;}}.site .comments-area{padding-bottom:3em;}.astra-icon-down_arrow::after {content: "\e900";font-family: Astra;}.astra-icon-close::after {content: "\e5cd";font-family: Astra;}.astra-icon-drag_handle::after {content: "\e25d";font-family: Astra;}.astra-icon-format_align_justify::after {content: "\e235";font-family: Astra;}.astra-icon-menu::after {content: "\e5d2";font-family: Astra;}.astra-icon-reorder::after {content: "\e8fe";font-family: Astra;}.astra-icon-search::after {content: "\e8b6";font-family: Astra;}.astra-icon-zoom_in::after {content: "\e56b";font-family: Astra;}.astra-icon-check-circle::after {content: "\e901";font-family: Astra;}.astra-icon-shopping-cart::after {content: "\f07a";font-family: Astra;}.astra-icon-shopping-bag::after {content: "\f290";font-family: Astra;}.astra-icon-shopping-basket::after {content: "\f291";font-family: Astra;}.astra-icon-circle-o::after {content: "\e903";font-family: Astra;}.astra-icon-certificate::after {content: "\e902";font-family: Astra;}blockquote {padding: 1.2em;}:root .has-ast-global-color-0-color{color:var(--ast-global-color-0);}:root .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0);}:root .wp-block-button .has-ast-global-color-0-color{color:var(--ast-global-color-0);}:root .wp-block-button .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0);}:root .has-ast-global-color-1-color{color:var(--ast-global-color-1);}:root .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1);}:root .wp-block-button .has-ast-global-color-1-color{color:var(--ast-global-color-1);}:root .wp-block-button .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1);}:root .has-ast-global-color-2-color{color:var(--ast-global-color-2);}:root .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2);}:root .wp-block-button .has-ast-global-color-2-color{color:var(--ast-global-color-2);}:root .wp-block-button .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2);}:root .has-ast-global-color-3-color{color:var(--ast-global-color-3);}:root .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3);}:root .wp-block-button .has-ast-global-color-3-color{color:var(--ast-global-color-3);}:root .wp-block-button .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3);}:root .has-ast-global-color-4-color{color:var(--ast-global-color-4);}:root .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4);}:root .wp-block-button .has-ast-global-color-4-color{color:var(--ast-global-color-4);}:root .wp-block-button .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4);}:root .has-ast-global-color-5-color{color:var(--ast-global-color-5);}:root .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5);}:root .wp-block-button .has-ast-global-color-5-color{color:var(--ast-global-color-5);}:root .wp-block-button .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5);}:root .has-ast-global-color-6-color{color:var(--ast-global-color-6);}:root .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6);}:root .wp-block-button .has-ast-global-color-6-color{color:var(--ast-global-color-6);}:root .wp-block-button .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6);}:root .has-ast-global-color-7-color{color:var(--ast-global-color-7);}:root .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7);}:root .wp-block-button .has-ast-global-color-7-color{color:var(--ast-global-color-7);}:root .wp-block-button .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7);}:root .has-ast-global-color-8-color{color:var(--ast-global-color-8);}:root .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8);}:root .wp-block-button .has-ast-global-color-8-color{color:var(--ast-global-color-8);}:root .wp-block-button .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8);}:root{--ast-global-color-0:#0170B9;--ast-global-color-1:#3a3a3a;--ast-global-color-2:#3a3a3a;--ast-global-color-3:#4B4F58;--ast-global-color-4:#F5F5F5;--ast-global-color-5:#FFFFFF;--ast-global-color-6:#E5E5E5;--ast-global-color-7:#424242;--ast-global-color-8:#000000;}:root {--ast-border-color : #dddddd;}.ast-single-entry-banner {-js-display: flex;display: flex;flex-direction: column;justify-content: center;text-align: center;position: relative;background: var(--ast-title-layout-bg);}.ast-single-entry-banner[data-banner-layout="layout-1"] {max-width: 1200px;background: inherit;padding: 20px 0;}.ast-single-entry-banner[data-banner-width-type="custom"] {margin: 0 auto;width: 100%;}.ast-single-entry-banner + .site-content .entry-header {margin-bottom: 0;}.site .ast-author-avatar {--ast-author-avatar-size: ;}a.ast-underline-text {text-decoration: underline;}.ast-container > .ast-terms-link {position: relative;display: block;}a.ast-button.ast-badge-tax {padding: 4px 8px;border-radius: 3px;font-size: inherit;}header.entry-header{text-align:left;}header.entry-header > *:not(:last-child){margin-bottom:10px;}@media (max-width:921px){header.entry-header{text-align:left;}}@media (max-width:544px){header.entry-header{text-align:left;}}.ast-archive-entry-banner {-js-display: flex;display: flex;flex-direction: column;justify-content: center;text-align: center;position: relative;background: var(--ast-title-layout-bg);}.ast-archive-entry-banner[data-banner-width-type="custom"] {margin: 0 auto;width: 100%;}.ast-archive-entry-banner[data-banner-layout="layout-1"] {background: inherit;padding: 20px 0;text-align: left;}body.archive .ast-archive-description{max-width:1200px;width:100%;text-align:left;padding-top:3em;padding-right:3em;padding-bottom:3em;padding-left:3em;}body.archive .ast-archive-description .ast-archive-title,body.archive .ast-archive-description .ast-archive-title *{font-size:40px;font-size:2.6666666666667rem;}body.archive .ast-archive-description > *:not(:last-child){margin-bottom:10px;}@media (max-width:921px){body.archive .ast-archive-description{text-align:left;}}@media (max-width:544px){body.archive .ast-archive-description{text-align:left;}}.ast-breadcrumbs .trail-browse,.ast-breadcrumbs .trail-items,.ast-breadcrumbs .trail-items li{display:inline-block;margin:0;padding:0;border:none;background:inherit;text-indent:0;text-decoration:none;}.ast-breadcrumbs .trail-browse{font-size:inherit;font-style:inherit;font-weight:inherit;color:inherit;}.ast-breadcrumbs .trail-items{list-style:none;}.trail-items li::after{padding:0 0.3em;content:"\00bb";}.trail-items li:last-of-type::after{display:none;}h1,h2,h3,h4,h5,h6,.entry-content :where(h1,h2,h3,h4,h5,h6){color:var(--ast-global-color-2);}@media (max-width:921px){.ast-builder-grid-row-container.ast-builder-grid-row-tablet-3-firstrow .ast-builder-grid-row > *:first-child,.ast-builder-grid-row-container.ast-builder-grid-row-tablet-3-lastrow .ast-builder-grid-row > *:last-child{grid-column:1 / -1;}}@media (max-width:544px){.ast-builder-grid-row-container.ast-builder-grid-row-mobile-3-firstrow .ast-builder-grid-row > *:first-child,.ast-builder-grid-row-container.ast-builder-grid-row-mobile-3-lastrow .ast-builder-grid-row > *:last-child{grid-column:1 / -1;}}.ast-builder-layout-element[data-section="title_tagline"]{display:flex;}@media (max-width:921.99px){.ast-header-break-point .ast-builder-layout-element[data-section="title_tagline"]{display:flex;}}@media (max-width:544px){.ast-header-break-point .ast-builder-layout-element[data-section="title_tagline"]{display:flex;}}.ast-builder-menu-1{font-family:inherit;font-weight:inherit;}.ast-builder-menu-1 .sub-menu,.ast-builder-menu-1 .inline-on-mobile .sub-menu{border-top-width:2px;border-bottom-width:0px;border-right-width:0px;border-left-width:0px;border-color:#253877;border-style:solid;}.ast-builder-menu-1 .sub-menu .sub-menu{top:-2px;}.ast-builder-menu-1 .main-header-menu > .menu-item > .sub-menu,.ast-builder-menu-1 .main-header-menu > .menu-item > .astra-full-megamenu-wrapper{margin-top:0px;}.ast-desktop .ast-builder-menu-1 .main-header-menu > .menu-item > .sub-menu:before,.ast-desktop .ast-builder-menu-1 .main-header-menu > .menu-item > .astra-full-megamenu-wrapper:before{height:calc( 0px + 2px + 5px );}.ast-desktop .ast-builder-menu-1 .menu-item .sub-menu .menu-link{border-style:none;}@media (max-width:921px){.ast-header-break-point .ast-builder-menu-1 .menu-item.menu-item-has-children > .ast-menu-toggle{top:0;}.ast-builder-menu-1 .inline-on-mobile .menu-item.menu-item-has-children > .ast-menu-toggle{right:-15px;}.ast-builder-menu-1 .menu-item-has-children > .menu-link:after{content:unset;}.ast-builder-menu-1 .main-header-menu > .menu-item > .sub-menu,.ast-builder-menu-1 .main-header-menu > .menu-item > .astra-full-megamenu-wrapper{margin-top:0;}}@media (max-width:544px){.ast-header-break-point .ast-builder-menu-1 .menu-item.menu-item-has-children > .ast-menu-toggle{top:0;}.ast-builder-menu-1 .main-header-menu > .menu-item > .sub-menu,.ast-builder-menu-1 .main-header-menu > .menu-item > .astra-full-megamenu-wrapper{margin-top:0;}}.ast-builder-menu-1{display:flex;}@media (max-width:921.99px){.ast-header-break-point .ast-builder-menu-1{display:flex;}}@media (max-width:544px){.ast-header-break-point .ast-builder-menu-1{display:flex;}}.site-below-footer-wrap{padding-top:20px;padding-bottom:20px;}.site-below-footer-wrap[data-section="section-below-footer-builder"]{background-color:var( --ast-global-color-primary,var(--ast-global-color-4) );min-height:80px;border-style:solid;border-width:0px;border-top-width:1px;border-top-color:var(--ast-global-color-subtle-background,var(--ast-global-color-6));}.site-below-footer-wrap[data-section="section-below-footer-builder"] .ast-builder-grid-row{max-width:1200px;min-height:80px;margin-left:auto;margin-right:auto;}.site-below-footer-wrap[data-section="section-below-footer-builder"] .ast-builder-grid-row,.site-below-footer-wrap[data-section="section-below-footer-builder"] .site-footer-section{align-items:flex-start;}.site-below-footer-wrap[data-section="section-below-footer-builder"].ast-footer-row-inline .site-footer-section{display:flex;margin-bottom:0;}.ast-builder-grid-row-full .ast-builder-grid-row{grid-template-columns:1fr;}@media (max-width:921px){.site-below-footer-wrap[data-section="section-below-footer-builder"].ast-footer-row-tablet-inline .site-footer-section{display:flex;margin-bottom:0;}.site-below-footer-wrap[data-section="section-below-footer-builder"].ast-footer-row-tablet-stack .site-footer-section{display:block;margin-bottom:10px;}.ast-builder-grid-row-container.ast-builder-grid-row-tablet-full .ast-builder-grid-row{grid-template-columns:1fr;}}@media (max-width:544px){.site-below-footer-wrap[data-section="section-below-footer-builder"].ast-footer-row-mobile-inline .site-footer-section{display:flex;margin-bottom:0;}.site-below-footer-wrap[data-section="section-below-footer-builder"].ast-footer-row-mobile-stack .site-footer-section{display:block;margin-bottom:10px;}.ast-builder-grid-row-container.ast-builder-grid-row-mobile-full .ast-builder-grid-row{grid-template-columns:1fr;}}.site-below-footer-wrap[data-section="section-below-footer-builder"]{display:grid;}@media (max-width:921.99px){.ast-header-break-point .site-below-footer-wrap[data-section="section-below-footer-builder"]{display:grid;}}@media (max-width:544px){.ast-header-break-point .site-below-footer-wrap[data-section="section-below-footer-builder"]{display:grid;}}.ast-footer-copyright{text-align:center;}.ast-footer-copyright.site-footer-focus-item {color:#3a3a3a;}@media (max-width:921px){.ast-footer-copyright{text-align:center;}}@media (max-width:544px){.ast-footer-copyright{text-align:center;}}.ast-footer-copyright.ast-builder-layout-element{display:flex;}@media (max-width:921.99px){.ast-header-break-point .ast-footer-copyright.ast-builder-layout-element{display:flex;}}@media (max-width:544px){.ast-header-break-point .ast-footer-copyright.ast-builder-layout-element{display:flex;}}.elementor-widget-heading .elementor-heading-title{margin:0;}.elementor-page .ast-menu-toggle{color:unset;background:unset;}.elementor-post.elementor-grid-item.hentry{margin-bottom:0;}.woocommerce div.product .elementor-element.elementor-products-grid .related.products ul.products li.product,.elementor-element .elementor-wc-products .woocommerce[class*='columns-'] ul.products li.product{width:auto;margin:0;float:none;}body .elementor hr{background-color:#ccc;margin:0;}.ast-left-sidebar .elementor-section.elementor-section-stretched,.ast-right-sidebar .elementor-section.elementor-section-stretched{max-width:100%;left:0 !important;}.elementor-posts-container [CLASS*="ast-width-"]{width:100%;}.elementor-template-full-width .ast-container{display:block;}.elementor-screen-only,.screen-reader-text,.screen-reader-text span,.ui-helper-hidden-accessible{top:0 !important;}@media (max-width:544px){.elementor-element .elementor-wc-products .woocommerce[class*="columns-"] ul.products li.product{width:auto;margin:0;}.elementor-element .woocommerce .woocommerce-result-count{float:none;}}.ast-header-break-point .main-header-bar{border-bottom-width:1px;}@media (min-width:922px){.main-header-bar{border-bottom-width:1px;}}.main-header-menu .menu-item, #astra-footer-menu .menu-item, .main-header-bar .ast-masthead-custom-menu-items{-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}.main-header-menu > .menu-item > .menu-link, #astra-footer-menu > .menu-item > .menu-link{height:100%;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-js-display:flex;display:flex;}#ast-desktop-header .main-header-menu > .menu-item.menu-item-has-children > .menu-link .ast-header-navigation-arrow{padding-right:10px;margin-right:-10px;}.main-header-menu .sub-menu .menu-item.menu-item-has-children > .menu-link:after{position:absolute;right:1em;top:50%;transform:translate(0,-50%) rotate(270deg);}.ast-header-break-point .main-header-bar .main-header-bar-navigation .page_item_has_children > .ast-menu-toggle::before, .ast-header-break-point .main-header-bar .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle::before, .ast-mobile-popup-drawer .main-header-bar-navigation .menu-item-has-children>.ast-menu-toggle::before, .ast-header-break-point .ast-mobile-header-wrap .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle::before{font-weight:bold;content:"\e900";font-family:Astra;text-decoration:inherit;display:inline-block;}.ast-header-break-point .main-navigation ul.sub-menu .menu-item .menu-link:before{content:"\e900";font-family:Astra;font-size:.65em;text-decoration:inherit;display:inline-block;transform:translate(0, -2px) rotateZ(270deg);margin-right:5px;}.widget_search .search-form:after{font-family:Astra;font-size:1.2em;font-weight:normal;content:"\e8b6";position:absolute;top:50%;right:15px;transform:translate(0, -50%);}.astra-search-icon::before{content:"\e8b6";font-family:Astra;font-style:normal;font-weight:normal;text-decoration:inherit;text-align:center;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;z-index:3;}.main-header-bar .main-header-bar-navigation .page_item_has_children > a:after, .main-header-bar .main-header-bar-navigation .menu-item-has-children > a:after, .menu-item-has-children .ast-header-navigation-arrow:after{content:"\e900";display:inline-block;font-family:Astra;font-size:.6rem;font-weight:bold;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:10px;line-height:normal;}.menu-item-has-children .sub-menu .ast-header-navigation-arrow:after{margin-left:0;}.ast-mobile-popup-drawer .main-header-bar-navigation .ast-submenu-expanded>.ast-menu-toggle::before{transform:rotateX(180deg);}.ast-header-break-point .main-header-bar-navigation .menu-item-has-children > .menu-link:after{display:none;}@media (min-width:922px){.ast-builder-menu .main-navigation > ul > li:last-child a{margin-right:0;}}.ast-separate-container .ast-article-inner{background-color:transparent;background-image:none;}.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5);}@media (max-width:921px){.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5);}}@media (max-width:544px){.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5);}}.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container  .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content, .ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .ast-archive-description, .ast-separate-container .comments-area .comment-respond, .ast-separate-container .comments-area .ast-comment-list li, .ast-separate-container .comments-area .comments-title{background-color:var(--ast-global-color-5);}@media (max-width:921px){.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container  .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content, .ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .ast-archive-description{background-color:var(--ast-global-color-5);}}@media (max-width:544px){.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container  .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content, .ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .ast-archive-description{background-color:var(--ast-global-color-5);}}.ast-separate-container.ast-two-container #secondary .widget{background-color:var(--ast-global-color-5);}@media (max-width:921px){.ast-separate-container.ast-two-container #secondary .widget{background-color:var(--ast-global-color-5);}}@media (max-width:544px){.ast-separate-container.ast-two-container #secondary .widget{background-color:var(--ast-global-color-5);}}
+		#ast-scroll-top {
+			display: none;
+			position: fixed;
+			text-align: center;
+			cursor: pointer;
+			z-index: 99;
+			width: 2.1em;
+			height: 2.1em;
+			line-height: 2.1;
+			color: #ffffff;
+			border-radius: 2px;
+			content: "";
+			outline: inherit;
+		}
+		@media (min-width: 769px) {
+			#ast-scroll-top {
+				content: "769";
+			}
+		}
+		#ast-scroll-top .ast-icon.icon-arrow svg {
+			margin-left: 0px;
+			vertical-align: middle;
+			transform: translate(0, -20%) rotate(180deg);
+			width: 1.6em;
+		}
+		.ast-scroll-to-top-right {
+			right: 30px;
+			bottom: 30px;
+		}
+		.ast-scroll-to-top-left {
+			left: 30px;
+			bottom: 30px;
+		}
+	#ast-scroll-top{color:#002a7a;background-color:#ffffff;font-size:15px;border-top-left-radius:15px;border-top-right-radius:15px;border-bottom-right-radius:15px;border-bottom-left-radius:15px;}#ast-scroll-top:hover{color:#ffffff;background-color:#002a7a;}.ast-scroll-top-icon::before{content:"\e900";font-family:Astra;text-decoration:inherit;}.ast-scroll-top-icon{transform:rotate(180deg);}@media (max-width:921px){#ast-scroll-top .ast-icon.icon-arrow svg{width:1em;}}.ast-mobile-header-content > *,.ast-desktop-header-content > * {padding: 10px 0;height: auto;}.ast-mobile-header-content > *:first-child,.ast-desktop-header-content > *:first-child {padding-top: 10px;}.ast-mobile-header-content > .ast-builder-menu,.ast-desktop-header-content > .ast-builder-menu {padding-top: 0;}.ast-mobile-header-content > *:last-child,.ast-desktop-header-content > *:last-child {padding-bottom: 0;}.ast-mobile-header-content .ast-search-menu-icon.ast-inline-search label,.ast-desktop-header-content .ast-search-menu-icon.ast-inline-search label {width: 100%;}.ast-desktop-header-content .main-header-bar-navigation .ast-submenu-expanded > .ast-menu-toggle::before {transform: rotateX(180deg);}#ast-desktop-header .ast-desktop-header-content,.ast-mobile-header-content .ast-search-icon,.ast-desktop-header-content .ast-search-icon,.ast-mobile-header-wrap .ast-mobile-header-content,.ast-main-header-nav-open.ast-popup-nav-open .ast-mobile-header-wrap .ast-mobile-header-content,.ast-main-header-nav-open.ast-popup-nav-open .ast-desktop-header-content {display: none;}.ast-main-header-nav-open.ast-header-break-point #ast-desktop-header .ast-desktop-header-content,.ast-main-header-nav-open.ast-header-break-point .ast-mobile-header-wrap .ast-mobile-header-content {display: block;}.ast-desktop .ast-desktop-header-content .astra-menu-animation-slide-up > .menu-item > .sub-menu,.ast-desktop .ast-desktop-header-content .astra-menu-animation-slide-up > .menu-item .menu-item > .sub-menu,.ast-desktop .ast-desktop-header-content .astra-menu-animation-slide-down > .menu-item > .sub-menu,.ast-desktop .ast-desktop-header-content .astra-menu-animation-slide-down > .menu-item .menu-item > .sub-menu,.ast-desktop .ast-desktop-header-content .astra-menu-animation-fade > .menu-item > .sub-menu,.ast-desktop .ast-desktop-header-content .astra-menu-animation-fade > .menu-item .menu-item > .sub-menu {opacity: 1;visibility: visible;}.ast-hfb-header.ast-default-menu-enable.ast-header-break-point .ast-mobile-header-wrap .ast-mobile-header-content .main-header-bar-navigation {width: unset;margin: unset;}.ast-mobile-header-content.content-align-flex-end .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle,.ast-desktop-header-content.content-align-flex-end .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle {left: calc( 20px - 0.907em);right: auto;}.ast-mobile-header-content .ast-search-menu-icon,.ast-mobile-header-content .ast-search-menu-icon.slide-search,.ast-desktop-header-content .ast-search-menu-icon,.ast-desktop-header-content .ast-search-menu-icon.slide-search {width: 100%;position: relative;display: block;right: auto;transform: none;}.ast-mobile-header-content .ast-search-menu-icon.slide-search .search-form,.ast-mobile-header-content .ast-search-menu-icon .search-form,.ast-desktop-header-content .ast-search-menu-icon.slide-search .search-form,.ast-desktop-header-content .ast-search-menu-icon .search-form {right: 0;visibility: visible;opacity: 1;position: relative;top: auto;transform: none;padding: 0;display: block;overflow: hidden;}.ast-mobile-header-content .ast-search-menu-icon.ast-inline-search .search-field,.ast-mobile-header-content .ast-search-menu-icon .search-field,.ast-desktop-header-content .ast-search-menu-icon.ast-inline-search .search-field,.ast-desktop-header-content .ast-search-menu-icon .search-field {width: 100%;padding-right: 5.5em;}.ast-mobile-header-content .ast-search-menu-icon .search-submit,.ast-desktop-header-content .ast-search-menu-icon .search-submit {display: block;position: absolute;height: 100%;top: 0;right: 0;padding: 0 1em;border-radius: 0;}.ast-hfb-header.ast-default-menu-enable.ast-header-break-point .ast-mobile-header-wrap .ast-mobile-header-content .main-header-bar-navigation ul .sub-menu .menu-link {padding-left: 30px;}.ast-hfb-header.ast-default-menu-enable.ast-header-break-point .ast-mobile-header-wrap .ast-mobile-header-content .main-header-bar-navigation .sub-menu .menu-item .menu-item .menu-link {padding-left: 40px;}.ast-mobile-popup-drawer.active .ast-mobile-popup-inner{background-color:#ffffff;;}.ast-mobile-header-wrap .ast-mobile-header-content, .ast-desktop-header-content{background-color:#ffffff;;}.ast-mobile-popup-content > *, .ast-mobile-header-content > *, .ast-desktop-popup-content > *, .ast-desktop-header-content > *{padding-top:0px;padding-bottom:0px;}.content-align-flex-start .ast-builder-layout-element{justify-content:flex-start;}.content-align-flex-start .main-header-menu{text-align:left;}.ast-mobile-popup-drawer.active .menu-toggle-close{color:#3a3a3a;}.ast-mobile-header-wrap .ast-primary-header-bar,.ast-primary-header-bar .site-primary-header-wrap{min-height:70px;}.ast-desktop:not(:has(.ast-header-sticked)) .ast-primary-header-bar .main-header-menu > .menu-item{line-height:70px;}.ast-header-break-point #masthead .ast-mobile-header-wrap .ast-primary-header-bar,.ast-header-break-point #masthead .ast-mobile-header-wrap .ast-below-header-bar,.ast-header-break-point #masthead .ast-mobile-header-wrap .ast-above-header-bar{padding-left:20px;padding-right:20px;}.ast-header-break-point .ast-primary-header-bar{border-bottom-width:1px;border-bottom-color:var( --ast-global-color-subtle-background,var(--ast-global-color-7) );border-bottom-style:solid;}@media (min-width:922px){.ast-primary-header-bar{border-bottom-width:1px;border-bottom-color:var( --ast-global-color-subtle-background,var(--ast-global-color-7) );border-bottom-style:solid;}}.ast-primary-header-bar{background-color:var( --ast-global-color-primary,var(--ast-global-color-4) );}.ast-primary-header-bar{display:block;}@media (max-width:921.99px){.ast-header-break-point .ast-primary-header-bar{display:grid;}}@media (max-width:544px){.ast-header-break-point .ast-primary-header-bar{display:grid;}}[data-section="section-header-mobile-trigger"] .ast-button-wrap .ast-mobile-menu-trigger-minimal{color:#253877;border:none;background:transparent;}[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg{width:20px;height:20px;fill:#253877;}[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-wrap .mobile-menu{color:#253877;}:root{--e-global-color-astglobalcolor0:#0170B9;--e-global-color-astglobalcolor1:#3a3a3a;--e-global-color-astglobalcolor2:#3a3a3a;--e-global-color-astglobalcolor3:#4B4F58;--e-global-color-astglobalcolor4:#F5F5F5;--e-global-color-astglobalcolor5:#FFFFFF;--e-global-color-astglobalcolor6:#E5E5E5;--e-global-color-astglobalcolor7:#424242;--e-global-color-astglobalcolor8:#000000;}
+/*# sourceURL=astra-theme-css-inline-css */
+img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--ast-global-color-0: var(--ast-global-color-0);--wp--preset--color--ast-global-color-1: var(--ast-global-color-1);--wp--preset--color--ast-global-color-2: var(--ast-global-color-2);--wp--preset--color--ast-global-color-3: var(--ast-global-color-3);--wp--preset--color--ast-global-color-4: var(--ast-global-color-4);--wp--preset--color--ast-global-color-5: var(--ast-global-color-5);--wp--preset--color--ast-global-color-6: var(--ast-global-color-6);--wp--preset--color--ast-global-color-7: var(--ast-global-color-7);--wp--preset--color--ast-global-color-8: var(--ast-global-color-8);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: var(--wp--custom--ast-content-width-size);--wp--style--global--wide-size: var(--wp--custom--ast-wide-width-size); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-color{color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-color{color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-color{color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-color{color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-color{color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-color{color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-color{color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-color{color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-color{color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-background-color{background-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-background-color{background-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-background-color{background-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-background-color{background-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-background-color{background-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-background-color{background-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-background-color{background-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-background-color{background-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-background-color{background-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-border-color{border-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-border-color{border-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-border-color{border-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-border-color{border-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-border-color{border-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-border-color{border-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-border-color{border-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-border-color{border-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-border-color{border-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+var cnArgs = {"ajaxUrl":"https:\/\/serveporto.com.br\/wp-admin\/admin-ajax.php","nonce":"c739dfa052","hideEffect":"fade","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":false,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+
+//# sourceURL=cookie-notice-front-js-before
+#flags,#google_language_translator {display:block;float:none;clear:both;vertical-align:middle;text-align:right;}#google_language_translator {width:auto;}#flags ul {float:none!important;}#flags a {display:inline-block;margin-left:0;margin-right:0;}#google_language_translator select.gt_selector {float:none;}p.hello {font-size:12px;color:darkgray;text-align:right;}#flags a {margin-left:2px;}#google_language_translator {display:none;}#google_language_translator select.gt_selector{color:#32373c;}#glt-translate-trigger{left:20px;right:auto;}#glt-translate-trigger &gt; span{color:#ffffff;}#glt-translate-trigger{background:#f89406;}select.gt_selector{width:100%;}
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZJH0GMC09C');
+window.adoptHideAfterConsent = true;
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+.bdt-tabs .bdt-switcher-item-content p
+{
+	display:none;
+}
+#footable_parent_768 > a {display:none;}
+
+.bdt-tabs .bdt-tabs-item-title .bdt-tab-text-wrapper 
+{
+	padding:15px;
+}
+(function(){var mq=window.matchMedia('(max-width:921.99px)');function apply(isMobile){var b=document.body.classList;if(isMobile){b.add('ast-header-break-point');b.remove('ast-desktop');}else{b.remove('ast-header-break-point');b.add('ast-desktop');}}apply(mq.matches);if(mq.addEventListener){mq.addEventListener('change',function(e){apply(e.matches);});}else if(mq.addListener){mq.addListener(function(e){apply(e.matches);});}})();
+Skip to content
+Quem Somos
+Soluções
+Modais
+Serviços
+Infraestrutura
+Compromisso
+Line-ups
+Macapá – AP
+Manaus – AM
+Santarém – PA
+São Luiz – MA
+Vila do Conde – PA
+Portos
+Social
+Serve Report
+Fale Conosco
+Contato
+Quem Somos
+Soluções
+Modais
+Serviços
+Infraestrutura
+Compromisso
+Line-ups
+Macapá – AP
+Manaus – AM
+Santarém – PA
+São Luiz – MA
+Vila do Conde – PA
+Portos
+Social
+Serve Report
+Fale Conosco
+Contato
+Line-
+ups
+Vila do Conde - PA
+Santarém - PA
+São Luís - MA
+Macapá - AP
+Manaus - AM
+Clique aqui para acessar apenas
+este lineup
+PORT / BERTH
+VESSEL
+CARGO
+QUANTITY
+OPERATION
+ARRIVAL
+BERTHING
+SAILING
+AGENCY
+CHARTERERS
+BERTH 101 TGS EXT
+JURUTI
+Bauxite
+55.000
+DISCHARGE
+25/09/2026
+25/09/2026
+28/09/2026
+ORION RODOS
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+HB TUCUNARÉ
+Bauxite
+58.000
+DISCHARGE
+28/09/2026
+28/09/2026
+03/10/2026
+SERVEPORTO
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+HB TAMBAQUI
+Bauxite
+58.000
+DISCHARGE
+03/10/2026
+03/10/2026
+05/10/2026
+SERVEPORTO
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+JURUTI
+Bauxite
+55.000
+DISCHARGE
+06/10/2026
+06/10/2026
+09/10/2026
+ORION RODOS
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+TROMBETAS
+Bauxite
+55.000
+DISCHARGE
+09/10/2026
+09/10/2026
+11/10/2026
+ORION RODOS
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+HB TUCUNARÉ
+Bauxite
+58.000
+DISCHARGE
+11/10/2026
+11/10/2026
+14/10/2026
+SERVEPORTO
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+HB TAMBAQUI
+Bauxite
+58.000
+DISCHARGE
+13/10/2026
+14/10/2026
+17/10/2026
+SERVEPORTO
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+HB TUCUNARÉ
+Bauxite
+58.000
+DISCHARGE
+25/10/2026
+25/10/2026
+28/10/2026
+SERVEPORTO
+HYDRO/ TGLOBAL
+BERTH 101 TGS EXT
+HB TAMBAQUI
+Bauxite
+58.000
+DISCHARGE
+25/10/2026
+28/10/2026
+30/10/2026
+SERVEPORTO
+HYDRO/ TGLOBAL
+BERTH 102 TGS INT
+SAGA INVENTANA
+Alumina
+15.000
+LOADING
+26/09/2026
+28/09/2026
+01/10/2026
+ORION RODOS
+ALBRAS
+BERTH 102 TGS INT
+MV RUMA
+PET COKE / PICHE
+13.000
+DISCHARGE
+25/09/2026
+01/10/2026
+08/10/2026
+SERVEPORTO
+ALBRAS
+BERTH 102 TGS INT
+UBC BARI
+Hidrato
+23.000
+LOADING
+01/10/2026
+08/10/2026
+13/10/2026
+WILHELMSEN
+HYDRO
+BERTH 201 TGS EXT
+WL MUROM
+Alumina
+35.000
+LOADING
+25/09/2026
+27/09/2026
+29/09/2026
+WILHELMSEN
+HYDRO
+BERTH 201 TGS EXT
+ULTRA BOQUE
+Alumina
+35.000
+LOADING
+27/09/2026
+29/09/2026
+01/10/2026
+GEM
+HYDRO
+BERTH 201 TGS EXT
+FABIA SCHULTE
+Alumina
+50.000
+LOADING
+27/09/2026
+01/10/2026
+03/10/2026
+WILHELMSEN
+HYDRO
+BERTH 201 TGS EXT
+FEDERAL TRIDENT
+Alumina
+50.000
+LOADING
+26/09/2026
+03/10/2026
+07/10/2026
+WILHELMSEN
+HYDRO
+BERTH 201 TGS EXT
+CHIOS VICTORY
+Alumina
+35.000
+LOADING
+04/10/2026
+07/10/2026
+09/10/2026
+WILHELMSEN
+HYDRO
+BERTH 202 TGS INT
+OCEAN SWAGMAN
+LIVE CATTLE
+3.500
+LOADING
+28/08/2026
+26/09/2026
+29/09/2026
+HABIBS
+CSAP
+BERTH 202 TGS INT
+FIDELITY (Carga Viva)
+LIVE CATTLE
+2.500
+LOADING
+31/08/2026
+29/09/2026
+01/10/2026
+HABIBS
+IBZA
+BERTH 202 TGS INT
+FREEDOM
+LIVE CATTLE
+2.000
+LOADING
+02/09/2026
+01/10/2026
+03/10/2026
+HABIBS
+IBZA
+BERTH 202 TGS INT
+EPSILON K
+LIVE CATTLE
+3.500
+LOADING
+05/09/2026
+03/10/2026
+06/10/2026
+HABIBS
+RAÇA AGRO
+BERTH 202 TGS INT
+DANUBE 1
+LIVE CATTLE
+4.000
+LOADING
+13/09/2026
+06/10/2026
+09/10/2026
+EBC AGENCY
+NORDELTA
+BERTH 202 TGS INT
+VICTORY
+LIVE CATTLE
+5.000
+LOADING
+16/10/2026
+09/10/2026
+12/10/2026
+HABIBS
+AGRO
+BERTH 202 TGS INT
+SEA ROSE 1
+LIVE CATTLE
+3.000
+LOADING
+18/09/2026
+12/10/2026
+15/10/2026
+HABIBS
+MONTE LIBANO
+BERTH 202 TGS INT
+W M F EXPRESS
+LIVE CATTLE
+3.000
+LOADING
+18/09/2026
+15/10/2026
+18/10/2026
+HABIBS
+AGRO
+BERTH 202 TGS INT
+ALMAJD
+LIVE CATTLE
+3.000
+LOADING
+20/09/2026
+18/10/2026
+21/10/2026
+HABIBS
+RAÇA AGRO
+BERTH 202 TGS INT
+ANAKIN
+LIVE CATTLE
+4.000
+LOADING
+24/09/2026
+21/10/2026
+23/10/2026
+EBC AGENCY
+OX COMEC
+BERTH 202 TGS INT
+NABOLSI
+LIVE CATTLE
+7.000
+LOADING
+25/09/2026
+23/10/2026
+26/10/2026
+GLOBAL
+MERCURIO
+BERTH 202 TGS INT
+MADONNA
+LIVE CATTLE
+3.000
+LOADING
+28/09/2026
+26/10/2026
+29/10/2026
+HABIBS
+MERCURIO
+BERTH 202 TGS INT
+OSAMA BEY
+LIVE CATTLE
+4.000
+LOADING
+09/10/2026
+29/10/2026
+01/11/2026
+HABIBS
+IBZA
+BERTH 202 TGS INT
+GOODNESS 1
+LIVE CATTLE
+3.500
+LOADING
+09/10/2026
+01/11/2026
+04/11/2026
+HABIBS
+JPR
+BERTH 202 TGS INT
+EXPRESS M
+LIVE CATTLE
+3.000
+LOADING
+13/10/2026
+04/11/2026
+07/11/2026
+HABIBS
+MERCURIO
+BERTH 301 TGS EXT
+KABATAS
+Tarugo de aço
+39.000
+LOADING
+11/09/2026
+19/09/2026
+29/09/2026
+BF FORTSHIP
+SINOBRAS
+BERTH 301 TGS EXT
+BUNUN TREASURE
+COAL
+34.000
+LOADING
+12/09/2026
+27/09/2026
+02/10/2026
+GEM SHIPPING
+HYDRO
+BERTH 301 TGS EXT
+GOLDEN RIO
+Bois
+12.000
+LOADING
+07/04/2026
+02/10/2026
+06/10/2026
+WILSON SONS
+HARVEL
+BERTH 301 TGS EXT
+MAYSORA
+Bois
+12.000
+LOADING
+16/08/2026
+06/10/2026
+10/10/2026
+HABIBS
+CSAP
+BERTH 301 TGS EXT
+GEM STAR
+Fertilizante
+11.000
+LOADING
+14/09/2026
+10/10/2026
+13/10/2026
+ORION RODOS
+GEN
+BERTH 301 TGS EXT
+KOM
+Fertilizante
+7.000
+LOADING
+25/09/2026
+13/10/2026
+15/10/2026
+AMART
+FERTZ
+BERTH 301 TGS EXT
+TOP FAIR
+Manganes
+48.000
+LOADING
+25/09/2026
+15/10/2026
+22/10/2026
+SEATRADE
+BURITIRAMA
+BERTH 301 TGS EXT
+ARAMIS
+COAL
+35.000
+LOADING
+02/10/2026
+22/10/2026
+27/10/2026
+GEM
+HYDRO
+BERTH 301 TGS EXT
+STAR ROBERTA
+Tarugo de aço
+38.000
+LOADING
+03/10/2026
+27/10/2026
+06/11/2026
+BF FORTSHIP
+SINOBRAS
+BERTH 301 TGS EXT
+MERCURY ISLAND
+Fertilizante
+30.000
+LOADING
+03/10/2026
+06/11/2026
+12/11/2026
+ORION RODOS
+FERTZ
+BERTH 301 TGS EXT
+KWAI KWAI
+Fertilizante
+30.000
+LOADING
+15/10/2026
+12/11/2026
+18/11/2026
+LBH
+EUROCHEM
+BERTH 301 TGS EXT
+SIKAMIA
+Fertilizante
+30.000
+LOADING
+21/10/2026
+18/11/2026
+24/11/2026
+UNIMAR
+EUROCHEM
+BERTH 301 TGS EXT
+ASL CANOPUS
+Fertilizante
+29.000
+LOADING
+02/11/2026
+24/11/2026
+30/11/2026
+WILHELMSEN
+EUROCHEM
+BERTH 401 TGS EXT
+CMA CGM CAYENNE
+Container
+DISCH/LOAD
+28/09/2026
+28/09/2026
+29/09/2026
+UNIMAR
+CMA CGM
+BERTH 401 TGS EXT
+MSC ASTRID III
+Container
+DISCH/LOAD
+30/09/2026
+30/09/2026
+02/10/2026
+MSC
+MSC
+BERTH 401 TGS EXT
+CRONOS
+Container
+DISCH/LOAD
+02/10/2026
+02/10/2026
+02/10/2026
+NORTE TRADING
+EMAPA
+BERTH 401 TGS EXT
+ATHENAS ZAPAL
+Container
+DISCH/LOAD
+02/10/2026
+02/10/2026
+02/10/2026
+NORTE TRADING
+EMAPA
+BERTH 401 TGS EXT
+ALIANÇA LEBLON
+Container
+DISCH/LOAD
+02/10/2026
+02/10/2026
+04/10/2026
+LACHMANN
+ALIANÇA
+BERTH 401 TGS EXT
+MSC ASTRID III
+Container
+DISCH/LOAD
+04/10/2026
+04/10/2026
+05/10/2026
+MSC
+MSC
+BERTH 401 TGS EXT
+CMA CGM MARSEILLE
+Container
+DISCH/LOAD
+05/10/2026
+05/10/2026
+06/10/2026
+UNIMAR
+CMA CGM
+BERTH 401 TGS EXT
+MV RITA
+Container
+DISCH/LOAD
+06/10/2026
+06/10/2026
+07/10/2026
+UNIMAR
+CMA CGM
+BERTH 401 TGS EXT
+CMA CGM KOUROU
+Container
+DISCH/LOAD
+12/10/2026
+12/10/2026
+13/10/2026
+UNIMAR
+CMA CGM
+BERTH 401 TGS EXT
+ALIANÇA LEBLON
+Container
+DISCH/LOAD
+16/10/2026
+16/10/2026
+18/10/2026
+LACHMANN
+ALIANÇA
+BERTH 401 TGS EXT
+MATHILDE SCHULTE
+Container
+DISCH/LOAD
+19/10/2026
+19/10/2026
+20/10/2026
+UNIMAR
+CMA CGM
+BERTH 401 TGS EXT
+ALIANÇA LEBLON
+Container
+DISCH/LOAD
+23/10/2026
+23/10/2026
+25/10/2026
+LACHMANN
+ALIANÇA
+BERTH 401 TGS EXT
+ALIANÇA LEBLON
+Container
+DISCH/LOAD
+30/10/2026
+30/10/2026
+01/11/2026
+LACHMANN
+ALIANÇA
+BERTH 402 TGS INT
+POLARIS 3
+Bois
+12.000
+DISCHARGE
+07/09/2026
+26/09/2026
+30/09/2026
+HABIBS
+MERCURIO
+BERTH 402 TGS INT
+FREESIA
+Bois
+3.500
+DISCHARGE
+03/09/2026
+30/09/2026
+03/10/2026
+GLOBAL
+CSAP
+BERTH 402 TGS INT
+CYTA
+Caulim
+38.000
+DISCHARGE
+12/09/2026
+03/10/2026
+09/10/2026
+GEM SHIPPING
+ARTEMYN
+BERTH 402 TGS INT
+PANOCEANIS
+NUT COKE
+33.000
+DISCHARGE
+14/09/2026
+09/10/2026
+15/10/2026
+GEM
+IMI
+BERTH 402 TGS INT
+RESTIO GALAXY
+Caulim (SLURRY)
+19.000
+LOADING
+22/09/2026
+15/10/2026
+20/10/2026
+GEM SHIPPING
+ARTEMYN
+BERTH 402 TGS INT
+HARVESTER
+CAULIM
+22.000
+LOADING
+28/09/2026
+20/10/2026
+24/10/2026
+GEM SHIPPING
+ARTEMYN
+BERTH 402 TGS INT
+SAPHIRA
+Bois
+6.000
+LOADING
+29/09/2026
+24/10/2026
+27/10/2026
+HABIBS
+NORDELTA
+HIDROVIAS BERTH 02
+SIKAMIA
+KCL
+31.000
+LOADING
+05/10/2026
+05/10/2026
+12/10/2026
+Unimar
+FTO
+HIDROVIAS BERTH 02
+ASL CANOPUS
+SAM
+25.100
+LOADING
+16/10/2026
+06/10/2026
+25/10/2026
+TBI
+FTO
+MEGA LOGISTICA
+MV ANTHEA V
+CORN
+LOADING
+20/09/2026
+22/09/2026
+30/09/2026
+ALPHAMAR
+01 – LDC
+MEGA LOGISTICA
+MV EMERALD DONGJI
+CORN
+63.000
+LOADING
+13/10/2026
+13/10/2026
+20/10/2026
+TBN
+01 – LDC
+TGL 501 EXTERNAL
+CORALLO I
+DIESEL S10
+10.000
+DISCHARGE
+03/10/2026
+03/10/2026
+06/10/2026
+NORTH STAR
+ATEM
+TGL 501 EXTERNAL
+STENA IMPULSE
+Caustic Soda
+44.000
+DISCHARGE
+06/10/2026
+06/10/2026
+08/10/2026
+GEM
+HYDRO
+TGL 501 EXTERNAL
+SUNNY VICTORY
+Caustic Soda
+44.000
+DISCHARGE
+20/10/2026
+20/10/2026
+22/10/2026
+GEM
+HYDRO
+TGPM TERMINAL
+ADMIRAL JIMMU
+CORN
+LOADING
+21/09/2026
+26/09/2026
+28/09/2026
+WILSON SONS
+ADM
+TGPM TERMINAL
+SEADENCA
+SOY
+LOADING
+20/09/2026
+28/09/2026
+30/09/2026
+FERTMPORT
+BURGE
+TGPM TERMINAL
+SSI IMPRESSIVE
+CORN
+LOADING
+22/09/2026
+30/09/2026
+02/10/2026
+WILSON SONS
+ADM
+TGPM TERMINAL
+SEA PEARL
+SOY
+LOADING
+01/10/2026
+02/10/2026
+04/10/2026
+FERTMPORT
+BURGE
+TGPM TERMINAL
+AQUARIUS
+CORN
+LOADING
+04/10/2026
+04/10/2026
+06/10/2026
+WILSON SONS
+ADM
+TGPM TERMINAL
+CL CHENZHOU
+CORN
+LOADING
+05/10/2026
+06/10/2026
+08/10/2026
+FERTMPORT
+BURGE
+TGPM TERMINAL
+UNITY POSEIDON
+CORN
+LOADING
+04/10/2026
+08/10/2026
+10/10/2026
+LBH
+ADM
+Clique aqui para acessar apenas
+este lineup
+PORT / BERTH
+VESSEL
+CARGO
+QUANTITY
+OPERATION
+ARRIVAL
+BERTHING
+SAILING
+AGENCY
+CHARTERERS
+DESTINATION / LOADING PORT
+ETA FAZENDINHA
+Tweed
+Gasoline + Diesel
+23.900
+DISCHARGE
+11/10/2026
+13/10/2026
+15/10/2026
+Lachman
+Petrobras
+Brazil
+Clearocean Melody
+Diesel
+34.000
+DISCHARGE
+13/10/2026
+15/10/2026
+17/10/2026
+Lachman
+Petrobras
+Brazil
+Seto Harmony
+Corn
+35.000
+LOADING
+19/10/2026
+19/10/2026
+24/10/2026
+Alphamar
+Cal Advansea
+Guatemala
+Yasa Tokyo
+Corn
+32.250
+LOADING
+20/10/2026
+24/10/2026
+30/10/2026
+Alphamar
+The Andersons
+Algeria
+Amis Leader
+Gmop
+42.000
+DISCHARGE
+16/10/2026
+16/10/2026
+22/10/2026
+Serveporto
+DSW
+Barcelona
+Erena
+Amsul
+56.300
+DISCHARGE
+25/10/2026
+25/10/2026
+04/11/2026
+Serveporto
+Ameropa
+China
+Ym Impression
+Amsul
+57.950
+DISCHARGE
+31/10/2026
+04/11/2026
+16/11/2026
+Z-port
+Midgulf
+China
+Hua Xing Hai
+Amsul
+56.125
+DISCHARGE
+04/11/2026
+16/11/2026
+22/11/2026
+World Shipping
+Yunnan Yingfu Trading
+China
+Crimson Amber
+Amsul
+56.900
+DISCHARGE
+16/11/2026
+22/11/2026
+03/12/2026
+Serveporto
+Bestwin Trade
+China
+Unity Triton
+Corn Meal
+49.000
+LOADING
+13/10/2026
+13/10/2026
+23/10/2026
+Alphamar
+Invictus
+Turkey
+Nozomi Queen
+Corn
+57.000
+LOADING
+11/10/2026
+11/10/2026
+14/10/2026
+Cargill
+Cargill
+Portugal
+Kociewie
+Corn
+36.300
+LOADING
+14/10/2026
+15/10/2026
+16/10/2026
+Cargill
+Cargill
+Algeria
+Happiness Bulker
+Corn
+35.000
+LOADING
+16/10/2026
+17/10/2026
+18/10/2026
+Cargill
+Cargill
+Algeria
+Princess Shahd
+Corn
+32.000
+LOADING
+20/10/2026
+21/10/2026
+22/10/2026
+Cargill
+Cargill
+Algeria
+Luna Discovery
+Corn
+32.510
+LOADING
+22/10/2026
+22/10/2026
+23/10/2026
+Alphamar
+Cargill
+Guatemala
+Arklow Spray
+Corn
+34.000
+LOADING
+23/10/2026
+23/10/2026
+24/10/2026
+Cargill
+Cargill
+Algeria
+Amis Leader
+Corn
+46.000
+LOADING
+24/10/2026
+24/10/2026
+26/10/2026
+Cargill
+Cargill
+Mexico
+Volendam
+Passenger Ship
+11/12/2026
+11/12/2026
+11/12/2026
+ISS / Serveporto
+Parintins > BLM
+Viking Sea
+Passenger Ship
+23/12/2026
+23/12/2026
+23/12/2026
+ISS / Serveporto
+STM
+Explora I
+Passenger Ship
+19/02/2027
+19/02/2027
+19/02/2027
+ISS / Serveporto
+Parintins > MCP
+Hanseatic Inspiration
+Passenger Ship
+15/04/2027
+15/04/2027
+15/04/2027
+ISS / Serveporto
+Icoaraci > Paritins
+Hanseatic Inspiration
+Passenger Ship
+13/05/2027
+13/05/2027
+13/05/2027
+ISS / Serveporto
+Parintins > Icoaraci
+Aidasol
+Passenger Ship
+02/11/2026
+02/11/2026
+02/11/2026
+ISS / Serveporto
+MCP > STM > Boca da Valeria
+Volendam
+Passenger Ship
+06/12/2026
+06/12/2026
+06/12/2026
+ISS / Serveporto
+MCP > Boca da Valeira
+Explora I
+Passenger Ship
+14/02/2027
+14/02/2027
+14/02/2027
+ISS / Serveporto
+MCP > Boca da Valeira
+Seven Seas Grandeur
+Passenger Ship
+18/03/2027
+18/03/2027
+18/03/2027
+Wilhelmsen / Tech Holds
+MCP > MAO
+Insignia
+Passenger Ship
+31/03/2027
+31/03/2027
+31/03/2027
+Wilhelmsen / Tech Holds
+Parintins > MCP
+Regatta
+Passenger Ship
+20/06/2027
+20/06/2027
+20/06/2027
+Wilhelmsen / Tech Holds
+MCP > MAO
+Clique aqui para acessar apenas
+este lineup
+PORT / BERTH
+VESSEL
+CARGO
+QUANTITY
+OPERATION
+ARRIVAL
+BERTHING
+SAILING
+AGENCY
+SHIPPERS/RECEIVERS
+ITAQUI – BERTH 100
+FEDERAL SAKURA
+FERTILIZERS
+20.592
+13/01/2017
+13/01/2017
+16/01/2017
+ALPHAMAR
+ITAQUI – BERTH 101
+VIOLA
+COAL
+45.000
+03/02/2017
+03/02/2017
+08/02/2017
+GEM
+ITAQUI – BERTH 101
+JPS AFRODITI
+COAL
+50.000
+05/01/2017
+05/01/2017
+10/01/2017
+GEM
+ITAQUI – BERTH 102
+MTM SINGAPORE
+CUSTOMS CLEARANCE
+08/01/2017
+08/01/2017
+09/01/2017
+WILLIAMS
+ITAQUI – BERTH 103
+SAGA EXPLORER
+WOOD PULP
+42.500
+09/01/2017
+12/01/2017
+16/01/2017
+ORION RODOS
+ITAQUI – BERTH 104
+BOW HARMONY
+ETHANOL
+7.000
+07/01/2017
+09/01/2017
+11/01/2017
+EVEN KEEL
+Clique aqui para acessar apenas
+este lineup
+PORT / BERTH
+VESSEL
+CARGO
+QUANTITY
+OPERATION
+ARRIVAL
+BERTHING
+SAILING
+AGENCY
+SHIPPERS/RECEIVERS
+SANTANA CDSA PIER 2
+NAPOC IGUATEMI
+—–
+0
+SALVATAGE
+30/05/2025
+30/05/2025
+03/06/2025
+BRAZILIAN NAVY
+BRAZILIAN NAVY
+SANTANA PORT PIER 1
+YASA JUPITER
+SOYABEANS
+48.860
+LOADING
+04/04/2025
+26/04/2025
+03/05/2025
+ALPHAMAR
+CIANPORT
+SANTANA PORT PIER 1
+SILVER PEGASUS
+WOODCHIPS
+50.000
+LOADING
+18/04/2025
+03/05/2025
+09/05/2025
+LACHMANN
+AMCEL
+SANTANA PORT PIER 1
+WHITE DEFENDER
+SOYABEANS
+31.500
+LOADING
+10/05/2025
+10/05/2025
+14/05/2025
+JAL/WS
+CIANPORT
+SANTANA PORT PIER 1
+REGNO MARINUS
+WOODCHIPS
+50.000
+LOADING
+19/05/2025
+19/05/2025
+25/05/2025
+LACHMANN
+AMCEL
+SANTANA PORT PIER 1
+STRELITZIA
+WOODCHIPS
+50.000
+LOADING
+01/06/2025
+03/06/2025
+09/06/2025
+WILSON SONS
+AMCEL
+SANTANA PORT PIER 1
+SILVER PEGASUS
+WOODCHIPS
+50.000
+LOADING
+16/06/2025
+16/06/2025
+22/07/2025
+LACHMANN
+AMCEL
+SANTANA PORT PIER 1
+SILVA CONCORDIA
+WOODCHIPS
+50.000
+LOADING
+20/06/2025
+22/07/2025
+28/06/2025
+LACHMANN
+AMCEL
+Clique aqui para acessar apenas
+este lineup
+PORT / BERTH
+VESSEL
+CARGO
+QUANTITY
+OPERATION
+ARRIVAL
+BERTHING
+SAILING
+AGENCY
+SHIPPERS/RECEIVERS
+CHIBATAO EXTERNAL 01
+MERCOSUL FORTALEZA
+CONTAINER
+896
+DISCH/LOAD
+02/10/2026
+02/10/2026
+05/10/2026
+UNIMAR
+MERCOSUL
+CHIBATAO EXTERNAL 02
+FERNÃO DE MAGALHÃES
+CONTAINER
+1.000
+DISCHARGE
+05/10/2026
+05/10/2026
+08/10/2026
+UNIMAR
+ALIANÇA
+CHIBATAO EXTERNAL 03
+LOGIN EVOLUTION
+CONTAINER
+996
+DISCH/LOAD
+07/10/2026
+07/10/2026
+10/10/2026
+MSC / SERVEPORTO
+LOGIN
+CHIBATAO EXTERNAL 04
+CL CHENZOU
+CLINCKER
+20.000
+DISCHARGE
+24/09/2026
+24/09/2026
+04/10/2026
+COSTA SHIPPING
+TBI
+HERMASA Fundeio
+TAO STAR
+SBS
+21.300
+DISCHARGE
+04/10/2026
+04/10/2026
+08/10/2026
+AMAZONICA
+DENOFA AS
+HERMASA Fundeio
+AMALIYA
+MAIZE
+28.500
+DISCHARGE
+04/10/2026
+23/09/2026
+04/10/2026
+WAYPOINT
+AMAGGI
+ITACOATIARA Hermasa Maquira
+GLORY CUIABÁ
+SBS NON GMO
+55.000
+DISCHARGE
+08/10/2026
+15/10/2026
+27/10/2026
+ORION RODOS
+AMAGGI
+ITACOATIARA Hermasa Maquira
+MINOAN GLORY
+UREA
+42.000
+DISCHARGE
+02/10/2026
+05/10/2026
+15/10/2026
+WILHELMSEM
+AMAGGI
+ITACOATIARA Hermasa Maquira
+FEDERAL ICON
+SBS
+47.500
+DISCHARGE
+24/09/2026
+24/09/2026
+04/10/2026
+WAYPOINT
+AMAGGI
+ITACOATIARA Hermasa Pier 1
+SCOT FLENSBURG
+OIL
+7.875
+DISCHARGE
+08/10/2026
+09/10/2026
+11/10/2026
+WILHELMSEM
+AGROGRAIN
+ITACOATIARA Hermasa Pier 1
+NEW PRESTIGE
+MAIZE + PELLETS
+50.000
+DISCHARGE
+17/10/2026
+08/10/2026
+14/10/2026
+AMAZONICA
+AMAGGI
+ITACOATIARA Hermasa Pier 1
+MELOI
+SBS
+30.000
+DISCHARGE
+03/10/2026
+06/10/2026
+11/10/2026
+WAYPOINT
+AMAGGI
+ITACOATIARA Hermasa Pier 1
+SEA LADY
+SOYA
+42.000
+DISCHARGE
+01/10/2026
+24/09/2026
+05/10/2026
+WAYPOINT
+AMAGGI
+ITACOATIARA TFB
+HONESTY
+DERIVATIVE PETROLEUM
+27.985
+DISCHARGE
+27/09/2026
+04/10/2026
+06/10/2026
+WILHELSEM
+PETROBRAS
+ITACOATIARA TFB
+ATALANTA T
+DERIVATIVE PETROLEUM
+30.000
+DISCHARGE
+30/09/2026
+30/09/2026
+04/10/2026
+WILHELSEM
+PETROBRAS
+OCRIM Pier 1
+APOGEE SPIRTI
+WHEAT IN BULK
+DISCHARGE
+22/10/2026
+22/10/2026
+26/10/2026
+SERVEPORTO
+OCRIM
+SUPERTERMINAIS Pier Externo
+MSC SAMIRA III
+CONTAINER
+1.456
+DISCHARGE
+06/10/2026
+06/10/2026
+09/10/2026
+MSC
+MSC
+SUPERTERMINAIS Pier Externo
+NC BRISA
+CONTAINER
+896
+DISCHARGE
+01/10/2026
+01/10/2026
+04/10/2026
+MSC
+NCO
+SUPERTERMINAIS Pier Interno
+MSC NADRIELY
+CONTAINER
+2.000
+DISCHARGE
+02/10/2026
+02/10/2026
+06/10/2026
+MSC
+MSC
+Porto Vila do Conde Temperatura
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+Porto de Santana Temperatura
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+Porto de Santarém Temperatura
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+São Luiz Temperatura
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+Manaus Temperatura
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+Atuação
+Lugares em
+que atuamos
+Portos
+. . .
+Belém
+Os navios atracam no centro da cidade. Os navios maiores ancoram e usam as estruturas locais de dois andares para desembarcar em uma vila região conhecida como Vila Icoaracy.
+Um transporte gratuito é oferecido da Vila de Icoaracy para o mercado na cidade de Belém, um passeio agradável de 35 minutos.
+Na chegada, locais prestativos distribuirão mapas e responderão a quaisquer perguntas.
+Muitos dos destaques da cidade podem ser apreciados com uma caminhada ao longo das margens dos rios, começando pelo cais e continuando até ao antigo forte.
+Vale a pena dar uma olhada nas inúmeras igrejas antigas ao longo do caminho, e você não pode perder a vida agitada do mercado.
+Uma parte de Belém contém arranha-céus modernos e umaa outra parte, a seção colonial, tem praças arborizadas charmosas, igrejas e tradicionais azulejos azuis. Belém é uma cidade quente e chuvosa com umidade muito elevada. O clima equatorial significa uma pequena variação de um dia para o outro, mas os meses mais chuvosos são entre janeiro e maio.
+Ao caminhar pelo centro de Belém, você rapidamente tem uma noção do layout da cidade e da localização das principais atrações turísticas, que incluem uma série de edifícios coloniais.
+Um projeto de renovação impressionante e de grande sucesso em Belém, é o complexo da Estação das Docas (Estação Portuária) que viu um total de três armazéns ribeirinhos do início do século 20 transformados em um espaço comercial moderno, completo com um pequeno teatro, lojas e restaurantes.
+O mercado se encontra nesse cais e o mesmo que é um dos maiores do Brasil. Foi projetado e construído na Inglaterra embora tenha sido montado em Belém. Nesse local você encontrará muitas frutas frescas, plantas e peixes, além de ervas medicinais e poções.
+O horário básico para a maioria das lojas e negócios é das 9h às 18h, com horário de almoço estendido por volta das 12h às 14h. Muitos museus estão fechados na segunda-feira. Todos os anos, na manhã do segundo domingo de outubro, Belém explode ao som de hinos, sinos e fogos de artifício. Iniciado em 1793, o Círio de Nazaré é a maior festa religiosa do Brasil. Pessoas de todo o país lotam Belém, e até acampam nas ruas, para participar do grande evento.
+Vila do Conde
+Vila do Conde é um porto localizado no Pará. Esse é um porto que possui uma ponte que se estende a 450m da costa e essa ponte conduz a um cais que servem uma fábrica de alumínio.
+O cais externo tem 292m de comprimento e é utilizado para movimentação de carga a granel. O cais interno tem 251m de comprimento e é utilizado para movimentação de carga geral e lingotes de alumínio. Como profundidades laterais são de 12,2m no berço interno e 18,9m no berço externo. O calado máximo permitido é regido pela profundidade do Rio Pará.
+Com uma população de mais de 204 milhões de habitantes e abundantes recursos naturais, o Brasil é um dos dez maiores mercados do mundo na produção de aço, cimento, eletrodomésticos/ eletrônicos e veículos. Além disso, sua indústria de petróleo processa combustíveis, lubrificantes, gás propano e produtos petroquímicos.
+Com uma costa de 8.500 quilômetros navegáveis, o Brasil possui um setor portuário muito grande, responsável por mais de 90% do total das exportações e importações do país.
+Por rodovia, a distância do porto de Vila do Conde até Belém, capital do estado do Pará, é de 120 km. Adjacente ao porto reside um complexo de Alumínio, constituído pela Alunorte, Albrás e Alubar.
+O tráfego principal de contêineres inclui Produtos Florestais, Minerais, Ferro Ligas, Carne Congelada, Minerais de Argila, Especiarias e frutas recentemente.
+O porto Vila do Conde fica localizado na belíssima cidade de Barcarena, no Pará. Devido a região ser próxima a capital paraense, Belém, muitos serviços relacionados a traslados para Belém são facilmente encontrados na região portuária.
+Santarém
+Os navios atracam no novo cais para cruzeiros das Docas de Santarém. É uma caminhada fácil de 15 minutos do centro da cidade até a entrada do porto, o que representa a proximidade com a região de comércio ativo. Existem diversas formas de transporte disponíveis para levá-lo até o centro da cidade ou até mesmo em um passeio.
+Uma das principais razões para visitar Santarém é para ver as “Bodas das Águas”. Esse é o fenômeno que ocorre quando dois rios se fundem e cada rio tem características diferentes.
+Em Santarém o Rio Tapajós se junta ao Rio Amazonas e o Rio Tapajós é um rio de águas muito claras e limpas e o Amazonas é bastante escuro e lamacento. Os dois correm lado a lado por quilômetros antes de se misturarem. Na verdade, existe uma linha bastante clara que separa os dois rios, embora eles estejam fluindo como um só.
+O passeio fluvial da Nova Orla segue a Av. Tapajós por mais de um quilômetro do Museu de Santarém quase até as Docas do Pará. Um bom passeio começa na Praça Matriz em direção ao oeste, passando por barcos coloridos antes de terminar na sombra das enormes instalações da Cargill, um símbolo do florescente comércio de soja no Brasil. Como a região é bastante quente e existe pouca região de sombra, então traga um chapéu.
+Sair de Santarém é um grande negócio, pois há uma agência de viagens em praticamente todas as esquinas. O principal mercado, o Mercado Modelo, está localizado em frente à orla, no centro da cidade. Você não pode perder. Principalmente que anexo a ele se encontra um mercado muito grande que consiste em diversas lojas e boutiques para todos os gostos.
+O horário básico para a maioria das lojas e negócios é das 9h às 18h, com horário de almoço estendido por volta das 12h às 14h.
+Macapá
+Os navios de cruzeiro ficam ancorados bem no centro da cidade. No entanto, a maioria dos navios só tem permissão para desembarcar aqui para liberação das autoridades brasileiras. Os tripulantes não poderão desembarcar do navio durante esse período. A liberação incluirá uma inspeção de segurança, inspeção de saúde e formalidades de imigração. Dependendo da complexidade do navio, isso pode levar várias horas. Alguns navios irão atracar, mas ficarão ancorados.
+Por fazer parte da Amazônia, a capital do Amapá é ponto de parada de aves migratórias, que se juntam aos flamingos locais, tucanos, íbis, tartarugas marinhas e ribeirinhas, crocodilos gigantes, peixes-boi, tamanduás e tatus que compõem a rica fauna da região e dão um colorido especial ao verde da floresta.
+Em Macapá, as águas do rio Amazonas banham-se nas praias da Fazendinha e Araxá, que proporcionam um banho muito bom. Cortada pelo Equador, Macapá guarda um pouco da história da região em seus monumentos. Um deles é o Forte de São José, na entrada da cidade. Concluído em 1782 após 18 anos de trabalho de índios e escravos, o Forte é um exemplo da influência francesa na cultura da região e um dos monumentos militares mais bem preservados do Brasil.
+A história do Amapá também está representada pela Igreja Matriz de São José de Macapá, que possui data de 1761. É o monumento mais antigo da cidade e é construído no mais austero estilo colonial dos jesuítas.
+Na Casa do Artesão, cerâmicas revestidas com manganês e arte indígena podem ser adquiridas como lembrança. A beleza dos artefatos indígenas pode ser observada nas armas feitas com madeira local e na variedade de utensílios e enfeites feitos com dentes e ossos de animais, penas de pássaros, sementes e fibras naturais.
+Manaus
+O porto de Manaus, atualmente é o maior porto flutuante (cais flutuante) do mundo. Possui capacidade para receber 4 navios de forma simultânea. Quando se encontra no período de cheias e há uma maior vazão do Rio Negro pode-se considerar receber mais 3 navios.
+Os navios atracam no Porto Flutuante (cais flutuante), uma engenhosa estrutura que sobe e desce com a grande flutuação do nível do rio. A cidade começa nas docas.
+Como o cais do porto é flutuante, ele se adequa bem em qualquer situação de embarque e desembarque, trazendo maior conforto e praticidade para todos os tipos de operações.
+Todos os principais pontos turísticos ficam a poucos passos do cais. A cidade é montanhosa. Manaus é a maior cidade da Amazônia e possui um importante porto para navios oceânicos que fica a 1.500 km do oceano.
+Manaus já foi o centro mundial da produção de borracha e tornou-se muito rica. Uma das principais atrações de Manaus é o Teatro Amazonas, ou como é conhecido Ópera. Concluído em 1896, no auge da economia da borracha que fez de Manaus uma das cidades mais ricas do mundo, é absolutamente espetacular. O teatro possui 198 lustres, incluindo 32 de vidro Murano. A cortina, com a pintura “Encontro das Águas” originalmente criada em Paris por Crispim do Amaral, retrata a junção do Rio Negro e do Solimões para formar o Amazonas. Na parte externa do prédio, a cúpula é revestida com 36 mil ladrilhos cerâmicos decorados e pintados com as cores da bandeira nacional.
+Para caminhar até o Teatro Ópera, basta subir a Av. Eduardo Ribeiro ao lado da Catedral de Manaus. Se você chegou ao porto de Manaus, precisa conhecer o teatro.
+Além do teatro, a diversidade cultural é um encanto a parte, você pode encontrar diversas opções para fazer e onde ficar dependendo da sua disponibilidade.
+Itacoatiara
+O porto de Itacoatiara fica localizado na margem do Rio Nego, próximo ao encontro com o rio Solimões e fica próximo da cidade de Manaus nos estados do Amazonas. Possui uma área total de quase 100 mil metros quadrados, incluindo aproximadamente 15 mil metros quadrados de uma doca flutuante.
+O acesso ao porto pelo meio marítimo acontece através do Rio Negro, principal afluente do Rio Amazonas. Na região conhecida como Cabocal, o limite de profundidade está a 11 metros.
+O porto de Itacoatiara é o maior porto do interior do Amazonas, possui uma enorme capacidade para atracação de navios e até balsas, respeitando o limite de 35 mil toneladas.
+O seu pátio de cargas possui espaço estimado para comportar 5 mil contêineres, além de contar com um moderno terminal para passageiros com estacionamento e uma área com um complexo frigorífico.
+Itacoatiara é uma cidade da porção centro-leste do belíssimo estado do Amazonas, trata-se basicamente de uma região de núcleo da região norte do Brasil. Está localizada a 176 quilômetros em direção leste por via aérea ou 270 km ou através do rio que passa por Manaus. É a terceira cidade mais populosa do estado, às margens do rio Amazonas.
+O município é conhecido como “Cidade da pedra pintada” – nome recebido pela tradução do tupi. Itacoatiara possui um importante porto, responsável por grande parte do transporte de cargas no Amazonas.
+São Luís
+O porto de São Luís possui um terminal para uso privado e tem uma capacidade de movimentação em torno de 10 milhões de toneladas ao ano. A área portuária gira em torno de 200 hectares.
+Embora tenha sido fundada pelos franceses em 1612 e também tenha sido ocupado pelos holandeses no passado, São Luís continuou sendo uma cidade colonial marcadamente portuguesa.
+Os prédios com lindas paredes de azulejo e as ruas de paralelepípedos de seu bem preservado centro histórico foram classificados como patrimônio da humanidade pela UNESCO.
+A cidade é aproximadamente dividida em duas regiões, sendo elas divididas por uma espécie de rio onde de um lado temos a própria São Luís, incluindo o centro, Vila Velha e toda a parte industrial assim como os subúrbios. Do outro lado temos São Francisco e seus vizinhos, que compõem um novo Comercial distrito, todas as praias urbanas e muitos dos novos edifícios residenciais de luxo.
+São Luís é também um daqueles lugares marcantes que possuem uma cultura distinta relacionada a uma gastronomia típica, tradições e festas populares.
+Existem alguns shoppings na cidade, sendo um deles na parte histórica da cidade. Existem inúmeras lojas que vendem souvenires. O principal calçadão do centro da cidade é a Rua Grande, que possui diversas lojas de quase todos os tipos possíveis.
+O horário básico para a maioria das lojas e negócios é das 9h às 18h, com horário de almoço estendido por volta das 12h às 14h. Muitos museus fecham às segundas-feiras, então se você por acaso quiser conhecer um pouco mais a história da cidade, tente se atentar a esses detalhes enquanto estiver na cidade.
+Dependendo da sua disponibilidade, existem diversas opções para hospedagem e lazer, as opções para escolha dependem muito do critério de escolha pessoal além do tempo disponibilizado para a estadia nas proximidades.
+Rodovia PA 483, KM 20 SERVEPORTO TERMINAL LOGISTICO
+(Vila do Conde)
+, Barcarena – PA,
+68448-000
+REDES SOCIAIS
+Facebook-f
+Youtube
+Instagram
+QUEM SOMOS
+Missão
+Visão
+Valores
+Histórico
+ATUAÇÃO
+Portos
+Line-Ups
+SOLUÇÕES
+Modais
+Serviços
+Infraestrutura
+Compromisso
+SERVE REPORT
+Notícias
+Line-ups
+Clipping
+Oportunidades
+Vagas de Emprego
+Contato
+Informações Matriz
+Informações Filiais
+Social
+Comunidade
+Trabalhos Sociais
+© 2022 Serveporto. Todos os direitos reservados. Desenvolvido por
+TNT Mídia
+Populära utländska casino
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/astra/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+Scroll to Top
+( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+var astra = {"break_point":"921","isRtl":"","is_scroll_to_id":"","is_scroll_to_top":"1","is_header_footer_builder_active":"1","responsive_cart_click":"flyout","is_dark_palette":""};
+//# sourceURL=astra-theme-js-js-extra
+var fluentformElementor = {"adminUrl":"https://serveporto.com.br/wp-admin/admin.php"};
+//# sourceURL=fluentform-elementor-js-extra
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.3.4","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"theme_builder_v2":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_collection_loop":true},"urls":{"assets":"https:\/\/serveporto.com.br\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/serveporto.com.br\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/serveporto.com.br\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"b277518291","atomicFormsSendForm":"4fd6ce07e7"},"swiperClass":"swiper","settings":{"page":{"element_pack_global_tooltip_width":{"unit":"px","size":"","sizes":[]},"element_pack_global_tooltip_width_tablet":{"unit":"px","size":"","sizes":[]},"element_pack_global_tooltip_width_mobile":{"unit":"px","size":"","sizes":[]},"element_pack_global_tooltip_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_border_radius":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_border_radius_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_border_radius_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}},"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":17,"title":"Atua%C3%A7%C3%A3o%20%E2%80%93%20Serveporto%20Group","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+var element_pack_ajax_login_config = {"ajaxurl":"https://serveporto.com.br/wp-admin/admin-ajax.php","language":"en","loadingmessage":"Sending user info, please wait...","unknownerror":"Unknown error, make sure access is correct!"};
+var ElementPackConfig = {"ajaxurl":"https://serveporto.com.br/wp-admin/admin-ajax.php","nonce":"756ef5ba2e","data_table":{"language":{"sLengthMenu":"Show _MENU_ Entries","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sSearch":"Search :","sZeroRecords":"No matching records found","oPaginate":{"sPrevious":"Previous","sNext":"Next"}}},"contact_form":{"sending_msg":"Sending message please wait...","captcha_nd":"Invisible captcha not defined!","captcha_nr":"Could not get invisible captcha response!"},"mailchimp":{"subscribing":"Subscribing you please wait..."},"search":{"more_result":"More Results","search_result":"SEARCH RESULT","not_found":"not found"},"words_limit":{"read_more":"[read more]","read_less":"[read less]"},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+//# sourceURL=bdt-uikit-js-extra
+var wpgmza_google_api_status = {"message":"Engine is not google-maps","code":"ENGINE_NOT_GOOGLE_MAPS"};
+//# sourceURL=wpgmza_data-js-extra
+var WPGMZA_localized_data = {"adminurl":"https://serveporto.com.br/wp-admin/","siteHash":"a675fdd138dc1fecd390b2178fbb2c7a","ajaxurl":"https://serveporto.com.br/wp-admin/admin-ajax.php","pluginDirURL":"https://serveporto.com.br/wp-content/plugins/wp-google-maps/","ajaxnonce":"57c0b9d721","legacyajaxnonce":"e8bebf46d3","html":{"googleMapsAPIErrorDialog":"\u003Cdiv\u003E\n\n\t\u003Ch2\u003EMaps API Error\u003C/h2\u003E\n\t\n\t\u003Cdiv\u003E\n\t\n\t\t\u003Cp\u003E\n\t\t\tOne or more error(s) have occured attempting to initialize the Maps API:\t\t\u003C/p\u003E\n\t\n\t\t\u003Cul class=\"wpgmza-google-api-error-list\"\u003E\n\t\t\t\u003Cli class=\"template notice notice-error\"\u003E\n\t\t\t\t\u003Cspan class=\"wpgmza-message\"\u003E\u003C/span\u003E\n\t\t\t\t\u003Cspan class=\"wpgmza-documentation-buttons\"\u003E\n\t\t\t\t\t\u003Ca target=\"_blank\"\u003E\n\t\t\t\t\t\t\u003Ci class=\"fa\" aria-hidden=\"true\"\u003E\u003C/i\u003E\n\t\t\t\t\t\u003C/a\u003E\n\t\t\t\t\u003C/span\u003E\n\t\t\t\u003C/li\u003E\n\t\t\u003C/ul\u003E\n\t\n\t\u003C/div\u003E\n\t\t\t\u003Cp class=\"wpgmza-front-end-only\"\u003E\n\t\t\u003Ci class=\"fa fa-eye\" aria-hidden=\"true\"\u003E\u003C/i\u003E\n\t\tThis dialog is only visible to administrators\t\u003C/p\u003E\n\t\n\t\u003C!--\u003Cbutton data-remodal-action=\"confirm\" class=\"remodal-confirm\"\u003E\n\t\tDismiss\t\u003C/button\u003E--\u003E\n\n\u003C/div\u003E"},"imageFolderURL":"https://serveporto.com.br/wp-content/plugins/wp-google-maps/images/","resturl":"https://serveporto.com.br/wp-json/wpgmza/v1","restnonce":"2a527e6eb2","restnoncetable":{"/maps/\\d+/settings/":"caa237d2c2","/(polygons|polylines|circles|rectangles|pointlabels)(\\/\\d+)?/":"bf0f8f88c7","/markers(\\/\\d+)?/":"df65885ea2","/datatables":"4904ddb456","/system-health-tools/":"1d30b85ab1"},"settings":{"engine":"open-layers","internal_engine":"legacy","google_maps_api_key":false,"default_marker_icon":"https://serveporto.com.br/wp-content/plugins/wp-google-maps/images/spotlight-poi2.png","developer_mode":false,"user_interface_style":"default","wpgmza_gdpr_enabled":1,"wpgmza_gdpr_default_notice":"\u003Cp\u003E\r\n\tI agree for my personal data to be processed by \u003Cspan name=\"wpgmza_gdpr_company_name\"\u003E\u003C/span\u003E, for the purpose(s) of \u003Cspan name=\"wpgmza_gdpr_retention_purpose\"\u003E\u003C/span\u003E.\r\n\u003C/p\u003E\r\n\r\n\u003Cp\u003E\t\r\n\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tSome visual components of WP Go Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tWP Go Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Go Maps transmit this information.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tPlease \u003Ca href=\"https://developers.google.com/maps/terms\"\u003Esee here\u003C/a\u003E and \u003Ca href=\"https://maps.google.com/help/terms_maps.html\"\u003Ehere\u003C/a\u003E for Google's terms. Please also see \u003Ca href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\"\u003EGoogle's Privacy Policy\u003C/a\u003E. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\r\n\u003C/p\u003E","wpgmza_gdpr_company_name":"Serveporto Group","wpgmza_gdpr_retention_purpose":"displaying map tiles, geocoding addresses and calculating and display directions.","wpgmza_gdpr_button_label":"I agree","wpgmza_marker_xml_url":"https://serveporto.com.br/wp-content/uploads/wp-google-maps/","wpgmza_maps_engine":"open-layers","wpgmza_maps_engine_dialog_done":true,"tile_server_url":"https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png","action":"wpgmza_save_settings","tile_server_url_override":"","wpgmza_settings_map_full_screen_control":false,"wpgmza_settings_map_streetview":false,"wpgmza_settings_map_zoom":false,"wpgmza_settings_map_pan":false,"wpgmza_settings_map_type":false,"wpgmza_settings_map_tilt_controls":false,"wpgmza_settings_map_scroll":false,"wpgmza_settings_map_draggable":false,"wpgmza_settings_map_clickzoom":false,"wpgmza_settings_access_level":"manage_options","wpgmza_settings_retina_width":"","wpgmza_settings_retina_height":"","wpgmza_force_greedy_gestures":false,"disable_lightbox_images":false,"wpgmza_settings_map_open_marker_by":"1","infowindow_hide_title":false,"wpgmza_settings_infowindow_address":false,"infowindow_hide_category":false,"infowindow_hide_gallery":false,"infowindow_hide_description":false,"infowindow_hide_marker_fields":false,"wpgmza_settings_infowindow_links":false,"wpgmza_settings_infowindow_link_text":"","wpgmza_settings_disable_infowindows":false,"wpgmza_settings_image_resizing":false,"wpgmza_settings_image_width":"","wpgmza_settings_image_height":"","wpgmza_settings_infowindow_width":"","wpgmza_default_items":null,"wpgmza_settings_markerlist_icon":false,"wpgmza_settings_markerlist_link":false,"wpgmza_settings_markerlist_title":false,"wpgmza_settings_markerlist_address":false,"wpgmza_settings_markerlist_category":false,"wpgmza_settings_markerlist_description":false,"wpgmza_do_not_enqueue_datatables":false,"wpgmza_settings_carousel_markerlist_theme":null,"wpgmza_settings_carousel_markerlist_image":false,"wpgmza_settings_carousel_markerlist_title":false,"wpgmza_settings_carousel_markerlist_icon":false,"wpgmza_settings_carousel_markerlist_address":false,"wpgmza_settings_carousel_markerlist_description":false,"wpgmza_settings_carousel_markerlist_marker_link":false,"wpgmza_settings_carousel_markerlist_directions":false,"wpgmza_settings_carousel_markerlist_resize_image":false,"carousel_lazyload":false,"carousel_autoheight":false,"carousel_pagination":false,"carousel_navigation":false,"wpgmza_do_not_enqueue_owl_carousel":false,"wpgmza_do_not_enqueue_owl_carousel_themes":false,"carousel_items":"5","carousel_items_tablet":"3","carousel_items_mobile":"1","carousel_autoplay":"5000","wpgmza_store_locator_radii":"","categoryTreeSource":null,"wpgmza_settings_cat_logic":"0","wpgmza_settings_filterbycat_type":"1","wpgmza_gdpr_require_consent_before_load":false,"wpgmza_gdpr_override_notice":false,"wpgmza_gdpr_notice_override_text":"","wpgmza_google_maps_api_key":"","importer_google_maps_api_key":"","wpgmza_load_engine_api_condition":"where-required","wpgmza_prevent_other_plugins_and_theme_loading_api":false,"open_layers_api_key":"","open_route_service_key":"","wpgmza_always_include_engine_api_on_pages":"","wpgmza_always_exclude_engine_api_on_pages":"","wpgmza_settings_marker_pull":"0","use_fontawesome":"4.*","woo_product_location_editor_enabled":false,"woo_checkout_map_enabled":false,"woo_checkout_map_placement":null,"enable_batch_loading":false,"fetchMarkersBatchSize":"100","wpgmza_custom_css":"","wpgmza_custom_js":"","disable_compressed_path_variables":false,"disable_autoptimize_compatibility_fix":false,"disable_automatic_backups":false,"wpgmza_developer_mode":false,"gallery_item_source_size":null,"enable_dynamic_sql_refac_filter":false,"disable_google_fonts":false,"enable_google_csp_headers":false,"force_ajax_only_mode":false,"gdprCompanyName":"Serveporto Group","gdprRetentionPurpose":"displaying map tiles, geocoding addresses and calculating and display directions.","gdprButtonLabel":"I agree","accessLevel":"manage_options","alwaysExcludeEngineApiOnPages":"","alwaysIncludeEngineApiOnPages":"","carouselAutoplay":"5000","carouselItems":"5","carouselItemsMobile":"1","carouselItemsTablet":"3","carouselMarkerlistResizeImage":false,"carouselTheme":null,"categoryFilterDisplay":"dropdown","categoryFilteringLogic":"or","customCss":"","customJs":"","defaultMarkerIcon":"https://serveporto.com.br/wp-content/plugins/wp-google-maps/images/spotlight-poi2.png","developerMode":false,"disableAutomaticBackups":false,"disableAutoptimizeCompatibilityFix":false,"disableCompressedPathVariables":false,"disableDoubleClickZoom":false,"disableDragPanning":false,"disableFullScreenControl":false,"disableGoogleFonts":false,"disableInfoWindows":false,"disableLightboxImages":false,"disableMouseWheelZoom":false,"disablePanControl":false,"disableStreetViewControl":false,"disableTypeControl":false,"disableZoomControl":false,"doNotEnqueueDatatables":false,"doNotEnqueueOwlCarousel":false,"doNotEnqueueOwlCarouselThemes":false,"enableBatchLoading":false,"enableCarouselAutoHeight":false,"enableCarouselLazyLoad":false,"enableCarouselNavigation":false,"enableCarouselPagination":false,"enableDynamicSqlRefacFilter":false,"enableGoogleCspHeaders":false,"forceAjaxOnlyMode":false,"forceGreedyGestures":false,"galleryItemSourceSize":null,"gdprDefaultNotice":"\u003Cp\u003E\r\n\tI agree for my personal data to be processed by \u003Cspan name=\"wpgmza_gdpr_company_name\"\u003E\u003C/span\u003E, for the purpose(s) of \u003Cspan name=\"wpgmza_gdpr_retention_purpose\"\u003E\u003C/span\u003E.\r\n\u003C/p\u003E\r\n\r\n\u003Cp\u003E\t\r\n\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tSome visual components of WP Go Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tWP Go Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Go Maps transmit this information.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tPlease \u003Ca href=\"https://developers.google.com/maps/terms\"\u003Esee here\u003C/a\u003E and \u003Ca href=\"https://maps.google.com/help/terms_maps.html\"\u003Ehere\u003C/a\u003E for Google's terms. Please also see \u003Ca href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\"\u003EGoogle's Privacy Policy\u003C/a\u003E. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\r\n\u003C/p\u003E","gdprEnabled":1,"gdprNoticeOverrideText":"","gdprOverrideNotice":false,"gdprRequireConsentBeforeLoad":false,"googleMapsApiKey":"","hideCarouselMarkerListingAddress":false,"hideCarouselMarkerListingDescription":false,"hideCarouselMarkerListingDirections":false,"hideCarouselMarkerListingIcon":false,"hideCarouselMarkerListingImage":false,"hideCarouselMarkerListingLink":false,"hideCarouselMarkerListingTitle":false,"hideMarkerListingAddress":false,"hideMarkerListingCategory":false,"hideMarkerListingDescription":false,"hideMarkerListingIcon":false,"hideMarkerListingLink":false,"hideMarkerListingTitle":false,"importerGoogleMapsApiKey":"","infoWindowAddress":false,"infoWindowHideCategory":false,"infoWindowHideDescription":false,"infoWindowHideGallery":false,"infoWindowHideMarkerFields":false,"infoWindowHideTitle":false,"infoWindowImageHeight":"","infoWindowImageResizing":false,"infoWindowImageWidth":"","infoWindowLinkText":"","infoWindowLinks":false,"infoWindowMaxWidth":"","internalEngine":"legacy","loadEngineApiCondition":"where-required","mapTiltControls":false,"mapsEngineDialogDone":true,"markerListingPageSize":null,"markerPull":"database","markerXmlUrl":"https://serveporto.com.br/wp-content/uploads/wp-google-maps/","openInfoWindowEvent":"click","openLayersApiKey":"","openRouteServiceKey":"","preventOtherPluginsAndThemeLoadingApi":false,"retinaHeight":"","retinaWidth":"","storeLocatorRadii":"","tileServerUrl":"https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileServerUrlOverride":"","useFontAwesome":"4.*","userInterfaceStyle":"default","wooCheckoutMapEnabled":false,"wooCheckoutMapPlacement":null,"wooProductLocationEditorEnabled":false},"stylingSettings":{},"currentPage":null,"tileServer":{"url":"https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png","label":"Standard","provider":"OpenStreetMap","attribution":"&copy; \u003Ca href='http://www.openstreetmap.org/copyright'\u003EOpenStreetMap\u003C/a\u003E","type":"xyz","slug":"openstreetmap"},"internalEngine":"legacy","userCanAdministrator":"0","serverCanInflate":"1","localized_strings":{"unsecure_geolocation":"Many browsers are no longer allowing geolocation from unsecured origins. You will need to secure your site with an SSL certificate (HTTPS) or this feature may not work for your visitors","use_my_location":"Use my location","google_api_not_loaded":"The map cannot be initialized because the Maps API has not been loaded. Please check your settings.","no_google_maps_api_key":"You have not entered a \u003Cb\u003EGoogle Maps API Key\u003C/b\u003E.\u003Cbr /\u003E\u003Cbr /\u003EPlease go to the your admin area, then Maps, then Settings, then the Advanced tab to \u003Ca href=\"https://serveporto.com.br/wp-admin/admin.php?page=wp-google-maps-menu-settings&highlight=wpgmza_google_maps_api_key#advanced-settings\"\u003Eenter your Google Maps API key\u003C/a\u003E.\u003Cbr /\u003E\u003Cbr /\u003EAlternatively, \u003Ca href=\"https://serveporto.com.br/wp-admin/admin.php?page=wp-google-maps-menu-settings&highlight=wpgmza_maps_engine\"\u003Echoose the Open Layers engine\u003C/a\u003E to avoid getting an API key.","documentation":"Documentation","api_dashboard":"API Dashboard","verify_project":"Verify Project","no_shape_circle":"Please create the circle first.","no_shape_rectangle":"Please create the rectangle first.","no_shape_polygon":"Please create the polygon first.","no_shape_polyline":"Please create the polyline first.","failed_to_get_address":"Failed to get address","failed_to_create_marker":"Failed to create marker %d - this marker cannot be placed on the map.","my_location":"My Location","kilometers_away":"km away","miles_away":"miles away","import_completed":"Import completed.","importing_please_wait":"Importing, this may take a moment...","no_address_specified":"No address specified","add_marker":"Add Marker","save_marker":"Save Marker","please_wait":"Please Wait...","zero_results":"No results found in this location. Please try again.","address_not_found":"This address could not be found. WP Go Maps uses a 3rd party service (eg Google) to convert addresses to geographic coordinates. Unfortunately, the service has no records for this address at present. Please try an alternative format, or manually position the marker using right click.","geocode_fail":"Geocode failed due to technical reasons","you_must_check_gdpr_consent":"You must check the GDPR consent box to continue","no_gps_coordinates":"No GPS coordinates found","fetching_directions":"Fetching directions...","unknown_directions_service_status":"Unknown directions service status","please_fill_out_both_from_and_to_fields":"Please fill out both the \"from\" and \"to\" fields","no_picture_found":"No picture found","overwrite_theme_data":"Are you sure you want to overwrite the existing theme data?","upload_complete":"Upload Complete","uploading_file":"Uploading file","bulk_jpeg_media_title":"WP Go Maps - Bulk JPEG Upload","from_your_location":"from your location","from_searched_location":"from searched location","yes":"Yes","no":"No","requires_gold_v5":"Requires WP Go Maps - Gold add-on 5.0.0 or above","confirm_remove_duplicates":"This operation is not reversable. We recommend you take a backup before proceeding. Would you like to continue?","invalid_theme_data":"Invalid theme data","duplicate_custom_field_name":"Duplicate custom field names, please ensure you only add unique custom field names.","disabled_interactions_notice":"Some interactions are disabled.","interactions_enabled_notice":"Interactions Enabled","disabled_interactions_button":"Re-Enable Interactions","use_two_fingers":"Use two fingers to move the map","use_ctrl_scroll_to_zoom":"Use ctrl + scroll to zoom the map","use_ctrl_scroll_to_zoom_ios":"Use cmd + scroll to zoom the map","geocode_was_not_successful":"Geocode was not successful for the following reason: ","geocoding_library_notice":"Geocoding this address failed. Please check you have enabled the Geocoding API for your Google Maps API project.","map_delete_prompt_text":"Are you sure you want to delete this map?","map_bulk_delete_prompt_text":"Are you sure you want to delete these maps?","general_delete_prompt_text":"Are you sure you want to delete this data?","hide_label_for_this_marker":"Hide label for this marker","show_label_for_this_marker":"Show label for this marker","new_map":"New Map","all":"All","cloud_api_key_error_1":"Autocomplete disabled. \u003Ca href=\"https://wpgmaps.com/documentation/autocomplete-disabled/?utm_source=plugin&utm_medium=link&utm_campaign=cloud-autocomplete-error\" target=\"_BLANK\"\u003EFind out more\u003C/a\u003E.","autcomplete_placeholder":"Enter a location","map_type_roadmap":"Roadmap","map_type_satellite":"Satellite","map_type_terrain":"Terrain","map_type_hybrid":"Hybrid","atlas_major_saving":"Saving\u2026","atlas_major_saved":"Saved","atlas_major_unsaved":"Unsaved changes","atlas_major_save_failed":"Save failed","atlas_major_save_failed_retrying":"Save failed \u2014 retrying in %ds","atlas_major_sl_address_label":"ZIP / Address:","atlas_major_sl_keywords_label":"Title / Description:","atlas_major_sl_keywords_placeholder":"Enter a title","atlas_major_autosave_paused_label":"Autosave off","atlas_major_autosave_active_label":"Autosave on","atlas_major_autosave_resume_tip":"Click to enable autosave","atlas_major_autosave_pause_tip":"Click to disable autosave (manual Save Map still works)","info_window_edit_marker_title":"Edit this marker","info_window_delete_marker_title":"Delete this marker","info_window_edit_marker_label":"Edit","info_window_delete_marker_label":"Delete","am_sidebar_add_default":"Add","am_sidebar_add_marker":"Add Marker","am_sidebar_list_default":"List","am_sidebar_list_marker":"Marker List","am_sidebar_list_polygon":"Polygon List","am_sidebar_list_polyline":"Polyline List","am_sidebar_list_circle":"Circle List","am_sidebar_list_rectangle":"Rectangle List","am_sidebar_list_heatmap":"Heatmap List","am_sidebar_list_point_label":"Point Label List","am_sidebar_list_image_overlay":"Image Overlay List","am_preview_fetch_failed":"Could not fetch preview"},"api_consent_html":"\u003Cdiv class=\"wpgmza-gdpr-compliance modern\"\u003E\u003Cdiv class='wpgmza-gdpr-image-placeholder'\u003E\u003Cimg src='https://serveporto.com.br/wp-content/plugins/wp-google-maps//images/default.png' /\u003E\u003C/div\u003E\u003Cdiv class='wpgmza-gdpr-notice-card'\u003E\u003Cdiv class='wpgmza-gdpr-inner-notice'\u003E\u003Cp\u003E\r\n\tI agree for my personal data to be processed by \u003Cspan name=\"wpgmza_gdpr_company_name\"\u003EServeporto Group\u003C/span\u003E, for the purpose(s) of \u003Cspan name=\"wpgmza_gdpr_retention_purpose\"\u003Edisplaying map tiles, geocoding addresses and calculating and display directions.\u003C/span\u003E.\r\n\u003C/p\u003E\r\n\r\n\u003Cp\u003E\t\r\n\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tSome visual components of WP Go Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tWP Go Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Go Maps transmit this information.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tPlease \u003Ca href=\"https://developers.google.com/maps/terms\"\u003Esee here\u003C/a\u003E and \u003Ca href=\"https://maps.google.com/help/terms_maps.html\"\u003Ehere\u003C/a\u003E for Google's terms. Please also see \u003Ca href=\"https://policies.google.com/privacy?hl=en-GB&gl=uk\"\u003EGoogle's Privacy Policy\u003C/a\u003E. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\r\n\u003C/p\u003E\r\n\u003Cp\u003E\r\n\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\r\n\u003C/p\u003E\u003C/div\u003E\u003Cp class='wpgmza-centered wpgmza-gdpr-button-container'\u003E\u003Cbutton class='wpgmza-api-consent'\u003EI agree\u003C/button\u003E\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E","basic_version":"10.1.09","_isProVersion":"","enhancedAutocompleteExtraParams":"","defaultMarkerIcon":"https://serveporto.com.br/wp-content/plugins/wp-google-maps/images/spotlight-poi3.png","markerXMLPathURL":"//serveporto.com.br/wp-content/uploads/wp-google-maps/","is_admin":"0","locale":"en_US","wpml_language":null,"isServerIIS":"","labelpointIcon":"https://serveporto.com.br/wp-content/plugins/wp-google-maps/images/label-point.png","buildCode":"B.10.1.09::L.O","postID":"17"};
+//# sourceURL=wpgmza-js-extra
+window.gtranslateSettings = /* document.write */ {"default_language": "pt", "languages": ["zh-CN","en","pt","es"], "wrapper_selector": "#google_language_translator"}
+//# sourceURL=glt_widget_script-js-before
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/serveporto.com.br\/wp-admin\/admin-ajax.php","nonce":"e2c5b263d7","urls":{"assets":"https:\/\/serveporto.com.br\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/serveporto.com.br\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/serveporto.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://serveporto.com.br/wp-includes/js/wp-emoji-release.min.js?ver=7.0.7"}}
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://serveporto.com.br/wp-includes/js/wp-emoji-loader.min.js
+Usamos cookies para garantir que oferecemos a melhor experiência em nosso site. Se você continuar a usar este site, assumiremos que está satisfeito com ele.
+Ok
+(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a1fc643a141f08',t:'MTc5MTkzMjY5Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();

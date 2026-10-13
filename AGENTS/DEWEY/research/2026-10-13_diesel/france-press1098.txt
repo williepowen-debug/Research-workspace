@@ -1,0 +1,305 @@
+localStorage.setItem('scheme', 'light');
+const tarteaucitronCookieVal = getCookie('tarteaucitron');
+        if (tarteaucitronCookieVal.includes('eulerian=true')) {
+            <!-- Chargement librairie  -->
+            (function(e,a){var i=e.length,y=5381,k='script',s=window,v=document,o=v.createElement(k);for(;i;){i-=1;y=(y*33)^e.charCodeAt(i)}y='_EA_'+(y>>>=0);(function(e,a,s,y){s[a]=s[a]||function(){(s[y]=s[y]||[]).push(arguments);s[y].eah=e;};}(e,a,s,y));i=new Date/1E7|0;o.ea=y;y=i%26;o.async=1;o.src='//'+e+'/'+String.fromCharCode(97+y,122-y,65+y)+(i%1E3)+'.js?2';s=v.getElementsByTagName(k)[0];s.parentNode.insertBefore(o,s);})
+                ('myux.presse.economie.gouv.fr','EA_push');
+            <!-- Fin de chargement librairie Eulerian-->
+                const meta_url = document.location.href;
+
+                window.EA_datalayer = [];
+                window.EA_datalayer.push('site_environment', 'production');
+                window.EA_datalayer.push('site_entity', 'Min. Economie');
+                window.EA_datalayer.push('site_target', 'information');
+                window.EA_datalayer.push('site_type', 'standard');
+                window.EA_datalayer.push('site_language', 'fr');
+                window.EA_datalayer.push('path', meta_url);
+
+                                window.EA_datalayer.push('page_template', 'COMMUNIQUE DE PRESSE');
+                window.EA_datalayer.push('page_name', 'Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre');
+                window.EA_datalayer.push('page_title', 'Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre');
+                window.EA_datalayer.push('content_id', '185062');
+                
+                window.EA_push(window.EA_datalayer);
+        }
+
+        function getCookie(cname) {
+            let name = cname + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(';');
+            for(let i = 0; i <ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre – Presse – Ministère des Finances
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/presse.economie.gouv.fr\/?p=185062#article","isPartOf":{"@id":"https:\/\/presse.economie.gouv.fr\/?p=185062"},"author":{"name":"Léo POTONNIER","@id":"https:\/\/presse.economie.gouv.fr\/#\/schema\/person\/e5c8dddd16c86c8a1258c012311e768e"},"headline":"[[overtitle]] Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre[[cp_subtitle1]]","datePublished":"2026-10-07T19:28:38+00:00","mainEntityOfPage":{"@id":"https:\/\/presse.economie.gouv.fr\/?p=185062"},"wordCount":704,"commentCount":0,"image":{"@id":"https:\/\/presse.economie.gouv.fr\/?p=185062#primaryimage"},"thumbnailUrl":"https:\/\/economie-gouv.epresspack.me\/storage\/clients\/125\/gouv_1791393821.jpg","keywords":["Carburant","alaune"],"articleSection":["Communiqué de presse","Roland Lescure","Serge Papin","Pouvoir d’achat","Maud BREGEON","Economie","Energie"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/presse.economie.gouv.fr\/?p=185062","url":"https:\/\/presse.economie.gouv.fr\/?p=185062","name":"Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre - Presse - Ministère des Finances","isPartOf":{"@id":"https:\/\/presse.economie.gouv.fr\/#website"},"primaryImageOfPage":{"@id":"https:\/\/presse.economie.gouv.fr\/?p=185062#primaryimage"},"image":{"@id":"https:\/\/presse.economie.gouv.fr\/?p=185062#primaryimage"},"thumbnailUrl":"https:\/\/economie-gouv.epresspack.me\/storage\/clients\/125\/gouv_1791393821.jpg","datePublished":"2026-10-07T19:28:38+00:00","author":{"@id":"https:\/\/presse.economie.gouv.fr\/#\/schema\/person\/e5c8dddd16c86c8a1258c012311e768e"},"breadcrumb":{"@id":"https:\/\/presse.economie.gouv.fr\/?p=185062#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/presse.economie.gouv.fr\/?p=185062"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/presse.economie.gouv.fr\/?p=185062#primaryimage","url":"https:\/\/economie-gouv.epresspack.me\/storage\/clients\/125\/gouv_1791393821.jpg","contentUrl":"https:\/\/economie-gouv.epresspack.me\/storage\/clients\/125\/gouv_1791393821.jpg"},{"@type":"BreadcrumbList","@id":"https:\/\/presse.economie.gouv.fr\/?p=185062#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/presse.economie.gouv.fr\/"},{"@type":"ListItem","position":2,"name":"[[overtitle]]Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre[[cp_subtitle1]]"}]},{"@type":"WebSite","@id":"https:\/\/presse.economie.gouv.fr\/#website","url":"https:\/\/presse.economie.gouv.fr\/","name":"Presse - Ministère des Finances","description":"Presse - Ministère des Finances","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/presse.economie.gouv.fr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/presse.economie.gouv.fr\/#\/schema\/person\/e5c8dddd16c86c8a1258c012311e768e","name":"Léo POTONNIER","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/2f6969392b5b8334fbbae60f71ceba513e5e51d6687245b58c2f96329f09bba0?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/2f6969392b5b8334fbbae60f71ceba513e5e51d6687245b58c2f96329f09bba0?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/2f6969392b5b8334fbbae60f71ceba513e5e51d6687245b58c2f96329f09bba0?s=96&d=mm&r=g","caption":"Léo POTONNIER"},"url":"https:\/\/presse.economie.gouv.fr\/author\/léo potonnier 930043\/"}]}
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+var ajaxurlIMGNonce = {"url":"https://presse.economie.gouv.fr/wp-admin/admin-ajax.php","nonce":"57c4bfe3b0"};
+//# sourceURL=flux_img-js-extra
+var ajaxurlPostNonce = {"url":"https://presse.economie.gouv.fr/wp-admin/admin-ajax.php","nonce":"57c4bfe3b0"};
+//# sourceURL=flux_post-js-extra
+var ajaxurlVidNonce = {"url":"https://presse.economie.gouv.fr/wp-admin/admin-ajax.php","nonce":"57c4bfe3b0"};
+//# sourceURL=flux_video-js-extra
+var ajaxurlAttNonce = {"url":"https://presse.economie.gouv.fr/wp-admin/admin-ajax.php","nonce":"57c4bfe3b0"};
+//# sourceURL=flux_attachment-js-extra
+var ajaxurl = document.querySelector('meta[name="ajaxurl"]').getAttribute('content');var ajaxurlIMG = ajaxurl;var ajaxurlPost = ajaxurl;var ajaxurlVid = ajaxurl;var ajaxurlAtt = ajaxurl;var ajaxurlCart = ajaxurl;var ajaxurlCartExpire = ajaxurl;var nextNonce = document.querySelector('meta[name="nextnonce"]').getAttribute('content');var PT_Ajax = { ajaxurl: ajaxurl, nextNonce: nextNonce };
+jQuery(document).on('click', '#tarteaucitronClosePanel, #tarteaucitronBack', function () {
+            window.location.reload();
+        });
+Contenu
+Menu
+Recherche
+Pied de page
+Gouvernement
+Rechercher
+Menu
+Ministère de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique
+Ministère des Petites et Moyennes entreprises, du Commerce, de l’Artisanat, du Tourisme et du Pouvoir d’achat
+Ministère de l’Action et des Comptes publics
+Agenda
+Médias
+Ma sélection
+Fermer
+Rechercher
+Rechercher
+Fermer
+Accueil
+Roland Lescure
+Serge Papin
+David Amiel
+Maud Bregeon
+Sébastien Martin
+Anne Le Hénanff
+G7
+Le ministère
+Fermer
+Paramètres d’affichage
+Choisissez un thème pour personnaliser l’apparence du site.
+Thème clair
+Thème sombre
+Système
+Utilise les paramètres système.
+Voir le fil d’Ariane
+Accueil
+Maud BREGEON
+Communiqué de presse
+Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre
+Partager la page
+Veuillez
+autoriser le dépôt de cookies
+pour partager sur Facebook, Twitter et LinkedIn.
+Partager
+                            sur Facebook
+Partager
+                            sur Twitter
+Partager
+                            sur LinkedIn
+Partager par email
+Copier dans le presse-papier
+Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre
+Le 2 octobre dernier, l'accord négocié dans le cadre du G7 par le Président de la République actait la
+mobilisation coordonnée de 100 millions de barils de produits pétroliers issus des stocks stratégiques des grandes économies de la planète
+. Fort de cet accord, le Gouvernement annonce ce jour la mise sur le marché de 10 millions de barils de diesel afin de provoquer une baisse des prix à la pompe pour les Français.
+7 Octobre 2026 | Communiqué de presse
+1098 - CP - Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre-pdf
+PDF - 56.52 Ko
+Télécharger
+Ajouter à ma sélection
+Retirer de la sélection
+COMMUNIQUÉ DE PRESSE
+Paris, le 7 octobre 2026
+N°1098
+Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre
+Le 2 octobre dernier, l'accord négocié dans le cadre du G7 par le Président de la République actait la
+mobilisation coordonnée de 100 millions de barils de produits pétroliers issus des stocks stratégiques des grandes économies de la planète
+. Fort de cet accord, le Gouvernement annonce ce jour la mise sur le marché de 10 millions de barils de diesel afin de provoquer une baisse des prix à la pompe pour les Français.
+Une baisse du prix du litre de diesel de l'ordre de 12 à 18 centimes d'euro
+Ils seront mis à disposition des distributeurs à leur prix d'acquisition avant crise, permettant mécaniquement de
+baisser les prix à la pompe, dans un ordre de grandeur évalué entre 12 et 18 centimes par litre de gazole, et ce pendant trois mois.
+Ces 10 millions de barils, issus des stocks stratégiques français, représenteront une partie significative des 54 millions de barils consommés sur trois mois
+Les volumes libérés seront encadrés pour préserver notre sécurité d'approvisionnement.
+Une baisse des prix pour tous les français qui s'ajoute aux aides existantes
+Avec cette action, le Gouvernement décide de
+faire profiter tous les Français
+de cette libération de stocks stratégiques qu'ils ont participé à constituer. Cette baisse s'ajoutera aux aides existantes et pourra ainsi représenter une économie de 10 euros pour un plein moyen de diesel dans toutes les stations-services.
+L'ensemble des distributeurs seront destinataires de ces stocks stratégiques. Le Gouvernement les réunira dans les prochaines heures pour travailler à la mise en œuvre effective de cette décision. L'effet de la libération de ces stocks stratégique fera l'objet de contrôles renforcés auprès des distributeurs par les services de l'Etat afin d'éviter tout effet d'aubaine et de garantir aux consommateurs l'effectivité de cette baisse.
+Les barils seront mis sur le marché par la SAGESS, l'opérateur délégataire de la gestion des stocks stratégiques. Ces stocks seront reconstitués progressivement, après la fin de la crise actuelle, en fonction des conditions de marché.
+«
+Ces stocks ont toujours servi à protéger les Français en cas de crise. Nous sommes dans une crise mondiale durable. Pour la première fois, nous les utilisons pour protéger leur pouvoir d'achat, de manière encadrée, temporaire, et coordonnée avec le G7. C'est un exemple d'action diplomatique parfaitement coordonnée par le président de la République
+»
+a déclaré
+Roland Lescure
+, ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique.
+« Nous mobilisons nos stocks stratégiques de Gazole pour faire baisser les prix et avoir une nouvelle action concrète pour le pouvoir d'achat des Français. Hors de question que l'effet positif de cette décision se dilue dans des effets d'aubaine. Nous contrôlerons chaque semaine que cette baisse arrive à la pompe : tout le monde doit jouer le jeu dans l'intérêt des Français
+»
+a déclaré
+Serge Papin
+, ministre des Petites et Moyennes entreprises, du Commerce, de l'Artisanat, du Tourisme et du Pouvoir d'achat.
+«
+Le Gouvernement, conduit par le Premier ministre, continue sa politique de soutien ciblé en mettant sur le marché ces 10 millions de barils. Cette baisse permettra aux Français et à tous les professionnels concernés, agriculteurs, pêcheurs, BTP, de passer le pic hivernal de consommation du diesel plus sereinement
+»
+a déclaré
+Maud Bregeon
+, ministre déléguée chargée de l'Énergie.
+Contacts presse :
+Cabinet de Roland Lescure : 01 53 18 41 20 -
+presse.mefsien@cabinets.finances.gouv.fr
+Cabinet de Serge Papin : 01 53 18 44 32 -
+presse.mpmepa@cabinets.finances.gouv.fr
+Cabinet de Maud Bregeon : 01 42 75 79 07 -
+sec.communication.ppg@pm.gouv.fr
+Bureau de presse de Bercy : 01 53 18 33 80 -
+presse.bercy@finances.gouv.fr
+Derniers communiqués de presse
+22 septembre 2026
+Carburants : Extension des dispositifs de soutien de l'Etat aux professionnels et aux Français pour un coût de 450M€
+Roland Lescure
+Serge Papin
+Maud BREGEON
+David Amiel
+Economie
+21 septembre 2026
+NAR - Conférence de presse du Gouvernement sur les dispositifs d'aide et de soutien face à la hausse des prix des carburants, mardi 22 septembre 2026
+Roland Lescure
+Serge Papin
+Pouvoir d’achat
+Maud BREGEON
+David Amiel
+Industrie
+Economie
+Consommation
+Entreprise
+22 juillet 2026
+Hydrogène décarboné : les premiers lauréats du mécanisme de soutien à la production
+Sébastien Martin
+Maud BREGEON
+Industrie
+Energie
+Industrie verte
+{
+		"@context": "http://schema.org",
+		"@type": "NewsArticle",
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://presse.economie.gouv.fr/le-gouvernement-met-sur-le-marche-10-millions-de-barils-de-diesel-pour-une-baisse-de-prix-estimee-a-de-12-a-18-centimes-du-litre/"
+		},
+		"headline": "COMMUNIQUÉ DE PRESSE   Paris, le 7 octobre 2026 N°1098   Le Gouvernement met...",
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://presse.economie.gouv.fr/wp-content/themes/epp-root/img/logo.png",
+			"height": 800,
+			"width": 800
+		},
+		"datePublished": "2026-10-07 09:28:38",
+		"dateModified": "2026-10-07 09:28:20",
+		"author": {
+			"@type": "Person",
+			"name": "Léo POTONNIER"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "epresspack",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://presse.economie.gouv.fr/wp-content/themes/epp-root/img/logo.png",
+				"width": 100,
+				"height": 60
+			}
+		},
+		"description": "
+COMMUNIQUÉ DE PRESSE
+ 
+Paris, le 7 octobre 2026
+N°1098
+ 
+Le Gouvernement met sur le marché 10 millions de barils de diesel pour une baisse de prix estimée à de 12 à 18 centimes du litre
+ 
+ 
+Le 2 octobre dernier, l'accord négocié dans le cadre du G7 par le Président de la République actait la mobilisation coordonnée de 100 millions de barils de produits pétroliers issus des stocks stratégiques des grandes économies de la planète. Fort de cet accord, le Gouvernement annonce ce jour la mise sur le marché de 10 millions de barils de diesel afin de provoquer une baisse des prix à la pompe pour les Français. 
+ 
+Une baisse du prix du litre de diesel de l'ordre de 12 à 18 centimes d'euro
+ 
+Ils seront mis à disposition des distributeurs à leur prix d'acquisition avant crise, permettant mécaniquement de baisser les prix à la pompe, dans un ordre de grandeur évalué entre 12 et 18 centimes par litre de gazole, et ce pendant trois mois. Ces 10 millions de barils, issus des stocks stratégiques français, représenteront une partie significative des 54 millions de barils consommés sur trois mois
+ 
+Les volumes libérés seront encadrés pour préserver notre sécurité d'approvisionnement.
+ 
+Une baisse des prix pour tous les français qui s'ajoute aux aides existantes 
+Avec cette action, le Gouvernement décide de faire profiter tous les Français de cette libération de stocks stratégiques qu'ils ont participé à constituer. Cette baisse s'ajoutera aux aides existantes et pourra ainsi représenter une économie de 10 euros pour un plein moyen de diesel dans toutes les stations-services.
+ 
+L'ensemble des distributeurs seront destinataires de ces stocks stratégiques. Le Gouvernement les réunira dans les prochaines heures pour travailler à la mise en œuvre effective de cette décision. L'effet de la libération de ces stocks stratégique fera l'objet de contrôles renforcés auprès des distributeurs par les services de l'Etat afin d'éviter tout effet d'aubaine et de garantir aux consommateurs l'effectivité de cette baisse. 
+ 
+Les barils seront mis sur le marché par la SAGESS, l'opérateur délégataire de la gestion des stocks stratégiques. Ces stocks seront reconstitués progressivement, après la fin de la crise actuelle, en fonction des conditions de marché.
+ 
+ 
+« Ces stocks ont toujours servi à protéger les Français en cas de crise. Nous sommes dans une crise mondiale durable. Pour la première fois, nous les utilisons pour protéger leur pouvoir d'achat, de manière encadrée, temporaire, et coordonnée avec le G7. C'est un exemple d'action diplomatique parfaitement coordonnée par le président de la République » a déclaré Roland Lescure, ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique.
+ 
+« Nous mobilisons nos stocks stratégiques de Gazole pour faire baisser les prix et avoir une nouvelle action concrète pour le pouvoir d'achat des Français. Hors de question que l'effet positif de cette décision se dilue dans des effets d'aubaine. Nous contrôlerons chaque semaine que cette baisse arrive à la pompe : tout le monde doit jouer le jeu dans l'intérêt des Français » a déclaré Serge Papin, ministre des Petites et Moyennes entreprises, du Commerce, de l'Artisanat, du Tourisme et du Pouvoir d'achat.
+ 
+« Le Gouvernement, conduit par le Premier ministre, continue sa politique de soutien ciblé en mettant sur le marché ces 10 millions de barils. Cette baisse permettra aux Français et à tous les professionnels concernés, agriculteurs, pêcheurs, BTP, de passer le pic hivernal de consommation du diesel plus sereinement » a déclaré Maud Bregeon, ministre déléguée chargée de l'Énergie.
+ 
+ 
+Contacts presse :
+Cabinet de Roland Lescure : 01 53 18 41 20 - presse.mefsien@cabinets.finances.gouv.fr 
+Cabinet de Serge Papin : 01 53 18 44 32 - presse.mpmepa@cabinets.finances.gouv.fr 
+Cabinet de Maud Bregeon : 01 42 75 79 07 - sec.communication.ppg@pm.gouv.fr 
+Bureau de presse de Bercy : 01 53 18 33 80 - presse.bercy@finances.gouv.fr 
+ 
+ 
+ "
+	}
+Article ajouté à la sélection
+Suivez-nous
+sur les réseaux sociaux
+Visiter la page Twitter d'Economie
+Visiter la page Linked In d'Economie
+Visiter la page Facebook d'Economie
+Visiter la page Instagram d'Economie
+Visiter la page Youtube d'Economie
+Gouvernement
+Ministère de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique
+Ministère des Petites et Moyennes entreprises, du Commerce, de l’Artisanat, du Tourisme et du Pouvoir d’achat
+Ministère de l’Action et des Comptes publics
+legifrance.gouv.fr
+info.gouv.fr
+service-public.fr
+data.gouv.fr
+Plan du site
+Accessibilité : partiellement conforme
+Mentions légales
+Données personnelles
+Gestion des cookies
+Sauf mention contraire, tous les contenus de ce site sont sous
+licence etalab-2.0
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bercy_gouv_2023/*","/wp-content/themes/epp-root/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+jQuery(document).ready(function($) {
+            var form = $('form[id*="gform"]');
+            var nonce = '1d5af6170f';
+            form.append('<input type="hidden" name="_wpnonce" value="' + nonce + '" />');
+            form.submit(function(e) {
+                var nonce_input = form.find('input[name="_wpnonce"]');
+                if (nonce_input.length && nonce_input.val() !== nonce) {
+                    e.preventDefault();
+                    form.find('.gfield_error').removeClass('gfield_error');
+                    form.find('.gfield_error_message').remove();
+                    form.find('input[name="_wpnonce"]').parent().addClass('gfield_error');
+                    form.find('input[name="_wpnonce"]').after('<div class="gfield_error_message" style="color: red;text-align: center;margin: 20px auto;">Soumission de formulaire invalide. Veuillez réessayer.</div>');
+                }
+            });
+        });
+var PT_Ajax = {"ajaxurl":"https://presse.economie.gouv.fr/wp-admin/admin-ajax.php","ajax_nonce":"57c4bfe3b0"};
+//# sourceURL=main-js-js-extra
+{
+	"@context" : "http://schema.org",
+	"@type" : "Organization",
+	"name" : "Presse - Ministère des Finances",
+	"url" : "https://presse.economie.gouv.fr",
+	"logo" : "https://presse.economie.gouv.fr/wp-content/themes/epp-root/img/logo.png"
+}

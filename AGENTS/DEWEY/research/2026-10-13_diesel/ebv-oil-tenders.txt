@@ -1,0 +1,65 @@
+EBV Erdölbevorratungsverband
+Accesskeys, Schnellzugriff
+Access keys, shortcuts
+Startseite, accesskey 0
+Hauptmenü, accesskey 1
+zum Textanfang, accesskey 2
+Kontakt, accesskey 3
+Untermenü, accesskey 4
+English version, accesskey 9
+Home
+Wir über uns
+|
+Beiträge
+|
+Ausschreibungen
+Logistik & Bestände
+|
+Qualitäten
+|
+Kapitalmarkt
+|
+NESO
+Freigabe
+Suche
+Ausschreibungen
+» Tankraum und Delegationen
+» Tankraum 2026
+» Kauf, Verkauf und Tausch von Mineralölen
+» Laborleistungen
+» Finanzen und Rechnungswesen
+» IT-Leistungen
+» Stellenangebote
+» Sonstige Ausschreibungen
+Vergabebedingungen und Allgemeine Kontraktbedingungen
+»
+Vergabebedingungen Mineralöle Version Oktober 2017
+»
+Allgemeine Kontraktbedingungen Version Juni 2017
+Anmeldung zum Benachrichtigungsdienst für Vergaben von Mineralöl
+Hier können Sie sich zu dem bestehenden Benachrichtigungsdienst anmelden.
+Nach Betätigung des folgenden Links öffnet sich eine E-Mail. In diese tragen Sie bitte alle E-Mail-Adressen ihrer Organisation ein, die die Benachrichtigungen erhalten sollen.
+»
+Anmeldung für den Benachrichtigungsdienst
+Es gibt derzeit keine aktuellen Ausschreibungen.
+An dieser Stelle werden zukünftige Ausschreibungen veröffentlicht.
+Links
+|
+Kontakt
+|
+NWKG
+|
+Impressum
+|
+Datenschutz
+|
+English
+emStartup();
+function fnM()
+	{
+	cnt = document.body.innerHTML
+	cnt = cnt.replace(/maixto:/g, 'mailto:')
+	
+	cnt = cnt.replace(/iiIIii/g, '@')
+	document.body.innerHTML=cnt
+	}
