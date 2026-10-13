@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-12 bounded workout bridge extended and canonical surfaces audited; STATUS pin `cdad681ce8aea496ade400087826203f0f1ec460`.** Settled gates remain through 10/9; closed-market figures were not refreshed. WQ-419 handoffs/checklist remain accepted by PROME (`9451933aa`/`c7f945a95`), with peer reads unverified; WQ-414 accepted `1b937462e`. **Everything FHLB → `research/FHLB/` (README first).** No new grade, score, cohort, frozen frame or trade.
+**As of:** **2026-10-13 direct-Will workout-bridge continuation CLOSED; STATUS pin `6fe886930e969cb144357cd1464972c5c2b9f476`.** Settled gates remain through 10/9; no market or issuer refresh occurred during closeout. WQ-419 handoffs/checklist remain accepted by PROME (`9451933aa`/`c7f945a95`), with peer reads unverified; WQ-414 accepted `1b937462e`. **Everything FHLB → `research/FHLB/` (README first).** No new grade, score, cohort, frozen frame or trade.
 
 ## CROSS-DOMAIN
 
@@ -48,7 +48,7 @@
 
 - **Approved KRE whole-basket study (10/12):** hub `studies/2026-10-12_KRE_whole_basket_study.md`, KB199–203. Full167-bank current-basket coverage throughOct9:165 down4wk/164 after dividends; nearly all below20/50-day averages. **Broad technical weakness without established repair byOct9; future decline/credit cause unproved.** Primary DGS10 throughOct8 rose; volume mixed. Historical June30 holdings recovered, but exact fund contribution unresolved; chart uses labelled current-weight diagnostics. Frozen credit cohort/gates/scores unchanged; data/charts saved. Closeout + explicit inbox deferrals → `reports/2026-10-12_owner-closeout.md`.
 
-- **Policy/CRE integration + workout bridge (direct Will,10/12):** full supplied DOCX plus decisive primaries checked → `reports/2026-10-12_regional-bank-policy-CRE-report-review.md`; 21 basis-aware OZK/EGBN/VLY/WAL rows now encoded at `workbook/WORKOUT_OUTCOME_BRIDGE.tsv` → bridge report, KB207–214. Added all four EGBN maturity baselines, VLY retention/re-default and WAL's exact classified-component identity; unresolved outcomes stay `UNKNOWN`, overlaps `DO_NOT_SUM`. **No thesis/score/cohort/Q3-frame/calendar/trade change.**
+- **Policy/CRE integration + workout bridge (direct Will,10/12–13, CLOSED):** full supplied DOCX plus decisive primaries checked → `reports/2026-10-12_regional-bank-policy-CRE-report-review.md`; 21 basis-aware OZK/EGBN/VLY/WAL rows encoded at `workbook/WORKOUT_OUTCOME_BRIDGE.tsv` → bridge report, KB207–214; closeout → `reports/2026-10-13_workout-bridge-closeout.md`. Added all four EGBN maturity baselines, VLY retention/re-default and WAL's exact classified-component identity; unresolved outcomes stay `UNKNOWN`, overlaps `DO_NOT_SUM`. **No thesis/score/cohort/Q3-frame/calendar/trade change.**
 
 - **Tape / OZK continuity (10/12):** broad morning gains plus OZK relief, cause unresolved; the three-month decline persisted except EGBN in Will's displayed set. Whole-basket and top-ten results, delays and charts live under `research/market-technicals/`; attribution remains unproved. OZK's executed RaDD extension with new capital weakens near-term maturity failure, while redraw/as-stabilized/recognition limits and Q3 capacity outcomes remain. Details → dated tape, whole-basket and `reports/2026-10-12_OZK_durability-consumption.md`.
 
@@ -104,4 +104,4 @@
 
 ---
 
-*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 10, 12). Created 2026-07-09; rebuilt 2026-08-10. Folded 2026-10-12 as the session's LAST write-back after STATUS commit `cdad681ce8aea496ade400087826203f0f1ec460`; amendment-12 order now applied. Prior full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
+*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 10, 12). Created 2026-07-09; rebuilt 2026-08-10. Folded 2026-10-13 as the session's LAST write-back after STATUS commit `6fe886930e969cb144357cd1464972c5c2b9f476`; amendment-12 order now applied. Prior full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
