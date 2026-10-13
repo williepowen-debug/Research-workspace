@@ -24,3 +24,7 @@ Late checks: DEWEYOctober13 received report hash matches pointer5be08366; govern
 Owned research/state and self-authored PROME inbox memo committed at **e40ea12fb**. Commit records8renames with both paths;11intake receipts exist, late3archive moves await sender publication. Foreign staged/dirty content excluded. Recipient consumption/native notification unverified. Guarded push pending; no bare local-commit publication claim.
 
 Sender persistence subsequently verified for DEWEYOctober13pointer; ninth archive move completed. Remaining2WALTERpointers were untracked at final receipt check and are deliberately retained in place to avoid racing sender publication; consumed/receipt rows already exist. No duplicate intake needed next boot: archive after sender commit. Main research/source receipt and STATUSpin e40ea12fb remain.
+
+## Verified publication
+
+Required safe-push completed rc0, exact receipt: `Pushed. CONFIRMED: HEAD 9a3da47de is on origin/master (fresh fetch).` This shared train includes BRENT e40ea12fb (research/state/PROMEpacket), dbd3d38e3 (NEXUSfold) and1abd16cb3 (DEWEYarchive). STATUSpin remains e40ea12fb. No pull/stash/foreign commit; current foreign staged packet move left untouched. Native notification and PROMEconsumption remain unverified. Remaining two consumed WALTER pointers are untracked sender work and retain their board-log receipts/pending archive boundary. This receipt records publication of the research train; its own persistence is a subsequent receipt commit.
