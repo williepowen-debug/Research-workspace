@@ -105,5 +105,14 @@
       "shfe_20260930_stock.html": "ed1952de4afe519f3796a9e76241e6b8f3294dc66b4ee21a93c4345af7e6b772",
       "shfe_20261009_stock.html": "8733c559d63d07f45d215637df7f3fc5fb9ebb47bed7bf1479de4091e786e784"
     }
+  },
+  "Hammack": {
+    "source": "https://www.clevelandfed.org/collections/speeches/2026/sp-20261012-trimming-the-sails-communicating-my-reaction-function",
+    "quality": "PRIMARY issuer indexed full speech; direct browser open failed; content recovered through primary-domain search",
+    "published": "2026-10-12T12:50:00-04:00",
+    "speaker": "Beth M. Hammack, Cleveland Fed",
+    "finding": "She favors restrictive policy under her current inflation assessment and smaller prompt adjustments; path conditional on economy. Labor deterioration could change policy; persistent inflation/mindset could require more restriction.",
+    "limit": "Her own reaction function, not a fixedOctober hike promise or FOMC decision. Policy assessment not new MIDAS macro measurement.",
+    "routing_origin": "WALTER's same-day SIG-W-20261012-044 pointed to this primary source; MIDAS independently read the indexed speech."
   }
 }

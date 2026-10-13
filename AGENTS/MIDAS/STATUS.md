@@ -55,6 +55,8 @@ PRIMARY Freeport10/2:Grasbergdistrict67%ofpre-September2025incidentcapacity, ram
 
 A later explicit-unadjusted ETF pull returnedOctober12closes after the earlier shared pull returnedNULL12; don't fill or comparedifferent capture dates as adjustments. Named futures remainconservativeOctober9bars. The sharedAPI's implicitadjustmentpolicy is carried into theFORGEsource-seam packet.
 
+PRIMARY HammackOct12 12:50EDT favorsrestrictivestance/smallerpromptadjustments, conditionaloninflation/labor; herownview, notfixedOctoberhike/FOMCdecision. FreshheldGLDrate-riskcontextbeforeCPI; primaryindexedreadverified.
+
 ## Open on MIDAS — top3
 
 1. **October19 M1 review:** expanded4186-pair reference preserves grid phase:9 eligible disjoint-input episodes,2 flips, all pre2022. Longer raw-history gap partly closed; regime comparability and historical resolving-vintage snapshots remain inadequate. Draft unpriced/unregistered; no forward probability from22.22%.

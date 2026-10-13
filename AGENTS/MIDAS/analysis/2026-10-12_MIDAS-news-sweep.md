@@ -56,6 +56,12 @@ No new primary central-bank/ETF demand release in this bounded sweep supersedes 
 
 The October14 CPI clock coincides with TERRY's existing TLT82P management date, beforeOctober16 expiry. Hot inflation could pressure GLD if real yields rise, even during a geopolitical stress narrative; rates and haven demand can pull differently. This is a conditional transmission risk, not a forecast or trade proposal. The saved GLD/DFII10 beta remains−.1632%/bp throughOctober8, an association, not causal/net-book coverage; no beta was refreshed.
 
+## Same-day policy addendum — October12 Hammack speech
+
+WALTER's newly delivered SIG-W-20261012-044 pointed to [PRIMARY Cleveland Fed speech,October12 at12:50EDT](https://www.clevelandfed.org/collections/speeches/2026/sp-20261012-trimming-the-sails-communicating-my-reaction-function). MIDAS read the full issuer-indexed text after direct open failed. BethHammack supports a restrictive stance under her present inflation assessment and smaller prompt policy adjustments. Labor deterioration could change the path; persistent inflation could require greater restriction. **These are her conditional views, not a fixed October hike commitment or an FOMC decision.**
+
+This is fresh rate-risk context for heldGLD ahead ofOctober14CPI. It doesnot change the measuredbeta, establishcausalattribution or createa trade. BOND owns policy/rate interpretation; the primary-reading receipt preserves the retrieval limit.
+
 ## Source hygiene and scoring writeback
 
 The article stampedOctober10,2026 claiming Chinese silver inventories at decade lows/exports660t is a recirculation: the same distinctive text is dated **November26,2025** in the [Bloomberg/Moneycontrol original syndication](https://www.moneycontrol.com/news/business/silver-stockpile-slump-in-china-poses-new-risk-to-a-hot-market-13696994.html). Exclude it from fresh2026 evidence. Likewise, the Reuters concentrate-import/Grasberg force-majeure story returned by broad search isOctober2025; Freeport's current issuer update supplies the operative event chronology. Send the dated mismatch toWALTER.
