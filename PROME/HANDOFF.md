@@ -4,7 +4,7 @@
 
 ## October13 — laptop closeout
 
-[Closeout record](reports/2026-10-13_laptop-closeout.md) owns this boundary's checks, review and delivery limits. Will will direct the other agents to close out. Consume their exact later receipts once; verify fresh session identity before routing. SHADE, YURI and MIDAS's explicit ask/answer records are accepted in [the existing lifecycle record](state/ORCH_LOG.tsv); WALTER's final lifecycle receipt remains pending consumption. No process termination or replacement launch is inferred.
+[Closeout record](reports/2026-10-13_laptop-closeout.md) owns this boundary's checks, review and delivery limits. Will directed the four desk owners to close out. SHADE, YURI, MIDAS and WALTER's explicit ask/answer records are accepted in [the existing lifecycle record](state/ORCH_LOG.tsv); WALTER's deferred publication is resolved through the confirmed shared push train. Verify fresh session identity before future routing. No process termination or replacement launch is inferred.
 
 ## October12 — four-desk work accepted
 
