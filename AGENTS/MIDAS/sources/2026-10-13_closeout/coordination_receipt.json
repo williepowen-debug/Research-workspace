@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-13T14:29:10.832Z",
+  "owner_thread": "01a131e1-82c3-7702-beae-4992d53e8fd5",
+  "return_thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "message_id": "01a135a9-d0ea-7fd3-9cbd-53c6fa8495ba",
+  "transport": "supported codex queue --thread --message",
+  "packet_commit": "5642cf2e139841d374b3c643f2007a3f1de18865",
+  "closeout_commit": "4bd058afd6dd1524f1ab16e00432a32e69fbacde",
+  "notification": "ACCEPTED",
+  "closeout_receipt_consumption": "UNKNOWN at receipt; no recipient read claimed",
+  "research_consumption": "Already verified separately at PROME943667b4d",
+  "owner_lifecycle": "Will's direct ask answered; desk work/handoff closed out. No application/process termination inferred.",
+  "publication": "Main closeout+packet confirmed on origin/master; see sync_receipt.json"
+}

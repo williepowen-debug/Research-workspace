@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-13T14:27:59.745Z",
+  "state": "PUSHED",
+  "method": "root-authorized scripts/safe-push.sh",
+  "closeout_commit": "4bd058afd6dd1524f1ab16e00432a32e69fbacde",
+  "packet_commit": "5642cf2e139841d374b3c643f2007a3f1de18865",
+  "confirmed_head": "5642cf2e1",
+  "receipt": "Pushed. CONFIRMED: HEAD 5642cf2e1 is on origin/master (fresh fetch).",
+  "push_output": "From https://github.com/williepowen-debug/Research-workspace\n * branch                master     -> FETCH_HEAD\nFast-forward: 4 commit(s) to push to origin/master:\n5642cf2e1 MIDAS -> PROME: deliver Will-requested closeout and retained obligations\n4bd058afd MIDAS: close out Will-owned metals session and preserve dated handoff\n164d4ad92 REGINALD: fold final workout bridge closeout\n6fe886930 REGINALD: close workout bridge continuation\nTo https://github.com/williepowen-debug/Research-workspace.git\n   0d04a9c33..5642cf2e1  HEAD -> master\nPushed. CONFIRMED: HEAD 5642cf2e1 is on origin/master (fresh fetch).\n",
+  "foreign_work": "Preserved; no pull/autostash; WALTER staged recipient rename untouched",
+  "coverage": "Main closeout and PROME packet plus all ancestor committed MIDAS research; this receipt's own later commit requires its own publication verification"
+}
