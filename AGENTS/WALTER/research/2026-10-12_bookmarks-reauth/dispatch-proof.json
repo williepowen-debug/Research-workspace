@@ -1,0 +1,389 @@
+{
+  "observed_at": "2026-10-13T00:44:22Z",
+  "signals": 13,
+  "handoffs": 51,
+  "new_paths": [
+    "BOARD/SIG-W-20261012-032-france-DF-Peak-boarding-reported-Macron-suspected-false-flag.md",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-032.md",
+    "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-032.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-032.md",
+    "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-032.md",
+    "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-032.md",
+    "BOARD/SIG-W-20261012-033-Kroger-corporate-role-plan-three-years-reported-not-realized-layoffs.md",
+    "AGENTS/LABOR/inbox/WALTER/SIG-W-20261012-033.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-033.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-033.md",
+    "BOARD/SIG-W-20261012-034-PepsiCo-Poppi-earnout-12M-contingent-liability-2027-deadline.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-034.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-034.md",
+    "BOARD/SIG-W-20261012-035-September-Redfin-demand-Parcl-between-cuts-SHED-vintage-qualified.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261012-035.md",
+    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261012-035.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-035.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-035.md",
+    "BOARD/SIG-W-20261012-036-Microsoft-Maia300-inference-2027-Nvidia-RTX5090-factory-rumor.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-036.md",
+    "AGENTS/WATT/inbox/WALTER/SIG-W-20261012-036.md",
+    "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261012-036.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-036.md",
+    "BOARD/SIG-W-20261012-037-datacenter-tracker-stated-full-buildout-61GW-not-connected-load.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-037.md",
+    "AGENTS/WATT/inbox/WALTER/SIG-W-20261012-037.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-037.md",
+    "BOARD/SIG-W-20261012-038-Hock-Tan-AI-investment-economics-comment-not-guidance-cut.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-038.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-038.md",
+    "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261012-038.md",
+    "BOARD/SIG-W-20261012-039-Japan-cyber-emergency-reported-Germany-Dobrindt-warning-source-limits.md",
+    "AGENTS/SAM/inbox/WALTER/SIG-W-20261012-039.md",
+    "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-039.md",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-039.md",
+    "BOARD/SIG-W-20261012-040-October12-IRGC-third-tanker-announcement-cable-fee-claim-unverified.md",
+    "AGENTS/FALCON/inbox/WALTER/SIG-W-20261012-040.md",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-040.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-040.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-040.md",
+    "BOARD/SIG-W-20261012-041-Zelensky-six-Ukrainian-energy-facilities-October12-attributed-no-damage-total.md",
+    "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-041.md",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-041.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-041.md",
+    "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-041.md",
+    "BOARD/SIG-W-20261012-042-physical-Brent-chart-bases-321-month-unknown-China-stock-model-household-cost.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-042.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-042.md",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-042.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-042.md",
+    "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261012-042.md",
+    "BOARD/SIG-W-20261012-043-OilPrice-CPC-blending-allegation-source-body-unread.md",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-043.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-043.md",
+    "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-043.md",
+    "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-043.md",
+    "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-043.md",
+    "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261012-043.md",
+    "BOARD/SIG-W-20261012-044-Hammack-October12-conditional-reaction-function-not-fixed-hike-path.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-044.md",
+    "AGENTS/BOND/inbox/WALTER/SIG-W-20261012-044.md",
+    "AGENTS/LABOR/inbox/WALTER/SIG-W-20261012-044.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-044.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261012-044.md"
+  ],
+  "deliveries": [
+    {
+      "signal_id": "SIG-W-20261012-032",
+      "recipient": "HAWK",
+      "role": "ACTION",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-032.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-032",
+      "recipient": "OSPREY",
+      "role": "INFO",
+      "path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-032.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-032",
+      "recipient": "BRENT",
+      "role": "INFO",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-032.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-032",
+      "recipient": "HANS",
+      "role": "INFO",
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-032.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-032",
+      "recipient": "YURI",
+      "role": "INFO",
+      "path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-032.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-033",
+      "recipient": "LABOR",
+      "role": "ACTION",
+      "path": "AGENTS/LABOR/inbox/WALTER/SIG-W-20261012-033.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-033",
+      "recipient": "VULCAN",
+      "role": "INFO",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-033.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-033",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-033.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-034",
+      "recipient": "CARL",
+      "role": "ACTION",
+      "path": "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-034.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-034",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-034.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-035",
+      "recipient": "HOMER",
+      "role": "ACTION",
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261012-035.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-035",
+      "recipient": "CORAL",
+      "role": "ACTION",
+      "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261012-035.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-035",
+      "recipient": "REGINALD",
+      "role": "INFO",
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-035.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-035",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-035.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-036",
+      "recipient": "VULCAN",
+      "role": "ACTION",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-036.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-036",
+      "recipient": "WATT",
+      "role": "INFO",
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261012-036.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-036",
+      "recipient": "VIOLET",
+      "role": "INFO",
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261012-036.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-036",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-036.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-037",
+      "recipient": "VULCAN",
+      "role": "ACTION",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-037.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-037",
+      "recipient": "WATT",
+      "role": "ACTION",
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261012-037.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-037",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-037.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-038",
+      "recipient": "VULCAN",
+      "role": "ACTION",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-038.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-038",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-038.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-038",
+      "recipient": "VIOLET",
+      "role": "INFO",
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261012-038.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-039",
+      "recipient": "SAM",
+      "role": "ACTION",
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261012-039.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-039",
+      "recipient": "HANS",
+      "role": "ACTION",
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-039.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-039",
+      "recipient": "HAWK",
+      "role": "ACTION",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-039.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-040",
+      "recipient": "FALCON",
+      "role": "ACTION",
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261012-040.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-040",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-040.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-040",
+      "recipient": "BRENT",
+      "role": "INFO",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-040.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-040",
+      "recipient": "VULCAN",
+      "role": "INFO",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-040.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-041",
+      "recipient": "OSPREY",
+      "role": "ACTION",
+      "path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-041.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-041",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-041.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-041",
+      "recipient": "BRENT",
+      "role": "INFO",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-041.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-041",
+      "recipient": "HANS",
+      "role": "INFO",
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-041.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-042",
+      "recipient": "BRENT",
+      "role": "ACTION",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-042.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-042",
+      "recipient": "CARL",
+      "role": "ACTION",
+      "path": "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-042.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-042",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-042.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-042",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-042.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-042",
+      "recipient": "ZHAO",
+      "role": "INFO",
+      "path": "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261012-042.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-043",
+      "recipient": "HAWK",
+      "role": "ACTION",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-043.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-043",
+      "recipient": "BRENT",
+      "role": "ACTION",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-043.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-043",
+      "recipient": "OSPREY",
+      "role": "INFO",
+      "path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-043.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-043",
+      "recipient": "YURI",
+      "role": "INFO",
+      "path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-043.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-043",
+      "recipient": "HANS",
+      "role": "INFO",
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261012-043.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-043",
+      "recipient": "ZHAO",
+      "role": "INFO",
+      "path": "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261012-043.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-044",
+      "recipient": "HENRY",
+      "role": "ACTION",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-044.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-044",
+      "recipient": "BOND",
+      "role": "ACTION",
+      "path": "AGENTS/BOND/inbox/WALTER/SIG-W-20261012-044.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-044",
+      "recipient": "LABOR",
+      "role": "INFO",
+      "path": "AGENTS/LABOR/inbox/WALTER/SIG-W-20261012-044.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-044",
+      "recipient": "VULCAN",
+      "role": "INFO",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-044.md"
+    },
+    {
+      "signal_id": "SIG-W-20261012-044",
+      "recipient": "LIQUID",
+      "role": "INFO",
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261012-044.md"
+    }
+  ],
+  "pre_write_sha256": {
+    "routed/route_log.tsv": "e5a4560ecc2f1e844061fc9142c3f1fe0fa01b78970a130abc9920c58a10bf2e",
+    "routed/delivery_log.tsv": "80ba80d9f2aeade49e9808a6ac546793137ec760aa5cb26e400e91f9aff2f94a",
+    "filtered/kill_log.tsv": "606caf3d80352b3942ee578e148b6769fd16336d2ed66b5439c585fd446ac72c",
+    "registry/BATCH_MANIFEST.tsv": "ff65f3aeb8be0814d0716795e1b3533f90f1f6a25e54db4a18f14b3524b49051"
+  },
+  "publication": "pending",
+  "consumption": "not independently checked",
+  "no_new_COR": true,
+  "no_new_trigger_grade": true
+}

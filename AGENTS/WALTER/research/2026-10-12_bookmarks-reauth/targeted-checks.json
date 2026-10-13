@@ -1,0 +1,72 @@
+{
+  "check_future_timestamps": [
+    [
+      "INFO",
+      "448 field(s) use WALTER's approximate-minute convention (e.g. 2026-08-15T02:3xZ) \u2014 a KNOWN convention, NOT a defect and NOT silently passed. \u26a0\ufe0f The DATE part is still fully validated: the `x` is a claim about PRECISION, not a waiver. Tolerable because the age basis slices [:10] and reads that date; a defect the day any consumer needs the minute."
+    ]
+  ],
+  "check_board_reconcile": [
+    [
+      "INFO",
+      "BOARD reconciles: 1367 signals (ToC = sections = files = TOTAL)"
+    ]
+  ],
+  "check_log_reconcile": [
+    [
+      "INFO",
+      "route_log reconciles with BOARD (1367 signals)"
+    ],
+    [
+      "MED",
+      "delivery_log: malformed signal_id field(s): L2933:SIG-W-20260917-010-AMENDMENT-NOTE, L2934:SIG-W-20260917-010-AMENDMENT-NOTE"
+    ],
+    [
+      "MED",
+      "delivery_log: 20 non-dispatch NOTE row(s) outside the signal schema, preserved for audit; NOT BOARD-reconciled. Review note-versus-actionability classification; no new note telemetry authorized by this check. These are not malformed SIG ids."
+    ]
+  ],
+  "check_batch_manifest_open": [
+    [
+      "INFO",
+      "no OPEN batch manifests \u2014 NOTE: cannot see an UNDECLARED batch; green here is not evidence that no input was dropped"
+    ]
+  ],
+  "check_action_line_rule": [
+    [
+      "INFO",
+      "no \u00a73.5.4 candidates in 303 signal(s) over 14d -- NOTE: detects ask-LANGUAGE, not asks; an ask phrased outside the registered constructions is invisible here"
+    ]
+  ],
+  "check_entities_at_dispatch": [
+    [
+      "LOW",
+      "SIG-W-20260828-016-RESOLVED-the-bls-gate...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18"
+    ],
+    [
+      "LOW",
+      "SIG-W-20260828-017-a-recipe-published-in...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18"
+    ],
+    [
+      "LOW",
+      "SIG-W-20260828-018-a-truncating-read-is-...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18"
+    ],
+    [
+      "LOW",
+      "SIG-W-20260828-019-rank-recipes-by-failu...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18"
+    ],
+    [
+      "LOW",
+      "SIG-W-20260828-020-the-operative-test-is...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18"
+    ],
+    [
+      "LOW",
+      "SIG-W-20260828-021-CORRECTION-the-trunca...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18"
+    ]
+  ],
+  "check_correction_target_declared": [
+    [
+      "INFO",
+      "all 117 correction signal(s) declare a resolvable target (SIG-ID / SELF / EXTERNAL)"
+    ]
+  ]
+}

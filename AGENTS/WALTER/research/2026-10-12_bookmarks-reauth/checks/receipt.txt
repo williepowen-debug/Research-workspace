@@ -1,0 +1,13 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "delivery receipt mismatch: actual 110/161"
+  ],
+  "as_of": "2026-10-13T00:48:42Z",
+  "origin_ref": "86fbb87f4defbdfd3bd4f9bcf86557e3cd862c12",
+  "delivery_scope": "20261012",
+  "delivered": 110,
+  "total": 161,
+  "next_review": "2026-10-12",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

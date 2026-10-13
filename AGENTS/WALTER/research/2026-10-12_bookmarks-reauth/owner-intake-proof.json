@@ -1,0 +1,70 @@
+{
+  "observed_at": "2026-10-13T00:44:22Z",
+  "packets": [
+    {
+      "packet": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_source-body-detail.md",
+      "author_commit": "18637dc57c2e7bd0e65aea5a3cbc224adbeba8fd",
+      "sha256": "78ae20827c336c2af82bc60bfe384eed0cb971cf79611bcb19721441ddf929b0",
+      "direct_owner_packets": [
+        "AGENTS/HANS/inbox/2026-10-12_from-YURI_asset-body-entities-and-managers.md",
+        "AGENTS/HAWK/inbox/2026-10-12_from-YURI_asset-body-qualification.md",
+        "AGENTS/OSPREY/inbox/2026-10-12_from-YURI_decree686-body-detail.md"
+      ],
+      "read_scope": "Whole packet and whole named author report; qualifications integrated before external intake interpretation",
+      "disposition": "FOLD existing direct owner source packets; no duplicate diesel/shipping/event/grade",
+      "filing": "exact-byte git mv; consume declaration appended before commit",
+      "filed_path": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261012_source-body-detail.md"
+    },
+    {
+      "packet": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_energy-control-source-delta.md",
+      "author_commit": "a6d5233cde7b99698742fd204cee7d5eb5a96821",
+      "sha256": "288badb3a64064d615054dc2ce3890b431af9b4f2c370ccc1e21088624bc3f54",
+      "direct_owner_packets": [
+        "AGENTS/HANS/inbox/2026-10-12_from-YURI_asset-control-issuer-register-detail.md",
+        "AGENTS/HAWK/inbox/2026-10-12_from-YURI_asset-control-issuer-register-detail.md",
+        "AGENTS/OSPREY/inbox/2026-10-12_from-YURI_resolution1272-source-correction.md"
+      ],
+      "read_scope": "Whole packet and whole named author report; qualifications integrated before external intake interpretation",
+      "disposition": "FOLD existing direct owner source packets; no duplicate diesel/shipping/event/grade",
+      "filing": "exact-byte git mv; consume declaration appended before commit",
+      "filed_path": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261012_energy-control-source-delta.md"
+    },
+    {
+      "packet": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012_operational-effects-boundaries.md",
+      "author_commit": "899d6b26d4e936c19135babf842ce76d683f1886",
+      "sha256": "3f54a005fa36806175945058d35f7cb64ea95383f84b2b5837249badacf291c2",
+      "filed_path": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261012_operational-effects-boundaries.md",
+      "direct_owner_packets": [
+        "AGENTS/DEWEY/inbox/2026-10-12_from-YURI_diesel-operational-evidence-boundaries.md",
+        "AGENTS/HANS/inbox/2026-10-12_from-YURI_control-mechanism-financial-limits.md",
+        "AGENTS/OSPREY/inbox/2026-10-12_from-YURI_energy-series-observation-boundaries.md"
+      ],
+      "read_scope": "Whole packet and all specifically addressed report \u00a77, recovering truncated middle",
+      "disposition": "FOLD existing committed direct owner routes; no duplicate signal, research, grade or lifecycle action",
+      "qualification": "Producer-specific legal objects versus series blackout; diesel gross-flow windows not causal increment or replacement test; METRO/Aptar cash/accounting UNKNOWN, no new October29 fleet duty; 1272 correction consumed/scoped NO-OP at WALTER, peer consumption separate.",
+      "filing": "exact-byte git mv with contemporaneous consume declaration"
+    },
+    {
+      "packet": "AGENTS/WALTER/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+      "author_commit": "778ef6a3828a84f59f171bcff6b77f54f919c21c",
+      "sha256": "f6d502e84298c99a75ea7a67e940aa86af358f783c3f47d48baefea34c90b585",
+      "filed_path": "AGENTS/WALTER/inbox/processed/2026-10-12_from-MIDAS_news-sweep.md",
+      "direct_owner_packets": [
+        "AGENTS/BOND/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+        "AGENTS/HAWK/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+        "AGENTS/HENRY/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+        "AGENTS/LIQUID/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+        "AGENTS/NEXUS/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+        "AGENTS/TERRY/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+        "AGENTS/ZHAO/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+        "PROME/inbox/2026-10-12_from-MIDAS_news-sweep.md"
+      ],
+      "read_scope": "Whole packet and complete exact55ee66731219e997ba9e8b62c46a28db4f09677d report, recovering initial truncated paragraph",
+      "disposition": "FOLD existing committed direct owner routes; no duplicate signal, research, grade or lifecycle action",
+      "qualification": "Dated silver660t and Grasberg stories are2025 recirculation; fresh Chinese auto/PGM and dated metals source qualifications already direct-routed by owner; actual8/20 unchanged, forecasts/floor dates preserved. Committed report expressly verifies SIG-W-20261012-044 pointer/source consumption; no full packet filing/publication inferred.",
+      "filing": "exact-byte git mv with contemporaneous consume declaration"
+    }
+  ],
+  "no_WALTER_1272_adoption": "Search over BOARD/WALTER live surfaces found no adopted old framework attribution; upstream source correction retained, not a new WALTER regrade.",
+  "late_arrivals_observed_at": "2026-10-13T00:58:17Z"
+}

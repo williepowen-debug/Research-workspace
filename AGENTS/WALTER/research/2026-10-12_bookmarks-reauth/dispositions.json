@@ -1,0 +1,611 @@
+{
+  "observed_at": "2026-10-13T00:44:22Z",
+  "operator_date": "2026-10-12",
+  "bookmarks": 48,
+  "content_items": 50,
+  "parent_batch": "BM-20261013-01",
+  "additional_batch": "BM-20261013-02",
+  "items": [
+    {
+      "item": 1,
+      "id": "2109731149513981966",
+      "author": "@InsiderGeo",
+      "created_at": "2026-10-12T19:41:17.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-032",
+      "reason": "New dated French non-kinetic enforcement event; unsupported first/flag/cargo claims excluded."
+    },
+    {
+      "item": 2,
+      "id": "2109694423915204714",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T17:15:21.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Holiday-history sample is analysis, not a current volatility print or threshold."
+    },
+    {
+      "item": 3,
+      "id": "2109672992540160090",
+      "author": "@business",
+      "created_at": "2026-10-12T15:50:11.000Z",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261010-004",
+      "reason": "Existing Citi packet explicitly includes possible20Y cancellation; still a forecast, not Treasury decision."
+    },
+    {
+      "item": 4,
+      "id": "2109760239570763976",
+      "author": "@GavMcCracken",
+      "created_at": "2026-10-12T21:36:53.000Z",
+      "disposition": "KILL",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Satirical contradictory pipeline/oil-price framing supplies no identifiable event or usable evidence; credibility gate."
+    },
+    {
+      "item": 5,
+      "id": "2109705387289051528",
+      "author": "@Polymarket",
+      "created_at": "2026-10-12T17:58:55.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "PalmBeach migration/tech-location commentary; no new counted flow or property/credit event, established CORAL context."
+    },
+    {
+      "item": 6,
+      "id": "2109737755878084743",
+      "author": "@optionscjp",
+      "created_at": "2026-10-12T20:07:32.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "SPY volume comparative remains unreproduced; holiday cash-bond closure does not itself fire a liquidity/vol gate."
+    },
+    {
+      "item": 7,
+      "id": "2109749998703485280",
+      "author": "@Polymarket",
+      "created_at": "2026-10-12T20:56:11.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-033",
+      "reason": "Reported corporate-program scope/three-year horizon; not entire workforce or realized AI-caused layoffs."
+    },
+    {
+      "item": 8,
+      "id": "2109739300514615466",
+      "author": "@TheInsiderPaper",
+      "created_at": "2026-10-12T20:13:40.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Gates forecast of future cyber risk is not a new actual incident; existing French incident in SIG011 retained."
+    },
+    {
+      "item": 9,
+      "id": "2109744709438427648",
+      "author": "@business",
+      "created_at": "2026-10-12T20:35:10.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-034",
+      "reason": "New primary Poppi contingent-liability and future milestone detail, beyond existing Pepsi volume/guidance."
+    },
+    {
+      "item": 10,
+      "id": "2109643748158353525",
+      "author": "@PressTV",
+      "created_at": "2026-10-12T13:53:59.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-040",
+      "reason": "New dated IRGC announcement only; distinct Monday hull/mechanism not independently established."
+    },
+    {
+      "item": 11,
+      "id": "2109748239931150347",
+      "author": "@Polymarket",
+      "created_at": "2026-10-12T20:49:12.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-039",
+      "reason": "Reported Japan emergency language, legal powers/count unverified at primary."
+    },
+    {
+      "item": 12,
+      "id": "2109704233494979031",
+      "author": "@Hedgeye",
+      "created_at": "2026-10-12T17:54:20.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-035",
+      "reason": "SHED2025 co-residence verified at Fed; bundled graduate/hour/ownership statistics retain their gaps and dated scope."
+    },
+    {
+      "item": 13,
+      "id": "2109677630991520077",
+      "author": "@OilandEnergy",
+      "created_at": "2026-10-12T16:08:37.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-043",
+      "reason": "Dated OilPrice lead; complete article/anonymous testimony and flow comparison bases unread."
+    },
+    {
+      "item": 14,
+      "id": "2109365137211555961",
+      "author": "@jonbrooks",
+      "created_at": "2026-10-11T19:26:53.000Z",
+      "disposition": "DUP",
+      "ref": "SIG-W-20260709-013",
+      "reason": "Existing private-credit default superlative and tracked-cohort qualifications; no new named metric/period/source."
+    },
+    {
+      "item": 15,
+      "id": "2109671773868380436",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T15:45:21.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "LHMacro conditional historical sample, current-vintage August input and forecast; September outcome not known from chart."
+    },
+    {
+      "item": 16,
+      "id": "2109707851811660136",
+      "author": "@chigrl",
+      "created_at": "2026-10-12T18:08:43.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-042",
+      "reason": "321 artifact read; no named months/leg prices/settlement identity, so not boundary-gradeable."
+    },
+    {
+      "item": 17,
+      "id": "2109714190009241618",
+      "author": "@JoseGeoJulian",
+      "created_at": "2026-10-12T18:33:54.000Z",
+      "disposition": "KILL",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Question alleging intentional gasoline withholding supplies no observation; credibility gate, not proven false."
+    },
+    {
+      "item": 18,
+      "id": "2109732130947272876",
+      "author": "@business",
+      "created_at": "2026-10-12T19:45:11.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "New sale/probe headline lead on private whiskey company; body not recovered and no named CRE/held-name transmission established. No sale completion inferred."
+    },
+    {
+      "item": 19,
+      "id": "2109698082317504826",
+      "author": "@ThierryBorgeat",
+      "created_at": "2026-10-12T17:29:53.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Full Koyfin NDX drawdown chart read; snapshot time absent, -1.09% image label is not a fresh current level/fire."
+    },
+    {
+      "item": 20,
+      "id": "2108619740939772400",
+      "author": "@KarelMercx",
+      "created_at": "2026-10-09T18:04:57.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-042",
+      "reason": "October9 MA artifact read and kept separate from October12; limited chart window not all-history proof."
+    },
+    {
+      "item": 21,
+      "id": "2109708846063075628",
+      "author": "@KarelMercx",
+      "created_at": "2026-10-12T18:12:40.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-042",
+      "reason": "Dated Brent FOBNWE labels read; physical series/MA distinguished from other chart/futures bases."
+    },
+    {
+      "item": 22,
+      "id": "2109649603293532472",
+      "author": "@DeepDishEnjoyer",
+      "created_at": "2026-10-12T14:17:15.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Other investor DRAM option/tailwind idea; no Will position, approved trade, benchmark or actual order inferred."
+    },
+    {
+      "item": 23,
+      "id": "2109727104434655474",
+      "author": "@business",
+      "created_at": "2026-10-12T19:25:13.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-035",
+      "reason": "September primary Redfin demand report; April2020 exception and SA basis retained."
+    },
+    {
+      "item": 24,
+      "id": "2109678138716295181",
+      "author": "@m3_melody",
+      "created_at": "2026-10-12T16:10:38.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-035",
+      "reason": "Same September housing report; exact tweet precision/inventory denominator not reproduced."
+    },
+    {
+      "item": 25,
+      "id": "2109689976791158974",
+      "author": "@TreasuryBonds1",
+      "created_at": "2026-10-12T16:57:41.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Undated rates/homeprice premise and inevitability question; no price forecast or source measurement inferred."
+    },
+    {
+      "item": 26,
+      "id": "2109720003570454615",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T18:57:00.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-036",
+      "reason": "GB202 factory-rumor scope, not official Nvidia halt, paired with separately verified Microsoft announcement."
+    },
+    {
+      "item": 27,
+      "id": "2109631994208686164",
+      "author": "@KobeissiLetter",
+      "created_at": "2026-10-12T13:07:17.000Z",
+      "disposition": "KILL",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Single-name M&A denial/headline lacks a new named active transmission; relevance gate. No transaction outcome certified."
+    },
+    {
+      "item": 28,
+      "id": "2109721775512920161",
+      "author": "@ParclLabs",
+      "created_at": "2026-10-12T19:04:02.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-035",
+      "reason": "Parcl source measures average DAYS BETWEEN cuts, not days to first cut; Florida axes routed."
+    },
+    {
+      "item": 29,
+      "id": "2109710188911706402",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T18:18:00.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-038",
+      "reason": "One HockTan statement/source event shared with41/37a."
+    },
+    {
+      "item": 30,
+      "id": "2109722352107810965",
+      "author": "@HudsonInstitute",
+      "created_at": "2026-10-12T19:06:20.000Z",
+      "disposition": "KILL",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Bank-formation regulatory op-ed lacks a new event or counted threshold; relevance/significance gate, causality not certified."
+    },
+    {
+      "item": 31,
+      "id": "2109720918666694881",
+      "author": "@Reuters",
+      "created_at": "2026-10-12T19:00:38.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-039",
+      "reason": "New dated German warning, no explicit Russia naming/adopted bill/new attack from source."
+    },
+    {
+      "item": 32,
+      "id": "2109705728046883205",
+      "author": "@washingtonpost",
+      "created_at": "2026-10-12T18:00:16.000Z",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261008-030",
+      "reason": "7.40% mortgage print already held; not fresh today."
+    },
+    {
+      "item": 33,
+      "id": "2109708749044887703",
+      "author": "@HormuzLetter",
+      "created_at": "2026-10-12T18:12:16.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-040",
+      "reason": "October12 cable-fee/threat source body and novelty unresolved; May proposal exists, no enactment inferred."
+    },
+    {
+      "item": 34,
+      "id": "2109694817638953062",
+      "author": "@SteveRattner",
+      "created_at": "2026-10-12T17:16:55.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-042",
+      "reason": "Rattner estimated cumulative household model read; fiscal/interest components and attribution preserved."
+    },
+    {
+      "item": 35,
+      "id": "2109559468308533419",
+      "author": "@MarhelmData",
+      "created_at": "2026-10-12T08:19:05.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-042",
+      "reason": "Marhelm China September draw claim unverified methodology/series; not official stock measure or verified record."
+    },
+    {
+      "item": 36,
+      "id": "2109644876551758084",
+      "author": "@KobeissiLetter",
+      "created_at": "2026-10-12T13:58:28.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-041",
+      "reason": "Separate Russia/Ukraine six-site attribution; Gulf claim folded into40 and price-causation unproved."
+    },
+    {
+      "item": 37,
+      "id": "2109689462020063400",
+      "author": "@carlquintanilla",
+      "created_at": "2026-10-12T16:55:38.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-038",
+      "reason": "Three screenshots counted: HockTan folds here; Novogratz/Wood disposed in additional2-item child manifest."
+    },
+    {
+      "item": 38,
+      "id": "2109608380058808639",
+      "author": "@OilHeadlineNews",
+      "created_at": "2026-10-12T11:33:27.000Z",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261012-042",
+      "reason": "LSEG-attributed physical/futures chart read; exact assessment code/as-of unknown, not interchangeable with FOBNWE134.14."
+    },
+    {
+      "item": 39,
+      "id": "2109664890545754593",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T15:18:00.000Z",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261010-004",
+      "reason": "Exact Citi possible20Y cancellation forecast already routed; no Treasury decision/new refunding date."
+    },
+    {
+      "item": 40,
+      "id": "2109686572253888586",
+      "author": "@FirstSquawk",
+      "created_at": "2026-10-12T16:44:09.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-044",
+      "reason": "Complete indexed official conditional speech read; squawk does not establish a fixed next-meeting hike."
+    },
+    {
+      "item": 41,
+      "id": "2109640191740621217",
+      "author": "@michaeljburry",
+      "created_at": "2026-10-12T13:39:51.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-038",
+      "reason": "Later named operator assessment; precise arcade quote primary-body context not recovered."
+    },
+    {
+      "item": 42,
+      "id": "2109682041021509843",
+      "author": "@WatcherGuru",
+      "created_at": "2026-10-12T16:26:09.000Z",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261008-030",
+      "reason": "Same known PMMS7.40 context; no independently new seventh-week metric source recovered."
+    },
+    {
+      "item": 43,
+      "id": "2109618872529649840",
+      "author": "@zerohedge",
+      "created_at": "2026-10-12T12:15:08.000Z",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261012-020",
+      "reason": "Same October8 ABI/Epiq source/counts via matching syndication; exact ZeroHedge body unread, old count/prose caveat retained."
+    },
+    {
+      "item": 44,
+      "id": "2109620584401277228",
+      "author": "@INArteCarloDoss",
+      "created_at": "2026-10-12T12:21:56.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-037",
+      "reason": "Full chart definitions read; stated full-buildout/incomplete satellite and unequal utility denominators survive."
+    },
+    {
+      "item": 45,
+      "id": "2109653799887409433",
+      "author": "@BBCWorld",
+      "created_at": "2026-10-12T14:33:56.000Z",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261012-011",
+      "reason": "BBC French refrigeration incident already routed in full; not a new cyber event."
+    },
+    {
+      "item": 46,
+      "id": "2109614857993806062",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T11:59:11.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Q2 sectoral net-lending identity includes all government/current-account mirror, not Treasury purchases/holder share. Footer April/Q2 date mismatch not reconciled."
+    },
+    {
+      "item": 47,
+      "id": "2109677507955900654",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T16:08:08.000Z",
+      "disposition": "NOTE",
+      "ref": "research/2026-10-12_bookmarks-reauth/REPORT.md",
+      "reason": "Maturity-bucket chart read with WAM5.8yr and 33%unchanged2024-26; raw MSPD not reproduced, not every security must refinance as bills at a fixed yield."
+    },
+    {
+      "item": 48,
+      "id": "2109689553087070685",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T16:56:00.000Z",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261012-036",
+      "reason": "Official Microsoft Maia300/inference2027 announcement read; no independent40% benchmark or quantified Nvidia purchases cut."
+    }
+  ],
+  "additional_items": [
+    {
+      "number": 1,
+      "disposition": "NOTE",
+      "reason": "Novogratz October7 screenshot/body unrecovered; investor opinion with remain-invested implication, no measured loss/capex event."
+    },
+    {
+      "number": 2,
+      "disposition": "DUP",
+      "reason": "SIG-W-20261010-006 — ChrisWood October9 source already routed, itself repeats July28; screenshot adds no body upgrade."
+    }
+  ],
+  "staged_ids": [
+    "2109731149513981966",
+    "2109694423915204714",
+    "2109672992540160090",
+    "2109760239570763976",
+    "2109705387289051528",
+    "2109737755878084743",
+    "2109749998703485280",
+    "2109739300514615466",
+    "2109744709438427648",
+    "2109643748158353525",
+    "2109748239931150347",
+    "2109704233494979031",
+    "2109677630991520077",
+    "2109365137211555961",
+    "2109671773868380436",
+    "2109707851811660136",
+    "2109714190009241618",
+    "2109732130947272876",
+    "2109698082317504826",
+    "2108619740939772400",
+    "2109708846063075628",
+    "2109649603293532472",
+    "2109727104434655474",
+    "2109678138716295181",
+    "2109689976791158974",
+    "2109720003570454615",
+    "2109631994208686164",
+    "2109721775512920161",
+    "2109710188911706402",
+    "2109722352107810965",
+    "2109720918666694881",
+    "2109705728046883205",
+    "2109708749044887703",
+    "2109694817638953062",
+    "2109559468308533419",
+    "2109644876551758084",
+    "2109689462020063400",
+    "2109608380058808639",
+    "2109664890545754593",
+    "2109686572253888586",
+    "2109640191740621217",
+    "2109682041021509843",
+    "2109618872529649840",
+    "2109620584401277228",
+    "2109653799887409433",
+    "2109614857993806062",
+    "2109677507955900654",
+    "2109689553087070685"
+  ],
+  "signals": [
+    {
+      "id": "SIG-W-20261012-032",
+      "path": "BOARD/SIG-W-20261012-032-france-DF-Peak-boarding-reported-Macron-suspected-false-flag.md",
+      "items": [
+        1
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-033",
+      "path": "BOARD/SIG-W-20261012-033-Kroger-corporate-role-plan-three-years-reported-not-realized-layoffs.md",
+      "items": [
+        7
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-034",
+      "path": "BOARD/SIG-W-20261012-034-PepsiCo-Poppi-earnout-12M-contingent-liability-2027-deadline.md",
+      "items": [
+        9
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-035",
+      "path": "BOARD/SIG-W-20261012-035-September-Redfin-demand-Parcl-between-cuts-SHED-vintage-qualified.md",
+      "items": [
+        12,
+        23,
+        24,
+        28
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-036",
+      "path": "BOARD/SIG-W-20261012-036-Microsoft-Maia300-inference-2027-Nvidia-RTX5090-factory-rumor.md",
+      "items": [
+        26,
+        48
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-037",
+      "path": "BOARD/SIG-W-20261012-037-datacenter-tracker-stated-full-buildout-61GW-not-connected-load.md",
+      "items": [
+        44
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-038",
+      "path": "BOARD/SIG-W-20261012-038-Hock-Tan-AI-investment-economics-comment-not-guidance-cut.md",
+      "items": [
+        29,
+        37,
+        41
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-039",
+      "path": "BOARD/SIG-W-20261012-039-Japan-cyber-emergency-reported-Germany-Dobrindt-warning-source-limits.md",
+      "items": [
+        11,
+        31
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-040",
+      "path": "BOARD/SIG-W-20261012-040-October12-IRGC-third-tanker-announcement-cable-fee-claim-unverified.md",
+      "items": [
+        10,
+        33,
+        36
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-041",
+      "path": "BOARD/SIG-W-20261012-041-Zelensky-six-Ukrainian-energy-facilities-October12-attributed-no-damage-total.md",
+      "items": [
+        36
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-042",
+      "path": "BOARD/SIG-W-20261012-042-physical-Brent-chart-bases-321-month-unknown-China-stock-model-household-cost.md",
+      "items": [
+        16,
+        20,
+        21,
+        34,
+        35,
+        38
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-043",
+      "path": "BOARD/SIG-W-20261012-043-OilPrice-CPC-blending-allegation-source-body-unread.md",
+      "items": [
+        13
+      ]
+    },
+    {
+      "id": "SIG-W-20261012-044",
+      "path": "BOARD/SIG-W-20261012-044-Hammack-October12-conditional-reaction-function-not-fixed-hike-path.md",
+      "items": [
+        40
+      ]
+    }
+  ]
+}

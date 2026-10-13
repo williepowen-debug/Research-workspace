@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-13T01:01:45Z",
+  "source": "AGENTS/WALTER/LAST_COMPLETION.md",
+  "archive": "AGENTS/WALTER/archive/LAST_COMPLETION_2026-10-12_before-bookmark-history-rotation.md",
+  "before_sha256": "0e7f9ca136aac032e0ebaff51a3b857a8989c36c8b51ad28a386900d6309ce72",
+  "archive_sha256": "0e7f9ca136aac032e0ebaff51a3b857a8989c36c8b51ad28a386900d6309ce72",
+  "before_bytes": 38520,
+  "after_bytes": 22586,
+  "completed_history": "Prior CHANGED/closed-follow-up/static-checkpoint narrative and full prior structured receipt remain in full exact archive; current view keeps current scope/selected evidence",
+  "open_obligations": "WILL_NEEDS, OPEN DESIGN DECISIONS and numbered1-9 duties preserved; source/LIQUID/HNS07/R1 limits kept in current GAPS",
+  "policy": "Routine verbatim checkpoint history conservation, no charter/spec candidate activation",
+  "post_rotation_headroom_to_budget": 9964
+}

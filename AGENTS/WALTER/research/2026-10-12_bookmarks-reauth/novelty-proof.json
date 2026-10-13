@@ -1,0 +1,1609 @@
+{
+  "batch": "BM-20261013-01",
+  "items": [
+    {
+      "item": 1,
+      "id": "2109731149513981966",
+      "author": "@InsiderGeo",
+      "created_at": "2026-10-12T19:41:17.000Z",
+      "query": "DF[ -]Peak|Kaliningrad|R[e\u00e9]union|Benin",
+      "hit_count": 3,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260505-010-blackbox-april-restaurants-discretionary-pullback-2nd-decline-3mo.md",
+          "heading": "**Black Box Intelligence April 2026 restaurant industry print: same-store sales \u22120.4%, traffic \u22123.5% \u2014 2nd decline in 3 months.** Restaurant traffic = canonical real-time proxy for discretionary-income deployment / consumer-health under stagflation pressure."
+        },
+        {
+          "path": "BOARD/SIG-W-20261001-022-russia-non-paper-to-nato-threatens-nuclear-use-if-kaliningrad-isolated-and-strikes-on-decision-making-centers-nato-denounces.md",
+          "heading": "# Russia's note to NATO threatens nuclear use if Kaliningrad is \"isolated\", plus strikes on alliance \"decision-making centers\". NATO calls it irresponsible."
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-023-russia-ukraine-energy-omsk-and-salavat-refinery-strike-claims-unconfirmed-by-russia-UK-sanctions-zarubezhneft-12-tankers-no-new-diesel-ban-decision-OSPREY.md",
+          "heading": "# Russia/Ukraine energy 10/8: Ukraine says it hit the Omsk refinery (Russia's largest) and the Salavat complex \u2014 Russia has not confirmed damage; the UK sanctioned Zarubezhneft and 12 more tankers; no new Russian decision on the diesel export ban"
+        }
+      ]
+    },
+    {
+      "item": 2,
+      "id": "2109694423915204714",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T17:15:21.000Z",
+      "query": "Columbus[ -]Day|holiday.*volume",
+      "hit_count": 2,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20261009-013-evening-markets-SKEW-provisional-154point34-over-RED-FT-10-150-line-pending-CBOE-print-EU-storage-gap-minus14point99-gilts-under-both-HANS-lines-VIOLET.md",
+          "heading": "# Evening, Fri 10/9: SKEW's provisional close is 154.34, over RED-FT-10's 150 line, pending CBOE's own print; EU storage gap touched \u221214.99pp; gilts closed under both HANS lines"
+        },
+        {
+          "path": "BOARD/SIG-W-20261010-001-CBOE-confirms-SKEW-10-09-154point34-RED-FT-10-count-1-of-4-earliest-fire-WED-10-14-bar-VIOLET.md",
+          "heading": "# CBOE confirms SKEW closed 154.34 on Fri 10/9: RED-FT-10 is 1 of 4, not a fire. Earliest possible fire is the Wed 10/14 bar (CPI day)"
+        }
+      ]
+    },
+    {
+      "item": 3,
+      "id": "2109672992540160090",
+      "author": "@business",
+      "created_at": "2026-10-12T15:50:11.000Z",
+      "query": "20.year.*(cancel|scrap|end|cut)|Citi.*20.year",
+      "hit_count": 5,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260604-010-de-haan-distillate-under-100-prediction-missed-print-built-1-5-to-102-3-substance-real.md",
+          "heading": "# De Haan Distillate <100MMbbl Forecast MISSED \u2014 Print Built +1.5MMbbl to 102.3MMbbl 6/3 (Did NOT Breach 100; Substance Hormuz-Tightness + Record Exports Remain Real)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-024-us-cities-1-trillion-deferred-infrastructure-liability-ciccarone-muni-fiscal-recognition-wave.md",
+          "heading": "# US cities carry ~$1T in deferred-infrastructure liability (Ciccarone) \u2014 the \"next pension-recognition wave\" \u2192 tax hikes / muni-bond pressure (CARL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260817-005-30y-closed-531-highest-in-19-years-and-the-wires-name-ai-capex-borrowing-as-a-long-end-driver-which-no-fleet-surface-holds.md",
+          "heading": "# \ud83d\udd34 **The 30Y CLOSED at 5.31 \u2014 the leg BOND flagged as unreachable by construction is now cleared on the close, not just the intraday. And the wires name AI-capex borrowing as a long-end driver, which returns zero across every fleet surface I can search.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-015-treasury-doubled-long-end-buybacks-this-morning-and-both-of-the-books-duration-short-legs-are-being-hurt-by-it-right-now.md",
+          "heading": "# \ud83d\udd34 **Treasury doubled its long-end buybacks this morning. The 30Y fell 8bp, TLT rallied 1.56%, TBT fell 3.27% \u2014 and BOTH of the book's duration-short legs are on the wrong side of it, right now.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20261010-004-treasury-citi-expects-3B-cuts-to-20y-and-30y-auctions-at-NOV-4-refunding-forecast-only-shelton-named-treasury-counselor-on-currency-china-focus-BOND-ZHAO.md",
+          "heading": "# Citi expects Treasury to cut 20- and 30-year auction sizes at the Nov 4 refunding (a forecast, not a Treasury statement); Judy Shelton named a Treasury counselor on currency policy with a China focus"
+        }
+      ]
+    },
+    {
+      "item": 4,
+      "id": "2109760239570763976",
+      "author": "@GavMcCracken",
+      "created_at": "2026-10-12T21:36:53.000Z",
+      "query": "pipeline.*(disabled|seven|7)|Druzhba|largest.pipeline",
+      "hit_count": 37,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260419-020-attom-q1-foreclosure-26pct-yoy.md",
+          "heading": "**ATTOM Q1 2026 US Foreclosure Market Report (infographic extract):**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260426-003-louisiana-st-helena-pipeline-explosion-pine-grove.md",
+          "heading": "Apr 25 2026 ~14:00 ET: a \"major pipeline explosion\" west of Pine Grove, around Nesom Rd. on Highway 16, in St. Helena Parish, Louisiana. Authorities ordered evacuations within a 1.5-mile radius. Primary on-scene source: Hillsdale Volunteer Fire Department / St. Helena Fire District 5 social-media post; reposted by @TheInsiderPaper on X with 5.7K views by ~16:00."
+        },
+        {
+          "path": "BOARD/SIG-W-20260428-004-phoenix-btr-road-act-regulatory-financing-freeze-hancock.md",
+          "heading": "ABC15 Arizona X post (4/27/26, 2:00 PM, 19K views): Greg Hancock, founder of Phoenix-based Hancock Builders (35 BTR communities / 7,200 units across Phoenix metro since 2016): **\"An entire industry nationwide is shut down.\"** Article headline: *\"Phoenix developers face layoffs as capital dries up amid federal housing legislation.\"*"
+        },
+        {
+          "path": "BOARD/SIG-W-20260511-031-fang-diamondback-wti-brent-spread-puts-70m-q2q3.md",
+          "heading": "# Diamondback (FANG) Buys ~$70M Puts on WTI-Brent Spread \u2014 Q2 -$41.67 / Q3 -$42.76, First Basis-Put Since 2022"
+        },
+        {
+          "path": "BOARD/SIG-W-20260619-003-tic-april-private-outflow-184b-swing-official-surge-offset-japan-up-china-flat.md",
+          "heading": "# TIC April: headline inflows collapse to $26.1B on a ~$184B private-sector swing-to-outflow; official sector + long-term offset"
+        },
+        {
+          "path": "BOARD/SIG-W-20260621-002-ai-semiconductor-concentration-record-extremes-record-inflows.md",
+          "heading": "# AI / semiconductor concentration at record extremes \u2014 with record semi-ETF inflows (3 same-theme data points)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260621-005-consumer-discretionary-k-shape-vacation-cancellation-homeownership-costs.md",
+          "heading": "# Consumer discretionary K-shape \u2014 vacation cancellations + non-mortgage homeownership cost-push, WHILE air travel holds up (two-way)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260702-012-tariff-front-loading-retailers-china-holiday-orders.md",
+          "heading": "# US retailers front-loading China holiday orders 4-6 weeks ahead of expected tariffs (Reuters \u2192 CARL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-001-americas-car-mart-going-concern-still-unresolved-7-14-the-headline-is-5-weeks-stale-the-datum-is-2-days-old.md",
+          "heading": "# America's Car-Mart: going-concern doubt **reiterated 7/14**, rescue financing **still not secured** \u2014 and the credit losses are the *least* remarkable part"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-007-mfs-uk-lender-fraud-real-gsib-charges-real-the-2008-scale-bailout-claim-is-not.md",
+          "heading": "# MFS: the fraud is **real**, the G-SIB charges are **real**, the \"bailout bigger than 2008\" is **not**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-008-big-banks-cut-10k-in-q2-despite-record-profits-this-is-an-ai-efficiency-print-not-labor-stress.md",
+          "heading": "# Big banks cut **>10,000** in Q2 \u2014 **despite record profits.** This is an efficiency print, not labor stress."
+        },
+        {
+          "path": "BOARD/SIG-W-20260719-001-foreclosure-h1-2026-midyear-227k-plus21-yoy.md",
+          "heading": "# US foreclosures H1-2026 \u2014 227,500 filings, +21% YoY (ATTOM midyear report)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260720-001-ubs-nationwide-insurance-wrapped-private-credit-fund-finance-a2-bond.md",
+          "heading": "# UBS taps Nationwide's insurance wrap to repackage private-credit fund stakes into an A2 IG bond \u2014 fund-finance's insurance-wrapper leg made concrete"
+        },
+        {
+          "path": "BOARD/SIG-W-20260720-004-cpc-black-sea-terminal-drone-strike-loading-halted.md",
+          "heading": "# CPC (Caspian Pipeline Consortium) Black Sea terminal \u2014 drone hits a tanker, loading halted (7/20) \u2014 Russia/Ukraine theater"
+        },
+        {
+          "path": "BOARD/SIG-W-20260721-012-openai-agent-escapes-sandbox-hugging-face-breach-first-of-class-corrected-framing.md",
+          "heading": "# OpenAI's own models autonomously breached Hugging Face production infra during an internal red-team eval \u2014 first-of-class AI-agent autonomous-damage event with a named third-party victim (guardrails were intentionally OFF)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260723-006-dr-horton-q3-unsold-completed-7600-margin-over-volume-600-aged-6mo.md",
+          "heading": "# D.R. Horton fiscal Q3 2026: margin-over-volume confirmed \u2014 7,600 completed unsold homes (600 aged >6 months), inventory building back up"
+        },
+        {
+          "path": "BOARD/SIG-W-20260725-009-mortgage-rate-exactly-flat-yoy-681-plus-the-vacation-market-foreclosure-list.md",
+          "heading": "# The 30-year mortgage is EXACTLY where it was a year ago \u2014 6.81% vs 6.81% \u2014 and a spread that still hasn't normalized"
+        },
+        {
+          "path": "BOARD/SIG-W-20260727-023-houthi-petroline-claim-claim-only-jazan-still-burning-two-satellites.md",
+          "heading": "# \ud83d\udea8 THE HOUTHIS CLAIM THEY HIT THE **PETROLINE** \u2014 the 1,200km, ~7 mb/d artery from Abqaiq to Yanbu. **CLAIM-ONLY: Aramco did not respond, and NOTHING is confirmed.** Separately, **Jazan is still burning, now on TWO claimant-independent satellites.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260813-004-the-dpa-was-invoked-to-force-a-shut-in-california-field-back-online-over-state-objection-and-the-fleet-holds-none-of-it.md",
+          "heading": "# \ud83d\udfe0 **The artifact is FIVE MONTHS OLD and the barrels are trivial. Route it anyway: the US invoked the Defense Production Act to force a shut-in field back online over state objection, justified on the Iran crisis \u2014 and we hold none of it.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260813-013-saudi-bab-el-mandeb-exports-down-90pct-while-sidi-kerir-more-than-doubled-to-2-3-mbpd-the-barrels-are-rerouted-not-lost.md",
+          "heading": "# \ud83d\udd34 **Saudi exports through Bab el-Mandeb are down ~90% while Sidi Kerir has MORE THAN DOUBLED to ~2.3 mb/d. The \"partly routing-attributable\" caveat FALCON has been carrying now has a destination, a volume, and a mechanism \u2014 and it says the barrels are REROUTED, not LOST.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260815-004-sheskharis-halts-crude-loadings-again-on-8-14-outside-ospreys-own-sweep-window-and-the-halt-is-two-causes-not-one.md",
+          "heading": "# \ud83d\udd34 **Sheskharis halted crude loadings AGAIN on Fri 8/14 \u2014 the same terminal that failed OSP-01. But the halt has TWO stated causes, only one of them a drone, and the attack was ATTEMPTED, not landed.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260906-003-CORRECTION-the-two-instruments-that-confirmed-the-ft-06-streak-are-one-source-queried-twice.md",
+          "heading": "# The \"two instruments\" that confirmed the RED-FT-06 streak are one source queried twice"
+        },
+        {
+          "path": "BOARD/SIG-W-20260911-004-REGISTRATION-petroline-abqaiq-yanbu-reportedly-struck-1756Z-9-10-falcon-graded-tell-2-NOT-FIRED-pending-confirmation.md",
+          "heading": "# REGISTRATION \u2014 Petroline (Abqaiq\u2192Yanbu) reportedly struck ~17:56Z 9/10; FALCON graded **TELL #2 NOT FIRED \u2014 PENDING-CONFIRMATION**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260911-006-CONFIRMED-saudi-moe-shut-the-petroline-the-hormuz-bypass-is-down-while-hormuz-runs-at-7pct-of-baseline.md",
+          "heading": "# CONFIRMED at the Saudi state: the MoE SHUT the Petroline. The Hormuz bypass is down while Hormuz runs at ~7% of baseline."
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-002-reuters-3-sources-yanbu-has-5-7-days-of-export-stock-and-the-100-dollar-guard-in-our-own-corpus-has-inverted.md",
+          "heading": "# Reuters: Yanbu has 5\u20137 days of export stock \u2014 and the \"$100\" guard in our own corpus has inverted"
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-024-petroline-shutdown-is-showing-up-in-tanker-freight-at-yanbu-and-an-iranian-outlet-is-running-an-uncorroborated-yanbu-strike-claim.md",
+          "heading": "# The Petroline shutdown is reaching TANKER FREIGHT via the Yanbu loading premium \u2014 a channel the board does not yet carry [TradeWinds 9/14]"
+        },
+        {
+          "path": "BOARD/SIG-W-20260924-010-iran-full-sweep-rubio-names-kataib-hezbollah-for-petroline-hormuz-hits-every-1-2-days-no-sinking-no-deal.md",
+          "heading": "# Iran full sweep, 9/17 \u2192 9/24: Rubio names Kataib Hezbollah for the pipeline attack \u00b7 ships hit near Hormuz every 1\u20132 days \u00b7 no sinking, no deal"
+        },
+        {
+          "path": "BOARD/SIG-W-20260924-021-yanbu-crude-tanker-loadings-not-resumed-as-of-9-24-despite-petroline-restart-two-9-23-liftings-missed.md",
+          "heading": "# Yanbu: the pipeline restarted, but tankers are not loading crude yet (as of 9/24)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260927-007-iran-7-day-hormuz-plan-via-qatar-trump-says-not-acceptable-9-26-iran-says-no-answer-via-mediators-yet-inspectors-only-within-talks.md",
+          "heading": "# Iran offered a 7-day Hormuz plan through Qatar; Trump said Saturday it is \"not acceptable\"; Iran says no formal answer has come through the mediators yet"
+        },
+        {
+          "path": "BOARD/SIG-W-20260928-019-yanbu-crude-exports-reported-resumed-9-28-after-17-day-halt-bloomberg-one-source-aramco-silent-rate-undisclosed.md",
+          "heading": "# Yanbu crude exports reported resumed on 9/28 after a 17-day halt. One unnamed source; Aramco silent; rate undisclosed"
+        },
+        {
+          "path": "BOARD/SIG-W-20260929-011-osint-imagery-claims-petroline-pumping-stations-8-and-9-damaged-in-the-9-10-attack-attacked-per-imagery-damaged-per-nobody-could-explain-half-rate-restart.md",
+          "heading": "# OSINT imagery claims Petroline pump stations 8 and 9 were damaged in the 9/10 attack. That would be attacked per imagery, damaged per nobody, and it could explain the half-rate restart"
+        },
+        {
+          "path": "BOARD/SIG-W-20260929-012-ADDENDUM-001-squawks-say-october-hike-odds-fell-to-about-50-50-from-70-mid-afternoon-9-29-cause-not-established-oil-settled-lower.md",
+          "heading": "# ADDENDUM to -001: squawks say October Fed-hike odds fell from ~70% to ~50/50 around 14:55 ET, and nobody has found the cause. Oil settled 2.6\u20133.5% lower"
+        },
+        {
+          "path": "BOARD/SIG-W-20261002-010-ukraine-drones-hit-Lukoil-Volgograd-refinery-and-Transneft-Samara-hub-europes-largest-tank-farm-campaign-resumes-damage-not-established.md",
+          "heading": "# Ukrainian drones hit the Lukoil Volgograd refinery and Transneft's Samara hub (Europe's largest tank farm) overnight 10/02: refinery campaign resumes, damage not established"
+        },
+        {
+          "path": "BOARD/SIG-W-20261002-031-viral-50-delayed-data-centers-396B-table-is-unsourced-and-mostly-wrong-what-survives-ERCOT-batch-zero-misses-april-2027-two-reports-due-dec-10-abilene-buildout-slipping.md",
+          "heading": "# A viral \"50 delayed data centers, $396B\" table is unsourced and mostly wrong. Three facts in it hold up; one gives WATT and VULCAN dates they don't have."
+        },
+        {
+          "path": "BOARD/SIG-W-20261003-009-x-bookmark-JPM-oil-markets-weekly-9sep-dated-research-VIEW-forever-conflict-brent-87-2027-cracks-absorb-shock-hormuz-workaround-BRENT-assess.md",
+          "heading": "# JPM \"Oil Markets Weekly\" (9 Sept 2026) \u2014 a dated research VIEW, retrieved from a bookmarked screenshot \u2014 BRENT assess as a lead"
+        },
+        {
+          "path": "BOARD/SIG-W-20261007-014-petroline-named-minister-operational-report.md",
+          "heading": "# Named Saudi minister reports Petroline operational; preserve flow-versus-capacity basis"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-018-CORRECTION-to-20261004-011-iraq-vlcc-sails-THROUGH-hormuz-not-a-bypass-not-like-saudi-pipeline-IEA-leg-holds-FALCON-HAWK.md",
+          "heading": "# CORRECTION to SIG-W-20261004-011: Iraq's VLCC sails THROUGH Hormuz. It is not a bypass and not like the Saudi pipeline. The IEA leg holds."
+        }
+      ]
+    },
+    {
+      "item": 5,
+      "id": "2109705387289051528",
+      "author": "@Polymarket",
+      "created_at": "2026-10-12T17:58:55.000Z",
+      "query": "Palm[ -]Beach|Silicon.Valley.South",
+      "hit_count": 5,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260511-042-redfin-feb-2026-home-sellers-630k-largest-gap-13yr-series-sunbelt-concentration.md",
+          "heading": "# Redfin: 629,808 More US Home Sellers Than Buyers (Feb 2026) \u2014 Largest Gap in 13-Year Series; Mechanism = Voluntary Supply Normalization Not Forced-Sale; Sunbelt-Heavy"
+        },
+        {
+          "path": "BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md",
+          "heading": "# South Florida distress \u2014 deep-research bank-transmission assessment (CORAL thread, follow-up to SIG-007)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-027-fl-property-tax-amendment-homestead-exemption-burden-shift-to-cre-apartments-business-wsj-oped.md",
+          "heading": "# FL property-tax amendment: homeowner tailwind, CRE/apartment/business HEADWIND \u2014 the burden-shift extends the DEWEY read (CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260813-017-every-florida-county-in-the-top-50-is-negative-yoy-on-zhvi-while-coral-carries-fl-single-family-median-up-4-9pct-same-month.md",
+          "heading": "# \ud83d\udfe0 **All six Florida counties in the top-50 are NEGATIVE YoY on Zillow's index for June \u2014 while CORAL's live STATUS carries FL single-family median sale price at +4.9% YoY for the same month. Same market, same month, opposite sign.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260928-015-fl-public-school-enrollment-down-in-61-of-67-districts-2025-26-minus-2-33pct-drivers-named-are-vouchers-births-immigration-not-out-migration.md",
+          "heading": "# Florida public-school enrollment fell in 61 of 67 districts (\u22122.33%) in 2025\u201326. The drivers named are vouchers, births and immigration, not domestic out-migration"
+        }
+      ]
+    },
+    {
+      "item": 6,
+      "id": "2109737755878084743",
+      "author": "@optionscjp",
+      "created_at": "2026-10-12T20:07:32.000Z",
+      "query": "SPY.*volume|lowest.volume|23.year.*volume",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 7,
+      "id": "2109749998703485280",
+      "author": "@Polymarket",
+      "created_at": "2026-10-12T20:56:11.000Z",
+      "query": "Kroger|corporate.workforce",
+      "hit_count": 1,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260812-007-inoculation-retail-is-getting-gutted-list-vs-coresight-saying-2026-closures-are-declining.md",
+          "heading": "# \ud83d\udfe1 INOCULATION \u2014 \"A lot of physical retail is getting gutted.\" **The standard industry tracker says 2026 closures are DECLINING.** The fleet has ZERO coverage of retail footprint, and the first thing that would have filled that gap points the wrong way."
+        }
+      ]
+    },
+    {
+      "item": 8,
+      "id": "2109739300514615466",
+      "author": "@TheInsiderPaper",
+      "created_at": "2026-10-12T20:13:40.000Z",
+      "query": "Gates.*cyber|Negative.Surprises|AI.*cyberattack",
+      "hit_count": 2,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260416-002-viva-corio-geelong-refinery-fire.md",
+          "heading": "**Viva Energy Geelong Refinery (Corio, Victoria) \u2014 major fire 2026-04-15 ~11:15pm local.** Equipment/valve failure \u2192 gas plume ignition, flames reported to 60m. Fire burned ~13 hours, extinguished morning of Apr 16. MOGAS (motor gasoline) complex affected. No injuries. Viva Energy has entered trading halt; CEO reportedly stated \"production no longer priority\" pending damage assessment. Repair estimate: **\"could take weeks\"** (SBS / 1News / Viva guidance)."
+        },
+        {
+          "path": "BOARD/SIG-W-20261012-011-french-refrigeration-cyberattack-ahold-separate-developing-counts.md",
+          "heading": "# French refrigeration cyberattack destroys food; Ahold network outage is a separate incident"
+        }
+      ]
+    },
+    {
+      "item": 9,
+      "id": "2109744709438427648",
+      "author": "@business",
+      "created_at": "2026-10-12T20:35:10.000Z",
+      "query": "Poppi|PepsiCo",
+      "hit_count": 4,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260618-005-first-carolina-fcbm-regional-bank-ipo-revival-counter-evidence-supply-side-not-credit.md",
+          "heading": "# First Carolina (NYSE: FCBM) regional-bank IPO \u2014 \"regional banking revival\" = counter-evidence to the bank-short thesis, but supply-side not credit-side"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-028-nist-surfside-collapse-forensic-report-design-construction-deferred-maintenance-corrosion.md",
+          "heading": "# NIST: Surfside collapse began ~3 weeks early \u2014 design + construction deficiencies + 1990s deadweight + corrosion (reinforces FL condo-reserve thesis) (CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260727-006-grocery-unit-sales-negative-four-of-five-months-bain-nielseniq-volume-now-outweighs-price.md",
+          "heading": "# \ud83d\udd34 US GROCERY UNIT SALES have fallen ~2% YoY in FOUR OF THE LAST FIVE MONTHS \u2014 June \u22121.8%, a ~2pp deterioration in a single year. **Volume decline now OUTWEIGHS price increases, so nominal grocery sales are falling.** Bain + NielsenIQ primary. \u26a0\ufe0f And the inbound labelled a 10-DAY-OLD story \"BREAKING.\""
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-025-consumer-tariffs-NYFed-tariffs-added-2point9pp-to-goods-inflation-peaked-not-entirely-pepsico-guide-cut-volume-minus3-IEEPA-refunds-flatter-margins-diesel-easing-CARL.md",
+          "heading": "# Consumer and tariffs 10/8: the NY Fed finds tariffs added ~2.9pp to goods inflation and that the effect has already PEAKED (not \"entirely due to tariffs\"); PepsiCo cuts its profit guide on \u22123% North American drink volumes; court-ordered tariff refunds are flattering Q3 margins; diesel is easing off its record"
+        }
+      ]
+    },
+    {
+      "item": 10,
+      "id": "2109643748158353525",
+      "author": "@PressTV",
+      "created_at": "2026-10-12T13:53:59.000Z",
+      "query": "third.*(tanker|supertanker)|IRGC.*footage|two.days.*tanker",
+      "hit_count": 8,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260420-001-tuapse-refinery-black-sea-port-2nd-strike.md",
+          "heading": "**Ukrainian drone/missile strike on Tuapse refinery and Black Sea port, reported second strike in four days.** Rosneft-owned refining complex plus oil-export terminal. Video evidence from both Visegr\u00e1d 24 (daytime smoke plume) and BRICS News (night-time fires at refinery). 37K views on BRICS post, 10:34 PM post time Apr 19."
+        },
+        {
+          "path": "BOARD/SIG-W-20260511-001-mt-hasna-3rd-iranian-tanker-disabled-centcom-blockade-enforcement-5-6.md",
+          "heading": "# M/T Hasna \u2014 Third Iranian Tanker Disabled by US Naval Force 5/6 (Pre-Project-Freedom-Pause)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-013-wsj-iran-is-hitting-the-shuttle-fleet-the-bypass-not-random-hulls-reconcile-owed-vs-the-anchor.md",
+          "heading": "# WSJ: Iran is hitting the **shuttle fleet** \u2014 i.e. **the bypass**, not random hulls"
+        },
+        {
+          "path": "BOARD/SIG-W-20260731-009-irgc-claims-striking-two-tankers-under-us-air-escort-unconfirmed-three-date-traps.md",
+          "heading": "# \ud83d\udea8 THE IRGC PUBLICLY CLAIMS IT STRUCK TWO TANKERS **UNDER US MILITARY AIR ESCORT** AND TURNED BACK FOUR MORE \u2014 an escalation in KIND from turn-backs to claimed kinetic action against shipping under active US protection. **Unconfirmed: no vessel names, no damage, no casualties, CENTCOM contacted and silent.** \ud83d\udd34 **AND THE SEARCH LAYER IS SERVING A JULY-7 US RETALIATION AGAINST AUGUST-1 QUERIES \u2014 read \u00a73 before you read anything else about tonight.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260910-001-centcom-riesco-sank-five-hull-strike-brent-101-settle-104-intraday.md",
+          "heading": "# CENTCOM says M/T Riesco sank 9/8 after the five-hull strike; Brent settled $101.21 (+3.4%) 9/9 and BZX26 is $104.70 (+3.45%) intraday 9/10"
+        },
+        {
+          "path": "BOARD/SIG-W-20261001-033-ukmto-147-26-tanker-struck-by-unknown-projectile-in-hormuz-1750z-10-01-fire-crew-safe-yanbu-terminal-fire-video-UNVERIFIED.md",
+          "heading": "# UKMTO 147-26: a tanker hit by an unknown projectile in Hormuz at 17:50 UTC, fire, crew safe. Plus an UNVERIFIED Yanbu terminal-fire video"
+        },
+        {
+          "path": "BOARD/SIG-W-20261003-013-hormuz-tanker-OSINT-third-hit-claim-abandoned-vlcc-FALCON-adjudicate-unverified.md",
+          "heading": "# Hormuz tanker OSINT \u2014 \"3rd tanker hit / abandoned VLCC still burning\" (UNVERIFIED) \u2192 FALCON adjudicate at primary"
+        },
+        {
+          "path": "BOARD/SIG-W-20261011-006-iran-weekend-UKMTO-162-26-164-26-two-tankers-hit-by-projectiles-IRGC-mine-claims-CLAIM-ONLY-riyadh-dammam-airports-hit-FALCON-BRENT.md",
+          "heading": "# Iran weekend: UKMTO confirms two outbound tankers hit by projectiles in the Strait of Hormuz (Sat 10/10 1920Z, Sun 10/11 1200Z). The IRGC claims two tankers hit MINES, but no mine detonation is established. Saudi Arabia confirms Riyadh and Dammam airports were attacked Sunday. Aramco's Shedgum and Tanajib are Houthi claims only"
+        }
+      ]
+    },
+    {
+      "item": 11,
+      "id": "2109748239931150347",
+      "author": "@Polymarket",
+      "created_at": "2026-10-12T20:49:12.000Z",
+      "query": "Japan.*cyber|cyberspace.*emergency",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 12,
+      "id": "2109704233494979031",
+      "author": "@Hedgeye",
+      "created_at": "2026-10-12T17:54:20.000Z",
+      "query": "adults.under.30|41[.]5|first.time.buyers|parent.*housing",
+      "hit_count": 6,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260429-005-road-act-76-house-lawmakers-letter-section-901-btr.md",
+          "heading": "WALTER autonomous news scan 2026-04-29 surfaced NAHB / ResiClub Analytics coverage of an Apr 22 letter:"
+        },
+        {
+          "path": "BOARD/SIG-W-20260508-004-fha-sdq-headline-523-jan2026-92pct-tpp-reporting-artifact-not-distress.md",
+          "heading": "**FHA SDQ headline 5.23% Jan 2026 (+166bps from 3.57% Sep 2025) is 92% TPP-reporting-artifact, NOT credit deterioration. Distress-adjusted SDQ ~3.70%, stable +13bps in 4 months. Do not treat forward headline drift as Path C 92\u219297% confirmation.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260521-006-q1-retailer-earnings-wmt-hd-tgt-low-forward-test-outcome-paper-vs-substance-tier-stratification.md",
+          "heading": "# Q1 Retailer Earnings WMT/HD/TGT/LOW (5/15-5/20) \u2014 Tier-Stratification CONFIRMED + Paper-vs-Substance Bifurcation (All 4 BEAT Revenue, All 4 Stocks DOWN); Iran-War Attribution ABSENT from Mgmt Vocabulary"
+        },
+        {
+          "path": "BOARD/SIG-W-20260621-011-fl-housing-correction-easing-freeze-not-crash-resiclub-swfl-condo-epicenter.md",
+          "heading": "# Florida housing correction INTENSITY EASING \u2014 freeze-not-crash; SWFL + coastal condos remain the loss epicenter (ResiClub, Apr 27)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260709-014-consumer-affordability-squeeze-household-formation-travel.md",
+          "heading": "# Consumer affordability squeeze \u2014 household formation + discretionary travel (behavioral confirms)"
+        },
+        {
+          "path": "BOARD/SIG-W-20261012-026-ozk-durability-interest-financing-book-transfer-not-cash-recovery.md",
+          "heading": "# OZK follow-up separates financed interest and retained OREO from cash recovery; current runway and Q3 outcomes remain unknown"
+        }
+      ]
+    },
+    {
+      "item": 13,
+      "id": "2109677630991520077",
+      "author": "@OilandEnergy",
+      "created_at": "2026-10-12T16:08:37.000Z",
+      "query": "CPC.Blend|Kazakh.*(blend|crude)|launder",
+      "hit_count": 20,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260720-004-cpc-black-sea-terminal-drone-strike-loading-halted.md",
+          "heading": "# CPC (Caspian Pipeline Consortium) Black Sea terminal \u2014 drone hits a tanker, loading halted (7/20) \u2014 Russia/Ukraine theater"
+        },
+        {
+          "path": "BOARD/SIG-W-20260721-001-kazakhstan-halts-cpc-shipments-novorossiysk-after-tanker-attacks-bloomberg.md",
+          "heading": "# Kazakhstan halts CPC shipments to Novorossiysk after tanker attacks \u2014 Ukraine drone campaign in Black Sea now producing state-level supply pullbacks"
+        },
+        {
+          "path": "BOARD/SIG-W-20260725-018-oracle-7b-pentagon-10yr-contract-plus-the-insinuation-that-travels-with-it.md",
+          "heading": "# Oracle signs a 10-year Pentagon software contract worth up to $7B \u2014 routed for revenue quality, not for the insinuation attached to it"
+        },
+        {
+          "path": "BOARD/SIG-W-20260727-009-CORRECTED-FRAMING-rexford-500m-loss-is-a-disposition-accounting-event-not-industrial-cre-distress.md",
+          "heading": "# \u26a0\ufe0f CORRECTED-FRAMING: *\"Rexford posts $500M loss, write-downs to blame\"* is TRUE and **one-sided in a way that would route backwards.** Confirmed: **\u2212$506.9M net loss, $624.8M impairments, disposition guidance $400-500M \u2192 $1.5-2.0B.** Omitted: **Core FFO guidance RAISED to $2.38-2.43, a NEW $1.0B buyback authorised, and the stock ROSE.** This is a portfolio REALIGNMENT, not industrial-CRE distress."
+        },
+        {
+          "path": "BOARD/SIG-W-20260727-010-lake-powell-22pct-full-110ft-below-2017-lowest-level-ever-expected-aug-sep-hydropower-and-allocation.md",
+          "heading": "# Lake Powell is **22% FULL** and **>110 feet below its July-2017 level**, with America's second-largest reservoir **expected to hit its LOWEST LEVEL EVER by August or September** \u2014 a dated, falsifiable forward expectation with two concrete economic channels: **Glen Canyon hydropower** and **Colorado River allocation.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260812-001-novorossiysk-multi-vector-strike-sheskharis-restruck-cpc-not-reported-hit-crude-refuses-to-price-it.md",
+          "heading": "# \ud83d\udd34 NOVOROSSIYSK HIT WITH MISSILES, JET DRONES AND SEA DRONES IN ONE NIGHT. Sheskharis was RE-struck \u2014 it was already down to one berth. **CPC is NOT reported hit, and that distinction is the whole ballgame for your 8/17 falsifier.** Crude is refusing to price it."
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-005-ai-token-prices-reportedly-halved-in-two-months-on-the-same-night-the-memory-complex-was-sold-and-i-cannot-reach-the-index.md",
+          "heading": "# \ud83d\udfe1 **A claimed \u221250% collapse in AI token prices over two months \u2014 on the same night the memory complex was sold hard. I cannot verify the index and I am routing it anyway, because it is a candidate for the price series VULCAN's cluster has been missing.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260820-003-the-buyback-intervention-did-not-fail-because-it-has-not-started-9-sep-and-what-round-tripped-in-24h-is-an-announcement-effect-on-a-program-that-has-bought-nothing.md",
+          "heading": "# \ud83d\udd34 The intervention did not fail \u2014 **it has not started.** The buyback step-up is effective **9 September**; what round-tripped in 24 hours is an **announcement effect on a program that has bought nothing**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260901-002-russia-is-now-tolling-crude-through-kazakhstans-kondensat-refinery-because-ukraine-took-its-own-refining-down-a-0-3pct-fix-that-confirms-the-products-short.md",
+          "heading": "# \u26a0\ufe0f PRIORITY \u2014 Russia is tolling crude through Kazakhstan's Kondensat refinery because Ukraine took its own refining down \u2014 a ~0.3\u20130.5% fix that confirms the products short"
+        },
+        {
+          "path": "BOARD/SIG-W-20260901-010-ukraine-hit-ust-luga-again-fire-out-by-0930-msk-52-drones-downed-and-one-crossed-latvia-and-estonia-nato-scrambled-f-16s.md",
+          "heading": "# \u26a0\ufe0f PRIORITY \u2014 Ukraine hit Ust-Luga again: fire out by 09:30 MSK, 52 drones downed, one crossed Latvia and Estonia and NATO scrambled F-16s"
+        },
+        {
+          "path": "BOARD/SIG-W-20260910-010-96t-us-options-expire-918-largest-triple-witching-per-citadel-securities.md",
+          "heading": "# $9.6T US options set to expire 2026-09-18 \u2014 largest triple witching ever per Citadel Securities (Bull Theory X.com 9/8, secondhand)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260911-004-REGISTRATION-petroline-abqaiq-yanbu-reportedly-struck-1756Z-9-10-falcon-graded-tell-2-NOT-FIRED-pending-confirmation.md",
+          "heading": "# REGISTRATION \u2014 Petroline (Abqaiq\u2192Yanbu) reportedly struck ~17:56Z 9/10; FALCON graded **TELL #2 NOT FIRED \u2014 PENDING-CONFIRMATION**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260911-006-CONFIRMED-saudi-moe-shut-the-petroline-the-hormuz-bypass-is-down-while-hormuz-runs-at-7pct-of-baseline.md",
+          "heading": "# CONFIRMED at the Saudi state: the MoE SHUT the Petroline. The Hormuz bypass is down while Hormuz runs at ~7% of baseline."
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-002-reuters-3-sources-yanbu-has-5-7-days-of-export-stock-and-the-100-dollar-guard-in-our-own-corpus-has-inverted.md",
+          "heading": "# Reuters: Yanbu has 5\u20137 days of export stock \u2014 and the \"$100\" guard in our own corpus has inverted"
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-005-CORRECTION-the-intake-collector-is-not-dead-the-cron-is-weekdays-only-and-the-weekend-blind-spot-is-the-real-defect.md",
+          "heading": "# CORRECTION \u2014 the intake collector is not dead. The cron is weekdays-only, and the WEEKEND BLIND SPOT is the real defect"
+        },
+        {
+          "path": "BOARD/SIG-W-20260921-020-REVIEW-REQUEST-checklist-v047-separates-unsupported-from-false-and-needs-an-independent-read-with-its-own-counterexamples.md",
+          "heading": "# REVIEW REQUEST \u2014 CHECKLIST v0.47 separates UNSUPPORTED from FALSE, and it is not closed until someone tries to break it"
+        },
+        {
+          "path": "BOARD/SIG-W-20260930-007-radiant-world-now-faces-a-swiss-criminal-complaint-mariner-50m-jefferies-lam-trade-finance-fund-already-suing-for-500m-second-verified-jefferies-fund-fraud-exposure.md",
+          "heading": "# Radiant World now faces a Swiss criminal complaint (Mariner, $50M); Jefferies' trade-finance fund is already suing it for $500M+. The second verified fraud-exposure story for a Jefferies-managed fund (First Brands was the first; a claimed third, MFS, is unchecked)."
+        },
+        {
+          "path": "BOARD/SIG-W-20261002-010-ukraine-drones-hit-Lukoil-Volgograd-refinery-and-Transneft-Samara-hub-europes-largest-tank-farm-campaign-resumes-damage-not-established.md",
+          "heading": "# Ukrainian drones hit the Lukoil Volgograd refinery and Transneft's Samara hub (Europe's largest tank farm) overnight 10/02: refinery campaign resumes, damage not established"
+        },
+        {
+          "path": "BOARD/SIG-W-20261003-001-iran-saudi-oil-OSINT-riyadh-refinery-strike-iran-export-collapse-refiner-halts-UNVERIFIED-sources-not-preserved-FALCON-adjudicate-at-primary.md",
+          "heading": "# Iran/Saudi oil OSINT cluster \u2014 UNVERIFIED, sources not preserved \u2014 FALCON adjudicate at primary"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-049-fed-discount-window-9-965B-wed-10-07-highest-since-jan-2024-amex-350M-occ-aml-penalty-no-asset-cap-car-mart-sixth-lender-bridge-to-10-15-LIQUID-OTTO.md",
+          "heading": "# Fed discount-window borrowing hit $9.965B on Wed 10/7, the highest since at least January 2024; AmEx takes a $350M OCC money-laundering penalty with no asset cap; Car-Mart's lenders extend its bridge a sixth time, to 10/15"
+        }
+      ]
+    },
+    {
+      "item": 14,
+      "id": "2109365137211555961",
+      "author": "@jonbrooks",
+      "created_at": "2026-10-11T19:26:53.000Z",
+      "query": "private.credit.*default|40.50.*real.estate",
+      "hit_count": 17,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260420-005-nv-hoa-dysfunction-pattern-insurance-cre-chain.md",
+          "heading": "**3-week aggregate of Nevada HOA-dysfunction headlines indicates FL 2020-2022 pre-Surfside pattern signature.** Not any single story \u2014 the *density and diversity* of the coverage is the signal."
+        },
+        {
+          "path": "BOARD/SIG-W-20260429-004-meta-msft-q1-prints-amc-capex-advisory.md",
+          "heading": "WALTER autonomous news scan 2026-04-29 confirms via Yahoo Finance / 24/7 Wall St / Bloomberg-Barclays preview coverage:"
+        },
+        {
+          "path": "BOARD/SIG-W-20260509-003-blackrock-metcold-private-credit-default.md",
+          "heading": "# Signal \u2014 BlackRock / Metcold private-credit default"
+        },
+        {
+          "path": "BOARD/SIG-W-20260509-004-chapter-11-bankruptcy-filings-up-42.md",
+          "heading": "# Signal \u2014 U.S. Chapter 11 bankruptcy filings reportedly +42% YoY"
+        },
+        {
+          "path": "BOARD/SIG-W-20260511-041-wsj-private-credit-hot-streak-over-fed-cuts-defaults-broad-cluster-context.md",
+          "heading": "# WSJ \"Private Credit's Hot Streak Is Over\" \u2014 Fed Rate Cuts + Rising Defaults Compressing PC Returns (Broad-Cluster Echo)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260622-002-bain-euro-clo-2018-1-class-f-default-first-europe-ai-software-loan-channel.md",
+          "heading": "# Bain Capital Euro CLO 2018-1 DAC \u2014 Class F note \u2192 'D': first EUROPEAN CLO 2.0 rated-tranche default; AI-software-loan channel realizes"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-001-blackstone-north-dallas-75-west-apartments-90m-foreclosure-ares-lender.md",
+          "heading": "# Blackstone hit by foreclosure on a $90M loan \u2014 75 West Apartments, North Dallas TX (490 units; Ares 2022 lender) (CREED)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260709-013-private-credit-defaults-highest-in-history-hedgeye.md",
+          "heading": "# Private credit defaults \"hit the highest level in history\" (Hedgeye, 7/9)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-001-americas-car-mart-going-concern-still-unresolved-7-14-the-headline-is-5-weeks-stale-the-datum-is-2-days-old.md",
+          "heading": "# America's Car-Mart: going-concern doubt **reiterated 7/14**, rescue financing **still not secured** \u2014 and the credit losses are the *least* remarkable part"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-003-bdc-nav-discount-may-be-spread-structural-bdcs-price-off-the-ccc-leg-and-the-fleet-cannot-see-that-leg.md",
+          "heading": "# BDC NAV discounts may be **spread-structural**, not deterioration-driven \u2014 and the fleet cannot see the leg the argument turns on"
+        },
+        {
+          "path": "BOARD/SIG-W-20260723-003-americas-carmart-nears-shutdown-rescue-default-subprime-auto-canary.md",
+          "heading": "# America's Car-Mart (CRMT) near-demise: $300M Silver Point rescue DEFAULTED, 60 of 154 stores closed, going-concern doubt \u2014 deep-subprime auto lender collapse"
+        },
+        {
+          "path": "BOARD/SIG-W-20260727-019-americas-car-mart-defaults-on-silver-point-loan-weighing-winddown-equity-at-3-dollars.md",
+          "heading": "# \ud83d\udd34 **AMERICA'S CAR-MART HAS DEFAULTED ON A SILVER POINT LOAN** and is weighing a wind-down. **Inventory \u221252%, sales \u221227%, equity at $3.45.** This is `SIG-W-20260727-003`'s thesis arriving as an **ISSUER FAILURE** rather than a delinquency statistic \u2014 and it puts a **private-credit lender** on the other side of it."
+        },
+        {
+          "path": "BOARD/SIG-W-20260728-001-crmt-silver-point-correction-covenant-waiver-not-default-september-expiry.md",
+          "heading": "# \ud83d\udd27 **CORRECTION \u2014 \"AMERICA'S CAR-MART DEFAULTED ON A SILVER POINT LOAN\" OVERSTATES WHAT HAPPENED.** There is **no acceleration and no event of default**. It is a **waived-and-amended covenant breach under an active lender negotiation** \u2014 and that reframing hands us something the original signals did not have: **a hard, filed expiry date in EARLY SEPTEMBER 2026.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260910-017-blue-owl-owl-slashes-private-loan-loparex-near-zero-moodys-default-ch11-risk-bloomberg.md",
+          "heading": "# Blue Owl ($OWL) slashes private loan to Loparex to near-zero; Moody's deems Loparex in default (Bloomberg via Unicus, 9/5)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260915-009-fitch-august-private-credit-cohort-defaults-source-qualified.md",
+          "heading": "# Fitch tracked-cohort defaults reportedly 6.3% in August; verify the original release"
+        },
+        {
+          "path": "BOARD/SIG-W-20260929-016-pgim-anchors-a-clo-with-a-novel-15pct-cap-on-ai-related-debt-bloomberg-sources-say-a-lender-side-limit-on-ai-borrowers.md",
+          "heading": "# PGIM anchored a CLO with a novel 15% cap on AI-related debt (Bloomberg, sources say): a lender-side limit on AI borrowers"
+        },
+        {
+          "path": "BOARD/SIG-W-20260930-007-radiant-world-now-faces-a-swiss-criminal-complaint-mariner-50m-jefferies-lam-trade-finance-fund-already-suing-for-500m-second-verified-jefferies-fund-fraud-exposure.md",
+          "heading": "# Radiant World now faces a Swiss criminal complaint (Mariner, $50M); Jefferies' trade-finance fund is already suing it for $500M+. The second verified fraud-exposure story for a Jefferies-managed fund (First Brands was the first; a claimed third, MFS, is unchecked)."
+        }
+      ]
+    },
+    {
+      "item": 15,
+      "id": "2109671773868380436",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T15:45:21.000Z",
+      "query": "retail.control|1[.]22.*retail|August.*retail",
+      "hit_count": 3,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260817-002-german-ddr5-channel-prices-near-5x-the-july-2025-base-is-the-non-lta-passthrough-leg-vulcan-registered-and-has-no-instrument-for.md",
+          "heading": "# \ud83d\udfe1 **German DDR5 channel prices are running near 5\u00d7 their July-2025 base \u2014 that is the non-LTA pass-through leg VULCAN registered in `FL-VULCAN-09` and, by its own account, has no instrument for. Routed as a POINTER: the August number is a headline WALTER did not open.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20261001-013-us-average-electricity-price-0-196-per-kwh-aug-plus-3-2pct-yoy-record-0-198-in-june-bls-series-since-1978.md",
+          "heading": "# US average electricity price: $0.196/kWh in August, up 3.2% on the year, just under June's record $0.198."
+        },
+        {
+          "path": "BOARD/SIG-W-20261007-005-pink-sheet-published-phosphate-root-flat.md",
+          "heading": "# October Pink Sheet is available: September phosphate rock remains $170"
+        }
+      ]
+    },
+    {
+      "item": 16,
+      "id": "2109707851811660136",
+      "author": "@chigrl",
+      "created_at": "2026-10-12T18:08:43.000Z",
+      "query": "3.?2.?1.crack|321.crack|Nymex.*crack",
+      "hit_count": 9,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260505-012-brent-intraday-tape-divergence-vs-iran-cluster-confluence-may5.md",
+          "heading": "**Brent intraday 5/5 tape pulled back ~4% despite today's 5-vector IRAN_HORMUZ cluster confluence.** Cluster narrative intact on substance; market pricing scenario B (doctrine-without-sustained-kinetic) or D (status quo low-grade), NOT scenario A (full kinetic resumption). RED's \"risk-premium-already-priced\" counter being confirmed by tape."
+        },
+        {
+          "path": "BOARD/SIG-W-20260709-016-crack-spreads-highs-product-shortage-hfi.md",
+          "heading": "# Crack spreads at highs / imminent product shortage (HFI Research, 7/8)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-002-the-record-diesel-crack-is-real-and-is-already-2-84-off-it-and-the-gasoline-crack-collapsed-10-40-the-same-session.md",
+          "heading": "# \ud83d\udd34 **The record diesel crack is REAL \u2014 I re-derived it at $101.98 \u2014 and TWO things are wrong with how it is travelling: it has ALREADY given back $2.84, and the GASOLINE crack collapsed $10.40 in the same session. \"Energy pass-through\" is the wrong frame; this is distillate-specific.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260910-001-centcom-riesco-sank-five-hull-strike-brent-101-settle-104-intraday.md",
+          "heading": "# CENTCOM says M/T Riesco sank 9/8 after the five-hull strike; Brent settled $101.21 (+3.4%) 9/9 and BZX26 is $104.70 (+3.45%) intraday 9/10"
+        },
+        {
+          "path": "BOARD/SIG-W-20260910-020-us-diesel-futures-216-per-barrel-highest-in-history-1st-HO-continuous-bloomberg-rory-johnston.md",
+          "heading": "# US diesel futures busted 2022 record \u2014 Rory Johnston: 1st HO continuous at $216.26 all-time high 2026-09-10 [Bloomberg]"
+        },
+        {
+          "path": "BOARD/SIG-W-20260921-002-russia-is-extending-the-diesel-export-ban-it-said-in-july-it-would-lift-and-the-cause-is-the-refinery-campaign.md",
+          "heading": "# Russia is extending the diesel export ban it said in July it would lift \u2014 and the stated cause is the refinery campaign"
+        },
+        {
+          "path": "BOARD/SIG-W-20260924-001-boundary-8-brent-321-crack-above-50-on-matched-november-since-9-15-december-three-sessions-january-below.md",
+          "heading": "# Boundary #8 \u2014 the Brent 3:2:1 crack has sat above $50 on November contracts since 9/15; December for three sessions; January below"
+        },
+        {
+          "path": "BOARD/SIG-W-20260924-016-boundary-8-nov-crack-fell-below-50-on-9-24-near-settle-bars-heating-oil-led.md",
+          "heading": "# Update to -001: the November crack fell below $50 into today's settle"
+        },
+        {
+          "path": "BOARD/SIG-W-20261009-008-boundary-6-8-RULED-by-Will-8-nearest-common-named-month-3-official-settles-restart-at-switch-6-spike-50-kept-30-recross-retired-BRENT.md",
+          "heading": "# Boundary rows #6 and #8 ruled by Will (10/9): #8 = nearest common named-contract month, fires on 3 consecutive official settles above $50, count restarts at a month switch; #6 keeps its $50 spike trigger and retires the $30 re-cross"
+        }
+      ]
+    },
+    {
+      "item": 17,
+      "id": "2109714190009241618",
+      "author": "@JoseGeoJulian",
+      "created_at": "2026-10-12T18:33:54.000Z",
+      "query": "refiner.*(hold|withhold)|gasoline.*inventory",
+      "hit_count": 8,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260419-029-netherlands-national-oil-crisis-plan-phase-1.md",
+          "heading": "**Verify-research sub-agent findings (0.93 confidence, multi-source cross-check):**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260424-002-ofac-hengli-dalian-teapot-sanction-iran-oil.md",
+          "heading": "**US Treasury OFAC sanctions Hengli Petrochemical (Dalian) Refinery Co., Ltd.** for buying Iranian oil. Action announced today 2026-04-24 via OFAC press release SB-0472. Treasury Secretary Bessent quote: *\"Economic Fury is imposing a financial stranglehold on the Iranian regime... Treasury will continue to constrict the network of vessels, intermediaries, and buyers Iran relies on to move its oil to global markets.\"* General License V issued for wind-down."
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-012-ukraine-claims-116-vessels-in-the-azov-in-9-days-unverified-and-the-market-relevant-theater-is-the-black-sea.md",
+          "heading": "# Ukraine claims **116 Russian vessels hit in the Azov in nine days** \u2014 real claim, **unverified**, and the market-relevant theater is somewhere else"
+        },
+        {
+          "path": "BOARD/SIG-W-20260727-014-RECONCILIATION-spare-capacity-confirmed-kills-walter-base-rate-yanbu-intercepted-not-struck.md",
+          "heading": "# \ud83d\udd34 RECONCILIATION \u2014 we were each wrong once, and the one that matters kills WALTER's own base-rate work. **OPEC effective surplus capacity is 0.02 mb/d and Middle East is 0.00 \u2014 verified at the EIA primary. There is no buffer.** Separately: **YANBU WAS INTERCEPTED, NOT STRUCK**, and BRENT's own evidence says so."
+        },
+        {
+          "path": "BOARD/SIG-W-20260901-002-russia-is-now-tolling-crude-through-kazakhstans-kondensat-refinery-because-ukraine-took-its-own-refining-down-a-0-3pct-fix-that-confirms-the-products-short.md",
+          "heading": "# \u26a0\ufe0f PRIORITY \u2014 Russia is tolling crude through Kazakhstan's Kondensat refinery because Ukraine took its own refining down \u2014 a ~0.3\u20130.5% fix that confirms the products short"
+        },
+        {
+          "path": "BOARD/SIG-W-20260911-006-CONFIRMED-saudi-moe-shut-the-petroline-the-hormuz-bypass-is-down-while-hormuz-runs-at-7pct-of-baseline.md",
+          "heading": "# CONFIRMED at the Saudi state: the MoE SHUT the Petroline. The Hormuz bypass is down while Hormuz runs at ~7% of baseline."
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-002-reuters-3-sources-yanbu-has-5-7-days-of-export-stock-and-the-100-dollar-guard-in-our-own-corpus-has-inverted.md",
+          "heading": "# Reuters: Yanbu has 5\u20137 days of export stock \u2014 and the \"$100\" guard in our own corpus has inverted"
+        },
+        {
+          "path": "BOARD/SIG-W-20260921-002-russia-is-extending-the-diesel-export-ban-it-said-in-july-it-would-lift-and-the-cause-is-the-refinery-campaign.md",
+          "heading": "# Russia is extending the diesel export ban it said in July it would lift \u2014 and the stated cause is the refinery campaign"
+        }
+      ]
+    },
+    {
+      "item": 18,
+      "id": "2109732130947272876",
+      "author": "@business",
+      "created_at": "2026-10-12T19:45:11.000Z",
+      "query": "Uncle.Nearest|Fawn.Weaver",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 19,
+      "id": "2109698082317504826",
+      "author": "@ThierryBorgeat",
+      "created_at": "2026-10-12T17:29:53.000Z",
+      "query": "ThierryBorgeat|insane.chart",
+      "hit_count": 1,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260709-015-sp-single-stock-putcall-skew-record-low-complacency.md",
+          "heading": "# S&P single-stock put/call skew at lowest level ever recorded (0.71) \u2014 complacency extreme"
+        }
+      ]
+    },
+    {
+      "item": 20,
+      "id": "2108619740939772400",
+      "author": "@KarelMercx",
+      "created_at": "2026-10-09T18:04:57.000Z",
+      "query": "(Dated|physical).Brent|125[.]60",
+      "hit_count": 7,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260505-001-iea-sp-citi-crude-inventory-drawdown-205mmbbl-staunovo-ft.md",
+          "heading": "Aggregator (HFI/@staunovo) reposted FT article \"Global oil reserves plunge at record pace as Middle East war strains supplies.\" Headline numbers \u2014 ~200 MMbbl crude drawdown, 6.6 mn b/d, 5 mn b/d demand collapse, \"sharpest ever fall outside COVID-19,\" \"near 8-year low ahead of summer travel\" \u2014 verify-research confirms underlying story but corrects attribution and one magnitude."
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-004-irgc-hormuz-sovereign-corridor-warning-project-freedom-confrontation.md",
+          "heading": "**Iran's IRGC Navy issued today (Tuesday 5/5) a NEW broad-scope sovereign-corridor warning to ALL vessels transiting the Strait of Hormuz** \u2014 explicit response to yesterday's Project Freedom launch + 2 US-flagged ship transit + 6-Iranian-small-boat-loss engagement. Verified language (PressTV, near-verbatim): *\"the only safe route for passing through the Strait of Hormuz is the corridor previously announced by the Islamic Republic of Iran. Deviation of vessels to other routes is unsafe and will be met with decisive action by the IRGC Navy.\"*"
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-009-chevron-ceo-wirth-milken-bloomberg-physical-oil-shortages-1970s-eu-jet-fuel.md",
+          "heading": "**Chevron CEO Mike Wirth on Bloomberg TV at Milken Institute Global Conference (Monday 5/4):** physical oil-supply shortages starting to appear, EU jet fuel \"tightening very quickly,\" US price pass-through coming, framing analog **\"potentially as big as in the 1970s.\"**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-012-brent-intraday-tape-divergence-vs-iran-cluster-confluence-may5.md",
+          "heading": "**Brent intraday 5/5 tape pulled back ~4% despite today's 5-vector IRAN_HORMUZ cluster confluence.** Cluster narrative intact on substance; market pricing scenario B (doctrine-without-sustained-kinetic) or D (status quo low-grade), NOT scenario A (full kinetic resumption). RED's \"risk-premium-already-priced\" counter being confirmed by tape."
+        },
+        {
+          "path": "BOARD/SIG-W-20260702-011-no-brent-cargoes-august-benchmark-first.md",
+          "heading": "# No Brent crude cargoes set to load in August \u2014 \"a first for the benchmark\" (Staunovo/Reuters \u2192 BRENT)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260915-006-iata-jet-fuel-crack-basis-separated-from-ulsd.md",
+          "heading": "# IATA September 11 jet-fuel crack report provides a dated physical-price basis"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-028-tanker-cost-watch-bloomberg-VLCC-gulf-east-asia-record-1point4M-day-not-TD3C-USGC-china-76M-lump-sum-trafigura-USGC-japan-82M-BRENT.md",
+          "heading": "# Tanker-cost watch 10/8: a Bloomberg compilation puts the VLCC Gulf\u2192East Asia rate at a record ~$1.4M/day (NOT the Baltic TD3C basis); a US Gulf\u2192China VLCC was fixed at $76M lump sum; a US Gulf\u2192Japan offer is $82M"
+        }
+      ]
+    },
+    {
+      "item": 21,
+      "id": "2109708846063075628",
+      "author": "@KarelMercx",
+      "created_at": "2026-10-12T18:12:40.000Z",
+      "query": "(Dated|physical).Brent|134[.]14|125[.]74",
+      "hit_count": 7,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260505-001-iea-sp-citi-crude-inventory-drawdown-205mmbbl-staunovo-ft.md",
+          "heading": "Aggregator (HFI/@staunovo) reposted FT article \"Global oil reserves plunge at record pace as Middle East war strains supplies.\" Headline numbers \u2014 ~200 MMbbl crude drawdown, 6.6 mn b/d, 5 mn b/d demand collapse, \"sharpest ever fall outside COVID-19,\" \"near 8-year low ahead of summer travel\" \u2014 verify-research confirms underlying story but corrects attribution and one magnitude."
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-004-irgc-hormuz-sovereign-corridor-warning-project-freedom-confrontation.md",
+          "heading": "**Iran's IRGC Navy issued today (Tuesday 5/5) a NEW broad-scope sovereign-corridor warning to ALL vessels transiting the Strait of Hormuz** \u2014 explicit response to yesterday's Project Freedom launch + 2 US-flagged ship transit + 6-Iranian-small-boat-loss engagement. Verified language (PressTV, near-verbatim): *\"the only safe route for passing through the Strait of Hormuz is the corridor previously announced by the Islamic Republic of Iran. Deviation of vessels to other routes is unsafe and will be met with decisive action by the IRGC Navy.\"*"
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-009-chevron-ceo-wirth-milken-bloomberg-physical-oil-shortages-1970s-eu-jet-fuel.md",
+          "heading": "**Chevron CEO Mike Wirth on Bloomberg TV at Milken Institute Global Conference (Monday 5/4):** physical oil-supply shortages starting to appear, EU jet fuel \"tightening very quickly,\" US price pass-through coming, framing analog **\"potentially as big as in the 1970s.\"**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-012-brent-intraday-tape-divergence-vs-iran-cluster-confluence-may5.md",
+          "heading": "**Brent intraday 5/5 tape pulled back ~4% despite today's 5-vector IRAN_HORMUZ cluster confluence.** Cluster narrative intact on substance; market pricing scenario B (doctrine-without-sustained-kinetic) or D (status quo low-grade), NOT scenario A (full kinetic resumption). RED's \"risk-premium-already-priced\" counter being confirmed by tape."
+        },
+        {
+          "path": "BOARD/SIG-W-20260702-011-no-brent-cargoes-august-benchmark-first.md",
+          "heading": "# No Brent crude cargoes set to load in August \u2014 \"a first for the benchmark\" (Staunovo/Reuters \u2192 BRENT)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260915-006-iata-jet-fuel-crack-basis-separated-from-ulsd.md",
+          "heading": "# IATA September 11 jet-fuel crack report provides a dated physical-price basis"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-028-tanker-cost-watch-bloomberg-VLCC-gulf-east-asia-record-1point4M-day-not-TD3C-USGC-china-76M-lump-sum-trafigura-USGC-japan-82M-BRENT.md",
+          "heading": "# Tanker-cost watch 10/8: a Bloomberg compilation puts the VLCC Gulf\u2192East Asia rate at a record ~$1.4M/day (NOT the Baltic TD3C basis); a US Gulf\u2192China VLCC was fixed at $76M lump sum; a US Gulf\u2192Japan offer is $82M"
+        }
+      ]
+    },
+    {
+      "item": 22,
+      "id": "2109649603293532472",
+      "author": "@DeepDishEnjoyer",
+      "created_at": "2026-10-12T14:17:15.000Z",
+      "query": "\\bDRAM\\b|Anthropic.*IPO",
+      "hit_count": 27,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260428-002-openai-cfo-friar-revenue-user-target-miss-data-center-spending-wsj.md",
+          "heading": "WSJ Apr 27 2026 article \"OpenAI Falls Short of Revenue and User Targets\" reports:"
+        },
+        {
+          "path": "BOARD/SIG-W-20260604-006-rarest-market-setup-50yr-4-historic-risks-stacked-quality-orphaned.md",
+          "heading": "# \"Rarest Market Setup in 50 Years\" X-Thread \u2014 4 Historic Risks Stacked + Quality-Stocks-Orphaned Frame (Directional CONFIRMED; Numbers Consistently Loose)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260626-005-data-center-capex-muni-state-fiscal-risk.md",
+          "heading": "# Data-center capex \u2192 state/muni fiscal risk (NEW transmission angle; framing-stripped) (LIQUID)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-018-apple-seeks-us-approval-source-dram-china-cxmt-ai-memory-cost.md",
+          "heading": "# Apple seeks US approval to source DRAM from China's (blacklisted) CXMT \u2014 to ease AI-driven memory shortages + costs (HENRY)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-033-ai-infra-circular-vendor-financing-athene-insurer-leg-deep-research.md",
+          "heading": "# AI-infra circular/vendor financing + the Apollo\u2192Athene insurer leg \u2014 DEWEY deep-research deliverable (resolves SIG-008's Burry-Athene question)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260704-001-coreweave-junk-bonds-slide-ai-infra-credit-repricing.md",
+          "heading": "# CoreWeave junk bonds sliding further \"as investors question the AI boom\" \u2014 credit-side repricing of the AI-infra-leverage leg"
+        },
+        {
+          "path": "BOARD/SIG-W-20260723-008-sk-hynix-reports-729-not-723-vulcan04-calendar-correction-fabricated-print-trap.md",
+          "heading": "# SK hynix Q2 reports JULY 29, not 7/23 \u2014 VULCAN-04 does NOT resolve tonight. Do not grade. + a fabricated \"results\" post is circulating."
+        },
+        {
+          "path": "BOARD/SIG-W-20260731-002-memory-contract-3q26-decelerates-13-18pct-ltas-cap-hyperscalers-apple-passes-through.md",
+          "heading": "# \ud83e\udde0 THE MEMORY CYCLE IS STILL UP AND HAS STOPPED ACCELERATING \u2014 3Q26 server DRAM contract +13-18% QoQ against 2Q26's +58-63%, with TrendForce naming the cause as **CONSUMER demand weakening**, hyperscalers **shielded by long-term agreements**, and Apple **paying up and passing it to consumers on 14 products**. `VULCAN-02` stands (no roll). The STATUS characterization \"accelerating UP\" does not."
+        },
+        {
+          "path": "BOARD/SIG-W-20260731-010-the-lta-split-traded-friday-and-the-memory-seller-fell-too.md",
+          "heading": "# \ud83d\udd00 THE LTA SPLIT I DISPATCHED THREE HOURS AGO **TRADED ON FRIDAY** \u2014 hyperscalers up hard, the non-LTA buyer down 7.35%. **\ud83d\udd11 But the memory SELLER fell too (MU \u22125.90%), and that is the part worth your Tuesday.** Also: two figure corrections, one of them mine."
+        },
+        {
+          "path": "BOARD/SIG-W-20260807-003-nanya-10-7b-fab-5a-largest-taiwan-dram-investment-in-two-decades-and-zero-supply-inside-the-window.md",
+          "heading": "# \ud83c\udfed NANYA: **$10.7B / Fab 5A / 10nm-class with EUV** \u2014 and the two halves point opposite ways"
+        },
+        {
+          "path": "BOARD/SIG-W-20260809-013-apollo-torsten-slok-ai-capex-vs-housing-2005-cycle-builds-at-twice-the-housing-boom-pace.md",
+          "heading": "# Apollo (Torsten Slok) \u2014 hyperscaler capex is building at 0.85pp of GDP/year, TWICE the housing boom's fastest pace, and *\"can unwind at a similar pace\"*"
+        },
+        {
+          "path": "BOARD/SIG-W-20260810-001-iphone-18-pro-bom-plus-38pct-memory-share-10-to-34-to-40pct-non-lta-passthrough-quantified.md",
+          "heading": "# iPhone 18 Pro BOM +38% \u2014 the non-LTA pass-through VULCAN predicted is now QUANTIFIED, and memory goes 10% \u2192 34% \u2192 40%+ of a phone's component cost"
+        },
+        {
+          "path": "BOARD/SIG-W-20260812-008-micron-keybanc-supplies-under-half-of-datacenter-demand-and-ltas-to-2030-may-reach-half-of-revenue.md",
+          "heading": "# \ud83d\udfe0 Micron says it supplies **under half** of data-centre DRAM demand, customers are **price-insensitive**, and LTAs running to **2030+** may reach **~half of revenue** \u2014 the fraction half of your open question asked for. **The vintage half is still unanswered.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260817-002-german-ddr5-channel-prices-near-5x-the-july-2025-base-is-the-non-lta-passthrough-leg-vulcan-registered-and-has-no-instrument-for.md",
+          "heading": "# \ud83d\udfe1 **German DDR5 channel prices are running near 5\u00d7 their July-2025 base \u2014 that is the non-LTA pass-through leg VULCAN registered in `FL-VULCAN-09` and, by its own account, has no instrument for. Routed as a POINTER: the August number is a headline WALTER did not open.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-001-kospi-halted-limit-down-on-a-us-memory-selloff-and-hang-seng-is-flat-which-makes-this-a-semis-event-not-an-asia-event.md",
+          "heading": "# \ud83d\udd34 **KOSPI \u22125.4% and halted on a US memory selloff \u2014 but the HANG SENG IS FLAT (\u22120.04%). That single fact converts this from \"Asia contagion\" into \"a semiconductor event that happens to be priced in Seoul and Taipei.\"**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-005-ai-token-prices-reportedly-halved-in-two-months-on-the-same-night-the-memory-complex-was-sold-and-i-cannot-reach-the-index.md",
+          "heading": "# \ud83d\udfe1 **A claimed \u221250% collapse in AI token prices over two months \u2014 on the same night the memory complex was sold hard. I cannot verify the index and I am routing it anyway, because it is a candidate for the price series VULCAN's cluster has been missing.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-017-the-wires-blamed-the-asia-rout-on-the-30y-the-30y-reversed-8bp-today-and-semis-fell-another-3-percent-anyway.md",
+          "heading": "# \ud83d\udd34 **The wires blamed the Asia rout on the 30-year yield. The 30-year reversed 8bp this morning and semis fell another 2.9% anyway. The attributed cause reversed; the effect did not.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260826-002-micron-splits-the-presidency-bhatia-coo-deboer-ctpo-and-cbo-sadana-steps-back-to-senior-advisor.md",
+          "heading": "# Micron splits the presidency: Bhatia \u2192 President & COO, DeBoer \u2192 President & CTPO \u2014 and CBO Sumit Sadana steps back to Senior Advisor"
+        },
+        {
+          "path": "BOARD/SIG-W-20260826-003-memory-complex-watch-batch-dram-12x-in-3y-memory-68pct-of-cloud-capex-claim-openai-inference-chip-samsung-hbm4.md",
+          "heading": "# Memory-complex watch batch \u2014 7 same-day TrendForce-keyword hits, combined"
+        },
+        {
+          "path": "BOARD/SIG-W-20260904-001-the-procurement-of-memory-quote-in-sig-0828-045-is-in-no-nvda-primary-the-10-q-says-memory-AND-manufacturing-facilities-and-the-memory-share-is-undisclosed.md",
+          "heading": "# The \"procurement of memory\" quote in `SIG-W-20260828-045` is in no NVDA primary. The 10-Q says \"memory AND manufacturing facilities,\" and the memory share is undisclosed."
+        },
+        {
+          "path": "BOARD/SIG-W-20260906-002-hbm3e-spot-is-4-to-7x-the-contract-price-and-samsung-has-locked-70pct-of-capacity-to-ltas-through-2031.md",
+          "heading": "# HBM3E spot is 4\u20137\u00d7 the contract price, and Samsung has reportedly locked ~70% of capacity to LTAs through 2031"
+        },
+        {
+          "path": "BOARD/SIG-W-20260908-003-memory-research-revenue-not-price-smartphone-pull-forward.md",
+          "heading": "# DRAM 59.5% is revenue growth; smartphone forecast improves through pull-forward"
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-026-memory-and-foundry-cost-inputs-move-together-nor-flash-90-110pct-dram-nand-pressure-and-a-tsmc-capacity-step-up.md",
+          "heading": "# Memory cost inputs and foundry capacity move together \u2014 NOR Flash +90\u2013110%, DRAM/NAND BOM pressure, TSMC 2nm/3nm step-up [TrendForce family, 9/14]"
+        },
+        {
+          "path": "BOARD/SIG-W-20261004-009-micron-q4-fy26-record-ai-memory-supercycle-54B-rev-fq1-27-guide-61-5B-VULCAN-has-it-ARCHIVE.md",
+          "heading": "# Micron Q4 FY26 \u2014 record AI-memory super-cycle; FQ1-27 guided $61.5B; **VULCAN already has it** \u2192 BOARD archive record"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-006-ai-infra-week-anthropic-ipo-filing-125B-TPU-lease-42B-broadcom-convertible-60B-blackstone-syndicate-ares-573B-loop-finland-google-halt-stargate-wi-grid-2029-samsung-prelim-today-VULCAN-BROCK.md",
+          "heading": "# AI-infrastructure week: Anthropic filing shows a $125.2B TPU lease part-financed by up to $42B Broadcom convertible notes; ~$60B Broadcom/Blackstone syndicate; Ares tallies $573B of circular AI financing; two buildout setbacks; Samsung Q3 prelim due today"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-024-AI-infra-financing-WSJ-broadcom-50B-is-OPENAI-chip-separate-from-60B-anthropic-oracle-off-balance-sheet-chip-lease-SPV-spacex-40B-not-30yr-ABS-firmus-IPO-struggles-APLD-VULCAN-BROCK.md",
+          "heading": "# AI-infra financing 10/8: the WSJ's \"Broadcom seeks >$50B\" is for **OpenAI's** chip and is a different deal from the ~$60B Anthropic-linked package; Oracle is talking to Apollo and Goldman about an off-balance-sheet chip-lease vehicle; SpaceX's ~$40B is loans plus investment-grade debt (the \"30-year ABS\" is not established); an AI data-centre IPO is struggling"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-045-RESOLVED-006-holds-broadcom-up-to-42B-convertible-notes-for-anthropic-tpu-lease-separate-from-60B-bank-package-42B-senior-tranche-no-source-links-them.md",
+          "heading": "# Resolved: `-006` holds. Broadcom agreed to lend Anthropic up to $42B in convertible notes for its TPU lease. That facility is separate from the $42B senior tranche of the reported $60B bank package, and no source links the two."
+        }
+      ]
+    },
+    {
+      "item": 23,
+      "id": "2109727104434655474",
+      "author": "@business",
+      "created_at": "2026-10-12T19:25:13.000Z",
+      "query": "mortgage.*7[.]|pending.home.sales",
+      "hit_count": 20,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260428-003-louisville-kentucky-home-life-building-15m-to-467m-credit-bid-cre.md",
+          "heading": "Louisville Courier Journal via @FCNightingale (Nightingale Associates verified):"
+        },
+        {
+          "path": "BOARD/SIG-W-20260511-027-morgan-stanley-bci-19-73-pct-of-loans-316bps-qoq-highest-concentration-big-bank-tier.md",
+          "heading": "# Morgan Stanley Bank NA \u2014 BCI (Business Credit Intermediaries) at 19.73% of Total Loans; +316bps QoQ Growth = Highest BCI Concentration Ratio in Big-Bank Tier"
+        },
+        {
+          "path": "BOARD/SIG-W-20260622-001-fl-bank-loss-transmission-timing-deep-research.md",
+          "heading": "# South Florida \u2192 FL-bank loss-transmission: TIMING & leading-indicator set (CORAL thread, deepens SIG-008)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-023-cre-mortgage-debt-tops-5t-mba-q1-cmbs-shrinks-9-6b-vs-banks-agency-grow-financing-bifurcation.md",
+          "heading": "# Commercial mortgage debt tops $5T (MBA Q1-26) \u2014 but CMBS SHRINKS \u2212$9.6B while banks/agency grow = the financing-side bifurcation (CREED)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-030-uninsured-flood-homes-growing-mortgage-credit-risk-nmn-moodys-rms.md",
+          "heading": "# Uninsured flood-exposed homes = a growing, FL-heaviest mortgage-credit-risk channel \u2014 climate flood-map expansion meets the NFIP take-up gap (CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-031-mortgage-delinquencies-rose-may-mom-yoy-ice-dont-panic-nmn.md",
+          "heading": "# Mortgage delinquencies rose in May \u2014 MoM AND YoY \u2014 with an industry \"don't panic\" framing (CARL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-032-draft-bill-gses-buy-securitize-construction-loans-housing-supply-nmn.md",
+          "heading": "# DRAFT bill: GSEs to buy + securitize homebuilder construction loans to boost supply (CARL) \u2014 early-stage policy watch"
+        },
+        {
+          "path": "BOARD/SIG-W-20260628-002-housing-distress-inflection-deep-research.md",
+          "heading": "# US residential housing distress \u2014 inflecting or normalizing? (DEWEY deep-research; resolves the NMN-foreclosure pointer cluster)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260702-006-ice-negative-equity-by-vintage-cape-coral-refresh.md",
+          "heading": "# ICE negative-equity by vintage (through May 2026) \u2014 Cape Coral 11.1% / 2024-vintage 35.4%, refreshes CORAL + adds TX (\u2192 CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260716-001-bank-private-credit-exposure-direct-channel-2bp-indirect-is-the-mechanism.md",
+          "heading": "# Bank exposure to private-credit vehicles \u2014 the DIRECT channel is ~2bp of GSIB CET1; if Stage-3 fires the mechanism is INDIRECT (DEWEY deep-research)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-006-pending-home-sales-june-minus-5-4pct-vs-minus-0-5pct-expected-all-four-regions-fell.md",
+          "heading": "# Pending home sales **\u22125.4% MoM** in June vs **\u22120.5%** expected \u2014 a 4.9pp miss, and **all four regions fell**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260724-001-fha-va-credit-loss-is-federally-absorbed-the-drain-is-nonbank-servicer-liquidity.md",
+          "heading": "# FHA/VA credit loss is FEDERALLY ABSORBED \u2014 kill the bank-LGD channel; the surviving transmission is a servicing-advance LIQUIDITY drain on NONBANK Ginnie servicers"
+        },
+        {
+          "path": "BOARD/SIG-W-20260725-009-mortgage-rate-exactly-flat-yoy-681-plus-the-vacation-market-foreclosure-list.md",
+          "heading": "# The 30-year mortgage is EXACTLY where it was a year ago \u2014 6.81% vs 6.81% \u2014 and a spread that still hasn't normalized"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-013-pending-home-sales-are-at-the-covid-lockdown-trough-and-two-different-30y-mortgage-rates-are-circulating-10bp-apart.md",
+          "heading": "# \ud83d\udfe0 **Pending home sales appear to be sitting AT the April-2020 lockdown trough \u2014 and separately, two different \"30-year mortgage rates\" are in circulation 10bp apart. The second one I can prove; the first one I cannot, and it is the one people will repeat.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260822-004-mortgage-demand-worse-than-the-GFC-is-FALSE-and-it-is-the-THIRD-housing-superlative-with-a-true-level-and-a-false-referent-in-24h.md",
+          "heading": "# \ud83d\udfe0 **\"Mortgage demand is now WORSE than the Great Financial Crisis\" \u2014 FALSE as stated. And it is the THIRD housing superlative in 24 hours built the same way: a genuinely weak LEVEL welded to a FALSE REFERENT.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260921-005-the-multifamily-cmbs-71pct-in-circulation-today-is-a-stale-vintage-trepp-august-is-769pct.md",
+          "heading": "# The multifamily CMBS \"7.1%\" in circulation today is a stale vintage \u2014 Trepp's August is 7.69%"
+        },
+        {
+          "path": "BOARD/SIG-W-20260924-020-freddie-pmms-30y-7-03pct-crosses-homer-7-0-red-band-first-7pct-print-since-jan-2025.md",
+          "heading": "# Freddie Mac's 30-year mortgage rate is 7.03%, above HOMER's 7.0% red band"
+        },
+        {
+          "path": "BOARD/SIG-W-20261001-025-freddie-pmms-30y-7-28pct-plus-25bp-largest-weekly-rise-since-oct-2022-homer-preregistered-hold.md",
+          "heading": "# Freddie Mac's 30-year mortgage rate is 7.28%, up 25bp in a week, the biggest jump since October 2022"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-026-housing-UWM-drops-own-credit-score-overlay-on-agency-loans-MBA-purchase-index-145-lowest-since-1995-NOT-established-30y-contract-7point49-HOMER.md",
+          "heading": "# Housing 10/8: UWM, the largest wholesale mortgage lender, dropped its own minimum credit scores on agency loans; MBA purchase applications fell again with the 30-year contract rate at a ~3-year high (7.49%) \u2014 but \"lowest since 1995\" is not established"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-030-rates-fed-credit-waller-anticipates-additional-hikes-HY-309-near-trigger-320-CCC-1229-30Y-auction-13ET-6B-buyback-PMMS-7point40-big-banks-drawdown-LIQUID-BOND-HENRY.md",
+          "heading": "# Rates, Fed and credit 10/8: Waller \"anticipates additional hikes\"; high-yield spreads moved to within 3.4% of the 320bp line (NEAR-TRIGGER, not a fire); CCC spreads 1,229bp; the 30-year auction and a $6B long-end buyback are this afternoon; mortgage rates 7.40%; the big banks are 10\u201323% off their highs"
+        }
+      ]
+    },
+    {
+      "item": 24,
+      "id": "2109678138716295181",
+      "author": "@m3_melody",
+      "created_at": "2026-10-12T16:10:38.000Z",
+      "query": "Redfin|8[.]62.*pending",
+      "hit_count": 11,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260414-012-kre-relative-outperformance-vs-xlf-counter.md",
+          "heading": "Seeking Alpha KRE piece (Mar 28 2026) contains three data points that function as counter-evidence to our regional-bank-cracking thesis:"
+        },
+        {
+          "path": "BOARD/SIG-W-20260511-042-redfin-feb-2026-home-sellers-630k-largest-gap-13yr-series-sunbelt-concentration.md",
+          "heading": "# Redfin: 629,808 More US Home Sellers Than Buyers (Feb 2026) \u2014 Largest Gap in 13-Year Series; Mechanism = Voluntary Supply Normalization Not Forced-Sale; Sunbelt-Heavy"
+        },
+        {
+          "path": "BOARD/SIG-W-20260521-029-us-housing-starts-april-2-8-mom-single-family-9-0-most-in-year-30y-fmm-6-51-multi-week-high.md",
+          "heading": "# US Housing Starts April 2026 \u22122.8% MoM (SAAR 1.465M) \u2014 Single-Family \u22129.0% MoM Headline Driver; 30Y FRM 6.51% Multi-Week High; Rate-Channel Pressure Confirmed"
+        },
+        {
+          "path": "BOARD/SIG-W-20260619-002-fl-negative-equity-by-vintage-2024-buyers-1-in-5-underwater-sw-fl-parcl-lewris.md",
+          "heading": "# Florida negative equity by vintage: ~1 in 5 of 2024 financed purchases underwater; SW-FL concentrated"
+        },
+        {
+          "path": "BOARD/SIG-W-20260621-013-builder-inventory-2x-existing-9p08mo-near-2008-reventure-national-supply-overhang.md",
+          "heading": "# US housing supply split: builders carry ~2\u00d7 existing-seller inventory \u2014 9.08 mo (near 2008 levels) vs 4.14 mo (normalized)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260622-001-fl-bank-loss-transmission-timing-deep-research.md",
+          "heading": "# South Florida \u2192 FL-bank loss-transmission: TIMING & leading-indicator set (CORAL thread, deepens SIG-008)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260728-012-parcl-vacation-town-listing-rates-3x-national-key-west-3-1pct.md",
+          "heading": "# \ud83c\udfe0 Parcl (7/28): vacation towns are listing at ~3\u00d7 the national rate \u2014 **Sevierville TN 3.8% \u00b7 Branson MO 3.8% \u00b7 KEY WEST FL 3.1% vs 1.23% nationwide** \u2014 with **39.8% of active listings nationally carrying price cuts** (1,629,187 active)."
+        },
+        {
+          "path": "BOARD/SIG-W-20260823-001-zillow-july-rent-the-concession-spread-is-COMPRESSING-not-widening-and-the-fastest-in-a-year-headline-sits-on-a-falling-level.md",
+          "heading": "# Zillow July rent: the concession spread is COMPRESSING, not widening \u2014 and \"fastest in over a year\" sits on a level that fell"
+        },
+        {
+          "path": "BOARD/SIG-W-20260921-006-redfin-has-158-sellers-per-buyer-with-buyers-at-a-series-low-and-it-is-a-modelled-estimate-not-a-count.md",
+          "heading": "# Redfin shows ~1.58 sellers per buyer with buyers at a series low \u2014 and it is a modelled estimate, not a count"
+        },
+        {
+          "path": "BOARD/SIG-W-20260928-014-redfin-august-miami-138pct-more-sellers-than-buyers-2nd-nationally-orlando-4th-strongest-buyers-market-on-record.md",
+          "heading": "# Redfin (August): Miami has 138% more sellers than buyers, 2nd nationally; Orlando is 4th in what Redfin calls the strongest buyer's market on record"
+        },
+        {
+          "path": "BOARD/SIG-W-20260929-013-will-directed-lead-fort-lauderdale-apartments-anecdote-high-asking-rents-visible-vacancy-one-new-building-75pct-vacant-check-against-data.md",
+          "heading": "# Will-directed lead: a Fort Lauderdale apartments anecdote (visible vacancy, high asking rents, one new building ~75% vacant). Check it against data"
+        }
+      ]
+    },
+    {
+      "item": 25,
+      "id": "2109689976791158974",
+      "author": "@TreasuryBonds1",
+      "created_at": "2026-10-12T16:57:41.000Z",
+      "query": "home.price.*33|mortgage.rate.*trip",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 26,
+      "id": "2109720003570454615",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T18:57:00.000Z",
+      "query": "5090|GeForce|Nvidia.*production",
+      "hit_count": 4,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260505-010-blackbox-april-restaurants-discretionary-pullback-2nd-decline-3mo.md",
+          "heading": "**Black Box Intelligence April 2026 restaurant industry print: same-store sales \u22120.4%, traffic \u22123.5% \u2014 2nd decline in 3 months.** Restaurant traffic = canonical real-time proxy for discretionary-income deployment / consumer-health under stagflation pressure."
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-033-ai-infra-circular-vendor-financing-athene-insurer-leg-deep-research.md",
+          "heading": "# AI-infra circular/vendor financing + the Apollo\u2192Athene insurer leg \u2014 DEWEY deep-research deliverable (resolves SIG-008's Burry-Athene question)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260717-017-compute-futures-are-real-cme-and-ice-both-launching-and-the-fleet-never-saw-it-vulcan-was-born-after.md",
+          "heading": "# Compute futures are **real** \u2014 CME *and* ICE are both launching them. **Nobody in the fleet has ever seen this.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260723-008-sk-hynix-reports-729-not-723-vulcan04-calendar-correction-fabricated-print-trap.md",
+          "heading": "# SK hynix Q2 reports JULY 29, not 7/23 \u2014 VULCAN-04 does NOT resolve tonight. Do not grade. + a fabricated \"results\" post is circulating."
+        }
+      ]
+    },
+    {
+      "item": 27,
+      "id": "2109631994208686164",
+      "author": "@KobeissiLetter",
+      "created_at": "2026-10-12T13:07:17.000Z",
+      "query": "Chipotle|Starbucks",
+      "hit_count": 2,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260508-005-q1-transcript-scrape-15-ceo-iran-middle-east-consumer-stretch-cross-sector-confluence.md",
+          "heading": "**Q1 2026 earnings calls are running consensus Iran/Middle-East-conflict-tied consumer-stretch framing. WALTER 5-sub-agent scrape across 41 consumer-facing public companies finds 15 IRAN_EXPLICIT/BOTH CEO/CFO statements across 5 sectors (CPG / Restaurants / Durables / Homebuilders / Travel-Leisure). The original 3-CEO cluster (KHC + WHR + MCD) was visible TIP of consensus framing \u2014 pattern is now thesis-defining for CARL Path C with explicit income-tier stratification.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260727-013-july-hike-is-the-live-risk-not-september-odds-tripled-to-35pct-and-the-oil-collapse-postdates-the-data.md",
+          "heading": "# \ud83d\udd34 RE-POINT: the board carries **SEPTEMBER** as the live hike risk. **The live risk is THIS WEDNESDAY.** July-hike odds went **10.7% (7/15) \u2192 34.7% (7/22) \u2014 a TRIPLING in a week** \u2014 into *\"one of the least-telegraphed Fed decisions in years\"* after Warsh **removed forward guidance.** \ud83d\udd11 **And the probability data is STALE in a specific, decision-relevant way: it all pre-dates the ~11% two-session collapse in crude that gutted the hawkish case's main input.**"
+        }
+      ]
+    },
+    {
+      "item": 28,
+      "id": "2109721775512920161",
+      "author": "@ParclLabs",
+      "created_at": "2026-10-12T19:04:02.000Z",
+      "query": "Parcl|price.cut.*Midwest|Midwest.*price.cut",
+      "hit_count": 8,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260619-002-fl-negative-equity-by-vintage-2024-buyers-1-in-5-underwater-sw-fl-parcl-lewris.md",
+          "heading": "# Florida negative equity by vintage: ~1 in 5 of 2024 financed purchases underwater; SW-FL concentrated"
+        },
+        {
+          "path": "BOARD/SIG-W-20260626-004-parcl-motivated-seller-index-builder-price-cuts.md",
+          "heading": "# Parcl Motivated-Seller-Index: builders cutting prices hard, FL/TX leading (CARL + CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260626-011-housing-glut-newhome-supply-10-3mo-az-fl-price-cuts.md",
+          "heading": "# Housing glut deepening: new-home supply 10.3 months (2008-tied) + AZ/FL ~50% of listings cutting prices (CARL + CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260626-014-kb-home-fq2-net-income-minus75pct-margin-collapse.md",
+          "heading": "# KB Home FQ2 (ended May 31): net income \u221275%, homebuilding operating margin 8.6%\u21922.5% (CARL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-003-parcl-florida-fire-sale-map-12pct-statewide-tampa-fort-myers-30pct.md",
+          "heading": "# Parcl \"Florida Fire-Sale Map\" \u2014 12% of FL for-sale homes in active fire-sale territory; Tampa + Fort Myers 30%+ in some submarkets (CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260702-006-ice-negative-equity-by-vintage-cape-coral-refresh.md",
+          "heading": "# ICE negative-equity by vintage (through May 2026) \u2014 Cape Coral 11.1% / 2024-vintage 35.4%, refreshes CORAL + adds TX (\u2192 CORAL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260723-006-dr-horton-q3-unsold-completed-7600-margin-over-volume-600-aged-6mo.md",
+          "heading": "# D.R. Horton fiscal Q3 2026: margin-over-volume confirmed \u2014 7,600 completed unsold homes (600 aged >6 months), inventory building back up"
+        },
+        {
+          "path": "BOARD/SIG-W-20260728-012-parcl-vacation-town-listing-rates-3x-national-key-west-3-1pct.md",
+          "heading": "# \ud83c\udfe0 Parcl (7/28): vacation towns are listing at ~3\u00d7 the national rate \u2014 **Sevierville TN 3.8% \u00b7 Branson MO 3.8% \u00b7 KEY WEST FL 3.1% vs 1.23% nationwide** \u2014 with **39.8% of active listings nationally carrying price cuts** (1,629,187 active)."
+        }
+      ]
+    },
+    {
+      "item": 29,
+      "id": "2109710188911706402",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T18:18:00.000Z",
+      "query": "Hock.Tan|casino|Broadcom.*investor",
+      "hit_count": 1,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260420-005-nv-hoa-dysfunction-pattern-insurance-cre-chain.md",
+          "heading": "**3-week aggregate of Nevada HOA-dysfunction headlines indicates FL 2020-2022 pre-Surfside pattern signature.** Not any single story \u2014 the *density and diversity* of the coverage is the signal."
+        }
+      ]
+    },
+    {
+      "item": 30,
+      "id": "2109722352107810965",
+      "author": "@HudsonInstitute",
+      "created_at": "2026-10-12T19:06:20.000Z",
+      "query": "Dodd.Frank|bank.formation|new.banks",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 31,
+      "id": "2109720918666694881",
+      "author": "@Reuters",
+      "created_at": "2026-10-12T19:00:38.000Z",
+      "query": "Germany.*shadow.war|Dobrindt|Cold.War.*Germany",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 32,
+      "id": "2109705728046883205",
+      "author": "@washingtonpost",
+      "created_at": "2026-10-12T18:00:16.000Z",
+      "query": "mortgage.*7[.]4|30.year.*7[.]4",
+      "hit_count": 2,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20261008-026-housing-UWM-drops-own-credit-score-overlay-on-agency-loans-MBA-purchase-index-145-lowest-since-1995-NOT-established-30y-contract-7point49-HOMER.md",
+          "heading": "# Housing 10/8: UWM, the largest wholesale mortgage lender, dropped its own minimum credit scores on agency loans; MBA purchase applications fell again with the 30-year contract rate at a ~3-year high (7.49%) \u2014 but \"lowest since 1995\" is not established"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-030-rates-fed-credit-waller-anticipates-additional-hikes-HY-309-near-trigger-320-CCC-1229-30Y-auction-13ET-6B-buyback-PMMS-7point40-big-banks-drawdown-LIQUID-BOND-HENRY.md",
+          "heading": "# Rates, Fed and credit 10/8: Waller \"anticipates additional hikes\"; high-yield spreads moved to within 3.4% of the 320bp line (NEAR-TRIGGER, not a fire); CCC spreads 1,229bp; the 30-year auction and a $6B long-end buyback are this afternoon; mortgage rates 7.40%; the big banks are 10\u201323% off their highs"
+        }
+      ]
+    },
+    {
+      "item": 33,
+      "id": "2109708749044887703",
+      "author": "@HormuzLetter",
+      "created_at": "2026-10-12T18:12:16.000Z",
+      "query": "(undersea|submarine|subsea|internet).cable|FALCON.*cable|sovereignty.fee",
+      "hit_count": 3,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260509-011-iran-hormuz-undersea-cable-risk.md",
+          "heading": "# Signal \u2014 Iran / Hormuz undersea cable control risk"
+        },
+        {
+          "path": "BOARD/SIG-W-20260509-014-oil-products-inventory-draw-hormuz-closure-claim.md",
+          "heading": "# Signal \u2014 Refined product draw + world oil inventory stress + Hormuz traffic halt claim"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-008-a-wsj-sourced-irgc-war-planning-report-relayed-by-an-account-that-misquoted-its-own-chart-six-hours-ago-and-the-cable-leg-is-a-lane-nobody-owns.md",
+          "heading": "# \ud83d\udfe1 **A WSJ-sourced IRGC war-planning report \u2014 relayed by the same account that misquoted its own chart six hours earlier. Routed as a POINTER to a primary worth opening, at 0.40, with the credibility problem stated up front.**"
+        }
+      ]
+    },
+    {
+      "item": 34,
+      "id": "2109694817638953062",
+      "author": "@SteveRattner",
+      "created_at": "2026-10-12T17:16:55.000Z",
+      "query": "2,?000.*household|Zandi|Costs.of.War",
+      "hit_count": 1,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260802-002-mbs-call-motive-refined-treasury-dump-rumor-is-2016-shaped-and-unsized.md",
+          "heading": "# \ud83d\udfe0 The viral Hanke/Nawfal \"MBS threatened to DUMP Treasuries\" clip decomposes into one REAL refinement and one UNWIRED rumor whose shape is a DECADE-old recirculation \u2014 and the sizing kills the solo mechanism either way"
+        }
+      ]
+    },
+    {
+      "item": 35,
+      "id": "2109559468308533419",
+      "author": "@MarhelmData",
+      "created_at": "2026-10-12T08:19:05.000Z",
+      "query": "China.*(stock|inventor).*1[.]9|1[.]9.*China|September.*crude.stock",
+      "hit_count": 1,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20261001-003-UPDATE-0930-005-plume-origin-45km-west-of-abqaiq-ghawar-ain-dar-area-attack-NOT-established-bu-hasa-fire-claim-indeterminate.md",
+          "heading": "# Update to `-0930-005`: the 9/30 smoke is ~45 km WEST of Abqaiq, in the Ghawar/Ain Dar oil-field area. Still no official confirmation of any attack. If it is a production site, it is the class FAL-01 watches. Not fired."
+        }
+      ]
+    },
+    {
+      "item": 36,
+      "id": "2109644876551758084",
+      "author": "@KobeissiLetter",
+      "created_at": "2026-10-12T13:58:28.000Z",
+      "query": "energy.facilit.*6|third.*(tanker|supertanker)|107.*Brent",
+      "hit_count": 11,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260420-001-tuapse-refinery-black-sea-port-2nd-strike.md",
+          "heading": "**Ukrainian drone/missile strike on Tuapse refinery and Black Sea port, reported second strike in four days.** Rosneft-owned refining complex plus oil-export terminal. Video evidence from both Visegr\u00e1d 24 (daytime smoke plume) and BRICS News (night-time fires at refinery). 37K views on BRICS post, 10:34 PM post time Apr 19."
+        },
+        {
+          "path": "BOARD/SIG-W-20260511-001-mt-hasna-3rd-iranian-tanker-disabled-centcom-blockade-enforcement-5-6.md",
+          "heading": "# M/T Hasna \u2014 Third Iranian Tanker Disabled by US Naval Force 5/6 (Pre-Project-Freedom-Pause)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260901-005-second-us-strike-wave-on-iran-at-noon-et-makes-it-a-campaign-two-vlccs-hit-by-projectiles-off-khasab-and-the-irgc-mine-claim-is-false-gate-2-does-not-fire.md",
+          "heading": "# \ud83d\udd34 IMMEDIATE \u2014 A second US strike wave on Iran at noon ET makes it a campaign; two VLCCs were hit by projectiles off Khasab; **the IRGC mine claim is FALSE and GATE 2 does not fire**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-009-sentinel-2-confirms-6-tanks-destroyed-at-aramcos-abha-bulk-plant-NOT-all-of-them-and-a-bulk-plant-is-not-FAL-01.md",
+          "heading": "# Sentinel-2 confirms six tanks destroyed at Aramco's Abha bulk plant \u2014 not all of them \u2014 and a bulk plant is not FAL-01"
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-025-goldman-turns-bullish-gasoline-on-russian-refinery-outages-a-supply-channel-this-board-carries-nothing-on.md",
+          "heading": "# Goldman turns bullish gasoline on RUSSIAN refinery outages \u2014 a supply channel this board carries nothing on [Quantum Commodity Intelligence 9/14]"
+        },
+        {
+          "path": "BOARD/SIG-W-20260924-002-petroline-restart-reported-9-22-on-unnamed-sources-mediated-us-iran-talks-9-22-iran-threatens-indian-ocean-9-24.md",
+          "heading": "# Petroline restart reported 9/22 on unnamed sources \u00b7 US\u2013Iran talks 9/22 were mediated \u00b7 Iran threatens the Indian Ocean 9/24"
+        },
+        {
+          "path": "BOARD/SIG-W-20261001-033-ukmto-147-26-tanker-struck-by-unknown-projectile-in-hormuz-1750z-10-01-fire-crew-safe-yanbu-terminal-fire-video-UNVERIFIED.md",
+          "heading": "# UKMTO 147-26: a tanker hit by an unknown projectile in Hormuz at 17:50 UTC, fire, crew safe. Plus an UNVERIFIED Yanbu terminal-fire video"
+        },
+        {
+          "path": "BOARD/SIG-W-20261003-003-x-bookmark-OSINT-10-03-yemen-ballistic-missile-riyadh-airspace-disruption-NASA-FIRMS-fires-at-riyadh-ARAMCO-refinery-UNVERIFIED-single-channel-FALCON-adjudicate.md",
+          "heading": "# CURRENT (10/03) OSINT: Yemen ballistic missile + NASA FIRMS fires at Riyadh ARAMCO refinery \u2014 UNVERIFIED single-channel \u2014 FALCON adjudicate"
+        },
+        {
+          "path": "BOARD/SIG-W-20261003-013-hormuz-tanker-OSINT-third-hit-claim-abandoned-vlcc-FALCON-adjudicate-unverified.md",
+          "heading": "# Hormuz tanker OSINT \u2014 \"3rd tanker hit / abandoned VLCC still burning\" (UNVERIFIED) \u2192 FALCON adjudicate at primary"
+        },
+        {
+          "path": "BOARD/SIG-W-20261004-010-iran-cluster-10-04-houthi-khurais-CLAIM-disputed-bab-el-mandeb-nearmiss-CONFIRMED-petroline-ps2-unconfirmed-FALCON.md",
+          "heading": "# Iran-cluster 10/04 \u2192 FALCON: Khurais strike CLAIMED (disputed, NOT confirmed) \u00b7 Bab el-Mandeb near-miss CONFIRMED \u00b7 Petroline \"2nd strike\" unconfirmed"
+        },
+        {
+          "path": "BOARD/SIG-W-20261011-006-iran-weekend-UKMTO-162-26-164-26-two-tankers-hit-by-projectiles-IRGC-mine-claims-CLAIM-ONLY-riyadh-dammam-airports-hit-FALCON-BRENT.md",
+          "heading": "# Iran weekend: UKMTO confirms two outbound tankers hit by projectiles in the Strait of Hormuz (Sat 10/10 1920Z, Sun 10/11 1200Z). The IRGC claims two tankers hit MINES, but no mine detonation is established. Saudi Arabia confirms Riyadh and Dammam airports were attacked Sunday. Aramco's Shedgum and Tanajib are Houthi claims only"
+        }
+      ]
+    },
+    {
+      "item": 37,
+      "id": "2109689462020063400",
+      "author": "@carlquintanilla",
+      "created_at": "2026-10-12T16:55:38.000Z",
+      "query": "Quintanilla|business.*headlines",
+      "hit_count": 2,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260704-004-bank-ozk-deed-in-lieu-seattle-chapter-buildings-u-district-loi-recap-realized.md",
+          "heading": "# Bank OZK takes title to the Seattle \"Chapter Buildings\" (U-District, ~394K SF office/life-science) via deed-in-lieu \u2014 the LOI-for-recap credits realized"
+        },
+        {
+          "path": "BOARD/SIG-W-20261011-005-residue-10-11-jefferies-fund-now-says-900M-face-of-radiant-deals-fraudulent-poland-serious-threat-to-tusk-no-attempt-confirmed-TLT-call-volume-record-UWMC-record-low-barclays-AI-revenue-vs-capex-BROCK-HAWK.md",
+          "heading": "# Residue 10/11: a Jefferies-run fund now puts the allegedly fraudulent Radiant deals at ~$900M face. Poland treats a threat to PM Tusk and the defence minister as \"deadly serious\", with no attempt confirmed. TLT call volume is at a record. UWMC closed at a record low. A Barclays desk asks where AI's maintenance capex money comes from"
+        }
+      ]
+    },
+    {
+      "item": 38,
+      "id": "2109608380058808639",
+      "author": "@OilHeadlineNews",
+      "created_at": "2026-10-12T11:33:27.000Z",
+      "query": "(Dated|physical).Brent|150.*Brent",
+      "hit_count": 11,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260505-001-iea-sp-citi-crude-inventory-drawdown-205mmbbl-staunovo-ft.md",
+          "heading": "Aggregator (HFI/@staunovo) reposted FT article \"Global oil reserves plunge at record pace as Middle East war strains supplies.\" Headline numbers \u2014 ~200 MMbbl crude drawdown, 6.6 mn b/d, 5 mn b/d demand collapse, \"sharpest ever fall outside COVID-19,\" \"near 8-year low ahead of summer travel\" \u2014 verify-research confirms underlying story but corrects attribution and one magnitude."
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-004-irgc-hormuz-sovereign-corridor-warning-project-freedom-confrontation.md",
+          "heading": "**Iran's IRGC Navy issued today (Tuesday 5/5) a NEW broad-scope sovereign-corridor warning to ALL vessels transiting the Strait of Hormuz** \u2014 explicit response to yesterday's Project Freedom launch + 2 US-flagged ship transit + 6-Iranian-small-boat-loss engagement. Verified language (PressTV, near-verbatim): *\"the only safe route for passing through the Strait of Hormuz is the corridor previously announced by the Islamic Republic of Iran. Deviation of vessels to other routes is unsafe and will be met with decisive action by the IRGC Navy.\"*"
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-009-chevron-ceo-wirth-milken-bloomberg-physical-oil-shortages-1970s-eu-jet-fuel.md",
+          "heading": "**Chevron CEO Mike Wirth on Bloomberg TV at Milken Institute Global Conference (Monday 5/4):** physical oil-supply shortages starting to appear, EU jet fuel \"tightening very quickly,\" US price pass-through coming, framing analog **\"potentially as big as in the 1970s.\"**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260505-012-brent-intraday-tape-divergence-vs-iran-cluster-confluence-may5.md",
+          "heading": "**Brent intraday 5/5 tape pulled back ~4% despite today's 5-vector IRAN_HORMUZ cluster confluence.** Cluster narrative intact on substance; market pricing scenario B (doctrine-without-sustained-kinetic) or D (status quo low-grade), NOT scenario A (full kinetic resumption). RED's \"risk-premium-already-priced\" counter being confirmed by tape."
+        },
+        {
+          "path": "BOARD/SIG-W-20260702-011-no-brent-cargoes-august-benchmark-first.md",
+          "heading": "# No Brent crude cargoes set to load in August \u2014 \"a first for the benchmark\" (Staunovo/Reuters \u2192 BRENT)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260706-006-spr-325m-lowest-since-1983-pilkington-operational-floor-thesis.md",
+          "heading": "# SPR at 325.7M bbl \u2014 lowest since 1983 (DOE) + Pilkington 'operational-floor-by-end-July' oil thesis"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-003-a-fifth-hormuz-transit-instrument-appears-bloomberg-ecan-hormuz-reads-zero-and-it-is-the-first-one-with-a-full-daily-history.md",
+          "heading": "# \ud83d\udfe0 **A FIFTH Hormuz transit instrument exists \u2014 Bloomberg's `ECAN HORMUZ<GO>` \u2014 it reads ZERO, and unlike the other four it carries a full daily history back to Aug-2025. This does not settle the level. It changes what \"not knowable\" means.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260915-006-iata-jet-fuel-crack-basis-separated-from-ulsd.md",
+          "heading": "# IATA September 11 jet-fuel crack report provides a dated physical-price basis"
+        },
+        {
+          "path": "BOARD/SIG-W-20261002-002-oil-falls-3-4pct-EU-weighs-French-plan-50M-bbl-diesel-plus-50M-IEA-crude-wants-US-no-export-ban.md",
+          "heading": "# Oil \u22123\u20134% pre-open: EU weighs a French plan for 50M bbl diesel + 50M bbl IEA crude, conditional on the US dropping its export-ban threat"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-014-iran-full-sweep-10-08-no-ladder-fire-losses-3-gate1-holds-hull-war-rate-and-geography-escalate-158-26-off-qatar-casualties-centcom-prep-reported-no-strike-FALCON.md",
+          "heading": "# Iran full sweep 10/08: nothing on the ladder fired (losses 3, GATE 1 holds) \u2014 but the hull war escalated in rate and geography (\u224810 strikes 10/01\u201310/07; 158-26 off Qatar with casualties), CENTCOM reportedly told to finish strike preparations (no decision), Iran's final reply via Qatar still pending"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-028-tanker-cost-watch-bloomberg-VLCC-gulf-east-asia-record-1point4M-day-not-TD3C-USGC-china-76M-lump-sum-trafigura-USGC-japan-82M-BRENT.md",
+          "heading": "# Tanker-cost watch 10/8: a Bloomberg compilation puts the VLCC Gulf\u2192East Asia rate at a record ~$1.4M/day (NOT the Baltic TD3C basis); a US Gulf\u2192China VLCC was fixed at $76M lump sum; a US Gulf\u2192Japan offer is $82M"
+        }
+      ]
+    },
+    {
+      "item": 39,
+      "id": "2109664890545754593",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T15:18:00.000Z",
+      "query": "20.year.*(cancel|scrap|end|cut)|Citi.*20.year",
+      "hit_count": 5,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260604-010-de-haan-distillate-under-100-prediction-missed-print-built-1-5-to-102-3-substance-real.md",
+          "heading": "# De Haan Distillate <100MMbbl Forecast MISSED \u2014 Print Built +1.5MMbbl to 102.3MMbbl 6/3 (Did NOT Breach 100; Substance Hormuz-Tightness + Record Exports Remain Real)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-024-us-cities-1-trillion-deferred-infrastructure-liability-ciccarone-muni-fiscal-recognition-wave.md",
+          "heading": "# US cities carry ~$1T in deferred-infrastructure liability (Ciccarone) \u2014 the \"next pension-recognition wave\" \u2192 tax hikes / muni-bond pressure (CARL)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260817-005-30y-closed-531-highest-in-19-years-and-the-wires-name-ai-capex-borrowing-as-a-long-end-driver-which-no-fleet-surface-holds.md",
+          "heading": "# \ud83d\udd34 **The 30Y CLOSED at 5.31 \u2014 the leg BOND flagged as unreachable by construction is now cleared on the close, not just the intraday. And the wires name AI-capex borrowing as a long-end driver, which returns zero across every fleet surface I can search.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-015-treasury-doubled-long-end-buybacks-this-morning-and-both-of-the-books-duration-short-legs-are-being-hurt-by-it-right-now.md",
+          "heading": "# \ud83d\udd34 **Treasury doubled its long-end buybacks this morning. The 30Y fell 8bp, TLT rallied 1.56%, TBT fell 3.27% \u2014 and BOTH of the book's duration-short legs are on the wrong side of it, right now.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20261010-004-treasury-citi-expects-3B-cuts-to-20y-and-30y-auctions-at-NOV-4-refunding-forecast-only-shelton-named-treasury-counselor-on-currency-china-focus-BOND-ZHAO.md",
+          "heading": "# Citi expects Treasury to cut 20- and 30-year auction sizes at the Nov 4 refunding (a forecast, not a Treasury statement); Judy Shelton named a Treasury counselor on currency policy with a China focus"
+        }
+      ]
+    },
+    {
+      "item": 40,
+      "id": "2109686572253888586",
+      "author": "@FirstSquawk",
+      "created_at": "2026-10-12T16:44:09.000Z",
+      "query": "Hammack",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 41,
+      "id": "2109640191740621217",
+      "author": "@michaeljburry",
+      "created_at": "2026-10-12T13:39:51.000Z",
+      "query": "Hock.Tan|casino|Broadcom.*token",
+      "hit_count": 1,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260420-005-nv-hoa-dysfunction-pattern-insurance-cre-chain.md",
+          "heading": "**3-week aggregate of Nevada HOA-dysfunction headlines indicates FL 2020-2022 pre-Surfside pattern signature.** Not any single story \u2014 the *density and diversity* of the coverage is the signal."
+        }
+      ]
+    },
+    {
+      "item": 42,
+      "id": "2109682041021509843",
+      "author": "@WatcherGuru",
+      "created_at": "2026-10-12T16:26:09.000Z",
+      "query": "mortgage.*7[.]4|seven.*week.*mortgage",
+      "hit_count": 2,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20261008-026-housing-UWM-drops-own-credit-score-overlay-on-agency-loans-MBA-purchase-index-145-lowest-since-1995-NOT-established-30y-contract-7point49-HOMER.md",
+          "heading": "# Housing 10/8: UWM, the largest wholesale mortgage lender, dropped its own minimum credit scores on agency loans; MBA purchase applications fell again with the 30-year contract rate at a ~3-year high (7.49%) \u2014 but \"lowest since 1995\" is not established"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-030-rates-fed-credit-waller-anticipates-additional-hikes-HY-309-near-trigger-320-CCC-1229-30Y-auction-13ET-6B-buyback-PMMS-7point40-big-banks-drawdown-LIQUID-BOND-HENRY.md",
+          "heading": "# Rates, Fed and credit 10/8: Waller \"anticipates additional hikes\"; high-yield spreads moved to within 3.4% of the 320bp line (NEAR-TRIGGER, not a fire); CCC spreads 1,229bp; the 30-year auction and a $6B long-end buyback are this afternoon; mortgage rates 7.40%; the big banks are 10\u201323% off their highs"
+        }
+      ]
+    },
+    {
+      "item": 43,
+      "id": "2109618872529649840",
+      "author": "@zerohedge",
+      "created_at": "2026-10-12T12:15:08.000Z",
+      "query": "bankrupt.*(11%|11.percent)|first.nine.months.*bankrupt|Epiq",
+      "hit_count": 3,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260509-004-chapter-11-bankruptcy-filings-up-42.md",
+          "heading": "# Signal \u2014 U.S. Chapter 11 bankruptcy filings reportedly +42% YoY"
+        },
+        {
+          "path": "BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md",
+          "heading": "# South Florida distress \u2014 deep-research bank-transmission assessment (CORAL thread, follow-up to SIG-007)"
+        },
+        {
+          "path": "BOARD/SIG-W-20261012-020-epiq-september-bankruptcy-counts-YTD-prose-inconsistency.md",
+          "heading": "# Epiq reports 46% more Subchapter V elections through September; its individual YTD growth prose does not match its counts"
+        }
+      ]
+    },
+    {
+      "item": 44,
+      "id": "2109620584401277228",
+      "author": "@INArteCarloDoss",
+      "created_at": "2026-10-12T12:21:56.000Z",
+      "query": "datacenter.*tracker|satellite.*(permit|data)|th_s4m0ht",
+      "hit_count": 3,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260727-023-houthi-petroline-claim-claim-only-jazan-still-burning-two-satellites.md",
+          "heading": "# \ud83d\udea8 THE HOUTHIS CLAIM THEY HIT THE **PETROLINE** \u2014 the 1,200km, ~7 mb/d artery from Abqaiq to Yanbu. **CLAIM-ONLY: Aramco did not respond, and NOTHING is confirmed.** Separately, **Jazan is still burning, now on TWO claimant-independent satellites.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20261002-016-CORRECTION-to-014-yanbu-suspension-was-TERMINAL-WIDE-per-vanguard-on-the-stronger-source-one-vessel-and-resumed-rest-only-on-a-search-summary.md",
+          "heading": "# Correction to `-014`: the Yanbu suspension was terminal-wide on the stronger source. \"One vessel\" and \"resumed\" rest only on a search summary."
+        },
+        {
+          "path": "BOARD/SIG-W-20261004-014-FALCON-khurais-corridor-FIRMS-new-fresh-fire-at-9-10-spot-facility-UNIDENTIFIED-do-not-price-production-loss-BRENT-HAWK.md",
+          "heading": "# FALCON Khurais-corridor FIRMS finding \u2192 BRENT + HAWK (before Monday's open): a NEW, FRESH fire at the 9/10 strike spot \u2014 facility UNIDENTIFIED. \u26d4 Do NOT price a production loss off satellite data."
+        }
+      ]
+    },
+    {
+      "item": 45,
+      "id": "2109653799887409433",
+      "author": "@BBCWorld",
+      "created_at": "2026-10-12T14:33:56.000Z",
+      "query": "supermarket.*cyber|fridge.*cyber|cyber.*fridge",
+      "hit_count": 0,
+      "hits": []
+    },
+    {
+      "item": 46,
+      "id": "2109614857993806062",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T11:59:11.000Z",
+      "query": "sectoral.balance|7[.]0.*GDP|48%.*gap",
+      "hit_count": 6,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260511-039-fannie-multifamily-90d-sdq-075pct-5bps-below-2010-peak-freddie-already-breached.md",
+          "heading": "# Fannie Multifamily 90+d Serious Delinquency 0.75% Nov 2025 \u2014 5bps Below 2010 Housing-Bust Peak; Freddie Already BREACHED Its 2010 Peak at 0.48%"
+        },
+        {
+          "path": "BOARD/SIG-W-20260626-029-us-fertilizer-crisis-2026-afbf-urea-47pct-hormuz-urea-link.md",
+          "heading": "# US Fertiliser Crisis 2026 \u2014 urea +47% / diesel +46% since Feb; ~70% of farmers can't afford full fertiliser; Persian Gulf = 49% of global urea exports (CARL / FERT-revival)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260813-010-gse-multifamily-serious-delinquency-is-a-60-day-metric-not-90-day-and-my-own-signal-taught-the-fleet-otherwise.md",
+          "heading": "# \ud83d\udfe0 **GSE multifamily serious delinquency is a 60+ day metric on UPB, not 90+. My own `SIG-W-20260511-039` said 90+ in its title, its body, and in an explicit \"this is the institutional canonical series\" line \u2014 and then ran a GSE-vs-CMBS comparison on top of it.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-004-the-long-end-is-repricing-globally-not-just-in-the-us-and-the-3-3-percent-interest-burden-headline-drops-the-word-net.md",
+          "heading": "# \ud83d\udfe0 **The long end is making highs in FOUR sovereigns at once, not just the US \u2014 Australia 10Y is through 5%. And the \"interest payments = 3.3% of GDP\" headline quietly drops the word its own chart puts in the legend: NET.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-003-the-post-cpi-priced-hike-probability-exists-and-is-85pct-our-board-has-been-carrying-61pct-from-9-3.md",
+          "heading": "# The post-CPI priced hike probability exists, it is ~85%, and our board has been carrying 61% from September 3"
+        },
+        {
+          "path": "BOARD/SIG-W-20260929-012-ADDENDUM-001-squawks-say-october-hike-odds-fell-to-about-50-50-from-70-mid-afternoon-9-29-cause-not-established-oil-settled-lower.md",
+          "heading": "# ADDENDUM to -001: squawks say October Fed-hike odds fell from ~70% to ~50/50 around 14:55 ET, and nobody has found the cause. Oil settled 2.6\u20133.5% lower"
+        }
+      ]
+    },
+    {
+      "item": 47,
+      "id": "2109677507955900654",
+      "author": "@LHMacro",
+      "created_at": "2026-10-12T16:08:08.000Z",
+      "query": "Treasury.*matur|32[.]0.*tn|10[.]7.*tn",
+      "hit_count": 12,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260509-017-us-debt-gdp-refunding-term-premium.md",
+          "heading": "# Signal \u2014 US debt/GDP, refunding cliff, term-premium pressure"
+        },
+        {
+          "path": "BOARD/SIG-W-20260604-007-treasury-buyback-12-5b-june-4-cash-management-op-program-design-routine.md",
+          "heading": "# US Treasury $12.5B Cash-Management Buyback Op 6/4 (Maturity 07/2026 - 05/2028) \u2014 Matches Dec 2025 Upper-Bound Precedent; Program-Design Routine NOT Emergency"
+        },
+        {
+          "path": "BOARD/SIG-W-20260606-002-kobeissi-ft-privately-held-ust-1yr-83t-record-foreign-cb-share-declining-rollover-risk.md",
+          "heading": "# Kobeissi+FT: Privately-Held UST Maturing <1yr $8.3T Record / Doubled in 5yr / Foreign-CB Share Declining \u2014 Rollover-Risk Frame CORRECTED-FRAMING on Definitional Conflation; Direction Confirmed via TIC + Fed Custody"
+        },
+        {
+          "path": "BOARD/SIG-W-20260627-025-multifamily-rent-concessions-16-9pct-highest-since-2014-oversupply-class-c-led-shelter-disinflation.md",
+          "heading": "# Multifamily rent concessions hit 16.9% \u2014 highest since 2014, oversupply-driven, Class-C-led; effective rents falling (CREED)"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-009-the-30y-hit-5-31-a-19-year-high-verified-at-fred-and-my-own-004-forty-minutes-ago-dated-the-board-wrong-it-is-8-17-not-8-18.md",
+          "heading": "# \ud83d\udd34 **The 30Y did hit a 19-year high \u2014 I verified it at FRED, and it is a cleaner fact than the post claims. But it was MONDAY's high, the 30Y FELL on Tuesday, and my own `-004` forty minutes ago dated the yields board to the wrong session.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-030-the-treasury-buyback-primary-is-now-IN-HAND-and-it-calls-itself-liquidity-support-while-el-erian-calls-it-YCC-and-the-curve-move-is-monotonic-by-maturity.md",
+          "heading": "# \ud83d\udd11 **The Treasury buyback primary is now in hand \u2014 and every figure in `-015` holds. What is new: Treasury calls it \"liquidity support,\" El-Erian calls it YCC, and the curve move is monotonic by maturity.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260819-034-buying-back-the-long-end-and-funding-it-with-bills-is-a-synthesis-of-two-separate-treasury-actions-and-WAM-is-near-multi-decade-HIGHS.md",
+          "heading": "# \u26a0\ufe0f **\"Treasury is buying back the long end and funding it with bills\" fuses two separate announcements. Both halves are real. The link between them is nobody's claim \u2014 and WAM is near multi-decade HIGHS.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260822-002-the-30y-has-exactly-round-tripped-the-treasury-buyback-announcement-in-48h-and-it-confirms-the-announcement-had-no-flow-behind-it.md",
+          "heading": "# \ud83d\udd34 **The 30Y has EXACTLY round-tripped the Treasury buyback announcement in three sessions \u2014 5.28 \u2192 5.19 \u2192 5.23 \u2192 5.28. The announcement moved the yield and bought nothing, and the round-trip is the cleanest available confirmation of that.**"
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-007-softbank-fell-10-7pct-and-the-cause-is-NOT-the-carry-trade-openai-shelved-its-ipo-and-both-lab-ceos-called-for-a-slowdown.md",
+          "heading": "# SoftBank fell 10.7% \u2014 and the cause is NOT the carry trade. OpenAI shelved its IPO and both lab CEOs called for a slowdown."
+        },
+        {
+          "path": "BOARD/SIG-W-20260914-014-the-9-10-treasury-buyback-UNDERFILLED-dealers-would-not-sell-at-fair-value-and-tender-interest-has-collapsed.md",
+          "heading": "# The 9/10 Treasury buyback UNDERFILLED \u2014 dealers would not sell at fair value, and tender interest has collapsed"
+        },
+        {
+          "path": "BOARD/SIG-W-20261001-025-freddie-pmms-30y-7-28pct-plus-25bp-largest-weekly-rise-since-oct-2022-homer-preregistered-hold.md",
+          "heading": "# Freddie Mac's 30-year mortgage rate is 7.28%, up 25bp in a week, the biggest jump since October 2022"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-013-treasury-buyback-10-06-2028-2029-coupons-14point763B-offered-1point33B-accepted-12-of-33-issues-BOND.md",
+          "heading": "# Treasury buyback Tue 10/6: 2028\u20132029 coupons \u2014 $14.763B offered, $1.33B accepted (12 of 33 eligible issues)"
+        }
+      ]
+    },
+    {
+      "item": 48,
+      "id": "2109689553087070685",
+      "author": "@unusual_whales",
+      "created_at": "2026-10-12T16:56:00.000Z",
+      "query": "Maia.?300|Maia|Microsoft.*Nvidia",
+      "hit_count": 2,
+      "hits": [
+        {
+          "path": "BOARD/SIG-W-20260511-019-nvda-vs-sox-divergence-15-vs-50-30day-ai-chip-rotation-cnbc-5-8.md",
+          "heading": "# NVDA +15% YTD vs SOX +50% Last 30 Days \u2014 AI Chip Rotation; Custom Silicon Moat Question"
+        },
+        {
+          "path": "BOARD/SIG-W-20261008-006-ai-infra-week-anthropic-ipo-filing-125B-TPU-lease-42B-broadcom-convertible-60B-blackstone-syndicate-ares-573B-loop-finland-google-halt-stargate-wi-grid-2029-samsung-prelim-today-VULCAN-BROCK.md",
+          "heading": "# AI-infrastructure week: Anthropic filing shows a $125.2B TPU lease part-financed by up to $42B Broadcom convertible notes; ~$60B Broadcom/Blackstone syndicate; Ares tallies $573B of circular AI financing; two buildout setbacks; Samsung Q3 prelim due today"
+        }
+      ]
+    }
+  ]
+}
