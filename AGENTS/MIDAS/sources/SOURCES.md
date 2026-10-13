@@ -1,40 +1,33 @@
-# MIDAS — SOURCES register (data-access map)
+# MIDAS — source and access register
 
-**Created 2026-07-17** (self-audit — consolidates the source/access-wall map previously scattered across KB rows + LESSONS). One row per live data source: what it feeds, how it's pulled, cadence, and any documented access wall. Update when a source/wall changes; cite KB/LESSONS for the incident detail.
+**Reviewed October12,2026, approved maintenance.** Historical register preserved verbatim in `../analysis/BEFORE_MAINTENANCE_2026-10-12_sources_SOURCES.md`. Structured load-bearing numbers require raw responses and reconciliation; a summarized fetch is not their evidence. PRIMARY means issuer/origin document; MIRROR is a vendor reproduction; inferred quantities never become reported flows.
 
-> **Golden rule (L-05):** any structured-data API whose exact numbers are load-bearing must be pulled RAW (urllib/JSON), never summarized by WebFetch's small model — it hallucinates figures. WebFetch is fine for narrative/rendered-page confirmation, not for the number itself.
+| Source / role | Method, cadence and current disposition |
+|---|---|
+| FRED DFII10 / M1 | Existing FORGE client, daily T+1. Latest observation October8=2.87%, latest-revised MIRROR. BOND owns the level; direct Treasury check unavailable. Expanded raw latest/ALFRED inputs saved separately. |
+| FRED DGS2 / rates context | Existing client, daily T+1; BOND/LIQUID own curve interpretation. |
+| Yahoo named futures / primary prices, GSR | Local bounded history adapter retains native raw Close/Volume with auto_adjust=False; common FORGE history rounds Close2dp. Named GCZ26/SIZ26/HGZ26/PLF27/PAZ26 map, exclude newest duplicated-volume row. Pointers are diagnostic only. Same-date/month GSR, positive price/volume, ordered dates, freshness and expired-month guards. Map review October19. MIRROR vendor Close is not certified settlement; additive shared raw_close repair belongs to PROME/FORGE. |
+| Yahoo ETF proxies / comparison and binding GLD weekly rail | Existing FORGE histories, GLD/SLV/CPER/PPLT/PALL. Unadjusted per-share Close. Required GLD Friday-as-of endpoints for standing weekly test; no roll substitution when unavailable. Fast quotes are not certified closes. |
+| Westmetall LME copper / inventory rail | HTML raw tables, business daily; latest October12=231275metric tonnes, median234275 over505 observations. MIRROR LME series, rolling2yr median. Fail visibly on bad access/shape. |
+| CFTC / positioning | PRIMARY legacy futures-only raw report, code/name/totals guards. Gold and Ag/Pt/Pd freshness separate boot legs against consumed ledgers. October6 vintage consumed. Copper raw Socrata/manual. No positioning band. |
+| WGC GDT / quarterly central-bank floor | PRIMARY rendered Q2 page published July30: Central Banks and Other Institutions288.9t, rechecked October12; Q1 previously~244t revised57t. Old automated Excel403 wall survives, rendered page accessible. Quarter gate100t, no regrade here. Monthly reported August39t is incomplete/different object; no assumed Q3 release date. |
+| WGC ETF data / structural demand | PRIMARY September+67t/+US$10bn, holdings4256t published October7. Global totals not GLD-specific flows or causal demand shares. |
+| CME copper/silver stock XLS / venue quantities | PRIMARY reportOctober12/activityOctober9 via installed curl_cffi after ordinary403. Copper SHORT TONS:786798combined, convert×.90718474 to713771.139metric tonnes. Silver TROY OUNCES:329874070.7874combined. Warehouse/category/movement identities PASS. Previous-total date not printed; no artificial September30 COMEX anchor. Files/cells and calculations in maintenance sources. |
+| SHFE weekly copper / dated comparison | PRIMARY current `weeklystock_20261009/EN/all.html`, matched prior `weeklystock_20260930/EN/all.html`. New official endpoint discovered from issuer scripts after obsolete routes404. Ordinary copper deliverable58744/38744metric tonnes, warrants8285/10011. INE copperBC table separate11969/11366. Raw warehouse sums and changes PASS. Different exchange categories/clocks cannot be naively summed or prove relocation. |
+| Silver Institute / solar-demand and balance | PRIMARY World Silver Survey2026 April PDF, printedp9/PDF page10 zero-based. 2026F PV151Moz (−19%), industrial639.6Moz (−3%), deficit46.3Moz, mine844.1Moz (−0.3%). PDF curl_cffi retrieval succeeded after browser403; full hash/access logged, retained table PNG/text, full PDF temporary. Annual forecast not October realized consumption. Lease rates/India imports unresolved. |
+| WPIC / platinum | PRIMARY October9 perspectives:2026+265koz surplus, deficitsfrom2027. Old provisional-deficit premise retired. Quarterly PDF not newly retrieved; forecast not realized balance. |
+| CME PGM XLS / latest inventory | PRIMARY `PA-PL_Stck_Rprt.xls`, prior bounded pass reportOctober12/activityOctober9 Pt310939.722oz/Pd249946.262oz. All daily movements zero. Latest access closed; September30 matched history not in inspected public directory. Do not repeat latest-point research. |
+| Aberdeen PPLT/PALL / reported fund quantity | PRIMARY issuer fundDetailsData has October9 NAV/assets/market fields; holdingsTabfalse/no reported shares or physical ounces in retrieved payload. AUM/NAV count is INFERRED_ONLY. Matched quantity history, redemption-flow and lease evidence remain unresolved. |
+| Federal Register / Russian-Pd duty, BIS perimeter | PRIMARY AD/CVD final and USITC negative injury: duty channel closed/no order. Approved August1–28 BIS enumeration has8docs, all bodies retrieved/named-PGM-term-screened with0hits. English commodity/supplier search not proof of all indirect equipment controls or legal absence; no retrograde. Raw metadata/body/search inventory saved. |
+| NBS/PBoC / China | PRIMARY September construction50.3, manufacturing50.1, composite50.7; ZHAO owns demand/import causality. Registration dates require official calendar; do not repair them at grading. The old−41.3% import figure lacks dated scope/unit/comparator and is excluded pending ZHAO evidence. |
+| Platts sulfur/acid / copper process input | PRIMARY public product/methodology identifies FSAJA04, Sulfuric Acid FOB Japan/South Korea CP &Spot, $/mt weekly. Inspected pages supply no dated numeric quote: UNAVAILABLE. Retry on approved access change, no paid feed/no repeated weekly search installed. |
 
-## Primary sources (live, wired)
+## Expanded M1 historical reference
 
-| Source | Feeds | Access method | Cadence | Status / wall |
-|---|---|---|---|---|
-| **FRED DFII10** (10Y TIPS real yield) | M1 real-rate leg + divergence classifier | `fetch.fred_fetch("DFII10")` (FORGE client) → `metals_watch.py` leg 1 | daily, **T+1 publish** (latest obs lags 1 business day) | LIVE. Direct `fred.stlouisfed.org/graph/fredgraph.csv` timed out this session — use the FORGE `fred_fetch` client, not raw CSV |
-| **FRED DGS2** (2Y nominal) | rate-expectations cross-check (LIQUID seam) | `fetch.fred_fetch("DGS2")` | daily, T+1 | LIVE. Used 7/17 to verify LIQUID's −8bp (KB-026). Curve/rates = LIQUID/BOND canonical; MIDAS references |
-| **yfinance COMEX futures** (GC=F/SI=F/HG=F/PL=F/PA=F) | M1/M2/I1/I2 spot + GSR | `fetch.py` price client → `metals_watch.py` leg 0 (primary) | intraday / last-close (weekend = Fri close) | LIVE. yfinance lives in `.venv` (not system python). **FIXED 2026-07-23: boot.py now self-selects `.venv/bin/python` for its child scripts, so leg 0 runs regardless of the launch interpreter** (previously errored under system `python3`). Manual pulls: `.venv/bin/python …` |
-| **yfinance ETF proxies** (GLD/SLV/CPER/PPLT/PALL) | spot cross-check (NOT 1:1 unit-matched) | `metals_watch.py` leg 0 (secondary row) | intraday | LIVE. Secondary confirmation only |
-| **westmetall.com** (LME copper stock series) | I1 inventory leg + 2yr-median baseline | HTML-table scrape (browser UA), fail-loud → `metals_watch.py` leg 6 | business-daily | LIVE. Closes the "no free LME source" wall (CME warehouseStockAPI 403'd; LME.com vendor-gated). Baseline = trailing-2yr rolling median (KB-018) |
-| **CFTC legacy raw report / Socrata** (gold/silver/Pt/Pd; copper manual) | M1/M2/I1 positioning arc | gold/Pt/Pd/Ag raw `deafut.txt` via `cot_gold.py` / `cot_metals.py`; code/name and totals guards. Copper historical/manual uses Socrata raw JSON | weekly (Fri release, Tue data) | LIVE. Gold freshness is boot leg 3; Ag/Pt/Pd freshness is boot leg 4 (2026-10-12), each against consumed-vintage ledgers. Positioning context, not a standing band. Copper COT remains manual |
+Approved design `041cfdfb5` precedes retrieval/calculation. Raw GLD2010+ and DFII10 support4186paired dates January5,2010–October8,2026. Original690 pairs and four grid episodes reconcile. Fixed nested141-step grid:28 disjoint-input episodes,9eligible below-flip starts,2flips; all eligible cases before2022. Historical frequency is not a forward probability.
 
-## Primary sources (manual / periodic)
+Whole-window ALFRED exceeded2000-vintage cap; three predeclared blocks retrieved first-published values.4194/4195used yield-level dates numeric and equal latest; August19,2020first record nonnumeric. This does not reconstruct historical latest-carried120-row resolving snapshots, and GLD is one later vendor capture. Draft remains unpriced/unregistered; reviewOctober19. Raw/hashes/static calculation `2026-10-12_m1-expanded/`; synthesis `../analysis/2026-10-12_M1-expanded-reference.md`.
 
-| Source | Feeds | Access | Wall / note |
-|---|---|---|---|
-| **WGC gold.org GDT** (CB gold demand, ETF flows) | M1 CB-floor layer (Tier-2) | WebFetch of the rendered central-banks/ETF pages (primary; carries published figures) | **GDT Excel data-file (file 20499) 403-gates automated curl** (redirects to homepage) — L-09. The rendered pages ARE primary; Q1 = 243.7t CONF (KB-019). "17th consecutive month" streak + 700–900t FY target NOT on the fetched section → STAY PROV. Q2 GDT (~late July) = v2 kill-cond #2 |
-| **Federal Register** (PGM antidumping/CVD/injury) | I2 supply/sanctions leg | WebFetch/raw of federalregister.gov docs | Russia-Pd AD final **132.83%** (doc 2026-08487, CONF, KB-020). 828% was preliminary/trade-press (L-08). CVD doc 2026-10342; USITC injury 2026-12219 |
-| **WPIC** (platinum quarterly balance) | I2 structural deficit backdrop | PRIMARY perspectives page 2026-10-09 read 2026-10-12 | 2026 forecast **265 koz surplus**, deficit from 2027; retires old provisional deficit backdrop. Primary quarterly PDF still not fetched. See KB-130 and due review |
-| **NBS China** (Q2 GDP etc.) | I1 China-demand test anchors | WebSearch + PROME cross-verify | GDP release dates drift ±1d — VERIFY vs stats.gov.cn calendar at registration, not grade time (L-10: MIDAS-04 registered ~7/16, actual 7/15) |
-| **PBoC** (LPR fixing) | I1 China-policy test (MIDAS-05) | pbc.gov.cn / WebSearch | Convention = 20th of month (quotes before 9am CST). July fixing ~Mon 7/20; reconcile ZHAO's docketed 7/21 |
+## Ownership and remaining access seams
 
-## Domain-ownership boundaries (reference, don't re-pull)
-- **Real-rate LEVEL / auctions / curve** → BOND canonical (MIDAS references DFII10/DGS2; reconcile to one figure).
-- **China macro / capital flows / copper imports** → ZHAO canonical (the −41.3% YoY import series is ZHAO's; base-effect-check owed).
-- **HY/credit/liquidity / DXY-squeeze / EndGame** → LIQUID canonical (MIDAS supplies the gold-leg read; LIQUID consumes metals-board gold levels as of 7/17).
-- **PGM supply geopol** → HAWK. **Macro velocity** → HENRY.
-
-## Bounded PGM access update — 2026-10-12
-
-CME primary `delivery_reports/PA-PL_Stck_Rprt.xls`: latest report10/12/activity10/9 retrieved with installed curl_cffi browser-like request after urllib403. Latest inventories accessible; September30 matched history not retrieved. Aberdeen PPLT/PALL public fund pages yield dated10/9 raw NAV/assets/market metadata, but no reported share-count or physical-ounce history in the retrieved payload. Lease rates remain missing in existing accessible sources. One-off evidence only; no monitor/pipeline added. Detail `../analysis/2026-10-12_PGM-inventory-flow-followup.md`.
-
-## M1 historical reference — 2026-10-12 second round
-
-Reused `2026-10-12_review/GLD.csv`, `DFII10.json` and `GLD_DFII10_pairs.csv`: 690 matched ending dates, 2024-01-03→2026-10-08; latest-revised snapshot captured October 12, 16:54:07 ET. Rebuilt pairs match exactly; 6 change-start date mismatches, 0 corporate actions. No older reconstructible raw GLD/DFII10 input was found in MIDAS sources, despite the VECTOR-3 historical summary. Draft/reference evidence in `2026-10-12_m1-draft/`: 4 disjoint-input grid episodes, 0 eligible below-flip starts. Longer conditional raw history and historic as-of vintages are missing. No source refresh, new access search or persistent tool.
+BOND:rate level/curve. ZHAO:China macro/import meaning. LIQUID:liquidity/USD transmission. HAWK:PGM production/geopolitics. HENRY:velocity/demand lag. TERRY:live book/Greeks. MIRROR prices and latest stock snapshots do not settle those causal questions. Settlement certification, additive native-price support, fee/basis interpretation, historical quantities and source-vintage completeness are separately recorded in OPEN_ITEMS/result packets.

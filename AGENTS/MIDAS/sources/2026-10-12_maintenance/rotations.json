@@ -1,0 +1,99 @@
+{
+  "THESIS.md": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_THESIS.md",
+    "sha256": "9f718674ad12e983155889eb9f65d6783d0b69b2aa3d65c91cb47231152f6aa5",
+    "bytes": 30616,
+    "obligations_rehomed": "current THESIS/OPEN_ITEMS, current FLOW/VX, approved-maintenance result; original text preserved verbatim off boot path"
+  },
+  "OPEN_ITEMS.md": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_OPEN_ITEMS.md",
+    "sha256": "a2ffc89e42a2d22f83e1e9a4748ff6c415860348b1f70778997b9820ef3a23c4",
+    "bytes": 23733,
+    "obligations_rehomed": "current THESIS/OPEN_ITEMS, current FLOW/VX, approved-maintenance result; original text preserved verbatim off boot path"
+  },
+  "workbook/FLOW.tsv": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_FLOW.tsv",
+    "sha256": "79349097290355066a7bc2205b2a76665b3e1561076f7641a460a4004f5876a1",
+    "bytes": 9293,
+    "obligations_rehomed": "current THESIS/OPEN_ITEMS, current FLOW/VX, approved-maintenance result; original text preserved verbatim off boot path"
+  },
+  "workbook/VX.tsv": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_VX.tsv",
+    "sha256": "246cc7197adfa1d543e581093b737f852a0fb771aeee66992209a64fd141b0cc",
+    "bytes": 14887,
+    "obligations_rehomed": "current THESIS/OPEN_ITEMS, current FLOW/VX, approved-maintenance result; original text preserved verbatim off boot path"
+  },
+  "reading_before": {
+    "declared_files": [
+      "CLAUDE.md",
+      "STATUS.md",
+      "OPEN_ITEMS.md",
+      "SCRATCH.md",
+      "NEXUS_BRIEF.md"
+    ],
+    "bytes": {
+      "CLAUDE.md": 26832,
+      "STATUS.md": 13011,
+      "OPEN_ITEMS.md": 23733,
+      "SCRATCH.md": 7995,
+      "NEXUS_BRIEF.md": 7680
+    },
+    "total_bytes": 79251
+  },
+  "STATUS.md": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_STATUS.md",
+    "sha256": "b8fbccb778d3c1d933eba6153d6067d7faab30428996aebb96b407d6843877d2",
+    "bytes": 13011,
+    "obligations_rehomed": "current STATUS/OPEN_ITEMS/SCRATCH/THESIS/SOURCES/NEXUS_BRIEF and approved-maintenance result; prior text preserved verbatim"
+  },
+  "SCRATCH.md": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_SCRATCH.md",
+    "sha256": "2d4f112ca5131f8bcf7410011b91d7236e8fc2847b0c0e48c18910b7ff07e570",
+    "bytes": 7995,
+    "obligations_rehomed": "current STATUS/OPEN_ITEMS/SCRATCH/THESIS/SOURCES/NEXUS_BRIEF and approved-maintenance result; prior text preserved verbatim"
+  },
+  "NEXUS_BRIEF.md": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_NEXUS_BRIEF.md",
+    "sha256": "8801e481f15f252972668233fbb10369a7f090caa9fd6cfee7a3d3523e24877f",
+    "bytes": 7680,
+    "obligations_rehomed": "current STATUS/OPEN_ITEMS/SCRATCH/THESIS/SOURCES/NEXUS_BRIEF and approved-maintenance result; prior text preserved verbatim"
+  },
+  "sources/SOURCES.md": {
+    "archive": "analysis/BEFORE_MAINTENANCE_2026-10-12_sources_SOURCES.md",
+    "sha256": "fca316ca4e80402b722a4e292e063d80adeef8790948270978253ccdf09c1925",
+    "bytes": 6184,
+    "obligations_rehomed": "current STATUS/OPEN_ITEMS/SCRATCH/THESIS/SOURCES/NEXUS_BRIEF and approved-maintenance result; prior text preserved verbatim"
+  },
+  "reading_after": {
+    "declared_files": [
+      "CLAUDE.md",
+      "STATUS.md",
+      "OPEN_ITEMS.md",
+      "SCRATCH.md",
+      "NEXUS_BRIEF.md"
+    ],
+    "bytes": {
+      "CLAUDE.md": 26703,
+      "STATUS.md": 7529,
+      "OPEN_ITEMS.md": 8670,
+      "SCRATCH.md": 3694,
+      "NEXUS_BRIEF.md": 4031
+    },
+    "per_surface_budget_bytes": 32550,
+    "budget_is_not_combined_total": true,
+    "total_bytes": 50627,
+    "every_explicit_read_below_budget": true
+  },
+  "obligation_rehome_map": {
+    "forecast_grades": "OPEN_ITEMS calendars; STATUS top2; SCRATCH2; original frozen PREDICTIONS",
+    "M1_120_20_flip_vintage": "OPEN_ITEMS21; expanded-reference; STATUS top1; original draft append",
+    "band_floor_crossings": "OPEN_ITEMS25; CLAUDE day31; STATUS band table; approval record",
+    "PGM_history_leases_BIS": "OPEN_ITEMS20; THESIS I2; SOURCES",
+    "copper_import_lag_upside_Platts": "OPEN_ITEMS I1/calendars; THESIS I1; SOURCES",
+    "silver_PV_physical_leases_imports": "OPEN_ITEMS M2; THESIS M2; source table excerpt",
+    "historical_fires_and_terminal_rows": "THESIS M1 and OPEN_ITEMS calendars; unchanged pinned companion/PREDICTIONS",
+    "held_book_clock": "STATUS held GLD; SCRATCH5; TERRY owner packet",
+    "miner_trigger": "OPEN_ITEMS calendars and THESIS shared obligations",
+    "delivery_sync_window": "SCRATCH6/delivery continuity; PROME packet"
+  }
+}

@@ -1,5 +1,8 @@
 # MIDAS — TRADE
 
+# LIVE ledger.
+Last real data refresh: 2026-10-12 — adapted no-book state reviewed during Will-approved maintenance. MIDAS issued no new trade-shaped proposal in this pass. Will's mirrored GLD holding belongs to the operator's book; TERRY owns construction and management. Historical candidate/caveat blocks below keep their stated dates.
+
 > ## 🟢 SURFACE STATUS: **DECLARED FLAT — ADAPTED-PASS.** Written 2026-09-05 by MIDAS.
 > **NO OPEN POSITIONS. NO PROPOSED POSITIONS. ZERO CAPITAL, AND ZERO IS THE DESIGN, NOT A GAP.**
 > MIDAS is a **market-agent producing signals, not a book** — the charter (`CLAUDE.md` §IDENTITY) says metals-as-macro-tells, and construction/sizing is **TERRY's** with **Will** approving (root rules #5–#8). This surface is therefore held as a **candidate register + card-caveat record**, not a position ledger, and it is **not** stale merely because no position appears on it.

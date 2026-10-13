@@ -1,0 +1,123 @@
+{
+  "prediction_ledger_sha256": "50bbe5bfdd4f4a6bd35be4ffc23b07f7f866564e9c2a5c3cf0389ed2094f3212",
+  "prediction_ledger_unchanged": true,
+  "pinned_companion_unchanged": true,
+  "vector_ids_scores_unchanged": true,
+  "numerical_rules": {
+    "GSR": [
+      85,
+      90,
+      95
+    ],
+    "LME": [
+      25,
+      50,
+      100
+    ],
+    "copper_collapse_pct": -20,
+    "gold_floor": 3317,
+    "CB_quarter_floor_t": 100,
+    "gold_bidirectional": [
+      4050,
+      2.4
+    ],
+    "beta_flip": -0.08,
+    "unscored_floor": "2026-11-01T21:40:00-05:00"
+  },
+  "numerical_rule_diff": "No rule moved; VX threshold prose drops stale current claims and dated rolling-baseline examples. Original complete rows archived verbatim.",
+  "archive_identity": {
+    "THESIS.md": true,
+    "OPEN_ITEMS.md": true,
+    "workbook/FLOW.tsv": true,
+    "workbook/VX.tsv": true,
+    "STATUS.md": true,
+    "SCRATCH.md": true,
+    "NEXUS_BRIEF.md": true,
+    "sources/SOURCES.md": true
+  },
+  "boot": {
+    "file": "boot_final.txt",
+    "captured_UTC": "2026-10-13 00:18",
+    "returncode": 1,
+    "verdict": "REVIEW \u2014 metals watch",
+    "failed_legs": 0,
+    "other_four_legs": "quiet",
+    "binding_weekly_actual_dates": [
+      "2026-09-18",
+      "2026-09-25",
+      "2026-10-02",
+      "2026-10-08"
+    ],
+    "nominal_final_friday": "2026-10-09",
+    "weekly_dy_bp": 19,
+    "weekly_gld_pct": -5.62,
+    "joint_up": [
+      false,
+      false,
+      false
+    ],
+    "historical_fire_unchanged": true
+  },
+  "tests": {
+    "interpreter": "/home/willi/Research-workspace/.venv/bin/python",
+    "command": "-m unittest -q test_boot_cot_metals test_metals_watch_inputs",
+    "tests": 34,
+    "returncode": 0,
+    "result": "PASS",
+    "clock": "captured fixture; independent of wall-clock date"
+  },
+  "CME_identity": "PASS warehouse/category/movement raw identities; units explicitly short tons/copper and troy ounces/silver",
+  "SHFE_identity": "PASS warehouse totals, current/prior matched category levels and changes; INE separate",
+  "reading_cost": {
+    "declared_files": [
+      "CLAUDE.md",
+      "STATUS.md",
+      "OPEN_ITEMS.md",
+      "SCRATCH.md",
+      "NEXUS_BRIEF.md"
+    ],
+    "bytes": {
+      "CLAUDE.md": 26703,
+      "STATUS.md": 7529,
+      "OPEN_ITEMS.md": 8670,
+      "SCRATCH.md": 3694,
+      "NEXUS_BRIEF.md": 4031
+    },
+    "per_surface_budget_bytes": 32550,
+    "budget_is_not_combined_total": true,
+    "total_bytes": 50627,
+    "every_explicit_read_below_budget": true
+  },
+  "before_reading_total_bytes": 79251,
+  "deferred_sync_reason": "Other desks have dirty work; no pull/push or foreign edits.",
+  "commits": {
+    "design": "041cfdfb5d7f02e8805d4d218421842e4a90ae1c",
+    "code": "434a4e3c524089a46ccd9c27e39f1adb8a8e82ee",
+    "expanded_inputs": "8fb4bb18dc9bba21daef3048a3f6cb1b3319ab96",
+    "primary_sources": "5362f3b95497f5d5d81a87fff42ae805a8553fa2"
+  },
+  "watch_constants_before": {
+    "DYING_VOL_SHARE": 0.05
+  },
+  "watch_constants_after": {
+    "DYING_VOL_SHARE": 0.05
+  },
+  "watch_constants_unchanged": true,
+  "tsv_integrity": {
+    "workbook/FLOW.tsv": {
+      "columns": 7,
+      "rows": 4,
+      "unique_ids": true
+    },
+    "workbook/VX.tsv": {
+      "columns": 9,
+      "rows": 5,
+      "unique_ids": true
+    },
+    "workbook/KB.tsv": {
+      "columns": 9,
+      "rows": 140,
+      "unique_ids": true
+    }
+  }
+}
