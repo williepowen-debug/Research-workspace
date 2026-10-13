@@ -1,0 +1,205 @@
+{
+  "observed_at": "2026-10-13T19:09:01.042278-04:00",
+  "runtime": "OpenAI Codex",
+  "model": "GPT-6 family; exact model identifier UNKNOWN",
+  "session_identity": "thread-local /root; native owner session ID UNKNOWN; prior IDs not reused",
+  "repo": "/home/willi/Research-workspace",
+  "branch": "master",
+  "local_AGENTS_md": "ABSENT; root AGENTS.md and supplied instructions read",
+  "tools": "shell, apply_patch, web; thread-local collaboration exposed, no helper launched; cross-runtime fleet discovery/notification unverified",
+  "source_pins": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "aecdda8cfa113f1161d74abd78d3e8fa0e460a03c2e890ffd1f7321b92a0d5ae",
+      "matches_HEAD": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
+      "matches_HEAD": true
+    },
+    {
+      "path": "USER.md",
+      "sha256": "f698a7b528ee3242ee75f3650f1cd58860a3c935c57a1ee1abdcbc9fe28f6a7c",
+      "matches_HEAD": true
+    },
+    {
+      "path": "AGENTS/TERRY/CLAUDE.md",
+      "sha256": "b48f14a454301436f66a4580ee12f70421b18b04d03a42caed18c28a498801d9",
+      "matches_HEAD": true
+    },
+    {
+      "path": "PROME/COMPLETION_SPEC.md",
+      "sha256": "d213e20eb75f65ab6953ec99d6430c56500744ea4fad8efd01d968228288a6ff",
+      "matches_HEAD": true
+    },
+    {
+      "path": "PROME/ORCHESTRATION_PLAYBOOK.md",
+      "sha256": "22c0750a022d7211fd017a94efe1db6f2525380db526972a2ee03b62b85b6d20",
+      "matches_HEAD": true
+    },
+    {
+      "path": "PROME/reports/2026-10-13_research-and-next-trades.md",
+      "sha256": "e2dea28e69ffc5884d80fa3b2976d7216de3e11e9f9099c9315d54bcb2beb804",
+      "matches_HEAD": true
+    },
+    {
+      "path": "PROME/inbox/2026-10-12_from-TERRY_machine-switch-handoff.md",
+      "sha256": "9a6152d4927aac96e13309e27d0290a968ffa94b6fcb3245313da9aa9670740e",
+      "matches_HEAD": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-13_from-PROME_broker-position-changes.md",
+      "sha256": "617b09aef911ed42806ee2aad890804130d55bc553f2fe545fc87c62e42006be",
+      "matches_HEAD": true
+    },
+    {
+      "path": "PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md",
+      "sha256": "e7699993268e5cbc3b3a7f4608d1c5977e29a48d867239dd96cbb22e1c796659",
+      "matches_HEAD": true
+    },
+    {
+      "path": "FORGE/STATUS.md",
+      "sha256": "ae7311f825f9286f075048c37a66da3201242e6b7367acaf5d18e3b0ec70200a",
+      "matches_HEAD": true
+    },
+    {
+      "path": "AGENTS/REGINALD/reports/2026-10-12_workout-outcome-bridge.md",
+      "sha256": "944fd83ca1c45c5d9fa6c47414cd644d7e4825270521e5b089cdc79d8b7383f8",
+      "matches_HEAD": true
+    },
+    {
+      "path": "AGENTS/OZK/research/threads/2026-10-12_DURABILITY_DELIVERY.md",
+      "sha256": "4c6abf622507caf56259a05555c41ebb22b46573ab421bafa8e9df169ac5cad5",
+      "matches_HEAD": true
+    },
+    {
+      "path": "AGENTS/BRENT/research/2026-10-12_L694-energy-disposition/NOTE.md",
+      "sha256": "e2830b57bedcc3f3fe6bb0d0bce167e327de94532ba13c4f99d9c71d77e6d508",
+      "matches_HEAD": true
+    },
+    {
+      "path": "AGENTS/SHADE/NEXUS_BRIEF.md",
+      "sha256": "76038afef179e617b6cd4618c432d2240269558722ddb7d66e476ac845018fd9",
+      "matches_HEAD": true
+    },
+    {
+      "path": "AGENTS/VIOLET/NEXUS_BRIEF.md",
+      "sha256": "1f029305874791b62f16f6e2cb5b406ee747e1fbbf9e39935436a0fed1656ff8",
+      "matches_HEAD": true
+    }
+  ],
+  "screen": {
+    "cache_sha256": "8f8ba87c26678716767d47282b40e30036915740cd608a9042b3908dc2e1c953",
+    "fetch_epoch": 1791932642.5747247,
+    "spot": 743.5700073242188,
+    "spot_asof_label": "2026-10-13 19:04",
+    "spot_label_is_exchange_timestamp": false,
+    "ticker": "QQQ",
+    "expiry": "2026-10-14",
+    "named_leg_payload": {
+      "strike": 744.0,
+      "type": "P",
+      "expiry": "2026-10-14",
+      "bid": 3.25,
+      "ask": 3.27,
+      "mark": 3.26,
+      "last": 3.24,
+      "delta": null,
+      "theta": null,
+      "iv": 13.89,
+      "volume": 14171.0,
+      "open_interest": 878.0,
+      "spread_pct": 0.61,
+      "last_trade": "2026-10-13 16:14",
+      "in_the_money": true
+    },
+    "quote_timestamp": "UNKNOWN",
+    "grade": "SCREENING ONLY; outside options session",
+    "legs_checked": [
+      744
+    ],
+    "legs_missing": [],
+    "legs_defective": []
+  },
+  "arithmetic": {
+    "bank_contracts": 21,
+    "bank_snapshot_value": "1891",
+    "energy_snapshot_value": "7154.61",
+    "qqq_snapshot_value": "1484",
+    "new_non_AAPL_realized": "99.29",
+    "qqq745P_cohort_not_incremental": "431.33"
+  },
+  "limits": [
+    "No fresh-candidate chain sweep: no changed economic pricing case",
+    "Broker screenshots not independently viewed",
+    "Owner loan/statutory research not independently re-audited",
+    "Current settled buying power/order/Greek/exercise policy UNKNOWN",
+    "Git pull deferred for foreign dirt; publication hold remains pending independent acceptance"
+  ],
+  "late_inflight_owner_reports": [
+    {
+      "path": "AGENTS/BRENT/research/2026-10-13_energy-wait/REPORT.md",
+      "sha256": "5c88b34e5d92a6a6747e5cda0a9cfd3009b7cb1299a3714507203d97de5e3035",
+      "status": "UNTRACKED at read; source delivery/grade not accepted"
+    },
+    {
+      "path": "AGENTS/DEWEY/output/2026-10-13_diesel-delivery-and-primary-document-checkpoint.md",
+      "sha256": "5be083663c8939fdc6c6f2cb90868a61af20c47aebeb455a766e76384a139e92",
+      "status": "UNTRACKED at read; source delivery/grade not accepted"
+    }
+  ],
+  "MIDAS_packets": [
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-12_from-MIDAS_approved-maintenance.md",
+      "sha256": "9675ef1b4541fd2c1388482dc4474d89d5938c1fd30b2274bd3ee2d6f8942c34",
+      "disposition": "read informational packet; old TLT/TBT quantities superseded by October13 broker evidence; no beta/hedge grade or new trade"
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-12_from-MIDAS_held-17-GLD-current-rate-context.md",
+      "sha256": "a24ec6b837e925166a46ffcd2f3b20097eea9d723de938e4074dc305caf48712",
+      "disposition": "read informational packet; old TLT/TBT quantities superseded by October13 broker evidence; no beta/hedge grade or new trade"
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+      "sha256": "e1273116135d10566b51d4769645c0700d5be244165bfb7173da1941cbcd46d3",
+      "disposition": "read informational packet; old TLT/TBT quantities superseded by October13 broker evidence; no beta/hedge grade or new trade"
+    }
+  ],
+  "primary_checks": {
+    "access_date": "2026-10-13",
+    "IEA_OMR": "October14 10:00 Europe/Paris = 04:00 America/New_York; schedule re-read",
+    "France": "10M diesel barrels, all French distributors, November\u2013January; actual delivery/March overlap unknown",
+    "calendar": "OZK October20 AMC/call21 08:30; EGBN October21 AMC/call22 10:00; CPI October14 08:30"
+  },
+  "BOARD_consumption": [
+    {
+      "path": "BOARD/SIG-W-20261012-021-iqhq-BPRE-subsequent-common-markdown-alewife-funded-capital.md",
+      "sha256": "c0826f11bd581421370a679609e0b0b50463f09e3b4b37cf87002614e988ce53",
+      "disposition": "acted"
+    },
+    {
+      "path": "BOARD/SIG-W-20261012-022-ozk-workout-progress-wauwatosa-sale-jack-partner-boston-lease.md",
+      "sha256": "d37ec6f7dbc5698bc63cba0630ee5fbc17d4ece225fa9f19f0771687efad6c0a",
+      "disposition": "acted"
+    },
+    {
+      "path": "BOARD/SIG-W-20261012-026-ozk-durability-interest-financing-book-transfer-not-cash-recovery.md",
+      "sha256": "da79a8b6b6dfb079443a557fb67c0ee4ac5909c8deee26a9b03d6d49cec3a66e",
+      "disposition": "noted"
+    },
+    {
+      "path": "BOARD/SIG-W-20261012-030-minerva-current-provider-UAN-not-diesel-net-supply-unknown.md",
+      "sha256": "b6d5862411e0b25d967a8b87481d56594b79e88fb26c12f0ad0baad10e933221",
+      "disposition": "noted"
+    }
+  ],
+  "BOARD_result": {
+    "new": 4,
+    "logged_new": 4,
+    "addressed": 31,
+    "logged_total": 37,
+    "unlogged": [],
+    "skipped": []
+  }
+}

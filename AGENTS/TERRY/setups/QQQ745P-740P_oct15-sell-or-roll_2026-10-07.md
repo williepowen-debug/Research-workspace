@@ -1,9 +1,12 @@
 # SELL-OR-ROLL CARD — QQQ $745P Oct-15-2026 ×1 (was ×2; Will sold 1 on 10/8) and $740P Oct-15-2026 ×4 (Fidelity IRA) — expire THURSDAY 10/15
 
+> **Current disposition — 2026-10-13 19:09 EDT:** MGMT-QQQ745P-OCT15 remaining×1 SOLD CLOSE October12 net$393.34 − basis$283.66 = +$109.68. Full cohort+$431.33 includes earlier+$321.65, never add both. MGMT-QQQ740P-OCT15 ×4 still present in October13 receipt; its prior Wednesday/Thursday times are proposals, not adopted deadlines. No new quote refresh or roll linkage. Source October13 transcription§4. Prior dated sections below remain history.
+
+
 **Date:** 2026-10-07 Wed, written from 22:01 ET (`date` 22:01:32; live reads 21:44–21:56 ET, all after the 16:00 close). **Session:** PROME `prome-0e` spawn (Tier 1, C5 commission; WQ-347 / DOCKET L615). Model: Claude Opus 5.5 (`desk` agent definition).
 **Ids:** `MGMT-QQQ745P-OCT15` (×2) · `MGMT-QQQ740P-OCT15` (×4). Management cards on lines Will opened by his own hand; no SETUPS rows (management-card convention); registered in `setups/INDEX.md`. ⛔ **New identities.** They do not continue `MGMT-QQQ740P-OCT02` or `MGMT-QQQ735P-OCT05`. Whether either of those was rolled into these, and at what prices, is UNKNOWN until the Activity view (WQ-347). Nothing here books an exit for them.
 **Thesis owner:** Will (no agent thesis on file; off-thesis class).
-**Terry verdict:** 🟡 **SELL-OR-ROLL BEFORE THURSDAY 10/15 — 745P NOW ×1 (§ 9, 2026-10-08: Will SOLD 1 of 2 @ $6.06, +$605.32; the rule below now covers 745P ×1 + 740P ×4). No action owed before the Tue 10/13 re-mark. Desk lean: SELL both lines at Fidelity's bid on Wed 10/14 after the CPI open settles, 09:45–10:30 ET, no later than Thu 10/15 12:00 ET. No roll.** Re-mark at the C5 line, **Tue 10/13** (two sessions before expiry). The times are a PROPOSAL for Will; nothing registers them as a deadline until he adopts them.
+**Terry verdict:** CONDITIONAL — surviving QQQ740P ×4 only; QQQ745P line CLOSED October12.
 **Confidence in the read:** Medium. Vendor marks after the close; Fidelity's chain governs.
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
 

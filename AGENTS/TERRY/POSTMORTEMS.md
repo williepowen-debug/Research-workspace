@@ -449,3 +449,19 @@ Lesson: newer Activity evidence resolves disposition; net-cash cohort totals rep
 | QQQ October5 735P | October2 sell-closing net$65.35 plus expired remainder posted October6 as of October5 | $1,368.32 | −$1,302.97 |
 
 Combined line result −$2,189.87 is an arithmetic summary of these already-booked mirror outcomes, not a new portfolio loss or an addition to later QQQ cohorts. Per-row contract counts, gross prices, timestamps, initiator and broker intervention are unestablished; exact sold/expired allocation is not inferred. **Thesis/entry:** Will-originated, not re-underwritten. **Timing/exit:** actual dated cash/disposition record only; no execution-quality grade. **Structure/sizing:** no endorsement or retroactive changed rail. **Rule/lesson:** October7 absence-from-holdings alone did not settle disposition; saved October8 Activity now does. No Brier/new forecast. **Tags:** STALE_DATA (delayed owner bookkeeping), POSITION_TRUTH_MISSING (prior gap).
+
+## October13 — broker follow-through, five incremental outcomes
+
+Source: `PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md`§4, readOctober13; original screenshots not independently viewed, same-account continuity inferred. No execution/thesis/volatility grade or reconstructed entry.
+
+| Line | New outcome | Incremental realized |
+|---|---|---:|
+| QQQ755C October12 | EXPIRED asofOctober12, postedOctober13; canceled sell not fill | −$144.66 |
+| QQQ745P October15 | Remaining1 SOLD CLOSE October12, net$393.34 less$283.66 | +$109.68 |
+| TLT82P October16 | Remaining1 SOLD CLOSE October12, net$400.34 less$167.67 | +$232.67 |
+| TBT | SaleOctober12 net$210.40; sold5/removedbasis$174.45 derived from quantitybridge | +$35.95 |
+| QQQ750C October13 | Two opening netrows$136.32, two-contract saleOctober13 net$1.97 at$0.01 | −$134.35 |
+
+Sum+$99.29 acrossOctober12–13, not daily P/L and not additive over earlier booked partials. QQQ745P fullcohort+$431.33 includes prior+$321.65. AAPL sale$1,707.54 PROCESSING; soldlot basis/realizedUNKNOWN, do not halve aggregate basis. Broker OPTION LIQUIDATION description establishes neither initiator nor future intervention policy.
+
+Tags: POSITION_TRUTH_MISSING (narrowed by Activity), STALE_DATA (owner record refreshed). Timing/exit evidence is transaction-date/cash only; liquidity, same-timestamp quote, entry quality and causal attribution remain ungraded. Management cards are proposals; this outcome does not prove an approved rail was ignored. No Brier/performance endorsement or broad daytrade review.

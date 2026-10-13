@@ -1,5 +1,7 @@
 # SELL-OR-ROLL CARD — USO October 14, 2026 $150C ×2
 
+> **October13 receipt integration:** still×2 in the positions transcription (capture/quote time UNKNOWN), value$594/basis$375.33 as a dated snapshot. October12 one-contract sell limit$2.66Day VERIFIED CANCELED in later Activity/Orders; no fill/resting order, replacement UNKNOWN. Original proposal and no-roll disposition retained; no discretionary re-mark or adopted timing/order. Source `PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md`§§1/4. Sunday quotes/cash below remain historical.
+
 > **Workload update 2026-10-12 11:02:15 EDT:** Will directs new-trade research and handles sell/roll himself (committed215e7e439). This completed card is preserved; no further discretionary refresh/monitoring commissioned here. Proposed times below were not adopted and no fill/expiry/hold instruction is inferred. Current holdings/outcome remain broker/Will truth.
 
 **Id:** MGMT-USO150C-OCT14

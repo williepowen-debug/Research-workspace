@@ -1,9 +1,12 @@
 # EXIT CARD — duration-short sleeve: TLT $82P Oct-16-2026 ×1 + TBT 10 sh (Fidelity IRA) — BOND's thesis kill MET
 
+> **Current disposition — 2026-10-13 19:09 EDT:** TLT82P sold October12 (net$400.34, incremental realized+$232.67); TBT sale net$210.40, quantity10→5 and removed basis$174.45 derived ⇒ +$35.95. No live TLT or ten-share TBT assertion; remaining TBT5 retains existing WQ357 October14 clock. No new management choice or re-mark. Source October13 transcription§4; same-account continuity inferred. Prior dated sections below remain history.
+
+
 **Date:** 2026-10-01 Thu, written from 16:25 ET (live reads 16:19:17–16:19:50 ET below). **Session:** TERRY interactive (Will in the window). **Trigger:** BOND packet `inbox/2026-10-01_from-BOND_WQ-291-kill-MET-exit-duration-shorts-card-ask.md` (spawn `prome-2f`, DOCKET L478 / WQ-291), relayed by PROME `prome-2f` ask 4.
 **Id:** `MGMT-DURSHORT-EXIT-WQ291` (exit card on held lines; no SETUPS row — ledger at 97.8% of its read budget, rotation owed by Mon 10/05).
 **Thesis owner:** **BOND** (the kill and the recommendation). Rates domain also HENRY. **Construction, timing, day colour, mechanics:** TERRY. **Approval:** Will (root rule #5).
-**Terry verdict:** ✅ **CLEAN EXIT — SELL BOTH on Fri 10/02, after the open settles (from ~09:45 ET), by 15:00 ET.** The kill is pre-registered and MET; the put has no time value left to give up; the 82P must leave the IRA before 10/16 regardless.
+**Terry verdict:** CONDITIONAL — TLT option CLOSED; remaining TBT5 retains October14 WQ357 decision clock.
 **Confidence in the structure:** High (payoff arithmetic and mechanics). **Confidence in the thesis call:** BOND's, not this desk's — and see the caveat in §2, which BOND attached and which survives here.
 **`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.** BOND states no price, no order and no timing; this card supplies them as a proposal.
 

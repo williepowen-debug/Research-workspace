@@ -1,9 +1,12 @@
 # POSITION-MANAGEMENT CARD — TLT Oct-16-2026 $82 PUT ×2 (held, IN THE MONEY) — harvest vs hold into expiry
+
+> **Current disposition — 2026-10-13 19:09 EDT:** Remaining TLT82P ×1 SOLD CLOSE October12 net$400.34 − remaining basis$167.67 = +$232.67 realized. Earlier partial+$191.66 remains separate, not rebooked. WQ302 now HBAN-only per PROME packet; no current TLT expiry duty. Source October13 transcription§4; broker future policy still UNKNOWN. Prior dated sections below remain history.
+
 **Date:** 2026-09-26 Sat, written 15:1x ET (`date` 15:11:18 ET) · **Card ID:** `MGMT-TLT82P-OCT16` (management-only, not a `TRY-` entry card; see foot)
 **Updated 2026-09-26 16:0x ET (`date` 16:00:37 ET)** on Will's word, 15:54 ET, verbatim: *"Position cards: Keep WQ-302 open pending confirmation of holdings/account and my management choice. Update the cards with Fidelity's published policy on unsupportable positions, then narrow my question to the handling, timing and costs applicable to this account. Don't treat screening quotes as executable proceeds."* Changed: §4 now quotes Fidelity's published policy and corrects this card's earlier "SEARCH-NOT-FOUND". The question to Fidelity is narrowed to handling, timing and costs. Every option price is relabelled as a SCREENING quote. **WQ-302 stays OPEN** (PROME's row). Nothing is re-ruled, and choices A/B/C/D are unchanged.
 **Commissioned by:** Will, **WQ-292 RULED 2026-09-26 15:04 ET**, verbatim: *"Authorize TERRY to prepare the two position-management cards. Confirm current holdings and identify the broker-mechanics uncertainty. The cards return to me; this authorizes preparation, not trades."* (record `PROME/proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md`)
 **Thesis owner:** none on file. The leg predates every TERRY card: it was already in the book on 2026-07-16 as part of Will's duration "grind" stack (TBT + 85P + 82P, `outbox/delivered/2026-07-16_to-PROME_try-fire-004-arm-packet.md`). Rates domain = BOND / HENRY.
-**Terry verdict:** `HOLD OR EXIT — CONDITIONAL` · the one unconditional part: **do not let this put reach the 10/16 close unattended until Fidelity has answered the question in §4.**
+**Terry verdict:** CLOSED — remaining TLT82P sold October12; no TLT holding evidenced.
 **Confidence in the management structure:** Medium. The payoff arithmetic is High. The broker mechanics are UNKNOWN.
 **Construction rule #20 applies:** this is a retroactive, **management-only** card. Entry fields are **UNRECOVERABLE** (§0). Forward max loss = the remaining mark, never the original debit (#20(d)).
 

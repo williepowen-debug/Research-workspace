@@ -54,3 +54,13 @@ Prior rows above are dated records. These rows supersede their current-state cla
 | 2026-10-12 | TRY-NOTRADE-MPC-L689 — refiner-margin resilience | BRENT | NO TRADE | Not put to Will; construction PASS | NO TRADE; size0/$0; MPC spread$611.30over cap, green premium/no measured exception, economics/book incomplete | `setups/MPC_refiner-margin-resilience_L689_2026-10-12.md` |
 
 > Historical September3 seven-line expiry-pass batch rotated verbatim to `archive/TRADE_BOOK_EXPIRY_PASS_2026-09-03_rotated_2026-10-12.md`; dated approvals/outcomes remain history, current cards/INDEX govern.
+
+## October13 broker follow-through (Activity receivedOctober13; fill times UNKNOWN)
+
+| Date | Setup | Thesis owner | Terry verdict | Will decision | Status | Card |
+|---|---|---|---|---|---|---|
+| 2026-10-13 | MGMT-QQQ755C-OCT12 | Will | CLOSED | Outcome recorded | CLOSED — expiredOctober12; −$144.66; canceled sell not fill | `setups/QQQ755C_oct12-sell-or-roll_2026-10-12.md` |
+| 2026-10-13 | MGMT-QQQ745P-OCT15 | Will | CLOSED | Sale evidenced | CLOSED — remaining1 soldOctober12; incremental+$109.68, not cohort total again | `setups/QQQ745P-740P_oct15-sell-or-roll_2026-10-07.md` |
+| 2026-10-13 | MGMT-TLT82P-OCT16 | Will | CLOSED | Sale evidenced | CLOSED — remaining1 soldOctober12; incremental+$232.67; prior partial separate | `setups/TLT_oct16-82P_ITM-management-card_2026-09-26.md` |
+| 2026-10-13 | MGMT-DURSHORT-EXIT-WQ291 | BOND/Will | CONDITIONAL | WQ357 prior LATER | CONDITIONAL — TLT CLOSED; TBT5 survivesOctober14 decisionclock; derived sale+$35.95, no new rule | `setups/DURATION-SHORTS_exit-card_WQ291_2026-10-01.md` |
+| 2026-10-13 | MGMT-QQQ744P-OCT14 | Will | CONDITIONAL | Preparation only | CONDITIONAL — management-only; sale preferred on confirmed brokerbid/orders; no roll/newcapital | `setups/QQQ744P_oct14-sell-or-roll_2026-10-13.md` |

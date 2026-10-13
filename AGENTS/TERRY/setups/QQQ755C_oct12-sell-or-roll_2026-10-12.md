@@ -1,11 +1,14 @@
 # SELL-OR-ROLL CARD — QQQ October 12, 2026 $755C ×1 — expires TODAY
 
+> **Current disposition — 2026-10-13 19:09 EDT:** QQQ755C ×1 EXPIRED as ofOctober12, postedOctober13; basis$144.66 ⇒ realized−$144.66. Canceled sell order was not a fill. Source October13 broker transcription§4; no fill-time/initiator or execution grade. No current management action. Prior dated sections below remain history.
+
+
 > **Workload update 2026-10-12 11:02:15 EDT:** Will directs new-trade research and handles sell/roll himself (committed215e7e439). This completed card is preserved; no further discretionary refresh/monitoring commissioned here. Proposed times below were not adopted and no fill/expiry/hold instruction is inferred. Current holdings/outcome remain broker/Will truth.
 
 **Id:** MGMT-QQQ755C-OCT12
 **Date:** 2026-10-12; market pull 10:41:11 EDT. Management-only, construction rule #20; entry trigger, original invalidation and structure rationale UNRECOVERABLE.
 **Thesis owner:** Will; no agent thesis or link to the October 15 puts established.
-**Terry verdict:** CONDITIONAL — SELL preferred; no roll approved or recommended on current evidence.
+**Terry verdict:** CLOSED — EXPIRED October12; Activity received October13.
 **Position:** Will directly confirms still held in this desktop conversation and worth **$2 “at this moment.”** Exact broker quote timestamp, bid/ask and working order UNKNOWN. $2 is his reported position value, not a fill or executable bid. Sunday capture: long ×1, basis $144.66, value $86; bought October 9. Current indicative P/L at Will's $2 value = **−$142.66**, unrealized.
 **Authority:** standing C5 / DOCKET L685; committed PROME packet84a43c362. Preparation only; Will orders. No new capital or order placed.
 
