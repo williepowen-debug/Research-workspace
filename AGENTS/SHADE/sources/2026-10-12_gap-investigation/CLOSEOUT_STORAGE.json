@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-13T02:07:13.032282+00:00",
+  "purpose": "Will-requested closeout: retain recovered raw public sources and extraction scratch outside Git for the next spawn. No new acquisition, no raw statutory Git commit.",
+  "store_dir": "/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12",
+  "manifest": "AGENTS/SHADE/sources/2026-10-12_gap-investigation/RAW_MANIFEST.json",
+  "manifest_sha256": "d5a21b9aca50e9909b5edd454fb09e139655a410b575368881fba3c799871649",
+  "resolve_file_path": "store_dir / files[].file from referenced manifest; original temporary paths retained as historical receipt",
+  "verified_files": 84,
+  "verified_bytes": 25601491,
+  "storage_scope": "Persistent machine-local directory, outside Git; not copied to origin or another machine. Source URLs/hashes and focused reconstructions remain committed; reacquire by exact URL/hash if local store absent."
+}

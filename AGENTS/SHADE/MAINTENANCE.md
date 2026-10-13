@@ -6,6 +6,14 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 
 
+### 2026-10-12T22:10:12-04:00 — Will-requested closeout and restart handoff
+
+- Rewrote SCRATCH for next spawn, keeping accepted qualifications, exact source/consumption versions, L673October13, October23 owner work and WQ422–424. STATUS metadata reflects closeout without refreshing market/source observations or grades; final NEXUS fold follows final STATUS commit.
+- Copied84 already recovered raw/scratch artifacts (25,601,491B), hash-verified, from/tmp to dedicated persistent `/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12/` outsideGit. Added small CLOSEOUT_STORAGE receipt; rawPDFs not committed or remotely replicated.
+- Retirement scan:9 old dated files; four directly carried and five reproduction dependencies for live FABN wall/paired-canary/supply instrument, retained. No tmp dirs. EightMarch foundationalnotes stale-marked, no refresh. Promotion scan: qualifiers/lessons already in research/canon; no auto-memory or MEMORY append/rotation. No new research, definitions, thresholds, grades, feeds, helper or paid/outreach access.
+
+---
+
 ### 2026-10-12T20:55:58-04:00 — accepted-result consumption checkpoint
 
 - Added owned acceptance/consumption receipt; STATUS/SCRATCH retain source qualifications and acquisition priority within existing WQ422. Verified exact PROME309b2f165 consumption/arithmetical replication; WQ423/424 remain owner-specification work, no approved definitions.
