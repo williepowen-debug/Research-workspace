@@ -201,5 +201,24 @@
     "logged_total": 37,
     "unlogged": [],
     "skipped": []
+  },
+  "final_owner_source_confirmation": {
+    "observed_at": "2026-10-13T19:25:03.948900-04:00",
+    "sources": [
+      {
+        "path": "AGENTS/BRENT/research/2026-10-13_energy-wait/REPORT.md",
+        "sha256": "7b92633d494c808ee90dd3df3053eb541e538eb65adb88e539c420c4ecda45b6",
+        "commit": "e40ea12fbf0475f7fd00c30f38379fcade7d465e",
+        "status": "committed final bytes read; owner synthesis consumed, independent primary/held-rule acceptance separate"
+      },
+      {
+        "path": "AGENTS/DEWEY/output/2026-10-13_diesel-delivery-and-primary-document-checkpoint.md",
+        "sha256": "5be083663c8939fdc6c6f2cb90868a61af20c47aebeb455a766e76384a139e92",
+        "commit": "86686cdb360e819150d3739e88d807ff3aec0209",
+        "status": "committed final bytes read; owner synthesis consumed, independent primary/held-rule acceptance separate"
+      }
+    ],
+    "verdict": "PASS; energy WAIT unchanged",
+    "independent_primary_or_held_rule_grade": false
   }
 }

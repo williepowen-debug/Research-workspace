@@ -14,6 +14,8 @@ October13 PROME broker packet and fullActivity supplement consumed: QQQ755C expi
 
 Prior sweep/L694/L372 source/acceptance and machine-portability record preserved verbatim in archive/2026-10-12_machine-switch-continuity_preserved-2026-10-13.md. No new durable risk rule or broaddesk sweep. Current validation/persistence limits in dateddelivery; recipientconsumption/publication not inferred.
 
+Final committed-source reconciliation: BRENT e40ea12fb/DEWEY86686cdb3 exact final bytes consumed; energyWAIT/deliveredincrementPARTIAL unchanged. Final source recovery is not held-VLOgrade/acceptance. Core cfa7b9ae4/delivery1706da686 saved locally; push/notification/recipientconsumption still pending. See report/evidence/outbox finaladdendum.
+
 ## Next Session — start here
 
 1. Reconcile inbox and processed against dateddelivery/exactsources before repeating work. On changed bank/energy evidence use the report's reconsideration conditions; no duplicate quote or cargo/loanstudy. Existing DEWEYOctober14/physical-IEAOctober15 and Q3 owner dates remain; no continuous monitor promised.
