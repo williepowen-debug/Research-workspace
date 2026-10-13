@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-13T10:13:04.958915-04:00",
+  "safe_push_exit": 0,
+  "safe_push_receipt": "Pushed. CONFIRMED: HEAD 9519ce036 is on origin/master (fresh fetch).",
+  "published_commits": {
+    "boot": "3195ffaf68cbdd6ed710e42122b38585dbc95e8f",
+    "canonical_state_and_source_check": "1c90133bdd48b1b06ad7199d5a5087135e80a660",
+    "final_brief_and_prome_packet": "9519ce03635c624bb536d2f76a6cc824602fd5d5"
+  },
+  "origin_ancestor_checks": {
+    "boot": true,
+    "canonical_state_and_source_check": true,
+    "final_brief_and_prome_packet": true
+  },
+  "shade_worktree_clean_before_receipt": true,
+  "raw_sources": "84 files / 25,601,491 bytes verified; machine-local outside Git, not replicated by Git",
+  "foreign_uncommitted": "TERRY integration receipt, and any ongoing PROME-owned writes, are outside this SHADE closeout; not staged here",
+  "native_notification": "UNKNOWN; durable PROME inbox packet committed",
+  "recipient_consumption": "UNKNOWN",
+  "runtime_termination": "unobserved, user-controlled",
+  "receipt_publication": "this receipt is committed and pushed separately; exact final confirmation is in the owner response"
+}
