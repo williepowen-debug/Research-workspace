@@ -6,6 +6,13 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 
 
+### 2026-10-12T20:55:58-04:00 — accepted-result consumption checkpoint
+
+- Added owned acceptance/consumption receipt; STATUS/SCRATCH retain source qualifications and acquisition priority within existing WQ422. Verified exact PROME309b2f165 consumption/arithmetical replication; WQ423/424 remain owner-specification work, no approved definitions.
+- No new source route, research/number/charter/score change, broad pass, queue acknowledgment loop or lifecycle action. Existing dates preserved; final NEXUS fold follows this STATUS commit. Readcap0; no live ledger or auto-memory changes.
+
+---
+
 ### 2026-10-12T20:31:53-04:00 — consequential-gap reconciliation and source receipts
 
 - Added bounded nine-gap investigation, primary-source index/access receipts/structured numeric inputs and reproducible arithmetic script. Same audited vintage, statutory ABS class, issuer carrying bridge, partial AMAPS sum and unknown-guarantee-base safeguards verified. RawstatutoryPDFs/fullHTML/extraction retained outsideGit in/tmp with byte/hashmanifest; no installation or paid/outreach/helper access.
