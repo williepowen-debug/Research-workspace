@@ -1,0 +1,5 @@
+  ✅ AGENTS/MIDAS/STATUS.md                               13,219 B    41% of budget  
+  ✅ AGENTS/MIDAS/OPEN_ITEMS.md                           11,586 B    36% of budget  
+  ✅ AGENTS/MIDAS/SCRATCH.md                               7,367 B    23% of budget  
+  ✅ AGENTS/MIDAS/THESIS.md                               14,082 B    43% of budget  
+  ✅ AGENTS/MIDAS/NEXUS_BRIEF.md                           7,225 B    22% of budget  

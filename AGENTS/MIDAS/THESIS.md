@@ -1,6 +1,6 @@
 # MIDAS — current thesis and transmission rules
 
-**Reviewed2026-10-12, Will-approved maintenance.** Actual M1/M2/I1/I2=4/1/1/2, composite8/20. The full displaced derivation/history is preserved verbatim in `analysis/BEFORE_MAINTENANCE_2026-10-12_THESIS.md`; read that record for July/August tests, not current prices. No numerical threshold or frozen prediction changed.
+**Closeout-reviewed2026-10-13; research/market evidence remains datedOctober12 or earlier.** Actual M1/M2/I1/I2=4/1/1/2, composite8/20. The full displaced derivation/history is preserved verbatim in `analysis/BEFORE_MAINTENANCE_2026-10-12_THESIS.md`; read that record for July/August tests, not current prices. No numerical threshold or frozen prediction changed.
 
 Metals carry two macro tells: monetary demand/rates through gold and silver, industrial demand/supply through copper and PGMs. Keep the shared monetary/precious root explicit rather than treating correlated metal moves as independent votes. Prices are thermometers with rates, USD, positioning, inventories and demand confounds; a price pattern does not identify a causal share.
 
@@ -68,6 +68,6 @@ PRIMARY JM May2026 model2025auto share: Pd81.13%versusPt41.51%; hybridentreatmen
 
 ## Shared obligations and boundaries
 
-M1 draft reviewOctober19; MIDAS-09/10 October30 close, next-business-day first retrieval and November6 backstop. Their metal-per-share-basis ambiguity is reviewed in `analysis/2026-10-12_forecast-basis-review.md`; no unilateral narrowing of the scored set. The existing unscored floor endsNovember1 21:40ET; the M1 draft's November20 date is not armed. Platts FSAJA04 dated spot price remains UNAVAILABLE from the inspected public product/methodology pages; retry when source access changes. No paid feed, miner channel, new score gate or trade is installed. Miners remain out of scope unless they diverge>20% from the metal over a quarter.
+M1 draft reviewOctober19; MIDAS-09/10 October30 close, next-business-day first retrieval and November6 backstop. Their metal-per-share-basis ambiguity is reviewed in `analysis/2026-10-12_forecast-basis-review.md` and registered as WQ-421 dueOctober29; no unilateral narrowing of the scored set or automatic STUCK. WQ-368 shared CROSSING encoding is complete. The existing unscored floor endsNovember1 21:40ET; the M1 draft's November20 date is not armed. Platts FSAJA04 dated spot price remains UNAVAILABLE from the inspected public product/methodology pages; retry when source access changes. No paid feed, miner channel, new score gate or trade is installed. Miners remain out of scope unless they diverge>20% from the metal over a quarter.
 
 BOND owns rate levels; ZHAO owns China/import interpretation; LIQUID/HENRY consume macro transmission; HAWK owns geopolitical production inputs; TERRY constructs trades and owns current book sensitivities; Will approves capital actions. Historical derivations and lessons remain in the exact archive. Sources and calculations: due-review, PGM follow-up, M1 draft/expanded-reference and approved-maintenance result, with their dated raw evidence.

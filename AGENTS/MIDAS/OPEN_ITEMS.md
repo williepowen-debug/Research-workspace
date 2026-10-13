@@ -1,6 +1,10 @@
 # MIDAS — current open items
 
-**Updated2026-10-12, approved maintenance.** Read with STATUS's top3; change both when a top3 item changes. The complete pre-maintenance102-line register is preserved verbatim in `analysis/BEFORE_MAINTENANCE_2026-10-12_OPEN_ITEMS.md`. Closed historical grading records remain there and in their dated resolution artifacts; no prediction is reopened by this compression.
+**Closeout-reviewed2026-10-13; market/source evidence remains datedOctober12 or earlier.** Read with STATUS's top3; change both when a top3 item changes. The complete pre-maintenance102-line register is preserved verbatim in `analysis/BEFORE_MAINTENANCE_2026-10-12_OPEN_ITEMS.md`. Closed historical grading records remain there and in their dated resolution artifacts; no prediction is reopened by this compression.
+
+## Closeout reconciliation
+
+PROME consumed all delivered MIDAS results; latest exact thesis receipt943667b4d. WQ-368 is RULED/shared-encoded; WQ-421 remains OPEN, dueOctober29. Preserve frozen MIDAS-09/10, next-US-business-day retrieval andNovember6 backstop; no automatic STUCK or retrofit. Next weekly reviewOctober19; NornickelOctober26/WPICNovember18 and ordinaryChina/LBMA releases retain existing scope. Inbox unprocessed0/namedcorrections0. Remaining source gaps are not unfinished commissioned research passes.
 
 ## 28. October12 bounded thesis test — complete at the evidence limit
 
@@ -20,7 +24,7 @@ Current THESIS/FLOW/VX source and contract statements are reconciled, displaced 
 
 ## 25. WQ-352 bands adopted; WQ-368 CROSSING recommendation approved
 
-Will's October12 “Okay approved go ahead” accepts the sit-rep's CROSSING recommendation; `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md` records the context. PROME owns the shared-row writeback and superseded September30 example. Preserve the November1 21:40ET floor. Actual M2=1/I2=2/composite8/20. Current all-levels counterfactual11/20 is not automatic future scoring. Platinum−15% crossedOctober7 after approval and recovered. Palladium−20% crossedOctober1 before21:40 approval; no qualifying recross throughOctober9. State legs do not latch recovered levels. No fresh source re-fitting or crash-decay change.
+Will's October12 “Okay approved go ahead” accepts the sit-rep's CROSSING recommendation; `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md` records the context. PROME completed the shared-row writeback and superseded September30 example; no further approval owed. Preserve the November1 21:40ET floor. Actual M2=1/I2=2/composite8/20. Current all-levels counterfactual11/20 is not automatic future scoring. Platinum−15% crossedOctober7 after approval and recovered. Palladium−20% crossedOctober1 before21:40 approval; no qualifying recross throughOctober9. State legs do not latch recovered levels. No fresh source re-fitting or crash-decay change.
 
 ## 24. Futures/source reliability — binding source repaired, settlement seam remains
 
@@ -51,7 +55,7 @@ PRIMARY World Silver Survey2026 printedp9 confirms2026F PV151.0Moz/−19%, indus
 ## Calendars, carried clauses and preserved records
 
 - TERRY's duration sleeve: mirrored TLT82P expiresOctober16, managementOctober14; owner sensitivities/capture time unverified, off-repo broker truth controls. MIDAS proposes no order.
-- MIDAS-09/10: October30 close, next-US-business-day first retrieval, November6 source backstop. No early grade. Their frozen metal-per-share clause needs interpretation review under WQ-161; prospective replacement wording is concrete, live rows untouched.
+- MIDAS-09/10: October30 close, next-US-business-day first retrieval, November6 source backstop. No early grade. Their frozen metal-per-share clause has interpretation review registered as WQ-421, dueOctober29, under WQ-161; prospective replacement wording is concrete, live rows untouched.
 - Quarterly CB gate: WGC PRIMARY Q2 table288.9t recheckedOctober12; Q1 old244t now57t is a labelled revision, not current support. Monthly reported buying never replaces the quarter. Next quarterly publication/vintage review remains owned by MIDAS; no invented release date or regrade.
 - Platts sulfur/acid spot: public product/methodology read identifies weekly FSAJA04 but no dated numeric quote. UNMEASURED; retry when approved access changes rather than carrying a weekly “owed” search indefinitely.
 - Miner equities: out of scope (8/14 ruling); trigger to reconsider is>20% divergence from the metal over a quarter.

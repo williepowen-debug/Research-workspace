@@ -1,0 +1,1 @@
+⚠️  nudge: [MIDAS] STATUS moving without ledgers — 1 ledger(s) behind: PREDICTIONS.tsv (12 STATUS-writes behind; ⛔ 1 Kernel-pinned row(s): id=MIDAS-06 — byte-frozen, refresh only UNPINNED rows) — freeze-or-refresh EACH, or say why not in the commit

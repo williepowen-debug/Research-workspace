@@ -1,7 +1,9 @@
 # MIDAS — STATUS
 
-**Updated October12,2026, after Will's bounded China-auto / silver thesis test; final maintenance boot retained.** Actual M1/M2/I1/I2=**4/1/1/2, composite8/20**. Palladium supply-tightening-only thesis WEAKENED; platinum overall UNCHANGED with automotive rebound support WEAKENED. Silver total-depletion narrative WEAKENED; available-supply tightness UNRESOLVED. Result `analysis/2026-10-12_metals-thesis-test.md`; prior maintenance/history remains preserved.
-**Class:** Market-agent · L4 · WEEKLY · five boot legs: metals, ledger age, predictions, gold COT, Ag/Pt/Pd COT. Existing Codex window remains open.
+**Closeout October13,2026, on Will's direct request; market evidence remains dated October12 or earlier.** Actual M1/M2/I1/I2=**4/1/1/2, composite8/20**. Palladium supply-tightening-only thesis WEAKENED; platinum overall UNCHANGED with automotive rebound support WEAKENED. Silver total-depletion narrative WEAKENED; available-supply tightness UNRESOLVED. Result `analysis/2026-10-12_metals-thesis-test.md`; prior maintenance/history remains preserved.
+**Class:** Market-agent · L4 · WEEKLY · five boot legs: metals, ledger age, predictions, gold COT, Ag/Pt/Pd COT. Research work closed out; handoff `analysis/2026-10-13_CLOSEOUT.md`. No new market pull.
+
+**Coordination reconciled:** all delivered bounded results consumed by PROME at their exact versions, latest thesis receipt `943667b4d:PROME/reports/2026-10-12_laptop-round2.md`. WQ-368 shared encoding DONE; WQ-421 dueOctober29. Peer adoption is separate. Inbox unprocessed0 and named correction obligations0 at closeout. No market/source refresh.
 
 ## Dated evidence
 
@@ -28,7 +30,7 @@ LME latest **231275t October12**, versus234275t trailing2yr median (n505), **−
 | I1 | Copper / China | 1 | Slow mine recovery/firm import pricing; upside remainsunscoreable | China/industrial root | PRIMARY FCX10/2district67%normalizedcapacity; Reuters10/9Yangshan$135/tMEDIA; primaryvenuepointsretained | Existing copper−20% AND LME+100%; no adopted upsideband |
 | I2 | Platinum / palladium | 2 | Pd tightening-only weaker; Pt overall unchanged / auto rebound weaker | Industrial plusprecious/supply roots | PRIMARY CADA revisedSept non-BEVproductionproxy−21.77%; WPICSep9China2026autoPt−9% alreadyforecast; no proportionalPGMpercentage | Existing confirmedSA/Russiadisruption rule and adopted unscoredbands |
 
-**CROSSING recommendation approved October12** in response to the sit-rep; approval evidence `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md`. PROME owns shared WQ-368 writeback. The floor remains **November1 21:40ET**, all numerical bands unchanged. Reviewed counterfactual11/20 is diagnostic. PPLT−15% crossedOctober7 after approval and recovered; PALL−20% crossedOctober1 before21:40 approval, no qualifying recross throughOctober9. Trend state does not latch an old cross. October12 SLV/PPLT/PALL d200=−17.30/−13.22/−22.37%; crash legs decayed1 and upside legs1. No new T/C/S crossing onOctober12. Earlier crossing history throughOctober9 remains unchanged.
+**CROSSING recommendation approved October12** in response to the sit-rep; approval evidence `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md`. PROME completed shared WQ-368 writeback; no further approval owed. The floor remains **November1 21:40ET**, all numerical bands unchanged. Reviewed counterfactual11/20 is diagnostic. PPLT−15% crossedOctober7 after approval and recovered; PALL−20% crossedOctober1 before21:40 approval, no qualifying recross throughOctober9. Trend state does not latch an old cross. October12 SLV/PPLT/PALL d200=−17.30/−13.22/−22.37%; crash legs decayed1 and upside legs1. No new T/C/S crossing onOctober12. Earlier crossing history throughOctober9 remains unchanged.
 
 
 | ETF | d200 / T level | C dd252 / decayed level | S d200 upside / level | Would-be max |
@@ -64,10 +66,10 @@ PRIMARY HammackOct12 12:50EDT favorsrestrictivestance/smallerpromptadjustments, 
 ## Open on MIDAS — top3
 
 1. **October19 M1 review:** expanded4186-pair reference preserves grid phase:9 eligible disjoint-input episodes,2 flips, all pre2022. Longer raw-history gap partly closed; regime comparability and historical resolving-vintage snapshots remain inadequate. Draft unpriced/unregistered; no forward probability from22.22%.
-2. **October30 forecast interpretation:** MIDAS-09/10 frozen rows/probabilities unchanged. Fee-depletion versus structural-basis meaning reviewed; concrete prospective wording prepared. PROME must register the interpretation question under WQ-161 before grading. Next-business-day first retrieval, November6 backstop. WQ-368 approval needs shared-owner encoding, not a second choice.
+2. **October30 forecast interpretation:** MIDAS-09/10 frozen rows/probabilities unchanged. Fee-depletion versus structural-basis meaning reviewed; concrete prospective wording prepared. PROME registered WQ-421, dueOctober29 before grading, under WQ-161; no automatic STUCK or retroactive narrowing. Next-business-day first retrieval, November6 backstop. WQ-368 approval is shared-encoded; no second choice.
 3. **Mechanism evidence:** China auto categories/revisedbases and directionalPGMbridge nowtested; Septembermetalgramloadings/CKDfitment, PGM matchedquantities/leases andcopperimports/lag remainabsent. Silver totalstocksweaken depletion-only; Londonavailablefloat/leases/Indiaimports unresolved. ExistingOctober26Nornickel/November18WPICchecks retained. BISboundednamed-term screen0hitsnotindirect-controlabsence. Plattsdatedquoteunavailable; retryonaccesschange. SharedFORGEseamrouted.
 
-Full obligations `OPEN_ITEMS.md`; current derivation `THESIS.md`; sources/register and raw calculations linked from maintenance result. Broad review, PGM follow-up and original M1 draft already consumed by PROME (`4cd432755` for M1). This new result's delivery/consumption is tracked separately. Own local commits; pull/push deferred while other desks have dirty work. No new trade, score gate or lifecycle action.
+Full obligations `OPEN_ITEMS.md`; current derivation `THESIS.md`; sources/register and raw calculations linked from maintenance result. Broad review, PGM follow-up and original M1 draft already consumed by PROME (`4cd432755` for M1). Maintenance/news/thesis results are consumed by PROME; latest exact-version receipt943667b4d. WQ-421 remains the existing interpretation decision. Closeout persistence/sync evidence is in `analysis/2026-10-13_CLOSEOUT.md`. Foreign uncommitted files remain untouched; no shared-tree pull. Will's direct closeout supersedes the earlier keep-open instruction; no new trade or score gate.
 
 ## Bottom line
 

@@ -1,0 +1,85 @@
+{
+  "observed_at": "2026-10-13T14:25:16.169173+00:00",
+  "scope": "Closeout-only, no market/source refresh",
+  "actual": [
+    4,
+    1,
+    1,
+    2
+  ],
+  "composite": 8,
+  "checks": {
+    "KB.tsv": "PASS: rectangular/unique IDs",
+    "VX.tsv": "PASS: rectangular/unique IDs",
+    "FLOW.tsv": "PASS: rectangular/unique IDs"
+  },
+  "whole_read": {
+    "STATUS.md": {
+      "bytes": 13219,
+      "lines": 81,
+      "under_budget": true
+    },
+    "OPEN_ITEMS.md": {
+      "bytes": 11586,
+      "lines": 64,
+      "under_budget": true
+    },
+    "SCRATCH.md": {
+      "bytes": 7367,
+      "lines": 30,
+      "under_budget": true
+    },
+    "THESIS.md": {
+      "bytes": 14082,
+      "lines": 73,
+      "under_budget": true
+    },
+    "NEXUS_BRIEF.md": {
+      "bytes": 7225,
+      "lines": 34,
+      "under_budget": true
+    }
+  },
+  "frozen": {
+    "PREDICTIONS.tsv": {
+      "sha256": "50bbe5bfdd4f4a6bd35be4ffc23b07f7f866564e9c2a5c3cf0389ed2094f3212",
+      "unchanged": true
+    },
+    "MIDAS-06_KERNEL_NATIVE_COMPANION.json": {
+      "sha256": "c6f63516ad4cb0f52bdb15f1b2b0851f713dfe7f064903631502986718a15f66",
+      "unchanged": true
+    }
+  },
+  "open_predictions": [
+    {
+      "id": "MIDAS-09",
+      "resolve_date": "2026-10-30"
+    },
+    {
+      "id": "MIDAS-10",
+      "resolve_date": "2026-10-30"
+    }
+  ],
+  "unprocessed_inbox_count": 0,
+  "declared_whole_read_bytes": 53479,
+  "ledger_noops": {
+    "PREDICTIONS": "Frozen unchanged; no new forecast/due grade",
+    "FLOW/VX": "No new mechanism/vector/score; no-op",
+    "TRADE": "Adapted no-book reviewed; last real data refreshOct12 retained"
+  },
+  "durable_lesson_auto_memory": "No new lesson or auto-memory; no scoped memory-index write required",
+  "research": "No new source pulls or operational code; prior34/34 checks remaindated",
+  "recipient_consumption": "PROME exact thesis943667b4d and prior report sections verified; peer adoption separate",
+  "foreign_staged_paths": [
+    "AGENTS/WALTER/inbox/processed/2026-10-12_from-MIDAS_news-thesis-test-correction.md"
+  ],
+  "orphan_advisory_exception": {
+    "path": "AGENTS/WALTER/inbox/processed/2026-10-12_from-MIDAS_news-thesis-test-correction.md",
+    "original_author_packet_commit": "aa7494d86ed16c2fe6ac3707169413d813552c6c",
+    "state": "RECIPIENT_MOVE_IN_PROGRESS",
+    "disposition": "Original packet alreadyauthorcommitted; live processed rename belongs to WALTER and remains untouched. Not an uncommitted MIDAS-authored delivery."
+  },
+  "corrections_check": "PASS: 0 unreceipted NAMED rows; expiredbroadcastinfoonly",
+  "claim_check": "PASS: four existing weekday surfaces",
+  "ledger_nudge": "Forecast file deliberately unchanged: MIDAS06 pinned, MIDAS09/10 frozen/notdue; no new forecast. Commit message records disposition."
+}
