@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Structural/latent insurer-wrapper stress; evidence remains partial.
 **Domain:** PE-owned insurer assets, statutory capital, reinsurance and funding transmission.
-**As of:** 2026-10-12T20:36:40-04:00 | **STATUS commit:** `4e6ebbb83d0d0fdd16228c05bbd57c8a67fbcc8a`
+**As of:** 2026-10-12T20:56:28-04:00 | **STATUS commit:** `ff98c26cdcade15c29787e2309a2380a8e351a19`
 **Fold:** LAST canonical write after final STATUS commit, amendments10/11. Existing Will-owned window, no lifecycle closeout.
 
 | To | Signal | Priority | Mechanism / boundary |
@@ -22,6 +22,6 @@
 
 **L673 retained:** firsteligibleOctober13 afterregularclose; renew LIQUIDdatedlevel/count/last≤280anchor +sixcommonRAWcloses, ADJdiagnostic. Prior count10through315[10/8]/anchor280[9/24] andOct12returns are predecessors only. Missing/mixedwithholds; historicalOct10firePROVISIONAL. EligibleMET digAAIABA→ADSfacilities→F&G/Brighthouse/CorebridgeBA→BROCK, not executed by thispass. X1 separate. October23 predictions/declaredflatTRADE/falsifier/calibration/MEMORY/ARI/definition/SVO obligations remain; ApolloRSsourcecross-check completed, noautomaticdischarge.
 
-**Evidence/delivery:** `research/GAP_INVESTIGATION_2026-10-12.md`, sourceindex/routes/inputs/script.55plan/resultentries include4unused and1disclosedafter-useFedroute, not exhaustive research. Rawsource scratch outsideGit, hashes verified. One consolidated access/definition request through committedPROMEpacket; no paid/outreach/helper/feed/charter/capital change. Notificationacceptance and consumption separate; currentrecipientconsumption unverified. Prior pairqueue and776eed4eb sourceconsumption verified; no all-fleet transport claim.
+**Evidence/delivery:** `research/GAP_INVESTIGATION_2026-10-12.md`, sourceindex/routes/inputs/script.55plan/resultentries include4unused and1disclosedafter-useFedroute, not exhaustive research. Rawsource scratch outsideGit, hashes verified. PROME consumed exacte586 delivery/4e6 result at309b2f165 and reproduced stored arithmetic; not independent source/classification/model audit. WQ422 is existing-data access; next decisive acquisition ClearSpring83607 correctedFY25+Q2 fullstatutory/Q1bridge, freeNAICsummary firststep only. WQ423/424 await SHADE exact liquidity/unknown and TSR-or-R/T specs under L241/October23, not adoptedrules. Will accepts passCOMPLETE/evidencePARTIAL; no new sourcepass, paid/outreach/helper/feed/charter/capital change or acknowledgment-only queue loop. All dated assessments retained; reassess on new evidence. Downstream/origin unverified; no all-fleet certificate.
 
-**Prior edition:** `git show 7582957b5:AGENTS/SHADE/NEXUS_BRIEF.md`, historical.
+**Prior research-result edition:** `git show e58610294:AGENTS/SHADE/NEXUS_BRIEF.md`, historical; acceptance checkpoint changes receipt/access priority only.
