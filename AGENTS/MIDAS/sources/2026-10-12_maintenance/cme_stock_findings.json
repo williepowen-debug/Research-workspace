@@ -1,0 +1,80 @@
+{
+  "copper": {
+    "unit": "Short Tons",
+    "report_date": "Report Date: 10/12/2026",
+    "activity_date": "Activity Date: 10/9/2026",
+    "rows_zero_based": {
+      "77": {
+        "previous": 475868.0,
+        "received": 0.0,
+        "withdrawn": 0.0,
+        "net": 0.0,
+        "adjustment": -5659.0,
+        "today": 470209.0
+      },
+      "78": {
+        "previous": 310462.0,
+        "received": 838.0,
+        "withdrawn": 371.0,
+        "net": 467.0,
+        "adjustment": 5660.0,
+        "today": 316589.0
+      },
+      "79": {
+        "previous": 786330.0,
+        "received": 838.0,
+        "withdrawn": 371.0,
+        "net": 467.0,
+        "adjustment": 1.0,
+        "today": 786798.0
+      }
+    },
+    "row_labels": {
+      "77": "Total Registered (warranted)",
+      "78": "Total Eligible (non-warranted)",
+      "79": "TOTAL COPPER"
+    },
+    "warehouse_and_category_identities": "PASS",
+    "primary_url": "https://www.cmegroup.com/delivery_reports/Copper_Stocks.xls",
+    "metric_tonnes_today": 713771.13906252
+  },
+  "silver": {
+    "unit": "Troy Ounce",
+    "report_date": "Report Date: 10/12/2026",
+    "activity_date": "Activity Date: 10/9/2026",
+    "rows_zero_based": {
+      "77": {
+        "previous": 102813954.65099996,
+        "received": 0.0,
+        "withdrawn": 0.0,
+        "net": 0.0,
+        "adjustment": -56321.2,
+        "today": 102757633.45099998
+      },
+      "78": {
+        "previous": 228994961.72640002,
+        "received": 306690.776,
+        "withdrawn": 2241536.366,
+        "net": -1934845.59,
+        "adjustment": 56321.2,
+        "today": 227116437.33640003
+      },
+      "79": {
+        "previous": 331808916.3774,
+        "received": 306690.776,
+        "withdrawn": 2241536.366,
+        "net": -1934845.59,
+        "adjustment": 0.0,
+        "today": 329874070.7874
+      }
+    },
+    "row_labels": {
+      "77": "TOTAL REGISTERED",
+      "78": "TOTAL ELIGIBLE",
+      "79": "COMBINED TOTAL"
+    },
+    "warehouse_and_category_identities": "PASS",
+    "primary_url": "https://www.cmegroup.com/delivery_reports/Silver_stocks.xls",
+    "registered_share_pct": 31.150563973009586
+  }
+}

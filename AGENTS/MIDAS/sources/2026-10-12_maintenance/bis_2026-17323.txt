@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 163 (Tuesday, August 25, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 163 (Tuesday, August 25, 2026)]
+[Notices]
+[Pages 54846-54847]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-17323]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+Bureau of Industry and Security
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget (OMB) for Review and Approval; Comment 
+Request; Directive Allocation Orders Under the Defense Priorities and 
+Allocations System in Response to Presidential Determination on 
+Recoverable Critical Minerals and Materials
+
+AGENCY: Bureau of Industry and Security, Commerce.
+
+ACTION: Notice of information collection, request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Commerce, in accordance with the Paperwork 
+Reduction Act of 1995 (PRA), invites the general public and other 
+Federal agencies to comment on proposed, and continuing information 
+collections, which helps us assess the impact of our information 
+collection requirements and minimize the public's reporting burden. The 
+purpose of this notice is to allow for 60 days of public comment on the 
+OMB approved emergency collection for the Temporary Final Rule ``DPAS 
+Directive Allocation Order and Additional Requirements for Recoverable 
+Critical Minerals and Materials'' (August 6, 2026, 91 FR 50701).
+
+DATES: To ensure consideration, comments regarding this proposed 
+information collection must be received on or before October 26, 2026.
+
+ADDRESSES: Interested persons are invited to submit comments by email 
+to Nancy Kook, IC Liaison, Bureau of Industry and Security, at 
+<a href="/cdn-cgi/l/email-protection#11414350517378623f757e723f767e67"><span class="__cf_email__" data-cfemail="bceceefdfcded5cf92d8d3df92dbd3ca">[email&#160;protected]</span></a> or to <a href="/cdn-cgi/l/email-protection#8fdfddceece0e2e2eae1fbfccfebe0eca1e8e0f9"><span class="__cf_email__" data-cfemail="18484a597b7775757d766c6b587c777b367f776e">[email&#160;protected]</span></a>. Please reference OMB Control 
+Number 0694-0148 in the subject line of your comments. Do not submit 
+Confidential Business Information or otherwise sensitive or protected 
+information.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+specific questions related to collection activities should be directed 
+to Nancy Kook, IC Liaison, Bureau of Industry and Security, phone 202-
+482-2440 or by email at <a href="/cdn-cgi/l/email-protection#3b6b697a7b595248155f5458155c544d"><span class="__cf_email__" data-cfemail="1444465554767d673a707b773a737b62">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Abstract
+
+    Bureau of Industry and Security's Office of Strategic Industries 
+and Economic Security administers the Defense Priorities and 
+Allocations System regulation which implements the priorities and 
+allocations authority under Title I of the Defense Production Act of 
+1950, as amended (50 U.S.C. 4501, et seq.), delegated to the Secretary 
+of Commerce (the Secretary) under Executive Order (E.O.) 13603 with 
+respect to all materials, services, and facilities, including 
+construction materials (``industrial resources''), not delegated to 
+other Secretaries. On July 30, 2026, the President issued a 
+Presidential Determination, ``Presidential Determination Pursuant to 
+Section 101 of the Defense Production Act of 1950, as Amended, on 
+Recoverable Critical Minerals and Materials'' (Presidential 
+Determination No. 2026-19). Under Presidential Determination No. 2026-
+19, the President found that recoverable Critical Minerals and 
+Materials (CMMs) are scarce and critical materials essential to the 
+national defense and authorized the Secretary to take all appropriate 
+action under section 101 of the DPA with respect to recoverable CMMs 
+and to use this authority to determine the proper nationwide priorities 
+and allocations of all materials, services, and facilities necessary to 
+ensure a continued and adequate supply of recoverable CMMs.
+    Directive Allocation Orders issued under the DPAS regulation will 
+collect certain critical information from companies as specified in 
+rules issued to effectuate Presidential Determination No. 2026-19 and 
+ensure compliance with the DPAS regulation and the Directive Allocation 
+Orders issued, as described in section 700.91 of the DPAS regulation. 
+The details of the Directive Allocation Orders issued, including the 
+records required to be submitted in accordance with section 700.91 of 
+the DPAS regulation, were published in the August 6, 2026 Temporary 
+Final Rule.
+
+II. Method of Collection
+
+    Electronic.
+
+III. Data
+
+    OMB Control Number: 0694-0148.
+    Type of Information Collection: Regular submission, extension of a 
+current information collection.
+    Affected Public: Business or other for-profit organizations.
+    Estimated Number of Respondents: 600.
+    Average Responses per Year: 1.
+    Average Number of Responses: 600.
+    Estimated Time per Response: 5.21 hours.
+    Estimated Total Annual Burden Hours: 3,126 hours.
+    Respondent's Obligation: Voluntary.
+    Legal Authority: Presidential Determination No. 2026-19; Title I of 
+the Defense Production Act of 1950, as amended (DPA).
+
+IV. Request for Comments
+
+    We are soliciting public comments to permit the Department/Bureau 
+to: (a) Evaluate whether the proposed information collection is 
+necessary for the proper functions of the Department, including whether 
+the information will have practical utility; (b) Evaluate the accuracy 
+of our estimate of the time and cost burden for this proposed 
+collection, including the validity of the methodology and assumptions 
+used; (c) Evaluate ways to enhance the quality, utility, and clarity of 
+the information to be collected; and (d) Minimize the reporting burden 
+on those who are to respond, including the use of automated collection 
+techniques or other forms of information technology.
+    Comments that you submit in response to this notice are a matter of 
+public record. We will include or summarize each comment in our request 
+to OMB to approve this ICR. Before including your address, phone 
+number, email address, or other personal identifying information in 
+your comment, you should be aware that your entire comment--including 
+your
+
+[[Page 54847]]
+
+personal identifying information--may be made publicly available at any 
+time. While you may ask us in your comment to withhold your personal 
+identifying information from public review, we cannot guarantee that we 
+will be able to do so.
+
+Sheleen Dumas,
+Departmental PRA Compliance Officer, Office of the Under Secretary for 
+Economic Affairs, Commerce Department.
+[FR Doc. 2026-17323 Filed 8-24-26; 8:45 am]
+BILLING CODE 3510-33-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

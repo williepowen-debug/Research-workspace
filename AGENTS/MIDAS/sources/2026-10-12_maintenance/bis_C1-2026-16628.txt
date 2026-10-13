@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 166 (Friday, August 28, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 166 (Friday, August 28, 2026)]
+[Rules and Regulations]
+[Page 55457]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: C1-2026-16628]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+Bureau of Industry and Security
+
+15 CFR Parts 740, 744, and 774
+
+[Docket No. 260723-0178]
+RIN 0694-AK30
+
+
+Streamlining Export Controls for Drone Exports
+
+Correction
+
+    In rule document 2026-16628, appearing on pages 52501 through 
+52508, in the issue of Friday, August 14, 2026, make the following 
+correction:
+
+Supplement No. 1 to Part 774 [Corrected]
+
+0
+On page 52507, in Supplement No.1 to Part 774, in the third column, on 
+the 14th line from the top, ``List of Items 
+Controlled[MISSING[square]'' should read ``List of Items Controlled''.
+
+[FR Doc. C1-2026-16628 Filed 8-27-26; 8:45 am]
+BILLING CODE 0099-10-D
+
+
+</pre></body>
+</html>

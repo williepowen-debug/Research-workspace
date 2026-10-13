@@ -1,0 +1,133 @@
+[
+  {
+    "url": "https://www.cmegroup.com/delivery_reports/Copper_Stocks.xls",
+    "file": "cme_copper.xls",
+    "status": 200,
+    "bytes": 18432,
+    "content_type": "application/vnd.ms-excel",
+    "captured_at": "2026-10-12T23:31:30.890594+00:00",
+    "sha256": "5585ff56223406f74a34be3506a0e665cc440712168ba9be1d6b059ee4b18bb3"
+  },
+  {
+    "url": "https://www.cmegroup.com/delivery_reports/Silver_stocks.xls",
+    "file": "cme_silver.xls",
+    "status": 200,
+    "bytes": 16384,
+    "content_type": "application/vnd.ms-excel",
+    "captured_at": "2026-10-12T23:31:31.064955+00:00",
+    "sha256": "dec61a1b5828068177cd907190383ed0b972bd6485621471b5a23422c1fc06d3"
+  },
+  {
+    "url": "https://www.cmegroup.com/ftp/delivery_reports/",
+    "file": "cme_public_directory.html",
+    "status": 200,
+    "bytes": 8288,
+    "content_type": "text/html;charset=ISO-8859-1",
+    "captured_at": "2026-10-12T23:31:31.260066+00:00",
+    "sha256": "26a2d6be656e5c1367f0c29a349b384ebd16c182cedb456b26dbb4e89e7523d6"
+  },
+  {
+    "url": "https://www.shfe.cn/eng/reports/StatisticalData/WeeklyData/?query_params=weeklystock",
+    "file": "shfe_weekly.html",
+    "status": 200,
+    "bytes": 182913,
+    "content_type": "text/html; charset=utf-8",
+    "captured_at": "2026-10-12T23:31:33.902231+00:00",
+    "sha256": "f5532e8c0a5ce3e597f4f415f024ecd6d825870c07bf87dd24e3b970dc5e0fea"
+  },
+  {
+    "url": "https://www.shfe.com.cn/data/dataview/kx20261009.dat",
+    "file": "shfe_20261009.dat",
+    "status": 404,
+    "bytes": 4832,
+    "content_type": "text/html; charset=utf-8",
+    "captured_at": "2026-10-12T23:31:35.121890+00:00"
+  },
+  {
+    "url": "https://www.shfe.cn/data/dataview/kx20261009.dat",
+    "file": "shfe_cn_20261009.dat",
+    "status": 404,
+    "bytes": 4832,
+    "content_type": "text/html; charset=utf-8",
+    "captured_at": "2026-10-12T23:31:37.543241+00:00"
+  },
+  {
+    "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bpublication_date%5D%5Bgte%5D=2026-08-01&conditions%5Bpublication_date%5D%5Blte%5D=2026-08-28&per_page=1000&order=oldest",
+    "file": "bis_august_index.json",
+    "status": 200,
+    "count": 8,
+    "pages": 1
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/04/2026-15799.txt",
+    "file": "bis_2026-15799.txt",
+    "status": 200,
+    "bytes": 3660,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:38.075750+00:00",
+    "sha256": "8610861c1e9d952f8991d3acd604b9181c6b64db6a42df9d3006a1abd2035ff1"
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/06/2026-15961.txt",
+    "file": "bis_2026-15961.txt",
+    "status": 200,
+    "bytes": 12100,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:38.379389+00:00",
+    "sha256": "2cde1b852087df22e4bf3aed8060ffed73f3f9d52f2f4a138d985190555a3d49"
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/06/2026-16078.txt",
+    "file": "bis_2026-16078.txt",
+    "status": 200,
+    "bytes": 44797,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:38.658890+00:00",
+    "sha256": "fb8353ff5d382358290203e82913c8a0d80d974952cc8705e3e91c3a019c6778"
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/14/2026-16628.txt",
+    "file": "bis_2026-16628.txt",
+    "status": 200,
+    "bytes": 53890,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:38.967356+00:00",
+    "sha256": "df8f2131692bc9385c8fa90943c9643e37313287ced47314e75903815429d91d"
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/24/2026-17230.txt",
+    "file": "bis_2026-17230.txt",
+    "status": 200,
+    "bytes": 9063,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:39.404772+00:00",
+    "sha256": "8588de36d8ea32282b7c64475a539b8ec9a4439237eeae05bb6e61f627718e1f"
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/24/2026-17231.txt",
+    "file": "bis_2026-17231.txt",
+    "status": 200,
+    "bytes": 11172,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:39.679361+00:00",
+    "sha256": "b372f2f9bfe345bda91be19ece2079e54b2651ddf070dd11276dd7d81cd68987"
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/25/2026-17323.txt",
+    "file": "bis_2026-17323.txt",
+    "status": 200,
+    "bytes": 7212,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:39.986365+00:00",
+    "sha256": "026d04fd0d9ef78404d1bd0e1c87664d92603663d38037f15b7e87bba4a4f543"
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/full_text/text/2026/08/28/C1-2026-16628.txt",
+    "file": "bis_C1-2026-16628.txt",
+    "status": 200,
+    "bytes": 1172,
+    "content_type": "text/plain",
+    "captured_at": "2026-10-12T23:31:40.242328+00:00",
+    "sha256": "bcba603ac50d48d32b01a6e52f4965abe35f8a8f0f5de2c6908a0ddf259f2e37"
+  }
+]

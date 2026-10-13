@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.shfe.cn/eng/images/daily_weeklystock.js",
+    "file": "shfe_stock.js",
+    "status": 200,
+    "bytes": 25419,
+    "sha256": "49744d0bdd29becf1abf298607dd6c5db666a1a35795075dbef96b0119b6a009"
+  },
+  {
+    "url": "https://www.shfe.cn/eng/images/weekly_data.js",
+    "file": "shfe_page.js",
+    "status": 200,
+    "bytes": 12592,
+    "sha256": "c4698beec10309102fc590d8997c8de0733346f36acd153f500559869814a61c"
+  },
+  {
+    "url": "https://silverinstitute.org/wp-content/uploads/2026/04/World-Silver-Survey-2026.pdf",
+    "file": "World-Silver-Survey-2026.pdf",
+    "status": 200,
+    "bytes": 15262541,
+    "sha256": "dc7a35277822a20498319fc6737f17b9e8f8fa93e5ce49b6a6565967ae220383",
+    "full_pdf_local_only": "/tmp/midas_World-Silver-Survey-2026.pdf",
+    "retained_evidence": [
+      "silver_supply_demand_page.png",
+      "silver_table_page.txt",
+      "silver_page_locator.json"
+    ],
+    "full_pdf_committed": false
+  }
+]

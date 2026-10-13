@@ -1,0 +1,255 @@
+{
+  "description": "Documents published from 08/01/2026 to 08/28/2026 and from Industry and Security Bureau",
+  "count": 8,
+  "total_pages": 1,
+  "results": [
+    {
+      "title": "Notice of Reduction of Tariffs on Patented Pharmaceuticals and Pharmaceutical Ingredients for Products of the United Kingdom Implemented by Presidential Proclamation 11020",
+      "type": "Notice",
+      "abstract": "This notice revises the tariff rate on patented pharmaceuticals and associated pharmaceutical ingredients that are products of the United Kingdom from 10 percent to zero percent in accordance with Proclamation 11020 \"Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States.\"",
+      "document_number": "2026-15799",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/04/2026-15799/notice-of-reduction-of-tariffs-on-patented-pharmaceuticals-and-pharmaceutical-ingredients-for",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15799.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-15799.pdf?1785528908",
+      "publication_date": "2026-08-04",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": "This notice revises the tariff rate on patented pharmaceuticals and associated pharmaceutical ingredients that are products of the United Kingdom from 10 percent to zero percent in accordance with Proclamation 11020 \"Adjusting Imports of..."
+    },
+    {
+      "title": "Request for Public Comments on the Proposed Implementation of Duties on Additional Aluminum, Steel, and Copper Derivative Articles Under Section 232",
+      "type": "Notice",
+      "abstract": "This notice requests public comments on a proposal to include 14 additional derivative articles within the scope of the Section 232 duties on steel, aluminum, and copper: aluminum powder; brass-wind musical instruments and their parts and accessories; parts of welding machines and apparatus; floor safes; certain electric conductor cables; fire extinguishers; parts of heat exchange units; parts of certain hydraulic engines and motors; certain self-propelled cranes, mobile lifting frames, and straddle carriers; tanker trailers and semi- trailers; self-loading or self-unloading trailers and semi-trailers for agricultural purposes; certain other trailers and semi-trailers; and certain filled steel containers.",
+      "document_number": "2026-15961",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/06/2026-15961/request-for-public-comments-on-the-proposed-implementation-of-duties-on-additional-aluminum-steel",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-06/pdf/2026-15961.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-15961.pdf?1785847517",
+      "publication_date": "2026-08-06",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": "This notice requests public comments on a proposal to include 14 additional derivative articles within the scope of the Section 232 duties on steel, aluminum, and copper: aluminum powder; brass-wind musical instruments and their parts and accessories;..."
+    },
+    {
+      "title": "DPAS Directive Allocation Order and Additional Requirements for Recoverable Critical Minerals and Materials",
+      "type": "Rule",
+      "abstract": "The Bureau of Industry and Security (\"BIS\") is publishing this temporary final rule to restrict the exportation of black mass and tungsten waste and scrap without a license. Specifically, as of August 27, 2026, U.S. persons engaged in the sale of black mass and tungsten waste and scrap must allocate 100 percent of monthly sales to U.S. persons, unless an adjustment or exception is obtained in advance from BIS. This action is taken pursuant to section 101 of the Defense Production Act of 1950, as amended (\"DPA\" or the \"Act\"), the Defense Priorities and Allocations System (15 CFR part 700) and Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials, dated July 30, 2026 (\"DPA Determination on Recoverable CMMs\"), in which the President authorized the Department of Commerce (\"Commerce\") to address the scarcity of recoverable critical minerals and materials (\"CMMs\"). BIS invites the public to submit comments on whether any additional sales requirements are necessary or appropriate to promote the national defense.",
+      "document_number": "2026-16078",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/06/2026-16078/dpas-directive-allocation-order-and-additional-requirements-for-recoverable-critical-minerals-and",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-06/pdf/2026-16078.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-16078.pdf?1785874509",
+      "publication_date": "2026-08-06",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": "The Bureau of Industry and Security (\"BIS\") is publishing this temporary final rule to restrict the exportation of black mass and tungsten waste and scrap without a license. Specifically, as of August 27, 2026, U.S. persons engaged in the sale of black..."
+    },
+    {
+      "title": "Streamlining Export Controls for Drone Exports",
+      "type": "Rule",
+      "abstract": "The Bureau of Industry and Security (BIS) is easing export controls on certain Unmanned Aerial Vehicles (UAVs or drones) and related parts, components, accessories, attachments, technology, and software under the Export Administration Regulations (EAR). Specifically, this rule: eliminates wind gust tolerance as a parameter for determining UAV controls under the EAR; increases the threshold for national security controls on certain UAVs from an endurance of 30 minutes to an endurance of 3 hours; makes conforming changes to remove national security controls on software and technology associated with UAVs with an endurance less than 3 hours; maintains military end-use and end-user controls on those lower endurance drones and associated software and technology; clarifies Commerce Control List (CCL) controls for certain UAVs specially designed for military use; and removes national security controls on certain specially designed parts, components, accessories, and attachments for such UAVs as they do not provide any significant military or intelligence capabilities.",
+      "document_number": "2026-16628",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16628/streamlining-export-controls-for-drone-exports",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-14/pdf/2026-16628.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-16628.pdf?1786625117",
+      "publication_date": "2026-08-14",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": "The Bureau of Industry and Security (BIS) is easing export controls on certain Unmanned Aerial Vehicles (UAVs or drones) and related parts, components, accessories, attachments, technology, and software under the Export Administration Regulations..."
+    },
+    {
+      "title": "Removal From the Entity List",
+      "type": "Rule",
+      "abstract": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by removing one entity from the Entity List under the destination of Turkey.",
+      "document_number": "2026-17230",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/24/2026-17230/removal-from-the-entity-list",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-24/pdf/2026-17230.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-17230.pdf?1787316319",
+      "publication_date": "2026-08-24",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by removing one entity from the Entity List under the destination of Turkey."
+    },
+    {
+      "title": "Revisions to the Entity List",
+      "type": "Rule",
+      "abstract": "In this rule, the Bureau of Industry and Security (BIS) revises the Export Administration Regulations (EAR) by removing two addresses associated with Arrow Electronics (Hong Kong) Co., Ltd. from the Entity List under the destination of China, People's Republic of (China). This determination follows the removal from the Entity List of Arrow China Electronics Trading Co., Ltd., and the removal of six aliases for Arrow Electronics (Hong Kong) Co., Ltd. in November 2025.",
+      "document_number": "2026-17231",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/24/2026-17231/revisions-to-the-entity-list",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-24/pdf/2026-17231.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-17231.pdf?1787316319",
+      "publication_date": "2026-08-24",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": "In this rule, the Bureau of Industry and Security (BIS) revises the Export Administration Regulations (EAR) by removing two addresses associated with Arrow Electronics (Hong Kong) Co., Ltd. from the Entity List under the destination of China, People's..."
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Directive Allocation Orders Under the Defense Priorities and Allocations System in Response to Presidential Determination on Recoverable Critical Minerals and Materials",
+      "type": "Notice",
+      "abstract": "The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment on the OMB approved emergency collection for the Temporary Final Rule \"DPAS Directive Allocation Order and Additional Requirements for Recoverable Critical Minerals and Materials\" (August 6, 2026, 91 FR 50701).",
+      "document_number": "2026-17323",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17323/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17323.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-17323.pdf?1787575526",
+      "publication_date": "2026-08-25",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": "The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our..."
+    },
+    {
+      "title": "Streamlining Export Controls for Drone Exports",
+      "type": "Rule",
+      "abstract": null,
+      "document_number": "C1-2026-16628",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/28/C1-2026-16628/streamlining-export-controls-for-drone-exports",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-28/pdf/C1-2026-16628.pdf",
+      "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/C1-2026-16628.pdf?1787834723",
+      "publication_date": "2026-08-28",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Bureau of Industry and Security",
+          "name": "Industry and Security Bureau",
+          "id": 241,
+          "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+          "parent_id": 54,
+          "slug": "industry-and-security-bureau"
+        }
+      ],
+      "excerpts": null
+    }
+  ]
+}

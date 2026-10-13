@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://www.shfe.cn/data/tradedata/future/weeklydata/20261009weeklystock.dat",
+    "file": "shfe_official_20261009.json",
+    "status": 404,
+    "bytes": 4832
+  },
+  {
+    "url": "https://www.shfe.cn/data/tradedata/future/stockdata/weeklystock_20261009/EN/all.html",
+    "file": "shfe_20261009_stock.html",
+    "status": 200,
+    "bytes": 329271,
+    "sha256": "8733c559d63d07f45d215637df7f3fc5fb9ebb47bed7bf1479de4091e786e784"
+  }
+]

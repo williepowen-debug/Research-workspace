@@ -1,0 +1,35 @@
+{
+  "WGC": {
+    "source": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/central-banks",
+    "publication_date": "2026-07-30",
+    "table": "Central Banks and Other Institutions, Q2 2026",
+    "q2_tonnes": 288.9,
+    "q1_revised_tonnes_rounded": 57,
+    "quarterly_boundary_tonnes": 100,
+    "state": "Q2_ABOVE_BOUNDARY",
+    "monthly_august_reported_is_different_object": true
+  },
+  "SilverSurvey": {
+    "source": "https://silverinstitute.org/wp-content/uploads/2026/04/World-Silver-Survey-2026.pdf",
+    "publication": "April2026",
+    "printed_page": 9,
+    "pdf_page_zero_based": 10,
+    "table": "Silver Supply and Demand, million ounces, 2026F column",
+    "PV_2025_Moz": 186.6,
+    "PV_2026_forecast_Moz": 151.0,
+    "PV_forecast_yoy_pct_rounded": -19,
+    "industrial_2026_forecast_Moz": 639.6,
+    "total_demand_2026_forecast_Moz": 1112.6,
+    "balance_2026_forecast_Moz": -46.3,
+    "mine_2026_forecast_Moz": 844.1,
+    "mine_forecast_yoy_pct_rounded": -0.3,
+    "forecast_not_october_flow": true
+  },
+  "Platts": {
+    "source": "https://www.spglobal.com/energy/en/products-solutions/fertilizers/sulphur-sulphuric-acid",
+    "basis": "public product description plus primary methodology note010625",
+    "assessment": "Sulfuric Acid FOB Japan/South Korea CP &Spot $/mt Wkly, FSAJA04",
+    "dated_numeric_spot_assessment": "UNAVAILABLE in inspected public pages",
+    "next_attempt": "when approved source access changes; no repetitive weekly search"
+  }
+}

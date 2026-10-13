@@ -1,0 +1,1155 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 156 (Friday, August 14, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 156 (Friday, August 14, 2026)]
+[Rules and Regulations]
+[Pages 52501-52508]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-16628]
+
+
+
+[[Page 52501]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+Bureau of Industry and Security
+
+15 CFR Parts 740, 744, and 774
+
+[Docket No. 260723-0178]
+RIN 0694-AK30
+
+
+Streamlining Export Controls for Drone Exports
+
+AGENCY: Bureau of Industry and Security, Department of Commerce.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Bureau of Industry and Security (BIS) is easing export 
+controls on certain Unmanned Aerial Vehicles (UAVs or drones) and 
+related parts, components, accessories, attachments, technology, and 
+software under the Export Administration Regulations (EAR). 
+Specifically, this rule: eliminates wind gust tolerance as a parameter 
+for determining UAV controls under the EAR; increases the threshold for 
+national security controls on certain UAVs from an endurance of 30 
+minutes to an endurance of 3 hours; makes conforming changes to remove 
+national security controls on software and technology associated with 
+UAVs with an endurance less than 3 hours; maintains military end-use 
+and end-user controls on those lower endurance drones and associated 
+software and technology; clarifies Commerce Control List (CCL) controls 
+for certain UAVs specially designed for military use; and removes 
+national security controls on certain specially designed parts, 
+components, accessories, and attachments for such UAVs as they do not 
+provide any significant military or intelligence capabilities.
+
+DATES: This rule is effective on August 13, 2026.
+
+FOR FURTHER INFORMATION CONTACT: For technical questions regarding this 
+final rule, contact Sharon Bragonje, Maritime, Missile, and Aerospace 
+Division, Office of National Security Controls, Phone: 202-482-0434, 
+Email: <a href="/cdn-cgi/l/email-protection#c291aaa3b0adacec80b0a3a5adaca8a782a0abb1eca6ada1eca5adb4"><span class="__cf_email__" data-cfemail="2d7e454c5f4243036f5f4c4a424347486d4f445e0349424e034a425b">[email&#160;protected]</span></a>. For all other questions regarding 
+this final rule, contact Logan Norton, Export Policy Analyst, 
+Regulatory Policy Division, Phone: 202-482-5334, Email: 
+<a href="/cdn-cgi/l/email-protection#471517037507252e346923282469202831"><span class="__cf_email__" data-cfemail="045654403644666d772a606b672a636b72">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    On June 6, 2025, the President issued Executive Order (E.O.) 14307, 
+``Unleashing American Drone Dominance'' (90 FR 24727). Sec. 8(a) of 
+E.O. 14307 directed the Secretary of Commerce, in coordination with the 
+Secretaries of Energy, State, and War, to review the EAR and, as 
+appropriate and consistent with applicable law, revise the regulations 
+to enable the expedited export of U.S.-manufactured UAVs to foreign 
+partners. On January 21, 2026, BIS published an interim final rule 
+(IFR), ``Streamlining Export Controls for Drone Exports'' (91 FR 2467) 
+(January IFR), implementing preliminary changes streamlining export 
+controls on UAVs and related technologies and soliciting public 
+comments on these changes. See preamble section II for details on the 
+January IFR. This final rule advances the goals set out in Sec. 8(a) of 
+E.O. 14307 by responding to public comments and implementing further 
+revisions to drone export controls beyond those set forth in the 
+January IFR.
+    Civil and commercial applications of UAVs have significantly 
+expanded in recent years, from law enforcement, search and rescue, and 
+disaster response to agriculture and infrastructure inspection. 
+Existing controls are ineffective because UAVs with performance at the 
+current control thresholds are now readily available on the global 
+commercial market. The decontrols implemented in this rule support the 
+competitiveness of the U.S. drone industrial base while protecting 
+national security.
+    Widespread foreign availability of more advanced UAVs has 
+undermined the effectiveness of export controls based on existing 
+parameters, such as flight endurance and wind gust tolerance. These 
+control parameters have become increasingly outdated and are no longer 
+grounded in a sound national security rationale. For example, software 
+and technical knowhow required to design drones capable of 60 minutes 
+or more of flight are now globally commercially widespread, taught in 
+universities, and embedded in open-source development communities.
+    Maintaining broad export license requirements on widely available 
+UAVs imposes disproportionate burdens on the American drone industry 
+without enhancing U.S. national security. This misalignment may also 
+incentivize foreign partners to source from competitors with fewer 
+restrictions, ultimately reducing U.S. influence and undermining the 
+Trump Administration's Drone Dominance policy objectives.
+    This final rule better aligns the EAR with the current UAV 
+technology landscape. By shifting focus away from widely available, 
+commercial capabilities and tailoring controls to UAVs with 
+capabilities that adversaries could use to pose a national security 
+threat to the United States, BIS can allocate licensing and enforcement 
+resources where they matter most.
+
+II. January IFR
+
+    The January IFR made two primary EAR changes. First, it allowed 
+less sensitive UAVs--namely, commercial UAVs with a maximum endurance 
+of less than one hour, for which there is broad foreign availability--
+to be exported to most Wassenaar Arrangement Participating States 
+(Country Group A:1) without a license. Second, it allowed certain more 
+capable non-military UAVs--namely, long-range cargo delivery and 
+agricultural spraying drones--to be exported to certain U.S. partners 
+and allies (Country Group A:5) under License Exception Strategic Trade 
+Authorization (STA).
+
+Public Comments
+
+    The January IFR implemented these changes in the EAR, while seeking 
+public comments on the revisions and allowing the submission of 
+additional comments on regulatory changes that may advance American 
+Drone Dominance. BIS received 12 comments in response to the January 
+IFR. Of these, nine were substantive and responsive. Of the remaining 
+three, two were duplicates and one was deemed non-responsive. BIS is 
+using this final rule to respond to all responsive comments. Rather 
+than responding to each comment individually, BIS is addressing the 
+topics represented in the comments, as there was significant overlap 
+between comments.
+
+General Impressions
+
+    Topic 1: Overall, commenters were supportive of the regulatory 
+changes in the January IFR. Many commenters suggested BIS make 
+additional regulatory changes to further right-size drone export 
+controls.
+    BIS response: BIS agrees. This final rule further eases export 
+controls on certain UAVs and related technologies.
+    Topic 2: One commenter stated that BIS should not allow the export 
+of any UAV technology.
+    BIS response: BIS does not agree with this comment. Exporting these 
+items consistent with applicable export controls does not undermine 
+U.S. national security or foreign policy interests, but rather it 
+strengthens the U.S. defense industrial base.
+
+Technical and Policy Suggestions
+
+    Topic 2: BIS received multiple comments requesting revisions to the 
+control parameters under ECCN 9A012.a related to UAV endurance, wind 
+gust
+
+[[Page 52502]]
+
+tolerance, and ability to operate beyond the direct natural vision of 
+the operator.
+    BIS response: For the most part, BIS agrees that revisions to these 
+parameters are warranted, and, as detailed in preamble section III, BIS 
+is revising these parameters. It is worth noting that commenters were 
+not in agreement on exactly how the parameters should be revised. 
+However, BIS is adopting changes to endurance parameters and removing 
+wind gust tolerance parameters for control under ECCN 9A012.a as an 
+appropriate approach, recommended by two commenters, to further 
+streamline drone export controls consistent with U.S. national 
+security. One parameter that BIS has chosen not to revise is the phrase 
+in item paragraph .a regarding controlled flight out of the natural 
+vision of the operator. While some commenters believed this parameter 
+is no longer relevant as most modern drones have this capability, the 
+parameter is intended to ensure that items, like certain hobby model 
+aircraft, are not captured under ECCN 9A012.a. Accordingly, BIS makes 
+no change to this parameter.
+    Topic 3: Commenters requested a revision to controls for UAVs 
+``specially designed'' for military end use under ``600 series'' ECCNs, 
+including ECCNs 3A611.a and 9A610.a.
+    BIS response: BIS agrees that it is appropriate to clarify that 
+UAVs ``specially designed'' for military end use may appropriately be 
+classified under ECCN 9A610.a when they are not described on the U.S. 
+Munitions List (USML) (22 CFR 121). Thus, BIS is implementing changes 
+in that ECCN, including the addition of a missile technology control, 
+to appropriately control such UAVs. With these changes, ECCN 3A611.a is 
+no longer applicable to these UAVs, as ECCN 3A611.a does not control 
+items that are enumerated or otherwise described in another ``600 
+series'' ECCN. While BIS does not exclude certain smaller end item UAVs 
+``specially designed'' for military use from ECCN 9A610.a, BIS is 
+identifying less sensitive parts, components, accessories, and 
+attachments for such UAVs in ECCN 9A610.y.33 to right-size controls on 
+items that do not provide a significant military advantage, consistent 
+with recommendations from two commenters. BIS declines to further 
+explain the term ``specially designed'' in ECCN 9A610.a or elsewhere 
+because this term is sufficiently defined in Sec.  772.1 of the EAR.
+    Topic 4: Commenters requested revisions to the related technology 
+and software ECCNs related to UAVs.
+    BIS response: BIS agrees. With the revisions to 9A012.a, revisions 
+to the reasons for control for ECCNs 9D001, 9D002, 9D004, and 9E001 are 
+warranted. See preamble section III for specific information regarding 
+these changes. However, BIS notes that it is not making changes to 
+other technology and software ECCNs related to UAVs, such as 9D104, 
+9E003, 9E101, or 9E102, at this time.
+    Topic 5: Several commenters requested that additional UAV-related 
+ECCNs be made eligible for use of License Exception STA.
+    BIS response: BIS does not agree with the broader use of STA for 
+some of these items, including certain missile technology-controlled 
+software and technology. However, BIS assesses that allowing STA to 
+Country Group A:5 for missile technology-controlled UAVs in ECCN 
+9A610.a, in line with the expanded STA eligibility for missile 
+technology-controlled UAVs in ECCNs 9A012 and 9A120 implemented under 
+the January IFR, is warranted. Relevant changes are detailed under 
+preamble section III.
+    Topic 6: A commenter requested that BIS release from ECCN 9A012 
+certain long-range, high-payload UAVs certified under Federal Aviation 
+Administration (FAA) regulations.
+    BIS response: BIS notes that broader U.S. Government regulations in 
+this area are still evolving and declines to make this change at this 
+time. Furthermore, BIS assesses that long-range, high-payload UAVs 
+continue to provide capabilities that adversaries could use for 
+activities of national security concern, such that control under ECCN 
+9A012 remains appropriate at this time.
+
+III. Revisions to the EAR
+
+    This final rule does not affect any of the policy changes already 
+implemented in the January IFR, but makes additional revisions as 
+follows:
+
+A. ECCN 9A012.a Changes
+
+    First, Export Control Classification Number (ECCN) 9A012.a is 
+revised to reflect more appropriate and properly calibrated controls, 
+fit for the modern evolution of UAV advancement. Specifically, the wind 
+gust parameter in item paragraph .a.1.b is removed and item paragraph 
+.a.1 now details UAVs with a maximum endurance less than 3 hours; and 
+the endurance time controlled under item paragraph .a.2 is revised from 
+1 hour or greater to 3 hours or greater. Additionally, the National 
+Security Column 2 (NS2) control for .a.1 items is removed; this greatly 
+reduces the number of destinations requiring a license for UAVs with an 
+endurance less than 3 hours (provided such UAVs are not capable of a 
+maximum range of at least 300 kilometers (km), regardless of payload, 
+and do not otherwise meet the control parameters of ECCN 9A120). Such 
+UAVs will now be controlled under ECCN 9A012 for antiterrorism (AT1) 
+reasons only. Paragraph .a.1 now includes UAVs with a maximum endurance 
+of less than 3 hours. These items are controlled only to sanctioned or 
+embargoed countries or to certain prohibited end uses and end users and 
+some such items may have previously been subject to equivalent controls 
+under ECCN 9A991. UAVs not ``specially designed'' for a military use 
+with an endurance of 3 hours or greater will continue to be controlled 
+in ECCN 9A012 for NS Column 1 (NS1) and Anti-Terrorism Column 1 (AT1) 
+reasons for control, as well as Missile Technology Column 1 (MT1) if 
+capable of a range of 300 km or greater, regardless of payload, or if 
+otherwise meeting the control parameters of ECCN 9A120. Additionally, 
+UAVs, regardless of endurance, will remain controlled for NS1 and AT1 
+reasons if they incorporate certain controlled thermal imaging 
+equipment described in ECCN 6A003, certain lasers described in ECCN 
+6A005, as well as certain navigational equipment incorporating 
+gyroscopes described in ECCNs 7A001, 7A002, 7A003, or 7A005. These 
+changes are necessary to ensure adversaries cannot acquire sensitive 
+optical or navigational equipment by purchasing inexpensive, low-
+endurance drones that have high-performance, easily-removable payloads 
+or equipment installed or attached.
+    BIS is adding related control 4 to ECCN 9A012, referring to ECCN 
+9A610 and USML Category VIII for military UAVs. As a conforming change, 
+BIS removes the term non-military from the chapeau and MT reason for 
+control.
+
+B. Conforming Changes to Additional ECCNs
+
+    As a conforming change to the removal of NS reasons for control for 
+UAVs with an endurance less than 3 hours, BIS is also removing the NS 
+reason for control on the software and technology for these items in 
+ECCNs 9D001, 9D002, 9D004, and 9E001. This change allows much of the 
+civilian marketed software, including operating software updates for 
+widely available commercial UAVs, to be exported no license required 
+(NLR) to most destinations worldwide, like the UAVs themselves. While 
+BIS is removing the NS reason for control for certain technology for 
+UAVs with an endurance under 3 hours under 9E001, a Missile Technology 
+Column 1 (MT1) control continues to apply for technology related to 
+UAVs controlled for MT1
+
+[[Page 52503]]
+
+reasons. Additionally, all software and technology for UAVs with an 
+endurance under 3 hours under ECCNs 9D001, 9D002, 9D004, and 9E001 will 
+remain controlled for AT1 reasons. BIS is also revising related control 
+(1) in ECCNs 9D001, 9D002, and 9A610 to more accurately reflect 
+references to items described on the USML; see preamble section D for 
+additional changes to ECCN 9A610.
+
+C. Revising the List of Items Subject to the Military End Use or End 
+User License Requirement
+
+    As a result of the changes in this final rule, many civilian 
+drones, and certain software and technology therefor, may now be 
+exported, reexported, or transferred (in-country) to most destinations 
+worldwide, NLR. However, to ensure such UAVs remain subject to military 
+end-use and end-user controls (see Sec.  744.21 of the EAR) when 
+destined to relevant countries, BIS is adding ECCNs 9A012, 9D001, 
+9D002, 9D004, and 9E001 to supplement no. 2 to part 744 of the EAR. 
+Paragraph .a.1 now includes UAVs with a maximum endurance of less than 
+3 hours. These items are controlled only to sanctioned or embargoed 
+countries or to certain prohibited end uses and end users and some such 
+items may have previously been subject to equivalent controls under 
+ECCN 9A991. UAVs not ``specially designed'' for a military use with an 
+endurance of 3 hours or greater will continue to be controlled in ECCN 
+9A012 for NS Column 1 (NS1) and Anti-Terrorism Column 1 (AT1) reasons 
+for control, as well as Missile Technology Column 1 (MT1) if capable of 
+a range of 300 km or greater, regardless of payload, or if otherwise 
+meeting the control parameters of ECCN 9A120.
+
+D. UAVs in ECCN 9A610
+
+    Finally, BIS has re-evaluated the classification of UAVs under ECCN 
+9A610, which details certain military aircraft and related commodities. 
+Consistent with the rationale in ``Revisions to the Export 
+Administration Regulations: Initial Implementation of Export Control 
+Reform'' (78 FR 22660), UAVs have not been controlled under 9A610, 
+because BIS and its interagency partners could not clearly delineate 
+those UAVs that provide a critical military or intelligence advantage 
+and warranted control on the USML from those that warranted control on 
+the CCL in the ``600 series'' ECCNs. BIS and its interagency partners 
+first reviewed USML Category VIII well over a decade ago. Since then, 
+UAV technical capacity and operational utility have changed 
+significantly. Before, military drones were primarily large, 
+sophisticated platforms with advanced weapons delivery or 
+reconnaissance capabilities. Increasingly, commercial UAVs are being 
+modified after development for military end use, and smaller or less 
+capable UAVs are being designed and developed for military applications 
+that provide a significant military advantage, but not a critical one 
+that would warrant USML control. Therefore, BIS and its interagency 
+partners have now determined that there are military UAVs not described 
+in USML Category VIII that warrant control under ECCN 9A610.a.
+    BIS recognizes that there are military-related functions and 
+capabilities provided by some UAVs that warrant their classification in 
+9A610, rather than being controlled under 9A012, if they are 
+``specially designed'' to provide military capabilities but are not 
+described on the USML. For example, supplement no. 1 to part 744 
+provides an illustrative list of ``military end uses'' under Sec.  
+744.17 that can be informative in assessing design or modification for 
+military use under ECCN 9A610.a, including certain UAVs that are 
+capable of performing military reconnaissance, surveillance, or combat 
+support. While BIS would likely classify this type of UAV as 9A610, 
+rather than 9A012, it is conceivable that other capabilities would also 
+bring an item into the scope of 9A610. If a UAV not described on the 
+USML is designed or modified to meet the needs of a military customer 
+by adding at least one feature or capability that would not also be 
+included for civil or commercial purposes, regardless of significance, 
+that UAV should be reviewed for control under 9A610.a using the 
+definition of ``specially designed'' in Sec.  772.1.
+    To facilitate this change in policy under 9A610, BIS has added UAVs 
+and remotely piloted vehicles (RPVs) under note 1 to item paragraph .a. 
+BIS has also added information pertaining to UAVs and RPVs under the MT 
+reason for control column, mirroring MT reason for control language for 
+UAVs and RPVs under 9A012. As a conforming change, BIS is also adding 
+certain specially designed parts, components, accessories, and 
+attachments for 9A610.a UAVs as item paragraph .y.33. BIS reminds 
+exporters that they may submit a classification request for any item, 
+including UAVs, as outlined in Sec.  748.3.
+
+E. License Exceptions for 9A610 UAVs
+
+    License Exception Strategic Trade Authorization (STA) is available 
+for those ECCN 9A610 UAVs for destinations in Country Group A:5, 
+provided that the UAV or unmanned ``airship'' cannot deliver a payload 
+of at least 500 kg to a range of at least 300 km, and provided further 
+that, in the case of UAVs and unmanned ``airships'' classified under 
+9A610.a, the items have been made eligible for use of STA pursuant to 
+Sec.  740.20(g). Consistent with these revisions to ECCN 9A610, BIS is 
+revising Sec.  740.2(a)(13) and Sec.  740.20(c)(1)(ii)(A) to implement 
+STA eligibility for UAVs meeting these conditions. The items described 
+in this final rule remain subject to end-use/user controls set forth in 
+part 744 and embargoes and other special controls set forth in part 746 
+of the EAR.
+Export Control Reform Act of 2018
+    On August 13, 2018, the President signed into law the John S. 
+McCain National Defense Authorization Act for Fiscal Year 2019, which 
+included the Export Control Reform Act (ECRA) (codified, as amended, at 
+50 U.S.C. 4801-4852). ECRA provides the legal basis for BIS's principal 
+authorities and serves as the authority under which BIS issues this 
+rule. In particular, and as noted elsewhere, Section 1753 of ECRA (50 
+U.S.C. 4812) authorizes the regulation of exports, reexports, and 
+transfers (in-country) of items subject to U.S. jurisdiction. Further, 
+Section 1754(a)(1)-(16) of ECRA (50 U.S.C. 4813(a)(1)-(16)) authorizes, 
+inter alia, the establishment of a list of controlled items; the 
+prohibition of unauthorized exports, reexports, and transfers (in-
+country); the requirement of licenses or other authorizations for 
+exports, reexports, and transfers (in-country) of controlled items; 
+apprising the public of changes in policy, regulations, and procedures; 
+and any other action necessary to carry out ECRA that is not otherwise 
+prohibited by law. Pursuant to Section 1762(a) of ECRA (50 U.S.C. 
+4821(a)), the provisions of the Administrative Procedure Act (APA) 
+requiring agencies promulgate rules with advance notice and prior 
+opportunity for public comment, 5 U.S.C. 553, do not apply to this 
+rulemaking.
+Rulemaking Requirements
+    1. BIS has examined the impact of this rule as required by E.O.s 
+12866 and 13563, which direct agencies to assess all costs and benefits 
+of available regulatory alternatives and, if regulation is necessary, 
+to select regulatory approaches that maximize net benefits (e.g., 
+potential economic, environmental, public, health, and safety effects, 
+distributive impacts, and equity). Pursuant to E.O. 12866, as amended, 
+this final rule has been
+
+[[Page 52504]]
+
+determined to be a ``significant regulatory action.'' Although it is a 
+``significant regulatory action'' for purposes of E.O. 12866, this rule 
+is exempt from the requirements of E.O. 14192, because it is being 
+issued with respect to a national security function of the United 
+States, per section 5(a) of E.O. 14192.
+    2. Notwithstanding any other provision of law, no person is 
+required to respond to, nor shall any person be subject to a penalty 
+for failure to comply with, a collection of information subject to the 
+requirements of the Paperwork Reduction Act of 1995 (44 U.S.C. 3501 et 
+seq.) (PRA), unless that collection of information displays a currently 
+valid Office of Management and Budget (OMB) Control Number. This rule 
+involves the following OMB-approved collections of information subject 
+to the PRA:
+    <bullet> 0694-0088, ``Simple Network Application Process and 
+Multipurpose Application Form,'' which carries a burden hour estimate 
+of 29.7 minutes for a manual or electronic submission;
+    <bullet> 0694-0096 ``Five Year Records Retention Period,'' which 
+carries a burden hour estimate of less than 1 minute; and
+    <bullet> 0607-0152 ``Automated Export System (AES) Program,'' which 
+carries a burden hour estimate of 3 minutes per electronic submission.
+    BIS estimates that these new controls under the EAR will result in 
+a decrease of 30 license applications submitted annually to BIS. 
+Additional information regarding these collections of information--
+including all background materials--can be found at: <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a> by using the search function to enter 
+either the title of the collection or the OMB Control Number.
+    3. This rule does not contain policies with Federalism implications 
+as that term is defined under E.O. 13132.
+    4. Pursuant to section 1762 of ECRA (50 U.S.C. 4821), this action 
+is exempt from the APA (5 U.S.C. 553) requirements for notice of 
+proposed rulemaking, opportunity for public participation, and delay in 
+effective date.
+    5. Because neither the APA nor any other law requires that notice 
+of proposed rulemaking and an opportunity for public comment be given 
+for this rule, the analytical requirements of the Regulatory 
+Flexibility Act (5 U.S.C. 601 et seq.) are not applicable. Accordingly, 
+no Final Regulatory Flexibility Analysis is required, and none has been 
+prepared.
+
+List of Subjects
+
+15 CFR Part 740
+
+    Administrative practice and procedure, Exports, Reporting and 
+recordkeeping requirements.
+
+15 CFR Part 744
+
+    Exports, Reporting and recordkeeping requirements, Terrorism.
+
+15 CFR Part 774
+
+    Exports, Reporting and recordkeeping requirements.
+    Accordingly, parts 740, 744, and 774 of the Export Administration 
+Regulations (15 CFR parts 730-774) are amended as follows:
+
+PART 740--LICENSE EXCEPTIONS
+
+0
+1. The authority citation for 15 CFR Part 740 continues to read as 
+follows:
+
+    Authority:  50 U.S.C. 4801-4852; 50 U.S.C. 1701 et seq.; 22 
+U.S.C. 7201 et seq.; E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 
+228.
+
+
+0
+2. Amend Sec.  740.2 by revising the introductory text to paragraph 
+(a)(13) to read as follows:
+
+
+Sec.  740.2  Restrictions on all License Exceptions.
+
+    (a) * * *
+    (13) ``600 series'' items that are controlled for missile 
+technology (MT) reasons may not be exported, reexported, or transferred 
+(in-country) under License Exception STA (Sec.  740.20), except ECCN 
+9A610.a. Items controlled under ECCNs 9D610.b, 9D619.b, 9E610.b, or 
+9E619.b or .c are not eligible for license exceptions except for 
+License Exception GOV (Sec.  740.11(b)(2)). Only the following license 
+exceptions may be used to export ``600 series'' items to destinations 
+other than those identified in Country Group D:5 or Hong Kong (see 
+supplement no. 1 to this part):
+* * * * *
+
+0
+3. Amend Sec.  740.20 by revising paragraph (c)(1)(ii)(A) to read as 
+follows:
+
+
+Sec.  740.20  License Exception Strategic Trade Authorization (STA).
+
+* * * * *
+    (c) * * *
+    (1) * * *
+    (ii) * * *
+    (A) Unmanned aerial vehicles (UAVs) and unmanned ``airships'' 
+controlled for missile technology (MT) reasons in ECCNs 9A012, 9A120, 
+and 9A610 are authorized for destinations in Country Group A:5 (see 
+supplement no. 1 to this part), provided that the UAV or unmanned 
+``airship'' cannot deliver a payload of at least 500 kg to a range of 
+at least 300 km, and provided further that, in the case of UAVs and 
+unmanned ``airships'' classified under 9A610.a, the items have been 
+made eligible for use of STA pursuant to paragraph (g) of this section.
+* * * * *
+
+PART 744--CONTROL POLICY: END-USER AND END-USE BASED
+
+0
+4. The authority citation for 15 CFR Part 744 is revised to read as 
+follows:
+
+    Authority:  50 U.S.C. 4801-4852; 50 U.S.C. 4601 et seq.; 50 
+U.S.C. 1701 et seq.; 22 U.S.C. 3201 et seq.; 42 U.S.C. 2139a; 22 
+U.S.C. 7201 et seq.; 22 U.S.C. 7210; E.O. 12058, 43 FR 20947, 3 CFR, 
+1978 Comp., p. 179; E.O. 12851, 58 FR 33181, 3 CFR, 1993 Comp., p. 
+608; E.O. 12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13026, 
+61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13099, 63 FR 45167, 3 
+CFR, 1998 Comp., p. 208; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., 
+p. 783; E.O. 13224, 66 FR 49079, 3 CFR, 2001 Comp., p. 786.
+
+
+0
+5. Amend supplement no. 2 to part 744 by revising paragraph (9) to read 
+as follows:
+
+Supplement No. 2 to Part 744--List of Items Subject to the Military End 
+Use or End User License Requirement of Sec.  744.21
+
+* * * * *
+    (9) Category 9 Propulsion Systems, Space Vehicles and Related 
+Equipment
+    (i) 9A012 ``Unmanned Aerial Vehicles,'' (``UAVs''), unmanned 
+``airships'', related equipment and ``components'', controlled by 
+9A012.a.1 (see List of Items Controlled).
+    (ii) 9A991 ``Aircraft'', n.e.s., and gas turbine engines not 
+controlled by 9A001 or 9A101 and ``parts'' and ``components,'' n.e.s. 
+(see List of Items Controlled).
+    (iii) 9B990 Vibration test equipment and ``specially designed'' 
+``parts'' and ``components,'' n.e.s.
+    (iv) 9D001 ``Software'', not specified in 9D003 or 9D004, 
+``specially designed'' or modified for the ``development'' of equipment 
+or ``technology'' controlled by 9A012.a.1.
+    (v) 9D002 ``Software'', not specified in 9D003 or 9D004, 
+``specially designed'' or modified for the ``production'' of equipment 
+controlled by 9A012.a.1.
+    (vi) 9D004 Other ``software'' for equipment controlled by 
+9A012.a.1.
+    (vii) 9D991 ``Software'', for the ``development'' or ``production'' 
+of equipment controlled by 9A991 or 9B991.
+    (viii) 9E001 ``Technology'' according to the General Technology 
+Note for the ``development'' of equipment or ``software'', controlled 
+by 9A012.a.1.
+
+[[Page 52505]]
+
+    (ix) 9E991 ``Technology'', for the ``development'', ``production'' 
+or ``use'' of equipment controlled by 9A991 or 9B991.
+
+PART 774--THE COMMERCE CONTROL LIST
+
+0
+6. The authority citation for 15 CFR Part 774 continues to read as 
+follows:
+
+    Authority:  50 U.S.C. 4801-4852; 50 U.S.C. 4601 et seq.; 50 
+U.S.C. 1701 et seq.; 10 U.S.C. 8720; 10 U.S.C. 8730(e); 22 U.S.C. 
+287c, 22 U.S.C. 3201 et seq.; 22 U.S.C. 6004; 42 U.S.C. 2139a; 15 
+U.S.C. 1824; 50 U.S.C. 4305; 22 U.S.C. 7201 et seq.; 22 U.S.C. 7210; 
+E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228.
+
+
+0
+7. Amend supplement no. 1 to part 774 by revising ECCNs 9A012, 9A610, 
+9D001, 9D002, 9D004, and 9E001 to read as follows:
+
+Supplement No. 1 to Part 774--The Commerce Control List
+
+* * * * *
+9A012 ``Unmanned Aerial Vehicles,'' (``UAVs''), unmanned 
+``airships'', related equipment and ``components'', as follows (see 
+List of Items Controlled).
+
+License Requirements
+
+Reason for Control: NS, MT, AT
+
+ 
+                                              Country chart  (See supp.
+                Control(s)                       no. 1  to part 738)
+ 
+NS applies to entire entry, except .a.1...  NS Column 1.
+MT applies to ``Unmanned Aerial Vehicles''  MT Column 1.
+ (``UAVs'') and Remotely Piloted Vehicles
+ (RPVs) that are capable of a maximum
+ range of at least 300 kilometers (km),
+ regardless of payload, and ``UAVs'' that
+ meet the requirements of 9A120.
+AT applies to entire entry................  AT Column 1.
+ 
+
+List Based License Exceptions (See Part 740 for a description of all 
+license exceptions)
+
+LVS: N/A
+GBS: N/A
+
+Special Conditions for STA
+
+STA: License Exception STA may not be used to ship commodities in 
+9A012.a that are controlled for missile technology (MT) reasons that 
+have a payload capability of at least 500 kg to a range of at least 
+300 km to any of the destinations listed in Country Groups A:5 or 
+A:6 (See supplement no. 1 to part 740 of the EAR).
+
+List of Items Controlled
+
+Related Controls: (1) See USML Category VIII. (2) Also see ECCN 
+9A610 and Sec.  744.3 of the EAR. (3) For ``UAVs'' that are ``sub-
+orbital craft,'' see ECCNs 9A004.h and 9A515.a. (4) For military 
+``UAVs'' see 9A610 and USML Category VIII.
+Related Definitions: N/A
+Items:
+a. ``UAVs'' or unmanned ``airships'', designed to have controlled 
+flight out of the direct `natural vision' of the `operator' and 
+having any of the following:
+
+    a.1. A maximum `endurance' less than 3 hours;
+    a.2. A maximum `endurance' of 3 hours or greater;
+    a.3. ``UAVs'' or unmanned ``airships'' incorporating items 
+specified in ECCN 6A003.b.3, 6A003.b.4.b, or 6A008.d to .h;
+    a.4. ``UAVs'' or unmanned ``airships'' incorporating items 
+specified in ECCN 6A005; or
+    a.5. ``UAVs'' or unmanned ``airships'' incorporating ``inertial 
+measurement equipment or systems'' using accelerometers or gyros 
+specified in ECCNs 7A001, 7A002, 7A003, or 7A005.
+    Technical Notes: 1. For the purposes of 9A012.a, `operator' is a 
+person who initiates or commands the ``UAV'' or unmanned ``airship'' 
+flight.
+    2. For the purposes of 9A012.a, `endurance' is to be calculated 
+for ISA conditions (ISO 2533:1975) at sea level in zero wind.
+    b. Related equipment and ``components'', as follows:
+    b.1 [Reserved]
+    b.2. [Reserved]
+    b.3. Equipment or ``components'' ``specially designed'' to 
+convert a manned ``aircraft'' or a manned ``airship'' to a ``UAV'' 
+or unmanned ``airship'', controlled by 9A012.a;
+    b.4. Air breathing reciprocating or rotary internal combustion 
+type engines, ``specially designed'' or modified to propel ``UAVs'' 
+or unmanned ``airships'', at altitudes above 15,240 meters (50,000 
+feet).
+* * * * *
+9A610 Military Aircraft and Related Commodities, Other Than Those 
+Enumerated in 9A991.a (See List of Items Controlled).
+
+License Requirements
+
+Reason for Control: NS, RS, MT, AT, UN
+
+ 
+                                              Country chart  (see supp.
+                Control(s)                       NO. 1  to part 738)
+ 
+NS applies to entire entry except:          NS Column 1.
+ 9A610.b; parts and components controlled
+ in 9A610.x if being exported or
+ reexported for use in an aircraft
+ controlled in 9A610.b; and 9A610.y.
+RS applies to entire entry except:          RS Column 1.
+ 9A610.b; parts and components controlled
+ in 9A610.x if being exported or
+ reexported for use in an aircraft
+ controlled in 9A610.b; and 9A610.y.
+RS applies to 9A610.y.....................  China, Russia, or Venezuela
+                                             (see Sec.   742.6(a)(7)).
+MT applies to 9A610.t, .u, .v, and .w and   MT Column 1.
+ to ``Unmanned Aerial Vehicles''
+ (``UAVs'') and Remotely Piloted Vehicles
+ (RPVs) in 9A610.a that are capable of a
+ maximum range of at least 300 kilometers
+ (km), regardless of payload.
+AT applies to entire entry................  AT Column 1.
+UN applies to entire entry except 9A610.y.  See Sec.   746.1(b) for UN
+                                             controls.
+ 
+
+List Based License Exceptions (See Part 740 for a Description of All 
+License Exceptions)
+
+LVS: $1,500
+GBS: N/A
+
+Special Conditions for STA
+
+STA: (1) Paragraph (c)(1) of License Exception STA (Sec.  
+740.20(c)(1) of the EAR) may not be used for any item in 9A610.a 
+(i.e., ``end item'' military aircraft), unless determined by BIS to 
+be eligible for License Exception STA in accordance with Sec.  
+740.20(g) (License Exception STA eligibility requests for 9x515 and 
+``600 series'' items). (2) License Exception STA may not be used to 
+ship commodities in 9A610.a that are controlled for missile 
+technology (MT) reasons that have a payload capability of at least 
+500 kg to a range of at least 300 km to any of the destinations 
+listed in Country Groups A:5 or A:6 (See supplement no.1 to part 740 
+of the EAR). (3) Paragraph (c)(2) of License Exception STA (Sec.  
+740.20(c)(2) of the EAR) may not be used for any item in 9A610.
+
+List of Items Controlled
+
+Related Controls: (1) See U.S. Munitions List Category VIII. (2) See 
+ECCN 0A919 for controls on foreign-made ``military commodities'' 
+that incorporate more than a de minimis amount of U.S.-origin ``600 
+series'' controlled content. (3) See USML Category XIX and ECCN 
+9A619 for controls on military aircraft gas turbine engines and 
+related items.
+Related Definitions: In paragraph .y of this entry, the term 'fluid' 
+includes liquids and gases.
+Items:
+
+
+[[Page 52506]]
+
+
+a. 'Military Aircraft' ``specially designed'' for a military use 
+that are not enumerated in USML paragraph VIII(a).
+
+    Note 1: For purposes of paragraph .a the term 'military 
+aircraft' means the LM-100J aircraft and any aircraft ``specially 
+designed'' for a military use that are not enumerated in USML 
+paragraph VIII(a). The term includes: Trainer aircraft; cargo 
+aircraft; utility fixed wing aircraft; military helicopters; 
+observation aircraft; military non-expansive balloons and other 
+lighter-than-air aircraft; unarmed military aircraft,'' unmanned 
+aerial vehicles'' (``UAVs''), and remotely piloted vehicles (RPVs), 
+regardless of origin or designation. Aircraft with modifications 
+made to incorporate safety of flight features or other FAA or NTSB 
+modifications such as transponders and air data recorders are 
+``unmodified'' for the purposes of this paragraph .a.
+
+
+    Note 2: 9A610.a does not control 'military aircraft' or 
+``lighter-than-air vehicles'' that:
+    a. Were first manufactured before 1946;
+    b. Do not incorporate defense articles enumerated or otherwise 
+described on the U.S. Munitions List, unless the items are required 
+to meet safety or airworthiness standards of civil aviation 
+authorities of a country listed in Country Group A:1; and
+    c. Do not incorporate weapons enumerated or otherwise described 
+on the U.S. Munitions List, unless inoperable and incapable of being 
+returned to operation.
+
+    b. L-100 aircraft manufactured prior to 2013.
+    c.-d. [Reserved]
+    e. Mobile aircraft arresting and engagement runway systems for 
+aircraft controlled by either USML Category VIII(a) or ECCN 9A610.a.
+    f. Pressure refueling equipment and equipment that facilitates 
+operations in confined areas, ``specially designed'' for aircraft 
+controlled by either USML paragraph VIII(a) or ECCN 9A610.a.
+    g. Aircrew life support equipment, aircrew safety equipment and 
+other devices for emergency escape from aircraft controlled by 
+either USML paragraph VIII(a) or ECCN 9A610.a.
+    h. Parachutes, paragliders, complete parachute canopies, 
+harnesses, platforms, electronic release mechanisms, ``specially 
+designed'' for use with aircraft controlled by either USML paragraph 
+VIII(a) or ECCN 9A610.a, and ``equipment'' ``specially designed'' 
+for military high altitude parachutists, such as suits, special 
+helmets, breathing systems, and navigation equipment.
+    i. Controlled opening equipment or automatic piloting systems, 
+designed for parachuted loads.
+    j. Ground effect machines (GEMS), including surface effect 
+machines and air cushion vehicles, ``specially designed'' for use by 
+a military.
+    k. through s. [Reserved]
+    t. Composite structures, laminates, and manufactures thereof 
+``specially designed'' for unmanned aerial vehicles controlled under 
+USML Category VIII(a) with a range equal to or greater than 300 km.
+
+    Note to paragraph .t: Composite structures, laminates, and 
+manufactures thereof ``specially designed'' for unmanned aerial 
+vehicles controlled under USML Category VIII(a) with a maximum range 
+less than 300 km are controlled in paragraph .x of this entry.
+
+    u. Apparatus and devices ``specially designed'' for the 
+handling, control, activation and non-ship-based launching of 
+``UAVs'' controlled by either USML paragraph VIII(a) or ECCN 
+9A610.a, and capable of a range equal to or greater than 300 km.
+
+    Note to paragraph .u: Apparatus and devices ``specially 
+designed'' for the handling, control, activation and non-ship-based 
+launching of ``UAVs'' controlled by either USML paragraph VIII(a) or 
+ECCN 9A610.a with a maximum range less than 300 km are controlled in 
+paragraph .x of this entry.
+
+    v. Radar altimeters designed or modified for use in ``UAVs'' 
+controlled by either USML paragraph VIII(a) or ECCN 9A610.a., and 
+capable of delivering at least 500 kilograms payload to a range of 
+at least 300 km.
+
+    Note to paragraph .v: Radar altimeters designed or modified for 
+use in ``UAVs'' controlled by either USML paragraph VIII(a) or ECCN 
+9A610.a. that are not capable of delivering at least 500 kilograms 
+payload to a range of at least 300 km are controlled in paragraph .x 
+of this entry.
+
+    w.1. Pneumatic hydraulic, mechanical, electro-optical, or 
+electromechanical flight control systems (including fly-by-wire and 
+fly-by-light systems) and attitude control equipment designed or 
+modified for ``UAVs'' controlled by either USML paragraph VIII(a) or 
+ECCN 9A610.a., and capable of delivering at least 500 kilograms 
+payload to a range of at least 300 km.
+
+    Note to paragraph .w.1: Pneumatic, hydraulic, mechanical, 
+electro-optical, or electromechanical flight control systems 
+(including fly-by-wire and fly-by-light systems) and attitude 
+control equipment designed or modified for ``UAVs'' controlled by 
+either USML paragraph VIII(a) or ECCN 9A610.a., not capable of 
+delivering at least 500 kilograms payload to a range of at least 300 
+km are controlled in paragraph .x of this entry.
+
+    w.2. Flight control servo valves designed or modified for the 
+systems in 9A610.w.1. and designed or modified to operate in a 
+vibration environment greater than 10g rms over the entire range 
+between 20Hz and 2 kHz.
+
+    Note to paragraph .w: Paragraphs 9A610.w.1. and 9A610.w.2. 
+include the systems, equipment and valves designed or modified to 
+enable operation of manned aircraft as unmanned aerial vehicles.
+
+    x. ``Parts,'' ``components,'' ``accessories,'' and 
+``attachments'' that are ``specially designed'' for a commodity 
+enumerated or otherwise described in ECCN 9A610 (except for 9A610.y) 
+or a defense article enumerated or otherwise described in USML 
+Category VIII and not elsewhere specified on the USML or in 9A610.y, 
+9A619.y, or 3A611.y.
+    y. Specific ``parts,'' ``components,'' ``accessories,'' and 
+``attachments'' ``specially designed'' for a commodity subject to 
+control in this entry, ECCN 9A619, or for a defense article in USML 
+Categories VIII or XIX and not elsewhere specified in the USML or 
+the CCL, and other aircraft commodities ``specially designed'' for a 
+military use, as follows, and ``parts,'' ``components,'' 
+``accessories,'' and ``attachments'' ``specially designed'' 
+therefor:
+    y.1. Aircraft tires;
+    y.2. Analog gauges and indicators;
+    y.3. Audio selector panels;
+    y.4. Check valves for hydraulic and pneumatic systems;
+    y.5. Crew rest equipment;
+    y.6. Ejection seat mounted survival aids;
+    y.7. Energy dissipating pads for cargo (for pads made from paper 
+or cardboard);
+    y.8. Fluid filters and filter assemblies;
+    y.9. Galleys;
+    y.10. Fluid hoses, straight and unbent lines (for a commodity 
+subject to control in this entry or defense article in USML Category 
+VIII), and fittings, couplings, clamps (for a commodity subject to 
+control in this entry or defense article in USML Category VIII) and 
+brackets therefor;
+    y.11. Lavatories;
+    y.12. Life rafts;
+    y.13. Magnetic compass, magnetic azimuth detector;
+    y.14. Medical litter provisions;
+    y.15. Cockpit or cabin mirrors;
+    y.16. Passenger seats including palletized seats;
+    y.17. Potable water storage systems;
+    y.18. Public address (PA) systems;
+    y.19. Steel brake wear pads (does not include sintered mix or 
+carbon/carbon materials);
+    y.20. Underwater locator beacons;
+    y.21. Urine collection bags/pads/cups/pumps;
+    y.22. Windshield washer and wiper systems;
+    y.23. Filtered and unfiltered panel knobs, indicators, switches, 
+buttons, and dials;
+    y.24. Lead-acid and Nickel-Cadmium batteries;
+    y.25. Propellers, propeller systems, and propeller blades used 
+with reciprocating engines;
+    y.26. Fire extinguishers;
+    y.27. Flame and smoke/CO<INF>2</INF> detectors;
+    y.28. Map cases;
+    y.29. 'Military Aircraft' that were first manufactured from 1946 
+to 1955 that do not incorporate defense articles enumerated or 
+otherwise described on the U.S. Munitions List, unless the items are 
+required to meet safety or airworthiness standards of a Wassenaar 
+Arrangement Participating State; and do not incorporate weapons 
+enumerated or otherwise described on the U.S. Munitions List, unless 
+inoperable and incapable of being returned to operation;
+    y.30. ``Parts,'' ``components,'' ``accessories,'' and 
+``attachments,'' other than electronic items or navigation 
+equipment, for use in or with a commodity controlled by ECCN 
+9A610.h;
+    y.31. Identification plates and nameplates;
+    y.32. Fluid manifolds; and
+    y.33. Brackets, carrying cases, controllers, cables and 
+adapters, chargers, docks, mounts, propellers, propeller systems, 
+and propeller
+
+[[Page 52507]]
+
+blades for ``UAVs'' and RPVs described in 9A610.a.
+* * * * *
+9D001 ``Software'', not specified in 9D003 or 9D004, ``specially 
+designed'' or modified for the ``development'' of equipment or 
+``technology'' controlled by ECCN 9A001 to 9A004, 9A012, 9A101 
+(except for items in 9A101.b that are ``subject to the ITAR'', see 
+22 CFR part 121), 9A106.d. or .e, 9A110, or 9A120, 9B (except for 
+ECCNs 9B604, 9B610, 9B619, 9B990, and 9B991), or ECCN 9E003.
+
+License Requirements
+
+Reason for Control: NS, MT, AT
+
+ 
+                                              Country chart  (see Supp.
+                Control(s)                       No. 1  to part 738)
+ 
+NS applies to ``software'' for equipment    NS Column 1.
+ controlled by 9A001 to 9A004, 9A012
+ (except 9A012.a.1), 9B001 to 9B010, and
+ technology controlled by 9E003.
+MT applies to ``software'' for equipment    MT Column 1.
+ controlled by 9B116 for MT reasons.
+AT applies to entire entry................  AT Column 1.
+ 
+
+Reporting Requirements
+
+See Sec.  743.1 of the EAR for reporting requirements for exports 
+under License Exceptions, and Validated End-User authorizations.
+
+List Based License Exceptions (See Part 740 for a Description of All 
+License Exceptions)
+
+TSR: N/A
+
+Special Conditions for STA
+
+STA: License Exception STA may not be used to ship or transmit 
+``software'' ``specially designed'' or modified for the 
+``development'' of equipment or ``technology'', specified by ECCNs 
+9B001.b. or 9E003.a.1, 9E003.a.2 to a.5, 9E003.a.8, or 9E003.h to 
+any of the destinations listed in Country Group A:6 (See supplement 
+no.1 to part 740 of the EAR).
+
+List of Items Controlled
+
+Related Controls: ``Software'' that is ``required'' for the 
+``development'' of items specified in ECCNs 9A005 to 9A009, 9A010 
+(except for items that are subject to the EAR), 9A011, 9A101.b 
+(except for items that are subject to the EAR), 9A103 to 9A105, 
+9A106.a, .b, and .c, 9A107 to 9A109, 9A110 (for items that are 
+``specially designed'' for use in missile systems and subsystems), 
+and 9A111 to 9A119 is ``subject to the ITAR''.
+Related Definitions: N/A
+Items: The list of items controlled is contained in the ECCN 
+heading.
+
+9D002 ``Software'', not specified in 9D003 or 9D004, ``specially 
+designed'' or modified for the ``production'' of equipment 
+controlled by ECCN 9A001 to 9A004, 9A012, 9A101 (except for items in 
+9A101.b that are ``subject to the ITAR'', see 22 CFR part 121), 
+9A106.d or .e, 9A110, or 9A120, 9B (except for ECCNs 9B604, 9B610, 
+9B619, 9B990, and 9B991).
+
+License Requirements
+
+Reason for Control: NS, MT, AT
+
+ 
+                                              Country chart  (see Supp.
+                Control(s)                       No. 1  to part 738)
+ 
+NS applies to ``software'' for equipment    NS Column 1.
+ controlled by 9A001 to 9A004, 9A012
+ (except 9A012.a.1), 9B001 to 9B010.
+MT applies to ``software'' for equipment    MT Column 1.
+ controlled by 9B116 for MT reasons.
+AT applies to entire entry................  AT Column 1.
+ 
+
+Reporting Requirements
+
+See Sec.  743.1 of the EAR for reporting requirements for exports 
+under License Exceptions, and Validated End-User authorizations.
+
+List Based License Exceptions (See Part 740 for a Description of All 
+License Exceptions)
+
+TSR: N/A.
+
+Special Conditions for STA
+
+STA: License Exception STA may not be used to ship or transmit 
+``software'' ``specially designed'' or modified for the 
+``production'' of equipment specified by 9B001.b to any of the 
+destinations listed in Country Group A:6 (See supplement no.1 to 
+part 740 of the EAR).
+
+List of Items Controlled
+
+Related Controls: ``Software'' that is ``required'' for the 
+``production'' of items specified in ECCNs 9A005 to 9A009, 9A010 
+(except for items that are subject to the EAR), 9A011, 9A101.b 
+(except for items that are subject to the EAR), 9A103 to 9A105, 
+9A106.a, .b, and .c, 9A107 to 9A109, 9A110 (for items that are 
+``specially designed'' for use in missile systems and subsystems), 
+and 9A111 to 9A119 is ``subject to the ITAR''.
+Related Definitions: N/A
+Items: The list of items controlled is contained in the ECCN 
+heading.
+* * * * *
+9D004 Other ``software'' as follows (see List of Items Controlled).
+
+License Requirements
+
+Reason for Control: NS, AT
+
+ 
+                                              Country chart  (see Supp.
+                Control(s)                       No. 1  to part 738)
+ 
+NS applies to entire entry, except 9D004.e  NS Column 1.
+ for 9A012.a.1 items.
+AT applies to entire entry................  AT Column 1.
+ 
+
+List Based License Exceptions (See Part 740 for a Description of All 
+License Exceptions)
+
+TSR: N/A.
+
+Special Conditions for STA
+
+STA: License Exception STA may not be used to ship or transmit 
+software in 9D004.a and 9D004.c to any of the destinations listed in 
+Country Group A:6 (See supplement no.1 to part 740 of the EAR)
+
+List of Items Controlled[MISSING{time} 
+
+Related Controls: See also 9D104.
+Related Definitions: N/A
+Items:
+
+    a. 2D or 3D viscous ``software'', validated with wind tunnel or 
+flight test data required for detailed engine flow modelling;
+    b. ``Software'' for testing aero gas turbine engines, 
+assemblies, ``parts'' or ``components'', having all of the 
+following:
+    b.1. ``Specially designed'' for testing any of the following:
+    b.1.a. Aero gas turbine engines, assemblies or components, 
+incorporating ``technology'' specified by 9E003.a, 9E003.h or 
+9E003.i; or
+    b.1.b. Multi-stage compressors providing either bypass or core 
+flow, specially designed for aero gas turbine engines incorporating 
+``technology'' specified by 9E003.a or 9E003.h; and
+    b.2. ``Specially designed'' for all of the following:
+    b.2.a. Acquisition and processing of data, in real time; and
+    b.2.b. Feedback control of the test article or test conditions 
+(e.g., temperature, pressure, flow rate) while the test is in 
+progress;
+
+    Note: 9D004.b does not specify software for operation of the 
+test facility or operator safety (e.g., overspeed shutdown, fire 
+detection and suppression), or production, repair or maintenance 
+acceptance-testing limited to determining if the item has been 
+properly assembled or repaired.
+
+    c. ``Software'' ``specially designed'' to control directional 
+solidification or single crystal material growth in equipment 
+specified by 9B001.a or 9B001.c;
+    d. [Reserved]
+    e. ``Software'' ``specially designed'' or modified for the 
+operation of items specified by 9A012;
+    f. ``Software'' ``specially designed'' to design the internal 
+cooling passages of aero gas turbine engine blades, vanes and ``tip 
+shrouds'';
+    g. ``Software'' having all of the following:
+    g.1. ``Specially designed'' to predict aero thermal, 
+aeromechanical and combustion conditions in aero gas turbine 
+engines; and
+    g.2. Theoretical modeling predictions of the aero thermal, 
+aeromechanical and combustion conditions, which have been
+
+[[Page 52508]]
+
+validated with actual turbine engine (experimental or production) 
+performance data.
+* * * * *
+9E001 ``Technology'' according to the General Technology Note for 
+the ``development'' of equipment or ``software'', controlled by 
+9A004, 9A012, 9B (except for ECCNs 9B604, 9B610, 9B619, 9B990 and 
+9B991), or ECCN 9D001 to 9D004, 9D101, or 9D104.
+
+License Requirements
+
+Reason for Control: NS, MT, AT
+
+ 
+                                              Country chart  (see Supp.
+                Control(s)                       No. 1  to part 738)
+ 
+NS applies to ``technology'' for items      NS Column 1.
+ controlled by 9A004, 9A012 (except for
+ 9A012.a.1), 9B001 to 9B010, 9D001 to
+ 9D004 for NS reasons.
+MT applies to ``technology'' for items      MT Column 1.
+ controlled by 9A012, 9B001, 9B002, 9B003,
+ 9B004, 9B005, 9B007, 9B104, 9B105, 9B106,
+ 9B115, 9B116, 9B117, 9D001, 9D002, 9D003,
+ or 9D004 for MT reasons.
+AT applies to entire entry................  AT Column 1.
+ 
+
+Reporting Requirements
+
+See Sec.  743.1 of the EAR for reporting requirements for exports 
+under License Exceptions, and Validated End-User authorizations.
+
+List Based License Exceptions (See Part 740 for a Description of All 
+License Exceptions)
+
+TSR: N/A
+
+Special Conditions for STA
+
+STA: License Exception STA may not be used to ship or transmit any 
+technology in this entry to any of the destinations listed in 
+Country Group A:6 (See supplement no. 1 to part 740 of the EAR)
+
+List of Items Controlled
+
+Related Controls: (1) See also 9E101 and 1E002.f (for controls on 
+``technology'' for the repair of controlled structures, laminates or 
+materials). (2) ``Technology'' required for the ``development'' of 
+equipment described in ECCNs 9A005 to 9A011 or ``software'' 
+described in ECCNs 9D103 and 9D105 is ``subject to the ITAR.''
+Related Definitions: N/A
+Items:
+
+    The list of items controlled is contained in the ECCN heading.
+* * * * *
+
+Julia A. Khersonsky,
+Deputy Assistant Secretary for Strategic Trade.
+[FR Doc. 2026-16628 Filed 8-13-26; 8:45 am]
+BILLING CODE 3510-33-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,76 @@
+{
+  "abstract": "This notice requests public comments on a proposal to include 14 additional derivative articles within the scope of the Section 232 duties on steel, aluminum, and copper: aluminum powder; brass-wind musical instruments and their parts and accessories; parts of welding machines and apparatus; floor safes; certain electric conductor cables; fire extinguishers; parts of heat exchange units; parts of certain hydraulic engines and motors; certain self-propelled cranes, mobile lifting frames, and straddle carriers; tanker trailers and semi- trailers; self-loading or self-unloading trailers and semi-trailers for agricultural purposes; certain other trailers and semi-trailers; and certain filled steel containers.",
+  "action": "Notice.",
+  "agencies": [
+    {
+      "raw_name": "DEPARTMENT OF COMMERCE",
+      "name": "Commerce Department",
+      "id": 54,
+      "url": "https://www.federalregister.gov/agencies/commerce-department",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+      "parent_id": null,
+      "slug": "commerce-department"
+    },
+    {
+      "raw_name": "Bureau of Industry and Security",
+      "name": "Industry and Security Bureau",
+      "id": 241,
+      "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+      "parent_id": 54,
+      "slug": "industry-and-security-bureau"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2026/08/06/2026-15961.html",
+  "cfr_references": [],
+  "citation": "91 FR 50756",
+  "comment_url": null,
+  "comments_close_on": "2026-08-27",
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Comments may be submitted at any time but must be received by August 27, 2026.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. 260803-0182"
+  ],
+  "dockets": [],
+  "document_number": "2026-15961",
+  "effective_on": null,
+  "end_page": 50758,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2026/08/06/2026-15961.xml",
+  "html_url": "https://www.federalregister.gov/documents/2026/08/06/2026-15961/request-for-public-comments-on-the-proposed-implementation-of-duties-on-additional-aluminum-steel",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2026-15961?publication_date=2026-08-06",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2026-08-06/2026-15961/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 3,
+  "page_views": {
+    "count": 13615,
+    "last_updated": "2026-10-12 18:15:07 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-06/pdf/2026-15961.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-15961.pdf?1785847517",
+  "publication_date": "2026-08-06",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/06/2026-15961.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2026-08-06T11:06:21Z"
+  },
+  "regulations_dot_gov_url": null,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 50756,
+  "subtype": null,
+  "title": "Request for Public Comments on the Proposed Implementation of Duties on Additional Aluminum, Steel, and Copper Derivative Articles Under Section 232",
+  "toc_doc": "Implementation of Duties on Additional Aluminum, Steel, and Copper Derivative Articles under Section 232",
+  "toc_subject": null,
+  "topics": [],
+  "type": "Notice",
+  "volume": 91
+}

@@ -1,0 +1,135 @@
+{
+  "abstract": "The Bureau of Industry and Security (BIS) is easing export controls on certain Unmanned Aerial Vehicles (UAVs or drones) and related parts, components, accessories, attachments, technology, and software under the Export Administration Regulations (EAR). Specifically, this rule: eliminates wind gust tolerance as a parameter for determining UAV controls under the EAR; increases the threshold for national security controls on certain UAVs from an endurance of 30 minutes to an endurance of 3 hours; makes conforming changes to remove national security controls on software and technology associated with UAVs with an endurance less than 3 hours; maintains military end-use and end-user controls on those lower endurance drones and associated software and technology; clarifies Commerce Control List (CCL) controls for certain UAVs specially designed for military use; and removes national security controls on certain specially designed parts, components, accessories, and attachments for such UAVs as they do not provide any significant military or intelligence capabilities.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "raw_name": "DEPARTMENT OF COMMERCE",
+      "name": "Commerce Department",
+      "id": 54,
+      "url": "https://www.federalregister.gov/agencies/commerce-department",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+      "parent_id": null,
+      "slug": "commerce-department"
+    },
+    {
+      "raw_name": "Bureau of Industry and Security",
+      "name": "Industry and Security Bureau",
+      "id": 241,
+      "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+      "parent_id": 54,
+      "slug": "industry-and-security-bureau"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2026/08/14/2026-16628.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "740",
+      "title": 15
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "744",
+      "title": 15
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "774",
+      "title": 15
+    }
+  ],
+  "citation": "91 FR 52501",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [
+    "https://www.federalregister.gov/api/v1/documents/C1-2026-16628"
+  ],
+  "dates": "This rule is effective on August 13, 2026.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. 260723-0178"
+  ],
+  "dockets": [
+    {
+      "supporting_documents": [],
+      "agency_name": "BIS",
+      "documents": [
+        {
+          "comment_count": 0,
+          "comment_start_date": "2026-08-14",
+          "updated_at": "2026-08-14T10:05:24.398-04:00",
+          "comment_url": "https://www.regulations.gov/commenton/BIS_FRDOC_0001-0719",
+          "allow_late_comments": false,
+          "id": "BIS_FRDOC_0001-0719",
+          "comment_end_date": null,
+          "regulations_dot_gov_open_for_comment": false
+        }
+      ],
+      "supporting_documents_count": 0,
+      "id": "BIS_FRDOC_0001",
+      "title": "Recently Posted BIS Rules and Notices."
+    }
+  ],
+  "document_number": "2026-16628",
+  "effective_on": "2026-08-13",
+  "end_page": 52508,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2026/08/14/2026-16628.xml",
+  "html_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16628/streamlining-export-controls-for-drone-exports",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2026-16628?publication_date=2026-08-14",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2026-08-14/2026-16628/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 8,
+  "page_views": {
+    "count": 3517,
+    "last_updated": "2026-10-12 18:15:07 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-14/pdf/2026-16628.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-16628.pdf?1786625117",
+  "publication_date": "2026-08-14",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/14/2026-16628.txt",
+  "regulation_id_number_info": {
+    "0694-AK30": null
+  },
+  "regulation_id_numbers": [
+    "0694-AK30"
+  ],
+  "regulations_dot_gov_info": {
+    "supporting_documents": [],
+    "comments_count": 0,
+    "agency_id": "BIS",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=BIS_FRDOC_0001",
+    "supporting_documents_count": 0,
+    "docket_id": "BIS_FRDOC_0001",
+    "document_id": "BIS_FRDOC_0001-0719",
+    "regulation_id_number": null,
+    "title": "Recently Posted BIS Rules and Notices.",
+    "checked_regulationsdotgov_at": "2026-08-15T18:55:11Z"
+  },
+  "regulations_dot_gov_url": null,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 52501,
+  "subtype": null,
+  "title": "Streamlining Export Controls for Drone Exports",
+  "toc_doc": "Streamlining Export Controls for Drone Exports",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Exports",
+    "Reporting and recordkeeping requirements",
+    "Terrorism"
+  ],
+  "type": "Rule",
+  "volume": 91
+}
