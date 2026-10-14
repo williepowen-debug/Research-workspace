@@ -4,7 +4,7 @@
 
 ## Resume point
 
-**Directed system catch-up complete; await Will's next discussion/direction.** [October 14 context](runs/2026-10-07_1500_fleet-work-sweep.md#october-14--directed-system-context-catch-up) records REGINALD's research standard, WAL's repairs/primary-history integration, WALTER routing and scope correction, TERRY repair/PROME acceptance with owner follow-through pending, broader stress research and energy continuation. Local snapshot `0e42c118e`; concurrent owner work and primary/code verification limits remain explicit. Start any follow-up with changed evidence and the chosen question, not another whole-system read. Earlier discussion/launch guidance stays in the same report. No owner edits, sends, launches or pilot collection. [Approved closeout improvements](runs/2026-10-01_1152_startup-closeout-review.md#october-12--approved-task-boundary-saving-and-continuity-compaction) remain implemented.
+**BROCK direction review complete; await Will/owner response.** [October 14 feedback and draft work order](runs/2026-10-14_1451_brock-audit-direction.md) prioritizes supported repairs and current-evidence gaps; adds foreign-unstaging, frozen-weight, Cliffwater-inference and Medallia-comparability findings. BROCK is live per Will; no owner edits, sends or launch. **CATO publication deferred:** the shared train includes BROCK audit commits whose push approval was rejected; do not bypass that through CATO. Resume publication only after required approval or verified authorized owner publication. Start follow-up with changed artifacts and prior counterexamples. [Earlier system context/corrections](runs/2026-10-07_1500_fleet-work-sweep.md) and its verification limits remain available; no pilot collection.
 
 ## Surviving work and approvals
 
