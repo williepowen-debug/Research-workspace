@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-14 11:12 EDT (Will-requested closeout)
+## Current Session — 2026-10-14 11:52 EDT (Will reopened for boot/context)
+
+Wednesday boot completed in OpenAI GPT-6 / Codex /root; exact variant/native UUID UNKNOWN. Explicit root/local reads and runtime selection recorded in research/2026-10-14_boot-context.md. Official CPI headline/core summary and public IEA OMR checked; REGINALD/PROME compound-stress syntheses consumed as context. No owner gate grade/new capital candidate or order. Three open paper marks refreshed; scoring closed. BOARD0new/0logged/0unlogged, inbox/rawWill0, R1clean. Latest broker receipt remains October13; today's QQQ744P/USO150C dispositions UNKNOWN, Will handles orders and cardtimes remain proposed. Boot artifacts save locally; pull/publication deferred for foreign work and existing repair hold. Prior closeout below remains dated history, not a current instruction to stop this reopened desk.
+
+### Prior boundary — October14 11:12 EDT
 
 User asked to close this TERRY session. OpenAI Codex /root; exact native sessionID/model UNKNOWN. Completed October13 construction remains PASS/0newcapital; corecfa7b9ae4, delivery1706da686, finalsource29c4a0480. Closeout evidence/cutoff/persistence at outbox/2026-10-14_to-PROME_closeout.md and research/2026-10-14_closeout/receipt.json. No new study/screen/order/rule. Root/localinstructions retained; localAGENTS absent; nohelper.
 
