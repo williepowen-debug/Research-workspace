@@ -1,0 +1,104 @@
+{
+  "checked_at_utc": "2026-10-14T17:49:20.043564+00:00",
+  "scope": "saved-evidence file sweep, not current broker/market or owner grade",
+  "checks": {
+    "archive_integrity": {
+      "status": "PASS",
+      "files": [
+        {
+          "file": "STATUS.md",
+          "bytes": 24195,
+          "removed_blocks_verified": 1
+        },
+        {
+          "file": "TRADE.md",
+          "bytes": 23799,
+          "removed_blocks_verified": 5
+        },
+        {
+          "file": "thesis/THESIS.md",
+          "bytes": 23018,
+          "removed_blocks_verified": 2
+        },
+        {
+          "file": "demand_destruction/DEMAND_COMPOSITE.md",
+          "bytes": 6351,
+          "removed_blocks_verified": 0
+        }
+      ]
+    },
+    "local_links": {
+      "status": "PASS",
+      "file_destinations_checked": 148,
+      "perimeter": [
+        "STATUS.md",
+        "TRADE.md",
+        "thesis/THESIS.md",
+        "SCRATCH.md",
+        "NEXUS_BRIEF.md",
+        "demand_destruction/DEMAND_COMPOSITE.md",
+        "audits/2026-10-14_consistency-sweep/REPORT.md"
+      ],
+      "exclusions": "URL and heading anchors; audit validation.json created from this result"
+    },
+    "eia_saved_sources": {
+      "status": "PASS",
+      "observation_week": "2026-10-02",
+      "workbook_hashes_match": true,
+      "gasoline_4wk_mbd": "8.77575",
+      "gasoline_4wk_yoy_pct": "-0.2925637675396239277395898400"
+    },
+    "dated_retail_inputs": {
+      "status": "PASS",
+      "date": "2026-10-05",
+      "gasoline": "4.354",
+      "diesel": "6.199"
+    },
+    "option_saved_source_and_economics": {
+      "status": "PASS",
+      "quote_retrieval": "2026-10-14T17:30:17.582342+00:00",
+      "opening_cost_assumed_fees": "396.30",
+      "no_new_quote": true
+    },
+    "rotation_stop": {
+      "status": "PASS",
+      "utf8_bytes": {
+        "STATUS.md": 22122,
+        "TRADE.md": 22486,
+        "thesis/THESIS.md": 22501
+      },
+      "strict_stop_bytes": 22785
+    },
+    "binding_letters": {
+      "status": "PASS",
+      "WQ386_exact_unchanged": true,
+      "frame_breaker_state_exact_unchanged": true
+    }
+  },
+  "runtime_checks": {
+    "pending": {
+      "exit_code": 0,
+      "output": "  \u2705 PENDING-RECEIPTS: no unresolved execution receipts or elapsed explicit expiries.\n     Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.\n     Broker truth and unrecorded trades remain outside this text check.\n"
+    },
+    "corrections": {
+      "exit_code": 0,
+      "output": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BRENT (register 76 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 15) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+    },
+    "predictions": {
+      "exit_code": 0,
+      "output": "  \u23f3 Predictions-Due Scan...\n      \u2705 no OPEN predictions past (or within 7d of) their timeframe\n"
+    },
+    "calendar": {
+      "exit_code": 0,
+      "output": "\u2705 CALENDAR: STATUS block matches docket/CATALYSTS.tsv (25 events)\n\u2705 STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-10-09).\n"
+    },
+    "weekday": {
+      "exit_code": 0,
+      "output": "CLAIM-CHECK \u2713 4 file(s) clean [weekday]\n"
+    },
+    "readcap": {
+      "exit_code": 0,
+      "output": "READ-CAP [BRENT] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 3 boot section(s) in CLAUDE.md, 29 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 TRADE.md                             22,478 B    69% of budget    (boot-step line 26)\n  \u2705 STATUS.md                            22,122 B    68% of budget    (boot-step line 26)\n  \u2705 LESSONS.md                           15,125 B    46% of budget    (boot-step line 30)\n  \u2705 domain/REFERENCE_TABLES.md            6,174 B    19% of budget    (boot-step line 31)\n  \u2705 SCRATCH.md                            5,911 B    18% of budget    (boot-step line 27)\n\u2705 READ-CAP 0 [BRENT]: every boot-mandated read this check found is under budget (5 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/BRENT/CLAUDE.md = 31,848 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BRENT reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31848\n"
+    }
+  }
+}

@@ -1,23 +1,21 @@
-# BRENT SCRATCH — October14,2026 — continuing energy option research
+# BRENT SCRATCH — October14,2026 — canonical file sweep
 
-**Handoff:** 2026-10-14 13:35 EDT. OpenAI Codex/GPT-6 family; exact variant/native session ID UNKNOWN; task /root. Explicit root/local boot reads at this session's earlier receipt; no helpers. Existing real-data vintages retain their dates.
+**Handoff:** 2026-10-14 13:48 EDT. OpenAI Codex/GPT-6 family; exact variant/native session ID UNKNOWN; task /root. Explicit root/local boot reads at this session's earlier receipt; no helpers. Existing real-data vintages retain their dates.
 
 ## CHANGES SINCE LAST SESSION
-- Will approved digging into continuing option exposure. Fresh bounded vendor chains obtained at13:30EDT: USO December18 is65DTE; BNO has no60–90DTE expiry, Jan15 is93DTE. No capital approval.
-- Will explicitly handles today's calls and is watching the broker. His concern is continuing energy option exposure afterward; stop repeated disposition prompts. Preserve sell-or-roll and eventual receipt, no inferred sale or automatic roll.
-- Direct MPA body recovered; earlier indexed-only access gap closed. PortWatch fresh queries now through October11 strait / October9 hubs. Matched seven-day Fujairah/Sohar tanker-export proxy weakened; not a current crude-volume loss or post-sinking measurement.
-- Dated Sparta analyses show tight prompt tonnage alongside more economic December diesel delivery routes. This is counterevidence to an uninterrupted margin squeeze; no delivered cargo or causal freight-to-WTI beta.
+- Will requested a TRADE/THESIS/other-file sweep; research/maintenance only, no capital authority. Latest secondaryOctober14 broker artifact re-read: USO37/VLO2/Oct14calls×2, no energy closing fill recorded. RawOctober14images/capture time/currentorders/subsequentoutcome UNKNOWN; rawOctober13images retain previous verification.
+- PROME docketL684 independently re-read: WQ420installation acceptance PENDING. Additional-VLO-share scopeD78 remains UNKNOWN. Will manages today's calls; no repeated prompt.
 
 ## WHAT I DID THIS SESSION
-- [Current option study](research/2026-10-14_energy-option-continuity/REPORT.md), raw chains, reproducible conservative-side arithmetic and identity/payoff validation saved. USO Dec18 162/175 is leading research candidate: ~$396 assumed-fee risk, expiration breakeven+7.64%, capped upside, ~$83 displayed roundtrip friction. No TERRY card or buy recommendation; physical entry/price edge missing. Compared outright calls, BNO and VLO/MPC/PSX without changing rules. No foreign owner cache writes.
-- Completed requested shipping check FIRST; [REPORT](research/2026-10-14_shipping-check/REPORT.md), raw bodies/API payloads, hashes and arithmetic saved. Source failures named; no FALCON census, incident row, owner grade or new threshold.
-- Completed explicitly approved October15 preparation SECOND; [WORKSHEET](research/2026-10-15_release-prep/WORKSHEET.md), [baseline](research/2026-10-15_release-prep/baseline.json). Re-extracted saved October7 EIA workbook; exact regional keys verified; gasoline calculation reproduces. Full BRT31 note/v2 letter read; schedule verified. No early prediction grade/counter advance.
-- Explained VLO work as existing hold-versus-exit assessment: contract switch alone is not sale, accepted new-month observation can trigger under existing letter. TERRY owns grade, PROME installation acceptanceL684 still pending at row read, additional share scopeD78 unknown.
-- Earlier today: October14 OMR public-body review and v5.13 minor refinement; call reflection; three new WALTER packets consumed/logged/archive-moved. [Prior focus](research/2026-10-14_boot-omr/TODAY-FOCUS.md) is historical where this handoff supersedes call-reminder priority/source-access status.
+- Reconciled TRADE's stalev5.12/October12-only comparison, THESIS's old position-vintage reference, STATUS owner pointer/summary and demand composite. [Audit](audits/2026-10-14_consistency-sweep/REPORT.md) owns scope/checks; no fresh market/physical poll.
+- Integrated completed shipping and continuing-option research into THESIS5.13 without version/phase/calibration change. Container casualties do not measure crude loss; lagged hubs weakened before latest events; better later diesel delivery is contrary evidence to uninterrupted scarcity.
+- Current option candidate remains USO Dec18 162/175: saved13:30vendor screen, material crossing friction, no calibrated price edge/TERRY card/buy recommendation. [Study](research/2026-10-14_energy-option-continuity/REPORT.md). No approved replacement or automatic roll.
+- Demand composite now reflects October14 IEA September estimates, savedOctober7 EIAweekOctober2/FREDretailOctober5. Other source vintages explicit; October12retail not polled. October15 preparation already complete at [worksheet](research/2026-10-15_release-prep/WORKSHEET.md).
+- Dated STATUS/TRADE/THESIS prose archived with exact before-images and computed bytes/CRC/SHA; binding letters/open obligations/hot correction sentinels retained. [Manifest](archive/2026-10-14_consistency-sweep/manifest.json).
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **October15:** execute prepared IEA Board / EIA WPSR noonEDT weekOctober9 read when actually published. First-published bytes/hash, quantity overlap and observation dates required. BRT31 first eligible week cannot by itself meet two-week condition; October2 outside window. Full letter governs. No automatic session/monitor promised.
-2. **October15 original VLO:** December basis begins under WQ386/420; TERRY grades and PROME completes existing independent acceptance. No rule automatically extended to extra share. Any prior established exit survives switch/missing source.
+2. **October14/15 original VLO:** December basis begins under WQ386/420; TERRY grades and PROME completes existing independent acceptance. No rule automatically extended to extra share. Any prior established exit survives switch/missing source.
 3. **October16:** COT#10 asofOctober13 about15:30ET; #9 already graded. Source403/stamp readiness remains. BRT30October26; DSTNovember1; next VLO basis reviewNovember18/19 remain registered.
 
 ## OPEN THREADS / WATCHES
@@ -34,7 +32,8 @@
 - Inbox: three later October14 WALTER packets consumed, logged and archived; top/general and WALTER lanes clear at latest inventory. Wider news coverage partial. Outbox: prior packets retained without new consumption proof. NEXUS carries ordinary new evidence; no native fleet notification claimed.
 
 ## WORKBOOK HEALTH
+- Current file-sweep checks recorded at audit; no registered grade or new physical survey.
 - Earlier networkboot rc2:6OK/4FINDINGS/0FAIL. Corrections/pending receipts/predictions-due clear within scope. EIAutilization probe gap is not absence of archived workbook data. Registry age/access/pairedcoverage,24incident debts and TRACKERsize remain. Cloud deployment/first-normal-run acceptance stays parked at CATO.
-- CATALYSTS refreshed for preparation; REGISTRY/LESSONS_INDEX/INCIDENTS/COT not restamped without governing new evidence/change. Frozen ledgers untouched. Only bounded TRACKER banner read/refreshed.
+- Six-ledger nudge remains advisory: REGISTRY/LESSONS_INDEX/INCIDENTS/COT_VINTAGES/board_log/CATALYSTS not stamped because no new rule/lesson/incident/print/inbox delivery/event result. Frozen KB/VX/FLOW/TIMELINE untouched; TRACKER banner scoped-partial.
 - Thesis5.13 and predictions unchanged: screen adds construction information, not new physical/phase evidence.
 - Pull deferred for foreign dirty paths; no stash/foreign edit or owner script/state execution. Git publication and recipient consumption remain separate; exact commit/push receipts reported after persistence.

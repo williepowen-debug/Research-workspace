@@ -1,0 +1,76 @@
+{
+  "payload_rule": "whole-file bytes for before-images; removed blocks exact UTF-8 slices found in those images",
+  "files": {
+    "STATUS.md": {
+      "before_image": "archive/2026-10-14_consistency-sweep/STATUS-before.md",
+      "bytes": 24195,
+      "crc32": "86cc5000",
+      "sha256": "87c6a2cbc70d081521f705599d67aecf4d0d7b9571b83465b73237096be025ed",
+      "removed_blocks": [
+        {
+          "starts_with": "## October14 \u2014 IEA:",
+          "bytes": 3237,
+          "sha256": "eb2e7db0e9ed0f64b2f63396837ee842a5fd13fbc755ca735a83b9352da564a6"
+        }
+      ]
+    },
+    "TRADE.md": {
+      "before_image": "archive/2026-10-14_consistency-sweep/TRADE-before.md",
+      "bytes": 23799,
+      "crc32": "11325530",
+      "sha256": "2ed7daf2aa08e5d8708b026d1a3e5f64b5fcc2e752470921280b86f9919e785b",
+      "removed_blocks": [
+        {
+          "starts_with": "**Updated: 2026-10-13 22:59 EDT",
+          "bytes": 491,
+          "sha256": "2a7052fba2d88224c69601614fb27e88c7c38ae9a83caabb88807bf4015fdf19"
+        },
+        {
+          "starts_with": "**Historical October12 owner assessment (at that touch):**",
+          "bytes": 756,
+          "sha256": "71d23e0e0c66a53fa864e954eb34b8cbb58c099d53eed0243dbfc3831e65ed2e"
+        },
+        {
+          "starts_with": "**Closed legs (receipts in EXECUTION LOG):**",
+          "bytes": 451,
+          "sha256": "92eefee3f637194e64064d13633232500c6b3c1e91122fedc52ec9c1b13e117e"
+        },
+        {
+          "starts_with": "**Dated October 7\u20139 diagnostics:**",
+          "bytes": 206,
+          "sha256": "077ca5023f893216b4298eadf2b320f097ed1483c8f846324af687efcf1c2b26"
+        },
+        {
+          "starts_with": "**Earlier resolved receipts (September 10 and before):**",
+          "bytes": 278,
+          "sha256": "f4e91525e0ef595f892b4bceff5325ac98122a9eaeb4f870f33c282fa738fd3c"
+        }
+      ]
+    },
+    "thesis/THESIS.md": {
+      "before_image": "archive/2026-10-14_consistency-sweep/THESIS-before.md",
+      "bytes": 23018,
+      "crc32": "4c3d7748",
+      "sha256": "fcf340390947e849d5a849f711427aee450f869b24d1661d597277bab279c8ad",
+      "removed_blocks": [
+        {
+          "starts_with": "**Previous version:** 5.11",
+          "bytes": 2344,
+          "sha256": "749865cfe721fdb2b82eb69de785b8b2cdcb8c4ed9f53a630eab0c69e233b5fb"
+        },
+        {
+          "starts_with": "**Reader reconciliation:**",
+          "bytes": 460,
+          "sha256": "03b322f36a5e0f720fe39710dd23628eb0aa23d79861e7e2d05fba9b230865af"
+        }
+      ]
+    },
+    "demand_destruction/DEMAND_COMPOSITE.md": {
+      "before_image": "archive/2026-10-14_consistency-sweep/DEMAND_COMPOSITE-before.md",
+      "bytes": 6351,
+      "crc32": "8b5d77ae",
+      "sha256": "3470458ff005dfbc754d5728955ac57f978056c616354ccba9157338ddf1e6a4",
+      "removed_blocks": []
+    }
+  }
+}
