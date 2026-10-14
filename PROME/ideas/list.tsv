@@ -1,0 +1,3 @@
+date	idea	benefit	revisit_when	status
+2026-10-14	Keep a reusable agent launcher in version control, with daily assignments separate	Make launch settings reviewable and reusable after temporary files disappear	After the current research wave; before reusing the dated launcher	For discussion; not approved
+2026-10-14	Review whether each launched desk can use narrower writable paths	Reduce the chance of accidental edits to another desk while preserving useful shared handoffs	When reviewing the reusable launcher	For discussion; not approved

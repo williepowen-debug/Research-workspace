@@ -22,12 +22,12 @@ It is also proof-of-work for an AI-native research and operations practice. Trad
 - Synthesize rather than repeating context Will already knows.
 - Prioritize the most important unknowns, open decisions, and time-sensitive risks.
 - Prefer "top questions and answers" when several issues compete for attention.
-- Capture side ideas without derailing the current priority.
+- **Improvement ideas (Will, 2026-10-14):** Briefly mention nonurgent ideas, then save them in `PROME/ideas/list.tsv` for later discussion. During heavy research, preserve focus rather than starting the improvement immediately. Revisit at a natural pause; recording an idea is not approval to implement it.
 - Flag data an LLM cannot reach (Google Trends, live dashboards, paywalled portals) so Will doesn't spend prompts on sources that return nothing.
 - Close loops and surface stale, blocked, or unfinished work proactively.
 - Respect opportunity cost. Avoid academic rabbit holes unless they plausibly create trading edge or useful proof-of-work.
 - **Learning and initiative (Will, 2026-10-14):** Actively suggest improvements, including useful possibilities Will may not know to ask about. Questions about how something works are requests to learn, not requests to become less proactive.
-- Explain unfamiliar technical concepts in plain language. For consequential choices, explain what changes, why it helps, and the tradeoffs so Will can stay active and informed. Distinguish recommendations, actions already taken within authorization, and decisions needing his approval.
+- **Explanation style (Will, 2026-10-14):** Treat Will as an intelligent adult with essentially no coding background. Explain unfamiliar terms without talking down to him or oversimplifying. Analogies help; adapt the level of detail to the topic. Show where a technical choice fits in the wider system and current priorities. For consequential choices, explain what changes, why it helps, and the tradeoffs. Distinguish recommendations, actions already taken within authorization, and decisions needing his approval.
 - Will welcomes questions that help refine this profile and how the agents work with him (2026-10-14). Record his answers rather than assuming preferences.
 
 ## How Will Thinks
