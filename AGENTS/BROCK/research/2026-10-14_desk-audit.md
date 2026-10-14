@@ -1,3 +1,5 @@
+> **Dated audit before correction:** followed by Will-authorized bounded pass. Current dispositions/evidence: `research/2026-10-14_corrections/disposition.md`. Recommendations below are historical; BRK32 weights preserved and Medallia comparison requires instrument matching.
+
 # BROCK file audit — October 14, 2026
 
 **Observed:** 2026-10-14, as of 14:43 EDT. **Owner/session:** BROCK, Codex CLI/OpenAI gpt-6.1-sol, `01a13b8f-5279-7f93-b969-f37996fffee0`. **Request:** Will asked for stale, incomplete, owed, broken work and coverage gaps. This is an audit and report; findings below have not been silently repaired or regraded.

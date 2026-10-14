@@ -1,3 +1,5 @@
+> **HISTORICAL — corrected October14,2026.** Earlier trade/timing narrative is not a live proposal. ARCC holds zero National Dentex exposure under the existing EDGAR correction; use current STATUS/FORGE and TERRY for construction.
+
 # CROSS-ANALYSIS — Patterns Across APO, ARCC, OWL, KKR
 **Created:** 2026-03-17
 **Sources:** APO_DEEP_DIVE, ZITO_FALLOUT, ARCC_DEEP_DIVE, OWL_DEEP_DIVE, KKR_DEEP_DIVE
@@ -132,7 +134,7 @@ Consolidating catalysts across all four deep dives into a single timeline:
 | **~Late Mar** | Athene statutory filing may be available (due Mar 1) | APO | **HIGH — primary source nobody reads** |
 | **~Late Mar** | OBDC II $2.35/share return of capital distribution (by Mar 31) | OWL | Confirms asset sale execution |
 | **Mar 18-19** | FOMC + BOJ | All (macro backdrop) | Rate path clarity |
-| **April 2026** | National Dentex Labs maturity | ARCC + OBDC | **HIGH — first PIK→default conversion if it blows** |
+| **April 2026** | National Dentex Labs maturity | OBDC group; ARCC ZERO | **HIGH — first PIK→default conversion if it blows** |
 | **~April** | Q1 tender results (Apollo, Ares, Oaktree, Goldman) | All PC managers | Confirms or denies redemption wave |
 | **Mid-April** | Q1 bank earnings (WFC, JPM, BAC) | Tier 3 banks | Warehouse exposure disclosure |
 | **May 1** | APO dual class actions (PC + Epstein) | APO | Legal risk crystallization |
@@ -191,7 +193,7 @@ The deep dives reveal we actually have **two fundamentally different trade types
 
 ### Why This Distinction Matters for Positioning:
 - **APO puts should match the catalyst window** — April-May cluster (tenders, class actions May 1, earnings) is dateable. Jun captures it. Hamilton's Dec logic applies to macro/index trades, not single-name PC plays with imminent catalysts.
-- **ARCC puts could be SHORTER-DATED** because the credit quality deterioration shows up in specific, dateable events (National Dentex April, Q1 earnings May)
+- **RETIRED PREMISE:** National Dentex does not support an ARCC option catalyst; ARCC zero exposure was confirmed March17/May1. No current option-tenor recommendation from this historical narrative.
 - **They're partially uncorrelated** — APO can break even if ARCC holds (Athene run), or ARCC can break even if APO holds (software defaults without insurance crisis)
 - **But they reinforce each other** — if both break simultaneously, the sector repricing is much larger than either alone
 
@@ -208,7 +210,7 @@ The deep dives reveal we actually have **two fundamentally different trade types
 | **OWL = ARCC's future** | ARCC is fine (flat NAV, stable dividend) | OBDC was fine 6-12mo ago too. Same trajectory, same shared credits. | **Time-lagged correlation** |
 | **KKR/GA growth rate** | "KKR is diversified" | Funding agreements +71% YoY — fastest in sector | **Building Athene 2.0 on faster timeline** |
 | **99.7¢ ceiling** | Assets are worth par | Best-quality cherry-picked loans clear at 99.7¢. Everything else clears lower. | **Aggregate portfolio worth significantly less** |
-| **National Dentex** | Not on anyone's radar | 100% PIK, April maturity, held by BOTH OBDC and ARCC | **Simultaneous correlated catalyst in weeks** |
+| **National Dentex** | Not on anyone's radar | 100% PIK, April maturity, held by the OBDC group; ARCC zero exposure | **Former ARCC correlation premise withdrawn** |
 
 ---
 

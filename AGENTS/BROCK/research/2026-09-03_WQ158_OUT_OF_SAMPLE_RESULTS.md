@@ -31,6 +31,8 @@ Nov-22 63 · **Dec-22 20.0** · Jan-23 38.6 · Feb 49.6 · Mar 30.4 · Apr 47.7 
 **Quarterly:** `2023Q1 **40.0%**` · `Q2 **43.7%**` · `Q3 **46.5%**` · `Q4 **45.7%**` — **4 consecutive sub-100%.** *(2022Q4 excluded: Oct-22 not disclosed ⇒ NOT MEASURABLE per §3.)*
 ⚠️ **Structural note, stated because it matters for commensurability:** SREIT's disclosed satisfaction is arithmetically **cap ÷ requests** (Jan-23: 2.0/5.2 = 38.5 ≈ 38.6). §2 permits it — **the ISSUER states it as the realised pro-rata rate**; what §2 forbids is *me* computing cap÷requests as an assumption. **BCRED's ~50% (5%÷~10%) has the identical structure.** ⇒ **BREIT, SREIT and BCRED are commensurable on this measure.** CCLFX is not (below).
 
+> **INFERENCE CORRECTION October14,2026 (CATO BCR4):** requested amounts and realized proration/full-fulfilment language are absent in the checked N-CSR. Exactly7% repurchased does not prove oversubscription, and lower repurchases alone do not prove every valid request met. The September3 deductions below about three full offers/last partial offer are WITHDRAWN; all four satisfaction outcomes remain UNKNOWN from this source. The table, NAVs and withdrawal of the earlier stress-series interpretation stand. Current structured register/KB/STATUS corrected.
+
 ## 3 · CCLFX (CIK 1735964) — ⛔ **SATISFACTION IS NOT MEASURABLE. The pull answers in the NEGATIVE, definitively.**
 **N-CSR `0001213900-26-066324` (FY ended 3/31/26), note "Repurchase Offers", verbatim table — it CONFIRMS my register's series to the dollar and dates it:**
 
@@ -41,7 +43,7 @@ Nov-22 63 · **Dec-22 20.0** · Jan-23 38.6 · Feb 49.6 · Mar 30.4 · Apr 47.7 
 | **% of outstanding shares repurchased** | **3.42%** | **2.90%** | **5.32%** | **7.00%** |
 
 🔑 **The table discloses ONLY the amount REPURCHASED. There is no shares-TENDERED row anywhere in the filing.** ⇒ **Per §2, satisfaction is NOT COMPUTABLE and I do not back into it.** ✅ **This confirms, at primary, exactly what I flagged to PROME on 9/3: my register's CCLFX cell is a FULFILMENT series, not a satisfaction series, and cannot grade a satisfaction threshold at all.**
-🔴 **AND IT CORRECTS MY OWN READING OF THAT SERIES, AGAINST MY THESIS.** The 5% offer carries a Rule 23c-3 **2% top-up (ceiling 7%)**. Three of the four offers came in **at or below the offer without hitting the ceiling — 3.42% and 2.90% are BELOW the 5% offer, i.e. UNDERSUBSCRIBED ⇒ 100% satisfaction**; 5.32% sits between offer and ceiling ⇒ no proration required. **Only 2026-03-10 hit the ceiling EXACTLY (7.00%) ⇒ oversubscribed ⇒ sub-100%, unquantifiable.** ⇒ **The rising 3.42→7.00% series I had been reading as escalating stress is, for three of its four quarters, rising demand MET IN FULL.** ⇒ **CCLFX has ZERO consecutive sub-100% quarters in this series** — one, at the end.
+**CORRECTED October14:** the disclosed repurchases alone establish neither excess requested shares at7.00% nor that every eligible request was met below that level. Actual satisfaction/proration for all four dates is UNKNOWN from this source. CCLFX therefore has0COUNTED observable sub100% quarters, not a claim of0actual restricted offers. The former stress-series interpretation and the September3 three-full/last-partial inference are both withdrawn.
 ⚠️ **Scope guard:** my register's separate `~33% satisfaction, 2026Q2 priced 5/29/26` cell is a **LATER, press-sourced** offer outside this table. **Not touched, not contradicted, still un-verified.**
 
 ## 4 · Priors scored (weak-blind per §1 — WEAK evidence of calibration, not a clean forecast)
@@ -51,7 +53,7 @@ Nov-22 63 · **Dec-22 20.0** · Jan-23 38.6 · Feb 49.6 · Mar 30.4 · Apr 47.7 
 ## 5 · What I recommend — ⛔ and I set NO number; a level is Will-gated
 1. **KEEP `≥3 consecutive sub-100% quarters` as written.** It is reachable in real stress (4-for-4 at both referents) and **BCRED is currently at 2** (Q2 ~50%, Q3 ~50%). It becomes gradable on my panel the moment BCRED prints a third — **~mid-November**. **It is no longer "ungradable"; it is 1 quarter from live.**
 2. **RETIRE `<20% single-quarter satisfaction`.** It sits below the worst quarter of both reference episodes. **Replacement should be set from the out-of-sample distribution and stated PER UNIT.** For Will, the observed quarterly minima are **BREIT 24.6% / SREIT 40.0%**; the 8 measured reference quarters span **24.6%–59.3%**. **Will rules the number.**
-3. **CCLFX: mark the cell NOT MEASURABLE on the register** and stop citing the 4-quarter series as a stress series. **Its own primary says three of four offers were satisfied in full.**
+3. **CCLFX: mark the cell NOT MEASURABLE on the register** and stop citing the 4-quarter series as a stress series. **Its primary does not establish requested amounts/realized satisfaction for those dates; the former three-full inference is withdrawn October14.**
 4. **State the UNIT on every level.** The whole `<20%` result flips between monthly and quarterly.
 
 ⛔ **No BROCK vector rescored. No threshold set or moved by me. $0 moved.** ⚠️ **Context recorded because it cuts against my bear read: BCRED's ~50% is comparable to SREIT's 40.0–46.5% and better than three of BREIT's four 2023 quarters. On this measure BCRED today is LESS stressed than BREIT/SREIT were at their worst.**

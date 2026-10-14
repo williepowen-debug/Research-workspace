@@ -1,0 +1,28 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/1735964/000121390026066324/ea0291746-01_ncsr.htm",
+  "retrieved_at": "2026-10-14T19:25:44.285564+00:00",
+  "document": "Cliffwater Corporate Lending Fund FYendedMarch31,2026 NCSR",
+  "scope": "RepurchaseOffers table and surrounding general terms, plus bounded requested/proration wording search",
+  "repurchase_dates": [
+    "2025-06-09",
+    "2025-09-08",
+    "2025-12-09",
+    "2026-03-10"
+  ],
+  "repurchased_pct": [
+    3.42,
+    2.9,
+    5.32,
+    7.0
+  ],
+  "classI_repurchased_usd": [
+    1025311527,
+    917546316,
+    1756725615,
+    2344027419
+  ],
+  "actual_requested_amounts": "not established in checked source",
+  "actual_satisfaction_proration": "UNKNOWN each offer from this source",
+  "general_terms_excerpt": "Repurchase Offers The Fund is a closed -end investment company structured as an interval fund and, as such, has adopted a fundamental policy to make quarterly repurchase offers, at per -class NAV, of not less than 5% of the Fund\u2019s outstanding Shares on the repurchase request deadline. The Fund will offer to purchase only a small portion of its Shares each quarter, and there is no guarantee that shareholders will be able to sell all of the Shares that they desire to sell in any particular repurchase offer. Under current regulations, such offers must be for not less than 5% nor more than 25% of the Fund\u2019s Shares outstanding on the repurchase request deadline. If a repurchase offer is oversubscribed, the Fund may repurchase only a pro rata portion of the Shares tendered by each shareholder. The potential for proration may cause some investors to tender more Shares for repurchase than they wish to have repurchased or result in investors being unable to liquidate all or a given percentage of their investment during in the particular repurchase offer. Borrowing, Use of Leverage On March\u00a029, 2022, the Fund and certain of its wholly -owned subsidiaries (\u201cGuarantors\u201d) entered into a senior secured credit facility (the \u201cFacility\u201d) with Massachusetts Mutual Life Insurance Company as a joint lead arranger, PNC Bank, National Association (\u201cPNC\u201d) as administrative agent and joint lead arranger and with certain lenders from time to time as parties thereto (the \u201cLenders\u201d). The Facility, as most recently amended effective March\u00a026,\u00a02026, provides for borrowings on a committed basis in an aggregate principal amount up to $7,690,000,000. Under the Facility, the Fund has term loans in the am",
+  "interpretation": "Conditional policy is not a realized offer result. 7repurchased with7requested yields100% versus10requested yields70%; no unique inverse from repurchases. May29later press offer distinct."
+}

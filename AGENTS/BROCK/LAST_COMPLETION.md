@@ -1,3 +1,5 @@
+> **HISTORICAL — banner added October14,2026.** September21 completion is history; current state STATUS and dated PROME packets. See `research/2026-10-14_corrections/disposition.md` for this bounded correction pass.
+
 # BROCK — LAST_COMPLETION
 
 **STATUS:** 2026-09-21 Mon **L0 whole-inbox drain (PROME Tier-1 spawn on WQ-184 outcome ①; last self-commit 9/18, 3d dark).** **L312 GRADED · L343 AMENDED · L347 TAKEN (against thesis) · L420 METHOD-UPDATED · L421 STRUCTURAL SPLIT EXECUTED · 2 inbox packets receipted.** Convergence **57/70 HELD**. Position **UNCHANGED** (APO Dec $95P, Will-ruled HOLD). **$0 moved; ZERO thresholds set, moved or fired; ONE workbook cell corrected against my book.**

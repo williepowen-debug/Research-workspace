@@ -1,0 +1,306 @@
+{
+  "retrieved_at": "2026-10-14T19:05:36.698828+00:00",
+  "source": "FORGE price_history / Yahoo Finance, own isolated cache; peer audit log disabled for this call",
+  "data": {
+    "ARCC": {
+      "name": "ARCC",
+      "days": 7,
+      "history": [
+        {
+          "date": "2026-10-06",
+          "close": 18.64,
+          "volume": 4894000
+        },
+        {
+          "date": "2026-10-07",
+          "close": 18.45,
+          "volume": 5448300
+        },
+        {
+          "date": "2026-10-08",
+          "close": 18.74,
+          "volume": 3871800
+        },
+        {
+          "date": "2026-10-09",
+          "close": 18.56,
+          "volume": 3992300
+        },
+        {
+          "date": "2026-10-12",
+          "close": 18.63,
+          "volume": 3268500
+        },
+        {
+          "date": "2026-10-13",
+          "close": 18.56,
+          "volume": 2624100
+        },
+        {
+          "date": "2026-10-14",
+          "close": 18.56,
+          "volume": 2759875
+        }
+      ],
+      "high": 18.74,
+      "low": 18.45,
+      "start": 18.64,
+      "end": 18.56,
+      "null_bars": [],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": true,
+      "period_change_pct": -0.43
+    },
+    "FSK": {
+      "name": "FSK",
+      "days": 7,
+      "history": [
+        {
+          "date": "2026-10-06",
+          "close": 10.81,
+          "volume": 2114500
+        },
+        {
+          "date": "2026-10-07",
+          "close": 10.75,
+          "volume": 2188600
+        },
+        {
+          "date": "2026-10-08",
+          "close": 10.79,
+          "volume": 2292400
+        },
+        {
+          "date": "2026-10-09",
+          "close": 10.84,
+          "volume": 2214100
+        },
+        {
+          "date": "2026-10-12",
+          "close": 10.89,
+          "volume": 1594500
+        },
+        {
+          "date": "2026-10-13",
+          "close": 10.7,
+          "volume": 2072600
+        },
+        {
+          "date": "2026-10-14",
+          "close": 10.57,
+          "volume": 1161350
+        }
+      ],
+      "high": 10.89,
+      "low": 10.57,
+      "start": 10.81,
+      "end": 10.57,
+      "null_bars": [],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": true,
+      "period_change_pct": -2.22
+    },
+    "OBDC": {
+      "name": "OBDC",
+      "days": 7,
+      "history": [
+        {
+          "date": "2026-10-06",
+          "close": 10.03,
+          "volume": 7068800
+        },
+        {
+          "date": "2026-10-07",
+          "close": 10.02,
+          "volume": 5117300
+        },
+        {
+          "date": "2026-10-08",
+          "close": 10.17,
+          "volume": 3045500
+        },
+        {
+          "date": "2026-10-09",
+          "close": 10.11,
+          "volume": 2711400
+        },
+        {
+          "date": "2026-10-12",
+          "close": 10.12,
+          "volume": 2843100
+        },
+        {
+          "date": "2026-10-13",
+          "close": 10.07,
+          "volume": 3024500
+        },
+        {
+          "date": "2026-10-14",
+          "close": 10.09,
+          "volume": 3015327
+        }
+      ],
+      "high": 10.17,
+      "low": 10.02,
+      "start": 10.03,
+      "end": 10.09,
+      "null_bars": [],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": true,
+      "period_change_pct": 0.6
+    },
+    "BXSL": {
+      "name": "BXSL",
+      "days": 7,
+      "history": [
+        {
+          "date": "2026-10-06",
+          "close": 23.52,
+          "volume": 1814400
+        },
+        {
+          "date": "2026-10-07",
+          "close": 23.49,
+          "volume": 2343000
+        },
+        {
+          "date": "2026-10-08",
+          "close": 24.11,
+          "volume": 1212700
+        },
+        {
+          "date": "2026-10-09",
+          "close": 23.86,
+          "volume": 1137200
+        },
+        {
+          "date": "2026-10-12",
+          "close": 23.85,
+          "volume": 942300
+        },
+        {
+          "date": "2026-10-13",
+          "close": 23.76,
+          "volume": 1033500
+        },
+        {
+          "date": "2026-10-14",
+          "close": 23.81,
+          "volume": 825703
+        }
+      ],
+      "high": 24.11,
+      "low": 23.49,
+      "start": 23.52,
+      "end": 23.81,
+      "null_bars": [],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": true,
+      "period_change_pct": 1.23
+    },
+    "MAIN": {
+      "name": "MAIN",
+      "days": 7,
+      "history": [
+        {
+          "date": "2026-10-06",
+          "close": 54.5,
+          "volume": 383700
+        },
+        {
+          "date": "2026-10-07",
+          "close": 53.92,
+          "volume": 685900
+        },
+        {
+          "date": "2026-10-08",
+          "close": 54.47,
+          "volume": 524100
+        },
+        {
+          "date": "2026-10-09",
+          "close": 53.74,
+          "volume": 431500
+        },
+        {
+          "date": "2026-10-12",
+          "close": 53.66,
+          "volume": 384900
+        },
+        {
+          "date": "2026-10-13",
+          "close": 53.77,
+          "volume": 386900
+        },
+        {
+          "date": "2026-10-14",
+          "close": 53.59,
+          "volume": 280164
+        }
+      ],
+      "high": 54.5,
+      "low": 53.59,
+      "start": 54.5,
+      "end": 53.59,
+      "null_bars": [],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": true,
+      "period_change_pct": -1.67
+    },
+    "GSBD": {
+      "name": "GSBD",
+      "days": 7,
+      "history": [
+        {
+          "date": "2026-10-06",
+          "close": 9.03,
+          "volume": 676300
+        },
+        {
+          "date": "2026-10-07",
+          "close": 8.81,
+          "volume": 1377400
+        },
+        {
+          "date": "2026-10-08",
+          "close": 8.88,
+          "volume": 978100
+        },
+        {
+          "date": "2026-10-09",
+          "close": 8.77,
+          "volume": 881300
+        },
+        {
+          "date": "2026-10-12",
+          "close": 8.8,
+          "volume": 766200
+        },
+        {
+          "date": "2026-10-13",
+          "close": 8.74,
+          "volume": 639900
+        },
+        {
+          "date": "2026-10-14",
+          "close": 8.65,
+          "volume": 522942
+        }
+      ],
+      "high": 9.03,
+      "low": 8.65,
+      "start": 9.03,
+      "end": 8.65,
+      "null_bars": [],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": true,
+      "period_change_pct": -4.21
+    }
+  }
+}

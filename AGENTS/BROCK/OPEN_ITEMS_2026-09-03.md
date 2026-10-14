@@ -1,3 +1,5 @@
+> **HISTORICAL — banner added October14,2026.** September3 snapshot; later dispositions supersede its backlog/rebase/CCLFX inferences. See `research/2026-10-14_corrections/disposition.md` for this bounded correction pass.
+
 # BROCK — OPEN ITEMS INVENTORY, 2026-09-03 ~15:0x ET
 
 *Will's ask via PROME (`b91169e94`). **Read-only sweep**; one exception, declared: a single-line record correction on my own `CLAUDE.md:33` (below, BRK-B2). No thresholds, no grades, no trades. Rows cite the registered artifact, not my STATUS gloss.*

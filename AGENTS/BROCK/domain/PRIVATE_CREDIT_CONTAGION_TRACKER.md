@@ -1,3 +1,5 @@
+> **HISTORICAL — banner added October14,2026.** April2 cascade narrative is historical, not current transmission or a maintained score. See `research/2026-10-14_corrections/disposition.md` for this bounded correction pass.
+
 # Private Credit Contagion Tracker
 **Maintained by:** BROCK
 **Last updated:** 2026-04-02

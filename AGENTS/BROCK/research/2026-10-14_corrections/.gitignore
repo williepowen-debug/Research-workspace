@@ -1,0 +1,14 @@
+# Primary byte downloads/cache remain local; dated URL/hash receipts and extracts ship.
+*_facts.json
+*_feed.json
+*.html
+*.pdf
+*_q2.txt
+*_visible.txt
+cliffwater_ncsr.txt
+price_cache/
+medallia_rows_summary.txt
+NEXUS_BRIEF_next.txt
+*_medallia.json
+medallia_footnotes.json
+*_current_definitions.json

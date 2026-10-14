@@ -1,0 +1,70 @@
+{
+  "price_retrieved_at": "2026-10-14T19:06:49.992850+00:00",
+  "cohort": "Existing LIQUID KB-LIQ-083 six names; equal-weight median; premiums retained as negative discount",
+  "rows": [
+    {
+      "ticker": "ARCC",
+      "close_date": "2026-10-13",
+      "price": 18.56,
+      "nav_per_share": 19.35,
+      "nav_period": "2026-06-30",
+      "filed": "2026-07-29",
+      "accession": "0001628280-26-050307",
+      "discount_pct": 4.082690098488984
+    },
+    {
+      "ticker": "FSK",
+      "close_date": "2026-10-13",
+      "price": 10.7,
+      "nav_per_share": 18.3,
+      "nav_period": "2026-06-30",
+      "filed": "2026-08-06",
+      "accession": "0001628280-26-053783",
+      "discount_pct": 41.53005568707576
+    },
+    {
+      "ticker": "OBDC",
+      "close_date": "2026-10-13",
+      "price": 10.07,
+      "nav_per_share": 14.26,
+      "nav_period": "2026-06-30",
+      "filed": "2026-08-05",
+      "accession": "0001655888-26-000056",
+      "discount_pct": 29.382891340643624
+    },
+    {
+      "ticker": "BXSL",
+      "close_date": "2026-10-13",
+      "price": 23.76,
+      "nav_per_share": 25.53,
+      "nav_period": "2026-06-30",
+      "filed": "2026-08-06",
+      "accession": "0001736035-26-000016",
+      "discount_pct": 6.933019079977143
+    },
+    {
+      "ticker": "MAIN",
+      "close_date": "2026-10-13",
+      "price": 53.77,
+      "nav_per_share": 33.92,
+      "nav_period": "2026-06-30",
+      "filed": "2026-08-07",
+      "accession": "0001396440-26-000094",
+      "discount_pct": -58.52004851935044
+    },
+    {
+      "ticker": "GSBD",
+      "close_date": "2026-10-13",
+      "price": 8.74,
+      "nav_per_share": 12.06,
+      "nav_period": "2026-06-30",
+      "filed": "2026-08-06",
+      "accession": "0001193125-26-338331",
+      "discount_pct": 27.52902345673165
+    }
+  ],
+  "median_discount_pct": 17.231021268354397,
+  "sector_exit_verdict": "UNVERIFIED; March Raymond James universe/method not recovered, current six-name diagnostic not a replacement resolver",
+  "held_ruling": "August13 HOLD unchanged",
+  "source": "SEC companyfacts, us-gaap NetAssetValuePerShare; Yahoo Finance unadjusted closes explicitly queried"
+}

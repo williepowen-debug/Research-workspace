@@ -4,7 +4,7 @@
 >
 > **§9 (TRIGGER LADDER) was LOAD-BEARING** — `BRK-25` and `BRK-26` cite it in their `Action_If_Falsified` fields. It has been **migrated verbatim-in-substance and refreshed to 7/27 state into `STATUS.md` § "EXIT RULES → 5. TRIGGER LADDER"**, which is now its only live home. Nothing else in this file is live.
 >
-> **Position truth:** `STATUS.md` BOTTOM LINE (APO Dec $95P HOLD) + `FORGE/STATUS.md` / `FORGE/PORTFOLIO.md` as the structured mirror. **Trade construction is TERRY's** (`AGENTS/TERRY/RISK_RULES.md`).
+> **Position truth:** `STATUS.md` BOTTOM LINE (APO Dec $95P HOLD) + current broker-derived `FORGE/STATUS.md` (PORTFOLIO.md is frozen history). **Trade construction is TERRY's** (`AGENTS/TERRY/RISK_RULES.md`).
 >
 > *Disposition made by BROCK 2026-07-27 in response to DAEDALUS 7/22 (PAT-023/PAT-035 two-state rule). Kept in-tree rather than archived because §1-§8 are a readable record of how the position was reasoned into being.*
 

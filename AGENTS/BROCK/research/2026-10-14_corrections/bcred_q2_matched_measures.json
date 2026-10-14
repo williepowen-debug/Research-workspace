@@ -1,0 +1,38 @@
+[
+  {
+    "row_index": 1403,
+    "obligor": "Medallia, Inc.",
+    "acquisition": "10/28/2021",
+    "maturity": "10/29/2028",
+    "par_thousands": 897116.0,
+    "cost_thousands": 869650.0,
+    "fv_thousands": 444072.0,
+    "fv_par_cents": 49.49995318331186,
+    "first_lien": "SOI header First Lien Debt non-controlled/non-affiliated",
+    "currency": "USD (default schedule dollars; no non-USD currency designator on these rows)",
+    "spread": "SOFR+6.00%",
+    "interest_rate": "9.97%",
+    "floor": "0.75%, footnote10",
+    "nonaccrual": "footnote17",
+    "not_pledged": "footnote5",
+    "last_out_marker18": "absent; not proof no private intercreditor rights"
+  },
+  {
+    "row_index": 1404,
+    "obligor": "Medallia, Inc.",
+    "acquisition": "8/16/2022",
+    "maturity": "10/29/2028",
+    "par_thousands": 221271.0,
+    "cost_thousands": 214379.0,
+    "fv_thousands": 109529.0,
+    "fv_par_cents": 49.49993446949668,
+    "first_lien": "SOI header First Lien Debt non-controlled/non-affiliated",
+    "currency": "USD (default schedule dollars; no non-USD currency designator on these rows)",
+    "spread": "SOFR+6.00%",
+    "interest_rate": "9.97%",
+    "floor": "0.75%, footnote10",
+    "nonaccrual": "footnote17",
+    "not_pledged": "footnote5",
+    "last_out_marker18": "absent; not proof no private intercreditor rights"
+  }
+]

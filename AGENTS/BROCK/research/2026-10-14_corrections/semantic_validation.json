@@ -1,0 +1,18 @@
+{
+  "current_nav_unverified": true,
+  "no_current_reweight_instruction": true,
+  "false_bcred_carry_removed": true,
+  "distinct_arcc_obligation_preserved": true,
+  "CRMT_checkpoint_preserved": true,
+  "HOLD_preserved": true,
+  "foreign_unstage_instruction_removed": true,
+  "KB.tsv_13fields": true,
+  "VX.tsv_13fields": true,
+  "brk32_stuck45_frozen": true,
+  "prediction_resolution_date_preserved": true,
+  "cclfx_fields_unknown": true,
+  "six_name_median_verified": true,
+  "rj45_median_verified": true,
+  "CIK_legacy_warning_removed": true,
+  "frozen_prediction_fields_unchanged": true
+}

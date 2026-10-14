@@ -1,0 +1,90 @@
+[
+  {
+    "key": "bxsl_q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/bxsl-20260630.htm",
+    "retrieved_at": "2026-10-14T19:04:09.648101+00:00",
+    "status": 200,
+    "bytes": 13315300,
+    "sha256": "a74adb7889a3faa6fc53dc5d6455b778e4f0f52a4f6d0e1eeaf00a46282a5207"
+  },
+  {
+    "key": "bcred_q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000048/bcred-20260630.htm",
+    "retrieved_at": "2026-10-14T19:04:09.649470+00:00",
+    "status": 200,
+    "bytes": 33016874,
+    "sha256": "d0a928011061acbffc82d2be7f44dff3b46598df1b109ef71a4fc9e92c31f42f"
+  },
+  {
+    "key": "cliffwater_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1735964/000121390026066324/index.json",
+    "retrieved_at": "2026-10-14T19:04:09.650527+00:00",
+    "status": 200,
+    "bytes": 2664,
+    "sha256": "8aa7fb6b73c4792f7e54f70a77c5af4d302fd4550bc42ffab9dc07ec0a3ed1d1"
+  },
+  {
+    "key": "ARCC_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001287750.json",
+    "retrieved_at": "2026-10-14T19:04:09.651853+00:00",
+    "status": 200,
+    "bytes": 902642,
+    "sha256": "af294f286c9de9aca26c8d4c7da019dc7aa71b20471dff4f2f7345fbe9f0131c"
+  },
+  {
+    "key": "FSK_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001422183.json",
+    "retrieved_at": "2026-10-14T19:04:09.652573+00:00",
+    "status": 200,
+    "bytes": 879024,
+    "sha256": "eae907638d3e613098958cc72637167c6404de8992f4708e5806c7df4818e9ba"
+  },
+  {
+    "key": "OBDC_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001655888.json",
+    "retrieved_at": "2026-10-14T19:04:09.955186+00:00",
+    "status": 200,
+    "bytes": 819559,
+    "sha256": "88c353644af5d2f6e3a96ed483bea25796ac3596346d0839370b5bcafbade98b"
+  },
+  {
+    "key": "BXSL_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001736035.json",
+    "retrieved_at": "2026-10-14T19:04:10.000603+00:00",
+    "status": 200,
+    "bytes": 825370,
+    "sha256": "f66da2a12b0f58454ff2c36f123a58bab8db5b321e1b4c292cabe11392a6fa9f"
+  },
+  {
+    "key": "MAIN_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001396440.json",
+    "retrieved_at": "2026-10-14T19:04:10.427718+00:00",
+    "status": 200,
+    "bytes": 675591,
+    "sha256": "b9f4806ac188c85a8fc45340eaf3d06388cd61421359b42b82674c936a196a64"
+  },
+  {
+    "key": "GSBD_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001572694.json",
+    "retrieved_at": "2026-10-14T19:04:10.775878+00:00",
+    "status": 200,
+    "bytes": 680399,
+    "sha256": "b46361f482d3cd5d64cca16318de549bc708ab930c9c1a46a85c197c93fa81e9"
+  },
+  {
+    "key": "cliffwater_ncsr",
+    "url": "https://www.sec.gov/Archives/edgar/data/1735964/000121390026066324/ea0291746-01_ncsr.htm",
+    "status": 200,
+    "bytes": 67547151,
+    "sha256": "6501afd5416e2c7dd8e43b3301bc19489bbb1d206f8f8f38795273e155445a70",
+    "retrieved_at": "2026-10-14T19:05:33.350157+00:00"
+  },
+  {
+    "key": "rj_bdc_update",
+    "url": "https://www.raymondjames.com/-/media/rj/dotcom/files/corporations-and-institutions/investment-banking/industry-insight/bdc_update.pdf",
+    "retrieved_at": "2026-10-14T19:13:25.102456+00:00",
+    "status": 403,
+    "bytes": 538,
+    "sha256": "741e21756e3f9c43a1359be0987f6b4f004687b7e008c7f72278e0574f5f4f57"
+  }
+]

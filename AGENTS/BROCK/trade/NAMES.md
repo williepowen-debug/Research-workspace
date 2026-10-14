@@ -1,3 +1,5 @@
+> **HISTORICAL — banner added October14,2026.** May1 ranking is historical, not a current trade candidate list. See `research/2026-10-14_corrections/disposition.md` for this bounded correction pass.
+
 # BROCK — KEY NAMES TIER LIST
 **Created:** 2026-03-16
 **Last Updated:** 2026-05-01 (post-Q1 wave kickoff + APO $130 trigger watch)

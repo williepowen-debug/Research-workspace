@@ -1,6 +1,6 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-10-14.md` (Will own-window wave: three Q3 bank reads, FSK contract/commitment bridge, October15 CRMT prepared, intake25; Will desk audit with15finding groups).
+**CURRENT:** `catchups/2026-10-14.md` (Will own-window wave: three Q3 bank reads, FSK contract/commitment bridge, October15 CRMT prepared, intake25; Will desk audit with15finding groups; bounded corrections/two evidence checks).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
