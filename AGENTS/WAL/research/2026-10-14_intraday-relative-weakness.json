@@ -1,0 +1,325 @@
+{
+  "retrieved_UTC": "2026-10-14 17:36:29 UTC",
+  "question": "Is WAL the regional bank falling the most today?",
+  "scope": "Bounded price comparison; 32 selected bank tickers queried, 30 have October14 trades. Not a census of every regional bank or KRE holdings, not a new peer-credit study.",
+  "source": "web.run finance; vendor quotes, not exchange-direct independently verified",
+  "session": "regular session October14 2026; delayed/asynchronous intraday, not settled closes or executable prices",
+  "ranking_basis": "Percentage change versus tool vendor prior reference; implied prior close computed as last minus dollar change, not independently verified",
+  "ranked_current_day_banks": [
+    {
+      "ticker": "WAL",
+      "price_USD": 71.9,
+      "change_USD": -1.83,
+      "change_pct": -2.48203,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:19:59 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/WAL/"
+    },
+    {
+      "ticker": "PNC",
+      "price_USD": 214.13,
+      "change_USD": -5.35,
+      "change_pct": -2.43758,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:24 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/PNC/"
+    },
+    {
+      "ticker": "CUBI",
+      "price_USD": 72.89,
+      "change_USD": -1.75,
+      "change_pct": -2.34459,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:18:45 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/CUBI/"
+    },
+    {
+      "ticker": "USB",
+      "price_USD": 55.965,
+      "change_USD": -0.925,
+      "change_pct": -1.62594,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:33 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/USB/"
+    },
+    {
+      "ticker": "VLY",
+      "price_USD": 12.33,
+      "change_USD": -0.2,
+      "change_pct": -1.59617,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:24 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/VLY/"
+    },
+    {
+      "ticker": "CFG",
+      "price_USD": 62.31,
+      "change_USD": -0.99,
+      "change_pct": -1.56398,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:04 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/CFG/"
+    },
+    {
+      "ticker": "ZION",
+      "price_USD": 61.26,
+      "change_USD": -0.97,
+      "change_pct": -1.55873,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:19:34 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/ZION/"
+    },
+    {
+      "ticker": "BKU",
+      "price_USD": 41.06,
+      "change_USD": -0.65,
+      "change_pct": -1.55838,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:19:46 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/BKU/"
+    },
+    {
+      "ticker": "FITB",
+      "price_USD": 49.44,
+      "change_USD": -0.78,
+      "change_pct": -1.55317,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:30 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/FITB/"
+    },
+    {
+      "ticker": "HBAN",
+      "price_USD": 15.015,
+      "change_USD": -0.225,
+      "change_pct": -1.47638,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:35 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/HBAN/"
+    },
+    {
+      "ticker": "KEY",
+      "price_USD": 19.62,
+      "change_USD": -0.29,
+      "change_pct": -1.45655,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:36 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/KEY/"
+    },
+    {
+      "ticker": "MTB",
+      "price_USD": 214.8,
+      "change_USD": -3.13,
+      "change_pct": -1.43624,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:05 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/MTB/"
+    },
+    {
+      "ticker": "UMBF",
+      "price_USD": 128.34,
+      "change_USD": -1.79,
+      "change_pct": -1.37555,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:27 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/UMBF/"
+    },
+    {
+      "ticker": "EGBN",
+      "price_USD": 27.82,
+      "change_USD": -0.37,
+      "change_pct": -1.31252,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:37 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/EGBN/"
+    },
+    {
+      "ticker": "RF",
+      "price_USD": 26.66,
+      "change_USD": -0.35,
+      "change_pct": -1.29582,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:36 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/RF/"
+    },
+    {
+      "ticker": "COLB",
+      "price_USD": 27.87,
+      "change_USD": -0.36,
+      "change_pct": -1.27524,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:35 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/COLB/"
+    },
+    {
+      "ticker": "PNFP",
+      "price_USD": 92.4,
+      "change_USD": -1.13,
+      "change_pct": -1.20817,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:19:56 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/PNFP/"
+    },
+    {
+      "ticker": "FHN",
+      "price_USD": 22.5,
+      "change_USD": -0.27,
+      "change_pct": -1.18577,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:17 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/FHN/"
+    },
+    {
+      "ticker": "FLG",
+      "price_USD": 11.08,
+      "change_USD": -0.13,
+      "change_pct": -1.15968,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:19:32 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/FLG/"
+    },
+    {
+      "ticker": "FNB",
+      "price_USD": 16.89,
+      "change_USD": -0.16,
+      "change_pct": -0.93842,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:29 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/FNB/"
+    },
+    {
+      "ticker": "TFC",
+      "price_USD": 45.5,
+      "change_USD": -0.42,
+      "change_pct": -0.91463,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:28 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/TFC/"
+    },
+    {
+      "ticker": "OZK",
+      "price_USD": 44.72,
+      "change_USD": -0.36,
+      "change_pct": -0.79858,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:18:56 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/OZK/"
+    },
+    {
+      "ticker": "SSB",
+      "price_USD": 99.07,
+      "change_USD": -0.78,
+      "change_pct": -0.78117,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:21 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/SSB/"
+    },
+    {
+      "ticker": "EWBC",
+      "price_USD": 124.08,
+      "change_USD": -0.97,
+      "change_pct": -0.77569,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:14 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/EWBC/"
+    },
+    {
+      "ticker": "FULT",
+      "price_USD": 21.81,
+      "change_USD": -0.14,
+      "change_pct": -0.63781,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:19:58 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/FULT/"
+    },
+    {
+      "ticker": "ONB",
+      "price_USD": 24.47,
+      "change_USD": -0.15,
+      "change_pct": -0.60926,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:29 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/ONB/"
+    },
+    {
+      "ticker": "BPOP",
+      "price_USD": 154.99,
+      "change_USD": -0.83,
+      "change_pct": -0.53267,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:33 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/BPOP/"
+    },
+    {
+      "ticker": "SBCF",
+      "price_USD": 31.46,
+      "change_USD": -0.16,
+      "change_pct": -0.50601,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:03 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/SBCF/"
+    },
+    {
+      "ticker": "AMTB",
+      "price_USD": 28.775,
+      "change_USD": -0.115,
+      "change_pct": -0.39806,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:09:02 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/AMTB/"
+    },
+    {
+      "ticker": "CFR",
+      "price_USD": 151.21,
+      "change_USD": -0.35,
+      "change_pct": -0.23093,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:18:58 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/CFR/"
+    }
+  ],
+  "excluded_stale": [
+    {
+      "ticker": "CMA",
+      "price_USD": 88.67,
+      "change_USD": -2.4,
+      "change_pct": -2.58454,
+      "trade_time_UTC_text": "Saturday, January 31, 00:15:00 UTC",
+      "current_date_verified": false,
+      "quote_url": "https://finance.yahoo.com/quote/CMA/"
+    },
+    {
+      "ticker": "WBS",
+      "price_USD": 77.57,
+      "change_USD": -0.37,
+      "change_pct": -0.47454,
+      "trade_time_UTC_text": "Wednesday, August 19, 23:15:00 UTC",
+      "current_date_verified": false,
+      "quote_url": "https://finance.yahoo.com/quote/WBS/"
+    }
+  ],
+  "funds": [
+    {
+      "ticker": "KRE",
+      "price_USD": 68.46,
+      "change_USD": -0.6,
+      "change_pct": -0.86881,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:20:35 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/KRE/"
+    },
+    {
+      "ticker": "IAT",
+      "price_USD": 56.09,
+      "change_USD": -0.75,
+      "change_pct": -1.31949,
+      "trade_time_UTC_text": "Wednesday, October 14, 17:06:20 UTC",
+      "current_date_verified": true,
+      "quote_url": "https://finance.yahoo.com/quote/IAT/"
+    }
+  ],
+  "wal_minus_KRE_pp": -1.61322,
+  "wal_minus_PNC_pp": -0.04444999999999988,
+  "judgment": "WAL weakest of30 current-day selected bank observations, narrowly ahead ofPNC; not established worst across every USregional. Relative weakness is measured, cause is not identified. No thesis/score/guard/trade change.",
+  "raw_bank_response": "citeturn14finance0 Western Alliance Bancorp (WAL) is a equity in the USA market. The price is 71.9 USD currently with a change of -1.83000 (-2.48203%) from the previous close. The intraday high is 73.2 USD and the intraday low is 71.79 USD. The latest open price was 72.35 USD and the intraday volume is 558097. The market cap is 7,765,200,000. The PE ratio is 8.096846846846846. The EPS ratio is 8.88. The latest trade time is Wednesday, October 14, 17:19:59 UTC.--------------------------------------------------------------------------------\nciteturn14finance1 Customers Bancorp Inc (CUBI) is a equity in the USA market. The price is 72.89 USD currently with a change of -1.75000 (-2.34459%) from the previous close. The intraday high is 74.1 USD and the intraday low is 72.23 USD. The latest open price was 73.33 USD and the intraday volume is 102949. The market cap is 2,462,501,109. The PE ratio is 8.82445520581114. The EPS ratio is 8.26. The latest trade time is Wednesday, October 14, 17:18:45 UTC.--------------------------------------------------------------------------------\nciteturn14finance2 Valley National Bancorp (VLY) is a equity in the USA market. The price is 12.33 USD currently with a change of -0.20000 (-1.59617%) from the previous close. The intraday high is 12.43 USD and the intraday low is 12.0 USD. The latest open price was 12.35 USD and the intraday volume is 3204207. The market cap is 6,816,385,463. The PE ratio is 10.453389830508476. The EPS ratio is 1.18. The latest trade time is Wednesday, October 14, 17:20:24 UTC.--------------------------------------------------------------------------------\nciteturn14finance3 Citizens Financial Group Inc (CFG) is a equity in the USA market. The price is 62.31 USD currently with a change of -0.99000 (-1.56398%) from the previous close. The intraday high is 63.32 USD and the intraday low is 62.015 USD. The latest open price was 62.3 USD and the intraday volume is 1403071. The market cap is 26,586,545,949. The PE ratio is 13.545652173913044. The EPS ratio is 4.6. The latest trade time is Wednesday, October 14, 17:20:04 UTC.--------------------------------------------------------------------------------\nciteturn14finance4 BankUnited Inc (BKU) is a equity in the USA market. The price is 41.06 USD currently with a change of -0.65000 (-1.55838%) from the previous close. The intraday high is 41.31 USD and the intraday low is 40.86 USD. The latest open price was 41.16 USD and the intraday volume is 487729. The market cap is 2,924,796,144. The PE ratio is 11.280219780219781. The EPS ratio is 3.64. The latest trade time is Wednesday, October 14, 17:19:46 UTC.--------------------------------------------------------------------------------\nciteturn14finance5 Zions Bancorporation N.A (ZION) is a equity in the USA market. The price is 61.26 USD currently with a change of -0.97000 (-1.55873%) from the previous close. The intraday high is 61.7 USD and the intraday low is 60.92 USD. The latest open price was 61.08 USD and the intraday volume is 489443. The market cap is 8,956,824,600. The PE ratio is 7.793893129770992. The EPS ratio is 7.86. The latest trade time is Wednesday, October 14, 17:19:34 UTC.--------------------------------------------------------------------------------\nciteturn14finance6 Huntington Bancshares, Inc. (HBAN) is a equity in the USA market. The price is 15.015 USD currently with a change of -0.22500 (-1.47638%) from the previous close. The intraday high is 15.26 USD and the intraday low is 14.92 USD. The latest open price was 15.01 USD and the intraday volume is 16245961. The market cap is 30,765,631,220. The PE ratio is 11.643410852713178. The EPS ratio is 1.29. The latest trade time is Wednesday, October 14, 17:20:35 UTC.--------------------------------------------------------------------------------\nciteturn14finance7 Flagstar Bank NA (FLG) is a equity in the USA market. The price is 11.08 USD currently with a change of -0.13000 (-1.15968%) from the previous close. The intraday high is 11.37 USD and the intraday low is 10.995 USD. The latest open price was 11.03 USD and the intraday volume is 1696896. The market cap is 4,599,228,623. The PE ratio is 277.0. The EPS ratio is 0.04. The latest trade time is Wednesday, October 14, 17:19:32 UTC.--------------------------------------------------------------------------------\nciteturn14finance8 M & T Bank Corp (MTB) is a equity in the USA market. The price is 214.8 USD currently with a change of -3.13000 (-1.43624%) from the previous close. The intraday high is 216.66 USD and the intraday low is 211.79 USD. The latest open price was 215.33 USD and the intraday volume is 292388. The market cap is 31,523,618,400. The PE ratio is 11.371095817893066. The EPS ratio is 18.89. The latest trade time is Wednesday, October 14, 17:20:05 UTC.--------------------------------------------------------------------------------\nciteturn14finance9 Eagle Bancorp Inc (MD) (EGBN) is a equity in the USA market. The price is 27.82 USD currently with a change of -0.37000 (-1.31252%) from the previous close. The intraday high is 28.2 USD and the intraday low is 27.79 USD. The latest open price was 27.99 USD and the intraday volume is 158473. The market cap is 848,673,808. The PE ratio is -17.4. The EPS ratio is -1.6. The latest trade time is Wednesday, October 14, 17:20:37 UTC.--------------------------------------------------------------------------------\nciteturn14finance10 Bank OZK (OZK) is a equity in the USA market. The price is 44.72 USD currently with a change of -0.36000 (-0.79858%) from the previous close. The intraday high is 44.975 USD and the intraday low is 44.39 USD. The latest open price was 44.59 USD and the intraday volume is 603899. The market cap is 5,436,931,355. The PE ratio is 17.675889328063242. The EPS ratio is 2.53. The latest trade time is Wednesday, October 14, 17:18:56 UTC.--------------------------------------------------------------------------------\nciteturn14finance11 SouthState Bank Corp. (SSB) is a equity in the USA market. The price is 99.07 USD currently with a change of -0.78000 (-0.78117%) from the previous close. The intraday high is 100.34 USD and the intraday low is 98.17 USD. The latest open price was 98.29 USD and the intraday volume is 244000. The market cap is 9,670,999,770. The PE ratio is 10.400210084033615. The EPS ratio is 9.52. The latest trade time is Wednesday, October 14, 17:20:21 UTC.--------------------------------------------------------------------------------\nciteturn14finance12 Seacoast Banking Corp. Of Florida (SBCF) is a equity in the USA market. The price is 31.46 USD currently with a change of -0.16000 (-0.50601%) from the previous close. The intraday high is 31.69 USD and the intraday low is 31.055 USD. The latest open price was 31.06 USD and the intraday volume is 576450. The market cap is 3,059,485,000. The PE ratio is 20.428571428571427. The EPS ratio is 1.54. The latest trade time is Wednesday, October 14, 17:20:03 UTC.--------------------------------------------------------------------------------\nciteturn14finance13 Amerant Bancorp Inc (AMTB) is a equity in the USA market. The price is 28.775 USD currently with a change of -0.11500 (-0.39806%) from the previous close. The intraday high is 28.99 USD and the intraday low is 28.4 USD. The latest open price was 28.41 USD and the intraday volume is 100950. The market cap is 1,127,688,164. The PE ratio is 20.55357142857143. The EPS ratio is 1.4. The latest trade time is Wednesday, October 14, 17:09:02 UTC.--------------------------------------------------------------------------------\nciteturn14finance14 PNC Financial Services Group Inc (PNC) is a equity in the USA market. The price is 214.13 USD currently with a change of -5.35000 (-2.43758%) from the previous close. The intraday high is 217.6 USD and the intraday low is 212.9 USD. The latest open price was 214.67 USD and the intraday volume is 1229167. The market cap is 86,278,270,000. The PE ratio is 11.782608695652174. The EPS ratio is 18.17. The latest trade time is Wednesday, October 14, 17:20:24 UTC.--------------------------------------------------------------------------------\nciteturn14finance15 U.S. Bancorp. (USB) is a equity in the USA market. The price is 55.965 USD currently with a change of -0.92500 (-1.62594%) from the previous close. The intraday high is 56.57 USD and the intraday low is 55.7 USD. The latest open price was 56.06 USD and the intraday volume is 4418635. The market cap is 87,033,350,000. The PE ratio is 11.171656686626747. The EPS ratio is 5.01. The latest trade time is Wednesday, October 14, 17:20:33 UTC.--------------------------------------------------------------------------------\nciteturn14finance16 Truist Financial Corporation (TFC) is a equity in the USA market. The price is 45.5 USD currently with a change of -0.42000 (-0.91463%) from the previous close. The intraday high is 45.98 USD and the intraday low is 45.06 USD. The latest open price was 45.44 USD and the intraday volume is 3011355. The market cap is 56,388,710,400. The PE ratio is 10.414187643020595. The EPS ratio is 4.37. The latest trade time is Wednesday, October 14, 17:20:28 UTC.--------------------------------------------------------------------------------\nciteturn14finance17 Fifth Third Bancorp (FITB) is a equity in the USA market. The price is 49.44 USD currently with a change of -0.78000 (-1.55317%) from the previous close. The intraday high is 50.46 USD and the intraday low is 49.1 USD. The latest open price was 49.39 USD and the intraday volume is 3166134. The market cap is 45,285,031,599. The PE ratio is 16.931506849315067. The EPS ratio is 2.92. The latest trade time is Wednesday, October 14, 17:20:30 UTC.--------------------------------------------------------------------------------\nciteturn14finance18 Regions Financial Corp. (RF) is a equity in the USA market. The price is 26.66 USD currently with a change of -0.35000 (-1.29582%) from the previous close. The intraday high is 26.91 USD and the intraday low is 26.5 USD. The latest open price was 26.6 USD and the intraday volume is 3890079. The market cap is 22,847,620,000. The PE ratio is 10.83739837398374. The EPS ratio is 2.46. The latest trade time is Wednesday, October 14, 17:20:36 UTC.--------------------------------------------------------------------------------\nciteturn14finance19 Keycorp (KEY) is a equity in the USA market. The price is 19.62 USD currently with a change of -0.29000 (-1.45655%) from the previous close. The intraday high is 20.0 USD and the intraday low is 19.46 USD. The latest open price was 19.62 USD and the intraday volume is 10892748. The market cap is 21,184,356,920. The PE ratio is 11.40406976744186. The EPS ratio is 1.72. The latest trade time is Wednesday, October 14, 17:20:36 UTC.--------------------------------------------------------------------------------\nciteturn14finance20 Comerica, Inc. (CMA) is a equity in the USA market. The price is 88.67 USD currently with a change of -2.40000 (-2.58454%) from the previous close. The intraday high is 93.83 USD and the intraday low is 89.62 USD. The latest open price was 91.85 USD and the intraday volume is 49187391. The market cap is 8,806,565,204. The PE ratio is 12.7631. The EPS ratio is 5.24. The latest trade time is Saturday, January 31, 00:15:00 UTC.--------------------------------------------------------------------------------\nciteturn14finance21 East West Bancorp, Inc. (EWBC) is a equity in the USA market. The price is 124.08 USD currently with a change of -0.97000 (-0.77569%) from the previous close. The intraday high is 124.83 USD and the intraday low is 123.18 USD. The latest open price was 123.88 USD and the intraday volume is 329387. The market cap is 17,160,388,080. The PE ratio is 11.930769230769231. The EPS ratio is 10.4. The latest trade time is Wednesday, October 14, 17:20:14 UTC.--------------------------------------------------------------------------------\nciteturn14finance22 First Horizon Corporation (FHN) is a equity in the USA market. The price is 22.5 USD currently with a change of -0.27000 (-1.18577%) from the previous close. The intraday high is 22.66 USD and the intraday low is 22.39 USD. The latest open price was 22.59 USD and the intraday volume is 5250002. The market cap is 10,802,317,500. The PE ratio is 10.817307692307692. The EPS ratio is 2.08. The latest trade time is Wednesday, October 14, 17:20:17 UTC.--------------------------------------------------------------------------------\nciteturn14finance23 Popular Inc. (BPOP) is a equity in the USA market. The price is 154.99 USD currently with a change of -0.83000 (-0.53267%) from the previous close. The intraday high is 156.75 USD and the intraday low is 152.79 USD. The latest open price was 153.49 USD and the intraday volume is 134273. The market cap is 9,885,029,870. The PE ratio is 10.486468200270638. The EPS ratio is 14.78. The latest trade time is Wednesday, October 14, 17:20:33 UTC.--------------------------------------------------------------------------------\nciteturn14finance24 Cullen Frost Bankers Inc. (CFR) is a equity in the USA market. The price is 151.21 USD currently with a change of -0.35000 (-0.23093%) from the previous close. The intraday high is 152.38 USD and the intraday low is 148.4 USD. The latest open price was 149.57 USD and the intraday volume is 170558. The market cap is 9,397,517,780. The PE ratio is 14.292060491493384. The EPS ratio is 10.58. The latest trade time is Wednesday, October 14, 17:18:58 UTC.--------------------------------------------------------------------------------\nciteturn14finance25 Old National Bancorp (ONB) is a equity in the USA market. The price is 24.47 USD currently with a change of -0.15000 (-0.60926%) from the previous close. The intraday high is 24.74 USD and the intraday low is 24.245 USD. The latest open price was 24.29 USD and the intraday volume is 1749911. The market cap is 9,378,690,310. The PE ratio is 10.875555555555556. The EPS ratio is 2.25. The latest trade time is Wednesday, October 14, 17:20:29 UTC.--------------------------------------------------------------------------------\nciteturn14finance26 UMB Financial Corp. (UMBF) is a equity in the USA market. The price is 128.34 USD currently with a change of -1.79000 (-1.37555%) from the previous close. The intraday high is 129.32 USD and the intraday low is 127.6 USD. The latest open price was 127.87 USD and the intraday volume is 205607. The market cap is 6,255,851,804. The PE ratio is 16.479048697621742. The latest trade time is Wednesday, October 14, 17:20:27 UTC.--------------------------------------------------------------------------------\nciteturn14finance27 Pinnacle Financial Partners Inc (PNFP) is a equity in the USA market. The price is 92.4 USD currently with a change of -1.13000 (-1.20817%) from the previous close. The intraday high is 93.15 USD and the intraday low is 91.59 USD. The latest open price was 91.73 USD and the intraday volume is 263896. The market cap is 13,991,099,160. The PE ratio is 12.723140495867769. The EPS ratio is 7.26. The latest trade time is Wednesday, October 14, 17:19:56 UTC.--------------------------------------------------------------------------------\nciteturn14finance28 Webster Financial Corp. (WBS) is a equity in the USA market. The price is 77.57 USD currently with a change of -0.37000 (-0.47454%) from the previous close. The intraday high is 78.23 USD and the intraday low is 77.505 USD. The latest open price was 78.03 USD and the intraday volume is 91307275. The market cap is 12,568,934,561. The PE ratio is 12.633550488599347. The EPS ratio is 6.14. The latest trade time is Wednesday, August 19, 23:15:00 UTC.--------------------------------------------------------------------------------\nciteturn14finance29 Fulton Financial Corp. (FULT) is a equity in the USA market. The price is 21.81 USD currently with a change of -0.14000 (-0.63781%) from the previous close. The intraday high is 21.97 USD and the intraday low is 21.59 USD. The latest open price was 21.67 USD and the intraday volume is 654022. The market cap is 4,163,846,619. The PE ratio is 10.435406698564593. The EPS ratio is 2.09. The latest trade time is Wednesday, October 14, 17:19:58 UTC.--------------------------------------------------------------------------------\nciteturn14finance30 F.N.B. Corp. (FNB) is a equity in the USA market. The price is 16.89 USD currently with a change of -0.16000 (-0.93842%) from the previous close. The intraday high is 17.08 USD and the intraday low is 16.75 USD. The latest open price was 16.85 USD and the intraday volume is 3172124. The market cap is 5,962,186,417. The PE ratio is 10.053571428571429. The EPS ratio is 1.68. The latest trade time is Wednesday, October 14, 17:20:29 UTC.--------------------------------------------------------------------------------\nciteturn14finance31 Columbia Banking System, Inc. (COLB) is a equity in the USA market. The price is 27.87 USD currently with a change of -0.36000 (-1.27524%) from the previous close. The intraday high is 28.1 USD and the intraday low is 27.68 USD. The latest open price was 27.73 USD and the intraday volume is 1063923. The market cap is 7,985,407,000. The PE ratio is 10.931372549019608. The EPS ratio is 2.55. The latest trade time is Wednesday, October 14, 17:20:35 UTC.",
+  "raw_fund_response": "citeturn15finance0 State Street SPDR S&P Regional Banking ETF (KRE) is a fund in the USA market. The price is 68.46 USD currently with a change of -0.60000 (-0.86881%) from the previous close. The intraday high is 69.17 USD and the intraday low is 67.8 USD. The latest open price was 68.03 USD and the intraday volume is 11003842. The market cap is 1,927,325,969. The latest trade time is Wednesday, October 14, 17:20:35 UTC.--------------------------------------------------------------------------------\nciteturn15finance1 iShares U.S. Regional Banks ETF (IAT) is a fund in the USA market. The price is 56.09 USD currently with a change of -0.75000 (-1.31949%) from the previous close. The intraday high is 56.4 USD and the intraday low is 55.75 USD. The latest open price was 56.14 USD and the intraday volume is 119907. The market cap is 378,607,500. The latest trade time is Wednesday, October 14, 17:06:20 UTC."
+}
