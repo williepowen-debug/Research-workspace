@@ -12,10 +12,12 @@ Decision implications: HOLD/convergence58/70 unchanged; no trade, threshold, pro
 
 Next dated test: CRMT October15 after16:30ET or October16AM (EDGAR acceptance clock); silence settles no extension/cure/default. Bank/CABO October16; CRMT October21 backstop; FSK November5 and joint SHADE November5–18 preserved. Details/checks: `AGENTS/BROCK/research/2026-10-14_followup/closeout.json` and `closeout_validation.json`; STATUS/SCRATCH and CURRENT catch-up written back. No peer canonical edits, foreign unstaging, helper launches or external sends. Native separate-window transport unavailable; recipient consumption UNKNOWN pending an actual read/acknowledgment.
 
+**Publication reconciliation (2026-10-14T20:38:48.289357+00:00):** fresh fetch/ancestry confirms2eebe1e2c and50006b90c on origin/master. LIQUID’s shared push carried them before Will’s subsequent explicit approval; its incident record is retained, and approval is not retroactive. The earlier blocked-publication statement describes that prior state. No new export of the unrelated local-only incident train; reconciliation saved locally. Recipient consumption remains UNKNOWN.
+
 ## COMPLETION — BROCK — 2026-10-14
-STATUS: ⚠️ PARTIAL (local closeout complete; final publication blocked)
+STATUS: ✅ DONE (requested closeout commits publication-confirmed; dependencies retained)
 CHANGED: STATUS.md, SCRATCH.md, catchups/2026-10-14.md, catchups/INDEX.md, followup/closeout*.json, this dated PROME memo.
 RESULT: Research stopped; corrections and five-offer search saved, prior work publication-confirmed. Convergence58/70 and HOLD unchanged.
-GAPS: Final push rejected by automatic review for missing specific export approval; BRK32/data dependencies and recipient acknowledgment remain explicit.
-WILL_NEEDS: Specific approval to publish this final closeout payload to configured GitHub origin; BRK32 specification/scoring disposition through PROME.
+GAPS: BRK32/data dependencies and recipient acknowledgment remain explicit; historical unintended shared export recorded.
+WILL_NEEDS: BRK32 specification/scoring disposition through PROME. Specific closeout publication approval now received.
 FOLLOW-UP: CRMT October15/16; retained bank/issuer tests in STATUS.

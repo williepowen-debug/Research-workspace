@@ -47,5 +47,20 @@
     "action": "bash scripts/safe-push.sh",
     "automatic_review": "Rejected: internal research/closeout export to an unverified GitHub destination; routine Git authorization and closeout request do not specifically authorize this payload export.",
     "next_step": "Explicit Will approval to publish the final BROCK closeout payload to configured origin; no retry or workaround performed."
+  },
+  "publication_reconciliation": {
+    "observed_at": "2026-10-14T20:38:48.289357+00:00",
+    "origin_head": "d186bb16a8fa5e853db1547b6a9a9ab9ef2e59c3",
+    "verified_commits": [
+      "2eebe1e2c",
+      "50006b90c"
+    ],
+    "method": "Fresh fetch origin master followed by successful ancestry checks",
+    "current_state": "REQUESTED_CLOSEOUT_COMMITS_CONFIRMED_ON_ORIGIN",
+    "will_approval": "Direct subsequent user message: Yes please push as long as it is safe to do so. Approval received after the recorded LIQUID shared export; not retroactive approval.",
+    "incident_record": "AGENTS/BROCK/inbox/2026-10-14_from-LIQUID_shared-push-publication-incident.md",
+    "new_export": "None required for the two requested commits; no export of unrelated local-only incident train",
+    "recipient_consumption": "UNKNOWN; publication does not establish receipt",
+    "prior_final_git": "Historical automatic-review rejection retained above; current publication supersedes local-only state."
   }
 }
