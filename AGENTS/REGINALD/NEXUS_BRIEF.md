@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-13 approved screen complete; STATUS pin `76187d4d8`.** Gates retain10/12 settled bars and10/13 boot quotes; Fresh boot confirmed unchanged state. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
+**As of:** **2026-10-14 compound-risk integration complete; STATUS pin `1336a5560`.** Gates retain10/12 settled bars and10/13 boot quotes; Fresh boot confirmed unchanged state. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
 
 ## CROSS-DOMAIN
 
@@ -41,6 +41,8 @@
 | Broker (PROME/ANVIL) | Activity view for the new Fidelity WAL $65P / OZK $40P (D-73/74) | — | Records entry dates; cards stay TERRY's |
 
 ## VIEW
+
+- **Compound-risk integration,10/14:** `reports/2026-10-14_compound-bank-risk-synthesis.md`;14 same-bank joins/182 core credit cells checked at original June FFIEC files. AMTB credit+book, FLG/EGBN/OZK collateral/earnings, CFG attribution and SBCF marks remain separate questions. AHL AI purchase guarantee verified; outstanding amount and cohort allocations UNKNOWN. DOE/PJM now confirm issued emergency authority, backup use not established. June funding counterevidence survives; no joint loss/capital or pricing-edge conclusion. Existing Q3 outcomes only, no new scores/trade.
 
 - **Approved securities/funding screen (10/13):**14 matched bank GAAP-equity rows,28 fresh CRs,11 numerical durations. No20%-equity case under hypothetical60bp/D5; no national-count or net-loss forecast. AMTB/SBCF rate/book questions travel with improving June deposits/costs; BKU2.02yr duration refutes raw-book-size ranking. WAL/FLG/VLY net duration unresolved; original Q3 grades unchanged. Report `reports/2026-10-13_bounded-securities-funding-screen.md`; KB220–222. No specialist/TERRY launch.
 - **Prior dated research continuity:** EGBN cleanup/relative strength remain bear counterevidence; L694 PASS, no trade-ready expression; KRE broad technical weakness lacked proven credit cause;21-row workout bridge and OZK recognition/outcome duties remain. Full dated statements/pointers preserved verbatim → `archive/NEXUS_securities-screen_rotation_2026-10-13.md`, crc32 `6cf2aa30`.
@@ -104,3 +106,5 @@
 ---
 
 *Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `c10de556a`; amendment12 ordering retained. Exact source arithmetic, verification split and boot capability gaps are in the October13 reports/receipts. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
+
+*Final fold,2026-10-14: follows final STATUS commit `1336a5560`; new synthesis pointer and entity/freshness limits retained. Old brief archival pointers remain valid. No outbound delivery/peer consumption claimed.*
