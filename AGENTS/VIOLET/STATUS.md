@@ -1,8 +1,8 @@
 # VIOLET STATUS
 
-**As of:** 2026-10-14 15:37 ET. Same VIOLET owner session `01a13bc1-8595-7e43-8101-874cf704d973`, Codex/OpenAI gpt-6.1-sol/high. Current delayed VIX complex pulled October 14 at 15:27:54 ET; official daily history through October 13. MOVE primary October 13; credit observation October 13; futures settlement October 13; CFTC report October 6. Thesis **v4.1.2**, numerical lines unchanged. [Latest data audit](research/2026-10-14_data-refresh/REPORT.md); [earlier post-CPI causal assessment](research/2026-10-14_post-CPI/REPORT.md).
+**As of:** 2026-10-14 16:34 ET. Same VIOLET owner session `01a13bc1-8595-7e43-8101-874cf704d973`, Codex/OpenAI gpt-6.1-sol/high. Delayed VIX complex last-traded October14 16:00:31 ET, pulled16:16:23ET; official daily history through October 13. MOVE primary October 13; credit observation October 13; futures settlement October14; CFTC report October 6. Thesis **v4.1.3**, numerical lines unchanged. [Accuracy sweep](research/2026-10-14_accuracy-sweep/REPORT.md); [previous data recovery](research/2026-10-14_data-refresh/REPORT.md); [earlier post-CPI causal assessment](research/2026-10-14_post-CPI/REPORT.md).
 
-**Official SKEW dependency:** RED-FT-10 **3 of 4** through October 13. October 14 final bar absent in the retrieved publisher CSV; the quote still last-traded October 13. RED owns grade. No early fire.
+**Official SKEW dependency:** RED-FT-10 **3 of 4** through October 13. October 14 final bar absent in the retrieved publisher CSV; the16:16pull still last-traded October13. RED owns grade. No early fire.
 
 ## BOTTOM LINE
 
@@ -12,19 +12,21 @@
 
 **Pre-CPI opportunity CLOSED; actual decision PASSED under WQ418.** Historical OPEN is not a current opportunity. WQ409 construction fulfilled; WQ410 retirement decision remains registered with Will by October 16, and the COR1M first-tell stays registered until ruled.
 
+**Accuracy scope:**96/96spot cells forSeptember22→October13match Cboe within0.005;49expired ACTIVE KBrows reviewed,22stale-marked and27retained as dated findings/open dependencies. This is not full historical-study replication. September prediction7 clean full-letter HIT withdrawn: timing/counterfactual reproduce, actual-flat-spot eligibility did not occur (KB334). Registered conditions unchanged; thesisv4.1.3. Daily writer now requires all six exact-date publisher closes for SETTLE; the16:16control correctly remains TICK despite same-day futures settlement. The same-day memo-comparison defect (KB284) is repaired with8isolated Git cases; current-phase addenda remain checked and missing witnesses fail closed.
+
 ## SIGNAL DASHBOARD
 
 | Metric | Value | Observation / source / interpretation |
 |---|---:|---|
-|VIX|**17.15**|[CONF] Cboe delayed October 14, pulled 15:27:54 ET; prior official October 13 =15.27. LOW_VOL price bucket; TICK, not final close.|
-|VIX9D|**14.87**; ratio **0.8671**|[CONF] Same delayed pull; nine-day below 30-day.|
-|VIX3M / VIX6M|**18.96 / 20.59**|[CONF] Same delayed pull; all current-session legs witnessed by publisher.|
-|VIX3M/VIX|**1.1055**|[CONF] Same delayed pull; flatter than official October 13, still no inversion.|
-|VVIX|**97.40**|[CONF] Same delayed pull; above cheap line 90, below stress line 120. Earlier conditional diagnostic neutral does not clear the tail.|
+|VIX|**16.80**|[CONF] Cboe quote last_trade_time October14 16:00:31ET, pulled16:16:23ET; prior official October 13 =15.27. LOW_VOL price bucket; TICK, not final close.|
+|VIX9D|**14.48**; ratio **0.8619**|[CONF] Same quote data-time16:00:31ET and pull16:16:23ET; nine-day below 30-day.|
+|VIX3M / VIX6M|**18.75 / 20.46**|[CONF] Same quote data-time16:00:31ET and pull16:16:23ET; all current-session legs witnessed by publisher.|
+|VIX3M/VIX|**1.1161**|[CONF] Same quote data-time16:00:31ET and pull16:16:23ET; flatter than official October 13, still no inversion.|
+|VVIX|**94.28**|[CONF] Same quote data-time16:00:31ET and pull16:16:23ET; above cheap line 90, below stress line 120. Earlier conditional diagnostic neutral does not clear the tail.|
 |SKEW daily|**154.74**|[CONF] Cboe official October 13. October 9=154.34; October 12=155.06. No October 14 final bar.|
 |SKEW 20-session mean|**146.183**|[CONF] Official through October 13; above existing 140 regime line. Not an executable strike-specific put premium.|
-|M1:M2|**+4.482%**, VX/V6→VX/X6|[CONF] Cboe October 13 settlement, October 21/November 18 expiries;16.8414→17.5962. Pre-CPI basis, no current-day futures response inferred.|
-|MOVE primary|**101.09**|[CONF] Investing.com primary daily table October 13; +2.66% versus October 9; below October 5 peak113.60. Primary table contains no October 12 or14 bar.|
+|M1:M2|**+2.396%**, VX/V6→VX/X6|[CONF] Cboe October14 settlement; October21/November18 expiries;17.6542→18.0772. Matched pair flattened from October13+4.482%; this leg has a dated post-CPI settlement while cash-index history does not.|
+|MOVE primary|**101.09**|[CONF] Investing.com primary daily table October 13; +2.66% versus October 9; below October 5 peak113.60. Primary table rechecked16:19:57ET contains no October12or14bar.|
 |MOVE cross-check|**99.1438**, UNCORROBORATED|[EST] Yahoo October 14 current-day bar, read15:30 ET. Newer than primary, but not promoted to the ledger or a grade; no verified primary October 14 print.|
 |OVX official|**48.77**, ratio **3.19**, WATCH|[CONF] Cboe final October 13 paired with same-date VIX;12 missing historical rows restored. BRENT owns energy substance.|
 |OVX intraday|**48.75**|[CONF] Cboe delayed October 14 stamp14:20:02.571−05:00 =15:20:02.571 ET. Different timestamp from VIX; no mixed-time ratio grade.|
@@ -54,7 +56,7 @@
 
 ## CONVERGENCE MATRIX
 
-**Convergence Score: 30/50** (10 vectors×5), unchanged this refresh. The earlier post-CPI forcing items remain KB-VIO-326/328 and dated oil-canary easing. No matrix move from merely restoring history.
+**Convergence Score: 30/50** (10 vectors×5), unchanged this refresh. The earlier post-CPI forcing items remain KB-VIO-326/328 and dated oil-canary easing. No matrix move from merely restoring history or correcting historical grade scope.
 
 | Vector | Score | Dated reasoning |
 |---|---|---|
@@ -66,14 +68,14 @@
 |Implied correlation|🟠 **3**|Official dispersion elevated; intraday repricing not an official sustain grade.|
 |Equity concentration|🟡 **2**|HENRY owns current concentration; no new confirmed US cascade.|
 |VVIX|🟡 **2**|Repriced, below120; no tail clearance from neutral conditional diagnostic.|
-|Front curve|🟡 **2**|Flatter than October 13, still upward.|
+|Front curve|🟡 **2**|Flatter than October 13, still upward; current matched futures also stay in contango.|
 |JPY carry vol|⚪ **1**|Current realized leg CALM; option-event-premium caveat remains.|
 
 ## REGIME STATUS AND DRIFT
 
-LOW_VOL price bucket; incomplete systemic confirmation. Thesisv4.1.2 unchanged; rates/CPI/credit may share antecedents. Original credit-vol window October 13→November 17 stays unchanged; inherited hit rates not reproduced.
+LOW_VOL price bucket; incomplete systemic confirmation. Thesisv4.1.3 evidence correction; rates/CPI/credit may share antecedents. Original credit-vol window October 13→November 17 stays unchanged; inherited hit rates not reproduced.
 
-**Strongest counterevidence:** upward cash curve; VVIX below120; HY widening below100bp; dated funding nonconfirmation and BOND's intraday rates retracement. Historical continuity does not turn these into a forecast. Hidden institution-specific restrictions remain unmeasured.
+**Strongest counterevidence:** cash VIX/VVIX eased from the15:27pull; upward cash/futures curves; VVIX below120; HY widening below100bp; dated funding nonconfirmation and BOND's intraday rates retracement. Historical continuity does not turn these into a forecast. Hidden institution-specific restrictions remain unmeasured.
 
 ## POSITIONS
 
@@ -85,7 +87,7 @@ Current quantities refer to FORGE/STATUS.md October 14 broker-received mirror; n
 2. October 15 publications: matched post-CPI credit/funding bridge and PPI context.
 3. October 16: LIQUID finalLIQ-07, actual CFTC release and existing WQ410decision.
 4. October 21/28/November 17: existing VIX expiry pair, FOMC and lag-window endpoint.
-5. **Recovered:** previous dark-window oil/yen RV gaps, CFTC September 29 and three older correlation days. Remaining: historical FXY option IV/OI, old futures blank cells/convention and broad KB/thesis-review debt. No new monitor or tool build.
+5. **Recovered:** previous dark-window oil/yen RV gaps, CFTC September 29 and three older correlation days. Remaining: historical FXY option IV/OI, old futures blank cells/convention and historical study replication and older empirical validation dependencies. No new monitor or tool build.
 6. Local visual-source live bands refreshed. Hosted publication unverified because the original Artifact publisher is not exposed/verified; no new hosted URL substituted.
 
-**Persistence/coordination:** same owner verified before writing; no additional research agents. Initial pull deferred for foreign dirty work; own exact-path Git only. Dated delivery and closeout receipt in research/2026-10-14_data-refresh/. Native cross-window notification and recipient consumption remain unverified unless explicitly acknowledged.
+**Persistence/coordination:** same owner verified before writing; no additional research agents. Initial pull deferred for foreign dirty work; own exact-path Git only. Dated delivery and closeout receipt in research/2026-10-14_accuracy-sweep/. Native cross-window notification and recipient consumption remain unverified unless explicitly acknowledged.
