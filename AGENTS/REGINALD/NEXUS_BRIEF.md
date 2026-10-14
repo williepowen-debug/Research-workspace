@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-13 direct-Will workout-bridge continuation CLOSED; STATUS pin `6fe886930e969cb144357cd1464972c5c2b9f476`.** Settled gates remain through 10/9; no market or issuer refresh occurred during closeout. WQ-419 handoffs/checklist remain accepted by PROME (`9451933aa`/`c7f945a95`), with peer reads unverified; WQ-414 accepted `1b937462e`. **Everything FHLB → `research/FHLB/` (README first).** No new grade, score, cohort, frozen frame or trade.
+**As of:** **2026-10-13 evening, securities-review closeout; STATUS pin `7925de67a`.** Gates retain10/12 settled bars and10/13 boot quotes; this review refreshed no prices. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
 
 ## CROSS-DOMAIN
 
@@ -82,11 +82,11 @@
 
 ## NEXT DECISION POINT
 
-**Future-session method:** `BANK_RESEARCH_STANDARD.md`, linked in CLAUDE Boot5a/Execute10 and MEMORY. Existing Q3 reads append outcomes to dated expectations; no frozen-rule change.
+**Future-session method:** `BANK_RESEARCH_STANDARD.md` via CLAUDE/MEMORY; append Q3 actuals to dated expectations. Securities guards now separate marks/realization, bank/parent, AOCI/CET1 and reporting/filing dates. Review → `reports/2026-10-13_securities-losses_Call_Report_window_review.md`; FDIC totals verified,95-bank model unverified. Reuses frozen AOCI study; sensitivity is diagnostic.
 
 **Review follow-up,10/13:** `reports/2026-10-13_review-response_forward-judgments.md` adds dated analytical expectations and four-bank expense/book sensitivities.16 bridge numeric cores checked at issuer primaries;5 VLY fresh rechecks incomplete. WAL source-date/locator repairs only. Sustainable earnings/multiple and current consensus still gate a pricing-edge claim; no peer-prior/frozen-rule/PASS change.
 
-**Research priority (direct Will,10/13):** existing21-row cash/loss/retained-risk bridge plus OZK14-row baseline; valuation analysis → `reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md`. EGBN Prince George's cash and new recognition are most sensitive; OZK residual financing/sale proceeds next. RaDD's October9 amendment is post-Q3. Current consensus/unpublished outcomes remain unresolved; EGBN PASS retains pricing and independent liquidity/horizon failures. WFC SEC restatement guard integrated as context; no PC-loss attribution or regional spread inferred.
+**Research priority (Will,10/13):** reuse21-row bridge/OZK14-row baseline → `reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md`. EGBN cash/new expense and OZK cash/residual financing remain key; RaDDOctober9 is post-Q3. Current consensus/outcomes unresolved; EGBN PASS retains pricing and liquidity/horizon failures. WFC SEC restatement guard is context only.
 
 - **What:** **the Q3 read plan's frames, one per print, CFG first (Fri 10/16)**: WQ-318 rows (UP/DOWN/INCONCLUSIVE per bank), CRE §6 lines, L35/L521, FL frame + A3, AMTB non-CRE lines. **The §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION.** Plus `REG-T-02` exit grading every settled close (0-of-3,29 rows through10/12), the tier test on each FRED cell, and the weekly funding read (H.4.1 Thu 10/15, H.8 Fri 10/16).
 - **When:** 10/16 · 10/19 · 10/20 · 10/21 (+ FLG/CUBI TBA); every close; FRED each morning ~10:15 ET.
@@ -110,4 +110,4 @@
 
 ---
 
-*Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `b3b9700be`; amendment12 ordering retained. Exact source arithmetic, verification split and boot capability gaps are in the October13 reports/receipts. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
+*Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `7925de67a`; amendment12 ordering retained. Exact source arithmetic, verification split and boot capability gaps are in the October13 reports/receipts. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
