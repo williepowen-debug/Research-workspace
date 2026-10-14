@@ -1,0 +1,9 @@
+{
+  "source_hashes": "PASS: both saved DTCC HTML receipts match bytes and SHA256",
+  "dated_ici_rows": "PASS: release and observation dates separate; publisher rounded flow retained",
+  "completion_consistency": "PASS",
+  "status_bytes": 22697,
+  "status_lines": 84,
+  "read_cap": "PASS within heuristic perimeter; no expanded perimeter claim",
+  "scope": "Existing priorities; no thresholds, withheld tools or other owners edited"
+}

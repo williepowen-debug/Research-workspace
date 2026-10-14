@@ -14,6 +14,8 @@ Recovered REGINALD/WAL/BOND/PROME current approved returns; no duplicate bank st
 
 **Staleness sweep 2026-10-14T14:34:46.375649-04:00:** audited active desk surfaces, refreshed secondary synthesis/navigation and stale definition copies, synced all calendar events, and made raw SOFR display informational. Exact changes, archives, protected-hash checks and unresolved gaps are in `audits/2026-10-14_staleness-sweep/REPORT.md`. Current market observations retain their earlier dates; no new trade, threshold, prediction grade or withheld-tool use.
 
+**Coverage priorities October14:** `research/2026-10-14_coverage-priorities/REPORT.md` ranks existing pulls and explicit gaps. ICI week endedOctober7 government/prime assets both grew; dated counterevidence, not current funding clearance. Actual collateral constraints remain the principal blind spot. PROME/WALTER packets saved; consumption unverified.
+
 ### NEXT SESSION
 
 Run existing boot, then STATUS§3(the only owed list). Prioritize October15/16 funding/ICE publications and October14 discount-window point release, then October16 LIQ-07 context/dual-list verdict and August TIC. WQ404 reader must see HANS's known-wrong line68 before any edit/release. Keep withheld tools withheld. Recipient consumption and live closeout transport remain unverified until an actual acknowledgment.

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ici-mmf",
+    "url": "https://www.ici.org/research/stats/mmf",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "dtcc-sponsored",
+    "url": "https://www.dtcc.com/market-index-data/charts/membership",
+    "final_url": "https://www.dtcc.com/market-index-data/charts/membership",
+    "retrieved_at": "2026-10-14T18:49:53.348345+00:00",
+    "bytes": 249015,
+    "sha256": "f61a7abbf1aa5a33b8b2db970cfa4c6d3619129d8588d0a890e13322d2ffb600"
+  },
+  {
+    "name": "dtcc-fails",
+    "url": "https://www.dtcc.com/market-index-data/charts/daily-total-us-treasury-trade-fails",
+    "final_url": "https://www.dtcc.com/market-index-data/charts/daily-total-us-treasury-trade-fails",
+    "retrieved_at": "2026-10-14T18:49:53.540936+00:00",
+    "bytes": 249638,
+    "sha256": "7d876bc0c080ad91dd6be6c7c06884697b226cffb910b57b1dadbcce6e305d94"
+  }
+]

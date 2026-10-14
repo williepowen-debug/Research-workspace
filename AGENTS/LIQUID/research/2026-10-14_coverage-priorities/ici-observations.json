@@ -1,0 +1,25 @@
+{
+  "source": "https://www.ici.org/research/stats/mmf",
+  "publication_date": "2026-10-08",
+  "observation_week_ended": "2026-10-07",
+  "read_at": "2026-10-14T14:51:35.193531-04:00",
+  "read_method": "Official publisher page text recovered via web tool. Direct shell HTTP request returned403; no access bypass attempted.",
+  "unit": "USD billions",
+  "observations": {
+    "government_assets": 6560.8,
+    "government_week_change": 61.15,
+    "prime_assets": 1239.77,
+    "prime_week_change": 4.11,
+    "total_assets": 7963.55,
+    "total_week_change_published": 72.27,
+    "institutional_prime_assets": 252.26,
+    "institutional_prime_week_change": 2.33
+  },
+  "limits": [
+    "Assets changes are an issuer-described proxy for net cash flows, not exact transactions",
+    "Rounded total stocks subtract to72.28 while published change is72.27; preserve published values",
+    "US ICI population differs from the global Lipper population; do not subtract or merge",
+    "Prior weeks are subject to revisions/classification/reporting changes",
+    "Does not measure current postOctober7 flows, MMF WAM, bank deposit source or repo lending"
+  ]
+}
