@@ -1,5 +1,9 @@
 # WAL THESIS — CHANGELOG
 
+## 2026-10-14 — post-analysis integration sweep; v2.4 unchanged
+
+Will requested a WAL sweep after discussing the FFIEC implications. Folded the new evidence beside V3's historical analysis, marked the old P1 pending-score language as history underWQ324, refreshed the countercase and connected the FY2027 bridge/Q3 preparation to the primary series. Corrected the preparation's unavailable-credential claim and distinguished Q3 FFIEC NOT_RETRIEVED from an undisclosed earnings result. Added descriptive worksheet anchors without new grading bands. No weights, ranges, EV, PT, score, prediction grade, registered condition or trade rule changed. Sweep receipt → `research/2026-10-14_FFIEC-integration-sweep.md`.
+
 ## 2026-10-14 — fresh FFIEC history, evidence correction only; v2.4 unchanged
 
 Eight bank reports retrieved,70 named fields extracted. Seven NDFI nonaccrual observations replace the one-quarter limitation and secondary tier in KB175; KB230-234 own fresh credit/commitment/mortgage/capital evidence. Evidence addition in THESIS is separately dated; every weight, range, EV, PT, score, registered condition and prediction grade is preserved. NDFI history is episodic; a separate score interpretation may use it, but this extraction does not regrade. Report `research/2026-10-14_FFIEC-deep-read.md`.

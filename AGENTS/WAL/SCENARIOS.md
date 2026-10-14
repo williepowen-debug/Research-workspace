@@ -4,6 +4,8 @@
 
 **Historical lineage and May-era strike analyses** are preserved verbatim at `archive/SCENARIOS_before-housekeeping_2026-10-14.md` (hash in `sources/housekeeping_2026-10-14/before_receipt.json`). Read that file only for dated history; its option strikes, valuation inputs and operational wording do not describe the current book. No historical range, probability, rule or frozen record was rewritten. Current positions → POSITIONS; trade construction → TERRY/Will.
 
+**Evidence annotation — October14 integration sweep:** the copied v2.4 rationale below records the August20 decision and later dated riders; its valuation table remains current and unchanged. The old NDFI single-observation limitation is superseded by seven primary observations (KB230; `research/2026-10-14_FFIEC-deep-read.md`). This is not a valuation re-mark or an endorsement of every dated rationale as current. Borrower/loss attribution and persistent earnings damage remain unresolved. The September holdings rider is also dated history; current account-specific holdings/vintages live only in POSITIONS/FORGE. The copied block itself is preserved verbatim.
+
 ## EXPECTED VALUE SUMMARY (v2.4 — post-MI3-disconfirmation re-mark) ★ CURRENT
 
 **Trigger:** the **V1a MI3 primary falsifier ran 2026-08-07 and DISCONFIRMED** (Q1-26 23.88% · Q2-26 21.20%, both in the frozen `<24%` PLATEAUED band; never ≥25% in 12 quarters). **Bear-fast's 10% weight sat on a tested-and-failed premise.** Will ruled its disposition 2026-08-12 (batch, row 32b, `PROME/proposals/2026-08-12_rule-batch-RULED.md`) with a hard constraint: ⛔ **total bear must NOT rise on a disconfirmation.**

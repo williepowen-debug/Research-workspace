@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "scope": "post-analysis WAL FFIEC integration; no new retrieval or market snapshot",
+  "protected_full_files_unchanged": {
+    "Q2_GRADING_FRAME_2026-07-21.md": true,
+    "PREPRINT_RECON_2026-07-17.md": true,
+    "EARNINGS_PREP.md": true,
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": true,
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": true,
+    "workbook/PREDICTIONS.tsv": true,
+    "POSITIONS.md": true,
+    "workbook/KB.tsv": true
+  },
+  "SCENARIOS_current_block_byte_identical": true,
+  "SCENARIOS_change": "dated evidence/navigation annotation outside preserved block only",
+  "worksheet_rows": 32,
+  "new_descriptive_rows": 11,
+  "ffiec_rows_NOT_RETRIEVED": 12,
+  "numeric_USD_M_anchors_checked_against_saved_USD_K": 27,
+  "NDFI_rate_checked": true,
+  "Q3_actuals_grades_added": false,
+  "no_new_KB_facts_or_expiry_changes": true,
+  "native_recipient_presence_consumption": "UNKNOWN",
+  "push": "DEFERRED_FOREIGN_DIRTY",
+  "checks_scope": "Selected assertions/schema/source ties, not all desk prose or external facts"
+}

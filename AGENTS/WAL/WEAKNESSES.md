@@ -1,6 +1,6 @@
 # WAL — Thesis Weaknesses (living counter-argument)
 
-**Last Updated:** **2026-09-24 (session #7 — two rows ADDED, none rewritten: the price-below-EV fact and the CEO's 9/16 Q3 credit pre-guide. No thesis bump.)** Prior: **2026-08-20 (v2.4 fold — MI3 row rewritten: it asserted a "never-run" falsifier for 13 days AFTER it ran and disconfirmed, and carried bear-fast at 10% after v2.4 cut it to 2%. Found in the 8/20 core-file sweep, not by any check.)** Prior: 2026-07-25 (v2.3-aligned rewrite at promotion standup — supersedes the v1-era 3/25 draft, preserved in git history. Live falsifier canon stays `THESIS.md` calibration tables + the frozen grading frames; this file is the standing steelman.)
+**Last Updated:** **2026-10-14 — FFIEC evidence and countercase folded; no numerical thesis change.** Prior September24 additions and September28 corrections remain dated below. Earlier v2.4 fold August20 and promotion rewrite July25 are in git history. Live falsifier canon stays `THESIS.md` calibration tables + the frozen grading frames; this file is the standing steelman.
 
 ---
 
@@ -17,6 +17,7 @@
 | **Short-interest observation updated October14:** latest measured settlementSeptember30 → **KB-229** (raw FINRA/receipt); priorSeptember15KB-214SUPERSEDED. Short shares rose while days to cover fell; no current float percentage or automatic squeeze verdict. Q2's +3.61% print reaction remains dated history | Medium | Squeeze/pop risk on a bull datum remains a countercase; strength unchanged. No thesis score, trade rule or gate grade inferred from the refresh |
 | ~~**MI3 cuts both ways** — the never-run falsifier could land <25%~~ → ★ **IT RAN, AND IT CUT AGAINST THE BEAR** | ~~Medium~~ **RESOLVED 2026-08-07** | **Q1-26 23.88% · Q2-26 21.20%, both `<24%` PLATEAUED; never reached 25% in 12 quarters (high 24.24%, never within 76bps of its own trigger).** Bear-fast **10% → 2%** at v2.4. ⚠️ **This weakness is now REALISED, not pending** — the honest framing is no longer "untested" but "tested and failed." **Residual 2%** rests on the series being step-prone: from 21.20% *any* qualifying up-step crosses 25% *(REGINALD step-detector, 8/13)*. ⚠️ **V1a ≠ V1 — the SECURED office book, the $99M and the appraisal are untouched by this.** |
 | **Management execution track** — Q2: EPS beat, flat NIM, AOCI improving, deposits cohort-leading | Medium | The "compounder" half of the frame keeps compounding |
+| **Fresh FFIEC evidence is mixed, not a uniform deterioration:** June2026 bank mortgage income−37.07%QoQ but+5.27%YoY; combined reported modified loans−1.92%QoQ; bank CET1 dollars+2.77%QoQ | Material counterevidence; no score change | Added October14, KB232–234. Modifications are changing populations, not verified cures; RWA grew faster than capital and the ratio slipped2.8bp. These facts nevertheless weaken an unsupported claim that every part of the bank is deteriorating. Bank figures require reconciliation before use in parent earnings/capital models |
 
 ## Unknowns
 

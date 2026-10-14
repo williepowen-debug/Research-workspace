@@ -306,7 +306,9 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 
 ---
 
-## VECTOR 3 — SSFA / NDFI / WAREHOUSE (REFINED, NEAR-DISCONFIRMED AT AGGREGATE)
+## VECTOR 3 — SSFA / NDFI / WAREHOUSE
+
+**Current evidence fold — October14 2026:** live V3 remains **3/5**, as ruled September28 underWQ324. Seven primary NDFI nonaccrual observations now show an episodic late2025 jump, decline and June rebound to122.456M/0.774% (KB230). The old access/history gap is closed; borrower identities, loss attribution and persistent current deterioration remain unknown. Unused NDFI4884.273M supplies contingent capacity, not observed stressed draws. Bank mortgage income fellQoQ but roseYoY; bank capital dollars grew while RWA grew slightly faster (KB231–234). Neither exposure growth nor a regulatory risk weight supplies an earnings-loss estimate. The causal question is incremental credit/income/funding damage to recurring parent earnings versus expectations; no demonstrated gap yet. No score condition, weight, target or frozen grade is changed. **The dated Q1 analysis and September audit/proposal history below remain records, not current pending rulings; WQ324 resolved the old P1 score decision.** Full evidence → `research/2026-10-14_FFIEC-deep-read.md`; application → Q3 read/worksheet and FY2027 bridge.
 
 > ⚠️ **9/28 audit: KB-121 ("the NDFI/warehouse book is SHRINKING"), the row V3's 1/5 was held on, is SUPERSEDED by the A1 rows KB-146/-168. The score was deliberately NOT moved (no silent score change): the evidence/score inconsistency is reported for a decision (STATUS RAISE block; proposal P1).**
 >
