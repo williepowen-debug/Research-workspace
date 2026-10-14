@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "from": "PROME",
+  "to": "TERRY",
+  "kind": "BROKER_RECEIPT",
+  "source": "PROME/data/2026-10-14_broker-capture-TRANSCRIPTION.json",
+  "scope": "Existing holdings and booking integration only; no new trade, research direction, threshold or management approval.",
+  "facts": [
+    "QQQ Oct14 744P sell-to-close1 filled8.22 against8.00 Day limit; net821.32; prior basis275.66; realized+545.66; contract absent from new holdings.",
+    "QQQ Oct15 740P sell-to-close1 filled6.71 against6.65 Day limit; net670.32. Remaining3/basis1591.99. Prior4/basis2122.65 implies removed530.66 and realized+139.66; assumes no unseen basis adjustment.",
+    "Combined two sale proceeds1491.64 match pending balance exactly. Derived realized+685.32; do not add to displayed daily P&L.",
+    "USO Oct14 150C remains2, value590/basis375.33; HBAN Oct16 16P remains2, value170/basis191.34. Current working orders UNKNOWN.",
+    "AAPL now5 confirmed/basis118.22; prior sale5 net1707.54 and prior basis236.45 imply removed118.23/realized1589.31, conditional no unseen basis adjustment, not broker realized-P&L report."
+  ],
+  "integration": "Existing DOCKET L687 owner booking duty updated; L615 now remaining740P3,745P already sold. Preserve historical original-cohort entries and earlier partial bookings. Update owner current qty/index and exact-contract booking once; consumption not yet verified.",
+  "consumer_check": "Cross/self scans run. WALTER/PROME dated transcriptions and old opening basis are historical evidence, not errors. TERRY current setup index is the remaining live consumer to integrate.",
+  "limits": "Receipt October14 only; exact capture/fill times UNKNOWN. One redacted IRA; account continuity inferred. Robinhood not supplied."
+}

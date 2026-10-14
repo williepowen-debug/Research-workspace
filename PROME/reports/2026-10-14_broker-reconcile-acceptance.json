@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-14",
+  "source": "PROME/data/2026-10-14_broker-capture-TRANSCRIPTION.json",
+  "mirror": "FORGE/STATUS.md",
+  "mirror_sha256": "f5d6fa028d01d2e8805f2225eb1161393d2b9b59f2e849087b90e0c9137448b4",
+  "mirror_bytes": 28966,
+  "result": "ACCEPTED",
+  "validation": [
+    "All17 rows value-minus-basis and sums of value/basis/open/daily gains verified with Decimal.",
+    "Positions20913.51+cash14027.08+pending1491.64=36432.23.",
+    "Two QQQ filled net receipts670.32+821.32=1491.64 pending, included once.",
+    "TERRY parser selftest PASS17live/3withheld; every parsed qty/expiry/mark/value/averagecost matches source.",
+    "desk_attention holdings20 incl3 historical Robinhood, errors0.",
+    "will_brief money36432.23,cash38.50%; known UNKNOWN-mark timestamp fallback remains L688, not repaired here.",
+    "BRENT pending_receipts rc0; limited text check, not proof of execution.",
+    "Five FORGE-sourced management mappings re-read and refreshed; four changed execution/holdings mappings linked to new evidence.",
+    "Consumer scans: dated WALTER/PROME source transcriptions and original-cohort basis retained; current TERRY integration queued in self-authored inbox packet.",
+    "DOCKET615/686/687 reconciled; weekday check PASS; generated SCRATCH refreshed."
+  ],
+  "realized": {
+    "QQQ744P": 545.66,
+    "QQQ740P_partial": 139.66,
+    "combined": 685.32,
+    "basis_limit": "QQQ740 removed basis530.66 derived prior2122.65 minus current1591.99; no unseen basis adjustment assumed."
+  },
+  "remaining_attention": [
+    "USO Oct14 150C x2 today; current closing order UNKNOWN.",
+    "QQQ Oct15 740P x3 tomorrow.",
+    "HBAN Oct16 16P x2; existing Wednesday management clock.",
+    "TBT5 existing October14 decision clock."
+  ],
+  "clerk_closeout": "ANVIL /root/anvil_1014 ASKED_RECEIPT; no remaining work or unsaved findings, no Git mutations; parent owns persistence.",
+  "limits": [
+    "Exact capture/fill times UNKNOWN.",
+    "One redacted IRA; account continuity inferred; Robinhood not supplied.",
+    "Pending is already in total; cash+pending not verified settled cash or buying power.",
+    "AAPL prior-sale realized1589.31 conditional on unchanged basis, not broker realized report.",
+    "No new trade, rule, threshold or management approval.",
+    "TERRY owner integration independently verified at f114bc600 on October14; filing of the sender packet remains TERRY-owned after sender persistence. See PROME/reports/2026-10-14_TERRY-acceptance/disposition.json."
+  ],
+  "persistence": "Original deferral is historical. PROME now persists the exact source, broker mirror, mappings and already-consumed QQQ packet; actual commit is identified in the separate October14 TERRY acceptance disposition."
+}
