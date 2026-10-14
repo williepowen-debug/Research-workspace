@@ -32,7 +32,7 @@ Completed `reports/2026-10-14_compound-bank-risk-synthesis.md`;14-bank same-RSSD
 *Prior open question/WQ414–419 continuity preserved verbatim → `archive/MEMORY_compound-risk_rotation_2026-10-14.md`, crc32 `5286dff8`. Re-check at any append.*
 
 ### CHANGES SINCE LAST SESSION
-Fresh12:11ET boot-window quotes and recheckedOctober13 settled/FRED observations are at STATUS/VX and the noon receipt; no new registered fire. Quarterly evidence retains its observation dates; no synchronized tape-causality or current capital-adequacy claim.
+Fresh12:11ET quotes/recheckedOctober13 settled/FRED→STATUS/VX/noon receipt;no new fire. Mid-sessionWALTER004 BAC credit counterevidence integrated;006 Miami model INFO_ONLY,source limits retained. Quarterly dates preserved;no tape-causality/current capital-adequacy claim. Activity nudge: predictions/bridge/KB unchanged because no eligible covered-bank outcome or new loss attribution.
 ### NEXT SESSION
 Research closeout is complete; resume existing Q3 outcomes and the logged PROME source additions, with no repeat screen/new monitor. At existing Q3 reads, append outcomes to October14 compound-risk expectations (§8), alongside the October13 judgments; distinguish loan losses, funding expense and OCI without double counting.
 At existing AMTB/SBCF/BKU Q3 reads, append outcomes to the unscored October13 securities-screen expectations (§5); do not rewrite the September24 scenarios or frozen Q3 grading rules. Reconcile actual securities/hedges, funding, taxes and parent equity before upgrading a sensitivity to a forecast. Three missing numerical durations (WAL/FLG/VLY) remain evidence gaps; no new retrieval schedule.
