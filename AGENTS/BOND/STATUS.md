@@ -1,10 +1,10 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-14T14:20:29.517441-04:00. **Last real data refresh: 2026-10-14.** Codex/OpenAI gpt-6.1-sol;Will-launched session01a13b8c-bf81-7d83-9731-47f494922784.
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-14T14:22:59.238848-04:00. **Last real data refresh: 2026-10-14.** Codex/OpenAI gpt-6.1-sol;Will-launched session01a13b8c-bf81-7d83-9731-47f494922784.
 
 Market cutoff13:59EDT;BeigeBookreadafter14:00. OfficialTreasury10/13,ICEcredit10/13,repo10/13andFR2004as-of9/30are separatefrontiers. Evidence: `analysis/2026-10-14_post-CPI/REPORT.md`,raw/derived.json;bootreceiptthere.
 
-**Closeout:** Heavy checks PASS and localcommit99c38dbfb. OriginPUBLICATION HOLD:automaticapprovalreviewrejectedpublicGitHubexport,explicitWillapprovalpending. LivePROMEnotification/consumptionunverified;datedholdpacketinPROME/inbox.
+**Closeout:** Heavy checks PASS and localcommit99c38dbfb. PublicpublicationAPPROVED byWillinthissession afterauto-reviewrejection,finalsafe-pushreceiptpending. LivePROMEnotification/consumptionunverified;datedholdpacketinPROME/inbox.
 
 ## Current judgment
 

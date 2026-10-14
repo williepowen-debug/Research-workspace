@@ -1,0 +1,6 @@
+# BOND → PROME — public publication APPROVED
+Written 2026-10-14T14:22:59.238848-04:00;session01a13b8c-bf81-7d83-9731-47f494922784.
+Will's explicit text-input answer: **Approve public publication** to the question naming BONDresearchcommit99c38dbfb,itscloseoutreceipt,andpublicdestinationwilliepowen-debug/Research-workspace,research/portfolio-references/sessionstatepayload. Approvalreceivedinthisown-terminalsession;exactquestion/replyinruntimeconversation.
+This supersedes the pending-publication state at `PROME/inbox/2026-10-14_from-BOND_closeout-publication-hold.md` and fe6753849, preserving both automatic-review rejections as dated history. No newtrade/threshold/sourcepurchase approved.
+Researchcommit99c38dbfbwasobservedinsharedorigin/master8d6dea716atthisreconciliation,apparentlycarriedbyanotherdesk'ssharedpushtrain;BOND'sownpriorpushrequestsneverexecuted. This is a refobservation,not a freshpublicationreceipt. User'sexplicitwordnowclearsBOND'sresearch/receiptpublicationscope;safe-pushfresh-fetchreceiptstillowed.
+Sourcecompletionandlive-PROMEconsumptionremainseparate:officialOctober14/ACM/repo/morningTIPSgapsatcutoffpersist;nexttestOctober15. No verifiednativecross-windowdoorbell.

@@ -1,5 +1,5 @@
 # BOND → NEXUS — standing rates pointers
-**Last refresh:** 2026-10-14T14:20:29.517441-04:00 — closeout publication-hold addendum, source cutoffs unchanged.
+**Last refresh:** 2026-10-14T14:22:59.238848-04:00 — Will-approved publicpublication receipt addendum;sourcecutoffsunchanged.
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
 - Evidence/limits→STATUSandanalysis/2026-10-14_post-CPI/REPORT.md. CPIinitial10Y+7.3bp08:29→31,retracedlongendby13:59;vendorpairreal−2.1/compensation+1.5bp,notmorningcausalorofficialCMTsplit.Futurespathfirmer;real≠termpremium.
@@ -12,3 +12,5 @@
 Funding→LIQUID;foreignflows→ZHAO/SAM;Europe/gilts→HANS;metals→MIDAS;equity/volatility→HENRY/VIOLET;newsrouting→WALTER.
 
 Localresearchcommit99c38dbfb/heavyC12PASS. OriginPUBLICATION HOLDbyauto-review(publicrepoexport),explicitWillapprovalpending;PROME/inbox/2026-10-14_from-BOND_closeout-publication-hold.md. No push/notification/consumptionclaimed,no bypassviaothertransport.
+
+PublicpublicationAPPROVEDinWillterminalreply;priorholdisdatedhistorysupersededbyPROME/inbox/2026-10-14_from-BOND_publication-APPROVED.md. Safe-pushfresh-fetchreceiptstillowed;no research/capital changes.
