@@ -1,0 +1,9 @@
+{
+  "source": "yfinance ^MOVE CROSS-CHECK ONLY; not grade eligible",
+  "retrieved_at": "2026-10-14T19:30:16.392610+00:00",
+  "observation": [
+    "2026-10-14",
+    99.143798828125
+  ],
+  "primary_frontier": "2026-10-13"
+}

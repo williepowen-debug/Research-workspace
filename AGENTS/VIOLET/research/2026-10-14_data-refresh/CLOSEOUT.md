@@ -1,0 +1,15 @@
+# VIOLET broader data-refresh closeout
+
+Same owner01a13bc1-8595-7e43-8101-874cf704d973, Codex/OpenAI gpt-6.1-sol/high. Will requested additional data updates; no research agents launched. Host preflight19:22:58UTC identified only currentPID496602as VIOLET; stored/native incomplete coverage not used to assert universal absence. Foreign dirty BROCK/WALTER paths left with their owners; no pull/stash/reset/sweep.
+
+**Persistence:** canonical STATUS committeda94d4b349; NEXUS folded after it. Owned data/evidence, visual-source bands and self-authored PROME delivery use explicit file paths only. Push receipt is reported after safe-push; origin is existing https://github.com/williepowen-debug/Research-workspace.git under root standing auto-push rules. No external hosted publication or replacement URL.
+
+**Validation:** all10blocking desk contracts pass; guard.txt. Schema332rows clean,6weekday-check files clean,5boot reads under cap. MEMORY23,917bytes within budget; not a fresh rotation.29recovered observations verified;5duplicate-date checks pass;13historical FXYoption legs intentionally blank/labelled;2HTMLsources parse;48OVXhistorical quantile cells reproduced with0mismatches and no future data. Corrections0namedpending; WALTERintake0new.
+
+**Ledger nudge:** COT/OVX/JPY/COR/KB/VX/options and historical alert ordering refreshed in this commit. MOVE is fresh by content atOctober13, which is primary source frontier; no falseOctober14primary row. CATALYSTS unchanged because existing dated events/FT-10remain; FLOW unchanged because no new formal transmission fire, PREDICTIONS unchanged because no new forecast or grade; corrections no named pending and board intake0new. Broad older review debt not certified cleared.
+
+**Scope:** four daily ledgers have0missing available sessions withinSeptember22→October13only. Historical reconstruction is not first-publication vintage. Remaining old futures blank cells need the existing convention decision; historical FXYIV/OI cannot be supplied by today's chain. No numerical line, current canary criterion, forecast, matrix or conviction changed. Latest CFTC published report remainsOctober6; noOctober13report assumed.
+
+**Sources:** publisher recheck still endsOctober13; publisher_recheck.json. Primary MOVE daily tableOctober13 versus separately retained uncorroborated YahooOctober14bar; no secondary promotion. Current-day delayed quotes retain TICK basis and retrieval timestamps. Final officialOctober14grade awaits actual bar; REDownsFT-10. Next dated tests: actual close/publication,October15matched credit/funding bridge, existingOctober16resolvers.
+
+**Delivery:** PROME/inbox/2026-10-14_from-VIOLET_data-refresh-and-history-recovery.md plus same block in final response. Native cross-window notification/recipient consumption UNKNOWN until acknowledged; no raw-socket attempt, DARK launch or replacement. Repo visual sources updated, hosted originals unverified. Owner self-closeout completed; no separate PROMEask or process death claimed; terminal remains resumable.

@@ -1,0 +1,19 @@
+══════════════════════════════════════════════════════════════
+  VIOLET CLOSEOUT GUARD
+══════════════════════════════════════════════════════════════
+  ✓ CANARY_MAP staleness contract
+  ✓ Grading-note citations
+  ✓ KB schema conformance
+  ✓ Write-back ordering (handoff surfaces vs STATUS)
+  ✓ CALENDAR/CATALYSTS twin consistency
+  ✓ Convergence matrix arithmetic
+  ✓ Cross-surface figure agreement
+  ✓ VX_DAILY session completeness
+  ✓ Offline regression suites
+  ✓ ^SKEW bar continuity (cell half)
+
+  ℹ️  Thesis currency (advisory — never blocks)
+  ✓ thesis 4.1 (2026-10-14) — 0 KB row(s) since: 0 retraction(s), 0 resolved, 0 active
+
+──────────────────────────────────────────────────────────────
+  ✓ All blocking contracts green — clear to close out.

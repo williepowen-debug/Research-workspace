@@ -22,7 +22,19 @@ date	ovx	vix	gap	ratio	ovx_pctile	ratio_pctile	gap_pctile	p90_ratio	p95_ratio	p7
 2026-09-16	57.49	17.71	39.78	3.25	91.7	95.3	94.9	2.92	3.21	44.57	54.76	FIRE	-	2026-09-17T12:28:10+00:00
 2026-09-17	52.11	15.44	36.67	3.38	87.6	96.4	93.6	2.93	3.21	44.58	54.76	FIRE	-	2026-09-18T01:43:06+00:00
 2026-09-18	50.39	14.84	35.55	3.4	85.9	96.4	93.1	2.93	3.22	44.59	54.76	FIRE	-	2026-09-18T20:22:36+00:00
+2026-09-22	51.89	14.21	37.68	3.65	89.3	97.7	93.8	2.99	3.29	42.94	52.78	FIRE	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-09-23	53.24	15.18	38.06	3.51	90.5	96.7	94.0	2.99	3.29	42.94	52.8	FIRE	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
 2026-09-24	54.45	15.67	38.78	3.47	89.7	97.0	94.5	2.93	3.23	44.63	54.76	FIRE	-	2026-09-25T01:12:43+00:00
+2026-09-25	55.09	14.87	40.22	3.7	92.2	97.8	94.8	2.99	3.3	42.96	52.82	FIRE	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
 2026-09-28	56.11	16.07	40.04	3.49	90.9	97.1	94.9	2.93	3.24	44.65	54.78	FIRE	-	2026-09-29T00:40:05+00:00
+2026-09-29	53.74	16.04	37.7	3.35	91.0	95.5	93.7	2.99	3.31	42.98	52.86	FIRE	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-09-30	52.24	16.34	35.9	3.2	89.5	93.7	92.8	2.99	3.31	42.99	52.86	WATCH	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-10-01	51.69	16.39	35.3	3.15	89.0	93.2	92.4	3.0	3.31	42.99	52.86	WATCH	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-10-02	51.0	15.31	35.69	3.33	88.3	95.4	92.7	3.0	3.31	43.0	52.86	FIRE	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-10-05	48.65	15.52	33.13	3.13	84.9	92.8	90.8	3.0	3.31	43.02	52.86	WATCH	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-10-06	48.79	15.01	33.78	3.25	85.1	94.4	91.4	3.0	3.31	43.03	52.85	WATCH	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-10-07	48.61	15.08	33.53	3.22	84.8	94.1	91.1	3.0	3.31	43.04	52.85	WATCH	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-10-08	48.4	15.41	32.99	3.14	84.6	92.9	90.7	3.0	3.31	43.05	52.85	WATCH	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
 2026-10-09	48.9	14.84	34.06	3.3	83.4	95.5	92.1	2.93	3.24	44.72	54.76	FIRE	-	2026-10-10T15:35:32+00:00
-2026-10-13	48.77	15.27	33.5	3.19	83.1	94.4	91.4	2.94	3.24	44.74	54.76	WATCH	-	2026-10-14T18:53:53+00:00
+2026-10-12	48.52	15.21	33.31	3.19	84.6	93.5	91.0	3.01	3.31	43.05	52.85	WATCH	HISTORICAL RECONSTRUCTION from Cboe daily CSV; existing formula applied to history ending this date; not first-publication vintage or a new live fire	2026-10-14T19:26:33.511268+00:00
+2026-10-13	48.77	15.27	33.5	3.19	83.1	94.4	91.4	2.94	3.24	44.74	54.76	WATCH	-	2026-10-14T19:23:50+00:00

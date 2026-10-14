@@ -1,0 +1,13 @@
+{
+  "bounded_recovery_counts": [
+    12,
+    13,
+    3,
+    1
+  ],
+  "duplicate_date_checks": 5,
+  "missing_historical_option_legs_preserved": 13,
+  "html_sources_parse": 2,
+  "checked_at": "2026-10-14T19:40:40.985136+00:00",
+  "recovered_OVX_threshold_cells_reproduced_without_future_data": 48
+}

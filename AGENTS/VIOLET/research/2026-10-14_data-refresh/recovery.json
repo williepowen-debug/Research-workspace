@@ -1,0 +1,208 @@
+{
+  "OVX_added": [
+    {
+      "date": "2026-09-22",
+      "ovx": 51.89,
+      "state": "FIRE"
+    },
+    {
+      "date": "2026-09-23",
+      "ovx": 53.24,
+      "state": "FIRE"
+    },
+    {
+      "date": "2026-09-25",
+      "ovx": 55.09,
+      "state": "FIRE"
+    },
+    {
+      "date": "2026-09-29",
+      "ovx": 53.74,
+      "state": "FIRE"
+    },
+    {
+      "date": "2026-09-30",
+      "ovx": 52.24,
+      "state": "WATCH"
+    },
+    {
+      "date": "2026-10-01",
+      "ovx": 51.69,
+      "state": "WATCH"
+    },
+    {
+      "date": "2026-10-02",
+      "ovx": 51.0,
+      "state": "FIRE"
+    },
+    {
+      "date": "2026-10-05",
+      "ovx": 48.65,
+      "state": "WATCH"
+    },
+    {
+      "date": "2026-10-06",
+      "ovx": 48.79,
+      "state": "WATCH"
+    },
+    {
+      "date": "2026-10-07",
+      "ovx": 48.61,
+      "state": "WATCH"
+    },
+    {
+      "date": "2026-10-08",
+      "ovx": 48.4,
+      "state": "WATCH"
+    },
+    {
+      "date": "2026-10-12",
+      "ovx": 48.52,
+      "state": "WATCH"
+    }
+  ],
+  "JPY_added": [
+    {
+      "date": "2026-09-22",
+      "rv10": 6.92,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-09-23",
+      "rv10": 6.49,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-09-25",
+      "rv10": 6.31,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-09-29",
+      "rv10": 6.88,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-09-30",
+      "rv10": 6.58,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-01",
+      "rv10": 6.29,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-02",
+      "rv10": 6.33,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-05",
+      "rv10": 5.83,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-06",
+      "rv10": 5.79,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-07",
+      "rv10": 5.86,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-08",
+      "rv10": 5.33,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-12",
+      "rv10": 2.1,
+      "state": "CALM"
+    },
+    {
+      "date": "2026-10-13",
+      "rv10": 2.13,
+      "state": "CALM"
+    }
+  ],
+  "COT_added": [
+    {
+      "report_date": "2026-09-29",
+      "open_interest": 421113,
+      "dealer_long": 102887,
+      "dealer_short": 32923,
+      "dealer_net": 69964,
+      "asset_mgr_long": 42134,
+      "asset_mgr_short": 108634,
+      "asset_mgr_net": -66500,
+      "lev_money_long": 89206,
+      "lev_money_short": 96673,
+      "lev_money_net": -7467,
+      "other_long": 4201,
+      "other_short": 1879,
+      "other_net": 2322,
+      "nonrept_long": 25744,
+      "nonrept_short": 24063,
+      "nonrept_net": 1681,
+      "lev_money_net_pct3y": 83.3,
+      "dealer_net_pct3y": 92.9,
+      "asset_mgr_net_pct3y": 0.0,
+      "flag": "ELEVATED_LONG"
+    }
+  ],
+  "COT_latest_before": {
+    "report_date": "2026-10-06",
+    "open_interest": "441261",
+    "dealer_long": "104235",
+    "dealer_short": "32528",
+    "dealer_net": "71707",
+    "asset_mgr_long": "40224",
+    "asset_mgr_short": "120838",
+    "asset_mgr_net": "-80614",
+    "lev_money_long": "89535",
+    "lev_money_short": "84041",
+    "lev_money_net": "5494",
+    "other_long": "3730",
+    "other_short": "1013",
+    "other_net": "2717",
+    "nonrept_long": "23670",
+    "nonrept_short": "22974",
+    "nonrept_net": "696",
+    "lev_money_net_pct3y": "96.8",
+    "dealer_net_pct3y": "92.9",
+    "asset_mgr_net_pct3y": "0.0",
+    "flag": "EXTREME_LONG"
+  },
+  "COT_latest_after": {
+    "report_date": "2026-10-06",
+    "open_interest": 441261,
+    "dealer_long": 104235,
+    "dealer_short": 32528,
+    "dealer_net": 71707,
+    "asset_mgr_long": 40224,
+    "asset_mgr_short": 120838,
+    "asset_mgr_net": -80614,
+    "lev_money_long": 89535,
+    "lev_money_short": 84041,
+    "lev_money_net": 5494,
+    "other_long": 3730,
+    "other_short": 1013,
+    "other_net": 2717,
+    "nonrept_long": 23670,
+    "nonrept_short": 22974,
+    "nonrept_net": 696,
+    "lev_money_net_pct3y": 96.8,
+    "dealer_net_pct3y": 92.9,
+    "asset_mgr_net_pct3y": 0.0,
+    "flag": "EXTREME_LONG"
+  },
+  "written_at": "2026-10-14T19:26:33.511268+00:00",
+  "IMPLIED_CORR_added": [
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25"
+  ]
+}

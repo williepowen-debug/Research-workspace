@@ -1,0 +1,9 @@
+series	latest_observation	checked_from	missing_available_sessions	source	note
+VX_DAILY	2026-10-14	2026-09-22	NONE	see sources.json and recovery.json	publisher available observations; reconstructed rows are not first-publication vintage
+IMPLIED_CORR	2026-10-14	2026-09-22	NONE	see sources.json and recovery.json	publisher available observations; reconstructed rows are not first-publication vintage
+OVX	2026-10-13	2026-09-22	NONE	10/13/2026	publisher available observations; reconstructed rows are not first-publication vintage
+JPY_VOL	2026-10-14	2026-09-22	NONE	see sources.json and recovery.json	publisher available observations; reconstructed rows are not first-publication vintage
+MOVE	2026-10-13	2026-09-22	NONE	see sources.json and recovery.json	MOVE follows bond-market observations: October12 absent in primary, not a data hole
+COT_VIX	2026-10-06	2026-09-22	NONE	see sources.json and recovery.json	latest actual CFTC reportOctober6; missingSeptember29 restored; noOctober13publication presumed
+VIX_OPTIONS	2026-10-14	2026-09-22	NONE	see sources.json and recovery.json	snapshot ledger: daily continuity is not claimed
+CHEAP_TAIL	2026-10-13	2026-09-22	NONE	see sources.json and recovery.json	snapshot ledger: daily continuity is not claimed

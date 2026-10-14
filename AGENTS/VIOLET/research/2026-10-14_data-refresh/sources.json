@@ -1,0 +1,695 @@
+[
+  {
+    "name": "VIX",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "15.340000",
+        "HIGH": "15.340000",
+        "LOW": "14.770000",
+        "CLOSE": "14.840000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OPEN": "15.390000",
+        "HIGH": "15.530000",
+        "LOW": "15.110000",
+        "CLOSE": "15.210000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OPEN": "15.610000",
+        "HIGH": "15.610000",
+        "LOW": "15.170000",
+        "CLOSE": "15.270000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.590458+00:00"
+  },
+  {
+    "name": "VIX9D",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "11.760000",
+        "HIGH": "11.840000",
+        "LOW": "11.040000",
+        "CLOSE": "11.260000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OPEN": "12.220000",
+        "HIGH": "12.270000",
+        "LOW": "11.590000",
+        "CLOSE": "11.680000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OPEN": "11.850000",
+        "HIGH": "12.350000",
+        "LOW": "11.700000",
+        "CLOSE": "11.990000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.628192+00:00"
+  },
+  {
+    "name": "VIX3M",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "17.900000",
+        "HIGH": "18.010000",
+        "LOW": "17.720000",
+        "CLOSE": "17.770000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OPEN": "17.970000",
+        "HIGH": "18.020000",
+        "LOW": "17.850000",
+        "CLOSE": "17.930000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OPEN": "17.970000",
+        "HIGH": "18.110000",
+        "LOW": "17.880000",
+        "CLOSE": "17.960000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.638228+00:00"
+  },
+  {
+    "name": "VIX6M",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "19.900000",
+        "HIGH": "20.020000",
+        "LOW": "19.830000",
+        "CLOSE": "19.860000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OPEN": "19.960000",
+        "HIGH": "19.990000",
+        "LOW": "19.890000",
+        "CLOSE": "19.950000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OPEN": "19.930000",
+        "HIGH": "20.050000",
+        "LOW": "19.860000",
+        "CLOSE": "19.920000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.649120+00:00"
+  },
+  {
+    "name": "VVIX",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "VVIX": "84.880000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "VVIX": "85.930000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "VVIX": "85.380000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.604727+00:00"
+  },
+  {
+    "name": "SKEW",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "SKEW": "154.340000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "SKEW": "155.060000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "SKEW": "154.740000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.594470+00:00"
+  },
+  {
+    "name": "OVX",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OVX": "48.900000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OVX": "48.520000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OVX": "48.770000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/OVX_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.884932+00:00"
+  },
+  {
+    "name": "COR1M",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "6.880000",
+        "HIGH": "7.320000",
+        "LOW": "6.850000",
+        "CLOSE": "6.930000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OPEN": "7.260000",
+        "HIGH": "7.780000",
+        "LOW": "7.260000",
+        "CLOSE": "7.570000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OPEN": "7.520000",
+        "HIGH": "7.800000",
+        "LOW": "7.240000",
+        "CLOSE": "7.570000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.917385+00:00"
+  },
+  {
+    "name": "COR3M",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "11.090000",
+        "HIGH": "11.690000",
+        "LOW": "11.090000",
+        "CLOSE": "11.330000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OPEN": "11.360000",
+        "HIGH": "11.830000",
+        "LOW": "11.360000",
+        "CLOSE": "11.750000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OPEN": "12.040000",
+        "HIGH": "12.070000",
+        "LOW": "11.600000",
+        "CLOSE": "11.710000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.944810+00:00"
+  },
+  {
+    "name": "COR30D",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "8.470000",
+        "HIGH": "8.990000",
+        "LOW": "8.440000",
+        "CLOSE": "8.730000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "OPEN": "8.680000",
+        "HIGH": "9.050000",
+        "LOW": "8.680000",
+        "CLOSE": "8.990000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "OPEN": "9.120000",
+        "HIGH": "9.190000",
+        "LOW": "8.720000",
+        "CLOSE": "8.900000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "retrieved_at": "2026-10-14T19:24:09.272845+00:00"
+  },
+  {
+    "name": "DSPX",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "DSPX": "36.020000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "DSPX": "36.000000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "DSPX": "36.770000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "retrieved_at": "2026-10-14T19:24:08.963380+00:00"
+  },
+  {
+    "name": "VIXEQ",
+    "history_tail": [
+      {
+        "DATE": "10/09/2026",
+        "VIXEQ": "38.940000"
+      },
+      {
+        "DATE": "10/12/2026",
+        "VIXEQ": "39.080000"
+      },
+      {
+        "DATE": "10/13/2026",
+        "VIXEQ": "39.800000"
+      }
+    ],
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "retrieved_at": "2026-10-14T19:24:09.016604+00:00"
+  },
+  {
+    "name": "VIX_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^VIX",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 17.24,
+        "price_change": 1.97,
+        "price_change_percent": 12.9011,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 15.79,
+        "high": 17.45,
+        "low": 15.35,
+        "close": 17.24,
+        "prev_day_close": 15.27,
+        "volume": 0,
+        "iv30": 99.481,
+        "iv30_change": 9.611,
+        "iv30_change_percent": 10.6943,
+        "seqno": 23148864771,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_VIX"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX.json",
+    "retrieved_at": "2026-10-14T19:24:09.172165+00:00"
+  },
+  {
+    "name": "VIX9D_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^VIX9D",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 15.02,
+        "price_change": 3.03,
+        "price_change_percent": 25.2711,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 12.66,
+        "high": 15.62,
+        "low": 11.91,
+        "close": 15.02,
+        "prev_day_close": 11.99,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23148829166,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_VIX9D"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX9D.json",
+    "retrieved_at": "2026-10-14T19:24:09.343075+00:00"
+  },
+  {
+    "name": "VIX3M_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^VIX3M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 19.01,
+        "price_change": 1.05,
+        "price_change_percent": 5.8463,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 18.25,
+        "high": 19.12,
+        "low": 17.84,
+        "close": 19.01,
+        "prev_day_close": 17.96,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23148804570,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_VIX3M"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX3M.json",
+    "retrieved_at": "2026-10-14T19:24:09.224229+00:00"
+  },
+  {
+    "name": "VIX6M_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^VIX6M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 20.62,
+        "price_change": 0.7,
+        "price_change_percent": 3.5141,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 20.09,
+        "high": 20.67,
+        "low": 19.94,
+        "close": 20.62,
+        "prev_day_close": 19.92,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23148829146,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_VIX6M"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX6M.json",
+    "retrieved_at": "2026-10-14T19:24:09.444080+00:00"
+  },
+  {
+    "name": "VVIX_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^VVIX",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 97.56,
+        "price_change": 12.18,
+        "price_change_percent": 14.2656,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 88.51,
+        "high": 97.95,
+        "low": 87.7,
+        "close": 97.56,
+        "prev_day_close": 85.38,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23148885742,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_VVIX"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VVIX.json",
+    "retrieved_at": "2026-10-14T19:24:09.496936+00:00"
+  },
+  {
+    "name": "SKEW_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^SKEW",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 154.74,
+        "price_change": 0.0,
+        "price_change_percent": 0.0,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 0.0,
+        "high": 0.0,
+        "low": 0.0,
+        "close": 154.74,
+        "prev_day_close": 154.74,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 15031093957,
+        "last_trade_time": "2026-10-13T17:00:20",
+        "tick": "down"
+      },
+      "symbol": "_SKEW"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_SKEW.json",
+    "retrieved_at": "2026-10-14T19:24:09.471363+00:00"
+  },
+  {
+    "name": "OVX_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:20:16",
+      "data": {
+        "high": 49.51,
+        "exchange_id": 115,
+        "current_price": 48.75,
+        "close": 48.75,
+        "iv30_change_percent": 0,
+        "prev_day_close": 48.77,
+        "open": 49.14,
+        "security_type": "index",
+        "low": 47.17,
+        "ask_size": 0,
+        "symbol": "^OVX",
+        "index": "OVX",
+        "bid_size": 0,
+        "iv30_change": 0.0,
+        "iv30": 0.0,
+        "seqno": 142002,
+        "bid": 0.0,
+        "volume": 0,
+        "ask": 0.0,
+        "tick": "",
+        "price_change_percent": -0.041,
+        "price_change": -0.02,
+        "last_trade_time": "2026-10-14T14:20:02.571000-05:00"
+      },
+      "symbol": "_OVX"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_OVX.json",
+    "retrieved_at": "2026-10-14T19:24:09.496814+00:00"
+  },
+  {
+    "name": "COR1M_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^COR1M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 9.43,
+        "price_change": 1.86,
+        "price_change_percent": 24.5707,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 8.17,
+        "high": 9.97,
+        "low": 7.67,
+        "close": 9.43,
+        "prev_day_close": 7.57,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23148885718,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_COR1M"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_COR1M.json",
+    "retrieved_at": "2026-10-14T19:24:09.706601+00:00"
+  },
+  {
+    "name": "COR3M_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^COR3M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 13.05,
+        "price_change": 1.34,
+        "price_change_percent": 11.4432,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 12.14,
+        "high": 13.4,
+        "low": 11.81,
+        "close": 13.05,
+        "prev_day_close": 11.71,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23148829150,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_COR3M"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_COR3M.json",
+    "retrieved_at": "2026-10-14T19:24:09.858220+00:00"
+  },
+  {
+    "name": "COR30D_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^COR30D",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 9.58,
+        "price_change": 0.68,
+        "price_change_percent": 7.6404,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 9.06,
+        "high": 9.85,
+        "low": 8.85,
+        "close": 9.58,
+        "prev_day_close": 8.9,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23148829148,
+        "last_trade_time": "2026-10-14T15:08:31",
+        "tick": "down"
+      },
+      "symbol": "_COR30D"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_COR30D.json",
+    "retrieved_at": "2026-10-14T19:24:09.841701+00:00"
+  },
+  {
+    "name": "DSPX_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^DSPX",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 36.72,
+        "price_change": -0.05,
+        "price_change_percent": -0.136,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 36.63,
+        "high": 36.81,
+        "low": 36.17,
+        "close": 36.72,
+        "prev_day_close": 36.77,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23149232665,
+        "last_trade_time": "2026-10-14T15:08:32",
+        "tick": "up"
+      },
+      "symbol": "_DSPX"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_DSPX.json",
+    "retrieved_at": "2026-10-14T19:24:09.767007+00:00"
+  },
+  {
+    "name": "VIXEQ_quote",
+    "quote": {
+      "timestamp": "2026-10-14 19:23:38",
+      "data": {
+        "symbol": "^VIXEQ",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 40.58,
+        "price_change": 0.78,
+        "price_change_percent": 1.9598,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 39.92,
+        "high": 40.62,
+        "low": 39.5,
+        "close": 40.58,
+        "prev_day_close": 39.8,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 23149232664,
+        "last_trade_time": "2026-10-14T15:08:32",
+        "tick": "up"
+      },
+      "symbol": "_VIXEQ"
+    },
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIXEQ.json",
+    "retrieved_at": "2026-10-14T19:24:10.046107+00:00"
+  },
+  {
+    "name": "MOVE_primary",
+    "url": "https://www.investing.com/indices/ice-bofaml-move-historical-data",
+    "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/ice-bofaml-move-historical-data"
+  }
+]
