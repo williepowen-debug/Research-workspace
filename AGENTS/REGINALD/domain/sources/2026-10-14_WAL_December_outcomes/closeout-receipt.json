@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14",
+  "authorization": "Will explicitly requested percentage breakdown of WAL outcomes between now and December",
+  "horizon_choice": "Dec18 put expiry;notDec31;terminalclose not touch",
+  "assessment": "Subjective first mark;5/20/35/25/15 sum100%;no comparable prior or owner re-mark",
+  "validation": "NormalDist independently matches erf diagnostic;strict/inclusive endpoint sampling covers exactly1bin;16TSVschemas and KB IDs pass",
+  "source_failure": "Initial isolated Yahoo cache retrieve sandbox DNS failure;1approved network retry succeeded",
+  "quote_limits": "Last trade timestamp is not bid/ask timestamp. Vendor IV is not independently repriced; American exercise/dividends/skew unmodeled. Not a physical probability or live executable quote certificate.",
+  "workbook_schemas": [
+    "ACL_ROLLFORWARD_COHORT.tsv",
+    "CRE_RCN_COHORT.tsv",
+    "DARKPOOL.tsv",
+    "SHORT_VOL.tsv",
+    "KB.tsv",
+    "SHORT_INTEREST.tsv",
+    "AOCI_COHORT_2026Q2.tsv",
+    "MI3_COHORT.tsv",
+    "VX.tsv",
+    "PREDICTIONS.tsv",
+    "WORKOUT_OUTCOME_BRIDGE.tsv",
+    "RUNWAY_COHORT.tsv",
+    "NDFI_COHORT.tsv",
+    "FUNDING_COHORT_2026Q2.tsv",
+    "FLOW.tsv",
+    "OPTIONS_OI.tsv"
+  ],
+  "read_cap": "READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=REGINALD reads=12 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=45337",
+  "positions_frozen_frames_predictions": "Unchanged;probability report is analytical unscored assessment,not a peer ledger re-mark",
+  "derived_surfaces": "WAL intraday STATUS observation refreshed,settled guards preserved;NEXUS finalfold after STATUScommit;POSITIONS/DECK/CALENDAR/SCRATCH consciously unchanged,no structural position/date/gate event",
+  "outside_dirty": "No pull/rebase/stash and no peer edits",
+  "WALTER_inbox": [],
+  "source_sha256": "c92c6160b545149f819525637086f9e7863c19f9ed01375825f2c7fe2abec64e"
+}

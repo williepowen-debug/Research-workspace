@@ -1,0 +1,94 @@
+{
+  "made": "2026-10-14",
+  "terminal_date": "2026-12-18",
+  "terminal_object": "WAL regular-session unadjusted vendor close USD;one date,not minimum or any-touch probability",
+  "days": 65,
+  "quote": {
+    "symbol": "WAL",
+    "longName": "Western Alliance Bancorporation",
+    "regularMarketPrice": 71.7022,
+    "regularMarketTime": 1792004380,
+    "exchangeDataDelayedBy": 20,
+    "regularMarketPreviousClose": 73.73,
+    "trade_ET": "2026-10-14T14:59:40-04:00"
+  },
+  "bins": [
+    {
+      "low_inclusive": null,
+      "high_exclusive": 55,
+      "subjective_probability": 0.05
+    },
+    {
+      "low_inclusive": 55,
+      "high_exclusive": 65,
+      "subjective_probability": 0.2
+    },
+    {
+      "low_inclusive": 65,
+      "high_exclusive": 75,
+      "subjective_probability": 0.35
+    },
+    {
+      "low_inclusive": 75,
+      "high_exclusive": 85,
+      "subjective_probability": 0.25
+    },
+    {
+      "low_inclusive": 85,
+      "high_exclusive": null,
+      "subjective_probability": 0.15
+    }
+  ],
+  "subjective_below65": 0.25,
+  "subjective_at_least65": 0.75,
+  "subjective_at_least75": 0.4,
+  "public_IV_diagnostic": {
+    "vol": 0.3839172937,
+    "zero_drift_terminal_bin_probabilities": [
+      0.059873748686566586,
+      0.24001712816746074,
+      0.34014594709469576,
+      0.2309589207237237,
+      0.12900425532755322
+    ],
+    "below65": 0.2998908768540273,
+    "approx_one_sigma_dollar_scale": 11.616636574593258
+  },
+  "vol_sensitivity": [
+    {
+      "vol": 0.3,
+      "zero_drift_terminal_bin_probabilities": [
+        0.02110697209577067,
+        0.2171701258642375,
+        0.42392792437264715,
+        0.25810262944766615,
+        0.07969234821967852
+      ],
+      "below65": 0.23827709796000818,
+      "approx_one_sigma_dollar_scale": 9.07745243458924
+    },
+    {
+      "vol": 0.45,
+      "zero_drift_terminal_bin_probabilities": [
+        0.0965402344265226,
+        0.24003772387456535,
+        0.29338003763218856,
+        0.20916154501684525,
+        0.16088045904987824
+      ],
+      "below65": 0.33657795830108794,
+      "approx_one_sigma_dollar_scale": 13.61617865188386
+    }
+  ],
+  "original_Fidelity65P_basis682_65_for4_expiry_breakeven": 63.293375,
+  "status": "First dated REGINALD analytical probability assessment explicitly requested by Will;not canonical WAL probability re-mark or registered/scored fleet prediction",
+  "limits": [
+    "Subjective branch probabilities are judgment assignments,not an estimated statistical or Bayesian posterior. No historical calibrated distribution or numeric REGINALD prior for same event/horizon.",
+    "The zero-drift lognormal model sets arithmetic expected stock return to zero. It is neither risk-neutral pricing nor a physical forecast. No assumed measured risk-free rate,dividend,skew,jump or volatility path.",
+    "Near-ATM vendor IV and chain bid/ask timing unverified;American exercise and discrete dividends matter. No calibrated digital/ITM probability inferred from put delta or option quotes.",
+    "Subjective25pct below65 is mildly more constructive than zero-drift30pct;operating counterevidence supplies judgment motivation but does not prove unpriced optimism or a5pp posterior update.",
+    "A rough20-35pct assessment range for below65 is not a statistical confidence interval or additional probability mass.",
+    "No within-bin law is assigned;no exact probability below63.293375,below70 orbelowcurrent spot follows from these bins.",
+    "No probability of touching a price,earlier option profit,fill or management action is supplied."
+  ]
+}
