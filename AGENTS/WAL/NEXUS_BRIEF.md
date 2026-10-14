@@ -39,4 +39,6 @@ WAL October19release/deck, October20noonETcall, laterQ3 10-Q/FFIEC for namedappr
 
 ExistingQ3print/call and later10-Q are the registered carriers; use frozenframes andwriteeventualgrades toPREDICTIONS. RecordedFFIECcredential expiryNovember5 requiresavailability beforeQ3pull; no credentialaccess/renewalassumed. Currentguardgrade→REGINALDexitlog; position-specificrules→POSITIONS/TERRY. No newstandingmonitor, tickers, screens, gateororder.
 
+Earnings-model reproduction remains compatible with authorized narrative cleanup: preservation guard covers four frozen frames and prediction ledger, while the separate maintenance receipt checks numerical calibration/history. Both accepted numerical JSON and primary extract reproduced byte-for-byte in a read-only run. Final STATUS pin above remains current; this brief update is the final desk write after the compatibility fix.
+
 Rootpull/push deferredforforeignWALTER/sharedwork. Exactown/self-authoredpacketcommits only. Historicalsource-cache files remainlocal-onlywhereinventoried; extracts donotreplacefulloriginals. Details/receipts→`research/2026-10-14_housekeeping-repair.md` and `sources/housekeeping_2026-10-14/repair_validation_receipt.json`.

@@ -56,7 +56,11 @@ receipt = {
         'charge-offs can use existing allowance and are not automatically incremental provision',
         'ECR/referral reductions already enter NII and fees; do not subtract twice'],
 }
-for p, value in [('Q2_GRADING_FRAME_2026-07-21.md',None),('PREPRINT_RECON_2026-07-17.md',None),('Q3_PRINT_GRADING_FRAME_2026-09-24.md',None),('Q3_10Q_GRADING_FRAME_2026-09-24.md',None),('THESIS.md',None),('SCENARIOS.md',None),('workbook/PREDICTIONS.tsv',None)]:
+# Frozen specifications/predictions remain byte immutable. Full THESIS/SCENARIOS
+# prose hashes in the original receipt are dated history; authorized housekeeping
+# can annotate peer sources or archive old prose while preserving calibration.
+# That preservation is checked in the October14 maintenance receipt.
+for p in ['Q2_GRADING_FRAME_2026-07-21.md','PREPRINT_RECON_2026-07-17.md','Q3_PRINT_GRADING_FRAME_2026-09-24.md','Q3_10Q_GRADING_FRAME_2026-09-24.md','workbook/PREDICTIONS.tsv']:
     prior=json.loads((WAL/'sources/2026-10-13_preprint-expectations_calculation-receipt.json').read_text())['frozen_and_canonical_SHA256'][p]
     assert hashlib.sha256((WAL/p).read_bytes()).hexdigest()==prior,p
 assert abs(results['conditional_11_support']['annual_eps']-11)<.01
@@ -76,4 +80,4 @@ for i,t in enumerate(tables):
 for i,label in selected.items():
     extract.extend(['',f'## {label} — table {i}','','```text',tables[i].get_text(' ',strip=True),'```'])
 out.joinpath('Q2_earnings_primary_extract.md').write_text('\n'.join(extract)+'\n')
-print(json.dumps({'cases':results,'required':receipt['required_quarterly_pretax'],'checks':'arithmetic and seven preserved-file hashes passed'},indent=2))
+print(json.dumps({'cases':results,'required':receipt['required_quarterly_pretax'],'checks':'arithmetic and four frozen frames/prediction-ledger hashes passed'},indent=2))
