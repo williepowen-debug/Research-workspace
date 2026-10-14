@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-14 noon boot/perspective complete; STATUS pin `69bd0ad84`.** Rechecked10/13 settled bars/FRED;10/14 12:11ET vendor quotes; no new fire. Receipt→`reports/2026-10-14_noon-boot-perspective.md`; same-bank credit/earnings/funding is the question. Mid-session BAC Q3 chargeoffs down/reserve release weigh against broad acceleration;regional CRE not cleared. Miami model INFO_ONLY;source limits retained. WQ-419 accepted (`9451933aa`/`c7f945a95`),peer reads unverified;WQ-414 accepted `1b937462e`. FHLB→`research/FHLB/README.md`. No score,cohort,frozen-frame or trade change.
+**As of:** **2026-10-14 bank/ETF tape;STATUS pin `947f48210`.** Delayed trades12:37–40ET:KRE−0.61%,KBWB−1.87%;regionals14/14 down,median−1.23%;BAC/MS weakest large names,JPMgreen. Report→`reports/2026-10-14_bank-and-ETF-intraday-comparison.md`,KB227. No credit attribution/new fire;settled/FRED through10/13 retained. Earlier noon/WALTER004–006 source limits persist. WQ-419 accepted(`9451933aa`/`c7f945a95`),peer reads unverified;WQ-414 accepted`1b937462e`. FHLB→`research/FHLB/README.md`. No score,frame or trade change.
 
 ## CROSS-DOMAIN
 
@@ -113,4 +113,4 @@
 
 *Final closeout/reboot fold,2026-10-14: last write-back follows STATUS commit `2903e7de4`; dated market/source and existing Q3 duties preserved. Earlier final-fold statements are historical. No external notification or peer consumption claimed.*
 
-*Final noon fold,2026-10-14: last write-back follows STATUS commit `69bd0ad84`,including mid-sessionWALTER004/006 dispositions. SevenOK/knownCFG alert,dark-pool NO DATA. Research/quarterly gaps retained;no new trade/external send. Earlier folds historical.*
+*Final tape fold,2026-10-14:last write-back follows STATUS commit `947f48210`;30-instrument snapshot/KB227 saved. Earlier noon/WALTER004–006 checks remain dated history. Delayed quotes do not grade settled guards;existing Q3 duties unchanged. No new trade/external send.*
