@@ -1,5 +1,8 @@
 # SELL-OR-ROLL CARD — QQQ $740P Oct-15-2026 ×3; $745P CLOSED — expire THURSDAY 10/15
 
+**Current state [MGMT-QQQ745P-OCT15]:** CLOSED — remaining contract sold October12.
+**Current state [MGMT-QQQ740P-OCT15]:** CONDITIONAL — three remain in October14 receipt; no roll approved.
+
 > **Current disposition — October14 receipt:** QQQ740P sell-to-close1 FILLED at$6.71 (limit$6.65Day), net$670.32. Remaining3/basis$1,591.99. Prior4/basis$2,122.65 implies removed$530.66 and DERIVED realized+$139.66, conditional on no unseen basis adjustment. Snapshot value$2,511 is a displayed last, not brokerbid/forward realizable risk. If exercised without offsetting QQQ shares, remaining3 sell300QQQ at$740=$222,000; account handling UNKNOWN. Exact source copy `research/2026-10-14_broker-receipt-source.json`; fill/capture times UNKNOWN, no execution grade. No roll/new approval inferred. Original timing remains proposed; subsequent dated sections are historical quantities/marks, not current instructions.
 
 > **Historical disposition — 2026-10-13 19:09 EDT:** MGMT-QQQ745P-OCT15 remaining×1 SOLD CLOSE October12 net$393.34 − basis$283.66 = +$109.68. Full cohort+$431.33 includes earlier+$321.65, never add both. MGMT-QQQ740P-OCT15 ×4 still present in October13 receipt; its prior Wednesday/Thursday times are proposals, not adopted deadlines. No new quote refresh or roll linkage. Source October13 transcription§4. Prior dated sections below remain history.

@@ -1,0 +1,17 @@
+{
+  "before_bytes": 24127,
+  "after_bytes": 22498,
+  "body_bytes": 1780,
+  "body_crc32": "5a06a5b9",
+  "body_equal_verified": true,
+  "archive_sha256": "2aae0f6a8f55ae7a21f43ac3278a54bab86f15894fb4b65dfba6e30f03b3f3d7",
+  "before_sha256": "c8f269a7ddad1dbee5cc2d30ff6383bdf5bc3a3eaa15c44b37f3c7709ab8f1cf",
+  "after_sha256": "000dc34cde04565272d11e846592dbcf113e7c9307eef17d893a7b40c91d6059",
+  "contiguous_markers": [
+    "> \u26d4 **SUPERSEDED 2026-09-24 \u2014 `GATE-TERRY-007` TERMINATED `MOOT \u21d2 NO-V",
+    "> ## \u2605 CURRENT STATE \u2014 2026-10-09 Fri 13:4x ET \u00b7 PROME spawn (prome-75"
+  ],
+  "final_status_bytes": 22501,
+  "final_status_sha256": "4f47144159bc1401b196080730b29bcff92603b60bdd11700f1b49af8172cbd3",
+  "crc_reverified_after_state_write": true
+}

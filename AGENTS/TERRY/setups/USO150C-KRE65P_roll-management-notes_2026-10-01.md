@@ -1,5 +1,8 @@
 # MANAGEMENT NOTES — USO $150C Oct-09-2026 ×2 · KRE $65P Dec-31-2026 ×2 (Fidelity IRA) — Will's 9/30 rolls
 
+**Current state [MGMT-USO150C-OCT09]:** CLOSED — October9 closing sale booked.
+**Current state [MGMT-KRE65P-DEC31]:** CONDITIONAL — held-line management only; December31 sell-or-roll rail unchanged, no new order.
+
 **Date:** 2026-10-01 Thu, written 11:11 ET (live reads `date` 11:09:14–11:09:58). **Spawn:** PROME `prome-2a`, Tier 1 (packet `inbox/processed/2026-09-30_from-PROME_sep30-lines-were-ROLLED-not-expired_fills-and-card-asks.md`, ask 3).
 **Ids:** `MGMT-USO150C-OCT09` · `MGMT-KRE65P-DEC31` (management notes; no SETUPS rows).
 **Terry verdict:** 🟡 **RECORDED — Will's own hand (root rule #5); sell-or-roll rails set, no action owed today.** These notes record the lines and their rails; they do not re-litigate the rolls.

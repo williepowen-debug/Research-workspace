@@ -48,6 +48,9 @@ CONVENTIONS THIS ENCODES (they are load-bearing — see --explain)
   * TRADE_BOOK.md is a dated ledger: only the LAST row naming a setup_id is a state claim.
   * States are matched CASE-SENSITIVELY. A lowercase "conditional" is prose, not a claim.
   * Hyphenated compounds are different nouns: GATE-CLOSED is not a CLOSED card.
+  * A current state is a declaration prefix; trailing narrative cannot donate state.
+  * MGMT identity fields participate in A/D/F. Shared cards declare Current state [ID]
+    separately for each ID. Check C's narrative comparison remains TRY-card-only.
 
 NEVER silence a finding by widening COMPATIBLE — that is relaxing a guard to make it pass,
 the move root rule #6's break test forbids. Either the surfaces disagree (fix them) or the
@@ -68,6 +71,7 @@ import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
+from inbox_paths import packet_paths
 
 # ---------------------------------------------------------------- surfaces
 
@@ -123,10 +127,8 @@ STATES: list[tuple[str, str]] = [
     # disagreeing with itself. `(?!-)` clears it while 005's own cells still parse
     # ("DEAD —" em-dash, "DEAD (terminal)", "DEAD / TERMINAL"). This is the same
     # hyphenated-compound class this block already warns about for GATE-CLOSED.
-    # 🔴 KNOWN, NOT FIXED: the general case is CROSS-CARD LEAKAGE — any cell that
-    #    discusses another card can donate that card's state word here, and priority
-    #    order then lets the most TERMINAL word win regardless of whose it is. It is
-    #    pre-existing and broader than DEAD; recorded rather than papered over.
+    # Current-state prefixes now delimit attribution; foreign state words in
+    # trailing narrative are not candidates. Keep the vocabulary/guards unchanged.
     (r"(?<!-)\bDEAD\b(?!-)", "DEAD"),
     (r"(?<!-)\bCLOSED\b", "CLOSED"),
     # 🔴 DELIBERATELY *NOT* ADDED: SUPERSEDED / EXPIRED / PENDING / APPROVED / PROPOSED /
@@ -200,7 +202,7 @@ CORRECTION_MARKERS = re.compile(
     re.IGNORECASE,
 )
 
-SETUP_ID_RE = re.compile(r"\bTRY-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
+SETUP_ID_RE = re.compile(r"\b(?:TRY|MGMT)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
 
 
 # ---------------------------------------------------------------- helpers
@@ -227,8 +229,18 @@ def state_of(cell: str) -> str | None:
     describing history, and reading a state out of it inverts the card's actual verdict.
     """
     clean = strip_history(cell)
+    # Only current declaration prefixes carry state. Narrative about another
+    # position must never donate a terminal token. Two explicit axes (||) retain
+    # the existing priority/compatibility semantics.
+    candidates = []
+    for axis in clean.split("||"):
+        head = re.split(r"[—;\n]", axis, maxsplit=1)[0]
+        part = re.sub(r"^[^A-Za-z0-9]+", "", head.strip())
+        part = re.sub(r"^now\s+", "", part)
+        part = re.sub(r"^EXECUTED-EARLY\s*/\s*", "", part)
+        candidates.append(part)
     for pattern, token in STATES:
-        if re.search(pattern, clean):
+        if any(re.match(pattern, part) for part in candidates):
             return token
     return None
 
@@ -281,6 +293,27 @@ def cards_from_text(name: str, text: str) -> tuple[str | None, str | None]:
         if v:
             return sid, v.group(1).strip()
     return sid, None
+
+
+def management_states(text: str) -> dict[str, str]:
+    """Current state per explicitly identified MGMT card; never infer from prose.
+
+    A shared card must declare each ID separately. Single-ID cards may keep the
+    existing first Terry-verdict convention. Missing declarations fail check F.
+    """
+    header = text.split("\n## ", 1)[0]
+    ids = set()
+    for match in re.finditer(r"\*\*(?:Ids?|Card ID):\*\*([^\n]*)", header):
+        prefix = re.match(r"\s*((?:`?MGMT-[A-Z0-9-]+`?(?:\s*\(×\d+\))?\s*(?:[·,]\s*)?)+)", match[1])
+        if prefix:
+            ids.update(SETUP_ID_RE.findall(prefix[1]))
+    explicit = {}
+    for match in re.finditer(r"^\*\*Current state \[(MGMT-[A-Z0-9-]+)\]:\*\*\s*([^\n]*)", header, re.M):
+        explicit.setdefault(match[1], match[2].strip())
+    ids.update(explicit)
+    _, verdict = cards_from_text("", text)
+    return {sid: explicit.get(sid) or (verdict if len(ids) == 1 else None)
+            or "MISSING_CURRENT_STATE" for sid in sorted(ids)}
 
 
 def setups_tsv_states(text: str) -> dict[str, str]:
@@ -419,6 +452,12 @@ def check_read_sanity(claims: dict[str, dict[str, str]]) -> list[str]:
                 f"         column or a changed table shape will do it. Do NOT read the rest of\n"
                 f"         this report as clean until it is resolved."
             )
+    for sid, surfaces in claims.items():
+        if sid.startswith("MGMT-") and "INDEX.md" in surfaces and not any(
+                surface.startswith("card(") for surface in surfaces):
+            findings.append(f"MANAGEMENT CARD NOT PARSED  {sid}\n"
+                            "      INDEX names this ID, but no card supplies its current declaration.\n"
+                            "      -> check the card identity and current-state fields.")
     return findings
 
 
@@ -445,6 +484,7 @@ def declared_verdict(text: str) -> tuple[str | None, str | None]:
         raw = m.group(0)
         # "moved CONDITIONAL -> NO AT THIS PRICE": only what follows the LAST arrow is current.
         tail = re.split(r"->|→", raw)[-1]
+        tail = re.sub(r"^(?:\*\*)?VERDICT\s*[:—-]\s*|^verdict\s+(?:moves?|moved|UNCHANGED|stays?|holds?)\s*", "", tail, flags=re.I)
         st = state_of(tail)
         if st:
             last = (st, raw.strip())
@@ -623,7 +663,7 @@ def check_unparseable_claims(claims: dict[str, dict[str, str]]) -> list[str]:
             findings.append(
                 f"UNREADABLE STATE CLAIM  {sid}  on {surface}: the cell has text but matches no "
                 f"known state, so it contributes NOTHING to check A and its agreement is UNVERIFIED "
-                f"(not confirmed).\n      -> add the word to STATES, or fix the extractor's column. "
+                f"(not confirmed).\n      -> declare this ID's current state with the existing vocabulary, or fix the extractor. "
                 f"cell={body[:90]!r}"
             )
     return findings
@@ -932,6 +972,8 @@ def gather_live():
         if sid and verdict:
             add(sid, f"card({card.name})", verdict)
             cards[sid] = (card.name, verdict, body)
+        for management_id, cell in management_states(body).items():
+            add(management_id, f"card({card.name})", cell)
 
     for sid, cell in setups_tsv_states(read(SETUPS_TSV)).items():
         add(sid, "SETUPS.tsv", cell)
@@ -984,12 +1026,7 @@ def open_inbox_packets() -> list[tuple[str, str, int | None]]:
         return []
     out: list[tuple[str, str, int | None]] = []
     today = datetime.now().date()
-    for f in sorted(INBOX.rglob("*.md")):
-        parts = f.relative_to(INBOX).parts
-        if "processed" in parts or (parts and parts[0] == "WILL"):
-            continue
-        if f.name.upper() in {"README.MD"}:
-            continue
+    for f in packet_paths(INBOX):
         try:
             iso = subprocess.run(
                 ["git", "log", "--diff-filter=A", "--format=%cI", "-1", "--", str(f)],
@@ -1070,6 +1107,41 @@ def selftest() -> int:
        state_of("🟢 **CLEAN ON TERRY'S AXIS** — the pricing condition that made it "
                 "conditional is discharged; it was staged and is now filled") == "CLEAN")
     ok("no state claim -> None", state_of("thesis owner BRENT, see packet") is None)
+    ok("foreign terminal state cannot close a conditional card",
+       state_of("CONDITIONAL — MGMT-TLT82P-OCT16 CLOSED; TBT remains") == "CONDITIONAL")
+    ok("foreign DEAD mention cannot retire a clean card",
+       state_of("CLEAN / details: TRY-OTHER is DEAD") == "CLEAN")
+    ok("foreign terminal prose cannot mask a real mismatch",
+       len(check_state_agreement({"TRY-X": {"card": "CONDITIONAL — TRY-Y CLOSED",
+                                            "INDEX.md": "CLOSED"}})) == 1)
+    ok("unsupported leading prose fails unreadable check instead of borrowing a state",
+       len(check_unparseable_claims({"TRY-X": {"INDEX.md": "see TRY-Y CLOSED"}})) == 1)
+    ok("explicit construction/lifecycle axes retain their original priority",
+       state_of("CLEAN || FIRED / LIVE") == "FIRED")
+    _multi = ("**Ids:** `MGMT-A` (×1) · `MGMT-B` (×3). Prose mentions `MGMT-OTHER`.\n"
+              "**Current state [MGMT-A]:** CLOSED — sold\n"
+              "**Current state [MGMT-B]:** CONDITIONAL — remains\n"
+              "**Terry verdict:** CONDITIONAL — MGMT-A CLOSED\n")
+    ok("combined management card keeps distinct states and excludes prose identities",
+       management_states(_multi) == {"MGMT-A": "CLOSED — sold", "MGMT-B": "CONDITIONAL — remains"})
+    ok("missing per-ID declaration on shared management card is a finding",
+       len(check_unparseable_claims({sid: {"card": cell} for sid, cell in
+           management_states(_multi.replace("**Current state [MGMT-B]:** CONDITIONAL — remains\n", "")).items()})) == 1)
+    ok("single management identity excludes foreign IDs in parenthetical explanations",
+       management_states("**Id:** `MGMT-A` (distinct from MGMT-B).\n**Terry verdict:** CLOSED\n") == {"MGMT-A": "CLOSED"})
+    ok("inline Card ID dialect participates in state comparison",
+       management_states("**Date:** old · **Card ID:** `MGMT-A`\n**Terry verdict:** CLOSED\n") == {"MGMT-A": "CLOSED"})
+    ok("first explicit management state wins over later dated declarations",
+       management_states("**Id:** MGMT-A\n**Current state [MGMT-A]:** CLOSED\n"
+                         "**Current state [MGMT-A]:** CONDITIONAL\n") == {"MGMT-A": "CLOSED"})
+    ok("management closure versus current conditional registry is detected",
+       len(check_state_agreement({"MGMT-A": {"card": "CLOSED", "INDEX.md": "CONDITIONAL"}})) == 1)
+    ok("a registered management identity without a parsed card is not silently omitted",
+       any("MGMT-A" in finding for finding in check_read_sanity({"MGMT-A": {"INDEX.md": "CLOSED"}})))
+    ok("management INDEX and last trade-book row are both read",
+       index_md_states("| **MGMT-A** | CLOSED | x |") == {"MGMT-A": "CLOSED"}
+       and trade_book_states("| old | MGMT-A | Will | CONDITIONAL | x | CONDITIONAL | `a.md` |\n"
+                             "| new | MGMT-A | Will | CLOSED | x | CLOSED | `a.md` |") == {"MGMT-A": "CLOSED"})
 
     # --- check A catches the real 7/30 defect
     injected = {"TRY-X": {
@@ -1311,7 +1383,8 @@ def selftest() -> int:
     # A false positive on WILL/ or processed/ would train the reader to ignore the line,
     # which is the only way an advisory guard dies.
     import tempfile as _tf
-    _d = Path(_tf.mkdtemp())
+    _d = Path(_tf.mkdtemp()) / "inbox"
+    _d.mkdir()
     (_d / "processed").mkdir()
     (_d / "WALTER" / "processed").mkdir(parents=True)
     (_d / "WILL").mkdir()
@@ -1321,15 +1394,34 @@ def selftest() -> int:
     (_d / "WALTER" / "processed" / "done.md").write_text("x")  # must NOT
     (_d / "WILL" / "raw_drop.md").write_text("x")            # must NOT — Will's own lane
     (_d / "README.md").write_text("x")                       # must NOT
+    (_d / ".gitkeep").write_text("x")
+    (_d / "readme.md").write_text("x")
+    (_d / "open_receipt.json").write_text("{}")
+    (_d / "WALTER" / "attachment.txt").write_text("x")
+    (_d / "processed" / "done.json").write_text("{}")
+    (_d / "WILL" / "raw_receipt.json").write_text("{}")
     _save_inbox, _save_terry = INBOX, TERRY
     try:
         globals()["INBOX"], globals()["TERRY"] = _d, _d.parent
         _got = {r.split("/")[-1] for r, _, _ in open_inbox_packets()}
         _lab = [w for _, w, _ in open_inbox_packets()]
+        import boot as _boot
+        _save_boot_terry = _boot.TERRY_DIR
+        try:
+            _boot.TERRY_DIR = _d.parent
+            _boot_paths = set(_boot.unprocessed_inbox())
+        finally:
+            _boot.TERRY_DIR = _save_boot_terry
+        _closeout_paths = {r.removeprefix("inbox/") for r, _, _ in open_inbox_packets()}
     finally:
         globals()["INBOX"], globals()["TERRY"] = _save_inbox, _save_terry
     ok("I: fires on an open packet at top level AND in inbox/<AGENT>/",
-       _got == {"open_top.md", "open_sub.md"})
+       _got == {"open_top.md", "open_sub.md", "open_receipt.json", "attachment.txt"})
+    ok("I: JSON and attachments are visible at both boot and closeout",
+       _boot_paths == _closeout_paths and "open_receipt.json" in _boot_paths
+       and "WALTER/attachment.txt" in _boot_paths)
+    ok("I: processed and WILL JSON receipts remain excluded",
+       "done.json" not in _got and "raw_receipt.json" not in _got)
     ok("I: NO FP on processed/ — at either level (this is the whole point of the lane)",
        "done.md" not in _got)
     ok("I: NO FP on inbox/WILL/ — Will's raw drop zone is not an agent packet lane",

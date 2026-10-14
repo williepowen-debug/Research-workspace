@@ -67,7 +67,7 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 - [ ] Gate state checked (monoline Jul-21) · [ ] Live marks < 15 min · [ ] Green/red OK
 - [ ] Liquidity OK (esp. WAL Jan-27 spread) · [ ] Max loss ≤ budget · [ ] Position truth known (Sep WAL overlap)
 
-**Terry verdict:** CLEAN / CONDITIONAL / NO TRADE
+**Terry verdict:** STAGED — dormant pre-build, no entry authorized. Historical template choices: CLEAN / CONDITIONAL / NO TRADE.
 **Decision:**  [ ] APPROVE   [ ] REJECT   [ ] REWORK: ____
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

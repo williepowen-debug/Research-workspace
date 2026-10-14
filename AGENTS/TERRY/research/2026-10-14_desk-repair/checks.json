@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "check": "ledger-selftest",
+      "exit_code": 0,
+      "output": "ledger-selftest.txt",
+      "pass_assertions": 101
+    },
+    {
+      "check": "boot-selftest",
+      "exit_code": 0,
+      "output": "boot-selftest.txt",
+      "pass_assertions": 0
+    },
+    {
+      "check": "read-cap",
+      "exit_code": 0,
+      "output": "read-cap.txt",
+      "pass_assertions": 0
+    },
+    {
+      "check": "named-corrections",
+      "exit_code": 0,
+      "output": "named-corrections.txt",
+      "pass_assertions": 0
+    },
+    {
+      "check": "weekday",
+      "exit_code": 0,
+      "output": "weekday.txt",
+      "pass_assertions": 0
+    }
+  ],
+  "file_sha256": {
+    "AGENTS/TERRY/scripts/ledger_sweep.py": "3595061c883a0ccfa024649c79068788f55d46afc26800f8b40c340d5c62c3b1",
+    "AGENTS/TERRY/scripts/boot.py": "0ca840c346680554075be40165edc6c5e26494967147b949885ca1bf320d049c",
+    "AGENTS/TERRY/scripts/inbox_paths.py": "1f1bb43e8d0dd2f0e5720b9b20e843b46bf95f4664cd58be24f066c3dbbcb812"
+  },
+  "proof": {
+    "foreign_terminal_mismatch_findings": {
+      "baseline": 0,
+      "patched": 1
+    },
+    "live_inbox_files": {
+      "baseline": [],
+      "patched": [
+        "inbox/2026-10-14_from-PROME_QQQ-filled-exits.json"
+      ]
+    },
+    "management_ids": {
+      "baseline": 0,
+      "patched": 17
+    },
+    "STATES_unchanged": true,
+    "COMPATIBLE_unchanged": true
+  }
+}

@@ -16,6 +16,7 @@ import subprocess
 import sys
 from datetime import date, datetime
 from pathlib import Path
+from inbox_paths import packet_paths
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
 TERRY_DIR = SCRIPTS_DIR.parent
@@ -219,18 +220,7 @@ def unprocessed_inbox():
     which is precisely the defect LIQUID was found to have the same morning.
     """
     root = TERRY_DIR / "inbox"
-    if not root.exists():
-        return []
-    skip = {".gitkeep", "README.md"}
-    out = []
-    for p in sorted(root.rglob("*")):
-        if not p.is_file() or p.name in skip:
-            continue
-        rel = p.relative_to(root)
-        if "processed" in rel.parts or rel.parts[0] == "WILL":
-            continue          # WILL has its own dedicated block below
-        out.append(str(rel))
-    return out
+    return [str(path.relative_to(root)) for path in packet_paths(root)]
 
 
 def inbox_report():

@@ -50,7 +50,7 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 - [ ] Name selected on cleanest un-mask + liquid chain · [ ] Under-reaction exists (not chasing a completed gap)
 - [ ] Live marks < 15 min · [ ] Green/red OK · [ ] Liquidity OK · [ ] Max loss ≤ $500 · [ ] Position truth confirmed
 
-**Terry verdict:** CLEAN / CONDITIONAL / NO TRADE
+**Terry verdict:** STAGED — dormant pre-build, no entry authorized. Historical template choices: CLEAN / CONDITIONAL / NO TRADE.
 **Decision:**  [ ] APPROVE   [ ] REJECT   [ ] REWORK: ____
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
