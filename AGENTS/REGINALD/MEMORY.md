@@ -20,7 +20,7 @@
 ## Session Notes
 
 ### LAST SESSION — 2026-10-13 evening, direct-Will WAL reconciliation / Codex
-**Focused WAL pass:** `reports/2026-10-13_WAL_rate-funding-reconciliation.md`, source receipt and PROME/WAL packets. Fresh issuer ramp NII+3.2% versus broader EaR+0.8%; ECR costs explain why NII is not overall earnings. Q2 shock/EVE recheck, measured duration/current hedge allocation and Q3 optimization economics remain incomplete. At the existing print read all funding costs and AOCI/equity together; pricing edge unproved. No frame/prior/position change; outside WALTER cache defers push, live consumption unverified.
+**Focused WAL pass:** `reports/2026-10-13_WAL_rate-funding-reconciliation.md`, receipt and PROME/WAL packets. NII and broader EaR differ. WAL03e60dc0e supplied original Q2 filing: directly checked June model, hedges, headroom and common-equity flows; no source disagreement. Effective duration/model bases and Q3 remix/marks/pricing edge remain unknown. Existing Oct19/20 read resolves actuals; no frame/prior/position change. WALTER cache defers push; new integration consumption unverified.
 *Preceding October13 bridge preserved verbatim → `archive/MEMORY_securities-review_snapshot_2026-10-13.md`, crc32 `c8ce7f21`. Earlier expectations/outcome obligations survive. Re-check at any append.*
 
 ### PRIOR OWNER WINDOW — 2026-10-12/13, direct Will; CLOSED

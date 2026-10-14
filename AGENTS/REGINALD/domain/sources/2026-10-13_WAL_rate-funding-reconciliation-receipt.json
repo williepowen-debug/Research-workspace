@@ -12,7 +12,7 @@
     "cwd": "/home/willi/Research-workspace/AGENTS/REGINALD",
     "root_and_local_instructions": "Explicit root AGENTS/CLAUDE and desk boot contract recovered; no local AGENTS.md present; continuing existing session"
   },
-  "verification_scope": "Selected primary tables/slides and preserved Q1 sections, not full new 10Q read. No fresh Call Report pull.",
+  "verification_scope": "Updated after WAL supplement: direct original Q2 section/table inspection plus release/deck; not full filing review. No new Call Report pull.",
   "sources": [
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026049001/walq22026earningspresent.htm",
@@ -71,8 +71,8 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026051418/wal-20260630.htm",
-      "verification": "Fresh primary access INCOMPLETE: SEC HTML/query/submission403 and web size>4MB. Shock/EVE/beta assumptions remain owner-sourced at September28 report",
-      "owner_sourced_not_freshly_verified": {
+      "verification": "CLOSED by direct inspection of original Q2 HTML supplied by WAL after this desk retrieval failed. Initial failure history remains below.",
+      "verified_values": {
         "shock_up100_NII_pct": 5.9,
         "shock_up100_EVE_pct": -4.4,
         "NII_deposit_beta_average_pct": 53,
@@ -155,6 +155,32 @@
       "verification": "Existing owner primary-verified October6 earnings notice, reused not newly retrieved",
       "next_release": "2026-10-19 after market close",
       "next_call": "2026-10-20 12:00 ET"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026051418/wal-20260630.htm",
+      "raw_path": "AGENTS/WAL/sources/q2_2026/wal-20260630.htm",
+      "sha256": "63f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f",
+      "values_m": {
+        "AFS_MBS_fv": 9078,
+        "AFS_hedged_amortized_cost": 3482,
+        "AFS_cumulative_hedge_adjustment": -73,
+        "all_designated_interest_rate_notional": 5706,
+        "Q2_AFS_swap_gain": 33.0,
+        "Q2_AFS_hedged_item_loss": -31.9,
+        "FHLB_capacity": 14006,
+        "FHLB_advances": 5800,
+        "FHLB_letters_credit": 1869,
+        "FHLB_available": 6337,
+        "FRB_undrawn": 18362,
+        "warehouse_uncommitted_undrawn": 2050,
+        "reported_liquid_assets": 23100,
+        "Q2_grants": 13.1,
+        "Q2_stock_withholding": 0.5,
+        "Q2_OCI": 4.3,
+        "parent_AOCI": -451.2,
+        "HTM_gross_cost": 1676,
+        "HTM_fv": 1497
+      }
     }
   ],
   "arithmetic": {
@@ -168,7 +194,13 @@
     "incomplete_equity_bridge_residual": 18.700000000000017,
     "parent_AFS_existing_gap": 667,
     "HTM_net_carry_gap": 165,
-    "HTM_gross_cost_gap_on_rounded_inputs": 178.79999999999995
+    "HTM_gross_cost_gap_on_rounded_inputs": 178.79999999999995,
+    "common_equity_flow_complete": 227.2,
+    "FHLB_headroom": 6337,
+    "AFS_fv_total": 18880,
+    "parent_AFS_hedged_cost_share_pct": 17.81347521358776,
+    "HTM_gross_cost_gap_verified": 179,
+    "rounded_TCE_bridge": 6906.2
   },
   "diagnostic_not_forecast": {
     "assumed_duration_years": [
@@ -185,12 +217,11 @@
     "NO_NETTING": "Do not net this spot mark with NII/EaR annual percentages or EVE. Measured Q2 duration and current hedge coverage unverified."
   },
   "gaps": [
-    "Q2 shock/EVE fresh primary recheck incomplete",
-    "Q2/Q3 measured securities duration and hedge allocation",
-    "Q3 ECR pricing/beta, optimization balance and retained assets, replacement cost",
-    "Q3 usable liquidity/headroom after collateral/haircuts",
-    "matched parent capital bridge/RWA actuals",
-    "current comparable consensus and pricing edge"
+    "Effective securities duration, full hedge/tenor/key-rate schedules and proprietary model dollar bases unavailable",
+    "Q3 hedge-adjusted marks, ECR repricing and optimization/replacement economics await disclosure",
+    "matched parent actual Q3 capital/RWA bridge",
+    "current comparable consensus/pricing edge",
+    "June reciprocal-total vs named-program subtotal unexplained"
   ],
   "retrieval_limits": [
     "SEC HTML,query variant,complete submission403",
@@ -223,12 +254,51 @@
       }
     ],
     "native_notification": "UNVERIFIED/unavailable target mapping",
-    "recipient_consumption": "UNVERIFIED"
+    "recipient_consumption": "UNVERIFIED",
+    "WAL_prior_source_packet_consumption": "WAL packet at03e60dc0e explicitly states the REGINALD report and source-scope packet were read before its research. Not acknowledgment of this new integration."
   },
   "closeout": {
     "checks": "JSON/arithmetic/KB15-column+uniqueID/STATUSlinecap/read-cap/weekday/diff whitespace PASS. MEMORY prior bridge archived verbatim and CRC recomputed; size<70% budget.",
     "inbox": "Only new task packet is current assignment; previous WALTER001/002/035 already dispositioned. Remaining older inbox dependencies retained.",
     "consciously_skipped": "No broker/price/gate change; positions, deck, specialist frames and thesis versions unchanged.",
     "git": "Own exact paths plus self-authored receiver packets under root carveout1; WALTER cache defers pull/push."
-  }
+  },
+  "source_supplement": {
+    "owner_packet_commit": "03e60dc0e",
+    "read_report": "AGENTS/WAL/research/2026-10-13_securities-hedges-rate-model-reconciliation.md",
+    "original_raw_path": "AGENTS/WAL/sources/q2_2026/wal-20260630.htm",
+    "raw_sha256": "63f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f",
+    "raw_bytes": 6664360,
+    "verification": "REGINALD directly inspected original Q2 tables20,68-70,137-138, equitytable16, Item3 beta/hedge text and liquidityp86; relevant sections only",
+    "disagreement": "NONE on material source cells; hedge cost share is not DV01 coverage; do not add liquidity pools",
+    "NOT_independent_retrieval": "WAL downloaded one source; REGINALD directly checked that original, not a blind independently sourced confirmation",
+    "remaining_disclosure_limits": [
+      "Effective securities duration not obtained in reviewed Q2 sections/full-text duration scan",
+      "net hedge-adjusted September exposure and Q3 funding remix",
+      "proprietary forward NII/EVE dollar bases",
+      "reciprocal total vs named-program subtotal",
+      "pricing edge"
+    ],
+    "validation": "Raw source identity/hash, selected original tables/text, common-equity flow, AFS sum and FHLB headroom PASS; rounded TCE residual within source precision.",
+    "integration_delivery": [
+      {
+        "path": "PROME/inbox/2026-10-13_from-REGINALD_WAL-primary-supplement-integrated.md",
+        "sha256": "e655c83592d6af3a715604b959aadaff928ef3a5bcac4855ea7deb57d74f8376",
+        "recipient_consumption": "UNVERIFIED"
+      },
+      {
+        "path": "AGENTS/WAL/inbox/2026-10-13_from-REGINALD_primary-supplement-integrated.md",
+        "sha256": "e655c83592d6af3a715604b959aadaff928ef3a5bcac4855ea7deb57d74f8376",
+        "recipient_consumption": "UNVERIFIED"
+      }
+    ]
+  },
+  "initial_gaps_history": [
+    "Q2 shock/EVE fresh primary recheck incomplete",
+    "Q2/Q3 measured securities duration and hedge allocation",
+    "Q3 ECR pricing/beta, optimization balance and retained assets, replacement cost",
+    "Q3 usable liquidity/headroom after collateral/haircuts",
+    "matched parent capital bridge/RWA actuals",
+    "current comparable consensus and pricing edge"
+  ]
 }
