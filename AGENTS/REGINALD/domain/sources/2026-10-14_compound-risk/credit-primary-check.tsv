@@ -1,0 +1,225 @@
+ticker	field	Call Date	Bank RSSD Identifier	MDRM #	Value	Last Update	Short Definition	Call Schedule	Line Number
+OZK	nonaccrual_total_k	20260630	107244	RCON1403	300416	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	acl_k	20260630	107244	RCON3123	461534	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+OZK	oreo_total_k	20260630	107244	RCON2150	288135	20260730	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+OZK	bal_con_k	20260630	107244	RCONF158	2219044	20260730	1-4 family residential construction loans	RCCI	1a1
+OZK	bal_con_k	20260630	107244	RCONF159	4723556	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+OZK	bal_mf_k	20260630	107244	RCON1460	2545389	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+OZK	bal_noo_k	20260630	107244	RCONF161	7800989	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+OZK	na_con_k	20260630	107244	RCONF176	130	20260730	1-4 family residential construction loans	RCN	1a1
+OZK	na_con_k	20260630	107244	RCONF177	44649	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+OZK	na_mf_k	20260630	107244	RCON3501	25	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+OZK	na_oo_k	20260630	107244	RCONF182	241	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+OZK	na_noo_k	20260630	107244	RCONF183	186148	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+OZK	pd90_con_k	20260630	107244	RCONF174	0	20260730	1-4 family residential construction loans	RCN	1a1
+OZK	pd90_con_k	20260630	107244	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+OZK	pd90_mf_k	20260630	107244	RCON3500	0	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+OZK	pd90_noo_k	20260630	107244	RCONF181	0	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+WAL	nonaccrual_total_k	20260630	3138146	RCON1403	564365	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	acl_k	20260630	3138146	RCON3123	487385	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+WAL	oreo_total_k	20260630	3138146	RCON2150	126086	20260730	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+WAL	bal_con_k	20260630	3138146	RCONF158	1398315	20260730	1-4 family residential construction loans	RCCI	1a1
+WAL	bal_con_k	20260630	3138146	RCONF159	2686272	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+WAL	bal_mf_k	20260630	3138146	RCON1460	648717	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+WAL	bal_noo_k	20260630	3138146	RCONF161	9583071	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+WAL	na_con_k	20260630	3138146	RCONF176	0	20260730	1-4 family residential construction loans	RCN	1a1
+WAL	na_con_k	20260630	3138146	RCONF177	108748	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+WAL	na_mf_k	20260630	3138146	RCON3501	0	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+WAL	na_oo_k	20260630	3138146	RCONF182	1133	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+WAL	na_noo_k	20260630	3138146	RCONF183	279021	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+WAL	pd90_con_k	20260630	3138146	RCONF174	0	20260730	1-4 family residential construction loans	RCN	1a1
+WAL	pd90_con_k	20260630	3138146	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+WAL	pd90_mf_k	20260630	3138146	RCON3500	0	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+WAL	pd90_noo_k	20260630	3138146	RCONF181	0	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+EGBN	nonaccrual_total_k	20260630	2652092	RCON1403	136915	20260902	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	acl_k	20260630	2652092	RCON3123	121141	20260902	LESS: Allowance for credit losses on loans and leases	RCRII	6
+EGBN	oreo_total_k	20260630	2652092	RCON2150	1966	20260902	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+EGBN	bal_con_k	20260630	2652092	RCONF158	55639	20260902	1-4 family residential construction loans	RCCI	1a1
+EGBN	bal_con_k	20260630	2652092	RCONF159	868394	20260902	Other construction loans and all land development and other land loans	RCCI	1a2
+EGBN	bal_mf_k	20260630	2652092	RCON1460	806432	20260902	Secured by multifamily (5 or more) residential properties	RCCI	1d
+EGBN	bal_noo_k	20260630	2652092	RCONF161	1657635	20260902	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+EGBN	na_con_k	20260630	2652092	RCONF176	690	20260902	1-4 family residential construction loans	RCN	1a1
+EGBN	na_con_k	20260630	2652092	RCONF177	18224	20260902	Other construction loans and all land development and other land loans	RCN	1a2
+EGBN	na_mf_k	20260630	2652092	RCON3501	35891	20260902	Secured by multifamily (5 or more) residential properties	RCN	1d
+EGBN	na_oo_k	20260630	2652092	RCONF182	5372	20260902	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+EGBN	na_noo_k	20260630	2652092	RCONF183	42136	20260902	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+EGBN	pd90_con_k	20260630	2652092	RCONF174	0	20260902	1-4 family residential construction loans	RCN	1a1
+EGBN	pd90_con_k	20260630	2652092	RCONF175	0	20260902	Other construction loans and all land development and other land loans	RCN	1a2
+EGBN	pd90_mf_k	20260630	2652092	RCON3500	0	20260902	Secured by multifamily (5 or more) residential properties	RCN	1d
+EGBN	pd90_noo_k	20260630	2652092	RCONF181	0	20260902	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+ZION	nonaccrual_total_k	20260630	276579	RCON1403	292385	20260729	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	acl_k	20260630	276579	RCON3123	662241	20260729	LESS: Allowance for credit losses on loans and leases	RCRII	6
+ZION	oreo_total_k	20260630	276579	RCON2150	5704	20260729	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+ZION	bal_con_k	20260630	276579	RCONF158	1186295	20260729	1-4 family residential construction loans	RCCI	1a1
+ZION	bal_con_k	20260630	276579	RCONF159	2036545	20260729	Other construction loans and all land development and other land loans	RCCI	1a2
+ZION	bal_mf_k	20260630	276579	RCON1460	3561743	20260729	Secured by multifamily (5 or more) residential properties	RCCI	1d
+ZION	bal_noo_k	20260630	276579	RCONF161	8264913	20260729	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+ZION	na_con_k	20260630	276579	RCONF176	0	20260729	1-4 family residential construction loans	RCN	1a1
+ZION	na_con_k	20260630	276579	RCONF177	214	20260729	Other construction loans and all land development and other land loans	RCN	1a2
+ZION	na_mf_k	20260630	276579	RCON3501	403	20260729	Secured by multifamily (5 or more) residential properties	RCN	1d
+ZION	na_oo_k	20260630	276579	RCONF182	43335	20260729	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+ZION	na_noo_k	20260630	276579	RCONF183	33670	20260729	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+ZION	pd90_con_k	20260630	276579	RCONF174	0	20260729	1-4 family residential construction loans	RCN	1a1
+ZION	pd90_con_k	20260630	276579	RCONF175	0	20260729	Other construction loans and all land development and other land loans	RCN	1a2
+ZION	pd90_mf_k	20260630	276579	RCON3500	0	20260729	Secured by multifamily (5 or more) residential properties	RCN	1d
+ZION	pd90_noo_k	20260630	276579	RCONF181	0	20260729	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+SSB	nonaccrual_total_k	20260630	1929247	RCON1403	270615	20260820	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	acl_k	20260630	1929247	RCON3123	586664	20260820	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SSB	oreo_total_k	20260630	1929247	RCON2150	12396	20260820	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+SSB	bal_con_k	20260630	1929247	RCONF158	633531	20260820	1-4 family residential construction loans	RCCI	1a1
+SSB	bal_con_k	20260630	1929247	RCONF159	2294538	20260820	Other construction loans and all land development and other land loans	RCCI	1a2
+SSB	bal_mf_k	20260630	1929247	RCON1460	2717088	20260820	Secured by multifamily (5 or more) residential properties	RCCI	1d
+SSB	bal_noo_k	20260630	1929247	RCONF161	14773400	20260820	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+SSB	na_con_k	20260630	1929247	RCONF176	4054	20260820	1-4 family residential construction loans	RCN	1a1
+SSB	na_con_k	20260630	1929247	RCONF177	1747	20260820	Other construction loans and all land development and other land loans	RCN	1a2
+SSB	na_mf_k	20260630	1929247	RCON3501	24549	20260820	Secured by multifamily (5 or more) residential properties	RCN	1d
+SSB	na_oo_k	20260630	1929247	RCONF182	41519	20260820	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+SSB	na_noo_k	20260630	1929247	RCONF183	18018	20260820	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+SSB	pd90_con_k	20260630	1929247	RCONF174	0	20260820	1-4 family residential construction loans	RCN	1a1
+SSB	pd90_con_k	20260630	1929247	RCONF175	108	20260820	Other construction loans and all land development and other land loans	RCN	1a2
+SSB	pd90_mf_k	20260630	1929247	RCON3500	0	20260820	Secured by multifamily (5 or more) residential properties	RCN	1d
+SSB	pd90_noo_k	20260630	1929247	RCONF181	0	20260820	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+CFG	nonaccrual_total_k	20260630	3303298	RCFD1403	1435342	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	acl_k	20260630	3303298	RCFD3123	1969005	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CFG	oreo_total_k	20260630	3303298	RCFD2150	17132	20260730	Total (sum of items 3.a through 3.g) (must equal Schedule RC, item 7)	RCM	3g
+CFG	bal_con_k	20260630	3303298	RCONF158	746157	20260730	1-4 family residential construction loans	RCCI	1a1
+CFG	bal_con_k	20260630	3303298	RCONF159	3999797	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+CFG	bal_mf_k	20260630	3303298	RCON1460	8035594	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+CFG	bal_noo_k	20260630	3303298	RCONF161	10166073	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+CFG	na_con_k	20260630	3303298	RCONF176	0	20260730	1-4 family residential construction loans	RCN	1a1
+CFG	na_con_k	20260630	3303298	RCONF177	72987	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+CFG	na_mf_k	20260630	3303298	RCON3501	169039	20260730	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+CFG	na_oo_k	20260630	3303298	RCONF182	39087	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+CFG	na_noo_k	20260630	3303298	RCONF183	330981	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+CFG	pd90_con_k	20260630	3303298	RCONF174	0	20260730	1-4 family residential construction loans	RCN	1a1
+CFG	pd90_con_k	20260630	3303298	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+CFG	pd90_mf_k	20260630	3303298	RCON3500	1341	20260730	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+CFG	pd90_noo_k	20260630	3303298	RCONF181	4339	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+BKU	nonaccrual_total_k	20260630	3938186	RCON1403	227825	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	acl_k	20260630	3938186	RCON3123	217516	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+BKU	oreo_total_k	20260630	3938186	RCON2150	1495	20260730	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+BKU	bal_con_k	20260630	3938186	RCONF158	0	20260730	1-4 family residential construction loans	RCCI	1a1
+BKU	bal_con_k	20260630	3938186	RCONF159	612658	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+BKU	bal_mf_k	20260630	3938186	RCON1460	1136195	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+BKU	bal_noo_k	20260630	3938186	RCONF161	5126536	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+BKU	na_con_k	20260630	3938186	RCONF176	0	20260730	1-4 family residential construction loans	RCN	1a1
+BKU	na_con_k	20260630	3938186	RCONF177	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+BKU	na_mf_k	20260630	3938186	RCON3501	3900	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+BKU	na_oo_k	20260630	3938186	RCONF182	13501	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+BKU	na_noo_k	20260630	3938186	RCONF183	36256	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+BKU	pd90_con_k	20260630	3938186	RCONF174	0	20260730	1-4 family residential construction loans	RCN	1a1
+BKU	pd90_con_k	20260630	3938186	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+BKU	pd90_mf_k	20260630	3938186	RCON3500	0	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+BKU	pd90_noo_k	20260630	3938186	RCONF181	0	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+SBCF	nonaccrual_total_k	20260630	34537	RCON1403	86540	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	acl_k	20260630	34537	RCON3123	182050	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SBCF	oreo_total_k	20260630	34537	RCON2150	3473	20260730	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+SBCF	bal_con_k	20260630	34537	RCONF158	101349	20260730	1-4 family residential construction loans	RCCI	1a1
+SBCF	bal_con_k	20260630	34537	RCONF159	756817	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+SBCF	bal_mf_k	20260630	34537	RCON1460	481134	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+SBCF	bal_noo_k	20260630	34537	RCONF161	3611473	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+SBCF	na_con_k	20260630	34537	RCONF176	1161	20260730	1-4 family residential construction loans	RCN	1a1
+SBCF	na_con_k	20260630	34537	RCONF177	979	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+SBCF	na_mf_k	20260630	34537	RCON3501	505	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+SBCF	na_oo_k	20260630	34537	RCONF182	22158	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+SBCF	na_noo_k	20260630	34537	RCONF183	15258	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+SBCF	pd90_con_k	20260630	34537	RCONF174	0	20260730	1-4 family residential construction loans	RCN	1a1
+SBCF	pd90_con_k	20260630	34537	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+SBCF	pd90_mf_k	20260630	34537	RCON3500	0	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+SBCF	pd90_noo_k	20260630	34537	RCONF181	0	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+AMTB	nonaccrual_total_k	20260630	83638	RCFD1403	168838	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	acl_k	20260630	83638	RCFD3123	85499	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+AMTB	oreo_total_k	20260630	83638	RCFD2150	15542	20260730	Total (sum of items 3.a through 3.g) (must equal Schedule RC, item 7)	RCM	3g
+AMTB	bal_con_k	20260630	83638	RCONF158	61643	20260730	1-4 family residential construction loans	RCCI	1a1
+AMTB	bal_con_k	20260630	83638	RCONF159	474268	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+AMTB	bal_mf_k	20260630	83638	RCON1460	256838	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+AMTB	bal_noo_k	20260630	83638	RCONF161	1590258	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+AMTB	na_con_k	20260630	83638	RCONF176	0	20260730	1-4 family residential construction loans	RCN	1a1
+AMTB	na_con_k	20260630	83638	RCONF177	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+AMTB	na_mf_k	20260630	83638	RCON3501	429	20260730	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+AMTB	na_oo_k	20260630	83638	RCONF182	40506	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+AMTB	na_noo_k	20260630	83638	RCONF183	9386	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+AMTB	pd90_con_k	20260630	83638	RCONF174	0	20260730	1-4 family residential construction loans	RCN	1a1
+AMTB	pd90_con_k	20260630	83638	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+AMTB	pd90_mf_k	20260630	83638	RCON3500	0	20260730	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+AMTB	pd90_noo_k	20260630	83638	RCONF181	0	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+FLG	nonaccrual_total_k	20260630	694904	RCFD1403	2987555	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	acl_k	20260630	694904	RCFD3123	869000	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+FLG	oreo_total_k	20260630	694904	RCFD2150	3198	20260730	Total (sum of items 3.a through 3.g) (must equal Schedule RC, item 7)	RCM	3g
+FLG	bal_con_k	20260630	694904	RCONF158	611053	20260730	1-4 family residential construction loans	RCCI	1a1
+FLG	bal_con_k	20260630	694904	RCONF159	758941	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+FLG	bal_mf_k	20260630	694904	RCON1460	26921613	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+FLG	bal_noo_k	20260630	694904	RCONF161	4470995	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+FLG	na_con_k	20260630	694904	RCONF176	23337	20260730	1-4 family residential construction loans	RCN	1a1
+FLG	na_con_k	20260630	694904	RCONF177	96482	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+FLG	na_mf_k	20260630	694904	RCON3501	2131916	20260730	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+FLG	na_oo_k	20260630	694904	RCONF182	35450	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+FLG	na_noo_k	20260630	694904	RCONF183	316589	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+FLG	pd90_con_k	20260630	694904	RCONF174	4500	20260730	1-4 family residential construction loans	RCN	1a1
+FLG	pd90_con_k	20260630	694904	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+FLG	pd90_mf_k	20260630	694904	RCON3500	37941	20260730	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+FLG	pd90_noo_k	20260630	694904	RCONF181	8603	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+MTB	nonaccrual_total_k	20260630	501105	RCFD1403	1207000	20260728	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	acl_k	20260630	501105	RCFD3123	2175000	20260728	LESS: Allowance for credit losses on loans and leases	RCRII	6
+MTB	oreo_total_k	20260630	501105	RCFD2150	16000	20260728	Total (sum of items 3.a through 3.g) (must equal Schedule RC, item 7)	RCM	3g
+MTB	bal_con_k	20260630	501105	RCONF158	265000	20260728	1-4 family residential construction loans	RCCI	1a1
+MTB	bal_con_k	20260630	501105	RCONF159	3086000	20260728	Other construction loans and all land development and other land loans	RCCI	1a2
+MTB	bal_mf_k	20260630	501105	RCON1460	7115000	20260728	Secured by multifamily (5 or more) residential properties	RCCI	1d
+MTB	bal_noo_k	20260630	501105	RCONF161	13643000	20260728	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+MTB	na_con_k	20260630	501105	RCONF176	2000	20260728	1-4 family residential construction loans	RCN	1a1
+MTB	na_con_k	20260630	501105	RCONF177	36000	20260728	Other construction loans and all land development and other land loans	RCN	1a2
+MTB	na_mf_k	20260630	501105	RCON3501	25000	20260728	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+MTB	na_oo_k	20260630	501105	RCONF182	110000	20260728	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+MTB	na_noo_k	20260630	501105	RCONF183	191000	20260728	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+MTB	pd90_con_k	20260630	501105	RCONF174	0	20260728	1-4 family residential construction loans	RCN	1a1
+MTB	pd90_con_k	20260630	501105	RCONF175	0	20260728	Other construction loans and all land development and other land loans	RCN	1a2
+MTB	pd90_mf_k	20260630	501105	RCON3500	1000	20260728	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+MTB	pd90_noo_k	20260630	501105	RCONF181	1000	20260728	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+HBAN	nonaccrual_total_k	20260630	12311	RCFD1403	1588963	20260821	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	acl_k	20260630	12311	RCFD3123	3248583	20260821	LESS: Allowance for credit losses on loans and leases	RCRII	6
+HBAN	oreo_total_k	20260630	12311	RCFD2150	22621	20260821	Total (sum of items 3.a through 3.g) (must equal Schedule RC, item 7)	RCM	3g
+HBAN	bal_con_k	20260630	12311	RCONF158	1637102	20260821	1-4 family residential construction loans	RCCI	1a1
+HBAN	bal_con_k	20260630	12311	RCONF159	3684657	20260821	Other construction loans and all land development and other land loans	RCCI	1a2
+HBAN	bal_mf_k	20260630	12311	RCON1460	4884216	20260821	Secured by multifamily (5 or more) residential properties	RCCI	1d
+HBAN	bal_noo_k	20260630	12311	RCONF161	14395325	20260821	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+HBAN	na_con_k	20260630	12311	RCONF176	3090	20260821	1-4 family residential construction loans	RCN	1a1
+HBAN	na_con_k	20260630	12311	RCONF177	24585	20260821	Other construction loans and all land development and other land loans	RCN	1a2
+HBAN	na_mf_k	20260630	12311	RCON3501	21697	20260821	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+HBAN	na_oo_k	20260630	12311	RCONF182	133059	20260821	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+HBAN	na_noo_k	20260630	12311	RCONF183	181157	20260821	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+HBAN	pd90_con_k	20260630	12311	RCONF174	3013	20260821	1-4 family residential construction loans	RCN	1a1
+HBAN	pd90_con_k	20260630	12311	RCONF175	290	20260821	Other construction loans and all land development and other land loans	RCN	1a2
+HBAN	pd90_mf_k	20260630	12311	RCON3500	0	20260821	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+HBAN	pd90_noo_k	20260630	12311	RCONF181	0	20260821	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+VLY	nonaccrual_total_k	20260630	229801	RCFD1403	462629	20260729	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	acl_k	20260630	229801	RCFD3123	590072	20260729	LESS: Allowance for credit losses on loans and leases	RCRII	6
+VLY	oreo_total_k	20260630	229801	RCFD2150	4126	20260729	Total (sum of items 3.a through 3.g) (must equal Schedule RC, item 7)	RCM	3g
+VLY	bal_con_k	20260630	229801	RCONF158	347895	20260729	1-4 family residential construction loans	RCCI	1a1
+VLY	bal_con_k	20260630	229801	RCONF159	2135964	20260729	Other construction loans and all land development and other land loans	RCCI	1a2
+VLY	bal_mf_k	20260630	229801	RCON1460	9034186	20260729	Secured by multifamily (5 or more) residential properties	RCCI	1d
+VLY	bal_noo_k	20260630	229801	RCONF161	11146663	20260729	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+VLY	na_con_k	20260630	229801	RCONF176	389	20260729	1-4 family residential construction loans	RCN	1a1
+VLY	na_con_k	20260630	229801	RCONF177	8750	20260729	Other construction loans and all land development and other land loans	RCN	1a2
+VLY	na_mf_k	20260630	229801	RCON3501	61550	20260729	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+VLY	na_oo_k	20260630	229801	RCONF182	24683	20260729	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+VLY	na_noo_k	20260630	229801	RCONF183	169848	20260729	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+VLY	pd90_con_k	20260630	229801	RCONF174	0	20260729	1-4 family residential construction loans	RCN	1a1
+VLY	pd90_con_k	20260630	229801	RCONF175	0	20260729	Other construction loans and all land development and other land loans	RCN	1a2
+VLY	pd90_mf_k	20260630	229801	RCON3500	5454	20260729	Secured by multifamily (5 or more) residential properties in domestic offices	RCN	1d
+VLY	pd90_noo_k	20260630	229801	RCONF181	0	20260729	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+CUBI	nonaccrual_total_k	20260630	2354985	RCON1403	56022	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	acl_k	20260630	2354985	RCON3123	164106	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CUBI	oreo_total_k	20260630	2354985	RCON2150	12568	20260730	Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7)	RCM	3f
+CUBI	bal_con_k	20260630	2354985	RCONF158	0	20260730	1-4 family residential construction loans	RCCI	1a1
+CUBI	bal_con_k	20260630	2354985	RCONF159	192836	20260730	Other construction loans and all land development and other land loans	RCCI	1a2
+CUBI	bal_mf_k	20260630	2354985	RCON1460	2660532	20260730	Secured by multifamily (5 or more) residential properties	RCCI	1d
+CUBI	bal_noo_k	20260630	2354985	RCONF161	1711491	20260730	Loans secured by other nonfarm nonresidential properties	RCCI	1e2
+CUBI	na_con_k	20260630	2354985	RCONF176	0	20260730	1-4 family residential construction loans	RCN	1a1
+CUBI	na_con_k	20260630	2354985	RCONF177	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+CUBI	na_mf_k	20260630	2354985	RCON3501	14205	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+CUBI	na_oo_k	20260630	2354985	RCONF182	3013	20260730	Loans secured by owner-occupied nonfarm nonresidential properties	RCN	1e1
+CUBI	na_noo_k	20260630	2354985	RCONF183	2093	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2
+CUBI	pd90_con_k	20260630	2354985	RCONF174	0	20260730	1-4 family residential construction loans	RCN	1a1
+CUBI	pd90_con_k	20260630	2354985	RCONF175	0	20260730	Other construction loans and all land development and other land loans	RCN	1a2
+CUBI	pd90_mf_k	20260630	2354985	RCON3500	0	20260730	Secured by multifamily (5 or more) residential properties	RCN	1d
+CUBI	pd90_noo_k	20260630	2354985	RCONF181	0	20260730	Loans secured by other nonfarm nonresidential properties	RCN	1e2

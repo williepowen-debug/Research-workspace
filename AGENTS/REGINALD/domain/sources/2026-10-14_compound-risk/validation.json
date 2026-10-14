@@ -1,0 +1,100 @@
+{
+  "scope": "existing CRE ledger cross-checked against October13 fresh June FFIEC source files; no new network pull",
+  "banks": [
+    {
+      "ticker": "OZK",
+      "rssd": "107244",
+      "primary_cells_matched": 13,
+      "raw_sha256": "66ac3ac388cd7b6334d2a9edd7c47c0436a697118989727a8462efad412fdf1f"
+    },
+    {
+      "ticker": "WAL",
+      "rssd": "3138146",
+      "primary_cells_matched": 13,
+      "raw_sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb"
+    },
+    {
+      "ticker": "EGBN",
+      "rssd": "2652092",
+      "primary_cells_matched": 13,
+      "raw_sha256": "2b4a941f68e290b750e98c5f543c6a8412917acdeec8a1f07bae3a40ad102a7a"
+    },
+    {
+      "ticker": "ZION",
+      "rssd": "276579",
+      "primary_cells_matched": 13,
+      "raw_sha256": "5418792a7b827b8a3b2ef5f6589701cbce492db7abe39758c7c283aaad1050d6"
+    },
+    {
+      "ticker": "SSB",
+      "rssd": "1929247",
+      "primary_cells_matched": 13,
+      "raw_sha256": "4c97d979ee3de8cbe35dafbffdf57a1243bcd9524aa98c7c147f3c7498e09ba9"
+    },
+    {
+      "ticker": "CFG",
+      "rssd": "3303298",
+      "primary_cells_matched": 13,
+      "raw_sha256": "bde384b2e990326cc069a216fc24e0b143ddca64353fb8d877a1091b8068d817"
+    },
+    {
+      "ticker": "BKU",
+      "rssd": "3938186",
+      "primary_cells_matched": 13,
+      "raw_sha256": "1efb4d22f362a1670a57125639d3367d46b02f43a4a16aaf0412c3a62e0e143e"
+    },
+    {
+      "ticker": "SBCF",
+      "rssd": "34537",
+      "primary_cells_matched": 13,
+      "raw_sha256": "82b3895db3d1e872185973bae44d901a19ded04ec310c88bc81bb033e072da66"
+    },
+    {
+      "ticker": "AMTB",
+      "rssd": "83638",
+      "primary_cells_matched": 13,
+      "raw_sha256": "8574ba8f1ba16b72cb54f75bddefe95eb5b19d6f634479ef1586970bebda06d8"
+    },
+    {
+      "ticker": "FLG",
+      "rssd": "694904",
+      "primary_cells_matched": 13,
+      "raw_sha256": "466db13809ffa5762a701a6b49cf032409de3b965381970ab1c8344e9b15b239"
+    },
+    {
+      "ticker": "MTB",
+      "rssd": "501105",
+      "primary_cells_matched": 13,
+      "raw_sha256": "74c9d31e2a1212bbae4e49e79ebb215184873f4aeb114e2b888f217e7dca35fa"
+    },
+    {
+      "ticker": "HBAN",
+      "rssd": "12311",
+      "primary_cells_matched": 13,
+      "raw_sha256": "dcc520913f27d0187c5c4ec7d4616dcbeee5e6587859286fbdb7370c76215a18"
+    },
+    {
+      "ticker": "VLY",
+      "rssd": "229801",
+      "primary_cells_matched": 13,
+      "raw_sha256": "19c15228bc487fd9a97ac1a158d2d46aeaf6b130bf86450b07c375a86ac4646e"
+    },
+    {
+      "ticker": "CUBI",
+      "rssd": "2354985",
+      "primary_cells_matched": 13,
+      "raw_sha256": "8e049f35ccfc84b79ca337c9e508c5481d0615a1139a3b7ff6dc5869185de50f"
+    }
+  ],
+  "cell_checks": 182,
+  "status": "PASS",
+  "join_ratios_recomputed": 14,
+  "board_new_rows_checked": 8,
+  "board_existing_duplicate": "SIG-W-20260426-009 has two historical rows; retained, not new duplicate",
+  "memory_archive_crc_recomputed": [
+    "5286dff8",
+    "17f5de16"
+  ],
+  "continuity_caps_checked": true,
+  "skip_reason": "No prices/gates/thesis/positions changed; CALENDAR/POSITIONS/DECK/SCRATCH and frozen predicates intentionally untouched; next Q3 outcome obligations retained. Pull prohibited by outside dirty work; safe-push attempted at closeout without pull."
+}

@@ -1,0 +1,68 @@
+{
+  "primary_sources": [
+    {
+      "id": "ATHENE_Q2_NOTE17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/R21.htm",
+      "locator": "June30,2026; Note17 Purchase Obligation Guarantee",
+      "scope": "Fresh web body read; selected note only; full filing not independently reviewed"
+    },
+    {
+      "id": "COURTS_2026",
+      "url": "https://www.uscourts.gov/sites/default/files/document/bf_f2_0630.2026.pdf",
+      "locator": "TableF-2 p1 national total: business26941;12monthsJune30,2026",
+      "scope": "Fresh PDF text and screenshot tool retrieval; national rows/definitions reviewed"
+    },
+    {
+      "id": "COURTS_2025",
+      "url": "https://www.uscourts.gov/sites/default/files/document/bf_f2_0630.2025.pdf",
+      "locator": "TableF-2 p1 national total: business23043;12monthsJune30,2025",
+      "scope": "Fresh PDF text and screenshot tool retrieval; national rows/definitions reviewed"
+    },
+    {
+      "id": "FHFA_SYSTEM",
+      "url": "https://www.fhfa.gov/about/federal-home-loan-bank-system",
+      "locator": "About advances/collateral",
+      "scope": "Fresh web body read; mechanism, not current bank liquidity"
+    },
+    {
+      "id": "FED_FUNDING",
+      "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm",
+      "locator": "Insurer nontraditional liabilities and Box4.1 PrivateCredit",
+      "scope": "Fresh targeted primary sections; underlying vintages earlier thanOctober"
+    },
+    {
+      "id": "BOE_PENSIONS",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2023/2023/financial-stability-buy-sell-tools-a-gilt-market-case-study",
+      "locator": "2023 case study of2022 LDI/gilt forced sales",
+      "scope": "Fresh primary body; historical mechanism, not current US pension evidence"
+    },
+    {
+      "id": "DOE_202_26_50",
+      "url": "https://www.energy.gov/documents/doe-order-no-202-26-50",
+      "locator": "Order emergencyconditions/directive/duration;October12,effectiveOctober13\u201316",
+      "scope": "Fresh primaryPDF selected terms;not independent operational deployment verification"
+    },
+    {
+      "id": "PJM_OCT13",
+      "url": "https://insidelines.pjm.com/operations-update-extends-maximum-generation-alert-calls-on-demand-response/",
+      "locator": "October13 update;issuedauthority,demandresponse,backuputilization",
+      "scope": "Fresh primaryweb body"
+    }
+  ],
+  "secondary_leads_not_upgraded": [
+    "Volta underwriting/Apollo order",
+    "unidentified AI CDS/covenant screenshots",
+    "Chilean pension swaps teaser",
+    "Picklr bank/lease mapping"
+  ],
+  "reuse": [
+    "October13 FFIEC originals and issuer10Qs",
+    "September26 CRE ledger, checked182 cells against original June FFIEC files",
+    "August20 NDFI ledger",
+    "SHADE October12 gap investigation",
+    "BROCK October9 frozen bankQ3 frame",
+    "VULCAN October9 and WATT October12 statuses",
+    "WAL October14 informational packet"
+  ],
+  "recorded_at_utc": "2026-10-14T04:26:48Z"
+}

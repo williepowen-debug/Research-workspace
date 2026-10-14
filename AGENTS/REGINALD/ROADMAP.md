@@ -75,6 +75,8 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
+**10/14 compound-risk integration completed (Will-directed):** `reports/2026-10-14_compound-bank-risk-synthesis.md`; same-bank overlaps, insurer/AI contingent obligation and bankruptcy primary verification; unknown loss-holder joins retained. Append §8 outcomes at existing Q3 reads; no standing monitor or trade.
+
 **10/13 approved securities/funding screen completed:** `reports/2026-10-13_bounded-securities-funding-screen.md`;28 fresh CRs,14 matched bank GAAP-equity rows,11 duration disclosures. Conditional scale tested; national95 count and trade edge unproved. Existing Q3 outcomes remain the test, no specialist/monitor launch.
 
 **10/13 review response completed:** `reports/2026-10-13_review-response_forward-judgments.md`; analytical expectations plus four-bank earnings/book and conditional valuation bridge.16 primary numeric cores checked,5 VLY fresh-source gaps exposed; metadata/locator repair only. No new monitoring/scoring/trade rail.

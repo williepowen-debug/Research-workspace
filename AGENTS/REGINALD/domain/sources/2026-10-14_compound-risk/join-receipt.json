@@ -1,0 +1,35 @@
+{
+  "built_on": "2026-10-14",
+  "scope": "one-time existing14-bank synthesis; no new Call Report pull",
+  "bank_as_of": "2026-06-30",
+  "inputs": [
+    {
+      "path": "domain/sources/2026-10-13_bounded-securities-screen/screen.tsv",
+      "sha256": "b8bffa38f5122dce17095c91d007b74b0d3b475adb9142bfb1f4ae74acc9d6e1"
+    },
+    {
+      "path": "workbook/CRE_RCN_COHORT.tsv",
+      "sha256": "2647eeedac3232fe38fed3e22012e39730ec260173f894785ead51c566500f85"
+    },
+    {
+      "path": "workbook/NDFI_COHORT.tsv",
+      "sha256": "4c9633f35daa10f966e31d1aeb3508868779767025290284e6a14b360c3266e0"
+    }
+  ],
+  "checks": {
+    "matched_rssd_rows": 14,
+    "noncre_residual_nonnegative": true,
+    "equity_positive": true
+  },
+  "bankruptcy": {
+    "business_cases_12m_June2026": 26941,
+    "business_cases_12m_June2025": 23043,
+    "yoy_pct": 16.916200147550242,
+    "basis": "cases with predominantly business debt, NOT small-business-only or unique firms"
+  },
+  "limits": [
+    "existing credit artifacts reused, not independently repulled",
+    "No joint loss forecast, current capital adequacy, or valuation edge established",
+    "Owner records read only; no peer launch or external send"
+  ]
+}
