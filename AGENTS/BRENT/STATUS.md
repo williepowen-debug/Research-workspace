@@ -4,6 +4,8 @@
 
 **Current judgment:** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
 
+**Attention review 2026-10-14 12:33 EDT:** existing USO expiry first, original-VLO basis/acceptance next, current shipping/fuel transmission and October15 evidence preparation. Three new WALTER packets consumed: MPA indexed primary reports GFS Pride sunk/Giselle damaged; BLS September gasoline+9.1%MoM. No oil-volume/census/phase/holding grade. [Focus and source limits](research/2026-10-14_boot-omr/TODAY-FOCUS.md).
+
 **Call reflection:** favorable dated marked return; final realized outcome unverified. Tactical payoff analysis needs clearer separation from long-horizon WAIT. [Review](research/2026-10-14_boot-omr/CALL-REFLECTION.md). No new mark or rule.
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
