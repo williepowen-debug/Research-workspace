@@ -1,0 +1,20 @@
+{
+  "STATUS": {
+    "path": "AGENTS/LIQUID/archive/status_snapshots/STATUS_before-2026-10-14-credit-funding.md",
+    "bytes": 28800,
+    "sha256": "f0620ed3b6763dad3d81ea6613051f99b013a51b2f8d8034ace382486caf6aab",
+    "crc32": "9b218a5a"
+  },
+  "MEMORY": {
+    "path": "AGENTS/LIQUID/archive/MEMORY_before-2026-10-14-credit-funding.md",
+    "bytes": 89111,
+    "sha256": "74b26995e811a1a725a9e3b9d72ec86a57bc9e737ae1f96532980508687acd0c",
+    "crc32": "5d549595"
+  },
+  "CALENDAR": {
+    "path": "AGENTS/LIQUID/archive/CALENDAR_before-2026-10-14-credit-funding.md",
+    "bytes": 37012,
+    "sha256": "1e596a0d4c9783ea94ad62fbd86e5a57e2db309ac1ca6d0bf0df88c8e8764b5b",
+    "crc32": "5b745de3"
+  }
+}

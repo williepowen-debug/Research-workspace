@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-14T18:10:26.073142+00:00",
+  "checks": {
+    "boot_selftest": "PASS",
+    "claim_weekday": "6 supplied canonical/owned files clean",
+    "corrections": "0 named rows unreceipted",
+    "read_cap": "STATUS22695B below22785 stop, rotation_due0; heuristic coverage only",
+    "archive_integrity": "3 complete originals SHA256/CRC matched",
+    "calendar": "retained forward table exactly matches archived original",
+    "vintage": "8 series returned complete comparison rows, no differences observed August20-October13",
+    "ETF": "issuer row differences independently recalculated +31.8M HYG / -9.6M JNK",
+    "gates": "5 registered gate rows retained",
+    "withheld": "swap-line tool and registered letters not edited or operationally run",
+    "consumer_scans": "HY315->316 and CCC1252->1267 cross-desk/self scanned; no certified-stale hits; own candidates are dated historical rows, not current state",
+    "git_scope": "other REGINALD changes staged concurrently; use explicit pathspecs, never unstage/sweep them"
+  },
+  "ledger_nudge": {
+    "result": "4 ledger files unchanged",
+    "reason": "GATE079 calendar has no new excluded date; LIQ07 branch not resolvable yet and LIQ04 Kernel-pinned; no catalyst added/resolved; no new structural KB claim. Preserve all frozen letters and prediction probabilities."
+  },
+  "owner_return_recovery": "REGINALD October14 WAL2027 earnings-path report also read before closeout. ~$11 earnings is mathematically plausible; revenue-to-common-income/cost-control bridge unverified. No actual sudden deposit-pricing break established; no duplicated owner study.",
+  "notification": "cross-runtime recipient presence/transport UNKNOWN. Durable packets saved; no receipt claimed."
+}

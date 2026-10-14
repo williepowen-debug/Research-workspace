@@ -1,0 +1,96 @@
+{
+  "source": "https://www.ssga.com/library-content/products/fund-data/etfs/us/navhist-us-en-jnk.xlsx",
+  "retrieved_at": "2026-10-14T17:59:26.768859+00:00",
+  "rows": [
+    {
+      "date": "2026-09-23",
+      "NAV": 94.003778,
+      "shares_outstanding": 72074605,
+      "net_assets": 6775285143.8
+    },
+    {
+      "date": "2026-09-24",
+      "NAV": 93.688403,
+      "shares_outstanding": 71274605,
+      "net_assets": 6677603899.94
+    },
+    {
+      "date": "2026-09-25",
+      "NAV": 93.545906,
+      "shares_outstanding": 71874605,
+      "net_assets": 6723575052.04
+    },
+    {
+      "date": "2026-09-28",
+      "NAV": 93.068318,
+      "shares_outstanding": 71474605,
+      "net_assets": 6652021240.37
+    },
+    {
+      "date": "2026-09-29",
+      "NAV": 92.910418,
+      "shares_outstanding": 71074605,
+      "net_assets": 6603571258.6
+    },
+    {
+      "date": "2026-09-30",
+      "NAV": 92.825078,
+      "shares_outstanding": 70074605,
+      "net_assets": 6504680672.89
+    },
+    {
+      "date": "2026-10-01",
+      "NAV": 92.151415,
+      "shares_outstanding": 67474605,
+      "net_assets": 6217880295.23
+    },
+    {
+      "date": "2026-10-02",
+      "NAV": 92.432793,
+      "shares_outstanding": 67074605,
+      "net_assets": 6199893055.08
+    },
+    {
+      "date": "2026-10-05",
+      "NAV": 92.370969,
+      "shares_outstanding": 63674605,
+      "net_assets": 5881684939.24
+    },
+    {
+      "date": "2026-10-06",
+      "NAV": 92.775511,
+      "shares_outstanding": 62874605,
+      "net_assets": 5833223591.14
+    },
+    {
+      "date": "2026-10-07",
+      "NAV": 92.655049,
+      "shares_outstanding": 63274605,
+      "net_assets": 5862711609.98
+    },
+    {
+      "date": "2026-10-08",
+      "NAV": 92.576576,
+      "shares_outstanding": 63074605,
+      "net_assets": 5839230985.76
+    },
+    {
+      "date": "2026-10-09",
+      "NAV": 92.662943,
+      "shares_outstanding": 61474605,
+      "net_assets": 5696417803.5
+    },
+    {
+      "date": "2026-10-12",
+      "NAV": 92.683443,
+      "shares_outstanding": 61674605,
+      "net_assets": 5716214752.78
+    },
+    {
+      "date": "2026-10-13",
+      "NAV": 92.529211,
+      "shares_outstanding": 61674605,
+      "net_assets": 5706702547.58
+    }
+  ]
+}

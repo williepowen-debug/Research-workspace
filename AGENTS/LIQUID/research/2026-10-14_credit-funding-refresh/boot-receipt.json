@@ -1,0 +1,44 @@
+{
+  "desk": "LIQUID",
+  "runtime": "Codex",
+  "provider": "OpenAI",
+  "model": "GPT-6 family; exact variant UNKNOWN",
+  "session_id": "01a13b8c-ebf0-74c0-a1c3-5ae79550bd06",
+  "launch_cwd": "/home/willi/Research-workspace/AGENTS/LIQUID",
+  "repo_root": "/home/willi/Research-workspace",
+  "host": "DESKTOP-BC6EF81",
+  "recorded_at": "2026-10-14T18:03:11.916918+00:00",
+  "explicit_reads": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "USER.md",
+    "AGENTS/LIQUID/CLAUDE.md",
+    "PROME/COMPLETION_SPEC.md",
+    "PROME/ORCHESTRATION_PLAYBOOK.md#Runtime mechanics",
+    "AGENTS/LIQUID/IDENTITY.md",
+    "AGENTS/LIQUID/USER.md",
+    "AGENTS/LIQUID/STATUS.md",
+    "AGENTS/LIQUID/MEMORY.md#CURRENT SESSION and NEXT SESSION",
+    "AGENTS/LIQUID/CALENDAR.md",
+    "AGENTS/LIQUID/CLOSEOUT.md"
+  ],
+  "instruction_loading": "explicit reads; no inferred auto-loading",
+  "owner_preflight": {
+    "observed_at": "2026-10-14T17:55:05.604889+00:00",
+    "inventory_coverage": "visible sandbox PID namespace only; native cross-runtime discovery unavailable",
+    "inventory_result": "UNKNOWN across separate windows",
+    "resolution": "Will explicitly confirmed in this session: This is the only LIQUID writer; proceed",
+    "authority": "bounded own-desk writer clearance; no other owner launch"
+  },
+  "git_pull": "DEFERRED under root Before pulling: concurrent BRENT/TERRY/PROME dirty paths; no stash or pull",
+  "capabilities": {
+    "shell": "exec_command verified",
+    "web": "web.run verified",
+    "collaboration": "thread-local only; no verified transport to separate PROME/desk windows",
+    "fleet_messaging": "UNAVAILABLE",
+    "closeout": "scoped Git and safe-push available; recipient acknowledgment separate"
+  },
+  "approval_basis": "Will October14 research-wave assignment; existing LIQ-07 registered letter and approved instruments; no trades, new thresholds, agents or spending",
+  "withheld": "usd_swapline.py and letter not used or edited; SWPT not substituted as an operational grade",
+  "recipient_consumption": "UNVERIFIED"
+}

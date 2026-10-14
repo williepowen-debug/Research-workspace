@@ -1,0 +1,3 @@
+🟢 SOFR75-IORB  +4bps  [2026-10-13]   z -0.4 — ordinary for the current regime · regime tightening +5.0bp/yr (p50 of its own history)
+   regime median +5.5bp (trailing 250 non-q-end sessions), scale 3.7bp
+   regime drift  -1.0bp -> +4.0bp = +5.0bp/yr

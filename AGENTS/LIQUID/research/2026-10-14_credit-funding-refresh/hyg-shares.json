@@ -1,0 +1,98 @@
+{
+  "source": "https://www.blackrock.com/varnish-api/blk-one01-product-data/product-data/api/v1/get-fund-document?appType=PRODUCT_PAGE&appSubType=ISHARES&targetSite=us-ishares&locale=en_US&portfolioId=239565&component=fundDownload&userType=individual",
+  "retrieved_at": "2026-10-14T18:00:36.661666+00:00",
+  "raw_sha256": "250ca9ef3bf234595ff39536fc79e9b6507bd7f08de151652089c8c98b5452d3",
+  "parser": "lxml recover=True required by malformed disclaimer XML; Historical sheet dates/NAV/counts extracted without estimation",
+  "rows": [
+    {
+      "date": "2026-09-23",
+      "NAV": 78.04043,
+      "ex_dividend": "--",
+      "shares_outstanding": 198800000
+    },
+    {
+      "date": "2026-09-24",
+      "NAV": 77.818626,
+      "ex_dividend": "--",
+      "shares_outstanding": 197300000
+    },
+    {
+      "date": "2026-09-25",
+      "NAV": 77.675618,
+      "ex_dividend": "--",
+      "shares_outstanding": 202300000
+    },
+    {
+      "date": "2026-09-28",
+      "NAV": 77.256316,
+      "ex_dividend": "--",
+      "shares_outstanding": 206600000
+    },
+    {
+      "date": "2026-09-29",
+      "NAV": 77.200271,
+      "ex_dividend": "--",
+      "shares_outstanding": 214200000
+    },
+    {
+      "date": "2026-09-30",
+      "NAV": 77.179412,
+      "ex_dividend": "--",
+      "shares_outstanding": 217400000
+    },
+    {
+      "date": "2026-10-01",
+      "NAV": 76.667977,
+      "ex_dividend": "0.341639",
+      "shares_outstanding": 224000000
+    },
+    {
+      "date": "2026-10-02",
+      "NAV": 76.875492,
+      "ex_dividend": "--",
+      "shares_outstanding": 232300000
+    },
+    {
+      "date": "2026-10-05",
+      "NAV": 76.807139,
+      "ex_dividend": "--",
+      "shares_outstanding": 234300000
+    },
+    {
+      "date": "2026-10-06",
+      "NAV": 77.154425,
+      "ex_dividend": "--",
+      "shares_outstanding": 236500000
+    },
+    {
+      "date": "2026-10-07",
+      "NAV": 77.047499,
+      "ex_dividend": "--",
+      "shares_outstanding": 232200000
+    },
+    {
+      "date": "2026-10-08",
+      "NAV": 76.978797,
+      "ex_dividend": "--",
+      "shares_outstanding": 232100000
+    },
+    {
+      "date": "2026-10-09",
+      "NAV": 77.029527,
+      "ex_dividend": "--",
+      "shares_outstanding": 228300000
+    },
+    {
+      "date": "2026-10-12",
+      "NAV": 77.075603,
+      "ex_dividend": "--",
+      "shares_outstanding": 229100000
+    },
+    {
+      "date": "2026-10-13",
+      "NAV": 76.953206,
+      "ex_dividend": "--",
+      "shares_outstanding": 229100000
+    }
+  ]
+}
