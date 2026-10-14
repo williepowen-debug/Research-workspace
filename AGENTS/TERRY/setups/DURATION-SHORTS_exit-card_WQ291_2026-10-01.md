@@ -2,6 +2,8 @@
 
 > **Current disposition — 2026-10-13 19:09 EDT:** TLT82P sold October12 (net$400.34, incremental realized+$232.67); TBT sale net$210.40, quantity10→5 and removed basis$174.45 derived ⇒ +$35.95. No live TLT or ten-share TBT assertion; remaining TBT5 retains existing WQ357 October14 clock. No new management choice or re-mark. Source October13 transcription§4; same-account continuity inferred. Prior dated sections below remain history.
 
+> **Owner context consumed — October14 14:22 EDT:** BOND's committed surviving-TBT packet and `AGENTS/BOND/analysis/2026-10-14_post-CPI/REPORT.md` confirm TBT5/TLTclosed; prior operational kill MET, NO-ADD and existing WQ357 October14 decision clock unchanged. Initial CPI yield jump retraced by BOND's13:59EDT vendor cutoff; matched official October14 split pending. This is owner context, not a fresh gate, durable-rebound claim, quote for execution or new choice. Funding window remains UNGRADED; inventory does not prove warehousing. Later broker orders/dispositions and exact times UNKNOWN. Will's October14 continuation instruction authorizes existing evidence/bookkeeping only; no additional study or trade commissioned.
+
 
 **Date:** 2026-10-01 Thu, written from 16:25 ET (live reads 16:19:17–16:19:50 ET below). **Session:** TERRY interactive (Will in the window). **Trigger:** BOND packet `inbox/2026-10-01_from-BOND_WQ-291-kill-MET-exit-duration-shorts-card-ask.md` (spawn `prome-2f`, DOCKET L478 / WQ-291), relayed by PROME `prome-2f` ask 4.
 **Id:** `MGMT-DURSHORT-EXIT-WQ291` (exit card on held lines; no SETUPS row — ledger at 97.8% of its read budget, rotation owed by Mon 10/05).
