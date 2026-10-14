@@ -75,6 +75,8 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
+**10/13 approved securities/funding screen completed:** `reports/2026-10-13_bounded-securities-funding-screen.md`;28 fresh CRs,14 matched bank GAAP-equity rows,11 duration disclosures. Conditional scale tested; national95 count and trade edge unproved. Existing Q3 outcomes remain the test, no specialist/monitor launch.
+
 **10/13 review response completed:** `reports/2026-10-13_review-response_forward-judgments.md`; analytical expectations plus four-bank earnings/book and conditional valuation bridge.16 primary numeric cores checked,5 VLY fresh-source gaps exposed; metadata/locator repair only. No new monitoring/scoring/trade rail.
 
 **10/13 bounded research continuation completed:** `reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md` attaches decision-changing cash/loss/retained-risk and valuation questions to existing21 bridge rows; Q3 outcomes remain pending. Same-expense earnings/TBV sensitivities are diagnostics, not a revised loss forecast. VLY call-time source check recorded; no new universe, monitor, scoring rule or trade.

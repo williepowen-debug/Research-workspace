@@ -1,0 +1,166 @@
+{
+  "as_of": "2026-06-30",
+  "coverage": 14,
+  "checks": [
+    {
+      "ticker": "OZK",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "WAL",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "EGBN",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "ZION",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "SSB",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "CFG",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "BKU",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "SBCF",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "AMTB",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "FLG",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "MTB",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "HBAN",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "VLY",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    },
+    {
+      "ticker": "CUBI",
+      "accounting_identity_residual_k": 0.0,
+      "security_loss_identity": "AFS_cost-AFS_FV + HTM_cost-HTM_FV",
+      "missing_fields": [],
+      "prior_security_differences_k": {
+        "AFS_FV": 0.0,
+        "HTM_cost": 0.0
+      }
+    }
+  ],
+  "sensitivity": "unhedged fixed-book first-order scenarios, NOT estimates of actual net bank losses",
+  "tax": "25% usable tax benefit is assumption, pre-tax ratios primary",
+  "scope": "GAAP bank equity denominator, not CET1, common or holding-company equity",
+  "panel_names_verified": 14,
+  "call_reports_fresh": 28,
+  "issuer_10q_fresh": 13,
+  "security_duration_names": 11,
+  "duration_missing_names": [
+    "WAL",
+    "FLG",
+    "VLY"
+  ],
+  "frozen_prior_afs_fv_and_htm_cost_reproduce": true,
+  "additional_gross_60bp_D5_above20_count": 0,
+  "additional_gross_90bp_D5_above20_count": 0,
+  "national_count": "UNVERIFIED; no population inference",
+  "failures": [
+    "sandbox initial FFIEC/SEC/panel curl6 DNS failures; network-enabled retries succeeded"
+  ],
+  "ownership": "June snapshots/frozen scenarios unchanged; utilities are one-off methods, no boot wiring"
+}

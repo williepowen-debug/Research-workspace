@@ -1,5 +1,7 @@
 # Cohort AOCI Exposure — 14 banks, Q2-2026 Call Reports + Q3 rate scenario
 
+> **Interpretation qualification, October13 (new screen):** the original common-duration/CET1-scaled ordering below is a scenario ordering, not a measured ranking of net vulnerability. BankUnited’s June disclosed duration2.02 materially changes its interpretation; securities/assets does not determine securities/equity sensitivity. A CET1-scaled dollar loss also is not the same percentage change in parent TBV. Transferred-HTM losses can be insensitive to new GAAP marks while HTM economic value remains rate-sensitive. Original dated inputs and Q3 expectations remain unchanged. Current bounded comparison: `reports/2026-10-13_bounded-securities-funding-screen.md`.
+
 **Date:** 2026-09-24 (Thu). **Author:** REGINALD, Will-directed.
 **Source:** FFIEC CDR Call Reports (SDF, bank-level, not holdco), 6/30/26 with 3/31/26 and 6/30/25 comparatives, pulled 9/24. Treasury yields from FRED DGS2/5/10.
 **Codes:** B530 AOCI · 1772/1773 AFS amortized cost/fair value · 1754/1771 HTM · P859 CET1 · A223 RWA · P838 AOCI opt-out · P844/P846/P847/P848 RC-R 9a/9c/9d/9e AOCI adjustments.

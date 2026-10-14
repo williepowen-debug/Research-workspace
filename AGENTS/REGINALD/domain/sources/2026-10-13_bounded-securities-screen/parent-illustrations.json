@@ -1,0 +1,35 @@
+[
+  {
+    "ticker": "AMTB",
+    "afs_fv_k": 2549256,
+    "equity_k": 914369,
+    "duration": 4.7,
+    "source": "Q2 10-Q balance sheet p3, investment portfolio p99",
+    "scope": "parent AFS includes1486K more than bank; D overall investment portfolio applied conditionally to AFS",
+    "additional_gross_60bp_k": 71889.01920000001,
+    "additional_aftertax25_60bp_k": 53916.76440000001,
+    "aftertax25_pct_parent_equity": 5.896608962027366
+  },
+  {
+    "ticker": "SBCF",
+    "afs_fv_k": 5174602,
+    "equity_k": 2730805,
+    "duration": 5.2,
+    "source": "Q2 10-Q balance sheet p8, investment securities p50",
+    "scope": "parent shareholder equity excludes separately presented convertible preferred; fixed-book sensitivity only",
+    "additional_gross_60bp_k": 161447.5824,
+    "additional_aftertax25_60bp_k": 121085.68680000001,
+    "aftertax25_pct_parent_equity": 4.434065661956823
+  },
+  {
+    "ticker": "BKU",
+    "afs_fv_k": 9311862,
+    "equity_k": 3003405,
+    "duration": 2.02,
+    "source": "Q2 10-Q balance sheet p1, investment securities p41",
+    "scope": "parent shareholder equity; fixed-book sensitivity only",
+    "additional_gross_60bp_k": 112859.76744,
+    "additional_aftertax25_60bp_k": 84644.82558,
+    "aftertax25_pct_parent_equity": 2.818295420697509
+  }
+]

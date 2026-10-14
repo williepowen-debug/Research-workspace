@@ -1,0 +1,27 @@
+{
+  "method": "Decimal recomputation from primary-extract MDRMs, not from screen ratios",
+  "verified_banks": [
+    "OZK",
+    "WAL",
+    "EGBN",
+    "ZION",
+    "SSB",
+    "CFG",
+    "BKU",
+    "SBCF",
+    "AMTB",
+    "FLG",
+    "MTB",
+    "HBAN",
+    "VLY",
+    "CUBI"
+  ],
+  "parent_examples_verified": 3,
+  "zero_policy": "SOURCE-REPORTED; unknown duration stays blank/UNKNOWN",
+  "original_snapshot_checks": {
+    "AOCI_SHA256": "398220db35f6c3d21cfd949579a70bf0fdb1445203bdda3f126130c342b35b6f",
+    "FUNDING_SHA256": "e2c47063d6702650503bf6f19f8a1bf40f5f4376c54ca11df4060a39782ff7a9"
+  },
+  "raw_sources": "local ignored; selected original rows and original SHA256 receipts committed",
+  "limitations": "linear scenario is not an actual net-loss model, no national sample or option evaluation"
+}
