@@ -1,44 +1,38 @@
-# BRENT SCRATCH — October 13, 2026 — energy evidence continuation
+# BRENT SCRATCH — October 14, 2026 — Will-directed closeout
 
-**Closeout:** 2026-10-13 22:59 EDT. Runtime OpenAI Codex/GPT-6 family; exact variant/session ID UNKNOWN; thread `/root`. Canonical resume handoff. [Assessment](research/2026-10-13_energy-wait/REPORT.md), [validation](research/2026-10-13_energy-wait/VALIDATION.md). Prior handoff preserved whole-file at [before-image](research/2026-10-13_energy-wait/SCRATCH-before.md), receipt in sources.json.
+**Closeout:** 2026-10-14 11:13 EDT. Canonical resume handoff. OpenAI Codex/GPT-6 family; exact variant/native session ID UNKNOWN; thread `/root`. [Closeout evidence](audits/2026-10-14_closeout/CLOSEOUT.md). Existing [energy research](research/2026-10-13_energy-wait/REPORT.md) and [company followup](research/2026-10-13_energy-wait/COMPANY-FOLLOWUP.md) remain operative.
 
 ## CHANGES SINCE LAST SESSION
-- New DEWEY current cargo addendum: Minerva Zen provider/operator-attributed UAN evidence excludes this ship from positive diesel delivery; other flows not inferred zero.
-- YURI recovered government announcement primary: initial500kt permission effectiveOctober10; signed exception/annex/delivery and old-exemption overlap still gaps.
-- IEA official OMR schedule recovered: October14,10:00Paris/04:00EDT. Existing modeled date promoted to confirmed; October15 Board separate.
-- Late DEWEYraw sources consumed independently: FranceOctober7plan10Mdieselbbl (overlap/delivery unknown), CMEfinalOctober12pair measured. Later exact DEWEYcheckpoint5be08366 consumed, checkpoint wasPARTIAL; superseded by final31397158f now consumed. Bounded DEWEYcommission complete, underlying supplyUNKNOWN; no peer consumption asserted.
-- WALTERlate: Senate rescission request is not revocation; PSXWoodRiverFCC lead lacks authenticated output/duration. No new physical/earnings-edge result. October15 WPSRweekOctober9 is mostly prelandfall and before Russian permission. Existing WAIT unchanged.
+- WALTER finished the 72 captured bookmarks: 21 new signals/53 handoffs, all snapshot IDs marked. The previous unassessed-intake gap is superseded, not full-news clearance.
+- Seven new BRENT packets read: PJM issuance/demand response; qualified Dhahran administrative fire, DF Peak boarding, Fujairah receiver retreat and time-late UKMTO incidents; Maine residential heating-oil benchmark; qualified United filed-fare counterlead. Their measurement limits survive at the closeout note.
+- No new MPC/PSX operating or comparable earnings evidence; energy WAIT unchanged. DEWEY commission complete, underlying delivered net supply UNKNOWN.
 
 ## WHAT I DID THIS SESSION
-- Later Will-directed stale/news audit: original October13broker images visually read/hash-matched; TRADE reconciled VLOtotal2/additional1scopeUNKNOWN and USO canceledorder; original-share binding letter unchanged. Saved October12CME absence language qualified as historical. [Audit](audits/2026-10-13_continuity-news/REPORT.md).
-- Explicit root/local boot and October13 PROME-report recovery; resumed existing L689/L694, no replacement study/chain screen/helper.
-- Read policy/issuer primaries, recovered MPC Q3 operating baseline and source-qualified consensus indication; separated Q3 results from Q4 relief/outlook. Saved earnings arithmetic, source hashes and existing-duty worksheet.
-- DEWEYfinal31397158f consumed; its matching hash saved. Company operations/expectations check finite: no new decision-changing primary or usable consensus. No new TERRYcandidate/screen; [COMPANY-FOLLOWUP](research/2026-10-13_energy-wait/COMPANY-FOLLOWUP.md).
-- Twelve packets consumed/logged across this continuation; archive moves reconciled. No aggregate hull/barrel loss, chart-grade or unverified CPC-flow inference.
-- Network boot7OK/3FINDINGS/0FAIL, corrections15receipts/0unreceipted; prediction-due/pending checks clear within scope. Boot not all-clear.
+- Corrected stale current intake assertions in STATUS/TRACKER/NEXUS; seven delivered packets integrated, board-logged and archive-moved.
+- Preserved source vintages and all restrictions. No new study, polling, price sweep, holding/line grade, strike tally, threshold or thesis change.
+- Reclassified the October 14 OMR obligation: scheduled 04:00 EDT has passed; evidence NOT read here, review still owed. No publication-availability inference.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **October14:** obtain existing scheduled IEAOMR public evidence at04:00EDT; subscriber tables not assumed accessible. DEWEYfinal already consumed: no further return/diesel investigation owed. SupplyUNKNOWN is an evidence gap, not pending commission. No overnight polling/new monitor.
-2. **October15:** IEA Board old-versus-supplemental country/diesel quantities and delivery clocks; WPSRnoonEDTweekOctober9 first eligible BRT31/Isaias print. Read full BRT31letter/note before grade; never attribute the prepermission weekly balance to new Russian deliveries.
-3. **Existing held-VLO touch:** WQ386/420 full accepted-source/identity/precision/missing-data letter. November throughOctober14, DecemberOctober15–November19; TERRY grades. Recover L684 acceptance at owner evidence before claiming it; saved handoff had it pending.
-4. **October16:** COT#10 asofOctober13 at~15:30ET; #9 already graded, no duplicate. BRT30October26. Catalyst owner record retains all later duties.
+1. **Owed October 14 evidence review:** read the existing IEA OMR public body and observation cutoffs when resuming; subscriber access not assumed. No further DEWEY pass.
+2. **October 15:** IEA Board old/new diesel quantities and delivery clocks; EIA WPSR noon EDT, week ending October 9. Read full BRT-31 letter/note before grade; this week predates Russian permission and most storm recovery.
+3. **Existing holding touch:** recover L684 acceptance at owner evidence before claiming it. Held original VLO November basis ends October 14; December starts October 15 through November 19 under unchanged WQ-386/420 letter. TERRY grades, Will orders.
+4. **October 16:** COT #10 as of October 13, about 15:30 ET; #9 already graded. BRT-30 October 26 and routine DST reset November 1 remain registered.
 
 ## OPEN THREADS / WATCHES
-- Four refinery run-states, MPC/PSX own-asset/yield/realized-margin capture, delivered net diesel and synchronized expectation/price bridge remain gaps. No phase/probability revision. DEWEYcommissionclosed; no future DEWEYreturn; owned operations/expectations/earnings-to-value bridge remains missing.
-- L633/L694 bounded delivery previously accepted; source debts survive, no repeat pass. FinalOctober12CME source gap closed with saved PDF/inputs; October13 accepted holding grade not produced here. Prior TERRYNovemberUNKNOWN is historical owner state, not proof the newly recovered source is absent.
-- Routine deployment/first-normal-run acceptance remains parked at CATO handoff in STATUS. Newest local scheduled outputFridayOctober9; no MondayOctober12 file found, no remote-failure claim. November1 UTC-reset duty registered.
--24stale incident rows remain; no timer restart/downgrade or capacity sum. WQ392 HEN46basis choice settled, HENRYencoding not verified here; transit/insurance/cargo and broker gaps remain at owners.
+- Candidate gate: primary actual site/unit runs, yields, duration and cost (Wood River FCC especially); dated comparable EPS/refining-profit expectations and realized earnings-to-value upside. Keep Q3 through September 30 separate from Q4 supply/outlook.
+- Delivered net diesel remains UNKNOWN; legal permission, old pledges, planned releases and completed additions remain distinct. No duplicate diesel investigation or overnight monitor.
+- L633/L694 bounded delivery complete; October 12 CME source gap closed historically. No accepted October 13/14 holding grade recovered this closeout.
+- Registry/24 incident-source debts and parked CATO live deployment/first-normal-run acceptance remain. Latest local scheduled output October 9 at last audit; missing later local output is not proof of remote failure. No timer restart or automatic downgrade.
 
 ## POSITION DECISIONS PENDING
-- October13received holdings/current rules at TRADE, original images verified. USOOctober14calls×2 standing sell-or-roll; namedOctober12$2.66Day sell1order CANCELED, replacement UNKNOWN. VLOtotal2: original1WQ386/420, additional1scopeUNKNOWN(D-78). No new timing/management rail or scale revival.
-- WQ192 and terminal VLOextra-share stand-down unchanged. No buy/switch/roll/sizing/order recommendation. TERRYconstructs/grades, Willexecutes.
+- October 13 received broker evidence at TRADE; current fills/orders not re-verified. USO October 14 calls ×2 retain standing sell-or-roll; named October 12 Day sell order canceled, replacement UNKNOWN.
+- VLO total 2 at receipt: original 1 under WQ-386/420, additional 1 management scope UNKNOWN (D-78). Terminal scale remains terminal; no new management rule, sizing, order or capital approval.
 
 ## MAIL STATE
-- Audit at2026-10-13 22:59 EDT: both BRENTinboxes empty;12recentdelivered packets read/logged/archived. WALTER22:53EDT repaired-feed receipt has72unassessed/unstaged bookmarks; broader intake not complete, no duplicate owner/claim that allnewsprocessed.
-- Twelve consumed packets have board-log rows; priorWALTER-004/-006 now sender-committed, finalDEWEYpacket committed. Three remaining archive moves performed in this closeout; [receipt](research/2026-10-13_energy-wait/FOLLOWUP-VALIDATION.md). No new study or peer acknowledgment requested.
-- Dated completion packet and publication status at VALIDATION; durable delivery is separate from PROMEconsumption. No verified native fleet transport in this runtime.
+- Inbox: seven new WALTER packets consumed, logged and archived; no pending delivered BRENT packet at closeout inventory. Broader external news coverage remains partial.
+- Outbox: existing dated PROME packets retained; no new recipient-consumption proof or duplicate request. NEXUS cross-domain context updated; native fleet transport unavailable.
 
 ## WORKBOOK HEALTH
-- Fresh staticaudit: corrections0unreceipted; pending/due scans clear within scope. REGISTRY8daysolder than STATUS, stale under7dayreader; no barestamp. Incident24row/source debts and cloudfirstnormalrun acceptance remain. L684acceptance stillPENDING at ownerdocket; source1pair recovery is not acceptance.
-- Bootrc2 findings: ThresholdMonitor incomplete ticker coverage; EIAutilization ungraded; InstrumentCheck JWCtimeout/COT403/closed-market tanker freshness and partial paired coverage. Cushing observation age reflects release lag. Not publisher-outage or thesis-failure evidence.
-- Foreign WALTERcache at boot: no pull/stash/sweep. Own exact-path commits; no frozen KB/VX/FLOW/TIMELINE edits, no registered gate/threshold change, no auto-memory.
+- Static check scope/results at closeout validation; no network boot rerun or universal market clearance. Older primary, broker and numerical dates remain intact.
+- Existing TRACKER size debt: whole file exceeds cap; only current banner reviewed here. Bounded archival maintenance remains owed; no whole-file clearance.
+- Frozen ledgers untouched; no new prediction due/grade assumed from passage of date. Foreign REGINALD/cache work excluded from exact-path commits; no pull/stash/sweep, no auto-memory or new published numerical figure.

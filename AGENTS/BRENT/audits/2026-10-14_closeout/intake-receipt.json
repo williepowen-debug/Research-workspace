@@ -1,0 +1,55 @@
+{
+  "read_at": "2026-10-14 11:13 EDT",
+  "scope": "Seven delivered WALTER packets, owner STATUS and routing receipt; independent external primary re-verification not performed",
+  "packets": [
+    {
+      "signal_id": "SIG-W-20261013-007",
+      "source": "inbox/WALTER/SIG-W-20261013-007.md",
+      "destination": "inbox/WALTER/processed/SIG-W-20261013-007.md",
+      "sha256": "f51b07fb9fb06829af134533f3ed87e5f75917b5d2fca32b19a1e38bb14de7aa",
+      "disposition": "info-only"
+    },
+    {
+      "signal_id": "SIG-W-20261013-008",
+      "source": "inbox/WALTER/SIG-W-20261013-008.md",
+      "destination": "inbox/WALTER/processed/SIG-W-20261013-008.md",
+      "sha256": "71ddd1a074f3b7584e657d23d90f075b4d2577c89fad58795836a49e2c2729c4",
+      "disposition": "acted"
+    },
+    {
+      "signal_id": "SIG-W-20261013-009",
+      "source": "inbox/WALTER/SIG-W-20261013-009.md",
+      "destination": "inbox/WALTER/processed/SIG-W-20261013-009.md",
+      "sha256": "03df16da823f65f00abb3ff63459ecf6c841195f9db749287a2315c6a45c33d4",
+      "disposition": "info-only"
+    },
+    {
+      "signal_id": "SIG-W-20261013-010",
+      "source": "inbox/WALTER/SIG-W-20261013-010.md",
+      "destination": "inbox/WALTER/processed/SIG-W-20261013-010.md",
+      "sha256": "b76dd260273ca782df9430d7d3512a47995860a1dd7664bc4c13f471067ad20d",
+      "disposition": "acted"
+    },
+    {
+      "signal_id": "SIG-W-20261013-011",
+      "source": "inbox/WALTER/SIG-W-20261013-011.md",
+      "destination": "inbox/WALTER/processed/SIG-W-20261013-011.md",
+      "sha256": "7de6c34328b74fd0f1210dd19e73d2db469eb9732e1fef630d1de8941264ab9f",
+      "disposition": "acted"
+    },
+    {
+      "signal_id": "SIG-W-20261013-022",
+      "source": "inbox/WALTER/SIG-W-20261013-022.md",
+      "destination": "inbox/WALTER/processed/SIG-W-20261013-022.md",
+      "sha256": "2149c0424e7cd4528e307607e5f7773a70b2e864d8049340287a2ff9b3027327",
+      "disposition": "acted"
+    },
+    {
+      "signal_id": "SIG-W-20261013-026",
+      "source": "inbox/WALTER/SIG-W-20261013-026.md",
+      "destination": "inbox/WALTER/processed/SIG-W-20261013-026.md",
+      "sha256": "3787e40080daed35283a6838a8c0eb18f5a0acaca311685acd08598dd6e4f683",
+      "disposition": "acted"
+    }
+  ]
+}

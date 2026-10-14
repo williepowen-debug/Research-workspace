@@ -1,8 +1,8 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-13 22:59 EDT — SCOPED-PARTIAL:** broker-image/TRADE and saved-source continuity reconciliation; all12delivered packets processed, inboxes empty. Research WAIT unchanged. Wider WALTER72bookmark intake unassessed; no universal news/current-market clearance. [Audit](audits/2026-10-13_continuity-news/REPORT.md). Older observations retain dates.
+**Last real data refresh: 2026-10-13 22:59 EDT — SCOPED-PARTIAL:** broker-image/TRADE and saved-source audit; numerical observations retain dates. [Audit](audits/2026-10-13_continuity-news/REPORT.md).
 
-**Will-directed closeout 2026-10-12 15:13 EDT:** [handoff](SCRATCH.md) and [receipt](audits/2026-10-12_desk-health/CLOSEOUT.md). Re-verified saved owner state and exact committed TERRY/PROME receipts; L633/L694 bounded deliveries resolved, physical/source duties remain. L684 independent WQ420 acceptance still owed. No new primary, broker/order, line grade or phase refresh. Closeout contentf23f7eed9 published in authorized shared train1276609e3; fresh-fetch receipt saved.
+**Will-directed closeout 2026-10-14 11:13 EDT — SCOPED-PARTIAL:** seven new WALTER packets consumed; 72-bookmark intake now complete at owner, broader news coverage partial. WAIT unchanged. October14 OMR review owed; October15 Board/WPSR and holding duties preserved. No new market, broker, line or acceptance grade. [Handoff](SCRATCH.md), [receipt](audits/2026-10-14_closeout/CLOSEOUT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 

@@ -1,0 +1,90 @@
+{
+  "scope": "continuity/intake/static checks only; no external primary, market, broker or holding grade",
+  "intake": [
+    {
+      "id": "SIG-W-20261013-007",
+      "archive_hash_match": true,
+      "ledger_rows": 1
+    },
+    {
+      "id": "SIG-W-20261013-008",
+      "archive_hash_match": true,
+      "ledger_rows": 1
+    },
+    {
+      "id": "SIG-W-20261013-009",
+      "archive_hash_match": true,
+      "ledger_rows": 1
+    },
+    {
+      "id": "SIG-W-20261013-010",
+      "archive_hash_match": true,
+      "ledger_rows": 1
+    },
+    {
+      "id": "SIG-W-20261013-011",
+      "archive_hash_match": true,
+      "ledger_rows": 1
+    },
+    {
+      "id": "SIG-W-20261013-022",
+      "archive_hash_match": true,
+      "ledger_rows": 1
+    },
+    {
+      "id": "SIG-W-20261013-026",
+      "archive_hash_match": true,
+      "ledger_rows": 1
+    }
+  ],
+  "new_packet_count": 7,
+  "inboxes_pending": 0,
+  "TRADE_whole_file_unchanged_from_HEAD": true,
+  "TRADE_sha256": "d097f25c4677d0154509acc19d1d3deb05a5d693638c6309a428019b8aea75e9",
+  "WALTER_snapshot_source_hashes_match": true,
+  "checks": {
+    "readcap_charter": {
+      "rc": 0,
+      "output": "READ-CAP [BRENT] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 3 boot section(s) in CLAUDE.md, 29 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 STATUS.md                            23,763 B    73% of budget    (boot-step line 26)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 979 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 649 B.\n  \u2705 TRADE.md                             22,774 B    70% of budget    (boot-step line 26)\n  \u2705 LESSONS.md                           15,125 B    46% of budget    (boot-step line 30)\n  \u2705 domain/REFERENCE_TABLES.md            6,174 B    19% of budget    (boot-step line 31)\n  \u2705 SCRATCH.md                            4,488 B    14% of budget    (boot-step line 27)\n\u2705 READ-CAP 0 [BRENT]: every boot-mandated read this check found is under budget (5 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/BRENT/CLAUDE.md = 31,848 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BRENT reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31848\n"
+    },
+    "readcap_live_files": {
+      "rc": 0,
+      "output": "  \u2705 AGENTS/BRENT/STATUS.md                               23,763 B    73% of budget  \n  \u2705 AGENTS/BRENT/TRADE.md                                22,774 B    70% of budget  \n  \u2705 AGENTS/BRENT/SCRATCH.md                               4,488 B    14% of budget  \n"
+    },
+    "calendar": {
+      "rc": 0,
+      "output": "\u2705 CALENDAR: STATUS block matches docket/CATALYSTS.tsv (25 events)\n\u2705 STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-10-09).\n"
+    },
+    "predictions": {
+      "rc": 0,
+      "output": "  \u23f3 Predictions-Due Scan...\n      \u2705 no OPEN predictions past (or within 7d of) their timeframe\n"
+    },
+    "pending": {
+      "rc": 0,
+      "output": "  \u2705 PENDING-RECEIPTS: no unresolved execution receipts or elapsed explicit expiries.\n     Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.\n     Broker truth and unrecorded trades remain outside this text check.\n"
+    },
+    "corrections": {
+      "rc": 0,
+      "output": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BRENT (register 75 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 15) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+    },
+    "ledger_nudge": {
+      "rc": 1,
+      "output": "\u26a0\ufe0f  nudge: [BRENT] STATUS moving without ledgers \u2014 5 ledger(s) behind: REGISTRY.tsv (43 STATUS-writes behind), LESSONS_INDEX.tsv (30 STATUS-writes behind), INCIDENTS.tsv (28 STATUS-writes behind), COT_VINTAGES.tsv (24 STATUS-writes behind), CATALYSTS.tsv (2 STATUS-writes behind) \u2014 freeze-or-refresh EACH, or say why not in the commit\n"
+    },
+    "weekday": {
+      "rc": 0,
+      "output": "CLAIM-CHECK \u2713 4 file(s) clean [weekday]\n"
+    },
+    "diff_whitespace": {
+      "rc": 0,
+      "output": ""
+    }
+  },
+  "limitations": [
+    "BRENT has no READS.tsv declaration; require-manifest rc2 cannot evaluate. Charter heuristic passes within its perimeter; explicit owned live files under budget.",
+    "TRACKER whole file182675B and registered block36255B are existing size debt. This closeout edits only627B current scope banner; no whole-file fresh read is claimed. Bounded archival maintenance remains owed at next maintenance touch.",
+    "Ledger nudge flags REGISTRY, LESSONS_INDEX, INCIDENTS, COT_VINTAGES and CATALYSTS by STATUS-write age. No timestamp-only refresh: registry/source debt remains, no lesson edit or primary-verified incident, next COT is October16, catalysts unchanged and rendered view matches.",
+    "Foreign REGINALD/WALTER/PROME work left untouched; own exact paths only. No fresh recipient-consumption proof.",
+    "OMR scheduled time passed; existing report evidence not consumed, review owed."
+  ]
+}
