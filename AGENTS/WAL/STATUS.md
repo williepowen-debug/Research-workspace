@@ -1,6 +1,6 @@
 # WAL STATUS
 
-**Last Updated:** **2026-10-14** — WAL session #13 continued; Will-authorized housekeeping/integration after research follow-ups. Fresh Q2 primary verifies September 28 tables; bounded pre-print valuation continuation finds **NO DEMONSTRATED EXPECTATIONS GAP** (KB-223/224). REGINALD funding/peers preserved. No grading cell, score, weight, EV, PT, gate or trade changed. Prior dashboard preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`.
+**Last Updated:** **2026-10-14** — WAL session #13 closed at Will’s October14 request after research and housekeeping. Final checks passed; no further work running. Fresh Q2 primary verifies September 28 tables; bounded pre-print valuation continuation finds **NO DEMONSTRATED EXPECTATIONS GAP** (KB-223/224). REGINALD funding/peers preserved. No grading cell, score, weight, EV, PT, gate or trade changed. Prior dashboard preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`.
 
 **Price (10/13): $73.73**, vendor closing observation stamped **16:00:02 ET**, re-fetched **22:45:57 ET** through Yahoo/yfinance (raw snapshot in sources); after-hours also $73.73 at19:56:17 ET; −1.29% versus previous close. **Official close not independently verified.** Spot **−2.94% vs EV $75.96** (Δ÷EV); **+11.08% to $81.90** (Δ÷spot). This quote does not grade the consecutive-close guard: REGINALD owns it. The old $78 trigger remains TERMINAL; no re-entry signal. Earlier price records are in the dated snapshot and KB-215/-222.
 

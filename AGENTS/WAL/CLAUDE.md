@@ -40,7 +40,7 @@ The canonical runtime contract is root `CLAUDE.md`, `PROME/COMPLETION_SPEC.md` a
 0. **Resolve the repository root and inspect Git state** — apply root `CLAUDE.md` Before pulling; foreign dirty paths mean defer pull/push, never stash another desk. Complete the explicit instruction/runtime reads above before desk work.
 1. **Read `STATUS.md`** — price, thesis state, convergence matrix, exit rules, catalysts, expected signals.
 2. **Read `THESIS.md` header + calibration tables** and the top `CHANGELOG.md` entry — current version and what last moved.
-3. **Read `MEMORY.md`** — ends on session handoff: NEXT SESSION mandates (the first-boot list lives here).
+3. **Read `MEMORY.md`** — the current handoff and next steps are at the top; completed session narratives and earlier lists live in the linked archive.
    - **Will-only dependencies:** surface unresolved items with their latest response/receipt and why they matter. Do not repeat an ask already answered in this session. Keep unresolved recorder/FFIEC items dated and open; remove an ask only when resolved or explicitly dropped. Current dependency home is STATUS; MEMORY points there.
 
 4. **Staleness check** (cwd-proof, read-only):
@@ -114,7 +114,7 @@ One `.md` per signal: `YYYY-MM-DD_to-[target]_[desc].md` — Signal / Detail / S
 | **STATUS.md** | Price, thesis-state line, convergence matrix, exit rules, catalysts, expected signals, print snapshots. Dashboard. | Deep research (→ FRAUD/, research/, sources/), thesis rationale (→ THESIS), session history (→ MEMORY) |
 | **THESIS.md** | v2.4 structural thesis, scenario weights, calibration tables, kill criteria. Slow-moving. | Daily updates |
 | **CHANGELOG.md** | Thesis evolution, version-pinned, old-vs-new + why. | Current state |
-| **SCENARIOS.md** | Scenario branches + ranges (v2.4). ⚠️ Strike-by-strike sections are May-vintage — rebuild owed (MEMORY mandate). | Probability weights (→ THESIS) |
+| **SCENARIOS.md** | Current v2.4 valuation block and scenario ranges; prior lineage/May strike analysis linked to a verbatim archive. Any option rebuild is separately scoped. | Probability weights (→ THESIS) |
 | **WEAKNESSES.md** | Living counter-argument — where the bear case fails. | Confirmatory evidence (→ THESIS + KB) |
 | **INDEX.md** | Cold-spawn entry point — file map + current-state tokens (MIRRORS canonical; sync at closeout). | Canonical values (it mirrors, never originates) |
 | **POSITIONS.md** | WAL option legs from broker data (canonical post-split). | Trade rationale, price levels |
@@ -158,7 +158,7 @@ One `.md` per signal: `YYYY-MM-DD_to-[target]_[desc].md` — Signal / Detail / S
 
 ## GIT PROTOCOL
 
-**Stage only `AGENTS/WAL/`.** Root CLAUDE.md §Git Protocol owns the rules — cite, don't restate. Pathspec commits from repo root; auto-push at closeout via `scripts/safe-push.sh`; non-ff → pull-rebase, never force.
+**Stage owned WAL paths and only the explicit root-authorized self-authored carve-outs.** Root CLAUDE.md §Git Protocol owns the exact-path, recipient-packet and pull/push rules; it also governs foreign-dirty deferral. Never stage another desk's work or use a directory-wide add.
 
 ---
 
@@ -169,7 +169,7 @@ One `.md` per signal: `YYYY-MM-DD_to-[target]_[desc].md` — Signal / Detail / S
 | `INDEX.md` | Cold-spawn entry point — mirrors canonical tokens. |
 | `STATUS.md` | Live dashboard (≤250 ln). Primary snapshot. |
 | `THESIS.md` + `CHANGELOG.md` | Current thesis + version-pinned history. *(De-versioned 8/20: a version token mirrored here rots on every bump — THESIS.md owns its own version.)* |
-| `SCENARIOS.md` | Scenario branches/ranges (strike sections May-vintage — rebuild owed). |
+| `SCENARIOS.md` | Current v2.4 valuation/range block; historical strike analysis is linked in its verbatim archive, not current holdings guidance. |
 | `WEAKNESSES.md` | Living counter-argument — **must be re-folded at every thesis bump** (it went a full version stale after v2.4 and asserted an already-run falsifier was "never-run"). |
 | `POSITIONS.md` | WAL option legs (canonical). |
 | `Q2_GRADING_FRAME_2026-07-21.md`, `PREPRINT_RECON_2026-07-17.md`, `EARNINGS_PREP.md` | 🧊 Frozen pre-registration/calibration records. |
