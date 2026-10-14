@@ -2,6 +2,8 @@
 
 **Resume:** [October14 Standard closeout](reports/2026-10-14_standard-closeout.md) records review and delivery; [earlier Bounce](reports/2026-10-14_PROME-restart.json) preserves its checkpoint; [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns next actions and generated queue/calendar. [STATUS](STATUS.md) indexes current work. Will requested PROME only; other owner windows continue.
 
+**Post-closeout continuation:** Will requested moving forward on CATO's efficiency recommendations. [Bounded repair proposal](proposals/2026-10-14_closeout-display-verification-PROPOSAL.md) owns the display-applicability and delivery/dependency design, acceptance cases and review disposition; [readiness evidence](reports/2026-10-14_closeout-repair-readiness.json) reproduces the DEWEY mismatch and identifies the stale calendar-patch precondition. No runtime repair installed in this continuation; recover the existing maintenance order and proposal before implementing in a fresh eligible session.
+
 ## October14 — broader stress investigation
 
 Will authorized deeper research across the other financial-risk areas. [Integrated findings](research/2026-10-14_compound-stress/synthesis.json) and four source reviews distinguish actual borrower/property stress from conditional funding transmission. Existing REGINALD/CARL/owner work was reused; three Sol helpers wrote only PROME artifacts. CoreWeave contract wording needs owner reconciliation; current pension cash-demand mapping and retained lender exposures remain open. Owner evidence packets do not establish consumption. No trade decision or new monitoring rule; use existing Q3 reads before repeating research. Lifecycle receipts are in ORCH_LOG.

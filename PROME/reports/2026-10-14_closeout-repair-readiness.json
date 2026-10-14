@@ -1,0 +1,47 @@
+{
+  "purpose": "Historical replay only; not a live review or implementation certification",
+  "source_review": "3b65fc460:AGENTS/CATO/runs/2026-10-14_1529_prome-closeout-review.md",
+  "comparisons": {
+    "dc1abc44fd19e8cae3f24b4faf65bca321e070f1": {
+      "mismatches": [
+        {
+          "path": "AGENTS/HENRY/inbox/2026-10-14_from-DEWEY_ports-pike-power.md",
+          "frozen_sha256": "ee8b261b06b3622f2afcbfceae551320d5141e5edbdfb4e3147c8d1db483df13",
+          "committed_sha256": null
+        },
+        {
+          "path": "AGENTS/VULCAN/inbox/2026-10-14_from-DEWEY_ports-pike-power.md",
+          "frozen_sha256": "0d3016356ee524fd6c33ea2b21228564ae9ca4ed6c2e99d4d9130f5a87cd2786",
+          "committed_sha256": null
+        },
+        {
+          "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-14_ports-pike-power_handoff.md",
+          "frozen_sha256": "fd2b1c587c99d65f0d208b2a86710c7b3ae3a272c3ecab6ac0ccb0a57e20b179",
+          "committed_sha256": null
+        },
+        {
+          "path": "AGENTS/WATT/inbox/2026-10-14_from-DEWEY_ports-pike-power.md",
+          "frozen_sha256": "9cce69f37d93fe027f215056373ddfc0ce358e99f24aac485eff7a98585c4630",
+          "committed_sha256": null
+        }
+      ]
+    },
+    "27a26d1cd14f6a58eb1499da7d81c2ab5c4f7ada": {
+      "mismatches": []
+    }
+  },
+  "calendar_patch_precondition": {
+    "expected_before_sha256": "f84daeda1ac7eb10e85a3b3adee5bbfbbf3f02bb50bdd4d9bbd37ad0a3fd6ed4",
+    "observed_sha256": "10d14d7342a80f9de1f95590230a1509d659e7038efe58240e590bf36de450a8",
+    "matches": false,
+    "disposition": "Do not blindly apply old patch; refresh against current tool in eligible maintenance slot."
+  },
+  "planning_validation": {
+    "weekday_check": "PASS for proposal, HANDOFF and DOCKET",
+    "orch_log_schema": "PASS",
+    "lifecycle_reader_rc": 1,
+    "lifecycle_limits": "Historical gaps and this helper exact launch timestamp UNKNOWN; native explicit closeout receipt received and recorded. No inventory-completeness or full lifecycle pass claimed.",
+    "expected_key": "a9408be0cc7c690ed80024bad95fa0c2a4741813317f03722f3ddd2628280338",
+    "review": "Two plan reads; parse-old/hash-new blocker corrected and changed portion verified. No implementation tests run because no runtime code changed."
+  }
+}
