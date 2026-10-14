@@ -1,7 +1,7 @@
 # WAL — NEXUS Brief
 
-**Status:** October14 REGINALD public FY2027 test consumed and verified before proposed investigations start. Accepted operating counterevidence; mortgage proposal narrowed to remaining accounting/cost/persistence gaps. Earlier FFIEC integration remains accepted. No demonstrated expectations gap. No score, valuation, prediction, frozen rule or trade changed; full proposed investigations unstarted.
-**As of:** 2026-10-14; final STATUS pin **`2262bcf2c862527f4feb2a435eede9205062b738`**. This brief is the last desk write after that STATUS commit.
+**Status:** SESSION CLOSED on Will's October14 instruction. Completed FFIEC history/integration and verified REGINALD public earnings test persist. No demonstrated expectations gap. No score, valuation, prediction, frozen rule or trade changed. Proposed full borrower/mortgage investigations remain unstarted; no helper, background research or new monitor running.
+**As of:** 2026-10-14; final STATUS pin **`222a7be73acc1cd3f0bf00555848c6b3c135c063`**. This brief is the last desk write after that STATUS commit.
 **Domain:** Western Alliance Bancorporation issuer evidence/thesis/grading and WAL-specific legal depth. REGINALD owns funding/cohort/peers/severity; OZK owns its bank; TERRY/Will own position management. No helper or duplicate owner launched.
 **Thesis:** v2.4, compounder with concentrated CRE tail risk. Bear-fast2% / Bear-medium16% / Base45% / Bull30% / Tail7%; **EV$75.96 / PT$52-76**, V3=3/5 and composite13/25 unchanged. Canonical calibration →THESIS/SCENARIOS/frozenframes;234KBrows/20groups →workbook.
 **Positions:** →POSITIONS/FORGE. Latest Fidelity picture receivedOctober14 directly viewed; Will confirms fourWAL65PDec18-2026. AcquisitionOctober7/netdebit682.65 from accepted Activity; no gross fill inference. Exactpicture/marktimeUNKNOWN. Robinhood remainsSeptember29carry. Existing TERRYpositionnote/C5deadlineDecember16 unless Will asks sooner; no transfer of70Pguard/time stop.
@@ -12,6 +12,7 @@ Last weight re-mark August20 after MI3disconfirmation; V3re-score September28 un
 
 ## Current consumer delta
 
+- **Final operator clarification/closeout:** `research/2026-10-14_probability-perspective.json` records the existing valuation weights, not a calibrated11EPS/stockrise/optionreturn probability. Base valuation is not aDecemberpriceforecast; fullFY2027earningspostdateDecember2026expiry. ExistingTERRY65Pnote/C5scopeunchanged; earlierpreprintreview was suggested, not commissioned. `research/2026-10-14_session-closeout.json` andMEMORYcarryfinalhandoff. No new EPSprobability, grading band, trade or autonomous followup.
 - **Latest peer test consumed:** REGINALD `reports/2026-10-14_WAL_2027_earnings-path-test.md`, sourcecommit423e52e684, read/ACKed with independent scenario/inversebudget/ECR arithmetic and decisive primary passage checks. No material disagreement. Public earnings path plausible; net profit conversion least verified. Parent mortgage revenue improved; bankRC-P decline is not aggregateparentweakness. Aggregate deposit-cost growth is not an established pricingbreak; known fraud expense is a poor recurringbaseline. Funding/estimate figures stay atREGINALD. Own review `research/2026-10-14_REGINALD-earnings-test-review.json`. Proposed mortgage work reuses completedQ1/Q2components and retains crossentity/residual/cost/persistence gaps; borrower attribution still proposed/unresolved. No full investigation launched; no analystmodel or new forecast obtained.
 - **Application sweep:** report `research/2026-10-14_FFIEC-integration-sweep.md` and numerical receipt. Eleven new descriptive rows bring the Q3 worksheet to32metrics; twelve FFIEC rows use NOT_RETRIEVED rather than asserting nondisclosure after HTTP500. Corrected obsolete credential prose; old V3/P1 pending-score material scoped as dated history underWQ324. Countercase and bank/parent/incremental-loss limits now beside the model/application. No new bands, recurring monitor or hypothesis grades.
 - **FFIEC primary history:** eight contiguous quarters Sep2024–Jun2026. NDFInonaccrual detail availableDec2024 onward:0.590/0.595/1.073/99.524/99.133/71.304/122.456M. June0.774%,+$51.152M/+71.74%QoQ. Episodic path, no borrower attribution or automatic loss/score inference. Older missingdetail isnotzero.
@@ -30,9 +31,13 @@ Application/repair commit7d3c97d255 includes the sweep and self-authored `PROME/
 
 Sourceconsumption/statecommit2262bcf2c includes ownreview/scope and self-authored `PROME/inbox/2026-10-14_from-WAL_REGINALD-earnings-test-consumed.md`. WAL'sactualsourceread/check/ACKverified; nativepeerpresence/notificationandPROMEconsumptionUNKNOWN. No helper, newownercommissionortrade.
 
+Finalcloseoutcommit222a7be73 includes finalSTATUS/MEMORY/INDEX/receipt and self-authored `PROME/inbox/2026-10-14_from-WAL_session-closeout-final.md`. Willdirectlyrequestedcloseout; WALresearchstopped. Nativefleetnotification/PROMEconsumptionUNKNOWN; no peercloseoutreceipt invented.
+
 ## WAITING-FOR
 
 Q3actuals and borrower attribution; $99Mappraisal/propertyidentity; matchedparentmortgage/EPScomponents and analystbasis; actualhedge/fundingremixeconomics; hotelcrosswalk/maturities; Barclayssubstantiveprimary behindregistration; MorenoValleyrecorder/APNevidence; Ontario laterorders/title/value/otherthreeDOTs. Missinginputsremainunknown. No new immediate Willask.
+
+Atfinalcheck, `inbox/2026-10-14_from-DEWEY_nano-pa-document-boundary.md` appeared: unread/unprocessed,notWAL-authored/notstagedbyWAL. Nextauthorizedintake mustverifyitsartifact/scope; no findings or legalstate inferredfromfilename. Proposedfullinvestigations remainunstarted.
 
 ## Cross-agent tensions (required)
 
@@ -51,3 +56,5 @@ The preceding verification paragraph records the original extraction. In this su
 Research/data commit96ac1be9a and application/state/deliverycommit7d3c97d255 arelocal. ThisbriefcommitfollowsthefinalSTATUSpin. Rootpull/pushdeferredwhileforeignpathsaredirty; no GitHubsynchronizationclaimed. FreshSDFs areincludedintheearlierexactpathcommit; olderignoredSEC/proxyoriginals keeptheirsourceportabilitylimits. Session remainsavailable toWill; nohelpersorbackgroundresearchrunning.
 
 Laterpeerreviewcommit2262bcf2c islocal. Twelveprotectedfullfilesremainbyte-identical,includingTHESIS/CHANGELOG/SCENARIOS,fiveframes,PREDICTIONS,KB,POSITIONSandmodelscript. Fourconditionalrowsandinversebudget/ECRdiagnosticreproduced; primaryQ1/Q2/deckinputschecked. Namedmaintenanceissues0/newidentities0; selectedscopeonly. PREDICTIONSheldpendingexistingQ3carriers; no KBduplicatesorexpiryextensions. ThisfinalbriefpinfollowsthelatestSTATUScommit; rootpull/pushremainsdeferredforforeigndirtywork.
+
+Finalcloseout222a7be73: twelveprotectedfullfilesunchanged; namedmaintenanceissues0/newidentities0; no namedunreceiptedWALcorrection; fourregisteredweekdayfilespass; requiredsize/STATUSlinecapschecked. Ledgernudgesexplicitlycarried: PREDICTIONSawaitsexistingQ3carriers; KB/RETIRED_CLAIMSnotadvancedfordiscussion/closeoutwithoutnewrows. Ownerwritescommittedexactly; newDEWEYpacketnotours. Otherdesks'dirtyworkkeepspull/pushdeferred; noGitHubsyncreceiptclaimed. ThisbriefisthelastdeskwriteafterfinalSTATUScommit. Sessionclosed; no autonomous researchcontinues.
