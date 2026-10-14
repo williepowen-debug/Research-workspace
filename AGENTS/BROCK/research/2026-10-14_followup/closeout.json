@@ -39,5 +39,13 @@
   "checks_ref": "closeout_validation.json",
   "new_domain_data": false,
   "no_helpers": true,
-  "no_capital_or_forecast_change": true
+  "no_capital_or_forecast_change": true,
+  "final_git": {
+    "closeout_commit": "2eebe1e2c",
+    "state": "LOCAL_COMMITTED_PUBLICATION_BLOCKED",
+    "observed_at": "2026-10-14T20:14:51.333060+00:00",
+    "action": "bash scripts/safe-push.sh",
+    "automatic_review": "Rejected: internal research/closeout export to an unverified GitHub destination; routine Git authorization and closeout request do not specifically authorize this payload export.",
+    "next_step": "Explicit Will approval to publish the final BROCK closeout payload to configured origin; no retry or workaround performed."
+  }
 }

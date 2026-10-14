@@ -6,4 +6,4 @@ Resume with CRMT October15 after16:30ET/October16AM; silence never grades an out
 
 BRK32 remains STUCK: March31 weights, original forecast/distribution and scoring accountability preserved; PROME/Will disposition required before retirement/amendment. Five historical/May CCLFX offers kept separate, outcomes UNKNOWN after the bounded search; next useful September30,2026 semiannual report on publication. Medallia public rows match at49.5¢; private rights unknown, hunt deferred. No new thresholds, trades or probabilities.
 
-Fresh fetch confirmed correction c95847c8a/e963d98ce, CATO04355d97e and followup44b8237bd on origin. Final closeout publication is separately reported at exit. Recipient consumption remains UNKNOWN without acknowledgment. Preserve all other desks’ edits/staging.
+Fresh fetch confirmed correction c95847c8a/e963d98ce, CATO04355d97e and followup44b8237bd on origin. Final closeout2eebe1e2c is locally committed; automatic review rejected its GitHub export. Publication requires explicit payload/destination approval; do not bypass or claim receipt. Recipient consumption remains UNKNOWN without acknowledgment. Preserve all other desks’ edits/staging.
