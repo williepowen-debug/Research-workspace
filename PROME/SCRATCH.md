@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**Latest stopping point — October14, usage limit:** Will requested stopping with 4% remaining. [Local checkpoint](reports/2026-10-14_low-usage-checkpoint.json) owns this boot outcome and delivery limits; it supersedes earlier receipts only for this sitting. Boot gate passed; private Deck pickup unavailable. No repair installed, no reviewer launched, no new ruling. Full Standard closeout remains incomplete. Will subsequently requested committing and pushing exactly the five checkpoint/bookkeeping files; verify Git delivery separately from full closeout. Resume the bounded repair proposal below without resetting its review budget.
+
 **PROME Standard closeout:** Will requested the full closeout after the local Bounce checkpoint. [Standard record](reports/2026-10-14_standard-closeout.md) owns review and delivery limits; other owner windows remain independently controlled.
 **First fresh-context action:** Will requests continuing the closeout-repair plan after this immediate restart. Boot PROME, then read the [bounded proposal](proposals/2026-10-14_closeout-display-verification-PROPOSAL.md) and its **Review and delivery** section; do not ask which research thread to prioritize by default.
 **Repair resume:** [Readiness evidence](reports/2026-10-14_closeout-repair-readiness.json) preserves the reproduction; the proposal includes CATO's follow-up and owns the B-before-A recommendation, acceptance cases, existing maintenance order and remaining implementation prerequisites.
