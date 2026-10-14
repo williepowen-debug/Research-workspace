@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-10-13 20:51 EDT",
+  "authority": "direct Will continuation; reuse completed work; no duplicate diesel commission",
+  "final_report_commit": "31397158f",
+  "final_report_sha256": "0775a97973f7c085b35ea6c9f8a59986c1bc547c90c65090e4a08710e9c20d13",
+  "source_results": [
+    {
+      "url": "https://investor.phillips66.com/financial-information/news-releases/default.aspx",
+      "result": "navigation/shell without current release rows"
+    },
+    {
+      "url": "https://ir.marathonpetroleum.com/investor/news-releases/default.aspx",
+      "result": "shell without current releases"
+    },
+    {
+      "url": "https://www.nasdaq.com/market-activity/stocks/mpc/earnings",
+      "result": "forecast/consensus unavailable;1.00 placeholders rejected"
+    },
+    {
+      "url": "https://www.nasdaq.com/market-activity/stocks/psx/earnings",
+      "result": "forecast/consensus unavailable;1.00 placeholders rejected"
+    },
+    {
+      "route": "PSXIndicators issuer navigation",
+      "result": "investor overview, no current margin file"
+    }
+  ],
+  "queries": [
+    "site.phillips66.com \"Wood River\" \"October 13, 2026\"",
+    "site.epa.illinois.gov \"Wood River\" \"October\" \"2026\""
+  ],
+  "research_disposition": "WAIT unchanged; no company evidence material enough for new TERRYscreen",
+  "future_dewey_work": "NONE; commission complete",
+  "physical_supply": "UNKNOWN",
+  "supersedes": "open DEWEY-return dependency only; no rule/gate/forecast change"
+}
