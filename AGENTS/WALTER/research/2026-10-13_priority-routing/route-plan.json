@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "wfc-q3-nonbank-reclassification-and-reserve-attribution",
+    "title": "Wells Fargo Q3: nonbank categories revised; aggregate reserve build is not private-credit attribution",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": ["BROCK", "REGINALD"],
+    "info": ["LIQUID", "SHADE", "RED", "PROME"],
+    "entities": ["Wells-Fargo", "WFC"],
+    "origin": "WFC October13 earnings release and SEC EX99.2, period ended September30 2026",
+    "confidence": 0.95,
+    "body": "Wells Fargo's October13 preliminary Q3 release attributes its $46M total allowance increase to higher C&I/auto loan balances, partly offset by lower CRE allowance. Nonperforming assets fell $7,944M→$7,359M; liquidity coverage rose 119%→122%. These are company-wide observations, not regional-bank funding evidence.\n\nThe same-release supplement p23 revises prior-period categories: trade-receivable SPE loans moved from commercial finance to Other, with certain additional loans moved to manufacturing/technology. On the revised June30 comparison, financials-except-banks balances rose $198,229M→$200,884M (+1.34%); nonaccruals fell $228M→$213M. No loss recovery is inferred from these movements.\n\nCHANGE: new Q3 inputs and a comparability warning for the existing BRK-31 frame. Generic C&I attribution does not establish its PC/NDFI build leg. Call/Q&A and final10-Q remain outside this bounded read; absence there is not claimed. BROCK owns the grade; REGINALD owns bank-context integration. Keep regional workout/funding conclusions unchanged absent those banks' evidence.",
+    "sources": [
+      {"date": "2026-10-13", "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm", "basis": "Q3 release: allowance explanation; liquidity and credit tables"},
+      {"date": "2026-10-13", "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex992xsuppl.htm", "basis": "Preliminary supplement p23 commercial portfolio, footnote3; restated prior periods"}
+    ],
+    "ask": "Use these release-day inputs in the existing BRK-31/Q3 read. BROCK owns attribution and grading; REGINALD owns the bank context. Compare restated categories on the same basis; retain call/10-Q gaps. No score or cohort expansion requested.",
+    "refs": ["AGENTS/BROCK/research/2026-10-09_BRK-31_bank-Q3_frame_FROZEN.md", "AGENTS/REGINALD/reports/2026-10-09_Q3_earnings_read_plan.md"]
+  },
+  {
+    "slug": "eiopa-final-pe-insurer-supervision-recapture-capital",
+    "title": "EIOPA final statement specifies retained-risk and recapture-capital supervision; no named distress event",
+    "domain": "INSURANCE_SHADOW",
+    "cluster": "PC_STRESS",
+    "action": ["SHADE", "HANS"],
+    "info": ["BROCK", "LIQUID", "REGINALD", "RED", "PROME"],
+    "entities": ["EIOPA", "PE-insurers"],
+    "origin": "EIOPA final statement EIOPA-BoS-26/388, October6; recovered October13",
+    "confidence": 0.95,
+    "body": "EIOPA published its final PE-related insurer supervisory statement on October6, not October13. It addresses EU national supervisors. Sections6.3–6.7 call for valuation/asset-liability scrutiny, assessment of effective reinsurance risk transfer and retained risks, and sufficient funds for the capital requirements when ceded assets return to the insurer. Affiliate support and unconstrained investment by a PE-related reinsurer are explicit supervisory concerns.\n\nCHANGE: a final primary supervisory instrument now supplies concrete checks for the existing insurer/private-credit transmission investigation. It does not establish a loss at Athene, Delaware Life or ClearSpring, or a named bank warning under HANS-T-14. The statement also recognizes possible capital/yield/operating benefits from PE ownership. EU supervision is not a new US enforcement action.\n\nReuse SHADE's legal-entity exposure map. No cohort rescore, liquidity-crisis conclusion, US illiquidity breach, new broad study or L673 dig follows automatically. The owner decides relevance to retained-loss, collateral and funding questions.",
+    "sources": [
+      {"date": "2026-10-06", "url": "https://www.eiopa.europa.eu/publications/supervisory-statement-authorisation-and-ongoing-supervision-reinsurance-undertakings-related-private_en", "basis": "Final publication page; EIOPA-BoS-26/388 PDF pp8–9, sections6.1–6.7"},
+      {"date": "2026-10-06", "url": "https://www.eiopa.europa.eu/document/download/33a5b18f-19c8-470b-8b72-50dc28f6124d_en", "basis": "Primary final statement; legal basis and risk-transfer/recapture capital text"}
+    ],
+    "ask": "SHADE: assess this final instrument against the already-owned loss-bearer/retained-risk investigation. HANS: integrate EU supervision context while retaining HANS-T-14's named-event condition. Do not infer US enforcement, a named loss or a new gate.",
+    "refs": ["AGENTS/SHADE/NEXUS_BRIEF.md", "PROME/reports/2026-10-13_research-and-next-trades.md", "AGENTS/HANS/registry/THRESHOLDS.tsv#HANS-T-14"]
+  },
+  {
+    "slug": "moodys-rnf-primary-teaser-public-visibility-gap",
+    "title": "Moody's October8 RNF teaser confirms allocation growth and limited public visibility; exposure sizing withheld",
+    "domain": "INSURANCE_SHADOW",
+    "cluster": "PC_STRESS",
+    "action": ["SHADE"],
+    "info": ["BROCK", "LIQUID", "RED", "PROME"],
+    "entities": ["Moodys", "rated-note-feeders"],
+    "origin": "Moody's October8 primary research teaser; October13 AlternativeCreditInvestor relay",
+    "confidence": 0.80,
+    "body": "Moody's own insurance research listing dates its rated-note-feeder item October8. The accessible primary teaser says US life insurers have more than doubled allocations to these vehicles, with high yields/low capital charges and limited public visibility into terms and performance. RNFs are rated debt issued by feeder vehicles accessing underlying funds.\n\nCHANGE: a primary-supported visibility and wrapper lead for SHADE's existing investigation, rather than a new October13 ratings action. The full Moody's report, measurement window, dollar base, insurer identities and legal-entity loss allocation were not obtained. The October13 relay's 35% private-credit figure is withheld as an adopted exposure baseline because its primary definition/perimeter was not recovered.\n\nNo RNF loss, downgrade, liquidity event or L673 trigger is established. Growth alone does not quantify stress; missing public transparency is not proof that insurer investors lack transaction information. No expansion of the existing study or unconditional dig requested.",
+    "sources": [
+      {"date": "2026-10-08", "url": "https://www.moodys.com/web/en/us/insights/insurance.html?tag=1829", "basis": "Accessible primary listing/teaser only; full report not obtained"},
+      {"date": "2026-10-13", "url": "https://alternativecreditinvestor.com/2026/10/13/moodys-life-insurers-increasingly-rely-on-rnfs/", "basis": "Secondary relay; not a new ratings action or authenticated exposure denominator"}
+    ],
+    "ask": "Assess the primary-supported wrapper/visibility lead within SHADE's existing legal-entity investigation. Keep dollar sizing, measured horizon, named insurers and losses UNKNOWN until the underlying report/entity evidence supplies them; retain L673's gates.",
+    "refs": ["AGENTS/SHADE/NEXUS_BRIEF.md", "PROME/reports/2026-10-13_research-and-next-trades.md"]
+  },
+  {
+    "slug": "senate-oct13-russian-diesel-rescission-request-not-revocation",
+    "title": "Twelve senators ask to rescind Russian diesel relief; the letter is not license revocation or a supply measurement",
+    "domain": "OIL_ENERGY",
+    "cluster": "HYDROCARBON_INFRA",
+    "action": ["BRENT", "HAWK"],
+    "info": ["YURI", "OSPREY", "HANS", "RED", "PROME"],
+    "entities": ["Russian-diesel", "GL135", "US-Senate"],
+    "origin": "US Senate Foreign Relations Committee October13 primary letter/publication",
+    "confidence": 0.95,
+    "body": "Twelve senators' October13 letter asks President Trump to withdraw the Russian diesel agreement and rescind General License135. The committee publishes the letter and signatories. This is a new bipartisan political challenge, not a Treasury revocation, court ruling or measured reduction in exports. Its claims about legality and negligible price relief remain the senators' claims; WALTER makes no legal or price-effect grade.\n\nCHANGE: added execution-policy uncertainty around the existing potential easing channel. It supplies no shipped volume, refinery run-rate, grade/destination linkage or matched supply increment. DEWEY's concurrent October13 checkpoint still reports no authenticated deal-attributable delivery in its bounded evidence; unknown is not zero. BRENT's October13 WAIT remains unchanged at the owner.\n\nDo not count the letter as a Russian state instrument or an export ban. Reuse the existing DEWEY/BRENT commission and source record; no repeat cargo study or trade screen requested.",
+    "sources": [
+      {"date": "2026-10-13", "url": "https://www.foreign.senate.gov/press/dem/release/shaheen-bipartisan-senators-call-on-trump-to-rescind-russian-diesel-deal-and-implement-sanctions-authorized-by-congress-last-month-on-enablers-of-putins-war-against-ukraine", "basis": "Primary committee publication including letter text and twelve signatories"}
+    ],
+    "ask": "BRENT: integrate the new policy-execution uncertainty into the existing delivered-diesel relief assessment. HAWK: retain the sanctions-policy request as a request. Preserve owner WAIT and source gaps; no new study/screen.",
+    "refs": ["AGENTS/BRENT/research/2026-10-13_energy-wait/REPORT.md", "AGENTS/DEWEY/output/2026-10-13_diesel-delivery-and-primary-document-checkpoint.md", "SIG-W-20261012-016", "SIG-W-20261012-030"]
+  },
+  {
+    "slug": "cboe-oct12-skew-two-of-four-publisher-watch",
+    "title": "CBOE publishes October12 SKEW155.06: two of four qualifying closes; October13 still unavailable",
+    "domain": "MARKET_VOL",
+    "cluster": "POSITIONING_VALUATION",
+    "action": ["VIOLET"],
+    "info": ["HENRY", "LIQUID", "RED", "PROME"],
+    "entities": ["CBOE", "SKEW", "RED-FT-10"],
+    "origin": "CBOE SKEW_History.csv retrieved October13 23:08Z",
+    "confidence": 0.95,
+    "body": "The CBOE publisher CSV retrieved October13 contains October12 SKEW155.06 after October9's154.34; October8 was149.19. Against RED-FT-10's >=150 for4 eligible published closes, this is2/4, not a fire. No October13 bar was present in this pull; count remains2, not3. If the next two eligible observations qualify, October14 remains the earliest possible fire, subject to publisher availability and the registered missing-session rule.\n\nCHANGE: closes the carried October12 publisher-bar gap and advances the existing watch by one eligible observation. VIOLET owns the October14 assessment. No early fire or recycled pre-CPI construction ask. FRED HY311bp/CCC1253bp and VIX15.21 are dated October12, not current October13 levels; the October12 bond-market holiday must not become an invented fresh cash-credit witness.\n\nThis read is publisher-as-observed evidence, not a first-publication vintage archive. No confidence weight, state exit or trade approval moved.",
+    "sources": [
+      {"date": "2026-10-12", "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv", "basis": "Publisher rows; retrieved October13, last bar October12"},
+      {"date": "2026-10-12", "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2", "basis": "Own-date observation; credit context only"}
+    ],
+    "ask": "Integrate the newly published October12 bar into the existing October14 SKEW assessment. Keep 2/4 and the unavailable October13 bar explicit; only eligible publisher bars complete the grade. No early fire or trade-construction request.",
+    "refs": ["AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv#RED-FT-10", "AGENTS/VIOLET/NEXUS_BRIEF.md", "AGENTS/WALTER/research/2026-10-13_priority-routing/SKEW_History.csv"]
+  }
+]

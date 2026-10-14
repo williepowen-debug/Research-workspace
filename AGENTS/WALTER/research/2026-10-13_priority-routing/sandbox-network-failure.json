@@ -1,0 +1,149 @@
+{
+  "as_of": "2026-10-13T23:05:01.578345+00:00",
+  "basis": "Fetched evidence; intraday/vendor bars do not complete settlement or daily-close grades.",
+  "BAMLH0A0HYM2": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "T5YIFR": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "VIXCLS": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "BAMLH0A3HYC": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "ICSA": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "SOFR": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "DGS2": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "DGS10": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "IORB": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "DGS5": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "prices": {
+    "KRE": {
+      "error": "Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "name": "Regional Banks ETF"
+    },
+    "WAL": {
+      "error": "Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "name": "Western Alliance"
+    },
+    "OZK": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "Bank OZK"
+    },
+    "^VIX": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "VIX"
+    },
+    "QQQ": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "QQQ"
+    },
+    "USO": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "USO"
+    },
+    "CLX26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "CLX26.NYM"
+    },
+    "CLZ26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "CLZ26.NYM"
+    },
+    "BZZ26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "BZZ26.NYM"
+    },
+    "RBX26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "RBX26.NYM"
+    },
+    "RBZ26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "RBZ26.NYM"
+    },
+    "HOX26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "HOX26.NYM"
+    },
+    "HOZ26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "HOZ26.NYM"
+    },
+    "TTFX26.NYM": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "TTFX26.NYM"
+    },
+    "EURUSD=X": {
+      "error": "'NoneType' object is not subscriptable",
+      "name": "EURUSD=X"
+    }
+  },
+  "DGS20": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "SKEW": {
+    "error": "URLError"
+  },
+  "DGS30": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "DFII10": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "AGSI": {
+    "row": null,
+    "error": "AGSI pull failed: <urlopen error [Errno -3] Temporary failure in name resoluti",
+    "norm": null
+  },
+  "T10YIE": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "Cushing": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ]
+}

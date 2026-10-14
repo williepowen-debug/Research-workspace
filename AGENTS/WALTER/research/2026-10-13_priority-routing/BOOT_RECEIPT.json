@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-10-13T23:25:10Z",
+  "desk": "WALTER",
+  "runtime": "OpenAI Codex",
+  "model": "GPT-6 family; exact variant UNKNOWN",
+  "session": "/root; native session UUID unavailable",
+  "repo": "/home/willi/Research-workspace",
+  "cwd": "/home/willi/Research-workspace/AGENTS/WALTER",
+  "root_instructions": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "USER.md"
+  ],
+  "local_instructions": "CLAUDE.md explicitly read in chunks;local AGENTS.md absent",
+  "handoff": "LAST_COMPLETION.md read and evaluated;predecessor bytes archived",
+  "authority": "Will direct October13 boot/routing priorities;PROME October13 report reused",
+  "state": "PARTIAL",
+  "pull": "main ff-only pull succeeded at boot;later foreign work prohibits pull/push",
+  "intake": "October13 lane pulled;health current0missed;18 grouped keys/27 flagged articles;all dispositions recorded,not --mark because retained body gaps",
+  "phone": "source directory absent;no item",
+  "dropzone": "0 content files",
+  "inbox": "0 top-level md at first pre-intake scan;late DEWEY checkpoint read whole",
+  "X": "sandboxDNS retried with approval;refreshHTTP400;scan failed,nothingmarked;654 prior seen is historical,not today clearance",
+  "registry": "45 rows;every existing STATUS first30 lines captured;not full-owner evidence",
+  "readiness": "fleet listing/native transport unavailable;thread-local collaboration not fleet visibility;ORCH_INFLIGHT read whole;foreignBRENT/DEWEY/REGINALD/TERRY activity observed;0 dark inference/doorbells",
+  "read_checks": "basis29 MATCH;declaredREADS/readcap REVIEW:localcharter70223B above32550B;no charter migration authority",
+  "thresholds": "48 rows loaded/counted(RED12/REG8/CREED11/HANS17);currentpull partial;officialfutures13,UK/Bundcloses,TTFidentity,monthly/qualitative/compoundlegs remainungraded;no fullclearance",
+  "helper": "RULE9 read-only refinery_verify;resultread;explicitcloseoutreceipt received;no domainownerlaunch or process-exit inference"
+}

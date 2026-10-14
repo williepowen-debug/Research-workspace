@@ -1,30 +1,25 @@
 # WALTER STATUS
-**Updated:** 2026-10-13T14:24:38Z — Will-requested FULL closeout; handoff saved. Research coverage **PARTIAL**. BOARD **1367**; last routing day October12 **44 signals (1 FLASH,43 PRIORITY)**. This closeout:0 new signals, one MIDAS return CLOSED3/3 FOLD,3 helper closeout receipts. October12 cluster-mediating count0; no threshold alert generated.
+**Updated:** 2026-10-13T23:25:10Z — Will-launched priority routing;boot/researchPARTIAL. BOARD **1373**;October13 **6 PRIORITY** signals,0FLASH/IMMEDIATE,0cluster-mediating,0newfires. Prior assessments reused;source limits travel with packets.
 
 ## BOTTOM LINE
 
-Requested bookmark work is complete:48 posts/50 content items assessed,13 source-qualified updates saved, exact48 reviewed IDs marked (654 total,0 pending at the saved scan). YURI source qualifications and the latest MIDAS vehicle/PGM/silver distinctions are adopted without a new grade or research commission. Court-document access, diesel physical additionality and owner-consumption gaps remain unresolved. This closeout adds no October13 market or broker observation; the table below is dated evidence. Current obligations, publication facts and the resume point live in LAST_COMPLETION.md.
+New WFC reserve/comparison inputs,finalEIOPA supervision,Moody's limitedRNF primaryteaser and Senate diesel-policy challenge reached WALTER's routing layer. A qualifiedWoodRiver FCC pointer retains unknown lostoutput/duration;CBOE October12 advances existingSKEW watch to2/4. No regional-bank fundingbreak,private-credit loss,delivered diesel increment or changed energyWAIT established. Evidence and next duties: LAST_COMPLETION.md.
 
-## DATED MARKET OBSERVATIONS — retrieved October12 20:58Z unless separately dated
+## DATED MARKET OBSERVATIONS — retrieved October13 23:08Z
 
 | Object | Observation and limit |
 |---|---|
-| Credit | FRED HY315bp / CCC1252bp [October8]; HY is5bp/1.5625% below strict>320, count0/3. CCC fire banked; no repeat. October9 credit print still absent at20:58Z; no current-credit clearance. |
-| Volatility | VIXCLS14.84 [October9]. CBOE SKEW154.34 [October9], prior149.19 [October8],1/4. October12 session ended but its CBOE publisher bar still absent at20:58Z; count not advanced. |
-| Labor / inflation | ICSA197K [week endingOctober3, latest revised basis]; T5YIFR2.32 [October9]. No first-release recertification from revised claims. |
-| Rates / funding | DGS10 5.22 /30Y5.60 [October8]; DGS30 five-session changeOctober1→8 -1bp, butterfly+2bp: neither FT11 precondition. SOFR3.87−same-dateIORB3.90=-3bp; forward-stamped IORB not substituted. |
-| UK yields | TE October12 web snapshots:10Y5.4389%,30Y5.9350%,6.11/6.50bp below5.50/6.00. Not certified closes; 30Y title/basis ambiguity retained. |
-| Storage | AGSI gasdayOctober11 fill73.75%, native five-year norm88.722%, gap−14.972pp. Existing state OPEN; exit>−12 not met,0/5. Norm composition/economic usefulness remain unvalidated. |
-| Energy / instruments | Cushing24.745M bbl [week endingOctober2]; EIA raw24745 thousand bbl converted. Vendor named CLX/CLZ93.20/92.30 [October12 retrieval20:58Z, last trades16:48ET]; BZZ/TTFX metadata truncated, product prices rounded, no settlement-grade crack/count. Boundary5 NO INSTRUMENT. |
-| Freight | Baltic/Gibson dated weekly observations remain in `research/tanker-cost-watch/STATE.csv`; publisher week-on-week base discrepancy unresolved. Costs and flows are separate. |
-| Banks | Vendor retrieval20:58Z KRE69.56/WAL74.69/OZK45.32, October12 regular-session last trades; single pull, no independent final-close certification. RaDD October9 execution disclosed October12: December2029, fresh100M, redraw possible, as-stabilized LTV, recognition UNKNOWN. |
-| Consumer | New Michigan October preliminary sentiment46.3; linked June23–September21 survey measures intentions, not realized spending. SCF income2021→24 and wealth2022→25, real dollars; mean/median and group definitions preserved in signals007/008. |
-| Maritime | UKMTO October9 report data throughOctober7: composite129out/146in, US component not independently verified. IMO104/24 as atOctober12. UKMTO5 total losses vs FALCON3 qualifying losses unresolved; owner grade held, no two-loss inference. |
-| Iran | Last full sweep October8; October12 limbs/source-access improvements do not reset it. Losses3 / marks1–14–85 are inherited owner grades. Anchor now22681B, below rotation stop; guards remain active. Source gaps prevent a full current-state clearance. |
-| Book basis | October11 broker receipt, exact capture/mark time UNKNOWN. TERRY October12 header integrates OZK extension and existing expiry cards; no order or fill inferred. |
+| Credit | FRED MIRROR HY311bp/CCC1253bp [October12];HY9bp/2.8125% below strict>320,0/3;CCC fire banked,no repeat. October12 bond holiday may carry cash series,not a fresh independent witness. October13 credit print unavailable. |
+| Volatility | FRED MIRROR VIXCLS15.21 [October12];banked state,exit>=18 not met. CBOE PRIMARY SKEW155.06 [October12] after154.34 [October9],2/4 at>=150;October13 publisher bar absent. Watch routed005;no fire. |
+| Funding / rates | SOFR3.87−IORB3.90=-3bp [matchedOctober9];forwardIORB14 not substituted. DGS10/30 5.24/5.60 [October9],not October13. T5YIFR2.33 [October13]. |
+| Labor | ICSA197K [weekendingOctober3,current revisedFRED mirror];no first-release recertification. |
+| Banks | Vendor datedOctober13 KRE69.06,WAL73.73,OZK45.08;singlepull,not independent closecertification. WAL existing cycle2:no >=81.90 exit;no repeatfire. Issuer Q3workout outcomes remainpending. |
+| Storage | AGSI gasdayOctober13 fill74.04%−same-source5yrnorm88.884%=-14.844pp;existingOPEN,exit>-12 notmet,0/5. Baselinecomposition/economicusefulness unvalidated. |
+| Energy | Cushing24.745M bbl [weekOctober2];currentweek not yetpublished. October13 vendorfutures not formalsettles. BRENT/DEWEY recoveredOctober12 CMEfinal pairedinputs;no duplicated grade. Currentnamedsite run-rates/deliverednetdiesel UNKNOWN. |
+| UK / HANS remainder | UK/Bund closes,TTF contractidentity,Italy/France matchedcloselegs notrefreshed in this pass;old observations are not currentclearance. Monthly/qualitative rows remain owner/source-limited. |
+| Broker / Iran / freight | No newbroker or completeIranladder/freight survey;previous datedowner evidence retained. Brokertruth off-repo;no order/fill inferred. |
 
-
-**Closeout disposition 2026-10-13T14:24:38Z:** no fresh market pull in this persistence closeout; every above near-trigger level/count remains at its stated source/retrieval vintage. Current October13 levels and eligible new closes are UNKNOWN until the next ordinary source pass. No threshold fire or trade clearance inferred.
+Evidence: `research/2026-10-13_priority-routing/observations.json` and `threshold-coverage.tsv`. Source dates govern. No full-market clearance.
 
 ## MISSION
 
@@ -43,7 +38,7 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 REGISTRY reviewed/refreshed at2026-10-13T14:24:38Z, before this derived subsection. First30-line scopes captured for every existing registry STATUS file; missing files explicitly recorded. This is owner-header context, not full-owner evidence, runtime presence or fresh-market certification. Unchanged metadata retained; dated closeout/thesis updates for REGINALD,SHADE,YURI,MIDAS and WALTER qualified. Older registry dates (age does not establish DARK): YEYOU 2026-09-05 (38d;RETIRED); RAV 2026-08-02 (72d;YELLOW); OTTO 2026-10-04 (9d;RED2); ATHENA 2026-03-14 (213d;GREEN); CRUISE 2026-10-03 (10d;RED); DARWIN 2026-02-18 (237d;YELLOW); CREED 2026-10-01 (12d;ORANGE); SENTRY 2026-09-24 (19d;YELLOW); DEWEY 2026-09-10 (33d;YELLOW); HOMER 2026-10-02 (11d;RED); FLG 2026-10-01 (12d;YELLOW).
 
-Today's routing:0 new BOARD dispatches. Last completed day October12 has44 BOARD signals; canonical route/delivery facts are in the owned logs and closeout receipt. Fleet liveness UNKNOWN; no doorbell or owner launch. Foreign PROME/TERRY working-tree changes were observed; Git disposition is in LAST_COMPLETION.md. Three existing thread-local helpers answered the explicit closeout ask; no fleet/process-exit inference.
+October13 routing:6new PRIORITY signals;canonical route/delivery facts in owned logs and LAST_COMPLETION. Fleet liveness UNKNOWN;0doorbells/ownerlaunches. ForeignBRENT/DEWEY/REGINALD/TERRY activity observed. One RULE9 read-only verification helper returned and explicitly answered closeout;not fleet presence or process-exit proof.
 
 ## Active LIAISON channels
 

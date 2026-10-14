@@ -1,0 +1,9 @@
+{
+  "recipient": "REGINALD",
+  "signal_id": "SIG-W-20261013-001",
+  "commit": "f8cf2226e",
+  "artifact": "AGENTS/REGINALD/reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md",
+  "sha256": "c94077b60ea08cf3a13d14ec5ce084855815fa513dd49b6647a0f315f3de178c",
+  "result": "Owner independently checked SEC release/supplement and integrated comparability/attribution context;no cohort/grade change. SIG002 INFO_ONLY,primarynotindependentlyreviewed.",
+  "publication": "separate;WALTERpacketoriginpending"
+}

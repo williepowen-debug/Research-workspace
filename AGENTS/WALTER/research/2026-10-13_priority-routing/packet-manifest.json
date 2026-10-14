@@ -1,0 +1,118 @@
+{
+  "prepared_at": "2026-10-13T23:15:36Z",
+  "files": [
+    {
+      "path": "BOARD/SIG-W-20261013-001-wfc-q3-nonbank-reclassification-and-reserve-attribution.md",
+      "sha256": "dec4a045d7b8b92bce86f1beb4b1cae605f6765e15377b30d51f76fc9917ec70"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-001.md",
+      "sha256": "f5050d5fccb2e96c31acb8d12ac1cb7d74cc4bd4050c26d9d256c06320d5a690"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-001.md",
+      "sha256": "8c40b59062002bc979d7196325ef1a2f52989334bddb5d4ee83587c80fec0dbe"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-001.md",
+      "sha256": "af2e0aaae28fa7701f4c4181ea4149cfc2278c8daf32f01f5fac02a076ab22d8"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-001.md",
+      "sha256": "752f2ede3b65b9f37ab3b3b280e0dcddb71c92e1fc5105be7138ff158eab037a"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-002-eiopa-final-pe-insurer-supervision-recapture-capital.md",
+      "sha256": "f9548e73db0c76102d611be20a104eeaa7873c615e6d03170857849fcb695c46"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-002.md",
+      "sha256": "6b64894412c8bd00eb3f602740b98e9f464c1ee453058015e045a80152b81f26"
+    },
+    {
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261013-002.md",
+      "sha256": "f681a5a4cf0c21106fc05669045ccc0d15e3d4d495152a5f19e8dd0f7ed2d21d"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-002.md",
+      "sha256": "e3872b44e8a81ef9d46b19e522fef9ce433a0f664391b56970891f7a81c02682"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-002.md",
+      "sha256": "02ca7e16c49e9fccf1f18583d86c1ffa52e5e20b65eb4ff000fc31222ab55ab0"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-002.md",
+      "sha256": "8a7dcf48db6454fe5479dc5e7cf5908f2590370dbaabde172933ed99a88c7679"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-003-moodys-rnf-primary-teaser-public-visibility-gap.md",
+      "sha256": "a305c681cc93cca21b12814d86ba2dd008285d796a0759580359dfc51ee1c3e5"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-003.md",
+      "sha256": "1f79045d12929c369f1b6613c9d23b51753da548f37765770711b21957487eb7"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-003.md",
+      "sha256": "ce1c4d804e8bb0644324db77d9a6587656e77bb19c9d5f2bb928933735b69424"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-003.md",
+      "sha256": "03b2a1395f616ef6786c09e5e0dd44c2288f0ee191839ab12a1b5f7a9aa2bda7"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-004-senate-oct13-russian-diesel-rescission-request-not-revocation.md",
+      "sha256": "0c272af1d2b8a76cf60f0fb242af5de6bc453a8c9a378938723abf095db42452"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-004.md",
+      "sha256": "553607b588d58e2e4f9f670d233cfd80ca1bb621f207d5391b77f3868cc7a54d"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-004.md",
+      "sha256": "25358c00a3e8f052e2457057256ef1c2062a7efc9c2951482c579a6a7022b26a"
+    },
+    {
+      "path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261013-004.md",
+      "sha256": "b4049711cc6d9f3d2c68e9da11743b190ee638a53b1cc2f321ff116029ed1474"
+    },
+    {
+      "path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261013-004.md",
+      "sha256": "df351871b1546f4879b416334b559d67d21078e8217d6b785ceb1f189d6dc6a6"
+    },
+    {
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261013-004.md",
+      "sha256": "a59c306a76f3c0329e99bae28b83696203f304e6030b068255bdf4e9e04aedd8"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-005-cboe-oct12-skew-two-of-four-publisher-watch.md",
+      "sha256": "e88c8afa8e4f578d2269bda15f48737f0e91b88ba456dfe646fadf735bdf1354"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261013-005.md",
+      "sha256": "3c1f837c9bda7172aba59284f89f48a4d600f5382d02ca94e165a4b43cf291b1"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-005.md",
+      "sha256": "be705bbf6965998b81534efcca5cd34b35bfd9923a39d023ef228b09b8e09ec8"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-005.md",
+      "sha256": "8264192de6f6a96be6e95817ffa306febb6a09534a2e5da3e47623f1161267a5"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-006-wood-river-fcc-report-primary-event-and-output-unverified.md",
+      "sha256": "f0562a3a181cc48258e11688e20e6744f4a0bc61f855367f0a7239aea2987838"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-006.md",
+      "sha256": "62ace27c5eee3422a171cec67cf2f95cfdc877dd0a888f6a16ef251baedb296b"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-006.md",
+      "sha256": "34cc16b4cc9c264f016d3d9d2e0a14348611e33510e65284d6d10cbf1894a45a"
+    }
+  ],
+  "header_repair": "Pre-first-commit scalar serialization only;source bodies/route roles unchanged."
+}

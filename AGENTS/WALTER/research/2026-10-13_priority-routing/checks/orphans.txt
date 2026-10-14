@@ -1,0 +1,38 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-004.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-006.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-001.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-002.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-003.md
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261013-002.md
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261013-004.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-004.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-005.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-006.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-001.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-002.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-003.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-005.md
+     [not yours]    AGENTS/OSPREY/inbox/WALTER/SIG-W-20261013-004.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-13_Q3_cash-loss-valuation_receipt.json
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-13_boot-network.txt
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-001.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-002.md
+     [not yours]    AGENTS/REGINALD/reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md
+     [not yours]    AGENTS/REGINALD/scripts/.kre_float_state.json
+     [not yours]    AGENTS/REGINALD/workbook/SHORT_VOL.tsv
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-001.md
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-002.md
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-003.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261013-005.md
+     [not yours]    AGENTS/YURI/inbox/WALTER/SIG-W-20261013-004.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261013-001-wfc-q3-nonbank-reclassification-and-reserve-attribution.md
+     [not yours]    BOARD/SIG-W-20261013-002-eiopa-final-pe-insurer-supervision-recapture-capital.md
+     [not yours]    BOARD/SIG-W-20261013-003-moodys-rnf-primary-teaser-public-visibility-gap.md
+     [not yours]    BOARD/SIG-W-20261013-004-senate-oct13-russian-diesel-rescission-request-not-revocation.md
+     [not yours]    BOARD/SIG-W-20261013-005-cboe-oct12-skew-two-of-four-publisher-watch.md
+     [not yours]    BOARD/SIG-W-20261013-006-wood-river-fcc-report-primary-event-and-output-unverified.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

@@ -1,0 +1,49 @@
+trigger_id	verdict	details
+RED-FT-01	NO-NEW-FIRE	FRED MIRROR HY311bp [Oct12;Oct9 also311],strict320/350 sustain3 not met;<280/<260 not met. Oct12bondholiday may carry index values. CurrentOct13unavailable.
+RED-FT-02	NO-NEW-FIRE	FRED MIRROR HY311bp [Oct12;Oct9 also311],strict320/350 sustain3 not met;<280/<260 not met. Oct12bondholiday may carry index values. CurrentOct13unavailable.
+RED-FT-03	PARTIAL	October13officialBrentsettlements unavailable;vendorcontract metadata unresolved;no sustaincount completed.
+RED-FT-04	PARTIAL	October13officialBrentsettlements unavailable;vendorcontract metadata unresolved;no sustaincount completed.
+RED-FT-05	NO-NEW-FIRE	FREDICSA197K [w/eOct3,currentrevisedmirror];below250/300;notfirst-release recertification.
+RED-FT-06	CONTINUATION	VIXCLS15.21 [Oct12FREDMIRROR];bankedstate,exit>=18 notmet0/5.
+RED-FT-07	CONTINUATION	CCC1253bp [Oct12FREDMIRROR];bankedfire;noexit<930/run,no repeat.
+RED-FT-08	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+RED-FT-09	NO-NEW-FIRE	T5YIFR2.33 [Oct13FREDMIRROR],strict>2.55 notmet0/5.
+RED-FT-10	WATCH	CBOEPRIMARY154.34[Oct9],155.06[Oct12],2/4>=150;Oct13barabsent;firstpublicationvintageunavailable;SIG005.
+RED-FT-11	NO-NEW-FIRE	FRED endpointsOct2→9DGS30 5.63→5.60=-3bp;fly(2*DGS20-DGS10-DGS30)43→46=+3bp;neitherprecondition;officialOct13absent.
+RED-FT-12	NO-NEW-FIRE	FRED MIRROR HY311bp [Oct12;Oct9 also311],strict320/350 sustain3 not met;<280/<260 not met. Oct12bondholiday may carry index values. CurrentOct13unavailable.
+REG-T-01	PROVISIONAL	VendorOct13KRE69.06 above<60;no independentfinalclosecertificate.
+REG-T-02	CONTINUATION	VendorOct13WAL73.73;existingcycle2fire,no>=81.90exit;no repeatfire.
+REG-T-03	NO-NEW-FIRE	FRED MIRROR HY311bp [Oct12;Oct9 also311],strict320/350 sustain3 not met;<280/<260 not met. Oct12bondholiday may carry index values. CurrentOct13unavailable.
+REG-T-04	NO-NEW-FIRE	FRED MIRROR HY311bp [Oct12;Oct9 also311],strict320/350 sustain3 not met;<280/<260 not met. Oct12bondholiday may carry index values. CurrentOct13unavailable.
+REG-T-05	NO-NEW-FIRE	FREDICSA197K [w/eOct3,currentrevisedmirror];below250/300;notfirst-release recertification.
+REG-T-06	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+REG-T-07	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+REG-T-08	NO-NEW-FIRE	MatchedOct9SOFR3.87−IORB3.90=-3bp;positive>15fire unmet;laterIORBnotpaired.
+CREED-T-01a	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-01b	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-02	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-03	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-04	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-05	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-06	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-06b	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-07	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-08a	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+CREED-T-08b	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-01	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-02	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-03	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-04	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-05	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-06	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-07	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-08	CONTINUATION	AGSIPRIMARYOct13 74.04−88.884=-14.844pp;exit>-12 notmet0/5;baselinecomposition/economicusefulnessunvalidated.
+HANS-T-09	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-10	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-11	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-12	UNINSTRUMENTED	No crosscurrencybasis feed;cannot fire;not a clean-row measurement.
+HANS-T-13	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-14	PARTIAL	EIOPAfinal supervision statement doesnotname bank loss/institution systemic event under this letter;notwholecurrentdistresscensus.
+HANS-T-15	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-16	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.
+HANS-T-17	PARTIAL	Source schedule/qualitative/compound/instrument gap;no fresh grade or registry clearance;owner row governs.

@@ -1,0 +1,51 @@
+{
+  "commit": "86686cdb3",
+  "sha256": "5be083663c8939fdc6c6f2cb90868a61af20c47aebeb455a766e76384a139e92",
+  "stubs": [
+    {
+      "recipient": "BRENT",
+      "paths": [
+        "AGENTS/BRENT/inbox/2026-10-13_from-DEWEY_diesel-delivery-primary-checkpoint.md"
+      ],
+      "state": "present"
+    },
+    {
+      "recipient": "TERRY",
+      "paths": [
+        "AGENTS/TERRY/inbox/2026-10-13_from-DEWEY_diesel-delivery-primary-checkpoint.md"
+      ],
+      "state": "present"
+    },
+    {
+      "recipient": "OSPREY",
+      "paths": [
+        "AGENTS/OSPREY/inbox/2026-10-13_from-DEWEY_diesel-delivery-primary-checkpoint.md"
+      ],
+      "state": "present"
+    },
+    {
+      "recipient": "YURI",
+      "paths": [
+        "AGENTS/YURI/inbox/2026-10-13_from-DEWEY_diesel-delivery-primary-checkpoint.md"
+      ],
+      "state": "present"
+    },
+    {
+      "recipient": "HANS",
+      "paths": [
+        "AGENTS/HANS/inbox/2026-10-13_from-DEWEY_diesel-delivery-primary-checkpoint.md"
+      ],
+      "state": "present"
+    },
+    {
+      "recipient": "PROME",
+      "paths": [
+        "PROME/inbox/2026-10-13_from-DEWEY_diesel-delivery-primary-checkpoint.md"
+      ],
+      "state": "present"
+    }
+  ],
+  "backstops": 0,
+  "research_state": "PARTIAL",
+  "consumption": "WALTER source reviewed;otherrecipient consumption UNKNOWN"
+}
