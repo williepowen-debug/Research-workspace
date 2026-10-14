@@ -75,6 +75,8 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
+**10/13 review response completed:** `reports/2026-10-13_review-response_forward-judgments.md`; analytical expectations plus four-bank earnings/book and conditional valuation bridge.16 primary numeric cores checked,5 VLY fresh-source gaps exposed; metadata/locator repair only. No new monitoring/scoring/trade rail.
+
 **10/13 bounded research continuation completed:** `reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md` attaches decision-changing cash/loss/retained-risk and valuation questions to existing21 bridge rows; Q3 outcomes remain pending. Same-expense earnings/TBV sensitivities are diagnostics, not a revised loss forecast. VLY call-time source check recorded; no new universe, monitor, scoring rule or trade.
 
 **10/12–13 regional-bank policy/CRE report + bounded workout bridge resolved and closed:** `reports/2026-10-12_regional-bank-policy-CRE-report-review.md`; `reports/2026-10-12_workout-outcome-bridge.md`; `reports/2026-10-13_workout-bridge-closeout.md`; `workbook/WORKOUT_OUTCOME_BRIDGE.tsv`; KB207–214. Full DOCX plus decisive primaries checked, then 21 OZK/EGBN/VLY/WAL rows encoded with basis/reconciliation/overlap guards. Second tranche completes the four-loan EGBN maturity baseline, VLY retention/re-default evidence and WAL classified-component identity. Existing Q3 reads fill unknowns; no new thread, calendar date, score, cohort, frozen-frame or trade change.
