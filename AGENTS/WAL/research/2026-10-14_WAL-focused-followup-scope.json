@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-14",
+  "operator_request": "Keep focus on WAL; identify worthwhile further research or investigation.",
+  "status": "PROPOSED_BOUNDED_FOLLOWUPS; source scoping performed, full investigations not executed or scheduled",
+  "basis": "Completed FFIEC history/earnings bridge and bounded intraday comparison. Price rank alone creates no causal attribution or numerical thesis change.",
+  "priorities": [
+    {
+      "rank": 1,
+      "name": "NDFI troubled-loan attribution and movement bridge",
+      "question": "How much of the historical nonbank nonaccrual balance is known credit, related exposures, reclassification or genuinely additional borrower stress?",
+      "trigger": "Seven observations show late2025jump/decline/June2026rebound; total borrower/loss movements unknown.",
+      "verified_lead": {
+        "source": "https://www.sec.gov/Archives/edgar/data/1212545/000162828025045685/pressrelease-9302025.htm",
+        "accession": "000162828025045685",
+        "document": "EX-99.1 Q3 2025 release, October21 2025",
+        "section": "Asset Quality",
+        "fact": "Issuer attributes the overall nonaccrual increase inQ3 2025 primarily toCantor GroupV.",
+        "scope": "Overall issuer nonaccrual, not an explicit mapping toFFIEC RCONPV25."
+      },
+      "supporting_existing_source": {
+        "path": "sources/q1_2026/wal-20260331_text.txt",
+        "section": "Legal Disputes Related to Credit Facilities",
+        "fact": "Cantor98.5M moved to nonaccrual as ofSeptember30 2025; Q1 2026 chargeoff26.1M from established allowance; remaining allowance3.5M."
+      },
+      "work": "Build an issuer-only dated borrower/event table acrossQ3/Q4 2025 andQ1/Q2 2026. Reconcile named credits and related/protective lien purchases to regulatory classifications only with explicit evidence. Extend atQ3actual carrier.",
+      "deliverable": "Attributed/unattributed nonaccrual movements, allowance/chargeoff/cash-recovery distinctions, unresolved classification gaps.",
+      "falsifier": "If most balance changes are known credits/related transactions or reclassification, broad new-credit-deterioration inference weakens.",
+      "limits": "No naming a borrower from near-equal amounts; no mechanically subtracting Cantor/protective liens from the aggregate. No change to the frozen explicit64M attribution test. Public disclosures may not resolve full identity.",
+      "access": "Primary historical release retrieved inweb tool; Q1/Q2 filing caches available. DirectQ3 2025 Form10-Q open returnedInternalError; recover exact source if needed rather than declare absent."
+    },
+    {
+      "rank": 2,
+      "name": "Parent mortgage earnings versus bank RC-P bridge",
+      "question": "Does greater mortgage activity generate sustainable parent profit, and what explains the difference from bank regulatory income?",
+      "trigger": "Q2 bank mortgage income down37.07pctQoQ despite sales up15.21pct; income up5.27pctYoY.",
+      "work": "Reconcile bank-versus-parent populations; origination/sale income, servicing fees, MSR valuations/capitalization, economic hedges and disclosed related costs across the recent reported quarters.",
+      "deliverable": "Quarterly gross-component bridge, identified offsets and remaining undisclosed expense allocations; conditionalEPS sensitivity only after reconciliation.",
+      "falsifier": "Resilient fees/margins or offsetting hedge/servicing effects could weaken the recurring-earnings deterioration hypothesis.",
+      "limits": "No treating bank income/sales as a pure gain-on-sale margin; no unreported standalone segment P&L; retain current model assumptions/registeredframes."
+    },
+    {
+      "rank": 3,
+      "name": "Small WAL price-behavior control using existing owner data",
+      "question": "Is recent underperformance unusual for WAL after allowing for its normal market/rate sensitivity?",
+      "work": "Reuse REGINALD's existing matched daily price/benchmark series and issuer event chronology; compare recent residual pattern and volume on matched dates, with an explicit estimation window if usingbeta.",
+      "deliverable": "Short WAL-specific event/return comparison; whether today's rank adds evidence beyond normal dispersion.",
+      "falsifier": "Normal market sensitivity or reversal weakens a stock-specific distress interpretation.",
+      "limits": "Not a new multibank screening program, recurring monitor or causal proof. REGINALD owns peer/funding/severity work; no owner-file edits or commission launched."
+    }
+  ],
+  "existing_work_to_reuse": [
+    "October13 securities/hedge/model study, rather than repeating it or manufacturing unknown net duration",
+    "REGINALD completed all-in funding baseline and existing price series",
+    "Existing Q3 worksheet, frozen frames,99Mappraisal and matched-consensus questions",
+    "TERRY existing management scope; an earlier65Pcard remains a separate operator request, not research execution"
+  ],
+  "lower_priority": "No deep options-flow attribution, expanding into other banks or generic macro studies before the two accounting/credit investigations.",
+  "decisions": "No formal approval ask, new automation, helper launch or trade proposed/executed. These are concrete research recommendations in response toWill's question; full execution remains distinct from this scoping.",
+  "numerical_state": "No score/weight/valuation/prediction/position/trade-rule change.",
+  "persistence": "WAL-owned scoping note; no STATUS write. Foreign dirty work requires push deferral; native fleet acknowledgment UNKNOWN."
+}
