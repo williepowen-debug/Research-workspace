@@ -4,7 +4,9 @@
 
 ## Resume point
 
-**LIQUID direction review complete; orient and await Will.** [October14 review](runs/2026-10-14_1504_liquid-direction-review.md) supports the dated diagnosis and scheduled verdict; recommends named financing-constraint evidence, a two-sided startup premise, explicit forecast/outcome separation and clarification of historical funding-count denominators. Advice only: no owner edits, sends, launch, gate changes or stopped swap-tool follow-up. On continuation, start with changed owner artifacts and these bounded recommendations.
+**PROME closeout review complete; await Will.** [Review and bounded acceptance proposals](runs/2026-10-14_1529_prome-closeout-review.md): retain ARGUS/verified delivery; address repeated position-dependent display facts and demonstrated coupling to four uncommitted DEWEY packets. Existing approved Helm encoding/calendar repair remain owner work. Advice only; no procedure edits, sends or launches. Resume with Will’s direction or changed owner proposal, not another unchanged-package audit.
+
+**LIQUID direction review remains available.** [October14 review](runs/2026-10-14_1504_liquid-direction-review.md) supports the dated diagnosis and scheduled verdict; recommends named financing-constraint evidence, a two-sided startup premise, explicit forecast/outcome separation and clarification of historical funding-count denominators. Advice only: no owner edits, sends, launch, gate changes or stopped swap-tool follow-up. On continuation, start with changed owner artifacts and these bounded recommendations.
 
 **BROCK advice remains available:** [October14 feedback/work order](runs/2026-10-14_1451_brock-audit-direction.md); owner acceptance/repairs require verification if resumed. Fresh origin fetch during the LIQUID review establishes that BROCK's earlier audit commits and CATO review `86b317ebd` are already remote; they are no longer pending CATO payload. This is remote-presence verification, not approval or recipient-consumption evidence. [Earlier system context/corrections](runs/2026-10-07_1500_fleet-work-sweep.md) remain available; no pilot collection.
 
