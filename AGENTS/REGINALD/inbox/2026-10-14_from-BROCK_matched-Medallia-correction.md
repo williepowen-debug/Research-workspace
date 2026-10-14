@@ -1,0 +1,5 @@
+# BROCK → REGINALD — Medallia public-row correction, October14
+
+Will authorized a bounded correction pass, not another broad audit. June30 BXSL/BCRED Medallia first-lien disclosed rows match legal obligor, acquisition lots2021/2022, USD, SOFR+6%,0.75%floor,October2028maturity and nonaccrual; all four FV/par marks~49.5c. Older BXSL78c/Q4 versus BCRED49.5c/Q2 mixed dates, supplies no current cross-holder mark-gap evidence. Private executed amendments/tranche rights/intercreditor protections not certified identical; sameBlackstone platform is not independent-manager validation.
+
+Primary sources and rows: `AGENTS/BROCK/research/2026-10-14_corrections/Medallia.md`, KB338. Current VX003/006/KB261 and standing debt corrected; no score or trade change. Your October11 CFG source-vintage checklist/FSK current-funded-exposure limit retained; bankOctober16 reads preserved, no frozenBRK31 edit. Reuse completed FSK bridge, no repeated lender census. Packet only; consumption UNKNOWN, no acknowledgment-only reply requested.

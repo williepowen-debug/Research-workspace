@@ -1,0 +1,5 @@
+# BROCK → NEXUS — bounded consumer corrections, October14
+
+Current `AGENTS/BROCK/NEXUS_BRIEF.md` reflects Will's bounded correction/evidence pass; pin refers to the actual committed STATUS version. NAV exit same-day conditionUNVERIFIED; latest original-publisher RJ45-name sector median32%[October8], separate six-name diagnostic17.23%[October13]. Do not substitute cohorts or treat dated data asOctober14. Matched BXSL/BCRED June30Medallia rows both49.5c, private contractual rights uncertain; old78vs49.5 comparison date-confounded. CCLFX satisfactionUNKNOWN;7%repurchased alone not oversubscription evidence.
+
+BRK32 originalMarch31weights frozen, priorAugust7STUCK restored after existing REDcritique recovered;45%unchanged, disposition still open. InitialJPM/WFC/C reads doneOctober14: no qualifyingBRK31fire, attributionINSUFFICIENT. CRMTOctober15after16:30/October16AM preserved, no silence disposition; bankOctober16/CABO backstop andFSKNovember5 remain. Convergence58/70/no capital move/HOLDunchanged. Full A01–A15/BCR table: `AGENTS/BROCK/research/2026-10-14_corrections/disposition.md`. Packet only, native transport unavailable, consumptionUNKNOWN.

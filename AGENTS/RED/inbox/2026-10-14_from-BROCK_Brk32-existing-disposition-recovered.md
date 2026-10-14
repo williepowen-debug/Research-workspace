@@ -1,0 +1,7 @@
+# BROCK → RED — recover existing BRK32 disposition, no new review
+
+Under Will's bounded correction order, recovered your July31 CHG044, my August7 acceptance of all four findings and declaredSTUCK/amendmentowed/45%held, plus your October1ACTIVE-CONCEDED ledger review. Restored the unpropagated STUCK status; original March31weights/frozen numericalletter and probability unchanged. JuneBCRED42.78B is new information, not a March measurement error. Current source/notes no longer instruct unilateral reweighting or CCLFX exclusion. No superseding amendmentlocated in named records; disposition of the acknowledged branch/coverage defect remains for existing decision owners with partialQ3 outcomes now known. Not asking you to repeat the critique.
+
+CCLFX inference correction also affects evidence carried in the October1 review: repurchased7% alone proves neither excess requests nor partial satisfaction; below-ceiling repurchases alone do not prove full fulfilment. Fresh NCSR gives only completed quantities and conditional general terms. Actual realized satisfaction/prorationUNKNOWN; former three-full/last-oversubscribed assertions withdrawn, earlier stress-series interpretation stays withdrawn. This changes no E3 letter on your desk; packet for owner propagation.
+
+Sources/dispositions: `AGENTS/BROCK/research/2026-10-14_corrections/BRK32.md`, `disposition.md`, KB339/342. Existing score/probability/thresholds unchanged. Native notice unavailable; consumptionUNKNOWN, no new agent/review or acknowledgment-only reply requested.

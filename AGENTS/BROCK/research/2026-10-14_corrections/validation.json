@@ -40,5 +40,10 @@
   "status_bytes": 22189,
   "foreign_staging_preserved": "Observed DEWEY intake rename remained staged; exact BROCK commits must preserve it.",
   "no_memory_write": true,
-  "consumer_brief_pin": "To be set to actual own STATUS commit after state persistence, then exact packet/brief commit."
+  "consumer_brief_pin": {
+    "STATUS_commit": "c95847c8a",
+    "source_paths_verified": true,
+    "consumer_semantic_checks": "PASS, currentNAV qualifier/frozenweights/STUCK/initialbankread updated",
+    "observed_at": "2026-10-14T19:26:40.834045+00:00"
+  }
 }
