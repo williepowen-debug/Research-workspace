@@ -1,0 +1,171 @@
+{
+  "observed_at": "2026-10-14T18:43:24.878782+00:00",
+  "scope": "PROME Standard closeout intake. Dated packets read without moving or modifying owner files. Current owner state may advance after this cutoff.",
+  "packets": [
+    {
+      "path": "PROME/inbox/2026-10-14_from-BOND_closeout-publication-hold.md",
+      "commit": "fe675384927077daf24bfc53a7130d8fc2dfc454",
+      "sha256": "bd85ddc35f6375d16543e0622aea8841a420887fff98de1020642f6cd36b6bbb",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-BOND_origin-publication-receipt.md",
+      "commit": "0146a9947bf496543499124fe778192d925641e8",
+      "sha256": "51aee2e0de6600e85ee989ef475353146f1ab4d27e78aa932c9fd14a2661ca7c",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-BOND_post-CPI-rates-functioning.md",
+      "commit": "99c38dbfbec34bfce8beba0ef132a8d9cf3765a4",
+      "sha256": "c0629e4fc37fb60324cad8fae0713815ebbe8b050806e24c72f752971598dbce",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-BOND_publication-APPROVED.md",
+      "commit": "fa5212fe35af86f56ebeb6460a0e7607062e40a5",
+      "sha256": "b508e24127612692279f913d8301b6a03912909d72e16559ea7ef1e6957f74f3",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-BROCK_desk-audit.md",
+      "commit": "UNCOMMITTED",
+      "sha256": "50fe8f50510730005975cfe4f863f4e4ef5363d481aa7e8e34e62b7a6baba1fc",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-BROCK_private-credit-wave.md",
+      "commit": "a7cb3b8f4800412f5bfbb103f8a6dc019a8c7f4e",
+      "sha256": "fc2b027a4d32d1059c224b1153219a35b26adce65a886a33f015b21004b8f482",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-BROCK_wave-closeout.json",
+      "commit": "622116c6ba340cd79c49797988d3dcc7985de2f4",
+      "sha256": "694eea13d5585155ee3dfe78c281e4a8e1acdf87201f1813ae0807f6eb72c7d5",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-LIQUID_credit-quality-funding-LIQ07-preparation.md",
+      "commit": "c140f86c497d206d13be4205d8fe9ef61f9773e6",
+      "sha256": "542a91def7690480f72c768949e3948dd84394f3e128299831ea26623e291ba9",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-LIQUID_stale-file-sweep-complete.md",
+      "commit": "UNCOMMITTED",
+      "sha256": "429d8078e5154cd7c75b0d04efbc7dcb490fa86ae14e7ba2ab84af0f4179ca15",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-TERRY_acceptance-ack.md",
+      "commit": "7016acae0c8181d902778a1076b0bced0890b948",
+      "sha256": "0d65d87fd95d0155003e10ed3fd11f6eea1bf5acf98a1334e02b9cbec20f2635",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-TERRY_closeout.md",
+      "commit": "585fd52cd0099b3927e5e69211166a9463c66d3a",
+      "sha256": "4bbf1b239da3afd8b20fa4fb2b4c97b8b1fe718f542825fb9f624775e1d638b6",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WALTER_bookmark-routing-completion.md",
+      "commit": "03edfba0485b8d0f7ec8248e8ab10f2ea3523745",
+      "sha256": "0642e02645c39200608eae9f5683c1c45fc9592d873fdb222c8deeefe1f7052d",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WALTER_bookmark-routing-mark-proof.md",
+      "commit": "b178889466db3bab15739d6388687fa017cf9a50",
+      "sha256": "447a9bc526fd5ae1a959200a2325b75be1dc10fb54fa4c93fbc5cb815524c505",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WALTER_context-persistence-closeout.md",
+      "commit": "880c4d2ee2adb4202b9320e1d90123ff2fe52979",
+      "sha256": "14d05a95b2e0fda555b4b9c24eef3d1dab3f50624f2100183054dae695935d12",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WALTER_full-reboot-closeout.md",
+      "commit": "a90eb73dcdfdf1c3177c420254c9c4cca3cd2c45",
+      "sha256": "bbbe0fe452c050f1864d2497bd64aa7ccd4771be6f65b3f06946a801c56a1c9c",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WALTER_morning-news-boot.md",
+      "commit": "8e2b066e699429f4780c0914af958d23131d0724",
+      "sha256": "ce7cead0d463f1c1a6d43973dde7677dbb9f6b584b85e017046ceb581138bfe1",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WALTER_morning-news-receipt.md",
+      "commit": "1e27ebd6ef7d6325c8e703e3b24dceb973e0aa7d",
+      "sha256": "dafb2c135c69b4dfa3344f5666952f38947e9bca22bc6dda8ee1017eea621566",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WALTER_three-thread-verification.md",
+      "commit": "d540a59b844f506fd3924a165478cf2d7456ce7a",
+      "sha256": "3fe49e9cf2ce6ff83d5f69a72bc152fbd3c5668212345cd25a2c0c54868e30f1",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WAL_FFIEC-history-completed.md",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "sha256": "dbd206019cf954798bd072b8c242e4e5c305aa14e2738f447c1fbaf885bcefe1",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WAL_FFIEC-integration-sweep.md",
+      "commit": "7d3c97d2559690cf23f44a0a2a19fccce634307d",
+      "sha256": "f0f78283c15d8d33dce92f36688171df5ea85ca68852fc726f29f677a01cbd8e",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WAL_REGINALD-earnings-test-consumed.md",
+      "commit": "2262bcf2c862527f4feb2a435eede9205062b738",
+      "sha256": "cae97c54fb163293590676ea3726ca50bd7648326dd73283c659fa4801e2348a",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WAL_authorized-research-followups.md",
+      "commit": "52884a01bd690c58e9f654f9b69abc0eec700ea3",
+      "sha256": "96f10014e56eb4c486d70d3803fd19c8d947c2b1b0b57df977c0f0f1510beabf",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WAL_housekeeping-completed.md",
+      "commit": "49b07b11b270730ae278f903e843a6551122506d",
+      "sha256": "f9bd7c3b7e2c4bfffdc1643b7bed417f0ee8c9d7be67ecef4cf10caec89dee41",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    },
+    {
+      "path": "PROME/inbox/2026-10-14_from-WAL_owner-closeout.md",
+      "commit": "5aced7176947bb137605a10bef2efab6caec2f98",
+      "sha256": "085e149053a19ce8cb2a2de5aea0e3928e52ff856420f74757e5ac870a0e44c5",
+      "scope": "Packet read for closeout triage; owner-reported findings, not independent source/repair certification."
+    }
+  ],
+  "additional_report": {
+    "path": "AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md",
+    "sha256": "f7dc58c86faec0757bf3c9e7a1fe9d5229e1e61b81bebda53f72c6fd6beef3c8",
+    "commit": "c140f86c497d206d13be4205d8fe9ef61f9773e6",
+    "disposition": "Full report read; accepted as dated owner context, no independent primary rerun or new gate grade. Strong-credit cumulative broadening differs from a system funding break; existing final LIQ-07 window still pending."
+  },
+  "dispositions": {
+    "TERRY": "Final owner closeout packet read; prior repair/booking acceptance stays closed. Will-origin ask/answer reported; no process termination inferred. No redundant reply or review.",
+    "BOND_BROCK": "Owner publication refusals, BOND scoped operator approval and later shared-origin receipt read. BOND approval does not expand to other payloads. No rejected operation bypassed. Main research is owner-reported context; source and current funded-exposure gaps retained. Current PROME push requires its own actual preflight and approval review.",
+    "WALTER": "Completed source/mark/routing and later closeout packets read; earlier pending-publication clauses are dated, not current absence claims. Live LAST_COMPLETION remains canonical; no duplicate bookmarking or diesel commission. Power bridge is separate from completed diesel work.",
+    "WAL": "Dated FFIEC/research/housekeeping/closeout and later REGINALD-consumption packets read. Later continuation supersedes any inference that earlier closeout means owner remains inactive. Public earnings path plausible does not establish profit conversion or an expectations gap. Existing source/recorder/credential dependencies persist. No independent rerun of owner numerical/repair tests.",
+    "LIQUID": "Report consumed at exact hash above. Preserve next published funding observations, final branch timing and withheld swap-line instrument. No duplicate study or score/trade change."
+  },
+  "remaining": "Full primary/repair acceptance not implied by packet triage; source owners retain their named missing evidence. Later arrivals require next-boot reconciliation; native cross-window transport unavailable. No gate/catalyst changes or new requests to Will.",
+  "maintenance_report": {
+    "path": "AGENTS/LIQUID/audits/2026-10-14_staleness-sweep/REPORT.md",
+    "sha256": "061ece0287d33749638c07126db148854d2c28aa15cf2fed92806227986ac50a",
+    "commit": "7158cdcc584488429799be9b1ca93190005adaa5",
+    "disposition": "Full owner report read as maintenance receipt; no independent source/code acceptance claimed. Existing criteria and dates remain owner-governed. BROCK audit packet read as reported findings; no broad repair commission or missing primary claim certified."
+  },
+  "read_completed_at": "2026-10-14T18:44:57.754907+00:00"
+}

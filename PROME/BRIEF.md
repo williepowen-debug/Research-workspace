@@ -6,32 +6,32 @@
 
 ## WRITTEN
 
-2026-10-13 — laptop closeout synthesis of accepted October12 owner evidence; no fresh market pull or broker capture.
+2026-10-14 — accepted research and owner-return synthesis for PROME closeout; no new market pull. Observation dates remain those of each linked source.
 
 ## HEADLINE
 
-The insurance and metals evidence is better defined; important transmission and availability gaps remain.
+Credit pressure is broadening, while evidence of a system-wide funding break remains absent from the measured channels.
 
 ## STORY
 
-SHADE's source work supports qualified structural insurance risk, while completed asset exchanges, retained losses and a sector-wide cascade remain unproved. MIDAS finds weaker support for a palladium supply-only case and a London silver depletion story; its overall platinum view is unchanged with weaker automotive support, and available silver remains unresolved. YURI completed its saved legal-text reading but still lacks decisive signed terms and operational effects. WALTER restored bookmark access and completed the bounded intake; recipient adoption remains separate. [Accepted work and evidence limits](HANDOFF.md).
+Our working expectation remains selective borrower and refinancing pressure, with conditional routes into lender funding. The [completed compound-stress review](research/2026-10-14_compound-stress/synthesis.json) identifies named property, private-credit and AI cash-flow vulnerabilities. [LIQUID's October14 owner report](../AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md), using observations through October13, finds cumulative widening into stronger credit but functioning measured overnight funding. That distinction supports the existing issuer cash-loss/funding tests; it does not establish forced selling or a trade advantage. [Receipt scope](reports/2026-10-14_standard-intake.json) separates read owner conclusions from independent primary verification.
 
 ## QUESTION
 
-The generated queue owns Will's decisions. Existing document access for SHADE and the frozen MIDAS fee/basis question remain open; SHADE's method questions first require owner specifications. Completed research creates no capital authority. Independent WQ420 acceptance remains separate from owner encoding.
+Use the generated queue for Will's decisions and existing TERRY cards for management. [TERRY repair, VLO encoding and supplied-receipt bookkeeping](reports/2026-10-14_TERRY-acceptance/disposition.json) are accepted. Later broker dispositions, qualifying source evidence and VIOLET's separate receipt remain open. Completed acceptance does not create trade authority.
 
 ## FALSIFIER
 
-Completed insurer remediation with stable flows would weaken the pressure assessment. Recovering engine-bearing vehicle production and measured catalyst demand would weaken MIDAS's auto headwind. Matched available London inventory and borrowing costs could distinguish improved supply from a squeeze. These are evidence tests, not new numeric gates.
+Stable cash earnings, sponsor capital, cash paydowns and continued usable lender capacity weaken the forced-sale scenario. Matched evidence of collateral restriction, cash shortfalls and retained losses at the same institution would strengthen it. Scheduled issuer releases and LIQUID's existing funding-window read are the next obtainable tests; no extra study or new numeric gate is commissioned.
 
 ## DISAGREEMENT
 
-MIDAS retains the disagreement between WPIC's September platinum surplus forecast and Johnson Matthey's older May deficit model; different models and dates are not a consensus. Chinese vehicle declines are not metal-demand percentages. SHADE's alternative asset ratios do not establish an approved illiquidity breach. [Exact qualifications](reports/2026-10-12_laptop-round2.md) and [insurance evidence](reports/2026-10-12_SHADE-freshness-check.md).
+Stronger-credit cumulative widening and a funding crisis are different claims. LIQUID reports mixed ETF share histories and functioning measured funding as counterevidence to broad liquidation; missing offshore, haircut and institution-specific channels prevent an all-clear. Owner tests and source dates remain binding. [Earlier metals/insurance qualifications](reports/2026-10-12_laptop-round2.md) remain dated context, not refreshed assessments.
 
 ## POSITION
 
-[October11 broker reconciliation](data/2026-10-11_broker-capture-TRANSCRIPTION.md) and [FORGE](../FORGE/STATUS.md) retain their evidence dates and unknown working orders/quote time. Held-call cards are delivered; booking acceptance and manual expiry management remain distinct. No new trade follows from L694 or this closeout.
+[October14 supplied broker evidence](data/2026-10-14_broker-capture-TRANSCRIPTION.json) supersedes older captures; [FORGE](../FORGE/STATUS.md) carries the full mirror. QQQ744P is closed; three QQQ740P remain in that receipt. Capture/fill times, later transactions and current working orders remain unknown. Reuse existing expiry-management duties; Will handles orders. No new position, sizing or scoring authorization follows from this closeout.
 
 ## WATCH
 
-[SCRATCH](SCRATCH.md#-next-session--start-here) is the restart point. [DOCKET](DOCKET.tsv) owns dates and [GATES](GATES.tsv) owner grades. [Closeout record](reports/2026-10-13_laptop-closeout.md) distinguishes accepted research, lifecycle receipts and unavailable hosted publication. Consume later owner receipts before restarting work; SHADE's after-close assessment requires fresh inputs and its existing eligibility rules.
+[SCRATCH](SCRATCH.md#-next-session--start-here) is the restart point; [DOCKET](DOCKET.tsv) owns dates and [GATES](GATES.tsv) owner grades. [Standard closeout](reports/2026-10-14_standard-closeout.md) records the independent review and delivery limits. A local build is not hosted publication. Reconcile later committed owner returns before repeating work or launching replacements.

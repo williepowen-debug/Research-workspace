@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Resume:** [October14 PROME restart](reports/2026-10-14_PROME-restart.json) records this checkpoint; [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns next actions and generated queue/calendar. [STATUS](STATUS.md) indexes current work. Will requested PROME only; other owner windows continue.
+**Resume:** [October14 Standard closeout](reports/2026-10-14_standard-closeout.md) records review and delivery; [earlier Bounce](reports/2026-10-14_PROME-restart.json) preserves its checkpoint; [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns next actions and generated queue/calendar. [STATUS](STATUS.md) indexes current work. Will requested PROME only; other owner windows continue.
 
 ## October14 — broader stress investigation
 

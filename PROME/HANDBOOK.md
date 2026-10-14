@@ -6,11 +6,11 @@
 
 ## Top priorities
 
-**2026-10-13 — current source index, without a new market or broker refresh:**
-- **Position-facing work first:** [SCRATCH's next action](SCRATCH.md#-next-session--start-here) names the nearest expiries and existing owner; [FORGE](../FORGE/STATUS.md) carries the book. [Broker evidence](data/2026-10-11_broker-capture-TRANSCRIPTION.md) was received October11; exact capture/quote time and working orders remain UNKNOWN, Robinhood was not supplied, and D69's +$53.54 remains unexplained. Receipt date does not establish fresh quotes.
-- **Laptop closeout continuity:** [Closeout record](reports/2026-10-13_laptop-closeout.md) and [HANDOFF](HANDOFF.md) distinguish accepted research, SHADE/YURI closeout receipts, remaining owner lifecycle receipts and unavailable hosted publication. Will directs the other windows. Verify fresh owner identities before routing; SHADE's raw source store does not travel with Git.
-- **Already-approved work:** [WQ418/420 ruling and receipts](proposals/2026-10-11_wq418-420-RULED.md) distinguish the decision from owner encoding, independent acceptance, recipient consumption and new closeout. Prior commissioned work's closeout is not evidence that the continuation is finished; no repeat approval is owed.
-- **What needs your word:** the generated queue below owns current asks. Owner work and clocks remain in [DOCKET](DOCKET.tsv); operating condition and remaining repairs are indexed in [STATUS](STATUS.md). No new trade ruling comes from this cleanup.
+**2026-10-14 — current source index, no fresh market pull:**
+- **Position-facing work first:** [SCRATCH Operator card](SCRATCH.md#operator-card), [FORGE](../FORGE/STATUS.md) and [October14 broker evidence](data/2026-10-14_broker-capture-TRANSCRIPTION.json) own holdings and vintage. Capture/filltimes, current working orders and Robinhood evidence remain unknown. Receipt date does not establish fresh quotes.
+- **Accepted work and restart:** [TERRY acceptance](reports/2026-10-14_TERRY-acceptance/disposition.json) and [CATO integration](reports/2026-10-14_CATO-FS2-integration.json) close their named repairs and stale-summary corrections. [HANDOFF](HANDOFF.md) and [Standard closeout](reports/2026-10-14_standard-closeout.md) preserve the remaining duties and publication limits. Other owner windows are independently controlled.
+- **Research judgment:** [Completed compound review](research/2026-10-14_compound-stress/synthesis.json) and [latest intake scope](reports/2026-10-14_standard-intake.json) distinguish working expectations, contrary evidence and unresolved source questions. Use existing scheduled owner tests before commissioning more research. No new trade or scoring authority.
+- **What needs your word:** the generated queue owns current asks; [DOCKET](DOCKET.tsv) owns dates and [STATUS](STATUS.md) indexes existing coordination repairs. WQ418/420 approval and completed acceptance need no repeat ruling; VIOLET consumption remains separate.
 
 ## Spawn queue
 
