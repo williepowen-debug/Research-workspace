@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-14",
+  "task": "Will-selected Option1 public WAL earnings-path test",
+  "public_model_instruction": "Will: No\u2014continue with public evidence",
+  "source_originals_unchanged": [
+    "Q2_10Q",
+    "Q1_10Q",
+    "Q1_release",
+    "investor_day"
+  ],
+  "workbook_schema_checks": [
+    {
+      "file": "workbook/ACL_ROLLFORWARD_COHORT.tsv",
+      "rows_including_header": 169,
+      "columns": 10,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/CRE_RCN_COHORT.tsv",
+      "rows_including_header": 71,
+      "columns": 36,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/DARKPOOL.tsv",
+      "rows_including_header": 35,
+      "columns": 7,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/SHORT_VOL.tsv",
+      "rows_including_header": 451,
+      "columns": 5,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "rows_including_header": 226,
+      "columns": 15,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/SHORT_INTEREST.tsv",
+      "rows_including_header": 81,
+      "columns": 6,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/AOCI_COHORT_2026Q2.tsv",
+      "rows_including_header": 15,
+      "columns": 18,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/MI3_COHORT.tsv",
+      "rows_including_header": 169,
+      "columns": 25,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/VX.tsv",
+      "rows_including_header": 63,
+      "columns": 13,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/PREDICTIONS.tsv",
+      "rows_including_header": 21,
+      "columns": 10,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+      "rows_including_header": 22,
+      "columns": 43,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/RUNWAY_COHORT.tsv",
+      "rows_including_header": 169,
+      "columns": 10,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/NDFI_COHORT.tsv",
+      "rows_including_header": 27,
+      "columns": 20,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/FUNDING_COHORT_2026Q2.tsv",
+      "rows_including_header": 31,
+      "columns": 25,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/FLOW.tsv",
+      "rows_including_header": 22,
+      "columns": 11,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/OPTIONS_OI.tsv",
+      "rows_including_header": 18,
+      "columns": 9,
+      "schema": "PASS"
+    }
+  ],
+  "KB_IDs": "PASS unique",
+  "audit_correction": "An initial generic uniqueness assertion wrongly treated repeat bank IDs in cohort panels as duplicate primary keys;columns passed and KB unique IDs checked separately. No ledger mutation.",
+  "calculation": "Independent Decimal reverse/forward11EPS,PPNR and ECR conservation passed",
+  "readcap": "PASS charter heuristic12surfaces;no new rotation;NEXUS final fold checked separately",
+  "corrections": "PASS 0NAMED unreceipted",
+  "weekday": "PASS STATUS/CALENDAR/report;Wednesday10/14,Monday10/19,Tuesday10/20 independently evaluated",
+  "WALTER_inbox": "no pending .md",
+  "ordinary_inbox": [
+    "inbox/2026-10-12_from-PROME_APPROVED-opportunity-discovery-pass.md",
+    "inbox/2026-10-14_from-WAL_FFIEC-history-primary.md",
+    "inbox/2026-10-13_from-WAL_Q2-hedges-rate-model-source-supplement.md",
+    "inbox/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+    "inbox/2026-10-12_from-CARL_SoFi-Q2-transfer-risk-supplement.md",
+    "inbox/2026-10-12_from-WATT_IRAS-core-rejected-WATT10-MISS.md",
+    "inbox/2026-10-12_from-CARL_fintech-consumer-feed-definition-and-Q2-seed.md",
+    "inbox/2026-10-13_from-PROME_Will-directed-WAL-rate-funding-reconciliation.md",
+    "inbox/2026-10-14_from-BROCK_BRK31-wave-coordination.md",
+    "inbox/2026-10-14_from-WAL_Nano-bid-summary-integrated.md",
+    "inbox/2026-10-12_from-OZK_wrap-up-consumer-handoff.md",
+    "inbox/2026-10-14_from-WAL_Ontario-primary-and-earnings-bridge.md",
+    "inbox/2026-10-12_from-TERRY_L694-EGBN-feasibility.md",
+    "inbox/2026-10-12_from-DEWEY_cato-causal-wording-consumption.md",
+    "inbox/2026-10-12_from-PROME_Will-approved-morning-regional-bank-tape.md",
+    "inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "inbox/2026-10-14_from-PROME_compound-stress-evidence.json"
+  ],
+  "owner_frames_predictions_workout_positions": "UNCHANGED;no eligible Q3 outcome or broker action;conditional diagnostics are not new forecasts",
+  "derived_surfaces": "NEXUS final fold after STATUS commit;POSITIONS/CALENDAR/DECK/SCRATCH consciously unchanged: no verified position/date/gate event",
+  "git": "outside dirty work;no pull/rebase/stash;exact own paths only;safe-push receipt is final confirmation",
+  "verification_scope": "targeted primary financial/risk/guidance sections,not entire10Q review;component analyst models/accounting bases UNKNOWN"
+}

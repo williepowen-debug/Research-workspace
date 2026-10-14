@@ -1,0 +1,129 @@
+{
+  "basis": "2027 average quarter against Q2-2026; 19pct tax,108M diluted shares,$13.6M quarterly NCI/preferred/award deductions unless stated. Revenue vendor basis unharmonized; no retrieved component analyst model.",
+  "Q2_parent": {
+    "nii": 796.9,
+    "noninterest": 198.8,
+    "op_ex_deposit": 404.1,
+    "deposit_expense": 179.2,
+    "total_expense": 583.3,
+    "ppnr": 412.4,
+    "provision": 80.4,
+    "pretax": 332.0,
+    "tax": 63.2,
+    "nci": 7.1,
+    "preferred": 3.2,
+    "awards": 3.3,
+    "shares": 108.0,
+    "eps": 2.36,
+    "earning_assets": 91661.0
+  },
+  "consensus": {
+    "FY26_EPS": 8.84594,
+    "FY27_EPS": 11.04928,
+    "FY26_revenue_M": 3987.22561,
+    "FY27_revenue_M": 4238.64936,
+    "EPS_growth_pct": 24.907923861115933,
+    "revenue_growth_pct": 6.305731719053642,
+    "FY27_estimate_vs_90day_pct": -3.4298194937644855,
+    "quarter_revenue_M": 1059.66234
+  },
+  "budget": {
+    "target_EPS": 11.0,
+    "required_pretax_M": 383.4567901234568,
+    "expense_ceiling_provision80_4_M": 595.8055498765433,
+    "expense_growth_ceiling_provision80_4_pct": 2.143931060610904,
+    "expense_ceiling_provision86_M": 590.2055498765433,
+    "expense_growth_ceiling_provision86_pct": 1.183876200333156,
+    "expense_ceiling_at_vendor_EPS80_4_M": 594.1628832098767,
+    "expense_ceiling_shares106_provision80_4_M": 602.5956733333335,
+    "expense_ceiling_tax17_provision80_4_M": 605.0454725301206,
+    "expense_ceiling_tax21_provision80_4_M": 586.0977830379748
+  },
+  "scenarios": [
+    {
+      "cost_growth_vs_Q2": 0.02,
+      "quarter_revenue_M": 1059.66234,
+      "quarter_expense_M": 594.966,
+      "quarter_provision_M": 80.4,
+      "annual_eps": 11.025186496296298
+    },
+    {
+      "cost_growth_vs_Q2": 0.05,
+      "quarter_revenue_M": 1059.66234,
+      "quarter_expense_M": 612.465,
+      "quarter_provision_M": 80.4,
+      "annual_eps": 10.500216496296298
+    },
+    {
+      "cost_growth_vs_Q2": 0.05,
+      "quarter_revenue_M": 1059.66234,
+      "quarter_expense_M": 612.465,
+      "quarter_provision_M": 100,
+      "annual_eps": 9.912216496296297
+    },
+    {
+      "cost_growth_vs_Q2": 0.1,
+      "quarter_revenue_M": 1059.66234,
+      "quarter_expense_M": 641.63,
+      "quarter_provision_M": 100,
+      "annual_eps": 9.0372664962963
+    }
+  ],
+  "ECR": {
+    "Q1_total_M": 214.3,
+    "Q2_total_M": 234.2,
+    "Q1_average_balance_B": 29.4,
+    "Q2_average_balance_B": 31.6,
+    "Q2_end_balance_B": 29.9,
+    "Q1_all_in_annualized_cost_pct": 2.9561413454270595,
+    "Q2_all_in_annualized_cost_pct": 2.9727013492836276,
+    "Q2_at_Q1_per_day_per_dollar_M": 232.89534391534394,
+    "calendar_and_balance_explained_share_of_change_pct": 93.44393927308519,
+    "remaining_rate_mix_rounding_M": 1.3046560846560453,
+    "balance_at29_9_B_same_unit_cost_saving_per91day_quarter_M": 12.59936708860761,
+    "NII_change_less_ECR_change_outside_NII_M": 14.500000000000043,
+    "no_double_count_PPNR_check_M": 412.3999999999999
+  },
+  "mortgage": {
+    "Q1_origination_sale_M": 72.7,
+    "Q2_origination_sale_M": 53.4,
+    "Q1_net_servicing_M": -1.3,
+    "Q2_net_servicing_M": 31.3,
+    "Q1_reported_total_M": 71.4,
+    "Q2_reported_total_M": 84.7,
+    "Q2_MSR_fair_value_M": 12.0,
+    "Q2_MSR_hedge_income_M": -10.8,
+    "Q2_MSR_mark_plus_hedge_M": 1.2,
+    "Q2_contractual_servicing_ancillary_fees_M": 80.1,
+    "Q2_early_payoff_fee_M": 4.9,
+    "Q2_MSR_cashflow_realization_M": -54.0,
+    "Q2_MSR_sale_loss_M": -3.5,
+    "partial_servicing_bridge_M": 28.700000000000003,
+    "partial_bridge_residual_other_rounding_M": 2.599999999999998,
+    "Q2_production_B": 16.2,
+    "Q2_lock_volume_B": 17.7,
+    "Q2_GOS_bp": 29.0,
+    "Q1_GOS_bp": 37.0,
+    "Q2_GOS_vs_Q1_pct": -21.62162162162162
+  },
+  "credit_and_base_effect": {
+    "Q1_total_provision_M": 213.2,
+    "Q1_LAM_incremental_provision_M": 126.4,
+    "Q1_Cantor_chargeoff_existing_reserve_M": 26.1,
+    "Q1_security_sales_gain_M": 50.5,
+    "Q1_GAAP_EPS": 1.65,
+    "Q1_issuer_adjusted_EPS": 2.22,
+    "Q1_issuer_adjustment_EPS": 0.57,
+    "FY26_if_GAAP_vendor_then_one_Q1_adjustment_EPS": 9.41594,
+    "FY27_growth_on_that_conditional_base_pct": 17.346542140243027,
+    "warning": "Apply the conditional FY26 adjustment only if vendor annual basis is proven GAAP; otherwise could double count. Quarterly rounded EPS subtraction is approximate."
+  },
+  "limitations": [
+    "No analyst NII/expense/provision/share/tax forecasts; EPS/revenue panels differ, bases/update dates unknown.",
+    "Four identical quarters average a forecast year; not Q3 targets.",
+    "Expense growth compares FY27-average-quarter to Q2-2026; not growth over FY26 consensus.",
+    "Conditional sensitivities do not estimate expected losses, funded commitments or price-implied beliefs.",
+    "ECR unit costs use rounded aggregate balances,actual90/91-day denominators,and varying populations; not same-customer betas or a price-only decomposition.",
+    "Mortgage partial bridge residual is other/rounding not assumed cash earnings; marks plus hedges are net,not separate losses."
+  ]
+}

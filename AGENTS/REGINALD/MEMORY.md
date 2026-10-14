@@ -19,8 +19,8 @@
 
 ## Session Notes
 
-### CURRENT RESULT — 2026-10-14, bank/ETF comparison after noon boot
-Will-requested key-file catch-up and fresh12:11ET monitoring completed:7OK/1known CFG alert,dark-pool NO DATA; four FRED tiers/settled WAL+FLG rechecked,no new fire or eligible WAL row. Perspective/verification→`reports/2026-10-14_noon-boot-perspective.md`; existing Q3 outcomes remain the next work, no repeat study/new monitor/trade. Earlier closeout `reports/2026-10-14_closeout-and-reboot.md` retains16-TSV audit,five VX updates/frozen-feed repair,KB226 and October14 broker-mirror check: known-owned Fidelity quantities unchanged,no bank-put fill; KRE67P×4 Nov27 ownership/card unresolved(D-77); Robinhood still9/29 vintage. Other desks' dirty work defers pull; explicit owned publication only.
+### CURRENT RESULT — 2026-10-14, Will-selected WAL earnings-path test
+Completed `reports/2026-10-14_WAL_2027_earnings-path-test.md`,KB228–229; public evidence only per Will. Refreshed aggregate consensus and primary Q2 release/deck, reused owner bridge/read-only filings. ~$11 plausible;profit conversion/full funding-cost benefit is least verified. Conditional sensitivities are not forecasts or analyst assumptions. Original owner priors/grades/positions unchanged;append §6 outcomes at existing10/19–20 reads. Earlier tape/noon context→`reports/2026-10-14_bank-and-ETF-intraday-comparison.md` and `reports/2026-10-14_noon-boot-perspective.md`;closeout/broker limits→`reports/2026-10-14_closeout-and-reboot.md`. Other desks' dirty work prohibits pull;owned publication only.
 ### PRIOR RESULT — 2026-10-14, Will-directed compound-risk integration
 Completed `reports/2026-10-14_compound-bank-risk-synthesis.md`;14-bank same-RSSD join,182 credit cells checked against October13 primary originals, fresh Athene guarantee and US Courts verification. KB223–225. June institutional overlaps identified; AI/pension bank allocations, October funding and joint loss/valuation unresolved. Append outcomes at existing Q3 reads; no new monitor, score, specialist or trade. Peer files read only; no external send.
 
@@ -32,9 +32,9 @@ Completed `reports/2026-10-14_compound-bank-risk-synthesis.md`;14-bank same-RSSD
 *Prior open question/WQ414–419 continuity preserved verbatim → `archive/MEMORY_compound-risk_rotation_2026-10-14.md`, crc32 `5286dff8`. Re-check at any append.*
 
 ### CHANGES SINCE LAST SESSION
-Will-requested30-instrument bank/ETF comparison→`reports/2026-10-14_bank-and-ETF-intraday-comparison.md`,KB227;quote trades12:37–40ET,delayed/intraday. Regionals14/14 down;KBWB weaker thanKRE,BAC/MS conspicuous/JPMgreen;cause unproved. Noon/FRED/settled checks retained,no new fire. WALTER004/006 and HBAN expiry/checkpoint clarification persist. Predictions/workout unchanged,no eligible covered-bank actual;existing Q3 duties remain.
+(Next boot populates from fresh observations; completed work is CURRENT RESULT.)
 ### NEXT SESSION
-Research closeout is complete; resume existing Q3 outcomes and the logged PROME source additions, with no repeat screen/new monitor. At existing Q3 reads, append outcomes to October14 compound-risk expectations (§8), alongside the October13 judgments; distinguish loan losses, funding expense and OCI without double counting.
+At existing WAL10/19–20 Q3 reads, append outcomes to the October14 earnings-path test §6; distinguish issuer guidance from REGINALD judgments and vendor bases UNKNOWN. Resume compound-risk §8 and October13 expectations alongside the logged PROME additions;no repeat study/new monitor. Separate new credit expense,funding cost and OCI.
 At existing AMTB/SBCF/BKU Q3 reads, append outcomes to the unscored October13 securities-screen expectations (§5); do not rewrite the September24 scenarios or frozen Q3 grading rules. Reconcile actual securities/hedges, funding, taxes and parent equity before upgrading a sensitivity to a forecast. Three missing numerical durations (WAL/FLG/VLY) remain evidence gaps; no new retrieval schedule.
 **Research method now binding for future bank-research boots:** read `BANK_RESEARCH_STANDARD.md` (CLAUDE Boot5a/Execute10). At each existing Q3 read, append outcomes to the October13 working expectations in `reports/2026-10-13_review-response_forward-judgments.md`; keep current-consensus, VLY primary-source and matched capital/RWA gaps explicit. Do not mistake saved sensitivities for forecast accuracy or alter frozen owner rules.
 **★ NEXT BOOT (set 10/10 PM; Will's three catch-up items are DONE, see LAST SESSION):**

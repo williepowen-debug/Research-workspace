@@ -8,6 +8,7 @@
 
 | File | Date | What it holds | Feeds |
 |------|------|---------------|-------|
+| [WAL FY2027 earnings-path test](../reports/2026-10-14_WAL_2027_earnings-path-test.md) | 10/14 | Public ~$11 path,reverse expense budget,mortgage/ECR/credit counterevidence;conditional sensitivities | Existing WAL Q3 outcomes;owner bridge/grades unchanged |
 | **[market-technicals/](market-technicals/README.md)** | 10/12 | Will-directed home for regional-bank prices, performance, KRE holdings, charts and technical research; dated CSV snapshots, source provenance and historical-study index | Market comparison and technical research; original sources retain their homes |
 | **`FHLB/`** ★ **HUB: start at `FHLB/README.md`** | 10/10 | Everything on the Federal Home Loan Banks in one place (Will-directed consolidation): the two 10/10 reports (moved here; stubs at old paths), the check of Will's external draft, key filing tables, source list (PDFs local-only), a verbatim snapshot of every FHLB ledger row, and 25 crc-stamped copies of desk + fleet material | `REG-T-06` / WQ-414 · STATUS FHLB + H.8 rows · SHADE/BROCK insurer channel |
 | `CCC_HY_TRIPWIRE_2026-06-25.md` ⛔ **DEFINITIONAL SOURCE — DO NOT ARCHIVE** | 6/25 | VX-REG-18.04 full definition — 3-consec >3.6× fire rule, driver-decomp (CCC-led=substance / HY-led=beta), band derivation. **First fire 7/13 (HY-led, no escalate) adjudicated in VX.tsv 7/17.** | VX-REG-18.04, STATUS CCC row |

@@ -1,0 +1,38 @@
+[
+  {
+    "key": "Q2_10Q",
+    "original": "AGENTS/WAL/sources/q2_2026/wal-20260630.htm",
+    "sha256": "63f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f",
+    "bytes": 6664360,
+    "text_chars": 388779,
+    "tables": 142,
+    "verification": "locally preserved issuer source, read-only reuse, not fresh retrieval"
+  },
+  {
+    "key": "Q1_10Q",
+    "original": "AGENTS/WAL/sources/q1_2026/wal-20260331.htm",
+    "sha256": "2e3a4ff09def9e2bbb2b3c05f303c1b201a494c855e3849fe892b28a71a15412",
+    "bytes": 5520660,
+    "text_chars": 349299,
+    "tables": 134,
+    "verification": "locally preserved issuer source, read-only reuse, not fresh retrieval"
+  },
+  {
+    "key": "Q1_release",
+    "original": "AGENTS/WAL/sources/q1_2026/WAL-Q1-2026-Press-Release.htm",
+    "sha256": "06c8a9378899c096adc1948dd15dcee0072de78cdde351bf05881e4235ae992d",
+    "bytes": 1086673,
+    "text_chars": 56405,
+    "tables": 36,
+    "verification": "locally preserved issuer source, read-only reuse, not fresh retrieval"
+  },
+  {
+    "key": "investor_day",
+    "original": "AGENTS/WAL/sources/investor_day_2026/deck_raw.htm",
+    "sha256": "4c081787f3842db101cf41acd3dea0559caae2cb25e7b7bec3364e4c4d48ed46",
+    "bytes": 132393,
+    "text_chars": 91528,
+    "tables": 0,
+    "verification": "locally preserved issuer source, read-only reuse, not fresh retrieval"
+  }
+]
