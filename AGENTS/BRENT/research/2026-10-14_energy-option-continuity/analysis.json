@@ -1,0 +1,642 @@
+{
+  "source_sha256": "bd362d17a159e2389134a4fc88b74d6f10c734807730442a94adf2d32de5bcc4",
+  "fee_assumption_per_contract_per_side": 0.65,
+  "method": "100x standard multiplier; buy long ask, sell short bid. Scenarios at expiry, not forecasts; no closing costs or assignment included in expiry P/L.",
+  "validation": "PASS: contract ticker/expiry/strike, positive ordered bid/ask, debit within width, payoff floor and cap",
+  "screens": [
+    {
+      "symbol": "USO",
+      "expiry": "2026-12-18",
+      "dte_calendar": 65,
+      "spot_reference": 154.19,
+      "long_strike": 162,
+      "short_strike": 175,
+      "long": {
+        "contractSymbol": "USO261218C00162000",
+        "lastTradeDate": "2026-10-13T18:21:55.000Z",
+        "strike": 162.0,
+        "lastPrice": 8.58,
+        "bid": 8.75,
+        "ask": 9.0,
+        "change": 0.42000008,
+        "percentChange": 5.14706,
+        "volume": 3.0,
+        "openInterest": 169,
+        "impliedVolatility": 0.4675956561,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": {
+        "contractSymbol": "USO261218C00175000",
+        "lastTradeDate": "2026-10-14T16:20:22.000Z",
+        "strike": 175.0,
+        "lastPrice": 5.3,
+        "bid": 5.05,
+        "ask": 5.6,
+        "change": 0.2800002,
+        "percentChange": 5.5776935,
+        "volume": 26.0,
+        "openInterest": 2152,
+        "impliedVolatility": 0.4862111926,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "conservative_entry_debit_per_share": 3.95,
+      "opening_cost_including_assumed_fees": 396.3,
+      "max_loss_expiration_including_opening_fees": 396.3,
+      "max_profit_expiration_after_opening_fees": 903.7,
+      "breakeven_expiration_including_opening_fees": 165.963,
+      "breakeven_rise_pct": 7.6354,
+      "long_otm_pct": 5.0652,
+      "short_otm_pct": 13.4963,
+      "gross_debit_fraction_of_width": 0.303846,
+      "immediate_liquidation_gross_per_share": 3.15,
+      "roundtrip_spread_and_assumed_fees_dollars": 82.6,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 138.771,
+          "profit_loss": -396.3
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 154.19,
+          "profit_loss": -396.3
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 161.8995,
+          "profit_loss": -396.3
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 169.609,
+          "profit_loss": 364.6
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 177.3185,
+          "profit_loss": 903.7
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 185.028,
+          "profit_loss": 903.7
+        }
+      ]
+    },
+    {
+      "symbol": "USO",
+      "expiry": "2026-12-18",
+      "dte_calendar": 65,
+      "spot_reference": 154.19,
+      "long_strike": 160,
+      "short_strike": 175,
+      "long": {
+        "contractSymbol": "USO261218C00160000",
+        "lastTradeDate": "2026-10-14T16:44:07.000Z",
+        "strike": 160.0,
+        "lastPrice": 9.5,
+        "bid": 9.35,
+        "ask": 9.6,
+        "change": 0.46000004,
+        "percentChange": 5.088496,
+        "volume": 216.0,
+        "openInterest": 2858,
+        "impliedVolatility": 0.4617973743,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": {
+        "contractSymbol": "USO261218C00175000",
+        "lastTradeDate": "2026-10-14T16:20:22.000Z",
+        "strike": 175.0,
+        "lastPrice": 5.3,
+        "bid": 5.05,
+        "ask": 5.6,
+        "change": 0.2800002,
+        "percentChange": 5.5776935,
+        "volume": 26.0,
+        "openInterest": 2152,
+        "impliedVolatility": 0.4862111926,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "conservative_entry_debit_per_share": 4.55,
+      "opening_cost_including_assumed_fees": 456.3,
+      "max_loss_expiration_including_opening_fees": 456.3,
+      "max_profit_expiration_after_opening_fees": 1043.7,
+      "breakeven_expiration_including_opening_fees": 164.563,
+      "breakeven_rise_pct": 6.7274,
+      "long_otm_pct": 3.7681,
+      "short_otm_pct": 13.4963,
+      "gross_debit_fraction_of_width": 0.303333,
+      "immediate_liquidation_gross_per_share": 3.75,
+      "roundtrip_spread_and_assumed_fees_dollars": 82.6,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 138.771,
+          "profit_loss": -456.3
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 154.19,
+          "profit_loss": -456.3
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 161.8995,
+          "profit_loss": -266.35
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 169.609,
+          "profit_loss": 504.6
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 177.3185,
+          "profit_loss": 1043.7
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 185.028,
+          "profit_loss": 1043.7
+        }
+      ]
+    },
+    {
+      "symbol": "USO",
+      "expiry": "2026-12-18",
+      "dte_calendar": 65,
+      "spot_reference": 154.19,
+      "long_strike": 180,
+      "short_strike": null,
+      "long": {
+        "contractSymbol": "USO261218C00180000",
+        "lastTradeDate": "2026-10-14T16:41:38.000Z",
+        "strike": 180.0,
+        "lastPrice": 4.35,
+        "bid": 4.35,
+        "ask": 4.65,
+        "change": 0.27999973,
+        "percentChange": 6.8796,
+        "volume": 27.0,
+        "openInterest": 1508,
+        "impliedVolatility": 0.4924977509,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": null,
+      "conservative_entry_debit_per_share": 4.65,
+      "opening_cost_including_assumed_fees": 465.65,
+      "max_loss_expiration_including_opening_fees": 465.65,
+      "max_profit_expiration_after_opening_fees": null,
+      "breakeven_expiration_including_opening_fees": 184.6565,
+      "breakeven_rise_pct": 19.7591,
+      "long_otm_pct": 16.7391,
+      "short_otm_pct": null,
+      "gross_debit_fraction_of_width": null,
+      "immediate_liquidation_gross_per_share": 4.35,
+      "roundtrip_spread_and_assumed_fees_dollars": 31.3,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 138.771,
+          "profit_loss": -465.65
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 154.19,
+          "profit_loss": -465.65
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 161.8995,
+          "profit_loss": -465.65
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 169.609,
+          "profit_loss": -465.65
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 177.3185,
+          "profit_loss": -465.65
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 185.028,
+          "profit_loss": 37.15
+        }
+      ]
+    },
+    {
+      "symbol": "BNO",
+      "expiry": "2027-01-15",
+      "dte_calendar": 93,
+      "spot_reference": 65.35,
+      "long_strike": 70,
+      "short_strike": null,
+      "long": {
+        "contractSymbol": "BNO270115C00070000",
+        "lastTradeDate": "2026-10-14T16:35:08.000Z",
+        "strike": 70.0,
+        "lastPrice": 4.66,
+        "bid": 4.6,
+        "ask": 4.8,
+        "change": -0.03999996,
+        "percentChange": -0.8510631,
+        "volume": 309.0,
+        "openInterest": 14659,
+        "impliedVolatility": 0.5034229346,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": null,
+      "conservative_entry_debit_per_share": 4.8,
+      "opening_cost_including_assumed_fees": 480.65,
+      "max_loss_expiration_including_opening_fees": 480.65,
+      "max_profit_expiration_after_opening_fees": null,
+      "breakeven_expiration_including_opening_fees": 74.8065,
+      "breakeven_rise_pct": 14.4705,
+      "long_otm_pct": 7.1155,
+      "short_otm_pct": null,
+      "gross_debit_fraction_of_width": null,
+      "immediate_liquidation_gross_per_share": 4.6,
+      "roundtrip_spread_and_assumed_fees_dollars": 21.3,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 58.815,
+          "profit_loss": -480.65
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 65.35,
+          "profit_loss": -480.65
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 68.6175,
+          "profit_loss": -480.65
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 71.885,
+          "profit_loss": -292.15
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 75.1525,
+          "profit_loss": 34.6
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 78.42,
+          "profit_loss": 361.35
+        }
+      ]
+    },
+    {
+      "symbol": "BNO",
+      "expiry": "2027-01-15",
+      "dte_calendar": 93,
+      "spot_reference": 65.35,
+      "long_strike": 69,
+      "short_strike": 75,
+      "long": {
+        "contractSymbol": "BNO270115C00069000",
+        "lastTradeDate": "2026-10-14T16:24:44.000Z",
+        "strike": 69.0,
+        "lastPrice": 4.9,
+        "bid": 4.9,
+        "ask": 5.2,
+        "change": -0.53999996,
+        "percentChange": -9.92647,
+        "volume": 10.0,
+        "openInterest": 131,
+        "impliedVolatility": 0.5067188,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": {
+        "contractSymbol": "BNO270115C00075000",
+        "lastTradeDate": "2026-10-14T15:28:50.000Z",
+        "strike": 75.0,
+        "lastPrice": 3.16,
+        "bid": 3.2,
+        "ask": 3.6,
+        "change": -0.17999983,
+        "percentChange": -5.3892164,
+        "volume": 33.0,
+        "openInterest": 3161,
+        "impliedVolatility": 0.5105029419,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "conservative_entry_debit_per_share": 2.0,
+      "opening_cost_including_assumed_fees": 201.3,
+      "max_loss_expiration_including_opening_fees": 201.3,
+      "max_profit_expiration_after_opening_fees": 398.7,
+      "breakeven_expiration_including_opening_fees": 71.013,
+      "breakeven_rise_pct": 8.6656,
+      "long_otm_pct": 5.5853,
+      "short_otm_pct": 14.7666,
+      "gross_debit_fraction_of_width": 0.333333,
+      "immediate_liquidation_gross_per_share": 1.3,
+      "roundtrip_spread_and_assumed_fees_dollars": 72.6,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 58.815,
+          "profit_loss": -201.3
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 65.35,
+          "profit_loss": -201.3
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 68.6175,
+          "profit_loss": -201.3
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 71.885,
+          "profit_loss": 87.2
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 75.1525,
+          "profit_loss": 398.7
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 78.42,
+          "profit_loss": 398.7
+        }
+      ]
+    },
+    {
+      "symbol": "VLO",
+      "expiry": "2026-12-18",
+      "dte_calendar": 65,
+      "spot_reference": 456.56,
+      "long_strike": 480,
+      "short_strike": 490,
+      "long": {
+        "contractSymbol": "VLO261218C00480000",
+        "lastTradeDate": "2026-10-14T14:58:13.000Z",
+        "strike": 480.0,
+        "lastPrice": 31.42,
+        "bid": 31.1,
+        "ask": 33.0,
+        "change": 0.52000046,
+        "percentChange": 1.6828494,
+        "volume": 12.0,
+        "openInterest": 209,
+        "impliedVolatility": 0.5394027994,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": {
+        "contractSymbol": "VLO261218C00490000",
+        "lastTradeDate": "2026-10-14T13:44:02.000Z",
+        "strike": 490.0,
+        "lastPrice": 27.5,
+        "bid": 27.0,
+        "ask": 29.6,
+        "change": 1.8099995,
+        "percentChange": 7.0455403,
+        "volume": 4.0,
+        "openInterest": 92,
+        "impliedVolatility": 0.5364731412,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "conservative_entry_debit_per_share": 6.0,
+      "opening_cost_including_assumed_fees": 601.3,
+      "max_loss_expiration_including_opening_fees": 601.3,
+      "max_profit_expiration_after_opening_fees": 398.7,
+      "breakeven_expiration_including_opening_fees": 486.013,
+      "breakeven_rise_pct": 6.4511,
+      "long_otm_pct": 5.134,
+      "short_otm_pct": 7.3243,
+      "gross_debit_fraction_of_width": 0.6,
+      "immediate_liquidation_gross_per_share": 1.5,
+      "roundtrip_spread_and_assumed_fees_dollars": 452.6,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 410.904,
+          "profit_loss": -601.3
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 456.56,
+          "profit_loss": -601.3
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 479.388,
+          "profit_loss": -601.3
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 502.216,
+          "profit_loss": 398.7
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 525.044,
+          "profit_loss": 398.7
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 547.872,
+          "profit_loss": 398.7
+        }
+      ]
+    },
+    {
+      "symbol": "MPC",
+      "expiry": "2026-12-18",
+      "dte_calendar": 65,
+      "spot_reference": 478.45,
+      "long_strike": 500,
+      "short_strike": 510,
+      "long": {
+        "contractSymbol": "MPC261218C00500000",
+        "lastTradeDate": "2026-10-14T16:50:09.000Z",
+        "strike": 500.0,
+        "lastPrice": 34.73,
+        "bid": 32.7,
+        "ask": 35.0,
+        "change": 1.2299995,
+        "percentChange": 3.6716404,
+        "volume": 9.0,
+        "openInterest": 163,
+        "impliedVolatility": 0.5287217538,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": {
+        "contractSymbol": "MPC261218C00510000",
+        "lastTradeDate": "2026-10-13T18:57:52.000Z",
+        "strike": 510.0,
+        "lastPrice": 27.8,
+        "bid": 29.0,
+        "ask": 30.0,
+        "change": 0.0,
+        "percentChange": 0.0,
+        "volume": 2.0,
+        "openInterest": 36,
+        "impliedVolatility": 0.5196123479,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "conservative_entry_debit_per_share": 6.0,
+      "opening_cost_including_assumed_fees": 601.3,
+      "max_loss_expiration_including_opening_fees": 601.3,
+      "max_profit_expiration_after_opening_fees": 398.7,
+      "breakeven_expiration_including_opening_fees": 506.013,
+      "breakeven_rise_pct": 5.7609,
+      "long_otm_pct": 4.5041,
+      "short_otm_pct": 6.5942,
+      "gross_debit_fraction_of_width": 0.6,
+      "immediate_liquidation_gross_per_share": 2.7,
+      "roundtrip_spread_and_assumed_fees_dollars": 332.6,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 430.605,
+          "profit_loss": -601.3
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 478.45,
+          "profit_loss": -601.3
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 502.3725,
+          "profit_loss": -364.05
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 526.295,
+          "profit_loss": 398.7
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 550.2175,
+          "profit_loss": 398.7
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 574.14,
+          "profit_loss": 398.7
+        }
+      ]
+    },
+    {
+      "symbol": "PSX",
+      "expiry": "2026-12-18",
+      "dte_calendar": 65,
+      "spot_reference": 294.335,
+      "long_strike": 310,
+      "short_strike": 320,
+      "long": {
+        "contractSymbol": "PSX261218C00310000",
+        "lastTradeDate": "2026-10-13T18:43:26.000Z",
+        "strike": 310.0,
+        "lastPrice": 15.2,
+        "bid": 15.7,
+        "ask": 16.7,
+        "change": 0.8999996,
+        "percentChange": 6.2937036,
+        "volume": 1.0,
+        "openInterest": 114,
+        "impliedVolatility": 0.4634147897,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "short": {
+        "contractSymbol": "PSX261218C00320000",
+        "lastTradeDate": "2026-10-14T17:03:58.000Z",
+        "strike": 320.0,
+        "lastPrice": 13.3,
+        "bid": 12.5,
+        "ask": 13.1,
+        "change": 2.0,
+        "percentChange": 17.699114,
+        "volume": 15.0,
+        "openInterest": 58,
+        "impliedVolatility": 0.4569146106,
+        "inTheMoney": false,
+        "contractSize": "REGULAR",
+        "currency": "USD"
+      },
+      "conservative_entry_debit_per_share": 4.2,
+      "opening_cost_including_assumed_fees": 421.3,
+      "max_loss_expiration_including_opening_fees": 421.3,
+      "max_profit_expiration_after_opening_fees": 578.7,
+      "breakeven_expiration_including_opening_fees": 314.213,
+      "breakeven_rise_pct": 6.7535,
+      "long_otm_pct": 5.3222,
+      "short_otm_pct": 8.7197,
+      "gross_debit_fraction_of_width": 0.42,
+      "immediate_liquidation_gross_per_share": 2.6,
+      "roundtrip_spread_and_assumed_fees_dollars": 162.6,
+      "expiration_scenarios": [
+        {
+          "underlying_return_pct": -10,
+          "underlying": 264.9015,
+          "profit_loss": -421.3
+        },
+        {
+          "underlying_return_pct": 0,
+          "underlying": 294.335,
+          "profit_loss": -421.3
+        },
+        {
+          "underlying_return_pct": 5,
+          "underlying": 309.0517,
+          "profit_loss": -421.3
+        },
+        {
+          "underlying_return_pct": 10,
+          "underlying": 323.7685,
+          "profit_loss": 578.7
+        },
+        {
+          "underlying_return_pct": 15,
+          "underlying": 338.4852,
+          "profit_loss": 578.7
+        },
+        {
+          "underlying_return_pct": 20,
+          "underlying": 353.202,
+          "profit_loss": 578.7
+        }
+      ]
+    }
+  ]
+}

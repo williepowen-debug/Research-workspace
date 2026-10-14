@@ -1,5 +1,7 @@
 # BRENT TRADE.md — domain trade surface
 
+**Option-continuity research October14 13:30 EDT:** Will approved investigation, not purchase/roll. [Screen](research/2026-10-14_energy-option-continuity/REPORT.md) identifies USO Dec18 162/175 as leading comparison; vendor bid/ask clocks unavailable, substantial friction, physical/price edge unproved. No TERRY card, at-fire grade, green-day exception, WQ192 lift or approval inferred. Will handles existing calls; no new position/order or changed holding rule.
+
 **Owner-artifact check 2026-10-14 12:09 EDT — SCOPED-PARTIAL:** October14 PROME broker transcription matches USO37shares/VLO2shares/USOOct14$150C×2; raw October14 images not independently read here, capture time UNKNOWN, current working orders/outcomes UNKNOWN. Source `PROME/data/2026-10-14_broker-capture-TRANSCRIPTION.json`. No marks adopted, no fill or approval inferred. Existing sell-or-roll today and original-share November→December basis tomorrow survive; D-78 and L684 pending remain. Prior October13 image verification below retains its date.
 
 **Updated: 2026-10-13 22:59 EDT — broker/continuity reconciliation; Last real position data refresh: 2026-10-13 received**, exact capture/quote time UNKNOWN. [PROME transcription](../../PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md) §§1/4 and original images independently read/hash-matched in this audit. USO37 shares, VLO2 total shares, USO Oct14 $150C×2. Additional VLO share management scope UNKNOWN (D-78); original-share rule not extended. No live marks or new approval.

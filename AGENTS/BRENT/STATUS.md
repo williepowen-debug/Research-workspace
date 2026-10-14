@@ -1,12 +1,14 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-14 12:08 EDT — SCOPED-PARTIAL:** October14 IEA OMR public body read; institutional September estimates/forecasts, not a current cargo or site survey. Network boot: 6 OK / 4 FINDINGS / 0 FAIL, rc2. [Assessment](research/2026-10-14_boot-omr/REPORT.md).
+**Last real data refresh: 2026-10-14 13:30 EDT — SCOPED-PARTIAL:** vendor option screen only; bid/ask clocks unavailable. Earlier IEA September estimates/forecasts retain their vintage, not a current cargo/site survey. Network boot: 6 OK / 4 FINDINGS / 0 FAIL, rc2. [Assessment](research/2026-10-14_boot-omr/REPORT.md).
 
 **Current judgment:** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
 
 **Shipping check / October15 prep 2026-10-14 13:05 EDT:** both requested stages COMPLETE in order. Fresh PortWatch queries show weaker matched seven-day Fujairah/Sohar tanker-export estimates through October9; not a post-sinking loss measurement. MPA direct body recovered; freight evidence mixed, with better later diesel-delivery economics. [Shipping result](research/2026-10-14_shipping-check/REPORT.md). Archived EIA baseline, exact series, policy accounting and BRT31 letter prepared; future October15 results remain ungraded. [Worksheet](research/2026-10-15_release-prep/WORKSHEET.md). Will handles calls; continued energy option exposure is the research question, no replacement ticket/roll approved. VLO holding-rule explanation is hold/exit assessment, not an instruction to sell; TERRY grades, original share only.
 
 **Call reflection:** favorable dated marked return; final realized outcome unverified. Tactical payoff analysis needs clearer separation from long-horizon WAIT. [Review](research/2026-10-14_boot-omr/CALL-REFLECTION.md). No new mark or rule.
+
+**Option screen October14 13:30 EDT:** leading research candidate USO Dec18 162/175 (65DTE); no owner card or capital approval. Vendor inputs/expiration arithmetic saved; material friction and price edge unproved. BNO has no60–90DTE expiry; refiner edge still missing. [Result](research/2026-10-14_energy-option-continuity/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
