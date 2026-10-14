@@ -1,4 +1,7 @@
 # Funding-Seizure X1 Pre-emption Gate — SCOPED + CALIBRATED
+
+> **Current-state navigation 2026-10-14T14:38:55.053387-04:00:** ARM state lives in STATUS§2; July readings below are historical. October14 compared first-published SOFR99/IORB with latest-revised on the returnedAugust20–October13 window, with no differences; this does not complete a full-history revision census. FIRE legs remain UNGRADEABLE pending proposed bands/base rate byOctober31. No registered condition changes.
+
 **Registered:** 2026-07-17 (LIQUID) · **KB:** KB-LIQ-079 (supersedes KB-LIQ-074 CANDIDATE) · **Status:** ✅ **SIGNED OFF WITH RIDERS — BROCK 2026-07-20** (`inbox/processed/2026-07-20_from-BROCK_gate-liq-079-x1-signoff.md`). X1-semantics interface CLOSED; riders R1–R4 folded into §Interface below and binding on this spec. Also retires the KB-LIQ-074 sign-off chase. **Not armed** at sign-off (SOFR99−IORB +5bp [7/16], 25bp under the +30 line) — definitional, not live.
 **Input:** DEWEY 07b calibration `AGENTS/DEWEY/output/2026-07-16_funding-gate-calibration.md` (closes the 7/09 parent's two declared gaps: episode generalization + false-positive rate) + parent `2026-07-09_funding-seizure-x1-gate.md`.
 
@@ -141,7 +144,7 @@ In today's drained regime **+30 ≈ p96** → expect ~4% of days to tag spurious
 4. **Pre-2018 is unconstructible** (SOFR starts 2018-04-03) — "since 2015" is scoped, not answered.
 5. **Row-definition mismatch (from KB-LIQ-074) RESOLVED:** acute leg = **SOFR99−IORB** (99th-pctile repo vs the policy ceiling), not 99pct−SOFR. This spec adopts SOFR99−IORB throughout.
 
-## Current reading [LIQUID-pulled 2026-07-16/17, FRED + OFR + NY Fed]
+## Historical reading [LIQUID-pulled 2026-07-16/17, FRED + OFR + NY Fed]
 
 **No seizure. Acute leg not even armed — but the buffer is gone.**
 - SOFR99−IORB **+5bp [7/16]** (peaked +8 [7/15]) — **25bp below the +30 arm line.**

@@ -1,46 +1,20 @@
-# LIQUID — Durable Reference Tables (thresholds · playbooks)
+# LIQUID — Registered Definition References
 
-**Moved OFF `STATUS.md` 2026-09-17 to hold the read cap.** These are **durable reference**, not live state: `STATUS.md` keeps the five registered GATES and their states, and **every live level comes from `scripts/boot.py`** — never from this file.
-**Moved verbatim. crc32 `ecaa34cd` · 6,795 B.**
+**Reviewed 2026-10-14T14:34:46.375649-04:00.** `STATUS.md` owns live gate state; existing instruments supply fresh readings. This reference creates no criteria or counts. Prior September table and its historical levels are preserved in `archive/2026-10-14_staleness-sweep/workbook/REFERENCE_TABLES.md`.
 
-⛔ **Dates inside these rows are the vintage of the annotation, not of the market.** A row here is a *definition* plus its history; if a row's level looks live, it is not — re-pull.
+| Instrument / question | Existing canonical definition |
+|---|---|
+| HY kill / X1 / confirmation | `KILL_MEMO_HY_OAS_260.md`; strict<260×2 published observations, guard first. X1 HY>280×3 under WQ363 plus BROCK wrapper half. Strict>320 send line; RED/REGINALD own their counts. |
+| Credit-quality broadening / LIQ-07 | September25 credit-transmission §1c and Q2 letter; frozen thresholds/session-list ambiguity preserved |
+| AI-credit re-arm | KB-LIQ-069 letter; ORCL map sharpens issuer-rating leg, not the gate itself. Energy/sector source gaps remain explicit. |
+| IG rating/spread mismatch | KB-LIQ-072 letter: IG>94 or HY−IG<180, plus its existing event legs. SpaceX leg CANNOT-FIRE. |
+| Dealer conjunction | `DEALER_POSITIONING_NEXUS_WATCH.md`; W2 is named IG-corporate buckets, not an inference that all dealers have no balance-sheet capacity |
+| Funding seizure | `FUNDING_SEIZURE_GATE_SCOPED.md` and `GATE079_CALENDAR_EXCLUDED.tsv`; same-date SOFR99−IORB≥30×2 eligible dates. FIRE bands remain ungradeable pending approved calibration. |
+| Funding deviation/drift | `scripts/sofr_dispersion.py`; retired SOFR75≥0 band supplies no reading. Absolute SOFR3.70 is obsolete and not an independent trigger. |
+| Private-credit redemption | BROCK’s `GATE-BRK-R2`, sole owner; retired second-fund count is not a LIQUID trigger |
+| Foreign demand / auctions | `TIC_FRAMEWORK.md`, current BOND auction letter and `STATUS.md`; indirect bid channel is not holder identity. Belgium>500B is bare level only. |
+| Other existing lines | STATUS§6 lists unchanged duration, FX, VIX, BIZD, SRF and reserve references. Position decisions remain TERRY/Will. |
+| Expected funding signals | `EXPECTED_SIGNALS_TRACKER.md`; source-unverified/unchecked rows do not certify absence |
+| Historical mark/recognition tests | BDC Q2 card and HY/Hormuz watch retain dated grades; no automatic X1 satisfaction. T6 closed NO-VERDICT. |
 
----
-
-## Triggers & Thresholds (durable reference — live levels → `scripts/boot.py`)
-
-| Metric | Threshold / line | Owner |
-|--------|------------------|-------|
-| **HY OAS** | **<260 kill (×2 consecutive closes) · 265–280 approach · >280 X1-decoupling half · >320 confirmation** | **Live → `boot.py`** (266 [FRED 9/2] at this stamp; 2026 obs strictly <260: zero, n=177). **GATE-HY-REKILL NOT FIRED 0-of-2**; a ≤−4bp session is ~20% of 2026 sessions so the **CONSECUTIVE leg is the whole bar**; an unpublished session is `UNGRADEABLE-PENDING-PUBLICATION`, never `NOT-FIRED`. **H-2: a joint fire with HENRY's <260 bp sustained-5 leg is ONE event on ONE series.** **X1 UN-FIRED and CONJUNCTIVE — wrapper half ADJUDICATED NOT ARMED (BROCK 8/28).** ⛔ **Read any approach against the TAIL: a tape-only compression into <260 while CCC/BB sits at a 3-year record is exactly what the two-sided KILL_MEMO guard (KB-LIQ-105) blocks.** Canonical letter + ladder → `workbook/KILL_MEMO_HY_OAS_260.md`. |
-| **CCC-BB tail-gap** | NEXUS R3 falsifier <~400 (pin = wide) — ⚠️ TWO annotations on every read **until the 7/31 index rebalance flush**: (a) partly AI-composition artifact BOTH legs (KB-LIQ-066); (b) **DISH stays IN the index until the 7/31 rebalance** (Ch.11 filed 6/30 AFTER the 6/25 lock-out — DEWEY/SIG-W-20260702-001; expect a MECHANICAL CCC tightening at removal that is NOT credit improvement → re-pull BAMLH0A3HYC + composition after 7/31; KB-LIQ-068 — don't read early-July moves as healing OR ratchet-failure without decomposing). Precision: 806 = 15-month high, NOT cycle (831 4/7/25); CCC 970 < 1,020 (3/30/26) = range re-test | LIQUID / NEXUS |
-| **BB floor / AI-credit beta** | BB OAS >220 while CCC flat-to-tighter = AI-capex repricing the FUNDED leg (KB-LIQ-066); any single-agency ORCL cut to Baa3/BBB− = fallen-angel pipeline live (both outlooks NEGATIVE; ~$133B basis ≈ largest fallen angel ever) | LIQUID |
-| **IG OAS + HY−IG basis** (mandate ext.) | IG >94 = 2026-high break; >110 = regime (IG leads when transmission is balance-sheet); basis +30bps/20 sessions with IG <85 = junk-specific decompression; basis <180 = complacency extreme | LIQUID |
-| **SOFR dispersion** (mandate ext.) | 🔴 **BAND DEAD — retired 2026-08-27 (KB-LIQ-106).** The registered line (*SOFR75−IORB ≥0 ×3 consecutive non-Q-end days*) was cleared by the **MEDIAN day** (59.9% of non-Q-end sessions, n=615) and had been satisfied for **27 consecutive sessions** while this file read *"1 print, needs 3."* **Mechanism: a 75th PERCENTILE benchmarked against IORB — a level the distribution's mean trades near — is biased positive BY CONSTRUCTION; a percentile must be banded on its OWN distribution.** **Successor `scripts/sofr_dispersion.py`** reports deviation (base-rated robust z) and drift (slope, deliberately UNBANDED) separately; wired into `boot.py`. ⚠️ Its percentiles are percentiles of a sample containing **no funding seizure** — better-calibrated, NOT validated. **Today SOFR75−IORB +6bp [9/1].** ⛔ **`GATE-LIQ-079` is a DIFFERENT series and UNAFFECTED — ARM leg `SOFR99−IORB` +9bp [9/1], 21bp under +30, NOT ARMED** (basis repaired 8/28, KB-LIQ-113). *(Derivation rotated → `archive/status_snapshots/`.)* |
-| **Dealer positions** (mandate ext., weekly Thu) | Corp IG inventory aggregate <0 = no warehouse bid (G5L10 already −$825mm 6/17); UST coupon net at ATH or +2σ/12wk = basis-absorption capacity shrinking | LIQUID |
-| HY Energy OAS | >300 energy-credit trip — **structurally unavailable on free FRED** (paid ICE sub-index); reason, don't fabricate. **7/8 restate (KB-LIQ-071): direction in-line-to-tighter unless Brent <$60 — REINFORCED at $79; tanker/shipping + refiner HY = new name-level tail, not a sector-wide flip** | LIQUID |
-| APO co-trigger | broke <$130 = alts-crack deepening (the old >$130-recovery framing is moot; KILL_MEMO) | BROCK |
-| BIZD | $12.50 mark-stress line | LIQUID / BROCK |
-| VIX | >25 (>23 = HENRY cascade) | HENRY |
-| SOFR / SOFR-IORB | SOFR >3.70 · IORB spread sustained >0 = funding stress | LIQUID |
-| 10Y / 30Y / 2Y | 10Y >4.50 sustained · 30Y >5.00 re-establish / <4.90 unwind · 2Y front-end tell | LIQUID / BOND |
-| RRP / SRF / Reserves | RRP sustained >$10B into July · SRF >$50B · reserves <$2.8T (canonical WRESBAL, **not** FFIEC) | LIQUID |
-| USD/JPY | >160 (triggered on level; repat pushed to Sep tail) | SAM |
-| Auction indirect | <55% sustained = demand break | LIQUID / BOND |
-
----
-
-## Active Playbooks / Monitors
-
-| File | Purpose |
-|------|---------|
-| `workbook/KILL_MEMO_HY_OAS_260.md` | Canonical two-sided HY OAS trigger ladder + X1 conjunction — live until thesis reframed |
-| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | **Q2-marks PRE-REG grading card (7/18, KB-083)** — 6 names, 5 QoQ metrics, mechanical CONFIRM/REFUTE/MIXED lines for the 7/25-28→early-Aug window = NEXUS R3/M-08 + BROCK wrapper-leads X1 half; grade name-by-name on arrival |
-| `workbook/ORCL_FALLEN_ANGEL_MAP.md` | **ORCL fallen-angel trigger map (7/18, KB-082)** — cross-agency ladder (S&P BBB−/Moody's Baa2-neg/Fitch BBB), index middle/avg mechanics, ~$130-160B forced-sell sizing, GATE-069 2nd-leg fire condition (R1 = Moody's→Baa3) |
-| `workbook/AUCTION_FRAMEWORK.md` · `workbook/TIC_FRAMEWORK.md` | Foreign-demand / auction-bid reference |
-| `workbook/EXPECTED_SIGNALS_TRACKER.md` | Absence-is-data tracker (ES-LIQ-01..05: FHLB / sponsored-repo / MMF WAM / FTD / CCY-basis) — born 7/11, ask-8 closed |
-| `workbook/DEALER_POSITIONING_NEXUS_WATCH.md` | 3-leg amplification conjunction (SOFR-short / dealer warehouse / MOVE) — ARMED-WATCH, 2-of-3 fire rule (KB-LIQ-076) |
-| ~~`workbook/CONSUMER_CREDIT_MONOLINES_PREREG.md`~~ | **GRADED REFUTE + ARCHIVED 2026-08-24** (KB-LIQ-103) → `archive/CONSUMER_CREDIT_MONOLINES_PREREG_GRADED_2026-08-24.md`. Consumer stress stays subprime/nonbank-CONTAINED |
-| `workbook/DECOUPLING_TESTS_VIX_HY_2026-08-10.md` | **VIX-vs-HY independence battery (8/10 forum, Will-ruled). Tests B and C CLOSED; Test A v1 is UNGRADEABLE-UNDERPOWERED (WQ-113, Will-ruled 8/28) and NO GRADE IS OWED ON THAT LETTER.** ⇒ **Only live leg: T3 v2, first decidable 2026-09-23** (38 sessions from 7/31; DOCKET row 238), graded on the **38-session** partial correlation against the **≥0.45** detection band only, reported with its 95% Fisher CI and power. ⛔ **The 20-session r=+0.399 [7/31→8/27] is SUPERSEDED at that date, not carried — a different statistic, never compared against 0.45.** ⛔ A run of NO-VERDICT readings is **not** evidence of decoupling and **not** evidence the shared factor is the dollar; it is the absence of a reading. |
-| `scripts/hy_oas_watch.py` | Unattended HY OAS X1/kill watcher (systemd timer; alerts/ surface) |
-
----
+For unresolved definitions or unavailable sources, retain the registered unresolved state and return the dependency to PROME. Do not choose a new line because it is near the latest level.

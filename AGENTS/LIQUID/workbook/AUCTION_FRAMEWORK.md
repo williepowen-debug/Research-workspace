@@ -1,4 +1,7 @@
 # 20Y Auction Demand Assessment Framework
+
+> **Coverage correction 2026-10-14T14:34:46.375649-04:00:** the March scenario assertions below are historical hypotheses, not current Gulf/Japan/dealer measurements. BOND owns current auction scoring; use its dated letter/primary accepted-basis results. Do not use this old tail>5bp scenario as a registered current gate. LIQUID’s existing BTC/indirect send lines remain in CLAUDE/STATUS.
+
 *Reusable template — first applied Mar 19, 2026*
 
 ## Demand Sources Assessment

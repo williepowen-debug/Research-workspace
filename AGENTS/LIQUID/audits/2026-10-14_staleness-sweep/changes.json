@@ -1,0 +1,293 @@
+{
+  "timestamp": "2026-10-14T14:34:46.375649-04:00",
+  "session_id": "01a13b8c-ebf0-74c0-a1c3-5ae79550bd06",
+  "authorization": "Will: sweep LIQUID files and update stale surfaces; existing sole-writer confirmation persists in same thread",
+  "changed": [
+    {
+      "file": "IDENTITY.md",
+      "reason": "Remove June live-looking prices, old future tests and unsupported present-tense capacity assertions from identity",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/IDENTITY.md",
+      "original_bytes": 4299,
+      "original_sha256": "e3a75d49731c5a117a50028a0382455baa36fced8528c52285103ad6ec295fd9",
+      "original_crc32": "a6e5fc6f",
+      "final_sha256": "b31afd45d8c1fd7303c6a6521a635830e6f12d179761459485567d1cd9966736",
+      "final_bytes": 2116
+    },
+    {
+      "file": "USER.md",
+      "reason": "Replace nonexistent position path and stale June calendar/closed option instructions with current owner references",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/USER.md",
+      "original_bytes": 2340,
+      "original_sha256": "2b03ab1479259048d5424fd3f87fc0c1f3f074a566cc67a04e2ffcf27264db3a",
+      "original_crc32": "bcd49c32",
+      "final_sha256": "f1422663f2a7f13ff55858eafc8cbf342e282e223bd8a1c4e83054112d6f14bd",
+      "final_bytes": 1594
+    },
+    {
+      "file": "NEXUS_BRIEF.md",
+      "reason": "Replace August posture, closed T6/past tests and stale warehouse/funding assertions with October14 source-grounded synthesis",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/NEXUS_BRIEF.md",
+      "original_bytes": 20328,
+      "original_sha256": "d949dd76bd98425375ef2cdad5cd9069aafe081e21ab27adefaa7e127f114be8",
+      "original_crc32": "ef069802",
+      "final_sha256": "43b13a61f46cef66c6ed2d6bdf3859c3410ac3bda8df0e3f659a8335a4e143e4",
+      "final_bytes": 3374
+    },
+    {
+      "file": "STRATEGY.md",
+      "reason": "Reconcile retired private-credit count, obsolete absolute SOFR and extra HY veto; remove June hold/position snapshots without changing registered thresholds",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/STRATEGY.md",
+      "original_bytes": 8299,
+      "original_sha256": "43234bada171af27f4562b5d2dbb76878b32ab391aecdfb052f067aaed85ea7c",
+      "original_crc32": "a43bad6c",
+      "final_sha256": "32eaa78a732a9010e23b55badc86f62243565ed89f4be01d3ce6ea402f69ebe6",
+      "final_bytes": 7954
+    },
+    {
+      "file": "thesis/TIMELINE.md",
+      "reason": "Remove June forward windows and contradictory retired kill wording; point to existing October/November registered obligations",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/thesis/TIMELINE.md",
+      "original_bytes": 9872,
+      "original_sha256": "f42366956412186abd85a5f85f46528684ecf807257454df44e4ab6eac9c341c",
+      "original_crc32": "9685bfae",
+      "final_sha256": "f44b9e614fe22a6632e95a254d87bccbf9366e4f218025943490fe4e5e37e885",
+      "final_bytes": 2483
+    },
+    {
+      "file": "thesis/THESIS.md",
+      "reason": "Prevent June conceptual baseline/conviction/absolute-rate condition from masquerading as current evidence; preserve version and all underlying text",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/thesis/THESIS.md",
+      "original_bytes": 21443,
+      "original_sha256": "c80e0ba0bdc9bdf4994aaa4658e6d26bd1ed568f575a6878a7ccb6852da6b69d",
+      "original_crc32": "be8acba8",
+      "final_sha256": "62f7c6b247e3369e9bb0103fb04442b7f90455705ea73b55997ad3bc79db7d40",
+      "final_bytes": 22026
+    },
+    {
+      "file": "CLAUDE.md",
+      "reason": "Remove stale duplicated boot snapshots to canonical pointers while preserving exact binding basis paragraph and all other instructions",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/CLAUDE.md",
+      "original_bytes": 35750,
+      "original_sha256": "68a02858e11f88965826496305f6a2907d297a020b436eca4afe9c946f45fd0c",
+      "original_crc32": "2cd49838",
+      "final_sha256": "58ec700c071912ff66d8d419d59b2f181713d47562347bc5a0b272c2233bef93",
+      "final_bytes": 26397
+    },
+    {
+      "file": "CLOSEOUT.md",
+      "reason": "Align runtime attribution, self-authored packet persistence and Git recovery with existing root canon; fix old layout reference",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/CLOSEOUT.md",
+      "original_bytes": 12123,
+      "original_sha256": "766aad32b3bc36134dc5ec95a2b2b18adb5ca24c78db87a0f5d329b00b3724a3",
+      "original_crc32": "36b97d1a",
+      "final_sha256": "699397afd0ea89d925bbdbd9b5107ded9f15105d9546979b7493a08574c08a8f",
+      "final_bytes": 12428
+    },
+    {
+      "file": "workbook/REFERENCE_TABLES.md",
+      "reason": "Replace stale snapshot/dead dealer-warehouse inference/absolute-rate/private-credit copies with registered-owner navigation",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/REFERENCE_TABLES.md",
+      "original_bytes": 7352,
+      "original_sha256": "cdf71356c479734c4a9f73249d978e87b1dbca286bf2f525c6bf8018c7a0fcb1",
+      "original_crc32": "bbebc03c",
+      "final_sha256": "ae7a61244617fdde438d7edfae3cc9f795356b0b92974c65d44ece5d19f941bf",
+      "final_bytes": 2466
+    },
+    {
+      "file": "workbook/OPEN_MONITORS.md",
+      "reason": "Remove stale September monitor grades and obsolete running CRC/byte figures; retain owner and limitation pointers",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/OPEN_MONITORS.md",
+      "original_bytes": 4998,
+      "original_sha256": "713bd7c8222d8cb5ef6c002fd09ca72c92a640ecd649fdb18b64c91ab41b3ea9",
+      "original_crc32": "33b216bf",
+      "final_sha256": "d161a1cc76b8c069370494153c720d61738877c200a5c746477f3f58b6a0b0ea",
+      "final_bytes": 2090
+    },
+    {
+      "file": "workbook/EXPECTED_SIGNALS_TRACKER.md",
+      "reason": "Make top-table source/ES04 bands match August24 adopted correction; distinguish old quiet reads from unmeasured current rows",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/EXPECTED_SIGNALS_TRACKER.md",
+      "original_bytes": 10319,
+      "original_sha256": "cd79171700a8c7853353cad84ff5d70cf454a8177d2d0077aa2a511771324ef1",
+      "original_crc32": "c253e1f6",
+      "final_sha256": "ea928e683b649ff1618416a1b5a5e214078526534346211ab981681a1b9915af",
+      "final_bytes": 10881
+    },
+    {
+      "file": "workbook/DEALER_POSITIONING_NEXUS_WATCH.md",
+      "reason": "Remove August header and expired review-date mirror; preserve registered letter, raw grades and documented W1 blind spot",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/DEALER_POSITIONING_NEXUS_WATCH.md",
+      "original_bytes": 39139,
+      "original_sha256": "ad7b81cf43cc6ffb3a34650dfbfa49f2d8f27e2cfc0111562ec735aa86f13260",
+      "original_crc32": "4be011d6",
+      "final_sha256": "ea9d44d6bd74feac662c808565c4559808355dfc331bc4369126625c6cd89c80",
+      "final_bytes": 38833
+    },
+    {
+      "file": "workbook/KILL_MEMO_HY_OAS_260.md",
+      "reason": "Replace stale August preamble state only; keep all registered kill/X1 action tables and guard sections byte-identical",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/KILL_MEMO_HY_OAS_260.md",
+      "original_bytes": 39848,
+      "original_sha256": "f0eda0987976f94ac98113b67720c9939679a7e91f7620e623efd278da3b566e",
+      "original_crc32": "b945c8b6",
+      "final_sha256": "2ab279f7d34b4c7b1d610922712ca834456b004f636247c84520d2b2684d2626",
+      "final_bytes": 35827
+    },
+    {
+      "file": "CATCHUP_PUNCHLIST.md",
+      "reason": "Prevent frozen header unchecked boxes/HERMES references from reopening completed or permanently unmeasured work",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/CATCHUP_PUNCHLIST.md",
+      "original_bytes": 11971,
+      "original_sha256": "584966790c4cd06704991b2f55b04e8d4603ed5537e4457417e4d421427a1b51",
+      "original_crc32": "152911e0",
+      "final_sha256": "6c7aca116f76652d19160654ca003c8830c4db9635a715799ccc8b0d6f4bd280",
+      "final_bytes": 12362
+    },
+    {
+      "file": "workbook/AUCTION_FRAMEWORK.md",
+      "reason": "Separate old auction scenario claims and historical tail line from current scored rules",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/AUCTION_FRAMEWORK.md",
+      "original_bytes": 1932,
+      "original_sha256": "bece8b8b645d6fcb49c1d7ba675b6477c22ff4a910a545dd77e7747eeef8ca91",
+      "original_crc32": "5c6fac51",
+      "final_sha256": "e64ebc5de87b5cc419d73331165c729a2a6767bcb13655179ca76342f19aa993",
+      "final_bytes": 2326
+    },
+    {
+      "file": "workbook/CATALYSTS.tsv",
+      "reason": "Update five existing event evidence/outcome cells; preserve dates/event identities/threshold cells and schema",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/CATALYSTS.tsv",
+      "original_bytes": 32826,
+      "original_sha256": "6bb60bd5389b87ed3e57f3575c0922df6a662b34533edbb146c05546dcc068eb",
+      "original_crc32": "995d1cfc",
+      "final_sha256": "03b894d836d15cc27989dd7ea331fb93178744752e65497587a349a7a9884414",
+      "final_bytes": 35178
+    },
+    {
+      "file": "CALENDAR.md",
+      "reason": "Make human/machine event set match exactly and distinguish past dates from unresolved work; remove repeated historical levels",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/CALENDAR.md",
+      "original_bytes": 17107,
+      "original_sha256": "9e5c84a5116664ddd5622ba767c36e037256ad7dedbefc721e8eb0d5142e7396",
+      "original_crc32": "680b23ef",
+      "final_sha256": "5483d179844627b1a369e0709b1012f62f916599ea4062115b82b843eaee6c2c",
+      "final_bytes": 6631
+    },
+    {
+      "file": "workbook/PREDICTIONS.tsv",
+      "reason": "Append dated LIQ07 evidence/read-path update only; preserve material fields, probabilities and LIQ04 pinned row",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/PREDICTIONS.tsv",
+      "original_bytes": 14679,
+      "original_sha256": "679ffe8031f92a87eb993284f06af551917faec4da3175d334f506ab101ac138",
+      "original_crc32": "06eb784e",
+      "final_sha256": "16bea5b14b96bb508022eb20527e1f60f174086f2c4212f5fda5eb42e8020543",
+      "final_bytes": 14990
+    },
+    {
+      "file": "STATUS.md",
+      "reason": "Close completed registry/basis/date/limited-vintage/display dependencies, repair table formatting and clarify comparisons",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/STATUS.md",
+      "original_bytes": 22695,
+      "original_sha256": "3c0a9d65647dfc59035ca1c2b3c5216c574f47aaf0de4efd6192bb34e508dc3b",
+      "original_crc32": "34b4c232",
+      "final_sha256": "c88fdeda020de4f41f1a8a2a78bdb2efe1f8c27a76fc48c513cda9e4f5893517",
+      "final_bytes": 22403
+    },
+    {
+      "file": "MEMORY.md",
+      "reason": "Preserve continuity for the broader authorized sweep without duplicating the owed list",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/MEMORY.md",
+      "original_bytes": 5044,
+      "original_sha256": "e8f80d02be12e79ff89636da5aa321522672895e3a96b36f4e2de98cab54bc3a",
+      "original_crc32": "cb965c43",
+      "final_sha256": "bdc092dfd5e1575c4be685436fdaec16d9497237963075c655a2aadabe067e85",
+      "final_bytes": 5509
+    },
+    {
+      "file": "scripts/boot.py",
+      "reason": "Remove obsolete absolute3.70 orange display only; no threshold or matched funding calculation changed",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "original_bytes": 67731,
+      "original_sha256": "14ed9be985d26e2ea6795e40d7cdbadcba3638952a331677f95bd3fb987fa2e1",
+      "original_crc32": "73d620b1",
+      "final_sha256": "d0136546043dad4f98e4ff510cf95a8277ccbf34fbc23ffc8d9e0858d800f446",
+      "final_bytes": 67910
+    },
+    {
+      "file": "workbook/ORCL_FALLEN_ANGEL_MAP.md",
+      "reason": "Distinguish old one-leg grade and July rating baseline from current two-leg gate state; no agency or rating criterion change",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/ORCL_FALLEN_ANGEL_MAP.md",
+      "original_bytes": 8237,
+      "original_sha256": "d3b90f987e1804bc6a7be6f35bb00a02fdacd8da79a78e0a4f2aad113e680a91",
+      "original_crc32": "2683da5f",
+      "final_sha256": "e0749407004f8a5dd11c17ba51ccda39aa0582441980cae2257b4f3b9c749bc8",
+      "final_bytes": 8652
+    },
+    {
+      "file": "workbook/FUNDING_SEIZURE_GATE_SCOPED.md",
+      "reason": "Date-label July reading and completed limited vintage comparison; preserve all ARM/FIRE and calendar/rounding/reset definitions",
+      "original_archive": "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/workbook/FUNDING_SEIZURE_GATE_SCOPED.md",
+      "original_bytes": 21073,
+      "original_sha256": "bd8febb78b9ec10aaebccc5d6ea1da69db69868a045b8773e169465fadc7f92e",
+      "original_crc32": "e6b44f64",
+      "final_sha256": "9d37630a3cb3a2a77889b79cce0111175c93187f626c5eae00a3849a2efeb174",
+      "final_bytes": 21504
+    }
+  ],
+  "protected_hashes_before": {
+    "scripts/usd_swapline.py": "1f1bed7bafe5498ea4480e1c959cefc41bad3cd4be9727bd657bab65eb505f65",
+    "analysis/2026-10-08_usd-swapline-LETTER.md": "808ead876bf079ec11af9de19de8873b6c0f878746c61ea34f3998be8acd5fc7",
+    "workbook/LIQ-04_KERNEL_NATIVE_COMPANION.json": "fcc9c2d6cc95e85f7e32ac4eb1ee92d6c74d6946ad6f5905e75c2a6074c3f9da",
+    "reports/2026-09-25_Q2_first-observation-of-spreading.md": "4b8638e682722312089e80f82edea3808c70267e86a5f5ece81448f7a3d1b279",
+    "workbook/GATE079_CALENDAR_EXCLUDED.tsv": "dc020629757661392bc9a71b8c02b2a59cd0b923ce5890e390267bc88f7141ca"
+  },
+  "protected_hashes_after": {
+    "scripts/usd_swapline.py": "1f1bed7bafe5498ea4480e1c959cefc41bad3cd4be9727bd657bab65eb505f65",
+    "analysis/2026-10-08_usd-swapline-LETTER.md": "808ead876bf079ec11af9de19de8873b6c0f878746c61ea34f3998be8acd5fc7",
+    "workbook/LIQ-04_KERNEL_NATIVE_COMPANION.json": "fcc9c2d6cc95e85f7e32ac4eb1ee92d6c74d6946ad6f5905e75c2a6074c3f9da",
+    "reports/2026-09-25_Q2_first-observation-of-spreading.md": "4b8638e682722312089e80f82edea3808c70267e86a5f5ece81448f7a3d1b279",
+    "workbook/GATE079_CALENDAR_EXCLUDED.tsv": "dc020629757661392bc9a71b8c02b2a59cd0b923ce5890e390267bc88f7141ca"
+  },
+  "registered_dates_recovered": [
+    [
+      "2026-10-15",
+      "Discount-window primary credit \u2014 October14 Wednesday point (existing NEXUS T-30 follow-up)",
+      "WLCFLPCL October14 Wednesday point after H.4.1 publication, compared with9.965B October7 point. Keep weekly average separate.",
+      "No registered threshold. Context beside LIQ-07, not a branch leg.",
+      "\ud83d\udfe0",
+      "LIQUID,NEXUS,PROME",
+      "Existing STATUS\u00a73 obligation recovered into countdown; H.4.1 October15 ~16:30ET. No new monitor.",
+      "DATA_RELEASE"
+    ],
+    [
+      "2026-10-15",
+      "GATE-LIQ-069 existing review (PROME-set successor date)",
+      "Existing five-leg letter, source gaps and current dated leg evidence; no new rating or borrowed CDS instrument",
+      "Apply existing registered letter only; no re-registration in this calendar.",
+      "\ud83d\udfe0",
+      "LIQUID,PROME",
+      "Review date from PROME/GATES.tsv GATE-LIQ-069 final column, verified October14; L345 decision resolved separately.",
+      "REGISTRY_REVIEW"
+    ],
+    [
+      "2026-10-30",
+      "GATE-LIQ-076 existing review \u2014 dealer-positioning amplification",
+      "Available CFTC/NY Fed/VIOLET observations under existing two-week window; missing W1 input is unmeasured",
+      "Existing2of3 definition; no new leg or cumulative-window amendment.",
+      "\ud83d\udfe0",
+      "LIQUID,PROME,HENRY",
+      "Review date set by PROMEOctober8, current GATES row verifiedOctober14; source403 is an instrument gap, not NOT MET.",
+      "REGISTRY_REVIEW"
+    ],
+    [
+      "2026-10-31",
+      "GATE-LIQ-079 existing review \u2014 FIRE-leg bands/base-rate proposal",
+      "Return existing owed calibration proposal. No band becomes operational without applicable approval.",
+      "ARM letter unchanged; FIRE remains UNGRADEABLE pending bands.",
+      "\ud83d\udfe0",
+      "LIQUID,PROME",
+      "Existing owner-setAugust20 date in PROME/GATES.tsv, verifiedOctober14; STATUS\u00a73 owed proposal.",
+      "REGISTRY_REVIEW"
+    ]
+  ]
+}

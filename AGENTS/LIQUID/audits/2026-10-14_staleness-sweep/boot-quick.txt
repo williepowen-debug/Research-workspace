@@ -1,0 +1,39 @@
+
+####################################################################
+#               LIQUID BOOT — 3-dashboard live sweep               #
+#                Wednesday, October 14, 2026  14:35                #
+####################################################################
+
+  ⏩ --quick: skipping yfinance prices (APO/BIZD/VIX/HYG/TLT/USDJPY/Brent) and GATE-LIQ-076 legs (UNGRADED this run)
+
+  Dashboard 1 — Credit Spreads
+    🔴 HY OAS       316bps               HY >300 — approaching the 320 confirmation (4bp); X1 level leg TAGGED (letter: >280 SUSTAINED): X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)  (obs 2026-10-13)
+    🔴 CCC OAS      1267bps              CCC tail >1000 trip  (obs 2026-10-13)
+    🟢 CCC-BB gap   1076bps              pin INTACT — quality bifurcation wide (KB-LIQ-058)  [both 2026-10-13]  (obs 2026-10-13)
+
+  Dashboard 2 — Domestic Plumbing
+    🟠 10Y (DGS10)  5.24%                ABOVE 4.50 pivot  (obs 2026-10-09)
+    🟠 30Y (DGS30)  5.60%                ABOVE 5.00 — duration regime re-establishing (need ≥5 closes)  (obs 2026-10-09)
+
+  Catalyst Countdown (workbook/CATALYSTS.tsv, 60d horizon)
+    🟠  2026-10-16 Fri    2d cal /  2d trd  LIQ-07 S1/S2 branch VERDICT (trigger fired 9/30) —  ⏰ IMMINENT
+    🟡  2026-10-16 Fri    2d cal /  2d trd  August TIC release — Japan and Cayman UST holdings  ⏰ IMMINENT
+    🟠  2026-11-04 Wed   21d cal / 15d trd  Treasury long-end buyback program ENDS (refunding 
+
+  Predictions Due-Scan (workbook/PREDICTIONS.tsv)
+    🟡 LIQ-04: due 2026-12-31 (78d) — US BSL new-issue CLO AAA monthly average exceeds SOF
+    🟡 LIQ-07: due 2026-11-10 (27d) — SPREAD-B (Will L477 Q2, pre-registered before the 9/
+
+  Unattended Watcher (AGENTS/LIQUID/alerts/HY_OAS_STATE)
+    🔴 HY OAS last red 316bps (obs 2026-10-13, checked 2026-10-14 13:00 )  ⚠️ ELEVATED — check alerts/HY_OAS_ALERTS.log
+
+  ==================================================================
+  BOOT SUMMARY   🔴 2   🟠 2   🟡 0   ⏰ 2 imminent   📋 0 overdue-pred   (19 series, 0 fetch errors, 8.7s)
+  Headline: HY OAS 316bps — HY >300 — approaching the 320 confirmation (4bp); X1 level leg TAGGED (letter: >280 SUSTAINED): X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 HY OAS: HY >300 — approaching the 320 confirmation (4bp); X1 level leg TAGGED (letter: >280 SUSTAINED): X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 CCC OAS: CCC tail >1000 trip
+
+  ⚠️  Basis: FRED prints lag T+1 (latest may be 1-2 sessions back, more on a weekend);
+      yfinance = last close; Brent BZ=F ≠ ICE settle; USD/JPY ≠ 5pm-ET NY close.
+      Declare the basis when citing any figure downstream.
+

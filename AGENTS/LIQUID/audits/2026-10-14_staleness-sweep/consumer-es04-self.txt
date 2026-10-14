@@ -1,0 +1,34 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 127 files under AGENTS/LIQUID/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 50 → current 197
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (1)
+        AGENTS/LIQUID/workbook/EXPECTED_SIGNALS_TRACKER.md:65  [50]
+           | **ES-LIQ-04** | **2026-08-24** | 🔴 **BAND DEAD — NOT a fire** | ⛔ **NO FIRE LOGGED. The band is uncalibrated and would read RED continuous
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (180)
+        AGENTS/LIQUID/CATCHUP_PUNCHLIST.md:47  [50]  (no unit/series context on line)
+           - [ ] ⬛ **workbook/PREDICTIONS.tsv — overdue/expiring predictions.** LIQ-02 (HY velocity +50bps/2wk, timeframe Mar 2026) OPEN and **3 months
+        AGENTS/LIQUID/CATCHUP_PUNCHLIST.md:74  [50]  (no unit/series context on line)
+           - [x] **Predictions:** LIQ-02 resolved **MISS at the letter** (max 2wk rise +31bps vs +50 registered; no forced selling). LIQ-03 stays OPEN 
+        AGENTS/LIQUID/CLAUDE.md:141  [50]  (no unit/series context on line)
+           | SRF >$50B sustained | REGINALD, HENRY, PROME | 🔴 |
+        AGENTS/LIQUID/CREDIT_THRESHOLDS.md:37  [50]  (no unit/series context on line)
+           | +50bps / 2 weeks | Velocity alert — forced selling | ORANGE regardless of level |
+        AGENTS/LIQUID/STATUS.md:78  [50]  (no unit/series context on line)
+           **Load-bearing lines (so a reader need not travel):** **HY OAS** `<260 kill (×2 consecutive closes)` / `265-280 approach` / `>280 sustained 
+        AGENTS/LIQUID/STRATEGY.md:15  [50]  (no unit/series context on line)
+           - SRF usage >$50B sustained
+        AGENTS/LIQUID/analysis/2026-07-30_hy-attribution.md:50  [50]  (no unit/series context on line)
+           Weights are approximate ICE BofA H0A0 rating composition; the −1.1bp residual validates them, and the conclusion is insensitive (50/38/12 gi
+        AGENTS/LIQUID/analysis/2026-07-30_hy-attribution.md:103  [50]  (no unit/series context on line)
+           **Terms** [Bloomberg 7/23, via WALTER `SIG-W-20260727-018`]: 18 **equal-weighted** US HY issuers incl. CoreWeave / Applied Digital / Cipher 
+        … +172 more 🟠 hit(s) on [50] across 50 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (5: LIQUID)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (20)  [--show-handled to audit]
+
+  🔴 1 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

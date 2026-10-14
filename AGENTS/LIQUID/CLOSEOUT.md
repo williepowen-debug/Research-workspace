@@ -1,7 +1,7 @@
 # LIQUID CLOSEOUT
 
 **Created:** 2026-05-20
-**Owner:** LIQUID agent (Claude Code)
+**Owner:** LIQUID desk (actual runtime recorded at boot under PROME/COMPLETION_SPEC.md)
 **Purpose:** Repeatable session-end procedure to maintain consistency across LIQUID sessions. Run before `/clear`, `/new`, or session handoff.
 
 > Companion to `CLAUDE.md` SPAWN PROTOCOL (session start). Follow root `CLAUDE.md` for git protocol details. Tier model mirrors `PROME/CLOSEOUT.md` for cross-agent vocabulary consistency.
@@ -94,7 +94,7 @@ If a 🔴 or 🟠 cross-agent threshold breached this session (per CLAUDE.md CRO
 
 1. **Write the packet** using the standard format (headline / detail / source / priority), filename `YYYY-MM-DD_to-[target]_[short_description].md`.
 2. **Route it via WALTER** — write the packet to `AGENTS/WALTER/inbox/YYYY-MM-DD_from-LIQUID_ROUTE-<slug>.md` and self-commit it (carve-out ①); WALTER publishes the BOARD row and delivers the per-recipient handoff. ⛔ **CORRECTED 2026-09-03 (DAEDALUS route-around census; the 9/2 `CLAUDE.md` fix had not reached this file):** this step read *"Deliver it to the target agent's `inbox/` directly"* — itself a 7/23 correction of a dead-HERMES line, so the 7/23 fix replaced a dead router with a bypass of the live one. **Root canon: never route signals around WALTER.** Direct inbox delivery stays correct for ANALYSIS packets (an adjudication, a correction, a reply to a named peer's ask) — never for a signal. **`outbox/` is reserved for PROME-action requests.**
-3. **Do NOT commit files outside `AGENTS/LIQUID/`** (root CLAUDE.md git scope) — write the file, then flag it in the PROME packet for sweep.
+3. **Commit self-authored recipient inbox packets explicitly under root Git carve-out①.** Shared/root files outside the named carve-outs remain PROME-owned; never sweep another desk’s changes.
 4. **Append to `AGENTS/SIGNALS.md`:** `| DATE | LIQUID | TARGET | 🔴/🟠 | Description |` row.
 
 If no threshold fired this session: skip entirely.
@@ -103,7 +103,7 @@ If no threshold fired this session: skip entirely.
 
 ## Chunk 4 — Auto-memory (Heavy only, selective)
 
-Save to `~/.claude/projects/-home-willi-Research-workspace/memory/` only if:
+Save an owned file under root `memory/auto/` under root CLAUDE.md carve-out③ only if:
 - Surprising or non-obvious lesson
 - Pattern validated or invalidated (record from success AND failure)
 - Not derivable from current files (KB.tsv is the right home for durable findings within LIQUID; auto-memory is for cross-agent / cross-session lessons about *how to work*)
@@ -115,7 +115,7 @@ Save to `~/.claude/projects/-home-willi-Research-workspace/memory/` only if:
 - Debugging recipes (commit message is authoritative)
 - File paths, code conventions, architecture (derivable)
 
-Format: frontmatter (name, description, type) + body. For `feedback` / `project` types include **Why:** and **How to apply:** lines.
+Format: frontmatter (name, description, type) + body. For `feedback` / `project` types include **Why:** and **How to apply:** lines. Apply root Git Protocol’s explicit memory-file commit and slug-scoped memory-index checks. Runtime-specific home directories are not the fleet’s canonical memory surface.
 
 If no surprising lessons: skip.
 
@@ -126,8 +126,8 @@ If no surprising lessons: skip.
 ### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
 - Pathspec: `AGENTS/LIQUID/` — path-scoped commits only, run from repo root.
-- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force — note it in the MEMORY CURRENT block and flag PROME/Will if it recurs.
-- Commit-message style: `LIQUID: <short one-liner>` subject; body explains WHY when non-obvious; `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>` trailer.
+- Auto-push at closeout via `scripts/safe-push.sh`. Apply root CLAUDE.md Git Protocol for non-ff recovery, dirty-path overlap checks and escalation; never pull over concurrent dirty work or force.
+- Commit-message style: `LIQUID: <short one-liner>` subject; body explains WHY when non-obvious. Identify the actual runtime/model only when exposed; do not insert a provider/model trailer for a different runtime.
 
 ### Session summary to Will
 
@@ -163,7 +163,7 @@ One short message:
 
 | File | Closeout action |
 |---|---|
-| `STATUS.md` | Surgical (header / 3 dashboards / thresholds / signals / proposals / positions / windows) |
+| `STATUS.md` | Surgical six-section update (Now / Gates / Owed / Carried / Caveats / Pointers) |
 | `MEMORY.md` | Promote CURRENT→PRIOR + new CURRENT + update NEXT |
 | `CALENDAR.md` | Event-gated — only if dates roll or events resolve |
 | `IDENTITY.md` / `STRATEGY.md` / `USER.md` / `CREDIT_THRESHOLDS.md` | Don't auto-touch; revise only when scope/thesis shifts |

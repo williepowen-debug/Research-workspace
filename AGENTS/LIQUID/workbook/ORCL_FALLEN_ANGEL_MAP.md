@@ -1,5 +1,8 @@
 # ORCL Fallen-Angel Trigger Map — GATE-LIQ-069 leg-5 sharpener
 
+> **Current-state navigation 2026-10-14T14:38:55.053387-04:00:** the August “ARMED1of2/no forced sell” annotation is a dated historical reading, not current gate state. GATE069 is2of2 fired in STATUS; the ORCL leg remains secondary-sourced and current agency-primary re-verification is NO_INSTRUMENT. The July rating table below is baseline evidence only. No fresh ORCL rating or forced-sale grade is inferred by this sweep.
+
+
 > ⚠️ **CHECKED 2026-08-24 (PAT-060 queue, 36d stale) — NO CHANGE. GATE-LIQ-069 stays ARMED 1-of-2.**
 >
 > **R1 (the 2nd-agency leg) has NOT fired: Moody's still rates ORCL `Baa2`, outlook NEGATIVE — affirmed, not cut.** S&P remains **BBB−** (the 7/9 cut, R0, already logged); Fitch **BBB**. **Middle rating stays BBB = solidly IG**, and a fallen angel needs **2 of 3 agencies at HY** under the index middle/average rule. **No forced-sell event is live.**
@@ -13,7 +16,7 @@
 
 ---
 
-## 1. Live cross-agency rating state [as-of 2026-07-18, agency primaries]
+## 1. Historical cross-agency baseline [as-of 2026-07-18]
 
 | Agency | LT rating | IG-scale notch | Outlook | Notches to HY | Last action |
 |--------|-----------|----------------|---------|---------------|-------------|

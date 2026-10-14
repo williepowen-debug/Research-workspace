@@ -334,8 +334,11 @@ def build_domestic():
         add("DOMESTIC", "SOFR", "ERR", "🔴", f"fetch error: {err}")
     else:
         sofr = v
-        m, n = ("🟠", "above 3.70") if v > 3.70 else ("🟢", "")
-        add("DOMESTIC", "SOFR", f"{v:.2f}%", m, n, d, trend_str(tr, 1, 2))
+        # Absolute SOFR follows policy resets; funding pressure is graded by the
+        # same-date IORB spreads and existing persistence/bands below.
+        add("DOMESTIC", "SOFR", f"{v:.2f}%", "⚪",
+            "rate level only; funding gauges use same-date IORB below", d,
+            trend_str(tr, 1, 2), ref=True)
 
     # ---- BASIS REPAIR 2026-09-17 (see the repo-vs-IORB block below). IORB is now carried
     # as DATED PAIRS, because every spread under it must be aligned to its own leg's

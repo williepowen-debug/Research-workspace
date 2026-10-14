@@ -1,0 +1,31 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/LIQUID/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 50 → current 197
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (11024)
+        AGENTS/SIGNALS.md:19  [50]  (no unit/series context on line)
+           | 2026-03-11 | LIQUID | PROME | 🟠 | Gulf petrodollar recycling = 4th UST anchor — combined selling $50-90B/month |
+        AGENTS/CORAL/CLUSTER_FL_BANK_LEG.md:39  [50]  (no unit/series context on line)
+           | **SBCF** Seacoast — Stuart, **100% FL** $21.1B, CRE non-OO **224% RBC** (>100% flag) | $32.46 | ~late Jul | CRE broad (50% of loans CRE-se
+        AGENTS/CORAL/CLUSTER_FL_BANK_LEG.md:95  [50]  (no unit/series context on line)
+           | **SBCF** | **25.0%** ($3,162.5M / $12,641.4M) | n/d — Consumer only 1.4% (home-equity not broken out) | CRE non-OO 224% RBC; 50% of loans 
+        AGENTS/CORAL/CLUSTER_FL_BANK_LEG.md:152  [50]  (no unit/series context on line)
+           5. **Lag-length: 2027 could be too slow.** The ~12mo lag is a national single-family *insurance-premium* analog (DEWEY's external-validity c
+        AGENTS/CORAL/CALENDAR.md:39  [50]  (no unit/series context on line)
+           | **Nov 3, 2026** | **FL property-tax Amendment 3 / HJR 1F** | Homestead $50K→$150K(2027)→$250K(2028); CRE/MF burden-shift; muni-fiscal tail
+        AGENTS/CORAL/CALENDAR.md:41  [50]  (no unit/series context on line)
+           | ✅ Aug 31, 2026 | *Biscayne 21* — Two Roads settlement with the holdouts | **SETTLED (press, TRD 8/31–9/6; Bisnow; Commercial Observer):** 
+        AGENTS/CORAL/STATUS.md:32  [50]  (no unit/series context on line)
+           | GSE warrantability | **PRIMARY-TIER.** Full Review since 8/3; binding FL constraint = pass/fail inspection + **>$50K/unit master deductibl
+        AGENTS/CORAL/STATUS.md:33  [50]  (no unit/series context on line)
+           | Termination / receivership | *Biscayne 21* **SETTLED 8/31/26 (press, ~$50M, one anonymous source; court sign-off pending)** ⇒ forced termi
+        … +11016 more 🟠 hit(s) on [50] across 2410 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (361: AEOLUS, BOND, BRENT, BROCK, CARL, CORAL, CREED, CRUISE, DAEDALUS, DEWEY, FALCON, FERT, FLG, HANS, HAWK, HENRY, HOMER, LABOR, MARCO, MIDAS, NEXUS, ORACLE, OSPREY, OTTO, OZK, RED, REGINALD, SAM, SHADE, TERRY, VIOLET, VULCAN, WALTER, WATT, YEYOU, ZHAO, inbox)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (1320)  [--show-handled to audit]
+
+  🟠 11024 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

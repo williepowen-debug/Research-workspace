@@ -1,38 +1,19 @@
 # USER.md — LIQUID
 
-- **Name:** Will
-- **Timezone:** Eastern (ET)
-- **Communication:** Telegram for research delivery
+**Reviewed 2026-10-14T14:34:46.375649-04:00.** Will's preferences and decision authority are canonical at root `USER.md`; this file holds desk-specific needs.
 
----
+- Treasury auction acceptance and demand composition.
+- Funding rates, dispersion, borrowing use and actual collateral/funding restrictions.
+- Credit-quality breadth and private-credit transmission, reconciled with the owning desks.
+- Foreign Treasury transactions and Japan repatriation, with holdings levels separate from flows.
+- Position implications using current `FORGE/STATUS.md`, its own receipt vintage and Will/broker truth. TERRY owns construction; Will approves trades.
 
-## What Will Needs from LIQUID
+## Position and delivery references
 
-- **Treasury auction monitoring** — BTC, indirect %, tail signals
-- **Funding stress detection** — SOFR spikes, SRF usage, dealer positioning
-- **Foreign official tracking** — TIC data (Belgium proxy), Japan repatriation
-- **Cross-agent coordination** — Signals to SAM (Japan), REGINALD (bank funding)
-- **Position support** — live marks + moneyness/DTE ahead of any close/roll/exercise call (surface the execution mark before recommending a close)
+`FORGE/STATUS.md` is the structured mirror; `FORGE/POSITIONS` does not exist and `FORGE/PORTFOLIO.md` is frozen history. No LIQUID-owned live position is established by the October14 desk read. Other desks' vehicles and Will-direct holdings do not become LIQUID-owned through a grouping label. Keep live bid/mark timing and management authority explicit before a position recommendation.
 
-## Current Positions LIQUID Owns
+Use the verified runtime channel. Dated PROME completion packets are delivered to root `PROME/inbox/`; file persistence does not establish recipient consumption. Signals route through WALTER. No automatic external send follows from the research assignment.
 
-*Source of truth: `STATUS.md` (Active Positions section) and `FORGE/POSITIONS`. As of 6/25.*
+## Dates
 
-**Book FLAT of LIQUID single-names.** TEN calls closed 6/12-13 (ITM winner ~$7.11); HYG $75P expired worthless 6/19 (cut bait — do NOT re-surface). APO Dec $95P = BROCK-owned tail-hedge (not LIQUID's). No LIQUID position decisions pending.
-
-## Key Dates (forward)
-
-See `CALENDAR.md` + `workbook/CATALYSTS.tsv` (boot.py countdown) for the full rolling docket. Headline near-term (as of 6/25):
-
-- **Thu Jun 25:** May PCE (the bear's growth/inflation re-fire gate — HENRY HEN-34); late-June 2Y/5Y/7Y auctions (5Y 6/24 tailed 0.7bp, 8th straight)
-- **~Jun 30:** LIQ-03 resolves (CLO AAA); BCRED Q2 redemption; Cliffwater CDLI Q1; quarter-end RRP-revert test
-- **Fri Jul 3:** May NFP / June payrolls — growth-break read (HENRY)
-- **~Mon Jul 14:** June CPI — HENRY inverse-feedback test; the credit-bear growth/inflation re-fire gate
-- **~Jul 25:** Q2 BDC marks — NEXUS R3 credit-bifurcation transmission test
-- **Tue Jul 28:** ARCC Q2 earnings (largest public BDC — sector mark read)
-- **~Jul 29:** July FOMC (hike watch — July-hike only ~23%, modal Q4)
-- **~YE2026:** Warsh balance-sheet review (Leg A buffers)
-
-## Key Dates (resolved)
-
-Full resolved archive: `CALENDAR.md` § Resolved (rolling archive) — kept current there to avoid a divergent second copy. Headline: FOMC 6/17 hawkish hold (→ KB-LIQ-060); TIC April (official bid carried a private-outflow month); June refunding cleared; May CPI hot 4.18% YoY; April PCE 3.72% / May NFP +172k (both resolved); HY cycle-tight 263 (6/17) → widened to 276 [6/24]; EIA WPSR + BOJ Summary 6/24 resolved (see CALENDAR § Resolved).
+`workbook/CATALYSTS.tsv` and its human twin `CALENDAR.md` carry events. `STATUS.md` §3 owns the owed list. October15–16 existing releases/verdict are the next tests; resolved June/July dates are archived history, not upcoming work.

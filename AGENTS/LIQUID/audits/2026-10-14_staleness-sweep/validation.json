@@ -1,0 +1,175 @@
+{
+  "observed_at": "2026-10-14T18:42:57.884879+00:00",
+  "checks": [
+    {
+      "check": "IDENTITY.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "USER.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "NEXUS_BRIEF.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "STRATEGY.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "thesis/TIMELINE.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "thesis/THESIS.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "CLAUDE.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "CLOSEOUT.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/REFERENCE_TABLES.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/OPEN_MONITORS.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/EXPECTED_SIGNALS_TRACKER.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/DEALER_POSITIONING_NEXUS_WATCH.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/KILL_MEMO_HY_OAS_260.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "CATCHUP_PUNCHLIST.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/AUCTION_FRAMEWORK.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/CATALYSTS.tsv original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "CALENDAR.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/PREDICTIONS.tsv original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "STATUS.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "MEMORY.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "scripts/boot.py original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/ORCL_FALLEN_ANGEL_MAP.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "workbook/FUNDING_SEIZURE_GATE_SCOPED.md original bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "five protected artifacts byte-unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "prediction row count and all material fields preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "LIQ04 Kernel-pinned row unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "35 original catalyst identities/criteria preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "human/machine exact39 event-set agreement",
+      "result": "PASS"
+    },
+    {
+      "check": "all registered KILL/X1 tables/guards after state preamble unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "ES04 top row matches pre-existing adopted August24 bands",
+      "result": "PASS"
+    },
+    {
+      "check": "instruction change confined to stale key-threshold snapshots",
+      "result": "PASS"
+    },
+    {
+      "check": "binding basis paragraph unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "explicit whole-read charter under budget",
+      "result": "PASS"
+    },
+    {
+      "check": "all boot functions except display-containing build_domestic unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "matched funding computation and registered comparison code unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "five STATUS gates and under70% stop",
+      "result": "PASS"
+    },
+    {
+      "check": "live refresh remained on original dated credit frontier and obsolete rate warning absent",
+      "result": "PASS"
+    }
+  ],
+  "protected": {
+    "scripts/usd_swapline.py": "1f1bed7bafe5498ea4480e1c959cefc41bad3cd4be9727bd657bab65eb505f65",
+    "analysis/2026-10-08_usd-swapline-LETTER.md": "808ead876bf079ec11af9de19de8873b6c0f878746c61ea34f3998be8acd5fc7",
+    "workbook/LIQ-04_KERNEL_NATIVE_COMPANION.json": "fcc9c2d6cc95e85f7e32ac4eb1ee92d6c74d6946ad6f5905e75c2a6074c3f9da",
+    "reports/2026-09-25_Q2_first-observation-of-spreading.md": "4b8638e682722312089e80f82edea3808c70267e86a5f5ece81448f7a3d1b279",
+    "workbook/GATE079_CALENDAR_EXCLUDED.tsv": "dc020629757661392bc9a71b8c02b2a59cd0b923ce5890e390267bc88f7141ca"
+  },
+  "inventory_scope": {
+    "tracked_files_at_start": 760,
+    "active_surface_candidates": 51,
+    "changed_owned_surfaces": 23,
+    "history": "dated research, inbox/outbox receipts, Kernel submissions, frozen/dormant records are retained as dated artifacts; historical source claims are not forcibly restamped"
+  },
+  "limitations": [
+    "No independent reviewer or additional agent launched",
+    "No current ES02 sponsored-volume, ES03 WAM or ES04 UST-fails grade manufactured",
+    "ES05 negative-basis operator/perimeter remains a definition gap; no replacement threshold chosen",
+    "CFTC403 remains a funding/dealer instrument gap",
+    "WQ404 tool/letter withheld; HANS known-wrong bidder-history line remains for named reader",
+    "PROME current state/consumption is recipient-owned and not edited"
+  ],
+  "inventory_method_note": "Initial keyword inventory inadvertently scanned the cold board ledger in-process. Those keyword counts were discarded; no consumption decisions or stale-state conclusions used them. Cold log handling for subsequent work is rg-only; ledger unchanged."
+}

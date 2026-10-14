@@ -12,6 +12,8 @@ Closed the free-history gap using issuer downloads: HYG+16.12% shares/JNK−13.4
 
 Recovered REGINALD/WAL/BOND/PROME current approved returns; no duplicate bank study. Current FORGE holdings used without assuming bank-put desk/card ownership or live mark times. No trade/threshold/probability changed. Full pre-write STATUS/MEMORY/CALENDAR bytes archived with hashes/CRCs at `research/2026-10-14_credit-funding-refresh/rotation-receipt.json`. Older session/next-session text is history in `archive/MEMORY_before-2026-10-14-credit-funding.md`.
 
+**Staleness sweep 2026-10-14T14:34:46.375649-04:00:** audited active desk surfaces, refreshed secondary synthesis/navigation and stale definition copies, synced all calendar events, and made raw SOFR display informational. Exact changes, archives, protected-hash checks and unresolved gaps are in `audits/2026-10-14_staleness-sweep/REPORT.md`. Current market observations retain their earlier dates; no new trade, threshold, prediction grade or withheld-tool use.
+
 ### NEXT SESSION
 
 Run existing boot, then STATUS§3(the only owed list). Prioritize October15/16 funding/ICE publications and October14 discount-window point release, then October16 LIQ-07 context/dual-list verdict and August TIC. WQ404 reader must see HANS's known-wrong line68 before any edit/release. Keep withheld tools withheld. Recipient consumption and live closeout transport remain unverified until an actual acknowledgment.

@@ -1,0 +1,311 @@
+{
+  "tracked_total": 760,
+  "candidates": [
+    {
+      "path": "AGENTS/LIQUID/CALENDAR.md",
+      "bytes": 17107,
+      "summary": "# LIQUID \u2014 Calendar & Data Releases | **Last Updated:** 2026-10-14T14:05:40.282749-04:00 \u2014 history-only rotation; forward event set unchanged. Machine twin:`workbook/CATALYSTS.tsv`; n | ## Later (2026)",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/CATCHUP_PUNCHLIST.md",
+      "bytes": 11971,
+      "summary": "# LIQUID \u2014 Catch-Up Punchlist | > **FROZEN 2026-07-10** \u2014 episode ~85% done, 3+wk stale (DAEDALUS L4-firming Batch 1 ask #4, `inbox/2026-07-04_from-DAEDALUS_L4-firming-batch1.md | > - \u26a0\ufe0f **KILL_MEMO false-kill guard fuller treatment** \u2014 **STILL OPEN, 77 days** (carried since the 6/8 STRATEGY pass). The STRATEGY 6/12 amendme",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/CLAUDE.md",
+      "bytes": 35750,
+      "summary": "# LIQUID \u2014 Agent Instructions | **Domain:** Financial plumbing \u2014 repo markets, funding rates, credit spreads, foreign Treasury demand, dealer capacity, basis trade | **Role in Network:** Detects when plumbing stress transmits to broader markets. Signals REGINALD (bank funding), HENRY (VaR/cascade), SAM (Japan ",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/CLOSEOUT.md",
+      "bytes": 12123,
+      "summary": "# LIQUID CLOSEOUT | **Created:** 2026-05-20 | **Owner:** LIQUID agent (Claude Code)",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/CREDIT_THRESHOLDS.md",
+      "bytes": 2237,
+      "summary": "# LIQUID \u2014 Credit Spread Threshold Analysis | **Date:** 2026-02-28 | **Status:** HISTORICAL \u2014 projected path did not play out | > **\u26a0\ufe0f HISTORICAL DOC, read with care.** This analysis (Feb 28) projected HY OAS creep toward 320bps with ETA Mar 12-14, 2026. **That path was ov",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/IDENTITY.md",
+      "bytes": 4299,
+      "summary": "# IDENTITY.md \u2014 LIQUID | ## Role",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/LAST_COMPLETION.md",
+      "bytes": 11007,
+      "summary": "# LIQUID \u2014 LAST COMPLETION | > ## \u26d4 FROZEN 2026-09-24 \u2014 NOT MAINTAINED. DO NOT CITE AS CURRENT. | >",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/MEMORY.md",
+      "bytes": 5044,
+      "summary": "# LIQUID \u2014 Cross-Session Memory | ## Session Notes | ### CURRENT SESSION (2026-10-14T14:05:40.282749-04:00 \u2014 October14 Will-launched Codex research wave)",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/NEXUS_BRIEF.md",
+      "bytes": 20328,
+      "summary": "# LIQUID \u2014 NEXUS Brief | > \u2705 **REFRESHED 2026-08-23 (Sun) \u2014 body rewritten to obs-8/20 vintage. The 37-day staleness is CLOSED.** | > Own pulls: FRED **obs 8/20** (T+1; Fri 8/21 unpublished) \u00b7 CFTC TFF **as-of 8/18** \u00b7 NY Fed PD **as-of 8/12** \u00b7 TreasuryDirect \u00b7 yfinance **8/2",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "bytes": 22695,
+      "summary": "# LIQUID STATUS | **Last Updated:** 2026-10-14T14:05:40.282749-04:00 \u2014 Will-launched October14 research wave; sole LIQUID writer confirmed by Will. Credit cumulati | > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; q",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/STRATEGY.md",
+      "bytes": 8299,
+      "summary": "# LIQUID \u2014 Decision Playbook | **Last Updated:** 2026-06-25 (boot-doc refresh to 6/24 data; conviction 60; HY widened to 276 [6/24], 4bp from the >280 X1-trigger, soft-kill res | ## Position Framework",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/USER.md",
+      "bytes": 2340,
+      "summary": "# USER.md \u2014 LIQUID | ## What Will Needs from LIQUID",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/board_log.tsv",
+      "bytes": 229212,
+      "summary": "",
+      "disposition": "COLD: keyword counts discarded and file unchanged"
+    },
+    {
+      "path": "AGENTS/LIQUID/registry/corrections_receipts.tsv",
+      "bytes": 3496,
+      "summary": "",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/boot.py",
+      "bytes": 67731,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/cftc_tff_rates.py",
+      "bytes": 8194,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/crwv_cds_grade.py",
+      "bytes": 7085,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/dtcc_cds_probe.py",
+      "bytes": 3386,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/fp_backtest_079.py",
+      "bytes": 9004,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/gate069_legs.py",
+      "bytes": 15925,
+      "summary": "#!/usr/bin/env python3 | >100bp \u00b7 AI-infra HY new-issue concessions widening \u00b7 cohort equity (CRWV,IREN,APLD,NBIS)",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/hy_oas_watch.py",
+      "bytes": 26155,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/sofr_dispersion.py",
+      "bytes": 11124,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/t3_decoupling.py",
+      "bytes": 5191,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/transmission_check.py",
+      "bytes": 5456,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/usd_swapline.py",
+      "bytes": 43692,
+      "summary": "#!/usr/bin/env python3",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/thesis/CHANGELOG.md",
+      "bytes": 32978,
+      "summary": "# LIQUID \u2014 Thesis Changelog | > \u26a0\ufe0f **TWO-STATED 2026-08-28 (DAEDALUS falsification-sweep #2 ASK 1, flagged 8/23 at 59d; now 101d).** **This file is NO LONGER how this desk rec | >",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/thesis/THESIS.md",
+      "bytes": 21443,
+      "summary": "# LIQUID \u2014 Core Thesis v2.0 | **Last Updated:** 2026-06-25 | **Conviction:** 61% (re-marked from 60 \u2014 the 60 was anchored *pending FOMC 6/17*, which RESOLVED hawkish [KB-LIQ-0 | > **Read-with:** `STATUS.md` (live state), `STRATEGY.md` (playbook), `workbook/KILL_MEMO_HY_OAS_260.md` (trigger ladder), `thesis/CHANGELOG.md` (",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/thesis/TIMELINE.md",
+      "bytes": 9872,
+      "summary": "# LIQUID \u2014 Active Branch Points (Forward Decision Windows) | **Last Updated:** 2026-06-25 (rolling rows restamped to 6/24 FRED / 6/25 closes; the 6/24 HY print 276 = bear-watch tightening toward the >280 X1 | > **Purpose:** Forward-looking bull-vs-bear resolution tree at the decision windows that matter for the LIQUID thesis. Resolved events live in `S",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/AUCTION_FRAMEWORK.md",
+      "bytes": 1932,
+      "summary": "# 20Y Auction Demand Assessment Framework | ## Demand Sources Assessment | ### Gulf Sovereign Funds",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/BDC_MARK_CONVERGENCE_MONITOR.md",
+      "bytes": 14306,
+      "summary": "# BDC Mark Convergence Monitor \u2014 Q2-2026 PRE-REGISTERED GRADING CARD | **Purpose:** Track whether public BDC marks catch down to the mark-vs-price divergence \u2014 the specific transmission mechanism between private-cred | **Built:** 2026-04-16 \u00b7 **Light-populated:** 2026-06-12 (Q1 NAVs) \u00b7 **\u2605 PRE-REG grading card added:** 2026-07-18 (Sat-eve, PROME Rank-1, Will-app",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "bytes": 32826,
+      "summary": "",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/DEALER_POSITIONING_NEXUS_WATCH.md",
+      "bytes": 39139,
+      "summary": "# Dealer-Positioning Nexus Watch \u2014 registered 2026-07-11 (Sat ~18:00 ET) | **Owner:** LIQUID (credit-plumbing side; HENRY covers rates\u2192equity \u2014 reconcile on contact, one figure per shared metric) \u00b7 **Status:** ARMED-WATC | > \u2705 **W1 BLIND SPOT \u2014 DOCUMENTED, WQ-88 RULED 2026-09-01 (Will 17:22 ET, *\"approve all of those with your recs\"*; PROME packet 2026-09-01; encode",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/DECOUPLING_TESTS_VIX_HY_2026-08-10.md",
+      "bytes": 8075,
+      "summary": "# VIX-vs-HY Decoupling Test Battery (Tests A/B/C) | **Registered:** 2026-08-10, financial-conditions forum (`FORUM/2026-08-10_financial-conditions/`). **Will-ruled 2026-08-10 in-session, forum FINA | **Purpose:** the forum's independence question \u2014 is HENRY's twin soft-kill VIX leg and HY leg (and by extension my own GATE-HY-REKILL, confirmed ",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/DEMAND_HOLE_AUCTION_PREREG_2026-07.md",
+      "bytes": 12596,
+      "summary": "# Demand-Hole Absorption Pre-Registration \u2014 July 7\u20139 Refunding | **Built:** 2026-07-06 (teams-session, PROME task) \u00b7 **Owner:** LIQUID (M-10 absorption leg) | **Coordination:** BOND owns auction *mechanics* + term-premium grade (BND-11, decisive on the 7/9 30Y reopen). This doc = the **absorption + fund",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/EXPECTED_SIGNALS_TRACKER.md",
+      "bytes": 10319,
+      "summary": "# LIQUID \u2014 Expected-Signals Tracker (absence-is-data) | **Born:** 2026-07-11 (DAEDALUS Batch-1 ask-8, Will-approved; PROME first-class-slot packet 7/10 \u2014 executed 7/11) \u00b7 **Owner:** LIQUID | **Purpose:** Re-homes the 5 signal-types orphaned when `archive/legacy/EXPECTED_SIGNALS.md` was stranded (`4894d8cc`; sibling-drift vs LABOR/SAM,",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/FLOW.tsv",
+      "bytes": 7094,
+      "summary": "# FROZEN 2026-07-11 \u2014 not maintained; STATUS.md/KB.tsv canonical, do not cite rows as current (root CLAUDE.md Data Hygiene; Will-approved 7/11 sw | # REGISTRY - POINT-IN-TIME, NOT LIVE. Status/Current_Position reflect when the row was last touched, not live state. Live state = STATUS.md + scr",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/FUNDING_SEIZURE_GATE_SCOPED.md",
+      "bytes": 21073,
+      "summary": "# Funding-Seizure X1 Pre-emption Gate \u2014 SCOPED + CALIBRATED | **Registered:** 2026-07-17 (LIQUID) \u00b7 **KB:** KB-LIQ-079 (supersedes KB-LIQ-074 CANDIDATE) \u00b7 **Status:** \u2705 **SIGNED OFF WITH RIDERS \u2014 BROCK 2026- | **Input:** DEWEY 07b calibration `AGENTS/DEWEY/output/2026-07-16_funding-gate-calibration.md` (closes the 7/09 parent's two declared gaps: episod",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/GATE079_CALENDAR_EXCLUDED.tsv",
+      "bytes": 2478,
+      "summary": "# GATE-LIQ-079 calendar-EXCLUDED business days (DAEDALUS ask #5, owner-encoded 2026-09-29). Rule = the letter's own: \u00b12 business days (SOFR publi",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/HY_HORMUZ_LAGGING_TELL_WATCH.md",
+      "bytes": 11188,
+      "summary": "# HY-vs-Hormuz Lagging-Tell Recognition Watch | **Registered:** 2026-07-17 (LIQUID) \u00b7 **KB:** KB-LIQ-081 \u00b7 **Assigned:** HEARTBEAT 7/16 \u00a74 (\"the key lagging tell\", watch to LIQUID) \u00b7 **Successo | ## The setup (atomic facts, dates, sources \u2014 decomposed per `finding_fused_true_facts_false_premise`)",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/KB.tsv",
+      "bytes": 314536,
+      "summary": "",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md",
+      "bytes": 39848,
+      "summary": "# HY OAS TRIGGER MEMO \u2014 two-sided (kill <260 / X1-confirm >280) | **Purpose:** Pre-written 1-pager so the decision is mechanical when a level is touched, not re-thought under tape pressure. **Two-sided:** the ** | **Built:** 2026-05-18 (revival session \u2014 kill side). **X1-confirm side added 2026-06-25.**",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/LIQ-04_KERNEL_NATIVE_COMPANION.json",
+      "bytes": 7281,
+      "summary": "",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/OPEN_MONITORS.md",
+      "bytes": 4998,
+      "summary": "# LIQUID \u2014 Open Monitors (qualitative) | **Moved OFF `STATUS.md` 2026-09-17 to hold the read cap. Verbatim, nothing deleted.** | **crc32 `8aa13653` \u00b7 4,501 B.** Full pre-2026-09-17 narrative for these rows \u2192 `archive/status_snapshots/STATUS_PROSE_2026-09-17_rotation.md` blo",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/ORCL_FALLEN_ANGEL_MAP.md",
+      "bytes": 8237,
+      "summary": "# ORCL Fallen-Angel Trigger Map \u2014 GATE-LIQ-069 leg-5 sharpener | > \u26a0\ufe0f **CHECKED 2026-08-24 (PAT-060 queue, 36d stale) \u2014 NO CHANGE. GATE-LIQ-069 stays ARMED 1-of-2.** | >",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/PREDICTIONS.tsv",
+      "bytes": 14679,
+      "summary": "",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/PRE_STAGED_RESHAPE_WAKEUP_BRIEF_2026-07-29.md",
+      "bytes": 9952,
+      "summary": "# PRE-STAGED \u2014 Bank-Put Reshape Wake-Up Brief | **Status: PRE-STAGED, CONDITIONAL on tomorrow's HY OAS print (7/29 FOMC-day data, publishes ~7/30 via FRED).** This is NOT a trade recommendation | **Author:** LIQUID \u00b7 **Date:** 2026-07-29 ~22:5x ET \u00b7 **Trigger being pre-staged for:** `PROME/proposals/2026-06-26_bank-put-reshape-roll.md` (GA",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/REFERENCE_TABLES.md",
+      "bytes": 7352,
+      "summary": "# LIQUID \u2014 Durable Reference Tables (thresholds \u00b7 playbooks) | **Moved OFF `STATUS.md` 2026-09-17 to hold the read cap.** These are **durable reference**, not live state: `STATUS.md` keeps the five registered | **Moved verbatim. crc32 `ecaa34cd` \u00b7 6,795 B.**",
+      "disposition": "UPDATED: changes.json"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/T3_DECOUPLING_TEST_A_DRYRUN.md",
+      "bytes": 13232,
+      "summary": "# T3 / Test A \u2014 DECOUPLING DRY-RUN (DOCKET 2026-09-01) | **Run:** 2026-08-28, data through **obs 2026-08-27** \u00b7 **Owner:** LIQUID (test design) / HENRY (numeric bands, Phase 2) \u00b7 **Tool:** `scripts/t3_d | **\u26d4 THIS GRADES NOTHING.** Dry-run only, as instructed. No verdict is recorded, no threshold moves, and the 9/1 read is pre-registered below rath",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/T3v2_READ_2026-09-23.md",
+      "bytes": 10713,
+      "summary": "# T3 v2 \u2014 decoupling Test A \u2014 the 2026-09-23 read (DOCKET L238) | **Run:** 2026-09-23 ~10:57\u201311:1x ET (clock-verified), Wed, market OPEN \u00b7 **Owner:** LIQUID (lead), HENRY (co-spec) \u00b7 **Spawned by:** PROME, Tier- | **Graded against:** the frozen letter `PROME/inbox/processed/2026-08-28_from-LIQUID_T3-v2-LETTER-for-registration-co-specced-with-HENRY-no-dissen",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/TIC_FRAMEWORK.md",
+      "bytes": 8639,
+      "summary": "# TIC Data Analysis Framework | **Rewritten 2026-08-23** (LIQUID boot) on ZHAO's 8/21 June-TIC packets \u2014 two of them, both Will-ruled: the **Belgium-proxy falsification** and th | ## \u26d4 RULE ZERO \u2014 read this before any other row in this file",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/VX.tsv",
+      "bytes": 11031,
+      "summary": "# FROZEN 2026-07-11 \u2014 not maintained; STATUS.md/KB.tsv canonical, do not cite rows as current (root CLAUDE.md Data Hygiene; Will-approved 7/11 sw | # REGISTRY - POINT-IN-TIME, NOT LIVE. Current_Value/Status reflect each row's Last_Updated stamp, not live state. Live state = STATUS.md + script",
+      "disposition": "PRESERVED: dated/frozen record, definition, ledger or instrument; see current STATUS for live reading"
+    }
+  ]
+}
