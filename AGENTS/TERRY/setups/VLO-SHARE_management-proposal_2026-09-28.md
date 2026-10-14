@@ -1,6 +1,6 @@
 # MANAGEMENT PROPOSAL — VLO ×1 held share — a price rule vs a policy/event rule
 
-**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original-share management; approved rule unchanged, qualifying source/result acceptance pending, no gate grade.
+**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original-share management; approved wording independently accepted October14 (PROME92ae2b847), qualifying source proof still pending, no gate grade.
 
 > **CURRENT OBSERVATION — 2026-10-12T15:02:37-04:00: October12 HELD-01 leg A notice/exit UNKNOWN.** BRENT committed0be151800 source1 CME tables empty/source2 not accepted; exact vendor-bar arithmetic reproduced from raw bytes, but opening-bar convention/published-price precision and full current identity proof missing. Existing WQ420 missing-data rule rejects acceptance; no NOT-FIRED holding grade, new notice/SELL or order. Governing November; December diagnostic does not govern beforeOctober15. B1–B3 not regraded at this touch; prior outstanding exits survive. Proof: `research/2026-10-12_desk-sweep/afternoon-grade.json`.
 

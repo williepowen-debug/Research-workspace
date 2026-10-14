@@ -22,3 +22,7 @@
 ## Required evidence and limits
 
 Git fixtures are local disposable repositories, no real remote writes. Author tests verify command safety/receipt semantics and the documented recipe; they are not a production stress test or independent read. Final ledger A–H, BOARD/corrections/intake review, weekday, scoped whitespace/read-cap and triggered root checks retain their original scope. Existing acceptance gaps and L694/afternoon work survive. No modification to ledger_sweep, root CLAUDE/AGENTS/USER, other desk files, WALTER runner, risk rules, thresholds or position/card judgments.
+
+## Independent result-read receipt — October14
+
+Independent reviewer PROME / OpenAI Codex /root, observed2026-10-14T13:46:29.148805-04:00; disposition at92ae2b8477d8c5062a3521b1dfc4d31e467126c3, SHA256461262a9e55f3abd729689edc80fecdd95ae93b30feb3b43dad746cd630990f8. Result ACCEPTED/INDEPENDENTLY VERIFIED within saved scope. One documented result read for this artifact; prior independent read count UNKNOWN, never inferred from author tests. Historical rotation plan-read compliance and missing earlier metadata remain unestablished. Source: PROME/reports/2026-10-14_TERRY-acceptance/disposition.json. No trade, gate grade or publication proved by acceptance.

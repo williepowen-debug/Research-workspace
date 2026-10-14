@@ -119,7 +119,7 @@ Save to `memory/auto/` only for a surprising/non-obvious *how-to-work* lesson, o
 - **Non-ff or other push failure:** follow root Git Protocol session-end step3 **in full**, including the incoming/dirty-path overlap check and its stop/escalation conditions. Honour Will's direct instruction and any standing hold; do not pull or stash concurrent foreign work. If safe integration is unavailable, commit owned work locally, defer push and record its exact SHA/reason/resume point in MEMORY and the dated delivery. Never substitute the retired soft-realign/foreign-restore worktree recipe.
 - **Report:** state exact owned commits and publication evidence or deferral, pending acceptance/dependencies, and MEMORY's next entry point. Saved files, remote delivery, recipient consumption and native lifecycle closeout are separate facts.
 
-**Repair hold:** the October4/October8 hold remains STANDING until the approved repair meets its existing acceptance requirements. Record received/proposed/approved-implemented/accepted separately in the existing owner state and dated repair report; author tests or this text alone do not lift it. Root Git Protocol remains canonical throughout.
+**Repair hold disposition:** the specific October4/October8 recovery-recipe hold was RELEASED by PROME’s independent acceptance on October14 at13:46 EDT (`PROME/reports/2026-10-14_TERRY-acceptance/disposition.json`, committed92ae2b847). Root Git Protocol, exact paths, foreign-work protection and fresh publication evidence remain mandatory. This release conveys no authority for force, foreign recovery or a pull over dirty peer work.
 
 
 ## Handoff cutoff, late arrivals and rechecks
