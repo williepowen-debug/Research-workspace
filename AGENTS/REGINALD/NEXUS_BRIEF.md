@@ -1,6 +1,6 @@
 # REGINALD — NEXUS Brief
 
-**Status:** severity remains concentrated on June30 bank evidence. WAL exit FIRED,0-of-3 through10/12 (29 rows); FLG ladder RED,4 settled closes belowRED through10/12. Current prices/tiers and their vintages → STATUS; no new fire. Nano10/13 FDIC page still lists bid summary only, no P&A link; unlisted agreement not excluded.
+**Status:** severity remains concentrated on June30 bank evidence. WAL exit FIRED,0-of-3 through10/13 (30 rows); FLG ladder RED,5 settled closes belowRED through10/13. Current prices/tiers and their vintages → STATUS; no new fire. Nano10/13 FDIC page still lists bid summary only, no P&A link; unlisted agreement not excluded.
 
 **WAL quarantine (cutover 7/25):** WAL thesis/predictions/positions are **`../WAL/`-owned — no WAL figure is restated here**; read `../WAL/STATUS.md`. REGINALD keeps the matrix row + cohort context. New via WAL 8/7 (consume-with-fences): **the V1a MI3 falsifier finally RAN and came back PLATEAUED <24%**, and WAL's NDFI share made a new high — **both under WAL's explicit "weights UNCHANGED pending Will's rulings" fence; do not consume WAL's scores as settled.**
 
@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-14 compound-risk integration complete; STATUS pin `1336a5560`.** Gates retain10/12 settled bars and10/13 boot quotes; Fresh boot confirmed unchanged state. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
+**As of:** **2026-10-14 closeout/fresh boot complete; STATUS pin `2903e7de4`.** Gates retain10/13 settled bars/FRED and10/14 ~11:14ET vendor quotes; no new registered fire. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
 
 ## CROSS-DOMAIN
 
@@ -38,9 +38,11 @@
 | FLG · CUBI | Q3 date announcements | Oct | Locks their WQ-318 grading dates |
 | Will | REG-07 VOID-or-grade (WQ-412) | before 10/21 | Decides whether REG-07 grades |
 | FDIC | Nano Banc Sunwest P&A posting (NOT posted 10/13) | re-check Tue 10/20 | Re-runs forensics §3 (L516) |
-| Broker (PROME/ANVIL) | Activity view for the new Fidelity WAL $65P / OZK $40P (D-73/74) | — | Records entry dates; cards stay TERRY's |
+| Will/PROME | Remaining contract ownership/card evidence atFORGE D-74/D-77; current structural records→POSITIONS | — | Clarifies management authority; broker holdings do not approve research/trades |
 
 ## VIEW
+
+- **Closeout/reboot,10/14:** `reports/2026-10-14_closeout-and-reboot.md`; all16 workbook TSV schemas pass, five live VX observations refreshed, eligible settled exit row appended and seven logged WALTER packets archived. Frozen feeds protected; predictions/credit baselines retained. PROME source additions loggedKB226 for existing Q3 reads. Latest broker-mirror structural check/ownership limits→POSITIONS; no new trade.
 
 - **Compound-risk integration,10/14:** `reports/2026-10-14_compound-bank-risk-synthesis.md`;14 same-bank joins/182 core credit cells checked at original June FFIEC files. AMTB credit+book, FLG/EGBN/OZK collateral/earnings, CFG attribution and SBCF marks remain separate questions. AHL AI purchase guarantee verified; outstanding amount and cohort allocations UNKNOWN. DOE/PJM now confirm issued emergency authority, backup use not established. June funding counterevidence survives; no joint loss/capital or pricing-edge conclusion. Existing Q3 outcomes only, no new scores/trade.
 
@@ -108,3 +110,5 @@
 *Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `c10de556a`; amendment12 ordering retained. Exact source arithmetic, verification split and boot capability gaps are in the October13 reports/receipts. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
 
 *Final fold,2026-10-14: follows final STATUS commit `1336a5560`; new synthesis pointer and entity/freshness limits retained. Old brief archival pointers remain valid. No outbound delivery/peer consumption claimed.*
+
+*Final closeout/reboot fold,2026-10-14: last write-back follows STATUS commit `2903e7de4`; dated market/source and existing Q3 duties preserved. Earlier final-fold statements are historical. No external notification or peer consumption claimed.*
