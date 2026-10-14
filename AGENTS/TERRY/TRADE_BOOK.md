@@ -63,4 +63,6 @@ Prior rows above are dated records. These rows supersede their current-state cla
 | 2026-10-13 | MGMT-QQQ745P-OCT15 | Will | CLOSED | Sale evidenced | CLOSED — remaining1 soldOctober12; incremental+$109.68, not cohort total again | `setups/QQQ745P-740P_oct15-sell-or-roll_2026-10-07.md` |
 | 2026-10-13 | MGMT-TLT82P-OCT16 | Will | CLOSED | Sale evidenced | CLOSED — remaining1 soldOctober12; incremental+$232.67; prior partial separate | `setups/TLT_oct16-82P_ITM-management-card_2026-09-26.md` |
 | 2026-10-13 | MGMT-DURSHORT-EXIT-WQ291 | BOND/Will | CONDITIONAL | WQ357 prior LATER | CONDITIONAL — TLT CLOSED; TBT5 survivesOctober14 decisionclock; derived sale+$35.95, no new rule | `setups/DURATION-SHORTS_exit-card_WQ291_2026-10-01.md` |
-| 2026-10-13 | MGMT-QQQ744P-OCT14 | Will | CONDITIONAL | Preparation only | CONDITIONAL — management-only; sale preferred on confirmed brokerbid/orders; no roll/newcapital | `setups/QQQ744P_oct14-sell-or-roll_2026-10-13.md` |
+| 2026-10-14 | MGMT-QQQ744P-OCT14 | Will | CLOSED | Filled sale recorded | CLOSED — sold1 at8.22/net821.32; derived realized+545.66 | `setups/QQQ744P_oct14-sell-or-roll_2026-10-13.md` |
+
+| 2026-10-14 | MGMT-QQQ740P-OCT15 | Will | CONDITIONAL | Partial filled sale recorded | CONDITIONAL — sold1 at6.71/net670.32; remaining3/basis1591.99; derived incremental+139.66 conditional no unseen basis change | `setups/QQQ745P-740P_oct15-sell-or-roll_2026-10-07.md` |

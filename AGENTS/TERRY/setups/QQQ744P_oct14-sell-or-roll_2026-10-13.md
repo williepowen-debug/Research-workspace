@@ -2,11 +2,15 @@
 
 **Id:** MGMT-QQQ744P-OCT14
 **Date:** 2026-10-13; screening pull19:04 ET, after the options session.
-**Terry verdict:** CONDITIONAL — management-only; sale preferred on confirmed holdings and broker bid; no roll recommended or approved.
+**Terry verdict:** CLOSED — October14 broker receipt reports sold-to-close ×1 at$8.22; no roll/order by TERRY.
 **Thesis owner:** Will; original thesis/entry trigger/invalidation/structure rationale UNRECOVERABLE, not reconstructed (construction rule #20).
 **Authority:** October13 PROME broker-position packet, bounded standing C5 preparation; Will's standing sell-or-roll practice. Preparation only, $0 moved, no order. Not a new trade candidate.
 
-## Position and quote limits
+## October14 broker disposition — current
+
+PROME transcription reports FILLED sell-to-close1 at$8.22 against$8.00Day limit, net$821.32; prior basis$275.66 gives DERIVED realized **+$545.66**. Contract absent from new holdings. Fill/capture times UNKNOWN, original screenshots not independently viewed; continuity inferred. Exact source copy: `research/2026-10-14_broker-receipt-source.json`. No same-timestamp execution grade, entry reconstruction or new trade authority. Quantity0; original proposal below is historical, not an open action.
+
+## Position and quote limits — October13 history
 
 Source: `PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md` §§1/4, received October13; exact capture/fill/quote times UNKNOWN, original images not independently viewed here. Long744P ×1 in Traditional IRA view; October12 opening cash$275.66 confirmed. Snapshot value$356 and gain$80.34 are historical, not executable. Current holdings/working order, maximum tolerated additional loss and broker handling require confirmation: **[POSITION_STATE_INCOMPLETE]**.
 
