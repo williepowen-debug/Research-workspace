@@ -1,0 +1,403 @@
+{
+  "verified_at": "2026-10-14T04:48:07Z",
+  "source_commit": "03edfba0485b8d0f7ec8248e8ab10f2ea3523745",
+  "cached_origin_master": "19d364784fe31cf2a802a47d54fc3f84974b18d8",
+  "source_publication": "pending",
+  "remote_ref_fetched_for_this_check": false,
+  "mark_command": "python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark",
+  "mark_command_result": "SUCCESS: recorded 72 staged IDs; no refetch",
+  "previous_processed": 654,
+  "current_processed": 726,
+  "pending": 0,
+  "old_ids_preserved": true,
+  "added_ids_exactly_match_snapshot": true,
+  "newly_processed_ids": [
+    "2110038182616015141",
+    "2110164984143777881",
+    "2107559686107001083",
+    "2109758044196180262",
+    "2110122933800604004",
+    "2110071550854443056",
+    "2110150406160503273",
+    "2110150610649534470",
+    "2110088719059595551",
+    "2110142266874478798",
+    "2109741286093676792",
+    "2110142224457494748",
+    "2110142714339610773",
+    "2110142794987626980",
+    "2110142828764410274",
+    "2110142899706863675",
+    "2110098261331906828",
+    "2110091523559932296",
+    "2110091332551139526",
+    "2110121507351404632",
+    "2110111117867708529",
+    "2110101561070571956",
+    "2110061350936326495",
+    "2110090712683561294",
+    "2110068111290277994",
+    "2109991996752535793",
+    "2110077662949732506",
+    "2110058017609924794",
+    "2110004402232975761",
+    "2110038943601238218",
+    "2110047081414987957",
+    "2110057875590848631",
+    "2110027027088621691",
+    "2110033590264250854",
+    "2109960228888314331",
+    "2110031180577841195",
+    "2110042126138355798",
+    "2109999096740421725",
+    "2109986306675585426",
+    "2109971662083117343",
+    "2109827483046469883",
+    "2109955865784582358",
+    "2109997976236228923",
+    "2109846611115532718",
+    "2109979285226213406",
+    "2109774916363137463",
+    "2109966451675165076",
+    "2109995134456627265",
+    "2109999851979321353",
+    "2109934129991319672",
+    "2109692347365658789",
+    "2109960914049122578",
+    "2109978266413265123",
+    "2109984322640060598",
+    "2107479474803761540",
+    "2109951529394614313",
+    "2109864065569042752",
+    "2109849914075189622",
+    "2109584894586179878",
+    "2109803805617356978",
+    "2100983069872369895",
+    "2109839634502930643",
+    "2109652905674653765",
+    "2109833690763419774",
+    "2109819417097810034",
+    "2109810131710128625",
+    "2109797874523635914",
+    "2109803806188023875",
+    "2109821579710361652",
+    "2109793966573174790",
+    "2109717288781803755",
+    "2109795714733854776"
+  ],
+  "content_items": 81,
+  "dispositions": {
+    "DISPATCH": 21,
+    "NOTE": 17,
+    "NO-ACTION": 7,
+    "FOLD": 27,
+    "DUP": 8,
+    "KILL": 1
+  },
+  "batch_item_counts": {
+    "BM-20261014-01": 24,
+    "BM-20261014-02": 26,
+    "BM-20261014-03": 28,
+    "BM-20261014-04": 3
+  },
+  "committed_packets_verified": [
+    {
+      "path": "BOARD/SIG-W-20261013-007-pjm-issued-order-and-demand-response-not-diesel-shortage.md",
+      "sha256": "f668c961f7cc45b6c6dcd4842fe6204ff7a344b70f7da4a141abd6e444ff9d62"
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261013-007.md",
+      "sha256": "5d260e4ab0256317a7b7ae4408b86397c041d022ed0d6aa2e4740f23adca1795"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-007.md",
+      "sha256": "2679dea678b88f915d86ed9f9c448b28e1c26c07fedf992965542041567ba88e"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-007.md",
+      "sha256": "292cdf33e41607afc037e23010508d156caac7a905d90825295c868c3e56bcab"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-007.md",
+      "sha256": "f51b07fb9fb06829af134533f3ed87e5f75917b5d2fca32b19a1e38bb14de7aa"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-008-dhahran-administrative-building-fire-output-unmeasured.md",
+      "sha256": "aec2e0724626b4aa568754c46812768b8ee0e31c6fac0d9e35ff6a3c5fb16d5b"
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261013-008.md",
+      "sha256": "32d3d02bebc3bca81b214c28850b53f2b7c57e0f7d56fa4d4cc5c4a2dbabeaca"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-008.md",
+      "sha256": "71ddd1a074f3b7584e657d23d90f075b4d2577c89fad58795836a49e2c2729c4"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-008.md",
+      "sha256": "be60a27cd152c666fc33499580786b17bfe0a9f965e5da7924e9c88f177bfb8e"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-009-df-peak-oct12-boarding-not-diesel-cargo-confiscation.md",
+      "sha256": "1ab6987919e015699ee2b14a2f70304c0ae4d82b51d23b808fc74af49a73bb12"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-009.md",
+      "sha256": "e2ed84c7d7e4e03d8706dc0fc7b07f95182bd494cbda3b1f0faad0556d5c98d2"
+    },
+    {
+      "path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261013-009.md",
+      "sha256": "e36012e7b3a78756c1b8bb607078ccc44ab5e25c5c68ead3c88a4d6328819bef"
+    },
+    {
+      "path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261013-009.md",
+      "sha256": "14c028aaeec5829e6fbd67b6efcfb5e703a24aa6b4d254974d51df298dbcd0d6"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-009.md",
+      "sha256": "03df16da823f65f00abb3ff63459ecf6c841195f9db749287a2315c6a45c33d4"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-010-fujairah-empty-vlcc-retreat-receiving-tonnage.md",
+      "sha256": "c9aa4f5598166a9459e1626e7113247ead2b33a546a124b8781a75445db7dee6"
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261013-010.md",
+      "sha256": "0582a41b11f13310950c57668b758a14bb5df18d4cef36b412dfcf1ec3d093ba"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-010.md",
+      "sha256": "b76dd260273ca782df9430d7d3512a47995860a1dd7664bc4c13f471067ad20d"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-010.md",
+      "sha256": "03168cd6b771053bc6fbda3d9c0240eaf134f8359764a3163dc22f9946018d07"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-011-ukmto-time-late-notices-tally-and-identity-guards.md",
+      "sha256": "3776fe39b02e8c271bad1a0c91406fdbbd0af29dba6f104ebe7117fac87e8cd5"
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261013-011.md",
+      "sha256": "321b50e521095707544d75b9929bf26311b442827235b0d774f1a445ec920343"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-011.md",
+      "sha256": "7de6c34328b74fd0f1210dd19e73d2db469eb9732e1fef630d1de8941264ab9f"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-011.md",
+      "sha256": "e6a71dfc393ef0c56e6866a6dccc798b2dbbbeb62135d715b2ed7314c48dd389"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-012-neso-transmission-delay-assistance-secure-supply.md",
+      "sha256": "81c172cb9c2f4a2e48dce97e8f0b024aedc483686994c855cb1ec78e59451827"
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261013-012.md",
+      "sha256": "9f7e7402a0da60157c906c76c918b9b13c3181b60270d19ca6e3ce011a969e40"
+    },
+    {
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261013-012.md",
+      "sha256": "94e15ae9379f235c1928bb98d122ac17afc8437f60b0d0fb41a809d0cbf38ace"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-013-volta-underwriting-order-not-cleared-financing.md",
+      "sha256": "7083c4cfe7a5c1aeb10e64eb62d4a7077cf8d2ab0b91402dfaaff0b4a2174657"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-013.md",
+      "sha256": "77dda7e31f137831206623534cba44ee3fbe9cd172a44a9b2a29c22a6b538757"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-013.md",
+      "sha256": "c77bd1bda53568787fb5d0b55bbc4058e54de5d25527135b159197d532cbcd58"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-013.md",
+      "sha256": "4e9397138311bbb3366554ff655a6da7801d98ffd095a7bec535148b2a62dcec"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-013.md",
+      "sha256": "7f88aa20b746cabb15a5b9620f0dd4aaac058f571e76caaf5d7edf68e4b961d3"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-014-ai-credit-quote-leads-instrument-and-cohort-unverified.md",
+      "sha256": "39e6719beaec522c3a0d6012f58a118dc2af7c0d6387674a9bde17e96c2bd452"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-014.md",
+      "sha256": "f233cec5e84c0a41cd402b9e7f9e37ad86da9768dc65332d2761dfa994539246"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-014.md",
+      "sha256": "50add4a84c1342d20e0b703d8462612e0c0e9083d0b22798a6d1d847d96423a9"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-014.md",
+      "sha256": "8967240782e9dab2f3b963b3d42380c762311d97ba194f50799aa188c824ba9f"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-015-bac-penalty-crediting-not-regional-credit-loss.md",
+      "sha256": "44d33358d28c70c12d6c75bcd274559ccd8d0d97e1fde6d40d10095cb767a78f"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-015.md",
+      "sha256": "07ab74e3305b613d82344f292651499ff774790c8f594c5119acc6a1d133e893"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-015.md",
+      "sha256": "8db93bfe357962dd4feaec351d3e60241ffa64112e6eacdac477d6449c506b08"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-016-CORRECTION-external-tga-average-versus-wednesday.md",
+      "sha256": "56ea45525603db636a1143885b9fda47ade0b64f3c49a2dcfd48b7e64f8fdb62"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-016.md",
+      "sha256": "db96c97eee2109929cf0f1ada3925c042e752072d33ab8e76355b53a7c324660"
+    },
+    {
+      "path": "AGENTS/BOND/inbox/WALTER/SIG-W-20261013-016.md",
+      "sha256": "2ce16a6bef094d02553d6976792e56960abdb1e0dd0fd39002695397e88f96df"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-017-chile-pension-rate-swaps-not-quantified-treasury-selling.md",
+      "sha256": "b860636be0f839cdd91c7ad125d3672d2908d2624b67e642c7c18591bf7bf8f8"
+    },
+    {
+      "path": "AGENTS/BOND/inbox/WALTER/SIG-W-20261013-017.md",
+      "sha256": "7a2b6e4117ce9c344d2fdae6f2c16b60370ee433ba965cc3449511371f4ea554"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-017.md",
+      "sha256": "b156d54f13a991e3e396abea7639c16d849c041f3e0657cb2987db8af1aef028"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-018-yandex-payment-access-compensation-not-bank-run.md",
+      "sha256": "c32f29ccc44fa386cde08cf7bd0f276ec532f69ee57d0072a2f06def56e556b6"
+    },
+    {
+      "path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261013-018.md",
+      "sha256": "d86be74ee1bb9b0a017bb67e50005ec9035611ce8fee0a46eeb0dc747e5dd801"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-019-jpm-q3-reported-managed-and-return-bases.md",
+      "sha256": "06922da378bf2f2c5c5c68e80bcd17100f672be3b1fa14a791903dc40e3cf387"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-019.md",
+      "sha256": "a34264f20dfc1a2b57044ae1e4a3b6cd2e71df1b846a158daa8c33c41a625b4a"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-019.md",
+      "sha256": "1505556fe8b6637b7e8b5f1e2ed9a3946728206a0e4f4d24b9ff612496fe8369"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-020-japan-cgpi-september-actual-prior-not-consensus.md",
+      "sha256": "8f2177fd49de62d2177aae6a9ee008de5ef3633941cf824b1396a5404f685720"
+    },
+    {
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261013-020.md",
+      "sha256": "fa06b41bef8e9e0741dddcac0e256647822f34e08382a7e4c1d47fb8744253a2"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-020.md",
+      "sha256": "491c62e7d9b645a26361b9d6349a18c9d776f36c31226fbdea488371d3fbb5c4"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-021-volsignals-year-end-put-model-and-conditional-vanna.md",
+      "sha256": "e58895e11f2e448de432b4ab5ebc40f552bf025ec75146f13956d159a8dcde74"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-021.md",
+      "sha256": "19808ae32f9f0fc203c0fe2d6e71ce2f768cad876c0736d12ce15e5aff11590a"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261013-021.md",
+      "sha256": "bf58dcad56ad663bd8b19f02f1bcc2591a0248865533836ee5b0184c9955e8da"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-021.md",
+      "sha256": "d86ffc8a810eeeaacc87729dbe813c952f42f79cb6998114625b9eb20dfa1878"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-022-maine-residential-heating-oil-observation-not-futures.md",
+      "sha256": "02de488b8fc7540f70b576cdc90bfd9cf02ba6b6e4c1595d397f0f64680384e3"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-022.md",
+      "sha256": "2149c0424e7cd4528e307607e5f7773a70b2e864d8049340287a2ff9b3027327"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-023-picklr-corporate-filing-lease-guarantor-unverified.md",
+      "sha256": "7de4e911b29ac63f0a32796f22acc15986f8d40431312c99f5f898e144da338c"
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261013-023.md",
+      "sha256": "d1735eefa40a241d1036569d1a5d10186ebc8e67e0ea0532c81b70c3dfd2254e"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-023.md",
+      "sha256": "cad49a2715dda3126cc51c2fe86b2efdd6ca0041d38af81186947b8d5137de91"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-024-korea-oct13-close-and-program-sell-sidecar.md",
+      "sha256": "1bb843552874bd109002b452803f643395ac7a5ea80a6de52d4dbf67fcfd29f4"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-024.md",
+      "sha256": "58008ff385e1b3b39306875dba3afb32bb220de4171d491703aa5148ebd5b0d0"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-024.md",
+      "sha256": "28e715d6cc69705f16e818c6c8cf6272afb5e09c7fafc6ad73e9a2b355e16b4a"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261013-024.md",
+      "sha256": "2e0119568b544d1cd24a705c49a727c653e6e7ded861e1c47e06af3eaa12b3db"
+    },
+    {
+      "path": "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261013-024.md",
+      "sha256": "c31f733f335b935f128d239a365c227396b6c9afc45f2ca8c0cca987d5e26c16"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-024.md",
+      "sha256": "9747c457f25206eaf1273f8e3902a4b738263c5302f9c319087784bb66e4c8c6"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-025-las-vegas-august-inventory-not-october-clearing-loss.md",
+      "sha256": "6076c261cad9f48c24d8b344827b1852540c7d92430a8d3c4176ea2547960065"
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261013-025.md",
+      "sha256": "5e22831ceafa3263f12a42325d893378aecd4f9b76d2169986bf0612ed4244c6"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-025.md",
+      "sha256": "bdcfdd9406cf76e97a17cd7dc429fafe1b4614c01aeb74a55e8d0ed85e71de99"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-026-ual-fare-filed-increase-unverified-demand-counterlead.md",
+      "sha256": "289ca4c8cce26304c7b27a491d8161d1ac74cad8827df94de6f8ac4f6c228c52"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-026.md",
+      "sha256": "3787e40080daed35283a6838a8c0eb18f5a0acaca311685acd08598dd6e4f683"
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-027-anthropic-internal-coding-output-not-paid-inference-roi.md",
+      "sha256": "0219aeac996b0b989d2890301b43d066de8532320c281dad1998fff7991cd608"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-027.md",
+      "sha256": "7eff70c64aec79418688a94967967d245113f4efb5e289df80db4ffa1898dd30"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-027.md",
+      "sha256": "69528659e37132f30662704afb976b02886624ae777f7064603aeddefa5430bd"
+    }
+  ],
+  "owner_consumption": "UNKNOWN; packet persistence is not owner review",
+  "limits": "Captured snapshot only; no new bookmark fetch, full market clearance, or owner grade."
+}
