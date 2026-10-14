@@ -1,0 +1,111 @@
+{
+  "written_at_utc": "2026-10-14T02:54:14.665292+00:00",
+  "authority": "Will direct continuation plus PROME dated inbox assignment",
+  "snapshot_file": "sources/2026-10-13_preprint-market-consensus_snapshot.json",
+  "snapshot_SHA256": "4f90551a8fa391b85aaa881ebfc0196d576f0269783ef6297b91e79c915af1db",
+  "retrieved_at_ET": "2026-10-13T22:45:57.134206-04:00",
+  "raw_source_method": "Yahoo yfinance info/earnings_estimate/revenue_estimate/eps_trend/eps_revisions plus Nasdaq earnings-forecast API; approved network retry after sandbox DNS failure",
+  "vendor_update_dates": "UNKNOWN; Nasdaq asOf null; capture is retrieval timestamp not analyst-update certification",
+  "EPS_basis": "UNKNOWN for both vendor panels; Q2 GAAP/adjusted equality does not establish current consensus basis",
+  "cases": [
+    {
+      "case": "persistent_pressure",
+      "inputs": {
+        "Q3_common_income_M": 220,
+        "AOCI_change_aftertax_M": -450,
+        "sustainable_annual_EPS": 8.0
+      },
+      "Q3_EPS_proxy": 2.009259259259259,
+      "TCE_M": 6540,
+      "TBV_per_ending_share": 60.55555555555556,
+      "sustainable_return_proxy": 0.13211009174311927,
+      "values_by_required_return": {
+        "0.12": 68.70370370370371,
+        "0.13": 61.833333333333336,
+        "0.14": 56.212121212121204
+      },
+      "central_value_vs_quote_pct": -16.135449161354497
+    },
+    {
+      "case": "continuity",
+      "inputs": {
+        "Q3_common_income_M": 265,
+        "AOCI_change_aftertax_M": -150,
+        "sustainable_annual_EPS": 9.8
+      },
+      "Q3_EPS_proxy": 2.425925925925926,
+      "TCE_M": 6885,
+      "TBV_per_ending_share": 63.75,
+      "sustainable_return_proxy": 0.15372549019607845,
+      "values_by_required_return": {
+        "0.12": 87.6388888888889,
+        "0.13": 78.875,
+        "0.14": 71.70454545454545
+      },
+      "central_value_vs_quote_pct": 6.978163569781626
+    },
+    {
+      "case": "resilience",
+      "inputs": {
+        "Q3_common_income_M": 285,
+        "AOCI_change_aftertax_M": 0,
+        "sustainable_annual_EPS": 11.0
+      },
+      "Q3_EPS_proxy": 2.611111111111111,
+      "TCE_M": 7055,
+      "TBV_per_ending_share": 65.32407407407408,
+      "sustainable_return_proxy": 0.16839121190644932,
+      "values_by_required_return": {
+        "0.12": 100.44753086419753,
+        "0.13": 90.40277777777777,
+        "0.14": 82.18434343434342
+      },
+      "central_value_vs_quote_pct": 22.613288726132865
+    }
+  ],
+  "common_assumptions": {
+    "opening_June_TCE_M": 6906,
+    "dividends_M": 46,
+    "buybacks_M": 100,
+    "other_common_equity_intangible_tax_change_M": 10,
+    "ending_common_shares_M": 108,
+    "Q3_average_diluted_shares_M": 108,
+    "participating_award_income_M": 3,
+    "steady_state_growth": 0.03,
+    "central_required_return": 0.13,
+    "sensitivity_required_returns": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "horizon": "eventual normalized state, not print-date forecast",
+    "formula": "P=(E-g*B)/(k-g); E and B per share with matched share basis; no model applied as market belief"
+  },
+  "judgment": "NO DEMONSTRATED EXPECTATIONS GAP; conditional pressure case requires recurring evidence",
+  "prior_valuation": "v2.4 EV75.96 and original weights/ranges unchanged",
+  "REGINALD_integrated_commit": "31c02fd748af937a3713a1a30da19315e02ec086",
+  "REGINALD_scope": "Funding and peer baseline preserved; no further hedge/funding study; owner acknowledged June source integration with no material disagreement",
+  "frozen_and_canonical_SHA256": {
+    "Q2_GRADING_FRAME_2026-07-21.md": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc",
+    "PREPRINT_RECON_2026-07-17.md": "12757b40be6dc95d6c52da5da207c919253542298415693e1d34153dbd16ce41",
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880",
+    "THESIS.md": "8a998ca1763a392f31f242424b597b7379f16bad73d99960101c1026f7a69324",
+    "SCENARIOS.md": "0722a3b8b90e1ea8ac5c85396ebf57a5bb72d014b6b6bbc290da5e3d2b329ff5",
+    "workbook/PREDICTIONS.tsv": "bf38f3ec164220445e09392e6942f1efecc0dd5725538ddef2334063341e6ddb"
+  },
+  "public_guidance": "Q2 SEC deck slide17 primary financial guide datedJuly22; September16secondary transcript reused with primary-verification gap; October6issuer calendar release fresh web open supplies dates only",
+  "missing_inputs": [
+    "matched GAAP/adjusted component consensus and analyst-specific dates",
+    "net Q3 securities/AOCI change and actual payout/share basis",
+    "recurring funding/mortgage/credit economics and future capital/payout flexibility",
+    "market required return and pricing beliefs are not identified by quote"
+  ],
+  "validation": {
+    "vendor_payload_errors": {},
+    "price_timestamp_present": true,
+    "model_arithmetic": "all3 bridges and valuation formulas evaluated directly; table rounded intentionally",
+    "prohibited_model_netting": "no EVE/NII or existing AFS loss added to TCE scenarios"
+  },
+  "scope_stop": "one snapshot and one note; no trade card, screen, ticker, research direction or standing monitor"
+}

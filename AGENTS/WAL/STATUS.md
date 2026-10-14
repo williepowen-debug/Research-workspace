@@ -1,10 +1,10 @@
 # WAL STATUS
 
-**Last Updated:** **2026-10-13** — WAL session #13, Will-directed securities/hedges/rate-risk reconciliation. Fresh Q2 primary verifies September 28 tables; REGINALD funding/peers preserved. No grading cell, score, weight, EV, PT, gate or trade changed. Prior dashboard preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`.
+**Last Updated:** **2026-10-13** — WAL session #13, Will-directed securities/hedges/rate-risk reconciliation. Fresh Q2 primary verifies September 28 tables; bounded pre-print valuation continuation finds **NO DEMONSTRATED EXPECTATIONS GAP** (KB-223/224). REGINALD funding/peers preserved. No grading cell, score, weight, EV, PT, gate or trade changed. Prior dashboard preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`.
 
-**Price (10/13): $73.73**, vendor regular-market quote pulled October 13 evening ET through `scripts/market.py quote WAL`; −1.29% versus vendor previous close; today-asof check passed. **Official close not independently verified.** Spot **−2.94% vs EV $75.96** (Δ÷EV); **+11.08% to $81.90** (Δ÷spot). This quote does not grade the consecutive-close guard: REGINALD owns it. The old $78 trigger remains TERMINAL; no re-entry signal. Earlier price records are in the dated snapshot and KB-215/-222.
+**Price (10/13): $73.73**, vendor closing observation stamped **16:00:02 ET**, re-fetched **22:45:57 ET** through Yahoo/yfinance (raw snapshot in sources); after-hours also $73.73 at19:56:17 ET; −1.29% versus previous close. **Official close not independently verified.** Spot **−2.94% vs EV $75.96** (Δ÷EV); **+11.08% to $81.90** (Δ÷spot). This quote does not grade the consecutive-close guard: REGINALD owns it. The old $78 trigger remains TERMINAL; no re-entry signal. Earlier price records are in the dated snapshot and KB-215/-222.
 
-**SPOT vs EV:** $73.73 [October 13 vendor regular-market quote, KB-222] versus v2.4 EV $75.96 ⇒ **−2.94%** (Δ÷EV). EV unchanged; price movement alone does not regrade the thesis. No current comparable-consensus/net-rate valuation establishes a new pricing edge.
+**SPOT vs EV:** $73.73 [October 13 vendor regular-market quote, KB-222] versus v2.4 EV $75.96 ⇒ **−2.94%** (Δ÷EV). EV unchanged; price movement alone does not regrade the thesis. Current vendor consensus and the conditional valuation note establish no demonstrated pricing edge (KB-223/224).
 
 **Tape attribution (September28 dated record):** 8/4→9/28 WAL decline matched the index as long rates rose; first post-Nano session also matched KRE. Full endpoints, series and sources preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md` and KB-215. This historical window is not a current attribution or funding observation.
 
@@ -16,7 +16,7 @@
 > - ~~V3 score vs corrected evidence~~ ✅ **RULED WQ-324 → re-scored 3/5 (9/28).** ~~Print-frame rule gaps~~ ✅ **RULED WQ-325 → registered as print frame §10 (9/28).**
 > ⏱ **FFIEC PWS JWT expires 2026-11-05** (`PROME/WILL_QUEUE.md` row 31) — lands inside the Q3 10-Q window, so a lapse re-darks MI3 exactly when the Q3 re-test is due. **Raise from ~mid-October (≈10/13, with the print-date pin), not before.** **10/9: the print date is pinned (10/19), so this is DUE NOW; carried in the WQ-328 memo's WILL_NEEDS to PROME.** Creds are on the **DESKTOP** only.
 
-**KB:** **222 rows / 20 distinct Group values** (+4 October 13: 219 June securities/hedges; 220 NII/EVE/EaR definitions and verified model; 221 assumption tests; 222 fresh quote). KB-211 superseded by KB-222; the remaining expiry flags 205/197/214 are out-of-scope follow-ups, not silently extended. Source supplement → `research/2026-10-13_securities-hedges-rate-model-reconciliation.md`; cohort/rank/funding baseline remain REGINALD-owned. Prior KB state is preserved in the dated snapshot.
+**KB:** **224 rows / 20 distinct Group values** (+2 continuation: 223 current vendor price/consensus; 224 conditional valuation) (+4 October 13: 219 June securities/hedges; 220 NII/EVE/EaR definitions and verified model; 221 assumption tests; 222 fresh quote). KB-211 superseded by KB-222; the remaining expiry flags 205/197/214 are out-of-scope follow-ups, not silently extended. Source supplement → `research/2026-10-13_securities-hedges-rate-model-reconciliation.md`; cohort/rank/funding baseline remain REGINALD-owned. Prior KB state is preserved in the dated snapshot.
 
 ---
 
@@ -26,7 +26,13 @@
 
 AFS **$18,880M FV / $19,547M cost**; selected AFS hedged cost **$3,482M**, cumulative basis adjustment **−$73M**; aggregate designated swap notional **$5,706M** spans securities/loans/debt. **Net duration UNKNOWN**, not disclosed in reviewed Q2 sections. Q2 common-equity flow ties **+$227.2M**; actual September marks and deposit-remix economics await existing Q3 disclosures. [Q2 Notes 2/11/12 and equity statement]
 
-**Owner report:** `research/2026-10-13_securities-hedges-rate-model-reconciliation.md`. REGINALD's EaR/ECR correction integrated; June hedge/headroom source supplement routed by durable packet. Funding/peer work untouched. **Most decisive unknown:** actual hedge-adjusted securities marks together with all-in funding/optimization economics. Resolve at the existing October 19 release / October 20 call, then Q3 10-Q; no new rule or monitor. Recipient acknowledgment remains pending.
+**Owner report:** `research/2026-10-13_securities-hedges-rate-model-reconciliation.md`. REGINALD's EaR/ECR correction integrated; June hedge/headroom source supplement routed by durable packet. Funding/peer work untouched. **Most decisive unknown:** actual hedge-adjusted securities marks together with all-in funding/optimization economics. Resolve at the existing October 19 release / October 20 call, then Q3 10-Q; no new rule or monitor. **REGINALD integration RECEIVED:** its primary-supplement packet at31c02fd74 reports no material source disagreement; WAL read it before the continuation.
+
+---
+
+## PRE-PRINT EXPECTATIONS (October13 continuation; KB-223/224)
+
+**NO DEMONSTRATED EXPECTATIONS GAP.** Fresh22:45:57 ET snapshot: price **$73.73**; Q3 EPS **$2.42–2.43**, FY2027 **~$11.00**; vendor EPS basis/update dates UNKNOWN. Price is about **6.7× FY2027 consensus**, so a discount is already visible. Illustrative pressure/continuity/resilience values **~$62/$79/$90** depend on explicit earnings/book/growth/required-return assumptions; **not market beliefs, new targets or print-date forecasts**. Downside needs recurring earnings weakness beyond known marks; benign credit/funding and a credible ~$11 path undermine it. Note `research/2026-10-13_preprint-expectations-gap.md` maps evidence to existing release/call/10-Q. Frozen frames/weights/targets unchanged; no trade referral.
 
 ---
 
@@ -73,19 +79,9 @@ Guaranty claims are in bankruptcy; lien avoidance is under investigation. **Expo
 
 **Read: a concentration and refinancing channel, not a stress channel. No score moved.** CREED national context (Trepp hotel SS 8.74% Aug; 30% of hotel CRE matures 2026) = context only.
 
-## CATALYST SWEEP 8/20→9/23 (run 2026-09-24)
+## CATALYST SWEEP (September24 dated record; no new sweep here)
 
-**The `SEARCH-NOT-RUN` gap (8/20→9/2, slipped two sessions) is CLOSED — swept 8/20→9/24.** Record → `research/CATALYST_SWEEP_2026-09-24.md`.
-
-| Finding | Tier | Read |
-|---|---|---|
-| **EDGAR: no WAL 8-K, no 144, no 13D/G; 9 Form 4s = RSU mechanics @ $79.03 (the 9/15 settlement price on the Form 4s = the 9/15 close), zero code-P/S** (3 routes agree) | A1 · KB-193 | V4 discriminators all negative. ⛔ **$99M appraisal: 8-K-silent = NO-VERDICT band — grades nothing.** |
-| ★ **Barclays 9/16, Vecchione: NPLs "$567M → about $500M" in Q3 (−10%); NCO rate AND dollars "under Q2"; ACL "well over 100%" of Q3 NPLs vs 95%; "six credits … four down, two to go", last two in Q4.** **$99M / appraisal / office NOT mentioned.** | **B2** · KB-194 | A Q3 credit pre-guide in all but name — **against** bear-medium, if the print confirms it. ⚠️ **Basis: $567M/95% = this desk's NONACCRUAL basis ($562M/96%), NOT full NPL ($781M/69.1%)** ⇒ "over 100%" is ACL÷nonaccrual. ⛔ **Guidance, not data: no score moved; it becomes the BENCHMARK the Q3 frame grades against.** Quotes model-extracted from a third-party transcript — **re-verify at the IR webcast before grading.** |
-| Barclays: buyback continues "into 2027"; warehouse/MSR "probably won't be as active going forward"; NIM ~−1bp Q3; $4B deposits moved off-B/S | B2 · KB-196 | Bull leg on track per mgmt. Warehouse line = **plan**, same tier/direction as KB-121 — see V3 |
-| **Crestline 8-K (9/18): Western Alliance BANK joins a DB-agented SPV private-credit facility as LENDER** ($350M→$550M; WAL share undisclosed) | A1 · KB-195 | NDFI **added** in-window — directional for V3's challenge; size unknown |
-| **Q3 date NOT ANNOUNCED** (IR feeds, primary); prior year announced 10/2, calls on Wednesdays | A1 · KB-197 | WAL-01/02 `Resolve_By` 11/15 **not re-pinned** — nothing to pin to. Re-check ~10/2-10/9 |
-| Analysts: Raymond James **initiates Outperform $90** (9/22); Citi $98→$95 (date unconfirmed); Weiss → Hold | B2 · KB-197 | Street still ~$93-95, Mod Buy |
-| **Tape driver = sector + rates + the 9/22 "Meta Muse" AI-deposit scare (S&P Financials ~−2%); no regional-bank credit event found** | B2 · KB-197 | Matches the cohort arithmetic in the header |
+Full dated findings → `research/CATALYST_SWEEP_2026-09-24.md`; preceding table preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`. That historical sweep found no WAL-specific catalyst for the sector/rates decline. **8-K silence on the $99M appraisal grades nothing.** September16 Barclays guidance is SECONDARY/model-extracted, not primary-verified: credit/NPL improvement and lower NCO were guided, with coverage on the NONACCRUAL basis; the $99M was not named. Current print date is October19/20 (KB-217); current expectations → KB-223, not the old unannounced-date/September28 rows. Crestline lender role (KB-195) is confirmed; forward warehouse reduction (KB-196) is a plan. No score moved in the sweep or this continuation.
 
 ---
 
