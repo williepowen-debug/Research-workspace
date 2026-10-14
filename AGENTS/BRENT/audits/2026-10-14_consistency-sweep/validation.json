@@ -29,7 +29,7 @@
     },
     "local_links": {
       "status": "PASS",
-      "file_destinations_checked": 148,
+      "file_destinations_checked": 157,
       "perimeter": [
         "STATUS.md",
         "TRADE.md",
@@ -37,9 +37,10 @@
         "SCRATCH.md",
         "NEXUS_BRIEF.md",
         "demand_destruction/DEMAND_COMPOSITE.md",
+        "research/2026-10-15_release-prep/WORKSHEET.md",
         "audits/2026-10-14_consistency-sweep/REPORT.md"
       ],
-      "exclusions": "URL and heading anchors; audit validation.json created from this result"
+      "exclusions": "URL and heading anchors"
     },
     "eia_saved_sources": {
       "status": "PASS",
@@ -63,8 +64,8 @@
     "rotation_stop": {
       "status": "PASS",
       "utf8_bytes": {
-        "STATUS.md": 22122,
-        "TRADE.md": 22486,
+        "STATUS.md": 22161,
+        "TRADE.md": 22590,
         "thesis/THESIS.md": 22501
       },
       "strict_stop_bytes": 22785
@@ -73,6 +74,14 @@
       "status": "PASS",
       "WQ386_exact_unchanged": true,
       "frame_breaker_state_exact_unchanged": true
+    },
+    "owner_acceptance_followup": {
+      "status": "PASS",
+      "read_at_utc": "2026-10-14T17:52:48.428952+00:00",
+      "owner_source_sha256": "461262a9e55f3abd729689edc80fecdd95ae93b30feb3b43dad746cd630990f8",
+      "source_observed_at": "2026-10-14T13:46:29.148805-04:00",
+      "L684": "ACCEPTED",
+      "numerical_holding_grade": false
     }
   },
   "runtime_checks": {

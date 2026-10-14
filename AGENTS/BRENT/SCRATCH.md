@@ -1,10 +1,10 @@
 # BRENT SCRATCH — October14,2026 — canonical file sweep
 
-**Handoff:** 2026-10-14 13:48 EDT. OpenAI Codex/GPT-6 family; exact variant/native session ID UNKNOWN; task /root. Explicit root/local boot reads at this session's earlier receipt; no helpers. Existing real-data vintages retain their dates.
+**Handoff:** 2026-10-14 13:54 EDT. OpenAI Codex/GPT-6 family; exact variant/native session ID UNKNOWN; task /root. Explicit root/local boot reads at this session's earlier receipt; no helpers. Existing real-data vintages retain their dates.
 
 ## CHANGES SINCE LAST SESSION
 - Will requested a TRADE/THESIS/other-file sweep; research/maintenance only, no capital authority. Latest secondaryOctober14 broker artifact re-read: USO37/VLO2/Oct14calls×2, no energy closing fill recorded. RawOctober14images/capture time/currentorders/subsequentoutcome UNKNOWN; rawOctober13images retain previous verification.
-- PROME docketL684 independently re-read: WQ420installation acceptance PENDING. Additional-VLO-share scopeD78 remains UNKNOWN. Will manages today's calls; no repeated prompt.
+- PROME L684 initiallypending, now independently ACCEPTEDOctober14 at13:46EDT; disposition/updated docket re-read and owned receipt saved. Additional-VLO-share scopeD78 remains UNKNOWN. Will manages today's calls; no repeated prompt.
 
 ## WHAT I DID THIS SESSION
 - Reconciled TRADE's stalev5.12/October12-only comparison, THESIS's old position-vintage reference, STATUS owner pointer/summary and demand composite. [Audit](audits/2026-10-14_consistency-sweep/REPORT.md) owns scope/checks; no fresh market/physical poll.
@@ -15,7 +15,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **October15:** execute prepared IEA Board / EIA WPSR noonEDT weekOctober9 read when actually published. First-published bytes/hash, quantity overlap and observation dates required. BRT31 first eligible week cannot by itself meet two-week condition; October2 outside window. Full letter governs. No automatic session/monitor promised.
-2. **October14/15 original VLO:** December basis begins under WQ386/420; TERRY grades and PROME completes existing independent acceptance. No rule automatically extended to extra share. Any prior established exit survives switch/missing source.
+2. **October14/15 original VLO:** December basis begins under WQ386/420; TERRY grades; PROME installation acceptance is now complete. No rule automatically extended to extra share. Any prior established exit survives switch/missing source.
 3. **October16:** COT#10 asofOctober13 about15:30ET; #9 already graded. Source403/stamp readiness remains. BRT30October26; DSTNovember1; next VLO basis reviewNovember18/19 remain registered.
 
 ## OPEN THREADS / WATCHES

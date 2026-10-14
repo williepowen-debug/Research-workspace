@@ -1,0 +1,15 @@
+{
+  "read_at_utc": "2026-10-14T17:52:48.428952+00:00",
+  "source": "PROME/reports/2026-10-14_TERRY-acceptance/disposition.json",
+  "source_sha256": "461262a9e55f3abd729689edc80fecdd95ae93b30feb3b43dad746cd630990f8",
+  "source_observed_at": "2026-10-14T13:46:29.148805-04:00",
+  "reviewer": "PROME / OpenAI Codex / root; independent of TERRY author",
+  "source_commit_at_read": "92ae2b8477d8c5062a3521b1dfc4d31e467126c3",
+  "WQ420_L684": {
+    "state": "INDEPENDENTLY VERIFIED",
+    "result": "ACCEPTED exact prospective insert at08158a2c4; three approved paragraphs match pinned31f9f3d1a/ruling5a8168f95 and remain in current card. Removing only insert and banner restores complete pre-encode card bytes. Thresholds, source hierarchy, tolerance, month switch, B1-B3, one-share scope and Will-only orders preserved. Decimal boundary counterexample94.998 <95 despite displayed95.00 reproduced. No numerical gate grade accepted by this wording review."
+  },
+  "docket_physical_line": 684,
+  "docket_row_at_read": "2026-10-14\tWQ-420 approved exact prospective VLO-HELD-01 precision/window wording; TERRY encode and PROME independent result read before 10/15.\tTERRY / PROME\tRESOLVED 2026-10-14 \u2014 PROME independent result ACCEPTED exact08158a2c4 insert against pinned31f9f3d1a/ruling5a8168f95; prior card bytes preserved, reviewer boundary counterexample passes. Evidence PROME/reports/2026-10-14_TERRY-acceptance/disposition.json. No historical regrade, new grade or second-share scope inferred.\tPROME/proposals/2026-10-11_wq418-420-RULED.md\tNo trade, historical regrade, new monitor or notice-band change; plan read already used.",
+  "boundary": "Owner independent installation acceptance, not a new numerical gate/holding grade, extra-share scope, trade, or publication/recipient-consumption proof."
+}

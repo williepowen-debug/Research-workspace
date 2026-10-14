@@ -10,7 +10,7 @@
 
 **Option screen October14 13:30 EDT:** leading research candidate USO Dec18 162/175 (65DTE); no owner card or capital approval. Vendor inputs/expiration arithmetic saved; material friction and price edge unproved. BNO has no60–90DTE expiry; refiner edge still missing. [Result](research/2026-10-14_energy-option-continuity/REPORT.md).
 
-**October14 file sweep:** trade/thesis spines, expression comparison and demand composite reconciled to saved evidence; no new market/physical/broker observation. Latest quantity confirmation is secondary October14 transcription; rawOctober13images independently checked. [Scope and checks](audits/2026-10-14_consistency-sweep/REPORT.md).
+**October14 file sweep:** trade/thesis spines, expression comparison and demand composite reconciled to saved evidence; no new market/physical/broker observation. Latest quantities secondaryOctober14; rawOctober13images checked. PROME now accepted VLOprecision installation; no holding grade/extra-share scope. [Scope and checks](audits/2026-10-14_consistency-sweep/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
