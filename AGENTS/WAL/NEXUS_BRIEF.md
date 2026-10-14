@@ -1,7 +1,7 @@
 # WAL — NEXUS Brief
 
-**Status:** October14 Will-authorized FFIEC continuation completed. Fresh access works; eight bank reports throughJune2026,70 fields and seven NDFI stress observations integrated. No demonstrated expectations gap. No score, valuation, prediction, frozen rule or trade changed.
-**As of:** 2026-10-14; final STATUS pin **`96ac1be9a31b301a59d55556881cc02cafdea5ce`**. This brief is the last desk write after that STATUS commit.
+**Status:** October14 post-analysis integration sweep completed. FFIEC history now connected to the Q3 worksheet, V3 evidence, countercase and FY2027 bridge; stale credential/retrieval-state prose repaired. Eight bank reports throughJune2026,70 fields and seven NDFI stress observations remain the evidence base. No demonstrated expectations gap. No score, valuation, prediction, frozen rule or trade changed.
+**As of:** 2026-10-14; final STATUS pin **`7d3c97d2559690cf23f44a0a2a19fccce634307d`**. This brief is the last desk write after that STATUS commit.
 **Domain:** Western Alliance Bancorporation issuer evidence/thesis/grading and WAL-specific legal depth. REGINALD owns funding/cohort/peers/severity; OZK owns its bank; TERRY/Will own position management. No helper or duplicate owner launched.
 **Thesis:** v2.4, compounder with concentrated CRE tail risk. Bear-fast2% / Bear-medium16% / Base45% / Bull30% / Tail7%; **EV$75.96 / PT$52-76**, V3=3/5 and composite13/25 unchanged. Canonical calibration →THESIS/SCENARIOS/frozenframes;234KBrows/20groups →workbook.
 **Positions:** →POSITIONS/FORGE. Latest Fidelity picture receivedOctober14 directly viewed; Will confirms fourWAL65PDec18-2026. AcquisitionOctober7/netdebit682.65 from accepted Activity; no gross fill inference. Exactpicture/marktimeUNKNOWN. Robinhood remainsSeptember29carry. Existing TERRYpositionnote/C5deadlineDecember16 unless Will asks sooner; no transfer of70Pguard/time stop.
@@ -12,6 +12,7 @@ Last weight re-mark August20 after MI3disconfirmation; V3re-score September28 un
 
 ## Current consumer delta
 
+- **Application sweep:** report `research/2026-10-14_FFIEC-integration-sweep.md` and numerical receipt. Eleven new descriptive rows bring the Q3 worksheet to32metrics; twelve FFIEC rows use NOT_RETRIEVED rather than asserting nondisclosure after HTTP500. Corrected obsolete credential prose; old V3/P1 pending-score material scoped as dated history underWQ324. Countercase and bank/parent/incremental-loss limits now beside the model/application. No new bands, recurring monitor or hypothesis grades.
 - **FFIEC primary history:** eight contiguous quarters Sep2024–Jun2026. NDFInonaccrual detail availableDec2024 onward:0.590/0.595/1.073/99.524/99.133/71.304/122.456M. June0.774%,+$51.152M/+71.74%QoQ. Episodic path, no borrower attribution or automatic loss/score inference. Older missingdetail isnotzero.
 - **Commitments/composition:** June fundedNDFI15.812B+unused4.884B=20.696Bcontractualface, not loss/RWA. Unusedbusiness commitments+17.44%QoQ. June→September2025business subtypejump offsets otherNDFI shrink; wholejump cannot be read as newaggregateexposure. Drawpressure/reclassification versus newlending remainsunresolved.
 - **Credit controls:** compliant modifications176.064→232.291M; combined reportedmodified balances340.310→333.771M. No loan-level cure/migration inference. June90+accruing1.285B includes1.223BrebookedGNMA, residual62.520M, not whollyunguaranteed. H1nonaccrualadditions234.493M/soldbalances0 are **June/December semiannual** fields, not quarterlymissingzero. NoOfficeclassified proxy or change to frozen denominators.
@@ -23,6 +24,8 @@ Last weight re-mark August20 after MI3disconfirmation; V3re-score September28 un
 ## SENDING
 
 Report `research/2026-10-14_FFIEC-deep-read.md`; metricsJSON/TSV/sourcehashes and8completeSDFs; validationreceipt andofflineextractionscripts. Exactpathcommit96ac1be9a includes ownedstate and self-authored `PROME/inbox/2026-10-14_from-WAL_FFIEC-history-completed.md` / `AGENTS/REGINALD/inbox/2026-10-14_from-WAL_FFIEC-history-primary.md`; outbox copies retained. Nativepresence/notification/recipientconsumptionUNKNOWN. No duplicate launch or newpeerstudy. Earlier completed source packets remain their datedrecords.
+
+Application/repair commit7d3c97d255 includes the sweep and self-authored `PROME/inbox/2026-10-14_from-WAL_FFIEC-integration-sweep.md`; earlier source packets remain the data delivery. No newREGINALDstudy or trade referral. Packetcopyverified; nativepresence/notification/consumptionstillUNKNOWN.
 
 ## WAITING-FOR
 
@@ -40,4 +43,6 @@ ExistingOctober19aftercloserelease/October20noonETcall, later10-Q/FFIEC. Gradeon
 
 Eightdate/RSSD/hashchecks;14NDFIsubtypeties and8CET1ties; freshMarch/Junebytesmatchprioracceptedoriginals. Q2NCO55.027M reproducesissuer55.0Matprintedprecision. Fourprotectedframes, predictionledger andSCENARIOSbytesUNCHANGED. Limitednamed-field/identitycheckerpasses; supersededKB175historicalphrase individuallyreviewed, existingOctober19reviewdeadlinepreserved. STATUSposition/funding/guardmirrors and0.1MworksheetAOCItypo repaired without numericalthesis/traderulechange. Sourcevalidationdoesnotcertifyeveryproseclaim orfutureoutcome.
 
-Research/state/deliverycommit96ac1be9a islocal. ThisbriefcommitfollowstheSTATUSpin. Rootpull/pushdeferredwhileforeignpathsaredirty; no GitHubsynchronizationclaimed. FreshSDFs areincludedintheexactpathcommit; olderignoredSEC/proxyoriginals keeptheirsourceportabilitylimits. Session remainsavailable toWill; nohelpersorbackgroundresearchrunning.
+The preceding verification paragraph records the original extraction. In this subsequent sweep,fiveframes/PREDICTIONS/KB/POSITIONS remainbyte-identical; SCENARIOSreceivedonlyanoutside-blockannotationanditsentireexistingvaluationblockremainsbyte-identical. Verified27worksheetdollaranchorsandNDFIrate;32uniquesix-columnrows,11newrows,12FFIECNOT_RETRIEVEDstates. Namedcurrentissues0/newhistoricalidentities0; selectedscopeonly. PREDICTIONSfreshnessintentionallyhelduntilregisteredQ3carriers;nograde/deadline/expirychanges.
+
+Research/data commit96ac1be9a and application/state/deliverycommit7d3c97d255 arelocal. ThisbriefcommitfollowsthefinalSTATUSpin. Rootpull/pushdeferredwhileforeignpathsaredirty; no GitHubsynchronizationclaimed. FreshSDFs areincludedintheearlierexactpathcommit; olderignoredSEC/proxyoriginals keeptheirsourceportabilitylimits. Session remainsavailable toWill; nohelpersorbackgroundresearchrunning.
