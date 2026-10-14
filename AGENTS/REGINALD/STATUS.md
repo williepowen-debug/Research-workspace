@@ -1,9 +1,10 @@
 # REGINALD STATUS
+**Noon boot/perspective,10/14:** `reports/2026-10-14_noon-boot-perspective.md`; fresh12:11ET monitoring7OK/1known CFG alert, dark-pool NO DATA; settled WAL/FLG and four FRED tiers rechecked through10/13. No new fire. Main question: same-bank new credit expense + weaker recurring earnings + costly funding replacement. June concentration judgment and existing Q3 frames unchanged; no demonstrated joint capital/valuation conclusion.
 **Will-directed compound-risk synthesis,10/14:** `reports/2026-10-14_compound-bank-risk-synthesis.md`;14-bank join/182 primary credit-cell checks. AMTB credit+book; FLG/EGBN/OZK collateral/earnings; CFG nonbank attribution; SBCF marks. AI-insurer contingent link verified, cohort AI/pension loss mapping UNKNOWN. June funding counterevidence retained; joint capital adequacy/valuation unresolved. Existing Q3 outcomes, scores and owner frames unchanged; KB223–225.
 **Approved bounded securities/funding screen,10/13:** `reports/2026-10-13_bounded-securities-funding-screen.md`;28 fresh Call Reports,14 matched bank equity denominators,11 duration disclosures. No20%-equity case under hypothetical60bp/D5; net exposures/Q3 outcomes unknown. AMTB/SBCF book-risk context; BKU duration counterevidence. Funding qualifiers retained; no specialist/TERRY launch, score or frozen-frame change. KB220–222.
 *Accepted October12–13 research/method/closeout carry blocks rotated verbatim → `archive/STATUS_securities-screen_rotation_2026-10-13.md`, crc32 `0e3cf992`. Existing Q3 expectations/outcomes and bank-research standard remain binding via MEMORY; research conclusions remain at their linked reports.*
 *OZK continuation + 10/11 WQ-419/WQ-414 prior-session record rotated verbatim for read-cap headroom → `archive/STATUS_rotation_2026-10-12.md` BLOCK T34, crc32 `6c8c5d6c`. Live obligations remain in MEMORY/CALENDAR; current RaDD overlay is in the policy/CRE review above.*
-**Last Updated:** 2026-10-14 Wed, Will-directed closeout/fresh boot; vendor quotes ~11:14 ET, settled WAL/FLG through10/13, FRED tiers through10/13. Accounting figures retain June/source vintages. Receipt → `reports/2026-10-14_closeout-and-reboot.md`; wider source packet retained for existing Q3 reads,KB226.
+**Last Updated:** 2026-10-14 Wed, Will-requested noon boot/perspective; vendor quotes12:11ET window, settled WAL/FLG and FRED tiers through10/13 rechecked. Accounting figures retain June/source vintages. Current receipt → `reports/2026-10-14_noon-boot-perspective.md`; earlier closeout → `reports/2026-10-14_closeout-and-reboot.md`; wider source packet retained for existing Q3 reads,KB226.
 
 > **Thesis state:** STATUS is thesis-canonical (THESIS retired 8/13). Older carry blocks → `archive/STATUS_rotation_2026-09-02.md` BLOCK N and `archive/STATUS_rotation_2026-09-24b.md`.
 
@@ -42,7 +43,7 @@
 
 > **Matrix detail (method notes, runway/reserve legs, per-bank narrative rows) → `STATUS_MATRIX.md` — COLD, on-demand, NOT a boot read; split verbatim 2026-09-24, crc-stamped.** Scores below are the live line; ⚠️ a `0` means clean on the scored channels only, not a clean bill of health. Method + full table → `BANK_EXPOSURE_MATRIX.md`.
 > **🔴 FLG 6** *(was LAST)* · **🟠 EGBN 5** · **🟠 AMTB 5** *(absent from v1 entirely)* · VLY 3 · **OZK/WAL/SSB/BKU/SBCF 2** *(WAL was 1st=)* · ZION/MTB/CUBI 1 · **CFG/HBAN 0** *(CFG was 3rd)*.
-> 🔴 **FLG price ladder `VX-REG-6.03` RED since 10/7** (band 3 $11.39 broken at **$11.30 [10/7]**; −20.6% vs FROZEN $14.24 at $11.31 [10/12]). **4 settled closes below RED through 10/12**; ladder exhausted (no band beyond RED). Packets PROME + FLG sent 10/7 (`018af9846`). Detector `scripts/vx_ladder_check.py` (exit-code fix `b6544d45d`; today's and NaN bars excluded via `scripts/settled_bars.py`, `8255c2d13`). Matrix score unchanged (price is not an input). *Prior text → BLOCK T21, crc32 `fc6e141e`.*
+> 🔴 **FLG price ladder `VX-REG-6.03` RED since 10/7** (band 3 $11.39 broken at **$11.30 [10/7]**; −21.3% vs FROZEN $14.24 at $11.21 [10/13]). **5 settled closes below RED through 10/13**, rechecked10/14 noon on Yahoo route; ladder exhausted (no band beyond RED). Packets PROME + FLG sent 10/7 (`018af9846`). Detector `scripts/vx_ladder_check.py` (exit-code fix `b6544d45d`; today's and NaN bars excluded via `scripts/settled_bars.py`, `8255c2d13`). Matrix score unchanged (price is not an input). *Prior text → BLOCK T21, crc32 `fc6e141e`.*
 
 
 
@@ -99,21 +100,21 @@
 
 ---
 
-## ⚠️ THRESHOLD STATUS (10/14 boot: quotes ~11:14 ET; WAL/FLG settled10/13,current-day excluded; FRED HY/CCC/B/BB10/13. Other rows retain stated vintages.)
+## ⚠️ THRESHOLD STATUS (10/14 noon boot: quotes12:11ET window; WAL/FLG settled10/13,current-day excluded; fresh FRED HY/CCC/B/BB10/13. Other rows retain stated vintages.)
 
 > *(→ BLOCK T30, `597017ec`)*
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
 | **FHLB advances** | **>$700B, sustain 3 official qtrs; exit <=$650B ×2** | **$810.7B** [6/30/26, FHLB Office of Finance PRIMARY; published 7/30] | 🟠 **`REG-T-06` official run 2 of 3; NOT FIRED. Consequence REVIEW (Will 10/11, WQ-414).** Q4-25 $677B reset; Q1-26 $734B; Q2-26 $810.7B. An official Q3 print >$700B completes REVIEW; 700.0 does not. **Before escalation: top-four growth contribution + qualified SEC-filer borrower median**, with source/endpoints/coverage; missing or incomparable inputs remain incomplete. No numerical breadth cutoff or automatic crisis inference. Nonpositive system growth: signed dollar changes, contribution share NOT-APPLICABLE. Revision/official-count rules → `registry/NOTES.md` §REG-T-06. **10/10 composition evidence:** identified four +$67.5B of +$136.2B par H1 growth (49.5%, incomplete disclosure); original 109-filer median 0%, includes PNC, misses several large banks and non-SEC members; 106-filer +$2.3B is a separate top-three-excluded dollar sum. **Q3 debt nowcast ~ $770B** [10/10 fit, preliminary OF debt through 9/30] does not grade the count. Evidence/caveats → `research/FHLB/README.md`. BOND's `VX-BND-18` gate unchanged. |
-| **WAL** | **<$78** | **$73.73** [Tue10/13 settled close,Yahoo+Nasdaq agree];$72.31 [10/14 ~11:14 ET intraday quote,NOT GRADED] | 🔴 `REG-T-02` FIRED(cycle2 since9/1);exit `0-of-3`,COUNTED from `registry/REG_T02_EXIT_LOG.tsv`(30 rows through10/13). Exit≥81.90×3;latest settled8.17 /9.98% short. Sub78 re-entry suppressed;Q3→CALENDAR. Guards RH ROLL70 only;no position action. |
-| KRE | <$60 | **$68.56** [10/14 ~11:14 ET vendor quote] | 🟡 `REG-T-01` UN-FIRED;quote8.56 above line. Intraday,not settled;positions/TERRY card unchanged. |
+| **WAL** | **<$78** | **$73.73** [Tue10/13 settled close,Yahoo+Nasdaq agree,rechecked10/14 noon];$72.14 [10/14 12:11ET boot-window intraday quote,NOT GRADED] | 🔴 `REG-T-02` FIRED(cycle2 since9/1);exit `0-of-3`,COUNTED from `registry/REG_T02_EXIT_LOG.tsv`(30 rows through10/13). Exit≥81.90×3;latest settled8.17 /9.98% short. Sub78 re-entry suppressed;Q3→CALENDAR. Guards RH ROLL70 only;no position action. |
+| KRE | <$60 | **$68.67** [10/14 12:11ET boot-window vendor quote] | 🟡 `REG-T-01` UN-FIRED;quote8.67 above line. Intraday,not settled;positions/TERRY card unchanged. |
 | HY OAS | >320 (`REG-T-03`) · >350 (`REG-T-04`) | **316bps** [FRED BAMLH0A0HYM2,10/13];311 [10/12] | 🟡 `REG-T-03` 0-of-3 through10/13;last five observed closes≤320;4bp under320. No new fire;bank-credit attribution required. |
 | **CCC/HY ratio** | >3.6× (3 consec) | **4.009×** [CCC1267 /HY316,FRED10/13];4.029× [10/12] | 🔴 HARD-FIRE continues;no new CCC-led re-cross or re-escalation. CCC+14bp/HY+5bp on10/13;ratio declined. B317 /BB191 [10/13];B below ORANGE330. LIQUID/RED own tail judgment. |
 | Claims | >300K | **197K** [FRED ICSA w/e **10/3**, API pull 10/9 20:4x ET; next print Thu 10/15] | 🟢 **103K of buffer.** w/e 9/26 **revised 197 → 199K**. Prior chain 198 [9/12] · 198 [9/19, revised from 197] · 197 [9/26, first print]. Sept payrolls +29K, net revisions −60K, U-3 4.2% (WALTER -20261002-001; LABOR's kill did NOT fire). LABOR owns the read. |
-| VIX | n/a | **15.75** [10/14 ~11:14 ET vendor quote] | 🟡 Intraday quote;no new volatility grade. |
+| VIX | n/a | **16.15** [10/14 12:11ET boot-window vendor quote] | 🟡 Intraday quote;no new volatility grade. |
 | Brent | n/a | **`BZ=F` $104.43** [10/9 vendor read; contract month not re-checked]; $101.46 [10/7] | 🟠 Not re-read on a named contract. HAWK/BRENT/FALCON own the level and the verdict (BRENT settle-window proxies, HEARTBEAT §1). |
-| 10Y UST | n/a | **5.26%** [^TNX10/14 ~11:14 ET vendor quote];last separately verified FRED DGS10 **5.22 [10/8]** | 🔴 Rate context;vendor quote is not a new official FRED vintage. BOND owns curve interpretation. |
+| 10Y UST | n/a | **5.25%** [^TNX10/14 12:11ET boot-window vendor quote];last separately verified FRED DGS10 **5.22 [10/8]** | 🔴 Rate context;vendor quote is not a new official FRED vintage. BOND owns curve interpretation. |
 | **30Y UST** | n/a | **5.60%** [FRED DGS30 **10/8**]; 5.67 [10/7], 5.64 [10/6] | 🔴 Above every September print (5.49 [9/25]); BOND: 30Y real 3.34 = cycle high [10/2 official]. ⛔ BOND owns the series and the high-water claim. |
 | **Funding plumbing** | *(`REG-T-08` SOFR−IORB >+15 ×3)* | SOFR−IORB **−3bp** [3.87 − 3.90, **10/8**, WALTER] · RRP **$2.338B** [**10/7**] · **Discount window primary credit $9.965B [Wed 10/7] / $7.701B wk avg** (H.4.1 via WALTER -20261008-049; highest Wednesday since ≥Jan 2024; no registered line; borrowers not named) | 🟢 15bp under `REG-T-08`; quarter-end passed without pressure (−3bp [10/1]). LIQUID owns the structural read. |
 | **Financial stress** | *(no registered line)* | **STLFSI4 −0.468** · **NFCI −0.494** [both **10/2**] | 🟡 **STLFSI4 tightened +0.34 in one week (−0.809 [9/25] → −0.468)**, the HY-over-320 week; still on the loose side of zero. NFCI barely moved (−0.510 → −0.494). **Not systemic stress; the direction changed.** |
@@ -125,6 +126,8 @@
 ---
 
 ## BOTTOM LINE
+
+**2026-10-14 noon perspective:** June evidence still supports concentrated severity. Existing Q3 reads must test new credit expense against recurring earnings and contemporaneous funding at the same institution. OZK's executed RaDD extension/new capital weakens imminent maturity failure; retained exposure persists. WAL's owner finds no demonstrated expectations gap. October15–16 funding prints can challenge June counterevidence; current joint capital adequacy and mispricing remain unresolved. Detail → `reports/2026-10-14_noon-boot-perspective.md`.
 
 **2026-10-09 (Q3 read plan, Will-asked; `reports/2026-10-09_Q3_earnings_read_plan.md`):**
 - **Still CONCENTRATED on 6/30 evidence:** named banks with named mechanisms. Total-CRE bad-loan rate down year on year (2.46 → 2.23%). No cheap-deposit flight at 6/30.

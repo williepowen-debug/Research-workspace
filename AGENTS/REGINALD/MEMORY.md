@@ -19,8 +19,8 @@
 
 ## Session Notes
 
-### CURRENT RESULT — 2026-10-14, closeout and fresh operational boot
-Research already synced; workbook16-TSV schema audit passes. Five VX observations and eligible settled WAL exit row refreshed; frozen-feed writers repaired and five frozen TSVs byte-unchanged. New PROME source packet loggedKB226 for existing Q3 reads, no repeat study. Reboot network retry:7OK/1known filingALERT; no new registered fire. Receipt/report `reports/2026-10-14_closeout-and-reboot.md`; prices/grades→STATUS. October14 PROME broker mirror checked: known-owned Fidelity quantities unchanged,no bank-put fill; KRE67P×4 Nov27 ownership/card unresolved(D-77); Robinhood still9/29 vintage. No new trade.
+### CURRENT RESULT — 2026-10-14, noon boot/perspective; earlier closeout retained
+Will-requested key-file catch-up and fresh12:11ET monitoring completed:7OK/1known CFG alert,dark-pool NO DATA; four FRED tiers/settled WAL+FLG rechecked,no new fire or eligible WAL row. Perspective/verification→`reports/2026-10-14_noon-boot-perspective.md`; existing Q3 outcomes remain the next work, no repeat study/new monitor/trade. Earlier closeout `reports/2026-10-14_closeout-and-reboot.md` retains16-TSV audit,five VX updates/frozen-feed repair,KB226 and October14 broker-mirror check: known-owned Fidelity quantities unchanged,no bank-put fill; KRE67P×4 Nov27 ownership/card unresolved(D-77); Robinhood still9/29 vintage. Other desks' dirty work defers pull; explicit owned publication only.
 ### PRIOR RESULT — 2026-10-14, Will-directed compound-risk integration
 Completed `reports/2026-10-14_compound-bank-risk-synthesis.md`;14-bank same-RSSD join,182 credit cells checked against October13 primary originals, fresh Athene guarantee and US Courts verification. KB223–225. June institutional overlaps identified; AI/pension bank allocations, October funding and joint loss/valuation unresolved. Append outcomes at existing Q3 reads; no new monitor, score, specialist or trade. Peer files read only; no external send.
 
@@ -32,7 +32,7 @@ Completed `reports/2026-10-14_compound-bank-risk-synthesis.md`;14-bank same-RSSD
 *Prior open question/WQ414–419 continuity preserved verbatim → `archive/MEMORY_compound-risk_rotation_2026-10-14.md`, crc32 `5286dff8`. Re-check at any append.*
 
 ### CHANGES SINCE LAST SESSION
-Fresh11:14ET boot observations and October13 settled/spread updates are at STATUS/VX and the reboot receipt; no new registered fire. Quarterly evidence retains its observation dates.
+Fresh12:11ET boot-window quotes and recheckedOctober13 settled/FRED observations are at STATUS/VX and the noon receipt; no new registered fire. Quarterly evidence retains its observation dates; no synchronized tape-causality or current capital-adequacy claim.
 ### NEXT SESSION
 Research closeout is complete; resume existing Q3 outcomes and the logged PROME source additions, with no repeat screen/new monitor. At existing Q3 reads, append outcomes to October14 compound-risk expectations (§8), alongside the October13 judgments; distinguish loan losses, funding expense and OCI without double counting.
 At existing AMTB/SBCF/BKU Q3 reads, append outcomes to the unscored October13 securities-screen expectations (§5); do not rewrite the September24 scenarios or frozen Q3 grading rules. Reconcile actual securities/hedges, funding, taxes and parent equity before upgrading a sensitivity to a forecast. Three missing numerical durations (WAL/FLG/VLY) remain evidence gaps; no new retrieval schedule.
@@ -51,7 +51,7 @@ At existing AMTB/SBCF/BKU Q3 reads, append outcomes to the unscored October13 se
 - **11/07 = planned Call Report retrieval; check completeness FIRST.**
 - **Update the §0 judgment only on L180 BROADER or FL-rail TRANSMISSION.**
 - **CUBI / FLG dates:** update the CALENDAR earnings table when announced. The countdown reads it, and FLG's T-03 looks 10/16.
-**🔴 0a. WAL exit grading:** 10/12 GRADED 10/13 (row29,0-of-3). Grade **10/13 onward** from settled bars (`scripts/settled_bars.py WAL`: two routes, today's bar excluded). Count from `registry/REG_T02_EXIT_LOG.tsv` (29 rows through10/12,0-of-3). 2-of-3 → packet TERRY.
+**🔴 0a. WAL exit grading:** October13 already graded and rechecked10/14 noon; latest run/count→`registry/REG_T02_EXIT_LOG.tsv`. Grade **10/14 onward once eligible** from settled bars (`scripts/settled_bars.py WAL`: two routes, today's bar excluded); never duplicate an existing date. 2-of-3 → packet TERRY.
 **🔴 0a-NEW. Tier test each boot:** FRED HY/CCC/B/BB. ⚠️ The cache-busted CSV route FAILED 10/9 (HTTP/2 error / timeout), so the API route (`fetch.py fred`) was used. If HY prints >320 again, START the REG-T-03 count and run the bank-credit cross-check.
 **🟢 0-DAEDALUS. DONE 10/10 (Will go-ahead):** REG-03/06/07 instruments named (REG-07 grades on the CHANGE in SSB NPL/loans vs 0.62% base, since its level reading was true at birth; **flagged to Will before 10/21**) · F#4 wording fixes (registry token `V1V3-ACCELERATE` rename DEFERRED, WALTER reads it) · wiring ⑰ VX re-cut · stale tables (VX 27 STALE, FLOW frozen, AOCI/FUNDING FROZEN-VINTAGE, KB +3).
 **🟡 0-LIMB. L180's "new foreclosure build" is unquantified.** Read literally (any QoQ rise), WAL met it at Q2 (+2.3%). Print the size beside every grade. A floor is Will's rule to make; don't add one.
