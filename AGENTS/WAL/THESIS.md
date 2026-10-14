@@ -4,6 +4,8 @@
 
 ---
 
+**Dated evidence addition — October14 2026 (no numerical re-mark):** fresh FFIEC bank reports now measure seven NDFI nonaccrual observations from December2024 throughJune2026, including99.524M→99.133M→71.304M→122.456M over the latest four quarters. The old single-observation limitation is superseded by KB230; losses/borrower attribution and persistent acceleration are not established. Mortgage bank income fell QoQ despite greater sales, but rose YoY; modification populations are mixed and bank capital ratios remain measured on the bank basis. See `research/2026-10-14_FFIEC-deep-read.md`. This updates evidence only: V3=3/5, composite13/25, weights/EV/PT/frozen grades unchanged. Any score interpretation is separate; no retrospective grading or new criterion is imposed. The dated August rationale below remains its original record.
+
 ## CORE THESIS (v2.4 — post-MI3-disconfirmation re-mark) ★ CURRENT
 
 **Version:** v2.4 · **Dated:** 2026-08-20 · **Framing UNCHANGED:** "compounder with concentrated CRE tail risk."

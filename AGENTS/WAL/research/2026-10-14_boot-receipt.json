@@ -1,0 +1,120 @@
+{
+  "observed_at": "2026-10-14T11:54:58.597509-04:00",
+  "task": "Will requested WAL boot and current-file/data review; session remains available for further direction",
+  "operator_stated_time": "2026-10-14 23:52 ET",
+  "clock_note": "Host clock reports approximately 11:5x AM ET on October14; PM in operator greeting differs. No time-dependent grade or action inferred.",
+  "desk": "WAL",
+  "runtime": "Codex",
+  "provider": "OpenAI",
+  "model_family": "GPT-6",
+  "exact_model_variant": "UNKNOWN",
+  "session_id": "UNKNOWN",
+  "repository_root": "/home/willi/Research-workspace",
+  "instruction_loading": {
+    "explicit_root_reads": [
+      "CLAUDE.md",
+      "AGENTS.md",
+      "USER.md",
+      "PROME/COMPLETION_SPEC.md"
+    ],
+    "explicit_local_reads": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "runtime_mechanics": "PROME/ORCHESTRATION_PLAYBOOK.md#Runtime mechanics"
+  },
+  "capabilities": {
+    "execution": "exec_command exposed and verified",
+    "filesystem": "WAL and /tmp writable; repository elsewhere read-only under current sandbox",
+    "web": "exposed, unused for this file-review boot",
+    "fleet_presence": "UNKNOWN",
+    "native_peer_transport": "UNKNOWN",
+    "recipient_consumption": "UNKNOWN",
+    "helpers_launched": 0
+  },
+  "reviewed_current_surfaces": [
+    "STATUS.md",
+    "MEMORY.md",
+    "INDEX.md",
+    "POSITIONS.md",
+    "REGINALD_CHANNEL.md top",
+    "THESIS.md header/current thesis/MI3 calibration",
+    "CHANGELOG.md latest entries",
+    "SCENARIOS.md current valuation block",
+    "WEAKNESSES.md",
+    "NEXUS_BRIEF.md",
+    "workbook/KB_INDEX.md",
+    "workbook/PREDICTIONS.tsv",
+    "FRAUD/FIRST_BRANDS.md live fold",
+    "FRAUD/STUPIN_CRE.md live fold",
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md",
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md",
+    "sources/SOURCE_RECOVERY.md",
+    "sources/housekeeping_2026-10-14/repair_validation_receipt.json",
+    "research/2026-10-14_FY2027-earnings-bridge.md",
+    "research/2026-10-14_Q3-earnings-quality-credit-read.md",
+    "research/2026-10-14_Ontario-FDIC-docket-followup.md",
+    "research/2026-10-14_Barclays-primary-guidance-verification.md",
+    "research/2026-10-13_securities-hedges-rate-model-reconciliation.md selected sections",
+    "FORGE/STATUS.md WAL rows and source header",
+    "PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md WAL rows/source header",
+    "PROME/ROSTER.md WAL row"
+  ],
+  "boot_checks": {
+    "ledger_staleness": "PREDICTIONS.tsv +55d behind STATUS, held attention16d; inspected both open rows and frozen carrier annotations; no due-date/grade edit warranted for this boot",
+    "trade_staleness": "rc0, no stale surface warning",
+    "KB_expiry": "rc0, quiet output empty",
+    "derived_drift": "rc0, selected checks pass;14/62 reviewed-pattern hits,7 cleared; scope limited",
+    "predictions_due": "rc0, quiet output empty",
+    "corrections": "rc0,0 unreceipted NAMED;1 expired ALL broadcast informational only",
+    "inbox_unprocessed": 0,
+    "WALTER_unprocessed": 0,
+    "KB_rows": 229,
+    "KB_groups": 20
+  },
+  "current_situation": {
+    "thesis": "v2.4 compounder with concentrated CRE tail risk; no demonstrated expectations gap in October13/14 research",
+    "canonical_EV": 75.96,
+    "weights_percent": [
+      2,
+      16,
+      45,
+      30,
+      7
+    ],
+    "composite": "13/25; V3=3/5 mixed/untested",
+    "next_registered_carriers": "October19 after-close release/deck; October20 noonET call; later Q3 10-Q and separate Q3 FFIEC",
+    "decisive_credit_unknown": "$99M life-science appraisal/disposition; silence is not benign",
+    "earnings_bridge": "Conditional Q2 gain screen~8.98 annualEPS;~11 needs+67.3Mpretax/quarter;~8 needs-32.7M; not forecasts or market beliefs",
+    "Ontario": "FDIC-retained branch docket-evidenced at October2 Doc100; no current-title/recovery/stay ruling proof;other3 liens unresolved",
+    "positions": "Dec18 Fidelity65P x4,October13 accepted source;Robinhood70P x1,September29 carried source;70P guard/time stop do not transfer",
+    "operator_dependencies": "Moreno Valley recorder/APN evidence;desktop FFIEC renewal/availability,recorded expiryNovember5;October13 response preserved,no repeated ask",
+    "other_source_limits": "Substantive Barclays guidance remains secondary;vendor EPS basis/update dates unknown;ignored original source files not Git backups"
+  },
+  "market_data": "No quote refresh or live price claim made. Last saved quote/consensus is October13; refresh before any current-price decision.",
+  "preservation": {
+    "Q2_GRADING_FRAME_2026-07-21.md": {
+      "sha256": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc",
+      "matches_accepted_receipt": true
+    },
+    "PREPRINT_RECON_2026-07-17.md": {
+      "sha256": "12757b40be6dc95d6c52da5da207c919253542298415693e1d34153dbd16ce41",
+      "matches_accepted_receipt": true
+    },
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": {
+      "sha256": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+      "matches_accepted_receipt": true
+    },
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": {
+      "sha256": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880",
+      "matches_accepted_receipt": true
+    },
+    "workbook/PREDICTIONS.tsv": {
+      "sha256": "bf38f3ec164220445e09392e6942f1efecc0dd5725538ddef2334063341e6ddb",
+      "matches_accepted_receipt": true
+    }
+  },
+  "git": "Foreign dirty paths present; master ahead10 of local origin tracking ref at boot, remote not freshly checked. Pull/push deferred under root rule. Boot receipt saved locally; commit at session closeout remains pending. No research/prediction/status/position/rule files changed.",
+  "delivery": "Local boot receipt only; no external send, coordinator packet, peer notification or acknowledgment claimed",
+  "new_operator_decisions": "None"
+}

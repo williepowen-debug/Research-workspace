@@ -1,0 +1,112 @@
+{
+  "observed_at": "2026-10-14T11:59:18.928423-04:00",
+  "task": "Will asks how last night work sits; owed/broken/incomplete/coverage-gap review",
+  "scope": "Owner-file review and targeted saved-primary verification, not a fresh news/SEC/docket sweep or trade recommendation",
+  "judgment": "Last bounded assignments delivered; Q3 preparation ready. No demonstrated expectations gap. Residual mirror errors, unverified coordinator integration and material source/coverage gaps remain.",
+  "complete": [
+    "June securities/hedges and model-definition reconciliation; REGINALD funding integration consumed",
+    "Bounded expectations/valuation note and conditional FY2027 component bridge",
+    "Prepared Q3 earnings/capital/credit worksheet and preregistered print/10-Q frames",
+    "Ontario Doc100 H1/H10 hearing consumption; Ontario B1 docket-evidenced only",
+    "OZK executed-extension and REGINALD bid-summary integration; September30 FINRA refresh; prior housekeeping"
+  ],
+  "verified_defects": [
+    {
+      "owner": "WAL",
+      "path": "STATUS.md:49",
+      "issue": "Fidelity65P acquisition date/price/card UNKNOWN conflates resolved acquisition/date/netdebit with unknown gross execution price/card",
+      "evidence": "POSITIONS.md:3,13 and accepted October13 Activity row22 establish October7/$682.65 netdebit",
+      "impact": "Can repeat answered asks; no holdings or trade rule change needed"
+    },
+    {
+      "owner": "WAL",
+      "path": "STATUS.md:120",
+      "issue": "Exit-guard row still cites September28 and last owner readSeptember25",
+      "evidence": "REGINALD/registry/REG_T02_EXIT_LOG.tsv now throughOctober13 with0-of3; gate mirror throughOctober9",
+      "impact": "Current grade remains0-of3; stale consumption date, not a failed owner monitor"
+    },
+    {
+      "owner": "WAL",
+      "path": "research/2026-10-14_Q3-evidence-worksheet.tsv:12",
+      "issue": "AOCI opening anchor -451.1M should be -451.2M",
+      "evidence": "Direct saved Q2 fullprimary HTML tables16/17/67 and accepted October13 extract/report",
+      "impact": "0.1M transcription error; prepared actuals remainNOT_YET_DISCLOSED; no valuation/grade effect"
+    },
+    {
+      "owner": "WAL",
+      "path": "STATUS.md:132",
+      "issue": "Expected-signals funding row still reads baseline deliverbyOctober9, while top rate section/MEMORY and REGINALDreport record completed integration",
+      "evidence": "REGINALD/reports/2026-10-13_WAL_rate-funding-reconciliation.md;31c02fd74;REGINALD_CHANNEL acknowledgment",
+      "impact": "Can trigger duplicate research if read alone; preserve owner pointer instead"
+    }
+  ],
+  "coordination_and_persistence": [
+    {
+      "issue": "PROME/DOCKET.tsv L517 remainsPENDING September29 hearing while WAL delivered boundedDoc100H1/H10 result",
+      "evidence": "PROME/inbox/2026-10-14_from-WAL_authorized-research-followups.md; WAL owner notes andKB227",
+      "limit": "Registrar acknowledgment/disposition unverified; local delivery is not consumption. Later court-order gaps still open."
+    },
+    {
+      "issue": "NanoP&A L516 remainsPENDING, check-byOctober13; last saved source checks unposted",
+      "limit": "REGINALD/DEWEY-owned follow-up; no fresh current posting assertion, no duplicate WALstudy"
+    },
+    {
+      "issue": "Pull/push deferred for foreign dirty paths; boot/review local receipts uncommitted until sessioncloseout",
+      "limit": "Research commits exist locally; GitHub synchronization not newly verified"
+    }
+  ],
+  "material_coverage_gaps": [
+    {
+      "priority": 1,
+      "gap": "No matched analystFY2027 component model/GAAP-adjusted EPS basis/update dates; no evidence of persistent earnings shortfall versus expectedgrowth",
+      "why": "Conditional~11/~8 paths quantify needed economics but do not establish likelihood or mispricing; required-return/growth assumptions materially change valuation"
+    },
+    {
+      "priority": 2,
+      "gap": "99Mbuilding/property/APN and actual appraisal/tenant/carrying-reserve outcome unknown",
+      "why": "Sector life-science vacancy evidence cannot establish this collateral value; benign outcome cuts against bear"
+    },
+    {
+      "priority": 3,
+      "gap": "Barclays substantive primary guidance blocked by registration; exact event/replay verified only",
+      "why": "Benchmark secondary provenance survives through actual-result comparison"
+    },
+    {
+      "priority": 4,
+      "gap": "Actual September hedge-adjusted marks, earnings-credit/funding remix, capitalretention unknown",
+      "why": "June model/aggregate hedge notional cannot supply actualQ3; existing release/call/10-Q resolve; funding remainsREGINALD-owned"
+    },
+    {
+      "priority": 5,
+      "gap": "Ontario laterorders/currentstay/title/value and3otherNano liens unknown; NYSCEFcaseids/remand/receivercashrecoveries lack completed current reads",
+      "why": "OntarioB1 is a narrow dated state finding, not clearingprice/recovery or all-lienownership"
+    },
+    {
+      "priority": 6,
+      "gap": "Hotel collateral versus originatingbusinessline crosswalk and hotel-specificmaturities undisclosed; NDFIstress trajectory onlyonequarter",
+      "why": "Clean HFF does not cover allhotelcollateral; growingNDFIexposure is not provencreditloss"
+    },
+    {
+      "priority": 7,
+      "gap": "Sourcecache portability incomplete and Robinhoodholding freshness remainsSeptember29",
+      "why": "Ignored originals are not Gitbackups; source/holdings freshness cannot be inferred from a recentmaintenance timestamp"
+    }
+  ],
+  "existing_owed_work": [
+    "Refresh timestamped quote/consensus and available basis metadata immediatelybeforeOctober19release; retain vendorpanel differences",
+    "Registered weeklyappraisal8-K and monthlyForm4+144 coverage: no located receipt of a complete postSeptember24 pairedinsider sweep in currentrecords; boundedcatchup would close that coverage interval, not prove an event occurred",
+    "October19release/October20call then10-Q grades, including explicitPREDICTIONS.tsvleg; preparedworksheetactuals correctlypending",
+    "Q3 FFIEC quarter-matched MI3/NDFI nonaccrual/RC-R; confirmdesktopcredentialavailability beforepull; WQ31already schedules renewalaroundNovember1 beforeNovember5expiry",
+    "TERRY/Will WAL65Pcard onlyifaskedearlier orbyDecember16 underexistingC5note; no overduecardinferred"
+  ],
+  "not_broken": [
+    "No overdueprediction",
+    "No unreceiptedNAMEDcorrection",
+    "Current limited maintenancechecker0namedissues/0newidentities; doesnotcoveraboveprosemirrors/worksheet",
+    "REGINALDexitlog currentthroughOctober13",
+    "Fourfrozenframes/predictionspreservedatboot"
+  ],
+  "recommended_direction": "First repair bounded owner narrative/worksheet drift and reconcile existing completion at registrar. Next use a bounded preprint evidence/basis refresh focused on earnings durability and known source gaps; preserve frozenframes and avoid repeatfunding study. Missing external actuals stayunknown untilregisteredcarriers.",
+  "changes": "This review artifact only; canonical research/state/grades/positions/rules not changed; no messages sent or helpers launched",
+  "new_Will_decisions": "None required to understand this assessment; no new researchcommission or trade proposed"
+}

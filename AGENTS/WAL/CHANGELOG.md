@@ -1,5 +1,9 @@
 # WAL THESIS — CHANGELOG
 
+## 2026-10-14 — fresh FFIEC history, evidence correction only; v2.4 unchanged
+
+Eight bank reports retrieved,70 named fields extracted. Seven NDFI nonaccrual observations replace the one-quarter limitation and secondary tier in KB175; KB230-234 own fresh credit/commitment/mortgage/capital evidence. Evidence addition in THESIS is separately dated; every weight, range, EV, PT, score, registered condition and prediction grade is preserved. NDFI history is episodic; a separate score interpretation may use it, but this extraction does not regrade. Report `research/2026-10-14_FFIEC-deep-read.md`.
+
 ## 2026-10-14 — housekeeping evidence integration; v2.4 unchanged
 
 OZK peer carrier corrected to executedOctober9 extension disclosedOctober12; primary source/hash verified. Fresh capital is sponsor support; redraw, as-stabilized appraisal and missing recognition limits retained. No WAL test graded and no thesis framework, weights, targets, thresholds or trade rule changed. THESIS dated source annotation only. Historical scenario/option records archived verbatim; current v2.4 valuation block preserved exactly.

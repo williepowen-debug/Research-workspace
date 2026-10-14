@@ -750,6 +750,21 @@
       "token": "200-row",
       "anchor": "| 13 | INDEX.md:51 | \"`workbook/KB.tsv` + `KB_INDEX.md` \\| **200-row** evidence base \u2026 **13F + share-count correction 199-200**)\" | KB = **209** (`awk -F'\\t' '/^KB-WAL-/' workbook/KB.tsv \\| wc -l` \u2192 2",
       "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "861ca8daa6a8fa4249c8e805df29bdf42e8047619da3f5383afcaac153dbccd5",
+      "kind": "retired",
+      "path": "workbook/KB.tsv",
+      "line": 178,
+      "token": "no trajectory pulled",
+      "anchor": "KB-WAL-175\t2026-08-20\tNDFI\tNDFI_Nonaccrual_122M_First_Ever_Figure\t\u2605 FIRST-EVER NDFI NONACCRUAL FIGURE FOR WAL: $122,456K = 0.77% of the NDFI book, at 6/30/2026. FFIEC Call Report RC-N item 7, MDRM RCO"
+    }
+  ],
+  "dated_reviews": [
+    {
+      "date": "2026-10-14",
+      "identity": "861ca8daa6a8fa4249c8e805df29bdf42e8047619da3f5383afcaac153dbccd5",
+      "reason": "Superseded KB175 retains its original historical one-quarter wording; fresh KB230 replaces current coverage/tier. No live assertion accepted; existing review_by unchanged."
     }
   ]
 }

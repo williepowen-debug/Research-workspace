@@ -1,0 +1,32 @@
+{
+  "task": "Will-authorized FFIEC deep read",
+  "source_manifest": "research/2026-10-14_FFIEC-metrics.json#sources",
+  "retrieved_quarters": 8,
+  "NDFI_detail_observations": 7,
+  "named_fields": 70,
+  "supporting_schedule_rows": 8702,
+  "reconciliation_checks": 22,
+  "KB_rows": 234,
+  "KB_groups": 20,
+  "frozen_predictions_scenarios_SHA256": {
+    "Q2_GRADING_FRAME_2026-07-21.md": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc",
+    "PREPRINT_RECON_2026-07-17.md": "12757b40be6dc95d6c52da5da207c919253542298415693e1d34153dbd16ce41",
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880",
+    "workbook/PREDICTIONS.tsv": "bf38f3ec164220445e09392e6942f1efecc0dd5725538ddef2334063341e6ddb",
+    "SCENARIOS.md": "61fdde35ba276daf2590eba1def3c4252bc6a941ad399ef86b695becf0ea8a91"
+  },
+  "preservation": "All listed bytes unchanged; V3=3/5,composite13/25,weights2/16/45/30/7,EV75.96,PT52-76 and registered criteria preserved. THESIS dated evidence addition only.",
+  "limited_checker": "0namedissues,0newhistoricalidentities after reviewing supersededKB175 historical phrase; existingreview_byOctober19unchanged",
+  "source_validation": "Each response date/RSSD/uniquecodes verified; freshMarch/June match accepted originals byteforbyte. Q2NCO55.027M matches55.0M at issuer precision.",
+  "access": "Curl authenticated successfully; urllib403 didnotestablishcredentialexpiry;Q3HTTP500notfilingabsence",
+  "data_clock": "ActualnewFFIECretrievalOctober14; observationdatesSep2024-Jun2026; noQ3/marketquote/holdingsmarks fabricated",
+  "broker": "October14Fidelitypicture visuallyread;4WAL65PDec18-2026 confirmedbyWill;Robinhoodnotrefreshed",
+  "delivery_paths": [
+    "PROME/inbox/2026-10-14_from-WAL_FFIEC-history-completed.md",
+    "AGENTS/REGINALD/inbox/2026-10-14_from-WAL_FFIEC-history-primary.md"
+  ],
+  "delivery_scope": "Self-authored informational packets; nativepresence/consumptionUNKNOWN; no launches,newstudyormonitor",
+  "git": "Exactpathcommit follows this receipt; finalNEXUSwrite/pin afterSTATUScommit; pushdeferredwhileforeignpathsdirty",
+  "remaining": "No demonstratedexpectationsgap; loanattribution/parentmortgagebridge/Q3actuals unresolved; separateV3interpretation notperformed"
+}

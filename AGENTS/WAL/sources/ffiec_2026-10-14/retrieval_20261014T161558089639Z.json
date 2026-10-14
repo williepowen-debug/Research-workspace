@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "period": "2024-09-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:50.443459+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2024-09-30.sdf",
+      "rows": 1701,
+      "bytes": 175870,
+      "sha256": "6a695e6f1c0402cf1e87ca332d1970a08d2fec44662841f723a068b374cbb5a1"
+    },
+    {
+      "period": "2024-12-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:51.729400+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2024-12-31.sdf",
+      "rows": 1747,
+      "bytes": 181480,
+      "sha256": "10b92d555526274394f0172e7e325f843a96c51cf414a22b6fd21b01416769e4"
+    },
+    {
+      "period": "2025-03-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:52.885518+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-03-31.sdf",
+      "rows": 1719,
+      "bytes": 177691,
+      "sha256": "b6a6587be4503b6d6a7926cd43024ab7c6c4c7a81f759e1d1a4fd9eecc9ee44a"
+    },
+    {
+      "period": "2025-06-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:54.178164+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-06-30.sdf",
+      "rows": 1826,
+      "bytes": 186494,
+      "sha256": "b6913e2ef3d7e4bf9deb07196098534d3d850fa5b95fb2cf2f875789b187346b"
+    },
+    {
+      "period": "2025-09-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:55.323894+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-09-30.sdf",
+      "rows": 1806,
+      "bytes": 184457,
+      "sha256": "822f32c2120cf33c50dc5eccd3ecaf54d2b04c237139868662604ee6db63c4c6"
+    },
+    {
+      "period": "2025-12-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:56.573173+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-12-31.sdf",
+      "rows": 1826,
+      "bytes": 187606,
+      "sha256": "7cc35e3b7402dbcc499bfb1f937b878aa5f87dd6b550199e1131a22066755339"
+    },
+    {
+      "period": "2026-03-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:57.758192+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2026-03-31.sdf",
+      "rows": 1795,
+      "bytes": 183131,
+      "sha256": "8f051cbe7742e91fbb14a1ffd157c8163c68c7183e2c1e456dcfdcdaaf64c359"
+    },
+    {
+      "period": "2026-09-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:58.924097+00:00",
+      "transport": "curl",
+      "http_status": 500,
+      "status": "HTTP_ERROR"
+    }
+  ]
+}

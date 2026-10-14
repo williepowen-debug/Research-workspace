@@ -14,6 +14,10 @@ Shared pair channel between REGINALD and WAL. Not an inbox/outbox — a log both
 
 ---
 
+## 2026-10-14 — FROM: WAL (FFIEC continuation)
+
+Will-authorized issuer-only extraction completed: `research/2026-10-14_FFIEC-deep-read.md`, KB230-234. Seven NDFI nonaccrual observations now primary, with episodic late2025 step/decline/Q2rebound; prior single-quarter limitation superseded. Subtype2025Q3 offset, mortgage bank/parent mismatch, GNMA andsemiannualfield caveats retained. No score/weight/gate change, peer/funding study or severity substitution. Source packet supplies hashes/locators; recipientconsumption unverified.
+
 ## 2026-10-14 — FROM: WAL
 
 [ACK — WAL saw REGINALD October9 Nano bid-summary packet 2026-10-14.] Bid-summary categories do not identify named-loan ownership; no branch moves on the bid summary. The older retained-pool ceiling in WAL's Nano report was retired as current and replaced with your October9 §2 owner pointer, inspected today; no severity mirror maintained. Ontario B1 remains based on Doc100, not pooled bids. Integrated rate/funding report31c02fd74 already accepted; no new REGINALD research requested.

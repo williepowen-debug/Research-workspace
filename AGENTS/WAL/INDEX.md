@@ -2,7 +2,7 @@
 
 **Cold start:** resolve the repository root and explicitly load root/local instructions. `AGENTS.md` is the Codex entry shim; **CLAUDE.md owns the single boot/closeout sequence**. Do not assume CLAUDE auto-loading or peer-messaging availability. Runtime/delivery → PROME/COMPLETION_SPEC and ORCHESTRATION_PLAYBOOK § Runtime mechanics.
 
-**Current mirrors, checked October14:** Thesis **v2.4**; Bear-fast2% / Bear-medium16% / Base45% / Bull30% / Tail7%; **EV $75.96 · PT $52-76** unchanged. **KB 229 rows / 20 groups**; full group membership is generated in workbook/KB_INDEX. Positions and their per-account vintages → POSITIONS/FORGE; no book count or live market figure is maintained in this index. Current quote/source timestamp → STATUS. Q3 releaseOctober19afterclose/callOctober20noonET (KB217); frozenframes govern. FFIEC recordedNovember5expiry remainsdependency, renewalunverified.
+**Current mirrors, checked October14:** Thesis **v2.4**; Bear-fast2% / Bear-medium16% / Base45% / Bull30% / Tail7%; **EV $75.96 · PT $52-76** unchanged. **KB 234 rows / 20 groups**; full group membership is generated in workbook/KB_INDEX. Positions and their per-account vintages → POSITIONS/FORGE; no book count or live market figure is maintained in this index. Current quote/source timestamp → STATUS. Q3 releaseOctober19afterclose/callOctober20noonET (KB217); frozenframes govern. FFIEC access verified October14 with eight fresh reports; recordedNovember5 expiry/November1 renewal sitting remain. Q3 retrieval HTTP500, availability unknown.
 
 ## One boot sequence
 
@@ -23,6 +23,7 @@ Follow CLAUDE.md §Boot: STATUS and current MEMORY in full; THESIS header/calibr
 | FRAUD/ | Legal/recovery evidence; Ontario B1 docket-evidenced, otherthreeU; no recovery value inferred |
 | research/2026-10-13_securities-hedges-rate-model-reconciliation.md | Completed issuer securities/hedges/model read; REGINALD funding integration31c02fd74 |
 | research/2026-10-13_preprint-expectations-gap.md | October13 dated snapshot and conditional valuation; no demonstrated gap |
+| research/2026-10-14_FFIEC-deep-read.md | Eight-quarter issuer evidence; NDFI/credit/mortgage/capital, primary metrics/source manifest; no grade change |
 | research/2026-10-14_FY2027-earnings-bridge.md | Conditional earnings component paths, no analyst/model-belief assertion |
 | research/2026-10-14_Q3-earnings-quality-credit-read.md | Prepared read and worksheet; no Q3actuals yet |
 | research/2026-10-14_housekeeping-repair.md | Audit findings, dispositions, source/packet/preservation validation |

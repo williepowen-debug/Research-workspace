@@ -2,6 +2,8 @@
 
 `SOURCE_INVENTORY_2026-10-14.tsv` inventories full files present on this machine by content hash, bytes, Git persistence and known recovery source. TRACKED files travel through Git; LOCAL_ONLY_GITIGNORED originals do **not**. PREPARED_FOR_TRACKING denotes this maintenance commit's new receipts, not a pre-existing backup. No ignored filing was indiscriminately added to Git. Existence/hashes establish local preservation, not off-machine backup; external backup status is UNKNOWN.
 
+**FFIEC extension, October14:** eight fresh complete WAL SDF originals are saved in `ffiec_2026-10-14/`; the metrics JSON source manifest carries period/RSSD/hash/row count, with dated request receipts. These are intended exact-path Git additions, separate from the prior51-file inventory. Reproduction script uses the local desktop credential without copying or logging it. Current access is verified; an API403 from urllib and Q3HTTP500 are preserved, not relabelled as credentialexpiry or absentfiling. Commit status is a persistence question, not a source-validation claim.
+
 ## Decisive recovery paths
 
 - **Q2 full SEC original:** accession0001628280-26-051418, sourceURL in inventory; original SHA25663f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f,6,664,360bytes. Tracked October13 extracts/receipt and earnings extract provide context; they do not replace the whole filing. On a new machine, fetch the exact archive URL to a temporary file with the contact user-agent required by SEC access policy, then verify SHA256/bytes before restoring `sources/q2_2026/wal-20260630.htm`. A403 or different hash is a source gap; do not overwrite the accepted cache silently.

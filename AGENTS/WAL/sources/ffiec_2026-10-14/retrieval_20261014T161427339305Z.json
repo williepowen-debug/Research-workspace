@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "period": "2026-06-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:27.317498+00:00",
+      "status": "NETWORK_ERROR"
+    }
+  ]
+}

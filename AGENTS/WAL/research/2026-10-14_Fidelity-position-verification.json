@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-14T12:02:33.817672-04:00",
+  "authority": "Will directly confirms4FidelityWAL65PDec18-2026 thissession",
+  "image": "/mnt/c/Users/willi/OneDrive/Desktop/capture weds.JPG",
+  "image_sha256": "4882b6d09982552b51bf11691f7b21f3318a30e11c7368a3cf2c63aaf30cb043",
+  "direct_visual_read": "WAL65Put Dec18-2026 quantity4,TraditionalIRA;displayedaveragebasis1.71,totalbasis682.65",
+  "source_transcription": "PROME/data/2026-10-14_broker-capture-TRANSCRIPTION.json",
+  "source_transcription_sha256": "a4f5c6fb0f717d55dc4206ef67211b2d0a6ef9ee32ed03c6099d68c27cc0762d",
+  "source_receipt": "PROME/reports/2026-10-14_broker-reconcile-acceptance.json ACCEPTED",
+  "capture_time": "UNKNOWN",
+  "acquisition_basis": "SeparateacceptedOctober13Activityrow22 establishesOctober7 and682.65netdebit;grossfillprice/timeunknown",
+  "Robinhood": "Notinimage;September29carryonly;noclosureinferred",
+  "management": "ExistingTERRYpositionnote,cardbyDecember16unlessWillasksearlier;no65Pguard/time-stopadopted",
+  "changes": [
+    "POSITIONS.md",
+    "MEMORY.md"
+  ],
+  "other_state": "NoSTATUS/frozenframe/prediction/valuation/traderulechange;priorreviewmirrorrepairsremainpending",
+  "persistence": "Localsave;sessioncloseoutcommitpending;foreignworkrequirespull/pushdeferral"
+}

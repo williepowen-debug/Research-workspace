@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "period": "2024-09-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:45.005148+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2024-12-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:45.251447+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2025-03-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:46.577696+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2025-06-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:46.836494+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2025-09-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:47.105881+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2025-12-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:47.394334+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2026-03-31",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:47.612814+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2026-06-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:47.892747+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    },
+    {
+      "period": "2026-09-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:14:48.100835+00:00",
+      "status": "HTTP_ERROR",
+      "http_status": 403
+    }
+  ]
+}

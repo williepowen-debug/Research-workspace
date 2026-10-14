@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "period": "2026-06-30",
+      "rssd": 3138146,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-10-14T16:15:26.768532+00:00",
+      "transport": "curl",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2026-06-30.sdf",
+      "rows": 1812,
+      "bytes": 184829,
+      "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb"
+    }
+  ]
+}

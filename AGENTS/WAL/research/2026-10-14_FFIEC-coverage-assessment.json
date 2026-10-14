@@ -1,0 +1,521 @@
+{
+  "observed_at": "2026-10-14T12:12:38.631544-04:00",
+  "question": "Have we scoured FFIEC for all worthwhile WALtracking/modeling data?",
+  "answer": "No. Targeted MI3, NDFI, funding, securities and capital work is documented; a comprehensive usefulness/coverage review is not demonstrated. Full saved reports contain additional fields not integrated into maintained WALanalysis.",
+  "scope": "Read-only coverage assessment, limited existing-Q1/Q2 field extraction and current official form/instruction verification. No fresh bankdata download, credentialaccess, peerstudy, score/weight/target/prediction edit or newmonitor.",
+  "entity": "Western Alliance Bank RSSD3138146, not listed holdingcompany; all monetary reported values hereUSDthousands",
+  "provenance": [
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/WAL_3-31-2026.sdf",
+      "sha256": "8f051cbe7742e91fbb14a1ffd157c8163c68c7183e2c1e456dcfdcdaaf64c359",
+      "parsed_rows": 1795,
+      "retrieval_receipt_hash_match": true
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/WAL_6-30-2026.sdf",
+      "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb",
+      "parsed_rows": 1812,
+      "retrieval_receipt_hash_match": true
+    }
+  ],
+  "source_retrieved_at_UTC": "2026-10-14T03:33:57.826161+00:00",
+  "schedule_row_inventory": {
+    "20260331": {
+      "CI": 35,
+      "ENT": 7,
+      "NARR": 1,
+      "RC": 31,
+      "RCA": 6,
+      "RCB": 147,
+      "RCCI": 73,
+      "RCCII": 26,
+      "RCD": 25,
+      "RCE": 50,
+      "RCF": 18,
+      "RCG": 16,
+      "RCK": 21,
+      "RCL": 128,
+      "RCM": 39,
+      "RCN": 138,
+      "RCO": 199,
+      "RCP": 9,
+      "RCQ": 135,
+      "RCRI": 49,
+      "RCRII": 373,
+      "RCS": 29,
+      "RCT": 4,
+      "RCV": 20,
+      "RI": 75,
+      "RIA": 12,
+      "RIBI": 41,
+      "RIBII": 26,
+      "RIC": 20,
+      "RIE": 42
+    },
+    "20260630": {
+      "CI": 35,
+      "ENT": 7,
+      "NARR": 1,
+      "RC": 29,
+      "RCA": 6,
+      "RCB": 148,
+      "RCCI": 86,
+      "RCCII": 26,
+      "RCD": 25,
+      "RCE": 50,
+      "RCF": 18,
+      "RCG": 15,
+      "RCK": 21,
+      "RCL": 132,
+      "RCM": 39,
+      "RCN": 140,
+      "RCO": 199,
+      "RCP": 9,
+      "RCQ": 135,
+      "RCRI": 49,
+      "RCRII": 373,
+      "RCS": 29,
+      "RCT": 4,
+      "RCV": 20,
+      "RI": 75,
+      "RIA": 12,
+      "RIBI": 41,
+      "RIBII": 26,
+      "RIC": 20,
+      "RIE": 42
+    }
+  },
+  "coverage_already_documented": [
+    {
+      "area": "MI3 andtotalNDFI",
+      "evidence": "WAL/MI3_FIRST_RUN_2026-08-07.md;workbook/MI3_SERIES.tsv",
+      "extent": "12quarters;registeredMI3basis distinctfromcross-bankbasis"
+    },
+    {
+      "area": "NDFI funded5subtypes,unfundedtotal,delinquency",
+      "evidence": "REGINALD/workbook/NDFI_COHORT.tsv;2026-10-07_WQ318report",
+      "extent": "June2026snapshot;WALstillcarriedonequarterofNDFInonaccrual"
+    },
+    {
+      "area": "Fundingcost/mix",
+      "evidence": "REGINALD/scripts/wq318_funding_baseline.py;FUNDING_COHORT_2026Q2.tsv",
+      "extent": "6banksx5quarters;WALspecificreuse;frozenoneoffnotnewrecurringstudy"
+    },
+    {
+      "area": "Securities/capital",
+      "evidence": "REGINALD2026-09-24AOCIand2026-10-13boundedscreen;WALOctober13primaryissuerread",
+      "extent": "AFS/HTM,pledging,AOCI,optout/regulatorycapital;notcompletepublicALMengine"
+    }
+  ],
+  "newly_recovered_candidate": {
+    "NDFI_nonaccrual_M_Q1": 71.304,
+    "NDFI_nonaccrual_M_Q2": 122.456,
+    "increase_M": 51.152,
+    "increase_pct": 71.73791091663861,
+    "NDFI_nonaccrual_pct_funded_Q1": 0.4776623644407621,
+    "NDFI_nonaccrual_pct_funded_Q2": 0.7744481197042707,
+    "interpretation": "TwoobservationsestablishoneQoQrise;doesnotidentifyborrowers,causaldriver,chargeoffs,reclassificationsorpersistence. Existingcarriedonequarterclaimneedsdatedintegrationafterreview;noautomaticV3rescore. Historical\u22654quartertrajectoryanddefinitionchecksremainneeded."
+  },
+  "prioritized_remaining_review": [
+    {
+      "priority": 1,
+      "area": "NDFIstresstrajectoryandunfunded5subtypes",
+      "schedules": [
+        "RC-CMemo10",
+        "RC-L1e3a-e",
+        "RC-NMemo9"
+      ],
+      "value": "Funded/unfundedbybusiness,utilizationandearlyarrears;separatefunddrawsfromnewcommitments/reclassifications",
+      "owner": "WALissuerread;REGINALDcohort/fundingintegration"
+    },
+    {
+      "priority": 2,
+      "area": "Modification/arrears/nonaccrual/lossbridge",
+      "schedules": [
+        "RC-CMemo1",
+        "RC-N",
+        "RI-B",
+        "RI-C",
+        "RC-M"
+      ],
+      "value": "Compareperformingmodifiedloanswithdelinquentmodifications,broadsystemcreditflowandreserves;RC-NM7/M8onlyJuneDecember;noquarterlydefaultfrommissingMarchvalue"
+    },
+    {
+      "priority": 3,
+      "area": "Mortgageearnings/recourse",
+      "schedules": [
+        "RC-P",
+        "RC-M2a",
+        "RC-S",
+        "RC-Q"
+      ],
+      "value": "Production/sales/HFS,mortgageservicingassets,representation-warrantyreserves,repurchasesandindemnifications;repurchasesareprincipal/commitments,notlossamounts;scopeisbankownmortgagebusiness,notsameaswarehouseborrowers"
+    },
+    {
+      "priority": 4,
+      "area": "Capitalquality/contingentexposure",
+      "schedules": [
+        "RC-RI/II",
+        "RC-L",
+        "RC-V",
+        "RC-S"
+      ],
+      "value": "RWAcomposition,creditconversion/MSRdeductions,VIE/recourse/exposurepopulationswhereapplicable;notproxyforneteconomicriskorborrowernames"
+    },
+    {
+      "priority": 5,
+      "area": "UBPRreconciliation",
+      "schedules": [
+        "UBPR"
+      ],
+      "value": "Standardizedbanklevelprofitability/creditratiosandexistingREGINALDpeers;deriveddata,notsourceindependence;nofreshpeeruniverseorstandingmonitor"
+    }
+  ],
+  "public_data_limits": [
+    "Noidentifiedpropertyappraisalorindividualborrowercreditfilefor99Mloan",
+    "Nooffice-classifiedsliceequivalenttodeckslide12demonstrated",
+    "NoautomaticmappingofNDFInonaccrualtolife-science/Cantor/LAM",
+    "Noexactnetduration/depositbeta/ECRallinmodel",
+    "Bankvparententityandreportingdefinitionsmustremainseparate",
+    "Disclosurefrequency/YTDversusquarterflowsandfilingrevisionsmustbeverified;missingisnotzero;subtotalsnotadditive"
+  ],
+  "source_web_verified": [
+    "https://www.ffiec.gov/resources/reporting-forms/ffiec041",
+    "https://www.ffiec.gov/sites/default/files/data/reporting-forms/FFIEC041_202609_f.pdf",
+    "https://www.ffiec.gov/sites/default/files/data/reporting-forms/FFIEC031_FFIEC041_202609_i.pdf",
+    "https://www.ffiec.gov/data/ubpr"
+  ],
+  "extracted_fields": [
+    {
+      "code": "RCONJ454",
+      "20260331": {
+        "value_reported": "14927699",
+        "definition": "Loans to nondepository financial institutions",
+        "schedule": "RCCI",
+        "line": "9a",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "15812034",
+        "definition": "Loans to nondepository financial institutions",
+        "schedule": "RCCI",
+        "line": "9a",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV11",
+      "20260331": {
+        "value_reported": "4744260",
+        "definition": "Loans to nondepository financial institutions",
+        "schedule": "RCL",
+        "line": "1e3",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "4884273",
+        "definition": "Loans to nondepository financial institutions",
+        "schedule": "RCL",
+        "line": "1e3",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV12",
+      "20260331": {
+        "value_reported": "1783123",
+        "definition": "Loans to mortgage credit intermediaries",
+        "schedule": "RCL",
+        "line": "1e3a",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "1680541",
+        "definition": "Loans to mortgage credit intermediaries",
+        "schedule": "RCL",
+        "line": "1e3a",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV13",
+      "20260331": {
+        "value_reported": "2264501",
+        "definition": "Loans to business credit intermediaries",
+        "schedule": "RCL",
+        "line": "1e3b",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "2659531",
+        "definition": "Loans to business credit intermediaries",
+        "schedule": "RCL",
+        "line": "1e3b",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV14",
+      "20260331": {
+        "value_reported": "696636",
+        "definition": "Loans to private equity funds",
+        "schedule": "RCL",
+        "line": "1e3c",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "544200",
+        "definition": "Loans to private equity funds",
+        "schedule": "RCL",
+        "line": "1e3c",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV15",
+      "20260331": {
+        "value_reported": "0",
+        "definition": "Loans to consumer credit intermediaries",
+        "schedule": "RCL",
+        "line": "1e3d",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "0",
+        "definition": "Loans to consumer credit intermediaries",
+        "schedule": "RCL",
+        "line": "1e3d",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV16",
+      "20260331": {
+        "value_reported": "0",
+        "definition": "Other loans to nondepository financial institutions",
+        "schedule": "RCL",
+        "line": "1e3e",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "0",
+        "definition": "Other loans to nondepository financial institutions",
+        "schedule": "RCL",
+        "line": "1e3e",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV23",
+      "20260331": {
+        "value_reported": "0",
+        "definition": "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+        "schedule": "RCN",
+        "line": "M9",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "0",
+        "definition": "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+        "schedule": "RCN",
+        "line": "M9",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV24",
+      "20260331": {
+        "value_reported": "0",
+        "definition": "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+        "schedule": "RCN",
+        "line": "M9",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "0",
+        "definition": "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+        "schedule": "RCN",
+        "line": "M9",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONPV25",
+      "20260331": {
+        "value_reported": "71304",
+        "definition": "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+        "schedule": "RCN",
+        "line": "M9",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "122456",
+        "definition": "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+        "schedule": "RCN",
+        "line": "M9",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONHK25",
+      "20260331": {
+        "value_reported": "176064",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty that are in compliance with their modified terms (sum of Memorandum items 1.a.(1) through 1.f)",
+        "schedule": "RCCI",
+        "line": "M1g",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "232291",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty that are in compliance with their modified terms (sum of Memorandum items 1.a.(1) through 1.f)",
+        "schedule": "RCCI",
+        "line": "M1g",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONHK26",
+      "20260331": {
+        "value_reported": "3369",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f)",
+        "schedule": "RCN",
+        "line": "M1g",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "2680",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f)",
+        "schedule": "RCN",
+        "line": "M1g",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONHK27",
+      "20260331": {
+        "value_reported": "105834",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f)",
+        "schedule": "RCN",
+        "line": "M1g",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "42325",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f)",
+        "schedule": "RCN",
+        "line": "M1g",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONHK28",
+      "20260331": {
+        "value_reported": "55043",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f)",
+        "schedule": "RCN",
+        "line": "M1g",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "56475",
+        "definition": "Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f)",
+        "schedule": "RCN",
+        "line": "M1g",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONHT86",
+      "20260331": {
+        "value_reported": "21505",
+        "definition": "Repurchases and indemnifications of 1-4 family residential mortgage loans during the quarter",
+        "schedule": "RCP",
+        "line": "6",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "23880",
+        "definition": "Repurchases and indemnifications of 1-4 family residential mortgage loans during the quarter",
+        "schedule": "RCP",
+        "line": "6",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RIADHT85",
+      "20260331": {
+        "value_reported": "72659",
+        "definition": "Noninterest income for the quarter from the sale, securitization, and servicing of 1-4 family residential mortgage loans (included in Schedule RI, items 5.c, 5.f, 5.g, and 5.i)",
+        "schedule": "RCP",
+        "line": "5",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "45723",
+        "definition": "Noninterest income for the quarter from the sale, securitization, and servicing of 1-4 family residential mortgage loans (included in Schedule RI, items 5.c, 5.f, 5.g, and 5.i)",
+        "schedule": "RCP",
+        "line": "5",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RIAD5409",
+      "20260331": {
+        "value_reported": "0",
+        "definition": "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above",
+        "schedule": "RIBI",
+        "line": "M1",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "0",
+        "definition": "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above",
+        "schedule": "RIBI",
+        "line": "M1",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RIAD5410",
+      "20260331": {
+        "value_reported": "0",
+        "definition": "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above",
+        "schedule": "RIBI",
+        "line": "M1",
+        "last_update": "20260430"
+      },
+      "20260630": {
+        "value_reported": "0",
+        "definition": "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above",
+        "schedule": "RIBI",
+        "line": "M1",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONC410",
+      "20260331": null,
+      "20260630": {
+        "value_reported": "234493",
+        "definition": "Additions to nonaccrual assets during the previous six months",
+        "schedule": "RCN",
+        "line": "M7",
+        "last_update": "20260730"
+      }
+    },
+    {
+      "code": "RCONC411",
+      "20260331": null,
+      "20260630": {
+        "value_reported": "0",
+        "definition": "Nonaccrual assets sold during the previous six months",
+        "schedule": "RCN",
+        "line": "M8",
+        "last_update": "20260730"
+      }
+    }
+  ],
+  "next_step": "RecommendoneboundedWALcoveragepassoncachedreportsfirst,thenextendhistoricalseriesandmapQ3fieldsafteroperatorprioritization;noindiscriminatepullornewmonitor. CachedMarch/Junereviewdoesnotneednewcredential;freshAPIavailability/renewalremainsseparate.",
+  "changes": "Thisownedassessmentonly;canonicalKB/STATUS/THESIS/predictionsunchanged;nopeerfileseditedormessagesent",
+  "persistence": "Localsave;exactpathcommitatongoingsessioncloseoutpending;foreigndirtyworkstillprecludespull/push"
+}
