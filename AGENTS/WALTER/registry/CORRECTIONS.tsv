@@ -1,5 +1,5 @@
 # Cadence: EVENT-DRIVEN
-# Last re-pull ATTEMPTED: 2026-10-12
+# Last re-pull ATTEMPTED: 2026-10-14 (scoped bookmark routing: COR16, four exact batch closures, or DEWEY final delivery; not a historic closure/trigger census)
 # Review evidence: research/2026-10-12_closeout-improvements/cadence-review.json (content/receipt check; no invented event).
 # AGENTS/WALTER/registry/CORRECTIONS.tsv — fleet correction register (FORUM-6 R1; WALTER owns schema + prune; DAEDALUS boot leg parses BY HEADER NAME).
 # Interface ratified 2026-08-26 (DAEDALUS §A draft + WALTER amendments A1-A3, packet pair on origin). Parser-load-bearing fields:
@@ -90,3 +90,4 @@ COR-20261012-25	2026-10-12	WALTER	CARL,HOMER,REGINALD,BROCK,LIQUID,NEXUS,DEWEY,R
 COR-20261012-27	2026-10-12	WALTER	CARL,OTTO,REGINALD,RED,PROME	BOARD/SIG-W-20261012-027-CORRECTION-auto-certificate-date-column-basis-source-recovery.md	2026-10-26	LIVE	EXTERNAL CARL KB395 saidJuly2026collection4.57%extension/7.40%annualizedloss; ISJune2026collection,filedJuly31 (samecertificate); frozenfloors HOLDS, metadata/access doesnotgradepanel	HOLDS
 COR-20261012-29	2026-10-12	WALTER	RED,CARL,PROME	BOARD/SIG-W-20261012-029-CORRECTION-DR1-swapped-values-counterexample-185point1-not-30.md	2026-10-26	LIVE	EXTERNAL CARL KB401 said~30bpwhenswapped; IS185.1bpunderunchanged16.95M/7.81Mweights (sameformula); below-threshold justification WEAKEN, ruledweights/97.4weighted/22.5bestleg HOLDS	WEAKEN
 COR-20261012-31	2026-10-12	WALTER	YURI,HAWK,OSPREY,RED,PROME	BOARD/SIG-W-20261012-031-CORRECTION-scheduled-Tsentr-exercise-refutes-broad-absence-premise.md	2026-10-31	LIVE	EXTERNAL HAWK L432 card said no scheduled large exercise exists; IS scheduled Tsentr September28–October3 (Kremlin October2 publication, force count attributed); preparation is not decision, historical partial grades hold	WEAKEN
+COR-20261013-16	2026-10-13	WALTER	LIQUID,BOND,RED,PROME	BOARD/SIG-W-20261013-016-CORRECTION-external-tga-average-versus-wednesday.md	2026-10-27	LIVE	EXTERNAL LHMacro/LIQUID said TGA880.3B Wednesday; IS885.783B point balance (H.4.1Oct8Table1;880.253B weekly average); conditional45days rounding holds, funding consequence ungraded	HOLD

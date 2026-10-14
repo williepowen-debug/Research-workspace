@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-14T04:05:49.686670+00:00",
+  "report_sha256": "0775a97973f7c085b35ea6c9f8a59986c1bc547c90c65090e4a08710e9c20d13",
+  "matched_handoff_hash": true,
+  "prior_delivery_state": {
+    "disposition": "PARTIAL",
+    "outcome": "DELIVERED PARTIAL2026-10-12 -> AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md; SIG016/COR16; fiveDEWEYstubsverified,0backstops. Fullrequest stillowed by2026-10-14. || Desk sweep: original+checkpoint packetsfiled; all10source stubscommitted,0backstops. October9CMEpreliminary corroboratesFridayinputs; LaterSIG030: current TankerTrackers provider reportsMinervaZenUAN/arrival, notauthenticatedmanifest; EIAall-originpredealbaseline, nextweeklyOct15. Sixcommittedsource stubsverified,0backstops; currentcargoquantity/decree/legal/offline/netincrement/officialsettles remainunresolved. || October13checkpoint86686cdb3 readwhole;delivery stubs verified. PARTIAL/October14deadline retained;CMEOctober12final gapclosed;FranceNovember-January10Mplan notadditive toIEA100M. Deliveredincrement/signedimplementation/US-law/ICEgaps retained."
+  },
+  "new_commission_disposition": "RESOLVED",
+  "economic_outcome": "UNKNOWN",
+  "new_research_or_routing": false
+}

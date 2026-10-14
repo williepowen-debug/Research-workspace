@@ -1,5 +1,5 @@
 # WALTER STATUS
-**Updated:** 2026-10-13T23:25:10Z — Will-launched priority routing;boot/researchPARTIAL. BOARD **1373**;October13 **6 PRIORITY** signals,0FLASH/IMMEDIATE,0cluster-mediating,0newfires. Prior assessments reused;source limits travel with packets.
+**Updated:** 2026-10-14T04:10:43Z — Will-authorized bookmark routing;boot/market coverage remainsPARTIAL. BOARD **1394**;October13 source batches **27 PRIORITY** signals (21 new bookmark signals),0FLASH/IMMEDIATE,0cluster-mediating,0newfires. Prior assessments reused;source limits travel with packets.
 
 ## BOTTOM LINE
 
@@ -30,7 +30,7 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 - Current obligation/design/Will-choice list and resume point: `LAST_COMPLETION.md`.
 - Closeout evidence/manual duty outcomes: `research/2026-10-13_session-closeout/`.
 - Bookmark source/read/dispatch evidence: `research/2026-10-12_bookmarks-reauth/REPORT.md`.
-- X transport restored 2026-10-14T02:53:25.996338+00:00 (October13 evening EDT):72 new bookmarks returned,unassessed/unstaged;654 processed IDs/zero stage preserved. Evidence: `research/2026-10-13_bookmarks-repair/REPORT.md`. Prior market observations retain their dates.
+- X transport restored 2026-10-14T02:53:25.996338+00:00 (October13 evening EDT):72 captured bookmarks now81 dispositions/four CLOSED batches;exact mark awaits source commit.654 prior IDs preserved. Repair evidence: `research/2026-10-13_bookmarks-repair/REPORT.md`;routing/mark evidence: `research/2026-10-13_bookmark-routing/REPORT.md`. Prior market observations retain their dates.
 - CL9 runner repair implemented under Will's direct request;30 regressions passed at its dated test. Runtime friction/time savings and independent acceptance remain separate. No further runner/spec work commissioned.
 - Prior reboot/owner-intake/Rosner evidence remains at its named research paths and exact checkpoint archives. No full-source or first-release certification inferred from those saved passes.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
@@ -39,7 +39,7 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 REGISTRY reviewed/refreshed at2026-10-13T14:24:38Z, before this derived subsection. First30-line scopes captured for every existing registry STATUS file; missing files explicitly recorded. This is owner-header context, not full-owner evidence, runtime presence or fresh-market certification. Unchanged metadata retained; dated closeout/thesis updates for REGINALD,SHADE,YURI,MIDAS and WALTER qualified. Older registry dates (age does not establish DARK): YEYOU 2026-09-05 (38d;RETIRED); RAV 2026-08-02 (72d;YELLOW); OTTO 2026-10-04 (9d;RED2); ATHENA 2026-03-14 (213d;GREEN); CRUISE 2026-10-03 (10d;RED); DARWIN 2026-02-18 (237d;YELLOW); CREED 2026-10-01 (12d;ORANGE); SENTRY 2026-09-24 (19d;YELLOW); DEWEY 2026-09-10 (33d;YELLOW); HOMER 2026-10-02 (11d;RED); FLG 2026-10-01 (12d;YELLOW).
 
-October13 routing:6new PRIORITY signals;canonical route/delivery facts in owned logs and LAST_COMPLETION. Fleet liveness UNKNOWN;0doorbells/ownerlaunches. ForeignBRENT/DEWEY/REGINALD/TERRY activity observed. One RULE9 read-only verification helper returned and explicitly answered closeout;not fleet presence or process-exit proof.
+October13 source batches:27 PRIORITY signals (6 early+21 bookmark);canonical route/delivery facts in owned logs and LAST_COMPLETION. Fleet liveness UNKNOWN;0doorbells/ownerlaunches. ForeignBRENT/DEWEY/REGINALD/TERRY activity observed. One RULE9 read-only verification helper returned and explicitly answered closeout;not fleet presence or process-exit proof.
 
 ## Active LIAISON channels
 

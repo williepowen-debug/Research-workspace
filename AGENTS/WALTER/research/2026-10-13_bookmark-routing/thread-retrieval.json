@@ -1,0 +1,30 @@
+[
+  {
+    "bookmark_id": "2110088719059595551",
+    "conversation_id": "2110088719059595551",
+    "http": 200,
+    "returned": 7,
+    "next_page_unread": false
+  },
+  {
+    "bookmark_id": "2109741286093676792",
+    "conversation_id": "2109741286093676792",
+    "http": 200,
+    "returned": 5,
+    "next_page_unread": false
+  },
+  {
+    "bookmark_id": "2110142224457494748",
+    "conversation_id": "2110142224457494748",
+    "http": 200,
+    "returned": 9,
+    "next_page_unread": false
+  },
+  {
+    "bookmark_id": "2109692347365658789",
+    "conversation_id": "2109692347365658789",
+    "http": 200,
+    "returned": 5,
+    "next_page_unread": false
+  }
+]

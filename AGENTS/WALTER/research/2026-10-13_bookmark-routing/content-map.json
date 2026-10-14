@@ -1,0 +1,812 @@
+[
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 1,
+    "bookmark_item": 1,
+    "bookmark_id": "2110038182616015141",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-011",
+    "reason": "Time-late incident and chart population qualified"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 2,
+    "bookmark_item": 2,
+    "bookmark_id": "2110164984143777881",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Opinion; no independently dated dataset or new financing outcome"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 3,
+    "bookmark_item": 3,
+    "bookmark_id": "2107559686107001083",
+    "content": "primary post claim/event",
+    "disposition": "NO-ACTION",
+    "ref": "root-source-review.md",
+    "reason": "NFL contest/career reference; three photos read; outside financial routing"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 4,
+    "bookmark_item": 4,
+    "bookmark_id": "2109758044196180262",
+    "content": "primary post claim/event",
+    "disposition": "NO-ACTION",
+    "ref": "root-source-review.md",
+    "reason": "NFL hiring/contest reference; video thumbnail only; outside financial routing"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 5,
+    "bookmark_item": 5,
+    "bookmark_id": "2110122933800604004",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-013",
+    "reason": "Named Volta expected financing terms, allocation incomplete"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 6,
+    "bookmark_item": 6,
+    "bookmark_id": "2110071550854443056",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Dated Rosenberg opinion; screenshot read, no reproducible metric/threshold change"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 7,
+    "bookmark_item": 7,
+    "bookmark_id": "2110150406160503273",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Small Wescare corporate filing lead; linked body inaccessible; no named CRE/bank/systemic channel"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 8,
+    "bookmark_item": 8,
+    "bookmark_id": "2110150610649534470",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "BloombergJapan October14 forward view, not completed outcome; standard-wire forecast"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 9,
+    "bookmark_item": 9,
+    "bookmark_id": "2110088719059595551",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-014",
+    "reason": "Quote bases and thread contract claims unconfirmed, not a new CDS/cohort fire"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 10,
+    "bookmark_item": 10,
+    "bookmark_id": "2110142266874478798",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-021",
+    "reason": "Full primary-author model thread/image, conditional vanna mechanics"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 11,
+    "bookmark_item": 11,
+    "bookmark_id": "2109741286093676792",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-021",
+    "reason": "Same year-end hedge/model event, source perimeter qualified"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 12,
+    "bookmark_item": 12,
+    "bookmark_id": "2110142224457494748",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-021",
+    "reason": "Same year-end hedge/model event, source perimeter qualified"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 13,
+    "bookmark_item": 13,
+    "bookmark_id": "2110142714339610773",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "BRENT/DEWEY diesel final",
+    "reason": "Existing BRENT/DEWEY final diesel assessment; retail chart not futures,300kt unverified"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 14,
+    "bookmark_item": 14,
+    "bookmark_id": "2110142794987626980",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "June23 Fed/HMDA2018-24 historical structural access; body/photo read"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 15,
+    "bookmark_item": 15,
+    "bookmark_id": "2110142828764410274",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Dated chart RV6.93/model commentary; no universal40bp or lower-floor rule adopted"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 16,
+    "bookmark_item": 16,
+    "bookmark_id": "2110142899706863675",
+    "content": "primary post claim/event",
+    "disposition": "DUP",
+    "ref": "VIOLET dispersion owner frame",
+    "reason": "Existing VIOLET dispersion/implied-correlation frame; new proprietary scenario not a new gate"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 17,
+    "bookmark_item": 17,
+    "bookmark_id": "2110098261331906828",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-008",
+    "reason": "Dated Dhahran administrative-building report, no output loss"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 18,
+    "bookmark_item": 18,
+    "bookmark_id": "2110091523559932296",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-008",
+    "reason": "Same Reuters Dhahran event; early screenshot versus later update separated"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 19,
+    "bookmark_item": 19,
+    "bookmark_id": "2110091332551139526",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-009",
+    "reason": "DFPeak October12 boarding, outcome/cargo unverified"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 20,
+    "bookmark_item": 20,
+    "bookmark_id": "2110121507351404632",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Limited Axios spending/sentiment countercontext; primary JPM data separately routed"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 21,
+    "bookmark_item": 21,
+    "bookmark_id": "2110111117867708529",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-015",
+    "reason": "Regulator primary BAC penalty crediting, not regional credit loss"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 22,
+    "bookmark_item": 22,
+    "bookmark_id": "2110101561070571956",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-015",
+    "reason": "Same BAC regulator event; decorative photos not independent corroboration"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 23,
+    "bookmark_item": 23,
+    "bookmark_id": "2110061350936326495",
+    "content": "primary post claim/event",
+    "disposition": "DUP",
+    "ref": "SIG-W-20261008-049",
+    "reason": "SIG-W-20261008-049 and LIQUID/REGINALD already own Oct7 window borrowing; borrowers unnamed"
+  },
+  {
+    "batch_id": "BM-20261014-01",
+    "item": 24,
+    "bookmark_item": 24,
+    "bookmark_id": "2110090712683561294",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-017",
+    "reason": "Qualified Chile derivatives unwind, cash-selling/margin implications unknown"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 1,
+    "bookmark_item": 25,
+    "bookmark_id": "2110068111290277994",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "DEWEY diesel final",
+    "reason": "Existing GL135 statutory/customs limits; Bloomberg body inaccessible; no new legal outcome"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 2,
+    "bookmark_item": 26,
+    "bookmark_id": "2109991996752535793",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-016",
+    "reason": "External TGA weekly-average versus Wednesday measurement correction"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 3,
+    "bookmark_item": 27,
+    "bookmark_id": "2110077662949732506",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-010",
+    "reason": "Reported empty receiving-tonnage withdrawal, not export-volume loss"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 4,
+    "bookmark_item": 28,
+    "bookmark_id": "2110058017609924794",
+    "content": "primary post claim/event",
+    "disposition": "DUP",
+    "ref": "SIG-W-20260924-007",
+    "reason": "SIG-W-20260924-007 negative-beta source/denominator limits; image lacks new exact source/date"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 5,
+    "bookmark_item": 29,
+    "bookmark_id": "2110004402232975761",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-014",
+    "reason": "Same CoreWeave quote-lead packet; unidentified YTM is not one-day default proof"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 6,
+    "bookmark_item": 30,
+    "bookmark_id": "2110038943601238218",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-007",
+    "reason": "Issued DOE/PJM primary evidence; diesel-shortage claim unsupported"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 7,
+    "bookmark_item": 31,
+    "bookmark_id": "2110047081414987957",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-027",
+    "reason": "Anthropic company-reported internal operating counterevidence; no paid ROI inference"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 8,
+    "bookmark_item": 32,
+    "bookmark_id": "2110057875590848631",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "BRENT energy-WAIT",
+    "reason": "Existing energy-WAIT/DEWEY final; unmatched headline futures not official settle"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 9,
+    "bookmark_item": 33,
+    "bookmark_id": "2110027027088621691",
+    "content": "primary post claim/event",
+    "disposition": "DUP",
+    "ref": "SIG-W-20261012-020",
+    "reason": "SIG-W-20261012-020/CARL KB516 already retain primary Epiq counts and inconsistency"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 10,
+    "bookmark_item": 34,
+    "bookmark_id": "2110033590264250854",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261012-035",
+    "reason": "Same RedfinOctober12 primary article already routed SIG-W-20261012-035; canceled contracts not defaults"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 11,
+    "bookmark_item": 35,
+    "bookmark_id": "2109960228888314331",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-018",
+    "reason": "Yandex payment-access/temporary-compensation delta, not verified run"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 12,
+    "bookmark_item": 36,
+    "bookmark_id": "2110031180577841195",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "BRENT energy-WAIT",
+    "reason": "Existing BRENT energy-WAIT; dated wholesale anecdote not delivery proof or a matched margin"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 13,
+    "bookmark_item": 37,
+    "bookmark_id": "2110042126138355798",
+    "content": "primary post claim/event",
+    "disposition": "DUP",
+    "ref": "SIG-W-20261010-006",
+    "reason": "SIG-W-20261010-006 already routes ChrisWood/Jefferies same commentary"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 14,
+    "bookmark_item": 38,
+    "bookmark_id": "2109999096740421725",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "September10 ICE relay/Q2 mortgage-holder insurance costs; older housing context, not insurer loss"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 15,
+    "bookmark_item": 39,
+    "bookmark_id": "2109986306675585426",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-009",
+    "reason": "Same DFPeak boarding; legal objection not legal finding"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 16,
+    "bookmark_item": 40,
+    "bookmark_id": "2109971662083117343",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Original AxiosSep22 survey/August arrest vintage; not Oct13 employment loss, MARCO prior nulls retained"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 17,
+    "bookmark_item": 41,
+    "bookmark_id": "2109827483046469883",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-011",
+    "reason": "Same qualified late-notice bundle; full six and blanket attribution unverified"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 18,
+    "bookmark_item": 42,
+    "bookmark_id": "2109955865784582358",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-019",
+    "reason": "JPM issuer primary bases and frozen Q3 attribution guard"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 19,
+    "bookmark_item": 43,
+    "bookmark_id": "2109997976236228923",
+    "content": "primary post claim/event",
+    "disposition": "DUP",
+    "ref": "WATT STATUS queue population guard",
+    "reason": "WATT existing generation-queue/PJM-demand population guards; imageJune2026 through2025, no trigger"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 20,
+    "bookmark_item": 44,
+    "bookmark_id": "2109846611115532718",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-007",
+    "reason": "Same issued DOE/PJM event; authority versus actual backup use separated"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 21,
+    "bookmark_item": 45,
+    "bookmark_id": "2109979285226213406",
+    "content": "primary post claim/event",
+    "disposition": "NO-ACTION",
+    "ref": "root-source-review.md",
+    "reason": "Unidentified titanium anecdote; no order/source/grade/geography/price baseline"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 22,
+    "bookmark_item": 46,
+    "bookmark_id": "2109774916363137463",
+    "content": "primary post claim/event",
+    "disposition": "DUP",
+    "ref": "CARL STATUS Q2 stock/flow",
+    "reason": "CARL currentQ2stock12.92 versusQ1 13.12 and stock/flow/process guards; not13% of people in default"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 23,
+    "bookmark_item": 47,
+    "bookmark_id": "2109966451675165076",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "CFTC misconduct-story headline; no measured transmission or adjudicated finding"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 24,
+    "bookmark_item": 48,
+    "bookmark_id": "2109995134456627265",
+    "content": "primary post claim/event",
+    "disposition": "NO-ACTION",
+    "ref": "root-source-review.md",
+    "reason": "Science/governance proposal; no enacted rule or identified financial channel"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 1,
+    "bookmark_item": 49,
+    "bookmark_id": "2109999851979321353",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-008",
+    "reason": "Same Sanaa/Dhahran reciprocal-event wire, not a separate lost-barrel sum"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 2,
+    "bookmark_item": 50,
+    "bookmark_id": "2109934129991319672",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "root-source-review.md",
+    "reason": "Same CFTC article; suppliedAI-summary read; ongoing probe not conviction"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 3,
+    "bookmark_item": 51,
+    "bookmark_id": "2109692347365658789",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-012",
+    "reason": "Complete authenticated NESO thread, requested support/no interruption; metered flow unknown"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 4,
+    "bookmark_item": 52,
+    "bookmark_id": "2109960914049122578",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "DEWEY final conditional cessation",
+    "reason": "Existing Ukrainian conditional energy-pause frame; first-ever intel cutoff unsourced, not enacted/cargo loss"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 5,
+    "bookmark_item": 53,
+    "bookmark_id": "2109978266413265123",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "root-source-review.md",
+    "reason": "Same CFTC article; direct body inaccessible, no redundant three-source route"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 6,
+    "bookmark_item": 54,
+    "bookmark_id": "2109984322640060598",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-023",
+    "reason": "Main corporate Picklr petition date confirmed; personal guarantees/property losses unverified"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 7,
+    "bookmark_item": 55,
+    "bookmark_id": "2107479474803761540",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-025",
+    "reason": "August LasVegas inventory relay; source population and since2014 date guarded"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 8,
+    "bookmark_item": 56,
+    "bookmark_id": "2109951529394614313",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-022",
+    "reason": "EIA primary state residential print; retail/futures/prior-price bases separated"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 9,
+    "bookmark_item": 57,
+    "bookmark_id": "2109864065569042752",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-024",
+    "reason": "Same KoreaOctober13 session packet; intraday−10.3 not close−10.09"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 10,
+    "bookmark_item": 58,
+    "bookmark_id": "2109849914075189622",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Unsourced20% consumer-phone-sales/recession narrative; supplier orders not sell-through"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 11,
+    "bookmark_item": 59,
+    "bookmark_id": "2109584894586179878",
+    "content": "primary post claim/event",
+    "disposition": "KILL",
+    "ref": "root-source-review.md",
+    "reason": "July24 source recirculated as October12; full body/media read, stale current-evidence framing"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 12,
+    "bookmark_item": 60,
+    "bookmark_id": "2109803805617356978",
+    "content": "primary post claim/event",
+    "disposition": "NO-ACTION",
+    "ref": "root-source-review.md",
+    "reason": "Utah weather anecdote/thumbnail; no identified measurable economic loss"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 13,
+    "bookmark_item": 61,
+    "bookmark_id": "2100983069872369895",
+    "content": "primary post claim/event",
+    "disposition": "NO-ACTION",
+    "ref": "root-source-review.md",
+    "reason": "Options-data trial advertisement; no trial/purchase or new tool enabled"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 14,
+    "bookmark_item": 62,
+    "bookmark_id": "2109839634502930643",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-024",
+    "reason": "Same Korea packet; Oct2-to-intraday drawdown not a single-day move; buyback causality unproved"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 15,
+    "bookmark_item": 63,
+    "bookmark_id": "2109652905674653765",
+    "content": "primary post claim/event",
+    "disposition": "NO-ACTION",
+    "ref": "root-source-review.md",
+    "reason": "LasVegas flood anecdote/video thumbnail, economic loss not measured"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 16,
+    "bookmark_item": 64,
+    "bookmark_id": "2109833690763419774",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-024",
+    "reason": "Same Korea packet; KOSPI200futures image is not spotKOSPI close or verified40%June drawdown"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 17,
+    "bookmark_item": 65,
+    "bookmark_id": "2109819417097810034",
+    "content": "primary post claim/event",
+    "disposition": "NOTE",
+    "ref": "VULCAN existing funding/power frame",
+    "reason": "Attributed JPM/Tan financing commentary; original full passage inaccessible; no causal/capex outcome"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 18,
+    "bookmark_item": 66,
+    "bookmark_id": "2109810131710128625",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-024",
+    "reason": "Dated original-wire sidecar/program-selling distinction and close recovered"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 19,
+    "bookmark_item": 67,
+    "bookmark_id": "2109797874523635914",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-013",
+    "reason": "Same Volta financing event; expected pricing/order not final allocation"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 20,
+    "bookmark_item": 68,
+    "bookmark_id": "2109803806188023875",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-011",
+    "reason": "UnnamedIRGCclaim; reconcile within maritime packet, never add a seventh hull"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 21,
+    "bookmark_item": 69,
+    "bookmark_id": "2109821579710361652",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-024",
+    "reason": "Same Korea session; screenshottimestamp missing, qualified wire-close basis used"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 22,
+    "bookmark_item": 70,
+    "bookmark_id": "2109793966573174790",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-020",
+    "reason": "BOJSeptemberCGPIactual/prior distinction; consensus not verified"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 23,
+    "bookmark_item": 71,
+    "bookmark_id": "2109717288781803755",
+    "content": "primary post claim/event",
+    "disposition": "FOLD",
+    "ref": "DEWEY final conditional cessation",
+    "reason": "Existing BRENT/DEWEY conditional cessation; specific shipping threat/USultimatum unverified"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 24,
+    "bookmark_item": 72,
+    "bookmark_id": "2109795714733854776",
+    "content": "primary post claim/event",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261013-026",
+    "reason": "Qualified UAL price-filing counterlead; analyst/company primary unretrieved"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 25,
+    "bookmark_item": 34,
+    "bookmark_id": "2110033590264250854",
+    "content": "seller/buyer gap63%",
+    "disposition": "NOTE",
+    "ref": "SIG-W-20261012-035",
+    "reason": "Separate denominator/perimeter unverified, same already-ownedarticle"
+  },
+  {
+    "batch_id": "BM-20261014-02",
+    "item": 26,
+    "bookmark_item": 46,
+    "bookmark_id": "2109774916363137463",
+    "content": "age-specific credit transition panel",
+    "disposition": "DUP",
+    "ref": "CARL STATUS stock/flow",
+    "reason": "Youth transition flow is not whole-population default share; existingquarterguard"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 25,
+    "bookmark_item": 58,
+    "bookmark_id": "2109849914075189622",
+    "content": "illustrative family budgets",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Unsourced examples do not establish measured median-household deficit"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 26,
+    "bookmark_item": 58,
+    "bookmark_id": "2109849914075189622",
+    "content": "average revolving-debt series",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Source/coveredhouseholddefinition notprovided; no population adoption"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 27,
+    "bookmark_item": 58,
+    "bookmark_id": "2109849914075189622",
+    "content": "HELOC balance series",
+    "disposition": "NOTE",
+    "ref": "root-source-review.md",
+    "reason": "Unidentifiedseries periods/basis; illustrative borrowings not defaults"
+  },
+  {
+    "batch_id": "BM-20261014-03",
+    "item": 28,
+    "bookmark_item": 65,
+    "bookmark_id": "2109819417097810034",
+    "content": "powered-shell19GW forecast",
+    "disposition": "NOTE",
+    "ref": "korea-verify.md",
+    "reason": "Originalforecast/model/perimeter unavailable; not measured shortage"
+  },
+  {
+    "batch_id": "BM-20261014-04",
+    "item": 1,
+    "bookmark_item": 9,
+    "bookmark_id": "2110088719059595551",
+    "content": "OracleCDSquote",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-014",
+    "reason": "Unconfirmed quote within existing LIQUID/VULCAN channel; no matched-basisnewfire"
+  },
+  {
+    "batch_id": "BM-20261014-04",
+    "item": 2,
+    "bookmark_item": 9,
+    "bookmark_id": "2110088719059595551",
+    "content": "anonymous GPU-hoster LTV/OCF breach",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-014",
+    "reason": "No namedfacility/borrower/valuation/cashflowperiod; no secondnamedcontagion"
+  },
+  {
+    "batch_id": "BM-20261014-04",
+    "item": 3,
+    "bookmark_item": 9,
+    "bookmark_id": "2110088719059595551",
+    "content": "SMCIrevolver allegation",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261013-014",
+    "reason": "Named unconfirmed Octoberpointer; Junecompliance cannotclearOctober"
+  }
+]

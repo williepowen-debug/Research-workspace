@@ -1,0 +1,331 @@
+[
+  {
+    "item": 1,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUhcXXxX0AALu0x.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-01-1.jpg"
+  },
+  {
+    "item": 3,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HT-OSFpWMAASLHr.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-03-1.jpg"
+  },
+  {
+    "item": 3,
+    "media": 2,
+    "url": "https://pbs.twimg.com/media/HT-OVM3XEAEvPMb.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-03-2.jpg"
+  },
+  {
+    "item": 3,
+    "media": 3,
+    "url": "https://pbs.twimg.com/media/HT-OXLuWwAAG7nF.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-03-3.jpg"
+  },
+  {
+    "item": 4,
+    "media": 1,
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2109757777186836480/img/-pNOBXWVA1haKzod.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-04-1.jpg"
+  },
+  {
+    "item": 5,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUipnfDWUAAKgn8.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-05-1.jpg"
+  },
+  {
+    "item": 6,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUh6XJrXkAACh90.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-06-1.jpg"
+  },
+  {
+    "item": 9,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUiKgRmWkAE3AyV.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-09-1.jpg"
+  },
+  {
+    "item": 10,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUi7NPUXcAEJ8UY.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-10-1.jpg"
+  },
+  {
+    "item": 11,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUdOhBuXQAA80wF.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-11-1.jpg"
+  },
+  {
+    "item": 12,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUi7KvAXQAAi_j8.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-12-1.jpg"
+  },
+  {
+    "item": 13,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUi7YvOWsAA0NuY.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-13-1.jpg"
+  },
+  {
+    "item": 14,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUi7sJuXgAAMLnG.png",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-14-1.jpg"
+  },
+  {
+    "item": 15,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUi7tu7W4AArnWm.png",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-15-1.jpg"
+  },
+  {
+    "item": 16,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUi7yAJWUAAw1bl.png",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-16-1.jpg"
+  },
+  {
+    "item": 17,
+    "media": 1,
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2110098237571178496/img/UNKVAFFTGp6HqUAE.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-17-1.jpg"
+  },
+  {
+    "item": 18,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUiMwEdX0AABsA7.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-18-1.jpg"
+  },
+  {
+    "item": 18,
+    "media": 2,
+    "url": "https://pbs.twimg.com/media/HUiM2hPWkAEl5Td.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-18-2.jpg"
+  },
+  {
+    "item": 22,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUiWLv0XoAAbzx7.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-22-1.jpg"
+  },
+  {
+    "item": 22,
+    "media": 2,
+    "url": "https://pbs.twimg.com/media/HUiWLvzWsAE5W8c.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-22-2.jpg"
+  },
+  {
+    "item": 23,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUhxnauW8AERXXj.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-23-1.jpg"
+  },
+  {
+    "item": 24,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUiMEmOWgAAK2hu.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-24-1.jpg"
+  },
+  {
+    "item": 26,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUgyiYvWIAEzUbP.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-26-1.jpg"
+  },
+  {
+    "item": 28,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUhulTAWIAAj0_e.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-28-1.jpg"
+  },
+  {
+    "item": 29,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUg90bubYAAj3Yc.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-29-1.jpg"
+  },
+  {
+    "item": 30,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUhdOxUWoAAGXb8.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-30-1.jpg"
+  },
+  {
+    "item": 34,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUhYXiqXEAASVmj.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-34-1.jpg"
+  },
+  {
+    "item": 35,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUgVpRiW0AANVSA.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-35-1.jpg"
+  },
+  {
+    "item": 41,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUebZACXYAA_k8X.png",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-41-1.jpg"
+  },
+  {
+    "item": 43,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUg37-YWoAATGNT.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-43-1.jpg"
+  },
+  {
+    "item": 44,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUetpW8bgAAc4yW.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-44-1.jpg"
+  },
+  {
+    "item": 44,
+    "media": 2,
+    "url": "https://pbs.twimg.com/media/HUeuQOUaQAAtj5H.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-44-2.jpg"
+  },
+  {
+    "item": 46,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUdsu_6XgAAuWzx.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-46-1.jpg"
+  },
+  {
+    "item": 50,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUf96D4WsAASCna.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-50-1.jpg"
+  },
+  {
+    "item": 54,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUgrFSEWEAAT0Zl.png",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-54-1.jpg"
+  },
+  {
+    "item": 55,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HT9FaYGaEAACaQ5.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-55-1.jpg"
+  },
+  {
+    "item": 58,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUev2_Ta8AIM-19.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-58-1.jpg"
+  },
+  {
+    "item": 59,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUbARnMXcAADieM.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-59-1.jpg"
+  },
+  {
+    "item": 60,
+    "media": 1,
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2109776404602847232/img/aZxNbPXlSy6arZuN.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-60-1.jpg"
+  },
+  {
+    "item": 62,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUen8i-XEAA5bGB.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-62-1.jpg"
+  },
+  {
+    "item": 63,
+    "media": 1,
+    "url": "https://pbs.twimg.com/amplify_video_thumb/2109652813160869889/img/10j3ZgtzENHJAymr.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-63-1.jpg"
+  },
+  {
+    "item": 64,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUegDcaacAEVnO_.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-64-1.jpg"
+  },
+  {
+    "item": 66,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUeM-82bMAA5cqr.png",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-66-1.jpg"
+  },
+  {
+    "item": 69,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUeXi5_WoAE3gxh.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-69-1.jpg"
+  },
+  {
+    "item": 69,
+    "media": 2,
+    "url": "https://pbs.twimg.com/media/HUeXi6CX0AEvJkd.jpg",
+    "status": "cached",
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-69-2.jpg"
+  },
+  {
+    "item": 70,
+    "media": 1,
+    "url": "https://pbs.twimg.com/media/HUd8bjOawAE2nMf.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-70-1.jpg"
+  },
+  {
+    "item": 70,
+    "media": 2,
+    "url": "https://pbs.twimg.com/media/HUd-bGKbUAA1Nuq.jpg",
+    "status": 200,
+    "local": "/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-13_bookmark-routing/.cache/media-70-2.jpg"
+  }
+]

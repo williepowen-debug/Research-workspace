@@ -1,0 +1,89 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-14_from-WALTER_bookmark-routing-completion.md
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261013-016.md
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261013-017.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-007.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-008.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-009.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-010.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-011.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-022.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261013-026.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-013.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-014.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-015.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261013-019.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261013-023.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261013-008.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261013-010.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261013-011.md
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261013-012.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-008.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-009.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-010.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261013-011.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-007.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-021.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-024.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-027.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261013-025.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-013.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-014.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-016.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-017.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-020.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-021.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261013-024.md
+     [not yours]    AGENTS/OSPREY/inbox/WALTER/SIG-W-20261013-009.md
+     [not yours]    AGENTS/OSPREY/inbox/WALTER/SIG-W-20261013-018.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-015.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-019.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-023.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261013-025.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261013-020.md
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261013-013.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261013-021.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261013-024.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-007.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-013.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-014.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-024.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261013-027.md
+     [not yours]    AGENTS/WAL/sources/housekeeping_2026-10-14/
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261013-007.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261013-012.md
+     [not yours]    AGENTS/YURI/inbox/WALTER/SIG-W-20261013-009.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261013-024.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261013-007-pjm-issued-order-and-demand-response-not-diesel-shortage.md
+     [not yours]    BOARD/SIG-W-20261013-008-dhahran-administrative-building-fire-output-unmeasured.md
+     [not yours]    BOARD/SIG-W-20261013-009-df-peak-oct12-boarding-not-diesel-cargo-confiscation.md
+     [not yours]    BOARD/SIG-W-20261013-010-fujairah-empty-vlcc-retreat-receiving-tonnage.md
+     [not yours]    BOARD/SIG-W-20261013-011-ukmto-time-late-notices-tally-and-identity-guards.md
+     [not yours]    BOARD/SIG-W-20261013-012-neso-transmission-delay-assistance-secure-supply.md
+     [not yours]    BOARD/SIG-W-20261013-013-volta-underwriting-order-not-cleared-financing.md
+     [not yours]    BOARD/SIG-W-20261013-014-ai-credit-quote-leads-instrument-and-cohort-unverified.md
+     [not yours]    BOARD/SIG-W-20261013-015-bac-penalty-crediting-not-regional-credit-loss.md
+     [not yours]    BOARD/SIG-W-20261013-016-CORRECTION-external-tga-average-versus-wednesday.md
+     [not yours]    BOARD/SIG-W-20261013-017-chile-pension-rate-swaps-not-quantified-treasury-selling.md
+     [not yours]    BOARD/SIG-W-20261013-018-yandex-payment-access-compensation-not-bank-run.md
+     [not yours]    BOARD/SIG-W-20261013-019-jpm-q3-reported-managed-and-return-bases.md
+     [not yours]    BOARD/SIG-W-20261013-020-japan-cgpi-september-actual-prior-not-consensus.md
+     [not yours]    BOARD/SIG-W-20261013-021-volsignals-year-end-put-model-and-conditional-vanna.md
+     [not yours]    BOARD/SIG-W-20261013-022-maine-residential-heating-oil-observation-not-futures.md
+     [not yours]    BOARD/SIG-W-20261013-023-picklr-corporate-filing-lease-guarantor-unverified.md
+     [not yours]    BOARD/SIG-W-20261013-024-korea-oct13-close-and-program-sell-sidecar.md
+     [not yours]    BOARD/SIG-W-20261013-025-las-vegas-august-inventory-not-october-clearing-loss.md
+     [not yours]    BOARD/SIG-W-20261013-026-ual-fare-filed-increase-unverified-demand-counterlead.md
+     [not yours]    BOARD/SIG-W-20261013-027-anthropic-internal-coding-output-not-paid-inference-roi.md
+     [not yours]    PROME/research/2026-10-14_compound-stress/
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
