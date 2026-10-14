@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "question": "How likely is the good earnings/stock-price outcome?",
+  "basis": "Existing registered v2.4 valuation scenarios; last probability re-markAugust20, later evidence annotations do not regrade. REGINALD public FY2027 test reviewedOctober14.",
+  "registered_weights_pct": {
+    "bear_fast": 2,
+    "bear_medium": 16,
+    "base": 45,
+    "bull": 30,
+    "tail": 7
+  },
+  "grouping": {
+    "base_plus_bull": 75,
+    "bear_fast_plus_bear_medium_plus_tail": 25
+  },
+  "interpretation": "Existing framework leans toward base/bull valuation outcomes. This is not a75pct calibrated chance of11EPS, risingprice, or a particular contract outcome. Exact FY2027EPS and preDecember stock/option outcome probabilities have not been estimated.",
+  "EPS_assessment": "Roughly11 is the public central expectation being tested and is economically plausible; evidence has not demonstrated it is unlikely or that consensus is wrong. Plausibility and component sensitivities do not quantify likelihood.",
+  "sensitivity_perspective": "Expenses/provision can produce~10.5/~9.9 under fixedrevenue/tax/shares without a bankcrisis; scenarios have no assigned probabilities. Registeredvaluationweights do not map uniquely toEPSbins.",
+  "contract_horizon": "Accepted Fidelity WAL65PDec18-2026x4; December2026 expiry precedes realization/reporting of fullFY2027earnings. Relevant near-term prices respond to outlook/guidance/credit events. No chance-of-profit from25pct adversecases; no currentoptionvaluation or order.",
+  "likelihood_changes_to_watch": "Existing Q3 carriers: recurring PPNR afterallfundingcosts, creditprovisions/cures andappraisal, margin/servicing/hedges; benign andadverseevidence both retained.",
+  "sources": [
+    "THESIS.md",
+    "SCENARIOS.md",
+    "POSITIONS.md",
+    "research/2026-10-14_REGINALD-earnings-test-review.json",
+    "../REGINALD/reports/2026-10-14_WAL_2027_earnings-path-test.md"
+  ],
+  "source_refresh_limit": "This turn's Yahooanalysis open returned429; NasdaqHTML omittedforecasts. No refreshed estimate claimed; reviewedOctober14savedowner snapshot remainsdatedbasis.",
+  "state_changes": "None. No new probability, weight, EPSforecast, grade, trade or deadline assigned; proposedinvestigationsremainunstarted.",
+  "persistence": "Bounded owned interpretation note; noSTATUSwrite/NEXUSrepin. Foreigndirtyworkrequirespushdeferral."
+}
