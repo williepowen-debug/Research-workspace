@@ -1,6 +1,6 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-10-14T14:10:05.827217-04:00 — October14 evidence and current FORGE quantity facts; gates/approvals unchanged.
+**Last Updated:** 2026-10-14T15:35:58.540263-04:00 — October14 body and review list reconciled to the completed owner evidence; approvals unchanged.
 **Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.11** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
@@ -13,11 +13,11 @@
 
 **1. Operational letter and analytical evidence stay separate.** The 9/23 5Y OLD fire was confirmed clean on10/1; its WQ291 dealer leg MET. The rule's exit recommendation remains in force, but Will ruled LATER10/3, path C to10/14. Net inventory is not proof of auction warehousing, funding window UNGRADED, no predictive claim.
 
-**2. Authorized L608 research is delivered.** `analysis/2026-10-05_WQ-357_rebound-research.md` weighs weaker jobs/policy relief, credit tightening and buyback support against the long real-yield/term-premium evidence. No sustained long-end rebound is yet established in completed observations; this does not predict an inevitable further fall. October 7 continuation (`analysis/2026-10-07_catchup/REPORT.md`) adds a clean 10Y auction, a standalone 3Y rarity marker and front-end relief with long-end selling. The minutes preserve a conditional year-end hike bias; the independent dated FedWatch/OIS comparison remains unavailable. Regime and conviction unchanged; no new trade recommendation.
+**2. Completed research is incorporated, including October14.** L608 was delivered October5. The October14 report (`analysis/2026-10-14_post-CPI/REPORT.md`) records the initial CPI yield jump and afternoon long-end retracement, firmer futures policy pricing, and qualified real-yield/inflation-compensation evidence. Clean October7/8 auctions and the September30 inventory unwind weaken a continuing demand-break claim. The broader real-rate rise and cumulative credit broadening remain adverse evidence. Official October14 daily decomposition and morning synchronized TIPS were unavailable at the report cutoff. These observations do not overturn the MET operational recommendation, prove a lasting rebound, reopen an add, or approve a fill. Independent dated OIS/FedWatch remains missing.
 
 **3. Treasury's official bid is real but bounded.** Four current stepped-up operations read OFF-THE-RUN under the original-issue-date rank; latest10/8 read delivered to RED. Full cap utilization is not yield control or a price-cap finding. F1/F3 await11/4.
 
-**4. Credit marker and capital gates remain separate.** Index watch remains fired; October 6 broad HY tightening coexists with CCC widening (KB-BND-419). Paramount's final issuer pricing verifies access for one large secured issuer and supersedes its launch estimate. Comprehensive pulled-deal coverage is unavailable. HYG sizing remains LIQUID/BROCK/TERRY/Will's gate; CCC expression restriction stands.
+**4. Credit marker and capital gates remain separate.** October13 HY/CCC/IG and the October14 LIQUID return show cumulative stronger-tier broadening with tail-dominated widening; the October6 tightening example is historical. One large secured issuer's verified pricing shows that issuer had access, not that all issuers did. A comprehensive pulled-deal census is unavailable. BOND's existing credit-to-equity spread band remains unmet, and HYG sizing remains gated by LIQUID/BROCK/TERRY/Will's existing rules. No index trade is newly proposed.
 
 **5. Current sleeve: TBT5shares; TLT Oct-16 82P CLOSED10/12**, perFORGE10/14brokerreceipt/Activity. Exactfill/capturetimesUNKNOWN;no executablemarks. OlderOctober7 TBT10/TLT1 mirror superseded. Sep-30 77Pwas sold9/30. WQ280NO-ADD stands. WQ339 authorized card drafting only; WQ360 execution remains unapproved. ExistingTERRYdurationexitcardand10/14TBTdecisionclockgovern; BOND executes nothing.
 
@@ -36,7 +36,7 @@
 2. **Decompose before describing:** Δ2Y vs Δ30Y on the breach session (front-led = policy path; long-led = term premium) and real vs breakeven. Write the split on the card.
 3. **Write the add proposal to TERRY with the margin stated; escalate to Will. Nothing executes without [Approve].** Will's 7/16 NO-ADD governs until he says otherwise.
 4. **Root rule #6 (puts on green days):** a breach day is almost certainly a red TLT day. Breaking #6 needs the direct measurement written on the card in figures BEFORE any fill, with no hard guard relaxed (TERRY `RISK_RULES.md` § Breaking root rule #6). *"The window is closing"* is a chase, not a break.
-5. **Crowding:** consensus is short duration and the short-covering rally fires on a DOVISH surprise (8/19 sb0607: TLT +1.67% in a session; the 6/26–29 rally). **The 9/16 FOMC has a hike as the modal outcome, so a HOLD is the dovish surprise.** Any add that fires inside 9/10–9/16 is surfaced with this note attached, never sized mechanically.
+5. **Historical September9 breach-window crowding note (not current consensus or FOMC pricing):** consensus was short duration and the short-covering rally fires on a DOVISH surprise (8/19 sb0607: TLT +1.67% in a session; the 6/26–29 rally). **The 9/16 FOMC has a hike as the modal outcome, so a HOLD is the dovish surprise.** Any add that fires inside 9/10–9/16 is surfaced with this note attached, never sized mechanically.
 
 ---
 
@@ -69,13 +69,13 @@
 | HY OAS >300 ×3 published sessions (met on9/28–9/30; current levels→STATUS) · HY >350 + pulled deals | Credit watch reopens (BOND analysis) · issuance freeze | Price HYG/JNK downside **as analysis only** — any sizing is gated by X1 (CLOSED 8/28; BROCK 10/02 sitting) → TERRY + Will *(corrected 2026-09-28 15:22 ET)*. 300 crossed 9/28 (302); the 350 issuance-freeze line → distance in STATUS. |
 | Fast layer breaks while cash stays tight | Synthetic leading cash — ⚠️ HYG/IEF rises MECHANICALLY in a rates-led selloff (IEF denominator); no divergence at the last run | Early short-credit support only if cash HY agrees. |
 | SOFR−IORB positive after a weak auction (non-quarter-end) | Auction stress funding through repo | Systemic confirmation; escalate LIQUID/PROME. The 9/23 auction funding window is UNGRADED by ruling; current context is in STATUS. Quarter-end is excluded from this test. |
-| Treasury long-end buyback cap lifted | 🔴 **FIRED 8/19** (sb0607). YCC-lite REJECTED on the letter — liquidity-support, yield-reactive in timing; F1 (11/4 ratchet) · **F2 RESOLVED 9/10: OFF-THE-RUN — $5.187B of a $6.0B cap, 75.1% into low-coupon deep-discount legacy paper; the ON-THE-RUN concentration condition is NOT met ⇒ RED's v1.1 ACTIVATES on the off-the-run branch. ⚠️ Offer side thinner than the headline: cover 1.748× is BELOW the prior minimum of every 10Y–20Y op (n=26, min 3.22×) — the official bid may not source paper at scale, which CUTS THE OTHER WAY on the 'official bid over the position's life' argument (`KB-BND-273`)** · F3 (11/4 long-coupon cut) | Bond-supportive; cuts AGAINST the puts; an official bid over the position's remaining life. | ⚠️ **INFERENCE CORRECTED 2026-09-14 (`KB-BND-285`): the cap did NOT bind on this op — Treasury left $813M unused while rejecting $5.3B of tenders — so `tendered/cap` is not a demand statistic here. The arithmetic stands; the 'official bid is weakened' conclusion is DOWNGRADED TO AMBIGUOUS (absolute tenders and accepted/tendered both rank September BETTER). The robust fact is a PRICE one: Treasury would not pay the offered liquidity premium.**
+| Treasury long-end buyback cap lifted | 🔴 **FIRED 8/19** (sb0607). YCC-lite REJECTED on the letter — liquidity-support, yield-reactive in timing; F1 (11/4 ratchet) · **Historical first F2 read, September10: OFF-THE-RUN — $5.187B of a $6.0B cap, 75.1% into low-coupon deep-discount legacy paper; the ON-THE-RUN concentration condition is NOT met ⇒ RED's v1.1 ACTIVATES on the off-the-run branch. ⚠️ Offer side thinner than the headline: cover 1.748× is BELOW the prior minimum of every 10Y–20Y op (n=26, min 3.22×) — the official bid may not source paper at scale, which CUTS THE OTHER WAY on the 'official bid over the position's life' argument (`KB-BND-273`)** · F3 (11/4 long-coupon cut) | Bond-supportive; cuts AGAINST the puts; an official bid over the position's remaining life. | ⚠️ **INFERENCE CORRECTED 2026-09-14 (`KB-BND-285`): the cap did NOT bind on this op — Treasury left $813M unused while rejecting $5.3B of tenders — so `tendered/cap` is not a demand statistic here. The arithmetic stands; the 'official bid is weakened' conclusion is DOWNGRADED TO AMBIGUOUS (absolute tenders and accepted/tendered both rank September BETTER). The robust fact is a PRICE one: Treasury would not pay the offered liquidity premium.**
 
 ## Cross-Agent Dependencies
 
 | BOND signal | Confirmed by | Who needs it |
 |---|---|---|
-| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 · 10/6 = markers | LIQUID owns funding interpretation. Latest shared-date SOFR−IORB = −2bp [10/7], context only; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** (corrected 2026-10-08: that window is closed and stays MET on the first-published cell; latest as-of 2026-09-30 3–6Y $52.885B, −$7.194B, not re-graded, `KB-BND-427`) | PROME, LIQUID, TERRY |
+| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 · 10/6 = markers | LIQUID owns funding interpretation. Latest shared-date context in the October14 report: SOFR−IORB−1bp [October13], before CPI; LIQUID owns funding interpretation; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** (corrected 2026-10-08: that window is closed and stays MET on the first-published cell; latest as-of 2026-09-30 3–6Y $52.885B, −$7.194B, not re-graded, `KB-BND-427`) | PROME, LIQUID, TERRY |
 | JGB-FX transmission | SAM (BOJ/MOF/yen) | SAM, HENRY, LIQUID |
 | Issuance freeze (dormant) | REGINALD refi burden / BROCK private marks | REGINALD, BROCK, HENRY |
 | Long-end break | HENRY vol regime + LIQUID funding | PROME, LIQUID, HENRY |
@@ -83,11 +83,10 @@
 
 ---
 
-## Next Review — live items only
+## Next Review — existing obligations only
 
-- 10/6 3Y marker and10/7 10Y clean graded; counter1. Next10/8 30Y uses frozen2dp manual fallback; tie-band repair remains open.
-- VX20 bounded review serviced10/7; no adoption/secondholder located,absence not proven. Next10/14oronissuernews.
-- 10/7minutes integrated;10/8FR2004,F2,PMMS andVX19qualifier review.
-- 10/14 CPI and WQ357/TERRYheld-positiondecisionclock;10/15F2op.
-- 10/21 FOMCcurve-shape prediction registration;10/28 FOMC.
-- 11/4 QRA F1/F3;futureF2ops on standing carrier.
+- October14 research/catalyst read completed; prior nominal-auction counter2 and F2 four OFF reads remain. WQ400 Bund definition is encoded prospectively, not pending approval. VX20 review serviced October14, next October28 or issuer news.
+- Next BOND touch October15: official October14 nominal/real confirmation when published, FR2004 as-ofOctober7, PMMS, and F2 operation result→RED; freeze the October21 nominal20Y and October22 TIPS bars at announcement. Morning synchronized TIPS is a separate source gap.
+- Existing WQ357 decision concerns TBT5 only; TLT82P sold October12. WQ360's October14 15:00 card window has elapsed at this review; BOND grants no extension or fill and PROME/TERRY own its disposition.
+- October21: register the existing October28 FOMC curve-shape test with its base rate; grade the actual20Y auction before moving counter2.
+- October28: FOMC/VX20 checkpoint; November4: QRA F1/F3; remaining F2 operations under the existing carrier.

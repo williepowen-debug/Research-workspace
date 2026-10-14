@@ -4,6 +4,8 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 **2026-10-14 maintenance (no version change):** CurrentFORGEreceipt closesTLT82P10/12 and reducesTBT10→5;WQ357clocksurvivesforTBT. CPIinitialjump/afternoonretracement andpreCPIreal/ACMrelief recorded inanalysis/2026-10-14_post-CPI/REPORT.md. No thesis/gate/approval re-grade;fundingwindowUNGRADed remains. WQ400existingdefinition encoded only inVX19.
 
+**October14 transition-body correction 2026-10-14T15:35:58.540263-04:00 (v1.2.11 unchanged):** Current CORE THESIS/channel table/TRADE review list brought forward from the already completed October14 report. Removes live CONTESTED/retired-credit assertions; preserves adopted TWO-PART regime, all scores/thresholds/kill/NO-ADD and source limits. Eight FLOW evidence rows refreshed and eight old dated KB observations clarified as historical CONFIRMED records; source/confidence untouched.
+
 ---
 
 ## v1.2.11 — dated note 2026-10-01 17:0x ET (NO version bump: downstream receipts only)

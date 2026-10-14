@@ -1,0 +1,38 @@
+{
+  "thesis/THESIS.md": {
+    "bytes": 71028,
+    "sha256": "5426af5e89988fc38d8ee277287132afe836f5165197bf7f430c34613faf9ae4"
+  },
+  "TRADE.md": {
+    "bytes": 15709,
+    "sha256": "6f92262a1a10cbe4cb72d11d2dd8f8d9b0256a1898428b5699a5327354e18736"
+  },
+  "workbook/FLOW.tsv": {
+    "bytes": 34897,
+    "sha256": "647e5957e26b538de4b5edbf6f7fe6cf15c72cbe4feb34faba7f40db53b9401b"
+  },
+  "workbook/KB.tsv": {
+    "bytes": 696310,
+    "sha256": "149960265ae62fb26072eeef3f178fb275732a3ee245adfe97dcd5de8f57b1e9"
+  },
+  "RECEIPT.md": {
+    "bytes": 975,
+    "sha256": "a6807f02a63ae1c7ca3e8505aca417afaa8c35003a0534fd3759d52a68fc3891"
+  },
+  "SCRATCH.md": {
+    "bytes": 6349,
+    "sha256": "7f95284abf66a7b9cd0dab35d7ad201751bbb1cb3e38c7b11540dccc9fb10677"
+  },
+  "STATUS.md": {
+    "bytes": 8393,
+    "sha256": "7304ebaf12ad433e169f7999f25c83395e91d3495f2ea8f37f0f0b8752d0d12d"
+  },
+  "NEXUS_BRIEF.md": {
+    "bytes": 2210,
+    "sha256": "443fe3ee1012808f139de515da8d74c467ce4122655f0cc4e70d81b19cc30d00"
+  },
+  "thesis/CHANGELOG.md": {
+    "bytes": 81769,
+    "sha256": "2e2654b386be2e7a7f53078ced2d21148f5ac615abf1da8ebcebe3dc76ed400a"
+  }
+}

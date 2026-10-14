@@ -1,0 +1,14 @@
+{
+  "all_VX_rows_identical": true,
+  "all_FLOW_statuses_preserved": true,
+  "all_FLOW_mechanism_fields_preserved": true,
+  "FLOW_evidence_rows_updated": true,
+  "all_prior_KB_values_dates_sources_confidence_preserved": true,
+  "exactly_8_KB_lifecycle_changes": true,
+  "KB_rows459_VX20_FLOW16": true,
+  "no_overdue_ACTIVE_KB": true,
+  "remaining_undated_ACTIVE36": true,
+  "stale_live_CONTESTED_channel_removed": true,
+  "stale_live_credit_inactive_removed": true,
+  "TRADE_no_future_Oct8_review": true
+}
