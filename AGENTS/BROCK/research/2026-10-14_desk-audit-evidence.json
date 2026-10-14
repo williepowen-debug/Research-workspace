@@ -1,0 +1,1500 @@
+{
+  "observed_at": "2026-10-14T18:43:15.570501+00:00",
+  "desk": "BROCK",
+  "session_id": "01a13b8f-5279-7f93-b969-f37996fffee0",
+  "runtime": "Codex CLI / OpenAI gpt-6.1-sol",
+  "audit_scope": "Metadata inventory of164 pre-existing tracked non-archive/non-processed files, plus scoped semantic reads; not every historical source fully read.",
+  "instruction_loading": "Explicit reads in existing owner boot and audit; auto-injection unverified.",
+  "counts": {
+    "preexisting_tracked_current_files": 164,
+    "vx_total": 25,
+    "vx_over30_calendar_days": 22,
+    "vx_over7_calendar_days": 24,
+    "kb_active_confirmed_past_exact_stale_by": 89,
+    "open_predictions": 12,
+    "partial_predictions": 1,
+    "expired_open_stuck_predictions": 0,
+    "direct_inbox_packets": 7,
+    "walter_inbox_packets": 0
+  },
+  "interpretation": "Counts are triage; historical facts/frozen thresholds are not automatically invalid. Last_Updated is not necessarily observation vintage.",
+  "vx_row_age": [
+    {
+      "id": "VX-BRK-001",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-002",
+      "last_updated": "2026-03-26",
+      "calendar_age_days": 202
+    },
+    {
+      "id": "VX-BRK-003",
+      "last_updated": "2026-09-03",
+      "calendar_age_days": 41
+    },
+    {
+      "id": "VX-BRK-004",
+      "last_updated": "2026-10-02",
+      "calendar_age_days": 12
+    },
+    {
+      "id": "VX-BRK-005",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-006",
+      "last_updated": "2026-03-26",
+      "calendar_age_days": 202
+    },
+    {
+      "id": "VX-BRK-007",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-008",
+      "last_updated": "2026-06-20",
+      "calendar_age_days": 116
+    },
+    {
+      "id": "VX-BRK-009",
+      "last_updated": "2026-06-20",
+      "calendar_age_days": 116
+    },
+    {
+      "id": "VX-BRK-010",
+      "last_updated": "2026-06-20",
+      "calendar_age_days": 116
+    },
+    {
+      "id": "VX-BRK-011",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-012",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-013",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-014",
+      "last_updated": "2026-06-08",
+      "calendar_age_days": 128
+    },
+    {
+      "id": "VX-BRK-015",
+      "last_updated": "2026-10-14",
+      "calendar_age_days": 0
+    },
+    {
+      "id": "VX-BRK-016",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-017",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-018",
+      "last_updated": "2026-05-01",
+      "calendar_age_days": 166
+    },
+    {
+      "id": "VX-BRK-019",
+      "last_updated": "2026-05-21",
+      "calendar_age_days": 146
+    },
+    {
+      "id": "VX-BRK-020",
+      "last_updated": "2026-09-25",
+      "calendar_age_days": 19
+    },
+    {
+      "id": "VX-BRK-021",
+      "last_updated": "2026-08-28",
+      "calendar_age_days": 47
+    },
+    {
+      "id": "VX-BRK-022",
+      "last_updated": "2026-08-28",
+      "calendar_age_days": 47
+    },
+    {
+      "id": "VX-BRK-023",
+      "last_updated": "2026-07-17",
+      "calendar_age_days": 89
+    },
+    {
+      "id": "VX-BRK-024",
+      "last_updated": "2026-07-27",
+      "calendar_age_days": 79
+    },
+    {
+      "id": "VX-BRK-025",
+      "last_updated": "2026-08-28",
+      "calendar_age_days": 47
+    }
+  ],
+  "kb_past_stale_by": [
+    {
+      "id": "KB-BRK-007",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-009",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-018",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-019",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-021",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-024",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-029",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-035",
+      "status": "ACTIVE",
+      "stale_by": "2026-04-15"
+    },
+    {
+      "id": "KB-BRK-045",
+      "status": "ACTIVE",
+      "stale_by": "2026-04-30"
+    },
+    {
+      "id": "KB-BRK-049",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-058",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-19"
+    },
+    {
+      "id": "KB-BRK-059",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-19"
+    },
+    {
+      "id": "KB-BRK-060",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-19"
+    },
+    {
+      "id": "KB-BRK-069",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-070",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-071",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-072",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-073",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-074",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-075",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-077",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-078",
+      "status": "CONFIRMED",
+      "stale_by": "2026-04-30"
+    },
+    {
+      "id": "KB-BRK-087",
+      "status": "ACTIVE",
+      "stale_by": "2026-04-30"
+    },
+    {
+      "id": "KB-BRK-089",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-092",
+      "status": "ACTIVE",
+      "stale_by": "2026-05-15"
+    },
+    {
+      "id": "KB-BRK-093",
+      "status": "ACTIVE",
+      "stale_by": "2026-04-03"
+    },
+    {
+      "id": "KB-BRK-096",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-097",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-100",
+      "status": "ACTIVE",
+      "stale_by": "2026-05-31"
+    },
+    {
+      "id": "KB-BRK-102",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-18"
+    },
+    {
+      "id": "KB-BRK-107",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-108",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-110",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-115",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-117",
+      "status": "CONFIRMED",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-118",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-120",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-121",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-123",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-126",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-127",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-128",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-129",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-15"
+    },
+    {
+      "id": "KB-BRK-131",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-132",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-133",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-134",
+      "status": "CONFIRMED",
+      "stale_by": "2026-08-15"
+    },
+    {
+      "id": "KB-BRK-135",
+      "status": "ACTIVE",
+      "stale_by": "2026-05-12"
+    },
+    {
+      "id": "KB-BRK-136",
+      "status": "CONFIRMED",
+      "stale_by": "2026-07-31"
+    },
+    {
+      "id": "KB-BRK-137",
+      "status": "ACTIVE",
+      "stale_by": "2026-06-30"
+    },
+    {
+      "id": "KB-BRK-139",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-31"
+    },
+    {
+      "id": "KB-BRK-140",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-31"
+    },
+    {
+      "id": "KB-BRK-159",
+      "status": "ACTIVE",
+      "stale_by": "2026-07-15"
+    },
+    {
+      "id": "KB-BRK-160",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-161",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-15"
+    },
+    {
+      "id": "KB-BRK-164",
+      "status": "ACTIVE",
+      "stale_by": "2026-07-29"
+    },
+    {
+      "id": "KB-BRK-165",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-31"
+    },
+    {
+      "id": "KB-BRK-167",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-169",
+      "status": "ACTIVE",
+      "stale_by": "2026-07-28"
+    },
+    {
+      "id": "KB-BRK-171",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-173",
+      "status": "ACTIVE",
+      "stale_by": "2026-07-28"
+    },
+    {
+      "id": "KB-BRK-178",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-07"
+    },
+    {
+      "id": "KB-BRK-179",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-07"
+    },
+    {
+      "id": "KB-BRK-181",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-07"
+    },
+    {
+      "id": "KB-BRK-182",
+      "status": "ACTIVE",
+      "stale_by": "2026-07-28"
+    },
+    {
+      "id": "KB-BRK-185",
+      "status": "ACTIVE",
+      "stale_by": "2026-07-21"
+    },
+    {
+      "id": "KB-BRK-199",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-06"
+    },
+    {
+      "id": "KB-BRK-200",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-14"
+    },
+    {
+      "id": "KB-BRK-209",
+      "status": "ACTIVE",
+      "stale_by": "2026-08-21"
+    },
+    {
+      "id": "KB-BRK-230",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-262",
+      "status": "CONFIRMED",
+      "stale_by": "2026-09-11"
+    },
+    {
+      "id": "KB-BRK-269",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-11"
+    },
+    {
+      "id": "KB-BRK-271",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-11"
+    },
+    {
+      "id": "KB-BRK-272",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-11"
+    },
+    {
+      "id": "KB-BRK-273",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-11"
+    },
+    {
+      "id": "KB-BRK-274",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-11"
+    },
+    {
+      "id": "KB-BRK-283",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-30"
+    },
+    {
+      "id": "KB-BRK-285",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-18"
+    },
+    {
+      "id": "KB-BRK-286",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-18"
+    },
+    {
+      "id": "KB-BRK-291",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-24"
+    },
+    {
+      "id": "KB-BRK-292",
+      "status": "ACTIVE",
+      "stale_by": "2026-09-24"
+    },
+    {
+      "id": "KB-BRK-297",
+      "status": "CONFIRMED",
+      "stale_by": "2026-10-01"
+    },
+    {
+      "id": "KB-BRK-298",
+      "status": "CONFIRMED",
+      "stale_by": "2026-10-02"
+    },
+    {
+      "id": "KB-BRK-305",
+      "status": "ACTIVE",
+      "stale_by": "2026-10-02"
+    },
+    {
+      "id": "KB-BRK-308",
+      "status": "ACTIVE",
+      "stale_by": "2026-10-02"
+    },
+    {
+      "id": "KB-BRK-309",
+      "status": "ACTIVE",
+      "stale_by": "2026-10-08"
+    },
+    {
+      "id": "KB-BRK-311",
+      "status": "ACTIVE",
+      "stale_by": "2026-10-09"
+    },
+    {
+      "id": "KB-BRK-317",
+      "status": "ACTIVE",
+      "stale_by": "2026-10-09"
+    },
+    {
+      "id": "KB-BRK-320",
+      "status": "ACTIVE",
+      "stale_by": "2026-10-09"
+    }
+  ],
+  "expired_open_stuck_ids": [],
+  "checks_before_closeout": {
+    "selfcheck": {
+      "command": [
+        "python3",
+        "AGENTS/BROCK/scripts/brock_selfcheck.py"
+      ],
+      "returncode": 0,
+      "stdout": "BROCK selfcheck — gates with FIRE RECORD: GATE-BRK-R2 · resolved predictions: 3 · matrix rows: 14\nCLEAN — covers only checks 1a/1b/2/3 as documented in this file's header; it is not a general staleness audit.\n",
+      "stderr": ""
+    },
+    "corrections": {
+      "command": [
+        "python3",
+        "scripts/corrections_boot_check.py",
+        "BROCK"
+      ],
+      "returncode": 0,
+      "stdout": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BROCK (register 76 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 9) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n",
+      "stderr": ""
+    },
+    "ledger": {
+      "command": [
+        "python3",
+        "scripts/ledger_staleness.py",
+        "BROCK",
+        "--quiet"
+      ],
+      "returncode": 0,
+      "stdout": "  perimeter [BROCK]: 13 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv, research/2026-10-14_wave/fsk_may8_commitments.tsv, research/NDFI_BANK_LEVEL_Q4_2025.tsv\n",
+      "stderr": ""
+    },
+    "read_cap": {
+      "command": [
+        "python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "BROCK"
+      ],
+      "returncode": 0,
+      "stdout": "READ-CAP [BROCK] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 8 cap-bearing (whole/programmatic) measured, 6 declared-not-counted (scoped/grep/summary), 19 manifest row(s) for this desk; 4 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself\n  ✅ AGENTS/BROCK/STATUS.md               22,701 B    70% of budget    (whole · BROCK:1)\n  ✅ AGENTS/BROCK/LESSONS.md              21,662 B    67% of budget    (whole · BROCK:2)\n  ✅ AGENTS/BROCK/catchups/INDEX.md        3,071 B     9% of budget    (whole · BROCK:1)\n  ✅ AGENTS/BROCK/SCRATCH.md               1,119 B     3% of budget    (whole · BROCK:0b)\n  ▣ AGENTS/BROCK/catchups/*.md                   declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 4 member(s) measured, 0 over budget, 0 over the CAP, largest 15,392 B (47% of budget); 1 member(s) also matched by another manifest row, graded there  (BROCK:1)\n      4 member(s) all under 70% of budget (<22,785 B)\n  ▣ AGENTS/BROCK/inbox/WALTER/*.md            —  declared `whole` · CLASS row matched 0 files today (201 files matched historically) — correctly quiet, not counted  (BROCK:5)\n  ◦ AGENTS/BROCK/workbook/PREDICTIONS.tsv 50,649 B  declared `scoped` — not cap-bearing, not counted  (BROCK:3)\n  ◦ AGENTS/BROCK/board_log.tsv        126,262 B  declared `grep` — not cap-bearing, not counted  (BROCK:5)\n  ◦ AGENTS/BROCK/registry/corrections_receipts.tsv  1,084 B  declared `scoped` — not cap-bearing, not counted  (BROCK:5b)\n  ◦ scripts/ledger_staleness.py        71,219 B  declared `summary` — not cap-bearing, not counted  (BROCK:3)\n  ◦ FORGE/tools/market-data/dashboard.py 30,773 B  declared `summary` — not cap-bearing, not counted  (BROCK:4)\n  ◦ scripts/corrections_boot_check.py  46,689 B  declared `summary` — not cap-bearing, not counted  (BROCK:5b)\n  ℹ️ ADVISORY: CLASS row `AGENTS/BROCK/inbox/WALTER/*.md` (BROCK:5) declared `whole` matched 0 files today (201 files matched historically) — correctly quiet, not counted\n✅ READ-CAP 0 [BROCK]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (8 measured, 6 declared-not-counted). Perimeter = the desk's own declaration, not a scan.\n  ℹ️  charter AGENTS/BROCK/CLAUDE.md = 31,216 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\nℹ️  READ-CAP ADVISORY [BROCK]: 1 reading(s) this check will NOT adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BROCK reads=8 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31216\n",
+      "stderr": ""
+    },
+    "inbox": {
+      "command": [
+        "python3",
+        "PROME/tools/inbox_census.py",
+        "BROCK"
+      ],
+      "returncode": 0,
+      "stdout": "BROCK      top-level   7 · WALTER/ 0   (files only; processed/ excluded)\n           - 2026-10-09_from-VULCAN_s5-fired-firmus-ipo-pulled.md\n           - 2026-10-10_from-SHADE_T-SHADE-01-fired-and-W2-primary-wording.md\n           - 2026-10-11_from-REGINALD_WQ419-FHLB-insurer-handoff.md\n           - 2026-10-12_from-DEWEY_cato-causal-wording-consumption.md\n           - 2026-10-12_from-DEWEY_fha-aggregation-erratum.md\n           - 2026-10-12_from-SHADE_L673-provisional-fire-qualified.md\n           - 2026-10-14_from-PROME_compound-stress-evidence.json\n",
+      "stderr": ""
+    }
+  },
+  "pre_audit_inventory": [
+    {
+      "path": "AGENTS/BROCK/ARCH_REPORT_2026-06-26.md",
+      "bytes": 4663,
+      "sha256": "54dc6d2bc6ffb21a62bd7e1cbe76899e025b01bd7c74a73eb5694f168416e09c"
+    },
+    {
+      "path": "AGENTS/BROCK/CLAUDE.md",
+      "bytes": 31216,
+      "sha256": "bbb44ed34662c6ec60f8e28730af9aa5ead3a8e1be443b22ca4f297e6a7d9294"
+    },
+    {
+      "path": "AGENTS/BROCK/EXPECTED_SIGNALS.md",
+      "bytes": 4655,
+      "sha256": "daa2fc51c381dc47e1ce03eee04e63f1af10ae8cbc9bf247e0fe23b6f89b1637"
+    },
+    {
+      "path": "AGENTS/BROCK/LAST_COMPLETION.md",
+      "bytes": 5128,
+      "sha256": "7b6a5243f7853756104034aa54c533b226e3d7fde8f40305fc7bd0f02929c740"
+    },
+    {
+      "path": "AGENTS/BROCK/LESSONS.md",
+      "bytes": 21662,
+      "sha256": "830cc47355d65826deca1ee32a2834abe501edfa3e83e537f0f36e4a8ff7cedc"
+    },
+    {
+      "path": "AGENTS/BROCK/MAINTENANCE.md",
+      "bytes": 9636,
+      "sha256": "aa2b2ea5ce8039563e80b6e9d2b6e99795341b5fb67f76d30c2c766c0a0445ed"
+    },
+    {
+      "path": "AGENTS/BROCK/NEXUS_BRIEF.md",
+      "bytes": 8366,
+      "sha256": "a267f7d38b633eac9fb5b516068415850e0e43c2a06d89b740bda3a4306fb49a"
+    },
+    {
+      "path": "AGENTS/BROCK/OPEN_ITEMS_2026-09-03.md",
+      "bytes": 9150,
+      "sha256": "08abd5b539b7a65fe0c983dc47566334ed35acdc6bd925cc8d7b18c99e8ca3bc"
+    },
+    {
+      "path": "AGENTS/BROCK/OPEN_THREADS_2026-07-09.md",
+      "bytes": 3699,
+      "sha256": "020f1f1c5c4d637395d4ec7725d2e62fea4c5a0cdca2de97d6c56999dcb6f80d"
+    },
+    {
+      "path": "AGENTS/BROCK/SCRATCH.md",
+      "bytes": 1119,
+      "sha256": "ac1b133b9a5b2a210a11871fd655a678aab9911d949c5ef8c4495df98d11165b"
+    },
+    {
+      "path": "AGENTS/BROCK/STATUS.md",
+      "bytes": 22701,
+      "sha256": "11dc7fb5d337bacaaaa13f4f7e0688afbd0a9e42c9968defd09e9abbb4826dd0"
+    },
+    {
+      "path": "AGENTS/BROCK/board_log.tsv",
+      "bytes": 126262,
+      "sha256": "491041d4c795b476a9f58c27fd0ad84a6cf5d3022e4685ccc3964b1189658d03"
+    },
+    {
+      "path": "AGENTS/BROCK/catchups/2026-10-02.md",
+      "bytes": 15392,
+      "sha256": "f11d17e0465277d5e839dc62bf00eb7d4cc5ed454889af6dcf6c71878bebc7f6"
+    },
+    {
+      "path": "AGENTS/BROCK/catchups/2026-10-08.md",
+      "bytes": 6528,
+      "sha256": "add71a5fa81303fd42e9ef2fa9a2630dd32e26c4314f1dfbe36c52f64e282daa"
+    },
+    {
+      "path": "AGENTS/BROCK/catchups/2026-10-09.md",
+      "bytes": 11683,
+      "sha256": "71f9a4c408adb79bcc4f653feb21a4741f5e3d258496cdb8dc99b70079c5f8f5"
+    },
+    {
+      "path": "AGENTS/BROCK/catchups/2026-10-14.md",
+      "bytes": 4185,
+      "sha256": "66efe008b9f939d1e4100bfda81ef521bb8a380628d0d545c9918eb0c39ef91f"
+    },
+    {
+      "path": "AGENTS/BROCK/catchups/INDEX.md",
+      "bytes": 3071,
+      "sha256": "afaa5ac35b28c588820853674e326d8640dc568e223520b105eb46f6d1d202b0"
+    },
+    {
+      "path": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "bytes": 38305,
+      "sha256": "493b636f560d8ee9a07f20221598e4e162f0a43560711695ecc0f2bb8be2e6a5"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/PRIVATE_CREDIT_CONTAGION_TRACKER.md",
+      "bytes": 6646,
+      "sha256": "f7f82acb8ad3e1f7db436b8d815c97e6790f8e0ba732b16a72176320327d7fc0"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-08-13_NEWS_SWEEP_PLAN.md",
+      "bytes": 6872,
+      "sha256": "d6fec1204b30faa6cd533a43a315473d25e65d58dad733cf1cfae15a13ef8e31"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-08-13_NEWS_SWEEP_RESULTS.md",
+      "bytes": 12392,
+      "sha256": "011bdaf95f62fe3d999591d2ae697ec3e17a8117e90190e37fc946db4e639281"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-08-28_BCRED_Q2_READ_AND_FIRST_BRANDS_SWEEP.md",
+      "bytes": 14204,
+      "sha256": "55ebfa28a66e49499289c86c4d3a37e44349ab4be852a944ccecedc5238a0b40"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-08-28_SESSION_CATCHUP_ADJUDICATIONS.md",
+      "bytes": 20435,
+      "sha256": "510748e57cb92a32bd547821639fbc232fc8b86e9b9c31feb12814d13c444958"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-09-02_BCRED_Q3_TENDER_CHECK_AND_CORRECTIONS.md",
+      "bytes": 13340,
+      "sha256": "fe0bb88f6e81efd898e1a5d28d90a3a03aa79f125b72b3a0ec36a269f66d98d6"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-09-09_CRMT_SILVER_POINT_INSTRUMENT_READ_AND_GRADE_STAGING.md",
+      "bytes": 31335,
+      "sha256": "23b1b78a9dc298878a2addfc25b09739d07104cfc62d28649963e97745d56884"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-09-12_CRMT_L260_LIQUIDITY_GRADE.md",
+      "bytes": 11524,
+      "sha256": "3725761118b66e2f38b403d3d12f26e81f598474e3e2cea070fa4551f4672b89"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-09-12_MFIC_LENDINGPOINT_MARK_READ.md",
+      "bytes": 9793,
+      "sha256": "e40e15ee16c3ffa711ab87c1c357cc719e57a278dfeeb69c6d00acf74343599e"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-09-12_OBDC_LOPAREX_AND_THE_NONACCRUAL_BASIS_FINDING.md",
+      "bytes": 9989,
+      "sha256": "2ac9d1ccd2fc16e142f73cd88b74f79174aca03fefdba5518dd1fbb7c900b11f"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-09-12_WQ219_ASIF_BRK30_D2_DISCLOSURE_DRAFT.md",
+      "bytes": 12693,
+      "sha256": "fcd44bea380898712cdeefb5b751c06275eff49d549d41aa582237ef6b538717"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/2026-09-21_L421_ACCEPTANCE_CONDITIONS.md",
+      "bytes": 4851,
+      "sha256": "7e90fbfc353759d56694c3acb89f09fe4ba452448e124122097c6c641423f3dc"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/ARCC_Q2_READ_AUG03.md",
+      "bytes": 9571,
+      "sha256": "7ca53206526d0722ac2a4b798db432f89fc2faf1ee272310f5fe7faa019ac8b0"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/BANK_TO_BDC_READTHROUGH_MAP_JUL09.md",
+      "bytes": 4786,
+      "sha256": "084c6abee59471f6030105993430bb36a74c1118eae9c44bec5f1aeec25bd7be"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/BCRED_OCIC_Q1_READ_JUN04.md",
+      "bytes": 13461,
+      "sha256": "c55adbd64d56566b9eb16b046a3cd648260d0fa04c463f8c424a3dfd93e29c41"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/BRK02_INDUSTRY_INSTRUMENT_BLIND_SPEC_AUG13.md",
+      "bytes": 9991,
+      "sha256": "88ee42c53244149f7370f44aa729ac7c15966cbc37ad91dc47262f974de5fbc5"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/BRK32_QUEUE_AMPLITUDE_SPEC_JUL27.md",
+      "bytes": 15309,
+      "sha256": "2de67d411a4d70db61e0af5c8d968f5ce3b1a62cec9c1118b452c591e01257bb"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/CCLFX_WATCH_JUL17.md",
+      "bytes": 11930,
+      "sha256": "02ba9931a8a96d9ebebaa29ac6884b4444909f0225876a895b017db040e222a1"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/CLUSTER_Q2_GRADES_AUG07.md",
+      "bytes": 38217,
+      "sha256": "826031eb14e9558f37b1172a3592ada38e14160ece705ff6e8721c0e82ca55ee"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/FSK_PREBUILD_MAY11.md",
+      "bytes": 13027,
+      "sha256": "26f9b0a4281b91e802c98b7aa49d80c850cdf74667649c71044063ceeb9590c6"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/FSK_Q1_READ_MAY21.md",
+      "bytes": 13809,
+      "sha256": "1ab227ab8b2cd2852306605d4f73e528396e0bccd07fff6232567d6594ad4840"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/INBOX_SWEEP_MAY21.md",
+      "bytes": 10706,
+      "sha256": "8d40f0e5cd1e5558b7aa74527092b560e89c9f6abee320b6b817ff4af42b428b"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md",
+      "bytes": 9313,
+      "sha256": "e761b172328551ebca816ea79cb73310bd63ec1b4356f01bcd0682cf9b84347e"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/NDFI_FRAMEWORK_MAY21.md",
+      "bytes": 12076,
+      "sha256": "85d59f683b6c4725460e439d92dab1283276233e762968d2411296cadcb9df22"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/OTF_PIK_BASIS_RECONCILIATION_CARD_JUL28.md",
+      "bytes": 5228,
+      "sha256": "90b40bb649276d3f904914287182f99b479787ac2be60386ae9e97b4285548f8"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/OTF_Q1_READ_JUN04.md",
+      "bytes": 6402,
+      "sha256": "e086dcbae788e5e47137d06d056024c7e207314bbd1bb4dc1fcb1e131027bdee"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/OTF_VALUATION_LITIGATION_JUL17.md",
+      "bytes": 7456,
+      "sha256": "9a0244e47ad7ca57f4e8a5366230b3e3b40f9771cbb22606499bd26d28be44e8"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/POSITION_DECISIONS_MAY21.md",
+      "bytes": 7996,
+      "sha256": "358513db0d543a2c4285f2dd51b55b68cf7032947a177ea4c199ded6792eae9f"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/Q2_BDC_CATALYST_MAP.md",
+      "bytes": 4978,
+      "sha256": "72a39a34b9a6f43e0f74e822d22fcd80aa9c648c8b9b537a91d0f20ec1dca7ee"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/Q2_MARKS_WINDOW_PREP_JUL17.md",
+      "bytes": 11540,
+      "sha256": "afe417172d925a2ec0fb829b030693c57a5db6140395bfe2f31872f5b9974d57"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/STATUS_ARCHIVE_MAY01_EOD.md",
+      "bytes": 14120,
+      "sha256": "f0d7fbf0ad5a942a8c0bea4479dde9ac3b659de06cf1ad7da2000dd75399dee4"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/STATUS_SESSION_BLOCKS_ARCHIVE_AUG13.md",
+      "bytes": 71425,
+      "sha256": "7e70a7186ad08b526bea1fd1e2c5d8af524423601e3be9619334a83959bce14b"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/WINDOW_TRIGGER_DISCOUNT_REGISTER_JUL28.md",
+      "bytes": 8597,
+      "sha256": "7776de12406f5ce81656a714a22865384919bac1df76ac1b44717f4c3d527df4"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/X1_RETEST_ADJUDICATION_JUL27.md",
+      "bytes": 9251,
+      "sha256": "9d5f60e4b463a477b38c9aa8dd66f17987f35bb9ba89078325ede621cdb6c665"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/sources/X1_WRAPPER_LEADS_ADJUDICATION_JUL04.md",
+      "bytes": 4659,
+      "sha256": "4e3a17aded745c33d0b562045f830c5fce1eaae4e825adbdf813fb7dc20bcd9c"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/2026-10-09_from-VULCAN_s5-fired-firmus-ipo-pulled.md",
+      "bytes": 1278,
+      "sha256": "f115dacef2d24764079b6498b1de712a1dcc16e253821ed84d615a30dbf0ea64"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/2026-10-10_from-SHADE_T-SHADE-01-fired-and-W2-primary-wording.md",
+      "bytes": 1392,
+      "sha256": "4cffd879f00f0a20c264f6a1be34d9378664665e583eb661f473fca984e96720"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/2026-10-11_from-REGINALD_WQ419-FHLB-insurer-handoff.md",
+      "bytes": 1067,
+      "sha256": "f4585c149f5b9d6cbd846f66be2f33ee6852a532157489a8dc372720d3ae481b"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/2026-10-12_from-DEWEY_cato-causal-wording-consumption.md",
+      "bytes": 1185,
+      "sha256": "faa1751fef06686fb74a8cee7992d0be3e7bb019d23f47e749669c197c803d75"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+      "bytes": 865,
+      "sha256": "95924c22220d57924d775f4bb3f4d3dd7e75b64f827754a72e173e48698ae6f8"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/2026-10-12_from-SHADE_L673-provisional-fire-qualified.md",
+      "bytes": 802,
+      "sha256": "9faebd1529647edafeb22847285ab0463446f23b078c038afad435fe1c099764"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/2026-10-14_from-PROME_compound-stress-evidence.json",
+      "bytes": 1060,
+      "sha256": "ed8ecb95046826f1f7b05795798f607bcdb9d2efee5d3e22e88b81681b3cb8f0"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-04-07_to-CARL_walmart-recession-gfc-levels.md",
+      "bytes": 568,
+      "sha256": "d1e22603e0f16a2c2fff1d272212ba68fbd831e18636b62e43c2a206514d667d"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-04-07_to-LIQUID_goldman-trs-wells-repo.md",
+      "bytes": 860,
+      "sha256": "028b7a41f926b661f03c04b8c755797f7c382643d16aaa10bc68c90b6f609457"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-05-01_to-HAWK_treasury-insurance-convening-athene-fhlb.md",
+      "bytes": 1286,
+      "sha256": "843ec3e892975219964ecb4b3c1401968963c96ed9978d49180f174e7b98f879"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-05-01_to-LIQUID_hy-oas-260-proximity.md",
+      "bytes": 1043,
+      "sha256": "60487d478d1e7a35d3823a2b27ca7f02389853c6112eca55567288ee3e2f2646"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-05-01_to-OTTO_arcc-q1-actuals-addendum.md",
+      "bytes": 1535,
+      "sha256": "27d8151f744946b7cfbb59b7207b1d3f870ba696bd1201a9be76c7892fef4289"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-05-01_to-OTTO_owl-q1-dl-decoupling.md",
+      "bytes": 1513,
+      "sha256": "ff6187ab83f97c20860af698b870e0d2d42e76f4fff4704ace4e0559bda7ead7"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-05-01_to-REGINALD_bank-pc-cascade-resolved.md",
+      "bytes": 1813,
+      "sha256": "a4f57726bdd59ac638ed9ffb10b0e2ce5ea9c1eab97c4c4d448a52a70aba0823"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-05-01_to-REGINALD_bcred-sponsor-backstop-and-sec-probe.md",
+      "bytes": 1576,
+      "sha256": "2134127fcc0bbeb04d2cde21284d3bd34188d2a61e77dac37667d6945ba35518"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-05-21_to-WALTER_ndfi-req-closed.md",
+      "bytes": 2311,
+      "sha256": "87491f21ae56c84fb252d2180e577e5bc3704da513c0c24e4152a734b82d4bdd"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-06-04_to-OTTO_medallia-cross-fund-exposure.md",
+      "bytes": 2568,
+      "sha256": "fff7b9200267a9cb0f2363c08594060ed9ede45f5feeb9c83e233cc9357688a2"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-06-08_to-LIQUID-REGINALD-OTTO_gate-cluster.md",
+      "bytes": 1453,
+      "sha256": "d65c55cbfe27432c60e979be471641f19426736ed9f10c3c1dfb639bc11a2156"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-06-08_to-LIQUID_partners-group-pe-contagion-pc-issuance-collapse.md",
+      "bytes": 1872,
+      "sha256": "16b3d4c2db4a0acfe38c340842802ff386afba56c9ea6c202a929d67220ad11a"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-06-08_to-OTTO_three-public-bdc-div-cut-cluster.md",
+      "bytes": 1072,
+      "sha256": "1f0aa178d62a4d216accaad8a13a3a8fe82fa679bd8e20495f101e9a0202278c"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-06-08_to-PROME_jun18-credit-trigger-calibration-late-response.md",
+      "bytes": 6258,
+      "sha256": "e101eefd0f78f8f212c4ea6b05aefc1648a5cddb6953812ac2c9aeddf74a689e"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-06-08_to-PROME_root-claudemd-git-discipline-divergence-fleet-converged.md",
+      "bytes": 5162,
+      "sha256": "408837792e84c1843a5b69e7ef83368225b1ee560249c561fc5a0d4065c8d4ea"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-06-08_to-REGINALD_pc-pe-contagion-record-default-form-pf-reframe.md",
+      "bytes": 1878,
+      "sha256": "7d88e6047997a44327b5057e872f495fba94c648762b8fba69f7862ae9653bb8"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-07-04_to-LIQUID_x1-wrapper-leads-verdict.md",
+      "bytes": 1623,
+      "sha256": "66dbf5571d86bcf6e904e3facad59607e711967df779800c05608aed377b551b"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-07-17_to-PROME_cclfx-premise-correction-and-marks-window-prep.md",
+      "bytes": 14511,
+      "sha256": "8eb108af62cbbb094256ac97cd3c5e3e649d4a721d5dfdfd223a7d009a89f1a6"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-07-20_to-PROME_pcpe-catchup.md",
+      "bytes": 2342,
+      "sha256": "f1d189c4b46768c31dab1a629454165ad81d9c343b87421ecbff73e649a0a191"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-08-13_to-PROME_private-credit-session.md",
+      "bytes": 8723,
+      "sha256": "8105d3bb3a7ff25578df8945f38f6519a12e1430f37e0dac1b6549aee5e29003"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-08-28_to-PROME_closeout-receipt.md",
+      "bytes": 11567,
+      "sha256": "56dd74c549acd3236e049b7856429562b85ff35f5b7e4cc476440d221061f0ae"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-08-28_to-PROME_first-brands-ch7-x1-adjudication-and-inbox-drain.md",
+      "bytes": 10838,
+      "sha256": "290e6d438e63caa0d6d0997c62723b9385de5da170d32862f68299cdd5d49d09"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-08-28b_to-PROME_bcred-q2-read-first-brands-sweep-and-round-2-closeout.md",
+      "bytes": 9402,
+      "sha256": "822405fea9393196b288ff20b6df2ecb35ca2ccadd43cef61fe952a57373bbad"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-09-02_to-PROME_bcred-tender-check-and-inbox-drained.md",
+      "bytes": 6314,
+      "sha256": "57816eb715041dfd95f7f930c7cf6ca293146ff5b52e0a69eced6250a15ff4a1"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/2026-10-14_to-PROME_wave-closeout.json",
+      "bytes": 2958,
+      "sha256": "694eea13d5585155ee3dfe78c281e4a8e1acdf87201f1813ae0807f6eb72c7d5"
+    },
+    {
+      "path": "AGENTS/BROCK/outbox/delivered/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AGENTS/BROCK/registry/corrections_receipts.tsv",
+      "bytes": 1084,
+      "sha256": "48a37fd23a711deced80bfdc9fb0795e31449f56214e739f15be876b7ddaa6ef"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-09-03_BCRED_Q2_NONACCRUAL_NAMES.md",
+      "bytes": 5004,
+      "sha256": "00de89ea6577267bd341bc221ad08c7ec405a0e2b6edf50f0c4d487b8927decb"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-09-03_MIGRATION_TEST_RESULT.md",
+      "bytes": 5916,
+      "sha256": "ca2af3aecd605690ed4274dba76c85d106a4b8cd21d53458869749877b135c03"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-09-03_WQ158_OUT_OF_SAMPLE_PREREG.md",
+      "bytes": 6100,
+      "sha256": "80403cfc0a4b85e6b73b18e74a7b68c4a1032dec0be39fd5abba20927cfb5f7c"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-09-03_WQ158_OUT_OF_SAMPLE_RESULTS.md",
+      "bytes": 7879,
+      "sha256": "aba36f370db0c0002f152e0b3bbc1adbda9f0d068533a14910b5e380d656dad9"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-09-25_HY-280-touch_wrapper-half.md",
+      "bytes": 17806,
+      "sha256": "fe98d5c47d5f0e61711ec0dfb43838a27f4bdcaef60d306d9ebea146b314b06a"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-02_BRK-02-grade_W1-leg_WQ-318-facility-notes.md",
+      "bytes": 12777,
+      "sha256": "2c0132435e023e2a049f0acaeef161146a50333f844b1d8f7ace0f599aa5be5e"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-02_CREED-read-across.md",
+      "bytes": 5535,
+      "sha256": "a16a0ba05a6b62eaef6756f9541ffed0183b7511413d01b82648e005d70e05b9"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-02_L494-X1-sitting_CRMT-bridge5_BDC-tape.md",
+      "bytes": 18274,
+      "sha256": "fcfa759ba651877f55dd9bb8d456bb57b5cc0f8a3cc888002d2a038c91d44ea3"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-09_BRK-31_bank-Q3_frame_FROZEN.md",
+      "bytes": 10684,
+      "sha256": "dcf81c4fe9f538a3e664b74a72c26741403d8009787f6ab36fe85e3797d88cff"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-09_GATE-BRK-OTIC_draft-letter.md",
+      "bytes": 8784,
+      "sha256": "53e3b22090b83349666371574c73d249a8b33b365bb944734e1dfac9bdf30199"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/.gitignore",
+      "bytes": 200,
+      "sha256": "416e27533da333a057413ef293ad9124637966176c7d77dd777b73b028f6b350"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/CRMT_Oct15_checkpoint.md",
+      "bytes": 5359,
+      "sha256": "65e939d306f7072d6eabedd16b46350798fde0ce28dcc3b6d6699f68cc17b6d7"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/FSK_cash_collateral_lenders.md",
+      "bytes": 7185,
+      "sha256": "4cbfcec0708c9538028c2a2ae0ce6a8da399e76da18a27317c210b34b97d13d3"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/bank_Q3_read.md",
+      "bytes": 6273,
+      "sha256": "46ea50b1c21e3af88f6003e5e54f98ed33326b24aa9ecba230b403f678af9d7c"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/bank_primary_extracts.json",
+      "bytes": 25833,
+      "sha256": "a64a7cd59e02e27813c3c2a24ef2a7976f4c390134b04e62f41c61e97eca2579"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/boot.json",
+      "bytes": 1790,
+      "sha256": "ca16a1fa0b6f102819cab5faa9e835ac6c747ba3aeb36b9e86bc552c6789757a"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/cabo_submissions_correct.json",
+      "bytes": 140036,
+      "sha256": "bd111ef68501b6baff340a94cc38ec57a7c21af10e4f6b31b39615b5d36fd9bb"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/citi_8k.txt",
+      "bytes": 152461,
+      "sha256": "3c87ba95c3a05e75423f437dd6e4031299d47e2426e28434fd7ffdf64246400d"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/citi_call.txt",
+      "bytes": 75824,
+      "sha256": "95d095d96f0241d74f04270a6c28874e1c62c10c4269ece5628a0c58508196f8"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/closeout_validation.json",
+      "bytes": 851,
+      "sha256": "186d7172da143eefb1be94a2bc0aeba89a600a1a23ac11eea8652266b08f75c3"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/collect.py",
+      "bytes": 2742,
+      "sha256": "0daec572f5ebd99bd92c23787da3f1f9f0e9f5dcadb5ba4f78d83ee1fd12187e"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/consumer_check_disposition.json",
+      "bytes": 961,
+      "sha256": "3780850f358753aac3665b0a99af05d58f6d33fc15a4a846e52a664e2d059b9f"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/crmt_bridge6_retry.txt",
+      "bytes": 10117,
+      "sha256": "05ed41cad26bf2734e34b01b255a6b4a2feffc7c85c649e7b0cfa750c05a5029"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/crmt_submissions.json",
+      "bytes": 162822,
+      "sha256": "a9b310580b4ab3c7c1175bf0ee0c794c792fd2d6f5e0463b3bfc38505927c8f2"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_advance_rate_table.txt",
+      "bytes": 1661,
+      "sha256": "50f23b112514bee7a310677509e115ff4db40004da19e80d3883fac26c1705dc"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_borrowing_base_extract.txt",
+      "bytes": 24233,
+      "sha256": "04d0a13b007821b4060402119034c9a8cbe23a02abbe90f1dd7e4196b9c4b213"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_bridge.json",
+      "bytes": 12074,
+      "sha256": "2678e35b4ea8efe38ca809376948b7f30a2ae570b73aafb16678a1f84e88b830"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_kellermeyer_rows.json",
+      "bytes": 1982,
+      "sha256": "e7dfc765d4278512ff46621a1d94974ac17c71c3e16f08def08edd7c2273595c"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_may8_commitments.tsv",
+      "bytes": 1727,
+      "sha256": "423aea8c813fe1bb212b7267c7ab248421406675b1bfdab3afa181bf6b4453d5"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_note_extracts.json",
+      "bytes": 17961,
+      "sha256": "8322f2863958742101a3bedd21dff381a87ddb3b3fda1add889e53ca46e48ae5"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_release_oct8.txt",
+      "bytes": 12101,
+      "sha256": "1e3d4c02ab2aa47093be6f8cf6fd8f5d1a47ebd93aac57866760d1e9afe03737"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_submissions.json",
+      "bytes": 172213,
+      "sha256": "3df6b2986565160c12cbbfd0cd0d071a73b020c00a21a62eaedfe585a39f8970"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/intake_dispositions.md",
+      "bytes": 3610,
+      "sha256": "6cfe47efc07927ba76b9ceb418ba5e8820d8d0c0feab139eaab428e147df9b7a"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/jpm_deck.txt",
+      "bytes": 21761,
+      "sha256": "7e13967332fcca730398cf0fd29b33eb6d4a4b6376959bd485e944f6c7cbf836"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/jpm_quarterly_feed.json",
+      "bytes": 105429,
+      "sha256": "dcd8a163401658bd02fdf62d99517a89c199b0b24275d3e31cc0d59a1512cb2b"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/jpm_release.txt",
+      "bytes": 23969,
+      "sha256": "e3a2c143e6a81b88defd166a24a35cbd4c550a4c11acb183dffec52b3fb5468d"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/jpm_supplement.txt",
+      "bytes": 95750,
+      "sha256": "ca01c0e6bd9638836ca64f5c1fa6edeae37f0fd341d8532607241a6cad00f407"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/retirement_scan.json",
+      "bytes": 698,
+      "sha256": "cd79fcee6dd61d57c24f39d7f4fc014cd3ad11a61a8903981abd66fd8a7ba508"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/retrieval.json",
+      "bytes": 8250,
+      "sha256": "b2a50bdc170d634c18c3df432e24f07c02662322b3cbdf19d4a9410b7fa95ca5"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/wfc_release.txt",
+      "bytes": 29382,
+      "sha256": "7871bff7c25b2137d997842530161f79d1db3b28d1075e04176bbf6944bf839d"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/wfc_supplement.txt",
+      "bytes": 68369,
+      "sha256": "1c636dac09a6b21a8beda8b25e31c86c017963f200470ec8d1873df582d6d28e"
+    },
+    {
+      "path": "AGENTS/BROCK/research/APO_LITIGATION_MAP_MAR26.md",
+      "bytes": 9210,
+      "sha256": "315df8af3dcad11bb9eefb092848356e412aa562ca31855e49bb1b3c083c2973"
+    },
+    {
+      "path": "AGENTS/BROCK/research/ARES/ARES_DEEP_DIVE.md",
+      "bytes": 17712,
+      "sha256": "6c6e0da85cb8e6bdac7dc1e8080c410917404f169ff84b91d4bf30de2773d19b"
+    },
+    {
+      "path": "AGENTS/BROCK/research/ARES_PREREPORT_MAR26.md",
+      "bytes": 9393,
+      "sha256": "5d4af580733e9f6c99f62feee4abbd571d37c92c3b3f16b0d2186ba863711d5e"
+    },
+    {
+      "path": "AGENTS/BROCK/research/BDC_CATALYST_FRAMEWORK_MAR26-27.md",
+      "bytes": 10428,
+      "sha256": "a8a8b9185b3241f77b85ec99e8c028977cc80ec1fea443c3dee12d34f647a33a"
+    },
+    {
+      "path": "AGENTS/BROCK/research/CLAUDE_PC_CONTAGION.md",
+      "bytes": 9092,
+      "sha256": "2089044ca2a5aa11e22e225f3d406fed0577ee3e7b3e5f137c9c27bbb241c7a6"
+    },
+    {
+      "path": "AGENTS/BROCK/research/FFIEC_NDFI_ANALYSIS_Q4_2025.md",
+      "bytes": 8384,
+      "sha256": "0433b221d68c7cccdb9c68cdf4e969fec7397904cfcdb35d51667864686d7f99"
+    },
+    {
+      "path": "AGENTS/BROCK/research/GEMINI_PC_CONTAGION.md",
+      "bytes": 6869,
+      "sha256": "617fbb3b8e8792132c1490276d066d1bfc968e1f063efeaa6532669dfedb573d"
+    },
+    {
+      "path": "AGENTS/BROCK/research/NDFI_BANK_LEVEL_Q4_2025.tsv",
+      "bytes": 28706,
+      "sha256": "d6ba94a99325aaad717d9173df27faa115dc2033f633ef22b516fcb0e5b2deb5"
+    },
+    {
+      "path": "AGENTS/BROCK/research/OBDCII_FRAMEWORK_MAR27.md",
+      "bytes": 10325,
+      "sha256": "a96e8ec5341c19806d35bae5f7847d3269aec4efc09a9b617260b427145d6728"
+    },
+    {
+      "path": "AGENTS/BROCK/research/PC_CONTAGION_MECHANICS.md",
+      "bytes": 19437,
+      "sha256": "072302b3f1c442c684c32d0c2c72a1d9e95c7aaff11953d9c9733d330e3658db"
+    },
+    {
+      "path": "AGENTS/BROCK/research/PERPLEXITY_PC_CONTAGION.md",
+      "bytes": 3701,
+      "sha256": "d63a6adf67167530b67e8d10e1dc73d2cb7b6672d7df0fe8a191b1f7105fe572"
+    },
+    {
+      "path": "AGENTS/BROCK/research/SYSTEMIC_INTERSECTIONS_PC_COUNTERPARTY_ANALYSIS.md",
+      "bytes": 12575,
+      "sha256": "f5ff50a1f7a2677b6bf473959678522838086b8dc9ce454b5697e6c89354df49"
+    },
+    {
+      "path": "AGENTS/BROCK/scripts/brock_selfcheck.py",
+      "bytes": 6829,
+      "sha256": "dc8fa55787689012bb1a4df1c12e142a6a947c4a58865d167e04abcae8e4bb36"
+    },
+    {
+      "path": "AGENTS/BROCK/tools/soi_nonaccrual.py",
+      "bytes": 8275,
+      "sha256": "15d4813bcabf7d0ecec1f85bff8faacd968d5da3ef55f2ba0dc638bdd4a1b061"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/APO/APO_DEEP_DIVE.md",
+      "bytes": 14392,
+      "sha256": "f6ce7d17fd8a860d69f6809323b121cd96cc0b2efbf5958794ae18f4eb2e77b8"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/APO/ATHENE_STATUTORY_FY2025.md",
+      "bytes": 12709,
+      "sha256": "a563268b829f77d800d8b02bfe28eaf1156ffd6c7ae3e3db89e5de9ae9a3e9de"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/APO/ATHENE_STATUTORY_PREP.md",
+      "bytes": 10685,
+      "sha256": "074d84249fc3dab307fddf75098125216ac51746a7c5ff1fdfb02338e0ef137b"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/APO/ZITO_FALLOUT.md",
+      "bytes": 7474,
+      "sha256": "1acc936a2477f04bdd27f122d9b3ccc0eef58465bc4ed85ae127ec7ff53f309f"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/CROSS_ANALYSIS.md",
+      "bytes": 17223,
+      "sha256": "0cbdea4a92690b6f7fece893971703e4aa826efaa0cf4efc6c1bd9e509828472"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/NAMES.md",
+      "bytes": 11523,
+      "sha256": "d4c81df71a6b3503c3ad2ac340302ac33093d93aa0d0a00f46eb53477547c5b0"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/TRADE.md",
+      "bytes": 23589,
+      "sha256": "bf5d084ffd96e8fddae5840da74eef70fc704cf0378499da317dc934b309b1c3"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/BANK_BDC_MATRIX.tsv",
+      "bytes": 3190,
+      "sha256": "ea730fcadcf0497962ca5d1d4805ce3b088e56f10af6bade8cd8a9d8641b2406"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/BDC_CASH_COVERAGE.tsv",
+      "bytes": 1541,
+      "sha256": "197bbc9c5a36d34faaa2d89d0f19dcb53016b3fa1f8b3e8ec7ccdd9af95801b9"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/FLOW.tsv",
+      "bytes": 23372,
+      "sha256": "203d9dc7c4c18f7b133e38bc303bc3dbdf4358ada8119fd5921914492a72d5b5"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/KB.tsv",
+      "bytes": 323797,
+      "sha256": "002c29c5ef7c549ae0174fb02b6efb99cd891fc8952843aac3350b1aaa8dcc81"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/KB_ARCHIVE_MAR26.tsv",
+      "bytes": 46111,
+      "sha256": "bde1269913f887634c7fed58bd6c90668f38d2346c70873caed1f7c03a7fd0d4"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/LEDGER_GLOB",
+      "bytes": 28,
+      "sha256": "b63db651b4d14143e1ea0270203a5f6e3206e52f9837c80260c58d300faefcf2"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv",
+      "bytes": 41506,
+      "sha256": "1fcb91b0d1886b397df585146cf6644c5dc4584640b2fb34c5343b6cb3a82ce8"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS.tsv",
+      "bytes": 50649,
+      "sha256": "530ebb07f821dddafcae1714a4a830534892d58116f0d897fe425831a22c1f06"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS_ARCHIVE.tsv",
+      "bytes": 10316,
+      "sha256": "2064c0f09ca1fc3b847d677e200b69b208b6fea205c0643c1cc205bfc8b1c5c6"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS_SCOREBOARD.md",
+      "bytes": 6848,
+      "sha256": "806446f5c50396ca44f86a21afc83f11e053524886a1386fc53e7875be870734"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PUBLISHED.tsv",
+      "bytes": 5838,
+      "sha256": "099cb4876ba8ff19e5122cf822892a023615c33b436c25e0c1bdd635e6d107eb"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/SCHEMA.tsv",
+      "bytes": 1829,
+      "sha256": "1a1b90897e7839d533e51c8f100287ef06dc440681097c05c275789aea13eb03"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/STATUS_ARCHIVE_MAR26.md",
+      "bytes": 16207,
+      "sha256": "92a6f8b83a146632b889a8a9ee7d0d0a4c9319c38f0073a0351a4533ad8662ba"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/VX.tsv",
+      "bytes": 26058,
+      "sha256": "4b0aa9fd7807a28484ac2626e72d453af0762ea0d37810f03ce73df258185642"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/VX_HISTORY.tsv",
+      "bytes": 3629,
+      "sha256": "689e8ce0790821ec0d6925e26f4eda7f8eccdd7ebb92ddec17d65f5555a1e221"
+    }
+  ],
+  "report": "AGENTS/BROCK/research/2026-10-14_desk-audit.md",
+  "findings": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14",
+    "A15"
+  ],
+  "peer_consumption": "UNKNOWN",
+  "native_transport": "Unavailable to independent desk windows",
+  "research_changes": "None; no score, probability, threshold, trade or frozen framework changes.",
+  "git": "Exact audit paths to be locally committed. Prior safe-push review rejected destination ownership/privacy and payload-specific approval; no workaround.",
+  "checks_after_closeout": {
+    "selfcheck": "CLEAN narrow checks",
+    "read_cap": "PASS, STATUS22555bytes, all8measured reads under budget",
+    "ledger_nudge": "PC_REDEMPTION_REGISTER.tsv and PUBLISHED.tsv nine STATUS writes behind. Left unchanged for audit/report; no new domain observations/grades, concrete propagation findings recorded for owner repair.",
+    "orphan": "Only self-authored PROME desk-audit packet is own new external-path artifact; concurrent peer files preserved.",
+    "report_sha256": "1c8b4268b0565e58dc8bcb13b46340faa85fae41045f02f9e3ca649b088db56d"
+  }
+}

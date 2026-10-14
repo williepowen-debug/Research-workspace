@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-14 Wed 14:15 ET — Will own-window wave: Q3 attribution provisional; FSK cash/collateral bridge; CRMT 10/15 prepared. Evidence → `research/2026-10-14_wave/`; narrative → CURRENT catch-up.
+**Updated:** 2026-10-14 Wed 14:43 ET — Will desk audit; findings pending. See `research/2026-10-14_desk-audit.md`; wave evidence retained; narrative → CURRENT catch-up.
 
 ---
 
@@ -113,4 +113,4 @@
 STEP 2 needs 2 of 3 reversals to override. ① BCRED gate + NA declining — ❌ (first-ever 5% gate; Q3 cap held; 8/28 primary: NA 2.4→2.2% but distribution CUT 10% and NAV −2.23%). ② FSK/OBDC Q2 NA reversing — ❌ (FSK NAV −2.81%, FV/Cost .9171→.9059; OBDC −1.04%). ③ OTF software-exit — ❌ not observed. **⇒ 0/3, substance does not override.** ⚠️ STEP 2 applies only once the literal trigger fires (0/10 <260 — authorises nothing either direction).
 ## BOTTOM LINE
 
-**2026-10-14 — Three bank Q3 releases establish no private-credit fire; category attribution remains insufficient.** Kellermeyer’s cash-pay collateral test differs from fund accrual; dated lender commitments are recovered, current funded shares unknown. Next is Car-Mart’s October15 financing checkpoint: silence settles nothing. Convergence58/70 unchanged; $0 moved.
+**2026-10-14 — Desk audit:** stale rule/CCLFX labels, false BCRED carry, NAV-exit input and BRK32 conflict; findings → `research/2026-10-14_desk-audit.md`. Bank Q3 attribution insufficient; CRMT10/15 prepared. Convergence58/70; no grades, rules or capital changed.
