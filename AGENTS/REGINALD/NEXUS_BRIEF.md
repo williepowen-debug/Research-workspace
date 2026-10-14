@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-13 evening, session CLOSED on PROME/Will instruction; STATUS pin `c10de556a`.** Gates retain10/12 settled bars and10/13 boot quotes; this review refreshed no prices. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
+**As of:** **2026-10-13 late boot; STATUS pin `0d1753f0c`.** Gates retain10/12 settled bars and10/13 boot quotes; Fresh boot confirmed unchanged state. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
 
 ## CROSS-DOMAIN
 
@@ -37,7 +37,7 @@
 | CFG · WAL · OZK · EGBN | Q3 releases 10/16 · 10/19 · 10/20 · 10/21 | Oct | Grades the WQ-318 rows on their named lines |
 | FLG · CUBI | Q3 date announcements | Oct | Locks their WQ-318 grading dates |
 | Will | REG-07 VOID-or-grade (WQ-412) | before 10/21 | Decides whether REG-07 grades |
-| FDIC | Nano Banc Sunwest P&A posting (NOT posted 10/9) | re-check Tue 10/13 | Re-runs forensics §3 (L516) |
+| FDIC | Nano Banc Sunwest P&A posting (NOT posted 10/13) | re-check Tue 10/20 | Re-runs forensics §3 (L516) |
 | Broker (PROME/ANVIL) | Activity view for the new Fidelity WAL $65P / OZK $40P (D-73/74) | — | Records entry dates; cards stay TERRY's |
 
 ## VIEW
