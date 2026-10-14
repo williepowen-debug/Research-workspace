@@ -8,6 +8,7 @@
 - October14 PROME broker transcription still records USO37shares/VLO2shares/Oct14calls×2. Secondary artifact checked; raw images/capture time/current orders and later outcomes unverified. No marks adopted.
 
 ## WHAT I DID THIS SESSION
+- Reflected on October14calls at Will’s request: favorable dated marked result, no closing receipt; entry rationale/IV decomposition missing. [Reflection](research/2026-10-14_boot-omr/CALL-REFLECTION.md). No new measurement, rule or trade; avoid letting broad WAIT imply no tactical upside.
 - Explicit root/local boot reads and newest FridayOctober9 routine; complete position-review spec/card and WQ420 insert. No helpers or duplicate research commissions.
 - Read public OMR and wrote five consequential findings/cutoff limits. THESISv5.12→v5.13 minor interpretation refinement; no phase/BRT/holding grade, probability, threshold or approval change. WAIT/TERRYPASS survives missing own-asset/earnings/value edge.
 - Updated existing October14 catalyst outcome and generated STATUScalendar. Country-level delivery question remains open, distinct from completed public report review.
