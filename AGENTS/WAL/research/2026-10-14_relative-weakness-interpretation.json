@@ -41,6 +41,21 @@
     "OIC": "https://prd-web.optionseducation.org/news/april-office-hours-faqs-options-strategy-time-decay-and-market-mechanics",
     "TERRY_scope": "Existing position note, card only ifWillasks earlier, otherwiseC5December16. No transfer ofRobinhood70Pguard/December4stop."
   },
+  "WAL_hypotheses_followup": {
+    "user_question": "What are possible explanations from your point of view as WAL?",
+    "status": "Qualitative working ranking, not estimated probabilities or identified causes; hypotheses may coexist.",
+    "leading_explanation": "Broad inflation/rate pressure expressed through WAL's known exposures, alongside earnings uncertainty and possible pre-release risk reduction.",
+    "ranked": [
+      {"rank": 1, "explanation": "Rate-sensitive selling and higher required compensation for risk", "mechanisms": "Potential securities marks, borrower refinancing stress and all-in deposit costs; uncertain growth/capital-return expectations", "limit": "WAL June NII sensitivity is positive in its modeled higher-rate case. Hedging/net duration/funding realization matter; do not call higher rates uniformly adverse or assign today's return to this model."},
+      {"rank": 2, "explanation": "Less confidence in durable earnings and anticipated growth", "mechanisms": "Mortgage production/servicing/hedge income and deposit-remix costs may not support expected growth", "limit": "Bank mortgage income fellQoQ but roseYoY; bank-parent accounting/analyst components remain unmatched. No persistent EPS shortfall measured."},
+      {"rank": 3, "explanation": "Known credit concentrations make investors less willing to hold the stock into earnings", "mechanisms": "Pending99Mappraisal and nonbank lender exposure may command a greater risk discount under macro pressure", "limit": "June history is existing public-period evidence, not newSeptember losses disclosed today. Nonaccrual is not loss; borrower attribution unknown."},
+      {"rank": 4, "explanation": "Pre-earnings position reduction, fund flows or hedging", "mechanisms": "Sales/hedges can weaken price without a new balance-sheet event", "limit": "No measured options flow, holder selling, ETF contribution, short activity or abnormal volume establishes this cause."}
+    ],
+    "lower_supported_alternative": "A fresh borrower/issuer problem remains possible, but the targeted search did not identify it. No inference that sellers possess private information.",
+    "current_context_source": "https://www.schwab.com/learn/story/stock-market-update-open?msockid=0e04d0dfefdc6870183fc734ee0f69fc",
+    "context_basis": "October14 Schwab market-update search result reports hot inflation and higher Treasury yields; context only, not WAL causal attribution.",
+    "discriminators": "Compare existing matched-session relative performance and market/rate sensitivity; map timing to actual issuer/analyst disclosures; Q3 attributed credit and recurring income decide the business mechanism. Sector recovery with WAL lagging would sharpen inquiry, not mechanically regrade."
+  },
   "state_changes": "None: no numerical thesis/score/weight/target/prediction/position/management change; no recurring automation or background monitoring.",
   "judgment": "Increase investigative priority; insufficient evidence yet for a stronger numerical bearish judgment. Main question remains persistent earnings impairment beyond expectations.",
   "persistence": "Owned WAL research note only; no STATUS write/NEXUS re-pin required for this bounded interpretation. Push deferred for foreign dirty work."
