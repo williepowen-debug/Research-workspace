@@ -82,6 +82,8 @@
 
 ## NEXT DECISION POINT
 
+**Review follow-up,10/13:** `reports/2026-10-13_review-response_forward-judgments.md` adds dated analytical expectations and four-bank expense/book sensitivities.16 bridge numeric cores checked at issuer primaries;5 VLY fresh rechecks incomplete. WAL source-date/locator repairs only. Sustainable earnings/multiple and current consensus still gate a pricing-edge claim; no peer-prior/frozen-rule/PASS change.
+
 **Research priority (direct Will,10/13):** existing21-row cash/loss/retained-risk bridge plus OZK14-row baseline; valuation analysis → `reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md`. EGBN Prince George's cash and new recognition are most sensitive; OZK residual financing/sale proceeds next. RaDD's October9 amendment is post-Q3. Current consensus/unpublished outcomes remain unresolved; EGBN PASS retains pricing and independent liquidity/horizon failures. WFC SEC restatement guard integrated as context; no PC-loss attribution or regional spread inferred.
 
 - **What:** **the Q3 read plan's frames, one per print, CFG first (Fri 10/16)**: WQ-318 rows (UP/DOWN/INCONCLUSIVE per bank), CRE §6 lines, L35/L521, FL frame + A3, AMTB non-CRE lines. **The §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION.** Plus `REG-T-02` exit grading every settled close (0-of-3,29 rows through10/12), the tier test on each FRED cell, and the weekly funding read (H.4.1 Thu 10/15, H.8 Fri 10/16).
@@ -106,4 +108,4 @@
 
 ---
 
-*Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `9a3da47de`; amendment12 ordering retained. Exact source arithmetic and boot capability gaps are in the October13 report/receipt. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
+*Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `79e008fbb`; amendment12 ordering retained. Exact source arithmetic, verification split and boot capability gaps are in the October13 reports/receipts. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
