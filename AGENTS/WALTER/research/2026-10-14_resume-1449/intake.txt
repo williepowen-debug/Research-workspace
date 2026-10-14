@@ -1,0 +1,348 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-13T20:28:37Z (1 missed weekday runs, 0 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 184 (trailing median 184 over 10 batches)"
+    ]
+  ],
+  "new": [
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-13/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "3 NEW_ALERT item(s) \u2014 read data/2026-10-13/news.json",
+      "label": "3 NEW_ALERT",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-13/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "8 NEW_WATCH item(s) \u2014 read data/2026-10-13/news.json",
+      "label": "8 NEW_WATCH",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:459e5f18f63e",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ukraine War, Day 1,692: Russia - After Trump Deal, We Can Return Diesel Exports to Pre-Invasion Level - EA WorldView",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f0c71b25355d",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Bipartisan senators press Trump to rescind Russian diesel export deal - Washington Times",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:17bfe9bf81de",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Bipartisan group of US senators urges Trump to reverse sanctions relief for Russian diesel exports - Anadolu Ajans\u0131",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export'; BRENT:'US diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:e2297e3adbbc",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ukraine war briefing: Russian diesel exports could return to past levels after Trump deal, Moscow claims - The Guardian",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:aa1f28bfe0ef",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Eyes Higher Diesel Exports Under Deal Announced by Trump - Egypt Oil & Gas",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f6974e9758d1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Oil prices fall as Russia diesel export claims offset Gulf supply concerns - Investing.com",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:99499f3d20a1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia claims global diesel exports will exceed Trump levels - Arabian Gulf Business Insight | AGBI",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f541e3aacab1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Moscow claims its diesel export capacity will outpace Trump's announced targets - The New Voice of Ukraine",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:008d4625bbca",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Saudi-Owned Refinery Was Buyer of Oil on Cyberattacked Tanker - Bloomberg.com",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:28c043b83cad",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "WATT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Largest US Grid Operator PJM Triggers \u2018Maximum Gen Alert\u2019 as DOE Issues Emergency Order to Maintain Reliability - TD World",
+      "label": "WATCH_HIT [WATT:'DOE emergency order PJM']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:7265e0084a3b",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "WATT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "FERC OKs part of PJM\u2019s data center plan, rejects the rest - The Dominion Post",
+      "label": "WATCH_HIT [WATT:'FERC rejects PJM data center']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:43b89515e97c",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HAWK"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "France assesses military deployment at the Saudi terminal in Yanbu amid parliamentary doubts and the Houthi threat - Atalayar",
+      "label": "WATCH_HIT [HAWK:'Yanbu terminal']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:be9af3f086af",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "FALCON"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Saudi Arabia Resumes Yanbu Oil Loadings After East-West Pipeline Restart: 6 outlets compared - NewsCord",
+      "label": "WATCH_HIT [FALCON:'Yanbu loadings'; FALCON:'East-West pipeline'; BRENT:'East-West pipeline resume'; BRENT:'Yanbu loading']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:2289a8ec8675",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Lifts Diesel Export Ban Despite No 'Energy Ceasefire' - Energy Intelligence",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia lifts diesel export ban']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:11b9058c1f18",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Low EU Gas Storage Shifts Winter Costs to Industrial Buyers - Environment+Energy Leader",
+      "label": "WATCH_HIT [HANS:'EU gas storage']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:2e0250b05881",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "EU gas storage at record seasonal low ahead of winter 2026-2027 - energynews.pro",
+      "label": "WATCH_HIT [HANS:'EU gas storage']",
+      "onset": true
+    }
+  ],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=51.7 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.4 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=311.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=311bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "cftc_cot",
+      "key": "cftc:cftc_cot_VIX_lev_money_net_5494_orange_n:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "VIOLET"
+      ],
+      "info_cc": [
+        "SAM"
+      ],
+      "precedence": "ROUTINE",
+      "raw": "cftc_cot VIX lev-money net=5494 [orange] (net-long vol / de-risking regime)",
+      "label": "VIX positioning",
+      "onset": false
+    }
+  ]
+}

@@ -3,7 +3,9 @@
 
 ## BOTTOM LINE
 
-Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY is now running the approved power-contract question per Will; its final return is not yet consumed. Two later BOND/LIQUID owner-routing returns remain in the inbox. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
+Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY final power-contract report audited and its exact handoff filed on the14:49EDT restart; named service/payment/allocation gaps remain. Three BOND/LIQUID owner-routing packets remain in the inbox. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
+
+Restart 2026-10-14T19:12:37.845677Z: eight desks LIVE per Will; native fleetvisibility unavailable, other desks UNKNOWN. Boot/source coverage PARTIAL. Read-only X0new/drop0/intakesyncOK;15:00EDT intraday market snapshot saved at research/2026-10-14_resume-1449/market-snapshot.json. Mainpull/pushdeferredforeignwork;currentroutingqueueLAST_COMPLETION.
 
 ## DATED MARKET OBSERVATIONS — bounded refresh October14 16:12Z; unchanged rows retain prior dates
 

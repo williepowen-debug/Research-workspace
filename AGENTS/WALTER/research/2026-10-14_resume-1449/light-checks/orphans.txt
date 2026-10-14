@@ -1,0 +1,31 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/RED/inbox/2026-10-14_from-VIOLET_accuracy-sweep-prediction7-correction.md
+     [not yours]    AGENTS/VIOLET/CALENDAR.md
+     [not yours]    AGENTS/VIOLET/MAINTENANCE.md
+     [not yours]    AGENTS/VIOLET/MEMORY.md
+     [not yours]    AGENTS/VIOLET/README.md
+     [not yours]    AGENTS/VIOLET/SCRATCH.md
+     [not yours]    AGENTS/VIOLET/SIGNAL_INTAKE.md
+     [not yours]    AGENTS/VIOLET/STATUS.md
+     [not yours]    AGENTS/VIOLET/artifacts/violet_operating_picture.html
+     [not yours]    AGENTS/VIOLET/artifacts/vol_cheatsheet.html
+     [not yours]    AGENTS/VIOLET/research/2026-10-14_accuracy-sweep/
+     [not yours]    AGENTS/VIOLET/scripts/surface_agreement.py
+     [not yours]    AGENTS/VIOLET/scripts/tests/test_official_daily_basis.py
+     [not yours]    AGENTS/VIOLET/scripts/tests/test_surface_agreement_bound.py
+     [not yours]    AGENTS/VIOLET/scripts/tests/test_surface_agreement_sessions.py
+     [not yours]    AGENTS/VIOLET/scripts/thesis_bump_check.py
+     [not yours]    AGENTS/VIOLET/scripts/thresholds.py
+     [not yours]    AGENTS/VIOLET/thesis/CHANGELOG.md
+     [not yours]    AGENTS/VIOLET/thesis/VIX_THESIS.md
+     [not yours]    AGENTS/VIOLET/workbook/CATALYSTS.tsv
+     [not yours]    AGENTS/VIOLET/workbook/KB.tsv
+     [not yours]    AGENTS/VIOLET/workbook/README.md
+     [not yours]    AGENTS/VIOLET/workbook/VX_DAILY.tsv
+     [not yours]    PROME/inbox/2026-10-14_from-VIOLET_accuracy-sweep.md
+     [not yours]    PROME/registry/corrections_receipts.tsv
+     [not yours]    PROME/state/board_consumed.tsv
+     [not yours]    PROME/state/board_cursor.txt
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

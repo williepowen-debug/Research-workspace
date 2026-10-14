@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-10-14T19:02:57.225754Z",
+  "evidence": [
+    {
+      "path": "AGENTS/DEWEY/output/2026-10-14_ports-pike-power-rights-payment-bridge.md",
+      "sha256": "2380d8973802bf79e60e8b39d1b7dfd40ef52551ae99f560afc4914548db8f05",
+      "commit": "46299b920dc188b71ce86d83b8b9b590dfa8012b"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-14_ports-pike-power_handoff.md",
+      "sha256": "fd2b1c587c99d65f0d208b2a86710c7b3ae3a272c3ecab6ac0ccb0a57e20b179",
+      "commit": "46299b920dc188b71ce86d83b8b9b590dfa8012b"
+    },
+    {
+      "path": "AGENTS/WATT/inbox/2026-10-14_from-DEWEY_ports-pike-power.md",
+      "sha256": "9cce69f37d93fe027f215056373ddfc0ce358e99f24aac485eff7a98585c4630",
+      "commit": "46299b920dc188b71ce86d83b8b9b590dfa8012b"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/2026-10-14_from-DEWEY_ports-pike-power.md",
+      "sha256": "0d3016356ee524fd6c33ea2b21228564ae9ca4ed6c2e99d4d9130f5a87cd2786",
+      "commit": "46299b920dc188b71ce86d83b8b9b590dfa8012b"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/2026-10-14_from-DEWEY_ports-pike-power.md",
+      "sha256": "ee8b261b06b3622f2afcbfceae551320d5141e5edbdfb4e3147c8d1db483df13",
+      "commit": "46299b920dc188b71ce86d83b8b9b590dfa8012b"
+    }
+  ],
+  "backstops_needed": 0,
+  "publication": "UNKNOWN; no fresh origin fetch",
+  "consumption": "WALTER report reviewed; recipient integration UNKNOWN",
+  "caveat": "Handoff says study fee executed; report establishes contractual deposit obligation only, payment receipt not independently evidenced."
+}
