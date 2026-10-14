@@ -1,0 +1,54 @@
+{
+  "retained_exact_slices": [
+    {
+      "name": "standing rules and all eleven alert lines",
+      "start_utf8": 22002,
+      "bytes": 11256,
+      "sha256": "5a83777160a612e639144f8f6c785bb5a7f60731461f079d1db2df754e486b1a"
+    },
+    {
+      "name": "existing single-print reactivation letter",
+      "start_utf8": 35587,
+      "bytes": 368,
+      "sha256": "9c6e5e5254fb34eb5f56f8578541a82569f39ae3daf32b3a2c4dc12ba7116507"
+    },
+    {
+      "name": "existing instrument-basis canon",
+      "start_utf8": 39148,
+      "bytes": 1259,
+      "sha256": "4b0c1a9e801421f4f283be1d0ce54a7283867a5ab79de448619b1b24ed5aa04e"
+    },
+    {
+      "name": "existing daily-bar capture restriction",
+      "start_utf8": 41205,
+      "bytes": 2031,
+      "sha256": "99990402cc5f49512a79044f7eacf1adc7a28ba1f941a0e75f3af6701113f67c"
+    },
+    {
+      "name": "observational premium definition and revisit letter",
+      "start_utf8": 43236,
+      "bytes": 3118,
+      "sha256": "543ca2cb487e4410460267f7a86908fffa51cdd74c200f7b7370dad4c8e223ab"
+    },
+    {
+      "name": "zero-AIS inference restriction",
+      "start_utf8": 48053,
+      "bytes": 579,
+      "sha256": "000071e002ec4e8203c5b400fcec376fbdcfd3ee5c0443a8b29516b79159d04b"
+    }
+  ],
+  "changed_live_line": {
+    "before": "> | 4 | **GASREGW > $4.00** | **$4.354/gal**, 10/5 observation [CONF FRED public CSV, read 10/7] | Above existing line; \u2212$0.111 WoW versus 9/28. Historical BRT-29 outcome unchanged. |",
+    "after": "> | 4 | **GASREGW > $4.00** | **$4.331/gal**, October12 observation [CONF EIA October14 posting, direct primary read] | Above existing line; \u2212$0.023 WoW versus October5. BRT29 historically FAILED; no new BRT31 grade. |"
+  },
+  "before_bytes": 182807,
+  "after_bytes": 22645,
+  "weekly_log_disposition": "All original rows archived byte-for-byte; exact original header retained for future appends.",
+  "reader_annotations": [
+    {
+      "before": "> \u26a0\ufe0f **The COT leg's ~14:00 ET routine slot PRECEDES the ~15:30 ET release \u2014 a STRUCTURAL, REPEATING mismatch that produced a 1-day-late grade on vintage #5. Do not grade last week's row as this week's print (`cot_grade.py` exit 3 = WAIT).** *(verbatim from L76; its dated 'Next WPSR 9/16' sentence dropped)*",
+      "after": "> **COT timing reconciliation October14:** the historical14:00ET slot preceded the~15:30release. The October2 mirror now schedules Friday16:15EDT; actual deployed config remains unverified. Expected in-row report date still governs: never grade last week as this week (`cot_grade.py` exit3=WAIT). [Routine mirror](../SCHEDULED_RUNS.md).",
+      "reason": "Old14:00slot claim superseded by October2mirror16:15; date-check rule unchanged, live deployment unverified."
+    }
+  ]
+}

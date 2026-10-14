@@ -47,6 +47,6 @@ The registry does not implement every BRENT grade. EIA routines still have const
 
 ## What remains evidence work
 
-The original BRT-12 futures construction and upstream E&P credit history, BRT-29's full carrier-event evidence, current incident/restart estimates and specified flow observations still need source work. September 9–11 scheduled releases retain their own publication dates. The November-contract diagnostic cannot replace the original prediction instrument.
+October14 reader correction: BRT12 is VOID and BRT29 FAILED; old source gaps are historical and do not reopen those predictions. Current work is the registered BRT31letter, unresolved facility/restart/flow evidence, and instrument coverage/access. October15 preparation is at [worksheet](../research/2026-10-15_release-prep/WORKSHEET.md). Saved sources keep their original dates; a diagnostic cannot replace an original registered instrument. [Operational review](../audits/2026-10-14_operational-followups/REPORT.md).
 
 The workbook is reconciled structurally; its source gaps are visible. A healthy individual feed, a fresh file timestamp or this reconciliation does not establish that a full multi-part measurement is available.

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "util-current-series",
+    "retrieved_at_utc": "2026-10-14T18:04:04.824741+00:00",
+    "source_path_without_credentials": "https://api.eia.gov/v2/petroleum/pnp/wiup/data/",
+    "http_status": 200,
+    "bytes": 1169,
+    "sha256": "18fa33bfc193f312d5c1f65af75ab95d5c80a6c28582f2d8a05775f710170a33",
+    "total": "1875",
+    "rows": [
+      {
+        "period": "2026-10-02",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "(NA)",
+        "product-name": "Not Applicable",
+        "process": "YUP",
+        "process-name": "% Utilization Refinery Operable Capacity",
+        "series": "WPULEUS3",
+        "series-description": "U.S. Percent Utilization of Refinery Operable Capacity",
+        "value": "92.7",
+        "units": "%"
+      },
+      {
+        "period": "2026-09-25",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "(NA)",
+        "product-name": "Not Applicable",
+        "process": "YUP",
+        "process-name": "% Utilization Refinery Operable Capacity",
+        "series": "WPULEUS3",
+        "series-description": "U.S. Percent Utilization of Refinery Operable Capacity",
+        "value": "92.5",
+        "units": "%"
+      }
+    ],
+    "stored_sha256": "18fa33bfc193f312d5c1f65af75ab95d5c80a6c28582f2d8a05775f710170a33",
+    "stored_bytes": 1169
+  },
+  {
+    "name": "util-route-metadata",
+    "retrieved_at_utc": "2026-10-14T18:04:04.825498+00:00",
+    "source_path_without_credentials": "https://api.eia.gov/v2/petroleum/pnp/wiup/",
+    "http_status": 200,
+    "bytes": 734,
+    "sha256": "55feba38206f129ada8b23984d208c5f0df36c01c2494992e432d2bd00cd2c7b",
+    "stored_sha256": "55feba38206f129ada8b23984d208c5f0df36c01c2494992e432d2bd00cd2c7b",
+    "stored_bytes": 734,
+    "local_metadata_decode_error": "KeyError",
+    "diagnostic_note": "HTTP200 body retained; initial row-only decoder failed on metadata shape. No new network observation or availability failure inferred."
+  },
+  {
+    "name": "util-facet-list",
+    "retrieved_at_utc": "2026-10-14T18:04:04.826013+00:00",
+    "source_path_without_credentials": "https://api.eia.gov/v2/petroleum/pnp/wiup/facet/series/",
+    "http_status": 200,
+    "bytes": 8166,
+    "sha256": "7b0791e639e098aba238744dfe74cfef62adafac8b5fef2714e1cb650efdd13f",
+    "total": null,
+    "rows": [],
+    "stored_sha256": "7b0791e639e098aba238744dfe74cfef62adafac8b5fef2714e1cb650efdd13f",
+    "stored_bytes": 8166
+  },
+  {
+    "name": "cftc-www-raw",
+    "retrieved_at_utc": "2026-10-14T18:04:04.826583+00:00",
+    "source_path_without_credentials": "https://www.cftc.gov/dea/newcot/f_disagg.txt",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  {
+    "name": "cftc-bare-raw",
+    "retrieved_at_utc": "2026-10-14T18:04:04.827145+00:00",
+    "source_path_without_credentials": "https://cftc.gov/dea/newcot/f_disagg.txt",
+    "error_type": "HTTPError",
+    "http_status": 403
+  }
+]

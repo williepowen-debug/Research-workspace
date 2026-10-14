@@ -1,0 +1,689 @@
+{
+  "checked_at_utc": "2026-10-14T18:13:12.453617+00:00",
+  "scope": "Static registry/coverage review plus separate fresh utilization/CFTC receipts; quick mode does not network-verify every row",
+  "active_rows_reviewed": 30,
+  "tests": [
+    {
+      "test_id": "MKT-BZ-F-ABOVE-140",
+      "probe": "yf:BZ=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-BZ-F-ABOVE-120",
+      "probe": "yf:BZ=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-BZ-F-ABOVE-100",
+      "probe": "yf:BZ=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-BZ-F-BELOW-85",
+      "probe": "yf:BZ=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-BZ-F-BELOW-75",
+      "probe": "yf:BZ=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-BZ-F-BELOW-70",
+      "probe": "yf:BZ=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-CL-F-ABOVE-100",
+      "probe": "yf:CL=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-CL-F-BELOW-70",
+      "probe": "yf:CL=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-LNG-ABOVE-285",
+      "probe": "yf:LNG",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-VG-ABOVE-15",
+      "probe": "yf:VG",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-NG-F-ABOVE-4",
+      "probe": "yf:NG=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "MKT-NG-F-ABOVE-5",
+      "probe": "yf:NG=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-DCOILBRENTEU-ABOVE-140",
+      "probe": "fred:DCOILBRENTEU",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-DCOILBRENTEU-ABOVE-120",
+      "probe": "fred:DCOILBRENTEU",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-DCOILBRENTEU-ABOVE-100",
+      "probe": "fred:DCOILBRENTEU",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-DCOILWTICO-ABOVE-100",
+      "probe": "fred:DCOILWTICO",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-BAMLH0A0HYM2-ABOVE-4.5",
+      "probe": "fred:BAMLH0A0HYM2",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-BAMLH0A0HYM2-ABOVE-3.5",
+      "probe": "fred:BAMLH0A0HYM2",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-BAMLH0A0HYM2-ABOVE-3",
+      "probe": "fred:BAMLH0A0HYM2",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-DHHNGSP-ABOVE-4",
+      "probe": "fred:DHHNGSP",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-GASREGW-ABOVE-4.5",
+      "probe": "fred:GASREGW",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "FRED-GASREGW-ABOVE-4",
+      "probe": "fred:GASREGW",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-10-02 is 12d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "KILL-LEG2-JWC-LISTING",
+      "probe": "jwc:https://www.iua.co.uk/IUA_Member/IUANew/UnderwritingItems/Committees/Joint_War_Committee_Risk_List.aspx|JWLA-035",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        }
+      ]
+    },
+    {
+      "test_id": "THESIS-BRENT",
+      "probe": "yf:BZ=F",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-08-04 is 71d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "THESIS-WTI-BRENT",
+      "probe": "yf:CL=F",
+      "probe_scope": "component_only",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "PARTIAL_COVERAGE",
+          "msg": "probe checks one component only; full paired/composite measurement remains unverified"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-08-04 is 71d old vs a 4d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "CUSHING-20M",
+      "probe": "eia:petroleum/stoc/wstk|W_EPC0_SAX_YCUOK_MBBL",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-08-13 is 62d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "COT-FUEL-35B",
+      "probe": "cftc:https://www.cftc.gov/dea/newcot/f_disagg.txt|WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-09-06 is 38d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "DIESEL-CRACK",
+      "probe": "yf:HO=F",
+      "probe_scope": "component_only",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "PARTIAL_COVERAGE",
+          "msg": "probe checks one component only; full paired/composite measurement remains unverified"
+        },
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-08-04 is 71d old vs a 4d budget  [gate/falsifier \u21d2 blocking, not advisory]"
+        }
+      ]
+    },
+    {
+      "test_id": "EU-STORAGE",
+      "probe": "gie:https://agsi.gie.eu/api/data/eu",
+      "probe_scope": "",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-08-13 is 62d old vs a 10d budget"
+        }
+      ]
+    },
+    {
+      "test_id": "TANKER-LIVENESS",
+      "probe": "basket:STNG,FRO,DHT",
+      "probe_scope": "all_components",
+      "findings": [
+        {
+          "level": "\ud83d\udfe0",
+          "code": "SKIPPED",
+          "msg": "network probe skipped (--quick)"
+        },
+        {
+          "level": "\ud83d\udd34",
+          "code": "STALE",
+          "msg": "last_verified HUMAN STAMP (probe returned no datapoint date) 2026-08-05 is 70d old vs a 4d budget  [gate/falsifier \u21d2 blocking, not advisory]"
+        }
+      ]
+    }
+  ],
+  "stale_active_incidents": [
+    [
+      "RF-013",
+      "Ufa",
+      195,
+      "2026-04-02"
+    ],
+    [
+      "RF-014",
+      "Mina Al-Ahmadi",
+      194,
+      "2026-04-03"
+    ],
+    [
+      "RF-022",
+      "Tuapse",
+      176,
+      "2026-04-21"
+    ],
+    [
+      "RF-033",
+      "VTTI Fujairah oil terminal",
+      136,
+      "2026-05-31"
+    ],
+    [
+      "RF-044",
+      "Jazan Refinery & Terminal (Jizan, Red Sea coast) - SECOND STRIKE",
+      65,
+      "2026-08-10"
+    ]
+  ],
+  "stale_other_incidents": [
+    [
+      "RF-005",
+      "Bazan (Haifa)",
+      208,
+      "2026-03-20",
+      "PARTIAL_RESTART"
+    ],
+    [
+      "RF-031",
+      "Mangalore (MRPL)",
+      180,
+      "2026-04-17",
+      "DISPUTED"
+    ],
+    [
+      "RF-008",
+      "Port Arthur",
+      106,
+      "2026-06-30",
+      "PARTIAL_RESTART"
+    ],
+    [
+      "RF-037",
+      "KOC offshore drilling platform (Kuwaiti territorial waters)",
+      85,
+      "2026-07-21",
+      "MONITORING"
+    ],
+    [
+      "RF-018",
+      "Satorp (Jubail)",
+      82,
+      "2026-07-24",
+      "PARTIAL_RESTART"
+    ],
+    [
+      "RF-040",
+      "Perm Refinery - Lukoil-Permnefteorgsintez",
+      76,
+      "2026-07-30",
+      "MONITORING"
+    ],
+    [
+      "RF-041",
+      "Ryazan Refinery",
+      76,
+      "2026-07-30",
+      "MONITORING"
+    ],
+    [
+      "RF-038",
+      "CPC Marine Terminal (Yuzhnaya Ozereyevka, Novorossiysk)",
+      72,
+      "2026-08-03",
+      "PARTIAL_RESTART"
+    ],
+    [
+      "RF-010",
+      "Corpus Christi metro (water)",
+      71,
+      "2026-08-04",
+      "MONITORING"
+    ],
+    [
+      "RF-016",
+      "Habshan (gas processing)",
+      65,
+      "2026-08-10",
+      "PARTIAL_RESTART"
+    ],
+    [
+      "RF-045",
+      "Berri Gas Plant, Al Jubail (Persian Gulf coast)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-046",
+      "Ufaneftekhim (Ufa cluster, Bashkortostan)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-047",
+      "Bashneft-UNPZ (Ufa cluster, Bashkortostan)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-048",
+      "Bashneft-Novoil (Ufa cluster, Bashkortostan)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-049",
+      "Slavneft-YANOS (Yaroslavl)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-050",
+      "Ilsky Refinery (Krasnodar Krai)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-051",
+      "Syzran Refinery (Samara Oblast)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-052",
+      "Saratov Refinery (Saratov Oblast)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ],
+    [
+      "RF-053",
+      "Taneco Refinery (Nizhnekamsk, Tatarstan)",
+      65,
+      "2026-08-10",
+      "MONITORING"
+    ]
+  ]
+}

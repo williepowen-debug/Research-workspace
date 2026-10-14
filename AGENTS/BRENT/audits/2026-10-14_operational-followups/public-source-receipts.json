@@ -1,0 +1,68 @@
+[
+  {
+    "name": "public-eia-retail",
+    "retrieved_at_utc": "2026-10-14T18:12:03.089397+00:00",
+    "source_path_without_credentials": "https://www.eia.gov/petroleum/gasdiesel/",
+    "http_status": 200,
+    "bytes": 114644,
+    "sha256": "7f1c366312fa5191ab8da829a1f999c48964d2da9c8c691209fbcc98a67158ea",
+    "stored_sha256": "7f1c366312fa5191ab8da829a1f999c48964d2da9c8c691209fbcc98a67158ea",
+    "stored_bytes": 114644
+  },
+  {
+    "name": "public-fedex-surcharge",
+    "retrieved_at_utc": "2026-10-14T18:12:03.090108+00:00",
+    "source_path_without_credentials": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
+    "http_status": 200,
+    "bytes": 239779,
+    "sha256": "d433154519262d73a0b9403092bbe0c3d4e606dff3fd15968651e916adb23bd8",
+    "stored_sha256": "d433154519262d73a0b9403092bbe0c3d4e606dff3fd15968651e916adb23bd8",
+    "stored_bytes": 239779
+  },
+  {
+    "name": "public-adnoc-habshan",
+    "retrieved_at_utc": "2026-10-14T18:12:03.090603+00:00",
+    "source_path_without_credentials": "https://www.adnocgas.ae/en/news-and-media/press-releases/2026/q2-2026-results",
+    "http_status": 200,
+    "bytes": 82539,
+    "sha256": "3674bca4911b3fa3f4617ba485b2cbb8226f1b3e33848e29d7672f91588f155c",
+    "stored_sha256": "3674bca4911b3fa3f4617ba485b2cbb8226f1b3e33848e29d7672f91588f155c",
+    "stored_bytes": 82539
+  },
+  {
+    "name": "public-valero-q2",
+    "retrieved_at_utc": "2026-10-14T18:12:03.091011+00:00",
+    "source_path_without_credentials": "https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-Second-Quarter-2026-Results/default.aspx",
+    "http_status": 200,
+    "bytes": 779611,
+    "sha256": "04b1bf471dc4054f2302866726f87c5617b70b6ca0454551f3437178bd2fb4c9",
+    "stored_sha256": "04b1bf471dc4054f2302866726f87c5617b70b6ca0454551f3437178bd2fb4c9",
+    "stored_bytes": 779611
+  },
+  {
+    "name": "public-satorp-media",
+    "retrieved_at_utc": "2026-10-14T18:12:03.091513+00:00",
+    "source_path_without_credentials": "https://satorp.com/en/media/",
+    "http_status": 200,
+    "bytes": 40323,
+    "sha256": "c7ca9cd2171b9718307f121e31f98f4a9d336dd189e43455abc7b3c4a33d791f",
+    "stored_sha256": "c7ca9cd2171b9718307f121e31f98f4a9d336dd189e43455abc7b3c4a33d791f",
+    "stored_bytes": 40323
+  },
+  {
+    "name": "public-tuapse-profile",
+    "retrieved_at_utc": "2026-10-14T18:12:03.438670+00:00",
+    "source_path_without_credentials": "https://www.rosneft.com/about/Rosneft_today/Operational_structure/Refining/tuapsinskijnpz/",
+    "http_status": 200,
+    "bytes": 55159,
+    "sha256": "e956c035ad312f55275b6182acc13b951eef7264738edec314e2af3eaf6ff75c",
+    "stored_sha256": "e956c035ad312f55275b6182acc13b951eef7264738edec314e2af3eaf6ff75c",
+    "stored_bytes": 55159
+  },
+  {
+    "name": "public-aramco-q2",
+    "retrieved_at_utc": "2026-10-14T18:12:05.292599+00:00",
+    "source_path_without_credentials": "https://india.aramco.com/en/news-media/news/2026/aramco-announces-second-quarter-and-half-year-2026-results",
+    "error_type": "TimeoutError"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-10-14T18:07:47.398456+00:00",
+  "actual_runtime": "OpenAI Codex; exact model variant UNKNOWN",
+  "callable_routine_or_remote_trigger_tools": [],
+  "cli": {
+    "returncode": 0,
+    "routines_command_in_help": false
+  },
+  "saved_prompts": [
+    {
+      "path": "audits/2026-10-02_routine-install/after_friday.txt",
+      "bytes": 4779,
+      "sha256": "68e0cd26f0f8952cda91ea125f5ea1cccfb33fa910a32cda9bb1eb3b1a1ab070",
+      "legacy_local_recovery": false,
+      "thursday_continues_supporting_files": null
+    },
+    {
+      "path": "audits/2026-10-02_routine-install/after_monday.txt",
+      "bytes": 3934,
+      "sha256": "0ef41c90ae9d270e850ad49311bf6003c17c3232e899c5e96b19d0ef5379a679",
+      "legacy_local_recovery": false,
+      "thursday_continues_supporting_files": null
+    },
+    {
+      "path": "audits/2026-10-02_routine-install/after_thursday.txt",
+      "bytes": 5097,
+      "sha256": "0ff0bf2627d1e8eff6e57ec9509883c0acd82cb412f90fd83bbddc559bd76c63",
+      "legacy_local_recovery": false,
+      "thursday_continues_supporting_files": true
+    },
+    {
+      "path": "audits/2026-10-02_routine-install/after_wednesday.txt",
+      "bytes": 4755,
+      "sha256": "7661136cc643482bafb6bcfb4ba57f70963dd32043c6cd9c256a3bd41f5ce508",
+      "legacy_local_recovery": false,
+      "thursday_continues_supporting_files": null
+    }
+  ],
+  "live_config": "UNVERIFIED: no callable live scheduler read/export/update route",
+  "normal_run_acceptance": "PENDING; historical report alone cannot prove corrected prompt deployed"
+}

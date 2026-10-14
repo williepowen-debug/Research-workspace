@@ -1,3 +1,5 @@
+> **HISTORICAL RESEARCH — March7,2026; reader reconciliation October14.** Original analysis below is preserved for provenance. Its old combination rules, response times and trade instructions are not current authority. Current phase view: [THESIS](../thesis/THESIS.md); current demand test: [BRT31note](../thesis/prediction_notes/BRT-31.md); complete action/holding rules: [TRADE](../TRADE.md). No archived criterion is reactivated by this reader.
+
 # Phase 1→2 Transition Indicators — Early Warning Matrix
 **Author:** PROME (direct research)  
 **Date:** 2026-03-07  

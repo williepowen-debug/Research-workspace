@@ -1,0 +1,847 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Meta Tags and Title -->
+    
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="SATORP" />
+
+
+
+<meta property="og:image" content="https://www.satorp.com/media/to3a5d0h/satorp-logo-colored.png" />
+<meta property="og:image:secure_url" content="https://www.satorp.com/media/to3a5d0h/satorp-logo-colored.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:image:height" content="1200" />
+<meta name="twitter:image" content="https://www.satorp.com/media/to3a5d0h/satorp-logo-colored.png" />
+<meta name="google-site-verification" content="TaBK8xkRr0HYbgP4lrTnR7HD0-4LNYmDdPfMSKPksm0" />
+
+
+    <!-- App favicon -->
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+<link rel="shortcut icon" href="/favicons/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Satorp" />
+<link rel="manifest" href="/favicons/site.webmanifest" />
+    
+    <!-- Tailwindcss + Custom styles: font, gradients, container padding -->
+    <link href="/assets/css/styles.css?v=gZ9usAUHCQJj22I743arUNlW1eZN3BllkhgKCyb17rg" rel="stylesheet" type="text/css" />
+
+    <!-- Other head elements -->
+    <title>SATORP Media | News, Updates, and Press Releases</title>
+<meta name="description" content="Stay updated with the latest SATORP news, press releases, and media coverage — highlighting our achievements, sustainability milestones, and community impact."/>
+<meta property="og:title" content="SATORP Media Center | News and Press Releases"/>
+<meta property="og:description" content="Explore SATORP’s media center — access the latest news, official announcements, and stories about innovation, sustainability, and excellence in refining."/>
+<meta property="og:url" content="https://satorp.com/en/media/"/>
+<link rel="canonical" href="https://satorp.com/en/media/"/>
+<meta name="twitter:card" content="summary_large_image"/>
+
+    
+</head>
+<body class="bg-white text-white">
+    
+
+    <!-- Top Bar: Responsive language switch + search/info line -->
+    
+
+<div class="w-full bg-[linear-gradient(to_right,#80BB01,#00843D,#01A1D9)] text-white 
+text-xs sm:text-sm 
+flex flex-col md:flex-row 
+justify-between items-center gap-2 md:gap-0 px-6 xl:px-32 py-0.5 lg:py-1.5">
+
+
+<div id="" class="w-full grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-6" style="">
+
+
+
+<div class="flex flex-row flex-wrap gap-2 items-center justify-center md:justify-start">
+            <a href="/ar/&#x627;&#x644;&#x625;&#x639;&#x644;&#x627;&#x645;/" hreflang="ar" class="font-medium link-underline link-underline-black">
+                &#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;
+            </a>
+</div>
+
+
+<div class="flex flex-row flex-wrap gap-2 items-center justify-center md:justify-end text-[11px] sm:text-sm">
+
+    <!-- Search Form - Desktop: full form, Mobile: icon only -->
+        <div class="hidden xl:block">
+            
+
+    <!-- Full search form -->
+    <form class="flex items-center " method="get" action="/search">   
+        <div class="relative mx-auto text-white flex items-center">
+            <input class="bg-transparent text-white py-1 px-5 pe-16 rounded-lg text-sm focus:outline-none"
+                   type="search" 
+                   name="q" 
+                   placeholder="Search"
+                   >
+            
+            <button type="submit" class="absolute end-0 me-4" aria-label="Search">
+                <i data-lucide="search" class="w-4 h-4 text-gray-600 text-white"></i>
+            </button>
+        </div>
+    </form>
+
+
+
+        </div>
+        
+        <div class="xl:hidden">
+            
+
+    <!-- Icon-only search button for mobile header -->
+    <a href="/search" class="" 
+            onclick="openMobileMenuWithSearch()"
+            aria-label="Open search">
+        <i data-lucide="search" class="w-6 h-6 text-white"></i>
+    </a>
+
+
+
+        </div>
+
+
+    <span class="hidden xl:inline-block">|</span>
+    <span class="text-xs xl:text-basetext-center xl:text-left font-thin"></span>
+</div>
+</div></div>
+
+    <!-- Content Section -->
+    
+
+<!-- Hero Section -->
+
+<div class="umb-block-grid"
+     data-grid-columns="12;"
+     style="--umb-block-grid--grid-columns: 12;">
+    
+<div class="umb-block-grid__layout-container">
+        <div
+            class="umb-block-grid__layout-item"
+            data-content-element-type-alias="headerContent"
+            data-content-element-type-key="227a6cd9-57ec-4bc0-a183-39efcb204179"
+            data-element-key="54d5daeb-0ff9-4aa8-a20c-43512774005d"
+            data-col-span="12"
+            data-row-span="1"
+            style=" --umb-block-grid--item-column-span: 12; --umb-block-grid--item-row-span: 1; ">
+
+
+<div class="relative w-full min-h-[500px] sm:min-h-[600px] md:min-h-screen">
+    <!-- Background Video -->
+        <img src="/media/hecauorr/dsc09881.jpg" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover z-0">
+
+
+    <!-- Absolute Card -->
+    <div class="absolute inset-0 bg-black/50 z-10"></div>
+
+    <!-- Header -->
+    <header dir="ltr" class="absolute top-0 left-0 right-0 z-20">
+        <div class="px-6 xl:px-32 py-4 flex items-center justify-between">
+            <!-- Desktop Nav -->
+            <nav dir="auto" class="hidden md:flex gap-6 text-white font-normal text-sm xl:text-base">
+                
+
+
+
+
+
+<section id="" class="" style="">
+
+
+<a href="/en/about" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">About</a>
+
+
+<a href="/en/business/" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Our Business</a>
+
+
+<a href="/en/sustainability" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Sustainability</a>
+
+
+<a href="/en/careers" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Careers</a>
+
+
+<a href="/en/media" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">News &amp; Media</a>
+
+
+<a href="/en/contact" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Connect</a>
+</section>
+            </nav>
+            <!-- Mobile Button -->
+            <button id="menuBtn" class="md:hidden text-white focus:outline-none">
+                <svg class="w-6 h-6 sm:w-8 sm:h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <!-- Logo -->
+                <a href="/">
+                <img src="/media/a5xn0de4/satorp-logo-with-white-text.png" alt="Logo" class="h-full w-auto max-h-[80px] md:max-h-[100px] lg:max-h-[120px]" />
+                </a>
+        </div>
+    </header>
+
+    <!-- Mobile Sidebar Menu -->
+    <div id="mobileSidebar"
+         class="fixed top-0 right-0 w-64 h-full bg-[#1f2960] text-white transform translate-x-full transition-transform duration-300 z-50 shadow-lg flex flex-col p-6 space-y-4 md:hidden">
+        <button id="closeMenu" class="self-end text-white mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        
+
+
+
+
+
+<section id="" class="" style="">
+
+
+<a href="/en/about" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">About</a>
+
+
+<a href="/en/business/" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Our Business</a>
+
+
+<a href="/en/sustainability" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Sustainability</a>
+
+
+<a href="/en/careers" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Careers</a>
+
+
+<a href="/en/media" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">News &amp; Media</a>
+
+
+<a href="/en/contact" class="block md:inline-block link-underline link-underline-black sm:me-5 mb-5 xl:mb-0">Connect</a>
+</section>
+    </div>
+
+    <!-- Hero Text -->
+    <div class="absolute bottom-56 translate-y-1/2 md:bottom-44 md:translate-y-0 ltr:left-0 rtl:right-0 z-20 px-6 xl:px-32">
+        <h1 class="text-4xl sm:text-6xl md:text-7xl font-light text-white ltr:mb-4 rtl:mb-10 leading-tight tracking-wide max-w-[80%] md:max-w-6xl">
+            News &amp; Media
+        </h1>
+        <p class="text-base sm:text-lg md:text-xl font-light text-white max-w-[95%] md:max-w-5xl leading-relaxed">
+            
+        </p>
+        <!-- Down Arrow -->
+    </div>
+</div>
+        </div>
+</div>
+
+</div>
+
+
+<div class="umb-block-grid"
+     data-grid-columns="12;"
+     style="--umb-block-grid--grid-columns: 12;">
+    
+<div class="umb-block-grid__layout-container">
+        <div
+            class="umb-block-grid__layout-item"
+            data-content-element-type-alias="box"
+            data-content-element-type-key="dcc03bd0-bf2d-44bc-91bb-d133a387c423"
+            data-element-key="c5c7365b-953c-49c8-8eaa-0456547a4e3c"
+            data-col-span="12"
+            data-row-span="1"
+            style=" --umb-block-grid--item-column-span: 12; --umb-block-grid--item-row-span: 1; ">
+
+
+
+<section id="" class="py-24 -mt-7  rounded-t-4xl relative z-20 rounded-t-4xl " style="background-color: #FFF;">
+
+
+<div id="" class="mb-12 px-6 md:px-32" style="">
+
+        <!-- Single-column layout -->
+            <div class="mb-2">
+                <p class="text-4xl sm:text-5xl lg:text-6xl inline font-light bg-clip-text text-transparent leading-tight break-words box-decoration-clone"
+                   style="background-image:linear-gradient(90deg,#7CB803,#0198AA);-webkit-text-fill-color:transparent;">
+                    Latest News 
+                </p>
+            </div>
+</div>
+
+<div id="slider1"
+     class="swiper entitiesSwiper !ps-6 md:!ps-32 mb-24"
+     style=""
+     data-swiper-config="{
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+        breakpoints: {
+            640: { slidesPerView: Math.min(1.5, slideCount) },
+            768: { slidesPerView: Math.min(1.5, slideCount) },
+            1024: { slidesPerView: Math.min(3, slideCount) },
+            1280: { slidesPerView: 3.5}
+        }
+    }">
+    <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                    <!-- WIDE CARD (single structure; link overlay if exists) -->
+                    <div class="w-full h-[350px] rounded-3xl overflow-hidden relative group">
+                                <img src="/media/20egqk40/csr2026-updated.jpeg" alt="2026 Corporate Social Responsibility Award" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                        <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(14, 19, 50, 0) 66.77%, #0E1332 96.32%);"></div>
+
+                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                            <p class="text-white text-xs sm:text-sm md:text-base lg:text-lg font-medium max-w-[80%]">2026 Corporate Social Responsibility Award</p>
+
+                                <div class="w-8 h-8 flex items-center justify-center text-white shrink-0 pointer-events-none">
+                                    <i class="w-8 h-8 rounded-full border p-1" data-lucide="arrow-right"></i>
+                                </div>
+                        </div>
+
+                            <a href="/en/news/2026-corporate-social-responsibility-award/" target="_self" aria-label="2026 Corporate Social Responsibility Award" class="absolute inset-0 z-10"></a>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <!-- WIDE CARD (single structure; link overlay if exists) -->
+                    <div class="w-full h-[350px] rounded-3xl overflow-hidden relative group">
+                                <img src="/media/qpxfydrt/jubail-aytam.jpg" alt="Investing in Education to Create Sustainable Impact" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                        <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(14, 19, 50, 0) 66.77%, #0E1332 96.32%);"></div>
+
+                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                            <p class="text-white text-xs sm:text-sm md:text-base lg:text-lg font-medium max-w-[80%]">Investing in Education to Create Sustainable Impact</p>
+
+                                <div class="w-8 h-8 flex items-center justify-center text-white shrink-0 pointer-events-none">
+                                    <i class="w-8 h-8 rounded-full border p-1" data-lucide="arrow-right"></i>
+                                </div>
+                        </div>
+
+                            <a href="/en/news/investing-in-education-to-create-sustainable-impact/" target="_self" aria-label="Investing in Education to Create Sustainable Impact" class="absolute inset-0 z-10"></a>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <!-- WIDE CARD (single structure; link overlay if exists) -->
+                    <div class="w-full h-[350px] rounded-3xl overflow-hidden relative group">
+                                <img src="/media/01wdqtpx/aramco-ceo-excellence-award.jpg" alt="Aramco CEO Excellence Award 2026" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                        <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(14, 19, 50, 0) 66.77%, #0E1332 96.32%);"></div>
+
+                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                            <p class="text-white text-xs sm:text-sm md:text-base lg:text-lg font-medium max-w-[80%]">Aramco CEO Excellence Award 2026</p>
+
+                                <div class="w-8 h-8 flex items-center justify-center text-white shrink-0 pointer-events-none">
+                                    <i class="w-8 h-8 rounded-full border p-1" data-lucide="arrow-right"></i>
+                                </div>
+                        </div>
+
+                            <a href="/en/news/aramco-ceo-excellence-award-2026/" target="_self" aria-label="Aramco CEO Excellence Award 2026" class="absolute inset-0 z-10"></a>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <!-- WIDE CARD (single structure; link overlay if exists) -->
+                    <div class="w-full h-[350px] rounded-3xl overflow-hidden relative group">
+                                <img src="/media/uk0myir4/img_6946.jpg" alt="Jubail Horse Track" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                        <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(14, 19, 50, 0) 66.77%, #0E1332 96.32%);"></div>
+
+                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                            <p class="text-white text-xs sm:text-sm md:text-base lg:text-lg font-medium max-w-[80%]">Jubail Horse Track</p>
+
+                                <div class="w-8 h-8 flex items-center justify-center text-white shrink-0 pointer-events-none">
+                                    <i class="w-8 h-8 rounded-full border p-1" data-lucide="arrow-right"></i>
+                                </div>
+                        </div>
+
+                            <a href="/en/news/jubail-horse-track/" target="_self" aria-label="Jubail Horse Track" class="absolute inset-0 z-10"></a>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <!-- WIDE CARD (single structure; link overlay if exists) -->
+                    <div class="w-full h-[350px] rounded-3xl overflow-hidden relative group">
+                                <img src="/media/z3yfueba/whatsapp-image-2026-02-04-at-54450-am.jpeg" alt="Ertiqa Association " class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                        <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(14, 19, 50, 0) 66.77%, #0E1332 96.32%);"></div>
+
+                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                            <p class="text-white text-xs sm:text-sm md:text-base lg:text-lg font-medium max-w-[80%]">Ertiqa Association </p>
+
+                                <div class="w-8 h-8 flex items-center justify-center text-white shrink-0 pointer-events-none">
+                                    <i class="w-8 h-8 rounded-full border p-1" data-lucide="arrow-right"></i>
+                                </div>
+                        </div>
+
+                            <a href="/en/news/ertiqa-association/" target="_self" aria-label="Ertiqa Association " class="absolute inset-0 z-10"></a>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                    <!-- WIDE CARD (single structure; link overlay if exists) -->
+                    <div class="w-full h-[350px] rounded-3xl overflow-hidden relative group">
+                                <img src="/media/wynfkxeb/kbr.jpg" alt="Signing Ceremony with KBR " class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                        <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(180deg, rgba(14, 19, 50, 0) 66.77%, #0E1332 96.32%);"></div>
+
+                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                            <p class="text-white text-xs sm:text-sm md:text-base lg:text-lg font-medium max-w-[80%]">Signing Ceremony with KBR </p>
+
+                                <div class="w-8 h-8 flex items-center justify-center text-white shrink-0 pointer-events-none">
+                                    <i class="w-8 h-8 rounded-full border p-1" data-lucide="arrow-right"></i>
+                                </div>
+                        </div>
+
+                            <a href="/en/news/signing-ceremony-with-kbr/" target="_self" aria-label="Signing Ceremony with KBR " class="absolute inset-0 z-10"></a>
+                    </div>
+            </div>
+    </div>
+</div>
+
+<div id="progress1"
+     class="mx-auto my-10 w-full h-[5px] px-6 md:px-32"
+     style="">
+
+        <div class="flex items-center justify-between">
+            <div class="relative bg-gray-200 rounded-full overflow-hidden flex-1 me-4 h-[5px]"
+                 role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30">
+                <div class="absolute left-0 top-0 h-full rounded-full bg-gradient-to-r from-satorpGreen via-satorpGreen to-satorpBlue js-progress-fill"
+                     style="width:30%"></div>
+                <span class="sr-only">30%</span>
+            </div>
+
+            <a href="/en/news" target="_self"
+               class="text-satorpDark text-base font-normal flex items-center gap-1 whitespace-nowrap">
+                View All News
+                <svg class="w-4 h-4 rtl:transform rtl:scale-x-[-1]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+</div>
+
+<script>
+    (function () {
+      const container = document.getElementById('progress1');
+      if (!container) return;
+
+      const selector = 'slider1';
+      if (!selector) return;
+
+      const sliderEl = document.getElementById(selector);
+      if (!sliderEl) return;
+
+      const fillEl = container.querySelector('.js-progress-fill');
+      const barEl  = container.querySelector('[role="progressbar"]');
+      const srEl   = container.querySelector('.sr-only');
+
+      function setProgress01(p) {
+        p = Math.max(0, Math.min(1, Number.isFinite(p) ? p : 0));
+        const pct = Math.round(p * 100);
+        if (fillEl) fillEl.style.width = pct + '%';
+        if (barEl)  barEl.setAttribute('aria-valuenow', String(pct));
+        if (srEl)   srEl.textContent = pct + '%';
+      }
+
+      function countRealSlides(swiper) {
+        const slides = swiper.slides || [];
+        let total = 0;
+        for (const s of slides) {
+          if (!s.classList || !s.classList.contains('swiper-slide-duplicate')) total++;
+        }
+        return total || slides.length || 0;
+      }
+
+      function getVisibleCount(swiper) {
+        let spv = swiper?.params?.slidesPerView;
+        if (spv === 'auto' && typeof swiper.slidesPerViewDynamic === 'function') {
+          spv = swiper.slidesPerViewDynamic('current', true);
+        }
+        const n = Number(spv);
+        return Math.max(1, Number.isFinite(n) ? Math.round(n) : 1);
+      }
+
+      function computeProgress(swiper) {
+        const total = countRealSlides(swiper);
+        if (!total) return 1;
+        const visible = getVisibleCount(swiper);
+        let start = Number.isFinite(swiper.realIndex) ? swiper.realIndex : 0;
+        if (swiper.params && swiper.params.centeredSlides) {
+          start = Math.max(0, Math.min(total - visible, start - Math.floor(visible / 2)));
+        }
+        const end = Math.min(total, start + visible);
+        return end / total;
+      }
+
+      function updateFromSwiper(swiper) {
+        setProgress01(computeProgress(swiper));
+      }
+
+      function attach(swiper) {
+        updateFromSwiper(swiper);
+        swiper.on('slideChange', function () { updateFromSwiper(swiper); });
+        swiper.on('progress', function () { updateFromSwiper(swiper); });
+        swiper.on('resize', function () { updateFromSwiper(swiper); });
+        swiper.on('observerUpdate', function () { updateFromSwiper(swiper); });
+        swiper.on('update', function () { updateFromSwiper(swiper); });
+      }
+
+      function waitForSwiper() {
+        if (sliderEl.swiper) { attach(sliderEl.swiper); return; }
+        let tries = 0;
+        const iv = setInterval(function () {
+          tries++;
+          if (sliderEl.swiper) { attach(sliderEl.swiper); clearInterval(iv); }
+          if (tries > 40) { clearInterval(iv); setProgress01(1); }
+        }, 100);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', waitForSwiper, { once: true });
+      } else {
+        waitForSwiper();
+      }
+    })();
+</script></section>        </div>
+        <div
+            class="umb-block-grid__layout-item"
+            data-content-element-type-alias="twoColumns"
+            data-content-element-type-key="5804f5f8-e33b-4409-874e-8e4f3f1d7126"
+            data-element-key="2797c1a2-dfdb-4f22-b8aa-293de9656a99"
+            data-col-span="12"
+            data-row-span="1"
+            style=" --umb-block-grid--item-column-span: 12; --umb-block-grid--item-row-span: 1; ">
+
+
+<div id="" class="py-24 ps-6 md:ps-32 grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-6" style="">
+
+
+<div id="" class="pe-16" style="">
+
+        <!-- Single-column layout -->
+            <div class="ltr:mb-2 rtl:mb-5">
+                <p class="text-4xl sm:text-5xl lg:text-6xl inline font-light bg-clip-text text-transparent leading-tight break-words box-decoration-clone"
+                   style="background-image:linear-gradient(90deg,#7CB803,#01A0D6);-webkit-text-fill-color:transparent;">
+                    Photo Gallery 
+                </p>
+            </div>
+            <div class="text-lg sm:text-xl leading-relaxed font-light mt-8 mb-2 break-words" style="color:#313889;">
+                <p>Showcasing our state-of-the-art facilities, people, community impact, and milestones. These visuals offer a glimpse into life at SATORP and the scale of our operations.</p>
+            </div>
+            <a href="/en/products" class="group inline-flex flex-wrap items-center gap-3 font-semibold mt-6">
+                <span>View all the Media</span>
+                <i class="w-9 h-9 rounded-full border p-1 " data-lucide="arrow-right"></i>
+                
+            </a>
+</div>
+
+
+<section id="" class="" style="">
+
+
+<!-- Swiper Slider -->
+<div id="slider2" 
+     class="swiperHalfCardColumn swiper swiperColumn" 
+     style=""
+     data-swiper-config="{
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+        breakpoints: {
+            640: { slidesPerView: Math.min(1.5, slideCount) },
+            768: { slidesPerView: Math.min(1.5, slideCount) },
+            1024: { slidesPerView: Math.min(1.5, slideCount) },
+            1280: { slidesPerView: Math.min(1.5, slideCount) }
+        }
+    }">
+    <div class="swiper-wrapper">
+                <!-- Card -->
+                <div class="swiper-slide">
+                    
+
+
+            <div id="" class="relative group overflow-hidden w-full h-full rounded-[2.5rem] min-h-[480px] sm:min-h-[560px] md:min-h-[640px] lg:min-h-[720px] xl:max-h-[750px] aspect-[16/9] sm:aspect-[16/8] md:aspect-[16/7]" style="background-size: cover; background-position: center">
+                        <img src="/media/lcwfvvtb/_k9i1448.jpg" alt="_K9I1448.jpg" loading="lazy" decoding="async" sizes="(min-width:1536px) 1400px, (min-width:1280px) 1200px, (min-width:1024px) 900px, (min-width:640px) 600px, 100vw" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(0deg,  0%,  100%);"></div>
+                <div class="absolute inset-0 flex flex-col justify-end 
+                py-10 px-6 md:pt-16  md:px-10 text-white">
+
+                </div>
+            </div>
+
+                </div>
+                <!-- Card -->
+                <div class="swiper-slide">
+                    
+
+
+            <div id="" class="relative group overflow-hidden w-full h-full rounded-[2.5rem] min-h-[480px] sm:min-h-[560px] md:min-h-[640px] lg:min-h-[720px] xl:max-h-[750px] aspect-[16/9] sm:aspect-[16/8] md:aspect-[16/7]" style="background-size: cover; background-position: center">
+                        <img src="/media/1rtl1gjp/whatsapp-image-2026-01-06-at-94713-pm.jpeg" alt="WhatsApp Image 2026-01-06 at 9.47.13 PM.jpeg" loading="lazy" decoding="async" sizes="(min-width:1536px) 1400px, (min-width:1280px) 1200px, (min-width:1024px) 900px, (min-width:640px) 600px, 100vw" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(0deg,  0%,  100%);"></div>
+                <div class="absolute inset-0 flex flex-col justify-end 
+                py-10 px-6 md:pt-16  md:px-10 text-white">
+
+                </div>
+            </div>
+
+                </div>
+                <!-- Card -->
+                <div class="swiper-slide">
+                    
+
+
+            <div id="" class="relative group overflow-hidden w-full h-full rounded-[2.5rem] min-h-[480px] sm:min-h-[560px] md:min-h-[640px] lg:min-h-[720px] xl:max-h-[750px] aspect-[16/9] sm:aspect-[16/8] md:aspect-[16/7]" style="background-size: cover; background-position: center">
+                        <img src="/media/xc5nxyua/dsc07212.jpg" alt="DSC07212.JPG" loading="lazy" decoding="async" sizes="(min-width:1536px) 1400px, (min-width:1280px) 1200px, (min-width:1024px) 900px, (min-width:640px) 600px, 100vw" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(0deg,  0%,  100%);"></div>
+                <div class="absolute inset-0 flex flex-col justify-end 
+                py-10 px-6 md:pt-16  md:px-10 text-white">
+
+                </div>
+            </div>
+
+                </div>
+                <!-- Card -->
+                <div class="swiper-slide">
+                    
+
+
+            <div id="" class="relative group overflow-hidden w-full h-full rounded-[2.5rem] min-h-[480px] sm:min-h-[560px] md:min-h-[640px] lg:min-h-[720px] xl:max-h-[750px] aspect-[16/9] sm:aspect-[16/8] md:aspect-[16/7]" style="background-size: cover; background-position: center">
+                        <img src="/media/tzobol0p/dsc01802.jpg" alt="DSC01802.jpg (1)" loading="lazy" decoding="async" sizes="(min-width:1536px) 1400px, (min-width:1280px) 1200px, (min-width:1024px) 900px, (min-width:640px) 600px, 100vw" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(0deg,  0%,  100%);"></div>
+                <div class="absolute inset-0 flex flex-col justify-end 
+                py-10 px-6 md:pt-16  md:px-10 text-white">
+
+                </div>
+            </div>
+
+                </div>
+                <!-- Card -->
+                <div class="swiper-slide">
+                    
+
+
+            <div id="" class="relative group overflow-hidden w-full h-full rounded-[2.5rem] min-h-[480px] sm:min-h-[560px] md:min-h-[640px] lg:min-h-[720px] xl:max-h-[750px] aspect-[16/9] sm:aspect-[16/8] md:aspect-[16/7]" style="background-size: cover; background-position: center">
+                        <img src="/media/04udgecb/satorp-27.jpg" alt="SATORP 27.jpg" loading="lazy" decoding="async" sizes="(min-width:1536px) 1400px, (min-width:1280px) 1200px, (min-width:1024px) 900px, (min-width:640px) 600px, 100vw" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" />
+
+                <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(0deg,  0%,  100%);"></div>
+                <div class="absolute inset-0 flex flex-col justify-end 
+                py-10 px-6 md:pt-16  md:px-10 text-white">
+
+                </div>
+            </div>
+
+                </div>
+    </div>
+</div></section></div>        </div>
+</div>
+
+</div>
+
+
+    <!-- Footer: Full layout with curved SVG and bottom copyright/logo row -->
+    
+
+<footer class="bg-[#1f2960] text-white relative overflow-hidden pt-20 pb-10">
+    <!-- Decorative SVG -->
+    <svg class="absolute inset-0 hidden lg:block w-full h-full z-0 pointer-events-none" viewBox="0 0 1440 600"
+         fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1000 0 C1150 200, 1250 400, 1440 600" stroke="#00adef" stroke-width="1" />
+        <path d="M1440 0 C1300 200, 1200 400, 1000 600" stroke="#64bc46" stroke-width="1" />
+    </svg>
+     <div class="px-6 xl:px-32">
+
+
+<div id="" class=" grid grid-cols-1 lg:grid-cols-3 gap-3 xl:gap-12" style="">
+
+
+<!-- Column 1: Slogan -->
+<div id="" class=" flex flex-col justify-between text-center ltr:md:text-left rtl:md:text-right" style="">
+    <h3 class="text-xl md:text-3xl lg:text-5xl font-light leading-tight mb-4">
+        <p class="w-full bg-clip-text text-transparent leading-tight break-words box-decoration-clone" style="background-image: linear-gradient(90deg, rgb(124, 184, 3), rgb(1, 160, 214)); -webkit-text-fill-color: transparent;"><span>Expanding</span><br><span>Excellence&nbsp;</span></p>
+    </h3>
+    <p class="hidden lg:block text-[10px] sm:text-xs text-gray-400 mt-32 sm:mt-44 max-w-xs sm:max-w-full">
+        &#xA9; Saudi Aramco Total Refining and Petrochemical Co. SATORP
+    </p>
+</div>
+
+
+<div id="" class="text-center ltr:md:text-left  rtl:md:text-right grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-6" style="">
+
+
+<div id="" class="" style="">
+    <h4 class="uppercase text-xs sm:text-sm text-gray-300 font-semibold mb-8">Quick Links</h4>
+    <ul class="space-y-4 text-xs sm:text-sm">
+                <li>
+                    <a href="/en/about" class="hover:underline">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="/en/business/" class="hover:underline">
+                        Our Business
+                    </a>
+                </li>
+                <li>
+                    <a href="/en/sustainability" class="hover:underline">
+                         Sustainability
+                    </a>
+                </li>
+                <li>
+                    <a href="/en/media" class="hover:underline">
+                         Media Center
+                    </a>
+                </li>
+                <li>
+                    <a href="/en/contact" class="hover:underline">
+                         Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="/en/brand" class="hover:underline">
+                        Brand Hub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://hcm-sa20.hr.cloud.sap/login?company=SATORPPROD&amp;loginMethod=SSO" target="_blank" class="hover:underline">
+                        MYHR
+                    </a>
+                </li>
+    </ul>
+</div>
+
+
+<div id="" class="" style="">
+    <h4 class="uppercase text-xs sm:text-sm text-gray-300 font-semibold mb-8">Legal</h4>
+    <ul class="space-y-4 text-xs sm:text-sm">
+                <li>
+                    <a href="/en/cookie-usage-statement/" class="hover:underline">
+                        Cookie Usage Statement
+                    </a>
+                </li>
+                <li>
+                    <a href="/en/terms-conditions/" class="hover:underline">
+                        Terms &amp; Conditions
+                    </a>
+                </li>
+                <li>
+                    <a href="/en/privacy-policy/" class="hover:underline">
+                        Privacy Policy
+                    </a>
+                </li>
+    </ul>
+</div>
+</div>
+
+
+<section id="" class="flex flex-col items-center lg:items-end" style="">
+
+
+
+<section id="" class="flex flex-wrap justify-center lg:justify-end gap-4" style="">
+
+
+<a id="" href="http://www.x.com/satorp" target="_blank" class="w-6 h-6 color-white fill-white flex items-center justify-center rounded-full transition duration-300 ease-in-out hover:scale-120">
+    <img class="invert brightness-0 saturate-0 w-6 h-6 color-white fill-white" />
+</a>
+
+<a id="" href="https://www.linkedin.com/company/satorp-saudi-aramco-refining-petrolchemical-&amp;-co./" target="_blank" class="w-6 h-6 flex items-center justify-center rounded-full transition duration-300 ease-in-out hover:scale-120">
+    <img class="invert brightness-0 saturate-0 w-6 h-6" />
+</a></section>
+
+<img src="/media/zs1p1uwa/d213a888f45a5838007fae2edebcd044e32a8d2b-1.png" alt="d213a888f45a5838007fae2edebcd044e32a8d2b (1).png" id="" class="w-[251px] h-[132px] mt-8 lg:mt-44" style="">
+
+</section></div>     </div>
+    <!-- Footer Bottom Text -->
+    <div class="mt-10 block md:hidden text-center text-[10px] sm:text-xs text-gray-400 px-4 sm:px-6 lg:px-8">
+        � Saudi Aramco Total Refining and Petrochemical Co. SATORP
+    </div>
+</footer> 
+
+    <!-- jQuery Library -->
+    <script src="/assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- Sidebar Toggle Script -->
+    <script src="/assets/js/main.js?v=5MTv_qN3q1dfbrn_2lTpTzZ2Gp4ifzahqhTufh-An14"></script>
+    
+
+    <!-- Simple cursor effect -->
+    <script>
+        (function () {
+            try {
+                var isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+                if (isTouch) return;
+
+                var dot = document.createElement('div');
+                dot.id = 'cursor-dot';
+                var size = 26; // px
+                var style = dot.style;
+                style.position = 'fixed';
+                style.left = '0px';
+                style.top = '0px';
+                style.width = size + 'px';
+                style.height = size + 'px';
+                style.borderRadius = '50%';
+                style.background = 'rgba(245, 245, 245, 0.9)'; // even lighter grey with opacity
+                style.boxShadow = '0 0 12px rgba(245, 245, 245, 0.5)';
+                style.pointerEvents = 'none';
+                style.transform = 'translate(-50%, -50%) scale(1)';
+                style.transition = 'transform 80ms ease-out, opacity 200ms ease';
+                style.zIndex = '9999';
+                style.opacity = '0';
+                style.mixBlendMode = 'multiply';
+                document.body.appendChild(dot);
+
+                var lastX = 0, lastY = 0;
+                var isDown = false;
+                var isHoverImage = false;
+
+                function updateTransform() {
+                    var baseScale = isHoverImage ? 1.6 : 1;
+                    var clickScale = isDown ? 0.85 : 1;
+                    var scale = (baseScale * clickScale).toFixed(3);
+                    style.transform = 'translate(-50%, -50%) scale(' + scale + ')';
+                }
+                document.addEventListener('mousemove', function (e) {
+                    lastX = e.clientX; lastY = e.clientY;
+                    style.left = lastX + 'px';
+                    style.top = lastY + 'px';
+                    style.opacity = '1';
+                }, { passive: true });
+
+                document.addEventListener('mouseleave', function () {
+                    style.opacity = '0';
+                }, { passive: true });
+
+                document.addEventListener('mousedown', function () {
+                    isDown = true;
+                    updateTransform();
+                }, { passive: true });
+
+                document.addEventListener('mouseup', function () {
+                    isDown = false;
+                    updateTransform();
+                }, { passive: true });
+
+                function isImageElement(el) {
+                    if (!el) return false;
+                    if (el.closest && el.closest('img, picture, figure')) return true;
+                    var tag = (el.tagName || '').toLowerCase();
+                    return tag === 'img' || tag === 'picture';
+                }
+
+                document.addEventListener('mouseover', function (e) {
+                    if (isImageElement(e.target)) {
+                        isHoverImage = true;
+                        updateTransform();
+                    }
+                }, { passive: true });
+
+                document.addEventListener('mouseout', function (e) {
+                    if (isImageElement(e.target)) {
+                        isHoverImage = false;
+                        updateTransform();
+                    }
+                }, { passive: true });
+            } catch (_) { /* no-op */ }
+        })();
+    </script>
+
+</body>
+</html>

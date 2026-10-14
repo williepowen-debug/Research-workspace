@@ -1,0 +1,62 @@
+{
+  "payload_rule": "whole-file original bytes",
+  "files": {
+    "demand_destruction/TRACKER.md": {
+      "before_image": "archive/2026-10-14_operational-followups/TRACKER.md",
+      "bytes": 182807,
+      "sha256": "8595bbf765759f12cfb6becd606d7f0e35a8dff72fad15fbdb0d028d4d8b1d49",
+      "crc32": "b5084481"
+    },
+    "refinery_damage/INCIDENTS.tsv": {
+      "before_image": "archive/2026-10-14_operational-followups/INCIDENTS.tsv",
+      "bytes": 88096,
+      "sha256": "b736f331e2d0ba7e3f32d972dbfb55690d9e2506e1e98ef26a72ae2cc8a8f7dc",
+      "crc32": "3ae0ca9a"
+    },
+    "workbook/REGISTRY.tsv": {
+      "before_image": "archive/2026-10-14_operational-followups/REGISTRY.tsv",
+      "bytes": 104221,
+      "sha256": "f64add8482af90a41b386be331dad6a6d8d90b1917a1c2bdf5db8d3a25cd08d6",
+      "crc32": "6aaf1624"
+    },
+    "domain/REFERENCE_TABLES.md": {
+      "before_image": "archive/2026-10-14_operational-followups/REFERENCE_TABLES.md",
+      "bytes": 6174,
+      "sha256": "db36385924864bd8a033f3982df5e7781fa70b0d419392683fb747dd38e67339",
+      "crc32": "f3d520dd"
+    },
+    "docket/FASTOW_MEMORY.md": {
+      "before_image": "archive/2026-10-14_operational-followups/FASTOW_MEMORY.md",
+      "bytes": 27634,
+      "sha256": "82e0316ca31f7fb3c2eeb2f5852e1f886ee3adf71b4ae0c508165b6e6c066a40",
+      "crc32": "effaa330"
+    },
+    "demand_destruction/TRANSITION_MATRIX.md": {
+      "before_image": "archive/2026-10-14_operational-followups/TRANSITION_MATRIX.md",
+      "bytes": 20027,
+      "sha256": "628a0de3a5ae3b36e230148a322e8f4df16b587c179e1b4257309cbb5ff06d96",
+      "crc32": "e485a83f"
+    },
+    "demand_destruction/MATRIX_REVIEW.md": {
+      "before_image": "archive/2026-10-14_operational-followups/MATRIX_REVIEW.md",
+      "bytes": 12396,
+      "sha256": "a93c51cf15b877378a8a9f88be728fcf1f6a5a54039f26dba71fa4620dabc047",
+      "crc32": "604fffc9"
+    },
+    "demand_destruction/HOARDING.md": {
+      "before_image": "archive/2026-10-14_operational-followups/HOARDING.md",
+      "bytes": 19569,
+      "sha256": "44532f61b3a10305f4db55399015e5e88c816423f1308a9f30cb9dced2501446",
+      "crc32": "726b669c"
+    }
+  },
+  "rotated_blocks": [
+    {
+      "file": "docket/FASTOW_MEMORY.md",
+      "name": "dated LAST RUN history",
+      "bytes": 7038,
+      "sha256": "8514d9ecb0edb236374bb7a3e165c95ffb88a492caf983381d225be2adb5ef9e",
+      "original_start_utf8": 838
+    }
+  ]
+}

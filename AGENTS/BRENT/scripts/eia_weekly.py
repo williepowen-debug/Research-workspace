@@ -508,6 +508,22 @@ def coverage(metrics, today=None):
     return issues
 
 
+def observation_problem(metrics, key, today):
+    """Explain missing versus aged evidence without relaxing the existing budget."""
+    if metrics.get(key) is None:
+        return "missing observation value"
+    when = parse_date(metrics.get("dates", {}).get(key))
+    if when is None:
+        return "observation date UNKNOWN"
+    age = (today - when).days
+    if age < 0:
+        return f"future observation {when}"
+    budget = observation_budget()
+    if age > budget:
+        return f"STALE observation {when}: {age}d old vs {budget}d budget; source presence is separate"
+    return None
+
+
 def main():
     now = datetime.now(timezone.utc)
     print(f"BRENT EIA Weekly Monitor — retrieved {now.isoformat()}")
@@ -538,21 +554,22 @@ def main():
         unit = '%' if key in ('util', 'gas_yoy_latest') else 'M bbl'
         shown = 'UNKNOWN' if value is None else f'{value:+.3f} {unit}'
         print(f"  {key}: {shown}; observed {metrics.get('dates', {}).get(key, 'UNKNOWN')}")
-    print("Gasoline YoY: record only; retired BRT-08 trigger not evaluated; BRT-29 requires owner review.")
+    print("Gasoline YoY: record only; retired BRT-08 trigger not evaluated; current prediction letters live in thesis/PREDICTIONS.tsv and their linked notes.")
     print("SPR: level only; exact current contract/authority unresolved; no universal floor inferred.")
     cushing = metrics.get('cushing')
     when = parse_date(metrics.get('dates', {}).get('cushing'))
-    eligible = when is not None and 0 <= (now.date() - when).days <= observation_budget()
-    if cushing is None or not eligible:
-        print("Cushing <20M: UNGRADED — absent or stale dated observation")
+    problem = observation_problem(metrics, 'cushing', now.date())
+    if problem:
+        print(f"Cushing <20M: UNGRADED — {problem}")
     else:
         print(f"Cushing <20M: {'BREACHED' if cushing < CUSHING_MIN else 'not breached'} on {when}; observation check only")
     util = metrics.get('util')
     util_date = parse_date(metrics.get('dates', {}).get('util'))
-    if util is not None and util_date and 0 <= (now.date() - util_date).days <= observation_budget():
+    problem = observation_problem(metrics, 'util', now.date())
+    if not problem:
         print(f"Refinery utilization: {status_for_util(util)[1]} on {util_date}; observation check only")
     else:
-        print("Refinery utilization: UNGRADED — absent or stale dated observation")
+        print(f"Refinery utilization: UNGRADED — {problem}")
     for issue in issues + metrics.get('errors', []):
         print('  FINDINGS: ' + issue)
     return 2 if issues or metrics.get('errors') else 0

@@ -10,7 +10,7 @@ State file for the docket-steward sub-agent. Spec is in [`FASTOW.md`](FASTOW.md)
 
 ## CHANGES SINCE LAST RUN
 
-*Auto-populated by FASTOW at run start: what's moved in STATUS / THESIS / TIMELINE / CHANGELOG since the previous sync. Cleared at end-of-run.*
+*FASTOW run field; no new run claimed. Current reads are STATUS/THESIS/CHANGELOG/CATALYSTS; TIMELINE is frozen history.*
 
 *(cleared end-of-Run-2)*
 
@@ -18,77 +18,7 @@ State file for the docket-steward sub-agent. Spec is in [`FASTOW.md`](FASTOW.md)
 
 ## LAST RUN
 
-### Run 2 — 2026-06-07 ~21:08 ET (Sun, pre-Globex, post-Run-1 retro integration)
-
-**Trigger:** Normal sync. Monthly baseline-audit trigger does NOT fire (Run 1 was Jun 7 same day — no calendar-month rollover; next monthly trigger Jul 1+). Post-miss trigger did not fire. **No audit trigger this run.**
-
-**Read-set scan:**
-- STATUS.md timestamp 2026-06-07 ~17:38 ET (unchanged since Run 1; fresh).
-- THESIS / TIMELINE / CHANGELOG unchanged since Run 1.
-- CATALYSTS.tsv: 24 forward rows post-Run-1 BRENT application of light-convention delta. Date-sorted.
-- Run 1 retro produced 2 BRENT-side edits to STANDING MONITORS (OPEC+ Jun 7 outcome ingestion watch + NEW pre-fire date verification monitor for cadence-derived rows).
-
-**Pruned:** none. No `— FIRED` rows. OPEC+ Jun 7 still TODAY/PENDING.
-
-**Added:** none. (Run 2 is rolling-light per CALIBRATION; no new events surfaced from sources within rolling window.)
-
-**Refreshed (framing):** none. Spot-checked all forward rows against unchanged STATUS — all framing current.
-
-**Modeled-date revisions:** none. SPR 350M Jun 10 + Cushing 20M Jul 1 both still match STATUS storage section (no new EIA data since Jun 3 to shift either).
-
-**Pre-fire date verification (NEW STANDING MONITOR per BRENT post-Run-1 retro):** scanned TSV for rows whose `notes` contain "best-estimate" / "verify against" / "cadence-derived" / "typical" / "customary" language AND date within next 7 calendar days. **Hits:** 1 row.
-- **OPEC MOMR (June) — Jun 13 → Jun 11 REVISED.** Pre-Run-2 row dated 2026-06-13 with notes "Best-estimate mid-month (typical 11th-13th)". 6 days out (within 7d gate). WebSearch + WebFetch (investing.com OPEC calendar) confirmed source-locked **Jun 11 2026 10:00**. Revised date Jun 13 → Jun 11, notes upgraded to "Source-locked Jun 11 2026 10:00 per investing.com OPEC calendar (revised from Jun 13 best-estimate per FASTOW Run 2 pre-fire verification)". TSV re-sorted to preserve ascending order (Jun 11 now sits between SPR ~Jun 10 and Jun 12 COT/BH).
-- Rows skipped (date >7d out, not in pre-fire window): EIA STEO Jul 8 ("customary Tue early-month"), OPEC MOMR Jul 11 ("best-estimate date"), US CPI Jul 15 ("verify against BLS schedule"). Will fire when within 7d.
-
-**Live-spot scan:** clean. No live price/level leaked into TSV cells.
-
-**BASELINE AUDIT:** no audit trigger this run (Run 1 was same calendar day; monthly trigger next fires Jul 1+).
-
-**STATUS ↔ TSV event-SET parity check:** **DIVERGENCE FOUND** — see ESCALATIONS below. STATUS § CATALYST CALENDAR (lines 202-218) shows ~13 events vs TSV's 24. Missing from STATUS: OPEC MOMR Jun (Jun 11), IEA OMR Jun (Jun 17), EIA WPSR Jun 17 / Jun 24, BH Jun 19 / Jun 26, COT Jun 19 / Jun 26, EIA STEO Jul 8, OPEC MOMR Jul 11, US CPI Jul 15, OPEC JMMC Jul 28. **All 12 of the Run-1 BRENT-applied additions are absent from STATUS.** This is the structural divergence Run 1 was supposed to surface — flagging now as Run-2 ESCALATION since the gap persists post-Run-1 close. (Possible BRENT explanation: STATUS calendar is a curated "load-bearing-only" view, not a 1:1 TSV mirror — if so, the TRUTH MODEL's "must not diverge in event SET" rule needs nuancing; see META-REVIEW Finding #4.)
-
-**1-week retention check on FIRED rows:** none — OPEC+ Jun 7 still TODAY/PENDING.
-
-**Runway:** 24 forward events; furthest is Sep 30 (XLE expiry, 115d). Healthy. Events in next 14d: 14 (dense pre-OPEC+ outcome week).
-
-**Cost:** ~4 min (within Run 2 budget of 3-5 min for normal sync; Part A only).
-
-**Notes:**
-- Pre-fire date verification monitor caught a 2-day error on first invocation (OPEC MOMR Jun 13 → Jun 11) — same magnitude class as Run-1 STEO catch (Jun 11 → Jun 9). **Monitor validates: cadence-derived rows do drift, and 7-day pre-fire window is the right pre-emptive cadence.** Findings codified to MEMORY (auto-memory) candidate.
-- Part B Meta-Review follows below (separate budget; see PENDING § Run 2 META-REVIEW).
-
----
-
-### Run 1 — 2026-06-07 ~17:40 ET (Sun, pre-Globex, pre-OPEC+ outcome)
-
-**Trigger:** First FASTOW run ever. Monthly baseline-audit trigger fires by definition.
-
-**Read-set scan:**
-- STATUS.md timestamp 2026-06-07 ~17:38 ET (fresh tonight) — Brent $94.66 Fri close; OPEC+ Vienna meeting TODAY with outcome PENDING; SPR ~350M floor Jun 10; Cushing 20M floor pushed to ~Jul 1; macro-transmission firing Jun 5 (VIX +40%, Fed-hike pricing).
-- THESIS.md / TIMELINE.md not re-read in full (no thesis-version bump since Jun 3 intra-version POV pivot per CHANGELOG); STATUS holds the current operative framing.
-- CHANGELOG last entry Jun 3 (catalyst baton-pass Cushing → SPR + PADD-3 export-pull + MD contamination discipline).
-- CATALYSTS.tsv: 12 rows; date-sorted; no FIRED rows pending prune.
-
-**Pruned:** none. No `— FIRED` rows in TSV. OPEC+ Jun 7 is TODAY with outcome PENDING — keep (will be FIRED post-tonight; eligible to prune after Jun 14 per 1-week retention).
-
-**Added:** none — Run 1 is baseline-audit propose-only; all delta written to `## PENDING` for BRENT review.
-
-**Refreshed (framing):** none. Spot-checked all 12 forward rows:
-- Jun 10 EIA WPSR row already carries the directional-not-symmetric framing (`SPR throttle at ~350M = bullish; drain-through past 350M = near-term BEARISH + medium-term bullish (DIRECTIONAL, not symmetric)`) consistent with the Jun 3 Will-call correction. ✓
-- Jun 12 CFTC COT row references the May 19 baseline (98,219, +25,418) which still matches STATUS. ✓
-- BRT-27 / BRT-28 / OPEC+ / position-expiry framings match current STATUS. ✓
-
-**Modeled-date revisions:** none. SPR ~350M floor row dated 2026-06-10 (modeled) matches STATUS storage section ("~350M operational floor ~1 wk out — Jun 10 EIA print is the floor-touch"). Cushing 20M floor row dated 2026-07-01 (modeled, REVISED) matches STATUS ("20M operational floor pushed to ~Jul 1"). EIA Jun 3 synthesis (`demand_destruction/data/eia_2026-06-03.md`) confirms both projections — no new data has landed since Jun 3 to shift either floor date.
-
-**Live-spot scan:** clean. No live price/level leaked into TSV `what_to_check` or `threshold_signal` cells. All cells hold structural thresholds + significance only per TRUTH MODEL.
-
-**BASELINE AUDIT (monthly trigger fired by definition — Run 1):** see `## PENDING` for full proposed delta. **Summary:** audited all 10 release classes vs source-of-truth. Window: today (Jun 7) through end-of-July (Jul 31). Found **~28 candidate gaps** (mostly recurring weekly releases beyond the first one in TSV, plus 5 monthly events not in TSV). Proposed delta written to PENDING for BRENT to apply selectively. None auto-added.
-
-**Cost:** ~9 min (within 10-12 min budget for Run 1).
-
-**Notes:**
-- BRENT's GitHub modeled-date convention is working: `~` prefix renders in countdown for the 2 modeled rows. ✓
-- STATUS § CATALYST CALENDAR matches TSV event SET. ✓ (1 date-divergence flagged in ESCALATIONS — see below.)
-- Furthest event in TSV is Sep 30 (XLE expiry), 115 days out — healthy runway.
+Last recorded steward run: Run2, June7,2026; no new FASTOW run claimed. Full dated run history is preserved verbatim in [before-image](../archive/2026-10-14_operational-followups/FASTOW_MEMORY.md#last-run), 27634 UTF-8 bytes, crc32 `effaa330`; payload rule whole file. Pending material/calibration below remains retained, not resolved by this rotation. Current owner guidance is NEXT RUN HINTS.
 
 ---
 
@@ -211,10 +141,9 @@ Run-1 baseline audit proposed 28 additions + 1 date-correction (STEO Jun 11 → 
 
 ## NEXT RUN HINTS
 
-**BRENT seed, September 9 maintenance; no new FASTOW run claimed.** Re-read FASTOW.md before using historical run notes. Prior hints are preserved verbatim in [archive](../archive/FASTOW_HINTS_2026-09-09.md).
+**BRENT owner reconciliation October14; no new FASTOW run.** Last recorded steward run remainsJune7. Older run results/standing monitors above retain their dates, not current completion or action state. The previousSeptember9hints are preserved in [whole-file before-image](../archive/2026-10-14_operational-followups/FASTOW_MEMORY.md); [manifest](../archive/2026-10-14_operational-followups/manifest.json) gives exact bytes/CRC/SHA.
 
-- Current state is CATALYSTS.tsv plus ../SCRATCH.md. September STEO is published; comparison remains pending. Next WPSR is September 10 noon ET / later files 14:00, observation September 4; Friday COT requires September 8 as-of. Release occurrence alone does not complete the associated analysis.
-- STATUS calendar uses the entire TSV event set, generated by BRENT with ../scripts/render_calendar.py --write then --check. The June curated-subset convention is superseded. No hand-edited calendar and no third date_class: retain confirmed/modeled.
-- Expired dates are not grades. Keep unresolved rows; prune only graded/fired rows after the existing retention period. Historical June/July examples in run history and STANDING MONITORS do not establish current catalyst dates or levels.
-- USO October call is closed; no October 9 management action survives. XLE receipt remains pending; no execution inference. TRADE owns holdings and action state.
-- Apply current monthly/pre-fire audit triggers from FASTOW.md, not the old Run-3 countdown. Deferred meta-review items remain optional backlog under the disposition below, not mandatory next-session changes.
+- Read FASTOW.md, current CATALYSTS and ../SCRATCH.md. October14OMR public read complete; October15Board/WPSRweekOctober9 future. Existing VLObasis transition, October16COT, October26BRT30 and November1DST remain at their owners. Do not reuse September dates or old position/receipt labels from historical hints.
+- STATUS calendar is the generated full TSV event set: BRENT runs render_calendar.py --write then --check. No hand edits, new date_class or automatic forward expansion beyond retained CALIBRATION scope.
+- Expired dates are not grades; retain unresolved rows. TIMELINE remains frozen. Current holdings/outcomes/approval are read from ../TRADE.md; no cached USO/XLE statement here.
+- June meta-review proposals remain dated optional backlog; current adopted FASTOW.md/rulings win where they already resolved an issue. Do not turn them into a new monitoring/research commission or mandatory protocol.

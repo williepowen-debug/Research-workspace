@@ -138,6 +138,20 @@ class EIAIntegrity(unittest.TestCase):
         m['dates']['util'] = '2026-10-01'
         self.assertIn('util: future observation', eia.coverage(m, today=NOW.date()))
 
+    def test_present_holiday_week_observation_remains_stale_not_missing(self):
+        metrics = {'util': 92.7, 'dates': {'util': '2026-10-02'}}
+        with patch.object(eia, 'observation_budget', return_value=10):
+            reason = eia.observation_problem(metrics, 'util', date(2026, 10, 14))
+            self.assertIn('STALE observation 2026-10-02: 12d old vs 10d budget', reason)
+            self.assertNotIn('missing', reason)
+            self.assertIn('util: STALE observation 2026-10-02',
+                          eia.coverage(metrics, today=date(2026, 10, 14)))
+            self.assertIsNone(eia.observation_problem(metrics, 'util', date(2026, 10, 12)))
+            self.assertIn('missing observation value',
+                          eia.observation_problem({'dates': {}}, 'util', date(2026, 10, 14)))
+            self.assertIn('date UNKNOWN',
+                          eia.observation_problem({'util': 92.7}, 'util', date(2026, 10, 14)))
+
     def test_current_saved_report_values_and_notice_fallback(self):
         report = (eia.EIA_DATA_DIR / 'eia_2026-09-02.md').read_text()
         m = eia.extract_metrics(report)

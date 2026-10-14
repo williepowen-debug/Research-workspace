@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-14 13:30 EDT — SCOPED-PARTIAL:** vendor option screen only; bid/ask clocks unavailable. Earlier IEA September estimates/forecasts retain their vintage, not a current cargo/site survey. Network boot: 6 OK / 4 FINDINGS / 0 FAIL, rc2. [Assessment](research/2026-10-14_boot-omr/REPORT.md).
+**Last real data refresh: 2026-10-14 14:12 EDT — SCOPED-PARTIAL:** direct EIA/FedEx bodies observe October12retail and lagged surcharge; utilization API returns October2, present but outside unchanged10day budget. Option quotes retain13:30EDT/unknownbid-askclocks; IEA retains September estimates/forecasts. Earlier boot6OK/4FINDINGS/0FAIL,rc2 not reissued. [Operational review](audits/2026-10-14_operational-followups/REPORT.md).
 
 **Current judgment:** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
 
@@ -10,7 +10,7 @@
 
 **Option screen October14 13:30 EDT:** leading research candidate USO Dec18 162/175 (65DTE); no owner card or capital approval. Vendor inputs/expiration arithmetic saved; material friction and price edge unproved. BNO has no60–90DTE expiry; refiner edge still missing. [Result](research/2026-10-14_energy-option-continuity/REPORT.md).
 
-**October14 file sweep:** trade/thesis spines, expression comparison and demand composite reconciled to saved evidence; no new market/physical/broker observation. Latest quantities secondaryOctober14; rawOctober13images checked. PROME now accepted VLOprecision installation; no holding grade/extra-share scope. [Scope and checks](audits/2026-10-14_consistency-sweep/REPORT.md).
+**October14 follow-ups:** tracker/history and current readers cleaned; EIA diagnostic clarified,75tests passed.30registry enrollments reviewed without row changes; sixfacility review attempts preserve observation dates,24aged debts remain. CFTC403/live-scheduler verification unresolved. WALTER014fuel relief/contract-lag evidence integrated/filed. [Results](audits/2026-10-14_operational-followups/REPORT.md); prior [sweep](audits/2026-10-14_consistency-sweep/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 

@@ -1,5 +1,7 @@
 # HORMUZ TRANSIT BASELINE — canonical denominator convention
 
+> **October14 reader reconciliation:** `KILL-LEG2-TRANSIT` was retiredAugust21; old NOT-FALSIFIED/unfireable wording below is historical, not a live test. Denominator/never-blend and coverage limitations remain; [REGISTRY](../workbook/REGISTRY.tsv) owns current test state and [THESIS](../thesis/THESIS.md) owns interpretation. No new transit threshold or oil-volume conversion.
+
 > # ⛔⛔ **COVERAGE-IMPEACHED 2026-08-17 — READ THIS BEFORE USING ANY NUMBER BELOW. BANNER ADDED 2026-08-21 (BRENT file audit, Will-directed).**
 >
 > **The underlying IMF PortWatch `chokepoint6` series is impeached for UNDERCOUNT, on BRENT's own internal evidence — no external source required:** `n_tanker > 0` **AND** `capacity_tanker = 0` on **0 of 424 pre-crisis days (0.0%)** vs **19 of 113 war tanker-days (16.8%)** `[CONF, own FeatureServer count queries 2026-08-17]`. A series cannot report positive hulls and zero tonnage on one day in six and still be read as a magnitude measurement.

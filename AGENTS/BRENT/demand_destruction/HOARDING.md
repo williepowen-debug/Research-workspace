@@ -1,3 +1,5 @@
+> **HISTORICAL RESEARCH — original dates below; reader reconciliation October14.** The old estimated phantom-demand volumes, premium attribution and Phase2/put-spread guidance are historical hypotheses, not current measured flows or deployment authority. Stockpiling remains a limitation of wholesale supplied; current balances and grading live at [TRACKER](TRACKER.md), [THESIS](../thesis/THESIS.md) and [TRADE](../TRADE.md). No old quantity is refreshed by this banner.
+
 # OIL HOARDING — Research Report
 
 **Created:** 2026-04-05 | **Author:** BRENT | **War Day:** 34

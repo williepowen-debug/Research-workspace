@@ -1,0 +1,374 @@
+{
+  "scope": "One-off preservation validation; supersedes:none. No live market, broker, remote scheduler or facility certification.",
+  "all_pass": true,
+  "checks": {
+    "archive:demand_destruction/TRACKER.md": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/TRACKER.md",
+        "bytes": 182807,
+        "sha256": "8595bbf765759f12cfb6becd606d7f0e35a8dff72fad15fbdb0d028d4d8b1d49",
+        "crc32": "b5084481"
+      }
+    },
+    "archive:refinery_damage/INCIDENTS.tsv": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/INCIDENTS.tsv",
+        "bytes": 88096,
+        "sha256": "b736f331e2d0ba7e3f32d972dbfb55690d9e2506e1e98ef26a72ae2cc8a8f7dc",
+        "crc32": "3ae0ca9a"
+      }
+    },
+    "archive:workbook/REGISTRY.tsv": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/REGISTRY.tsv",
+        "bytes": 104221,
+        "sha256": "f64add8482af90a41b386be331dad6a6d8d90b1917a1c2bdf5db8d3a25cd08d6",
+        "crc32": "6aaf1624"
+      }
+    },
+    "archive:domain/REFERENCE_TABLES.md": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/REFERENCE_TABLES.md",
+        "bytes": 6174,
+        "sha256": "db36385924864bd8a033f3982df5e7781fa70b0d419392683fb747dd38e67339",
+        "crc32": "f3d520dd"
+      }
+    },
+    "archive:docket/FASTOW_MEMORY.md": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/FASTOW_MEMORY.md",
+        "bytes": 27634,
+        "sha256": "82e0316ca31f7fb3c2eeb2f5852e1f886ee3adf71b4ae0c508165b6e6c066a40",
+        "crc32": "effaa330"
+      }
+    },
+    "archive:demand_destruction/TRANSITION_MATRIX.md": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/TRANSITION_MATRIX.md",
+        "bytes": 20027,
+        "sha256": "628a0de3a5ae3b36e230148a322e8f4df16b587c179e1b4257309cbb5ff06d96",
+        "crc32": "e485a83f"
+      }
+    },
+    "archive:demand_destruction/MATRIX_REVIEW.md": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/MATRIX_REVIEW.md",
+        "bytes": 12396,
+        "sha256": "a93c51cf15b877378a8a9f88be728fcf1f6a5a54039f26dba71fa4620dabc047",
+        "crc32": "604fffc9"
+      }
+    },
+    "archive:demand_destruction/HOARDING.md": {
+      "pass": true,
+      "detail": {
+        "before_image": "archive/2026-10-14_operational-followups/HOARDING.md",
+        "bytes": 19569,
+        "sha256": "44532f61b3a10305f4db55399015e5e88c816423f1308a9f30cb9dced2501446",
+        "crc32": "726b669c"
+      }
+    },
+    "rotated:dated LAST RUN history": {
+      "pass": true,
+      "detail": {
+        "file": "docket/FASTOW_MEMORY.md",
+        "name": "dated LAST RUN history",
+        "bytes": 7038,
+        "sha256": "8514d9ecb0edb236374bb7a3e165c95ffb88a492caf983381d225be2adb5ef9e",
+        "original_start_utf8": 838
+      }
+    },
+    "registry_rows_unchanged": {
+      "pass": true,
+      "detail": "Byte comparison of all non-comment rows; no numerical/status/date/probe change."
+    },
+    "incident_identity_and_fields": {
+      "pass": true,
+      "detail": {
+        "rows": 58,
+        "notes_changed": [
+          "RF-008",
+          "RF-016",
+          "RF-018",
+          "RF-022",
+          "RF-039",
+          "RF-044"
+        ]
+      }
+    },
+    "incident_scope_six": {
+      "pass": true,
+      "detail": [
+        "RF-008",
+        "RF-016",
+        "RF-018",
+        "RF-022",
+        "RF-039",
+        "RF-044"
+      ]
+    },
+    "tracker_slice:standing rules and all eleven alert lines": {
+      "pass": true,
+      "detail": {
+        "name": "standing rules and all eleven alert lines",
+        "start_utf8": 22002,
+        "bytes": 11256,
+        "sha256": "5a83777160a612e639144f8f6c785bb5a7f60731461f079d1db2df754e486b1a"
+      }
+    },
+    "tracker_slice:existing single-print reactivation letter": {
+      "pass": true,
+      "detail": {
+        "name": "existing single-print reactivation letter",
+        "start_utf8": 35587,
+        "bytes": 368,
+        "sha256": "9c6e5e5254fb34eb5f56f8578541a82569f39ae3daf32b3a2c4dc12ba7116507"
+      }
+    },
+    "tracker_slice:existing instrument-basis canon": {
+      "pass": true,
+      "detail": {
+        "name": "existing instrument-basis canon",
+        "start_utf8": 39148,
+        "bytes": 1259,
+        "sha256": "4b0c1a9e801421f4f283be1d0ce54a7283867a5ab79de448619b1b24ed5aa04e"
+      }
+    },
+    "tracker_slice:existing daily-bar capture restriction": {
+      "pass": true,
+      "detail": {
+        "name": "existing daily-bar capture restriction",
+        "start_utf8": 41205,
+        "bytes": 2031,
+        "sha256": "99990402cc5f49512a79044f7eacf1adc7a28ba1f941a0e75f3af6701113f67c"
+      }
+    },
+    "tracker_slice:observational premium definition and revisit letter": {
+      "pass": true,
+      "detail": {
+        "name": "observational premium definition and revisit letter",
+        "start_utf8": 43236,
+        "bytes": 3118,
+        "sha256": "543ca2cb487e4410460267f7a86908fffa51cdd74c200f7b7370dad4c8e223ab"
+      }
+    },
+    "tracker_slice:zero-AIS inference restriction": {
+      "pass": true,
+      "detail": {
+        "name": "zero-AIS inference restriction",
+        "start_utf8": 48053,
+        "bytes": 579,
+        "sha256": "000071e002ec4e8203c5b400fcec376fbdcfd3ee5c0443a8b29516b79159d04b"
+      }
+    },
+    "alert_line_1": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_2": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_3": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_4": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_5": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_6": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_7": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_8": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_9": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_10": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "alert_line_11": {
+      "pass": true,
+      "detail": "Only line4 observation changes; thresholds preserved."
+    },
+    "historical_body:HOARDING.md": {
+      "pass": true,
+      "detail": "Historical original is an unchanged byte suffix behind a new scope banner."
+    },
+    "historical_body:MATRIX_REVIEW.md": {
+      "pass": true,
+      "detail": "Historical original is an unchanged byte suffix behind a new scope banner."
+    },
+    "historical_body:TRANSITION_MATRIX.md": {
+      "pass": true,
+      "detail": "Historical original is an unchanged byte suffix behind a new scope banner."
+    },
+    "fastow_pending_standing_calibration_preserved": {
+      "pass": true,
+      "detail": "Exact comparison at anchored headings; entire PENDING/STANDING MONITORS/CALIBRATION block."
+    },
+    "stored_source:util-current-series": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:util-route-metadata": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:util-facet-list": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:public-eia-retail": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:public-fedex-surcharge": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:public-adnoc-habshan": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:public-valero-q2": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:public-satorp-media": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "stored_source:public-tuapse-profile": {
+      "pass": true,
+      "detail": "Stored-body hash, distinct from any redacted raw-body hash."
+    },
+    "utilization_identity_and_vintage": {
+      "pass": true,
+      "detail": {
+        "period": "2026-10-02",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "(NA)",
+        "product-name": "Not Applicable",
+        "process": "YUP",
+        "process-name": "% Utilization Refinery Operable Capacity",
+        "series": "WPULEUS3",
+        "series-description": "U.S. Percent Utilization of Refinery Operable Capacity",
+        "value": "92.7",
+        "units": "%"
+      }
+    },
+    "cftc_access_gap_retained": {
+      "pass": true,
+      "detail": "Two primary paths returned403; no current reissue check."
+    },
+    "saved_prompt:audits/2026-10-02_routine-install/after_friday.txt": {
+      "pass": true,
+      "detail": "Saved prompt only; not a live deployment receipt."
+    },
+    "saved_prompt:audits/2026-10-02_routine-install/after_monday.txt": {
+      "pass": true,
+      "detail": "Saved prompt only; not a live deployment receipt."
+    },
+    "saved_prompt:audits/2026-10-02_routine-install/after_thursday.txt": {
+      "pass": true,
+      "detail": "Saved prompt only; not a live deployment receipt."
+    },
+    "saved_prompt:audits/2026-10-02_routine-install/after_wednesday.txt": {
+      "pass": true,
+      "detail": "Saved prompt only; not a live deployment receipt."
+    },
+    "rotation_stop:STATUS.md": {
+      "pass": true,
+      "detail": {
+        "bytes": 22367,
+        "strict_stop": 22785
+      }
+    },
+    "rotation_stop:SCRATCH.md": {
+      "pass": true,
+      "detail": {
+        "bytes": 5637,
+        "strict_stop": 22785
+      }
+    },
+    "rotation_stop:TRADE.md": {
+      "pass": true,
+      "detail": {
+        "bytes": 22590,
+        "strict_stop": 22785
+      }
+    },
+    "rotation_stop:thesis/THESIS.md": {
+      "pass": true,
+      "detail": {
+        "bytes": 22696,
+        "strict_stop": 22785
+      }
+    },
+    "rotation_stop:demand_destruction/TRACKER.md": {
+      "pass": true,
+      "detail": {
+        "bytes": 22645,
+        "strict_stop": 22785
+      }
+    },
+    "rotation_stop:docket/FASTOW_MEMORY.md": {
+      "pass": true,
+      "detail": {
+        "bytes": 20967,
+        "strict_stop": 22785
+      }
+    },
+    "rotation_stop:NEXUS_BRIEF.md": {
+      "pass": true,
+      "detail": {
+        "bytes": 20188,
+        "strict_stop": 22785
+      }
+    },
+    "walter_intake_reconciled": {
+      "pass": true,
+      "detail": "One logged row and one archived packet."
+    },
+    "frozen_untouched": {
+      "pass": true,
+      "detail": [
+        "workbook/KB.tsv",
+        "workbook/VX.tsv",
+        "workbook/FLOW.tsv",
+        "thesis/TIMELINE.md",
+        "GROUP_MAP.md"
+      ]
+    },
+    "local_markdown_links": {
+      "pass": true,
+      "detail": {
+        "checked": 217,
+        "missing": [],
+        "scope": "Changed live Markdown and audit reports; historical bodies/intake packet excluded."
+      }
+    }
+  }
+}

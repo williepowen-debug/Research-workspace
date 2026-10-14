@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+    <title>Tuapse Refinery</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+
+<link rel="icon" type="image/icon" href="/media/rosneft/img/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" type="text/css" href="/media/rosneft/css/style2.css" />
+<link rel="stylesheet" type="text/css" href="/media/rosneft/css/esgStyle.css" />
+<link rel="stylesheet" type="text/css" href="/media/rosneft/css/b-map.css" />
+<link rel="stylesheet" type="text/css" href="/media/colorbox/colorbox.css" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/media/rosneft/css/style-ie.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/media/rosneft/css/style-ie7.css" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/media/rosneft/css/style-ie8.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/media/rosneft/css/style-ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="/media/rosneft/js/jquery_3.min.js"></script>
+<script type="text/javascript" src="/media/rosneft/js/jquery.slider_3.js"></script>
+<script type="text/javascript" src="/media/rosneft/js/jquery.vslider_3.js"></script>
+
+<script type="text/javascript">var WEBRNURL = "//web-service.rosneft.ru"</script>
+
+<script type="text/javascript" src="/media/rosneft/js/web-rn-api.js?2026-10-02"></script>
+
+<script type="text/javascript" src="/media/rosneft/js/file-uploader/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="/media/rosneft/js/file-uploader/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="/media/rosneft/js/file-uploader/jquery.fileupload.js"></script>
+
+<script type="text/javascript" src="/media/rosneft/js/f_3.js"></script>
+<script type="text/javascript" src="/media/rosneft/js/f2.js"></script>
+<script type="text/javascript" src="/media/colorbox/jquery.colorbox-min_3.js"></script>
+<script type="text/javascript" src="/media/rosneft/js/jquery.carouFredSel-6.2.1.js"></script></head>
+
+<body>
+
+<div class="l-page main first_tab">
+<div class="l-wrapper">
+
+
+<div id="noscript">
+    <p>Please activate JavaScript in your browser to use all interface options.</p>
+</div>
+<script>document.getElementById('noscript').style.display='none';</script>
+
+<div class="l-header">
+
+    <div class="b-logo">
+                    <a href="/"><img src="/media/rosneft/img/logo_en.png" alt="" /></a>
+            </div>
+
+    <div class="b-phone position-10">
+        <div class="bp-number"><a href="https://www.rosneft.ru/about/contacts/contact_centre/">8 (499) 517-88-99</a></div>
+        <div class="bp-text">Rosneft Contact Centre</div>
+    </div>
+
+    <div class="b-phone position-1">
+        <div class="bp-number">8 (800) 500-25-45</div>
+        <div class="bp-text">Hot line of safety Rosneft</div>
+    </div>
+
+    <div class="b-phone position-2">
+        <div class="bp-number">8 (800) 775-75-88</div>
+        <div class="bp-text">Gas station customers support Hotline</span></div>
+    </div>
+
+    <div class="b-phone position-9">
+        <div class="bp-number">8 (800) 500-11-00</div>
+        <div class="bp-text">Freephone for shareholders (from&nbsp;Russia)</div>
+    </div>
+
+    
+    <div class="b-more t-1 position-8">
+        <div class="bm-line t-1">
+            <span class="bm-link ico i_cnt"><a href="/about/contacts">Contact Us</a></span>
+            <span class="bm-link ico i_car"><a href="/about/careers">Career at Rosneft</a></span>
+        </div>
+    </div>
+
+    <div class="b-search position-3">
+        <div class="b-search-input">
+            <form method="get" action="/search">
+                <label style="display: none;" for="site-search">Site Search</label>
+                <input id="site-search" type="text" name="q" value="" />
+                <button></button>
+        </div>
+    </div>
+
+    <div class="b-more t-2 position-4">
+        <div class="bm-line t-1">
+            <span class="bm-link ico i_imp bold"><a href="//limited.rosneft.com">For Visually Impaired</a></span>
+        </div>
+        <div class="bm-line t-2">
+            <span class="bm-link">
+                <a href="https://www.rosneft.ru">На Русском</a>
+            </span>
+            <span class="bm-link ico i_lnk"><a href="/sitemap">Sitemap</a></span>
+        </div>
+    </div>
+
+    <div class="position-5">
+        <div class="b-social">
+                                        <a target="_blank" class="vkontakte" href="http://vk.com/rosneftru" title="Вконтакте">Вконтакте</a>
+                                                    <a target="_blank" class="youtube" href="http://www.youtube.com/channel/UCMQsspvWUbUp-rj7y8Y2nPg" title="YouTube">YouTube</a>
+                                                    <a target="_blank" class="telegram" href="https://t.me/rosneftofficial" title="Telegram">Telegram</a>
+                                        <a target="_blank" class="yandexzen" href="https://zen.yandex.ru/id/62233d00311085527574b144" title="Яндекс.Дзен">Яндекс.Дзен</a>
+                    </div>
+    </div>
+
+    <div class="b-search position-7">
+        <div class="b-search-extended">
+            <div class="select type-3">
+                <div class="select-input">Select a section</div>
+                <div class="select-list">
+
+                    <label><input type="radio" value="" name="group" />The whole site</label>
+                                                                    <label><input type="radio" value="menu_147354" name="group" />About Rosneft</label>
+                                                                    <label><input type="radio" value="menu_5792" name="group" />Corporate governance</label>
+                                                                    <label><input type="radio" value="menu_5798" name="group" />Business</label>
+                                                                    <label><input type="radio" value="menu_5826" name="group" />For Investors and Shareholders</label>
+                                                                    <label><input type="radio" value="menu_5973" name="group" />Sustainable Development</label>
+                                                                    <label><input type="radio" value="menu_5870" name="group" />News room</label>
+                    
+                    <input type="hidden" name="csrftoken" value="18de77e447503000af584f6a45e7ac1a1caa404d6aba840d4bc7fc357b8f23a1eaa2078b164a59f5" /><input type="hidden" name="de8d1fee4dd1339057e5ed254a76f36b" value="7B227473223A313739323030313532342C22686F7374223A222F61626F75742F526F736E6566745F746F6461792F4F7065726174696F6E616C5F7374727563747572652F526566696E696E672F7475617073696E736B696A6E707A2F222C22706172616D73223A7B2263737266746F6B656E223A7B223138646537376534343735303330303061663538346636613435653761633161316361613430346436616261383430643462633766633335376238663233613165616132303738623136346135396635223A747275652C2263223A317D7D7D.43C8B60D030D940888FD3B6A4471769A0338D431897A3A835A4B3D84DCD28941" /></form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="slider-home">
+        <div id="slider-body">
+                        <div class="b-banner-1 position-6">
+                                <a href="/Investors/Rosneft_contributing_to_implementation_of_UN/" >
+                    <img src="/upload/site2/UN_en-315xx70(2)-315xx70.png" alt="" />
+                </a>
+                            </div>
+                    </div>
+    </div>
+        
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('#slider-body').slider({
+                count: 1,
+                autoplay: true,
+                autoplaySpeed: 10000            });
+            $('#slider-home .b-banner-1').show();
+       });
+    </script>
+
+</div>
+
+    <div class="b-top-menu no-style">
+        <ul>
+            
+                
+                <li>
+                <span class="btm-holder btm-sub selected">
+                    <a id="sub-147354" href="/about/Rosneft_today">About Rosneft</a>
+
+                                            <div class="sub">
+                            <ul class="top-submenu">
+                                                                    
+                                                                            <li><a id="sub-6009" href="/about/Rosneft_today">Rosneft at a glance</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-6022" href="/about/History">History</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-6034" href="/about/Development_prospects_and_strategy">Development Prospects and Strategy</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-197385" href="/about/Rosneft_Key_Tax_Principles">Rosneft Key Tax Principles</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-6039" href="/about/careers">Careers</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-6040" href="/about/contacts">Contacts</a></li>
+                                                                                                </ul>
+
+                                                                                                                                                                                                                            
+                                                    </div>
+                    
+
+					</span>
+                </li>
+            
+                
+                <li>
+                <span class="btm-holder btm-sub">
+                    <a id="sub-5792" href="/governance">Corporate governance</a>
+
+                                            <div class="sub">
+                            <ul class="top-submenu">
+                                                                    
+                                                                            <li><a id="sub-192075" href="/governance/Risk_Management_and_Internal_Control">Risk Management and Internal Control</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5797" href="/governance/Internal_control_and_audit">Internal Audit  and Audit Commission</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-182705" href="/Investors/Documents/">Corporate documents</a></li>
+                                                                                                </ul>
+
+                                                                                                                            
+                                                    </div>
+                    
+
+					</span>
+                </li>
+            
+                
+                <li>
+                <span class="btm-holder btm-sub">
+                    <a id="sub-5798" href="/business">Business</a>
+
+                                            <div class="sub">
+                            <ul class="top-submenu">
+                                                                    
+                                                                            <li><h2>Upstream</h2></li>
+
+                                                                                                                                        
+                                                <li><a id="sub-97567" href="/business/Upstream/overview">General Information</a></li>
+                                                                                            
+                                                <li><a id="sub-93466" href="/business/Upstream/Licensing">Licensing</a></li>
+                                                                                            
+                                                <li><a id="sub-5811" href="/business/Upstream/exploration">Geological Exploration</a></li>
+                                                                                            
+                                                <li><a id="sub-5799" href="/business/Upstream/Zapasi_i_resursi">Reserves and resources</a></li>
+                                                                                            
+                                                <li><a id="sub-5812" href="/business/Upstream/Dobicha">Production and Development</a></li>
+                                                                                            
+                                                <li><a id="sub-93467" href="/business/Upstream/Gas_Strategy">Gas Business</a></li>
+                                                                                            
+                                                <li><a id="sub-185045" href="/business/Upstream/Offshoreprojects">Offshore projects</a></li>
+                                                                                            
+                                                <li><a id="sub-93468" href="/business/Upstream/Offshore_equipment">Offshore equipment</a></li>
+                                                                                                                                                    
+                                                                            <li><h2>Downstream</h2></li>
+
+                                                                                                                                        
+                                                <li><a id="sub-5814" href="/business/Downstream/Neftepererabotka">Petroleum refining</a></li>
+                                                                                            
+                                                <li><a id="sub-5815" href="/business/Downstream/Gazopererabotka">Gas Processing</a></li>
+                                                                                            
+                                                <li><a id="sub-5817" href="/business/Downstream/Neftehimija">Petrochemistry</a></li>
+                                                                                            
+                                                <li><a id="sub-184343" href="/business/Downstream/Catalyst_plants">Catalyst plants</a></li>
+                                                                                            
+                                                <li><a id="sub-5816" href="/business/Downstream/Proizvodstvo_masel">Production of lubricants</a></li>
+                                                                                            
+                                                <li><a id="sub-197177" href="/business/Downstream/Sales_of_oil_products">Sales of oil products</a></li>
+                                                                                            
+                                                <li><a id="sub-198169" href="/business/Downstream/Sales_of_Petrochemical_products_and_LPG">Sales of Petrochemical products and LPG</a></li>
+                                                                                            
+                                                <li><a id="sub-192497" href="/business/Downstream/Sales_of_Gas">Gas Sales</a></li>
+                                                                                            
+                                                <li><a id="sub-197175" href="/business/Downstream/Gas_Motor_Fuel_Sales">Gas Motor Fuel Sales</a></li>
+                                                                                                                                            </ul>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                    </div>
+                    
+
+					</span>
+                </li>
+            
+                
+                <li>
+                <span class="btm-holder btm-sub">
+                    <a id="sub-5826" href="/Investors">For Investors and Shareholders</a>
+
+                                            <div class="sub">
+                            <ul class="top-submenu">
+                                                                    
+                                                                            <li><a id="sub-5827" href="/Investors/Documents">Corporate documents</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-151832" href="/Investors/Reports_and_presentations/Consolidated_financial_statements">Financial statements, presentations, annual reports</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5834" href="/Investors/Disclosure">LSE RNS disclosure</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-190987" href="/Investors/Instrumenti_dlja_investora/Investor_calendar/">Investor calendar </a></li>
+                                                                                                        
+                                                                            <li><a id="sub-193337" href="/Investors/Rosneft_contributing_to_implementation_of_UN">Rosneft: Contributing to implementation of national projects of the Russian Federation and achievement of UN Sustainable Development Goals</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-199765" href="/Investors/ESG">ESG</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5838" href="/Investors/Equity">Equity</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-197563" href="/Investors/Insiders">For Insiders</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-194183" href="/Investors/shareholder_personal_account">Shareholder’s Personal Account</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5845" href="/Investors/Shareholders_meeting">General shareholders' meeting</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5843" href="/Investors/Dividends">Dividends</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-193435" href="/Investors/QandAshareholders">Questions and answers for shareholders</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-149395" href="/Investors/Instrumenti_dlja_investora/calendar/">Investor tools</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5864" href="/Investors/Kontakti_dlja_akcionerov">Contacts</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5865" href="/Investors/beware">Beware of fraud!</a></li>
+                                                                                                </ul>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                    </div>
+                    
+
+					</span>
+                </li>
+            
+                
+                <li>
+                <span class="btm-holder btm-sub">
+                    <a id="sub-5973" href="/Development">Sustainable Development</a>
+
+                                            <div class="sub">
+                            <ul class="top-submenu">
+                                                                    
+                                                                            <li><a id="sub-198041" href="/Development/Support_for_International_Sustainable_Development_Initiatives">Support for International Sustainable Development Initiatives</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-6002" href="/Development/Stakeholder_Engagement">Stakeholder Engagement</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5992" href="/Development/Sustainability_Reports">Sustainability Reports</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-198043" href="/Development/Observance_of_Human_Rights">Observance of Human Rights</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5994" href="/Development/Personnel">Staff</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5985" href="/Development/Corporate_Culture">Corporate Culture</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5979" href="/Development/Social_Responsibility">Social Policy</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5986" href="/Development/Ecology_labor_protection_and_industrial">Health, Safety and Environment</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5974" href="/Development/Scienceandinnovation">Science and innovation</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-188343" href="/Development/Corruption_control">Corruption control</a></li>
+                                                                                                </ul>
+
+                                                                                                                                                                                                                                                                                                                                                            
+                                                    </div>
+                    
+
+					</span>
+                </li>
+            
+                
+                <li>
+                <span class="btm-holder btm-sub">
+                    <a id="sub-5870" href="/press">News room</a>
+
+                                            <div class="sub">
+                            <ul class="top-submenu">
+                                                                    
+                                                                            <li><a id="sub-5873" href="/press/releases">Press releases</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5872" href="/press/news">News</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-23444" href="/press/Corporate_video">Corporate video</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5875" href="/press/gallery">Photo gallery</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-5972" href="/press/Kontaktnaja_informacija">Media contacts</a></li>
+                                                                                                        
+                                                                            <li><a id="sub-175057" href="/press/today">Rosneft today</a></li>
+                                                                                                </ul>
+
+                                                                                                                                                                                                                            
+                                                    </div>
+                    
+
+					</span>
+                </li>
+                    </ul>
+    </div>
+
+
+
+<div class="l-content">
+
+    <div class="content-line b-block">
+        <div class="content-column" style="width: 220px;">
+            
+<div class="b-left-menu no-style">
+    <a href="https://rosneft.com/about/Rosneft_today/Operational_structure/Refining/tuapsinskijnpz"><h2>Tuapse Refinery</h2></a>
+    <ul>
+                    <li><a href="/about/Rosneft_today/Operational_structure/Refining/tuapsinskijnpz/history"  class="selected">Company Information</a>
+                            </li>
+                    <li><a href="/about/Rosneft_today/Operational_structure/Refining/tuapsinskijnpz/Contacts" >Contact Information</a>
+                            </li>
+            </ul>
+</div>                        
+                        
+                       
+     
+            <div class="b-section-search">
+    <div class="bss-title"><span>Search in Sections</span></div>
+    <div class="bss-holder"><form method="get" action="/search">
+            <input id="id-search" type="text" value="" name="q"><button></button>
+                         <input type="hidden" value="119" name="parent_id">
+                    <input type="hidden" name="csrftoken" value="18de77e447503000af584f6a45e7ac1a1caa404d6aba840d4bc7fc357b8f23a1eaa2078b164a59f5" /><input type="hidden" name="de8d1fee4dd1339057e5ed254a76f36b" value="7B227473223A313739323030313532342C22686F7374223A222F61626F75742F526F736E6566745F746F6461792F4F7065726174696F6E616C5F7374727563747572652F526566696E696E672F7475617073696E736B696A6E707A2F222C22706172616D73223A7B2263737266746F6B656E223A7B223138646537376534343735303330303061663538346636613435653761633161316361613430346436616261383430643462633766633335376238663233613165616132303738623136346135396635223A747275652C2263223A317D2C22706172656E745F6964223A7B22313139223A747275652C2263223A317D7D7D.6479ED00DF5B57B0011D538BDAF680854DF57B9C485A8B216D57C51CB6C9B7C2" /></form></div>
+</div>                
+                       
+     
+            <script type="text/javascript">
+    $(document).ready(function() {
+        var slider = $('#b-slider-4');
+        slider.hide().after('<div id="'+slider.attr('id')+'-pre"></div>').next().append(slider.children(':first').clone());
+        slider.vslider({
+            count: 3
+        });
+        $('#bd-but-open').toggle(function() {
+            $(this).addClass('open');
+            slider.show().next().hide();
+        }, function() {
+            $(this).removeClass('open');
+            slider.hide().next().show();
+        });
+    });
+</script>                
+                       
+     
+                            
+                       
+     
+            
+
+                
+                            
+        </div>
+                <div class="content-column" style="width: 700px;">
+
+                                    <div class="b-content-title">
+                <span class="hh1">Company Information</span>
+                            </div>
+
+                                    
+            
+<div class="text common-text">
+    <p>RN-Tuapse Refinery in Krasnodar region is a part of Rosneft vertically integrated structure. This is the only Russian oil refinery located on the Black Sea coast, as well as one of the oldest - it was commissioned in 1929. In 1942 the equipment was dismantled and evacuated to the city of Krasnovodsk. Post-war reconstruction of the plant began in 1948, and the first unit was commissioned in 1949. In 2024 the refinery celebrated its 95-th anniversary.</p></div>
+
+
+        </div>
+    </div>
+
+    <div class="clean"></div>
+</div>
+
+</div>
+
+
+<div class="l-footer">
+<div class="l-footer-holder">
+
+    <div class="b-footer-left">
+
+
+        <div class="b-footer-phone">
+            <div class="b-phone position-1">
+                <div class="bp-number">8 (800) 500-11-00</div>
+                <div class="bp-text grey-text">Freephone for shareholders (from&nbsp;Russia)</div>
+            </div>
+
+            <div class="b-phone">
+                <div class="bp-number">8 (800) 775-75-88</div>
+                <div class="bp-text grey-text">Gas station customers support Hotline</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="b-footer-right">
+        <div class="b-footer-search">
+            <div class="b-footer-search-input">
+                <form method="get" action="/search">
+                    <label for="site-footer-search">Site Search</label>
+                    <input id="site-footer-search" type="text" name="q" value="" /><button></button>
+
+            </div>
+            <div class="b-footer-search-extended">
+                <div class="select type-3">
+                    <div class="select-input">Select a section</div>
+                    <div class="select-list">
+
+                        <label><input type="radio" value="" name="group" />The whole site</label>
+                                                                                <label><input type="radio" value="menu_147354" name="group" />About Rosneft</label>
+                                                                                <label><input type="radio" value="menu_5792" name="group" />Corporate governance</label>
+                                                                                <label><input type="radio" value="menu_5798" name="group" />Business</label>
+                                                                                <label><input type="radio" value="menu_5826" name="group" />For Investors and Shareholders</label>
+                                                                                <label><input type="radio" value="menu_5973" name="group" />Sustainable Development</label>
+                                                                                <label><input type="radio" value="menu_5870" name="group" />News room</label>
+                        
+                        <input type="hidden" name="csrftoken" value="18de77e447503000af584f6a45e7ac1a1caa404d6aba840d4bc7fc357b8f23a1eaa2078b164a59f5" /><input type="hidden" name="de8d1fee4dd1339057e5ed254a76f36b" value="7B227473223A313739323030313532342C22686F7374223A222F61626F75742F526F736E6566745F746F6461792F4F7065726174696F6E616C5F7374727563747572652F526566696E696E672F7475617073696E736B696A6E707A2F222C22706172616D73223A7B2263737266746F6B656E223A7B223138646537376534343735303330303061663538346636613435653761633161316361613430346436616261383430643462633766633335376238663233613165616132303738623136346135396635223A747275652C2263223A317D7D7D.43C8B60D030D940888FD3B6A4471769A0338D431897A3A835A4B3D84DCD28941" /></form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="clean"></div>
+
+    <div class="b-footer-blok">
+        <a id="site-map" class="b-sitemap ico i_sm" href="#f">Sitemap</a>
+
+        <div class="b-footertop-menu no-style">
+            <ul>
+                                    <li><a href="/about/Rosneft_today">About Rosneft</a></li>
+                                    <li><a href="/governance">Corporate governance</a></li>
+                                    <li><a href="/business">Business</a></li>
+                                    <li><a href="/Investors">For Investors and Shareholders</a></li>
+                                    <li><a href="/Development">Sustainable Development</a></li>
+                                    <li><a href="/press">News room</a></li>
+                            </ul>
+        </div>
+    </div>
+
+    <div class="b-sitemap-menu">
+        <div class="content-line">
+                                                                        <div class="content-column">
+                                    <div class="bsm-item">
+                        <div class="bsm-title"><a href="/about/Rosneft_today">About Rosneft</a></div>
+                                                    <div class="content-line">
+                                                                                                                                                                                                        <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/about/Rosneft_today">Rosneft at a glance</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/about/History">History</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/about/Development_prospects_and_strategy">Development Prospects and Strategy</a></div>
+                                                                        </div>
+                                                                                                                                            <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/about/Rosneft_Key_Tax_Principles">Rosneft Key Tax Principles</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/about/careers">Careers</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/about/contacts">Contacts</a></div>
+                                                                        </div>
+                                                                                                </div>
+                                            </div>
+                                                                                <div class="bsm-item">
+                        <div class="bsm-title"><a href="/governance">Corporate governance</a></div>
+                                                    <div class="content-line">
+                                                                                                                                                                                                        <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/governance/Risk_Management_and_Internal_Control">Risk Management and Internal Control</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/governance/Internal_control_and_audit">Internal Audit  and Audit Commission</a></div>
+                                                                        </div>
+                                                                                                                                            <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/Investors/Documents/">Corporate documents</a></div>
+                                                                        </div>
+                                                                                                </div>
+                                            </div>
+                                </div>
+                                                                            <div class="content-column">
+                                    <div class="bsm-item">
+                        <div class="bsm-title"><a href="/business">Business</a></div>
+                                                    <div class="content-line">
+                                                                                                                                                                                                        <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/business/Upstream/overview">Upstream</a></div>
+                                                                        </div>
+                                                                                                                                            <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/business/Downstream/overview">Downstream</a></div>
+                                                                        </div>
+                                                                                                </div>
+                                            </div>
+                                                                                <div class="bsm-item">
+                        <div class="bsm-title"><a href="/Investors">For Investors and Shareholders</a></div>
+                                                    <div class="content-line">
+                                                                                                                                                                                                        <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/Investors/Documents">Corporate documents</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Reports_and_presentations/Consolidated_financial_statements">Financial statements, presentations, annual reports</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Disclosure">LSE RNS disclosure</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Instrumenti_dlja_investora/Investor_calendar/">Investor calendar </a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Rosneft_contributing_to_implementation_of_UN">Rosneft: Contributing to implementation of national projects of the Russian Federation and achievement of UN Sustainable Development Goals</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/ESG">ESG</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Equity">Equity</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Insiders">For Insiders</a></div>
+                                                                        </div>
+                                                                                                                                            <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/Investors/shareholder_personal_account">Shareholder’s Personal Account</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Shareholders_meeting">General shareholders' meeting</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Dividends">Dividends</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/QandAshareholders">Questions and answers for shareholders</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Instrumenti_dlja_investora/calendar/">Investor tools</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/Kontakti_dlja_akcionerov">Contacts</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Investors/beware">Beware of fraud!</a></div>
+                                                                        </div>
+                                                                                                </div>
+                                            </div>
+                                </div>
+                                                                            <div class="content-column">
+                                    <div class="bsm-item">
+                        <div class="bsm-title"><a href="/Development">Sustainable Development</a></div>
+                                                    <div class="content-line">
+                                                                                                                                                                                                        <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/Development/Support_for_International_Sustainable_Development_Initiatives">Support for International Sustainable Development Initiatives</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Stakeholder_Engagement">Stakeholder Engagement</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Sustainability_Reports">Sustainability Reports</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Observance_of_Human_Rights">Observance of Human Rights</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Personnel">Staff</a></div>
+                                                                        </div>
+                                                                                                                                            <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/Development/Corporate_Culture">Corporate Culture</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Social_Responsibility">Social Policy</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Ecology_labor_protection_and_industrial">Health, Safety and Environment</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Scienceandinnovation">Science and innovation</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/Development/Corruption_control">Corruption control</a></div>
+                                                                        </div>
+                                                                                                </div>
+                                            </div>
+                                                                                <div class="bsm-item">
+                        <div class="bsm-title"><a href="/press">News room</a></div>
+                                                    <div class="content-line">
+                                                                                                                                                                                                        <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/press/releases">Press releases</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/press/news">News</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/press/Corporate_video">Corporate video</a></div>
+                                                                        </div>
+                                                                                                                                            <div class="content-column">
+                                                                            <div class="bsm-link"><a href="/press/gallery">Photo gallery</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/press/Kontaktnaja_informacija">Media contacts</a></div>
+                                                                                                                                                <div class="bsm-link"><a href="/press/today">Rosneft today</a></div>
+                                                                        </div>
+                                                                                                </div>
+                                            </div>
+                                </div>
+                                    </div>
+    </div>
+    <div class="b-footer-left">
+        <div class="b-sitecopy"><span class="bs-left">&copy; ROSNEFT, 2026</div>
+
+        <div class="b-footer-social">
+            <span>Find Us on Social Media:</span>
+            <span class="bfs-holder">
+                <div class="b-social">
+                                                                                                <a class="vkontakte" href="http://vk.com/rosneftru" title="VKontakte" target="_blank">VKontakte</a>
+                                                                                                    <a class="youtube"  href="http://www.youtube.com/channel/UCMQsspvWUbUp-rj7y8Y2nPg" title="YouTube" target="_blank">YouTube</a>
+                                                                        						                            <a class="telegram"  href="https://t.me/rosneftofficial" title="Telegram" target="_blank">Telegram</a>
+                        						                            <a class="yandexzen"  href="https://zen.yandex.ru/id/62233d00311085527574b144" title="Яндекс.Дзен" target="_blank">Яндекс.Дзен</a>
+                                        </div>
+            </span>
+        </div>
+    </div>
+    <div class="b-footer-right">
+        <div class="b-footer-menu no-style">
+
+            
+            <ul>
+                <li>
+                    <a href="https://www.rosneft.ru">На Русском</a>
+                </li>
+                <li><a href="/">Formal Notice</a></li>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/subscribe">Subscribe</a></li>
+                <li><a href="/">About Project</a></li>
+            </ul>
+        </div>
+    </div>
+
+   			<div style="display:none;">
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter9761743 = new Ya.Metrika({
+                    id:9761743,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+			</div>
+			<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+			<noscript><div><img src="//mc.yandex.ru/watch/9761743" style="position:absolute; left:-9999px;" alt="" /></div></noscript>	
+    <div class="clean"></div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

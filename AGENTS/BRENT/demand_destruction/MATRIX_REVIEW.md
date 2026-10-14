@@ -1,3 +1,5 @@
+> **HISTORICAL REVIEW — March7,2026; reader reconciliation October14.** The original recommendation to adopt the old matrix is dated history. Current interpretation/registered demand tests and trade authority live at [THESIS](../thesis/THESIS.md), [BRT31note](../thesis/prediction_notes/BRT-31.md) and [TRADE](../TRADE.md). Original text below retained unchanged.
+
 # Phase 2 Transition Matrix — BRENT Review
 **Reviewer:** BRENT  
 **Date:** 2026-03-07  

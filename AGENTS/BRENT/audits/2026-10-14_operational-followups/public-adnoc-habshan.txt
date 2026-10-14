@@ -1,0 +1,1078 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html dir="ltr" lang="en">
+<!--<![endif]-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='icon' href='/favicon.ico' type='image/x-icon' />
+    
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">
+    
+    
+
+
+
+
+
+    <title>ADNOC Gas Delivers Resilient Q2 Net Income, Takes FID on Major Growth Projects - Gas</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+
+
+
+
+<meta property="og:title" content="ADNOC Gas Delivers Resilient Q2 Net Income, Takes FID on Major Growth Projects" />
+<meta property="og:image" content="https://www.adnocgas.ae/-/media/gas/press-release/2025/q2-fin-r.ashx" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://www.adnocgas.ae/en/news-and-media/press-releases/2026/q2-2026-results" />
+
+    <link href="/resources/Gas/css/style.css?V=0.08" rel="stylesheet" />
+	
+<!-- PIWIK -->
+<script type="text/javascript">
+(function(window, document, dataLayerName, id) {
+window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName);var qPString=qP.length>0?("?"+qP.join("&")):"";
+tags.async=!0,tags.src="https://www.webengage.ae/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+})(window, document, 'dataLayer', '4088a296-dff0-485c-8e3d-d558df44ef54');
+</script>
+<!-- End PIWIK Code -->
+</head>
+<body>
+
+    
+<header class="position-fixed desktop__navigation">
+    <div class="container">
+        <div class="navigation-wrapper">
+            
+<a class="navbar-brand" href="/en/">
+    <img src="/-/media/gas/logo/listed-company-logos---website_white_adnoc-gas-vertical.ashx?la=en&amp;hash=66B7CED402C605703664287B37C44932" class="logo" alt="" />
+    <img src="/-/media/gas/logo/listed-company-logos---website_10-10_adnoc-gas-horizontal.ashx?la=en&amp;hash=FCC829599F4D1DA7A728ACE13D0F49DE" class="horizontal-logo" alt="" />
+</a>
+
+            <div class="menu-wrapper">
+                <div class="blue-overlay"></div>
+                
+
+
+<div class="top-menu">
+    <ul>
+
+
+            <li><a class="active " href="/en/news-and-media/press-releases" target="_self">News and Media</a></li>
+            <li><a class=" " href="https://jobs.adnoc.ae/us/en" target="_blank">Careers </a></li>
+            <li><a class=" " href="/en/investor-relations/ir-contact-us" target="_self">Contact Us</a></li>
+        
+
+    <li>
+        <a href="https://www.adnocgas.ae/ar/news-and-media/press-releases/2026/q2-2026-results/" class="text-translate">
+            العربية
+        </a>
+    </li>
+
+
+
+
+
+
+
+
+        <li><i class="fas fa-search" search-toggler>   </i></li>
+    </ul>
+</div>
+
+
+                
+    <nav class="navbar">
+        
+
+
+
+
+<div class="search-box">
+    <div class="input-wrapper">
+        <form action="/en/sitecore/content/drilling/home/search" validation novalidate>
+            <input type="text" placeholder="Search.." data-rule-minlength="3" data-rule-xss="true" data-rule-required="true" data-msg=This Field is required  name="search_query">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+    </div><i class="fas fa-times"></i>
+</div>
+        <div class="main-menu">
+            <ul>
+                            <li class="">
+                                <a href="/en/our-company" target="_self">Company</a>
+
+                                    <div class="sub-nav">
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <ul>
+                                                        <li><a class="landing" href="/en/our-company" data-sub-breadcrumb="landing-1">Company</a></li>
+                                                                                                                        <li>
+                                                                        <a href="javascript:void(0);" target="_self"></a>
+                                                                    </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Executive-Management" href="/en/our-company/executive-management" target="_self">Executive Management</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Board-of-Directors" href="/en/our-company/board-of-directors" target="_self">Board of Directors</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Our-People" href="/en/our-company/our-people" target="_self">Our People</a>
+                                                                        </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col">
+                                                                <div class="sub-breadcrumb" id="landing-1">
+                                                                    <span>Company</span>
+                                                                    <p>
+                                                                        ADNOC Gas is a world-class integrated gas company operating an unmatched asset base that supplies around 60% of the UAE’s natural gas requirements and serves customers in more than 20 countries.
+                                                                    </p>
+                                                                    <div class="image">
+                                                                        <img src="/-/media/gas/images/2-columns-statistics/our-company.ashx?h=326&amp;iar=0&amp;w=564&amp;hash=3B3F7D294C2C86D0D7B0B9BF67BBC13C" class="w-100" alt="" width="564" height="326" />
+                                                                    </div>
+                                                                </div>
+                                                                    <div class="sub-breadcrumb" id="Executive-Management">
+                                                                        <span>Company</span><span class="icon">></span><span class="active">Executive Management</span>
+                                                                        <p>
+                                                                            
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/board-of-director-img-1.ashx?h=599&amp;iar=0&amp;w=676&amp;hash=CFB4B9FAA3968C7E0BB3BC2176707A4B" class="w-100" alt="" width="676" height="599" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Board-of-Directors">
+                                                                        <span>Company</span><span class="icon">></span><span class="active">Board of Directors</span>
+                                                                        <p>
+                                                                            
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/board-of-director.ashx?h=600&amp;iar=0&amp;w=680&amp;hash=D7630AAA893884DD46B771F05BB7FFD2" class="w-100" alt="" width="680" height="600" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Our-People">
+                                                                        <span>Company</span><span class="icon">></span><span class="active">Our People</span>
+                                                                        <p>
+                                                                            At the heart of ADNOC Gas are exceptional people who bring together a wealth of operations’ experience and strategic drive.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/image-cards/our-people.ashx?h=402&amp;iar=0&amp;w=403&amp;hash=E5198F5B5A8015D3B75E8B7BF0537B10" class="w-100" alt="" width="403" height="402" />
+                                                                        </div>
+                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="">
+                                <a href="/en/our-operations" target="_self">Our Operations</a>
+
+                                    <div class="sub-nav">
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <ul>
+                                                        <li><a class="landing" href="/en/our-operations" data-sub-breadcrumb="landing-2">Our Operations</a></li>
+                                                                                                                        <li>
+                                                                        <a href="javascript:void(0);" target="_self"></a>
+                                                                    </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Gas-Processing" href="/en/our-operations/gas-processing" target="_self">Gas Processing</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="LNG-Operations" href="/en/our-operations/lng" target="_self">LNG Operations</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Pipeline-Network" href="/en/our-operations/pipeline-network" target="_self">Pipeline Network</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Industrial-Gases" href="/en/our-operations/industrial-gases" target="_self">Industrial Gases</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Other-Products-" href="/en/our-operations/other-gas-products" target="_self">Other Products </a>
+                                                                        </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col">
+                                                                <div class="sub-breadcrumb" id="landing-2">
+                                                                    <span>Our Operations</span>
+                                                                    <p>
+                                                                        Our extensive onshore and offshore operations produce a full range of valuable gas products. We maintain a constant focus on operational excellence, asset reliability and HSE performance.
+                                                                    </p>
+                                                                    <div class="image">
+                                                                        <img src="/-/media/gas/images/image-cards/our-operations.ashx?h=402&amp;iar=0&amp;w=403&amp;hash=3AA02583F90BFFFF7ED27B863D2CCF8A" class="w-100" alt="" width="403" height="402" />
+                                                                    </div>
+                                                                </div>
+                                                                    <div class="sub-breadcrumb" id="Gas-Processing">
+                                                                        <span>Our Operations</span><span class="icon">></span><span class="active">Gas Processing</span>
+                                                                        <p>
+                                                                            Operating at the heart of the UAE’s hydrocarbon value chain, we receive feed gas from ADNOC’s onshore and offshore production operations, and produce a mixture of sales gas, NGLs, condensate and sulfur to serve our downstream customers.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/gas-card.ashx?h=396&amp;iar=0&amp;w=670&amp;hash=38A8874F03C4EE9AD8B3C540C43CDE48" class="w-100" alt="" width="670" height="396" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="LNG-Operations">
+                                                                        <span>Our Operations</span><span class="icon">></span><span class="active">LNG Operations</span>
+                                                                        <p>
+                                                                            Our liquefaction facilities supply LNG from gas produced in ADNOC’s offshore operations for export to utilities and industrial customers around the globe.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/lng-card.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=077E2BB3DC2CD8BB80BE290C6FC00745" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Pipeline-Network">
+                                                                        <span>Our Operations</span><span class="icon">></span><span class="active">Pipeline Network</span>
+                                                                        <p>
+                                                                            Our extensive 3,260km gas pipeline network enables delivery of sales gas to customers across Abu Dhabi, Dubai and the Northern Emirates, meeting ~60 % of UAE’s gas requirements
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/uae-pipeline-network.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=F77335902D4D216F83BB92E81BFA3357" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Industrial-Gases">
+                                                                        <span>Our Operations</span><span class="icon">></span><span class="active">Industrial Gases</span>
+                                                                        <p>
+                                                                            We are one of the UAE’s major suppliers of industrial gases, primarily nitrogen and oxygen.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/industrial-gases-card.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=3B5409D1360C02A7B7DF3D13DF824665" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Other-Products-">
+                                                                        <span>Our Operations</span><span class="icon">></span><span class="active">Other Products </span>
+                                                                        <p>
+                                                                            We produce several other associated products, primarily for use in the chemicals sector by customers both in the UAE and overseas.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/other-product-card.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=19C9871868043B18BD180876FB394E4C" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="">
+                                <a href="/en/sustainability" target="_self">Sustainability</a>
+
+                                    <div class="sub-nav">
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <ul>
+                                                        <li><a class="landing" href="/en/sustainability" data-sub-breadcrumb="landing-3">Sustainability</a></li>
+                                                                                                                        <li>
+                                                                        <a href="javascript:void(0);" target="_self"></a>
+                                                                    </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Environment" href="/en/sustainability/environment" target="_self">Environment</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Health-and-Safety" href="/en/sustainability/health-and-safety" target="_self">Health &amp; Safety</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="UAE-Growth" href="/en/sustainability/uae-growth" target="_self">UAE Growth</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Social-Responsibility" href="/en/sustainability/social-responsibility" target="_self">Social Responsibility</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Sustainability-Report-2025" href="/-/media/gas/investor-relation/2026/ag-sr-el.ashx" target="_self">Sustainability Report 2025</a>
+                                                                        </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col">
+                                                                <div class="sub-breadcrumb" id="landing-3">
+                                                                    <span>Sustainability</span>
+                                                                    <p>
+                                                                        We apply a determined focus on sustainability across our business.
+                                                                    </p>
+                                                                    <div class="image">
+                                                                        <img src="/-/media/gas/images/hotspot-cards/sustainability-menu.ashx?h=395&amp;iar=0&amp;w=673&amp;hash=6529C41565CF0E25AA2D209B28FB3F6B" class="w-100" alt="" width="673" height="395" />
+                                                                    </div>
+                                                                </div>
+                                                                    <div class="sub-breadcrumb" id="Environment">
+                                                                        <span>Sustainability</span><span class="icon">></span><span class="active">Environment</span>
+                                                                        <p>
+                                                                            We have developed a robust road map of projects to accelerate significant advances in our environmental performance that delivered a 10% reduction in our GHG emissions (2021 vs 2018 baseline).
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/environment.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=243F0B37330A7017BB77AB630CA2C782" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Health-and-Safety">
+                                                                        <span>Sustainability</span><span class="icon">></span><span class="active">Health &amp; Safety</span>
+                                                                        <p>
+                                                                            We maintain an unwavering focus on health and safety and are continually striving to drive our first quartile performance towards our ultimate goal of ensuring ‘100% HSE’ - keeping our employees, communities, the environment and assets safe from harm.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/health.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=B18C85E429562557020060A3376FBC72" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="UAE-Growth">
+                                                                        <span>Sustainability</span><span class="icon">></span><span class="active">UAE Growth</span>
+                                                                        <p>
+                                                                            We act as a powerful catalyst to driving the UAE’s economic development and diversification, providing energy and other gas products vital to UAE industry, and ensuring a strong in-country value contribution from our operations.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/uae-growth.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=4C563D4E2C94DA69102EC92FC126808D" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Social-Responsibility">
+                                                                        <span>Sustainability</span><span class="icon">></span><span class="active">Social Responsibility</span>
+                                                                        <p>
+                                                                            In alignment with ADNOC Group, we manage our operations to make a positive contribution to the development of our society and the communities in which we operate. 
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/component-1-1.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=329322BEAAC4737957F30183FC04D8EE" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="Sustainability-Report-2025">
+                                                                        <span>Sustainability</span><span class="icon">></span><span class="active">Sustainability Report 2025</span>
+                                                                        <p>
+                                                                            Read our Sustainability Report
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/hotspot-cards/environment.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=243F0B37330A7017BB77AB630CA2C782" class="w-100" alt="" width="680" height="400" />
+                                                                        </div>
+                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="">
+                                <a href="/en/our-projects" target="_self">Projects</a>
+
+                                    <div class="sub-nav">
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <ul>
+                                                        <li><a class="landing" href="/en/our-projects" data-sub-breadcrumb="landing-4">Projects</a></li>
+                                                                                                                        <li>
+                                                                        <a href="javascript:void(0);" target="_self"></a>
+                                                                    </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Ruwais-LNG" href="https://adnoc.ae/en/our-projects/ruwais-lng" target="_blank">Ruwais LNG</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="IGD-E2" href="/en/our-projects/igde-2" target="_self">IGD-E2</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="RGD" href="/en/our-projects/rgd" target="_self">RGD</a>
+                                                                        </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col">
+                                                                <div class="sub-breadcrumb" id="landing-4">
+                                                                    <span>Projects</span>
+                                                                    <p>
+                                                                        We continue to invest in and develop our gas and LNG processing, transmission and export infrastructure, expanding capacity and connectivity, and driving efficiency and sustainability.
+                                                                    </p>
+                                                                    <div class="image">
+                                                                        <img src="/-/media/gas/images/hotspot-cards/our-projects-menu.ashx?h=390&amp;iar=0&amp;w=669&amp;hash=05694E571C41DB54BB3EBEF287D5771C" class="w-100" alt="" width="669" height="390" />
+                                                                    </div>
+                                                                </div>
+                                                                    <div class="sub-breadcrumb" id="Ruwais-LNG">
+                                                                        <span>Projects</span><span class="icon">></span><span class="active">Ruwais LNG</span>
+                                                                        <p>
+                                                                            The first LNG export facility in the MENA region to run on clean power. Producing 9.6 million tons of LNG per year providing access to reliable and affordable energy.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/ir-updated/ruwais-lng-1.ashx?iar=0&amp;hash=A00CE509908C0FA0CBF970CCF933E4A8" class="w-100" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="IGD-E2">
+                                                                        <span>Projects</span><span class="icon">></span><span class="active">IGD-E2</span>
+                                                                        <p>
+                                                                            ADNOC Gas continues to invest to increase gas processing capacity and further integrate its onshore and offshore facilities. A key component of this program has been the Integrated Gas Development project and its subsequent extension phases.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/large-image/igde/igde.ashx?h=511&amp;iar=0&amp;w=1144&amp;hash=914EC3ED943C16222DA4E2278DB01FEA" class="w-100" alt="" width="1144" height="511" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="RGD">
+                                                                        <span>Projects</span><span class="icon">></span><span class="active">RGD</span>
+                                                                        <p>
+                                                                            The Rich Gas Development (RGD) Project is a key part of growth initiative that supports ADNOC Gas’ strategy to expand processing capacity, enhance operational efficiency, and strengthen its position as one of the world’s leading integrated gas companies. 
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/ir-updated/adnoc-gas-rgd-details-(1).ashx?iar=0&amp;hash=E1DF3C9F841D52F973D8BD9DBE9A97B5" class="w-100" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="">
+                                <a href="/en/energyai" target="_self">ENERGYai</a>
+
+                                    <div class="sub-nav">
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <ul>
+                                                        <li><a class="landing" href="/en/energyai" data-sub-breadcrumb="landing-5">ENERGYai</a></li>
+                                                                                                                        <li>
+                                                                        <a href="javascript:void(0);" target="_self"></a>
+                                                                    </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="Gecko’s-robotic" href="/en/energyai/gecko-robotic" target="_self">Gecko’s robotic</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="3D-printing" href="/en/energyai/3d-printing" target="_self">3D printing</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="CPAD" href="/en/energyai/cpad" target="_self">CPAD</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a data-sub-breadcrumb="iRTO" href="/en/energyai/irto" target="_self">iRTO</a>
+                                                                        </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col">
+                                                                <div class="sub-breadcrumb" id="landing-5">
+                                                                    <span>ENERGYai</span>
+                                                                    <p>
+                                                                        Innovation and technology are core to our operations. We are transforming our business, deploying cutting-edge artificial intelligence (AI) technologies and digital solutions to manage our operations more efficiently, safely and sustainably.
+                                                                    </p>
+                                                                    <div class="image">
+                                                                        <img src="/-/media/gas/images/hotspot-cards/innovation.ashx?h=400&amp;iar=0&amp;w=680&amp;hash=3404541F2C0BA029B4C9DFEFB4567E5C" class="w-100" alt="" width="680" height="400" />
+                                                                    </div>
+                                                                </div>
+                                                                    <div class="sub-breadcrumb" id="Gecko’s-robotic">
+                                                                        <span>ENERGYai</span><span class="icon">></span><span class="active">Gecko’s robotic</span>
+                                                                        <p>
+                                                                            ADNOC Gas uses Gecko Robotics’ advanced inspection robots and AI-enabled technology to improve how critical assets are inspected, monitored and maintained.<br/>
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/energyai/industrial-pipeline-inspection-assembly-(1).ashx?iar=0&amp;hash=827063D45C9B19F16330E41664B0C00A" class="w-100" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="3D-printing">
+                                                                        <span>ENERGYai</span><span class="icon">></span><span class="active">3D printing</span>
+                                                                        <p>
+                                                                            ADNOC Gas is utilizing additive manufacturing (3D-printing) at a number of sites to simplify logistics, reduce inventories of physical parts and optimize costs
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/large-image/3d-printing.ashx?h=511&amp;iar=0&amp;w=1144&amp;hash=E981CF98EC64A930A1269686DA9BA3A7" class="w-100" alt="" width="1144" height="511" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="CPAD">
+                                                                        <span>ENERGYai</span><span class="icon">></span><span class="active">CPAD</span>
+                                                                        <p>
+                                                                            CPAD provides us with a powerful predictive maintenance platform to optimize operations and underpin asset integrity.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/large-image/cpad/cpad.ashx?h=511&amp;iar=0&amp;w=1144&amp;hash=AC13C6753ECD035243E6D0A5DF2B4EC6" class="w-100" alt="" width="1144" height="511" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sub-breadcrumb" id="iRTO">
+                                                                        <span>ENERGYai</span><span class="icon">></span><span class="active">iRTO</span>
+                                                                        <p>
+                                                                            Integrated Real Time Optimizer (iRTO) is a multi-site technology optimizing natural gas liquid production yields in real time.
+                                                                        </p>
+                                                                        <div class="image">
+                                                                            <img src="/-/media/gas/images/large-image/irto/irto.ashx?h=511&amp;iar=0&amp;w=1144&amp;hash=E3BD9A7C995EBE3AB8735C2AB6CE574E" class="w-100" alt="" width="1144" height="511" />
+                                                                        </div>
+                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="">
+                                <a href="/en/marketing" target="_self">Marketing</a>
+
+                                    <div class="sub-nav">
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <ul>
+                                                        <li><a class="landing" href="/en/marketing" data-sub-breadcrumb="landing-6">Marketing</a></li>
+                                                                                                                        <li>
+                                                                        <a href="javascript:void(0);" target="_self"></a>
+                                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col">
+                                                                <div class="sub-breadcrumb" id="landing-6">
+                                                                    <span>Marketing</span>
+                                                                    <p>
+                                                                        We currently export LNG and other gas products to more than 20 countries and are strategically situated to serve the primary international growth markets in Asia.
+                                                                    </p>
+                                                                    <div class="image">
+                                                                        <img src="/-/media/gas/images/hotspot-cards/marketing-menu.ashx?h=390&amp;iar=0&amp;w=668&amp;hash=EBF62AFE16C6818B0B2200EE6932BAA4" class="w-100" alt="" width="668" height="390" />
+                                                                    </div>
+                                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="">
+                                <a href="/en/investor-relations" target="_self">Investor Relations</a>
+
+                            </li>
+                <li class="iframe">
+                    
+                    <i class="fas fa-search" search-toggler>   </i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+            </div>
+        </div>
+    </div>
+</header>
+<header class="position-fixed mobile__navigation">
+    <div class="mobile__navigation-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    
+<a class="navbar-brand" href="/en/">
+    <img src="/-/media/gas/logo/listed-company-logos---website_10-10_adnoc-gas-horizontal.ashx?la=en&amp;hash=FCC829599F4D1DA7A728ACE13D0F49DE" class="logo" alt="" />
+</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile__navigation-logo-wrapper">
+            
+<div class="">
+        <a lang-switcher href="https://www.adnocgas.ae/ar/news-and-media/press-releases/2026/q2-2026-results/">العربية</a>
+
+</div>
+
+
+
+
+
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        </div>
+
+        <div class="mobile__navigation-dropdown">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        
+
+
+
+<div class="text-end"><i class="fas fa-search search__btn"></i></div>
+<div class="mobile__navigation-dropdown-search-wrapper">
+    <form action="/en/sitecore/content/drilling/home/search" validation novalidate>
+        <input type="text" placeholder="Search.." data-rule-minlength="3" data-rule-xss="true" data-rule-required="true" name="search_query">
+        <button type="submit"> <i class="fas fa-search"></i></button>
+    </form>
+</div>
+
+
+
+
+
+                        
+
+        <div class="accordion" id="mobileNav">
+        <ul class="mobile__navigation-dropdown-list">
+            <li class="mobile__navigation-dropdown-list-item">
+                
+            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/">Home</a>
+                                        <button class="accordion-button collapsed no-body" data-bs-toggle="collapse" data-bs-target="#Home"></button>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/our-company">Company</a>
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#navbarDropdown11"></button>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" id="navbarDropdown11" data-bs-parent="#mobileNav">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                            <li><a href="/en/our-company/executive-management" target="_self">Executive Management</a></li>
+            <li><a href="/en/our-company/board-of-directors" target="_self">Board of Directors</a></li>
+            <li><a href="/en/our-company/our-people" target="_self">Our People</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/strategy">Growth</a>
+                                        <button class="accordion-button collapsed no-body" data-bs-toggle="collapse" data-bs-target="#Growth"></button>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/our-operations">Our Operations</a>
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#navbarDropdown13"></button>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" id="navbarDropdown13" data-bs-parent="#mobileNav">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                            <li><a href="/en/our-operations/gas-processing" target="_self">Gas processing</a></li>
+            <li><a href="/en/our-operations/industrial-gases" target="_self">Industrial Gases</a></li>
+            <li><a href="/en/our-operations/lng" target="_self">LNG Operations</a></li>
+            <li><a href="/en/our-operations/other-gas-products" target="_self">Other Products</a></li>
+            <li><a href="/en/our-operations/pipeline-network" target="_self">Pipeline Network</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/our-projects">Projects</a>
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#navbarDropdown14"></button>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" id="navbarDropdown14" data-bs-parent="#mobileNav">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                            <li><a href="https://adnoc.ae/en/our-projects/ruwais-lng" target="_blank">Ruwais LNG</a></li>
+            <li><a href="/en/our-projects/igde-2" target="_self">IGD-E2</a></li>
+            <li><a href="/en/our-projects/rgd" target="_self">RGD</a></li>
+            <li><a href="/en/our-projects/debottlenecking" target="_self">Debottlenecking</a></li>
+            <li><a href="/en/our-projects/jetty-upgrade" target="_self">Jetty Upgrade</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/sustainability">Sustainability</a>
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#navbarDropdown15"></button>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" id="navbarDropdown15" data-bs-parent="#mobileNav">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                            <li><a href="/en/sustainability/environment" target="_self">Environment</a></li>
+            <li><a href="/en/sustainability/social-responsibility" target="_self">Social Responsibility</a></li>
+            <li><a href="/en/sustainability/health-and-safety" target="_self">Health &amp; Safety</a></li>
+            <li><a href="/en/sustainability/uae-growth" target="_self">UAE Growth</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/energyai">ENERGYai</a>
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#navbarDropdown16"></button>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" id="navbarDropdown16" data-bs-parent="#mobileNav">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                            <li><a href="/en/energyai/gecko-robotic" target="_self">Gecko&#39;s Robotics </a></li>
+            <li><a href="/en/energyai/3d-printing" target="_self">3D printing</a></li>
+            <li><a href="/en/energyai/cpad" target="_self">CPAD</a></li>
+            <li><a href="/en/energyai/irto" target="_self">iRTO</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/marketing">Marketing</a>
+                                        <button class="accordion-button collapsed no-body" data-bs-toggle="collapse" data-bs-target="#Marketing"></button>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/investor-relations">Investor Relations</a>
+                                        <button class="accordion-button collapsed no-body" data-bs-toggle="collapse" data-bs-target="#Investor Relations"></button>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/news-and-media/press-releases">News and Media</a>
+                                        <button class="accordion-button collapsed no-body" data-bs-toggle="collapse" data-bs-target="#News and Media"></button>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="https://jobs.adnoc.ae/us/en">Careers</a>
+                                        <button class="accordion-button collapsed no-body" data-bs-toggle="collapse" data-bs-target="#Careers"></button>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li class="mobile__navigation-dropdown-list-item">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><a href="/en/investor-relations/ir-contact-us">Contact Us</a>
+                                        <button class="accordion-button collapsed no-body" data-bs-toggle="collapse" data-bs-target="#Contact Us"></button>
+                                    </h2>
+                                </div>
+                            </li>
+            
+        </ul>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+</header>
+
+    <div data-scroll-container>
+	       
+        <div id="wrapper" data-scroll-section>
+            
+<div class="placeholder placeholder--no-padding">
+    <section class="page-cover-widget" style="background-image:url('/-/media/gas/press-release/news-hero.ashx?h=490&amp;w=1440&amp;hash=60F40A37AFEA29AA1E65605C1F48A8E6')">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-cover__tag">
+                        <div class="tag__icon"><img src="/-/media/gas/images/home/animated-hero-banner/gas-tag.ashx"></div>
+                    </div>
+
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+            
+
+
+    
+
+    <div class="placeholder py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb">
+                        <ul class="breadcrumb__list">
+                                        <li class="breadcrumb__list-item">
+                                            <a class="breadcrumb__list-link" href="/en/">Home</a>
+                                        </li>
+                                        <li class="breadcrumb__list-item">
+                                            <a class="breadcrumb__list-link">News and Media</a>
+                                        </li>
+                                        <li class="breadcrumb__list-item">
+                                            <a class="breadcrumb__list-link" href="/en/news-and-media/press-releases">Press Releases</a>
+                                        </li>
+                                    <li class="breadcrumb__list-item">
+                                        <a class="breadcrumbs__link current__page">ADNOC Gas Delivers Resilient Q2 Net Income, Takes FID on Major Growth Projects</a>
+                                    </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="placeholder placeholder--xl-padding">
+    <div class="container">
+        <div class="news-details">
+            <div class="row">
+
+                <div class="col-lg-9">
+                    <a class="back-btn" href="#" onclick="window.history.back();">
+                        <span><i class="fas fa-angle-left"></i></span>Back
+                    </a>
+
+                    
+
+
+                    <div class="news-details__heading-title">
+                        <div class="news-details__tags">
+                            <ul class="news-details__tags-list">
+                                <li class="news-details__tags-list-item">
+                                    <a class="news-details__tags-list-link" href="javascript:void(0)">
+                                        August 10, 2026
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <h2 class="news-details__sub-heading">ADNOC Gas Delivers Resilient Q2 Net Income, Takes FID on Major Growth Projects</h2>
+                        <p class="news-details__desc">
+                            <div class="OutlineElement Ltr SCXW20333682 BCX8" style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px;"><strong>Delivers net income of $665 million driven by domestic gas demand<br />
+</strong><br />
+<strong>Final Investment Decisions on Rich Gas Development project to drive 60% EBITDA growth by 2030<br />
+</strong><br />
+<strong>Successfully accelerating Habshan recovery to 85%, ahead of schedule<br />
+</strong><br />
+<strong>Quarterly dividend of $940 million approved, with progressive dividend policy reaffirmed</strong></div>
+<div class="OutlineElement Ltr SCXW20333682 BCX8" style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px;"><strong><br />
+Abu Dhabi, UAE &ndash; August 10, 2026: ADNOC Gas </strong>plc and its subsidiaries (together referred to as &ldquo;ADNOC Gas&rdquo; or the &ldquo;Company&rdquo;) (ADX symbol: ADNOCGAS / ISIN: AEE01195A234) today announced its results for the second quarter of 2026, delivering net income of $665 million, above the guidance range of $400-600 million, despite exceptional external disruption during the period. The Company achieved a significant milestone in executing its long-term growth strategy by taking Final Investment Decisions (FIDs) and awarding engineering, procurement and construction (EPC) contracts for Phases 2 and 3 of its Rich Gas Development (RGD) Project (collectively, the "Contract Awards").<br />
+<br />
+Fatema Al Nuaimi, Chief Executive Officer of ADNOC Gas, said: "This is a defining moment for ADNOC Gas. With the final investment decision and contract awards for the Rich Gas Development Project, we are not only accelerating one of the world's largest gas-processing growth programs &ndash; we are raising our ambition, targeting 60% EBITDA growth by 2030. These strategic investments will significantly expand our natural gas processing and export capacity, unlock lasting value for our shareholders, and position ADNOC Gas at the heart of the UAE's energy future. Beyond their economic impact, they safeguard the nation's energy security, power its industrial growth, and ensure we are ready to meet rising energy demand &ndash; at home and around the world.<br />
+<br />
+At the same time, ADNOC Gas delivered resilient second-quarter net income above our guided range, despite a challenging operating environment, reflecting the strength of our business, the discipline of our execution, and the continued delivery of our long-term strategy."<br />
+<br />
+These investment decisions raise ADNOC Gas' targeted EBITDA growth to 60%&nbsp; by 2030 versus 2023 &ndash; an upgrade from the previously communicated target of more than 40% over 2023-2029. The upgrade reflects the long-term value creation of the Company's project portfolio and its disciplined approach to capital allocation. ADNOC Gas now expects to invest approximately $28 billion between 2026 and 2030 to deliver this growth ambition.<br />
+<br />
+ADNOC Gas has awarded $8.2 billion in EPC contracts for Phases 2 and 3 of the RGD project &ndash; $3.9 billion for Phase 2, to Wison Engineering, and $4.3 billion for Phase 3, to Tecnimont. These contracts build on Phase 1, announced in June 2025, which is expanding key processing units to increase throughput and improve operational efficiency, across multiple gas assets.<br />
+<br />
+Phase 2, to be delivered by Wison Engineering, will add a new natural gas processing train at the Habshan facility, expanding ADNOC Gas' natural gas processing capacity, enhancing operational flexibility, and supporting the UAE's expanding downstream and petrochemical sectors. Phase 3, to be delivered by Tecnimont, will add a new natural gas liquids (NGL) fractionation train at Ruwais, increasing the recovery of higher-value liquids from rich natural gas for export, strengthening ADNOC Gas' global customer portfolio.<br />
+<br />
+Together with the $5 billion committed to Phase 1, the new awards bring total investment in the RGD project to $13.2 billion. It will benefit from higher associated gas volumes as ADNOC progresses towards its production capacity ambitions.<br />
+<br />
+<strong>Delivering one of the industry's largest gas growth programs<br />
+</strong>ADNOC Gas is executing one of the largest gas growth programs in the industry, spanning four megaprojects &ndash; Ruwais LNG, Maximizing Ethane Recovery and Monetization (MERAM), RGD and Estidama &ndash; which together are expected to generate $13.4 billion in In-Country Value (ICV), reinforcing the Company's contribution to the UAE's industrial development and economic diversification goals. The program continues to progress, with MERAM expected delivery in 2027 and Ruwais LNG and Estidama both advancing as planned. This growth is further underpinned by ADNOC's continued investment across the gas value chain &ndash; including the recently announced Bab Gas Cap and Umm Shaif Gas Cap developments &ndash; which will bring more natural gas and associated gas liquids into ADNOC Gas' integrated value chain, supporting additional feedstock, processing volumes, LNG exports and higher revenue streams.<br />
+<br />
+<strong>Scaling AI and robotics across operations<br />
+</strong>ADNOC Gas is also scaling artificial intelligence and robotics &ndash; from aerial drones and four-legged inspection robots to tank-climbing crawlers &ndash; across its assets, with the potential to cut inspection costs by up to 75%, complete certain inspections up to 15 times faster and remove personnel from hazardous environments as it advances toward increasingly autonomous operations.<br />
+<br />
+<strong>Results Overview<br />
+</strong>ADNOC Gas delivered net income of $665 million in Q2 2026 - above the upper end of the $400-600 million guidance range provided in the first quarter, reflecting strong operational performance in a challenging operating environment. This was supported by resilient margins in the domestic gas business.<br />
+<br />
+Supported by its robust cash flow from operations, the Board has approved a quarterly dividend of $940 million, payable in September 2026, in line with the commitment to deliver annual dividend growth of 5% through 2030. ADNOC Gas remains the largest dividend payer on the ADX.<br />
+<br />
+<strong>Habshan Complex Incidents<br />
+</strong>ADNOC Gas responded swiftly to the security-related incidents at the Habshan site on 3 and 8 April, prioritizing safety and minimizing disruptions to customers. The Company has concluded its technical assessment of the impact from these incidents and recovery has progressed ahead of schedule, with gas supply already restored to 85%, surpassing the year-end target set in May.<br />
+<br />
+<strong>Q3 and Full-Year 2026 Outlook<br />
+</strong>Continued disruption to maritime movements through the Strait of Hormuz affected product liftings during the second quarter. Through proactive inventory, logistics and supply-chain management, ADNOC Gas worked closely with customers and partners to mitigate the impact of these disruptions, manage temporary constraints and fulfil commitments wherever possible.<br />
+<br />
+For the third quarter, ADNOC Gas expects net income in the range of $600 to $800 million, based on the assumption that maritime routes through the Strait of Hormuz continue to be disrupted. Looking further ahead, if maritime operations are fully restored by the fourth quarter of 2026 and pricing realizations normalize, the Company expects full-year 2026 net income to range from $3.5 to $4 billion.<br />
+<br />
+<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# # # # # #<br />
+<strong>Cautionary note:<br />
+</strong>This announcement contains forward-looking statements concerning the financial condition, results of operations and businesses of ADNOC Gas. All statements other than statements of historical fact are, or may be deemed to be, forward-looking statements. Forward-looking statements are statements of future expectations that are based on management&rsquo;s current expectations and assumptions and involve known and unknown risks and uncertainties (including, but not limited to, disruptions to maritime routes (including the Strait of Hormuz), geopolitical developments, fluctuations in commodity prices and product realizations, operational risks including those related to the Habshan complex, and the timing and execution of major capital projects) that could cause actual results, performance, or events to differ materially from those expressed or implied in these statements. ADNOC Gas does not undertake any obligation to publicly update or revise any forward-looking statement as a result of new information, future events, or other information. Results could differ materially from those stated, implied, or inferred from the forward-looking statements contained in this announcement. Readers should not place undue reliance on forward-looking statements.<br />
+<br />
+<strong>About ADNOC Gas<br />
+</strong>ADNOC Gas, listed on the ADX (ADX symbol: &ldquo;ADNOCGAS&rdquo; / ISIN: &ldquo;AEE01195A234&rdquo;), is a world-class, large-scale integrated gas processing and sales company operating across the gas value chain, from receipt of feedstock from ADNOC through large, long-life operations for gas processing and fractionation to the sale of products to domestic and international customers. ADNOC Gas supplies approximately 60% of the UAE&rsquo;s sales gas needs and supplies end-customers in over 20 countries. To find out more, visit: www.adnocgas.ae<br />
+(X) @ADNOCGas<br />
+<br />
+<strong>For investor inquiries, please contact:&nbsp;<br />
+</strong>Richard Griffith<br />
+Vice President, Investor Relations&nbsp;<br />
++971 (2) 6037445<br />
+ir@adnocgas.ae&nbsp;<br />
+<br />
+<strong>For media inquiries, please contact:&nbsp;<br />
+</strong>Paloma Berenguer<br />
+Vice President, Corporate Communications&nbsp;<br />
++971 (2) 6037444<br />
+media.adg@adnoc.ae<br />
+<div>&nbsp;</div>
+</div>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="news-details__release-details">
+                        <p class="news-details__release-details__heading">Release Details</p>
+                        <div class="news-details__release-details__info">
+                            <ul>
+                                <li> <img src="/resources/gas/css/assets/images/calendar.svg" alt=""><span> August 10, 2026</span></li>
+                            </ul>
+                        </div>
+                        <ul class="news-details__sec-social-list">
+                            <p>Share on social</p>
+                            <span social-links data-text="This is the describtion" data-socials="facebook, linkedin, twitter, email"></span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <footer class="footer">
+                <a href="#wrapper" data-scroll-to="" back-to-top><i class="fas fa-chevron-up"></i></a>
+                <div class="container">
+                    <div class="row no-gutters">
+    <div class="col-lg-2 d-flex flex-column">
+        <div class="logo-wrapper"></div>
+            
+<a href="/en/">
+    
+</a>
+            <p class="copyrights mt-2">Copyright &copy; 2026</p>
+ 
+    </div>
+    <div class="col-lg-10 ps-lg-5">
+        <div class="row no-gutters">
+
+            
+
+        <div class="col-md-6 col-lg">
+            <div class="footer__links-sec">
+                <h5>
+<a href="/en/our-company" class="" >Company</a>                </h5>
+                        <ul>
+                    <li>
+<a href="/en/our-company/board-of-directors" class="" >Board of Directors</a>                    </li>
+                    <li>
+<a href="/en/our-company/executive-management" class="" >Executive Management</a>                    </li>
+                    <li>
+<a href="/en/our-company/our-people" class="" >Our People</a>                    </li>
+        </ul>
+
+            </div>
+        </div>
+        <div class="col-md-6 col-lg">
+            <div class="footer__links-sec">
+                <h5>
+<a href="/en/our-operations" class="" >Our Operations</a>                </h5>
+                        <ul>
+                    <li>
+<a href="/en/our-operations/gas-processing" class="" >Gas Processing</a>                    </li>
+                    <li>
+<a href="/en/our-operations/pipeline-network" class="" >Pipeline Network</a>                    </li>
+                    <li>
+<a href="/en/our-operations/industrial-gases" class="" >Industrial Gases</a>                    </li>
+                    <li>
+<a href="/en/our-operations/lng" class="" >LNG Operations</a>                    </li>
+                    <li>
+<a href="/en/our-operations/other-gas-products" class="" >Other Products</a>                    </li>
+        </ul>
+
+            </div>
+        </div>
+        <div class="col-md-6 col-lg">
+            <div class="footer__links-sec">
+                <h5>
+<a href="/en/our-projects" class="" >Projects</a>                </h5>
+                        <ul>
+                    <li>
+<a href="/en/energyai" class="fw-bold h5" >Innovation</a>                    </li>
+                    <li>
+<a href="/en/marketing" class="fw-bold h5" >Marketing</a>                    </li>
+                    <li>
+<a href="/en/our-projects/debottlenecking" class="" >Debottlenecking</a>                    </li>
+        </ul>
+
+            </div>
+        </div>
+        <div class="col-md-6 col-lg">
+            <div class="footer__links-sec">
+                <h5>
+<a href="/en/sustainability" class="" >Sustainability</a>                </h5>
+                        <ul>
+                    <li>
+<a href="/en/sustainability/environment" class="" >Environment</a>                    </li>
+                    <li>
+<a href="/en/sustainability/health-and-safety" class="" >Health & Safety</a>                    </li>
+                    <li>
+<a href="/en/sustainability/social-responsibility" class="" >Social Responsibility</a>                    </li>
+                    <li>
+<a href="/en/sustainability/uae-growth" class="" >UAE Growth</a>                    </li>
+        </ul>
+
+            </div>
+        </div>
+        <div class="col-md-6 col-lg">
+            <div class="footer__links-sec">
+                <h5>
+<a href="/en/investor-relations" class="" >Investor Relations</a>                </h5>
+                        <ul>
+                    <li>
+<a href="/en/investor-relations/investment-case" class="" >Investment Case</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/share-information" class="" >Share Information</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/dividend" class="" >Dividend</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/results-reports" class="" >Reports and Results</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/announcements" class="" >Annoucements</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/corporate-governance" class="" >Corporate Governance</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/analyst-coverage" class="" >Analyst Coverage</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/financial-calendar" class="" >FInancial Calendar</a>                    </li>
+                    <li>
+<a href="/en/investor-relations/ir-contact-us" class="" >Contact Us</a>                    </li>
+        </ul>
+
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <div class="col-12">
+        
+    <div class="social-icon d-flex flex-wrap footer-social-icons mt-auto">
+        <ul class="article-details__sec-social-list">
+            <span>
+                    <li>
+                        <a class="linkedin" href="https://www.linkedin.com/company/adnocgas/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="https://www.twitter.com/AdnocGas" target="_blank">
+                            <i class="icon-x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="https://www.instagram.com/adnocgas" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+            </span>
+        </ul>
+    </div>
+
+    </div>
+</div>
+
+
+
+    <div class="row no-gutters">
+        <div class="col-12 d-flex justify-content-lg-center">
+            <div class="copyright__links">
+                <ul class="nav">
+                        <li>
+                            <a href="/en/privacy-policy"
+                               target="_self">Privacy Policy</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="/resources/Gas/js/main.js?V=0.05"></script>
+    <script src="/resources/Gas/js/dev.js?V=0.03"></script>
+</body>
+</html>
+
