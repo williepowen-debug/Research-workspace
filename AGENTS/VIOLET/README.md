@@ -1,6 +1,6 @@
 # VIOLET — volatility desk
 
-VIX complex, term structure, tail pricing and credit-to-vol transmission. **Reviewed September 14, 2026.** Start with [STATUS](STATUS.md), [SCRATCH](SCRATCH.md), and the [data/news sweep](reports/2026-09-14_sweep/README.md).
+VIX complex, term structure, tail pricing and credit-to-vol transmission. **Reviewed October 14, 2026.** Start with [STATUS](STATUS.md), [SCRATCH](SCRATCH.md), and the [accuracy sweep](research/2026-10-14_accuracy-sweep/REPORT.md). The [September sweep](reports/2026-09-14_sweep/README.md) is dated history.
 
 ## File map
 
@@ -11,7 +11,7 @@ VIX complex, term structure, tail pricing and credit-to-vol transmission. **Revi
 | NEXUS_BRIEF.md | Cross-domain synthesis; folded after final STATUS write |
 | MEMORY.md | Durable lessons; historical session trajectory is cold under archive/ |
 | CALENDAR.md / workbook/CATALYSTS.tsv | Human/machine twins of future catalysts |
-| workbook/PREDICTIONS.tsv | Navigation to six unresolved registered tests; original source governs |
+| workbook/PREDICTIONS.tsv | Navigation to six resolved registered tests; original letter and dated grade govern |
 | TRADE.md | Recorded positions and historical registrations; TERRY owns new construction |
 | CANARY_MAP.md | Durable instruments, owner boundaries and threshold references; current values in STATUS |
 | SIGNAL_INTAKE.md | Durable news subscription; no live quote copies |

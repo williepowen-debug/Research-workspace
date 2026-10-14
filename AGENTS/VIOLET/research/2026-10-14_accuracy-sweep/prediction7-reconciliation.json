@@ -1,0 +1,15 @@
+{
+  "baseline_reference": "August23Sunday has no Cboe cash close; last available session August21",
+  "baseline_last_session": "2026-08-21",
+  "baseline_skew": 143.9,
+  "projection_anchor_five_session_mean": 143.31,
+  "cross_session": "2026-09-01",
+  "cross_skew": 149.23,
+  "actual_20d_mean": 141.13150000000002,
+  "actual_change_vs_last_close_pct": 3.703961084086149,
+  "actual_change_vs_projection_anchor_pct": 4.130905031051557,
+  "actual_within_registered_2pct": false,
+  "pinned_143_31_counterfactual_mean": 140.1175,
+  "counterfactual_crosses_140": true,
+  "disposition": "Timing and fixed-spot arithmetic reproduced; actual flat-spot condition not met. Recorded KB220 clean full-letter HIT withheld; source counterfactual is not a forecast. No retrospective rule revision."
+}

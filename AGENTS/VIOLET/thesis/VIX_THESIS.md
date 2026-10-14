@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.2 — post-CPI transmission evidence refinement, 2026-10-14; v4.1.1 mechanism and gate constraints preserved)
+# VIX THESIS (v4.1.3 — prediction7 evidence correction, 2026-10-14; v4.1.2 transmission and registered gate constraints preserved)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -17,6 +17,8 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ---
 
 ## CHANGELOG
+
+**v4.1.3 (2026-10-14):** September prediction7 is closed for live use. Timing and fixed-spot arithmetic reproduce; the actual-flat-spot condition did not occur, so KB220's clean full-letter HIT is withheld. The original HENRY calculation is expressly a counterfactual. Current SKEW interpretation is relative tail pricing, not absolute put premium, net flow or physical crash odds; old KB108rotation attribution is historical/unvalidated. Registered lines and post-CPI WATCH unchanged. Full correction: CHANGELOG.md and KB334.
 
 > Canonical "old view → new view" per-bump log lives in `thesis/CHANGELOG.md`. This section is the in-body version history.
 
@@ -458,16 +460,16 @@ Portfolio P&L (no credit-side firing required)
 
 **v3.1 review protocol:** Each prediction gets a resolution date when conditions fire. Predictions that pass/fail with n>10 events get promoted to KB as empirical findings. Review monthly.
 
-| # | Prediction | Status (6/6) | Confidence | Resolution |
+| # | Prediction | Recorded outcome / source date (current conditions: STATUS) | Confidence | Resolution |
 |---|------------|--------------|------------|------------|
-| 1 | HY OAS > 400bps + VIX 20-30 → VIX > 30 within 10 days | Untested — HY 2.74 still distant from 400bps trigger | Medium | Review when HY OAS >400 |
+| 1 | HY OAS > 400bps + VIX 20-30 → VIX > 30 within 10 days | Registered conditional test; the June HY2.74 reading is historical. Current credit and eligibility: STATUS; no new grade inferred | Medium | Review when HY OAS >400 |
 | 2 | ~~Term structure inversion (VIX3M/VIX<1.0) → VIX spike >50% within 5 days~~ | **FALSIFIED 2026-04-15** (KB-VIO-034: 553 events, 2.2% hit rate, mean -5% forward) | ~~High~~ → **rewritten below** | — |
 | 2' | **Sustained** term structure inversion (VIX3M/VIX<1.0 for ≥7 consecutive days) → VIX sustains above 25 for ≥10 days following | Untested. Front-end inversion 6/5 (VIX9D > VIX) does NOT count — VIX3M still above spot (1.014). | Medium | Next event |
 | 3 | VVIX > 120 **with VIX < 20** (divergence) → VIX > 25 within 10 days | **CLOSED INCONCLUSIVE 6/6.** 6/5 had VVIX 102.04 (not 120) but VIX cleared 20 anyway via Path B mechanism. Threshold-conditional setup doesn't capture mechanism-substitution. Replace with #5/#6. | — | Closed |
 | 4 | VIX > 40 → HY OAS > 600bps within 20 days | Untested — VIX hasn't reached 40 since thesis | Medium (downgraded from High — inherited, not VIOLET-validated) | Next event |
 | **5** | **KB-VIO-067 L1 DIET signature** (SKEW +10 / VIX -5 / VVIX -15 over 20d formal, or half-magnitude directional variant) → ≥15% VIX rise within 60 days | **PARTIAL HIT 6/5.** Directional/half-magnitude variant fired 5/20-5/29 → VIX +40% at td-4 (well above 15% threshold). Mechanism-attribution uncertain (NFP + AI confounder); count as partial. Base rate at this threshold: DIET 92% / STRICT 94% episode-level (L1 canonical table, KB-VIO-079). | High (EMPIRICAL via 19yr backtest) | Each L1 fire; 60d window |
 | **6** | **Post-spike SKEW > 150 sustained 4+ td** → back-to-back vol event within 60 days (Phase 2 cluster analog) | **RESOLVED — BROKE AT 2/4, NEVER SUSTAINED** (KB-VIO-114, adjudicated 7/9; this table synced 7/11). Daily path (VX_DAILY, official closes): 154.82 (7/1, day 1) → 150.02 (7/2, day 2) → 145.38 (7/6, BREAK) → 145.74 (7/7) → 149.79 (7/8) → 144.67 (7/9) → 144.27 (7/10). The 60d consequent never armed. Count formally reset **0/4**; re-arms on any fresh close >150. Framing-variant caveat (post-partial-fire, wings-rotation composition, KB-VIO-108) carries to the next instance. Prior lapse: 6/5 instance broke at 1/4 (152.25 → 145.00). | Medium (small N: 1 prior cluster in 19yr) | Resolved 7/9, no fire; watch re-arms at next >150 close |
-| **7** | **KB-VIO-203 mechanism forecast (added v4.0)** — HENRY's departures/arrivals decomposition (n=2 with own finding) predicts the SKEW 20d-avg re-crosses 140 **at ~2026-09-01** on flat spot alone (roll-off of expiring low prints). | Untested; live-testable. Fires: 20d-avg cross-back >140 within ±2 sessions of 9/1 at spot within ±2% of 8/23 close. Falsifies: no cross-back by 9/8, or cross-back requires spot to move >±3%. | Medium (n=2 measurement, well-specified) | ~2026-09-01 window |
+| **7** | **KB-VIO-203 mechanism forecast (added v4.0)** — HENRY's departures/arrivals decomposition (n=2 with own finding) predicts the SKEW 20d-avg re-crosses 140 **at ~2026-09-01** on flat spot alone (roll-off of expiring low prints). | **CLOSED for live use; full-letter HIT WITHHELD (2026-10-14 correction, KB-VIO-334).** Registered wording preserved at `../research/2026-10-14_accuracy-sweep/prediction7-original-extract.md`: fires on cross within ±2sessions of9/1 with actual spot within ±2% of8/23close; falsifier includes a cross requiring >±3%spot movement. Timing and pinned143.31 counterfactual reproduce (20d means141.1315 /140.1175). Actual9/1 SKEW149.23 vs last available8/21close143.90 =+3.704%, so the observed flat-spot eligibility condition was not met. HENRY expressly supplied a counterfactual, not a forecast; KB-VIO-220 recorded a stronger clean HIT than this letter supports. Do not invent FAILED from the ambiguous requires clause or change the original rule retrospectively. | Medium (n=2 measurement, well-specified) | September window expired; timing/arithmetic confirmed, no qualifying actual-flat-spot fire |
 
 **Scoring rules:**
 - "Untested" = trigger conditions have not occurred
@@ -497,7 +499,7 @@ Portfolio P&L (no credit-side firing required)
 - [ ] Path B (concentration-unwind parallel) backtest: identify historical analogs (Aug 2024 yen, Nov 2018 FANG, Feb 2018 Volmageddon, Mar 2020) and characterize joint trigger+amplifier condition
 - [ ] **Path A F2 audit (added v4.0):** run the pre/post-2018 test on Path A's ~70% hit rate. Path A's VIX<20 entry gate is level-conditional; if separation compresses post-Volmageddon the way KB-VIO-207 did, sizing conclusions change. **This is not a demotion of Path A** — it is the obligation the level-decay class puts on every level-conditional signal.
 - [ ] **VIX9D/VIX ratio base-rate work (added v4.0, KB-VIO-213):** now that the instrument is built and backfilled to 2011, base-rate the ratio at the thresholds the framework would want (≥1.0 crossing, ≥1.05 sustained, compression <0.85). Register nothing without an F2 test — do not repeat the KB-VIO-207 pattern of ship-then-audit.
-- [ ] **KB-VIO-203 HENRY departures-arrivals cross-back forecast (added v4.0):** grade whether the ~9/1 forecast (SKEW 20d-avg re-crosses 140 at flat spot) realizes. If it does, KB-VIO-203 upgrades from anecdote to mechanism-with-computed-date.
+- [x] **KB-VIO-203 departures-arrivals evidence reconciled October14 (KB-VIO-334):** recovered September2 grade and original August27 letter; timing/counterfactual reproduced, actual-flat-spot eligibility failed. Arithmetic mechanism retained; clean full-letter predictive HIT withdrawn. September event is closed, not a new forward test.
 
 ---
 
@@ -518,5 +520,5 @@ System thesis: Credit stress → bank stress → equity crash. *(Scenario weight
 **Dated forward catalysts:** `workbook/CATALYSTS.tsv` (source of truth) · `CALENDAR.md` (human twin, 1:1-checked by `scripts/twin_check.py`).
 **Open predictions and their grades:** `workbook/KB.tsv` + this file's prediction table above.
 
-*Version history: `thesis/CHANGELOG.md`. **Current: v4.0 (2026-08-27).** ⚠️ This footer read "v3.0 → v3.5 (2026-04-12 → 2026-06-06)" on a v4.0 file until 2026-09-04 — a version stamp that had not moved through two major bumps.*
+*Version history: `thesis/CHANGELOG.md`. **Current version/date: see the first-line header.** ⚠️ This footer read "v3.0 → v3.5 (2026-04-12 → 2026-06-06)" on a v4.0 file until 2026-09-04 — a version stamp that had not moved through two major bumps.*
 *Status: ACTIVE — Phase 4 stack calibration in progress.*

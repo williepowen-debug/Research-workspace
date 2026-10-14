@@ -1,0 +1,47 @@
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.329s
+
+OK
+
+  🔴 CONVERGENCE SCORE DISAGREES ACROSS SURFACES:
+     STATUS.md            30/50
+     NEXUS_BRIEF.md       30/50
+     SCRATCH.md           30/50
+     PROME memo           30/50, 31/50
+     → STATUS § CONVERGENCE MATRIX is canonical; the scale is declared there
+     ⚠️  This check cannot say which is right — only that they cannot all be.
+
+  🔴 CROSS-SURFACE DISAGREEMENT — 1 figure(s). Fix the non-canonical surfaces by RE-DERIVING, not by copying.
+
+  🔴 CONVERGENCE SCORE DISAGREES ACROSS SURFACES:
+     STATUS.md            30/50
+     NEXUS_BRIEF.md       30/50
+     SCRATCH.md           30/50
+     PROME memo           30/50, 31/50
+     → STATUS § CONVERGENCE MATRIX is canonical; the scale is declared there
+     ⚠️  This check cannot say which is right — only that they cannot all be.
+
+  🔴 CROSS-SURFACE DISAGREEMENT — 1 figure(s). Fix the non-canonical surfaces by RE-DERIVING, not by copying.
+
+  🔴 CONVERGENCE SCORE DISAGREES ACROSS SURFACES:
+     STATUS.md            30/50
+     NEXUS_BRIEF.md       30/50
+     SCRATCH.md           30/50
+     PROME memo           30/50, 31/50
+     → STATUS § CONVERGENCE MATRIX is canonical; the scale is declared there
+     ⚠️  This check cannot say which is right — only that they cannot all be.
+
+  🔴 CROSS-SURFACE DISAGREEMENT — 1 figure(s). Fix the non-canonical surfaces by RE-DERIVING, not by copying.
+
+  🔴 CONVERGENCE SCORE DISAGREES ACROSS SURFACES:
+     STATUS.md            30/50
+     NEXUS_BRIEF.md       30/50
+     SCRATCH.md           30/50
+     PROME memo           30/50, 31/50
+     → STATUS § CONVERGENCE MATRIX is canonical; the scale is declared there
+     ⚠️  This check cannot say which is right — only that they cannot all be.
+
+  🔴 CROSS-SURFACE DISAGREEMENT — 1 figure(s). Fix the non-canonical surfaces by RE-DERIVING, not by copying.
+  🔴 NO PROME MEMO DATED 2026-10-14 — the PROME-facing surface has not been written this session, so agreement cannot be certified. Write it (write-back step 11a), or pass --date if this session began on a previous day.
+  🔴 DELIVERY SET UNKNOWN — fixture unavailable; cannot certify agreement.

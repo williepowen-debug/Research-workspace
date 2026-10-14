@@ -38,7 +38,7 @@ re-deriving from the data, never by copying the majority.
 Exit codes: 0 = every registered figure agrees; 1 = at least one disagreement.
 """
 from __future__ import annotations
-import argparse, datetime as _dt, re, sys
+import argparse, datetime as _dt, re, subprocess, sys
 from pathlib import Path
 
 AGENT_DIR = Path(__file__).resolve().parent.parent
@@ -62,45 +62,86 @@ SURFACE_SPECS = [
 MEMO_DIRS = ("PROME/inbox", "PROME/inbox/processed")
 
 
+class EvidenceUnavailable(RuntimeError):
+    """A missing Git witness cannot certify the current delivery set."""
+
+
+def git_read(*args: str, allowed=(0,)) -> subprocess.CompletedProcess:
+    try:
+        result = subprocess.run(["git", *args], cwd=REPO,
+                                capture_output=True, text=True, timeout=10)
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        raise EvidenceUnavailable(type(exc).__name__) from exc
+    if result.returncode not in allowed:
+        raise EvidenceUnavailable(f"git {args[0]} returned {result.returncode}")
+    return result
+
+
+def current_memos(hits: list[Path]) -> list[Path]:
+    """All deliveries in the current STATUS closeout, including its addenda.
+
+    The latest committed STATUS anchors the existing write-back phase. Original
+    memo addition (following recipient moves), rather than its latest move or
+    filesystem timestamp, supplies the delivery witness. Earlier same-day
+    closeouts are historical; every current-phase addendum remains in scope.
+    New untracked packets are read before commit. Missing history fails closed.
+    """
+    status_path = (AGENT_DIR / "STATUS.md").relative_to(REPO).as_posix()
+    baseline = git_read("log", "-1", "--format=%H", "--", status_path).stdout.strip()
+    if not baseline:
+        raise EvidenceUnavailable("no committed STATUS baseline")
+    selected = []
+    for path in hits:
+        rel = path.relative_to(REPO).as_posix()
+        # --follow can follow a COPY into an unrelated STATUS/brief. A copy is
+        # this memo's birth, not permission to inherit the source's old date.
+        # Follow real renames only; stop at this path's A or C creation event.
+        history = git_read("log", "--follow", "--name-status", "--format=@@%H", "--", rel).stdout
+        current_path, creation, commit = rel, None, None
+        for line in history.splitlines():
+            if line.startswith("@@"):
+                commit = line[2:]
+                continue
+            fields = line.split("\t")
+            if len(fields) == 3 and fields[0].startswith("R") and fields[2] == current_path:
+                current_path = fields[1]
+            elif ((len(fields) == 2 and fields[0] == "A" and fields[1] == current_path)
+                  or (len(fields) == 3 and fields[0].startswith("C") and fields[2] == current_path)):
+                creation = commit
+                break
+        if not creation:
+            tracked = git_read("ls-files", "--error-unmatch", "--", rel, allowed=(0, 1))
+            if tracked.returncode == 0:
+                raise EvidenceUnavailable(f"tracked memo has no addition witness: {rel}")
+            selected.append((float("inf"), rel, path))  # current draft, not a delivery receipt
+            continue
+        relation = git_read("merge-base", "--is-ancestor", baseline, creation, allowed=(0, 1))
+        if relation.returncode == 1:
+            continue
+        stamp = git_read("show", "-s", "--format=%ct", creation).stdout.strip()
+        try:
+            selected.append((int(stamp), rel, path))
+        except ValueError as exc:
+            raise EvidenceUnavailable("unusable memo commit timestamp") from exc
+    return [p for _, _, p in sorted(selected, reverse=True)]
+
+
 def resolve(spec: str, day: str | None = None) -> list[Path]:
-    """Spec -> every concrete path it names. Memo globs are bounded to ONE day.
+    """Resolve owner surfaces and all current-closeout delivery memos.
 
-    ⚠️ A glob returns ALL matches for that day and the caller reads them TOGETHER,
-    rather than picking one "newest". Two reasons, and the second is the better one:
-    ① a date prefix cannot order two packets sent the same day (v1 picked by slug,
-      so a 10:4x addendum lost to a 10:2x memo because "a" < "f"); and
-    ② **within one closeout, every delivered memo is in scope** — if an addendum
-      states a different convergence score or FT-10 count from the memo it amends,
-      that is a genuine cross-surface disagreement and exactly what this exists to
-      catch. Reading only the "latest" would hide it.
-
-    ⛔ FIXED 2026-09-11 — THE GLOB WAS NEVER BOUNDED TO A SESSION, AND ② IS ONLY
-    TRUE WITHIN ONE. Reason ② justifies reading same-day memos together; it says
-    nothing about memos from LAST week, and the code read those too. A figure that
-    legitimately MOVES between deliveries — a convergence score, an FT-10 count —
-    then reads as a permanent cross-surface disagreement, and **the red grows by
-    one surface per memo sent.** Live example this closeout: seven 2026-09-06
-    memos carrying 28/50 and "2 of 4", both TRUE AT THEIR VINTAGE, against a
-    STATUS correctly reading 33/50 and 0.
-
-    🔑 And the printed remedy — "fix the non-canonical surfaces by RE-DERIVING" —
-    **cannot be followed honestly for a delivered memo**, which is an immutable
-    record; re-deriving it means editing history. A guard whose remedy is
-    impossible trains its reader to wave the red through, which is the n=4
-    CANARY_MAP behaviour this guard exists to end. A permanently-red blocking
-    check is worse than no check.
-
-    The bound is a DATE, not a tunable threshold: memos whose filename begins
-    `day`. Same-day addenda are still compared together, so ② is preserved
-    exactly. An empty list means no memo FOR THAT DAY — reported as MISSING,
-    which is correct and fails closed: a closeout that has not yet delivered to
-    PROME has an unwritten surface, not an agreeing one."""
+    October14repair (KB-VIO-284): a date identifies the trading day, not the
+    closeout. Current STATUS commit anchors the phase; original memo addition
+    history follows recipient moves. All current-phase addenda are compared,
+    never just the latest memo. No Git witness means UNKNOWN/fail closed.
+    `day=None` retains the unbounded diagnostic glob; main always passes a day.
+    """
     if "*" not in spec:
         return [AGENT_DIR / spec]
     pat = spec.rsplit("/", 1)[-1]
     hits = [x for d in MEMO_DIRS for x in (REPO / d).glob(pat)]
     if day is not None:
         hits = [x for x in hits if x.name.startswith(day)]
+        hits = current_memos(hits)
     return hits
 
 
@@ -171,7 +212,11 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
 
     day = a.date or _dt.date.today().isoformat()
-    resolved = resolve_all(day)
+    try:
+        resolved = resolve_all(day)
+    except EvidenceUnavailable as exc:
+        print(f"  🔴 DELIVERY SET UNKNOWN — {exc}; cannot certify agreement.")
+        return 1
 
     texts = {}
     for s in SURFACES:

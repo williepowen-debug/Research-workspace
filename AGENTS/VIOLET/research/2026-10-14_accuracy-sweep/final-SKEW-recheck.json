@@ -1,0 +1,53 @@
+{
+  "retrieved_at": "2026-10-14T20:27:16.428944+00:00",
+  "history": [
+    {
+      "DATE": "10/07/2026",
+      "SKEW": "141.840000"
+    },
+    {
+      "DATE": "10/08/2026",
+      "SKEW": "149.190000"
+    },
+    {
+      "DATE": "10/09/2026",
+      "SKEW": "154.340000"
+    },
+    {
+      "DATE": "10/12/2026",
+      "SKEW": "155.060000"
+    },
+    {
+      "DATE": "10/13/2026",
+      "SKEW": "154.740000"
+    }
+  ],
+  "quote": {
+    "timestamp": "2026-10-14 20:26:41",
+    "data": {
+      "symbol": "^SKEW",
+      "security_type": "index",
+      "exchange_id": 5,
+      "current_price": 154.74,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "bid": 0.0,
+      "ask": 0.0,
+      "bid_size": 0,
+      "ask_size": 0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "close": 154.74,
+      "prev_day_close": 154.74,
+      "volume": 0,
+      "iv30": 0.0,
+      "iv30_change": 0.0,
+      "iv30_change_percent": null,
+      "seqno": 15031093957,
+      "last_trade_time": "2026-10-13T17:00:20",
+      "tick": "down"
+    },
+    "symbol": "_SKEW"
+  }
+}

@@ -9,6 +9,16 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## October14,2026 — accuracy sweep and daily-basis source repair
+
+**Trigger:** Will asked whether VIOLET files were current and accurate and requested a sweep.
+**What changed:** exact-date publisher daily closes now certify SETTLE in thresholds.py; wall-clock time alone never does. All six daily values replace delayed values before ratios. Otherwise the row remains TICK, with quote last_trade_time retained per column in JSON; independently dated futures unchanged. Added9offline regressions through existing suite discovery. Thesis advisory parses patch versions and explicitly excludes same-day/older semantic review from its assurance. Navigation/state-register/source-description repairs remove September-live claims and false unresolved counts;49KB lifecycle reviews are dated without new numerical rules. The same-day memo-bound defect is also repaired: current STATUSphase anchors all delivery/addendum comparisons, original A/C birth is tracked through recipient Rmoves, and missing Git evidence fails closed;8isolated Git cases pass.
+**Files touched:** scripts/thresholds.py, scripts/thesis_bump_check.py, scripts/tests/test_official_daily_basis.py, scripts/surface_agreement.py, scripts/tests/test_surface_agreement_bound.py and test_surface_agreement_sessions.py; README/workbook README/SIGNAL_INTAKE; owned evidence and write-back surfaces. Analytical grade correction lives in thesis/CHANGELOG.md.
+**Boot-impact:** after16:15ET, up to6parallel daily-history requests, bounded12stimeout each. Earlier boots unchanged. No new boot stage or monitor; offline suite discovered by existing runner. Current live control remains TICK with a missing official October14SKEWbar, even though futures have an October14settlement.
+**Lessons:** a green schema/staleness check is not semantic validation; a publication clock is not publication evidence; a counterfactual arithmetic success is not automatically the stronger registered forecast's success.
+
+---
+
 ## 2026-10-14 — approved L667 alert repairs and post-CPI source archive
 
 **Trigger:** L667 October14 ride-along authorizes the forward-catalyst emptiness warning and explicit past-row regrade; the post-CPI boot printed an OPEN vehicle menu from October13 data against an already-fired CPI row.

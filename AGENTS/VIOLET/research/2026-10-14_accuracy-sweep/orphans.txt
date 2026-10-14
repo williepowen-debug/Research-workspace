@@ -1,0 +1,24 @@
+⚠️  uncommitted files outside AGENTS/VIOLET/:
+     [likely YOURS] AGENTS/RED/inbox/2026-10-14_from-VIOLET_accuracy-sweep-prediction7-correction.md
+     [likely YOURS] PROME/inbox/2026-10-14_from-VIOLET_accuracy-sweep.md
+     [not yours]    AGENTS/WALTER/LAST_COMPLETION.md
+     [not yours]    AGENTS/WALTER/REGISTRY.tsv
+     [not yours]    AGENTS/WALTER/SESSION_LOG.md
+     [not yours]    AGENTS/WALTER/STATUS.md
+     [not yours]    AGENTS/WALTER/inbox/DEWEY/processed/2026-10-14_ports-pike-power_handoff.md
+     [not yours]    AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv
+     [not yours]    AGENTS/WALTER/registry/x_bookmarks_pending.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-14_resume-1449/
+     [not yours]    PROME/state/board_consumed.tsv
+     [not yours]    PROME/state/board_cursor.txt
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "VIOLET -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

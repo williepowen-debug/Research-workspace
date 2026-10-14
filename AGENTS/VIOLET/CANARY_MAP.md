@@ -1,6 +1,6 @@
 # VIOLET CANARY MAP — fleet early-warning layer (v1.3)
 
-**Reviewed September 14, 2026.** This map owns instruments, threshold references and routing relationships. **Current values live in STATUS.md and the named ledgers**, not duplicated here. Pre-sweep evidence histories: `archive/sweep_2026-09-14/CANARY_MAP.md`.
+**Reviewed October14,2026.** Numerical lines and owner boundaries unchanged; daily/closeout source contracts repaired in the accuracy sweep. This map owns instruments, threshold references and routing relationships. **Current values live in STATUS.md and the named ledgers**, not duplicated here. Pre-sweep evidence histories: `archive/sweep_2026-09-14/CANARY_MAP.md`.
 
 SKEW here means the **Cboe S&P 500 SKEW index**, not SPX delta-specific put skew or rates swaption skew. A canary informs interpretation; it is not permission to trade.
 

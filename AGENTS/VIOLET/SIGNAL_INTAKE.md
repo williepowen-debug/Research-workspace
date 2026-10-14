@@ -1,8 +1,9 @@
 # VIOLET — Signal Intake Spec
 
-> ⚠️ **INSTRUMENT DISAMBIGUATION — "SKEW" NOW NAMES TWO UNRELATED THINGS FLEET-WIDE (adopted 2026-08-20, WALTER `SIG-W-20260819-031`).** Everywhere in VIOLET's files, **SKEW means `^SKEW`, the CBOE S&P 500 SKEW index** (equity-index tail pricing, 100-150 scale, VIOLET-owned). It is **NOT** the *3y10y swaption skew* (a 3-year option on a 10-year swap; **rates vol, BOND-owned**) that began circulating 8/19 at multi-year highs tilted to payers. A fleet grep for "SKEW" now returns both. **My rows are correct and were still unqualified** — 62 mentions across my cross-agent surfaces, only 8 explicitly tagged — so the defect materialises at the READER, not the writer. Qualify on first use in anything another desk reads; **rates-vol skew substance is BOND's, not mine.**
+> ⚠️ **INSTRUMENT DISAMBIGUATION — "SKEW" NOW NAMES TWO UNRELATED THINGS FLEET-WIDE (adopted 2026-08-20, WALTER `SIG-W-20260819-031`).** Everywhere in VIOLET's files, **SKEW means `^SKEW`, the CBOE S&P 500 SKEW index** (equity-index relative tail pricing, unitless and not bounded at 150, VIOLET-owned). It is **NOT** the *3y10y swaption skew* (a 3-year option on a 10-year swap; **rates vol, BOND-owned**) that began circulating 8/19 at multi-year highs tilted to payers. A fleet grep for "SKEW" now returns both. **My rows are correct and were still unqualified** — 62 mentions across my cross-agent surfaces, only 8 explicitly tagged — so the defect materialises at the READER, not the writer. Qualify on first use in anything another desk reads; **rates-vol skew substance is BOND's, not mine.**
 
 **Owner:** VIOLET | **Consumer:** Routing agent (WALTER) | **Last Updated:** 2026-08-10 (**COR1M first-tell + MOVE pause/resume added, both Will-ruled in-session — 2026-08-10 financial-conditions forum FINAL §5; a proposed SKEW>140 line was withdrawn in favor of RED's existing standing guard on the same number, KB-VIO-188..191**. Prior: 2026-07-30, KB-VIO-147 audit — ACTIVE THRESHOLDS rebuilt with explicit LEVEL + INSTRUMENT + WINDOW columns; two stale live readings removed from the table per its own header rule; first provenance pass this file has ever had. Prior: 2026-07-17, JPY 10d RV line, KB-VIO-117)
+**Evidence/navigation reviewed:** 2026-10-14; registered numerical lines and their approval dates unchanged. Rates-substance owner pointer reconciled to PROME/ROSTER.md.
 **Domain:** VIX complex, vol term structure, vol-of-vol (VVIX), SKEW/tail pricing, credit-to-vol transmission timing, vol-regime classification.
 
 ---
@@ -106,7 +107,7 @@ options, hedge, fear gauge, market stress, panic, drawdown, tail risk
 - Private credit / BDC fundamentals → BROCK (VIOLET wants gating-class events only)
 - Oil price / supply / OPEC substance → BRENT / HAWK (VIOLET wants the oil-vol→equity-vol transmission angle only)
 - FX / yen-carry substance, BOJ policy analysis → SAM (VIOLET wants carry→vol transmission triggers only)
-- Treasury auctions, rates substance → LIQUID / SAM
+- Treasury auctions, rates substance → BOND (funding/plumbing → LIQUID; BOJ/yen policy → SAM)
 - Routine scheduled macro prints (CPI/NFP as-expected) → CARL / HENRY (VIOLET tracks the calendar; route tails only)
 
 ---

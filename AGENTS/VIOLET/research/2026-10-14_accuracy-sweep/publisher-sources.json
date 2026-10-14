@@ -1,0 +1,179 @@
+[
+  {
+    "series": "VIX",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.421139+00:00",
+    "completed_at": "2026-10-14T20:12:59.752496+00:00",
+    "full_body_sha256": "75d688f9e8233d34bdd21b1fad55ba5bbd3b7afe54236b46e24d1d05bfc60bf6",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OPEN": "15.610000",
+      "HIGH": "15.610000",
+      "LOW": "15.170000",
+      "CLOSE": "15.270000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "VIX9D",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.421702+00:00",
+    "completed_at": "2026-10-14T20:12:59.738387+00:00",
+    "full_body_sha256": "123ac3d2959f3338d56d4e83319338dd9328431b1658da259d459bd30bfded0a",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OPEN": "11.850000",
+      "HIGH": "12.350000",
+      "LOW": "11.700000",
+      "CLOSE": "11.990000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "VIX3M",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.422208+00:00",
+    "completed_at": "2026-10-14T20:12:59.729792+00:00",
+    "full_body_sha256": "7d631c601dbbdf4fd70428605d847d9f72d5d1e1d2900041eed8b7685d1b86bb",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OPEN": "17.970000",
+      "HIGH": "18.110000",
+      "LOW": "17.880000",
+      "CLOSE": "17.960000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "VIX6M",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.422721+00:00",
+    "completed_at": "2026-10-14T20:12:59.771468+00:00",
+    "full_body_sha256": "aa555166580e16d81e183a50e31ba2146a839505fc5e68abf0e8d7549cd24835",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OPEN": "19.930000",
+      "HIGH": "20.050000",
+      "LOW": "19.860000",
+      "CLOSE": "19.920000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "VVIX",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.423479+00:00",
+    "completed_at": "2026-10-14T20:12:59.818419+00:00",
+    "full_body_sha256": "ece768c25c1776b47dbc8267465017d042d3da3b064a8e3cf69e32186b3bf474",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "VVIX": "85.380000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "SKEW",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.423965+00:00",
+    "completed_at": "2026-10-14T20:12:59.703439+00:00",
+    "full_body_sha256": "724e71968464899b85a0cabacb020d162e5ca3d90e3977e469364f10937df0af",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "SKEW": "154.740000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "COR1M",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.704420+00:00",
+    "completed_at": "2026-10-14T20:12:59.972331+00:00",
+    "full_body_sha256": "0112fb5be72774e2275dac63f8d009bbf5718bd25b83031356f16e151da48a49",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OPEN": "7.520000",
+      "HIGH": "7.800000",
+      "LOW": "7.240000",
+      "CLOSE": "7.570000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "COR3M",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.730259+00:00",
+    "completed_at": "2026-10-14T20:12:59.936053+00:00",
+    "full_body_sha256": "347cf88e58f915e5b895a5fd29643e5069419d16b56618c3b8cb7090f98accf4",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OPEN": "12.040000",
+      "HIGH": "12.070000",
+      "LOW": "11.600000",
+      "CLOSE": "11.710000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "COR30D",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.744168+00:00",
+    "completed_at": "2026-10-14T20:13:00.271053+00:00",
+    "full_body_sha256": "cab6529dd00b1b06dc763d9b8456d2111201342e1ae874b29aab4405053633ec",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OPEN": "9.120000",
+      "HIGH": "9.190000",
+      "LOW": "8.720000",
+      "CLOSE": "8.900000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "DSPX",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.753500+00:00",
+    "completed_at": "2026-10-14T20:12:59.924154+00:00",
+    "full_body_sha256": "f513624e81d468daccc51791d1b46a93ff7a468ec46399e52b3d443b5a0a8a05",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "DSPX": "36.770000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "VIXEQ",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.771934+00:00",
+    "completed_at": "2026-10-14T20:13:00.044152+00:00",
+    "full_body_sha256": "f78d27adfc028a1cf36ed524bd894a564aa7fa5f5485a2abdf50e37c1b60a49e",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "VIXEQ": "39.800000"
+    },
+    "status": "OK"
+  },
+  {
+    "series": "OVX",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/OVX_History.csv",
+    "retrieved_at": "2026-10-14T20:12:59.818718+00:00",
+    "completed_at": "2026-10-14T20:13:00.022170+00:00",
+    "full_body_sha256": "19dbd21f3ac8d524fe9fd416ef70c7cfd3831d8afc5b1ae77a005b9474409fc8",
+    "tail_rows": 65,
+    "last_row": {
+      "DATE": "10/13/2026",
+      "OVX": "48.770000"
+    },
+    "status": "OK"
+  }
+]

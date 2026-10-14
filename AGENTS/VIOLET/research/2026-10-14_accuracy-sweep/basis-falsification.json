@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "7015118702677f8360ac8cd14a8121d3ac9d9850",
+  "scenario": "17:00 ET; official daily history unpublished; SKEW confirmed prior-date",
+  "original_basis": "SETTLE",
+  "repaired_basis": "TICK",
+  "old_fails_contract": true,
+  "new_satisfies_contract": true,
+  "registered_BANDS_unchanged": true
+}

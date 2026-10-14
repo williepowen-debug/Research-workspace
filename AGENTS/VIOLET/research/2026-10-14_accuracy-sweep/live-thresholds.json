@@ -1,0 +1,96 @@
+{
+  "row": {
+    "date": "2026-10-14",
+    "vix": 16.8,
+    "vix9d": 14.48,
+    "vix3m": 18.75,
+    "vix6m": 20.46,
+    "vvix": 94.28,
+    "skew": "",
+    "vix3m_vix_ratio": 1.1161,
+    "vix9d_vix_ratio": 0.8619,
+    "m1m2_strict_pct": 2.396,
+    "m1m2_adj_pct": 2.396,
+    "m1_symbol": "VX/V6",
+    "m2_symbol": "VX/X6",
+    "regime": "LOW_VOL",
+    "source_ts": "2026-10-14T20:16:23+00:00",
+    "basis": "TICK",
+    "m1m2_settle_date": "2026-10-14"
+  },
+  "classifications": {
+    "vix": "\ud83d\udfe1",
+    "vvix": "\ud83d\udfe1",
+    "skew": "\u26aa",
+    "vix3m_vix_ratio": "\ud83d\udfe1",
+    "vix9d_vix_ratio": "\ud83d\udfe2",
+    "m1m2_adj": "\ud83d\udfe2"
+  },
+  "appended_to_daily_log": true,
+  "daily_log_status": "updated",
+  "m1m2_raw": {
+    "as_of": "2026-10-14",
+    "strict": {
+      "front": {
+        "symbol": "VX/V6",
+        "expiration": "2026-10-21",
+        "price": 17.6542
+      },
+      "back": {
+        "symbol": "VX/X6",
+        "expiration": "2026-11-18",
+        "price": 18.0772
+      },
+      "steepness_pct": 2.396,
+      "m1_days_to_expiry": 7,
+      "classification": "BELOW_AVG"
+    },
+    "adjusted": {
+      "front": {
+        "symbol": "VX/V6",
+        "expiration": "2026-10-21",
+        "price": 17.6542
+      },
+      "back": {
+        "symbol": "VX/X6",
+        "expiration": "2026-11-18",
+        "price": 18.0772
+      },
+      "steepness_pct": 2.396,
+      "classification": "BELOW_AVG",
+      "reason": "no roll adjustment needed"
+    },
+    "thresholds": {
+      "historical_avg": 5.6,
+      "historical_avg_vintage": "2026-09-24",
+      "historical_avg_recheck_by": "2026-12-16",
+      "historical_avg_status": "OK",
+      "complacency_top30": 8.99
+    }
+  },
+  "stale_suppressed": {
+    "skew": 154.74
+  },
+  "stale_dates": {
+    "skew": "2026-10-13"
+  },
+  "spot_sources": {
+    "vix": "CBOE",
+    "vix9d": "CBOE",
+    "vix3m": "CBOE",
+    "vix6m": "CBOE",
+    "vvix": "CBOE",
+    "skew": "CBOE"
+  },
+  "spot_last_trade_times": {
+    "vix": "2026-10-14T16:00:31",
+    "vix9d": "2026-10-14T16:00:31",
+    "vix3m": "2026-10-14T16:00:31",
+    "vix6m": "2026-10-14T16:00:31",
+    "vvix": "2026-10-14T16:00:31",
+    "skew": "2026-10-13T17:00:20"
+  },
+  "official_spot_columns": [],
+  "unverified": [],
+  "ratio_suppressed": false
+}

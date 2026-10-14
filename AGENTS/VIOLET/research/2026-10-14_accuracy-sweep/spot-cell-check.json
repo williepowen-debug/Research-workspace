@@ -1,0 +1,674 @@
+[
+  {
+    "date": "2026-09-22",
+    "series": "VIX",
+    "ledger": "14.21",
+    "publisher": 14.21,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX",
+    "ledger": "15.18",
+    "publisher": 15.18,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX",
+    "ledger": "15.67",
+    "publisher": 15.67,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX",
+    "ledger": "14.87",
+    "publisher": 14.87,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX",
+    "ledger": "16.07",
+    "publisher": 16.07,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX",
+    "ledger": "16.04",
+    "publisher": 16.04,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX",
+    "ledger": "16.34",
+    "publisher": 16.34,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX",
+    "ledger": "16.39",
+    "publisher": 16.39,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX",
+    "ledger": "15.31",
+    "publisher": 15.31,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX",
+    "ledger": "15.52",
+    "publisher": 15.52,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX",
+    "ledger": "15.01",
+    "publisher": 15.01,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX",
+    "ledger": "15.08",
+    "publisher": 15.08,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX",
+    "ledger": "15.41",
+    "publisher": 15.41,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX",
+    "ledger": "14.84",
+    "publisher": 14.84,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX",
+    "ledger": "15.21",
+    "publisher": 15.21,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX",
+    "ledger": "15.27",
+    "publisher": 15.27,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VIX9D",
+    "ledger": "12.13",
+    "publisher": 12.13,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX9D",
+    "ledger": "13.45",
+    "publisher": 13.45,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX9D",
+    "ledger": "14.11",
+    "publisher": 14.11,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX9D",
+    "ledger": "12.76",
+    "publisher": 12.76,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX9D",
+    "ledger": "14.39",
+    "publisher": 14.39,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX9D",
+    "ledger": "14.21",
+    "publisher": 14.21,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX9D",
+    "ledger": "14.2",
+    "publisher": 14.2,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX9D",
+    "ledger": "14.0",
+    "publisher": 14.0,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX9D",
+    "ledger": "12.06",
+    "publisher": 12.06,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX9D",
+    "ledger": "12.85",
+    "publisher": 12.85,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX9D",
+    "ledger": "12.03",
+    "publisher": 12.03,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX9D",
+    "ledger": "11.78",
+    "publisher": 11.78,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX9D",
+    "ledger": "12.21",
+    "publisher": 12.21,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX9D",
+    "ledger": "11.26",
+    "publisher": 11.26,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX9D",
+    "ledger": "11.68",
+    "publisher": 11.68,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX9D",
+    "ledger": "11.99",
+    "publisher": 11.99,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VIX3M",
+    "ledger": "17.61",
+    "publisher": 17.61,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX3M",
+    "ledger": "18.11",
+    "publisher": 18.11,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX3M",
+    "ledger": "18.43",
+    "publisher": 18.43,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX3M",
+    "ledger": "17.93",
+    "publisher": 17.93,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX3M",
+    "ledger": "18.23",
+    "publisher": 18.23,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX3M",
+    "ledger": "18.09",
+    "publisher": 18.09,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX3M",
+    "ledger": "18.37",
+    "publisher": 18.37,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX3M",
+    "ledger": "18.58",
+    "publisher": 18.58,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX3M",
+    "ledger": "18.01",
+    "publisher": 18.01,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX3M",
+    "ledger": "18.0",
+    "publisher": 18.0,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX3M",
+    "ledger": "17.64",
+    "publisher": 17.64,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX3M",
+    "ledger": "17.72",
+    "publisher": 17.72,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX3M",
+    "ledger": "18.08",
+    "publisher": 18.08,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX3M",
+    "ledger": "17.77",
+    "publisher": 17.77,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX3M",
+    "ledger": "17.93",
+    "publisher": 17.93,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX3M",
+    "ledger": "17.96",
+    "publisher": 17.96,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VIX6M",
+    "ledger": "19.79",
+    "publisher": 19.79,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX6M",
+    "ledger": "20.11",
+    "publisher": 20.11,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX6M",
+    "ledger": "20.35",
+    "publisher": 20.35,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX6M",
+    "ledger": "20.01",
+    "publisher": 20.01,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX6M",
+    "ledger": "20.25",
+    "publisher": 20.25,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX6M",
+    "ledger": "20.2",
+    "publisher": 20.2,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX6M",
+    "ledger": "20.35",
+    "publisher": 20.35,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX6M",
+    "ledger": "20.52",
+    "publisher": 20.52,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX6M",
+    "ledger": "20.15",
+    "publisher": 20.15,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX6M",
+    "ledger": "20.07",
+    "publisher": 20.07,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX6M",
+    "ledger": "19.84",
+    "publisher": 19.84,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX6M",
+    "ledger": "19.86",
+    "publisher": 19.86,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX6M",
+    "ledger": "20.04",
+    "publisher": 20.04,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX6M",
+    "ledger": "19.86",
+    "publisher": 19.86,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX6M",
+    "ledger": "19.95",
+    "publisher": 19.95,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX6M",
+    "ledger": "19.92",
+    "publisher": 19.92,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VVIX",
+    "ledger": "83.17",
+    "publisher": 83.17,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VVIX",
+    "ledger": "88.6",
+    "publisher": 88.6,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VVIX",
+    "ledger": "90.57",
+    "publisher": 90.57,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VVIX",
+    "ledger": "87.84",
+    "publisher": 87.84,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VVIX",
+    "ledger": "91.02",
+    "publisher": 91.02,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VVIX",
+    "ledger": "89.71",
+    "publisher": 89.71,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VVIX",
+    "ledger": "89.48",
+    "publisher": 89.48,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VVIX",
+    "ledger": "92.01",
+    "publisher": 92.01,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VVIX",
+    "ledger": "87.02",
+    "publisher": 87.02,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VVIX",
+    "ledger": "85.46",
+    "publisher": 85.46,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VVIX",
+    "ledger": "82.59",
+    "publisher": 82.59,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VVIX",
+    "ledger": "83.18",
+    "publisher": 83.18,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VVIX",
+    "ledger": "87.66",
+    "publisher": 87.66,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VVIX",
+    "ledger": "84.88",
+    "publisher": 84.88,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VVIX",
+    "ledger": "85.93",
+    "publisher": 85.93,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VVIX",
+    "ledger": "85.38",
+    "publisher": 85.38,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-22",
+    "series": "SKEW",
+    "ledger": "144.8",
+    "publisher": 144.8,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-23",
+    "series": "SKEW",
+    "ledger": "146.15",
+    "publisher": 146.15,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-24",
+    "series": "SKEW",
+    "ledger": "146.04",
+    "publisher": 146.04,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-25",
+    "series": "SKEW",
+    "ledger": "144.91",
+    "publisher": 144.91,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-28",
+    "series": "SKEW",
+    "ledger": "146.25",
+    "publisher": 146.25,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-29",
+    "series": "SKEW",
+    "ledger": "144.58",
+    "publisher": 144.58,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-09-30",
+    "series": "SKEW",
+    "ledger": "141.92",
+    "publisher": 141.92,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-01",
+    "series": "SKEW",
+    "ledger": "142.77",
+    "publisher": 142.77,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-02",
+    "series": "SKEW",
+    "ledger": "144.88",
+    "publisher": 144.88,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-05",
+    "series": "SKEW",
+    "ledger": "143.04",
+    "publisher": 143.04,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-06",
+    "series": "SKEW",
+    "ledger": "141.21",
+    "publisher": 141.21,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-07",
+    "series": "SKEW",
+    "ledger": "141.84",
+    "publisher": 141.84,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-08",
+    "series": "SKEW",
+    "ledger": "149.19",
+    "publisher": 149.19,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-09",
+    "series": "SKEW",
+    "ledger": "154.34",
+    "publisher": 154.34,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-12",
+    "series": "SKEW",
+    "ledger": "155.06",
+    "publisher": 155.06,
+    "within_0.005": true
+  },
+  {
+    "date": "2026-10-13",
+    "series": "SKEW",
+    "ledger": "154.74",
+    "publisher": 154.74,
+    "within_0.005": true
+  }
+]

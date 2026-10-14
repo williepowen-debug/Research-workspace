@@ -59,7 +59,7 @@ def thesis_version() -> tuple[str, date] | None:
     if not THESIS.exists():
         return None
     head = THESIS.read_text().split("\n", 1)[0]
-    v = re.search(r"v(\d+\.\d+)", head)
+    v = re.search(r"v(\d+\.\d+(?:\.\d+)?)", head)
     d = re.search(r"(20\d\d-\d\d-\d\d)", head)
     if not (v and d):
         return None
@@ -100,6 +100,7 @@ def main() -> int:
     icon = "🔴" if over else "✓"
     print(f"  {icon} thesis {ver} ({vdate}) — {len(since)} KB row(s) since: "
           f"{len(retract)} retraction(s), {len(resolved)} resolved, {len(active)} active")
+    print("     Date counter only: same-day/older KB review and semantic accuracy are not certified.")
     if retract and not a.boot:
         print(f"     retractions: {', '.join(retract)}")
     if over:

@@ -35,6 +35,7 @@ Run: .venv/bin/python3 AGENTS/VIOLET/scripts/tests/test_surface_agreement_bound.
 from __future__ import annotations
 
 import shutil
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -69,6 +70,11 @@ def main() -> int:
     sa.AGENT_DIR, sa.REPO, sa.MEMO_DIRS = tmp, tmp, ("memos",)
     for name in ("STATUS.md", "NEXUS_BRIEF.md", "SCRATCH.md"):
         (tmp / name).write_text(AGREE, encoding="utf-8")
+    # A real isolated Git baseline supplies the current write-back phase witness.
+    subprocess.run(["git", "init", "-q", str(tmp)], check=True)
+    subprocess.run(["git", "add", "STATUS.md", "NEXUS_BRIEF.md", "SCRATCH.md"], cwd=tmp, check=True)
+    subprocess.run(["git", "-c", "user.name=Fixture", "-c", "user.email=fixture@example.invalid",
+                    "commit", "-qm", "fixture STATUS baseline"], cwd=tmp, check=True)
 
     def memo(name: str, body: str) -> None:
         (tmp / "memos" / name).write_text(body, encoding="utf-8")

@@ -1,0 +1,23 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 210 files under AGENTS/VIOLET/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 4.482 → current 2.396
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (5)
+        AGENTS/VIOLET/research/2026-10-14_accuracy-sweep/REPORT.md:31  [4.482]  (needle <5 sig digits)
+           - **Futures now have anOctober14settlement:** matched VX/V6October21price17.6542 versus VX/X6November18price18.0772, +2.396030%. October13sa
+        AGENTS/VIOLET/research/2026-10-14_accuracy-sweep/consumer-futures.txt:10  [4.482]  (needle <5 sig digits)
+           2026-09-24	4.482	4.996	5.385	6.514	4.382	3.957	6.236	4.478	+0.159	16	0	YELLOW
+        AGENTS/VIOLET/research/2026-10-14_accuracy-sweep/consumer-futures.txt:11  [4.482]  (needle <5 sig digits)
+           AGENTS/BRENT/audits/2026-10-14_operational-followups/public-fedex-surcharge.txt:6959  [4.482]  (needle <5 sig digits)
+        AGENTS/VIOLET/research/2026-10-14_data-refresh/REPORT.md:16  [4.482]  (needle <5 sig digits)
+           |VX monthly futures|October 13settlement, same October 21/November 18pair; +4.482%|No newer dated settlement obtained; no same-day CPI futur
+        AGENTS/VIOLET/research/2026-10-14_post-CPI/REPORT.md:24  [4.482]  (needle <5 sig digits)
+           **Futures are a separate dated surface:** October 13 settlement VX/V6 October 21=16.8414, VX/X6 November 18=17.5962, M1:M2+4.482%. October 9
+     🟢 cleared: marker-adjacent / next to new value / frozen file (3)  [--show-handled to audit]
+
+  🟠 5 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

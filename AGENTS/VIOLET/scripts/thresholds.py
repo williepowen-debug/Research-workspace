@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """VIOLET Thresholds — live vol dashboard + daily log append.
 
-Fetches spot VIX / VIX3M / VIX6M / VVIX / SKEW via yfinance, pulls M1/M2 futures
+Fetches the spot complex from Cboe (yfinance fallback), pulls M1/M2 futures
 steepness from the shared vix_futures CLI, classifies against VIOLET thresholds,
 and appends one row to AGENTS/VIOLET/workbook/VX_DAILY.tsv.
 
@@ -15,9 +15,13 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import csv
+import io
 import json
+import math
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -163,13 +167,14 @@ def cboe_quote(sym: str, timeout: float = 12.0) -> dict | None:
         value = float(d.get("close"))
     except (TypeError, ValueError):
         return None
-    if not value > 0:          # CBOE serves 0.0 for an index that has not printed
+    if not math.isfinite(value) or not value > 0:  # CBOE serves 0.0 for an index that has not printed
         return None
     try:
         prev = float(d.get("prev_day_close"))
     except (TypeError, ValueError):
         prev = None
-    return {"value": round(value, 4), "et_date": et_day, "prev_close": prev}
+    return {"value": round(value, 4), "et_date": et_day, "prev_close": prev,
+            "last_trade_time": str(ts)}
 
 
 def fetch_spot(verify_dates: bool = True) -> dict:
@@ -217,6 +222,7 @@ def fetch_spot(verify_dates: bool = True) -> dict:
         if q is not None:
             val, bar_date, src = q["value"], q["et_date"], "CBOE"
             out[f"{key}_prev_close"] = q["prev_close"]
+            out[f"{key}_last_trade_time"] = q.get("last_trade_time")
         else:
             try:
                 tk = yf.Ticker(sym)
@@ -456,10 +462,64 @@ def check_fillforward_contamination(scan_rows: int = 30) -> list[str]:
     return warnings
 
 
+def fetch_official_spot(day: date) -> dict:
+    """Read exact-date publisher daily closes; never infer publication by hour.
+
+    Partial publication or a failed/unusable series cannot certify the complete
+    row. The caller keeps its delayed quotes as TICK until all six closes exist.
+    Futures have their own independently dated settlement fields.
+    """
+    import urllib.request
+    from backfill import CBOE_HISTORY_URL
+
+    def one(item):
+        key, ticker = item
+        sym = ticker.lstrip("^")
+        try:
+            req = urllib.request.Request(CBOE_HISTORY_URL.format(sym=sym),
+                                         headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=12) as fh:
+                reader = csv.DictReader(io.StringIO(fh.read().decode("utf-8-sig")))
+                fields = reader.fieldnames or []
+                if not ({"DATE", "Date"} & set(fields)) or not ({"CLOSE", sym} & set(fields)):
+                    return key, None
+                for r in reader:
+                    raw_day = r.get("DATE") or r.get("Date")
+                    if not raw_day:
+                        continue
+                    fmt = "%m/%d/%Y" if "/" in raw_day else "%Y-%m-%d"
+                    if datetime.strptime(raw_day, fmt).date() != day:
+                        continue
+                    value = float(r.get("CLOSE") or r.get(sym))
+                    return key, round(value, 4) if math.isfinite(value) and value > 0 else None
+        except (OSError, ValueError, TypeError, UnicodeError, csv.Error):
+            pass
+        return key, None
+
+    with ThreadPoolExecutor(max_workers=len(TICKERS)) as pool:
+        return {k: v for k, v in pool.map(one, TICKERS.items()) if v is not None}
+
+
 def build_report(supersede: bool = False) -> dict:
     now = datetime.now(timezone.utc)
+    et_now = now.astimezone(ET)
     spot = fetch_spot()
     m1m2 = fetch_m1m2()
+
+    # SETTLE describes source evidence, not wall-clock time. After the regular
+    # close, replace delayed values with the actual dated daily record only
+    # when every spot series has published. Yahoo never certifies this basis.
+    official = fetch_official_spot(et_now.date()) if (et_now.hour, et_now.minute) >= (16, 15) else {}
+    basis = "TICK"
+    if set(official) == set(TICKERS):
+        basis = "SETTLE"
+        for key, value in official.items():
+            for suffix in ("stale", "stale_date", "suppressed_value", "unverified", "error"):
+                spot.pop(f"{key}_{suffix}", None)
+            spot[key] = value
+            spot[f"{key}_src"] = "CBOE_HISTORY"
+            spot[f"{key}_bar_date"] = et_now.date().isoformat()
+            spot.pop(f"{key}_last_trade_time", None)
 
     # The ratio is only meaningful if BOTH legs are same-session. When ^VIX3M is
     # suppressed as stale (pre-open), this correctly yields None rather than a
@@ -494,12 +554,6 @@ def build_report(supersede: bool = False) -> dict:
         # same-day value (CHG-RED-037b; the 6/10 "+7.98% re-armed" misread was
         # this class). Post-16:15 ET this now resolves to the SAME day.
         m1m2_settle_date = m1m2.get("as_of", "")
-
-    et_now = now.astimezone(ET)
-    # Spot quotes before the 16:15 ET official settle are intraday ticks,
-    # not the daily record — label the row so adjudications can't quote a
-    # tick as a settle (futures-settle rule, auto-memory 337f0cfc).
-    basis = "SETTLE" if (et_now.hour, et_now.minute) >= (16, 15) else "TICK"
 
     row = {
         # ET date, not UTC — an evening run after 8pm ET would otherwise
@@ -543,6 +597,8 @@ def build_report(supersede: bool = False) -> dict:
         "stale_suppressed": stale,
         "stale_dates": {k: spot[f"{k}_stale_date"] for k in TICKERS if spot.get(f"{k}_stale")},
         "spot_sources": {k: spot.get(f"{k}_src") for k in TICKERS if spot.get(f"{k}_src")},
+        "spot_last_trade_times": {k: spot[f"{k}_last_trade_time"] for k in TICKERS if spot.get(f"{k}_last_trade_time")},
+        "official_spot_columns": sorted(official),
         "unverified": unverified,
         "ratio_suppressed": bool(stale.get("vix3m") or stale.get("vix")),
     }
@@ -554,7 +610,7 @@ def print_report(rep: dict):
     print(f"VIOLET THRESHOLDS  {row['date']}  UTC {row['source_ts'][-8:]}")
     print(f"  Regime: {row['regime']}")
     if row.get("basis") == "TICK":
-        print(f"  ⚠️  BASIS: TICK (pre-16:15 ET) — spot values are intraday, NOT the daily settle")
+        print("  ⚠️  BASIS: TICK — complete dated Cboe daily closes not confirmed; delayed/fallback quotes are not the daily record")
     # Fail LOUD, not silent-blank: a nulled column must announce itself, or the
     # guard just trades a wrong value for an unreviewed hole
     # (auto-memory finding_silent_blank_evades_review).

@@ -2,9 +2,9 @@
 
 **Status:** Front-end volatility repriced after CPI; systemic transmission unconfirmed.
 **Domain:** Volatility term structure, tail pricing and credit-to-volatility timing.
-**Thesis version:** v4.1.2; evidence refinement, no numerical or permission change.
-**As of:** 2026-10-14 15:43 ET | **STATUS commit:** `a94d4b349`.
-Official Cboe history through October 13; delayed VIX-complex pull October 14 15:27:54 ET. Same owner continued on Will's broader data-refresh request. Canonical numerical dashboard: [STATUS](STATUS.md); latest source/coverage audit: [REPORT](research/2026-10-14_data-refresh/REPORT.md). Earlier causal assessment remains dated history.
+**Thesis version:** v4.1.3; evidence refinement, no numerical or permission change.
+**As of:** 2026-10-14 16:43 ET | **STATUS commit:** `cd20b0b43`.
+Official Cboe history through October 13; delayed VIX-complex data-timeOctober14 16:00:31ET,pull16:16:23ET; matched VXfutures settlementOctober14+2.396%. Same owner completed Will's accuracy sweep and stopping request. Canonical numerical dashboard: [STATUS](STATUS.md); latest accuracy audit: [REPORT](research/2026-10-14_accuracy-sweep/REPORT.md). Earlier causal assessment remains dated history.
 
 ## CROSS-DOMAIN
 
@@ -22,11 +22,14 @@ Official Cboe history through October 13; delayed VIX-complex pull October 14 15
 
 ## CALIBRATION
 
+- **Prediction7correction (KB334):** timing/counterfactual reproduce, actualSKEWspot moved+3.704%outside original±2%eligibility. KB220clean full-letter HITwithheld; HENRYoriginal explicitly supplied a counterfactual, not a forecast. Original letter/report retained; no invented FAILEDor retrospective rule change.
+- **Accuracy controls:**96/96bounded spot cells match Cboe; clock alone no longer certifiesSETTLE. All six exact-date daily closes must replace quotes; current after-close row remainsTICK. Same-day delivery guard anchors all phase addenda to committed STATUSand follows original creation through recipient moves;17new offline cases pass. Inherited credit rates and historical option/futures-convention gaps remain explicit.
+
 - Sequence is weaker evidence than causation: earlier credit widening plus post-CPI volatility does not establish a credit-origin shock.
 - Official SKEW is a dated publisher series. A current API envelope cannot turn yesterday's observation into today's fourth qualifying bar.
 - Gross OI and model positions do not reveal initiated net hedge flow; elevated SKEW is relative tail pricing, not an executable delta-specific premium or physical crash probability.
 - Approved L667 tools now warn on empty forward calendars, require explicit dated CBOE/calendar historical regrades and preserve operator disposition. Stale source-date readings cannot write past rows or issue construction menus. Seven new offline regression tests pass; all numerical lines unchanged.
-- Historical daily holes are now filled in the boundedSeptember22→October 13 audit; source dates and reconstruction labels retained. FXY historical optionIV/OI and older futures convention remain unresolved. Broad KB-review debt and RQ8 PARKED remain; continuity is not forecast validation.
+- Historical daily holes are now filled in the boundedSeptember22→October 13 audit; source dates and reconstruction labels retained. FXY historical optionIV/OI and older futures convention remain unresolved. 49expired ACTIVE KBrows reviewed,22STALEclosing dispositions,27retained dated findings/dependencies; older studies still not fully replicated. RQ8PARKEDremains; continuity is not forecast validation.
 - MOVE primary table still ends October 13; newer YahooOctober14bar99.1438 is UNCORROBORATED, not promoted to primary/grade basis. Different quote dates do not establish a primary close.
 - Oil historical tracked quantiles use only observations ending each reconstructed date;48quantilecells reproduced with0mismatches. No future calibration data or new numerical line.
 
@@ -40,4 +43,4 @@ October 14 evening **when dated official SKEW/volatility bars exist** → RED gr
 
 ## VIEW
 
-LOW_VOL price bucket; front-end repricing, incomplete broad confirmation. **Convergence 30/50**, with front/VVIX rises and oil-canary easing tied to named evidence in STATUS. No new VIOLET position, proposal, threshold or order; $0 moved. Both existing repo HTML live bands refreshed; hosted publication unverified because original Artifact publisher not exposed/verified. No replacement hosted URL. Exact persistence and recipient-consumption states: research/2026-10-14_data-refresh/CLOSEOUT.md. No additional agent or trade.
+LOW_VOL price bucket; front-end repricing, incomplete broad confirmation. **Convergence 30/50**, with front/VVIX rises and oil-canary easing tied to named evidence in STATUS. No new VIOLET position, proposal, threshold or order; $0 moved. Both existing repo HTML live bands refreshed; hosted publication unverified because original Artifact publisher not exposed/verified. No replacement hosted URL. Exact persistence and recipient-consumption states: research/2026-10-14_accuracy-sweep/CLOSEOUT.md. No additional agent or trade.

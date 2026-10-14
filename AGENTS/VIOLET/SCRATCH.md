@@ -1,31 +1,34 @@
 # VIOLET — session handoff
 
-**As of:** 2026-10-14 15:37 ET; same owner01a13bc1-8595-7e43-8101-874cf704d973, Codex/OpenAI gpt-6.1-sol/high. Numerical truth: [STATUS](STATUS.md). Latest audit: [REPORT](research/2026-10-14_data-refresh/REPORT.md). Convergence 30/50 and thesis v4.1.2 unchanged.
+**As of:** 2026-10-14 16:34 ET; same owner01a13bc1-8595-7e43-8101-874cf704d973, Codex/OpenAI gpt-6.1-sol/high. Numerical truth: [STATUS](STATUS.md). Latest [accuracy sweep](research/2026-10-14_accuracy-sweep/REPORT.md). Convergence30/50unchanged; thesisv4.1.3.
 
 ## CHANGES SINCE
 
-Will requested a broader data refresh after the post-CPI delivery. Official SKEW and primary MOVE still end October 13; no premature grade. Current delayed complex refreshed through15:27 ET; VX_DAILY TICK explicitly superseded via existing switch. Restored29missing historical observations: OVX12,JPY RV13,COR3,CFTC1. Four daily ledgers have0missing available sessions in boundedSeptember22→October 13 audit. Historical FXY option leg stays unavailable.
+Will asked whether VIOLET files were current and accurate. Navigation falsely described September data/current tests; MEMORY contained unsupported VIX/SKEW/flow shorthand;49expired ACTIVE KBrows needed dated lifecycle review. Corrected22toSTALE, retained27dated findings/open dependencies without blanket confirmation. All96bounded spot cells match Cboe. Six navigation-index predictions are resolved, distinct from legacy thesis predictions.
 
 ## WHAT I DID
 
-Same-owner preflight19:22:58UTC, full16-stage boot, corrections/staleness/intake checks. Direct Cboe history/quote captures, successful primary MOVE reader plus uncorroborated newer Yahoo cross-check, CFTC annual VIX archive, historical FX close reconstruction. Added KB330..332 and durable source-recovery pointer. Refreshed STATUS and local visual live bands; removed expired pre-CPI pending wording. Hosted publication remains unverified. NEXUS folds last; dated PROME delivery and exact Git/guard receipt accompany this audit. No new WALTER packet at intake.
+Same-owner preflight20:09:17UTC; explicit root/desk/runtime reads recovered. Dated99-entrysource inventory and49-rowreview. Repaired thresholds.py clock-based SETTLE label: all six exact-date official closes now replace quotes before ratios; otherwise TICK. Added9daily-basis and8memo-session offline regressions via existing discovery, retained source quote times in JSON, corrected patch-version advisory assurance. September prediction7 original letter/HENRY source and publisher data recovered: timing/counterfactual reproduce, actual-flat-spot eligibility did not occur. KB220clean full-letter HIT withheld; KB333..336 and thesisv4.1.3 preserve lineage. No registered number changed.
+
+October14futures settlement now exists; current cash quote last_trade_time16:00:31ET, pulled16:16:23ET, still TICK because dated histories endOctober13. MOVE primary recheck16:19still endsOctober13. SKEW3of4remains RED-owned, not fired. Current local visual-source bands refreshed; hosted originals unverified. NEXUS folded last; dated PROME/RED packets and Git/guard receipts accompany sweep.
 
 ## NEXT SESSION
 
-1. **October 14 evening, actual dated final observations:** SKEW plus final complex/correlation/futures; primary MOVE frontier. Re-run integrity at use; RED grades FT-10. Current3-of 4cannot be completed from quote envelope time.
-2. **October 15 publication:** matched post-CPI credit/funding versus final volatility; persistence and PPI context.
-3. **October 16:** existing LIQUID final funding/CFTC/WQ410decision. Preserve first-tell until explicit Will ruling.
-4. ExistingOctober21/28/November 17resolvers. No new gate, trade, agent or standing data monitor.
+1. October14evening, actual dated official cash/SKEW/correlation bars: source integrity and REDgrade; never infer publication by clock. Futures already have a datedOctober14settlement.
+2. October15publications: matched post-CPI credit/funding bridge and PPIcontext.
+3. October16existing LIQUID finalLIQ07/CFTC/WQ410decision; keep COR1Mregistered until explicit ruling.
+4. ExistingOctober21/28/November17resolvers. No new research test, threshold, trade or research-agent launch; offline tests verify existing-tool repairs.
 
 ## CARRY-FORWARD
 
-- Pre-CPI window closed; actualPASS under WQ418. Historical alert state is separate from operator decision.
-- Credit-volWATCH remains; sequence after CPI does not prove credit origin. Inherited lag/hit rates unvalidated; aggregate funding calm does not clear hidden individual restrictions.
-- Source timestamps govern: dailySKEW/MOVE13Oct, futures13Oct,CFTC6Oct; current-day quotes are intraday. MOVE99.1438Yahoo14Oct is UNCORROBORATED, not primary/gradeeligible.
-- Prior oil/yenRV/CFTC/correlation gaps now repaired. Remaining historical optionIV/OI and futures-convention blanks stay explicit; broadKBreview debt not certified cleared.
-- Repo visual sources refreshed; existing hosted copies may remainOctober9. No replacement URLs or external sends.
-- Foreign dirty work untouched; native notification/consumption unverified. Owner terminal remains resumable.
+- Original credit-volWATCH/October13→November17window unchanged; inherited rates unreplicated; sequence is not causation and aggregate funding calm does not clear individual restrictions.
+- Pre-CPI opportunity closed, actualPASS WQ418; no reopen.
+- September prediction7 is no longer an untested forward event or clean full-letter HIT. Arithmetic/crossing date survived; actual-flat-spot eligibility failed. Frozen source/report preserved; do not invent a FAILED outcome from ambiguous requires wording.
+- Historical option IV/OI and old futures blank/convention cells remain unavailable/unresolved. Source-history recovery completed previously does not clear these.
+- **KB284CLOSED (KB336):** delivery set is anchored to the current committed STATUSphase; all phase addenda checked, recipient moves followed, copy-birth distinguished, missing Git witnesses fail closed.8isolated Git tests pass; no guard weakening/new monitor.
+- Repo sources current within their explicit observation dates; hosted Artifact copies may still lag. Original publisher unavailable; no replacementURL.
+- Foreign WALTER/PROMEwork untouched; native cross-window notice/recipient read/close transport UNKNOWN. Owner remains resumable.
 
 ## OPEN HYPOTHESES
 
-Existing credit-lead windowOctober13→November 17; size/origin incomplete. Tail-bid hypothesis now faces front-end repricing; final SKEW bar pending. RQ8remainsPARKED. Historical gap repair changes continuity, not conviction by itself.
+Original credit-lead thesis; size/origin incomplete. Tail-bid hypothesis faces front-end repricing; official final SKEWpending. RQ8remainsPARKED. Older empirical studies were classified, not all independently re-run; do not treat the thesis date counter as semantic certification.

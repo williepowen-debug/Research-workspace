@@ -6,7 +6,7 @@ UpdatedOctober14,2026; canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv).
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Oct 14 (Wed)|RED-FT-10 earliest-fire bar|LOW|3 qualifying official bars through October 13;October 14absent at14:53ETfrontier. Grade when dated official bar exists; RED owns grade.|
+|Oct 14 (Wed)|RED-FT-10 earliest-fire bar|LOW|3 qualifying official bars through October 13;October14absent at16:27ETpublisher recheck. Grade when dated official bar exists; RED owns grade.|
 |Oct 15 (Thu)|September PPI (08:30 ET)|LOW|Macro context; CARL/HENRY substance.|
 |Oct 21 (Wed)|VIX October expiration AM SOQ|MEDIUM|Record contract pair; roll-adjusted helper switches inside DTE<5.|
 |Oct 28 (Wed)|FOMC decisionOct27–28, noSEP|HIGH|Existing event; HENRY policy-path owner.|

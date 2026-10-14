@@ -6,6 +6,14 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## October14,2026 — v4.1.3: prediction7 grade scope corrected
+
+**Old view → new view:** active thesis still called the September1 test untested while KB-VIO-220 recorded a clean HIT. Original August27 thesis required actual SKEW spot within ±2% of the August23 reference; August23 was Sunday, and the last available August21 close was143.90. Actual September1 close149.23 rose3.704%, outside eligibility. Official20-day mean141.1315 and the pinned143.31 counterfactual140.1175 reproduce timing and roll-off arithmetic. HENRY explicitly supplied a counterfactual, not a forecast. Withdraw the clean full-letter predictive HIT; retain the arithmetic finding and close the expired live obligation. The requires-versus-actual clause does not justify inventing a FAILED result.
+
+**Validation:** pinned original44c22ed5d extract, original HENRY packet, captured Cboe history and reproducible arithmetic in research/2026-10-14_accuracy-sweep/prediction7-reconciliation.json. KB220closing correction and KB334 preserve lineage; dated original study/packet untouched. No numerical condition, current score, lag window, REDgrade, trade or approval changes. Footer now points to the header rather than retaining a conflicting version copy. Memory's VIX/SKEW/lead descriptions and unsupported flow certainty are corrected; inherited statistics remain explicitly unreplicated.
+
+---
+
 ## October14,2026 — v4.1.2: post-CPI price response, causal attribution withheld
 
 **Old view → new view:** October10 dashboard carried a calm index with earlier credit widening and a live pre-CPI decision. October14 delayed evidence shows front-end repricing; the curve remains upward, credit size/origin incomplete, funding accompaniment absent on dated owner gauges. The credit-vol WATCH remains, with a minor evidence refinement distinguishing sequence from credit causation and spread breadth from default breadth. Price bucket COMPLACENCY→LOW_VOL is observed; no systemic phase transition is declared. WQ418 PASSED is the actual prior decision, and the pre-CPI window is closed.

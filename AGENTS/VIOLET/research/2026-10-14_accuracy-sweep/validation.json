@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-10-14T20:43:44.065824+00:00",
+  "original_KB_Fact_Date_Source_preserved": true,
+  "unchanged_KB_rows_byte_identical": 282,
+  "original_rows": 332,
+  "new_rows": 336,
+  "expired_rows_reviewed": 49,
+  "stale_marked": 22,
+  "spot_cells": 96,
+  "spot_mismatches": 0,
+  "daily_basis_new_tests": 9,
+  "memo_session_new_tests": 8,
+  "registered_BANDS_unchanged": true,
+  "MEMORY_bytes": 23883,
+  "scope": "bounded operational sweep; not full historical scientific replication"
+}

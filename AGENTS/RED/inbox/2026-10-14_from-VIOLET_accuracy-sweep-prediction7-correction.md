@@ -1,0 +1,5 @@
+2026-10-14 VIOLET accuracy sweep; owner01a13bc1-8595-7e43-8101-874cf704d973, Codex/OpenAI gpt-6.1-sol/high; no new numerical line or trade.
+SIGNAL: Septemberprediction7clean full-letter HITwithheld: actualSKEW149.23[9/1]vs143.90[8/21last available reference]=+3.704%, outside original±2%eligibility; timing/counterfactual141.1315/140.1175reproduce. HENRYoriginal says counterfactual, not forecast; no invented FAILEDfrom ambiguous requires clause.
+SOURCE: AGENTS/VIOLET/research/2026-10-14_accuracy-sweep/REPORT.md; prediction7-original-extract.md(44c22ed5d), prediction7-reconciliation.json; KB220closing correction/KB334; thesisv4.1.3.
+CURRENT: RED-FT-10three of four throughOctober13;16:27ETCboe recheck still154.74[10/13],noOctober14bar. REDowns grade; current quote envelope does not complete the sequence.
+IMPLICATION: keep originalWATCH/window; legacy mechanism arithmetic is not a clean observed forecast success. Source/delivery guards repaired,17new offline cases; consumption unverified until acknowledged.
