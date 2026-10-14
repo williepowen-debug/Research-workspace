@@ -2,10 +2,10 @@
 
 **Status:** 🟠 Energy WAIT unchanged; delivered diesel, own-asset earnings capture and pricing edge remain unproved.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**Thesis version:** v5.12 unchanged; dated numerical calibration retained.
-**As of:** 2026-10-14 11:52 EDT | STATUS commit: 1ec4d7a52.
+**Thesis version:** v5.13 minor OMR evidence/interpretation refinement; dated numerical calibration retained.
+**As of:** 2026-10-14 12:13 EDT | STATUS commit: f0fa7ac6e.
 
-**C6(b) SCOPED-PARTIAL:** Will-directed closeout integrated seven new WALTER packets and read the owner's current intake completion: all 72 captured bookmarks assessed/marked; 21 signals/53 handoffs. Seven BRENT receipts/archive moves/hash matches verified. [Closeout](audits/2026-10-14_closeout/CLOSEOUT.md), [validation](audits/2026-10-14_closeout/validation.json). October14 OMR scheduled time has passed; report evidence NOT consumed here, review owed. NOT re-verified: external primaries, current operating/delivery measurements, October13/14 accepted holding sources, current broker/orders/USOweights, full registered lines, GIE/JWC/incidents or historical cross-domain measurements. No new market, holding or acceptance grade. Earlier October13 broker/source checks and [company followup](research/2026-10-13_energy-wait/COMPANY-FOLLOWUP.md) keep their original dates; they are not freshened by this closeout. DEWEY final commission remains complete, supply UNKNOWN. Existing [assessment](research/2026-10-13_energy-wait/REPORT.md) and [prior audit](audits/2026-10-13_continuity-news/REPORT.md) remain dated evidence.
+**C6(b) SCOPED-PARTIAL:** October14 public IEA OMR read at primary; THESIS/STATUS/TRADE and existing call card/spec/WQ420insert checked. OMR September estimates/forecasts distinguish crude recovery, persistent product deficit and global demand contraction; public cutoffs vary/unstated, no complete postIsaias survey. October14 PROME broker transcription read as secondary owner artifact; raw images/currentorders/execution not independently verified. Networkboot6OK/4FINDINGS/0FAIL; coverage/access/registry/24incident debts remain. No new holding/phase/BRT grade, numeric forecast, capital or monitor. Historical values and earlier company/cargo evidence below retain their dates. DEWEYcommission complete, deliverednetincrementUNKNOWN. Prior72bookmarkintake complete; widernewscoveragepartial. [Assessment](research/2026-10-14_boot-omr/REPORT.md), [boot](research/2026-10-14_boot-omr/boot-network.log). NOT re-verified: candidate currentoperations/earnings, rawbrokerimages/currentorders/USOweights, acceptednewsettlements, fullregisteredlines/GIE/JWC/incidents or parkedcloudacceptance. TRACKERsize debt persists; only boundedbanner refreshed.
 
 ## CROSS-DOMAIN
 
@@ -13,6 +13,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / HENRY / CARL / TERRY / WALTER | October14 OMR public primary now consumed: substantial September crude recovery alongside weaker product recovery and on-land stock depletion; global demand contraction coexists with forecast deficit. | 🟠 | Supports persistent delivered-fuel pressure without a blanket crude-loss claim or refiner earnings edge. Russian permission is not operating capacity/delivery. Monthly/model estimates not October14 live flows; report cutoffs vary, no complete postIsaias survey. No BRT31/holding grade or new capital. [Five findings](research/2026-10-14_boot-omr/REPORT.md). |
 | PROME / WALTER | Owner completed all72 captured bookmarks;21new signals/53handoffs. Seven new BRENT packets now consumed/logged/archived; delivered lanes clear. | 🟠 | Supersedes prior unassessed-intake gap; wider market/news coverage remains partial. No duplicate commission, new research or polling. [Closeout](audits/2026-10-14_closeout/CLOSEOUT.md). |
 | TERRY / PROME | October13received energy holdings image independently verified: VLO2total, original1underexistingWQ386/420, additional1scopeUNKNOWN(D-78). NamedUSOOct14sell1Dayorder CANCELED; replacementsUNKNOWN. | 🟠 | TRADE stale mirror repaired; terminalscale remains terminal and originalshareletter unchanged. ExistingUSOexpiry/manualsell-or-roll remains; no newrule/order or livequote inferred. TERRYalreadyrecords scopegap. |
 | PROME / TERRY | Existing energy WAIT unchanged; MPC conditional lead/PSX comparator/VLO existing exposure. Delivered increment, functioning own assets and earnings beyond comparable expectations unproved. Completed L633/L694 pass reused. | 🟠 | No repeated candidate/quote screen, new capital or stand-down lift. Dated TERRY option-cap/friction/book refusal survives independently. Shares remove expiry, not missing edge. [Assessment](research/2026-10-13_energy-wait/REPORT.md). |
@@ -26,7 +27,7 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| IEA / country issuers | OMRanalysis; Board decisions, country diesel quantities, old/new schedules, supplemental nature, actual deliveries | OMRscheduledOctober14,04:00EDT has passed; evidence review owed; BoardOctober15 | Product relief versus remaining old pledges | Changes physical/expectation assessment; does not itself authorize an energy purchase. |
+| IEA / country issuers | Board decisions, country diesel quantities, old/new schedules, supplemental nature, actual deliveries (OMR public analysis read) | OMRpublicreadOctober14; BoardOctober15; subsequentdeliveryevidencewhenpublished | Product relief versus remaining old pledges | Changes physical/expectation assessment; does not itself authorize an energy purchase. |
 | EIA / operators | WPSRweekOctober9 regional inputs/output/inventories/imports/exports; named-site states | October15noonEDTrelease; operator inputs when published | First eligible Isaias/BRT31print, mostly prelandfall and before RussiaOctober10permission | Cannot authenticate later cargoes/fullrestart. Own-site evidence determines who captures margins. |
 | TERRY / PROME | Existing WQ386/420 held-VLO source grade; L684independent acceptance | Existingtouch; L684dueOctober14before switch | November→December basis onOctober15 | TERRYgrades, Willorders; no new touch cadence, threshold or exit cancellation. |
 | FALCON | VI-2026-0028 laden-state/trigger(c), NewAndros/HerculesStar adjudication | Existing overdue obligation sinceSeptember14; not re-asked | Vessel evidence owner | No fresh casualty/barrel loss inferred from announcement. No BG02move. |
@@ -39,9 +40,9 @@
 
 - Relief is more concrete at permission, country-product and timing levels; delivered net addition is still unknown. Enough counterevidence to demand proof before adding refiner exposure, not enough to declare normalization.
 - A working refinery can earn through scarcity; a disrupted unit can lose earnings during a high crack. The reported WoodRiverFCCissue reinforces this distinction, with event/output verification still missing.
-- Latest verified finalOctober12 US matched margins compressed while crude rose. That is product-side market evidence, not a sole-cause attribution, Russian cargo receipt or issuer realized-margin forecast.
+- Latest saved finalOctober12 US matched margins compressed while crude rose (not refreshedOctober14). That is product-side market evidence, not a sole-cause attribution, Russian cargo receipt or issuer realized-margin forecast.
 - Separate Q3endedSeptember30from Q4/outlook. Public strong profits and a retrieved expectation of high earnings make a raw “good quarter” insufficient; measured underpricing remains absent.
-- Phase2unconfirmed; v5.12/calibration/stand-down unchanged. Recorded USO/BNO fit comparison is not a switch; no VLOadd or new capital ticket.
+- Registered US Phase2test unconfirmed; IEA globaldemandcontraction already part of balance assessment. v5.13minorrefinement; calibration/stand-down unchanged. Recorded USO/BNO fit comparison is not a switch; no VLOadd or new capital ticket.
 
 ## CALIBRATION
 
@@ -54,7 +55,7 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** existing IEA OMR October14 scheduled04:00EDT has passed; evidence review owed at next authorized touch; DEWEY bounded work already closed, IEA Board/WPSROctober15. Official OMRschedule independently confirmed, separate from Board. WeekOctober9 balance predates permission and most storm recovery.
+- **What / when:** IEA OMR public body consumedOctober14; countrydelivery/supplementalquestions remain for IEA BoardOctober15 and later flow evidence. DEWEY bounded work already closed; WPSROctober15. WeekOctober9 balance predates permission and most storm recovery.
 - **What changes the view:** linked useful additional diesel can defeat margin persistence; a positive long case still needs functioning assets and realized earnings/value beyond expectations. A new announcement may change pricing before physical delivery, without proving it.
 - **Holding boundary:** existing USOOctober14sell-or-roll remains with Will/TERRY. VLODecemberbasis startsOctober15under WQ386/420; no monitor/holding grade/order created. Earlier established exits survive.
 
@@ -62,7 +63,7 @@
 
 | Date | Existing event | Signal / boundary |
 |---|---|---|
-| October14 | OMRscheduled04:00EDT has passed, evidence review owed; no DEWEY return owed; last NovemberlegAsettle; USOcall expiry | Consume source-qualified outputs; standing sell-or-roll, no invented review time. |
+| October14 | OMRpublicreviewCOMPLETE; no DEWEY return owed; last NovemberlegAsettle; USOcall expiry | Consume source-qualified outputs; standing sell-or-roll, no invented review time. |
 | October15 | Board; WPSRnoonweekOctober9; DecemberlegAbegins | Match commitment/delivery/observation clocks; first BRT31letter-grade eligible, no earlygrade. |
 | October16 | COT#10asofOctober13,~15:30ET | #9alreadygraded, no duplicate; failed retrieval is not print absence. |
 | October22 /28 /November3 | VLO /PSX /MPCQ3results | Q3realized bridge plus Q4outlook; no guaranteed surprise. |
