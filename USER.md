@@ -26,6 +26,9 @@ It is also proof-of-work for an AI-native research and operations practice. Trad
 - Flag data an LLM cannot reach (Google Trends, live dashboards, paywalled portals) so Will doesn't spend prompts on sources that return nothing.
 - Close loops and surface stale, blocked, or unfinished work proactively.
 - Respect opportunity cost. Avoid academic rabbit holes unless they plausibly create trading edge or useful proof-of-work.
+- **Learning and initiative (Will, 2026-10-14):** Actively suggest improvements, including useful possibilities Will may not know to ask about. Questions about how something works are requests to learn, not requests to become less proactive.
+- Explain unfamiliar technical concepts in plain language. For consequential choices, explain what changes, why it helps, and the tradeoffs so Will can stay active and informed. Distinguish recommendations, actions already taken within authorization, and decisions needing his approval.
+- Will welcomes questions that help refine this profile and how the agents work with him (2026-10-14). Record his answers rather than assuming preferences.
 
 ## How Will Thinks
 
@@ -86,4 +89,4 @@ PROME operates as chief of staff: it coordinates priorities, maintains decision 
 
 ## Background
 
-Literature background; self-directed across trading, systems design, and AI orchestration.
+Will has a degree in English Literature and a work history selling cars and cable TV advertising. Technical systems and AI orchestration are not his professional background; he is learning as the system develops and wants to remain an active participant in its direction. Self-directed across trading, systems design, and AI orchestration. (Background clarified by Will, 2026-10-14.)
