@@ -1,0 +1,171 @@
+{
+  "audit_date_ET": "2026-10-13",
+  "recorded_at": "2026-10-13T23:53:00.113714-04:00",
+  "reviewer": "PROME",
+  "runtime": "Codex/OpenAI; exact model variant not independently exposed",
+  "scope": "Read-only WAL desk organization, instruction consistency, data freshness, source portability and continuity audit. No new financial research or trade proposal.",
+  "instructions_read": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "PROME/CLAUDE.md",
+    "PROME/COMPLETION_SPEC.md",
+    "PROME/ORCHESTRATION_PLAYBOOK.md runtime/ownership references",
+    "USER.md",
+    "AGENTS/WAL/CLAUDE.md"
+  ],
+  "verdict": "Usable and substantively organized, with material restart/maintenance drift. Recent primary-source work remains reproducible on this machine.",
+  "inventory": {
+    "files": 194,
+    "KB_rows": 224,
+    "KB_unique_IDs": 224,
+    "KB_groups": 20,
+    "KB_malformed_rows": 0,
+    "KB_active": 165,
+    "KB_expired": 3,
+    "KB_blank_expiry": 0,
+    "ordinary_inbox_pending": 2
+  },
+  "checks": {
+    "four_registered_frame_hashes": "MATCH October13 receipt",
+    "Q2_raw_source_hash": "MATCH",
+    "market_snapshot_hash": "MATCH",
+    "NEXUS_final_STATUS_pin": "MATCH fdaa3af0e72209300c6e918ea548098b08addfad",
+    "predictions": "2 open, neither overdue; Resolve_By November15 retained for filing window",
+    "ledger_staleness": "PREDICTIONS data vintage August20;55days behind STATUS,16days since hygiene review. Not evidence of a missed grading event.",
+    "corrections": "0 unreceipted named corrections",
+    "drift": "16/16 and67/67 baseline pass; limited coverage",
+    "read_cap": "STATUS22439B and MEMORY19368B pass charter heuristic. INDEX boot list outside assessed perimeter."
+  },
+  "findings": [
+    {
+      "id": "WAL-A01",
+      "priority": "high",
+      "issue": "Local startup and delivery instructions lag the fleet runtime contract",
+      "evidence": [
+        "AGENTS/WAL/INDEX.md:2 assumes CLAUDE.md auto-loads from desk cwd",
+        "AGENTS/WAL/CLAUDE.md:38 requires SendMessage and local outbox delivery",
+        "AGENTS/WAL/CLAUDE.md:37 and :160 omit self-authored recipient-packet commit exceptions",
+        "PROME/COMPLETION_SPEC.md requires explicit runtime verification and dated PROME inbox delivery"
+      ],
+      "impact": "A fresh Codex owner could miss local instructions or save a deliverable only to an outbox. October13 receipt proves the latest owner explicitly loaded instructions and used correct packets, so this is a restart risk, not a claim that the latest handoff failed.",
+      "repair": "Owner reconciles charter and index to root Git and completion/runtime references; preserve authority and routing. Prefer references over duplicate operating rules."
+    },
+    {
+      "id": "WAL-A02",
+      "priority": "high",
+      "issue": "Position mirrors have not fully integrated broker activity and current leg count",
+      "evidence": [
+        "AGENTS/WAL/CLAUDE.md:13 says live book is one Dec18 $70P",
+        "AGENTS/WAL/POSITIONS.md:11 lists two legs but Fidelity $65P acquisition date UNKNOWN",
+        "PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md:87 records purchase October7, cash debit $682.65",
+        "FORGE/STATUS.md:96 records bought October7"
+      ],
+      "impact": "New session could omit the Fidelity holding or ask again for a purchase date already evidenced. Robinhood current holdings remain carried from older broker evidence; this audit does not certify them live.",
+      "repair": "Fold acquisition date and broker cost from the accepted activity receipt; point all current position claims to POSITIONS/FORGE. Do not infer exact gross execution price from net debit, and do not copy the $70P management rules to the $65P."
+    },
+    {
+      "id": "WAL-A03",
+      "priority": "medium",
+      "issue": "Two ordinary peer packets remain unprocessed, including an affirmative peer catalyst update",
+      "evidence": [
+        "AGENTS/WAL/inbox/2026-10-09_from-REGINALD_nano-banc-bid-summary-O1-not-resolved.md",
+        "AGENTS/WAL/inbox/2026-10-12_from-OZK_radd-executed-extension-L635.md",
+        "AGENTS/WAL/THESIS.md:218,228 still await OZK Q3-call resolution"
+      ],
+      "impact": "OZK packet reports executed extension and fresh sponsor equity, which could update the existing sponsor-support comparison. Nano bid summary does not establish named-loan ownership.",
+      "repair": "WAL evaluates and receipts both packets, inspects linked owner evidence, and folds dated conclusions with accounting/redraw and cross-bank limits. This audit did not independently authenticate the external filing or grade any thesis."
+    },
+    {
+      "id": "WAL-A04",
+      "priority": "medium",
+      "issue": "Three ACTIVE evidence rows have expired; one already has a partial successor",
+      "evidence": [
+        "AGENTS/WAL/workbook/KB.tsv:199 KB-WAL-197 expired October9, unannounced-date claim",
+        "AGENTS/WAL/workbook/KB.tsv:207 KB-WAL-205 expired September30, lien ownership follow-up",
+        "AGENTS/WAL/workbook/KB.tsv:216 KB-WAL-214 expired October12, September15 short interest",
+        "AGENTS/WAL/workbook/KB.tsv:219 KB-WAL-217 supplies announced earnings date"
+      ],
+      "impact": "ACTIVE filtering can return an old unannounced-date assertion alongside the announced date. Lien follow-up and short-interest freshness remain unresolved.",
+      "repair": "Split/annotate or supersede the obsolete part of mixed-topic KB-197; review the other rows individually. Do not bulk extend dates or treat absence as a negative finding."
+    },
+    {
+      "id": "WAL-A05",
+      "priority": "medium",
+      "issue": "Navigation counts and cold-start reading instructions drift from canonical data",
+      "evidence": [
+        "AGENTS/WAL/INDEX.md:51 says 209-row evidence base while actual/header count is224",
+        "AGENTS/WAL/workbook/KB_INDEX.md:10 HIDDEN_CRE count37 versus actual39",
+        "AGENTS/WAL/workbook/KB_INDEX.md:18 EARNINGS count19 versus actual20",
+        "AGENTS/WAL/INDEX.md:50,64 present SCENARIOS as core boot reading; file is49019 bytes",
+        "AGENTS/WAL/CLAUDE.md scopes THESIS to header/calibration and CHANGELOG to top entry"
+      ],
+      "impact": "Group navigation omits newer evidence and the index encourages larger reads than the charter. The read-cap checker only found STATUS and MEMORY and does not validate the index reading list.",
+      "repair": "Rebuild group counts/ID lists from KB.tsv and make INDEX point to the single charter boot sequence. Make SCENARIOS reading scope explicit; do not rewrite frozen historical valuation records."
+    },
+    {
+      "id": "WAL-A06",
+      "priority": "medium",
+      "issue": "Fresh summaries are layered above substantial older operational text",
+      "evidence": [
+        "AGENTS/WAL/NEXUS_BRIEF.md:19 retains one-leg statement in dated September delta",
+        "AGENTS/WAL/NEXUS_BRIEF.md:21 retains Q3 date NOT announced in dated September delta",
+        "AGENTS/WAL/MEMORY.md:66,68 carries hearing/P&A follow-ups after intended check windows",
+        "AGENTS/WAL/MEMORY.md:76 carries obsolete brief-size trim instruction, followed by done notice at79",
+        "AGENTS/WAL/SCENARIOS.md retains explicitly acknowledged May-vintage strike sections"
+      ],
+      "impact": "Historical context is mostly labeled, but mixed current/history reading increases stale retrieval and repeated-task risk. Do not mistake old registered frames for errors.",
+      "repair": "Keep one short current handoff and move completed session narrative to dated history with pointers. Reconcile each outstanding task to its latest result, including source supplement already integrated by REGINALD."
+    },
+    {
+      "id": "WAL-A07",
+      "priority": "medium",
+      "issue": "Full raw filings are available locally but not portable through Git alone",
+      "evidence": [
+        "AGENTS/WAL/sources/q2_2026/wal-20260630.htm exists,6664360 bytes,gitignored",
+        "AGENTS/WAL/sources/q1_2026/14A.pdf exists,gitignored",
+        "AGENTS/WAL/sources/2026-10-13_rate-reconciliation_receipt.json records source URL/accession/hash and tracked extract"
+      ],
+      "impact": "Git clone on another machine has the extracts and recent receipt but lacks full originals. This is documented source-cache behavior, not lost data.",
+      "repair": "Keep a clear source inventory identifying tracked versus local-only files and how to re-fetch/check hashes. Do not indiscriminately add all binaries or assume ignored sources are backed up."
+    },
+    {
+      "id": "WAL-A08",
+      "priority": "medium",
+      "issue": "Drift checker compares aggregate hit counts to a baseline rather than identities",
+      "evidence": [
+        "AGENTS/WAL/scripts/derived_drift_check.py:194 onward compares16/67 aggregate baseline",
+        "Observed quiet output passes16/16 and67/67 despite confirmed position/date/navigation drift"
+      ],
+      "impact": "The checker only covers selected claims. Removing one old hit can numerically offset a new one; a pass is not proof of consistent desk state.",
+      "repair": "Use explicit current-field comparisons and stable finding identities if improving the checker; retain historical exemptions. Add actual failed audit cases, not tests that merely reproduce regex implementation."
+    }
+  ],
+  "existing_operator_dependencies": [
+    "Recorder instrument/APN evidence remains missing in reviewed owner record; do not repeat an already answered ask blindly.",
+    "FFIEC credential renewal before recorded November5 expiry remains a scheduled dependency; no credentials accessed."
+  ],
+  "preserve": [
+    "Frozen grading/calibration frames",
+    "Registered thesis weights, targets, thresholds and prediction grades",
+    "Historical evidence and audit trail",
+    "Foreign dirty files and WAL untracked followup source directory"
+  ],
+  "limits": [
+    "No external facts refreshed; audit compares local files and accepted broker/owner receipts.",
+    "Untracked sources/followup_2026-10-13 contains later retrieval receipts; treat as potentially in-flight work, not deletion candidates.",
+    "No verified fleet-wide session-presence transport; no WAL edits, inbox consumption or agent launches performed.",
+    "No claim of GitHub synchronization: foreign WAL/REGINALD/WALTER work prevents pull/push during this audit."
+  ],
+  "next_step": "Owner housekeeping pass using these findings; no duplicated REGINALD screen or new thesis commission.",
+  "reviewed_file_hashes": {
+    "AGENTS/WAL/CLAUDE.md": "ac7445d6fbd41f34fb4b2b35c76592cc00b7721a0ef910ceeb0fadd3585294d8",
+    "AGENTS/WAL/INDEX.md": "670f999f1d2f98e0bf2c1bec60002e33b57621f1a22fb4b9bebfe08f6d36dc12",
+    "AGENTS/WAL/STATUS.md": "ced37c58aa5d13ddf70e516d547cfb476cbacfe35eaf03066c4afa4186dc6d07",
+    "AGENTS/WAL/MEMORY.md": "d7303e7ef621c594057e1e2c9b4eeb9febeb9e7f5788faff4663c94513adc9fc",
+    "AGENTS/WAL/POSITIONS.md": "2522888dbcf994955dcb4b9e6d4de89d901a803c161f60cafad6cd04b280186a",
+    "AGENTS/WAL/NEXUS_BRIEF.md": "34de2273b6722de7f914facebb2950e93aa4bd8c356c873ed75adef6b3afbb91",
+    "AGENTS/WAL/workbook/KB.tsv": "af89bbe8c57fc55340b4b57edddb304ae505b12aa7ada0e81e43a90f703126e2",
+    "AGENTS/WAL/workbook/KB_INDEX.md": "12723173163f4b435a37aad11889192bef22c26119340adb50959e52a826e834",
+    "AGENTS/WAL/scripts/derived_drift_check.py": "34720023529005c2977d85ae0ce0b64c975273b0668fd7ab5a6c4e32c66d1069"
+  }
+}
