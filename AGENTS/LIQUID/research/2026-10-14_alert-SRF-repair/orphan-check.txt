@@ -1,0 +1,38 @@
+⚠️  uncommitted files outside AGENTS/LIQUID/:
+     [likely YOURS] PROME/inbox/2026-10-14_from-LIQUID_alert-SRF-repair-tested-review-needed.md
+     [not yours]    AGENTS/VIOLET/MAINTENANCE.md
+     [not yours]    AGENTS/VIOLET/MEMORY.md
+     [not yours]    AGENTS/VIOLET/README.md
+     [not yours]    AGENTS/VIOLET/SCRATCH.md
+     [not yours]    AGENTS/VIOLET/SIGNAL_INTAKE.md
+     [not yours]    AGENTS/VIOLET/STATUS.md
+     [not yours]    AGENTS/VIOLET/artifacts/violet_operating_picture.html
+     [not yours]    AGENTS/VIOLET/artifacts/vol_cheatsheet.html
+     [not yours]    AGENTS/VIOLET/research/2026-10-14_accuracy-sweep/
+     [not yours]    AGENTS/VIOLET/scripts/tests/test_official_daily_basis.py
+     [not yours]    AGENTS/VIOLET/scripts/thesis_bump_check.py
+     [not yours]    AGENTS/VIOLET/scripts/thresholds.py
+     [not yours]    AGENTS/VIOLET/thesis/CHANGELOG.md
+     [not yours]    AGENTS/VIOLET/thesis/VIX_THESIS.md
+     [not yours]    AGENTS/VIOLET/workbook/KB.tsv
+     [not yours]    AGENTS/VIOLET/workbook/README.md
+     [not yours]    AGENTS/VIOLET/workbook/VX_DAILY.tsv
+     [not yours]    AGENTS/WALTER/LAST_COMPLETION.md
+     [not yours]    AGENTS/WALTER/REGISTRY.tsv
+     [not yours]    AGENTS/WALTER/SESSION_LOG.md
+     [not yours]    AGENTS/WALTER/STATUS.md
+     [not yours]    AGENTS/WALTER/inbox/DEWEY/processed/2026-10-14_ports-pike-power_handoff.md
+     [not yours]    AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv
+     [not yours]    AGENTS/WALTER/registry/x_bookmarks_pending.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-14_resume-1449/
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "LIQUID -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

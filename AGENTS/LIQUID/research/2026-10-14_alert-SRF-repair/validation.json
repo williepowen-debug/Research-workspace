@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "check": "Archived AGENTS/LIQUID/scripts/hy_oas_watch.py",
+      "pass": true
+    },
+    {
+      "check": "Archived AGENTS/LIQUID/scripts/boot.py",
+      "pass": true
+    },
+    {
+      "check": "Archived AGENTS/LIQUID/STATUS.md",
+      "pass": true
+    },
+    {
+      "check": "Archived AGENTS/LIQUID/MEMORY.md",
+      "pass": true
+    },
+    {
+      "check": "Archived AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/scripts/usd_swapline.py",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/analysis/2026-10-08_usd-swapline-LETTER.md",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/scripts/transmission_check.py",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/scripts/sofr_dispersion.py",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/workbook/PREDICTIONS.tsv",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/workbook/FUNDING_SEIZURE_GATE_SCOPED.md",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/CALENDAR.md",
+      "pass": true
+    },
+    {
+      "check": "Protected FORGE/tools/market-data/config.py",
+      "pass": true
+    },
+    {
+      "check": "Protected AGENTS/LIQUID/CLAUDE.md",
+      "pass": true
+    },
+    {
+      "check": "Five live gate rows unchanged",
+      "pass": true
+    },
+    {
+      "check": "STATUS below250lines/70pct budget",
+      "pass": true
+    },
+    {
+      "check": "Consumer18 tests pass",
+      "pass": true
+    },
+    {
+      "check": "watcher-selftest.txt",
+      "pass": true
+    },
+    {
+      "check": "boot-selftest.txt",
+      "pass": true
+    },
+    {
+      "check": "Five baseline defects rejected",
+      "pass": true
+    },
+    {
+      "check": "39 captured transitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "Required/context completion boundary explicit",
+      "pass": true
+    },
+    {
+      "check": "No unqualified independent certification",
+      "pass": true
+    }
+  ],
+  "passes": 24,
+  "implementation": "IMPLEMENTED",
+  "owner_tests": "TESTED",
+  "independent_verification": "PENDING: existing WQ229 reader-devised counterexample required",
+  "scope": "Author file-output/date guards plus bounded captured-data regression; not guaranteed delivery after I/O failure or current market certification"
+}

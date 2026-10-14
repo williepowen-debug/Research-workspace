@@ -26,6 +26,7 @@ a red thesis trigger (HY >280 or <260, USD/JPY >160, SRF >50) still exits 0. Par
 """
 
 import calendar
+import math
 import re
 import sys
 from datetime import date, datetime, timedelta
@@ -145,6 +146,29 @@ def diff_dated(dash, label, a, a_d, b, b_d, classify, headline=False):
 
 def trend_str(vals, mult=1.0, dp=0):
     return " → ".join(f"{v * mult:.{dp}f}" for v in reversed(vals[:6]))
+
+
+def add_srf_usage(t_v, t_d, t_err, m_v, m_d, m_err):
+    """Grade the existing two-leg SRF display only on aligned, known dates."""
+    t_ok = not t_err and t_v is not None and math.isfinite(t_v)
+    m_ok = not m_err and m_v is not None and math.isfinite(m_v)
+    treasury = f"T ${t_v:.2f}B [{t_d or 'date unknown'}]" if t_ok else "T unavailable"
+    mbs = f"MBS ${m_v:.2f}B [{m_d or 'date unknown'}]" if m_ok else "MBS unavailable"
+    components = f"{treasury}; {mbs}"
+    try:
+        dates_known = bool(t_d and m_d) and bool(date.fromisoformat(t_d) and date.fromisoformat(m_d))
+    except (ValueError, TypeError):
+        dates_known = False
+    if not t_ok or not m_ok:
+        add("DOMESTIC", "SRF usage", "PARTIAL", "🟠",
+            f"UNGRADEABLE — leg unavailable; {components}; combined grade withheld")
+    elif not dates_known or t_d != m_d:
+        add("DOMESTIC", "SRF usage", "UNGRADEABLE", "⚪",
+            f"Dates do not establish a same-day total; {components}; combined grade withheld")
+    else:
+        srf = t_v + m_v
+        note = "no funding stress (both legs)" if srf <= 50 else "ABOVE $50B — escalate REGINALD/HENRY/PROME"
+        add("DOMESTIC", "SRF usage", f"${srf:.2f}B", "🔴" if srf > 50 else "🟢", note, t_d)
 
 
 # ---------------------------------------------------------------------------
@@ -527,15 +551,7 @@ def build_domestic():
     # SRF = Treasury leg + MBS leg (billions) — >50 stress
     t_v, t_d, _, t_err = fred_series("RPONTSYD")
     m_v, m_d, _, m_err = fred_series("RPONMBSD")
-    if not t_err and not m_err:
-        srf = t_v + m_v
-        note = "no funding stress (both legs)" if srf <= 50 else "ABOVE $50B — escalate REGINALD/HENRY/PROME"
-        if t_d != m_d:
-            note += f" [legs differ: T {t_d} / MBS {m_d}]"
-        add("DOMESTIC", "SRF usage", f"${srf:.2f}B", "🔴" if srf > 50 else "🟢", note, max(t_d, m_d))
-    else:
-        leg = f"T ${t_v:.2f}B" if not t_err else f"MBS ${m_v:.2f}B" if not m_err else "neither leg"
-        add("DOMESTIC", "SRF usage", "PARTIAL", "🟠", f"leg fetch failed — only {leg} available")
+    add_srf_usage(t_v, t_d, t_err, m_v, m_d, m_err)
 
 
 # ---------------------------------------------------------------------------
