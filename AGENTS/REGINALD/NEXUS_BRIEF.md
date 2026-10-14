@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-14 bank/ETF tape;STATUS pin `947f48210`.** Delayed trades12:37–40ET:KRE−0.61%,KBWB−1.87%;regionals14/14 down,median−1.23%;BAC/MS weakest large names,JPMgreen. Report→`reports/2026-10-14_bank-and-ETF-intraday-comparison.md`,KB227. No credit attribution/new fire;settled/FRED through10/13 retained. Earlier noon/WALTER004–006 source limits persist. WQ-419 accepted(`9451933aa`/`c7f945a95`),peer reads unverified;WQ-414 accepted`1b937462e`. FHLB→`research/FHLB/README.md`. No score,frame or trade change.
+**As of:** **2026-10-14 WAL earnings-path test;STATUS pin `423e52e68`.** Will-selected public-evidence work→`reports/2026-10-14_WAL_2027_earnings-path-test.md`,KB228–229. Profit conversion/net funding-cost benefit least verified;conditional diagnostics,not forecasts. Primary mortgage/ECR/credit counterevidence retained. Append outcomes at existing10/19–20 reads. Earlier tape/noon vintages→STATUS/reports;no score,frame or trade change. WQ-419 accepted(`9451933aa`/`c7f945a95`),peer reads unverified;WQ-414 accepted`1b937462e`;FHLB→`research/FHLB/README.md`.
 
 ## CROSS-DOMAIN
 
@@ -113,4 +113,4 @@
 
 *Final closeout/reboot fold,2026-10-14: last write-back follows STATUS commit `2903e7de4`; dated market/source and existing Q3 duties preserved. Earlier final-fold statements are historical. No external notification or peer consumption claimed.*
 
-*Final tape fold,2026-10-14:last write-back follows STATUS commit `947f48210`;30-instrument snapshot/KB227 saved. Earlier noon/WALTER004–006 checks remain dated history. Delayed quotes do not grade settled guards;existing Q3 duties unchanged. No new trade/external send.*
+*Final earnings-test fold,2026-10-14:last write-back follows STATUS commit `423e52e68`;owned report/source receipts and KB228–229 saved. Existing Q3 outcomes PENDING;owner forecasts/grades unchanged. Earlier folds are history;no external send or peer consumption claimed.*
