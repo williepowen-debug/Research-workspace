@@ -1,0 +1,23 @@
+[
+  {
+    "check": "ledger-selftest",
+    "rc": 0,
+    "tail": [
+      "  \u2713 every registry surface carries the live contract count",
+      "",
+      "I. INBOX AT CLOSEOUT (advisory \u2014 never blocks) \u2014 1 undrained packet(s)",
+      "  \ud83d\udcec inbox/2026-10-14_from-PROME_QQQ-filled-exits.json",
+      "       UNCOMMITTED \u2014 a peer wrote it and has not committed; IN FLIGHT",
+      "  \u2192 consume it, or state the disposition in the commit message. \u26d4 Do NOT git mv to processed/ just to clear this line \u2014 an unread packet filed as consumed is worse than one left visible.",
+      "",
+      "\u2705 CLEAN (A\u2013H)"
+    ]
+  },
+  {
+    "check": "boot-selftest",
+    "rc": 0,
+    "tail": [
+      "boot.py SELFTEST: PASS"
+    ]
+  }
+]

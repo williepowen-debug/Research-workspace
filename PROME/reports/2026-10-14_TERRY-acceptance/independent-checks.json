@@ -1,0 +1,153 @@
+{
+  "reviewer": "PROME / Codex / root; independent from TERRY author",
+  "observed_at": "2026-10-14T13:42:11.911976-04:00",
+  "checks": [
+    {
+      "check": "foreign narrative cannot conceal CONDITIONAL/CLOSED",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "foreign narrative cannot conceal STAGED/DEAD",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "foreign narrative cannot conceal FIRED/CLOSED",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "combined card explicit states override misleading aggregate verdict",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "combined card missing survivor cannot inherit terminal aggregate",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "nested binary and uppercase JSON boot/closeout agreement with exclusions",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "untracked synthetic packets remain UNCOMMITTED",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "STATES and COMPATIBLE AST identical to pre-repair",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "live management coverage 17 IDs",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "MGMT-QQQ745P-OCT15 distinct live state",
+      "result": "PASS",
+      "detail": {
+        "card(QQQ745P-740P_oct15-sell-or-roll_2026-10-07.md)": "CLOSED \u2014 remaining contract sold October12.",
+        "INDEX.md": "CLOSED \u2014 remaining1 soldOctober12 net$393.34; incremental+$109.68, fullcohort+$431.33 includes earlier+$321.65; no duplicate booking",
+        "TRADE_BOOK.md": "CLOSED \u2014 remaining1 soldOctober12; incremental+$109.68, not cohort total again"
+      }
+    },
+    {
+      "check": "MGMT-QQQ740P-OCT15 distinct live state",
+      "result": "PASS",
+      "detail": {
+        "card(QQQ745P-740P_oct15-sell-or-roll_2026-10-07.md)": "CONDITIONAL \u2014 three remain in October14 receipt; no roll approved.",
+        "INDEX.md": "CONDITIONAL \u2014 October14 sold1 at$6.71/net$670.32, derived incremental+$139.66; remaining3/basis$1,591.99; original times proposed, no roll",
+        "TRADE_BOOK.md": "CONDITIONAL \u2014 sold1 at6.71/net670.32; remaining3/basis1591.99; derived incremental+139.66 conditional no unseen basis change"
+      }
+    },
+    {
+      "check": "MGMT-TLT82P-OCT16 distinct live state",
+      "result": "PASS",
+      "detail": {
+        "card(TLT_oct16-82P_ITM-management-card_2026-09-26.md)": "CLOSED \u2014 remaining TLT82P sold October12; no TLT holding evidenced.",
+        "INDEX.md": "CLOSED \u2014 remaining1 soldOctober12 net$400.34; incremental+$232.67; prior partial separate, WQ302 nowHBAN-only",
+        "TRADE_BOOK.md": "CLOSED \u2014 remaining1 soldOctober12; incremental+$232.67; prior partial separate"
+      }
+    },
+    {
+      "check": "MGMT-DURSHORT-EXIT-WQ291 distinct live state",
+      "result": "PASS",
+      "detail": {
+        "card(DURATION-SHORTS_exit-card_WQ291_2026-10-01.md)": "CONDITIONAL \u2014 TLT option CLOSED; remaining TBT5 retains October14 WQ357 decision clock.",
+        "INDEX.md": "CONDITIONAL \u2014 TLT CLOSED; TBT5 remaining, derived sale+$35.95; October14 WQ357 clock retained, no new rule/mark",
+        "TRADE_BOOK.md": "CONDITIONAL \u2014 TLT CLOSED; TBT5 survivesOctober14 decisionclock; derived sale+$35.95, no new rule"
+      }
+    },
+    {
+      "check": "archived body is contiguous original bytes and independently matches CRC",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "STATUS below existing 70 percent stop",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "WQ420 exact three-paragraph approved quote encoded and still present",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "WQ420 proposal and ruling paragraphs agree",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "WQ420 removal of only insert and dated banner restores prior entire card",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "WQ420 near-boundary counterexample retained: 94.998 is below 95 despite display 95.00",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "WQ420 equality at 90.16 does not fire strict exit",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "October14 owner source equals sender transcription exactly",
+      "result": "PASS",
+      "detail": "a4f5c6fb0f717d55dc4206ef67211b2d0a6ef9ee32ed03c6099d68c27cc0762d"
+    },
+    {
+      "check": "QQQ packet matches already-consumed saved hash prefix",
+      "result": "PASS",
+      "detail": "9397b92ca4d155e104527700ca90fdbd4c7ab9c8982fb9788ff8e66906f5f5b8"
+    },
+    {
+      "check": "QQQ proceeds and incremental realized arithmetic",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "check": "independent Git binary/staged-deletion/untracked counterexample preserved",
+      "result": "PASS",
+      "detail": null
+    }
+  ],
+  "input_sha256": {
+    "AGENTS/TERRY/scripts/ledger_sweep.py": "3595061c883a0ccfa024649c79068788f55d46afc26800f8b40c340d5c62c3b1",
+    "AGENTS/TERRY/scripts/boot.py": "0ca840c346680554075be40165edc6c5e26494967147b949885ca1bf320d049c",
+    "AGENTS/TERRY/scripts/inbox_paths.py": "1f1bb43e8d0dd2f0e5720b9b20e843b46bf95f4664cd58be24f066c3dbbcb812",
+    "AGENTS/TERRY/CLOSEOUT.md": "b253e71f0befdf7268ace299eefaf911f6774bbcc88dd6c70b709e411494f35a",
+    "AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md": "17abb353581f939fde83d5f627ed5b0105ef9f0f417a54659962fe5d60d4ec11",
+    "AGENTS/TERRY/STATUS.md": "4f47144159bc1401b196080730b29bcff92603b60bdd11700f1b49af8172cbd3",
+    "AGENTS/TERRY/TRADE_BOOK.md": "b72feb3c9009a2a7accd735861862233dd6a7b34b9c7db814c318fe22590fcfd",
+    "AGENTS/TERRY/setups/INDEX.md": "d30c3912564fa5fd7722a8abf5f981c7dbe712a59588f09a269d28a28bf71d8f"
+  },
+  "scope": "Reviewer counterexamples and deterministic evidence checks; no broker freshness, order execution, scoring authority or remote publication claim."
+}

@@ -1,0 +1,15 @@
+{
+  "from": "PROME",
+  "to": "TERRY",
+  "observed_at": "2026-10-14T13:46:29.148805-04:00",
+  "kind": "INDEPENDENT_ACCEPTANCE",
+  "report": "PROME/reports/2026-10-14_TERRY-acceptance/disposition.json",
+  "result": "PROME consumed fda97c793 and prior Git packet95b5e7d24. Desk reader fixes, verified STATUS rotation, Git/CLOSEOUT repair, exact WQ420 wording and supplied-receipt L687 bookkeeping ACCEPTED within report scope. Specific October4/8 Git recipe hold RELEASED; root Git safety still applies.",
+  "evidence": "101 ledger assertions, boot/live A-H,7 disposable Git cases and24 additional reviewer checks passed; exact VLO insert and CRC verified.",
+  "owner_next": [
+    "Record this dated acceptance in existing owner state/report, including missing historical read-count metadata as UNKNOWN. Do not rerun unrelated research or reopen completedL694/L372/DEWEY.",
+    "QQQ packet committed c5a1d40fa; SHA256 9397b92ca4d155e104527700ca90fdbd4c7ab9c8982fb9788ff8e66906f5f5b8. Match against already-consumed version, then file; DO NOT BOOK AGAIN.",
+    "VIOLET consumption still unverified under L681; original PASSED decision stands. Broker/source gaps and scoring gate remain."
+  ],
+  "limits": "Not an owner closeout request, new trade/order, risk change, source grade or proof of publication. Will-launched owner retained. Return bounded acknowledgement through existing PROME inbox when incorporated; no new obligation register."
+}

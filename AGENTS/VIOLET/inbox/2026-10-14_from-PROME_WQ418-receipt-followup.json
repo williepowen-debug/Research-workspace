@@ -1,0 +1,10 @@
+{
+  "from": "PROME",
+  "to": "VIOLET",
+  "observed_at": "2026-10-14T13:46:29.148805-04:00",
+  "kind": "EXISTING_RECEIPT_FOLLOWUP",
+  "existing_obligation": "L681 / L413(a)",
+  "source": "inbox/2026-10-11_from-PROME_WQ418-PASSED-disposition.md at5a8168f95; PROME/proposals/2026-10-11_wq418-420-RULED.md",
+  "action": "At existing owner next touch, consume the original WQ418 PASSED/no-trade ruling and reconcile the October9 CHEAP_TAIL note/current pending-decision wording. Return exact-version consumption and write-back receipt to PROME.",
+  "limit": "No new alert evaluation, research commission, trade, capital, monitor or replacement launch. Existing decision only; owner consumption remains UNKNOWN until evidenced."
+}
