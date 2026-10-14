@@ -15,7 +15,7 @@ Fresh origin fetch proves all six named prior WALTER source/metadata/mark/access
 
 ## GAPS / OWED
 
-Current closeout commit/publication follows; source publication and actual recipient integration remain separate. Two BOND/LIQUID routing packets require the next source-routing pass. DEWEY report is in progress under its own writer; no premature return or resolution claim.
+Closeout source commit 880c4d2ee2adb4202b9320e1d90123ff2fe52979 is published, freshly verified against origin 2262bcf2c862527f4feb2a435eede9205062b738. All51October14 hands are origin-proven; actual recipient integration remains separate. Dated publication receipt: AGENTS/WALTER/research/2026-10-14_walter-closeout/publication.json. Two BOND/LIQUID routing packets require the next source-routing pass. DEWEY report is in progress under its own writer; no premature return or resolution claim.
 
 Localcharter70,223B still exceeds read-cap budget; no charter migration approved here. USER.md changed during this session; the paired boot-basis hash and October12 READS attestation now require re-review/re-attestation. Current USER.md was explicitly read; the manifest is not silently re-stamped. Full daily/compound HANS closes, monthly/qualitative registry coverage, Cushing/official named-month settlements, complete Iran/freight survey and several publisher bodies remain source-limited at their actual dates. No full market clearance. Phone lane has no input folder and live delivery unverified; Telegram tools unavailable. Old16-file source cache is intentionally unstaged/untouched, not unsaved authored work. Foreign desks' work remains theirs; no mainrepo pull or stash/rebase.
 
@@ -69,7 +69,7 @@ Full context/persistence write-back; selected checks, publication, recipient int
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-14T18:33:50Z",
+  "as_of": "2026-10-14T18:40:45Z",
   "publication": [
     {
       "commit": "8e2b066e699429f4780c0914af958d23131d0724",
@@ -94,6 +94,10 @@ Full context/persistence write-back; selected checks, publication, recipient int
     {
       "commit": "8b2ca53959882aa88c9b124b81c928f253d13f95",
       "state": "published"
+    },
+    {
+      "commit": "880c4d2ee2adb4202b9320e1d90123ff2fe52979",
+      "state": "published"
     }
   ],
   "delivery": {
@@ -103,8 +107,8 @@ Full context/persistence write-back; selected checks, publication, recipient int
     "note": "Freshly fetched origin proves all51; seven new rows reconciled. Actual owner integration separate."
   },
   "push": {
-    "all_walter_commits_on_origin": false,
-    "note": "Prior source/mark/access/metadata commits origin-proven; current closeout/check receipt commit and authorized safe-push follow."
+    "all_walter_commits_on_origin": true,
+    "note": "All named source/closeout commits origin-proven at 2262bcf2c862527f4feb2a435eede9205062b738 after fresh safe-push fetch; this dated own-receipt commit is immediately safe-pushed next. Actual owner integration not inferred."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -130,8 +134,7 @@ Full context/persistence write-back; selected checks, publication, recipient int
     "Two committed BOND/LIQUID owner-return routing packets remain in inbox; no silent consumption",
     "DEWEY final power-contract handoff and then ledger/delivery audit",
     "RED FT08 owner execution; FALCON loss-census grade; official October14 SKEW close and existing source-limited coverage",
-    "Existing intakebody/diesel/insurer/design duties retained below",
-    "Current closeout exact-path commit and authorized publication/receipt reconciliation"
+    "Existing intakebody/diesel/insurer/design duties retained below"
   ],
   "next_review": "2026-10-15",
   "procedure": {
@@ -148,7 +151,7 @@ Full context/persistence write-back; selected checks, publication, recipient int
     "12(f)": "STATUS9594B/MEMORY22893B/96lines within budget; charter70223B remains overcap. No unapproved charter rewrite.",
     "14": "MEMORY sessionnotes rewritten; durable feedback retained; oldnotes conservedverbatim; line/byte counts saved below. No promotion/newauto-memory.",
     "15": "Current obligation list overwritten, beforeimage saved; source/owner limitations retained.",
-    "16": "Will explicitly requested commit/push; freshsafe-push dryrun alreadyprovedpriorHEADonorigin. Exactownpaths only, no pull/rebase/stash/foreignstage; finalpushaftercommit.",
+    "16": "Source closeout 880c4d2ee2adb4202b9320e1d90123ff2fe52979 committed and safe-pushed; fresh fetch confirms origin ancestry.51/51delivery reconciled. Own receipt persistence/safe-push follows, no pull/stash/rebase/foreignstage.",
     "root.retirement": "Prior same-day800trackedfile no-age-candidate census reused; allnewfiles datedtoday;0moves.",
     "root.consumer": "No threshold/canonical figure supersession, no consumer scan condition selected.",
     "root.orphans": "Rootadvisorycheck to run; oldcacheexcluded and allforeignworkuntouched.",
@@ -157,6 +160,6 @@ Full context/persistence write-back; selected checks, publication, recipient int
     "root.ledger_nudge": "REVIEW explained: no new kill, correction receipt, threshold fire, doorbell or batch event in closeout; existing event clocks preserved. Deep-candidate execution note and delivery reconciliation are the applicable ledger changes.",
     "basis_reads": "USER.md explicitly read after updated profile. Paired hash/perimeter attestation remains REVIEW/stale; no schema or execution certification inferred."
   },
-  "selected_checks": "11selected rows: receipt/archives/weekdays/versions/local-memory-lines PASS; orphans ADVISORY; read-cap,basis,reads,ledger-nudge,doctor REVIEW. Doctor0HIGH/4inheritedMED. Basis/reads review is USER.md change and stale October12 attestation; ledger nudge explained by no new event. Full manual write-back accounted; market/source coverage PARTIAL."
+  "selected_checks": "11selected rows: receipt/archives/weekdays/versions/local-memory-lines PASS; orphans ADVISORY; read-cap,basis,reads,ledger-nudge,doctor REVIEW. Doctor0HIGH/4inheritedMED. Basis/reads review is USER.md change and stale October12 attestation; ledger nudge explained by no new event. Full manual write-back accounted; market/source coverage PARTIAL. Source closeout880c4d2ee now origin-proven; final current receipt check follows."
 }
 END_CLOSEOUT_RECEIPT -->
