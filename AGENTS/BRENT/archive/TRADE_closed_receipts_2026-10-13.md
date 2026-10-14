@@ -1,0 +1,13 @@
+# Closed BRENT execution receipts — rotated October13,2026
+
+Historical closed receipts October1–September15; original live rows preserved without rewording. Current holdings/newer receipts/unresolved facts and binding rules remain in TRADE. Payload rule: after first standalone separator, outer whitespace stripped. UTF-8 payload bytes2417;crc32d35c6727.
+
+---
+
+| 2026-10-01 | **USO Oct-09 $150C: 1 of 2 SOLD TO CLOSE @ $3.92** (Fidelity), +$391.34 proceeds ⇒ **+$91.67 realized** vs $299.67; ×1 left, basis $299.66 | Fidelity Pending list Oct-01 row 2 via PROME's transcription → ANVIL `dac72b4ae` (FORGE). Will's hand; fill time not shown. ⚠️ Historical D-70 warning corrected 10/5: TERRY card already has ×1 addenda dated 10/1–2. FORGE row 20 not re-verified by this correction; no claim about its current quantity. receipt_status=RESOLVED |
+| 2026-09-30 | **USO Oct-09 $150C ×2 BOUGHT @ $2.99, −$599.33** (Fidelity) | Activity 9/30 row 6, roll leg 2 (row 5 = the 159C sale; limit $2.98) via ANVIL `33bc8c293`. receipt_status=RESOLVED |
+| 2026-09-30 | **USO Sep-30 $159C ×2 SOLD TO CLOSE @ $0.01, +$1.87 ⇒ realized −$919.46** (Fidelity) — **WQ-316 DISCHARGED** | Activity 9/30 row 5 via ANVIL `33bc8c293`. **Sold, not expired** (FORGE D-68: WQ-316's 17:4x "expired worthless … −$921.33" and TERRY's citing text are superseded by the broker row). Matched on contract (USO Sep-30 $159C) AND account (Fidelity) — NOT on the 150C partial-sale rows `pending_receipts.py` offered as closure candidates. receipt_status=RESOLVED |
+| 2026-09-28 | **USO Sep-30 $159C ×2: NOT sold** (fills receipt) | PROME transcription of Will's pasted receipt (`PROME/reports/2026-09-28_will-fills-receipt.md`); ANVIL fills pass (FORGE). Three other lines were sold in part that day (QQQ/TLT; not BRENT's domain). WQ-316 open. |
+| 2026-09-18 | **VLO 1 sh BOUGHT @ $412.00** (Fidelity) | Fidelity Activity row 7 via the 9/27 transcription (`PROME/data/2026-09-27_broker-capture-TRANSCRIPTION.md`); WQ-213 condition (refiners red vs oil). Fill time not shown (D-55). ⏳ First recorded in BRENT TRADE 2026-09-28; it lived only in FORGE/TERRY until then. receipt_status=RESOLVED (fill receipted at Fidelity Activity row 7; only the fill TIME is open, D-55) |
+| 2026-09-18 | **USO Sep-30 $159C ×2 BOUGHT, −$921.33** (Fidelity) | Activity row 8, same transcription. ⏳ First recorded in BRENT TRADE 2026-09-28. receipt_status=RESOLVED (entry fill receipted; the EXIT is WQ-316, tracked on the POSITIONS row by expiry=) |
+| 2026-09-15 confirmation | USO Sep-11 159C SOLD before expiry, by Will's hand | receipt_status=RESOLVED. Will explicitly confirmed "Sold before expiry". Exact sale date, price and proceeds UNKNOWN; no P/L inferred. Bought 9/10 at $1.52 (historical). |

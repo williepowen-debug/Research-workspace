@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-13 22:59 EDT",
+  "before_image": {
+    "path": "audits/2026-10-13_continuity-news/TRADE-before.md",
+    "payload_rule": "whole file; exact bytes",
+    "utf8_bytes": 23256,
+    "crc32": "ec0d307e"
+  },
+  "binding_WQ386_letter": "byte-identical before/after",
+  "broker_images": [
+    {
+      "path": "/mnt/c/Users/willi/OneDrive/Desktop/cappy cap.JPG",
+      "sha256": "f5a3bc17017c6426142db6e1775f770550b4f9c0c404cc792ae3e23a5fea9153",
+      "visually_inspected": true,
+      "capture_time": "UNKNOWN",
+      "account_identity": "redacted; continuity inferred",
+      "raw_committed": false
+    },
+    {
+      "path": "/mnt/c/Users/willi/OneDrive/Desktop/capture capture.JPG",
+      "sha256": "8facfa81cd1c2c81cce7dc0fae25c6992c43a5e29f1e6a42ebd08698d966abe4",
+      "visually_inspected": true,
+      "capture_time": "UNKNOWN",
+      "account_identity": "redacted; continuity inferred",
+      "raw_committed": false
+    }
+  ],
+  "coverage": {
+    "BRENT_recent_consumed_packets": 12,
+    "BRENT_top_inbox": 0,
+    "BRENT_WALTER_inbox": 0,
+    "WALTER_unassessed_bookmarks": 72,
+    "WALTER_evidence_timestamp": "2026-10-14T02:53:25.996338+00:00",
+    "WALTER_receipt": "AGENTS/WALTER/research/2026-10-13_bookmarks-repair/verification.json"
+  },
+  "supersedes": "stale BRENT holdings/order and live-looking source-absence statements only; no binding rule",
+  "rotation": {
+    "path": "archive/TRADE_closed_receipts_2026-10-13.md",
+    "source_range": "closed execution receipts October1–September15",
+    "payload_rule": "after first standalone separator; outer whitespace stripped",
+    "utf8_bytes": 2417,
+    "crc32": "d35c6727",
+    "new_TRADE_bytes": 22774,
+    "binding_rules": "unchanged"
+  },
+  "checks": {
+    "recent_packet_ids": [
+      "2026-10-12_from-DEWEY_diesel-current-cargo-addendum",
+      "2026-10-12_from-YURI_diesel-primary-permission-not-delivery",
+      "SIG-W-20261012-030",
+      "SIG-W-20261012-032",
+      "SIG-W-20261012-040",
+      "SIG-W-20261012-041",
+      "SIG-W-20261012-042",
+      "SIG-W-20261012-043",
+      "2026-10-13_from-DEWEY_diesel-delivery-primary-checkpoint",
+      "SIG-W-20261013-004",
+      "SIG-W-20261013-006",
+      "2026-10-13_from-DEWEY_diesel-commission-final"
+    ],
+    "archive_links": "PASS",
+    "binding_letter_sha256": "e2835aacda6ad99402b1ee4871e8706d86cf77f46f4da7348485771a4a89048c",
+    "binding_letter_unchanged": true,
+    "pending_reader": "PASS; text scope only",
+    "corrections": "15receipts/0unreceipted; scoped register",
+    "predictions_due": "none in reader scope",
+    "calendar": "PASS25events",
+    "weekday": "PASS4surfaces",
+    "readcap": "PASS;TRADE22774B below22785stop; no rotation_due",
+    "REGISTRY_staleness": "8daysbehindSTATUS,7dayreader:stillSTALE; no barestamp"
+  }
+}

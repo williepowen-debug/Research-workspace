@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-13 20:51 EDT — SCOPED-PARTIAL:** DEWEY final consumed; bounded commission complete, supply UNKNOWN. Finite company-primary/expectation checks recovered no decision-changing measurement. WAIT/THESISv5.12/capital restrictions unchanged. [Company continuation](research/2026-10-13_energy-wait/COMPANY-FOLLOWUP.md); earlier quantities keep their dates.
+**Last real data refresh: 2026-10-13 22:59 EDT — SCOPED-PARTIAL:** broker-image/TRADE and saved-source continuity reconciliation; all12delivered packets processed, inboxes empty. Research WAIT unchanged. Wider WALTER72bookmark intake unassessed; no universal news/current-market clearance. [Audit](audits/2026-10-13_continuity-news/REPORT.md). Older observations retain dates.
 
 **Will-directed closeout 2026-10-12 15:13 EDT:** [handoff](SCRATCH.md) and [receipt](audits/2026-10-12_desk-health/CLOSEOUT.md). Re-verified saved owner state and exact committed TERRY/PROME receipts; L633/L694 bounded deliveries resolved, physical/source duties remain. L684 independent WQ420 acceptance still owed. No new primary, broker/order, line grade or phase refresh. Closeout contentf23f7eed9 published in authorized shared train1276609e3; fresh-fetch receipt saved.
 
@@ -19,13 +19,13 @@ Permission is better authenticated; Minerva Zen is excluded as positive diesel e
 
 **L689 accepted / TERRY PASS / zero new capital:** conditional MPC margin-resilience candidate, PSX comparison, held VLO comparator. Slower refinery recovery and mispricing unproved; DOE/IEA relief definitions and DEWEY dependency in [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md). PROME consumed `3d772a7d3`; TERRY card `163664085` exceeds the cap at dated vendor screening costs and lacks physical/edge/book evidence. No repeat screen or VLO add. L694 now has a saved explicit WAIT [domain submission](research/2026-10-12_L694-energy-disposition/NOTE.md); PROME accepted L694/TERRY comparison complete; future dependencies stay open; full authority at `PROME/proposals/2026-10-12_opportunity-discovery-APPROVED.md`.
 
-**L633 afternoon read delivered / physical result PARTIAL:** MMA Monday11:00CDT expected oil shut in604,503b/d/29.63%; further partial recovery, not full output. Four refinery run-states remain GAP. Post14:30 named two-bar diagnostic Nov104.4986968480911832460970628/Dec99.66487578612550292386229845EST; no CME pair, bar-convention/published-precision proof incomplete, accepted observation UNKNOWN. TERRY grades; [audit evidence](audits/2026-10-12_desk-health/REPORT.md).
+**L633 afternoon read delivered / physical result PARTIAL:** MMA Monday11:00CDT expected oil shut in604,503b/d/29.63%; further partial recovery, not full output. Four refinery run-states remain GAP. Post14:30 named two-bar diagnostic Nov104.4986968480911832460970628/Dec99.66487578612550292386229845EST; at that touch CME pair missing/vendor proof incomplete, accepted observation UNKNOWN. October13recovered finalOctober12pair; source gap closed, TERRYgrade separate. TERRY grades; [audit evidence](audits/2026-10-12_desk-health/REPORT.md).
 
 ### Transit-vintage refusal
 
 Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match Reuters August17; quarantine as October evidence. Current flow UNKNOWN. [Independent check](research/2026-10-12_resume-l633/MAIL_UPDATE.md#cor-20261012-04--transit-vintage).
 
-**Boot:**10checks,8OK/1WARNINGS/1FINDINGS/0FAIL,rc2 (Ledger Nudge, report dispositions). Coverage/stale incidents persist; no due prediction/pending receipt in scope. WQ420 two-bar Close proxy is prospective; afternoon settlement outstanding. Stand-down unchanged.
+**October12 boot (historical):**10checks,8OK/1WARNINGS/1FINDINGS/0FAIL,rc2 (Ledger Nudge, report dispositions). Coverage/stale incidents persist; no due prediction/pending receipt in scope. WQ420 two-bar Close proxy is prospective; afternoon owner grade was outstanding at that read. FinalOctober12CME inputs later recovered; no new TERRYgrade inferred. Stand-down unchanged.
 
 > **October11–12 receipts:** [verbatim record](archive/STATUS_receipts_2026-10-12_rotation.md), 1451 UTF-8 payload bytes, crc32 `89ec35f0`; payload after first standalone separator, outer whitespace stripped.
 
