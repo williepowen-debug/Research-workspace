@@ -1,0 +1,87 @@
+[
+  {
+    "id": "SIG-W-20261014-013",
+    "slug": "ports-pike-study-rights-cost-allocation-gates",
+    "title": "PORTS-Pike filing separates proposed capacity, payment commitments and connection rights",
+    "domain": "POWER_GRID",
+    "cluster": "AI_INFRA_CAPEX",
+    "entities": [
+      "PJM",
+      "PORTS-Pike",
+      "SB-Energy",
+      "AEP-Ohio",
+      "OpenAI",
+      "PUCO",
+      "FERC"
+    ],
+    "action": [
+      "WATT",
+      "VULCAN"
+    ],
+    "info": [
+      "HENRY",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.88,
+    "language": "reports",
+    "body": "PJM's October13 ER27-126-000 filing describes PORTS-Pike's initial800MW separately from proposed additional9,570MW load/10,170MW gross generation through2032. These are planned populations, not IT MW, contracted capacity or delivered generation. The filing represents SB Energy infrastructure-payment commitments independent of usage, with actual allocation/recovery subject to PUCO/FERC proceedings. The study grants no construction/interconnection rights. Its120-day PUCO-action condition follows the Final System Upgrade Report and can be extended; no calendar deadline/start is established here. Proposed generation and developer payments are counterevidence to assuming all costs fall on other ratepayers. No named loss, delay outcome or net spare capacity is established. Project/phase context is already VULCAN-owned; the filing is the new document-level lead.",
+    "sources": [
+      [
+        "PJM ER27-126-000, October13; extracted PDF pp8-10/13-14, scoped read",
+        "https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9925/20261013-er27-126-000.pdf"
+      ]
+    ],
+    "ask": "WATT/VULCAN: assess the filing within existing project/power work; distinguish proposed load/gross generation, payment commitments and granted connection rights. Contract/approval bridge is a prepared DEWEY candidate, not an accepted commission or owner launch.",
+    "read": "Helper recovered linked PDF extraction; parent independently read critical extracted passages. Direct PDF opening inconsistent; no full44-page/raw-PDF authentication. Existing DOE/DR findings fold into SIG-W-20261013-007.",
+    "candidate": true,
+    "stamp": "2026-10-14T17:55:31Z",
+    "precedence": "PRIORITY",
+    "filename": "SIG-W-20261014-013-ports-pike-study-rights-cost-allocation-gates.md"
+  },
+  {
+    "id": "SIG-W-20261014-014",
+    "slug": "diesel-retail-relief-fedex-surcharge-pass-through",
+    "title": "Diesel retail relief reaches published FedEx ground surcharge; margin losses remain unmeasured",
+    "domain": "OIL_ENERGY",
+    "cluster": "INFLATION_TRANSMISSION",
+    "entities": [
+      "EIA",
+      "FedEx",
+      "US-on-highway-diesel"
+    ],
+    "action": [
+      "BRENT",
+      "CARL"
+    ],
+    "info": [
+      "HENRY",
+      "LIQUID",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.93,
+    "language": "confirmed",
+    "body": "EIA's October14 posting observes October12 US on-highway diesel$6.179/gallon,−$0.020w/w,+$2.514y/y; September28/October5 were$6.382/$6.199. FedEx's October12–18 ground/home/international-ground/pickup surcharge is28.75%, versus29.25% October5–11, using October5 versus September28 diesel. The published mechanism transmits costs with a lag; individual customer agreements control. Other package/air services use jet fuel. Falling prices/surcharges and carrier recovery challenge uninterrupted acceleration and automatic carrier-margin-loss claims. This is a price/invoicing channel, not measured current invoices, net margins, diesel-to-core CPI causality or proof of Russian delivered additions. August PPI is already SIG-W-20260910-005; September PPI remains scheduled October15 08:30ET. No repeat cargo study or automatic monitoring commissioned.",
+    "sources": [
+      [
+        "EIA posting October14; observations October12",
+        "https://www.eia.gov/petroleum/gasdiesel/"
+      ],
+      [
+        "FedEx current October12–18 weekly schedule and contract caveat",
+        "https://www.fedex.com/en-us/shipping/fuel-surcharge.html"
+      ],
+      [
+        "BLS August PPI release September10; next September print October15",
+        "https://www.bls.gov/news.release/ppi.nr0.htm"
+      ]
+    ],
+    "ask": "BRENT/CARL: integrate dated retail relief and the surcharge transmission mechanism into existing energy/consumer work. Preserve payer, contract-lag and margin-perimeter distinctions; no company-specific loss or new study presumed.",
+    "read": "Parent independently opened EIA/FedEx bodies and the BLS next-release line. Public schedules are observed; actual contract/invoice/margin outcomes remain unknown.",
+    "candidate": false,
+    "stamp": "2026-10-14T17:55:31Z",
+    "precedence": "PRIORITY",
+    "filename": "SIG-W-20261014-014-diesel-retail-relief-fedex-surcharge-pass-through.md"
+  }
+]

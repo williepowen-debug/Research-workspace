@@ -1,0 +1,33 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-14_from-WALTER_three-thread-verification.md
+     [not yours]    AGENTS/BOND/analysis/2026-10-14_post-CPI/
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-014.md
+     [not yours]    AGENTS/CARL/inbox/WALTER/SIG-W-20261014-014.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-013.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-014.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261014-014.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/
+     [not yours]    AGENTS/TERRY/inbox/processed/2026-10-14_from-PROME_QQQ-filled-exits.json
+     [not yours]    AGENTS/TERRY/inbox/processed/2026-10-14_from-PROME_desk-repair-acceptance.json
+     [not yours]    AGENTS/TERRY/outbox/2026-10-14_to-PROME_acceptance-ack.md
+     [not yours]    AGENTS/TERRY/outbox/delivered/2026-10-14_to-PROME_desk-repair-acceptance.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261014-013.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261014-013.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261014-013-ports-pike-study-rights-cost-allocation-gates.md
+     [not yours]    BOARD/SIG-W-20261014-014-diesel-retail-relief-fedex-surcharge-pass-through.md
+     [not yours]    PROME/registry/corrections_receipts.tsv
+     [not yours]    PROME/reports/2026-10-14_1110-boot-news.json
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/board_consumed.tsv
+     [not yours]    PROME/state/board_cursor.txt
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

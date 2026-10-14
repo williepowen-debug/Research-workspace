@@ -1,0 +1,3 @@
+AGENTS/TERRY/inbox/processed/2026-10-14_from-PROME_QQQ-filled-exits.json
+AGENTS/TERRY/inbox/processed/2026-10-14_from-PROME_desk-repair-acceptance.json
+AGENTS/TERRY/outbox/delivered/2026-10-14_to-PROME_desk-repair-acceptance.md
