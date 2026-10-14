@@ -1,0 +1,12 @@
+{
+  "source_commit": "5b332ddfea64b0e921561702f8a0b94bdce5ecf3",
+  "origin_ref": "56626a10b6300c53b85ec80e67e819850289c7ac",
+  "origin_basis": "Local tracking ref;no new fetch in this reconciliation",
+  "publication": "pending",
+  "changed_paths": 79,
+  "board_signals": 6,
+  "handoffs": 22,
+  "recipient_owner_ack": "REGINALD001atf8cf2226e;otheracksUNKNOWN",
+  "self_push": "deferred underWALTER PRIORITYrule/observedforeignactivity",
+  "helper_closeout": "ASKED_RECEIPT;process_exitUNKNOWN"
+}

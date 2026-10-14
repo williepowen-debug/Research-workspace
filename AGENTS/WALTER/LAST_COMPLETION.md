@@ -2,7 +2,7 @@
 Runtime: OpenAI Codex/GPT-6 family;exactvariant/nativeUUID UNKNOWN;thread /root. Updated 2026-10-13T23:25:10Z. Root/local instructions and priorhandoff read;localAGENTS.md absent.
 
 ## STATUS
-Routing checkpoint saved;boot/research PARTIAL. Six PRIORITY signals and22 create-only handoffs;owner assessments reused. No full threshold/source clearance, new owner grade, trade or background-work promise.
+Routing checkpoint sourcecommitted5b332ddfe;boot/research PARTIAL. Six PRIORITY signals and22 create-only handoffs;owner assessments reused. No full threshold/source clearance, new owner grade, trade or background-work promise.
 
 ## CHANGED
 BOARD001–006/INDEX;route/deliverylogs;REGISTRYaffectedrows;STATUSdatedobservations;SESSION_LOGlightbreadcrumb;LAST_COMPLETIONpriorbytesarchived;BM04CLOSED27/27;datedsource/verification/receipt artifacts.
@@ -75,18 +75,22 @@ Light routing checkpoint;publication and consumption remain separate.
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-13T23:25:10Z",
+  "as_of": "2026-10-14T00:05:57Z",
   "publication": [
     {
       "commit": "f4dbbc361a04090a57329f43b05d25f594870927",
       "state": "published"
+    },
+    {
+      "commit": "5b332ddfea64b0e921561702f8a0b94bdce5ecf3",
+      "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261013",
     "total": 22,
     "delivered": 0,
-    "note": "Newpacketswritten;localcommit/publicationreconciliationpending. Consumptionseparate."
+    "note": "All22handoffs sourcecommitted5b332ddfe;0onorigin atlocaltrackingobservation. Consumptionseparate;REGINALD001ownerintegration independentlyverified."
   },
   "push": {
     "all_walter_commits_on_origin": false,
@@ -114,6 +118,11 @@ Light routing checkpoint;publication and consumption remain separate.
         "path": "AGENTS/DEWEY/output/2026-10-13_diesel-delivery-and-primary-document-checkpoint.md",
         "sha256": "5be083663c8939fdc6c6f2cb90868a61af20c47aebeb455a766e76384a139e92",
         "note": "Source/owner evidence read;not inferred owner consumption of newWALTERpackets."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-13_priority-routing/reginald-consumption-proof.json",
+        "sha256": "29e03c9b509f43a2e8cc2af1f1f4a56e317d248aa82c4b77f86050570ffa0fe0",
+        "note": "Scoped001ownerintegration;002contextreadnotprimaryreview;otherrecipientacksUNKNOWN."
       }
     ]
   },
@@ -135,7 +144,11 @@ Light routing checkpoint;publication and consumption remain separate.
     "root.consumer": "Noownedthreshold/baseline supersession;newdatedsourceobservations only",
     "root.memory": "Noauto-memory;Tier1 defers MEMORYtrim",
     "root.retirement": "ExistingOct13 retirement assessment reused;no retirementmoves",
-    "helpers": "RULE9read-onlyresultread;explicitcloseoutreceipt;noownerlaunch/process-exitclaim"
+    "helpers": "RULE9read-onlyresultread;explicitcloseoutreceipt;noownerlaunch/process-exitclaim",
+    "16": "Exact79pathspecsourcecommit5b332ddfe:78logicalfilesincl100pctDEWEYrename;6signals/22handoffs plusdatedPROMEpacket. REGINALDsourceworkfinished/cleancanonicalpaths andscoped001integration verified. No selfpush;publicationpending atcachedorigin;finalreceiptalso needs sharedtrain.",
+    "15": "Carried duties preserved;source/hash andsourceclock reviewed;newreport androw-specific48coverage saved;partialgaps retained.",
+    "Tier1": "AffecteddatedSTATE/STATUSrows updated;priorSTATUSandcompletion bytes conserved;full regeneration/MEMORYtrim deferred per routing tier.",
+    "Tier1.breadcrumb": "SESSION_LOG light-closeout/full-deferred breadcrumb saved."
   },
   "selected_checks": "Precommitweekday6clean;basis29MATCH;readcap/READS REVIEW. Headerformatrepair followed by generatedINDEXCHECKPASS anddoctor0HIGH/4inheritedMED;light6checks0UNKNOWN,receipt/archive/weekdaysPASS,readcap/nudgeREVIEW. Killledgerunchanged:no completebodykill;route/fire/deepattemptclocks refreshed."
 }
