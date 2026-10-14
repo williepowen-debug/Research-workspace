@@ -43,6 +43,7 @@ Policy/CRE report integration and the 21-row workout-outcome bridge are complete
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
 ### NEXT SESSION
+**Research method now binding for future bank-research boots:** read `BANK_RESEARCH_STANDARD.md` (CLAUDE Boot5a/Execute10). At each existing Q3 read, append outcomes to the October13 working expectations in `reports/2026-10-13_review-response_forward-judgments.md`; keep current-consensus, VLY primary-source and matched capital/RWA gaps explicit. Do not mistake saved sensitivities for forecast accuracy or alter frozen owner rules.
 **★ NEXT BOOT (set 10/10 PM; Will's three catch-up items are DONE, see LAST SESSION):**
 0. **WQ-419 pending offers delivered:** SHADE/BROCK insurer handoffs + CFG read-note under approval `15c7d8b40`; PROME consumed/accepted exact `9451933aa`/`c7f945a95`; peer reads unverified. Canonical reports dated 10/11; hub `research/FHLB/README.md`. CFG 10/16 uses original frozen frame; Citizens revolver remains YE25-undrawn/current-UNKNOWN. BROCK reconciles its own CFG baseline reference.
 1. **Weekly funding read: Thu 10/15 H.4.1 · Fri 10/16 H.8** (`H8B3094NSMA`, `WLCFLPCL`, small-bank deposits + cash, SA AND NSA). Continue / hold / reverse? A deposit decline alongside = the PNC pattern spreading → packet LIQUID + PROME the same session. Bars stay descriptive (base-rate before any registration).
