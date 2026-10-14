@@ -20,6 +20,8 @@ Recovered REGINALD/WAL/BOND/PROME current approved returns; no duplicate bank st
 
 **Instrument repair 2026-10-14T16:26:17.242520-04:00:** `research/2026-10-14_alert-SRF-repair/REPORT.md`; acceptance committed before code. Alert delivery, historical dating, same-day SRF guard and preventive HY normalization IMPLEMENTED+TESTED;18 temporary-consumer tests,5 old-code negative controls and39 captured transitions pass. INDEPENDENTLY VERIFIED remains pending underWQ229; no agent launched or real alerts/state written by tests. Supplementary context cannot delay an otherwise complete LIQ-07 verdict.
 
+**Publication incident 2026-10-14T16:33:52.940291-04:00:** safe-push confirmed repaird186bb16a but also exported BROCK2eebe1e2c/50006b90c, whose prior rejection was inspected only after completion. No BROCK approval obtained. Local-only incident/coordination receipts at `research/2026-10-14_alert-SRF-repair/publication-incident.md`; no further remote push or foreign-state rewrite. Reconcile via PROME/BROCK before further export.
+
 ### NEXT SESSION
 
 Run existing boot, then STATUS§3(the only owed list). Prioritize October15/16 funding/ICE publications and October14 discount-window point release, then October16 LIQ-07 context/dual-list verdict and August TIC. Carry financing/forecast/count context; missing supplementary context does not delay a grade from complete registered inputs and both lists. Revisit cases only at existing owner carriers. Independent instrument read remains owed. WQ404 reader must see HANS's known-wrong line68 before any edit/release. Keep withheld tools withheld. Recipient consumption and live closeout transport remain unverified until an actual acknowledgment.
