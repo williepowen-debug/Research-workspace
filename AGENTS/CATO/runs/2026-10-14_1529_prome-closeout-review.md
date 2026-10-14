@@ -1,6 +1,10 @@
 # PROME closeout review — October 14, 2026
 
-## Current assessment
+## Current assessment — proposal follow-up
+
+PROME’s proposal at3f9db4e15 is a sound design direction, with no runtime repairs installed. Its parse-old/hash-new correction addresses a real race, and the calendar patch precondition is stale. Before implementation, resolve the concrete inventory-versus-reviewed-contract boundary (PC14-5), name the real selection producer/consumer and migration behavior (PC14-6), and distinguish verification of a named commit from later shared-push contents (PC14-7). Add a stable-position/changed-quote control to A5. These are bounded implementation clarifications, not a request for another general planning audit or a new control framework. Existing maintenance authority/order remains unchanged; A/B build authority is not inferred from this CATO review.
+
+## Initial assessment — before PROME’s proposal
 
 Keep ARGUS and the freeze → review → committed-content verification → safe-push sequence. Improve the inputs and the delivery boundary. Today's audit caught an actionable stale-choice defect; reducing review indiscriminately would remove a useful safeguard. PROME's five suggestions are broadly sound, but several are existing duties or approved repairs, not new capabilities. “Finish the backlog first” needs a bounded endpoint: pursue the approved high-value sequence, avoid making every measurement/reporting item a prerequisite to fixing demonstrated errors.
 
@@ -64,3 +68,54 @@ Stop this review here: the next useful work is owner implementation of approved 
 ## Delivery checks
 
 Weekday check passed on five verified-readable inputs: PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, AGENTS/CATO/CONTINUITY.md and this report. Direct startup measurements (bytes): CATO AGENTS 7,092; CHARTER 10,399; CONTINUITY 3,553; root CLAUDE 24,961; USER 6,654; AGENTS 5,313 — each readable and below 32,550. Generic read_cap_check --agent CATO returned rc2 CANNOT-EVALUATE because CATO has no local CLAUDE.md; not a pass. Orphan advisory showed foreign LIQUID/VIOLET/WALTER work, preserved, including WALTER’s staged rename. No superseded financial figure, STATUS, auto-memory or cross-directory output was authored, so associated conditional checks do not apply. Only this report and CONTINUITY are the exact-path delivery; Git receipt in-session. No hosted artifact publication applies to this CATO review.
+
+
+## October14 — review of PROME’s bounded proposal at 3f9db4e15
+
+Will requested checking the completed proposal and feedback. Start HEAD `7c6b0e2b31acc52ae01a3391462f063ae99b9834`; active WALTER work/staged rename preserved, no pull. This follows the same continuing assignment. Read the complete proposal/readiness evidence, changed-file inventory, handoff/docket links and recorded helper receipt; inspected actual option validation/rendering/store producer, BOOT pickup consumer, ARGUS freeze/promotion/callers, FORGE source headers, calendar patch hash record, and safe-push ref behavior. No owner edits, helper launches, messages, live store access or implementation tests. This is design assessment, not certification of unbuilt software.
+
+### What is verified and worth keeping
+
+- Commit3f9db4e15 changes six documentation/state files, not runtime code. Proposal is byte-unchanged in the current working tree. Handoff and existing L367/L402 plus new display row L702 link it. No software repair completion claimed.
+- Same-byte capture for parsing and fingerprinting closes the *described* parse-old/hash-new race: parsing five shares then hashing a newly written three-share file must not certify the displayed five. Subsequent currentness checks remain necessary, and are included. This verifies the design reasoning, not executable behavior.
+- The calendar tool currently hashes to10d14d7342a80f9de1f95590230a1509d659e7038efe58240e590bf36de450a8, matching readiness evidence and differing from the bundle’s before hash f84daeda1ac7eb10e85a3b3adee5bbfbbf3f02bb50bdd4d9bbd37ad0a3fd6ed4. Refresh is justified; the mismatch does not prove the underlying patch logic is wrong. Keep VIOLET-behind-VULCAN coverage/direct reads until accepted.
+- A correctly distinguishes holdings from approval/order/fill evidence, protects partial exits and combined decision IDs, preserves UNKNOWN/account scope and blocks unsafe PLAIN fallbacks. B preserves full inventory and relevant dependencies rather than excluding all foreign-looking paths. Separate A/B episodes avoid bundling a portfolio feature and an audit-control repair under one ceiling exception.
+- Independent review/lifecycle are owner-recorded: two plan reads, first concurrency finding corrected, changed-portion confirmation and explicit closeout receipt. ORCH_LOG/readiness openly retain UNKNOWN precise launch time and lifecycle reader rc1. CATO did not inspect the helper’s native transcript or certify full lifecycle compliance. No need to rediscover the already-reproduced DEWEY failure here.
+
+### PC14-5 — clarify what may change without invalidating review
+
+**Implementation boundary to resolve before B, medium consequence.** B requires changes to manifest membership/roles/hashes to invalidate its verdict, yet B5 requires unrelated packet additions/edits not to block. A new unrelated packet arriving after freeze has no role in the frozen manifest. If adding its observed-only membership invalidates the whole verdict, the repair recreates today’s wait in another form. If all new files are ignored, the unreviewed-addition hole returns.
+
+Define the immutable reviewed delivery/dependency contract separately from the observed inventory, even if both reside in the existing manifest. State how a later file is classified using actual provenance and claim relevance; mere path/name or an unevidenced observed-only label cannot clear it. Changes to delivery/dependency membership or evidence invalidate dependent review; verified unrelated inventory churn does not. Ambiguity about a potentially relevant contribution remains explicit/non-passing.
+
+Acceptance: add a proven unrelated DEWEY packet *after* freeze, then modify it; no rebuild or repeat ARGUS read solely for that churn. Add an otherwise similar PROME-authored nested packet or newly used dependency; it must block until reviewed. This resolves the interaction between two existing acceptance requirements, not a demand for a separate inventory service.
+
+### PC14-6 — the selection consumer can now be named; protect stored operator words
+
+**Complete the proposal’s declared prerequisite before A.** Producer is `decision_deck.py` RULING_JS: it writes one document per tap to `rulings`, with build/decision_id/choice information. Consumer is presently the manual `PROME/BOOT.md` step3b Artifact read_db/write_db pickup, referenced by both boot runner copies; the bounded tools search found no reason to assume an automatic importer. Candidate-file scope must include this consumer contract and any affected runner pointer, not only the renderer.
+
+Specify the stored per-unit position/card basis, and test old stored taps without it as well as a stale tap after a quantity change. Preserve Will’s exact words/history; withholding automatic applicability is not deleting the tap, rewriting it against current options, or declaring his ruling never happened. Missing/obsolete basis needs an explicit reconciliation disposition before dependent action. Current BOOT already preserves stored meanings and unit boundaries; extend that behavior.
+
+One concrete runtime trap: RULING_JS initially disables all `.btn`, then on successful database connection enables them all. A new guard implemented solely as disabled HTML can be undone by that connection step. A6’s runtime test must exercise store connection, card/peek paths and withheld units, not merely inspect static HTML. No assertion that this proposed guard has already been implemented incorrectly.
+
+Hosted publisher/store access remains unavailable in the quoted owner runtime. Local simulated-store tests can verify behavior; actual hosted/store compatibility remains pending until available, rather than certifying end-to-end activation from a local build. This need not hold up independent B work.
+
+### PC14-7 — name the verified commit and keep the shared push’s claim narrower
+
+**Delivery receipt/caller clarification before B.** A full SHA prevents the verifier reading different commits across individual file checks. It does not pin `scripts/safe-push.sh`, which still sends HEAD. Example: verify commitA, then another session advances HEAD toB; B may be unrelated, or may change a reviewed file/dependency. An ancestry receipt proves A reached origin, not that the current remote contents still equal A’s reviewed content.
+
+Keep root shared-push behavior unless separately authorized to change it. Explicitly record A as the reviewed delivery; distinguish later carried commits from that certification. For a claim that the pushed/current artifact is reviewed, reconcile relevant changes through the actual outgoing snapshot and withhold dependent publication/currentness claims if reviewed bytes changed. Unrelated commits should not cause a whole-fleet review. Preserve the named-SHA verification even when a later HEAD differs. Test both an unrelated successor and a successor changing reviewed content between verify and push; an old-commit success must not be relabeled latest-tree certification. No new Git wrapper or cross-owner commit authority is proposed.
+
+### Additional practical refinement and implementation order
+
+A says routine market marks must not invent a new decision, but its provenance includes source versions/hashes and any detected input change requires validation. Make the distinction executable: changed quote/receipt provenance with identical accepted identity/quantity/disposition must be reread/revalidated without automatically demanding owner re-approval of unchanged judgment. Changes to an explicitly price/valuation-dependent recommendation are different and must remain dependencies. Add that negative control to A5 alongside its existing unrelated-holding case; retain hashes for evidence integrity, use relevant semantic facts for recommendation applicability.
+
+Finish relevant authorized maintenance in its existing order. When A/B are eligible and authorized, favor B first: it has a preserved concrete replay and can be validated locally; A requires a holdings adapter, current-unit migration and selection-consumer/hosted compatibility work. That is sequencing advice within the two repairs, not an approved displacement of L675/L628/L676 or L647/L665. The proposal’s initial authority paragraph describes design/readiness; no A/B implementation approval is inferred by CATO.
+
+This Will-directed follow-up must remain in the continuing review history. The proposal records two prior plan reads; do not reset the applicable episode/read count at a fresh session or assume each implementation gets a fresh unused budget. Before proceeding, reconcile the required result-read allowance under the existing rule and actual Will authorization. No extra generic plan audit is commissioned here.
+
+Stop this review after these concrete clarifications; preserve required independent result verification for actual code and its counterexamples, subject to that accounting. Ordinary-use efficiency remains unmeasured. No broader architecture redesign, forecast work, broker research or publishing migration follows from this assessment.
+
+Follow-up delivery checks and exact-path Git receipt follow in-session. No financial figure/STATUS/auto-memory or cross-directory output authored; conditional consumer/ledger/memory checks remain untriggered.
+
+Proposal-follow-up checks: weekday PASS on five verified-readable inputs (PROME DOCKET/GATES/WILL_QUEUE, CATO CONTINUITY and this report); scoped whitespace clean. Direct startup bytes CATO AGENTS7,092/CHARTER10,399/CONTINUITY4,027 and root CLAUDE24,961/USER6,654/AGENTS5,313, all readable/below32,550. Generic CATO read-cap rc2 CANNOT-EVALUATE for absent local CLAUDE remains a disclosed limit. Orphan advisory identified WALTER work/staged rename, preserved. Only this continuing report and CONTINUITY are CATO-authored delivery paths. No hosted publication applies.

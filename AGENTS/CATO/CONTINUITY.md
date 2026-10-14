@@ -4,7 +4,7 @@
 
 ## Resume point
 
-**PROME closeout review complete; await Will.** [Review and bounded acceptance proposals](runs/2026-10-14_1529_prome-closeout-review.md): retain ARGUS/verified delivery; address repeated position-dependent display facts and demonstrated coupling to four uncommitted DEWEY packets. Existing approved Helm encoding/calendar repair remain owner work. Advice only; no procedure edits, sends or launches. Resume with Will’s direction or changed owner proposal, not another unchanged-package audit.
+**PROME proposal follow-up complete; await Will.** [Continuing review](runs/2026-10-14_1529_prome-closeout-review.md#october14--review-of-promes-bounded-proposal-at-3f9db4e15) supports3f9db4e15’s design, confirms calendar patch hash mismatch, and names implementation clarifications: PC14-5 observed inventory versus frozen review; PC14-6 stored selections/BOOT pickup and runtime re-enable guard; PC14-7 verified SHA versus shared push/currentness. Add quote-only negative control; favor B before A when eligible/authorized, without changing approved maintenance order. No owner edits, sends, launches or build approval. Resume with changed owner design/implementation; no unchanged-package audit.
 
 **LIQUID direction review remains available.** [October14 review](runs/2026-10-14_1504_liquid-direction-review.md) supports the dated diagnosis and scheduled verdict; recommends named financing-constraint evidence, a two-sided startup premise, explicit forecast/outcome separation and clarification of historical funding-count denominators. Advice only: no owner edits, sends, launch, gate changes or stopped swap-tool follow-up. On continuation, start with changed owner artifacts and these bounded recommendations.
 
