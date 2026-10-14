@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14T14:00:08.383229-04:00",
+  "finding": "CATO FS2 follow-up at6f4cfb19b",
+  "state": "CORRECTED AND VERIFIED",
+  "baseline_commit": "7016acae0c8181d902778a1076b0bced0890b948",
+  "scratch_before_sha256": "f8880c4f5200aed6f73fc7beee454a70ce7979c10c57355d7014e39edd5f2b67",
+  "finding_accepted": "PROME accepted current booking but retained superseded Operator-card positions and DEWEY final-return instructions in its startup surface. Date labels did not prevent contradictory current instructions. No duplicate trade/task or missed financial conclusion established.",
+  "changes": [
+    "Operator card now uses October14 receipt: QQQ744P CLOSED, QQQ740P3, AAPL5 confirmed; removed obsolete QQQ744P card request and unverified-booking carry.",
+    "DEWEY diesel final complete, no additional pass; corrected stale L566 side-clause without altering DR4/HANS or L567 duties.",
+    "Next synthesis points to existing REGINALD working-expectation/contrary-evidence/next-observation standard and dated judgments; no new charter, study, scored prediction or monitor.",
+    "Known VIOLET receipt and WALTER size issues remain in existing follow-through; neither re-audited nor re-commissioned.",
+    "TERRY acceptance uptake/QQQ filing now verified atdddfab918/7016acae0 and recorded in existing receipt; no rebooking or repeat review."
+  ],
+  "sources": {
+    "broker": "PROME/data/2026-10-14_broker-capture-TRANSCRIPTION.json atc5a1d40fa",
+    "bookkeeping": "FORGE/STATUS.md; TERRY f114bc600; PROME92ae2b847",
+    "dewey_report": "AGENTS/DEWEY/output/2026-10-13_diesel-commission-final.md at31397158f; sha2560775a97973f7c085b35ea6c9f8a59986c1bc547c90c65090e4a08710e9c20d13",
+    "research_method": "AGENTS/REGINALD/BANK_RESEARCH_STANDARD.md; reports/2026-10-13_review-response_forward-judgments.md",
+    "terry_consumption": "dddfab918 owner integration plus7016acae0 committed acknowledgment/filing; exact acknowledgment and both filed packet versions verified"
+  },
+  "scope": "Surgical current-state integration; no archive split, broad rewrite, new research, forecast, trade, rule, review round or owner edits. Prior wording remains in Git history. Generated blocks retained until canonical DOCKET view regeneration.",
+  "remaining": "VIOLET L681 receipt, broker/source gaps, separate HANS/L567 duties and existing research expectations retain their original owners and conditions.",
+  "validation": [
+    "October14 source holds one QQQ line: October15 740P quantity3; filled744P sale and absence support closure. Operator card agrees.",
+    "DEWEY final report SHA2560775a979… matches committed source; no further diesel pass stated; separate HANSOctober15 and L567November13 duties preserved.",
+    "Removed obsolete QQQ744P card request and upcoming DEWEY final-return instructions.",
+    "Pending Will generated block byte-identical; generated DOCKET view fresh; weekday/whitespace checks pass.",
+    "SCRATCH25650bytes below32550; existing generated-view size advisory retained, no size-policy change.",
+    "Both processed TERRY inbox packets at7016acae0 equal originalc5a1d40fa/92ae2b847 bytes."
+  ],
+  "persistence": "Exact four PROME paths only; actual commit identified by path history. No other-owner staging, edits, pull or new review."
+}

@@ -87,5 +87,12 @@
     "Procedural residue: Oct12/Oct14 acceptance files lack reads metadata; historical independent counts/rotation plan review not certified. Owner records the actual dated review without inventing history."
   ],
   "delivery": "Local committed packet will identify this report. No native cross-window messaging tool exposed; no owner process controlled. Fresh remote publication not certified by these local checks.",
-  "persistence": "QQQ sender source committed c5a1d40fa. This acceptance and recipient packets are persisted in their exact-path commit (find by this report path). Push deferred while other owners have live dirty work; no pull/stash/recovery performed, remote publication unverified. This is a bounded acceptance checkpoint, not whole-session/owner lifecycle closeout."
+  "persistence": "QQQ sender source committed c5a1d40fa. This acceptance and recipient packets are persisted in their exact-path commit (find by this report path). Push deferred while other owners have live dirty work; no pull/stash/recovery performed, remote publication unverified. This is a bounded acceptance checkpoint, not whole-session/owner lifecycle closeout.",
+  "owner_followthrough": {
+    "observed_at": "2026-10-14T14:00:08.383229-04:00",
+    "commit": "dddfab918",
+    "result": "TERRY committed acceptance uptake atdddfab918 and acknowledgment/filing at7016acae0. PROME read exact committed acknowledgment; both processed packets equal their original committed bytes. Owner consumption, state write-back and QQQ filing VERIFIED; zero rebooking.",
+    "scope": "This closes the existing TERRY acceptance/QQQ-filing receipt loop. VIOLET L681 and source/broker/scoring duties remain. This is not a lifecycle closeout or fresh remote-publication proof.",
+    "acknowledgement_commit": "7016acae0"
+  }
 }
