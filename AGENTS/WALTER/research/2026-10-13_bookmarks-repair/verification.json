@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-10-14T02:53:25.996338+00:00",
+  "reauthorization": "PASS",
+  "live_bookmarks_read": "PASS",
+  "api_pages": 3,
+  "bookmarks_returned_across_pages": 150,
+  "new_unconsumed_bookmarks_returned": 72,
+  "seen_count": 654,
+  "pending_count": 0,
+  "seen_and_pending_unchanged_by_read": true,
+  "seen_and_pending_match_pre_repair_committed_bytes": {
+    "AGENTS/WALTER/registry/x_bookmarks_seen.json": true,
+    "AGENTS/WALTER/registry/x_bookmarks_pending.json": true
+  },
+  "before_sha256": {
+    "AGENTS/WALTER/registry/x_bookmarks_seen.json": "a4b854ad6031939445af96b0e63992f8923de36b89fa0289b4e69c364b6a5600",
+    "AGENTS/WALTER/registry/x_bookmarks_pending.json": "dabf4ebe936181e180440504028da87e55a4e5a13ca653ccddc0d879b7f21fb0"
+  },
+  "after_sha256": {
+    "AGENTS/WALTER/registry/x_bookmarks_seen.json": "a4b854ad6031939445af96b0e63992f8923de36b89fa0289b4e69c364b6a5600",
+    "AGENTS/WALTER/registry/x_bookmarks_pending.json": "dabf4ebe936181e180440504028da87e55a4e5a13ca653ccddc0d879b7f21fb0"
+  },
+  "marked_consumed": 0,
+  "post_bodies_persisted": false,
+  "access_scopes": "tweet.read users.read bookmark.read offline.access",
+  "limits": "Bounded existing paging algorithm, up to 10 pages; read verification only, no item assessment/routing or consumption."
+}

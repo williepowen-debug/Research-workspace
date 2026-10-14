@@ -30,6 +30,7 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 - Current obligation/design/Will-choice list and resume point: `LAST_COMPLETION.md`.
 - Closeout evidence/manual duty outcomes: `research/2026-10-13_session-closeout/`.
 - Bookmark source/read/dispatch evidence: `research/2026-10-12_bookmarks-reauth/REPORT.md`.
+- X transport restored 2026-10-14T02:53:25.996338+00:00 (October13 evening EDT):72 new bookmarks returned,unassessed/unstaged;654 processed IDs/zero stage preserved. Evidence: `research/2026-10-13_bookmarks-repair/REPORT.md`. Prior market observations retain their dates.
 - CL9 runner repair implemented under Will's direct request;30 regressions passed at its dated test. Runtime friction/time savings and independent acceptance remain separate. No further runner/spec work commissioned.
 - Prior reboot/owner-intake/Rosner evidence remains at its named research paths and exact checkpoint archives. No full-source or first-release certification inferred from those saved passes.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.

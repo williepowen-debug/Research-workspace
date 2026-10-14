@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-10-14T02:55:50.818406+00:00",
+  "origin_ref": "0a4e26c628629af99dc197c1cda5228421bd876b",
+  "fetch_performed": false,
+  "commits_on_cached_origin": {
+    "5b332ddfea64b0e921561702f8a0b94bdce5ecf3": true,
+    "bd7b0cb62": true
+  },
+  "routing_handoffs_on_cached_origin": 22,
+  "recipient_consumption": "Separate; REGINALD001 previously verified; no new recipient acknowledgments claimed."
+}
