@@ -1,3 +1,9 @@
+## 2026-10-14 — v5.12 → v5.13: IEA crude/product recovery and demand distinction
+
+Authority: Will requested boot/context and judgment. Old → new: existing qualitative product-over-crude distinction now supported by the October14 OMR's September crude/product/export and inventory estimates. Its global demand contraction forecast coexists with continuing deficits: unconfirmed registered US Phase2 is not absence of global demand damage. Russian permission versus refinery capacity distinction reinforced by IEA analysis, not cargo proof. Institutional forecasts/September estimates and unstated section cutoffs do not certify post-Isaias operations. [Five findings and limits](../research/2026-10-14_boot-omr/REPORT.md).
+
+Minor interpretation refinement; WAIT/TERRY PASS and standdowns retained. No BRT grade, calibrated probability, price target, threshold, phase transition, holding recommendation/grade, monitor or capital authority changed. October14 OMR public-body duty complete; country-level supplemental supply/delivery question remains open for October15 Board and later evidence. Cumulative draw is not September draw; no substitution into old docket conditional. Original-share VLO basis and today's calls remain under existing rules. No duplicate DEWEY work or candidate screen.
+
 ## 2026-10-13 — energy WAIT evidence continuation; v5.12 unchanged
 
 Old → new evidence: initial Russian permission via wires → saved government announcement primary read; Minerva cargo uncertain → current provider/operator-attributed fertilizer evidence excludes this positive diesel example. Country/product relief: FranceOctober7plan10Mdieselbbl newly recovered; delivery and March/G7overlap unknown. October12 CMEsource gap → FINAL196native pair visually verified; exact inputs at research/2026-10-13_energy-wait/cme-inputs.json. No October13holding grade.
