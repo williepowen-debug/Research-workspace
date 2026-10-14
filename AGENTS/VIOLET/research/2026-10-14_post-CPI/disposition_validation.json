@@ -1,0 +1,20 @@
+[
+  {
+    "recorded_at": "5a8168f95",
+    "path": "AGENTS/VIOLET/inbox/2026-10-11_from-PROME_WQ418-PASSED-disposition.md",
+    "current_path": "AGENTS/VIOLET/inbox/processed/2026-10-11_from-PROME_WQ418-PASSED-disposition.md",
+    "recorded_sha256": "a5441e34f930689a508864dee06fd965f8a6da6592d6d44de84df2795c788d1b",
+    "current_sha256": "a5441e34f930689a508864dee06fd965f8a6da6592d6d44de84df2795c788d1b",
+    "byte_equal": true,
+    "original_preserved_as_prefix": true
+  },
+  {
+    "recorded_at": "5a8168f95",
+    "path": "PROME/proposals/2026-10-11_wq418-420-RULED.md",
+    "current_path": "PROME/proposals/2026-10-11_wq418-420-RULED.md",
+    "recorded_sha256": "d924c4d8a0d7844d6fa0a036fa290e75d9ab510490369a67c486e54c0ef0f712",
+    "current_sha256": "8d4c9d8b6951b5f6f026c40cfc45999dda79a929a0c45e5cf3d6faa5431b262a",
+    "byte_equal": false,
+    "original_preserved_as_prefix": true
+  }
+]
