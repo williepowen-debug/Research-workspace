@@ -1,0 +1,77 @@
+{
+  "basis": "PortWatch estimated AIS-observed traffic; no dark-traffic correction or barrels conversion; no owner gate grade",
+  "hormuz_latest": {
+    "date": "2026-10-11",
+    "n_total": 2,
+    "n_tanker": 1,
+    "n_container": 0
+  },
+  "ports_latest": {
+    "fujairah": {
+      "date": "2026-10-09",
+      "portcalls_tanker": 5,
+      "export_tanker": 55347
+    },
+    "sohar": {
+      "date": "2026-10-09",
+      "portcalls_tanker": 3,
+      "export_tanker": 51808
+    }
+  },
+  "hormuz_7d_comparison": [
+    {
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "sum": 29,
+      "mean": 4.142857142857143,
+      "units": "observed vessel records/day"
+    },
+    {
+      "start": "2026-09-28",
+      "end": "2026-10-04",
+      "sum": 19,
+      "mean": 2.7142857142857144,
+      "units": "observed vessel records/day"
+    }
+  ],
+  "fujairah_7d_comparison": [
+    {
+      "start": "2026-10-03",
+      "end": "2026-10-09",
+      "sum": 461525,
+      "mean": 65932.14285714286,
+      "units": "estimated tanker-export tonnes/day"
+    },
+    {
+      "start": "2026-09-26",
+      "end": "2026-10-02",
+      "sum": 579179,
+      "mean": 82739.85714285714,
+      "units": "estimated tanker-export tonnes/day"
+    }
+  ],
+  "sohar_7d_comparison": [
+    {
+      "start": "2026-10-03",
+      "end": "2026-10-09",
+      "sum": 96373,
+      "mean": 13767.57142857143,
+      "units": "estimated tanker-export tonnes/day"
+    },
+    {
+      "start": "2026-09-26",
+      "end": "2026-10-02",
+      "sum": 211243,
+      "mean": 30177.571428571428,
+      "units": "estimated tanker-export tonnes/day"
+    }
+  ],
+  "combined_7d_comparison": {
+    "new_sum_tonnes": 557898,
+    "old_sum_tonnes": 790422,
+    "new_mean_tonnes_per_day": 79699.71428571429,
+    "old_mean_tonnes_per_day": 112917.42857142857,
+    "pct_change": -29.417703454610322,
+    "window_basis": "Oct3-9 vs Sep26-Oct2; seven calendar days each; no canonical 14d/60d gate calculation"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "source_date": "2026-10-07",
+  "observation_week": "2026-10-02",
+  "basis": "Saved EIA workbook vintage, reused not fresh October14 survey",
+  "source_sha256": {
+    "psw01.xls": "d110607d0312f4ff1c1d4ec4e3d8555bc60ade031b654f4f5b2e27f3edb51cea",
+    "psw09.xls": "c742da6666f150f4d3400953dace00235af7dfb34980656b159f9e92218688d2"
+  },
+  "series": {
+    "WCESTUS1": {
+      "value": 424134.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Ending Stocks excluding SPR of Crude Oil  (Thousand Barrels)",
+      "source": "psw09.xls",
+      "sheet": "Data 6",
+      "column": 2
+    },
+    "WCSSTUS1": {
+      "value": 282983.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Ending Stocks of Crude Oil in SPR  (Thousand Barrels)",
+      "source": "psw09.xls",
+      "sheet": "Data 6",
+      "column": 10
+    },
+    "WGTSTUS1": {
+      "value": 204744.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Ending Stocks of Total Gasoline  (Thousand Barrels)",
+      "source": "psw09.xls",
+      "sheet": "Data 6",
+      "column": 11
+    },
+    "WDISTUS1": {
+      "value": 105138.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
+      "source": "psw09.xls",
+      "sheet": "Data 6",
+      "column": 108
+    },
+    "WCRFPUS2": {
+      "value": 13979.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Field Production of Crude Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 1",
+      "column": 1
+    },
+    "WCREXUS2": {
+      "value": 4765.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Exports of Crude Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 8",
+      "column": 2
+    },
+    "WCRRIUS2": {
+      "value": 16480.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Refiner Net Input of Crude Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 2",
+      "column": 1
+    },
+    "WGFUPUS2": {
+      "value": 8769.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Product Supplied of Finished Motor Gasoline  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 10",
+      "column": 2
+    },
+    "WKJUPUS2": {
+      "value": 1696.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Product Supplied of Kerosene-Type Jet Fuel  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 10",
+      "column": 3
+    },
+    "WDIUPUS2": {
+      "value": 3650.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Product Supplied of Distillate Fuel Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 10",
+      "column": 4
+    },
+    "WPULEUS3": {
+      "value": 92.7,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Percent Utilization of Refinery Operable Capacity (Percent)",
+      "source": "psw09.xls",
+      "sheet": "Data 2",
+      "column": 19
+    },
+    "W_EPC0_SAX_YCUOK_MBBL": {
+      "value": 24745.0,
+      "date": "2026-10-02",
+      "title": "Weekly Cushing, OK Ending Stocks excluding SPR of Crude Oil  (Thousand Barrels)",
+      "source": "psw09.xls",
+      "sheet": "Data 6",
+      "column": 5
+    },
+    "WDIEXUS2": {
+      "value": 1764.0,
+      "date": "2026-10-02",
+      "title": "Weekly U.S. Exports of Total Distillate  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 8",
+      "column": 7
+    }
+  },
+  "gasoline_4wk": {
+    "current_weeks": {
+      "2026-10-02": "8769.0",
+      "2026-09-25": "8689.0",
+      "2026-09-18": "8847.0",
+      "2026-09-11": "8798.0"
+    },
+    "base_weeks": {
+      "2025-10-03": "8919.0",
+      "2025-09-26": "8518.0",
+      "2025-09-19": "8959.0",
+      "2025-09-12": "8810.0"
+    },
+    "current_sum": "35103.0",
+    "base_sum": "35206.0",
+    "yoy_pct_unrounded": "-0.2925637675396239277395898400",
+    "rule": "52 weeks = 364 days; same four weekly dates; no single-week substitution"
+  },
+  "future_release": {
+    "date": "2026-10-15",
+    "time": "12:00 America/New_York",
+    "observation_week": "2026-10-09",
+    "status": "NOT_YET_RELEASED_AT_PREP",
+    "result": null
+  },
+  "additional_series": {
+    "WCRRIP32": {
+      "title": "4-Week Avg Gulf Coast (PADD 3) Refiner Net Input of Crude Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 13",
+      "column": 4,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 9512.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 9395.0
+        }
+      ]
+    },
+    "WDIRPUS2": {
+      "title": "4-Week Avg U.S. Refiner and Blender Net Production of Distillate Fuel Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 14",
+      "column": 75,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 5184.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 5170.0
+        }
+      ]
+    },
+    "WDIRPP32": {
+      "title": "4-Week Avg Gulf Coast (PADD 3) Refiner and Blender Net Production of Distillate Fuel Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 14",
+      "column": 78,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 3049.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 3046.0
+        }
+      ]
+    },
+    "WD0TP_NUS_2": {
+      "title": "4-Week Avg U.S. Refiner and Blender Net Production of Distillate Fuel Oil, 0 to 15 ppm Sulfur  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 14",
+      "column": 81,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 4985.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 4974.0
+        }
+      ]
+    },
+    "WD0TP_R30_2": {
+      "title": "4-Week Avg Gulf Coast (PADD 3) Refiner and Blender Net Production of Distillate Fuel Oil, 0 to 15 ppm Sulfur  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 14",
+      "column": 84,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 2877.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 2878.0
+        }
+      ]
+    },
+    "WDISTP11": {
+      "title": "Weekly East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
+      "source": "psw09.xls",
+      "sheet": "Data 6",
+      "column": 109,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 21920.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 21687.0
+        }
+      ]
+    },
+    "WDIIMUS2": {
+      "title": "4-Week Avg U.S. Imports of Distillate Fuel Oil  (Thousand Barrels per Day)",
+      "source": "psw09.xls",
+      "sheet": "Data 17",
+      "column": 112,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 134.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 118.0
+        }
+      ]
+    },
+    "WDISTP31": {
+      "title": "Weekly Gulf Coast (PADD 3) Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
+      "source": "psw09.xls",
+      "sheet": "Data 6",
+      "column": 114,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 43897.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 43857.0
+        }
+      ]
+    },
+    "W_NA_YUP_R30_PER": {
+      "title": "Weekly Gulf Coast (PADD 3) Percent Utilization of Refinery Operable Capacity (Percent)",
+      "source": "psw09.xls",
+      "sheet": "Data 2",
+      "column": 22,
+      "observations": [
+        {
+          "date": "2026-09-25",
+          "value": 95.9
+        },
+        {
+          "date": "2026-10-02",
+          "value": 95.0
+        }
+      ]
+    }
+  },
+  "missing_requested_series": [],
+  "rejected_guessed_ids": {
+    "WDISTP33": "Exact workbook key is WDISTP31",
+    "WPULEP33": "Exact workbook key is W_NA_YUP_R30_PER"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "validated_at": "2026-10-14T17:06:15.204261+00:00",
+  "source_integrity": {
+    "mpa": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "reuters": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "sparta": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "fujairah-daily": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "portwatch-hormuz": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "portwatch-fujairah": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "portwatch-sohar": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "sparta-diesel": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "sparta-crude": {
+      "file_exists": true,
+      "hash_matches": true
+    },
+    "sparta-usgc": {
+      "file_exists": true,
+      "hash_matches": true
+    }
+  },
+  "traffic_arithmetic": "PASS, matched7daywindows; no14d/60downergrade",
+  "baseline": "PASS, savedOctober7vintage, futureOctober15resultNULL",
+  "prediction": "OPEN unchanged, no grade/counter/threshold alteration",
+  "sequence": "shippingREPORTcomplete before October15WORKSHEET",
+  "call_handling": "Will directly manages; no automatic replacement/roll",
+  "consumer_check": "not triggered: no registered numeric figure changed or prior owner figure superseded; new dated7daydiagnostic is not owner14d/60dseries",
+  "source_gaps": "UKMTO403, Riviera429, marine timeout; portwatch observation lag; no new cargo net loss",
+  "publication": "pending exact path commit/push; recipient consumption unverified"
+}

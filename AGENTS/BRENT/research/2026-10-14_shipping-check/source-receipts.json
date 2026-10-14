@@ -1,0 +1,49 @@
+{
+  "mpa": {
+    "url": "https://www.mpa.gov.sg/media-centre/details/two-singapore-registered-vessels-struck-in-strait-of-hormuz",
+    "retrieved_at": "2026-10-14T16:53:49.821865+00:00",
+    "status": 200,
+    "final_url": "https://www.mpa.gov.sg/media-centre/details/two-singapore-registered-vessels-struck-in-strait-of-hormuz",
+    "bytes": 239790,
+    "sha256": "f01180364415e4c78f7a47e14d084ffbf888a5e61a2e08d4808b623dc9392d16"
+  },
+  "reuters": {
+    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/iran-shifting-tactics-to-step-up-attacks-on-shipping-before-us-vote-officials-say",
+    "retrieved_at": "2026-10-14T16:53:49.822502+00:00",
+    "status": 200,
+    "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/iran-shifting-tactics-to-step-up-attacks-on-shipping-before-us-vote-officials-say",
+    "bytes": 97285,
+    "sha256": "5f6f74db4c61c171035115fef6cd86811f51d4db072d5334320928fd4e5141a5"
+  },
+  "riviera": {
+    "url": "https://www.rivieramm.com/news-content-hub/hormuz-two-ships-sink-off-oman-amidst-attacks-on-three-uae-linked-container-ships-and-a-tanker-90265",
+    "retrieved_at": "2026-10-14T16:53:49.823003+00:00",
+    "error": "HTTPError: HTTP Error 429: "
+  },
+  "ukmto": {
+    "url": "https://www.ukmto.org/ukmtoproducts/advisories/2026",
+    "retrieved_at": "2026-10-14T16:53:49.823500+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "sparta": {
+    "url": "https://www.spartacommodities.com/market-outlook/",
+    "retrieved_at": "2026-10-14T16:53:49.955244+00:00",
+    "status": 200,
+    "final_url": "https://www.spartacommodities.com/market-outlook/",
+    "bytes": 326703,
+    "sha256": "c5d4a5eb14f08fec6cea8144e44125c57c0846535b945edd735f467d86d12795"
+  },
+  "fujairah-daily": {
+    "url": "https://www.fujairahport.ae/daily_shipping_list_print.cfm",
+    "retrieved_at": "2026-10-14T16:53:50.352415+00:00",
+    "status": 200,
+    "final_url": "https://www.fujairahport.ae/daily_shipping_list_print.cfm",
+    "bytes": 18901,
+    "sha256": "69bfe1483e436cac0833d1511d98d11e9f7d261d8939603b2ab3752891788040"
+  },
+  "fujairah-marine": {
+    "url": "https://fujairahport.ae/offshore/s_list1.cfm",
+    "retrieved_at": "2026-10-14T16:53:50.857466+00:00",
+    "error": "TimeoutError: The read operation timed out"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "portwatch-hormuz": {
+    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?where=portid%3D'chokepoint6'&outFields=date%2Cn_total%2Cn_tanker%2Cn_container&orderByFields=date%20DESC&resultRecordCount=20&returnGeometry=false&f=json",
+    "retrieved_at": "2026-10-14T16:58:16.371503+00:00",
+    "status": 200,
+    "bytes": 2244,
+    "sha256": "5d27b59a537afbe83fd9d99c7d082b7e62ad59606ee7d9437de7666f3bfd3af5",
+    "first_rows": [
+      {
+        "date": "2026-10-11",
+        "n_total": 2,
+        "n_tanker": 1,
+        "n_container": 0
+      },
+      {
+        "date": "2026-10-10",
+        "n_total": 4,
+        "n_tanker": 0,
+        "n_container": 1
+      }
+    ],
+    "api_error": null
+  },
+  "portwatch-fujairah": {
+    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0/query?where=portid%3D'port362'&outFields=date%2Cportcalls_tanker%2Cexport_tanker&orderByFields=date%20DESC&resultRecordCount=20&returnGeometry=false&f=json",
+    "retrieved_at": "2026-10-14T16:58:16.372209+00:00",
+    "status": 200,
+    "bytes": 2182,
+    "sha256": "8db89f6fe2860b35c9aef51a2829d2a5969e5f4e8a88d4c7e387f2b4828d36b9",
+    "first_rows": [
+      {
+        "date": "2026-10-09",
+        "portcalls_tanker": 5,
+        "export_tanker": 55347
+      },
+      {
+        "date": "2026-10-08",
+        "portcalls_tanker": 5,
+        "export_tanker": 69848
+      }
+    ],
+    "api_error": null
+  },
+  "portwatch-sohar": {
+    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0/query?where=portid%3D'port988'&outFields=date%2Cportcalls_tanker%2Cexport_tanker&orderByFields=date%20DESC&resultRecordCount=20&returnGeometry=false&f=json",
+    "retrieved_at": "2026-10-14T16:58:16.372882+00:00",
+    "status": 200,
+    "bytes": 2154,
+    "sha256": "05c0c0d98f138505ef36ee3034ad5fab67cea4559366d96f80a13b116afcf6f0",
+    "first_rows": [
+      {
+        "date": "2026-10-09",
+        "portcalls_tanker": 3,
+        "export_tanker": 51808
+      },
+      {
+        "date": "2026-10-08",
+        "portcalls_tanker": 0,
+        "export_tanker": 0
+      }
+    ],
+    "api_error": null
+  },
+  "sparta-diesel": {
+    "url": "https://www.spartacommodities.com/market-outlook/east-of-suez-diesel-heads-west-december-arbs-reopen/",
+    "retrieved_at": "2026-10-14T16:58:16.373623+00:00",
+    "status": 200,
+    "bytes": 124451,
+    "sha256": "1e4c2df828e3757dc957ab31fe9e50bba97607d26488db7025f84000e642b917"
+  },
+  "sparta-crude": {
+    "url": "https://www.spartacommodities.com/market-outlook/north-sea-fobs-saudi-crude-return/",
+    "retrieved_at": "2026-10-14T16:58:16.374326+00:00",
+    "status": 200,
+    "bytes": 129141,
+    "sha256": "d007ab80133443152cee762e48d7ec9b277b084ef749f7a4021acd8a248a6bb9"
+  },
+  "sparta-usgc": {
+    "url": "https://www.spartacommodities.com/market-outlook/tc14-mispriced-russian-diesel-licence/",
+    "retrieved_at": "2026-10-14T16:58:16.375009+00:00",
+    "status": 200,
+    "bytes": 123323,
+    "sha256": "5f8c5a90af1b0089ff0b5a5cac897fb5c45b86d977a4576cdcf694a9df144071"
+  }
+}
