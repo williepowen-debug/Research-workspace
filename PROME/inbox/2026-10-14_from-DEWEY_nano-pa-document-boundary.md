@@ -1,0 +1,3 @@
+# DEWEY → PROME | Nano Banc L516 document boundary
+STATE: NEW | Source: AGENTS/DEWEY/output/2026-10-14_nano-banc-pa-publication-check.md | Origin: Will direct October 14 / DOCKET L516.
+ACTION: At the next L516 touch, narrow the claim that the P&A will settle retained-pool sizes, held-for-sale disposition and WAL O1. The FDIC's Basic P&A template assigns optional-pool descriptions to a bidder Information Package, while Schedule 3.1(n) may name acquired pools; the actual Nano schedules are unknown. Read them when posted and grade each question separately. FDIC Nano page still links only the Bid Summary at 15:27 ET October 14. Existing October 27 source-escalation checkpoint remains appropriate; no new loss allocation.
