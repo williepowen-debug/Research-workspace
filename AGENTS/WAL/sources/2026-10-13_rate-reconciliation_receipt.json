@@ -1,0 +1,93 @@
+{
+  "written_at_utc": "2026-10-14T02:06:52.242550+00:00",
+  "desk": "WAL",
+  "runtime": "Codex",
+  "provider": "OpenAI",
+  "model": "GPT-6 family exposed; exact variant UNKNOWN",
+  "thread_identity": "/root; fleet owner-session ID UNKNOWN",
+  "repo_root": "/home/willi/Research-workspace",
+  "cwd": "/home/willi/Research-workspace/AGENTS/WAL",
+  "instructions_explicitly_read": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "USER.md",
+    "AGENTS/WAL/CLAUDE.md",
+    "AGENTS/WAL/STATUS.md",
+    "AGENTS/WAL/MEMORY.md",
+    "PROME/COMPLETION_SPEC.md",
+    "PROME/ORCHESTRATION_PLAYBOOK.md runtime mechanics",
+    "MESSAGING/CROSS_SESSION_MESSAGING.md"
+  ],
+  "local_AGENTS_md": "No file at AGENTS/WAL/AGENTS.md; user-supplied instruction applies",
+  "coordination": "No exposed verified cross-session fleet discovery/messaging transport. User reports REGINALD working; durable packets authorized. Recipient acknowledgment UNKNOWN; no duplicate launch. No agents spawned.",
+  "git": "Pull deferred: REGINALD and PROME paths dirty/staged. Pathspec local commits only; push deferred while foreign work is dirty.",
+  "source": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026051418/wal-20260630.htm",
+    "accession": "0001628280-26-051418",
+    "download_bytes": 6664360,
+    "sha256": "63f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f",
+    "method": "web open failed 4MiB limit; sandbox curl failed DNS; escalated curl approved and succeeded",
+    "local_raw_gitignored": "AGENTS/WAL/sources/q2_2026/wal-20260630.htm",
+    "table_extract": "AGENTS/WAL/sources/2026-10-13_Q2_rate-securities-hedges_extract.md",
+    "read_scope": "Notes 2/8/11/12, balance sheet/equity, MD&A investments/deposits/capital/liquidity, Item 3; not entire filing reviewed"
+  },
+  "web_deck": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026049001/walq22026earningspresent.htm",
+    "verified": "slide 11 NII +3.2% vs EaR +0.8%; beta59%; variable asset/ liability bases"
+  },
+  "frozen_sha256": {
+    "Q2_GRADING_FRAME_2026-07-21.md": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc",
+    "PREPRINT_RECON_2026-07-17.md": "12757b40be6dc95d6c52da5da207c919253542298415693e1d34153dbd16ce41",
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880"
+  },
+  "boot_checks": {
+    "ledger": "PREDICTIONS stale (+50d); no due prediction and no grading event; no forced refresh",
+    "KB": "3 remaining expired ACTIVE entries205/197/214;211 superseded by222; no bulk extension",
+    "derived_drift": "16/16 and 67/67 known baseline",
+    "corrections": "0 unreceipted named rows; pass",
+    "inbox": "3 ordinary packets REGINALD twice/OZK once plus 1 WALTER signal; relevant rate packet integrated; other ordinary packets left in place",
+    "WALTER": "SIG-W-20261012-005 read info-only; receipt and processed move in writeback"
+  },
+  "quote": {
+    "method": "scripts/market.py quote WAL; sandbox DNS failed then approved network retry succeeded",
+    "result": "$73.73, -1.29%; today-asof check passed (no stale/no-asof tag)",
+    "basis": "regularMarketPrice vendor quote for October13; not independently established official close"
+  },
+  "calculations": {
+    "AFS_cost": 19547,
+    "AFS_FV": 18880,
+    "AFS_net_gap": 667,
+    "AFS_hedged_cost_share_pct": 17.81347521358776,
+    "AFS_MBS_FV_share_pct": 48.08262711864407,
+    "HTM_gross_gap": 179,
+    "static_extra_10pp_IB_beta_shock_100bp_M": 54.184000000000005,
+    "static_extra_10pp_IB_beta_ramp_100bp_M": 27.092000000000002,
+    "common_equity_Q2_change_M": 227.2
+  },
+  "remaining_unknowns": [
+    "net effective/key-rate securities duration, hedge tenors and security-specific designation/notional",
+    "modeled forward NII dollar base and dynamic growth/prepayment/deposit-duration schedules",
+    "September30 positions and actual deposit-remix economics, awaiting existing Q3 disclosures",
+    "June named reciprocal-program subtotal versus MD&A total",
+    "recipient integration and live closeout transport unverified"
+  ],
+  "validation": {
+    "frozen_frames": {
+      "Q2_GRADING_FRAME_2026-07-21.md": "BYTE_IDENTICAL",
+      "PREPRINT_RECON_2026-07-17.md": "BYTE_IDENTICAL",
+      "Q3_PRINT_GRADING_FRAME_2026-09-24.md": "BYTE_IDENTICAL",
+      "Q3_10Q_GRADING_FRAME_2026-09-24.md": "BYTE_IDENTICAL"
+    },
+    "KB_rows": 222,
+    "KB_groups": 20,
+    "KB_columns": "all 13; unique IDs",
+    "AFS_cost_FV_sum": "PASS",
+    "FHLB_capacity_less_advances_and_LCs": "PASS",
+    "common_equity_flow": "PASS at printed 0.1M precision",
+    "STATUS_lines": 137,
+    "STATUS_bytes": 22768
+  },
+  "carried_Will_items": "Will October13: no results unless REGINALD pulled them; targeted REGINALD owner/inbox/outbox/report search found no recorder or renewal receipt; credential contents not accessed.",
+  "delivery": "Prepared dated self-authored inbox packets; committed version and recipient acknowledgment to be checked separately. No verified live fleet messaging."
+}

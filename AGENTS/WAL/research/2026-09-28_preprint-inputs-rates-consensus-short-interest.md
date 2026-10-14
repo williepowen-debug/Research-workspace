@@ -39,7 +39,7 @@
 
 **Read (factual, then labelled inference):**
 - **WAL is asset-sensitive on NII**: rates up ⇒ NII up; rates down ⇒ NII down, and the **downside sensitivity grew Q1→Q2** (−200 shock −7.1% → −8.6%) while the upside was flat. Modelled deposit betas fell (53% vs 55%; ECR 70% vs 74%).
-- **EVE falls when rates rise** (−4.4% at +100, −10.5% at +200) — the long-rate channel the AOCI mark sits on. With the 10Y at 5.24% intraday on 9/28 (5.11% on 9/23), this is the rate channel that can hurt at the print.
+- **EVE falls when rates rise** (−4.4% at +100, −10.5% at +200) — [this shorthand superseded October13; see dated qualification below] the long-rate channel the AOCI mark sits on. With the 10Y at 5.24% intraday on 9/28 (5.11% on 9/23), this is the rate channel that can hurt at the print.
 - *Inference, labelled:* the Fed's +25bp on 9/16 is, on the gradual-ramp line, roughly **+0.8% of 12-month NII** (¼ of +3.2%, linear) — a tailwind the Q2 guide already assumed (KB-117). It is **not** a forecast of the Q3 number.
 - **Use at the print (§10.2):** N1 (NIM ≤ 3.47%) and N2 (deposit cost ≥ 1.88%) remain the registered tests. This table does not change them; it tells the grader which direction rates *should* push NII and EVE, so an NII/NIM miss in a rising-short-rate quarter is harder to blame on rates.
 
@@ -99,3 +99,11 @@ v2.4 ranges (SCENARIOS §EV SUMMARY): the $70 strike is **in the money** in Bear
 - **yfinance `earnings_estimate` 0q:** avg 2.44476 · low 2.18080 · high 2.710 · yearAgoEps 2.15170 · n 13. `revenue_estimate` 0q: avg 989,029,160 · low 967,643,470 · high 1,005,900,000 · n 12 · yearAgo 938,200,000. `eps_trend` 0q: current 2.44476 · 7d 2.45099 · 30d 2.45099 · 60d 2.49266 · 90d 2.63361.
 - **FINRA rows:** as tabled above (fields: settlementDate, currentShortPositionQuantity, changePercent, averageDailyVolumeQuantity, daysToCoverQuantity; revisionFlag null on all).
 - **10-Q text:** the two tables and the beta sentences are quoted from Item 3 as printed.
+
+---
+
+## Dated qualification — October 13, 2026 (original tables and as-made inference preserved above)
+
+Fresh Q2 primary independently reproduces section1 numerical tables/betas. EVE is the present value of whole-balance-sheet cash flows, including liabilities/off-balance-sheet items and hedges; it is **not an AOCI/TBV forecast or the securities mark alone**. The earlier phrase “the long-rate channel the AOCI mark sits on” is superseded as a causal shorthand, not as a numerical table correction. Hedges are already included in the disclosed model.
+
+The section1 quarter-of-ramp estimate is arithmetic on a disclosed parallel12-month ramp, **not an estimate of the actual September Fed step**: timing/curve paths differ and the forward base may already include the change. An NII/NIM miss cannot by itself establish higher funding pressure. Same+100bp ramp broader EaR is only+0.8%, after rate-sensitive deposit/mortgage items. Full reconciliation, company-specific assumption diagnostics and sources: `2026-10-13_securities-hedges-rate-model-reconciliation.md`. Frozen N1/N2/N3/N4 and credit grading rules remain unchanged.

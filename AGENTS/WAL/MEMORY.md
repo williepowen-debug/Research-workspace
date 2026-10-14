@@ -1,5 +1,7 @@
 ## Session Notes
 
+**⚠️ Open question (October13):** do September securities marks coexist with durable all-in earnings, or does costly funding replacement join them? The model is NII-positive/EaR-nearly-neutral and EVE-negative; net duration and actual remix economics remain unknown. Report: `research/2026-10-13_securities-hedges-rate-model-reconciliation.md`. Existing print/10-Q resolve; no new rule.
+
 ## ⛔ RAISE WITH WILL AT BOOT (re-stated 2026-09-28 late, after Will's WQ-324/325 rulings)
 
 1. **Riverside recorder search (Moreno Valley DOT)** — **Will: "run it before Tuesday" (9/28).** His hands only (reCAPTCHA); WAL does NOT attempt it. **At boot: ask for the results; fold into KB-205 + research Nano file §9b.** Name search = first sweep; a branch closes only on the recorded instrument matched on APN. Ontario/Chino are San Bernardino. WAL does not hold the DOT instrument numbers.
@@ -18,7 +20,18 @@
 
 ---
 
-**LAST SESSION (2026-10-09 Fri ~10:55–11:1x ET — WAL session #12, PROME `prome-75` re-spawn, Tier 1 inside WQ-328, Will's 10:24 word, DESKTOP, one bounded task):**
+**LAST SESSION (2026-10-13 evening ET — WAL session #13, Will-launched Codex):**
+
+- Read root AGENTS/CLAUDE/USER, local CLAUDE/status/handoff, runtime mechanics and REGINALD's latest working report before research. Local AGENTS.md absent; user instruction applies. No helpers launched. Cross-session fleet messaging unavailable; packet consumption/closeout receipt UNKNOWN.
+- Focused rates report completed: fresh full Q2 SEC download after approved network retry; selected Notes2/8/11/12, equity/MD&A/Item3 read. September28 tables reproduced; source gaps closed for June securities/hedges/headroom. Public measured duration and model schedules remain unknown. KB219–221 and factual extraction/receipt saved; funding/peers untouched. Durable packets → PROME and REGINALD; owner integration pending.
+- Old September28 EVE/AOCI and25bp-ramp inferences qualified in a dated addendum; no numerical table or frozen frame changed. Q2 common-equity flow ties227.2M; net September rate marks cannot be forecast from disclosed sensitivities.
+- Fresh vendor WAL quote73.73 (−1.29%), today-asof pass; official close not independently verified. Price-only; no guard graded. KB222 replaces211; no valuation change.
+- WALTER SIG-W-20261012-005 read info-only/rowed; git-move to processed in closeout. Other ordinary Nano/OZK inbox items remain out of this focused task. No silent expiry extensions;205/197/214 still need scoped follow-up. PREDICTIONS stale-data warning is not a grading event; row states/deadlines unchanged.
+- Git pull and push deferred under root rule: REGINALD/PROME have active uncommitted/staged work. Own pathspec commits required; no sweep of peer files. Final NEXUS fold pinned after STATUS commit. Will replied October13: he does not have Riverside/FFIEC renewal results unless REGINALD has pulled them. Targeted REGINALD artifact search found no receipt; both stay open.
+
+**NEXT SESSION — rate reconciliation:** (1) Read any REGINALD acknowledgment/source disagreement; compare the exact report/extract version, do not repeat the funding/peer sweep. (2) At October19 release / October20 call, read NII/NIM and all three ECR/referral lines with mortgage results, optimization/assets/funding, equity/payouts and existing credit frames. (3) At Q3 10-Q, read Notes2/12, AOCI/equity, collateral and Item3; keep net duration UNKNOWN if not disclosed. (4) Retain all registered grades/specifications; current research is explanatory context, not a new gate. Prior ranked obligations below are unchanged.
+
+**PRIOR SESSION (2026-10-09 Fri ~10:55–11:1x ET — WAL session #12, PROME `prome-75` re-spawn, Tier 1 inside WQ-328, Will's 10:24 word, DESKTOP, one bounded task):**
 
 - **Hotel perimeter: OUTCOME = GAP with the cause named** → research §6 + KB-218 + 10-Q frame §8 (O6–O8, non-gating). FY2025 10-K: segments pooled by **originating business line** (HFF = "originated within this business line"), and property type = **collateral** split of loan-type CRE-NOO. The 10-K Item 1 table and Note 4 tie only at the total ($58,677M). **≥$376M of hotel collateral sits outside HFF** (lower bound), with no hotel-separated credit line (INFERRED home Other CRE-NOO). **Missing: a segment × property-type crosswalk** (absent from the 10-Q and the 10-K). Gap stable at $352–376M across four dates, 12/31/24 to 6/30/26.
 - WALTER SIG-W-20261009-007 rowed `noted` (duplicate of -20261007-007). **REGINALD packet `inbox/2026-10-09_from-REGINALD_nano-banc-bid-summary-O1-not-resolved.md` NOT processed** (out of scope; next session).
