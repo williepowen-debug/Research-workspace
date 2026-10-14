@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-13 evening, focused WAL reconciliation; STATUS pin `f1b7b525b`.** Gates retain10/12 settled bars and10/13 boot quotes; this review refreshed no prices. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
+**As of:** **2026-10-13 evening, focused WAL reconciliation; STATUS pin `31c02fd74`.** Gates retain10/12 settled bars and10/13 boot quotes; this review refreshed no prices. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
 
 ## CROSS-DOMAIN
 
@@ -86,7 +86,7 @@
 
 **Review follow-up,10/13:** `reports/2026-10-13_review-response_forward-judgments.md` adds dated analytical expectations and four-bank expense/book sensitivities.16 bridge numeric cores checked at issuer primaries;5 VLY fresh rechecks incomplete. WAL source-date/locator repairs only. Sustainable earnings/multiple and current consensus still gate a pricing-edge claim; no peer-prior/frozen-rule/PASS change.
 
-**WAL focused result (Will,10/13):** `reports/2026-10-13_WAL_rate-funding-reconciliation.md`: fresh Q2 ramp NII+3.2% versus broader EaR+0.8%; ECR/mortgage offsets narrow resilience. Actual marks, Q3 remix economics and pricing edge remain unknown; shock/EVE fresh check incomplete. PROME/WAL packets saved at `f1b7b525b`, consumption unverified. Existing frames/priors unchanged.
+**WAL focused result (Will,10/13):** `reports/2026-10-13_WAL_rate-funding-reconciliation.md`: NII+3.2% versus broader EaR+0.8%. Original Q2 filing now directly checked via WAL03e60dc0e: June model, hedges, headroom/equity verified. Duration/model bases and Q3 net marks/remix/pricing edge remain unknown. Integration packets at31c02fd74; new consumption unverified. Frames/priors unchanged.
 
 - **What:** **the Q3 read plan's frames, one per print, CFG first (Fri 10/16)**: WQ-318 rows (UP/DOWN/INCONCLUSIVE per bank), CRE §6 lines, L35/L521, FL frame + A3, AMTB non-CRE lines. **The §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION.** Plus `REG-T-02` exit grading every settled close (0-of-3,29 rows through10/12), the tier test on each FRED cell, and the weekly funding read (H.4.1 Thu 10/15, H.8 Fri 10/16).
 - **When:** 10/16 · 10/19 · 10/20 · 10/21 (+ FLG/CUBI TBA); every close; FRED each morning ~10:15 ET.
@@ -110,4 +110,4 @@
 
 ---
 
-*Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `f1b7b525b`; amendment12 ordering retained. Exact source arithmetic, verification split and boot capability gaps are in the October13 reports/receipts. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
+*Brief format follows NEXUS_BRIEF schema. Folded2026-10-13 evening as LAST write-back after STATUS commit `31c02fd74`; amendment12 ordering retained. Exact source arithmetic, verification split and boot capability gaps are in the October13 reports/receipts. Previous full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`.*
