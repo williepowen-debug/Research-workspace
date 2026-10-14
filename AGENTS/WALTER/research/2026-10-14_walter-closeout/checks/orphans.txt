@@ -1,0 +1,16 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/DEWEY/output/2026-10-14_ports-pike-power-rights-payment-bridge.md
+     [not yours]    AGENTS/DEWEY/output/INDEX.tsv
+     [not yours]    AGENTS/HENRY/inbox/2026-10-14_from-DEWEY_ports-pike-power.md
+     [not yours]    AGENTS/VULCAN/inbox/2026-10-14_from-DEWEY_ports-pike-power.md
+     [not yours]    AGENTS/WAL/INDEX.md
+     [not yours]    AGENTS/WAL/MEMORY.md
+     [not yours]    AGENTS/WAL/REGINALD_CHANNEL.md
+     [not yours]    AGENTS/WAL/STATUS.md
+     [not yours]    AGENTS/WAL/WEAKNESSES.md
+     [not yours]    AGENTS/WAL/research/2026-10-14_FY2027-earnings-bridge.md
+     [not yours]    AGENTS/WAL/research/2026-10-14_WAL-focused-followup-scope.json
+     [not yours]    AGENTS/WATT/inbox/2026-10-14_from-DEWEY_ports-pike-power.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

@@ -91,6 +91,6 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**CHANGES SINCE — 2026-10-14T15:14:08Z, Will-requested full reboot closeout:**72 bookmarks/81 dispositions complete;21 signals/53 owner packets, exact726 processed/0 staged. Three bounded helpers explicitly finished;DEWEY final commission closed, physical supply UNKNOWN. Prior48-item work preserved.
-**NEXT SESSION:** explicitly load root/local/runtime rules, then LAST_COMPLETION.md for the sole current duty list. Reuse completed bookmark evidence; check publication/actual consumption and newly available owner/source evidence before any grade. REGINALD October14 compound-risk report and TERRY October13 position follow-through are pointers, not new WALTER findings.
-No new durable finding/promotion, research commission, trade, monitor or unattended authority. Prior session-note text conserved verbatim at this full entry in SESSION_LOG.md. Calendar size triggerOctober15 retained.
+**CHANGES SINCE — 2026-10-14T18:33:50Z, Will-requested full context/persistence closeout:** October14 source set14 signals/51owner packets,19bookmark dispositions;745processed/0staged. X and other intake health checks saved; six bounded verification helpers explicitly closed.
+**NEXT SESSION:** read LAST_COMPLETION.md; pick up BOND/LIQUID routing returns and DEWEY final handoff when delivered. Reuse prior source/mark evidence; retain dated market/source limitations and Will's scope correction.
+Will confirms DEWEY running; prior diesel commission remains closed. No new trade, monitor or unattended authority. Old session notes conserved verbatim in SESSION_LOG; existing October15 size trigger retained.

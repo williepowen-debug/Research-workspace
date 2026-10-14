@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-14T18:32:18.100686+00:00",
+  "evidence": [
+    {
+      "path": "AGENTS/BOND/analysis/2026-10-14_post-CPI/REPORT.md",
+      "sha256": "264ac2eb6cf746821ca12515d479d2e7ccf80d78006bd5bc151b02717ffb1d49",
+      "review": "Full report read; no market regrade. Incoming routing request retained in inbox, not consumed or moved."
+    },
+    {
+      "path": "AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md",
+      "sha256": "f7dc58c86faec0757bf3c9e7a1fe9d5229e1e61b81bebda53f72c6fd6beef3c8",
+      "review": "Full report read; no market regrade. Incoming routing request retained in inbox, not consumed or moved."
+    }
+  ],
+  "dewey": "Will directly reports DEWEY running; writer-owned untracked output not treated as a final return; inbox/DEWEY has no new handoff"
+}

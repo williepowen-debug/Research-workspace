@@ -1,0 +1,191 @@
+{
+  "checked_at": "2026-10-14T17:42:38.489098+00:00",
+  "lanes": {
+    "phone": {
+      "rc": 0,
+      "output": "PHONE-SIGNAL scan \u2014 RESEARCH-INTAKE/phone_inbox/\n================================================================\n\n[status] `phone_inbox/` does not exist in the lane yet.\n         PART A (Will's PAT + iOS Shortcut) has not been enacted, OR\n         no signal has ever been sent. This is NOT an error.\n         The sweep is live and will pick up the first signal automatically.\n"
+    },
+    "dropzone": {
+      "rc": 0,
+      "output": "0 content file(s) pending\n"
+    },
+    "intake": {
+      "rc": 0,
+      "health": [
+        [
+          "OK",
+          "last_run 2026-10-13T20:28:37Z (1 missed weekday runs, 0 calendar days)"
+        ],
+        [
+          "OK",
+          "news search items saved: 184 (trailing median 184 over 10 batches)"
+        ]
+      ],
+      "new_scanner_records": 18,
+      "suppressed": 5,
+      "keys_identical_to_morning": true,
+      "records": [
+        {
+          "feed": "newsweep",
+          "label": "3 NEW_ALERT",
+          "key": "news:NEW_ALERT:data/2026-10-13/news.json"
+        },
+        {
+          "feed": "newsweep",
+          "label": "8 NEW_WATCH",
+          "key": "news:NEW_WATCH:data/2026-10-13/news.json"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+          "key": "news:WATCH_HIT:459e5f18f63e"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+          "key": "news:WATCH_HIT:f0c71b25355d"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export'; BRENT:'US diesel export']",
+          "key": "news:WATCH_HIT:17bfe9bf81de"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+          "key": "news:WATCH_HIT:e2297e3adbbc"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+          "key": "news:WATCH_HIT:aa1f28bfe0ef"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+          "key": "news:WATCH_HIT:f6974e9758d1"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+          "key": "news:WATCH_HIT:99499f3d20a1"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+          "key": "news:WATCH_HIT:f541e3aacab1"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [HENRY:'refinery attack']",
+          "key": "news:WATCH_HIT:008d4625bbca"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [WATT:'DOE emergency order PJM']",
+          "key": "news:WATCH_HIT:28c043b83cad"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [WATT:'FERC rejects PJM data center']",
+          "key": "news:WATCH_HIT:7265e0084a3b"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [HAWK:'Yanbu terminal']",
+          "key": "news:WATCH_HIT:43b89515e97c"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [FALCON:'Yanbu loadings'; FALCON:'East-West pipeline'; BRENT:'East-West pipeline resume'; BRENT:'Yanbu loading']",
+          "key": "news:WATCH_HIT:be9af3f086af"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia lifts diesel export ban']",
+          "key": "news:WATCH_HIT:2289a8ec8675"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [HANS:'EU gas storage']",
+          "key": "news:WATCH_HIT:11b9058c1f18"
+        },
+        {
+          "feed": "newsweep",
+          "label": "WATCH_HIT [HANS:'EU gas storage']",
+          "key": "news:WATCH_HIT:2e0250b05881"
+        }
+      ]
+    },
+    "corrections": {
+      "rc": 0,
+      "output": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for WALTER (register 76 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 1) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+    },
+    "desk_inbox": {
+      "files": []
+    },
+    "dewey_returns": {
+      "files": []
+    },
+    "request_queue": {
+      "files": []
+    }
+  },
+  "collector": {
+    "last_run": "2026-10-13T20:28:37Z",
+    "status": "ok",
+    "feeds": {
+      "eia_petroleum": {
+        "status": "ok",
+        "alerts": []
+      },
+      "edgar_8k": {
+        "status": "ok",
+        "count": 0
+      },
+      "treasury_auctions": {
+        "status": "ok",
+        "count": 40
+      },
+      "cftc_cot": {
+        "status": "ok",
+        "alerts": [
+          "cftc_cot VIX lev-money net=5494 [orange] (net-long vol / de-risking regime)"
+        ]
+      },
+      "fred": {
+        "status": "ok",
+        "alerts": [
+          "UMCSENT UMich sentiment=51.7 [orange]",
+          "MORTGAGE30US 30yr mortgage rate %=7.4 [red]",
+          "BAMLH0A0HYM2 HY OAS bps=311.0 [red]",
+          "BAMLH0A0HYM2 HY OAS=311bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)"
+        ]
+      },
+      "newsweep": {
+        "status": "ok",
+        "alerts": [
+          "Ukraine War, Day 1,692: Russia - After Trump Deal, We Can Return Diesel Exports  [NEW_WATCH_HIT]",
+          "Bipartisan senators press Trump to rescind Russian diesel export deal - Washingt [NEW_WATCH_HIT]",
+          "Bipartisan group of US senators urges Trump to reverse sanctions relief for Russ [NEW_WATCH_HIT]",
+          "Ukraine war briefing: Russian diesel exports could return to past levels after T [NEW_WATCH_HIT]",
+          "Russia Eyes Higher Diesel Exports Under Deal Announced by Trump - Egypt Oil & Ga [NEW_WATCH_HIT]",
+          "Oil prices fall as Russia diesel export claims offset Gulf supply concerns - Inv [NEW_WATCH_HIT]",
+          "Russia claims global diesel exports will exceed Trump levels - Arabian Gulf Busi [NEW_WATCH_HIT]",
+          "Moscow claims its diesel export capacity will outpace Trump's announced targets  [NEW_WATCH_HIT]",
+          "Saudi-Owned Refinery Was Buyer of Oil on Cyberattacked Tanker - Bloomberg.com [NEW_WATCH_HIT]",
+          "Banks in France could collapse because \u2018widening riots can cause deposit flight, [NEW_ALERT]",
+          "A Kansas Community Bank Is the Fourth Bank Failure of 2026 - KBRA [NEW_ALERT]",
+          "FORTE.E Trading Halted Briefly as Circuit Breaker Triggers Volatility Control -  [NEW_ALERT]",
+          "Largest US Grid Operator PJM Triggers \u2018Maximum Gen Alert\u2019 as DOE Issues Emergenc [NEW_WATCH_HIT]",
+          "FERC OKs part of PJM\u2019s data center plan, rejects the rest - The Dominion Post [NEW_WATCH_HIT]",
+          "France assesses military deployment at the Saudi terminal in Yanbu amid parliame [NEW_WATCH_HIT]"
+        ]
+      }
+    }
+  },
+  "lane_sync": "Already up to date; clean checkout; ff-only pull successful",
+  "telegram": "No Telegram tools exposed in current runtime; live inbound/outbound unverified",
+  "legacy_cron": "Retired/superseded under charter7c; intentionally not restarted",
+  "checked_after_sync_at": "2026-10-14T17:43:21.846727+00:00"
+}

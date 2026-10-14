@@ -1,53 +1,38 @@
-# WALTER LAST_COMPLETION — October14 morning catch-up
-Runtime: OpenAI Codex/GPT-6 family; exact variant/native UUID UNKNOWN; thread /root. Updated 2026-10-14T16:28:26Z. Will-launched11:55EDT; bounded morning routing/Tier1 persistence, no end-of-day closeout.
-
-## CURRENT PICKUP — 2026-10-14T17:56:57Z — three-thread verification
-
-Will authorized looking into power/AI, diesel/cost transmission and insurer/private-credit funding; this supersedes earlier no-new-research wording only for this bounded pass. Three read-only helpers returned and explicitly closed. Evidence: AGENTS/WALTER/research/2026-10-14_three-thread-verification/REPORT.md. Two PRIORITY source packets013/014, seven create-only hands; one prepared DEWEY power-contract candidate REQ-DEWEY-20261014-001, not an accepted commission/launch. Existing diesel commission remains closed. Insurer evidence/acquisition stays SHADE/WQ422; no gated statutory dig or owner grade. All three underlying economic questions retain explicit gaps.
-
-Source packets committed locally at d540a59b844f506fd3924a165478cf2d7456ce7a. Publication/delivery/consumption remain pending until separately evidenced. No native fleet presence/transport or recipient acknowledgment claimed. No new Will permission question; a DEWEY owner session has not been opened. Existing unrelated source/design obligations and all prior receipts below remain retained with their dates. No positions involved.
+# WALTER LAST_COMPLETION — October14 full context/persistence closeout
+Runtime: OpenAI Codex/GPT-6 family; exact variant/native session UUID UNKNOWN; task/root. Updated 2026-10-14T18:33:50Z. Will explicitly requested committing and pushing WALTER after a long session. Source/market boot coverage remains PARTIAL.
 
 ## STATUS
 
-Boot PARTIAL: rules/state/registries loaded with scoped access limits; no full market clearance.12 morning signals/44 create-only hands,3 IMMEDIATE/9 PRIORITY; one FT08 qualification, one external Ornn correction;19 bookmark dispositions in CLOSED BM-20261014-05. Exact19 marked after source/metadata commits;745 processed/0 staged. Three RULE9 read-only helpers explicitly done; no owner launch. Prior72 batch stays complete.
+Current source set14signals/51create-only owner hands (3IMMEDIATE/11PRIORITY); morning19bookmarks dispositioned and source-backed marks complete,745processed/0staged. Six bounded verification helpers explicitly closed across two passes. Full continuity write-back now replaces earlier light summaries; existing market/source gaps remain. Will confirms DEWEY running the approved power-contract assignment; no final return consumed.
 
 ## CHANGED
 
-12 BOARD packets/generated INDEX, route/delivery/kill/fire/correction/batch ledgers; bounded STATUS market rows and LAST_COMPLETION;19-ID captured mapping and source receipts under research/2026-10-14_morning-news. REGISTRY headers reviewed; exact creates only in recipient lanes/PROME. No foreign state changes.
+REGISTRY refreshed before derived STATUS/network; STATUS lead/bottomline and source pointers, MEMORY sessionnotes, SESSION_LOG, currentcompletion, deep-research execution note and seven delivery flags. Previously uncommitted read-only bookmark/intake receipts included in exact own-path persistence. Beforeimages, ownerreview and checks under AGENTS/WALTER/research/2026-10-14_walter-closeout. No new signals, owner state edits, source-ledger marks or foreign stages.
 
 ## RESULT
 
-Official CPI qualifies RED-FT08 at3.247216% TableA annualized; RED owns integration/weight execution. Singapore MPA names GFS Pride sinking and GFS Giselle strike; mine mechanism and owner loss census unresolved. IEA crude/product split, BAC/MS counterevidence, ASML guidance, Redfin September/Florida, Netflix global cuts,2027 COLA, attributed StarShield and qualified Cato/Ornn inputs saved. CBOE October13 recovered, SKEW3/4/no early fire.19 bookmarks fully dispositioned; CFTC repeats fold into prior review.
+Fresh origin fetch proves all six named prior WALTER source/metadata/mark/access/three-thread commits and51/51October14handoffs. Two later owner returns remain queued. Source findings retained: CPI and realearnings, named MPA shipping loss, IEA crude/product split, bank/AI/housing counterevidence, PORTS-Pike rights/cost gates and dated diesel/surcharge relief. No new owner grade or market refresh in closeout.
 
 ## GAPS / OWED
 
-Exact19 marked after source commit:745 processed/0 staged. Source/metadata commits now published by coordinated train;44/44 handoffs origin-proven/reconciled, actual recipient consumption remains separate. Foreign REGINALD/FORGE/PROME work observed; main-repo pull and self-push deferred under root protocol; source/metadata exact receipts are saved; marker/current continuity are locally persisted with the exact-path final commit; origin publication of that final state remains to reconcile. No verified native fleet transport or absence; UNKNOWN recipients never doorbelled.
+Current closeout commit/publication follows; source publication and actual recipient integration remain separate. Two BOND/LIQUID routing packets require the next source-routing pass. DEWEY report is in progress under its own writer; no premature return or resolution claim.
 
-Boot/source scope: local CLAUDE70,223B exceeds budget/cap; basis29MATCH certifies declaration only. Four registry families48 rows loaded (RED12/REG8/CREED11/HANS17); daily/compound HANS closes, monthly/qualitative rows, fresh Cushing/official futures not comprehensively graded. FRED credit/VIX latestOctober13; H15 latestOctober9; fixed futures contract-month probe incomplete, no settlement grade. Iran full clock remainsOctober8; current MPA/Reuters leg does not reset it. ASML/Redfin/SSA/MPA some publisher bodies accessible only as extended indexed text; original Netflix memo/StarShield notice/Bloomberg full story remain unavailable.
-
-Research-Intake clean ff-only pull already-up-to-date; snapshotOctober13,6 feedsOK/1 missed weekday run. Prior27 items remain dispositioned but body-gapped/unmarked; no silent bulk mark. Phone lane absent/no pending files, drop-zone0, top-level inbox0, REQ queue0; no active liaison. Existing physical-diesel/source/broker/Will-design duties below retained; DEWEY final complete/no new commission.
+Localcharter70,223B still exceeds read-cap budget; no charter migration approved here. USER.md changed during this session; the paired boot-basis hash and October12 READS attestation now require re-review/re-attestation. Current USER.md was explicitly read; the manifest is not silently re-stamped. Full daily/compound HANS closes, monthly/qualitative registry coverage, Cushing/official named-month settlements, complete Iran/freight survey and several publisher bodies remain source-limited at their actual dates. No full market clearance. Phone lane has no input folder and live delivery unverified; Telegram tools unavailable. Old16-file source cache is intentionally unstaged/untouched, not unsaved authored work. Foreign desks' work remains theirs; no mainrepo pull or stash/rebase.
 
 ## WILL_NEEDS
 
-Will scope correction October14: expiry management and reminders are not WALTER duties; Will already handles them. Preserve TERRY/broker records as dated context only, and do not resurface expiry choices in WALTER news briefs. X access rechecked October14 16:54:33Z: direct first-pageHTTP200/50bookmarks, existingtoken accepted; no refresh/staging/marking, dedup bytes unchanged. Evidence: research/2026-10-14_morning-news/bookmark-access-probe.json.
-
-No new research/trade decision. No new decision for this closeout. Existing Will-owned choices remain: unactivated charter migration requires its per-pass checkpoint; WQ401 set sub-question (line set versus DOORBELL_LOG set), WQ388 unattended-WALTER question forOct17, optional subscription and optional step7h encode. No renewed ask or unattended permission.
-
-TERRY October14 12:08EDT owner receipt now books QQQ744P closed and QQQ740P October15 reduced to3; these discharge the old QQQ744P carry. USO October14 150C x2 still carries today’s expiry rail in that dated receipt; current working orders/fill times UNKNOWN. VLO2total/original1 scope/secondUNKNOWN and other existing cards remain at TERRY. This is owner evidence, not a current broker snapshot or new WALTER trade recommendation.
+None newly required for this closeout. Will authorized commit/push and confirmed DEWEY running. Existing unactivated charter/design checkpoints, WQ401/WQ388, optional subscription/step7h choices remain at their owners; no renewed ask. WALTER scope remains news/source routing; position expiry management/reminders stay with Will/TERRY. No trade or unattended permission inferred.
 
 ## FOLLOW-UP
 
-**Resume point:** inspect research/2026-10-14_morning-news/ source/commit/mark receipts and pending publication; read owner acknowledgment before claiming integration. FT08 owner execution, MPA identity/census and today’s eventual CBOE4th bar remain separate. Prior72/48 bookmark batches stay complete;19 captured morning IDs must never repeat after exact source-backed mark. Intake body gaps retain old dispositions; no new deep research or trade.
-
-1. Prior boot/intake/repair/Rosner receipts remain at their named research paths. Old completion bytes conserved at `archive/LAST_COMPLETION_2026-10-13_before-session-closeout.md`; earlier exact history at `archive/LAST_COMPLETION_2026-10-12_before-bookmark-history-rotation.md`. READS transcription/29 paired hashes were resolved at their committed candidate; recheck basis only after future boot-operation changes. Runner repairs implemented; independent acceptance/time savings remain separate, no expansion commissioned.
-2. Intake lane: first gpu-obsolescence hitOct11 was stale MacroMicroAug21 commentary, killed. Assess fresh items at the next existing AI_INFRA_CAPEX review; no new monitor/five-axis re-cut.
-3. Iran: next existing full targetOct15 or earlier available-source pass. Oct12 source improvements did not resetOct8 full clock. Reconcile UKMTO/IMO losses with FALCON, preserve gas/refining OUT classification and owner grades. Anchor rotation discharged; no stale above-stop carry.
-4. RED-FT10: eligible CBOE Oct12/13/14 closes, earliest four-closing fireOct14; VIOLET owns. October13 official154.74 recovered after155.06/154.34:3/4;SIG-W-20261014-012;no earlyfire beforeOctober14 publisher close. Re-pull eligible credit/official settlements; HANS intraday yields are not close fires.
-5. DEWEY: CARL-DR-1 PARTIAL/dueNov13,Q3 pending; REQ-DEWEY-20261010-001 final bounded research return complete under Will’s finish-and-close instruction, read at transport closeout. Final report: AGENTS/DEWEY/output/2026-10-13_diesel-commission-final.md. Physical/signedannex/US-law/ICE gaps remain UNKNOWN for existing owners;no future DEWEY pass owed.
-6. Existing owner returns retained: LIQUID-1007; BRENT-1008/-003; VULCAN/BROCK-1009; FALCON gas/theater/UKMTO loss basis; OSPREY series/deal branch and1272 correction; YURI signed diesel terms; BOND/ZHAO-004; HENRY/VULCAN-006; CORAL PembrokeLakes-1008-040; CREED Trepp-1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. CARL SCF base/debtor-numerator resolved atKB504/529; do not rediscover it. TERRY/OZK primary integration already observed; no universal reply obligation inferred.
-7. X pilot reviewOct17 carries dated renewal/timeouts/WSL authorization evidence plus successful retry. Exactly48 prior-reviewed IDs remain marked. Prior batch added exactly72 after source commit,726 processed. Morning19 exact IDs are fully dispositioned; marked exactly after source commits;745 processed/0 staged verified in mark-proof.json. Retain exact mark proof and no unattended authority. Staleness sweepOct24; MEMORY size check performed at this full closeout;calendar triggerOct15 remains.800 tracked research/source paths have0eligible-age candidates; source vintages not refreshed.
-8. Existing dated owner clocks: bankQ3/KS WARN and SHADE eligible post-closeOct13; CPIOct14 08:30ET; WPSROct15 noonET/VLO December basis/LIQ07Oct15–16; Oct16 expiries/MTB/CFG/H.8/tanker weekly; WALOct19–20; OZKOct20AMC/21call; FOMCOct27–28/UKBudgetOct28/ECBOct29; BZZ26LTD Oct30/boundary8January switchNov2; Treasury financingNov2/refundingNov4. These are carried owner dates, not independently reverified calendar advice. Oct12 bond holiday/QQQ expiry are historical, not upcoming.
-9. PROME: retain CATO registry questionWQ255, YURI WATCH_FOR gap, WQ388/WQ401 questions, Telegram/receiving-visibility gaps and existing publication/acceptance duties. No GateC or scheduling activation. Three explicit helper closeout answers and Will's direct closeout ask are in the new evidence packet; PROME owns lifecycle ledger write-back, process exit not inferred.
+1. **New owner returns:** inbox/2026-10-14_from-LIQUID_ROUTE-credit-broadening-and-mixed-etf-redemptions.md requests dated IG/BBB/ETF context to REGINALD/BROCK/HENRY. BOND post-CPI return is also queued. Reports read and hash-pinned here; packets remain in place and are not claimed routed/consumed. Source figures retain October13/intraday cutoffs; no new threshold grade.
+2. **DEWEY power:** REQ-DEWEY-20261014-001 is PENDING execution/return, now approved and running per Will. Do not duplicate its launch or consume its in-progress output. Await actual final handoff, inspect full returned report, verify direct recipient stubs, close audit row only on delivered evidence. Prior REQ-DEWEY-20261010-001 diesel study stays final/closed, underlying delivered supply/signed allocation/cargo/customs/ICE UNKNOWN. CARL-DR-1 remains PARTIAL/dueNov13, Q3pending.
+3. **Source and research:** retain morning FT08 owner execution and FALCON MPA loss-census ownership; RED-FT10 October13 SKEW3/4, no earlyOctober14 close fire. Next existing Iran full targetOct15 (fullclockOct8); gas/refining OUT classification and FALCON clock not reset by partial source improvements. Intake27articles remain assessed/body-gapped/unmarked; source-access failures are not absence. Named diesel margins/actual deliveries and insurer SHADE/WQ422 documents remain unresolved under existing gates.
+4. **Completed work:** do not repeat morning19, prior72/48 bookmark batches or oldDEWEY studies. Xprobe16:54ZHTTP200 and backlogprobe17:36Z0new retain their times; intakehealth17:43Z is not a continuing monitor. Latest collector snapshotOct13, sixjobsOK/one missedweekdayrun; phone delivery and Telegram access remain unverified.
+5. **Existing owner returns/design:** retain LIQUID-1007, BRENT-1008/-003, VULCAN/BROCK-1009, FALCON gas/theater/UKMTO, OSPREY deal/1272 correction, YURI signedterms, BOND/ZHAO-004, HENRY/VULCAN-006, CORAL PembrokeLakes-1008-040, CREED Trepp-1009-002, SHADE Guggenheim, MARCO harness and VULCAN useful-life decisions. CARL SCF numerator already resolved KB504/529; TERRY/OZK prior integration observed, no universal reply obligation.
+6. **Process:** XpilotreviewOct17 retains renewal/timeouts/WSL scope and no unattendedauthority. StalenesssweepOct24; MEMORYsizecalendarOct15 remains. WQ255/WQ388/WQ401 and existing Telegram/visibility/acceptance duties stay open at their owners. No GateC/scheduling activation. Oldposition/expiry carries removed from WALTER's live duties under Will's direct scope correction; exact prior text preserved in the beforeimage.
+7. **Boot declaration review:** current USER.md was explicitly re-read. boot_basis_check reports USER.md changed; reads_check reports attestation stale against that October14 change. Preserve REVIEW until paired hash/perimeter/READS attestation are reconciled at their owners; no false clean declaration.
+8. **Dated owner clocks:** existing WPSROct15noon/VLO basis/LIQ07Oct15–16, MTB/CFG/H8/tankerweeklyOct16, WALOct19–20, OZKOct20–21, FOMCOct27–28/UKBudgetOct28/ECBOct29, BZZ26LTD/boundary8 switches and TreasuryNov2/4 are prior owner-source pointers, not independently reverified calendar advice. No new WALTER position-management duty.
 
 ## OPEN DESIGN DECISIONS
 
@@ -76,14 +61,15 @@ TERRY October14 12:08EDT owner receipt now books QQQ744P closed and QQQ740P Octo
 
 **Carried process ideas:** k, t, u, a, s, j, p. No active top-level REQ.
 
+
 ## CLOSEOUT RECEIPT
 
-Will-requested Tier2 FULL reboot checkpoint;publication, consumption and current research coverage remain separate.
+Full context/persistence write-back; selected checks, publication, recipient integration and market coverage remain separate.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-14T18:04:43Z",
+  "as_of": "2026-10-14T18:33:50Z",
   "publication": [
     {
       "commit": "8e2b066e699429f4780c0914af958d23131d0724",
@@ -94,63 +80,83 @@ Will-requested Tier2 FULL reboot checkpoint;publication, consumption and current
       "state": "published"
     },
     {
+      "commit": "1e27ebd6ef7d6325c8e703e3b24dceb973e0aa7d",
+      "state": "published"
+    },
+    {
+      "commit": "fce8874cdd8afaa8cab6d400078ac245e79d4de5",
+      "state": "published"
+    },
+    {
       "commit": "d540a59b844f506fd3924a165478cf2d7456ce7a",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "8b2ca53959882aa88c9b124b81c928f253d13f95",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261014",
     "total": 51,
-    "delivered": 44,
-    "note": "Morning44 hands origin-proven. New013/014 seven hands source-committed locally at d540a59b844f506fd3924a165478cf2d7456ce7a; publication and integration UNKNOWN."
+    "delivered": 51,
+    "note": "Freshly fetched origin proves all51; seven new rows reconciled. Actual owner integration separate."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Three-thread source committed locally; coordinated origin publication unverified. No WALTER self-push; owner integration separate."
+    "note": "Prior source/mark/access/metadata commits origin-proven; current closeout/check receipt commit and authorized safe-push follow."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-14_morning-news/owner-headers.json",
-        "sha256": "32a52c05d029aa0563bd9d4909561f24a42e77594afad0f898446e6cb3038326",
-        "note": "Pinned first30-line owner snapshot; TERRY new receipt/REGINALD synthesis pointers consulted, not actual integration of new WALTER packets."
+        "path": "AGENTS/WALTER/research/2026-10-14_walter-closeout/owner-headers.json",
+        "sha256": "6450643c75cee9a2875ccf9199cad3b80382f42a57df9d22c2da4251e6adbe36",
+        "note": "Header-only registry context, not recipient integration."
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-14_morning-news/verify-war-cftc.md",
-        "sha256": "9169ea7785b5adde1148d7016948506c9d61527ed5e1081c6972a2b7e8e6b481",
-        "note": "Bounded source verification, not FALCON census/gate adoption."
+        "path": "AGENTS/BOND/analysis/2026-10-14_post-CPI/REPORT.md",
+        "sha256": "264ac2eb6cf746821ca12515d479d2e7ccf80d78006bd5bc151b02717ffb1d49",
+        "review": "Full report read; no market regrade. Incoming routing request retained in inbox, not consumed or moved."
+      },
+      {
+        "path": "AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md",
+        "sha256": "f7dc58c86faec0757bf3c9e7a1fe9d5229e1e61b81bebda53f72c6fd6beef3c8",
+        "review": "Full report read; no market regrade. Incoming routing request retained in inbox, not consumed or moved."
       }
     ]
   },
   "owed": [
-    "Coordinated publication and recipient integration",
-    "RED FT08 execution; FALCON MPA identity/loss-census grade",
-    "CBOE October14 final close; source-limited remaining registry coverage",
-    "Existing intakebody/diesel/source/design duties retained in FOLLOW-UP",
-    "Current013/014 source persistence/publication and owner integration; proposed DEWEY rights/payment bridge not commissioned"
+    "Two committed BOND/LIQUID owner-return routing packets remain in inbox; no silent consumption",
+    "DEWEY final power-contract handoff and then ledger/delivery audit",
+    "RED FT08 owner execution; FALCON loss-census grade; official October14 SKEW close and existing source-limited coverage",
+    "Existing intakebody/diesel/insurer/design duties retained below",
+    "Current closeout exact-path commit and authorized publication/receipt reconciliation"
   ],
-  "next_review": "2026-10-14",
+  "next_review": "2026-10-15",
   "procedure": {
-    "tier": "light",
-    "scope": "Three-thread framing verification, two source packets and seven hands; not three full deep studies",
-    "claim": "Bounded checks complete; economic/source outcomes partial"
+    "tier": "full",
+    "scope": "Full context/persistence write-back steps13,12,14,15,16; market boot/source coverage partial",
+    "claim": "Selected checks and final publication receipt follow; no full market-clearance claim"
   },
   "manual_duties": {
-    "helpers": "Three current read-only verification helpers returned and explicitly closed; helper-closeout.json. Not owner launches or fleet census.",
-    "16": "Source d540a59b844f506fd3924a165478cf2d7456ce7a local; seven new hands pending publication. Morning44 proof retained; no self-push.",
-    "15": "Current pickup preserves earlier obligations and dated receipts. Existing diesel study final; insurer SHADE/WQ422 dependency and gates retained.",
-    "Tier1": "No new market/threshold grade; source-specific dates and uncertainties recorded.",
-    "root.memory": "No auto-memory edit",
-    "root.retirement": "New evidence datedtoday and active; no retirement move; prior wider review retained.",
-    "root.ledger_nudge": "Event ledgers refreshed; correctionsreceipt/doorbell/REGfire/deepresearch no new applicable receipt/DARK/fire/commission event, old clock retained rather than false refresh.",
-    "mark": "Exact19 after8e2b066e6/b77d7e41f source commits;old726preserved/745processed/0stage",
-    "source_format": "Metadata quotes corrected additively,12bodies hash-conserved;recipient packets never edited. Sourceparse/index HIGH resolved.",
-    "11": "Two new source packets013/014, seven hands, one prepared deep candidate; no duplicate DOE/PPI/EIOPA/Moodys dispatch.",
-    "Tier1.breadcrumb": "Light-closeout breadcrumb in SESSION_LOG; no full market-clearance claim.",
-    "root.consumer": "No canonical figure or registered threshold superseded; no consumer scan selected.",
-    "root.orphans": "Exact own paths only; foreign TERRY/WAL/FORGE/PROME dirt listed in checks/orphans.txt, not staged or swept."
+    "11": "Existing14 source packets/51hands and CLOSED19bookmark batch conserved;0newsignals in closeout. Two new owner returns read but remain queued/unfiled.",
+    "13": "46registry rows reviewed using41headers/5missing, before12b; bands and source dates owner-held.",
+    "12(a,b)": "BOARD count refreshed fromfiles; derived network regenerated afterregistry; no owner presence inference.",
+    "12(c)": "BALANCED unchanged; expired imminentCPI wording removed, existingbankcatalystposture retained.",
+    "12(d,e)": "New FULL session entry; BOTTOMLINErecut; older lightbreadcrumbs conserved as history.",
+    "12(f)": "STATUS9594B/MEMORY22893B/96lines within budget; charter70223B remains overcap. No unapproved charter rewrite.",
+    "14": "MEMORY sessionnotes rewritten; durable feedback retained; oldnotes conservedverbatim; line/byte counts saved below. No promotion/newauto-memory.",
+    "15": "Current obligation list overwritten, beforeimage saved; source/owner limitations retained.",
+    "16": "Will explicitly requested commit/push; freshsafe-push dryrun alreadyprovedpriorHEADonorigin. Exactownpaths only, no pull/rebase/stash/foreignstage; finalpushaftercommit.",
+    "root.retirement": "Prior same-day800trackedfile no-age-candidate census reused; allnewfiles datedtoday;0moves.",
+    "root.consumer": "No threshold/canonical figure supersession, no consumer scan condition selected.",
+    "root.orphans": "Rootadvisorycheck to run; oldcacheexcluded and allforeignworkuntouched.",
+    "helpers": "Six read-only helpers across two completedpasses; no newhelper/ownerlaunch. DEWEY nowrunning perWill.",
+    "mark": "745processed/0staged; read-only probes did not alter ledger.",
+    "root.ledger_nudge": "REVIEW explained: no new kill, correction receipt, threshold fire, doorbell or batch event in closeout; existing event clocks preserved. Deep-candidate execution note and delivery reconciliation are the applicable ledger changes.",
+    "basis_reads": "USER.md explicitly read after updated profile. Paired hash/perimeter attestation remains REVIEW/stale; no schema or execution certification inferred."
   },
-  "selected_checks": "Receipt PASS44/51; archives/weekdays PASS; orphans ADVISORY. Read-cap REVIEW inherited oversized charter. Doctor0HIGH/4inheritedMED. Two source packets/seven hands committed locally; underlying economic/source outcomes PARTIAL."
+  "selected_checks": "11selected rows: receipt/archives/weekdays/versions/local-memory-lines PASS; orphans ADVISORY; read-cap,basis,reads,ledger-nudge,doctor REVIEW. Doctor0HIGH/4inheritedMED. Basis/reads review is USER.md change and stale October12 attestation; ledger nudge explained by no new event. Full manual write-back accounted; market/source coverage PARTIAL."
 }
 END_CLOSEOUT_RECEIPT -->

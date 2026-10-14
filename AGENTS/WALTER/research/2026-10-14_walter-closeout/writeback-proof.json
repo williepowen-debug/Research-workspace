@@ -1,0 +1,49 @@
+{
+  "as_of": "2026-10-14T18:33:50Z",
+  "registry_before_status": true,
+  "rows": 46,
+  "headers": 41,
+  "missing": [
+    "RAV",
+    "DARWIN",
+    "BARON",
+    "HERMES",
+    "DEWEY"
+  ],
+  "memory_lines": 96,
+  "memory_bytes": 22893,
+  "memory_note_conservation": true,
+  "board_count": 1408,
+  "queued_owner_returns": 2,
+  "dewey": "Will confirmsrunning; finalreturnnotconsumed",
+  "source_publication": [
+    {
+      "commit": "8e2b066e699429f4780c0914af958d23131d0724",
+      "state": "published"
+    },
+    {
+      "commit": "b77d7e41f7d5159b2b8f759de0c1f32551f98bd9",
+      "state": "published"
+    },
+    {
+      "commit": "1e27ebd6ef7d6325c8e703e3b24dceb973e0aa7d",
+      "state": "published"
+    },
+    {
+      "commit": "fce8874cdd8afaa8cab6d400078ac245e79d4de5",
+      "state": "published"
+    },
+    {
+      "commit": "d540a59b844f506fd3924a165478cf2d7456ce7a",
+      "state": "published"
+    },
+    {
+      "commit": "8b2ca53959882aa88c9b124b81c928f253d13f95",
+      "state": "published"
+    }
+  ],
+  "delivery": {
+    "total": 51,
+    "delivered": 51
+  }
+}

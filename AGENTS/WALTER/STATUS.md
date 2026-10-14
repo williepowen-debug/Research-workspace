@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-14T16:36:55Z — Will-requested full reboot handoff. BOARD **1406**; completed October13 source batches **27 PRIORITY** (6 early+21 bookmark),1 bookmark stale-vintage kill,0FLASH/IMMEDIATE,0cluster-mediating,0newfires. Earlier full closeout added0; morning catch-up adds12 signals (3IMMEDIATE/9PRIORITY),1FT08 qualification. Boot remainsPARTIAL; source and publication/consumption evidence at LAST_COMPLETION.md.
+**Updated:** 2026-10-14T18:33:50Z — Will-requested FULL context/persistence closeout. BOARD **1408**; October14 source set14 (3IMMEDIATE/11PRIORITY),19bookmark dispositions,6 bounded read-only verification helpers across the morning and three-thread passes. Source/boot market coverage remains PARTIAL. Current obligations and publication evidence: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-The72-bookmark batch is complete, with21 source-qualified signals and53 owner packets; prior assessments and exact processed IDs are preserved. Issued power orders/operating actions, AI-financing risk and the TGA basis correction reach the routing layer; regional-bank borrower attribution, physical diesel loss/addition and insurer holder losses remain unestablished. Existing energy WAIT and owner grades remain intact. Reboot duties and publication/consumption evidence: LAST_COMPLETION.md.
+Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY is now running the approved power-contract question per Will; its final return is not yet consumed. Two later BOND/LIQUID owner-routing returns remain in the inbox. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
 
 ## DATED MARKET OBSERVATIONS — bounded refresh October14 16:12Z; unchanged rows retain prior dates
 
@@ -28,18 +28,18 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 ## STATE POINTERS
 
 - Current obligation/design/Will-choice list and resume point: `LAST_COMPLETION.md`.
-- Closeout evidence/manual duty outcomes: `research/2026-10-13_session-closeout/`.
+- Closeout evidence/manual duty outcomes: `research/2026-10-14_walter-closeout/`.
 - Bookmark source/read/dispatch evidence: `research/2026-10-12_bookmarks-reauth/REPORT.md`.
-- X transport restored 2026-10-14T02:53:25.996338+00:00 (October13 evening EDT):72 captured bookmarks now81 dispositions/four CLOSED batches;all72 exact snapshot IDs marked after source commit;726 total processed/0 staged.654 prior IDs preserved. Review is complete for this captured batch; new future bookmarks require their own scan/dispositions. Repair evidence: `research/2026-10-13_bookmarks-repair/REPORT.md`;routing/mark evidence: `research/2026-10-13_bookmark-routing/REPORT.md`. Prior market observations retain their dates.
+- X access rechecked October14 16:54Z (HTTP200); read-only backlog check17:36Z found0unprocessed on the standard newest-first boundary.745processed/0staged; no token refresh or additional mark. Morning19 IDs remain source-backed; prior72/48 batch evidence remains historical. Sources: `research/2026-10-14_morning-news/`.
 - CL9 runner repair implemented under Will's direct request;30 regressions passed at its dated test. Runtime friction/time savings and independent acceptance remain separate. No further runner/spec work commissioned.
 - Prior reboot/owner-intake/Rosner evidence remains at its named research paths and exact checkpoint archives. No full-source or first-release certification inferred from those saved passes.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
 
 ## NETWORK AWARENESS
 
-REGISTRY reviewed at2026-10-14T15:14:08Z before this derived subsection:46 existing rows,41 available STATUS headers read at first30-line scope,5 missing STATUS files explicitly recorded in research/2026-10-14_session-closeout/registry-owner-headers.json. Canonical roles/metadata preserved; owner-header context is not whole-owner evidence, fresh market certification or runtime presence. Older registry dates (age does not establish DARK): YEYOU 2026-09-05 (39d;RETIRED); RAV 2026-08-02 (73d;YELLOW); OTTO 2026-10-04 (10d;RED2); ATHENA 2026-03-14 (214d;GREEN); CRUISE 2026-10-03 (11d;RED); DARWIN 2026-02-18 (238d;YELLOW); CREED 2026-10-01 (13d;ORANGE); SENTRY 2026-09-24 (20d;YELLOW); HOMER 2026-10-02 (12d;RED); FLG 2026-10-01 (13d;YELLOW).
+REGISTRY reviewed at2026-10-14T18:33:50Z before this derived subsection: 46rows/41available STATUS headers at first30-line scope; 5missing (RAV, DARWIN, BARON, HERMES, DEWEY). PROME resolved at the repository root. Owner dates/bands retained; header inspection is not complete owner evidence or fleet presence. Older dates: YEYOU 2026-09-05 (RETIRED); RAV 2026-08-02 (YELLOW); ATHENA 2026-03-14 (GREEN); DARWIN 2026-02-18 (YELLOW); SENTRY 2026-09-24 (YELLOW).
 
-Completed October13 source batches:27 PRIORITY (6 early+21 bookmark),1 bookmark kill,0cluster-mediating. October14 closeout adds0 signals. Route/delivery and current follow-up facts belong to owned logs and LAST_COMPLETION. Three bookmark helpers explicitly complete; thread-local status is not fleet census/process-exit proof. No new doorbell, desk launch or liaison turn.
+October14 source set14:3IMMEDIATE/11PRIORITY;0cluster-mediating; one existing FT08 qualification, no additional owner grade. New BOND/LIQUID returns are queued for source routing. Six read-only verification helpers explicitly closed across two passes; Will reports DEWEY running independently. No WALTER owner launch or new doorbell.
 
 ## Active LIAISON channels
 
@@ -49,7 +49,7 @@ CARL,RED,REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or ca
 
 > 📌 **This block was DELETED by the 2026-07-23 STATUS spine regeneration and was ABSENT FOR 28 DAYS; RESTORED 2026-08-20 verbatim from `f29933a20` with one deliberate vocabulary correction. Full account rotated VERBATIM to `SESSION_LOG.md` 2026-09-14.** `[[finding_record_of_an_action_is_not_the_action]]`
 
-**Current: BALANCED baseline; scoped LOOSE for imminent CPI and bank-Q3 information under the existing ≤72h rule.** (Apr20 baseline; no confidence-floor or MINIMIZE change.) *Posture re-confirmed BALANCED by the empirical `design/FILTER_V3_REVIEW.md` (2026-07-04): filter structurally healthy, zero false-positive kills in the review window. No posture change has been proposed since; the 28-day absence of this block was a LOSS OF THE RECORD, not a change of state.*
+**Current: BALANCED baseline; scoped LOOSE for the existing bank-Q3 catalyst window; CPI release is now past under the existing ≤72h rule.** (Apr20 baseline; no confidence-floor or MINIMIZE change.) *Posture re-confirmed BALANCED by the empirical `design/FILTER_V3_REVIEW.md` (2026-07-04): filter structurally healthy, zero false-positive kills in the review window. No posture change has been proposed since; the 28-day absence of this block was a LOSS OF THE RECORD, not a change of state.*
 - Tuning rules (FILTER_SPEC § Tuning Rules) as primary guide
 - Pre-catalyst (≤72h before WAL/ZION/OZK earnings, Fed, CPI/NFP, **US–Iran MOU / negotiation-deadline events**, BOJ) → shift toward LOOSE on the relevant domain
   > ⚠️ **"Iran **MOU / negotiation-deadline**", never "ceasefire" — the anchor makes that word KILL-ON-SIGHT (ADD#20); there was never a ceasefire, only a 60-day MOU window that EXPIRED 2026-08-17 with no deal.** *(Restore the STRUCTURE, re-verify the TERMS. Full note in `SESSION_LOG.md`.)* **Same class, added 2026-09-17: "force majeure" is KILL-ON-SIGHT absent a declaration primary (ADD#25).**

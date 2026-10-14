@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-14T18:33:50Z",
+  "prior_full_review": {
+    "as_of": "2026-10-14T15:11:50.065198+00:00",
+    "tracked_research_source_files": 800,
+    "age_basis": "last path commit timestamp, not mtime/source publication date",
+    "older_than60days": [],
+    "unknown": [],
+    "disposition": "No eligible-age candidates; no moves"
+  },
+  "new_work": "All session source/receipt additions datedOctober14, active and referenced. No candidate reached60days within this day. Existing16-file October12 cache remains unstaged/untouched; no archive/deletion performed.",
+  "disposition": "No retirement move justified; prior no-age-candidate result reused"
+}
