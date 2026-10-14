@@ -1,5 +1,7 @@
 # Diesel commission: delivered addition remains unknown; release timing and primary basis clarified
 
+**Final return / closeout, October13EDT:** [final commission report](2026-10-13_diesel-commission-final.md) completes Will's bounded finish-and-close instruction before the October14 deadline. The physical net-supply sign remains UNKNOWN; signed allocation and cargo receipts remain unresolved. This checkpoint is its earlier PARTIAL vintage, not a pending request for another DEWEY pass. Final report carries named next evidence dates and domain-owner boundaries.
+
 **Date:** 2026-10-13, evening EDT | **Mode:** Thesis | **Commission:** REQ-DEWEY-20261010-001 | **Status:** PARTIAL; existing October 14 EOD deadline retained. **Confidence:** High in retrieved permission/commitment text and CME arithmetic; limited in cargo completion/origin; low in attributable Atlantic net addition.
 
 ## Key finding

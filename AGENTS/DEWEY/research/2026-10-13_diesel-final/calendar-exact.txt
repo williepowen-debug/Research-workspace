@@ -1,0 +1,540 @@
+Oil Market Report (OMR) - Data product - IEA (https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr)
+citeturn22view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn21view0","pattern":"14/10/2026"}); Total lines: 1180
+L238: ## Schedule
+L239: 
+L240: The OMR is published every month at 10 AM Paris time on release day. See the schedule to the right for upcoming release dates.
+L241: 
+L242:   * 11/12/2026
+L243: 
+L244: Scheduled
+L245: 
+L246: December 2026
+L247: 
+L248:   * 13/11/2026
+L249: 
+L250: Scheduled
+L251: 
+L252: November 2026
+L253: 
+L254:   * 14/10/2026
+L255: 
+L256: Scheduled
+L257: 
+L258: October 2026
+L259: 
+L260:   * 11/09/2026
+L261: 
+L262: Latest
+L263: 
+L264: September 2026
+L265: 
+L266:   * 12/08/2026
+L267: 
+L268: Past
+L269: 
+L270: August 2026
+L271: 
+L272:   * 10/07/2026
+L273: 
+L274: Past
+L275: 
+L276: July 2026
+L277: 
+L278:   * 17/06/2026
+L279: 
+L280: Past
+L281: 
+L282: June 2026
+L283: 
+L284:   * 13/05/2026
+L285: 
+L286: Past
+L287: 
+L288: May 2026
+L289: 
+L290: View all
+L291: 
+L292: Schedule
+L293: 
+L294:   * 11/12/2026
+L295: 
+L296: Scheduled
+L297: 
+L298: December 2026
+L299:   * 13/11/2026
+L300: 
+L301: Scheduled
+L302: 
+L303: November 2026
+L304: 
+L305:   * 14/10/2026
+L306: 
+L307: Scheduled
+L308: 
+L309: October 2026
+L310: 
+L311:   * 11/09/2026
+L312: 
+L313: Latest
+L314: 
+L315: September 2026
+L316: 
+L317:   * 12/08/2026
+L318: 
+L319: Past
+L320: 
+L321: August 2026
+L322: 
+L323:   * 10/07/2026
+L324: 
+L325: Past
+L326: 
+L327: July 2026
+L328: 
+L329:   * 17/06/2026
+L330: 
+L331: Past
+L332: 
+L333: June 2026
+L334: 
+L335:   * 13/05/2026
+L336: 
+L337: Past
+L338: 
+L339: May 2026
+L340: 
+L341:   * 16/04/2026
+L342: 
+L343: Past
+L344: 
+L345: April 2026 Corrigendum
+L346: 
+L347:   * 14/04/2026
+L348: 
+L349: Past
+L350: 
+L351: April 2026
+L352: 
+L353:   * 12/03/2026
+L354: 
+L355: Past
+L356: 
+L357: March 2026
+L358: 
+L359:   * 12/02/2026
+L360: 
+L361: Past
+L362: 
+L363: February 2026
+L364: 
+L365:   * 21/01/2026
+L366: 
+L367: Past
+L368: 
+L369: January 2026
+L370: 
+L371:   * 11/12/2025
+L372: 
+L373: Past
+L374: 
+L375: December 2025
+L376: 
+L377:   * 13/11/2025
+L378: 
+L379: Past
+L380: November 2025
+L381: 
+L382:   * 14/10/2025
+L383: 
+L384: Past
+L385: 
+L386: October 2025
+L387: 
+L388:   * 11/09/2025
+L389: 
+L390: Past
+L391: 
+L392: September 2025
+L393: 
+L394:   * 13/08/2025
+L395: 
+L396: Past
+L397: 
+L398: August 2025
+L399: 
+L400:   * 11/07/2025
+L401: 
+L402: Past
+L403: 
+L404: July 2025
+L405: 
+L406:   * 19/06/2025
+L407: 
+L408: Past
+L409: 
+L410: June 2025 _ OMR corrigendum
+L411: 
+L412:   * 17/06/2025
+L413: 
+L414: Past
+L415: 
+L416: June 2025
+L417: 
+L418:   * 15/05/2025
+L419: 
+L420: Past
+L421: 
+L422: May 2025
+L423: 
+L424:   * 15/04/2025
+L425: 
+L426: Past
+L427: 
+L428: April 2025
+L429: 
+L430:   * 13/03/2025
+L431: 
+L432: Past
+L433: 
+L434: March 2025
+L435: 
+L436:   * 13/02/2025
+L437: 
+L438: Past
+L439: 
+L440: February 2025
+L441: 
+L442:   * 15/01/2025
+L443: 
+L444: Past
+L445: 
+L446: January 2025
+L447: 
+L448:   * 12/12/2024
+L449: 
+L450: Past
+L451: 
+L452: December 2024
+L453: 
+L454:   * 14/11/2024
+L455: 
+L456: Past
+L457: 
+L458: November 2024
+L459: 
+L460:   * 15/10/2024
+L461: 
+L462: Past
+L463: October 2024
+L464: 
+L465:   * 12/09/2024
+L466: 
+L467: Past
+L468: 
+L469: September 2024
+L470: 
+L471:   * 13/08/2024
+L472: 
+L473: Past
+L474: 
+L475: August 2024 - Now available
+L476: 
+L477:   * 13/08/2024
+L478: 
+L479: Past
+L480: 
+L481: August 2024
+L482: 
+L483:   * 11/07/2024
+L484: 
+L485: Past
+L486: 
+L487: July 2024
+L488: 
+L489:   * 12/06/2024
+L490: 
+L491: Past
+L492: 
+L493: June 2024
+L494: 
+L495:   * 15/05/2024
+L496: 
+L497: Past
+L498: 
+L499: May 2024
+L500: 
+L501:   * 12/04/2024
+L502: 
+L503: Past
+L504: 
+L505: April 2024
+L506: 
+L507:   * 14/03/2024
+L508: 
+L509: Past
+L510: 
+L511: March 2024
+L512: 
+L513:   * 15/02/2024
+L514: 
+L515: Past
+L516: 
+L517: February 2024
+L518: 
+L519:   * 18/01/2024
+L520: 
+L521: Past
+L522: 
+L523: January 2024
+L524: 
+L525:   * 14/12/2023
+L526: 
+L527: Past
+L528: 
+L529: December 2023
+L530: 
+L531:   * 14/11/2023
+L532: 
+L533: Past
+L534: 
+L535: November 2023
+L536: 
+L537:   * 12/10/2023
+L538: 
+L539: Past
+L540: 
+L541: October 2023
+L542: 
+L543:   * 13/09/2023
+L544: 
+L545: Past
+L546: September 2023
+L547: 
+L548:   * 11/08/2023
+L549: 
+L550: Past
+L551: 
+L552: August 2023
+L553: 
+L554:   * 13/07/2023
+L555: 
+L556: Past
+L557: 
+L558: July 2023
+L559: 
+L560:   * 14/06/2023
+L561: 
+L562: Past
+L563: 
+L564: June 2023
+L565: 
+L566:   * 16/05/2023
+L567: 
+L568: Past
+L569: 
+L570: May 2023
+L571: 
+L572:   * 14/04/2023
+L573: 
+L574: Past
+L575: 
+L629: August 2022
+L630: 
+L631:   * 13/07/2022
+L632: 
+L633: Past
+L634: 
+L635: July 2022
+L636: 
+L637:   * 15/06/2022
+L638: 
+L639: Past
+L640: 
+L641: June 2022
+L642: 
+L643:   * 12/05/2022
+L644: 
+L645: Past
+L646: 
+L647: May 2022
+L648: 
+L649:   * 13/04/2022
+L650: 
+L651: Past
+L652: 
+L653: April 2022
+L654: 
+L655:   * 16/03/2022
+L656: 
+L657: Past
+L658: 
+L659: March 2022
+L660: 
+L661:   * 11/02/2022
+L662: 
+L663: Past
+L664: 
+L665: February 2022
+L666: 
+L667:   * 19/01/2022
+L668: 
+L669: Past
+L670: 
+L671: January 2022
+L672: 
+L673:   * 14/12/2021
+L674: 
+L675: Past
+L676: 
+L677: December 2021
+L678: 
+L679:   * 17/11/2021
+L680: 
+L681: Past
+L682: 
+L683: November 2021 - corrigendum
+L684: 
+L685:   * 17/11/2021
+L686: 
+L687: Past
+L688: 
+L689: November 2021 - corrigendum
+L690: 
+L691:   * 16/11/2021
+L692: 
+L693: Past
+L694: 
+L695: November 2021
+L696: 
+L697:   * 14/10/2021
+L698: 
+L699: Past
+L700: 
+L701: October 2021 Corrigendum
+L702: 
+L703:   * 14/10/2021
+L704: 
+L705: Past
+L706: 
+L707: October 2021
+L708:   * 14/09/2021
+L709: 
+L710: Past
+L711: 
+L712: September 2021
+L713: 
+L714:   * 12/08/2021
+L715: 
+L716: Past
+L717: 
+L718: August 2021
+L719: 
+L720:   * 13/07/2021
+L721: 
+L722: Past
+L723: 
+L724: July 2021
+L725: 
+L726:   * 11/06/2021
+L727: 
+L728: Past
+L729: 
+L730: June 2021
+L731: 
+L732:   * 12/05/2021
+L733: 
+L734: Past
+L735: 
+L736: May 2021 (corrected)
+L737: 
+L738:   * 14/04/2021
+L739: 
+L740: Past
+L741: 
+L742: April 2021
+L743: 
+L744:   * 17/03/2021
+L745: 
+L746: Past
+L747: 
+L748: March 2021 (with Oil 2021 PDF and data)
+L749: 
+L750:   * 11/02/2021
+L751: 
+L752: Past
+L753: 
+L754: February 2021
+L755: 
+L756:   * 19/01/2021
+L757: 
+L758: Past
+L759: 
+L760: January 2021
+L761: 
+L762:   * 16/12/2020
+L763: 
+L764: Past
+L765: 
+L766: December 2020
+L767: 
+L768:   * 17/11/2020
+L769: 
+L770: Past
+L771: 
+L772: November 2020
+L773: 
+L774:   * 14/10/2020
+L775: 
+L776: Past
+L777: 
+L778: October 2020
+L779: 
+L780:   * 16/09/2020
+L781: 
+L782: Past
+L783: 
+L784: September 2020
+--------------------------------------------------------------------------------
+Oil Market Report (OMR) - Data product - IEA (https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr)
+citeturn22view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn21view0","pattern":"10:00"}); Total lines: 1180
+L203: The report is released at 10:00 Paris time
+L204: 
+L205: Release schedule for 2026 (10:00 Paris time)
+L206: 
+L207:   * Wednesday 21 January
+L208: 
+L209:   * Thursday 12 February
+L210: 
+L211:   * Thursday 12 March
+L212: 
+L213:   * Tuesday 14 April
+L214: 
+L215:   * Wednesday 13 May
+L216: 
+L217:   * Wednesday 17 June (1) (2)
+L218: 
+L219:   * Friday 10 July
+L220: 
+L221:   * Wednesday 12 August (3)
+L222: 
+L223:   * Friday 11 September
+L224: 
+L225:   * Wednesday 14 October
+L226: 
+L227:   * Friday 13 November
+L228: 
+L229:   * Friday 11 December
+--------------------------------------------------------------------------------
+Weekly Petroleum Status Report Schedule - U.S. Energy Information Administration (EIA) (https://www.eia.gov/petroleum/supply/weekly/schedule.php)
+citeturn22view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn21view1","pattern":"Oct. 15"}); Total lines: 295
+No matching text found for "Oct. 15"--------------------------------------------------------------------------------
+Weekly Petroleum Status Report Schedule - U.S. Energy Information Administration (EIA) (https://www.eia.gov/petroleum/supply/weekly/schedule.php)
+citeturn22view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn21view1","pattern":"October 15"}); Total lines: 295
+L71: May 22, 2026  | May 28, 2026  | Thursday  | 12:00 p.m.  | Memorial Day
+L72: September 4, 2026  | September 10, 2026  | Thursday  | 12:00 p.m.  | Labor Day
+L73: October 9, 2026  | October 15, 2026  | Thursday  | 12:00 p.m.  | Columbus Day
+L74: November 6, 2026  | November 12, 2026  | Thursday  | 12:00 p.m.  | Veterans Day
+--------------------------------------------------------------------------------
+Weekly Petroleum Status Report Schedule - U.S. Energy Information Administration (EIA) (https://www.eia.gov/petroleum/supply/weekly/schedule.php)
+citeturn22view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn21view1","pattern":"noon"}); Total lines: 295
+No matching text found for "noon"

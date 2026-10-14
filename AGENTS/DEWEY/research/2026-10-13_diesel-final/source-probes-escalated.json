@@ -1,0 +1,44 @@
+[
+  {
+    "key": "minerva-fleet",
+    "url": "https://www.minervamarine.com/minerva-marine-fleet/",
+    "retrieved_utc": "2026-10-14T00:05:25.984275+00:00",
+    "status": 200,
+    "bytes": 469100,
+    "sha256": "0a414fbd2e5d090ea68e201021b18a9aa9c1d3b27aea5c152667d9d4a544e9fa",
+    "final_url": "https://www.minervamarine.com/minerva-marine-fleet/"
+  },
+  {
+    "key": "ncports-wilmington",
+    "url": "https://ncports.com/port-operations/port-of-wilmington/",
+    "retrieved_utc": "2026-10-14T00:05:25.984730+00:00",
+    "status": 404,
+    "bytes": 104509,
+    "sha256": "9633950e8b93b5d4bd683dd8cf9f7735795d90a2383a0eef5d47eee2ad396a02",
+    "final_url": "https://ncports.com/port-operations/port-of-wilmington/"
+  },
+  {
+    "key": "docas-para",
+    "url": "https://www.cdp.com.br/",
+    "retrieved_utc": "2026-10-14T00:05:25.986569+00:00",
+    "error": "HTTPSConnectionPool(host='www.cdp.com.br', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+  },
+  {
+    "key": "minenergo-quota-docs",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%B2%D0%BE%D1%82&model=DOCS&dateFrom=2026-10-09&dateTo=2026-10-13",
+    "retrieved_utc": "2026-10-14T00:05:25.987323+00:00",
+    "status": 200,
+    "bytes": 32,
+    "sha256": "7f277e16377526da9c3d5a39aca0b4c1cfda30697df2239c8d8201e67bc1a36f",
+    "final_url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%BA%D0%B2%D0%BE%D1%82&model=DOCS&dateFrom=2026-10-09&dateTo=2026-10-13"
+  },
+  {
+    "key": "minenergo-diesel-docs",
+    "url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&model=DOCS&dateFrom=2026-10-09&dateTo=2026-10-13",
+    "retrieved_utc": "2026-10-14T00:05:25.988103+00:00",
+    "status": 200,
+    "bytes": 32,
+    "sha256": "7f277e16377526da9c3d5a39aca0b4c1cfda30697df2239c8d8201e67bc1a36f",
+    "final_url": "https://minenergo.gov.ru/api/v1/?action=search.getData&lang=ru&query=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&model=DOCS&dateFrom=2026-10-09&dateTo=2026-10-13"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "asof_utc": "2026-10-14T00:06:29.835797+00:00",
+  "sources": [
+    {
+      "path": "output/2026-10-10_russia-diesel-deal-vs-ukraine-strikes.md",
+      "sha256": "454a373e1e86233fb6d7b886face5d35e0feb0bcab767c28288ae67ffcddcdfc"
+    },
+    {
+      "path": "output/2026-10-12_russia-diesel-net-supply-delivery.md",
+      "sha256": "8651380b87a5be83d04c27328e4a98d051eff887383926a55c7cf32b5df276fe"
+    },
+    {
+      "path": "output/2026-10-13_diesel-delivery-and-primary-document-checkpoint.md",
+      "sha256": "5be083663c8939fdc6c6f2cb90868a61af20c47aebeb455a766e76384a139e92"
+    },
+    {
+      "path": "research/2026-10-13_diesel/evidence-summary.json",
+      "sha256": "1b1dda4c638c2dc79d6eeae4a252897db55573eb5804b393dbbaa4af93462245"
+    },
+    {
+      "path": "research/2026-10-13_diesel/source-probes-escalated.json",
+      "sha256": "fb02baee2457723d504c6a8e6124583e8c051f642e865ca954018f659ccb71d5"
+    }
+  ],
+  "bound": "8 targeted web queries,2 targeted ministry DOCS API queries,finite cargo and calendar bodies;stop after this pass",
+  "reused_files_git_revision": "bd7b0cb6299a4b3f835fe5c894c5e101231aa6ed",
+  "hashes_are_pre_final_pointer_annotation": true
+}

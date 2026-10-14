@@ -1,0 +1,551 @@
+Minerva Marine Fleet | Minerva Marine (https://www.minervamarine.com/minerva-marine-fleet/)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.minervamarine.com/minerva-marine-fleet/","lineno":null}); Total lines: 1907
+L0: cite0†iframe†www.googletagmanager.com L1:   * cite1†Companies L2:   * cite2†Services L3:     * cite3†HSQ L4:     * cite4†Operations L5:     * cite5†Commercial L6:     * cite6†Technical L7:     * cite7†Newbuildings L8:     * cite8†Marine Personnel L9:     * cite9†Training L10:     * cite10†Energy & Environmental L11:   * cite11†Policies L12:     * cite12†Health, Safety & Quality L13:     * cite13†Environmental Protection & Energy Efficiency L14:     * cite14†Drug & Alcohol L15:     * cite15†Security L16:     * cite16†Cyber Security L17:     * cite17†Social Responsibility L18:     * cite18†Social Media L19:     * cite19†Open Reporting Line L20:     * cite20†Harassment & Bullying L21:     * cite21†Code of Conduct Ethics L22:     * cite22†Sustainability L23:     * cite23†Human Factors L24:   * Fleet
+L25:     * cite24†Minerva Marine Fleet L26:     * cite25†Minerva Dry Fleet L27:   * cite26†News L28:   * People
+L29:     * cite27†Join Our Offices L30:     * cite28†Join Our Fleet L31:   * Manning Offices
+L32:     * cite29†Odessa Manning Office L33:     * cite30†Manila Manning Office L34:   * cite31†Contact Us L35:   * cite32†Open Reporting L36: cite33†Image L37: 
+L38: MINERVA
+L39: 
+L40: MARINE
+L41: 
+L42: FLEET
+L43: 
+L44: Fleet Vessels are of high specification, robust condition and high maintenance level
+L45: 
+L46: cite34†Scroll Down L47: 
+L48:   * ALL
+L49:   * VLCC
+L50:   * SUEZMAX
+L51:   * AFRAMAX
+L52:   * MR
+L53: 
+L54: Amalthea
+L55: 
+L56: IMO NUMBER
+L57: 
+L58: 9298650
+L59: 
+L60: FLAG
+L61: 
+L62: Greek
+L63: 
+L64: YEAR OF BUILT
+L65: 
+L66: 2006
+L67: 
+L68: DEADWEIGHT TONNAGE
+L69: 
+L70: 107115.60 mt
+L71: 
+L72: SOX SCRUBBER OPEN LOOP
+L73: 
+L74: NO
+L75: 
+L76: DRAFT METERS
+L77: 
+L78: 14.52 m
+L79: 
+L80: LENGTH / BREADTH
+L81: 
+L82: 248.00 m / 43.04 m
+L83: 
+L84: YARD
+L85: 
+L86: Daewoo Shipbuilding & Marine Engineering Co Ltd
+L87: 
+L88: CLASS
+L89: 
+L90: LR
+L91: 
+L92: Amphitrite
+L93: 
+L94: IMO NUMBER:
+L95: 
+L96: 9455973
+L97: 
+L98: FLAG
+L99: 
+L100: Malta
+L101: 
+L102: YEAR OF BUILT
+L103: 
+L104: 2010
+L105: DEADWEIGHT TONNAGE
+L106: 
+L107: 320137.30 mt
+L108: 
+L109: SOX SCRUBBER OPEN LOOP
+L110: 
+L111: YES
+L112: 
+L113: DRAFT METERS
+L114: 
+L115: 22.53 m
+L116: 
+L117: LENGTH / BREADTH
+L118: 
+L119: 333.00 m / 60.00 m
+L120: 
+L121: YARD
+L122: 
+L123: Daewoo Shipbuilding & Marine Engineering Co
+L124: 
+L125: CLASS
+L126: 
+L127: DNV
+L128: 
+L129: Andromeda
+L130: 
+L131: IMO NUMBER
+L132: 
+L133: 9352561
+L134: 
+L135: FLAG
+L136: 
+L137: Malta
+L138: 
+L139: YEAR OF BUILT
+L140: 
+L141: 2008
+L142: 
+L143: DEADWEIGHT TONNAGE
+L144: 
+L145: 321300.30 mt
+L146: 
+L147: SOX SCRUBBER OPEN LOOP
+L148: 
+L149: YES
+L150: 
+L151: DRAFT METERS
+L152: 
+L153: 22.52 m
+L154: 
+L155: LENGTH / BREADTH
+L156: 
+L157: 333.00 m / 60.00 m
+L158: 
+L159: YARD
+L160: 
+L161: Daewoo Shipbuilding & Marine Engineering Co Ltd
+L162: 
+L163: CLASS
+L164: 
+L165: DNV
+L166: 
+L167: Apolytares
+L168: 
+L169: IMO NUMBER
+L170: 
+L171: 9419474
+L172: 
+L173: FLAG
+L174: 
+L175: Greek
+L176: 
+L177: YEAR OF BUILT
+L178: 
+L179: 2009
+L180: DEADWEIGHT TONNAGE
+L181: 
+L182: 316679.00 mt
+L183: 
+L184: SOX SCRUBBER OPEN LOOP
+L185: 
+L186: YES
+L187: 
+L188: DRAFT METERS
+L189: 
+L190: 22.03 m
+L191: 
+L192: LENGTH / BREADTH
+L193: 
+L194: 336.17 m / 60.00 m
+L195: 
+L196: YARD
+L197: 
+L198: Hyundai Heavy Industries Co Ltd
+L199: 
+L200: CLASS
+L201: 
+L202: ABS
+L203: 
+L204: Minerva Alexandra
+L205: 
+L206: IMO NUMBER
+L207: 
+L208: 9892999
+L209: 
+L210: FLAG
+L211: 
+L212: Greek
+L213: 
+L214: YEAR OF BUILT
+L215: 
+L216: 2021
+L217: 
+L218: DEADWEIGHT TONNAGE
+L219: 
+L220: 115,484.30 mt
+L221: 
+L222: SOX SCRUBBER OPEN LOOP
+L223: 
+L224: YES
+L225: 
+L226: DRAFT METERS
+L227: 
+L228: 15.223
+L229: 
+L230: LENGTH / BREADTH
+L231: 
+L232: 249.90 m / 44.04 m
+L233: 
+L234: YARD
+L235: 
+L236: Daehan Shipbuilding Co. Ltd
+L237: 
+L238: CLASS
+L239: 
+L240: DNV
+L241: 
+L242: Minerva Alice
+L243: 
+L244: IMO NUMBER
+L245: 
+L246: 9309435
+L247: 
+L248: FLAG
+L249: 
+L250: Malta
+L251: 
+L252: YEAR OF BUILT
+L253: 
+L254: 2006
+L255: 
+L256: DEADWEIGHT TONNAGE
+L257: 114849.60 mt
+L258: 
+L259: SOX SCRUBBER OPEN LOOP
+L260: 
+L261: NO
+L262: 
+L263: DRAFT METERS
+L264: 
+L265: 14.82 m
+L266: 
+L267: LENGTH / BREADTH
+L268: 
+L269: 253.50 m / 44.00 m
+L270: 
+L271: YARD
+L272: 
+L273: Dewoo Shipbuilding & Marine Engineering Co Ltd
+L274: 
+L275: CLASS
+L276: 
+L277: LR
+L278: 
+L279: Minerva Alkistis
+L280: 
+L281: IMO NUMBER
+L282: 
+L283: 1112563
+L284: 
+L285: FLAG
+L286: 
+L287: Malta
+L288: 
+L289: YEAR OF BUILT
+L290: 
+L291: 2026
+L292: 
+L293: DEADWEIGHT TONNAGE
+L294: 
+L295: 113,741.90
+L296: 
+L297: SOX SCRUBBER OPEN LOOP
+L298: 
+L299: YES
+L300: 
+L301: DRAFT METERS
+L302: 
+L303: 15.02 m
+L304: 
+L305: LENGTH / BREADTH
+L306: 
+L307: 248.8 m / 44.0 m
+L308: 
+L309: YARD
+L310: 
+L311: HENGLI Shipbuilding (Dalian) Co., Ltd.
+L312: 
+L313: CLASS
+L314: 
+L315: LR
+L316: 
+L317: Minerva Anna
+L318: 
+L319: IMO NUMBER
+L320: 
+L321: 9298507
+L322: 
+L323: FLAG
+L324: 
+L325: Liberia
+L326: 
+L327: YEAR OF BUILT
+L328: 
+L329: 2005
+L330: 
+L331: DEADWEIGHT TONNAGE
+L332: 50938.65 mt
+L333: 
+L334: SOX SCRUBBER OPEN LOOP
+L335: 
+L336: NO
+L337: 
+L338: DRAFT METERS
+L339: 
+L340: 13.29 m
+L341: 
+L342: LENGTH / BREADTH
+L343: 
+L344: 183.00 m / 32.20 m
+L345: 
+L346: YARD
+L347: 
+L348: STX Shipbuilding Co. Ltd
+L349: 
+L350: CLASS
+L351: 
+L352: ABS
+L353: 
+L354: Minerva Antonia
+L355: 
+L356: IMO NUMBER
+L357: 
+L358: 9380398
+L359: 
+L360: FLAG
+L361: 
+L362: Greek
+L363: 
+L364: YEAR OF BUILT
+L365: 
+L366: 2008
+L367: 
+L368: DEADWEIGHT TONNAGE
+L369: 
+L370: 46923.00 mt
+L371: 
+L372: SOX SCRUBBER OPEN LOOP
+L373: 
+L374: NO
+L375: 
+L376: DRAFT METERS
+L377: 
+L378: 12.22 m
+L379: 
+L380: LENGTH / BREADTH
+L381: 
+L382: 183.21 m / 32.24 m
+L383: 
+L384: YARD
+L385: 
+L386: Hyundai Mipo Dockyard Co Ltd
+L387: 
+L388: CLASS
+L389: 
+L390: DNV
+L391: 
+L392: Minerva Aries
+L393: 
+L394: IMO NUMBER
+L395: 
+L396: 9412177
+L397: 
+L398: FLAG
+L399: 
+L400: Liberia
+L401: 
+L402: YEAR OF BUILT
+L403: 
+L404: 2008
+L405: 
+L406: DEADWEIGHT TONNAGE
+L407: 
+L408: 105483.00 mt
+L409: SOX SCRUBBER OPEN LOOP
+L410: 
+L411: NO
+L412: 
+L413: DRAFT METERS
+L414: 
+L415: 15.02 m
+L416: 
+L417: LENGTH / BREADTH
+L418: 
+L419: 244.18 m / 42.00 m
+L420: 
+L421: YARD
+L422: 
+L423: Hyundai Heavy Industries
+L424: 
+L425: CLASS
+L426: 
+L427: ABS
+L428: 
+L429: Minerva Astra
+L430: 
+L431: IMO NUMBER
+L432: 
+L433: 9893008
+L434: 
+L435: FLAG
+L436: 
+L437: Greek
+L438: 
+L439: YEAR OF BUILT
+L440: 
+L441: 2021
+L442: 
+L443: DEADWEIGHT TONNAGE
+L444: 
+L445: 115484.10 mt
+L446: 
+L447: SOX SCRUBBER OPEN LOOP
+L448: 
+L449: YES
+L450: 
+L451: DRAFT METERS
+L452: 
+L453: 15.223
+L454: 
+L455: LENGTH / BREADTH
+L456: 
+L457: 249.90 m / 44.04 m
+L458: 
+L459: YARD
+L460: 
+L461: Daehan Shipbuilding Co. Ltd
+L462: 
+L463: CLASS
+L464: 
+L465: DNV
+L466: 
+L467: Minerva Baltica
+L468: 
+L469: IMO NUMBER
+L470: 
+L471: 9728241
+L472: 
+L473: FLAG
+L474: 
+L475: Malta
+L476: 
+L477: YEAR OF BUILT
+L478: 
+L479: 2018
+L480: 
+L481: DEADWEIGHT TONNAGE
+L482: 
+L483: 112948.4 mt
+L484: 
+L485: SOX SCRUBBER OPEN LOOP
+L486: 
+L487: NO
+L488: DRAFT METERS
+L489: 
+L490: 15.023 m
+L491: 
+L492: LENGTH / BREADTH
+L493: 
+L494: 249.918 m / 44.0 m
+L495: 
+L496: YARD
+L497: 
+L498: Daewoo Mangalia Heavy Industries
+L499: 
+L500: CLASS
+L501: 
+L502: ABS
+L503: 
+L504: Minerva Clara
+L505: 
+L506: IMO NUMBER
+L507: 
+L508: 9297333
+L509: 
+L510: FLAG
+L511: 
+L512: Liberian
+L513: 
+L514: YEAR OF BUILT
+L515: 
+L516: 2006
+L517: 
+L518: DEADWEIGHT TONNAGE
+L519: 
+L520: 103231.60 mt
+L521: 
+L522: SOX SCRUBBER OPEN LOOP
+L523: 
+L524: NO
+L525: 
+L526: DRAFT METERS
+L527: 
+L528: 14.77 m
+L529: 
+L530: LENGTH / BREADTH
+L531: 
+L532: 243.57 m / 42.00 m
+L533: 
+L534: YARD
+L535: 
+L536: Samsung Heavy Industries Co. Ltd.
+L537: 
+L538: CLASS
+L539: 
+L540: ABS
+L541: 
+L542: Minerva Coralia
+L543: 
+L544: IMO NUMBER
+L545: 
+L546: 9728239
+L547: 
+L548: FLAG
+L549: 
+L550: Malta
+L551: 
+L552: YEAR OF BUILT
+L553: 
+L554: 2017
+L555: 
+L556: DEADWEIGHT TONNAGE
+L557: 
+L558: 113850.21 mt
+L559: 
+L560: SOX SCRUBBER OPEN LOOP
+L561: 
+L562: NO
+L563: 
+L564: DRAFT METERS
+L565: 15.023 m
+L566: 
+L567: LENGTH / BREADTH
+L568: 
+L569: 249.9 m / 44.03 m
+L570: 
+L571: YARD
+L572: 
+L573: Daewoo Mangalia Heavy Industries - Romania
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn20view1 [wordlim: 200] Source: open({"ref_id":"https://ncports.com/port-operations/port-of-wilmington/","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn20view2 [wordlim: 200] Source: open({"ref_id":"https://www.cdp.com.br/","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+Le gouvernement assure que les prix du gazole baisseront 'dès le 1er novembre' | TV5MONDE - Informations (https://information.tv5monde.com/economie/le-gouvernement-assure-que-les-prix-du-gazole-baisseront-des-le-1er-novembre-2841330)
+citeturn20view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://information.tv5monde.com/economie/le-gouvernement-assure-que-les-prix-du-gazole-baisseront-des-le-1er-novembre-2841330","lineno":null}); Total lines: 143
+

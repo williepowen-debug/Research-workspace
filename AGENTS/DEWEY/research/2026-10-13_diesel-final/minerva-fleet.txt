@@ -1,0 +1,1165 @@
+Minerva Marine Fleet | Minerva Marine
+document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js')
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TTP3WW2');
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.minervamarine.com\/minerva-marine-fleet\/","url":"https:\/\/www.minervamarine.com\/minerva-marine-fleet\/","name":"Minerva Marine Fleet | Minerva Marine","isPartOf":{"@id":"https:\/\/www.minervamarine.com\/#website"},"datePublished":"2022-09-30T08:01:08+00:00","dateModified":"2023-05-31T14:09:09+00:00","description":"Τhe vessels in the fleet are of a high quality, sturdy construction and high standard of maintenance.","breadcrumb":{"@id":"https:\/\/www.minervamarine.com\/minerva-marine-fleet\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.minervamarine.com\/minerva-marine-fleet\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.minervamarine.com\/minerva-marine-fleet\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.minervamarine.com\/"},{"@type":"ListItem","position":2,"name":"Minerva Marine Fleet"}]},{"@type":"WebSite","@id":"https:\/\/www.minervamarine.com\/#website","url":"https:\/\/www.minervamarine.com\/","name":"Minerva Marine","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.minervamarine.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+var mozmapLoadLibrary = true;
+			var mozmapApiKey = "AIzaSyAEyRidng-wzXHXyQSvC6lgshed7OTDJfI";
+			var mozmapEnableCluster = false;
+            var clusterStyle = new Object();
+			var mozmapEnableInfobox = true;
+            var mozmapPluginUrl = 'https://www.minervamarine.com/wp-content/plugins/mozaik-pois-map/public/';
+var infoBoxSetting = new Object();
+				
+									infoBoxSetting.closeMargin = '10px 10px 10px 10px';
+				
+									infoBoxSetting.opacity = '1';
+				
+									infoBoxSetting.width = '320px';
+				
+									infoBoxSetting.offsetX = -160;
+				
+									infoBoxSetting.offsetY = -50;
+var MozPoisMapStyle = "[     {         \"featureType\": \"administrative\",         \"elementType\": \"labels.text.fill\",         \"stylers\": [             {                 \"color\": \"#000c1b\"             }         ]     },     {         \"featureType\": \"landscape\",         \"elementType\": \"all\",         \"stylers\": [             {                 \"color\": \"#e4e3e7\"             }         ]     },     {         \"featureType\": \"poi\",         \"elementType\": \"all\",         \"stylers\": [             {                 \"visibility\": \"off\"             }         ]     },     {         \"featureType\": \"road\",         \"elementType\": \"all\",         \"stylers\": [             {                 \"saturation\": -100             },             {                 \"lightness\": 45             }         ]     },     {         \"featureType\": \"road\",         \"elementType\": \"geometry\",         \"stylers\": [             {                 \"lightness\": \"30\"             }         ]     },     {         \"featureType\": \"road\",         \"elementType\": \"labels.text\",         \"stylers\": [             {                 \"color\": \"#000c1b\"             }         ]     },     {         \"featureType\": \"road\",         \"elementType\": \"labels.text.fill\",         \"stylers\": [             {                 \"color\": \"#000c1b\"             }         ]     },     {         \"featureType\": \"road\",         \"elementType\": \"labels.text.stroke\",         \"stylers\": [             {                 \"color\": \"#ffffff\"             }         ]     },     {         \"featureType\": \"road.highway\",         \"elementType\": \"all\",         \"stylers\": [             {                 \"visibility\": \"simplified\"             }         ]     },     {         \"featureType\": \"road.highway\",         \"elementType\": \"geometry\",         \"stylers\": [             {                 \"color\": \"#6183c3\"             },             {                 \"lightness\": \"0\"             }         ]     },     {         \"featureType\": \"road.arterial\",         \"elementType\": \"geometry\",         \"stylers\": [             {                 \"color\": \"#6183c3\"             },             {                 \"lightness\": \"40\"             }         ]     },     {         \"featureType\": \"road.arterial\",         \"elementType\": \"labels.icon\",         \"stylers\": [             {                 \"visibility\": \"off\"             }         ]     },     {         \"featureType\": \"transit\",         \"elementType\": \"all\",         \"stylers\": [             {                 \"visibility\": \"off\"             }         ]     },     {         \"featureType\": \"water\",         \"elementType\": \"all\",         \"stylers\": [             {                 \"color\": \"#064071\"             },             {                 \"visibility\": \"on\"             }         ]     } ]";
+
+               var controlPosition = new Object();
+               controlPosition.position = "TOP_RIGHT";
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+Companies
+Services
+HSQ
+Operations
+Commercial
+Technical
+Newbuildings
+Marine Personnel
+Training
+Energy & Environmental
+Policies
+Health, Safety & Quality
+Environmental Protection & Energy Efficiency
+Drug & Alcohol
+Security
+Cyber Security
+Social Responsibility
+Social Media
+Open Reporting Line
+Harassment & Bullying
+Code of Conduct Ethics
+Sustainability
+Human Factors
+Fleet
+Minerva Marine Fleet
+Minerva Dry Fleet
+News
+People
+Join Our Offices
+Join Our Fleet
+Manning Offices
+Odessa Manning Office
+Manila Manning Office
+Contact Us
+Open Reporting
+MINERVA
+MARINE
+FLEET
+Fleet Vessels are of high specification, robust condition and high maintenance level
+Scroll Down
+ALL
+VLCC
+SUEZMAX
+AFRAMAX
+MR
+Loading more....
+Amalthea
+IMO NUMBER
+9298650
+FLAG
+Greek
+YEAR OF BUILT
+2006
+DEADWEIGHT TONNAGE
+107115.60 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.52 m
+LENGTH / BREADTH
+248.00 m / 43.04 m
+YARD
+Daewoo Shipbuilding & Marine Engineering Co Ltd
+CLASS
+LR
+Amphitrite
+IMO NUMBER:
+9455973
+FLAG
+Malta
+YEAR OF BUILT
+2010
+DEADWEIGHT TONNAGE
+320137.30 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+22.53 m
+LENGTH / BREADTH
+333.00 m / 60.00 m
+YARD
+Daewoo Shipbuilding & Marine Engineering Co
+CLASS
+DNV
+Andromeda
+IMO NUMBER
+9352561
+FLAG
+Malta
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+321300.30 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+22.52 m
+LENGTH / BREADTH
+333.00 m / 60.00 m
+YARD
+Daewoo Shipbuilding & Marine Engineering Co Ltd
+CLASS
+DNV
+Apolytares
+IMO NUMBER
+9419474
+FLAG
+Greek
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+316679.00 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+22.03 m
+LENGTH / BREADTH
+336.17 m / 60.00 m
+YARD
+Hyundai Heavy Industries Co Ltd
+CLASS
+ABS
+Minerva Alexandra
+IMO NUMBER
+9892999
+FLAG
+Greek
+YEAR OF BUILT
+2021
+DEADWEIGHT TONNAGE
+115,484.30 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+15.223
+LENGTH / BREADTH
+249.90 m / 44.04 m
+YARD
+Daehan Shipbuilding Co. Ltd
+CLASS
+DNV
+Minerva Alice
+IMO NUMBER
+9309435
+FLAG
+Malta
+YEAR OF BUILT
+2006
+DEADWEIGHT TONNAGE
+114849.60 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.82 m
+LENGTH / BREADTH
+253.50 m / 44.00 m
+YARD
+Dewoo Shipbuilding & Marine Engineering Co Ltd
+CLASS
+LR
+Minerva Alkistis
+IMO NUMBER
+1112563
+FLAG
+Malta
+YEAR OF BUILT
+2026
+DEADWEIGHT TONNAGE
+113,741.90
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+15.02 m
+LENGTH / BREADTH
+248.8 m / 44.0 m
+YARD
+HENGLI Shipbuilding (Dalian) Co., Ltd.
+CLASS
+LR
+Minerva Anna
+IMO NUMBER
+9298507
+FLAG
+Liberia
+YEAR OF BUILT
+2005
+DEADWEIGHT TONNAGE
+50938.65 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+13.29 m
+LENGTH / BREADTH
+183.00 m / 32.20 m
+YARD
+STX Shipbuilding Co. Ltd
+CLASS
+ABS
+Minerva Antonia
+IMO NUMBER
+9380398
+FLAG
+Greek
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+46923.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+12.22 m
+LENGTH / BREADTH
+183.21 m / 32.24 m
+YARD
+Hyundai Mipo Dockyard Co Ltd
+CLASS
+DNV
+Minerva Aries
+IMO NUMBER
+9412177
+FLAG
+Liberia
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+105483.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+15.02 m
+LENGTH / BREADTH
+244.18 m / 42.00 m
+YARD
+Hyundai Heavy Industries
+CLASS
+ABS
+Minerva Astra
+IMO NUMBER
+9893008
+FLAG
+Greek
+YEAR OF BUILT
+2021
+DEADWEIGHT TONNAGE
+115484.10 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+15.223
+LENGTH / BREADTH
+249.90 m / 44.04 m
+YARD
+Daehan Shipbuilding Co. Ltd
+CLASS
+DNV
+Minerva Baltica
+IMO NUMBER
+9728241
+FLAG
+Malta
+YEAR OF BUILT
+2018
+DEADWEIGHT TONNAGE
+112948.4 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+15.023 m
+LENGTH / BREADTH
+249.918 m / 44.0 m
+YARD
+Daewoo Mangalia Heavy Industries
+CLASS
+ABS
+Minerva Clara
+IMO NUMBER
+9297333
+FLAG
+Liberian
+YEAR OF BUILT
+2006
+DEADWEIGHT TONNAGE
+103231.60 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.77 m
+LENGTH / BREADTH
+243.57 m / 42.00 m
+YARD
+Samsung Heavy Industries Co. Ltd.
+CLASS
+ABS
+Minerva Coralia
+IMO NUMBER
+9728239
+FLAG
+Malta
+YEAR OF BUILT
+2017
+DEADWEIGHT TONNAGE
+113850.21 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+15.023 m
+LENGTH / BREADTH
+249.9 m / 44.03 m
+YARD
+Daewoo Mangalia Heavy Industries - Romania
+CLASS
+ABS
+Minerva Doxa
+IMO NUMBER:
+9455973
+FLAG
+Greek
+YEAR OF BUILT
+2007
+DEADWEIGHT TONNAGE
+159,438 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+16.14 m
+LENGTH / BREADTH
+270.60 m / 50.00 m
+YARD
+Daewoo Shipbuilding & Marine Engineering Co
+CLASS
+DNV
+Minerva Eleftheria
+IMO NUMBER
+9787168
+FLAG
+Greek
+YEAR OF BUILT
+2018
+DEADWEIGHT TONNAGE
+114671 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.84 m
+LENGTH / BREADTH
+250.01 m / 44.04 m
+YARD
+Sasebo Heavy Industries Co. Ltd
+CLASS
+ABS
+Minerva Elpida
+IMO NUMBER
+9440526
+FLAG
+Greek
+YEAR OF BUILT
+2010
+DEADWEIGHT TONNAGE
+112793.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.80 m
+LENGTH / BREADTH
+249.90 m / 44.00 m
+YARD
+SPP Plant & Shipbuilding Co.,Ltd
+CLASS
+DNV
+Minerva Emily
+IMO NUMBER
+9380063
+FLAG
+Malta
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+47408.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+12.61 m
+LENGTH / BREADTH
+182.50 m / 32.23 m
+YARD
+Onomichi Dockyard Co Ltd
+CLASS
+NKK
+Minerva Evropi
+IMO NUMBER
+9785237
+FLAG
+Greek
+YEAR OF BUILT
+2018
+DEADWEIGHT TONNAGE
+159055 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+17.17 m
+LENGTH / BREADTH
+274.21 m / 48.04 m
+YARD
+Hyundai Heavy Industry co.ltd
+CLASS
+ABS
+Minerva Georgia
+IMO NUMBER
+9332157
+FLAG
+Liberia
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+163417.03 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+17.03 m
+LENGTH / BREADTH
+274.24 m / 50.07 m
+YARD
+Hyundai Heavy Industries Co Ltd
+CLASS
+LR
+Minerva Gloria
+IMO NUMBER
+9382750
+FLAG
+Malta
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+115873.20 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.93 m
+LENGTH / BREADTH
+248.96 m / 43.80 m
+YARD
+Samsung Heavy Industries Co. Ltd.
+CLASS
+DNV
+Minerva Grace
+IMO NUMBER
+9305855
+FLAG
+Liberia
+YEAR OF BUILT
+2005
+DEADWEIGHT TONNAGE
+50922.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+13.11 m
+LENGTH / BREADTH
+183.00 m / 32.20 m
+YARD
+STX Shipbuilding Co. Ltd
+CLASS
+ABS
+Minerva Joanna
+IMO NUMBER
+9380386
+FLAG
+Greek
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+46924.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+12.22 m
+LENGTH / BREADTH
+183.21 m / 32.24 m
+YARD
+Hyundai Mipo Dockyard Co Ltd
+CLASS
+DNV
+Minerva Joy
+IMO NUMBER
+9363479
+FLAG
+Malta
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+45990.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+12.07 m
+LENGTH / BREADTH
+179.88 m / 32.22 m
+YARD
+Shin Kurushima Dockyard Co.Ltd
+CLASS
+DNV
+Minerva Julie
+IMO NUMBER
+9380831
+FLAG
+Liberia
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+50921.90 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+13.29 m
+LENGTH / BREADTH
+183.00 m / 32.20 m
+YARD
+STX Shipbuilding Co. Ltd
+CLASS
+ABS
+Minerva Kalliope
+IMO NUMBER
+1020409
+FLAG
+Malta
+YEAR OF BUILT
+2026
+DEADWEIGHT TONNAGE
+157,564 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+17.2 m
+LENGTH / BREADTH
+274 / 48m
+YARD
+Samsung Heavy Industries Co., Ltd.
+CLASS
+LR
+Minerva Kallirroi
+IMO NUMBER
+1020411
+FLAG
+Malta
+YEAR OF BUILT
+2026
+DEADWEIGHT TONNAGE
+157,564 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+17.2 m
+LENGTH / BREADTH
+274.0 / 48.0 m
+YARD
+Samsung Heavy Industries Co. Ltd.
+CLASS
+LR
+Minerva Kallisto
+IMO NUMBER
+9853008
+FLAG
+Greek
+YEAR OF BUILT
+2019
+DEADWEIGHT TONNAGE
+112802.5 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+15.24 m
+LENGTH / BREADTH
+244.16 m / 43.04 m
+YARD
+Samsung Heavy Industries Co. Ltd.
+CLASS
+ABS
+Minerva Kalypso
+IMO NUMBER
+9785225
+FLAG
+Greek
+YEAR OF BUILT
+2017
+DEADWEIGHT TONNAGE
+159051 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+17.17 m
+LENGTH / BREADTH
+274.21 m / 48.04 m
+YARD
+Hyundai Heavy Industry co ltd
+CLASS
+ABS
+Minerva Karteria
+IMO NUMBER
+9787170
+FLAG
+Greek
+YEAR OF BUILT
+2018
+DEADWEIGHT TONNAGE
+114696 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.84 m
+LENGTH / BREADTH
+249.97 m / 44.00 m
+YARD
+Sasebo Heavy Industries
+CLASS
+ABS
+Minerva Kythnos
+IMO NUMBER
+9592252
+FLAG
+Greek
+YEAR OF BUILT
+2011
+DEADWEIGHT TONNAGE
+115674 .40 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+15.023 m
+LENGTH / BREADTH
+240.63 m / 43.80 m
+YARD
+Samsung Heavy Industries Co. Ltd.
+CLASS
+ABS
+Minerva Leo
+IMO NUMBER
+9723289
+FLAG
+Greek
+YEAR OF BUILT
+2015
+DEADWEIGHT TONNAGE
+39070.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+11.92 m
+LENGTH / BREADTH
+184.27 m / 27.40 m
+YARD
+Hyundai Mipo Dockyard Co. Ltd
+CLASS
+BV
+Minerva Libra
+IMO NUMBER
+9317951
+FLAG
+Malta
+YEAR OF BUILT
+2007
+DEADWEIGHT TONNAGE
+116779.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+15.42 m
+LENGTH / BREADTH
+249.85 m / 44.00 m
+YARD
+Hyundai Heavy Industries Co Ltd
+CLASS
+DNV
+Minerva Marina
+IMO NUMBER
+9411939
+FLAG
+Malta
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+157954.20 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+17.17 m
+LENGTH / BREADTH
+274.33 m / 48.00 m
+YARD
+Hyundai Samho Heavy Industries Co Ltd
+CLASS
+DNV
+Minerva Mediterranea
+IMO NUMBER
+9367671
+FLAG
+Malta
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+48849.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+12.62 m
+LENGTH / BREADTH
+182.50 m / 32.23 m
+YARD
+Onomichi Dockyard Co Ltd
+CLASS
+NKK
+Minerva Oceania
+IMO NUMBER
+9380075
+FLAG
+Malta
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+44995.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+12.14 m
+LENGTH / BREADTH
+182.50 m / 32.23 m
+YARD
+Onomichi Dockyard Co Ltd
+CLASS
+DNV
+Minerva Olympia
+IMO NUMBER
+9787194
+FLAG
+Greek
+YEAR OF BUILT
+2019
+DEADWEIGHT TONNAGE
+114661 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.838 m
+LENGTH / BREADTH
+250.00 m / 44.00 m
+YARD
+Sasebo Heavy Industries Co. Ltd
+CLASS
+ABS
+Minerva Pelagia
+IMO NUMBER
+9808156
+FLAG
+Liberia
+YEAR OF BUILT
+2018
+DEADWEIGHT TONNAGE
+112,532.4
+SOX SCRUBBER OPEN LOOP
+Yes
+DRAFT METERS
+15.02
+LENGTH / BREADTH
+249,99 / 44 m
+YARD
+COSCO Shipping Heavy Industry Group Co., Ltd.
+CLASS
+LR
+Minerva Pisces
+IMO NUMBER
+9410179
+FLAG
+Malta
+YEAR OF BUILT
+2008
+DEADWEIGHT TONNAGE
+105475.20 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+15.02 m
+LENGTH / BREADTH
+244.18 m / 42.00 m
+YARD
+Hyundai Heavy Industries
+CLASS
+ABS
+Minerva Sophia
+IMO NUMBER
+9382762
+FLAG
+Malta
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+115748.10 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.93 m
+LENGTH / BREADTH
+248.96 m / 43.80 m
+YARD
+Samsung Heavy Industries Co Ltd
+CLASS
+DNV
+Minerva Symphony
+IMO NUMBER
+9304605
+FLAG
+Liberia
+YEAR OF BUILT
+2006
+DEADWEIGHT TONNAGE
+159450.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+16.14 m
+LENGTH / BREADTH
+276.88 m / 50.04 m
+YARD
+Universal Shipbuilding
+CLASS
+ABS
+Minerva Tychi
+IMO NUMBER
+9723291
+FLAG
+Greek
+YEAR OF BUILT
+2016
+DEADWEIGHT TONNAGE
+39070.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+11.92 m
+LENGTH / BREADTH
+184.27 m / 27.40 m
+YARD
+Hyundai Mipo Dockyard Co. Ltd
+CLASS
+BV
+Minerva Vaso
+IMO NUMBER
+9318008
+FLAG
+Liberia
+YEAR OF BUILT
+2006
+DEADWEIGHT TONNAGE
+50921.90 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+13.29 m
+LENGTH / BREADTH
+183.00 m / 32.20 m
+YARD
+STX Shipbuilding Co. Ltd
+CLASS
+ABS
+Minerva Vera
+IMO NUMBER
+9411941
+FLAG
+Malta
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+158022.50 mt
+SOX SCRUBBER OPEN LOOP
+YES
+DRAFT METERS
+17.17 m
+LENGTH / BREADTH
+274.33 m / 48.00 m
+YARD
+Hyundai Samho Heavy Industries Co Ltd
+CLASS
+DNV
+Minerva Zen
+IMO NUMBER
+9410909
+FLAG
+Greek
+YEAR OF BUILT
+2009
+DEADWEIGHT TONNAGE
+52914.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+13.49 m
+LENGTH / BREADTH
+183.00 m / 32.20 m
+YARD
+Guangzhou Shipyard International
+CLASS
+DNV
+Minerva Zenobia
+IMO NUMBER:
+9787182
+FLAG
+Greek
+YEAR OF BUILT
+2018
+DEADWEIGHT TONNAGE
+114696 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+14.84 m
+LENGTH / BREADTH
+249.97 m / 44.00 m
+YARD
+Sasebo Heavy Industries
+CLASS
+ABS
+Minerva Zoe
+IMO NUMBER
+9800568
+FLAG
+Greece
+YEAR OF BUILT
+2019
+DEADWEIGHT TONNAGE
+109896.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+21.21 m
+LENGTH / BREADTH
+243.9 m / 43.97 m
+YARD
+Shanghai Waigaoqiao Shipbuilding Co. Ltd
+CLASS
+ABS
+Pantanassa
+IMO NUMBER
+9424261
+FLAG
+Malta
+YEAR OF BUILT
+2011
+DEADWEIGHT TONNAGE
+317106.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+22.62 m
+LENGTH / BREADTH
+333.07 m / 60.05 m
+YARD
+Hyundai Samho Heavy Industry co ltd
+CLASS
+BV
+Zourva
+IMO NUMBER
+9679593
+FLAG
+Malta
+YEAR OF BUILT
+2014
+DEADWEIGHT TONNAGE
+318447.00 mt
+SOX SCRUBBER OPEN LOOP
+NO
+DRAFT METERS
+22.64 m
+LENGTH / BREADTH
+333.00 m / 60.00 m
+YARD
+SWS Yard, Shanghai - China
+CLASS
+ABS
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+address
+141-143 Vouliagmenis Avenue
+Voula, Athens, 16673 Greece
+tel
++302108907500
+Privacy Policy
+Cookies Policy
+©
+				Copyright 2022-2026 MINERVA MARINE
+WEB DESIGN
+,
+WEB DEVELOPMENT
+&
+SEO
+BY
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/mvm11921/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.minervamarine.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+var cf7appsHoneypotRefill = {"forceRefillOnInit":"1"};
+//# sourceURL=cf7apps-honeypot-refill-js-extra
+var i18n = {"lang":"en"};
+var urls = {"home":"https://www.minervamarine.com","theme":"https://www.minervamarine.com/wp-content/themes/mvm11921","assets":"https://www.minervamarine.com/wp-content/themes/mvm11921/assets","ajax":"https://www.minervamarine.com/wp-admin/admin-ajax.php?lang=en"};
+var theme_config = {"security":"eeed0331cc","google_api_key":"AIzaSyAEyRidng-wzXHXyQSvC6lgshed7OTDJfI"};
+//# sourceURL=main-js-extra
+var wpcf7_recaptcha = {
+    "sitekey": "6LdEWHAqAAAAAMnDcU4PxWBiaDOJKSV6dZKrti9P",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+//# sourceURL=wpcf7-recaptcha-js-before
+var config = {
+                    apiKey: '18b1c44fb258c774ff5b797734453d8425cfd390',
+                    product: 'PRO_MULTISITE',
+                    logConsent: false,
+                    notifyOnce: false,
+                    initialState: 'BOX',
+                    position: 'RIGHT',
+                    theme: 'DARK',
+                    layout: 'POPUP',
+                    toggleType: 'checkbox',
+                    acceptBehaviour: 'all',
+                    closeOnGlobalChange: true,
+                    iabCMP: false,
+                                        closeStyle: 'button',
+                    consentCookieExpiry: 90,
+                    subDomains: true,
+                                        secureCookie: false,
+                    mode: 'gdpr',
+                    rejectButton: true,
+                    settingsStyle: 'button',
+                    encodeCookie: false,
+                    setInnerHTML: true,
+                    wrapInnerHTML: false,
+                    accessibility: {
+                        accessKey: 'C',
+                        highlightFocus: false,
+                        outline: true,
+                        overlay: true,
+                        disableSiteScrolling: false,
+                    },
+                                        text: {
+                        title: 'This site uses cookies',
+                        intro: 'Some of these cookies are essential, while others help us to improve your experience by providing insights into how the site is being used.',
+                        necessaryTitle: 'Necessary Cookies',
+                        necessaryDescription: 'Necessary cookies enable core functionality. The website cannot function properly without these cookies, and can only be disabled by changing your browser preferences.',
+                        thirdPartyTitle: 'Warning: Some cookies require your attention',
+                        thirdPartyDescription: 'Consent for the following cookies could not be automatically revoked. Please follow the link(s) below to opt out manually.',
+                        on: 'On',
+                        off: 'Off',
+                        accept: 'Accept',
+                        settings: 'Preferences',
+                        acceptRecommended: 'Accept',
+                        acceptSettings: 'Accept',
+                        notifyTitle: 'Your choice regarding cookies on this site',
+                        notifyDescription: 'We use cookies to optimise site functionality and give you the best possible experience.',
+                        closeLabel: 'Save &amp; Close',
+                        cornerButton: 'Set cookie preferences.',
+                        landmark: 'Cookie preferences.',
+                        showVendors: 'Show vendors within this category',
+                        thirdPartyCookies: 'This vendor may set third party cookies.',
+                        readMore: 'Read more',
+                        accessibilityAlert: 'This site uses cookies to store information. Press accesskey C to learn more about your options.',
+                        rejectSettings: 'Reject All',
+                        reject: 'Reject',
+                                            },
+                    
+                        branding: {
+                            fontColor: '#fff',
+                            fontFamily: 'Josefin Sans,sans-serif',
+                            fontSizeTitle: '3.2em',
+                            fontSizeHeaders: '2em',
+                            fontSize: '1.2em',
+                            backgroundColor: '#005384',
+                            toggleText: '#fff',
+                            toggleColor: '#005384',
+                            toggleBackground: '#005384',
+                            alertText: '#fff',
+                            alertBackground: '#005384',
+                            acceptText: '#005384',
+                            acceptBackground: '#ffffff',
+                            rejectText: '#005384',
+                            rejectBackground: '#ffffff',
+                            closeText: '#005384',
+                            closeBackground: '#FFF',
+                            notifyFontColor: '#FFF',
+                            notifyBackgroundColor: '#005384',
+                                                            buttonIcon: null,
+                                                        buttonIconWidth: '64px',
+                            buttonIconHeight: '64px',
+                            removeIcon: false,
+                            removeAbout: false                        },
+                                        
+                                                                    
+                    
+                                                                                    
+                                            necessaryCookies: ['wordpress_*','wordpress_logged_in_*','wp_consent_*','PHPSESSID','wp-settings-*','_icl_*','wordpress_*','SERVERID','CookieControl','__cfduid'],
+                    
+                                            optionalCookies: [
+                                                             {
+                                        name: 'performance_cookies',
+                                        label: 'Performance Cookies',
+                                        description: 'Performance cookies help us to improve our website by collecting and reporting information on its usage.',
+                                                                                cookies: ['_ga', '_gid', '_gat', '_gcl_au', '_gali', '_ga_0NNLQ56FLX'],
+                                        onAccept: function() {
+                                            window.dataLayer.push({ 
+'event': 'performance_cookies_accepted' 
+});                                         },
+                                        onRevoke: function() {
+                                                                                    },
+                                                                                recommendedState: 'on',
+                                        lawfulBasis: 'consent',
+
+                                        
+                                    },
+                                                                                    ],
+                                                            sameSiteCookie: true,
+                    sameSiteValue: 'Strict',
+                    notifyDismissButton: false
+                };
+                CookieControl.load(config);

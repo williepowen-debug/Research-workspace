@@ -1,0 +1,270 @@
+Oil Market Report (OMR) - Data product - IEA (https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr)
+citeturn21view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr","lineno":null}); Total lines: 1180
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: [Input: Search everything]
+L3: 
+L4:   * cite1†About L5:   * cite2†News L6:   * cite3†Events L7:   * cite4†Programmes L8:   * cite5†Help centre L9: 
+L10: Sign In
+L11: 
+L12: You are connecting via IP recognition from
+L13: .
+L14: 
+L15: If you wish to proceed, click on Connect.
+L16: If you prefer to log into your personal account, please sign in below.
+L17: 
+L18: cite6†Connect L19: 
+L20: OR
+L21: 
+L22: [Input]
+L23: 
+L24: Email *
+L25: 
+L26: [Input: ]
+L27: 
+L28: Password * cite7†Forgot password? L29: 
+L30: [Input: ]
+L31: 
+L32: Sign in
+L33: ##### Create an account
+L34: 
+L35: Create a free IEA account to download our reports or subcribe to a paid service.
+L36: 
+L37: cite8†Join for free L38: 
+L39: Purchase licence
+L40: 
+L41: [Input] [Input] [Input]
+L42: 
+L43: This service includes the PDF report (which provides information on supply, demand, stocks, prices and refinery activity) and tables in the report.
+L44: Subscriptions run over 12 or 24 months (a 10% discount is automatically applied on 24-month subscriptions), from date to date.
+L45: 
+L46: Duration
+L47: 
+L48:   * 12 months
+L49:   * 24 months (-10%)
+L50: 
+L51: Users
+L52: 
+L53:   * 1 user
+L54:   * 5 users
+L55: 
+L56:   * 10 users
+L57: 
+L58:   * Enterprise
+L59: 
+L60:   * Global Enterprise
+L61: 
+L62: Locations
+L63: 
+L64:   * 1 location
+L65: 
+L66:   * Enterprise
+L67: 
+L68:   * Multiple locations
+L69: 
+L70: Copies
+L71: 
+L72:   * Quantity
+L73: 
+L74: [Input]
+L75: 
+L76: Need help with your purchase ? Visit our cite5†help centre L77: 
+L78: See if you qualify for a discount. cite9†Learn more L79: 
+L80: Request price
+L81: 
+L82: [Input]
+L83: 
+L84: Name *
+L85: 
+L86: [Input: ]
+L87: 
+L88: Company
+L89: 
+L90: [Input: ]
+L91: 
+L92: Email *
+L93: 
+L94: [Input: ]
+L95: 
+L96: Additional information
+L97: 
+L98: [Input: ]
+L99: 
+L100: [Input: ]
+L101: 
+L102: [Input: ]
+L103: 
+L104: [Input: ]
+L105: 
+L106: In purchasing a licence for Oil Market Report (OMR), I certify the following:
+L107: #### Oil Market Report (OMR)
+L108: 
+L109: 12 months, 1 user, 1 location
+L110: 
+L111: € 3 450
+L112: 
+L113: Unsaved changes made to your selection
+L114: 
+L115: Next
+L116: 
+L117: Back
+L118: 
+L119: Add to cart
+L120: 
+L121: Product added to cart
+L122: 
+L123: View cart
+L124: 
+L125: Checkout
+L126: 
+L127: Back
+L128: 
+L129: Unsaved changes made to your selection
+L130: 
+L131: Update cart
+L132: 
+L133: Contact us
+L134: 
+L135: Send request
+L136: 
+L137: Cancel
+L138: 
+L139: Product added to cart
+L140: 
+L141: #### Product added to cart
+L142: 
+L143: #### Oil Market Report (OMR)
+L144: 
+L145: Checkout
+L146: 
+L147: View cart
+L148: 
+L149: cite10†Browse other products L150: #### Cite product
+L151: 
+L152: IEA, Oil Market Report (OMR), IEA, Paris https://www.iea.org/data-and-statistics/data-product/oil-market-report-omr, Licence: Terms of Use for Non-CC Material
+L153: 
+L154: Copy to clipboard
+L155: 
+L156: #### Share
+L157: 
+L158:   * cite11†Twitter L159:   * cite11†Facebook L160:   * cite11†LinkedIn L161:   * cite11†Bluesky L162:   * cite11†Email L163:   * cite11†Print L164: 
+L165: Buy
+L166: # Oil Market Report (OMR)
+L167: 
+--------------------------------------------------------------------------------
+Weekly Petroleum Status Report Schedule - U.S. Energy Information Administration (EIA) (https://www.eia.gov/petroleum/supply/weekly/schedule.php)
+citeturn21view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.eia.gov/petroleum/supply/weekly/schedule.php","lineno":null}); Total lines: 295
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn21view2 [wordlim: 200] Source: find({"ref_id":"turn20view0","pattern":"Minerva Zen"}); Total lines: 1
+No matching text found for "Minerva Zen"--------------------------------------------------------------------------------
+Le gouvernement assure que les prix du gazole baisseront 'dès le 1er novembre' | TV5MONDE - Informations (https://information.tv5monde.com/economie/le-gouvernement-assure-que-les-prix-du-gazole-baisseront-des-le-1er-novembre-2841330)
+citeturn21view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn20view3","pattern":"28 octobre"}); Total lines: 143
+L0:   * cite0†TV5MONDE+†www.tv5mondeplus.com L1:   * cite1†Info L2:   * cite2†EDU†langue-francaise.tv5monde.com L3: 
+L4: [Button: Recherche]
+L5: 
+L6: Rechercher [Input]
+L7: 
+L8: Période de publication [Input]
+L9: 
+L10: Au [Input]
+L11: 
+L12: [Input]
+L13: 
+L14: cite3†Vidéos L15: # Le gouvernement assure que les prix du gazole baisseront "dès le 1er novembre"
+L16: 
+L17: Le
+L18: 
+L19: 12 Oct. 2026 à 18h36
+L20: 
+L21: Mis à jour le
+L22: 
+L23: 12 Oct. 2026 à 21h19
+L24: 
+L25: Par
+L26: 
+L27: cite4†AFP L28: 
+L29: Par Anne RENAUT, Eliott NAIL
+L30: 
+L31: © 2026 AFP
+L32: 
+L33: cite5†Image: Le Premier ministre Sébastien Lecornu à Paris le 12 octobre 2026 L34: 
+L35: Le Premier ministre Sébastien Lecornu à Paris le 12 octobre 2026
+L36: 
+L37: AFP
+L38: 
+L39: JULIEN DE ROSA
+L40: 
+L41: 4 minutes de lecture
+L42: 
+L43: cite6†Ajouter TV5MONDE Info en favori sur Google†google.com L44: Sébastien Lecornu a assuré lundi que les prix du gazole baisseraient pour les consommateurs "dès le 1er novembre" grâce au déstockage de millions de barils et au bon vouloir des distributeurs, qu'il a reçus dans la matinée.
+L45: 
+L46: La flambée des prix des carburants, due aux tensions géopolitiques accrues, entame le pouvoir d'achat des Français, devenu un thème de la campagne présidentielle et d'appels à manifester notamment le 17 octobre.
+L47: Le gouvernement a pris "une mesure exceptionnelle, qu'aucun gouvernement n'avait jusqu'alors jamais prise" consistant à "utiliser nos stocks stratégiques pour diminuer votre facture de gazole", a déclaré le Premier ministre dans une vidéo diffusée sur les réseaux sociaux.
+L48: 
+L49: La baisse attendue du prix à la pompe pourrait aller de 12 à 18 centimes par litre, selon le gouvernement ce qui représenterait "environ dix euros d'économies à chaque plein en moyenne".
+L50: Pour ce faire, Sébastien Lecornu a réuni lundi matin les distributeurs de carburants "pour arrêter ensemble les modalités" de cette initiative qui vise à vendre aux distributeurs, à prix coûtant, 10 millions de barils de gazole issus des stocks stratégiques pendant trois mois, de novembre à janvier.
+L51: 
+L52: Les premières ventes auront lieu le 28 octobre, et la répartition des stocks entre les différents opérateurs se fera sur la base de leurs parts de marché de l'année 2025.
+L53: ## Transparence et contrôle
+L54: 
+L55: L'opération est rendue possible par le recours aux stocks stratégiques de la France, achetés avant la guerre au Moyen-Orient à 0,28 euro par litre, soit nettement moins que le prix du marché actuel d'environ 1,10 euro par litre, selon Matignon.
+L56: Pour les 300 stations-service rurales les plus isolées, qui risquent d'être livrées plus tardivement, le gouvernement prévoit "des avances de trésorerie" et "un fonds spécialisé", afin qu'elles puissent anticiper les achats de carburants remisés et baisser leurs prix dès le 1er novembre.
+L57: 
+L58: La baisse des prix envisagée concerne aussi le gazole non routier (GNR) utilisé par les agriculteurs, les pêcheurs, les entreprises du bâtiment et des travaux publics, ainsi que le fioul domestique.
+L59: Pour s'assurer de la réussite de l'opération
+L60: 
+L61: cite7†Image: Le gouvernement s'engage également à contrôler les "prix et les marges" des distributeurs L62: 
+L63: Le gouvernement s'engage également à contrôler les "prix et les marges" des distributeurs
+L64: 
+L65: AFP/Archives
+L66: 
+L67: Pascal GUYOT
+L68: 
+L69: n, le gouvernement entend jouer la transparence. Les volumes libérés par la Sagess, qui gère les stocks stratégiques pour l'Etat, seront publiés chaque semaine, tout comme la baisse des coûts conséquente au déstockage.
+L70: "Chaque étape sera traçable", a assuré Sébastien Lecornu. La baisse du prix du gazole "figurera sur les factures de chaque maillon de la chaîne" et "affichée dans les stations", a-t-il ajouté.
+L71: 
+L72: Le gouvernement s'engage également à contrôler les "prix et les marges" des distributeurs. Et si ces derniers ne jouent pas le jeu, il pourra "encadrer par décret les marges".
+L73: ## "Signal fort" pour la FNSEA
+L74: 
+L75: cite8†Image: Le PDG de TotalEnergies Patrick Pouyanné quitte Matignon à l'issue d'une réunion des distributeurs de carburant autour du Premier ministre Sébastien Lecornu, le 12 octobre 2026 L76: 
+L77: Le PDG de TotalEnergies Patrick Pouyanné quitte Matignon à l'issue d'une réunion des distributeurs de carburant autour du Premier ministre Sébastien Lecornu, le 12 octobre 2026
+L78: 
+L79: AFP
+L80: 
+L81: JULIEN DE ROSA
+L82: A l'issue de cette réunion, le PDG de TotalEnergies Patrick Pouyanné s'est engagé à baisser d'environ 10 centimes le prix du litre de gazole pour les particuliers et de 20 centimes celui du litre de GNR, ainsi qu'à une baisse de 200 euros pour le mètre cube de fioul domestique.
+L83: 
+L84: Un geste salué par la FNSEA, dont le président Arnaud Rousseau a salué dans une déclaration à l'AFP un "signal fort" au moment où les agriculteurs sont frappés de plein fouet par les canicules de l'été et la sécheresse.
+L85: "Si l'avantage qu'on nous donne existait aujourd'hui, le prix serait autour de 2,15 (euros) dans nos stations", a indiqué à titre d'exemple M. Pouyanné, alors que le groupe a mis en place un plafonnement de ses prix à 1,99 euro le litre d'essence et 2,25 euros le litre de gazole.
+L86: 
+L87: Le réseau Mobilians, qui représente l'essentiel des stations-service traditionnelles hors grandes surfaces, s'est engagé à répercuter la baisse "dès qu'on aura du prix remisé, notre marge étant fixe quel que soit le prix".
+L88: "Si on achète moins cher, on vendra à l'euro près, au centime d'euro près, on vendra moins cher", a de son côté promis Michel-Edouard Leclerc.
+L89: 
+L90: Marine Le Pen a salué ironiquement la "gentillesse" du patron de Total "qui consiste à répercuter la baisse des prix" après la libération de stocks stratégiques.
+L91: 
+L92: cite9†Économie L93: 
+L94: cite10†FRANCE L95: ## Dans le même thème - Économie
+L96: 
+L97: cite11†Sport La Formule 1 va retrouver l'Afrique avec un Grand Prix au Rwanda "au début des années 2030" L98: 
+L99: cite12†Économie Les Bourses européennes terminent proches de l'équilibre L100: 
+L101: cite13†Économie La Fonderie de Bretagne en route vers la liquidation faute de repreneur L102: ## Vidéos verticales
+L103: 
+L104: cite14†Kenya : la nouvelle raffinerie de Dangote L105: 
+L106: cite15†Népal : retour à l'école après les crues L107: 
+L108: cite16†RD Congo : le pays va compter tous ses habitants L109: 
+L110: cite17†Guinée : fin du plastique à usage unique L111: 
+L112: cite18†Maroc : le roi nomme une Première ministre L113: 
+L114: cite19†Musique : la soif d'Afrique de Tayc L115: 
+L116: cite20†Brésil : les sites de paris en ligne interdits L117: 
+L118: cite21†Espagne : colère face à la crise du logement L119: 
+L120: cite22†Israël : les provocations d'Itamar Ben Gvir L121: cite23†Pape en France : rencontre avec une nouvelle catholique L122: 
+L123: cite24†Voir plus L124: ## À la une
+L125: 
+L126: cite11†Sport La Formule 1 va retrouver l'Afrique avec un Grand Prix au Rwanda "au début des années 2030" L127: 
+L128: cite25†International Gaz et pétrole russes: pourquoi la Hongrie et la Slovaquie ne parviennent pas à s'en passer malgré les sanctions européennes L129: 
+L130: cite26†International Île Maurice: manifestations et nuit de violences après le tir d'un policier sur une femme grièvement blessée L131: cite27†À VRAI DIRE Les États-Unis, un acteur des ingérences étrangères de l'information? Une conférence crée la discorde en Lituanie L132: 
+L133: cite28†Culture Thélyson Orélien dément avoir utilisé l'IA mais reconnaît des plagiats L134: 
+L135: cite29†International États-Unis: des agents de l'ICE en voiture poursuivent et percutent "intentionnellement" un homme selon son avocat L136: 
+L137: cite30†International Mer Noire : onze disparus après de nouvelles frappes sur deux navires près des côtes bulgares L138: cite31†International"Une campagne d'intimidation": l'administration Trump perquisitionne la députée démocrate Ilhan Omar à 3 semaines des midterms L139: 
+L140: cite32†International 20.000 policiers dans des écoles en Pologne: des attaques au couteau motivées par un “culte de la violence” sur Internet? L141: 
+L142: cite33†International Trump renvoie son ambassadrice en Grèce, Kimberly Guilfoyle, éclaboussée par des scandales 

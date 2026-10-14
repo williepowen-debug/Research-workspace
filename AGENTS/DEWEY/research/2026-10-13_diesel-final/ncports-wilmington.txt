@@ -1,0 +1,376 @@
+var TEMPLATE_DIRECTORY = 'https://ncports.com/wp-content/themes/nc-ports';
+		var BASE_URL           = 'https://ncports.com';
+body{--booked_button_color: #a6c3d1;}
+// Define dataLayer and the gtag function.
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					(function(){
+						var _gdpr_c = {}, _gdpr_m = null, _gdpr_has = false;
+				try { _gdpr_m = document.cookie.match(/(?:^|;\s*)moove_gdpr_popup=([^;]*)/); _gdpr_has = !! _gdpr_m; } catch ( e ) {}
+				if ( _gdpr_m ) { try { _gdpr_c = JSON.parse( decodeURIComponent( _gdpr_m[1] ) ) || {}; } catch ( e ) { _gdpr_c = {}; } }
+				var _gdpr_state = function( k ) { return _gdpr_has && parseInt( _gdpr_c[ k ], 10 ) === 1 ? 'granted' : 'denied'; };
+						var _gdpr_ads = _gdpr_state('advanced'), _gdpr_strict = _gdpr_state('strict');
+						var _gdpr_consent = {
+							'ad_storage': _gdpr_ads,
+							'ad_user_data': _gdpr_ads,
+							'ad_personalization': _gdpr_ads,
+							'analytics_storage': _gdpr_state('thirdparty'),
+							'personalization_storage': _gdpr_state('preference'),
+							'security_storage': _gdpr_strict,
+							'functionality_storage': _gdpr_strict
+						};
+						if ( ! _gdpr_has ) {
+							_gdpr_consent['wait_for_update'] = '2000';
+						}
+						gtag('consent', 'default', _gdpr_consent);
+					})();
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','dataLayer','GTM-PQMS9SJ');
+Page not found - NC Ports
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/ncports.com\/#website","url":"https:\/\/ncports.com\/","name":"NC Ports","description":"We keep cargo and business moving","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/ncports.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*wp_block_styles_on_demand_placeholder:6acec7466aa15*/
+/*# sourceURL=wp-block-library-inline-css */
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body div.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body div.booked-calendar .bc-head,body div.booked-calendar .bc-head .bc-col,body div.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#4d8b9e !important; }body #booked-profile-page input[type=submit].button-primary:hover,body div.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body div.booked-calendar .bc-head .bc-col,body div.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#4d8b9e !important; }body div.booked-calendar .bc-row.days,body div.booked-calendar .bc-row.days .bc-col,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#003e51 !important; }body div.booked-calendar .bc-row.days .bc-col,body #booked-profile-page .booked-tabs{ border-color:#003e51 !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body div.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body div.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body div.booked-calendar .bc-col:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt,body #booked-profile-page .booked-tabs li a .counter{ background:#a6c3d1; }body #booked-profile-page input[type=submit].button-primary,body div.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body div.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#a6c3d1; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#a6c3d1; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }
+/*# sourceURL=booked-css-inline-css */
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn,
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 1px currentColor;
+					opacity: .7;
+					color: #202020;
+				}
+
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn:hover,
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn:hover {
+					background-color: #202020;
+					box-shadow: none;
+					color: #fff;
+					opacity: 1;
+				}
+
+				#moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn, #moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 1px currentColor;
+					opacity: .7;
+					color: #fff;
+				}
+
+				#moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.moove-gdpr-infobar-settings-btn:hover, #moove_gdpr_cookie_info_bar:not(.gdpr-full-screen-infobar).moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.moove-gdpr-infobar-settings-btn:hover {
+					box-shadow: none;
+					opacity: 1;
+					color: #202020;
+					background-color: #fff;
+				}
+							#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main h3.tab-title, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main span.tab-title,
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button,
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content .moove-gdpr-branding-cnt a,
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton,
+				#moove_gdpr_cookie_modal .cookie-switch .cookie-slider:after, 
+				#moove_gdpr_cookie_modal .cookie-switch .slider:after, 
+				#moove_gdpr_cookie_modal .switch .cookie-slider:after, 
+				#moove_gdpr_cookie_modal .switch .slider:after,
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p, 
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p a,
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton, 
+				#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton,
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content h1, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content h2, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content h3, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content h4, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content h5, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content h6,
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v2 .moove-gdpr-modal-title .tab-title,
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v2 .moove-gdpr-tab-main h3.tab-title, 
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v2 .moove-gdpr-tab-main span.tab-title,
+				#moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v2 .moove-gdpr-branding-cnt a {
+					font-weight: inherit				}
+			#moove_gdpr_cookie_modal,#moove_gdpr_cookie_info_bar,.gdpr_cookie_settings_shortcode_content{font-family:inherit}#moove_gdpr_save_popup_settings_button{background-color:#373737;color:#fff}#moove_gdpr_save_popup_settings_button:hover{background-color:#000}#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton{background-color:#00a7df}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green,.gdpr-blocked-recaptcha .gdpr-shr-button.button-green{background-color:#00a7df;border-color:#00a7df}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton:hover,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green:hover,.gdpr-blocked-recaptcha .gdpr-shr-button.button-green:hover{background-color:#fff;color:#00a7df}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon{background-color:#00a7df;border:1px solid #00a7df}#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-allow-all.focus-g,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-allow-all:focus,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-allow-all.focus-g,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-allow-all:focus,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-reject-btn.focus-g,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-reject-btn:focus,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-reject-btn.focus-g,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-reject-btn:focus,#moove_gdpr_cookie_info_bar span.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar span.change-settings-button:focus,#moove_gdpr_cookie_info_bar button.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar button.change-settings-button:focus{-webkit-box-shadow:0 0 1px 3px #00a7df;-moz-box-shadow:0 0 1px 3px #00a7df;box-shadow:0 0 1px 3px #00a7df}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button{color:#00a7df}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .gdpr-acc-link{line-height:0;font-size:0;color:transparent;position:absolute}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close:hover i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button.focus-g,span.change-settings-button:focus,button.change-settings-button.focus-g,button.change-settings-button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:focus{color:#00a7df}#moove_gdpr_cookie_modal .moove-gdpr-branding.focus-g span,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main a.focus-g,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .gdpr-cd-details-toggle.focus-g{color:#00a7df}#moove_gdpr_cookie_modal.gdpr_lightbox-hide{display:none}
+/*# sourceURL=moove_gdpr_frontend-inline-css */
+var cffsiteurl = "https://ncports.com/wp-content/plugins";
+var cffajaxurl = "https://ncports.com/wp-admin/admin-ajax.php";
+
+
+var cfflinkhashtags = "true";
+var ajaxurl = "https://ncports.com/wp-admin/admin-ajax.php"
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+.page-id-83299 .page-banner .row h1 {
+	display: none !important;
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container {
+	padding: 30px 10px;
+}
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	                                              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PQMS9SJ');
+Skip to main content
+Call us: 800-334-0682
+Customer Access Portal (CAP) / Vessel Schedule
+Search
+Submit search
+Capabilities
+Rail Connectivity
+Queen City Express
+Wilmington Midwest Express
+Wilmington-Rocky Mount Express
+Cargo Handling
+Refrigerated Cargo
+Foreign Trade Zone
+Customer Stories
+Personal connections. Stronger supply chains.
+Facilities
+Port of Wilmington
+Port of Morehead City
+Charlotte Inland Port
+Improvements
+Container Gate Complex
+Harbor Enhancement
+Completed Upgrades
+About the Ports
+News
+Leadership
+Public Notices
+Fast Facts
+Library
+Images
+Videos
+Downloads
+Economic Contribution
+Connect
+Careers
+Vendor Opportunities
+Public Records Request
+Alerts
+Social Media
+Contact Us
+Customer Tools
+Port Access
+Gate Info
+Preparing for Your Visit
+TWIC
+Escort Form
+Port Safety
+Always On Duty
+Cargo Tools
+Tariffs and Pricing
+Service Provider Directory
+Current Conditions
+Customer Access Portal (CAP)/ Vessel Schedule
+Menu
+Capabilities
+Rail Connectivity
+Queen City Express
+Wilmington Midwest Express
+Wilmington-Rocky Mount Express
+Cargo Handling
+Refrigerated Cargo
+Foreign Trade Zone
+Customer Stories
+Personal connections. Stronger supply chains.
+Facilities
+Port of Wilmington
+Port of Morehead City
+Charlotte Inland Port
+Improvements
+Container Gate Complex
+Harbor Enhancement
+Completed Upgrades
+About the Ports
+News
+Leadership
+Public Notices
+Fast Facts
+Library
+Images
+Videos
+Downloads
+Economic Contribution
+Connect
+Careers
+Vendor Opportunities
+Public Records Request
+Alerts
+Social Media
+Contact Us
+Customer Tools
+Port Access
+Gate Info
+Preparing for Your Visit
+TWIC
+Escort Form
+Port Safety
+Always On Duty
+Cargo Tools
+Tariffs and Pricing
+Service Provider Directory
+Current Conditions
+Customer Access Portal (CAP)/ Vessel Schedule
+Sorry, this page could not be found.
+Please try using the main navigation at the top of this page.
+Sign Up for Alerts
+Cargo Tools
+Contact Us
+NC Ports on Facebook
+NC Ports on YouTube
+NC Ports on Twitter
+NC Ports on LinkedIn
+NC Ports on Instagram
+COPYRIGHT 2011–2026, North Carolina State Ports Authority is an enterprise agency of the
+NC Department of Transportation
+.
+Terms & Conditions
+Privacy
+Sitemap
+×
+Sign up for customized alerts
+Email Address
+*
+Select list(s) to subscribe to
+Careers - North Carolina State Ports Authority
+Careers - Port of Morehead City
+Careers - Port of Wilmington
+Public Notices
+Tariffs/Pricing
+Operations Alerts
+Example: Yes, I would like to receive emails from NC Ports. (You can unsubscribe anytime)
+Constant Contact Use. Please leave this field blank.
+By submitting this form, you are consenting to receive marketing emails from: . You can revoke your consent to receive emails at any time by using the SafeUnsubscribe® link, found at the bottom of every email.
+Emails are serviced by Constant Contact
+var ajaxurl = "https://ncports.com/wp-admin/admin-ajax.php";
+var localizedErrMap               = {};
+	localizedErrMap['required']       = 'This field is required.';
+	localizedErrMap['ca']             = 'An unexpected error occurred while attempting to send email.';
+	localizedErrMap['email']          = 'Please enter your email address in name@email.com format.';
+	localizedErrMap['birthday']       = 'Please enter birthday in MM/DD format.';
+	localizedErrMap['anniversary']    = 'Please enter anniversary in MM/DD/YYYY format.';
+	localizedErrMap['custom_date']    = 'Please enter this date in MM/DD/YYYY format.';
+	localizedErrMap['list']           = 'Please select at least one email list.';
+	localizedErrMap['generic']        = 'This field is invalid.';
+	localizedErrMap['shared']         = 'Sorry, we could not complete your sign-up. Please contact us to resolve this.';
+	localizedErrMap['state_mismatch'] = 'Mismatched State/Province and Country.';
+	localizedErrMap['state_province'] = 'Select a state/province';
+	localizedErrMap['selectcountry']  = 'Select a country';
+	var postURL                       = 'https://visitor2.constantcontact.com/api/signup';
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/nc-ports/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+This website uses cookies to improve your experience and for analytics. Manage your preferences in ‘
+Cookie Settings
+.’ By clicking ‘
+Accept All
+’, you agree to our use of cookies as described in our
+Privacy Policy
+.
+Accept All
+Cookie Settings
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    if ( '83302' == event.detail.contactFormId ) {
+       location = '/cold-chain-summit/thank-you/'
+    }
+
+    if ( '78861' == event.detail.contactFormId ) {
+       location = '/cold-chain-shipping-solutions/thanks/'
+    }
+
+    if ( '73076' == event.detail.contactFormId ) {
+       location = '/cold-chain-summit/thank-you/'
+    }
+
+    if ( '4098' == event.detail.contactFormId ) {
+       location = '/furniture/thank-you/'
+    }
+
+    if ( '442' == event.detail.contactFormId ) {
+       location = '/customer-tools/port-access/twic-application-submit/'
+    }
+
+    if ( '432' == event.detail.contactFormId ) {
+        location = '/connect/contact-us/thank-contacting-us/'
+    }
+}, false );
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+var booked_js_vars = {"ajax_url":"https://ncports.com/wp-admin/admin-ajax.php","profilePage":"https://ncports.com/thank-you-for-making-your-twic-reservation/","publicAppointments":"","i18n_confirm_appt_edit":"Are you sure you want to change the appointment date? By doing so, the appointment date will need to be approved again.","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized.","nonce":"c9544481d4"};
+//# sourceURL=booked-functions-js-extra
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/ncports.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+var cf7appsHoneypotRefill = {"forceRefillOnInit":"1"};
+//# sourceURL=cf7apps-honeypot-refill-js-extra
+var cffOptions = {"placeholder":"https://ncports.com/wp-content/plugins/custom-facebook-feed-pro/assets/img/placeholder.png","resized_url":"https://ncports.com/wp-content/uploads/sb-facebook-feed-images/","nonce":"6a4bcec2bb"};
+//# sourceURL=cffscripts-js-extra
+var cffsiteurl = "https://ncports.com/wp-content/plugins";var cffajaxurl = "https://ncports.com/wp-admin/admin-ajax.php";
+window.cff_a11y_strings = {"loadingMore":"Loading more posts","postsLoaded":"More posts loaded","noMorePosts":"No more posts","viewPostMedia":"View post media","commentsLoaded":"More comments loaded"};
+//# sourceURL=cffscripts-js-before
+var PopupReplyData = {"global":{"enabled":true,"show_for":"all","show_original_response":true,"close_on_esc":true,"close_on_overlay":true,"show_close_button":true,"auto_close":false,"auto_close_delay":5,"popup_size":"medium","popup_style":"clean","debug_mode":false},"forms":[],"i18n":{"title_success":"Message sent","title_validation":"Please check the form","title_error":"Message could not be sent","title_warning":"Message blocked","close":"Close"}};
+//# sourceURL=popupreply-modal-js-extra
+var booked_fea_vars = {"ajax_url":"https://ncports.com/wp-admin/admin-ajax.php","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_confirm_appt_approve":"Are you sure you want to approve this appointment?"};
+//# sourceURL=booked-fea-js-js-extra
+var moove_frontend_gdpr_scripts = {"ajaxurl":"https://ncports.com/wp-admin/admin-ajax.php","post_id":"556210","plugin_dir":"https://ncports.com/wp-content/plugins/gdpr-cookie-compliance","show_icons":"all","is_page":"","ajax_cookie_removal":"false","strict_init":"2","enabled_default":{"strict":3,"third_party":1,"advanced":0,"performance":0,"preference":0},"geo_location":"false","force_reload":"false","is_single":"","hide_save_btn":"false","current_user":"0","cookie_expiration":"365","script_delay":"2000","close_btn_action":"1","close_btn_rdr":"","scripts_defined":"{\"cache\":true,\"header\":\"\",\"body\":\"\",\"footer\":\"\",\"thirdparty\":{\"header\":\"\\t\\t\\t\\t\\t\\t\\t\\t\u003C!-- Google Tag Manager --\u003E\\n\\t\\t\\t\\t\u003Cscript data-gdpr data-type=\\\"gdpr-integration\\\"\u003E(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\n\\t\\t\\t\\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\n\\t\\t\\t\\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\\n\\t\\t\\t\\t'https:\\/\\/www.googletagmanager.com\\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n\\t\\t\\t\\t})(window,document,'script','dataLayer','GTM-PQMS9SJ');\u003C\\/script\u003E\\n\\t\\t\\t\\t\u003C!-- End Google Tag Manager --\u003E\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\u003Cscript data-gdpr\u003E\\n\\t\\t\\t\\t\\tgtag('consent', 'update', {\\n\\t\\t\\t\\t\\t'ad_storage': 'granted',\\n\\t\\t\\t\\t\\t'ad_user_data': 'granted',\\n\\t\\t\\t\\t\\t'ad_personalization': 'granted',\\n\\t\\t\\t\\t\\t'analytics_storage': 'granted',\\n\\t\\t\\t\\t\\t'personalization_storage': 'granted',\\n\\t\\t\\t\\t\\t\\t'security_storage': 'granted',\\n\\t\\t\\t\\t\\t\\t'functionality_storage': 'granted',\\n\\t\\t\\t\\t});\\n\\n\\t\\t\\t\\tdataLayer.push({\\n\\t\\t\\t\\t\\t'event': 'cookie_consent_update'\\n\\t\\t\\t\\t\\t});\\n\\t\\t\\t\\t\u003C\\/script\u003E\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\",\"body\":\"\\t\\t\\t\\t\u003C!-- Google Tag Manager (noscript) --\u003E\\n\\t\\t\\t\\t\u003Cnoscript data-type=\\\"gdpr-integration\\\"\u003E\u003Ciframe src=\\\"https:\\/\\/www.googletagmanager.com\\/ns.html?id=GTM-PQMS9SJ\\\"\\n\\t\\t\\t\\theight=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"\u003E\u003C\\/iframe\u003E\u003C\\/noscript\u003E\\n\\t\\t\\t\\t\u003C!-- End Google Tag Manager (noscript) --\u003E\\n\\t\\t\\t\\t\\t\\t\\t\\t\",\"footer\":\"\"},\"strict\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"},\"advanced\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"}}","gdpr_scor":"true","wp_lang":"","wp_consent_api":"false","gdpr_nonce":"3ab0085379"};
+//# sourceURL=moove_gdpr_frontend-js-extra
+var gdpr_c=document.cookie.match(/(?:^|;\s*)moove_gdpr_popup=([^;]*)/);var gdpr_d=gdpr_c?JSON.parse(decodeURIComponent(gdpr_c[1])):{};var gdpr_consent__strict=gdpr_d.strict==="1"?"true":"false";var gdpr_consent__thirdparty=gdpr_d.thirdparty==="1"?"true":"false";var gdpr_consent__advanced=gdpr_d.advanced==="1"?"true":"false";var gdpr_consent__performance=gdpr_d.performance==="1"?"true":"false";var gdpr_consent__preference=gdpr_d.preference==="1"?"true":"false";var _cc=[];if(gdpr_d.strict==="1")_cc.push("strict");if(gdpr_d.thirdparty==="1")_cc.push("thirdparty");if(gdpr_d.advanced==="1")_cc.push("advanced");if(gdpr_d.performance==="1")_cc.push("performance");if(gdpr_d.preference==="1")_cc.push("preference");var gdpr_consent__cookies=_cc.join("|");
+//# sourceURL=moove_gdpr_frontend-js-after
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://ncports.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://ncports.com/wp-includes/js/wp-emoji-loader.min.js
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+3rd Party Cookies
+Powered by
+GDPR Cookie Compliance
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+For more detail, please visit
+https://ncports.com/privacy/
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+3rd Party Cookies
+This website uses Google Analytics to collect anonymous information such as the number of visitors to the site, and the most popular pages.
+Keeping this cookie enabled helps us to improve our website.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Settings

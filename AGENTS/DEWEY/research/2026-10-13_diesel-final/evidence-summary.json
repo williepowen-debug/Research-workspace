@@ -1,0 +1,52 @@
+{
+  "asof_utc": "2026-10-14T00:10:08.693173+00:00",
+  "research_boundary": "FINAL - bounded pass completed;no next DEWEY pass",
+  "underlying_net_addition": "UNKNOWN",
+  "new_web_search_queries": 8,
+  "new_ministry_DOCS_queries": 2,
+  "negative_query_perimeter": "DOCS index,publication dates October9-13;not complete public/non-public corpus",
+  "cargo_authentication": "NO completed chain recovered;not evidence of zero actual deliveries",
+  "operator_identity": "Minerva Zen IMO9410909;52914t deadweight,not cargo",
+  "france_allocation_timing": "AFP October12:October28 firstsales,2025 marketshares;not signed instrument",
+  "next_evidence": [
+    {
+      "date": "2026-10-14",
+      "event": "IEA OMR",
+      "time_EDT": "04:00",
+      "classification": "PRIMARY schedule"
+    },
+    {
+      "date": "2026-10-15",
+      "event": "IEA Board",
+      "classification": "PRIMARY planned review"
+    },
+    {
+      "date": "2026-10-15",
+      "event": "EIA WPSR",
+      "time_EDT": "12:00",
+      "reference_week_end": "2026-10-09",
+      "classification": "PRIMARY schedule;prepermission"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "France firstsales",
+      "classification": "NEWS AFP announcement,not completed"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "EIA monthlyimport release",
+      "classification": "PRIMARY nextdate;actualvintage mustbe read"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "France programme start",
+      "classification": "NEWS exactday;PRIMARY Nov-Jan programme"
+    }
+  ],
+  "unknown_publication_dates": [
+    "Russian signed exception/quota annex",
+    "current cargo terminal/customs records",
+    "full US customs implementation",
+    "matched ICE settlement evidence"
+  ]
+}

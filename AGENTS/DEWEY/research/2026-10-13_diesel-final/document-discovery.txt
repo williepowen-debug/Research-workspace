@@ -1,0 +1,223 @@
+Arrêté du 25 mars 2016 relatif à la constitution des stocks stratégiques pétroliers en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, à La Réunion et à Mayotte - Légifrance (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032396413?init=true&page=1&query=218+2.27+consommateur&searchField=ALL&tab_selection=all)
+citeturn19search0 [wordlim: 200] Published: 10.6 years ago; Crawled: yesterday; # Arrêté du 25 mars 2016 relatif à la constitution des stocks stratégiques pétroliers en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, à La Réunion et à Mayotteen vigueur au 12/10/2026 en vigueur au 12 octobre 2026 ... En outre, l'agrément prévu au 1° de l'article D. 1336-53 du code de la défense prend en considération la localisation des dépôts, la nature des produits stockés et les taux de rotation des dépôts afin d'apprécier si certains ne sont pas assimilables à des établissements de distribution au détail. ... Autres composés gazole issus de la biomasse  |
+
+# Arrêté du 25 mars 2016 relatif à la constitution des stocks stratégiques pétroliers en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, à La Réunion et à Mayotte
+
+en vigueur au 12/10/2026 en vigueur au 12 octobre 2026
+
+[Input]Masquer les articles et les sections abrogés
+
+Accéder à la version initiale Imprimer la page[Button: Copier le texte ]
+
+Dernière mise à jour des données de ce texte : 15 avril 2016
+
+NOR : DEVR1530073A
+
+JORF n°0088 du 14 avril 2016
+
+La ministre de l'environnement, de l'énergie et de la mer, chargée des relations internationales sur le climat, le ministre de l'économie, de l'industrie et du numérique et la ministre des outre-mer,
+Vu le code de l'énergie, notamment les articles L. 141-5 et L. 642-1-1 à L. 642-10 ;
+Vu le code de la défense, notamment les articles D. 1336-47 à D. 1336-56 ;
+Vu le décret n° 93-132 du 29 janvier 1993 portant création du Comité professionnel des stocks stratégiques pétroliers ;
+38 24 90  | 
+92  | 
+66
+2  | 
+Pétrole lampant  | 
+303  | 
+27 10 19  | 
+25  | 
+00
+Gazole autre  | 
+312  | 
+27 10 19  | 
+43  | 
+21, 29, 30 et 90
+Fioul domestique 10 ppm < S < 20 ppm  | 
+307  | 
+27 10 19  | 
+46  | 
+21, 29, 30 et 90
+Fioul domestique 20 ppm < S < 1 000 ppm  | 
+307 ou 310  | 
+27 10 19  | 
+47  | 
+21, 29, 30 et 90
+Fioul domestique 1 000 ppm < S  | 
+307 ou 308  | 
+27 10 19  | 
+48  | 
+10 et 90
+Gazole S < 10 ppm  | 
+312  | 
+27 10 20  | 
+11  | 
+21, 29 et 30
+Gazole 10 ppm < S < 20 ppm  | 
+311  | 
+27 10 20  | 
+15  | 
+21, 29 et 30
+Gazole 20 ppm < S < 1 000 ppm  | 
+311 ou 310  | 
+27 10 20  | 
+17  | 
+21, 29, 30 et 90
+Gazole 1 000 ppm < S  | 
+306  | 
+27 10 20  | 
+19  | 
+10 et 90
+3  | 
+Carburéacteurs type kérosène (ou type pétrole lampant)  | 
+301  | 
+27 10 19  | 
+21  | 
+00
+Carburéacteurs, type essence  | 
+599  | 
+27 10 12  | 
+70  | 
+11, 19 et 90
+4  | 
+Fiouls lourds  | 
+404  | 
+27 10 19  | 
+62  | 
+00
+404 ou 405  | 
+27 10 19  | 
+64  | 
+00
+406 ou 407 ou 414  | 
+27 10 19  | 
+68  | 
+00
+Sans objet  | 
+27 10 20  | 
+31  | 
+00
+Sans objet  | 
+27 10 20  | 
+35  | 
+00
+Sans objet  | 
+27 10 20  | 
+39  | 
+00
+5 (ne concerne que Mayotte, La Réunion et la Guyane)  | 
+Propane  | 
+102  | 
+27 11 12  | 
+11  | 
+00
+94  | 
+00
+97  | 
+00
+Butane  | 
+103  | 
+27 11 13  | 
+91  | 
+00
+97  | 
+00
+GPL  | 
+104  | 
+27 11 19  | 
+00  | 
+00
+
+  * Annexe Déplier/Replier
+    * ## Article
+
+ANNEXE 2
+LISTE DES PRODUITS POUVANT ÊTRE PRIS EN COMPTE POUR LA COUVERTURE DE L'OBLIGATION
+
+CODE ORNOIR  | 
+CATÉGORIE « SUBSTITUABLES » (APPLICATION D'UN COEFFICIENT 0,8
+lors de la comptabilisation en substitution de produits finis)  | 
+STOCKS
+spécifiques
+--- | --- | ---
+1- - - - -  | 
+Pétroles bruts  | 
+Non
+9- - - - -  | 
+Autres produits à distiller (APD)  | 
+Non
+2- - - - -  | 
+Condensats  | 
+Non
+904  | 
+Charges de réformage  | 
+Non
+905  | 
+Charges de craquage  | 
+Non
+906  | 
+Charges de viscoréduction  | 
+Non
+909  | 
+Charges de distillation sous vide et diverses  | 
+Non
+305  | 
+Gazole distillation sous vide charge vapocraqueur  | 
+Non
+Code ORNOIR  | 
+Catégorie 1  | 
+Stocks
+spécifiques
+201  | 
+Supercarburant  | 
+Oui
+203  | 
+Essence-auto  | 
+Oui
+205  | 
+Essence aviation  | 
+Oui
+206  | 
+Essences spéciales  | 
+Oui
+207  | 
+Essence conforme mélange  | 
+Oui
+208  | 
+Essence retour vapocraqueurs  | 
+Oui
+210  | 
+Naphta charge vapocraqueurs  | 
+Oui
+211  | 
+--------------------------------------------------------------------------------
+Article L671-1 - Code de l'énergie - Légifrance (https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024563886/2024-01-06)
+citeturn19search1 [wordlim: 200] Published: 15.1 years ago; Crawled: 5 months ago; En vigueur du 15/10/1985 au 01/10/2016 En vigueur du 15 octobre 1985 au 01 octobre 2016 ... Dernière mise à jour des données de ce texte : 02 avril 2026 ... ― Toute personne physique ou morale autre que l'Etat qui met à la consommation ou livre à l'avitaillement des aéronefs civils des produits pétroliers, en Nouvelle-Calédonie, en Polynésie française, aux îles Wallis-et-Futuna ou à Saint-Pierre-et-Miquelon, est tenue de constituer et de conserver en permanence un stock de réserve de ces produits de cette collectivité territoriale. ... Le montant de cette amende ne peut excéder le quadruple de la valeur des stocks manquants. ... 2° Gazole, fioul domestique, pétrole lampant (autre que carburéacteur) ;
+--------------------------------------------------------------------------------
+Chapitre II : Le stockage (Articles L642-1 à L642-10) - Légifrance (https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023987349/)
+citeturn19search2 [wordlim: 200] Crawled: 4 days ago; Pour l'application du présent chapitre et de l'article L. 671-1, on entend par “ stocks stratégiques ” les stocks pétroliers dont l'article L. 642-2 impose la constitution et la conservation et qui sont les “ stocks de sécurité ” au sens de la directive 2009/119/ CE du Conseil du 14 septembre 2009 faisant obligation aux Etats membres de maintenir un niveau minimal de stocks de pétrole brut et/ ou de produits pétroliers. ... Modifié par LOI n°2022-1157 du 16 août 2022 - art. ... 2° Gazole, fioul domestique, pétrole lampant (autre que carburéacteur) ;
+--------------------------------------------------------------------------------
+Loi n° 92-1443 du 31 décembre 1992 portant réforme du régime pétrolier - Légifrance (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000542540/2026-09-26)
+citeturn19search3 [wordlim: 200] Published: 33.8 years ago; Crawled: 6 days ago; en vigueur au 26/09/2026 en vigueur au 26 septembre 2026 ...     * ### ABROGÉ Liste des produits pétroliers faisant l'objet de stocks stratégiques. ...     * Modifie Loi n°74-908 du 29 octobre 1974 - art. ... - gazole, fioul domestique, pétrole lampant (autre que carburéacteur) ;
+--------------------------------------------------------------------------------
+LIVRE VI : LES DISPOSITIONS RELATIVES AU PÉTROLE, AUX BIOCARBURANTS ET BIOLIQUIDES (Articles L611-1 à L671-3) - Légifrance (https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023983208/LEGISCTA000023987293/2026-05-24/)
+citeturn19search4 [wordlim: 200] Crawled: today; Pour l'application du présent chapitre et de l'article L. 671-1, on entend par “ stocks stratégiques ” les stocks pétroliers dont l'article L. 642-2 impose la constitution et la conservation et qui sont les “ stocks de sécurité ” au sens de la directive 2009/119/ CE du Conseil du 14 septembre 2009 faisant obligation aux Etats membres de maintenir un niveau minimal de stocks de pétrole brut et/ ou de produits pétroliers. ... 2° Gazole, fioul domestique, pétrole lampant (autre que carburéacteur) ; ... 2° Pour l'autre part, par le versement direct de la rémunération mentionnée à l'article L. 642-6 au comité professionnel, prévu à l'article L. 642-5, auprès duquel une caution doit être constituée. ... ― Toute personne physique ou morale autre que l'Etat qui met à la consommation ou livre à l'avitaillement des aéronefs civils des produits pétroliers, en Nouvelle-Calédonie, en Polynésie française, aux îles Wallis-et-Futuna ou à Saint-Pierre-et-Miquelon, est tenue de constituer et de conserver en permanence un stock de réserve de ces produits de cette collectivité territoriale.
+--------------------------------------------------------------------------------
+Section V : Obligations des redevables (Articles 32 à 50 sexies M) - Légifrance (https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069576/LEGISCTA000006162390/2026-07-13/)
+citeturn19search5 [wordlim: 200] Published: 3 months ago; Crawled: 2 months ago; Version en vigueur du 10/10/2022 au 29/07/2026 Version en vigueur du 10 octobre 2022 au 29 juillet 2026
+--------------------------------------------------------------------------------
+Sous-section 2 : Niveaux de taxation (Articles L312-35 à L312-87) - Légifrance (https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044595989/LEGISCTA000044598429/2026-09-01)
+citeturn19search6 [wordlim: 200] Crawled: 3 weeks ago; Modifié par LOI n°2026-103 du 19 février 2026 - art. ... Toutefois, le tarif est réduit à 36,79 € par mégawattheure pour les produits de la catégorie fiscale des gazoles consommés pour les besoins des moteurs qui réalisent des travaux statiques aux fins de la réalisation d'activités économiques et des moteurs de propulsion des engins qui ne circulent pas habituellement sur les voies ouvertes à la circulation publique.
+--------------------------------------------------------------------------------
+TITRE IV : LE RAFFINAGE ET LE STOCKAGE (Articles L641-1 à L642-10) - Légifrance (https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023987327)
+citeturn19search7 [wordlim: 200] Crawled: 3 days ago; Modifié par LOI n°2020-1508 du 3 décembre 2020 - art. ... Pour l'application du présent chapitre et de l'article L. 671-1, on entend par “ stocks stratégiques ” les stocks pétroliers dont l'article L. 642-2 impose la constitution et la conservation et qui sont les “ stocks de sécurité ” au sens de la directive 2009/119/ CE du Conseil du 14 septembre 2009 faisant obligation aux Etats membres de maintenir un niveau minimal de stocks de pétrole brut et/ ou de produits pétroliers. ... 2° Gazole, fioul domestique, pétrole lampant (autre que carburéacteur) ; ... Toutefois, à l'exception d'un stock minimum déterminé par voie réglementaire, le stockage d'autres produits peut être admis comme équivalent dans des conditions fixées par voie réglementaire.
+--------------------------------------------------------------------------------
+Sous-section 2 : Niveaux de taxation (Articles L312-35 à L312-87) - Légifrance (https://www.legifrance.gouv.fr/affichCode.do?categorieLien=cid&cidTexte=LEGITEXT000044595989&dateTexte=&idSectionTA=LEGISCTA000044598429)
+citeturn19search8 [wordlim: 200] Crawled: last week; Version en vigueur au 06/10/2026 Version en vigueur au 06 octobre 2026 ... Toutefois, le tarif est réduit à 36,79 € par mégawattheure pour les produits de la catégorie fiscale des gazoles consommés pour les besoins des moteurs qui réalisent des travaux statiques aux fins de la réalisation d'activités économiques et des moteurs de propulsion des engins qui ne circulent pas habituellement sur les voies ouvertes à la circulation publique.
+--------------------------------------------------------------------------------
+Loi n° 92-1443 du 31 décembre 1992 portant réforme du régime pétrolier - Légifrance (https://www.legifrance.gouv.fr/loda/id/LEGISCTA000006099958)
+citeturn19search9 [wordlim: 200] Published: 33.8 years ago; Crawled: 2 weeks ago; en vigueur au 26/09/2026 en vigueur au 26 septembre 2026 ... Toute personne qui réalise, en France métropolitaine, une opération entraînant l'exigibilité des taxes intérieures de consommation sur un produit pétrolier figurant sur la liste annexée à la présente loi ou livre à l'avitaillement des aéronefs un produit pétrolier figurant sur cette liste est tenue de contribuer à la constitution et à la conservation de stocks stratégiques. ... Toutefois, à l'exception d'un stock minimum déterminé par décret, le stockage d'autres produits peut être admis comme équivalent dans des conditions fixées par ce même décret. ... - gazole, fioul domestique, pétrole lampant (autre que carburéacteur) ;
+--------------------------------------------------------------------------------
+Code des impositions sur les biens et services - Légifrance (https://www.legifrance.gouv.fr/loda/id/LEGISCTA000044603361/2026-03-02)
+citeturn19search10 [wordlim: 200] Crawled: last month; Toutefois, le tarif est réduit à 36,79 € par mégawattheure pour les produits de la catégorie fiscale des gazoles consommés pour les besoins des moteurs qui réalisent des travaux statiques aux fins de la réalisation d'activités économiques et des moteurs de propulsion des engins qui ne circulent pas habituellement sur les voies ouvertes à la circulation publique. ... Modifié par LOI n°2026-103 du 19 février 2026 - art.
+
