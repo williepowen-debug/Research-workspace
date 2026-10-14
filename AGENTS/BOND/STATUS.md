@@ -1,12 +1,12 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-14T15:50:54.230187-04:00. **Last real data refresh: 2026-10-14.** Codex/OpenAI gpt-6.1-sol;Will-launched session01a13b8c-bf81-7d83-9731-47f494922784.
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-14T15:54:26.483176-04:00. **Last real data refresh: 2026-10-14.** Codex/OpenAI gpt-6.1-sol;Will-launched session01a13b8c-bf81-7d83-9731-47f494922784.
 
 Market cutoff13:59EDT;BeigeBookreadafter14:00. OfficialTreasury10/13,ICEcredit10/13,repo10/13andFR2004as-of9/30are separatefrontiers. Evidence: `analysis/2026-10-14_post-CPI/REPORT.md`,raw/derived.json;bootreceiptthere.
 
 **Closeout:** Heavy checks PASS and localcommit99c38dbfb. PublicpublicationAPPROVED byWillinthissession afterauto-reviewrejection,originverifiedbyfresh-fetchreceipt622116c6b. TERRYpacketconsumedat3457e8628;PROMEread/ackunverified. Sharedpushforeign-receiptexception disclosedinPROMEdatedoriginreceipt.
 
-**Final publication check:** Fresh fetch at 2026-10-14T15:50:54.230187-04:00 confirms research `99c38dbfb`, maintenance `21357468c` and publication-status receipt `2b89d943b` are ancestors of `origin/master`. A shared push train carried maintenance after BOND’s export was rejected; BOND did not retry it. Approval for further public export remains unconfirmed. This final receipt is being committed locally.
+**Final publication check:** Fresh fetch at 2026-10-14T15:50:54.230187-04:00 confirms research `99c38dbfb`, maintenance `21357468c` and publication-status receipt `2b89d943b` are ancestors of `origin/master`. A shared push train carried maintenance after BOND’s export was rejected; BOND did not retry it. Will subsequently authorized safe GitHub publication in this session. Final closeout `70d58221e` and this authorization receipt are authorized for a guarded, fixed-SHA fast-forward push; exclude unrelated unpublished commits.
 
 **Transition maintenance:** THESIS/TRADE body and eight FLOW evidence rows reconciled to the already completed research; eight dated KB observations clarified as historical records. No new data, score or capital change. Audit: `analysis/2026-10-14_transition-audit/REPORT.md`.
 
