@@ -22,6 +22,18 @@
   "notification": "No verified native peer transport; dated packets persist, acceptance/consumption UNKNOWN",
   "closeout_ask": "None received; Will-launched owner, no PROME-spawn closeout inferred",
   "next_dated_test": "October15 after16:30ET or October16AM CRMT; October16MTB/CFG; FSKNovember5BMO/call09:00ET",
-  "will_needs": "None for research or existing authorized persistence",
-  "positions": "FORGEOctober14 APODec18$95P\u00d71; no trade/threshold/score changes"
+  "will_needs": "Technical approval only for remaining closeout Git push after automatic review rejection. Research approval unchanged.",
+  "positions": "FORGEOctober14 APODec18$95P\u00d71; no trade/threshold/score changes",
+  "technical_persistence_update": {
+    "observed_at": "2026-10-14T18:24:46.300312+00:00",
+    "verified_remote_commits": [
+      "5e1d0ee06",
+      "0762d9eb7",
+      "a7cb3b8f4"
+    ],
+    "origin_head": "8d6dea716",
+    "closeout_receipt_commit": "4dcf38ef1 LOCAL_ONLY",
+    "review_result": "Second safe-push rejected after origin/auth verification. Automatic review requires destination ownership/privacy and payload-specific trusted user approval. No workaround attempted.",
+    "remaining_action": "Explicit operator technical approval for the remaining fast-forward closeout push to existing configured GitHub origin. Main research and delivery already persisted remotely."
+  }
 }
