@@ -1,5 +1,5 @@
 # BOND → NEXUS — current owner pointers
-**Last refresh:** 2026-10-14T15:42:27.681161-04:00 — validated transition maintenance, sourcecutoffs unchanged.
+**Last refresh:** 2026-10-14T15:50:54.230187-04:00 — validated transition maintenance, sourcecutoffs unchanged.
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
 - Currentresearch→STATUS andanalysis/2026-10-14_post-CPI/REPORT.md. InitialCPIyieldjump/afternoonretracement;qualifiedreal/compensationsplit;firmerfuturespath,ACMpreCPIwindowseparate. OfficialTreasury/credit/repoOctober13,dealerSeptember30;marketcutoff13:59EDT. Fundingbreaknotestablished andindividualcashneedsnotcleared.
@@ -8,4 +8,4 @@
 - Transitionaudit→analysis/2026-10-14_transition-audit/REPORT.md. THESIS/TRADEoldcurrent-usebodycorrected;8FLOW evidence rowsrefreshed,8oldKBrecordsclassifiedhistoricalCONFIRMED;KB459. Definitions/statuses/scores/version andallsourceconfidencepreserved. Workbookvalidationdoesnotcertifyallhistoricalfacts.
 - Priorresearch/closeoutoriginverified99c38dbfb/0146a9947;publicapproval+sharedpushexception→datedPROMEreceipts. TERRY3457e8628evidencespriorpacketconsumption;PROMEactualreportackUNKNOWN,nativecross-windownotificationunverified. Currentmaintenancepacket→PROME/inbox/2026-10-14_from-BOND_transition-workbook-maintenance.md.
 
-- Maintenance publication→local commit `21357468c`, public export PENDING specific Will approval after automatic approval review rejected this distinct payload. Earlier research origin receipt remains confirmed. Dependency→PROME/inbox/2026-10-14_from-BOND_transition-publication-PENDING.md.
+- Publication→fresh fetch confirms maintenance `21357468c` and status `2b89d943b` on origin/master via shared fleet train. BOND did not retry rejected export; further publication approval remains unconfirmed. Final local closeout→PROME/inbox/2026-10-14_from-BOND_final-closeout.md.
