@@ -179,5 +179,14 @@
     "scope": "Exactly the five local_paths listed in this record. This is a scoped checkpoint delivery, not completion of Standard closeout or implementation of the repair.",
     "verification": "Commit wrapper intent/path match, independent saved-byte comparison against the resulting full commit SHA, then safe-push fresh-fetch confirmation. Actual receipt reported in the session; this pre-commit record does not anticipate success.",
     "unchanged": "WALTER cache and fellowship/demo working trees remain untouched. No new audit, software repair, hosted publication or review-budget reset."
+  },
+  "end_of_window_debrief": {
+    "checkpoint_delivery": "Five-file checkpoint fc6b76e6228c93a7f550c286f31db3d9019b7c15 verified on origin/master by fresh fetch before this continuation note. Full Standard closeout and hosted publication remain incomplete.",
+    "diagnosis": "This sitting showed both extensive mandatory boot reading and discretionary investigation after the immediate authorization boundary was understood. Fleet-wide cost distribution and token attribution remain unknown.",
+    "next_session": "Resume the existing closeout-repair proposal. Complete required boot checks, recover exact authority/review limits, then proceed or present the concrete necessary decision promptly. Do not reopen settled reviews or expand into unrelated maintenance.",
+    "proposed_experiment": "Observe three ordinary PROME sessions. At a clear decision boundary, briefly choose proceed, request the necessary decision, or investigate a named material uncertainty. Use existing session records to assess discretionary detours, time to action, missed context and rework. Three sessions provide an initial signal, not causal proof.",
+    "boundaries": "No procedure change, reduced mandatory reading, new telemetry, fleet audit, additional independent review or repair implementation was authorized or installed by the discussion. Treat the experiment as a proposal; apply existing stopping instructions. Evaluate full-log requirements separately if later authorized.",
+    "claude_return": "WQ-385 Claude and mixed-runtime tests remain at existing authority and records. No confirmed breakage found in limited inspection; compatibility not certified. Known instruction mirror debt remains DOCKET L645.",
+    "remaining_local_work": "WALTER source cache intentionally untracked. Fellowship scratch exercise left local; demo editorial commit requires reconciliation before push. See earlier investigation in this record."
   }
 }
