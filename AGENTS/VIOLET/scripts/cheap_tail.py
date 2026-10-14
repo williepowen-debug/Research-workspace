@@ -103,7 +103,7 @@ def _pull_yf(cols: list[str]):
     return out
 
 
-def pull() -> dict:
+def pull(asof: date | None = None) -> dict:
     """Read VIX/VVIX/SKEW from CBOE — the PUBLISHER OF RECORD — not from a mirror.
 
     ⚠️ WHY THIS CHANGED (2026-09-06, WQ-188 fix ②). This function read all three
@@ -142,6 +142,8 @@ def pull() -> dict:
             provisional.append(col)
 
     if provisional:
+        if asof is not None:
+            raise RuntimeError(f"historical regrade requires CBOE for all columns; unavailable: {provisional}")
         # LOUD. The value still gets produced — an operator surface that goes
         # dark on a CDN hiccup is worse than one that is labelled — but it is
         # labelled at every level: stdout, the returned dict, and the TSV note.
@@ -157,6 +159,11 @@ def pull() -> dict:
         raise RuntimeError(f"^VIX history too short ({len(series['vix'])} rows)")
 
     df = pd.DataFrame(series).dropna()
+    if asof is not None:
+        key = pd.Timestamp(asof)
+        if key not in df.index:
+            raise RuntimeError(f"no complete CBOE observation for {asof}; no nearest-date substitution")
+        df = df.loc[:key]
 
     def pct(series, val):
         return round(float((series <= val).mean() * 100.0), 1)
@@ -183,14 +190,16 @@ def pull() -> dict:
     }
 
 
-def nearest_catalyst(today: date | None = None) -> tuple[int | None, str]:
+def nearest_catalyst(today: date | None = None, path: Path | None = None) -> tuple[int | None, str]:
     """Days to the nearest future HIGH/MEDIUM catalyst in CATALYSTS.tsv."""
     if today is None:
-        today = datetime.now().date()
-    if not CATALYSTS.exists():
+        from zoneinfo import ZoneInfo
+        today = datetime.now(ZoneInfo("America/New_York")).date()
+    path = path or CATALYSTS
+    if not path.exists():
         return None, "(CATALYSTS.tsv missing)"
     best_days, best_event = None, "-"
-    for line in CATALYSTS.read_text(encoding="utf-8").splitlines()[1:]:
+    for line in path.read_text(encoding="utf-8").splitlines()[1:]:
         parts = line.split("\t")
         if len(parts) < 5:
             continue
@@ -251,17 +260,33 @@ VEHICLE_MENU = [
 
 
 def append_log(d: dict, cat_days, cat_event, met: int, state: str, note: str,
-               supersede: bool = True) -> str:
+               supersede: bool = True, regrade_date: date | None = None) -> str:
     """UPSERT today's row (KB-VIO-160) — see scripts/_daily_log.py.
 
     Was first-write-wins: legs met/lost intraday (SKEW crossing 140, VVIX
     crossing 90) could never update the day's row once boot had written it.
     """
+    from zoneinfo import ZoneInfo
+    current_date = datetime.now(ZoneInfo("America/New_York")).date()
+    reference_date = regrade_date or current_date
+    if d["asof"] != str(reference_date):
+        return f"WITHHELD CHEAP_TAIL.tsv write: source date {d['asof']} differs from evaluation date {reference_date}. Use an explicit historical regrade with a dated calendar."
+    if regrade_date is not None and (regrade_date > current_date or d.get("provisional")):
+        raise ValueError("historical regrade requires a nonfuture date and complete CBOE evidence")
+    # Preserve operator disposition independently of a recomputed alert state.
+    if DAILY_LOG.exists():
+        import csv
+        with DAILY_LOG.open() as stored:
+            for old in csv.DictReader(stored, delimiter="\t"):
+                if old.get("date") == d["asof"] and "DISPOSITION:" in old.get("note", ""):
+                    note += " | DISPOSITION:" + old["note"].split("DISPOSITION:", 1)[1]
+                    break
     row = [d["asof"], d["vix"], d["vvix"], d["skew"], d["vix_pctile"],
            d["vvix_pctile"], d["skew_pctile"],
            cat_days if cat_days is not None else "-", cat_event, f"{met}/4",
            state, note or "-", datetime.now(timezone.utc).isoformat(timespec="seconds")]
-    status, changes = upsert_row(DAILY_LOG, TSV_COLS, row, supersede=supersede)
+    status, changes = upsert_row(DAILY_LOG, TSV_COLS, row, supersede=supersede,
+                               today=str(reference_date))
     return describe(status, d["asof"], changes, "CHEAP_TAIL.tsv")
 
 
@@ -302,6 +327,10 @@ def main() -> int:
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--backtest", action="store_true", help="historical fire-rate of the market legs")
     ap.add_argument("--no-log", action="store_true", help="skip the TSV append")
+    ap.add_argument("--as-of", type=date.fromisoformat,
+                    help="explicit historical CBOE regrade, never a live opportunity")
+    ap.add_argument("--catalysts-file", type=Path,
+                    help="dated calendar snapshot required for --as-of")
     ap.add_argument("--no-supersede", action="store_true",
                     help="do not update an existing row for today; report the divergence instead")
     ap.add_argument("--vvix", type=float, default=VVIX_CHEAP)
@@ -309,14 +338,26 @@ def main() -> int:
     ap.add_argument("--skew", type=float, default=SKEW_ELEV)
     ap.add_argument("--window", type=int, default=CATALYST_WINDOW_D)
     args = ap.parse_args()
+    from zoneinfo import ZoneInfo
+    today = datetime.now(ZoneInfo("America/New_York")).date()
+    if bool(args.as_of) != bool(args.catalysts_file):
+        ap.error("--as-of and --catalysts-file must be supplied together")
+    if args.as_of and (args.as_of > today or not args.catalysts_file.is_file()):
+        ap.error("historical regrade requires a nonfuture date and an existing dated calendar")
 
     try:
-        d = pull()
+        d = pull(args.as_of)
     except Exception as e:
         print(f"⚠️ CHEAP-TAIL: pull FAILED ({e}) — no silent pass, investigate")
         return 1
 
-    cat_days, cat_event = nearest_catalyst()
+    reference_date = args.as_of or today
+    cat_days, cat_event = nearest_catalyst(reference_date, args.catalysts_file)
+    warning = None
+    if cat_days is None:
+        warning = f"CHEAP-TAIL CALENDAR GAP: {args.catalysts_file or CATALYSTS} has no HIGH/MEDIUM catalyst on or after {reference_date}. Missing calendar coverage is not market calm."
+        if not args.json:
+            print(f"⚠️ {warning}")
     state, met, scorecard, missing = classify(
         d, cat_days, cat_event, args.vvix, args.vix, args.skew, args.window)
     note = ("window open" if state == "OPEN"
@@ -326,13 +367,17 @@ def main() -> int:
     # and this is the ledger behind an operator-decision surface.
     if d.get("provisional"):
         note = f"{note} [PROVISIONAL src=yfinance:{','.join(d['provisional'])}]"
-    log_note = "" if args.no_log else append_log(d, cat_days, cat_event, met, state, note, supersede=not args.no_supersede)
+    historical = bool(args.as_of) or d["asof"] != str(today)
+    if historical:
+        note += " [HISTORICAL ONLY; no live opportunity or construction request]"
+    log_note = "" if args.no_log else append_log(d, cat_days, cat_event, met, state, note, supersede=not args.no_supersede, regrade_date=args.as_of)
 
     if args.json:
         d.pop("_df", None)
         print(json.dumps({"data": d, "cat_days": cat_days, "cat_event": cat_event,
                           "legs_met": f"{met}/4", "state": state, "missing": missing,
-                          "log": log_note}, indent=2, default=str))
+                          "log": log_note, "calendar_warning": warning,
+                          "historical_only": historical}, indent=2, default=str))
         return 0
 
     icon = {"OPEN": "🟣", "ARMING": "🟡", "DORMANT": "⚪"}[state]
@@ -342,7 +387,9 @@ def main() -> int:
           f"nearest HIGH/MED catalyst {cat_days}d ({cat_event}){src}")
     for line in scorecard:
         print(line)
-    if state == "OPEN":
+    if historical:
+        print("  HISTORICAL ONLY: this observation does not establish a live opportunity. No construction request.")
+    elif state == "OPEN":
         for line in VEHICLE_MENU:
             print(line)
     elif state == "ARMING":

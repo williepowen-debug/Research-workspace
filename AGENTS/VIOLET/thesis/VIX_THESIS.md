@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.1 — the GEX SIGN IS AN OSCILLATOR, NOT A REGIME PROPERTY: it flipped TWICE IN SEVEN DAYS and this file will no longer carry it in any direction; F2 has a RUNNABILITY FLOOR and "not runnable" resolves to NO GATE, never to F2-waived; a MECHANISM box may not carry a live STATE — v4.1's own ① proved that by getting it wrong, 2026-09-06)
+# VIX THESIS (v4.1.2 — post-CPI transmission evidence refinement, 2026-10-14; v4.1.1 mechanism and gate constraints preserved)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -173,6 +173,8 @@ VIX peak within fwd-60td, **episode-level** (sizing unit) with fire-day rate in 
 **Hit rate:** ~70% | **False positive rate:** 25-30% (15-20% with yield curve filter)
 
 > ⚠️ **Source note (v3.1):** Hit-rate figures are INHERITED from the four-model research synthesis (Gemini/Perplexity/Claude/Grok). They have NOT been independently reproduced or back-tested by VIOLET against our own data. Treat as directional framework, not validated statistics.
+
+> **Evidence refinement (v4.1.2, 2026-10-14; KB-VIO-326/328):** a post-CPI front-end volatility response following earlier credit widening establishes sequence, not credit-origin causation. Broader spread repricing is not the same as broader borrower default recognition; functioning aggregate funding does not clear named-institution restrictions. When credit size/origin remain unresolved and volatility confirmation is incomplete, retain WATCH and the original observation window. Do not backdate a fire or reopen an expired event letter. No numerical condition, trigger, lag statistic or trade permission changes. Dated assessment and strongest counterevidence: `../research/2026-10-14_post-CPI/REPORT.md`.
 
 > 📌 **Operational refinement (v3.3):** The four conditions above remain the **entry-filter** for the lag trade. The **fire signal** within that filter is the L1 DIET coiled-spring signature (KB-VIO-067, VIOLET-backtested 19yr): SKEW rises + VIX falls + VVIX falls over a multi-day window. L1 is the population framework that determines *when* the lag is paying forward; the four conditions determine *whether the regime is right* for the lag to exist at all. Use both: conditions = regime gate; L1 = fire trigger.
 

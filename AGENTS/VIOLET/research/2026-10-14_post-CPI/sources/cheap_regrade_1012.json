@@ -1,0 +1,35 @@
+{
+  "data": {
+    "asof": "2026-10-12",
+    "source": "CBOE",
+    "provisional": [],
+    "vix": 15.21,
+    "vvix": 85.93,
+    "skew": 155.06,
+    "vix_pctile": 34.4,
+    "vvix_pctile": 35.4,
+    "skew_pctile": 97.0,
+    "vix_ladder": {
+      "p5": 11.28,
+      "p10": 12.24,
+      "p20": 13.37,
+      "p50": 17.22
+    },
+    "vvix_ladder": {
+      "p5": 71.03,
+      "p10": 75.93,
+      "p20": 80.83,
+      "p50": 90.84
+    },
+    "n_obs": 5118,
+    "window_start": "2006-03-06"
+  },
+  "cat_days": 2,
+  "cat_event": "September CPI + Real Earnings (08:30 ET)",
+  "legs_met": "4/4",
+  "state": "OPEN",
+  "missing": [],
+  "log": "\u2713 appended 2026-10-12 row to workbook/CHEAP_TAIL.tsv",
+  "calendar_warning": null,
+  "historical_only": true
+}

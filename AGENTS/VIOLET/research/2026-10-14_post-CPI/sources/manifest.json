@@ -1,0 +1,172 @@
+[
+  {
+    "key": "VIX_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at": "2026-10-14T18:54:13.776624+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX_history.csv",
+    "bytes": 473686,
+    "sha256": "75d688f9e8233d34bdd21b1fad55ba5bbd3b7afe54236b46e24d1d05bfc60bf6"
+  },
+  {
+    "key": "VIX9D_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "retrieved_at": "2026-10-14T18:54:13.713409+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX9D_history.csv",
+    "bytes": 201509,
+    "sha256": "123ac3d2959f3338d56d4e83319338dd9328431b1658da259d459bd30bfded0a"
+  },
+  {
+    "key": "VIX3M_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "retrieved_at": "2026-10-14T18:54:13.766365+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX3M_history.csv",
+    "bytes": 218968,
+    "sha256": "7d631c601dbbdf4fd70428605d847d9f72d5d1e1d2900041eed8b7685d1b86bb"
+  },
+  {
+    "key": "VIX6M_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "retrieved_at": "2026-10-14T18:54:13.746387+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX6M_history.csv",
+    "bytes": 241000,
+    "sha256": "aa555166580e16d81e183a50e31ba2146a839505fc5e68abf0e8d7549cd24835"
+  },
+  {
+    "key": "VVIX_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "retrieved_at": "2026-10-14T18:54:13.756471+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VVIX_history.csv",
+    "bytes": 109045,
+    "sha256": "ece768c25c1776b47dbc8267465017d042d3da3b064a8e3cf69e32186b3bf474"
+  },
+  {
+    "key": "SKEW_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "retrieved_at": "2026-10-14T18:54:13.773807+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/SKEW_history.csv",
+    "bytes": 203444,
+    "sha256": "724e71968464899b85a0cabacb020d162e5ca3d90e3977e469364f10937df0af"
+  },
+  {
+    "key": "COR1M_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "retrieved_at": "2026-10-14T18:54:13.986909+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/COR1M_history.csv",
+    "bytes": 265742,
+    "sha256": "0112fb5be72774e2275dac63f8d009bbf5718bd25b83031356f16e151da48a49"
+  },
+  {
+    "key": "COR3M_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "retrieved_at": "2026-10-14T18:54:14.062226+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/COR3M_history.csv",
+    "bytes": 265601,
+    "sha256": "347cf88e58f915e5b895a5fd29643e5069419d16b56618c3b8cb7090f98accf4"
+  },
+  {
+    "key": "COR30D_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "retrieved_at": "2026-10-14T18:54:14.371687+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/COR30D_history.csv",
+    "bytes": 265600,
+    "sha256": "cab6529dd00b1b06dc763d9b8456d2111201342e1ae874b29aab4405053633ec"
+  },
+  {
+    "key": "DSPX_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "retrieved_at": "2026-10-14T18:54:14.055525+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/DSPX_history.csv",
+    "bytes": 65065,
+    "sha256": "f513624e81d468daccc51791d1b46a93ff7a468ec46399e52b3d443b5a0a8a05"
+  },
+  {
+    "key": "VIXEQ_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "retrieved_at": "2026-10-14T18:54:14.099061+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIXEQ_history.csv",
+    "bytes": 65069,
+    "sha256": "f78d27adfc028a1cf36ed524bd894a564aa7fa5f5485a2abdf50e37c1b60a49e"
+  },
+  {
+    "key": "VIX_quote",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX.json",
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX.json",
+    "retrieved_at": "2026-10-14T18:54:14.052929+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX_quote.json",
+    "bytes": 504,
+    "sha256": "2a853a2c2a315c91b991353d0775893b8f6a026683600d141c77fc90fcbd916a"
+  },
+  {
+    "key": "VIX9D_quote",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX9D.json",
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX9D.json",
+    "retrieved_at": "2026-10-14T18:54:14.263983+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX9D_quote.json",
+    "bytes": 501,
+    "sha256": "4e75130e2ab11384147c7c8f74b2273324aae3106025244118f82b2e60607e38"
+  },
+  {
+    "key": "VIX3M_quote",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX3M.json",
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX3M.json",
+    "retrieved_at": "2026-10-14T18:54:14.328356+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX3M_quote.json",
+    "bytes": 500,
+    "sha256": "a28f54fc827c510213755bef25417f818966aed4a0e518eebd54daa6252b97fb"
+  },
+  {
+    "key": "VIX6M_quote",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX6M.json",
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX6M.json",
+    "retrieved_at": "2026-10-14T18:54:14.527656+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VIX6M_quote.json",
+    "bytes": 500,
+    "sha256": "80619593bb9383fbffb19a763e76a8718d2b58a4cbd9413c25668dc64e2537f5"
+  },
+  {
+    "key": "VVIX_quote",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VVIX.json",
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VVIX.json",
+    "retrieved_at": "2026-10-14T18:54:14.284234+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/VVIX_quote.json",
+    "bytes": 501,
+    "sha256": "1f8460f64efc14d4717f8b749c5d0ee87a948a8da24af75e9d7e71fdbacc8121"
+  },
+  {
+    "key": "SKEW_quote",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_SKEW.json",
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_SKEW.json",
+    "retrieved_at": "2026-10-14T18:54:19.373131+00:00",
+    "status": 200,
+    "file": "research/2026-10-14_post-CPI/sources/SKEW_quote.json",
+    "bytes": 493,
+    "sha256": "1f51d24f52a5307f7aa51767fd5c3479fdc774e00496022a039192b0d495fbef"
+  }
+]

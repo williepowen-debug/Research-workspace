@@ -9,6 +9,14 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## 2026-10-14 — approved L667 alert repairs and post-CPI source archive
+
+**Trigger:** L667 October14 ride-along authorizes the forward-catalyst emptiness warning and explicit past-row regrade; the post-CPI boot printed an OPEN vehicle menu from October13 data against an already-fired CPI row.
+**What changed:** cheap_tail.py accepts paired --as-of / --catalysts-file for an exact-date CBOE-only historical evaluation; excludes later data from percentiles; refuses missing date/provisional/future regrades; preserves DISPOSITION notes. Default stale-date reads cannot insert or supersede rows or print a construction menu. Missing HIGH/MEDIUM forward calendar coverage prints a warning. Generic daily-log guard, four numerical lines and routing unchanged.
+**Files touched:** scripts/cheap_tail.py; scripts/tests/test_cheap_tail_regrade.py; research/2026-10-14_post-CPI/; ordinary state/ledger write-back.
+**Boot-impact:** same network pulls; one date/path check and warning. New regression suite discovered by existing closeout runner. Seven focused tests pass; full guard result in closeout receipt.
+**Lessons:** a stale observation can issue a current-sounding menu even when its ledger write is refused. Display and write safeguards both need the observation date. Historical regrade uses an explicit calendar snapshot and never erases Will's disposition.
+
 ## 2026-10-10 — `convexity_read.py` rounds before comparing (L546); false COR1M-history caveat replaced in MEMORY and `implied_corr.py`; charter step 5c takes the WQ-399 receipt form
 
 **Trigger:** Dark-window catch-up (violet-1010, Will's "Okay lets do A and C", item C) and its write-back tail (violet-1010b). DAEDALUS L546 packet (10/8, float-tie class, LATENT); the CBOE history CSV for COR1M found 10/10 (KB-VIO-321); WQ-399 (Will 10/8) changed the receipt writer's required fields.

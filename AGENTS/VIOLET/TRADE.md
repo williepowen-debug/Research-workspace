@@ -6,7 +6,7 @@ VIX-linked positions and trade framework.
 
 ## ACTIVE POSITIONS
 
-**No VIOLET position in the last recorded broker mirror (FORGE, September 10).** This is not a September 14 broker verification. `TRY-VIOLET-VIXCS` closed July 30; no new proposal is in flight.
+**Current holdings reference: `FORGE/STATUS.md`, October 14 broker-received mirror.** No VIOLET-owned VIX position is established there; `TRY-VIOLET-VIXCS` closed July 30. Broker capture/fill times and working orders are UNKNOWN; position truth remains off-repo. Will chose PASS on the pre-CPI card under WQ-418, recorded October 11 and consumed October 14. That event window ended October 14 at 08:30 ET. No new proposal or trade instruction.
 
 ---
 

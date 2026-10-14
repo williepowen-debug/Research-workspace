@@ -1,45 +1,41 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-10-10 12:16 ET (`date`), Saturday, graded on the **Friday October 9 close** (CBOE history SETTLE, publisher of record). **STATUS commit:** `f4d8ecd38` (full rewrite, violet-1010b). Framework v4.1.1 (**unchanged**). Numerical dashboard: [STATUS](STATUS.md). Dark 9/29 → 10/09; caught up 10/10 (violet-1010 data + drain, violet-1010b write-back).
+**Status:** Front-end volatility repriced after CPI; systemic transmission unconfirmed.
+**Domain:** Volatility term structure, tail pricing and credit-to-volatility timing.
+**Thesis version:** v4.1.2; evidence refinement, no numerical or permission change.
+**As of:** 2026-10-14 15:12 ET | **STATUS commit:** `fbacd58e3`.
+Official Cboe history through October 13; delayed post-CPI quote snapshot October 14 at 14:38:31–32 ET. Canonical numerical dashboard: [STATUS](STATUS.md); sources, strongest counterevidence and calculations: [REPORT](research/2026-10-14_post-CPI/REPORT.md).
 
 ## CROSS-DOMAIN
 
-🔴 **LIQUID / HENRY / RED: credit kept widening without VIX (KB-VIO-318).**
-- FRED OAS 9/22 → 10/08: HY **2.68 → 3.15** (+47bp; peak 3.24 on 10/01 = +56bp) · B 2.71 → 3.15 · BB 1.56 → 1.94 · CCC **10.75 → 12.52** (+177bp) · IG 0.77 → 0.82. VIX 14.21 [9/22] → 16.39 [10/01] → **14.84** [10/09].
-- Against my central claim: VIX <20 ✅ · cross-sector ✅ · size ≈ **½** the 100bp ❓ · credit-originated ❓ (10Y 5.17 → 5.31 [10/05] → 5.22 [10/08]; MOVE peak 113.60 [10/05]). Lead window 3–8 weeks off 9/22 = **10/13 → 11/17**; hit rates inherited, not VIOLET-reproduced. **WATCH, not a Path-A fire. No threshold set.** LIQUID owns the credit read.
+**LIQUID / HENRY / RED / PROME:** the front end now responds, but credit causation remains unresolved. The cash-volatility curve is flatter and still upward; VVIX below its existing stress line. LIQUID's dated stronger-tier price broadening matters, yet HY size is below the central claim and funding accompaniment is absent on its dated reserve-channel gauges. CPI/rates/credit may share an antecedent; count that once. No Path-A fire. Original 10/13→11/17 credit-vol WATCH remains; inherited hit rates are not reproduced.
 
-🔴 **RED: SKEW 141.84 [10/07] → 149.19 [10/08] → 154.34 [10/09] on CBOE `SKEW_History.csv` — RED-FT-10 1 of 4** (cushion 4.34). Bars Mon 10/12 (a Cboe session; bond market closed) · Tue 10/13 · Wed 10/14 (CPI) decide; fire on the 10/14 bar if all ≥150.00. **Graded 10/14 evening, not before** (PROME DOCKET row). My count agrees with WALTER SIG-W-20261010-001. RED-FT-06: VIX <16 on six straight CBOE closes 10/02–10/09 (high 15.52); RED carries it FIRING-BANKED.
+**RED:** RED-FT-10 **3 of 4** through the official October 13 observation; October 14 bar absent at captured publisher frontier. Count agrees with WALTER's recovered sequence. Current-envelope SKEW quote still last-traded October 13. RED owns letter and grade; only the final dated official bar can complete/reset this run. At-use integrity October 14 14:55 ET: 22/22 sessions agree with publisher within 0.005; bounds this read only. Evidence packet supplied, native notification/consumption UNKNOWN.
 
-🟠 **HENRY / VULCAN / NEXUS: dispersion extreme; Path-B precondition loaded, Path B not fired (KB-VIO-319/320).** COR1M **6.93 = p0.9 since 2006** · DSPX 36.02 p94.7 since 2014 · VIXEQ/VIX 2.62 p98.4. Nomura's "10 stocks = 70% of the rally since 3/30" → own SPY-holdings computation **62–69%** (top-15 70–75%); "index 0.8% vs average stock 8.9%" reproduced for windows ending 10/02–10/05, decayed by 10/09 (+2.9% vs 6.6%); the 30-year span is UNVERIFIED. Concentration substance is HENRY's; VULCAN's 34.54% [10/01] is FYI, same direction.
+**TERRY / PROME:** actual WQ418 **PASSED/no trade** consumed from Will's October 11 committed ruling. October 9 alert note/current pending wording reconciled. Pre-CPI event window ended October 14 08:30 ET; no new opportunity or construction request. Current quantities come from FORGE's October 14 broker-received mirror; TERRY/Will already own expiry/construction work, with capture/fill times and current orders UNKNOWN.
 
-🟠 **SAM / HENRY: CFTC 10/06 — leveraged money flipped to net LONG VIX futures +5,494 (p96.8, EXTREME_LONG)** from −15,015 (p71.8, 9/22); asset managers −80,614 (p0.0). Hedging demand in the strip beside the SKEW bid (KB-VIO-325). 9/29 report not ledgered.
+**BOND:** afternoon yield retracement weakens a one-way rates→credit→vol spiral. Reuse BOND's dated report and keep morning jump, afternoon vendor pair and pending official close separate. Financing cost does not establish funding dysfunction.
 
-🟠 **TERRY / PROME: cheap-tail OPEN 4/4 on 10/09** (VVIX 84.88 · VIX 14.84 · SKEW 154.34 · CPI Wed 10/14) → **WQ-409** pending Will (needed by Tue 10/13). TERRY builds any card on PROME's commission; nothing here is a trade. Six earlier OPEN sessions (10/02, 10/05–10/08) LAPSED while I was dark — passed by default, not a ruling (KB-VIO-324).
+**HENRY / VULCAN:** existing Korea concentration stress and model-origin December put hedges remain alternate-channel context, not proof of US net hedge selling. Proprietary VS3D participant/baseline limits travel with WALTER's packet. ASML issuer-results relay supplies AI-demand counterevidence; Microsoft efficiency expectations/Broadcom commentary do not measure capex cuts. No new causal US cascade inferred.
 
-🟢 **LIQUID (Q2, L477): transmission test CLOSED 10/07, NOT FIRED** — ratio min 1.1242, VVIX max 92.01; disconfirmer (b) met. Ordinary repricing (KB-VIO-323).
-
-🔴 **BRENT / HAWK:** OVX **48.90**, ratio 3.30 p95.5, FIRE since 9/18. Substance yours. 🟢 **SAM:** JPY RV10 5.02% p17.9 CALM; USDJPY 158.25.
-
-**PROME:** COR1M first-tell re-graded on CBOE's own history CSV — **first fire 8/18**, not 9/02; ≥8.43 on 74.6% of the last year → retire recommended, **WQ-410** (Will, by 10/16). DOCKET L539's "FIRED 9/1–9/2" premise is superseded by KB-VIO-322; KB-VIO-201/314 are now CORRECTED.
+**BRENT / SAM:** owner canaries have separately dated vintages in STATUS. Oil-vol state is WATCH on October 13; Japan realized-vol canary remains CALM on October 14 with an option-event-premium caveat. No energy/policy deep-dive repeated.
 
 ## CALIBRATION
 
-- ⭐ **A frozen denominator failed toward all-clear.** The cheap-tail alert read "ARMING 3/4" for six OPEN sessions because my catalyst calendar had no forward row after 9/30. The market legs were met every day; the calendar, not the market, said no (KB-VIO-324).
-- ⭐ **A source caveat written as settled fact stopped anyone looking — third time.** "COR1M cannot be reconstructed" was false: CBOE publishes full history from 2006. It produced two wrong first-fire dates. Ask the publisher for the same file it serves for VIX before writing "cannot".
-- ⭐ **Ledger TICK rows disagree with the publisher** (COR1M 7/31, 8/10, 8/18, 8/27); SETTLE rows agree to the cent except 9/18. If you cite a VIOLET COR1M value, cite a SETTLE row.
-- **Not recovered from the dark window:** OVX / JPY_VOL 9/29–10/08, CFTC 9/29 report.
-- Standing: RQ #8 PARKED — ***"The corrected ten-event sample does not establish a forward VIX signal in either direction."***
+- Sequence is weaker evidence than causation: earlier credit widening plus post-CPI volatility does not establish a credit-origin shock.
+- Official SKEW is a dated publisher series. A current API envelope cannot turn yesterday's observation into today's fourth qualifying bar.
+- Gross OI and model positions do not reveal initiated net hedge flow; elevated SKEW is relative tail pricing, not an executable delta-specific premium or physical crash probability.
+- Approved L667 tools now warn on empty forward calendars, require explicit dated CBOE/calendar historical regrades and preserve operator disposition. Stale source-date readings cannot write past rows or issue construction menus. Seven new offline regression tests pass; all numerical lines unchanged.
+- Standing RQ8 remains PARKED. Historical canary gaps and broader KB-review debt remain; no retrospective certification.
 
 ## CROSS-AGENT TENSIONS
 
-None active this cycle. (FERT's ride-along carries September CPI as 10/13 [EST]; BLS says Wed 10/14 — a dating note, not a contested read.)
+No current numeric count dispute: VIOLET and WALTER agree; RED's old 0-of4 row is dated September, not an October grade. LIQUID stronger-credit price broadening and incomplete VIOLET causal confirmation coexist because they measure different claims. Compound-stress review identifies named borrower pressure without establishing a simultaneous system funding break or priced trade advantage.
 
-## FORWARD CATALYSTS
+## NEXT DECISION POINT
 
-Canonical: [CATALYSTS](workbook/CATALYSTS.tsv). Mon 10/12 Columbus Day (Cboe open, bonds closed) · **Wed 10/14 CPI + FT-10 earliest-fire bar** · Thu 10/15 PPI · Fri 10/16 WQ-410 date · Wed 10/21 VIX October expiry · **Wed 10/28 FOMC** · Wed 11/18 VIX November expiry · Wed 12/16 M1:M2 re-check.
+October 14 evening **when dated official SKEW/volatility bars exist** → RED grade; October 15 published credit/funding supplies the first matched post-CPI bridge; October 16 LIQUID's existing final LIQ-07 and actual CFTC release. WQ410 retirement decision remains registered with Will; no new decision created here. Forward events: [CATALYSTS](workbook/CATALYSTS.tsv).
 
 ## VIEW
 
-- Book **FLAT**; $0; no proposal. Convergence **29/50**, total unchanged; positioning 3 → 4 (KB-VIO-325), implied correlation 2 → 3 (KB-VIO-320), VVIX 2 → 1 and front curve 2 → 1 (KB-VIO-323, VX_DAILY 10/09).
-- Regime **COMPLACENCY** (14.84). The shape: **independent stress up (credit, rates, positioning), shared surface calm (VIX, VVIX, front curve), tail bid (SKEW 154).** VIX9D/VIX 0.7588 = p1.8 three sessions before CPI.
-- Both Will-facing artifacts republished to their standing URLs (version 8, 9 Oct close).
+LOW_VOL price bucket; front-end repricing, incomplete broad confirmation. **Convergence 30/50**, with front/VVIX rises and oil-canary easing tied to named evidence in STATUS. No new VIOLET position, proposal, threshold or order; $0 moved. Hosted artifact bands remain dated October 9; no refreshed publication claimed because the existing publisher was not verified in this runtime. Exact persistence and recipient-consumption states: owned research CLOSEOUT receipt.

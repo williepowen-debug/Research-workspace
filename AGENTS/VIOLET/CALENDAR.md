@@ -1,21 +1,22 @@
 # VIOLET CALENDAR
 
-Updated October 10, 2026 (violet-1010b write-back: dark 9/29–10/9 caught up; forward rows rebuilt after the calendar ran empty past 9/30, KB-VIO-324). Dated events: `workbook/CATALYSTS.tsv`; countdowns are computed by `scripts/catalyst_countdown.py`.
+UpdatedOctober14,2026; canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Fired CPI/holiday removed from forward state; official SKEW checkpoint retained until publication. No new catalyst or threshold.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-| Oct 12 (Mon) | Columbus Day — US equity and options markets OPEN; US bond market closed | LOW | It is a Cboe session, so it carries a RED-FT-10 SKEW bar (bar 2 of 4 if ≥150.00). FRED prints no 10/12 OAS cell — not an outage. |
-| **Oct 14 (Wed)** | **September CPI + Real Earnings (08:30 ET)** | **HIGH** | Cheap-tail L4 catalyst (alert OPEN 4/4 on 10/09 → WQ-409, Will). BLS date; FERT's ride-along says 10/13 [EST] — BLS wins. |
-| Oct 14 (Wed) | RED-FT-10 earliest-fire bar (SKEW ≥150.00 × 4 CBOE bars: 10/09 154.34 + 10/12 + 10/13 + 10/14) | LOW | RED owns the letter and the grade; VIOLET records the count on CBOE `SKEW_History.csv` once the dated bar exists, never off an assumed hour. Any bar <150.00 resets to 0. |
-| Oct 15 (Thu) | September PPI (08:30 ET) | LOW | Context only. |
-| Oct 21 (Wed) | VIX October expiration (monthly; AM SOQ) | MEDIUM | Roll-adjusted M1:M2 switches pair inside DTE <5 — compare symbols and settle dates before differencing. |
-| **Oct 28 (Wed)** | **FOMC decision (Oct 27–28; no SEP)** | **HIGH** | Fed calendar (own fetch 10/10). Waller 10/8 "anticipate additional hikes"; HENRY owns the path. |
-| Nov 18 (Wed) | VIX November expiration (monthly; AM SOQ) | MEDIUM | — |
-| Dec 16 (Wed) | M1:M2 historical-average re-check (KB-VIO-310, PROME L441) | LOW | December VIX expiry: re-measure; replace 5.6 if the full-history median differs by >0.5pp |
+|Oct 14 (Wed)|RED-FT-10 earliest-fire bar|LOW|3 qualifying official bars through October 13;October 14absent at14:53ETfrontier. Grade when dated official bar exists; RED owns grade.|
+|Oct 15 (Thu)|September PPI (08:30 ET)|LOW|Macro context; CARL/HENRY substance.|
+|Oct 21 (Wed)|VIX October expiration AM SOQ|MEDIUM|Record contract pair; roll-adjusted helper switches inside DTE<5.|
+|Oct 28 (Wed)|FOMC decisionOct27–28, noSEP|HIGH|Existing event; HENRY policy-path owner.|
+|Nov 18 (Wed)|VIX November expiration AM SOQ|MEDIUM|Existing dated expiry.|
+|Dec 16 (Wed)|M1:M2historical-average recheck KB-VIO-310|LOW|Existing L441; re-measure before any approved numerical update.|
 
 ## RESOLVED — fired catalysts and their grades
+
+- **October 14 08:30 ET September CPI:** releasedBLS; pre-CPI alert event window ended. Actual priorWQ418decisionPASSED/no trade, not pending. [Post-CPI assessment](research/2026-10-14_post-CPI/REPORT.md). OfficialOctober14 SKEWgrade remains separate and pending publication.
+- **October 12 Columbus Day:** equity/options session confirmed by official Cboe bar; do not remove that observation from the SKEW count. ICE holiday rows are dated publications, not fresh cash-credit witnesses.
 
 - **October 7 close — Q2 transmission-test window (DOCKET L477):** **CLOSED, NOT FIRED.** CBOE SETTLE 9/24–10/07: VIX3M/VIX min 1.1242 (9/30), VVIX max 92.01 (10/01) — neither leg near `≤1.00 AND >120`. Disconfirmer (b) met (VVIX 82.59 / 83.18 on 10/06–10/07 with MOVE 105.20 / 102.56). Graded late on 10/10 (VIOLET dark). → KB-VIO-323.
 - **September 30 Micron (MU) FQ4:** fired after the close. VULCAN graded its own rows (VULCAN-11 FALSIFIED, S2 3 → 2; packet 10/01). VIX 16.34 [9/30] → 16.39 [10/01], +0.3%. The cheap-tail alert's next dated catalyst after MU was missing from this calendar — that gap is KB-VIO-324.

@@ -6,6 +6,12 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## October14,2026 — v4.1.2: post-CPI price response, causal attribution withheld
+
+**Old view → new view:** October10 dashboard carried a calm index with earlier credit widening and a live pre-CPI decision. October14 delayed evidence shows front-end repricing; the curve remains upward, credit size/origin incomplete, funding accompaniment absent on dated owner gauges. The credit-vol WATCH remains, with a minor evidence refinement distinguishing sequence from credit causation and spread breadth from default breadth. Price bucket COMPLACENCY→LOW_VOL is observed; no systemic phase transition is declared. WQ418 PASSED is the actual prior decision, and the pre-CPI window is closed.
+**Basis:** KB-VIO-326..329 and `../research/2026-10-14_post-CPI/REPORT.md`; official history throughOctober13, delayedOctober14 quote timestamps stated. OfficialOctober14SKEW grade pending RED.
+**Constraints:** no numerical line, lag window, base rate, trigger, registered prediction, construction or trade permission changes. v4.1.1 GEX oscillator/runnability constraints preserved. Older broad thesis-review debt remains; this is not a retrospective audit of all56 subsequent KB rows.
+
 ## September 18, 2026 (post-close) — VIO-FOMC-0916 LEG 3 RESOLVED: **CONFIRM branch B / MISS OF THE MAP**. No version bump (v4.1.1 stands)
 
 **Trigger:** prediction resolution (write-back step 9's registered trigger), not a framework change. Record: `research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md`.

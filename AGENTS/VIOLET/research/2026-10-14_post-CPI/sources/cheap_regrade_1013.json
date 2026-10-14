@@ -1,0 +1,35 @@
+{
+  "data": {
+    "asof": "2026-10-13",
+    "source": "CBOE",
+    "provisional": [],
+    "vix": 15.27,
+    "vvix": 85.38,
+    "skew": 154.74,
+    "vix_pctile": 34.8,
+    "vvix_pctile": 33.6,
+    "skew_pctile": 96.8,
+    "vix_ladder": {
+      "p5": 11.28,
+      "p10": 12.24,
+      "p20": 13.38,
+      "p50": 17.22
+    },
+    "vvix_ladder": {
+      "p5": 71.03,
+      "p10": 75.93,
+      "p20": 80.83,
+      "p50": 90.83
+    },
+    "n_obs": 5119,
+    "window_start": "2006-03-06"
+  },
+  "cat_days": 1,
+  "cat_event": "September CPI + Real Earnings (08:30 ET)",
+  "legs_met": "4/4",
+  "state": "OPEN",
+  "missing": [],
+  "log": "\u21bb values moved \u2014 superseded 2026-10-13 row in workbook/CHEAP_TAIL.tsv: cat_days 0\u21921, note window open\u2192window open [HISTORICAL ONLY; no live opportunity or construction request]",
+  "calendar_warning": null,
+  "historical_only": true
+}

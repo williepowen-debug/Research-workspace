@@ -1,0 +1,11 @@
+{
+  "LIQUID": {
+    "path": "AGENTS/LIQUID/STATUS.md",
+    "sha256": "a76bc0b45bc0d096ff7a3462fd66615b7a093921757a8364e8a67bd1bc3c50dd"
+  },
+  "BOND": {
+    "path": "AGENTS/BOND/analysis/2026-10-14_post-CPI/REPORT.md",
+    "sha256": "264ac2eb6cf746821ca12515d479d2e7ccf80d78006bd5bc151b02717ffb1d49"
+  },
+  "read_at": "2026-10-14T19:00:23.319873+00:00"
+}
