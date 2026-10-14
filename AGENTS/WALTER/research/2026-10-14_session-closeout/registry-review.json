@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-14T15:14:08Z",
+  "reviewed_rows": 46,
+  "scope": "Every existing registry owner STATUS first30 lines; no roster/authority reclassification or fleet liveness inference",
+  "updated_rows": [
+    "PROME",
+    "REGINALD",
+    "WAL",
+    "BRENT",
+    "TERRY",
+    "WALTER"
+  ],
+  "missing_status": [
+    "RAV",
+    "DARWIN",
+    "BARON",
+    "HERMES",
+    "DEWEY"
+  ],
+  "registry_after_sha256": "2255b9cf5fdc5697343694344718cff7f6c1f3f154bb58d8edcdd785e269deac"
+}

@@ -89,5 +89,6 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**Will-requested FULL closeout 2026-10-13T14:24:38Z:** existing session handoff saved;3 helpers explicitly answered closeout. Bookmark48/50 review and exact654/0 marker conserved; latest MIDAS return CLOSED3/3 FOLD. Current publication, source gaps, dated duties and next entry point: LAST_COMPLETION.md.
-No current-market/broker refresh, new trade/grade/watch/launch or charter migration. Prior session-note text conserved verbatim in SESSION_LOG.md at this closeout entry.
+**CHANGES SINCE — 2026-10-14T15:14:08Z, Will-requested full reboot closeout:**72 bookmarks/81 dispositions complete;21 signals/53 owner packets, exact726 processed/0 staged. Three bounded helpers explicitly finished;DEWEY final commission closed, physical supply UNKNOWN. Prior48-item work preserved.
+**NEXT SESSION:** explicitly load root/local/runtime rules, then LAST_COMPLETION.md for the sole current duty list. Reuse completed bookmark evidence; check publication/actual consumption and newly available owner/source evidence before any grade. REGINALD October14 compound-risk report and TERRY October13 position follow-through are pointers, not new WALTER findings.
+No new durable finding/promotion, research commission, trade, monitor or unattended authority. Prior session-note text conserved verbatim at this full entry in SESSION_LOG.md. Calendar size triggerOctober15 retained.

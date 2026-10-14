@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-10-14T15:11:50.065198+00:00",
+  "origin_ref": "42e052a6073e3ed9de189602c1e39913f30843de",
+  "fresh_fetch": false,
+  "publication": [
+    {
+      "commit": "f4dbbc361a04090a57329f43b05d25f594870927",
+      "state": "published"
+    },
+    {
+      "commit": "5b332ddfea64b0e921561702f8a0b94bdce5ecf3",
+      "state": "published"
+    },
+    {
+      "commit": "1ed16729c46251e502a249a48b5e3e467f54e5df",
+      "state": "published"
+    },
+    {
+      "commit": "03edfba0485b8d0f7ec8248e8ab10f2ea3523745",
+      "state": "published"
+    },
+    {
+      "commit": "b178889466db3bab15739d6388687fa017cf9a50",
+      "state": "published"
+    }
+  ],
+  "signal_date": "20261013",
+  "total_handoffs": 75,
+  "origin_proven": 75,
+  "reconciled_new_rows": 53,
+  "recipient_consumption": "UNKNOWN except exact prior receipts; no inference from publication",
+  "foreign_uncommitted_work": "REGINALD scripts observed; no fetch/pull/self-push"
+}
