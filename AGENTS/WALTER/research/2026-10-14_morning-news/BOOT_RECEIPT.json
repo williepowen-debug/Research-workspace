@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-10-14T16:36:55Z",
+  "runtime": {
+    "desk": "WALTER",
+    "provider": "OpenAI",
+    "runtime": "Codex",
+    "model": "GPT-6 family;exactvariant UNKNOWN",
+    "session_id": "UNKNOWN",
+    "task": "/root",
+    "repository": "/home/willi/Research-workspace",
+    "worktree": "shared master",
+    "tools": "shell/files/web available;thread-local collaboration available and3RULE9helpers complete;native fleet discovery/transport unverified"
+  },
+  "status": "PARTIAL",
+  "reads": "Manual root CLAUDE/AGENTS/USER/local charter/status/memory/live completion/routing/threshold/filter context; relevant scoped dispatch guard/source/owner evidence. Truncation/large-charter debt prevents whole-read certification.",
+  "steps": {
+    "0": "DEFERRED main pull: foreign dirty work; clean intake ff-only pull succeeded",
+    "0.5": "Initial/after metadata doctor outputs saved;new formatting/indexHIGH corrected, inheritedMED plus temporary publication findings retained",
+    "1-6b": "Root/local and48-row family set consulted; generatedREDsha matchescanon. Bootbasis29MATCH;localcharter70223B failscap;not a whole-read execution certificate",
+    "6c": "PARTIAL: officialCPI/Decimal qualifiedFT08;CBOESKEW3/4;FRED14series/currentvendor screening. Other eligibleHANS/officialfutures/Cushing and monthly/qualitative coverage source-limited",
+    "7-7d": "ScopedBOARD/index/recentroutekill filtercontext;EVENTCLOSED;noDEWEYreturn beyondREADME;finalDEWEYcommission stays complete",
+    "7g": "0 top-level md packets",
+    "7e": "Cleanintakealreadyuptodate;6feedsOK/1missedweekdayrun;prior27dispositions reused,sourcebodygapsunmarked",
+    "7f": "0regularrawdropfiles",
+    "7h": "19new,19dispositions,exact19markedaftercommits;745processed/0stage",
+    "8": "46registryrows/41headers/5missing;surgicalheaderfocusrefresh;metadata/classesretained",
+    "9": "NoactiveLIAISONinmanifest;REQqueue0",
+    "9a": "ExistingR1boot0unreceipted;newexternalOrnnregistersame-sourcecommit",
+    "9b": "FleetownerlivenessUNKNOWN;generatedviewscopedandforeignactivitypartial;noDARK/doorbell/ownerlaunch"
+  },
+  "publication": {
+    "origin": "51c35cacc2c2598bc74816a1ffae23a175a1a8ef",
+    "commits": [
+      {
+        "commit": "8e2b066e699429f4780c0914af958d23131d0724",
+        "state": "published"
+      },
+      {
+        "commit": "b77d7e41f7d5159b2b8f759de0c1f32551f98bd9",
+        "state": "published"
+      }
+    ]
+  },
+  "delivery": {
+    "total": 44,
+    "origin_proven": 44,
+    "owner_integration": "UNKNOWN"
+  },
+  "mark_proof": "mark-proof.json",
+  "helpers": "3 explicit complete; no helper work remaining",
+  "unrun_or_failed": [
+    "Mainrepo pull deferred by root dirty-tree rule",
+    "Localcharter whole-read capremedy unactivated",
+    "6c full eligible source/close coverage partial",
+    "Intakebodygaps leave marking incomplete",
+    "9b native fleet liveness/whole-view completion unverified"
+  ],
+  "new_will_decision": "None"
+}

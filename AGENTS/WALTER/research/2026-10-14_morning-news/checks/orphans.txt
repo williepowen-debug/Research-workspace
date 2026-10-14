@@ -1,0 +1,17 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/TERRY/inbox/2026-10-14_from-PROME_QQQ-filled-exits.json
+     [not yours]    AGENTS/WAL/NEXUS_BRIEF.md
+     [not yours]    FORGE/STATUS.md
+     [not yours]    FORGE/position_management.tsv
+     [not yours]    PROME/DOCKET.tsv
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/data/2026-10-14_broker-capture-TRANSCRIPTION.json
+     [not yours]    PROME/registry/corrections_receipts.tsv
+     [not yours]    PROME/reports/2026-10-14_1110-boot-news.json
+     [not yours]    PROME/reports/2026-10-14_broker-reconcile-acceptance.json
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/board_consumed.tsv
+     [not yours]    PROME/state/board_cursor.txt
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
