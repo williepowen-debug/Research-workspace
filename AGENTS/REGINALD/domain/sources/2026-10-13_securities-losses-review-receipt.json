@@ -1,0 +1,163 @@
+{
+  "recorded_utc": "2026-10-14T00:35:38.559245+00:00",
+  "analysis_as_of": "2026-10-13 evening ET",
+  "report": "reports/2026-10-13_securities-losses_Call_Report_window_review.md",
+  "input_status": "Will-supplied side-LLM synthesis; hypothesis, not independent source",
+  "sources": [
+    {
+      "url": "https://www.fdic.gov/quarterly-banking-profile/quarterly-banking-profile-second-quarter-2026.pdf",
+      "http_status": 200,
+      "preserved_path": "domain/sources/2026-10-13_FDIC_Q2-2026_QBP.pdf",
+      "sha256": "0e961e19a41bb080aa3b1255aa8bc483648f032ff352fcf4d318382e76c797d2",
+      "bytes": 1989993,
+      "verification_scope": "PDF page7 / printed page4 securities paragraph, Chart7 note and footnote2, extracted and visually inspected; not full QBP review",
+      "verified_values_b": {
+        "total": 326.7,
+        "AFS": 109.8,
+        "HTM": 216.9,
+        "quarter_change": 1.6,
+        "year_change": -68.6
+      },
+      "verified_loss_to_cost_pct": {
+        "total": 5.5,
+        "AFS": 2.9,
+        "HTM": 10.5
+      },
+      "pdf_persistence": "Local source cache; PDF excluded from Git by repository .gitignore line51. Verified printedp4 text is committed separately.",
+      "preserved_verified_page": {
+        "path": "domain/sources/2026-10-13_FDIC_Q2-2026_QBP_printed-p4.txt",
+        "sha256": "10dca4aef919ac7115b94457880e010c2ae594ad249e23223f7b51a6f2ae403e"
+      }
+    },
+    {
+      "url": "https://www.fdic.gov/news/financial-institution-letters/2026/consolidated-reports-condition-and-income-third-quarter",
+      "http_status": 200,
+      "sha256": "7070e17ffc18d25b9bfbe2bd62a2e5a84b4c5a408f0f3952c025b1d4a2cc4930",
+      "verification_scope": "October5 Q3 letter deadline table and filing-period text",
+      "deadlines": {
+        "standard": "2026-10-30",
+        "eligible_foreign_offices": "2026-11-04"
+      },
+      "interpretation": "deadline, not simultaneous CDR public release"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-217/subpart-C/section-217.22",
+      "verification_scope": "web primary read, b(2) AOCI opt-out and specified adjustments; not every bank subsidiary regulator-specific provision"
+    },
+    {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&_format=csv",
+      "preserved_path": "AGENTS/BOND/analysis/2026-10-07_catchup/raw/daily_treasury_yield_curve.csv",
+      "sha256": "138439285df5c3b65a960bb6325bb1db4b7dc4333b2faa3bc8090fcd11ad852f",
+      "provenance": "BOND original Treasury CSV, manifest captured2026-10-07; original observations directly inspected, no new official Oct13 curve retrieval",
+      "selected_yields_pct": {
+        "09/30/2026": {
+          "2 Yr": 4.88,
+          "5 Yr": 5.09,
+          "10 Yr": 5.29
+        },
+        "08/31/2026": {
+          "2 Yr": 4.34,
+          "5 Yr": 4.49,
+          "10 Yr": 4.75
+        },
+        "06/30/2026": {
+          "2 Yr": 4.14,
+          "5 Yr": 4.19,
+          "10 Yr": 4.44
+        }
+      }
+    },
+    {
+      "preserved_path": "AGENTS/REGINALD/workbook/AOCI_COHORT_2026Q2.tsv",
+      "sha256": "398220db35f6c3d21cfd949579a70bf0fdb1445203bdda3f126130c342b35b6f",
+      "scope": "Frozen-vintage June30 bank-level SDF extraction from September24, reused, not newly independently fetched",
+      "rows_used": [
+        "OZK",
+        "WAL",
+        "EGBN",
+        "VLY"
+      ]
+    }
+  ],
+  "sensitivity": {
+    "type": "mechanical diagnostic, NOT forecast or market-implied losses",
+    "equation": "June30 AFS FV * assumed modified duration * 0.009 * (1-0.25)",
+    "assumptions": {
+      "duration_years": [
+        3,
+        5
+      ],
+      "parallel_yield_change_bp": 90,
+      "fully_usable_tax_rate": 0.25,
+      "fixed_book": true,
+      "hedges_convexity_runoff_trading_basis_changes_omitted": true
+    },
+    "rows": [
+      {
+        "bank_subsidiary": "OZK",
+        "afs_fv_m": 4235.075,
+        "aoci_opt_out_2026Q2": 1.0,
+        "after_tax_mark_m_duration3": 85.76026874999998,
+        "after_tax_mark_m_duration5": 142.93378124999998
+      },
+      {
+        "bank_subsidiary": "WAL",
+        "afs_fv_m": 18846.464,
+        "aoci_opt_out_2026Q2": 1.0,
+        "after_tax_mark_m_duration3": 381.640896,
+        "after_tax_mark_m_duration5": 636.06816
+      },
+      {
+        "bank_subsidiary": "EGBN",
+        "afs_fv_m": 904.184,
+        "aoci_opt_out_2026Q2": 1.0,
+        "after_tax_mark_m_duration3": 18.309725999999998,
+        "after_tax_mark_m_duration5": 30.51621
+      },
+      {
+        "bank_subsidiary": "VLY",
+        "afs_fv_m": 4292.148,
+        "aoci_opt_out_2026Q2": 1.0,
+        "after_tax_mark_m_duration3": 86.91599699999999,
+        "after_tax_mark_m_duration5": 144.859995
+      }
+    ],
+    "entity_guard": "Bank subsidiaries; no parent per-share mapping performed",
+    "old_September24_scenario": "UNCHANGED"
+  },
+  "podcast": {
+    "original_navigation_url": "https://www.youtube.com/watch?v=ZJKs08oU1zg&t=2967s",
+    "secondary_navigation_source": "https://www.abetternewspaper.com/editions/69322fa5-f365-4909-b98b-737532741ce3",
+    "secondary_html_sha256": "81ded8cc1806c0b4c9336dbd09f0d828a6c2e113e07ecc4a3018e8d3cf9848e4",
+    "original_access": "web fetch throttled; transcript/calculation not verified",
+    "95_bank_count": "UNVERIFIED",
+    "universe_4295": "UNVERIFIED",
+    "missing_model_inputs": [
+      "total vs incremental loss",
+      "date/window",
+      "security and equity denominator",
+      "bank vs holding company",
+      "tax",
+      "duration",
+      "hedges"
+    ]
+  },
+  "other_unverified_input_claims": [
+    "size shares/medians",
+    "Schwab/BAC/WFC comparative figures",
+    "mortgage-rate level",
+    "KBW drawdown and causal attribution"
+  ],
+  "retrieval_failures": [
+    "initial guessed FDIC PDF URLs404; correct PDF retrieved200",
+    "web FDIC access403; shell primary retrieval200",
+    "original YouTube web fetch throttled"
+  ],
+  "scope_guard": "No new national screen, monitor, trade, scored forecast or frozen rule; existing Q3/Nov7 duties retained. No prices refreshed in this review.",
+  "closeout": {
+    "inbox": "No new October13 undispositioned WALTER item;001/002/035 already in BOARD_LOG. Existing general inbox dependencies retained.",
+    "positions_matrix_deck_thesis": "Consciously skipped: no broker, market, gate, score, registered forecast or thesis change.",
+    "validation": "JSON, arithmetic identity, KB15-column and unique IDs, STATUS<250lines, weekday and diff whitespace checks passed; read-cap rc0 within detected perimeter.",
+    "git": "Own paths only; outside-desk WALTER cache prevents pull/push under root Git protocol."
+  }
+}

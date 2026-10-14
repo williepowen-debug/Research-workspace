@@ -27,6 +27,8 @@ A useful bank research judgment connects these layers. State an unsupported laye
 6. Record a dated expectations benchmark when obtainable. If consensus is unavailable, use explicitly labeled issuer guidance or assumptions and retain the gap. A price/book discount is not a dollar estimate of market-implied loss. Sensitivities and conditional valuation examples must state what is held fixed.
 7. State what changes the research conclusion in either direction. Keep that separate from an approved trading trigger. Recovery can refute a bearish mechanism without proving a long; a new loss can confirm stress without proving mispricing.
 
+For securities/rate research, separate AFS marks already in GAAP equity, realized reclassification, HTM interest-rate gaps and credit recognition. Check AOCI opt-out and matched legal entities before mapping book losses to CET1. Use the reporting-date curve; a filing deadline is not simultaneous publication. Reproduce a “loss/equity” screen's denominator, taxes, duration, hedges and existing-versus-incremental loss before adopting its count.
+
 ## At the existing release/filing read
 
 Append the actual outcome beside the dated expectation; do not rewrite the expectation after seeing the result. Record CONFIRMED, REFUTED or UNKNOWN in plain analytical prose, the decisive source, incremental recognition versus expectation, retained risk and the implication for valuation. These labels do not replace registered state tokens or specialist grades.
@@ -45,5 +47,6 @@ Label failed retrieval, successful fresh retrieval, previously cached data and s
 - Row-level verification split and arithmetic: `domain/sources/2026-10-13_review-primary-audit.json`.
 - Cash/new-expense/retained-exposure sequence: `reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md` and `workbook/WORKOUT_OUTCOME_BRIDGE.tsv`.
 - Existing frozen grading authority: `reports/2026-10-09_Q3_earnings_read_plan.md` plus WAL/OZK owner frames. Dates remain in `CALENDAR.md`.
+- Securities/rate claims and separately dated sensitivity: `reports/2026-10-13_securities-losses_Call_Report_window_review.md`; reuse the September24 AOCI study without rewriting its frozen scenario.
 
 These October13 documents do not establish predictive accuracy or pricing edge. Future Q3 outcome reads are the test.
