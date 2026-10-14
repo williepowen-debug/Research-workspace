@@ -1,29 +1,30 @@
 ---
-signal_id: "SIG-W-20261014-001"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-001
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["BLS CPI, October14 08:30ET", "BLS real earnings, same release time"]
-domain: "MACRO_INFLATION"
-cluster: "INFLATION_TRANSMISSION"
+domain: MACRO_INFLATION
+cluster: INFLATION_TRANSMISSION
 entities: ["BLS", "RED", "CPI-U"]
-precedence: "IMMEDIATE"
+precedence: IMMEDIATE
 action: ["RED", "CARL"]
 to: ["RED", "CARL"]
 info: ["HENRY", "LIQUID", "LABOR", "BRENT", "PROME"]
 confidence: 0.98
-confidence_language: "confirmed"
+confidence_language: confirmed
 resources: 1
-signal_type: "threshold-crossed"
-safety_net: "clear"
-event_window: "closed"
+signal_type: threshold-crossed
+safety_net: clear
+event_window: closed
 word_count: 119
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
-falsification_trigger: "RED-FT-08"
-consumer_transmission: "pump_pass_through"
-consumer_lens: "mixed"
-cluster_secondary: "CONSUMER_STAGFLATION"
+falsification_trigger: RED-FT-08
+consumer_transmission: pump_pass_through
+consumer_lens: mixed
+cluster_secondary: CONSUMER_STAGFLATION
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # September CPI: registered core inflation line crossed; real hourly earnings fall

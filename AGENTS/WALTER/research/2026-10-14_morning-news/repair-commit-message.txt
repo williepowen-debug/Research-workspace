@@ -1,0 +1,3 @@
+WALTER: correct morning BOARD scalar serialization
+
+Bodies conserved exactly; additive erratum records formatting correction. Recipient create-only packets untouched. Generated INDEX and doctor now reconcile.

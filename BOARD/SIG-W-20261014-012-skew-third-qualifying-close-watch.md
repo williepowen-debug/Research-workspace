@@ -1,25 +1,26 @@
 ---
-signal_id: "SIG-W-20261014-012"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-012
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["Cboe official daily CSV"]
-domain: "MARKET_VOL"
-cluster: "POSITIONING_VALUATION"
+domain: MARKET_VOL
+cluster: POSITIONING_VALUATION
 entities: ["Cboe", "SKEW", "RED-FT-10"]
-precedence: "PRIORITY"
+precedence: PRIORITY
 action: ["VIOLET"]
 to: ["VIOLET"]
 info: ["HENRY", "LIQUID", "RED", "PROME"]
 confidence: 0.98
-confidence_language: "confirmed"
+confidence_language: confirmed
 resources: 1
-signal_type: "pattern-match"
-safety_net: "clear"
-event_window: "closed"
+signal_type: pattern-match
+safety_net: clear
+event_window: closed
 word_count: 158
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # Official SKEW October13 closes154.74; three of four qualifying sessions, no early fire

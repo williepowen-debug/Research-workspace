@@ -1,28 +1,29 @@
 ---
-signal_id: "SIG-W-20261014-003"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-003
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["IEA public OMR, October14; browser full public body read"]
-domain: "OIL_ENERGY"
-cluster: "HYDROCARBON_INFRA"
+domain: OIL_ENERGY
+cluster: HYDROCARBON_INFRA
 entities: ["IEA", "Gulf", "Russia"]
-precedence: "PRIORITY"
+precedence: PRIORITY
 action: ["BRENT"]
 to: ["BRENT"]
 info: ["CARL", "HENRY", "LIQUID", "HANS", "OSPREY", "FALCON", "RED", "PROME"]
 confidence: 0.93
-confidence_language: "confirmed"
+confidence_language: confirmed
 resources: 1
-signal_type: "research"
-safety_net: "clear"
-event_window: "closed"
+signal_type: research
+safety_net: clear
+event_window: closed
 word_count: 179
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
-cluster_secondary: "INFLATION_TRANSMISSION"
-consumer_transmission: "pump_pass_through"
-consumer_lens: "mixed"
+cluster_secondary: INFLATION_TRANSMISSION
+consumer_transmission: pump_pass_through
+consumer_lens: mixed
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # October IEA report: crude recovery outpaces products; diesel balance remains constrained

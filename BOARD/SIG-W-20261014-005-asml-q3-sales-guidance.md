@@ -1,26 +1,27 @@
 ---
-signal_id: "SIG-W-20261014-005"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-005
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["ASML October14 issuer release, indexed primary body"]
-domain: "AI_CAPEX"
-cluster: "AI_INFRA_CAPEX"
+domain: AI_CAPEX
+cluster: AI_INFRA_CAPEX
 entities: ["ASML"]
-precedence: "PRIORITY"
+precedence: PRIORITY
 action: ["VULCAN"]
 to: ["VULCAN"]
 info: ["VIOLET", "HENRY", "WATT", "RED", "PROME"]
 confidence: 0.85
-confidence_language: "reports"
+confidence_language: reports
 resources: 1
-signal_type: "research"
-safety_net: "clear"
-event_window: "closed"
+signal_type: research
+safety_net: clear
+event_window: closed
 word_count: 133
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
-signal_role: "counter_evidence"
+signal_role: counter_evidence
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # ASML Q3 sales and full-year guidance supply AI-capex counterevidence

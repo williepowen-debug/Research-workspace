@@ -1,25 +1,26 @@
 ---
-signal_id: "SIG-W-20261014-009"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-009
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["Interfax October14 indexed report"]
-domain: "GEOPOL_ENERGY"
-cluster: "HYDROCARBON_INFRA"
+domain: GEOPOL_ENERGY
+cluster: HYDROCARBON_INFRA
 entities: ["StarShield", "SpaceX", "Ukraine", "Serhiy-Beskrestnov"]
-precedence: "PRIORITY"
+precedence: PRIORITY
 action: ["OSPREY"]
 to: ["OSPREY"]
 info: ["HAWK", "RED", "PROME"]
 confidence: 0.65
-confidence_language: "reports"
+confidence_language: reports
 resources: 1
-signal_type: "research"
-safety_net: "clear"
-event_window: "closed"
+signal_type: research
+safety_net: clear
+event_window: closed
 word_count: 112
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # Ukrainian adviser reports moving-terminal restriction disrupted drone missions

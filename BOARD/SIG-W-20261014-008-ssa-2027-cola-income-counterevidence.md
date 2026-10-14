@@ -1,27 +1,28 @@
 ---
-signal_id: "SIG-W-20261014-008"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-008
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["SSA official October14 announcement"]
-domain: "MACRO_INFLATION"
-cluster: "CONSUMER_STAGFLATION"
+domain: MACRO_INFLATION
+cluster: CONSUMER_STAGFLATION
 entities: ["Social-Security-Administration"]
-precedence: "PRIORITY"
+precedence: PRIORITY
 action: ["CARL"]
 to: ["CARL"]
 info: ["LABOR", "HENRY", "RED", "PROME"]
 confidence: 0.9
-confidence_language: "confirmed"
+confidence_language: confirmed
 resources: 1
-signal_type: "research"
-safety_net: "clear"
-event_window: "closed"
+signal_type: research
+safety_net: clear
+event_window: closed
 word_count: 113
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
-consumer_transmission: "policy_pass_through"
-consumer_lens: "tier_stratified"
+consumer_transmission: policy_pass_through
+consumer_lens: tier_stratified
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # SSA announces3.6% benefit adjustment for2027

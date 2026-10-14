@@ -1,27 +1,28 @@
 ---
-signal_id: "SIG-W-20261014-010"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-010
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["Ornn index", "Ornn method", "Ornn FAQ"]
-domain: "AI_CAPEX"
-cluster: "AI_INFRA_CAPEX"
+domain: AI_CAPEX
+cluster: AI_INFRA_CAPEX
 entities: ["Ornn", "Anthropic"]
-precedence: "PRIORITY"
+precedence: PRIORITY
 action: ["VULCAN"]
 to: ["VULCAN"]
 info: ["HENRY", "RED", "PROME"]
 confidence: 0.72
-confidence_language: "reports"
+confidence_language: reports
 resources: 1
-signal_type: "correction"
-safety_net: "clear"
-event_window: "closed"
+signal_type: correction
+safety_net: clear
+event_window: closed
 word_count: 158
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
 corrects: "EXTERNAL: @zerohedge October14 Anthropic all-time-low price framing; constant-basket/nominal implication unverified"
 corrects_direction: "WEAKENS unrestricted historical and nominal-price inference"
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # Anthropic blended-price index falls; nominal rate cut and all-time claim remain unproved

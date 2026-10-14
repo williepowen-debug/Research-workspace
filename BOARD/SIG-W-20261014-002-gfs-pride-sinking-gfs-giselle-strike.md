@@ -1,28 +1,29 @@
 ---
-signal_id: "SIG-W-20261014-002"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-002
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["Singapore MPA October14", "Reuters October14 full-body syndication"]
-domain: "GEOPOL_ENERGY"
-cluster: "IRAN_HORMUZ"
+domain: GEOPOL_ENERGY
+cluster: IRAN_HORMUZ
 entities: ["GFS-PRIDE", "GFS-GISELLE", "Singapore-MPA", "Saudi-Aramco"]
-precedence: "IMMEDIATE"
+precedence: IMMEDIATE
 action: ["FALCON", "BRENT"]
 to: ["FALCON", "BRENT"]
 info: ["HAWK", "SAM", "RED", "PROME"]
 confidence: 0.9
-confidence_language: "confirmed"
+confidence_language: confirmed
 resources: 1
-signal_type: "catalyst"
-safety_net: "clear"
-event_window: "closed"
+signal_type: catalyst
+safety_net: clear
+event_window: closed
 word_count: 147
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
-narrative_channel: "tasnim"
-anchor_unverified_as_of: "2026-10-08"
+narrative_channel: tasnim
+anchor_unverified_as_of: 2026-10-08
 dispatch_scope: "narrative_channel tags only the separately attributed Iranian mine claim; MPA is independent flag-state evidence, not an Iranian endorsement"
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # Flag-state authority confirms GFS Pride sinking; GFS Giselle reaches safe anchorage

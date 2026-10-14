@@ -1,0 +1,103 @@
+{
+  "observed_at": "2026-10-14T16:33:51.407262+00:00",
+  "proof": [
+    {
+      "path": "BOARD/SIG-W-20261014-001-september-cpi-core-trigger-real-wage-squeeze.md",
+      "old_sha256": "2969970018da9944aedc27aab2162180c53fa8a0495b00f76dfb69ad12a3745e",
+      "new_sha256": "d2802c3e9f5444fc771686ddb72c51d9d7b109f5343e98a003685d0937ca696a",
+      "body_sha256": "9d602e7677e4a0b7e8bb8f432a17a628a3ce49d4d3f5e10e2dbc0f112ac8d51a",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-002-gfs-pride-sinking-gfs-giselle-strike.md",
+      "old_sha256": "f5fb3339dcc202dd6fdbb160eeb41dc6db189cf319feafc149dad16aa8abdfea",
+      "new_sha256": "31c59718a59a81d14f154f91a7c301ef2446fc26f7c29fe7fb1b8b33c5213b07",
+      "body_sha256": "970018a84ff1f8e47e1426b396ca9fb4a10dd453dc2fb1b3c01b29657ea6839e",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-003-iea-october-crude-product-recovery-split.md",
+      "old_sha256": "dbf5104faadb9bee0b8a9270a7efdc9e7833066de0f9b141b7b211aa5b6db7ea",
+      "new_sha256": "e4178aadbb8e725d1aa1b25c541a5ca48976df616c78f335389f894b3c9c1400",
+      "body_sha256": "872b3f66e40bb099de83c5a058c9cbe8b8108e4ad655bd51ab9fbc9d23152d1e",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-004-bac-ms-q3-counterevidence.md",
+      "old_sha256": "c6e8e08e67b1051c9027fe8658c604071142ab42f96fd9b874e89c11762fc135",
+      "new_sha256": "ca5a5d2ccaf58cd53ca5a32d7c30cc8339f6f57cb1722857d53d83b4a45ddab7",
+      "body_sha256": "0c18aed3eb15f68f9e56940ad8589e550b7ca1a0d512ceaf561d663abb3d4f5b",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-005-asml-q3-sales-guidance.md",
+      "old_sha256": "bed3c10ccbf0aee21e044e9b2e382c86ddc9c9a2e93c9d0d03decaf59aaf5ea5",
+      "new_sha256": "a7549bc3a5dc8eea43084409771acc9fa4b5b95848b7dfc5f70c6bc619a05f7b",
+      "body_sha256": "f4bb9f0f1c9ece95ced532f011ae1220c796162df5718f597f2293888514629b",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-006-redfin-september-seller-buyer-gap-miami.md",
+      "old_sha256": "43a3ca1f057864f93596dfc2cbd71cb55a835c1d4868e7b77334cd633966687e",
+      "new_sha256": "4833d0b4c557b86b207f98e4581908c0a45b5adcfa8a51f85f47d6206e2867b1",
+      "body_sha256": "2c5dca41194423bdb2a37ca84b17b2a60d6b0e286430d71f98b6947726e36c36",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-007-netflix-global-job-cuts.md",
+      "old_sha256": "1d5597427ef329da7a313a89b437559572e375bd4831fba4519f4e409fb6ab74",
+      "new_sha256": "36408b2c3ba0646facd6f64def624cc66ccd200fb458eeda9343a38aa3588eb2",
+      "body_sha256": "b7fb347784971a03beba4ecd9e2712c9f7a6a8c2f27991b08e9e53b21557720a",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-008-ssa-2027-cola-income-counterevidence.md",
+      "old_sha256": "0275b294ba9a1aaf7138b970f480b5513b7ee660b4023a10db38f83e6c5de889",
+      "new_sha256": "074559c6eb6e1f7151573c57ba29c5e305cd0761006c2dd8d0cb6c4e5d0bd997",
+      "body_sha256": "11a7aeb20e69fabdc123807fe697d7a3bb094fa394bf34eee793ddb0a775902e",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-009-ukraine-starshield-motion-restriction-report.md",
+      "old_sha256": "589dfad3fa303200c355b85912271201d4953bde6a9c2a0d2e0b03640a5c58c0",
+      "new_sha256": "d0d7b01b6031838637c839fa04277d9d34540595d74d6ee27f15cf0edb96f3eb",
+      "body_sha256": "c37b678dfe8bda8faef2cf9c3f998e43e6f25764778ebc388c114a54eb4ac3d3",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-010-CORRECTION-ornn-anthropic-blended-price-method.md",
+      "old_sha256": "9033357a290752af633eefb6c9b42e8689408c61cc375d25a009ed9819b95d4f",
+      "new_sha256": "6158a8f1aa7f66f0d718a25232bb70f999dbaca072edcfa30deee9aea17fdff9",
+      "body_sha256": "d7d079d487907a0891d3f2b9de1bb7d8e8d49cf62ed1618c9cc198e2a41485de",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-011-cato-government-announced-equity-compilation.md",
+      "old_sha256": "9be75e1d5ac7767c30502aceb61eb1b4757240927bdd4605b59479302da35d0e",
+      "new_sha256": "052eedb4fb8c2dfaf507e1b42e5cca72ce0c48816c4b117d63c1429174a23246",
+      "body_sha256": "38bf8e8bc5f8606d6583f67534597d12deb433939be0df50a3f2c5e606d7ca1f",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-012-skew-third-qualifying-close-watch.md",
+      "old_sha256": "5299e4df1ed5c75e8542401fac24d952c0db7ddf8b7619349d2b604073b0cf18",
+      "new_sha256": "004ac6e0d480d1425b4dae3922405e2258ab13cc231466d95a1e3430f18b5d08",
+      "body_sha256": "7fc6ee72d807062b2a71259dd996a769fb4c384e0011ce69710e1fb57175e4e2",
+      "body_unchanged": true,
+      "original_commit": "8e2b066e699429f4780c0914af958d23131d0724"
+    }
+  ],
+  "high_findings": [],
+  "recipient_packets": "UNCHANGED"
+}

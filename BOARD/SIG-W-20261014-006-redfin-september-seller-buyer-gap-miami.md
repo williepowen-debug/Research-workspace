@@ -1,27 +1,28 @@
 ---
-signal_id: "SIG-W-20261014-006"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-006
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["Redfin October14 primary report"]
-domain: "HOUSING"
-cluster: "BANK_COLLATERAL"
+domain: HOUSING
+cluster: BANK_COLLATERAL
 entities: ["Redfin", "Miami", "Nashville", "Houston"]
-precedence: "PRIORITY"
+precedence: PRIORITY
 action: ["HOMER", "CORAL"]
 to: ["HOMER", "CORAL"]
 info: ["CARL", "REGINALD", "HENRY", "RED", "PROME"]
 confidence: 0.87
-confidence_language: "reports"
+confidence_language: reports
 resources: 1
-signal_type: "research"
-safety_net: "clear"
-event_window: "closed"
+signal_type: research
+safety_net: clear
+event_window: closed
 word_count: 156
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
-consumer_transmission: "wealth_effect"
-consumer_lens: "mixed"
+consumer_transmission: wealth_effect
+consumer_lens: mixed
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # Redfin September estimate: seller surplus62.6%; Miami158.9%

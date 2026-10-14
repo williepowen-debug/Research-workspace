@@ -1,26 +1,27 @@
 ---
-signal_id: "SIG-W-20261014-004"
-date: "2026-10-14"
-timestamp: "2026-10-14T16:21:55Z"
-dispatched: "2026-10-14T16:21:55Z"
-source: "WALTER"
+signal_id: SIG-W-20261014-004
+date: 2026-10-14
+timestamp: 2026-10-14T16:21:55Z
+dispatched: 2026-10-14T16:21:55Z
+source: WALTER
 origin: ["BAC Q3 issuer release, October14", "MS Q3 issuer PDF, October14"]
-domain: "BANK_CRE"
-cluster: "BANK_COLLATERAL"
+domain: BANK_CRE
+cluster: BANK_COLLATERAL
 entities: ["Bank-of-America", "BAC", "Morgan-Stanley", "MS"]
-precedence: "IMMEDIATE"
+precedence: IMMEDIATE
 action: ["REGINALD"]
 to: ["REGINALD"]
 info: ["CARL", "BROCK", "LIQUID", "RED", "PROME"]
 confidence: 0.97
-confidence_language: "confirmed"
+confidence_language: confirmed
 resources: 1
-signal_type: "catalyst"
-safety_net: "clear"
-event_window: "closed"
+signal_type: catalyst
+safety_net: clear
+event_window: closed
 word_count: 108
 dispatch_note: "Source-qualified morning catch-up; owner state/grades unchanged except WALTER-qualified FT08 fire history. Actual owner integration UNKNOWN. Native fleet visibility UNKNOWN; no DARK inference or owner spawn. Three bounded read-only RULE9 helpers explicitly complete."
-signal_role: "counter_evidence"
+signal_role: counter_evidence
+erratum: "2026-10-14 — scalar serialization corrected for legacy BOARD parsers; source claims and recipient packets unchanged."
 ---
 
 # Big-bank Q3: BAC settlement charge lowers earnings while charge-offs improve; MS revenue grows
