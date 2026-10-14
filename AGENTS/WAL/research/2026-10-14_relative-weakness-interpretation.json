@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "question": "Does today's WAL relative weakness mean anything, and what next?",
+  "price_basis": "Saved delayed October14 quotes, WAL13:19:59ET; comparison approximately13:18–13:20ET, AMTB13:09. Not a fresh end-of-day observation.",
+  "source_receipt": "research/2026-10-14_intraday-relative-weakness.json",
+  "observations": {
+    "WAL_pct": -2.48203,
+    "PNC_pct": -2.43758,
+    "CUBI_pct": -2.34459,
+    "KRE_pct": -0.86881,
+    "WAL_minus_KRE_pp": -1.61322,
+    "WAL_minus_PNC_pp": -0.04445,
+    "current_day_banks": 30,
+    "universe": "Selected bank names, not every regional bank; staleCMA/WBS excluded"
+  },
+  "interpretation": "Measured relative weakness is worth investigating. The narrow ranking gap toPNC is not proof WAL is uniquely stressed. No beta-adjusted residual, sustained excess decline, abnormal volume, borrower loss or earnings-surprise attribution measured.",
+  "news_check": {
+    "scope": "Targeted same-day WAL/PNC/bank searches; not comprehensive issuer/SEC/docket coverage",
+    "result": "No fresh WAL-specific causal catalyst identified in retrieved search results. This does not establish no news exists.",
+    "broad_context": "AP reports inflation and rising-yield pressure on the broader market; this supplies context, not WAL-specific causal attribution.",
+    "AP": "https://apnews.com/article/704d3190f0fba2908df07c85f26346ec",
+    "issuer_news_page_open": "Internal Error",
+    "AP_page_open": "Internal Error; search response supplied summary"
+  },
+  "existing_carriers": {
+    "release": "2026-10-19 after close",
+    "call": "2026-10-20 12:00 ET",
+    "source": "https://investors.westernalliancebancorporation.com/News-and-Presentations/news/news-details/2026/Western-Alliance-Bancorporation-Announces-Third-Quarter-2026-Earnings-Release-Date-Conference-Call-and-Webcast/default.aspx"
+  },
+  "recommended_next_steps": [
+    "Use REGINALD's existing close/relative-performance work to check persistence and market/rate sensitivity; do not treat an asynchronous intraday ranking as a new trigger.",
+    "At existing Q3 carriers test named appraisal/new-office migration, NDFI quality and incremental provision versus known allowances, mortgage/funding economics and recurring parent earnings. Retain benign falsifiers and matched EPS basis.",
+    "Recommend bringing TERRY's Fidelity65P management review forward before earnings, using current bid/ask, implied volatility, time decay and plausible pre/post-event scenarios. Recommendation only: no new card commission, deadline, gate, trade or order executed."
+  ],
+  "option_education": {
+    "position_source": "POSITIONS.md; Fidelity4xWAL65PDec18-2026 verified byWill/brokerOctober14; no current option marks",
+    "stock_snapshot_USD": 71.9,
+    "decline_from_snapshot_to_strike_pct": -9.596662030598058,
+    "meaning": "Approximately9.6% decline reaches the65 strike from that dated stock snapshot. This is not expiry breakeven, needed decline for a profitable earlier sale, or an estimated option gain.",
+    "pricing": "Long puts can change value before reaching strike. Time decay and a decline in implied volatility after earnings can offset a favorable stock move. Magnitude for this position UNKNOWN without current chain.",
+    "OIC": "https://prd-web.optionseducation.org/news/april-office-hours-faqs-options-strategy-time-decay-and-market-mechanics",
+    "TERRY_scope": "Existing position note, card only ifWillasks earlier, otherwiseC5December16. No transfer ofRobinhood70Pguard/December4stop."
+  },
+  "state_changes": "None: no numerical thesis/score/weight/target/prediction/position/management change; no recurring automation or background monitoring.",
+  "judgment": "Increase investigative priority; insufficient evidence yet for a stronger numerical bearish judgment. Main question remains persistent earnings impairment beyond expectations.",
+  "persistence": "Owned WAL research note only; no STATUS write/NEXUS re-pin required for this bounded interpretation. Push deferred for foreign dirty work."
+}
