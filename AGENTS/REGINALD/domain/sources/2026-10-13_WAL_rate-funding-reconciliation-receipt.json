@@ -1,0 +1,234 @@
+{
+  "recorded_utc": "2026-10-14T01:47:48.366360+00:00",
+  "analysis_as_of": "2026-10-13 evening ET",
+  "report": "reports/2026-10-13_WAL_rate-funding-reconciliation.md",
+  "authority": "Will / inbox/2026-10-13_from-PROME_Will-directed-WAL-rate-funding-reconciliation.md",
+  "runtime": {
+    "provider": "OpenAI",
+    "runtime": "Codex",
+    "exact_backend_model": "UNKNOWN",
+    "native_fleet_transport": "UNVERIFIED; available collaboration tools do not establish a PROME/WAL target",
+    "repository": "/home/willi/Research-workspace",
+    "cwd": "/home/willi/Research-workspace/AGENTS/REGINALD",
+    "root_and_local_instructions": "Explicit root AGENTS/CLAUDE and desk boot contract recovered; no local AGENTS.md present; continuing existing session"
+  },
+  "verification_scope": "Selected primary tables/slides and preserved Q1 sections, not full new 10Q read. No fresh Call Report pull.",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026049001/walq22026earningspresent.htm",
+      "verification": "Fresh SEC text, slides7-11,14,17",
+      "values": {
+        "ramp_up100_NII_pct": 3.2,
+        "ramp_down100_NII_pct": -2.7,
+        "ramp_up100_EaR_pct": 0.8,
+        "ramp_down100_EaR_pct": 0.8,
+        "NMD_beta_including_ECR_pct": 59,
+        "variable_assets_pct_earning_assets": 67,
+        "SOFR_repricing_pct_earning_assets": 53,
+        "variable_liabilities_pct_earning_assets": 87,
+        "ECR_balance_average_Q2_b": 31.6,
+        "ECR_balance_period_end_Q2_b": 29.9
+      },
+      "model": "Dynamic,12-month,forward-curve base,gradual parallel scenario. EaR pretax NII adjusted for rate-sensitive fee/expense items; not net income/EPS. NII and EaR bases are unlike; do not subtract percentages to derive dollar costs."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026049001/pressrelease-6302026.htm",
+      "verification": "Fresh selected release narrative, average balances, ECR classification printedp17, TCE printedp18",
+      "values_m": {
+        "NII_Q2": 796.9,
+        "NII_Q1": 766.3,
+        "PPNR_Q2": 412.4,
+        "PPNR_Q1_adjusted": 394.0,
+        "deposits_Q2": 81874,
+        "deposit_change_QoQ": -849,
+        "borrowing_Q2": 6236,
+        "borrowing_change_QoQ": 626,
+        "ECR_interest_Q2": 52.5,
+        "ECR_fee_Q2": 8.4,
+        "ECR_deposit_cost_Q2": 173.3,
+        "ECR_total_Q2": 234.2,
+        "ECR_interest_Q1": 48.7,
+        "ECR_fee_Q1": 8.3,
+        "ECR_deposit_cost_Q1": 157.3,
+        "ECR_total_Q1": 214.3,
+        "other_deposit_cost_Q2": 5.9,
+        "total_NIE_deposit_cost_Q2": 179.2,
+        "TCE_Q2_net_intangible_tax": 6906,
+        "TCE_Q1_net_intangible_tax": 6677,
+        "parent_AOCI_Q2": -451,
+        "parent_CET1_Q2": 7267,
+        "NI_available_common_Q2": 258.5,
+        "common_dividends_Q2": 45.9,
+        "repurchases_Q2": 2.3
+      },
+      "values_pct": {
+        "IB_deposit_cost_Q2": 2.74,
+        "total_interest_deposit_cost_Q2": 1.78,
+        "NIM_Q2": 3.53,
+        "parent_CET1_ratio_Q2": 11.0
+      },
+      "TBV_Q2": 63.24
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026051418/wal-20260630.htm",
+      "verification": "Fresh primary access INCOMPLETE: SEC HTML/query/submission403 and web size>4MB. Shock/EVE/beta assumptions remain owner-sourced at September28 report",
+      "owner_sourced_not_freshly_verified": {
+        "shock_up100_NII_pct": 5.9,
+        "shock_up100_EVE_pct": -4.4,
+        "NII_deposit_beta_average_pct": 53,
+        "ECR_beta_pct": 70
+      }
+    },
+    {
+      "url": "https://financialfilings.com/filings/western-alliance-bancorporation/interim-quarterly-report/2026/49884634/",
+      "verification": "Issuer-authored Q2 10Q reproduction, balance sheet directly read; later sections timed out. Copy identity not fully independently matched to SEC inaccessible original",
+      "values_m": {
+        "parent_AFS_fv": 18880,
+        "parent_AFS_amortized_cost": 19547,
+        "parent_HTM_net_carry": 1662,
+        "parent_HTM_fv": 1497,
+        "parent_HTM_ACL": 13.8,
+        "cash": 5936
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026033054/wal-20260331.htm",
+      "preserved_path": "AGENTS/WAL/sources/q1_2026/wal-20260331.htm",
+      "sha256": "2e3a4ff09def9e2bbb2b3c05f303c1b201a494c855e3849fe892b28a71a15412",
+      "verification": "Previously fetched original primary, Notes2/8/12 and Item3 inspected in this session; vintageMarch31 only",
+      "values_m": {
+        "AFS_agency_residential_MBS": 7497,
+        "AFS_Treasury": 5610,
+        "AFS_CLO": 2966,
+        "AFS_private_label_residential_MBS": 1005,
+        "AFS_hedged_carrying": 3482,
+        "AFS_hedge_cumulative_adjustment": -41,
+        "all_designated_interest_rate_fair_value_hedges_notional": 5708,
+        "unused_FHLB_credit": 7200,
+        "undrawn_FRB_credit": 15700
+      },
+      "model_values_pct": {
+        "shock_up100_NII": 6.0,
+        "shock_up100_EVE": -4.4
+      },
+      "guard": "Historical Q1 holdings/capacities not current and not evidence of complete AFS hedge. Capacity collateral pools not added."
+    },
+    {
+      "path": "AGENTS/REGINALD/workbook/FUNDING_COHORT_2026Q2.tsv",
+      "sha256": "e2c47063d6702650503bf6f19f8a1bf40f5f4376c54ca11df4060a39782ff7a9",
+      "verification": "Frozen bank-levelJune30 original SDF extraction reused; not new independent pull",
+      "WAL_row": {
+        "Ticker": "WAL",
+        "RSSD": "3138146",
+        "Quarter": "6/30/2026",
+        "filer_form": "041",
+        "q_int_dep_K": "373577",
+        "avg_ib_dep_K": "54823700",
+        "ib_dep_cost_pct": "2.73",
+        "ib_dep_cost_pe_pct": "2.73",
+        "rck_avg_to_pe_ib": "1.006",
+        "nib_K": "27819683",
+        "ib_K": "54502679",
+        "nib_share_pct": "33.79",
+        "dep_dom_K": "82322362",
+        "uninsured_K": "31358475",
+        "uninsured_pct": "38.09",
+        "brokered_K": "15436378",
+        "brokered_pct": "18.75",
+        "reciprocal_K": "15158702",
+        "fhlb_adv_K": "5800000",
+        "other_borr_K": "6515625",
+        "ffp_repo_K": "0",
+        "total_liab_K": "90343065",
+        "wholesale_pct": "7.21",
+        "fhlb_pct_liab": "6.42",
+        "missing": "-"
+      }
+    },
+    {
+      "path": "AGENTS/REGINALD/workbook/AOCI_COHORT_2026Q2.tsv",
+      "sha256": "398220db35f6c3d21cfd949579a70bf0fdb1445203bdda3f126130c342b35b6f",
+      "verification": "Frozen-vintage bank-levelJune30; opt-out1, CET17651.672M/RWA66063.310M/11.58% separate from parent."
+    },
+    {
+      "path": "AGENTS/WAL/workbook/KB.tsv#KB-WAL-217",
+      "verification": "Existing owner primary-verified October6 earnings notice, reused not newly retrieved",
+      "next_release": "2026-10-19 after market close",
+      "next_call": "2026-10-20 12:00 ET"
+    }
+  ],
+  "arithmetic": {
+    "ECR_total_Q2": 234.20000000000002,
+    "ECR_total_Q1": 214.3,
+    "ECR_change_already_in_NII": 3.799999999999997,
+    "ECR_change_outside_NII": 16.1,
+    "NII_change_less_outside_ECR_cost_change": 14.500000000000021,
+    "common_income_less_dividend_repurchases_Q2": 210.29999999999998,
+    "TCE_QoQ_change": 229,
+    "incomplete_equity_bridge_residual": 18.700000000000017,
+    "parent_AFS_existing_gap": 667,
+    "HTM_net_carry_gap": 165,
+    "HTM_gross_cost_gap_on_rounded_inputs": 178.79999999999995
+  },
+  "diagnostic_not_forecast": {
+    "assumed_duration_years": [
+      3,
+      5
+    ],
+    "assumed_parallel_shock_bp": 90,
+    "assumed_fully_usable_tax_pct": 25,
+    "parent_AFS_fv_m": 18880,
+    "after_tax_marks_m": [
+      382.31999999999994,
+      637.1999999999999
+    ],
+    "NO_NETTING": "Do not net this spot mark with NII/EaR annual percentages or EVE. Measured Q2 duration and current hedge coverage unverified."
+  },
+  "gaps": [
+    "Q2 shock/EVE fresh primary recheck incomplete",
+    "Q2/Q3 measured securities duration and hedge allocation",
+    "Q3 ECR pricing/beta, optimization balance and retained assets, replacement cost",
+    "Q3 usable liquidity/headroom after collateral/haircuts",
+    "matched parent capital bridge/RWA actuals",
+    "current comparable consensus and pricing edge"
+  ],
+  "retrieval_limits": [
+    "SEC HTML,query variant,complete submission403",
+    "issuer filings HTML403",
+    "StockTitan full10Q size>4MB/403",
+    "FinancialFilings initial balance sheet read succeeded, later sections timed out, render403",
+    "SECInfo human verification required; not bypassed",
+    "SEC slide11 image access unverified; underlying issuer text used"
+  ],
+  "prior_studies_reused": [
+    "WAL September28 rate inputs",
+    "REGINALD September24 AOCI",
+    "REGINALD October7 WQ318 funding",
+    "REGINALD October9 read plan",
+    "REGINALD October10 FHLB",
+    "REGINALD October13 securities review"
+  ],
+  "controls": "No new monitor, national screen, scored forecast, specialist rule, weight, trade or option screen. Original frames/prices/positions unchanged. Stop after focused pass.",
+  "delivery": {
+    "receiver_copies": [
+      {
+        "path": "PROME/inbox/2026-10-13_from-REGINALD_WAL-rate-funding-reconciliation.md",
+        "sha256": "25cd0434dd7b29bd11c002f79a55b3cd30f947137d45256c396e1834439f972a",
+        "copied_identically": true
+      },
+      {
+        "path": "AGENTS/WAL/inbox/2026-10-13_from-REGINALD_rate-model-scope-clarification.md",
+        "sha256": "f2a9df29e49237a318fe9f8cb7bc22b0b9c6099fb7b5376d8c7928f5d023ec17",
+        "copied_identically": true
+      }
+    ],
+    "native_notification": "UNVERIFIED/unavailable target mapping",
+    "recipient_consumption": "UNVERIFIED"
+  },
+  "closeout": {
+    "checks": "JSON/arithmetic/KB15-column+uniqueID/STATUSlinecap/read-cap/weekday/diff whitespace PASS. MEMORY prior bridge archived verbatim and CRC recomputed; size<70% budget.",
+    "inbox": "Only new task packet is current assignment; previous WALTER001/002/035 already dispositioned. Remaining older inbox dependencies retained.",
+    "consciously_skipped": "No broker/price/gate change; positions, deck, specialist frames and thesis versions unchanged.",
+    "git": "Own exact paths plus self-authored receiver packets under root carveout1; WALTER cache defers pull/push."
+  }
+}
