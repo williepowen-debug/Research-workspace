@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns the next actions and generated queue/calendar; [STATUS](STATUS.md) indexes PROME work. Source records distinguish decisions, research acceptance, publication and lifecycle receipts.
+**Resume:** [October14 PROME restart](reports/2026-10-14_PROME-restart.json) records this checkpoint; [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns next actions and generated queue/calendar. [STATUS](STATUS.md) indexes current work. Will requested PROME only; other owner windows continue.
 
 ## October14 — broader stress investigation
 
@@ -16,7 +16,7 @@ Will authorized deeper research across the other financial-risk areas. [Integrat
 
 ## Existing approvals, positions and repair order
 
-[Broker reconciliation](data/2026-10-11_broker-capture-TRANSCRIPTION.md), FORGE and DOCKET retain unknown order/quote outcomes and independent booking duties. [WQ418/420 ruling](proposals/2026-10-11_wq418-420-RULED.md) and [opportunity-discovery approval](proposals/2026-10-12_opportunity-discovery-APPROVED.md) survive context resets; accepted stages are not repeated. Keep L675 → L628 → L676 and existing correction stops. Will's new efficiency preference is in SCRATCH; required acceptance still applies.
+[Latest supplied broker record](data/2026-10-14_broker-capture-TRANSCRIPTION.json) and FORGE own position truth/vintage. [TERRY acceptance](reports/2026-10-14_TERRY-acceptance/disposition.json) closes repair/encoding/booking review and owner acknowledgment; VIOLET receipt and later broker/source evidence remain separate. [CATO integration](reports/2026-10-14_CATO-FS2-integration.json) retires stale QQQ/DEWEY startup instructions. [WQ418/420 ruling](proposals/2026-10-11_wq418-420-RULED.md) and [opportunity-discovery approval](proposals/2026-10-12_opportunity-discovery-APPROVED.md) survive context resets; accepted stages are not repeated. Keep L675 → L628 → L676 and existing correction stops. Will's new efficiency preference is in SCRATCH; required acceptance still applies.
 
 ## Older unresolved continuity
 

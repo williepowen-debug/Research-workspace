@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-14",
+  "desk": "PROME",
+  "request": "Boot and catch up on the day's news, requested 11:10 ET",
+  "runtime": {
+    "provider": "OpenAI",
+    "runtime": "Codex",
+    "model": "GPT-6 family; exact variant UNKNOWN",
+    "thread": "01a13af6-c1c4-72a0-81e4-e9236bfecb1f",
+    "root": "/home/willi/Research-workspace",
+    "instructions": "Root CLAUDE.md, supplied AGENTS.md, USER.md, PROME CLAUDE.md, COMPLETION_SPEC, BOOT and local boot skill explicitly read. Runtime mechanics selected from ORCHESTRATION_PLAYBOOK.",
+    "capabilities": {
+      "shell_and_web": "AVAILABLE, exercised",
+      "market_data": "AVAILABLE after approved network escalation",
+      "discovery": "AVAILABLE for recent Codex app-server threads, truncated list of30; cross-runtime owner absence UNKNOWN. Gate's visible PID namespace is narrower evidence.",
+      "messaging_and_closeout": "Native Codex thread tools exposed; exact recipient transport UNKNOWN because not exercised. No spawn or re-ping in this session.",
+      "private_decision_rulings": "UNAVAILABLE: exposed artifact tools operate on Pages documents and do not expose the legacy Artifact read_db/rulings interface. Pickup SKIPPED; no absence-of-rulings claim.",
+      "hosted_publication": "Legacy Helm/Deck Artifact interface UNAVAILABLE; unrelated Sites tools are not a substitute. No publication attempted."
+    }
+  },
+  "boot": {
+    "status": "PARTIAL",
+    "receipt": "/tmp/prome-boot-20261014-1110-codex",
+    "read_coverage": "Gate and all named check logs read to EOF with pinned digests; orchestration evidence used the authorized orch-compact-v1 view.",
+    "blocking_checks": "PASS 10/10, zero fired-unexecuted gates; position agreement passes",
+    "git": "Fetch succeeded after approved escalation. Initial comparison4 ahead/0 behind; other desks' dirty work preserved, pull SKIPPED under root Git protocol. Concurrent edits continued during boot.",
+    "persistence": "Saved locally. Commit deferred: BRENT processed-signal paths remain staged outside PROME, so root pre-commit sanity condition is unmet. No index reset or sweep. Pending own paths: SCRATCH.md, registry/corrections_receipts.tsv, state/board_consumed.tsv, state/board_cursor.txt and this report. No session closeout requested.",
+    "banner": "No SessionStart banner supplied; clock/repo/env checks performed manually",
+    "board": "27 new informational signals consumed through SIG-W-20261013-027; zero ACTION lines for PROME",
+    "correction": "COR-20261013-16 read and NO-OP receipted for scoped PROME surfaces. TGA weekly average and Wednesday point balance remain distinct. Correction check subsequently passes.",
+    "calendar": "SCRATCH generated DOCKET view refreshed; its size advisory remains. LABOR/VULCAN/VIOLET October12-16 calendars read directly under existing workaround.",
+    "spine": "Last audit October2, stale. WQ411 still owns the next audit ruling; no audit performed.",
+    "owner_work": "Due candidates remain in generated SPAWN_SLATE and DOCKET. New writing launches withheld because cross-runtime ownership is UNKNOWN. Git DARK is not absence. No domain files edited.",
+    "advisories": "Owner firetime flags, CARL/RED BOARD ledger gaps, unread packet census, legacy lifecycle UNKNOWNs, queue and rotation debt remain. No broad cleanup performed.",
+    "owed_order": "Existing expiry/booking obligations first; then named borrower cash/collateral and October property refinancing outcomes; Delaware Life post-pause flows and pension cash-demand mapping remain. This turn advances the user's directed news catch-up and reuses the completed compound-stress synthesis."
+  },
+  "news": [
+    {
+      "topic": "September inflation",
+      "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "published": "2026-10-14 08:30 ET",
+      "facts": "Headline +0.6% m/m SA, +3.7% y/y NSA versus3.4% in August. Gasoline +9.1% m/m explains over half the monthly headline rise. Core +0.3% m/m and2.6% y/y; shelter +0.4% m/m.",
+      "inference": "Energy is transmitting into household costs and complicating monetary easing. This release alone does not establish accelerating underlying inflation or a new Fed decision."
+    },
+    {
+      "topic": "Shipping and Saudi attacks",
+      "sources": ["https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/iran-shifting-tactics-to-step-up-attacks-on-shipping-before-us-vote-officials-say", "https://apnews.com/article/c81a91347c00b17097c8fafde7e4eeec", "https://apnews.com/article/7e2c57a29fd5c3afc7ffe0cf63954bf3"],
+      "published": "2026-10-14",
+      "facts": "Reuters reports changed Iranian tactics, with small-boat spotters described by a US military official and increased shipping incidents. AP reports damage to Aramco executive offices. Iran also claims a container ship sank after a mine strike; AP could not independently verify the images.",
+      "limits": "Administrative-building damage is not measured oil-production loss. The sinking remains an attributed claim; vessel identity, cargo and incremental capacity loss unverified here. No owner gate regrade or additional-barrel estimate."
+    },
+    {
+      "topic": "Bank earnings counterevidence",
+      "sources": ["https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0000070858-26-000481/bac09302026ex991.htm", "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm"],
+      "published": "2026-10-14",
+      "facts": "BAC Q3 net income$6.933B, includes$1.2B regulatory settlement charge. Net charge-offs$1.349B versus$1.412B Q2; annualized rate0.44% versus0.47%. Morgan Stanley revenue$20.338B versus$18.224B a year earlier, profit$4.909B versus$4.610B.",
+      "inference": "Mixed earnings and market weakness do not establish a broad borrower-loss acceleration. Large-bank resilience does not clear regional CRE exposures."
+    },
+    {
+      "topic": "AI capital spending",
+      "source": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+      "published": "2026-10-14",
+      "facts": "ASML reports Q3 sales EUR11.662B, net income EUR4.960B, gross margin57.5%; full-year sales outlook EUR44-45B. Management describes customers increasing equipment demand forecasts on AI investment expectations.",
+      "inference": "Equipment demand remains strong. This does not settle leveraged data-center borrowers' funding or contract risks."
+    }
+  ],
+  "market_snapshot": {
+    "source": "FORGE/tools/market-data/dashboard.py, successfully executed with network access",
+    "retrieval": "2026-10-14T15:14:29Z",
+    "basis": "Vendor observations, not exchange settlements or executable quotes; FRED observations carry separate dates",
+    "values": {"Brent_Dec_BZZ26_USD":106.23,"USDJPY":158.93,"KRE_USD":68.54,"APO_USD":112.82,"ARES_USD":112.56,"WAL_USD":72.31,"VIX":15.75,"MOVE":101.23},
+    "lagged": {"HY_OAS_bps":311,"CCC_OAS_bps":1253,"credit_observation":"2026-10-12","SOFR_pct":3.89,"SOFR_minus_IORB_bps":-1,"funding_observation":"2026-10-13","DGS10_pct":5.24,"DGS10_observation":"2026-10-09"},
+    "limit": "No claim that lagged credit cells establish October14 credit reaction. Dashboard colors and score are not an accepted owner regime grade."
+  },
+  "next_catalyst": "BLS September PPI October15 at08:30 ET, verified https://www.bls.gov/schedule/2026/10_sched.htm. Claims also on existing LABOR calendar. Today's final SKEW bar requires the dated official publication.",
+  "position_attention": "FORGE October13 broker mirror lists USO October14 150C x2 and QQQ October14 744P x1, plus QQQ October15 740P x4. Current orders/fills UNKNOWN. Existing sell-or-roll practice and TERRY cards apply; no new recommendation or trade.",
+  "judgment": "Energy-price pressure plus persistent financing costs is today's clearest transmission story. Broad credit break remains unproven. This is a dated news synthesis, not a replacement for owner evidence or gates.",
+  "new_will_decision": "None from the news review. Existing position deadlines and WQ decisions remain at their owners."
+}

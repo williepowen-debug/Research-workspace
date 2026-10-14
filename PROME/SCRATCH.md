@@ -3,6 +3,11 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**PROME-only restart checkpoint:** Will requested a fresh context after the October14 work. [Checkpoint](reports/2026-10-14_PROME-restart.json) owns scope, checks and delivery; other owner windows continue independently.
+**First fresh-context action:** boot PROME, read this Operator card plus new committed inbox arrivals, then ask Will which research thread to prioritize. Reuse accepted TERRY/CATO results and REGINALD's dated expectations; do not restart completed repairs or DEWEY's diesel commission.
+**Portfolio/career continuation:** demo edits are locally committed in `/home/willi/Selected-Agents-Open-Demonstration`; fetch and compare remote work before any publish. User preferences are in root USER.md. Program eligibility/openings need a fresh official-source check when resumed.
+**Outstanding boundaries:** VIOLET receipt, broker/source gaps and paper-scoring sample remain at existing records; paper/real thresholds unchanged. WQ411 owns the overdue spine audit. This reboot checkpoint does not publish hosted pages or refresh market prices.
+
 **October14 TERRY acceptance:** [disposition](reports/2026-10-14_TERRY-acceptance/disposition.json) accepts the reader/STATUS/Git repairs, exact WQ420 insert and supplied-receipt bookkeeping; specific Git recipe hold released. L684/L687 resolved; VIOLET receipt L681 remains open. TERRY acceptance consumption/write-back is committed at dddfab918; QQQ sender packet c5a1d40fa matches the consumed source, with filing handled by TERRY. See the dated owner follow-through in the disposition. Broker/source gaps and scoring gate remain. No repeat research or new owner launch.
 
 **October14 reboot checkpoint (10:39 ET; Bounce):** Will requests closeout and continuation on a fresh boot; research is saved in the synthesis below.
@@ -33,7 +38,7 @@
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-13 · 25 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-187 (10/9) · WQ-413 (10/12) · WQ-411 (10/12) · WQ-404 (10/14) · WQ-401 (10/14) · WQ-394 (10/14) · WQ-360 (10/14) · WQ-357 (10/14) · WQ-314 (10/14) · WQ-302 (10/14) · WQ-375 (10/15) · WQ-410 (10/16) · WQ-365 (10/16) · WQ-364 (10/16) · WQ-388 (10/17) · WQ-412 (10/20) · WQ-422 (10/23) · WQ-403 (10/23) · WQ-273 (10/25) · WQ-421 (10/29) · WQ-31 (11/1) · WQ-274 (before trading…) · ⛔ WQ-424 (10/23) · ⛔ WQ-423 (10/23)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-14 · 25 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-187 (10/9) · WQ-413 (10/12) · WQ-411 (10/12) · WQ-404 (10/14) · WQ-401 (10/14) · WQ-394 (10/14) · WQ-360 (10/14) · WQ-357 (10/14) · WQ-314 (10/14) · WQ-302 (10/14) · WQ-375 (10/15) · WQ-410 (10/16) · WQ-365 (10/16) · WQ-364 (10/16) · WQ-388 (10/17) · WQ-412 (10/20) · WQ-422 (10/23) · WQ-403 (10/23) · WQ-273 (10/25) · WQ-421 (10/29) · WQ-31 (11/1) · WQ-274 (before trading…) · ⛔ WQ-424 (10/23) · ⛔ WQ-423 (10/23)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
