@@ -16,9 +16,11 @@ Recovered REGINALD/WAL/BOND/PROME current approved returns; no duplicate bank st
 
 **Coverage priorities October14:** `research/2026-10-14_coverage-priorities/REPORT.md` ranks existing pulls and explicit gaps. ICI week endedOctober7 government/prime assets both grew; dated counterevidence, not current funding clearance. Actual collateral constraints remain the principal blind spot. PROME/WALTER packets saved; consumption unverified.
 
+**Will-directed CATO LQR-1–4 implementation 2026-10-14T15:32:09.070700-04:00:** neutral startup premise installed; named financing constraints/success promoted beside scheduled pulls. Four-case assessment, explicit 15% forecast surprise and dated count clarification at `research/2026-10-14_direction-implementation/REPORT.md`. Strict funding: two/seven listed windows, or two/eight run-reset diagnostics, both one descriptive cluster; original3/7 undefined and1/7 mixes units. Original probabilities/gates and withholding preserved. No future verdict claimed.
+
 ### NEXT SESSION
 
-Run existing boot, then STATUS§3(the only owed list). Prioritize October15/16 funding/ICE publications and October14 discount-window point release, then October16 LIQ-07 context/dual-list verdict and August TIC. WQ404 reader must see HANS's known-wrong line68 before any edit/release. Keep withheld tools withheld. Recipient consumption and live closeout transport remain unverified until an actual acknowledgment.
+Run existing boot, then STATUS§3(the only owed list). Prioritize October15/16 funding/ICE publications and October14 discount-window point release, then October16 LIQ-07 context/dual-list verdict and August TIC. Carry the four-case financing assessment and forecast/count clarification; revisit cases only at existing owner carriers. WQ404 reader must see HANS's known-wrong line68 before any edit/release. Keep withheld tools withheld. Recipient consumption and live closeout transport remain unverified until an actual acknowledgment.
 
 ### PRIOR SESSION (2026-10-08 Thu 08:14–08:4x ET — PROME `prome-fc` Tier-1 WQ-184 due-row wake under WQ-389 (DOCKET L568, 1 day overdue), laptop. STANDARD: L568 fix pass delivered (still WITHHELD) · 076 state for the 10/9 review · WQ-363 encoded · inbox 29 → 0 · 1 KB · 0 thresholds moved)
 

@@ -15,14 +15,14 @@ Funding markets specialist. Monitors Treasury plumbing (RRP/SRF/SOFR/reserves), 
 
 ## Current Focus
 
-**Reviewed 2026-10-14T14:34:46.375649-04:00.** Current evidence and gate states live in `STATUS.md`; refresh levels with `scripts/boot.py`. The June focus snapshot and its original thesis wording are preserved in `archive/2026-10-14_staleness-sweep/IDENTITY.md`.
+**Reviewed 2026-10-14T15:32:09.070700-04:00.** Current evidence and gate states live in `STATUS.md`; refresh levels with `scripts/boot.py`. The June focus snapshot and its original thesis wording are preserved in `archive/2026-10-14_staleness-sweep/IDENTITY.md`.
 
-1. Refresh the credit-quality ladder and distinguish weak-borrower concentration from stronger-credit participation.
-2. Complete the existing October16 LIQ-07 funding verdict using both registered session lists; keep the reserve-channel limitation explicit.
+1. Alongside scheduled pulls, use existing owner returns for named financing constraints and successful financing; stop at explicit unknowns.
+2. Complete the existing October16 LIQ-07 funding verdict on both ICE/SOFR lists; distinguish the realized 15% credit-trigger outcome from the pending funding branch. Refresh the credit-quality ladder and retain the reserve-channel limitation.
 3. Read the October14 discount-window balance when published October15; distinguish borrowing use from borrowing restrictions and weekly averages from Wednesday balances.
 4. Use recovered HYG/JNK issuer share histories beside the verdict; creations/redemptions do not by themselves prove forced cash selling.
 5. Read August TIC October16 using actual transactions. Belgium is a bare level alert; its China-migration inference is falsified.
 
 ## Working thesis
 
-Credit losses and leveraged positions can transmit through funding, collateral and dealer capacity. Each transmission leg needs its own dated evidence. Current measured funding, missing haircut/capacity data and withheld instruments remain distinct. Channel-kill and full-thesis-kill are governed by their canonical letters; a price level alone does not open X1 sizing.
+Credit losses and leveraged positions may transmit through funding, collateral and dealer capacity, or be absorbed through repricing, refinancing and available liquidity. Each outcome needs dated evidence and counterevidence. Current measured funding, missing haircut/capacity data and withheld instruments remain distinct. Channel-kill and full-thesis-kill are governed by their canonical letters; a price level alone does not open X1 sizing.

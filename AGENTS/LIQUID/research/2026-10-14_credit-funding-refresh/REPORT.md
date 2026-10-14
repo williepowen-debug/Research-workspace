@@ -61,6 +61,8 @@ ETF official sources: [BlackRock product/download](https://www.ishares.com/us/pr
 
 ## October16 LIQ-07 verdict prepared from the frozen letter
 
+**October14 direction update:** The low-probability credit-trigger outcome (original P(S1 or S2)=15%) occurred September30; the original P(S4)=70% branch was eliminated. Detector usefulness does not validate its probability estimate, and one outcome does not establish general miscalibration. Only the funding branch awaits October16. Historical window/cluster counts are clarified in `../2026-10-14_direction-implementation/LIQ07-count-clarification.md`; no retrospective re-registration.
+
 Canonical letter: `reports/2026-09-25_Q2_first-observation-of-spreading.md` §3. No threshold, branch, probability or date amendment. Trigger remains September30 (B15 changes32/40/36bp September28–30; CCC≥0 all3). Trigger condition subsequently held11 of12 published observations since September28, with October6 the sole break;5 consecutive through October13. Its break does not undo the first-event trigger.
 
 | Session list | Published look-forward through October13 | Tenth observation endpoint | Read requirement |
@@ -70,7 +72,7 @@ Canonical letter: `reports/2026-09-25_Q2_first-observation-of-spreading.md` §3.
 
 Lookback on both lists begins September16. Apply `sofr_dispersion.py` z≥4 on its non-quarter-end dates, GATE079 ARM on its registered noncalendar consecutive dates, and SRF≥$50B. Verify all dates/inputs; absent observations are pending/unmeasured, never no-fire. If an October15-only funding event makes branches differ across lists, report **AMBIGUOUS-BY-SESSION-LIST** to PROME; do not choose the favorable list. If all3 legs remain absent on both completed lists, S2 is the registered answer. Preserve RED's caveat: the instruments establish no reserve-channel loop, not absence of redemption, term-collateral, offshore or entity-specific loops. Prediction remains OPEN until that branch can be honestly adjudicated; existing Resolve_By November10 is unchanged.
 
-Beside final grade: refresh both ETF share histories through the verdict window, CP matched dates, WLCFLPCL October14 point when released October15 ~16:30ET, and existing bank-owner Q3 cash-loss/funding bridges. These context rows do not become new LIQ-07 legs. August TIC October16 remains separately owed; no invented current foreign flows.
+Beside final grade: carry the bounded named financing assessment in `../2026-10-14_direction-implementation/financing-assessment.md`, including successful financing and unknown current cash/collateral terms; refresh it only on existing owner carriers. Refresh both ETF share histories through the verdict window, CP matched dates, WLCFLPCL October14 point when released October15 ~16:30ET, and existing bank-owner Q3 cash-loss/funding bridges. These context rows do not become new LIQ-07 legs. August TIC October16 remains separately owed; no invented current foreign flows.
 
 ## Counterevidence and decision implications
 

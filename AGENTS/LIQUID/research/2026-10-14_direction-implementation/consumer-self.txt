@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 139 files under AGENTS/LIQUID/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── LIQ-07 mixed window/cluster count · superseded funding legs met 1/7 → current two qualifying windows
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2)  [--show-handled to audit]
+
+  ✓ clean — no surface under AGENTS/LIQUID/ carries the superseded value unqualified. (Scanned the whole dir, not just STATUS/THESIS.)
+==================================================================
+

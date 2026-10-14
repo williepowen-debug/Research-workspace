@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/LIQUID/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── LIQ-07 mixed window/cluster count · superseded funding legs met 1/7 → current two qualifying windows
+     ✓ no consumer carries a superseded value.
+
+  ✓ clean — every consumer is current or has it flagged superseded.
+==================================================================
+

@@ -1,0 +1,141 @@
+{
+  "checks": [
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/CLAUDE.md",
+      "pass": true
+    },
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/IDENTITY.md",
+      "pass": true
+    },
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/STATUS.md",
+      "pass": true
+    },
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/MEMORY.md",
+      "pass": true
+    },
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/reports/2026-09-25_Q2_first-observation-of-spreading.md",
+      "pass": true
+    },
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/workbook/PREDICTIONS.tsv",
+      "pass": true
+    },
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/research/2026-10-14_coverage-priorities/REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "Exact archived bytes AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "Protected hash AGENTS/LIQUID/scripts/usd_swapline.py",
+      "pass": true
+    },
+    {
+      "check": "Protected hash AGENTS/LIQUID/analysis/2026-10-08_usd-swapline-LETTER.md",
+      "pass": true
+    },
+    {
+      "check": "Protected hash AGENTS/LIQUID/scripts/sofr_dispersion.py",
+      "pass": true
+    },
+    {
+      "check": "Protected hash AGENTS/LIQUID/scripts/transmission_check.py",
+      "pass": true
+    },
+    {
+      "check": "Protected hash AGENTS/LIQUID/workbook/FUNDING_SEIZURE_GATE_SCOPED.md",
+      "pass": true
+    },
+    {
+      "check": "Protected hash AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "pass": true
+    },
+    {
+      "check": "Protected hash AGENTS/LIQUID/CALENDAR.md",
+      "pass": true
+    },
+    {
+      "check": "Original letter unchanged after new notice",
+      "pass": true
+    },
+    {
+      "check": "Prediction row count unchanged",
+      "pass": true
+    },
+    {
+      "check": "Other prediction row unchanged Pred_ID",
+      "pass": true
+    },
+    {
+      "check": "Other prediction row unchanged LIQ-01",
+      "pass": true
+    },
+    {
+      "check": "Other prediction row unchanged LIQ-02",
+      "pass": true
+    },
+    {
+      "check": "Other prediction row unchanged LIQ-03",
+      "pass": true
+    },
+    {
+      "check": "Other prediction row unchanged LIQ-04",
+      "pass": true
+    },
+    {
+      "check": "Other prediction row unchanged LIQ-05",
+      "pass": true
+    },
+    {
+      "check": "Other prediction row unchanged LIQ-06",
+      "pass": true
+    },
+    {
+      "check": "LIQ07 first eight fields unchanged",
+      "pass": true
+    },
+    {
+      "check": "Charter instructions outside IDENTITY unchanged",
+      "pass": true
+    },
+    {
+      "check": "Five gate rows exactly preserved",
+      "pass": true
+    },
+    {
+      "check": "STATUS under250lines and70pct budget",
+      "pass": true
+    },
+    {
+      "check": "Startup neutral",
+      "pass": true
+    },
+    {
+      "check": "Listed dates both calendars support same two positives",
+      "pass": true
+    },
+    {
+      "check": "Run-reset diagnostic explicit8, March28 included",
+      "pass": true
+    },
+    {
+      "check": "Current evidence frontier retained",
+      "pass": true
+    }
+  ],
+  "pass_count": 32,
+  "scope": "Documentation invariants and bounded saved-data replay, not source certification or future verdict",
+  "status_bytes": 22763,
+  "existing_boot_selftest": "PASS: no live network input or withheld tool used",
+  "weekday_check": "PASS: six existing fleet/owner date surfaces",
+  "read_cap": "PASS within existing heuristic; charter measured26919B, STATUS22763B; no injection/perimeter certification",
+  "consumer_check": "PASS: specific mixed-unit phrase; preserved archives excluded from live scan",
+  "diff_check": "PASS",
+  "completion_matches_packet": true
+}

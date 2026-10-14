@@ -1,3 +1,5 @@
+> **DATED CLARIFICATION — October14,2026:** The original registered text and October1 erratum are preserved below. Historical “around 3 of 7” is undefined and is not reusable as a strict S1 rate; the ledger’s “1/7” mixes clusters and windows. The bounded replay finds two qualifying windows among the seven listed triggers, both in one October–November2025 cluster. Read [forecast/count clarification](../research/2026-10-14_direction-implementation/LIQ07-count-clarification.md) before reuse. The original 15% credit-trigger outcome occurred September30; only its funding branch remains pending. No probability, threshold, branch, window or invalidation changed.
+
 # Q2 — What is the first observation that would convince us stress is spreading? (LIQUID, lead)
 
 **Asked by:** Will 02:55 ET 9/25, relayed by PROME (`inbox/processed/2026-09-25_from-PROME_will-directed-six-questions-LIQUID.md`, `c29e4ca60`; DOCKET L477).

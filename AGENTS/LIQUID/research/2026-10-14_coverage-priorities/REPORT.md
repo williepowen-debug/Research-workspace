@@ -1,5 +1,7 @@
 # LIQUID point of view and coverage priorities — October14
 
+**Priority revision 2026-10-14T15:32:09.070700-04:00:** Will-directed CATO review implemented. Named financing evidence now sits alongside scheduled pulls, ahead of discretionary source recovery. Original table preserved in the direction-implementation archive. Forecast/count clarification → `../2026-10-14_direction-implementation/LIQ07-count-clarification.md`.
+
 Read time 2026-10-14T14:51:35.193531-04:00; same Will-launched sole-writer Codex session01a13b8c-ebf0-74c0-a1c3-5ae79550bd06. Existing desk scope; no new standing monitor, threshold, agent, spending or trade. Fresh transmission recheck still endsOctober13 with the same ladder/funding observations as the earlier evidence return.
 
 ## Current point of view
@@ -13,12 +15,12 @@ The principal question is whether asset/borrower deterioration is creating actua
 | Priority / timing | Existing input or source check | What changes the judgment |
 |---|---|---|
 | First,October15–16 | Published credit ladder, date-matched SOFR percentiles/IORB,SRF; complete bothLIQ07 lists | Whether stronger-credit widening persists and an existing funding accompaniment actually appears |
+| Alongside scheduled pulls; first discretionary priority | Named facility terms, actual cash/collateral constraints **and successful financing**, from existing BROCK/REGINALD/WAL/SHADE returns | Four bounded cases completed October14; extend only at existing carriers. See `../2026-10-14_direction-implementation/financing-assessment.md`; private certificates and retained shares remain explicit unknowns |
 | First,October15~16:30ET | H.4.1 October14 primary-credit Wednesday point; reserves/TGA averages and points separately | Whether elevated window borrowing persists while measured overnight rates stay calm; does not name borrowers |
 | First,through verdict window | HYG/JNK issuer shares outstanding, matched dates | Whether recent contractions become sustained across both funds; no automatic cash-sale inference |
 | Next existing weekly funding refresh | NY Fed primary-dealer corporate/Treasury inventory and UST fails; recover CFTC public-source access before claiming fresh conjunction | Warehousing/deleveraging/settlement pressure that aggregate median repo can miss; do not confuse IG inventory with overall balance-sheet capacity |
 | Next existing microstructure work | ICI government/prime/institutional asset mix; SEC N-MFP portfolio maturity/liquidity data | Whether liquidity suppliers become defensive or shorten lending; asset totals alone cannot give WAM |
 | Bounded source recovery | DTCC public sponsored-membership and Treasury-fails pages | Test a reachable publisher source for the existing gaps. Pages exist, but numeric chart payload/history not yet recovered; no new grade or proxy substitution |
-| With current owner Q3 returns | Named borrowing-base cuts,higher haircuts,shorter tenor,covenant changes,unrestricted cash,facility draws and actual forced sales | The most direct bridge from borrower/property loss to funding constraints; reuse REGINALD/WAL/BROCK/SHADE owners, not parallel studies |
 | October16 | August TIC country transactions/holder split | Foreign actual purchases/sales; level change alone is not a flow |
 
 These are existing obligations/source checks within the desk mandate, not a proposal for an automatic monitoring system. Quantitative gates/criteria remain their existing letters.

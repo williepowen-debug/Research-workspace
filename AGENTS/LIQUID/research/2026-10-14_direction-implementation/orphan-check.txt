@@ -1,0 +1,50 @@
+⚠️  uncommitted files outside AGENTS/LIQUID/:
+     [likely YOURS] PROME/inbox/2026-10-14_from-LIQUID_CATO-direction-implemented.md
+     [not yours]    AGENTS/BOND/NEXUS_BRIEF.md
+     [not yours]    AGENTS/BOND/RECEIPT.md
+     [not yours]    AGENTS/BOND/SCRATCH.md
+     [not yours]    AGENTS/BOND/STATUS.md
+     [not yours]    AGENTS/BOND/TRADE.md
+     [not yours]    AGENTS/BOND/analysis/2026-10-14_transition-audit/
+     [not yours]    AGENTS/BOND/registry/CLOSEOUT_LOG.tsv
+     [not yours]    AGENTS/BOND/registry/closeout_runs/2026-10-14.transcript.md
+     [not yours]    AGENTS/BOND/thesis/CHANGELOG.md
+     [not yours]    AGENTS/BOND/thesis/THESIS.md
+     [not yours]    AGENTS/BOND/workbook/FLOW.tsv
+     [not yours]    AGENTS/BOND/workbook/KB.tsv
+     [not yours]    AGENTS/DEWEY/output/2026-10-14_nano-banc-pa-publication-check.md
+     [not yours]    AGENTS/DEWEY/output/INDEX.tsv
+     [not yours]    AGENTS/VIOLET/MEMORY.md
+     [not yours]    AGENTS/VIOLET/SCRATCH.md
+     [not yours]    AGENTS/VIOLET/STATUS.md
+     [not yours]    AGENTS/VIOLET/artifacts/violet_operating_picture.html
+     [not yours]    AGENTS/VIOLET/artifacts/vol_cheatsheet.html
+     [not yours]    AGENTS/VIOLET/research/2026-10-14_data-refresh/
+     [not yours]    AGENTS/VIOLET/workbook/CHEAP_TAIL.tsv
+     [not yours]    AGENTS/VIOLET/workbook/COT_VIX.tsv
+     [not yours]    AGENTS/VIOLET/workbook/IMPLIED_CORR.tsv
+     [not yours]    AGENTS/VIOLET/workbook/JPY_VOL.tsv
+     [not yours]    AGENTS/VIOLET/workbook/KB.tsv
+     [not yours]    AGENTS/VIOLET/workbook/OVX.tsv
+     [not yours]    AGENTS/VIOLET/workbook/VIX_OPTIONS.tsv
+     [not yours]    AGENTS/VIOLET/workbook/VX_DAILY.tsv
+     [not yours]    AGENTS/WALTER/LAST_COMPLETION.md
+     [not yours]    AGENTS/WALTER/REGISTRY.tsv
+     [not yours]    AGENTS/WALTER/SESSION_LOG.md
+     [not yours]    AGENTS/WALTER/STATUS.md
+     [not yours]    AGENTS/WALTER/inbox/DEWEY/processed/2026-10-14_ports-pike-power_handoff.md
+     [not yours]    AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv
+     [not yours]    AGENTS/WALTER/registry/x_bookmarks_pending.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-14_resume-1449/
+     [not yours]    PROME/inbox/2026-10-14_from-BOND_transition-workbook-maintenance.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "LIQUID -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

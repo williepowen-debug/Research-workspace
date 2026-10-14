@@ -1,0 +1,131 @@
+{
+  "captured_at": "2026-10-14T15:35:13.465094-04:00",
+  "sources": [
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/FSK_cash_collateral_lenders.md",
+      "sha256": "4cbfcec0708c9538028c2a2ae0ce6a8da399e76da18a27317c210b34b97d13d3",
+      "bytes": 7185,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "0762d9eb7 BROCK: read bank Q3 attribution, recover FSK collateral and lender terms, prepare CRMT October15",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_bridge.json",
+      "sha256": "2678e35b4ea8efe38ca809376948b7f30a2ae570b73aafb16678a1f84e88b830",
+      "bytes": 12074,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "0762d9eb7 BROCK: read bank Q3 attribution, recover FSK collateral and lender terms, prepare CRMT October15",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_advance_rate_table.txt",
+      "sha256": "50f23b112514bee7a310677509e115ff4db40004da19e80d3883fac26c1705dc",
+      "bytes": 1661,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "0762d9eb7 BROCK: read bank Q3 attribution, recover FSK collateral and lender terms, prepare CRMT October15",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/fsk_borrowing_base_extract.txt",
+      "sha256": "04d0a13b007821b4060402119034c9a8cbe23a02abbe90f1dd7e4196b9c4b213",
+      "bytes": 24233,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "0762d9eb7 BROCK: read bank Q3 attribution, recover FSK collateral and lender terms, prepare CRMT October15",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-14_wave/CRMT_Oct15_checkpoint.md",
+      "sha256": "65e939d306f7072d6eabedd16b46350798fde0ce28dcc3b6d6699f68cc17b6d7",
+      "bytes": 5359,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "0762d9eb7 BROCK: read bank Q3 attribution, recover FSK collateral and lender terms, prepare CRMT October15",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/REGINALD/reports/2026-10-14_compound-bank-risk-synthesis.md",
+      "sha256": "ff0352896471d50beb3750704b395a5bb466596c690801c522261d5df5033c7f",
+      "bytes": 24245,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "1336a5560 REGINALD: trace combined bank credit, funding and nonbank risks",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/REGINALD/reports/2026-10-11_FHLB_insurer-channel_handoffs.md",
+      "sha256": "f07909a5de1c32d48d9ef5a249fc31651fb2dd40deae0c7a394a91db41805e8f",
+      "bytes": 8556,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "9451933aa REGINALD (orch): WQ419 insurer handoffs and CFG note -> SHADE, BROCK, PROME",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/SHADE/research/GAP_INVESTIGATION_2026-10-12.md",
+      "sha256": "26578144fb5ff1791ba2f357aba6ac52a5a0082901b9e9851b3ea329b366fd9d",
+      "bytes": 23354,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "4e6ebbb83 SHADE: reconcile consequential primary gaps; retain evidence limits (no live ledgers)",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/WAL/research/2026-10-14_Q3-earnings-quality-credit-read.md",
+      "sha256": "c639b18b8cdbcc4ee4c7fa28a5b4baad083fa9c5c13362127db9fa26e6995eb9",
+      "bytes": 8391,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "7d3c97d25 WAL -> PROME: connect FFIEC findings to earnings preparation",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/WAL/outbox/2026-10-14_to-OZK_executed-extension-integrated.md",
+      "sha256": "47244999f54e2deeb4415d53e8c64ebe49518f34b309ef39fe5a1b393f60472e",
+      "bytes": 672,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "e2e2986f4 WAL: reconcile runtime, holdings, peer evidence and housekeeping state",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12/FDIC_FLNG_12019_8K.txt",
+      "sha256": "1bcb26971b9f7151cf89a8610676a784572aefbce81215a7ef5d17c37a6f0bd3",
+      "bytes": 6490,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "cf75f1df8 OZK: establish L635 executed RaDD extension and preserve recognition guard",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12/SOURCE_RECEIPT.md",
+      "sha256": "e0476dc74aaf60d1e3ae5dd833a08850ec307a112bd6d66a424abd49ea6836ea",
+      "bytes": 1472,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "cf75f1df8 OZK: establish L635 executed RaDD extension and preserve recognition guard",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "AGENTS/CATO/runs/2026-10-14_1504_liquid-direction-review.md",
+      "sha256": "39417a6f065954e5799a40c6c64ba7bf803ee5bd4d5a059ad183f05a8266dfcd",
+      "bytes": 9769,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "31e35935b CATO: review LIQUID evidence and recommend focused follow-through",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    },
+    {
+      "path": "PROME/research/2026-10-14_compound-stress/synthesis.json",
+      "sha256": "9542101224b44a05d3fe70e777cc42d820faa45e33b99eae7ece1e38a42c39fb",
+      "bytes": 9460,
+      "matches_HEAD_blob": true,
+      "latest_path_commit": "5fbf68060 PROME -> research desks: integrate broader financial stress investigation",
+      "basis": "Owner evidence reused with its source dates; hash identifies captured version; not independent current source certification"
+    }
+  ],
+  "fresh_web_reads": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006538/f8k_100826.htm",
+      "result": "SUCCESS: October8 terms reopened, not a current issuer-feed census"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026033118/exhibit101fskkr-amendmentn.htm",
+      "result": "Reader size-limit failure; saved owner primary extracts used"
+    },
+    {
+      "url": "https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/12019/attachment/1",
+      "result": "Reader access failure; full saved primary text and OZK source/hash receipt used"
+    }
+  ]
+}
