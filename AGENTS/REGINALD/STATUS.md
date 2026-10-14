@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Will-requested December probabilities,10/14:** `reports/2026-10-14_WAL_December_outcome_probabilities.md`,KB230. First subjective Dec18-close mark,not measured prior reduction or WAL-owner re-mark;bounds/limits and premium distinction in report. Fresh14:59ET WAL/chain snapshot saved;existing Q3 checks/frames unchanged.
+**Will-requested December probabilities,10/14:** `reports/2026-10-14_WAL_December_outcome_probabilities.md`,KB230. Closed at Will’s request;first subjective Dec18-close mark,not measured prior reduction or WAL-owner re-mark;bounds/limits and premium distinction in report. Fresh14:59ET WAL/chain snapshot saved;existing Q3 checks/frames unchanged.
 **Will-selected WAL earnings test,10/14:** `reports/2026-10-14_WAL_2027_earnings-path-test.md`,KB228–229. Public ~$11 FY27 EPS plausible;least verified link is net funding-cost relief/expense control converting growth to profit. Conditional reverse budget,not analyst components or new forecast. Mortgage/credit normalization counterevidence retained;existing10/19–20 outcomes PENDING,owner frames unchanged. WAL owner review read:four scenarios/decisive primaries agree;borrower attribution and remaining bank-parent mortgage/cost/persistence questions open. Proposals unstarted.
 **Bank/ETF tape,10/14 ~12:55ET retrieval:** quotes12:37–40ET,delayed/intraday; `reports/2026-10-14_bank-and-ETF-intraday-comparison.md`. Tracked regionals14/14 down,median−1.23%;KRE−0.61% vsKBWB−1.87%,SPY−1.03%,IWM−1.78%. BAC−5.24%/MS−3.19%,JPM+1.06%;WAL−2.44%/CUBI−2.01% weakest tracked. Weighting/single-name dispersion,not proven credit attribution;no new gate/score/trade. KB227.
 **Mid-session counterevidence,10/14:** WALTER004/BAC issuer credit table: Q3 NCO$1.349B vsQ2$1.412B,0.44% vs0.47%;provision$1.269B/reserve release$80M. Regulatory settlement is expense,not credit loss. Weighs against broad borrower-loss acceleration,does not clear regional CRE/NDFI. WALTER006 Redfin Miami model INFO_ONLY;no bank-loss attribution. Read/source limits→noon receipt;original Q3 rules unchanged.
@@ -8,7 +8,7 @@
 **Approved bounded securities/funding screen,10/13:** `reports/2026-10-13_bounded-securities-funding-screen.md`;28 fresh Call Reports,14 matched bank equity denominators,11 duration disclosures. No20%-equity case under hypothetical60bp/D5; net exposures/Q3 outcomes unknown. AMTB/SBCF book-risk context; BKU duration counterevidence. Funding qualifiers retained; no specialist/TERRY launch, score or frozen-frame change. KB220–222.
 *Accepted October12–13 research/method/closeout carry blocks rotated verbatim → `archive/STATUS_securities-screen_rotation_2026-10-13.md`, crc32 `0e3cf992`. Existing Q3 expectations/outcomes and bank-research standard remain binding via MEMORY; research conclusions remain at their linked reports.*
 *OZK continuation + 10/11 WQ-419/WQ-414 prior-session record rotated verbatim for read-cap headroom → `archive/STATUS_rotation_2026-10-12.md` BLOCK T34, crc32 `6c8c5d6c`. Live obligations remain in MEMORY/CALENDAR; current RaDD overlay is in the policy/CRE review above.*
-**Last Updated:** 2026-10-14 Wed, Will-requested December outcome probabilities;WAL quote/chain retrieved14:59:49ET,quote stamp14:59:40ET/vendor delay20min;quote timing limit retained. First analytical probability mark→report/KB230;owner forecasts unchanged. Earlier bank/ETF12:37–40ET,noon macro and settled WAL/FLG/FRED through10/13 remain dated.
+**Last Updated:** 2026-10-14 Wed, session closed at Will’s request;December outcome probabilities saved;WAL quote/chain retrieved14:59:49ET,quote stamp14:59:40ET/vendor delay20min;quote timing limit retained. First analytical probability mark→report/KB230;owner forecasts unchanged. Earlier bank/ETF12:37–40ET,noon macro and settled WAL/FLG/FRED through10/13 remain dated.
 
 > **Thesis state:** STATUS is thesis-canonical (THESIS retired 8/13). Older carry blocks → `archive/STATUS_rotation_2026-09-02.md` BLOCK N and `archive/STATUS_rotation_2026-09-24b.md`.
 
@@ -57,7 +57,7 @@
 
 ## KEY CATALYSTS
 
-*Dates are OWNED by `CALENDAR.md` (earnings dates in its Q3-2026 BANK EARNINGS DATES table, which `scripts/earnings_countdown.py` reads; CUBI + FLG still NOT ANNOUNCED). Read plan → `reports/2026-10-09_Q3_earnings_read_plan.md`. Next: Nano P&A re-check Tue 10/13 · H.4.1 Thu 10/15 / H.8 Fri 10/16 · CFG Fri 10/16 · `REG-T-06` Q3 ~10/29 (est.) · JWT 11/05 · Call Report retrieval 11/07. The prior mirror list → BLOCK T25, crc32 `2288fccd`.*
+*Dates are OWNED by `CALENDAR.md` (earnings dates in its Q3-2026 BANK EARNINGS DATES table, which `scripts/earnings_countdown.py` reads; CUBI + FLG still NOT ANNOUNCED). Read plan → `reports/2026-10-09_Q3_earnings_read_plan.md`. Next: Nano P&A re-check Tue 10/20 · H.4.1 Thu 10/15 / H.8 Fri 10/16 · CFG Fri 10/16 · `REG-T-06` Q3 ~10/29 (est.) · JWT 11/05 · Call Report retrieval 11/07. The prior mirror list → BLOCK T25, crc32 `2288fccd`.*
 
 ---
 

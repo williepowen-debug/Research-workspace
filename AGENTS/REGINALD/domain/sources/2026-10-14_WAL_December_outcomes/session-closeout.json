@@ -1,0 +1,165 @@
+{
+  "closed_at_request": "Will: Okay lets close out REGINALD here",
+  "recorded_ET": "2026-10-14T15:46:14.890888-04:00",
+  "result": "Completed earnings-path test,independent WAL review,and user-requested December subjective first mark retained. No new research or position decision.",
+  "completed_reports": [
+    "reports/2026-10-14_bank-and-ETF-intraday-comparison.md",
+    "reports/2026-10-14_WAL_2027_earnings-path-test.md",
+    "reports/2026-10-14_WAL_December_outcome_probabilities.md"
+  ],
+  "late_packets_read": [
+    {
+      "path": "inbox/2026-10-14_from-BROCK_matched-Medallia-correction.md",
+      "sha256": "d5a79c6270a0bf599805b297a1bf138bde2ec88448deb9504df5eb9a54abe002"
+    },
+    {
+      "path": "inbox/2026-10-14_from-DEWEY_nano-pa-document-boundary.md",
+      "sha256": "1645b2cf191e6bfbb1ff0f2750c7d49b23534565f9b9090b07c8a36d955c74b0"
+    }
+  ],
+  "full_owner_reports_read": [
+    {
+      "path": "../BROCK/research/2026-10-14_corrections/Medallia.md",
+      "sha256": "55e18d11cc5332105181bc370a0946ffc38e787e0b01ccb18dc50997e14902e3"
+    },
+    {
+      "path": "../DEWEY/output/2026-10-14_nano-banc-pa-publication-check.md",
+      "sha256": "533d114b447b4238232a013ea89d265c20fb736590fbcac6d27033f298bf0893"
+    }
+  ],
+  "source_scope": "Owner-sourced reports read;no fresh primary validation at closeout. No acknowledgment-only outbound send. Packet sender owns publication;never commit sender-authored inbox files.",
+  "late_dispositions": "Medallia current matched-date/tranche caveat added to canonical owner-pointer notes;Nano actual public schedule availability qualifies CALENDAR/MEMORY/ROADMAP. ExistingOctober20 andOctober27 dates retained. Full investigation deferred,no new monitor.",
+  "checks": {
+    "readcap": "READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=REGINALD reads=12 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=45337",
+    "weekday": "CLAIM-CHECK \u2713 2 file(s) clean [weekday]",
+    "corrections": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for REGINALD (register 76 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 22) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)"
+  },
+  "workbook_schema": [
+    {
+      "file": "workbook/ACL_ROLLFORWARD_COHORT.tsv",
+      "columns": 10,
+      "rows_including_header": 169,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/CRE_RCN_COHORT.tsv",
+      "columns": 36,
+      "rows_including_header": 71,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/DARKPOOL.tsv",
+      "columns": 7,
+      "rows_including_header": 35,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/SHORT_VOL.tsv",
+      "columns": 5,
+      "rows_including_header": 451,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "columns": 15,
+      "rows_including_header": 228,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/SHORT_INTEREST.tsv",
+      "columns": 6,
+      "rows_including_header": 81,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/AOCI_COHORT_2026Q2.tsv",
+      "columns": 18,
+      "rows_including_header": 15,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/MI3_COHORT.tsv",
+      "columns": 25,
+      "rows_including_header": 169,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/VX.tsv",
+      "columns": 13,
+      "rows_including_header": 63,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/PREDICTIONS.tsv",
+      "columns": 10,
+      "rows_including_header": 21,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+      "columns": 43,
+      "rows_including_header": 22,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/RUNWAY_COHORT.tsv",
+      "columns": 10,
+      "rows_including_header": 169,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/NDFI_COHORT.tsv",
+      "columns": 20,
+      "rows_including_header": 27,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/FUNDING_COHORT_2026Q2.tsv",
+      "columns": 25,
+      "rows_including_header": 31,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/FLOW.tsv",
+      "columns": 11,
+      "rows_including_header": 22,
+      "schema": "PASS"
+    },
+    {
+      "file": "workbook/OPTIONS_OI.tsv",
+      "columns": 9,
+      "rows_including_header": 18,
+      "schema": "PASS"
+    }
+  ],
+  "KB_IDs": "PASS unique",
+  "scratch_archive_CRC32": "6c22bdc8",
+  "research_retirement": "Three >60d candidates retained:CCC/HY is explicitly protected live definition;CRE_DQ_BY_TIER andCOHORT_NCO_DECOMP supply ongoing June CRE/concentration/HypA baselines and remain referenced through live STATUS/archive/index lineage. No new eligible retirement created by closing this session.",
+  "positions_frames_predictions": "UNCHANGED;no new broker action,eligible outcome or canonical owner probability change. First analytical probabilities remain separate from frozen scoring.",
+  "derived_surfaces": "STATUS/MEMORY/ROADMAP/CALENDAR and owner-pointer notes updated;SCRATCH stale dated block archived verbatim;POSITIONS/DECK consciously skipped,no new source event;NEXUS last fold after finalSTATUScommit.",
+  "git": "Exact authored owned paths only;shared index has peer-authored inbox work,excluded. No pull/rebase/stash while other desks dirty;ff safe-push only.",
+  "next_existing_work": "October15 H4.1/October16 H8+CFG;WAL October19release/October20call/later10Q;Nano October20scheduledread withpublic-schedule limits. Preserve original expectations and December first mark.",
+  "WALTER_pending": [],
+  "ordinary_inbox_awareness": [
+    "inbox/2026-10-14_from-BROCK_Q3-FSK-evidence-return.md",
+    "inbox/2026-10-12_from-PROME_APPROVED-opportunity-discovery-pass.md",
+    "inbox/2026-10-14_from-BROCK_matched-Medallia-correction.md",
+    "inbox/2026-10-14_from-WAL_FFIEC-history-primary.md",
+    "inbox/2026-10-13_from-WAL_Q2-hedges-rate-model-source-supplement.md",
+    "inbox/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+    "inbox/2026-10-12_from-CARL_SoFi-Q2-transfer-risk-supplement.md",
+    "inbox/2026-10-12_from-WATT_IRAS-core-rejected-WATT10-MISS.md",
+    "inbox/2026-10-12_from-CARL_fintech-consumer-feed-definition-and-Q2-seed.md",
+    "inbox/2026-10-13_from-PROME_Will-directed-WAL-rate-funding-reconciliation.md",
+    "inbox/2026-10-14_from-BROCK_BRK31-wave-coordination.md",
+    "inbox/2026-10-14_from-WAL_Nano-bid-summary-integrated.md",
+    "inbox/2026-10-14_from-DEWEY_nano-pa-document-boundary.md",
+    "inbox/2026-10-12_from-OZK_wrap-up-consumer-handoff.md",
+    "inbox/2026-10-14_from-WAL_Ontario-primary-and-earnings-bridge.md",
+    "inbox/2026-10-12_from-TERRY_L694-EGBN-feasibility.md",
+    "inbox/2026-10-12_from-DEWEY_cato-causal-wording-consumption.md",
+    "inbox/2026-10-12_from-PROME_Will-approved-morning-regional-bank-tape.md",
+    "inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "inbox/2026-10-14_from-PROME_compound-stress-evidence.json"
+  ]
+}
