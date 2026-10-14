@@ -203,7 +203,7 @@ Vecchione's "stable asset quality" narrative skips both the all-loans leading bu
 **Why this fires Bucket B1:**
 - Pass → substandard in a single quarter. Confirms rating-quality concern (RED M5 family).
 - Sponsor strategic-default, not credit deterioration — borrower elected not to repay a performing loan.
-- **Same mechanic as IQHQ (OZK RaDD).** Two Class-A life-science strategic defaults across watchlist in 6 months = sector signal. ⛔ **DATE CORRECTED 2026-08-28: the Aug-2026 date is the MATURITY, not the disclosure.** Per OZK's own read the modal August outcome is **silence** (no earnings print in the window; mgmt 7/22 guided *"~92 days"*), so the carrying instrument is **OZK's Q3 call ~Oct 2026**, with an 8-K the only in-window escape hatch. **August passing quietly is a NO-VERDICT, not a disconfirmation** — full instrumentation + scope fence in `STATUS.md` §EXPECTED SIGNALS.
+- **Historical August28 peer-carrier expectation (superseded October14 by the executed-extension evidence below):** **Same mechanic as IQHQ (OZK RaDD).** Two Class-A life-science strategic defaults across watchlist in 6 months = sector signal. ⛔ **DATE CORRECTED 2026-08-28: the Aug-2026 date is the MATURITY, not the disclosure.** Per OZK's own read the modal August outcome is **silence** (no earnings print in the window; mgmt 7/22 guided *"~92 days"*), so the carrying instrument is **OZK's Q3 call ~Oct 2026**, with an 8-K the only in-window escape hatch. **August passing quietly is a NO-VERDICT, not a disconfirmation** — full instrumentation + scope fence in `STATUS.md` §EXPECTED SIGNALS.
 - At 60% LGD, ~$60M Q2 charge-off = ~10bps annualized incremental on $58.2B avg loans. Q1 was 39bps; Q2 crosses 40bps before normal Q2 activity. **REG-25 near-locked.**
 - Small offset: $60M LOI early-May on different substandard at carrying value.
 
@@ -215,7 +215,7 @@ Three life-science distress events across cohorts in 6 months were captured in t
 |----------|------|-------------|-----------|------|
 | **WAL $99M** | Apr 2026 | bank loan | strategic walk-away on **PASS-graded** sponsor | V1 thesis-direct fire |
 | **KREF Boston** | Q1 2026 | mortgage REIT | **TAKING REO** on known-impaired credit (write-down) | ~$37M expected loss |
-| **OZK IQHQ** | Maturity Aug 2026; **resolution carried by OZK's Q3 call ~Oct 2026** (8-K = only in-window escape hatch) | bank loan | sponsor support test at MATURITY | ⛔ **peer-owned figure, NOT restated here** (seam rule): scenario tree + weighted EL live at `../OZK/IQHQ_PLAYBOOK.md` §3-4, **last verified 2026-08-28**. ⚠️ *This cell read "weighted EL ~$140M" until 8/28 — superseded by OZK's own Will-approved 7/23 reweight; a restated peer figure that went stale in exactly the way the seam rule exists to prevent.* |
+| **OZK IQHQ** | **Executed October9 extension; issuer disclosure October12.** Accounting/recognition remains OZK-owned; see dated October14 integration below | bank loan | sponsor support test at MATURITY | ⛔ **peer-owned figure, NOT restated here** (seam rule): scenario tree + weighted EL live at `../OZK/IQHQ_PLAYBOOK.md` §3-4, **last verified 2026-10-14** at the October12 owner report and saved issuer8-K. ⚠️ *This cell read "weighted EL ~$140M" until 8/28 — superseded by OZK's own Will-approved 7/23 reweight; a restated peer figure that went stale in exactly the way the seam rule exists to prevent.* |
 
 **KREF Boston is NOT a 3rd instance of the WAL B1 mechanism.** KREF is a mortgage REIT recognizing a previously-known impaired credit by taking REO — different position in capital stack, different recognition mechanism (mark-to-loss on collateral seized vs strategic-walk on previously-PASS-graded loan).
 
@@ -223,9 +223,10 @@ Three life-science distress events across cohorts in 6 months were captured in t
 
 **v2.5/v3 promotion requires** either:
 - (a) Another BANK loan with previously-pass-graded sponsor walking strategically, OR
-- (b) Same-mechanic event at OZK (IQHQ RaDD — sponsor-support test; **resolution ~Oct at OZK's Q3 call, not at the Aug maturity date**) or EGBN (Office concentration shares profile). ⛔ **Sponsor-behaviour signal ONLY — OZK's loss band does NOT transfer** (their $555M-funded construction campus at a maturity test vs WAL's completed building already on nonaccrual with the borrower current; same mechanic, different stage)
+- (b) Same-mechanic event at OZK (IQHQ RaDD — sponsor-support test; **execution now disclosed October12, accounting still pending**) or EGBN (Office concentration shares profile). ⛔ **Sponsor-behaviour signal ONLY — OZK's loss band does NOT transfer** (their construction campus at a maturity test (balance/terms → OZK owner report, October12; older$555M anchor is historical) vs WAL's completed building already on nonaccrual with the borrower current; same mechanic, different stage)
 
-OZK IQHQ resolution is carried by **OZK's Q3 call (~Oct 2026)** — the Aug date was the maturity, not the disclosure (corrected 8/28; the Aug window closed swept-and-empty 8/31). Pre-maturity sponsor walk on IQHQ = both (a) and (b) combined — would be a hard 2nd instance.
+**Dated evidence integration — October14, housekeeping only:** OZK's saved October12 issuer8-K (FDIC FLNG12019, Item7.01 p2; PDF hash verified) discloses an **October9 executed extension to December2029 with fresh sponsor/capital-partner capital**. This is affirmative sponsor support, not a sponsor walk, and supersedes the preceding Q3-call-only carrier expectation. **Capital is the issuer's term; legal equity/debt form is not disclosed.** Paydown may be readvanced; LTV uses September as-stabilized appraisal, not current/forced-sale value; credit-specific accounting recognition is not disclosed. Identification as RaDD uses multiple project/commitment/history anchors, not a literal borrower name in the8-K. **WAL's pass-grade-bank-walk remains N=1; no WAL grade, score, weight, target, gate or trade changes.** Different stage/sponsor and loss bands do not transfer. Source/terms and retained OZK prediction prior stay owned at `../OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`, last inspectedOctober14. Original August-window carrier history remains in Git and the September28 audit record.
+
 
 ### 🟠 V2.2 SECOND EVIDENCE — Curley Resignation
 
@@ -364,7 +365,7 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 | Thesis type | Reservoir (gradual past-due build) | **Compounder with concentrated tail risk** |
 | Pipeline signal | Past-due $207M → $465M QoQ (firing) | Leading buckets +24% to +45% QoQ; classified -9bps QoQ |
 | Loss pattern | Through delinquency funnel | **Episodic (V2) + concentrated tail (V1 Office)** |
-| Catalyst | IQHQ (maturity Aug 2026, **disclosure ~Oct at OZK's Q3 call**) + sub-notes Oct 1 reprice | **Office maturity wall $946M during 2026** (Q1 cut; $686M remaining at Q2, KB-163) |
+| Catalyst | IQHQ executedOctober9extension, disclosedOctober12; accounting remainsOZK Q3question (ownerreportinspectedOctober14); earlierOctober1reprice isdatedhistory | **Office maturity wall $946M during 2026** (Q1 cut; $686M remaining at Q2, KB-163) |
 | Q1 print | EPS miss + reservoir thesis fires | **GAAP miss + V2 fraud labeled in 8-K** |
 | PT vs current | $42.5-45 strikes / $48 spot | **$55-70 range / $80-82 spot** *(May vintage; live: PT $52-76 (v2.4), spot → STATUS.md)* |
 

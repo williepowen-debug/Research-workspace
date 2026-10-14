@@ -1,5 +1,10 @@
 # WAL THESIS — CHANGELOG
 
+## 2026-10-14 — housekeeping evidence integration; v2.4 unchanged
+
+OZK peer carrier corrected to executedOctober9 extension disclosedOctober12; primary source/hash verified. Fresh capital is sponsor support; redraw, as-stabilized appraisal and missing recognition limits retained. No WAL test graded and no thesis framework, weights, targets, thresholds or trade rule changed. THESIS dated source annotation only. Historical scenario/option records archived verbatim; current v2.4 valuation block preserved exactly.
+
+
 Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of master `../REGINALD/thesis/CHANGELOG.md`.
 
 **Versioning convention:**

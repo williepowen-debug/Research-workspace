@@ -1,0 +1,755 @@
+{
+  "reviewed_at": "2026-10-14",
+  "review_by": "2026-10-19",
+  "provenance": "sources/followup_2026-10-13/drift_full_hit_context_2026-10-14.json and housekeeping repair, no baseline inferred from new counts",
+  "scope": "selected legacy patterns, source/type/token/line anchor identities with multiplicity; named current-field checks separately",
+  "reviewed_findings": [
+    {
+      "identity": "28ca730953012d6f19295fc29929843edd2c97a39f355583b40631c55828c1f4",
+      "kind": "value",
+      "path": "THESIS.md",
+      "line_at_review": 62,
+      "token": "v2.2",
+      "anchor": "1. **B1 FIRED \u2014 $99M life-science office walk-away** (10-Q subsequent event). Same strategic-default mechanic as IQHQ (OZK). At 60% LGD, alone pushes Q2 NCO past 40bps before any normal Q2 activity. R",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "d1f125c51584fed03b5dbfb13e692272df5c4b2cb890ed4338ebe632ded50fab",
+      "kind": "value",
+      "path": "SCENARIOS.md",
+      "line_at_review": 483,
+      "token": "v2.2",
+      "anchor": "| $85P Jun | $7.37 ITM | HOLD as event-driven hedge | **HOLD as event-driven hedge.** Most v2.2 evidence (B1 fire, Curley) ALREADY in tape via 5/11-5/15 drawdown. Q2 print is post-Jun expiry; Jun cata",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "38c7e87b598408607230b8cfc4bdf1c2dc13045e9b232b5bb5878774d421ccdd",
+      "kind": "value",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 254,
+      "token": "v2.3.1",
+      "anchor": "| \u23f1 **TUE Oct 13** | \u2605 **Q3 FRAME-BEFORE-FILING DEADLINE \u2014 MINE, and it is a hard one** (`PROME/DOCKET.tsv` L170) | **Pre-register the Q3 grading frame BEFORE the print.** \u26d4 **Ratification principle: ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "964a2aa52a0a8f19b60019cf135e3b3508f06637b02d857cd59c06e7cea6b249",
+      "kind": "value",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 298,
+      "token": "v2.3.1",
+      "anchor": "| ~~**\u2696\ufe0f PROPOSED v2.3.1 TRIGGER**~~ \u2192 \u274c **REJECTED + RETIRED 2026-08-20 (P4, Will-ruled 8/12)** *(evaluated 8/7 \u2192 did not fire; now retired rather than repaired \u2014 leg (a) MOOT since v2.3 already pric",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "7a2e04bae68d1668f6f871b7ef40444f124ae609d78f31188d74410ed8789bdb",
+      "kind": "value",
+      "path": "MEMORY_ARCHIVE.md",
+      "line_at_review": 55,
+      "token": "v2.3",
+      "anchor": "- **\u2605 A peer mirroring MY version number breaks silently on every bump I make.** REGINALD's `CLAUDE.md` hardcoded *\"thesis v2.3\"*; he de-versioned it rather than bumping to v2.4 so it cannot rot again",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "8364c0553b499d6f26ceb45b6c49feb06c6f2427cc055b5bb41f82855e0d3d3d",
+      "kind": "value",
+      "path": "MEMORY_ARCHIVE.md",
+      "line_at_review": 83,
+      "token": "v2.3.1",
+      "anchor": "- **\u2605 Check that a rule's named instrument CAN carry its datum \u2014 three WAL rules have now failed this.** (1) MI3 is not a 10-Q line (DEWEY 7/16); (2) \"Q3 10-Q **Schedule O**\" \u2014 Schedule O is a *Call R",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "06113dfef0255c00d1df8e6e37e9195d1b3e1532772892a12169135029c3a96b",
+      "kind": "value",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 117,
+      "token": "v2.3",
+      "anchor": "KB-WAL-115\t2026-07-25\tEARNINGS\tQ2_2026_EPS\tQ2 26: EPS $2.36 vs $2.33 consensus (beat). NIM 3.53% (-1bp QoQ, flat - NOT compressing). Total net charge-offs $55.0M. Average HFI loans $58,756M. CET1 11.0",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "c6c3dcee258fe3e4caeaabfefcfc19dfb601ecf1bcfa9ab8648206c7266fe4b5",
+      "kind": "value",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 141,
+      "token": "v2.3",
+      "anchor": "KB-WAL-139\t2026-07-25\tEARNINGS\tQ2_Revenue_And_EPS_Consensus_Conflict\tQ2-26 revenue $995.7M - a headline figure absent from our KB until now, and BELOW Q1-26's $1.018B. YoY growth is reported inconsist",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "8e4fbd00c2acde92079cbd5ddf7b60dde7766fe0d7ec4a9fbe98f8c33b15294c",
+      "kind": "value",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 179,
+      "token": "v2.3.1",
+      "anchor": "KB-WAL-177\t2026-08-20\tJEFFERIES\tCountersuit_ReVerified_No_Change_8_20\tJEFFERIES COUNTERSUIT RE-VERIFIED AGAINST PUBLIC REPORTING 2026-08-20: NO CHANGE, NO RULING, NO NEW DEVELOPMENT. The countersuit r",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "01abfb648928b9aa3abd45965c1fa86877b85ff59dde67974aea2e57e54c1d56",
+      "kind": "value",
+      "path": "workbook/KB_INDEX.md",
+      "line_at_review": 43,
+      "token": "v2.3",
+      "anchor": "*V1 split into V1a/V1b at the 2026-07-25 ingest to match the THESIS v2.3 + STATUS convergence-matrix rows \u2014 the two roots resolve on different instruments (FFIEC Call Report vs 10-Q/deck) and moved in",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "d45684dd1db3b6c74d4c428d558e8ed06d852e8c2c491d80636746368ae7a613",
+      "kind": "value",
+      "path": "research/LIVE_SURFACE_SWEEP_2026-09-24.md",
+      "line_at_review": 21,
+      "token": "v2.2",
+      "anchor": "| T4 | THESIS.md:363-369 | \u00a7PREDICTIONS table: REG-24 **65%**, REG-25 **72%**, \"First-chance resolve **Jul 21 AMC**\" | The section has no banner. These are now WAL-01 **25%** and WAL-02 **50%**, open ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "f25aad748591b6a93f586c5ea742e036889970453b7a0d9abc14e7ce29c09674",
+      "kind": "value",
+      "path": "research/audit_2026-09-28/B_thesis.md",
+      "line_at_review": 26,
+      "token": "v2.0",
+      "anchor": "| F-11 | Q1_2026_ANALYSIS.md:45-50 (+ :61) | \":45 \"30% reserved (**~$29.4M reserve**)\"; :47 \"Remaining Cantor balance (**~$72M original principal minus $26.1M** realization)\"; :50 \"**Residual $46-72M*",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "550216ac3551cfa8e1fdc386fa595c3ba6bfa3a5b3183294af7eb0cb9956419e",
+      "kind": "value",
+      "path": "research/audit_2026-09-28/B_thesis.md",
+      "line_at_review": 35,
+      "token": "v2.2.1",
+      "anchor": "| F-20 | THESIS.md:83-106 | \u00a7MACRO-NIM TAILWIND (v2.2.1): \"Futures repriced ~2-in-3 hike by October FOMC\"; \":98 recognition-delay \u2026 handled by existing Sep-dated positions\" | Un-bannered. The hike lan",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "550216ac3551cfa8e1fdc386fa595c3ba6bfa3a5b3183294af7eb0cb9956419e",
+      "kind": "value",
+      "path": "research/audit_2026-09-28/B_thesis.md",
+      "line_at_review": 35,
+      "token": "v2.2.1",
+      "anchor": "| F-20 | THESIS.md:83-106 | \u00a7MACRO-NIM TAILWIND (v2.2.1): \"Futures repriced ~2-in-3 hike by October FOMC\"; \":98 recognition-delay \u2026 handled by existing Sep-dated positions\" | Un-bannered. The hike lan",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "4d5d649ac520d608d0cd235bb84aad247ff53234e4a32273a318c04b61a0bf25",
+      "kind": "value",
+      "path": "REGINALD_CHANNEL.md",
+      "line_at_review": 150,
+      "token": "127 (actual 227)",
+      "anchor": "**Session #1 did two things: Q2 KB ingest (105 \u2192 127 rows) and ratification of the standup-seeded STATUS handles.** Three items touch your lane:",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "0dc0a3a528067756ddedea97437e4285e8755a2dcd7617bc27b6f7e7b7379032",
+      "kind": "value",
+      "path": "research/LIVE_SURFACE_SWEEP_2026-09-24.md",
+      "line_at_review": 46,
+      "token": "200 (actual 227)",
+      "anchor": "| S11 | SCENARIOS.md:536 | \"KB evidence: **177 rows**\" | KB is 200 rows | LOW | `KB evidence: \u2192 workbook/KB.tsv (200 rows at 9/24)`. Better: drop the count so the footer cannot rot |",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "aa07cc737b8d1a7564185e733f091b58f67978d361d76641495d8f71704cabba",
+      "kind": "retired",
+      "path": "INDEX.md",
+      "line_at_review": 112,
+      "token": "Schedule O",
+      "anchor": "9b. ~~**WAL-01 bucket + carrying-instrument defect**~~ \u2705 **RULED 8/12 + RE-INSTRUMENTED 8/20 (P2).** The VOID \"Q3 10-Q Schedule O\" cite is struck and NOT replaced by another 10-Q reference (no 10-Q pu",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "bc61b8c4a3c9522c9b00590a04cb6222213ddb48e8c4000db5f526785b19027d",
+      "kind": "retired",
+      "path": "NEXUS_BRIEF.md",
+      "line_at_review": 112,
+      "token": "Schedule O",
+      "anchor": "| \u2605 **WAL-01's bucket question WIDENED, not closed** \u2014 hybrid label (*\"life science laboratory/office CRE loan\"*), Life sciences ($418M) still separate from Office ($2,139M), nonaccrual arithmetic poi",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "bc61b8c4a3c9522c9b00590a04cb6222213ddb48e8c4000db5f526785b19027d",
+      "kind": "retired",
+      "path": "NEXUS_BRIEF.md",
+      "line_at_review": 112,
+      "token": "Schedule O",
+      "anchor": "| \u2605 **WAL-01's bucket question WIDENED, not closed** \u2014 hybrid label (*\"life science laboratory/office CRE loan\"*), Life sciences ($418M) still separate from Office ($2,139M), nonaccrual arithmetic poi",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "bc17922489363d262ece6c8ba46d17c26f7f3baf9bf878b6ab1fd76691a02e8e",
+      "kind": "retired",
+      "path": "REGINALD_CHANNEL.md",
+      "line_at_review": 124,
+      "token": "+2.6%",
+      "anchor": "**\u2462 `REG-T-02` consumed as owner-canonical \u2014 pointer + date, no re-derivation** (seam rule): your `../REGINALD/registry/NOTES.md` \u00a7REG-T-02 + `PROME/GATES.tsv` GATE-REG-T02, **UN-FIRED, re-graded at t",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "80eea55d1d73589bf9f895a97ffc6bcaba0eedd68e3308b53a3bedfc64517ab4",
+      "kind": "retired",
+      "path": "REGINALD_CHANNEL.md",
+      "line_at_review": 124,
+      "token": "+1.47%",
+      "anchor": "**\u2462 `REG-T-02` consumed as owner-canonical \u2014 pointer + date, no re-derivation** (seam rule): your `../REGINALD/registry/NOTES.md` \u00a7REG-T-02 + `PROME/GATES.tsv` GATE-REG-T02, **UN-FIRED, re-graded at t",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "9b9bf78785aab04837f1719fc1db1eabc23539d0e3b154e2b2ae3a4560208866",
+      "kind": "retired",
+      "path": "REGINALD_CHANNEL.md",
+      "line_at_review": 124,
+      "token": "2.00%",
+      "anchor": "**\u2462 `REG-T-02` consumed as owner-canonical \u2014 pointer + date, no re-derivation** (seam rule): your `../REGINALD/registry/NOTES.md` \u00a7REG-T-02 + `PROME/GATES.tsv` GATE-REG-T02, **UN-FIRED, re-graded at t",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "9b80d568e522b564cc75a15431fee8fccfd687b32a9426a0809382c6bd566685",
+      "kind": "retired",
+      "path": "REGINALD_CHANNEL.md",
+      "line_at_review": 142,
+      "token": "Overvaluation 12.4%",
+      "anchor": "**\u2465 New from my side, pointer only per the seam rule:** **v2.4 shipped** \u2014 bear-fast 10%\u21922%, bear-medium **HELD 16%**, Base 45 / Bull 30, **EV $73.92 \u2192 $75.96**, PT $52-76, **total bear 26%\u219218%**. \u2605 *",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "720c0e656381dc8d4ff3ee9b33d5779ae8ceeaff4d92e57f04e2314db8f86fe8",
+      "kind": "retired",
+      "path": "REGINALD_CHANNEL.md",
+      "line_at_review": 150,
+      "token": "127 rows",
+      "anchor": "**Session #1 did two things: Q2 KB ingest (105 \u2192 127 rows) and ratification of the standup-seeded STATUS handles.** Three items touch your lane:",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "7b2a265d9fc6519a44d2fb4857e925d8495bdb9805e245bfc4899ddcdba18078",
+      "kind": "retired",
+      "path": "SCENARIOS.md",
+      "line_at_review": 101,
+      "token": "MI3/FFIEC PDD still has not run",
+      "anchor": "| Bear-fast 12% \u2192 10% | No new information \u2014 **MI3/FFIEC PDD still has not run** (~2.5 months overdue; DEWEY 7/16 confirmed MI3 is not a 10-Q line, so only FFIEC resolves it). Trimmed 2pp not on evide",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "34abced3d6ced6a941f4ba84963f4b03d1348766194c0dde7cbfc2ffe9835c90",
+      "kind": "retired",
+      "path": "SCENARIOS.md",
+      "line_at_review": 57,
+      "token": "bear-fast's 10%",
+      "anchor": "| **Bear-medium 16% \u2192 UNCHANGED** | \u26d4 **Deliberate, and the most important thing this re-mark does NOT do.** P7's scope is bear-fast's 10%. **The freed weight must not be laundered into the other bear",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "2877be6e762c8d55250c09f92c9b6d80ff2eacad13556afe38759400c31391e5",
+      "kind": "retired",
+      "path": "SCENARIOS.md",
+      "line_at_review": 101,
+      "token": "Bear-fast 12% \u2192 10%",
+      "anchor": "| Bear-fast 12% \u2192 10% | No new information \u2014 **MI3/FFIEC PDD still has not run** (~2.5 months overdue; DEWEY 7/16 confirmed MI3 is not a 10-Q line, so only FFIEC resolves it). Trimmed 2pp not on evide",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "ed654225ffeddaef6399c55a5bfbd303c555bafc112b61172a1179f3c8e7f837",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 175,
+      "token": "Schedule O",
+      "anchor": "3. \u2696\ufe0f **The v2.3.1 condition was evaluated and does NOT fire** \u2014 and leg (a) turned out **unfalsifiable as written**, the third instance of a WAL rule naming an instrument that cannot carry its datum ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "584116fc6ff1bab4a19a2d96e40ebb5d95258144e4e044b46d96a217568349cc",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 254,
+      "token": "Schedule O",
+      "anchor": "| \u23f1 **TUE Oct 13** | \u2605 **Q3 FRAME-BEFORE-FILING DEADLINE \u2014 MINE, and it is a hard one** (`PROME/DOCKET.tsv` L170) | **Pre-register the Q3 grading frame BEFORE the print.** \u26d4 **Ratification principle: ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "485a4c9ad56b3caed5e7e7a09cdd8a09465934897c59440c8f880488af36e829",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 289,
+      "token": "Schedule O",
+      "anchor": "| **Bear CONFIRM** \u26a0\ufe0f\u26a0\ufe0f **spec risk ESCALATED 8/7 at the Q2 10-Q** | WAL-01 (office classified >$500M) **or** WAL-02 (ex-fraud NCO >40bps \u2014 Q3 print NCO line). \u2605 **The Q2 10-Q verification came back W",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "485a4c9ad56b3caed5e7e7a09cdd8a09465934897c59440c8f880488af36e829",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 289,
+      "token": "Schedule O",
+      "anchor": "| **Bear CONFIRM** \u26a0\ufe0f\u26a0\ufe0f **spec risk ESCALATED 8/7 at the Q2 10-Q** | WAL-01 (office classified >$500M) **or** WAL-02 (ex-fraud NCO >40bps \u2014 Q3 print NCO line). \u2605 **The Q2 10-Q verification came back W",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "72268f9a614eb6c544154fe920daf0a9641975cb34ebcabed7a9bcc8683f5459",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 298,
+      "token": "Schedule O",
+      "anchor": "| ~~**\u2696\ufe0f PROPOSED v2.3.1 TRIGGER**~~ \u2192 \u274c **REJECTED + RETIRED 2026-08-20 (P4, Will-ruled 8/12)** *(evaluated 8/7 \u2192 did not fire; now retired rather than repaired \u2014 leg (a) MOOT since v2.3 already pric",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "ad23d49096e1eca80bb2c2d1d946d9ef41409b807ea36308402acf1273a246f5",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 126,
+      "token": "$77.5P write-back: SOLD 8/18, NOT lapse",
+      "anchor": "| **Aug 23** | **SESSION #4 \u2014 PROME-orchestrated bounded touch (two-tier wave 3). Mechanical before creative, and it found two live errors on this file.** \u2605 **\u2460 The Aug-21 $77.5P write-back: SOLD 8/18",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "cc1e597f95046bf82047fcbe18f9122fa71623093ddf1268b4e45b32c1ae44e2",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 187,
+      "token": "$77.5P sold-not-lapse",
+      "anchor": "*The struck-through past-event rows from \u00a7CATALYSTS. The section's own header already said **\"past events \u2705, forward only below the line\"** \u2014 this move finally makes that true. \u26d4 **VERBATIM, `sha256(f",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "e11a888240ec69417f9be82b25d5dc74052b19dcd044c42ba9d0b3486fd94aa7",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 222,
+      "token": "3 legs",
+      "anchor": "**Price:** **$79.12** (**2026-09-02 CLOSE**, **+2.41%** \u2014 bar O 77.86 / H **80.55** / L 77.82) | **Threshold:** **$78** | **Buffer:** **+$1.12**. \u26d4 **State the basis, never a bare percent** (`REG-T-02",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "c2d28a14d672f2b8b53ba3ada6387582ec10779e2904649218ba7d1b6fd32a2c",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 240,
+      "token": "3 legs",
+      "anchor": "**Live book = 3 legs across 2 accounts** per `POSITIONS.md`: Sep-18 **$67.5P + $70P** (Fidelity IRA, **16 DTE**) + \u2605 **NEW Dec-18 $70P \u00d71 @ $2.20, ROBINHOOD, Will's own hand 9/2 14:21 ET** (`TRY-WAL-R",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "df73b88e3e0e82670eaf7c94ddadc7fb67a5bd043bc0bded732ca691aff06f1d",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 151,
+      "token": "six consecutive down",
+      "anchor": "**Last Updated:** 2026-08-28 (**WAL session #5** \u2014 Will-directed file sweep: *\"anything dated, stale, broken, incomplete.\"* \u2605 **\u2460 THE TAPE RE-BASED AND THE BUFFER IS NOW THE TIGHTEST IN THE RECORD** \u2014",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "c564833f4781427971167e4e1e01abd2bb03fb32fe7976eb4db899bf01db3572",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 126,
+      "token": "$83.11",
+      "anchor": "| **Aug 23** | **SESSION #4 \u2014 PROME-orchestrated bounded touch (two-tier wave 3). Mechanical before creative, and it found two live errors on this file.** \u2605 **\u2460 The Aug-21 $77.5P write-back: SOLD 8/18",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "4bd3f5d675a50208338640831d944cef7f859de4ba86e6345800886fdf053880",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 126,
+      "token": "buffer +$5.11",
+      "anchor": "| **Aug 23** | **SESSION #4 \u2014 PROME-orchestrated bounded touch (two-tier wave 3). Mechanical before creative, and it found two live errors on this file.** \u2605 **\u2460 The Aug-21 $77.5P write-back: SOLD 8/18",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "3c345ddf9db0506b85cbc8c0b58486e94a49bba4c21f3fc9cbe54b8780f30d6a",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "+2.6%",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "53e9aa22a9c38489c05d9b3322acba9d64e1ab5a23c33d26702d19e56d8eb82f",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "+1.47%",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "36ac4e013c5a183cfce855d9e78f0fdc1e540ef75e9289a9a275aa196376be68",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "2.00%",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "3f186fe997d6f1aa7b821926c1d84088f30309523d309165e943c5fc559ed0fc",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 151,
+      "token": "$79.67",
+      "anchor": "**Last Updated:** 2026-08-28 (**WAL session #5** \u2014 Will-directed file sweep: *\"anything dated, stale, broken, incomplete.\"* \u2605 **\u2460 THE TAPE RE-BASED AND THE BUFFER IS NOW THE TIGHTEST IN THE RECORD** \u2014",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "0e265088a9ad1ae00c35c78c49e963633b7894537a3ab058781d2b73f700f822",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 151,
+      "token": "+$1.67",
+      "anchor": "**Last Updated:** 2026-08-28 (**WAL session #5** \u2014 Will-directed file sweep: *\"anything dated, stale, broken, incomplete.\"* \u2605 **\u2460 THE TAPE RE-BASED AND THE BUFFER IS NOW THE TIGHTEST IN THE RECORD** \u2014",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "328441c6f7c71a74a5e4768e10a70298993514c72a31efddfe77db3d87c4c46c",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 151,
+      "token": "\u22122.10%",
+      "anchor": "**Last Updated:** 2026-08-28 (**WAL session #5** \u2014 Will-directed file sweep: *\"anything dated, stale, broken, incomplete.\"* \u2605 **\u2460 THE TAPE RE-BASED AND THE BUFFER IS NOW THE TIGHTEST IN THE RECORD** \u2014",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "9b85a6961c32f52bd45599946faaddd4a388cb17d2ebe3997a4149df2819a0c7",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 151,
+      "token": "+2.14%",
+      "anchor": "**Last Updated:** 2026-08-28 (**WAL session #5** \u2014 Will-directed file sweep: *\"anything dated, stale, broken, incomplete.\"* \u2605 **\u2460 THE TAPE RE-BASED AND THE BUFFER IS NOW THE TIGHTEST IN THE RECORD** \u2014",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "51c693d0cb62e9365746a7c3bf6eb733beff9199b34a9b91fc4b01fa89baf2f5",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 151,
+      "token": "~2% away",
+      "anchor": "**Last Updated:** 2026-08-28 (**WAL session #5** \u2014 Will-directed file sweep: *\"anything dated, stale, broken, incomplete.\"* \u2605 **\u2460 THE TAPE RE-BASED AND THE BUFFER IS NOW THE TIGHTEST IN THE RECORD** \u2014",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "3f186fe997d6f1aa7b821926c1d84088f30309523d309165e943c5fc559ed0fc",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 151,
+      "token": "$79.67",
+      "anchor": "**Last Updated:** 2026-08-28 (**WAL session #5** \u2014 Will-directed file sweep: *\"anything dated, stale, broken, incomplete.\"* \u2605 **\u2460 THE TAPE RE-BASED AND THE BUFFER IS NOW THE TIGHTEST IN THE RECORD** \u2014",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "02aa2ec50a80e44290b9e0cfdb7e454650fba7dd35d18a14a20af390d88392dd",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "$79.67",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "a159afc189383023edbd68d15043a4bb1a453e82009fd9f13f0f37b8aa06834a",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "+$1.67",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "a4393284dfe319c1bf2d579ab4d5e0e64d8b4c7bd9b4b17101e9af2eeb9f641f",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "\u22122.10%",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "6b85cdbb5fc61d5aef3c1d014c1a79201f16ad68e670a8eddc2e1c52b4417fbe",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "+2.14%",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "306c1350cb7e98bcab3a59dd97f6750040cb9b8c02a7664de504befdb1ee9b4d",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 152,
+      "token": "~2% away",
+      "anchor": "**Price:** **$78.71** (**2026-08-27 CLOSE**, **\u22121.12%** \u2014 the last OFFICIAL close; today 8/28 is still trading. `scripts/market.py` \u2192 Yahoo `WAL`, regular-session close, pulled 2026-08-28 13:58 ET) | ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "ff6143e43a8da9ba231a1b7184b3d9f7ebed2decd7eb8c78f9016384bd6be385",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 310,
+      "token": "$79.67",
+      "anchor": "The Q2 second-data-point test came back **non-confirming and was honestly marked**: broadening is disconfirmed, the bear is idiosyncratic and narrowed to the residual office tail, and the margin of sa",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "cc8d15a2cee1e1a23dbc1485efa07ba29478490dcc4db540e0c6f6e70de770a0",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 127,
+      "token": "not the cohort",
+      "anchor": "| **Aug 20** (2) | **LIVE NEWS SWEEP + CORE-FILE SWEEP.** \u2605 **Clean negative: NOTHING in the 8/13-8/20 window explains the grind to the period low** \u2014 no 8-K since 7/30, no analyst action after late-J",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "9305b868f789544ed7cb78a9cdb87fa8aec72bcef2ad9787dd92ca3bb34cbf85",
+      "kind": "retired",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 252,
+      "token": "implied shares out \u22121.7%",
+      "anchor": "| \ud83d\udfe0 **PARTIALLY WORKED 8/20** | Q2 13F season | Two real 5%-holder 13Gs 8/13-8/14, roughly offsetting (T. Rowe \u221220.8%\u21925.8%, 3-qtr delta; Invesco re-crossed +12.5%\u21925.4%, clean qtr); implied shares out ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "a5c453d44b7a031cb7828f66d70936e519e0a72a53bbe403a63881af8163e611",
+      "kind": "retired",
+      "path": "Q2_10Q_READ_2026-08-07.md",
+      "line_at_review": 258,
+      "token": "Schedule O",
+      "anchor": "*Same defect class as MI3-is-not-a-10-Q-line (DEWEY 7/16) and as WAL-01's \"Q3 10-Q Schedule O.\" Three instances now in this agent's rule set. Validity and executability are orthogonal axes \u2014 a rule ca",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "8a783da358213a91b931b568c09a28fe87d41e0a4ec7c5f4461b89209622d3bf",
+      "kind": "retired",
+      "path": "Q2_10Q_READ_2026-08-07.md",
+      "line_at_review": 308,
+      "token": "Schedule O",
+      "anchor": "| **P2** | **Rule on WAL-01's bucket + carrying instrument (blocker #2).** Now three candidate buckets, not two; the metric has **no 10-Q carrying instrument at all**; and the spec's \"Q3 10-Q Schedule",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "da4154688ae396366972e76af4eb8689333d09a194eecfc6901de584a7c0d055",
+      "kind": "retired",
+      "path": "Q2_10Q_READ_2026-08-07.md",
+      "line_at_review": 297,
+      "token": "13F season row (~Aug 14) remains genuinely unexamined",
+      "anchor": "**Standing:** the 13F season row (~Aug 14) remains genuinely unexamined. These two filings do not advance it.",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "9b1a36591cc6fecffad09b1bb30b987af29fde79dc4bf34c081932d547e11937",
+      "kind": "retired",
+      "path": "MEMORY_ARCHIVE.md",
+      "line_at_review": 92,
+      "token": "Bear-fast sat at 10%",
+      "anchor": "- **A never-running falsifier needs a time-box, not patience.** Bear-fast sat at 10% across 4 months and 2 missed FFIEC windows with zero confirmations *and* zero disconfirmations. Carrying weight on ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "1b8e81ca9c7893a2064589a1d99e015ff2a00c6ed18547ebb078e49f88ba40e6",
+      "kind": "retired",
+      "path": "MEMORY_ARCHIVE.md",
+      "line_at_review": 83,
+      "token": "Schedule O",
+      "anchor": "- **\u2605 Check that a rule's named instrument CAN carry its datum \u2014 three WAL rules have now failed this.** (1) MI3 is not a 10-Q line (DEWEY 7/16); (2) \"Q3 10-Q **Schedule O**\" \u2014 Schedule O is a *Call R",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "1b8e81ca9c7893a2064589a1d99e015ff2a00c6ed18547ebb078e49f88ba40e6",
+      "kind": "retired",
+      "path": "MEMORY_ARCHIVE.md",
+      "line_at_review": 83,
+      "token": "Schedule O",
+      "anchor": "- **\u2605 Check that a rule's named instrument CAN carry its datum \u2014 three WAL rules have now failed this.** (1) MI3 is not a 10-Q line (DEWEY 7/16); (2) \"Q3 10-Q **Schedule O**\" \u2014 Schedule O is a *Call R",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "7b716446955eb2264ef2353078b974cee49e84630d3685ca70baa74de93a5b1e",
+      "kind": "retired",
+      "path": "MEMORY_ARCHIVE.md",
+      "line_at_review": 45,
+      "token": "$79.67",
+      "anchor": "- **\u2605\u2605 A tape-derived disposition is an inference about a book you cannot see.** A peer graded my expired-dated leg **LAPSED** off a correct close ($79.67 \u21d2 2.72% OTM). It had been **SOLD three sessio",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "319b76163105042e998fcb9ae43747c1584670e37b65d0f8fdca2ddce9aa7656",
+      "kind": "retired",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 132,
+      "token": "$83.11",
+      "anchor": "KB-WAL-130\t2026-07-25\tINSIDER\tGibbons_June_Sale\tDale Gibbons (Vice Chair & CBO Deposits; the former 22-year CFO) sold 40,000 shares on 2026-06-09 for ~$3.30M: 33,228 @ $82.64 weighted avg (range $83.0",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "f17784a580d2a82e1e26ad01396bc869b5325435fa0bb9ecf8f0a37edefefa24",
+      "kind": "retired",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 135,
+      "token": "$83.11",
+      "anchor": "KB-WAL-133\t2026-07-25\tINSIDER\tInsider_Sale_Timing_TwoWay\tThe only two discretionary sales in the four-month window landed 2026-06-08/09 at $81.00-$82.64 - AFTER the $99M 10-Q disclosure (5/11) and Inv",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "c59d3373c2503317bde87e99a0b2bbe597356b24c6ef9b6a4a1dc2a3b7440443",
+      "kind": "retired",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 187,
+      "token": "not the cohort",
+      "anchor": "KB-WAL-185\t2026-09-02\tTAPE\tCohort_Verdict_Window_Artifact_8_28\tThe 2026-08-28 cohort verdict ('not the cohort is NO LONGER clean -- WAL at the weak end, ~2x KRE') does NOT survive extension of its own",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "f841987fecdcdd5a05f71b40f8bf8a6fa00f1efd62b1322917a967f56e42c468",
+      "kind": "retired",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 138,
+      "token": "recovered more than half",
+      "anchor": "KB-WAL-136\t2026-07-25\tJEFFERIES\tJefferies_NonRecourse_Defense\t\u26d4 THREE ERRORS, corrected at the primary 9/28 \u2014 see Notes and KB-WAL-210. Jefferies' public defense (Handler/Friedman): the loan was NON-R",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "e863fa3514b5a2d8427ceca2a03b39abd6299f938346940ebb94d10a646673fd",
+      "kind": "retired",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 123,
+      "token": "NDFI/warehouse book is SHRINKING",
+      "anchor": "KB-WAL-121\t2026-07-25\tSSFA\tNDFI_Warehouse_Shrinking_Q2\tThe NDFI/warehouse book is SHRINKING - driven by the mortgage-market pullback plus a deliberate de-emphasis of capital-call/subscription lines at",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "f26cf62b6d85d143cf91efcf06ddf8d99f46072c18768a21d175fd58d9def798",
+      "kind": "retired",
+      "path": "workbook/PREDICTIONS.tsv",
+      "line_at_review": 1,
+      "token": "Schedule O",
+      "anchor": "# Last real data refresh: 2026-08-20 (WAL session #3 \u2014 THREE row-level changes, all authority-backed: WAL-01 Invalidation RE-INSTRUMENTED off the VOID 'Q3 10-Q Schedule O' cite to the Q3 deck slide + ",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "c8545e109b7107bce31da7514cf845ecd1d837a5561f9c0934505cdc174fff44",
+      "kind": "retired",
+      "path": "workbook/PREDICTIONS.tsv",
+      "line_at_review": 6,
+      "token": "Schedule O",
+      "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tOPEN\t\t\t\"Q3-2026 Office classified <= $500M as read on the NAMED instrument below. RE-SPEC 2026-08",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "c8545e109b7107bce31da7514cf845ecd1d837a5561f9c0934505cdc174fff44",
+      "kind": "retired",
+      "path": "workbook/PREDICTIONS.tsv",
+      "line_at_review": 6,
+      "token": "Schedule O",
+      "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tOPEN\t\t\t\"Q3-2026 Office classified <= $500M as read on the NAMED instrument below. RE-SPEC 2026-08",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "13b29d2d459a8d0db60865f8f59014bde8cf239af77e8f3511a863408656bdd1",
+      "kind": "retired",
+      "path": "research/FRAUD_CORPUS_REVIEW_2026-09-24.md",
+      "line_at_review": 17,
+      "token": "~$46M Cantor",
+      "anchor": "| X4 | **The \"~$46M Cantor residual\"** in the `FRAUD/STATUS.md:2` banner (also in `THESIS.md:281,297`, `WEAKNESSES.md:27`, `CLAUDE.md:16,150`) cannot be traced to any source. The primary arithmetic gi",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "e5041a20ce85d0bd4e5192ba5732f2fe04cfc7349c9a8a9e8bf3eb53d6854cdc",
+      "kind": "retired",
+      "path": "research/FRAUD_CORPUS_REVIEW_2026-09-24.md",
+      "line_at_review": 349,
+      "token": "~$46M Cantor",
+      "anchor": "| 4 | Trace or retire \"~$46M Cantor residual\" in `THESIS.md:281,297`, `WEAKNESSES.md:27`, `CLAUDE.md:16,150`. Fix `THESIS.md:281` \"$29.4M\" \u2192 $29.6M. Re-point `THESIS.md:410` | WAL (THESIS/WEAKNESSES/C",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "826d070f9bc0590ead23dc6e0e2fbe91e26d0aed0ff3c2d4febc4e1bae27add2",
+      "kind": "retired",
+      "path": "research/NEWS_SWEEP_2026-07-25.md",
+      "line_at_review": 92,
+      "token": "MI3 falsifier \u2014 never run",
+      "anchor": "| **1** | **FFIEC Call Report, pulled DIRECTLY** (CDR Public Data Distribution \u2014 free bulk download, per-bank per-quarter) | **The V1a MI3 falsifier \u2014 never run in 4 months** | We have been waiting on",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "7b109520fdca30db9715e6c41dba9db8d11584beb2680ead02bbc2fc43441584",
+      "kind": "retired",
+      "path": "research/CATALYST_SWEEP_2026-09-24.md",
+      "line_at_review": 150,
+      "token": "79.89 close",
+      "anchor": "- \u26a0\ufe0f **Data caveats:** (1) yfinance has **no 9/22 row** for WAL or most names; KRE alone shows 9/22 \u22121.11% and 9/23 \u22121.14%. The two-session figure is sound; the per-day split for WAL is unavailable fr",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "852449d195be6fdc29e00fe57bdaa63a96b19044a639b7b461569c20e0b6d4d3",
+      "kind": "retired",
+      "path": "research/LIVE_SURFACE_SWEEP_2026-09-24.md",
+      "line_at_review": 41,
+      "token": "overvaluation 12.4%",
+      "anchor": "| S6 | SCENARIOS.md:2 | \"overvaluation 12.4% \u2192 5.4% at spot $80.05 [8/20]\" | Dated correctly, but it is the only valuation reading at the top of the file | MED | Append: `\u2192 \u22120.47% at $75.60 [9/23 clos",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "d9d0bd20e1006a1827dfac3f487fcc19f8b4124cb6b5355fdd752469cf719284",
+      "kind": "retired",
+      "path": "research/LIVE_SURFACE_SWEEP_2026-09-24.md",
+      "line_at_review": 19,
+      "token": "booking unrecorded",
+      "anchor": "| T2 | THESIS.md:17 | \"the live Sep-18 cores sit **below** the new EV \u2026 both expire worthless\" | This sits in the \u2605CURRENT v2.4 section. The Sep-18 pair finished OTM on 9/18 and the live book is 1 leg",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "8eb42994ced6d6afef7a10f1a2fae9783d48ccac1f5018f350a762d4da82d47e",
+      "kind": "retired",
+      "path": "research/audit_2026-09-28/C_workbook.md",
+      "line_at_review": 16,
+      "token": "NDFI/warehouse book is SHRINKING",
+      "anchor": "| 1 | KB-WAL-121 (KB.tsv:123), ACTIVE, SB 2026-10-31, A2 | \"The NDFI/warehouse book is SHRINKING \u2026 by management choice\" | Refuted at A1 by later rows that are also ACTIVE. KB-146 (L148): Q2 10-Q NDFI",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "f70f5d7894a4c7b1f5cb3b3689e4d1da4db66f118005f7dd9b18c506b81b1738",
+      "kind": "retired",
+      "path": "research/audit_2026-09-28/A_dashboard.md",
+      "line_at_review": 18,
+      "token": "MI3 \"never-run",
+      "anchor": "| 4 | CLAUDE.md:13 | \"\u2605 **Margin of safety GONE: 18.8% \u2192 12.4% \u2192 5.4% (v2.4) \u2192 spot BELOW EV** (first time 9/23 \u2026)\" | The boot card presents \"spot BELOW EV\" as the end of the series, which is the curr",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "468faae0cb4c43c490399df2d770896031ec67b84fccf0ef4a34d82d4725eeb3",
+      "kind": "retired",
+      "path": "research/audit_2026-09-28/A_dashboard.md",
+      "line_at_review": 15,
+      "token": "booking UNRECORDED",
+      "anchor": "| 1 | STATUS.md:22 \u00b7 INDEX.md:7 \u00b7 NEXUS_BRIEF.md:17 \u00b7 POSITIONS.md:3, :17 \u00b7 MEMORY.md:58 | STATUS:22 \"broker booking UNRECORDED (`FORGE/STATUS.md` D-58)\"; INDEX:7 \"(tape; booking UNRECORDED)\"; NEXUS:1",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "468faae0cb4c43c490399df2d770896031ec67b84fccf0ef4a34d82d4725eeb3",
+      "kind": "retired",
+      "path": "research/audit_2026-09-28/A_dashboard.md",
+      "line_at_review": 15,
+      "token": "booking UNRECORDED",
+      "anchor": "| 1 | STATUS.md:22 \u00b7 INDEX.md:7 \u00b7 NEXUS_BRIEF.md:17 \u00b7 POSITIONS.md:3, :17 \u00b7 MEMORY.md:58 | STATUS:22 \"broker booking UNRECORDED (`FORGE/STATUS.md` D-58)\"; INDEX:7 \"(tape; booking UNRECORDED)\"; NEXUS:1",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "b12dd5d90205309a7270fade068d556faf15b57cebf4e6c565d5e5e66ee6da5b",
+      "kind": "retired",
+      "path": "research/audit_2026-09-28/A_dashboard.md",
+      "line_at_review": 27,
+      "token": "200-row",
+      "anchor": "| 13 | INDEX.md:51 | \"`workbook/KB.tsv` + `KB_INDEX.md` \\| **200-row** evidence base \u2026 **13F + share-count correction 199-200**)\" | KB = **209** (`awk -F'\\t' '/^KB-WAL-/' workbook/KB.tsv \\| wc -l` \u2192 2",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    },
+    {
+      "identity": "b12dd5d90205309a7270fade068d556faf15b57cebf4e6c565d5e5e66ee6da5b",
+      "kind": "retired",
+      "path": "research/audit_2026-09-28/A_dashboard.md",
+      "line_at_review": 27,
+      "token": "200-row",
+      "anchor": "| 13 | INDEX.md:51 | \"`workbook/KB.tsv` + `KB_INDEX.md` \\| **200-row** evidence base \u2026 **13F + share-count correction 199-200**)\" | KB = **209** (`awk -F'\\t' '/^KB-WAL-/' workbook/KB.tsv \\| wc -l` \u2192 2",
+      "disposition": "Dated/corrected/calibration record inspected in October14 source review; cleared when moved to linked archive, never tolerance for a new claim."
+    }
+  ]
+}

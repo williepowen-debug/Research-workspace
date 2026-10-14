@@ -1,0 +1,57 @@
+{
+  "recorded_UTC": "2026-10-14T04:52:42.197183+00:00",
+  "audit_origin": "PROME/reports/2026-10-13_WAL_file-audit.json, historical224row snapshot; prepass227; now229",
+  "scope": "WAL housekeeping/peer integration; no REGINALD research or agent launches",
+  "runtime": "Codex/OpenAI; exactvariant/sessionID UNKNOWN; explicitroot/localreads; nativefleettransport/consumptionUNKNOWN",
+  "frozen_and_prediction_SHA256": {
+    "Q2_GRADING_FRAME_2026-07-21.md": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc",
+    "PREPRINT_RECON_2026-07-17.md": "12757b40be6dc95d6c52da5da207c919253542298415693e1d34153dbd16ce41",
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880",
+    "workbook/PREDICTIONS.tsv": "bf38f3ec164220445e09392e6942f1efecc0dd5725538ddef2334063341e6ddb"
+  },
+  "scenario_v2_4_block_SHA256": "b3212b2772b292e9febfa9dbed2c82d916212c279969d3ddbbb1cb26a5f3762c",
+  "scenario_prior_file_SHA256": "0722a3b8b90e1ea8ac5c85396ebf57a5bb72d014b6b6bbc290da5e3d2b329ff5",
+  "preservation": "Thesis prefix/header/calibration before peer section unchanged; STATUSexit-rule/convergenceblocks unchanged; Nano\u00a710unchanged; fullformerMemory/Index/Brief/Scenarioarchives exact",
+  "source_hash_checks": {
+    "Q2_original": "63f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f",
+    "October13_snapshot": "4f90551a8fa391b85aaa881ebfc0196d576f0269783ef6297b91e79c915af1db",
+    "OZK_primary": "13585c0379a619112e32c3776dad2bab89c56be4d47abc09ff985ea6fed19d01",
+    "FINRA_payload": "b65e6f89fb917c8516e51cecc66ac3c29d8b8c9af0d0333bf0f3133134c65974"
+  },
+  "KB": {
+    "rows": 229,
+    "unique_IDs": 229,
+    "groups": 20,
+    "malformed": 0,
+    "ACTIVE_blank_expiry": 0,
+    "historical_SUPERSEDED_blank_expiry": 8
+  },
+  "individual_expiry_changes": {
+    "197": "calendar superseded217, mixedoldcomponentsdatedhistory",
+    "214": "newFINRA229Sept30",
+    "188": "currentquote222/223; oldwindowsdated",
+    "215": "currentquote222/223; oldshape/attributiondated",
+    "205": "alreadySUPERSEDED227beforemaintenance"
+  },
+  "tests": "8maintenance regressioncases PASS, strictnamedfields and reviewedidentitycomparison PASS; no whole-prose/source-certification claim",
+  "boot_bytes_before_final_brief": {
+    "CLAUDE.md": 25588,
+    "AGENTS.md": 1045,
+    "INDEX.md": 4244,
+    "MEMORY.md": 7741,
+    "STATUS.md": 21926,
+    "NEXUS_BRIEF.md": 30816
+  },
+  "broker_sources": [
+    "PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md#Activity-row22",
+    "PROME/reports/2026-10-13_broker-activity-acceptance.md",
+    "PROME/reports/2026-10-13_broker-reconcile-acceptance.md"
+  ],
+  "broker_limit": "Oct7acquisition/682.65netdebitaccepted; grossfill/time/cardunknown; RobinhoodstillSept29source; guardsnottransferred",
+  "peer_packets": "OZK/REGINALDintegratedatartifacts; fileprocessedafterintegrationcommit, durableACKscommitted; receiptnotnativeconsumption",
+  "source_recovery": "explicitinventory/URL/hash/identityinstructions; local-onlyoriginalsnotadded; someoriginURLandexternalbackupUNKNOWN",
+  "Git": "exactown/self-authoredinboxpaths; foreignWALTERdirtypreventsrootpull/push; finalNEXUSwriteafterfinalSTATUScommit",
+  "operator_dependencies": "WillOct13response retained; recorder/FFIECrenewalunresolved, no repeatedask; expiryNov5dependency",
+  "official_runtime_reference": "https://learn.chatgpt.com/docs/agent-configuration/agents-md openedOct14 viaOpenAIDocsskill"
+}

@@ -27,13 +27,16 @@ values sitting beside historical ones
 
 MEASURED PRECISION, stated so nobody reads a nonzero count as failure. On the
 swept tree of 2026-08-23 this settled at a BASELINE of 11 check-1 and 35
-check-2 hits (RE-MEASURED 2026-09-24: 12 check-1 / 63 check-2 -- the live values are BASE_DRIFT/BASE_REVIVED in the code) (CHECK 3 clean after the closeout sync), and nearly all of them are correct history whose marker sits
+check-2 hits (RE-MEASURED 2026-09-24: 12 check-1 / 63 check-2 -- historical aggregate counts; current comparison uses reviewed identities) (CHECK 3 clean after the closeout sync), and nearly all of them are correct history whose marker sits
 outside the proximity window (dated KB rows, superseded THESIS/SCENARIOS
 sections). Unscoped it returned 54/32 — that is alert fatigue, and a check
 nobody reads is worse than no check.
 
-  ⇒ THE SIGNAL IS THE DELTA, NOT THE LEVEL. A jump above the baseline means
-    something NEW rotted. Re-baseline in this docstring whenever you do a sweep.
+  ⇒ Since October14, compare stable source/type/token/anchor identities and multiplicity,
+    not aggregate tolerance. Removed history cannot offset a new hit. Reviewed
+    history lives in workbook/DRIFT_HISTORY_2026-10-14.json; missing/expired baseline
+    is not a pass. Named current-field checks cover the observed housekeeping gaps.
+    This remains a selected-claims advisory, not whole-desk or source certification.
 
 Advisory. Read-only. Exit 0 always.
 Usage:  python3 scripts/derived_drift_check.py [--quiet] [--root DIR]
@@ -82,16 +85,10 @@ def excused(text, start, end):
     return any(m in text[lo:end + MARKER_WINDOW].lower() for m in MARKERS)
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--root", default=os.path.join(os.path.dirname(__file__), ".."))
-    ap.add_argument("--quiet", action="store_true")
-    a = ap.parse_args()
-    root = os.path.abspath(a.root)
-
+def collect(root):
     canon = canonical(root)
     if canon is None:
-        return 0
+        return None, [], []
 
     drift, revived = [], []
 
@@ -189,82 +186,38 @@ def main():
                 revived.append((rel, line, row.get("died_on", "?"), text[m.start():m.end()][:70],
                                 (row.get("replacement") or "")[:80]))
 
+    return canon, drift, revived
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--root", default=os.path.join(os.path.dirname(__file__), ".."))
+    ap.add_argument("--quiet", action="store_true")
+    a = ap.parse_args()
+    root = os.path.abspath(a.root)
+    canon, drift, revived = collect(root)
+    if canon is None:
+        return 0
+    from maintenance_state_check import findings, compare_history, current_fields
+    import json, datetime
+    baseline_path = os.path.join(root, "workbook", "DRIFT_HISTORY_2026-10-14.json")
+    issues = current_fields(root)
+    new, cleared = {}, {}
+    if not os.path.exists(baseline_path):
+        issues.append(("history-baseline", "reviewed finding identities missing"))
+    else:
+        baseline = json.load(open(baseline_path, encoding="utf-8"))
+        new, cleared = compare_history(findings(root, drift, revived), baseline["reviewed_findings"])
+        if datetime.date.today().isoformat() > baseline["review_by"]:
+            issues.append(("history-review", "review date passed"))
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 16, 67      # TIGHTENED 2026-09-28 late (housekeeping): check-2 69 -> 67 as KB-126 and KB-055/056 went SUPERSEDED
-                                               # and the dead NEXUS 8/7 paragraph was trimmed; tightening can only false-alarm, never hide rot.
-                                               # Prior: 16, 69 RE-MEASURED 2026-09-28 (session #10 audit repair, research/AUDIT_2026-09-28.md), verified hit-by-hit:
-                                               # check-1 13 -> 16 = the audit's own ledger research/audit_2026-09-28/B_thesis.md quoting dead version tokens (:26, :35 x2),
-                                               # a record by design; the pre-existing +1 (LIVE_SURFACE_SWEEP:46 '200 rows') is KEPT in the count, not excused.
-                                               # check-2 61 -> 69 after 8 NEW RETIRED_CLAIMS rows (the whole point: they now catch variant wording). The +8 are
-                                               # ALL records or rows corrected in-row: audit ledgers A_dashboard.md x5 + C_workbook.md x1 (quoting what they found),
-                                               # LIVE_SURFACE_SWEEP_2026-09-24.md:19 (dated sweep record), KB-121 (now SUPERSEDED; its Fact is the dead claim) and
-                                               # KB-136 (Fact prefixed 'THREE ERRORS, corrected' -- marker outside the 220-char window). Every LIVE surface hit the new
-                                               # patterns found (POSITIONS:3, THESIS:19, Nano file :13, 10-Q frame :94, KB-153, STATUS, INDEX) was FIXED, not baselined.
-                                               # Prior baseline: 13, 61 -- 2026-09-24 live-surface sweep (research/LIVE_SURFACE_SWEEP_2026-09-24.md, 76 findings applied): check-2 FELL
-                                               # 63 -> 61 (two live assertions removed); check-1 12 -> 13, the +1 being that sweep report's own line 21 quoting
-                                               # 'v2.2' as its SUBJECT (a record). Verified hit-by-hit. ⚠️ The sweep found 15 HIGH items this check NEVER saw --
-                                               # it only matches version/EV/PT/KB-count tokens + RETIRED_CLAIMS patterns; stale POSITION and DATE claims are invisible to it.
-                                               # Earlier: 62 -> 63 2026-09-24 late (session #7 housekeeping): two more RETIRED_CLAIMS rows ('~$46M Cantor
-                                               # residual'; KB-173's '-1.7% share count'); FRAUD archiving removed hits, the new patterns add some. Verified
-                                               # hit-by-hit: every counted hit is a RECORD -- the new one is STATUS_ARCHIVE.md:252 inside the VERBATIM 9/2 snapshot
-                                               # (byte-identical by design, never edited). ⚠️ Known blind spot found 9/24 (the two lines were FIXED at 904f2e1cd; the mechanism stands): CLAUDE.md:16/150 still ASSERT '~$46M' but
-                                               # are EXCUSED by marker proximity (MARKER_WINDOW) -- a live claim this check cannot see.
-                                               # Earlier: 61 -> 62 2026-09-24 (session #7): TWO RETIRED_CLAIMS rows filed (KB-180's '$79.89 close'; the 9/2 tape set +
-                                               # '3 legs across 2 accounts'). Verified hit-by-hit: the ONE counted new hit is research/CATALYST_SWEEP_2026-09-24.md:150,
-                                               # the sweep's own caveat FLAGGING the $79.89 discrepancy (correct record). Two outbox 9/2 packets also match but sit outside the scan.
-                                               # Before that: RE-MEASURED 2026-09-24 (session #7, PROME L441): TIGHTENED 68 -> 63 -> 61 (the NEXUS re-pin shed 2 more) to the measured count, so the
-                                               # 5 hits that cleared (live STATUS/MEMORY rewritten lean; their dead-token audit lines now sit only in the
-                                               # verbatim archive snapshots) can no longer absorb 5 NEW ones. Tightening can only false-alarm, never hide rot.
-                                               # Check-1 stayed 12: the one +1 seen mid-session (INDEX.md:7 'KB 192' after rows 193-197 landed) was MY OWN
-                                               # mirror going stale within the hour -- fixed, not baselined.
-                                               # Prior: 12,68 RE-BASELINED 2026-08-28 #2 (read-cap hot/cold split). Was 12,54 earlier same day; 11,35 (8/23); 11,23 (8/20).
-                                               # check-2 +14, and the arithmetic RECONCILES EXACTLY -- verified before re-baselining:
-                                               #   STATUS_ARCHIVE.md contributes 17, MEMORY_ARCHIVE.md 6  = +23 in the two NEW cold files
-                                               #   the live files LOST 9 as that text moved out of them            = -9
-                                               #   net +14. NO LIVE SURFACE REGRESSED.
-                                               # ⚠️ THE COLD FILES ARE VERBATIM BY DESIGN, so they preserve dead tokens ON PURPOSE --
-                                               #    a hot/cold split necessarily RAISES this check, exactly as killing a claim does.
-                                               #    If this number jumps again, check whether the delta is confined to archive/* BEFORE
-                                               #    assuming rot: same reconciliation, archives-gain minus live-loss.
-                                               # 8/28 deltas, each verified hit-by-hit BEFORE re-baselining:
-                                               #   check-1 +1  = STATUS.md KB-count token, synced 180->183 this session; the residual
-                                               #                 12 are historical version cites inside dated records (correct as history).
-                                               #   check-2 +19 = the 3 NEW retired-claim patterns filed today (the 8/21 tape figures, the
-                                               #                 overvaluation series, and the 'not the cohort' verdict). Each matches its OWN
-                                               #                 death record and the audit-trail lines that preserve the superseded figure --
-                                               #                 e.g. POSITIONS.md:28 and NEXUS_BRIEF.md:9 deliberately ENUMERATE the dead
-                                               #                 tokens so nobody re-derives them. Those hits are the discipline working.
-                                               # check-2 moved 23 -> 35 for TWO known reasons, neither of them new rot:
-                                               #   +1  the 8/20 NEXUS_BRIEF re-pin landed AFTER the 8/20 baseline was written,
-                                               #       so the tree the number described was already one edit old. (Read 24/23 for
-                                               #       three days: a check permanently 1 above baseline trains its reader to ignore it.)
-                                               #   +11 SEVEN new RETIRED_CLAIMS patterns added 8/23 (the 77.5P 'lapsed' grade,
-                                               #       '3 legs', 'six consecutive down', the July '$83.11/+$5.11' buffer, 'PT $52-74',
-                                               #       'v2.3 is CURRENT', and the three dead threshold distances). Each new pattern
-                                               #       also matches the audit-trail lines that RECORD the death, whose marker sits
-                                               #       outside MARKER_WINDOW. Verified hit-by-hit 8/23: every 8/23-dated hit is a
-                                               #       line SAYING the claim is dead, not a surface still asserting it.
-                                               # ⚠️ KILLING A CLAIM RAISES THIS BASELINE. That is the tool's own cost of the discipline
-                                               #    it enforces, and it is why the docstring says re-baseline ON EACH SWEEP -- an
-                                               #    un-re-baselined check reads RED forever and stops being read.
-        # RE-CHECK DATE (PROME L441 packet 2026-09-23): a frozen baseline on the comparison side lets
-        # cleared old hits absorb the same count of NEW ones and still print ✓. So the baseline carries
-        # a date by which it must be RE-MEASURED from source (never bumped to match), and the check says
-        # so itself once that date passes -- a comment nobody reads is not a control.
-        # Re-measured 2026-10-14: all 16 value / 67 retired-pattern hits inspected as
-        # dated/corrected records; no increased tolerance. Full contexts and review
-        # receipt: sources/followup_2026-10-13/drift_full_hit_context_2026-10-14.json.
-        BASE_RECHECK_BY = "2026-10-19"         # next existing print; also re-check at every thesis bump
-        import datetime as _dt
-        if _dt.date.today().isoformat() > BASE_RECHECK_BY:
-            print(f"⚠️ derived-drift baseline re-check OVERDUE (due {BASE_RECHECK_BY}): re-measure "
-                  f"hit-by-hit and re-record, or the ✓ below can hide new rot behind cleared history")
-        if len(drift) > BASE_DRIFT or len(revived) > BASE_REVIVED:
-            print(f"🔴 derived drift ABOVE BASELINE: {len(drift)}/{BASE_DRIFT} stale value token(s), "
-                  f"{len(revived)}/{BASE_REVIVED} retired claim(s) — something NEW rotted; run without --quiet")
+        if issues or new:
+            print(f"CHECK: {len(issues)} named-field issues / {sum(new.values())} new claim identities; totals {len(drift)}/{len(revived)}")
+            for issue in issues:
+                print("  ", *issue)
         else:
-            print(f"✓ derived drift at/below baseline ({len(drift)}/{BASE_DRIFT} · {len(revived)}/{BASE_REVIVED}) "
-                  f"— residual is known history; the SIGNAL IS THE DELTA")
+            print(f"Selected checks pass: no new identities or named-field disagreements; {len(drift)}/{len(revived)} reviewed-pattern hits, {sum(cleared.values())} cleared.")
+        print("Scope is limited; a pass does not certify every current statement, external source or trade rule.")
         return 0
 
     print(f"DERIVED-SURFACE DRIFT CHECK — canonical: {canon['version']} · EV ${canon['ev']} · PT ${canon['pt']}")

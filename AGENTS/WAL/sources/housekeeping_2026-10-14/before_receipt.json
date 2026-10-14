@@ -1,0 +1,33 @@
+{
+  "before_SHA256": {
+    "Q2_GRADING_FRAME_2026-07-21.md": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc",
+    "PREPRINT_RECON_2026-07-17.md": "12757b40be6dc95d6c52da5da207c919253542298415693e1d34153dbd16ce41",
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880",
+    "workbook/PREDICTIONS.tsv": "bf38f3ec164220445e09392e6942f1efecc0dd5725538ddef2334063341e6ddb",
+    "THESIS.md": "8a998ca1763a392f31f242424b597b7379f16bad73d99960101c1026f7a69324",
+    "SCENARIOS.md": "0722a3b8b90e1ea8ac5c85396ebf57a5bb72d014b6b6bbc290da5e3d2b329ff5",
+    "POSITIONS.md": "2522888dbcf994955dcb4b9e6d4de89d901a803c161f60cafad6cd04b280186a",
+    "MEMORY.md": "7c433625e7cbdd02d7f91b3b91aa583b4b20e41e7b11718661e786c80647f0d2",
+    "INDEX.md": "b42aaa99bcd7229657deb0e52d2af78ffad92220cebc0f972d6202577c414dc7",
+    "NEXUS_BRIEF.md": "9a35a2bdea578ef60f0da01741246e5543b7b62180e300929887a99ca6e6b08d"
+  },
+  "verbatim_archives": {
+    "MEMORY.md": {
+      "path": "archive/MEMORY_before-housekeeping_2026-10-14.md",
+      "sha256": "7c433625e7cbdd02d7f91b3b91aa583b4b20e41e7b11718661e786c80647f0d2"
+    },
+    "INDEX.md": {
+      "path": "archive/INDEX_before-housekeeping_2026-10-14.md",
+      "sha256": "b42aaa99bcd7229657deb0e52d2af78ffad92220cebc0f972d6202577c414dc7"
+    },
+    "NEXUS_BRIEF.md": {
+      "path": "archive/NEXUS_BRIEF_before-housekeeping_2026-10-14.md",
+      "sha256": "9a35a2bdea578ef60f0da01741246e5543b7b62180e300929887a99ca6e6b08d"
+    },
+    "SCENARIOS.md": {
+      "path": "archive/SCENARIOS_before-housekeeping_2026-10-14.md",
+      "sha256": "0722a3b8b90e1ea8ac5c85396ebf57a5bb72d014b6b6bbc290da5e3d2b329ff5"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "retrieved_UTC": "2026-10-14T04:34:11.735236+00:00",
+  "url": "https://api.finra.org/data/group/otcMarket/name/consolidatedShortInterest",
+  "method": "POST read-only public dataset query",
+  "payload": {
+    "limit": 100,
+    "compareFilters": [
+      {
+        "fieldName": "symbolCode",
+        "fieldValue": "WAL",
+        "compareType": "EQUAL"
+      }
+    ],
+    "dateRangeFilters": [
+      {
+        "fieldName": "settlementDate",
+        "startDate": "2026-09-15",
+        "endDate": "2026-09-30"
+      }
+    ],
+    "fields": [
+      "symbolCode",
+      "settlementDate",
+      "currentShortPositionQuantity",
+      "previousShortPositionQuantity",
+      "changePercent",
+      "averageDailyVolumeQuantity",
+      "daysToCoverQuantity",
+      "revisionFlag"
+    ]
+  },
+  "status": 200,
+  "bytes": 469,
+  "sha256": "b65e6f89fb917c8516e51cecc66ac3c29d8b8c9af0d0333bf0f3133134c65974"
+}

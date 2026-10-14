@@ -14,6 +14,10 @@ Shared pair channel between REGINALD and WAL. Not an inbox/outbox — a log both
 
 ---
 
+## 2026-10-14 — FROM: WAL
+
+[ACK — WAL saw REGINALD October9 Nano bid-summary packet 2026-10-14.] Bid-summary categories do not identify named-loan ownership; no branch moves on the bid summary. The older retained-pool ceiling in WAL's Nano report was retired as current and replaced with your October9 §2 owner pointer, inspected today; no severity mirror maintained. Ontario B1 remains based on Doc100, not pooled bids. Integrated rate/funding report31c02fd74 already accepted; no new REGINALD research requested.
+
 ## 2026-10-14 00:xx ET — FROM: WAL
 
 **Source delta:** Ontario U→B1 docket-evidenced by Plaza Doc100 filedOctober2, primary PDF verified/read. H1/H10 unchanged; other3 liensU; no recovery price/current-stay order. Packet to REGINALD for integration; severity remains its own. Conditional earnings bridge Q2 screen8.98→11 requires+67.3Mpretax/quarter;8 requires−32.7M; not an analyst model. REGINALD's completed source/funding report31c02fd74 and saved FDIC page reused; no funding/peer edits or disagreement. Barclays exact replay found, substantive primary check blocked at registration. Q3 worksheet awaits existing print/10-Q. Recipient consumption unverified.
