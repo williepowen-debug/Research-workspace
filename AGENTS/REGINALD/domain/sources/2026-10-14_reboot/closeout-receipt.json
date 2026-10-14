@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-14",
+  "scope": "Will-directed closeout/fresh operational boot",
+  "runtime": "OpenAI Codex/GPT-6 family; exactvariantUNKNOWN",
+  "session": "01a13856-5a8b-7380-ba26-d4d871a7b0ed",
+  "reboot_in_existing_runtime": true,
+  "boot_modules": {
+    "OK": 7,
+    "ALERT": 1,
+    "alert": "CFG existingOct8 item5.03"
+  },
+  "network": "sandbox failure retained; permission-enabled retry completed",
+  "workbook_tsv_schema_pass": 16,
+  "refreshed_vx_rows": [
+    "VX-REG-1.01",
+    "VX-REG-6.03",
+    "VX-REG-18.02",
+    "VX-REG-18.04",
+    "VX-REG-18.05"
+  ],
+  "wal_exit_rows": 30,
+  "grade_end": "2026-10-13",
+  "current_day_excluded": true,
+  "frozen_baseline_byte_checks": {
+    "DARKPOOL.tsv": true,
+    "SHORT_VOL.tsv": true,
+    "SHORT_INTEREST.tsv": true,
+    "FLOW.tsv": true,
+    "OPTIONS_OI.tsv": true
+  },
+  "predictions_byte_unchanged": true,
+  "workout_bridge_byte_unchanged": true,
+  "writer_checks": "darkpool/shortvolume frozen no mutation; live append/dedupe verified; shortinterest frozen no mutation; missing darkpool data emits NO DATA",
+  "kb_id_uniqueness": true,
+  "vx_id_uniqueness": true,
+  "memory_crc": "254fb676",
+  "final_walter_inbox_unprocessed": [],
+  "peer_inbox_seen": [
+    "inbox/2026-10-12_from-PROME_APPROVED-opportunity-discovery-pass.md",
+    "inbox/2026-10-13_from-WAL_Q2-hedges-rate-model-source-supplement.md",
+    "inbox/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+    "inbox/2026-10-12_from-CARL_SoFi-Q2-transfer-risk-supplement.md",
+    "inbox/2026-10-12_from-WATT_IRAS-core-rejected-WATT10-MISS.md",
+    "inbox/2026-10-12_from-CARL_fintech-consumer-feed-definition-and-Q2-seed.md",
+    "inbox/2026-10-13_from-PROME_Will-directed-WAL-rate-funding-reconciliation.md",
+    "inbox/2026-10-14_from-WAL_Nano-bid-summary-integrated.md",
+    "inbox/2026-10-12_from-OZK_wrap-up-consumer-handoff.md",
+    "inbox/2026-10-14_from-WAL_Ontario-primary-and-earnings-bridge.md",
+    "inbox/2026-10-12_from-TERRY_L694-EGBN-feasibility.md",
+    "inbox/2026-10-12_from-DEWEY_cato-causal-wording-consumption.md",
+    "inbox/2026-10-12_from-PROME_Will-approved-morning-regional-bank-tape.md",
+    "inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "inbox/2026-10-14_from-PROME_compound-stress-evidence.json"
+  ],
+  "peer_inbox_disposition": "Prior approval/source records retain existing completion/deferral; newPROMEpacket read and loggedKB226; no new task commissioned. WAL/OZK working artifacts not edited.",
+  "calendar_positions_deck_scratch": "CALENDAR unchanged no new verified dates;POSITIONS latest dated workingmirror checked after broker evidence arrived;DECK remains frozen;SCRATCH no unfinished work.",
+  "git": "own pathspec commits; no pull/rebase with outside dirty work; safe-push at closeout",
+  "no_new_fire_score_trade": true,
+  "position_mirror": {
+    "reconcile": "2026-10-14 PROME/ANVIL workingFORGE mirror plus acceptance",
+    "mirror_sha256": "f5d6fa028d01d2e8805f2225eb1161393d2b9b59f2e849087b90e0c9137448b4",
+    "acceptance_sha256": "3e9a58864ae7cd149feb9bc63f27541097359849c2a8d407d7b965f8291be9fc",
+    "scope": "Known-owned Fidelity KRE Dec18 60P total5,Dec31 65P2/HBAN2/APO1 unchanged;KRE Nov27 67P4 bought10/12 unassigned D77,not research authority;WAL/OZK peer-owned;QQQ fills outside scope",
+    "unknowns": "exact capture times/accountidentity;RH9/29 carried",
+    "no_bank_put_fill": true,
+    "prior_header_crc": "c6fdfd30"
+  },
+  "checks": {
+    "read_cap": "PASS within charter-heuristic perimeter; no declaration of exhaustive loader coverage",
+    "weekday": "PASS STATUS/CALENDAR",
+    "corrections": "PASS zero unreceipted named rows",
+    "scoped_diff": "PASS",
+    "position_lot_description_prior_crc": "5bc5d9d3"
+  }
+}

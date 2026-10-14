@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-14",
+  "packet": "inbox/2026-10-14_from-PROME_compound-stress-evidence.json",
+  "source": "/home/willi/Research-workspace/PROME/research/2026-10-14_compound-stress/synthesis.json",
+  "source_sha256": "9542101224b44a05d3fe70e777cc42d820faa45e33b99eae7ece1e38a42c39fb",
+  "read_scope": "packet and full synthesis; component primary bodies not newly reverified here",
+  "integration": "Retain new CMBS workout/maturity, cash-versus-PIK and AI power-contract source pointers for existing Q3 work. Completed REGINALD screen/synthesis reused, not recommissioned. No changed total-loss estimate, bank ranking, score, gate, probability, trade or monitor.",
+  "gaps": "Current retained lender shares, DLIC draw, borrower-bank joins and stressed capital adequacy remain UNKNOWN; pension coverage question retained by PROME.",
+  "components": [
+    "/home/willi/Research-workspace/PROME/research/2026-10-14_compound-stress/property_funding.json",
+    "/home/willi/Research-workspace/PROME/research/2026-10-14_compound-stress/nonbank_credit.json",
+    "/home/willi/Research-workspace/PROME/research/2026-10-14_compound-stress/ai_market_funding.json",
+    "/home/willi/Research-workspace/PROME/research/2026-10-14_compound-stress/household_small_business.json"
+  ]
+}

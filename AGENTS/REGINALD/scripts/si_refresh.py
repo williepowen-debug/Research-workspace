@@ -80,6 +80,14 @@ def get_last_tsv_entry(ticker):
 
 def append_tsv(data):
     """Append new entries to SHORT_INTEREST.tsv."""
+    if SI_TSV.exists():
+        with SI_TSV.open() as f:
+            for line in f:
+                if line.startswith('# FROZEN '):
+                    print("  SHORT_INTEREST.tsv is FROZEN; no rows appended")
+                    return None
+                if line.strip() and not line.startswith('#'):
+                    break
     existing = set()
     if SI_TSV.exists():
         with open(SI_TSV) as f:
@@ -148,7 +156,9 @@ def main():
 
     # Append to TSV
     appended = append_tsv(data)
-    if appended > 0:
+    if appended is None:
+        pass  # The freeze explanation was printed by the writer.
+    elif appended > 0:
         print(f"\n  Appended {appended} new entries to SHORT_INTEREST.tsv")
     else:
         print(f"\n  No new data to append (same reporting date)")

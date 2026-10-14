@@ -113,6 +113,8 @@ def fetch_short_volume(date_str=None):
 
 def append_darkpool_tsv(date_str, data):
     """Append today's darkpool readings to DARKPOOL.tsv if not already present."""
+    if ledger_frozen(DARKPOOL_TSV):
+        return None
     existing = set()
     if DARKPOOL_TSV.exists():
         with open(DARKPOOL_TSV) as f:
@@ -121,15 +123,20 @@ def append_darkpool_tsv(date_str, data):
                 if len(parts) >= 2:
                     existing.add((parts[0], parts[1]))
 
+    added = 0
     with open(DARKPOOL_TSV, 'a') as f:
         for ticker, d in data.items():
             if (date_str, ticker) not in existing:
                 delta = round(d['off_ex_pct'] - d['avg_30d'], 1) if d['avg_30d'] else ''
                 f.write(f"{date_str}\t{ticker}\t{d['off_ex_vol']}\t{d['total_vol']}\t{d['off_ex_pct']}\t{d.get('avg_30d', '')}\t{delta}\n")
+                added += 1
+    return added
 
 
 def append_short_vol_tsv(date_str, data):
     """Append today's short volume to SHORT_VOL.tsv if not already present."""
+    if ledger_frozen(SHORT_VOL_TSV):
+        return None
     existing = set()
     if SHORT_VOL_TSV.exists():
         with open(SHORT_VOL_TSV) as f:
@@ -138,10 +145,26 @@ def append_short_vol_tsv(date_str, data):
                 if len(parts) >= 2:
                     existing.add((parts[0], parts[1]))
 
+    added = 0
     with open(SHORT_VOL_TSV, 'a') as f:
         for ticker, d in data.items():
             if (date_str, ticker) not in existing:
                 f.write(f"{date_str}\t{ticker}\t{d['short']}\t{d['total']}\t{d['pct']}\n")
+                added += 1
+    return added
+
+
+def ledger_frozen(path):
+    """Honor a ledger's existing freeze instead of updating its historical rows."""
+    if not path.exists():
+        return False
+    with path.open() as f:
+        for line in f:
+            if line.startswith('# FROZEN '):
+                return True
+            if line.strip() and not line.startswith('#'):
+                break
+    return False
 
 
 def print_summary(dp_data, sv_data, sv_date):
@@ -161,7 +184,10 @@ def print_summary(dp_data, sv_data, sv_date):
         avg = f"{dp.get('avg_30d', 0):.1f}%" if dp and dp.get('avg_30d') else '—'
         delta = dp.get('off_ex_pct', 0) - dp.get('avg_30d', 0) if dp and dp.get('avg_30d') else 0
 
-        if delta > 10:
+        if not dp or not dp.get('avg_30d'):
+            signal = 'NO DATA' if not dp else 'NO BASELINE'
+            flag = ''
+        elif delta > 10:
             signal = 'VERY ELEVATED'
             flag = ' ***'
         elif delta > 5:
@@ -216,12 +242,14 @@ def main():
     # Append to TSVs
     today = datetime.now().strftime('%Y-%m-%d')
     if dp_data:
-        append_darkpool_tsv(today, dp_data)
-        print(f"  Updated DARKPOOL.tsv ({len(dp_data)} tickers)")
+        added = append_darkpool_tsv(today, dp_data)
+        print("  DARKPOOL.tsv is FROZEN; no rows appended" if added is None
+              else f"  Updated DARKPOOL.tsv ({added} new rows)")
 
     if sv_data and sv_date:
-        append_short_vol_tsv(sv_date, sv_data)
-        print(f"  Updated SHORT_VOL.tsv ({len(sv_data)} tickers, date: {sv_date})")
+        added = append_short_vol_tsv(sv_date, sv_data)
+        print("  SHORT_VOL.tsv is FROZEN; no rows appended" if added is None
+              else f"  Updated SHORT_VOL.tsv ({added} new rows, date: {sv_date})")
 
     print()
 

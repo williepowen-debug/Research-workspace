@@ -1,0 +1,11 @@
+{
+  "checked": "2026-10-14",
+  "unchanged_during_boot": {
+    "DARKPOOL.tsv": true,
+    "SHORT_VOL.tsv": true,
+    "SHORT_INTEREST.tsv": true,
+    "FLOW.tsv": true,
+    "OPTIONS_OI.tsv": true
+  },
+  "all_unchanged_from_committed_baseline": true
+}

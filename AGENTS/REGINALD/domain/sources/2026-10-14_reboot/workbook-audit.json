@@ -1,0 +1,114 @@
+{
+  "ACL_ROLLFORWARD_COHORT.tsv": {
+    "columns": 10,
+    "rows": 168,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "13f103e09208505526059d0ae0ea1f4a05c31e1b5183d95bec4026636d3e8c1c"
+  },
+  "CRE_RCN_COHORT.tsv": {
+    "columns": 36,
+    "rows": 70,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "2647eeedac3232fe38fed3e22012e39730ec260173f894785ead51c566500f85"
+  },
+  "DARKPOOL.tsv": {
+    "columns": 7,
+    "rows": 34,
+    "bad_schema": [],
+    "frozen": true,
+    "sha256": "44cd616242c8eea7ee24cab926a9a4c28f3932eefccb6edeafbf571e187932a1"
+  },
+  "SHORT_VOL.tsv": {
+    "columns": 5,
+    "rows": 450,
+    "bad_schema": [],
+    "frozen": true,
+    "sha256": "e8682c906f627ac19afbfa52784927673c9a68dfa51c6ae6d000fc4b0b962387"
+  },
+  "KB.tsv": {
+    "columns": 15,
+    "rows": 222,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "b20a61aa24594ca0411e47cbad3a77fbe5872319a5860aea85be6d5807753c77"
+  },
+  "SHORT_INTEREST.tsv": {
+    "columns": 6,
+    "rows": 80,
+    "bad_schema": [],
+    "frozen": true,
+    "sha256": "d99d8a3ecb9a910a1fbbf1b856d45e6618d35eb08139f28a285bc6b2b92f5595"
+  },
+  "AOCI_COHORT_2026Q2.tsv": {
+    "columns": 18,
+    "rows": 14,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "398220db35f6c3d21cfd949579a70bf0fdb1445203bdda3f126130c342b35b6f"
+  },
+  "MI3_COHORT.tsv": {
+    "columns": 25,
+    "rows": 168,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "ea05ddeb81f49ac50463d61d2041acb91d597f3972df894ab7d7eeb689e09050"
+  },
+  "VX.tsv": {
+    "columns": 13,
+    "rows": 62,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "32597838b5a24775467f6517b5222dfcea5abb175f98f4125d2b7a07ebdcca71"
+  },
+  "PREDICTIONS.tsv": {
+    "columns": 10,
+    "rows": 20,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "eca312a04899baa53ea569c0eaac1679f2cbed158dc4399c680684c6e4194cbd"
+  },
+  "WORKOUT_OUTCOME_BRIDGE.tsv": {
+    "columns": 43,
+    "rows": 21,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "236c1ecaefa2eb5dc60dac6e35734f3fa5b33f086ad9d4d1a7c4a118012d52e2"
+  },
+  "RUNWAY_COHORT.tsv": {
+    "columns": 10,
+    "rows": 168,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "493a1e4afe1a8fb4c480c9f6ce1ab27b62726b15af8c9a240a888381b6ec4248"
+  },
+  "NDFI_COHORT.tsv": {
+    "columns": 20,
+    "rows": 26,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "4c9633f35daa10f966e31d1aeb3508868779767025290284e6a14b360c3266e0"
+  },
+  "FUNDING_COHORT_2026Q2.tsv": {
+    "columns": 25,
+    "rows": 30,
+    "bad_schema": [],
+    "frozen": false,
+    "sha256": "e2c47063d6702650503bf6f19f8a1bf40f5f4376c54ca11df4060a39782ff7a9"
+  },
+  "FLOW.tsv": {
+    "columns": 11,
+    "rows": 21,
+    "bad_schema": [],
+    "frozen": true,
+    "sha256": "dac91bacdd9738510d7c64c965caa3828cf1e33ae084f5e259895db0958f3aec"
+  },
+  "OPTIONS_OI.tsv": {
+    "columns": 9,
+    "rows": 17,
+    "bad_schema": [],
+    "frozen": true,
+    "sha256": "430f724fe0c68b87b289f655991d3794fd320bdc0c845489ee5d966c7597d5dc"
+  }
+}

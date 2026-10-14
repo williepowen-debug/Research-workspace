@@ -1,0 +1,230 @@
+
+######################################################################
+#                                                                    #
+#                       REGINALD BOOT SEQUENCE                       #
+#                                                                    #
+#                  Wednesday, October 14, 2026  11:09                #
+#                                                                    #
+######################################################################
+
+  ⏳ Running Market Prices...
+
+=============================================
+  Positions
+=============================================
+  ⚪ WAL      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ OZK      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ KRE      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ ZION     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ EGBN     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ SSB      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ IWM      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ HYG      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ TLT      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ CF       (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ STNG     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ AAL      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+
+=============================================
+  Watchlist
+=============================================
+  ⚪ LNG      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ APO      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ FLG      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ CFG      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ VLY      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ USO      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+
+=============================================
+  Benchmarks
+=============================================
+  ⚪ SPY      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ QQQ      (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ DX-Y.NYB (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ CL=F     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ BZ=F     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ GC=F     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ ^TNX     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+  ⚪ ^VIX     (error: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+
+  Note: CL=F = WTI Crude, ^TNX = 10Y Yield, DXY=F = Dollar Index
+
+
+  ⏳ Running Dark Pool + Short Vol...
+  Fetching dark pool data from chartexchange...
+  Fetching short volume from FINRA...
+
+======================================================================
+  REGINALD Dark Pool Monitor — 2026-10-14
+======================================================================
+
+  Ticker    Off-Ex%  30d Avg    Delta Signal             Short%
+  ------------------------------------------------------------
+  WAL             —        —        — Normal                  —
+  OZK             —        —        — Normal                  —
+  KRE             —        —        — Normal                  —
+  EGBN            —        —        — Normal                  —
+  ZION            —        —        — Normal                  —
+  CFG             —        —        — Normal                  —
+
+
+
+
+  ⏳ Running Thresholds...
+
+======================================================================
+  REGINALD Threshold Monitor — 2026-10-14 11:09
+======================================================================
+
+  ERROR: Could not fetch any prices. Check network.
+
+
+  ⏳ Running KRE Float...
+
+======================================================================
+  REGINALD KRE Float Monitor — 2026-10-14 11:09
+======================================================================
+  ERROR: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+  ERROR: Could not fetch KRE data.
+
+
+  ⏳ Running Earnings Countdown...
+
+======================================================================
+  REGINALD Earnings Countdown — 2026-10-14 11:09  (source: CALENDAR.md)
+======================================================================
+
+  Ticker        Date  Trd  Status          Q      Timing
+  --------------------------------------------------------------------
+  CFG    Fri Oct 16    2  ✓ confirmed     Q1     pre-open (time inferred); call 09:00 ET  🔴 ≤2d
+  MTB    Fri Oct 16    2  ✓ confirmed     ctx    pre-open  🔴 ≤2d
+  WAL    Mon Oct 19    3  ✓ confirmed     Q1 Q2  after close; call Tue 10/20 12:00 ET  ⚠️  ≤5d
+  OZK    Tue Oct 20    4  ✓ confirmed     Q1 Q2  after close; call Wed 10/21 08:30 ET  ⚠️  ≤5d
+  BKU    Wed Oct 21    5  ✓ confirmed     FL     before open; call 09:00 ET  ⚠️  ≤5d
+  EGBN   Wed Oct 21    5  ✓ confirmed     Q1 Q2  after close; call Thu 10/22 10:00 ET  ⚠️  ≤5d
+  SSB    Wed Oct 21    5  ✓ confirmed     FL     after close; call Thu 10/22 09:00 ET  ⚠️  ≤5d
+  AMTB   Thu Oct 22    6  ✓ confirmed     Q3 FL  after close; call Fri 10/23 09:00 ET  🟡 ≤10d
+  CUBI   Thu Oct 22    6  ~ESTIMATE       Q1     after close (pattern)  🟡 ≤10d
+  VLY    Thu Oct 22    6  ✓ confirmed     ctx    before open; call 08:30 ET  🟡 ≤10d
+  FLG    Fri Oct 23    7  ~ESTIMATE       Q2     before open (pattern)  🟡 ≤10d
+  SBCF   Tue Oct 27    9  ✓ confirmed     FL     after close; call Wed 10/28 10:00 ET  🟡 ≤10d
+
+  ⚠️  NOT ANNOUNCED (dates above are estimates): CUBI, FLG
+
+
+
+  ⏳ Running Short Interest...
+
+======================================================================
+  REGINALD Short Interest Monitor — 2026-10-14 11:09
+======================================================================
+
+  ERROR: Could not fetch short interest data.
+
+
+  ⏳ Running Insider Activity...
+
+======================================================================
+  REGINALD Insider Monitor — 2026-10-14 11:09 (last 14 days)
+======================================================================
+
+  CFG (Citizens Financial Group) — SEC CIK 759944
+  --------------------------------------------------
+  🔴 FAILED — request failed. This is NOT 'no filings'. NO VERDICT.
+
+  CUBI (Customers Bancorp) — SEC CIK 1488813
+  --------------------------------------------------
+  🔴 FAILED — request failed. This is NOT 'no filings'. NO VERDICT.
+
+  EGBN (Eagle Bancorp Inc) — SEC CIK 1050441
+  --------------------------------------------------
+  🔴 FAILED — request failed. This is NOT 'no filings'. NO VERDICT.
+
+  FLG (Flagstar Bank, N.A.) — SEC CIK 910073
+  --------------------------------------------------
+  🔴 FAILED — request failed. This is NOT 'no filings'. NO VERDICT.
+
+  OZK (Bank OZK) — FDIC cert 110
+  --------------------------------------------------
+  🔴 FAILED: request failed
+
+  AMTB (Amerant Bancorp) — SEC CIK 1734342
+  --------------------------------------------------
+  🔴 FAILED — request failed. This is NOT 'no filings'. NO VERDICT.
+
+  WAL (Western Alliance Bancorporation) — SEC CIK 1212545
+  --------------------------------------------------
+  🔴 FAILED — request failed. This is NOT 'no filings'. NO VERDICT.
+
+  fetched 0 ok / 7 failed
+  🔴 SCAN FAILED — ZERO successful EDGAR fetches. This is NOT 'no insider buying';
+     it is NO DATA. Do not read the absence of an alert as evidence.
+     URLError: <urlopen error [Errno -3] Temporary failure in name resolution> <- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=759944&type=4&dateb=&owner= (after 3 attempts)
+     URLError: <urlopen error [Errno -3] Temporary failure in name resolution> <- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1488813&type=4&dateb=&owner (after 3 attempts)
+     URLError: <urlopen error [Errno -3] Temporary failure in name resolution> <- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1050441&type=4&dateb=&owner (after 3 attempts)
+     URLError: <urlopen error [Errno -3] Temporary failure in name resolution> <- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=910073&type=4&dateb=&owner= (after 3 attempts)
+     URLError: <urlopen error [Errno -3] Temporary failure in name resolution> <- https://securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/110 (after 3 attempts)
+
+
+
+  ⏳ Running 8-K Monitor...
+
+======================================================================
+  REGINALD 8-K Monitor — 2026-10-14 11:10 (last 7 days)
+======================================================================
+
+  CFG — SEC CIK 759944
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  CUBI — SEC CIK 1488813
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  EGBN — SEC CIK 1050441
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  FLG — SEC CIK 910073
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  OZK — FDIC FLNG cert 110 (OZK desk flng_watch)
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  AMTB — SEC CIK 1734342
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  WAL — SEC CIK 1212545
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  ZION — SEC CIK 109380
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  VLY — SEC CIK 714310
+  ⚠️  FAILED: request failed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+  ⚠️  INCOMPLETE — NO VERDICT for 9 name(s): CFG [FAILED], CUBI [FAILED], EGBN [FAILED], FLG [FAILED], OZK [FAILED], AMTB [FAILED], WAL [FAILED], ZION [FAILED], VLY [FAILED]. This run certifies nothing about them.
+  (read cleanly: NONE)
+
+
+
+======================================================================
+  BOOT SUMMARY
+======================================================================
+
+  Script                      Status     Time
+  ---------------------------------------------
+  ✅ Market Prices                   OK    1.0s
+  ✅ Dark Pool + Short Vol           OK    9.1s
+  ✅ Thresholds                      OK    0.5s
+  ❌ KRE Float                     FAIL    0.5s
+  ✅ Earnings Countdown              OK    0.0s
+  ✅ Short Interest                  OK    0.5s
+  ⚠️  Insider Activity        INCOMPLETE   29.8s
+  ⚠️  8-K Monitor             INCOMPLETE   40.1s
+
+  Total boot time: 81.5s
+  Date: 2026-10-14 | Day: Wednesday
+
+  ❌ FAILED: KRE Float
+
+  ⚠️  INCOMPLETE (no verdict for some names): Insider Activity, 8-K Monitor
+
