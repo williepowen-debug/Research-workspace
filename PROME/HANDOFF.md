@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Resume:** [October14 Standard closeout](reports/2026-10-14_standard-closeout.md) records review and delivery; [earlier Bounce](reports/2026-10-14_PROME-restart.json) preserves its checkpoint; [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns next actions and generated queue/calendar. [STATUS](STATUS.md) indexes current work. Will requested PROME only; other owner windows continue.
+**Resume:** [Planning Bounce](reports/2026-10-14_repair-plan-restart.json) is the latest immediate-restart boundary; [October14 Standard closeout](reports/2026-10-14_standard-closeout.md) retains the broader review/delivery record; [earlier Bounce](reports/2026-10-14_PROME-restart.json) preserves its checkpoint. [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns the requested repair-plan entry point and generated queue/calendar. [STATUS](STATUS.md) indexes current work. Will requested PROME only; other owner windows continue.
 
 **Post-closeout continuation:** Will requested moving forward on CATO's efficiency recommendations. [Bounded repair proposal](proposals/2026-10-14_closeout-display-verification-PROPOSAL.md) owns the display-applicability and delivery/dependency design, acceptance cases and review disposition; [readiness evidence](reports/2026-10-14_closeout-repair-readiness.json) reproduces the DEWEY mismatch and identifies the stale calendar-patch precondition. No runtime repair installed in this continuation; recover the existing maintenance order and proposal before implementing in a fresh eligible session.
 
