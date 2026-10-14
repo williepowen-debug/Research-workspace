@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-14 closeout/fresh boot complete; STATUS pin `2903e7de4`.** Gates retain10/13 settled bars/FRED and10/14 ~11:14ET vendor quotes; no new registered fire. WQ-419 accepted by PROME (`9451933aa`/`c7f945a95`), peer reads unverified; WQ-414 accepted `1b937462e`. **FHLB → `research/FHLB/` (README first).** No score, cohort, frozen frame or trade change.
+**As of:** **2026-10-14 noon boot/perspective complete; STATUS pin `69bd0ad84`.** Rechecked10/13 settled bars/FRED;10/14 12:11ET vendor quotes; no new fire. Receipt→`reports/2026-10-14_noon-boot-perspective.md`; same-bank credit/earnings/funding is the question. Mid-session BAC Q3 chargeoffs down/reserve release weigh against broad acceleration;regional CRE not cleared. Miami model INFO_ONLY;source limits retained. WQ-419 accepted (`9451933aa`/`c7f945a95`),peer reads unverified;WQ-414 accepted `1b937462e`. FHLB→`research/FHLB/README.md`. No score,cohort,frozen-frame or trade change.
 
 ## CROSS-DOMAIN
 
@@ -72,7 +72,7 @@
 
 ## CALIBRATION
 
-- **Conviction (decomposed):** direction-H on the *concentration* shape (5 independent confirmations; cross-bank Q2 CRE bad-loan rate FELL 2.46% → 2.23%; WQ-318 adds: funding not breaking at 6/30) · timing-M (resolvers: the 10/16–10/27 prints, then the 11/07 Call Report run) · level — my live level claims are threshold distances: **WAL $3.31 under$78 [10/12 settled] (FIRED), HY9bp under320 [10/12] (0-of-3), B10bp over300 [10/12], claims103K under300K [w/e10/3], KRE$9.06 over60 [10/13 quote], FLG through RED.**
+- **Conviction (decomposed):** direction-H on the *concentration* shape (5 independent confirmations; cross-bank Q2 CRE bad-loan rate FELL 2.46% → 2.23%; WQ-318 adds: funding not breaking at 6/30) · timing-M (resolvers: the 10/16–10/27 prints, then the 11/07 Call Report run) · level — **current threshold distances and dated observations→STATUS §THRESHOLD STATUS; WAL remains FIRED, HY0-of-3, FLG RED.** June figures do not clear October funding/capital; no demonstrated joint valuation edge.
 - **Diverge from market by:** less than at any point this year, and honestly so — the narrowing was driven by my own grades, not the tape. Where I still diverge: the market reads benign GSE MF headlines and clean small-tier prints at face value; I carry both as composition-masked (modification suppression; definitional NPA exclusions at BKU).
 - **Uncertain about:** (1) **whether the bank-equity leg is now running AHEAD of credit** (HY half-retraced while KRE/FLG/OZK kept falling) — a non-credit repricing my instruments cannot see, or credit about to re-widen into the prints; (2) whether CFG's +$3.85B Q2 FHLB draw is brokered substitution (INFERENCE) or funding pressure; (3) magnitude attributable to OZK news (owner found Oct6 short-bridge disclosure; Oct12 executed-extension primary now consumed, causal share unmeasured); (4) the MI3 cohort-selection rule, decide before 11/07; (5) **whether the small-bank borrowing step-up continues (10/16 H.8), how much of it is FHLB, and whether a Q3 print shows it with deposits leaving.**
 - **Failure patterns to mind:** a detector that exists only as a TSV cell has no lag guarantee — the FLG band-1 break sat 8 days, the band-2 break was caught at the first boot (zero lag) once `vx_ladder_check.py` existed (census every other frozen-baseline band into it); a broker chart's last print at the bell is not the vendor close (WAL $75.21 vs $75.76 on 9/29 — grade the settled bar, label the other); a correction to my figure gets the same recompute as the figure (lesson 40).
@@ -85,7 +85,7 @@
 
 **WAL reconciliation accepted / session closed,10/13:** `reports/2026-10-13_WAL_rate-funding-reconciliation.md`; PROME acceptance and earlier GitHub sync confirmed by Will-relayed instruction. WAL owns separate expectations/valuation work; no more research here this session. REGINALD Q3 coverage obligations remain below and in CALENDAR. New closeout sync is pending; source/disclosure limits persist.
 
-- **What:** **the Q3 read plan's frames, one per print, CFG first (Fri 10/16)**: WQ-318 rows (UP/DOWN/INCONCLUSIVE per bank), CRE §6 lines, L35/L521, FL frame + A3, AMTB non-CRE lines. **The §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION.** Plus `REG-T-02` exit grading every settled close (0-of-3,29 rows through10/12), the tier test on each FRED cell, and the weekly funding read (H.4.1 Thu 10/15, H.8 Fri 10/16).
+- **What:** **the Q3 read plan's frames, one per print, CFG first (Fri 10/16)**: WQ-318 rows (UP/DOWN/INCONCLUSIVE per bank), CRE §6 lines, L35/L521, FL frame + A3, AMTB non-CRE lines. **The §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION.** Plus `REG-T-02` exit grading every eligible settled close (count→exit log, through10/13), the tier test on each FRED cell, and the weekly funding read (H.4.1 Thu 10/15, H.8 Fri 10/16).
 - **When:** 10/16 · 10/19 · 10/20 · 10/21 (+ FLG/CUBI TBA); every close; FRED each morning ~10:15 ET.
 - **Falsifier context:** the expected modal outcome is INCONCLUSIVE at most banks (declared deposit programs at WAL/EGBN, OZK's pre-announced cost inflection) — written in advance so it can be wrong. An UP row at CUBI or CFG is the result that would change the view.
 
@@ -93,8 +93,8 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 **Every close** | `REG-T-02` EXIT grading (WAL ≥81.90 ×3) | 0-of-3 (29 rows);10/12 $74.69 is8.8% short |
-| 🟠 **Daily ~10:15 ET** | FRED HY/B/BB/CCC (cache-busted CSV) | HY >320 restarts `REG-T-03`'s count; B ORANGE >330 |
+| 🔴 **Every close** | `REG-T-02` EXIT grading (WAL ≥81.90 ×3) | Latest count/close→registry/REG_T02_EXIT_LOG.tsv;current-day bars excluded |
+| 🟠 **Daily ~10:15 ET** | FRED HY/B/BB/CCC (explicit API route; temporary cache used10/14) | HY >320 restarts `REG-T-03`'s count; B ORANGE >330 |
 | 🟠 **Thu 10/15** | Claims (197K [w/e 10/3]) | >300K = ORANGE banks → RED (far) |
 | 🟠 **Thu 10/15 · Fri 10/16** | H.4.1 discount window · H.8 small-bank borrowings/deposits | Step-up continues / reverses; a deposit decline alongside = the PNC pattern spreading |
 | 🟠 **Tue10/20** | Nano Banc P&A posted? (L516; bid summary read 10/9) | Size Pools A/D; re-run §2 |
@@ -112,3 +112,5 @@
 *Final fold,2026-10-14: follows final STATUS commit `1336a5560`; new synthesis pointer and entity/freshness limits retained. Old brief archival pointers remain valid. No outbound delivery/peer consumption claimed.*
 
 *Final closeout/reboot fold,2026-10-14: last write-back follows STATUS commit `2903e7de4`; dated market/source and existing Q3 duties preserved. Earlier final-fold statements are historical. No external notification or peer consumption claimed.*
+
+*Final noon fold,2026-10-14: last write-back follows STATUS commit `69bd0ad84`,including mid-sessionWALTER004/006 dispositions. SevenOK/knownCFG alert,dark-pool NO DATA. Research/quarterly gaps retained;no new trade/external send. Earlier folds historical.*
