@@ -178,7 +178,13 @@
       "No new trade/candidate/fill/would-fire or raw daytrade input; no artificial ledger refresh",
       "No new research/study/monitor or dashboard"
     ],
-    "publication": "PENDING exact owned final closeout commit and authorized safe-push; foreign work preserved",
+    "publication": {
+      "observed_at": "2026-10-14T14:30:41.832219-04:00",
+      "receipt": "Pushed. CONFIRMED: HEAD 31372daab is on origin/master (fresh fetch).",
+      "state_commit": "ee19b6c4f",
+      "delivery_commit": "31372daab",
+      "result": "CONFIRMED for these exact owned state/delivery commits; not recipient consumption or native lifecycle proof"
+    },
     "incorporated_packets": [
       {
         "path": "inbox/processed/2026-10-14_from-BOND_surviving-TBT-rates-context.md",
