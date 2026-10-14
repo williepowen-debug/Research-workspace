@@ -1,0 +1,9 @@
+{
+ "desk":"BROCK","date":"2026-10-14","session_id":"01a13b8f-5279-7f93-b969-f37996fffee0","runtime":"Codex CLI","provider":"OpenAI","model":"gpt-6.1-sol (caller thread metadata)","repo":"/home/willi/Research-workspace","cwd":"/home/willi/Research-workspace/AGENTS/BROCK",
+ "instruction_loading":"Explicitly read root CLAUDE.md, AGENTS.md, USER.md, local CLAUDE.md, PROME/COMPLETION_SPEC.md and playbook Runtime mechanics. Auto-injection unverified.",
+ "owner_preflight":{"observed_at":"2026-10-14T17:58:05+00:00","host":"DESKTOP-BC6EF81","evidence":"Unsandboxed host /proc inventory (PID1 systemd), process command -C scopes and read-only Codex threads identity/source metadata. Current BROCK owner is caller; only other BROCK metadata entry is guardian_review, not an owner. No second BROCK CLI owner found; old Claude REGINALD entries are not proof of current liveness.","limits":"Native cross-runtime thread/turn discovery unavailable; process presence cannot prove turn activity. No new owner launch or takeover performed."},
+ "capabilities":{"execution":"exec_command available; git metadata mutation needs approved escalation","sources":"web.run and network fetch","messaging":"No verified native channel to separate PROME/REGINALD windows; durable inbox packet default; recipient consumption remains UNKNOWN","helpers":"None launched"},
+ "authority":"Direct Will October14 assignment; existing BRK-31 frozen letter, FSK and CRMT work; no trades/new levels/spending/external sends.",
+ "sync":"git fetch + no incoming commits; git pull --ff-only: Already up to date. Other desks staged/dirty paths preserved.",
+ "reuse":"PROME/research/2026-10-14_compound-stress/synthesis.json and nonbank_credit.json; REGINALD Oct13 cash-loss outcome plan; BROCK Oct9 frozen frame and KB-BRK-325."
+}

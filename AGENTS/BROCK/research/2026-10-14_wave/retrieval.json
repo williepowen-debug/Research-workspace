@@ -1,0 +1,214 @@
+[
+  {
+    "key": "jpm_release",
+    "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/3rd-quarter/6c1f8114-1be4-4174-8292-f75bbb59bc21.pdf",
+    "retrieved_at": "2026-10-14T18:00:03.803617+00:00",
+    "status": 200,
+    "bytes": 204404,
+    "sha256": "0be11f13669fa1f6696bf5b5b022fde84523f64952ecd16989fca9588a8e971c",
+    "text_chars": 23825
+  },
+  {
+    "key": "jpm_deck",
+    "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/3rd-quarter/2b5b9a7e-a968-4985-94ad-5fa949a08d1c.pdf",
+    "retrieved_at": "2026-10-14T18:00:03.804164+00:00",
+    "status": 200,
+    "bytes": 331467,
+    "sha256": "b310e1fcd9eb8fa27994bda360eb8798772e342184a110c75c4cbad893983f6a",
+    "text_chars": 21521
+  },
+  {
+    "key": "jpm_supplement",
+    "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/3rd-quarter/c89c7479-82df-4c9f-a7be-957956430abd.pdf",
+    "retrieved_at": "2026-10-14T18:00:03.805554+00:00",
+    "status": 200,
+    "bytes": 238822,
+    "sha256": "baf06d8ebd92088fcc9ca5e75e5e5166c320826df29409a15ac1fd4f0f6aeebd",
+    "text_chars": 95274
+  },
+  {
+    "key": "citi_call",
+    "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q32026/3q26-citigroup-earnings-transcript.pdf",
+    "retrieved_at": "2026-10-14T18:00:03.806868+00:00",
+    "status": 200,
+    "bytes": 206092,
+    "sha256": "895eeecfd2795b2c60723af94127f1e549dae89f5897a4d2fc8a2d6c21a42208",
+    "text_chars": 75780
+  },
+  {
+    "key": "citi_8k",
+    "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q32026/3q26-earnings-8-k-10-13-26.pdf",
+    "retrieved_at": "2026-10-14T18:00:03.807771+00:00",
+    "status": 200,
+    "bytes": 846674,
+    "sha256": "76a8f45ac17910c10a2bbfdec130a7c96270664ed34d4a99f1d656dc3225a609",
+    "text_chars": 151930
+  },
+  {
+    "key": "wfc_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+    "retrieved_at": "2026-10-14T18:00:03.808387+00:00",
+    "status": 200,
+    "bytes": 410372,
+    "sha256": "2eb3eefde55d1ba66b6baae1fd71d17c2143006dee884ef76e5a4a995e13d5cf",
+    "text_chars": 29125
+  },
+  {
+    "key": "wfc_supplement",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex992xsuppl.htm",
+    "retrieved_at": "2026-10-14T18:00:04.751110+00:00",
+    "status": 200,
+    "bytes": 3067666,
+    "sha256": "74e32ae8cea4eb833042cb3fe22f442bacc5a40cb816505cc58d3be15de85e35",
+    "text_chars": 67993
+  },
+  {
+    "key": "fsk_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/fsk-20260630.htm",
+    "retrieved_at": "2026-10-14T18:00:05.432811+00:00",
+    "status": 200,
+    "bytes": 12100165,
+    "sha256": "6c9bb8fc1c08b0be96b351cf3ae8a11273c1d8997331e5fcec8e7df5ec7a7e37",
+    "text_chars": 685037
+  },
+  {
+    "key": "crmt_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000799850.json",
+    "retrieved_at": "2026-10-14T18:00:05.765992+00:00",
+    "status": 200,
+    "bytes": 162822,
+    "sha256": "a9b310580b4ab3c7c1175bf0ee0c794c792fd2d6f5e0463b3bfc38505927c8f2",
+    "text_chars": 162822
+  },
+  {
+    "key": "fsk_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001422183.json",
+    "retrieved_at": "2026-10-14T18:00:06.599819+00:00",
+    "status": 200,
+    "bytes": 172213,
+    "sha256": "3df6b2986565160c12cbbfd0cd0d071a73b020c00a21a62eaedfe585a39f8970",
+    "text_chars": 172213
+  },
+  {
+    "key": "jpm_events",
+    "url": "https://www.jpmorganchase.com/ir/events",
+    "retrieved_at": "2026-10-14T18:00:05.357570+00:00",
+    "status": 200,
+    "bytes": 113085,
+    "sha256": "01ac5e66ed94b19f6f180f4d399f4d5ebce5ca7da18c70c1a1b52aa583441cad",
+    "text_chars": 4597
+  },
+  {
+    "key": "wfc_ir",
+    "url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/",
+    "retrieved_at": "2026-10-14T18:00:05.413329+00:00",
+    "status": 200,
+    "bytes": 107825,
+    "sha256": "be520c11250639796da1d2876c2cdfcbfc518379631be0fa30a55fd423dcc46c",
+    "text_chars": 8454
+  },
+  {
+    "key": "crmt_bridge6",
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006538/f8k_100826.htm",
+    "retrieved_at": "2026-10-14T18:01:58.329019+00:00",
+    "status": 403,
+    "bytes": 4819,
+    "sha256": "ac57b56030b594a692083a51b1662f5243631d692992e9a61f7b15262217f3b6"
+  },
+  {
+    "key": "crmt_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000162828026061105/crmt-20260731.htm",
+    "retrieved_at": "2026-10-14T18:01:58.445652+00:00",
+    "status": 403,
+    "bytes": 4819,
+    "sha256": "e54ccd33cda60868dd87a4da96fdfee7fef61dfd76673ecd3ceb842e2d3f64e8"
+  },
+  {
+    "key": "fsk_oct8",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926114718/tm2627201d1_8k.htm",
+    "retrieved_at": "2026-10-14T18:01:58.574982+00:00",
+    "status": 403,
+    "bytes": 4819,
+    "sha256": "7fbca28e9f69254e451f90cfbe10c4396fd1162a1daa6042faf8d80f7ee6ec11"
+  },
+  {
+    "key": "jpm_quarterly",
+    "url": "https://www.jpmorganchase.com/ir/quarterly-earnings",
+    "retrieved_at": "2026-10-14T18:01:58.855708+00:00",
+    "status": 200,
+    "bytes": 109565,
+    "sha256": "c0bd6235005fccdc21567ebacb78af6fbf3eebc92eeb33e2d5fa44bb5244ff65"
+  },
+  {
+    "key": "wfc_q3page",
+    "url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/2026-q3/",
+    "retrieved_at": "2026-10-14T18:01:59.371439+00:00",
+    "status": 404,
+    "bytes": 8142,
+    "sha256": "162021433c0d73209e6e2523e246e0d6e95a79373a55349c3ddec3cc44b1afae"
+  },
+  {
+    "key": "fsk_q1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026033118/fsk-20260331.htm",
+    "status": 200,
+    "bytes": 11687806,
+    "retrieved_at": "2026-10-14T18:03:28.405794+00:00",
+    "sha256": "cbd338b62dd09a103d2688ad8efe8f4eddaa3f1a6097dedd7714c0557c2d326e"
+  },
+  {
+    "key": "fsk_amendment",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026033118/exhibit101fskkr-amendmentn.htm",
+    "status": 200,
+    "bytes": 4724363,
+    "sha256": "9236ae53e321bd8265bb204f8690780f545ded9fe49a57cc7da475fb9117e3e0",
+    "retrieved_at": "2026-10-14T18:04:08.104477+00:00"
+  },
+  {
+    "key": "jpm_sitejs",
+    "url": "https://www.jpmorganchase.com/etc.clientlibs/cws/clientlibs/clientlib-jpmc/clientlib-site.min.634bf467709e13bd6c1aa28c068562e8.js",
+    "status": 200,
+    "bytes": 738080,
+    "sha256": "133543c7cc1447a0c27da9f26d2b7e98a9d753902c0c3d508c079874e6ceb9d9",
+    "retrieved_at": "2026-10-14T18:04:09.033133+00:00"
+  },
+  {
+    "key": "crmt_bridge6_retry",
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006538/f8k_100826.htm",
+    "status": 200,
+    "bytes": 24804,
+    "sha256": "63b2b66113e0be51716275f924a6cbbd994eea3eaa2577d9ebdd2c54ef6d0f27",
+    "retrieved_at": "2026-10-14T18:04:09.165136+00:00"
+  },
+  {
+    "key": "fsk_release_oct8",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926114718/tm2627201d1_ex99-1.htm",
+    "status": 200,
+    "bytes": 20778,
+    "sha256": "89011e1bf00d26af4d75d99760d78ebb13dd269bde21ee59c890d6d999e5d22d",
+    "retrieved_at": "2026-10-14T18:04:07.437263+00:00"
+  },
+  {
+    "key": "cabo_feed_final",
+    "url": "https://data.sec.gov/submissions/CIK0001632127.json",
+    "status": 200,
+    "bytes": 140036,
+    "sha256": "bd111ef68501b6baff340a94cc38ec57a7c21af10e4f6b31b39615b5d36fd9bb",
+    "retrieved_at": "2026-10-14T18:19:44.768421+00:00"
+  },
+  {
+    "key": "crmt_feed_final",
+    "url": "https://data.sec.gov/submissions/CIK0000799850.json",
+    "status": 200,
+    "bytes": 162822,
+    "sha256": "a9b310580b4ab3c7c1175bf0ee0c794c792fd2d6f5e0463b3bfc38505927c8f2",
+    "retrieved_at": "2026-10-14T18:19:44.995587+00:00"
+  },
+  {
+    "key": "jpm_quarterly_feed",
+    "url": "https://www.jpmorganchase.com/services/json/v1/investor-relations/quarterly-earnings.json",
+    "status": 200,
+    "bytes": 105429,
+    "sha256": "dcd8a163401658bd02fdf62d99517a89c199b0b24275d3e31cc0d59a1512cb2b",
+    "retrieved_at": "2026-10-14T18:19:45.264629+00:00"
+  }
+]

@@ -1,0 +1,1028 @@
+
+[PDF page 1]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   1 
+ 
+Host 
+Margo Pilic, Head of Strategy, M&A and Investor Relations 
+ 
+Speakers 
+Jane Fraser, Citi Chair and Chief Executive Officer  
+Gonzalo Luchetti, Citi Chief Financial Officer 
+ 
+PRESENTATION 
+ 
+OPERATOR: Hello, and welcome to Citi's Third Quarter 2026 Earnings Call. Today's call will be hosted by Margo 
+Pilic, Head of Citi Investor Relations. As a reminder, this conference is being recorded today. If you have any 
+objections, please disconnect at this time. Ms. Pilic, you may begin. 
+ 
+MARGO PILIC: Thank you, operator. Good morning and thank you all for joining our third quarter 2026 earnings 
+call. I am joined today by our Chair and Chief Executive Officer, Jane Fraser, and our Chief Financial Officer, 
+Gonzalo Luchetti. I'd like to remind you that today's presentation, which is availabl e for download on our 
+website, citigroup.com, may contain forward-looking statements, which are based on management's current 
+expectations and are subject to uncertainty and changes in circumstances. Actual results may differ materially 
+from these statements due to a variety of factors, including those described in our earnings materials as well 
+as in our SEC filings. And with that, I'll turn it over to Jane. 
+ 
+JANE FRASER: Thank you, Margo, and good morning to everyone. This morning, we reported net income of $5.2 
+billion for the third quarter with an EPS of $2.85 and a RoTCE of 11.5%. Our returns improved meaningfully in 
+Services, Banking, Wealth and U.S. Consumer Cards. The firm's RoTCE grew by 180 basis points over last year, 
+and our net income was up 17%. With revenues up 8% year -over-year, we delivered our best third quarter 
+revenue in a decade, and we saw revenue growth in four out of our five businesses. 
+ 
+As previously shared, we brought some of our planned investments and severance into this quarter. We remain 
+very intentional around our expenses and our investments in talent and technology. Even with this pull forward, 
+we delivered positive operating leverage, holding expense growth to 3%, excluding last year's notable item. Our 
+overall performance continues to demonstrate the disciplined and consistent execution of our strategy. 
+ 
+Now let's go through our five businesses. This was another standout quarter in Services, with revenues up 15%. 
+Growth was broad-based across every driver, from deposits to commercial card spend, and we saw continued 
+momentum in trade loans and cross -border activity across the network. We continue to lead through 
+innovation, bringing new real-time capabilities to our clients with the launch of Citi Token Services in the UAE 
+and Japan and the introduction of Custody+. Assets under custody and administration grew by 16%, and we 
+are laser-focused on winning and onboarding further new mandates. 
+ 
+In Markets, revenues were up 6%. Equities revenues were up 14%, driven by our performance in prime and in 
+Asia, where we have been investing to gain share. Fixed income was up 4%. Rates was pressured by the trading 
+environment, but we saw good growth in FX and spread products, both stable revenue streams. 
+ 
+In Banking, revenues were up 6%. We performed particularly well in ECM, where we played meaningful roles in 
+the six largest transactions of the quarter, including leading SK hynix, the largest ever IPO of a Asian based 
+issuer. And in leveraged finance, we led SoftBank's $11 billion high-yield offering, the largest ever of its kind. I 
+am proud of these wins and how our client relationships and bankers, including the new talent we have 
+attracted, allowed us to land these mandates. 
+ 
+As you've seen this quarter, we are continuing to invest responsibly in high -quality talent to build on our 
+strengths and fill identified gaps in our franchise. Wealth performance continues to steadily improve with 
+
+[PDF page 2]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   2 
+ 
+growth across all three businesses. RoTCE was over 14%, significantly higher than last year. We brought in $38 
+billion in net new investment assets this quarter, up over 100% from a year ago. We continue to launch new 
+offerings, such as Premium Boost, to deepen client relationships, and are seeing strong uptake of our Wealth 
+offering by our retail bank clients. 
+ 
+In U.S. Consumer Cards, revenues were flat as a result of higher partner payments. At the same time, our 
+general-purpose portfolio drove 6% growth in total average loans. We are increasing investment in this 
+business, both through our deep relationships with key partners and differentiated rewards for our customers, 
+as you saw with the acquisition of Kard. With returns of over 21% in the quarter, this is already a very attractive 
+business, and the benefits of our investments will continue to scale overtime. 
+ 
+In legacy franchises, we closed on the sale of a 1.4% equity stake of Banamex, bringing the total amount 
+divested so far to 49%. We're now preparing for Banamex's deconsolidation from Citi next year. The IPO would 
+happen after that, when market conditions allow and when the usual regulatory requirements are met. At that 
+point, our international consumer divestitures will be nearly complete. 
+ 
+Turning to capital, we returned over $4 billion to our shareholders this quarter, including $3 billion in share 
+buybacks. We have also utilized about $900 million of our disallowed DTA so far this year, slightly above the 
+path we discussed at Investor Day in May. Our tangible book value per share rose 6% to $101.59, and our CET1 
+ratio stood at 12.8%, remaining about 120 basis points above our current regulatory minimum. 
+ 
+Now, I know that the opportunities and risks that AI presents are on everyone's mind. Our transformation has 
+modernized our core technology platform, giving us the foundation we need to implement AI firm-wide. As I've 
+said before, we're approaching AI through four lenses: how it can help us grow, how we can deploy it to operate 
+more efficiently, how we can teach our people to use these new capabilities, and how we can strengthen our 
+defenses given the enhanced threat environment we and our clients face. I've talked frequently in the past 
+about what we're doing on the first three, and we're excited about the top-line benefits and the efficiencies we 
+are delivering and the many opportunities to do more for our clients. Let me spend a minute on the fourth lens. 
+ 
+Our cyber defense strategy is about being on the front foot, moving fast and retaining trust. We don't wait for 
+risks to happen. We're constantly preparing and improving our defenses. We're in the business of managing risk 
+every day, and this is no different. We've been hardening our systems and running challenging and disruptive 
+scenarios to stress test our defenses and our responses. We then modify our playbooks based on what we've 
+learned, so we're ready before an event occurs, not after. We are focused on our resilience and working with our 
+peers and regulators on reducing systemic risk, even as we deploy AI to improve the performance of our firm. 
+ 
+Finally, on the macro environment. Conditions did soften a bit during the third quarter. While various 
+headwinds, most recently higher energy prices and tighter monetary policies, have been challenging, the global 
+economy has held up remarkably well. In the U.S., while much has been made of the AI boom, the consumer is 
+still driving much of the growth. The labor market is stable, and companies remain active. 
+ 
+Our near-term economic outlook remains positive. China is seeing similar benefits from AI, but without the 
+consumer spend needed for balanced growth, so their economy leans heavily on exports. Europe remains 
+structurally challenged. That backdrop is exactly why clients are leaning on our network. They're engaged, and 
+they are healthy, as you will see from our credit numbers. They're open to strategic opportunities, while being 
+keenly aware that there could be more disruptions ahead. Our focus is on delivering our network and providing 
+the intellectual firepower to help them compete more effectively, raise capital or manage their supply chains. 
+They know we will be at their side no matter what environment they face. This quarter was another proof point 
+of our consistent execution and delivery in the face of a dynamic environment. 
+ 
+In terms of the journey ahead, as you know, we expect to exceed this year's RoTCE target of 10% to 11%, even 
+as we pull forward the investments to support our near-term target of 11% to 13%. These are simply the next 
+
+[PDF page 3]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   3 
+ 
+waypoints on our path to reach 14% to 15% in a sustainable manner, which we will do. 
+ 
+With that, let me turn it to Gonzalo, and then we would both be delighted to take your questions. 
+ 
+GONZALO LUCHETTI: Thank you, Jane, and good morning, everyone. I'm going to start with the firmwide 
+financial results, focusing on year -over-year comparisons unless I indicate otherwise, and then review the 
+performance of our businesses in greater detail. 
+ 
+On Slide 4, we show financial results for the full firm, which demonstrate the progress we've made and the 
+momentum of our strategy. This quarter, we reported net income of $5.2 billion, EPS of $2.85 and RoTCE of 
+11.5% on $23.8 billion of revenues, generating positive operating leverage. Total revenues were up 8%, driven 
+by growth in Services, Wealth, Markets and Banking, partially offset by a decline in All Other. 
+ 
+NII, excluding Markets, was up 7%, driven by growth in Services, Wealth and U.S. Consumer Cards, partially 
+offset by declines in All Other and Banking. NIR, excluding Markets, was up 12%, driven by growth in All Other, 
+Services, Banking and Wealth, partially offset by a decline in U.S. Consumer Cards. Total Markets revenues 
+were up 6%. 
+ 
+Expenses of $14 billion were down 2% on a reported basis, with an efficiency ratio of 58.5%. Excluding the 
+impact of the $726 million Banamex goodwill impairment notable item from the third quarter of last year, 
+expenses were up 3%. Cost of credit was $2.6  billion, which included a firmwide net reserve build of $369 
+million. Looking at the firm on a year-to-date basis, we generated positive operating leverage and an RoTCE of 
+12.6%. 
+ 
+On Slide 5, we show the expense and efficiency trend over the past five quarters. Excluding the impact of the 
+notable item last year, expenses were up 3%, primarily driven by higher transactional and product servicing, 
+deposit insurance costs and compensation and benefits, partially offset by lower professional services 
+expenses. On a year-to-date basis, we have recognized over $1 billion of severance, largely across functions, 
+technology and operations, as we continue to drive structural efficiencies and bring down transformation 
+expenses and stranded costs to create capacity for business growth. 
+ 
+On Slide 6, we show U.S. Cards and corporate credit metrics. At the end of the quarter, we had over $22 billion 
+in total reserves with a reserve -to-funded loan ratio of 2.5%. Our reserves incorporate an eight-quarter 
+weighted average unemployment rate of 5.3%, which includes a stress scenario average unemployment rate 
+of nearly 7%. We maintained a high-quality credit card portfolio, with approximately 86% of balances extended 
+to consumers with FICO scores of 660 or higher, and a reserve-to-funded loan ratio in our U.S. cards portfolio 
+of 7.7%. We continue to see strong consumer credit performance, as both NCL and delinquency rates in our 
+overall card portfolio declined year-over-year. 
+ 
+Looking at the right hand side of the slide you can see that our corporate exposure is 79% investment grade. In 
+the quarter, corporate nonaccrual loans as well as corporate net credit losses remained low. We are confident 
+in the high-quality nature of our portfolios, which reflect our robust risk appetite framework and rigorous client 
+selection. 
+ 
+Turning to capital, liquidity and the balance sheet on Slide 7, speaking to sequential variances. Our total assets 
+of $2.9 trillion increased 2%, driven by growth in trading -related assets and loans. Net end -of-period loans 
+increased 3%, driven by growth in Markets and Banking. Our $1.5 trillion deposit base remains well diversified 
+and increased 1%, primarily driven by growth in Services. We reported a 114% average LCR and over $1 trillion of 
+available liquidity resources. 
+ 
+In the third quarter, we continued to deploy capital to support accretive growth activity while, at the same time, 
+prioritizing the return of capital to common shareholders, as evidenced by the $3 billion in buybacks and the 
+
+[PDF page 4]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   4 
+ 
+12% increase in our quarterly common stock dividend. We ended the quarter at a 12.8% CET1 ratio under the 
+binding standardized approach, approximately 120 basis points above the 11.6% regulatory capital 
+requirement. 
+ 
+Turning to the businesses on Slide 8, we show the results for Services in the third quarter. Revenues were up 
+15%, driven by growth across both TTS and Securities Services, reflecting the benefits of our continued 
+investments in the business. NII increased 17%, driven by higher average deposit balances and deposit spreads. 
+NIR increased 12%, driven by growth in fees as we continue to see strong activity and engagement with both 
+corporate and commercial clients, driving momentum across underlying KPIs. Expenses increased 10%, 
+primarily driven by higher severance as well as volume and revenue-related expenses. Average loans increased 
+14%, largely driven by working capital loans and export agency finance. Average deposits increased 16%, 
+primarily driven by growth in the U.S. Services generated positive operating leverage, net income of $2.6 billion 
+and an RoTCE of 31.2% in the quarter and 29.7% year-to-date. 
+ 
+Turning to Markets on Slide 9. Revenues were up 6%, driven by growth across both equities and fixed income. 
+Fixed income revenues were up 4%, with spread products and other fixed income up 13%, driven by an increase 
+in spread products financing revenues. Rates and cur rencies was flat, with growth in currencies and higher 
+volumes offset by lower revenues in rates. Equities revenues were up 14%, driven by continued momentum in 
+Prime Services as balances grew by over 40%, partially offset by a decline in derivatives reven ues. Expenses 
+increased 7%, driven by higher transactional expenses and compensation. Average loans increased 30%, 
+primarily driven by spread products, as we execute against our Investor Day strategy to drive more stable 
+financing revenues. Markets delivered net income of $1.7 billion and RoTCE of 12.3% in the quarter and 15.9% 
+year-to-date. 
+ 
+Turning to Banking on Slide 10. Revenues were up 6%, driven by growth in Investment Banking and gains on 
+loan hedges, partially offset by a decline in corporate lending. Investment Banking revenues increased 9%, 
+driven by 77% growth in ECM, partially offset by decline s of 4% and 3% in advisory and DCM, respectively. 
+Corporate lending revenues, excluding gains on loan hedges, declined 16%, driven by lower loan spreads, 
+partially offset by higher average loan balances and commitments. Expenses increased 8%, driven by hig her 
+compensation and continued investments in the business. Cost of credit was $23 million, consisting of $43 
+million in net credit losses and a net reserve release of $20 million. Banking delivered net income of $378 million 
+and an RoTCE of 19.2% in the quarter and 17.7% year-to-date. 
+ 
+Turning to Wealth on Slide 11. Revenues were up 15%, driven by growth across all businesses. NII increased 
+20%, driven by higher deposit spreads and average deposit balances, partially offset by lower mortgage 
+spreads. NIR was up 5%, largely driven by higher investmen t fee revenue. Client investment assets were up 
+15%, primarily driven by net new investment asset flows, which were $38 billion in the quarter, contributing to 
+over $75 billion in the last 12 months, representing 11% organic growth. Expenses increased 3%, driven by 
+higher compensation. Cost of credit was $102 million, consisting of $70 million of net credit losses and a net 
+reserve build of $32 million. Average loans were up 4%, as we continue to grow securities-based lending and 
+mortgages. Average deposits were up 3%, driven by growth in the Private Bank, partially offset by a modest 
+decline in Citigold and Retail Banking. Wealth had a pretax margin of 22%, generated positive operating 
+leverage, net income of $585 million and an RoTCE of 14.3% in the quarter and 13.2% year-to-date. 
+ 
+Turning to U.S. Consumer Cards on Slide 12. As a reminder, our year-over-year results continue to reflect the 
+impact from the acquisition of the American Airlines co -branded card portfolio onboarded in April. In the 
+quarter, revenues were flat, with growth  in NII offset by a decline in NIR. NII was up 6%, driven by higher 
+interest-earning balances. NIR was down 62%, driven by higher accruals from partner payments as well as 
+rewards costs, reflecting our investments for growth, partially offset by higher int erchange and annual fees. 
+Consistent with the strategy we laid out at Investor Day, we saw growth in general purpose cards, with spend 
+volume up 13% and average loans up 9%, both partially offset by declines in private label cards. Expenses 
+increased 2%, driven by higher transactional expenses as well as advertising and marketing, as we invest to 
+
+[PDF page 5]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   5 
+ 
+drive future acquisitions and continued customer engagement, largely offset by lower compensation. Cost of 
+credit was $1.9 billion, consisting of $1.7 billion of net credit losses and a net reserve build of $208 million, 
+primarily driven by changes in the macroeconomic outlook. U.S. Consumer Cards delivered net income of $851 
+million and RoTCE of 21.8% in the quarter and 21% year-to-date. As I mentioned last quarter, while we expect 
+RoTCE to remain around our through -the-cycle target for the business, in certain quarters we do expect 
+expense growth to outpace revenue growth as we invest in the business to drive engagement and acquisitions, 
+with some of these investments reflected as contra-revenues and others as expenses. 
+ 
+Turning to Slide 13, results for all other on a managed basis, which includes Corporate /Other and legacy 
+franchises and excludes divestiture-related impacts, notably the $726 million Banamex goodwill impairment 
+in the third quarter last year. Revenues were down 3%, driven by declines in legacy franchises and 
+Corporate/Other. Expenses were down 14%, driven by lower transformation expenses in Corporate/Other as 
+well as lower expenses from our exits and wind -downs, which declined to a run rate of approximately $100 
+million in the quarter, partially offset by the impact of Mexican peso appreciation. Cost of credit was $532 
+million, consisting of net credit losses of $433 million, driven by consumer loans in Mexico, and a net reserve 
+build of $99 million. We've reduced the total firm -wide DTAs deducted from CET1 capital by approximately 
+$900 million year-to-date, as U.S. profitability continues to improve. 
+ 
+Additionally, in the appendix of the presentation on Slide 20, we have provided an overview of financial impacts 
+related to the Banamex divestiture. There are three points I would like to highlight. First, upon our full exit from 
+Banamex, we expect the cumulative net capital impact to reflect the release of CET1 capital associated with the 
+Banamex RWA, removal of certain CET1 deductions and the cumulative gains or los ses over the divestiture 
+horizon. Second, as we have shared previously, as part of the deconsolidation process, we expect to recognize 
+an approximate $9 billion CTA related loss through the P&L in early 2027. Third, we expect the impacts related 
+to the deconsolidation process to be slightly accretive to our CET1 Capital ratio. 
+ 
+To close, we included our full year 2026 outlook on Slide 14. We expect to deliver an RoTCE above 11% for the 
+full year, supported by NII Markets growth in the mid-to-high 6% range and continued NIR Markets growth, 
+driven by fee momentum in Services, Banking and Wealth, partially offset by USCC. In Markets, we expect a 
+typical seasonal decline in the fourth quarter around the same magnitude as last year, which was 20%, or 
+possibly a bit more given the strong performance so far this year. Given this outlook for revenue, combined with 
+our continued focus on expense discipline, we expect our full year efficiency ratio to be below 60%. 
+ 
+As it relates to credit, based on the strong performance we have seen so far this year and our expectations for 
+the fourth quarter, we now expect a full year total U.S. credit card NCL rate of around 4%, the low end of the 
+range we provided previously, while the ACL will continue to be a function of the macroeconomic environment 
+and business volumes. We will continue to provide the business with capital to pursue accretive growth 
+opportunities while returning capital to shareholders. 
+ 
+We remain confident in the strategy we laid out at Investor Day and in our ability to deliver on all of our 
+commitments. As we take a step back, the results in the third quarter and year -to-date this year represent 
+significant progress towards our goal of improved firm -wide and business performance. Our strategy is 
+working, and we have a clear path to delivering higher sustainable returns. 
+ 
+With that, Jane and I would be glad to take your questions. 
+ 
+OPERATOR: Our first question will come from the line of John McDonald with Truist Securities. 
+ 
+JOHN MCDONALD: Hi, good morning, I was hoping to kick off, could you put your strong year-to-date results 
+on RoTCE into context? Obviously, you've got the 12.6% RoTCE for the year and 11.5% this quarter. It implies a 
+little bit of deceleration in the fourth quarter if you do something ending up at 11% to 12% for the year. 
+Understanding there are lots of factors around seasonality and how much spending you pulled forward, could 
+
+[PDF page 6]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   6 
+ 
+you speak a little bit to the near-term expectations and trajectory for RoTCE for the fourth quarter, and then as 
+you look out for the next two years? 
+ 
+GONZALO LUCHETTI: Good morning, John, thanks very much for the question. It's a great question. A couple 
+of thoughts to step in there . The first is our number one priority is driving sustainable return improvement. 
+That's very clear. The second piece you can see from our results throughout this year is that our strategy is 
+working. You're seeing the compounding effect of client intensity and execution milestone after milestone, in a 
+constructive backdrop, but that execution is clearly there. 
+ 
+The next piece I would mention is we have lifted our guidance now, again, from the high end of 10% to 11%, or a 
+bit better than 11%, to above 11%. That hopefully gives you a sense of the confidence  that we have  and the 
+discipline that we have going into the end of the year. 
+ 
+Now, to your point, and I think you alluded to this in your question already, there is a natural seasonality, I just 
+mentioned that in my remarks as it relates to Markets, and there are other elements beyond Markets too. When 
+you think about the Markets component alone, last year was about a 20% decline quarter-on-quarter between 
+Q3 and Q4. This year, as I mentioned a few minutes ago, it could be a bit worse on the basis of how strong the 
+year has been so far and the dynamics in the market right now. 
+ 
+So, when you flow the math similarly for RoTCE, even if you look historically over the last couple of years and 
+adjust for typical notable items that may be there from time to time, you land at a high single-digit rate. That 
+more or less sets you up for the above 11% that we're looking at. You can see the confidence coming through in 
+how we've been raising the estimates over the last 30 days, a couple of times over. 
+ 
+As you look forward into 2027, undeniably we have business momentum. You can see that in our revenue 
+growth: 7% a year ago ex-notable items, first half of this year about 14%, this quarter about 8%. If you look at 
+the drivers, you can see client momentum driving that revenue growth  so we feel very good about that.  We 
+haven't moved an inch from our Investor Day commitments. The near-term targets for returns, as a reminder 
+for everyone, are 11% to 13% into the 2027 and 2028 time period, so we’re comfortable with that, and we've also 
+tested those for a range of environments. So, we're not expecting the sun always to be shining, the wind in our 
+backs, and us walking downhill. We have tested that for a range of outcomes. Thank you.  
+ 
+JOHN MCDONALD: Thanks, Gonzalo, appreciate that. Maybe just as a follow-up, a question on capital. How 
+are you thinking about the glide path to the capital target you laid out at Investor Day? How do rates factor into 
+that in terms of rates and what it means for buybacks? 
+ 
+GONZALO LUCHETTI: Thank you for the follow-up. Just to baseline everyone again, today we're at a CET1 of 
+12.8%, which is about 120 basis points above our regulatory minimum. As per Investor Day,  the regulatory 
+minimum that we have talked about, and you were alluding in your question on the glide path. We have talked 
+about how we are now at 11.6% as a regulatory minimum, and our assumption is that we go into 12.1% as a 
+regulatory minimum starting in January 2028. At Investor Day, we gave a directional target of 13.1%. That gives 
+you a sense of the direction of travel, we continue to be comfortable with that direction of travel, so that I think 
+is the key piece.  
+ 
+The second piece, going into the buyback component of your question too, I would say a couple of things. First, 
+maybe restating our framework. Our framework is that we hold capital for resilience and flexibility, and we 
+deploy it for returns and to distribute to shareholders. That's what we talked about at Investor Day, and 
+hopefully you're seeing us apply that in every quarter this year. When you look at this quarter, as one example, 
+I feel good about how we were able to deploy our balance sheet to fuel revenue growth that you are seeing, the 
+improving returns year-on-year that you are seeing , and at the same time return $4 billion of capital to 
+shareholders, $3 billion of which are in buybacks, while still holding an appropriate cushion above regulatory 
+requirements to be able to navigate the environment. By the way, along the way absorbing some OCI shifts that 
+
+[PDF page 7]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   7 
+ 
+happened due to rates in the quarter. So, I feel good about our ability to balance that equation. We did that in 
+preceding quarters as well, maybe with a bit less OCI action, but that  hopefully gives you a sense that the 
+business has momentum. We do have a balanced framework in place and we try to find the appropriate balance 
+there, always starting with being a source of resilience. Thank you. 
+ 
+OPERATOR: Thank you. For today's call, we invite a limit of one question plus one follow-up. Our next question 
+will come from Mike Mayo with Wells Fargo. You may now unmute and ask your question. 
+ 
+MICHAEL MAYO:  Hey, Gonzalo. On the second quarter earnings call, you talked about pulling forward 
+investment spending of the $5 billion over three years to now, I guess, $500 million this year. How much of that 
+has been spent in the third quarter? Why did you pull it forward? What are you spending it on? Does that mean 
+after this year it's $4.5 billion of investment spending, or will you increase the total? Thank you. 
+ 
+GONZALO LUCHETTI: Good morning, Mike. Thanks very much for the question. Maybe let me spend a second 
+on how we think about expenses and how we think about efficiency. Again, returns, number one, sustainable 
+return improvement. When we think about how we approach expenses, h opefully you can see a very sharp 
+expense discipline. That's not an initiative. That's how we operate the business every day and for every dollar. 
+We talked about at Investor Day, that in order to unlock the client -driven growth that we are aspiring to, we 
+needed to deploy incremental investments over three years of about $5 billion, which you just alluded to. We 
+also said that we're going to fund these investments the  hard way, via relentless structural efficiency focus, 
+right? We talk about stranded costs, about transformation costs, and about the structural efficiency.  
+ 
+So that hopefully gives you a sense for how we think about expense management. The pull forward that we 
+talked about, maybe to answer one piece of the question quickly, is 100% inside the $5 billion, right? The $500 
+million or so that I spoke recently about being part of that pull forward in the second half of the year, that's fully 
+embedded inside the $5 billion. We have not moved anything related to our Investor Day expectations.  
+ 
+To your other sub-question around how much of that landed into this quarter, you can think of it as about half 
+of it landed in this quarter. You can see about $200 million of severance in the quarter. So that's a good portion 
+of it. There's a few investments extra around technology, around marketing, around client experience that we 
+also supported. Again, that severance is directly linked to one of those three, the biggest of the three legs of our 
+self-funding investments, which are the structural efficiency focus with the processes that Jane has alluded to 
+in the past, the 100+ end-to-end processes that we have looked at. We review those every week, and those are 
+part of the unlocking through automation and AI the efficiencies that we're looking to deploy. Thank you. 
+ 
+MICHAEL MAYO: Then one follow-up. Like you said, you're not always planning for the sun to always be shining 
+and the wind at your back. But the return for the fourth quarter, if you back into it, looks really lousy for you to 
+get to 11%. When you say the sun might not a lways be shining and the wind  is not at your back, you did say 
+Markets won't be as strong , I get it , but are you assuming something might go terribly wrong in the fourth 
+quarter, or are you just giving the usual caution and caveats? 
+ 
+GONZALO LUCHETTI: Let me go with the latter on that. Thank you, Mike. Yeah, so, we're guiding to above 11%, 
+which is again, an improvement from the a bit over 11% that we talked about 30 days ago. Of course, there's a 
+range. We could do better, but it's hard to predict early in the quarter, especially how some of the activity will 
+play out in the market mostly. So it's really anchored on that.  
+ 
+JANE FRASER: Yeah. 
+ 
+GONZALO LUCHETTI: Yes, abundance of caution. Thank you. 
+ 
+OPERATOR: Our next question will come from the line of Erika Najarian with UBS. Feel free to unmute and ask 
+your question. 
+
+[PDF page 8]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   8 
+ 
+ 
+ERIKA NAJARIAN: Hi. Sorry about that delay in unmuting. Thank you for taking my question. I wanted to 
+double-click on John's question on capital. I guess this is a bit of a compound question for my first question, 
+and I apologize. The way you responded to John's question is that you can continue to deploy capital into 
+growth as well as keep up this pace of buybacks. I just wanted to make sure we heard that correctly because, 
+AOCI aside, I think a lot of your investors, the buyback pacing is important. I guess, just wanted to confirm that 
+you can continue this pace of buyback at around these levels, even with higher rates. In terms of the glide path 
+to a CET1 minimum of 12.1% by January 1, 2028, is your understanding that Basel III endgame revisions and 
+GSIB revisions would be mostly prospective and you won't get any sort of retrospective or retroactive 
+adjustments that could help you in terms of forward GSIB surcharge increases? 
+ 
+JANE FRASER: Maybe if I jump in just in terms of the big picture here. You've heard us talking about a lot of 
+upside potential. We've got a lot of different opportunities which are high returning to be investing in. As 
+Gonzalo said, once we're comfortable around the resiliency of our capital base, which we feel very good about, 
+we see a lot of opportunities to deploy capital into high-returning opportunities that will drive the growth and 
+scale that underpins the presentation we gave at Investor Day and laid out that in  a lot of detail. We know 
+buybacks are important. We know return of capital is important to our shareholders. We make that judgment 
+as to what the right balance is. But I think all of our investors will want us to make sure that we are investing 
+behind the se long -term, high -return growth opportunities that will drive the performance and 
+competitiveness of the bank. Gonzalo, over to you for the nitty-gritty. 
+ 
+GONZALO LUCHETTI: Thank you, Jane, and thank you, Erika, and good morning. Thank you for the question. I 
+think maybe a couple of thoughts on maybe to start on buybacks and then pull back up into the path on capital. 
+Just as a reminder, what we said for this year, let me start in the here and now and then maybe without giving 
+you the decimal precision going forward, I can describe the shape of how we think about it. In the here and now, 
+we just completed with this quarter about $3 billion of repurchases, year-to-date, $13.3 billion. Last year was 
+$13 billion, and we had said earlier that we expected this year to do more than last year, which we just achieved 
+in the third quarter. We are, in that sense, doing what we said we are going to do. 
+ 
+When you think about the framework going forward, I think you highlighted what I was talking about a little bit 
+earlier, that we plotted at Investor Day, that glide path for capital for us. Let me talk in maybe regulatory 
+minimum terms, going from 11.6% to 12.1%. That is on the back, of course, of having enabled the business, the 
+balance sheet, to support the high levels of activity that we have seen over the last couple of years and have 
+you seen us grow various businesses, not only the Markets business, but also Banking and Services and some 
+of our franchises. That is directly linked to that. It was expected. That is why we discussed it at Investor Day.  
+ 
+To your point, it's unknown exactly how all the rules will land. We should see more of those over the next several 
+months, and then we'll have full visibility with models and market shock scenarios. We will know probably 
+around next year the full impact that may have on that glide path. As of now, we're operating on the basis of 
+current rules, and on the basis of those current rules, a glide path that goes from 11.6% to 12.1%, which obviously 
+means we will need to build that capital trajectory, absent some changes from the rules. 
+ 
+Then what you see in the future is what you have seen year -to-date. We managed that very balanced 
+framework of holding capital for resilience and flexibility first, and then deploying it as you've seen us do this 
+quarter and even in the prior quarters, supporting very strong activity or pursuing returns that are accretive and 
+supporting our clients as well as distributing to shareholders. You can see how much of a priority it is on the 
+basis of the progress we've made even in the last couple of quarters agai nst our $30 billion program that we 
+announced at Investor Day. Thank you. 
+ 
+ERIKA NAJARIAN: Thank you. Just as a quick follow -up here on the Markets commentary. Just to put a 
+framework around it, you mentioned that you continue to deploy balance sheet and high returning 
+opportunities. One of your peers that is typically quite conservative had talked about deploying capital and not 
+
+[PDF page 9]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   9 
+ 
+having that much seasonality in the fourth quarter because of all the activity levels. In terms of your comment 
+of Markets down 20% quarter-over-quarter, that underpins sort of the implied high -single-digits ROTCE, is 
+that conservatism in terms of the typical seasonality, or is that more of a comment on mix in terms of you guys 
+are still building out the equities business to a more optimized size? Just trying to unpack the Markets 
+commentary for the fourth quarter. 
+ 
+JANE FRASER: Erika, I think you're reading too much into it. This is just the normal seasonality that we have 
+seen over many, many years between a strong third quarter and the typical fourth quarter. It's no more than 
+that. Don't read too much into it. 
+ 
+OPERATOR: Our next question comes from the line of Glenn Schorr with Evercore ISI. You may now unmute 
+and ask your question. Glenn, I see I have you in with two connections. Both are enabled. Feel free to dial star 
+six if you prefer to use your phone. 
+ 
+GLENN SCHORR: Thank you. Sorry about that. So, follow up on the equity side. Your prime balances are up 
+over 40%, your revenues are up 14%. Still a pretty good gap versus the biggest peers. Maybe let's talk about 
+where you're investing and what your aspirations are for the equities business because th ere is a pretty big 
+upside if you continue to strengthen the franchise there. Thanks. 
+ 
+JANE FRASER: Yeah, look, as Andy said at Investor Day, we were late to invest in equities. What we are 
+systematically doing is scaling our equities business primarily by committing the resources to grow the prime 
+balances, making the necessary investments in technology. We see a lot of room to gain share ahead in prime. 
+We're doing so with very diligent client selection and risk management. But the client appetite for Citi is clearly 
+there. Clients, I meet with them all over the world, they keep telling me they want an alternative in this market, 
+and they want that to be Citi because they know and trust us, particularly from the fixed income side over 
+history. That gives us an easier path for expansion and our growth in equities and continued momentum there. 
+So, you'll see us steadily investing in execution. I think we feel confident in our ability to continue growing there. 
+ 
+GLENN SCHORR: Okay. Maybe a similar but different follow -up on the Wealth side. You've had some very 
+strong net new money flows. You had good 15% investment asset growth, but I think the Wealth fees were only 
+up 5%. I don't know if that's a mix, get them in the door, mix them up, provide more advice. Just curious if you 
+can provide a little color behind those trends. Thanks. 
+ 
+GONZALO LUCHETTI: Sure. I will answer your question directly and as asked, then I will give you maybe the 
+broader perspective on Wealth. But very quickly, that is only the result of a couple of strategic decisions that 
+we took a year ago that we are lapping. So that is what is dampening that growth rate on the 5%. One that gets 
+lapped, you are going to see a closer matching between some of the drivers and the revenue. That is kind of the 
+simplest version, I think. Thank you for the question.  
+ 
+I think the broader piece there, we are pleased with what we are seeing in terms of momentum from our Wealth 
+business. Revenue growing 15% with good expense discipline at 3%. We are accumulating several quarters of 
+very positive operating leverage, and that is what is driving the improvement on returns. Returns for the 
+business were about 7.6% a year ago, then 10.8% in the first quarter. Now, this quarter and last quarter, they 
+were a bit above 14%. So that gives us confidence that soon we will be able to get into the 15%-20% near term 
+target window that we spoke about at Investor Day. But yes, the business has good momentum, good NNIA 
+quarter, and overall, we are seeing good traction. Thank you. 
+ 
+OPERATOR: For our next question, we will go to Manan Gosalia with Morgan Stanley. Please use star six to 
+unmute. I see your line is open, Manan. We are not hearing you. You may need to unmute locally. 
+ 
+MANAN GOSALIA: Hi, can you hear me now? 
+JANE FRASER: We can. Yes. 
+
+[PDF page 10]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   10 
+ 
+ 
+MANAN GOSALIA: All right, perfect. Sorry about that. I just want to clarify the comment on the capital side. The 
+13.1% capital target for next year, that excludes finalization of the capital rules. Once we get finalization and 
+maybe as you go through the stress test and you see the results of that, revisiting that 13.1% is still on the table? 
+ 
+GONZALO LUCHETTI: Thank you, Manan. Good morning, and thank you for the question. To the first part of 
+your question, yes, the 13.1%, which anchors to a minimum reg requirement of 12.1% into January of 2028, 
+anchors to current rules. It does not include anything related to any of the rules that are in play that some of 
+which have been released and others haven't. But obviously, to your point, we need to see what the first run of 
+the new set of SCB happens, and then as well as the Basel III and the GSIB components as well.  
+ 
+That build up between the 11.6% minimum now to the 12.1% that I was just describing, incorporates exactly and 
+only the current rules. The second thing I'll mention as it relates to capital, which is also not baked in, and is the 
+part that, number one, we control, number two, I feel better about. You can kind of see that even though it's 
+still with old models in the release results from this year. You can see our SCB from the peak of 4.3% coming 
+down over a few years into 3.6%, which is the current level, and then the latest run, which obviously doesn't 
+count, at 3.3%. But directionally, it gives you, hopefully, the reaffirmation of the signal of what I was talking at 
+the very beginning of the call, which is that the strategy is working. The strategy working means we have 
+simplified the bank quite a bit . We have increased the level of accountability. You can see the progress on 
+returns and the proof points quarter after quarter. As you think about that, the PPNR increases, stabilizes, and 
+the loss absorption capacity improves. All of that is a lot more wi thin our control, and that's what we expect 
+over time to also flow through. Again, not considered in. Thank you. 
+ 
+MANAN GOSALIA: Okay, perfect. Just pivoting over to rates and rate sensitivity. With short-end rates moving 
+higher in both the U.S. and internationally, how should we think about the rate sensitivity of the business? 
+Given the strong Services business that you guys have and the strong deposit growth there, I'm sure that drives 
+a lot of the rate sensitivity. If you can just talk about that and how we should think about it over the next year 
+or so. 
+ 
+GONZALO LUCHETTI: Yeah, thank you. Very good question. I think maybe a couple of thoughts. The first one, 
+let me talk for a second about the here and now, and then the going forward. In the here and now, you just saw 
+us upgrade our guidance again of going NII ex-Markets to mid to high sixes versus the original beginning of the 
+year, 5% to 6%. What we said a few weeks ago that we were going to be high end of that spectrum. That gives 
+you a sense for, again, the confidence that we have.  
+ 
+The second piece is, as a reminder, the vast majority of the business for us is driven by client volumes. It really 
+is up to us having success in deepening relationships and also attracting new clients across the range of our 
+franchise. You saw NII ex-Markets at about 7% this quarter. You're seeing deposit growth of 11% and loans ex-
+Markets growth of 7%. Good momentum really across the franchise there. When you think about a higher for 
+longer environment, that should be for us net positive given aggregate asset sensitivity positioning that we 
+have. Even if, of course, you have to, in the short term, absorb the OCI as we just did.  
+ 
+When you think about that asset sensitivity, maybe to give you a bit more color there, and hopefully not a lot 
+more than what you bargained for, is overall that asset sensitivity you can see in our disclosures is non -USD 
+from the structural position that we have across the world from our Services franchise. We feel we're very well-
+positioned there to take advantage of the global rate hikes, many of which have already happened between 
+February and now across the world. You will see also we're relatively neutral on a USD basis, at least within 12 
+months, because given the short duration of our portfolio, we actually do turn asset sensitive in year two and 
+relatively quickly as those reinvestments come in.  
+ 
+Net-net, all of that should put us in something that is constructive as it relates to higher for longer rates. Of 
+course, some businesses, and you alluded to this, Services would be a large beneficiary in this particular 
+
+[PDF page 11]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   11 
+ 
+picture. The reason for that, even if there are, as always, some puts and takes, you have to think about the 
+volumes and how those will play out. There will be competition for deposits, money supply may tighten. So far 
+what we have seen is the betas are performing in line with our expectations. The team in Services, this is true 
+also in our team in Wealth, very focused on quality and not on giving away pricing. That discipline pricing and 
+discipline quality focus, even if I look at Q3 as a proof point for me, is our deposit growth in Services was faster 
+for operating deposits than it was for the overall deposits. That gives you a sense of how much focus Shahmir 
+and the team have on the quality of what we are engaging with clients. Thank you. 
+ 
+OPERATOR: For our next question, we'll go to Ebrahim Poonawala with Bank of America. You may now unmute 
+your line and ask your question. 
+ 
+EBRAHIM POONAWALA: Hey, good morning. Can you hear me? 
+ 
+JANE FRASER: Yes, we can. 
+ 
+EBRAHIM POONAWALA: Okay. Hey, Jane. I guess the first question, just apologies if I missed something on the 
+capital, on the back and forth. I think, Gonzalo, you mentioned if nothing changes on capital, the requirements 
+obviously go up by 50 basis points. Is the point there that if the Fed finalizes rules before the end of the year, 
+then you have better flexibility than if they don't? That's how we should think about it? 
+ 
+GONZALO LUCHETTI: Hi. Good morning, Ebrahim. Not exactly. The way I think about it is the glide path 
+anchors to current rules. That's on the back of our decisions also to support business growth, and that's what 
+we're looking at. Of course, the piece on capital to your point around the rules, it's an unknown at this point. We 
+have to see the totality of the rules come through, some of which have been published, others have not yet.  
+ 
+Even post-publishing, I think we will need to see how the models are running through the first run, because 
+remember, it's going to be a brand new set of components there, and not only new models, but also how market 
+shocks are managed and handled and the scenario piece. We have to see that come through, and probably by, 
+I think towards the middle of the year, we're going to have perfect clarity of exactly what the glide path will look 
+like, and obviously we'll keep you updated along the way. No, I wasn't i mplying that we'll have perfect clear 
+vision by the end of the year, because I don't think that we will. I think we'll have some more information. But I 
+do think that there's going to be some unknowns still, especially on the numerical front, which ultimat ely is 
+what you and us want to have. Thank you. 
+ 
+EBRAHIM POONAWALA: Understood. All right. So, somewhere in there for us, the takeaway is there might be 
+some volatility or tempering in the pace of buybacks. Understood. Then next, just the other question on 
+Services. We're tracking about whatever, 29%, 30% ROTCE. Jane, you talked about the strength in the 
+business. I'm just trying to understand what brings that business from close to 30% to the mid-20s target that 
+you had. Is it just that the incremental growth will be so dilutive, assuming rates don't do anything? Why should 
+that go from 30% to, let's say, 25%? 
+ 
+JANE FRASER: Look, the target we have is a through-the-cycle target. But I think we feel very good about our 
+Services business because we see, think of it as a cumulative business, with really four pillars of further growth 
+at high returns. Deepening with existing clients, acquiring new clients, commercial ban king alike, capturing 
+share in some of these high growth verticals, particularly the fintech space, as well as investing in next 
+generation platforms and solutions.  
+ 
+That is giving us a model that is pretty almost impossible to replicate. It is a true moat between the unrivaled 
+global footprint, comprehensive market-leading solutions, the extensive client base with ever-growing global 
+needs, and then the indisputable scale, which is enabling us to invest significantly in the platforms in the 
+innovation agenda. It's about $2 billion of investments a year.  
+ 
+
+[PDF page 12]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   12 
+ 
+Then you add on AI into this, which is driving further process improvements, which is developing innovative 
+solutions for us, and also improving the client experience. So all these different elements are really translating 
+into our ability to win new mandates, up about 40% year-over-year in our win rate, with minimal client attrition, 
+sustainable revenue growth, high profitability through the cycle. So, to my mind, this is a wonderful business 
+in which we are the undisputed leader in, and it will continue to go from strength to strength because we're on 
+the front foot in it. 
+ 
+OPERATOR: Next, we'll go to Ken Usdin with Autonomous. Ken, feel free to unmute and ask your question. 
+ 
+KENNETH USDIN: Hi. Good morning. Thanks. Just one follow-up on the Services side. Gonzalo, in a higher rate 
+environment, the deposit growth has continued to be really strong, even sequentially. Do you anticipate any 
+changes to how your clients use the balance sheet, given all the points that have already been made about just 
+the ongoing strength and development of the platform? Within that, how much more room do you have in 
+terms of the securities repricing, and can NII continue to outgrow deposit growth as it has been because you 
+still have some more room there? How much more room do you still have there? Thank you. 
+ 
+GONZALO LUCHETTI: Thank you very much, Ken, for the question. Let me start first maybe on the NII ex -
+Markets deposit equation. Our NII ex -Markets this quarter was about 7% year -on-year vis-à-vis deposits 
+growing at 11% and loans growing at 7%. We are not seeing that effect of NII outgrowing the drivers at the 
+aggregate level for the firm. That is also true in our Services business.  
+ 
+If you look at the NII for the business, the NII for the business is more or less in sync actually, I guess, for Services 
+in particular. That also depends on some of the interplay across the firm with Services. What I would say to your 
+question, which I think is a great question on the sustainability of growth, and we spoke about this at Investor 
+Day and since then, one time or two, is we do expect over time for the level of growth that you are seeing, that 
+16% year-on-year deposit growth, to normalize a bit. We are not saying that we are going to be able to grow 
+into eternity at four-times money supply levels. At the same time, what you just heard from Jane, we are very 
+confident in the moat that we have, how embedded we are with clients. We are deploying $2 billion per year of 
+technology investments on both propelling the core capabilities and investing in the core, but also innovating. 
+If you look back the last 90 days, we would have made four or five different announcements that give you a 
+sense that there's a lot of tech investment and capability there. And to Jane's point, the client momentum.  
+ 
+We feel good about that NII trajectory, recognizing that, remember, this is through -the-cycle business. We 
+spoke about this at Investor Day too. The business for the nine years between 2016 and 2025. Remember, 
+those years had zero rates, they had medium rates, and they had high rates, and all the different flavors. Even 
+within that, we were a ble to grow the business at about 8% CAGR in revenue terms, at about 6% CAGR in 
+deposit terms. That kind of tells you that we've pressure tested this business through different environment 
+and weather patterns. That's why even though you may see moderation on the level of growth on deposits and 
+have those normalized, as we said before, we are confident in the trajectory that we have there. Thank you. 
+ 
+KEN USDIN: Got it. One just follow up on the earlier cost point. If you're $500 million in the second half, it's 
+kind of pretty level between 3Q and 4Q, including the severance that you spent in the 3Q and maybe some 
+more in the fourth. What do we need to think about in terms of jump-off points? I know we're not going to get 
+into 2027 guidance now, but I think there's an important debate about does that run rate, do we still have the 
+benefits of transformation and stranded coming down? Can you kind of maybe just try to put that in a box for 
+us about how we exit this year and how we start next? Thanks. 
+ 
+JANE FRASER: I think you should feel good about how we exit this year. I think we're demonstrating a lot of 
+discipline in the expense side. We're taking down the stranded cost. You see the run rate now at the sort of $100 
+million a quarter level. You see the benefits of the transformation costs coming down. You see us investing in 
+the structural efficiencies, particularly leveraging AI and automation in a very material, tangible way to continue 
+
+[PDF page 13]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   13 
+ 
+to drive improvements in the operating efficiency going forward. We're making investments both to grow the 
+top line as well as to drive efficiency in the firm going forward. I would say you should feel good about the jump-
+off point and the discipline that we're continuing to demonstrate. 
+ 
+OPERATOR: Our next question comes from the line of Scott Siefers with TD Cowen. You may now unmute and 
+ask your question. 
+ 
+SCOTT SIEFERS: Morning, or I guess afternoon, everyone. Thank you for taking the question. I wanted to ask 
+another rate-based question, this time just on the effect on customers. It feels like everyone's customers, yours 
+included, have been just kind of remarkably resilient in the face of rising rates. Maybe just sort of some updated 
+thoughts on at what point you would see higher rates affecting customer behavior more visibly. 
+ 
+GONZALO LUCHETTI: Thank you, Scott, for the question. So maybe let me go perhaps around our businesses 
+a bit on the rate impact on customers that you're pointing to. Maybe starting with consumer. Again, these so 
+far have been moderate increases. But I guess to your point, you're probably looking forward and thinking, what 
+about the accumulation of higher rates if the curve plays out as currently predicted with three hikes. 
+ 
+SCOTT SIEFERS: That’s right.  
+ 
+GONZALO LUCHETTI: Right. Okay. Yeah, no, that makes sense. That's a fair question. I think as you see 
+cumulative effects over time, you may start to see on the marginal segment. As a reminder for us on the 
+consumer end, as an example, 86% of our portfolio is prime+. In addition, our strategy, because as we talked 
+about at Investor Day, we're shifting as our clients and the market is taking us there to general purpose cards. 
+You're seeing that in the drivers. That already tells you that mix will also be driving towards improvement in the 
+NCL. So, what you're seeing in our NCLs is both a combination of the resilience playing through, but also our 
+risk appetite framework and our strategy working. So, you're right, I think that at some stage, probably not with 
+a single rate hike, but if you accumulate something that is over several quarters and something that moves 
+quite a bit higher, some of the marginal segments probably below the FICO band, they're going to feel a bit of 
+pressure in terms of the debt payments. Maybe on the corporate end, Jane? 
+ 
+JANE FRASER: Yeah. Look, on the corporate side, I think we're starting to see some of the impact. So, while 
+spreads are remaining tight in investment grade, refinancing activity should stay elevated. I think what we're 
+seeing is the higher rate environment may impact the tenor, however. But where the change may be felt more 
+in some of the customer behavior is you've got an upcoming three-year maturity wall, and that is going to occur 
+in a much different rate spread and liquidity environment. It could bring more high-yield issuers to the market, 
+but it could also indicate some areas of potential stress. The behavior shift we've seen this quarter is syndicated 
+debt and loan issuance moderated in favor of loans and revolvers because of the flexibility that they provide as 
+rates move. Then, of course, you turn to the broad AI ecosystem. 
+ 
+I don't think that higher rates is going to trump the imperative to invest there. We're not seeing a slowdown in 
+investment in the broader AI ecosystem behavior there. There's simply not enough compute. Energy remains a 
+bottleneck requiring more investment. That's globally, not just in the U.S. So obviously, we keep an eye on 
+sentiment and the other dynamics that are happening there, but we're not anticipating a lot of shift in behavior. 
+I would say, though, we do have the luxury at Citi that we have a very investment-grade, heavy client base on 
+the institutional and a prime heavy on the consumer front. We have a high-quality client base. Let's leave it at 
+that. 
+ 
+SCOTT SIEFERS: Perfect. Thank you very much. I appreciate all the color.   
+ 
+OPERATOR: Our next question comes from the line of Chris McGratty with KBW. You may now unmute and 
+ask a question. 
+ 
+
+[PDF page 14]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   14 
+ 
+CHRIS MCGRATTY: Great. Thanks for putting me in. If we think about capital allocation into the lending 
+business into 2027, given the rate discussion, is there any change in where you see the best returns, either 
+by product or geography? 
+ 
+GONZALO LUCHETTI: Hi, Chris. Good afternoon, I suppose now. I think probably a bit early to say as you think 
+about 2027, right? Because we, as everybody else, we have to go through our planning cycles and stare at what 
+also was this quarter and the level of activity. The market is pretty dynamic, and Jane was just alluding to a few 
+of the elements there with what's happening with rates. What are the reverberations? Will it impact? 
+ 
+And some of the questions around the maturity wall that Jane was talking about and any supply competition. 
+Does it impact for some projects, especially maybe outside of the AI and tech turbo boost? What if any impact 
+does it have in other industries on some of the marginal projects? I think we have to see a bit how the fourth 
+quarter plays out and how the rate environment also lands to have a clear picture as to into 2027. 
+ 
+JANE FRASER: Yeah. What I also just remind everyone is when we're looking at capital allocation to lending, we 
+don't think of it just as a product. There's tremendous cross-sell off our platform. This is one of the disciplines 
+that Vis has really driven into the business and the team is how do we think of it within that lens? What I would 
+say is we are very attentive at the moment, given it is quite a dynamic environment. Underwriting with a lot of 
+discipline. We have a very diversified, not a concentrated, portfolio. 
+ 
+We've got rigorous limits that we're putting in place. We stress test, so if the cycles disappoint, we're in a good 
+position around it, and we lend to companies with durable cash flows and collateral. I think we feel very good 
+about where we're sitting right now and our ability to support clients in the growth cycle, but also to be that 
+port in a storm if things do turn a different direction at some point. 
+ 
+CHRIS MCGRATTY: Thank you very much. 
+ 
+OPERATOR: Our next question comes from Matt O'Connor with Deutsche Bank. You may now dial star six and 
+ask your question. 
+ 
+MATTHEW O'CONNOR: Hi. Wanted to ask on credit card, you've obviously been leaning in on the general 
+purpose, and seeing good spend volume growth, good growth in loans. The cost of that is kind of contra 
+revenue. How far along are you in kind of the drag of those initiatives as we think about the revenues? 
+ 
+GONZALO LUCHETTI: Right. Thank you. Thanks very much, Matt, for the question. I think, maybe just to 
+anchor for, let me start with the technical and then I'll give you the broader piece. You're correct. I think we 
+talked about how in the NIR front there will be, especially some of the contra revenue plays through. In this 
+particular quarter, you can see the rewards piece playing through as well as remember, we have in place some 
+profit-sharing agreements with some of our partners. So, the fact that losses are performing quite well, that 
+some of that gets shared. Still accretive for us because we don't share 100%, but that is what has a little bit of 
+an impact on the revenue. 
+ 
+But to your point, when you look at the drivers and what we said about our strategy, which is the pivot towards 
+general purpose card, and you're seeing those drivers healthy. If you look back the last two or three years, those 
+same drivers we've been growing. If you think about a cards business, always the three engines that one thinks 
+about is spend, borrow, and acquire. On all three, we've been growing at about a 5% to 6% annual rate for the 
+last three years compounded. That's what's driving the NII. That's what gives us confidence. What I also like 
+about it is this is a scale franchise, and we are operating at around our through-the-cycle targets. So whilst we 
+are investing, and to Jane's earlier point, we're not losing the discipline on returns and on expenses as we go 
+along. Thank you.  
+ 
+MATTHEW O'CONNOR: Okay. On the private label side, it is obviously a much smaller piece of the overall 
+
+[PDF page 15]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   15 
+ 
+business, and that has kind of been grinding down. Just remind us if there are opportunities to move some of 
+those balances to the general purpose portfolio over time, or if there are other kind of strategic options with 
+that business over time. Thank you. 
+ 
+JANE FRASER: Yeah. I think what we have been seeing is this shift to more of the co-brand proposition. A fair 
+number of the partners we have been in or are in discussions about pivoting to more of a co-brand, which is in 
+line with much of the consumer behavior. So that is one of our areas of focus there. You are right. 
+ 
+OPERATOR: For our next question, we will go to the line of David Chiaverini with Jefferies. You may now 
+unmute and ask your question. 
+ 
+DAVID CHIAVERINI: HI, thanks for taking the question. I wanted to ask about the investment banking pipeline. 
+How should we think about the pipeline for the fourth quarter? 
+ 
+JANE FRASER: Look, I think you should feel pretty good about the pipeline. It's a solid pipeline, to say the least. 
+The U.S. is the center of the action for both advisory and capital markets. We're seeing a bit of pickup in Europe 
+and Asia, but a lot of this is about the U.S. In terms of the pipeline, equity markets is more follow-on driven. The 
+IPO market continues to be a bit more selective, so certainly an option for issuers with durable earnings. The 
+DCM pipeline is strong, but it's supported by clients acting before rates move higher and stay there for longer. I 
+mentioned that we're expecting refinancing activity to stay elevated, particularly in investment grade, because 
+the spreads are pretty tight there. As we look further out, you've got this three-year maturity wall occurring. The 
+overall sentiment for deal-making is constructive. We're seeing continued CapEx, elevated strategic dialogues. 
+I would say we expect to see an above-average wallet, even if it pulls a bit back from the 2026 near record levels 
+for the rest of the year. The bit that's quieter has been sponsors. They've continued to sit on aged assets that 
+are just slower to monetize. But we see continued engagement with them for M&A and IPOs. As long as macro 
+is stable, we don't see that changing. 
+ 
+DAVID CHIAVERINI: Thanks for that. I also wanted to ask about the AI infrastructure build-out. In what ways 
+is Citi participating in or not in the financing of this build-out? Talk about the appetite Citi has for it. 
+ 
+JANE FRASER: Yes. The tech and the related AI activity has been very busy for us. If you look at it, we were in 
+equity capital markets. We're involved in the lead roles on SK hynix and Intel in equity capital markets this 
+quarter. Same in DCM. We're on 17 of the top 25 investment-grade deals, including the lead left in the largest-
+ever high-yield bond issue that was for SoftBank. So we have been very active in the AI space, really across the 
+board, financing, advisory, and helping advise clients on how they can be growing. Yep. 
+ 
+OPERATOR: Our next question comes from Kunpeng Ma with China Securities. 
+ 
+KUNPENG MA: Good afternoon, Jane and Gonzalo. I have a question on the Services business. It's a very good 
+time for global transaction banking. Could you give some color from the client side, what kind of client activities 
+and client demand are supporting this strong performance, and the sustainability of that kind of typical client 
+demand? 
+ 
+JANE FRASER: If you think about, what do our clients need, they are looking at liquidity, payment, custody 
+solutions across the board and across the world. They are looking for, increasingly, always-on, real -time, 
+interoperable, efficient and secure solutions for their cash management, for their custody and all of their 
+liquidity and payment needs. So it’s a little bit of they want to have their cake and eat it without putting on the 
+calories. We're in a position to provide that comprehensive, market -leading set of solutions to those clients 
+holistic needs. We're seeing the client base grow ing a lot as we get new high -growth verticals coming in, 
+particularly in the fintech space and some of the digital asset players, but also we’ve seen it in e-commerce. As 
+the world gets more fragmented, ironically we’re seeing a lot more activity, clients moving money differently 
+around the world, we’re seeing clients connecting the Middle East to Asia in a way that didn't happen five years 
+
+[PDF page 16]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   16 
+ 
+ago, or Latin America to Asia, that had not been a major corridor, that’s been growing, in addition to all the usual 
+ones that we see. The client base is really ripe for a platform like Citi's, and that's where we're seeing very little 
+client attrition, we’re seeing a lot of growth and deepening with existing clients, but we are also excited to see 
+a lot of new client acquisition coming through as well. 
+ 
+KUNPENG MA: Very helpful. May I have a quick follow -up on the digital assets. Could you share some color 
+about the contribution of digitalization and related activities? 
+ 
+JANE FRASER: The area we've been focused on comes back to what the client needs: an instant, always -on 
+way to move money, which involves a connection between the traditional financial world and stablecoins. 
+Interoperability and choice are important, we want to give cl ients a choice between different platforms and 
+capabilities so they can choose what's best for their particular need. There's no one-size-fits-all here. 
+ 
+As I've said before, Citi Token Services and deposit tokenization are probably the area we're most excited about, 
+because it's so easy for clients to move money from one account within Citi to another, taking advantage of our 
+blockchain capability. This capability is now operating in seven markets around the world and connects into 
+our 24/7 clearing capabilities, meaning it's not only instant and always -on between Citi accounts, but also 
+connects into 300 peer banks around the world. That's a compelling proposition for clients. 
+ 
+We see less activity on stablecoins, honestly, given the nature of our client base. Stablecoins can be a bit more 
+clunky, with more complexity around compliance, accounting and tax when moving money around the world, 
+whereas tokenization provides the easiest way to do it, which is why we've seen more growth there. We're also 
+building out digital asset custody, with our platform going live later this year, which will offer one -stop 
+shopping custody, including for digital assets. 
+ 
+OPERATOR: For our next question, we'll return to the line of Mike Mayo with Wells Fargo Securities. 
+ 
+MICHAEL MAYO: I'd like to return to the implication of AI on Citigroup. Is Citi an AI victim or beneficiary? The 
+victim scenario being the AI scare trade that deposits will flow out of Citigroup due to more advanced cash 
+sorting. Could you also address how much you spe nd on cybersecurity and protecting customer privacy and 
+identity, and on the other side, how you're deploying AI for additional efficiencies? I saw Citi move up in the 
+most recent AI survey ranking, could you describe what you've done at the enterprise lev el and the benefits 
+you're getting from AI? 
+ 
+JANE FRASER: Well, I was somewhat surprised we were only near the top 10, I think you've understated where 
+we should be, Mike, but we'll talk about that later. We're deploying AI at scale with measurable results. Let me 
+talk about the benefits first, then cybersecurity. 
+ 
+First, we're supporting our clients on the build -out and transformation of their businesses, capturing a 
+significant share of client activity as that ecosystem mobilizes capital at pace. Second, our own adoption of AI 
+is both earning and saving us money, t angibly improving productivity and efficiency through the bank. AI is 
+accelerating our product development life cycle, we're launching new products at lower cost and faster speed, 
+typically seeing a 30% to 40% increase in the speed of product launches. Ano ther example: 14,000 of our 
+engineers use our main agentic coding tool, Devin, making it much more efficient to do work in-house. We've 
+been in-sourcing work and have reduced our tech vendor spend by 30% year-over-year as a consequence, with 
+a long way still to run. 
+ 
+Perhaps the biggest example: around 100 of our most manual processes have been or are being reengineered 
+end-to-end, leveraging AI and automation. This is a firmwide, systematic program and an important pillar of 
+the structural efficiencies that will further improve our operating efficiency in the near term. This year alone, 
+we're seeing the financial benefits from AI and automation significantly outweigh the investments we've made 
+year-to-date, and that will accelerate in coming years, since the benefits r ecur year after year once the 
+
+[PDF page 17]
+T R A N S C R I P T 
+Citi Third Quarter 2026 Earnings Call 
+October 13, 2026 
+   
+ 
+Copyright © 2026 Citigroup Inc.   17 
+ 
+investment is made. We're also using AI to generate revenue and improve the client experience. It's earlier days 
+still on revenue generation, but in Services, our AI tools for client service agents operate in 82 countries, 
+response times have improved for clients by 21%, and client satisfaction scores are better. You've heard us talk 
+about Citi Sky, in pilot now in our Wealth franchise. AI is happening across our firm, helping us earn and helping 
+us save money. 
+ 
+On making Citi safer, we continue to invest in leading -edge capabilities to bolster our cyber defenses and 
+deploy AI responsibly. AI is tremendously exciting, but it also puts powerful tools in the hands of bad actors. If 
+we're going to innovate at speed, we have to manage risk at speed and retain trust. I'm pleased with how we're 
+deploying frontier models securely through a structured harness across our entire perimeter, identifying and 
+addressing vulnerabilities at speed and scale, and working closely with peers and industry leaders to ensure 
+defense is coordinated across industries, given how interconnected AI systems are arriving in the world. 
+ 
+I am not worried about deposit flight risk in Services. The benefit we have, the network we've built, is so hard to 
+replicate across its multiple dimensions. We constantly demonstrate that we're at the forefront of applying 
+innovations and new capabilities to disrupt ourselves and advance our proposition, which is why we have this 
+very high win rate and continue bringing in new clients and new business onto the platform with very little 
+attrition. My job is always to worry, but it's also to make sure we do something about it, and we're doing that in 
+a constructive way that retains trust. 
+ 
+OPERATOR: And there are no further questions. I will turn the call over to Margo Pilic for closing remarks. 
+ 
+MARGO PILIC: Thank you, operator. Thank you all for joining us today. We look forward to speaking with you 
+and addressing any follow-up questions you have. 
+ 
+OPERATOR: This concludes Citi's Third Quarter 2026 Earnings Call. You may now disconnect. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Certain statements in this transcript are “forward -looking statements” within the meaning of the Private 
+Securities Litigation Reform Act of 1995. These statements are based on management's current 
+expectations and are subject to uncertainty and changes in  circumstances. These statements are not 
+guarantees of future results or occurrences. Actual results and capital and other financial condition may 
+differ materially from those included in these statements due to a variety of factors. These factors include,  
+among others, macroeconomic, geopolitical and other challenges and uncertainties, including higher 
+interest rates, elevated inflation and conflicts in the Middle East; and the precautionary statements 
+included in this transcript. These factors also consis t of those contained in Citigroup's filings with the U.S. 
+Securities and Exchange Commission, including without limitation the “Risk Factors” section of Citigroup’s 
+2025 Form 10 -K. Any forward -looking statements made by or on behalf of Citigroup speak only  as to the 
+date they are made, and Citi does not undertake to update forward-looking statements to reflect the impact 
+of circumstances or events that arise after the date the forward-looking statements were made. 

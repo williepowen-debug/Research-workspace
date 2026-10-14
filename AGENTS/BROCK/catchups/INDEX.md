@@ -1,10 +1,11 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-10-09.md` (session of 2026-10-09: L585 GRADED — CRMT sixth bridge to 10/15 · CABO no filing on close day · WQ-370 OTIC gate letter drafted pre-data · 17-item drain · NEXUS_BRIEF re-fold; 11:00 session: Kellermeyer on FSK SOI · BRK-31 bank-Q3 frame FROZEN · WFC 10/13 correction).
+**CURRENT:** `catchups/2026-10-14.md` (Will own-window wave: three Q3 bank reads, FSK contract/commitment bridge, October15 CRMT prepared, intake25).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
+- `catchups/2026-10-09.md` (CRMT sixth bridge, Kellermeyer marks, frozen bank frame).
 - `catchups/2026-10-08.md` (session of 2026-10-08: L480 CLOSED SILENT · L585 CRMT bridge-5 STD read · R2 unchanged · 7-item drain incl. Metrics (AU) at ASX primary).
 - `catchups/2026-10-02.md` (session of 2026-10-02: BRK-02 FALSE · CRMT bridge 5 · L494 X1 sitting · GATE-BRK-R2 fire #2 on OCIC · CREED adoption + STATUS split).
 

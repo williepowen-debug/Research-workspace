@@ -1,0 +1,19 @@
+{
+  "asof": "2026-10-14",
+  "scope": "dated top-level source/research Markdown eligibility only; undated files not proven eligible",
+  "candidates": [
+    {
+      "path": "domain/sources/2026-08-13_NEWS_SWEEP_PLAN.md",
+      "age_days": 62,
+      "disposition": "RETAIN",
+      "reason": "candidate; dated obligation/boot reference verification pending"
+    },
+    {
+      "path": "domain/sources/2026-08-13_NEWS_SWEEP_RESULTS.md",
+      "age_days": 62,
+      "disposition": "RETAIN",
+      "reason": "unresolved instrument or frozen spec requires retained-window check"
+    }
+  ],
+  "action": "No removal; source-window/obligation dependencies retained, full quarterly adjudication not claimed."
+}

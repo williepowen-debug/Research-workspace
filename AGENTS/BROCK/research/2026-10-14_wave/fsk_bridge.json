@@ -1,0 +1,151 @@
+{
+  "source": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026033118/exhibit101fskkr-amendmentn.htm",
+  "vintage": "2026-05-08 signed amended schedule; deleted redline text removed; not October assignments/draws",
+  "schedule_rows": 30,
+  "total_commitment_usd": 4051724139,
+  "lenders": [
+    {
+      "lender": "JPMorgan Chase Bank, N.A.",
+      "may8_commitment_usd": 275862069
+    },
+    {
+      "lender": "ING Capital LLC",
+      "may8_commitment_usd": 275862069
+    },
+    {
+      "lender": "Bank of Montreal",
+      "may8_commitment_usd": 293103448
+    },
+    {
+      "lender": "Sumitomo Mitsui Banking Corporation",
+      "may8_commitment_usd": 293103448
+    },
+    {
+      "lender": "MUFG Bank, Ltd.",
+      "may8_commitment_usd": 258620690
+    },
+    {
+      "lender": "Truist Bank",
+      "may8_commitment_usd": 258620690
+    },
+    {
+      "lender": "Mizuho Bank, Ltd.",
+      "may8_commitment_usd": 193965517
+    },
+    {
+      "lender": "Toronto-Dominion Bank, New York Branch",
+      "may8_commitment_usd": 193965517
+    },
+    {
+      "lender": "Bank of America, N.A.",
+      "may8_commitment_usd": 172413793
+    },
+    {
+      "lender": "HSBC Bank USA, N.A.",
+      "may8_commitment_usd": 172413793
+    },
+    {
+      "lender": "Royal Bank of Canada",
+      "may8_commitment_usd": 172413793
+    },
+    {
+      "lender": "Citibank, N.A.",
+      "may8_commitment_usd": 129310345
+    },
+    {
+      "lender": "Industrial and Commercial Bank of China",
+      "may8_commitment_usd": 129310345
+    },
+    {
+      "lender": "State Street Bank and Trust Company",
+      "may8_commitment_usd": 129310345
+    },
+    {
+      "lender": "UBS AG, Stamford Branch",
+      "may8_commitment_usd": 129310345
+    },
+    {
+      "lender": "Goldman Sachs Bank USA",
+      "may8_commitment_usd": 107758621
+    },
+    {
+      "lender": "Barclays Bank PLC",
+      "may8_commitment_usd": 86206897
+    },
+    {
+      "lender": "BNP Paribas",
+      "may8_commitment_usd": 86206897
+    },
+    {
+      "lender": "Morgan Stanley Senior Funding, Inc.",
+      "may8_commitment_usd": 86206897
+    },
+    {
+      "lender": "Societe Generale",
+      "may8_commitment_usd": 86206897
+    },
+    {
+      "lender": "Canadian Imperial Bank of Commerce",
+      "may8_commitment_usd": 43103448
+    },
+    {
+      "lender": "Fifth Third Bank, N.A., successor by merger to Comerica Bank",
+      "may8_commitment_usd": 43103448
+    },
+    {
+      "lender": "U.S. Bank National Association",
+      "may8_commitment_usd": 43103448
+    },
+    {
+      "lender": "Apple Bank",
+      "may8_commitment_usd": 21551724
+    },
+    {
+      "lender": "Stifel Bank & Trust",
+      "may8_commitment_usd": 21551724
+    },
+    {
+      "lender": "Taiwan Cooperative Bank, Seattle Branch",
+      "may8_commitment_usd": 17241379
+    },
+    {
+      "lender": "Taiwan Business Bank, Los Angeles Branch",
+      "may8_commitment_usd": 8620690
+    },
+    {
+      "lender": "Santander Bank N.A. 1",
+      "may8_commitment_usd": 172413793
+    },
+    {
+      "lender": "Banc of America Credit Products 1",
+      "may8_commitment_usd": 129310345
+    },
+    {
+      "lender": "The Huntington National Bank, successor by merger to Cadence Bank 2",
+      "may8_commitment_usd": 21551724
+    }
+  ],
+  "definitions": {
+    "\u201c Cash Pay Bank Loans \u201d means": "\u201c Cash Pay Bank Loans \u201d means First Lien Bank Loans and Second Lien Bank Loans as to which, at the time of determination, cash interest is payable thereon (i) at least quarterly and (ii) in an amount not less than the greater of (A) 2/3rds of the interest (including accretions and \u201cpay-in-kind\u201d interest) for the current monthly or quarterly period (as applicable) and (B) (x) if such Bank Loan is a floating rate obligation, 2.0% above the applicable benchmark rate per annum, or (y) if such Bank Loan is a fixed rate obligation, 6.0% per annum . \u201c CDO Securities \u201d means debt securities, equity securities or composite or combination securities (i.e. securities consisting of a combination of debt and equity securities that are issued in effect as a unit), including synthetic securities that provide synthetic credit exposure to debt securities, equity securities or composite or combination securities (or other investments that similarly represent an investment in underlying levered portfolios), that, in each case, entitle the holders thereof to receive payments that (i)\u00a0depend on the cash flow from a portfolio consisting primarily of ownership interests in debt securities, corporate loans or asset- backed securities or (ii)\u00a0are subject to losses owing to credit events (howsoever defined) under credit derivative transactions with respect to debt securities, corporate loans or asset-backed securities. \u201c First Lien Bank Loan \u201d means a Bank Loan that is entitled to the benefit of a fir",
+    "\u201c Performing First Lien Bank Loans \u201d means": "\u201c Performing First Lien Bank Loans \u201d means First Lien Bank Loans (which are not Performing DIP Loans) which are Cash Pay Bank Loans and are Performing. 133 \u201c Performing Non-Cash Pay High Yield Securities \u201d means Performing High Yield Securities other than Performing Cash Pay High Yield Securities. \u201c Performing Non-Cash Pay Mezzanine Investments \u201d means Performing Mezzanine Investments other than Performing Cash Pay Mezzanine Investments. \u201c Performing Preferred Stock \u201d means Preferred Stock that is Performing. \u201c Performing Principal Finance Assets \u201d means Principal Finance Assets which are Performing. \u201c Performing Principal Finance Common Equity Assets \u201d means Performing Principal Finance Assets which are Capital Stock (other than Preferred Stock). \u201c Performing Principal Finance Debt Assets \u201d means Performing Principal Finance Assets which are debt Portfolio Investments. \u201c Performing Principal Finance Preferred Stock Assets \u201d means Performing Principal Finance Assets which are Preferred Stock. \u201c Performing Second Lien Bank Loans \u201d means Second Lien Bank Loans (which are not Performing DIP Loans) which are Cash Pay Bank Loans and are Performing. \u201c Permitted Prior Working Capital Lien \u201d means, with respect to a portfolio company that is a borrower under a Bank Loan, a security interest in the accounts receiva",
+    "\u201c Non-Performing First Lien Bank Loans \u201d means": "\u201c Non-Performing First Lien Bank Loans \u201d means First Lien Bank Loans other than Performing First Lien Bank Loans. \u201c Non-Performing High Yield Securities \u201d means High Yield Securities other than Performing High Yield Securities. \u201c Non-Performing Mezzanine Investments \u201d means Mezzanine Investments other than Performing Mezzanine Investments. \u201c Non-Performing Preferred Stock \u201d means Preferred Stock other than Performing Preferred Stock. \u201c Non-Performing Principal Finance Assets \u201d means Principal Finance Assets other than Performing Principal Finance Assets. \u201c Non-Performing Second Lien Bank Loans \u201d means Second Lien Bank Loans other than Performing Second Lien Bank Loans. 132 \u201c Performing \u201d means (a) with respect to any Portfolio Investment of a Borrower that is debt, the issuer of such Portfolio Investment is (i) not then in default of any payment obligations outstanding with respect to accrued and unpaid interest or principal in respect thereof, after the expiration of any applicable grace period and (ii) not placed on non-accrual status as disclosed on a Form 10-K or Form 10-Q as filed by such Borrower with the SEC, (b) with respect to any Portfolio Investment that is Preferred Stock, the issuer of such Portfolio Investment has not failed to meet any scheduled redemption obligations or to pay its latest declared cash dividend, after the expiration of any applicable grace period, and (c) with respect to any Portfolio Investment that is a Principal Finance Asset, (x) each tranc",
+    "\u201c First Lien Bank Loan \u201d means": "\u201c First Lien Bank Loan \u201d means a Bank Loan that is entitled to the benefit of a first lien and first priority perfected security interest (subject to any Permitted Prior Working Capital Lien and other customary encumbrances) on a substantial portion of the assets of the respective borrower and guarantors obligated in respect thereof.\u00a0 For the avoidance of doubt, the \u201clast out\u201d portion of any \u201clast out\u201d Bank Loan shall not constitute a First Lien Bank Loan. 131 \u201c High Yield Securities \u201d means debt Securities (a)\u00a0issued by public or private issuers, (b)\u00a0issued pursuant to an effective registration statement or pursuant to Rule\u00a0144A under the Securities Act (or any successor provision thereunder) and (c)\u00a0that are not Cash Equivalents, Mezzanine Investments (described under clause (i) of the definition thereof) or Bank Loans. \u201c Long-Term U.S.\u00a0Government Securities \u201d means U.S.\u00a0Government Securities maturing more than one month from the applicable date of determination. \u201c Mezzanine Investments \u201d means (i) debt Securities (including convertible debt Securities (other than the \u201cin-the-money\u201d equity component thereof)) (a)\u00a0issued by public or private issuers, (b)\u00a0issued without registration under the Securities Act, (c)\u00a0not issued pursuant to Rule\u00a0144A under the Securities Act (or any successor provision thereunder), (d)\u00a0that are not Cash Equivalents and (e)\u00a0contractually subordinated in right of payment to other debt of the same issuer and (ii) a Bank Loan that is not a First Lien B",
+    "\u201c Performing \u201d means": "\u201c Performing \u201d means (a) with respect to any Portfolio Investment of a Borrower that is debt, the issuer of such Portfolio Investment is (i) not then in default of any payment obligations outstanding with respect to accrued and unpaid interest or principal in respect thereof, after the expiration of any applicable grace period and (ii) not placed on non-accrual status as disclosed on a Form 10-K or Form 10-Q as filed by such Borrower with the SEC, (b) with respect to any Portfolio Investment that is Preferred Stock, the issuer of such Portfolio Investment has not failed to meet any scheduled redemption obligations or to pay its latest declared cash dividend, after the expiration of any applicable grace period, and (c) with respect to any Portfolio Investment that is a Principal Finance Asset, (x) each tranche of such Portfolio Investment or other investment that, in each case, is senior to such Portfolio Investment, in the issuer of such Portfolio Investment satisfies (to the extent applicable) the requirements of the immediately preceding clauses (a) and (b), and (y) to the extent applicable, the holders of such Portfolio Investment have received in cash all expected distributions of interest and other payments thereon and cash flows in respect thereof are not currently subject to any deferral or diversion for the benefit of the holders of any tranche or other investments that rank senior to such Portfolio Investment pursuant to any waterfall or similar structure. \u201c Performi"
+  },
+  "calculation": {
+    "kellermeyer_total_cost_m": 369.40000000000003,
+    "total_fv_m": 236.9,
+    "cost_minus_fv_m": 132.50000000000003,
+    "jpm_schedule_share_pct": 6.808510637352648,
+    "citi_schedule_share_pct": 3.191489365115437,
+    "nonextending_santander_baccredit_m": 301.724138,
+    "may_schedule_less_nonextending_m": 3750.000001
+  },
+  "limitations": [
+    "Commitment != funded retained exposure or loss",
+    "Schedule named State Street Bank and Trust is NOT SouthState SSB cohort issuer",
+    "Actual October lender assignments, draws, participation/hedges UNKNOWN",
+    "Cash-pay definition is contractual label; fund non-accrual status and credit-default statistics are separate",
+    "Private borrowing-base certificate, contractual Value and actual Kellermeyer classification/contribution UNKNOWN"
+  ]
+}

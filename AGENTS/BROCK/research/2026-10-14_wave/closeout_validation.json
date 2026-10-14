@@ -1,0 +1,17 @@
+{
+  "asof": "2026-10-14T18:19:45.440218+00:00",
+  "selfcheck": "CLEAN narrow checks",
+  "corrections": "0 unreceipted named rows",
+  "ledger": "rc0",
+  "status_bytes": 22701,
+  "status_target": 22785,
+  "predictions_due": 0,
+  "schema": "KB/VX13 FLOW11 CATALYSTS8 nonempty rows",
+  "claim_advisory": "Existing CATALYSTS August2026 row includes historical2022-2025 example -> parser interpreted bare8/11 in2025, not a new2026 weekday defect",
+  "consumer": "manual instrument-kind correction disposition saved; no new precision baseline adopted",
+  "retirement": "eligibility inventory done, protected/dependent sources retained, no quarterly archival completion claimed",
+  "other_owner_work": "preserved",
+  "peer_notification": "native unavailable",
+  "recipient_consumption": "UNKNOWN",
+  "closeout_ask": "none received, Will-launched own window"
+}

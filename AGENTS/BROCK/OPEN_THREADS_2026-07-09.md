@@ -23,7 +23,7 @@
 
 | Thread | Why it matters | What it takes | Urgency |
 |---|---|---|---|
-| **Affinius Oct-2026 $2.7B maturity — build the interim timeline** | Currently just one co-lending snapshot; no view on asset sales, refi attempts, or other named co-lenders between now and Oct | Dedicated timeline build off Affinius/Square Mile disclosures + any other bank 10-Qs naming the relationship | This-month |
+[CORRECTED 2026-10-14; KB-BRK-336: original NEA warehouse-ABS anticipated repayment, not corporate maturity/default. Historical wording follows.] | **Affinius Oct-2026 $2.7B maturity — build the interim timeline** | Currently just one co-lending snapshot; no view on asset sales, refi attempts, or other named co-lenders between now and Oct | Dedicated timeline build off Affinius/Square Mile disclosures + any other bank 10-Qs naming the relationship | This-month |
 | **PSEC post-cut trajectory as bellwether** | PSEC just cut (5/7); if it stabilizes post-cut that's a bull tell for the whole long-tail, if NA/NAV keep deteriorating that's confirmation — the "most-stressed name" canary | Watch PSEC Q2 print (~Aug) + any interim NAV/NA disclosure | Background until Q2 print |
 | **CARL/REGINALD rows on the bank→BDC map** | Frame built 7/9, but reserve-build/CRE-migration/consumer rows are still BROCK placeholders | Chase CARL + REGINALD before the 7/14 bank kickoff | This-week |
 | **Size-bifurcation migration test (KB-BRK-169)** | Nobody has actually pulled the small-fund <50¢ name list to diff against ARCC/OBDC Q2 non-accrual additions | Assemble the small-fund <50¢ list NOW so it's ready to compare the moment 7/25-28 prints land | This-month |
