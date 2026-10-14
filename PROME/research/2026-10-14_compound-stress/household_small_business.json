@@ -1,0 +1,89 @@
+{
+  "task": "Will-authorized broader financial-stress investigation: household and small-business credit",
+  "research_date": "2026-10-14",
+  "status": "DONE",
+  "scope": "Bounded first pass. Existing CARL October12 work reused; fresh sources checked. No owner grades, trades or monitoring rules changed.",
+  "judgment": "Borrower strain is real but uneven. Higher refinancing costs and more small-business reorganizations deserve investigation. Neither bankruptcy counts nor accumulated credit-bureau delinquencies directly measure new losses at a named bank.",
+  "findings": [
+    {
+      "id": "SME1",
+      "confidence": "VERIFIED",
+      "topic": "Financing costs and profitability",
+      "source": "https://www.nfib.com/wp-content/uploads/2026/10/NFIB-SBET-Report-September-2026.pdf",
+      "source_class": "PRIMARY",
+      "publication_date": "2026-10-13",
+      "data_date": "September 2026 survey",
+      "locator": "Printed pages1-2; credit markets and earnings",
+      "observations": {"short_maturity_loan_interest_percent":8.2,"change_from_August_percentage_points":0.7,"profit_trend_net_percent":-20,"last_loan_harder_net_percent":3,"regular_borrowers_percent":22,"usable_responses":411,"sample_invited":5000},
+      "interpretation": "Costs rose, but access did not deteriorate on the last-loan measure. The membership survey is not a census or a default-rate estimate. Optimism97.9 is near the historical98.0 average; rate8.2% is near its8.3% historical average. Both are contrary evidence to a universal financing freeze.",
+      "next_question": "Which borrowers simultaneously face weaker operating cash flow, expiring cheap debt and no affordable replacement?"
+    },
+    {
+      "id": "SME2",
+      "confidence": "VERIFIED",
+      "topic": "Business reorganizations and misleading aggregates",
+      "source": "https://www.epiqglobal.com/en-us/resource-center/news/small-business-subchapter-v-elections-increase-46-compared-to-last-year",
+      "source_class": "PRIMARY",
+      "publication_date": "2026-10-08",
+      "data_date": "January-September2026 and September2026",
+      "locator": "YTD and September filing bullets",
+      "observations": {"Subchapter_V_YTD2026_count":2442,"Subchapter_V_YTD2025_count":1672,"Subchapter_V_YoY_percent_derived":46.05263157894737,"September_SubV2026":276,"September_SubV2025":200,"September_commercial2026":2627,"September_commercial2025":2823},
+      "interpretation": "Small-business reorganizations increased while September total commercial filings fell. Related-company filings distort counts: September2025 included109 related pharmacy-service filings. Counts are not loss dollars or a portfolio default probability. The source's YTD individual counts444252/399379 imply11.24% growth, inconsistent with its7% prose; retain the discrepancy. Eligibility-law changes require separate verification before interpreting future cohorts.",
+      "coverage": "CARL already reported the SubV increase. Fresh source review adds comparison discipline, not a new distress score."
+    },
+    {
+      "id": "HH1",
+      "confidence": "VERIFIED",
+      "topic": "New household delinquencies",
+      "source": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+      "source_class": "PRIMARY",
+      "publication_date": "2026-08-11",
+      "data_date": "Q2 2026 versus Q2 2025",
+      "locator": "Flow into Serious Delinquency table and footnote1",
+      "units": "Annualized percent of eligible balances transitioning to90+ days delinquent",
+      "observations": {"mortgage_2026":1.52,"mortgage_2025":1.29,"auto_2026":3.00,"auto_2025":2.93,"card_2026":6.97,"card_2025":6.93},
+      "interpretation": "Mortgage deterioration deserves attention; card and auto flows are much closer to year-earlier levels. These are June observations, not an October household clearance. Who bears mortgage loss depends on insurance, guarantees, retention and servicing obligations."
+    },
+    {
+      "id": "HH2",
+      "confidence": "VERIFIED",
+      "topic": "Credit-bureau stock versus lender loss",
+      "source": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
+      "source_class": "PRIMARY",
+      "publication_date": "2026-08-11",
+      "data_date": "Study through Q2 2026; reporting-practice comparison2004-2012 versus2024",
+      "locator": "Diverging Stories of Loan Performance; reconciliation discussion",
+      "interpretation": "More old charged-off debt remains reported to credit bureaus. That raises measured delinquent debt stock without another charge-off on a lender's books. The authors find new card delinquencies elevated but largely stable since2024. Borrowers still owe the debts; this measurement correction does not erase their hardship."
+    },
+    {
+      "id": "SME3",
+      "confidence": "VERIFIED",
+      "topic": "Personal guarantees connect business and household stress",
+      "source": "https://www.fedsmallbusiness.org/2026-report-on-employer-firms",
+      "source_class": "PRIMARY",
+      "publication_date": "2026 report",
+      "data_date": "Survey September3-November14,2025",
+      "locator": "Debt/financing highlights and methodology",
+      "observations": {"survey_firms":6525,"personal_guarantee_among_debt_holders_percent":59,"business_asset_security_among_debt_holders_percent":51,"firms_with_no_outstanding_debt_percent":31},
+      "interpretation": "A business failure can impair an owner's household through a personal guarantee. The two security categories overlap and are not separate loans. Convenience sample of employer firms with1-499 employees; this is historical structure, not current October defaults. Debt-free firms and successful applications are resilience evidence."
+    },
+    {
+      "id": "SME4",
+      "confidence": "VERIFIED",
+      "topic": "Enova is an identifiable lender, but current deterioration is unproved",
+      "sources": ["https://ir.enova.com/2026-07-23-Enova-Reports-Second-Quarter-2026-Results","https://ir.enova.com/2026-09-14-Enova-Withdraws-Bank-Regulatory-Applications","https://ir.enova.com/2026-10-08-Enova-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call"],
+      "source_class": "PRIMARY",
+      "data_dates": ["2026-06-30","2026-09-14","2026-10-08 scheduling notice"],
+      "observations": {"Q2_consolidated_net_chargeoff_ratio_percent":7.3,"Q2_liquidity_including_available_facility_capacity_USD_million":929,"Q3_release_scheduled":"2026-10-22 after market close"},
+      "interpretation": "Q2 consolidated credit performance and funding access oppose an assumed lender collapse. Consumer and business portfolios must be separated. September14 withdrawal of Grasshopper acquisition applications supersedes the July expected-closing statement; do not assume deposit funding was acquired. Facility capacity is not unrestricted cash.",
+      "unresolved": "Primary Q2 supplemental and10-Q retrieval failed. Secondary small-business delinquency/charge-off figures are not promoted. September OnDeck securitization is a lead only; current retained first-loss amount, bank warehouse exposure and covenant headroom remain UNKNOWN."
+    }
+  ],
+  "transmission_test": ["Identify the borrower cohort and its refinancing or payment date.","Match the loan to a legal lender, retained risk and any guarantor.","Measure new arrears, actual charge-offs and recoveries separately from old delinquent stock.","Compare cash earnings and unrestricted liquidity with cash obligations and funding terms.","Check household guarantees, jobs and local property spillovers without counting the same debt twice."],
+  "bounded_followups": [
+    {"owner":"CARL","question":"Integrate September NFIB into existing credit work; pair SME borrower deterioration with named lender losses and personal-guarantee exposure.","stop":"No national SME failure rate inferred from filings or non-CRE C&I balances."},
+    {"owners":["CARL","BROCK"],"question":"Use Enova's existing public disclosures to separate business and consumer loss trends, warehouse exposure, covenant headroom and retained ABS risk.","catalyst":"October22 Q3 release; issuer notice verified.","stop":"A research candidate, not an approved new standing monitor or trade."},
+    {"owners":["CARL","HOMER","LABOR"],"question":"Reconcile new mortgage/auto/card deterioration with labor income and actual October spending at existing scheduled releases.","stop":"Do not duplicate CARL's October12 report or label an old credit-bureau stock as current bank loss."}
+  ],
+  "limitations": ["No comprehensive SME loan-to-bank map completed.","Kansas City Fed Q2 landing page indicates rising year-over-year new lending, but detailed release was not recovered; no quantitative inference adopted.","No national bankruptcy data-refresh claim beyond the Epiq vendor series.","This pass does not establish prices, option economics, expected losses, systemic failure or a trade edge."]
+}

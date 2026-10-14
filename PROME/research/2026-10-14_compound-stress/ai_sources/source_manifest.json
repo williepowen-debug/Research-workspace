@@ -1,0 +1,65 @@
+{
+  "retrieval": "web tool primary opens2026-10-14 UTC",
+  "sources": {
+    "ATHENE": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/R21.htm",
+      "data_date": "2026-06-30",
+      "locator": "Commitments and Contingencies: purchase obligation guarantee; funding agreements"
+    },
+    "APOLLO": {
+      "url": "https://ir.apollo.com/news-events/press-releases/detail/629/apollo-leads-35-billion-capital-solution-for-broadcom-ai",
+      "data_date": "2026-06-09",
+      "locator": "Transaction description and Advisors"
+    },
+    "CRWV_CONTRACT": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+      "data_date": "2026-03-30",
+      "locator": "Definitions; sections 5.25, 2.20; lender signature pages"
+    },
+    "ORCL": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+      "data_date": "2026-08-31",
+      "locator": "Leases, additional commitments"
+    },
+    "CRWV_CONVERT": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm",
+      "data_date": "2026-09-22",
+      "locator": "Item1.01 indenture and notes"
+    },
+    "PJM": {
+      "url": "https://insidelines.pjm.com/operations-update-extends-maximum-generation-alert-calls-on-demand-response/",
+      "data_date": "2026-10-13",
+      "locator": "DOE combined order and backup-use statement"
+    },
+    "DOE": {
+      "url": "https://www.energy.gov/documents/doe-order-no-202-26-50",
+      "data_date": "2026-10-13",
+      "locator": "Order202-26-50 pp1-3; effective October13-16"
+    },
+    "SOFR": {
+      "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+      "data_date": "2026-10-09",
+      "locator": "refRates; latest returned observation"
+    },
+    "FED": {
+      "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-leverage.htm",
+      "data_date": "2026-05",
+      "locator": "Hedge funds, dealer intermediation; FormPF through2025Q3; March2026 SCOOS"
+    },
+    "IMF": {
+      "url": "https://mediacenter.imf.org/press-briefings/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c",
+      "data_date": "2026-10-13",
+      "locator": "Official release transcript; full chapters not retrieved"
+    }
+  },
+  "failed": [
+    "IMF eLibrary book403",
+    "IMF download PDF inaccessible",
+    "IMF October ch2 guessed PDF inaccessible"
+  ],
+  "new_contract_flags": [
+    "Power hedge percentage redacted, not absent",
+    "Model clause(c) includes delay/customer acceptance/performance"
+  ],
+  "note": "Manifest is provenance, not raw document archive."
+}

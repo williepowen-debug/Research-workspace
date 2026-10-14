@@ -1,0 +1,303 @@
+{
+  "task": "PROME bounded compound-stress AI and market funding first pass",
+  "runtime": "Codex/OpenAI; PROME helper, no desk boot",
+  "as_of_ET": "2026-10-14 early morning EDT; clock start2026-10-14T04:30:24Z",
+  "complete": true,
+  "sources": {
+    "ATHENE": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/R21.htm",
+      "data_date": "2026-06-30",
+      "locator": "Commitments and Contingencies: purchase obligation guarantee; funding agreements"
+    },
+    "APOLLO": {
+      "url": "https://ir.apollo.com/news-events/press-releases/detail/629/apollo-leads-35-billion-capital-solution-for-broadcom-ai",
+      "data_date": "2026-06-09",
+      "locator": "Transaction description and Advisors"
+    },
+    "CRWV_CONTRACT": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+      "data_date": "2026-03-30",
+      "locator": "Definitions; sections 5.25, 2.20; lender signature pages"
+    },
+    "ORCL": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+      "data_date": "2026-08-31",
+      "locator": "Leases, additional commitments"
+    },
+    "CRWV_CONVERT": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm",
+      "data_date": "2026-09-22",
+      "locator": "Item1.01 indenture and notes"
+    },
+    "PJM": {
+      "url": "https://insidelines.pjm.com/operations-update-extends-maximum-generation-alert-calls-on-demand-response/",
+      "data_date": "2026-10-13",
+      "locator": "DOE combined order and backup-use statement"
+    },
+    "DOE": {
+      "url": "https://www.energy.gov/documents/doe-order-no-202-26-50",
+      "data_date": "2026-10-13",
+      "locator": "Order202-26-50 pp1-3; effective October13-16"
+    },
+    "SOFR": {
+      "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+      "data_date": "2026-10-09",
+      "locator": "refRates; latest returned observation"
+    },
+    "FED": {
+      "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-leverage.htm",
+      "data_date": "2026-05",
+      "locator": "Hedge funds, dealer intermediation; FormPF through2025Q3; March2026 SCOOS"
+    },
+    "IMF": {
+      "url": "https://mediacenter.imf.org/press-briefings/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c",
+      "data_date": "2026-10-13",
+      "locator": "Official release transcript; full chapters not retrieved"
+    }
+  },
+  "findings": [
+    {
+      "id": "AI01",
+      "entity": "WarehouseCo Intermediate Holdings LP / Athene Holding Ltd / Broadcom / Anthropic",
+      "status": "LATENT_CONTINGENT_RISK",
+      "sources": [
+        "ATHENE",
+        "APOLLO"
+      ],
+      "units": "USD billion; percent of outstanding purchase obligation",
+      "observations": {
+        "announced_capital_solution": 35,
+        "gross_AHL_guarantee_percent": 15,
+        "third_party_reimbursement_percent_of_AHL_payment": 35,
+        "outstanding_purchase_obligation": "UNKNOWN",
+        "debt_drawn": "UNKNOWN",
+        "guarantee_paid": "UNKNOWN"
+      },
+      "judgment": "WHCO owes infrastructure purchases; AHL guarantees a share if WHCO defaults. The guarantee declines with funding and is expected satisfied no later than2028. Management books no liability because payment is not probable. Committed financing and reimbursement are offsets; counterparty identity/collectibility remain unknown. Do not multiply the transaction headline into a current guarantee exposure.",
+      "additional_cash_channel": "June consolidated investment commitments USD37.1B may be called on request, generally expected within five years; this is not an AI-only stock. FHLB funding agreements USD27.7B and FABR USD26.0B require separate collateral/funding analysis; secured/other USD32.1B includes FABR, not another addition.",
+      "incremental_value": "Named bank tranche roles extend REGINALD/SHADE mapping without asserting retained exposure."
+    },
+    {
+      "id": "AI02",
+      "entity": "CoreWeave Compute Acquisition Co. VIII LLC",
+      "status": "LATENT_CONTRACTUAL_CASH_CALL",
+      "sources": [
+        "CRWV_CONTRACT"
+      ],
+      "units": "USD billion commitments; coverage ratio",
+      "observations": {
+        "commitments": 8.5,
+        "fixed_rate_commitments": 4.0408,
+        "floating_rate_commitments": 4.4592,
+        "projected_DSCR_minimum": 1.2,
+        "drawn_and_current_retained_shares": "UNKNOWN"
+      },
+      "judgment": "Model adjustments include power, rates, delay discounts, customer acceptance and performance. Negative projected site income can require repayment two months before the negative month. Power reserves and commodity coverage protect cash; actual coverage percentages are redacted. Parent bankruptcy or material services-contract breach can trap cash. No breach or cash call established.",
+      "source_correction": "Older owner KB language saying ONLY rates/power and NO mandated power percentage is too strong: clause(c) and section5.25 qualify both. Current hedge split remains UNKNOWN; owners untouched."
+    },
+    {
+      "id": "AI03",
+      "entity": "Oracle / unnamed data-center lessors",
+      "status": "LATENT_LONG_DURATION_OBLIGATION",
+      "sources": [
+        "ORCL"
+      ],
+      "units": "USD billion additional lease commitments; years",
+      "observations": {
+        "additional_uncommenced_lease_commitments": 288,
+        "lease_term_years": [
+          15,
+          19
+        ],
+        "expected_commencement": "Q2FY2027 through FY2029"
+      },
+      "judgment": "These future rents were absent from the August balance sheet and lease maturity table. They are not USD288B of debt already drawn. Earlier starts or slower revenue would tighten cash coverage; delivery delays can defer rent instead. Lessor leverage, project guarantees and retained lenders remain UNKNOWN. Jupiter rent-deferral reporting remains secondary, not a measured loss.",
+      "existing_coverage": "VULCAN KB168 and Jupiter distinction already cover headline; added borrower/lessor accounting fence."
+    },
+    {
+      "id": "AI04",
+      "entity": "CoreWeave Inc / subsidiary guarantors",
+      "status": "OBSERVED_FINANCING_ACCESS_OFFSET",
+      "sources": [
+        "CRWV_CONVERT"
+      ],
+      "units": "USD billion principal; coupon percent; date",
+      "observations": {
+        "closed_principal": 4.2,
+        "coupon": 2.875,
+        "maturity": "2033-04-01"
+      },
+      "judgment": "Upsized financing closed September22, contradicting a generalized financing freeze. Senior unsecured notes carry subsidiary guarantees; specified fundamental change can force cash repurchase at principal plus interest. Conversion may use shares, cash or both at issuer election. Cheap coupon includes equity optionality; holders and ultimate bank retention UNKNOWN. No repurchase trigger or payment failure established.",
+      "existing_coverage": "VULCAN KB169 already covers issuance; contingent cash-repurchase clause freshly checked."
+    },
+    {
+      "id": "AI05",
+      "entity": "PJM / large-load customers",
+      "status": "OBSERVED_POWER_CONSTRAINT_WITH_MITIGATION",
+      "sources": [
+        "DOE",
+        "PJM"
+      ],
+      "units": "MW forecast; authorized operations dates",
+      "observations": {
+        "October14_forecast_outages_MW": 61591,
+        "forecast_distance_to_reserve_margin_MW": 900,
+        "order_window": "2026-10-13 through2026-10-16"
+      },
+      "judgment": "DOE authority is verified, closing WATT October12 issuance gap. PJM reports demand-response procedures and says large-load backup generation has not been used to date. Forecast outages and reserve distance are not actual unserved load. Maintenance recall, demand response and backup authority are offsets; no named AI borrower interruption, incremental expense or lender loss established.",
+      "existing_coverage": "REGINALD October14 independently verified same development; WATT owns operating judgment."
+    },
+    {
+      "id": "AI06",
+      "entity": "US Treasury repo market",
+      "status": "OBSERVED_FUNCTIONING_ON_DATED_GAUGES",
+      "sources": [
+        "SOFR"
+      ],
+      "units": "percent annual rate; USD billion volume",
+      "observations": {
+        "latest_returned_effective_date": "2026-10-09",
+        "SOFR": 3.87,
+        "SOFR_99th_percentile": 3.95,
+        "transaction_volume": 2961,
+        "SOFR_minus_owner_IORB_bp": -3,
+        "SOFR99_minus_owner_IORB_bp": 5,
+        "IORB_comparator_percent": 3.9,
+        "IORB_comparator_basis": "LIQUID October9 owner record; not freshly retrieved"
+      },
+      "judgment": "Fresh primary query returns October9, not October13. Small rate spreads and substantial volume oppose a current broad repo break at that frontier. Aggregates do not clear individual funds, haircuts or offshore dollar basis. LIQUID reports tiny SRF usage, rising discount-window borrowing and a WITHHELD swap-line tool; those are distinct observations, not a clean bill of health."
+    },
+    {
+      "id": "AI07",
+      "entity": "Hedge funds / prime brokers / insurers / pensions",
+      "status": "LATENT_CROSS_MARKET_AMPLIFIER",
+      "sources": [
+        "FED",
+        "IMF"
+      ],
+      "units": "qualitative; dated sector aggregates",
+      "judgment": "May Fed review finds hedge-fund leverage near record levels, with reduced cash-futures basis positions offset by other relative-value trades. Repo-funded Treasury holdings and margin requirements can transmit liquidation across assets; dealer risk limits can tighten under volatility. Dealers retained capacity and mostly unchanged financing terms in March. October13 IMF official release describes resilient markets but elevated AI, sovereign-yield and nonbank vulnerabilities; its banking stress test remains broadly resilient with a weaker tail. This is scenario evidence, not observed Treasury forced sales or AI financing losses.",
+      "dollar_carry_limit": "Named Japanese/offshore borrowers, currency hedges, haircuts, margin calls and actual dollar sales UNKNOWN. Carry unwind is an independent possible root until matched cash transactions establish a join.",
+      "IMF_limit": "Chapter2 numeric claims such as USD42.2T exposure were not independently verified: eLibrary403 and PDF access failed. Not promoted from Axios."
+    }
+  ],
+  "entity_map": [
+    {
+      "structure": "XPV/WHCO",
+      "borrower_or_purchase_obligor": "WHCO",
+      "customer": "Anthropic; initial >1GW",
+      "supplier": "Broadcom",
+      "capital_partners": "Apollo-managed funds/affiliates; Blackstone",
+      "guarantor": "AHL15%; reimbursement counterparty UNKNOWN",
+      "banks": "A1: Wells Fargo coordinator; BNP Paribas/Citi/UBS bookrunners. A2: Goldman Sachs/Bank of America/Morgan Stanley placement agents. Advisory roles separate.",
+      "retained_amount": "UNKNOWN",
+      "source": "APOLLO"
+    },
+    {
+      "structure": "DDTL4.0",
+      "borrower": "CCAC VIII LLC",
+      "lender_signatures": [
+        "MUFG",
+        "Morgan Stanley Bank NA",
+        "Goldman Sachs Bank USA",
+        "JPMorgan Chase Funding Inc",
+        "JPMorgan Chase Bank NA",
+        "SMBC",
+        "Wells Fargo Bank",
+        "BBVA",
+        "Citibank NA",
+        "Credit Agricole CIB",
+        "PNC Bank NA"
+      ],
+      "customer": "REDACTED",
+      "retention": "UNKNOWN; signatures prove original lender roles, not current balances",
+      "source": "CRWV_CONTRACT"
+    },
+    {
+      "structure": "Oracle leases/Jupiter/Volta",
+      "borrower": "Lessor/SPV identities incomplete",
+      "tenant": "Oracle",
+      "lenders": "UNKNOWN",
+      "guarantees": "UNKNOWN current USD3.3B historical lessor guarantee; no resolution inferred from omission",
+      "source": "VULCAN STATUS; secondary Volta leads excluded from exposures"
+    },
+    {
+      "structure": "Insurer bank revolver",
+      "borrower": "Delaware Life",
+      "bank": "Citizens Bank NA",
+      "commitment_USD_million": 450,
+      "draw": "undrawn YE2025 per REGINALD; current UNKNOWN",
+      "link_to_WHCO": "NONE ESTABLISHED",
+      "source": "REGINALD October14 synthesis"
+    }
+  ],
+  "double_count_fences": [
+    "Project cost, commitments, draws and bank retention are different bases.",
+    "Guarantee risk is contingent on the same purchase obligation; do not add guarantee maximum to financed project assets as another independent loss.",
+    "Oracle future rents and lessor debt finance overlapping infrastructure; no consolidated aggregate without reconciliation.",
+    "CoreWeave facility totals may already consolidate in parent debt; subsidiary guarantees do not create another principal.",
+    "Hedge-fund gross derivatives notional is not capital at risk; hedge and funding legs cannot be summed as losses.",
+    "AFS marks, margin cash, loan provision and realized cash loss require separate same-entity bridges."
+  ],
+  "bounded_followups": [
+    {
+      "owners": [
+        "VULCAN",
+        "WATT"
+      ],
+      "ask": "Read current CCACVIII sections5.25 and model clause(c), reconcile older KB wording; obtain site hedged share/customer acceptance and draw balances from next filing. No new threshold.",
+      "deliverable": "One contract version/redaction and cash-call table."
+    },
+    {
+      "owners": [
+        "SHADE",
+        "BROCK",
+        "REGINALD"
+      ],
+      "ask": "WHCO/AHL: recover outstanding obligation, debt draws, tranche investors and reimbursement counterparty; distinguish insurer general account from parent/fund.",
+      "deliverable": "One retained-exposure bridge; UNKNOWN permitted."
+    },
+    {
+      "owners": [
+        "BOND",
+        "LIQUID",
+        "SAM"
+      ],
+      "ask": "Refresh same-date repo distribution, SRF and actual funding interruption/margin evidence; match any carry claim to named obligor and cash sale. Use existing reads; WITHHELD tool remains withheld.",
+      "deliverable": "Observed funding facts versus scenario table."
+    }
+  ],
+  "catalysts_30_90_days": [
+    {
+      "window": "2026-11 Q3 filings",
+      "test": "CoreWeave/Athene draws, reserve balances, contingent payments and project acceptance; issuer release dates not newly verified."
+    },
+    {
+      "window": "2026-11-16 and2026-12-16",
+      "test": "WATT existing FERC show-cause response/answer clocks; qualifying filing may suspend duty."
+    },
+    {
+      "window": "2026-12 to2027-01",
+      "test": "Conditional power-cost trailing marks only if contract unhedged exposure established; Oracle next quarterly filing aroundmidDecember is owner estimate, not guaranteed."
+    },
+    {
+      "window": "2026-12-31 year-end funding turn",
+      "test": "Repo distribution, haircuts and dollar basis against seasonality; swap-line usage alone can miss stress."
+    }
+  ],
+  "limits": [
+    "No comprehensive current debt-draw or ultimate-investor census.",
+    "Full October IMF chapters unavailable; official October13 release is verified.",
+    "SOFR endpoint frontier October9; no October13 rates inferred.",
+    "Firmus IPO withdrawal is owner-established secondary evidence; no new ASX-primary retrieval.",
+    "No prices, trades, scores, gates, inbox consumption, owner edits or Git mutation."
+  ],
+  "coverage_read": [
+    "AGENTS/VULCAN/STATUS.md; KB168/169; DDTL correction lineage",
+    "AGENTS/WATT/STATUS.md; KB047/108; FLOW08; October12 L654 report",
+    "AGENTS/BOND/STATUS.md; October8 ninth-wake report",
+    "AGENTS/LIQUID/STATUS.md; October9 attribution; October8 swap-line letter",
+    "AGENTS/REGINALD/reports/2026-10-14_compound-bank-risk-synthesis.md"
+  ],
+  "done_statement": "DONE: bounded first pass and source manifest saved; unresolved exposures explicitly UNKNOWN."
+}

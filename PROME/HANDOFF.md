@@ -2,6 +2,10 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns the next actions and generated queue/calendar; [STATUS](STATUS.md) indexes PROME work. Source records distinguish decisions, research acceptance, publication and lifecycle receipts.
 
+## October14 — broader stress investigation
+
+Will authorized deeper research across the other financial-risk areas. [Integrated findings](research/2026-10-14_compound-stress/synthesis.json) and four source reviews distinguish actual borrower/property stress from conditional funding transmission. Existing REGINALD/CARL/owner work was reused; three Sol helpers wrote only PROME artifacts. CoreWeave contract wording needs owner reconciliation; current pension cash-demand mapping and retained lender exposures remain open. Owner evidence packets do not establish consumption. No trade decision or new monitoring rule; use existing Q3 reads before repeating research. Lifecycle receipts are in ORCH_LOG.
+
 ## October13 — laptop closeout
 
 [Closeout record](reports/2026-10-13_laptop-closeout.md) owns this boundary's checks, review and delivery limits. Will directed the four desk owners to close out. SHADE, YURI, MIDAS and WALTER's explicit ask/answer records are accepted in [the existing lifecycle record](state/ORCH_LOG.tsv); WALTER's deferred publication is resolved through the confirmed shared push train. Verify fresh session identity before future routing. No process termination or replacement launch is inferred.

@@ -1,0 +1,80 @@
+{
+  "title": "Where several financial pressures could meet",
+  "date": "2026-10-14",
+  "authorization": "Will: Okay well we should further investigate these other areas more thoroughly too",
+  "status": "DONE",
+  "completion_scope": "Four substantive research reviews completed and integrated. This is the first bounded investigation, not a claim that every exposure or future event is resolved.",
+  "main_judgment": "The strongest current evidence concerns property refinancing and identifiable weak borrowers. Private credit, insurer funding and AI contracts supply plausible routes for stress to spread. We have not established a simultaneous financial-system funding break or a priced trade advantage.",
+  "artifacts": ["property_funding.json","nonbank_credit.json","ai_market_funding.json","household_small_business.json"],
+  "prior_work_reused": {
+    "REGINALD": "AGENTS/REGINALD/reports/2026-10-14_compound-bank-risk-synthesis.md; local commit1336a5560. June bank credit, securities and funding bridge reused, not repeated.",
+    "other_desks": "Current CARL, BROCK, SHADE, HOMER, VULCAN, WATT, BOND, LIQUID, OZK and FLG evidence is identified in the component reviews. CREED files read without launching CREED.",
+    "runtime": "Codex/OpenAI parent and three gpt-6.1-sol PROME research helpers. Helpers wrote only unique PROME paths. Domain-owner discovery was incomplete; no new writing domain owner was launched."
+  },
+  "research_priorities": [
+    {
+      "area": "Commercial property and bank funding",
+      "priority": "First: closest to observed borrower losses",
+      "finding": "More commercial mortgages entered workout management in September. Existing OZK and FLG evidence identifies real property exposure. FHLB collateral capacity remains substantial in aggregate, while a smaller borrower tail has thin capacity.",
+      "decisive_question": "At the same bank, do new property losses coincide with weaker cash earnings, more expensive deposits and less usable collateral?",
+      "counterevidence": "RaDD obtained an executed multiyear extension and new capital. FLG June liquidity exceeded adjusted uninsured deposits. Neither is a current blanket assurance, but both weaken immediate forced-sale claims.",
+      "gap": "October bank-specific funding restrictions, haircuts and forced sales are not jointly established.",
+      "existing_owners": ["REGINALD","OZK","FLG","WAL","HOMER","CREED","LIQUID"],
+      "source_findings": ["property_funding:F1-F7"]
+    },
+    {
+      "area": "Private credit, corporate refinancing and insurers",
+      "priority": "First: inspect cash and collateral at named entities",
+      "finding": "Kellermeyer/FSK provides a specific case of noncash interest, impaired value and pledged collateral. Insurer funding and bank credit lines create connections, but their size does not establish loss.",
+      "decisive_question": "Does weaker borrower cash flow reduce the fund's borrowing base or make the insurer draw credit, sell assets or restrict cash payments?",
+      "counterevidence": "Some marks and bank exposures remain relatively sound; strong corporate issuers have greater debt-service capacity. Redemption limits can protect remaining investors from forced sales.",
+      "gap": "Current retained lender shares, borrowing-base reductions, DLIC post-pause flows and current Citizens revolver use remain unresolved.",
+      "existing_owners": ["BROCK","SHADE","REGINALD"],
+      "source_findings": ["nonbank_credit:NB1-NB5"]
+    },
+    {
+      "area": "AI and data-center financing",
+      "priority": "Second: contract-level cash obligations",
+      "finding": "Power costs, customer acceptance and project delays can change cash available for debt service. Some guarantees and future leases shift risk outside headline corporate debt.",
+      "decisive_question": "Who must pay cash if a project is late, underused or more expensive, and which institution actually retains that obligation?",
+      "counterevidence": "CoreWeave closed new financing. Its project contract has power protections whose percentages are redacted; unhedged exposure cannot be assumed material from wording alone.",
+      "gap": "Actual hedge shares, draws, purchase-obligation balance and ultimate retained exposures remain UNKNOWN.",
+      "existing_owners": ["VULCAN","WATT","BROCK","SHADE","REGINALD"],
+      "source_findings": ["ai_market_funding:AI01-AI05"]
+    },
+    {
+      "area": "Small businesses, households and housing",
+      "priority": "Second: connect borrower strain to lenders",
+      "finding": "September NFIB financing costs rose; small-business reorganizations increased. Personal guarantees connect business failures to household balance sheets. Higher mortgage rates can impair new purchases and refinancing.",
+      "decisive_question": "Which lender's customers are newly falling behind, and are actual losses outpacing cash earnings and existing reserves?",
+      "counterevidence": "Loan-access indicators are mixed; many firms have no debt. New card delinquencies are much more stable than the headline accumulated delinquency stock suggests.",
+      "gap": "A current borrower-to-lender loss map is incomplete. Enova is a bounded research candidate, not an established short or new standing monitor.",
+      "existing_owners": ["CARL","HOMER","LABOR","BROCK"],
+      "source_findings": ["household_small_business:SME1-SME4/HH1-HH2","property_funding:F3"]
+    },
+    {
+      "area": "Pensions, Treasury/repo leverage and cross-market cash demands",
+      "priority": "Coverage gap and possible amplifier",
+      "finding": "Pension asset losses, actuarial funding and urgent cash needs are separate. Leveraged positions and margin calls can force sales even when long-run solvency is adequate. Pension annuity transfers move obligations into insurers.",
+      "decisive_question": "For a named plan or fund, do benefits, capital calls and collateral demands exceed liquid resources?",
+      "counterevidence": "Pension funding can improve as discount rates rise. Preliminary CalPERS evidence is stronger, not weaker. Retrieved repo observations through October9 show functioning aggregate funding.",
+      "gap": "No named current US pension forced sale established. Pension-sector owner remains unidentified; PROME retains this coverage question. Repo data are dated and do not clear individual funds.",
+      "existing_owners": ["BOND","LIQUID","SAM","SHADE for insurer side only"],
+      "source_findings": ["nonbank_credit:NB6-NB7","ai_market_funding:AI06-AI07"]
+    }
+  ],
+  "combined_scenarios": [
+    {"scenario":"Rates remain high while property and business cash flow weaken","mechanism":"Refinancing shortfalls create new credit recognition; weaker earnings absorb less funding-cost pressure. Funding trouble requires an additional loss of available cash or collateral capacity.","disconfirmation":"Cash paydowns, fresh sponsor capital, stable cheap deposits and sustained lender capacity."},
+    {"scenario":"Growth slows and rates fall","mechanism":"Bond marks may improve while loan defaults worsen. A rate decline therefore need not rescue weak-credit institutions, but securities and credit losses cannot be assumed to worsen together.","disconfirmation":"Lower debt service and stable income cure arrears faster than collateral weakens."},
+    {"scenario":"Asset losses coincide with redemption or margin demands","mechanism":"An illiquid fund, insurer or leveraged trader may need cash before assets mature. Shared lenders and collateral can transmit pressure.","disconfirmation":"Available unrestricted cash, matched long-term liabilities, effective hedges and fresh financing prevent forced sales."}
+  ],
+  "evidence_rules": ["Follow borrower -> legal creditor -> retained exposure -> cash obligation -> financing -> incremental loss.","Keep announced size, committed amount, drawn balance, guarantee and actual loss separate.","Do not add a property loan, its securitization, insurer holding and bank facility as independent losses.","Retain publication dates and observation dates. June balance sheets are not October positions.","A new trade needs an expectations gap, catalyst and viable instrument economics; vulnerability alone is insufficient."],
+  "next_work": [
+    {"owner":"Existing bank and credit desks","action":"Use scheduled Q3 releases and filings for the matched cash-loss/funding bridge already assigned.","duplication_guard":"No repeat of the14-bank duration screen or REGINALD compound synthesis."},
+    {"owner":"WATT/VULCAN","action":"Reconcile the contract corrections in the new source packet before reusing the older power-risk inference.","authority":"Evidence correction within existing work; no gate or prediction amendment authorized."},
+    {"owner":"PROME","action":"Retain the unresolved pension holder/cash-demand map and evaluate ownership with existing coverage before commissioning further work.","authority":"No permanent pension desk, standing monitor or automatic launch created."}
+  ],
+  "delivery": "Dated self-authored evidence packets accompany this synthesis. Writing/committing a packet does not prove recipient consumption.",
+  "limitations": "This pass establishes specific pressure and transmission candidates. It does not estimate a combined system loss, certify all institutions safe, resolve all source gaps or support a standalone trade.",
+  "will_decision_required": "None for this completed research pass."
+}

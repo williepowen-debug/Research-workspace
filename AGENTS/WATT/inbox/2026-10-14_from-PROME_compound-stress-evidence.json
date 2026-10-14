@@ -1,0 +1,17 @@
+{
+  "from": "PROME",
+  "date": "2026-10-14",
+  "type": "evidence",
+  "authority": "Will authorized thorough investigation of the additional financial-risk areas. Integrate within existing coverage; no duplicate owner launch, standing monitor, score, gate or trade change.",
+  "synthesis": "PROME/research/2026-10-14_compound-stress/synthesis.json",
+  "consumption": "UNKNOWN",
+  "to": "WATT",
+  "artifact": "PROME/research/2026-10-14_compound-stress/ai_market_funding.json",
+  "ACTION": "WATT should reconcile KB-WATT-047 against the filed contract before reusing its power-risk inference.",
+  "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+  "source_class": "PRIMARY",
+  "source_date": "March2026 filed agreement; checked2026-10-14",
+  "locator": "Section5.25; Top-Up Model Adjustment Criteria clause(c)",
+  "detail": "Section5.25 requires power coverage with redacted percentages for specified sites; other sites use commercially reasonable efforts. Clause(c) includes delays, customer acceptance and performance. KB-WATT-047's exactly-two-things/no-mandated-percentage inference is unsupported. Parent independently checked both clauses. Current actual hedge shares remain UNKNOWN.",
+  "limitation": "No measured cash call or breach established. Preserve registered thresholds and predictions; flag any consequential proposed change."
+}

@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "assessment_date": "2026-10-14",
+  "as_of_utc": "2026-10-14T04:30:52Z",
+  "as_of_et": "2026-10-14T00:30:52-04:00",
+  "role": "PROME bounded research helper, not BROCK/SHADE owner",
+  "runtime": "Codex OpenAI; tools: exec_command, web primary reader/search, clock, parent collaboration; exact backend model not independently exposed",
+  "instructions_read": [
+    "root CLAUDE.md",
+    "root AGENTS.md",
+    "root USER.md",
+    "BROCK/SHADE CLAUDE.md context; no owner boot"
+  ],
+  "completion": "COMPLETE bounded thorough first pass; gaps explicitly preserved",
+  "judgment": "Stress is demonstrable in borrower cash deferral, particular impaired loans and retail redemption demand. Insurer/bank funding connections are real. Current broad bank loss transmission, insurer run and pension forced selling remain unproven; named contracts and cash demand identify the next useful joins.",
+  "findings": [
+    {
+      "id": "NB1",
+      "finding": "Borrower cash deferral is worsening, but neither PIK nor redemption restriction measures realized default losses.",
+      "actual_deterioration": "Boston study: active PIK share of BDC loans about6% to10% across2022\u2013early2026; construction below5% to nearly20%. Lending spreads compressed about1 percentage point. BROCK reports North Haven Q3 preliminary43.8% and OCIC about30% request fulfillment: fractions of requests, not recovery prices.",
+      "latent_risk": "Unpaid interest compounds principal and may sustain income/NAV while reducing cash for distributions, debt service and new commitments. Sector exposure can correlate; refinancing can convert cash-paying assets to PIK before formal nonaccrual.",
+      "quantified_counterevidence": "Boston portfolio FV/cost stayed near1.0 on average. BROCK Q2 BCRED PIK5.6% of total investment income, down20% QoQ; OTF13% TII and ARCC15.8% are different income-denominator measurements, not the10% loan-share series.",
+      "entities": [
+        "BDCs",
+        "North Haven Private Income Fund",
+        "OCIC",
+        "BCRED",
+        "ARCC",
+        "OTF"
+      ],
+      "sources": [
+        "boston"
+      ],
+      "owner_evidence": [
+        "AGENTS/BROCK/STATUS.md \u00a7\u00a72\u20134; updated2026-10-09"
+      ],
+      "units": "percent of loan count versus income versus requests; do not compare directly",
+      "knowable_now": "Published SEC loan schedules and tender letters establish cash-deferral terms and actual requested/paid redemptions now. PIK toggles not exercised are excluded from Boston active-usage measure.",
+      "limit": "BDC disclosures are not a census of private funds; gates may prevent forced sales rather than create them. No shadow-default rate estimated."
+    },
+    {
+      "id": "NB2",
+      "finding": "Kellermeyer supplies a named borrower-to-fund-to-bank collateral connection with marked deterioration already visible.",
+      "actual_deterioration": "FSK Kellermeyer trancheB FV $87.7M YE2024 to$10.9M June2026, nonaccrual. Same borrower trancheA $229.6M principal/$226.0M FV, 98.4% of par, generated $10.7M H1 income entirely in PIK, no cash. Combined cost$369.4M/FV$236.9M including zero-valued equity.",
+      "latent_risk": "Loans flagged pledged to FSK revolver. A subsequent eligible-collateral reduction can narrow fund liquidity before the bank records credit loss; lien wording alone does not establish inter-tranche equivalence or proceeds priority.",
+      "quantified_counterevidence": "TrancheA remains accruing nearpar. Combined $132.5M cost-minus-FV is unrealized accounting shortfall, not cash loss or bank reserve.",
+      "entities": [
+        "Kellermeyer Bergensons Services LLC",
+        "FS KKR Capital Corp",
+        "JPMorgan as FSK revolver administrative agent per BROCK frozen frame"
+      ],
+      "sources": [
+        "fsk"
+      ],
+      "owner_evidence": [
+        "AGENTS/BROCK/catchups/2026-10-09.md Task1; KB-BRK-325",
+        "AGENTS/BROCK/research/2026-10-09_BRK-31_bank-Q3_frame_FROZEN.md JPM row"
+      ],
+      "units": "USD millions; fair value/par and FV/cost explicitly different",
+      "knowable_now": "Existing Q2 schedule confirms controlled borrower, PIK, nonaccrual and collateral flag. This is actionable evidence of where to join facility terms, not a trade recommendation.",
+      "limit": "Administrative agent is not sole lender or proof of retained share. Current borrowing base, facility draws, haircuts, exact lender allocation and waterfall unknown. No arms-length sale print."
+    },
+    {
+      "id": "NB3",
+      "finding": "Committed bank liquidity links private-credit funding to banks, but the broader NDFI headline overstates direct private-credit exposure.",
+      "actual_deterioration": "July SLOOS puts NDFI lending standards at tighter ends of historical ranges. April SLOOS, cited by Boston, reported tightening with stronger BDC/similar-vehicle demand; that is an earlier-quarter observation, not July NDFI demand. Existing BROCK BRK-31 remains an attribution test, not graded by this helper.",
+      "latent_risk": "Fund draws convert contingent bank commitments into funded assets when redemption, collateral and borrower pressure coincide.",
+      "quantified_counterevidence": "Fed2025 study Q42024: about$95B commitments/$56B utilized, versus$2.193T other NBFI commitments. Table1 BDC delinquency0.5%, PD funds0.7%; reported ratingsBBB. About60% PC commitments at five US GSIBs; average7% of regulatory capital. Boston2026 BDC-only commitment/Tier1 statement is a different population and denominator.",
+      "entities": [
+        "JPM",
+        "Citi",
+        "Wells Fargo",
+        "Citizens",
+        "private debt funds",
+        "BDCs"
+      ],
+      "sources": [
+        "bank_pc",
+        "sloos",
+        "boston"
+      ],
+      "owner_evidence": [
+        "AGENTS/BROCK/research/2026-10-09_BRK-31_bank-Q3_frame_FROZEN.md",
+        "AGENTS/REGINALD/reports/2026-10-14_compound-bank-risk-synthesis.md \u00a74"
+      ],
+      "units": "USD billions; drawn versus committed; capital bases differ",
+      "knowable_now": "Review facility borrowing-base/covenant amendments and existing Q3 calls/filings for named attribution. Commitments less draws (~$39B at old vintage) is contingent nominal exposure, not current cash or expected loss.",
+      "limit": "Q42024 macro stock is historical, not October2026 measurement. Broad NDFI includes mortgage warehouse, consumer lenders and others. Clean release lacking detail is insufficient, not proof of flat PC reserves."
+    },
+    {
+      "id": "NB4",
+      "finding": "Corporate refinancing stress should be isolated to weak cash coverage and near maturities rather than an undifferentiated maturity-wall claim.",
+      "actual_deterioration": "Fed May2026 reports leveraged-loan interest coverage near historical low and relatively high defaults including distressed exchanges. Ordinary volume-weighted defaults stayed below historical median; the exchange-inclusive rate uses issuer count, so the rates cannot be subtracted.",
+      "latent_risk": "Floating-rate debt raises cash interest immediately; fixed-rate debt transmits when refinanced. New money, extension, PIK conversion and distressed exchange have distinct recoveries and cash demands.",
+      "quantified_counterevidence": "Investment-grade issuers represent nearly70% of public nonfinancial corporate debt and retain robust coverage. Corporate credit$14.183T; institutional leveraged loans$1.380T atYE2025, not a maturity schedule.",
+      "entities": [
+        "US publicly traded and private nonfinancial corporations",
+        "leveraged-loan borrowers"
+      ],
+      "sources": [
+        "borrowing"
+      ],
+      "units": "USD trillions; loan-volume defaults versus issuer-count distressed exchanges",
+      "knowable_now": "Issuer debt maturity tables, cash balances, signed amendments and guarantees are available before earnings. Existing BROCK Car-Mart Oct15 facility bridge expiry and Cable One transaction/funding disclosures are near-term cases; neither proves broad corporate freeze.",
+      "limit": "No defensible aggregate2026/27 maturity wall amount or new cross-system refinancing loss estimated. For a current rates judgment use LIQUID/BOND owner market data, not old Fed policy-rate context."
+    },
+    {
+      "id": "NB5",
+      "finding": "Insurer collateral funding is a liquidity bridge; affiliate holdings and AI guarantees add loss-allocation questions that borrowing totals cannot answer.",
+      "actual_deterioration": "DLIC H1 surrenders$2.061B/+44.6% versus premiums plus deposit-type receipts$6.726B/+13.9%; surrender/receipt30.6% vs24.1%. These precede late-August bank sales pauses. Affiliate disclosure corrections establish governance/reclassification issues, not a write-down.",
+      "latent_risk": "Asset impairment or collateral haircut plus cash liability outflow can force insurer funding or sales. AHL guarantees15% of WHCO outstanding purchase obligation O, with35% reimbursement of payments from separate third party; baseO and collectibility unknown. Holding-company guarantee is not automatically US insurer GA.",
+      "quantified_counterevidence": "Athene FHLB Q2$27.7B fell$0.5B QoQ; estimated total collateral-constrained capacity$33.8B includes drawn, conditional nominal room$6.1B. DLIC$4.963B drawn flatQoQ versus$5.328B estimated capacity, nominal room$365M. DLIC capital/surplus$4.028B Q2; no realized affiliate loss established.",
+      "entities": [
+        "Athene Holding Ltd",
+        "AAIA",
+        "WHCO",
+        "Delaware Life Insurance Company",
+        "Clear Spring Life and Annuity Company",
+        "FHLB Des Moines",
+        "FHLB Indianapolis",
+        "Citizens Bank N.A."
+      ],
+      "sources": [
+        "apollo",
+        "dlic_plan",
+        "dlic_audit",
+        "clear_spring",
+        "fhlb"
+      ],
+      "owner_evidence": [
+        "AGENTS/SHADE/research/GAP_INVESTIGATION_2026-10-12.md",
+        "AGENTS/REGINALD/reports/2026-10-11_FHLB_insurer-channel_handoffs.md"
+      ],
+      "units": "USD billions/millions; GA assets and separate accounts differ",
+      "knowable_now": "Named Citizens senior revolver$450M effectiveAug11,2025, undrawnYE2025; current draw/share unknown. Parent up-to$6.5B equivalent-asset exchange is a plan pending approval/execution. Five AMAPS holdings total$13.515B floor already inside insurer investments.",
+      "limit": "FHLB cooperative protection does not establish loss-free insurer estate. Total restricted assets$120.985B is not all FHLB collateral. Current ClearSpring statutory funding/capital and post-pause flows missing; no insurer run or joint bank-insurer loss quantified."
+    },
+    {
+      "id": "NB6",
+      "finding": "Pension underfunding, investment loss and urgent collateral demand are separate; current primary counterevidence argues against assuming a broad pension crisis.",
+      "actual_deterioration": "No current named US pension margin-call or forced-sale episode established in this pass. Defined-benefit funding still matters even where asset returns are positive.",
+      "latent_risk": "DB sponsor contribution requirements, benefit payments and unfunded private-fund capital calls can coincide. Higher rates reduce discounted DB benefit liabilities as well as bond prices; derivatives/repo can create immediate cash demands. DC account losses generally land on participants, not an employer promised-benefit deficit.",
+      "quantified_counterevidence": "PBGC FY2025 net positions positive$62.2B single-employer/$2.6B multiemployer. CalPERS preliminaryJune2026 assets$637.1B, funding85% vs79%, return14.8%; private debt11.0% return uses March31 lagged values.",
+      "entities": [
+        "CalPERS Public Employees Retirement Fund",
+        "PBGC",
+        "DB sponsors",
+        "DC participants"
+      ],
+      "sources": [
+        "pbgc",
+        "calpers",
+        "dol",
+        "pbgc_coverage"
+      ],
+      "units": "USD billions; actuarial funded ratio versus liquid cash versus net guarantee-program position",
+      "knowable_now": "CalPERS named public primary improves pension coverage with an explicit lag. Annual funding notices/Form5500 plus fund commitments, derivatives and benefit cash schedules can distinguish solvency from liquidity.",
+      "limit": "CalPERS indexed publisher text provisional because direct403. PBGC net position is guarantor balance sheet, not aggregate plan surplus and does not cover governmental plans or DC. No borrower/fund-to-bank pension retained-loss join recovered. Pension sector owner UNKNOWN: no pension assignment in searched ROSTER/network; do not assign automatically toSHADE."
+    },
+    {
+      "id": "NB7",
+      "finding": "Pension annuity buyouts are a concrete bridge into insurer risk, with a different guarantee regime; longevity reinsurance does not transfer every asset loss.",
+      "actual_deterioration": "No present pension-annuity payment shortfall established. PBGC primary states its guarantee ends after a standard-termination annuity purchase; state guaranty association may protect all or part.",
+      "latent_risk": "Transferred DB promises become insurer obligations. Investment shortfall, reinsurer recoverability and insurer liquidity then matter at the named legal insurer rather than former plan funding alone.",
+      "quantified_counterevidence": "SwissRe March17,2026 issuer announcement identifies a$2B US longevity transaction supporting Athene pension risk transfer. It is liability longevity risk transfer, not proof SwissRe guarantees$2B of private-credit asset losses.",
+      "entities": [
+        "Athene",
+        "Swiss Re",
+        "annuitants",
+        "state life guaranty associations"
+      ],
+      "sources": [
+        "pbgc_annuity",
+        "swissre"
+      ],
+      "units": "USD billions liability longevity transaction, not new lender exposure",
+      "knowable_now": "Identify the insurer issuing each group annuity contract and scope of reinsurance; PBGC/state boundaries already establish where a holder map changes.",
+      "limit": "SwissRe source accessible only as publisher-indexed text; no executed treaty, premium, collateral, underlying plan identities or investment-loss indemnity obtained. Do not sum pension liability with its backing insurer investment as two separate economic losses."
+    }
+  ],
+  "sources": {
+    "boston": {
+      "url": "https://www.bostonfed.org/publications/current-policy-perspectives/2026/early-warnings-private-credit-bdc-portfolios.aspx",
+      "published": "2026-08-05",
+      "vintage": "2022 through early/mid-2026; 168 BDCs, about 890000 company-quarter loan observations",
+      "access": "fresh full primary web body read"
+    },
+    "bank_pc": {
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/bank-lending-to-private-credit-size-characteristics-and-financial-stability-implications-20250523.html",
+      "published": "2025-05-23",
+      "vintage": "2024Q4 Y-14; 2024Q1 supplemental BDC 10-Q sample",
+      "access": "fresh full relevant primary sections read"
+    },
+    "sloos": {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202607.htm",
+      "published": "2026-08-03",
+      "vintage": "2026Q2 lending changes / July current standards",
+      "access": "fresh primary body read"
+    },
+    "borrowing": {
+      "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-borrowing.htm",
+      "published": "2026-05-08",
+      "vintage": "mostly 2025Q4; latest debt-service/default series differ",
+      "access": "fresh primary relevant body read"
+    },
+    "funding": {
+      "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm",
+      "published": "2026-05-08",
+      "vintage": "2025Q4 nontraditional liabilities; 2024 illiquid assets; 2026Q1 fund flows",
+      "access": "fresh primary body read"
+    },
+    "fsk": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/fsk-20260630.htm",
+      "published": "2026-08-06",
+      "vintage": "2026-06-30",
+      "access": "BROCK 10/09 verified primary extraction reused; fresh web body failed. No independent repeat verification"
+    },
+    "apollo": {
+      "url": "https://ir.apollo.com/sec-filings/content/0001858681-26-000040/apo-20260630.htm",
+      "published": "2026-08",
+      "vintage": "2026-06-30",
+      "access": "SHADE 10/12 primary Notes4/16/17 and funding MD&A read reused"
+    },
+    "dlic_audit": {
+      "url": "https://cdn.bfldr.com/RVAMRK5C/at/3z4rhgvb9ntztvrbxq8mfsbc/Report_-_Independent_Auditors_-_2025.pdf",
+      "published": "2026-06-26 auditor report",
+      "vintage": "2025-12-31",
+      "access": "SHADE Oct12 / REGINALD Oct10 preserved primary verification reused"
+    },
+    "dlic_plan": {
+      "url": "https://www.delawarelife.com/content/affiliated-investments-reduction-plan-update",
+      "published": "2026-09-11",
+      "vintage": "June30 balances and August17 agreement",
+      "access": "SHADE and REGINALD primary extraction reused"
+    },
+    "clear_spring": {
+      "url": "https://clearspringlife.com/affiliated-investments-reduction-update",
+      "published": "2026-09-21",
+      "vintage": "corrected YE2025 / 2026Q1 / 2026Q2 issuer table",
+      "access": "SHADE Oct12 primary issuer table reused; full own quarterly statutory body missing"
+    },
+    "fhlb": {
+      "url": "https://cdn.fhlb-of.com/files/2026/2026Q2CFR.pdf",
+      "published": "2026-08-13",
+      "vintage": "2026-06-30 principal advances Table3",
+      "access": "REGINALD Oct10 primary verified table reused"
+    },
+    "pbgc": {
+      "url": "https://www.pbgc.gov/sites/default/files/documents/pbgc-annual-report-2025.pdf",
+      "published": "2026-01-16 director statement",
+      "vintage": "FY ended 2025-09-30",
+      "access": "fresh primary relevant pages read; not all149 pages"
+    },
+    "calpers": {
+      "url": "https://www.calpers.ca.gov/newsroom/calpers-news/2026/calpers-posts-preliminary-investment-return-for-fiscal-year-2025-26",
+      "published": "2026-07-13",
+      "vintage": "2026-06-30 preliminary; private values lag March31",
+      "access": "publisher-indexed full search text obtained; direct body403; provisional search-surface evidence"
+    },
+    "dol": {
+      "url": "https://www.dol.gov/general/topic/retirement/typesofplans",
+      "published": "current page, date not supplied",
+      "vintage": "structural plan definitions",
+      "access": "fresh primary body read"
+    },
+    "pbgc_annuity": {
+      "url": "https://www.pbgc.gov/workers-retirees/learn/how-pension-plans-end",
+      "published": "current page, date not supplied",
+      "vintage": "structural guarantee boundary",
+      "access": "fresh primary body read"
+    },
+    "pbgc_coverage": {
+      "url": "https://www.pbgc.gov/workers-retirees/learn/understanding-your-pension-pbgc-coverage",
+      "published": "current page, date not supplied",
+      "vintage": "structural coverage boundary",
+      "access": "primary publisher search evidence"
+    },
+    "swissre": {
+      "url": "https://www.swissre.com/press-release/Swiss-Re-announces-USD-2-billion-longevity-reinsurance-transaction/5ec7e16b-af86-4844-89f1-5d9399006858",
+      "published": "2026-03-17",
+      "vintage": "transaction announcement",
+      "access": "primary publisher indexed search text; direct reader empty; no contract body obtained"
+    }
+  },
+  "loss_holder_map": [
+    {
+      "instrument": "Kellermeyer loans/equity",
+      "holder": "FS KKR Capital Corp",
+      "state": "FUNDED",
+      "basis": "June2026 cost$369.4M/FV$236.9M combined",
+      "loss_landing": "Fund NAV/equity first; actual debt recoveries require tranche contract; bank collateral value may change without bank loss"
+    },
+    {
+      "instrument": "FSK secured revolver",
+      "holder": "JPM administrative agent; lender syndicate shares UNKNOWN",
+      "state": "UNKNOWN",
+      "basis": "Pledge known; current funded amount and retained lender shares not established",
+      "loss_landing": "Bank lender loss only after fund default and inadequate secured recovery; no current loss measured"
+    },
+    {
+      "instrument": "DLIC senior revolver",
+      "holder": "Citizens Bank N.A. named historical lender",
+      "state": "UNDRAWN_AT_2025_YEAR_END_CURRENT_UNKNOWN",
+      "basis": "$450M commitment; current existence/draw/share unknown",
+      "loss_landing": "Cash draw creates bank asset and insurer debt; commitment is not loss"
+    },
+    {
+      "instrument": "FHLB advances/funding agreements",
+      "holder": "FHLB DesMoines on Athene; Indianapolis on DLIC",
+      "state": "FUNDED",
+      "basis": "June2026 $27.7B/$4.963B",
+      "loss_landing": "Secured lenders have collateral protections; residual insurer estate/policyholder/unsecured allocation jurisdiction-specific and unknown"
+    },
+    {
+      "instrument": "WHCO purchase obligation",
+      "holder": "AHL guarantor; separate reimbursement counterparty not identified here",
+      "state": "GUARANTEED_CONTINGENT",
+      "basis": "15%O gross; nominal9.75%O after reimbursement only if collectible",
+      "loss_landing": "AHL holding company obligation; no current call or net stressed loss; regulated-insurer allocation unknown"
+    },
+    {
+      "instrument": "AMAPS/ARI loans and ACRA equity",
+      "holder": "Athene consolidated entities/AAIA statutory positions, ACRA outside interests",
+      "state": "FUNDED_PARTIAL_ALLOCATION_UNKNOWN",
+      "basis": "AMAPS $13.515B named floor; ACRA37%ALRe/63%ADIP equity are not universal loan allocations",
+      "loss_landing": "Security tranche/treaty/equity waterfall must assign retained loss; portfolio assets and securitized wrapper cannot be added twice"
+    },
+    {
+      "instrument": "DB pension assets and promised benefits",
+      "holder": "CalPERS/sponsors/plan trust; private corporate DB plans with limited PBGC protection",
+      "state": "FUNDED_WITH_ACTUARIAL_GAPS",
+      "basis": "CalPERS85% preliminary funding is not85% cash availability",
+      "loss_landing": "Plan asset shortfall can affect sponsor contributions; public-plan tax/member allocation contract-specific; no PBGC for CalPERS"
+    },
+    {
+      "instrument": "DC investment accounts",
+      "holder": "Participants",
+      "state": "FUNDED_AMOUNT_UNKNOWN",
+      "basis": "No current private-credit allocation measured",
+      "loss_landing": "Investment loss reduces account value; no general employer DB funding obligation or PBGC coverage"
+    },
+    {
+      "instrument": "Purchased pension group annuity",
+      "holder": "Contract issuing insurer; annuitants beneficiaries; SwissRe longevity treaty scope partial",
+      "state": "GUARANTEED_BY_INSURER_TREATY_TERMS_UNKNOWN",
+      "basis": "PBGC guarantee boundary ends for purchased annuity; state protection limited",
+      "loss_landing": "Insurer surplus/assets, applicable treaty and estate then guaranty limits; sponsor/fiduciary litigation is separate contingent exposure"
+    }
+  ],
+  "existing_owner_obligations": [
+    {
+      "owner": "BROCK",
+      "existing": "BRK-31 Q3/Q4 cohort named reserve-build/migration read; R2 final repurchase outcomes and review2026-10-31; FSK Q3 Kellermeyer marks/PIK; no helper grades",
+      "material_caveat": "CFG frozen baseline$12.852B differs from REGINALD Q2 parentTable9$14.727B; reconcile source vintage before growth comparison. Do not edit frozen frame."
+    },
+    {
+      "owner": "SHADE",
+      "existing": "DLICQ3 execution/flows nearNov15; AAIA/AtheneQ3 funding/pledges; ClearSpring83607 capital/funding bridge; ARI annex and insurer thesis falsifier dueOct23",
+      "material_caveat": "Conditional T-SHADE-01 prospective assessment/dig is owner matter. This pass does not fire it."
+    },
+    {
+      "owner": "REGINALD",
+      "existing": "Q3 named bank insurer/NDFI attribution and existing FHLB reconciliation; CFGOct16",
+      "material_caveat": "June bank values are not current October positions."
+    }
+  ],
+  "bounded_next_questions": [
+    {
+      "question": "Which pledged Kellermeyer/other impaired assets now reduce facility eligible collateral or cash availability, and do existing bankQ3 disclosures attribute a reserve build to the fund vehicle?",
+      "owners": [
+        "BROCK",
+        "REGINALD"
+      ],
+      "existing_obligation": "BRK-31/facility and FSKQ3 review",
+      "bounded_output": "One facility borrowing-base, collateral and lender-share bridge, not all NDFI"
+    },
+    {
+      "question": "Did DLIC execute equivalent-value exchanges, draw the Citizens revolver or lose post-pause cash inflows, and what remains drawable after competing collateral claims?",
+      "owners": [
+        "SHADE",
+        "REGINALD"
+      ],
+      "existing_obligation": "DLIC remediation/Q3 statutory and FHLB/CFG reads",
+      "bounded_output": "Q2-to-Q3 cash/asset/secured-debt bridge by legal entity; no cohort loss extrapolation"
+    },
+    {
+      "question": "For one named meaningful pension exposure, do unfunded private-fund commitments plus benefit/margin cash demands exceed liquid resources, and has risk moved into a purchased group annuity?",
+      "owners": [
+        "UNKNOWN pension-sector owner; PROME to identify existing coverage before any assignment",
+        "SHADE only for already-owned insurer side",
+        "BOND/LIQUID for existing market transmission context"
+      ],
+      "existing_obligation": "No established pension-specific canon located; this is a bounded coverage gap, not a new monitor request",
+      "bounded_output": "One plan/insurer cash-demand and holder map using annual funding notice, existing public commitments and annuity/treaty documents"
+    }
+  ],
+  "catalysts_30_90_days": [
+    {
+      "window": "2026-10-15 through2026-10-23 (earlier lead-in)",
+      "event": "Existing Car-Mart bridge/transaction disclosures, CFG and regional bank earnings; owner attribution frame governs"
+    },
+    {
+      "window": "2026-10-31 through2026-11-18",
+      "event": "R2 finals and existing Q3 fund/Athene/AAIA/DLIC filings: cashPIK, marks, repurchase request fulfillment, actual parent asset transfer and funding. Publication dates approximate unless owner verified."
+    },
+    {
+      "window": "2026-12-03 approximate",
+      "event": "BCREDQ4 preliminary repurchase letter existing BROCK checkpoint; distinguish requested capital/paidcapital from price"
+    },
+    {
+      "window": "2026-12-31 through2027-01-12",
+      "event": "Yearend insurer/pension collateral, benefit payments and refinancing outcomes; no new calendar date or forecast registered. Yearend valuations appear later and cannot certify January cash conditions."
+    }
+  ],
+  "limits": [
+    "No live prices, trade recommendation, net joint-loss estimate or new monitor/score/prediction.",
+    "Reused primary evidence clearly labelled; FSK fresh body failed, CalPERS and SwissRe direct access limits preserved.",
+    "Current bankQ3 prints not exhaustively independently read; parent/owners retain that responsibility.",
+    "Public-pension coverage is one meaningful named example, not sector census; no pension derivatives, repo, private-fund uncalled commitment total or bank counterparty mapping obtained.",
+    "Insurance asset-backed securities, affiliate status, statutory bond label and true illiquidity are distinct; separate-account and general-account assets not interchangeable.",
+    "DLIC/CS affiliation figures use several definitions: SSAP affiliate-contingent differs from issuer restated affiliated investments; do not combine denominators.",
+    "No canonical owner files, inbox states, commits, pull/push, external sends or subagents changed."
+  ]
+}

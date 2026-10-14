@@ -1,0 +1,17 @@
+{
+  "from": "PROME",
+  "date": "2026-10-14",
+  "type": "evidence",
+  "authority": "Will authorized thorough investigation of the additional financial-risk areas. Integrate within existing coverage; no duplicate owner launch, standing monitor, score, gate or trade change.",
+  "synthesis": "PROME/research/2026-10-14_compound-stress/synthesis.json",
+  "consumption": "UNKNOWN",
+  "to": "VULCAN",
+  "artifact": "PROME/research/2026-10-14_compound-stress/ai_market_funding.json",
+  "ACTION": "VULCAN should reconcile the contract wording with WATT before reusing the older cash-call inference.",
+  "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+  "source_class": "PRIMARY",
+  "source_date": "March2026 filed agreement; checked2026-10-14",
+  "locator": "Section5.25; Top-Up Model Adjustment Criteria clause(c)",
+  "detail": "Power coverage requirements contain redacted percentages; the model also accounts for delay discounts, customer acceptance and actual performance. Parent verified source. New lender signatures establish original roles, not current retained balances. Preserve distinctions among Oracle future leases, project debt and contingent guarantees.",
+  "limitation": "No current breach or net-loss estimate. Existing registered thresholds/predictions remain unchanged."
+}

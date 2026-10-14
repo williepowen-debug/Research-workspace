@@ -1,7 +1,9 @@
 # SCRATCH.md — Ephemeral Session State
-**Updated:** 2026-10-13 · Desktop broker reconciliation follows laptop closeout. This is a resume index; dated source observations are not refreshed market data.
+**Updated:** 2026-10-14 · Broader financial-stress investigation follows desktop research. This is a resume index; dated source observations are not refreshed market data.
 
 ## ★ NEXT SESSION — START HERE
+
+**October14 broader investigation — Will authorized:** [synthesis and source map](research/2026-10-14_compound-stress/synthesis.json) integrates property/FHLB, private credit/insurers/pensions, AI/market funding and household/small-business reviews. REGINALD's compound bank work reused. Three Sol research helpers delivered; domain owners were not duplicated. New evidence packets carry source corrections and next questions; recipient consumption remains unverified. Current stress is selective; same-institution cash/loss/funding joins remain incomplete. Pension cash-demand ownership is a PROME coverage gap. No trade, score, gate or standing monitor changed.
 
 **October13 owner launches — Will reports:** "All have been spawned and are working" following the supplied Codex Sol commands for REGINALD, DEWEY, BRENT, TERRY and WALTER. These are Will-launched owner sessions; preserve their work and do not spawn duplicates. Actual session IDs/model settings and communication routes have not been independently verified. Research plan below supplies priorities; consume owner deliveries before revising judgments or commissioning follow-ups.
 
