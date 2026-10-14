@@ -6,6 +6,7 @@ Start here for REGINALD's regional-bank prices, performance, KRE holdings, chart
 
 | Material | Observation date | Open |
 |---|---|---|
+| Regional/large banks and banking ETFs,30 instruments | October14,2026 trades12:36:59–12:40:15 EDT; retrieved~12:55EDT,delayed intraday | [Comparison CSV](snapshots/2026-10-14/1255-bank-comparison.csv), [dated analysis](../../reports/2026-10-14_bank-and-ETF-intraday-comparison.md) |
 | Maintained bank cohort and benchmarks | October 12, 2026, 11:16 EDT quote snapshot; July 10–October 9 price window | [Regional bank tape CSV](snapshots/2026-10-12/regional-bank-tape.csv) |
 | KRE ten heaviest bank holdings and KRE benchmark | October 12, 2026, 13:33 EDT fetch; each row carries its trade timestamp | [Top ten performance CSV](snapshots/2026-10-12/kre-top10-performance.csv) |
 | Full published KRE holdings | October 9, 2026 holdings, retrieved October 12 | [Holdings CSV](snapshots/2026-10-12/kre-holdings.csv) |

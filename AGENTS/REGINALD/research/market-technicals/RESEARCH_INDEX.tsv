@@ -22,3 +22,4 @@ FLG owner	../FLG/STATUS.md	Owner date governs	Peer-owned source; read-only
 KRE price-pattern synthesis	research/market-technicals/studies/2026-10-12_KRE_price_patterns.md	Historical windows throughOctober9; writtenOctober12	Evidence synthesis and attribution limits
 Additional KRE research recommendation	research/market-technicals/studies/2026-10-12_KRE_next_research_proposal.md	ProposedOctober12; no new observation	Recommendation only; outside L694 candidate pass
 Approved KRE whole-basket study	research/market-technicals/studies/2026-10-12_KRE_whole_basket_study.md	PricesOctober9; ratesOctober8; fetchedOctober12	Completed dated market study; exact historical contribution unresolved
+Bank/ETF intraday comparison	reports/2026-10-14_bank-and-ETF-intraday-comparison.md	October14 trades12:37-40EDT	Dated tape report
