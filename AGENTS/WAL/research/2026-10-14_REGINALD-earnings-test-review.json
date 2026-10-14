@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-14",
+  "task": "WAL review of REGINALD completed public FY2027 test before proposed investigations start",
+  "execution_scope": "Read/recompute/source-check/integrate existing work only; no new full mortgage/borrower investigation, market snapshot, helper or order",
+  "owner_report": "AGENTS/REGINALD/reports/2026-10-14_WAL_2027_earnings-path-test.md",
+  "owner_source_commit": "423e52e6844f46cd73f02e3215c1fbf0bea0e852",
+  "owner_report_SHA256": "443c32230a0d026cc6009dcac726e7032c0b4d457ea4c43134b00768e60315b4",
+  "calculations_path": "AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/calculations.json",
+  "calculations_SHA256": "8eb782368c5c63f98ae745422eee2d2715faa9a8d3b093d73517c9728213011a",
+  "Q2_primary_path": "AGENTS/WAL/sources/q2_2026/wal-20260630.htm",
+  "Q2_primary_SHA256": "63f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f",
+  "primary_checks": "Q2 tables55 MSR rollforward,59/134 ECRchannels,72 derivative income,98 PPNR; Note5 fee andMSRsale-loss narrative; Q1 primary ECR table214.3/48.7/8.3/157.3; Q2 deck averageECRbalances31.6/29.4Bandending29.9B. Fresh official release/deck returned byweb. DirectQ1quarter values govern instead of H1minusQ2 rounding.",
+  "verified_scenarios": [
+    {
+      "expense_growth_vs_Q2": 0.02,
+      "quarter_provision_M": 80.4,
+      "independent_Decimal_annual_EPS": "11.02518649629629629629629630"
+    },
+    {
+      "expense_growth_vs_Q2": 0.05,
+      "quarter_provision_M": 80.4,
+      "independent_Decimal_annual_EPS": "10.50021649629629629629629630"
+    },
+    {
+      "expense_growth_vs_Q2": 0.05,
+      "quarter_provision_M": 100,
+      "independent_Decimal_annual_EPS": "9.912216496296296296296296296"
+    },
+    {
+      "expense_growth_vs_Q2": 0.1,
+      "quarter_provision_M": 100,
+      "independent_Decimal_annual_EPS": "9.037266496296296296296296296"
+    }
+  ],
+  "independent_expense_ceiling_provision80_4_M": "595.8055498765432098765432099",
+  "independent_ECR_balances_days_explained_pct": "93.44393927308500172821780804",
+  "mortgage_parent_total_Q1_Q2_M": [
+    71.4,
+    84.7
+  ],
+  "MSR_Q2_mark_plus_hedge_M": 1.2,
+  "servicing_selected_component_bridge_M": 28.7,
+  "servicing_unreconciled_other_rounding_M": 2.6,
+  "agreement": "No material arithmetic/source disagreement in examined claims. Public roughly11EPS path is plausible; net profit conversion remains least verified. No demonstrated expectations gap.",
+  "comparison_to_WAL_bridge": "Peer reverses a vendor revenue budget; WAL supplies a conditional gain-screened operating mix with slightly different revenue. Comparable tax/shares/deductions; neither retrieves analyst components. No contradiction or replacement forecast.",
+  "interpretation_changes": [
+    "Aggregate balance/calendar diagnosis weakens present deposit-pricing-breakdown inference, but is not same-customer repricing/beta or a net optimization profit forecast.",
+    "Parent mortgage revenue improved; bankRC-P decline cannot be carried as aggregate parent weakness. Q2 net servicing mark-plus-hedge small, not proof all servicing income is unrealized windfall.",
+    "Q1 LAM provision is poor recurring base; Cantor chargeoff against established reserve is not second new expense. Future attributable losses remain unknown.",
+    "FY2027 average quarter is not a Q3EPS target; revenue/EPS panels have unmatched accounting bases/contributors/update dates.",
+    "Sensitivity misses below11 do not establish mispricing, current65P value or a stock price belowstrike beforeDecember."
+  ],
+  "proposal_dispositions": {
+    "credit_attribution": "REMAINS_PROPOSED; full borrower bridge not launched",
+    "mortgage": "PARTLY_COVERED; reuse completedQ1/Q2parentcomponents; remainingRC-Ppopulation,cost/residual,persistence",
+    "price_control": "PROPOSED; useREGINALDexistingdata; no newpeerstudy"
+  },
+  "protected_full_files_unchanged": {
+    "THESIS.md": true,
+    "CHANGELOG.md": true,
+    "Q2_GRADING_FRAME_2026-07-21.md": true,
+    "PREPRINT_RECON_2026-07-17.md": true,
+    "EARNINGS_PREP.md": true,
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": true,
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": true,
+    "SCENARIOS.md": true,
+    "workbook/PREDICTIONS.tsv": true,
+    "workbook/KB.tsv": true,
+    "POSITIONS.md": true,
+    "scripts/earnings_bridge_20261014.py": true
+  },
+  "KB": "No duplicate evidence rows or expiry extension; existing owner/source report is the canonical peer test",
+  "native_peer_presence_notification": "UNKNOWN",
+  "WAL_source_consumption": "VERIFIED by artifact read/recompute/primary checks",
+  "push": "DEFERRED_FOREIGN_DIRTY",
+  "NEXUS": "Repin after finalSTATUScommit; commit receipt is separate from this report",
+  "limits": "Targeted source/arithmetic verification, not full filing audit, fullbank-parentbridge, analystmodel rebuttal, futureexpenseforecast or capital/RWAforecast"
+}

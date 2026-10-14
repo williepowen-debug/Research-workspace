@@ -27,6 +27,7 @@ Follow CLAUDE.md §Boot: STATUS and current MEMORY in full; THESIS header/calibr
 | research/2026-10-14_FY2027-earnings-bridge.md | Conditional earnings component paths, no analyst/model-belief assertion |
 | research/2026-10-14_Q3-earnings-quality-credit-read.md | Prepared read and worksheet; no Q3actuals yet |
 | research/2026-10-14_FFIEC-integration-sweep.md | Post-analysis sweep findings, dispositions and protected-record verification |
+| research/2026-10-14_REGINALD-earnings-test-review.json | Verified peer test consumption; counterevidence and narrower proposed mortgage scope; no full investigation launched |
 | research/2026-10-14_housekeeping-repair.md | Audit findings, dispositions, source/packet/preservation validation |
 | sources/SOURCE_INVENTORY_2026-10-14.tsv / SOURCE_RECOVERY.md | Tracked versus local-only originals, hashes and recovery limits |
 | NEXUS_BRIEF.md | Current synthesis, pinned after final STATUScommit |
