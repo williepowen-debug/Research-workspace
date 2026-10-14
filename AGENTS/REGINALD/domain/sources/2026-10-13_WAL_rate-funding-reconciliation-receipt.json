@@ -254,7 +254,7 @@
       }
     ],
     "native_notification": "UNVERIFIED/unavailable target mapping",
-    "recipient_consumption": "UNVERIFIED",
+    "recipient_consumption": "PROME acceptance confirmed by the user-relayed closeout instruction; WAL source-packet read separately evidenced at03e60dc0e.",
     "WAL_prior_source_packet_consumption": "WAL packet at03e60dc0e explicitly states the REGINALD report and source-scope packet were read before its research. Not acknowledgment of this new integration."
   },
   "closeout": {
@@ -284,14 +284,15 @@
       {
         "path": "PROME/inbox/2026-10-13_from-REGINALD_WAL-primary-supplement-integrated.md",
         "sha256": "e655c83592d6af3a715604b959aadaff928ef3a5bcac4855ea7deb57d74f8376",
-        "recipient_consumption": "UNVERIFIED"
+        "recipient_consumption": "Accepted by PROME per Will-relayed closeout instruction; independent native acknowledgment not claimed."
       },
       {
         "path": "AGENTS/WAL/inbox/2026-10-13_from-REGINALD_primary-supplement-integrated.md",
         "sha256": "e655c83592d6af3a715604b959aadaff928ef3a5bcac4855ea7deb57d74f8376",
         "recipient_consumption": "UNVERIFIED"
       }
-    ]
+    ],
+    "integration_delivery_state": "PROME acceptance confirmed by the user-relayed instruction; no independent native message acknowledgment claimed."
   },
   "initial_gaps_history": [
     "Q2 shock/EVE fresh primary recheck incomplete",
@@ -300,5 +301,37 @@
     "Q3 usable liquidity/headroom after collateral/haircuts",
     "matched parent capital bridge/RWA actuals",
     "current comparable consensus and pricing edge"
-  ]
+  ],
+  "session_closeout": {
+    "recorded_utc": "2026-10-14T02:44:58.402093+00:00",
+    "authority_and_acceptance": "PROME accepts completed WAL reconciliation/June source integration and reports delivered commits synced to GitHub, per Will-relayed closeout instruction in this conversation.",
+    "accepted_delivered_commits": [
+      "f1b7b525b",
+      "08c406077",
+      "31c02fd74",
+      "df9badabd"
+    ],
+    "GitHub_sync": "PROME-confirmed in user instruction; cached origin/master ancestry alone did not independently verify these newer commits. No live fetch/pull attempted during closeout.",
+    "research_state": "Complete. No further WAL research commissioned this session. WAL owns separate expectations-and-valuation assessment.",
+    "preserved_obligations": "Existing CALENDAR/read-plan/owner frames for all banks, dated working-expectation outcomes, WQ318 funding, weekly funding, L180/FL-rail, November7 completeness, JWT dependency and existing gates. None regraded or re-dated.",
+    "remaining_checks": "Corrections0; ledger declared-quiet cadence preserved; final readcap/weekday/diff checks; post-write inbox scan; final NEXUS fold after STATUS commit.",
+    "consciously_skipped": "No market, broker, gate, score or thesis change; positions/deck/thesis artifacts not refreshed. No new study or owner launch.",
+    "native_transport": "Closeout ask received as user-relayed PROME instruction. This final task response and durable memo are the owner receipt; no claim of process termination or native fleet transport.",
+    "new_closeout_sync": "New closeout commits will be local pending PROME shared-train sync; outside-owned WAL snapshot and WALTER cache prevent pull/rebase under root Git protocol.",
+    "unchanged_sha256": {
+      "CALENDAR.md": "854e9548ccd5f43e75a18ae92b97eb1c439af3744681a00f1c588b61714bcc1f",
+      "reports/2026-10-09_Q3_earnings_read_plan.md": "66473fe09c31be112f571e5ee8c55d40c58713a2d999fe3aabe49c798c31f422",
+      "reports/2026-10-13_review-response_forward-judgments.md": "74c38dbdc98c2fd7be7af5aa157bb5cd47e71614bea646b3cd31d8e4e95c6b3a",
+      "workbook/WORKOUT_OUTCOME_BRIDGE.tsv": "236c1ecaefa2eb5dc60dac6e35734f3fa5b33f086ad9d4d1a7c4a118012d52e2",
+      "registry/THRESHOLDS.tsv": "d22500b59a6686f771f38e11ae597c7eaaa5ff21dd8696681cdf581a0d3f7939",
+      "registry/REG_T02_EXIT_LOG.tsv": "8c42118d6c777a4c466fa96186dc31dea39f9a524669ecd86aa9f6a9b3cff789"
+    },
+    "checks_so_far": "Unchanged obligation/grade hashes verified; no unreceipted named corrections; no ledger refresh due in checked perimeter; final read-cap/weekday/whitespace checks below.",
+    "receipt_delivery": {
+      "path": "PROME/inbox/2026-10-13_from-REGINALD_session-closeout-receipt.md",
+      "sha256": "757cddb0812914a6b3673ff832f9ea275010838e877e1b15f007f29c4e0f0009",
+      "state": "Saved identical receiver copy; new closeout-receipt consumption unverified"
+    },
+    "validation": "Preserved hashes, corrections0, ledger cadence, final read-cap rc0, weekday and diff whitespace PASS; no new undispositioned WALTER item; older inbox duties retained. NEXUS fold follows final STATUS commit."
+  }
 }

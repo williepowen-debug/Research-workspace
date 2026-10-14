@@ -20,7 +20,7 @@
 ## Session Notes
 
 ### LAST SESSION — 2026-10-13 evening, direct-Will WAL reconciliation / Codex
-**Focused WAL pass:** `reports/2026-10-13_WAL_rate-funding-reconciliation.md`, receipt and PROME/WAL packets. NII and broader EaR differ. WAL03e60dc0e supplied original Q2 filing: directly checked June model, hedges, headroom and common-equity flows; no source disagreement. Effective duration/model bases and Q3 remix/marks/pricing edge remain unknown. Existing Oct19/20 read resolves actuals; no frame/prior/position change. WALTER cache defers push; new integration consumption unverified.
+**Session closed on PROME/Will instruction:** WAL reconciliation and June source integration accepted; delivered commits synced to GitHub per PROME confirmation. Result → `reports/2026-10-13_WAL_rate-funding-reconciliation.md`; closeout in source receipt. WAL owns separate expectations/valuation work; no further WAL research commissioned here. Preserve all existing Q3 reads, dated outcomes, funding duties and frozen frames. New closeout commits await shared sync; no pull with outside WAL/WALTER work dirty.
 *Preceding October13 bridge preserved verbatim → `archive/MEMORY_securities-review_snapshot_2026-10-13.md`, crc32 `c8ce7f21`. Earlier expectations/outcome obligations survive. Re-check at any append.*
 
 ### PRIOR OWNER WINDOW — 2026-10-12/13, direct Will; CLOSED
