@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-10-14T16:15:50.955909-04:00",
+  "host": "DESKTOP-BC6EF81",
+  "runtime": "Codex/OpenAI; GPT-6 family, exact variant UNKNOWN",
+  "session_id": "01a13b8c-ebf0-74c0-a1c3-5ae79550bd06",
+  "owner_clearance": "Same ongoing writer; Will explicitly confirmed sole LIQUID writer; no duplicate launch",
+  "scope": "Will authorized CATO LQR5/6 and preventive normalization, plus verdict/context wording. No agents, new thresholds, shared/root edits or operational swap use",
+  "instructions": "Root/desk explicit reads and actual boot verified earlier in this ongoing session; current charter, current state, WQ229 rule, code and historical acceptance record re-read",
+  "capabilities": "exec_command available; no verified cross-window desk notification channel; independent reader not launched",
+  "pull": "Deferred for concurrent WALTER/VIOLET work; scoped Git only",
+  "before": [
+    {
+      "path": "AGENTS/LIQUID/scripts/hy_oas_watch.py",
+      "archive": "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/hy_oas_watch.py",
+      "sha256": "7e2071808435f0f35189cb7f8a458b3671cdd08d5e7fb79c791c3b5ca35ea0da"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/boot.py",
+      "archive": "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "sha256": "d0136546043dad4f98e4ff510cf95a8277ccbf34fbc23ffc8d9e0858d800f446"
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "archive": "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/STATUS.md",
+      "sha256": "2b29c6846d13e770eedd9fd2c5393ac9f2c32e2424f99346231556d02df9adf6"
+    },
+    {
+      "path": "AGENTS/LIQUID/MEMORY.md",
+      "archive": "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/MEMORY.md",
+      "sha256": "7b978d57374d0c44bf82991eedb478ac19d02c75b6a4a77b3e5606402a2a077f"
+    },
+    {
+      "path": "AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md",
+      "archive": "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/research/2026-10-14_credit-funding-refresh/REPORT.md",
+      "sha256": "0b65d052cb8e6c4547c0ad0dfd834a0b502da387b129aa0605d6cf31f726ce6f"
+    }
+  ],
+  "protected_sha256": {
+    "AGENTS/LIQUID/scripts/usd_swapline.py": "1f1bed7bafe5498ea4480e1c959cefc41bad3cd4be9727bd657bab65eb505f65",
+    "AGENTS/LIQUID/analysis/2026-10-08_usd-swapline-LETTER.md": "808ead876bf079ec11af9de19de8873b6c0f878746c61ea34f3998be8acd5fc7",
+    "AGENTS/LIQUID/scripts/transmission_check.py": "1c36427aa687b175745b5e402802af578546935699354cc57c7a49f5e4fe7d30",
+    "AGENTS/LIQUID/scripts/sofr_dispersion.py": "6f4b47e5c2611895b8fcbf1a2961bbc73ee206a585032483132a2d9862ad1d31",
+    "AGENTS/LIQUID/workbook/PREDICTIONS.tsv": "49dfa79f31afc23e38b844a178db79254e995cef83f3f42504f82a3f64222bd6",
+    "AGENTS/LIQUID/workbook/FUNDING_SEIZURE_GATE_SCOPED.md": "9d37630a3cb3a2a77889b79cce0111175c93187f626c5eae00a3849a2efeb174",
+    "AGENTS/LIQUID/workbook/CATALYSTS.tsv": "03b894d836d15cc27989dd7ea331fb93178744752e65497587a349a7a9884414",
+    "AGENTS/LIQUID/CALENDAR.md": "5483d179844627b1a369e0709b1012f62f916599ea4062115b82b843eaee6c2c",
+    "FORGE/tools/market-data/config.py": "53865e86293f88d9761c6028a22952417467786835d6f48fc097a2da9518ed85",
+    "AGENTS/LIQUID/CLAUDE.md": "23d2332110f97ef88a54f39da88f6eda56d0594654ecb3c37fa0b9d496a9be05"
+  }
+}

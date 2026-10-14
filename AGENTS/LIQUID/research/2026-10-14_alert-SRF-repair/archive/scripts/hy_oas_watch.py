@@ -1,0 +1,463 @@
+#!/usr/bin/env python3
+"""
+LIQUID HY OAS watcher — unattended credit-trigger guard (P1b, 2026-06-26).
+
+Pulls HY OAS live from FRED and classifies it against the SHARED config.py bands
+(SENTRY-retuned 2026-06-26: green <265 / yellow 265-280 / red ≥280 per config.classify; kill_below 260).
+NB the X1 LETTER is ">280 SUSTAINED" (KILL_MEMO) — the red ZONE is not the X1 level leg.
+Fires a LOCAL file alert on a zone ESCALATION (severity increase into 🟡/🔴) and on
+the two-way bear-axis KILL (<260 on two consecutive closes). File-only surface — no
+Telegram, no network push. Source of truth = config.py (imported, not copied), so a
+future SENTRY retune flows through automatically.
+
+Run by systemd --user timer `liquid-hy-watch.timer` (Mon–Fri 13:00 ET). Manual:
+    .venv/bin/python3 AGENTS/LIQUID/scripts/hy_oas_watch.py
+    .venv/bin/python3 AGENTS/LIQUID/scripts/hy_oas_watch.py --selftest   # offline logic test
+
+Surfaces (AGENTS/LIQUID/alerts/):
+  HY_OAS_ALERTS.log  append-only — only transitions/kills (the thing a human reads)
+  HY_OAS_STATE       json — last zone/bps/sev/sub260 streak + obs date (transition memory; boot.py reads it)
+  watch.log          append-only — one line every run (liveness / silent-failure proof)
+
+Escalation uses NO hysteresis on the way UP (earliest catch is the point); transition
+memory in HY_OAS_STATE prevents re-firing the same zone, so daily oscillation ≠ spam.
+Exit: 0 normal · 1 selftest fail · 3 fetch/parse failure (timer logs it; check watch.log).
+"""
+
+import json
+import sys
+from datetime import datetime
+from pathlib import Path
+
+SCRIPTS_DIR = Path(__file__).resolve().parent
+LIQUID_DIR = SCRIPTS_DIR.parent
+WORKSPACE = SCRIPTS_DIR.parents[2]
+FETCH_DIR = WORKSPACE / "FORGE" / "tools" / "market-data"
+sys.path.insert(0, str(FETCH_DIR))
+
+ALERTDIR = LIQUID_DIR / "alerts"
+STATE = ALERTDIR / "HY_OAS_STATE"
+ALOG = ALERTDIR / "HY_OAS_ALERTS.log"
+RLOG = ALERTDIR / "watch.log"
+
+SEV = {"green": 0, "yellow": 1, "red": 2, "unknown": -1}
+EMOJI = {"green": "🟢", "yellow": "🟡", "red": "🔴", "unknown": "⚪"}
+HY_ID = "BAMLH0A0HYM2"
+# GATE-HY-REKILL registered 2026-06-26 (KILL_MEMO_HY_OAS_260.md §letter history). The terminal
+# scan starts here: a sub-260 pair BEFORE registration is not a fire of THIS gate.
+GATE_REGISTERED = "2026-06-26"
+
+
+def _ts():
+    return datetime.now().strftime("%Y-%m-%d %H:%M %Z")
+
+
+def _log(path, line):
+    ALERTDIR.mkdir(parents=True, exist_ok=True)
+    with path.open("a") as f:
+        f.write(line + "\n")
+
+
+def _read_state():
+    try:
+        return json.loads(STATE.read_text())
+    except Exception:
+        return {}
+
+
+def sub_run(recent, kill_below):
+    """Length of the run of PUBLISHED observations strictly < kill_below, counted back from the
+    newest. `recent` = [(date, bps), ...] newest-first, FRED '.' (unpublished) already excluded.
+    ⛔ 2026-09-22 (CATO 9/17 §3, HIGH): the streak used to be advanced from POLLING memory — a
+    missed timer run between 259 (Fri) · 270 (Mon) · 259 (Tue) skipped Monday's reset and read as
+    two consecutive. The count is now derived from the series itself, so no poll gap can alter it."""
+    n = 0
+    for _d, v in recent:
+        if v < kill_below:
+            n += 1
+        else:
+            break
+    return n
+
+
+def first_kill_date(asc, kill_below, since=GATE_REGISTERED):
+    """Date of the SECOND observation of the first pair of consecutive published obs strictly
+    < kill_below on/after `since`; None if never. `asc` = [(date, bps)] OLDEST-first, FIRST-PUBLISHED.
+    2026-09-22 (independent-reader CE6): the fired-once marker lived only in a gitignored local
+    state file, so a lost file or the other machine re-fired a TERMINAL gate. Terminal state is
+    now recomputed from the series itself on every run — no local memory can lose it."""
+    prev_sub = False
+    for d, v in asc:
+        if d < since:
+            continue
+        sub = v < kill_below
+        if sub and prev_sub:
+            return d
+        prev_sub = sub
+    return None
+
+
+def decide(bps, obs_date, prev, hy_def, classify, recent=None, late_kill=None):
+    """PURE transition logic (no IO) — shared by the live run and --selftest.
+    `recent` = newest-first [(date, bps)] published observations (the kill count's ONLY basis);
+    None ⇒ only the current observation is known, so a two-close kill cannot be established (fail closed).
+    `late_kill` = a fire date recovered from the first-published series that THIS box has no record of
+    (missed fire-day run, vintage-fetch failure, or lost state). It raises a LATE alert — never silence
+    (independent reader N1, 2026-09-22: injecting it as already-fired swallowed an unseen kill forever).
+    Returns dict: zone, sev, marker, fired (list of alert strings), state (next HY_OAS_STATE)."""
+    zone = classify(bps, hy_def)
+    sev = SEV.get(zone, -1)
+    mk = EMOJI.get(zone, "⚪")
+    kill_below = hy_def.get("kill_below", 260)
+
+    prev_sev = prev.get("sev", 0)
+    prev_zone = prev.get("zone", "green")
+    prev_date = prev.get("obs_date")
+    new_obs = obs_date != prev_date  # liveness/log only — NOT the kill-count basis any more
+    if recent is None:
+        recent = [(obs_date, bps)]
+    sub260 = sub_run(recent, kill_below)
+    kill_met_on = prev.get("kill_met_on")  # TERMINAL marker (KILL_MEMO §4: one kill, no re-count)
+
+    fired = []
+    # 1) Zone escalation into 🟡/🔴 (severity up vs last recorded zone). No hysteresis on the way up.
+    if sev >= 1 and sev > prev_sev:
+        fired.append(f"🚨 ESCALATION {EMOJI[prev_zone]}{prev_zone}→{mk}{zone}  HY OAS {bps:.0f}bps "
+                     f"(as-of {obs_date}) — {hy_def.get('notes','')}")
+    # 2) Bear-axis KILL: <260 on two consecutive CLOSES (two-way secondary classify() can't encode)
+    if not kill_met_on and late_kill:
+        kill_met_on = late_kill
+        fired.append(f"🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS "
+                     f"<{kill_below} on two consecutive published closes, the second dated {late_kill}; this box "
+                     f"holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a "
+                     f"DUPLICATE of an alert another box sent). It is the SAME single terminal event dated {late_kill}, "
+                     f"never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO "
+                     f"§D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis.")
+    elif kill_met_on:
+        # TERMINAL: the level condition was already met once; a recovery + a second sub-260 pair
+        # must NOT re-fire (KILL_MEMO_HY_OAS_260.md §4, PROME-confirmed 2026-09-03). A successor
+        # is a new registration through PROME, and clearing this key is a human act.
+        pass
+    elif sub260 >= 2:
+        kill_met_on = obs_date
+        # ⚠️ The LEVEL is met — that is NOT the same as the thesis being killed.
+        # KILL_MEMO's tape-vs-substance guard blocks an auto-kill on a tape-only
+        # compression. An unattended alert that says "INVALIDATION" would contradict
+        # the guarded ladder it is watching, so it reports the LEVEL and names the guard.
+        # ⛔ 2026-09-29 (L493 ①): this text used to RESTATE the arbiter's state ("contested
+        # as of 2026-08-23") — stale from 8/28, relayed onto the BOARD 9/25. An unattended
+        # script must state the RULE and POINT at the live state surface (KILL_MEMO §D),
+        # never restate a dated adjudication: every restatement goes stale at the next one.
+        fired.append(f"🚨 KILL-LEVEL MET (NOT a kill) — HY OAS {bps:.0f}bps < {kill_below} on {sub260} "
+                     f"consecutive closes (as-of {obs_date}). This is the LEVEL condition only. "
+                     f"KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit "
+                     f"substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated "
+                     f"here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. "
+                     f"Escalate to BROCK/PROME and do NOT retire the thesis.")
+
+    state = {"zone": zone, "bps": round(bps), "sev": sev, "marker": mk,
+             "sub260": sub260, "obs_date": obs_date, "checked": _ts(),
+             "count_basis": "first-published-series"}
+    if kill_met_on:
+        state["kill_met_on"] = kill_met_on
+    return {"zone": zone, "sev": sev, "marker": mk, "fired": fired, "new_obs": new_obs, "state": state}
+
+
+def _load_config():
+    from config import classify, get_agent
+    hy = next((s for s in get_agent("LIQUID") if s["name"] == "HY OAS"), None)
+    return classify, hy
+
+
+def selftest():
+    """Offline test of decide() against the REAL config.py bands. Returns 0 pass / 1 fail."""
+    print("\n  hy_oas_watch.py --selftest")
+    try:
+        classify, hy = _load_config()
+    except Exception as e:
+        print(f"  ✗ cannot import config.py: {e}")
+        return 1
+    if hy is None:
+        print("  ✗ HY OAS series not found in config.py")
+        return 1
+    print(f"  ✓ config bands: green<{hy['yellow'][0]} / yellow {hy['yellow'][0]}-{hy['red'][0]} / "
+          f"red≥{hy['red'][0]} · kill_below {hy.get('kill_below', 260)}  (X1 letter: >280 sustained — not the zone)")
+
+    ok = True
+
+    def check(label, got, want):
+        nonlocal ok
+        flag = "✓" if got == want else "✗"
+        if got != want:
+            ok = False
+        print(f"  {flag} {label}: got {got!r}, want {want!r}")
+
+    G = {"zone": "green", "sev": 0, "obs_date": "2026-01-01", "sub260": 0}
+
+    # zone classification + escalation firing
+    r = decide(264, "2026-01-02", G, hy, classify)
+    check("264 → green, no fire", (r["zone"], len(r["fired"])), ("green", 0))
+    r = decide(276, "2026-01-02", G, hy, classify)
+    check("276 → yellow, escalation fires", (r["zone"], len(r["fired"])), ("yellow", 1))
+    r = decide(281, "2026-01-02", {"zone": "yellow", "sev": 1, "obs_date": "2026-01-01"}, hy, classify)
+    check("281 (from yellow) → red, escalation fires", (r["zone"], len(r["fired"])), ("red", 1))
+    # idempotency: same zone, no re-fire
+    r = decide(281, "2026-01-02", {"zone": "red", "sev": 2, "obs_date": "2026-01-01"}, hy, classify)
+    check("281 (from red) → no re-fire", len(r["fired"]), 0)
+
+    # bear-axis kill: TWO consecutive PUBLISHED closes, counted from the series (2026-09-22 repair)
+    K = lambda st: any("KILL" in f for f in st["fired"])
+    s0 = {"zone": "green", "sev": 0, "obs_date": "2026-02-01"}
+    r1 = decide(258, "2026-02-02", s0, hy, classify, [("2026-02-02", 258), ("2026-02-01", 262)])
+    check("ordinary: 258 after 262 → sub260=1, no kill yet", (r1["state"]["sub260"], K(r1)), (1, False))
+    r2 = decide(258, "2026-02-03", r1["state"], hy, classify,
+                [("2026-02-03", 258), ("2026-02-02", 258), ("2026-02-01", 262)])
+    check("ordinary: 2nd consecutive published <260 → KILL fires, terminal set",
+          (r2["state"]["sub260"], K(r2), r2["state"].get("kill_met_on")), (2, True, "2026-02-03"))
+    # concurrent/re-run: same obs again after the fire → terminal, NO re-fire (idempotent)
+    r3 = decide(258, "2026-02-03", r2["state"], hy, classify,
+                [("2026-02-03", 258), ("2026-02-02", 258)])
+    check("re-run same obs after fire → no re-fire", K(r3), False)
+    # recovery after a fire: run resets, terminal marker PERSISTS
+    r4 = decide(270, "2026-02-04", r2["state"], hy, classify, [("2026-02-04", 270), ("2026-02-03", 258)])
+    check("recovery → sub260 0, kill_met_on persists", (r4["state"]["sub260"], r4["state"].get("kill_met_on")), (0, "2026-02-03"))
+    # TERMINAL: recovery + a second sub-260 pair must NOT re-fire (CATO 9/17 §3; KILL_MEMO §4)
+    r5 = decide(255, "2026-02-06", r4["state"], hy, classify,
+                [("2026-02-06", 255), ("2026-02-05", 256), ("2026-02-04", 270)])
+    check("second pair after recovery → NO re-fire (terminal)", (r5["state"]["sub260"], K(r5)), (2, False))
+    # OVERLAP — CATO's counterexample: 259 Fri · 270 Mon (poll MISSED) · 259 Tue ⇒ NOT two consecutive
+    fri = decide(259, "2026-03-06", s0, hy, classify, [("2026-03-06", 259), ("2026-03-05", 263)])
+    tue = decide(259, "2026-03-10", fri["state"], hy, classify,
+                 [("2026-03-10", 259), ("2026-03-09", 270), ("2026-03-06", 259)])
+    check("missed Monday poll cannot skip the reset → no kill", (tue["state"]["sub260"], K(tue)), (1, False))
+    # strict '<': 260.0 is NOT below 260
+    r6 = decide(259, "2026-03-12", s0, hy, classify, [("2026-03-12", 259), ("2026-03-11", 260)])
+    check("strict <: 260 then 259 → run 1, no kill", (r6["state"]["sub260"], K(r6)), (1, False))
+    # MISSING INFORMATION: only one published obs known → cannot establish two closes → fail closed
+    r7 = decide(255, "2026-03-13", s0, hy, classify, None)
+    check("single known obs → no kill (fail closed)", (r7["state"]["sub260"], K(r7)), (1, False))
+    # holiday gap: two consecutive PUBLISHED obs across a non-publication day count as consecutive
+    r8 = decide(258, "2026-09-08", s0, hy, classify, [("2026-09-08", 258), ("2026-09-04", 259)])
+    check("consecutive published obs across a holiday → kill", K(r8), True)
+    # STATELESS TERMINAL (reader CE6): history alone establishes a prior fire, no state file needed
+    kb = hy.get("kill_below", 260)
+    hist = [("2026-07-01", 270), ("2026-07-02", 259), ("2026-07-03", 258), ("2026-07-06", 270)]
+    check("first_kill_date finds the prior fire", first_kill_date(hist, kb), "2026-07-03")
+    check("pre-registration pair is not a fire of this gate",
+          first_kill_date([("2025-01-21", 259), ("2025-01-22", 259)], kb), None)
+    check("broken pair (259, 270, 259) is not a fire",
+          first_kill_date([("2026-07-01", 259), ("2026-07-02", 270), ("2026-07-03", 259)], kb), None)
+    # N1 (reader round 2): fire-day run missed / state lost ⇒ history shows a kill this box never
+    # alerted ⇒ ONE late alert naming the ORIGINAL date, then terminal; never silence, never a 2nd kill
+    r9 = decide(270, "2026-07-08", s0, hy, classify, [("2026-07-08", 270), ("2026-07-06", 270)],
+                late_kill=first_kill_date(hist, kb))
+    check("unseen historical kill → LATE alert fires, dated to the original",
+          (K(r9), r9["state"].get("kill_met_on"), any("LATE" in f for f in r9["fired"])), (True, "2026-07-03", True))
+    r10 = decide(255, "2026-08-04", r9["state"], hy, classify, [("2026-08-04", 255), ("2026-08-03", 256)])
+    check("after the late alert, a new sub-260 pair → NO re-fire (terminal)", K(r10), False)
+
+    # L493 ① (2026-09-29): emitted text restates NO dated arbiter state; each side carries its own note.
+    STALE = ("CONTESTED", "contested", "2026-08-23", "NOT ARMED", "ADJUDICATED", "X1 CLOSED")
+    esc = decide(281, "2026-04-01", {"zone": "yellow", "sev": 1, "obs_date": "2026-03-31"}, hy, classify)["fired"]
+    kil = r2["fired"]
+    late = [l for l in r9["fired"] if "LATE" in l]   # r9 also escalates green→yellow at 270 — isolate the LATE line
+    bodies = {"escalation": _packet_body(esc, 281, "2026-04-01")[3],
+              "kill": _packet_body(kil, 258, "2026-02-03")[3],
+              "late-kill": _packet_body(late, 270, "2026-07-08")[3],
+              "mixed": _packet_body(r9["fired"], 270, "2026-07-08")[3]}   # r9 = green→yellow escalation + LATE kill
+    alert_lines = esc + kil + late
+    check("AC1 no stale arbiter state in any alert line",
+          [s for s in STALE for l in alert_lines if s in l], [])
+    check("AC1 no stale arbiter state in any packet body",
+          sorted({(k, s) for k, b in bodies.items() for s in STALE if s in b}), [])
+    # reader round 1 (2026-09-29): the old kill marker matched "KILL_MEMO §D" from the kill ALERT line, so the
+    # escalation-only check could not see a leaked kill NOTE. Key each marker on its own note's text.
+    has = lambda b: ("Kill-level fire" in b and "KILL_MEMO_HY_OAS_260.md` §D" in b, "strict `>280` SUSTAINED" in b)
+    check("AC2 escalation packet: widen note only", has(bodies["escalation"]), (False, True))
+    check("AC2 kill packet: kill note only", has(bodies["kill"]), (True, False))
+    check("AC2 late-kill packet: kill note only", has(bodies["late-kill"]), (True, False))
+    check("AC2 mixed packet (escalation + LATE kill, the reachable pair): both notes", has(bodies["mixed"]), (True, True))
+    import re as _re   # reader round 2 (M7c): a reworded "a single >280 print MEETS the leg" passed every marker
+    check("AC2 widening note never says the X1 leg is MET/MEETS", _re.findall(r"\bMEETS?\b|\bMET\b", WIDEN_SIDE_NOTE), [])
+    check("AC2 GUARD-HELD appears only as the conditional rule",
+          all("If the arbiter is dark" in l or "GUARD-HELD" not in l for l in alert_lines)
+          and "the rule is to record" in bodies["kill"], True)
+
+    print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
+    return 0 if ok else 1
+
+
+# --------------------------------------------------------------------------- delivery
+# A fire used to reach an append-only local log and NOBODY else: the alert text said
+# "escalate" and nothing performed the escalation. Between sessions that meant a
+# thesis-level event could sit unread for days (the desk was dark 8/24-8/27).
+#
+# ⛔ WHAT THIS DELIBERATELY DOES NOT DO: git add / commit / push. This runs from a
+# systemd timer with no human present, while other agent sessions may hold the shared
+# .git/index. An unattended committer racing live sessions is a worse failure than a
+# late alert. Delivery is to DISK; the next session commits it.
+#
+# ⚠️ HONEST CEILING, stated so nobody mistakes this for paging: an unattended script on a
+# box with no session running cannot reach a human. This converts "nobody until LIQUID
+# boots" into "nobody until ANY agent boots" — a real improvement, not an alert. True
+# out-of-session notification needs PROME's Will-facing lane and is PROME's to own.
+PROME_INBOX = WORKSPACE / "PROME" / "inbox"      # repo ROOT, not AGENTS/PROME/
+SIGNALS = WORKSPACE / "AGENTS" / "SIGNALS.md"
+
+
+KILL_SIDE_NOTE = ("⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) "
+                  "applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is "
+                  "deliberately NOT restated here, because a dated state written into an unattended script goes stale "
+                  "(L493 ①). If the arbiter is dark or under adjudication, the rule is to record "
+                  "`GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".")
+WIDEN_SIDE_NOTE = ("⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). "
+                   "**X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never "
+                   "counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, "
+                   "not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live "
+                   "X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. "
+                   "Do not size off this packet.")
+
+
+def _packet_body(fresh, bps, obs_date):
+    """PURE: the PROME packet text for a list of fresh alert lines. Each side carries ONLY its own
+    side's note (L493 ① AC2); a mixed fire carries both. No dated arbiter state is ever restated."""
+    is_kill = any("KILL-LEVEL" in l for l in fresh)
+    is_esc = any("ESCALATION" in l for l in fresh)
+    pri = "🔴" if is_kill else "🟠"
+    kind = "kill-level-met" if is_kill else "zone-escalation"
+    body = [f"## {obs_date} — To: PROME (unattended watcher, no human in the loop)",
+            f"**Signal:** HY OAS {bps:.0f}bps — {kind.replace('-', ' ')}",
+            f"**Priority:** {pri}", "",
+            "**Generated by `AGENTS/LIQUID/scripts/hy_oas_watch.py` on a systemd timer — "
+            "LIQUID was NOT in session when this fired.** Nobody has judged it.", ""]
+    body += [f"- {l}" for l in fresh]
+    body += ["", "**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — "
+             "it is a mechanical level read with no analyst attached."]
+    if is_kill:
+        body += ["", KILL_SIDE_NOTE]
+    if is_esc:
+        body += ["", WIDEN_SIDE_NOTE]
+    body += ["", f"**Basis:** FRED `{HY_ID}`, end-of-day, T+1 — `{obs_date}` is the OBSERVATION date, "
+             f"not the wall-clock date this fired.", "",
+             "*This packet is written to disk by an unattended process and is NOT committed by it. "
+             "If you are reading it, it survived to a session — commit it.*"]
+    return pri, kind, is_kill, "\n".join(body) + "\n"
+
+
+def _deliver(fired, bps, obs_date, state, prev):
+    """Route a fire off this box's local log. Idempotent per (kind, obs_date) so a
+    persisting condition does not re-file a packet every single day. Never raises:
+    a delivery failure must not cost us the detection."""
+    delivered = set(prev.get("delivered", []))
+    fresh = [l for l in fired if f"{l[:24]}|{obs_date}" not in delivered]
+    if not fresh:
+        state["delivered"] = sorted(delivered)
+        return
+    pri, kind, is_kill, text = _packet_body(fresh, bps, obs_date)
+    try:
+        PROME_INBOX.mkdir(parents=True, exist_ok=True)
+        pkt = PROME_INBOX / f"{obs_date}_from-LIQUID_UNATTENDED-hy-oas-{kind}-{bps:.0f}bps.md"
+        pkt.write_text(text, encoding="utf-8")
+        _log(RLOG, f"{_ts()}  DELIVERED packet -> {pkt.relative_to(WORKSPACE)}")
+    except Exception as e:
+        _log(RLOG, f"{_ts()}  DELIVER-FAIL packet — {type(e).__name__}: {e}")
+    try:
+        if SIGNALS.exists():
+            desc = fresh[0].replace("|", "/")[:240]
+            with SIGNALS.open("a", encoding="utf-8") as f:      # append = least racy
+                f.write(f"| {obs_date} | LIQUID | {'ALL' if is_kill else 'PROME'} | {pri} | "
+                        f"{desc} | unattended watcher, no analyst attached |\n")
+            _log(RLOG, f"{_ts()}  DELIVERED SIGNALS.md row")
+    except Exception as e:
+        _log(RLOG, f"{_ts()}  DELIVER-FAIL SIGNALS — {type(e).__name__}: {e}")
+    delivered |= {f"{l[:24]}|{obs_date}" for l in fresh}
+    state["delivered"] = sorted(delivered)[-40:]
+
+
+def _first_published(mult):
+    """[(date, bps)] OLDEST-first, initial-release values from GATE_REGISTERED; None on any failure."""
+    try:
+        import urllib.parse
+        import fetch as _f
+        q = dict(series_id=HY_ID, api_key=_f.FRED_API_KEY, file_type="json", output_type=4,
+                 observation_start=GATE_REGISTERED, realtime_start=GATE_REGISTERED,
+                 realtime_end="9999-12-31")
+        d = _f._retry_request(f"{_f.FRED_BASE}?{urllib.parse.urlencode(q)}")
+        if not isinstance(d, dict) or "error" in d:
+            return None
+        out = []
+        for o in d.get("observations", []):
+            if o.get("value") in (".", None, ""):
+                continue
+            out.append((o["date"], float(o["value"]) * mult))
+        out.sort()
+        return out or None
+    except Exception:
+        return None
+
+
+def main():
+    if "--selftest" in sys.argv:
+        return selftest()
+
+    try:
+        from fetch import fred_fetch
+        classify, hy = _load_config()
+    except Exception as e:
+        _log(RLOG, f"{_ts()}  IMPORT-FAIL — {e}")
+        return 3
+    if hy is None:
+        _log(RLOG, f"{_ts()}  CONFIG-FAIL — HY OAS series not found in config.py")
+        return 3
+
+    obs = fred_fetch(HY_ID, limit=10)   # newest-first; '.' (unpublished) already dropped by fetch.py
+    if not obs or (isinstance(obs[0], dict) and "error" in obs[0]):
+        err = obs[0]["error"] if obs else "no data"
+        _log(RLOG, f"{_ts()}  FETCH-FAIL — {err}")
+        return 3
+
+    try:
+        raw = float(obs[0]["value"])
+        obs_date = obs[0]["date"]
+    except (ValueError, KeyError, TypeError) as e:
+        _log(RLOG, f"{_ts()}  PARSE-FAIL — {e}")
+        return 3
+
+    bps = raw * hy.get("multiply", 1)
+    prev = _read_state()
+    # KILL basis = FIRST-PUBLISHED values (FRED output_type=4, initial release only) — KILL_MEMO
+    # letter: "FRED's as-first-published value grades". 2026-09-22 (independent-reader CE1/CE1b):
+    # recomputing from LATEST-REVISED values let a revision re-grade an open count both ways.
+    # Zone escalation (not gate-lettered) still reads the latest value. If the vintage pull fails,
+    # the kill leg is NOT graded this run (recent=None ⇒ cannot establish two closes) — fail closed.
+    late = None
+    fp = _first_published(hy.get("multiply", 1))
+    if fp is None:
+        _log(RLOG, f"{_ts()}  VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)")
+        recent = None
+    else:
+        recent = list(reversed(fp))[:10]
+        met = first_kill_date(fp, hy.get("kill_below", 260))
+        if met and not prev.get("kill_met_on") and met != (recent[0][0] if recent else None):
+            late = met   # a kill in history this box never alerted — say so LATE, never swallow it
+    r = decide(bps, obs_date, prev, hy, classify, recent, late_kill=late)
+    if not r["fired"] and prev.get("delivered"):
+        r["state"]["delivered"] = prev["delivered"]   # keep delivery idempotency across quiet runs
+
+    for line in r["fired"]:
+        _log(ALOG, f"{_ts()}  {line}")
+
+    if r["fired"]:
+        _deliver(r["fired"], bps, obs_date, r["state"], prev)
+
+    _log(RLOG, f"{_ts()}  HY OAS {bps:.0f}bps {r['marker']}{r['zone']} (sev {r['sev']}, "
+               f"prev {prev.get('sev', 0)}{prev.get('zone', 'green')}, sub260 {r['state']['sub260']}, "
+               f"obs {obs_date}{' NEW' if r['new_obs'] else ''}) "
+               f"{'FIRED ' + str(len(r['fired'])) if r['fired'] else 'ok'}")
+
+    STATE.write_text(json.dumps(r["state"], indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
