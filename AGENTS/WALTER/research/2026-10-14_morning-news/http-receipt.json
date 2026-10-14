@@ -1,0 +1,65 @@
+{
+  "retrieved_at": "2026-10-14T16:12:37.765364+00:00",
+  "results": [
+    {
+      "key": "cpi",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "status": 200,
+      "bytes": 90650
+    },
+    {
+      "key": "realearnings",
+      "url": "https://www.bls.gov/news.release/realer.nr0.htm",
+      "status": 200,
+      "bytes": 50662
+    },
+    {
+      "key": "iea",
+      "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+      "status": 403,
+      "bytes": 5547
+    },
+    {
+      "key": "asml",
+      "url": "https://www.asml.com/en/news/press-releases/2026/q3-2026-financial-results",
+      "status": 403,
+      "bytes": 610
+    },
+    {
+      "key": "bac",
+      "url": "https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0000070858-26-000481/bac09302026ex991.htm",
+      "status": 200,
+      "bytes": 89950
+    },
+    {
+      "key": "ms",
+      "url": "https://www.morganstanley.com/about-us-ir/shareholder/3q2026.pdf",
+      "status": 200,
+      "bytes": 1320023
+    },
+    {
+      "key": "skew",
+      "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+      "status": 200,
+      "bytes": 203444
+    },
+    {
+      "key": "wages_chart",
+      "url": "https://pbs.twimg.com/media/HUmO5sAWkAED2o5.png",
+      "status": 200,
+      "bytes": 113601
+    },
+    {
+      "key": "cpi_chart1",
+      "url": "https://pbs.twimg.com/media/HUl7KyBXEAAj8gb.png",
+      "status": 200,
+      "bytes": 35378
+    },
+    {
+      "key": "cpi_chart2",
+      "url": "https://pbs.twimg.com/media/HUl7UUDWMAAecO6.png",
+      "status": 200,
+      "bytes": 121034
+    }
+  ]
+}

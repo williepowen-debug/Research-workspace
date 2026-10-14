@@ -5,15 +5,15 @@
 
 The72-bookmark batch is complete, with21 source-qualified signals and53 owner packets; prior assessments and exact processed IDs are preserved. Issued power orders/operating actions, AI-financing risk and the TGA basis correction reach the routing layer; regional-bank borrower attribution, physical diesel loss/addition and insurer holder losses remain unestablished. Existing energy WAIT and owner grades remain intact. Reboot duties and publication/consumption evidence: LAST_COMPLETION.md.
 
-## DATED MARKET OBSERVATIONS — retrieved October13 23:08Z
+## DATED MARKET OBSERVATIONS — bounded refresh October14 16:12Z; unchanged rows retain prior dates
 
 | Object | Observation and limit |
 |---|---|
-| Credit | FRED MIRROR HY311bp/CCC1253bp [October12];HY9bp/2.8125% below strict>320,0/3;CCC fire banked,no repeat. October12 bond holiday may carry cash series,not a fresh independent witness. October13 credit print unavailable. |
-| Volatility | FRED MIRROR VIXCLS15.21 [October12];banked state,exit>=18 not met. CBOE PRIMARY SKEW155.06 [October12] after154.34 [October9],2/4 at>=150;October13 publisher bar absent. Watch routed005;no fire. |
-| Funding / rates | SOFR3.87−IORB3.90=-3bp [matchedOctober9];forwardIORB14 not substituted. DGS10/30 5.24/5.60 [October9],not October13. T5YIFR2.33 [October13]. |
-| Labor | ICSA197K [weekendingOctober3,current revisedFRED mirror];no first-release recertification. |
-| Banks | Vendor datedOctober13 KRE69.06,WAL73.73,OZK45.08;singlepull,not independent closecertification. WAL existing cycle2:no >=81.90 exit;no repeatfire. Issuer Q3workout outcomes remainpending. |
+| Credit | FRED mirror HY316bp/CCC1267bp [October13], retrieved October14 16:12Z. HY4bp/1.25% below strict>320 on that dated print,0/3; +5bp versusOctober12, no+25bp bypass. CCC prior fire banked/no repeat. |
+| Volatility | FRED mirror VIXCLS15.27 [October13]; registered exit>=18 not met. CBOE PRIMARY SKEW154.74 [October13], after154.34/155.06 [October9/12]:3/4>=150, watch SIG-W-20261014-012; October14 official close absent/no early fire. Intraday VIX16.23 from16:12Z vendor pull is not a closing grade. |
+| Funding / rates | SOFR3.89−IORB3.90=-1bp [matchedOctober13];forwardIORB14 not substituted. DGS10/30 5.24/5.60 [October9],not October13. T5YIFR2.33 [October13]. |
+| Labor / inflation | ICSA197K [weekendingOctober3,FRED revised mirror];no first-release recertification. BLS September headline0.6/core0.3 m/m; TableA Jul0.2/Aug0.3/Sep0.3=>3.247216% annualized, qualifies RED-FT08. RED execution UNKNOWN. Real hourly earnings-0.5%m/m/-0.7%y/y; November composition resolver remains open. |
+| Banks | Vendor intraday October14 at16:12Z: KRE68.65/WAL72.14/OZK44.84; not closes. October13 vendor prior closes69.06/73.73/45.08 retain single-source limits; WAL existing cycle2/no exit/repeat. BAC/MS issuer Q3 counterevidence routed004; regional workout outcomes remain owner-gated. |
 | Storage | AGSI gasdayOctober13 fill74.04%−same-source5yrnorm88.884%=-14.844pp;existingOPEN,exit>-12 notmet,0/5. Baselinecomposition/economicusefulness unvalidated. |
 | Energy | Cushing24.745M bbl [weekOctober2];currentweek not yetpublished. October13 vendorfutures not formalsettles. BRENT/DEWEY recoveredOctober12 CMEfinal pairedinputs;no duplicated grade. Currentnamedsite run-rates/deliverednetdiesel UNKNOWN. |
 | UK / HANS remainder | UK/Bund closes,TTF contractidentity,Italy/France matchedcloselegs notrefreshed in this pass;old observations are not currentclearance. Monthly/qualitative rows remain owner/source-limited. |

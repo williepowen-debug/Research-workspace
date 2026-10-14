@@ -1,0 +1,10 @@
+{
+  "retrieved_at": "2026-10-14T16:18:55.928947+00:00",
+  "basis": "BLS current October14 TableA core Jul0.2/Aug0.3/Sept0.3 compounded in Decimal; RED S50 preregistration",
+  "annualized_pct": "3.247216070202248617993734800",
+  "comparison_at_1dp": "3.2",
+  "threshold_pct": "3.0",
+  "qualified": true,
+  "owner_integration": "UNKNOWN",
+  "component_two_print_grade": "NOT RESOLVED; November10 remains required"
+}

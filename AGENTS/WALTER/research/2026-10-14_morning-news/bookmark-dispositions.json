@@ -1,0 +1,116 @@
+[
+  {
+    "item": 1,
+    "bookmark_id": "2110384381428895750",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261014-001"
+  },
+  {
+    "item": 2,
+    "bookmark_id": "2110376832742707253",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261014-001; BLS real earnings used, cumulative chart is a separate basis"
+  },
+  {
+    "item": 3,
+    "bookmark_id": "2110346655270645863",
+    "disposition": "KILL",
+    "ref": "Unsupported anonymous unnamed-bank/forward-distress claim; credibility gate, not framing-false"
+  },
+  {
+    "item": 4,
+    "bookmark_id": "2110364962493178237",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261014-010"
+  },
+  {
+    "item": 5,
+    "bookmark_id": "2110113108135960917",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261014-011"
+  },
+  {
+    "item": 6,
+    "bookmark_id": "2110354197325480106",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261014-001"
+  },
+  {
+    "item": 7,
+    "bookmark_id": "2109996445646684167",
+    "disposition": "DUP",
+    "ref": "BM-20261014-02 item23 / BM-20261014-03 items2,5; same Bloomberg CFTC report, no manipulation finding"
+  },
+  {
+    "item": 8,
+    "bookmark_id": "2110364777856057599",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261014-001"
+  },
+  {
+    "item": 9,
+    "bookmark_id": "2110370074968068227",
+    "disposition": "NO-ACTION",
+    "ref": "Qualified Greenland interview pushback saved in verifier; no impending production established or existing supply figure replaced"
+  },
+  {
+    "item": 10,
+    "bookmark_id": "2110340646926008541",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261014-006"
+  },
+  {
+    "item": 11,
+    "bookmark_id": "2110347619885035900",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261014-001; consensus/historical rank not independently adopted"
+  },
+  {
+    "item": 12,
+    "bookmark_id": "2110194178189885903",
+    "disposition": "DUP",
+    "ref": "BM-20261014-03 items2,5; same CFTC report, no new investigative commission"
+  },
+  {
+    "item": 13,
+    "bookmark_id": "2110369282265677942",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261014-007"
+  },
+  {
+    "item": 14,
+    "bookmark_id": "2110367273374396760",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261014-009"
+  },
+  {
+    "item": 15,
+    "bookmark_id": "2110370292090417610",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261014-008"
+  },
+  {
+    "item": 16,
+    "bookmark_id": "2110347809308455363",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261014-001; rate-expectation causal claim not adopted"
+  },
+  {
+    "item": 17,
+    "bookmark_id": "2110244721448919384",
+    "disposition": "NO-ACTION",
+    "ref": "Demographic projection/opinion; source units/vintage/AI causal claim unresolved"
+  },
+  {
+    "item": 18,
+    "bookmark_id": "2110101127786324118",
+    "disposition": "KILL",
+    "ref": "Chart NH2% fails its own strict<1.5% confirmation criterion; no authenticated crash outcome"
+  },
+  {
+    "item": 19,
+    "bookmark_id": "2109939775121637600",
+    "disposition": "NO-ACTION",
+    "ref": "May2026 coding-process compilation; no financial-news delta or workflow change"
+  }
+]
