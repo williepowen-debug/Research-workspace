@@ -102,5 +102,96 @@
       "rc": 0,
       "output": "CLAIM-CHECK \u2713 5 file(s) clean [weekday]\n"
     }
+  },
+  "latest_closeout": {
+    "observed_at": "2026-10-14T14:26:18.430317-04:00",
+    "BOARD": {
+      "addressed": 31,
+      "logged": 37,
+      "new": [],
+      "skipped": [],
+      "since": "SIG-W-20261012-030"
+    },
+    "raw_Will": [],
+    "inbox": [],
+    "checks": {
+      "R1": {
+        "rc": 0,
+        "output": "  INFO 1 dead-at-cap with no receipt from this desk: COR-20260925-13 \u2014 0 NAMED (still BLOCKING until receipted, WQ-254 D4(a)) \u00b7 1 ALL-row (broadcast expired: no warn, no block)\nCORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for TERRY (register 76 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 11) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+      },
+      "ledger": {
+        "rc": 0,
+        "output": "TERRY ledger sweep\n==================\n\nD. READ SANITY \u2014 did every surface actually parse?\n  \u2713 every surface returned rows (a zero here would be a parser defect, not a clean ledger)\n\nC. CARD HEADER vs ITS OWN BODY \u2014 18 card(s)\n  \u2713 every card header matches its latest in-body verdict\n\nA. STATE AGREEMENT \u2014 48 setup_ids across 37 surfaces\n  \u2713 all surfaces agree\n\nB. SUPERSEDED-VALUE DRIFT \u2014 4 corrected value(s) since '2 days ago': VIX3M/VIX min=1.0888, beta=0.28, beta=0.53, session high=18.71\n  \u2713 no naked superseded values\n\nE. FUTURE-DATED STAMPS \u2014 93 surface(s) (ledgers + cards), clock now 2026-10-14 14:28\n  \u2713 no stamp claims a time that has not happened yet\n\nF. UNREADABLE STATE CLAIMS \u2014 is a surface silently dropping out of check A?\n  \u2713 every non-empty claim parsed \u2014 check A's \u2713 means COMPARED, not merely unread\n\nG. STRUCTURE FINGERPRINT \u2014 strikes/expiry, where the STATE token agrees but the trade may not\n  \u2713 no surface disagrees with another on strikes or expiry\n\nH. CONTRACT COUNT vs OPEN REAL PAPER ROWS \u2014 2 live reference(s): TRY-BRENT-REFINER=1\u00d7, TRY-WAL-ROLL70=1\u00d7\n  \u2713 every registry surface carries the live contract count\n\nI. INBOX AT CLOSEOUT (advisory \u2014 never blocks) \u2014 0 undrained packet(s)\n  \u2713 0 undrained (inbox/ + inbox/<AGENT>/, excl. WILL drop zone)\n\n\u2705 CLEAN (A\u2013H)\n"
+      },
+      "cap": {
+        "rc": 0,
+        "output": "READ-CAP [TERRY] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 1 boot section(s) in CLAUDE.md, 10 'read' line(s) scanned (0 on-demand/grep + 1 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 7 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 SETUPS.tsv                           23,654 B    73% of budget    (boot-step line 155)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 870 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 758 B.\n  \u2705 RISK_RULES_CONSTRUCTION.md           23,573 B    72% of budget    (boot-step line 154)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 789 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 839 B.\n  \u2705 RISK_RULES.md                        23,316 B    72% of budget    (boot-step line 143)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 532 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 1,096 B.\n  \u2705 STATUS.md                            22,645 B    70% of budget    (boot-step line 142)\n  \u2705 TRADE_BOOK.md                        19,956 B    61% of budget    (boot-step line 155)\n  \u2705 RISK_SCORING.md                      10,134 B    31% of budget    (boot-step line 144)\n  \u2705 TRADE_CARD_TEMPLATE.md                4,418 B    14% of budget    (boot-step line 154)\n\u2705 READ-CAP 0 [TERRY]: every boot-mandated read this check found is under budget (7 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/TERRY/CLAUDE.md = 31,610 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=TERRY reads=7 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31610\n"
+      },
+      "weekday": {
+        "rc": 0,
+        "output": "CLAIM-CHECK \u2713 3 file(s) clean [weekday]\n"
+      },
+      "nudge": {
+        "rc": 1,
+        "output": "\u26a0\ufe0f  nudge: [TERRY] STATUS moving without ledgers \u2014 6 ledger(s) behind: CALIBRATION.tsv (14 STATUS-writes behind), SIGNALS.tsv (14 STATUS-writes behind), LEDGER.tsv (14 STATUS-writes behind), SETUPS.tsv (13 STATUS-writes behind), board_log.tsv (9 STATUS-writes behind), PAPER_BOOK.tsv (7 STATUS-writes behind) \u2014 freeze-or-refresh EACH, or say why not in the commit\n"
+      },
+      "orphan": {
+        "rc": 0,
+        "output": "\u26a0\ufe0f  uncommitted files outside AGENTS/TERRY/:\n     [not yours]    AGENTS/BOND/NEXUS_BRIEF.md\n     [not yours]    AGENTS/BOND/SCRATCH.md\n     [not yours]    AGENTS/BOND/STATUS.md\n     [not yours]    AGENTS/BRENT/RULINGS.md\n     [not yours]    AGENTS/BRENT/SCHEDULED_RUNS.md\n     [not yours]    AGENTS/BRENT/SCRATCH.md\n     [not yours]    AGENTS/BRENT/STATUS.md\n     [not yours]    AGENTS/BRENT/archive/2026-10-14_operational-followups/\n     [not yours]    AGENTS/BRENT/audits/2026-10-14_operational-followups/\n     [not yours]    AGENTS/BRENT/board_log.tsv\n     [not yours]    AGENTS/BRENT/demand_destruction/DEMAND_COMPOSITE.md\n     [not yours]    AGENTS/BRENT/demand_destruction/HOARDING.md\n     [not yours]    AGENTS/BRENT/demand_destruction/MATRIX_REVIEW.md\n     [not yours]    AGENTS/BRENT/demand_destruction/TRACKER.md\n     [not yours]    AGENTS/BRENT/demand_destruction/TRANSITION_MATRIX.md\n     [not yours]    AGENTS/BRENT/docket/FASTOW_MEMORY.md\n     [not yours]    AGENTS/BRENT/domain/HORMUZ_TRANSIT_BASELINE.md\n     [not yours]    AGENTS/BRENT/domain/REFERENCE_TABLES.md\n     [not yours]    AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-014.md\n     [not yours]    AGENTS/BRENT/refinery_damage/INCIDENTS.tsv\n     [not yours]    AGENTS/BRENT/scripts/eia_weekly.py\n     [not yours]    AGENTS/BRENT/scripts/tests/test_data_integrity.py\n     [not yours]    AGENTS/BRENT/thesis/CHANGELOG.md\n     [not yours]    AGENTS/BRENT/thesis/THESIS.md\n     [not yours]    AGENTS/BRENT/workbook/README.md\n     [not yours]    AGENTS/BRENT/workbook/REGISTRY.tsv\n     [not yours]    AGENTS/DEWEY/output/2026-10-14_ports-pike-power-rights-payment-bridge.md\n     [not yours]    AGENTS/DEWEY/output/INDEX.tsv\n     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-14_intake-health/\n     [not yours]    AGENTS/WALTER/research/2026-10-14_morning-news/bookmark-unprocessed-probe.json\n     [not yours]    PROME/ACTIVE_DECISIONS.md\n     [not yours]    PROME/HANDOFF.md\n     [not yours]    PROME/SCRATCH.md\n     [not yours]    PROME/STATUS.md\n     [not yours]    PROME/inbox/2026-10-14_from-BOND_origin-publication-receipt.md\n     [not yours]    PROME/registry/WQ_LEDGER.crc\n     [not yours]    PROME/registry/WQ_LEDGER.tsv\n     [not yours]    PROME/registry/corrections_receipts.tsv\n     [not yours]    PROME/reports/2026-10-14_1110-boot-news.json\n     [not yours]    PROME/reports/2026-10-14_PROME-restart.json\n     [not yours]    PROME/state/ORCH_LOG.tsv\n     [not yours]    PROME/state/board_consumed.tsv\n     [not yours]    PROME/state/board_cursor.txt\n     [not yours]    memory/2026-10-14.md\n\n\u2139\ufe0f  The [not yours] entries are someone else's work \u2014 do NOT commit them.\n   Flag to PROME (or Will) rather than sweeping them into your commit.\n"
+      },
+      "whitespace": {
+        "rc": 0,
+        "output": ""
+      }
+    },
+    "retirement": {
+      "perimeter": "Git-tracked research/ and options/sources/; last path commit age, no all-desk housekeeping certificate",
+      "assessed": 120,
+      "older_than_60_days": [
+        {
+          "path": "AGENTS/TERRY/options/sources/2026-07-17_retail_21dte-reaction_tastytrade-study.md",
+          "age_days": 89
+        },
+        {
+          "path": "AGENTS/TERRY/options/sources/2026-07-17_tastytrade_21dte-management_and_0dte-products.md",
+          "age_days": 89
+        },
+        {
+          "path": "AGENTS/TERRY/research/sources/2026-07-26_roan_combining-50-weak-signals.txt",
+          "age_days": 80
+        }
+      ],
+      "moves": 0,
+      "disposition": "Three old sources retained: options/RESEARCH.md active graded TT01/TT02/V1/V2 basis, CHART_OPTIONS_WORKFLOW.md sections3b/3c use that doctrine; SIGNAL_COMBINATION research directly used by RISK_SCORING effectiveN. Live reference protections verified again; no other age candidates."
+    },
+    "prior_delivery_matches_owned": true,
+    "coverage_cutoff": "2026-10-14T14:28:23.668035-04:00",
+    "final_inbox": [],
+    "final_raw_Will": [],
+    "authority": "Will direct final closeout after constrained continuation; no new trade/rule/study/monitor",
+    "acceptance": "Verified acceptance/QQQ filing loop CLOSED; VIOLET separate; no accepted repair reopened",
+    "prior_publication": "3457e8628 fresh safe-push CONFIRMED, includes05cd9c319; final closeout publication pending",
+    "not_triggered": [
+      "No code changes since accepted repair; no tool selftest repetition",
+      "No new numerical threshold or probability supersession; no consumer scan",
+      "No auto-memory; no memory-index check",
+      "No new trade/candidate/fill/would-fire or raw daytrade input; no artificial ledger refresh",
+      "No new research/study/monitor or dashboard"
+    ],
+    "publication": "PENDING exact owned final closeout commit and authorized safe-push; foreign work preserved",
+    "incorporated_packets": [
+      {
+        "path": "inbox/processed/2026-10-14_from-BOND_surviving-TBT-rates-context.md",
+        "sha256": "3d7ccc4e4377bc97f7b0cdc9f0ac91aba628852437cb1e3536227d5cb3f55576"
+      },
+      {
+        "path": "inbox/processed/2026-10-14_from-PROME_QQQ-filled-exits.json",
+        "sha256": "9397b92ca4d155e104527700ca90fdbd4c7ab9c8982fb9788ff8e66906f5f5b8"
+      },
+      {
+        "path": "inbox/processed/2026-10-14_from-PROME_desk-repair-acceptance.json",
+        "sha256": "1abfb7b92e2fd08e185d9d47e359f36122d7aad2cd26d752ac01e5c801cc2fec"
+      }
+    ]
   }
 }
