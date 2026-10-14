@@ -1,0 +1,317 @@
+{
+  "treasury_frontier": "2026-10-13",
+  "treasury_recent": [
+    {
+      "date": "2026-10-02",
+      "nominal": {
+        "Date": "10/02/2026",
+        "1 Mo": "4.04",
+        "1.5 Month": "4.09",
+        "2 Mo": "4.11",
+        "3 Mo": "4.19",
+        "4 Mo": "4.26",
+        "6 Mo": "4.27",
+        "1 Yr": "4.46",
+        "2 Yr": "4.83",
+        "3 Yr": "4.96",
+        "5 Yr": "5.06",
+        "7 Yr": "5.17",
+        "10 Yr": "5.28",
+        "20 Yr": "5.67",
+        "30 Yr": "5.63"
+      },
+      "real": {
+        "Date": "10/02/2026",
+        "5 YR": "2.69",
+        "7 YR": "2.80",
+        "10 YR": "2.92",
+        "20 YR": "3.19",
+        "30 YR": "3.34"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "nominal": {
+        "Date": "10/05/2026",
+        "1 Mo": "4.05",
+        "1.5 Month": "4.10",
+        "2 Mo": "4.13",
+        "3 Mo": "4.22",
+        "4 Mo": "4.27",
+        "6 Mo": "4.30",
+        "1 Yr": "4.47",
+        "2 Yr": "4.84",
+        "3 Yr": "4.97",
+        "5 Yr": "5.06",
+        "7 Yr": "5.19",
+        "10 Yr": "5.31",
+        "20 Yr": "5.70",
+        "30 Yr": "5.66"
+      },
+      "real": {
+        "Date": "10/05/2026",
+        "5 YR": "2.70",
+        "7 YR": "2.82",
+        "10 YR": "2.95",
+        "20 YR": "3.22",
+        "30 YR": "3.37"
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "nominal": {
+        "Date": "10/06/2026",
+        "1 Mo": "4.06",
+        "1.5 Month": "4.12",
+        "2 Mo": "4.13",
+        "3 Mo": "4.21",
+        "4 Mo": "4.26",
+        "6 Mo": "4.28",
+        "1 Yr": "4.46",
+        "2 Yr": "4.79",
+        "3 Yr": "4.88",
+        "5 Yr": "5.03",
+        "7 Yr": "5.15",
+        "10 Yr": "5.27",
+        "20 Yr": "5.68",
+        "30 Yr": "5.64"
+      },
+      "real": {
+        "Date": "10/06/2026",
+        "5 YR": "2.66",
+        "7 YR": "2.77",
+        "10 YR": "2.91",
+        "20 YR": "3.19",
+        "30 YR": "3.35"
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "nominal": {
+        "Date": "10/07/2026",
+        "1 Mo": "4.07",
+        "1.5 Month": "4.13",
+        "2 Mo": "4.14",
+        "3 Mo": "4.22",
+        "4 Mo": "4.28",
+        "6 Mo": "4.28",
+        "1 Yr": "4.42",
+        "2 Yr": "4.77",
+        "3 Yr": "4.87",
+        "5 Yr": "5.03",
+        "7 Yr": "5.15",
+        "10 Yr": "5.28",
+        "20 Yr": "5.71",
+        "30 Yr": "5.67"
+      },
+      "real": {
+        "Date": "10/07/2026",
+        "5 YR": "2.66",
+        "7 YR": "2.78",
+        "10 YR": "2.92",
+        "20 YR": "3.20",
+        "30 YR": "3.36"
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "nominal": {
+        "Date": "10/08/2026",
+        "1 Mo": "4.14",
+        "1.5 Month": "4.14",
+        "2 Mo": "4.13",
+        "3 Mo": "4.23",
+        "4 Mo": "4.29",
+        "6 Mo": "4.30",
+        "1 Yr": "4.44",
+        "2 Yr": "4.75",
+        "3 Yr": "4.85",
+        "5 Yr": "4.99",
+        "7 Yr": "5.11",
+        "10 Yr": "5.22",
+        "20 Yr": "5.64",
+        "30 Yr": "5.60"
+      },
+      "real": {
+        "Date": "10/08/2026",
+        "5 YR": "2.62",
+        "7 YR": "2.74",
+        "10 YR": "2.87",
+        "20 YR": "3.15",
+        "30 YR": "3.31"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "nominal": {
+        "Date": "10/09/2026",
+        "1 Mo": "4.13",
+        "1.5 Month": "4.13",
+        "2 Mo": "4.13",
+        "3 Mo": "4.25",
+        "4 Mo": "4.29",
+        "6 Mo": "4.32",
+        "1 Yr": "4.47",
+        "2 Yr": "4.80",
+        "3 Yr": "4.89",
+        "5 Yr": "5.02",
+        "7 Yr": "5.13",
+        "10 Yr": "5.24",
+        "20 Yr": "5.65",
+        "30 Yr": "5.60"
+      },
+      "real": {
+        "Date": "10/09/2026",
+        "5 YR": "2.68",
+        "7 YR": "2.79",
+        "10 YR": "2.91",
+        "20 YR": "3.17",
+        "30 YR": "3.32"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "nominal": {
+        "Date": "10/13/2026",
+        "1 Mo": "4.10",
+        "1.5 Month": "4.15",
+        "2 Mo": "4.15",
+        "3 Mo": "4.26",
+        "4 Mo": "4.32",
+        "6 Mo": "4.34",
+        "1 Yr": "4.48",
+        "2 Yr": "4.79",
+        "3 Yr": "4.90",
+        "5 Yr": "5.00",
+        "7 Yr": "5.11",
+        "10 Yr": "5.21",
+        "20 Yr": "5.60",
+        "30 Yr": "5.56"
+      },
+      "real": {
+        "Date": "10/13/2026",
+        "5 YR": "2.67",
+        "7 YR": "2.77",
+        "10 YR": "2.88",
+        "20 YR": "3.13",
+        "30 YR": "3.28"
+      }
+    }
+  ],
+  "2026-10-09..2026-10-13": {
+    "5": {
+      "nominal_bp": -2.0,
+      "real_bp": -1.0,
+      "compensation_bp": -1.0
+    },
+    "10": {
+      "nominal_bp": -3.0,
+      "real_bp": -3.0,
+      "compensation_bp": 0.0
+    },
+    "30": {
+      "nominal_bp": -4.0,
+      "real_bp": -4.0,
+      "compensation_bp": 0.0
+    }
+  },
+  "2026-10-07..2026-10-13": {
+    "5": {
+      "nominal_bp": -3.0,
+      "real_bp": 1.0,
+      "compensation_bp": -4.0
+    },
+    "10": {
+      "nominal_bp": -7.0,
+      "real_bp": -4.0,
+      "compensation_bp": -3.0
+    },
+    "30": {
+      "nominal_bp": -11.0,
+      "real_bp": -8.0,
+      "compensation_bp": -3.0
+    }
+  },
+  "2026-09-21..2026-10-13": {
+    "5": {
+      "nominal_bp": 17.0,
+      "real_bp": 17.0,
+      "compensation_bp": 0.0
+    },
+    "10": {
+      "nominal_bp": 25.0,
+      "real_bp": 26.0,
+      "compensation_bp": -1.0
+    },
+    "30": {
+      "nominal_bp": 27.0,
+      "real_bp": 26.0,
+      "compensation_bp": 1.0
+    }
+  },
+  "30Y>=5.00": {
+    "count2026": 85,
+    "n2026": 196,
+    "trailing_run": 69,
+    "basis": "Treasury 2026 daily cells; inclusive threshold; unpublished dates skipped; maximal trailing run within supplied 2026 sample"
+  },
+  "real10Y>=2.50": {
+    "count2026": 23,
+    "n2026": 196,
+    "trailing_run": 23,
+    "basis": "Treasury 2026 daily cells; inclusive threshold; unpublished dates skipped; maximal trailing run within supplied 2026 sample"
+  },
+  "bund": {
+    "latest": "('2026-10-14', Decimal('3.51'))",
+    "five_session_start": "('2026-10-07', Decimal('3.55'))",
+    "five_session_bp": -4.0,
+    "prospective": [
+      {
+        "date": "2026-10-09",
+        "yield": 3.53,
+        "change5_bp": 4.0,
+        "fires": false
+      },
+      {
+        "date": "2026-10-12",
+        "yield": 3.53,
+        "change5_bp": 2.0,
+        "fires": false
+      },
+      {
+        "date": "2026-10-13",
+        "yield": 3.49,
+        "change5_bp": -3.0,
+        "fires": false
+      },
+      {
+        "date": "2026-10-14",
+        "yield": 3.51,
+        "change5_bp": -4.0,
+        "fires": false
+      }
+    ]
+  },
+  "acm9to13": {
+    "ACMY10": -3.647579501827014,
+    "ACMTP10": -5.084177573734028,
+    "ACMRNY10": 1.4365980719070137
+  },
+  "BND30_KW_companion": {
+    "dY_bp": 1.87,
+    "dTP_bp": 1.12,
+    "share": 0.5989304812834224
+  },
+  "cnbc10Y_pair": {
+    "previous_nominal": 5.217,
+    "last_nominal": 5.211,
+    "previous_real": 2.873,
+    "last_real": 2.852,
+    "previous_compensation": 2.344,
+    "last_compensation": 2.359,
+    "nominal_bp": -0.6,
+    "real_bp": -2.1,
+    "compensation_bp": 1.5,
+    "basis": "CNBC vendor benchmark yields 13:58/13:59EDT; near-contemporaneous, maturities differ (nominal Aug2036/TIPS Jul2036), not matched fitted CMTs, not pure inflation expectations, no gate grade"
+  }
+}

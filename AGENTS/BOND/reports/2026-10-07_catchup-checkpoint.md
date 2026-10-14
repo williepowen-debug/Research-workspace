@@ -1,3 +1,5 @@
+> FROZEN 2026-10-14 — dated October7 research snapshot, not current holdings or market state. Current quantities and evidence: STATUS.md and analysis/2026-10-14_post-CPI/REPORT.md. Original observations below are preserved.
+
 # BOND October 7 catch-up — interrupted-work checkpoint
 
 Checkpoint: 2026-10-07T16:27:32-04:00. Will directly requested closeout and confirmation that the window can close. This saves incomplete work; it does not certify substantive catch-up completion.

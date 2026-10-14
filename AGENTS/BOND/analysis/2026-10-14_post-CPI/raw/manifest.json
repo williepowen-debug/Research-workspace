@@ -1,0 +1,66 @@
+{
+  "nominal.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&_format=csv",
+    "captured_et": "2026-10-14T13:57:54.795633-04:00",
+    "status": 200,
+    "bytes": 15986
+  },
+  "real.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&_format=csv",
+    "captured_et": "2026-10-14T13:57:54.796303-04:00",
+    "status": 200,
+    "bytes": 7098
+  },
+  "ACM.xls": {
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xls",
+    "captured_et": "2026-10-14T13:57:54.796760-04:00",
+    "status": 200,
+    "bytes": 10158592,
+    "sha256": "db2859e2df8e149049c5b49c264563bb21732ed64588740ff09fe256aa87d9f5",
+    "retained_artifact": "acm_recent.json (18 rows, full source workbook temporary /tmp/bond-20261014-ACM.xls)"
+  },
+  "bund10.csv": {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?format=csv&lang=en",
+    "captured_et": "2026-10-14T13:57:54.797317-04:00",
+    "status": 200,
+    "bytes": 231408
+  },
+  "cpi.html": {
+    "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+    "captured_et": "2026-10-14T13:57:54.797909-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "beige.html": {
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610.htm",
+    "captured_et": "2026-10-14T13:57:54.798395-04:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "auction_schedule.pdf": {
+    "url": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+    "captured_et": "2026-10-14T13:57:54.798878-04:00",
+    "status": 200,
+    "bytes": 17195
+  },
+  "nbim.html": {
+    "url": "https://www.nbim.no/en/news-and-insights/submissions-to-ministry/2026/the-government-pension-fund-global--analyses-and-assessments-of-the-investment-strategy-for-bonds/",
+    "captured_et": "2026-10-14T13:57:54.799409-04:00",
+    "status": 200,
+    "bytes": 109035
+  },
+  "ministry.html": {
+    "url": "https://www.regjeringen.no/en/topics/the-economy/the-government-pension-fund/eksterne-rapporter-og-brev/id2358366/",
+    "captured_et": "2026-10-14T13:57:55.037976-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "norway-budget.html": {
+    "url": "https://www.regjeringen.no/no/dokumenter/meld.-st.-1-20262027/id3175768/?ch=4",
+    "captured_et": "2026-10-14T13:57:55.043299-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "nyfed_rates.json": {
+    "url": "https://markets.newyorkfed.org/api/rates/all/latest.json",
+    "captured_et": "2026-10-14T13:57:55.084375-04:00",
+    "status": 200,
+    "bytes": 1427
+  }
+}

@@ -1,3 +1,5 @@
+> FROZEN 2026-10-14 — dated October7 research snapshot, not current holdings or market state. Current quantities and evidence: STATUS.md and analysis/2026-10-14_post-CPI/REPORT.md. Original observations below are preserved.
+
 # BOND — October 7 catch-up continuation
 
 Written 2026-10-07T18:13:02.516363-04:00. Completes the two primary auction grades, September-meeting minutes synthesis and bounded VX-20/intake review left in the preserved 16:27 checkpoint. Independent dated FedWatch/OIS comparison remains unavailable. This is a research delivery, not session closeout.

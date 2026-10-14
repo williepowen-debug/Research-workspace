@@ -1,0 +1,201 @@
+{
+  "observed_at": "2026-10-14T17:56:57.097973+00:00",
+  "host": "DESKTOP-BC6EF81",
+  "processes": [
+    {
+      "pid": 702,
+      "declared_cwd": null,
+      "open_sessions": [
+        {
+          "id": "01a13b1e-0b79-7eb0-846b-0d6267144ef0",
+          "metadata": [
+            "01a13b1e-0b79-7eb0-846b-0d6267144ef0",
+            "/home/willi/Research-workspace/PROME",
+            "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a13af6-c1c4-72a0-81e4-e9236bfecb1f\",\"depth\":1,\"agent_path\":\"/root/anvil_1014\",\"agent_nickname\":\"Ampere\",\"agent_role\":null}}}"
+          ]
+        },
+        {
+          "id": "01a13b81-2c0d-7601-be1e-bad4e7eddc8e",
+          "metadata": [
+            "01a13b81-2c0d-7601-be1e-bad4e7eddc8e",
+            "/home/willi/Research-workspace/AGENTS/CATO",
+            "vscode"
+          ]
+        },
+        {
+          "id": "01a13af6-c1c4-72a0-81e4-e9236bfecb1f",
+          "metadata": [
+            "01a13af6-c1c4-72a0-81e4-e9236bfecb1f",
+            "/home/willi/Research-workspace/PROME",
+            "vscode"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 817,
+      "declared_cwd": null,
+      "open_sessions": []
+    },
+    {
+      "pid": 1061,
+      "declared_cwd": "/home/willi/Research-workspace/PROME",
+      "open_sessions": []
+    },
+    {
+      "pid": 14017,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/REGINALD",
+      "open_sessions": [
+        {
+          "id": "01a13b2a-be39-7a30-a6a6-7275365f9f02",
+          "metadata": [
+            "01a13b2a-be39-7a30-a6a6-7275365f9f02",
+            "/home/willi/Research-workspace/AGENTS/REGINALD",
+            "cli"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 14585,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/BRENT",
+      "open_sessions": [
+        {
+          "id": "01a13b26-46a4-78f3-bbc6-f48c7dc39325",
+          "metadata": [
+            "01a13b26-46a4-78f3-bbc6-f48c7dc39325",
+            "/home/willi/Research-workspace/AGENTS/BRENT",
+            "cli"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 15077,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/TERRY",
+      "open_sessions": [
+        {
+          "id": "01a13afa-c6dd-7cd0-88b9-86269035f2e4",
+          "metadata": [
+            "01a13afa-c6dd-7cd0-88b9-86269035f2e4",
+            "/home/willi/Research-workspace/AGENTS/TERRY",
+            "cli"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 15846,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/WALTER",
+      "open_sessions": [
+        {
+          "id": "01a13b88-75fd-7f90-8327-e0d8437568fd",
+          "metadata": [
+            "01a13b88-75fd-7f90-8327-e0d8437568fd",
+            "/home/willi/Research-workspace/AGENTS/WALTER",
+            "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a13b1f-9e68-7680-acbe-bfc08bb60271\",\"depth\":1,\"agent_path\":\"/root/verify_diesel_inflation\",\"agent_nickname\":\"Averroes\",\"agent_role\":null}}}"
+          ]
+        },
+        {
+          "id": "01a13b88-50d5-7e90-9031-eb63fe649fca",
+          "metadata": [
+            "01a13b88-50d5-7e90-9031-eb63fe649fca",
+            "/home/willi/Research-workspace/AGENTS/WALTER",
+            "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a13b1f-9e68-7680-acbe-bfc08bb60271\",\"depth\":1,\"agent_path\":\"/root/verify_power_ai\",\"agent_nickname\":\"McClintock\",\"agent_role\":null}}}"
+          ]
+        },
+        {
+          "id": "01a13b1f-9e68-7680-acbe-bfc08bb60271",
+          "metadata": [
+            "01a13b1f-9e68-7680-acbe-bfc08bb60271",
+            "/home/willi/Research-workspace/AGENTS/WALTER",
+            "cli"
+          ]
+        },
+        {
+          "id": "01a13b88-99e0-7801-bb2c-a5d7a02d9f43",
+          "metadata": [
+            "01a13b88-99e0-7801-bb2c-a5d7a02d9f43",
+            "/home/willi/Research-workspace/AGENTS/WALTER",
+            "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a13b1f-9e68-7680-acbe-bfc08bb60271\",\"depth\":1,\"agent_path\":\"/root/verify_insurer_credit\",\"agent_nickname\":\"Anscombe\",\"agent_role\":null}}}"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 85851,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/WAL",
+      "open_sessions": [
+        {
+          "id": "01a13b1c-f44f-7420-b656-670de7eaf878",
+          "metadata": [
+            "01a13b1c-f44f-7420-b656-670de7eaf878",
+            "/home/willi/Research-workspace/AGENTS/WAL",
+            "cli"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 324657,
+      "declared_cwd": null,
+      "open_sessions": []
+    },
+    {
+      "pid": 330017,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/BOND",
+      "open_sessions": [
+        {
+          "id": "01a13b8d-3dbd-7633-9dcf-cc956b2fa3ee",
+          "metadata": [
+            "01a13b8d-3dbd-7633-9dcf-cc956b2fa3ee",
+            "/home/willi/Research-workspace/AGENTS/BOND",
+            "{\"subagent\":{\"other\":\"guardian\"}}"
+          ]
+        },
+        {
+          "id": "01a13b8c-bf81-7d83-9731-47f494922784",
+          "metadata": [
+            "01a13b8c-bf81-7d83-9731-47f494922784",
+            "/home/willi/Research-workspace/AGENTS/BOND",
+            "cli"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 330375,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/LIQUID",
+      "open_sessions": [
+        {
+          "id": "01a13b8c-ebf0-74c0-a1c3-5ae79550bd06",
+          "metadata": [
+            "01a13b8c-ebf0-74c0-a1c3-5ae79550bd06",
+            "/home/willi/Research-workspace/AGENTS/LIQUID",
+            "cli"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": 332904,
+      "declared_cwd": null,
+      "open_sessions": []
+    },
+    {
+      "pid": 332998,
+      "declared_cwd": "/home/willi/Research-workspace/AGENTS/BROCK",
+      "open_sessions": [
+        {
+          "id": "01a13b8f-5279-7f93-b969-f37996fffee0",
+          "metadata": [
+            "01a13b8f-5279-7f93-b969-f37996fffee0",
+            "/home/willi/Research-workspace/AGENTS/BROCK",
+            "cli"
+          ]
+        }
+      ]
+    }
+  ],
+  "coverage": "Host namespace; all Codex process declared scopes and open rollout metadata. Open rollout is loaded identity, not turn activity. Claude native inventory checked separately. No unsupported endpoint state claimed."
+}

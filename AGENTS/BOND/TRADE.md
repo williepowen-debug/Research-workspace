@@ -1,25 +1,25 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-10-07T19:48:50.620577-04:00 — document write-back verified; evidence through October 7, approvals unchanged. Posture/gates only; marks → STATUS. Pre-refresh full snapshot: `domain/sources/2026-10-05_TRADE.md_pre-live-refresh`.
+**Last Updated:** 2026-10-14T14:10:05.827217-04:00 — October14 evidence and current FORGE quantity facts; gates/approvals unchanged.
 **Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.11** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
-**Approval reconciliation 2026-10-05T09:47:58-04:00:** **WQ-357: Will ruled LATER on 2026-10-03 21:08 ET. Hold the existing sleeve on TERRY path C to the 10/14 clock; the exit is neither approved nor declined. L608 research was delivered October 5 and consumed by PROME (ff0992bf1 / 518baafa2). The October 14 decision clock remains open. Kill remains MET as an operational recommendation; unusual net inventory is not proof of warehousing, the funding window remains UNGRADED, and the rule makes no predictive claim. WQ-280 NO-ADD stands. WQ-339 approved card drafting only; WQ-360 execution remains unapproved.**
+**Approval reconciliation 2026-10-14T14:10:05.827217-04:00:** **WQ-357: Will ruled LATER on 2026-10-03 21:08 ET. SurvivingTBT5remainsunderTERRYpathCto10/14clock;TLT82Pclosed10/12perFORGE10/14receipt; the exit is neither approved nor declined. L608 research was delivered October 5 and consumed by PROME (ff0992bf1 / 518baafa2). The October 14 decision clock remains open. Kill remains MET as an operational recommendation; unusual net inventory is not proof of warehousing, the funding window remains UNGRADED, and the rule makes no predictive claim. WQ-280 NO-ADD stands. WQ-339 approved card drafting only; WQ-360 execution remains unapproved.**
 **Registered predictions covering this book:** OPEN 0; BND-30/31 TRUE on 10/1. Tally: 16 TRUE / 13 FALSE / 1 VOID. Ledger canonical; next curve-shape registration by10/21.
 
 ---
 
-## The view (October 7 evidence; approvals unchanged)
+## The view (October14 update; existing approvals unchanged)
 
 **1. Operational letter and analytical evidence stay separate.** The 9/23 5Y OLD fire was confirmed clean on10/1; its WQ291 dealer leg MET. The rule's exit recommendation remains in force, but Will ruled LATER10/3, path C to10/14. Net inventory is not proof of auction warehousing, funding window UNGRADED, no predictive claim.
 
 **2. Authorized L608 research is delivered.** `analysis/2026-10-05_WQ-357_rebound-research.md` weighs weaker jobs/policy relief, credit tightening and buyback support against the long real-yield/term-premium evidence. No sustained long-end rebound is yet established in completed observations; this does not predict an inevitable further fall. October 7 continuation (`analysis/2026-10-07_catchup/REPORT.md`) adds a clean 10Y auction, a standalone 3Y rarity marker and front-end relief with long-end selling. The minutes preserve a conditional year-end hike bias; the independent dated FedWatch/OIS comparison remains unavailable. Regime and conviction unchanged; no new trade recommendation.
 
-**3. Treasury's official bid is real but bounded.** Three current stepped-up operations read OFF-THE-RUN under the original-issue-date rank; latest10/1 read delivered to RED. Full cap utilization is not yield control or a price-cap finding. F1/F3 await11/4.
+**3. Treasury's official bid is real but bounded.** Four current stepped-up operations read OFF-THE-RUN under the original-issue-date rank; latest10/8 read delivered to RED. Full cap utilization is not yield control or a price-cap finding. F1/F3 await11/4.
 
 **4. Credit marker and capital gates remain separate.** Index watch remains fired; October 6 broad HY tightening coexists with CCC widening (KB-BND-419). Paramount's final issuer pricing verifies access for one large secured issuer and supersedes its launch estimate. Comprehensive pulled-deal coverage is unavailable. HYG sizing remains LIQUID/BROCK/TERRY/Will's gate; CCC expression restriction stands.
 
-**5. Recorded sleeve: TLT Oct-16 82P×1 plus TBT10shares**, confirmed by the user-dated October 7 intraday capture (PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md); exact time UNKNOWN, Activity absent, no executable marks. Sep-30 77P was sold9/30. WQ280NO-ADD stands. WQ339 authorized card drafting only; WQ360 execution remains unapproved. Existing TERRY exit/management cards and10/14sell-or-roll clock govern; BOND executes nothing.
+**5. Current sleeve: TBT5shares; TLT Oct-16 82P CLOSED10/12**, perFORGE10/14brokerreceipt/Activity. Exactfill/capturetimesUNKNOWN;no executablemarks. OlderOctober7 TBT10/TLT1 mirror superseded. Sep-30 77Pwas sold9/30. WQ280NO-ADD stands. WQ339 authorized card drafting only; WQ360 execution remains unapproved. ExistingTERRYdurationexitcardand10/14TBTdecisionclockgovern; BOND executes nothing.
 
 ---
 
@@ -32,7 +32,7 @@
 | **(c) Composition failure at the 7/28 7Y · (d) hawkish FOMC repricing 7/29** | ❌ RESOLVED, DID NOT FIRE (7/28 · 7/29). Record → archive. |
 
 **Breach protocol for (a) — pre-registered 9/9 so it is not improvised at 4:15 PM:**
-1. **One close ≥2.50 fires the LEVEL leg only.** "Sustained" is graded over the following sessions (THESIS letter; `BND-22`'s if-FALSE branch). ✅ **EXECUTED 2026-09-14 on the 9/10 breach — steps 1–5 all run, output NO ADD; see `analysis/2026-09-14_add-gate-breach_BND-22-FALSE.md`.** 🔴 **And the step exposed that "sustained" is UNDEFINED on this desk — the count is owed from Will before this leg can ever be graded.** ⚠️ FRED publishes DFII10 T+1 ~4:15 PM ET, so a breach on day D is visible on D+1. Any implied real yield computed from the nominal close and the breakeven is an **ESTIMATE**, tagged `[EST]` in STATUS, and fires nothing.
+1. **One close ≥2.50 fires the LEVEL leg only.** "Sustained" is graded over the following sessions (THESIS letter; `BND-22`'s if-FALSE branch). ✅ **EXECUTED 2026-09-14 on the 9/10 breach — steps 1–5 all run, output NO ADD; see `analysis/2026-09-14_add-gate-breach_BND-22-FALSE.md`.** 🔴 **Historical defect at that9/14step: sustained was UNDEFINED then; subsequentlyresolvedbyWQ246five-published-close rule in gate(a).** ⚠️ FRED publishes DFII10 T+1 ~4:15 PM ET, so a breach on day D is visible on D+1. Any implied real yield computed from the nominal close and the breakeven is an **ESTIMATE**, tagged `[EST]` in STATUS, and fires nothing.
 2. **Decompose before describing:** Δ2Y vs Δ30Y on the breach session (front-led = policy path; long-led = term premium) and real vs breakeven. Write the split on the card.
 3. **Write the add proposal to TERRY with the margin stated; escalate to Will. Nothing executes without [Approve].** Will's 7/16 NO-ADD governs until he says otherwise.
 4. **Root rule #6 (puts on green days):** a breach day is almost certainly a red TLT day. Breaking #6 needs the direct measurement written on the card in figures BEFORE any fill, with no hard guard relaxed (TERRY `RISK_RULES.md` § Breaking root rule #6). *"The window is closing"* is a chase, not a break.
@@ -44,7 +44,7 @@
 
 | # | Trade | Posture | Conviction | Hold / Add / Kill |
 |---|---|---|---|---|
-| 1 | **TLT puts** (Sep-30 77P — **GONE, sold 9/30**; the live duration put is the Oct-16 82P ×1 on TERRY's card) | **HOLD, no add** | 2.5/5 | **NO-ADD under WQ-280 and Will’s standing ruling.** Fired analytical gates do not authorize an add. **Kill: 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding** — the THESIS §2 letter, now the ONE spec *(STATUS carried a different exit, "DFII10 <2.00 sustained 5 sessions", introduced by the 9/1 read-cap compression and never in THESIS — corrected to the THESIS letter 9/9)*. The 82P is TERRY's card (sell-or-roll rail, Will's standing practice 9/30). |
+| 1 | **Duration-short sleeve** (Sep-30 77P — **GONE, sold 9/30**; Oct-16 82P also CLOSED10/12; current duration-short holding TBT5 perFORGE10/14) | **TBT surviving; no add. TLT closed** | 2.5/5 | **NO-ADD under WQ-280 and Will’s standing ruling.** Fired analytical gates do not authorize an add. **Kill: 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding** — the THESIS §2 letter, now the ONE spec *(STATUS carried a different exit, "DFII10 <2.00 sustained 5 sessions", introduced by the 9/1 read-cap compression and never in THESIS — corrected to the THESIS letter 9/9)*. The82Pcardisclosedonbrokerdisposal;TERRYownsmanagementofsurvivingTBT5. |
 | 2 | Credit-equity lead | Inactive watch | 1/5 | Reactivate on HY OAS +75–100bp from the 263 trough (≈338–363) while VIX <20; strongest if the fast layer leads cash. Distance → STATUS. |
 | 3 | Short AI-credit basket | NOT proposed — structure note | 1/5 | GS/JPM 18-name neocloud baskets (7/23), TRS-executable: a crowding-formation mechanism, not a signal. VULCAN owns the thesis. |
 

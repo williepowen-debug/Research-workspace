@@ -2,6 +2,8 @@
 
 Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)** = regime change / conviction reversal / channel restructure; **minor (X.Y)** = refinement, threshold update, prediction resolution. Every entry logs old view → new view.
 
+**2026-10-14 maintenance (no version change):** CurrentFORGEreceipt closesTLT82P10/12 and reducesTBT10→5;WQ357clocksurvivesforTBT. CPIinitialjump/afternoonretracement andpreCPIreal/ACMrelief recorded inanalysis/2026-10-14_post-CPI/REPORT.md. No thesis/gate/approval re-grade;fundingwindowUNGRADed remains. WQ400existingdefinition encoded only inVX19.
+
 ---
 
 ## v1.2.11 — dated note 2026-10-01 17:0x ET (NO version bump: downstream receipts only)

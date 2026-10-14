@@ -58,3 +58,14 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-08T16:44:09-04:00	SIG-W-20261008-034	info-only	INBOX_WALTER	Iran/oil tape; BRENT/FALCON own; yields-with-oil context only.
 2026-10-08T16:44:09-04:00	SIG-W-20261008-033	acted	INBOX_WALTER	WQ-399 receipt form adopted: 7 receipts written with required fields; charter step 7b line updated (C4 own-charter).
 2026-10-08T16:44:09-04:00	SIG-W-20261002-032	acted	INBOX_WALTER	PARTIAL (gap stated): Independent dated FedWatch/OIS never obtained; own vendor strip 10/8 YE ~+24.2bp not settlement; filed with gap stated.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261008-041	info-only	INBOX_WALTER	BOND own KB426 already carries highest30Ystop sinceAugust2000. No-op correction receipt; source naming mistake was WALTER filter.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261008-051	info-only	INBOX_WALTER	Gilt close vendor bases differed near6pct; HANS ownsgrade. BOND prior10/8 US30Yauctioncleanhadnotransmittedauctionfailure;no newgiltgrade.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261008-052	info-only	INBOX_WALTER	Japan10/9openingrally vendor only,notMOFclose;auction/spending primary. SAMownsJapan;BONDcarriesnocurrentJapanlevel.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261009-006	info-only	INBOX_WALTER	Japanvendorclosingrally not mixedwithMOFprior;causeunknown. Otherresidueownedbypeers;nocurrentBONDlevel.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261009-013	info-only	INBOX_WALTER	PimcoforcedsellerandMMFheadlines not proof of fundcashshortfall;source bodies unread. LaterWALTERLipperpacketadds simultaneousbondinflows.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261010-004	acted	INBOX_WALTER	Citi forecasts$3Blessper20Y/30Yauctionat11/4QRA;notTreasuryannouncement. AlreadydocketedF3resolver;pricingattributionnotestablished.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261011-005	info-only	INBOX_WALTER	TLTcall-volumechartabout15Mrollingmonthlycontracts is turnover;opening/closing/buyer/sellerunknown. Notdirectionalyieldforecast;oldheldTLTdescription superseded by FORGE.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261012-001	acted	INBOX_WALTER	Lipper viaReutersweekending10/7cashinflow153.81Bcoexistsbond26.03B/government4.65B. Notdepositflight/auctionabsorption;oneprovenancechain.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261012-044	acted	INBOX_WALTER	Hammack10/12conditionalreactionfunction:restrictivebias,smalladjustments,labordeteriorationfalsifier. NotfixedOctoberhike/FOMCdecision;MIDASsameprimarynotindependent.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261013-016	info-only	INBOX_WALTER	H41TGA880.253Bweeklyaverageversus885.783BWednesday10/7point. BOND carries no current TGApointfigure;no-opcorrectionreceipt;denominator/percentileunverified.
+2026-10-14T14:10:05.827217-04:00	SIG-W-20261013-017	acted	INBOX_WALTER	ChileAFPleadconcernsderivativeratepositions/unwind;fullarticle/regulatordataunretrieved. NoTreasurycashliquidation/marginamount/counterpartylossestablished.

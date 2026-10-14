@@ -1,0 +1,229 @@
+{
+  "observed_at": "2026-10-14T17:56:18.748111+00:00",
+  "host": "DESKTOP-BC6EF81",
+  "processes": [
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 702,
+        "start_ticks": "134034",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 817,
+        "start_ticks": "134099",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 1061,
+        "start_ticks": "144781",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 14017,
+        "start_ticks": "2033864",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 14585,
+        "start_ticks": "2035571",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 15077,
+        "start_ticks": "2036668",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 15846,
+        "start_ticks": "2039132",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 85851,
+        "start_ticks": "3089382",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 324657,
+        "start_ticks": "8988552",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 330017,
+        "start_ticks": "9069326",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 330375,
+        "start_ticks": "9070702",
+        "state": "S",
+        "boot_id": "3c585841-24d9-44cc-9ada-97963db5cfa4",
+        "pid_namespace": "pid:[4026532212]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    }
+  ],
+  "coverage": "Visible PID namespace only; turn activity and native helpers UNKNOWN",
+  "codex": {
+    "state": "UNKNOWN",
+    "error": "BridgeError"
+  },
+  "pid1": "systemd",
+  "visible_memory": {
+    "MemTotal": "11214728 kB",
+    "MemAvailable": "8903260 kB",
+    "SwapTotal": "16777216 kB",
+    "SwapFree": "16777216 kB"
+  },
+  "claude": [
+    {
+      "id": null,
+      "sessionId": "080e4377-3b5f-491b-b557-a019316aee18",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/AGENTS/RED",
+      "kind": "interactive",
+      "pid": 838,
+      "state": null,
+      "status": null,
+      "waitingFor": null
+    },
+    {
+      "id": null,
+      "sessionId": "3ab08c3f-f97b-4faf-ab98-3386ffa15821",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/AGENTS/SAM",
+      "kind": "interactive",
+      "pid": 831,
+      "state": null,
+      "status": null,
+      "waitingFor": null
+    },
+    {
+      "id": null,
+      "sessionId": "210600c5-ff09-4310-a7b9-1178e1e065bb",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/AGENTS/CARL",
+      "kind": "interactive",
+      "pid": 817,
+      "state": null,
+      "status": null,
+      "waitingFor": null
+    },
+    {
+      "id": null,
+      "sessionId": "e5f96b22-a080-4799-a7f2-631f6121630b",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/AGENTS/REGINALD",
+      "kind": "interactive",
+      "pid": 825,
+      "state": null,
+      "status": null,
+      "waitingFor": null
+    },
+    {
+      "id": null,
+      "sessionId": "7eb0ddbd-4009-43e3-936d-a651bc7d380f",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/AGENTS/CARL",
+      "kind": "interactive",
+      "pid": 720,
+      "state": null,
+      "status": null,
+      "waitingFor": null
+    },
+    {
+      "id": null,
+      "sessionId": "f70ae9bb-4908-453a-b565-5027ef1dc1aa",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/AGENTS/VIOLET",
+      "kind": "interactive",
+      "pid": 771,
+      "state": null,
+      "status": null,
+      "waitingFor": null
+    },
+    {
+      "id": "6cf5e598",
+      "sessionId": "6cf5e598-a455-4a5b-ba03-9105ffe56186",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/PROME",
+      "kind": "background",
+      "pid": null,
+      "state": "blocked",
+      "status": null,
+      "waitingFor": null
+    }
+  ]
+}

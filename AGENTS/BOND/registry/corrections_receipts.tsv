@@ -9,3 +9,5 @@ receipt_date	correction_id	action	note
 2026-10-08T20:44Z	COR-20261001-06	NO-OP	scope=KB-BND-378 already carries both MOF vintages (revised -1.38T and first print -1.39T), BOND 4wk watch line unaffected; 
 2026-10-08T20:44Z	COR-20261002-29	NO-OP	scope=BOND used only the 10Y leg of -028 (KB-BND-394), oil basis is BRENT's, no BOND oil figure carried; 
 2026-10-08T20:44Z	COR-20261008-21	NO-OP	scope=BOND carried no Japan level from -005, -005 and -021 consumed together 10/8; 
+2026-10-14T18:10Z	COR-20261008-41	NO-OP	scope=BOND KB426 and prior auction report already establish highest30Ystop sinceAugust2000 and BOND authored the source correction, no current contrary claim;
+2026-10-14T18:10Z	COR-20261013-16	NO-OP	scope=BOND carries no current TGApoint or average figure, distinction logged in KB457 and REPORT, LIQUID owns funding record;
