@@ -23,6 +23,8 @@ Research-Intake clean ff-only pull already-up-to-date; snapshotOctober13,6 feeds
 
 ## WILL_NEEDS
 
+Will scope correction October14: expiry management and reminders are not WALTER duties; Will already handles them. Preserve TERRY/broker records as dated context only, and do not resurface expiry choices in WALTER news briefs. X access rechecked October14 16:54:33Z: direct first-pageHTTP200/50bookmarks, existingtoken accepted; no refresh/staging/marking, dedup bytes unchanged. Evidence: research/2026-10-14_morning-news/bookmark-access-probe.json.
+
 No new research/trade decision. No new decision for this closeout. Existing Will-owned choices remain: unactivated charter migration requires its per-pass checkpoint; WQ401 set sub-question (line set versus DOORBELL_LOG set), WQ388 unattended-WALTER question forOct17, optional subscription and optional step7h encode. No renewed ask or unattended permission.
 
 TERRY October14 12:08EDT owner receipt now books QQQ744P closed and QQQ740P October15 reduced to3; these discharge the old QQQ744P carry. USO October14 150C x2 still carries today’s expiry rail in that dated receipt; current working orders/fill times UNKNOWN. VLO2total/original1 scope/secondUNKNOWN and other existing cards remain at TERRY. This is owner evidence, not a current broker snapshot or new WALTER trade recommendation.

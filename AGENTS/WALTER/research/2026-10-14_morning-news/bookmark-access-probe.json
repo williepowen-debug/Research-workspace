@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-14T16:54:33.222443+00:00",
+  "mode": "direct read-only first-page API probe; no refresh, staging or marking",
+  "status": "OK",
+  "http_status": 200,
+  "bookmarks_returned": 50,
+  "manual_reauthorization_needed": false,
+  "dedup_state_unchanged": true
+}

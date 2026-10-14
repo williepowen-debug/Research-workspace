@@ -14,6 +14,8 @@
 ---
 ## Feedback
 
+- [2026-10-14, Will direct] **Expiry management/reminders stay with Will and TERRY.** Will already tracks position expiries; WALTER must not participate in their management or repeat them in routine boot/news briefs. Keep WALTER focused on news, source verification and signal routing.
+
 - [2026-05-21] **Read domain-agent STATUS at boot, not just at LIAISON setup.** Domain agents have continuous-monitoring inputs WALTER doesn't subscribe to (the Iran-anchor re-verify missed the Barakah 5/17 strike; BRENT's STATUS had it). Make "read the relevant domain-agent STATUS" a standard input for any anchor re-verify. *(2nd validation 6/10: domain reads contribute FRAMING, not just missed events. 3rd 6/20: ≥3 owners triangulating from multiple primaries can SUBSTITUTE for a redundant independent WebSearch — but only if they applied symmetric skepticism; a one-sided fleet read → spawn the sweep anyway per `[[feedback_verify_existence_external_primaries]]`.)*
 ## Findings — STANDING TRIGGERS (one line each; the owning surface is the second half of the line)
 
