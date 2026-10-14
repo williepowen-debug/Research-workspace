@@ -4,7 +4,9 @@
 
 ## Resume point
 
-**BROCK direction review complete; await Will/owner response.** [October 14 feedback and draft work order](runs/2026-10-14_1451_brock-audit-direction.md) prioritizes supported repairs and current-evidence gaps; adds foreign-unstaging, frozen-weight, Cliffwater-inference and Medallia-comparability findings. BROCK is live per Will; no owner edits, sends or launch. **CATO publication deferred:** the shared train includes BROCK audit commits whose push approval was rejected; do not bypass that through CATO. Resume publication only after required approval or verified authorized owner publication. Start follow-up with changed artifacts and prior counterexamples. [Earlier system context/corrections](runs/2026-10-07_1500_fleet-work-sweep.md) and its verification limits remain available; no pilot collection.
+**LIQUID direction review complete; orient and await Will.** [October14 review](runs/2026-10-14_1504_liquid-direction-review.md) supports the dated diagnosis and scheduled verdict; recommends named financing-constraint evidence, a two-sided startup premise, explicit forecast/outcome separation and clarification of historical funding-count denominators. Advice only: no owner edits, sends, launch, gate changes or stopped swap-tool follow-up. On continuation, start with changed owner artifacts and these bounded recommendations.
+
+**BROCK advice remains available:** [October14 feedback/work order](runs/2026-10-14_1451_brock-audit-direction.md); owner acceptance/repairs require verification if resumed. Fresh origin fetch during the LIQUID review establishes that BROCK's earlier audit commits and CATO review `86b317ebd` are already remote; they are no longer pending CATO payload. This is remote-presence verification, not approval or recipient-consumption evidence. [Earlier system context/corrections](runs/2026-10-07_1500_fleet-work-sweep.md) remain available; no pilot collection.
 
 ## Surviving work and approvals
 
