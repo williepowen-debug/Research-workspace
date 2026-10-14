@@ -1,0 +1,38 @@
+{
+  "before": [
+    "CCLFX (Cliffwater Corporate Lending)",
+    "interval fund",
+    "$31-33B",
+    "2026Q2 (priced 5/29/26)",
+    "~17.0",
+    "5.0",
+    "FY2026 four offers: SATISFACTION UNKNOWN; May29~33% PRESS-UNVERIFIED",
+    "UNKNOWN \u2014 withdrawn accommodation claim not established",
+    "$10.76 \u2192 $10.72 \u2192 $10.67 \u2192 $10.52 \u2192 $10.39 (monotonic 5-qtr decline)",
+    "N-23C3A ~2026-08-07",
+    "N-CSR 2026-06-08 (BROCK-verified primary)",
+    "2026-10-14",
+    "CORRECTION October14, CATO BCR4. N-CSR0001213900-26-066324 table reports repurchased percentages3.42/2.90/5.32/7.00 and ClassI dollars, not requested amounts. General offer/pro-rata terms do not disclose realized proration for these dates. 7% repurchased is consistent with7% requested/full satisfaction OR greater requests/partial satisfaction; no reverse inference. Lower repurchases alone also do not certify every valid request was met. WITHDRAW earlier three-filled/last-oversubscribed assertions; retain withdrawal of stress-series interpretation. CCLFX has0COUNTED observable sub100% quarters, not a claim of0actual instances. NAV series10.76/10.72/10.67/10.52 is a distinct price series. Separate May29 offer~17%/~33% remains press-unverified. Primary issuer CIK1735964 confirmed by this N-CSR; future filing-type alone may not disclose satisfaction."
+  ],
+  "after": [
+    "CCLFX (Cliffwater Corporate Lending)",
+    "interval fund",
+    "$31-33B",
+    "2026Q2 (priced 5/29/26)",
+    "~17.0",
+    "5.0",
+    "FY2026 four offers: SATISFACTION UNKNOWN; May29~33% PRESS-UNVERIFIED",
+    "UNKNOWN \u2014 withdrawn accommodation claim not established",
+    "$10.76 \u2192 $10.72 \u2192 $10.67 \u2192 $10.52 \u2192 $10.39 (monotonic 5-qtr decline)",
+    "September30,2026 semiannual report on release (Nov-Dec expected by cadence); actual requested/realized proration needed, not another future-offer notification",
+    "N-CSR 2026-06-08 (BROCK-verified primary)",
+    "2026-10-14",
+    "CORRECTION October14, CATO BCR4. N-CSR0001213900-26-066324 table reports repurchased percentages3.42/2.90/5.32/7.00 and ClassI dollars, not requested amounts. General offer/pro-rata terms do not disclose realized proration for these dates. 7% repurchased is consistent with7% requested/full satisfaction OR greater requests/partial satisfaction; no reverse inference. Lower repurchases alone also do not certify every valid request was met. WITHDRAW earlier three-filled/last-oversubscribed assertions; retain withdrawal of stress-series interpretation. CCLFX has0COUNTED observable sub100% quarters, not a claim of0actual instances. NAV series10.76/10.72/10.67/10.52 is a distinct price series. Separate May29 offer~17%/~33% remains press-unverified. Primary issuer CIK1735964 confirmed by this N-CSR; future filing-type alone may not disclose satisfaction. || CATO followup October14: one bounded public issuer search (annualMarch2026,semiannualSeptember2025,calendar/July snapshot/TenThings/public links) did not locate original results letter or realized requests/proration. Five offers kept separate; stop until next useful source. No external inquiry/monitor."
+  ],
+  "changed_fields": [
+    "next_primary",
+    "notes"
+  ],
+  "numerical_fields_gate_status_unchanged": true,
+  "at": "2026-10-14T16:05:24.647385-04:00"
+}

@@ -1,0 +1,38 @@
+{
+  "asof": "2026-10-14T16:05:24.647385-04:00",
+  "offers": [
+    {
+      "pricing_date": "2025-06-09",
+      "repurchased_classI_pct": 3.42,
+      "issuer_satisfaction": "UNKNOWN",
+      "primary_scope": "FYendedMarch31,2026 annual report table; no valid requested/realized proration established"
+    },
+    {
+      "pricing_date": "2025-09-08",
+      "repurchased_classI_pct": 2.9,
+      "issuer_satisfaction": "UNKNOWN",
+      "primary_scope": "FYendedMarch31,2026 annual report table; no valid requested/realized proration established"
+    },
+    {
+      "pricing_date": "2025-12-09",
+      "repurchased_classI_pct": 5.32,
+      "issuer_satisfaction": "UNKNOWN",
+      "primary_scope": "FYendedMarch31,2026 annual report table; no valid requested/realized proration established"
+    },
+    {
+      "pricing_date": "2026-03-10",
+      "repurchased_classI_pct": 7.0,
+      "issuer_satisfaction": "UNKNOWN",
+      "primary_scope": "FYendedMarch31,2026 annual report table; no valid requested/realized proration established"
+    },
+    {
+      "pricing_date": "2026-05-29",
+      "issuer_satisfaction": "UNKNOWN",
+      "requests_pct": "~17 PRESS-UNVERIFIED, not a new issuer measurement",
+      "fill_pct": "~33 PRESS-UNVERIFIED, no mixing with March",
+      "primary_scope": "outside checked FY2026 annual and September2025 semiannual reporting periods"
+    }
+  ],
+  "next_useful_disclosure": "Semiannual report September30,2026, on publication; Nov-Dec cadence expectation, not promised. No ongoing poller.",
+  "stop": "One bounded public issuer search complete; unknown maintained"
+}

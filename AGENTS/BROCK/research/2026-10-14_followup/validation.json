@@ -1,0 +1,30 @@
+{
+  "selfcheck": {
+    "rc": 0,
+    "stdout": "BROCK selfcheck \u2014 gates with FIRE RECORD: GATE-BRK-R2 \u00b7 resolved predictions: 3 \u00b7 matrix rows: 14\nCLEAN \u2014 covers only checks 1a/1b/2/3 as documented in this file's header; it is not a general staleness audit.\n",
+    "stderr": ""
+  },
+  "read_cap": {
+    "rc": 0,
+    "stdout": "READ-CAP [BROCK] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: DECLARED in PROME/registry/READS.tsv \u2014 8 cap-bearing (whole/programmatic) measured, 6 declared-not-counted (scoped/grep/summary), 19 manifest row(s) for this desk; 4 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself\n  \u2705 AGENTS/BROCK/STATUS.md               22,372 B    69% of budget    (whole \u00b7 BROCK:1)\n  \u2705 AGENTS/BROCK/LESSONS.md              21,662 B    67% of budget    (whole \u00b7 BROCK:2)\n  \u2705 AGENTS/BROCK/catchups/INDEX.md        3,213 B    10% of budget    (whole \u00b7 BROCK:1)\n  \u2705 AGENTS/BROCK/SCRATCH.md               1,090 B     3% of budget    (whole \u00b7 BROCK:0b)\n  \u25a3 AGENTS/BROCK/catchups/*.md                   declared `whole` \u00b7 CLASS row \u2014 cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 4 member(s) measured, 0 over budget, 0 over the CAP, largest 15,392 B (47% of budget); 1 member(s) also matched by another manifest row, graded there  (BROCK:1)\n      4 member(s) all under 70% of budget (<22,785 B)\n  \u25a3 AGENTS/BROCK/inbox/WALTER/*.md            \u2014  declared `whole` \u00b7 CLASS row matched 0 files today (201 files matched historically) \u2014 correctly quiet, not counted  (BROCK:5)\n  \u25e6 AGENTS/BROCK/workbook/PREDICTIONS.tsv 52,869 B  declared `scoped` \u2014 not cap-bearing, not counted  (BROCK:3)\n  \u25e6 AGENTS/BROCK/board_log.tsv        126,262 B  declared `grep` \u2014 not cap-bearing, not counted  (BROCK:5)\n  \u25e6 AGENTS/BROCK/registry/corrections_receipts.tsv  1,084 B  declared `scoped` \u2014 not cap-bearing, not counted  (BROCK:5b)\n  \u25e6 scripts/ledger_staleness.py        71,219 B  declared `summary` \u2014 not cap-bearing, not counted  (BROCK:3)\n  \u25e6 FORGE/tools/market-data/dashboard.py 30,773 B  declared `summary` \u2014 not cap-bearing, not counted  (BROCK:4)\n  \u25e6 scripts/corrections_boot_check.py  46,689 B  declared `summary` \u2014 not cap-bearing, not counted  (BROCK:5b)\n  \u2139\ufe0f ADVISORY: CLASS row `AGENTS/BROCK/inbox/WALTER/*.md` (BROCK:5) declared `whole` matched 0 files today (201 files matched historically) \u2014 correctly quiet, not counted\n\u2705 READ-CAP 0 [BROCK]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (8 measured, 6 declared-not-counted). Perimeter = the desk's own declaration, not a scan.\n  \u2139\ufe0f  charter AGENTS/BROCK/CLAUDE.md = 31,318 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\n\u2139\ufe0f  READ-CAP ADVISORY [BROCK]: 1 reading(s) this check will NOT adjudicate (above). \u26d4 These do NOT affect rc \u2014 the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BROCK reads=8 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31318\n",
+    "stderr": ""
+  },
+  "corrections": {
+    "rc": 0,
+    "stdout": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BROCK (register 76 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 9) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n",
+    "stderr": ""
+  },
+  "ledger": {
+    "rc": 0,
+    "stdout": "  perimeter [BROCK]: 13 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv, research/2026-10-14_wave/fsk_may8_commitments.tsv, research/NDFI_BANK_LEVEL_Q4_2025.tsv\n",
+    "stderr": ""
+  },
+  "asof": "2026-10-14T20:07:07.727903+00:00",
+  "forecast_bytes_identical_to_HEAD": true,
+  "forecast_sha256": "230540adbd35aec601fabcbe32f9219c5cf7fac9b93320b8f3ed28403986c901",
+  "register_numerical_fields_unchanged": true,
+  "status_bytes": 22372,
+  "new_source_scope": "One bounded5-offer issuer search; no private-contract/general audit/monitor/helper",
+  "publication": "Priorcorrectioncommits verified remote; followup receipt must be checked separately",
+  "foreign_stage": "Observed WALTER/DEWEY intake rename preserved; exact paths only"
+}

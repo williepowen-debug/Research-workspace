@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-14T19:59:34.032812+00:00",
+  "origin_head": "7c6b0e2b31acc52ae01a3391462f063ae99b9834",
+  "verified_remote_commits": [
+    "c95847c8a",
+    "e963d98ce",
+    "04355d97e"
+  ],
+  "method": "Fresh git fetch origin master followed by merge-base ancestry checks, all rc0",
+  "scope": "Existing correction/review publication established; no recipient consumption or new followup publication inferred",
+  "prior_publication_hold": "Superseded for these existing commits; preserved as dated history"
+}

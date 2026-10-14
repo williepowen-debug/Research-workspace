@@ -1,8 +1,8 @@
 # BROCK SCRATCH — overwritten handoff
 
-**Written:** October14,2026 bounded correction pass; STATUS/current disposition govern.
+**Written:** October14 CATO followup; STATUS governs.
 
-- Resume from `research/2026-10-14_corrections/disposition.md`, not another desk audit. Existing fixes propagated; BRK32 March31weights/45%frozen, August7STUCK restored; existing REDcritique recovered. Explicit disposition needed, not a repeated review.
-- Sector latestRJ45-name median32%[October8]; six-name diagnostic17.23%[October13] separate. October14same-day exit condition unverified. Next weekly sourceOctober15 if published. Medallia matchedJune30 rows both49.5c; private rights not certified.
-- Preserve CRMTOctober15after16:30ET/October16AM andOctober21backstop; bankMTB/CFG +CABO October16. Reuse completedFSK wave, nextNovember5; insurer/joint reconcile November5–18 (L185). No optional scoreboard/newchecker/broadcleanup.
-- Integrated only SHADEOctober10/12 andREGINALDOctober11 source packets; other direct inbox outside this pass. Native peer notice/recipient consumption UNKNOWN. Prior Gitupload rejection remains; exact local commit receipt reported to Will.
+- Current followup: `research/2026-10-14_followup/decision-and-source-return.md`. BRK32 remainsSTUCK withoriginalweights/45%/distribution; before anydisposition applyWQ161/288, retain accountability and any already-met grade. No retirement/replacement authorized; optional successor is not a task.
+- One bounded search complete across five separateCCLFX offers; requested/realizedproration not established. UNKNOWN retained; nextusefulSeptember30,2026 semiannual report onrelease, expectedNov-Dec bycadence. No repeated searches/poller/externalinquiry. Medallia contracts deferred.
+- CRMT October15after16:30ET/October16AM andOctober21backstop; bankMTB/CFG/CABO October16; FSKNovember5 andjointSHADENovember5–18 preserved.
+- Prior correctioncommitsc95847c8a/e963d98ce andCATO04355d97e CONFIRMEDonorigin viafreshfetch; old local-onlyhold superseded for those versions. Newfollowup publication separately verified at taskend. Nativepeerreceipt/consumptionUNKNOWN; no otherownerstaging changed.

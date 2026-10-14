@@ -1,0 +1,39 @@
+# CATO refinement and bounded Cliffwater source return — October14,2026
+
+Continuing BROCK owner/session `01a13b8f-5279-7f93-b969-f37996fffee0`, Codex CLI/OpenAI gpt-6.1-sol. Will supplied CATO's continuing review, committed `04355d97e`; original bounded correction authority/routine source work retained. No owner/helper launch, new monitor, external contact or capital/rule/probability change.
+
+## BRK-32 — accountability before retirement
+
+My earlier recommendation to retire from active grading omitted a necessary accounting safeguard. CATO's refinement is incorporated: stopping the compounding interpretation does not authorize deleting a forecast, escaping a required result or silently improving the calibration record. No retirement or new scoring token has been applied. Existing STUCK, original forecast/weights/thresholds,45% and full45/35/20 distribution remain preserved. A replacement is optional, not another automatic assignment.
+
+The controlling rules are `FORGE/PREDICTION_DISCIPLINE.md`: WQ161(i–iii) tests changes to scored mass/previously resolvable cases, not merely whether data started arriving or probabilities stayed numerically equal; WQ288 requires a registered invalidation established within the live window to resolve MISS at its fire, using the applicable pre-fire mark. A discretionary later retirement cannot erase that event. Source/definition failure is not automatically an economic MISS, and a literal numerical hit is not evidence of compounding.
+
+**Existing-condition check, bounded to available owner records:** BRK32's original resolve dateNovember30 has not elapsed onOctober14. The original PERSISTS definition requires both aggregate lenses; CLEARING requires both≤61%-baseline lenses plus≥3of5 satisfaction≥80%; less-than-four disclosure degradation belongs to the November30 check. BCRED's known Q3 approximately10% demand/~50% satisfaction does not settle the aggregate. Other register/table vintages include Q2 or inferred quantities; the North Haven Q3 satisfaction fire is a distinct observation, not permission to assume primary demand/coverage for all five. No complete frozen-lens calculation or already-met CLEARING invalidation is established in the inspected source/owner records. This is not certification that no qualifying event occurred anywhere; no fresh five-fund census was commissioned. Missing data cannot be converted into either a win or a loss.
+
+**Concrete instructions for PROME's recorded disposition:** preserve original letter, distribution, frozen inputs, RED critique/acceptance and the chronology of known outcomes; identify the specification failure separately from the literal outcome; reconcile any existing later ruling; check primary evidence for a resolution/invalidation already due before permitting retirement; record the exact scoring treatment and disclose any exclusions/counts in performance summaries. If the unchanged numerical question is objectively resolvable, account for its literal result under the existing rules. If ungradable, state the specific missing input/undefined treatment. Do not silently renormalize45/35/20, drop CCLFX or add a fund. No post-outcome rewrite or optional successor is authorized by this memo. Existing question remains with PROME/Will for disposition; another general RED critique is unnecessary.
+
+## Cliffwater — one offer-specific search completed, stop
+
+Issuer/vehicle: **Cliffwater Corporate Lending Fund, CCLFX, CIK1735964**. The four FY-ended-March31 offers and separate May29 offer stay separate. Wanted: valid requested quantities and accepted quantities on the same offer/class/date/basis, or explicit realized full-fulfilment/proration language. General offer terms, a stated5% capacity or an actual7% repurchase amount do not uniquely answer that question.
+
+| Pricing date | Source result | Satisfaction disposition |
+|---|---|---|
+|June9,2025|FY2026 annual ClassI repurchases3.42%; valid requests/proration absent in checked section/letter|UNKNOWN|
+|September8,2025|Annual ClassI repurchases2.90%; valid requests/proration absent. Prior semiannual reports the same rounded percentage with a slightly different dollar vintage|UNKNOWN|
+|December9,2025|Annual ClassI repurchases5.32%; no realized request/proration disclosure found in checked sections|UNKNOWN|
+|March10,2026|Annual ClassI repurchases7.00%. Secondary reports point to a StephenNesbitt investor letter about requests/limits; original letter not located in the checked public issuer library|UNKNOWN at issuer tier; press lead retained separately|
+|May29,2026|Separate later offer: existing press-sourced approximately17% request/~33% fill claim remains unverified; FY2026 annual and September2025 semiannual do not cover it|UNKNOWN; do not substitute March amounts or generic policy|
+
+**Coverage actually searched:** cached SEC NCSR previously read (acc0001213900-26-066324) plus freshly downloaded issuer-linked annual report forMarch31,2026, semiannual forSeptember30,2025, public distribution/repurchase calendar, July2026 portfolio snapshot and current TenThings marketing document. Public application navigation exposed the literature links; no results-specific investor-letter link was found among the CCLFX PDF links inspected. Annual/semiannual shareholder letters and repurchase tables/nearby terms were checked; keyword results were interpreted in context, not counted as outcomes. Snapshot/marketing liquidity capacity is not actual fulfilment. A fresh SEC submissions request returned403, so no complete fresh filing-census claim. Source URLs, dates, HTTP status, bytes and hashes are in source_attempts.json. No gated presentation, sign-up, source purchase or external inquiry attempted.
+
+**Stop/next useful disclosure:** this one search does not settle the five offer outcomes. Keep UNKNOWN without counting it as distress or accommodation. Next useful public document is the **semiannual report forSeptember30,2026** covering May/August offers, when released; November–December is a cadence-based expectation, not a publication promise or a guarantee it contains requested shares. A new N-23C3A announcing a future offer is not a historical-results resolver. Read the report once on availability within existing coverage; no repetitive poller. If its requested/accepted or realized-proration fields remain absent, retain the explicit source limit. An original issuer results letter could settle a particular offer earlier; an inquiry would require separate send approval, and no inquiry was sent.
+
+## Medallia — no private-contract project
+
+Disclosed-row comparison remains closed at approximately49.5¢ in both BXSL/BCRED. CATO independently reproduced arithmetic from cached filings matching BROCK's saved hashes; CATO's browser failures mean that was not another live issuer retrieval. Equal marks prove neither identical legal rights nor accurate valuations. Private-contract research remains deferred unless a concrete recovery/priority/valuation decision depends on it. No successor work commissioned.
+
+## Publication and limits
+
+Fresh `git fetch origin master` and ancestry checks confirm correction commits `c95847c8a`, `e963d98ce` and CATO review `04355d97e` on origin/master at observation; publication_receipt.json records the exact remote head/time. The earlier local-only correction publication statement is superseded, preserved as history. This establishes publication of those versions, not recipient consumption or new follow-up publication. No rejected upload was routed through another desk. BOND's later publication grant is explicitly BOND-scoped and does not grant BROCK a new upload.
+
+CRMT October15after16:30ET/October16AM, bank/CABO October16, CRMT October21backstop, existing FSKNovember5 and joint SHADE clocks retained. No trade, score, threshold, probability or new registered forecast changed. This source search and refinement are complete; the named decision/data dependencies remain.

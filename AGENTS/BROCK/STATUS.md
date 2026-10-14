@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-14 Wed 15:18 ET — Will bounded corrections +two evidence checks. `research/2026-10-14_corrections/disposition.md`; narrative → CURRENT catch-up.
+**Updated:** 2026-10-14 Wed 16:05 ET — CATO refinement/one bounded CCLFX source pass. `research/2026-10-14_followup/decision-and-source-return.md`; narrative → CURRENT catch-up.
 
 ---
 
@@ -33,10 +33,10 @@
 | 8/13 · **no expiry** | **FORUM-5 W2**: gated recognition before/same print as the non-gated channel for that event ⇒ RETRACTION | Primary wording recovered October14: FORUM5 synthesis L135, via SHADE October10. R2 proration fires are liquidity events, not matched recognition. Check every boot. |
 | 8/13 | **FORUM-5 W3**: deterioration read withdrawn if ≥3 of 4 reverse (FSK coverage restored by EARNINGS · SS−DQ ≤4.5pp ×2 · unsecured share >50% · CCC/BB ≤5.93 ×2) | grades **11/30** |
 | 8/13 | **X1/SHADE joint reconcile** | Registration recovered; October10 fire PROVISIONAL per October12 owner return. Distinct instruments until reconcile; DOCKET L185 November5–18. No X1 fire/deploy implication. |
-| 9/3 | Verify the remaining **PRESS-sourced** `PC_REDEMPTION_REGISTER` cells at primary; **CCLFX demand ~17.0** names a document, not a line item | open verification debt (RED flagged 8/13) |
+| 9/3 | Verify the remaining **PRESS-sourced** `PC_REDEMPTION_REGISTER` cells at primary; **CCLFX demand ~17.0** names a document, not a line item | One bounded source pass completedOctober14; satisfactionUNKNOWN. NextSept30semiannual report on release (Nov-Dec expectation), not endless searches. |
 | 9/3 | OCIC Q2 paid in **non-interest-bearing promissory notes** ($955.0M) — same class as BCRED's IOU mechanic; base rate not established | flagged, not graded |
 | 8/7 | **4th-public-div-cut trigger: re-base or retire** (RED's reframe accepted 8/7) | owed to RED |
-| 8/13 | **BRK-32 disposition / CCLFX source** | RED July31 recovered; BROCK August7 accepted findings/STUCK. Restore STUCK; frozen March31 weights retained. No superseding amendment located; decision before November30. |
+| 8/13 | **BRK-32 disposition / CCLFX source** | RED July31 recovered; BROCK August7 accepted findings/STUCK. Restore STUCK; frozen March31 weights retained. Scoring/resolution audit before disposition (WQ161/288); no amendment/retirement applied. |
 | 7/28 | **VX-BRK-023** (OTF litigation) STUCK — re-spec | mine, deliberately unconsumed |
 | June · 8/3 | **CDLI Q1 full NAV** · **ARCC Q1→Q2 NA-additions comparison** | CDLI source gap open; separate ARCC additions comparison still owed/define output. Small-fund migration next-level leg RETIRED WQ173, not pending. |
 | 9/2 | Watch: **VX-BRK-024** NAIC CLO RBC tranche downgrade (YE-2026) · **CRWV DDTL** in any BDC SOI · **2nd KKR support package at FSK** within 90d · **APO >$145** re-eval · MFIC Q3 call tone (early Nov; Quartr is `subscription_required`, do not re-attempt) | standing watch |
@@ -111,4 +111,4 @@
 STEP 2 needs 2 of 3 reversals to override. ① BCRED gate + NA declining — ❌ (first-ever 5% gate; Q3 cap held; 8/28 primary: NA 2.4→2.2% but distribution CUT 10% and NAV −2.23%). ② FSK/OBDC Q2 NA reversing — ❌ (FSK NAV −2.81%, FV/Cost .9171→.9059; OBDC −1.04%). ③ OTF software-exit — ❌ not observed. **⇒ 0/3, substance does not override.** ⚠️ STEP 2 applies only once the literal trigger fires (LIQUID two-close kill governs; BROCK ten-session observable authorises nothing).
 ## BOTTOM LINE
 
-**2026-10-14 — Bounded corrections applied:** NAV same-day verdict unverified; latestRJ sector32%[10/8]. Matched Medallia rows both49.5¢. BRK32 priorSTUCK restored, March31 weights frozen. CRMT10/15 and bank10/16 preserved; convergence58/70, HOLD unchanged.
+**2026-10-14 — CATO refinement incorporated:** forecast accountability preserved before any BRK32 retirement. Five CCLFX offer outcomes remainUNKNOWN after bounded search; nextSept30semiannual report. Corrections published, consumption unverified. CRMT10/15/banks10/16,58/70 and HOLD unchanged.

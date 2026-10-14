@@ -1,0 +1,71 @@
+[
+  {
+    "key": "issuer_ten_things",
+    "url": "https://www.cliffwaterfunds.com/data/pdfs/literature/CCLFX-Ten-Things-to-Know.pdf",
+    "at": "2026-10-14T19:57:13.800513+00:00",
+    "status": 200,
+    "bytes": 494389,
+    "sha256": "06eb0dc96a1bcd883eb668f7d09c6f12dedd077a8ba1b2e29c60e098ff52e58a"
+  },
+  {
+    "key": "issuer_home",
+    "url": "https://www.cliffwaterfunds.com/",
+    "at": "2026-10-14T19:57:14.164494+00:00",
+    "status": 200,
+    "bytes": 2408,
+    "sha256": "571cbac3699c4ed9624bf3b3abe8e2487f06233a0460dc3fcc5f67993dc2d80b",
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-Y9MT9VQK5L",
+      "/index.3abc6953.js",
+      "/registerSW.js"
+    ]
+  },
+  {
+    "key": "sec_feed",
+    "url": "https://data.sec.gov/submissions/CIK0001735964.json",
+    "at": "2026-10-14T19:57:14.366055+00:00",
+    "status": 403,
+    "bytes": 4818,
+    "sha256": "72c013e2ac5c5808abfee3ab528ca65cf1c54282991d5f7a492e6aff083e48c9"
+  },
+  {
+    "key": "issuer_public_navigation",
+    "url": "https://www.cliffwaterfunds.com/index.3abc6953.js",
+    "at": "2026-10-14T19:57:28.585562+00:00",
+    "status": 200,
+    "bytes": 1224872,
+    "sha256": "2d87903e2e40b5529cf159f2d68f0deb4f7092afc7d23070bc0d30262dd06ac3"
+  },
+  {
+    "key": "annual",
+    "url": "https://www.cliffwaterfunds.com/data/pdfs/literature/CCLFX-Annual-Report.pdf",
+    "at": "2026-10-14T19:58:15.563043+00:00",
+    "status": 200,
+    "bytes": 2632106,
+    "sha256": "2feaceb4c13e0ec88998cf51f446620d3a57303bb5f1f065661bb9546783c7ee"
+  },
+  {
+    "key": "semiannual",
+    "url": "https://www.cliffwaterfunds.com/data/pdfs/literature/CCLFX-Semi-Annual-Report.pdf",
+    "at": "2026-10-14T19:58:15.564399+00:00",
+    "status": 200,
+    "bytes": 2607317,
+    "sha256": "7d07367729446f4bb4ca1777471aedd9e94fe76ce27285c7789da2c080d8b256"
+  },
+  {
+    "key": "calendar",
+    "url": "https://www.cliffwaterfunds.com/data/pdfs/literature/CCLFX-Distribution-and-Repurchase-Calendar.pdf",
+    "at": "2026-10-14T19:58:15.565437+00:00",
+    "status": 200,
+    "bytes": 238796,
+    "sha256": "8c6724239b81167666fd10ae41a19a47ed533de4940c68a4449426d267af40c9"
+  },
+  {
+    "key": "snapshot",
+    "url": "https://www.cliffwaterfunds.com/data/pdfs/literature/CCLFX-Snapshot.pdf",
+    "at": "2026-10-14T19:58:15.566361+00:00",
+    "status": 200,
+    "bytes": 179164,
+    "sha256": "d14175b952a17464b6cb949c8867ed45807b0ba7ad8987fd62b50a37ec131a4d"
+  }
+]
