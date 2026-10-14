@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-14 Wed 16:05 ET — CATO refinement/one bounded CCLFX source pass. `research/2026-10-14_followup/decision-and-source-return.md`; narrative → CURRENT catch-up.
+**Updated:** 2026-10-14 Wed 16:13 ET — Will-requested closeout. Research stopped; continuity → CURRENT catch-up; handoff → `research/2026-10-14_followup/closeout.json`.
 
 ---
 
@@ -111,4 +111,4 @@
 STEP 2 needs 2 of 3 reversals to override. ① BCRED gate + NA declining — ❌ (first-ever 5% gate; Q3 cap held; 8/28 primary: NA 2.4→2.2% but distribution CUT 10% and NAV −2.23%). ② FSK/OBDC Q2 NA reversing — ❌ (FSK NAV −2.81%, FV/Cost .9171→.9059; OBDC −1.04%). ③ OTF software-exit — ❌ not observed. **⇒ 0/3, substance does not override.** ⚠️ STEP 2 applies only once the literal trigger fires (LIQUID two-close kill governs; BROCK ten-session observable authorises nothing).
 ## BOTTOM LINE
 
-**2026-10-14 — CATO refinement incorporated:** forecast accountability preserved before any BRK32 retirement. Five CCLFX offer outcomes remainUNKNOWN after bounded search; nextSept30semiannual report. Corrections published, consumption unverified. CRMT10/15/banks10/16,58/70 and HOLD unchanged.
+**2026-10-14 — Closed out at Will’s request:** bounded corrections and five-offer source pass complete/published. BRK32 disposition pending; CCLFX outcomes UNKNOWN; private-contract work deferred. CRMT10/15–16 preserved; convergence58/70 and HOLD unchanged.

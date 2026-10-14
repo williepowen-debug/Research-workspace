@@ -1,0 +1,43 @@
+{
+  "desk": "BROCK",
+  "session_id": "01a13b8f-5279-7f93-b969-f37996fffee0",
+  "runtime": "Codex CLI / OpenAI",
+  "observed_at": "2026-10-14T16:13:36.763449-04:00",
+  "closeout_v1": {
+    "owner": "WILL",
+    "session_id": "01a13b8f-5279-7f93-b969-f37996fffee0",
+    "touch_at": "2026-10-14T16:13:36.763449-04:00",
+    "observed_at": "2026-10-14T16:13:36.763449-04:00",
+    "state": "ASKED_RECEIPT",
+    "ask": "Direct user message: Okay lets close out here. Exact arrival timestamp unavailable; observed in current turn.",
+    "receipt": "BROCK stopped research and saved continuity and final dated delivery in the same responding turn. Final checks/Git receipt reported at exit.",
+    "presence": "Current responding owner session; CLI termination not observed."
+  },
+  "publication_before_closeout": {
+    "origin_head": "48e559bac8bc5315142680322417fe87f72bbf74",
+    "verified_remote_commits": [
+      "c95847c8a",
+      "e963d98ce",
+      "04355d97e",
+      "44b8237bd"
+    ],
+    "method": "Fresh fetch and ancestry checks"
+  },
+  "remaining_dependencies": [
+    "PROME/Will BRK32 specification/scoring disposition; original frozen forecast preserved",
+    "Cliffwater valid requested/accepted shares or explicit realized proration; UNKNOWN after bounded search",
+    "Private Medallia contractual rights unknown; deeper search deferred without dependent decision",
+    "Bank final disclosures/calls and REGINALD CFG baseline reconciliation",
+    "PROME/peer consumption unverified without recipient acknowledgment"
+  ],
+  "next_dated_tests": [
+    "CRMT October15 after16:30ET or October16AM; October21 disclosure backstop",
+    "Bank/CABO October16",
+    "FSK November5; joint SHADE November5\u201318",
+    "Cliffwater September30,2026 semiannual on publication; Nov\u2013Dec cadence expectation only"
+  ],
+  "checks_ref": "closeout_validation.json",
+  "new_domain_data": false,
+  "no_helpers": true,
+  "no_capital_or_forecast_change": true
+}

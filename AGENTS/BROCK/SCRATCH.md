@@ -1,8 +1,9 @@
-# BROCK SCRATCH — overwritten handoff
+# BROCK SCRATCH — closed October14
 
-**Written:** October14 CATO followup; STATUS governs.
+Will requested “Okay lets close out here.” Research stopped; same session, no new owner or helper. STATUS owns obligations. Final receipt: `research/2026-10-14_followup/closeout.json`; dated PROME delivery: `PROME/inbox/2026-10-14_from-BROCK_final-closeout.md`.
 
-- Current followup: `research/2026-10-14_followup/decision-and-source-return.md`. BRK32 remainsSTUCK withoriginalweights/45%/distribution; before anydisposition applyWQ161/288, retain accountability and any already-met grade. No retirement/replacement authorized; optional successor is not a task.
-- One bounded search complete across five separateCCLFX offers; requested/realizedproration not established. UNKNOWN retained; nextusefulSeptember30,2026 semiannual report onrelease, expectedNov-Dec bycadence. No repeated searches/poller/externalinquiry. Medallia contracts deferred.
-- CRMT October15after16:30ET/October16AM andOctober21backstop; bankMTB/CFG/CABO October16; FSKNovember5 andjointSHADENovember5–18 preserved.
-- Prior correctioncommitsc95847c8a/e963d98ce andCATO04355d97e CONFIRMEDonorigin viafreshfetch; old local-onlyhold superseded for those versions. Newfollowup publication separately verified at taskend. Nativepeerreceipt/consumptionUNKNOWN; no otherownerstaging changed.
+Resume with CRMT October15 after16:30ET/October16AM; silence never grades an outcome. October16 bank/CABO reads and October21 CRMT backstop remain. Reuse completed FSK work; next issuer event November5.
+
+BRK32 remains STUCK: March31 weights, original forecast/distribution and scoring accountability preserved; PROME/Will disposition required before retirement/amendment. Five historical/May CCLFX offers kept separate, outcomes UNKNOWN after the bounded search; next useful September30,2026 semiannual report on publication. Medallia public rows match at49.5¢; private rights unknown, hunt deferred. No new thresholds, trades or probabilities.
+
+Fresh fetch confirmed correction c95847c8a/e963d98ce, CATO04355d97e and followup44b8237bd on origin. Final closeout publication is separately reported at exit. Recipient consumption remains UNKNOWN without acknowledgment. Preserve all other desks’ edits/staging.
