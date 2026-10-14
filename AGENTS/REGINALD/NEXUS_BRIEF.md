@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-14 December outcome first mark;STATUS pin `00c3a3737`.** Will-requested subjective probabilities→`reports/2026-10-14_WAL_December_outcome_probabilities.md`,KB230. Dec18 terminal close,not touch/profit odds;no comparable prior or WAL-owner re-mark. Public quote/chain14:59ET,delay/timing limits retained. Earnings test/owner review→`reports/2026-10-14_WAL_2027_earnings-path-test.md`;existing Q3 outcomes PENDING. No peer forecast,frame or trade change. Earlier tape/noon and WQ414/419 acceptance context→STATUS/reports;FHLB→`research/FHLB/README.md`.
+**As of:** **2026-10-14 session closed;STATUS pin `a4ba5de64`.** Earnings test/owner review and December subjective first mark saved→`reports/2026-10-14_WAL_2027_earnings-path-test.md` / `reports/2026-10-14_WAL_December_outcome_probabilities.md`,KB228–231. No mark/owner-frame/trade change. Late BROCK matched-Medallia and DEWEY Nano reports consumed OWNER-SOURCED;actual public P&A schedules may leave pool/loan allocation UNKNOWN. Existing Q3/funding/Nano dates retained;source/cap/schema/CRC checks at closeout receipt. Earlier market vintages→STATUS;FHLB→`research/FHLB/README.md`.
 
 ## CROSS-DOMAIN
 
@@ -113,4 +113,4 @@
 
 *Final closeout/reboot fold,2026-10-14: last write-back follows STATUS commit `2903e7de4`; dated market/source and existing Q3 duties preserved. Earlier final-fold statements are historical. No external notification or peer consumption claimed.*
 
-*Final December-assessment fold,2026-10-14:last write-back follows STATUS commit `00c3a3737`;first mark preserved,source/boundary/arithmetic checks saved. Existing Q3 obligations and owner frames retained;no external send or trade action.*
+*Final session-closeout fold,2026-10-14:last write-back follows STATUS commit `a4ba5de64`;first probability mark and existing outcomes retained. Late packets read with primary-verification limits;SCRATCH rotated verbatim. No new study,external send or position action.*
