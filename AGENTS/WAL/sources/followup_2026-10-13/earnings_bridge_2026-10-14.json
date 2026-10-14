@@ -1,0 +1,94 @@
+{
+  "analysis_date_ET": "2026-10-14",
+  "source_quarter": "2026-06-30",
+  "units": "USD millions except EPS, ratios and basis points",
+  "formula": "annual_EPS = 4*((NII + noninterest_income - operating_ex_deposit_costs - deposit_cost_expense - provision)*(1-tax) - NCI - preferred_dividends - participating_awards)/diluted_shares",
+  "assumptions": {
+    "tax": 0.19,
+    "diluted_shares_M": 108.0,
+    "quarterly_NCI_M": 7.1,
+    "preferred_dividends_M": 3.2,
+    "participating_awards_M": 3.3,
+    "annualization": "four identical quarters, no seasonality or transition timing"
+  },
+  "observed_Q2": {
+    "GAAP_EPS": 2.36,
+    "common_income_M": 258.5,
+    "ordinary_earnings_M": 255.2,
+    "actual_tax_M": 63.2,
+    "actual_pretax_M": 332.0,
+    "gain_screen_removed_M": 15.8,
+    "security_sales_gain_M": 3.0,
+    "net_FV_gain_adjustments_M": 12.8,
+    "equity_investment_income_retained_M": 11.9
+  },
+  "results": {
+    "reported_Q2_at_assumed_tax": {
+      "nii": 796.9,
+      "noninterest_income": 198.8,
+      "operating_ex_deposit_costs": 404.1,
+      "deposit_cost_expense": 179.2,
+      "provision": 80.4,
+      "ppnr": 412.40000000000003,
+      "pretax": 332.0,
+      "annual_eps": 9.456296296296298
+    },
+    "Q2_gain_screen": {
+      "nii": 796.9,
+      "noninterest_income": 183.0,
+      "operating_ex_deposit_costs": 404.1,
+      "deposit_cost_expense": 179.2,
+      "provision": 80.4,
+      "ppnr": 396.59999999999997,
+      "pretax": 316.19999999999993,
+      "annual_eps": 8.982296296296296
+    },
+    "conditional_11_support": {
+      "nii": 876.9,
+      "noninterest_income": 193.0,
+      "operating_ex_deposit_costs": 424.1,
+      "deposit_cost_expense": 176.2,
+      "provision": 86.0,
+      "ppnr": 469.6000000000001,
+      "pretax": 383.6000000000001,
+      "annual_eps": 11.004296296296298
+    },
+    "conditional_8_pressure": {
+      "nii": 781.9,
+      "noninterest_income": 183.0,
+      "operating_ex_deposit_costs": 412.1,
+      "deposit_cost_expense": 184.2,
+      "provision": 85.4,
+      "ppnr": 368.59999999999997,
+      "pretax": 283.19999999999993,
+      "annual_eps": 7.992296296296296
+    }
+  },
+  "required_quarterly_pretax": {
+    "EPS11_108Mshares": 383.4567901234568,
+    "EPS11_minus_gain_screen": 67.25679012345688,
+    "EPS8_108Mshares": 283.45679012345676,
+    "EPS8_minus_gain_screen": -32.743209876543176,
+    "EPS11_106Mshares": 376.6666666666667,
+    "EPS11_106M_minus_gain_screen": 60.466666666666754,
+    "EPS11_05_minus_EPS8": 101.66666666666674
+  },
+  "sensitivities": {
+    "annual_EPS_per_10M_quarterly_pretax": 0.30000000000000004,
+    "quarter_EPS_per_10M_one_time_new_provision": 0.07500000000000001,
+    "annual_EPS_if_also_remove_11_9M_equity_income": 8.625296296296296,
+    "annual_EPS_per_10bp_net_yield_on_fixed_91661M_earning_assets": 0.6874575,
+    "NII_if_6pct_growth_only_M": 844.714,
+    "extra_quarter_NII_to_876_9M_after_6pct_growth_M": 32.18599999999992,
+    "equivalent_extra_yield_bp_after_6pct_growth": 13.250630450637086,
+    "quarter_EPS_if_99M_is_incremental_new_provision": 0.7425000000000002
+  },
+  "source_SHA256": "63f0a86758850f7c833bfe111d86dbd7bb9810b0ea6ce0550cc841e0b66ad85f",
+  "limitations": [
+    "conditional component mixes are WAL judgments, not analyst models",
+    "19pct assumed tax approximates actual 63.2/332; GAAP EPS and rounding differ",
+    "gain removal is a screen, not issuer adjusted EPS or proof the gains will not recur",
+    "charge-offs can use existing allowance and are not automatically incremental provision",
+    "ECR/referral reductions already enter NII and fees; do not subtract twice"
+  ]
+}

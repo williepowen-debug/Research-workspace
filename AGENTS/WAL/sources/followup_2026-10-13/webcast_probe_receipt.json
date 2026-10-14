@@ -1,0 +1,22 @@
+[
+  {
+    "name": "q4_api_script",
+    "url": "https://widgets.q4app.com/widgets/q4.api.1.13.5.min.js",
+    "time_utc": "2026-10-14T03:50:34.137735+00:00",
+    "status": 200,
+    "bytes": 19787,
+    "sha256": "c80b9c772236e0ce6671b8b44acf218404602df4bb28f0862e4338e364775d95"
+  },
+  {
+    "name": "q4_events_script",
+    "url": "https://investors.westernalliancebancorporation.com/js/module/widgets/dist/evergreen.q4Events.1.0.0.min.js",
+    "time_utc": "2026-10-14T03:50:34.318484+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "events_feed",
+    "url": "https://investors.westernalliancebancorporation.com/feed/Event.svc/GetEventList",
+    "time_utc": "2026-10-14T03:50:34.625310+00:00",
+    "error": "HTTP Error 405: Method Not Allowed"
+  }
+]

@@ -1,0 +1,22 @@
+Metric	Primary_carrier	Q2_anchor	Q3_actual	Evidence_locator	Interpretation_owner
+Pretax_income_M	Release/10-Q	332.0	NOT_YET_DISCLOSED	PENDING	WAL earnings bridge
+Tax_NCI_preferred_participating_M	Release/10-Q EPS note	63.2/7.1/3.2/3.3	NOT_YET_DISCLOSED	PENDING	WAL matched EPS numerator
+Diluted_shares_M	Release/10-Q EPS note	108.0	NOT_YET_DISCLOSED	PENDING	WAL EPS, distinct from ending shares
+Issuer_adjustment_amount_tax_reason	Release reconciliation/10-Q	No automatic addback	NOT_YET_DISCLOSED	PENDING	WAL earnings quality
+NII_M_and_NIM	Release/deck/10-Q	796.9/3.53pct	NOT_YET_DISCLOSED	PENDING	WAL earnings; REGINALD funding attribution
+ECR_interest_fee_expense_M	Release/10-Q	52.5/8.4/173.3	NOT_YET_DISCLOSED	PENDING	REGINALD all-in funding, WAL EPS accounting
+Deposit_cost_expense_M	Release/10-Q	179.2	NOT_YET_DISCLOSED	PENDING	REGINALD funding; includes other costs
+Mortgage_origination_servicing_M	Release/10-Q	53.4/31.3	NOT_YET_DISCLOSED	PENDING	WAL production/valuation/hedge distinction
+Security_sale_FV_equity_income_M	Release/10-Q	3.0/12.8/11.9	NOT_YET_DISCLOSED	PENDING	WAL durability screen
+Provision_and_ACL_rollforward_M	Release/10-Q	80.4 provision	NOT_YET_DISCLOSED	PENDING	WAL credit, no chargeoff double count
+Common_equity_TCE_AOCI_M	Release/10-Q equity/Notes2,11	7547/6906/-451.1	NOT_YET_DISCLOSED	PENDING	WAL matched common equity and intangibles
+Dividends_buybacks_ending_common_shares	10-Q equity/PartII Item2	Use actual Q3 movements	NOT_YET_DISCLOSED	PENDING	WAL common-equity bridge
+CET1_numerator_RWA_AOCI_treatment	Release/10-Q capital	Separate from TCE	NOT_YET_DISCLOSED	PENDING	WAL regulatory bridge, REGINALD integration
+Life_science_99M_appraisal_bucket	Call/10-Q subsequent events/narrative	Nonaccrual/no chargeoff; segment unknown	NOT_YET_DISCLOSED	PENDING	Frozen print§5 and 10-Q§4 only
+Office_classified_M_and_realized_losses	Deck/10-Q	316 derived office dollars	NOT_YET_DISCLOSED	PENDING	Frozen print§2/cross-check only
+Explicit_new_office_migrations	Release/deck/call	0 addressed Q2; excludes99M	NOT_YET_DISCLOSED	PENDING	Frozen print§3, nondisclosure is not0
+Total_NCO_dollars_rate	Release/10-Q	55.0/0.37pct	NOT_YET_DISCLOSED	PENDING	Frozen print§1/4
+Funded_unfunded_ACL_nonaccrual_fullNPL	10-Q	Maintain both denominator bases	NOT_YET_DISCLOSED	PENDING	Frozen print§7/10-Q§5
+NDFI_total_M_share_HFI	10-Q	15812/25.9pct	NOT_YET_DISCLOSED	PENDING	Frozen 10-Q§5; live V3 score remains3/5
+NDFI_nonaccrual_M	FFIEC Q3 RC-N	122.456 Q2 separate population	NOT_YET_DISCLOSED	PENDING	WAL quarter matched; credentials not renewed here
+Cantor_recovery_liens_claim_identity	10-Q legal disputes/court documents	72.4 gross residual plus64 protective liens source vintages	NOT_YET_DISCLOSED	PENDING	WAL/OTTO; REGINALD severity; Ontario B1 not recovery

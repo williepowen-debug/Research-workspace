@@ -1,0 +1,529 @@
+{
+  "count": 139,
+  "next": "https://www.courtlistener.com/api/rest/v4/search/?court=cacb&cursor=cz0xMzQ2NjczNjAwMDAwMC4wJnM9NDk2MTk4NzAwJnQ9cmQmZD0yMDI2LTEwLTEzJnA9Mg%3D%3D&order_by=entry_date_filed+desc&q=%22Plaza+Continental+Group%22&type=rd",
+  "previous": null,
+  "results": [
+    {
+      "absolute_url": "/docket/73112993/106/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "",
+      "docket_entry_id": 481346096,
+      "docket_id": 73112993,
+      "document_number": 106,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-13",
+      "entry_number": 106,
+      "filepath_local": null,
+      "id": 497086127,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-13T19:04:57.592666Z",
+        "date_created": "2026-10-13T19:04:54.058969Z",
+        "score": {
+          "bm25": 13467946000000.0
+        }
+      },
+      "pacer_doc_id": "9730115082446",
+      "page_count": null,
+      "short_description": "X - Order (RE: Generic Motion) (BNC-PDF)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/105/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Hearing Set (RE: related document(s)103 Motion for Turnover of Property filed by Debtor Plaza Continental Group LLC) The Hearing date is set for 10/15/2026 at 03:00 PM at Crtrm 6C, 411 W Fourth St., Santa Ana, CA 92701. The case judge is Mark D. Houle (JL) (Entered: 10/09/2026)",
+      "docket_entry_id": 481218650,
+      "docket_id": 73112993,
+      "document_number": 105,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-09",
+      "entry_number": 105,
+      "filepath_local": null,
+      "id": 496947147,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-12T15:01:48.878748Z",
+        "date_created": "2026-10-12T15:01:48.804655Z",
+        "score": {
+          "bm25": 13467600000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "",
+      "docket_entry_id": 481171060,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-09",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 496896162,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-09T23:31:29.715874Z",
+        "date_created": "2026-10-09T23:31:29.645986Z",
+        "score": {
+          "bm25": 13467600000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "Hearing Set (Motion) (BK Case - BNC Option)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/103/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Motion for Turnover of Property - Notice of Motion and Motion to Approve Turnover of Property from the Receiver to the Debtor, Amendment to Scheduling Order, Payment of the Adequate Protection Payments Contemplated by 11 U.S.C. \u00a7 362(d)(3), and Use of Cash Collateral; Memorandum of Points and Authorities; and Declaration of Howard Grobstein in Support Thereof Filed by Debtor Plaza Continental Group LLC (Andrassy, Kyra) (Entered: 10/09/2026)",
+      "docket_entry_id": 481166316,
+      "docket_id": 73112993,
+      "document_number": 103,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-09",
+      "entry_number": 103,
+      "filepath_local": null,
+      "id": 496891292,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-12T15:01:48.783811Z",
+        "date_created": "2026-10-09T22:34:51.387536Z",
+        "score": {
+          "bm25": 13467600000000.0
+        }
+      },
+      "pacer_doc_id": "9730115069699",
+      "page_count": null,
+      "short_description": "Turnover of Property (motion)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/104/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Statement Regarding Cash Collateral or Debtor in Possession Financing Filed by Debtor Plaza Continental Group LLC. (Andrassy, Kyra) (Entered: 10/09/2026)",
+      "docket_entry_id": 481166276,
+      "docket_id": 73112993,
+      "document_number": 104,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-09",
+      "entry_number": 104,
+      "filepath_local": null,
+      "id": 496891251,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-12T15:01:48.812163Z",
+        "date_created": "2026-10-09T22:34:49.240377Z",
+        "score": {
+          "bm25": 13467600000000.0
+        }
+      },
+      "pacer_doc_id": "9730115069742",
+      "page_count": null,
+      "short_description": "Statement",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Hearing Rescheduled/Continued (Other) (BK Case - BNC Option) (RE: related document(s) 1 VOLUNTARY PETITION (CHAPTER 11) filed by Plaza Continental Group LLC) Status Hearing to be held on 10/15/2026 at 03:00 PM Ronald Reagan Federal Bldg411 W Fourth StCrtrm 6CSanta Ana, CA 92701 for 1, (JL)",
+      "docket_entry_id": 481218649,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-08",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 496947146,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-12T15:01:48.750140Z",
+        "date_created": "2026-10-12T15:01:48.662792Z",
+        "score": {
+          "bm25": 13467514000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Hearing Rescheduled/Continued (Motion) (BK Case - BNC Option) (RE: related document(s) 82 GENERIC MOTION filed by Plaza Continental Group LLC) Hearing to be held on 10/15/2026 at 03:00 PM Ronald Reagan Federal Bldg411 W Fourth StCrtrm 6CSanta Ana, CA 92701 for 82, (JL)",
+      "docket_entry_id": 481218648,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-08",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 496947145,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-12T15:01:48.693862Z",
+        "date_created": "2026-10-12T15:01:48.627764Z",
+        "score": {
+          "bm25": 13467514000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "",
+      "docket_entry_id": 480985364,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-08",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 496706285,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-08T19:36:06.725339Z",
+        "date_created": "2026-10-08T19:35:59.840870Z",
+        "score": {
+          "bm25": 13467514000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "Hearing Rescheduled/Continued (Motion) (BK Case - BNC Option)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "",
+      "docket_entry_id": 480985342,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-08",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 496706262,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-08T19:36:05.828704Z",
+        "date_created": "2026-10-08T19:35:59.128472Z",
+        "score": {
+          "bm25": 13467514000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "Hearing Rescheduled/Continued (Other) (BK Case - BNC Option)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/102/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Opposition to (related document(s): 100 Notice filed by Creditor Federal Deposit Insurance Corporation as Receiver for Nano Banc) - Opposition to FDIC-R's Notice of Statutory Request for Mandatory Stay for Thirty Days in Connection with Debtor's Motion to Approve Stipulation (1) to Transition Receiver Out and Turn Possession and Control of Property Over to the Debtor and (2) for Payment of Adequate Protection Payments Under 11 U.S.C. \u00a7 362(d)(3) Filed by Debtor Plaza Continental Group LLC (Andrassy, Kyra) (Entered: 10/06/2026)",
+      "docket_entry_id": 480725322,
+      "docket_id": 73112993,
+      "document_number": 102,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-06",
+      "entry_number": 102,
+      "filepath_local": null,
+      "id": 496438921,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-12T15:01:48.657754Z",
+        "date_created": "2026-10-06T23:04:57.747306Z",
+        "score": {
+          "bm25": 13467341000000.0
+        }
+      },
+      "pacer_doc_id": "9730115040007",
+      "page_count": null,
+      "short_description": "Opposition",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/101/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Opposition to (related document(s): 100 Notice filed by Creditor Federal Deposit Insurance Corporation as Receiver for Nano Banc) with Proof of Service Filed by Creditor Preferred Bank (Moe, John) (Entered: 10/06/2026)",
+      "docket_entry_id": 480722558,
+      "docket_id": 73112993,
+      "document_number": 101,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-06",
+      "entry_number": 101,
+      "filepath_local": null,
+      "id": 496436103,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-12T15:01:48.630195Z",
+        "date_created": "2026-10-06T22:34:06.627199Z",
+        "score": {
+          "bm25": 13467341000000.0
+        }
+      },
+      "pacer_doc_id": "9730115039653",
+      "page_count": null,
+      "short_description": "Opposition",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/100/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [
+        71416
+      ],
+      "description": "Notice of Statutory Request for Mandatory Stay for Thirty Days Filed by Creditor Federal Deposit Insurance Corporation as Receiver for Nano Banc. (Zarnighian, Nahal) (Entered: 10/02/2026)",
+      "docket_entry_id": 480372337,
+      "docket_id": 73112993,
+      "document_number": 100,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-02",
+      "entry_number": 100,
+      "filepath_local": "recap/gov.uscourts.cacb.2042304/gov.uscourts.cacb.2042304.100.0.pdf",
+      "id": 496073858,
+      "is_available": true,
+      "meta": {
+        "timestamp": "2026-10-05T20:53:53.458033Z",
+        "date_created": "2026-10-02T22:31:59.119502Z",
+        "score": {
+          "bm25": 13466995000000.0
+        }
+      },
+      "pacer_doc_id": "9730115015910",
+      "page_count": 7,
+      "short_description": "Notice",
+      "snippet": "                                     Case 8:26-bk-10986-MH             Doc 100 Filed 10/02/26 Entered 10/02/26 15:10:48                            Desc\n                                                                        Main Document    Page 1 of 7\n\n\n\n                                       1   Scott S. Humphreys, Cal. Bar No. 298021\n                                           Nahal Zarnighian, Cal. Bar No. 313305\n                                       2   BALLARD SPAHR LLP\n                   "
+    },
+    {
+      "absolute_url": "/docket/73112993/98/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Application to Employ KW Commercial - SWH Real Estate Group and CBRE Inc. as Real Estate Brokers and Sales Agents Pursuant to 11 U.S.C. \u00a7\u00a7 327(a) and 328; Statement of Disinterestedness; Declaration of Howard Grobstein in Support Thereof Filed by Debtor Plaza Continental Group LLC (Andrassy, Kyra) (Entered: 10/01/2026)",
+      "docket_entry_id": 480181316,
+      "docket_id": 73112993,
+      "document_number": 98,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-01",
+      "entry_number": 98,
+      "filepath_local": null,
+      "id": 495876186,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-05T15:31:17.407489Z",
+        "date_created": "2026-10-01T19:03:35.777014Z",
+        "score": {
+          "bm25": 13466909000000.0
+        }
+      },
+      "pacer_doc_id": "9730115004141",
+      "page_count": null,
+      "short_description": "Employ (motion)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/99/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Notice of Debtor's Application to Employ KW Commercial - SWH Real Estate Group and CBRE Inc. as Real Estate Brokers and Sales Agents Pursuant to 11 U.S.C. \u00a7\u00a7 327(a) and 328 Filed by Debtor Plaza Continental Group LLC (RE: related document(s)98 Application to Employ KW Commercial - SWH Real Estate Group and CBRE Inc. as Real Estate Brokers and Sales Agents Pursuant to 11 U.S.C. \u00a7\u00a7 327(a) and 328; Statement of Disinterestedness; Declaration of Howard Grobstein in Support Thereof Filed by Debtor Plaza Continental Group LLC). (Andrassy, Kyra) (Entered: 10/01/2026)",
+      "docket_entry_id": 480181270,
+      "docket_id": 73112993,
+      "document_number": 99,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-10-01",
+      "entry_number": 99,
+      "filepath_local": null,
+      "id": 495876140,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-05T15:31:17.568807Z",
+        "date_created": "2026-10-01T19:03:34.494687Z",
+        "score": {
+          "bm25": 13466909000000.0
+        }
+      },
+      "pacer_doc_id": "9730115004179",
+      "page_count": null,
+      "short_description": "Notice",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "",
+      "docket_entry_id": 480007356,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-09-30",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 495695625,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-09-30T21:03:45.546631Z",
+        "date_created": "2026-09-30T21:03:23.679717Z",
+        "score": {
+          "bm25": 13466823000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "Hearing Rescheduled/Continued (Other) (BK Case - BNC Option)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "",
+      "docket_entry_id": 480007341,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-09-30",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 495695610,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-09-30T21:03:44.833317Z",
+        "date_created": "2026-09-30T21:03:21.659848Z",
+        "score": {
+          "bm25": 13466823000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "Hearing Held (Motion)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "",
+      "attachment_number": null,
+      "cites": [],
+      "description": "",
+      "docket_entry_id": 480007337,
+      "docket_id": 73112993,
+      "document_number": null,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-09-30",
+      "entry_number": null,
+      "filepath_local": null,
+      "id": 495695606,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-09-30T21:03:42.810944Z",
+        "date_created": "2026-09-30T21:03:21.288508Z",
+        "score": {
+          "bm25": 13466823000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "Hearing Rescheduled/Continued (Motion) (BK Case - BNC Option)",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/97/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Hearing Rescheduled/Continued (RE: related document(s)82 Motion to Approve Stipulation (1) to Transition Receiver Out and Turn Possession and Control of Property Over to the Debtor and (2) for Payment of Adequate Protection Payments Under 11 U.S.C. \u00a7 362(d)(3) filed by Debtor Plaza Continental Group LLC) The Hearing date is set for 10/8/2026 at 11:00 AM at Crtrm 5D, 411 W Fourth St., Santa Ana, CA 92701. The case judge is Mark D. Houle. (JL) (Entered: 09/30/2026)",
+      "docket_entry_id": 480491468,
+      "docket_id": 73112993,
+      "document_number": 97,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-09-29",
+      "entry_number": 97,
+      "filepath_local": null,
+      "id": 496198705,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-05T15:31:17.413983Z",
+        "date_created": "2026-10-05T15:31:17.321172Z",
+        "score": {
+          "bm25": 13466736000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/96/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Hearing Held (RE: related document(s)58 Stipulation filed by Debtor Plaza Continental Group LLC) OFF CALENDAR - SUPERSEDED BY DOCKET NO. 82 (JL) (Entered: 09/30/2026)",
+      "docket_entry_id": 480491465,
+      "docket_id": 73112993,
+      "document_number": 96,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-09-29",
+      "entry_number": 96,
+      "filepath_local": null,
+      "id": 496198701,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-05T15:31:17.384027Z",
+        "date_created": "2026-10-05T15:31:17.268462Z",
+        "score": {
+          "bm25": 13466736000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "",
+      "snippet": ""
+    },
+    {
+      "absolute_url": "/docket/73112993/95/plaza-continental-group-llc/",
+      "attachment_number": null,
+      "cites": [],
+      "description": "Hearing Held (RE: related document(s)55 Motion to Extend/Limit Exclusivity Period filed by Debtor Plaza Continental Group LLC) WITHDRAWN. (JL) (Entered: 09/30/2026)",
+      "docket_entry_id": 480491464,
+      "docket_id": 73112993,
+      "document_number": 95,
+      "document_type": "PACER Document",
+      "entry_date_filed": "2026-09-29",
+      "entry_number": 95,
+      "filepath_local": null,
+      "id": 496198700,
+      "is_available": false,
+      "meta": {
+        "timestamp": "2026-10-05T15:31:17.285549Z",
+        "date_created": "2026-10-05T15:31:17.215844Z",
+        "score": {
+          "bm25": 13466736000000.0
+        }
+      },
+      "pacer_doc_id": "",
+      "page_count": null,
+      "short_description": "",
+      "snippet": ""
+    }
+  ]
+}

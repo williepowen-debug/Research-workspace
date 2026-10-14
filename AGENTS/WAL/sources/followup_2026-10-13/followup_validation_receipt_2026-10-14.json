@@ -1,0 +1,28 @@
+{
+  "date_ET": "2026-10-14",
+  "preserved_SHA256": {
+    "Q2_GRADING_FRAME_2026-07-21.md": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc",
+    "PREPRINT_RECON_2026-07-17.md": "12757b40be6dc95d6c52da5da207c919253542298415693e1d34153dbd16ce41",
+    "Q3_PRINT_GRADING_FRAME_2026-09-24.md": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+    "Q3_10Q_GRADING_FRAME_2026-09-24.md": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880",
+    "THESIS.md": "8a998ca1763a392f31f242424b597b7379f16bad73d99960101c1026f7a69324",
+    "SCENARIOS.md": "0722a3b8b90e1ea8ac5c85396ebf57a5bb72d014b6b6bbc290da5e3d2b329ff5",
+    "workbook/PREDICTIONS.tsv": "bf38f3ec164220445e09392e6942f1efecc0dd5725538ddef2334063341e6ddb"
+  },
+  "frozen_H1_H11_SHA256": "9b32cedf1887847d5b5080cc92de983e43473fa10de8a65b62541818fb00e803",
+  "primary_PDF_hash_verified": true,
+  "KB_rows_groups": [
+    227,
+    20
+  ],
+  "worksheet_ungraded_cells": 21,
+  "calculation_check": "scripts/earnings_bridge_20261014.py evaluated all formulas and asserted11/8 case ranges; tax approximation explicitly documented",
+  "drift_review": "All16value/67retiredpattern contexts re-measured/read; dated/corrected records, no newlive rot. Same tolerances; nextrecheckOct19. Fullcontext receipt retained, ratherthan countalone.",
+  "consumer_check": "Initial bare allfour scan unscoped and invalid for routing; exact allfourDOTsunresolved/all4unresolved scan clean. No irrelevant peers notified. PlannedNEXUSfold removes oldallU currentwording.",
+  "expiry": "197/214/188/215 still pastStaleBy, not extended;205 SUPERSEDED forOntario, other3remainU. Oct13quote/consensusvintages unchanged.",
+  "corrections": "0 named unreceipted; expiredALL broadcast not newobligation",
+  "ledger": "PREDICTIONS retained olddata clock because no Q3 carrier arrived; currentrowstates/deadlines unchanged. No staleledger flag interpreted asgrade.",
+  "boot_caps": "allfourbootdocs below32550B; STATUSbelow250lines",
+  "native_transport": "UNKNOWN; no spawned agents or closeout acknowledgments",
+  "git": "exact paths only; no pull/push whileforeign editsdirty; finalNEXUSafterSTATUScommit"
+}

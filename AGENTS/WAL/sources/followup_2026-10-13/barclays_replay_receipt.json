@@ -1,0 +1,17 @@
+[
+  {
+    "name": "barclays_issuer_detail",
+    "url": "https://investors.westernalliancebancorporation.com/News-and-Presentations/events-and-presentations/event-details/2026/Barclays-Global-Financial-Services-Conference-2026-sVVr-9ISKC/default.aspx",
+    "retrieved_at_utc": "2026-10-14T04:00:37.690567+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "barclays_replay",
+    "url": "https://cc.webcasts.com/barc002/091426a_js/?entity=121_XDBDDY5",
+    "retrieved_at_utc": "2026-10-14T04:00:37.884794+00:00",
+    "status": 200,
+    "final_url": "https://event.webcasts.com/starthere.jsp?ei=1776404&tp_key=214b069bdb&tp_special=8",
+    "bytes": 47068,
+    "sha256": "2647981d60206d8d479fa7287834d8c7546920db41a894f2bb2317aa04786535"
+  }
+]

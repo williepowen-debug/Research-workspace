@@ -1,0 +1,38 @@
+[
+  {
+    "name": "issuer_overview",
+    "url": "https://investors.westernalliancebancorporation.com/overview/default.aspx",
+    "retrieved_at_utc": "2026-10-14T03:46:43.438374+00:00",
+    "status": 200,
+    "final_url": "https://investors.westernalliancebancorporation.com/overview/default.aspx",
+    "bytes": 158273,
+    "sha256": "825467bbff7a4b34a8aeaa72df408303e2ce54024f47bed3e370fad0caf3126f"
+  },
+  {
+    "name": "issuer_events",
+    "url": "https://investors.westernalliancebancorporation.com/News-and-Presentations/events-and-presentations/default.aspx",
+    "retrieved_at_utc": "2026-10-14T03:46:43.872744+00:00",
+    "status": 200,
+    "final_url": "https://investors.westernalliancebancorporation.com/News-and-Presentations/events-and-presentations/default.aspx",
+    "bytes": 144560,
+    "sha256": "0295fd240bc34c7f5a904191f8b454220d3d4ccf1fc7dd1ec3e9b0ed4da3808a"
+  },
+  {
+    "name": "issuer_coverage",
+    "url": "https://investors.westernalliancebancorporation.com/Stock-Info/Analyst-Coverage/default.aspx",
+    "retrieved_at_utc": "2026-10-14T03:46:44.099150+00:00",
+    "status": 200,
+    "final_url": "https://investors.westernalliancebancorporation.com/Stock-Info/Analyst-Coverage/default.aspx",
+    "bytes": 72408,
+    "sha256": "f3081814b23bbf7f7688fc2aa5410ddf0bcaecf1441be4b7c7bf615e52a08840"
+  },
+  {
+    "name": "plaza_secondary_index",
+    "url": "https://www.inforuptcy.com/browse-filings/california-central-bankruptcy-court/8%3A26-bk-10986/bankruptcy-case-plaza-continental-group-llc",
+    "retrieved_at_utc": "2026-10-14T03:46:44.866685+00:00",
+    "status": 200,
+    "final_url": "https://www.inforuptcy.com/browse-filings/california-central-bankruptcy-court/8%3A26-bk-10986/bankruptcy-case-plaza-continental-group-llc",
+    "bytes": 31004,
+    "sha256": "0702d85bea391ba93c9d2e2272157af14acca66deda2123398b74931d0323109"
+  }
+]

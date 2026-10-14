@@ -1,0 +1,19 @@
+{
+  "sha256": "3e20c104a87e1323b90006c286ecd53e938b39b18479d05bca69c521add1691a",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacb.2042304/gov.uscourts.cacb.2042304.100.0.pdf",
+  "court": null,
+  "expected_case": "8:26-bk-10986",
+  "expected_entry": "100",
+  "header": {
+    "case": "8:26-bk-10986",
+    "entry": "100",
+    "filed": "10/02/26"
+  },
+  "identity": "VERIFIED",
+  "pages": 8,
+  "body_words": 2298,
+  "image_only_body": false,
+  "path": "/home/willi/.cache/dewey_recap/docs/3e20c104a87e1323b90006c286ecd53e938b39b18479d05bca69c521add1691a.pdf",
+  "cache_hit": false,
+  "retrieved_at": "2026-10-13T23:48:15-0400"
+}

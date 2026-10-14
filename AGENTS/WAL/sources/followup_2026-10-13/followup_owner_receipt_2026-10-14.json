@@ -1,0 +1,22 @@
+{
+  "date_ET": "2026-10-14",
+  "runtime": "Codex/OpenAI",
+  "actual_model": "UNKNOWN",
+  "session_id": "UNKNOWN",
+  "root": "/home/willi/Research-workspace",
+  "desk": "WAL",
+  "root_instructions_explicitly_read": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "USER.md"
+  ],
+  "local": "CLAUDE.md read; local AGENTS.md absent; supplied user AGENTS applies",
+  "handoff": "STATUS/MEMORY read; continuing same accepted session",
+  "REGINALD_reuse": "latest integrated report31c02fd74, Oct9 bid-summary packet, Oct13 saved FDIC page; no funding/peer canon edits",
+  "agents_spawned": 0,
+  "transport": "native fleet messaging/recipient consumption UNKNOWN; durable packets prepared",
+  "frozen_H1_H11_section_SHA256": "9b32cedf1887847d5b5080cc92de983e43473fa10de8a65b62541818fb00e803",
+  "research_date": "Oct14 aftermidnight;quote/consensus retainsOct13vintage",
+  "KB_rows": 227,
+  "groups": 20
+}

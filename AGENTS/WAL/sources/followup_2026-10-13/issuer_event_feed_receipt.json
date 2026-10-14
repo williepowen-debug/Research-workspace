@@ -1,0 +1,10 @@
+{
+  "retrieved_at": "2026-10-14T04:00:01.786812+00:00",
+  "url": "https://investors.westernalliancebancorporation.com/feed/Event.svc/GetEventList?LanguageId=1&eventSelection=0&eventDateFilter=0&includeFinancialReports=true&includePresentations=true&includePressReleases=true&sortOperator=1&pageSize=-1&pageNumber=0&tagList=&includeTags=true&year=2026&excludeSelection=1",
+  "method": "GET",
+  "parameters_from": "issuer-linked q4.api.1.13.5.min.js public _fetchItems/buildParams",
+  "status": 200,
+  "final_url": "https://investors.westernalliancebancorporation.com/feed/Event.svc/GetEventList?LanguageId=1&eventSelection=0&eventDateFilter=0&includeFinancialReports=true&includePresentations=true&includePressReleases=true&sortOperator=1&pageSize=-1&pageNumber=0&tagList=&includeTags=true&year=2026&excludeSelection=1",
+  "bytes": 8812,
+  "sha256": "58bc6b2160d27f939edeaf3e35f71078b6e46fa097cde60eaa70a0aa3990b8af"
+}

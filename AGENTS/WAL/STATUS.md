@@ -1,6 +1,6 @@
 # WAL STATUS
 
-**Last Updated:** **2026-10-13** — WAL session #13, Will-directed securities/hedges/rate-risk reconciliation. Fresh Q2 primary verifies September 28 tables; bounded pre-print valuation continuation finds **NO DEMONSTRATED EXPECTATIONS GAP** (KB-223/224). REGINALD funding/peers preserved. No grading cell, score, weight, EV, PT, gate or trade changed. Prior dashboard preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`.
+**Last Updated:** **2026-10-14** — WAL session #13 continued across midnight; Will-authorized research follow-ups. Fresh Q2 primary verifies September 28 tables; bounded pre-print valuation continuation finds **NO DEMONSTRATED EXPECTATIONS GAP** (KB-223/224). REGINALD funding/peers preserved. No grading cell, score, weight, EV, PT, gate or trade changed. Prior dashboard preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`.
 
 **Price (10/13): $73.73**, vendor closing observation stamped **16:00:02 ET**, re-fetched **22:45:57 ET** through Yahoo/yfinance (raw snapshot in sources); after-hours also $73.73 at19:56:17 ET; −1.29% versus previous close. **Official close not independently verified.** Spot **−2.94% vs EV $75.96** (Δ÷EV); **+11.08% to $81.90** (Δ÷spot). This quote does not grade the consecutive-close guard: REGINALD owns it. The old $78 trigger remains TERMINAL; no re-entry signal. Earlier price records are in the dated snapshot and KB-215/-222.
 
@@ -16,7 +16,7 @@
 > - ~~V3 score vs corrected evidence~~ ✅ **RULED WQ-324 → re-scored 3/5 (9/28).** ~~Print-frame rule gaps~~ ✅ **RULED WQ-325 → registered as print frame §10 (9/28).**
 > ⏱ **FFIEC PWS JWT expires 2026-11-05** (`PROME/WILL_QUEUE.md` row 31) — lands inside the Q3 10-Q window, so a lapse re-darks MI3 exactly when the Q3 re-test is due. **Raise from ~mid-October (≈10/13, with the print-date pin), not before.** **10/9: the print date is pinned (10/19), so this is DUE NOW; carried in the WQ-328 memo's WILL_NEEDS to PROME.** Creds are on the **DESKTOP** only.
 
-**KB:** **224 rows / 20 distinct Group values** (+2 continuation: 223 current vendor price/consensus; 224 conditional valuation) (+4 October 13: 219 June securities/hedges; 220 NII/EVE/EaR definitions and verified model; 221 assumption tests; 222 fresh quote). KB-211 superseded by KB-222; the remaining expiry flags 205/197/214 are out-of-scope follow-ups, not silently extended. Source supplement → `research/2026-10-13_securities-hedges-rate-model-reconciliation.md`; cohort/rank/funding baseline remain REGINALD-owned. Prior KB state is preserved in the dated snapshot.
+**KB:** **227 rows / 20 distinct Group values** (+3 October14: 225 conditional FY2027 bridge; 226 primary replay access gap; 227 Ontario B1 docket evidence) (+2 continuation: 223 current vendor price/consensus; 224 conditional valuation) (+4 October 13: 219 June securities/hedges; 220 NII/EVE/EaR definitions and verified model; 221 assumption tests; 222 fresh quote). KB-211 superseded by KB-222; 205 is now SUPERSEDED by227 for Ontario; other three liens remain U. Expiry flags197/214/188/215 remain; October13-only quote/consensus222/223 retain dated vintages. No dates silently extended. Source supplement → `research/2026-10-13_securities-hedges-rate-model-reconciliation.md`; cohort/rank/funding baseline remain REGINALD-owned. Prior KB state is preserved in the dated snapshot.
 
 ---
 
@@ -36,6 +36,10 @@ AFS **$18,880M FV / $19,547M cost**; selected AFS hedged cost **$3,482M**, cumul
 
 ---
 
+## AUTHORIZED FOLLOW-UPS (October14; KB-225–227)
+
+**FY2027 bridge:** Q2 gain screen annual EPS~8.98 at19% tax/108Mshares. ~11 needs+67.3M recurring pretax/quarter;~8 needs−32.7M versus that screen. Conditional component mixes, not analyst forecasts or market beliefs; no demonstrated gap. Report `research/2026-10-14_FY2027-earnings-bridge.md`. **Barclays:** exact issuer September16 replay found, but opens registration/login; substantive guidance stays secondary, not upgraded. **Q3 preparation:** `research/2026-10-14_Q3-earnings-quality-credit-read.md` plus worksheet has no actuals or grades; print/call/10-Q remain future carriers. **Ontario:** primary Doc100 narrows only its lien branch; no recovery price/new exposure. Packets → PROME/REGINALD/OTTO; their consumption unverified. User's new authorization supersedes the preceding bounded-note stop only for these follow-ups; funding/peer scope and frozen frames preserved.
+
 ## POSITIONS
 
 **→ `POSITIONS.md` is CANONICAL — no strike list here.** **Live book = 2 legs (10/9):** **Dec-18 $70P ×1, Robinhood, BROKER-VERIFIED 9/10** (`FORGE/STATUS.md` D-47; time stop **Fri 12/04**, guard ROLL70-EXIT) **+ Dec-18 $65P ×4, Fidelity IRA, first seen in the 10/7 broker capture** (PROME receipt; acquisition date/price/card UNKNOWN; **the $70P's guard and time stop are NOT transferred to it**). **Sep-18 $67.5P + $70P finished OTM 9/18 (close $78.54) — **BROKER-BOOKED 9/27: −$1,519.34 realized** (`FORGE/STATUS.md` §RESOLVED "D-58 Fidelity leg / WQ-168 → CLOSED", commit `f39c70073`). ⚠️ *The label "D-58" now also names an unrelated open USO row in FORGE — cite the Fidelity-leg line or the commit, never the bare label.* Position management = TERRY/Will lane.
@@ -51,7 +55,7 @@ AFS **$18,880M FV / $19,547M cost**; selected AFS hedged cost **$3,482M**, cumul
 | EDGAR ≥ Mon 10/26; **statutory deadline Mon 11/9** (40 days, large accelerated filer; NT ⇒ ~11/14) | **Q3 10-Q**: frame pre-registered | WAL-01 cross-check (classified loans + OREO basis) · WAL-02 confirm/correct · Cantor tie-out + the $64M candidate tie · $99M bucket · RETIRE coverage leg (needs the unfunded ACL) · NDFI share vs 25.9% (V3 decider) |
 | *undated* | **$99M life-sci appraisal** | **Carrier ranking (9/2): 8-K possible NOT expected (0-for-1) · Q3 call MODAL · Q3 10-Q backstop.** Weekly 8-K sweep from 9/15. ⛔ **NO-VERDICT band: an 8-K-silent window resolves NOTHING.** |
 | ~Oct-Nov | **Q3 FFIEC Call Report** | MI3 standing quarterly pull (desktop) + NDFI nonaccrual `RCONPV25` 2nd quarter |
-| **Tue 9/29 1:30pm PT** (re-check the docket through Fri 10/2) | Plaza Continental hearing, 8:26-bk-10986 | Ontario lien branch only — read-sheet `research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §10 |
+| **September29 hearing consumed October13/14 via Doc100 filedOctober2** | Plaza Continental, 8:26-bk-10986 | Ontario U→B1 under frozen H1/H10; later stay/order outcome remains unverified |
 | ~10/5–10/9 | Nano Banc P&A posting (FDIC) | Narrows FDIC-retained vs Sunwest **by category only** (research §9a); Sunwest assumed ~$227M of loans (Banking Dive 9/28, NEWS) |
 | **Mon 2026-11-30** · **Tue 2027-01-12** | Makhijani (Cantor V) status conference · criminal trial (8:26-cr-00087-DOC) | Two-way, slow: a conviction supports WAL's fraud/title claims + restitution (KB-203) |
 | **Fri Dec 04** | Dec-18 $70P **time stop** | TERRY/Will lane |
@@ -62,9 +66,9 @@ AFS **$18,880M FV / $19,547M cost**; selected AFS hedged cost **$3,482M**, cumul
 
 **Owner record:** `research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §9/§10; full preceding dashboard/table preserved in `archive/STATUS_before-rate-reconciliation_2026-10-13.md`.
 
-Nano failed September25. WAL's August18 complaint shows four Nano senior deeds of trust ahead of WAL's pledged Cantor collateral on five pleaded loans. **Holder at failure unproven for all four**; branches A/B1/B2/U/C remain open. Dated Ontario/Chino filings are not ownership-at-failure evidence. [KB-201/202/205; DEWEY27b/CATO]
+Nano failed September25. WAL's August18 complaint shows four Nano senior deeds of trust ahead of WAL's pledged Cantor collateral on five pleaded loans. **October14 primary follow-up: Ontario U→B1, FDIC-retained on docket evidence in Doc100 filedOctober2**, under unchanged H1/H10. Not recorder-proven or a recovery amount. Moreno Valley, Chino and Bellflower remain U; current stay/order outcome unverified. [KB-227; primary follow-up; historical DEWEY27b/CATO context preserved]
 
-Guaranty claims are in bankruptcy; lien avoidance is under investigation. **Exposure perimeter remains $72.4M gross Cantor residual + $64M purchased protective liens; the ~$173M Stupin claim is not booked exposure.** The $64M primary tie stays subject to its registered explicit-attribution rule. Moreno Valley recorder instrument/APN evidence remains Will-owned and missing. N-1 hearing/N-3 P&A follow-ups remain in MEMORY, not resolved by this rate task. No prediction/guard changed. [KB-205–208; frozen Q3 frame]
+Guaranty claims are in bankruptcy; lien avoidance is under investigation. **Exposure perimeter remains $72.4M gross Cantor residual + $64M purchased protective liens; the ~$173M Stupin claim is not booked exposure.** The $64M primary tie stays subject to its registered explicit-attribution rule. Moreno Valley recorder instrument/APN evidence remains Will-owned and missing. N-1 hearing consumed via Doc100 in this follow-up; N-3 P&A/current title and later orders remain open. No prediction/guard changed. [KB-205–208; frozen Q3 frame]
 
 ---
 

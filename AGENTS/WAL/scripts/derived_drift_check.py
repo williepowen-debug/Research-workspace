@@ -251,7 +251,10 @@ def main():
         # cleared old hits absorb the same count of NEW ones and still print ✓. So the baseline carries
         # a date by which it must be RE-MEASURED from source (never bumped to match), and the check says
         # so itself once that date passes -- a comment nobody reads is not a control.
-        BASE_RECHECK_BY = "2026-10-13"         # re-measure by 10/13 (ex-Q3-frame deadline; frames written 9/24) and at every thesis bump
+        # Re-measured 2026-10-14: all 16 value / 67 retired-pattern hits inspected as
+        # dated/corrected records; no increased tolerance. Full contexts and review
+        # receipt: sources/followup_2026-10-13/drift_full_hit_context_2026-10-14.json.
+        BASE_RECHECK_BY = "2026-10-19"         # next existing print; also re-check at every thesis bump
         import datetime as _dt
         if _dt.date.today().isoformat() > BASE_RECHECK_BY:
             print(f"⚠️ derived-drift baseline re-check OVERDUE (due {BASE_RECHECK_BY}): re-measure "
