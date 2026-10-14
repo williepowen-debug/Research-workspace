@@ -19,6 +19,9 @@
 
 ## Session Notes
 
+### BOOT — 2026-10-13 late evening / Codex
+Recovered root/local instructions and completed the network-retried print-window sweep; report `reports/2026-10-13_late-boot.md`. No new price/credit fire; settled grades unchanged through10/12. Inbox scan12 peer packets,0 unlogged WALTER IDs; prior completed-work/deferral dispositions retained. Frozen SHORT_VOL writer append removed; raw output saved. Pull/push deferred for outside dirty work. Existing approvals/Q3 frames unchanged; this boot commissions no new research.
+
 ### LAST SESSION — 2026-10-13 evening, direct-Will WAL reconciliation / Codex
 **Session closed on PROME/Will instruction:** WAL reconciliation and June source integration accepted; delivered commits synced to GitHub per PROME confirmation. Result → `reports/2026-10-13_WAL_rate-funding-reconciliation.md`; closeout in source receipt. WAL owns separate expectations/valuation work; no further WAL research commissioned here. Preserve all existing Q3 reads, dated outcomes, funding duties and frozen frames. New closeout commits await shared sync; no pull with outside WAL/WALTER work dirty.
 *Preceding October13 bridge preserved verbatim → `archive/MEMORY_securities-review_snapshot_2026-10-13.md`, crc32 `c8ce7f21`. Earlier expectations/outcome obligations survive. Re-check at any append.*
