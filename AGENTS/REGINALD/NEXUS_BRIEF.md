@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-14 WAL earnings test/owner review;STATUS pin `d7796d75f`.** Will-selected public-evidence work→`reports/2026-10-14_WAL_2027_earnings-path-test.md`,KB228–229. Profit conversion/net funding-cost benefit least verified;conditional diagnostics,not forecasts. WAL independent source/arithmetic review agrees;remaining attribution/mortgage questions at report. Append outcomes at existing10/19–20 reads. Earlier tape/noon vintages→STATUS/reports;no score,frame or trade change. WQ-419 accepted(`9451933aa`/`c7f945a95`),peer reads unverified;WQ-414 accepted`1b937462e`;FHLB→`research/FHLB/README.md`.
+**As of:** **2026-10-14 December outcome first mark;STATUS pin `00c3a3737`.** Will-requested subjective probabilities→`reports/2026-10-14_WAL_December_outcome_probabilities.md`,KB230. Dec18 terminal close,not touch/profit odds;no comparable prior or WAL-owner re-mark. Public quote/chain14:59ET,delay/timing limits retained. Earnings test/owner review→`reports/2026-10-14_WAL_2027_earnings-path-test.md`;existing Q3 outcomes PENDING. No peer forecast,frame or trade change. Earlier tape/noon and WQ414/419 acceptance context→STATUS/reports;FHLB→`research/FHLB/README.md`.
 
 ## CROSS-DOMAIN
 
@@ -113,4 +113,4 @@
 
 *Final closeout/reboot fold,2026-10-14: last write-back follows STATUS commit `2903e7de4`; dated market/source and existing Q3 duties preserved. Earlier final-fold statements are historical. No external notification or peer consumption claimed.*
 
-*Final earnings-review fold,2026-10-14:last write-back follows STATUS commit `d7796d75f`;WAL review/scope consumed,proposed investigations unstarted. Existing Q3 outcomes PENDING;owner frames unchanged. No external send or new operating evidence.*
+*Final December-assessment fold,2026-10-14:last write-back follows STATUS commit `00c3a3737`;first mark preserved,source/boundary/arithmetic checks saved. Existing Q3 obligations and owner frames retained;no external send or trade action.*
