@@ -117,12 +117,12 @@ Full context/persistence write-back; selected checks, publication, recipient int
   "delivery": {
     "signal_date": "20261014",
     "total": 134,
-    "delivered": 130,
-    "note": "51 morning + 83 evening handoffs; 4 from -036 pending push at this write (-035 now on origin). Owner integration separate."
+    "delivered": 134,
+    "note": "51 morning + 83 evening handoffs, all on origin; delivery_log reconciled. Owner integration separate."
   },
   "push": {
-    "all_walter_commits_on_origin": false,
-    "note": "Source/fix commits through the v0.43 bump are being carried by other sessions' safe-push; this closeout commit rides the next push. walter-dc did not self-push (foreign dirty work)."
+    "all_walter_commits_on_origin": true,
+    "note": "All walter-dc commits through 86b63cbd8 verified on origin (fresh fetch ~03:3xZ); carried by other sessions' safe-push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
