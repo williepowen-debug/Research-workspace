@@ -20,8 +20,6 @@
 | 8 | **Seasoning repair not independently verified**; CARL's BLAST ruling (a/b) pending | The 🔴 39-of-39 row stands on it | s028 GAPS | OTTO / CARL |
 | 9 | **Dead stub scripts can still write** (`abs_issuance_tracker.py`, `extension_proxy.py` append placeholder rows to FROZEN ledgers) | Re-creates the default-zero defect that broke OTTO-07 | Review C M2 | OTTO → `archive/` |
 | 10 | `workbook/VX_HISTORY.tsv` unbannered; its name exempts it from the staleness scan | Silent rot the scanner cannot see | Review C M1 | OTTO |
-| 11 | `EDGAR_8K_MONITOR.md`: frozen half still carries live obligations (FLG cc, "first check OWED", dead OZK line) | Instructions nobody executes | Review B L11 | OTTO |
-| 12 | `RESEARCH_STATUS.md` research queue rotted again | Misroutes "what's next" | Review B M17 | OTTO |
 | 13 | `research/TIER2_FORENSIC_SCREEN_SPEC.md`: build "authorised" 7/25, no date | An owed build with no clock | Review C L9 | OTTO: schedule or drop |
 | 14 | **Archive sweep** (~40 files >60 days: prompts, briefings, recon, sources, a delivered outbox record) | Root retirement rule | Review B L13–L17; review C retirement list | OTTO; `research/WAL/` needs REGINALD; `LESSONS.md` needs Will |
 | 15 | `MEMORY.md` findings/references contradict each other (Verita "blocked" vs working; superseded entries) | A boot read that disagrees with itself | Review B M3–M5 | OTTO, at closeout |
@@ -34,6 +32,8 @@
 | §2 universal 5-pt handle + Independence (DAEDALUS card priority 2; L5 gate leg) | 2026-10-14 s029 | MAINTENANCE (c) |
 | WINTERKORN spec + memory refresh; docket archive split (review C H3/M3/M4/M5/M6/M8) | 2026-10-14 s029 | `8aff72737` |
 | PREDICTIONS_ARCHIVE as-made scoreboard + OTTO-04 / OTTO-30 post-mortems (review A M10) | 2026-10-14 s029 | this commit |
+| `EDGAR_8K_MONITOR.md`: frozen bank-watchlist half archived verbatim; FLG cc duty (self-assigned 8/27, never run) retired with reason; method half kept, live users refreshed | 2026-10-14 s029 | this commit |
+| `RESEARCH_STATUS.md`: index re-synced (RP-OTT-1.7, 2.5, 3.3, 5.1), queue rebuilt (2 resolved, 1 done, 1 retired, 2 added), Feb vector tables archived | 2026-10-14 s029 | this commit |
 | Boot shows days since the last WINTERKORN run (🟠 DUE at ≥7; fails closed on an unreadable LAST RUN; 5-case guard test) | 2026-10-14 s029 | this commit |
 | Charter version-stamp drift (DAEDALUS F-2) | 2026-09-12 s022 | — |
 | Dead `AGENTS/SIGNALS.md` append instruction | 2026-09-02 | — |

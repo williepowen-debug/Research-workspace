@@ -1,15 +1,18 @@
 # OTTO Research Status
 
-**Last Updated:** 2026-07-25 *(Feb-14 content below is the COMPLETED-RESEARCH index and is still valid as history — it records what was researched and when, which does not expire. The rotted ACTIVE MONITORING table was deleted, see below.)*
+**Last Updated:** 2026-10-14 (s029) — completed-research index re-synced to `research/outputs/` (RP-OTT-1.7, 2.5, 3.3, 5.1 added); queue rebuilt; the Feb "this session" vector tables moved to `archive/`.
 
 ---
 
-**RP-OTT-2.5 — Negative Equity & Loan-Term Extension** *(2026-08-27, s020)* — first OTTO measurement of the **skip precondition**. Negative-equity SHARE rising (26.6→29.6% YoY) while DEPTH is FLAT ($6,754→$6,884, negative in real terms); generator measured (new loans >72mo 30.83→35.55%). **Independently corroborates the Severity-Divergence Test's REFUTE.** Names **Manheim UVVI** as the hinge — and it went from +1.3% YoY (July) to FLAT (mid-Aug). Also surfaces a 🔴 **OTTO-10 perimeter defect** (Experian new-only 6.61% vs used-only 22.47% — the claim is not yet falsifiable). → `research/outputs/RP-OTT-2.5/`
 
 ## COMPLETED RESEARCH
 
 | ID | Topic | Date | Finding | Location |
 |----|-------|------|---------|----------|
+| **RP-OTT-5.1** | **CRMT + Tricolor pre-registered letters, and the grade card** | **2026-09-02** | Bands sealed before the dates; graded 9/12 (Letter 1: 1A fires; Letter 2: 2A fires on the 9/11 8-K) | `research/outputs/RP-OTT-5.1_*.md` |
+| **RP-OTT-2.5** | **Negative equity & loan-term extension (the skip precondition)** | **2026-08-27** | Negative-equity share rising (26.6→29.6% YoY) while depth is flat; corroborates the SDT REFUTE; names Manheim as the hinge | `research/outputs/RP-OTT-2.5/` |
+| RP-OTT-3.3 | Feb 2026 bankruptcy surge | 2026-02-14 | ⛔ Corrected 9/2: its "$237M across 15 BDCs" First Brands figure is unqualifiable; six named BDC marks replace it | `research/outputs/RP-OTT-3.3/` |
+| RP-OTT-1.7 | Regulatory response + historical parallels (2024–26) | 2026-02-04 | Federal retrenchment vs state-level activism; historical collateral-integrity precedents | `research/outputs/RP-OTT-1.7/` |
 | **RP-OTT-1.6** | **Tricolor ABS-15G diligence forensics** | **2026-07-25** | 144A shelf (no 10-Ds); 11-deal inventory recovered; only 2 deals in 2018-2021 (lead retired); AUPs reconcile tape to the originator's own servicing system = structurally blind to the alleged fraud | ML-OTTO-195 to 198 |
 | RP-OTT-1.1 | Lender Risk Assessment | 2026-02-03 | Flagged Flagship, Exeter, CPS, ACA, Westlake | ML-OTTO-009 to 012 |
 | RP-OTT-1.2 | Warehouse Response | 2026-02-03 | "Verify and Control" model; advance rates down 10-15pp | ML-OTTO-013, 020 |
@@ -44,20 +47,21 @@ list — it does **not** own live monitoring snapshots.)*
 
 ## RESEARCH QUEUE
 
-> ⛔ **REBUILT 2026-09-02. The table below had `CRITICAL — Carvana Feb 18 earnings` at the top on 2026-09-02 — a research item SIX AND A HALF MONTHS past, presented as the desk's top live priority, alongside a First Brands examiner report dated Feb 25 in a case that converted to Chapter 7 on Aug 24.**
-> 🔑 **The instructive part: `STALE_PUNCHLIST` item ③ deleted this file's ACTIVE MONITORING table in s016 for exactly this disease — *"rotted into present-tense misinformation"* — and the RESEARCH QUEUE directly beneath it, carrying the same rot, survived that pass untouched.** A fix pass that deletes one table and leaves its twin is the correction-pass failure mode. Found by BROCK's heading test: *read every heading that implies currency*, because a stale queue carries no wrong token and no string sweep can see it. `[[finding_a_correction_pass_is_unreviewed_work]]`
+> **Rebuilt 2026-10-14 (s029).** Research topics only. Maintenance and stale-doc work live in [`STALE_PUNCHLIST.md`](STALE_PUNCHLIST.md); dated events live in `docket/CATALYSTS.tsv`. The 9/2 queue, verbatim, is in `archive/RESEARCH_STATUS_key-vectors-feb-2026.md`.
 
 | Priority | Topic | Rationale |
 |----------|-------|-----------|
-| **CRITICAL** | **Counts 7-8 exhaustive securitization list** (Tricolor criminal, owed ~2026-08-28 under the 8/14 bill-of-particulars ruling) | **UNVERIFIED.** Names the securitizations the government is charging = a direct read on the double-pledging perimeter. Highest-value unclaimed document on the criminal track |
-| **HIGH** | **ENTRY of the First Brands conversion order** (`docket_id:71483359`) | OTTO-32's resolver at 97%. Dkt 3722 filed 8/27; entry UNVERIFIED. PacerMonitor's "Chapter 7" header is INFERRED, not verification |
-| **HIGH** | **OTTO-10 new/used perimeter** — gate fires 2026-09-20 | Blocked on an instrument: Experian's Q1-2026 pair is chart-image locked and NOT primary-confirmable; only Q4-2025 is verified |
-| MEDIUM | Kollar / Seibold plea transcripts (unsealing ordered 7/30) | Highest-yield unclaimed Tricolor document; may name corporate counterparties (OTTO-33) |
-| MEDIUM | Re-key `panel_10d.py` upsert to `(deal, collection_period)` | Closes the 10-D/A vintage hole; base rate ZERO across ~800 filings, so owed at the ~Oct 1 cycle, not urgent |
-| LOW | `EDGAR_8K_MONITOR` watch-window refresh + first FLG check | Windows are Apr-2026 vintage, marked `[STALE]` |
-| ⛔ RETIRED | ~~Carvana Feb 18 earnings~~ · ~~First Brands examiner report (Feb 25)~~ · ~~Flagship Credit audit findings~~ | All three are past-dated records, not forward research. Removed rather than re-dated |
-| ⛔ DEAD LEAD | ~~Rule 2004 counting across BDCs~~ · ~~DriveTime FOIA~~ · ~~TBK syndicate roster~~ | **Instrument gaps, not effort gaps** — Rule 2004 needs PACER (neither OTTO nor BROCK has it). Recorded so they do not age into "checked, nothing found" |
-| ~~HIGH~~ ✅ **CLOSED 2026-08-27** | Bridgecrest servicing comparison | ~~Validate 0.117% fee as below-market~~ — **DONE, and it refuted OTTO's own restatement.** `[CONF SEC 424B5 ×3]` BLAST 2024-1 **3.50%/yr** vs SDART **3.00%** / Drive **4.00%** ⇒ **at market at the ABS level.** The 0.117% is Gotham's `[EST]` on the **third-party whole-loan** perimeter, which OTTO had widened to the $26B portfolio. Whole-loan rates are private agreements — **that perimeter is not reachable from public filings.** → `thesis/THESIS.md` v1.5 |
+| **HIGH** | **NEXUS commission #3 — is CCC widening consumer-driven?** (due 10/19) | Will-commissioned. Packet in `inbox/`; spec `AGENTS/NEXUS/research/2026-10-14_commission_CCC-gap_consumer-attribution.md` |
+| **HIGH** | **Kollar / Seibold plea transcripts** (unsealing ordered 7/30) | None posted at 76 days; OTTO-33's own ~9/28 re-examine is overdue. Highest-yield unclaimed Tricolor document for a new counterparty name |
+| **HIGH** | **OTTO-11 instrument** (credit-washing prevalence) | The row names no source, unit or perimeter; it resolves 12/31 and cannot be graded as written |
+| MEDIUM | Tricolor suppression ruling (ECF 108; hearing 10/7) | Granted in material part = a weaker case for the 1/25/27 trial |
+| LOW | `research/TIER2_FORENSIC_SCREEN_SPEC.md` build | Feasibility gate passed 7/25, no date since: schedule or drop |
+| ✅ RESOLVED | ~~Counts 7–8 securitization list~~ | ECF 149, filed on time 8/28: 11 of ≥13 TAST deals (ML-OTTO-293/294, s028) |
+| ✅ RESOLVED | ~~Entry of the First Brands conversion order~~ | VERIFIED at Dkt 3748, entered 2026-09-01 (read 9/30) |
+| ✅ DONE | ~~Re-key `panel_10d.py` upsert to (deal, collection_period)~~ | s028, `175262ac9` |
+| ⏳ RE-DATED | ~~OTTO-10 perimeter gate 9/20~~ | Graded 9/28; now NEEDS_VERIFY, re-check ~12/15 at the Equifax edition covering September |
+| ⛔ RETIRED | ~~EDGAR_8K_MONITOR watch-window refresh + first FLG check~~ | Watchlist half archived 10/14; the FLG cc duty retired (FLG's own desk reads its filings; bank 8-Ks are REGINALD's) |
+| ⛔ DEAD LEAD | ~~Rule 2004 counting across BDCs~~ · ~~DriveTime FOIA~~ · ~~TBK syndicate roster~~ | Instrument gaps, not effort gaps (no PACER). Recorded so they do not age into "checked, nothing found" |
 
 ---
 
@@ -73,38 +77,4 @@ list — it does **not** own live monitoring snapshots.)*
 
 ---
 
-## KEY VECTORS ADDED/UPDATED THIS SESSION
-
-### Session 006 (Carvana)
-| VX-ID | Name | Status |
-|-------|------|--------|
-| VX-OTTO-060 | Carvana Related-Party Risk | 🟠 ORANGE |
-| VX-OTTO-061 | Bridgecrest Portfolio | 🔴 RED |
-| VX-OTTO-062 | Carvana Non-Prime ABS | 🟠 ORANGE |
-| VX-OTTO-063 | Bridgecrest Repo Rate | 🔴 RED |
-| VX-OTTO-064 | Carvana DQ Masking | 🔴 RED |
-| VX-OTTO-065 | Garcia Insider Sales | 🔴 RED |
-| VX-OTTO-066 | Carvana Discovery Order | 🟠 ORANGE |
-| VX-OTTO-067 | Grant Thornton Conflict | 🟠 ORANGE |
-| VX-OTTO-068 | Carvana S&P 500 Status | 🟡 YELLOW |
-
-### Session 007 (Feb 2026 Sector Update)
-| VX-ID | Name | Status | Change |
-|-------|------|--------|--------|
-| VX-OTTO-003 | Bank Losses | 🔴 RED | Updated ($1.8B+ total) |
-| VX-OTTO-008 | Flagship Credit | 🟡 YELLOW | ⬇️ DOWNGRADED from RED |
-| VX-OTTO-010 | CPS | 🟠 ORANGE | Updated ($900M FF, 19.75% ECNL) |
-| VX-OTTO-016 | First Brands Wind-Down | 🔴 RED | ⬆️ ESCALATED (Ch. 7 risk) |
-| VX-OTTO-024 | Tricolor Criminal | 🟠 ORANGE | Updated (Chu extraction) |
-| VX-OTTO-025 | PrimaLend Restructuring | 🟠 ORANGE | ⬆️ UPGRADED (fraud angle) |
-| VX-OTTO-069 | S&P Immigration Risk | 🟠 ORANGE | NEW |
-| VX-OTTO-070 | Fed 2026 Stress Test | 🟡 YELLOW | NEW |
-| VX-OTTO-071 | First Brands OEM Dependency | 🔴 RED | NEW |
-| VX-OTTO-072 | PrimaLend BVY2 Fraud | 🟠 ORANGE | NEW |
-| VX-OTTO-073 | First Help Financial (FHF) | 🟠 ORANGE | NEW |
-| VX-OTTO-074 | Westlake Financial | 🟡 YELLOW | NEW |
-| VX-OTTO-075 | Ally Financial | 🟡 YELLOW | NEW |
-
----
-
-*RESEARCH_STATUS.md v2.1*
+*RESEARCH_STATUS.md v2.2 (2026-10-14)*
