@@ -1,0 +1,17 @@
+{
+ "step": "CARL CLAUDE.md closeout 13c (root CLAUDE.md Data Hygiene: >60 days AND not boot-read AND not referenced by a live doc; pending-event exemption)",
+ "run_at": "2026-10-15T08:25-0400",
+ "scope": "git-tracked files under AGENTS/CARL/research/ and AGENTS/CARL/domain/sources/",
+ "age_basis": "first-add commit date (git log --diff-filter=A), cross-checked with --follow; cutoff 2026-08-16 (60 days before 2026-10-15). Not mtime.",
+ "candidates": [
+  {"path": "AGENTS/CARL/domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md", "added": "2026-04-17", "boot_read": false, "live_refs": ["workbook/KB.tsv KB-CARL-223 (ACTIVE) cites it as source", "handoff_RED/COUNTER_LOG.md line 143 'File: ... (full audit)'"], "pending_event": false, "disposition": "RETAINED - referenced by live analytical docs a reader travels"},
+  {"path": "AGENTS/CARL/domain/sources/SYF_COF_Q1_2026.md", "added": "2026-04-29", "boot_read": false, "live_refs": ["thesis/PREDICTIONS.tsv CRL-12 (OPEN, FY2026)"], "pending_event": true, "disposition": "RETAINED - registered artifact of an unresolved prediction (exemption 1)"},
+  {"path": "AGENTS/CARL/domain/sources/2026-05_NYFed_HHDC_2026Q1_condensed_brief.md", "added": "2026-07-12", "boot_read": false, "live_refs": ["thesis/HHDC_Q2_2026_GRADING_CARD.md section 1 'Q1 2026 BASELINES - locked (from ...)'", "workbook/KB.tsv"], "pending_event": true, "disposition": "RETAINED - locked baseline source for the HHDC grading card; Q3 HHDC docket row 2026-11-30 pending"}
+ ],
+ "excluded_after_check": [
+  {"path": "AGENTS/CARL/domain/sources/2026-09-24_FSA_PortfoliobyLoanStatus_LM-2026-09-18.xls", "reason": "--follow reports 2026-08-13 via COPY detection (C075 from a STUE file); this path was itself added 2026-09-24 (a720ad5ca) = 21 days old, not a candidate"}
+ ],
+ "retired": [],
+ "unresolved": [],
+ "prior_sweep": "domain/sources/2026-10-12_catchup/retirement-candidates.json (same three files plus two ABS docs since retired to archive/2026-10-12_retired-abs-docs)"
+}

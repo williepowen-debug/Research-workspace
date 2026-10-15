@@ -40,6 +40,8 @@
 | T1-b | **General-merchandise share of retail** | `RSGMS` ÷ `RSXFS` | share **RISING** |
 | T1-c | **Discretionary apparel, real** | `RSCCAS` ÷ `CPIAPPSL` | **falling** (deferral category) |
 
+**Reading 2026-10-15 [obs 2026-09-01, Census advance CB26-165 as published; one report, one vintage] — ALL THREE AGAINST:** T1-a grocery proxy **−0.85%** real YoY vs restaurants **+3.41%**, spread **−4.27pp** · T1-b GM share **12.779% (Sep25) → 12.540% (Sep26)**, also down from Aug 12.641% · T1-c apparel **+1.56%** real YoY. Derivation `domain/sources/2026-10-15_retail/derive.py` → `derived.json`; card `domain/sources/2026-10-15_September-retail-read.md`. Levels differ from the 9/16 reading because the 9/28 benchmark re-based the series; compare within a vintage only. No instrument, direction rule or score changed.
+
 **Reading 2026-09-16 [obs 2026-08-01] — ALL THREE AGAINST:**
 - T1-a: grocery price-adjusted proxy **−1.61% YoY**, restaurants **+2.40%**, spread **−4.01pp**.
 - T1-b: GM share **12.191% (Aug25) → 12.018% (Aug26)**; falling YoY and from July12.087%.
