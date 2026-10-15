@@ -1,0 +1,46 @@
+[
+ {
+  "deal": "EART 2022-2",
+  "cp": "2026-08-01/2026-08-31",
+  "otto": 15.22,
+  "coll": "08/01/2026",
+  "ms": "53",
+  "issuer_dq_rate": "15.22",
+  "ext": "4.49",
+  "sha256": "305aac8e1d17fdaa1a3590e4371e4f8be4aec528174d51b75aa99fc261cb405e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1920761/000092963826003712/eart2022-2_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2022-3",
+  "cp": "2026-08-01/2026-08-31",
+  "otto": 14.46,
+  "coll": "08/01/2026",
+  "ms": "51",
+  "issuer_dq_rate": "14.46",
+  "ext": "4.73",
+  "sha256": "34af2695f3c04d8d3da70486b6c2ef28dba0199967c0f108628acd7fe37507e0",
+  "url": "https://www.sec.gov/Archives/edgar/data/1931330/000092963826003713/eart2022-3_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2023-1",
+  "cp": "2026-08-01/2026-08-31",
+  "otto": 12.32,
+  "coll": "08/01/2026",
+  "ms": "43",
+  "issuer_dq_rate": "12.32",
+  "ext": "5.29",
+  "sha256": "1deb827450d0a301a15766ae6c78f19b32e8d6e3aa6a02f7d0dae9e20638879e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964225/000092963826003717/eart2023-1_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2024-1",
+  "cp": "2026-08-01/2026-08-31",
+  "otto": 10.89,
+  "coll": "08/01/2026",
+  "ms": "32",
+  "issuer_dq_rate": "10.89",
+  "ext": "5.44",
+  "sha256": "5501f2ea5d60c612ac71c5efac91ea9cd86e8009670281ac777d98093487688c",
+  "url": "https://www.sec.gov/Archives/edgar/data/2005087/000092963826003722/eart2024-1_exhibit991.htm"
+ }
+]

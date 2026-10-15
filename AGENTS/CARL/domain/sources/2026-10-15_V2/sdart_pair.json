@@ -1,0 +1,14 @@
+[
+ {
+  "deal": "SDART 2023-1",
+  "cp": "2025-08",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525202457/d13952dex991.htm",
+  "sha256": "221815491282b5ff8b5a9bf8c6a058eb7d1daffa571ffe34fb0e1c85d0f35a8d"
+ },
+ {
+  "deal": "SDART 2024-1",
+  "cp": "2026-08",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526390935/d157532dex991.htm",
+  "sha256": "945a2a2967f522aeb563fa5344ef6c8233cb45cff541c4fb2a9ea395c3d14a8b"
+ }
+]
