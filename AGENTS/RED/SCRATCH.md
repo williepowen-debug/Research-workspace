@@ -55,7 +55,7 @@
 4. 🟠 **10/20:** CARL's CRL-29 first grade. Check CARL's disposition of the five clarifications, then grade CHG-049.
 5. 🟡 **Tue 11/10:** Oct CPI per `research/2026-11-10_OCT_CPI_DECISION_TREE.md` (refresh the nowcast 11/9; close CHG-028 on any verdict). **Wed 11/11 Veterans Day:** confirm boot skips the ICE bar in the FT-02 count.
 6. 🟡 **Re-derivation inputs logged, not applied:** **bear for War:** FALCON (10/14) counts 5 ship losses (IMO: 3 "Sunk" since 2/28; RED had called GFS PRIDE the "first", which COR-20261014-31 corrected), its casualty ratchet is RED, and its production rung D is ARMED (not fired); **bull for Stag and funding:** the anti-spiral (real AHE; once-only); the tariff y/y base effect turning negative; ICI money funds both growing; CPI breadth narrowing (Bloomberg, secondary).
-7. 🟡 **Review debt:** ✅ **#12 DONE 23:4x** (terminal rows cited live 13 → 2 intended; **VX-015 own flip met 10/02, now FLIPPED-BEAR**; VX-017 → WEAK-BULL; KB-101/102/103; VX-009 → CARL). **Still carried:** VX.tsv +129d stale · KB 28 rows past Stale_By · 13 terminal rows cited live · TIMELINE (6/22) · FLOW (7/05) · Feb `challenges/KRE_*` still say "$480B" (dated history).
+7. 🟡 **Review debt:** ✅ **#13 DONE 23:5x** (stale vectors 4 → 1, only VX-009 with CARL; VX-021 → MODERATE 55/45; VX-026 retired NO-VERDICT; VX-006 grades **Fri 11/27**: SPY > 683.39). ✅ **#12 DONE 23:4x** (terminal rows cited live 13 → 2 intended; **VX-015 own flip met 10/02, now FLIPPED-BEAR**; VX-017 → WEAK-BULL; KB-101/102/103; VX-009 → CARL). **Still carried:** VX.tsv +129d stale · KB 28 rows past Stale_By · 13 terminal rows cited live · TIMELINE (6/22) · FLOW (7/05) · Feb `challenges/KRE_*` still say "$480B" (dated history).
 
 ## OPEN THREADS
 

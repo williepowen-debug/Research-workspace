@@ -25,6 +25,7 @@
 | 🟢 10/31 | RED-25 re-review (if the test is unrun) · CHG-051 re-review | — | the FT-08 selectivity note (≥3.0 = near-descriptor) is due at the CHG-051 spec review |
 | 🔴 **Tue 11/10 08:30 (BLS-verified)** | Oct CPI: **FT-08 exit test** + CHG-028 final | **Tree pre-written** → `research/2026-11-10_OCT_CPI_DECISION_TREE.md`. Exit only on Oct core ≤0.0 (P≈5%). **CHG-028 closes on any verdict**, no re-anchor | REALIZED already foreclosed; Wed 11/11 Veterans Day ICE bar is a non-session |
 | 🟠 11/15 | Nov HHDC: CARL kill rule (CHG-045) | grade as written | — |
+| 🟡 **Fri 11/27** | VX-RED-006 Zweig thrust 12-month grade | SPY close > 683.39 = CORRECT (retire); ≤ = WRONG | tracking +12.6% [10/14]; breadth has narrowed since August |
 | 🟡 11/30 | BRK-32 (CHG-044) | E3b is unvalidated since BROCK retired the CCLFX exhibit (S50) | watch BROCK's L2 re-basing (BCRED $42.78B) |
 | 🟡 12/15 | FL assessment-default / snowbird window (CORAL+MARCO) | — | Florida = Will's top geography |
 | 🟡 12/18 | KRE Dec / APO Dec $95P expiry | — | ⚠️ the canon row says "KRE Dec $60P ×7"; FORGE 10/1 shows the KRE leg ROLLED into a **Dec-31 65P**. Verify against FORGE, do not cite this row's strike |
