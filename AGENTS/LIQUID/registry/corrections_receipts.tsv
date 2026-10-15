@@ -22,3 +22,4 @@ receipt_date	correction_id	action	note
 2026-10-09T14:07Z	COR-20261009-02	NO-OP	scope=LIQUID carries no figure or claim from the corrected signal - grep of STATUS.md, MEMORY.md and workbook/KB.tsv on 2026-10-09 found none; drained in prome-75 L0 wake 2026-10-09
 2026-10-14T18:05Z	COR-20261013-16	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#1-now; validation_ref=AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md#funding-actually-measured; 
 2026-10-14T18:06Z	COR-20261012-25	NO-OP	scope=Current LIQUID ladder and funding verdict do not use the historical FHA100.7bp aggregation or causal kill. Correction read. No current LIQUID numeric premise needs replacement.; 
+2026-10-15T12:40Z	COR-20261014-23	NO-OP	scope=LIQUID carries no SIG-W-20261014-001 tag reading or FT-08 or CHG-028 pump pass-through claim on any desk surface (grep 10/15 found only board_log and inbox hits) and -001 was logged noted 10/14 as dated context only; 
