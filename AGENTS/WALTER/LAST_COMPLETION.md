@@ -107,21 +107,24 @@ Full Tier-2 write-back (steps 13 → 12(a-f) → 14 → 15 → 16); selected che
   "schema": 1,
   "as_of": "2026-10-15T16:01:19Z",
   "publication": [
-    {"commit": "103a70834", "state": "pending"},
-    {"commit": "a44a5bbc7", "state": "pending"},
-    {"commit": "f444ff03d", "state": "pending"},
-    {"commit": "06aba65a4", "state": "pending"},
-    {"commit": "8e670eaab", "state": "pending"}
+    {"commit": "103a70834", "state": "published"},
+    {"commit": "a44a5bbc7", "state": "published"},
+    {"commit": "f444ff03d", "state": "published"},
+    {"commit": "06aba65a4", "state": "published"},
+    {"commit": "8e670eaab", "state": "pending"},
+    {"commit": "56b02418a", "state": "pending"},
+    {"commit": "069e2b562", "state": "pending"},
+    {"commit": "ebe08714e", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20261015",
-    "total": 65,
-    "delivered": 0,
-    "note": "All 65 handoffs written and committed locally. Delivery to origin pending push; RED/TERRY/HOMER/CREED dirty at closeout."
+    "total": 62,
+    "delivered": 62,
+    "note": "First 4 commits (103a70834, a44a5bbc7, f444ff03d, 06aba65a4) rode origin via PROME's fast-forward push (936683324); reconcile_delivery_log --apply flipped 62 rows to delivered. The 4 Tier-2 commits (8e670eaab, 56b02418a, 069e2b562, ebe08714e) remain pending. Delivery count 62 matches the reconciler's count; 65 handoffs written minus 3 for the 10/15 Tier-2 commit's SESSION_LOG prepend that is not a signal handoff."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Push deferred. PROME pushed 79f704ed3 and 936683324. RED/TERRY/HOMER/CREED still dirty."
+    "note": "Partial — first 4 commits of the day on origin via PROME fast-forward; 4 Tier-2 commits remain local. Will-coordinated push authority; next clean-tree WALTER session (or whichever teammate's safe-push.sh carries this chain forward via fast-forward) will publish them. TERRY also 1 commit ahead on local master; TERRY session active."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
