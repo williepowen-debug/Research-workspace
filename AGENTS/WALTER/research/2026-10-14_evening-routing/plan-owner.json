@@ -1,0 +1,77 @@
+[
+  {
+    "id": "SIG-W-20261014-015",
+    "slug": "liquid-credit-broadening-reaches-ig-bbb-cumulative-etf-shares-mixed",
+    "title": "LIQUID: cumulative credit widening now reaches IG/BBB while the weak tail dominates; no funding failure measured",
+    "origin": ["LIQUID owner return 2026-10-14T14:07 ET", "AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md (sha256 8b7b95d7)"],
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "BANK_COLLATERAL",
+    "entities": ["ICE-BofA-OAS", "HYG", "JNK", "LIQ-07", "RED-FT-02", "REG-T-03"],
+    "precedence": "PRIORITY",
+    "action": [],
+    "info": ["REGINALD", "BROCK", "HENRY", "SHADE", "BOND", "VIOLET", "RED", "PROME"],
+    "confidence": 0.9,
+    "confidence_language": "owner-measured",
+    "signal_type": "research",
+    "dispatch_note": "Owner-return relay at LIQUID's request (route to REGINALD/BROCK/HENRY as relevant). Info-only: no recipient-directed ask, no new threshold, score or trade. Report hash changed after the prior session's pin (f7dc58c8 -> 8b7b95d7); current version read whole by walter-dc.",
+    "body": "LIQUID's frozen September 25 broadening rule returns BROADENS on the October 13 FRED ICE BofA print: over 15 published observations IG +6bp (to 83bp), BBB +8bp (103), BB +35bp (191), B +46bp (317), CCC +192bp (1,267), HY +48bp (316). Since October 8, IG and BBB widened only +1bp each, so the reach into stronger credit is cumulative and modest: not a one-day investment-grade break and not a stronger-borrower default cohort. IG 83 stays below its >94 gate; CCC minus B at 950bp is the window high, so the weak tail still dominates. HY 316 [October 13] remains below the strict >320 line that starts the RED-FT-02 / REG-T-03 three-day count (0 of 3; RED and REGINALD own the counts). ETF issuer share histories (BlackRock, State Street primaries): HYG shares +16.12% September 24 to October 13 (indicative net creations about +$2.45B), JNK shares -13.47% (about -$0.89B); both shrank after October 6. That is mixed, not a fund-wide forced cash-selling loop, and in-kind redemption need not force bond sales. Funding on October 13: SOFR-IORB -1bp, SOFR 99th percentile +8bp, standing repo facility $0. LIQ-07 funding legs remain 0 of 3; the final S1/S2 verdict needs October 15-16 publications and must read 'no reserve-channel loop observed', not 'no loop'. Caveats that travel: index tiers cannot identify sectors or issuers; six correlated indices are not independent confirmation; actual cash or collateral constraints (haircuts, prime-broker limits, forced sales) remain unmeasured.",
+    "sources": ["AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md (read whole, sha256 8b7b95d73b46e100983eb5368ce5307447dc7d89e00862b3178b93ffc043be86)", "[FRED HY OAS](https://fred.stlouisfed.org/series/BAMLH0A0HYM2), October 13 observation", "BlackRock HYG and State Street JNK official share histories, retrieved by LIQUID October 14"],
+    "ask": "Information only; no recipient-directed task. LIQUID asked that REGINALD, BROCK and HENRY see the dated broadening and ETF evidence; integrate as relevant to your existing reads.",
+    "why": {
+      "REGINALD": "LIQUID named you: stronger-grade spread reach bears on bank credit and the REG-T-03/-04 HY lines you own.",
+      "BROCK": "LIQUID named you: private-credit and wrapper reads depend on the HY/CCC ladder; X1's wrapper half is yours.",
+      "HENRY": "LIQUID named you: credit-spread and equity-vol context for your market-structure read.",
+      "SHADE": "Insurance/shadow-bank holders sit on the BBB/IG reach.",
+      "BOND": "Credit-price context beside your post-CPI Treasury read.",
+      "VIOLET": "Credit-to-vol lag chain ({BOND, BROCK, REGINALD} -> VIOLET)."
+    }
+  },
+  {
+    "id": "SIG-W-20261014-016",
+    "slug": "ici-week-to-oct7-government-and-prime-mmf-both-grew-counterevidence",
+    "title": "ICI week to October 7: government and prime money funds both grew, countering a blanket prime-to-government flight reading",
+    "origin": ["ICI money market fund assets release, October 8 (week ended October 7), via LIQUID owner return 2026-10-14T14:51 ET"],
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "FED_FRAMEWORK",
+    "entities": ["ICI", "money-market-funds"],
+    "precedence": "PRIORITY",
+    "action": ["RED"],
+    "info": ["BOND", "REGINALD", "HENRY", "PROME"],
+    "confidence": 0.85,
+    "confidence_language": "confirmed-at-publisher",
+    "signal_type": "counter-evidence",
+    "dispatch_note": "Owner-return relay at LIQUID's request ('route as relevant dated funding counterevidence'). Counter-Evidence meta-row puts RED on action. Dated October 7; says nothing about later weeks.",
+    "body": "ICI's October 8 release for the week ended October 7: government money-fund assets +$61.15B, prime +$4.11B (published total +$72.27B), institutional prime +$2.33B. Both sectors grew that week, which counters a blanket net flight from prime into government funds. Limits that travel: ICI asset changes are the publisher's flow proxy, not settled cash transactions; they do not identify where the cash came from, rule out offsetting withdrawals, show repo support or maturity (WAM) shifts, or say anything about conditions after October 7. This US ICI population is different from the global Lipper +$153.81B money-fund figure already routed; the two must not be added or compared as one measurement. LIQUID read the official page with a web tool (direct shell request 403); no ES03 band is graded.",
+    "sources": ["[ICI money market fund assets](https://www.ici.org/research/stats/mmf), October 8 release, week ended October 7", "AGENTS/LIQUID/research/2026-10-14_coverage-priorities/REPORT.md section 'New partial gap closure: money-fund composition' (sha256 573ec8b4)"],
+    "ask": "RED: log as dated counterevidence against any 'prime-fund flight' framing in the funding thesis; it covers only the week ended October 7 and grades nothing.",
+    "why": {
+      "BOND": "Money-fund demand for bills/repo sits under Treasury financing.",
+      "REGINALD": "Money-fund growth is the other side of bank-deposit competition.",
+      "HENRY": "Flows context."
+    }
+  },
+  {
+    "id": "SIG-W-20261014-017",
+    "slug": "bond-cpi-day-10y-jump-retraced-firmer-fed-path-no-funding-dysfunction",
+    "title": "BOND: the CPI-day jump in 10-year yields retraced by 14:00; futures priced a firmer Fed path; funding dysfunction not established",
+    "origin": ["BOND owner return 2026-10-14 (cutoff 13:59 ET)", "AGENTS/BOND/analysis/2026-10-14_post-CPI/REPORT.md (sha256 264ac2eb)"],
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "FED_FRAMEWORK",
+    "entities": ["UST-10Y", "UST-30Y", "fed-funds-futures", "ACM-term-premium", "Beige-Book"],
+    "precedence": "PRIORITY",
+    "action": [],
+    "info": ["HENRY", "LIQUID", "MIDAS", "CARL", "RED", "TERRY", "PROME"],
+    "confidence": 0.85,
+    "confidence_language": "owner-measured, vendor intraday basis",
+    "signal_type": "research",
+    "dispatch_note": "Owner-return relay at BOND's request (existing rates/metals/funding recipients). Info-only. Vendor intraday quotes, not official closes; the official October 14 curve, ACM row and repo transactions were unpublished at BOND's cutoff.",
+    "body": "After the 08:30 ET CPI release the 10-year yield jumped 7.3bp in two minutes (5.190% to 5.263%, Yahoo/CBOE one-minute index) and peaked near 5.33% before retracing. By 13:58-13:59 ET versus the prior close (CNBC vendor quotes, not official constant-maturity yields): nominal 10Y -0.6bp, made up of real yield -2.1bp and inflation compensation +1.5bp; 2Y +3.4bp, 30Y -2.4bp, so the curve flattened (2s10s -4.0bp). Fed-funds futures (Yahoo bars captured 13:58 ET, not CME settlements): November implied 3.970% versus 3.935% (+3.5bp), which BOND converts to roughly a 36% proxy for a +25bp move at the October 28 FOMC versus 22% on the prior bar; this is a risk-neutral proxy, not a FedWatch probability, and must not be added to the real-yield split. ACM 10-year term premium 0.851% [October 13] fell 5.1bp October 9 to 13, before CPI. Funding: October 13 SOFR 3.89% vs IORB 3.90%, which predates CPI; no margin, fails or haircut data. October 14 Beige Book: supply-cost pressure, subdued spending and employment (contacts collected on or before October 5). BOND's judgment: inflation pressure persists but this was not a sustained long-end selloff at the cutoff, and market-wide Treasury dysfunction is not established (not certified absent either). Position relevance: the surviving duration-short holding is TBT x5 per FORGE's October 14 broker receipt, under the existing WQ-357 decision clock; TERRY constructs and Will orders. Next tests: the official October 14 nominal/real close (BOND, October 15), PPI October 15, FR2004 dealer positions as of October 7.",
+    "sources": ["AGENTS/BOND/analysis/2026-10-14_post-CPI/REPORT.md (read whole, sha256 264ac2eb6cf746821ca12515d479d2e7ccf80d78006bd5bc151b02717ffb1d49)", "[BLS CPI September](https://www.bls.gov/news.release/archives/cpi_10142026.htm)", "[Beige Book October 2026](https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm)"],
+    "ask": "Information only; no recipient-directed task. HENRY owns the policy-path series; LIQUID owns the funding verdict; MIDAS may use the real-yield split.",
+    "why": {
+      "HENRY": "BOND notes you own the policy-path series; the futures proxy is BOND's consumption of it.",
+      "LIQUID": "Treasury-funding layer beside your LIQ-07 verdict.",
+      "MIDAS": "Real-yield vs inflation-compensation split bears on the monetary-metals read."
+    }
+  }
+]
