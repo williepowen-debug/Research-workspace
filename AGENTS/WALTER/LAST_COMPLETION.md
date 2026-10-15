@@ -7,11 +7,11 @@ Resume point for the next boot: read this file first, then follow the charter bo
 
 ## STATUS
 
-Thursday-AM Will-launched session COMPLETE through full Tier-2 closeout. BOARD 1431 → 1445 (14 new signals -001..-014). Four commits (103a70834, a44a5bbc7, f444ff03d, 06aba65a4) local-only; push deferred because RED, TERRY, HOMER, CREED all currently writing. Boot steps 0..9b all ran; doctor 0 HIGH; reads_check rc=1 on stale attestation (same as boot; calendar-work owed). intake lane 2-missed-weekday but live; X bookmarks re-authorized twice in 24h (per-machine token lifetime short).
+Thursday-AM Will-launched session COMPLETE through full Tier-2 closeout + post-closeout WQ-364 encoding. BOARD 1431 → 1446 (15 new signals -001..-015; last is the WQ-364 fleet-bloc CORRECTION). 8 of 10 commits on origin via teammate fast-forward pushes (PROME 936683324 carried first 4; HOMER's three pushes carried next 4); 2 trailing commits (2ed0d280b reconcile + 669c53a19 receipt partition) + 1 mop-up commit this message are local-pending; next teammate push carries them. Boot steps 0..9b all ran; doctor 0 HIGH; reads_check rc=1 on stale attestation (same as boot; calendar-work owed). intake lane 2-missed-weekday but live; X bookmarks re-authorized twice in 24h (per-machine token lifetime short).
 
 ## CHANGED
 
-- **BOARD 14 signals -001..-014** (route/delivery/kill/correction/batch/doorbell ledgers all appended):
+- **BOARD 15 signals -001..-015** (route/delivery/kill/correction/batch/doorbell ledgers all appended):
   - **-001 PRIORITY (PROME-sourced):** FRED HY OAS 325 bp [10/14] — first >320 cell; RED-FT-02 1-of-3, REG-T-03 1-of-3, GATE-LIQ-069 L4 HY half MET, TERRY WQ-365 QQQ card leg (b) 1-of-2. Action: RED, REGINALD; Info: LIQUID, HENRY, NEXUS + TERRY/CARL via BOARD ID-diff.
   - **-002 IMMEDIATE cluster_mediating:** Asia equities circuit-breaker day — KOSPI -8% (first halt), Nikkei -4%, TAIEX -3.4%; memory-oversupply + Musk RAM post + hot CPI/PPI + 10Y rally into QQQ selloff. Action: HENRY; Info: VIOLET, SAM, ZHAO, NEXUS + RED via ID-diff.
   - **-003 IMMEDIATE:** BLS Sept PPI +1.3% m/m, +6.3% y/y (biggest since 2022); gasoline +20.3% ~half of goods; core ex-F/E/T +0.5% m/m, +5.0% y/y (PROME primary fetch). Action: CARL; Info: HENRY, LIQUID, REGINALD, NEXUS, BOND, MIDAS, LABOR + RED via ID-diff.
@@ -26,6 +26,7 @@ Thursday-AM Will-launched session COMPLETE through full Tier-2 closeout. BOARD 1
   - **-012 PRIORITY (intake 10/13):** EU gas storage record seasonal low ahead of winter + industrial-cost shift; context for HANS-T-07/T-08. Action: HANS; Info: BRENT, HENRY, LIQUID + RED via ID-diff.
   - **-013 PRIORITY (intake 10/13):** KBRA names Kansas community bank as 4th US bank failure of 2026; trips ORACLE 'bank failure' WATCH_FOR (10/15 Polymarket 42.0% thin, $470 liquidity); REGINALD-canary-adjacent; bank name/size/cause UNKNOWN at this read. Action: REGINALD; Info: BROCK, LIQUID, ORACLE + CARL/RED via ID-diff.
   - **-014 PRIORITY (intake 10/13):** TrendForce OCP 2026 cluster — DRAM industry revenue +59.5% QoQ 2Q26 (supply still lagging demand); SK hynix MARS, Samsung CXL+AMD, Microsoft Maia 300 vs Intel LPDDR5X. Industry counterweight to -002's memory-oversupply framing. Action: VULCAN; Info: VIOLET, HENRY, SAM, ZHAO + RED via ID-diff.
+  - **-015 PRIORITY CORRECTION (fleet-bloc-class):** WQ-364 Will-ruled — "private credit is opaque" bloc claim WITHDRAWN fleet-wide; two named gaps survive (AARe Note 14; exit pricing in fund filings). Prior signals -20260828-035 (Burry) and -20260725-004 (Granato/Drall) quoted-source the claim; conclusions HOLD, framing is now attribution. Action: BROCK; Info: SHADE, LIQUID, REGINALD, NEXUS + RED via ID-diff. R1 row COR-20261015-15 WEAKEN.
 - **8 KILLs (kill_log):**
   - CNN MOAB-on-Iran-energy (X-bookmark @spectatorindex) — no CNN primary found; ADD #22-class discipline.
   - US-eases-shadow-fleet-sanctions (X-bookmark @zerohedge) — no Reuters primary; direction sign-inverted vs indexed.
@@ -35,9 +36,9 @@ Thursday-AM Will-launched session COMPLETE through full Tier-2 closeout. BOARD 1
   - Yahoo hiring-freeze commentator opinion (intake 10/13) — unquantified.
   - Moody's RNFs relay (intake 10/13) — no quantified exposure.
   - Hasbro WARN 587 Pawtucket relocation (intake 10/13) — relocation not elimination; LABOR's intake suffices.
-- **4 inbox packets → processed/:** CORAL FL correction, LIQUID CoreWeave primary, ORACLE bank-failure WATCH_FOR, OTTO caveat SIG-OTTO-WALTER-20261014-005.
+- **5 inbox packets → processed/:** CORAL FL correction, LIQUID CoreWeave primary, ORACLE bank-failure WATCH_FOR, OTTO caveat SIG-OTTO-WALTER-20261014-005, PROME WQ-388/WQ-401/WQ-364 ruling packet.
 - **DOORBELL_LOG 16 rows:** 15 NO (RED PROME-doorbelled directly, CORAL LIVE at dispatch, 13 others logged as miss-counter denominator with no WALTER escalation), 1 YES-COVERED on WATT per PROME 3f52934c1 reply.
-- **CORRECTIONS register:** COR-20261015-05/06/07 appended LIVE, cap 2026-10-29, direction HOLD on all three.
+- **CORRECTIONS register:** COR-20261015-05/06/07/15 appended LIVE, cap 2026-10-29, direction HOLD on first three + WEAKEN on COR-20261015-15 (WQ-364).
 - **BATCH_MANIFEST:** BM-20261015-03 CLOSED 15/15 (4 DISPATCH, 9 FOLD, 1 DUP, 1 NO-ACTION, 2 KILL).
 - **BOARD INDEX:** regenerated three times today; final 1445 signals; sha256 preserved in commit msgs.
 - **REGISTRY:** 15 rows refreshed to 2026-10-15 Updated (CARL, CORAL, FERT, HOMER, LABOR, LIQUID, NEXUS, ORACLE, OSPREY, PROME, RED, SAM, SHADE, WALTER, WATT).
@@ -85,16 +86,26 @@ None newly required. Existing choices stay at their owners (same list as last se
 
 ## OPEN DESIGN DECISIONS
 
-**Approvals preserved (unchanged):** WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405 (boundary #6/#8), WQ-426 (GIBBS; routing lane landed). No new unattended-WALTER, Gate C, desk spawn, trade or deployment authority.
+**Approvals preserved + three new rulings 2026-10-15 12:22-12:27 ET (Will Deck taps, build f13a1b197; PROME record `PROME/proposals/2026-10-15_deck-batch-16-RULED.md`):**
+- WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405 (boundary #6/#8), WQ-426 (GIBBS; routing lane landed).
+- **WQ-388 DECLINE** (new) — no unattended WALTER self-scheduling; launch-only stays; 10/17 pilot review (L599) unaffected.
+- **WQ-401 APPROVE** (new) — S1 owner-unconsumed boot line BUILT by PROME in next process slot (DOCKET L730); ① extended narrowly (ACTION-typed peer packets ≥7d at a dark owner, N=7, L0 drain-only, WQ-206 guard unchanged); ③ `due:` field YES with WALTER's two conditions (optional on handoffs, only when an owner row carries the date, never a WALTER-invented deadline; the excluded-by-due count mandatory); set sub-question recorded as (b) dark-at-boot (WALTER's rec). WQ-206 oldest-ACTION-age report stays until Will reassigns it.
+- **WQ-364 APPROVE FUNCTIONAL** (new) — fleet-bloc claim "private credit is opaque" WITHDRAWN; two named gaps survive (AARe Note 14; exit pricing in fund filings). Routed as fleet-bloc CORRECTION class SIG-W-20261015-015 + R1 row COR-20261015-15.
 
-**Unresolved proposals retained (same as last session):**
+No new unattended-WALTER, Gate C, desk spawn, trade or deployment authority.
+
+**Unresolved proposals retained:**
 - AI_INFRA_CAPEX: 5-axis re-cut (Will + VULCAN); financing-leg cluster split (Will, since 7/16); re-file `-0929-010` to CONSUMER_STAGFLATION.
 - Verdict-letter FALSE-vs-UNSUPPORTED F1/F2 (`outbox/2026-09-21_...`).
 - INDEX `LABOR_DOWN` residual.
-- WQ-401 set sub-question (line set vs DOORBELL_LOG set): Will's; WALTER recommends (b).
-- After the S1 line is built: re-scope `delivered_but_unconsumed`; add optional `due:` to FORMAT_SPEC; later propose retiring doorbell leg 3b (rule 6b, Will-gated).
+- After the S1 line is built (DOCKET L730): re-scope `delivered_but_unconsumed`; add optional `due:` to FORMAT_SPEC (now approved under WQ-401); later propose retiring doorbell leg 3b (rule 6b, Will-gated).
 - Staleness-sweep P2 narrower-pattern proposal to Will.
 - CRUISE miss option 2 (intake_scan surfaces KNOWN-class capital-structure titles when the owner desk is dark): proposed 10/14, unruled.
+
+**Resolved this session (recorded, removed from unresolved list):**
+- WQ-401 set sub-question (ruled (b) dark-at-boot).
+- WQ-388 unattended-WALTER self-scheduling (ruled DECLINE).
+- WQ-364 private-credit-opacity bloc claim (ruled APPROVE FUNCTIONAL → WITHDRAWN).
 
 **Carried process ideas:** k, t, u, a, s, j, p. No active top-level REQ.
 
