@@ -596,3 +596,9 @@
 {"ts": "2026-10-13T10:19", "kind": "clock", "text": "New date 2026-10-19: BESSENT '2027-01-10' EXTENSION"}
 {"ts": "2026-10-14T14:44", "kind": "book", "text": "Fresh broker export (2026-10-14): $36,432.23, 38.50% cash."}
 {"ts": "2026-10-14T14:44", "kind": "clock", "text": "New date 2026-10-21: EGBN Q3 print = CHG-027's single deciding print, pre-registered branches\u2026"}
+{"ts": "2026-10-14T22:29", "kind": "gate", "text": "GATE-NEXUS-SEAT-01 moved live \u2192 resolved."}
+{"ts": "2026-10-14T22:29", "kind": "pressure", "text": "Equity-vol went watching \u2192 elevated."}
+{"ts": "2026-10-14T22:29", "kind": "pressure", "text": "Rates went critical \u2192 elevated."}
+{"ts": "2026-10-14T22:29", "kind": "queue", "text": "Off your list: \u2696\ufe0f TERRY's NEW TLT-PUT CARD (you commissioned it, WQ-339) \u2014 APPROVE O\u2026"}
+{"ts": "2026-10-14T22:29", "kind": "queue", "text": "Off your list: \u2696\ufe0f GATE-NEXUS-SEAT-01 \u2014 YOUR VERDICT ON THE FROZEN SPEC (registered 8\u2026"}
+{"ts": "2026-10-14T22:29", "kind": "clock", "text": "New date 2026-10-20: RECEIVER-SIDE CANARY for every routing path (Will 9/25 14:08 ET \"proceed\u2026"}
