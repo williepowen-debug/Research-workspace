@@ -76,12 +76,12 @@
 | 2 | Second salvo at Yanbu, or the Petroline | ✅ FIRED 9/11 (Petroline limb, MoE shutdown). No repeat clause |
 | 3 | US strike tempo NIGHTLY, or the US target set crosses into energy | ✅ energy limb FIRED 9/5 (tankers) · ❌ nightly limb (no US strike since 9/8) |
 | 4 | Iraq/PMF backlash turns kinetic; next rung = a damaging follow-on | 🔴 firing on the actor axis since 7/27 · ❌ no damaging follow-on at the 9/30 withdrawal deadline (US out of federal Iraq 9/30) |
-| 5 | Casualty ratchet (`domain/CASUALTY_RATCHET.md` §2) | 🟡 **10/07 recompute: RATE-STEP NOT LIT on the fresh window** (killed 5 in 9/08–10/07 vs 11 in 8/09–9/07; it was lit at registration 9/8 on Aug–Sep); YELLOW (3 GCC-civilian deaths 10/07); class step unfired (no US/GCC military killed); 158-26 casualty count unknown |
-| 6 | Vessel confirmed SUNK / mine detonation on a hull | ✅ FIRED 9/5 · total losses 3 (dhow 8/4 · Kylo 9/5 · Riesco 9/8); no repeat clause |
+| 5 | Casualty ratchet (`domain/CASUALTY_RATCHET.md` §2) | 🔴 **LIT 2026-10-14 — RED RATE-STEP on the fresh window:** killed 9/15–10/14 = 21 vs 8/16–9/14 = 6 (3.5×; robust excl. contested Sirik 21 vs 1); ORANGE (i) also lit (injured 376 vs 151); class step unfired. Driver: GACA's KKIA 10/10 count (12 killed / 309 injured) + 10/11 (1 / 11). Computed from `CASUALTIES.tsv` (KB-FALCON-278). ⟵ PRIOR: 🟡 **10/07 recompute: RATE-STEP NOT LIT on the fresh window** (killed 5 in 9/08–10/07 vs 11 in 8/09–9/07; it was lit at registration 9/8 on Aug–Sep); YELLOW (3 GCC-civilian deaths 10/07); class step unfired (no US/GCC military killed); 158-26 casualty count unknown |
+| 6 | Vessel confirmed SUNK / mine detonation on a hull | ✅ FIRED 9/5 · **total losses 5** (dhow 8/4 · Kylo 9/5 · Riesco 9/8 · **CAPE DAO** — struck 9/23, IMO "Sunk" as at 10/14 · **GFS PRIDE** 10/13; the last two class-(ii), KB-276/277); **no mine detonation on a hull established** (GFS PRIDE: MPA "unknown projectile"; the IRGC mine claim names no ship); no repeat clause |
 | 7 | Bypass breakage: Fujairah+Sohar below the ROLLING floor AND transits collapsed — read the floor from a live `bypass_watch.py` run, never from a document | 🟢 HOLDING (122,458 vs 29,590 t/d, print 9/25, run 10/01) |
 | 8 | WC-Saudi war-risk rising from 0.1% (transit → origin migration) | 🔴 LIT 9/28 (~3%, Reuters 9/25) |
 
-**Lit/fired: #1 #2 #3(energy) #4(actor) #6 #8 = 6 of 8 limbs** (10/07: #5 off on its fresh window; was 7 of 8 on 10/01). Separation preserved: an indicator firing asserts no barrels; barrels belong to FAL-06.
+**Lit/fired: #1 #2 #3(energy) #4(actor) #5 #6 #8 = 7 of 8 limbs** (10/14: #5 re-lit on its fresh window; 6 of 8 on 10/07; 7 of 8 on 10/01). Only #7 (bypass breakage) is unlit — HOLDING 96,309 vs floor 31,639 t/d, print 10/09, run 10/14. Separation preserved: an indicator firing asserts no barrels; barrels belong to FAL-06.
 
 ---
 
@@ -97,8 +97,8 @@
 
 ## 5. TIME-BASED REVIEW (the reader of every date below = closeout step 11, which compares each date to today)
 
-- **Scenario review every 7 days.** Last: 2026-10-07 (HELD; run one day early inside the GATE-FALCON-001 review session). **Next due 2026-10-14.** Prior: 2026-10-01 (HELD).
-- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first.
+- **Scenario review every 7 days.** Last: **2026-10-14 (HELD B 1 / C 14 / D 85**; class-(ii) losses ×2 proposed to PROME with a HOLD recommendation; casualty ratchet RED; production rung not fired — `reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md`). **Next due 2026-10-21.** Prior: 2026-10-07 (HELD), 2026-10-01 (HELD).
+- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first. *(Checked 2026-10-14: none fired — the two new losses are class (ii), not (iii); class-(iii) count stays 2, both (iii-B).)*
 - *Record:* the former trigger "Will ruling on the production rung" fired 2026-10-01 21:40 ET (registered) and was discharged the same evening by the §2/§2a edit; v3 had been written that day anticipating either outcome, so no wider rewrite was owed.
 - **Cap discipline:** this file is a boot-adjacent reference; keep it under the read cap by moving resolved detail to `archive/`. Do not amend it in place past the cap (the v2 failure).
 
