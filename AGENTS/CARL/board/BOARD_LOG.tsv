@@ -970,3 +970,12 @@ SIG-W-20261012-018	2026-10-12	CONSUMER_CREDIT	PRIORITY	INTEGRATED	KB-CARL-504,KB
 SIG-W-20261012-020	2026-10-12	BANKRUPTCY	PRIORITY	INTEGRATED	KB-CARL-516	2026-10-12	Full packet/source arithmetic reviewed; Epiq period/category distinctions and YTD prose inconsistency retained. No POP grade or new study.	
 SIG-W-20261012-025	2026-10-12	HOUSING	PRIORITY	INTEGRATED	KB-CARL-527,KB-CARL-530	2026-10-12	Full correction/source read at e6f065cb5/hash48e8edfc;97.4weighted/22.5best-leg illustrations,78.47 accounting and191bp scenario qualified. COR25APPLIED; causaltestNOTCOMPUTABLE.	
 SIG-W-20261012-027	2026-10-12	CONSUMER_CREDIT	PRIORITY	INTEGRATED	KB-CARL-395,KB-CARL-524	2026-10-12	Full BOARD/lane read; working-source preparation already repairs Junecollection/filedJuly and field/column/age/denominator limits. COR27NO-OP. No earlygrade/floorchange.	
+SIG-W-20261012-034	2026-10-12	MACRO_INFLATION	PRIORITY	noted		2026-10-15	Lane copy; see board_log.tsv. Same reporting cycle as -20261008-025; not a second print.	
+SIG-W-20261012-042	2026-10-12	OIL_ENERGY	PRIORITY	noted		2026-10-15	Lane copy; see board_log.tsv. Household-cost figure is a model, not observed spending.	
+SIG-W-20261014-001	2026-10-14	MACRO_INFLATION	IMMEDIATE	acted	KB-CARL-531,KB-CARL-532	2026-10-15	Lane copy; CPI read + CRL-10 8->1%.	
+SIG-W-20261014-008	2026-10-14	MACRO_INFLATION	PRIORITY	acted		2026-10-15	Lane copy; COLA 3.6% recomputed 3.619%.	
+SIG-W-20261014-011	2026-10-14	TARIFF_TRADE	PRIORITY	noted		2026-10-15	Lane copy; policy/capital context, no consumer channel.	
+SIG-W-20261014-014	2026-10-14	OIL_ENERGY	PRIORITY	acted	KB-CARL-532	2026-10-15	Lane copy; diesel relief at the margin; CRL-10 tail.	
+SIG-W-20261014-036	2026-10-14	MACRO_INFLATION	PRIORITY	acted	KB-CARL-506	2026-10-15	Lane copy; COR-20261014-36 APPLIED.	
+SIG-W-20261014-023	2026-10-14	MACRO_INFLATION	PRIORITY	noted		2026-10-15	BOARD info (action []). Read whole 10/15. CHG-028 Sept oil-to-core leg NOT MET; pass-through to headline. CARL's CPI card already read it that way; COR-20261014-23 NO-OP receipted.	
+SIG-W-20261014-033	2026-10-14	CONSUMER_CREDIT	ROUTINE	noted		2026-10-15	BOARD info (action []). Read whole 10/15. Tricolor charge covers 11 of >=13 deals. CARL never cited the 'every securitization' claim; COR-20261014-33 NO-OP receipted.	
