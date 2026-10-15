@@ -46,11 +46,13 @@ for name,txt,exp in T:
     print(f"  {'PASS' if ok else 'FAIL'}  {name:22} -> {got} (expect {exp})")
 ids,ledgers=ns['_logged_ids']()
 r1 = not any('timestamp' in i for i in ids)
-r2 = len(ledgers)==3
+import glob as _g
+n_arch=len(_g.glob('/home/willi/Research-workspace/AGENTS/RED/archive/board_log_pre-*.tsv'))
+r2 = len(ledgers)==1+n_arch and n_arch>=2  # S53 2026-10-15: was ==3, hard-coded at the 2nd rotation (9/12); the log has rotated 5x since and the assertion failed silently on every later run — count the archives on disk
 live=set(re.findall(r'SIG-W-\d{8}-\d{3}', open('/home/willi/Research-workspace/AGENTS/RED/board_log.tsv').read()))
 r3 = bool(ids-live)
 print(f"\n  {'PASS' if r1 else 'FAIL'}  REGRESSION: header row never enters the id set ({len(ids)} ids)")
-print(f"  {'PASS' if r2 else 'FAIL'}  all three ledgers read (live + 2 archives)")
+print(f"  {'PASS' if r2 else 'FAIL'}  all ledgers read (live + every archive/board_log_pre-*.tsv on disk)")
 print(f"  {'PASS' if r3 else 'FAIL'}  OVERLAP: {len(ids-live)} ids logged ONLY in an archive count as logged")
 bad += (not r1)+(not r2)+(not r3)
 print(f"\n{'ALL PASS (14/14)' if bad==0 else str(bad)+' FAILURES'}")

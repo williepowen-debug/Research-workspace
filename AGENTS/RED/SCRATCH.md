@@ -1,77 +1,56 @@
 # RED SCRATCH — canonical session handoff
-**Written:** 2026-10-14, final closeout at 2026-10-14 23:47 EDT from `date` (first closeout ~22:5x, then Will's #12 and #13). **Session:** S52, launched directly by Will 20:12 ET ("boot up, catch up"), then Will's items #2–#13. RED had been offline since S51 (10/09). **Supersedes:** S51 (in git history: `git log -p -- AGENTS/RED/SCRATCH.md`).
+**Written:** 2026-10-15 11:06 ET (from `date`; S53 first closeout — the session stays open for the 16:30 ET H.4.1 read; an addendum follows it). **Session:** S53, launched by Will 10:18 ET as RED's FIRST Fable session ("boot up … catch up on the system's current context … then catch up on all owed work AND hunt for anything broken, incomplete, inaccurate and repair it"). **Supersedes:** S52 (10/14; in git history: `git log -p -- AGENTS/RED/SCRATCH.md`).
 
 ---
 
-## CHANGES SINCE (S51 10/09 → S52 10/14)
+## CHANGES SINCE (S52 10/14 23:47 → S53 10/15 10:18)
 
-- **CPI 10/14:** headline +0.6 / 3.7% y/y (gasoline +9.1%); core +0.3 / 2.6% y/y; shelter 0.4; real hourly earnings −0.5% m/m.
-- **SKEW:** 154.34 · 155.06 · 154.74 · 157.30 (10/09–10/14). **HY** 316 [10/13]; CCC 1,267. Discount window $6.2B → $8.7B → $10.0B [9/23–10/7].
-- **Banks:** OZK RaDD extended to Dec 2029 with $100M (8-K, 10/12). Large-bank Q3 benign.
-- **War:** GFS PRIDE sank 10/13 and GFS GISELLE was hit 10/14, against the IEA's Gulf-export recovery to 13.9 Mb/d.
-- **Will's rulings:**
-  - **WQ-425 RULED B (20:49):** TERRY's cards recommend **SELL OZK 40P ×4 before 10/20** and **lean SELL WAL 65P ×4 before 10/19**.
-  - **Six registry rule changes (~22:20, in this session).**
-  - Earlier: WQ-414 / 418 (PASS) / 420.
+- **The box crashed ~03:08 ET** (Windows Update restart; PROME verified). PROME recovered twelve desk sessions by 09:00; nothing fired on the fire-ledger; $0.
+- **FRED 10/14 ICE cells (published 10/15 AM): HY 325 · CCC 1,282 (window high) · BB 199 · B 329 · IG 84.** → `RED-FT-02` **1 of 3** (PROME doorbell 10:3x; verified at FRED; WALTER SIG-W-20261015-001 is the formal record — its "10/13 Columbus" is wrong, 10/12 was; correction sent).
+- **Tape 10/15 10:19 ET:** VIX 17.56 (+4%) · SPY −0.3% · QQQ 720.5 (−1.2%) · TLT +1.9% · 30Y ~5.40 vendor (5.56 official 10/13) · claims 199K [w/e 10/10, LABOR band B] · 5y5y 2.34 [10/14] · discount window $9.965B [10/7] (10/14 point prints 16:30 today).
+- **Rulings:** WQ-437 (Will 08:31): CRL-29 graded 10/20 on RED's five clarifications; CARL accepted all five pre-panel. WQ-436/438 (recovery spawns; LABOR charter lines).
+- **Positions (Will's hand, from PROME's 10:35 correction):** the QQQ Oct-15 $740P were SOLD 10/14 (RED's morning brief had relayed PROME's stale handoff line — corrected to Will); today's only QQQ expiry is a $715P ×1; tomorrow QQQ $735C ×1 and HBAN $16P ×1. OZK 40P ×4 SELL before 10/20 and WAL 65P ×4 SELL before 10/19 are Will's ruled orders (WQ-428/429); RED grades no fill.
+- **Inbox:** LABOR path change · CARL C1–C5 accepted · PROME WQ-437 · OSPREY OSP-06 CONFIRMED · **SAM: VX-026 should be CONFIRM-DEAD, not NO-VERDICT — conceded.**
 
-## WHAT I DID (S52)
+## WHAT I DID (S53)
 
-**Mechanical — net-bear 60 → 65, confidence 70:**
-- **FT-08 FIRED** (Table A 3.247216%): Stag +3 / Managed −2 / Soft −1. A conflicting 0.4 note was ruled against (labelled).
-- **FT-10 FIRED** (Cboe 157.30, 4 of 4): Acute +2 / Managed −2.
-- **Weights: Managed 27 · Stag 35 · Acute 16 · War 14 · Soft 4 · Rescue 4.**
+**Market / record (no hypothesis weight moved; HOLD 70 · net-bear 65):**
+- FT-02 graded 1 of 3 at the registry, STATUS, NEXUS, OUTBOX -060; scan view regenerated.
+- VX-026 → RESOLVED-CONFIRM-DEAD effective 8/7 (ML-296, my error); receipt to SAM.
+- FT-11: live reading written into canon; `base_rate_review.py` now prints the three classification legs (FLOW on today's window).
+- CHANGELOG S53 entry (trigger-state change, no weight).
 
-**Analysis and frameworks:**
-- **CHG-028 leg 1 NOT MET:** REALIZED foreclosed. The fire means core is hot, not that oil drives it.
-- **CHG-RED-054** (bank-put book; *issued as 052 in error, see below*). TERRY's basis note was accepted: history runs 0.55–0.75× the option-implied odds, not "less than half".
-- **Fleet CPI read check:** no over-read. NEXUS and WALTER fixed their framing; both verified at their commits.
-- **Re-derivation:** no move, with next moves pre-stated.
-- **Pre-written:**
-  - bank Q3 tree (CHG-027 EGBN bands closed pre-data);
-  - LIQ-07 reading (all four asks answered; two corrections against RED accepted);
-  - Oct CPI tree (FT-08 exit only on core ≤0.0; CHG-028 closes on any verdict).
-- **Answered:** CRL-29 clarifications (sent blind) · CARL's tariff counter (adopt y/y, attack m/m and level) · L657 BRK-26 · REGINALD's FHLB (Pillar 10 retired).
+**Will's 10/14 remaining items — ALL DONE:** #14 28 KB rows (25 DATED-HISTORICAL with reason + owner, 3 refreshed from FRED) → which exposed 7 LIVE vector cells carrying April/June facts as current → all refreshed from owner surfaces + FRED (KB-104…108 minted; VX-002 bull 25→20 vector-level; VX-005 relabelled UNDATED-CARRY + CET1 ask to REGINALD); #15 consumer check 60→65 and FT-08 +3→+1: zero certified-stale, no packets; #16 KRE Feb files → `archive/` with DATED-HISTORY banners, R13 basename collision resolved.
 
-**Apparatus:**
-- **CHG-051 RESOLVED.** Will approved P1–P6:
-  - holiday bars are non-sessions (`scripts/nonsession.py`, 13 tests);
-  - FT-08 future fires move +1;
-  - FT-01 is log-only;
-  - FT-06 does not re-arm;
-  - FT-02 counts first-published values;
-  - the 0.4 note is retired.
-- **boot.py** gained an event-clause flag, a PROVISIONAL label on oil, and an outcome scan keyed on a blank grade.
-- **Housekeeping:** 15 corrections receipted · inbox drained to 0.
-
-**Closeout self-findings (fixed):**
-1. **ID collision:** RED issued CHG-RED-052 although that ID already existed (9/10). Renumbered **CHG-RED-054**. `schema_check.py` now enforces unique IDs (verified to fail on the duplicate first). TERRY's cards, PROME's WQ-425/DOCKET and RED's same-night records cite "052", which is an alias.
-2. **Narrative stamps** in S52c–h ran up to ~35 min ahead of the clock. Corrected in live files from the commit log; the fold carries a correction header. ML-293.
+**Apparatus (Will's "hunt for anything broken") — cold audit (Opus, read-only, ~100 findings) and repairs; the full itemised record is `MAINTENANCE.md` S53:**
+- NEW: `review_debt.py` axis ④ (evidence-cell lag; falsified on the pre-refresh vintage) · `ft11_legs()` · `schema_check.py` per-row cell count (falsified on a broken copy) · `gen_trigger_scan.py --write` only · boot §③ sorted + non-canon status rows shown · `workbook/LEDGER_GLOB` · SCHEMA domains widened to measured usage, 9 rows added.
+- DATA: ML-248…256 Status cell restored (9 rows were column-shifted for 31 days under a passing checker) · CATALYSTS 🔴-status row resolved, OZK re-dated 10/20 CONFIRMED, KRE strikes per FORGE, tokens normalised · WATCHLINES CRLF→LF · registry FT-10 current-state-first, FT-06 exit 0 of 5 re-counted, FT-03/04/05/09 stamped · RED-25 timeframe parseable · OUTCOME_SPEC two-clock banner.
+- SURFACES: **STATUS re-based** (129→94 lines, 23.3→15.1 KB; old file folded verbatim + crc) — challenge table now the TSV's six open rows (five closed rows had been shown ACTIVE), one prediction tally (13C/10W/2A) mirrored to CALENDAR and NEXUS, FT-10 one state everywhere · **NEXUS_BRIEF rebuilt** (vS52 rotated verbatim) · CALENDAR reconciled to canon (8 edits).
+- CHARTER: 21 in-place corrections (contradictory 1.5/5.5 lane claim, FROZEN FLOW.tsv still instructed, deleted `archive/handoffs/`, non-existent `competing-hypotheses/`, stale counts, ownership gaps, TOP-of-CHANGELOG). **Restructure proposal to Will** → `research/2026-10-15_CHARTER_RESTRUCTURE_PROPOSAL.md` (44.6 KB → rules ≤20 KB + provenance; no rule changes).
+- RETIREMENT: 14 files → `archive/` (README entries); TIMELINE.md and CHALLENGE_IMPACT_LEDGER.md FROZEN-bannered; `__pycache__` trashed. MAINTENANCE dead links fixed, stale checklist retired.
+- Packets (carve-out ①): SAM (VX-026), WALTER (date fix), REGINALD (CET1 ask). board_log rotated (59.4%). Memory: extended `finding_header_edit_is_the_edit_most_mistaken_for_maintenance` (a Last_Reviewed bump over an untouched cell is the same edit).
 
 ## NEXT SESSION (dated, priority-ordered — do not improvise; every item has a pre-written file)
 
-1. 🔴 **Thu 10/15:** H.4.1 discount-window point (~16:30) + claims. **Fri 10/16:** LIQUID's LIQ-07 verdict. Apply `research/2026-10-16_LIQ07_RED_READING.md` §4. Acute +1 only if S1 **and** a 4th weekly discount-window rise.
-2. 🔴 **FT-02 daily** (316 [10/13], 4bp): 3 consecutive FRED obs >320, now **holiday-filtered**. Fire = NET-BEAR +3 / CONF +2. **FT-10 exit watch** <140 s=4 (Cboe CSV only).
-3. 🟠 **Mon 10/19 → Thu 10/22:** WAL / OZK / EGBN prints. Grade **10/22 after all calls** per `research/2026-10-19_BANK_Q3_DECISION_TREE.md`: CHG-027 (amended EGBN bands), Acute ±1 conjunctions, and the CHG-RED-054 re-grade. Record Will's actual OZK/WAL orders if any; RED does not grade fills.
-4. 🟠 **10/20:** CARL's CRL-29 first grade. Check CARL's disposition of the five clarifications, then grade CHG-049.
-5. 🟡 **Tue 11/10:** Oct CPI per `research/2026-11-10_OCT_CPI_DECISION_TREE.md` (refresh the nowcast 11/9; close CHG-028 on any verdict). **Wed 11/11 Veterans Day:** confirm boot skips the ICE bar in the FT-02 count.
-6. 🟡 **Re-derivation inputs logged, not applied:** **bear for War:** FALCON (10/14) counts 5 ship losses (IMO: 3 "Sunk" since 2/28; RED had called GFS PRIDE the "first", which COR-20261014-31 corrected), its casualty ratchet is RED, and its production rung D is ARMED (not fired); **bull for Stag and funding:** the anti-spiral (real AHE; once-only); the tariff y/y base effect turning negative; ICI money funds both growing; CPI breadth narrowing (Bloomberg, secondary).
-7. 🟠 **WILL'S REMAINING LIST — start the fresh boot here** (Will 10/14 23:47: *"continue the remaining tasks on a fresh boot"*):
-   - **#14: KB rows past their own Stale_By (28).** Run `review_debt.py` §①. Disposition per row: refresh from a primary · re-class DATED-HISTORICAL · route to the owner (never re-derive another desk's number). The oldest is KB-RED-068 (due 8/21).
-   - **#15: the closeout check skipped at S52:** `consumer_check.py` for superseded RED figures (net-bear 60 → 65; FT-08 magnitude +3 → +1 for future fires). Bare 2-sig-fig figures send nothing; run it and act only on 🔴.
-   - **#16: the Feb `challenges/KRE_*` debate files still say "$480B" FHLB.** Banner them as DATED HISTORY or `git mv` them to `archive/` under the retirement rule (>60d, not boot-read, not cited by a live doc; check citations first).
-   - **Done tonight (#12/#13):** terminal facts cited live 13 → 2 (both intended: VX-009 → CARL, VX-012 → LABOR Q3); VX-015 FLIPPED-BEAR (own flip met 10/02); VX-017 → WEAK-BULL; VX-021 → MODERATE 55/45; VX-026 retired NO-VERDICT; VX-006 grades Fri 11/27; `review_debt.py` fixed; stale vectors 4 → 1. VX.tsv staleness alert stays lit by design until CARL measures VX-009.
+1. 🔴 **TODAY 16:30 ET — H.4.1 `WLCFLPCL` 10/14 point** (S53 addendum): 4th weekly rise above $9.965B = leg 1 of the pre-stated Acute +1. **Fri 10/16:** LIQUID's LIQ-07 verdict (`research/2026-10-16_LIQ07_RED_READING.md` §4) = leg 2; Acute +1 only on BOTH. **FT-02 10/15 cell** (FRED ~10/16 AM): >320 → 2 of 3; ≤320 → reset. **FT-11 10/15 official close** (FRED ~10/16 PM): if Δ5 ≤ −10.2, classify with `base_rate_review.py` legs on the SAME window, state both endpoint dates; FLOW moves nothing; record the verdict in canon + TRIGGER_OUTCOMES. HBAN 16P ×1 / QQQ 735C ×1 expire (Will's hand).
+2. 🟠 **Mon 10/19 → Thu 10/22:** WAL (10/19 AMC) · OZK (10/20 AMC, call 10/21 08:30 — CONFIRMED) · EGBN (10/21 AMC, call 10/22 10:00). Grade **10/22 after all calls** per `research/2026-10-19_BANK_Q3_DECISION_TREE.md`: CHG-027 (amended EGBN bands), Acute ±1 conjunctions, CHG-054 re-grade. **Tue 10/20: CARL's CRL-29 first grade under C1–C5 → CHG-049 re-review; VX-009 measurement.**
+3. 🟠 **Post-10/22: discretionary weight re-derivation** on the logged inputs (STATUS § CURRENT ASSESSMENT lists them). Not before.
+4. 🟡 **Fri 10/16 closeout item:** `git mv LAST_COMPLETION.md archive/` (eligible 10/16). **Will's answer on the charter restructure** (earliest execution Fri 10/23, never on a catalyst day). **REGINALD's CET1 answer → VX-005.** **WALTER's SIG-W-20261015-001 fix** (check at the artifact; move the lane file to `inbox/WALTER/processed/` once WALTER has committed it — it was untracked at 10:3x).
+5. 🟡 **Tue 11/10** Oct CPI per `research/2026-11-10_OCT_CPI_DECISION_TREE.md` (nowcast 11/9; CHG-028 closes on any verdict; FT-08 exit only on core ≤0.0). **11/11 Veterans Day:** confirm the ICE bar is a non-session in the count. **Fri 11/27:** VX-006 grade.
+6. 🟡 **MEMORY_ARCHIVE offload** (W7 unpractised since 6/02; MEMORY.md 22 KB = 68% of budget) — ordinary write-back at a quiet closeout.
 
 ## OPEN THREADS
 
-- **The FT-08 fire is narrow:** core is hot, but oil didn't drive it and 5y5y didn't move. Downstream "stagflation confirmed" over-reads it. NEXUS and WALTER have corrected their framing; the next HEARTBEAT re-base is PROME's.
-- Physical oil is ~$29 over paper. War +1 holds by S51's own conditions.
-- WALTER was asked to apply the non-session rule to its own FT counter before 11/11.
+- **The FT-08 fire is narrow** (core hot, not via oil, 5y5y flat; real wages negative four months = the anti-spiral). Downstream "stagflation confirmed" over-reads it; NEXUS/WALTER corrected 10/14; HEARTBEAT's next re-base is PROME's.
+- **A 30Y rally into risk-off is not evidence until FT-11 classifies it.** On today's window the classifier says FLOW (buyback suppression), which would be a finding about RED's instrument.
+- **`test_board_gap.py`** failed one assertion at this write ("all three ledgers read (live + 2 archives)"): see the commit body for the disposition.
+- VX.tsv's staleness alert stays lit by design until CARL measures VX-009 (10/20).
 
 ## PENDING WILL-DECISIONS
 
-- **WQ-425 orders (Will's):** sell OZK 40P ×4 before the Tue 10/20 release, and WAL 65P ×4 before Mon 10/19 (TERRY's cards). RED has no trade view; it only challenged the premise.
-- L657 goes to Will only if BROCK disagrees.
+- **Charter restructure** (proposal file above): approve / decline / defer.
+- **Orders (his):** OZK 40P ×4 SELL before Tue 10/20; WAL 65P ×4 SELL before Mon 10/19 (WQ-428/429, TERRY books). RED has no trade view.
 
 ## GIT STATE
 
-No pull at boot (0 behind; other desks dirty). All S52 work is committed path-scoped and pushed via `safe-push.sh` (one non-ff race resolved after a clean overlap check). Packets were delivered under carve-out ① to PROME, BROCK, TERRY, WALTER, NEXUS, CARL and LIQUID. Memory files were self-committed under carve-out ③.
+Checked out at origin (0 behind at boot; other desks' dirty paths untouched). S53 commits so far: 392c7e416 (VX-026 + inbox) · 75e1b12b3 (FT-02) · 0d56d493d (#14–#16) · 484e83fac (WALTER fix) · bc29c3409 (axis ④ + vectors) · then the audit-repair batch (this write). Push at the final closeout via `safe-push.sh`.

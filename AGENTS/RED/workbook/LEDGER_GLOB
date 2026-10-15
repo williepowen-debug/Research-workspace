@@ -1,0 +1,15 @@
+# RED ledger declaration for scripts/ledger_staleness.py (root CLAUDE.md step 1c-bis).
+# Created 2026-10-15 (S53) on the cold audit's finding 1.19: RED had no LEDGER_GLOB while 10 desks
+# did, so the script used its default (workbook/*.tsv) and reported 8 TSVs NOT scanned —
+# docket/CATALYSTS.tsv, docket/WATCHLINES.tsv and the registry among them. Globs are relative
+# to AGENTS/RED/, whitespace-separated. FLOW.tsv is FROZEN-bannered (two-state rule), SCHEMA.tsv
+# is a contract not a ledger, VX.tsv's two-clock header is pinned to its stalest live row by
+# design (alert stays lit while VX-009 is carried; see the banner). handoff_WALTER/ is a frozen
+# 2026-05-06 artifact and is deliberately NOT declared.
+
+workbook/*.tsv
+docket/*.tsv
+registry/FALSIFICATION_TRIGGERS.tsv
+registry/TRIGGER_OUTCOMES.tsv
+registry/OUTCOME_SPEC.tsv
+board_log.tsv

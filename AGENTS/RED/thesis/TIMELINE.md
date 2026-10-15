@@ -1,3 +1,5 @@
+> ⛔ **FROZEN 2026-10-15 (S53) — not maintained; STATUS is canonical, do not cite rows or figures here as current.** v3 (2026-06-22) carries a Path A 44 / Path B 50 / War 6 framework that the six-hypothesis weight set (STATUS § CURRENT ASSESSMENT) replaced; position/expiry mismatch tracking lives on TERRY's cards and FORGE/STATUS.md.
+
 # RED ADVERSARIAL TIMELINE v3 — Bifurcated Path A / Path B
 
 *Network consensus timeline vs RED's bifurcated assessment of how the thesis resolves.*

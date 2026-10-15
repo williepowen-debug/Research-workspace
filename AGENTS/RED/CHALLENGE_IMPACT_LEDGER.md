@@ -1,3 +1,5 @@
+> ⛔ **FROZEN 2026-10-15 (S53) — not maintained; STATUS is canonical, do not cite rows or figures here as current.** census covers CHG-RED-001…043 (harmful-revision rate 2/24 = 8.3%, S27b 7/31); 11 challenges have been issued since and are not scored here. Refresh = a scheduled session of its own, not a boot read.
+
 # RED — Challenge Impact Ledger (harmful-revision measurement)
 
 **Built:** 2026-07-31 (S27b) on PROME's 7/25 task (`inbox/processed/2026-07-25_from-PROME_harmful-revision-ledger-task.md`, from `AUDITS/2026-07-22_system_analysis_v2.md` §12 Priority 6). **Question measured:** of the revisions RED's challenges forced on target theses, did any make the thesis materially *worse* against subsequent evidence known today?

@@ -15,7 +15,7 @@ The view is deterministic: same canon bytes -> same view bytes (no timestamps). 
 comment carries the canon sha256 so a stale view is detectable without a diff.
 
 Usage:
-  python3 AGENTS/RED/scripts/gen_trigger_scan.py           # (re)generate the view
+  python3 AGENTS/RED/scripts/gen_trigger_scan.py --write   # (re)generate the view (S53: explicit flag; bare/--help no longer write)
   python3 AGENTS/RED/scripts/gen_trigger_scan.py --check   # exit 1 if the view is stale/absent
 
 Never parse RED TSVs with the csv module (literal '"' in prose cells) — split on tab.
@@ -43,7 +43,7 @@ def render(canon_bytes: bytes) -> str:
         raise SystemExit(f"EXCEPTION: canon lacks column(s) {missing} — view not generated")
     idx = [header.index(c) for c in SCAN_COLS]
     out = [
-        "# GENERATED VIEW — do not hand-edit. Regenerate: python3 AGENTS/RED/scripts/gen_trigger_scan.py"
+        "# GENERATED VIEW — do not hand-edit. Regenerate: python3 AGENTS/RED/scripts/gen_trigger_scan.py --write"
         f" | canon=registry/FALSIFICATION_TRIGGERS.tsv sha256={hashlib.sha256(canon_bytes).hexdigest()}"
         " | CANON GOVERNS every fire, citation and ruling; this view exists to keep WALTER boot 6b/6c under the read cap.",
         "\t".join(SCAN_COLS),
@@ -57,14 +57,24 @@ def render(canon_bytes: bytes) -> str:
 
 
 def main() -> int:
+    # S53 2026-10-15 (cold audit 2.1): the old main() wrote the view on ANY argv other than
+    # --check — including --help and typos; the auditor's `--help` regenerated the file.
+    # Writing is now the explicit --write; --check is read-only; anything else is refused.
+    import argparse
+    ap = argparse.ArgumentParser(description="GENERATED scan view of registry/FALSIFICATION_TRIGGERS.tsv for WALTER boot 6b. "
+                                 "--check = verify the view matches canon (read-only); --write = regenerate it. Never hand-edit the view.")
+    g = ap.add_mutually_exclusive_group(required=True)
+    g.add_argument("--check", action="store_true", help="read-only: exit 1 if the view is absent or stale vs canon")
+    g.add_argument("--write", action="store_true", help="regenerate registry/FALSIFICATION_TRIGGERS_SCAN.tsv from canon")
+    args = ap.parse_args()
     canon_bytes = CANON.read_bytes()
     expected = render(canon_bytes)
-    if "--check" in sys.argv:
+    if args.check:
         if not VIEW.exists():
-            print(f"🔴 SCAN VIEW ABSENT: {VIEW.relative_to(RED)} — run gen_trigger_scan.py")
+            print(f"🔴 SCAN VIEW ABSENT: {VIEW.relative_to(RED)} — run gen_trigger_scan.py --write")
             return 1
         if VIEW.read_text(encoding="utf-8") != expected:
-            print(f"🔴 SCAN VIEW STALE vs canon — run gen_trigger_scan.py (canon sha256 {hashlib.sha256(canon_bytes).hexdigest()[:12]})")
+            print(f"🔴 SCAN VIEW STALE vs canon — run gen_trigger_scan.py --write (canon sha256 {hashlib.sha256(canon_bytes).hexdigest()[:12]})")
             return 1
         n = len([l for l in expected.split("\n") if l and not l.startswith("#")]) - 1
         print(f"✅ SCAN VIEW current: {n} rows, {len(expected.encode())} B (canon {len(canon_bytes)} B)")

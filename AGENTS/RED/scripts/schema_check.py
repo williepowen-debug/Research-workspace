@@ -54,10 +54,14 @@ FILES = {
     # Outcome axis pair (added 2026-08-27 S36d, CHG-051 deliverable 2): the pre-committed
     # per-trigger spec and the per-fire grade ledger. Registry-adjacent, so they live in
     # registry/ beside the surface they grade.
-    "OUTCOME_SPEC.tsv": (ROOT / "registry" / "OUTCOME_SPEC.tsv", 0),
+    "OUTCOME_SPEC.tsv": (ROOT / "registry" / "OUTCOME_SPEC.tsv", 1),  # S53: line 0 = two-clock banner (PAT-044)
     "TRIGGER_OUTCOMES.tsv": (ROOT / "registry" / "TRIGGER_OUTCOMES.tsv", 0),
     "../docket/CATALYSTS.tsv": (ROOT / "docket" / "CATALYSTS.tsv", 0),
     "../docket/WATCHLINES.tsv": (ROOT / "docket" / "WATCHLINES.tsv", 0),
+    # S53 2026-10-15 (cold audit 3.18): the disposition ledger (line 0 = rotation banner) and the
+    # R1 receipts file were undescribed by SCHEMA and unchecked here.
+    "board_log.tsv": (ROOT / "board_log.tsv", 1),
+    "../registry/corrections_receipts.tsv": (ROOT / "registry" / "corrections_receipts.tsv", 0),
 }
 
 
@@ -115,6 +119,21 @@ def main():
         dupes = sorted({i for i in ids if ids.count(i) > 1})
         if dupes:
             print(f"{name:<34}{'':>7}{'':>6}   FAIL: duplicate primary key(s) {dupes}")
+            bad += 1
+
+    # S53 2026-10-15 (cold audit 2.2 / 3.1): PER-ROW CELL COUNT. This check compared headers only
+    # and printed "ML.tsv 14 14 ok ... ALL CONFORM" over nine rows that had 13 cells — the Status
+    # cell was missing and every later field sat one column left, so Status read "A1" for 31 days.
+    # A header-only check certifies the contract, never the rows under it.
+    for name, (path, skip) in FILES.items():
+        if not path.exists():
+            continue
+        all_rows = rows(path)
+        width = len(all_rows[skip])
+        bad_rows = [(i + 1, len(r)) for i, r in enumerate(all_rows) if i > skip and r != [""] and len(r) != width]
+        if bad_rows:
+            shown = ", ".join(f"L{ln}={n}" for ln, n in bad_rows[:6]) + (" …" if len(bad_rows) > 6 else "")
+            print(f"{name:<34}{'':>7}{'':>6}   FAIL: {len(bad_rows)} row(s) with cell count != {width} header cols ({shown})")
             bad += 1
 
     undeclared = set(declared) - set(FILES)

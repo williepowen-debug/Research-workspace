@@ -398,11 +398,24 @@ def parse_fuzzy_date(s):
 
 def section_catalysts(verbose):
     print("\n③ CATALYST COUNTDOWN (pending, ≤14d" + (" — verbose: all" if verbose else "") + ")")
+    # S53 2026-10-15 (cold audit 2.4 / 3.2): (a) rows print in DATE order, not TSV order — the
+    # old loop printed T-6 before T-0 and today's item last; (b) a row whose status is NOT a
+    # canon token is printed as ⚠️ instead of silently skipped — one row sat 31d overdue with
+    # the status "🔴" and this section never showed it. Terminal tokens stay hidden.
+    TERMINAL = {"resolved", "expired", "superseded"}
+    items = []
     for r in tsv(RED / "docket" / "CATALYSTS.tsv"):
-        if not r.get("status", "").startswith("pending"):
+        st = r.get("status", "").strip()
+        if st.lower() in TERMINAL or st.lower().startswith(("resolved", "superseded", "expired", "redated")):
             continue
         d, exact = parse_fuzzy_date(r["date"])
-        if d is None:
+        items.append((d or TODAY, exact, st, r))
+    items.sort(key=lambda t: t[0])
+    for d, exact, st, r in items:
+        if not st.startswith("pending"):
+            print(f"   ⚠️  {r['date']:<12} status={st!r} is not a canon token — row is neither pending nor terminal; fix the cell ({r['event'][:50]})")
+            continue
+        if parse_fuzzy_date(r["date"])[0] is None:
             print(f"   ⚪ {r['date']:<12} {r['event'][:60]} — unparseable date, manual check")
             continue
         days = (d - TODAY).days

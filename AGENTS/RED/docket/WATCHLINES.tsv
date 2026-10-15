@@ -6,7 +6,7 @@ WL-04	HY-OAS	fred	BAMLH0A0HYM2	value	100	<	260	3	Credit canary fully dead	PROMOT
 WL-05	CCC-OAS	fred	BAMLH0A3HYC	value	100	>	955	1	VIOLET CCC gate (9.55)	Tail-stress escalation leg 1
 WL-06	CCC-OAS	fred	BAMLH0A3HYC	value	100	>	1000	1	CCC 2016-analog threshold (10.00)	Tail-stress escalation leg 2
 WL-07	USDJPY	yf	JPY=X	price	1	>	160	1	MOF #3 hard-trigger zone (SAM)	"MOF #3 hard-trigger zone (SAM). Note refreshed 7/31: MOF Y0 confirmed Jun-29->Jul-29 (no strike; CH-011 stamp); next MOF monthly window ~8/31; the stale ""blackout ~6/13"" token retired"
-WL-08	KRE	yf	KRE	price	1	<	67	1	KRE <67 — cohort-stress tag (was: Jun30 KRE puts in-frame; expired 6/30. Live vehicle = KRE Dec $60P x7)	Role re-labeled Phase-4 7/31; threshold unchanged
+WL-08	KRE	yf	KRE	price	1	<	67	1	KRE <67 — cohort-stress tag (was: Jun30 KRE puts in-frame; expired 6/30. Live vehicles per FORGE [10/15 rcv, MARK ONLY]: Nov-27 $67P x4, Dec-18 $60P x5, Dec-31 $65P x2)	Role re-labeled Phase-4 7/31; threshold unchanged
 WL-09	WAL	yf	WAL	price	1	<	74	1	WAL <74 — name-stress tag (was: Jun-stack window-trigger WAL leg; stack expired)	Role re-labeled Phase-4 7/31; threshold unchanged. Context: WAL V2.2 PT $50-68, Sep $70P vehicle 9/18
 WL-10	SPY-DAY	yf	SPY	change_pct	1	<	-2	1	SPY day <-2pct — tape-stress tag (was: Jun-stack window-trigger SPY leg)	Role re-labeled Phase-4 7/31; threshold unchanged
 WL-11	BRENT	yf	BZ=F	price	1	<	95	1	CHG-RED-027 sub-trigger (d) price leg	Needs Hormuz >5mbpd 15d leg too — price leg only here
