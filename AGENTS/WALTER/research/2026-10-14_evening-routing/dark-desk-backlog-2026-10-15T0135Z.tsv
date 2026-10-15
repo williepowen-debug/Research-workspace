@@ -1,0 +1,32 @@
+desk	live	unconsumed	action	oldest_action_d	oldest_any_d	immediate	last_own_status_commit
+AEOLUS	dark/unknown	2	0		3	0	2026-10-10
+BOND	dark/unknown	3	0		0	0	2026-10-14
+BRENT	dark/unknown	6	3	0	0	0	2026-10-14
+BROCK	dark/unknown	5	1	0	0	1	2026-10-14
+CARL	dark/unknown	12	12	3	3	1	2026-10-12
+CORAL	dark/unknown	2	2	2	2	0	2026-10-09
+CREED	dark/unknown	17	8	13	14	2	2026-10-01
+CRUISE	LIVE	1	0		0	0	2026-10-14
+DEWEY	dark/unknown	2	0		3	0	
+FALCON	dark/unknown	16	14	4	4	3	2026-10-10
+FERT	dark/unknown	2	1	0	3	0	2026-10-09
+FLG	dark/unknown	1	1	7	7	0	2026-10-01
+HANS	dark/unknown	18	5	3	6	1	2026-10-09
+HAWK	dark/unknown	32	7	4	5	4	2026-10-10
+HENRY	dark/unknown	80	6	7	7	10	2026-10-08
+HOMER	dark/unknown	19	8	13	13	2	2026-10-02
+LABOR	dark/unknown	10	3	7	7	1	2026-10-08
+LIQUID	dark/unknown	5	1	0	0	1	2026-10-14
+MIDAS	dark/unknown	2	0		1	0	2026-10-13
+NEXUS	LIVE	1	0		0	0	2026-10-14
+OSPREY	dark/unknown	16	10	4	4	1	2026-10-10
+OZK	dark/unknown	7	4	7	7	2	2026-10-12
+RED	LIVE	2	2	0	0	0	2026-10-14
+REGINALD	dark/unknown	6	1	0	0	1	2026-10-14
+SAM	dark/unknown	15	2	2	6	4	2026-10-09
+SHADE	dark/unknown	6	2	2	2	1	2026-10-13
+VIOLET	dark/unknown	3	0		0	1	2026-10-14
+VULCAN	dark/unknown	26	15	6	6	1	2026-10-09
+WATT	dark/unknown	9	4	2	3	1	2026-10-12
+YURI	dark/unknown	4	1	0	2	0	2026-10-12
+ZHAO	dark/unknown	5	1	5	5	0	2026-10-09
