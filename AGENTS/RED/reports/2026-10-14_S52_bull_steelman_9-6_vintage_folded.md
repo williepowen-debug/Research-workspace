@@ -1,0 +1,16 @@
+# STATUS bull steelman, 9/6 vintage — folded VERBATIM 2026-10-14 (S52)
+
+Replaced on STATUS by the S52 re-steelman (`reports/2026-10-14_S52_weight_rederivation.md` §4). Dated record, not live: its figures (HY 265 [9/11], 30Y ~5.2, VIX sub-16) are stale.
+
+## BULL CASE STEELMAN (re-steelmanned 9/6 — and it got STRONGER this week, on my own data)
+
+*8/12 vintage folded verbatim → [`reports/2026-09-06_bull_steelman_8-12_vintage_folded.md`](reports/2026-09-06_bull_steelman_8-12_vintage_folded.md) (crc32 `4046781264`). Legs 1 and 4 below are carried from it and still stand.*
+
+1. **Inflation is over on the instrument that decides it.** Core at/below target on every horizon; **5y5y moved ≤13bp through the two largest oil shocks in the series and a closed Hormuz.** The bear's modal scenario for four months required a mechanism no instrument has ever recorded engaging.
+2. **🆕 And now the growth leg has stopped cooperating with the bear too.** The employment break I priced **did not happen and was retracted at the primary**: no negative print, August **+162K**, 3-mo **+71K**, and a **+683K** labour-force increase absorbed at **4.1%** unemployment with **decelerating** wages (AHE 3-mo ann 2.80%). That is the textbook soft-landing shape — expanding supply, contained prices — and it arrived on **two witnesses (CES + CPS)**, not one.
+3. **The bear's remaining mechanism is now a single channel.** Everything rests on the **price of money** (30Y ~5.2 on ~2.4 real). **A one-channel thesis is a fragile thesis** — and my own S29 note already conceded the mechanism had been "re-routed" once. Re-routed twice is not re-routing, it is searching for a channel that will carry the conclusion.
+4. **The vol legs stay dead where it counts, and this week the bull won that argument outright.** >140 SKEW is this index's modal state and VIX has printed sub-16 for a month. **FT-10's run is BROKEN at 2-of-4 again** — the 9/11 run reached 2 and 9/15 printed 146.61; the count is 0. **Twice now the tail bid has reached 2-of-4 and failed.** The tail bid touched the line twice and could not hold it. ⚠️ **The honest fence, against my own steelman:** the index is *camped on* the line (6 of the last 20 bars within 1.50 of it), so "the run broke" is not "the tail bid is gone" — sustain-4 exists so a two-week camp at 148–151 does not score, and it has not.
+5. **The bank leg is still two names** (OZK + EGBN), narrowest since CHG-027 was written.
+
+**The counter I must hold — and it is thinner than last week's.** Credit was priced for none of it (HY 265 [9/11]; it has since widened to **302 [9/28]**, and that move is the FT-01 exit), disinflation buys no relief from a real-rate grind, **CCC >1000 on every print since 7/27**, and **CHG-028's oil→core test is untouched and unrun until 10/14 + 11/10** — I have not graded my own falsifier early. Two bear reads survive today's print intact: the **added-worker effect** (LFPR up with U-3 flat is also late-cycle household need — discriminator unheld) and **falling real wages** (2.80% AHE vs 3.4% headline). ⚠️ **Independence caution, still binding:** the managed-decline pile leans heavily on one cancelled airstrike (ML-RED-133); count it roughly once.
+

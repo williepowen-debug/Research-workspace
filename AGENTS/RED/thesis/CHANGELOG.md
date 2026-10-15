@@ -4,6 +4,14 @@
 
 ---
 
+## S52c — 2026-10-14 ~22:05 ET (from `date`) — **NO WEIGHT MOVED. Discretionary re-derivation on Will's word: all six held, each argued. Net-bear 65, confidence 70.**
+
+- **Stag 35 HOLD:** FT-08's +3 is the registered response to the core move, and adding to it would count it twice. The anti-spiral counter (real AHE −0.5% m/m) and the CHG-028 oil-channel miss are same-day as FT-08, so under the S28 rule they are not netted today. Pre-stated −2 at the next non-fire re-derivation if real AHE is still negative y/y.
+- **Acute 16 HOLD, re-scored.** Bull: OZK RaDD extended with $100M; WFC/JPM benign; REGINALD finds no credit cause. Bear, **new to RED**: discount-window primary credit $6.2B → $8.7B → **$10.0B** [9/23–10/7, FRED WLCFLPCL] and small-bank borrowings +$32.9B with deposits flat. S29's driver said *"flows absent"*; they are not absent now. The two sides are roughly balanced, and five registered reads land 10/15–10/22. Pre-stated: **+1** on a 4th week up AND LIQ-07 S1; **−1** on OZK < $140M AND EGBN clearing.
+- **War 14 HOLD by S51's own letter:** paper has not followed Dated above $120, and Dated has not collapsed to paper. A sinking raised severity while IEA-measured flows recovered.
+- **Soft 4 / Rescue 4 / Managed 27 HOLD.** Bull steelman re-written; the 9/6 vintage is folded.
+→ `reports/2026-10-14_S52_weight_rederivation.md`.
+
 ## S52b — 2026-10-14 21:3x ET (from `date`) — **WEIGHT MOVED: net-bear 63 → 65 (+2, MECHANICAL, `RED-FT-10` fired on the official 10/14 SKEW bar). Confidence 70 unchanged.**
 
 Old view (S52): Managed 29 · Stag 35 · Acute 14 · War 14 · Soft 4 · Rescue 4 → **new: Managed 27 · Stag 35 · Acute 16 · War 14 · Soft 4 · Rescue 4.**
