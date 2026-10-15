@@ -98,22 +98,40 @@ def as_date(s):
         return None
 
 
+def vx_is_terminal(strength):
+    """A VX vector is terminal when its Strength says so: RESOLVED-* or *TERMINAL*.
+    S52 2026-10-14: section 3 treated 'FLIPPED-BEAR-TERMINAL' (VX-RED-004) as live; one helper now
+    serves both sections so the two cannot disagree about which vectors are live."""
+    s = strength.strip().upper()
+    return s.startswith("RESOLVED") or "TERMINAL" in s
+
+
 def cited(ids, root):
-    """Which ids appear on a live surface? One grep for all of them."""
+    """Which ids appear on a live surface?
+
+    S52 2026-10-14: VX.tsv was searched as a WHOLE FILE, so a terminal KB row cited only by a
+    RESOLVED vector (KB-RED-021/027/036/038) was flagged as 'cited live' - 4 of 13 flags were
+    noise, which is how a real one (VX-RED-015's met-but-unseen flip) hides in a list. For VX.tsv
+    only LIVE vectors count; every other surface is read whole, as before.
+    """
     if not ids:
         return set()
-    paths = [p for p in (os.path.join(root, s) for s in LIVE_SURFACES) if os.path.exists(p)]
-    if not paths:
-        return set()
-    hits = set()
-    args = ["grep", "-oh", "-F"]
-    for i in sorted(ids):
-        args += ["-e", i]
-    out = subprocess.run(args + paths, capture_output=True, text=True)
-    for line in out.stdout.split("\n"):
-        if line.strip():
-            hits.add(line.strip())
-    return hits
+    texts = []
+    for s in LIVE_SURFACES:
+        path = os.path.join(root, s)
+        if not os.path.exists(path):
+            continue
+        if s == "workbook/VX.tsv":
+            # The CITATION is the KB_Links column. A Notes line recording that a link was
+            # REPLACED ("KB-RED-001 -> KB-RED-101") is history, not a citation (S52).
+            head, vrows = rows(path)
+            k, kl = head.index("Strength"), head.index("KB_Links")
+            texts.append("\n".join(c[kl] for c in vrows if len(c) > max(k, kl) and not vx_is_terminal(c[k])))
+        else:
+            with open(path, encoding="utf-8") as fh:
+                texts.append(fh.read())
+    blob = "\n".join(texts)
+    return {i for i in ids if i in blob}
 
 
 def main():
@@ -155,7 +173,7 @@ def main():
                                  vx_head.index("Strength"), vx_head.index("Last_Reviewed"))
     vx_stale, vx_live = [], 0
     for c in vx:
-        if c[v_str].strip().upper().startswith("RESOLVED"):
+        if vx_is_terminal(c[v_str]):
             continue
         vx_live += 1
         d = as_date(c[v_rev])

@@ -4,6 +4,17 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S52-late — 2026-10-14 23:31–23:4x ET (from `date`; Will's #12, after the closeout)
+
+**Trigger:** Will: "go ahead with #12 the review debt."
+
+**What changed (structural):**
+- **`scripts/review_debt.py` §② citation axis:** only LIVE VX vectors count, and for VX.tsv the citation is the **KB_Links** column (a Notes line recording a replaced link is history). §③ now treats `*TERMINAL*` strengths as terminal (a `vx_is_terminal` helper shared by both sections).
+- **Before/after on the same files:** 9 flags → 2, both intended. The pre-fix copy was run beside it as the control.
+- **Data rows:** KB-RED-101/102/103 (new current facts). VX-001/012/014/015/017 refreshed, VX-015 FLIPPED. VX_HISTORY +5 rows.
+
+**Boot-impact:** step 9c prints fewer, truer flags.
+
 ## S52 — 2026-10-14 20:12–22:5x ET (start from `date` at boot; end corrected at closeout from the commit log; Will-launched; S52b–S52e addenda on Will's word)
 
 **Trigger:** Will's boot and catch-up, then his items #2, #3, #5, #8, #6 and #9. Structural changes come from **#9 (the CHG-051 registry review)**: all six proposals were **Will-approved in-session** via AskUserQuestion, ~22:50 ET.
