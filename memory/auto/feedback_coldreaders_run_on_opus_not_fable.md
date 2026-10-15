@@ -1,6 +1,6 @@
 ---
 name: feedback_coldreaders_run_on_opus_not_fable
-description: Will's standing instruction (n=3; 9/2, 9/17, NARROWED 10/15) — never Fable for a subagent; desks, counterexample-devising repair readers, ARGUS and other difficult jobs on Opus (pass model: "opus" on each general-purpose call, it inherits the parent's model); single-artifact cold reads (the coldreader agent) on SONNET since 2026-10-15 (WQ-447 A).
+description: Will's standing instruction (n=4: the 9/2 and 9/17 words, the 10/15 anvil-on-Fable instance, the 10/15 NARROWING) — never Fable for a subagent; desks, counterexample-devising repair readers, ARGUS and other difficult jobs on Opus (pass model: "opus" on each general-purpose call, it inherits the parent's model); single-artifact cold reads (the coldreader agent) on SONNET since 2026-10-15 (WQ-447 A).
 metadata:
   type: feedback
 symptoms: "cold reader spawned as fable", "coldreader model", "which model for subagents", "Fable limit killed a subagent", "spawning these all as FABLE", "burn up our tokens", "spawn your subagents as OPUS"
