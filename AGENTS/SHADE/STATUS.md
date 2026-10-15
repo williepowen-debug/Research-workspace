@@ -1,9 +1,9 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-10-13T10:11:12-04:00 — Will-requested machine-switch closeout; persistence checks only, no source/grade refresh. Pass COMPLETE/evidence PARTIAL; pending dates retained. Resume→`SCRATCH.md`; result→`research/GAP_INVESTIGATION_2026-10-12.md`.
+**Last Updated:** 2026-10-15T10:29:59-04:00 — PROME L0 spawn (DOCKET L673, Claude Code/Opus): first prospective `T-SHADE-01` grade = **NOT MET**, no dig; inbox drained 8→0. Record→`research/L673_GRADE_2026-10-15.md`. Prior: 10/13 machine-switch closeout (persistence only).
 **Prior sessions:** 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
-**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` 10/10 owner fire = PROVISIONAL; prospective window is registered, first eligible 10/13 close.** Episode-long wrapper decline persists on 10/12 closes (RAW −4.40% vs managers −1.42%; ADJ −2.89% vs −1.42%), while since Friday both baskets rose. HY 315 [10/8] remains latest published; LIQUID owns count/anchor. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
+**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` first prospective grade (10/15, endpoint 10/14 close) = ❌ NOT MET:** 9/24→10/14 RAW wrappers −5.44% vs managers −6.20%, managers fell more; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 316 [10/13] (LIQUID: 13 >280), 325 [10/14] read. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
 **⚠️ KB WARNING:** `domain/sources/` 01–08 are Mar'26 vintage — check `LAST_REVIEWED` before citing.
 
 ---
@@ -21,6 +21,10 @@
 ⛔ **Standing rules:** the session delta lives in `research/`; STATUS carries the verdict and live rails only · never raise the budget · rotate verbatim + crc-verify (**the 10/1 banner was written with the wrong offset and the crc caught it — same 15-B defect as 8/28; run the check, never trust the banner**).
 
 ---
+
+## 0s. 2026-10-15 — L673 GRADED: `T-SHADE-01` NOT MET (LIVE RAIL)
+
+**Registered window, endpoint = latest completed close at assessment (10/14):** level MET (LIQUID 280 [9/24] anchor → 13 consecutive >280 through 316 [10/13]; 325 [10/14] read, not counted). Sign RAW wrappers **−5.44%** vs managers **−6.20%** ⇒ both down, managers led ⇒ **NOT MET** (ADJ −3.93/−6.20). Since-last-read 10/12→10/14 −1.07/−4.84 (diagnostic). **No dig.** ⚠️ The unassessed 10/13 endpoint read RAW −5.19/−3.70 (would have been MET; ADJ tie) — disclosed, not graded; verdict flips across consecutive closes and the letter is silent on unassessed eligible endpoints → design question for the 10/23 slot, prospective only. **Next eligible endpoint: 10/15 close onward; re-read both legs fresh.** Inbox 8→0 (EIOPA/Moody's RNF assessed: no rescore). Record → `research/L673_GRADE_2026-10-15.md`.
 
 ## 0r. 2026-10-12 — CONSEQUENTIAL GAP PASS COMPLETE; EVIDENCE PARTIAL
 
@@ -107,7 +111,7 @@ L0 drain22; owner fire PROVISIONAL/post-hoc. Corrected10/1 readings→charter an
 | Date / Window | Item | SHADE read | Status |
 |---|---|---|---|
 | **Ongoing — SHADE-OWNED** | 🔴 **Delaware Life / Clear Spring — SDNY + SEC probes: ESCALATION LADDER** | **(0) COUNTERPARTY/DISTRIBUTION — ✅ MET 8/28** (Truist + Fifth Third paused; n=2, share unsized) · **(1)** charges/Wells · **(2)** further rating action (S&P A- NEG) · **(3)** Delaware DOI action · **(4)** remediation forced-sale size/timetable — 🆕 **PARTIAL: up to $6.5B/target before Q3 filing (issuer9/11); approval/closing unverified** · **(5)** Clear Spring own restatement — issuer table read,83607 verified; full statutory capital/funding bridge owed · **(6)** probe widens to Guggenheim AM. Rungs are INDEPENDENT unless ordering is sourced. | **Live — (0) MET, (4) PARTIAL** |
-| **2026-10-13 after equity close** | **L673: first prospective `T-SHADE-01` grade** | Re-read LIQUID level/count/anchor + six exact closes. Primary window fixed in charter; since-last-read diagnostic beside. Today's endpoint excluded. **If MET, dig (a)→(d), §10 #8; otherwise record why, no dig.** | Pending — prospective registration done 10/12 |
+| ✅ **GRADED 10/15** | **L673: first prospective `T-SHADE-01` grade** | Endpoint 10/14 close: level MET, sign NOT MET (−5.44% vs −6.20%) ⇒ **NOT MET, no dig** (§0s). Next eligible endpoint 10/15 close onward. | Done — PROME closes or rolls L673 |
 | **~2026-11-15** | **Delaware Life Q3-2026 statutory** (issuer page, free) | Exhibit 1 + SoO L15 vs the 1H-26 baseline. 🆕 **Also: gross completed TWG transfers/assets/marks in Note10/subsequent events, then reconcile affiliate dollars vs$16,822M; net decline alone cannot prove execution.** ⚠️ ≤1 of 3 months post-pause; first clean read FY2026 annual ~2027-03-01. | Forward — dated |
 | **Q3 cluster ~11/05 → 11/18** | **Athene Q3: 10-Q then FI deck** + 🆕 **AAIA Q3 statutory (same IR page)** | First GRADED canary (S1/S2/S3); quarter INCOMPLETE until both instruments land. L3 pin, pledged assets (K3.3), BMA walk owed here. **AAIA Sch B/D Pt 2-4 now available to cross-check landing claims.** | Forward |
 | **Standing / source gap** | **AG55 final2026 template / VAWG findings** | Adopted text + final2025YE template recovered10/12. Blanket public L3/PIK/PLR mandate unsupported. Final2026 revision and completed submissions unverified. | Final2026/submissions not obtained |
@@ -148,13 +152,13 @@ L0 drain22; owner fire PROVISIONAL/post-hoc. Corrected10/1 readings→charter an
 5. **AG55 residual:** adopted text/final2025YE template recovered10/12; final2026 revision/completed filings unverified. Blanket public L3/PIK/PLR premise unsupported; re-spec belongs to PROME/Will.
 6. **Clear Spring fullstatutory** (marker5);83607 verified, freefinancialsummary notobtained; own correctedFY25/Q1/Q2 needed.
 7. **Apollo Q2 Retirement Services cross-check COMPLETE10/12** (Notes4/16/17); AMAPSfloor/ACRA/guarantees/collateral reconciled. Loan/tranche allocation and netloss remainmissing; no historicalgrade changed.
-8. **L673 — prospective window REGISTERED 10/12; earliest eligible grade after 10/13 close.** Historical 10/10 owner fire remains PROVISIONAL; do not certify it retrospectively. Re-read both legs, owner anchor/count and six closes. **If MET:** (a) AAIA FY2025 Schedule BA → ADS equity holding · (b) ADS facility counterparties · (c) F&G > Brighthouse > Corebridge Schedule BA · (d) BROCK cross-check. Other standing dig triggers retain their existing letter (FABN >250bp, RBC breach, enforcement escalation). **No dig absent a qualifying trigger.**
+8. **L673 — GRADED 10/15: NOT MET (§0s), no dig.** Next assessment re-reads both legs fresh on the latest completed close (10/15 onward); 🆕 design question (10/23 slot): an eligible endpoint that passes unassessed — prospective only. Historical 10/10 owner fire PROVISIONAL, unconfirmed. **If a later eligible assessment is MET:** (a) AAIA FY2025 Schedule BA → ADS equity holding · (b) ADS facility counterparties · (c) F&G > Brighthouse > Corebridge Schedule BA · (d) BROCK cross-check. Other standing dig triggers retain their existing letter (FABN >250bp, RBC breach, enforcement escalation). **No dig absent a qualifying trigger.**
 9. **Watch:** a THIRD named distributor pausing · the next public FABN syndication · 🆕 **Blue Owl's insurance mandate push** (FT 10/7 relay; no insurer purchase).
 
 ---
 
 ## BOTTOM LINE
 
-**[2026-10-12] The research trigger now has a fixed comparison window for future assessments. It cannot be used to certify today's data or the earlier provisional fire.** The first eligible close is October 13. The episode-long comparison still has the wrappers down more than Apollo/Ares (dividend-adjusted −2.89% versus −1.42% through October 12), but since Friday both rose. HY remains 315bp on the latest published October 8 observation; the owner's count has not been extended. The dig is conditional on a prospective fire. Insurer losses or a systemic cascade remain unproven; composite 20/30 unchanged.
+**[2026-10-15] The first assessment on the fixed window says NOT MET: from the September 24 anchor to the October 14 close, Apollo/Ares (−6.20%) fell further than the BDC wrappers (−5.44%), so no dig.** That is the multiple-compression pattern, not collateral re-marking. On the October 13 close alone the answer would have been the opposite (wrappers −5.19% vs managers −3.70%). That close was never assessed, and grading it now would be choosing the endpoint after seeing the data. The October 10 provisional fire is not confirmed. HY 316 [10/13], 325 [10/14]. Insurer losses or a systemic cascade remain unproven; composite 20/30 unchanged.
 
 **Consequential source pass COMPLETE; evidence PARTIAL:** group AI guarantee now primary, not sized life-insurer loss. Same-audit DLIC denominator arithmetic resolved; true ABS/liquidity and ruling needed. ClearSpring statutory capital/funding, completed exchanges/currentdistribution/post-pauseflows and retained-loss/collateral joins remainmissing. No illiquidity breach or cohort cascade. Exactprimarysources and acquisitionsteps→`research/GAP_INVESTIGATION_2026-10-12.md`.

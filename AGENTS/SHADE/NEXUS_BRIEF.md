@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Structural/latent insurer-wrapper stress; evidence remains partial.
 **Domain:** PE-owned insurer assets, statutory capital, reinsurance and funding transmission.
-**As of:** 2026-10-13T10:11:47-04:00 | **STATUS commit:** `1c90133bdd48b1b06ad7199d5a5087135e80a660`
+**As of:** 2026-10-15T10:29:59-04:00 | **STATUS commit:** same commit as this fold (L673 grade, PROME L0 spawn)
 **Fold:** LAST canonical write after final STATUS commit, amendments10/11. Will-requested machine-switch closeout/restart handoff; no fresh source/grade. Runtime termination is user-controlled, not inferred.
 
 | To | Signal | Priority | Mechanism / boundary |
@@ -20,7 +20,7 @@
 
 **Overturners:** completed independently valued unaffiliated exchanges/resumedbankdistribution/stablepost-pause netflows weaken pressure; regulatedlife capital losses/collateralshortfall/guaranteecalls/independentcohort deterioration establish currently unproven transmission. These are research assessment tests, not the owed October23 registered thesis falsifier.
 
-**L673 retained:** firsteligibleOctober13 afterregularclose; renew LIQUIDdatedlevel/count/last≤280anchor +sixcommonRAWcloses, ADJdiagnostic. Prior count10through315[10/8]/anchor280[9/24] andOct12returns are predecessors only. Missing/mixedwithholds; historicalOct10firePROVISIONAL. EligibleMET digAAIABA→ADSfacilities→F&G/Brighthouse/CorebridgeBA→BROCK, not executed by thispass. X1 separate. October23 predictions/declaredflatTRADE/falsifier/calibration/MEMORY/ARI/definition/SVO obligations remain; ApolloRSsourcecross-check completed, noautomaticdischarge.
+**L673 GRADED 10/15 — `T-SHADE-01` NOT MET, no dig:** registered window 9/24 → latest completed close 10/14. Level MET (LIQUID 13 >280 through 316 [10/13]; 325 [10/14] read). Sign RAW wrappers −5.44% vs managers −6.20% (ADJ −3.93/−6.20): managers led, which is multiple compression and not collateral re-marking. Unassessed 10/13 endpoint read RAW MET (−5.19/−3.70); disclosed, not graded, and the verdict flips across consecutive closes. The 10/10 fire stays PROVISIONAL, unconfirmed. X1 separate, CLOSED/DON'T-SIZE. Composite 20/30 unchanged. Record `research/L673_GRADE_2026-10-15.md`. 10/23 owed list unchanged.
 
 **Evidence/delivery:** `research/GAP_INVESTIGATION_2026-10-12.md`, sourceindex/routes/inputs/script.55plan/resultentries include4unused and1disclosedafter-useFedroute, not exhaustive research. Rawsource scratch outsideGit, hashes verified. PROME consumed exacte586 delivery/4e6 result at309b2f165 and reproduced stored arithmetic; not independent source/classification/model audit. WQ422 is existing-data access; next decisive acquisition ClearSpring83607 correctedFY25+Q2 fullstatutory/Q1bridge, freeNAICsummary firststep only. WQ423/424 await SHADE exact liquidity/unknown and TSR-or-R/T specs under L241/October23, not adoptedrules. Will accepts passCOMPLETE/evidencePARTIAL; no new sourcepass, paid/outreach/helper/feed/charter/capital change or acknowledgment-only queue loop. All dated assessments retained; reassess on new evidence. Prior result consumption verified; downstream consumption unverified. Will now requests closeout: restart atSCRATCH, raw84files/25,601,491B hash-preserved in persistent localstore outsideGit (CLOSEOUT_STORAGE). Gitpublication/queue evidence follows in dated closeout receipts; no all-fleet or runtime-exit certificate.
 

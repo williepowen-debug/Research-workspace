@@ -1,4 +1,16 @@
-# SHADE SCRATCH — machine-switch restart handoff
+# SHADE SCRATCH — restart handoff
+
+## L673 grade + L0 drain — 2026-10-15T10:29:59-04:00 (PROME spawn, prome-81)
+
+**Who/what:** Claude Code Agent-tool spawn (Opus 5.5) under WQ-184 L0 on DOCKET L673 (desk dark since 10/13 closeout). Tier 1, $0. Full record → `research/L673_GRADE_2026-10-15.md`.
+
+**Result:** first prospective `T-SHADE-01` grade on the 10/12 letter = **❌ NOT MET**, endpoint = latest completed close **10/14**. Level MET (LIQUID 280 [9/24] anchor, 13 >280 through 316 [10/13]; 325 [10/14] read, not counted). Sign 9/24→10/14 RAW wrappers −5.44% / managers −6.20% ⇒ managers led ⇒ NOT MET (ADJ −3.93/−6.20). **No dig.** The 10/13 endpoint (eligible, never assessed) would have read RAW MET −5.19/−3.70 (ADJ tie). Disclosed, not graded. 10/10 fire stays PROVISIONAL, unconfirmed.
+
+**Inbox:** 8 → 0 (LIQUID anchor acted; PROME compound-stress evidence deferred to 10/23; EIOPA + Moody's RNF assessed, no rescore; 4 info-only). board_log +8.
+
+**Next session:** ① any T-SHADE-01 re-assessment reads both legs fresh at the latest completed close (10/15 onward). Never reuse these figures. ② 10/23 slot, in §10 order: design question (an eligible endpoint that passes unassessed; prospective only) · PREDICTIONS.tsv/declared-flat TRADE/thesis falsifier · MEMORY rotation to <22,785 B · ARI DEFM14A · illiquidity ABS spec (WQ423) · TSR spec (WQ424) · SVO count · PROME NB5–NB7/AI01 integration. Not worked this spawn.
+
+## (prior) machine-switch restart handoff
 
 ## Machine-switch closeout — 2026-10-13T10:09:23-04:00
 

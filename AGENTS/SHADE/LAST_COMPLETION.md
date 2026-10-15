@@ -1,23 +1,11 @@
-# SHADE LAST_COMPLETION — 2026-08-04 (PROME-directed PROXY #3; write-back sweep)
+# SHADE LAST_COMPLETION — 2026-10-15 (PROME L0 spawn, DOCKET L673)
 
-> ⚠️ **Legacy/historical surface.** `SCRATCH.md` is SHADE's canonical handoff and `STATUS.md` §0f/§0g/§0h the canonical delta record — read those first. This file exists so a reader who lands here is not told something a month out of date. *(It was stamped **2026-07-04** until this session — one month stale, across four sessions.)*
+> ⚠️ Legacy surface. `SCRATCH.md` is the canonical handoff and `STATUS.md` §0s the live rail. The delivery memo is `PROME/inbox/2026-10-15_from-SHADE_l673-tshade01-not-met.md` (or `processed/`).
 
-STATUS: COMPLETE — the write-back sweep the 10:45 execution run left unfinished. **Still not a SHADE session** (SHADE dark since 7/27). **No band, threshold or confidence moved.**
-
-CHANGED (SHADE dir only): `CLAUDE.md` (new closeout step 11a = NEXUS Amendment-10 brief-fold ordering; stale "brief not built yet" line closed) · `STATUS.md` (§0h added; Last-Updated stamp corrected from 8/3) · `research/ARCC_Q2_2026_PREREGISTRATION_2026-07-27.md` (§7 GRADE appended) · `SCRATCH.md` (prepended block) · `MAINTENANCE.md` (8/4 11:15 entry + a retroactive entry for the 10:45 run, which had not logged itself) · `MEMORY.md` · `board_log.tsv` (+3 rows) · `NEXUS_BRIEF.md` (folded **LAST**, per the rule the morning run broke) · 1 inbox file `git mv`'d to `processed/`.
-
-RESULT — three things, in order of what matters:
-
-1. **🔴 The wrapper-decoupling trigger's LEVEL LEG is now MET, and nobody had noticed** — the "both legs fail" state was **7/27-vintage, 6 days un-repulled**. **HY OAS >280 for five consecutive published sessions (2.81/2.84/2.87/2.84/2.85, 7/27–7/31, FRED `BAMLH0A0HYM2`).** The **sign leg still fails** — 7/27→8/3 closes, wrappers avg **+1.67%** vs managers **+6.32%**: both cohorts UP, wrappers merely LAG, and the registered leg requires wrappers **leading DOWN**. Even on the worst tape day (7/29) the *managers* led down. **TRIGGER NOT ARMED — but it is now a ONE-LEG trigger, hanging entirely on the sign leg. Statutory dig stays holstered. No threshold was moved: the >280 bar and 5-session window are as registered from 7/9; the world moved to meet them.**
-
-2. **✅ The 6-days-overdue ARCC Q2 pre-registration is GRADED — 0 of 4, nothing moved SHADE.** NAV $19.59 → **$19.35** (−1.23%, a *deceleration* from Q1's −1.76%); mark losses **(0.26)** vs **(0.42)** — nearly halved; non-accruals 2.1% → 2.4% AC (same +0.3pp increment as Q1); zero insurer/general-account mentions in the whole 10-Q. **Threshold #3 is the one that moved toward its bar: NII coverage 1.15× → 1.04×, one quarter from breaching.** ✅ SHADE's *derived* Q4-25 NAV of $19.94 **confirmed at primary**. ⚠️ Two defects in SHADE's own pre-reg recorded in place: an **adjective boundary** ("materially", no number) and a leg that is **not testable on the instrument** (ARCC never discloses the industry mix of its non-accrual bucket) — the same class as the Athene leg-1 date defect.
-
-3. **⚠️ The 10:45 run violated NEXUS Amendment 10** (brief fold = the session's LAST write-back). It wrote STATUS §0g and never folded `NEXUS_BRIEF.md`, which went on saying the M-11 test *"is STAGED"* after the card had been executed. Folded here, last. Rule written into the closeout protocol as step 11a.
-
-**Athene state, propagated unchanged — do not let any surface restate it otherwise:** the 8/4 card was **EXECUTED → FULL NO-VERDICT (day-one), both legs deferred, neither orphaned.** ⚠️ **"Executed" is not "scored"** — Athene was **not** scored, graded, resolved, HIT or MISS. Real grade dates: **leg 2 ≈ 8/6–8/10** (ATH Q2 10-Q + Athene's own supplement, which file together) · **leg 1 ≈ 8/12–8/18** (Q2-2026 FI Investor Presentation).
-
-GAPS: **HY OAS is published only through 7/31** — 8/3 and 8/4 are not out, so "sustained" is confirmed for 7/27–7/31 and *unknown* after. The 8/4 wrapper/manager marks are **intraday ~11:15 ET, not closes**, and are recorded separately from the close-to-close series, never blended. The **industry mix of ARCC's non-accrual bucket is undisclosed** — threshold #2's software leg is NOT-SUPPORTED, not refuted. The **$34.5B FABN o/s / $28.2B FHLB / $2.0B Q1 FABN issuance** re-verification (§0g) was **not attempted** this session and remains outstanding.
-
-WILL_NEEDS: None. Nothing here requires a decision.
-
-FOLLOW-UP (in date order): **① ATH Q2 10-Q ≈8/6–8/10 → leg-2 FINAL** (watch EDGAR CIK 0001527469 daily from 8/6) · **② re-pull HY OAS for 8/3–8/4 and re-read the sign leg on CLOSES** — it is now the only thing between SHADE and the 4-pull statutory dig · **③ Egan-Jones 8/12** · **④ Q2-2026 Athene FI Investor Presentation ≈8/12–8/18 → leg-1 refresh** · **⑤ re-verify the three carried-unverified FABN/FHLB figures at primary** · **⑥ ARCC Q3 pre-reg: give threshold #2 a NUMBER and a no-verdict band, and drop the software leg unless a testable instrument is named.**
+## COMPLETION — SHADE — 2026-10-15
+STATUS: ✅ DONE
+CHANGED: AGENTS/SHADE/{research/L673_GRADE_2026-10-15.md, research/L673_CLOSES_END_2026-10-1{3,4}_read2026-10-15.json, CLAUDE.md (T-SHADE-01 state rows only), STATUS.md, SCRATCH.md, NEXUS_BRIEF.md, board_log.tsv, LAST_COMPLETION.md}, 8 inbox items → processed/
+RESULT: L673 first prospective T-SHADE-01 grade = NOT MET at the latest completed close 10/14. Level MET (LIQUID anchor 280 [9/24], 13 >280 through 316 [10/13]). Sign 9/24→10/14 RAW wrappers −5.44% vs managers −6.20% (ADJ −3.93/−6.20): managers led, so no dig. The unassessed 10/13 endpoint would have read RAW MET (−5.19/−3.70); disclosed, not graded. 10/10 fire stays PROVISIONAL. Inbox 8→0.
+GAPS: Single price vendor (yfinance; Stooq returned nothing). The letter is silent on an eligible endpoint that passes unassessed; design question carried to the 10/23 slot. 10/23 backlog not worked.
+WILL_NEEDS: None.
+FOLLOW-UP: PROME closes or rolls L673. Next eligible endpoint is the 10/15 close onward. 10/23 owed list per STATUS §10.
