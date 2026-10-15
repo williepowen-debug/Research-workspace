@@ -22,7 +22,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 1. ✅ **RULED 10/14 22:01 ET (WQ-431/432/433, Will verbatim "Approve 431, 432 and 433", record `PROME/proposals/2026-10-14_wq431-433-RULED.md`):** HOLD · leg 2 KEPT PROVISIONAL + ①④ (encoded in the FRESH_LEG_BASELINE letter) · FAL-06 dated search (encoded on the row; run it ON 2026-11-05).
-1b. **WQ-434 (due 10/21):** Will rules A vs B on the ratchet's MILITARY_US class-step (7/17 Jordan, 2 US KIA, was missing from the ledger — CAS-2026-032, KB-294). Interim: grade B (a US death on/after 9/8 = RED). On his word: rewrite CASUALTY_RATCHET.md §3/§5, commit, send PROME the hash.
+1b. ✅ **WQ-434 RULED B by Will 2026-10-14 22:18 ET (WQ-434, verbatim "Approve 434", PROME/proposals/2026-10-14_wq434-RULED.md): the class-step is anchored to 9/8 — a US death on/after 9/8 = RED.** CASUALTY_RATCHET.md §2 carries the ruling; §3/§5 rewritten (7/17 Jordan, 2 US KIA, backfilled CAS-2026-032, KB-294).
 2. **STANDING:** a counting source naming **Abqaiq** (10/08), **Ain Dar/Shedgum crude units**, or **Khurais 25.25N 48.10E** with hostile cause ⇒ FIRE D 85→92, C 14→7, PROME same hour. Storage tank / gas plant / office ⇒ OUT.
 3. **2026-10-21:** GATE-FALCON-001 review + 7-day scenario review.
 4. Safeen Prestige (IMO 3/4): type, attacker, HAWK frozen record — before any "census covers the war" claim.
