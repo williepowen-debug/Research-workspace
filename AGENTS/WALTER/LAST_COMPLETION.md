@@ -111,10 +111,11 @@ Full Tier-2 write-back (steps 13 → 12(a-f) → 14 → 15 → 16); selected che
     {"commit": "a44a5bbc7", "state": "published"},
     {"commit": "f444ff03d", "state": "published"},
     {"commit": "06aba65a4", "state": "published"},
-    {"commit": "8e670eaab", "state": "pending"},
-    {"commit": "56b02418a", "state": "pending"},
-    {"commit": "069e2b562", "state": "pending"},
-    {"commit": "ebe08714e", "state": "pending"}
+    {"commit": "8e670eaab", "state": "published"},
+    {"commit": "56b02418a", "state": "published"},
+    {"commit": "069e2b562", "state": "published"},
+    {"commit": "ebe08714e", "state": "published"},
+    {"commit": "2ed0d280b", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20261015",
@@ -124,7 +125,7 @@ Full Tier-2 write-back (steps 13 → 12(a-f) → 14 → 15 → 16); selected che
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Partial — first 4 commits of the day on origin via PROME fast-forward; 4 Tier-2 commits remain local. Will-coordinated push authority; next clean-tree WALTER session (or whichever teammate's safe-push.sh carries this chain forward via fast-forward) will publish them. TERRY also 1 commit ahead on local master; TERRY session active."
+    "note": "8 of 9 commits published via teammate fast-forward pushes (PROME 936683324 carried the first 4; HOMER pushes b9041531b/fcd09cc08/56be35aa8 carried the next 4). The 1 remaining commit (2ed0d280b: reconcile + receipt partition update) is local-pending; the next teammate push will carry it. WALTER push authority is Will-coordinated per BOARD_CONSUMPTION_SPEC §7; tree not clean (PROME/TERRY/memory dirty), so WALTER self-push not standing-authorized this session."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
