@@ -54,3 +54,15 @@
 ## GIT STATE
 
 Checked out at origin (0 behind at boot; other desks' dirty paths untouched). S53 commits so far: 392c7e416 (VX-026 + inbox) · 75e1b12b3 (FT-02) · 0d56d493d (#14–#16) · 484e83fac (WALTER fix) · bc29c3409 (axis ④ + vectors) · then the audit-repair batch (this write). Push at the final closeout via `safe-push.sh`.
+
+---
+
+## S53-b ADDENDUM (2026-10-15 11:27 ET, from `date`) — charter split executed on Will's approval
+
+- **Will 11:16 ET: "ok approved go ahead"** → done the same session. `CLAUDE.md` 44.6 → **24.5 KB** (75% of budget; the 20 KB target was not reached — the cold-read gate's fold-backs cost ~3 KB and were worth it). `CHARTER_PROVENANCE.md` holds the whole pre-split charter verbatim with line numbers (containment 0 missing). Record: `MAINTENANCE.md` S53-b; reports preserved in `reports/`.
+- **Cold-read gate:** 32/37 steps executable; the 2 blockers, 3 partials, 3 contradictions and 2 path errors all folded back (36 edits). The contradiction that mattered: first ending of a day = W1–W10, later endings = addendum. Now explicit.
+- **Found on the way:** five fleet-level BASIS surfaces changed since RED's 9/14 attestation with no re-check — `basis-hashes.json` re-hashed; a boot-time hash compare is a candidate (NEXT SESSION item 6b).
+- **Asked of PROME:** a READS.tsv row so the charter is byte-gated at boot (packet in `PROME/inbox/`). Nothing owed by RED on it.
+- **Unchanged:** FT-02 1 of 3 · net-bear 65 / HOLD 70 · the 16:36 ET H.4.1 background read is still armed.
+
+**NEXT SESSION additions:** 6b. 🟡 build the boot-time BASIS hash compare (`registry/basis-hashes.json` vs live sha256; print changed surfaces) — the attestation went stale on five files silently. 6c. 🟡 at the first calm boot, read `CHARTER_PROVENANCE.md` § 1 once end-to-end to confirm every `→ PROV` pointer lands where the rule came from (a reader check, not a grep).

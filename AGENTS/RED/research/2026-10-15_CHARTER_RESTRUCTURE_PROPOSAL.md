@@ -1,3 +1,5 @@
+> ✅ **APPROVED by Will 2026-10-15 11:16 ET ("ok approved go ahead") and EXECUTED the same session** — see `MAINTENANCE.md` S53-b. Result 24,526 B (75% of budget), not the ≤20 KB targeted below; the difference is the cold-read gate's fold-backs.
+
 # RED charter restructure — proposal to Will (S53, 2026-10-15 11:04 ET from `date`)
 
 **Ask:** approve a one-session restructure of `AGENTS/RED/CLAUDE.md` from a 44.6 KB rules-plus-history file into (a) a rules-only charter under the 32,550 B read budget and (b) a `CHARTER_PROVENANCE.md` that holds every incident, date and count the rules were written from — the same split root `CLAUDE.md` made with `docs/CANON_PROVENANCE.md` (WQ-385). Nothing is deleted; every sentence moves verbatim to one of the two files. A charter edit is RED's own file, but it changes what every future RED session boots on, so it is yours to approve (RED routed its last charter change to you the same way, 9/6).

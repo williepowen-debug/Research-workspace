@@ -1,19 +1,39 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-09-14",
+  "declared_on": "2026-10-15",
   "desk": "RED",
   "hashes": {
-    "AGENTS/RED/CLAUDE.md": "30adb0fe3990e22458a5020092cd6ec5a9a969f92d608414e1192c8798426b1a",
-    "AGENTS/RED/scripts/base_rate_review.py": "3095001c1ec0f0a653c4501f218e49e9645131bc7d0aa8a9fd9cb6c3573a70b3",
-    "AGENTS/RED/scripts/boot.py": "f5b77be706716a3ac95b34770a7c75b23ca7b9bc9efa3d9be8b5edbe763a7723",
-    "AGENTS/RED/scripts/gen_trigger_scan.py": "5271abe763f3ffbc0a4be87770f6b413cf8f0e0ac1bbed0afd9dca1acf440faf",
-    "AGENTS/RED/scripts/review_debt.py": "0581068949e21f2a49018dd25b025adf70659762be04c02caccb4062c7ea0545",
-    "AGENTS/RED/scripts/schema_check.py": "a85d18730c996f1ae503b39acc14ab47549e554b97eaa966cee6fd71dd4dc952",
-    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "56387186e731ef8cf9382f5b18e8e5470e08740c886bdf00650538884e7e3114",
-    "CLAUDE.md": "09bc5feb3877f4fbebd989781b774727463c954622cad6d9ec3089c01cd5782b",
-    "FORGE/tools/market-data/fetch.py": "98ef027a293643227bde70601b4aa1d407e8496edfdd431988d81b0e2b73275c",
-    "scripts/corrections_boot_check.py": "3a88a236b6a9b8419ab58658c410a653293a56383d781ba15b2403549ce26651",
-    "scripts/ledger_staleness.py": "dd961358fd120ed45b64eba731e4830c61dc820e5a87d0a5c8746da13cdd5e55"
+    "AGENTS/RED/CLAUDE.md": "b488ed9a3115c5667765d03aa54525fa08bb36ba2d55fe9a881dddb66a002a9d",
+    "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
+    "AGENTS/RED/scripts/boot.py": "2903ef66fd05efeb095d9f9d85a51b11a1ad0f80169eb89b4fb9eba3ca22ad5d",
+    "AGENTS/RED/scripts/gen_trigger_scan.py": "e9d1fa7655e849d92890e6c109fd5c914944924c6f665ee92c5eb7e40ca29467",
+    "AGENTS/RED/scripts/review_debt.py": "5824444133ceda7bcdc274f105d456a38034d5f50f1a44c509f4ac70b5c3c1cb",
+    "AGENTS/RED/scripts/schema_check.py": "219b0bb36716ab1f2f100b3199a6e72f25f185ec4f23e914f6b73efe2d127447",
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "5939cc0949a0266de5325d542808afb9524ae7e23ddf6bb293690cf62c6d1c99",
+    "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
+    "FORGE/tools/market-data/fetch.py": "afb8838728c74d8584d46ec2aadb948efdffc6deddc275f9eb23dc9d05d76c6b",
+    "scripts/corrections_boot_check.py": "db69634350a304386e77eab0220c1a2efb4ee47aaeba58a2e45435bc21bf8f0e",
+    "scripts/ledger_staleness.py": "117789ab8fa4aa00241bf2a92f49550e363891b8d218aa788e109f187b79b93a"
   },
+  "history": [
+    {
+      "date": "2026-10-15",
+      "note": "Re-hashed after the S53 charter split (CLAUDE.md -> rules + CHARTER_PROVENANCE.md, Will-approved) and the S53 script changes (boot.py \u00a7\u2462, base_rate_review ft11_legs, review_debt axis \u2463, schema_check per-row, gen_trigger_scan --write). Boot steps 0-9e unchanged in set and order; attestation re-filed to PROME by packet.",
+      "rehashed": [
+        "AGENTS/RED/CLAUDE.md",
+        "AGENTS/RED/scripts/base_rate_review.py",
+        "AGENTS/RED/scripts/boot.py",
+        "AGENTS/RED/scripts/gen_trigger_scan.py",
+        "AGENTS/RED/scripts/review_debt.py",
+        "AGENTS/RED/scripts/schema_check.py",
+        "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md",
+        "CLAUDE.md",
+        "FORGE/tools/market-data/fetch.py",
+        "scripts/corrections_boot_check.py",
+        "scripts/ledger_staleness.py"
+      ],
+      "session": "S53"
+    }
+  ],
   "note": "Content hashes of RED's boot-defining surfaces at attestation time. A change to any of these should AGE RED's ATTESTATION row in PROME/registry/READS.tsv. Recorded by RED; regenerate with the same sha256 over the listed paths."
 }

@@ -4,6 +4,21 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S53-b — 2026-10-15 11:16–11:27 ET (from `date`; Will: *"ok approved go ahead"* on the charter restructure proposal)
+
+**Trigger:** Will approved `research/2026-10-15_CHARTER_RESTRUCTURE_PROPOSAL.md` at 11:16 ET; executed the same session (no RED catalyst before the 16:30 H.4.1 read, which was already armed).
+
+**What changed (structural):**
+- **`CLAUDE.md` → rules only.** 44,579 B (137% of the 32,550 B budget) → **24,526 B (75%)**. The ≤20 KB target in the proposal was not reached: the cold-read fold-backs (below) added ~3 KB of one-clause reasons and disambiguations, which the gate said the rules needed to stand alone. No boot step added, removed or re-ordered; W1–W10 and A1–A9 intact; every command and cap carried.
+- **NEW `CHARTER_PROVENANCE.md`** (51,379 B, never boot-read): § 1 rule→provenance key; § 2 the pre-split charter VERBATIM with original line numbers (crc32 stamped inside the file); § 3 append-only "reasons added after the split". Containment check at write: 0 pre-split lines absent. Every `→ PROV L<n>` pointer in the charter resolves to § 2.
+- **Cold-read gate (Opus, read-only, charter alone — report → `reports/2026-10-15_S53_charter_coldread_report.md`):** 32 of 37 steps executable from the file; 2 NO (1.5 had no "since last boot" anchor; step 6 had no default for a bare boot), 3 partial (crc not defined; Flip_If grade had no home; NEXUS fold had no destination), 3 contradictions (full write-back "every ending" vs the addendum; W5 rewrite vs A2 append; "honest odds" vs the 2%/60% bounds), 2 mis-written paths (`/BOARD/INDEX.md`, bare SCAN name), 21 two-way sentences, 17 arbitrary-looking rules. **All folded back in 36 edits:** first ending of a day = W1–W10, later endings = addendum; bounds govern individual hypotheses with a written-override path and do not bind HOLD/net-bear; "last boot" = newest board_log row; bare boot = catch-up from SCRATCH; paths rule (repo-root-relative; run from the root); ≤15-word reasons on 16 rules; BOOT heading = "read + intake"; live-event override commits hourly; `research/` scope clarified against "no original research"; LAST_COMPLETION moved to a Retired line. Disclosure from the reader: `boot.py`, `review_debt.py`, `schema_check.py` and `memory_index_check.py` ignore `--help` and ran their read-only passes; no file written by RED tools (git status hash unchanged).
+- **`registry/basis-hashes.json` re-hashed** (declared_on 2026-10-15, history entry). Finding on the way: **five fleet-level BASIS surfaces had changed since RED's 9/14 attestation without the attestation moving** — root `CLAUDE.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md`, `FORGE/tools/market-data/fetch.py`, `scripts/ledger_staleness.py`, `scripts/corrections_boot_check.py`. The hash file recorded a state nothing re-checked; a boot-time compare is the mechanization candidate (not built today).
+- **Packet to PROME** (carve-out ①): `PROME/inbox/2026-10-15_from-RED_charter-split-READS-delta.md` — asks for a `READ RED AGENTS/RED/CLAUDE.md whole` row so `read_cap_check` grades the charter (today: "out of perimeter, charter_mode=unspecified"); attestation re-filed unchanged in set.
+- **Reports preserved:** the S53 cold-audit ledger (`reports/2026-10-15_S53_cold_audit_ledger.md`) and the charter cold-read report, both copied from the session scratchpad.
+
+**Files touched:** `CLAUDE.md`, `CHARTER_PROVENANCE.md` (new), `registry/basis-hashes.json`, `MAINTENANCE.md`, `SCRATCH.md`, `STATUS.md` (A1 line), `reports/` ×2 (new), `PROME/inbox/` ×1 (carve-out ①).
+**Boot-impact:** boot steps unchanged in set and order; every session now reads 24.5 KB of charter instead of 44.6 KB; reasons are one pointer away. Boot 6 has a default for a bare boot. W-A's first-vs-later-ending rule is explicit.
+
 ## S53 — 2026-10-15 10:18 ET boot → 2026-10-15 11:05 ET (both from `date`; Will-launched, RED's first Fable session; Will's ask: "catch up on all owed work … hunt for anything broken, incomplete, inaccurate … and repair")
 
 **Trigger:** Will's ask + a cold read-only audit of `AGENTS/RED/` (Opus spawn, ledger ~100 findings in 9 tables; ledger kept at the session scratchpad, its ten-line summary and every acted finding recorded here by audit number).
