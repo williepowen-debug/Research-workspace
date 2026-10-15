@@ -158,7 +158,8 @@ def read_cap_step(sid, name, argv, rc_map):
 def finding_lines(out, n=4):
     """Keep all warning blocks; n bounds secondary context, never required actions."""
     keys = ("DUE:", "CANNOT", "❌", "🔴", "⏰", "🟠", "🟡", "⚠", "⛔",
-            "STALE", "FINDINGS", "likely YOURS", "NOT ON ORIGIN", "UNKNOWN")
+            "STALE", "FINDINGS", "likely YOURS", "NOT ON ORIGIN", "UNKNOWN",
+            "RECORDED LATE")   # 2026-10-14 independent read F1-c: a late-recorded pairing miss stays VISIBLE at C8
     warnings, context, results = [], [], []
     warning_indent = None
     for raw in out.splitlines():

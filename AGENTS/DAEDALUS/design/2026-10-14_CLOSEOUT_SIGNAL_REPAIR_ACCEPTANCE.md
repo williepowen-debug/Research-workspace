@@ -33,3 +33,12 @@
 
 ## Review
 These change guards other sessions rely on: **one independent fresh-context read of all four diffs**, with its own counterexample, before any is called fixed (WQ-229). Records: EVOLUTION entry (complete_check semantics), CHECKS.tsv `orphan_check` row, gate spec §8 amendment, charter step 9 one line for `ack`.
+
+## Amendment after two independent reads (2026-10-14 ~23:0x ET) — state of each fix
+
+| Fix | State | Record |
+|---|---|---|
+| 1 `complete_check.py` | **INSTALLED** — rebuilt after read 1 (F1-a/b/c): canonical uppercase token `PAIRING, LATE` / `PAIRING RECORDED LATE`, and the FIRST ≥9-hex hash within 120 chars after it must prefix the commit (**AC1.1's "either order, ≤40 chars" text is superseded by this**). Delta read: ACCEPT-WITH-RESIDUE; its one regression (a non-UTF-8 byte crashed the new EVOLUTION read) fixed with `errors="replace"`, also applied to the shared `sh()` helper, which closes a PRE-EXISTING crash on a stray byte in my own commit's diff. Gate C8 now displays the 📝 line. **Residue (accepted, all need the uppercase token typed into DAEDALUS's own committed EVOLUTION):** negated/pending prose ("NOT a PAIRING, LATE record for HASH") still excuses; the first hash after the token wins even if not the subject; lowercase / 7-char / wrapped entries are not recognised (fail-safe, noisy). | read 1 `…_INDEPENDENT_READ.md`, delta `…_DELTA_READ.md` |
+| 2 gate NEW vs CARRIED | **NOT INSTALLED** — read 1 REJECT; redesign deferred to its own session after PR#8 (Will 22:34 ET), spec = read 1's per-step table | read 1 |
+| 3 `profile_clock_check.py` | **INSTALLED** (7c10b9457) — read 1 ACCEPT-WITH-RESIDUE (F3-a) | read 1 |
+| 4 `orphan_check.sh` | **NOT INSTALLED** — read 1 REJECT (first version live 22:14–22:31, reverted); rebuilt version REJECTED by the delta read (crash without `|| true`; same-basename deletion in ANOTHER owner tree mislabels my unsent packet). Repair = same-owner-tree rule + `|| true`, then a further read before install | delta read |

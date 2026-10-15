@@ -50,7 +50,7 @@ CLAIM_SCOPE = ("inbox/", "upgrades/", "outbox/", "design/", "builds/")
 
 
 def sh(args):
-    p = subprocess.run(args, capture_output=True, text=True)
+    p = subprocess.run(args, capture_output=True, text=True, errors="replace")  # a stray byte in a diff must not crash (10/14)
     if p.returncode != 0:
         print(f"🔴 complete_check CANNOT-CERTIFY: {' '.join(args)} rc={p.returncode} "
               f"({(p.stderr or '').strip()[:160]})")
@@ -79,6 +79,27 @@ def main():
     findings = 0
 
     # Leg (ii) — BLUEPRINTS/UPGRADE_PROTOCOL <-> EVOLUTION same-commit pairing
+    # RECORDED-LATE (2026-10-14, Will 22:05 + 22:34 ET; acceptance
+    # design/2026-10-14_CLOSEOUT_SIGNAL_REPAIR_ACCEPTANCE.md Fix 1, repaired after the independent
+    # read F1-a/F1-b): a miss stops GATING only when the COMMITTED EVOLUTION.md carries the canonical
+    # late token — `PAIRING, LATE` or `PAIRING RECORDED LATE` (whole words, uppercase) — whose FIRST
+    # commit hash after it (>=9 hex chars, hex-bounded, within 120 chars) is a prefix of this commit.
+    # A bare mention, LATE inside another word (VIOLATED, TEMPLATE, LATER), or a late entry that names
+    # a DIFFERENT commit first never excuses it. The miss is still printed every run (📝).
+    evo = subprocess.run(["git", "show", "HEAD:AGENTS/DAEDALUS/EVOLUTION.md"],
+                         capture_output=True, text=True, errors="replace")  # delta read: one bad byte must not crash the gate
+    evo_lines = evo.stdout.splitlines() if evo.returncode == 0 else []
+    late_tok = re.compile(r"\bPAIRING\b\W{0,5}(?:RECORDED\s+)?LATE\b")
+    hexhash = re.compile(r"(?<![0-9a-fA-F])[0-9a-f]{9,40}(?![0-9a-fA-F])")
+
+    def late_entry(full):
+        for i, line in enumerate(evo_lines, 1):
+            for m in late_tok.finditer(line):
+                h = hexhash.search(line, m.end(), m.end() + 120)
+                if h and full.startswith(h.group(0)):
+                    return i
+        return None
+
     checked = 0
     for c in commits:
         files = sh(["git", "show", "--name-only", "--pretty=", c]).splitlines()
@@ -87,10 +108,16 @@ def main():
         if touches:
             checked += 1
             if "AGENTS/DAEDALUS/EVOLUTION.md" not in files:
-                findings += 1
-                print(f"⏰ PAIRING: commit {c[:9]} touches {touches[0]}"
-                      f"{' (+%d more)' % (len(touches)-1) if len(touches) > 1 else ''} "
-                      f"with NO EVOLUTION.md in the same commit (PAT-101 rule ii)")
+                more = f"{' (+%d more)' % (len(touches)-1) if len(touches) > 1 else ''}"
+                late = late_entry(c)
+                if late:
+                    print(f"📝 PAIRING RECORDED LATE: commit {c[:9]} touches {touches[0]}{more} "
+                          f"with no same-commit EVOLUTION.md — late entry EVOLUTION.md:{late} "
+                          f"(committed; the miss stays in history, not gating)")
+                else:
+                    findings += 1
+                    print(f"⏰ PAIRING: commit {c[:9]} touches {touches[0]}{more} "
+                          f"with NO EVOLUTION.md in the same commit (PAT-101 rule ii)")
 
     # Leg (iii) — READER_REPORTS pair symmetry (whole upgrades/ dir, cheap)
     updir = os.path.join(repo, "AGENTS/DAEDALUS/upgrades")
