@@ -19,6 +19,8 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 - **Intake this session:** COR-20261015-05/15/22 receipted NO-OP, COR-07 DEFERRED to the 10/20 CHG-049 grade; six board_log rows (SIG-022 acted, BOND F2 10/15 noted, 003/005/007/015); two lane files to processed/.
 
 **Files touched:** `scripts/closeout_check.py` (new) · `scripts/status_mirrors.py` (new) · `scripts/test_closeout_check.py` (new) · `scripts/basis_check.py` (new) · `scripts/boot.py` · `scripts/review_debt.py` · `scripts/schema_check.py` · `CLAUDE.md` · `CHARTER_PROVENANCE.md` § 3 · `STATUS.md` · `SCRATCH.md` · `OUTBOX.md` · `MAINTENANCE.md` · `registry/basis-hashes.json` · `registry/corrections_receipts.tsv` · `board_log.tsv` · `inbox/` ×2 moves.
+**S54 later entries (2026-10-15 16:02 ET):** Network Sweep report + NEXUS vS54 rotation (`reports/2026-10-15_NEXUS_BRIEF_vS53_rotated.md`, crc in its header) + CHG-RED-055 + ML-299…301; `scripts/basis_check.py` re-attested twice more (hold_netbear fixes). **Figure correction (PROME 16:0x ET):** the S53-b packet to PROME said the charter was 21,413 B — that was the measurement BEFORE the cold-read fold-backs; the split commit f6a844ae0 measures 24,526 B (this file's S53-b entry already says 24,526) and the file is 27,827 B after S54 (85% of budget, rotate-tier under the READS row PROME applied at 547f06bb3). De-dup pass = SCRATCH 6g.
+
 **Boot-impact:** boot gains 9f (basis_check --check, ~1s). Every ending now runs `status_mirrors.py --write` then `closeout_check.py` before the commit; rc 1/2 block. The spec file stays in `research/` as the dated record; its vintage error is corrected in the test file, not in the spec (the spec is what Will approved).
 
 ---

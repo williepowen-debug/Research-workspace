@@ -4,6 +4,13 @@
 
 ---
 
+## S54 — 2026-10-15 14:56 ET boot → 2026-10-15 16:02 ET (from `date`) — **NO WEIGHT MOVED. HOLD 70 · net-bear 65. No registered-trigger STATE changed. Network Sweep delivered; CHG-RED-055 opened (self).**
+
+- **Sweep verdict (reports/2026-10-15_S54_NETWORK_SWEEP.md):** the fleet is split, not unanimous — bear = levels, bull = flows. Six inputs added to the post-10/22 ledger; **pre-stated expectation on today's inputs: Stag −2 to −3 toward Managed, net-bear ~flat.** Not applied (CHANGELOG S53 rule: no discretionary re-derivation before the 10/22 prints).
+- **CHG-RED-055:** FT-11's FLOW branch is a shape test that a haven bid reproduces; BOND's buyback dig puts the buyback bid at ~30% of new long-bond DV01. The 10/16 classification runs on the letter as registered; both readings are written beside the verdict. Old view: "a FLOW verdict moves nothing by design." New view: "a FLOW verdict moves nothing by design, and cannot by itself establish that the bid was a buyback."
+- **Pre-stated before data:** an FT-02 fire on 10/16 is applied mechanically with its tier composition recorded beside it (levered-AI share, LIQUID's gate).
+- Apparatus: closeout gate built (MAINTENANCE S54). Charter 27.8 KB.
+
 ## S53 — 2026-10-15 10:18 ET boot → 2026-10-15 11:06 ET (from `date`) — **NO WEIGHT MOVED. HOLD 70 · net-bear 65. Registered-trigger STATE changed: `RED-FT-02` 0 → 1 of 3 (HY 325 [FRED obs 10/14]). STATUS re-based.**
 
 - **FT-02 1 of 3.** First cell over 320 since 324 [10/1]; broad-tier on the day (BB +3 · B +13 · CCC +15 to 1,282 window high · IG +1). Verified at FRED on PROME's doorbell, first-published = revised. Fire needs the 10/15 and 10/16 cells; on fire NET-BEAR +3 / CONF +2 (pre-registered 8/12). Nothing banked.
