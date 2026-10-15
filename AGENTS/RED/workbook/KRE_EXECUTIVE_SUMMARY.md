@@ -112,9 +112,9 @@ CET1 ratios at **17%+** (vs 4.5% minimum). Can absorb 2-3 years of losses.
 ## FILES DELIVERED
 
 1. **`counter-evidence/KRE_BULL_CASE.md`** (18KB) — 10 pillars, full analysis
-2. **`challenges/KRE_CHALLENGE.md`** (11KB) — Formal challenge document
-3. **`KRE_DEBATE_PREP.md`** (10KB) — Arguments, rebuttals, closing
-4. **`KRE_CHALLENGE_SUMMARY.md`** (7KB) — Summary for Prome
+2. **`archive/KRE_CHALLENGE_2026-02-20.md` (archived 2026-10-15, DATED HISTORY)** (11KB) — Formal challenge document
+3. **`archive/KRE_DEBATE_PREP_2026-04-02.md` (archived 2026-10-15, DATED HISTORY)** (10KB) — Arguments, rebuttals, closing
+4. **`archive/KRE_CHALLENGE_SUMMARY_2026-04-02.md` (archived 2026-10-15, DATED HISTORY)** (7KB) — Summary for Prome
 5. **This file** (2KB) — Executive summary
 
 ---

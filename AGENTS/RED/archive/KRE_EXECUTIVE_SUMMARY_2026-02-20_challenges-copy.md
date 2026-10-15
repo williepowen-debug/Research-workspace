@@ -1,3 +1,5 @@
+> ⛔ **DATED HISTORY — archived 2026-10-15 (S53) under the root retirement rule (>60d, not boot-read, cited only by index-style file lists).** February–April 2026 KRE debate record (CHG-RED-006). **The FHLB "$480B" figure in this file is WRONG** — superseded 2026-10-14 by Office of Finance figures in `workbook/KRE_EXECUTIVE_SUMMARY.md` (live) and `KRE_BULL_CASE.md`; Pillar 10's >$800B level test is RETIRED. Cite nothing here as current. Live KRE view: `workbook/KRE_EXECUTIVE_SUMMARY.md`; live bank leg: CHG-RED-027 / CHG-RED-054.
+
 # EXECUTIVE SUMMARY — RED TEAM ADVERSARIAL ANALYSIS
 **KRE Trade Thesis (Feb 19, 2026)**
 

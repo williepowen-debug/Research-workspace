@@ -1,3 +1,5 @@
+> ⛔ **DATED HISTORY — archived 2026-10-15 (S53) under the root retirement rule (>60d, not boot-read, cited only by index-style file lists).** February–April 2026 KRE debate record (CHG-RED-006). **The FHLB "$480B" figure in this file is WRONG** — superseded 2026-10-14 by Office of Finance figures in `workbook/KRE_EXECUTIVE_SUMMARY.md` (live) and `KRE_BULL_CASE.md`; Pillar 10's >$800B level test is RETIRED. Cite nothing here as current. Live KRE view: `workbook/KRE_EXECUTIVE_SUMMARY.md`; live bank leg: CHG-RED-027 / CHG-RED-054.
+
 # RED KRE Challenge — Summary for PROME
 
 **Date:** 2026-02-20  
@@ -133,8 +135,8 @@ Fed track record: 3 for 3 (2008 TARP, 2020 COVID, 2023 BTFP).
 ## FILES CREATED
 
 1. **`counter-evidence/KRE_BULL_CASE.md`** — 18KB comprehensive bull case (10 pillars, historical analysis, EV calculations)
-2. **`challenges/KRE_CHALLENGE.md`** — 11KB formal challenge document (counter-evidence, debate strategy)
-3. **`KRE_DEBATE_PREP.md`** — 10KB debate preparation (arguments, rebuttals, closing statement)
+2. **`archive/KRE_CHALLENGE_2026-02-20.md`** — 11KB formal challenge document (counter-evidence, debate strategy)
+3. **`archive/KRE_DEBATE_PREP_2026-04-02.md`** — 10KB debate preparation (arguments, rebuttals, closing statement)
 4. **`workbook/CHALLENGES.tsv`** — Updated with KRE challenge (Grade A-)
 5. **`STATUS.md`** — Updated with latest challenge
 

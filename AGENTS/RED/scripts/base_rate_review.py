@@ -203,6 +203,54 @@ def ft11_delta5(vals_pct: list[float]) -> list[float]:
     ]
 
 
+FT11_LEGS = ("DGS30", "DGS5", "T10YIE", "DGS2")
+
+
+def ft11_legs(limit: int = 30) -> dict:
+    """The three FT-11 classification legs over the SAME 5-session window as the
+    precondition, from FRED officials, in exact decimal bp (S53 2026-10-15).
+
+    WHY: the registry letter says "WHEN IT FIRES, CLASSIFY on three legs ... same
+    5-session window" and boot.py marks FT-11 'manual check'. Until this function the
+    legs were hand-computed on fire day from five CSV pulls — the ritual this script
+    exists to replace (finding_mechanize_the_cap_not_the_ritual). The precondition sat
+    at -10.0bp vs <=-10.2 on 2026-10-13 with a 30Y rally under way on 10/15, so the
+    first fire was hours from being improvised.
+
+    WINDOW: the five most recent sessions on which ALL FOUR series carry a value
+    (empty FRED cells = non-sessions / unpublished, dropped). Start = the session five
+    back. BOTH endpoint dates are reported, because H.15 series can run one session
+    behind BAML OAS on the same pull (registry basis note) — the caller states them,
+    never assumes same-day.
+
+    LETTER (registry instrument_basis, verbatim in substance): FLOW if d(30Y-5Y) <= -3
+    AND |dBE| <= 4 AND |d2Y| <= 6; FUNDAMENTAL if d2Y <= -8 OR dBE <= -5; else
+    NO-VERDICT. Branches disjoint (verified 0 of 80 at registration). A FLOW verdict
+    moves NO hypothesis weight (instrument finding). Letter governs; this prints it.
+    Returns a dict; the printing is in main(). Fails loudly on a missing series.
+    """
+    series = {}
+    for sid in FT11_LEGS:
+        obs = fetch.fred_fetch(sid, limit=limit)
+        series[sid] = {o["date"]: Decimal(str(o["value"])) for o in obs
+                       if o.get("value") not in (None, "", ".")}
+    common = sorted(set.intersection(*(set(v) for v in series.values())))
+    if len(common) < 6:
+        raise RuntimeError(f"FT-11 legs: only {len(common)} common sessions across {FT11_LEGS}")
+    end, start = common[-1], common[-6]
+    bp = lambda sid: (series[sid][end] - series[sid][start]) * 100
+    d30, d5, dbe, d2 = bp("DGS30"), bp("DGS5"), bp("T10YIE"), bp("DGS2")
+    dcurve = d30 - d5
+    if dcurve <= -3 and abs(dbe) <= 4 and abs(d2) <= 6:
+        branch = "FLOW"
+    elif d2 <= -8 or dbe <= -5:
+        branch = "FUNDAMENTAL"
+    else:
+        branch = "NO-VERDICT"
+    return {"start": start, "end": end, "d30": d30, "dcurve": dcurve, "dbe": dbe, "d2": d2,
+            "branch": branch, "precondition": d30 <= Decimal("-10.2")}
+
+
 def parse_recorded_rate(cell: str) -> float | None:
     tok = cell.strip().split("%")[0].strip() if cell else ""
     try:
@@ -287,6 +335,14 @@ def main() -> int:
                   f"{full * 100:>10.1f}%({len(d5)}) {r120 * 100:>7.1f}% {'':>7}  {fl}  "
                   f"CURRENT Δ5 = {cur:+.1f}bp -> precondition {'WOULD FIRE' if cur <= thr else 'clear'}"
                   f"{_arm_date_note(r)}")
+            try:
+                L = ft11_legs()
+                print(f"{'':<10} legs, same window {L['start']} -> {L['end']} (FRED officials; "
+                      f"state both dates): d(30Y)={L['d30']:+.1f}bp  d(30Y-5Y)={L['dcurve']:+.1f}bp  "
+                      f"dBE10={L['dbe']:+.1f}bp  d2Y={L['d2']:+.1f}bp  => branch if fired: {L['branch']}"
+                      f"{'' if L['precondition'] else '  (precondition NOT met on this window; letter unchanged)'}")
+            except Exception as e:  # noqa: BLE001 — print, never hide: the legs are advisory here
+                print(f"{'':<10} legs: UNAVAILABLE ({e})")
             continue
         if metric not in HISTORY_MAP:
             print(f"{tid:<10} {line:<24} {'MANUAL':>9} {'—':>14} {'—':>8} {'—':>7}  ⚪ release-derived, review at each print")
