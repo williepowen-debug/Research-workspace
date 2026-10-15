@@ -92,7 +92,11 @@ def main():
         route.append([stamp, sig['id'], '; '.join(sig['origin']), sig['title'], sig['precedence'],
                       ','.join(sig['action']), ','.join(sig['info']), f"{sig['confidence']:.2f}"])
         for r, role in recipients(sig):
-            hp = ROOT / f"AGENTS/{r}/inbox/WALTER/{sig['id']}.md"
+            # PROME's sole inbox is FLAT at repo-root PROME/inbox/ (ROUTING_CARVEOUTS "Coordinator delivery
+            # path — PROME"); AGENTS/PROME/ must never be recreated. This line was missing on 10/14 (-034).
+            hp = (ROOT / f"PROME/inbox/{sig['id'][6:10]}-{sig['id'][10:12]}-{sig['id'][12:14]}_from-WALTER_{sig['id']}.md"
+                  if r == 'PROME' else ROOT / f"AGENTS/{r}/inbox/WALTER/{sig['id']}.md")
+            assert not str(hp).startswith(str(ROOT / 'AGENTS/PROME')), hp
             writes.append((hp, handoff_text(sig, board.relative_to(ROOT), stamp, r, role)))
             delivery.append([stamp, sig['id'], r, role, 'CLAUDE_CODE', sig['precedence'], str(hp.relative_to(ROOT)),
                              'written_not_delivered_pending_push',
