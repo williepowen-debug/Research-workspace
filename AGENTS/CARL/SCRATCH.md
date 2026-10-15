@@ -2,12 +2,12 @@
 **Last session:** 2026-10-15 ~12:17 UTC (08:17 ET), PROME-spawned Claude Code desk session (Opus 5.5), crash recovery.
 **Type:** Recovery of the session that died in the ~03:08 ET 10/15 machine crash + WQ-184 rows D:L672 ③④ and D:L708 (Will-commissioned) + whole-inbox drain. No trade, no threshold move, no new direction.
 
-**PRIORITY-1:** **2026-10-20 CRL-29 first grade — get Will's word on RED's C1–C5 letter change FIRST** (exact wording: `research/2026-10-15_CRL29_RED-clarifications-disposition.md` §2, carried to PROME 10/15). No ruling by 10/20 ⇒ grade under both letters, score only where they agree, send the disagreement to Will. Same day: SYF/ALLY/COF Q3 (CRL-20/21/31), VX-RED-009 auto-fraud count to RED.
+**PRIORITY-1:** **2026-10-20 CRL-29 first grade under RED's C1–C5 — RULED by Will 10/15 08:31 ET (WQ-437, "okay approved both"; `PROME/proposals/2026-10-15_wq436-437-RULED.md`).** Letter record: registration §4 + `research/2026-10-15_CRL29_RED-clarifications-disposition.md`; no fallback. Same day: SYF/ALLY/COF Q3 (CRL-20/21/31), VX-RED-009 auto-fraud count to RED.
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- September CPI (10/14) printed and is now integrated; retail sales (10/15 08:30 ET) published during/after this session and is NOT read.
+- September CPI (10/14) and September advance retail (10/15 08:30 ET) both printed and are integrated this session. Will ruled WQ-437 (CRL-29 letter) at 08:31 ET.
 - Box crashed ~03:08 ET 10/15; the 23:45 ET 10/14 session had landed 3 commits (2bb208ad9 lock, 50cd5f112 CRL-29 → RED, 37d43e57c universe) and left the L708 verdict, CPI card, V2 card, THESIS edit, two peer packets and data rows uncommitted. All verified and committed this session.
 - WALTER committed its lane copies (017–042, 1014-001/008/011/014/036); FERT committed its FERT-12 packet. All filed.
 
@@ -35,14 +35,13 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (by 10/16)
-- September advance retail sales (rel 10/15 08:30 ET): control group + price-adjusted T1 at a consistent vintage (docket row 10/15, still armed).
-- ABS subordinate rating-action row (10/15, approximate) needs an EDGAR/agency check — not done (boot ran --quick).
+- None dated. September retail READ 10/15 (T1 3/3 against, control +0.14%; KB-535); ABS rating-action row checked (SEARCH-NOT-FOUND) and re-dated 11/15.
 
 ### UPCOMING (this week)
-- 10/20: CRL-29 grade (Will's word first), Q3 SYF/ALLY/COF, VX-RED-009, AFT v. ED conference read, STUE status (PROME owns assignment), Russia diesel row.
+- 10/20: CRL-29 grade (RULED, C1–C5), Q3 SYF/ALLY/COF, VX-RED-009, AFT v. ED conference read, STUE status (PROME owns assignment), Russia diesel row.
 
 ### UPCOMING (next 2 weeks)
-- 10/23 UMich final · 10/26 fintech feed review · ~10/29 EART September (V2) · 10/30 Q3 GDP (DOC-P10) · 10/31 Sec-122.
+- 10/23 UMich final · 10/26 fintech feed review · ~10/29 EART September (V2) · 10/30 Q3 GDP (DOC-P10) · 10/31 Sec-122 · 11/15 ABS rating actions · 11/17 October retail.
 
 ### BACKLOG
 - REVISION_LEDGER.tsv regeneration (stops 9/24; 10/01 and 10/15 events absent) — generated file, run `scripts/revision_ledger.py` deliberately.
@@ -74,3 +73,4 @@ All 25 filed to processed/ with ledger rows. Presence of other sessions: UNKNOWN
 ## CHECKPOINT RECEIPT
 - consistency_check (no --warn-only) 0 hard / 6 soft rc 0 · corrections check rc 0 (0 unreceipted) · board_gap --closeout 0 new, 973 logged · roadmap --check clean · read-cap STATUS 22,690 B (<70% stop) · docket twins event-set match.
 - No auto-memory authored. MEMORY.md unchanged. TEAM.md unchanged (no sub-agent spawned).
+- **Addendum 2026-10-15 08:34 ET** (PROME follow-up): September retail read at the Census primary (219c1d09d); 13c retirement sweep run — 3 candidates, all RETAINED, 0 retired (`domain/sources/2026-10-15_retirement-sweep.json`); CRL-29 ruling encoded (b5ff7fd87).
