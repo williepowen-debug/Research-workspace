@@ -16,6 +16,8 @@ source: PROME-handoff (cross-session, prome-81 → WALTER, 2026-10-15 ~10:3x ET)
 
 # SIG-W-20261015-001 — FRED HY OAS 325 bp [10/14] = first cell over the >320 bar; RED-FT-02 count 1-of-3; REG-T-03 count 1-of-3; LIQUID GATE-LIQ-069 L4 HY half MET pending LIQUID grade; TERRY WQ-365 QQQ card leg (b) is still 1-of-2 (316/325, 10/16 cell decides)
 
+> **CORRECTION 2026-10-15 ~13:5x ET (RED S53 packet to WALTER 10:44 ET):** the original Evidence and Caveat text named **10/13** as Columbus Day. **Columbus Day was Mon 2026-10-12**. The RED-graded run (own FRED pull, first-published = revised) is: **311 [10/9] · 311 [10/12 non-session, bridged] · 316 [10/13 real session, <320 so does not count] · 325 [10/14] = 1 of 3**. The 1-of-3 count conclusion is unchanged. Body text at the two offending lines rewritten in place; this block preserves provenance.
+
 ## Claim
 
 FRED's 2026-10-14 ICE BofA cells published this morning:
@@ -31,13 +33,13 @@ FRED's 2026-10-14 ICE BofA cells published this morning:
 
 - **Primary:** FRED series BAMLH0A0HYM2 / BAMLH0A3HYC — read by PROME, cross-session dispatch to WALTER.
 - **Observation date 2026-10-14 governs the sustain count** (not pull date). FRED publishes ~T+1; 10/14 cell appeared this AM.
-- **Non-session clause (RED S52 CHG-051, Will-approved 2026-10-14):** ICE OAS series = NYSE holidays + SIFMA full-close days; 10/13 (Columbus Day) was a non-session and BRIDGES — HY was 311 [10/9] = 311 [10/13 forward-fill in some vendor views] but FRED's bar for 10/13 is treated as calendar-bridged under the ruling. The 10/14 cell is the first live session over the line.
+- **Non-session clause (RED S52 CHG-051, Will-approved 2026-10-14):** ICE OAS series = NYSE holidays + SIFMA full-close days; **10/12 (Columbus Day)** was a non-session and BRIDGES — HY was 311 [10/9] = 311 [10/12 forward-fill, non-session bridged under the ruling]; **10/13 is a real session that printed 316 (<320, does not count against the sustain window); 10/14 is the first live session OVER the line at 325 (= 1-of-3).**
 - **Vintage pin (RED S52 P5):** FT-02 grades on the FIRST-PUBLISHED T+1 value; this is that value.
 
 ## Caveats
 
 - **Count ticks, not a fire.** A 10/15 cell at or below 320 breaks both sustain counts; a 10/15 cell >320 advances to 2-of-3. Nothing fires until 3-of-3 (RED-FT-02 and REG-T-03 both require 3 consecutive).
-- **The 10/13 Columbus Day cell** is bridged per the non-session clause; the sustain count treats 10/14 as the first eligible session. CCC at 1,282 is a window high but RED-FT-07 (>930 s=1) is already FIRING-BANKED since 9/26 — this is a deepening, not a new fire.
+- **The 10/12 Columbus Day cell** is bridged per the non-session clause (forward-fills from 10/9); **10/13 was a real session that printed 316 (<320, so does not count); 10/14 at 325 is the first >320 cell**. CCC at 1,282 is a window high but RED-FT-07 (>930 s=1) is already FIRING-BANKED since 9/26 — this is a deepening, not a new fire.
 - **PROME-sourced:** WALTER did not re-pull the FRED cell before dispatch. PROME's text names the series, the date and the published level; the fact is dated and trusted. Any desk may re-pull.
 - **CRWV connection:** PROME's 10:04 ET vendor reads for context — CRWV $60.43 (-8.1%), QQQ -1.3%, TLT +1.9%, 10Y 5.05% (-14bp intraday), VIX 17.6. The HY tick landed into a risk-off tape with 10Y RALLYING, not a clean credit-widening alone.
 
