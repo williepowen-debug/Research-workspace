@@ -3,6 +3,7 @@ name: finding_holiday_calendar_domain_mismatch
 description: pandas USFederalHolidayCalendar does NOT contain Good Friday, but bond and equity markets close for it — a business-day rule built on the federal calendar demands data from a day markets never published
 metadata:
   type: reference
+symptoms: "sustain count completes a day early around a holiday", "FRED value unchanged on Columbus/Veterans Day", "VIXCLS has a bar on Labor Day", "run counted two observations from one session"
 ---
 
 **`pandas.tseries.holiday.USFederalHolidayCalendar` does not include Good
@@ -47,3 +48,17 @@ not the code side: **a Monday or post-holiday row that is blank or unchanged.**
 A grep for `timedelta(days=` misses `DateOffset`, positional `timedelta(1)`, and
 tolerance constants like `FRESH_TOLERANCE_DAYS` — which was the actual carrier.
 Related: [[finding_weekday_assumed_never_evaluated]], [[finding_date_gate_beats_weekday_name]].
+
+
+## Extension 2026-10-14 (RED S52): the INVERSE, where the data holds bars for days the market was closed, and a counter counts them
+
+The original finding is a calendar that **demands** an observation no market published. The mirror image: **the vendor series PUBLISHES a bar for a closed day, and a sustain counter counts it as a session.** Measured at FRED on 2026-10-14:
+- ICE BofA HY OAS **3.11 [10/9] = 3.11 [10/12, Columbus Day]**. That is a SIFMA full close while **NYSE is open**, so an equity calendar does not catch it.
+- HY **2.68 [9/4] = 2.68 [9/7, Labor Day]**.
+- CCC **8.88 [2025-11-10] = 8.88 [11-11, Veterans Day]**.
+- **VIXCLS printed 15.30 on Labor Day** with NYSE closed.
+- **Not always a copy:** CCC on Labor Day 2026 printed 10.55 against 10.54 the session before. **A "value equals prior bar" detector misses some holiday bars and wrongly flags real sessions that repeat a value**, so the rule must be calendar-based.
+
+**Consequence:** a "3 consecutive observations > X" rule completes a session early. RED-FT-02 (HY >320 s=3) sat 4bp away with **Veterans Day (Wed 11/11) on the calendar**: a >320 close on 11/10 plus the forward-filled 11/11 bar would have put two of three observations on one session.
+
+**How to apply:** for each series, pick the calendar of **the market it prices**. Bond indices need NYSE **plus** SIFMA full closes (Columbus, Veterans). VIX needs NYSE. Treasury/H.15 series leave the cell blank, which is the safe form. Treat a bar on a closed day as a **non-session**: excluded, with the run bridged across it. **Test the fixture on Columbus Day**, the day the two calendars disagree. RED's executable form: `AGENTS/RED/scripts/nonsession.py` + `test_nonsession.py` (13 cases). Any desk running sustain or "N consecutive" logic on FRED ICE OAS or VIXCLS (LIQUID, WALTER, REGINALD, VIOLET) has the same exposure until it checks.
