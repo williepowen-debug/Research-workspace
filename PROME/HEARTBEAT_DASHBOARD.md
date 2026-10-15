@@ -46,9 +46,6 @@ This companion keeps render metadata outside the boot-read byte budget.
         "body": "Trepp Sep: MF DQ 8.04% (+35bp), special servicing 8.54%; PMMS 7.40%; Redfin seller-buyer gap 62.6% record. Trepp MF maturity-adjusted kill EXECUTED (successor MF SS).",
         "cls": "elev"
       }
-    },
-    "ticker": {
-      "QQQ": "WQ-365 DECLINED 12:03 ET — the Dec put-spread card lapses Fri 15:00, no trade"
     }
   }
 }

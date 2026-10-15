@@ -6,23 +6,23 @@
 
 ## Top priorities
 
-**2026-10-15 09:12 ET — crash-recovery closeout before the open; closes are the 10/14 closes, owner reads as dated:**
-- **Your orders this week, nothing placed by PROME:** QQQ Oct-15 740P ×3 expire TODAY at the close (about $11 in the money at the 10/14 close; sell or roll); HBAN Oct-16 16P ×2 expire Friday (WQ-302 still yours); WAL 65P ×4 to be sold before Monday's 10/19 print and OZK 40P ×4 before Tuesday's 10/20 print (WQ-428/429). Fills owed from your screen, including the USO calls you sold 10/14.
-- **What the morning meant:** the box died at 03:08 with nine desks mid-session; all recovered and closed by 09:00, nothing lost, tree clean. Claims 199K (quiet); retail control +0.14% after +1.19% (soft under a gasoline headline); PJM's fifth emergency keeps the grid score at 5; CoreWeave credit repriced hard (CDS ~1,059–1,120bp) with nothing new firing; October-hike odds ~30%. Details: the brief tab and `HEARTBEAT.md` amendment #5.
-- **Ruled today:** WQ-436 (three recovery spawns, done) · WQ-437 (CRL-29 clarifications, encoded by CARL) · WQ-438 (LABOR's charter lines, by 10/21).
-- **Still your word:** WQ-439 and WQ-440 (ORACLE's two alert rules, by 10/23) · WQ-302 HBAN · WQ-357 TBT · WQ-411 spine audit; the generated queue owns the full list.
+**2026-10-15 12:58 ET — midday closeout, first desktop sitting; levels are intraday reads, owner reads as dated:**
+- **Your orders, nothing placed by PROME:** one QQQ Oct-15 715P expires at today's close (the 740 puts and the USO calls were sold 10/14, confirmed by your 10:10 capture); HBAN Oct-16 16P ×1 rides with ONE LOOK Friday before 16:00 ET (WQ-302 R-B); TBT ×5 sale approved, the order yours (WQ-357); WAL 65P ×4 before Monday's print and OZK 40P ×4 before Tuesday's (WQ-429/428), no order at the capture. Owed from your screen: the OZK/WAL fills, the lower Activity rows, a Robinhood view.
+- **What the day meant:** high-yield 325 [10/14] is the first print over the 320 line since 10/1 (RED 1 of 3; LIQUID grades Friday), CCC at a window high, CoreWeave repricing hard, funding orderly, bonds rallying through a hot PPI. Nothing fired on the fire-ledger. Details: the brief tab and `HEARTBEAT.md` (31st base + amendment #1).
+- **Ruled today, all encoded:** twenty Deck taps (`proposals/2026-10-15_deck-batch-16-RULED.md` and the 12:00 set): WQ-365 declined (card lapses Friday), 403 OTIC gate registered, 314 (b) with ORACLE's daily pull, 412 REG-07 void, 410 COR1M retired, 435 CRUISE re-scope, 439/440 ORACLE rules, 411 spine audit #16 run; four carrier rows left at ruling.
+- **Still your word:** WQ-441 Volta baseline (by 10/17) · WQ-442 CoreWeave card (by 10/23); hands on 302 · 357 · 422; the generated queue owns the full list.
 
 ## Spawn queue
 
 Current owner obligations and dates come from `PROME/DOCKET.tsv`; eligibility and preflight remain in `PROME/ROSTER.md` and `PROME/CLAUDE.md`. A same-minute liveness check precedes every launch; a desk you launched yourself is doorbelled, never duplicated. Tomorrow's due-row wakes (WQ-184 class, up to eight when every row is a dated catalyst or review date):
 
-- **LABOR** · Thu 10/15 after 08:30 ET · initial claims w/e 10/10 + continuing claims (card frozen 10/8; DOCKET L625)
-- **OSPREY** · Thu 10/15 · Channel-1 5→4 downgrade test (L544) and the Azov C2 lead (L666)
-- **CARL** · Thu 10/15 · overdue thesis-scope session (L672) + your CCC-gap commission read due 10/19 (L708) + RED's CRL-29 clarifications before its 10/20 grade
-- **FERT** · Thu 10/15 · GATE-FERT-G3 China urea re-read (review date) with the T8/T6/T12 ride-alongs (L577)
-- **WATT** · Thu 10/15 · grade the 10/8–10/14 clear-day window under the P1 de-escalation rule (L693)
-- **LIQUID** · Thu 10/15 · your CCC-gap commission read (L708); its swap-line fix still waits on a reader you name (WQ-404)
+- **LIQUID** · Fri 10/16 after 08:00 ET · LIQ-07 funding verdict on the 10/15 SOFR; the 10/14 HY cell for 069 L4; discount window; TIC (L721)
+- **BROCK** · Fri 10/16 · CRMT Item 1.01 backstop #3 and the bridge-6 STD check (L586 · L651); dark since 10/14
+- **ORACLE** · Fri 10/16 · first bounded daily pull of the October $110 oil leg (WQ-314 (b); L729, through 11/1)
+- **REGINALD** · Fri 10/16 · CFG Q3 print (call 09:00 ET, L620) and the Nano Banc P&A document check (L516)
+- **CRUISE** · Fri 10/16 if dark · the re-scoped charter's first read (L712; WQ-435) — slated past the cap of four
 - **GIBBS** · Mon 10/19 · first live session: retrospective read of the already-printed large banks, then FITB after the close (L704)
+- **HOMER** · Mon 10/19 · NAHB October HMI (A3 leg of GATE-HOMER-THESIS-KILL) and the 10/15 spread recompute (L725)
 
 ## Runs itself — no window needed from you
 
