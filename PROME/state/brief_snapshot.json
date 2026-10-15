@@ -3,7 +3,7 @@
   "AI capex": "elev",
   "Credit": "elev",
   "Energy": "elev",
-  "Equity-vol": "watch",
+  "Equity-vol": "elev",
   "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
