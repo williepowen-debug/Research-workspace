@@ -75,6 +75,10 @@ def rows(path):
 
 
 def main():
+    # S54 2026-10-15 (SCRATCH 6d): this script takes no flags; --help or a typo refuses, rc 2.
+    if sys.argv[1:]:
+        print("schema_check.py: takes no arguments, got %s  (refused; nothing run)" % sys.argv[1:])
+        return 2
     schema = WB / "SCHEMA.tsv"
     if not schema.exists():
         print("FAIL: SCHEMA.tsv missing")

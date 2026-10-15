@@ -4,6 +4,25 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S54 — 2026-10-15 14:56 ET boot → (closeout stamp in SCRATCH; from `date`) — the closeout-hardening build (Will 14:46 ET: "do the build in a fresh window"; spec `research/2026-10-15_CLOSEOUT_CHECK_BUILD_SPEC.md`)
+
+**Trigger:** the S53 cold audit measured that every RED check was per-file and nothing graded whether STATUS, the TSVs, CALENDAR and NEXUS agreed; RED's own 10:33 addendum had skipped A2 and A4→W3 unnoticed. Will approved the build in principle at 14:46 ET for a fresh non-catalyst window.
+
+**What changed (structural):**
+- **NEW `scripts/closeout_check.py`** — read-only cross-surface gate, exit 0/1/2 (2 = INCOMPLETE, never a pass). Checks a–f (challenge table vs canon · tally ×3 vs canon · trigger tokens/counts + header claims · SCRATCH-stamp floor · state-change ⇒ CHANGELOG + OUTBOX dated today · HOLD/net-bear on NEXUS and CALENDAR) + g (delegates schema_check, gen_trigger_scan --check, read_cap_check, review_debt, claim_check weekday, ledger_staleness --nudge, basis_check, memory_index_check with --memory-slug; STATUS ≤200 lines). `--at <commit>` grades a past vintage against its parent with g reported SKIPPED. **Falsified** on `75e1b12b3` (28 findings: a 11-vs-6, b three tallies, c stale header count, d 646 min, e CHANGELOG unchanged, **f CALENDAR net-bear 60 vs 65 — a defect the spec did not list**); on `47b622ddf` (one true finding: FT-11 cell missing 0-of-5 — **the spec's claim that d/e flag here was wrong**); clean on the working tree after the FT-11 fix. Two defects found by the falsification and fixed before trust: the history-cue window read only BEFORE a tally (NEXUS "(9W/12C/1A) lagged canon" false-flagged) and `Confidence` was case-sensitive.
+- **NEW `scripts/status_mirrors.py`** — `--write` regenerates the STATUS open-challenge table and the tally line from canon between `<!-- GEN:challenges -->` / `<!-- GEN:tally -->` markers; `--check` rc 1 on drift; bare/`--help`/unknown refuse. The six hand headlines moved to a dated "Live notes" prose list under the table (RED's, not a claim about the TSV). CHG-027's csv-quoted Key_Finding is unquoted for display only.
+- **NEW `scripts/test_closeout_check.py`** — acceptance conditions pinned to the two commits + parser cases + the unknown-flag refusal; all other `test_*.py` re-run green. **The gate caught its own author twice at this session's closeout** (header parser read a stray "net-bear 60" in RED's new S54 line, then a quoted S50 prior "HOLD 70 / net-bear 58" in CALENDAR's header): `hold_netbear` now takes the EARLIEST canonical HOLD/net-bear pair in reading order; both cases are in the test file.
+- **NEW `scripts/basis_check.py`** (SCRATCH 6b) — sha256 of every surface in `registry/basis-hashes.json` vs live; `--check` rc 1 on drift, `--rehash --note` re-attests (history entry). Wired as boot 9f and into closeout_check g (advisory).
+- **`boot.py` / `review_debt.py` / `schema_check.py`** (SCRATCH 6d): an unknown flag or `--help` now refuses with usage, rc 2, instead of running the pass — same class as the `gen_trigger_scan.py` write-on-help defect fixed S53.
+- **Charter (`CLAUDE.md`, rules only; reasons → `CHARTER_PROVENANCE.md` § 3):** WRITE-BACK retitled "this IS the closeout"; W1 mirrors GENERATED; W10 is now the gate (①–⑥, root 1b–1e commands inline); A3 = regenerate + gate + commit + push; **Bounce** tier; **Closeout message** rule (COMMITTED/PUSHED named separately, SKIPPED ⇒ PARTIAL, owed-at-boot); Doc-mirror rows name which check grades them; boot 9f; 9b test list extended.
+- **STATUS:** FT-11 trigger-table cell now carries canon's `0-of-5` (gate finding c on HEAD).
+- **Intake this session:** COR-20261015-05/15/22 receipted NO-OP, COR-07 DEFERRED to the 10/20 CHG-049 grade; six board_log rows (SIG-022 acted, BOND F2 10/15 noted, 003/005/007/015); two lane files to processed/.
+
+**Files touched:** `scripts/closeout_check.py` (new) · `scripts/status_mirrors.py` (new) · `scripts/test_closeout_check.py` (new) · `scripts/basis_check.py` (new) · `scripts/boot.py` · `scripts/review_debt.py` · `scripts/schema_check.py` · `CLAUDE.md` · `CHARTER_PROVENANCE.md` § 3 · `STATUS.md` · `SCRATCH.md` · `OUTBOX.md` · `MAINTENANCE.md` · `registry/basis-hashes.json` · `registry/corrections_receipts.tsv` · `board_log.tsv` · `inbox/` ×2 moves.
+**Boot-impact:** boot gains 9f (basis_check --check, ~1s). Every ending now runs `status_mirrors.py --write` then `closeout_check.py` before the commit; rc 1/2 block. The spec file stays in `research/` as the dated record; its vintage error is corrected in the test file, not in the spec (the spec is what Will approved).
+
+---
+
 ## S53-b — 2026-10-15 11:16–11:27 ET (from `date`; Will: *"ok approved go ahead"* on the charter restructure proposal)
 
 **Trigger:** Will approved `research/2026-10-15_CHARTER_RESTRUCTURE_PROPOSAL.md` at 11:16 ET; executed the same session (no RED catalyst before the 16:30 H.4.1 read, which was already armed).

@@ -44,3 +44,7 @@ receipt_date	correction_id	action	note
 2026-10-15T02:56Z	COR-20261014-31	APPLIED	artifact=AGENTS/RED/reports/2026-10-14_S52_weight_rederivation.md#War-row; validation_ref=NONE; RED had called GFS PRIDE the first confirmed sinking - corrected to three IMO Sunk rows; War hold unchanged (price-based S51 letter); bear evidence logged for re-derivation in SCRATCH
 2026-10-15T02:56Z	COR-20261014-36	NO-OP	scope=RED is the source of this correction - research/2026-10-14_CARL_tariff_SR1201_verdict.md already carries the negative 12-month interval; 
 2026-10-15T02:56Z	COR-20261014-35	NO-OP	scope=RED never carried production-unaffected for Dhahran (board_log 10/14 says output unmeasured and not counted) - FALCON grades logged as War re-derivation input; 
+2026-10-15T19:03Z	COR-20261015-22	NO-OP	scope=RED surfaces already carried 'first cell over 320 since 10/1' at both 10/15 vintages (STATUS/CHANGELOG/OUTBOX/NEXUS, commits 75e1b12b3 and 47b622ddf) - registry FT-02 state_detail carries no 'first-ever' - 1-of-3 count unaffected; 
+2026-10-15T19:03Z	COR-20261015-05	NO-OP	scope=no RED live surface cites a CRWV 2032 YTW figure (grep 14.5 across STATUS/NEXUS/OUTBOX/VX/KB/registry: only KB-RED-009 Media 14.5pct, unrelated) - info-cc only; 
+2026-10-15T19:03Z	COR-20261015-15	NO-OP	scope=no RED live surface carries the private-credit-is-opaque bloc claim (grep opaque outside archive/reports: one unrelated OUTBOX line on Kernel capabilities) - CHG-044/BRK-32 rests on BCRED redemption mechanics, not opacity; 
+2026-10-15T19:03Z	COR-20261015-07	DEFERRED	review=2026-10-20; 

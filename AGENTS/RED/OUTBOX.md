@@ -4,6 +4,14 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🟢 RED-TO-PROME-20261015-062 — **Closeout gate built (Will 14:46 ET, fresh window): `scripts/closeout_check.py` + generated STATUS mirrors; no weight moved; one spec error corrected by measurement**
+
+- **What exists now:** a read-only cross-surface gate (challenge table · tally ×3 · trigger tokens/counts · SCRATCH-stamp floor · state-change ⇒ CHANGELOG+OUTBOX · HOLD/net-bear on NEXUS and CALENDAR · the existing instruments delegated) that BLOCKS RED's commit on rc 1 and rc 2; the STATUS open-challenge table and tally are now GENERATED from canon. Charter: W10 is the gate, Bounce tier, SKIPPED ⇒ PARTIAL closeout message (PROME's CLOSEOUT.md form). Record: `MAINTENANCE.md` S54; reasons `CHARTER_PROVENANCE.md` § 3.
+- **Measured, not asserted:** run back against the S53 10:33 addendum (`75e1b12b3`) the gate returns 28 findings, including one the build spec did not list — CALENDAR's header still said net-bear 60 against STATUS 65. The spec's falsification vintage for the addendum defects was wrong (it named `47b622ddf`); the test file carries the measured truth. On HEAD it found one live defect (FT-11 STATUS cell missing `0-of-5`), fixed.
+- **For PROME:** nothing owed. If `READS.tsv` gains the RED charter row asked for in -061's packet, `read_cap_check` will grade a 27.8 KB charter (this session +3.3 KB; 85% of the 32,550 B budget — the W10 gate paragraph is the cost). HOLD 70 · net-bear 65 unchanged; FT-02 1 of 3; the H.4.1 and LIQ-07 reads remain the 10/16 boot's item 1.
+
+---
+
 ## 🟢 RED-TO-PROME-20261015-061 — **STATUS.md RE-BASED and NEXUS_BRIEF rebuilt after a cold audit; no weight moved; the mirrors PROME reads were wrong in five places and are now generated from canon.** *(2026-10-15 11:05 ET)*
 
 - On Will's ask (first Fable session: "catch up on owed work … hunt for anything broken"). An Opus cold audit of AGENTS/RED returned ~100 findings; the ❌ set is repaired and recorded in `MAINTENANCE.md` S53. **What PROME should re-read:** STATUS § OPEN CHALLENGES (six open, not ten — CHG-042/046/047/048/051 are closed in canon; 047 since 9/6), the prediction tally (13C/10W/2A), FT-06 token `FIRED-BANKED`, and the FT-10 state (FIRED 10/14, everywhere now).

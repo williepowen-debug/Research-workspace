@@ -172,6 +172,18 @@ def cited(ids, root):
 
 
 def main():
+    # S54 2026-10-15 (SCRATCH 6d): --help or a typo used to run the pass. Refuse first.
+    _args, _extra, _i = sys.argv[1:], [], 0
+    while _i < len(_args):
+        if _args[_i] == "--vx" and _i + 1 < len(_args):
+            _i += 2
+            continue
+        if _args[_i] not in ("--strict", "--quiet"):
+            _extra.append(_args[_i])
+        _i += 1
+    if _extra:
+        print("review_debt.py: unknown flag(s) %s - usage: review_debt.py [--quiet] [--strict] [--vx PATH]  (refused; nothing run)" % _extra)
+        return 2
     strict = "--strict" in sys.argv
     quiet = "--quiet" in sys.argv
     root = os.path.join(subprocess.run(["git", "rev-parse", "--show-toplevel"],

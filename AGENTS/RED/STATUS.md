@@ -1,4 +1,5 @@
 # RED STATUS
+**S54 addendum 2026-10-15 15:14 ET (from `date`): CLOSEOUT GATE BUILT (Will 14:46 ET, fresh window)** — `scripts/closeout_check.py` now blocks the commit on any STATUS/TSV/CALENDAR/NEXUS disagreement (rc 1) or an unrun check (rc 2); the open-challenge table and tally below are GENERATED from canon (`status_mirrors.py`). Run back against the 10:33 addendum it returns 28 findings, one of which (CALENDAR's header two mechanical moves behind STATUS) the spec never listed; its first live closeout then caught this very line carrying a stale figure beside the live one. **No market state changed: HOLD 70 · net-bear 65 · FT-02 1 of 3.** H.4.1 16:30 read → 10/16 boot item 1. Record: `MAINTENANCE.md` S54 · OUTBOX -062.
 **S53-b addendum 2026-10-15 11:27 ET (from `date`): CHARTER SPLIT DONE, Will-approved 11:16 ET** — `CLAUDE.md` rules-only 24.5 KB (was 44.6), history verbatim in `CHARTER_PROVENANCE.md`; Opus cold-read gate passed after 36 fold-backs; READS delta asked of PROME. **No market state changed since the 10:33 header: FT-02 1 of 3, net-bear 65 / HOLD 70.** H.4.1 discount-window read (16:30 ET publish) moves to the 10/16 boot, beside LIQ-07 — Will stopped the in-session waiter 13:44 ET; the pre-stated Acute +1 needs both legs, so nothing is lost.
 **Last Updated:** 2026-10-15 10:59 ET (from `date`; S53, launched by Will as RED's first Fable session; the box crashed 03:08 ET and PROME recovered twelve desks by 09:00). **HOLD 70 · net-bear 65 — no hypothesis weight moved today.** The two 10/14 fires stand (FT-08 core CPI, FT-10 SKEW; both mechanical). **Today's state changes:** `RED-FT-02` **1 of 3** at HY 325 [FRED obs 10/14], first cell over 320 since 10/1, broad-tier on the day (BB +3 · B +13 · CCC +15 to 1,282 window high · IG +1); `RED-FT-11` sits 0.2bp from its precondition (Δ5 DGS30 −10.0 [10/13]) with a long-end rally under way on 10/15 — a fire would be CLASSIFIED (FLOW on the current window), and a FLOW verdict moves nothing by design. **Record corrections:** VX-RED-026 → RESOLVED-CONFIRM-DEAD effective 8/7 (SAM's reading; my error, ML-296); 28 KB rows past review dispositioned, 7 live vector cells refreshed from owner surfaces + FRED (ML-297); the cold audit's ~100 findings worked (MAINTENANCE S53). **This file was RE-BASED today**: the pre-rebase file is folded VERBATIM → [`reports/2026-10-15_S53_status_rebase_folded.md`](reports/2026-10-15_S53_status_rebase_folded.md) (23309 B, crc32 `3485697767`). Prior folds: S52 → [`reports/2026-10-14_S52_status_headers_folded.md`](reports/2026-10-14_S52_status_headers_folded.md) · S51 → [`reports/2026-10-14_S52_status_header_folded.md`](reports/2026-10-14_S52_status_header_folded.md) · S49/S50 → [`reports/2026-10-09_S51_status_header_folded.md`](reports/2026-10-09_S51_status_header_folded.md) · S48 → [`reports/2026-10-01_S49_status_rotation_folded.md`](reports/2026-10-01_S49_status_rotation_folded.md) · S41–S47 → `reports/2026-09-*_status*folded.md` + git history.
 
@@ -51,7 +52,7 @@
 | **FT-07** CCC>930 s=1 | FIRING-BANKED | **1,282 [10/14]**, +352 over the line, window high; exit <930 s=3 far; base rate 88% @120 = descriptor |
 | **FT-08** core CPI 3-mo ≥3.0 s=1 | FIRED 10/14 (EXECUTED) | 3.247% (Table A); exit <2.5 s=1 → at 11/10 only Oct core ≤0.0 exits; future fires +1 (S52 P3) |
 | **FT-10** ^SKEW≥150 s=4 | FIRED 10/14 (EXECUTED) | 154.34 · 155.06 · 154.74 · **157.30** [Cboe 10/09–10/14]; exit <140 strict s=4 → Acute −2 / Managed +2; 10/15 bar publishes ~16:00+ |
-| **FT-11** Δ5 DGS30 ≤−10.2 (classifier) | ARMED; precondition live 9/10 | **−10.0bp on 10/05→10/13** (0.2 short); legs on that window d(30Y−5Y) −4 / dBE −3 / d2Y −5 → **FLOW if fired**; 10/15 official close very likely satisfies it (FRED ~10/16). FLOW moves NO weight (instrument finding) |
+| **FT-11** Δ5 DGS30 ≤−10.2 (classifier) | ARMED; 0-of-5; precondition live 9/10 | **−10.0bp on 10/05→10/13** (0.2 short); legs on that window d(30Y−5Y) −4 / dBE −3 / d2Y −5 → **FLOW if fired**; 10/15 official close very likely satisfies it (FRED ~10/16). FLOW moves NO weight (instrument finding) |
 | **FT-12** HY<260 s=3 | ARMED; 0-of-3 | 65bp away, moving AWAY; holds the ±2 alone since FT-01 closed |
 | FT-03 / 04 / 05 / 09 | ARMED, clear | Brent 105.25 vs >130 / <75 · claims 199K vs >250 · 5y5y 2.34 vs >2.55 — re-reviewed S53 (base rates no drift) |
 
@@ -59,19 +60,28 @@
 
 ---
 
-## OPEN CHALLENGES (canonical: `workbook/CHALLENGES.tsv` — the six non-RESOLVED rows, grade and status copied from canon [2026-10-15])
+## OPEN CHALLENGES (canonical: `workbook/CHALLENGES.tsv`; the table is GENERATED from canon by `scripts/status_mirrors.py --write` — the dated notes beneath it are RED's prose)
 
-| ID | Target | Grade | Status | Re-review | Headline |
+<!-- GEN:challenges -->
+| ID | Target | Grade | Status | Re-review | Key finding (canon, truncated) |
 |---|---|---|---|---|---|
-| **CHG-RED-027** | Self (bifurcation framing) | MODERATE | ACTIVE-GRADED | 10/22 | Structural leg = OZK + EGBN. EGBN Q3 Wed 10/21 AMC (CONFIRMED); grade 10/22 after the call on branches amended pre-data S52 |
-| **CHG-RED-028** | Self (stagflation realization) | MODERATE | LIVE-RE-ANCHORED | 11/10 | Two-print test. Leg 1 (Sept) NOT MET → REALIZED foreclosed; closes 11/10 on any verdict, no re-anchor |
-| **CHG-RED-044** | BROCK (BRK-32) | STRONG | ACTIVE-CONCEDED | 11/30 | Conceded S28b; E3b validation claim withdrawn S50; BRK-32 final leg 11/30 |
-| **CHG-RED-045** | CARL (HHDC kill rule) | MODERATE | ACTIVE | 11/15 | Ruled (A) pre-data at CARL's invitation; resolves at Nov HHDC |
-| **CHG-RED-049** | CARL (inverse-config auto-DQ) | STRONG | ACTIVE | 10/20 | CRL-29 graded 10/20 on RED's five clarifications (WQ-437 RULED 10/15 08:31, CARL accepted all five); VX-009 rides along |
-| **CHG-RED-054** | Will-direct bank-put book | STRONG (lead; by leg STRONG OZK / MOD WAL, KRE Dec / WEAK KRE Nov) | ACTIVE | 10/21 | OZK 40P: issuer removed the near-term catalyst (RaDD extension); WQ-425 RULED B — TERRY's cards recommend SELL OZK 40P ×4 pre-10/20, lean SELL WAL 65P ×4 pre-10/19. Orders are Will's; RED grades no fill |
+| **CHG-RED-027** | Self-bifurcation-framing | MODERATE | ACTIVE-GRADED | 10/22 | Pre-registered self-falsifier on "structural confirms / paper disagrees / position-timeline mismatched" bifurcation fra… |
+| **CHG-RED-028** | Stagflation-realization | MODERATE | LIVE-RE-ANCHORED | 11/10 | April CPI HOT (3.8pct YoY, Core 2.8pct, MoM 0.4pct, Energy +17.9pct steepest since Sept 2022) + April PPI HOT (6.0pct Y… |
+| **CHG-RED-044** | BROCK (BRK-32 spec + register escalation li… | STRONG | ACTIVE-CONCEDED | 11/30 | BRK-32 red-team (BROCK-invited 7/27, RED-assigned register). ATTRIBUTION FIRST: the 7-fold day-one escalation line was… |
+| **CHG-RED-045** | CARL (HHDC full-thesis kill rule, THESIS.md… | MODERATE | ACTIVE | 11/15 | RULING DELIVERED PRE-DATA AT CARL'S OWN INVITATION: GRADE THE KILL RULE AS WRITTEN. CARL's registered full-thesis kill… |
+| **CHG-RED-049** | CARL (inverse-configuration auto-DQ read, 8… | STRONG | ACTIVE | 10/20 | The inverse-configuration read is a legitimate HYPOTHESIS and an illegitimate INFERENCE. CARL reads the auto 90+ stock… |
+| **CHG-RED-054** | Will-direct bank-put book (OZK Nov-20 40P x… | STRONG | ACTIVE | 10/21 | [Grade by leg: STRONG (OZK) / MODERATE (WAL, KRE Dec-60) / WEAK (KRE Nov-67) - lead token STRONG kept in the Grade cell… |
 
-**Every other CHG-RED row (001–054 excluding the six above) is RESOLVED / RESOLVED-CONVERGED in canon** — including 042, 046, 047 (converged 9/6), 048, 050, 051 (10/14), 052 and 053. This line is a claim about the TSV, checked at this write; `boot.py` §④ lists the open set live.
+*Generated from canon 2026-10-15 by `scripts/status_mirrors.py`: 54 rows, 6 open, 48 RESOLVED*. Do not hand-edit between the markers; `boot.py` §④ lists the open set live.*
+<!-- /GEN:challenges -->
 
+**Live notes [2026-10-15, prose — not a claim about the TSV]:**
+- **CHG-RED-027** — Structural leg = OZK + EGBN. EGBN Q3 Wed 10/21 AMC (CONFIRMED); grade 10/22 after the call on branches amended pre-data S52
+- **CHG-RED-028** — Two-print test. Leg 1 (Sept) NOT MET → REALIZED foreclosed; closes 11/10 on any verdict, no re-anchor
+- **CHG-RED-044** — Conceded S28b; E3b validation claim withdrawn S50; BRK-32 final leg 11/30
+- **CHG-RED-045** — Ruled (A) pre-data at CARL's invitation; resolves at Nov HHDC
+- **CHG-RED-049** — CRL-29 graded 10/20 on RED's five clarifications (WQ-437 RULED 10/15 08:31, CARL accepted all five); VX-009 rides along
+- **CHG-RED-054** — OZK 40P: issuer removed the near-term catalyst (RaDD extension); WQ-425 RULED B — TERRY's cards recommend SELL OZK 40P ×4 pre-10/20, lean SELL WAL 65P ×4 pre-10/19. Orders are Will's; RED grades no fill
 ---
 
 ## TOP ADVERSARIAL PRIORITIES (live queue = `SCRATCH.md` § NEXT SESSION; this is the dated headline only, 2026-10-15)
@@ -85,7 +95,10 @@
 
 ## PREDICTIONS SCORECARD — pointer only (canonical: `workbook/PREDICTIONS.tsv`)
 
-**TALLY 2026-10-15 (own count off canon TSV, 25 rows): 13 CORRECT / 10 WRONG / 2 ACTIVE (RED-23 ~Nov third Aug print; RED-25 re-review 10/31 if DEWEY/CARL's test is unrun).** The 10/01 tally line said 1 ACTIVE because RED-25 was registered the same session and left uncounted; CALENDAR and NEXUS now carry this same line. Last resolutions: RED-04 CORRECT 10/01 · RED-24 WRONG 9/18 (the FT-10 Wednesday conditional, P≈57–60%, killed by a 5.48-pt drop — n=1 is not a calibration verdict).
+<!-- GEN:tally -->
+**TALLY 2026-10-15 (generated off canon TSV, 25 rows): 13 CORRECT / 10 WRONG / 2 ACTIVE (RED-23 2026-11-XX; RED-25 2026-10-31).**
+<!-- /GEN:tally -->
+The 10/01 tally line said 1 ACTIVE because RED-25 was registered the same session and left uncounted; CALENDAR and NEXUS now carry this same line. Last resolutions: RED-04 CORRECT 10/01 · RED-24 WRONG 9/18 (the FT-10 Wednesday conditional, P≈57–60%, killed by a 5.48-pt drop — n=1 is not a calibration verdict).
 
 ---
 ## BOTTOM LINE

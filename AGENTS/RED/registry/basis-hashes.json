@@ -3,12 +3,15 @@
   "declared_on": "2026-10-15",
   "desk": "RED",
   "hashes": {
-    "AGENTS/RED/CLAUDE.md": "b488ed9a3115c5667765d03aa54525fa08bb36ba2d55fe9a881dddb66a002a9d",
+    "AGENTS/RED/CLAUDE.md": "5ae1dc5a18107e2c22434b9d745d914624eec6a86cc561c0cd1711c35610b7d8",
     "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
-    "AGENTS/RED/scripts/boot.py": "2903ef66fd05efeb095d9f9d85a51b11a1ad0f80169eb89b4fb9eba3ca22ad5d",
+    "AGENTS/RED/scripts/basis_check.py": "c22af3735180995842d0a4d11f79c7b2bbd345ebe8be0cf4105bb0d6a66ce7ad",
+    "AGENTS/RED/scripts/boot.py": "91654fe01b7b01ee11486bbe8746bee34f89d72d52412c4ee5443c4b3f6ae1b0",
+    "AGENTS/RED/scripts/closeout_check.py": "b5c72b45f48d6341c0926a3ec90c59b520dd809fbb13abb7abe887f407ad91fe",
     "AGENTS/RED/scripts/gen_trigger_scan.py": "e9d1fa7655e849d92890e6c109fd5c914944924c6f665ee92c5eb7e40ca29467",
-    "AGENTS/RED/scripts/review_debt.py": "5824444133ceda7bcdc274f105d456a38034d5f50f1a44c509f4ac70b5c3c1cb",
-    "AGENTS/RED/scripts/schema_check.py": "219b0bb36716ab1f2f100b3199a6e72f25f185ec4f23e914f6b73efe2d127447",
+    "AGENTS/RED/scripts/review_debt.py": "577b84a9c9f3a1e775a9ddf1129b4ad02414a08c173d94968497744271c8b72f",
+    "AGENTS/RED/scripts/schema_check.py": "1bd7da2a2eee7e7f6ede9bcdcfe86ca13743ded66902cdb4b39098f424bb6a71",
+    "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
     "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "5939cc0949a0266de5325d542808afb9524ae7e23ddf6bb293690cf62c6d1c99",
     "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
     "FORGE/tools/market-data/fetch.py": "afb8838728c74d8584d46ec2aadb948efdffc6deddc275f9eb23dc9d05d76c6b",
@@ -18,7 +21,7 @@
   "history": [
     {
       "date": "2026-10-15",
-      "note": "Re-hashed after the S53 charter split (CLAUDE.md -> rules + CHARTER_PROVENANCE.md, Will-approved) and the S53 script changes (boot.py \u00a7\u2462, base_rate_review ft11_legs, review_debt axis \u2463, schema_check per-row, gen_trigger_scan --write). Boot steps 0-9e unchanged in set and order; attestation re-filed to PROME by packet.",
+      "note": "Re-hashed after the S53 charter split (CLAUDE.md -> rules + CHARTER_PROVENANCE.md, Will-approved) and the S53 script changes (boot.py §③, base_rate_review ft11_legs, review_debt axis ④, schema_check per-row, gen_trigger_scan --write). Boot steps 0-9e unchanged in set and order; attestation re-filed to PROME by packet.",
       "rehashed": [
         "AGENTS/RED/CLAUDE.md",
         "AGENTS/RED/scripts/base_rate_review.py",
@@ -33,6 +36,33 @@
         "scripts/ledger_staleness.py"
       ],
       "session": "S53"
+    },
+    {
+      "date": "2026-10-15",
+      "note": "S54 closeout-hardening build: charter W10 gate + Bounce + closeout message (rules only, reasons in CHARTER_PROVENANCE s3); boot.py/review_debt.py/schema_check.py gained the unknown-flag refusal (6d); closeout_check.py, status_mirrors.py and basis_check.py added to the basis set",
+      "moved": [
+        "AGENTS/RED/CLAUDE.md",
+        "AGENTS/RED/scripts/basis_check.py",
+        "AGENTS/RED/scripts/boot.py",
+        "AGENTS/RED/scripts/closeout_check.py",
+        "AGENTS/RED/scripts/review_debt.py",
+        "AGENTS/RED/scripts/schema_check.py",
+        "AGENTS/RED/scripts/status_mirrors.py"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "note": "S54: closeout_check.py hold_netbear now prefers the canonical HOLD/net-bear pair (caught by the gate's own first closeout)",
+      "moved": [
+        "AGENTS/RED/scripts/closeout_check.py"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "note": "S54: hold_netbear earliest-pair rule (second catch by the gate's own closeout)",
+      "moved": [
+        "AGENTS/RED/scripts/closeout_check.py"
+      ]
     }
   ],
   "note": "Content hashes of RED's boot-defining surfaces at attestation time. A change to any of these should AGE RED's ATTESTATION row in PROME/registry/READS.tsv. Recorded by RED; regenerate with the same sha256 over the listed paths."

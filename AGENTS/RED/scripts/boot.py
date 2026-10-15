@@ -609,6 +609,11 @@ def section_board_gap(verbose):
 
 
 def main():
+    # S54 2026-10-15 (SCRATCH 6d): a typo or --help used to START the live pull. Refuse first.
+    extra = [a for a in sys.argv[1:] if a != "--verbose"]
+    if extra:
+        print("boot.py: unknown flag(s) %s - usage: boot.py [--verbose]  (refused; nothing run)" % extra)
+        sys.exit(2)
     verbose = "--verbose" in sys.argv
     print("=" * 72)
     print(" RED BOOT KIT — " + datetime.now().strftime("%Y-%m-%d %H:%M ET-local"))
