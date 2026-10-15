@@ -3,7 +3,7 @@ Runtime: Claude Code, model Opus 5.5 (claude-opus-5-5), session walter-dc, Will-
 
 ## CURRENT RESTART
 
-2026-10-15T00:41:58Z — walter-dc boot PARTIAL (reads/checks complete; doctor 0 HIGH). Will directed X fix first: refresh token was dead (HTTP 400, rotated elsewhere); re-authorized via background --authorize + Windows browser (design/X_BOOKMARKS_ACCEPTANCE.md 10/10 method); scan then 18 new. Routed 13 signals -015..-027 / 55 handoffs, all on origin (other sessions' pushes carried them; delivery_log reconciled 55 -> delivered): owner returns BOND/LIQUID x2/RED; market/AI -018 IMMEDIATE (CoreWeave 2032 notes ~14.5% relay; S&P -1.11%) -019..-022; energy/Iran -024..-027; -023 UPDATE/correction to -001 (COR-20261014-23). Batches BM-20261015-01 (18 bookmarks) and -02 (13 intake) CLOSED; marks committed f3e0a06b2. Two read-only RULE 9 helpers (Opus) complete: research/2026-10-14_evening-routing/verify-*.md. Live per ListAgents: PROME, RED, NEXUS, DAEDALUS. No pull needed (HEAD==origin at boot); no self-push (foreign staged/dirty work). Later the same session (2026-10-15T01:18:18Z): Will-directed Iran FULL re-verify — three read-only Opus legs (research/2026-10-14_iran-full-sweep/), anchor re-stamped (last full 2026-10-15, next ~10-22; 3 lines rotated verbatim to HISTORY), -032 sweep + -031 correction to -025 (COR-20261014-31); FALCON doorbelled to PROME (dark, 7-day review due 10/14). Inbox drained again: CRUISE missed-capital finding dispositioned MISSED-structural (late -028; packet to CRUISE+PROME; PROME registered CIK fix as DOCKET L707), OTTO x2 -> -029/-030; RED -001 tag fix -023; PROME's WQ-401 item was already discharged 10/10 (cf262bd35; PROME acknowledged). DAEDALUS GIBBS-routing packet LEFT IN INBOX, deferred (see FOLLOW-UP 13). OTTO self-correction routed as -033 (corrects -030; COR-20261014-33). Help-the-live-desks pass (2026-10-15T01:39:19Z, Will: 'go ahead with all three'): background Cboe watch caught the 10/14 SKEW bar -> RED-FT-10 FIRED (-034, fire-log row, RED told); ranked dark-desk backlog packet to PROME (PROME/inbox/2026-10-14_from-WALTER_dark-desk-backlog-ranked-by-what-decays-first.md); GIBBS routing lane LANDED (ROUTING_CARVEOUTS § Large-bank multi-name routing — GIBBS; routing v0.43 after DAEDALUS's row-by-row check added the foreign-IHC stress row; REGISTRY row; six live-desk registry rows refreshed). Defect found and fixed same session: -034's PROME handoff recreated dead AGENTS/PROME/ (session dispatch.py lacked the PROME carve-out) -> git mv to flat PROME/inbox/, tree removed, corrective delivery_log row, assertion added (ee7071e20); memory n+3 appended.
+2026-10-15T00:41:58Z — walter-dc boot PARTIAL (reads/checks complete; doctor 0 HIGH). Will directed X fix first: refresh token was dead (HTTP 400, rotated elsewhere); re-authorized via background --authorize + Windows browser (design/X_BOOKMARKS_ACCEPTANCE.md 10/10 method); scan then 18 new. Routed 13 signals -015..-027 / 55 handoffs, all on origin (other sessions' pushes carried them; delivery_log reconciled 55 -> delivered): owner returns BOND/LIQUID x2/RED; market/AI -018 IMMEDIATE (CoreWeave 2032 notes ~14.5% relay; S&P -1.11%) -019..-022; energy/Iran -024..-027; -023 UPDATE/correction to -001 (COR-20261014-23). Batches BM-20261015-01 (18 bookmarks) and -02 (13 intake) CLOSED; marks committed f3e0a06b2. Two read-only RULE 9 helpers (Opus) complete: research/2026-10-14_evening-routing/verify-*.md. Live per ListAgents: PROME, RED, NEXUS, DAEDALUS. No pull needed (HEAD==origin at boot); no self-push (foreign staged/dirty work). Later the same session (2026-10-15T01:18:18Z): Will-directed Iran FULL re-verify — three read-only Opus legs (research/2026-10-14_iran-full-sweep/), anchor re-stamped (last full 2026-10-15, next ~10-22; 3 lines rotated verbatim to HISTORY), -032 sweep + -031 correction to -025 (COR-20261014-31); FALCON doorbelled to PROME (dark, 7-day review due 10/14). Inbox drained again: CRUISE missed-capital finding dispositioned MISSED-structural (late -028; packet to CRUISE+PROME; PROME registered CIK fix as DOCKET L707), OTTO x2 -> -029/-030; RED -001 tag fix -023; PROME's WQ-401 item was already discharged 10/10 (cf262bd35; PROME acknowledged). DAEDALUS GIBBS-routing packet LEFT IN INBOX, deferred (see FOLLOW-UP 13). OTTO self-correction routed as -033 (corrects -030; COR-20261014-33). Help-the-live-desks pass (2026-10-15T01:39:19Z, Will: 'go ahead with all three'): background Cboe watch caught the 10/14 SKEW bar -> RED-FT-10 FIRED (-034, fire-log row, RED told); ranked dark-desk backlog packet to PROME (PROME/inbox/2026-10-14_from-WALTER_dark-desk-backlog-ranked-by-what-decays-first.md); GIBBS routing lane LANDED (ROUTING_CARVEOUTS § Large-bank multi-name routing — GIBBS; routing v0.43 after DAEDALUS's row-by-row check added the foreign-IHC stress row; REGISTRY row; six live-desk registry rows refreshed). Defect found and fixed same session: -034's PROME handoff recreated dead AGENTS/PROME/ (session dispatch.py lacked the PROME carve-out) -> git mv to flat PROME/inbox/, tree removed, corrective delivery_log row, assertion added (ee7071e20); memory n+3 appended. Late (2026-10-15T02:31:41Z): FALCON returned graded (losses 3->5, ratchet RED, marks 1/14/85 held, rung not fired) with 4 corrections -> anchor + -035 (corrects -032, COR-20261014-35) + tanker-cost-watch war-risk 6-10%; RED's Will-approved non-session rule (FRED holiday bars excluded, ICE OAS adds Columbus/Veterans) -> THRESHOLD_SCAN v0.52 / CHECKLIST lockstep; REGINALD asked to confirm REG-T-03/04 counting before 11/11.
 
 ## STATUS
 
@@ -45,6 +45,8 @@ None newly required for this closeout. Will authorized commit/push and confirmed
 13. **GIBBS routing lane — DONE 2026-10-14 evening** (routing v0.43; DAEDALUS-verified 9 of 9 rows after one fix). Open: GIBBS `WATCH_FOR` intake phrases (WALTER + PROME, `--live` tested before landing); GIBBS's first session Mon 10/19 (PROME spawn, DOCKET L704) reads the pre-GIBBS BOARD IDs listed in the carve-out.
 14. **CRUISE miss follow-through:** CIK fix (CCL/RCL/NCLH in fetch_edgar_8k.py) is PROME's DOCKET L707; WALTER's option 2 (surface KNOWN-class capital-structure titles when the owner desk is dark) is an unruled proposal in the 10/14 packet.
 15. **Dark-desk backlog ranking delivered to PROME** (LABOR claims 10/15 08:30; FALCON overdue review; OSPREY/FERT/WATT dated 10/15; CARL before ~10/20). Spawns are PROME's; next boot: re-run the backlog table and diff against PROME's spawns.
+16. **Boot-basis re-attestation owed — `boot_basis_check.py` at 02:31Z Oct 15 reads REVIEW on SIX files:** USER.md and AGENTS.md (changed by others) plus WALTER's own tonight-edited ROUTING_TABLE.md, ROUTING_OVERLAYS.md (v0.42/v0.43 GIBBS), THRESHOLD_SCAN.md and SIGNAL_PROCESSING_CHECKLIST.md (v0.52). The hash record `registry/boot_basis_hashes.json` is WALTER's; the ATTESTATION/BASIS rows are in PROME-owned `PROME/registry/READS.tsv` (packet to PROME to re-stamp after WALTER's review): `boot_basis_check.py` will read REVIEW until the paired hash record is reviewed and re-stamped by the owner (WALTER) with READS attestation; do not silently re-stamp.
+17. **REGINALD confirm (before Wed 11/11 Veterans Day):** REG-T-03/04 holiday non-session counting (packet `AGENTS/REGINALD/inbox/2026-10-14_from-WALTER_REG-T-03-04-holiday-nonsession-confirm.md`).
 
 ## OPEN DESIGN DECISIONS
 
@@ -81,7 +83,7 @@ Full context/persistence write-back; selected checks, publication, recipient int
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-15T01:39:19Z",
+  "as_of": "2026-10-15T02:31:41Z",
   "publication": [
     {
       "commit": "db9485e57d956dc5679c9a90dcffdf45b02a5a42",
@@ -114,9 +116,9 @@ Full context/persistence write-back; selected checks, publication, recipient int
   ],
   "delivery": {
     "signal_date": "20261014",
-    "total": 126,
+    "total": 130,
     "delivered": 126,
-    "note": "51 morning + 75 evening handoffs, all on origin (other sessions pushed the train); delivery_log reconciled; -034 PROME row path-corrected in place (dead AGENTS/PROME path fixed same session). Owner integration separate."
+    "note": "51 morning + 79 evening handoffs; 4 from -035 pending push at this write. Owner integration separate."
   },
   "push": {
     "all_walter_commits_on_origin": false,
@@ -152,7 +154,9 @@ Full context/persistence write-back; selected checks, publication, recipient int
     "Boot-basis USER.md hash and Oct12 READS attestation still REVIEW",
     "Existing intake-body/diesel/insurer/design duties retained in FOLLOW-UP",
     "RED records the FT-10 fire and weight execution (owner)",
-    "GIBBS WATCH_FOR phrases (WALTER + PROME)"
+    "GIBBS WATCH_FOR phrases (WALTER + PROME)",
+    "Boot-basis re-attestation: USER.md, THRESHOLD_SCAN.md, SIGNAL_PROCESSING_CHECKLIST.md",
+    "REGINALD REG-T-03/04 non-session confirm before 11/11"
   ],
   "next_review": "2026-10-15",
   "procedure": {

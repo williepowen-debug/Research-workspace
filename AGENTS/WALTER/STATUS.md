@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-15T01:39:19Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing + Iran full re-verify + help-the-live-desks pass; light-closeout re-run. BOARD **1428**; October14 evening -015..-034 (20 signals, 75 handoffs). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
+**Updated:** 2026-10-15T02:31:41Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing + Iran full re-verify + help-the-live-desks pass; light-closeout re-run. BOARD **1429**; October14 evening -015..-035 (21 signals, 79 handoffs). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
 Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY final power-contract report audited and its exact handoff filed on the14:49EDT restart; named service/payment/allocation gaps remain. Evening: inbox drained (BOND, LIQUID x2, RED routed as -015..-017, -023); the day's new risk content is AI-infrastructure credit (-018) on a hot-CPI, worst-S&P-day-since-7/29 session; RED-FT-10 SKEW 4th close awaits the CBOE publisher file. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
 
-Evening 2026-10-15T00:41:30Z: X token re-authorized (HTTP400 refresh fixed); 18 bookmarks + 13 intake items + 4 owner packets (BOND, LIQUID x2, RED) routed, batches BM-20261015-01/-02 CLOSED. Live per ListAgents 00:12Z: PROME, RED, NEXUS, DAEDALUS; others UNKNOWN. RED-FT-10: CBOE file still ends 10/13 (3 of 4) at 00:40Z; vendor 10/14 157.30 provisional. Iran FULL re-verify done 2026-10-15 ~01:15Z (-032; anchor next ~10/22); FALCON dark with 7-day review overdue, doorbelled to PROME.
+Evening 2026-10-15T00:41:30Z: X token re-authorized (HTTP400 refresh fixed); 18 bookmarks + 13 intake items + 4 owner packets (BOND, LIQUID x2, RED) routed, batches BM-20261015-01/-02 CLOSED. Live per ListAgents 00:12Z: PROME, RED, NEXUS, DAEDALUS; others UNKNOWN. RED-FT-10: CBOE file still ends 10/13 (3 of 4) at 00:40Z; vendor 10/14 157.30 provisional. Iran FULL re-verify done 2026-10-15 ~01:15Z (-032; anchor next ~10/22); FALCON then spawned and GRADED: losses 3->5, ratchet RED, marks held (-035 correction). RED non-session rule in THRESHOLD_SCAN v0.52.
 
 ## DATED MARKET OBSERVATIONS — bounded refresh October15 00:10–00:40Z; unchanged rows retain prior dates
 
