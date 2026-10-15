@@ -4,6 +4,14 @@
 
 ---
 
+## S52b — 2026-10-14 21:3x ET (from `date`) — **WEIGHT MOVED: net-bear 63 → 65 (+2, MECHANICAL, `RED-FT-10` fired on the official 10/14 SKEW bar). Confidence 70 unchanged.**
+
+Old view (S52): Managed 29 · Stag 35 · Acute 14 · War 14 · Soft 4 · Rescue 4 → **new: Managed 27 · Stag 35 · Acute 16 · War 14 · Soft 4 · Rescue 4.**
+- **Acute +2 / Managed −2, as registered pre-data on 8/20.** Cboe `SKEW_History.csv` 154.34 / 155.06 / 154.74 / **157.30** (10/09–10/14) = four consecutive published closes ≥150. **First fire** after two failed 2-of-4 runs (9/11–9/14, 8/2x). Owner pull is sha-identical to WALTER's.
+- **Event-grade, unlike FT-08:** the last-120 base rate is 0.8% (last-60 1.7%), so this one is informative in the current regime.
+- **Bull reading, scores nothing:** SKEW prices demand for crash protection. Ahead of bank earnings (10/19–10/21) and the 10/28 Fed, that can be calendar hedging rather than information, and VIX is only 16.87. The outcome row tests it: correct only if VIX closes ≥20 within 30 sessions.
+- **Independence:** option skew is distinct from core CPI (FT-08) and from the real-rate level (S51 Acute +1). None are netted, and none are double-counted.
+
 ## S52 — 2026-10-14 20:12–20:2x ET (from `date`) — **WEIGHT MOVED: net-bear 60 → 63 (+3, MECHANICAL, `RED-FT-08` fired on the Sept CPI print). Confidence 70 unchanged.**
 
 Old view (S51, 10/09): Managed 31 · Stag 32 · Acute 14 · War 14 · Soft 5 · Rescue 4 → **new: Managed 29 · Stag 35 · Acute 14 · War 14 · Soft 4 · Rescue 4.**

@@ -16,7 +16,7 @@
 
 1. **FT-08 FIRED and executed:** Table A 0.2/0.3/0.3 = 3.247216% (index 3.4124%). Stag +3 / Managed −2 / Soft −1 → **net-bear 60 → 63**, CONF 70. Ruled against the S29d "MoM < 0.4" note (labelled, bear-direction; to CHG-051). TRIGGER_OUTCOMES row filed. ML-280.
 2. **CHG-028 leg 1 NOT MET** (airfares +1.159 vs 2.35) → REALIZED foreclosed at 11/10. ML-281.
-3. **FT-10 = 3 of 4, PENDING** the official 10/14 bar. The registry `state` was stale (0-of-4) and is corrected. **FT-02 = 0 of 3** at 316.
+3. **FT-10 FIRED** (S52b, on the official 10/14 bar 157.30) → net-bear 65. The registry `state` was stale (0-of-4) and is corrected. **FT-02 = 0 of 3** at 316.
 4. 14 corrections receipted NO-OP (rc 0). Inbox 7 + 2 drained; the CARL packet is kept (deferred). About 22 BOARD signals logged.
 5. FHLB "$480B" replaced with Office of Finance figures; the **Pillar 10 >$800B test is retired** and now defers to REG-T-06 (WQ-414).
 6. **DOCKET L657 BRK-26 reading delivered** (PROME memo §3 + a BROCK packet): pre-registration orders don't count, and one spec gap is flagged.
@@ -24,7 +24,7 @@
 
 ## NEXT SESSION (dated, priority-ordered)
 
-1. 🔴 **FT-10: grade the official Cboe 10/14 SKEW bar** (`SKEW_History.csv`, never the quote feed). ≥150.00 → FIRE: Acute 14 → 16 / Managed 29 → 27, net-bear 65 (registry, TRIGGER_OUTCOMES, CHANGELOG, OUTBOX, NEXUS). <150 → reset to 0. If 10/14 fires, the run is complete; later bars don't matter until the exit (<140 s=4).
+1. ✅ **FT-10 FIRED S52b 10/14 21:3x** (Cboe 157.30, 4 of 4; Acute +2 / Managed −2; net-bear 65). Now: **exit watch <140 strict s=4** (daily, Cboe CSV only). The outcome row grades at 30 VIX observations (~11/25).
 2. 🔴 **FT-02 daily** (316 [10/13], 4bp): fire = 3 consecutive FRED obs >320 → NET-BEAR +3 / CONF +2.
 2b. 🟠 **Before Tue 10/20 close: CHG-052 OZK leg.** Check whether TERRY or Will acted. Re-grade if FT-02 fires with LIQ-07 S1 (10/16) or if OZK guidance shifts. WAL prints Mon 10/19 after the close. Re-review 10/21 after OZK's call.
 3. ✅ **DONE S52 10/14: CARL CHG-049 minimum clarifications sent blind** (`research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md`). Next: check CARL's disposition before 10/20, then grade CHG-049 against CARL's first read. If CARL amends after seeing the values, the amendment carries that flag.

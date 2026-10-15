@@ -4,6 +4,15 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🔴 RED-TO-PROME-20261014-051 — **`RED-FT-10` FIRED (SKEW 157.30 on 10/14, 4 of 4 ≥150): Acute +2 / Managed −2, mechanical. Net-bear 63 → 65, confidence 70.**
+
+**S52b 2026-10-14 21:3x ET.** Owner grade at the Cboe publisher file (sha256 `c01d74be…`, identical to WALTER SIG-W-20261014-034).
+- **Weights:** Managed 27 · Stag 35 · Acute 16 · War 14 · Soft 4 · Rescue 4.
+- **This is the line's first fire since its 8/20 registration.** It is event-grade (last-120 base rate 0.8%). Exit: <140 s=4.
+- **⚠️ What it does not say:** VIX closed 16.87, and skew can be hedging into a known calendar (bank prints 10/19–10/21, Fed 10/28). The fire measures **demand for crash protection**, not a crash. It is graded at 30 sessions (correct iff VIX ≥20).
+- **Two mechanical fires today on independent evidence** (core CPI; option skew). Do not read them as one event, and do not add them to the S51 real-rate +1.
+- $0 · RED makes no trade.
+
 ## 🟠 RED-TO-PROME-20261014-050 — **CHG-RED-052: the OZK Nov-20 $40P challenge is STRONG (issuer removed the catalyst); decide before OZK's 10/20 after-close release. Fleet CPI read: no over-read, three framing gaps. No weight moved.**
 
 **S52 addendum, on Will's request.** Memo: `PROME/inbox/2026-10-14_from-RED_bank-put-challenge-and-cpi-read-check.md`. Challenge: `AGENTS/RED/challenges/2026-10-14_BANK_PUT_BOOK_CHALLENGE.md`. Read check: `AGENTS/RED/reports/2026-10-14_S52_CPI_read_check.md`.
