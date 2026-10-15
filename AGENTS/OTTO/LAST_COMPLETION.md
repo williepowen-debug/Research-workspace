@@ -1,21 +1,21 @@
-# OTTO COMPLETION — 2026-10-14 (session 028)
+# OTTO COMPLETION — 2026-10-14 (session 029)
 
-> **One sentence for the next boot:** the 10/1 cluster is done (seasoning repair, August 10-D read, Tricolor list) and the inbox is empty except NEXUS's commission #3 (due 10/19). The next ten days are dense, starting with tomorrow's CRMT expiry and SDART/BLAST 10-D cycle. A file review left THESIS v1.6 and a WINTERKORN refresh owed.
+> **One sentence for the next boot:** both legs of DAEDALUS's stated L5 gate have landed (convergence matrix 33/50; STATUS 69% of budget, packet sent, the call is DAEDALUS's). Scored at as-made, OTTO's predictions are coin-flip so far (Brier 0.240 vs 0.250). WINTERKORN is current again. THESIS v1.6 is the next big job, after tomorrow's dated reads.
 
 ## STATUS
-✅ Will-launched session. Boot, PROME's WQ-413 inbox drain (9/9), the 10/1 cluster, and a Will-directed file review with Tier-1 fixes + CLAUDE.md v2.8 (Will-approved). No thesis conviction, threshold or trade changed; OTTO-34 re-checked, held at 50%.
+✅ Will-launched parity pass, same evening as s028 ("work on getting OTTO caught up to parity", then "go ahead, start", "keep the charter change, carry on"). One prediction moved (OTTO-33 68→60%); no threshold or trade changed.
 
 ## CHANGED
-`scripts/panel_10d.py` (issuer seasoning clock, (deal, collection_period) key, fail-closed check, --backfill/--selftest) · `workbook/PANEL_10D.tsv` 137→147 · `scripts/predictions_due.py` (NEEDS_VERIFY visible) · `CLAUDE.md` v2.8 · STATUS / STATUS_COLD §14 · CATALYSTS (+15 rows, 5 swept) · ML-OTTO-288..294 · PREDICTIONS OTTO-34 note · CHANGELOG (Tricolor perimeter) · MAINTENANCE (a)+(b) · MEMORY · WINTERKORN_MEMORY · registry/ · research/ (ECF 149 note; file-review reports).
+STATUS (§2 CONVERGENCE MATRIX; nine verbatim rotations to STATUS_COLD §15; timeline +6 rows) · CLAUDE.md v2.9 · thesis/PREDICTIONS.tsv (7 as-made markers, OTTO-33) · PREDICTIONS_ARCHIVE (as-made scoreboard; OTTO-04/-30 post-mortems) · CHANGELOG · MAINTENANCE (c)(d)(e) · ML-OTTO-295..299 · STALE_PUNCHLIST (one list; old list + PEER_PARITY_ROADMAP archived) · docket/ (WINTERKORN spec/memory refresh, archive split, run applied) · scripts/boot.py (WINTERKORN cadence) · 2 stubs + 27 old files archived · EDGAR_8K_MONITOR split · RESEARCH_STATUS rebuilt · VX_HISTORY frozen · MEMORY · WALTER SIG -004 · DAEDALUS packet.
 
 ## RESULT
-August: 39 of 39 deal-months worse YoY; Carvana tier gap +1.73 → +3.17 on a one-month level move (BLAST 60+ DQ +1.0–1.2pp). Tricolor ECF 149 charges 11 of ≥13 TAST deals (adds 4 pre-2022 deals; 2022-2 and 2023-2 uncharged). Manheim Sept −0.6% YoY. CRMT bridged to 10/15.
+Matrix 33/50: 21 points on one root (the four fraud cases and their channels); funding channel 1, bank channel 3. As-made scoreboard 5 of 10, mean Brier 0.2400 (always-50% = 0.2500). WINTERKORN found the First Brands criminal trial (2/9/27), the cooperators' case (US v. Brumbergs), a trustee Rule 2004 exam of BlackRock, and EART 2026-4's 8/28 issuance; OTTO re-checked the three it could at source.
 
 ## GAPS
-Seasoning repair NOT independently verified. BLAST clock exhibit-derived (CARL to rule). Two OTTO errors tonight, both corrected (Tricolor "every securitization"; recovery "owed"). WINTERKORN not run (last 7/25). Signal-dashboard Fitch and lender-watchlist rows still Feb–Mar vintage.
+THESIS v1.6 not started. The four early Feb hits are unchecked for true-at-creation (could worsen 0.240). BlackRock Dkt 1298 not re-read by OTTO. MEMORY.md still ends on lessons, not NEXT SESSION (to-do #15). CATALYSTS (45 KB) and WINTERKORN_MEMORY (42.5 KB) are growing again. The s028 seasoning repair is still not independently verified. Commit `c7361651a`'s message miscounts (26/8 vs 27/9); recorded, not amended.
 
 ## WILL_NEEDS
-LESSONS.md: archive or keep (parked since June). Otherwise none.
+`LESSONS.md` archive-or-keep (parked since June). The FLG cc duty retirement is OTTO's call; veto if you want it kept. Otherwise none.
 
 ## FOLLOW-UP
-1. 10/15 CRMT read (after BROCK) + SDART/BLAST 10-D. 2. 10/16 M&T (OTTO-31). 3. 10/19 NEXUS commission #3. 4. 10/20 WINTERKORN (refresh hints first). 5. THESIS v1.6 + archive sweep (reports: `research/2026-10-14_file_review/`).
+1. 10/15 CRMT STD (BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`). 2. 10/16 M&T Q3 (OTTO-31). 3. 10/19 NEXUS commission #3. 4. 10/20 Ally Q3 (OTTO-12). 5. THESIS v1.6 with a cold reader (to-do #2).

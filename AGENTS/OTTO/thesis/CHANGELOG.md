@@ -16,6 +16,13 @@ pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` exist
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
 
+### 2026-10-14 (s029) — Scored at as-made, OTTO's confidence is a coin flip; OTTO-33 68→60%; the convergence handle puts the thesis on one root
+
+**Was → Is.** *Was:* the 7/25 scoreboard (substance 6/8 = 75%); OTTO-30 scored at an as-made 65% (Brier 0.4225); OTTO-33 at 68% on instrument availability; no comparable fleet handle. *Is:* re-scored at as-made from git, **5 of 10 counted rows hit, mean Brier 0.2400 against 0.2500 for answering 50% every time**; OTTO-05 and OTTO-30 were written at 60%; **OTTO-33 back to 60%** (its instrument, the Kollar/Seibold allocutions, has produced nothing in 76 days); the §2 matrix scores **33/50 with 21 points on the fraud-case root**, funding channel 1, bank channel 3.
+**Trigger:** DAEDALUS's L5 gate (the §2 handle); file review A M10 (stale scoreboard); OTTO-33's own ~9/28 re-examine trigger, run 16 days late.
+**Touches:** `PREDICTIONS.tsv` (seven confidence cells + OTTO-33) · `PREDICTIONS_ARCHIVE.md` (as-made scoreboard; OTTO-04 and OTTO-30 post-mortems) · `STATUS.md` (matrix, predictions block) · ML-OTTO-295..299.
+**Calibration note:** n=10 is "no evidence of skill yet", not "no skill". Two things could make it worse: the four early Feb hits are unchecked for being true at creation, and THESIS § Predictions still calls OTTO-30 "the one calibration win" (it scores 0.36 as-made; owed in v1.6).
+
 ### 2026-10-14 — Tricolor: the criminal ABS charge reaches back to 2018 after all (reverses the 7/25 "2018-2021 not implicated" retraction)
 
 **Was → Is.** *Was (7/25 retraction, carried in THESIS L90/L93):* the indictment's "enterprise since at least 2018" did NOT implicate the 2018-2021 vintages, because "Tricolor securitized only **2** deals in that window vs **9** in 2022-2025". *Is:* the government's Bill of Particulars for Counts 7–8 (ECF 149, filed 2026-08-28) charges **11 named TAST deals, including 4 from 2018–2021** (2018-1, 2018-2, 2020-1, 2021-1), plus a never-formed SPV4 deal. At least **13** Tricolor deals exist (ECF 149 ∪ OTTO's ABS-15G inventory, which adds 2022-2 and 2023-2, both retired and NOT charged). The 7/25 count of "2 in 2018-2021" was itself wrong: there were at least 4.

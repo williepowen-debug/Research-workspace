@@ -49,22 +49,24 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (s027 2026-10-04 → s028 2026-10-14 Wed)
-- OTTO dark 10/5–10/13. CRMT bridged twice more (→ 10/8 → 10/15). Manheim Sept turned −0.6% YoY. NEXUS sent Will-commissioned #3 (CCC widening, due 10/19). Nine inbox packets queued; R1 correction COR-20261012-27 named OTTO.
+### CHANGES SINCE LAST SESSION (s028 → s029, same evening, 2026-10-14)
+- Nothing external. s029 began ~20 minutes after s028 closed; Will asked to bring OTTO to fleet parity.
 
-### LAST SESSION (s028, Will-launched; PROME asked for the inbox drain mid-session)
-1. Inbox 9/9 consumed (board_log); COR-20261012-27 receipted NO-OP; CLAUDE.md step 5a + v2.8 bundle (Will-approved).
-2. The 10/1 cluster DONE (13 days late): seasoning/upsert repair of `panel_10d.py` (0 of 137 values moved; CARL n=3 to the cent at 29/30/31; packet to CARL `0002774f0`, BLAST ruling asked). August read: 39 of 39 worse YoY; Carvana tier gap +1.73 → +3.17 on a level move (WALTER -001). Tricolor Counts 7–8: ECF 149, filed on time 8/28, charges 11 of ≥13 TAST deals (WALTER -002, corrected by -003 → BOARD -033).
-3. Will-directed file review (three Opus reviewers; reports in `research/2026-10-14_file_review/`). Tier 1 fixed tonight; Tiers 3–4 owed.
-4. ⛔ Two OTTO errors, both corrected the same evening: "every Tricolor securitization since 2018" (false: 2022-2 and 2023-2 uncharged); the recovery <28% trigger carried as "owed" (it FIRED 9/2).
+### LAST SESSION (s029, Will-launched parity pass, Wed 10/14 evening)
+1. **§2 CONVERGENCE MATRIX** on STATUS (DAEDALUS's stated L5 gate): **33/50** after an Opus verifier failed my 32/50 draft (Carvana collateral counted twice; no written tie-break). STATUS 69% of budget after verbatim rotations to STATUS_COLD §15. Packet to DAEDALUS; the L5 call is DAEDALUS's.
+2. **As-made scoreboard** (PREDICTIONS_ARCHIVE): 5 of 10, mean Brier **0.2400 vs 0.2500** for always-50%. Seven ledger cells corrected from git (OTTO-05 and OTTO-30 written at 60%). **OTTO-33 68→60%** on its overdue re-examine.
+3. **WINTERKORN**: spec + memory refreshed, docket archive split, run early. It added 9 rows, incl. the First Brands criminal trial **2/9/27** (US v. James) and the cooperators' case (US v. Brumbergs). EART 2026-4 ISSUED 8/28. Boot now flags its cadence.
+4. **Cleanup**: one to-do list (`STALE_PUNCHLIST.md`); stubs + 27 old files archived; EDGAR monitor split (FLG cc duty retired); RESEARCH_STATUS rebuilt; VX_HISTORY frozen. CLAUDE.md v2.9 (Will: "keep the charter change").
 
 ### NEXT SESSION
-0. **Dated:** 10/15 CRMT STD (BROCK grades, read after) · ~10/15 SDART/BLAST Sept 10-D cycle (`panel_10d.py`) · 10/16 M&T Q3 (OTTO-31) · **10/19 NEXUS commission #3** (packet in `inbox/`; read the spec first) · 10/20 Ally Q3 + **WINTERKORN run** (refresh its MEMORY NEXT RUN HINTS first: all July-era) · 10/21 OTTO-07 shelf re-run (+EART 2026-4), CRMT backstop #4, Carvana T-7 check, Tricolor suppression-ruling check · 10/28 Carvana Q3 · ~10/29 EART Sept 10-D.
-1. **File-review Tiers 3–4 (owed):** THESIS v1.6 (review A: First Brands "not yet entered", 8/14 scoreboard, OTTO-30 "win", Tricolor counts L90/93, Manheim, panel) · WINTERKORN spec + memory refresh (review C H3/M5) · PREDICTIONS_ARCHIVE scoreboard + OTTO-04/OTTO-30 post-mortems · OTTO-11 source + 2.0–2.5% gap fix before 12/31 · CATALYSTS swept-row archive split · STATUS lender watchlist and Fitch rows (undated Feb–Mar) · archive sweep of ~40 files (research/WAL needs REGINALD; LESSONS.md needs Will).
-2. **Carried:** CARL's BLAST seasoning ruling (a/b) · Hertz Q3 10-Q (~12/1 watch) · DEWEY `output/INDEX.tsv:52` 9/7 date (DEWEY's call) · ACM Auto Trusts are 144A, unobservable by construction.
-3. **DEAD LEADS — do not re-run:** (a) TBK syndicate roster (b) Fitch alternatives (c) press-sweeping First Brands BDC counts (d) `browse-edgar` HTML (use `data.sec.gov/submissions`) (e) Kroll and the CourtListener docket PAGE / REST API (403/401). ✅ **CourtListener SEARCH API works unauthenticated for BOTH First Brands (txsb) and the Tricolor SDNY criminal case (nysd, docket 72046760)** via DEWEY `recap_pull.py search`; never grade a court filing SEARCH-NOT-FOUND on press searches alone. ✅ Verita full docket: POST `/document/list/6384`, PageSize 2000, Go Daddy G2 intermediate. ✅ Equifax editions use full month names.
+0. **Dated:** 10/15 CRMT STD (read BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`) · 10/16 M&T Q3 (OTTO-31) + Tricolor BlackRock Rule 2004 confer · **10/19 NEXUS #3** (packet in `inbox/`; read the spec first) · 10/20 Ally Q3 (OTTO-12; log the missed 10/01 attempt) + First Brands D&O hearing · 10/21 OTTO-07 shelf re-run, CRMT backstop, Carvana T-7, suppression check, First Brands §721 hearing · 10/27 First Brands §341 · 10/28 Carvana Q3.
+1. **THESIS v1.6** (to-do #2, incl. 2a/2b), with a cold reader before commit.
+2. The rest of `STALE_PUNCHLIST.md` (#4 OTTO-11 instrument, #6 true-at-creation check, #7 dashboard refresh, #13, #14, #15 this file's contradictions).
+3. **DEAD LEADS — do not re-run:** (a) TBK syndicate roster (b) Fitch alternatives (c) press-sweeping First Brands BDC counts (d) `browse-edgar` HTML (use `data.sec.gov/submissions`) (e) Kroll and the CourtListener docket PAGE / REST API (403/401). ✅ **CourtListener SEARCH API works unauthenticated** via DEWEY `recap_pull.py search` (search by case number: Chu's case sits under several docket ids). ✅ Verita full docket: POST `/document/list/6384`, PageSize 2000, Go Daddy G2 intermediate. ✅ Equifax editions use full month names.
 
 ### DURABLE LESSONS CARRIED
+- **An audit that reads markers finds only the rows that carry markers.** The 9/12 as-made audit trusted "(was X%)" annotations, so walked cells with no marker read as as-made (seven rows). Derive from history (git first appearance), not from the label.
+- **"Map the local colour" is a choice disguised as a transcription** when a vector has several local colours. Name the source cell, or the author picks the score while believing they only copied it (s029 matrix, caught by the verifier).
 - **A trigger row that records its own state ("never fired", "owed") outlives the firing.** OTTO's recovery row said "owed" six weeks after it fired, and the boot read re-asserted it into MEMORY, LAST_COMPLETION and a PROME memo. State lives in STATUS/ledgers; the charter carries the rule.
 - **Before writing "every X", check the claim against your own inventory.** ECF 149's 11 deals were called "every securitization since 2018"; OTTO's own 15G table had two more.
 - **Write acceptance conditions against the documents, not against memory of them.** "Issuer-stated on EVERY row" assumed all three shelves print the figure; Bridgecrest does not.
@@ -81,4 +83,4 @@
 - **Corrections still propagating (carried):** Bridgecrest servicing fee is **3.50% at the ABS level**, not 0.117% portfolio-wide. **Wilmington Trust has NO live trustee role at CRMT.** OTTO's Experian Q1-2026 subprime-share pair is chart-image locked, not a filed figure.
 
 ### PENDING PUSH
-- s028 (2026-10-14): all commits path-scoped; pushed at closeout via `scripts/safe-push.sh` (receipt in LAST_COMPLETION). s022/s025 commits confirmed on origin 10/14.
+- s029 (2026-10-14): all commits path-scoped; push at closeout via `scripts/safe-push.sh` (receipt in LAST_COMPLETION). ⚠️ Commit `c7361651a`'s message says 26 files archived (8 from `sources/`); the stat shows 27 (9). Not amended (root 4b); corrected here and in MAINTENANCE.

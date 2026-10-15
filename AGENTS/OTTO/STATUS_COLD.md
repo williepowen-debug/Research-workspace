@@ -560,3 +560,59 @@ split, not an archive. Archives are frozen; this file is maintained alongside `S
 | **Jan 25 2027** | Tricolor executive trial — **Chu only** (Goodgame pleaded guilty + cooperating). Judge **Castel**, SDNY, 10am | 🟠 **CONFIRMED Jul 29 (swept Aug 3)** — Speedy-Trial time excluded to this date; Feb-1 reserve not taken. **Fraud-surface catalyst has left 2026 entirely** |
 
 | **Dec 4** | Tricolor criminal — **Goodgame sentencing control date** (Castel) | 🟡 **NEWLY DOCKETED Aug 3** — was absent from OTTO's calendar; cooperator sentencing usually slips past trial, but it is a dated node |
+
+### Fifth s029 rotation — rows replaced at the WINTERKORN sync (as they stood)
+
+| **Oct 20 (Tue)** | **WINTERKORN run** — lapsed since 7/25; first job: verify the s028 hand-added rows | 🟠 `confirmed` **NEW s028** |
+
+| **OTTO-33** | New corporate counterparty publicly implicated in Tricolor fraud by Dec 31 | 🟠 OPEN **68%** (60→68% Aug 3) — raised on an instrument (Kollar/Seibold plea transcripts ordered unsealed 7/30), not on evidence. **None posted; the row's own ~9/28 re-examine is overdue.** Still needs a NAME |
+
+### Sixth s029 rotation — dashboard and timeline cells shortened (as they stood)
+
+| **Total Auto Loans (NY Fed Q2 2026)** `[CONF HHDC 2026Q2, pub 2026-08-11]` | **$1.713T** (+1.66% QoQ — **accelerating** from Q1's +1.08%; ATH). ⚠ **Auto grew while the TOTAL household-debt aggregate FELL** ($18.784T → $18.771T) — auto is the line expanding against a shrinking book | 🟠 |
+
+| **Auto transition-to-90+ (Q2 2026)** `[CONF HHDC 2026Q2]` | **3.0028%** (Q1 2.9697%, Q2-25 2.9352%) = +3.3bp QoQ / **+6.8bp YoY — first 3.00%+ print**. Ages 18-29 **4.835%**. ⚠ **Pct-of-balance 90+ FELL to 5.49%** (Q1 5.60%) — balances leaving the bucket faster than entering, i.e. faster charge-off. **[EST] consistent with skip→charge-off, but NOT separable from ordinary seasonal timing with this data — hypothesis, not conclusion** | 🟡 |
+
+| Wilmington Trust | **Resigned Tricolor trustee role (Sep 20 2025, narrow)** — full-exit allegation denied corporate-side (M&T anon source via American Banker Feb 19-20); active-business evidence cuts against franchise exit | 🟠 |
+
+| Fitch subprime ANL | Jan 2026 **9.81%** (post-pandemic high, +30bp YoY) → **Mar 8.80%** (seasonal ease) `[PRESS Fitch/AutoRemarketing — Mar-2026 data]`; TTM 9.00% | 🔴 |
+
+| Recovery rate | **32.64% YE2025** (vs pre-pandemic 43.73%); Fitch monthly bounced to **37.48%** on spring tax refunds `[PRESS Fitch/AutoRemarketing — Mar-2026 data, pub May 21 2026]` = latest available; TTM 37.02% | 🟠 |
+
+| **Nov 6 (Fri)** | **Manheim October full-month release** — the hinge's next read | 🟠 `confirmed` **NEW s028.** Sept −0.6% YoY. Second negative print or ≤ −3% = the hinge moving; feeds the ~11/15 SDT `--manheim` input |
+
+| **Oct 21 (Wed)** | CRMT Item 1.01 backstop #4 (agreement dated ≤10/15) · **Carvana T-7 short-seller check** | 🟠 `confirmed` **NEW s028.** Backstop owner BROCK (L652). Short-seller check per CLAUDE.md § Short-Seller Report Monitoring |
+
+### Seventh s029 rotation — case-table, thesis-mirror, prediction and timeline cells shortened (as they stood)
+
+| Tricolor | Double-pledging + skip | ~3% recovery; $113M gridlock; **superseding 8-count indictment Jun 24 (§225 "financial kingpin", 10yr-life min); COO Goodgame guilty + cooperating Jun 24; trial re-dated → Jan 25 2027** |
+
+| First Brands | Invoice fab + Ponzi | 🔴🔴 **CH.7 — conversion order ENTERED 2026-09-01 (Dkt 3748), every remaining debtor** `[CONF Dkt 3748 PDF via RECAP, read 2026-09-30]`; trustee **Eva S. Engelhart** (named docket filer, WINTERKORN 10/14); criminal trial **2/9/27** (US v. James). Admin expenses > estate value; DIP marked 22.8¢ (BROCK). **PSEC Rule 2004 discovery opened Aug 7** |
+
+**Carvana sub-thesis (carved out):** related-party manipulation allegation. LOWER conviction — allegation-only, GT retained May 5 (disconfirms red-line), no DOJ action. Tracked separately from confirmed-case count.
+
+| **OTTO-34** | EART 2022-3 CNL ≥29.0% on the Dec-2026 10-D | 🟠 OPEN **50% (held s028)** — CNL **27.86 → 28.15 → 28.40%** (Jun/Jul/Aug); the row's method projects **≈29.00%, ON the line**. Next prints ~10/29, ~11/30 |
+
+| **OTTO-10** | Subprime share of originations falls below 13% (Equifax) | ⚪ **NEEDS_VERIFY** (moved from FALSIFIED 9/30, CATO RC2) — Equifax data only through May; re-grade at the edition covering September (~12/15 row). Surfaced at boot since the s028 `predictions_due.py` fix |
+
+| **~Dec 1 (Tue)** | **Hertz US-fleet disposal WATCH** — $200M 4.63% notes + HVF III 2021-2 $2,000M fleet ABS mature 12/2026 | 🟡 `modeled` (SIG-W-20261004-006). FIRE = HVF III amortization event or Hertz Ch.11; an asset sale or amend-and-extend is NOT a fire. Credit read is LIQUID's. Rule in CATALYSTS |
+
+| **Oct 19 (Mon)** | **NEXUS commission #3 DUE** — is CCC widening consumer-driven? OTTO leg: consumer / subprime-auto issuers at CCC or B, dated events 9/24–10/13 | 🟠 `confirmed` (Will-commissioned; packet in `inbox/`). Not started |
+
+### Eighth s029 rotation — header, cold pointer, two timeline cells and the bottom line (as they stood)
+
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (**both thesis mechanisms criminally charged; First Brands CONVERTED TO CH.7 — order ENTERED 9/1, VERIFIED at Dkt 3748**) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it the fraud-case root and its channels | **Last Updated:** 2026-10-14 EDT (**session 029** — Will-launched parity pass) · prior s028 2026-10-14 (boot, inbox drain, file review)
+
+> **📌 Cold half — the settled reasoning, resolved predictions, per-vector narrative and prior-session pointers are VERBATIM in [`STATUS_COLD.md`](STATUS_COLD.md)** (s026–s029 → §14–15) (not a boot read; hot STATUS wins on any disagreement).
+
+| **~Oct 15** | **10-D cycle — SDART + BLAST September collection month** | 🟠 `modeled` **NEW s028.** Run `panel_10d.py`. Does Carvana's August level jump hold? Turn = a tier mean ≤ 0 or any deal-month better |
+
+| **~Nov 16 / ~Nov 30** | 10-D cycles — SDART+BLAST / EART October collection month | 🟠 `modeled` **NEW s028.** The EART one is the last print before OTTO-34's Dec-2026 resolving filing |
+
+**Fraud-leg 🔴🔴 / both systemic legs 🟠 DISCONFIRMED. Nothing moved the thesis.** *(Older bottom lines → `STATUS_COLD.md` §10.)*
+
+### Ninth s029 rotation — shelf row (was 4 cells in a 3-column table) and the 10-D panel row (as they stood)
+
+| Subprime ABS shelf activity `[CONF SEC EDGAR, run-stamped 2026-07-25]` | **8/8 tracked subprime shelves issuing in 2026** — Exeter 2026-1/2/3, CPS 2026-A/B/C, ACA 2026-1/2/3, Bridgecrest 2026-1/2/3, Westlake 2026-1/2, GLS 2026-1/2, Santander 2026-1, Lendbuzz 2026-1. **No halt.** Flagship quiet since 2024 = InterVest acquisition, not a halt | 🟢 **Instrument: `workbook/SHELF_ACTIVITY.tsv` — the OTTO-07 shelf-halt probe. FROZEN 2026-09-02 (single run 7/25); re-run `scripts/shelf_halt_monitor.py` when OTTO-07 needs a fresh reading.** | 🟢 |
+
+| **🔴 MATCHED-COLLECTION-MONTH YoY — 39 OF 39 WORSE; the narrowing PAUSED in August, sharpest on Carvana** `[CONF SEC 10-D, 9 deals, collection_period + issuer seasoning clock, backfilled 2026-10-14]` | **August 9 of 9 worse YoY on 60+ DQ; 39 of 39 since April; zero improving, all three tiers.** Tier mean gap May→Jun→Jul→Aug: **BROAD** +1.92 → +1.63 → +1.00 → +1.09 · **DEEP** +2.29 → +1.85 → +1.21 → +1.30 (Aug widening seasonal) · **CARVANA** +1.62 → +2.68 → +1.73 → **+3.17** (a LEVEL move: BLAST 14.80→15.82, 15.30→16.48). **Pre-committed turn: a tier mean crossing zero, or any deal-month better YoY. Neither has happened.** SDART seasoning-matched pair +0.53 (CARL grades). ML-OTTO-292. Full row → cold §15 | 🔴 |

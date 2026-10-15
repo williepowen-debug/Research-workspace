@@ -14,6 +14,27 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-10-14 (s029) (e) — one to-do list; dead stubs and 27 old files archived; boot measures WINTERKORN's cadence; ledger as-made markers
+
+**Trigger:** the rest of Will's parity pass ("carry on", 22:39 ET), worked down the new to-do list while WINTERKORN ran, then WINTERKORN's own escalations.
+
+**What changed:**
+- `STALE_PUNCHLIST.md` rewritten as the single forward list; the old list and `PEER_PARITY_ROADMAP.md` moved verbatim to `archive/` (`1084bc3d1`).
+- `scripts/abs_issuance_tracker.py` + `extension_proxy.py` → `archive/` (run bare, each appended placeholder rows to a FROZEN ledger); `workbook/VX_HISTORY.tsv` FROZEN banner, CRLF kept (`765ee7534`).
+- `scripts/boot.py` prints WINTERKORN's cadence (🟠 DUE at ≥7 days; FAIL closed if no dated LAST RUN heading); 5-case guard test; read the real run's heading correctly after it landed (`288cfceaa`).
+- `EDGAR_8K_MONITOR.md` split (frozen watchlist half → `archive/`; the self-assigned FLG cc duty retired with reason); `RESEARCH_STATUS.md` index re-synced and queue rebuilt (`ec06e74da`).
+- Archive sweep (`c7361651a`): **27** files to `archive/` (16 research prompts, **9** sources, 1 briefing, 1 recon) and one delivered outbox record to `outbox/delivered/`. ⚠️ **That commit's message says 26 and 8; the stat says 27 and 9.** Not amended (root 4b).
+- `thesis/PREDICTIONS.tsv`: as-made markers on seven rows, each from git first appearance (the 9/12 audit had trusted the markers that existed).
+- WINTERKORN run applied: docket +9 rows; EART 2026-4 swept and archived; four spec errata fixed (Tricolor Ch.7 judge is Larson, Burns is the trustee; bank list; RETURN template; Chu's docket ids); memory's 7/25 run entry and OTTO's consumed hints archived; OTTO's PENDING dispositions recorded.
+
+**Files touched:** the files above, plus `CLAUDE.md` (file tree, stub and VX_HISTORY rows), `STATUS.md`, `STATUS_COLD.md` (§15 rotations).
+
+**Boot-impact:** boot gains one step (WINTERKORN Cadence). STATUS 69% of budget.
+
+**Lessons:** a pre-commit check that only PRINTS the shared index does not stop anything. The sweep's check printed four files RED had staged and the command carried on; the path-scoped commit is what kept them out (verified: 0 non-OTTO paths in `c7361651a`; RED's files still staged). The pathspec is the control; the print is decoration.
+
+---
+
 ## 2026-10-14 (s029) (d) — WINTERKORN spec + memory refresh; docket archive split
 
 **Trigger:** file review C (s028) H3/M3/M4/M5/M6/M8, owed before the 10/20 WINTERKORN run. The run's brief would have opened on July instructions ("sweep the Jul 28 First Brands confirmation first").

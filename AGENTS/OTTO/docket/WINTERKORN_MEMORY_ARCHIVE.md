@@ -105,3 +105,38 @@ Plus 1 NOT proposed (per scope convention): **ABS new-issue pricing windows (EAR
 **4 open PENDING blocks from this run** (PREDICTIONS-SYNC on the trial re-date, STATUS-SYNC ×5 propagations, SCOPE on the examiner, CALENDAR-AMBIGUITY ×3). Do not remove them — OTTO clears.
 
 **Method note worth keeping: primary beat trade press by a full news cycle twice this run.** SEC EDGAR 8-K filing dates settled all four earnings rows instantly and unambiguously; Inner City Press carried the Tricolor adjournment while natlawreview (Jul 6) and the Green Street/AFN mirrors were still printing "Oct 19 holds, Jul 29 hearing pending." When a trade-press date and a docket/filing date disagree, the filing wins — and check the *year and day* on the article before believing it.
+
+---
+
+## LAST RUN entry 2026-07-25 (moved 2026-10-14 after the 10/14 run)
+
+### 2026-07-25 — trigger: on-demand T-3 pre-hearing (Jul 28 First Brands confirmation), after 21-day OTTO dark period
+
+- **🔴 Jul 28 First Brands confirmation — VERIFIED HOLDS.** No adjournment/continuance in any mirror as of 7/25. 9am CT, Judge Lopez, SDTX Courtroom 401, combined with final DS approval `[Law360 2026-07-20; Trucks-Parts-Service; witzamfm 2026-07-01; Octus]`. **New framing captured:** the hearing is **MULTIDAY and CONTESTED** — creditors moved 7/20 to compel more disclosure on the litigation claims anchoring the plan, and Lopez was weighing a privilege question `[Law360 2026-07-20]`.
+- **🔴 DATE CORRECTION — Tricolor trial 2026-10-19 → 2027-01-25.** Castel did **not** wait for the Jul 29 hearing: he **granted** Chu's adjournment on/about **2026-07-07**, setting trial **Jan 25 2027 10am** and a **Final Pre-Trial Conference Dec 9 2026 2pm** `[Inner City Press 2026-07-07 contemporaneous SDNY report; corroborated by CourtListener docket 1:25-cr-00579 carrying the Jan 25 2027 date]`. Note the granted date is Jan 25 2027, **not** the Feb 1 2027 placeholder Castel floated 6/29 — a hallucination would have echoed the placeholder. **Stale-vintage trap avoided:** natlawreview (2026-07-06) and Green Street/AFN mirrors still describe "Oct 19 holds, Jul 29 hearing pending" — they pre-date the ruling by one day. Year+day verified on every source.
+- **Jul 29 Tricolor row re-framed to SUPERSEDED** (premise resolved early). Row retained, not pruned — whether a Jul 29 conference still sits on Castel's calendar is UNVERIFIED. OTTO to prune or re-purpose.
+- **4 fired rows swept for docket facts (all HOLD as docketed, verified against SEC EDGAR 8-K filing dates — primary, not trade press):** JPM/WFC/C all 8-K **2026-07-14**; MTB 8-K **2026-07-15**; ALLY 8-K **2026-07-21**. Zero date drift. Analytical read left to OTTO.
+- **Jul 15 Fitch ABS Index — RELEASE UNCONFIRMED, halt-on-ambiguity.** No dated Jul-2026 index release findable in public mirrors (Auto Remarketing's newest indexed piece is 2026-05-21 and *still covers the January index*). Row left unrevised. **Cadence mechanism now confirmed rather than assumed:** index month = collection month + 1 ("January index reading, which covers the December 2025 collection period"), with release lagging further — so the standing "mid-Jul release carries ~May data" note is **correct** and now has a source.
+- **Jul 20 First Brands vote — fired, outcome NOT public.** Tallies are not disclosed until the **Jul 27 ballot certification**; no result in any mirror. This is expected, not a gap.
+- **5 rows ADDED** (see ROWS ADDED in return block): Jul 24 FB status conference (docket gap — fired unswept, never in TSV), Jul 27 FB ballot certification (promoted out of the Jul 20 row's notes), Jul 29 **CVNA Q2 earnings** (docket gap closed), Aug 17 **EART 2026-4** FWP window (`modeled`), Dec 9 Tricolor FPTC.
+- **CVNA Q2 = 2026-07-29 after close, call 5:30pm ET** `[CONF Carvana IR press release via StockTitan + Yahoo Finance]`. Closes the gap OTTO flagged. **Jul 29 is now a triple-event day** (CVNA + the superseded Tricolor row + day 2 of a multiday FB hearing).
+- **EART 2026-4: true zero on EDGAR.** SEC full-text search returns **0** filings — and I **positive-controlled** it (2026-2 → 98 hits, 2026-3 → 35 hits incl. FWP 2026-06-10) before banking the gap, per `[[finding_discovery_tool_wrong_slice_false_zero]]`. Added as `modeled` 2026-08-17 from issuer cadence (~2mo spacing), which is **earlier than the standing-monitor "typically Sep"** note.
+- **First Brands examiner: no dockable date, but a fired event OTTO may not have.** De Luca filed an **interim** Examiner's Report **2026-04-27** and then **paused the investigation — the $7M budget was exhausted**; he stated ~90 days of further work *if* additional funding is approved. Conditional, no docketed deadline → not added as a row; escalated to OTTO.
+- **Baseline audit:** not triggered (on-demand T-3 pre-hearing run; not first-of-month; no OTTO-flagged post-miss).
+- **Sources blocked this run:** Kroll direct (403, known auth-gate), CourtListener direct fetch (403 — but its docket content was indexed and readable via search), Green Street News (403).
+
+---
+
+## OTTO hints for the 2026-10-14 run — consumed by that run (moved 2026-10-14)
+
+### Hints for the next run (written by OTTO 2026-10-14, s029 — you have not run since 2026-07-25)
+
+*(Consumed by the 2026-10-14 WINTERKORN run. Dispositions: 1 → s028 rows verified (LAST RUN); 2 → 13 rows checked, 0 revisions; 3 → 0 archived, the 9/15 row is eligible 10/16; 4 → NY Fed row ADDED as an accepted class, PENDING audit #1; 5 → §341 11/11 re-verified; 6 → EART 2026-4 ISSUED, PENDING SWEEP-FACTS; 7 → audit run, delta in PENDING. OTTO may archive this block.)*
+
+1. **Read § CHANGES SINCE LAST RUN first.** Every row marked "NEW s028" in CATALYSTS is an **OTTO hand entry, not your output.** Verify each date at its source before presenting it as verified.
+2. **Pre-fire window is crowded.** Rows inside 7 trading days of 10/14: 10/15 CRMT bridge-6 STD (**BROCK owns the grade**; you verify the date only, by the EDGAR index-page acceptance time) · ~10/15 SDART/BLAST 10-D · 10/16 MTB Q3 · 10/20 ALLY Q3 · 10/21 CRMT backstop #4 (BROCK) · ~10/21 Tricolor suppression ruling (modeled; check CourtListener for ECF entries after the 10/7 hearing). 10/19 NEXUS, the 10/20 WINTERKORN-run row, 10/21 Carvana T-7 and OTTO-07 re-run are OTTO-internal: nothing to verify.
+3. **The docket was restructured by OTTO on 10/14:** 28 swept rows dated ≤ 9/14 moved verbatim to `CATALYSTS_ARCHIVE.tsv`; the file was date-sorted; the 7/15 Fitch row was RETIRED; four stale notes annotated (review C M3/M4). Job step 1 is now ARCHIVE, never delete. The 2026-09-15 RETIRED row becomes archive-eligible from 10/16.
+4. **Propose the NY Fed Q3-2026 HDC row** (accepted class, none exists) as a WINDOW.
+5. **Re-verify the 2026-11-11 Tricolor §341 row** at Verita (last verified 6/09, 127 days).
+6. **EART 2026-4** (8/17 row, FIRED-UNSWEPT): run the EDGAR FTS check with a positive control and report; OTTO sweeps it with the 10/21 shelf re-run.
+7. **Baseline audit:** due (first run of October). Read CALIBRATION first — Fitch and the non-MTB/ALLY banks are now DECLINED.
