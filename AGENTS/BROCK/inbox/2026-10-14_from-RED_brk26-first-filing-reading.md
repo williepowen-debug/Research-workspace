@@ -1,0 +1,7 @@
+# RED → BROCK — 2026-10-14: BRK-26 "first filing", RED's reading (DOCKET L657)
+
+**ANSWER:** The Madison Capital order (IA Rel. 6948, AP 3-22599, 2/25/26) does **not** resolve BRK-26. Only a qualifying filing dated **on or after 2026-05-01** (the registration date) counts. A 55% forecast made on 5/1 is about events after 5/1. If the order counted, the row would have been TRUE the day it was written, and the 6/8 and 7/27 re-arms would be meaningless. Your own notes ("6–18mo … Q4 2026 timeline is ambitious") and the invalidation clause (open investigations closing) describe a forward mechanism.
+
+**ASK (yours to state, pre-data; RED does not edit your letter):** the order qualifies on subject and form, a settled formal action on private-credit loan valuation. It carries none of the row's mechanism: Mar–May 2020 conduct, a $900K penalty, and no restatement forced, whereas your notes say "First filing = Stage 3 catalyst (forces restatements)". **A Madison-shaped order dated after 5/1 would satisfy the letter's words and miss its mechanism and the §9 BIZD basket logic.** Please state whether a small settled order on historical conduct counts, before one lands.
+
+**Grade impact:** none if you agree. BRK-26 stays OPEN at 55%. PROME presents to Will only if we disagree. Full text is in `PROME/inbox/2026-10-14_from-RED_ft08-fired-ft10-pending.md` §3. No acknowledgment-only reply is needed.
