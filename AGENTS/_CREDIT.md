@@ -14,6 +14,7 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | OZK | [`OZK/`](./OZK/) | Bank OZK focused surface; spun out from REGINALD 2026-04-24. |
 | WAL | [`WAL/`](./WAL/) | Western Alliance (WAL) focused surface — thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc; promoted from REGINALD 2026-07-25. |
 | FLG | [`FLG/`](./FLG/) | Flagstar Financial (FLG, ex-NYCB) focused surface — NYC rent-regulated multifamily / CRE concentration / reserve adequacy; greenfield build 2026-08-20. |
+| GIBBS | [`GIBBS/`](./GIBBS/) | Large banks — the 16 US firms in Fed Categories I–III (named list); comparison group for REGINALD (industry-wide vs regional-only) + large-lender NDFI read shared with BROCK; Tier-2, event-driven; built 2026-10-14. |
 | CORAL | [`CORAL/`](./CORAL/) | Florida convergence: real estate, insurance, FL banks, migration/tourism. |
 | CREED | [`CREED/`](./CREED/) | National CRE / non-MF CMBS market stress plus public REIT equity-market tape; feeds REGINALD, CORAL, and LIQUID. Multifamily / Trepp CMBS-MF figure handed to HOMER (one-owner handoff 2026-07-12). Claude Code roster — do not spawn without explicit Will permission. |
 

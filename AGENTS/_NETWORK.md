@@ -24,6 +24,7 @@ flowchart LR
         OTTO[OTTO<br/>Auto / consumer DQ]
         REGINALD[REGINALD<br/>Regional banks]
         FLG[FLG<br/>Flagstar single-name]
+        GIBBS[GIBBS<br/>Large banks — Fed Cat I–III]
         OZK[OZK<br/>Bank OZK]
         WAL[WAL<br/>Western Alliance]
         CORAL[CORAL<br/>Florida convergence]
@@ -72,6 +73,10 @@ flowchart LR
     FLG -->|print reads| REGINALD
     FLG -->|funding/CRE reads| LIQUID
     FLG -->|construction inputs| TERRY
+    GIBBS -->|large-bank comparison reads, tagged| REGINALD
+    GIBBS -->|NDFI figure, one number| BROCK
+    BROCK -->|BRK-31 figure JPM/WFC/C| GIBBS
+    GIBBS -->|custody / brokerage deposit flows| LIQUID
     CARL -->|consumer/housing losses| REGINALD
     CORAL -->|FL bank/real estate convergence| REGINALD
     CREED -->|CRE / CMBS / public REIT tape bank bridge| REGINALD
@@ -194,7 +199,7 @@ flowchart LR
 
 | Chain | Primary path | What confirms stress |
 |---|---|---|
-| Credit | LABOR → CARL → REGINALD → HENRY/LIQUID, with CREED feeding CRE/CMBS and public REIT tape bank-bridge stress | Claims/payroll composition, consumer DQ (housing asset-market feed via HOMER — see Housing chain), CRE maturity/default recognition, REIT equity/NAV/dividend stress, bank loss recognition, market repricing |
+| Credit | LABOR → CARL → REGINALD → HENRY/LIQUID, with CREED feeding CRE/CMBS and public REIT tape bank-bridge stress; GIBBS supplies the large-bank comparison group (industry-wide vs regional) | Claims/payroll composition, consumer DQ (housing asset-market feed via HOMER — see Housing chain), CRE maturity/default recognition, REIT equity/NAV/dividend stress, bank loss recognition, market repricing |
 | Private credit | BROCK → SHADE → LIQUID / REGINALD | Gates, PIK/NAV stress, insurer wrapper funding, NDFI bank bridge |
 | Energy shock / war | {OSPREY, FALCON} → HAWK → BRENT → HENRY/LIQUID/CARL (acute theater signals → BRENT direct, HAWK cc) | Theater kinetic/chokepoint events, cross-war reconciliation, Brent/storage/insurance, inflation/demand destruction |
 | Housing | HOMER → CARL / REGINALD / HENRY | Foreclosure pipeline, GSE-vs-CMBS multifamily divergence, builder margins, HPI, mortgage-rate surface |

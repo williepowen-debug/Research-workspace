@@ -28,7 +28,7 @@ Do not recreate roster membership or responsibility classes here; when another s
 
 | Chain | Route |
 |---|---|
-| Credit | LABOR → CARL → REGINALD → repricing; CREED supplies national CRE/CMBS, CORAL geographic convergence, HENRY velocity, LIQUID amplification. Single-name bank depth: OZK, WAL, FLG → REGINALD; FLG also → {LIQUID, TERRY} |
+| Credit | LABOR → CARL → REGINALD → repricing; CREED supplies national CRE/CMBS, CORAL geographic convergence, HENRY velocity, LIQUID amplification. Single-name bank depth: OZK, WAL, FLG → REGINALD; FLG also → {LIQUID, TERRY} Large-bank comparison group: GIBBS → {REGINALD, BROCK} (industry-wide vs regional; NDFI one figure with BROCK). |
 | Private credit | BROCK → SHADE (insurance wrapper) → LIQUID / REGINALD |
 | Energy shock / war | YURI (Russian state decision) → {OSPREY, HAWK} → {OSPREY, FALCON} → HAWK (cross-war synthesis, no double-count) → BRENT → {HENRY, LIQUID, CARL}; acute theater signals go to BRENT direct, HAWK cc'd. BRENT fuel cost → CRUISE (event-driven) |
 | Japan / carry | SAM → {LIQUID, HENRY} — independent trigger via carry unwind |

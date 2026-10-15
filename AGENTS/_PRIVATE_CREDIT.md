@@ -23,6 +23,7 @@ BROCK → SHADE → LIQUID
 |---|---|---|
 | LIQUID | [`LIQUID/`](./LIQUID/) | Funding pullability / Treasury plumbing amplifier. |
 | REGINALD | [`REGINALD/`](./REGINALD/) | Bank bridge for NDFI/private-credit stress. |
+| GIBBS | [`GIBBS/`](./GIBBS/) | Large-lender NDFI / private-credit read — one figure with BROCK (BRK-31 names cite BROCK). |
 | BOND | [`BOND/`](./BOND/) | Public credit, HY/IG/CDX/cash market structure. |
 | VIOLET | [`VIOLET/`](./VIOLET/) | Credit-to-vol lag detection. |
 | NEXUS | [`NEXUS/`](./NEXUS/) | Convergence synthesis across chains. |

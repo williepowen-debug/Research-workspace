@@ -58,6 +58,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 | VULCAN | [`VULCAN/`](./VULCAN/) | Funding / Macro (AI-capex concentration / market structure; systemic) |
 | WAL | [`WAL/`](./WAL/) | Credit (Western Alliance single-name specialist — thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc; promoted from REGINALD 2026-07-25) |
 | FLG | [`FLG/`](./FLG/) | Credit (Flagstar Financial single-name specialist — NYC rent-regulated multifamily/CRE concentration, formerly NYCB; first greenfield build 2026-08-20, off REGINALD matrix v2.0) |
+| GIBBS | [`GIBBS/`](./GIBBS/) | Credit (large-bank desk — the 16 US firms in Fed Categories I–III, named list re-cut quarterly; industry-wide vs regional comparison for REGINALD + large-lender NDFI read shared with BROCK; Tier-2, event-driven; built 2026-10-14, WQ-426) |
 | OZK | [`OZK/`](./OZK/) | Credit (Bank OZK single-name specialist — revived 2026-07-18 on its Q2 gate exactly as pre-registered; ROSTER flipped 7/22; this row moved from Dormant 7/25 registration sweep) |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |
