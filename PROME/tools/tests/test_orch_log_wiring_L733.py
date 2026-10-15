@@ -93,6 +93,21 @@ class ObservedCheck(unittest.TestCase):
         gate.results.clear()
         self.assertTrue(gate.check_orch_log_observed(self.ledger, self.view))
 
+    def test_LIMIT_hand_row_absorbed_by_a_later_writer_append(self):
+        """Independent read 1 (2026-10-15), counterexample CE1 — the check's KNOWN LIMIT, pinned so a change is
+        visible: a hand row followed by a writer append reads EQUAL (the writer rebuilds the view over the whole
+        ledger). The closing fix belongs to the writer (refuse on a pre-write count mismatch; DAEDALUS packet
+        2026-10-15). When that lands, `append` returns 2 here and this test must be rewritten, not deleted."""
+        self.view.write_text(view_text(2), encoding="utf-8")
+        with self.ledger.open("a", encoding="utf-8") as fh:
+            fh.write(row("2026-10-15", "BROCK") + "\n")                       # hand row
+        self.assertFalse(gate.check_orch_log_observed(self.ledger, self.view))
+        ns = argparse.Namespace(**{c: "" for c in orch_log.COLS})
+        ns.date, ns.desk, ns.tier, ns.touch, ns.delivered = "2026-10-15", "ARGUS", "verifier", "1", "OK"
+        self.assertEqual(orch_log.append(ns, str(self.ledger), view_path=str(self.view)), 0)   # today: absorbed
+        gate.results.clear()
+        self.assertTrue(gate.check_orch_log_observed(self.ledger, self.view))   # equality, hand row invisible
+
     def test_A3_view_ahead_of_ledger_fails(self):
         self.view.write_text(view_text(5), encoding="utf-8")
         self.assertFalse(gate.check_orch_log_observed(self.ledger, self.view))

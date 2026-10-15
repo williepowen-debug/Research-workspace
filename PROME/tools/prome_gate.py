@@ -1463,7 +1463,11 @@ def check_orch_log_observed(ledger=None, view=None):
     hand row passes a date test (the 10/15 class — 59 hand rows, two merged plus a blank line, found by
     a hand width check hours later). BLOCKING because an advisory here is overridden exactly as the
     width check was; the remedy is one command and the row's name in the closeout report. A missing or
-    unparseable input is UNKNOWN and FAILS — never a pass, never a silent default."""
+    unparseable input is UNKNOWN and FAILS — never a pass, never a silent default.
+    ⚠️ LIMIT (independent read 1, 2026-10-15, CE1): this catches a hand row that NO writer append has
+    followed. A later `append` rebuilds the view over the whole ledger, so equality is NOT evidence of
+    zero hand rows; the fix that closes that hole is in the writer (refuse to append onto a ledger whose
+    count disagrees with the view) — DAEDALUS-owned, packeted 2026-10-15."""
     ledger = Path(ledger) if ledger else ORCH_LEDGER
     view = Path(view) if view else ORCH_VIEW
     name = "orchestration log OBSERVED (in-flight view row count == ledger, L733)"
