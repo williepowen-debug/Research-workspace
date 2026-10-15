@@ -4,6 +4,8 @@
 
 ## Decision read
 
+> ⚖️ **RULED 2026-10-14 22:01 ET** (Will in the PROME session, verbatim *"Approve 431, 432 and 433"*; record `PROME/proposals/2026-10-14_wq431-433-RULED.md`): **WQ-431** class-(ii) re-mark = HOLD · **WQ-432** leg 2 KEPT PROVISIONAL + amendments ① ④ as §5.2 (encoded in `domain/FRESH_LEG_BASELINE.md`) · **WQ-433** FAL-06 dated-search text as §7 (encoded on the row). ➕ Abqaiq geometry added after the memo: KB-293 (heat on the processing facility's two mapped flare stacks).
+
 **The marks hold at B 1 / C 14 / D 85, but two things lit that did not exist on 10/10: two more ships are total losses (both non-tankers), and the casualty ratchet is RED.** Neither moves a mark by its letter. The production rung (D 85→92) did not fire: the only in-class candidate (Abqaiq, 10/08) has real satellite heat behind it and no counting source.
 
 | Item | Verdict | Basis (dated) |

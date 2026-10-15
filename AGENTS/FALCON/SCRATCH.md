@@ -1,7 +1,7 @@
 # FALCON SCRATCH — 2026-10-14 (Will-launched boot 21:23 ET, "catch up on recent news"; PROME `prome-8e` named the owed reviews 21:35 ET)
 
 ## CURRENT MARKS
-**B 1 / C 14 / D 85** HELD at the 7-day review (next **10/21**). Convergence 43/50. **Losses 5** (two class-(ii) added 10/14: GFS PRIDE, CAPE DAO) — same-day re-mark proposal to PROME, rec HOLD, **Will's word pending**. **Casualty ratchet 🔴 RED rate-step + 🟠 ORANGE (i)** (21 vs 6 killed) ⇒ EXIT §3 **7 of 8**. Production rung D 85→92 **ARMED, NOT FIRED**. **GATE-FALCON-001 LIVE:** leg 2 NOT FIRED (10/14 review), override not triggered, next review_by **10/21**. FAL-06 OPEN 70% (to 11/05). WARRISK: Hormuz 6–10% refreshed; 4 rows still EXPIRED incl. the registered falsifier. No settle-count clock (12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
+**B 1 / C 14 / D 85** HELD at the 7-day review (next **10/21**). Convergence 43/50. **Losses 5** (two class-(ii) added 10/14: GFS PRIDE, CAPE DAO) — same-day re-mark proposal ⇒ **RULED HOLD by Will 10/14 (WQ-431)**. **Casualty ratchet 🔴 RED rate-step + 🟠 ORANGE (i)** (21 vs 6 killed) ⇒ EXIT §3 **7 of 8**. Production rung D 85→92 **ARMED, NOT FIRED**. **GATE-FALCON-001 LIVE:** leg 2 NOT FIRED (10/14 review), override not triggered, next review_by **10/21**. FAL-06 OPEN 70% (to 11/05). WARRISK: Hormuz 6–10% refreshed; 4 rows still EXPIRED incl. the registered falsifier. No settle-count clock (12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
 
 ## CHANGES SINCE LAST SESSION (10/10 ~12:2x ET → 10/14 ~22:0x ET)
 - **GFS PRIDE (container ship) SANK in Hormuz 10/13** (MPA, IMO); **CAPE DAO "Sunk" on the IMO table** (struck 9/23). IMO: 113 incidents, 24 seafarer deaths; its "Sunk" set = Safeen Prestige 3/4 · Cape Dao · GFS PRIDE (no Kylo/Riesco).
@@ -21,21 +21,21 @@
 - Memo to PROME with COMPLETION block; report `reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md`.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Will's word (via PROME)** on: class-(ii) HOLD · L619 KEEP PROVISIONAL + amendments ①④ · FAL-06 search floor/ceiling (must land before 11/05). If L619 amendments are adopted, encode them in FRESH_LEG_BASELINE's letter (not as a dated block).
+1. ✅ **RULED 10/14 22:01 ET (WQ-431/432/433, Will verbatim "Approve 431, 432 and 433", record `PROME/proposals/2026-10-14_wq431-433-RULED.md`):** HOLD · leg 2 KEPT PROVISIONAL + ①④ (encoded in the FRESH_LEG_BASELINE letter) · FAL-06 dated search (encoded on the row; run it ON 2026-11-05).
 2. **STANDING:** a counting source naming **Abqaiq** (10/08), **Ain Dar/Shedgum crude units**, or **Khurais 25.25N 48.10E** with hostile cause ⇒ FIRE D 85→92, C 14→7, PROME same hour. Storage tank / gas plant / office ⇒ OUT.
 3. **2026-10-21:** GATE-FALCON-001 review + 7-day scenario review.
 4. Safeen Prestige (IMO 3/4): type, attacker, HAWK frozen record — before any "census covers the war" claim.
 5. VESSELS: UKMTO-number ↔ IMO-name mapping for 10/11 + 10/13 (hulls already rowed by IMO name); GFS PRIDE UTC/position; PETRO DOLPHIN missing. WARRISK re-pull (needs a post-10/11 quote). CTP-ISW + Shafaq.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Abqaiq 10/08: physical heat, no counting source — the rung's live IN-class candidate.
+- 🔴 Abqaiq 10/08: physical heat on the processing facility's two mapped flare stacks (KB-293: emergency-flaring signature, cause unknown), no counting source — the rung's live IN-class candidate.
 - 🔴 Houthi target set moving from airports toward Aramco corporate/energy sites (10/08 staff order, 10/13 Dhahran, 10/14 shareholder threat).
 - 🟠 Operator concentration: GFS (two box ships in two days), KOTC (pattern-watch).
 - 🔴 CARRIED OPEN (MEMORY.md): KB-168 Yanbu terminus proxy unbuilt.
 - 🟡 FRESH_LEG_BASELINE hot/cold split (46,756 B); carried builds.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-FAL-06 OPEN (70%, 2026-11-05). Three Will decisions routed via PROME (above). No GATES flip owed; PROME to set `G:GATE-FALCON-001` review_by 2026-10-21.
+FAL-06 OPEN (70%, 2026-11-05). Three Will decisions RULED 10/14 (WQ-431/432/433) and encoded. No GATES flip owed; PROME to set `G:GATE-FALCON-001` review_by 2026-10-21.
 
 ## MAIL STATE
 In: 0 (17 consumed). Out: `PROME/inbox/2026-10-14_from-FALCON_weekly-review-losses-ratchet-gate001.md` + SendMessage to `prome-8e`.
