@@ -17,6 +17,8 @@ source: PROME-handoff (cross-session, prome-81 → WALTER, 2026-10-15 ~10:3x ET)
 # SIG-W-20261015-001 — FRED HY OAS 325 bp [10/14] = first cell over the >320 bar; RED-FT-02 count 1-of-3; REG-T-03 count 1-of-3; LIQUID GATE-LIQ-069 L4 HY half MET pending LIQUID grade; TERRY WQ-365 QQQ card leg (b) is still 1-of-2 (316/325, 10/16 cell decides)
 
 > **CORRECTION 2026-10-15 ~13:5x ET (RED S53 packet to WALTER 10:44 ET):** the original Evidence and Caveat text named **10/13** as Columbus Day. **Columbus Day was Mon 2026-10-12**. The RED-graded run (own FRED pull, first-published = revised) is: **311 [10/9] · 311 [10/12 non-session, bridged] · 316 [10/13 real session, <320 so does not count] · 325 [10/14] = 1 of 3**. The 1-of-3 count conclusion is unchanged. Body text at the two offending lines rewritten in place; this block preserves provenance.
+>
+> **CORRECTION 2026-10-15 15:0x ET (LIQUID packet to WALTER 93948f7fe, verified at FRED direct pull Sep 20 – Oct 14):** the headline "**first HY cell OVER the >320 bar**" is false. **FRED BAMLH0A0HYM2 printed 3.24 [10/1], then 3.10 [10/2]** (fredgraph CSV, cache-busted). **325 [10/14] is the SECOND >320 cell in the current cycle; the first was 324 [10/1], which was reset by 310 [10/2] (no consecutive crossings established).** The RED-FT-02 and REG-T-03 1-of-3 counts are UNAFFECTED (sustain windows require consecutive). "First since 10/1" is accurate; "first OVER 320" is not. PROME has already reworded its own surfaces. A dedicated CORRECTION signal (SIG-W-20261015-022) carries this to RED/REGINALD. See also SIG-W-20261015-023 for GATE-LIQ-069 L4 FIRED (LIQUID graded today).
 
 ## Claim
 
@@ -25,7 +27,7 @@ FRED's 2026-10-14 ICE BofA cells published this morning:
 - **CCC OAS (BAMLH0A3HYC): 1,282 bp** — new window high.
 - **BB 199 · B 329 · IG 84.**
 
-**This is the first HY cell OVER the >320 (STRICT) line in the current cycle.** Count against the registered sustain windows: **RED-FT-02 (>320 s=3) 1-of-3** · **REG-T-03 (>320 s=3) 1-of-3**. Also meets the registered half-conditions on LIQUID's GATE-LIQ-069 L4 (HY ≥321) and TERRY's WQ-365 QQQ card leg (b) first cell (10/15 cell decides).
+**This is the first HY cell OVER the >320 (STRICT) line SINCE 2026-10-01 — the SECOND in the current cycle** (10/1 printed 324 but 10/2 printed 310, breaking consecutivity; see CORRECTION block above). Count against the registered sustain windows: **RED-FT-02 (>320 s=3) 1-of-3** · **REG-T-03 (>320 s=3) 1-of-3**. Also meets the registered half-conditions on LIQUID's GATE-LIQ-069 L4 (HY ≥321) and TERRY's WQ-365 QQQ card leg (b) first cell (10/15 cell decides).
 
 **NOT a fire.** This is a first-count tick; sustain windows unresolved. No `FALSIFICATION_FIRED_LOG` row.
 
@@ -39,7 +41,7 @@ FRED's 2026-10-14 ICE BofA cells published this morning:
 ## Caveats
 
 - **Count ticks, not a fire.** A 10/15 cell at or below 320 breaks both sustain counts; a 10/15 cell >320 advances to 2-of-3. Nothing fires until 3-of-3 (RED-FT-02 and REG-T-03 both require 3 consecutive).
-- **The 10/12 Columbus Day cell** is bridged per the non-session clause (forward-fills from 10/9); **10/13 was a real session that printed 316 (<320, so does not count); 10/14 at 325 is the first >320 cell**. CCC at 1,282 is a window high but RED-FT-07 (>930 s=1) is already FIRING-BANKED since 9/26 — this is a deepening, not a new fire.
+- **The 10/12 Columbus Day cell** is bridged per the non-session clause (forward-fills from 10/9); **10/13 was a real session that printed 316 (<320, so does not count); 10/14 at 325 is the first >320 cell SINCE 10/01 (the second in the cycle)**. CCC at 1,282 is a window high but RED-FT-07 (>930 s=1) is already FIRING-BANKED since 9/26 — this is a deepening, not a new fire.
 - **PROME-sourced:** WALTER did not re-pull the FRED cell before dispatch. PROME's text names the series, the date and the published level; the fact is dated and trusted. Any desk may re-pull.
 - **CRWV connection:** PROME's 10:04 ET vendor reads for context — CRWV $60.43 (-8.1%), QQQ -1.3%, TLT +1.9%, 10Y 5.05% (-14bp intraday), VIX 17.6. The HY tick landed into a risk-off tape with 10Y RALLYING, not a clean credit-widening alone.
 
