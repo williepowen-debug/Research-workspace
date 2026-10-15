@@ -3,7 +3,7 @@ Runtime: Claude Code, model Opus 5.5 (claude-opus-5-5), session walter-dc, Will-
 
 ## CURRENT RESTART
 
-2026-10-15T00:41:58Z — walter-dc boot PARTIAL (reads/checks complete; doctor 0 HIGH). Will directed X fix first: refresh token was dead (HTTP 400, rotated elsewhere); re-authorized via background --authorize + Windows browser (design/X_BOOKMARKS_ACCEPTANCE.md 10/10 method); scan then 18 new. Routed 13 signals -015..-027 / 55 handoffs, all on origin (other sessions' pushes carried them; delivery_log reconciled 55 -> delivered): owner returns BOND/LIQUID x2/RED; market/AI -018 IMMEDIATE (CoreWeave 2032 notes ~14.5% relay; S&P -1.11%) -019..-022; energy/Iran -024..-027; -023 UPDATE/correction to -001 (COR-20261014-23). Batches BM-20261015-01 (18 bookmarks) and -02 (13 intake) CLOSED; marks committed f3e0a06b2. Two read-only RULE 9 helpers (Opus) complete: research/2026-10-14_evening-routing/verify-*.md. Live per ListAgents: PROME, RED, NEXUS, DAEDALUS. No pull needed (HEAD==origin at boot); no self-push (foreign staged/dirty work).
+2026-10-15T00:41:58Z — walter-dc boot PARTIAL (reads/checks complete; doctor 0 HIGH). Will directed X fix first: refresh token was dead (HTTP 400, rotated elsewhere); re-authorized via background --authorize + Windows browser (design/X_BOOKMARKS_ACCEPTANCE.md 10/10 method); scan then 18 new. Routed 13 signals -015..-027 / 55 handoffs, all on origin (other sessions' pushes carried them; delivery_log reconciled 55 -> delivered): owner returns BOND/LIQUID x2/RED; market/AI -018 IMMEDIATE (CoreWeave 2032 notes ~14.5% relay; S&P -1.11%) -019..-022; energy/Iran -024..-027; -023 UPDATE/correction to -001 (COR-20261014-23). Batches BM-20261015-01 (18 bookmarks) and -02 (13 intake) CLOSED; marks committed f3e0a06b2. Two read-only RULE 9 helpers (Opus) complete: research/2026-10-14_evening-routing/verify-*.md. Live per ListAgents: PROME, RED, NEXUS, DAEDALUS. No pull needed (HEAD==origin at boot); no self-push (foreign staged/dirty work). Later the same session (2026-10-15T01:18:18Z): Will-directed Iran FULL re-verify — three read-only Opus legs (research/2026-10-14_iran-full-sweep/), anchor re-stamped (last full 2026-10-15, next ~10-22; 3 lines rotated verbatim to HISTORY), -032 sweep + -031 correction to -025 (COR-20261014-31); FALCON doorbelled to PROME (dark, 7-day review due 10/14). Inbox drained again: CRUISE missed-capital finding dispositioned MISSED-structural (late -028; packet to CRUISE+PROME; PROME registered CIK fix as DOCKET L707), OTTO x2 -> -029/-030; RED -001 tag fix -023; PROME's WQ-401 item was already discharged 10/10 (cf262bd35; PROME acknowledged). DAEDALUS GIBBS-routing packet LEFT IN INBOX, deferred (see FOLLOW-UP 13).
 
 ## STATUS
 
@@ -39,9 +39,11 @@ None newly required for this closeout. Will authorized commit/push and confirmed
 8. **Dated owner clocks:** existing WPSROct15noon/VLO basis/LIQ07Oct15–16, MTB/CFG/H8/tankerweeklyOct16, WALOct19–20, OZKOct20–21, FOMCOct27–28/UKBudgetOct28/ECBOct29, BZZ26LTD/boundary8 switches and TreasuryNov2/4 are prior owner-source pointers, not independently reverified calendar advice. No new WALTER position-management duty.
 
 9. **RED-FT-10 (SKEW) 4th close:** CBOE SKEW_History.csv still ended 10/13 (154.74, 3 of 4) at 00:40Z Oct 15; vendor ^SKEW 10/14 close 157.30 is provisional and cannot complete the count. Re-pull the CBOE file at next boot; a published 10/14 >=150 is the 4th qualifying close (RED grades; PROME/VIOLET recipients). Do not dispatch a fire off the vendor mirror.
-10. **Iran anchor full re-verify OWED 2026-10-15:** calendar sweep due and the MPA-confirmed GFS Pride sinking (-002/-025) is a ladder re-verify trigger. Open threads: GFS Pride cause (projectile vs IRGC mine claim), IMO 'second loss' vs owner count 3, Cape Dao reportedly sinking (single source), Aramco Dhahran damage tension. FALCON owns census.
+10. **Iran anchor full re-verify — DONE 2026-10-15 ~01:15Z (-032):** next full sweep ~2026-10-22 (anchor ladder #8). Owner calls handed to FALCON: IMO three-Sunk set vs its 3-loss census (-031), GACA Riyadh-airport deaths vs its ratchet bar 12, Abqaiq 10/08 imagery, inferred hull identities; BRENT: Baltic TD3C basis. FALCON doorbell row YES in DOORBELL_LOG; PROME decides any spawn.
 11. **Unverified levels handed to owners:** CoreWeave 2032 notes ~14.5% (Bloomberg relay, not TRACE) -> LIQUID/BROCK asked to confirm before adopting (-018).
 12. **Documentation debt (no amend per root 4b):** commit f3e0a06b2's body says 'routed in 3a1..' — a placeholder; the routing commits are 82ad0c90f and its predecessors this session.
+13. **GIBBS routing lane — DUE before GIBBS's first session Mon 2026-10-19 (WQ-426 RULED; DOCKET L704 note):** DAEDALUS packet `inbox/2026-10-14_from-DAEDALUS_GIBBS-routing.md` (08d273fca) stays in inbox until the lane lands. Scope: 16 tickers + aliases, topic routes (tailoring, stress test/SCB, GSIB, AOCI re-proposal, large-bank deposit costs/CRE reserves/NII), cc rules (NDFI at these names BROCK primary; COF/AXP card CARL primary; BK/STT custody LIQUID+GIBBS), do-not-route (HBAN stays REGINALD; foreign-bank US IHCs HANS; KRE/market structure HENRY). Land in ROUTING_CARVEOUTS (single-name seam like WAL/FLG/CRUISE) + ROUTING_TABLE version line + REGISTRY row; RULE 8 owning-doc-first.
+14. **CRUISE miss follow-through:** CIK fix (CCL/RCL/NCLH in fetch_edgar_8k.py) is PROME's DOCKET L707; WALTER's option 2 (surface KNOWN-class capital-structure titles when the owner desk is dark) is an unruled proposal in the 10/14 packet.
 
 ## OPEN DESIGN DECISIONS
 
@@ -78,7 +80,7 @@ Full context/persistence write-back; selected checks, publication, recipient int
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-15T00:42:18Z",
+  "as_of": "2026-10-15T01:18:18Z",
   "publication": [
     {
       "commit": "db9485e57d956dc5679c9a90dcffdf45b02a5a42",
@@ -99,17 +101,25 @@ Full context/persistence write-back; selected checks, publication, recipient int
     {
       "commit": "f3e0a06b2bde6118d257aecdb12c65291024d434",
       "state": "published"
+    },
+    {
+      "commit": "9524ee618",
+      "state": "published"
+    },
+    {
+      "commit": "28b29bfad",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261014",
-    "total": 106,
-    "delivered": 106,
-    "note": "51 morning + 55 evening handoffs; evening 55 reconciled to delivered after other sessions pushed the train. Owner integration separate."
+    "total": 119,
+    "delivered": 119,
+    "note": "51 morning + 68 evening handoffs, all on origin after other sessions pushed the train; delivery_log reconciled. Owner integration separate."
   },
   "push": {
     "all_walter_commits_on_origin": true,
-    "note": "Evening commits carried to origin by other sessions' safe-push; walter-dc did not self-push (foreign staged/dirty work). This light-closeout commit follows and rides the next push."
+    "note": "All evening WALTER commits through 28b29bfad (Iran sweep) on origin via other sessions' pushes; walter-dc did not self-push (foreign dirty work). This re-run commit rides the next push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -138,15 +148,15 @@ Full context/persistence write-back; selected checks, publication, recipient int
   },
   "owed": [
     "RED-FT-10: CBOE 10/14 SKEW bar unpublished at 00:40Z; re-pull at next boot",
-    "Iran anchor full re-verify due 2026-10-15 (GFS Pride sinking is a ladder trigger)",
     "CoreWeave 2032 notes level awaits owner TRACE/primary confirmation",
     "Boot-basis USER.md hash and Oct12 READS attestation still REVIEW",
-    "Existing intake-body/diesel/insurer/design duties retained in FOLLOW-UP"
+    "Existing intake-body/diesel/insurer/design duties retained in FOLLOW-UP",
+    "GIBBS routing lane before 2026-10-19"
   ],
   "next_review": "2026-10-15",
   "procedure": {
     "tier": "light",
-    "scope": "Evening routing persistence: STATUS lead/market rows, LAST_COMPLETION restart/follow-ups/receipt, SESSION_LOG breadcrumb; full deferred",
+    "scope": "Evening routing + Iran full re-verify persistence: STATUS, LAST_COMPLETION, SESSION_LOG; full deferred",
     "claim": "Boot PARTIAL; bounded market refresh; no full market clearance"
   },
   "manual_duties": {

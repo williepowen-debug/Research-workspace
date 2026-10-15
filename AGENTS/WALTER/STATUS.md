@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-15T00:41:30Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing; light-closeout. BOARD **1421**; October14 evening -015..-027 (13 signals: 1 IMMEDIATE/11 PRIORITY/1 ROUTINE, 55 handoffs). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
+**Updated:** 2026-10-15T01:18:18Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing + Will-directed Iran full re-verify; light-closeout re-run. BOARD **1426**; October14 evening -015..-032 (18 signals, 68 handoffs). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
 Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY final power-contract report audited and its exact handoff filed on the14:49EDT restart; named service/payment/allocation gaps remain. Evening: inbox drained (BOND, LIQUID x2, RED routed as -015..-017, -023); the day's new risk content is AI-infrastructure credit (-018) on a hot-CPI, worst-S&P-day-since-7/29 session; RED-FT-10 SKEW 4th close awaits the CBOE publisher file. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
 
-Evening 2026-10-15T00:41:30Z: X token re-authorized (HTTP400 refresh fixed); 18 bookmarks + 13 intake items + 4 owner packets (BOND, LIQUID x2, RED) routed, batches BM-20261015-01/-02 CLOSED. Live per ListAgents 00:12Z: PROME, RED, NEXUS, DAEDALUS; others UNKNOWN. RED-FT-10: CBOE file still ends 10/13 (3 of 4) at 00:40Z; vendor 10/14 157.30 provisional. Iran full re-verify owed 10/15 (GFS Pride sinking is a ladder trigger).
+Evening 2026-10-15T00:41:30Z: X token re-authorized (HTTP400 refresh fixed); 18 bookmarks + 13 intake items + 4 owner packets (BOND, LIQUID x2, RED) routed, batches BM-20261015-01/-02 CLOSED. Live per ListAgents 00:12Z: PROME, RED, NEXUS, DAEDALUS; others UNKNOWN. RED-FT-10: CBOE file still ends 10/13 (3 of 4) at 00:40Z; vendor 10/14 157.30 provisional. Iran FULL re-verify done 2026-10-15 ~01:15Z (-032; anchor next ~10/22); FALCON dark with 7-day review overdue, doorbelled to PROME.
 
 ## DATED MARKET OBSERVATIONS — bounded refresh October15 00:10–00:40Z; unchanged rows retain prior dates
 

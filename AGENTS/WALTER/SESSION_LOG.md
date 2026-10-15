@@ -1,3 +1,6 @@
+# 2026-10-15T01:18:18Z — walter-dc Iran full re-verify + second inbox drain / light-closeout re-run — full deferred
+Iran FULL sweep done (3 Opus legs; anchor last-full 2026-10-15, next ~10-22; -031/-032); FALCON doorbelled. CRUISE miss MISSED-structural (-028), OTTO -029/-030, GIBBS lane deferred to before 10/19. Evidence research/2026-10-14_iran-full-sweep, research/2026-10-14_evening-routing.
+
 # 2026-10-15T00:42:18Z — walter-dc Will-launched evening boot + routing / light-closeout — full deferred
 Claude Code/Opus 5.5. X token re-authorized; 18 bookmarks, 13 intake, 4 owner packets routed as -015..-027 (1 IMMEDIATE -018 AI-infra credit), 55 handoffs on origin. BM-20261015-01/-02 CLOSED. SKEW 4th close pending CBOE; Iran full sweep owed 10/15. Evidence research/2026-10-14_evening-routing; duties LAST_COMPLETION.
 
