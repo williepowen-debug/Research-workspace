@@ -86,7 +86,7 @@
 - 🟠 **`VX-CRU-02` re-spec:** a fuel-LEVEL band on a vector whose channel is dead keeps printing RED. Re-label as a cost observation or band it on fuel-to-EPS transmission — **not done**.
 - 🟠 **`TRADE.md` row 1** (NCLH) cites the 9/19 funding model (**$695M revolver draw**), now superseded in part by the refinancing; dated note added 10/14, **full re-read owed**. Both rows remain WATCH, no card.
 - 🟠 **Carried from 10/2, still deferred:** PROME 9/22 NCLH asks (Canadian exposure, 2027 hedge coverage) · Med/Europe "reversal" (call-only) · no live fare series · Port Canaveral board attachments · `FL-CRU-10` caveats (Caribbean concentration unmeasured; Truist read through one wire story).
-- 🟠 **CRUISE's WQ-295 R3 WATCH_FOR set** (packeted 10/2) is **not in `newsweep_config.py`** as of 10/14 — landing is PROME's (DOCKET L565). Not chased beyond the PROME packet.
+- ✅ **PROME answered all three asks 10/14 ~20:5x ET, each verified at the artifact by CRUISE:** ① **DOCKET L452 RESOLVED** on KB-CRU-149 (`46569038c`), not re-dated. ② **WQ-427 registered** — retire `TRADE.md` row 2 (CCL WATCH), PROME concurs, **needed-by 10/21**; **CRUISE records Will's ruling (root rule #10).** ③ **`WATCH_FOR["CRUISE"]` LANDED** — the seven 10/2 phrases, identical in the live lane (`~/Research-Intake` `4a16fb0`) and the FORGE mirror (`4518cacc6`); both configs load and agree.
 - ⚪ **Not re-read this session:** CARL, FALCON, BRENT, HAWK surfaces; RCL/NCLH sell-side beyond headlines (Jefferies upgraded RCL 10/8 on 2027 yields; BNP cut NCLH's target $18 → $15 10/8; Citi $22 → $19 10/2 — **headline-level only**).
 - ✅ Read-cap: rotated 10/14.
 
