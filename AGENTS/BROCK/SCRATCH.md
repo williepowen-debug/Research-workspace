@@ -1,9 +1,10 @@
-# BROCK SCRATCH — closed October14
+# BROCK SCRATCH — 2026-10-15 (PROME due-row wake, prome-06)
 
-Will requested “Okay lets close out here.” Research stopped; same session, no new owner or helper. STATUS owns obligations. Final receipt: `research/2026-10-14_followup/closeout.json`; dated PROME delivery: `PROME/inbox/2026-10-14_from-BROCK_final-closeout.md`.
+L651 GRADED: a seventh CRMT bridge, STD → Thu 10/22 (8-K 0001171843-26-006667, KB-BRK-343). L586 CLOSED SILENT (KB-BRK-344). Inbox drained 21/21; inbox empty at close. STATUS owns obligations.
 
-Resume with CRMT October15 after16:30ET/October16AM; silence never grades an outcome. October16 bank/CABO reads and October21 CRMT backstop remain. Reuse completed FSK work; next issuer event November5.
+Next-boot first moves:
+1. Fri 10/16: CABO MBI backstop read (L653). Full CIK 1632127 feed; the Graham 13D/A of 10/14 is context only (KB-BRK-345). Also MTB/CFG for BRK-31 (frozen frame; GIBBS shares JPM/WFC/C as ONE figure, first GIBBS session Mon 10/19).
+2. Thu 10/22 after ~16:30 ET: CRMT seventh-bridge STD. Backstops: Wed 10/21 (#4, other agreements only) and Wed 10/28 (#5). The SEC JSON clock is unreliable (+4h on 10/9, correct on 10/15): take times from the index page.
+3. ~10/23–10/27: OCIC Q3 final (R2 (b)) · OTIC Q3 final (recorded under the now-LIVE GATE-BRK-OTIC, never graded).
 
-BRK32 remains STUCK: March31 weights, original forecast/distribution and scoring accountability preserved; PROME/Will disposition required before retirement/amendment. Five historical/May CCLFX offers kept separate, outcomes UNKNOWN after the bounded search; next useful September30,2026 semiannual report on publication. Medallia public rows match at49.5¢; private rights unknown, hunt deferred. No new thresholds, trades or probabilities.
-
-Fresh fetch confirmed correction c95847c8a/e963d98ce, CATO04355d97e and followup44b8237bd on origin. Final closeout2eebe1e2c/50006b90c are CONFIRMED on origin by fresh fetch/ancestry. LIQUID’s shared push carried them before Will’s later specific approval; incident/rejection history retained in closeout.json. No new export of the unrelated local-only incident train. Recipient consumption remains UNKNOWN without acknowledgment. Preserve all other desks’ edits/staging.
+Thread notes: RED has my BRK-26 pre-data statement (the letter governs; mechanism miss written beside any grade). If RED wants the letter narrowed, that goes to Will via PROME. VULCAN: one line back only if the Firmus private round prices as private credit.

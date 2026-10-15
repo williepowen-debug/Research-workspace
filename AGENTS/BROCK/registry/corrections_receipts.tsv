@@ -8,3 +8,6 @@ receipt_date	correction_id	action	note
 2026-10-09T14:01Z	COR-20261007-12	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-319; validation_ref=NONE; scope=KB-BRK-319 source cell carries the corrected metadata 0.80 reports - conf B3 - no grade rests on it; 
 2026-10-14T18:18Z	COR-20261012-23	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-336; validation_ref=AGENTS/BROCK/research/2026-10-14_wave/intake_dispositions.md#COR-20261012-23; Historical corporate maturity inference corrected with original warehouse ABS repayment caveat
 2026-10-14T18:18Z	COR-20261012-25	NO-OP	scope=BROCK has no current owned FHA causal wedge or kill metric and preserves the dated historical weighting caveat;
+2026-10-15T20:58Z	COR-20261015-05	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-346; validation_ref=NONE; 
+2026-10-15T20:58Z	COR-20261015-15	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-347; validation_ref=NONE; 
+2026-10-15T20:58Z	COR-20261014-33	NO-OP	scope=BROCK never carried the -030 every-securitization headline, board_log disposition info-only; 

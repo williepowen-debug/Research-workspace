@@ -1,6 +1,6 @@
 # GATE-BRK-OTIC — DRAFT gate letter (PRE-DATA) · Blue Owl Technology Income Corp.
 
-**Status:** DRAFT · NOT REGISTERED · NOT LIVE. A threshold is Will's; this letter becomes a gate only on his word through a fresh WQ row, after which PROME writes the GATES row. Nothing here touches GATE-BRK-R2.
+**Status (updated 2026-10-15, status line only — body unchanged from 813f0fe1a):** ✅ **REGISTERED · LIVE** — WQ-403 APPROVE, Will's Decision Deck tap 2026-10-15 (record `PROME/proposals/2026-10-15_deck-batch-16-RULED.md`); GATES row **`GATE-BRK-OTIC`** (owner BROCK, JUDGEMENT, review 2027-04-30), read against this letter by BROCK 2026-10-15: no misread found. Nothing graded before Q4-2026. *Original status, superseded:* DRAFT · NOT REGISTERED · NOT LIVE. A threshold is Will's; this letter becomes a gate only on his word through a fresh WQ row, after which PROME writes the GATES row. Nothing here touches GATE-BRK-R2.
 **Author:** BROCK · **Drafted:** 2026-10-09 Fri ~10:05 ET (from `date`) · **Commissioned by:** WQ-370 RULED (Will, Decision Deck 2026-10-09 03:30:34Z: *"okay so lets do a new gate?  I still want this tracked,"*), PROME packet `inbox/2026-10-09_from-PROME_WQ-370-RULED-decline-population-draft-OTIC-gate.md` · DOCKET L649.
 **Frozen as of:** this file's first commit (the sha is given in the delivery packet; `git log -- <this path>` shows it). Any later edit before Will's word is a new draft and must say so in its own header.
 

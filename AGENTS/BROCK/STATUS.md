@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-14 Wed 16:13 ET — Will-requested closeout. Research stopped; continuity → CURRENT catch-up; handoff → `research/2026-10-14_followup/closeout.json`.
+**Updated:** 2026-10-15 Thu 16:58 ET — PROME due-row wake: **L651 GRADED, SEVENTH CRMT bridge → 10/22** · L586 SILENT · drain 21/21. Narrative → CURRENT catch-up.
 
 ---
 
@@ -9,10 +9,10 @@
 
 | When | Item | Read rule / owner |
 |---|---|---|
-| **Thu 10/15** (read ~16:30 ET or 10/16 AM) | **CRMT SIXTH-bridge STD** — L585 graded10/9; 10/14 preparation confirms latest filed bridge through10/15 (KB335) | Full feed `CIK0000799850`, every form type, document text; acceptance time from the EDGAR INDEX page (JSON clock +4h again on 10/9). Silence on the day grades nothing |
-| Thu 10/15 · Wed 10/21 | CRMT Item 1.01 backstop **L586** (≤10/8 — the bridge-6 agreement HAS filed; live only for some OTHER agreement) · **backstop #4 Wed 10/21** for any agreement dated ≤10/15 (CATALYSTS). Mon 10/12 Columbus Day, INFERRED EDGAR-closed | silence narrows, never grades "no extension" |
-| **Tue 10/13** (backstop Fri 10/16) | **Cable One (CABO) MBI close** was due Fri 10/9 — **NO newer filing at 10/14 feed capture**; close outcome UNDISCLOSED (KB-BRK-337) | Full CABO feed; who writes the new money? |
-| **10/16 → 10/22** | **BRK-31**: 10/14 JPM/WFC/C release reads show no qualifying fire; attribution **INSUFFICIENT**, final filings + JPM/WFC calls pending. Frozen frame unchanged; Q3 cannot resolve FALSE | `research/2026-10-14_wave/bank_Q3_read.md`; REGINALD CFG baseline reconciliation pending |
+| **Thu 10/22** (read ~16:30 ET or 10/23 AM) | **CRMT SEVENTH-bridge STD** — L651 GRADED 10/15, KB-BRK-343 | Full feed `CIK0000799850`, every form type, document text; acceptance time from the INDEX page (JSON clock unreliable). Silence on the day grades nothing |
+| Wed 10/21 · Wed 10/28 | CRMT Item 1.01 **backstop #4 (L652) 10/21** (≤10/15 — bridge-7 agreement HAS filed; live only for some OTHER) · **#5 10/28** (≤10/22). L586 CLOSED SILENT 10/15 (KB-BRK-344) | silence narrows, never grades "no extension" |
+| **Tue 10/13** (backstop Fri 10/16) | **Cable One (CABO) MBI close** was due Fri 10/9 — **NO newer filing at 10/14 feed capture**; close outcome UNDISCLOSED (KB-BRK-337). 10/14 21:55 ET 13D/A: D. Graham (6.88%) intends to sell, ~78K sh sold 10/13–14 (KB-BRK-345) | Full CABO feed; who writes the new money? |
+| **10/16 → 10/22** | **BRK-31**: 10/14 JPM/WFC/C release reads show no qualifying fire; attribution **INSUFFICIENT**, final filings + JPM/WFC calls pending. Frozen frame unchanged; Q3 cannot resolve FALSE | `research/2026-10-14_wave/bank_Q3_read.md`; REGINALD CFG baseline reconciliation pending. **GIBBS (WQ-426): JPM/WFC/C NDFI = MY frozen frame, ONE figure; other 13 = GIBBS's, sent to me first; primary decides** |
 | **Thu 11/05 BMO; call09:00** | **FSK Q3 cash/PIK + Kellermeyer marks / actual collateral contribution / funded lender shares** (issuer10/8, KB334) | `research/2026-10-14_wave/FSK_cash_collateral_lenders.md` |
 | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — LIQUID/RED own the count; HY **315 [FRED 10/8]** (303 10/6 · 309 10/7), 1.6% under 320. **My watch: CCC/BB 6.454 [FRED 10/8]** (6.562 10/6 · 6.503 10/7) — HY WIDENING 303→315 while CCC/BB FELL: CCC +3.1% (12.14→12.52) vs BB +4.9% (1.85→1.94); FORUM W3 "≤5.93 ×2 obs" (grades 11/30) not met | MY signal only if CCC/BB turns UP DURING a widening — 10/6→10/8: widening, ratio DOWN ⇒ not met (X1 test (b) needs both) |
 | Thu 10/22 · ~late Oct · 10/31 · ~11/3–11/5 | BX Q3 (verified) · **OCIC Q3 final** grades R2 **(b) only** ((a) fired 10/2; ~30% > 25) · **North Haven Q3 final ~11/05** grades R2 (b) (prelim 43.8%; (a) fired 9/25) · **GATE-BRK-R2 review 10/31** · APO Q3 (EST.) | R2: (a) on the first issuer-stated figure (any form type — watch 8-K 7.01 letters), (b) on the FINAL |
@@ -21,10 +21,10 @@
 | 11/30 · ~12/03 | **BRK-32 STUCK** (March31 weights FROZEN; prior RED disposition recovered, amendment unresolved) · **BCRED Q4 tender letter** (R2 (a) already FIRED ×2; a 3rd ~50% at BCRED would make it a third vehicle) | — |
 | 12/31 | **BRK-25** (count 2) · **BRK-26** (55%) resolve | EXIT §4 |
 | next VX review | **Duration red rung carries no sustain count** — flagged 9/25, not re-spec'd | VX-BRK-020; spec change = Will |
-| Will | ~~WQ-370 OTIC population~~ ✅ **RULED 10/9: DECLINED (my rec) + a NEW standalone OTIC gate commissioned** — letter DRAFTED pre-data 10/9 (`research/2026-10-09_GATE-BRK-OTIC_draft-letter.md`), returned to PROME for a FRESH WQ row; must reach Will before OTIC's Q3 final ~10/23 · R2 population UNCHANGED · **W1 strict-vs-functional** (my leg NOT FOUND, KB-BRK-313) · ~~WQ-363~~ ✅ RULED APPROVE 10/3 (X1 "sustained" = 3 consecutive HY readings >280.0; LIQUID encodes) | PROME registered; not mine to rule |
+| Will | ✅ **GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)** — GATES row read vs letter 813f0fe1a: no misread. Leg R >45.0% / Leg S structural; graded from Q4-2026; Q3 FINAL ~10/23 recorded never graded; review 2027-04-30 · WQ-364: opacity bloc claim WITHDRAWN, my named NOT-FOUND leg stays (KB-BRK-347) · R2 population UNCHANGED · **W1 strict-vs-functional** (my leg NOT FOUND, KB-BRK-313) · ~~WQ-363~~ ✅ RULED APPROVE 10/3 (X1 "sustained" = 3 consecutive HY readings >280.0; LIQUID encodes) | PROME registered; not mine to rule |
 | PROME | **L587 X1-R** candidate relative instrument (register or decline) | wrapper half stays NOT ARMED meanwhile |
 | **by Fri 10/30** (before R2 review 10/31) | **DAEDALUS 10/8 asks + Radiant court-source gap:** R2 post-fire rule per vehicle (P9 has RESET only) · refresh BDC median NAV discount (exit §2) · search instrument + dated attempt for BRK-11/18/25/26 · VX BRK-013 two coverage metrics · Medallia canonical → REGINALD. Answered 10/9: P1's named six governs R2 | catch-up 2026-10-09 |
-| on Will's ask | **AI-infra financing leg** — SIG-W-20261002-012 Amazon ~$8B chip SPV · **SIG-W-20261008-006** Anthropic: who holds the junior risk ($42B Broadcom convertible · ~$60B syndicate, $18B junior Blackstone-led · DC CMBS) — credit-structure read vs the off-BS AI-debt map | deferred 10/2 + 10/8, not started. EDGAR 10/8: no public Anthropic S-1 found — figures are relays |
+| on Will's ask | **AI-infra financing leg** — SIG-W-20261002-012 Amazon ~$8B chip SPV · **SIG-W-20261008-006** Anthropic: who holds the junior risk ($42B Broadcom convertible · ~$60B syndicate, $18B junior Blackstone-led · DC CMBS) — credit-structure read vs the off-BS AI-debt map | deferred 10/2 + 10/8, not started. EDGAR 10/8: no public Anthropic S-1 found — figures are relays. VULCAN watch: Firmus private round (line back if PC prices it) · Volta $5.0B GPU loan, Apollo $1.5bn order |
 
 **Carried debts — moved here from SCRATCH 2026-10-02** (SCRATCH was not a boot read, so these were invisible at boot; each row keeps its original vintage — **status unverified since that date unless stated**; full text `archive/SCRATCH_PRESPLIT_2026-10-02.md`):
 
@@ -111,4 +111,4 @@
 STEP 2 needs 2 of 3 reversals to override. ① BCRED gate + NA declining — ❌ (first-ever 5% gate; Q3 cap held; 8/28 primary: NA 2.4→2.2% but distribution CUT 10% and NAV −2.23%). ② FSK/OBDC Q2 NA reversing — ❌ (FSK NAV −2.81%, FV/Cost .9171→.9059; OBDC −1.04%). ③ OTF software-exit — ❌ not observed. **⇒ 0/3, substance does not override.** ⚠️ STEP 2 applies only once the literal trigger fires (LIQUID two-close kill governs; BROCK ten-session observable authorises nothing).
 ## BOTTOM LINE
 
-**2026-10-14 — Closed out at Will’s request:** bounded corrections and five-offer source pass complete/published. BRK32 disposition pending; CCLFX outcomes UNKNOWN; private-contract work deferred. CRMT10/15–16 preserved; convergence58/70 and HOLD unchanged.
+**2026-10-15 — Car-Mart's lenders rolled the bridge a SEVENTH time, to Thu 10/22** (8-K filed 10/15 16:05 ET, agreement dated 10/14, wording identical to bridge 6: no deal, no waiver). The 10/8 backstop closed silent. Cable One: no close or financing filing; a 6.88% holder is selling. OTIC gate now LIVE (first graded quarter Q4-2026). Convergence 58/70 and APO HOLD unchanged; $0. *Earlier bottom lines → `catchups/`.*
