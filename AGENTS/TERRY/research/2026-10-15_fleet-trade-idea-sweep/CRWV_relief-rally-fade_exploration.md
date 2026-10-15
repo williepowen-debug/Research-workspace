@@ -6,7 +6,7 @@
 Wait for a relief rally in CRWV while its credit does NOT recover, then buy a defined-risk Jan put spread. The edge claimed is a DIVERGENCE (equity bouncing against unrepaired credit), not the direction. ⚠️ construction rule #15: a price-rally gate opens as the market disagrees more with the bear thesis — the credit leg is what carries thesis information; never read a fire as "the thesis is working."
 
 ## Facts (screening, vendor)
-- CRWV $62.88–63.13 (11:29–11:31 ET); −28.7% / 10 sessions; −55.5% from 1y closing high $141.74 (2025-10-16); 1y closing low $60.82 (2026-07-29). 10/14 −15.46% on 108.5M sh vs ~29.8M 60-day avg.
+- CRWV $62.88–63.13 (11:29–11:31 ET); −28.7% = the 11:29 INTRADAY price vs the 10/1 close (⚠️ corrected 12:4x ET on VULCAN's flag: on CLOSES the strict 10-session move is −24.5% [9/30→10/14], peak-to-trough −28.3% [10/06→10/14]); −55.5% from 1y closing high $141.74 (2025-10-16); 1y closing low $60.82 (2026-07-29). 10/14 −15.46% on 108.5M sh vs ~29.8M 60-day avg.
 - Credit (LIQUID via WALTER SIG-W-20261015-005): 2032 notes 77.03 / YTW 15.83% [10/14, HYG fund-eval]; DTCC 5Y CDS model ~1,059–1,120bp [10/14] vs ~840 [10/7]; LIQUID tool `crwv_cds_grade.py` is not ISDA (~7–8bp low).
 - Vol: Dec-18 puts IV ~74–89%, Jan-15 ~70–88%; realized RV20 78.2% / RV60 102.0% / RV250 94.5% (n=251) ⇒ not rich vs own history.
 - Q3 print date NOT ANNOUNCED (CoreWeave announced Q2 on 7/27 for 8/11; third-party estimates Nov 5–16 / Nov 9 — unverified). Known print reactions: 2025-11-11 −16.3%, 2026-08-12 +19.3% (n=2). Any Dec/Jan expiry spans it.
