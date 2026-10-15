@@ -1,0 +1,42 @@
+# Last-mile wiring plan — PROME, written 2026-10-15 14:41 ET (prome-81, desktop)
+
+**Why this file exists.** Will, 14:38 ET: "I would like to focus on working on these improvements after we reboot." The analysis below was produced in chat after the midday closeout and would otherwise not survive the reboot. It is the entry point for the next PROME sessions. Companion: the load evaluation in `PROME/reports/2026-10-15_midday-standard-closeout.md` § Load evaluation (nine items, ranked by cost). An outside review agent (relayed by Will, three replies 13:5x–14:3x ET) concurred and added the WIRED/OBSERVED distinction, the L688 priority and the "don't over-engineer" caution; its text is not on disk, its conclusions are folded in here.
+
+## The diagnosis in one paragraph
+Today's five record defects (two-cell done rows ×21, the § OPEN header displaced under new rows, two orchestration-log rows merged + a blank line, a dashboard projection field, an explainer grammar) were all hand-written entries into machine-read formats, all found hours later by closeout checkers. The system is strong at DETECTION and weak at GENERATION (producing the record correctly in the first place). Then a worse fact: a validated writer for the orchestration log ALREADY EXISTS — `scripts/orch_log.py append` (DAEDALUS, 9/3, atomic append, 13-column validation, `check`, 20-drill `--selftest`) — and PROME typed rows by hand on 10/15 because no procedure routes to it: DOCKET L262 was RESOLVED 9/4 with text naming the writer as canonical, SYSTEM.md lists it, and CLOSEOUT.md / BOOT.md / ORCHESTRATION_PLAYBOOK.md never got the sentence (`git log -S"orch_log.py"` on those files: nothing). Nor does `prome_gate closeout` run `orch_log.py check` (it would have flagged today's rows mechanically). The general form: every transfer has a SENDER-side marker a checker tests (filed · RESOLVED · delivered · written); only the packet lane has a RECEIVER-side marker (consumed). Tools have no "invoked by" and messages no "quoted from", so delivery reads as adoption. The fleet memory `finding_transfer_completes_only_when_the_receiver_encodes` (9/9) already says this; it was preserved and not applied.
+
+Two consequential errors today were NOT of the structural class and writers do not touch them: (a) PROME told Will WQ-365 "may become armable tomorrow" after re-deriving status from the row's CONDITION cells and the day's price while the REC cell said NOT ARMABLE (the kill had printed 10/2–10/6 inside the window — a window property, not recomputable from today's price); (b) the boot report alarmed on QQQ 740P ×3 from the 10/14 mirror without its vintage, when the 10/15 capture showed them sold. Both: a message composed from a derived cell while the authoritative cell sat one column away.
+
+## Completion vocabulary — add two states
+`IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED` (WQ-229) gain: **WIRED** = the operational entry point (manual step / runner / gate) routes to the tool AND the displaced manual action is named and removed; **OBSERVED** = an instrument shows at least one ordinary workflow used it (for `orch_log.py`: the in-flight view `PROME/state/ORCH_INFLIGHT.md` is regenerated as the writer's last step, so a ledger whose newest row postdates the view's stamp was appended by hand — one gate line). A tool is not complete at a docket RESOLVED or a registry row.
+
+## The five steps, in order (process ceiling: ONE process change per session; Friday's due-row wakes still run first)
+| # | Step | Row | Acceptance (WQ-229: written before the edit) |
+|---|---|---|---|
+| 1 | Wire `scripts/orch_log.py append` + `check` | DOCKET L733 (10/16) | CLOSEOUT step 8 RUN-LOG line, the spawn step and the WQ-249 enumeration say `orch_log.py append`; the hand-append wording is removed from the manuals and both runners; `prome_gate closeout` runs `orch_log.py check` as BLOCKING plus the OBSERVED stamp check; a closeout then runs with zero hand-typed rows |
+| 2 | Fix L688: unknown broker as-of renders UNKNOWN, never the receipt date | DOCKET L688 (open) | `will_brief.parse_money` and `desk_attention` label stale/UNKNOWN explicitly; a fixture with a missing as-of renders "UNKNOWN", not today's date; then the rule "position lines in Will-facing messages are the generator's rendering, pasted whole" goes into BOOT step 8 |
+| 3 | Verdict-first form for any message about a decision row | WQ-443 (Will's word) | a one-line command prints a row's status token + rec cell + last ledger verdict verbatim; that line opens any ⚖️ block or sentence about the row; PROME's re-derivation, if any, is labelled as PROME's below it; a lint flags WQ-NNN mentions in HEARTBEAT/SCRATCH/BRIEF/HANDBOOK lacking the row's current token (guardrail, not a substitute for judgment) |
+| 4 | Done-row and register-row writers | DOCKET L734 (10/21) | each validates by round trip through `decision_deck.parse_decided` / `parse_open` (the three queue parsers are kept in agreement by `queue_parser_selftest.py`); register-row inserts UNDER the header (the invariant that failed 10/15); consume-tap writes the three-cell done row with Will's note in the `*"…"*` verbatim form; WIRED into BOOT step 3b and the closeout before called complete; OBSERVED via the ledger's event source |
+| 5 | Re-run the tool-adoption census | DOCKET L735 (11/16) | same command as below; classes: deliberately dormant · invoked indirectly · meant for routine use and never adopted; compare with the 10/15 counts |
+
+Deferred pending measurement (not steps): ARGUS cadence (measure its ❌ hit rate on Will-facing content over the last ten closeouts first); HEARTBEAT / memory-index byte budgets (rotate at 85% with the hard cap, or automate the cold move); a small-shell Helm (the page as a few-KB shell, content as a supporting file, so the per-session read before a republish shrinks — supporting files pass through `files` unread); commit-subject folding into the body.
+
+## The 10/15 census (37 tools created since 9/1 under PROME/tools and scripts)
+Named by a manual, runner or agent definition: 15 · invoked only by the gate or another tool: 8 · named by nothing: 14 (5 one-shot migration scripts legitimately retired; 9 standing: `wiring_census.py` — NB a desk guard-wiring census for threshold scripts, not a tool-adoption census; `asmade_audit.py`, `rotation_integrity.py`, `boot_reuse.py`, `session_identity.py`, `desk_activity.py`, `brief_pin_check.py`, `install-claude-hooks.py`, `pipeline_rc_guard.py`). `orch_log.py` itself: SYSTEM.md only. Census command (re-run verbatim at L735):
+```
+python3 - <<'PY'
+import subprocess,os,glob
+tools=sorted(glob.glob('PROME/tools/*.py')+glob.glob('scripts/*.py'))
+git=lambda *a: subprocess.run(['git',*a],capture_output=True,text=True).stdout.strip()
+manuals=['PROME/CLOSEOUT.md','PROME/BOOT.md','PROME/CLOSEOUT_PROCEDURES.md','PROME/ORCHESTRATION_PLAYBOOK.md','PROME/CLAUDE.md','CLAUDE.md','PROME/SYSTEM.md','PROME/GIT_COORDINATION.md']+glob.glob('PROME/.claude/skills/*/SKILL.md')+glob.glob('.claude/agents/*.md')
+mt={m:open(m,errors='ignore').read() for m in manuals if os.path.exists(m)}; code={c:open(c,errors='ignore').read() for c in tools}
+for t in tools:
+    f=git('log','--diff-filter=A','--format=%ad','--date=short','--',t).splitlines()
+    if not f or f[-1]<'2026-09-01': continue
+    n=os.path.basename(t); man=[m for m,x in mt.items() if n in x]; oth=[c for c,x in code.items() if c!=t and n in x]
+    print(f[-1], t, 'MANUAL' if man else '-', 'TOOL/GATE' if oth else '-')
+PY
+```
+
+## Rules this plan respects
+Root Git Protocol (pathspec commits, subject ≤100); the process ceiling (one process change per session, domain rows first); WQ-229 (acceptance before edit; neighbours considered; completion note with the states above); WQ-178/L511 review budget; the Deck/Helm publication rulings WQ-382 (a)/(b); WQ-226 (ARGUS) unchanged until measured. Anything that changes what a rule MEANS, or how PROME speaks to Will (step 3), goes to Will as a row first.
