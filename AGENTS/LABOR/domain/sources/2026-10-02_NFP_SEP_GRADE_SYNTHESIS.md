@@ -1,5 +1,5 @@
 # NFP September 2026: synthesis (COMPLETION_SPEC rule 6)
-**Written:** 2026-10-02 · LABOR · Primary: BLS USDL-26-1549 (10/2 08:30 ET). Raw: `2026-10-02_USDL-26-1549_empsit_sep2026.txt` (same dir). Grade: `docket/GRADING_CARD_20261002_NFP.md` §8.
+**Written:** 2026-10-02 · LABOR · Primary: BLS USDL-26-1549 (10/2 08:30 ET). Raw: `2026-10-02_USDL-26-1549_empsit_sep2026.txt` (same dir). Grade: `docket/graded/GRADING_CARD_20261002_NFP.md` §8.
 
 **The five things that matter:**
 1. **Hiring stalled, but nothing shows firing.** NFP +29K. Jul revised to −10K and Aug to +133K (net −60K). Revised 3-mo avg `152/3 = 50.7K`. Claims are 197K (DOL 10/1). Low-hire, low-fire is still the regime, and the payroll side weakened further.
