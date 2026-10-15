@@ -1,0 +1,80 @@
+# WQ-425 evidence — computations behind MGMT-OZK40P-NOV20 and MGMT-WAL65P-DEC18
+# run 2026-10-14 21:08 EDT; inputs = vendor screening quotes pulled 2026-10-14 20:54-20:55 ET (chain_fetch.py --no-cache), spot = 10/14 closes. SCREENING model figures, not bids.
+
+## base_rates.py (.venv, yfinance)
+OZK bars 2711 first 2016-01-04 last 2026-10-14 last close 44.93
+  5y: windows=1228 n=27 | P(ret<= -11.0% to strike)=13.8% (ex-2023 13.0%) | P(ret<= -12.8% to breakeven)=9.2% (ex-2023 8.0%)
+  10y: windows=2684 n=27 | P(ret<= -11.0% to strike)=13.9% (ex-2023 13.6%) | P(ret<= -12.8% to breakeven)=9.2% (ex-2023 8.7%)
+  realized vol 21d = 25.8%
+  realized vol 63d = 20.6%
+WAL bars 2711 first 2016-01-04 last 2026-10-14 last close 72.22
+  5y: windows=1209 n=46 | P(ret<= -10.0% to strike)=23.5% (ex-2023 21.7%) | P(ret<= -12.4% to breakeven)=19.0% (ex-2023 17.2%)
+  10y: windows=2665 n=46 | P(ret<= -10.0% to strike)=16.8% (ex-2023 15.4%) | P(ret<= -12.4% to breakeven)=13.7% (ex-2023 12.4%)
+  realized vol 21d = 22.2%
+  realized vol 63d = 22.5%
+KRE bars 2711 first 2016-01-04 last 2026-10-14 last close 68.54
+  5y: windows=1225 n=30 | P(ret<= -2.2% to strike)=38.7% (ex-2023 36.5%) | P(ret<= -4.1% to breakeven)=32.6% (ex-2023 29.2%)
+  10y: windows=2681 n=30 | P(ret<= -2.2% to strike)=32.9% (ex-2023 31.5%) | P(ret<= -4.1% to breakeven)=26.6% (ex-2023 24.6%)
+  realized vol 21d = 14.6%
+  realized vol 63d = 14.5%
+
+## scen.py
+== event-implied one-day print move (term structure, ATM puts, vendor mids) ==
+OZK Nov20/Jan15 45P: ['0.301', '0.041']
+WAL Nov20/Dec18 72.5P: ['0.335', '0.092']
+WAL Nov20/Mar19 72.5P: ['0.344', '0.088']
+WAL Dec18/Jan15 72.5P: ['0.312', '0.105']
+OZK realized RMS 4.58% mean|m| 3.10%
+WAL realized RMS 4.30% mean|m| 3.43%
+
+== pre-print implied P(below strike at expiry), vendor mid IV ==
+OZK 40P Nov20 IV39.16: 0.192  IV from mid0.40: 0.370 bid0.30: 0.338
+WAL 65P Dec18 IV43.92: 0.317
+
+== OZK 40P Nov20 x4: value after the 10/20 AMC print (10/21 close, 30 cal days left), model MID per contract ==
+ postIV 32%: [(-20, 4.149), (-15, 2.421), (-12, 1.624), (-10, 1.202), (-8.93, 1.012), (-6.89, 0.713), (-4.47, 0.452), (-3, 0.337), (-2.06, 0.276), (-1.26, 0.233), (0, 0.176), (0.06, 0.173), (0.1, 0.172), (0.25, 0.166), (3, 0.086), (9.7, 0.014)]
+ postIV 36%: [(-20, 4.247), (-15, 2.583), (-12, 1.804), (-10, 1.384), (-8.93, 1.19), (-6.89, 0.878), (-4.47, 0.594), (-3, 0.462), (-2.06, 0.391), (-1.26, 0.338), (0, 0.267), (0.06, 0.264), (0.1, 0.262), (0.25, 0.254), (3, 0.147), (9.7, 0.033)]
+ E[mid] over OZK's 8 prints, postIV 32%: $0.275/contract = $110 x4
+ E[mid] over OZK's 8 prints, postIV 36%: $0.377/contract = $151 x4
+ pre-print now: bid 0.30 / mid 0.40 => $120 / $160 x4
+
+== WAL 65P Dec18 x4: value after the 10/19 AMC print (10/20 close, 59 cal days left), model MID per contract ==
+ postIV 36%: [(-20, 7.925), (-15, 5.451), (-12, 4.233), (-10, 3.533), (-8.93, 3.195), (-5.14, 2.19), (-3.98, 1.938), (0, 1.245), (0.69, 1.149), (0.71, 1.147), (1.16, 1.088), (3.24, 0.847), (3.61, 0.809), (5, 0.681)]
+ postIV 40%: [(-20, 8.224), (-15, 5.832), (-12, 4.64), (-10, 3.947), (-8.93, 3.609), (-5.14, 2.585), (-3.98, 2.322), (0, 1.579), (0.69, 1.473), (0.71, 1.47), (1.16, 1.405), (3.24, 1.132), (3.61, 1.089), (5, 0.938)]
+ E[mid] over WAL's 8 prints, postIV 36%: $1.545/contract = $618 x4
+ E[mid] over WAL's 8 prints, postIV 40%: $1.886/contract = $754 x4
+ pre-print now: bid 1.70 / mid 1.98 => $680 / $790 x4
+
+== no-move carry to the print (event premium intact, IV unchanged) ==
+ OZK 40P now(37d,39.16%) 0.469 -> 10/20 close (31d, same IV) 0.366
+ WAL 65P now(65d,43.92%) 2.106 -> 10/19 close (60d, same IV) 1.954
+
+== roll arithmetic (natural = sell at bid, buy at ask; mid = mid-mid), x4, before fees ==
+ OZK Nov20 40P -> Jan15 40P: natural debit $240, mid debit $170
+ WAL Dec18 65P -> Jan15 65P: natural debit $420, mid debit $190
+ WAL Dec18 65P -> Mar19 65P: natural debit $920, mid debit $710
+
+## like.py (scen.py import echo omitted)
+OZK 40P Nov20 IV(mid)=37.0% IV(bid)=33.8% vendorIV=39.2%
+   mid: P(<strike 40.00)=17.7%  P(<breakeven 39.19)=13.6%
+   vendor: P(<strike 40.00)=19.2%  P(<breakeven 39.19)=15.1%
+WAL 65P Dec18 IV(mid)=42.5% IV(bid)=39.6% vendorIV=43.9%
+   mid: P(<strike 65.00)=31.0%  P(<breakeven 63.29)=25.9%
+   vendor: P(<strike 65.00)=31.7%  P(<breakeven 63.29)=26.8%
+
+## solve.py
+OZK move for post-print mid = now mid 0.40: -3.8% (postIV 32%); = now bid 0.30: -2.4%
+OZK move for post-print mid = now mid 0.40: -2.2% (postIV 36%); = now bid 0.30: -0.6%
+WAL move for post-print mid = now mid 1.975: -4.2% (postIV 36%); = now bid 1.70: -2.8%
+WAL move for post-print mid = now mid 1.975: -3.2% (postIV 38%); = now bid 1.70: -1.8%
+WAL move for post-print mid = now mid 1.975: -2.3% (postIV 40%); = now bid 1.70: -0.7%
+WAL E[mid] postIV 38%: $1.713 -> $685 x4
+ per-print: [(-8.93, 3.4), (-5.14, 2.39), (0.71, 1.31), (-3.98, 2.13), (3.24, 0.99), (1.16, 1.24), (0.69, 1.31), (3.61, 0.95)]
+OZK E[mid] postIV 34%: $0.324 -> $130 x4
+ per-print: [(-4.47, 0.522), (9.7, 0.023), (0.25, 0.208), (0.1, 0.215), (-6.89, 0.795), (0.06, 0.216), (-2.06, 0.332), (-1.26, 0.283)]
+WAL -8.93%: mid@38% $3.40 -> x4 $1361 (vs $790 mid now: +571)
+WAL -12.00%: mid@38% $4.44 -> x4 $1775 (vs $790 mid now: +985)
+WAL -15.00%: mid@38% $5.64 -> x4 $2256 (vs $790 mid now: +1466)
+OZK -6.89%: mid@34% $0.79 -> x4 $318 (vs $160 mid now: +158)
+OZK -10.00%: mid@34% $1.29 -> x4 $517 (vs $160 mid now: +357)
+OZK -15.00%: mid@34% $2.50 -> x4 $1001 (vs $160 mid now: +841)
