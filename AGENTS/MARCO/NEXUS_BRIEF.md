@@ -3,7 +3,7 @@
 **Status:** 🟠 **v3.2** (unchanged s32). 🆕 **s32 (10/14) = catch-up of every print that lapsed while dark — no thesis version move.** **Channel 1's two quantity instruments SPLIT:** remittance re-spec **CONFIRMED** (Aug count 2-yr −11.99%) while **`SDL-01` flipped NORMAL** (Sep foreign-born labor force **+206K YoY**, one print; conviction HELD, November pre-registered). `ENR-02` leg 1 **PASSED** (Sep airfares 2-yr +26.36%). Canada **−28.72%** BREACHED 11th month, `ID-01` leg 1 MET. NTTO Sep −22.40% vs 2019 (widening run broke). LVCVA Aug RevPAR −11.5% (Labor Day-confounded). BTS July all-3 FL airports negative raw — CONFOUNDED.
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag/immigration), internal migration (FL/Sun Belt). FL is the primary geography.
 **Thesis version:** **v3.2** (set s29, Will-ruled 9/24: Channel 4 MED-LOW → LOW). s30–s32 moved no channel. · **Position:** none — theses express downstream via REGINALD (bank/CRE) and CARL (consumer).
-**As of:** 2026-10-14 20:38 ET (session 32 — Will-launched catch-up). **STATUS commit:** `23ee5bdf7`.
+**As of:** 2026-10-14 20:40 ET (session 32 — Will-launched catch-up; re-folded after the DAEDALUS H2 as-made labels on MAR-10/15/25/27/22). **STATUS commit:** `23ee5bdf7`.
 
 ---
 

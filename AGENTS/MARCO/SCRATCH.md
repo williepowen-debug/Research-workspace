@@ -42,7 +42,7 @@
 | ⚠️ Read budgets | STATUS 73% · NEXUS_BRIEF ~73% · MEMORY 74% · charter 32,539 B (11 B headroom — any charter addition must trim first) |
 
 ## Mail state
-**Inbox: 0 unprocessed** (3 top-level → `inbox/processed/`, incl. DAEDALUS 10/14 brief-pin wiring — applied: charter closeout-11 now names `scripts/brief_pin_check.py MARCO` in place of the A10 timestamp test; 1 WALTER → `inbox/WALTER/processed/`, board_log row 2026-10-15T00:24Z).
+**Inbox: 0 unprocessed** (4 top-level, incl. DAEDALUS 10/14 H2 as-made dispositions — APPLIED: MAR-10/15/25/27 labelled `UNRECORDED-AS-MADE`, MAR-22 AS-MADE AUDIT note added; label read as sufficient, no Brier-exclusion contest; DAEDALUS checks by 10/21 — and the 3 earlier → `inbox/processed/`, incl. DAEDALUS 10/14 brief-pin wiring — applied: charter closeout-11 now names `scripts/brief_pin_check.py MARCO` in place of the A10 timestamp test; 1 WALTER → `inbox/WALTER/processed/`, board_log row 2026-10-15T00:24Z).
 **Sent:** PROME (WATCH_FOR adopt/decline) · LABOR (SDL-01 flip + population-control ask).
 
 ## PUSH STATE
