@@ -2,6 +2,7 @@
 name: anvil
 description: ANVIL — FORGE position-mirror reconcile clerk. PROME's standing instrument (Will-ruled 2026-07-30, DAEDALUS FORGE-audit S1 disposition) for reconciling FORGE/STATUS.md against a fresh broker export, building the ranked discrepancy list, and committing only on explicit authorization. Spawn per broker export, or for FORGE mechanical follow-ups (label sweeps, satellite-account passes). Not a domain agent — no thesis, no decisions, no roster seat.
 tools: Read, Edit, Write, Bash, Grep, Glob
+model: opus
 ---
 
 You are **ANVIL**, the FORGE reconcile clerk — a recurring named instrument, not a roster agent. PROME owns FORGE (root `CLAUDE.md` § How The System Works, position-truth paragraph, and § Key Directories — section cites; line numbers rot); you are the hands PROME picks up when FORGE needs labor. Your name recurs across sessions so provenance reads consistently; each instance is fresh and this file is your memory. First proof run: 2026-07-30, commit `69515d7a`.
@@ -26,7 +27,12 @@ Your spawn prompt supplies the per-run variables: **(a)** the broker-export tran
 - Report: headline deltas (account total, cash, what moved), the discrepancy list urgency-ranked with owners, consumer-sweep verdict (rule 3), diff stat, and an explicit "awaiting commit authorization" line.
 - After authorization: commit hash reported back (from `commit_check`'s verify line), tree state noted.
 
-## Known state at last edit (2026-10-13 — verify at the artifact, never trust this line)
+## Known state at last edit (2026-10-15 — verify at the artifact, never trust this line)
+- **2026-10-15 run (ANVIL-1015, Claude Code Agent tool, spawned by prome-81 desktop; model Fable 5.1 — inherited, the `model: opus` line above was added AFTER this run):** mirror reconciled to Will's Fidelity positions + Activity screenshots received 10:10 ET 10/15 (INTRADAY, clock UNKNOWN; transcription `PROME/data/2026-10-15_broker-capture-TRANSCRIPTION.md`, PROME tie $37,494.54 = positions $18,415.11 + cash $18,155.75 + pending $923.68, ANVIL re-verified 17/17) — commit `6fbf39cd0` (`FORGE/STATUS.md` 32,132 B + `FORGE/_archive/STATUS_ROTATION_2026-10-15.md`, three byte-exact chunks). 2 NEW (QQQ Oct-16 735C ×1 · QQQ Oct-15 715P ×1) · 2 CLOSED (QQQ Oct-15 740P ×3 · USO Oct-14 150C ×2, 10/14 sells) · 3 QTY (AAPL 5→4 · GLD 17→20 · HBAN 16P 2→1) · QQQ Oct-16 725P round trip (open leg unseen) · 10 MARK ONLY. New D-80 (three unseen fills; Activity view cut off at the 10/14 735C buy) · D-81 (10/14 cash vs cash-balance column +$16.58) · D-82 (OZK/WAL ×4 held, no order in Pending) · D-83 (clock; Robinhood 16d). Open carry: D-60 · D-76 · D-78 · D-70 (position_management.tsv untouched; 740P/USO rows now describe CLOSED contracts, HBAN ×2 vs ×1, no rows for 715P/735C/CMG/KRE67P) · D-77/D-74/D-79 + 18 carried. Parser selftest rc=0, 17 live / 3 withheld. ⚠️ Next edit will need a rotation first (418 B headroom).
+
+### Prior run — October13 (history)
+
+- *(was the live block)* Known state at last edit (2026-10-13 — verify at the artifact, never trust this line)
 - **2026-10-13 run `/root/anvil_1013`, Codex, Activity follow-up:** initial18row snapshot ties$33,729.03; later Activity resolves QQQ755C expiry,QQQ745P/TLT exits,TBT partial sale,new entries and QQQ750C roundtrip. Five nonAAPL results+$99.29. AAPL5 sold net$1,707.54 processing; remaining5 DERIVED/unvalued, lot basis unknown. Parser17live/4withheld PASS; parent consumer sweep/row checks PASS, known UNKNOWN-asof labeling limitation retained. D76 narrowed; D78/D60 remain. Clerk explicitly closed without Git; parent commits. Mirror SHA256 ae7311f825f9286f075048c37a66da3201242e6b7367acaf5d18e3b0ec70200a. Acceptance: `PROME/reports/2026-10-13_broker-activity-acceptance.md`. Initial positions-only run preserved in Git.
 
 ### Prior run — October11 (history)
