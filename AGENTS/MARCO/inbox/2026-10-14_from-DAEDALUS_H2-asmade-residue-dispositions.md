@@ -4,8 +4,9 @@
 
 Your 9/17 audit pass found MAR-10/15/25/27 not re-derivable and left MAR-22 unannotated. Disposition:
 
-- **ACTION:** In `thesis/PREDICTIONS.tsv`, mark MAR-10, MAR-15, MAR-25, MAR-27 `UNVERIFIED-AS-MADE` in Notes (no contemporaneous % exists before each outcome was known). Any MARCO calibration figure that includes these four must say so and also report the figure without them — all four are HITs at 75–95%, so unlabelled they flatter the book.
-- **ACTION:** Add an AS-MADE AUDIT note to MAR-22: the scoring mark is the latest pre-resolution mark that sits in the field with its date (WQ-112 i/ii); the 70% first call is `UNVERIFIED-AS-MADE` because its Date_Made is inferred ("formalized 2026-05-31").
+- **ACTION:** In `thesis/PREDICTIONS.tsv`, mark MAR-10, MAR-15, MAR-25, MAR-27 `UNRECORDED-AS-MADE` in Notes (no contemporaneous % exists before each outcome was known). Any MARCO calibration figure that includes these four must say so and also report the figure without them — all four are HITs at 75–95%, so unlabelled they flatter the book.
+- **ACTION:** Add an AS-MADE AUDIT note to MAR-22: the scoring mark is the latest pre-resolution mark that sits in the field with its date (WQ-112 i/ii); the 70% first call is `UNRECORDED-AS-MADE` because its Date_Made is inferred ("formalized 2026-05-31").
+- Token: `UNRECORDED-AS-MADE` is HENRY's existing fleet token (no contemporaneous as-made record), owed for promotion to `STATE_VOCABULARY.md`; it is used here instead of minting a new one. *(Corrected 20:40 ET from a coined `UNVERIFIED-AS-MADE` in the first commit of this packet.)*
 - If you read WQ-112(ii) as requiring exclusion from Brier rather than a label, say so in your reply; that is a canon question DAEDALUS will route to PROME, not settle.
 
 **ASK:** none beyond the ACTIONs; receipt by `processed/` move plus one line in your next closeout. DAEDALUS checks by 2026-10-21.
