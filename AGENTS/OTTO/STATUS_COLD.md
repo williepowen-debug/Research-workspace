@@ -447,3 +447,12 @@ split, not an archive. Archives are frozen; this file is maintained alongside `S
 **Swept s028 (2026-10-14) — the Tricolor Counts 7–8 check row (RESOLVED: ECF 149, filed 8/28):**
 
 | **Oct 1** | Tricolor **Counts 7–8 exhaustive securitization list** — CHECK date (event due ~8/28, still UNVERIFIED) | 🟠 `modeled` **OWNER OTTO, checked every session until resolved.** 9/28: SEARCH-NOT-FOUND; PACER unchecked. Civil perimeter already on file (SEC complaint read 8/27: 7 TASTs, double-pledged deal list) — NOT the criminal list |
+
+**Rotated s028 (2026-10-14) on the file review — the Secondary-thesis mirror line (quoted ONE conviction for a claim THESIS split on 8/14), four undated Feb–Mar dashboard rows shown as live red (stale; jobs data is LABOR's), and the OTTO-34 row as it stood:**
+
+**Secondary — "The Invisible Exit":** immigrant subprime cohort skip-defaults bypassing 30→60→90 DQ chain. 🔴 **CRIMINALLY CHARGED Jun 24 2026** — the superseding indictment vs Chu alleges executives *"manipulated delinquent loan data to make non-performing loans appear current."* That is the DQ-chain-bypass mechanism, charged. Previously industrially validated May 21 (30K missing vehicles / Vervent Fresh Start). **Conviction MEDIUM-HIGH → HIGH on mechanism** (canonical `thesis/THESIS.md` **v1.3 now carries this** — the Jul-25 debt is paid). Transmission to broad market still slow, via CNL not DQ.
+| NFP | **-92,000 — FIRST NEGATIVE** | 🔴 |
+| CVNA Extension Rate | 5.41% (+45% spike) | 🔴 |
+| CFPB | **Functionally Dead** | 🔴 |
+| RV Market | **-50% value collapse** | 🔴🔴 |
+| **OTTO-34** | EART 2022-3 CNL ≥29.0% on the Dec-2026 10-D | 🟠 OPEN **60→50% (Aug 3)** — first post-creation measurement: **27.86%** on the 10-D filed **2026-07-30**, delta **+0.28pp** (series .35/.33/.30/.28 — deceleration confirmed, on schedule). Extrapolating the decay over the 5 remaining filings lands **≈28.96%**, i.e. **fractionally UNDER the 29.0% line**. Not a thesis change — the claim was written to straddle, and the straddle resolved marginally unfavourable. Cut on arithmetic, not sentiment. |

@@ -1,6 +1,6 @@
 # OTTO — Agent Instructions
 
-**Version:** 2.7 | **Updated:** 2026-09-12
+**Version:** 2.8 | **Updated:** 2026-10-14 *(s028 file-review bundle, Will-approved in session — `MAINTENANCE.md` 2026-10-14 (b))*
 
 > *Stamp reconciled 2026-09-12 (s022), DAEDALUS profile finding **F-2**: this header read `v2.5 | 2026-06-08` while the footer read `v2.7 | 2026-06-09`, and the file had been edited as recently as 9/2. **The footer's version is the true one** — v2.7 is the WINTERKORN introduction — so the header is moved to it and the date to this session's edit. The 7/4, 8/27 and 9/2 content edits carried no version bump; that is a convention, not a defect. **Structural history is `MAINTENANCE.md`, not this line.** A booting reader takes the header at face value, and two stamps that disagree mean neither can be trusted.*
 
@@ -116,10 +116,10 @@ STATUS.md) — skip the full sweep.
 
 ### INBOX Processing Protocol (when spawned for it)
 1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook + thesis** — check VX.tsv, ML.tsv, FLOW.tsv (workbook) + PREDICTIONS.tsv (thesis) for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
+2. **Cross-reference workbook + thesis** — check `STATUS.md`, `workbook/ML.tsv`, `workbook/PANEL_10D.tsv` + `thesis/PREDICTIONS.tsv` for related vectors, prior research, or transmission mechanics (`VX.tsv` and `FLOW.tsv` are FROZEN: history only, never a current read). Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
-5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
+5. **Reply** (a direct packet to the sender's inbox when it answers THEIR ask; otherwise a `SIG-OTTO-WALTER-*` drop per § How to Signal. `OUTBOX.md` is deprecated) only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
 6. **Mark processed** — move signal file from `inbox/` to `inbox/processed/`
 
 
@@ -141,10 +141,10 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
 1. **Update `STATUS.md`** *(mirror of boot 1)* — signal dashboard, status changes, watchlist,
    and any thesis-level movement (STATUS owns the thesis block until Phase 3). Keep the
    boot-pointer at top current — it's the first thing next boot orients on.
-   **Line-cap: keep STATUS under ~250 lines.** When dated check-in blocks accumulate past
-   that, archive the oldest to `workbook/STATUS_archive_YYYYMMDD.md` (the established
-   pattern — see the existing `STATUS_archive_20260325.md`) and keep only the live
-   dashboard + current-cycle narrative. A 400-line STATUS is rot, not thoroughness.
+   **Byte cap, not line cap (root read-cap rule, 32,550 B):** run
+   `python3 scripts/read_cap_check.py --agent OTTO`. At ≥75% of budget, rotate settled rows,
+   old session pointers and superseded rows VERBATIM into `STATUS_COLD.md` (a new dated §)
+   until under 70%. A line count can read green while the file is over the byte cap.
 1a. **Log thesis pivots to `CHANGELOG.md`** — if OTTO's view moved this session (conviction
    shift, mechanism reframe, case-status escalation, notable prediction-confidence move,
    new transmission row), add a dated **Was → Is + Trigger + Touches** entry. This is the
@@ -185,7 +185,7 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
 7. **Route cross-agent signals via WALTER** — drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into
    `AGENTS/WALTER/inbox/` with proper frontmatter (`to: WALTER (ACTION)`, `info: [target]`). Do
    not write directly into other agents' inboxes.
-7a. **Write-back `NEXUS_BRIEF.md`** — ⚠️ **ORDERING (NEXUS schema Amendment 10, RATIFIED 2026-07-31 Will-approved; propagated to OTTO 8/4, encoded 8/27): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** **Checkable form: the brief's commit timestamp ≥ this session's last STATUS commit timestamp.** *(Why an ORDERING rule and not a reminder: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working — **zero** had skipped the refresh. "Refresh every closeout" cannot fix a brief that is written mid-session and then outrun by the session's own later findings. Objections route to NEXUS, which owns the schema — not PROME.)* — the cross-agent synthesis brief (schema:
+7a. **Write-back `NEXUS_BRIEF.md`** — ⚠️ **ORDERING (NEXUS schema Amendment 10, RATIFIED 2026-07-31 Will-approved; propagated to OTTO 8/4, encoded 8/27): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** **Checkable form (NEXUS Amendment 11, ruled 2026-10-08, supersedes Amendment 10's timestamp comparison): `python3 scripts/brief_pin_check.py OTTO` prints OK, i.e. the brief's pinned `STATUS commit:` hash equals STATUS's last commit.** Commit STATUS first, then pin and commit the brief. *(Why an ORDERING rule and not a reminder: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working — **zero** had skipped the refresh. "Refresh every closeout" cannot fix a brief that is written mid-session and then outrun by the session's own later findings. Objections route to NEXUS, which owns the schema — not PROME.)* — the cross-agent synthesis brief (schema:
    `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Mandatory every session, even no-change** —
    minimum is refreshing the `As of:` stamp + `STATUS commit:` hash so staleness self-corrects.
    Material STATUS change → brief content updates same session. **Protect CROSS-DOMAIN +
@@ -263,7 +263,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
 | `thesis/THESIS.md` | **Canonical versioned thesis (v1.0+).** Primary Cockroach, Secondary Invisible Exit, Carvana sub-thesis carve-out, transmission chain, why-now timing claim, conviction decomposition, risk matrix, predictions pointer, cross-agent links. STATUS § THESIS is a live-state *mirror* — canonical wins on disagreement | Live dashboard metrics (→ STATUS); transient case-status updates (→ STATUS) |
-| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, **live thesis-state mirror** (3-line summary + case-status table; canonical narrative → `thesis/THESIS.md`), CRITICAL TIMELINE, active vectors, lender watchlist. **Cap ~250 lines — archive dated check-in blocks to `workbook/STATUS_archive_YYYYMMDD.md`** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ thesis/CHANGELOG); the durable thesis narrative (→ thesis/THESIS) |
+| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, **live thesis-state mirror** (3-line summary + case-status table; canonical narrative → `thesis/THESIS.md`), CRITICAL TIMELINE, active vectors, lender watchlist. **Root byte cap 32,550 B — rotate verbatim into `STATUS_COLD.md` (closeout step 1)** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ thesis/CHANGELOG); the durable thesis narrative (→ thesis/THESIS) |
 | `thesis/CHANGELOG.md` | Thesis/POV-pivot audit trail (**analytical**) — dated Was→Is + Trigger + Touches for every material view change. The trajectory record STATUS-pruning destroys. *Moved from top-level → thesis/ on 2026-06-09 with thesis/THESIS.md introduction* | Routine dashboard refreshes (→ STATUS); structural changes (→ MAINTENANCE); live state |
 | `MAINTENANCE.md` | **Structural** change-log — docs/folders/scripts/protocol changes (Trigger/What/Files/Boot-impact/Lessons). "Why is OTTO organized this way?" | Analytical/thesis changes (→ CHANGELOG); forward to-do (→ STALE_PUNCHLIST); live state |
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief (locked schema; OTTO=Tier-2 opt-in). VIEW/CALIBRATION/CROSS-DOMAIN/NEXT-DECISION/FORWARD-CATALYSTS. Refreshed every closeout (step 7a) | Restated canonical content (references PREDICTIONS/CHANGELOG/CATALYSTS); P/L or marks |
@@ -275,6 +275,8 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `workbook/FLOW.tsv` | Transmission pathways (trigger → transmission → endpoint → agents) | Current metric values |
 | `workbook/KB.tsv` | Structured KB facts with epistemic + `STALE_BY` tagging (the in-house precedent for the evidence tags) | — |
 | `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | Script-generated monitoring series (fed by `scripts/`) | Hand-authored narrative |
+| `workbook/PANEL_10D.tsv` | **LIVE** 10-D deal panel (9 deals, 3 tiers): 60+ DQ, CNL, ANL, recovery, extension rate, disclosed `collection_period`, issuer `months_seasoned` (Bridgecrest: exhibit-derived). Written ONLY by `scripts/panel_10d.py` | Hand edits; an index or blended average |
+| `workbook/SHELF_ACTIVITY.tsv` | OTTO-07 shelf-halt probe output (`scripts/shelf_halt_monitor.py`), event-driven | — |
 | `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
 | `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and monitoring stubs (`abs_issuance_tracker.py`, `extension_proxy.py` — manual-check placeholders, not live feeds) | — |
 | `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events. **Maintained by WINTERKORN sub-agent** (not edited by OTTO directly during normal sessions; OTTO applies WINTERKORN's flagged-for-OTTO escalations) | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv); live dashboard values |
@@ -300,7 +302,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 |-------|--------------|--------------|
 | **CARL** | Critical | Auto DQ transmission; credit access tightening |
 | **REGINALD** | Critical | Bank warehouse exposure; NDFI concentration |
-| **BROCK** | Critical | BDC exposure ($237M First Brands); CLO stress |
+| **BROCK** | Critical | BDC exposure to First Brands (figures are BROCK's; the old "$237M" is unqualified, do not cite); CLO stress; CRMT financing grades |
 | **LIQUID** | Peer | Funding stress from lender collapses |
 | **MARCO** | Peer | Immigration employment; remittance signals |
 
@@ -313,7 +315,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | Warehouse lender pulls lines broadly | CARL, LIQUID | 🔴 URGENT | 2008 mortgage warehouse freeze |
 | Carvana 10-K delayed or GT resigns | ALL | 🔴 URGENT | Enron/WorldCom auditor issues |
 | ABS downgrade wave (5+ deals/month) | REGINALD | 🟠 ELEVATED | 2007-2008 MBS downgrades |
-| Recovery ratio <28% ⚠️ **PERIMETER NAMED 2026-09-02** — **deep-subprime 10-D panel, deal-level, latest collection month** (NOT the Fitch aggregate, which is ~37% and would never trip). ⛔ **CONDITION IS CURRENTLY MET and this trigger has never fired: EART 2022-2 21.97%, 2022-3 23.52% on the 2026-07 collection month.** CARL already holds these figures in OTTO's 9/2 panel packet, so what is owed is the TRIGGER STATE, not the data | CARL | 🟠 ELEVATED | — |
+| Recovery ratio <28% — **deep-subprime 10-D panel, deal-level, latest collection month** (NOT the Fitch aggregate, ~37%, which would never trip). ✅ **FIRED 2026-09-02** (`SIG-OTTO-WALTER-20260902-002` → WALTER `SIG-W-20260903-007`, info CARL). **Still met at the Aug-2026 collection month** (EART 25.17 / 24.58 / 24.79 / 29.78). Re-fire only when a deal NEWLY crosses or the condition clears; a continuing reading is a level update, not a new firing | CARL | 🟠 ELEVATED | — |
 | Cooperating witness reveals new fraud/participants | CARL, REGINALD | 🟠 ELEVATED | Enron cooperators expanded scope |
 | Subprime origination -30%+ YoY | CARL | 🔴 URGENT | 2008-2009 credit crunch |
 
@@ -472,12 +474,12 @@ same-data-in-two-docs).
 | Metric | 🟡 Yellow | 🟠 Orange | 🔴 Red |
 |--------|-----------|-----------|--------|
 | Known fraud cases | 4 | 5+ | 7+ |
-
-> ⚠️ **Audit the MOOT rules, not just the live ones** (LIQUID KB-LIQ-124, 2026-09-02). A defect inside a rule whose consequence is currently inoperative **generates no evidence of itself** — the only thing that would surface it is the rule being exercised, and the suppressor ends exactly when the rule starts mattering, so **the defect and its first consequence arrive in the same event.** Two were found on this desk the day the rule was written: the routing conflict below, and an unperimetered recovery trigger whose condition was already met. **Quiet is not the same as verified.**
 | Bank losses disclosed | $1.5B | $2B | $3B+ |
 | 60+ DQ rate | >6.5% | >7.0% | >8.0% |
-| Recovery ratio | <35% | <30% | <25% |
+| Recovery ratio (deep-subprime 10-D panel, deal-level, latest collection month) | <35% | <30% | <25% |
 | 2022 vintage CNL | 20% | 25% | 30% |
+
+> ⚠️ **Audit the MOOT rules, not just the live ones** (LIQUID KB-LIQ-124, 2026-09-02). A defect inside a rule whose consequence is currently inoperative **generates no evidence of itself** — the only thing that would surface it is the rule being exercised, and the suppressor ends exactly when the rule starts mattering, so **the defect and its first consequence arrive in the same event.** Two were found on this desk the day the rule was written: the routing conflict below, and an unperimetered recovery trigger whose condition was already met. **Quiet is not the same as verified.**
 
 ---
 
@@ -490,7 +492,7 @@ same-data-in-two-docs).
 | Carvana earnings/disclosure clean + substantive rebuttal | Carvana -40% |
 | DOJ finds fraud limited to named companies | Pattern -30% |
 | No additional lender failures in 6 months | Contagion -25% |
-| Recovery ratio rebounds >35% | Immigration -30% |
+| Recovery ratio rebounds >35% on the deep-subprime 10-D panel (deal-level; NOT the Fitch aggregate, which sits ~37% and would read "met" permanently) | Immigration -30% |
 
 ### What Would Strengthen It
 
@@ -498,7 +500,7 @@ same-data-in-two-docs).
 |-----------|--------|
 | 5th fraud case discovered | Pattern +20% |
 | Bank loss >$500M new disclosure | Magnitude +15% |
-| Recovery ratio <28% | Immigration +15% |
+| Recovery ratio <28% on the deep-subprime 10-D panel (deal-level) — MET since the Jun/Jul-2026 collection months; ⚠️ a LEVEL test, while the Severity-Divergence Test (the falsifier) is a CHANGE test and REFUTED 8/14. Weigh the SDT. | Immigration +15% |
 
 ---
 
@@ -507,7 +509,10 @@ same-data-in-two-docs).
 ```
 AGENTS/OTTO/
 ├── CLAUDE.md           # This file — instructions + domain
-├── STATUS.md           # Live dashboard — signals, watchlists, timeline, thesis-state MIRROR (cap ~250 lines)
+├── STATUS.md           # Live dashboard — signals, watchlists, timeline, thesis-state MIRROR (root byte cap 32,550 B)
+├── STATUS_COLD.md      # Verbatim rotated rows + old session pointers (NOT a boot read; hot STATUS wins)
+├── board_log.tsv       # Inbox consumption log (one row per packet consumed)
+├── registry/corrections_receipts.tsv  # R1 correction receipts (WQ-399 field form)
 ├── MAINTENANCE.md      # Structural change-log — docs/scripts/protocol (why it's built this way)
 ├── NEXUS_BRIEF.md      # Cross-agent synthesis brief (Tier-2 opt-in; refreshed every closeout)
 ├── MEMORY.md           # Cross-session memory (feedback/findings/references)
@@ -524,8 +529,12 @@ AGENTS/OTTO/
 │   ├── boot.py             # Boot orchestrator — price + predictions + catalysts (~2s)
 │   ├── predictions_due.py  # Boot step 4 — OVERDUE/DUE-SOON scan of thesis/PREDICTIONS.tsv
 │   ├── catalyst_countdown.py # Boot step 5 — countdown off docket/CATALYSTS.tsv
-│   ├── abs_issuance_tracker.py # Monitoring stub (manual-check placeholder)
-│   └── extension_proxy.py      # Monitoring stub (manual-check placeholder)
+│   ├── panel_10d.py        # 10-D performance panel → workbook/PANEL_10D.tsv (--backfill, --selftest, seasoning control)
+│   ├── severity_divergence.py  # Severity-Divergence Test (Secondary-thesis falsifier; quarterly)
+│   ├── shelf_halt_monitor.py   # OTTO-07 shelf-halt probe → workbook/SHELF_ACTIVITY.tsv
+│   ├── backfill_collection_period.py # one-off 2026-09-02 (spent)
+│   ├── abs_issuance_tracker.py # DEAD stub (superseded by shelf_halt_monitor.py) — archive candidate
+│   └── extension_proxy.py      # DEAD stub (superseded by panel_10d.py ext_rate) — archive candidate
 ├── docket/
 │   ├── CATALYSTS.tsv         # Machine-readable forward-event feed (8-col) — boot step 5 source; WINTERKORN-maintained
 │   ├── WINTERKORN.md         # Sub-agent spec — docket steward (weekly Tue + T-3 pre-hearing)
@@ -533,9 +542,11 @@ AGENTS/OTTO/
 ├── research/
 │   └── outputs/        # RP-OTT-x.x research packages
 ├── workbook/
-│   ├── VX.tsv          # Vectors (indicators tracked)
-│   ├── ML.tsv          # Master Log (observations)
-│   └── FLOW.tsv        # Transmission pathways
+│   ├── ML.tsv          # Master Log (append-only observations)
+│   ├── PANEL_10D.tsv   # 10-D deal panel (LIVE; key = deal + collection_period)
+│   ├── SHELF_ACTIVITY.tsv # OTTO-07 shelf probe (event-driven)
+│   ├── VX.tsv          # Vectors (FROZEN — history only)
+│   └── FLOW.tsv        # Transmission pathways (FROZEN)
 ├── sources/            # Raw materials
 └── briefings/          # Audio briefings
 ```
@@ -557,4 +568,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md **v2.7** | 2026-06-09 — WINTERKORN docket-steward sub-agent introduced (`docket/WINTERKORN.md` spec + `docket/WINTERKORN_MEMORY.md` seeded). FASTOW-pattern scoped owner of `docket/CATALYSTS.tsv`; weekly Tue + T-3 pre-hearing cadence. Closes the Jun-17 → Jun-12 First Brands date-keeping failure mode on cadence. **Full version/structural history → `MAINTENANCE.md`** (v2.1→v2.7 detail lives there, not inline here).*
+*OTTO CLAUDE.md **v2.8** | 2026-10-14 — s028 file-review bundle (Will-approved): recovery trigger marked FIRED 9/2; recovery perimeter named in thresholds + invalidation; brief-pin check per NEXUS Amendment 11; byte-cap closeout; frozen-ledger and OUTBOX pointers retired; file tree + ownership rows for the 10-D panel. v2.7 (2026-06-09) introduced WINTERKORN. **Full version/structural history → `MAINTENANCE.md`.***

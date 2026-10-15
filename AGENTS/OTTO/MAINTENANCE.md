@@ -14,6 +14,22 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-10-14 (s028) (b) — CLAUDE.md v2.8 file-review bundle + boot predictions scan sees NEEDS_VERIFY
+
+**Trigger:** Will-directed read-through of OTTO's files (three read-only Opus reviewers; reports in the s028 scratchpad). Will approved the CLAUDE.md bundle in session ("Yes, make the edits", 2026-10-14 ~21:50 ET).
+
+**What changed:**
+- `CLAUDE.md` v2.7 → v2.8: the recovery <28% trigger row now says **FIRED 2026-09-02** (its old text, "has never fired … what is owed is the TRIGGER STATE", survived its own firing and misled the s028 boot, OTTO's MEMORY, and PROME); recovery perimeter named in the thresholds table and both invalidation rows (on the Fitch aggregate the "rebounds >35%" weaken condition reads met permanently, while on the panel the "<28%" strengthen condition is met: two measures, opposite verdicts, now pinned to one); the thresholds table repaired (a quote block had split it in two); step 7a's Amendment-10 timestamp check replaced by `scripts/brief_pin_check.py` (NEXUS Amendment 11, DAEDALUS packet 10/14); closeout step 1 line cap → root byte cap + STATUS_COLD rotation; INBOX cross-reference re-pointed off the FROZEN VX/FLOW; the OUTBOX/HERMES reply route retired; the unqualified "$237M" BROCK figure retired; file tree + Doc Ownership gained STATUS_COLD, board_log, registry, PANEL_10D, SHELF_ACTIVITY and the four real scripts.
+- `scripts/predictions_due.py`: surfaces every non-final status (NEEDS_VERIFY etc.) in its own ⚠️ section and in the summary line. Before, OTTO-10 (NEEDS_VERIFY, past its date) was invisible at boot while the scan read "0 overdue".
+
+**Files touched:** `CLAUDE.md`, `scripts/predictions_due.py`, this file.
+
+**Boot-impact:** boot step 4 now prints the NEEDS_VERIFY row (verified through `boot.py --no-price`).
+
+**Lessons:** a trigger row that records its own state ("never fired", "owed") is a carried assertion with no expiry. It outlived the firing by six weeks and was re-asserted at every boot. State belongs in STATUS and the ledgers; the charter carries the rule.
+
+---
+
 ## 2026-10-14 (s028) — 10-D panel: issuer seasoning clock + (deal, collection_period) upsert key
 
 **Trigger:** OTTO's own CATALYSTS deliverable (due 10/1, done 10/14 = 13 days late) on CARL's 2026-09-17 ruling: `months_seasoned` must be the exhibit's issuer-stated "Months Seasoned" (distribution-date clock), and the 10-D/A upsert-key hole LIQUID registered 9/2 lands in the same pass.

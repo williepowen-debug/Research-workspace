@@ -59,6 +59,14 @@ def main():
         return 1
 
     open_rows = [r for r in rows if r.get("Status", "").strip().upper() == "OPEN"]
+    # ⚠ 2026-10-14 (s028 file review): the scan counted only Status == OPEN, so a row moved
+    # to NEEDS_VERIFY (OTTO-10, 9/30) — unresolved and past its Resolve_Date — was INVISIBLE
+    # at boot while the summary read "0 overdue". Every status that is not a final grade is
+    # now surfaced. Final = CONFIRMED / FALSIFIED (any suffix); anything else is unresolved.
+    final = ("CONFIRMED", "FALSIFIED")
+    unresolved_other = [r for r in rows
+                        if r.get("Status", "").strip().upper() not in ("", "OPEN")
+                        and not r.get("Status", "").strip().upper().startswith(final)]
 
     overdue, due_soon, later = [], [], []
     for r in open_rows:
@@ -109,8 +117,21 @@ def main():
         for d, r in later:
             line(d, r, "open")
 
+    if unresolved_other:
+        print(f"\n  ⚠️  NOT OPEN AND NOT RESOLVED ({len(unresolved_other)}) — re-grade owed; find the next-check row in docket/CATALYSTS.tsv")
+        print(f"  {'-'*68}")
+        for r in unresolved_other:
+            rd = r.get("Resolve_Date", "").strip()
+            try:
+                d = datetime.strptime(rd, "%Y-%m-%d").date()
+                note = f"⚠️ {r.get('Status','').strip()[:10]}"
+            except ValueError:
+                d, note = None, "⚠️ ?"
+            line(d, r, note)
+
     n_open = len(open_rows)
-    print(f"\n  {n_open} OPEN | 🔴 {len(overdue)} overdue | 🟠 {len(due_soon)} due soon")
+    print(f"\n  {n_open} OPEN | 🔴 {len(overdue)} overdue | 🟠 {len(due_soon)} due soon"
+          f" | ⚠️ {len(unresolved_other)} unresolved non-OPEN")
     if overdue:
         print(f"  ⚠️  {len(overdue)} prediction(s) OPEN-but-stale — must resolve/re-arm/push this session.")
     print()
