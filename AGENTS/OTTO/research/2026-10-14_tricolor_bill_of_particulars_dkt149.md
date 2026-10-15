@@ -14,7 +14,7 @@
 | SEC civil complaint (read 2026-08-27): 7 outstanding at bankruptcy, $1,816,960,000 notes | 2022-1, 2023-1, 2024-1, 2024-2, 2024-3, 2025-1, 2025-2 |
 | **Criminal Counts 7–8 (this document)** | **the same 7 + 2018-1, 2018-2, 2020-1, 2021-1 = 11** |
 
-- **Every Tricolor securitization since 2018 is in the criminal charge**, including four retired deals. That goes back further than the SEC's civil perimeter. [EST] The retired deals were repaid, so the extension changes the alleged duration, not the loss.
+- ⛔ **CORRECTED 2026-10-14 ~21:30 ET (same session).** This line first read *"Every Tricolor securitization since 2018 is in the criminal charge."* **That is false.** OTTO's own ABS-15G inventory (RP-OTT-1.6 §1) shows **TAST 2022-2 and 2023-2** were also issued, and **neither is on the list**. At least **13** Tricolor deals exist; the charge names **11**: all 7 outstanding at bankruptcy plus **4 of the 6 known retired deals** (2018-1, 2018-2, 2020-1, 2021-1). It still reaches further back than the SEC's civil perimeter. Why 2022-2 and 2023-2 are left out is unknown. Correction routed: `SIG-OTTO-WALTER-20261014-003`. [EST] The retired deals were repaid, so the extension changes the alleged duration, not the loss.
 - The **"never formed" securitization** is charged too: a plan (Aug 2025) to move fraudulent warehouse collateral (SPV4) into a future deal. The SPV4 warehouse lender is **not named here**, so OTTO-33 gets no new counterparty name.
 
 ## Why OTTO carried this as UNVERIFIED for 47 days
