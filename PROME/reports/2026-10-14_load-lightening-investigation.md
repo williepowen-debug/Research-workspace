@@ -1,0 +1,59 @@
+# Load-lightening investigation — six ideas against what exists (2026-10-14, evening)
+
+**Written:** 2026-10-14 22:0x ET (clock hook), PROME prome-8e, on Will's ask *"can you investigate these ideas?"* (21:52 ET). **Inputs:** a read-only survey of the tooling and canon by a fresh-context Opus reader (110 tool uses; its ledger is reproduced in substance below, every pointer checked by it at the artifact), plus PROME's own measurement of tonight's session from the commit log and ledgers. **Status:** investigation only — nothing built, no rule changed, no row re-ordered. Will's 10/15 maintenance session (WQ-430, DOCKET L710) lifts the process ceiling for L628 → L676 → repairs B/A and *nothing else*; every idea here is outside that scope and needs its own word.
+
+## Corrections to what PROME told Will earlier tonight
+1. **"35 of 40 packets at the boot were receipts."** Wrong basis. 35 is the number PROME *consumed*; several needed ledger edits (DEWEY's P&A boundary → DOCKET L516; VIOLET's receipt → L681 resolved) and two LIQUID packets were kept because an action was owed. Measured now over the 113 files in the inbox: 68 carry a COMPLETION block, 71 a `WILL_NEEDS:` line, only 24 read exactly `WILL_NEEDS: None.`, and 31 carry an ACTION-style line. The share a script could file unread is smaller than claimed and unmeasured until a parser exists.
+2. **Tonight's boot receipt said `session_bridge.py` was unusable without a Codex socket.** Wrong: only its Codex leg needs the socket; its `/proc` scan and `claude agents --json` inventory work now (the reader ran it: 9 claude processes with desk directories). PROME's same-minute preflight has had a shell-side instrument all along.
+3. **PROME's own receipts broke the closeout reader.** 12 of today's ORCH_LOG rows (and 17 older ones) had receipt text appended *after* the `closeout_v1` JSON, which `orch_closeout.py` reads as "Extra data" → UNKNOWN. Repaired tonight (content-preserving re-order; "Extra data" 28 → 0). Rule: the JSON is the last thing in the notes cell.
+4. **PROME's inbox moves carry no `consume:<AGENT>` token.** WALTER's BOARD_CONSUMPTION_SPEC §5.1 makes an undeclared move FILED, not CONSUMED; 466 PROME commits since 9/1 touching `inbox/processed/` carry the token 0 times. Whether §5.1 binds PROME's own inbox is INFERRED, not ruled; the prose ledger (`reports/*-consumption.md`) is the only consumption record. Zero-cost fix adopted from the next commit: the token in the message body of every consumption move.
+
+## Baseline (tonight, from the records)
+| Measure | Value |
+|---|---|
+| PROME commits 20:00–22:00 | 29, of which 26 record-keeping (consume · register · log · receipt · regenerate) |
+| ORCH_LOG rows written | 20 (13 columns; no token or time column) |
+| consumption-ledger entries | 16 (prose) |
+| inbox at boot → now | 158 → 113 (45 moves, 1 pure-move commit, 15 move+edit commits) |
+| boot → first report | ≈17 min, ≈22 tool calls |
+| cost data that exists | ARGUS RUN-LOG tokens/time (3 of 5 recent runs filled); ORCH_LOG helper rows (10/10 only); boot receipts carry no time; gate run dirs in `/tmp` do not persist |
+
+## Idea by idea
+
+### 1. Receipt command — **BUILD, as a preparer that leaves the commit to PROME**
+*What exists:* `scripts/orch_log.py` has `check · append · view · rotate` and no row-update mode; rows are hand-edited in place (the header says cells update at consumption). `orch_closeout.py` keys touches by a sha256 of the first five columns, so a second row for the same touch is a duplicate-key error; receipts must edit the existing row. The commit-msg hook (`scripts/githooks/commit-msg`) enforces the 100-character subject natively; `PROME/tools/commit_check.py` already handles a staged `git mv` source. CLOSEOUT.md:81 keeps consumed moves in a separate, earlier commit; repair B's proposal says "no new Git wrapper".
+*Gap:* no tool verifies a cited commit, moves the memo, writes the ledger line and updates the row's `delivered`/`notes` cells with the JSON kept last.
+*Verdict:* worth building, with one design change from the idea as listed: the tool **prepares** (verify commit · `git mv` · ledger line · row update with JSON-last enforced · a ready-made ≤100-char message file) and **PROME runs the pathspec commit** — no commit authority inside a script, so nothing to square with repair B or carve-out ①. It also writes the `consume:<AGENT>` token into the prepared message. *Effort:* half a day plus tests (ordinary · duplicate touch key · missing commit · JSON-last · CRLF). *Canon:* one process change; CHECK_STANDARD §14 rc discipline; no charter edit. *Removes:* ~4 tool calls per packet (16 tonight), the JSON-last class of defect, and the FILED/CONSUMED ambiguity.
+
+### 2. Desk status one-liner — **BUILD SMALL; most parts exist**
+*What exists:* `PROME/tools/desk_activity.py` (per-desk pending paths and path-attributed last self-commit, the L455 rule); `PROME/tools/session_presence.py --desk` (JSON per desk, always prints every due row, 60-second snapshot expiry, presence always UNKNOWN by design); `session_bridge.py` (process + `claude agents --json` inventory, works without Codex); `agent_freshness.py --agent` (unread from-desk packets in PROME's inbox, dirty paths, pending inbox); `inbox_census.py`; `spawn_list.py` (no `--desk` filter); `spawn_slate.py` lists last memos **sorted by filename**, which COMPLETION_SPEC:25 forbids for a live-state question (commit time, never filename) — a defect to fix in passing.
+*Gap:* no single read-only call; no per-desk unpushed attribution (repo-wide ahead/behind only); two "last commit" definitions side by side (path-scoped vs subject+path).
+*Verdict:* a thin wrapper that calls the five existing functions and prints one line (pending · last self-commit · ahead/behind repo-wide · last memo by commit time, in inbox or processed · next due row · census · shell-side session evidence) — and says "ListAgents same minute still required" exactly as `session_presence` does. *Effort:* a day; the `--desk` filter on spawn_list and the commit-time sort on spawn_slate are the real work. *Canon:* preflight rule unchanged (UNKNOWN never absence); one process change. *Removes:* the eight hand-run preflight chains per orchestration evening.
+
+### 3. Receipt-class auto-filing — **NOT NOW; re-scope to a classifier that prints, never files**
+*What exists:* no parser for inbox COMPLETION blocks anywhere (desks check only their own LAST_COMPLETION); no canonical ACTION marker for inbox packets (`**ACTION:**`, `ACTION:`, `Action for…` all occur; `action:` is a BOARD frontmatter field); COMPLETION_SPEC:70-72 requires a WQ row for any WILL_NEEDS not "None" **and** a DOCKET/GATES/WQ registration for any FOLLOW-UP not "None" — the idea ignored FOLLOW-UP. BOARD spec §3.5.2: only the live recipient consumes, consumption means integration, "not mechanizable"; §3.5 records PROME once sweeping two signals unread.
+*Gap:* the filable class is undefined and the measured candidates are fewer than claimed (24 exact `None.` out of 113).
+*Verdict:* do not file by script. Build the cheaper half: a **classifier that prints** each packet's STATUS / WILL_NEEDS / FOLLOW-UP / ACTION-line presence in one table so PROME reads 113 packets' index in one screen and files by hand with the receipt command. That keeps consumption a live-session act (the spec's line) and still removes the per-packet open-and-scroll. *Effort:* half a day. *Canon:* none touched if it never writes.
+
+### 4. Generated restart card — **DEFER until JANUS lands; start with the 10/11 index pilot**
+*What exists:* the marker contract (`willq_view.py`, `docket_view.py`: exactly one BEGIN/END pair, tool writes between markers, drift checks wired into `prome_gate.py` boot and closeout). SCRATCH is at 76% of its 32,550 B budget (rotate tier; 1,976 B over the 70% stop), and generated content is already about half of it — the DOCKET-VIEW block is ≈11,950 B against its 6,000 B advisory. The 10/11 review proposed an *index* of pointers as the pilot, explicitly not a generator.
+*Gap:* a third generated block would need its own gate check (a process change) and would push SCRATCH further over budget unless the DOCKET view shrinks first.
+*Verdict:* the restart questions are the right spec, but the carrier should be JANUS's slate (approved, 10/15) plus a hand-written five-line index at the top of SCRATCH (the 10/11 pilot) — not a new generator. Revisit after JANUS's four-boot trial shows what it already answers. *Effort now:* the five-line index, one closeout. *Canon:* CLOSEOUT:48/61 (SCRATCH holds only what is registered nowhere else).
+
+### 5. "Retires" line — **ADOPT at the 10/15 session's completion notes; register at 10/25**
+*What exists:* the four-state completion note (`PROME/CLAUDE.md` repair discipline) and the acceptance-file template (`PROME/tools/tests/README.md`) have no slot for superseded rules; no register of retired rules exists (SEARCH-NOT-FOUND). Analogues: CORRECTION_FORM's `supersedes=<COR-id>`, CHECK_STANDARD's "retire this row when the fix lands", the C2–C4 consolidation rule ("every DUTY and every pointer survives"). DOCKET L600 (10/25) is where tombstones are decided.
+*Verdict:* no build. Each of the three 10/15 repairs ends its completion note with a `Retires:` line naming the rules, reminders and manual steps it supersedes (or "none"); the 10/25 review (L600) consumes those lines. Adding the slot to the template is a charter/template edit under the freeze — paired with a consolidation, or presented to Will at 10/25. *Effort:* zero to start.
+
+### 6. Diff-driven spine audit — **DROP for now**
+*What exists:* `spine_audit.workflow.js` reads a fixed list of 16 files whole (8 pairs) plus an anchor sampler; it records no baseline commit; its own comment says read ENTIRELY because append-on-top documents rot in the body while the header stays current. Since the last audit (STATUS stamp 10/02, commit ab54af034) **14 of 16 spine files changed** (SCRATCH 194 commits, HANDOFF 49, STATUS 35); every pair has a changed member.
+*Verdict:* a changed-files selection would drop zero readers today, and the whole-read rationale is sound. The cheaper lever is cadence and scope (audit after the maintenance session, not before), not selection. Note the doc mismatch: the skill says 15 files, the script 16.
+
+## Recommended order (needs Will's word to enter any session; the 10/15 scope excludes all six)
+1. **Receipt command** (idea 1) — largest measured saving, smallest canon surface, and it carries the `consume:` token and JSON-last fix by construction.
+2. **Classifier that prints** (idea 3 re-scoped) — makes the 113-packet backlog a one-screen read; pairs with 1.
+3. **Desk status one-liner** (idea 2) — after 1; fixes the spawn_slate filename-sort defect in passing.
+4. **Retires line** (idea 5) — zero cost; starts 10/15 in the completion notes.
+5. **Restart card** (idea 4) — after JANUS's trial; the five-line index now.
+6. **Diff-driven spine audit** (idea 6) — not now.
+
+Each of 1–3 is one process change under PROME's ceiling; together they fit one dedicated session of the WQ-430 shape. None is a new agent, rule or governance document. Measurement to compare before/after: tool calls per packet consumed, minutes boot-to-first-report, record-keeping share of PROME commits (tonight: 26 of 29).
