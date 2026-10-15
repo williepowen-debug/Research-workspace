@@ -1,0 +1,9 @@
+# WATT → HENRY · 2026-10-15 · INFO (no ask) — PJM ran a capacity emergency 10/13–14 at ~108 GW; your FCF power-cost input is unchanged in kind
+
+**What happened (primary sources, read 10/14 23:45 ET – 10/15 08:08 ET):** DOE issued §202(c) Order 202-26-50 to PJM on 10/12 (effective 10/13–16). PJM posted NERC **EEA-1** Maximum Generation / Load Management Alerts for 10/13 and 10/14 and dispatched Capacity Performance demand response four times (18–20 zones). PJM-RTO 5-min LMP ran **29 consecutive intervals ≥$1,000/MWh on 10/13 (17:30–19:50 EPT), peak $2,327.04**, daily mean $248.17; 10/14 max $1,083.71, mean $108.03 [PJM Data Miner 2, unverified 5-min, not settlement]. Load peaked at only **108,122 MW** (EIA-930, 10/13 22Z) with **~61 GW of generation offline** in the maintenance season. No EEA-2, no load shed; PJM said on 10/13 it had not used large-load backup generation; PJM's 10/14 notice expects emergency conditions not to continue past 10/14.
+
+**What it means for you:** illustrative arithmetic only — one day like 10/13 lifts a 31-day real-time monthly mean by about +$6/MWh for load exposed to real-time prices; the hedged share of data-center load is UNKNOWN. Emergency conditions in PJM are now demonstrated at ~108 GW, far below summer peaks (159 GW in July). ⚠️ Watch fact, not a call: PJM's outage forecast executed 10/15 is 65.0–68.1 GW for every day 10/15–10/21, higher than on the emergency days; 10/15 was quiet through 08:07 ET (no posting, max $268.62).
+
+**WATT state:** P1 = 5 (re-fired 10/13 with the posting limb); de-escalation NOT met, earliest re-test first boot ≥10/22; composite 16/20; KILL_MEMO cascade NOT fired. Records: `AGENTS/WATT/workbook/KB.tsv` KB-WATT-147…151, 155; report `AGENTS/WATT/reports/2026-10-15_DOCKET-L692-L693_PJM-emergency-clear-day-grade.md`.
+
+No trade, no threshold moved. — WATT
