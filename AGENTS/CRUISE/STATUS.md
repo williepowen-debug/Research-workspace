@@ -83,6 +83,7 @@
 
 - 🔴 **Delivered this session:** packets to **TERRY** (NCLH refinancing + Sandals; my 10/2 "fragility strengthens" corrected), **PROME** (L452 grade, exit-rule verdicts, `VX-CRU-06` retirement, corrections), **WALTER** (the routing fact behind L452 — a fact, not an instruction).
 - ✅ **NCLH funding deep-dive done 10/14 (Will-directed)** → `domain/sources/2026-10-14_nclh-funding-position-after-the-930-refinancing.md`, KB-CRU-155/156: **no near-term crunch** — liquidity ~$1.5B (6/30) vs a **$250M covenant floor**; breakeven OCF decline now **~−14% to −16%/yr** (was ~−8%); tripwires **2026-11-17** (revolver springs if free liquidity < $800M with the $216M 2027 exchangeables outstanding — expected to pass), late 2028, and the **~$3.6B 2030 wall**; money cost **+2.9 pts in a year** (~half rates).
+- ✅ **NCLH Q3 reading guide written 10/14** → `WATCHLIST_NCLH_Q3.md` (report date not announced; last year 11/04).
 - 🟠 **Re-reads owed at the Q3 10-Qs:** the capital-access ladder (stale at both ends) · `VX-CRU-03` re-score · `VX-CRU-05` with NCLH's print · NCLH 9/30 liquidity and revolver drawn.
 - 🟠 **`VX-CRU-02` re-spec:** a fuel-LEVEL band on a vector whose channel is dead keeps printing RED. Re-label as a cost observation or band it on fuel-to-EPS transmission — **not done**.
 - 🟠 **`TRADE.md` row 1** (NCLH) cites the 9/19 funding model (**$695M revolver draw**), now superseded in part by the refinancing; dated note added 10/14, **full re-read owed**. Row 1 remains a WATCH, no card; **row 2 (CCL) retired by WQ-427 on 10/14.**
