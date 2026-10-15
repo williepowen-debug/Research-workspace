@@ -1,0 +1,23 @@
+# PROME → OSPREY: WQ-184 due-row wake — L544 Channel-1 downgrade test (first dated evaluation) · L666 Azov C2 lead · OSP-06 · whole-inbox drain
+
+**Written 2026-10-14 23:5x ET by PROME (prome-8e, Claude Code) for the Thu 10/15 wake. Tier 1 (WQ-184: DOCKET L544 and L666 due 10/15 name OSPREY). Runtime: Claude Code Agent tool, subagent_type `desk`, model Opus. $0 — no trade, no threshold move, no new direction. Upgrades stay Will's word; downgrades run on your ruled §1b path.**
+
+Resolve the repository root. Explicitly read root CLAUDE.md, AGENTS.md and USER.md, then AGENTS/OSPREY/CLAUDE.md and that desk's boot instructions. Resolve all repository-root paths from the repository root. Do not assume instructions, hooks or tools loaded from the launch directory. Report missing dependencies and continue independent authorized work.
+
+## Rows (quotes verbatim from DOCKET)
+1. **D:L544** (10/15): *"OSPREY WQ-276 SUCCESSOR — Channel 1 (refineries/products) 5→4 DOWNGRADE TEST, first dated evaluation (Will-ruled 9/24 shape iii … registered by OSPREY 2026-09-29 at AGENTS/OSPREY/CLAUDE.md EXIT RULES §1b). Test: an INDEPENDENT capacity-offline aggregate <40% on two consecutive prints AND 14 days with no refinery-class row."* Caveats that travel: *"trigger met on END-AUGUST S&P/CERA only, September aggregate SEARCH-NOT-FOUND (re-checked 9/29); Moscow read weakens the export-ban mechanism, not the arithmetic; Putin's 9/28 publication-restriction decree may starve the independent aggregate (an UNGRADEABLE outcome is reported as such, never as 'held')."* Same day: **OSP-06**. Your 10/10 read-only pre-fetch is already in L544's state cell — build on it, do not redo it.
+2. **D:L666** (10/15): *"AZOV C2 LEAD: two vessels damaged at Azov port 10/10 (hull types not given; Governor/ASTRA-class sourcing). Azov is a named in-geography port on OSPREY's EXIT RULES letter — a tanker at an oil berth would re-arm C2 at 5 as of 10/10. Resolve hull types and berth at primaries and named wires before 10/15 (rides with L544's 10/15 grade); if unresolved by then the lead is recorded OPEN-UNRESOLVED with the sources checked named, never graded on absence."* Companion facts (no clock moved): Rostov NZNP terminal hit 10/9–10 = ONE site, out of C2 geography, not refinery-class ⇒ C1 unchanged (Ukhta 10/9 anchor); Samara LPDS struck a 3rd time 10/10; marks 5 / ⚪1 / 3. FIRMS: use it if your host has the tool; say so if not.
+3. Any mark change is executed by you, logged to KB, and routed to BRENT/HAWK the same session (§1b). Nothing here is a capital path.
+
+## Inbox — drain the WHOLE inbox, every sender (WQ-184 L0; log per `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md`)
+Census 23:3x ET (files only): top-level 10 · WALTER/ 16 = 26.
+- `2026-10-10_from-HAWK_c3-limb2-undetermined-gl135-partly-supported.md` · DEWEY ×5: `2026-10-12_…diesel-current-cargo-addendum` · `…diesel-evidence-checkpoint` · `…russia-diesel-net-supply` · `2026-10-13_…diesel-commission-final` (DEWEY's final return on REQ-DEWEY-20261010-001; delivered additional diesel and net sign remain unresolved there) · `…diesel-delivery-primary-checkpoint` · YURI ×4: `2026-10-12_…decree686-body-detail` · `…diesel-primary-answer-partial` · `…energy-series-observation-boundaries` · `…resolution1272-source-correction`.
+- `WALTER/SIG-W-20261011-001` · `-004` · `SIG-W-20261012-013` · `-016` · `-030` · `-031` · `-032` · `-041` · `-043` · `SIG-W-20261013-004` · and the six newest the census lists, among them `SIG-W-20261014-024` (first post-deal Russian diesel cargo loaded 10/13, ~40 kt Primorsk→Morocco) and `-027` (Zelensky "betrayed", tied to the diesel deal). OFAC GL 135 (10/9) licenses Russian-origin diesel through 2027-04-07 — HAWK's c3 limb-2 packet above is your read of it.
+
+## Context you need
+- Live sessions on this box right now (Will's own windows): DAEDALUS and WALTER busy, NEXUS/RED/OTTO idle. Never pull, stash or reset others' work; pathspec commits only; `scripts/safe-push.sh` at closeout; a non-ff abort ⇒ stop and tell PROME.
+- Prices from live tools only, never STATUS marks. A print that is not yet published is reported as such; do not wait for it.
+
+## Deliver before idle (both methods)
+1. Memo `PROME/inbox/2026-10-15_from-OSPREY_L544-L666-OSP06-grades.md` ending with the COMPLETION block (`PROME/COMPLETION_SPEC.md`), citing **D:L544 · D:L666 · OSP-06** by key with each grade in your words; commit it yourself (carve-out ①).
+2. `SendMessage` to the spawner with ONLY the COMPLETION block + commit shas + push receipt. Then stay for PROME's WQ-249 closeout ask and answer in one line (nothing unsaved · no uncommitted paths of yours · no further work pending).
