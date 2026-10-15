@@ -134,3 +134,39 @@ Current **1,716,000** [w/e Sep 26]; `1,750,000 − 1,716,000 = 34,000` inside.
 ## §9 — GRADE (write 2026-10-15 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① regenerate the three §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+, score, calendar) · ④ `git mv` to `docket/graded/` and build the 10/22 card the same session.*
+
+### §9 GRADE — written 2026-10-15 08:31 ET (PROME-spawned session, prome-73, WQ-184 Tier-1 due-row wake DOCKET L625) off the frozen card
+
+**Primary:** DOL/ETA news release 2026-10-15 08:30 ET, `dol.gov/ui/data.pdf?release=20261015` fetched 08:30:16 by bare `curl` (`file`: PDF 1.7, 9 pages, 533,268 B), text-extracted with pdfminer; embargo line *"8:30 A.M. (Eastern) Thursday, October 15, 2026"* checked; every figure below grepped in the extracted text (saved: `domain/sources/2026-10-15_DOL_UI_claims_release_text.txt`). A pre-release fetch at 08:28:43 returned the 10/8 release (same 484,181 B file) and was discarded. FRED ICSA/CCSA had **not** updated at 08:31 (still the 10/8 vintage) — graded on the DOL primary only. KB-LAB-217.
+
+**① Three quantities regenerated on the as-published vintage BEFORE reading the level (the window DID revise — w/e Oct 3 197,000 → 198,000):**
+
+| Quantity | Card (10/8 vintage) | As-published 10/15 | Moved? |
+|---|---|---|---|
+| `R` (w/e Sep 12) | 198,000 | 198,000 (53-week SA table) | no ⇒ **`ΔMA = (X − 198,000)/4` exact** |
+| Retained trio `W2+W3+W4` | 594,000 | `198,000 + 199,000 + 198,000 = 595,000` | **+1,000** |
+| `MA_next(199,000)` | `(594,000 + 199,000)/4 = 198,250` | `(595,000 + 199,000)/4 = 794,000/4 = 198,500` = **published 198,500 exactly** | **+250 — the vintage-dependent column rotted a fourth week running (L-31)** |
+| `ΔMA(199,000)` | +250 | `(199,000 − 198,000)/4 = +250` vs revised prior MA `(198,000 + 198,000 + 199,000 + 198,000)/4 = 793,000/4 = 198,250` = **published +250** | exact ✅ |
+| T-01 MA bound | `X > 406,000` | `X > 1,000,000 − 595,000 = 405,000` | −1,000 |
+
+**② Five axes, graded separately (X = 199,000 w/e Oct 10; CC = 1,710,000 w/e Oct 3):**
+
+| Axis | Read | Band | Assignment |
+|---|---|---|---|
+| §2 single print | 199,000 | **B** (186,000–229,000) | **NO ACTION** |
+| §5a T-01 MA basis | 199,000 ≤ 405,000 | **T01-a** | T-01 does not fire; MA 198,500 is `250,000 − 198,500 = 51,500` below |
+| §5b v13 `<200,000` | revised run Sep 12 198,000 · Sep 19 198,000 · Sep 26 199,000 · **Oct 3 198,000 (rev +1,000)** · **Oct 10 199,000** — all `<200,000`; w/e Sep 5 207,000 bounds the run | **V13-a** | **streak 4 → 5 — record only; no score change** (v13 at floor 1). New week's margin **1,000** |
+| §5c v7 CC `<1,750,000` | run Sep 5 1,717,000 · Sep 12 1,712,000 · Sep 19 1,699,000 · **Sep 26 1,714,000 (rev −2,000)** · **Oct 3 1,710,000** (−4,000); `1,750,000 − 1,710,000 = 40,000` inside; w/e Aug 29 1,765,000 bounds the run | **CC-1** | **streak 4 → 5 — record only; no score change** (v7 at 2) |
+| Kill B | 199,000 > 185,000 (`14,000` above) | — | 0 of 5 |
+
+**Score 26/75 unchanged** (`26/75 = 34.7%`). **Nothing fired.**
+
+🔴 **Reading rule applied (§3):** the as-published MA rose **+250 to 198,500** — entirely mechanical: the new week (199,000) is 1,000 above the 198,000 week rolling off, `1,000/4 = 250`. The headline "+1,000" is against a prior week revised UP to 198,000. **No deterioration is claimed** — five weeks inside 197,000–199,000.
+
+⚠️ **Margins, stated so the streak is not over-read:** two of the five run weeks sit at 199,000, 1,000 under the 200,000 line; the streak is record-only and moves nothing either way (§5b).
+
+**Routing (§7):** band B + T01-a ⇒ **STATUS only**; §5b/§5c streak changes ⇒ STATUS record, not a signal. No WALTER signal, no packet.
+
+**Colour, graded by nothing:** NSA initial **190,626** (+19,456, **+11.4%** vs seasonal **+11.0%** expected); yr-ago 210,777 · NSA insured unemployment 1,469,083 (−33,813 vs seasonal −30,846 expected); yr-ago 1,651,988 · CC 4-wk MA 1,708,750 · IUR 1.1% · UCFE initial 463 (w/e Oct 3, +68). **State detail (NSA):** California w/e Oct 3 revised 39,040 → **38,757** (its week's rise revised +4,578 → **+4,295**), w/e Oct 10 advance **40,761** (+2,004); **Florida** 5,312 (w/e Oct 3 rev) → **5,793** (+481). KB-LAB-215's 10/8 advance state figures were revised by this release (CA rise, Michigan −176 → −146) — recorded in KB-LAB-217, 215 not edited.
+
+**§8 defect log at grade:** ① L-31 two-clocks split held a fourth week — `ΔMA` exact, `MA_next` off by +250, caught because it was regenerated. ② Session note, not a card defect: a background `sleep` timed to 08:30:15 fired at 08:28:43 (system clock agreed with dol.gov `Date:` at 08:28:56); the release check is the embargo line in the extracted text, never the wall clock. No band affected.
