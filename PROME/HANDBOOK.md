@@ -6,15 +6,23 @@
 
 ## Top priorities
 
-**2026-10-14 — current source index, no fresh market pull:**
-- **Position-facing work first:** [SCRATCH Operator card](SCRATCH.md#operator-card), [FORGE](../FORGE/STATUS.md) and [October14 broker evidence](data/2026-10-14_broker-capture-TRANSCRIPTION.json) own holdings and vintage. Capture/filltimes, current working orders and Robinhood evidence remain unknown. Receipt date does not establish fresh quotes.
-- **Accepted work and restart:** [TERRY acceptance](reports/2026-10-14_TERRY-acceptance/disposition.json) and [CATO integration](reports/2026-10-14_CATO-FS2-integration.json) close their named repairs and stale-summary corrections. [HANDOFF](HANDOFF.md) and [Standard closeout](reports/2026-10-14_standard-closeout.md) preserve the remaining duties and publication limits. Other owner windows are independently controlled.
-- **Research judgment:** [Completed compound review](research/2026-10-14_compound-stress/synthesis.json) and [latest intake scope](reports/2026-10-14_standard-intake.json) distinguish working expectations, contrary evidence and unresolved source questions. Use existing scheduled owner tests before commissioning more research. No new trade or scoring authority.
-- **What needs your word:** the generated queue owns current asks; [DOCKET](DOCKET.tsv) owns dates and [STATUS](STATUS.md) indexes existing coordination repairs. WQ418/420 approval and completed acceptance need no repeat ruling; VIOLET consumption remains separate.
+**2026-10-14 22:3x ET — evening closeout; closes from the 20:06 ET dashboard, owner reads as dated:**
+- **Your orders this week, nothing placed by PROME:** QQQ Oct-15 740P ×3 expire Thursday (deep in the money; sell or roll); HBAN Oct-16 16P ×2 expire Friday (WQ-302 still yours); OZK 40P ×4 and WAL 65P ×4 to be sold before their prints on your 21:32 ET word (WQ-428/429 — say "429 is B" if you meant to hold WAL through Monday). Fills owed from your screen, including the USO calls you sold; TERRY books them.
+- **What the day meant:** CPI hot, long end retraced, SKEW 157.30 fired RED's tail rule (net-bear 65), HY 316 [10/13] four points under the line, funding orderly. The bank-put sleeve is winning on rates and marks, not yet on the credit mechanism; the flip is HY ≥320 ×3 with LIQUID's Friday funding leg. Details: the brief tab and `HEARTBEAT.md` amendments #3–#4.
+- **Approved and in motion:** GIBBS (large-bank desk) built and registered, first session Monday; one maintenance session Thursday with the ceiling lifted (calendar patch → JANUS → closeout repairs); the receipt command waits for its own session ([investigation](reports/2026-10-14_load-lightening-investigation.md)).
+- **Still your word:** WQ-302 HBAN · WQ-357 TBT · WQ-404 name a reader · WQ-411 spine audit; the generated queue owns the full list.
 
 ## Spawn queue
 
-Current owner obligations and dates come from `PROME/DOCKET.tsv`; eligibility and preflight remain in `PROME/ROSTER.md` and `PROME/CLAUDE.md`. Use the generated clock and verified current ownership before any launch. Older dated spawn slates are history in the linked snapshot, not launch instructions.
+Current owner obligations and dates come from `PROME/DOCKET.tsv`; eligibility and preflight remain in `PROME/ROSTER.md` and `PROME/CLAUDE.md`. A same-minute liveness check precedes every launch; a desk you launched yourself is doorbelled, never duplicated. Tomorrow's due-row wakes (WQ-184 class, up to eight when every row is a dated catalyst or review date):
+
+- **LABOR** · Thu 10/15 after 08:30 ET · initial claims w/e 10/10 + continuing claims (card frozen 10/8; DOCKET L625)
+- **OSPREY** · Thu 10/15 · Channel-1 5→4 downgrade test (L544) and the Azov C2 lead (L666)
+- **CARL** · Thu 10/15 · overdue thesis-scope session (L672) + your CCC-gap commission read due 10/19 (L708) + RED's CRL-29 clarifications before its 10/20 grade
+- **FERT** · Thu 10/15 · GATE-FERT-G3 China urea re-read (review date) with the T8/T6/T12 ride-alongs (L577)
+- **WATT** · Thu 10/15 · grade the 10/8–10/14 clear-day window under the P1 de-escalation rule (L693)
+- **LIQUID** · Thu 10/15 · your CCC-gap commission read (L708); its swap-line fix still waits on a reader you name (WQ-404)
+- **GIBBS** · Mon 10/19 · first live session: retrospective read of the already-printed large banks, then FITB after the close (L704)
 
 ## Runs itself — no window needed from you
 

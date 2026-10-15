@@ -91,3 +91,33 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+```dashboard-amendment
+{
+  "amendment": 4,
+  "source_sha256": "3dfd2b84d8e1be08dfe0137b8377805072324445c26ba06dc86631df267f0130",
+  "set": {
+    "one": "October14 close, updated at the 22:4x ET closeout: the USO Oct-14 150C x2 were SOLD before the close (Will's word 21:01 ET, fill owed); RED-FT-10 FIRED on Cboe's official 10/14 SKEW 157.30 (4th straight >=150; RED net-bear 65), a desk letter, not a ledger gate; Will ruled 21:32 ET to sell the OZK 40P x4 and WAL 65P x4 before their prints; FALCON held its marks at a rail cap after the worst week of the war at sea. Nothing on the fire-ledger fired; $0 moved by PROME.",
+    "channels": {
+      "Equity-vol": {
+        "headline": "RED-FT-10 FIRED: SKEW 157.30 [10/14], 4 of 4",
+        "body": "Cboe's official 10/14 bar; RED executed Acute +2 / Managed -2, net-bear 63 -> 65, confidence 70, exit armed below 140. QQQ Oct-15 740P x3 ($11.05 ITM) expire Thursday, Will's hand.",
+        "cls": "elev"
+      },
+      "Energy": {
+        "headline": "USO Oct-14 150C x2 SOLD before the close (Will's word)",
+        "body": "Relayed from the NEXUS session 21:01 ET; contract, price and quantity not named; fill owed from Will's capture (DOCKET L709). The auto-exercise exposure flagged at boot is gone if the sale covered both.",
+        "cls": "watch"
+      },
+      "War + Europe + Russia + housing": {
+        "headline": "FALCON: marks HELD B1/C14/D85 at a rail cap",
+        "body": "Losses 3 -> 5 (GFS PRIDE, CAPE DAO; both non-tanker, HOLD ruled WQ-431); casualty ratchet RED rate-step lit (indicator only); production rung NOT FIRED; GATE-FALCON-001 leg 2 NOT FIRED, review 10/21.",
+        "cls": "elev"
+      }
+    },
+    "ticker": {
+      "USO": "USO 153.56 (+0.31%) [10/14c]: the Oct-14 150C x2 SOLD before the close on Will's word; fill owed"
+    }
+  }
+}
+```

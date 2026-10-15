@@ -11,7 +11,7 @@
 ## Baseline (tonight, from the records)
 | Measure | Value |
 |---|---|
-| PROME commits 20:00–22:00 | 29, of which 26 record-keeping (consume · register · log · receipt · regenerate) |
+| PROME-subject commits 20:00–22:00 ET (`git log --since="2026-10-14 20:00" --until="2026-10-14 22:00"`, subject `^PROME`, boot commit included) | 31, of which 28 record-keeping (consume · register · log · receipt · regenerate) |
 | ORCH_LOG rows written | 20 (13 columns; no token or time column) |
 | consumption-ledger entries | 16 (prose) |
 | inbox at boot → now | 158 → 113 (45 moves, 1 pure-move commit, 15 move+edit commits) |
