@@ -21,7 +21,7 @@
 
 | Metric | Value | State | Source |
 |--------|-------|-------|--------|
-| **CCL price** | **$25.97** (−2.84% on the day) = **−22.36% vs the named ref $33.45** (2/06). RED line $21.7425 is **19.4% below**; YELLOW line $26.76 is 3.0% above. Print day 9/29: $22.14 → $25.11 (+13.4%) | 🟠 | [CONF] fetch.py + yfinance 10/14 |
+| **CCL price** | **$25.97** (−2.84% on the day) = **−22.36% vs the named ref $33.45** — ⛔ **that ref is the DIVIDEND-ADJUSTED 2/06 close; the raw close was $33.99 ⇒ −23.59% on price** (KB-CRU-154). ORANGE on both. RED line: $21.7425 adjusted / **$22.09 price** — ⚠️ **on price, the 9/18 close $21.84 WAS below RED**. Print day 9/29: $22.14 → $25.11 (+13.4%) | 🟠 | [CONF] fetch.py + yfinance 10/14 |
 | **RCL price** | **$274.31** (−2.56%); TR since the CRU-11 base (10/2) **−1.24%**. Q3 call **10/27** | 🟠 | [CONF] fetch.py 10/14 |
 | **NCLH price** | **$14.87** (−2.94%); TR since 10/2 **−1.78%**; **−40.57%** from the 2/26 peak $25.02 | 🔴 | [CONF] fetch.py 10/14 (yfinance had no 10/14 NCLH bar at 20:4x ET) |
 | **CRU-11 spread** (NCLH − RCL TR from 10/2) | **≈ −0.55pp** at 10/14 (10/13: −0.17pp). Range since base **−2.24pp (10/7) to +1.21pp (10/9)**. Needs **≤ −5pp at the 11/14 close**. ⚠️ The ~9pp widening 9/25→10/2 happened **before** the base and does not count | 🟡 | [CONF] own pull 10/14 |
