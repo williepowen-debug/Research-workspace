@@ -17,7 +17,7 @@
 - [~] Position truth: ×4, basis $682.65 (FORGE 10/14 receipt; the WAL desk image-verified the Fidelity line on 10/14). **Working orders UNKNOWN** ⇒ `[POSITION_STATE_INCOMPLETE]` on orders only.
 - [x] Catalyst dates: WAL Q3 release **Mon 10/19 after the close**, call **Tue 10/20 12:00 ET** (issuer IR, verified by the WAL desk 10/9, KB-217). Q3 10-Q: EDGAR from about 10/26, statutory deadline Mon 11/9. Next dividend ($0.42) inferred mid-November from the cadence, not announced.
 - [x] Thesis owners current: `AGENTS/WAL/STATUS.md` (10/14 closeout); REGINALD `reports/2026-10-13_WAL_rate-funding-reconciliation.md` and `reports/2026-10-14_WAL_December_outcome_probabilities.md`.
-- [x] Challenge consumed: RED CHG-RED-052, grade **MODERATE** on this line.
+- [x] Challenge consumed: RED CHG-RED-052 (RED re-issued it as **CHG-RED-054** on 10/14 — 052 was already a 9/10 id; every 052 on this card means 054), grade **MODERATE** on this line.
 
 ## 1. The line, and what it is not
 | Field | Value |

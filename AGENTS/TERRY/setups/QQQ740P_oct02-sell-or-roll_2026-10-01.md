@@ -39,7 +39,7 @@ Will's roll took the one-day form the 11:05 and 12:5x cards marked ⛔ *"not rec
 
 ## 3. Payrolls timing — the only catalyst between now and expiry
 
-- **September Employment Situation (BLS), Fri 10/02 08:30 ET** — on BOND's and LABOR's catalyst files (`AGENTS/BOND/docket/CATALYSTS.tsv`; `AGENTS/LABOR/docket/GRADING_CARD_20261002_NFP.md`). TERRY did not read the BLS schedule itself; two desks carry it independently.
+- **September Employment Situation (BLS), Fri 10/02 08:30 ET** — on BOND's and LABOR's catalyst files (`AGENTS/BOND/docket/CATALYSTS.tsv`; `AGENTS/LABOR/docket/graded/GRADING_CARD_20261002_NFP.md` (moved by LABOR 10/14, content unchanged)). TERRY did not read the BLS schedule itself; two desks carry it independently.
 - **These puts cannot trade until 09:30 ET.** The print lands an hour before the option market opens. There is no "sell before the print" branch — the four ride the print whatever Will decides tonight.
 - At the open the line is worth roughly its intrinsic value plus about 6½ hours of time value. **Time value is the whole line,** so every hour after the open costs it unless QQQ is falling.
 

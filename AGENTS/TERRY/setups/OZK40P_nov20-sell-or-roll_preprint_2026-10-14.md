@@ -17,7 +17,7 @@
 - [~] Position truth: ×4, basis $322.65 (FORGE 10/14; the 10/7 view showed $322.66, D-75). **Working orders UNKNOWN** ⇒ `[POSITION_STATE_INCOMPLETE]` on orders only.
 - [x] Catalyst dates: OZK Q3 release **Tue 10/20 after the close**, call **Wed 10/21 08:30 ET** (OZK desk, from OZK's 9/30 release). Dividend $0.49 went ex on 10/13 — already in the price.
 - [x] Thesis owner current: `AGENTS/OZK/STATUS.md` (updated 10/12) and `AGENTS/OZK/research/threads/2026-10-12_POST_EXTENSION_REVIEW.md`.
-- [x] Challenge consumed: RED CHG-RED-052 (`AGENTS/RED/challenges/2026-10-14_BANK_PUT_BOOK_CHALLENGE.md`), grade **STRONG** on this line.
+- [x] Challenge consumed: RED CHG-RED-052 (RED re-issued it as **CHG-RED-054** on 10/14 — 052 was already a 9/10 id; every 052 on this card means 054) (`AGENTS/RED/challenges/2026-10-14_BANK_PUT_BOOK_CHALLENGE.md`), grade **STRONG** on this line.
 
 ## 1. The line
 | Field | Value |
