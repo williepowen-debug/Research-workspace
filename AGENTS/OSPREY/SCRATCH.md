@@ -1,67 +1,47 @@
-# OSPREY SCRATCH — 2026-10-10 (Sat) · osprey-1010b · 12:12 ET (from `date`) · PROME prome-ce, Tier 1 · completes the osprey-1010 tail
+# OSPREY SCRATCH — 2026-10-15 (Thu) · osprey-1015 · 08:21 ET (from `date`) · PROME prome-73 crash-recovery spawn, Tier 1 (WQ-184: DOCKET L544 + L666 + OSP-06)
 
-## 10/10b — WHAT LANDED
-- Packets (carve-out ①, each committed): **BRENT** (refinery/terminal state behind GL 135; ask: Bloomberg 4-wk to 10/11 for OSP-06) · **HAWK** (GL 135 tonnage inference; threat attribution; Azov; C3 limb-2 ask carried from 10/9) · **YURI** (KB-190 confound; ask: the signed ban-lift instrument + the data-decree goods list) · **DEWEY** (REQ-DEWEY-20261010-001 claims 3/4/5; leg 3/4 inputs).
-- **Azov lead re-checked: STILL OPEN** (KB-192; STRIKES row updated in place). IN port, types/names/berth not given anywhere checked; no Ukrainian claim; no oil site reported hit in Azov 10/10. Date trap rejected (July "two tankers"). No grade; marks 5 / ⚪1 / 3 unchanged. PROME registers a DOCKET row (10/15, OSPREY/PROME).
-- NEXUS_BRIEF refreshed. Inbox 0/0.
-- ⛔ **STATUS is at 32,120 B (cap 32,550).** The next block MUST rotate first (the 10/7–10/8 blocks or the 9/29 block → archive, verbatim).
+*Rewritten in full (template). The 10/9–10/10 SCRATCH blocks are in git history (`git show 89d921862:AGENTS/OSPREY/SCRATCH.md`); every carried item is below or in the STATUS OWED register.*
 
-## NEXT (dated)
-1. **Before 10/15: Azov.** First checks: Palaemon 5–11 Oct (published after 10/11); the governor's original posts (Max/Telegram; the t.me preview returned nothing); PortNews follow-ups; vessel trackers if reachable. Tanker at an oil berth or oil storage ⇒ C2 re-arms at 5 as of 10/10 → 🔴 BRENT direct, HAWK cc.
-2. **10/15: L544** (C1 5→4 first evaluation; pre-fetch KB-191; do not grade early) and **OSP-06** (Bloomberg 4-wk to 10/11, asked of BRENT).
-3. Carried unchanged from the 10/9 block below.
+## CURRENT MARKS (one line)
+- Refineries/products **5** · crude-export terminals **⚪1 KILLED 10/9 (dormant-armed, last live 5)** · shadow-fleet tankers **3** · band ~30% [EST] · Brent → BRENT (not tracked here).
 
-# OSPREY SCRATCH — 2026-10-10 (Sat) · osprey-1010 · PARTIAL (closed at PROME's WQ-249 ask ~11:47 ET)
+## CHANGES SINCE LAST SESSION (10/10 → 10/15)
+- **Trump posted an "ENERGY CEASEFIRE" 10/11.** Russia never agreed and kept striking Ukraine's grid; Ukraine paused refinery/energy strikes ~10/11–10/14; **Zelensky lifted the pause 10/15** (FT). KB-195.
+- **Bloomberg 4-wk ~3.7 to 10/11** (10/13, B3), Black Sea loading slow (Sheskharis ~4-day moorings). KB-197.
+- Rostov NZNP terminal fire spread to 8 of 12 tanks (no new strike); RIO spill reached the Novorossiysk/Anapa coast and the CPC SPM area; Russia-attributed attack on two cargo ships off Bulgaria 10/13 (one sunk, 11 missing).
+- Diesel: a partial 500 kt permission (not a lift), producer ban signed to 10/31; first post-deal cargo ~40 kt Primorsk 10/13. KB-198.
+- Crash: the 23:59 ET 10/14 session ran `strike_feed.py` (done 00:01 ET), then died with the box ~03:08 ET. Its MATCHES file was complete (0 matches) and is committed (9155db24d). ⚠️ The feed did NOT hang: both feed files are stamped 00:01, so whatever stalled the session came after the feed.
 
-## 10/10 — WHAT LANDED / WHAT IS OWED
-- DONE: items 1-4 of the spawn read and recorded (STATUS ACTIVE 2026-10-10; KB-183…191; STRIKES +4; inbox 2/2 drained). Marks unchanged: 5 / ⚪1 KILLED / 3.
-- ⛔ **OPEN C2 LEAD — Azov port, two vessels 10/10, types unknown (KB-184).** If a tanker at an oil berth: C2 re-arms at 5 as of 10/10. First check: Palaemon 5-11 Oct; portnews.ru; Slyusar's later posts.
-- NOT DONE (next session): packets to BRENT / YURI / DEWEY (WALTER's -003 card already routed the facts; my adds = KB-187 price-cap/mainstream-tonnage INFERENCE → HAWK, KB-190 ban-lift confound → YURI, KB-183/189 answers to DEWEY claims 3-4) · NEXUS_BRIEF refresh · closeout claim/orphan checks · the 10/7 STATUS rotation if the next block breaks the cap (31,701 B now).
-- 10/15 L544: pre-fetch in KB-191 — do NOT grade early.
+## WHAT I DID THIS SESSION
+- **L544 graded NOT MET; C1 stays 5** (KB-196). **L666 recorded OPEN-UNRESOLVED** with sources named (KB-194). **OSP-06 resolved CONFIRMED** (PREDICTIONS.tsv, KB-197).
+- Palaemon 5–11 Oct read (4 events, all already rowed). STRIKES +2 rows, 3 updated in place, **mark 10/07 → 10/11 BOUNDED**. Feed candidates 32/32 dispositioned.
+- KB-193…199; KB-190 qualified; KB-191/192 superseded. VX re-pull clock advanced (no state change).
+- Inbox **28/28** drained (board_log + `git mv`), re-census 0/0. BOARD HYDROCARBON_INFRA 10/10–15 checked: nothing missed.
+- Corrections: COR-20261012-16 APPLIED (KB-198), COR-20261012-31 NO-OP → `registry/corrections_receipts.tsv` (first receipts file).
+- STATUS rotated (lines 1–82 verbatim → `archive/STATUS_ROTATED_2026-10-15.md`, crc32 2258527252) and rewritten; the 10/1 Swedish Club row CORRECTED (HAWK graded it 9/21). NEXUS_BRIEF refreshed.
+- Packets (carve-out ①): BRENT (OSP-06/L544/pause; ask: confirm the 10/11 print at text), HAWK (Azov answer, discrepancy fixed, canvass owed), RED (OSP-06). Memo to PROME.
+- C4 own-charter fix: `CLAUDE.md` Git line ("packets stay untracked") replaced with the root carve-out ① pointer. PROME verifies.
 
-# (prior) OSPREY SCRATCH — 2026-10-09 (Fri)
+## NEXT SESSION (dated, future-verifiable)
+1. **~10/19+:** read **Palaemon 12–18 Oct** (C3 10/12–10/18; any Azov follow-up). It is the instrument that can certify the ledger past 10/11.
+2. **10/23:** L544 re-check — the first date the C1 14-day leg can be met. Any refinery row after the 10/15 lift resets it. The aggregate leg still needs two independent prints <40%.
+3. **Before 10/27:** run the **C3 limb-2 dated canvass** (10 outlets + TD6) for HAWK to grade (KB-HAWK-428). **10/27** = the earliest C3 limb-1 kill (RIO anchor).
+4. **11/2:** C1 aggregate blackout = 60 days from S&P/CERA 9/3 → flag the §1b test UNREACHABLE to PROME if nothing has printed (11/7 if IIR's 9/8 volume print counts).
+5. **11/8:** §5 30-day EXIT RULES re-read.
+6. Re-check Saratov 10/14 (which energy facility; Saratov refinery status) and Azov hull identities when a source appears.
 
-## CURRENT MARKS
-C1 / C2 / C3 = **5 / ⚪1 KILLED (dormant-armed; last live mark 5) / 3**. Band **~30%, 25–35% EST**, unchanged. Prices come from BRENT. This was a PROME Tier-1 due-row wake (DOCKET L623, prome-75). Full state: STATUS; verdict record: `domain/energy-strikes/C2_KILL_EVAL_2026-10-09.md`.
+## OPEN THREADS / WATCHES
+- 🔴 First refinery strike after the 10/15 lift (resets L544's 14-day leg; tests whether the pause was physical).
+- 🟠 Azov 10/10 hulls (void-on-backfill for the C2 kill as of 10/10). Bloomberg 4-wk 10/11 at text (BRENT asked) — a ≥3.9 in-window print flips OSP-06.
+- 🟡 Carried, unchanged: OWED-30 write-up · 42/50 basis pair · 43 Moscow barrels · 44 Ust-Luga condensate · 45 feed dispositions git-ignored · 48 AWRP · 51 midstream backfill (Samara LPDS ×3, Volodarskaya live in October).
 
-## 10/9 PM: L624 FIX PASS 2 (PROME spawn prome-75, ~12:55–13:05 ET; this task only)
-- READ 2 found STILL UNRESOLVED (1 ❌8). Acceptance was committed first (`88d715d03`), then the fix (`4ea2b4539`). Any link that could be newer than the followed bulletin is now named and fails closed (`BULLETIN_NEWEST_UNSURE`).
-- Tests: 32 OK on the fixed code, 14 F on `04d8f06be`. The residue block is in `scripts/tests/ACCEPTANCE_L624_strike_feed_follow_newest.md`.
-- ⛔ **Two-correction stop TRIPPED on `strike_feed.py`.** No third pass of my own; any change goes through PROME's READ 3. The feed is **WITHHELD** until READ 3 is clean, and the C2 feed leg stays UNVERIFIED.
-- BRENT 10/9: 3.76 is not confirmed at text, and there is a 2025 3.74 date trap. It stays B3; no cell moved (KB-182, C2 record §2 receipt).
-- Inbox: 3 packets consumed (PROME read-1, PROME read-2, BRENT) and moved to `processed/`.
+## PREDICTIONS DUE / DECISIONS PENDING
+- No live prediction (book empty after OSP-06). No Will-gated decision open. No new prediction was forced by this session's evidence.
 
-## CHANGES SINCE LAST SESSION (10/8)
-- ⚪ **C2 KILLED on its letter.** Limb 1 is 30/30 (Novorossiysk 9/9). Limb 2: the Bloomberg 4-wk was ≥ 3.5 throughout (3.76 to 10/4), and there is no shut-in signal (the 9/20 halt was offtake deterrence and reversed).
-- 🔄 **C3: AFRAMAX RIO QUALIFIES.** Zelensky's 10/7 "response in the Black Sea" post carries the tanker's video. **3/21; the earliest kill is 10/27.**
-- Volgograd halt VERIFIED (Reuters factbox, 10/2). Omsk 10/8. **Ukhta 10/9 = C1 anchor (0/30).** Volodarskaya products LPDS 10/6.
-- Swept-complete mark **9/20 → 10/07 (BOUNDED)**.
-
-## WHAT I DID
-- Ran `strike_feed.py` (33 rows, 26 NONE, all dispositioned in the feed file) and a mechanism-level sweep (EN+RU, name-free plus nine ports, Reuters factbox).
-- STRIKES: +6 rows, 2 updated in place. KB-177…181. VX refreshed (UKR-01, SHADOW-01).
-- **Feed residue decision:** `MATCHES_2026-09-15/16/29.tsv` are the designed audit trail, not residue, so they are **COMMITTED**, not trashed. They are 6/6 precise (KB-181).
-- Inbox drained 7/7 (DAEDALUS items 1 and 2 DONE; WALTER R3 adopt/decline sent to PROME; WQ-399 receipt line fixed in CLAUDE.md).
-- Packets: HAWK (C3 limb-2 grade ask) and BRENT (confirm the 3.76 print). Memo to PROME.
-
-## ⛔ THE THING NEXT SESSION MUST NOT FORGET
-**The C2 kill is void-on-backfill.** If any in-geography crude-terminal, pipeline or oil-port strike dated **after 9/9** surfaces, C2 re-arms at 5 as of that date. First checks:
-- the **Palaemon 5–11 Oct** bulletin (unpublished on 10/9);
-- a **port-level Novorossiysk** figure for late September and October, since the restart is only inferred.
-
-## NEXT SESSION
-1. **10/8–10/15, OSP-06:** Bloomberg 4-wk to 10/11 (~10/13). 3.76 to 10/4 does not fail it; ≥ 3.9 would.
-2. **10/15, L544 C1 5→4 first evaluation:** the 14-day leg is unmet (Ukhta 10/9). Check the aggregate leg, the blackout count from 9/3, and the **data-decree goods list (SEARCH-NOT-FOUND 10/9)**.
-3. **10/27:** the earliest C3 limb-1 kill date (RIO anchor). HAWK owes the limb-2 grade.
-4. **Unidentified:** Zelensky's 10/6–7 "oil facilities in Samara, Astrakhan, Perm" (inland or Caspian, so they cannot move C2).
-5. **Carried:** OWED-30 write-up · 42/50 basis pair · 43 Moscow barrels · 44 Ust-Luga condensate · 45 FEED_CANDIDATES dispositions still git-ignored · 48 AWRP · 51 midstream backfill (now live in October: Samara, Volodarskaya).
-
-## PREDICTIONS / DECISIONS
-OSP-06 is OPEN at 45%, deadline 10/15. **No Will-gated decision is open.** The C2 kill is a letter-fired channel kill (§1), executed by the owner: no threshold moved and no capital path.
-
-## MAIL STATE
-- Inbox 7/7 consumed; the re-census reads 0 / 0.
-- Sent 10/9: HAWK, BRENT, and the PROME memo `PROME/inbox/2026-10-09_from-OSPREY_c2-kill-eval-c3-rio-attribution.md`.
+## MAIL STATE (one line per surface)
+- Inbox: clear (0 top-level).
+- WALTER lane: clear (0).
+- Outbox: packets committed into BRENT/HAWK/RED inboxes 10/15; receiver integration UNKNOWN.
 
 ## PENDING PUSH / GIT
-Committed path-scoped. Push via safe-push; the receipt is in the PROME memo or the SendMessage.
+- Path-scoped commits; push via `scripts/safe-push.sh` at closeout — receipt in the PROME memo commit/SendMessage.

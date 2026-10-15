@@ -76,7 +76,7 @@ Write a single `.md` file to `outbox/` per signal:
 ### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 - Pathspec: `AGENTS/OSPREY/` — path-scoped commits only, run from repo root.
 - Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
-- **OSPREY-specific:** signals you deliver into another agent's inbox stay untracked — flag them to Will rather than committing them yourself.
+- **Packets you author into another agent's inbox** are yours to commit, explicitly pathed, recipient named in the subject — root `CLAUDE.md` Git Protocol carve-out ① governs (an uncommitted packet never reaches the recipient). *(C4 own-charter fix 2026-10-15, flagged by PROME at DOCKET L666: the prior line — "signals you deliver into another agent's inbox stay untracked — flag them to Will rather than committing them yourself" — contradicted carve-out ①. No authority, route or threshold moved; PROME verifies.)*
 
 ---
 
