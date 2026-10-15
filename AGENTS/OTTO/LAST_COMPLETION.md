@@ -1,21 +1,21 @@
-# OTTO COMPLETION — 2026-10-04 (session 027)
+# OTTO COMPLETION — 2026-10-14 (session 028)
 
-> **One sentence for the next boot:** Hertz -006 is dispositioned ADDS A WATCH: the Australian business sale itself has no effect on US used-car supply, and the only route to a US fleet dump (an HVF III amortization event or a Hertz Ch.11) is now a dated ~12/1 CATALYSTS row. The 10/1 cluster is still owed.
+> **One sentence for the next boot:** the 10/1 cluster is done (seasoning repair, August 10-D read, Tricolor list) and the inbox is empty except NEXUS's commission #3 (due 10/19). The next ten days are dense, starting with tomorrow's CRMT expiry and SDART/BLAST 10-D cycle. A file review left THESIS v1.6 and a WINTERKORN refresh owed.
 
 ## STATUS
-✅ PROME explicit intake spawn (packet `60e6ccb36`, Will's word 17:23 ET), bounded to ONE item. Handoff + packet consumed (board_log +2, both moved to processed). No trade, threshold, prediction or confidence changed.
+✅ Will-launched session. Boot, PROME's WQ-413 inbox drain (9/9), the 10/1 cluster, and a Will-directed file review with Tier-1 fixes + CLAUDE.md v2.8 (Will-approved). No thesis conviction, threshold or trade changed; OTTO-34 re-checked, held at 50%.
 
 ## CHANGED
-`workbook/ML.tsv` ML-OTTO-287 · `docket/CATALYSTS.tsv` (+1 row ~2026-12-01, Hertz watch) · `STATUS.md` (header, s027 pointer, timeline row) · `board_log.tsv` (+2) · `MEMORY.md` Session Notes · NEXUS_BRIEF stamp · PROME memo.
+`scripts/panel_10d.py` (issuer seasoning clock, (deal, collection_period) key, fail-closed check, --backfill/--selftest) · `workbook/PANEL_10D.tsv` 137→147 · `scripts/predictions_due.py` (NEEDS_VERIFY visible) · `CLAUDE.md` v2.8 · STATUS / STATUS_COLD §14 · CATALYSTS (+15 rows, 5 swept) · ML-OTTO-288..294 · PREDICTIONS OTTO-34 note · CHANGELOG (Tricolor perimeter) · MAINTENANCE (a)+(b) · MEMORY · WINTERKORN_MEMORY · registry/ · research/ (ECF 149 note; file-review reports).
 
 ## RESULT
-Australian sale = owner change, not liquidation: fleet in Australia on its own ABS ($226M, 1.8% of Hertz vehicle debt; 10-Q Q2-26). US channel open at creation: $834.75M HVF III notes priced 8/27; liquidity ~$984M at Q2 end. No 8-K on the Australian sale (EDGAR 10/4). WALTER's withdrawal of "strengthens" confirmed.
+August: 39 of 39 deal-months worse YoY; Carvana tier gap +1.73 → +3.17 on a one-month level move (BLAST 60+ DQ +1.0–1.2pp). Tricolor ECF 149 charges 11 of ≥13 TAST deals (adds 4 pre-2022 deals; 2022-2 and 2023-2 uncharged). Manheim Sept −0.6% YoY. CRMT bridged to 10/15.
 
 ## GAPS
-The Australian-sale report and the "50s" loan marks are unverified (no filing, no wire read). The Q3 10-Q date is unverified. 10/1 fired rows not swept. WALTER handoffs -021/-022 unread. No independent read of the disposition.
+Seasoning repair NOT independently verified. BLAST clock exhibit-derived (CARL to rule). Two OTTO errors tonight, both corrected (Tricolor "every securitization"; recovery "owed"). WINTERKORN not run (last 7/25). Signal-dashboard Fitch and lender-watchlist rows still Feb–Mar vintage.
 
 ## WILL_NEEDS
-None.
+LESSONS.md: archive or keep (parked since June). Otherwise none.
 
 ## FOLLOW-UP
-1. The 10/1 cluster (10-D write + seasoning/upsert repair → CARL; Tricolor Counts 7–8; OTTO-12; BROCK's L479 grade). 2. Drain -021/-022. 3. ~12/1 Hertz watch; read the Q3 10-Q when filed. 4. Recovery <28% trigger state still owed to CARL.
+1. 10/15 CRMT read (after BROCK) + SDART/BLAST 10-D. 2. 10/16 M&T (OTTO-31). 3. 10/19 NEXUS commission #3. 4. 10/20 WINTERKORN (refresh hints first). 5. THESIS v1.6 + archive sweep (reports: `research/2026-10-14_file_review/`).

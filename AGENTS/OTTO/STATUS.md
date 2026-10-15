@@ -2,13 +2,11 @@
 
 **Signal Status:** 🔴🔴 fraud-leg CRITICAL (**both thesis mechanisms criminally charged; First Brands CONVERTED TO CH.7 — order ENTERED 9/1, VERIFIED at Dkt 3748**) / 🟠 systemic-funding-leg DISCONFIRMED | **Last Updated:** 2026-10-14 EDT (**session 028** — Will-launched catch-up boot + PROME-requested inbox drain) · prior s027 2026-10-04 (Hertz -006 intake)
 
-> **📌 Session 028 (Oct 14, Wed evening — Will-launched boot + PROME WQ-413 inbox drain). No thesis, threshold, prediction or confidence changed.**
-> - **CRMT ladder now six bridges** (read at primary): STD 10/1 → **10/8** (agreed 9/30, a day early) → **10/15** (agreed 10/8, filed 16:05:15 ET). Events of default still disclosed. BROCK graded both (L479, L585). Next: **10/15 STD (L651)**, backstop #4 **10/21 (L652)**. ML-OTTO-288.
-> - **THE HINGE moved slightly negative:** Manheim **September 205.9 = −0.6% YoY / −1.1% MoM** (adjusted, released 10/7), after July +1.3% and mid-Aug flat. ⚠️ One month, inside OTTO's ±3% SDT gate — **not** "materially negative". ML-OTTO-289.
-> - **Inbox:** 8 of 9 consumed (board_log). **Kept:** WALTER `SIG-W-20261008-033` (WQ-399) — the receipt half is DONE (COR-20261012-27 receipted NO-OP with the new fields); the own-charter receipt-line fix is DONE too (`5b0a05730`, Will's OK 20:26 ET); -033 consumed.
-> - **DAEDALUS Falsification #4 (10/8), answered:** the **OTTO-12 attempt scheduled 10/1 did NOT run** (s027 was bounded; OTTO dark 10/5–10/13). Dated reads now on the calendar: **OTTO-31 at M&T Q3 10/16**, **OTTO-12 at Ally Q3 10/20**. **OTTO-07 shelf re-run DEFERRED, review 2026-10-21.**
-> - ✅ **10/1 deliverable DONE (13 days late):** issuer seasoning clock + (deal, collection_period) upsert key; full backfill, 0 of 137 values moved, CARL n=3 to the cent at 29/30/31 (ML-OTTO-291, MAINTENANCE). ⚠️ BLAST clock exhibit-derived (Bridgecrest states none). August read: 39 of 39 worse, Carvana gap +1.73 → +3.17 (ML-OTTO-292). ⛔ **Correction:** the recovery <28% trigger was NOT owed; OTTO routed it 9/2 (`SIG-OTTO-WALTER-20260902-002` → WALTER `SIG-W-20260903-007`). MEMORY carried a stale "owed". ✅ **Tricolor Counts 7–8 RESOLVED:** the list was filed on time 8/28 (ECF 149) and names **11 of ≥13 TAST deals** (the SEC's 7 outstanding + 4 retired; 2022-2 and 2023-2 NOT charged), plus a never-formed deal. ⛔ My first write-up said "every securitization since 2018" — false, corrected via WALTER (ML-OTTO-294). OTTO had it UNVERIFIED 47 days on press-only searches (ML-OTTO-293). **WINTERKORN has not run since 7/25 and was NOT run in s028** (session scoped by Will to boot + 10/1 work); every CATALYSTS row tagged "NEW s028" is an OTTO hand entry, not WINTERKORN output. Next run **Tue 10/20** (CATALYSTS row).
-> **📌 Cold half — the settled reasoning, resolved predictions, per-vector narrative and prior-session pointers are VERBATIM in [`STATUS_COLD.md`](STATUS_COLD.md)** (s026/s027 pointers and the 9/30 resolved-set note → §14) (not a boot read; hot STATUS wins on any disagreement).
+> **📌 Session 028 (Oct 14, Wed evening — Will-launched; boot, PROME inbox drain, the 10/1 cluster, a file review). No thesis conviction, threshold or trade changed; OTTO-34 re-checked and held at 50%.**
+> - **DONE:** 10-D seasoning/upsert repair (13 days late; 0 of 137 values moved; packet to CARL, his BLAST ruling asked) · August 10-D read: **39 of 39 worse YoY, Carvana tier gap +1.73 → +3.17 on a one-month level move** (ML-OTTO-292) · Tricolor Counts 7–8 **RESOLVED**: ECF 149 (filed on time 8/28) charges **11 of ≥13 TAST deals** (ML-OTTO-293/294) · CRMT bridges 5–6 to **10/15** (BROCK grades) · Manheim **Sept −0.6% YoY** (inside the ±3% gate) · inbox 9 of 9 + CLAUDE.md v2.8 (Will-approved).
+> - ⛔ **Two OTTO errors, both corrected same evening:** (1) "every Tricolor securitization since 2018": false, the 15G inventory has 2022-2 and 2023-2 uncharged (WALTER correction SIG-W-20261014-033). (2) The recovery <28% trigger was carried as "owed"; it FIRED 9/2. The stale line lived in CLAUDE.md, MEMORY and LAST_COMPLETION and misled both this boot and PROME.
+> - **OWED next:** CRMT 10/15 read (BROCK) · ~10/15 SDART/BLAST 10-D cycle · M&T 10/16 (OTTO-31) · **NEXUS commission #3 due 10/19** (packet in `inbox/`) · WINTERKORN run 10/20 (lapsed since 7/25; "NEW s028" docket rows are OTTO hand entries, not its output) · OTTO-07 shelf re-run 10/21 · **THESIS v1.6 rewrite** + WINTERKORN spec/memory refresh + PREDICTIONS_ARCHIVE scoreboard and two post-mortems + archive sweep (file-review Tier 3–4; reviewer reports in `LAST_COMPLETION.md`).
+> **📌 Cold half — the settled reasoning, resolved predictions, per-vector narrative and prior-session pointers are VERBATIM in [`STATUS_COLD.md`](STATUS_COLD.md)** (s026–s028 → §14) (not a boot read; hot STATUS wins on any disagreement).
 
 ---
 
@@ -139,12 +137,12 @@
 
 ## KEY DOCS
 
-`thesis/` (THESIS · PREDICTIONS · CHANGELOG) · `docket/CATALYSTS.tsv` · `workbook/` · `research/outputs/` · `TRADE.md`. Prior KEY DOCS block + archive notes verbatim → `STATUS_COLD.md` §11.
+`thesis/` (THESIS · PREDICTIONS · CHANGELOG) · `docket/CATALYSTS.tsv` · `workbook/` · `research/outputs/` · `TRADE.md`. Older KEY DOCS → `STATUS_COLD.md` §11.
 
 ---
 
 ## BOTTOM LINE
 
-**Fraud-leg 🔴🔴 / both systemic legs 🟠 DISCONFIRMED. Nothing moved the thesis.** *(The s021 BOTTOM LINE is verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §10.)*
+**Fraud-leg 🔴🔴 / both systemic legs 🟠 DISCONFIRMED. Nothing moved the thesis.** *(Older bottom lines → `STATUS_COLD.md` §10.)*
 
-**Nearest resolvers (s028):** **10/15:** CRMT bridge-6 STD (BROCK) · **10/16:** M&T Q3 (OTTO-31) · **10/20:** Ally Q3 (OTTO-12) · **10/21:** CRMT backstop #4 + Carvana T-7 · **10/28:** Carvana Q3.
+**Nearest resolvers:** the CRITICAL TIMELINE above.

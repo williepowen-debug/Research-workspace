@@ -16,6 +16,13 @@ pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` exist
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
 
+### 2026-10-14 — Tricolor: the criminal ABS charge reaches back to 2018 after all (reverses the 7/25 "2018-2021 not implicated" retraction)
+
+**Was → Is.** *Was (7/25 retraction, carried in THESIS L90/L93):* the indictment's "enterprise since at least 2018" did NOT implicate the 2018-2021 vintages, because "Tricolor securitized only **2** deals in that window vs **9** in 2022-2025". *Is:* the government's Bill of Particulars for Counts 7–8 (ECF 149, filed 2026-08-28) charges **11 named TAST deals, including 4 from 2018–2021** (2018-1, 2018-2, 2020-1, 2021-1), plus a never-formed SPV4 deal. At least **13** Tricolor deals exist (ECF 149 ∪ OTTO's ABS-15G inventory, which adds 2022-2 and 2023-2, both retired and NOT charged). The 7/25 count of "2 in 2018-2021" was itself wrong: there were at least 4.
+**What it moves:** the alleged **duration** of the ABS fraud (back to 2018), **not** the loss: the retired deals repaid. No new counterparty is named (OTTO-33 unchanged). No conviction or confidence moves.
+**Trigger:** the recurring Counts 7–8 check (CATALYSTS 10/1), resolved on the CourtListener docket after 47 days of press-only SEARCH-NOT-FOUND.
+**Touches:** ML-OTTO-293/294 · `research/2026-10-14_tricolor_bill_of_particulars_dkt149.md` · STATUS Tricolor vector · WALTER SIG-W-20261014-030, corrected by -033 (OTTO's own "every securitization since 2018" headline was false). **Owed:** THESIS L90/L93 rewrite at v1.6 (not done in s028).
+
 ### 2026-09-28 — OTTO-10: the 8/14 cut keeps its direction and loses its reason (the instrument series is not an Equifax series)
 
 **Was → Is.** *Was:* OTTO-10 cut 65% → 20% on 8/14 because "the Equifax subprime UNIT share" was decelerating downward (16.5 → 15.2 → 14.7%). *Is:* that series appears in no Equifax table. At primary (Equifax Credit Trends, "Auto: Total", VantageScore 3.0 <620, new + used combined) the subprime share of originations is **RISING** on both bases: accounts 15.4 / 15.7 / 16.8% (2023–25) → 19.1% (Q1-2026 YTD), and balances 12.4 / 12.8 / 13.8% → 15.9%. The claim moves toward FALSIFIED for the opposite reason. **Also refuted:** the 8/14 near-miss mechanism (unit share falling while dollar share rises), and s020's "the bureaus move in opposite directions". Both are artifacts of the phantom series.
