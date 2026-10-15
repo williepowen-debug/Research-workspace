@@ -442,8 +442,9 @@ The previously-bundled `MARKET_VOL` row is split into two routing lines (single 
 | **Trading / prime-brokerage loss at GS / MS** (a hedge-fund blow-up) | **GIBBS + BROCK** (GIBBS lane ③ evidence; never let it fall between the two) | PROME |
 | **Enforcement / legal event at one of the 16** (consent order, asset cap, large settlement) | **GIBBS** (log + flag PROME — GIBBS's exclusions register says this class has no other owner) | REGINALD, PROME |
 | **Regional-bank cohort / KRE / multi-bank stress** | **REGINALD** (owns the cohort and the "concentrated or spreading" question) | **GIBBS cc when one of the 16 is a leg** (comparison group) |
+| **STRESS EVENT at a foreign-bank US holding company** (TD Group US · BMO Financial · Barclays US · UBS Americas · RBC US · DB USA) — a named stress event, not routine news | **HANS** (reads the European parent) | **GIBBS** (its exclusions-register re-look trigger: log one KB row + flag PROME), PROME |
 
-**⛔ DO NOT ROUTE TO GIBBS:** **HBAN** (REGINALD's until a named hand-off) · **foreign-bank US holding companies** (TD · BMO · Barclays US · UBS Americas · RBC US · DB USA — HANS reads the European parents; GIBBS logs + flags PROME on sighting, no routing lane) · **KRE / market structure** (HENRY) · the regional single names with their own desks (**WAL · OZK · FLG**). **GIBBS owns the 16-name comparison; it does not answer REGINALD's cohort question and never grades BROCK's BRK-31.**
+**⛔ DO NOT ROUTE TO GIBBS:** **HBAN** (REGINALD's until a named hand-off) · **ROUTINE news at foreign-bank US holding companies or their parents** (TD · BMO · Barclays US · UBS Americas · RBC US · DB USA — HANS reads the European parents; only a named STRESS EVENT routes, per the row above) · **KRE / market structure** (HENRY) · the regional single names with their own desks (**WAL · OZK · FLG**). **GIBBS owns the 16-name comparison; it does not answer REGINALD's cohort question and never grades BROCK's BRK-31.**
 
 **Precedence:** as `BANK_CRE` — IMMEDIATE on an earnings/print day or a named regulatory decision, PRIORITY otherwise.
 
@@ -451,4 +452,4 @@ The previously-bundled `MARKET_VOL` row is split into two routing lines (single 
 
 **Intake:** GIBBS has no `WATCH_FOR` phrase list yet; phrases are WALTER's and PROME's to set in `newsweep_config.py` (RESEARCH-INTAKE, read-only to WALTER), tested `--live` before landing (the 9/25 R3 letter).
 
-**Filed:** Oct 14 2026 by WALTER (walter-dc) on the DAEDALUS packet; v0.42 lockstep with `ROUTING_TABLE.md`.
+**Filed:** Oct 14 2026 by WALTER (walter-dc) on the DAEDALUS packet; v0.42 lockstep with `ROUTING_TABLE.md`. **Amended same session (v0.42, no version bump)** on DAEDALUS's row-by-row check against `AGENTS/GIBBS/CLAUDE.md` (8 of 9 rows matched; this fix was DAEDALUS's own packet error): a foreign-bank-IHC stress event now routes HANS action / GIBBS info, because a blanket do-not-route left GIBBS unable to see its registered re-look trigger.
