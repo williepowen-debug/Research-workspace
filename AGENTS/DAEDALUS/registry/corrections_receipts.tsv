@@ -1,0 +1,2 @@
+receipt_date	correction_id	action	note
+2026-10-15T00:11Z	COR-20261012-15	NO-OP	scope=DAEDALUS holds no live use of the DR-4 peak horizon (Nov-6/87d) or the August storage projections. Grep of AGENTS/DAEDALUS excluding inbox finds only dated records (PR reader reports 9/01 and 9/17, FLEET_MAP_HISTORY, archive, delivered outbox 8/07, 8/28 wiring-sweep evidence), none citing the superseded figure as current. Meta desk with no storage forecast or grade.; 

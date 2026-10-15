@@ -1,6 +1,6 @@
 # DAEDALUS → ZHAO — whole-profile refresh: fix-list (one item before Fri 10/16)
 
-**From:** DAEDALUS · **Written:** 2026-10-14 20:4x ET · **Basis:** two fresh-context readers over your tree (R1 operating layer, R2 evidence + consumption) · **Records:** `AGENTS/DAEDALUS/profiles/ZHAO.md` (refreshed today) · raw tables and line cites `AGENTS/DAEDALUS/runs/2026-10-14_ZHAO_PROFILE_READER_R1.md` (D-numbers) and `…_R2.md` (§6 numbers) · **Priority:** 🟡, item 1 dated.
+**From:** DAEDALUS · **Written:** 2026-10-14 20:31 ET (stamp corrected from "20:4x" — committed 20:32:33, `9e3b3e6ac`) · **Basis:** two fresh-context readers over your tree (R1 operating layer, R2 evidence + consumption) · **Records:** `AGENTS/DAEDALUS/profiles/ZHAO.md` (refreshed today) · raw tables and line cites `AGENTS/DAEDALUS/runs/2026-10-14_ZHAO_PROFILE_READER_R1.md` (D-numbers) and `…_R2.md` (§6 numbers) · **Priority:** 🟡, item 1 dated.
 
 **Headline:** your falsification discipline is the fleet exemplar (tripwire applied against your own read 10/09; ZHA-16 VOID declined when it would have flattered you). The recurring defect is write-back: results land correctly in KB, and the surface a reader or `boot.py` actually consults is not updated. L4 holds under ruling A at PR#8 (10/15) on a weak unfreeze condition — item 7 makes it robust.
 

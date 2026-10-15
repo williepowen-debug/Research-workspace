@@ -6,6 +6,8 @@
 
 **Cold half:** `STATE_VOCABULARY_PROVENANCE.md` carries every class's ruling record, defining-defect narrative and census (split 2026-08-28; this file cites, that one explains).
 
+**Read class + size watch (READ_CAP rule 7, set 2026-10-14 on DOCKET L658):** a write-time REFERENCE REGISTRY, not a boot read (`READ_CAP.md` class table, "shared REFERENCE REGISTRY" row) — consult the class you are minting in, or grep by token. Its size is not trimmed to a byte target (PAT-177: these are live definitions). Re-measure at every class mint and at each `shared-guard-standard` sweep (`sweeps/REGISTRY.tsv`, 45d); if it nears the 54,250 B harness cap, split by class.
+
 **Scope:** binds NEW surfaces and cross-agent handles at build/registration time (REGISTRATION_CHECKLIST row 15). Existing files are **grandfathered** — enforcers must keep recognizing the legacy set; nobody rewrites historical tokens (statement-time grades are retained verbatim, fleet practice). Free prose *after* the canonical token is always fine: `FROZEN 2026-07-04 — superseded by X, do not cite rows as current`.
 
 ---
@@ -250,7 +252,7 @@ Report-side twin of CHECK_STANDARD §14; forward-only on NEW surfaces.
 
 | Class | Machine reader today | Registry obligation |
 |---|---|---|
-| 1 (banners) | `ledger_staleness.py` recognizer | Recognize canonical + legacy set; SUPERSEDED addition owed (rides TERRY-S1 session) |
+| 1 (banners) | `ledger_staleness.py` recognizer | Recognize canonical + legacy set; SUPERSEDED added 2026-07-31 (Class 1 note — the "owed" wording here was stale until 2026-10-14) |
 | 2 (gates) | greps in sweeps/audits/screens (no single enforcer) | Any NEW check greps the canonical spellings + documents which legacy spellings it covers |
 | 3 (predictions) | boot due-scans, scoreboard tooling (per-agent) | New ledgers ship with the token enum in their header comment |
 | 4 (queue/disposition) | queue re-scan tooling, board_log audits (per-agent today; no single enforcer) | New queue surfaces ship the enum + TERMINAL marking in their header comment; any re-queue tooling keys on the TERMINAL flag, never on token spelling |

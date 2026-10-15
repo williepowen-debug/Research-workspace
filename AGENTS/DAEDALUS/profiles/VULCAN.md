@@ -4,7 +4,7 @@
 **Staleness trigger:** refresh at the **10/28 EXIT_PROTOCOL §7 re-derivation** or **21 days (2026-10-29)**, whichever first; or at once if a kill-rail leg fires.
 
 ## 1. Identity
-Market desk: the AI-capex / semiconductor / memory cycle as **systemic-risk transmission** through five channels S1–S5 (concentration · memory · power demand · Taiwan chokepoint · financing). Composite **14/25** (from 15 at the 10/01 MU FQ4 grade, S2 3→2), no channel fired, thesis-kill count **1 of 4** (the 4th leg, financing, was ADDED 9/29, so 1/3→1/4 is by addition, not evidence) (`STATUS.md:30,54,72`; `EXIT_PROTOCOL.md:21-26`).
+Market desk: the AI-capex / semiconductor / memory cycle as **systemic-risk transmission** through five channels S1–S5 (concentration · memory · power demand · Taiwan chokepoint · financing). Composite **14/25** (from 15 at the 10/01 MU FQ4 grade, S2 3→2), no channel fired *(as of 10/08 body; **superseded 2026-10-09: composite 15/25, S5 financing FIRED** on Firmus's withdrawn ~US$4.9B ASX IPO, fired-count 1 of 5 — caveats n=1, non-US, equity not debt; VULCAN packet `inbox/processed/2026-10-09_from-VULCAN_composite-14-to-15-s5-fired.md`, record VULCAN STATUS + KB-VULCAN-209)*, thesis-kill count **1 of 4** (the 4th leg, financing, was ADDED 9/29, so 1/3→1/4 is by addition, not evidence) (`STATUS.md:30,54,72`; `EXIT_PROTOCOL.md:21-26`).
 
 ## 2. File anatomy — where the richness lives
 | File | Size / role |
