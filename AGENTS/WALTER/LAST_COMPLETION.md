@@ -3,7 +3,7 @@ Runtime: Claude Code, model Opus 5.5 (claude-opus-5-5), session walter-dc, Will-
 
 ## CURRENT RESTART
 
-2026-10-15T00:41:58Z — walter-dc boot PARTIAL (reads/checks complete; doctor 0 HIGH). Will directed X fix first: refresh token was dead (HTTP 400, rotated elsewhere); re-authorized via background --authorize + Windows browser (design/X_BOOKMARKS_ACCEPTANCE.md 10/10 method); scan then 18 new. Routed 13 signals -015..-027 / 55 handoffs, all on origin (other sessions' pushes carried them; delivery_log reconciled 55 -> delivered): owner returns BOND/LIQUID x2/RED; market/AI -018 IMMEDIATE (CoreWeave 2032 notes ~14.5% relay; S&P -1.11%) -019..-022; energy/Iran -024..-027; -023 UPDATE/correction to -001 (COR-20261014-23). Batches BM-20261015-01 (18 bookmarks) and -02 (13 intake) CLOSED; marks committed f3e0a06b2. Two read-only RULE 9 helpers (Opus) complete: research/2026-10-14_evening-routing/verify-*.md. Live per ListAgents: PROME, RED, NEXUS, DAEDALUS. No pull needed (HEAD==origin at boot); no self-push (foreign staged/dirty work). Later the same session (2026-10-15T01:18:18Z): Will-directed Iran FULL re-verify — three read-only Opus legs (research/2026-10-14_iran-full-sweep/), anchor re-stamped (last full 2026-10-15, next ~10-22; 3 lines rotated verbatim to HISTORY), -032 sweep + -031 correction to -025 (COR-20261014-31); FALCON doorbelled to PROME (dark, 7-day review due 10/14). Inbox drained again: CRUISE missed-capital finding dispositioned MISSED-structural (late -028; packet to CRUISE+PROME; PROME registered CIK fix as DOCKET L707), OTTO x2 -> -029/-030; RED -001 tag fix -023; PROME's WQ-401 item was already discharged 10/10 (cf262bd35; PROME acknowledged). DAEDALUS GIBBS-routing packet LEFT IN INBOX, deferred (see FOLLOW-UP 13).
+2026-10-15T00:41:58Z — walter-dc boot PARTIAL (reads/checks complete; doctor 0 HIGH). Will directed X fix first: refresh token was dead (HTTP 400, rotated elsewhere); re-authorized via background --authorize + Windows browser (design/X_BOOKMARKS_ACCEPTANCE.md 10/10 method); scan then 18 new. Routed 13 signals -015..-027 / 55 handoffs, all on origin (other sessions' pushes carried them; delivery_log reconciled 55 -> delivered): owner returns BOND/LIQUID x2/RED; market/AI -018 IMMEDIATE (CoreWeave 2032 notes ~14.5% relay; S&P -1.11%) -019..-022; energy/Iran -024..-027; -023 UPDATE/correction to -001 (COR-20261014-23). Batches BM-20261015-01 (18 bookmarks) and -02 (13 intake) CLOSED; marks committed f3e0a06b2. Two read-only RULE 9 helpers (Opus) complete: research/2026-10-14_evening-routing/verify-*.md. Live per ListAgents: PROME, RED, NEXUS, DAEDALUS. No pull needed (HEAD==origin at boot); no self-push (foreign staged/dirty work). Later the same session (2026-10-15T01:18:18Z): Will-directed Iran FULL re-verify — three read-only Opus legs (research/2026-10-14_iran-full-sweep/), anchor re-stamped (last full 2026-10-15, next ~10-22; 3 lines rotated verbatim to HISTORY), -032 sweep + -031 correction to -025 (COR-20261014-31); FALCON doorbelled to PROME (dark, 7-day review due 10/14). Inbox drained again: CRUISE missed-capital finding dispositioned MISSED-structural (late -028; packet to CRUISE+PROME; PROME registered CIK fix as DOCKET L707), OTTO x2 -> -029/-030; RED -001 tag fix -023; PROME's WQ-401 item was already discharged 10/10 (cf262bd35; PROME acknowledged). DAEDALUS GIBBS-routing packet LEFT IN INBOX, deferred (see FOLLOW-UP 13). OTTO self-correction routed as -033 (corrects -030; COR-20261014-33).
 
 ## STATUS
 
@@ -113,13 +113,13 @@ Full context/persistence write-back; selected checks, publication, recipient int
   ],
   "delivery": {
     "signal_date": "20261014",
-    "total": 119,
+    "total": 121,
     "delivered": 119,
-    "note": "51 morning + 68 evening handoffs, all on origin after other sessions pushed the train; delivery_log reconciled. Owner integration separate."
+    "note": "51 morning + 70 evening handoffs; 2 from -033 (REGINALD, BROCK; CARL/PROME pull-complete) pending push at this write. Owner integration separate."
   },
   "push": {
-    "all_walter_commits_on_origin": true,
-    "note": "All evening WALTER commits through 28b29bfad (Iran sweep) on origin via other sessions' pushes; walter-dc did not self-push (foreign dirty work). This re-run commit rides the next push."
+    "all_walter_commits_on_origin": false,
+    "note": "Evening WALTER commits through the Iran sweep are on origin via other sessions; the -033 correction commit and this re-run ride the next push. walter-dc did not self-push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
