@@ -1,0 +1,292 @@
+--- a/PROME/tools/prome_gate.py
++++ b/PROME/tools/prome_gate.py
+@@ -286,12 +286,18 @@
+ DID_NOT_RUN = "CHECK DID NOT RUN"   # the marker a check prints when it could not run at all
+ 
+ 
+-def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
+-    """Keep complete evidence on disk; summarize without silently dropping flags."""
++def _check_log_path(name):
++    """The run-dir log path for one check's complete output — ONE naming scheme for
++    run_script and for in-process checks that keep a full list on disk (L548)."""
+     global LOG_DIR
+     if LOG_DIR is None:
+         LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
+-    log = LOG_DIR / f"{len(results):02d}-{re.sub(r'[^a-z0-9]+', '-', name.lower())[:70]}.txt"
++    return LOG_DIR / f"{len(results):02d}-{re.sub(r'[^a-z0-9]+', '-', name.lower())[:70]}.txt"
++
++
++def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
++    """Keep complete evidence on disk; summarize without silently dropping flags."""
++    log = _check_log_path(name)
+     try:
+         with log.open("x", encoding="utf-8") as output:
+             p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
+@@ -1198,13 +1204,18 @@
+            "PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)")
+ 
+ 
+-def check_desk_catalyst_summons():
++def check_desk_catalyst_summons(today=None):
+     """BD-02 summons half (LABOR ask 2026-08-20). For each registered desk
+     catalyst ledger: flag rows dated within SUMMONS_WINDOW_DAYS or past-due.
+-    Advisory — the disposition is 'flag Will to spawn the desk', nothing else."""
+-    today = dt.date.today()
++    Advisory — the disposition is 'flag Will to spawn the desk', nothing else.
++    L548 (2026-10-08): the forward window (TODAY · in Nd) is listed FIRST and in
++    FULL; past-due rows are one bit per desk ('N past-due (oldest D) — owner
++    prunes'); the complete untruncated list goes to the run's check log. Before
++    this, flags sorted date-ascending and printed [:4], so past-due rows hid
++    every in-window row the check exists to show."""
++    today = today or dt.date.today()
+     horizon = today + dt.timedelta(days=SUMMONS_WINDOW_DAYS)
+-    flags, dead_ledgers = [], []
++    window, past, dead_ledgers, undated = [], {}, [], {}
+     for desk, rel in SUMMONS_LEDGERS.items():
+         path = ROOT / rel
+         if not path.exists():
+@@ -1215,6 +1226,7 @@
+                 for row in csv.DictReader(f, delimiter="\t"):
+                     m = re.match(r"(\d{4}-\d{2}-\d{2})", (row.get("date") or "").strip())
+                     if not m:
++                        undated[desk] = undated.get(desk, 0) + 1
+                         continue
+                     d = dt.date.fromisoformat(m.group(1))
+                     if d > horizon:
+@@ -1223,14 +1235,29 @@
+                     ev = (row.get("event") or "?").strip()[:45]
+                     when = (f"PAST-DUE {(today - d).days}d — ungraded?" if d < today
+                             else ("TODAY" if d == today else f"in {(d - today).days}d"))
+-                    flags.append((d, f"{desk} {d} [{pri}] {ev} ({when})"))
++                    line = f"{desk} {d} [{pri}] {ev} ({when})"
++                    (past.setdefault(desk, []) if d < today else window).append((d, line))
+         except Exception as e:
+             dead_ledgers.append(f"{desk} unreadable: {type(e).__name__}")
+-    flags.sort()
+-    detail_bits = dead_ledgers + [s for _, s in flags]
+-    record(ADVISE, "desk catalyst summons (BD-02)", not detail_bits,
+-           " · ".join(detail_bits[:4]) + (f" (+{len(detail_bits)-4} more)" if len(detail_bits) > 4 else "")
+-           if detail_bits else f"{len(SUMMONS_LEDGERS)} desk ledger(s) quiet inside {SUMMONS_WINDOW_DAYS}d",
++    window.sort()
++    past_bits = [f"{desk} {len(rows)} past-due (oldest {min(rows)[0]}) — owner prunes"
++                 for desk, rows in sorted(past.items(), key=lambda kv: (min(kv[1])[0], kv[0]))]
++    detail_bits = [s for _, s in window] + dead_ledgers + past_bits
++    if detail_bits:
++        detail = " · ".join(detail_bits)
++        full = ([s for _, s in window] + dead_ledgers
++                + [s for desk in past for _, s in sorted(past[desk])]
++                + [f"{desk} {n} row(s) with no parseable date — skipped" for desk, n in undated.items()])
++        try:
++            log = _check_log_path("desk catalyst summons (BD-02)")
++            with log.open("x", encoding="utf-8") as out:
++                out.write("\n".join(full) + "\n")
++            detail += f"\n       full output: {log}"
++        except OSError as e:
++            detail += f"\n       full output: UNAVAILABLE ({type(e).__name__}: {str(e)[:80]})"
++    else:
++        detail = f"{len(SUMMONS_LEDGERS)} desk ledger(s) quiet inside {SUMMONS_WINDOW_DAYS}d"
++    record(ADVISE, "desk catalyst summons (BD-02)", not detail_bits, detail,
+            "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — "
+            "never grade on the owner's behalf; registry = SUMMONS_LEDGERS above")
+ 
+--- /dev/null
++++ b/PROME/tools/tests/test_summons_window_first_L548.py
+@@ -0,0 +1,198 @@
++#!/usr/bin/env python3
++"""Falsification set for DOCKET L548 — the desk-catalyst summons check must never hide the rows it exists to show.
++
++Defect: check_desk_catalyst_summons sorted every flag by date ASCENDING and printed detail_bits[:4] with no
++full-output log, so a ledger carrying past-due rows pushed every in-window row into '(+N more)'.
++Test list = the acceptance conditions written BEFORE the edit
++(AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/ACCEPTANCE.md, AC-a..AC-g), not the bug report.
++
++Frozen fixtures in a tempdir — never the live ledgers. The clock is injected (AC-g).
++Run: python3 -W error::ResourceWarning -m unittest PROME/tools/tests/test_summons_window_first_L548.py
++"""
++import datetime as dt
++import sys
++import tempfile
++import unittest
++from pathlib import Path
++
++sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
++import prome_gate  # noqa: E402
++
++TODAY = dt.date(2026, 9, 29)
++HEADER = "date\tevent\twhat_to_check\tthreshold_signal\tpriority\twho_cares\tnotes\tdate_class\n"
++NAME = "desk catalyst summons (BD-02)"
++
++
++def row(date, event, pri="P1"):
++    return f"{date}\t{event}\tcheck\tsignal\t{pri}\tPROME\tnote\tFIXED\n"
++
++
++class SummonsFixture(unittest.TestCase):
++    def setUp(self):
++        self._tmp = tempfile.TemporaryDirectory()
++        self.root = Path(self._tmp.name)
++        self.logs = self.root / "_logs"
++        self.logs.mkdir()
++        self._saved = (prome_gate.ROOT, prome_gate.SUMMONS_LEDGERS, prome_gate.LOG_DIR,
++                       prome_gate.SUMMONS_WINDOW_DAYS)
++        prome_gate.ROOT = self.root
++        prome_gate.LOG_DIR = self.logs
++        prome_gate.SUMMONS_WINDOW_DAYS = 2
++        prome_gate.SUMMONS_LEDGERS = {}
++        prome_gate.results.clear()
++        self.addCleanup(self._restore)
++
++    def _restore(self):
++        (prome_gate.ROOT, prome_gate.SUMMONS_LEDGERS, prome_gate.LOG_DIR,
++         prome_gate.SUMMONS_WINDOW_DAYS) = self._saved
++        prome_gate.results.clear()
++        self._tmp.cleanup()
++
++    def ledger(self, desk, rows, raw=None):
++        rel = f"AGENTS/{desk}/docket/CATALYSTS.tsv"
++        p = self.root / rel
++        p.parent.mkdir(parents=True, exist_ok=True)
++        p.write_text(raw if raw is not None else HEADER + "".join(rows), encoding="utf-8")
++        prome_gate.SUMMONS_LEDGERS[desk] = rel
++
++    def run_check(self):
++        prome_gate.results.clear()
++        try:
++            prome_gate.check_desk_catalyst_summons(today=TODAY)
++        except TypeError:
++            # pre-fix signature has no clock: patch date.today via a subclass so the
++            # FAILING run still evaluates the defect itself rather than erroring out
++            class _D(dt.date):
++                @classmethod
++                def today(cls):
++                    return TODAY
++            saved = prome_gate.dt.date
++            prome_gate.dt.date = _D
++            try:
++                prome_gate.check_desk_catalyst_summons()
++            finally:
++                prome_gate.dt.date = saved
++        res = [r for r in prome_gate.results if r[1] == NAME]
++        self.assertEqual(len(res), 1)
++        return res[0]
++
++    def head(self, detail):
++        return detail.split("\n")[0]
++
++
++class TestWindowFirst(SummonsFixture):
++    def test_vulcan_reproduction_25_past_4_window(self):
++        """AC-a/AC-b: the 9/29 shape — 25 past-due rows never hide the 4 in-window rows."""
++        past = [row((TODAY - dt.timedelta(days=i + 1)).isoformat(), f"old {i}") for i in range(25)]
++        window = [row("2026-09-30", f"window {i}") for i in range(4)]
++        self.ledger("VULCAN", past + window)
++        sev, name, ok, detail, owner = self.run_check()
++        head = self.head(detail)
++        for i in range(4):
++            self.assertIn(f"window {i}", head)
++        self.assertIn("VULCAN 25 past-due (oldest 2026-09-04) — owner prunes", head)
++        self.assertLess(head.index("window 3"), head.index("past-due"))
++        self.assertNotIn("more)", head)
++        self.assertNotIn("old 0", head)            # past-due rows are summarized, not listed
++
++    def test_two_desks_interleaved_with_past_due(self):
++        """Overlap: LABOR's in-window row is not displaced by VULCAN's rows (9/29 ARGUS r1 ❌2)."""
++        self.ledger("LABOR", [row("2026-10-01", "claims"), row("2026-09-01", "labor stale")])
++        self.ledger("VULCAN", [row("2026-09-30", f"v{i}") for i in range(4)]
++                    + [row("2026-08-28", "v stale"), row("2026-09-04", "v stale2")])
++        head = self.head(self.run_check()[3])
++        self.assertIn("LABOR 2026-10-01 [P1] claims (in 2d)", head)
++        for i in range(4):
++            self.assertIn(f"VULCAN 2026-09-30 [P1] v{i} (in 1d)", head)
++        self.assertLess(head.index("2026-09-30"), head.index("2026-10-01"))   # window sorted by date
++        self.assertIn("LABOR 1 past-due (oldest 2026-09-01) — owner prunes", head)
++        self.assertIn("VULCAN 2 past-due (oldest 2026-08-28) — owner prunes", head)
++        self.assertLess(head.index("claims"), head.index("past-due"))
++
++    def test_today_and_horizon_rows(self):
++        """Ordinary: TODAY flags as TODAY; today+N is in the window; today+N+1 is not."""
++        self.ledger("LABOR", [row("2026-09-29", "today row"), row("2026-10-01", "edge row"),
++                              row("2026-10-02", "beyond row")])
++        sev, name, ok, detail, owner = self.run_check()
++        head = self.head(detail)
++        self.assertIn("today row (TODAY)", head)
++        self.assertIn("edge row (in 2d)", head)
++        self.assertNotIn("beyond row", detail)
++        self.assertFalse(ok)
++
++    def test_only_past_due(self):
++        self.ledger("VULCAN", [row("2026-09-01", "a"), row("2026-09-10", "b")])
++        sev, name, ok, detail, owner = self.run_check()
++        self.assertFalse(ok)
++        self.assertEqual(self.head(detail), "VULCAN 2 past-due (oldest 2026-09-01) — owner prunes")
++
++    def test_full_list_written_to_run_log(self):
++        """AC-c: every row, untruncated, in a LOG_DIR file named as run_script names its logs."""
++        past = [row((TODAY - dt.timedelta(days=i + 1)).isoformat(), f"old {i}") for i in range(25)]
++        self.ledger("VULCAN", past + [row("2026-09-30", "win")])
++        detail = self.run_check()[3]
++        self.assertIn("\n       full output: ", detail)
++        log = Path(detail.split("full output: ")[1].strip())
++        self.assertEqual(log.parent, self.logs)
++        self.assertRegex(log.name, r"^\d{2}-desk-catalyst-summons-bd-02-?\.txt$")
++        body = log.read_text(encoding="utf-8")
++        for i in range(25):
++            self.assertIn(f"old {i}", body)
++        self.assertIn("win (in 1d)", body)
++        self.assertIn("PAST-DUE 1d — ungraded?", body)
++
++    def test_log_failure_never_loses_the_check(self):
++        """AC-c: an unwritable LOG_DIR degrades to a named UNAVAILABLE, the detail still carries the window."""
++        prome_gate.LOG_DIR = self.root / "no" / "such" / "dir"
++        self.ledger("VULCAN", [row("2026-09-30", "win")])
++        sev, name, ok, detail, owner = self.run_check()
++        self.assertIn("win (in 1d)", self.head(detail))
++        self.assertIn("full output: UNAVAILABLE", detail)
++
++
++class TestContractUnchanged(SummonsFixture):
++    def test_missing_and_unreadable_ledgers_surface(self):
++        """AC-d: dead ledgers flag, text unchanged."""
++        prome_gate.SUMMONS_LEDGERS["BOGUS"] = "AGENTS/BOGUS/docket/CATALYSTS.tsv"
++        self.ledger("BAD", [], raw="date\tevent\tpriority\n2026-09-30\tx\tP1\n")
++        (self.root / prome_gate.SUMMONS_LEDGERS["BAD"]).write_bytes(b"\xff\xfe\x00bad")
++        sev, name, ok, detail, owner = self.run_check()
++        self.assertFalse(ok)
++        self.assertIn("BOGUS ledger MISSING (AGENTS/BOGUS/docket/CATALYSTS.tsv)", detail)
++        self.assertIn("BAD unreadable: UnicodeDecodeError", detail)
++
++    def test_quiet_case_unchanged(self):
++        """AC-f: nothing in window or past-due -> exact legacy quiet detail, no log suffix."""
++        self.ledger("LABOR", [row("2026-12-01", "far")])
++        self.ledger("VULCAN", [row("2026-11-01", "far")])
++        sev, name, ok, detail, owner = self.run_check()
++        self.assertTrue(ok)
++        self.assertEqual(detail, "2 desk ledger(s) quiet inside 2d")
++        self.assertEqual(list(self.logs.iterdir()), [])
++
++    def test_severity_name_owner_unchanged(self):
++        """AC-e: ADVISE, same name, same WQ-184 owner text; the gate rc does not move."""
++        self.ledger("VULCAN", [row("2026-09-01", "stale")])
++        sev, name, ok, detail, owner = self.run_check()
++        self.assertEqual(sev, prome_gate.ADVISE)
++        self.assertEqual(name, NAME)
++        self.assertTrue(owner.startswith("WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn"))
++        self.assertTrue(owner.endswith("registry = SUMMONS_LEDGERS above"))
++        self.assertEqual(prome_gate.aggregate_rc(prome_gate.results, []), 0)
++
++    def test_undated_rows_skipped_but_counted_in_log(self):
++        """Missing information: an undated row is not invented into the detail, and is not silent."""
++        self.ledger("LABOR", [row("TBD", "undated event"), row("2026-09-30", "dated")])
++        detail = self.run_check()[3]
++        self.assertNotIn("undated event", self.head(detail))
++        body = Path(detail.split("full output: ")[1].strip()).read_text(encoding="utf-8")
++        self.assertIn("LABOR 1 row(s) with no parseable date — skipped", body)
++
++    def test_live_call_sites_take_no_arguments(self):
++        """AC-g: both live call sites still call the check bare."""
++        src = (Path(prome_gate.__file__)).read_text(encoding="utf-8")
++        self.assertEqual(src.count("guard(check_desk_catalyst_summons)"), 2)
++
++
++if __name__ == "__main__":
++    unittest.main()

@@ -1,11 +1,13 @@
 {
-  "base_commit": "45b3201340e9cfe25e28aee7e4c1c5d122ed3f1e",
+  "rebased": "2026-10-14 20:2x ET (DAEDALUS) onto PROME's 10/10 VIOLET registration + EMPTY-FORWARD change (cfb9c12d1) and WQ-417 P1 (0671f5612)",
+  "base_commit": "fcaffa62bfee31cd588e7b1e5b0d32650382ec73",
   "PROME/tools/prome_gate.py": {
-    "before": "f84daeda1ac7eb10e85a3b3adee5bbfbbf3f02bb50bdd4d9bbd37ad0a3fd6ed4",
-    "after": "45152dab6c91a6a7f12ab5131c03865ebe3f4426aa8770e851425c6a93d87bf1"
+    "before": "10d14d7342a80f9de1f95590230a1509d659e7038efe58240e590bf36de450a8",
+    "after": "26107c4d2e8f64169320c5dc47c2277d0d5b1564d802aa8304847c93cc68706c"
   },
   "PROME/tools/tests/test_summons_window_first_L548.py": {
     "before": null,
-    "after": "4f4ec24e1f7545117b2343a29e883d6f76e81bea4e6ba01ecfae2aff37f7727c"
-  }
+    "after": "c6c280f7cae3da79e7ede7593fa1afb2119f87bdc2ecc9c9b804d9d5968840b0"
+  },
+  "prior_bundle": "summons-fix_2026-10-08_base-45b320134.patch + target_hashes_2026-10-08_base-45b320134.json (before f84daeda... no longer matches live)"
 }

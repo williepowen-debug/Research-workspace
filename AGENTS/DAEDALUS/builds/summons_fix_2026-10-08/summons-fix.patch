@@ -1,6 +1,8 @@
+diff --git a/PROME/tools/prome_gate.py b/PROME/tools/prome_gate.py
+index 38c4f4fb2..a7dd09885 100644
 --- a/PROME/tools/prome_gate.py
 +++ b/PROME/tools/prome_gate.py
-@@ -286,12 +286,18 @@
+@@ -290,12 +290,18 @@ def _tracker_overdue(row_id, today=None, queue_path=None):
  DID_NOT_RUN = "CHECK DID NOT RUN"   # the marker a check prints when it could not run at all
  
  
@@ -22,7 +24,7 @@
      try:
          with log.open("x", encoding="utf-8") as output:
              p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
-@@ -1198,13 +1204,18 @@
+@@ -1202,13 +1208,19 @@ def check_symmetry():
             "PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)")
  
  
@@ -33,8 +35,9 @@
 -    Advisory — the disposition is 'flag Will to spawn the desk', nothing else."""
 -    today = dt.date.today()
 +    Advisory — the disposition is 'flag Will to spawn the desk', nothing else.
-+    L548 (2026-10-08): the forward window (TODAY · in Nd) is listed FIRST and in
-+    FULL; past-due rows are one bit per desk ('N past-due (oldest D) — owner
++    L548 (2026-10-08, rebased 2026-10-14 onto the 10/10 VIOLET/EMPTY-FORWARD
++    change): the forward window (TODAY · in Nd) is listed FIRST and in FULL;
++    past-due rows are one bit per desk ('N past-due (oldest D) — owner
 +    prunes'); the complete untruncated list goes to the run's check log. Before
 +    this, flags sorted date-ascending and printed [:4], so past-due rows hid
 +    every in-window row the check exists to show."""
@@ -42,24 +45,27 @@
      horizon = today + dt.timedelta(days=SUMMONS_WINDOW_DAYS)
 -    flags, dead_ledgers = [], []
 +    window, past, dead_ledgers, undated = [], {}, [], {}
+     empty_horizon = today + dt.timedelta(days=EMPTY_FORWARD_DAYS)
      for desk, rel in SUMMONS_LEDGERS.items():
          path = ROOT / rel
-         if not path.exists():
-@@ -1215,6 +1226,7 @@
+@@ -1221,6 +1233,7 @@ def check_desk_catalyst_summons():
                  for row in csv.DictReader(f, delimiter="\t"):
                      m = re.match(r"(\d{4}-\d{2}-\d{2})", (row.get("date") or "").strip())
                      if not m:
 +                        undated[desk] = undated.get(desk, 0) + 1
                          continue
                      d = dt.date.fromisoformat(m.group(1))
-                     if d > horizon:
-@@ -1223,14 +1235,29 @@
+                     if today <= d <= empty_horizon:
+@@ -1231,17 +1244,32 @@ def check_desk_catalyst_summons():
                      ev = (row.get("event") or "?").strip()[:45]
                      when = (f"PAST-DUE {(today - d).days}d — ungraded?" if d < today
                              else ("TODAY" if d == today else f"in {(d - today).days}d"))
 -                    flags.append((d, f"{desk} {d} [{pri}] {ev} ({when})"))
 +                    line = f"{desk} {d} [{pri}] {ev} ({when})"
 +                    (past.setdefault(desk, []) if d < today else window).append((d, line))
+             if forward_rows == 0:
+                 dead_ledgers.append(f"{desk} ledger EMPTY-FORWARD (no row within {EMPTY_FORWARD_DAYS}d) — nothing to summon on; "
+                                     f"the owner's calendar needs rows or the desk goes unwoken")
          except Exception as e:
              dead_ledgers.append(f"{desk} unreadable: {type(e).__name__}")
 -    flags.sort()
@@ -89,9 +95,12 @@
             "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — "
             "never grade on the owner's behalf; registry = SUMMONS_LEDGERS above")
  
+diff --git a/PROME/tools/tests/test_summons_window_first_L548.py b/PROME/tools/tests/test_summons_window_first_L548.py
+new file mode 100644
+index 000000000..30cee1f30
 --- /dev/null
 +++ b/PROME/tools/tests/test_summons_window_first_L548.py
-@@ -0,0 +1,198 @@
+@@ -0,0 +1,268 @@
 +#!/usr/bin/env python3
 +"""Falsification set for DOCKET L548 — the desk-catalyst summons check must never hide the rows it exists to show.
 +
@@ -101,6 +110,10 @@
 +(AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/ACCEPTANCE.md, AC-a..AC-g), not the bug report.
 +
 +Frozen fixtures in a tempdir — never the live ledgers. The clock is injected (AC-g).
++Rebased 2026-10-14 onto PROME's 10/10 VIOLET registration + EMPTY-FORWARD advisory
++(ACCEPTANCE_summons_ledger_VIOLET_empty-forward_2026-10-10.md AC1-AC6): a past-only ledger now
++flags EMPTY-FORWARD by that ruling, so the two tests that assumed otherwise were re-cut, and the
++TestRebase class covers the merged behaviour.
 +Run: python3 -W error::ResourceWarning -m unittest PROME/tools/tests/test_summons_window_first_L548.py
 +"""
 +import datetime as dt
@@ -128,17 +141,18 @@
 +        self.logs = self.root / "_logs"
 +        self.logs.mkdir()
 +        self._saved = (prome_gate.ROOT, prome_gate.SUMMONS_LEDGERS, prome_gate.LOG_DIR,
-+                       prome_gate.SUMMONS_WINDOW_DAYS)
++                       prome_gate.SUMMONS_WINDOW_DAYS, prome_gate.EMPTY_FORWARD_DAYS)
 +        prome_gate.ROOT = self.root
 +        prome_gate.LOG_DIR = self.logs
 +        prome_gate.SUMMONS_WINDOW_DAYS = 2
++        prome_gate.EMPTY_FORWARD_DAYS = 14
 +        prome_gate.SUMMONS_LEDGERS = {}
 +        prome_gate.results.clear()
 +        self.addCleanup(self._restore)
 +
 +    def _restore(self):
 +        (prome_gate.ROOT, prome_gate.SUMMONS_LEDGERS, prome_gate.LOG_DIR,
-+         prome_gate.SUMMONS_WINDOW_DAYS) = self._saved
++         prome_gate.SUMMONS_WINDOW_DAYS, prome_gate.EMPTY_FORWARD_DAYS) = self._saved
 +        prome_gate.results.clear()
 +        self._tmp.cleanup()
 +
@@ -215,7 +229,18 @@
 +        self.assertFalse(ok)
 +
 +    def test_only_past_due(self):
++        """Past-only ledger: one past-due bit, and (10/10 VIOLET AC4) EMPTY-FORWARD ahead of it."""
 +        self.ledger("VULCAN", [row("2026-09-01", "a"), row("2026-09-10", "b")])
++        sev, name, ok, detail, owner = self.run_check()
++        self.assertFalse(ok)
++        self.assertEqual(self.head(detail),
++                         "VULCAN ledger EMPTY-FORWARD (no row within 14d) — nothing to summon on; "
++                         "the owner's calendar needs rows or the desk goes unwoken"
++                         " · VULCAN 2 past-due (oldest 2026-09-01) — owner prunes")
++
++    def test_only_past_due_with_forward_row_beyond_window(self):
++        """Past-only inside the 2d window but a row inside 14d: no EMPTY-FORWARD, past-due bit alone."""
++        self.ledger("VULCAN", [row("2026-09-01", "a"), row("2026-09-10", "b"), row("2026-10-09", "ahead")])
 +        sev, name, ok, detail, owner = self.run_check()
 +        self.assertFalse(ok)
 +        self.assertEqual(self.head(detail), "VULCAN 2 past-due (oldest 2026-09-01) — owner prunes")
@@ -257,8 +282,8 @@
 +
 +    def test_quiet_case_unchanged(self):
 +        """AC-f: nothing in window or past-due -> exact legacy quiet detail, no log suffix."""
-+        self.ledger("LABOR", [row("2026-12-01", "far")])
-+        self.ledger("VULCAN", [row("2026-11-01", "far")])
++        self.ledger("LABOR", [row("2026-10-05", "inside 14d, outside 2d")])
++        self.ledger("VULCAN", [row("2026-10-13", "exactly at 14d")])
 +        sev, name, ok, detail, owner = self.run_check()
 +        self.assertTrue(ok)
 +        self.assertEqual(detail, "2 desk ledger(s) quiet inside 2d")
@@ -286,6 +311,60 @@
 +        """AC-g: both live call sites still call the check bare."""
 +        src = (Path(prome_gate.__file__)).read_text(encoding="utf-8")
 +        self.assertEqual(src.count("guard(check_desk_catalyst_summons)"), 2)
++
++
++VIOLET_HEADER = "date\tevent\ttype\tagent_domain\texpected_vol_impact\tsource\tnotes\n"
++
++
++class TestRebase(SummonsFixture):
++    """The merge of L548 with the 10/10 VIOLET registration + EMPTY-FORWARD branch."""
++
++    def violet(self, rows):
++        rel = "AGENTS/VIOLET/workbook/CATALYSTS.tsv"
++        p = self.root / rel
++        p.parent.mkdir(parents=True, exist_ok=True)
++        p.write_text(VIOLET_HEADER + "".join(
++            f"{d}\t{ev}\tMACRO_DATA\tCARL\t{imp}\tsrc\tnote\n" for d, ev, imp in rows), encoding="utf-8")
++        prome_gate.SUMMONS_LEDGERS["VIOLET"] = rel
++
++    def test_cato_reproduction_four_old_vulcan_rows_never_hide_violet(self):
++        """CATO 10/10: four older VULCAN rows hid an imminent VIOLET event behind '+1 more'."""
++        self.ledger("VULCAN", [row(f"2026-09-2{i}", f"v old {i}") for i in range(4)]
++                    + [row("2026-10-08", "keeps vulcan forward")])
++        self.violet([("2026-09-30", "imminent VIOLET event", "HIGH")])
++        head = self.head(self.run_check()[3])
++        self.assertTrue(head.startswith("VIOLET 2026-09-30 [HIGH] imminent VIOLET event (in 1d)"), head)
++        self.assertIn("VULCAN 4 past-due (oldest 2026-09-20) — owner prunes", head)
++        self.assertNotIn("more)", head)
++
++    def test_violet_schema_impact_fallback_never_question_mark(self):
++        """VIOLET AC3: no priority column -> the slot prints expected_vol_impact, never '?'."""
++        self.violet([("2026-09-29", "CPI", "LOW")])
++        head = self.head(self.run_check()[3])
++        self.assertIn("VIOLET 2026-09-29 [LOW] CPI (TODAY)", head)
++        self.assertNotIn("[?]", head)
++
++    def test_empty_forward_ordering_and_suppression(self):
++        """VIOLET AC4 under the new layout: window rows first, then dead/EMPTY-FORWARD, then past-due;
++        a ledger with any row inside 14d does not flag EMPTY-FORWARD; an empty-but-headed ledger does."""
++        self.ledger("LABOR", [row("2026-09-30", "claims")])
++        self.ledger("VULCAN", [row("2026-09-01", "stale")])
++        self.violet([])
++        head = self.head(self.run_check()[3])
++        bits = head.split(" · ")
++        self.assertEqual(bits[0], "LABOR 2026-09-30 [P1] claims (in 1d)")
++        self.assertIn("VULCAN ledger EMPTY-FORWARD (no row within 14d)", bits[1])
++        self.assertIn("VIOLET ledger EMPTY-FORWARD (no row within 14d)", bits[2])
++        self.assertEqual(bits[3], "VULCAN 1 past-due (oldest 2026-09-01) — owner prunes")
++        self.assertNotIn("LABOR ledger EMPTY-FORWARD", head)
++
++    def test_empty_forward_in_full_log(self):
++        """AC-c covers the new branch: EMPTY-FORWARD lines reach the full log too."""
++        self.ledger("VULCAN", [row("2026-09-01", "stale")])
++        detail = self.run_check()[3]
++        body = Path(detail.split("full output: ")[1].strip()).read_text(encoding="utf-8")
++        self.assertIn("VULCAN ledger EMPTY-FORWARD", body)
++        self.assertIn("VULCAN 2026-09-01 [P1] stale (PAST-DUE 28d — ungraded?)", body)
 +
 +
 +if __name__ == "__main__":
