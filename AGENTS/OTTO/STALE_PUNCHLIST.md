@@ -16,10 +16,8 @@
 | 6 | **True-at-creation check on the four early hits** (OTTO-01, -08, -09, -27, made 2/23, confirmed within weeks) | If any was already true, the 0.2400 as-made Brier flatters the book | s029 scoreboard | OTTO |
 | 7 | **Dashboard refresh**: Fitch ANL and recovery rows are Mar-2026 data; the Bank Losses row has no dates or total; the lender watchlist was rotated to cold `[STALE]` and needs a rebuild or a retirement | Stale rows read as live | Review B M11, M12, L8 | OTTO |
 | 8 | **Seasoning repair not independently verified**; CARL's BLAST ruling (a/b) pending | The 🔴 39-of-39 row stands on it | s028 GAPS | OTTO / CARL |
-| 9 | **Dead stub scripts can still write** (`abs_issuance_tracker.py`, `extension_proxy.py` append placeholder rows to FROZEN ledgers) | Re-creates the default-zero defect that broke OTTO-07 | Review C M2 | OTTO → `archive/` |
-| 10 | `workbook/VX_HISTORY.tsv` unbannered; its name exempts it from the staleness scan | Silent rot the scanner cannot see | Review C M1 | OTTO |
 | 13 | `research/TIER2_FORENSIC_SCREEN_SPEC.md`: build "authorised" 7/25, no date | An owed build with no clock | Review C L9 | OTTO: schedule or drop |
-| 14 | **Archive sweep — remainder** (26 Feb–Mar files moved s029, `c7361651a`): `research/WAL/` (5 files, 12.4 MB .docx; REGINALD holds a copy; hand over via PROME) · `workbook/STATUS_archive_2026{0325,0608,0725,0803,0814}.md` (links from STATUS_COLD would need re-pointing) · `LESSONS.md` (Will's call, parked since June) · `research/outputs/` Feb packages stay (the research index points into them) | Root retirement rule | Review B L13–L17; review C | OTTO; WAL needs REGINALD/PROME; LESSONS needs Will |
+| 14 | **Archive sweep — remainder** (27 Feb–Mar files moved s029, `c7361651a`; its commit message says 26): `research/WAL/` (5 files, 12.4 MB .docx; REGINALD holds a copy; hand over via PROME) · `workbook/STATUS_archive_2026{0325,0608,0725,0803,0814}.md` (links from STATUS_COLD would need re-pointing) · `LESSONS.md` (Will's call, parked since June) · `research/outputs/` Feb packages stay (the research index points into them) | Root retirement rule | Review B L13–L17; review C | OTTO; WAL needs REGINALD/PROME; LESSONS needs Will |
 | 15 | `MEMORY.md` findings/references contradict each other (Verita "blocked" vs working; superseded entries) | A boot read that disagrees with itself | Review B M3–M5 | OTTO, at closeout |
 | 17 | `TRADE.md` FROZEN since 7/4 | No action unless a position opens | — | dormant |
 
@@ -34,6 +32,7 @@
 | OTTO-33 re-examined on its own overdue trigger: 68% → 60% (instrument silent 76 days; ECF 162 read) | 2026-10-14 s029 | closeout commit |
 | `EDGAR_8K_MONITOR.md`: frozen bank-watchlist half archived verbatim; FLG cc duty (self-assigned 8/27, never run) retired with reason; method half kept, live users refreshed | 2026-10-14 s029 | this commit |
 | `RESEARCH_STATUS.md`: index re-synced (RP-OTT-1.7, 2.5, 3.3, 5.1), queue rebuilt (2 resolved, 1 done, 1 retired, 2 added), Feb vector tables archived | 2026-10-14 s029 | this commit |
+| Dead stub scripts archived (`abs_issuance_tracker.py`, `extension_proxy.py`) and `VX_HISTORY.tsv` FROZEN-bannered (items 9–10; closed late — done at `765ee7534`, the list kept them open for three hours) | 2026-10-14 s029 | `765ee7534` |
 | Boot shows days since the last WINTERKORN run (🟠 DUE at ≥7; fails closed on an unreadable LAST RUN; 5-case guard test) | 2026-10-14 s029 | this commit |
 | Charter version-stamp drift (DAEDALUS F-2) | 2026-09-12 s022 | — |
 | Dead `AGENTS/SIGNALS.md` append instruction | 2026-09-02 | — |
