@@ -4,7 +4,7 @@
 **Terry verdict:** CONDITIONAL — CONCEPT, NOT PROPOSED. Saved as a working idea on Will's word (2026-10-15 12:05 ET, verbatim *"lets save this one as an idea/concept we are working on"*). No [Approve] is asked; nothing fills from this file.
 **Date:** 2026-10-15 Thu, written 12:0x ET (`date`). Session: TERRY, Will-direct, Claude Opus 5.5 (`claude-opus-5-5`), Claude Code.
 **Thesis owners (NOT TERRY):** LIQUID — CRWV bonds / 5Y CDS read (GATE-LIQ-069); VULCAN — AI-infra financing fragility (S5, fired 10/9). Both asked by packet 2026-10-15; Will is spawning both.
-**Owner replies:** **VULCAN — CONDITIONAL YES** (12:35 ET, `inbox/processed/2026-10-15_from-VULCAN_CRWV-thesis-conditional-yes.md`, 7f62d0c6f): stands behind the mechanism through 2027-01-15 (Q2 10-Q interest $640M vs net loss $626M; ~$31B recourse debt at 9–15%; three customers ~72% of revenue). **VULCAN withdraws on ANY of:** ① CRWV prices new debt at/inside ~10% all-in · ② LIQUID CDS < ~840bp for 5+ sessions · ③ a new IG take-or-pay contract in an 8-K · ④ Q3 10-Q shows the funding gap closed without new high-cost debt · ⑤ MSFT (10/28) raises capex and names neocloud capacity as growing. Squeeze paths it names: NVDA's ~$36B capacity backstop, the CEO backlog memo, hyperscaler prints 10/21–10/29. Count it ONCE with any other AI-down idea (same root as VULCAN S1/S3/S5). **Q3 print:** NOT announced by CoreWeave IR as of 10/15; VULCAN's EDGAR model ~11/09, window 11/05–11/25 (n=4). **LIQUID:** unanswered.
+**Owner replies:** **VULCAN — CONDITIONAL YES** (12:35 ET, `inbox/processed/2026-10-15_from-VULCAN_CRWV-thesis-conditional-yes.md`, 7f62d0c6f): stands behind the mechanism through 2027-01-15 (Q2 10-Q interest $640M vs net loss $626M; ~$31B recourse debt at 9–15%; three customers ~72% of revenue). **VULCAN withdraws on ANY of:** ① CRWV prices new debt at/inside ~10% all-in · ② LIQUID CDS < ~840bp for 5+ sessions · ③ a new IG take-or-pay contract in an 8-K · ④ Q3 10-Q shows the funding gap closed without new high-cost debt · ⑤ MSFT (10/28) raises capex and names neocloud capacity as growing. Squeeze paths it names: NVDA's ~$36B capacity backstop, the CEO backlog memo, hyperscaler prints 10/21–10/29. Count it ONCE with any other AI-down idea (same root as VULCAN S1/S3/S5). **Q3 print:** NOT announced by CoreWeave IR as of 10/15; VULCAN's EDGAR model ~11/09, window 11/05–11/25 (n=4). **LIQUID — YES, will supply the read** (14:5x ET, `inbox/processed/2026-10-15_from-LIQUID_CRWV-concept-CDS-leg-answer.md`, 6886cb65b): standard 5Y CDS (Dec-2031, 500bp coupon), DTCC unflagged prints via `crwv_cds_grade.py` (not ISDA, ~7–8bp low). Leg (b) and the credit kill below now use LIQUID's definitions. Ask LIQUID by packet/doorbell naming the session.
 **Full working:** `research/2026-10-15_fleet-trade-idea-sweep/CRWV_relief-rally-fade_exploration.md` (facts, n=6 base rate, model structures). Construction rules 14–23 read in full before writing.
 **`$0` MOVED · NO ORDER · NO GATE REGISTERED · NO THRESHOLD MOVED.**
 
@@ -13,7 +13,7 @@ If CRWV bounces hard while its lenders stay scared, fade the bounce with a defin
 
 ## 2. Preconditions (all, same session) — the draft letter
 - **(a) Rally:** CRWV regular-session close **≥ $70.00**, any session **Fri 10/16 → Wed 11/04**.
-- **(b) Credit unrepaired:** LIQUID's read of CRWV 5Y CDS for that session **≥ 1,000bp (model)** — or LIQUID's stated equivalent on the 2032 notes. **Owner: LIQUID. Unanswered as of this write.**
+- **(b) Credit unrepaired:** LIQUID's read of that session's CRWV 5Y CDS — the session's **LOWEST** unflagged converted print **≥ 1,000bp** (a straddling session counts only if its low print is ≥ 1,000). **A session with no DTCC print is UNGRADEABLE ⇒ (b) not met that session, never "repaired".** Owner: LIQUID (agreed 10/15).
 - **(c) Green CRWV session** (root rule #6; a rally day is green by construction).
 - ⚠️ **Construction rule #15:** a price-rally gate opens exactly as the market disagrees more with the bear case. Leg (b) carries the thesis information; **a fire is never evidence the thesis is working.**
 
@@ -28,7 +28,7 @@ If CRWV bounces hard while its lenders stay scared, fade the bounce with a defin
 
 ## 5. Risk
 - **Max loss:** the net debit, **≤ $480 (≤ $500 incl. fees) = 2R cap.**
-- **Kill:** CRWV close **≥ $82.00** (10/8 close $81.58 retraced) **OR** LIQUID CDS **< 840bp** (the 10/7 pre-scare level) **OR any VULCAN falsifier ①–⑤** ⇒ sell next session. (TERRY's CDS kill is one read; VULCAN's own withdrawal needs 5+ sessions — the stricter card line governs the position.)
+- **Kill:** CRWV close **≥ $82.00** (10/8 close $81.58 retraced) **OR** LIQUID's CDS read with the session's **HIGHEST** unflagged print **< 840bp on 5 consecutive graded sessions** (one repair definition, shared with VULCAN falsifier ②; changed 10/15 on LIQUID's advice — a single print under 840 sits inside one session's ~60bp noise) **OR any other VULCAN falsifier ①, ③–⑤** ⇒ sell next session. ⚠️ This credit kill is slower than the draft's single-print line (*was: one read < 840bp*); the **$82.00 price kill stays single-close** and is the fast protection.
 - **Gap/event:** Q3 print inside the tenor (known reactions −16.3% 2025-11-11, +19.3% 2026-08-12, n=2); financing/customer headlines; ±15% days are normal for this name (RV20 78%, RV60 102%).
 
 ## 6. Management
