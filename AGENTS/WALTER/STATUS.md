@@ -1,5 +1,5 @@
 # WALTER STATUS
-**Updated:** 2026-10-15T01:18:18Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing + Will-directed Iran full re-verify; light-closeout re-run. BOARD **1427**; October14 evening -015..-033 (19 signals, 70 handoffs; -033 = OTTO-requested Tricolor correction). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
+**Updated:** 2026-10-15T01:39:19Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing + Iran full re-verify + help-the-live-desks pass; light-closeout re-run. BOARD **1428**; October14 evening -015..-034 (20 signals, 75 handoffs). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
@@ -12,7 +12,7 @@ Evening 2026-10-15T00:41:30Z: X token re-authorized (HTTP400 refresh fixed); 18 
 | Object | Observation and limit |
 |---|---|
 | Credit | FRED HY316bp/CCC1267bp [October13], re-pulled October15 00:10Z (10/14 not yet published). HY 4bp under strict>320, 0/3. LIQUID 15-obs ladder BROADENS to IG/BBB cumulatively (SIG-W-20261014-015). CoreWeave 2032 notes ~14.5% [10/14, Bloomberg relay, not TRACE] (SIG-W-20261014-018). CCC prior fire banked. |
-| Volatility | Vendor ^VIX 16.87 [10/14 close, +10.5%]; FRED VIXCLS 15.27 [10/13]; RED-FT-06 exit >=18 not met. CBOE PRIMARY SKEW 154.74 [10/13], 3/4 >=150; 10/14 publisher bar ABSENT at 00:40Z Oct15; vendor ^SKEW 157.30 [10/14] provisional, cannot complete RED-FT-10. S&P 500 -1.11% [10/14], worst since 7/29. |
+| Volatility | **RED-FT-10 FIRED** on Cboe PRIMARY SKEW 157.30 [10/14, retrieved 01:30Z Oct15]: 4/4 >=150 (154.34/155.06/154.74/157.30), SIG-W-20261014-034, RED executes; exit <140 s=4. Vendor ^VIX 16.87 [10/14 close, +10.5%]; FRED VIXCLS 15.27 [10/13]; RED-FT-06 exit >=18 not met. S&P 500 -1.11% [10/14], worst since 7/29. |
 | Funding / rates | SOFR3.89−IORB3.90=-1bp [matchedOctober13];forwardIORB14 not substituted. DGS10/30 5.24/5.60 [October9],not October13. T5YIFR2.33 [October13]. |
 | Labor / inflation | ICSA197K [weekendingOctober3,FRED revised mirror];no first-release recertification. BLS September headline0.6/core0.3 m/m; TableA Jul0.2/Aug0.3/Sep0.3=>3.247216% annualized, qualifies RED-FT08. RED execution UNKNOWN. Real hourly earnings-0.5%m/m/-0.7%y/y; November composition resolver remains open. |
 | Banks | Vendor closes 10/14: KRE 68.54 (-0.75%) / WAL 72.22 (-2.05%) / OZK 44.93 (-0.33%); single source. WAL existing REG-T-02 cycle2, no >=81.90 exit, no repeat fire. BAC -4.76% on adjusted Q3 miss, BAC-specific (SIG-W-20261014-019). |
