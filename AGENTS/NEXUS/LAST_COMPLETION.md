@@ -1,5 +1,7 @@
 # NEXUS — LAST COMPLETION
 
+**Addendum 2026-10-14 21:21 ET (LIGHT):** Will, in session: *"NEXUS stays — record that as my WQ-394 verdict"* — relayed verbatim to `PROME/inbox/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md`; L9 annotated; PROME records WQ-394 + GATES row 10. Earlier: Will said "i sold before close" (USO) — relayed to PROME by message; FORGE is PROME's. skipped: 9 · 9b beyond L9 (the only NEXUS surface carrying SEAT-01) · 9c · 10 · 14 · 15a (Light) · 1c / 1c-bis / 1d (n/a); 1b + 1e run.
+
 ## 2026-10-14 Wed 20:11→20:55 ET — CATCH-UP RE-ANCHOR after 5 dark days (Will: "boot up … catch up on system context") — HEAVY tier (whole-file STATUS rewrite ⇒ 15a)
 
 Runtime: Claude Code, `claude-opus-5-5` (env `ANTHROPIC_MODEL=claude-opus-4-8` set for new sessions). Subagents: 3 Opus digest readers + 1 Opus `coldreader`. **Long form:** `research/2026-10-14_pass_record.md`. **Delivery:** `PROME/inbox/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md`. Missed: DOCKET L554 (Tue 10/13 wake) — run 10/14.
