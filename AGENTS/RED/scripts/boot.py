@@ -131,29 +131,10 @@ def cboe_skew():
     return rows
 
 
-def _us_market_holidays(y):
-    """Standard US equity-market holidays for year y (observed rule for fixed dates)."""
-    def nth(m, wd, k):
-        d = date(y, m, 1); d += timedelta(days=(wd - d.weekday()) % 7)
-        return d + timedelta(weeks=k - 1)
-    def last(m, wd):
-        d = date(y, m, 31) if m != 5 else date(y, 5, 31)
-        while d.weekday() != wd:
-            d -= timedelta(days=1)
-        return d
-    def obs(d):
-        return d - timedelta(days=1) if d.weekday() == 5 else (d + timedelta(days=1) if d.weekday() == 6 else d)
-    a = y % 19; b_ = y // 100; c = y % 100; d_ = b_ // 4; e = b_ % 4
-    f = (b_ + 8) // 25; g = (b_ - f + 1) // 3
-    h = (19 * a + b_ - d_ - g + 15) % 30; i_ = c // 4; k_ = c % 4
-    l = (32 + 2 * e + 2 * i_ - h - k_) % 7; mm = (a + 11 * h + 22 * l) // 451
-    easter = date(y, (h + l - 7 * mm + 114) // 31, ((h + l - 7 * mm + 114) % 31) + 1)
-    out = {obs(date(y, 1, 1)), obs(date(y, 7, 4)), obs(date(y, 12, 25)),
-           nth(1, 0, 3), nth(2, 0, 3), last(5, 0), nth(9, 0, 1), nth(11, 3, 4),
-           easter - timedelta(days=2)}
-    if y >= 2021:
-        out.add(obs(date(y, 6, 19)))
-    return out
+# The NYSE calendar moved VERBATIM to scripts/nonsession.py on 2026-10-14 (S52, Will-approved P1),
+# so boot.py and base_rate_review.py share ONE non-session calendar. Imported under its old name.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from nonsession import us_market_holidays as _us_market_holidays, drop_nonsessions  # noqa: E402
 
 
 def _gap_reconciled(d1, d2):
@@ -212,7 +193,7 @@ def tsv(path):
 
 def pull_tape():
     prices = fetch.price_fetch(TICKERS)
-    fred = {sid: fetch.fred_fetch(sid, limit=6) for sid, _, _, _ in FRED_SERIES}
+    fred = {sid: fetch.fred_fetch(sid, limit=10) for sid, _, _, _ in FRED_SERIES}  # 6 -> 10 (S52): headroom so dropped holiday bars cannot starve an s=5 count
     return prices, fred
 
 
@@ -258,14 +239,18 @@ def live_value(src_type, key, field, scale, prices, fred):
         d = prices.get(key, {})
         v = d.get(field if field else "price")
         return scaled(v, scale) if v is not None else None
-    obs = fred.get(key) or []
+    # S52 P1 (Will-approved 2026-10-14): holiday bars are NON-SESSIONS, never observations.
+    obs = drop_nonsessions(key, fred.get(key) or [])
     if obs and "value" in obs[0]:
         return scaled(obs[0]["value"], scale)
     return None
 
 
 def fred_trail(key, scale, fred, n):
-    obs = fred.get(key) or []
+    # S52 P1: a FRED bar dated on a closed-market day (ICE: NYSE + SIFMA full close; VIXCLS:
+    # NYSE) is a NON-SESSION - excluded and BRIDGED, never counted (FT-10's S41 rule, registry-wide).
+    # Fails closed: if dropping a holiday leaves < n sessions, the sustain reads NOT met.
+    obs = drop_nonsessions(key, fred.get(key) or [])
     return [scaled(o["value"], scale) for o in obs[:n] if "value" in o]
 
 
@@ -373,6 +358,10 @@ def section_triggers(prices, fred, verbose):
             continue
         v = live_value(*m, prices, fred)
         status, detail = eval_line(v, r["threshold_op"], r["threshold_value"], r["sustain_window"], m[0], m[1], m[3], fred)
+        if r["metric"] == "BRENT-PAPER":
+            # S52 N3 (METRIC_MAP check): the row's own basis says BZ=F is PROVISIONAL and cannot
+            # complete a sustain count. Say so on the line, not only in the registry.
+            detail += "  [PROVISIONAL: BZ=F mirror; ICE settlement governs]"
         print(f"   {ICON[status]} {r['trigger_id']:<10} {r['metric']} {r['threshold_op']}{r['threshold_value']} s={r['sustain_window']:<2} {status:<8} {detail}")
     print("   — watch lines (soft, docket/WATCHLINES.tsv) —")
     for r in tsv(RED / "docket" / "WATCHLINES.tsv"):
@@ -460,9 +449,16 @@ def section_due_scan():
             rd = date.fromisoformat(m.group(1))
             mark, when = ("🔴", f"re-review PASSED {rd} ({(TODAY - rd).days}d)") if rd < TODAY else ("•", f"re-review {rd}")
         print(f"   {mark} {r['CHG_ID']} [{r['Status']}] ({age}d, {when}, {r['Target'][:40]}): {r['Key_Finding'][:60]}")
+        # S52 N1: CHG-051 said "resolves 10/31 OR AT THE FIRST FIRE of any registry row" and was due
+        # on 10/14 while this line read 10/31 - an EVENT clause in prose is invisible to a date column.
+        if re.search(r"whichever is sooner|or at the first|or on the first|first fire of any", r.get("Resolution", ""), re.I):
+            print("      ⚠️  EVENT clause in Resolution - the date above may not be the trigger; check the event manually")
     # S50: TRIGGER_OUTCOMES rows past resolve_after and still UNRESOLVED (FT-06 sat 22d ungraded).
     for r in tsv(RED / "registry" / "TRIGGER_OUTCOMES.tsv"):
-        if not r.get("outcome", "").startswith("UNRESOLVED"):
+        # S52: key on ABSENCE OF A GRADE (blank graded_date), not on the token "UNRESOLVED" - the
+        # S50 status-token lesson (ML-273). S52 itself filed two rows as "PENDING" (out of schema),
+        # which the token filter would have hidden at their horizons. Terminal = graded_date set.
+        if r.get("graded_date", "").strip():
             continue
         m = re.search(r"(\d{4}-\d{2}-\d{2})", r.get("resolve_after", ""))
         if m and date.fromisoformat(m.group(1)) < TODAY:

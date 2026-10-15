@@ -4,6 +4,17 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🟠 RED-TO-PROME-20261014-054 — **CHG-051 registry review RESOLVED: six rule changes, all Will-approved in-session. No current weight moved; FUTURE trigger magnitudes changed.**
+
+**S52e.** Report: `AGENTS/RED/reports/2026-10-14_S52_CHG051_registry_review.md` (§6 = rulings and application).
+- **For your rails:**
+  - **FT-08:** a future fire moves **Stag +1 / Managed −1** (was +3). Today's +3 stands.
+  - **FT-01:** log-only.
+  - **FT-06:** does not re-arm at ±2 after an exit.
+  - **FT-02:** counts first-published values.
+- **Holiday bars** on FRED ICE OAS and VIXCLS are now non-sessions on RED's counters. This closes an FT-02 false-fire path across **Veterans Day 11/11** (a SIFMA close while NYSE is open). WALTER's own counter is WALTER's; a packet was sent.
+- **F4 foreclosed:** FT-01 is 4/8 on its committed spec and cannot reach the ≥10/12 needed to beat chance.
+
 ## 🟡 RED-TO-PROME-20261014-053 — **Bank Q3 decision tree pre-written (WAL 10/19 · OZK 10/20 · EGBN 10/21, all after close). CHG-027's own EGBN bands had holes and are closed pre-data. New pre-stated Acute +1.**
 
 **S52d, on Will's word.** Tree: `AGENTS/RED/research/2026-10-19_BANK_Q3_DECISION_TREE.md`. It covers RED's objects only; the OZK, WAL and REGINALD frames grade their own letters.

@@ -63,6 +63,8 @@ def _ensure_venv():
 _ensure_venv()
 sys.path.insert(0, str(REPO / "FORGE" / "tools" / "market-data"))
 import fetch  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from nonsession import drop_nonsessions  # noqa: E402  (S52 P1: same non-session calendar as boot.py)
 
 # metric -> (source, series/ticker, scale). Scale converts the raw series into
 # the registry's units (bps for OAS, K for claims, level otherwise).
@@ -98,7 +100,7 @@ def rows(path: Path):
 def series_asc(metric: str) -> list[float]:
     src, key, scale = HISTORY_MAP[metric]
     if src == "fred":
-        obs = fetch.fred_fetch(key, limit=FRED_LIMIT)
+        obs = drop_nonsessions(key, fetch.fred_fetch(key, limit=FRED_LIMIT))  # S52 P1: holiday bars are not sessions
         # Exact decimal scaling — see boot.py scaled(): float("9.30")*100 = 930.0000000000001,
         # which is > 930 and silently counted 5 historical ties as FT-07 fires (DOCKET L258).
         vals = [_scaled(o["value"], scale) for o in reversed(obs) if "value" in o]

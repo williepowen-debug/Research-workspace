@@ -4,6 +4,44 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S52 — 2026-10-14 20:12–23:0x ET (start from `date` at boot; Will-launched; S52b–S52e addenda on Will's word)
+
+**Trigger:** Will's boot and catch-up, then his items #2, #3, #5, #8, #6 and #9. Structural changes come from **#9 (the CHG-051 registry review)**: all six proposals were **Will-approved in-session** via AskUserQuestion, ~22:50 ET.
+
+**What changed (structural):**
+- **NEW `scripts/nonsession.py`:** one market non-session calendar for boot.py **and** base_rate_review.py. The NYSE function moved **verbatim** from boot.py (body-identical by check); it adds SIFMA full closes (Columbus, Veterans) for ICE OAS series. **NEW `scripts/test_nonsession.py`** (13/13 PASS). P1.
+- **`scripts/boot.py`:**
+  - `live_value`/`fred_trail` drop non-session bars (P1), and the FRED fetch limit goes 6 → 10.
+  - BRENT-PAPER rows are labelled PROVISIONAL (N3).
+  - The DUE-scan flags event clauses in challenge Resolution text (N1).
+  - The outcome DUE-scan is re-keyed from the token `UNRESOLVED` to a blank `graded_date`.
+  - `test_tie_atoms.py` and `test_base_rate_flag.py` still pass.
+- **`scripts/base_rate_review.py`:** the same non-session filter on FRED loads (P1). It was re-run against the amended count before commit (ML-203 rule).
+- **`registry/FALSIFICATION_TRIGGERS.tsv`** (letter changes, Will-approved):
+  - FT-01 log-only (P4).
+  - FT-02 first-published pin (P5) and its `rolling_base_rate` refreshed.
+  - FT-06 re-arm guard (P6) and its `rolling_base_rate` refreshed.
+  - FT-08: 0.4 note retired (P2); future fires +1 (P3).
+  - Non-session clause on FT-01/02/06/07/12 (P1). Exit base rates recorded for FT-02/06/07.
+  - **Also:** FT-08 and FT-10 fire records, and FT-10's stale `state` corrected. SCAN view regenerated, `--check` current.
+- **`registry/TRIGGER_OUTCOMES.tsv`:** FT-08 and FT-10 rows added. Their `outcome`/`spec_vintage` were normalized to schema values the same night: they had been filed as PENDING.
+- **`workbook/CHALLENGES.tsv`:**
+  - CHG-051 RESOLVED.
+  - CHG-052 (bank-put book) opened.
+  - CHG-027 EGBN successor bands amended pre-data (gaps closed).
+- **Folds (verbatim):** the S51 STATUS header and the 9/6 bull steelman → `reports/2026-10-14_S52_*_folded.md`.
+- **Fleet memory:** `memory/auto/finding_holiday_calendar_domain_mismatch.md` extended with the inverse case and a `symptoms:` line (carve-out ③; COLD tier, promotion flagged to PROME).
+
+**Boot-impact:**
+- FRED sustain counts now skip holiday bars. Example: WL-03 reads 316 / 311 / 315, where it was 316 / 311 / 311.
+- Event-clause and PROVISIONAL lines are new in the output.
+- `schema_check` ALL CONFORM · `read_cap_check` rc 0 · `claim_check` clean.
+
+**Not done, named:**
+- WALTER's own auto-fire counter applies its own calendar (packet sent; WALTER owns it).
+- `schema_check.py` validates structure only, so it cannot catch an out-of-domain token like PENDING (by design; noted).
+- KB/VX review debt; TIMELINE/FLOW.
+
 ## S51 — 2026-10-09 10:25–10:34 ET (start from `date` at boot; end from `date` at this write)
 
 **Trigger:** PROME prome-75 Tier-1 spawn on Will's word 10:24 ET: FT-02 grade, the owed weight re-derivation, and a whole-inbox drain (6 + 2).

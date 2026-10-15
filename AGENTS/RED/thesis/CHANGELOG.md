@@ -4,6 +4,14 @@
 
 ---
 
+## S52e — 2026-10-14 ~23:00 ET — **NO CURRENT WEIGHT MOVED. CHG-051 registry review RESOLVED; Will approved six rule changes that alter FUTURE trigger magnitudes.**
+
+- **FT-08 future fires: Stag +1 / Managed −1** (was +3). The 3.0 line held in 40% of months since 2025. **Today's +3 stands.**
+- **FT-01 log-only.** Its outcome record is 4/8, and F4 is foreclosed (8/12 max, p = 0.194).
+- **FT-06:** no re-arm at ±2 after an exit.
+- **Holiday bars** are non-sessions on every FRED counter. This closes an FT-02 false-fire path across Veterans Day 11/11.
+→ `reports/2026-10-14_S52_CHG051_registry_review.md`.
+
 ## S52c — 2026-10-14 ~22:05 ET (from `date`) — **NO WEIGHT MOVED. Discretionary re-derivation on Will's word: all six held, each argued. Net-bear 65, confidence 70.**
 
 - **Stag 35 HOLD:** FT-08's +3 is the registered response to the core move, and adding to it would count it twice. The anti-spiral counter (real AHE −0.5% m/m) and the CHG-028 oil-channel miss are same-day as FT-08, so under the S28 rule they are not netted today. Pre-stated −2 at the next non-fire re-derivation if real AHE is still negative y/y.
