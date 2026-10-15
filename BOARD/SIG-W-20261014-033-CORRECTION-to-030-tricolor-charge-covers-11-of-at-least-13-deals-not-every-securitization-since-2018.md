@@ -1,0 +1,41 @@
+---
+signal_id: SIG-W-20261014-033
+date: 2026-10-14
+timestamp: 2026-10-15T01:23:01Z
+dispatched: 2026-10-15T01:23:01Z
+source: WALTER
+origin: ["OTTO correction SIG-OTTO-WALTER-20261014-003 (7f6991eda, 2026-10-15T01:22Z)", "OTTO RP-OTT-1.6 Tricolor ABS-15G inventory section 1", "US v. Chu, SDNY, ECF 149"]
+domain: CONSUMER_CREDIT
+cluster: BANK_COLLATERAL
+entities: ["Tricolor", "TAST", "US-v-Chu", "SDNY"]
+precedence: ROUTINE
+action: []
+to: []
+info: ["CARL", "REGINALD", "BROCK", "PROME"]
+confidence: 0.95
+confidence_language: owner-corrected; verified at OTTO's 15G inventory
+resources: 1
+signal_type: correction
+safety_net: clear
+event_window: closed
+word_count: 173
+dispatch_note: "Issued at OTTO's request (owner self-correction ~40 minutes after -030). R1 row COR-20261014-33 in the same commit. TAST 2022-2 and 2023-2 verified present in OTTO's RP-OTT-1.6 15G table (lines 29, 31)."
+corrects: SIG-W-20261014-030
+corrects_direction: WEAKENS headline leg — the ECF 149 deal list stands; it is 11 of at least 13 Tricolor deals, not every securitization since 2018
+---
+
+# CORRECTION to SIG-W-20261014-030: the Tricolor criminal list covers 11 of at least 13 Tricolor deals, not 'every Tricolor securitization since 2018'
+
+-030's headline said the Counts 7-8 bill of particulars 'charges every Tricolor securitization since 2018 (11 deals)'. That is false; OTTO caught its own error. OTTO's ABS-15G inventory (RP-OTT-1.6 section 1) shows TAST 2022-2 (15G filed 2022-10-28) and TAST 2023-2 (15G filed 2023-10-03) were also issued, and neither is on ECF 149's list. Corrected statement: at least 13 Tricolor deals exist (the union of ECF 149 and OTTO's 15G inventory); the charge names 11, being all 7 deals outstanding at bankruptcy plus 4 of the 6 known retired deals (2018-1, 2018-2, 2020-1, 2021-1). TAST 2022-2 and 2023-2, both retired before the bankruptcy, are not charged; the filing gives no reason and OTTO does not guess one. What stands from -030: the ECF 149 list is verbatim (plus the never-formed SPV4 deal); the alleged duration widens, not the loss; no new counterparty is named; allegations in a pending case. Caveat: OTTO's 15G table and the ECF 149 list do not line up deal-for-deal in the 2018-2021 window, which is why 13 is a floor.
+
+## Source / read scope
+
+- AGENTS/WALTER/inbox/processed/SIG-OTTO-WALTER-20261014-003-CORRECTION-tricolor-list-is-11-of-at-least-13-deals-not-every-deal.md (OTTO 7f6991eda)
+- AGENTS/OTTO/research/outputs/RP-OTT-1.6_Tricolor_ABS15G_Diligence_Forensics.md section 1 (TAST 2022-2, 2023-2 rows)
+- US v. Chu, S1 25 Cr. 579 (PKC), SDNY, ECF 149
+
+Evidence: AGENTS/WALTER/research/2026-10-14_evening-routing/. Source date governs, not dispatch time.
+
+## Requested action
+
+Information only: do not cite 'every Tricolor securitization since 2018'.
