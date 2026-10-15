@@ -19,11 +19,13 @@
 | 13 | `research/TIER2_FORENSIC_SCREEN_SPEC.md`: build "authorised" 7/25, no date | An owed build with no clock | Review C L9 | OTTO: schedule or drop |
 | 14 | **Archive sweep — remainder** (27 Feb–Mar files moved s029, `c7361651a`; its commit message says 26): `research/WAL/` (5 files, 12.4 MB .docx; REGINALD holds a copy; hand over via PROME) · `workbook/STATUS_archive_2026{0325,0608,0725,0803,0814}.md` (links from STATUS_COLD would need re-pointing) · `LESSONS.md` (Will's call, parked since June) · `research/outputs/` Feb packages stay (the research index points into them) | Root retirement rule | Review B L13–L17; review C | OTTO; WAL needs REGINALD/PROME; LESSONS needs Will |
 | 15 | `MEMORY.md` findings/references contradict each other (Verita "blocked" vs working; superseded entries) | A boot read that disagrees with itself | Review B M3–M5 | OTTO, at closeout |
+| 18 | **Rebuild `LESSONS.md` as OTTO's live, boot-read mistake-pattern file** (Will 10/14: rebuild, not archive). Fleet convention: 17 desks keep one; most are boot reads in a Mistake → Rule format (REGINALD, HENRY, CORAL…; BROCK also keeps always-loaded traps, Will-approved 10/2). Consolidate MEMORY's DURABLE LESSONS block; fill from OTTO's real misses (OTTO-30 known-unknowns, OTTO-04 true-at-creation, OTTO-26/-28 calendars, Tricolor "every X", press-only "not found", the as-made markers, the matrix source cell, DQ without extensions); drop the four generic rules; fix rule 3 (an indictment is not "confirmed"); route rule 6 via WALTER; add a boot step (charter edit) | OTTO is the outlier: its lessons are scattered over five files and the stub is read by no one | s029 fleet check | OTTO, next session |
+| 19 | **Short-seller release-cadence data** (LESSONS rule 4, never done): when activist reports dropped relative to earnings, for names OTTO tracks | Carvana reports 10/28; the T-7 check is 10/21 | LESSONS.md rule 4 | OTTO, before 10/21 |
 | 17 | `TRADE.md` FROZEN since 7/4 | No action unless a position opens | — | dormant |
 
 ## Dated work (lives in `docket/CATALYSTS.tsv`; boot step 5 shows it)
 
-**Mon 10/19 — NEXUS commission #3, NOT STARTED** (packet in `inbox/`; read the spec first) · 10/15 CRMT STD (BROCK grades first) + SDART/BLAST Sept 10-D · 10/16 M&T Q3 (OTTO-31) · 10/20 Ally Q3 (OTTO-12) · 10/21 OTTO-07 shelf re-run, Carvana T-7, suppression check · 10/28 Carvana Q3 · **10/30 THESIS v1.6 target** · **11/30 year-end readiness**.
+**Mon 10/19 — NEXUS commission #3 (D:L708), NOT STARTED, deferred by Will to the next session** (packet in `inbox/`; spec `AGENTS/NEXUS/research/2026-10-14_commission_CCC-gap_consumer-attribution.md` — read it first and grade on its fixed rule; OTTO's leg only; deliver to `AGENTS/NEXUS/inbox/` + copy `PROME/inbox/2026-10-15_from-OTTO_L708-ccc-gap-verdict.md` with a COMPLETION block, then message PROME; PROME wakes OTTO 10/19 if no session opens first) · 10/15 CRMT STD (BROCK grades first) + SDART/BLAST Sept 10-D · 10/16 M&T Q3 (OTTO-31) · 10/20 Ally Q3 (OTTO-12) · 10/21 OTTO-07 shelf re-run, Carvana T-7, suppression check · 10/28 Carvana Q3 · **10/30 THESIS v1.6 target** · **11/30 year-end readiness**.
 
 ## Waiting on others, or on Will
 
@@ -32,7 +34,6 @@
 | L5 ruling on OTTO (both stated legs landed; placement is a block above the dashboard, not columns on it) | DAEDALUS | 2026-10-14 | packet `054aaf5b8` in `AGENTS/DAEDALUS/inbox/`; FLEET_MAP OTTO row |
 | BLAST seasoning-clock basis: (a) keep exhibit-derived, (b) blank | CARL | 2026-10-14 (s028) | OTTO packet `0002774f0`; item #8 |
 | `research/WAL/` disposition (5 files, 12.4 MB; REGINALD holds a copy) | REGINALD / PROME | 2026-07-07 (DAEDALUS card) | item #14 |
-| `LESSONS.md`: archive or keep | Will | June | item #14 |
 | Veto, or not, the retirement of the FLG 8-K forwarding duty | Will (optional) | 2026-10-14 | `EDGAR_8K_MONITOR.md` footer |
 
 ## Closed

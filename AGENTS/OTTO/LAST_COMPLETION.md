@@ -15,7 +15,7 @@ Matrix 33/50: 21 points on one root (the four fraud cases and their channels); f
 THESIS v1.6 not started. The four early Feb hits are unchecked for true-at-creation (could worsen 0.240). BlackRock Dkt 1298 not re-read by OTTO. MEMORY.md still ends on lessons, not NEXT SESSION (to-do #15). CATALYSTS (45 KB) and WINTERKORN_MEMORY (42.5 KB) are growing again. The s028 seasoning repair is still not independently verified. Commit `c7361651a`'s message miscounts (26/8 vs 27/9); recorded, not amended.
 
 ## WILL_NEEDS
-`LESSONS.md` archive-or-keep (parked since June). The FLG cc duty retirement is OTTO's call; veto if you want it kept. Otherwise none.
+None open. Will decided 10/14: REBUILD `LESSONS.md` (fleet convention), not archive (to-do #18); NEXUS #3 deferred to the next session. The FLG cc duty retirement stands unless Will vetoes.
 
 ## FOLLOW-UP
-1. 10/15 CRMT STD (BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`). 2. 10/16 M&T Q3 (OTTO-31). 3. **10/19 NEXUS commission #3 — not started.** 4. 10/20 Ally Q3 (OTTO-12). 5. **THESIS v1.6 by 10/30** with a cold reader. 6. **Year-end readiness by 11/30** (OTTO-11 instrument, OTTO-12 evidence, true-at-creation check). Every owed item, including what waits on others, is in `STALE_PUNCHLIST.md`; the dated ones are docket rows, so boot shows them.
+1. 10/15 CRMT STD (BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`). 2. 10/16 M&T Q3 (OTTO-31). 3. **NEXUS commission #3 (D:L708) — FIRST thing next session; due 10/19, deferred by Will.** Then pair DQ with extensions on the 10/15 10-D read (ML-OTTO-300; SIG -005 sent). 4. 10/20 Ally Q3 (OTTO-12). 5. **THESIS v1.6 by 10/30** with a cold reader. 6. **Year-end readiness by 11/30** (OTTO-11 instrument, OTTO-12 evidence, true-at-creation check). Every owed item, including what waits on others, is in `STALE_PUNCHLIST.md`; the dated ones are docket rows, so boot shows them.
