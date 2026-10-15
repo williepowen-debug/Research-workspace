@@ -72,6 +72,7 @@ Scores retained. 7 vectors at ceiling ⇒ this composite cannot register the wee
 | Item | Due |
 |---|---|
 | ✅ DONE 10/14: WQ-431 HOLD · WQ-432 leg 2 KEPT PROVISIONAL + ①④ (encoded in FRESH_LEG_BASELINE) · WQ-433 FAL-06 dated search (encoded) — Will 2026-10-14 22:01 ET, verbatim "Approve 431, 432 and 433"; record `PROME/proposals/2026-10-14_wq431-433-RULED.md` | closed |
+| **WQ-434 (registered by PROME 10/14 22:13 ET): casualty-ratchet MILITARY_US class-step reading A (consumed 7/17) vs B (re-anchored to 9/8)** — FALCON rec B, PROME concurs; grade on B meanwhile. On Will's word: rewrite `CASUALTY_RATCHET.md` §3/§5 base-rate sentences, commit, send PROME the hash | **Will's word, needed by 2026-10-21** |
 | GATE-FALCON-001 review (TankerMap bars, current vintage; exclusion clause live) | **2026-10-21** (override: immediately on any Bab enforcement event) |
 | 7-day scenario review | **2026-10-21** |
 | **Saudi production-class watch (standing):** a counting source (Aramco/Tadawul/MoE/SPA/MoD/CENTCOM, or a named wire with a named official / ≥2 industry sources) naming **Abqaiq** (10/08), **Ain Dar or Shedgum crude units**, or **Khurais 25.25N 48.10E** with hostile cause ⇒ FIRE D 85→92, C 14→7, PROME first line same hour. A storage tank, gas plant or office ⇒ OUT | **standing** |
