@@ -1,5 +1,5 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** session 32 — opened **2026-10-14 20:20 ET** (Wed), Will-launched full session ("boot up … catch up data missed while we may have been dark"). Model: claude-opus-5-5 (Claude Code). Two background forks pulled travel + FL data to scratchpad only; all repo writes are this session's.
+**Last Updated:** session 32 — opened **2026-10-14 20:20 ET** (Wed), Will-launched full session ("boot up … catch up data missed while we may have been dark"), then "continue to work on the owed" (s32b), "fix the Arizona rule now" (s32c), closed out ~22:10 ET. Model: claude-opus-5-5 (Claude Code). Two background forks pulled travel + FL data to scratchpad only; all repo writes are this session's.
 
 ## CHANGES SINCE (session 31 → 32, 10/10 → 10/14)
 - **Prints that landed or lapsed:** Banxico Aug CE81 (10/1) · LVCVA Aug (~9/30) · BLS Sep CPS · BLS Sep CPI (10/14) · StatCan Sep dailies · NTTO Sep Advance · BTS July T-100. All read this session.
@@ -41,11 +41,12 @@
 | 🟠 `ID-01` | leg 1 MET; Oct ~11/13 |
 | 🟡 LABOR ask | Jan-2026 population-control size on foreign-born LF (answer optional) |
 | 🟡 WATCH_FOR | adopt/decline sent; PROME lands the set |
-| ⚠️ Read budgets | STATUS 73% · NEXUS_BRIEF ~51% · MEMORY 74% · charter 32,539 B (11 B headroom — any charter addition must trim first) |
+| ⚠️ Read budgets | STATUS **74.5%** · MEMORY **74.8%** (next addition to EITHER must rotate first) · NEXUS_BRIEF ~60% · charter 32,539 B (11 B headroom — any charter addition must trim first) |
 
 ## Mail state
 **Inbox: 0 unprocessed** (4 top-level, incl. DAEDALUS 10/14 H2 as-made dispositions — APPLIED: MAR-10/15/25/27 labelled `UNRECORDED-AS-MADE`, MAR-22 AS-MADE AUDIT note added; label read as sufficient, no Brier-exclusion contest; DAEDALUS checks by 10/21 — and the 3 earlier → `inbox/processed/`, incl. DAEDALUS 10/14 brief-pin wiring — applied: charter closeout-11 now names `scripts/brief_pin_check.py MARCO` in place of the A10 timestamp test; 1 WALTER → `inbox/WALTER/processed/`, board_log row 2026-10-15T00:24Z).
 **Sent:** PROME (WATCH_FOR adopt/decline; closeout memo ①–⑦ per PROME's 10/14 ask) · LABOR (SDL-01 flip + population-control ask).
 
 ## PUSH STATE
-Session 32: see the closeout commit and the `safe-push.sh` receipt line in the closeout message.
+Session 32 closeout: final `safe-push.sh` receipt is in the closeout message. Every earlier s32 push printed `Pushed. CONFIRMED` (heads 0002774f0, 2873dd07c, e05f4074b, 352f1fa15).
+**SKIPPED this closeout (stated, not hidden):** the >60-day research-retirement sweep (root Data Hygiene) — not run; consumer_check for the AZ-01/TAX-01/ENF-01/TOUR-03 figures — not run (no peer cites them per the 10/14 grep of SDL-01-class surfaces; AZ/NV/E-Verify have no registered consumers).

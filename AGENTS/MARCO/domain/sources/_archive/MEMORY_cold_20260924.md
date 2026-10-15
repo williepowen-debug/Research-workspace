@@ -60,3 +60,5 @@ Moved VERBATIM out of `MEMORY.md` to bring the boot-read under the 32,550 B read
 
 ---
 
+## Rotated 2026-10-14 (s32), verbatim
+- **Municipal-credit routes (verified 2026-09-24, s29 Channel-4 rebuild):** **EMMA (emma.msrb.org) serves a Terms-of-Use gate — do NOT script past it** (same stance as BRENT on CME). Working substitutes: **TX Comptroller city sales-tax allocations = Socrata API `data.texas.gov/resource/vfba-b57j.json`** (no key; `$where` on city/report_year; ~2-month sales lag); **city ACFR PDFs** via browser-UA curl + pdfminer (grep "unassigned"); **KBRA** releases public; **S&P `spglobal.com/ratings/.../id/<n>` pages 403 to curl AND WebFetch** — confirm the headline via WebSearch, treat body text as secondary; **AZ city TPT = `reports.aztreasury.gov`** (distribution rows, re-group by sales-month label). fitchratings.com blocked to tools.
