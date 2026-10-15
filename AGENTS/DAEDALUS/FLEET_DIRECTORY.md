@@ -7,7 +7,7 @@
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **Cf** (confidence: H=read-verified, M=read+mechanical, L=mechanical-only) + **Scored** (last-scored date) + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never by-design. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
 **WF:** configured phrase-list entries at render time, not hits or routing health. `0` = explicit empty list; `—` = no list; `n/a` = owner-declared non-query desk; `UNKNOWN` = source unavailable/unsupported. Regenerate after lane edits; the existing directory-age guard watches ROSTER/FLEET_MAP only.
-WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `ccc27b84e50a471cb131e09e8f69cd316731f7f4f2a584adbb87ade49454fc35`.
+WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `aa0ed367941a1c710c52e5060f9754071635f35c6401574c3f4e88ae6e064a2b`.
 
 ## 🟢 ACTIVE — persistent domain owners
 
@@ -45,13 +45,14 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `c
 | OZK | Market | L4 | H | 2026-10-01 | Bank OZK specialist (RESG construction / classified-migration watch) | L5 on one edit in OZK's tree: add 218-219 to MEMO_ITEM_3 (4→6), set the… | 2 |
 | WAL | Market | L4 | M | 2026-10-01 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | Conf M→H at the first review after the WAL Q3 release has published (da… | 3 |
 | FLG | Market | L3 | M | 2026-10-01 | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | Conf M→H when FLG-02/03 are graded off the Q3 10-Q (fires only once it… | 8 |
-| CRUISE | Market | L3 | H | 2026-10-01 | Cruise-sector event specialist — CCL vehicle; fuel-cost transmission (BRENT → CCL); 8-channel pre-announce watchlist (`WATCHLIST_CCL_PREANNOUNCE.md`, 8/14); Q3 print ~9/28-29. ⚠️ The 7/2 arm-CCL ladder is PROPOSED-NEVER-RATIFIED and 4wk in-band — retire-or-fresh-levels decision staged at next session (row-55 ruling 8/21); do NOT treat its band as a live threshold | L4 at the CRUISE session that re-states TRADE.md's two WATCH rows as DE… | — |
+| CRUISE | Market | L3 | H | 2026-10-01 | Cruise-sector event specialist — CCL vehicle; fuel-cost transmission (BRENT → CCL); 8-channel pre-announce watchlist (`WATCHLIST_CCL_PREANNOUNCE.md`, 8/14); Q3 print ~9/28-29. ⚠️ The 7/2 arm-CCL ladder is PROPOSED-NEVER-RATIFIED and 4wk in-band — retire-or-fresh-levels decision staged at next session (row-55 ruling 8/21); do NOT treat its band as a live threshold | L4 at the CRUISE session that re-states TRADE.md's two WATCH rows as DE… | 7 |
 | FERT | Market | L4 | M | 2026-10-01 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | L5 on the FERT-11 Pink Sheet grade (10/02) and the next two DTN G5 prin… | 10 |
 
 ## 🟡 TIER-2 — spawned as needed
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next | WF |
 |---|---|---|---|---|---|---|---|
+| GIBBS | Market | L0 | M | 2026-10-14 | Large-bank desk — the 16 US firms in Fed Categories I–III (named list, re-cut quarterly): is regional-bank stress industry-wide, and is large-bank lending to non-bank finance transmitting it | L1 at the first live session (DOCKET L704, 2026-10-19): a current-judgm… | — |
 | CREED | Market | L4 | H | 2026-10-01 | National CRE / CMBS | L5 at the next tier-2 CREED spawn whose closeout carries a BOTTOM LINE… | 36 |
 | DEWEY | Utility | L4 | M | 2026-10-01 | Deep on-demand research | L5 on a labeled CONTRACT block (PRODUCES / CONSUMED BY / PROOF) in CLAU… | n/a |
 | HANS | Market | L5 | H | 2026-10-01 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | SUSTAIN at the first HANS closeout after a large-EU-bank Q3 result prin… | 10 |
@@ -73,6 +74,6 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `c
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row | — |
 
 ---
-*34 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES, YEYOU. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*34 active · 5 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES, YEYOU. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
 
 *⏸ **CLASSIFICATION PENDING (ROSTER, Will's hold):** entries under that heading are NOT graded and carry no FLEET_MAP row by ruling — read the section in `PROME/ROSTER.md` for the names and the restriction. Absence from the tables above is the hold, not an omission.*

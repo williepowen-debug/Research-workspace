@@ -1,0 +1,4 @@
+# LIVE — Last real data refresh: 2026-10-14 (empty at build) | Staleness sweep: 2026-10-14 | Next: retrospective Q3 read at the first live session 2026-10-19
+# One row per firm x item x quarter. Item: 1 deposit costs / interest-free trend · 2 CRE+office reserves / NCOs · 3 NDFI / private-credit exposure+reserves · 4 NII guidance. Scope_Tag (required): INDUSTRY-WIDE | REGIONAL-ONLY | NOT-YET-DETERMINABLE (charter § THE TAG).
+# Basis (required): entity (HC or bank) + measure (period-end / qtr-avg / GAAP / regulatory). Authority: PRIMARY | MIRROR | MIRROR-WALLED (STATE_VOCABULARY Class 6). Item-3 rows for JPM/WFC/C cite BROCK's figure (WQ-426 one-figure condition). Ungraded, no thresholds.
+Date	Ticker	Quarter	Item	Read	Basis	Authority	Source	Regional_Comparator	Scope_Tag	KB_Ref	Notes

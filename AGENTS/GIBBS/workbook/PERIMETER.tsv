@@ -1,0 +1,20 @@
+# LIVE — Last real data refresh: 2026-10-14 (seeded at build by DAEDALUS from builds/2026-10-14_LARGE_BANK_PRIMARY_CHECK.md) | Staleness sweep: 2026-10-14 | Next: quarterly re-cut after Q3 prints (~2026-11-14)
+# NAMED LIST (WQ-426, Will 2026-10-14): the 16 US top-tier firms in Fed Categories I–III at 6/30/2026. Membership is THIS LIST, never an asset line. Assets = period-end GAAP total assets from 10-Q/8-K (PRIMARY), NOT the 4-quarter quarterly-average basis the tailoring rule uses (12 CFR 252.2).
+# CIK deliberately BLANK at build: fill from EDGAR at the first session and check each response names the intended issuer (REGINALD VLY/CIK 74260 lesson). Lead_Bank_RSSD = the lead subsidiary bank from the Fed LBR [P], NOT the holding-company RSSD (NIC unreachable).
+Ticker	Holding_Company	HC_Type	Category	Category_Source	CIK	Lead_Bank_RSSD	Assets_2026Q2_USDbn	Assets_2026Q3_USDbn	Q3_Report_Date	Q3_Date_Basis	As_Of	Notes
+JPM	JPMorgan Chase & Co.	BHC	I	Fed DFAST 2026 Table 3 [P]		852218	5015.1	5091.5	2026-10-13	REPORTED 8-K 0001628280-26-065582 [P]	2026-06-30	BRK-31 name (BROCK owns the NDFI figure)
+BAC	Bank of America Corp.	BHC	I	Fed DFAST 2026 Table 3 [P]		480228	3499.2	3427.7	2026-10-14	REPORTED 8-K 0000070858-26-000481 [P]	2026-06-30	
+C	Citigroup Inc.	BHC	I	Fed DFAST 2026 Table 3 [P]		476810	2895	2941	2026-10-13	REPORTED 8-K 0001104659-26-115323 [P]	2026-06-30	BRK-31 name; 6/30 is the rounded Q3-release comparative (2026 10-Q XBRL lacks us-gaap:Assets — unexplained)
+WFC	Wells Fargo & Co.	BHC	I	Fed DFAST 2026 Table 3 [P]		451965	2282.2	2253.3	2026-10-13	REPORTED 8-K 0000072971-26-000318 [P]	2026-06-30	BRK-31 name
+GS	Goldman Sachs Group	BHC	I	Fed DFAST 2026 Table 3 [P]		2182786	2127.7	2182	2026-10-13	REPORTED 8-K 0000886982-26-000529 [P]	2026-06-30	9/30 rounded from release balance sheet
+MS	Morgan Stanley	BHC	I	Fed DFAST 2026 Table 3 [P]		1456501	1675.1	1692.3	2026-10-14	REPORTED 8-K 0000895421-26-000288 [P]	2026-06-30	two lead banks: 1456501 + 2489805
+BK	Bank of New York Mellon (BNY)	BHC	I	Fed DFAST 2026 Table 3 [P]		541101	525.0		2026-10-15	issuer PR [P]	2026-06-30	custody GSIB — missed by the 10/10 draft list
+STT	State Street Corp.	BHC	I	Fed DFAST 2026 Table 3 [P]		35301	418.4	403.3	2026-10-14	REPORTED 8-K 0000093751-26-000592 [P]	2026-06-30	custody GSIB — missed by the 10/10 draft list
+AXP	American Express Co.	BHC	II	issuer 10-Q 6/30/2026 [P]: Category II during Q2-2026 (DFAST table still says III)		1394676	308.2		2026-10-23	issuer PR via search index	2026-06-30	card credit = CARL's figure (one number)
+NTRS	Northern Trust Corp.	BHC	II	Fed DFAST 2026 Table 3 [P]		210434	179.3		2026-10-21	issuer PR via search index (fetch timed out)	2026-06-30	Category II below $250B (cross-jurisdictional activity)
+USB	U.S. Bancorp	BHC	III	Fed DFAST 2026 Table 3 [P]		504713	725.9		2026-10-15	issuer PR PDF [P]	2026-06-30	qtr-avg 4Q proxy 686.6 — ~$13B under the $700B Cat II line
+COF	Capital One Financial	BHC	III	issuer 10-Q 6/30/2026 [P]		112837	673.8		2026-10-20	issuer page via search index + wire	2026-06-30	card credit = CARL's figure (one number)
+PNC	PNC Financial Services	BHC	III	Fed DFAST 2026 Table 3 [P]		817824	616.0		2026-10-15	issuer PR [P]	2026-06-30	
+TFC	Truist Financial	BHC	III	issuer 10-Q 6/30/2026 [P]		852320	556.0		2026-10-16	issuer schedule [P]	2026-06-30	
+SCHW	Charles Schwab Corp.	SLHC	III	issuer 10-Q 6/30/2026 [P]			517.3		2026-10-15	calendar estimate [S] — issuer IR 403	2026-06-30	savings-association banks, not in the Fed LBR
+FITB	Fifth Third Bancorp	BHC	IV→III	issuer 10-Q 6/30/2026 [P]: transition IV→III begins Q3-2026		723112	300.2		2026-10-19	issuer IR [P]	2026-06-30	BOUNDARY: assigned to GIBBS at build (WQ-426)
