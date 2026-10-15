@@ -146,7 +146,7 @@ By episode: 2023-10/11 UP 5 · DOWN 1 · NV 11 · 2024-08 0 · 1 · 2 · 2025-04
 
 ## 2B. THE CCC−B LETTER — ALTERNATIVE · DRAFT (🔒 frozen only on Will's word)
 
-**Instrument:** G = FRED `BAMLH0A3HYC` − `BAMLH0A2HYB`, integer bp, as first read by NEXUS (same log, same five-series carry-forward rule; an observation needs both CCC and B). **Anchor L:** the G cell for the observation date of Will's ruling (or the next observation). **Window:** 21 observations; for a 10/19 anchor, earliest fire = cell 5 = obs Mon 10/26; cell 21 = obs Tue 11/17 (Wed 11/18 if Veterans Day 11/11 is a carry-forward). **Backstop:** end of anchor + 45 calendar days (inclusive; Thu 12/03); ≥5 observations and no run ⇒ C; fewer than 5 ⇒ VOID; a backstop C re-anchors on the first observation after the backstop.
+**Instrument:** G = FRED `BAMLH0A3HYC` − `BAMLH0A2HYB`, integer bp, as first read by NEXUS (same log, same five-series carry-forward rule; an observation needs both CCC and B). **Anchor L:** the G cell for the observation date of Will's ruling (or the next observation). **Window:** 21 observations; for a 10/19 anchor, earliest fire = cell 5 = obs Mon 10/26; cell 21 = obs Tue 11/17 (Wed 11/18 if Veterans Day 11/11 is a carry-forward). **Backstop:** end of anchor + 45 calendar days (inclusive; Thu 12/03); ≥5 observations and no run ⇒ C; fewer than 5 ⇒ VOID; a backstop C re-anchors on the first observation dated after the backstop.
 
 | Branch | Condition | Consequence |
 |---|---|---|
@@ -155,7 +155,7 @@ By episode: 2023-10/11 UP 5 · DOWN 1 · NV 11 · 2024-08 0 · 1 · 2 · 2025-04
 | **C** | neither by cell 21 | nothing; EARNED |
 
 **Counterexamples** (L = 900, computed): 875 ×5 ⇒ DOWN at cell 5 · 876 ×5 then 900 ⇒ C · 925 ×5 ⇒ UP at cell 5 · 925, 930, 926, 940, 900, 870, 860, 875, 850, 872 ⇒ DOWN at cell 10 · alternating ±30–40 ⇒ C · n = 0 ⇒ VOID · n = 1 ⇒ VOID · 12 observations with an UP run completing at cell 9 ⇒ UP at cell 9.
-**Non-renewable, vintage, count-once:** as §2A (L₂ = cell 21 or the first observation after a backstop; EXHAUSTED words as §2A).
+**Non-renewable, vintage, count-once:** as §2A (L₂ = cell 21 or the first observation dated after a backstop; EXHAUSTED words as §2A).
 **Disc-A:** UP TRUE-in-spirit iff ΔCCC > 0 (else a decompression on a rally); DOWN TRUE-in-spirit iff ΔCCC < 0 AND ΔB ≤ 0 (a gap closing because B widened toward CCC is contagion, FALSE-in-spirit).
 
 ## 3. What a repeated no-move would mean
