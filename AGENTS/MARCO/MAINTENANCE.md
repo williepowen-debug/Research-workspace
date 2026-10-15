@@ -115,6 +115,7 @@
 - **What:** the voter-registration leg compares each month with the prior year only. 2026 is a midterm year and 2025 was not, so August printed **+35.6% YoY** while the cycle-matched comparison with 2022 is **−21.0%**. MARCO shipped the YoY to CARL as a counter-signal (9/19); corrected 9/24 (`KB-MARCO-MIG-08`).
 - **Action:** add a same-cycle column (vs 4 years earlier) to the tool output and `MIGRATION_PROXIES.tsv`. The DOS page links the 2022 archive zip, **but not 2023/2024** — find those before building a 2-yr stack. Same lesson MARCO already owns for TOUR-01 and SDL-01: the base-effect guard had not reached this instrument.
 - **Effort:** small.
+- **Re-observed 2026-10-14 (s32):** the `--append` run wrote September's row with direction_read *"no inflow-collapse signal"* on bare YoY (+65.7%) while vs Sep-22 is +0.2% — annotated by hand in the notes cell. Still open; the hand annotation is the workaround, not the fix.
 
 ### ✅ T2-H · VX tail after the s30 sweep — five 2026-07-31 rows — DONE 2026-09-24 (s30b)
 *(All five refreshed same day: GTR-01 BREACHED→CRITICAL, 3.02 CRITICAL→ELEVATED (borderline, forced basket rebase — baskets now in `baselines/vx302_baskets.tsv`), TX-02 BREACHED held, FL-03 NORMAL, CA-01 no new data. New VX floor = 2026-08-11 (1.03, 3.01, SDL-01, SFE-03).)*

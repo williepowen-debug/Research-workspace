@@ -146,6 +146,23 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 
 
 
+### 10/14 — VERIFIED THIS PASS (session 32, catch-up) — pulled from the issuing primary 2026-10-14
+
+Every new print below was taken only after the SAME pull reproduced the figure MARCO already carried for the prior month (basis check) — noted per row.
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **Foreign-born labor force** | **32,279k**, YoY **+206K**, 2-yr −502K; identity sum exact (share 18.95%); Aug 31,860k unrevised | Sep 2026 | BLS API LNU01073395/413/01000000 | `VX-MARCO-SDL-01` · `KB-WFD-17` |
+| **LFPR, less-than-HS diploma 25+** | **44.3%** (yr-ago 47.6) | Sep 2026 | BLS API `LNS11327659` | STATUS dashboard |
+| **CPI airline fares** | index **315.948**; 2-yr **+26.36%**, YoY +22.45%; Aug +27.46 reproduces | Sep 2026 | BLS API `CUUR0000SETG01` (NSA) | `ENR-02` · `KB-ENR-37` |
+| **CPI fresh F&V** | **+3.85%** YoY (index 418.065), 2-yr +5.13%; Aug +3.13 reproduces | Sep 2026 | BLS API `CUUR0000SAF1131` | MAR-14 · `KB-PRD-39` |
+| **Mexico remittances (count)** | **13,248.2k, −6.39% YoY; 2-yr −11.99%**; $5,452.3M −3.56%; Jul 13,081.6k unrevised | Aug 2026 | Banxico CE81 via `tools/banxico_monthly.py` | `VX-MARCO-2.08` · `KB-REM-09` |
+| **Canadian return trips, total 2-yr** | **−28.72%** (air −18.70 / land −31.11); Aug −26.63 reproduces exactly | Sep 2026 | StatCan WDS 24-10-0056/0057 dailies | `VX-MARCO-1.01` · `KB-CAN-49` |
+| **Overseas arrivals vs 2019** | **−22.40%** (2,703,912 vs 3,484,495); YTD −20.92%; Jan–Aug reproduce | Sep 2026 (ADVANCE) | NTTO Advance Table A (= Table C, verified on Aug) | `VX-MARCO-1.02` · `KB-IVF-43` |
+| **LVCVA visitors / RevPAR / air** | 3,034,900 −4.3% / $111.39 −11.5% / 4,149,332 −9.2%; YTD-Jul + Aug = YTD-Aug exactly | Aug 2026 | LVCVA ES PDF, pdfminer | `VX-MARCO-NV-01` · `KB-NV-04` |
+| **FL airport index (BTS)** | **−7.13%**; YoY MCO −5.28 / FLL −5.97 / MIA −1.47; ex-Spirit MCO +7.01 / FLL +31.42; June −11.54 reproduces, no revisions | Jul 2026 | BTS T-100 via `bts_airport_pull.py --out` | `VX-MARCO-1.04` · `KB-APT-46` |
+| **FL voter-reg new (proxy)** | 66,650, +65.7% YoY; vs Sep-22 +0.2%; Aug-22 / Jan–Aug-22 reproduce `KB-MIG-08` | Sep 2026 | FL DOS via `fl_migration_proxies.py` | `MIGRATION_PROXIES.tsv` · `KB-MIG-09` |
+
 ## 4. RETRACTED — and what the accurate number is instead
 
 **This is the section that matters most for "are we documenting the real numbers."**

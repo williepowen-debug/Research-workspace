@@ -2,8 +2,8 @@
 # Source: banxico.org.mx consultarCuadro idCuadro=CE81 (primary XLS).
 # ⚠️ count_thousands = THOUSANDS of operations. This is the SDL-01 tell series.
 # ⚠️ NOT CE100 — that is the QUARTERLY by-Mexican-state table (tools/banxico_reverse.py).
-# Last real data refresh: 2026-07-01   <- NEWEST DATA MONTH, not the pull date (PAT-044).
-# pulled=2026-09-19 months=259 newest=2026-07
+# Last real data refresh: 2026-08-01   <- NEWEST DATA MONTH, not the pull date (PAT-044).
+# pulled=2026-10-14 months=260 newest=2026-08
 period	value_musd	count_thousands	avg_usd
 2005-01	1367.556299	4292.145000	319
 2005-02	1428.377043	4426.620000	323
@@ -264,3 +264,4 @@ period	value_musd	count_thousands	avg_usd
 2026-05	5624.972607	13899.471000	405
 2026-06	5472.347715	12965.415000	422
 2026-07	5570.582347	13081.646000	426
+2026-08	5452.336724	13248.194000	412
