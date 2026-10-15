@@ -3,7 +3,7 @@
 **Status:** 🔴🔴 fraud-leg (4 confirmed cases; both OTTO mechanisms criminally charged; First Brands in Ch.7 since 9/1) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 points on one root
 **Domain:** Auto-sector fraud & stress: subprime lending, ABS performance, immigration-auto transmission, related-party manipulation
 **Thesis version:** v1.5 (v1.6 rewrite OWED; 10/14 file review found it seven weeks behind STATUS, so read STATUS for live state)
-**As of:** 2026-10-14 23:04 ET (session 029) | STATUS commit: `6d94bd2b1`
+**As of:** 2026-10-14 23:37 ET (session 029, owed-items closeout) | STATUS commit: `7a95e1fba`
 **Recent thesis pivots:** **Oct 14 (s029): two.** (1) **OTTO-33 68% → 60%**: the Kollar/Seibold plea transcripts it was raised on are unposted 76 days after the order. (2) **Calibration, scored at as-made from git: 5 of 10, mean Brier 0.2400 vs 0.2500 for always-50%** — no evidence of skill yet. *s028:* the Tricolor criminal ABS charge reaches back to 2018 (ECF 149: 11 of ≥13 TAST deals; 2022-2 and 2023-2 not charged).
 
 ---
@@ -67,6 +67,7 @@ Canonical forward set: `docket/CATALYSTS.tsv`. WINTERKORN (the docket sub-agent)
 | 10/21 · 10/27 | First Brands §721 operate-the-business hearing · First Brands §341 | Trustee's path for the estate |
 | 10/21 | OTTO-07 shelf re-run · Carvana T-7 short-seller check · Tricolor suppression-ruling check (ECF 108) | A shelf that stopped issuing · activist mention · evidence suppressed |
 | 10/28 · ~10/29 | Carvana Q3 · EART Sept 10-Ds | Finance line + same-day short report · recovery vs 28%, OTTO-34 |
+| 10/30 · 11/30 | THESIS v1.6 target · year-end readiness (OTTO-11 instrument, OTTO-12 evidence, true-at-creation check) | OTTO-set deadlines; missed = re-dated with a reason |
 | 11/6 · ~11/15 | Manheim October · Severity-Divergence re-run | A second negative print · CONFIRM / REFUTE |
 
 **Method note:** the CourtListener search API reaches the Tricolor criminal docket unauthenticated. ECF 149 sat there for 47 days while OTTO searched only the press. Never grade a court filing "not found" on press searches.
