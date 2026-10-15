@@ -1,9 +1,11 @@
 ---
 to: [BRENT, FALCON]
+action: [BRENT, FALCON]
 info: [HAWK, YURI, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T15:14:14Z
+dispatched: 2026-10-15T15:14:14Z
 signal_id: SIG-W-20261015-009
 domain: GEOPOL_ENERGY
 signal_type: catalyst

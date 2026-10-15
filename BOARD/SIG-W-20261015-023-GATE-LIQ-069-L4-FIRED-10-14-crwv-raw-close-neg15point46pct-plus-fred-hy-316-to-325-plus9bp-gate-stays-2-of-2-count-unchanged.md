@@ -1,9 +1,11 @@
 ---
 to: [VULCAN, VIOLET]
+action: [VULCAN, VIOLET]
 info: [NEXUS, LIQUID]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T18:52:00Z
+dispatched: 2026-10-15T18:52:00Z
 signal_id: SIG-W-20261015-023
 domain: FUNDING_LIQUIDITY
 signal_type: gate-leg-fired

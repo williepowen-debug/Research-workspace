@@ -1,9 +1,11 @@
 ---
 to: [VULCAN]
+action: [VULCAN]
 info: [VIOLET, HENRY, SAM, ZHAO, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T15:14:14Z
+dispatched: 2026-10-15T15:14:14Z
 signal_id: SIG-W-20261015-014
 domain: AI_CAPEX
 signal_type: context

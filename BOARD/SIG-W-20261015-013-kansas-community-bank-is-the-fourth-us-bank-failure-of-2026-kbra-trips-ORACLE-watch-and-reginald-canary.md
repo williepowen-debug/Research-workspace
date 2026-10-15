@@ -1,9 +1,11 @@
 ---
 to: [REGINALD]
+action: [REGINALD]
 info: [BROCK, LIQUID, ORACLE, CARL, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T15:14:14Z
+dispatched: 2026-10-15T15:14:14Z
 signal_id: SIG-W-20261015-013
 domain: BANK_CRE
 signal_type: catalyst

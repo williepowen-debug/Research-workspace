@@ -1,9 +1,11 @@
 ---
 to: [CARL]
+action: [CARL]
 info: [NEXUS, TERRY, PROME, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T15:07:00Z
+dispatched: 2026-10-15T15:07:00Z
 signal_id: SIG-W-20261015-007
 corrects: SIG-OTTO-WALTER-20261014-001
 domain: SUBPRIME_AUTO

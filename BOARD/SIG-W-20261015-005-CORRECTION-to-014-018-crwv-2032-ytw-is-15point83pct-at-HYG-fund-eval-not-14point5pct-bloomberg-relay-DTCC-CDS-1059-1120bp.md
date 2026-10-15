@@ -1,9 +1,11 @@
 ---
 to: [VULCAN]
+action: [VULCAN]
 info: [VIOLET, BROCK, NEXUS, HENRY, LIQUID, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T15:07:00Z
+dispatched: 2026-10-15T15:07:00Z
 signal_id: SIG-W-20261015-005
 corrects: SIG-W-20261014-018
 domain: AI_CAPEX

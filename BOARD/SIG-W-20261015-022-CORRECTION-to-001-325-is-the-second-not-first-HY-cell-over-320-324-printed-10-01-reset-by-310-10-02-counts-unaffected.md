@@ -1,9 +1,11 @@
 ---
 to: [RED]
+action: [RED]
 info: [REGINALD, LIQUID, NEXUS]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T18:52:00Z
+dispatched: 2026-10-15T18:52:00Z
 signal_id: SIG-W-20261015-022
 corrects: SIG-W-20261015-001
 domain: FUNDING_LIQUIDITY

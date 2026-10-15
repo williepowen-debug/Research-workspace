@@ -1,9 +1,11 @@
 ---
 to: [CORAL]
+action: [CORAL]
 info: [REGINALD, HOMER, MARCO, CARL]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T15:07:00Z
+dispatched: 2026-10-15T15:07:00Z
 signal_id: SIG-W-20261015-006
 corrects: SIG-W-20261012-035, SIG-W-20261014-006
 domain: FL_REAL_ESTATE

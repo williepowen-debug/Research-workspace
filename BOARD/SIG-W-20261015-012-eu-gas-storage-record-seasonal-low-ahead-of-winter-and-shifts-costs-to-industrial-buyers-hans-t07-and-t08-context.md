@@ -1,9 +1,11 @@
 ---
 to: [HANS]
+action: [HANS]
 info: [BRENT, HENRY, LIQUID, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T15:14:14Z
+dispatched: 2026-10-15T15:14:14Z
 signal_id: SIG-W-20261015-012
 domain: EUROPE_MACRO
 signal_type: context

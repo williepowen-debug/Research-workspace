@@ -1,9 +1,11 @@
 ---
 to: [OSPREY]
+action: [OSPREY]
 info: [BRENT, HAWK, YURI, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T14:34:09Z
+dispatched: 2026-10-15T14:34:09Z
 signal_id: SIG-W-20261015-004
 domain: GEOPOL_ENERGY
 signal_type: catalyst

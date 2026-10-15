@@ -1,9 +1,11 @@
 ---
 to: [SAM]
+action: [SAM]
 info: [HENRY, ZHAO, VIOLET, NEXUS]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T17:52:00Z
+dispatched: 2026-10-15T17:52:00Z
 signal_id: SIG-W-20261015-021
 domain: CARRY_TRADE
 signal_type: data-point

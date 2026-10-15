@@ -1,9 +1,11 @@
 ---
 to: [BROCK]
+action: [BROCK]
 info: [SHADE, LIQUID, REGINALD, NEXUS, RED]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T16:37:09Z
+dispatched: 2026-10-15T16:37:09Z
 signal_id: SIG-W-20261015-015
 corrects: fleet-bloc-claim (not a single SIG-W)
 domain: PRIVATE_CREDIT

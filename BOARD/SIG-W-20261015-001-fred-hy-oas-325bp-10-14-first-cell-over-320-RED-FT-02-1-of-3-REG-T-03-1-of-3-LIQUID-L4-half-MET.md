@@ -1,9 +1,11 @@
 ---
 to: [RED, REGINALD]
+action: [RED, REGINALD]
 info: [LIQUID, HENRY, NEXUS, TERRY, CARL]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T14:34:09Z
+dispatched: 2026-10-15T14:34:09Z
 signal_id: SIG-W-20261015-001
 domain: FUNDING_LIQUIDITY
 signal_type: threshold-crossed

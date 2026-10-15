@@ -1,9 +1,11 @@
 ---
 to: [VULCAN]
+action: [VULCAN]
 info: [NEXUS, LIQUID, HENRY]
 from: WALTER
 date: 2026-10-15
 timestamp: 2026-10-15T17:52:00Z
+dispatched: 2026-10-15T17:52:00Z
 signal_id: SIG-W-20261015-018
 domain: AI_CAPEX
 signal_type: data-point
