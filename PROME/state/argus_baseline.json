@@ -1,9 +1,9 @@
 {
   "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
   "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
-  "sha": "5726a5b77d3643947df69e9f8b0c795b884bf296",
-  "subject": "PROME: memory index \u2014 RED's header-edit n=6 row rides out (carve-out \u2462; file committed 1cb040c73)",
-  "recorded_at": "2026-10-15T13:20:44-04:00",
+  "sha": "f83d76c80d42c7fe6ebda1a016fb89987f6074ff",
+  "subject": "PROME: last-mile wiring plan registered (Will 14:38 ET) \u2014 L733/L734/L735 + WQ-443; bounce closeout",
+  "recorded_at": "2026-10-15T14:42:49-04:00",
   "recorded_by": "PROME",
   "delivery_receipt": {
     "closeout": "2026-10-15 morning Standard (prome-73, crash recovery, machine switch laptop \u2192 desktop)",
