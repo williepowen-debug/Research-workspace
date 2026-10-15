@@ -11,7 +11,7 @@
  },
  "docket": {
   "2026-10-15": "INFO-BACKLOG PREDICTIVE STUDY",
-  "2026-10-16": "FORUM-5 W1 opacity enumeration DUE",
+  "2026-10-16": "August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-month test of C\u2026",
   "2026-10-17": "WQ-373 PHASE 1",
   "2026-10-19": "BESSENT '2027-01-10' EXTENSION",
   "2026-10-20": "RECEIVER-SIDE CANARY for every routing path (Will 9/25 14:08 ET \"proceed\u2026",
@@ -19,6 +19,7 @@
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
+  "GATE-BRK-OTIC": "LIVE",
   "GATE-BRK-R2": "LIVE",
   "GATE-CORAL-MSI-01": "LIVE",
   "GATE-FALCON-001": "LIVE",
@@ -39,36 +40,16 @@
   "GATE-TERRY-VLO-SCALE": "RESOLVED"
  },
  "money": {
-  "cash": "38.50",
-  "total": "36,432.23",
-  "vintage": "2026-10-14"
+  "cash": "48.42",
+  "total": "37,494.54",
+  "vintage": "2026-10-15"
  },
  "queue": {
-  "187": "Will APPROVED 2026-09-10 11:18 ET (tap via Decision Deck 15:18Z) \u2014 ha\u2026",
   "204": "Phone-signal lane, Part A \u2014 your PAT + iOS Shortcut (WALTER; Part B s\u2026",
-  "273": "\u2696\ufe0f EXTEND THE CLOSEOUT CONSUMER-CHECK TO RETIRED PROSE CLAIMS, COMPLE\u2026",
-  "274": "\ud83d\udfe1 POSITION RECORD \u2014 remaining broker reconciliation gaps. Latest Fide\u2026",
-  "302": "October13 broker receipt: TLT half EXECUTED \u2014 sold close October12, n\u2026",
+  "302": "Will RULED CHOICE R-B 2026-10-15 12:23 ET \u2014 hands still OWED (see Not\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
-  "314": "\u2696\ufe0f ORACLE's OCTOBER $110 OIL LEG \u2014 PART (b) IS IN: APPROVE THE OBSERV\u2026",
-  "357": "October13 broker receipt: TLT put fully sold October12 (net $400.34);\u2026",
-  "364": "\u2696\ufe0f IS THE FLEET'S 'PRIVATE CREDIT IS OPAQUE' CLAIM WITHDRAWN? \u2014 pick\u2026",
-  "365": "\u2696\ufe0f THE DATED QQQ DOWNSIDE CARD YOU COMMISSIONED \u2014 APPROVE OR REJECT:\u2026",
-  "375": "\u2696\ufe0f DAEDALUS's PR#7 LADDER READINGS A AND B \u2014 RATIFY BOTH AS STANDING\u2026",
-  "388": "\u2696\ufe0f UNATTENDED WALTER RUNS \u2014 MAY WALTER SELF-SCHEDULE A BOUNDED SWEEP\u2026",
-  "401": "\u2696\ufe0f S1 OWNER-UNCONSUMED LINE \u2014 BUILD IT, AND THREE SCOPE QUESTIONS THE\u2026",
-  "403": "\u2696\ufe0f A NEW STANDALONE GATE ON OTIC (Blue Owl Technology Income Corp, CI\u2026",
-  "404": "\u2696\ufe0f LIQUID's SWAP-LINE FIX IS IN \u2014 NAME ONE READER (WQ-398 (a), your w\u2026",
-  "410": "\u2696\ufe0f RETIRE VIOLET's COR1M FIRST-TELL (KB-VIO-322)? \u2014 you set it 8/10;\u2026",
-  "411": "\u2696\ufe0f SPINE AUDIT #16 \u2014 SAY THE WORD (last run 10/2; the stamp is eight\u2026",
-  "412": "\u2696\ufe0f REG-07 (SSB NPL migration >0.5% from substandard; 68% [3/5]; Q2\u2013Q3\u2026",
-  "413": "\u2696\ufe0f WAKE THE FIVE REMAINING DARK DESKS TODAY, BEYOND THE FOUR-PER-BOOT\u2026",
-  "421": "\u2696\ufe0f MIDAS-09/10 \u2014 FROZEN FEE/BASIS MEANING BEFORE OCTOBER30. Does ordi\u2026",
-  "422": "SHADE \u2014 EXISTING-DATA ACCESS. Supply a capture/export of the free NAI\u2026",
-  "423": "\u2696\ufe0f SHADE ILLIQUIDITY BASIS \u2014 PROPOSAL, NOT AN ADOPTED GRADE. Prospect\u2026",
-  "424": "\u2696\ufe0f SHADE TSR METHOD \u2014 KEEP CREATOR METHOD OR SEPARATE R/T DIAGNOSTICS\u2026",
-  "435": "\u2696\ufe0f CRUISE CHARTER RE-SCOPE \u2014 APPROVE OR DECLINE (D1 of CRUISE's 10/14\u2026",
-  "439": "\u2696\ufe0f ORACLE VX-ORC-07 \u2014 WHICH WINDOW GRADES THE ODDS-MOVE ALERT? The re\u2026",
-  "440": "\u2696\ufe0f ORACLE VX-ORC-08 (Fed-hike odds >66%) \u2014 WHICH VENUE, AND IS THE RO\u2026"
+  "357": "Will RULED APPROVE 2026-10-15 12:23 ET \u2014 hands still OWED (see Notes)\u2026",
+  "422": "Will RULED APPROVE 2026-10-15 12:25 ET \u2014 hands still OWED (see Notes)\u2026",
+  "442": "\u2696\ufe0f CoreWeave (CRWV) \u2014 COMMISSION TERRY's CARD? TERRY floated a CRWV c\u2026"
  }
 }
