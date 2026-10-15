@@ -454,12 +454,19 @@ WATCH_FOR = {
         "retail bankruptcy filing",        # Downstream — needs actual filing
         "mortgage delinquency surge",      # Housing + consumer convergence
     ],
-    "MARCO": [
-        "DHS shutdown resolved",       # Status change
-        "ICE agricultural raid",       # Labor supply shock
-        "H-2A program change",         # Policy shift
-        "self-deportation data",       # Quantifying the exodus
-        "remittance collapse",         # Mexico flow data
+    "MARCO": [                         # REPLACED 2026-10-14 21:2x ET (PROME prome-8e) — WQ-295 R3 path complete: WALTER live test 10/10
+                                       # (AGENTS/WALTER/research/2026-10-10_marco-watchfor-live/harness_output.txt, 08dac20f5; 12,276 lane headlines + 251 live),
+                                       # MARCO adopt/decline by name 10/14 (PROME/inbox/processed/2026-10-14_from-MARCO_watch-for-adopt-decline-WQ-295.md, 35909f111).
+                                       # ⛔ "Canadian trips" REJECTED by name (2 FALSE: CAD FX "round-trips", in-car Wi-Fi road trips) → replaced by WALTER's tested
+                                       # "Canadian trips United States" (1 TRUE, 0 FALSE; narrower recall accepted — StatCan travel is read at primary monthly).
+                                       # Prior set (DHS shutdown resolved · ICE agricultural raid · H-2A program change · self-deportation data · remittance collapse)
+                                       # RETIRED by the owner; text: git log -S"self-deportation data" -- scripts/newsweep_config.py. ⚠️ "ICE farm raids" matched via the
+                                       # outlet name "Successful Farming" (substring) — subject right, mechanism fragile; not a recall guarantee (MARCO's caveat). C7 free-lane change.
+        "ICE meatpacking raid",        # SDL-01 / Kansas-raid class (0 hits on the lane: zero noise, recall UNPROVEN; AMS slaughter read at primary regardless)
+        "ICE farm raids",              # 1 TRUE, 0 FALSE
+        "H-2A wage rule",              # 3 TRUE, 0 FALSE
+        "remittances Mexico decline",  # 1 TRUE, 0 FALSE
+        "Canadian trips United States",# 1 TRUE, 0 FALSE (replacement for the rejected "Canadian trips")
     ],
     "OTTO": [
         "CVNA earnings",              # Position-specific
