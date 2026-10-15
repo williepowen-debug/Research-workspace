@@ -7,7 +7,7 @@
 > - **THE HINGE moved slightly negative:** Manheim **September 205.9 = −0.6% YoY / −1.1% MoM** (adjusted, released 10/7), after July +1.3% and mid-Aug flat. ⚠️ One month, inside OTTO's ±3% SDT gate — **not** "materially negative". ML-OTTO-289.
 > - **Inbox:** 8 of 9 consumed (board_log). **Kept:** WALTER `SIG-W-20261008-033` (WQ-399) — the receipt half is DONE (COR-20261012-27 receipted NO-OP with the new fields); the own-charter receipt-line fix waits on Will's OK.
 > - **DAEDALUS Falsification #4 (10/8), answered:** the **OTTO-12 attempt scheduled 10/1 did NOT run** (s027 was bounded; OTTO dark 10/5–10/13). Dated reads now on the calendar: **OTTO-31 at M&T Q3 10/16**, **OTTO-12 at Ally Q3 10/20**. **OTTO-07 shelf re-run DEFERRED, review 2026-10-21.**
-> - ✅ **10/1 deliverable DONE (13 days late):** issuer seasoning clock + (deal, collection_period) upsert key; full backfill, 0 of 137 values moved, CARL n=3 to the cent at 29/30/31 (ML-OTTO-291, MAINTENANCE). ⚠️ BLAST clock exhibit-derived (Bridgecrest states none). August read: 39 of 39 worse, Carvana gap +1.73 → +3.17 (ML-OTTO-292). ⛔ **Correction:** the recovery <28% trigger was NOT owed; OTTO routed it 9/2 (`SIG-OTTO-WALTER-20260902-002` → WALTER `SIG-W-20260903-007`). MEMORY carried a stale "owed". **Still owed:** Tricolor Counts 7–8. **WINTERKORN has not run since 7/25.**
+> - ✅ **10/1 deliverable DONE (13 days late):** issuer seasoning clock + (deal, collection_period) upsert key; full backfill, 0 of 137 values moved, CARL n=3 to the cent at 29/30/31 (ML-OTTO-291, MAINTENANCE). ⚠️ BLAST clock exhibit-derived (Bridgecrest states none). August read: 39 of 39 worse, Carvana gap +1.73 → +3.17 (ML-OTTO-292). ⛔ **Correction:** the recovery <28% trigger was NOT owed; OTTO routed it 9/2 (`SIG-OTTO-WALTER-20260902-002` → WALTER `SIG-W-20260903-007`). MEMORY carried a stale "owed". ✅ **Tricolor Counts 7–8 RESOLVED:** the list was filed on time 8/28 (ECF 149) and names **11 TAST deals, 2018-1 → 2025-2** (the SEC's 7 outstanding + 4 retired), plus a never-formed deal. OTTO had it UNVERIFIED 47 days on press-only searches (ML-OTTO-293). **WINTERKORN has not run since 7/25.**
 > **📌 Cold half — the settled reasoning, resolved predictions, per-vector narrative and prior-session pointers are VERBATIM in [`STATUS_COLD.md`](STATUS_COLD.md)** (s026/s027 pointers and the 9/30 resolved-set note → §14) (not a boot read; hot STATUS wins on any disagreement).
 
 ---
@@ -68,7 +68,7 @@
 |--------|--------|----------|
 | Wilmington Trust + successor-trustee vacuum | 🟠 DORMANT | OTTO-31 at 12%. **CRMT is NOT an instance** — Deutsche Bank is trustee on all five ACM trusts (corrected 9/2) |
 | Tricolor distribution gridlock + MFS (Cockroach #4) | 🔴 stable | $113M frozen; ~3% projected recovery; no movement |
-| Tricolor Criminal Track | 🔴🔴 ESCALATED | **Privilege chain produced output 8/7 + 8/14; motion to dismiss DENIED 8/14.** Trial **Jan 25 2027** (Chu only), FPTC Dec 9, Goodgame sentencing Dec 4. Cooperators 3 |
+| Tricolor Criminal Track | 🔴🔴 ESCALATED | **Counts 7–8 list filed 8/28 (ECF 149): all 11 TAST deals since 2018. Suppression hearing set 10/7, no ruling seen. Motion to dismiss DENIED 8/14.** Trial **Jan 25 2027** (Chu only), FPTC Dec 9, Goodgame sentencing Dec 4. Cooperators 3 |
 | Tricolor ↔ Origin Bancorp (OBK) | 🔴🔴 | RE-CLASSIFIED 8/27: EXPOSURE → RELATED PARTY |
 | Tricolor Floorplan Layer — TFIN/TBK | 🔴 | Agent on $60.5M, holds ~$22.5M, no charge-off/reserve; ~$38M unnamed syndicate = open discovery channel |
 | Carvana | 🔴 | First primary-source collateral read is worse than deep subprime; finance line is the whole GPU story |
@@ -92,11 +92,11 @@
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Oct 1** | Tricolor **Counts 7–8 exhaustive securitization list** — CHECK date (event due ~8/28, still UNVERIFIED) | 🟠 `modeled` **OWNER OTTO, checked every session until resolved.** 9/28: SEARCH-NOT-FOUND; PACER unchecked. Civil perimeter already on file (SEC complaint read 8/27: 7 TASTs, double-pledged deal list) — NOT the criminal list |
 | **Oct 15 (Thu)** | 🔴 **CRMT — bridge-6 Scheduled Termination Date** (Silver Point) | 🔴 `confirmed` **NEW s028. Owner BROCK (DOCKET L651); OTTO reads BROCK's grade, never ahead of it.** Bridges 3, 4, 6 filed ~16:05 ET on the STD day; 2 and 5 pre-open. Acceptance time from the EDGAR index page. Silence narrows, never grades |
 | **Oct 16 (Thu)** | **M&T Bank Q3** — OTTO-31 dated in-window read (Wilmington Trust) | 🟠 `confirmed` **NEW s028.** Exit / wind-down language = evidence for; active-franchise language again = third disconfirmation |
 | **Oct 20 (Tue)** | **Ally Q3** (07:30 ET) — retail-auto NCO / severity; any warehouse-lending curtailment (OTTO-12) | 🟠 `confirmed` **NEW s028** `[PRESS date]` |
 | **Oct 21 (Wed)** | CRMT Item 1.01 backstop #4 (agreement dated ≤10/15) · **Carvana T-7 short-seller check** | 🟠 `confirmed` **NEW s028.** Backstop owner BROCK (L652). Short-seller check per CLAUDE.md § Short-Seller Report Monitoring |
+| **~Oct 21** | Tricolor criminal — **suppression ruling check** (ECF 108; hearing set 10/7) | 🟠 `modeled` **NEW s028.** Granted in material part = weaker case for the Jan-25 trial; denied = unchanged |
 | **Oct 28 (Wed)** | 🔴 **Carvana Q3** (after close, call 17:30 ET) — finance line, loan sales, Bridgecrest, related party; same-day short-report watch | 🔴 `confirmed` **NEW s028** `[PRESS date]` |
 | **Nov 6 (Fri)** | **Manheim October full-month release** — the hinge's next read | 🟠 `confirmed` **NEW s028.** Sept −0.6% YoY. Second negative print or ≤ −3% = the hinge moving; feeds the ~11/15 SDT `--manheim` input |
 | **Nov 11** | Tricolor §341 (continued) — next-canonical observation point after Jun 17 continuance | 🟠 [CONF Verita Jun 9 via WINTERKORN] — next forward-window check on distribution-plan / $113M dispute · s026: the trustee projects the Final Report for **9/30/2030** `[CONF Dkt 1113, filed 4/30]`; no distribution order on the full docket through 9/30 (Verita) |
@@ -144,4 +144,4 @@
 
 **Fraud-leg 🔴🔴 / both systemic legs 🟠 DISCONFIRMED. Nothing moved the thesis.** *(The s021 BOTTOM LINE is verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §10.)*
 
-**Nearest resolvers (s028):** **owed since 10/1:** the Tricolor list check · **10/15:** CRMT bridge-6 STD (BROCK) · **10/16:** M&T Q3 (OTTO-31) · **10/20:** Ally Q3 (OTTO-12) · **10/21:** CRMT backstop #4 + Carvana T-7 · **10/28:** Carvana Q3.
+**Nearest resolvers (s028):** **10/15:** CRMT bridge-6 STD (BROCK) · **10/16:** M&T Q3 (OTTO-31) · **10/20:** Ally Q3 (OTTO-12) · **10/21:** CRMT backstop #4 + Carvana T-7 · **10/28:** Carvana Q3.
