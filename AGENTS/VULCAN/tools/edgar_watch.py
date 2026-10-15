@@ -126,6 +126,17 @@ ISSUERS = [
     ("TSM",  1046179, "S4",    "monthly revenue 6-Ks. ⚠️ The revenue SERIES is owned by "
                                "tsmc_watch.py — this sweep watches for its OTHER filings and "
                                "must never be treated as a second revenue source."),
+    # 🆕 ADDED 2026-10-15 (Will-directed fix after the 10/15 gap audit). S1's standing rule is a
+    # hyperscaler capex CUT, and the four hyperscalers were NOT on this sweep: a mid-quarter
+    # capex/lease 8-K would not have surfaced, and Meta's 10/12 move of its Q3 date to 10/21 was
+    # found 3 days late, by hand. CIKs verified at data.sec.gov 2026-10-15 (name + ticker).
+    ("MSFT", 789019,  "S1/S3", "hyperscaler capex guide (S1 rule = capex CUT YoY); largest CRWV "
+                               "customer; Maia custom silicon; FY ends 06-30."),
+    ("GOOGL", 1652044, "S1/S3", "hyperscaler capex guide; both share classes are ONE issuer "
+                                "(GOOGL+GOOG count together in mag7.py)."),
+    ("META", 1326801, "S1/S5", "hyperscaler capex guide; Hyperion/'Beignet' off-BS financing and "
+                               "the 10-Q commitments footnote (KB-198)."),
+    ("AMZN", 1018724, "S1/S5", "hyperscaler capex guide; the GPU SPV sale-leaseback (KB-191)."),
 ]
 
 PERIODIC = {"10-Q", "10-K", "20-F", "40-F"}   # forms with a meaningful reportDate->filed lag

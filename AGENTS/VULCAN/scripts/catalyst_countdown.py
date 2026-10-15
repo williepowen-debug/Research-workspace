@@ -84,6 +84,18 @@ PAST_RETENTION_MAX = 120
 DATE_CLASS_ENUM = {"confirmed", "external", "estimated", "modeled"}
 ANCHOR_ENUM = {"calendar", "publication", "market", "mixed"}
 CLOSED_STATUS = ("HIT", "MISS", "RESOLVED", "CONFIRMED", "FALSIFIED", "VOID")
+# Terminal STATE tokens on rows OTHER desks own (PROME DOCKET state cell; neighbours' status /
+# state / priority cells). ADDED 2026-10-15: both legs ignored state, so resolved rows re-surfaced
+# every boot as "RECENTLY FIRED — SWEEP NOW" (4 of 6 on 10/15) — noise on the one leg the charter
+# says never to skip. CONFIRMED is deliberately absent: in neighbour registers it often means
+# "date confirmed", not "closed".
+TERMINAL_STATE = ("RESOLVED", "DONE", "CLOSED", "GRADED", "SWEPT", "VOID", "CANCELLED",
+                  "WITHDRAWN", "TOMBSTONE", "SUPERSEDED")
+
+
+def _is_terminal(cell):
+    c = (cell or "").strip().lstrip("✅~* ").upper()
+    return c.startswith(TERMINAL_STATE)
 
 # STATE_VOCABULARY Class 9 (marker-role separation), Will-ruled 2026-08-21: PRIORITY is
 # carried by the P1/P2/P3 TEXT token; a coloured circle is severity and is NOT a priority
@@ -143,7 +155,13 @@ def _rows(path):
     if not path.exists():
         return None
     with open(path, encoding="utf-8", newline="") as f:
-        return list(csv.DictReader(f, delimiter="\t"))
+        lines = f.read().splitlines()
+    # FIXED 2026-10-15: a register that opens with a '#' banner line (HAWK's does) made DictReader
+    # take the banner as the header, so every data row overflowed into the None key (a list) and the
+    # neighbour join raised TypeError on every boot. Skip LEADING '#' lines only.
+    while lines and lines[0].lstrip().startswith("#"):
+        lines.pop(0)
+    return list(csv.DictReader(lines, delimiter="\t"))
 
 
 def _pick(row, *names):
@@ -314,6 +332,7 @@ def collect(today, want_neighbours=True):
     try:
         if DOCKET_TSV.exists():
             mention_only = 0
+            docket_closed = 0
             with open(DOCKET_TSV, encoding="utf-8", newline="") as f:
                 for r in csv.reader(f, delimiter="\t"):
                     if not r or r[0].lstrip().startswith("#") or len(r) < 3:
@@ -323,10 +342,16 @@ def collect(today, want_neighbours=True):
                     if "VULCAN" not in r[2]:          # named, but not the owner
                         mention_only += 1
                         continue
+                    if len(r) > 3 and _is_terminal(r[3]):
+                        docket_closed += 1      # resolved by its owner: not VULCAN's to sweep
+                        continue
                     d, dend, is_rng = _parse_span(r[0])
                     if d:
                         ev.append((d, f"[PROME DOCKET] {r[1][:60]}", "", "P2",
                                    "modeled" if is_rng else "external", "DOCK", dend))
+            if docket_closed:
+                warn.append(f"ℹ️  DOCKET: {docket_closed} VULCAN-owned row(s) already in a terminal state "
+                            f"(RESOLVED/DONE/…) — not surfaced, counted here so the skip is visible")
             if mention_only:
                 warn.append(f"ℹ️  DOCKET: {mention_only} row(s) NAME VULCAN downstream but are owned "
                             f"by another desk — excluded from the countdown, not dropped silently")
@@ -353,7 +378,7 @@ def scan_neighbours(today, ev, warn):
     DATE ONLY and therefore coarse (see EXPOSURE 2) — it UNDER-reports rather than
     manufacturing work."""
     mine = {e[0] for e in ev}
-    hits, scanned = [], 0
+    hits, scanned, n_closed = [], 0, 0
     lo, hi = today - timedelta(days=14), today + timedelta(days=DEFAULT_HORIZON)
 
     cands = []
@@ -367,10 +392,14 @@ def scan_neighbours(today, ev, warn):
         try:
             if p.suffix == ".tsv":
                 for r in (_rows(p) or []):
-                    joined = "\t".join(v or "" for v in r.values())
+                    joined = "\t".join(("\t".join(v) if isinstance(v, list) else (v or ""))
+                                        for v in r.values())
                     if "VULCAN" not in joined:
                         continue
-                    d, _, _ = _parse_span(r.get("date"))
+                    if any(_is_terminal(_pick(r, k, k.capitalize())) for k in ("status", "state", "priority")):
+                        n_closed += 1
+                        continue
+                    d, _, _ = _parse_span(_pick(r, "date", "Date"))
                     if not d or not (lo <= d <= hi) or d in mine:
                         continue
                     hits.append((d, owner, p.relative_to(REPO),
@@ -390,6 +419,8 @@ def scan_neighbours(today, ev, warn):
                                  re.sub(r"\s+", " ", line.strip())[:70], "md-line"))
         except Exception as e:
             warn.append(f"🟠 could not read {p.relative_to(REPO)} ({type(e).__name__})")
+    if n_closed:
+        warn.append(f"ℹ️  neighbours: {n_closed} row(s) naming VULCAN are already DONE/RESOLVED by their owner — not surfaced")
     return sorted(set(hits))
 
 
