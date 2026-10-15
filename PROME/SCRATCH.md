@@ -16,7 +16,7 @@
 **Owed PROME work (not blocking):** HEARTBEAT 32nd re-base (79%, chain 1; SKIPPED twice today) · L679 legacy done-row sweep (43 flags / 26 rows) + WQ-415 DATE-FUTURE flag · L736 · L737 · LABOR C2 by 10/21 (L720) · L724 registry leftovers · WQ-430 maintenance session (L710) · GIBBS first session Mon 10/19 (L704) · HOMER wake 10/19 (L725) · WQ-187 receipt check by 10/19 (L728) · CREED auction 10/28 (L723 — ask Will before any CREED launch) · the Deck REFERENCE view (last hosted v12, 9/26) not republished.
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-15 · 9 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-357 (10/14) · WQ-302 (10/14) · WQ-445 (10/16) · WQ-441 (10/17) · WQ-443 (10/19) · WQ-442 (10/23) · WQ-422 (10/23) · WQ-31 (11/1)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-15 · 10 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-357 (10/14) · WQ-302 (10/14) · WQ-445 (10/16) · WQ-446 (10/17) · WQ-441 (10/17) · WQ-443 (10/19) · WQ-442 (10/23) · WQ-422 (10/23) · WQ-31 (11/1)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
