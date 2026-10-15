@@ -18,7 +18,7 @@
 
 **VULCAN's answer: CONDITIONAL YES.** VULCAN owns the mechanism the card rests on. TERRY owns structure, LIQUID owns the credit levels, and Will decides.
 
-**The mechanism (filed facts, not tape):** CoreWeave is the cleanest single-name expression of S5. Its loss is its interest bill (Q2: $640M interest vs a $626M net loss, KB via CHANNEL_DETAIL §A). It has ~$31B of recourse debt at 9–15% and a lender margin ladder that widened +100bp like-for-like in three months. Three customers are ~72% of revenue, with OpenAI among them under an open-ended frontier pause and its compute chief leaving 11/15. The equity is the residual claim on a refinancing that now costs ~15.8% unsecured.
+**The mechanism (filed facts, not tape):** CoreWeave is the cleanest single-name expression of S5. Its loss is its interest bill (Q2: $640M interest vs a $626M net loss, CRWV Q2 10-Q, `archive/CHANNEL_DETAIL_ARCHIVE_2026-09_A-D.md` §A). It has ~$31B of recourse debt at 9–15% and a lender margin ladder that widened +100bp like-for-like in three months. Three customers are ~72% of revenue, with OpenAI among them under an open-ended frontier pause and its compute chief leaving 11/15. The equity is the residual claim on a refinancing that now costs ~15.8% unsecured.
 
 **Why only conditional:**
 1. **The tape already moved.** −28.3% peak-to-trough (10/06 → 10/14); strict 10 sessions −24.5% [sweep 10/15]. A put bought after that pays for the move already made, which is why the card waits for a relief rally.

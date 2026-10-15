@@ -219,7 +219,7 @@ def checks(base):
 
     # 4b CLAUDE.md self-check: a ruling or a standing-rule change in STATUS must reach the charter
     add_st = added_lines(base, "STATUS.md")
-    ruled = [l for l in add_st if re.search(r"Will[- ]ruled|ruled in-session", l)]
+    ruled = [l for l in add_st if new_ruling_lines([l], t)]
     if ruled and not changed_since(base, "CLAUDE.md"):
         rec("4b CLAUDE.md agrees with a ruling made this session", "desk", "FAIL",
             f"{len(ruled)} STATUS line(s) record a ruling; CLAUDE.md unchanged")
@@ -364,6 +364,37 @@ def report():
     return 1 if bad else 0
 
 
+
+RULING_RE = re.compile(r"Will[- ]ruled|ruled in-session")
+DATE_RE = re.compile(r"\b(?:(20\d\d)-(\d\d)-(\d\d)|(\d{1,2})/(\d{1,2}))\b")
+
+
+def new_ruling_lines(lines, today, window=40):
+    """Lines recording a ruling made TODAY. FIXED 2026-10-15: the old test flagged ANY added
+    line containing 'Will-ruled', so a STATUS rewrite that RESTATED the 10/09 Firmus ruling
+    read as a new, un-chartered ruling (a FAIL every run). A mention counts as OLD only when a
+    date EARLIER than today sits within `window` chars of it; a mention with today's date, or
+    with NO nearby date, still counts as new — undated fails CLOSED, never silently passes
+    [finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]."""
+    out = []
+    for l in lines:
+        for m in RULING_RE.finditer(l):
+            seg = l[max(0, m.start() - window): m.end() + window]
+            ds = []
+            for d in DATE_RE.finditer(seg):
+                try:
+                    if d.group(1):
+                        ds.append(date(int(d.group(1)), int(d.group(2)), int(d.group(3))))
+                    else:
+                        ds.append(date(today.year, int(d.group(4)), int(d.group(5))))
+                except ValueError:
+                    continue
+            if not ds or today in ds or not any(x < today for x in ds):
+                out.append(l)
+                break
+    return out
+
+
 def selftest():
     ok = True
 
@@ -389,6 +420,16 @@ def selftest():
     chk("deferral covers when date >= today", deferral_covers(s, "S2_SERIES", date(2026, 10, 9)))
     chk("deferral EXPIRED does not cover", not deferral_covers(s, "S2_SERIES", date(2026, 10, 17)))
     chk("deferral for another file does not cover", not deferral_covers(s, "MAG7_SERIES", date(2026, 10, 9)))
+    T = date(2026, 10, 15)
+    chk("ruling restated with an OLD date is not new",
+        new_ruling_lines(["graded PULLED under the 9/25 rule (Will-ruled 10/09) [KB-209]"], T) == [])
+    chk("ruling with TODAY's date is new", new_ruling_lines(["S5 rule (Will-ruled 10/15)"], T) != [])
+    chk("ISO today is new", new_ruling_lines(["Will-ruled 2026-10-15: X"], T) != [])
+    chk("UNDATED ruling fails closed (new)", new_ruling_lines(["the rule (Will-ruled) governs"], T) != [])
+    chk("old + today both near: new", new_ruling_lines(["10/09 rule, Will-ruled again 10/15"], T) != [])
+    chk("ruled in-session with old ISO date is not new",
+        new_ruling_lines(["Will ruled in-session 2026-10-09 over my qualifier"], T) == [])
+    chk("a line with no ruling is ignored", new_ruling_lines(["S5 FIRED 10/09"], T) == [])
     print("SELFTEST", "PASS" if ok else "FAIL")
     return 0 if ok else 1
 
