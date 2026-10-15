@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-14 20:4x ET — Claude Code, claude-opus-5-5 (env `ANTHROPIC_MODEL=claude-opus-4-8` governs NEW sessions).** Current assignment: Will 20:17 ET "can you work on whats due for you?" — overdue items worked; delivery memo `PROME/inbox/2026-10-14_from-DAEDALUS_due-rows-oct14.md`. Approvals and L4/M unchanged.
+**Last Updated: 2026-10-14 21:54 ET — Claude Code, claude-opus-5-5 (env `ANTHROPIC_MODEL=claude-opus-4-8` governs NEW sessions). SESSION CLOSED (Will 21:54 ET "close out the session").** Assignments: due items (Will 20:17) — memo `PROME/inbox/2026-10-14_from-DAEDALUS_due-rows-oct14.md`; GIBBS build (WQ-426, Will 21:01/21:03) — record `builds/GIBBS_BUILD_2026-10-14.md`. Approvals and L4/M unchanged.
 
 **October 8 work:** completion and remaining work summarized below; four historical rows conserved at archive block BA. Full prior October 4 state is conserved at `archive/STATUS_ARCHIVE_2026-10.md` block AZ. Sweep completions and VULCAN's refresh are recorded below; no new sweep or profile reset in this October 9 boot pass.
 
@@ -85,9 +85,9 @@ Five of the six overdue sweeps ran today: Gate-Basis, Falsification (complete wi
 
 ## BOTTOM LINE — 2026-10-14
 
-**WORK:** Boot + catch-up, then Will's "work on whats due" — every overdue clock item done except L495/L496 (not started, proposed 10/20). Detail: the "October 14 — completed" row above and the PROME memo. Session stopping after closeout.
+**WORK:** Boot + catch-up; Will's "work on whats due" — every overdue clock item done except L495/L496 (re-dated 10/20 by PROME); then **GIBBS built** on WQ-426 (desk tree + drilled boot.py, FLEET_MAP L0/M, PROME registration rows 3–6 applied + committed `ba0c1ae68`, WALTER lane routing v0.43 reviewed row by row with one IHC fix — the error was my packet). Session CLOSED.
 **CHECKS:** Boot B2 BLOCKING cleared (COR-20261012-15 NO-OP). DUE remaining: Harness audit (99d; changelist ruling not found in WILL_QUEUE), profile-refresh queue (PR#8 reads 10/15), SELF-ROW (re-cut at PR#8). Three self-caught defects in the new generator and four mis-stamped times were corrected before or in follow-up commits, never amended.
-**DELIVERY:** Commits `61b4e0b04` · `9e3b3e6ac` · `47bd8f55d` · `ca5e9e235` · `46725d9fc` · follow-ups, pushed at closeout via safe-push (receipt in the closeout record). 16 desk packets + PROME memo delivered as files; consumption is each recipient's.
-**OPEN:** PR#8 10/15 (5 ruling-A trade-leg checks incl. ZHAO PASS-weak input; 3 L5 adjudications; L470 count). **GIBBS BUILT** (WQ-426 ruled 10/14; charter **L703** met early); PROME applies registration rows 3–6, spawns **L704** 10/19. MARCO H2 receipt by 10/21. **L658** RESOLVED by PROME 10/14; **L661** optional N3 token (10/16); **L495/L496** 10/20; L676 on PROME's commission.
+**DELIVERY:** All session commits on origin via safe-push (fresh-fetch receipts each push; final receipt in the closeout commit body). 18 desk packets + 2 PROME memos delivered as files; PROME consumed both memos (dispositions 20:57, 21:1x), WALTER consumed the GIBBS routing packet (lane landed); other recipients' consumption is theirs.
+**OPEN:** PR#8 10/15 (5 ruling-A trade-leg checks incl. ZHAO PASS-weak input; 3 L5 adjudications; L470 count; SELF-ROW re-cut). **GIBBS:** **L703** RESOLVED; **L704** first session 10/19 (PROME spawn); SUMMONS_LEDGERS registration = PROME's next process slot; R0 review 11/15. MARCO H2 receipt by 10/21. **L658** RESOLVED by PROME 10/14; **L661** optional N3 token (10/16); **L495/L496** 10/20; L676 on PROME's commission. **L710** (WQ-430, Will 10/14 21:32): PROME's dedicated maintenance session 10/15 applies L628, builds JANUS (L676), then closeout repairs B→A — DAEDALUS = L628 author on call + the JANUS agent-definition independent read when PROME asks.
 
 *Prior BOTTOM LINE 2026-10-09 (charter split; `3d353adf7` published; L655/L664 PROME reviews pending) → `runs/2026-10-09_CHARTER_SPLIT.md`.*
