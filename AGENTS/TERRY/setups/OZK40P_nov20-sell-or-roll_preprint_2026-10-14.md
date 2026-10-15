@@ -1,6 +1,9 @@
 # SELL-OR-ROLL CARD — OZK Nov-20-2026 $40P ×4 (Fidelity) — pulled forward to before the Q3 print
 
 **Id:** `MGMT-OZK40P-NOV20`
+
+> **RULED 2026-10-14 21:32 ET — WQ-428 SELL ×4 before the Tue 10/20 print** (Will verbatim *"Approve 428, 429 and 430"*; record `PROME/proposals/2026-10-14_wq428-430-RULED.md`). **2026-10-15 10:10 ET capture: no OZK order in Pending, ×4 still held** (FORGE D-82) — order state UNKNOWN; fill to be booked from Will's capture. **F1 status 10/15:** RED-FT-02 at **1 of 3** (HY OAS 325 bp [FRED 10/14], SIG-W-20261015-001); third cell earliest = the 10/16 observation, published ~Mon 10/19; LIQ-07 read Fri 10/16. A sale before then forecloses the F1 branch — the ruled default stands. Screening 10:38 ET: OZK $45.91, 40P 0.30/0.60 (vendor, not a bid).
+
 **Terry verdict:** CONDITIONAL — SELL ×4 to close before the Tue 10/20 print (window § 6); no roll. The order is Will's (root rule #5).
 **Date:** 2026-10-14 Wed, written 21:04 ET (`date`). Screening pulls 20:54–20:55 ET, after the close. Session: PROME spawn (prome-8e, WQ-425), Claude Opus 5.5 (`claude-opus-5-5`), Claude Code.
 **Authority:** WQ-425 — Will 2026-10-14 20:49 ET, verbatim *"Approve 425, spawn TERRY for the OZK and WAL cards"* (record `PROME/proposals/2026-10-14_wq425-RULED.md`). C5 held-option card, pulled forward from Wed 11/18. Preparation only: **$0 moved · no order · no new position · no threshold, gate or score moved.**

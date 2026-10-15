@@ -1,5 +1,7 @@
 # SELL-OR-ROLL CARD — USO October 14, 2026 $150C ×2
 
+> **Current disposition — 2026-10-15 receipt (TERRY booking 10:5x ET, root rule #10): CLOSED.** ×2 **SOLD TO CLOSE 10/14** before the close — two Activity rows net +$354.34 + $406.34 = **$760.68** − basis $375.33 ⇒ **DERIVED realized +$385.35** (gross ≈ $3.55 / $4.07 DERIVED; times UNKNOWN ⇒ no execution grade). Will's 10/14 word *"i sold before close"* is now broker-confirmed. No exercise; expiry task retired. Distinct from the 37 USO shares and the closed Oct-09 call. Source FORGE `6fbf39cd0` (10/15 10:10 ET capture). Not broker-reported realized P&L.
+
 > **October13 receipt integration:** still×2 in the positions transcription (capture/quote time UNKNOWN), value$594/basis$375.33 as a dated snapshot. October12 one-contract sell limit$2.66Day VERIFIED CANCELED in later Activity/Orders; no fill/resting order, replacement UNKNOWN. Original proposal and no-roll disposition retained; no discretionary re-mark or adopted timing/order. Source `PROME/data/2026-10-13_broker-capture-TRANSCRIPTION.md`§§1/4. Sunday quotes/cash below remain historical.
 
 > **Workload update 2026-10-12 11:02:15 EDT:** Will directs new-trade research and handles sell/roll himself (committed215e7e439). This completed card is preserved; no further discretionary refresh/monitoring commissioned here. Proposed times below were not adopted and no fill/expiry/hold instruction is inferred. Current holdings/outcome remain broker/Will truth.
@@ -7,7 +9,7 @@
 **Id:** MGMT-USO150C-OCT14
 **Date:** 2026-10-12; screening pull10:41:14 EDT; expires Wednesday10/14.
 **Thesis owner:** Will's entry; BRENT supplies oil context, not approval of this specific option. No linkage to the closed October9 call or the37shares inferred.
-**Terry verdict:** CONDITIONAL — SELL preferred on a confirmed profitable broker bid; roll not approved.
+**Terry verdict:** CLOSED — ×2 sold to close 10/14 (net $760.68, derived +$385.35). *(was: CONDITIONAL — SELL preferred on a confirmed profitable broker bid; roll not approved.)*
 **Authority:** standing C5 / L686, committed packet84a43c362. New independent identity; October9 hard stop does not migrate. Management-only under construction rule #20; entry thesis, trigger, original invalidation, fill time and structure rationale UNRECOVERABLE.
 
 ## 1. Position and quotes

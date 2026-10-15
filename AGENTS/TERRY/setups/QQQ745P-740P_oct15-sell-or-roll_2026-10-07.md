@@ -1,7 +1,9 @@
 # SELL-OR-ROLL CARD — QQQ $740P Oct-15-2026 ×3; $745P CLOSED — expire THURSDAY 10/15
 
 **Current state [MGMT-QQQ745P-OCT15]:** CLOSED — remaining contract sold October12.
-**Current state [MGMT-QQQ740P-OCT15]:** CONDITIONAL — three remain in October14 receipt; no roll approved.
+**Current state [MGMT-QQQ740P-OCT15]:** CLOSED — remaining ×3 sold to close 10/14 (broker-verified, 10/15 capture); SPENT, nothing reached expiry.
+
+> **Current disposition — 2026-10-15 receipt (TERRY booking 10:5x ET, root rule #10):** QQQ740P remaining ×3 **SOLD TO CLOSE 10/14** — three Activity rows net +$1,220.31 · +$1,155.31 · +$1,099.31 = **$3,474.93** − remaining basis $1,591.99 ⇒ **DERIVED realized +$1,882.94**. Cohort (4 bought 10/2 net −$2,122.65; proceeds $670.32 + $3,474.93 = $4,145.25) ⇒ **+$2,022.60, which INCLUDES the +$139.66 booked 10/14 — never add the two.** Gross fills ≈ $12.21 / $11.56 / $11.00 DERIVED from the fee pattern; fill times UNKNOWN ⇒ no execution grade (durable finding 6). No contract reached the 10/15 expiry; no exercise. Source `PROME/data/2026-10-15_broker-capture-TRANSCRIPTION.md` → FORGE `6fbf39cd0`; PROME packet `inbox/2026-10-15_from-PROME_fills-to-book-10-14-10-15-capture.md`. Not broker-reported realized P&L.
 
 > **Current disposition — October14 receipt:** QQQ740P sell-to-close1 FILLED at$6.71 (limit$6.65Day), net$670.32. Remaining3/basis$1,591.99. Prior4/basis$2,122.65 implies removed$530.66 and DERIVED realized+$139.66, conditional on no unseen basis adjustment. Snapshot value$2,511 is a displayed last, not brokerbid/forward realizable risk. If exercised without offsetting QQQ shares, remaining3 sell300QQQ at$740=$222,000; account handling UNKNOWN. Exact source copy `research/2026-10-14_broker-receipt-source.json`; fill/capture times UNKNOWN, no execution grade. No roll/new approval inferred. Original timing remains proposed; subsequent dated sections are historical quantities/marks, not current instructions.
 
@@ -11,7 +13,7 @@
 **Date:** 2026-10-07 Wed, written from 22:01 ET (`date` 22:01:32; live reads 21:44–21:56 ET, all after the 16:00 close). **Session:** PROME `prome-0e` spawn (Tier 1, C5 commission; WQ-347 / DOCKET L615). Model: Claude Opus 5.5 (`desk` agent definition).
 **Ids:** `MGMT-QQQ745P-OCT15` (×2) · `MGMT-QQQ740P-OCT15` (×4). Management cards on lines Will opened by his own hand; no SETUPS rows (management-card convention); registered in `setups/INDEX.md`. ⛔ **New identities.** They do not continue `MGMT-QQQ740P-OCT02` or `MGMT-QQQ735P-OCT05`. Whether either of those was rolled into these, and at what prices, is UNKNOWN until the Activity view (WQ-347). Nothing here books an exit for them.
 **Thesis owner:** Will (no agent thesis on file; off-thesis class).
-**Terry verdict:** CONDITIONAL — surviving QQQ740P ×3 only; QQQ745P line CLOSED October12.
+**Terry verdict:** CLOSED — QQQ740P ×3 sold to close 10/14; QQQ745P line CLOSED October12. Both lines SPENT.
 **Confidence in the read:** Medium. Vendor marks after the close; Fidelity's chain governs.
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
 

@@ -1,6 +1,9 @@
 # MANAGEMENT CARD — WAL Dec-18-2026 $65P ×4 (Fidelity) — into the Q3 print
 
 **Id:** `MGMT-WAL65P-DEC18`
+
+> **RULED 2026-10-14 21:32 ET — WQ-429 choice A, SELL ×4 before the Mon 10/19 print** (Will verbatim *"Approve 428, 429 and 430"*, recorded by PROME as the recommended A and stated back for correction; record `PROME/proposals/2026-10-14_wq428-430-RULED.md`). **2026-10-15 10:10 ET capture: no WAL order in Pending, ×4 still held** (FORGE D-82) — order state UNKNOWN; fill to be booked from Will's capture. RED's flip (FT-02 ×3 AND LIQ-07 S1): FT-02 **1 of 3** at HY 325 [FRED 10/14]; cannot complete before ~Mon 10/19 publication. Screening 10:38 ET: WAL $73.57, 65P 1.45/2.05 (vendor, not a bid).
+
 **Terry verdict:** CONDITIONAL — lean SELL ×4 before the Mon 10/19 print (§ 8 A). HOLD ×4 through the print is a legitimate alternative and is priced here (§ 8 B). No roll now. The order is Will's (root rule #5).
 **Date:** 2026-10-14 Wed, written 21:04 ET (`date`). Screening pulls 20:54–20:55 ET, after the close. Session: PROME spawn (prome-8e, WQ-425), Claude Opus 5.5 (`claude-opus-5-5`), Claude Code.
 **Authority:** WQ-425 — Will 2026-10-14 20:49 ET, verbatim *"Approve 425, spawn TERRY for the OZK and WAL cards"* (record `PROME/proposals/2026-10-14_wq425-RULED.md`). C5 held-option card, pulled forward from Wed 12/16. Preparation only: **$0 moved · no order · no new position · no threshold, gate or score moved.**
