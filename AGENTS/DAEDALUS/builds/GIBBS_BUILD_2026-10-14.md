@@ -41,7 +41,7 @@
 | 1 | `PROME/ROSTER.md` | ✅ PROME 10/14 (TIER-2 4→5, BUILDING) — verified at artifact |
 | 2 | Root `CLAUDE.md` | NO-OP — carries no roster list or chain (verified by grep) |
 | 3–6 | `AGENTS.md` · `_INDEX.md` · `_NETWORK.md` · group pages | ⏳ PROME applies — exact insert text in `PROME/inbox/2026-10-14_from-DAEDALUS_GIBBS-built-registration-changelist.md`. Group pages: `_CREDIT.md` + `_PRIVATE_CREDIT.md`; `_ENERGY` · `_FUNDING_MACRO` · `_SYNTHESIS_OPS` NO-OP (carry no bank desks) |
-| 7 | WALTER routing | ✅ packet routed (tickers, aliases, cc rules, do-not-route) |
+| 7 | WALTER routing | ⏳ packet routed (tickers, aliases, cc rules, do-not-route); WALTER read it whole 10/14 21:1x ET and **DEFERRED** it to its next session, landing before 10/19 (ROUTING_TABLE / ROUTING_CARVEOUTS + REGISTRY row). Until then perimeter news routes to REGINALD (e.g. SIG-W-20261014-019, BAC) — pointer added to GIBBS STATUS |
 | 8–9 | `FLEET_MAP.tsv` + directory | ✅ row added after ROSTER (PAT-047 order); `render_directory.py` rc 0 |
 | 10–11 | Peer seams + consumer handoffs | ✅ REGINALD · BROCK · CARL packets |
 | 12 | DAEDALUS script registries | ✅ no edit needed — Market default, not SKIP, not JUDGMENT_ONLY (scanner picks it up) |

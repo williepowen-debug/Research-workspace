@@ -20,6 +20,10 @@
 | Before the first session | PNC · USB · BK · SCHW (10/15; SCHW date `[S]`) · TFC (10/16) |
 | Live from the first session | FITB 10/19 · COF 10/20 · NTRS 10/21 · AXP 10/23 (HBAN 10/22 = REGINALD's) |
 
+## Signals routed before GIBBS was registered (read at the first session)
+
+WALTER's GIBBS lane is not live yet (packet DEFERRED by WALTER 10/14 21:1x ET to its next session, before 10/19). Until it lands, perimeter news goes to REGINALD under current routing. Known so far: `BOARD/SIG-W-20261014-019-bac-closed-minus-4point8-not-8-adjusted-q3-eps-miss-roe-9point1-bac-specific.md` (BAC Q3, 10/14 — routed to REGINALD). Check `BOARD/` for other perimeter tickers dated 10/13 onward.
+
 ## Standing conditions (WQ-426)
 
 - **NDFI / private-credit = ONE figure with BROCK.** JPM · WFC · C use BROCK's BRK-31 figure; GIBBS sends its own 13 to BROCK before cross-desk use.
