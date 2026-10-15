@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-10-14 21:16 ET (session 32 — Will-launched full session: boot + catch-up of every print that lapsed while dark, then the owed-work pass) | **Thesis:** v3.2 | **Status:** 🟠 ELEVATED
+**Last Updated:** 2026-10-14 21:56 ET (session 32 — Will-launched full session: boot + catch-up of every print that lapsed while dark, then the owed-work pass) | **Thesis:** v3.2 | **Status:** 🟠 ELEVATED
 **This session in one line:** **s32 = catch-up, no thesis version move.** Remittance re-spec **CONFIRMED** (Aug count 2-yr −11.99%) · `SDL-01` **ELEVATED → NORMAL** on Sep foreign-born LF **+206K** (one print; Channel-1 quantity conviction HELD, November pre-registered) · `ENR-02` leg 1 **PASSED** (+26.36%) · Canada **−28.72%** BREACHED 11th month, `ID-01` leg 1 MET · NTTO Sep −22.40% (widening run broke) · LVCVA Aug RevPAR −11.5% (Labor Day-confounded) · BTS Jul all-3 negative raw, confounded. Prior header → git history.
 
 ## BOTTOM LINE (the desk's judgment now — re-tested 10/14 against every lapsed print)
@@ -9,7 +9,7 @@
 - **Channel 4 (border munis): LOW** — unchanged (Will-ruled 9/24); its flow leg is the remittance row above.
 - **Energy → fares (`ENR-02`): leg 1 PASSED** (Sep 2-yr +26.36%); October needs only +1.01% MoM, a rise seen in every Sep→Oct 2013–24 — grades ~11/12. **Las Vegas:** August room revenue −11.5%, but Labor Day moved into September — the Aug+Sep combined read (pre-registered) decides ~10/28.
 - **What would change it:** MIA Sep negative (trigger fires, demand-vs-capacity caveat attached) · November CPS confirming or reversing the `SDL-01` flip · `ENR-02` leg 2 · `ID-01` October leg · a Census print showing FL population decline (~Dec).
-- **⏳ Owed-work pass (s32b, 10/14):** VX floor rows AZ-01 / TAX-01 / ENF-01 refreshed — all NORMAL, and TAX-01's and ENF-01's 8/21 reasoning CORRECTED · state-of-origin map RUN and retired as a spatial test (the modeled map cannot discriminate) · TOUR-03 instrument ADOPTED (⚖️ letter basis owed — Will) · `slaughter_pull.py` + boot content gates fixed (T2-E DONE; it surfaced CE100 Q2 never pulled). Still owed: TOUR-03 basis ruling; AZ-01 forward basis (T2-J) before ~early Nov. `MAR-11` / `MAR-24` show DUE at boot **by design**.
+- **⏳ Owed-work pass (s32b, 10/14):** VX floor rows AZ-01 / TAX-01 / ENF-01 refreshed — all NORMAL, and TAX-01's and ENF-01's 8/21 reasoning CORRECTED · state-of-origin map RUN and retired as a spatial test (the modeled map cannot discriminate) · TOUR-03 instrument ADOPTED and letter RULED by Will (calendar year vs 2025; conf 90→75%) · `slaughter_pull.py` + boot content gates fixed (T2-E DONE; it surfaced CE100 Q2 never pulled). Still owed: AZ-01 forward basis (T2-J) before ~early Nov. `MAR-11` / `MAR-24` show DUE at boot **by design**.
 ## 🏫 FL ENROLLMENT → cold (`_archive/STATUS_cold_20260924.md`): OCPS −3.97% YoY; migration share ≤2,032, confounded.
 
 ## 🍁 CANADA → cold: Q2 BOP — Canadians' US travel spend C$6,513M, −13.5% 2-yr; US share 52.3→41.3% (`KB-CAN-48`). Live monthly read = `VX-1.01` (Sep 2-yr −28.72%). Tariffs/counter-tariffs live; no employment effect inferred. Full line → `_archive/STATUS_rotated_s31_20261010.md`.
@@ -76,7 +76,7 @@
 |------|-------|----------|
 | 🟡 **~Oct 20 (est.)** | BLS state September — confirm `VX-2.06` on revised August | 🟡 |
 | 🟠 **~Oct 28** | **MIA September Traffic Report** — decides the MIA-2-consecutive trigger (Aug −5.69%) · **LVCVA September** — Aug+Sep combined RevPAR (pre-registered 10/14) | 🟠 |
-| ⚖️ **open** | **TOUR-03 letter basis (Will)** — literal same-months-of-2025 vs winter-vs-winter-2024-25; instrument adopted 10/14, resolver ~Jun 2027 | 🟡 |
+| 🟡 **~Mar 2027 (est.)** | **TOUR-03 resolver 1 of 2** — calendar-2026 US–Canada seats vs CY2025 (36.07M); resolver 2 (CY2027) ~Mar 2028 | 🟡 |
 | 🟠 **~Nov 2** | **Banxico SEPTEMBER CE81** (a 6th sub-−5% month?); CE100 Q3 fetches automatically (context only — spatial test retired 10/14) | 🟠 |
 | 🟠 **Nov 3** | FL Amendment 3 / HJR 1F — new-resident homestead cap, anti-migration by design; newest poll St. Pete Polls 9/15–17 **45/30/25** vs a 60% bar (CORAL's, cited) | 🟠 |
 | 🔴 **~Nov 12 (est.)** | **`ENR-02` leg 2 — October airfares** (needs +1.01% MoM) | 🔴 |
@@ -100,7 +100,7 @@
 
 | Item | Priority |
 |------|----------|
-| ⚖️ **TOUR-03 basis ruling owed (Will).** Seats now measured (BTS T-100 Intl Segment, hole-checked): winter 25-26 **−11.03%** vs 24-25 (FL **−17.67%**); summer 2026 ~**at** 2025 (Jun +0.45% / Jul +0.73%, gap-filled). 'Restoration to 2025 levels' read literally (same months of 2025) ⇒ near-FAIL on summer; read as winter vs winter 2024-25 ⇒ firmly not restored. Conf held 90% pending. `KB-IVF-44` | 🟡 |
+| ✅ **TOUR-03 RULED (Will, 10/14): calendar-year seats vs calendar 2025** (bar **36,069,253**, hole-filled; BTS T-100 Intl Segment). Either CY2026 or CY2027 ≥ bar ⇒ restored ⇒ FAILS. Jan–Jul 2026 **−5.75%**; Aug–Dec would need +8.61% YoY. Conf **90% → 75%**. FL winter −17.67% = context, not graded. `KB-IVF-44/-45` | 🟡 |
 | ✅ **SDL-01 remittance re-spec CONFIRMED 10/14** (count 2-yr ≤−5% on two consecutive out-of-sample prints: Jul −6.76%, Aug −11.99%). Weaker than it reads — Jun–Jul 2025 also met it; Aug-24 high base (3-yr −4.13%). Working → `domain/sources/_archive/STATUS_unresolved_rotated_s30_20260924.md` | 🟠 |
 | 🔴 **CHANNEL-1 QUANTITY INSTRUMENTS SPLIT (10/14).** `SDL-01` (foreign-born LF YoY) flipped to **+206K in September ⇒ NORMAL**, while remittances (Aug count −6.39%) and <HS LFPR (Sep 44.3% vs 47.6%) still point down. Conviction HELD; **November CPS (~12/4, est.) is the next gradable print** — rule pre-registered in VX SDL-01 (another decline <250K or increase ⇒ THESIS review 'ongoing outflow' → 'completed level shift'; decline ≥250K ⇒ Sep was noise). `KB-WFD-17` | 🔴 |
 | 🟠 **Foreign-born LF anomaly began in 2025, not 2026** — two-year regime. → `_archive/STATUS_unresolved_rotated_20260919.md` | 🟠 |

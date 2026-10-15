@@ -19,10 +19,10 @@
 | Ledgers | VX ×7 rows · KB +9 · PREDICTIONS (MAR-14, MAR-24) · CATALYSTS (5 pruned → TIMELINE, 5 added, state map re-dated to 11/2 "run or retire", ENR-02 full letter moved into the leg-2 row) · CALENDAR · TIMELINE · FIGURES (10/14 block) · THESIS (evidence note, no version move) · STATUS |
 | Inbox | WATCH_FOR: adopted 4 PASS + `Canadian trips United States`, declined `Canadian trips` → `PROME/inbox/2026-10-14_from-MARCO_watch-for-adopt-decline-WQ-295.md`. `COR-20261012-15` receipted NO-OP. 3 items → processed |
 | Consumer check | 5 superseded figures scanned; every 🔴 hit was a different series (KB IDs, mortgage 6.76, skew) or a dated snapshot — no packets owed |
-| **s32b owed-work pass (Will: "continue to work on the owed")** | **State map RUN → retired** as a spatial test (modeled US-state map sd 0.40pp vs measured 5.72pp; 2025 figures restated AZ −5.30 / TX −5.02 / MI −4.95). **TOUR-03 instrument ADOPTED** (BTS FJE seats, hole-checked; winter 25-26 −11.03%, FL −17.67%; summer ~at 2025) — ⚖️ letter basis put to Will. **VX AZ-01** NORMAL (+6.72%; YoY-base defect T2-J) · **TAX-01** NORMAL (8/21 self-correction REVERSED: July first print revised +5.03%) · **ENF-01** NORMAL (8/21 'fee-funded' mechanism WRONG; retirement withdrawn). **T2-E DONE** (slaughter merge + selftest A–G; boot content gates — CE100 Q2 found never pulled). Caught + undone: tsvutil re-quoting the TOURISM ledger (T2-L). Correction of my own s32 docket note ('Q2 already mapped 8/11' — false). |
+| **s32b owed-work pass (Will: "continue to work on the owed")** | **State map RUN → retired** as a spatial test (modeled US-state map sd 0.40pp vs measured 5.72pp; 2025 figures restated AZ −5.30 / TX −5.02 / MI −4.95). **TOUR-03 instrument ADOPTED** (BTS FJE seats, hole-checked; winter 25-26 −11.03%, FL −17.67%; summer ~at 2025) — ⚖️ letter basis put to Will → **RULED: calendar year vs 2025** (conf 90→75%). **VX AZ-01** NORMAL (+6.72%; YoY-base defect T2-J) · **TAX-01** NORMAL (8/21 self-correction REVERSED: July first print revised +5.03%) · **ENF-01** NORMAL (8/21 'fee-funded' mechanism WRONG; retirement withdrawn). **T2-E DONE** (slaughter merge + selftest A–G; boot content gates — CE100 Q2 found never pulled). Caught + undone: tsvutil re-quoting the TOURISM ledger (T2-L). Correction of my own s32 docket note ('Q2 already mapped 8/11' — false). |
 
 ## NEXT SESSION — in this order
-1. ⚖️ **TOUR-03 letter basis** — apply Will's ruling (if given) to `sub_agents/TOURISM/workbook/PREDICTIONS.tsv` + docket 2027-06-15 row; re-mark confidence under it.
+1. ✅ TOUR-03 ruled by Will 10/14 (calendar year vs 2025; bar 36,069,253; conf 75%) — applied to the TOURISM ledger, KB-IVF-45, docket resolvers 2027-03-15 / 2028-03-15. Nothing owed.
 2. 🟡 **~10/20 (est.):** BLS state September — confirm `VX-2.06` on revised August.
 3. 🟠 **~10/28:** **MIA September Traffic Report** (direct URL, double space) — the MIA-2-consecutive trigger (Aug −5.69%). **LVCVA September** — grade the pre-registered Aug+Sep combined RevPAR letter.
 4. 🟡 **Before ~early Nov:** decide AZ-01's forward basis (T2-J) before the Oct-2026 Realtor.com print.
@@ -41,7 +41,6 @@
 | 🟠 `ID-01` | leg 1 MET; Oct ~11/13 |
 | 🟡 LABOR ask | Jan-2026 population-control size on foreign-born LF (answer optional) |
 | 🟡 WATCH_FOR | adopt/decline sent; PROME lands the set |
-| ⚖️ TOUR-03 basis | owed to Will — literal same-months-2025 vs winter-vs-winter-2024-25 |
 | ⚠️ Read budgets | STATUS 73% · NEXUS_BRIEF ~51% · MEMORY 74% · charter 32,539 B (11 B headroom — any charter addition must trim first) |
 
 ## Mail state

@@ -64,7 +64,7 @@
 | 🟡 | ~Oct 20 (est.) | **BLS State Employment — SEPTEMBER** (confirms `VX-2.06`) | Revised Aug class gap <2.0pp ⇒ the 9/24 ELEVATED was a prelim artefact. Vector only, not a Channel-1 reopen | MARCO |
 | 🟠 | ~Oct 28 | **MIA September Traffic Report** | Aug −5.69%. Sep negative ⇒ MIA-2-consecutive FIRES → REGINALD, CARL (**airport-own basis, Will-ruled 9/24**); not up as of 10/14 | MARCO, REGINALD, CARL |
 | 🟠 | ~Oct 28 | **LVCVA September** — the Labor Day offset month | **Pre-registered 10/14:** Aug+Sep COMBINED RevPAR YoY negative ⇒ room-$ weakness survives the holiday shift; ≥0 ⇒ calendar artefact | MARCO, CORAL |
-| ⚖️ | open | **TOUR-03 letter basis (Will)** — instrument ADOPTED 10/14 (BTS T-100 Intl Segment seats, hole-checked) | Literal same-months-of-2025 vs winter-vs-winter-2024-25 (bar 15.06M / FL 3.59M); resolver ~Jun 2027 | MARCO |
+| ✅ | 10/14 | **TOUR-03 letter RULED (Will): calendar-year seats vs calendar 2025** | Bar 36,069,253 (hole-filled); resolver 1 = CY2026 ~Mar 2027, resolver 2 = CY2027 ~Mar 2028; conf 90→75% | MARCO |
 | 🟠 | ~Nov 2 | **Banxico SEPTEMBER (CE81)** (CE100 Q3 auto-fetches — context only) | Tracking (re-spec already CONFIRMED); 2-yr ≤−5% again = a 6th month. State-map spatial test RETIRED 10/14 (non-discriminating) | MARCO, LABOR, CARL |
 | 🟠 | Nov 3 | **FL Amendment 3 / HJR 1F** | New-resident homestead cap — anti-migration by design; newest poll 45 yes / 30 no / 25 undecided vs a 60% bar (CORAL 9/28, cited) | MARCO, CORAL |
 | 🔴 | ~Nov 12 (est.) | **`ENR-02` leg 2 — CPI airline fares OCTOBER** (grades ENR-02) | Leg 1 PASSED (+26.36%). Oct ≥ +20% 2-yr (index ≥319.13, +1.01% MoM) ⇒ SUSTAINED; < +15% ⇒ FADED; else HOLD. Verify the BLS date | MARCO; REGINALD, CARL if SUSTAINED |
