@@ -1,0 +1,47 @@
+COLDREADER · PROME/tools/tests/ACCEPTANCE_deck_changeD_2026-10-15.md (+ changeD.diff + decision_deck.html) · 4676 B (acceptance; wc -c) · 39 claims
+SCORE: 30/39 ✅ · 7 ⚠️ · 2 ❌
+❌ 13 D3 "hidden until a state exists" — the acceptance (L10) says *"a small pill … — hidden until a state exists"*, and the diff writes `<span class="pill rl" hidden></span>` (diff L10/L15/L24). But the page's own CSS has `.pill{display:inline-block;…;padding:4px 9px;…;background:var(--chip)}` (page style block, byte 4845), and the only `[hidden]` rule in the page is `.panel[hidden]{display:none}` (byte 3037). A CSS rule from the page beats the browser's built-in `[hidden]{display:none}`, so the attribute does nothing. VERIFIED in headless Chrome (file render of the page, List view): 54/54 `.pill.rl` have `hidden=true` with computed `display:inline-block`; 18/18 tiles and 18/18 cards paint an EMPTY grey 18×8 px pill (bg rgb(232,238,235) = --chip). Rows would do the same in Table view (they are 0×0 only because the table is hidden). After an `err` the pill goes back to an empty grey blob, because `p.className='pill rl'` keeps the `.pill` background. The selftest check "one hidden ruling pill per tile…" passes because it only checks that the string is present; it cannot see what renders. The hosted claude.ai runtime's injected CSS is UNKNOWN; it might hide them.
+❌ 16 D4 "An `err` state … removes the mirror classes as it does on the card" — the err branch removes FOUR classes on the card: diff L75 `} else if (cls === 'err') { card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice'); mirrorRuling(…, null, null); }`. The sent branch removes FIVE (diff L71 `…'ruled-choice','ruled-done');`), and mirrorRuling strips all of RL_CLASSES (5) from the tile and the row. NEW COUNTEREXAMPLE, VERIFIED by running the page's own setState/mirrorRuling in Chrome: DONE on WQ-31, then err → `card [ruled-done] pill=hidden | tile [] | row []`. The card stays green with no label while the tile and row are cleared, which breaks D1 ("mirrored … the same `ruled-*` class") and D3 ("colour alone is never the only cue"). An older-ts LATER doc after that does not repair it either (TINT_TS is kept): `card [ruled-done] | tile [] | row []`. This is the D6 fix opening a hole of the same class.
+⚠️ 5 "Written BEFORE the edit (WQ-229)" — read 1's support was mtime-based (INFERRED). Both files have been re-edited and are uncommitted, so this can no longer be checked from the artifact.
+⚠️ 21 D1 "every tap state the page renders … from the store snapshot" — NEW COUNTEREXAMPLE (VERIFIED, harness): a store doc whose verdict is outside the five the page writes (e.g. `HOLD`, from another writer or an older schema) produces class `ruled-hold` (no CSS, so no tint) plus a GREEN `RULED HOLD` pill, because `pc` defaults to `rl-ok`. It fails open toward "approved". The page can write only LATER/APPROVE/DECLINE/CHOICE/DONE (data-v census), so D6 holds as written; the conditions do not say what an unknown verdict should do.
+⚠️ 25 D7 "ruled tiles and rows keep a hover/focus highlight" — tiles: ✅ (accent outline 5.74:1 light / 6.4:1 dark against tint-ok). Rows: `filter:brightness(.93)` gives a 1.17:1 change in light (on par with an unruled row's 1.18) but only **1.03:1 in dark** (#182521→#16221F, tno 1.025, tla 1.033). In dark mode a ruled row's hover AND keyboard-focus cue is effectively gone, which is the theme D7 exists for.
+⚠️ 31 D5 "No regression" — true of the items it lists (filters/presets/sort/peek/tap writes/counts/Reference), but the empty pill painted on every unruled tile/card (❌13) is a visible regression that D5's list does not cover. The selftest cannot detect it.
+⚠️ 35 Neighbour missing info "label falls back to the verdict word" — unchanged since read 1: the fallback `'RULED ' + (label || 'CHOICE')` keys on a missing LABEL, not a missing ts. The ts half (`t = ts || ''`) is correct.
+⚠️ 38 Reads L25 "all three fixed at the source" — dark-theme tint: fixed (rule + label ≥5.65:1 dark). DONE untinted: fixed for the sent path, but the fix opened ❌16 on the err path. Hover/focus: fixed on tiles, not on dark-theme rows (⚠️25). So it should read "two and a half".
+⚠️ 39 Reads L25 "12:0x–12:10 ET" — the start minute is unstated (a self-describing stamp; cosmetic).
+
+✅ 1 Ask quoted verbatim with time and source (Will, 12:02 ET 10/15)
+✅ 2 setState ~L1345 — HEAD L1345 `function setState` (worktree L1369 after the insert)
+✅ 3 At HEAD the tint is on `.card` only; tiles/rows carry no state (the diff adds the only hooks)
+✅ 4 List view tint faint with no label (light tint/surface 1.10–1.13:1)
+✅ 6 Class DOMAIN, consequential ⇒ independent reader
+✅ 7 / 8 D1 sent paths: the mirror call sits inside the `t >= TINT_TS[ck]` gate, so the class follows the latest ts. VERIFIED S1 (APPROVE on 187 → card/tile/row all `ruled-approve`, "RULED APPROVE"). S7: unit 357.1 APPROVE newer + 357.2 DECLINE older → approve everywhere. S8: newer CHOICE "Option B" → `ruled-choice`, "RULED Option B" everywhere
+✅ 9 D2 mapping approve/choice/done → tint-ok, decline → tint-no, later → tint-later; tile bg+border, row td bg
+✅ 10 D2 existing tokens only; no new colour literals in the diff CSS
+✅ 11 D3 placeholder present in tile (t-top), row (c-title) and card rail: 54 = 3 × 18 live
+✅ 12 D3 texts RULED APPROVE / RULED DECLINE / RULED <label> / LATER / HANDS DONE (code + S1/S3/S8)
+✅ 14 D3 a label exists for every coloured state (text contrast below)
+✅ 15 D4 nothing baked: 0 occurrences of `class="pill rl rl-`; no ruled-* class in the HTML
+✅ 17 D4 a doc without a verdict falls through both branches; the tint does not change
+✅ 18 D6 DONE → green + "HANDS DONE" (S3, WQ-31: card/tile/row `ruled-done`, rl-ok)
+✅ 19 D6 CHOICE → green + "RULED <label>" (S8)
+✅ 20 D6 "every verdict the page can write": data-v census = LATER 18 · APPROVE 15 · DECLINE 15 · CHOICE 2 · DONE 2; all five mapped
+✅ 22 D7 premise: dark tint vs surface 1.01 (ok) / 1.03 (no) / 1.02 (later)
+✅ 23 D7 5-px inset rule in ok/crit/wait. Against its own tint: light 4.77 / 5.83 / 4.37; dark 7.21 / 5.65 / 6.98 (non-text needs ≥3:1, so all pass)
+✅ 24 D7 label text = --accent-ink (#FFFFFF light / #0F1A19 dark): light 5.25 / 6.56 / 4.92; dark 8.08 / 6.06 / 7.86. All ≥4.5:1, so the CSS comment's "≥4.5:1 on each" holds
+✅ 26 D5 `decision_deck.py --selftest` → SELFTEST PASS (3 Change D checks ✅; "54 placeholders for 18 live rows")
+✅ 27 D5 `tests/test_decision_deck_split.py` → 26 passed, 33 subtests (incl. the runtime cjs)
+✅ 28 D5 the diff touches no filter/preset/sort/peek/tap-write code (INFERRED from the diff hunks)
+✅ 29 D5 counts 18 ovrow / 18 ovtile / 18 cards (read 1 saw 26; the page has been rebuilt since)
+✅ 30 D5 Reference untouched: the selector is scoped to `#owed`; the diff has no reference-renderer hunk
+✅ 32 Neighbour ordinary (S1)
+✅ 33 Neighbour overlap (S7/S8, simulated with dotted unit ids; today's page has no dotted-unit card). Read 1's CE4 (one unit ruled → tile reads "decided") still stands as inherited card semantics
+✅ 34 Neighbour wrong owner: setState('99999', …) → no throw (S9)
+✅ 36 Neighbour concurrent: the class is set on the node regardless of the filter (INFERRED; read 1 traced it)
+✅ 37 Reads: the READ1 pointer resolves, and the tally 28 = 19 ✅ · 8 ⚠️ · 1 ❌ matches READ1.md
+POINTERS: 6/6 resolve (READ1.md; decision_deck.py; ~L1345 setState at HEAD; TINT_TS; tests/test_decision_deck_split.py; tests/decision_deck_runtime.cjs); dead: none
+READ 1's THREE: dark-theme tint → FIXED · DONE untinted → FIXED on sent, REGRESSED on err (❌16) · hover/focus → FIXED on tiles, NOT on dark rows (⚠️25). Read 1's ❌15 (parse clause) → wording FIXED. Read 1's ⚠️28 (diff one edit behind the tree) → FIXED (`git diff` of the worktree == changeD.diff). Read 1's CE2 (err erases a valid stored ruling) and CE4 (partial-unit card reads decided) → unchanged, inherited.
+MY COUNTEREXAMPLES: (1) the `hidden` attribute is overridden by `.pill{display:inline-block}`, so empty pills paint (❌13). (2) DONE then err leaves the card green while the tile/row clear (❌16). (3) a foreign verdict produces a green "RULED <X>" (⚠️21). (4) the dark-row hover/focus change is 1.03:1 (⚠️25).
+OUT OF SCOPE (pre-existing, not Change D; same mechanism as ❌13): `.ovgrid{display:grid}` (page L92 rule) overrides `ovGrid.hidden = (v !== 'board')`. In headless Chrome in List view, `.ovgrid` has hidden=true, display=grid, height 933 px, so the Board renders in every view in a standalone browser. It came in with b8eb4118a (Change C). Whether the hosted runtime hides it is UNKNOWN; worth one look by the owner.
+ONE-LINE VERDICT: no. The verdict colours, labels and dark-theme rule work as specified for every tap that succeeds (VERIFIED by running the page's own code in Chrome). But the "hidden" placeholder pill paints as an empty grey blob on every unruled tile and card in a standards browser, and a DONE followed by a failed write leaves the card green with no label while the tile and row clear. A stranger acting on D3/D4 "hidden"/"as on the card" would ship both.
+Method: read-only on the repo. The selftest and split test only write to temp dirs. Chrome probes ran on copies in my own scratchpad, using a throwaway profile that was deleted afterwards (and one stray copy in C:\Users\Public, deleted). Contrast = WCAG relative luminance on the page's `:root` tokens for both themes. Harness = the page's verbatim `wrapOf…setState` source injected into a copy of the page.

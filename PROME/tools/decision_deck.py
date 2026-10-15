@@ -787,11 +787,11 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
                  f' data-grp="{g}" data-since="{html.escape(r["since"], quote=True)}"')
         pill = due_pill(r["by"], d, r["blocked"], r.get("blocker"), clock_of(r))
         trows.append(f'<tr class="ovrow" {attrs} tabindex="0"><td class="c-wq">WQ-{r["n"]}</td>'
-                     f'<td class="c-pin">{"📌" if pn else ""}</td><td class="c-title">{html.escape(nm)}</td>'
+                     f'<td class="c-pin">{"📌" if pn else ""}</td><td class="c-title">{html.escape(nm)} <span class="pill rl" hidden></span></td>'
                      f'<td class="c-who">{GRPLBL[g]}</td><td class="c-kind">{kind_chip(r["kind"])}</td>'
                      f'<td class="c-due">{pill}</td><td class="c-since">{html.escape(r["since"])}</td></tr>')
         tiles.append(f'<button type="button" class="ovtile" {attrs}><span class="t-top"><span class="num">WQ-{r["n"]}</span>'
-                     f'{"<span class=\"pill pin\">PINNED</span>" if pn else ""}</span>{pill}'
+                     f'{"<span class=\"pill pin\">PINNED</span>" if pn else ""}<span class="pill rl" hidden></span></span>{pill}'
                      f'<span class="t-kind">{kind_chip(r["kind"])} · {GRPLBL[g]}</span><span class="t-title">{html.escape(nm)}</span></button>')
     out.append(
         '<div class="viewbar">'
@@ -927,7 +927,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
         out.append(
             f'<article class="card{" blocked" if r["blocked"] else ""}" id="wq-{r["n"]}" data-wq="{r["n"]}"'
             f' data-kchip="{kind_chip(r["kind"])}" data-dom="{html.escape(dom, quote=True)}" data-pin="{"1" if pin else "0"}" data-due="{html.escape(r["by"] or "", quote=True)}">'
-            f'<div class="rail"><span class="num">WQ-{r["n"]}</span>{due_pill(r["by"], days, r["blocked"], r.get("blocker"), clock_of(r))}{pin_pill}{TOGGLE}</div>'
+            f'<div class="rail"><span class="num">WQ-{r["n"]}</span>{due_pill(r["by"], days, r["blocked"], r.get("blocker"), clock_of(r))}{pin_pill}<span class="pill rl" hidden></span>{TOGGLE}</div>'
             '<div class="body">'
             f'<div class="meta"><span class="pill type">{html.escape(r["kind"])}</span>'
             f'<span class="since">open since {html.escape(r["since"])}</span></div>'
@@ -1112,6 +1112,16 @@ details.more{margin:8px 0 0}details.more summary{cursor:pointer;font:500 13px/1.
 .opt.chosen .btn.choice{background:var(--accent);color:var(--accent-ink)}
 .opt .olbl{font-weight:600;margin:0}.opt .cons{margin:2px 0 0;color:var(--muted);font-size:14px}.opt .cons b{color:var(--ink);font-weight:600}
 .card.ruled-choice{background:var(--tint-ok);border-color:var(--tint-ok-line)}.card.ruled-choice .tapstate{color:var(--ok)}
+/* Change D (2026-10-15, Will): the ruling colour follows the card into the Board tiles and Table rows, with a label */
+.ovtile.ruled-approve,.ovtile.ruled-choice,.ovtile.ruled-done{background:var(--tint-ok);border-color:var(--tint-ok-line);box-shadow:inset 5px 0 0 var(--ok)}.ovtile.ruled-decline{background:var(--tint-no);border-color:var(--tint-no-line);box-shadow:inset 5px 0 0 var(--crit)}.ovtile.ruled-later{background:var(--tint-later);border-color:var(--tint-later-line);box-shadow:inset 5px 0 0 var(--wait)}
+.ovrow.ruled-approve td,.ovrow.ruled-choice td,.ovrow.ruled-done td{background:var(--tint-ok)}.ovrow.ruled-decline td{background:var(--tint-no)}.ovrow.ruled-later td{background:var(--tint-later)}
+.ovrow.ruled-approve td:first-child,.ovrow.ruled-choice td:first-child,.ovrow.ruled-done td:first-child{box-shadow:inset 5px 0 0 var(--ok)}.ovrow.ruled-decline td:first-child{box-shadow:inset 5px 0 0 var(--crit)}.ovrow.ruled-later td:first-child{box-shadow:inset 5px 0 0 var(--wait)}
+.card.ruled-done{background:var(--tint-ok);border-color:var(--tint-ok-line)}
+.ovtile[class*="ruled-"]:hover,.ovtile[class*="ruled-"]:focus-visible{outline:2px solid var(--accent);outline-offset:1px}.ovrow[class*="ruled-"]:hover td,.ovrow[class*="ruled-"]:focus-visible td{box-shadow:inset 0 -2px 0 var(--accent)}
+/* the label carries the verdict in words; its text colour flips with the theme (accent-ink = white on light, dark on dark) so it reads ≥4.5:1 on each */
+/* read 2 ❌13: `.pill{display:inline-block}` beat the browser's [hidden] default — state it here, and for the view blocks too */
+.pill.rl[hidden],.ov[hidden],.panel[hidden],[hidden]{display:none}
+.pill.rl{font-weight:600}.pill.rl-ok{background:var(--ok);color:var(--accent-ink)}.pill.rl-no{background:var(--crit);color:var(--accent-ink)}.pill.rl-later{background:var(--wait);color:var(--accent-ink)}
 .tapstate.rowstate{border:1px dashed var(--line);background:transparent;margin-top:12px}
 .empty{color:var(--muted)}
 .key h2{font:600 19px/1.25 "Fraunces",Georgia,serif;margin:18px 0 8px}
@@ -1342,6 +1352,22 @@ RULING_JS = r"""
   function wrapOf(did){ return document.getElementById('tap-'+did); }
   function cardOf(did, wrap){ var c = wrap && wrap.closest ? wrap.closest('.card') : null; return c || document.getElementById('wq-'+String(did).split('.')[0]); }
   var TINT_TS = {};
+  // Change D (2026-10-15, Will's ask): a ruling must be visible at a glance in EVERY view — the tile and the row that share the
+  // card's WQ take the card's resolved class (so the latest-ts rule above decides once), and a labelled pill names the verdict.
+  var RL_CLASSES = ['ruled-approve','ruled-decline','ruled-later','ruled-choice','ruled-done'];
+  function mirrorRuling(card, wqn, v, label){
+    var nodes = [];
+    try { nodes = Array.prototype.slice.call(document.querySelectorAll('#owed .ovrow[data-wq="' + wqn + '"], #owed .ovtile[data-wq="' + wqn + '"]')); } catch(e) { nodes = []; }
+    nodes.push(card);
+    var txt = !v ? '' : v === 'later' ? 'LATER' : v === 'choice' ? ('RULED ' + (label || 'CHOICE')) : v === 'done' ? 'HANDS DONE' : ('RULED ' + v.toUpperCase());
+    var pc = !v ? '' : v === 'decline' ? 'rl-no' : v === 'later' ? 'rl-later' : 'rl-ok';   // done = ok (the hands rows' only verdict)
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i]; if (!n || !n.classList) continue;
+      if (n !== card) { for (var j = 0; j < RL_CLASSES.length; j++) n.classList.remove(RL_CLASSES[j]); if (v) n.classList.add('ruled-' + v); }
+      var p = n.querySelector ? n.querySelector('.pill.rl') : null;
+      if (p && p.classList && p.classList.contains('rl')) { p.hidden = !v; p.className = 'pill rl' + (pc ? ' ' + pc : ''); p.textContent = txt; }
+    }
+  }
   function setState(did, cls, text, verdict, label, ts){
     var wrap = wrapOf(did); var card = cardOf(did, wrap); if(!card) return;
     // episode 2 E6: a document with NO unit on a multi-unit card goes to the card-level line, never into a unit
@@ -1352,9 +1378,10 @@ RULING_JS = r"""
     var ck = card.id || String(did); var t = ts || '';
     if (cls === 'sent' && verdict && t >= (TINT_TS[ck] || '')) {
       TINT_TS[ck] = t;
-      card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice');
+      card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice','ruled-done');
       card.classList.add('ruled-' + String(verdict).toLowerCase());
-    } else if (cls === 'err') { card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice'); }
+      mirrorRuling(card, String(did).split('.')[0], String(verdict).toLowerCase(), label);   // Change D: tiles + rows + the card's own label
+    } else if (cls === 'err') { card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice','ruled-done'); mirrorRuling(card, String(did).split('.')[0], null, null); }   // read 2 ❌16: the card's err branch clears all five, like the sent branch and the mirror
     if (wrap && wrap.querySelectorAll) { var opts = wrap.querySelectorAll('.opt'); for (var i = 0; i < opts.length; i++) { opts[i].classList.toggle('chosen', !!label && opts[i].dataset.label === label); } }
   }
   function fmt(iso){ if (typeof iso !== 'string') return ''; try{ return new Date(iso).toLocaleString('en-US',{month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/New_York'}) + ' ET'; }catch(e){ return iso; } }
@@ -1655,6 +1682,10 @@ def selftest() -> int:
     chk("view bar + presets render (AC-C1/C5)", all(x in page_html for x in ('class="viewbar"', 'data-view="table"', 'data-view="board"', 'data-preset="today"', 'data-preset="waiting"')))
     chk("table rows == rendered rows (AC-C2; selftest renders non-blocked)", page_html.count('class="ovrow"') == len(live), f"{page_html.count('class=' + chr(34) + 'ovrow' + chr(34))} vs {len(live)}")
     chk("grid tiles == rendered rows (AC-C3; same basis)", page_html.count('class="ovtile"') == len(live), f"{page_html.count('class=' + chr(34) + 'ovtile' + chr(34))} vs {len(live)}")
+    chk("Change D: one hidden ruling pill per tile + per row + per live card (nothing baked)", page_html.count('<span class="pill rl" hidden></span>') >= 3 * len(live) and 'class="pill rl rl-' not in page_html, f"{page_html.count('<span class=' + chr(34) + 'pill rl' + chr(34) + ' hidden></span>')} placeholders for {len(live)} live rows")
+    chk("Change D: mirrorRuling defined once + called for sent and err (RULING_JS)", RULING_JS.count('mirrorRuling(') == 3 and 'RL_CLASSES' in RULING_JS, f"{RULING_JS.count('mirrorRuling(')} occurrences")
+    chk("Change D: tile/row tint + label CSS present (CSS constant)", '.ovtile.ruled-approve' in CSS and '.ovrow.ruled-decline td' in CSS and '.pill.rl-no' in CSS and '.ovtile.ruled-done' in CSS and 'color:var(--accent-ink)' in CSS.split('.pill.rl-ok')[1][:60] and '.pill.rl[hidden]' in CSS, "css")
+    chk("Change D: every ruled-class list names five classes incl. ruled-done (read 2 ❌16)", RULING_JS.count("'ruled-choice','ruled-done'") == 3 and "'ruled-choice');" not in RULING_JS, f"{RULING_JS.count(chr(39)+'ruled-choice'+chr(39)+','+chr(39)+'ruled-done'+chr(39))} five-class lists")
     chk("peek shell + listwrap render (AC-C4)", all(x in page_html for x in ('id="peek"', 'id="peekbody"', 'id="pk-prev"', 'id="listwrap"')))
     print("SELFTEST", "PASS" if rc == 0 else "FAIL")
     return rc
