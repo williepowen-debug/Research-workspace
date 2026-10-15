@@ -86,7 +86,8 @@
 - **Effort:** small-medium (two tools + two gate functions).
 - 🔴 **NEW 2026-10-10 — `slaughter_pull.py` REWRITES THE WHOLE BASELINE from only the rows one run fetches.** A live run on 10/10 dropped the 2026-09-12 and 2026-09-19 rows (the esmis archive pages 404'd for recent weeks; the live file yields only current/prior/year-ago) — exit 0, well-formed file. Restored by hand from HEAD the same session. Same class as the BTS writer defect (charter airport block item 2). **Fix:** merge-by-`week_ending` (keep rows the run did not fetch) and refuse to shrink the row set; test the neighbour (a run that fetches nothing new must leave the file byte-identical). The raid week w/e 2026-09-26 is still missing.
 
-### T2-J · `VX-MARCO-AZ-01` band is YoY-only and the 2025 build sits in its base (NEW — 2026-10-14)
+### ✅ T2-J · `VX-MARCO-AZ-01` band is YoY-only and the 2025 build sits in its base — DONE 2026-10-14 (s32c)
+*(Re-spec'd to a LEVEL basis — AZ inventory excess vs its 2017–19 norm minus the US — bands unchanged, declared 22:02:33 before reveal, blind-validated on 2020–24; first scored print Oct-2026. A 2-yr growth rule was tested and rejected (spread sd ~47pp). Sep-26 in-sample +31.7pp = CRITICAL band. Declaration `domain/sources/2026-10-14_AZ01_respec_declaration.md`.)*
 - **What:** AZ listings ran +18..+36% YoY through 2025; Sep-26 grades NORMAL at +6.72% YoY while the 2-yr stack is +35.07%. Same base-effect shape guarded on TOUR-01 / SDL-01.
 - **Action:** decide a forward basis (2-yr stack re-banded, or YoY kept with a 2-yr guard line) BEFORE the Oct-2026 print (~early Nov); score only out-of-sample. Not re-graded post hoc.
 - **Effort:** small.
