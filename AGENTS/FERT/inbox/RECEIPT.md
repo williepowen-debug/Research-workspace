@@ -1,31 +1,40 @@
-# Inbox Processing Receipt — 2026-10-09 14:0x UTC (2026-10-09 10:0x ET)
-## Agent: FERT (WQ-184 due-row spawn by PROME `prome-75`, DOCKET L576; runtime Claude Code, model Opus)
-
-### Census at boot
-`ls` of `inbox/` top level = 4 files: 2 inbound packets + this desk's own `PROTOCOL.md` and `RECEIPT.md` (standing infrastructure). `inbox/WALTER/` = 2 signals. Matches PROME's 09:56 ET census (top-level 4 · WALTER/ 2). All 4 inbound items drained.
+# Inbox Processing Receipt — 2026-10-15 04:01 UTC
+## Agent: FERT
+*(WQ-184 due-row spawn, PROME `prome-8e`, Claude Code Agent tool, model Opus 5.5 — GATES G3/G5 + DOCKET L576/L577 + whole-inbox drain.)*
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | 2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md | INTEGRATE — line 2 done (G5 letter → T4); line 1: header + T5 strike done, 25-vs-13 editions reconcile DEFERRED to 11/03 (dated in STATUS) | — | — |
-| 2 | 2026-10-08_from-PROME_G5-clarified-letter-needs-its-owner-home-in-TRIGGERS-T4.md | INTEGRATE — letter written verbatim into TRIGGERS T4; GATE_GRADES pointer updated | — | — |
-| 3 | WALTER/SIG-W-20261008-027.md (CPC El Niño) | LOG (info-only, board_log) | — | — |
-| 4 | WALTER/SIG-W-20261008-033.md (WQ-399 receipt form) | INTEGRATE — charter step 2b receipt line rewritten | — | — |
-
-### Also worked this session (due row, not inbox)
-DOCKET L576 / T1 — IPL offers READ: lowest $352.10 E / $356.25 W a ton [Bloomberg 10/8, MIRROR] → KB-FERT-067 (KB-064 SUPERSEDED), discard log KB-FERT-068; VX-FERT-05 value updated, state GREEN. T8 not consumed, re-dated 10/13.
+| 1 | `2026-10-14_from-PROME_G3-G5-L576-L577-wake-brief.md` (root) | INTEGRATE — the wake task itself | KB-FERT-069 … 077 | none (no vector state change; scores held) |
+| 2 | `WALTER/SIG-W-20261012-030.md` (Minerva Zen UAN cargo) | LOG (board_log `noted`) | none | none |
+| 3 | `WALTER/SIG-W-20261014-026.md` (UN Hormuz fertilizer conditional) | INTEGRATE | KB-FERT-076 | none (Hormuz vector read updated in STATUS; state/score unchanged) |
 
 ### STATUS.md Changes
-- India CFR panel row: SEARCH-NOT-FOUND → lowest offers $352.10 E / $356.25 W (award pending)
-- VX-5: 🟡 → 🟢 (level), score held 2; T1 next 10/13
-- G5 letter home named (T4); What Changed rotated (10/07 block → archive)
+- G5: NOT FIRED 8-of-8 (MAP $974) → **NOT FIRED 9-of-9 (MAP $979 / DAP $934, DTN 10/14)**
+- FERT-12: OPEN (print 5, $1 headroom) → **RESOLVED MISS** ($979 > $975)
+- G3: NOT FIRED 5th (9/15) → **NOT FIRED 6th (10/14-15)**; ⚠️ 3.3 Mt import-TRQ basis flag
+- IPL tender: offers read → **CFR basis stated; counters at L1 reported; award NOT public**
+- Food at home: Aug +0.03% → **Sep −0.07% m/m, +1.81% y/y**
+- Open predictions: 1 OPEN → **0 OPEN**
 
 ### Outbox Signals Written
-- to-PROME (PROME/inbox): `2026-10-09_from-FERT_ipl-urea-tender-offers-read.md`
+- to-CARL: `AGENTS/CARL/inbox/2026-10-15_from-FERT_FERT-12-MISS-retail-MAP-979.md` — FERT-12 MISS, MAP $979, G5 not fired (🟠, information only)
+- to-PROME: `PROME/inbox/2026-10-15_from-FERT_G3-G5-L576-L577-grades.md` (delivery memo, incl. potash triage flag)
 
 ### Files Modified
-KB.tsv, VX.tsv, TRIGGERS.tsv, GATE_GRADES.md, EXIT_PROTOCOL.md, STATUS.md, CLAUDE.md, board_log.tsv, archive/STATUS_whatchanged_2026-10-07_ROTATED.md, inbox/ (git mv ×4)
+KB.tsv, PREDICTIONS.tsv, TRIGGERS.tsv, GATE_GRADES.md, STATUS.md, board_log.tsv, archive/STATUS_whatchanged_2026-10-09_ROTATED.md (new), archive/STATUS_rotated_2026-10-15.md (new), archive/TRIGGERS_notes_rotated_2026-10-15.md (new), this RECEIPT
 
 ### Skipped / Issues
-- IPL award / counter-offers not in free sources at 10:00 ET 10/09; offers are single-sourced (Bloomberg) and their CFR basis is inferred.
-- T8 (USDA Crop Production, 12:00 ET today) not consumed — outside this spawn's scope.
+- VX.tsv / FLOW.tsv not edited — no vector changed state.
+- MOFCOM TRQ document (interview.mofcom.gov.cn) timed out; theledger.com body not fetchable; Q4 Tampa sulfur settlement behind Green Markets' subscriber wall.
+
+---
+
+## Crash-recovery addendum — 2026-10-15 08:03–08:09 ET (boot.py wall clock 08:03 Thursday)
+*(PROME `prome-73` spawn, Claude Code Agent tool, model Opus 5.5. The session above died ~03:08 ET 10/15 before committing; everything above was on disk, uncommitted.)*
+
+| # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
+|---|-------------|--------|-------------------|-----------------|
+| 4 | `2026-10-15_from-PROME_crash-recovery-G3-G5-L576-L577.md` (root) | INTEGRATE — residue verified, completed, committed | KB-FERT-078 | VX-01/02/05/06 value cells + notes refreshed (no state, band or score moved) |
+
+**Residue disposition:** every path was complete (no half-written row, no placeholder). Repaired: STATUS trimmed under the read-cap stop; KB-072 subject date (10/15 → the 10/14 re-read); the FERT-12 notes' CARL-packet pointer (`2026-10-14_…` → `2026-10-15_…`); the GATE_GRADES header's G3 stamp. Discarded: nothing. Re-verified at the primaries: DTN 10/14 (all eight cells) and BLS Sep food at home. IPL award re-checked 08:06 ET: still not public. Census after drain: top-level `PROTOCOL.md` + `RECEIPT.md` only; `WALTER/` empty.

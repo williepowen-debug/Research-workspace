@@ -1,6 +1,6 @@
 # FERT — Registered gate grade history
 
-**LIVE — Last real data refresh: 2026-10-07** (10/7 print appended + 9-print rate cut) | Staleness sweep: 2026-10-07
+**LIVE — Last real data refresh: 2026-10-15** (crash-recovery re-verification 08:05–08:07 ET of the 10/14 print and the G3 state; no grade moved) · 2026-10-14 (10/14 print appended + 10-print rate cut; GATE-FERT-G3 section added with the 6th re-read, 2026-10-14 23:57 ET, for GATES review_by 10/15) | Staleness sweep: 2026-10-15 · prior: 2026-10-07 (10/7 print + 9-print cut)
 **Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are never restated here. **Letter homes:** `GATE-FERT-G5` → `workbook/TRIGGERS.tsv` row **T4** (`Why_It_Wakes_You` cell, encoded 2026-10-09 verbatim from the GATES cell — closes the circular pointer DAEDALUS Gate-Basis #2 ② found; PROME re-points the GATES cell); `GATE-FERT-G3` → `PROME/GATES.tsv` (unchanged).
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
@@ -24,6 +24,7 @@
 | **9/23/26** | **Sep 14–18** | **$925** | **$967** | **MAP** | **$33 · +3.41%** | **NOT FIRED** — PRIMARY, first-party curl at dtnpf.com 9/23 (`KB-FERT-043`) |
 | **9/30/26** | **Sep 21–25** | **$926** | **$970** | **MAP** | **$30 · +3.09%** | **NOT FIRED** (7 of 7 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-01 11:06 ET (`KB-FERT-045`) |
 | **10/7/26** | **Sep 28–Oct 2** | **$934** | **$974** | **MAP** | **$26 · +2.67%** | **NOT FIRED** (8 of 8 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-07 21:44 ET (`KB-FERT-062`); strictly-greater, whole-dollar, US national average as printed |
+| **10/14/26** | **Oct 5–9** | **$934** | **$979** | **MAP** | **$21 · +2.15%** | **NOT FIRED** (9 of 9 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-14 23:46 ET (`KB-FERT-069`); strictly-greater, whole-dollar, US national average as printed. ⚠️ Same print resolves **FERT-12 MISS** ($979 > $975) |
 
 🔑 **The APPROACH RATE is the finding, and it is stated here as a rate — a gate row shows distance, never rate.**
 
@@ -61,4 +62,37 @@ Third consecutive up-print on both legs; the w/w pace slowed (MAP +$5 → +$3, D
 
 Fourth consecutive up-print on both legs. W/w: MAP +$4 (pace held, +$3 → +$4), DAP **+$8** (pace jumped, +$1 → +$8 — the largest DAP weekly move in the series). Both legs are each the highest of the 14 monthly rows in DTN's own 10/7 table. A last-five-prints window (9/9 → 10/7) puts MAP at ~+1.69 %/mo (~1.6 months to the line) — a window, not a trend, not used for the grade or the score. Root context: Pink Sheet rock **flat** at $170.0/mt for Jul–Sep (FERT-11 HIT) while Gulf DAP rose +0.9% m/m — the retail run is not rock-fed.
 
-**Next grade: 2026-10-14 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article).
+**Approach rate, 10-print cut (8/12 → 10/14, 9 weeks) — supersedes the 9-print cut for current use** (log basis, 4.35 wk/mo, same method):
+
+| Leg | 8/12 baseline | 10/14 print | Move over 63 days | Realised approach rate | Implied time-to-fire at that rate |
+|---|---|---|---|---|---|
+| **MAP (binding)** | $959 | $979 | +$20 · +2.086% | **~+1.00 %/mo** (+0.229 %/wk) | **~2.1 months** (≈ mid-Dec 2026) |
+| DAP (second) | $917 | $934 | +$17 · +1.854% | **~+0.89 %/mo** (+0.204 %/wk) | ~7.7 months (≈ early Jun 2027) |
+
+Fifth consecutive MAP up-print (+$5 w/w); DAP flat ($934 = $934) after last week's +$8. MAP is now the highest monthly row in DTN's own 10/14 table. A last-six-prints window (9/9 → 10/14) puts MAP at ~+1.80 %/mo (~1.2 months to the line) — a window, not a trend, not used for the grade or the score. **FERT-12 resolved MISS on this print** — the realised MAP pace is roughly double the ~+0.5 %/mo trajectory its $975 line assumed. Root context: rock flat (Pink Sheet $170.0/mt Jul–Sep; next edition T11 11/03); Q4 Tampa sulfur still unsettled at 10/09; Mosaic idled South Fort Meade (FL) on the sulfur shortage [Lakeland Ledger 10/09 headline] — `KB-FERT-075`.
+
+**Re-verified 2026-10-15 08:05 ET** (crash-recovery spawn, PROME `prome-73`; the 10/14 session died uncommitted): first-party curl of the same dtnpf.com article, HTTP 200, 183,078 B, JSON-LD datePublished 2026-10-14T13:18Z — table row Oct 5-9 2026 reads DAP 934 · MAP 979 · potash 502 · urea 672 · 10-34-0 702 · anhydrous 977 · UAN28 442 · UAN32 485, all eight matching `KB-FERT-069`. Grade unchanged: **NOT FIRED**.
+
+**Next grade: 2026-10-21 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article). *(Prior: 2026-10-14 — met by the 10/14 grade above.)*
+
+---
+
+## GATE-FERT-G3 — China 2026 urea export quota revised DOWN, OR a guidance floor reimposed ABOVE prevailing intl FOB (EVENT gate)
+
+Letter home = `PROME/GATES.tsv` condition cell (definition surface `KB.tsv`, the KB-FERT-006 lineage). This section is the re-read history; it restates no letter. *(Section added 2026-10-14: before this the G3 history lived only in KB rows, the 9/15 outbox memo and the GATES state cell.)*
+
+| Re-read | Leg 1 (quota DOWN) | Leg 2 (floor reimposed ABOVE prevailing FOB) | Grade | Evidence |
+|---|---|---|---|---|
+| 1st–4th (8/17 registration → before 9/15; individual dates not reconstructed here) | no revision found | $660/$670 floor lifted early June; replacement lower | NOT FIRED | `KB-FERT-006` (8/17), `KB-FERT-023` (9/2) — rows SUPERSEDED, kept as history |
+| **5th — 2026-09-15** (DOCKET L204) | '5–5.5 Mt' = category error (CF EXPORT projection, not a quota) | $500/t fob India 6/9 [Profercy] NOT above prevailing $443/t; floors ratchet DOWN | **NOT FIRED** both legs | `KB-FERT-036`/`037`; `outbox/2026-09-15_from-FERT_G3-china-quota-floor-re-read-DOCKET-L204.md` |
+| **6th — 2026-10-14 23:57 ET** (GATES review_by 10/15; T10) | **No downward revision, cancellation or window closure.** Rounds ADDED: 4th round "over 1.5m. tonnes" [Profercy 10/02]; 4th tranche "without a specified shipment expiry date", 3rd-tranche volume still available [AFC w/e 9 Oct, pub 10/12]. MOFCOM price site (reached): regime = quota system + dynamic adjustment, first self-discipline round ~2.0 Mt, Jun–Aug | **No new or reimposed floor found.** India offers $352.10–356.25/mt CFR ⇒ China netback ~$320/mt FOB [AFC]; Chinese prilled ~$372/mt FOB [Global Agriculture 10/12] — under the standing $430/$440 non-India and $500 India floors [MIRROR 9/10] = floors not binding | **NOT FIRED** both legs | `KB-FERT-072`; discard `KB-FERT-077` |
+
+⚠️ **Basis flag raised at the 6th re-read (no grade moves on it):** Fertiaxis (2026-09-24, citing a MOFCOM document this box could not open) identifies **3.3 Mt as China's 2026 urea IMPORT tariff-rate quota**, "not a ceiling for Chinese urea exports". If that holds, the GATES cell's *"State at registration: quota 3.3 Mt"* names an import TRQ — the same category-error class as the 9/15 "5–5.5 Mt" catch. Leg 1 stays gradeable on the **direction of the export rounds** (up). The registration cell is Will-gated letter text: FERT flags, PROME/Will decide. **INFERRED**, not VERIFIED, until the MOFCOM document is read.
+
+⛔ **Dateline trap caught at the 6th re-read:** an indiaseatradenews item "China halts exports … from October 15" is **datePublished 2025-10-21** (the 2025 window). Read as current it would have fired leg 1 (`KB-FERT-077`).
+
+**Fire path to watch (AFC 10/12, a conditional, not an event):** *"Any material increase in domestic urea prices could prompt renewed intervention in export arrangements."*
+
+**Review-date check 2026-10-15 08:05 ET** (crash-recovery spawn; GATES review_by 10/15): Google News RSS sweep ("China urea export", 3 days) carried no quota, floor or halt item, and the Profercy free nitrogen index's newest item is still 10/06; no new evidence on either leg. Grade unchanged: **NOT FIRED** both legs, basis the 6th re-read (2026-10-14 23:57 ET, `KB-FERT-072`). A news check only — the MOFCOM page and AFC weekly were not re-read.
+
+**Next re-read: 2026-11-05** (T10; CF Q3 call = DOCKET L578 — CF commentary is a named G3 instrument).
