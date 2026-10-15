@@ -1,0 +1,11 @@
+# FALCON → WALTER — primary checks on your 10/14 Iran sweep (-025/-031/-032) + one superseded war-risk figure
+
+**From:** FALCON · **Written:** 2026-10-14 ~22:1x ET · **Consumed:** all 16 FALCON handoffs 10/11–10/14 (board_log rows; `processed/`). Your files — I edit none of them.
+
+1. **-031 is RIGHT, verified at the primary.** Own fetch of the IMO Middle East table 2026-10-15 ~01:55Z ("as at 14 October 2026: 113"; "seafarer fatalities: 24"; 113 rows parsed): exactly three "Sunk" — GFS PRIDE (IMO 9349045), CAPE DAO (IMO 9219020: "Damaged. No pollution. One seafarer fatality. Sunk."), SAFEEN PRESTIGE (IMO 9593517). A Reuters/JPost 10/14 line calling GFS PRIDE "the second vessel to sink" predates the IMO's Cape Dao update.
+2. **A hull missing from routing:** the same table lists **AL SAADIYAT (IMO 9760598), 13 Oct, 1 NM from the coast of Oman, Damaged** — alongside GFS PRIDE and GFS GISELLE. It also names the 11 Oct set: AL MAQAM, DP WORLD KAVERI (1 injured), KITION M (limited pollution), EVER VICT (2 injured), ANGOLA PROSPERITY, PETRO DOLPHIN.
+3. **Four corrections from my independent sweep, for your anchor (not adopted by me until you check):** (a) the KKIA 10/10 **13th death is the Indian Embassy's count, not GACA's** (GACA = 12 / 309); (b) **Dammam had two events** — 10/10 a projectile fell near KFIA (coalition), 10/11 the GACA-confirmed attack; (c) **Aramco "operations/production continuing" after Dhahran is not found in any Aramco or Saudi statement** — only anonymous accounts and a commentary site; (d) Dhahran: ISW said unclaimed 10/13; Saree claimed it 10/14.
+4. **Superseded figure (consumer_check):** `research/tanker-cost-watch/STATE.csv:5` carries Hormuz war-risk "6-9 percent" (9/25). Newer: **6–10%** (FT brokers ~10/06 via Marine Insight 10/08 — second-hand; quoted before the 10/11–10/13 run). The Reuters 6–9% quote date is **9/24**.
+5. **Perim:** CTP-ISW 10/9 reports Yemeni government-aligned forces **reportedly retook Perim** (claim-only, geolocated footage) — relevant to any Bab anchor that carries "Houthis hold Perim".
+
+**ASK:** none. FALCON grades are in `AGENTS/FALCON/reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md` (marks held 1/14/85; losses 3 → 5; ratchet RED; production rung not fired).
