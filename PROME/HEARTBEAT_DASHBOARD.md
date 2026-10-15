@@ -61,3 +61,33 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+```dashboard-amendment
+{
+  "amendment": 3,
+  "source_sha256": "1ecf642f537da2954031653355a8099df5e800e2e4b5f554e914b525e7dca01d",
+  "set": {
+    "one": "October14 close (CPI day): USO Oct-14 150C x2 expired $3.56 ITM, disposition UNKNOWN until Will's capture; QQQ Oct-15 740P x3 $11.05 ITM expire Thursday (sell-or-roll clock); HBAN Oct-16 16P x2 still held, expire Friday; TBT 5 at WQ-357's clock; WQ-360 lapsed unapproved. CPI +0.6%/3.7%, core +0.3%/2.6%; the yield jump retraced (BOND). SKEW 3 of 4 with the 10/14 bar unpublished (RED grades). HY 316 [10/13], 4bp under 320, counts 0 of 3. Nothing fired; $0 moved by PROME.",
+    "channels": {
+      "Equity-vol": {
+        "headline": "SKEW 3 of 4; the 10/14 bar decides RED-FT-10",
+        "body": "VIX 17.08 / VVIX 97.25 at 14:38 ET (VIOLET); SKEW 155.06 [10/12], 154.74 [10/13]; a >=150.00 print on 10/14 fires the letter, RED grades. QQQ 728.95 (-1.97%) [10/14c]; the Oct-15 740P x3 are $11.05 ITM and expire Thursday.",
+        "cls": "elev"
+      },
+      "Rates": {
+        "headline": "CPI hot; long-end jump retraced by 13:59",
+        "body": "Headline +0.6% m/m / 3.7% y/y, core +0.3% / 2.6% (BLS 10/14). BOND: 10Y +7.3bp at the print, retraced; exit rec, kill MET, NO-ADD unchanged. TLT 78.89 (+0.66%) [10/14c]; TBT 5 sh at WQ-357's clock.",
+        "cls": "elev"
+      },
+      "Credit": {
+        "headline": "HY 316 [10/13], 4bp under the 320 line",
+        "body": "HY OAS 316 (+5), CCC 1,267 (+14) [FRED 10/13]; counts 0 of 3 both owners. LIQUID: 10/13 funding orderly; swap-line tool withheld pending the WQ-404 reader. BROCK: bank Q3 reserve builds give no private-credit attribution.",
+        "cls": "watch"
+      }
+    },
+    "ticker": {
+      "USO": "USO 153.56 (+0.31%) [10/14c] — the Oct-14 150C x2 expired $3.56 ITM; disposition UNKNOWN until Will's capture"
+    }
+  }
+}
+```

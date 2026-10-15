@@ -1,0 +1,72 @@
+{
+ "receipt": "PROME evening boot 2026-10-14",
+ "written_et": "2026-10-14 20:2x ET (clock hook NOW: Wed 2026-10-14 20:03 ET at prompt; stamps from subsequent command clocks)",
+ "session": {
+  "desk": "PROME",
+  "runtime": "Claude Code (tmux 'prome', --dangerously-skip-permissions)",
+  "model": "claude-fable-5-1 (Fable 5.1), effort xhigh",
+  "session_name": "prome-8e [d964a0]",
+  "launch_dir": "PROME/",
+  "repo": "/home/willi/Research-workspace @ b55281238, origin/master 0/0 after fetch"
+ },
+ "context_injection": "root CLAUDE.md, PROME/CLAUDE.md and auto-memory MEMORY.md injected by the harness (confirmed in context). USER.md read in full via boot_read.py and ACKNOWLEDGED (read-state /tmp/prome-reads-f21c27af.json, context f21c27af). BOOT.md read in full via cat (not registered in read-state; no reuse claimed). HANDOFF.md read whole via boot_read (eof true).",
+ "gate": {
+  "run_dir": "/tmp/prome-boot-f21c27af",
+  "verdict": "PASS (10 blocking / 26 advisory) at 20:05 ET",
+  "charter_mode": "explicit (gate default; injection confirmed only by context, not passed as --charter-mode injected)",
+  "advisories_read": [
+   "WQ-249 orch closeout coverage UNKNOWN",
+   "CARL/RED BOARD gap",
+   "firetime 33 owner-routed flags",
+   "agent freshness: 158 unread packets",
+   "WILL_QUEUE cap 23 actionable >20; PASSED #411 #413; DUE #404 +9",
+   "boot<->closeout symmetry rows missing for BOOT.md/PROME CLAUDE.md/USER.md",
+   "desk catalyst summons past-due VULCAN/LABOR",
+   "spawn list 13 DARK due rows",
+   "read budgets rotation due 2 (root CLAUDE.md 77%, BOOT.md 76%)"
+  ]
+ },
+ "capabilities": {
+  "discovery": {
+   "ListAgents": "AVAILABLE — no peer Claude sessions on this host at 20:0x ET",
+   "ps host probe": "AVAILABLE — only this claude process visible in WSL; no codex process visible (Codex sessions in other hosts/terminals NOT observable from here)",
+   "session_bridge.py": "AVAILABLE as a tool, UNUSED — needs an existing Codex socket; none known",
+   "fleet presence": "UNKNOWN for every desk Will launched himself today (eight LIVE per WALTER 14:49 ET; closeout packets 14:00–16:48 ET; process termination unobserved)"
+  },
+  "execution": {
+   "Bash/Read/Edit/Write": "AVAILABLE",
+   "Agent spawn (desk/coldreader/argus/anvil)": "AVAILABLE, not used this boot",
+   "Workflow": "AVAILABLE (opt-in; spine audit waits WQ-411)"
+  },
+  "messaging": {
+   "SendMessage": "AVAILABLE (peer list empty)",
+   "Telegram/external send": "UNAVAILABLE in this runtime; ask-first anyway"
+  },
+  "deck": {
+   "Artifact read of Decision Deck store": "AVAILABLE — ArtifactData query rulings where consumed==false returned ZERO documents at 20:0x ET (no new taps); write path unexercised",
+   "hosted publication": "UNVERIFIED this session (not attempted)"
+  },
+  "market_data": {
+   "dashboard.py": "AVAILABLE — ran 20:06 ET (00:06 UTC) — closes [10/14]",
+   "fetch.py price": "AVAILABLE — 11 symbols [10/14c]",
+   "CBOE SKEW_History.csv": "AVAILABLE via curl -L (the 10/14 bar not yet published at 20:09 ET)"
+  },
+  "env_doctor": "rc=0 (credentials present, not authenticated)",
+  "position_agreement_check": "rc=0",
+  "firetime_check": "rc=1, 33 owner-routed flags (known classes; no new DOCKET-row date flag acted on)",
+  "MCP": "Claude Docs / Quartr / Gmail / Drive tools listed; definite + Prisma-Local failed to connect; none used"
+ },
+ "skipped_controls": [
+  "BOOT.md step 3 'Read GATES.tsv' executed as the registry declares (summary via the gate + a state-column parse), not a whole read — READS.tsv row PROME:BOOT.md-3 owes the step a rewrite",
+  "session_bridge Codex inventory not run (no socket) — desk presence for Will-launched Codex windows stays UNKNOWN",
+  "JANUS not run (L676 build not landed)"
+ ],
+ "writes_this_boot": [
+  "DOCKET L681 RESOLVED (VIOLET WQ-418 receipt verified at AGENTS/VIOLET/STATUS.md)",
+  "DOCKET L516 annotated (DEWEY P&A boundary)",
+  "WILL_QUEUE WQ-360 → RECENTLY DONE as LAPSED (window end 15:00 ET)",
+  "HEARTBEAT amendment #3 + dashboard projection (chain 3)",
+  "35 inbox packets dated 10/14 → processed/ with PROME/reports/2026-10-14_evening-inbox-consumption.md",
+  "SCRATCH generated blocks regenerated"
+ ]
+}
