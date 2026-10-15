@@ -22,7 +22,7 @@
 
 ## Signals routed before GIBBS was registered (read at the first session)
 
-WALTER's GIBBS routing lane **LANDED 2026-10-14 21:36 ET** (`AGENTS/WALTER/design/ROUTING_CARVEOUTS.md` § "Large-bank multi-name routing — GIBBS", routing v0.42, commit `ca9be40bf`). Signals before that went to REGINALD/BROCK; WALTER's pointer list for your first session (read on `BOARD/`): WFC `SIG-W-20261013-001` · JPM `SIG-W-20261013-019` · BAC `SIG-W-20261013-015`, `SIG-W-20261014-004`, `SIG-W-20261014-019` · MS `SIG-W-20261014-004`. One lane fix open: foreign-bank US IHC stress events → GIBBS info (DAEDALUS → WALTER 21:3x; the error was the builder's packet).
+WALTER's GIBBS routing lane **LANDED 2026-10-14 21:36 ET** (`AGENTS/WALTER/design/ROUTING_CARVEOUTS.md` § "Large-bank multi-name routing — GIBBS", routing v0.42, commit `ca9be40bf`). Signals before that went to REGINALD/BROCK; WALTER's pointer list for your first session (read on `BOARD/`): WFC `SIG-W-20261013-001` · JPM `SIG-W-20261013-019` · BAC `SIG-W-20261013-015`, `SIG-W-20261014-004`, `SIG-W-20261014-019` · MS `SIG-W-20261014-004`. Lane fix LANDED 21:38 ET (`a2fc2ff1e`): a named STRESS EVENT at a foreign-bank US IHC → HANS action / GIBBS info (exclusions-register log + PROME flag); routine IHC news stays do-not-route.
 
 ## Standing conditions (WQ-426)
 
