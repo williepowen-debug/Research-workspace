@@ -49,7 +49,7 @@ csv.reader mangle rows (ML-RED-168). Split on '\t'.
 freshness check fails FALSE-NEGATIVE (finding_mtime_is_corrupted_by_git_sync). Every date
 here is read from row CONTENT.
 """
-import os, subprocess, sys, datetime
+import os, re, subprocess, sys, datetime
 
 # Terminal = the row records a settled outcome. No scheduled re-review is owed.
 TERMINAL = {
@@ -98,6 +98,43 @@ def as_date(s):
         return None
 
 
+
+CELL_MAX_LAG_DAYS = 45  # a review that leaves the evidence cell this far behind its own date re-certified a stale cell
+
+
+def cell_newest_date(cell: str, anchor: datetime.date):
+    """Newest date token in a Counter_Evidence cell, or None if it carries no date.
+
+    S53 2026-10-15: axis ③ asks WHEN the row was reviewed; this asks what the review LEFT
+    IN THE CELL. Measured cause: VX-RED-003 carried "Retail sales +0.6% MoM" (an APRIL
+    print, undated) through a 2026-09-14 review that bumped Last_Reviewed and touched
+    nothing else; VX-RED-010 carried an undated "$500B SRF" claim; VX-RED-025 carried
+    "VIX 17.68 (yf 6/12)" at MODERATE-STRONG. All three passed ③ (reviewed <45d or just
+    over) and read to PROME as current counter-signals. ML-RED-297.
+
+    Tokens read: YYYY-MM-DD, and M/D or [M/D] (year = anchor's year, rolled back one year
+    if that lands >30d after the anchor). Session tags (S52) and bare months are NOT dates.
+    """
+    best = None
+    for m in re.finditer(r"\b(20\d\d)-(\d\d)-(\d\d)\b", cell):
+        try:
+            d = datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            continue
+        best = d if best is None or d > best else best
+    for m in re.finditer(r"(?<![\d/])(\d{1,2})/(\d{1,2})(?![\d/])", cell):
+        mo, da = int(m.group(1)), int(m.group(2))
+        if not (1 <= mo <= 12 and 1 <= da <= 31):
+            continue
+        try:
+            d = datetime.date(anchor.year, mo, da)
+        except ValueError:
+            continue
+        if (d - anchor).days > 30:
+            d = d.replace(year=anchor.year - 1)
+        best = d if best is None or d > best else best
+    return best
+
 def vx_is_terminal(strength):
     """A VX vector is terminal when its Strength says so: RESOLVED-* or *TERMINAL*.
     S52 2026-10-14: section 3 treated 'FLIPPED-BEAR-TERMINAL' (VX-RED-004) as live; one helper now
@@ -143,6 +180,8 @@ def main():
 
     kb_path = os.path.join(root, "workbook/KB.tsv")
     vx_path = os.path.join(root, "workbook/VX.tsv")
+    if "--vx" in sys.argv:  # test hook: run the VX axes against another copy (e.g. a git show of an old vintage)
+        vx_path = sys.argv[sys.argv.index("--vx") + 1]
 
     kb_head, kb = rows(kb_path)
     i_id, i_status, i_stale = kb_head.index("ID"), kb_head.index("Status"), kb_head.index("Stale_By")
@@ -171,7 +210,8 @@ def main():
     vx_head, vx = rows(vx_path)
     v_id, v_tgt, v_str, v_rev = (vx_head.index("ID"), vx_head.index("Target"),
                                  vx_head.index("Strength"), vx_head.index("Last_Reviewed"))
-    vx_stale, vx_live = [], 0
+    v_ce = vx_head.index("Counter_Evidence")
+    vx_stale, vx_live, cell_lag = [], 0, []
     for c in vx:
         if vx_is_terminal(c[v_str]):
             continue
@@ -180,11 +220,17 @@ def main():
         if d is None or (today - d).days > VX_MAX_AGE_DAYS:
             vx_stale.append((c[v_id], c[v_tgt][:28], c[v_str], c[v_rev],
                              (today - d).days if d else None))
+        # axis ④: the review date vs the newest date the evidence cell actually carries
+        nd = cell_newest_date(c[v_ce], d or today)
+        lag = None if (nd is None or d is None) else (d - nd).days
+        if nd is None or (lag is not None and lag > CELL_MAX_LAG_DAYS):
+            cell_lag.append((c[v_id], c[v_str], c[v_rev], nd.isoformat() if nd else "NO DATE IN CELL", lag))
 
-    owed = len(overdue) + len(vx_stale)
+    owed = len(overdue) + len(vx_stale) + len(cell_lag)
     if quiet:
         print(f"[RED review-debt] KB {len(overdue)} row(s) past Stale_By · "
               f"VX {len(vx_stale)}/{vx_live} live vectors >{VX_MAX_AGE_DAYS}d · "
+              f"{len(cell_lag)} live cell(s) older than their review · "
               f"{len(cited_terminal)} terminal row(s) cited live")
         return 1 if (strict and owed) else 0
 
@@ -211,6 +257,14 @@ def main():
     if vx_stale:
         for vid, tgt, s, rev, age in sorted(vx_stale, key=lambda r: -(r[4] or 9999)):
             print(f"   🔴 {vid:<13} {tgt:<28} {s:<18} rev {rev} ({age}d)")
+    else:
+        print("   🟢 none")
+
+    print(f"\n④ VX.tsv — live vectors whose EVIDENCE CELL is >{CELL_MAX_LAG_DAYS}d older than Last_Reviewed, or undated   [{len(cell_lag)} of {vx_live} live]")
+    print("   (a review that bumps the date and leaves the cell re-certifies a stale fact — the VX-003 class, ML-RED-297)")
+    if cell_lag:
+        for vid, s, rev, nd, lag in sorted(cell_lag, key=lambda r: -(r[4] if r[4] is not None else 9999)):
+            print(f"   🔴 {vid:<13} {s:<18} rev {rev}  cell newest {nd}" + (f"  (lag {lag}d)" if lag is not None else ""))
     else:
         print("   🟢 none")
 
