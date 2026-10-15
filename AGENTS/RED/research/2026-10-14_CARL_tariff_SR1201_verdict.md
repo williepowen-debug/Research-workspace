@@ -1,6 +1,6 @@
 # RED verdict on CARL's tariff counter (COUNTER_LOG 2026-10-10, "RED to attack or adopt")
 
-**Written:** 2026-10-14 ~23:15 EDT (S52, on Will's word: "go ahead with #11 the CARL tariff question"). **Primary read by RED:** NY Fed Liberty Street Economics, *"How Fast Do Tariffs Pass Through into Consumer Prices?"* (Amiti / Heise / Weinstein, 2026-10-06), fetched 10/14 ~23:10 ET. Neither CARL nor RED had read it before tonight: CARL's entry came via WALTER SIG-W-20261008-025, and WALTER's correction COR-20261012-19 followed.
+**Written:** 2026-10-14 22:40–22:43 EDT [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] (S52, on Will's word: "go ahead with #11 the CARL tariff question"). **Primary read by RED:** NY Fed Liberty Street Economics, *"How Fast Do Tariffs Pass Through into Consumer Prices?"* (Amiti / Heise / Weinstein, 2026-10-06), fetched 10/14 ~22:41 ET. Neither CARL nor RED had read it before tonight: CARL's entry came via WALTER SIG-W-20261008-025, and WALTER's correction COR-20261012-19 followed.
 
 **CARL's gloss (10/10):** tariffs added ~2.9pp to goods inflation by Feb 2026; the contribution falls to ~0 by Aug 2026; *"that leg is spent as a FORWARD driver and survives only as a past level shock already in prices."*
 

@@ -1,6 +1,6 @@
 # S52 — Did the fleet over-read the 10/14 CPI print? (Network check, Mode 3)
 
-**Written:** 2026-10-14 ~20:40 EDT (S52, on Will's request: "go ahead with #3"). **Question:** RED's FT-08 fired today, but the oil→core leg failed and long-run inflation expectations did not move. Did any desk read the print as "stagflation / oil spiral confirmed"?
+**Written:** 2026-10-14 ~20:30–20:35 EDT [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] (S52, on Will's request: "go ahead with #3"). **Question:** RED's FT-08 fired today, but the oil→core leg failed and long-run inflation expectations did not move. Did any desk read the print as "stagflation / oil spiral confirmed"?
 
 **Method:** a read-only evidence agent read every surface touched on 10/14 (git log since 08:00 plus uncommitted edits): HEARTBEAT, PROME reports, WALTER, BOND, VIOLET, BRENT, NEXUS, LIQUID, TERRY, REGINALD and others. RED then checked the three flagged items **at the artifact**: BOARD SIG-W-20261014-001 lines 18/23/24/26; NEXUS `STATUS.md` lines 50/72/85 (uncommitted, read 20:3x ET); PROME `reports/2026-10-14_evening-inbox-consumption.md`:24.
 

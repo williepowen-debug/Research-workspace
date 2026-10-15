@@ -1,6 +1,6 @@
 # LIQ-07 (LIQUID's funding-accompaniment verdict, due Fri 10/16) — RED's pre-written reading
 
-**Written:** 2026-10-14 ~22:45 EDT (S52, on Will's word: "go ahead with #7 the LIQ-07 check"). **PRE-DATA:** the funding observations that decide the verdict publish 10/15–10/16. **LIQUID owns the grade.** RED checks that its own 10/1 asks were answered, verifies the legs it can pull, and pre-states what RED does with each answer.
+**Written:** 2026-10-14 22:30–22:33 EDT [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] (S52, on Will's word: "go ahead with #7 the LIQ-07 check"). **PRE-DATA:** the funding observations that decide the verdict publish 10/15–10/16. **LIQUID owns the grade.** RED checks that its own 10/1 asks were answered, verifies the legs it can pull, and pre-states what RED does with each answer.
 
 **What LIQ-07 is:** credit spreads triggered on 9/30 (ICE B 15-session change +36, CCC widening). Did funding stress accompany it within ±10 sessions?
 - **S1 (yes):** a funding leg reads: SOFR dispersion z ≥4, GATE079 ARM, or SRF ≥ $50B.
@@ -23,7 +23,7 @@ Letter: `AGENTS/LIQUID/reports/2026-09-25_Q2_first-observation-of-spreading.md` 
 
 ## 2. The legs RED can pull itself, through the latest published day
 
-| Leg | RED pull (FRED, 10/14 ~22:40 ET) | Reads |
+| Leg | RED pull (FRED, 10/14 ~22:31 ET) | Reads |
 |---|---|---|
 | SRF ≥ $50B (`RPONTTLD`, $B) | max **1.2 [9/30, quarter-end]**; 0.000–0.004 on every day 10/1→10/14 | **absent** |
 | SOFR99 − IORB (GATE079's input) | **5–9bp** 9/28→10/13 (3.95–3.99 vs 3.90); in-sample alarms ran 9–33bp | **absent** on any plausible bar (RED does not grade ARM; LIQUID owns the rule) |

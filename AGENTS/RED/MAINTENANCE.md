@@ -4,7 +4,7 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
-## S52 — 2026-10-14 20:12–23:0x ET (start from `date` at boot; Will-launched; S52b–S52e addenda on Will's word)
+## S52 — 2026-10-14 20:12–22:5x ET (start from `date` at boot; end corrected at closeout from the commit log; Will-launched; S52b–S52e addenda on Will's word)
 
 **Trigger:** Will's boot and catch-up, then his items #2, #3, #5, #8, #6 and #9. Structural changes come from **#9 (the CHG-051 registry review)**: all six proposals were **Will-approved in-session** via AskUserQuestion, ~22:50 ET.
 

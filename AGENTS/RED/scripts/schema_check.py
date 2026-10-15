@@ -61,6 +61,11 @@ FILES = {
 }
 
 
+# First-column primary keys that must be unique (TRIGGER_OUTCOMES/VX_HISTORY/CATALYSTS repeat by design).
+UNIQUE_KEY = ["KB.tsv", "VX.tsv", "ML.tsv", "CHALLENGES.tsv", "PREDICTIONS.tsv", "FLOW.tsv",
+              "FALSIFICATION_TRIGGERS.tsv", "OUTCOME_SPEC.tsv"]
+
+
 def rows(path):
     return [l.split("\t") for l in path.read_text(encoding="utf-8").rstrip("\n").split("\n")]
 
@@ -97,6 +102,20 @@ def main():
             bad += 1
         else:
             print(f"{name:<34}{len(dec):>7}{len(actual):>6}   ok")
+
+    # S52 2026-10-14: PRIMARY-KEY UNIQUENESS on ID-keyed files. Structural, so in scope. Found
+    # because S52 issued CHG-RED-052 when that ID already existed (2026-09-10): RED chose the ID
+    # from the STATUS mirror (which listed up to 051) instead of the canonical file, and this check,
+    # which compared only header columns, printed ALL CONFORM over two rows sharing one key.
+    for name in UNIQUE_KEY:
+        path, skip = FILES[name]
+        if not path.exists():
+            continue
+        ids = [r[0] for r in rows(path)[skip + 1:] if r and r[0].strip()]
+        dupes = sorted({i for i in ids if ids.count(i) > 1})
+        if dupes:
+            print(f"{name:<34}{'':>7}{'':>6}   FAIL: duplicate primary key(s) {dupes}")
+            bad += 1
 
     undeclared = set(declared) - set(FILES)
     for u in sorted(undeclared):

@@ -1,6 +1,6 @@
 # CHG-RED-049 / CRL-29 (`CARL-AUTO-OUTFLOW-01`): minimum clarifications, written BLIND
 
-**Written:** 2026-10-14 ~21:05 EDT (S52, on Will's word "go ahead with #5 the CARL questions"). **Answers:** CARL's packet `2026-10-12_from-CARL_auto-outflow-preparation-and-grading-letter-gaps.md`, which asks RED for *"the minimum clarifications that preserve the original CHG-RED-049 falsifier."* **Status: PROPOSED.** CARL owns the letter, and any changed text returns to Will/PROME for review (CARL's own condition). **Nothing here grades anything.**
+**Written:** 2026-10-14 ~20:51–20:55 EDT [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] (S52, on Will's word "go ahead with #5 the CARL questions"). **Answers:** CARL's packet `2026-10-12_from-CARL_auto-outflow-preparation-and-grading-letter-gaps.md`, which asks RED for *"the minimum clarifications that preserve the original CHG-RED-049 falsifier."* **Status: PROPOSED.** CARL owns the letter, and any changed text returns to Will/PROME for review (CARL's own condition). **Nothing here grades anything.**
 
 ## 0. Blindness statement (the most important line in this file)
 

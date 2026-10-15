@@ -1,49 +1,73 @@
 # RED SCRATCH — canonical session handoff
-**Written:** 2026-10-14 (S52; start 20:12 EDT from `date`) · **Session:** S52, launched directly by Will ("boot up, catch up on what we missed"). RED had been offline since S51 (10/09). **Supersedes:** S51 (2026-10-09), which is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).
+**Written:** 2026-10-14 closeout, ~22:5x EDT (stamped from `date` and commit times; see GIT STATE). **Session:** S52, launched directly by Will 20:12 ET ("boot up, catch up"), then Will's items #2–#11 and this closeout. RED had been offline since S51 (10/09). **Supersedes:** S51 (in git history: `git log -p -- AGENTS/RED/SCRATCH.md`).
 
 ---
 
 ## CHANGES SINCE (S51 10/09 → S52 10/14)
 
-- **CPI 10/14:** headline +0.6 / 3.7% y/y (gasoline +9.1%); core +0.3 / 2.6% y/y; shelter 0.4. Real hourly earnings −0.5% m/m.
-- **SKEW ran:** 149.19 [10/08] → 154.34 · 155.06 · 154.74 [10/09–10/13], which puts FT-10 at 3 of 4.
-- **HY** 311 · 311 · 316 [10/9–10/13]; CCC 1,267. Large-bank Q3 results were benign (BAC charge-offs 0.44 vs 0.47; WFC NPAs down).
-- **OZK RaDD** extended 10/9 to Dec 2029 with $100M of fresh capital (8-K, 10/12).
-- **War:** GFS PRIDE sank 10/13 and GFS GISELLE was hit 10/14 (MPA primary). The IEA puts September Gulf crude exports at 13.9 Mb/d (+4.4). Dated Brent ~$134 [10/12, chart basis] vs paper ~$105.
-- **Will's rulings:** WQ-414 (REG-T-06 FHLB: a breach now means REVIEW, and a breadth read is required) · WQ-418 PASS on the pre-CPI SPY put spread · WQ-420 VLO wording · WQ-360 lapsed. Most desks now run on Codex in Will's terminals, so packets are the delivery and consumption is UNKNOWN.
+- **CPI 10/14:** headline +0.6 / 3.7% y/y (gasoline +9.1%); core +0.3 / 2.6% y/y; shelter 0.4; real hourly earnings −0.5% m/m.
+- **SKEW:** 154.34 · 155.06 · 154.74 · 157.30 (10/09–10/14). **HY** 316 [10/13]; CCC 1,267. Discount window $6.2B → $8.7B → $10.0B [9/23–10/7].
+- **Banks:** OZK RaDD extended to Dec 2029 with $100M (8-K, 10/12). Large-bank Q3 benign.
+- **War:** GFS PRIDE sank 10/13 and GFS GISELLE was hit 10/14, against the IEA's Gulf-export recovery to 13.9 Mb/d.
+- **Will's rulings:**
+  - **WQ-425 RULED B (20:49):** TERRY's cards recommend **SELL OZK 40P ×4 before 10/20** and **lean SELL WAL 65P ×4 before 10/19**.
+  - **Six registry rule changes (~22:20, in this session).**
+  - Earlier: WQ-414 / 418 (PASS) / 420.
 
 ## WHAT I DID (S52)
 
-1. **FT-08 FIRED and executed:** Table A 0.2/0.3/0.3 = 3.247216% (index 3.4124%). Stag +3 / Managed −2 / Soft −1 → **net-bear 60 → 63**, CONF 70. Ruled against the S29d "MoM < 0.4" note (labelled, bear-direction; to CHG-051). TRIGGER_OUTCOMES row filed. ML-280.
-2. **CHG-028 leg 1 NOT MET** (airfares +1.159 vs 2.35) → REALIZED foreclosed at 11/10. ML-281.
-3. **FT-10 FIRED** (S52b, on the official 10/14 bar 157.30) → net-bear 65. The registry `state` was stale (0-of-4) and is corrected. **FT-02 = 0 of 3** at 316.
-4. 14 corrections receipted NO-OP (rc 0). Inbox 7 + 2 drained; the CARL packet is kept (deferred). About 22 BOARD signals logged.
-5. FHLB "$480B" replaced with Office of Finance figures; the **Pillar 10 >$800B test is retired** and now defers to REG-T-06 (WQ-414).
-6. **DOCKET L657 BRK-26 reading delivered** (PROME memo §3 + a BROCK packet): pre-registration orders don't count, and one spec gap is flagged.
-7. **Addendum (on Will's "go ahead with #2 and #3"):** **CHG-RED-052** on the bank-put book (OZK STRONG; decide before the 10/20 close) → TERRY packet. **CPI read check:** no over-read; packets to WALTER (tags) and NEXUS (:50/:72/:85); re-base caveat → PROME memo `2026-10-14_from-RED_bank-put-challenge-and-cpi-read-check.md`. ML-282/283. **NEXUS consumed and applied all three asks, VERIFIED at its commit `30756de78`** (STATUS :85 FT-08 FIRED with the oil leg NOT MET · :50 headline not core · :72 one datum). Still open: WALTER's signal-tag update; TERRY and the bank-put asks.
+**Mechanical — net-bear 60 → 65, confidence 70:**
+- **FT-08 FIRED** (Table A 3.247216%): Stag +3 / Managed −2 / Soft −1. A conflicting 0.4 note was ruled against (labelled).
+- **FT-10 FIRED** (Cboe 157.30, 4 of 4): Acute +2 / Managed −2.
+- **Weights: Managed 27 · Stag 35 · Acute 16 · War 14 · Soft 4 · Rescue 4.**
 
-## NEXT SESSION (dated, priority-ordered)
+**Analysis and frameworks:**
+- **CHG-028 leg 1 NOT MET:** REALIZED foreclosed. The fire means core is hot, not that oil drives it.
+- **CHG-RED-054** (bank-put book; *issued as 052 in error, see below*). TERRY's basis note was accepted: history runs 0.55–0.75× the option-implied odds, not "less than half".
+- **Fleet CPI read check:** no over-read. NEXUS and WALTER fixed their framing; both verified at their commits.
+- **Re-derivation:** no move, with next moves pre-stated.
+- **Pre-written:**
+  - bank Q3 tree (CHG-027 EGBN bands closed pre-data);
+  - LIQ-07 reading (all four asks answered; two corrections against RED accepted);
+  - Oct CPI tree (FT-08 exit only on core ≤0.0; CHG-028 closes on any verdict).
+- **Answered:** CRL-29 clarifications (sent blind) · CARL's tariff counter (adopt y/y, attack m/m and level) · L657 BRK-26 · REGINALD's FHLB (Pillar 10 retired).
 
-1. ✅ **FT-10 FIRED S52b 10/14 21:3x** (Cboe 157.30, 4 of 4; Acute +2 / Managed −2; net-bear 65). Now: **exit watch <140 strict s=4** (daily, Cboe CSV only). The outcome row grades at 30 VIX observations (~11/25).
-2. 🔴 **FT-02 daily** (316 [10/13], 4bp): fire = 3 consecutive FRED obs >320 → NET-BEAR +3 / CONF +2.
-2b. 🟠 **Before Tue 10/20 close: CHG-052 OZK leg.** Check whether TERRY or Will acted. Re-grade if FT-02 fires with LIQ-07 S1 (10/16) or if OZK guidance shifts. WAL prints Mon 10/19 after the close. Re-review 10/21 after OZK's call.
-3. ✅ **DONE S52 10/14: CARL CHG-049 minimum clarifications sent blind** (`research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md`). Next: check CARL's disposition before 10/20, then grade CHG-049 against CARL's first read. If CARL amends after seeing the values, the amendment carries that flag.
-4. 🟠 **10/16 LIQ-07 verdict: RED reading pre-written** (`research/2026-10-16_LIQ07_RED_READING.md`). All 4 asks answered; S2 → no move; S1 + 4th DW week → Acute +1 · **bank Q3 tree pre-written S52d → `research/2026-10-19_BANK_Q3_DECISION_TREE.md`**: WAL Mon 10/19 AMC · OZK Tue 10/20 AMC · EGBN Wed 10/21 AMC (call Thu 10/22 10:00). **Grade 10/22 after all three calls, do not improvise:** CHG-027 on the amended EGBN branches; Acute ±1 conjunctions; CHG-052 re-grade.
-5. ✅ **S52c re-derivation DONE: no move, all held.** **Pre-stated next moves to execute:** 10/15 H.4.1 primary credit up a 4th week AND LIQ-07 S1 (10/16) → **Acute +1**. OZK Q3 < $140M on RaDD AND EGBN clearing (10/20–21) → **Acute −1**. Stag −2 (anti-spiral) at the next non-fire session if real AHE is still negative y/y. War ±1 on S51's conditions. All discretionary, and labelled so → `reports/2026-10-14_S52_weight_rederivation.md` §3.
-6. ✅ **CHG-051 RESOLVED S52e** (six Will-approved rule changes applied; `reports/2026-10-14_S52_CHG051_registry_review.md`). CARL SR1201 tariff item ✅ ANSWERED S52h (`research/2026-10-14_CARL_tariff_SR1201_verdict.md`): adopt for y/y (it turns negative), attack "spent" for m/m and level. **Watch 11/11 (Veterans Day):** confirm boot skips the ICE holiday bar in the FT-02 count.
-6b. 🟡 **Tue 11/10 Oct CPI: tree PRE-WRITTEN** (`research/2026-11-10_OCT_CPI_DECISION_TREE.md`). Refresh the nowcast 11/9 (record; no re-cut). Grade FT-08 exit/hold and close CHG-028 by EOD.
-7. 🟡 Review debt: VX.tsv +129d (ledger staleness) · KB 28 past Stale_By · 8/17 VX >45d.
+**Apparatus:**
+- **CHG-051 RESOLVED.** Will approved P1–P6:
+  - holiday bars are non-sessions (`scripts/nonsession.py`, 13 tests);
+  - FT-08 future fires move +1;
+  - FT-01 is log-only;
+  - FT-06 does not re-arm;
+  - FT-02 counts first-published values;
+  - the 0.4 note is retired.
+- **boot.py** gained an event-clause flag, a PROVISIONAL label on oil, and an outcome scan keyed on a blank grade.
+- **Housekeeping:** 15 corrections receipted · inbox drained to 0.
+
+**Closeout self-findings (fixed):**
+1. **ID collision:** RED issued CHG-RED-052 although that ID already existed (9/10). Renumbered **CHG-RED-054**. `schema_check.py` now enforces unique IDs (verified to fail on the duplicate first). TERRY's cards, PROME's WQ-425/DOCKET and RED's same-night records cite "052", which is an alias.
+2. **Narrative stamps** in S52c–h ran up to ~35 min ahead of the clock. Corrected in live files from the commit log; the fold carries a correction header. ML-293.
+
+## NEXT SESSION (dated, priority-ordered — do not improvise; every item has a pre-written file)
+
+1. 🔴 **Thu 10/15:** H.4.1 discount-window point (~16:30) + claims. **Fri 10/16:** LIQUID's LIQ-07 verdict. Apply `research/2026-10-16_LIQ07_RED_READING.md` §4. Acute +1 only if S1 **and** a 4th weekly discount-window rise.
+2. 🔴 **FT-02 daily** (316 [10/13], 4bp): 3 consecutive FRED obs >320, now **holiday-filtered**. Fire = NET-BEAR +3 / CONF +2. **FT-10 exit watch** <140 s=4 (Cboe CSV only).
+3. 🟠 **Mon 10/19 → Thu 10/22:** WAL / OZK / EGBN prints. Grade **10/22 after all calls** per `research/2026-10-19_BANK_Q3_DECISION_TREE.md`: CHG-027 (amended EGBN bands), Acute ±1 conjunctions, and the CHG-RED-054 re-grade. Record Will's actual OZK/WAL orders if any; RED does not grade fills.
+4. 🟠 **10/20:** CARL's CRL-29 first grade. Check CARL's disposition of the five clarifications, then grade CHG-049.
+5. 🟡 **Tue 11/10:** Oct CPI per `research/2026-11-10_OCT_CPI_DECISION_TREE.md` (refresh the nowcast 11/9; close CHG-028 on any verdict). **Wed 11/11 Veterans Day:** confirm boot skips the ICE bar in the FT-02 count.
+6. 🟡 **Re-derivation inputs logged, not applied:** **bear for War:** FALCON (10/14) counts 5 ship losses (IMO: 3 "Sunk" since 2/28; RED had called GFS PRIDE the "first", which COR-20261014-31 corrected), its casualty ratchet is RED, and its production rung D is ARMED (not fired); **bull for Stag and funding:** the anti-spiral (real AHE; once-only); the tariff y/y base effect turning negative; ICI money funds both growing; CPI breadth narrowing (Bloomberg, secondary).
+7. 🟡 **Review debt (carried, named):** VX.tsv +129d stale · KB 28 rows past Stale_By · 13 terminal rows cited live · TIMELINE (6/22) · FLOW (7/05) · Feb `challenges/KRE_*` still say "$480B" (dated history).
 
 ## OPEN THREADS
 
-- **What the FT-08 fire means is narrow:** core is hot, but the oil channel didn't show and 5y5y didn't move. Any downstream reading of "stagflation confirmed" over-reads it.
-- The physical-vs-paper oil split widened (~$29). The War +1 exit condition (Dated collapses to paper) is not met.
-- `challenges/KRE_*` debate-prep files (Feb) still say "$480B". They are dated history and were left as is.
+- **The FT-08 fire is narrow:** core is hot, but oil didn't drive it and 5y5y didn't move. Downstream "stagflation confirmed" over-reads it. NEXUS and WALTER have corrected their framing; the next HEARTBEAT re-base is PROME's.
+- Physical oil is ~$29 over paper. War +1 holds by S51's own conditions.
+- WALTER was asked to apply the non-session rule to its own FT counter before 11/11.
 
 ## PENDING WILL-DECISIONS
 
-None owned by RED. L657 goes to Will only if BROCK disagrees. No trade view; $0.
+- **WQ-425 orders (Will's):** sell OZK 40P ×4 before the Tue 10/20 release, and WAL 65P ×4 before Mon 10/19 (TERRY's cards). RED has no trade view; it only challenged the premise.
+- L657 goes to Will only if BROCK disagrees.
 
 ## GIT STATE
 
-No pull at boot: 0 behind origin, and the tree carried other desks' uncommitted work (DAEDALUS, TERRY). S52 commits are path-scoped to `AGENTS/RED/`, plus the PROME memo and the BROCK packet (carve-out ①).
+No pull at boot (0 behind; other desks dirty). All S52 work is committed path-scoped and pushed via `safe-push.sh` (one non-ff race resolved after a clean overlap check). Packets were delivered under carve-out ① to PROME, BROCK, TERRY, WALTER, NEXUS, CARL and LIQUID. Memory files were self-committed under carve-out ③.

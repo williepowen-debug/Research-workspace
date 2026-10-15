@@ -4,7 +4,7 @@
 
 ---
 
-## S52e — 2026-10-14 ~23:00 ET — **NO CURRENT WEIGHT MOVED. CHG-051 registry review RESOLVED; Will approved six rule changes that alter FUTURE trigger magnitudes.**
+## S52e — 2026-10-14 22:13–22:27 ET [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] — **NO CURRENT WEIGHT MOVED. CHG-051 registry review RESOLVED; Will approved six rule changes that alter FUTURE trigger magnitudes.**
 
 - **FT-08 future fires: Stag +1 / Managed −1** (was +3). The 3.0 line held in 40% of months since 2025. **Today's +3 stands.**
 - **FT-01 log-only.** Its outcome record is 4/8, and F4 is foreclosed (8/12 max, p = 0.194).
@@ -12,7 +12,7 @@
 - **Holiday bars** are non-sessions on every FRED counter. This closes an FT-02 false-fire path across Veterans Day 11/11.
 → `reports/2026-10-14_S52_CHG051_registry_review.md`.
 
-## S52c — 2026-10-14 ~22:05 ET (from `date`) — **NO WEIGHT MOVED. Discretionary re-derivation on Will's word: all six held, each argued. Net-bear 65, confidence 70.**
+## S52c — 2026-10-14 21:55–21:58 ET [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] — **NO WEIGHT MOVED. Discretionary re-derivation on Will's word: all six held, each argued. Net-bear 65, confidence 70.**
 
 - **Stag 35 HOLD:** FT-08's +3 is the registered response to the core move, and adding to it would count it twice. The anti-spiral counter (real AHE −0.5% m/m) and the CHG-028 oil-channel miss are same-day as FT-08, so under the S28 rule they are not netted today. Pre-stated −2 at the next non-fire re-derivation if real AHE is still negative y/y.
 - **Acute 16 HOLD, re-scored.** Bull: OZK RaDD extended with $100M; WFC/JPM benign; REGINALD finds no credit cause. Bear, **new to RED**: discount-window primary credit $6.2B → $8.7B → **$10.0B** [9/23–10/7, FRED WLCFLPCL] and small-bank borrowings +$32.9B with deposits flat. S29's driver said *"flows absent"*; they are not absent now. The two sides are roughly balanced, and five registered reads land 10/15–10/22. Pre-stated: **+1** on a 4th week up AND LIQ-07 S1; **−1** on OZK < $140M AND EGBN clearing.

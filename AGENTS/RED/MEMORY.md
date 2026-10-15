@@ -33,6 +33,9 @@
 - **Anchor predictions to the workbook row at creation time** — STATUS/workbook numbering drifted (RED-11..14 vs 16..19); write the workbook ID immediately (ML-RED-068). → `MEMORY_ARCHIVE.md`
 
 **Pre-registration / falsification discipline**
+- **Check your own registration for the defect you just charged a peer with, the same night** (S52, ML-RED-287). RED found CARL's CRL-29 bands non-exhaustive and overlapping, and RED's own 8/7 EGBN bands had the identical holes. Closed pre-data only because the CARL work was fresh.
+- **An event clause written in prose is invisible to a date-keyed DUE-scan** (S52, ML-RED-288). CHG-051 said "10/31 or at the first fire" and fell due on 10/14 while boot showed 10/31. boot.py §4 now flags event clauses.
+- **Read the next free ID from the canonical file, never from a mirror** (S52, ML-RED-293). STATUS listed challenges up to 051, so RED issued CHG-RED-052, which already existed. `schema_check.py` now enforces primary-key uniqueness.
 - **A rolling-window trigger's distance moves when a weak month rolls OUT, with no new data** (S50, ML-RED-274). FT-08 was carried as '139bp below' from 8/12, but by 10/01 an ordinary 0.3 print fires it. Re-derive the distance at every window roll; never carry the day-one distance. Also: **a row whose basis columns describe two computations is ruled pre-data, and the original letter wins.**
 - **A DUE-scan keyed on a status TOKEN fails open on every token someone coins later** (S50, ML-RED-273). Five challenge rows hid 101–122d behind RE-TARGETED / WEAKENED / STRENGTHENED-IN-FLIGHT. Key on absence-of-terminal + a parsed date → auto-memory `[[finding_status_token_membership_test_desupervises_improved_rows]]` (n=4).
 - **An absence claim about a leg you never ran is a claim about your measurement, not the world** (S50, ML-RED-272). 'Never read on a non-calendar date' fell to LIQUID's z leg, which RED could not run. Write UNREAD, not 'silent'.

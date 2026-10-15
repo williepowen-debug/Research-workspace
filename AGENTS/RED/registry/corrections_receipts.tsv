@@ -41,3 +41,6 @@ receipt_date	correction_id	action	note
 2026-10-15T00:16Z	COR-20261013-16	NO-OP	scope=RED carries no TGA level - grep negative 2026-10-14; 
 2026-10-15T00:16Z	COR-20261014-10	NO-OP	scope=RED carries no Ornn token-price figure - grep negative 2026-10-14; 
 2026-10-15T01:08Z	COR-20261014-23	NO-OP	scope=RED is the source of the corrected figures - FT-08 FIRED and CHG-028 Sept leg NOT MET already carried on RED registry and reports since b79c04c9a; 
+2026-10-15T02:56Z	COR-20261014-31	APPLIED	artifact=AGENTS/RED/reports/2026-10-14_S52_weight_rederivation.md#War-row; validation_ref=NONE; RED had called GFS PRIDE the first confirmed sinking - corrected to three IMO Sunk rows; War hold unchanged (price-based S51 letter); bear evidence logged for re-derivation in SCRATCH
+2026-10-15T02:56Z	COR-20261014-36	NO-OP	scope=RED is the source of this correction - research/2026-10-14_CARL_tariff_SR1201_verdict.md already carries the negative 12-month interval; 
+2026-10-15T02:56Z	COR-20261014-35	NO-OP	scope=RED never carried production-unaffected for Dhahran (board_log 10/14 says output unmeasured and not counted) - FALCON grades logged as War re-derivation input; 

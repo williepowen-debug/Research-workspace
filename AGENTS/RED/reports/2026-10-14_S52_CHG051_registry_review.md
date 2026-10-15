@@ -1,4 +1,4 @@
-# CHG-RED-051 — registry apparatus review (S52, Wed 2026-10-14 ~22:40 ET, on Will's word: "go ahead with #9")
+# CHG-RED-051 — registry apparatus review (S52, Wed 2026-10-14 22:13–22:27 ET [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log], on Will's word: "go ahead with #9")
 
 **Why today, not 10/31:** CHG-051's own Resolution cell says it *"Resolves 2026-10-31 **or at the first fire of any registry row**, whichever is sooner."* FT-08 and FT-10 both fired today, so the review is **due today by its own letter**. Boot's DUE-scan listed it as "re-review 10/31", because it reads the date column and not the event clause in the prose. That is finding **N1** below.
 
@@ -57,7 +57,7 @@
 Sources: `registry/FALSIFICATION_TRIGGERS.tsv` and its git history (13 commits traced); `registry/TRIGGER_OUTCOMES.tsv`; `scripts/base_rate_review.py` (run, and `--candidate` ×3, 10/14); FRED BAMLH0A0HYM2, BAMLH0A3HYC, VIXCLS (holiday windows 2025-11-07..13, 2026-09-03..09, 2026-10-09..13); FRED CPILFESL (2022-09 →); `challenges/2026-08-28_amendment_inherits_cert_audit.md`; CHG-RED-051.
 
 
-## 6. Will's rulings (in-session, 2026-10-14 ~22:50 ET, AskUserQuestion) — and what was applied
+## 6. Will's rulings (in-session, 2026-10-14 ~22:20 ET, AskUserQuestion) [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] — and what was applied
 
 | # | Ruling | Applied |
 |---|---|---|

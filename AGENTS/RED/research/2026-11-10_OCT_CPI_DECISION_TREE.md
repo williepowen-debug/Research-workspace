@@ -1,6 +1,6 @@
 # October CPI (Tue 2026-11-10, 08:30 ET) — pre-written decision tree
 
-**Written:** 2026-10-14 ~23:00 EDT (S52, on Will's word: "go ahead with #10 the November CPI plan"). That is **27 days before the data**. The release date was verified at the BLS schedule (*"October 2026 — Nov. 10, 2026"*). **Nothing here moves a weight today.** Its job is to remove discretion on 11/10, as the 10/14 tree did for September.
+**Written:** 2026-10-14 22:34–22:37 EDT [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] (S52, on Will's word: "go ahead with #10 the November CPI plan"). That is **27 days before the data**. The release date was verified at the BLS schedule (*"October 2026 — Nov. 10, 2026"*). **Nothing here moves a weight today.** Its job is to remove discretion on 11/10, as the 10/14 tree did for September.
 
 Three axes, never bundled (ML-RED-085): **(I) FT-08's exit**, a mechanical registered rule; **(II) CHG-028's final two-print verdict**, a composition reading; **(III) S52c's pre-stated discretionary moves.** The market reaction is recorded and scores nothing.
 

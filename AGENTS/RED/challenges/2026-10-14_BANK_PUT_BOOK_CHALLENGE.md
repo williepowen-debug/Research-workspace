@@ -1,4 +1,6 @@
-# CHALLENGE: the bank-put book after the OZK extension (CHG-RED-052)
+# CHALLENGE: the bank-put book after the OZK extension (CHG-RED-054)
+
+> ⚠️ **ID CORRECTED at closeout 2026-10-14:** first issued as **CHG-RED-052**, an ID already held by a 2026-09-10 challenge (PROME/KERNEL L247), and 053 was also taken. TERRY's cards, PROME's WQ-425/DOCKET records and RED's dated records written tonight cite "CHG-RED-052" for **this** challenge; read them as **CHG-RED-054**. The 9/10 CHG-RED-052 is unchanged.
 
 **Written:** 2026-10-14 ~20:35 EDT (S52, on Will's request: "go ahead with #2"). **RED makes no trade.** TERRY builds trades (root CLAUDE.md), and Will approves under root rule #5. This is the strongest honest case **against** holding, set beside the strongest case **for** holding.
 
@@ -18,7 +20,7 @@
 
 Spot [10/14 close]: OZK 44.93 · WAL 72.22 · KRE 68.54.
 
-**What the table says:** every line is priced **above** its own history. Implied volatility is 1.5–2.3× realized volatility, so the holder is paying a premium for the tail rather than collecting one. That is normal ahead of bank earnings, and it is also why the marks fall after earnings even with no move (post-earnings volatility drop). The KRE Nov-27 $67P is the best-placed line: it is nearest the money and needs the least move.
+**What the table says:** every line is priced **above** its own history. ⚠️ *Closeout correction (TERRY, 10/14): the table compares a breakeven base rate with a strike-level implied probability. Like for like, history is ~0.55–0.75× implied on OZK and ~0.70–0.76× on WAL (below strike 22.9% vs 30.3%; below breakeven 17.9% vs ≈25.5%). The direction stands; the size of the gap was overstated.* Implied volatility is 1.5–2.3× realized volatility, so the holder is paying a premium for the tail rather than collecting one. That is normal ahead of bank earnings, and it is also why the marks fall after earnings even with no move (post-earnings volatility drop). The KRE Nov-27 $67P is the best-placed line: it is nearest the money and needs the least move.
 
 ## 2. CHALLENGE: OZK Nov-20 $40P ×4 — **STRONG**
 
@@ -30,7 +32,11 @@ Spot [10/14 close]: OZK 44.93 · WAL 72.22 · KRE 68.54.
 1. **The catalyst the line was built around is gone.** The near-term event that made OZK puts make sense was a maturity failure on its largest San Diego construction loan. OZK's 8-K (10/12) says that loan was **extended to Dec 2029 with $100M of fresh capital**. RED's own docket wrote "Executed multi-year extension + recap → OZK-09 FALSE immediately" as the bull signal on this event, and two of its legs are now met. The pass-rating and loss legs are still open.
 2. **The desk that owns OZK agrees.** OZK's post-extension review (10/12): *"no compelling, specific near-term downside opportunity"* and *"There is no date-certain RaDD default catalyst left in the November-put horizon."*
 3. **The earnings print cannot do it alone.** The line needs −12.8%. TERRY's measured regional-bank earnings envelope is a median of 2–3%, with **0 of 32 moves ≥10%** (`RISK_RULES.md` #18). OZK's own largest earnings-window move in eight quarters was **+9.7%** (Jan 2025). The OZK desk's playbook prices an executed extension (Scenario A) at a **0 to +5%** stock reaction, and short interest is **~16% of float** [9/15], which is squeeze fuel if the print is clean.
-4. **History prices the payoff at less than half what you are paying.** −12.8% in 26 sessions happened in **7.9%** of 5-year windows (**6.5%** without the 2023 bank crisis). The option is priced for **18.4%**.
+4. ~~**History prices the payoff at less than half what you are paying.** −12.8% in 26 sessions happened in **7.9%** of 5-year windows (**6.5%** without the 2023 bank crisis). The option is priced for **18.4%**.~~ **CORRECTED at closeout on TERRY's basis note (10/14). The line above compared a *breakeven* base rate with a *strike-level* implied probability, which are different events.** Like for like:
+   - **Below the $40 strike:** history **12.5%** (RED) / **13.8%** (TERRY) vs implied **18.4%** (RED) / **17.7–19.2%** (TERRY).
+   - **Below the $39.19 breakeven:** history **7.9%** (RED) / **9.2%** (TERRY) vs implied **≈14.3%** (RED, same IV) / **13.6–15.1%** (TERRY).
+   - ⇒ History runs about **0.55–0.75×** the implied probability, **not "less than half"**.
+   - The point survives: the line is priced above its own history, but by less than first stated. Some gap is expected, because implied odds carry a risk premium.
 5. **No recorded reason, no exit rule.** It was bought 10/7, Will-direct. TERRY's note says the entry rationale is *"unrecoverable"*. There is no card, harvest rule or stop. TERRY's card deadline of 11/18 falls **after** the only scheduled catalyst.
 
 **Risk if wrong (holding and it fails):** the remaining **$120–200** goes to zero. **Risk if wrong (exiting and the bear case lands):** a gap below $39 forfeits the payoff. Historically that is the ~8% tail.
@@ -64,3 +70,12 @@ All **21 bank-put contracts are one view** (TERRY: *"six contract lines are not 
 ## Sources
 
 FORGE/STATUS.md (10/14 broker mirror) · Yahoo option chains and price history (pulled 10/14 20:28 ET) · BOARD/SIG-W-20261012-005 (OZK 8-K Item 7.01) · AGENTS/OZK/research/threads/2026-10-12_POST_EXTENSION_REVIEW.md (lines 5, 51) · …/2026-10-08_BAND_FIRE_CAUSE_RADD_STOPGAP.md:78 · AGENTS/OZK/STATUS.md (short interest, 9/15 FINRA) · AGENTS/TERRY/RISK_RULES.md:137 (#18) · AGENTS/TERRY/setups/WAL65P-OZK40P_new-fidelity-lines_note_2026-10-07.md · AGENTS/TERRY/research/2026-10-13_future-trade-construction.md · AGENTS/REGINALD/reports/2026-10-14_WAL_December_outcome_probabilities.md (line 3) · AGENTS/WAL/research/2026-10-14_relative-weakness-interpretation.json · AGENTS/REGINALD/research/market-technicals/studies/2026-10-12_KRE_whole_basket_study.md · AGENTS/REGINALD/reports/2026-10-13_bounded-securities-funding-screen.md. The quotes in §2–§4 from OZK (lines 5/51/78), TERRY (#18) and REGINALD (line 3) were **checked at the artifact by RED**; the rest were relayed by a read-only evidence agent.
+
+
+## Disposition (closeout, 2026-10-14)
+
+**WQ-425 RULED B** by Will at 20:49 ET in PROME's session (*"Approve 425, spawn TERRY for the OZK and WAL cards"*). TERRY wrote two cards:
+- **`MGMT-OZK40P-NOV20`:** recommends **SELL ×4 before the Tue 10/20 print**, with no roll. RED's flip conditions are on the card as F1/F2.
+- **`MGMT-WAL65P-DEC18`:** **leans SELL ×4 before the Mon 10/19 print**, with HOLD priced as the alternative.
+
+The KRE Dec-18 $60P date ask was outside TERRY's commission and has been flagged to PROME. **Orders are Will's**; RED records them and does not grade fills.

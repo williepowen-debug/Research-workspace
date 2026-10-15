@@ -1,6 +1,6 @@
 # Bank Q3 prints (WAL 10/19 · OZK 10/20 · EGBN 10/21) — RED's pre-written decision tree
 
-**Written:** 2026-10-14 ~22:20 EDT (S52, on Will's word: "go ahead with #6 the earnings frameworks"). **All three prints are after this date: PRE-DATA.** Its job is to remove discretion on 10/20–10/22, as the 10/14 CPI tree did.
+**Written:** 2026-10-14 22:00–22:03 EDT [stamp corrected at closeout: it was typed from narrative, not the clock; true time from the commit log] (S52, on Will's word: "go ahead with #6 the earnings frameworks"). **All three prints are after this date: PRE-DATA.** Its job is to remove discretion on 10/20–10/22, as the 10/14 CPI tree did.
 
 **Scope: RED's own objects only.** The owning desks grade their own letters, and RED does not re-grade them:
 - OZK: `AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md` (OZK-09, W1–W14, R1–R6).
@@ -10,7 +10,7 @@
 RED's objects:
 - **CHG-RED-027**, the bifurcation self-falsifier, whose EGBN branches were registered 8/7.
 - **The two pre-stated Acute moves** (S52c, plus one added here for symmetry).
-- **CHG-RED-052**, the bank-put challenge.
+- **CHG-RED-054**, the bank-put challenge.
 
 Substance and market reaction are separate axes and are never bundled (ML-RED-085).
 
@@ -67,7 +67,7 @@ The Q2 baseline is NCO 2.78% annualized, NPAs $113.1M (1.17% of assets), reducti
 - **Count once:** these ±1 rest on *credit outcomes*. The 10/15 pre-statement (discount window + LIQ-07) rests on *funding flows*. They are different evidence, so both can fire. FT-02's own +3 stands beside either and is never netted.
 - **WAL moves no hypothesis weight** in this tree. It has no registered RED line, and its owner frame governs its substance.
 
-## (III) CHG-RED-052 (bank-put challenge) — re-grade rules, applied 10/22
+## (III) CHG-RED-054 (bank-put challenge) — re-grade rules, applied 10/22
 
 **RED makes no trade.** If TERRY or Will acted before a print, RED records the action and grades only the reasoning.
 
@@ -93,7 +93,7 @@ A large move outside the envelope is *recorded and flagged*, never netted agains
 
 - **Headline EPS is not any object here.** RED's objects are credit flows, recognition and classification.
 - **Attribution guard (from the OZK card):** an unnamed reserve is not RaDD, and a changed balance is not a new credit. UNKNOWN is written as UNKNOWN, never as zero.
-- **No early grade:** read the release, then the call, then grade. CHG-027 is graded 10/22 after the EGBN call. CHG-052 and the Acute moves are graded 10/22 after all three.
+- **No early grade:** read the release, then the call, then grade. CHG-027 is graded 10/22 after the EGBN call. CHG-RED-054 and the Acute moves are graded 10/22 after all three.
 - If any date slips, the row is re-dated at the notice. A passed date shows a slip; it is not a silent wait.
 
-Sources: `workbook/CHALLENGES.tsv` CHG-RED-027 (8/7 successor branches, Q2 baseline) and CHG-RED-052 · `reports/2026-10-14_S52_weight_rederivation.md` §3 · `challenges/2026-10-14_BANK_PUT_BOOK_CHALLENGE.md` · `AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md` (R1, W9, OZK-09, PPNR $259.4M) · `AGENTS/WAL/STATUS.md` (Q3 frame, $99M appraisal) · `AGENTS/REGINALD/CALENDAR.md` L37 · `AGENTS/TERRY/RISK_RULES.md` #18.
+Sources: `workbook/CHALLENGES.tsv` CHG-RED-027 (8/7 successor branches, Q2 baseline) and CHG-RED-054 · `reports/2026-10-14_S52_weight_rederivation.md` §3 · `challenges/2026-10-14_BANK_PUT_BOOK_CHALLENGE.md` · `AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md` (R1, W9, OZK-09, PPNR $259.4M) · `AGENTS/WAL/STATUS.md` (Q3 frame, $99M appraisal) · `AGENTS/REGINALD/CALENDAR.md` L37 · `AGENTS/TERRY/RISK_RULES.md` #18.
