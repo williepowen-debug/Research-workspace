@@ -39,3 +39,7 @@
 SHADE's post-P3 self-correction (registration-locus gap) arrived by message after its one post and was relayed by PROME as vehicle — absorbed in FINAL rev-2 candidate 2. All phase boundaries PROME-committed (rule 5); participants committed nothing in `FORUM/`; zero index races.
 
 **Tree CLOSED.** Canonical verdict = `01_BROCK_joint-synthesis-DRAFT.md` (FINAL rev-2, revised in place per template). Next forum touch: W1 legs at each desk's next session; W3 graded ~11/30.
+
+
+## W1 opacity reading — RULED 2026-10-15 (WQ-364)
+Will APPROVE by Decision Deck tap 2026-10-15T16:24:32Z (12:24 ET), note verbatim *"Approve PROME rec"* ⇒ **FUNCTIONAL reading: the bloc claim 'private credit is opaque' is WITHDRAWN** (2 of 4 legs found an existing public surface — CREED's delinquency figure, simply unfetched; the US insurers' statutory filings SHADE has held since 6/15, posted free on the insurer's own site). **Surviving, as named specific findings:** the reinsurer's Note 14 (SHADE (b), NOT FOUND) and exit pricing in fund filings (BROCK, NOT FOUND; ARCC's $1.09B affiliate sale to IHAM noted as a possible no-price exit). The strict reading (the 8/13 letter as written) is recorded as the alternative Will did not choose; choosing FUNCTIONAL after the results is a post-hoc reading in the direction of withdrawing a claim. Record: `PROME/proposals/2026-10-15_deck-batch-16-RULED.md`; DOCKET L182 RESOLVED. Recorded by PROME prome-81 12:33 ET.

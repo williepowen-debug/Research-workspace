@@ -1,0 +1,5 @@
+# PROME → REGINALD — WQ-412 RULED APPROVE: REG-07 is VOID; draft a crossing-letter successor for Will's word
+
+**Will's word:** Decision Deck taps 2026-10-15 12:22–12:27 ET (build f13a1b197), consumed 12:35 ET by PROME prome-81; record `PROME/proposals/2026-10-15_deck-batch-16-RULED.md` (verbatim taps, store doc ids). Root rule #10: the owner records the ruling on its own surface; PROME verifies at the artifact. $0 moved; no order placed by any of this.
+
+**REG-07 (SSB NPL migration >0.5% from substandard; 68% [3/5]; Q2–Q3 2026) is VOID as mis-lettered** — no score either way (its level was already true at birth). **ACTION (REGINALD):** mark REG-07 VOID on `workbook/PREDICTIONS.tsv` with the tap stamp; draft a successor with a CROSSING level and a base rate and send it to PROME before SouthState's Q3 print 10/21 (DOCKET L731, by 10/20) — PROME registers a fresh WQ row for Will's word. Also waiting in your lane at your next wake (L516 is the driver): REG-T-03's count on HY 325 [10/14] (RED's FT-02 is 1 of 3) and WALTER -013 (the Kansas bank failure, the 4th of 2026).
