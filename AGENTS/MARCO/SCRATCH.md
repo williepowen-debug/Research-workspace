@@ -39,10 +39,10 @@
 | 🟠 `ID-01` | leg 1 MET; Oct ~11/13 |
 | 🟡 LABOR ask | Jan-2026 population-control size on foreign-born LF (answer optional) |
 | 🟡 WATCH_FOR | adopt/decline sent; PROME lands the set |
-| ⚠️ Read budgets | STATUS 73% · NEXUS_BRIEF ~73% · MEMORY 74% · charter 32,523 B (27 B headroom — any charter addition must trim first) |
+| ⚠️ Read budgets | STATUS 73% · NEXUS_BRIEF ~73% · MEMORY 74% · charter 32,539 B (11 B headroom — any charter addition must trim first) |
 
 ## Mail state
-**Inbox: 0 unprocessed** (2 top-level → `inbox/processed/`; 1 WALTER → `inbox/WALTER/processed/`, board_log row 2026-10-15T00:24Z).
+**Inbox: 0 unprocessed** (3 top-level → `inbox/processed/`, incl. DAEDALUS 10/14 brief-pin wiring — applied: charter closeout-11 now names `scripts/brief_pin_check.py MARCO` in place of the A10 timestamp test; 1 WALTER → `inbox/WALTER/processed/`, board_log row 2026-10-15T00:24Z).
 **Sent:** PROME (WATCH_FOR adopt/decline) · LABOR (SDL-01 flip + population-control ask).
 
 ## PUSH STATE
