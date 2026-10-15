@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-10-14 22:2x ET — evening Standard closeout (prome-8e): eleven rulings recorded (WQ-394, 425–434), GIBBS built and registered, orchestration of eight Will-launched desks. Market observations retain their own dates.
+**Updated:** 2026-10-15 09:09 ET — crash-recovery closeout (prome-73): the box died ~03:08 ET; nine desks' residue recovered and closed with receipts (ORCH_LOG); WQ-436–438 ruled; WQ-439/440 registered. Market observations retain their own dates. Prior: 2026-10-14 22:2x ET evening Standard closeout (prome-8e).
 **Last spine audit:** 2026-10-02. Re-run when >7d; WQ411 owns the next audit decision. Prior findings and unresolved residue remain at their records; this cleanup is not that audit.
 
 ## Current Work Queue — PROME's own actions

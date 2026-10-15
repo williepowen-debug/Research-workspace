@@ -6,11 +6,11 @@
 
 ## Top priorities
 
-**2026-10-14 22:3x ET — evening closeout; closes from the 20:06 ET dashboard, owner reads as dated:**
-- **Your orders this week, nothing placed by PROME:** QQQ Oct-15 740P ×3 expire Thursday (deep in the money; sell or roll); HBAN Oct-16 16P ×2 expire Friday (WQ-302 still yours); OZK 40P ×4 and WAL 65P ×4 to be sold before their prints on your 21:32 ET word (WQ-428/429 — say "429 is B" if you meant to hold WAL through Monday). Fills owed from your screen, including the USO calls you sold; TERRY books them.
-- **What the day meant:** CPI hot, long end retraced, SKEW 157.30 fired RED's tail rule (net-bear 65), HY 316 [10/13] four points under the line, funding orderly. The bank-put sleeve is winning on rates and marks, not yet on the credit mechanism; the flip is HY ≥320 ×3 with LIQUID's Friday funding leg. Details: the brief tab and `HEARTBEAT.md` amendments #3–#4.
-- **Approved and in motion:** GIBBS (large-bank desk) built and registered, first session Monday; one maintenance session Thursday with the ceiling lifted (calendar patch → JANUS → closeout repairs); the receipt command waits for its own session ([investigation](reports/2026-10-14_load-lightening-investigation.md)).
-- **Still your word:** WQ-302 HBAN · WQ-357 TBT · WQ-404 name a reader · WQ-411 spine audit; the generated queue owns the full list.
+**2026-10-15 09:12 ET — crash-recovery closeout before the open; closes are the 10/14 closes, owner reads as dated:**
+- **Your orders this week, nothing placed by PROME:** QQQ Oct-15 740P ×3 expire TODAY at the close (about $11 in the money at the 10/14 close; sell or roll); HBAN Oct-16 16P ×2 expire Friday (WQ-302 still yours); WAL 65P ×4 to be sold before Monday's 10/19 print and OZK 40P ×4 before Tuesday's 10/20 print (WQ-428/429). Fills owed from your screen, including the USO calls you sold 10/14.
+- **What the morning meant:** the box died at 03:08 with nine desks mid-session; all recovered and closed by 09:00, nothing lost, tree clean. Claims 199K (quiet); retail control +0.14% after +1.19% (soft under a gasoline headline); PJM's fifth emergency keeps the grid score at 5; CoreWeave credit repriced hard (CDS ~1,059–1,120bp) with nothing new firing; October-hike odds ~30%. Details: the brief tab and `HEARTBEAT.md` amendment #5.
+- **Ruled today:** WQ-436 (three recovery spawns, done) · WQ-437 (CRL-29 clarifications, encoded by CARL) · WQ-438 (LABOR's charter lines, by 10/21).
+- **Still your word:** WQ-439 and WQ-440 (ORACLE's two alert rules, by 10/23) · WQ-302 HBAN · WQ-357 TBT · WQ-411 spine audit; the generated queue owns the full list.
 
 ## Spawn queue
 

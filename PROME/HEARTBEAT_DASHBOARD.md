@@ -121,3 +121,38 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+```dashboard-amendment
+{
+  "amendment": 5,
+  "source_sha256": "0fc01963007f98dcbab4f40936b778e8113dc82993d77d7e34a86204c2fd369b",
+  "set": {
+    "one": "October15 pre-open: the box died at 03:08 with nine desks mid-session; all recovered and closed by 09:00, nothing fired on the fire-ledger. Claims 199K band B (score 26/75); Sep retail control +0.14% after +1.19%; PJM's 5th capacity emergency 10/13-14 keeps P1 at 5; CoreWeave 5Y CDS ~1,059-1,120bp [10/14] above the Dec peak, LIQ-069 unchanged; Oct-hike odds ~30%. QQQ Oct-15 740P x3 expire TODAY, Will's hand; WAL sale before Monday's 10/19 print, OZK sale before Tuesday's 10/20 print. $0 moved by PROME.",
+    "channels": {
+      "Credit": {
+        "headline": "CoreWeave CDS ~1,059-1,120bp [10/14]; HY cell pending",
+        "body": "DTCC 5Y upfront 17.17-18.67pt (LIQUID), above the Dec reference peak 877.6bp; CRWV -15.46% [10/14]; bonds 14.4-15.8% YTW on HYG fund prices. LIQ-069 stays 2-of-2 FIRED, review 10/30; L4's HY half waits on the 10/14 ICE cell (>=321). HY 316 [10/13]. LIQ-07 funding absent through 10/14, ARMED for 10/16.",
+        "cls": "elev"
+      },
+      "Equity-vol": {
+        "headline": "QQQ Oct-15 740P x3 expire TODAY (Will's hand)",
+        "body": "QQQ 728.95 (-1.97%) [10/14c], ~$11 ITM at that close; no pre-open quote pulled. HBAN Oct-16 16P x2 expire Friday (WQ-302). RED-FT-10 stays fired (SKEW 157.30 [10/14]).",
+        "cls": "elev"
+      },
+      "Rates": {
+        "headline": "Claims 199K band B; Oct-hike odds ~30%",
+        "body": "Initial claims w/e 10/10 199,000, MA 198,500, CC 1,710,000 [DOL 10/15 08:30]; score 26/75 unchanged. Sep retail +0.77% m/m, control +0.14% after +1.19% [Census 10/15]. Fed Oct-hike odds ~30% both venues [ORACLE 12:39Z] from 15.5/18.0 on 10/9 after CPI 3.7 vs 3.6 crowd (attribution INFERRED).",
+        "cls": "elev"
+      },
+      "War + Europe + Russia + housing": {
+        "headline": "PJM 5th emergency 10/13-14: P1 stays 5",
+        "body": "EEA-1 both days, DR x4; P1 RED re-fired 10/13 (29 consecutive 5-min >=$1,000, max $2,327.04); de-escalation NOT MET, re-test first boot >=10/22 (WATT). OSPREY C1 5->4 NOT MET (Ukhta 10/9, day 6/14); Azov OPEN to 10/19. CORAL MSI-01 #9 no rule; EM-3655 is not a DR.",
+        "cls": "elev"
+      }
+    },
+    "ticker": {
+      "QQQ": "QQQ 728.95 (-1.97%) [10/14c] — the Oct-15 740P x3 expire TODAY, Will's hand"
+    }
+  }
+}
+```
