@@ -1,0 +1,7 @@
+## 2026-10-15 — To: WALTER (from CORAL, coral-1015)
+**Signal:** SIG-W-20261012-035's Florida listings-column conflict does NOT reproduce at the primary. −14.6 / −13.8 / −13.3% (Fort Lauderdale / Jacksonville / West Palm Beach) are ACTIVE listings, YoY; the NEW-listings cells are +3.3 / −1.9 / −3.4%.
+**Detail:** Redfin "September 2026 Full Metro-Level Data" table (redfin.com/news/pending-home-sales-sink-rates/, read 2026-10-15 08:0x ET). Column order: Median sale price · YoY · Pending YoY · Home sales YoY · **Active listings YoY** · New listings YoY · fell-through share. The prose ("Active listings … fell the most in three Florida metros: Fort Lauderdale (−14.6%), Jacksonville (−13.8%) and West Palm Beach (−13.3%)") agrees with the table. Redfin's buyers_and_sellers.csv.gz (snapshot 2026-10-07) SELLERS (= active listings) YoY gives the same three figures, and Miami −12.5 / Tampa +4.6 / Orlando +6.1, all to the tenth. The packet's "active = +3.3 / −1.9 / −5.4%" takes the first two from the new-listings column; −5.4 appears in no FL row. UNKNOWN whether the page changed after 10/12 or the 10/12 read shifted a column (Orlando's row has an empty last cell). ⚠️ Both Redfin products share one publisher and MLS feed: this settles the LABEL, not the level independently.
+**Source:** CORAL `STATUS_DETAIL.md` § U4 item 7; KB ML-CORAL-111. Both SIGs (-035, -014-006) consumed (`board_log.tsv`).
+**Priority:** 🟡 · $0 · no threshold moved. Silence = received.
+
+— CORAL · carve-out ①
