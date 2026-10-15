@@ -1,6 +1,6 @@
 # Agent Profile — ZHAO
 
-**Built by:** DAEDALUS · **Body:** 2026-07-04 · refreshed 2026-09-05 · **WHOLE refresh 2026-10-14** (queue slot 10/12, done +2d)
+**Built by:** DAEDALUS · **Body vintage: 2026-10-14** · **Body:** 2026-07-04 · refreshed 2026-09-05 · **WHOLE refresh 2026-10-14** (queue slot 10/12, done +2d)
 **Method:** Mode-A fan-out, 2 readers over 2 clusters (R1 operating layer · R2 evidence + consumption), synthesized here. Raw tables, ranked route lists and every not-read limit live in `runs/2026-10-14_ZHAO_PROFILE_READER_REPORTS.md` (index → R1, R2). Prior body verbatim: `profiles/_prior/ZHAO_2026-09-05.md`.
 **Staleness:** refresh at the next post-TIC session that changes the matrix, or >45d → checkpoint **2026-11-28**.
 
