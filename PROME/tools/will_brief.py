@@ -69,7 +69,11 @@ import datetime as dt
 import html
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import desk_attention as da  # noqa: E402  (forge_vintage — ONE parser of the mirror header's two clocks, L688)
 
 ROOT = Path(__file__).resolve().parents[2]
 ET = "ET"
@@ -311,23 +315,43 @@ def parse_actions():
     return dec, chore
 
 
-def parse_money():
-    """FORGE/STATUS.md header — account total + cash %, WITH the export vintage."""
-    p = ROOT / "FORGE/STATUS.md"
-    try:
-        head = p.read_text(encoding="utf-8").split("\n## ", 1)[0]
-    except Exception as e:
-        return fail("the book", "FORGE/STATUS.md", f"unreadable: {e}")
+def parse_money(head=None):
+    """FORGE/STATUS.md header — account total + cash %, WITH its TWO clocks (L688): `vintage` = the
+    export's RECEIPT date (**Updated:**); `marks` = the marks' own as-of label from the `marks = ` clause,
+    UNKNOWN when the header states no ISO date for them — never the receipt date, never today
+    (`desk_attention.forge_vintage` is the one parser). `head` is injectable for tests."""
+    if head is None:
+        p = ROOT / "FORGE/STATUS.md"
+        try:
+            head = p.read_text(encoding="utf-8").split("\n## ", 1)[0]
+        except Exception as e:
+            return fail("the book", "FORGE/STATUS.md", f"unreadable: {e}")
     total = re.search(r"account total:\*\*\s*\$([\d,]+\.\d\d)", head)
     cash = re.search(r"money market\):\*\*\s*\$([\d,]+\.\d\d)\s*\(([\d.]+)%\)", head)
-    vint = re.search(r"\*\*Updated:\*\*\s*(\d{4}-\d{2}-\d{2})", head)
-    marks = re.search(r"marks = (?:Fri )?(\d{4}-\d{2}-\d{2})", head)
-    if not (total and cash and vint):
+    receipt, marks, marks_known = da.forge_vintage(head)      # the ONE reader of both clocks (read 2 ❌1)
+    if not (total and cash) or receipt == "UNKNOWN":
         return fail("the book", "FORGE/STATUS.md",
-                    "header shape changed — account total / cash / Updated not found")
+                    "header shape changed — account total / cash / dated Updated not found")
     return {"total": total.group(1), "cash_pct": cash.group(2),
-            "vintage": vint.group(1), "marks": marks.group(1) if marks else vint.group(1),
-            "age": (dt.date.today() - dt.date.fromisoformat(vint.group(1))).days}
+            "vintage": receipt, "marks": marks, "marks_known": marks_known,
+            "age": (dt.date.today() - dt.date.fromisoformat(receipt)).days}
+
+
+def book_stale(money, days=4):
+    """Stale = old receipt OR an unknown marks clock (unknown fails toward caution, never toward fresh)."""
+    return money["age"] > days or not money.get("marks_known", False)
+
+
+def book_vintage_line(money):
+    """The ONE text home for the book's two clocks — the HTML book lines (this file and will_handbook) and
+    `--book-line` all render this string (read 2 ⚠️7)."""
+    return (f"broker export received {money['vintage']} · marks as-of {money['marks']}"
+            f" · {money['age']}d since receipt — not live, re-check before any fill")
+
+
+def book_line(money):
+    """The ONE text line for the book — pasted whole into Will-facing messages (BOOT step 8, L688)."""
+    return f"Book ${money['total']} · cash {money['cash_pct']}% · " + book_vintage_line(money)
 
 
 def parse_gates():
@@ -739,12 +763,11 @@ def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fi
     # ---- 5. the book
     A("<section><h2>Where you stand</h2>")
     if money:
-        vs = " stale" if money["age"] > 4 else ""
+        vs = " stale" if book_stale(money) else ""
         A('<div class="book">')
         A(f'<div class="stat"><span class="v">${money["total"]}</span><span class="k">Account</span></div>')
         A(f'<div class="stat"><span class="v">{money["cash_pct"]}%</span><span class="k">Cash</span></div>')
-        A(f'<div class="vint{vs}">Broker export {money["vintage"]} · marks {money["marks"]}'
-          f' · {money["age"]}d old — not live, re-check before any fill</div></div>')
+        A(f'<div class="vint{vs}">{html.escape(book_vintage_line(money))}</div></div>')
     if brief.get("POSITION"):
         A(f'<div class="prose">{md_block(brief["POSITION"])}</div>')
     A("</section>")
@@ -787,7 +810,16 @@ def main():
     ap.add_argument("-o", "--out", default="/tmp/will_brief.html")
     ap.add_argument("--no-snapshot", action="store_true",
                     help="dry run: render without burning the change-feed baseline")
+    ap.add_argument("--book-line", action="store_true",
+                    help="print the one-line book rendering (L688) and exit — reads FORGE/STATUS.md only, writes nothing")
     args = ap.parse_args()
+    if args.book_line:
+        money = parse_money()
+        if not money:   # fail LOUD: a failure line must never be pasted as if it were the book (L688 read 1 ⚠️6)
+            print("Book: PARSE-FAILED — " + "; ".join(f"{s}: {r}" for s, _o, r in failures))
+            sys.exit(1)
+        print(book_line(money))
+        return
 
     written, brief = parse_brief()
     gates, channels = parse_gates(), parse_channels()

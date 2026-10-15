@@ -506,14 +506,13 @@ def render_brief_tab(written, brief, feed, first, money, positions):
     h.append("</div>")  # /colrail
     h.append("<section><h2>Where you stand</h2>")
     if money:
-        stale = " stale" if money["age"] > 5 else ""
+        stale = " stale" if wb.book_stale(money, days=5) else ""
         h.append("<div class='book'>"
                  f"<div class='stat'><span class='v'>${money['total']}</span>"
                  "<span class='k'>Account</span></div>"
                  f"<div class='stat'><span class='v'>{money['cash_pct']}%</span>"
                  "<span class='k'>Cash</span></div>"
-                 f"<div class='vint{stale}'>broker export {money['vintage']} · "
-                 f"{money['age']}d old — not live, re-check before any fill</div></div>")
+                 f"<div class='vint{stale}'>{html.escape(wb.book_vintage_line(money))}</div></div>")
     if positions:
         h.append("<div class='tw'><table class='postab'><tr><th>Pos</th><th>Qty</th>"
                  "<th>P&amp;L</th><th>Expiry</th><th>Explicit gate mapping</th></tr>")

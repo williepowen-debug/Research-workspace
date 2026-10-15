@@ -48,11 +48,71 @@ def instrument_name(text):
     return re.sub(r'\s+', ' ', m[0]).strip() if m else 'Stock'
 
 
+_WEEKDAY = r'(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+)?'
+
+
+def _top_level_scope(clause):
+    """The clause up to the first ' · ' at paren/bracket depth 0 — a separator INSIDE a parenthetical or a
+    cell tag does not end the clause (L688 read 2 ❌2)."""
+    depth = 0
+    for i, ch in enumerate(clause):
+        if ch in '([':
+            depth += 1
+        elif ch in ')]':
+            depth = max(0, depth - 1)
+        elif depth == 0 and clause.startswith(' · ', i):
+            return clause[:i]
+    return clause
+
+
+def forge_vintage(text):
+    """FORGE/STATUS.md header -> (receipt_date, marks_label, marks_known).   [DOCKET L688]
+
+    The mirror header carries TWO clocks that are never substituted for each other: `**Updated:** YYYY-MM-DD`
+    is the RECEIPT date of the broker export; `marks = ...` is the observation the marks themselves carry.
+    Only the header (text before the first '## ') is read; the receipt is the first `**Updated:**` token that
+    is FOLLOWED by a date (a banner that merely names the token does not count), and the marks clause is read
+    ONLY from that date's line (a banner's "marks =" above it never wins; two clauses on the line read UNKNOWN).
+    With an ISO date after `marks = ` (optionally a weekday before it and a qualifier such as CLOSE,
+    intraday or post-close after it) and no UNKNOWN anywhere in the clause — parentheticals and cell tags
+    included — the label is that date + qualifier and marks_known is True. Otherwise the label is UNKNOWN,
+    quoting the header's own words when it has them (e.g. 'UNKNOWN clock, 10/15 intraday'), and marks_known
+    is False: never the receipt date, never today; a label with marks_known False always carries the word
+    UNKNOWN (the cap is applied before the marker). A header without a dated `**Updated:**` reads
+    receipt 'UNKNOWN'.
+    """
+    head = text.split('\n## ', 1)[0]
+    stamp = re.search(r'\*\*Updated:\*\*\s*(\d{4}-\d\d-\d\d)', head)
+    if not stamp:
+        return 'UNKNOWN', 'UNKNOWN (no dated **Updated:** line in the mirror header)', False
+    receipt = stamp[1]
+    line_start = head.rfind('\n', 0, stamp.end()) + 1
+    line_end = head.find('\n', stamp.end())
+    line = head[line_start:(len(head) if line_end < 0 else line_end)]   # the date's line carries both clocks
+    clauses = [m.end() for m in re.finditer(r'\bmarks = ', line)]
+    if not clauses:
+        return receipt, "UNKNOWN (no marks clause on the mirror header's Updated line)", False
+    if len(clauses) > 1:
+        return receipt, 'UNKNOWN (two marks clauses on the Updated line)', False
+    scope = _top_level_scope(line[clauses[0]:])
+    words = re.split(r'\s\(|\s·\s|`|\[', scope, 1)[0].strip()   # the clause's own words, for the label
+    unknown = 'UNKNOWN' in scope.upper()
+    d = re.match(_WEEKDAY + r'(\d{4}-\d\d-\d\d)\b\s*([A-Za-z-]+)?', words)
+    if d and not unknown:
+        return receipt, d[1] + (f' {d[2].lower()}' if d[2] else ''), True
+    words = words[:70]                                                # cap BEFORE the marker (read 2 ❌3)
+    if d:
+        label = words if 'UNKNOWN' in words.upper() else f'{words} (clock UNKNOWN)'
+    else:
+        label = words if words.upper().startswith('UNKNOWN') else f'UNKNOWN ({words})'
+    return receipt, label, False
+
+
 def holdings(root=ROOT):
     source = root / 'FORGE/STATUS.md'
     text = source.read_text()
-    stamp = re.search(r'\*\*Updated:\*\*\s*(\d{4}-\d\d-\d\d)', text)
-    vintage = stamp[1] if stamp else 'UNKNOWN'
+    vintage, marks, _marks_known = forge_vintage(text)
+    stamp = vintage != 'UNKNOWN'
     year = int(vintage[:4]) if stamp else None
     rows, errors, cols, account, ticker = [], [], None, '', ''
     for line_no, ln in enumerate(text.splitlines(), 1):
@@ -91,7 +151,7 @@ def holdings(root=ROOT):
             if pos != 'Stock' and not exp:
                 errors.append(f'FORGE line {line_no}: option expiry unknown')
             note = ' '.join(get(n) for n in ('Note', 'Owner', 'P&L', 'State'))
-            observation = f'{vintage} broker positions; expiry year from this dated book where omitted'
+            observation = f'broker positions received {vintage}; marks as-of {marks}; expiry year from this dated book where omitted'
             if account == 'Robinhood':
                 observation = 'Not captured September 3; August 28 / operator-supplied records; current holdings unverified'
             if 'screenshot received September 9' in note:
