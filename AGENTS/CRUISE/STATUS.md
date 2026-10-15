@@ -35,7 +35,7 @@
 | Capacity vs occupancy | Q2 FY26 YoY: **NCLH +8.88% / −1.54pp · RCL +4.87% / −0.08pp · CCL +2.07% / flat.** Q3 10-Qs for RCL/NCLH not yet filed | 🟠 | [CONF A1] Q2 10-Qs |
 | Credit ratings | CCL investment grade (S&P BBB− 6/25, Fitch); NCLH B1 / B+. **Not re-swept 10/14** | 🟢 | [CONF C2] carried |
 | Consumer (CARL) · Gulf (FALCON) | **NOT re-read this session.** Last on file: CARL 9/17 53/70 🔴; FALCON 9/28 marks B1/C14/D85, **zero Big-3 cancellations** | ⚪ | carried |
-| Hurricane Isaias | Cat 2 landfall near **Destin (Panhandle) 10/9**; Tampa-area counties not under warning (CORAL L638). **Cruise-port impact NOT checked**; no Big-3 itinerary change seen in routed news | 🟢 | CORAL `66746cd28` |
+| Hurricane Isaias | Cat 2 landfall near **Destin (Panhandle) 10/9**. **Cruise effect NEGLIGIBLE** (checked 10/14): only Carnival changed anything — Dream's Galveston boarding ~2h late (10/10), Liberty and Valor shifted Cozumel call times. **No cancellations, no skipped ports, no RCL/NCLH changes found.** Tampa, Galveston, New Orleans open; Mobile closed 10/9, normal 10/10, no cruise that week. ⚠️ Secondary trade press only | 🟢 | [CONF C2] CruiseHive 10/10 · KB-CRU-153 |
 | WALTER lane | **1 cruise signal delivered in the L452 window** (SIG-W-20261001-028, acted). Collector carried ≥6 decision-relevant | 🟠 | KB-CRU-149 |
 
 ---
