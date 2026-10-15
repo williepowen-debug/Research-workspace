@@ -13,6 +13,8 @@ Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	market	KXRECS
 # Fed hike at Sept mtg (>3.75%)	market	KXFED-26SEP-T3.75	T1	LIQUID,HENRY,BOND
 Fed hike at Oct mtg (>4.00%)	market	KXFED-26OCT-T4.00	T1	LIQUID,HENRY,BOND
 Fed 2 more hikes by Dec (>4.25%)	market	KXFED-26DEC-T4.25	T1	LIQUID,HENRY,BOND
+# ADDED 2026-10-15: Dec >4.00% = P(at least one more hike by the Dec meeting), cumulative — the live hike question since Oct was priced out (KB-ORC-103).
+Fed >=1 more hike by Dec (>4.00%)	market	KXFED-26DEC-T4.00	T1	LIQUID,HENRY,BOND
 # ADDED 2026-08-18 (PROME-directed, closing the 8/17 20-day coverage miss) — KXCBDECISIONJAPAN was open since 2026-07-28 and absent here; `kalshi.py search "Bank of Japan"` returned 0 that day (tool defect, now fixed same session) despite this exact event supplying the KALSHI LEG of the 8/17 three-instrument BOJ convergence (Kalshi mid 74.5% vs Polymarket 73.5% vs TFX 72.2%, max spread 2.3pp — the leg that refuted SAM's 51.0% boj_ois.py read). Pinning so it never again depends on search, fixed or not. 8/18 15:37Z top leg: Hike 25bp 76.0% (OI 21.2K, vol 32.0K lifetime — see `kalshi.py event` for the full 5-leg ladder incl. Hold 24.0% / Hike-more 3.0% / Cut legs ~1-2%). -> SAM,BOND
 # ⛔ RETIRED 2026-09-24 — Sept MPM finalized 9/18. ROLLED to the October 10/29 event. ENTRY READ 2026-09-25T01:3xZ: HOLD 83.0% (OI 3.3K) · H25 15.0% (5¢) · H25P 5.0% (⚠mid 2.5). PM October corroborates (top 83.0%).
 # BOJ September decision (Kalshi)	event	KXCBDECISIONJAPAN-26SEP17	T2	SAM,BOND
@@ -25,13 +27,15 @@ BOJ October decision (Kalshi)	event	KXCBDECISIONJAPAN-26OCT29	T2	SAM,BOND
 # August CPI YoY >3.3%	market	KXCPIYOY-26AUG-T3.3	T1	HENRY
 # August CPI YoY >3.4%	market	KXCPIYOY-26AUG-T3.4	T1	HENRY
 # August CPI YoY >3.5%	market	KXCPIYOY-26AUG-T3.5	T1	HENRY
-September CPI YoY >3.5%	market	KXCPIYOY-26SEP-T3.5	T1	HENRY
-September CPI YoY >3.6%	market	KXCPIYOY-26SEP-T3.6	T1	HENRY
-September CPI YoY >3.7%	market	KXCPIYOY-26SEP-T3.7	T1	HENRY
+# ROLLED OUT 2026-10-15 (laptop, UNSIGNED public read): Sept CPI ladder FINALIZED — expiration_value 3.7 (>3.5 YES · >3.6 YES · >3.7 NO). KXCPIYOY-26OCT has 0 markets at 10/15 03:57Z — pin when it lists (Oct CPI prints ~mid-Nov).
+# September CPI YoY >3.5%	market	KXCPIYOY-26SEP-T3.5	T1	HENRY
+# September CPI YoY >3.6%	market	KXCPIYOY-26SEP-T3.6	T1	HENRY
+# September CPI YoY >3.7%	market	KXCPIYOY-26SEP-T3.7	T1	HENRY
 # ★ ROLLED 2026-09-04 — July U3 finalized 8/07. Skipped straight past August, which **CLOSED ON TODAY'S 08:30 PRINT**: KXU3-26AUG-T4.2 last-traded 24.0% and closed with the book collapsed to bid 0.0 / ask 1.0 ⇒ **settling NO, i.e. U-3 came in at or below 4.2%** (T4.3 1.0%, T4.4 1.0%). Labor did NOT weaken — the hawkish leg of today's repricing. Pinned the live SEPTEMBER event (prints 2026-10-02).
 # ⚠️ ENTRY READ: >4.2% last 49.0% but the book is 9¢ wide — **cite the MID 41.5** (KB-ORC-069; the ⚠mid marker fired). >4.3% 19.0% on a 3¢ book. → LABOR, HENRY
-September U3 unemployment >4.2%	market	KXU3-26SEP-T4.2	T1	LABOR,HENRY
-September U3 unemployment >4.3%	market	KXU3-26SEP-T4.3	T1	LABOR,HENRY
+# ROLLED 2026-10-15: Sept U3 FINALIZED at 4.2% (>4.2 NO · >4.3 NO). -> October U3 (prints 2026-11-06). T4.1 = deepest live rung (42.3K OI); T4.2 = the step above the Sept print.
+October U3 unemployment >4.1%	market	KXU3-26OCT-T4.1	T1	LABOR,HENRY
+October U3 unemployment >4.2%	market	KXU3-26OCT-T4.2	T1	LABOR,HENRY
 #
 # ===== WATCH / DISCOVERY (series exist; no OPEN event as of 2026-06-27 — re-check & pin when listed) =====
 # These are the high-value GAP-FILLS Polymarket lacks — pin specific tickers once Kalshi opens the next event:
@@ -56,10 +60,12 @@ Corporate bankruptcies 2026 >750	market	KXBANKRUPTCY-26-750	T2	CARL,REGINALD
 # OIL SETTLE (item-2 deliverable — the BRENT settle-reference check FALCON/BRENT lacked): "Brent price @ Jul 31 5PM EDT >$85". 57% Yes ($4.4K vol/$4.2K OI). !! Resolves on a SINGLE month-end reading, NOT FALCON's "3 consecutive settles >$85" — right instrument family (Brent settle-ref), different resolution. Cite precisely. Monthly -> re-pin next month's KXBRENTMON event (and move the strike to track the live $85 line). -> BRENT,FALCON,HAWK
 # ★ ROLLED 2026-09-04 — the Jul-31 settle-ref finalized (99% YES). Pinned TWO rungs of the live Sept-30 ladder instead of one binary, because the ladder is the better instrument: a single ">$85" gives a corner of the distribution, two rungs give BRENT/FALCON a slope.
 # ENTRY READ 2026-09-04 12:5xZ, full Sept-30 curve: >$79.99 90.0% · >$83.99 78.0% · **>$85.99 77.0%** · >$87.99 71.0% · >$89.99 63.0% · **>$91.99 56.0%** · >$93.99 48.0% · >$95.99 39.0% ⇒ crowd median Brent settle ~**$93**. ⚠️ Most rungs are thin (OI <1K); the two pinned are the deepest (T87.99 2.0K OI is deeper still but T85.99 is the direct successor to the retired >$85 reference — keeping identity beats keeping depth here, and the thinness is flagged not hidden).
-Brent >$85.99 @ Sep30 settle-ref	market	KXBRENTMON-26SEP3017-T85.99	T2	BRENT,FALCON,HAWK
-Brent >$91.99 @ Sep30 (median rung)	market	KXBRENTMON-26SEP3017-T91.99	T2	BRENT,FALCON,HAWK
+# ROLLED 2026-10-15: Brent Sep-30 ladder FINALIZED -> KXBRENTMON-26OCT3017 (settles 10/30). ⚠️ 7-9¢ books on the mid rungs; mid ~$101-102 at pin. T98.99 = deepest near-the-money rung (8.6K OI); T100.99 = median rung.
+Brent >$98.99 @ Oct30 (deepest near-money rung)	market	KXBRENTMON-26OCT3017-T98.99	T2	BRENT,FALCON,HAWK
+Brent >$100.99 @ Oct30 (median rung)	market	KXBRENTMON-26OCT3017-T100.99	T2	BRENT,FALCON,HAWK
 # SUPPLY TRUTH (barrel-level, better than WTI-$100 proxy): "Iran crude production Jul 2026 >2.0 mbpd". 77% Yes (thin OI 200). Iran ~2.0-2.2 mbpd = roughly its SANCTIONED baseline, NOT collapsed = direct barrel confirmation of "premium not shortage". Monthly (resolves Aug 12). -> BRENT,FALCON,HAWK
 # ⛔ RETIRED 2026-09-04 — finalized 8/12, and there is NO successor: `kalshi.py event KXIRANCRUDE` returns **0 markets** (series has no open event). The barrel-level supply-truth gauge is therefore a GAP again, not a roll. Re-check when Kalshi relists; until then the WTI-$100 Polymarket proxy is the only supply leg, with all the proxy caveats in ORACLE/CLAUDE.md.
 # Iran crude production Jul >2.0mbpd	market	KXIRANCRUDE-26AUG12-T2.0	T2	BRENT,FALCON,HAWK
 # ★ RE-PINNED 2026-09-24 19:1xZ — WQ-190 leg ② (Will 2026-09-07, 'Kalshi KXIRANCRUDE as a NON-DIFFERENCED context column'), ruled but never encoded until now; carried into v5 under WQ-260. The 9/04 'no successor' line above is OVERTAKEN: the series re-listed monthly (KXIRANCRUDE-26SEP10 = August production, finalized: >1.8 YES, >2.0 YES, >2.2 NO => August in (2.0, 2.2] mbpd). Pinned: SEPTEMBER production (KXIRANCRUDE-26OCT13, closes 2026-10-13), >2.0 rung. ⚠️ THIN: at pin, bid 0.47 / ask 0.56, OI 0.00, last none => the logged yes_prob is the BOOK MID, not a trade. CONTEXT ONLY — never differenced against either spread leg (different axis: barrels, not price). Roll monthly with the series.
-Iran crude production Sep >2.0mbpd [v5 context col]	market	KXIRANCRUDE-26OCT13-T2.0	T2	BRENT,FALCON,HAWK
+# RETIRED 2026-10-15: KXIRANCRUDE-26OCT13 finalized 10/13 — RESULT NO, expiration_value 1.957M bpd (OPEC MOMR secondary sources, Sept 2026; settled 2026-10-13T13:33Z; OI 226, thin; verified at the API 10/15 12:4xZ). August was in (2.0, 2.2]. Series KXIRANCRUDE has 0 OPEN events (public /events?series_ticker, 10/15). Spread-tool context column prints 'none logged' until a successor lists. Re-check monthly.
+# Iran crude production Sep >2.0mbpd [v5 context col]	market	KXIRANCRUDE-26OCT13-T2.0	T2	BRENT,FALCON,HAWK

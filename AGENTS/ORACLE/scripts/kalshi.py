@@ -35,9 +35,18 @@ WATCHLIST = os.path.join(ORACLE_DIR, "kalshi_watchlist.tsv")
 KALSHI_LOG = os.path.join(ORACLE_DIR, "workbook", "KALSHI_ODDS_LOG.tsv")
 
 CRED_DIR = os.environ.get("KALSHI_CRED_DIR", os.path.expanduser("~/.config/kalshi"))
-KEY_ID = os.environ.get("KALSHI_KEY_ID") or open(os.path.join(CRED_DIR, "key_id.txt")).read().strip()
 _PK_PATH = os.environ.get("KALSHI_PRIVATE_KEY_PATH", os.path.join(CRED_DIR, "private_key.pem"))
-_PK = serialization.load_pem_private_key(open(_PK_PATH, "rb").read(), password=None)
+# Creds are per-box (PROME/MACHINE_LOCAL.md row 15: desktop only). Market-data GETs are
+# PUBLIC on trade-api v2 (measured from the laptop 2026-08-21), so a box without creds
+# reads UNSIGNED instead of dying at import. Every unsigned run says so on stderr.
+try:
+    KEY_ID = os.environ.get("KALSHI_KEY_ID") or open(os.path.join(CRED_DIR, "key_id.txt")).read().strip()
+    _PK = serialization.load_pem_private_key(open(_PK_PATH, "rb").read(), password=None)
+    SIGNED = True
+except FileNotFoundError:
+    KEY_ID, _PK, SIGNED = None, None, False
+    print(f"kalshi.py: no creds at {CRED_DIR} — UNSIGNED public read (market data only)",
+          file=sys.stderr)
 
 THIN_VOLUME = 5000      # contracts — below this a single bet moves the print
 
@@ -52,15 +61,17 @@ def _sign(ts, method, path):
 
 
 def _get(path, params=None, tries=3):
-    """Signed GET. `path` includes /trade-api/v2; signature excludes query string."""
+    """Signed GET (unsigned when SIGNED is False). Signature excludes query string."""
     full = "/trade-api/v2" + path
     last = None
     for _ in range(tries):
         try:
-            ts = str(int(time.time() * 1000))
-            headers = {"KALSHI-ACCESS-KEY": KEY_ID,
-                       "KALSHI-ACCESS-TIMESTAMP": ts,
-                       "KALSHI-ACCESS-SIGNATURE": _sign(ts, "GET", full)}
+            headers = {}
+            if SIGNED:
+                ts = str(int(time.time() * 1000))
+                headers = {"KALSHI-ACCESS-KEY": KEY_ID,
+                           "KALSHI-ACCESS-TIMESTAMP": ts,
+                           "KALSHI-ACCESS-SIGNATURE": _sign(ts, "GET", full)}
             r = requests.get(BASE + path, headers=headers, params=params, timeout=25)
             r.raise_for_status()
             return r.json()
@@ -215,6 +226,10 @@ def fmt_row(label, m, tier=""):
 def cmd_status(args):
     d = _get("/exchange/status")
     print("Kalshi exchange status:", json.dumps(d))
+    # rc=0 keeps its boot meaning (SIGNED lane live); rc=3 = reachable but UNSIGNED.
+    print("lane:", "SIGNED" if SIGNED else "UNSIGNED (public market data only) — rc=3")
+    if not SIGNED:
+        sys.exit(3)
 
 
 def cmd_market(args):

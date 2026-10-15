@@ -5,7 +5,7 @@ DAEDALUS packet 2026-10-08 (DOCKET L546): `abs(yes - mid) >= 0.01` read
 0.29-0.28 = 0.009999999999999981 as BELOW the edge, hiding the marker on exact
 one-cent gaps. The letter is `>=`, so an exact one-cent gap must flag.
 
-Needs the Kalshi cred dir present (kalshi.py loads its key at import).
+Runs with or without the Kalshi cred dir (since 2026-10-15 kalshi.py reads UNSIGNED when no key is present).
 Run: python3 AGENTS/ORACLE/scripts/test_mid_flag_edge.py   (exit 0 = all pass)
 """
 import os, sys
