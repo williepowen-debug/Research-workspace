@@ -69,7 +69,7 @@ Migration / population-movement agent. **Founding two-channel spine (HISTORICAL 
 - tsvutil raw-split doubled quotes 12→3,574 (8/21) — guarded by `scripts/tsvutil_selftest.py` (boot)
 - Repaired one reader, left its twin broken (8/21 s23) — guarded by `tsvutil_selftest.py` invariant A + `--verify-guard`
 - Declared a row unscorable without grepping my own workbook; positional-column fallback (8/21) — rule lives in `tsvutil.col()` docstring
-- BASIS ERROR #6: one-sided footnote ≠ asymmetry — NV gaming −6.99% (8/21); base-rate the series before withdrawing a figure
+- BASIS ERROR #6 — REVERSED 10/14: the 8/21 'one-sided footnote ≠ asymmetry' withdrawal was itself wrong; the NV footnote governs the CURRENT column only (comparator final) and July −6.99% revised to −2.31%. Check WHICH COLUMN a footnote governs, and test with the next report's revision
 - A fix clears the REGION, not the FILE (8/11–12) — mechanical half guarded by `scripts/version_drift_check.py` (boot)
 - 'Don't build it' is a real answer — measured FP rates 21/21, 2/2 (8/12); recorded in version_drift_check's NOT-built line
 - World Cup dual-surface event-mask — RETIRED 9/24 (tournament resolved; ES-MARCO-09 APPEARED 9/19; MIA Aug −5.69% is CONSISTENT with a post-tournament fade — not attributed; capacity cuts are a named co-driver)

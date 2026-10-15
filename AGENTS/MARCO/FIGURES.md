@@ -163,6 +163,17 @@ Every new print below was taken only after the SAME pull reproduced the figure M
 | **FL airport index (BTS)** | **−7.13%**; YoY MCO −5.28 / FLL −5.97 / MIA −1.47; ex-Spirit MCO +7.01 / FLL +31.42; June −11.54 reproduces, no revisions | Jul 2026 | BTS T-100 via `bts_airport_pull.py --out` | `VX-MARCO-1.04` · `KB-APT-46` |
 | **FL voter-reg new (proxy)** | 66,650, +65.7% YoY; vs Sep-22 +0.2%; Aug-22 / Jan–Aug-22 reproduce `KB-MIG-08` | Sep 2026 | FL DOS via `fl_migration_proxies.py` | `MIGRATION_PROXIES.tsv` · `KB-MIG-09` |
 
+### 10/14 — VERIFIED THIS PASS (session 32b, owed-work pass) — pulled from the issuing primary 2026-10-14
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **AZ statewide active listings** | **29,571, +6.72% YoY**; Jul 28,572 −1.78% reproduces | Sep 2026 | Realtor.com econdata S3 State_History | `VX-MARCO-AZ-01` · `KB-AZ-02` |
+| **NV percentage-fee collections** | FY27-YTD **−1.31%** ($256.76M); **July RESTATED −6.99% → −2.31%** (first print $81,647,636 → $85,754,051) | Jul–Sep 2026 collections | NV GCB mrr PDFs (www host) | `VX-MARCO-TAX-01` · `KB-NV-05` |
+| **E-Verify status** | operational (10/1 + 10/6/2026 notices); **offline 2025-10-01 ~1 week** (secondary) | Oct 2026 | e-verify.gov What's New (WebFetch) | `VX-MARCO-ENF-01` · `KB-WFD-18` |
+| **Mexico remittances by Mexican state** | H1-26 $30,778.9M +3.14% (= CE81 Jan–Jun sum); 30 prior quarters unchanged | Q2 2026 | Banxico CE100 | `KB-REM-10` |
+| **Implied US-state 2025 remittances** | **RESTATED** AZ −5.30 / TX −5.02 / MI −4.95 / CA −2.91 (4/21 vintage −6.1 / −5.8 / −5.6 / −3.5) — modeled, fixed weights | CY2025 vs 2024 | `banxico_reverse.py` | `BANXICO_STATE_REVERSE.md` addendum |
+| **US–Canada air seats** | winter 25-26 **13.40M vs 15.06M (−11.03%)**; FL 2.96M vs 3.59M (−17.67%); holes filled Jun/Jul-26 | Nov-25–Mar-26; thru Jul 2026 | BTS T-100 Intl Segment FJE | `TOUR-03` · `KB-IVF-44` |
+
 ## 4. RETRACTED — and what the accurate number is instead
 
 **This is the section that matters most for "are we documenting the real numbers."**

@@ -77,13 +77,31 @@
 - **Action:** decide the convention, then add a duplicate-ID + column-count check to the boot sweep (the `predictions_due.py` `PRED_SCHEMA_WARNINGS` pattern ports directly).
 - **Effort:** small.
 
-### 🟡 T2-E · Banxico + slaughter fetchers still cadence-skip on **mtime** — PARTLY DONE (checked 2026-09-24)
+### ✅ T2-E · Banxico + slaughter fetchers still cadence-skip on **mtime** — DONE 2026-10-14 (s32)
+*(DONE: `slaughter_pull.py` now MERGES by week_ending, refuses to shrink, and leaves the file byte-identical when nothing is new — `--selftest` proves A–G offline incl. the guard observed refusing a row-dropping merge; live run 10/14 fetched 103 weeks, file unchanged. `boot.py` gates both on CONTENT: `slaughter_vintage` (newest week_ending in the data vs the expected Saturday) and `banxico_state_vintage` (newest quarter label in the header vs quarter-end + 32 days). **The CE100 gate immediately found Q2-2026 never pulled** — the 85-day mtime cadence had printed 'current' since August. Still missing: slaughter w/e 2026-09-26 (esmis archive 404s; not invented).)*
 *(s30 check of `boot.py FETCHERS`: the **CE81 monthly** row (the SDL-01 tell — the one that matters) got a content-vintage gate on 9/19 (s27). Still on mtime: **CE100 state map** (quarterly, 85d) and **slaughter weekly** (6d). Remaining work = those two `vintage_fn`s.)*
 - **What:** session 19 moved the H-2A fetcher to a **content-vintage** gate (`h2a_vintage()` reads `fy=`/`through_q=` out of the TSV header and compares against the quarter DOL should have published). The other two entries in `boot.py FETCHERS` still gate on `file_age_days()` — raw mtime.
 - **Why it matters:** root CLAUDE.md Data Hygiene is explicit that **mtime is restamped by git sync**, so an mtime cadence fails **FALSE-NEGATIVE** (it thinks a file is fresh because another machine's pull touched it) — [[finding_mtime_is_corrupted_by_git_sync]]. Under serial multi-machine operation MARCO pulls constantly, so both remaining fetchers can silently skip when they should run. Lower severity than H-2A was: Banxico's output carries its own dated rows and slaughter is a 6-day cadence, so drift is visible sooner.
 - **Action:** give `banxico_reverse.py` and `slaughter_pull.py` outputs a `# … pulled=YYYY-MM-DD | latest_period=…` header line like the rebuilt H-2A TSV, then wire a `vintage_fn` for each. The `FETCHERS` tuple already carries the optional 6th slot — no structural change needed.
 - **Effort:** small-medium (two tools + two gate functions).
 - 🔴 **NEW 2026-10-10 — `slaughter_pull.py` REWRITES THE WHOLE BASELINE from only the rows one run fetches.** A live run on 10/10 dropped the 2026-09-12 and 2026-09-19 rows (the esmis archive pages 404'd for recent weeks; the live file yields only current/prior/year-ago) — exit 0, well-formed file. Restored by hand from HEAD the same session. Same class as the BTS writer defect (charter airport block item 2). **Fix:** merge-by-`week_ending` (keep rows the run did not fetch) and refuse to shrink the row set; test the neighbour (a run that fetches nothing new must leave the file byte-identical). The raid week w/e 2026-09-26 is still missing.
+
+### T2-J · `VX-MARCO-AZ-01` band is YoY-only and the 2025 build sits in its base (NEW — 2026-10-14)
+- **What:** AZ listings ran +18..+36% YoY through 2025; Sep-26 grades NORMAL at +6.72% YoY while the 2-yr stack is +35.07%. Same base-effect shape guarded on TOUR-01 / SDL-01.
+- **Action:** decide a forward basis (2-yr stack re-banded, or YoY kept with a 2-yr guard line) BEFORE the Oct-2026 print (~early Nov); score only out-of-sample. Not re-graded post hoc.
+- **Effort:** small.
+
+### T2-K · BTS T-100 DOMESTIC Segment seats can size the Spirit capacity hole (NEW — 2026-10-14)
+- **What:** charter airport block item 7 says FL capacity replacement is UNSIZED. The FJE route (International Segment) works by scripted POST; the Domestic Segment table carries SEATS by carrier/airport the same way. Seats would separate supply from demand at MCO/FLL.
+- **Action:** probe the domestic table with the same recipe (`domain/sources/TOURISM/2026-10-14_TOUR03_BTS_FJE_seats.md`); hole-check. **Effort:** medium.
+
+### T2-L · tsvutil re-quotes `sub_agents/TOURISM/workbook/PREDICTIONS.tsv` (NEW — 2026-10-14)
+- **What:** a `write_tsv` round-trip of that ledger wrapped TOUR-01's notes cell in quotes and doubled its inner quotes (unquoted field with literal `"`) — same class as the 8/21 VX quote-doubling. Caught by diff (2 lines changed for a 1-row edit); restored and redone as a raw line edit. The ledger is NOT in `tsvutil_selftest.py` LEDGERS, so invariant C never saw it.
+- **Action:** normalize the file once (deliberate commit), then add it to LEDGERS. Until then edit it raw, never via `write_tsv`. **Effort:** small.
+
+### T2-M · `banxico_reverse.py` rewrites both baselines from a full-range pull with no shrink guard (NEW — 2026-10-14)
+- **What:** 10/14 run verified clean by hand (30 → 31 quarters, 0 revised cells), but nothing in the tool refuses a short response. Same writer class as T2-E / the BTS defect.
+- **Action:** refuse to write if quarters or states shrink vs the file on disk. **Effort:** small.
 
 ### ✅ T2-D · docket duplicate rows + stale premises — DONE 2026-07-31
 *(Found at boot: `catalyst_countdown.py` printed 11 due-events for 8 real ones. `CATALYSTS.tsv` held **3 duplicate event pairs** — Banxico 8/1, BLS NFP 8/8, NTTO 8/15 — created 7/25 when 7 new rows were appended without a merge check against the existing 9, in a **second priority vocabulary** (HIGH/MEDIUM/LOW vs the established emoji). Merging surfaced 3 stale premises that had survived their own corrections: the Aug-8 row still instructed a reader to run the **v2.7 wage-instrument confirm test that v2.8 falsified**; MAR-24 was carried at **45%** against a canonical **60%** (45% is MAR-14's number); the ICE row still cited the **retracted "2.2M"**. All merged/corrected, priority normalized, 16→13 rows, CALENDAR twin reconciled (it had NO duplicates — the machine feed was the broken surface, not the prose twin). **Class lesson: an append-only docket edit needs a dedup pass against existing rows, and a `date+event` uniqueness check is one line — built into `catalyst_countdown.py` by `572cad695` (2026-07-31).*)

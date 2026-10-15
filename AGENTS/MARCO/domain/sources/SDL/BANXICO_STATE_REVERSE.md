@@ -8,6 +8,16 @@
 
 ---
 
+## ⚠️ 2026-10-14 ADDENDUM (MARCO s32) — H1-2026 run; the US-state map is RETIRED as a spatial test; 2025 figures RESTATED
+
+- **Data:** CE100 now through **Abr-Jun 2026** (Q2 had never been pulled — boot's 85-day mtime gate masked it; fixed, MAINTENANCE T2-E). 30 earlier quarters unchanged on re-pull.
+- **Measured (Mexican state, $):** H1-2026 **$30,778.9M, +3.14% YoY** (Q1 +2.22%, Q2 +4.00%), −2.02% vs H1-2024; CE81 Jan–Jun sums to the same total. Cross-state YoY sd **5.72pp**, 10 of 32 negative (Estado de México −4.49% … Ciudad de México +27.36%). No Q1-2026 "tax pothole" in dollars (Q4-25 −1.25% → Q1-26 +2.22%).
+- **Modeled (US state, fixed 2018–22 weights):** all 19 states **+2.50% to +4.23%** YoY (sd **0.40pp**); 2-yr AZ −4.34% lowest, TX −3.39%, NY −0.79% highest (sd 0.73). **The fixed-weight reverse-map attenuates the measured cross-state dispersion by ~93% — it cannot show a "concentrated drop in high-enforcement states" even if one exists.** Retired as an SDL-01 spatial-confirmation test; the Mexican-state measured series stays as context. (The docket's "high-ICE-enforcement states" set was also never pre-specified.)
+- **RESTATED 2025-vs-2024 (revised Banxico data):** AZ **−5.30%** / TX **−5.02%** / MI **−4.95%** / CA **−2.91%** — the VERDICT table below (AZ −6.1 / TX −5.8 / MI −5.6 / CA −3.5) is the 4/21 vintage. Rank order intact.
+- ⚠️ CE100 is **dollar value**; SDL-01's count tell exists only nationally (CE81). `KB-MARCO-REM-10`.
+
+---
+
 ## VERDICT
 
 **Three US states with sharpest implied sender decline 2024 → 2025:**

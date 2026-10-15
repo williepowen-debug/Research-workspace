@@ -83,13 +83,13 @@ FETCHERS = [
     # owed MONTHLY print went unflagged: a check that was correct about its own
     # referent and silent about the thing that mattered.
     ("Banxico state map (CE100, quarterly)", TOOLS / "banxico_reverse.py",
-     BASELINES / "banxico_destination_states.tsv", 85, 120, None),
+     BASELINES / "banxico_destination_states.tsv", 85, 120, lambda p: banxico_state_vintage(p)),
     ("Banxico CE81 monthly (SDL-01 tell)", TOOLS / "banxico_monthly.py",
      BASELINES / "banxico_monthly.tsv",            35, 120, lambda p: banxico_monthly_vintage(p)),
     ("H-2A disclosure",     TOOLS / "h2a_pull.py",
      BASELINES / "h2a_latest.tsv",                 85, 180, lambda p: h2a_vintage(p)),
     ("Slaughter weekly",    TOOLS / "slaughter_pull.py",
-     BASELINES / "slaughter_weekly.tsv",            6, 90, None),
+     BASELINES / "slaughter_weekly.tsv",            6, 90, lambda p: slaughter_vintage(p)),
 ]
 
 
@@ -184,6 +184,68 @@ def h2a_vintage(path):
     if age is not None and age < 1:
         return False, f"FY{fy} Q{q}, re-checked <1d ago"
     return True, f"holds FY{fy} Q{q}, re-checking"
+
+
+_ES_Q = {"Ene-Mar": 1, "Abr-Jun": 2, "Jul-Sep": 3, "Oct-Dic": 4}
+
+
+def expected_banxico_quarter(today=None):
+    """Newest CE100 quarter Banxico should have published by `today` (quarter end + 32 days)."""
+    today = today or date.today()
+    best = None
+    for y in (today.year - 1, today.year):
+        for q, (m, d) in {1: (3, 31), 2: (6, 30), 3: (9, 30), 4: (12, 31)}.items():
+            if date(y, m, d) + timedelta(days=32) <= today:
+                best = max(best, (y, q)) if best else (y, q)
+    return best
+
+
+def banxico_state_vintage(path):
+    """Fetch the CE100 state map when Banxico should have a NEWER QUARTER than the file's newest column.
+
+    Why not mtime (fixed 2026-10-14, MAINTENANCE T2-E): the 85-day mtime cadence printed
+    'current (81d < 85d)' on 10/14 while the file held only Ene-Mar 2026 — Q2 2026 had been
+    published since ~Aug and was never pulled. The quarter labels in the header ARE the vintage.
+    """
+    if not path.exists():
+        return True, "output missing"
+    head = path.read_text(errors="replace").split("\n", 1)[0].split("\t")
+    m = re.match(r"(Ene-Mar|Abr-Jun|Jul-Sep|Oct-Dic) (\d{4})$", head[-1].strip())
+    if not m:
+        return True, f"newest column label {head[-1]!r} unparseable"
+    have = (int(m.group(2)), _ES_Q[m.group(1)])
+    exp = expected_banxico_quarter()
+    if exp and have < exp:
+        return True, f"holds {have[0]} Q{have[1]}, Banxico should have {exp[0]} Q{exp[1]}"
+    return False, f"holds {have[0]} Q{have[1]} = newest expected"
+
+
+def expected_slaughter_week(today=None):
+    """Newest week-ending (Saturday) AMS should have by `today`: the live SJ_LS712 carries the
+    current week's estimate by that Saturday (observed 2026-10-10), so allow one day."""
+    today = today or date.today()
+    d = today - timedelta(days=1)
+    return d - timedelta(days=(d.weekday() - 5) % 7)
+
+
+def slaughter_vintage(path):
+    """Fetch weekly slaughter when the newest week_ending IN THE DATA is older than expected.
+
+    Why not mtime (fixed 2026-10-14, T2-E): git sync restamps mtime, and since s32 the tool
+    leaves the file byte-identical when nothing is new — so mtime cannot even mark a check.
+    No <1d throttle either: the pull is ~5s and a throttle would need mtime.
+    """
+    if not path.exists():
+        return True, "output missing"
+    weeks = [ln.split("\t", 1)[0] for ln in path.read_text(errors="replace").split("\n")[1:] if ln.strip()]
+    try:
+        have = max(date.fromisoformat(w) for w in weeks)
+    except ValueError:
+        return True, "no parseable week_ending"
+    exp = expected_slaughter_week()
+    if have < exp:
+        return True, f"holds w/e {have}, AMS should have w/e {exp}"
+    return False, f"holds w/e {have} = newest expected"
 
 
 def file_age_days(path):
