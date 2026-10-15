@@ -1,3 +1,4 @@
 receipt_date	correction_id	action	note
 2026-09-11T14:48Z	COR-20260908-01	APPLIED	
 2026-09-11T14:48Z	COR-20260910-01	NO-OP	
+2026-10-15T00:16Z	COR-20261012-25	NO-OP	scope=NEXUS never cited the DR1 FHA aggregation (100.7bp weighted, 79pct attribution, 191bp shortfall) on any live surface - grep of AGENTS/NEXUS finds only unrelated 8/28 FHA process-break notes - nothing to apply; 
