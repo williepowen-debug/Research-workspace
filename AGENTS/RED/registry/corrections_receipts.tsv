@@ -40,3 +40,4 @@ receipt_date	correction_id	action	note
 2026-10-15T00:16Z	COR-20261012-31	NO-OP	scope=RED carries no Tsentr or Russian exercise-absence premise - grep negative 2026-10-14; 
 2026-10-15T00:16Z	COR-20261013-16	NO-OP	scope=RED carries no TGA level - grep negative 2026-10-14; 
 2026-10-15T00:16Z	COR-20261014-10	NO-OP	scope=RED carries no Ornn token-price figure - grep negative 2026-10-14; 
+2026-10-15T01:08Z	COR-20261014-23	NO-OP	scope=RED is the source of the corrected figures - FT-08 FIRED and CHG-028 Sept leg NOT MET already carried on RED registry and reports since b79c04c9a; 
