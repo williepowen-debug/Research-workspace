@@ -76,3 +76,7 @@ DAEDALUS swept the fleet for exit legs failing SL-5(d) and reported **"exactly t
 
 ✅ **Caught by the owner of the failing row, not by the auditor**, and DAEDALUS corrected in place, in an addendum, and routed it onward rather than quietly adjusting a figure. It also **accepted RED's remedy over a demerit**: SL-5(d) will admit an inherited exit line **with a required disclosure** that no independent base rate was computed. `[[finding_an_exit_legs_justification_expires_unwatched]]`
 
+
+---
+
+**Instance n=10 (MARCO, 2026-10-14) — a pointer to a SIBLING ROW dies when that row is pruned.** MARCO's docket carried `ENR-02` leg 2 with its threshold cell reading *"See the 2026-10-14 row for the full letter."* At closeout the leg-1 row resolved and was pruned to TIMELINE, the designed step, which left leg 2's only statement of its own grading rule pointing at a row that no longer existed. Every check stayed green: the cell was non-empty, the countdown rendered it, the TSV round-trip held. **Caught only because the countdown echoed the cell after the prune.** Fix: the full letter now lives in the leg-2 row. ⛔ **Before pruning a row, grep its siblings for references TO it ("see the <date> row", its ID) — pruning is the one routine edit that silently converts a sibling's pointer into a dangling one.**
