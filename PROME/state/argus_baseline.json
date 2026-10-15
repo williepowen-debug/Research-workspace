@@ -1,18 +1,18 @@
 {
- "_doc": "L336 condition A1 — the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
- "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
- "sha": "ede16ce723c7d1ec5f8ef8dca36f81d0da26daec",
- "subject": "PROME: Standard closeout 2026-10-15 — crash recovery, twelve sessions closed, three rulings",
- "recorded_at": "2026-10-15T09:30:32-04:00",
- "recorded_by": "PROME",
- "delivery_receipt": {
-  "closeout": "2026-10-15 morning Standard (prome-73, crash recovery, machine switch laptop → desktop)",
-  "closeout_commit": "ede16ce72",
-  "commit_check": "intent ↔ commit: 20 path(s) match exactly (rc 0)",
-  "verify_review": "ARGUS-REVIEW ✅ UNCHANGED — 341 path(s) in HEAD byte-identical to the frozen candidate (verdict REVIEWED, recorded 2026-10-15T13:29:30+00:00)",
-  "push": "Pushed. CONFIRMED: HEAD ede16ce72 is on origin/master (fresh fetch).",
-  "hosted_publication": "DEFERRED — the in-session view of the Helm and Deck pages was not taken (≈130k tokens of HTML); renders committed in ede16ce72; the next sitting views and republishes. Last hosted: Deck 23:48 ET and Helm 23:51 ET 10/14 (ORCH_LOG PUBLISH rows).",
-  "argus_run": "run 1: ❌9 ⚠️10 ✅38 / 57; 9 applied, 10 residue (reports/2026-10-15_crash-recovery-closeout.md)",
-  "written_by": "PROME prome-73 at step 12, replacing the 10/14 receipt the auditor flagged as stale beside the new sha"
- }
+  "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
+  "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
+  "sha": "5726a5b77d3643947df69e9f8b0c795b884bf296",
+  "subject": "PROME: memory index \u2014 RED's header-edit n=6 row rides out (carve-out \u2462; file committed 1cb040c73)",
+  "recorded_at": "2026-10-15T13:20:44-04:00",
+  "recorded_by": "PROME",
+  "delivery_receipt": {
+    "closeout": "2026-10-15 morning Standard (prome-73, crash recovery, machine switch laptop \u2192 desktop)",
+    "closeout_commit": "ede16ce72",
+    "commit_check": "intent \u2194 commit: 20 path(s) match exactly (rc 0)",
+    "verify_review": "ARGUS-REVIEW \u2705 UNCHANGED \u2014 341 path(s) in HEAD byte-identical to the frozen candidate (verdict REVIEWED, recorded 2026-10-15T13:29:30+00:00)",
+    "push": "Pushed. CONFIRMED: HEAD ede16ce72 is on origin/master (fresh fetch).",
+    "hosted_publication": "DEFERRED \u2014 the in-session view of the Helm and Deck pages was not taken (\u2248130k tokens of HTML); renders committed in ede16ce72; the next sitting views and republishes. Last hosted: Deck 23:48 ET and Helm 23:51 ET 10/14 (ORCH_LOG PUBLISH rows).",
+    "argus_run": "run 1: \u274c9 \u26a0\ufe0f10 \u270538 / 57; 9 applied, 10 residue (reports/2026-10-15_crash-recovery-closeout.md)",
+    "written_by": "PROME prome-73 at step 12, replacing the 10/14 receipt the auditor flagged as stale beside the new sha"
+  }
 }
