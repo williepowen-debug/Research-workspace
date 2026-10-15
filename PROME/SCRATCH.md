@@ -26,7 +26,7 @@
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-14 · 25 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-187 (10/9) · WQ-413 (10/12) · WQ-411 (10/12) · WQ-404 (10/14) · WQ-401 (10/14) · WQ-394 (10/14) · WQ-357 (10/14) · WQ-314 (10/14) · WQ-302 (10/14) · WQ-375 (10/15) · WQ-410 (10/16) · WQ-365 (10/16) · WQ-364 (10/16) · WQ-388 (10/17) · WQ-425 (10/19) · WQ-412 (10/20) · WQ-422 (10/23) · WQ-403 (10/23) · WQ-273 (10/25) · WQ-421 (10/29) · WQ-31 (11/1) · WQ-274 (before trading…) · ⛔ WQ-424 (10/23) · ⛔ WQ-423 (10/23)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-14 · 24 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-187 (10/9) · WQ-413 (10/12) · WQ-411 (10/12) · WQ-404 (10/14) · WQ-401 (10/14) · WQ-394 (10/14) · WQ-357 (10/14) · WQ-314 (10/14) · WQ-302 (10/14) · WQ-375 (10/15) · WQ-410 (10/16) · WQ-365 (10/16) · WQ-364 (10/16) · WQ-388 (10/17) · WQ-412 (10/20) · WQ-422 (10/23) · WQ-403 (10/23) · WQ-273 (10/25) · WQ-421 (10/29) · WQ-31 (11/1) · WQ-274 (before trading…) · ⛔ WQ-424 (10/23) · ⛔ WQ-423 (10/23)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
