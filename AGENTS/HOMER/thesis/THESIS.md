@@ -169,3 +169,26 @@ How this rail's legs map into CARL's convergence matrix. **CARL scores; HOMER fe
 | C1 (REO, FL) | V7 / V10 citations | CARL refreshes its own cells | CARL's 10/01 answer names ATTOM H1 REO 27,983 (+33% YoY) and Aug REO +42% YoY as the citations it will carry; its 10/12 review cites Aug REO +42% for V10. **Florida statewide figures come from CORAL, never from HOMER** |
 
 **Double-count guard:** one HOMER fact feeds one CARL vector. A fact that bears on two vectors (A1 → V10 and V8) is counted at V10; V8 is CARL's own reading of it.
+
+---
+
+## 9. Fired-count ledger between grades (mechanical, per §4 "fired counts update at each print"; no criterion touched)
+
+### 2026-10-15 — L722 catch-up (first prints integrated since 10/02)
+
+| Leg | Print(s) integrated (first-published vintage, V1) | Fired count | Verdict | Cleanest-flip check (§3) |
+|---|---|---|---|---|
+| **C1** | none — ICE September First Look not out (URL 404 10/15 11:16 ET; ~10/22–28) | **0 / 3** | NOT FIRED | pending |
+| **C2 · CMBS** | Trepp **8.04% Sep** (+35bp; pub 10/02, PDF Table 2) | **0 / 3** | NOT FIRED | ★ **"for" flip MET: > 7.71%, a new 2026 high** |
+| **C2 · GSE** | none — Sept Fannie/Freddie due ~10/23–30 | **0 / 3** | NOT FIRED | pending |
+| **A1** | ICE Mortgage Monitor Oct (Aug data): all-loans cure **YoY % NOT PRINTED** (level 7.8%; FHA −37% YoY). MBA Q3 NDS ~mid-Nov | **½ of the first conjunct** (unchanged) | NOT FIRED | second conjunct (cure YoY better than −15%) not met on any reading — the chart-derived −25 to −29% is INFERRED and not used to grade |
+| **A2** | PMMS **7.40% [10/08]** · **7.40% [10/15]** (unchanged) | **0 / 4** | NOT FIRED | 90bps above the kill line (≤ 6.50%) |
+| **A3** | none — NAHB October HMI scheduled Mon 10/19 (archived NAHB schedule) | **0 / 3** | NOT FIRED | pending (Sep HMI 32, cutters 38%) |
+
+**LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** §7 V5 unchanged: 11/20 cannot return FALSIFIED or PARTIAL on the core legs.
+
+**§8a handle:** C2's upgrade trigger (→ 5) is **MET** by the Trepp 8.04% print. **Not re-scored today** — §8a re-scores at the formal grade (2026-11-20); the trigger is recorded here so 11/20 reads it. Composite stays **19/25** until then.
+
+**Instrument note (C2 neighbourhood, not a C2 criterion):** the Trepp **MF maturity-adjusted** rate is RETIRED (dated kill EXECUTED 2026-10-15, absent at source Jul–Sep); C2 never graded on it. Its successor for the pre-delinquency channel is MF special servicing (8.54% Sep, +17bp).
+
+**HOMER defect (V2):** the September Trepp print and PMMS 10/08 were integrated ~2 weeks / 1 week late (the 10/14–15 crash). Under V2 a print HOMER failed to fetch PAUSES a run; no run was in progress, so no count is affected.
