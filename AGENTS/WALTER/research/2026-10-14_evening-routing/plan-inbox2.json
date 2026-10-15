@@ -1,0 +1,74 @@
+[
+  {
+    "id": "SIG-W-20261014-028",
+    "slug": "LATE-cruise-capital-events-nclh-950m-8point75-notes-repay-revolver-rcl-3b-sandals-stake-morgan-stanley-syndicating-loan",
+    "title": "LATE (missed by the lane): NCLH priced $950M of 8.750% 2031 notes on September 30 to repay a revolver; RCL is buying 50% of Sandals for ~$3B on Morgan Stanley debt, which Morgan Stanley is syndicating",
+    "origin": ["CRUISE owner return 2026-10-14 (KB-CRU-145, -147, -149; cfdafcb9b)", "NCL Corporation press releases September 30 (07:39 and 18:12 ET)", "RCL 8-K Item 8.01 (acc 0001104659-26-109755), announced September 23", "Bloomberg October 7 (loan syndication)"],
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": ["NCLH", "NCL-Corporation", "RCL", "Royal-Caribbean", "Sandals-Resorts", "Morgan-Stanley"],
+    "precedence": "ROUTINE",
+    "action": [],
+    "info": ["CRUISE", "CARL", "LIQUID", "TERRY", "PROME"],
+    "confidence": 0.9,
+    "confidence_language": "confirmed at issuer primaries (CRUISE-read)",
+    "signal_type": "research",
+    "dispatch_note": "Late catch-up. Under ROUTING_CARVEOUTS 'Sector-name routing — CRUISE', ticker debt/refi is CRUISE ACTION; these never reached WALTER's worklist because the lane delivers cruise-operator headlines as class KNOWN (061a753, 9/25), which creates no intake record by design and assumes a live CRUISE reader. CRUISE was dark 10/03-10/14 and found them itself (KB-CRU-149). CRUISE is now info, since it owns and has graded both. Disposition and a proposed fix go to CRUISE and PROME by packet.",
+    "body": "Two capital-structure events on CRUISE's names that the fleet board never carried. 1) NCLH: its subsidiary NCL Corporation priced $950.0M of 8.750% senior notes due 2031 on September 30 (18:12 ET), upsized from $750.0M announced at 07:39 ET; private offering, closing expected October 15. Use of proceeds with cash: redeem all 6.125% notes due 2028 (NCL Finance), repay about $376.3M of the senior secured revolver (the whole $200M upsize went there), prepay about $42.2M of export-credit borrowings. This is the 'transactions separately announced' line in the NCLH 9/30 8-K already routed as SIG-W-20261001-028; CRUISE corrected its own 10/2 read that NCLH 'did not issue in-window' (KB-CRU-146). CRUISE's corrected interest arithmetic: the 2027 net-interest guide of $860-880M is +22.0% to +24.8% on a FY26 base of about $705M. 2) RCL: agreement announced September 23 (8-K Item 8.01) to buy a 50% equity interest in Sandals and Beaches Resorts for about $3B, 'a forward EBITDA multiple of approximately 10x', funded by 'committed debt financing from Morgan Stanley', close expected early 2027, 'expected to be accretive to earnings next year'; secured or unsecured not stated. Bloomberg (October 7) reports Morgan Stanley selling pieces of the $3B loan. RCL fell 6.14% on September 22, when the FT broke the deal, vs CCL -0.13% (CRUISE's adjusted-close pull). Caveat: the notes' and the loan's secondary-market pricing is not observed here; RCL's Q3 call is October 27.",
+    "sources": ["AGENTS/CRUISE/workbook/KB.tsv rows KB-CRU-145, -146, -147, -149 (CRUISE, 2026-10-14)", "NCL Corporation press releases, September 30 2026 (as read by CRUISE)", "RCL Form 8-K Item 8.01, acc 0001104659-26-109755, Ex-99.1", "Bloomberg, October 7 2026 (headline via the RESEARCH-INTAKE collector)", "AGENTS/WALTER/inbox/processed/2026-10-14_from-CRUISE_two-cruise-capital-events-reached-the-collector-routed-to-CRUISE-and-no-SIG-W.md"],
+    "ask": "Information only; no recipient-directed task.",
+    "why": {
+      "CRUISE": "Your own finding, now on the board; you already own and graded both.",
+      "CARL": "Info line on CRUISE's carve-out.",
+      "LIQUID": "A $3B leveraged loan being syndicated and a high-yield refinancing are credit-market observations."
+    }
+  },
+  {
+    "id": "SIG-W-20261014-029",
+    "slug": "otto-august-subprime-auto-abs-panel-9-of-9-worse-yoy-carvana-blast-gap-widens-on-level-move",
+    "title": "OTTO: August subprime-auto ABS panel is 9 of 9 worse year on year (39 of 39 since April); narrowing paused; Carvana-collateral gap widened on a one-month level move",
+    "origin": ["OTTO owner signal SIG-OTTO-WALTER-20261014-001 (2026-10-15T00:40Z)", "SEC 10-D Ex-99.1, August 2026 collection month (EART filed 9/29; SDART/BLAST 9/15), OTTO PANEL_10D.tsv"],
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": ["OTTO", "SDART", "EART", "BLAST", "Carvana", "CVNA", "Bridgecrest"],
+    "precedence": "PRIORITY",
+    "action": [],
+    "info": ["CARL", "NEXUS", "TERRY", "PROME"],
+    "confidence": 0.95,
+    "confidence_language": "owner-measured at SEC 10-D",
+    "signal_type": "research",
+    "dispatch_note": "Owner-return relay at OTTO's request (to: WALTER ACTION; routing suggestion CARL/NEXUS/TERRY/PROME). CARL already holds OTTO's direct packet with full detail and grades the seasoning-matched control.",
+    "body": "OTTO's fixed panel of 9 named subprime-auto ABS deals now includes the August 2026 collection month: 9 of 9 are worse year on year in 60+ day delinquency (39 of 39 deal-months since April). Mean year-on-year gap by tier, May / June / July / August: BROAD (3 SDART deals) +1.92 / +1.63 / +1.00 / +1.09pp; DEEP (4 EART) +2.29 / +1.85 / +1.21 / +1.30pp (seasonal: the August-2025 base also rose +0.56pp); CARVANA (2 BLAST) +1.62 / +2.68 / +1.73 / +3.17pp, on a level move: BLAST 2023-1 14.80% to 15.82% and BLAST 2024-1 15.30% to 16.48% in one month while the 2025 base fell. Caveats that travel: a fixed panel of 9 deals, not a market index; same-deal year-on-year includes 12 months of pool aging (CARL grades the seasoning-matched control, one SDART pair, n=4 months); OTTO's pre-committed 'turn' definition is not met and one month of widening is not a trend; the Carvana figures are securitized Bridgecrest collateral at ~16% 60+ DQ against a 50% deal trigger, not a Carvana corporate disclosure (Carvana reports Q3 on October 28). Deep-subprime recoveries stay under OTTO's 28% line on 3 of 4 deals (25.17 / 24.58 / 24.79 / 29.78%), a level update to the September 2 firing (SIG-W-20260903-007), not a new fire.",
+    "sources": ["AGENTS/WALTER/inbox/processed/SIG-OTTO-WALTER-20261014-001-panel-august-39of39-worse-carvana-gap-widens-on-a-level-move.md", "AGENTS/OTTO/workbook/PANEL_10D.tsv (SEC 10-D Ex-99.1, backfilled 2026-10-14); OTTO ML-OTTO-292"],
+    "ask": "Information only; no recipient-directed task.",
+    "why": {
+      "CARL": "V2 / CRL-29 owner; OTTO's direct packet in your inbox has the full detail.",
+      "NEXUS": "OTTO's routing suggestion; consumer-credit convergence.",
+      "TERRY": "Carvana reports October 28 (BOARD ID-diff)."
+    }
+  },
+  {
+    "id": "SIG-W-20261014-030",
+    "slug": "otto-tricolor-criminal-bill-of-particulars-charges-all-11-tast-deals-since-2018-not-7",
+    "title": "OTTO: the Tricolor criminal case charges every Tricolor securitization since 2018 (11 deals), not only the 7 outstanding at bankruptcy; widens the alleged duration, not the loss",
+    "origin": ["OTTO owner signal SIG-OTTO-WALTER-20261014-002 (2026-10-15T00:43Z)", "US v. Chu, S1 25 Cr. 579 (PKC), SDNY, ECF 149 (Bill of Particulars, filed 2026-08-28)"],
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "BANK_COLLATERAL",
+    "entities": ["Tricolor", "TAST", "US-v-Chu", "SDNY", "SPV4"],
+    "precedence": "ROUTINE",
+    "action": [],
+    "info": ["CARL", "REGINALD", "BROCK", "PROME"],
+    "confidence": 0.9,
+    "confidence_language": "court filing (identity by caption)",
+    "signal_type": "research",
+    "dispatch_note": "Owner-return relay at OTTO's request (routing suggestion CARL/REGINALD/BROCK/PROME, info). Filing is dated 8/28; OTTO carried the list as unverified for 47 days on press-only searches.",
+    "body": "The government's Bill of Particulars for Counts 7-8 in US v. Chu (S1 25 Cr. 579 (PKC), SDNY, ECF 149, filed August 28, 2026) lists, verbatim, TAST 2018-1, 2018-2, 2020-1, 2021-1, 2022-1, 2023-1, 2024-1, 2024-2, 2024-3, 2025-1 and 2025-2, plus 'additional securities contemplated by the conspirators but never formed' (an August-2025 plan to move fraudulent collateral from the SPV4 warehouse into a future deal). So what: the SEC civil case covers the 7 deals still outstanding ($1.817B of notes); the criminal charge adds 4 older, already-repaid deals back to 2018. That widens the alleged duration of the ABS fraud, not the loss, because the repaid deals were paid. No new bank or counterparty is named, and the SPV4 warehouse lender is not identified in this filing. Caveats: identity rests on the document's caption, not a machine-readable court stamp; these are allegations in a pending case (trial January 25, 2027, Chu only); a suppression hearing on seized-device evidence was set for October 7 with no ruling seen.",
+    "sources": ["AGENTS/WALTER/inbox/processed/SIG-OTTO-WALTER-20261014-002-tricolor-criminal-counts-7-8-list-is-all-11-deals-since-2018.md", "AGENTS/OTTO/research/2026-10-14_tricolor_bill_of_particulars_dkt149.md; OTTO ML-OTTO-293"],
+    "ask": "Information only; no recipient-directed task.",
+    "why": {
+      "CARL": "Subprime-auto fraud chain owner.",
+      "REGINALD": "Bank exposure to the TAST deals and the unnamed SPV4 warehouse lender.",
+      "BROCK": "Private-credit/warehouse fraud pattern."
+    }
+  }
+]
