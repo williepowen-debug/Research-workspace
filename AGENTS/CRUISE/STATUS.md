@@ -1,6 +1,6 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-14 Wed 20:49 ET** (boot + catch-up session, Will-launched; desk dark 10/3 → 10/14). **Rotated 2026-10-14** under READ_CAP rule 5 (was 32,105 B, 99% of budget): the full prior STATUS — 9/19 carries, the 9/20 PM eight-correction block, the 9/29 print block and the 10/2 block — is verbatim at `domain/sources/STATUS_archive_2026-10-14_rotation.md`, under a correction banner that WINS over its body. Per-operator detail: `OPERATORS.md`. Wake set: `CADENCE.md`.*
+*Last updated: **2026-10-14 Wed 22:17 ET** (closeout of the 10/14 Will-launched session: boot + catch-up, Isaias port check, WQ-427 recorded, NCLH funding deep-dive, NCLH Q3 watchlist). Session opened 20:36 ET; desk was dark 10/3 → 10/14. **Rotated 2026-10-14** under READ_CAP rule 5 (was 32,105 B, 99% of budget): the full prior STATUS — 9/19 carries, the 9/20 PM eight-correction block, the 9/29 print block and the 10/2 block — is verbatim at `domain/sources/STATUS_archive_2026-10-14_rotation.md`, under a correction banner that WINS over its body. Per-operator detail: `OPERATORS.md`. Wake set: `CADENCE.md`.*
 
 > ## ⚖️ STATE — 2026-10-14 Wed, **BOOT + CATCH-UP.** $0, no trade, no Will-gated level moved.
 > | Item | Done | Receipt |
@@ -96,6 +96,8 @@
 
 ## BOTTOM LINE
 
-**Since 10/3 the cruise picture moved on capital, not demand.** Norwegian refinanced: on 9/30 it sold $950M of new five-year notes at 8.75% to retire 6.125% notes due 2028 and pay down its secured credit line — so its near-term cash cushion is **better** and its interest bill is **higher** (2027 interest guided ~22-25% above 2026). Royal Caribbean agreed to spend ~$3B of borrowed money on half of Sandals Resorts. ⚠️ **On 10/2 I told the fleet Norwegian had "not issued" and that its fragility "strengthened"; the first is wrong and the second is half the story — corrected to TERRY and PROME.**
+**Since 10/3 the cruise picture moved on borrowing, not demand.** Carnival's 9/29 beat killed the fuel channel on its own pre-registered rule, and **Will retired the Carnival put watch on 10/14 (WQ-427)**. Norwegian refinanced $950M at 8.75% on 9/30, and Royal Caribbean is borrowing ~$3B for half of Sandals. Hurricane Isaias cost the Big 3 nothing material.
 
-**Carnival's 9/29 beat killed the fuel channel on its own pre-registered rule; the elevated vectors are now Norwegian-specific weakness and the gap between strong and weak operators.** That gap is being tested by CRU-11 (Will-approved): Norwegian has to trail Royal Caribbean by 5 points by 11/14 — it is about 0.5 points behind today. Next real evidence: **Royal Caribbean's Q3 on 10/27.** Nothing here is a trade.
+**Norwegian is not near a cash crunch:** ~$1.5B of liquidity at 6/30 vs a $250M covenant floor. Its credit line springs due on **11/17** only if liquidity falls below $800M with $216M of 2027 convertibles still out, which is not expected. The real issues are **demand** (bookings "below optimal", deposits growing a third slower) and **cost of money** (2031 paper 5.875% → 8.75% in a year, about half from higher Treasury yields), with a ~$3.6B wall in 2030. **Next evidence: Royal Caribbean's Q3 on 10/27, then Norwegian's Q3** (date TBD; checklist in `WATCHLIST_NCLH_Q3.md`). CRU-11 needs Norwegian 5 points behind Royal Caribbean by 11/14; it is ~0.5 behind.
+
+⚠️ **Two of my own earlier figures were corrected this session:** the 10/2 "Norwegian did not issue" read (KB-CRU-146), and Carnival's stress-line reference, which was dividend-adjusted. On plain price, the 9/18 close was below the red line (KB-CRU-154). Neither involved a position. Nothing here is a trade.
