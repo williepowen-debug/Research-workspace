@@ -226,7 +226,14 @@ def build_credit():
         # Compare at 0.1bp: FRED publishes 0.01 pct, so rounding removes any float residue.
         b1 = round(bps, 1)
         X1_TAIL = "X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)"
-        if   b1 > 320: m, n = "🔴", f"HY >320 — CONFIRMATION rung TAGGED (letter: >320 SUSTAINED, counted on KILL_MEMO, not here); X1 level leg also tagged: {X1_TAIL}"
+        if   b1 > 320:
+            # WQ-444 RULED 2026-10-15 (Will, in session): ">320 sustained" = 3 consecutive published
+            # readings strictly >320.0, any <=320.0 resets, non-session rows bridge. This run is a
+            # WITNESS only: latest-revised rows, holiday rows NOT bridged, non-numeric rows skipped
+            # (M8). The first-published count in STATUS governs.
+            k = hy320_run(tr)
+            st = "MET-WITNESS" if k >= 3 else f"{k}-of-3"
+            m, n = "🔴", f"HY >320 — CONFIRMATION rung {st} (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: {X1_TAIL}"
         elif b1 > 300: m, n = "🔴", f"HY >300 — approaching the 320 confirmation ({320 - bps:.0f}bp); X1 level leg TAGGED (letter: >280 SUSTAINED): {X1_TAIL}"
         elif b1 > 280: m, n = "🔴", f"HY >280 (strict) — X1 level leg TAGGED, not met: the letter is >280 SUSTAINED, counted on KILL_MEMO, not by this label — {X1_TAIL}"
         elif b1 == 280: m, n = "🔴", "HY AT 280.0 — red zone (config ≥280) and RED-FT-01 counts it (≥280), but it never counts toward the X1 level leg (letter is strict >280 sustained)"
@@ -978,10 +985,27 @@ def watcher_echo():
           f"(obs {st.get('obs_date','?')}, checked {st.get('checked','?')}){flag}")
 
 
+def hy320_run(tr):
+    """Current run of FRED HY OAS rows strictly >320.0bp (newest-first floats, percent).
+    WQ-444 letter: 3 consecutive = sustained; a row at or below 320.0 ends the run."""
+    k = 0
+    for x in (tr or []):
+        if round(x * 100) > 320: k += 1
+        else: break
+    return k
+
+
 def selftest():
     """Validate the data files + fetch import (fail-loud parser test). Returns 0 pass / 1 fail."""
     ok = True
     print("  ✓ FORGE fetch.py import OK")   # module-load would have exited 2 otherwise
+    for lbl, got, exp in [("WQ-444 run: 325,316 → 1", hy320_run([3.25, 3.16, 3.24]), 1),
+                          ("WQ-444 run: exactly 320.0 does not count", hy320_run([3.20, 3.25]), 0),
+                          ("WQ-444 run: 321 counts (strict >320.0)", hy320_run([3.21, 3.22, 3.23, 3.10]), 3),
+                          ("WQ-444 run: empty → 0", hy320_run([]), 0)]:
+        if got != exp:
+            print(f"  ✗ {lbl}: got {got}"); ok = False
+    if ok: print("  ✓ WQ-444 >320 run counter (4 cases)")
 
     cat = LIQUID_DIR / "workbook" / "CATALYSTS.tsv"
     if not cat.exists():
