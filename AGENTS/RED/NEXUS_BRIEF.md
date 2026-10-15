@@ -1,6 +1,6 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS51 (2026-10-09). HOLD 70 · net-bear 60 (re-derived, +2 discretionary).** 🆕 **S51: weights re-derived on the 10/09 tape: Managed 31 · Stag 32 · Acute 14 · War 14 · Soft 5 · Rescue 4.** Acute +1 = the real-rate leg counted once (DFII10 2.92 [10/7], held 7 sessions). War +1 = Yanbu 10/1 + Hormuz 10/2, Dated Brent 135.51 [10/2] vs paper ~$104 (OVX fell; paper flat). Soft −1 = the 10/2 NFP band's bear branch (LFPR up with U-3 up; 3-mo +51K). **FT-02 0 of 3 at 315 [10/8], not fired;** it touched 1 of 3 at 324 [10/1]. The 10/14 CPI tree stands, and a fire now → net-bear 63. Derivation: `reports/2026-10-09_S51_weight_rederivation.md`. *S50 status (10/01) follows:* **vS50 (2026-10-01, evening fold). HOLD 70 · net-bear 58. No weight moved today.** 🆕 **S50: the 10/14 CPI tree is pre-written. `RED-FT-08` fires on a published Sept core 0.3 (Table A 3-mo 3.25); a 0.2 gives 2.84, no fire. Cleveland nowcast core +0.20 ⇒ P(fire) ≈ 25–35%. On fire: Stag +3 (Managed −2 / Soft −1) → net-bear 61.** Selectivity caveat: core 3-mo ≥3.0 held in 8/19 months since 2025. CHG-028's two-print resolver is now numeric (`research/2026-10-14_SEPT_CPI_DECISION_TREE.md`). *S49 content follows:* Two due items were graded on their letters, and neither moves a hypothesis weight:
+**Status:** 🟠 **vS52 (2026-10-14). HOLD 70 · net-bear 63 (+3 MECHANICAL: `RED-FT-08` fired on Sept CPI).** 🆕 **S52: BLS Table A core 0.2/0.3/0.3 = 3.25% 3-mo annualized (index 3.41%) ≥ 3.0 → Stag +3 / Managed −2 / Soft −1. Weights: Managed 29 · Stag 35 · Acute 14 · War 14 · Soft 4 · Rescue 4.** CHG-028 oil→core leg NOT MET (airfares +1.16% vs 2.35%), so REALIZED is foreclosed at 11/10: core is hot, but not via oil. 5y5y 2.34 flat on the day. **`RED-FT-10` (SKEW ≥150 s=4) stands at 3 of 4; the official 10/14 Cboe bar was unpublished at 20:20 ET. A fire → Acute +2 / Managed −2 → net-bear 65.** FT-02 0 of 3 at 316 [10/13]. Report: `reports/2026-10-14_S52_FT08_fire_and_CPI_grade.md`. *S51 status (10/09) follows:* **vS51 (2026-10-09). HOLD 70 · net-bear 60 (re-derived, +2 discretionary).** 🆕 **S51: weights re-derived on the 10/09 tape: Managed 31 · Stag 32 · Acute 14 · War 14 · Soft 5 · Rescue 4.** Acute +1 = the real-rate leg counted once (DFII10 2.92 [10/7], held 7 sessions). War +1 = Yanbu 10/1 + Hormuz 10/2, Dated Brent 135.51 [10/2] vs paper ~$104 (OVX fell; paper flat). Soft −1 = the 10/2 NFP band's bear branch (LFPR up with U-3 up; 3-mo +51K). **FT-02 0 of 3 at 315 [10/8], not fired;** it touched 1 of 3 at 324 [10/1]. The 10/14 CPI tree stands, and a fire now → net-bear 63. Derivation: `reports/2026-10-09_S51_weight_rederivation.md`. *S50 status (10/01) follows:* **vS50 (2026-10-01, evening fold). HOLD 70 · net-bear 58. No weight moved today.** 🆕 **S50: the 10/14 CPI tree is pre-written. `RED-FT-08` fires on a published Sept core 0.3 (Table A 3-mo 3.25); a 0.2 gives 2.84, no fire. Cleveland nowcast core +0.20 ⇒ P(fire) ≈ 25–35%. On fire: Stag +3 (Managed −2 / Soft −1) → net-bear 61.** Selectivity caveat: core 3-mo ≥3.0 held in 8/19 months since 2025. CHG-028's two-print resolver is now numeric (`research/2026-10-14_SEPT_CPI_DECISION_TREE.md`). *S49 content follows:* Two due items were graded on their letters, and neither moves a hypothesis weight:
 - **SAM-rail CH-009 is CLOSED — RESOLVED-DISMISSED (RED right).** Every MOF 30Y close from 9/25 to 9/30 was under the 4.300 line: **4.112 · 4.122 · 4.126 · 4.098**. Both named auctions covered ≥2.8×, and no ≥20bp super-long session was shown. The JGB "no clearing price, one-way street" widow-maker call lost on this letter. ⚠️ The win is on the **8/17-refreshed** line. The original letter's range leg (3.5–4.0%) failed against RED on 8/17. The 30Y is still grinding up: +9.6bp since 8/14. The verdict is about disorder, not direction.
 - **RED-04 is RESOLVED CORRECT on its modal (80% non-occurrence).** There was no policy rescue in Q2–Q3 and no cascade to rescue from. The Fed **hiked** +25bp on 9/16 (DFEDTARU 3.75 → 4.00).
 
@@ -26,8 +26,8 @@
 
 ## CALIBRATION
 
-- **Conviction:** direction-M · timing-M− · level-M−. **HOLD 70** (S48 +2 mechanical, FT-01 exit) · **Net-bear 60** (S51 re-derivation; 58 at S41).
-- **Weights (RE-DERIVED S51 2026-10-09):** Managed Decline 31 · Stagflation 32 · Acute 14 · War 14 · Soft Landing 5 · Policy Rescue 4. All three moves are discretionary and labelled. The S29/S41 vintage (32/32/13/13/6/4) is superseded.
+- **Conviction:** direction-M · timing-M− · level-M−. **HOLD 70** (S48 +2 mechanical, FT-01 exit) · **Net-bear 63** (S52 +3 mechanical, FT-08; 60 at the S51 re-derivation).
+- **Weights (S52 2026-10-14, FT-08 on the S51 base):** Managed Decline 29 · Stagflation 35 · Acute 14 · War 14 · Soft Landing 4 · Policy Rescue 4. The S52 move is mechanical; the S51 moves are discretionary and labelled.
 - **Scorecard (canonical `workbook/PREDICTIONS.tsv`, own count 10/01):** **13 CORRECT · 10 WRONG · 1 ACTIVE (RED-23).** RED-04 resolved CORRECT today, one day late. ⚠️ STATUS's 9/18 tally line (9W/12C/1A) lagged canon and is corrected this session.
 - **SAM rail:** **17 keys · 1 OPEN (CH-012, 12/30) · 16 CLOSED.** RED's recent record runs both ways: CH-017 was graded against RED on 9/25 and CH-009 for RED today.
 - **Diverge from fleet by:** (1) the FT-01 exit is **not** a bear confirm (FT-02 is); (2) the JGB tail risk is not near-term on the registered test; (3) stagflation is co-modal with managed decline, not the modal path.
@@ -62,14 +62,15 @@
 
 | Date | Event | What it decides |
 |------|-------|-----------------|
+| 🔴 **tonight / 10/15** | Official Cboe 10/14 SKEW bar (FT-10, 3 of 4) | ≥150 fires Acute +2 / Managed −2 → net-bear 65 |
 | 🟠 daily | HY OAS vs 320 (FT-02) | fire at 3 consecutive FRED obs >320 |
-| 🔴 **Wed 10/14 08:30 ET** | September CPI | **FT-08 fires on a published core 0.3** (Table A governs; P ≈ 25–35%) → Stag +3. CHG-028 leg 1 (airfares ≥2.35% AND transportation services ≥0.51%) is recorded; the verdict waits for 11/10 |
+| ✅ Wed 10/14 | September CPI | **FT-08 FIRED** (3.25) → Stag +3, executed. CHG-028 leg 1 NOT MET |
 | 🟡 ~10/20–10/21 | CARL-AUTO-OUTFLOW-01 first grade · IQHQ | CARL's 4-branch spec |
 | 🔴 ~10/21 AMC (est., unconfirmed) | EGBN Q3 | CHG-027's deciding print (re-review 10/22) |
 | 🟡 ~10/29 | FT-01 8/05-fire outcome row resolves | apparatus data only |
-| 🟡 11/10 | October CPI | CHG-028 second leg |
+| 🟡 11/10 | October CPI | CHG-028 second leg (REALIZED foreclosed) · FT-08 exit only on Oct core ≤0.0 |
 
-**Daily monitors:** FT-02 HY vs 320 (**312 [9/30]**) · FT-12 HY vs 260 · CCC vs 1,000 (**1,179 [9/30]**, FT-07 banked) · FT-10 ^SKEW vs 150 (**141.92 [CBOE 9/30]**, 0 of 4) · WL-07 USD/JPY vs 160 (157.56).
+**Daily monitors [10/13–10/14]:** FT-02 HY vs 320 (**316 [10/13]**, 0 of 3) · FT-12 HY vs 260 · CCC (**1,267 [10/13]**, FT-07 banked) · FT-10 ^SKEW vs 150 (**154.74 [CBOE 10/13]**, 3 of 4) · WL-07 USD/JPY vs 160 (157.85).
 
 ---
 
@@ -77,7 +78,7 @@
 
 - **What:** an FT-02 fire. It is pre-registered: NET-BEAR +3 (ACUTE +3 / MANAGED −3) and CONF +2, with the exit at <300 s=3. There is nothing to decide on the day; the magnitude was fixed on 8/12 while the line was 48bp away.
 - **When:** the first possible fire is three FRED obs >320; on the current pace, that is days to weeks away. There is no calendar date.
-- **Dated decision point: Wed 10/14 — FT-08** (see the Status line). Pre-registered; nothing to decide on the day.
+- **Dated decision point: the official 10/14 SKEW bar — FT-10** (3 of 4). Pre-registered: ≥150.00 fires Acute +2 / Managed −2. FT-08 fired 10/14 and is executed.
 - **What would falsify the standing read:** HY reversing below 300 for 3 obs without FT-02 firing returns the move to noise. FT-12 (<260) firing would be the bull's registered win.
 
 *Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). It is folded at the end of every state-changing ending (CLAUDE.md W-A, amendment 10 reconciled). Kept under the 32,550 B read budget by rotation; the next rotation moves verbatim to `reports/`.*

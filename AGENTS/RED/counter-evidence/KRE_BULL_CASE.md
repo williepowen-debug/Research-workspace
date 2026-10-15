@@ -4,6 +4,8 @@
 **Purpose:** Build strongest possible case AGAINST "KRE will close below $59.84 by December 31, 2026"  
 **RED Assessment:** This thesis validity moved from 20% → 75% after debate. Now building maximum-strength counter-case.
 
+> ⚠️ **CORRECTED 2026-10-14 (S52), on REGINALD's 10/10 packet.** Every "$480B (Feb 2026)" FHLB figure in this file was wrong, and its basis is unknown. Office of Finance (FHLB System advances, quarter-end carrying value): **$694.0B [3/31/25] · $742.8B [6/30/25] · $693.5B [9/30/25] · $676.7B [12/31/25] · $734.3B [3/31/26] · $810.7B [6/30/26]**; quarterly peak **$1,044.6B [3/31/23]** (source: OF Combined Financial Report Q2 2026, Table 3, published 2026-08-13; detail in `AGENTS/REGINALD/research/FHLB/reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md`). The figures below are replaced in place. **Pillar 10's ">$800B = acute stress" level test is RETIRED** because it cannot tell large-bank balance-sheet use from regional stress. It was crossed at 6/30/26, and commercial banks made up +$121.4B of the H1 change, four very large banks (PNC, Citi, U.S. Bank, Wells Fargo) +$67.5B of that, and 106 mid/small SEC-filer borrowers only +$2.3B combined. The FHLB stress read now defers to REGINALD's REG-T-06, which Will re-ruled on 10/11 (WQ-414): a level breach means REVIEW, and a breadth read is required before escalating. Everything else in this file is the Feb-2026 vintage, kept as history.
+
 ---
 
 ## EXECUTIVE SUMMARY
@@ -57,7 +59,7 @@ Even with CRE losses of 5-7% of total assets, capital remains above regulatory m
 
 1. **Bank Term Funding Program (BTFP):** Created March 2023, allowed banks to borrow against securities at par (not market value). **Status:** Expired March 2024, but can be reauthorized instantly.
 
-2. **Federal Home Loan Banks (FHLB):** $480B outstanding (Feb 2026) vs $1.1T peak (March 2023). **Massive capacity available.**
+2. **Federal Home Loan Banks (FHLB):** $676.7B outstanding [12/31/25], $810.7B [6/30/26] (Office of Finance) vs $1,044.6B peak [3/31/23]. Capacity remains, but ~$234B to the 2023 peak at 6/30/26, not the ~$600B the old "$480B" implied. *(Corrected 2026-10-14.)*
 
 3. **Discount Window:** Unlimited capacity, though stigma exists
 
@@ -351,7 +353,7 @@ Modern financial system has **circuit breakers**:
 
 ---
 
-## PILLAR 10: FHLB AT $480B IS NOT A WARNING SIGN
+## PILLAR 10: FHLB GROWTH IS LARGE-BANK, NOT REGIONAL STRESS *(re-written 2026-10-14; was "FHLB at $480B is not a warning sign")*
 
 ### Bear Logic
 
@@ -359,17 +361,14 @@ Modern financial system has **circuit breakers**:
 
 ### RED Counter-Argument
 
-**FHLB at $480B vs $1.1T peak (March 2023) means:**
-- System-wide liquidity is **comfortable**
-- Banks are not scrambling for funding
-- No deposit flight underway
+**FHLB at $810.7B [6/30/26] vs $1,044.6B peak [3/31/23]: the level is elevated, and the composition says it is not regional stress.** Commercial banks +$121.4B of the H1-2026 change (four very large banks +$67.5B); credit unions and savings institutions −$13.7B; 106 mid/small SEC-filer borrowers +$2.3B combined. Q3 likely fell: system debt −$42.1B ⇒ advances nowcast ≈ $770B (REGINALD estimate, ±2sd $728–813B, not a print).
 
-**If stress were acute:**
-- FHLB would be >$800B (halfway to crisis)
-- Discount window usage would increase
-- Fed funds effective rate would spike vs target
+**The three original "acute stress" checks, re-read 2026-10-10:**
+- ~~FHLB >$800B~~: **met as written** ($810.7B, 6/30/26) but **RETIRED as a stress test**, because large banks crossed it. The live test is REGINALD's REG-T-06 breadth read (top-four borrower share plus borrower median, WQ-414).
+- Discount-window primary credit **$9.965B [Wed 10/7]**, the highest Wednesday since at least Jan 2024 and above its 60-week p90 for two weeks (all banks; borrowers not named; Fed H.4.1) ⇒ **NOT calm.**
+- SOFR−IORB −3bp [10/8] ⇒ calm.
 
-**All are calm.** This is inconsistent with "crisis in next 4 months."
+**One of the two live checks is not calm.** The bull reading survives on FHLB *composition*, not on "all are calm".
 
 ### SVB Comparison is Misleading
 
@@ -455,7 +454,7 @@ Current regionals have:
 
 **Why June 2026 is too early (65% confidence):**
 1. Employment still intact (227K claims)
-2. FHLB at $480B (no funding stress visible)
+2. ~~FHLB at $480B~~ *(wrong figure; corrected 2026-10-14: $676.7B at 12/31/25, $810.7B at 6/30/26, growth large-bank-led)*
 3. Banks well-capitalized (17%+ CET1 ratios)
 4. Fed has tools and will use them
 5. Historical lag: stress visible → crisis = 18-24 months (we're at month 12)

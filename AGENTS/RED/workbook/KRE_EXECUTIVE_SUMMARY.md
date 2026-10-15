@@ -83,7 +83,7 @@ CET1 ratios at **17%+** (vs 4.5% minimum). Can absorb 2-3 years of losses.
 **Bull case fails if (any of these):**
 1. Claims >300K sustained (March 2026)
 2. Major bank failure before June
-3. FHLB >$800B (currently $480B)
+3. ~~FHLB >$800B (currently $480B)~~ **RETIRED 2026-10-14:** the "$480B" was wrong (Office of Finance: $676.7B [12/31/25], $810.7B [6/30/26]). The >$800B line was crossed at 6/30/26 by large-bank borrowing, not regional stress, so it cannot discriminate. The FHLB leg now defers to REGINALD REG-T-06 breadth read (WQ-414). See `counter-evidence/KRE_BULL_CASE.md` banner.
 4. KRE breaks $65 with volume
 5. Fed refuses to intervene
 

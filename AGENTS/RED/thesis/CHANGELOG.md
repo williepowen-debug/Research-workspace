@@ -4,6 +4,17 @@
 
 ---
 
+## S52 — 2026-10-14 20:12–20:2x ET (from `date`) — **WEIGHT MOVED: net-bear 60 → 63 (+3, MECHANICAL, `RED-FT-08` fired on the Sept CPI print). Confidence 70 unchanged.**
+
+Old view (S51, 10/09): Managed 31 · Stag 32 · Acute 14 · War 14 · Soft 5 · Rescue 4 → **new: Managed 29 · Stag 35 · Acute 14 · War 14 · Soft 4 · Rescue 4.**
+- **Stag +3, mechanical, with the offset pre-registered 10/01: Managed −2 / Soft −1.** BLS Table A core MoM Jul 0.2 / Aug 0.3 / Sep 0.3 (Jul and Aug unrevised) compounds in Decimal to **3.247216%**, which is ≥ 3.0. The index basis gives 3.4124%, so the two bases agree. Graded off `research/2026-10-14_SEPT_CPI_DECISION_TREE.md` with nothing improvised.
+- **One judgment, labelled, bear-direction and against RED's own S41 view:** an S29d note in the row says a fire with MoM < 0.4 is a roll-off and a no-verdict. It was ruled against. The later, case-specific tree names 0.3 a FIRE, and the note's diagnosis is absent here: a Sept 0.2 would not have fired, so this fire needs the new print. Two pre-data texts disagreeing on one row is an apparatus defect, routed to CHG-051 on 10/31.
+- **CHG-028 leg 1 NOT MET:** airfares +1.159% against a 2.35% bar. **REALIZED is foreclosed at 11/10.** Core is hot again, but not through the oil channel. That is the stagflation case's weak point, and it is recorded beside the fire, not netted against it.
+- **Bull witness, scores nothing:** 5y5y 2.34 (+0.01) and long yields fell on CPI day. Long-run compensation did not move, so the market read the print as risk-off, not as an inflation scare.
+- **Pending tonight: `RED-FT-10` stands at 3 of 4** (SKEW 154.34 / 155.06 / 154.74, 10/09–10/13). If the official 10/14 bar is ≥ 150, it takes Acute +2 / Managed −2 → net-bear 65. Cboe's quote feed shows 157.30, but that feed cannot complete the grade.
+- **Held for the next discretionary re-derivation, not moved today:** OZK's RaDD extension to Dec 2029 with $100M fresh capital (bull, bank leg); GFS PRIDE sunk and GFS GISELLE hit (bear, War) against the IEA's Gulf-export recovery to 13.9 Mb/d (bull, War); large-bank Q3 charge-offs falling (bull).
+Report: `reports/2026-10-14_S52_FT08_fire_and_CPI_grade.md`.
+
 ## S51 — 2026-10-09 10:25–10:35 ET (from `date`) — **WEIGHT MOVED: net-bear 58 → 60 (+2, ALL DISCRETIONARY, labelled). Confidence 70 unchanged. The re-derivation owed since S41 is done.**
 
 Old view (S29 8/12 base + S41 9/6 moves): Managed 32 · Stag 32 · Acute 13 · War 13 · Soft 6 · Rescue 4 → **new: Managed 31 · Stag 32 · Acute 14 · War 14 · Soft 5 · Rescue 4.**

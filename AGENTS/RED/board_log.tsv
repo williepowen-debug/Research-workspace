@@ -27,3 +27,33 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-09T10:33	2026-10-08_from-DAEDALUS_wiring-17-run3-threshold-basis	acted	INBOX_GENERAL	DONE: VX-RED-002 Flip_If names AHETPI YoY minus CPIAUCSL YoY; VX-RED-001 Flip_If declared OR (any one leg) with FRED ids; no current grade moves (0 of 3 legs). VX-RED-001 re-measured S51, bull 50->45 (VX_HISTORY).
 2026-10-09T10:33	SIG-W-20261002-005	acted	INBOX_WALTER	FT-02 graded: 1 of 3 at 10/1 (324) agrees; 10/2 310 RESET; 0 of 3 at 10/8 (315). Not fired. registry FT-02 state_detail S51.
 2026-10-09T10:33	SIG-W-20261008-033	acted	INBOX_WALTER	WQ-399 receipt form adopted: 23 receipts filed in the new form (22 NO-OP with scope, 1 APPLIED with artifact); boot 9e receipt line in CLAUDE.md updated (C4 own-charter edit). corrections_boot_check RED rc=0.
+2026-10-14T20:21	SIG-W-20261014-001	acted	BOARD	FT-08 graded FIRED at RED's letter (Table A 3.247216 / index 3.4124, agree). Stag +3 / Managed -2 / Soft -1 executed, net-bear 60->63. 0.4 note conflict ruled (S50 tree governs). CHG-028 leg 1 NOT MET. ML-280/281.
+2026-10-14T20:21	SIG-W-20261012-029	noted	BOARD	RED holds no DR1 aggregation challenge and never cited the ~30bp example (grep negative). Correction receipted NO-OP.
+2026-10-14T20:21	SIG-W-20261014-012	acted	BOARD	FT-10 3 of 4 through 10/13 agrees; 10/14 CSV bar absent at 20:20 ET; registry state corrected from stale 0-of-4.
+2026-10-14T20:21	SIG-W-20261013-005	noted	BOARD	SKEW 2 of 4 at 10/12; superseded by 3 of 4 at 10/13.
+2026-10-14T20:21	SIG-W-20261010-001	noted	BOARD	SKEW 10/09 154.34 = 1 of 4; superseded.
+2026-10-14T20:21	SIG-W-20261009-001	noted	BOARD	HY 315 [10/8]; superseded by 316 [10/13], FT-02 0 of 3.
+2026-10-14T20:21	SIG-W-20261012-005	acted	BOARD	OZK RaDD extended to Dec 2029 + $100M: IQHQ catalyst row PARTIAL (extension+recap met; pass-rating and loss legs open to Q3). Bull counter vs bank leg, held for re-derivation.
+2026-10-14T20:21	SIG-W-20261012-021	noted	BOARD	IQHQ common markdown 14.7pct at BPRE; not an OZK loss recognition.
+2026-10-14T20:21	SIG-W-20261012-026	noted	BOARD	OZK Alewife financing mechanics; neither deficit nor runway established.
+2026-10-14T20:21	SIG-W-20261012-022	info-only	BOARD	OZK workout items; OZK desk owns.
+2026-10-14T20:21	SIG-W-20261014-004	noted	BOARD	BAC NCO 0.44 vs 0.47, card NCO 3.22 vs 3.55: large-bank bull counter; does not clear regional CRE.
+2026-10-14T20:21	SIG-W-20261013-001	noted	BOARD	WFC Q3 NPAs down; large-bank, company-wide.
+2026-10-14T20:21	SIG-W-20261013-019	info-only	BOARD	JPM Q3 reported vs managed bases.
+2026-10-14T20:21	SIG-W-20261014-002	noted	BOARD	GFS PRIDE sank 10/13, GFS GISELLE hit 10/14 (MPA primary). War leg evidence for next re-derivation; no registered object moved.
+2026-10-14T20:21	SIG-W-20261014-003	noted	BOARD	IEA: Gulf crude exports 13.9 Mb/d Sept (+4.4); products 1.9 vs 4.7 prewar. Counter-weight to War +1, held for re-derivation.
+2026-10-14T20:21	SIG-W-20261012-042	noted	BOARD	Dated Brent 134.14 [10/12 chart, basis caveats] vs paper ~105: physical-paper split still wide; War +1 condition (Dated collapses to paper) not met.
+2026-10-14T20:21	SIG-W-20261012-040	noted	BOARD	IRGC third-tanker announcement, unverified; not counted.
+2026-10-14T20:21	SIG-W-20261010-002	noted	BOARD	Ghawar fires, cause unknown, strike claim unsupported; not counted.
+2026-10-14T20:21	SIG-W-20261013-008	noted	BOARD	Dhahran admin-building fire, output unmeasured; not counted.
+2026-10-14T20:21	SIG-W-20261012-002	noted	BOARD	CCC performing/nonperforming split, relay unverified; FT-07 basis unchanged.
+2026-10-14T20:21	SIG-W-20261010-007	noted	BOARD	Small-bank borrowings +32.9B 3wks to 9/30 (H.8); bank-leg context.
+2026-10-14T20:21	SIG-W-20261012-044	noted	BOARD	Hammack reaction function, not a fixed hike path.
+2026-10-14T20:21	2026-10-10_to-RED_KRE-bull-case-FHLB-480B-is-wrong	acted	INBOX_GENERAL	$480B replaced with OF figures in KRE_BULL_CASE.md + KRE_EXECUTIVE_SUMMARY.md; Pillar 10 >800B level test RETIRED, defers to REG-T-06 breadth read (WQ-414). No figure disputed; no reply owed.
+2026-10-14T20:21	2026-10-12_from-CARL_auto-outflow-preparation-and-grading-letter-gaps	deferred	INBOX_GENERAL	CHG-049 minimum-clarification review owed before 10/20 grade; scheduled next session (by 10/19).
+2026-10-14T20:21	2026-10-12_from-DEWEY_carl-dr1-cards-q2	info-only	INBOX_GENERAL	Q2 card evidence; no score change.
+2026-10-14T20:21	2026-10-12_from-MIDAS_approved-maintenance	info-only	INBOX_GENERAL	No row/probability changed.
+2026-10-14T20:21	2026-10-14_from-BROCK_Brk32-existing-disposition-recovered	noted	INBOX_GENERAL	CHG-044 STUCK restored; CCLFX inference withdrawals already reflected in RED's 10/1 E3b withdrawal. No RED letter changes.
+2026-10-14T20:21	2026-10-14_from-LIQUID_LIQ07-context-rows-recovered	noted	INBOX_GENERAL	HYG +16.1 / JNK -13.5 shares 9/24-10/13; funding 0/3; final 10/16.
+2026-10-14T20:21	2026-10-14_from-VIOLET_official-SKEW-sequence-evidence	acted	INBOX_GENERAL	Used for FT-10 count: 3 of 4 through 10/13, 10/14 bar pending.
+2026-10-14T20:21	2026-10-14_from-VIOLET_accuracy-sweep-prediction7-correction	info-only	INBOX_GENERAL	VIOLET prediction-7 hit withheld; no RED row affected.

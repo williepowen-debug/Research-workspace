@@ -26,3 +26,17 @@ receipt_date	correction_id	action	note
 2026-10-09T14:29Z	COR-20261008-41	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
 2026-10-09T14:29Z	COR-20261008-16	NO-OP	scope=RED surfaces already carry Wed 10/14 (CATALYSTS row, 10-14 tree title, STATUS) - label-only correction, nothing to change; 
 2026-10-09T14:29Z	COR-20260906-03	APPLIED	artifact=AGENTS/RED/workbook/ML.tsv#ML-RED-225; artifact=AGENTS/RED/workbook/ML.tsv#ML-RED-186; validation_ref=NONE; scope=FT-06 fire record - one source queried twice is ONE observation; applied S41 2026-09-06, receipted late S51 2026-10-09
+2026-10-15T00:15Z	COR-20261012-06	NO-OP	scope=RED holds no position and carries no USO option record - grep of AGENTS/RED live files negative 2026-10-14; 
+2026-10-15T00:15Z	COR-20261012-08	NO-OP	scope=RED carries no SCF income or wealth figure - grep negative 2026-10-14; 
+2026-10-15T00:15Z	COR-20261012-09	NO-OP	scope=RED War +1 cites Yanbu 10/1 and a Hormuz tanker 10/2 only - no UKMTO transit counts or 10/4-10/7 event mapping carried; 
+2026-10-15T00:16Z	COR-20261012-10	NO-OP	scope=RED carries no OZK Horton occupancy claim - CHG-027 OZK leg is filings-based - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261012-15	NO-OP	scope=RED carries no EU gas storage DR-4 baseline or projection - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261012-16	NO-OP	scope=RED carries no diesel export or Russian net-supply claim - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261012-19	NO-OP	scope=RED carries no NY Fed tariff pass-through spent-driver reading - VX-003 tariff front-loading note predates and does not cite the study; 
+2026-10-15T00:16Z	COR-20261012-23	NO-OP	scope=RED carries no OZK Affinius or NEA warehouse ABS exposure claim - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261012-25	NO-OP	scope=RED carries no DR1 100.7bp or 97.4bp aggregation figure - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261012-27	NO-OP	scope=RED carries no KB395 extension or loss example and no CRL29 panel figures - CHG-049 is re-reviewed 10/20 against CARL's recovered panel; 
+2026-10-15T00:16Z	COR-20261012-29	NO-OP	scope=RED has no DR1 aggregation challenge and never cited the withdrawn ~30bp swapped-value counterexample - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261012-31	NO-OP	scope=RED carries no Tsentr or Russian exercise-absence premise - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261013-16	NO-OP	scope=RED carries no TGA level - grep negative 2026-10-14; 
+2026-10-15T00:16Z	COR-20261014-10	NO-OP	scope=RED carries no Ornn token-price figure - grep negative 2026-10-14; 
