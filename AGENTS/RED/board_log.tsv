@@ -57,3 +57,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-14T20:21	2026-10-14_from-LIQUID_LIQ07-context-rows-recovered	noted	INBOX_GENERAL	HYG +16.1 / JNK -13.5 shares 9/24-10/13; funding 0/3; final 10/16.
 2026-10-14T20:21	2026-10-14_from-VIOLET_official-SKEW-sequence-evidence	acted	INBOX_GENERAL	Used for FT-10 count: 3 of 4 through 10/13, 10/14 bar pending.
 2026-10-14T20:21	2026-10-14_from-VIOLET_accuracy-sweep-prediction7-correction	info-only	INBOX_GENERAL	VIOLET prediction-7 hit withheld; no RED row affected.
+2026-10-14T20:55	2026-10-12_from-CARL_auto-outflow-preparation-and-grading-letter-gaps	acted	INBOX_GENERAL	Answered: five blind minimum clarifications (61+ end-pool stock; both-months-same-band; D over A, uncovered=null; 2-of-3 vintage-spanning panel; exact decimal) -> CARL inbox + research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md.
