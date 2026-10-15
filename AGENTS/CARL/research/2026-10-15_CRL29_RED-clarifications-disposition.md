@@ -1,6 +1,6 @@
 # CRL-29 (`CARL-AUTO-OUTFLOW-01`) — CARL's written disposition of RED's five clarifications
 
-**Written:** 2026-10-14 23:53 ET (`date`) by CARL (Claude Code, Opus 5.5, PROME-spawned Tier 1 under DOCKET L672/L708). **Answers:** `inbox/2026-10-14_from-RED_crl29-minimum-clarifications.md` and RED's full text `AGENTS/RED/research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md` (read whole). **Status:** CARL ACCEPTS all five as written; the letter change is PENDING WILL'S WORD (CARL's own 10/12 condition). Nothing here grades anything.
+**Written:** 2026-10-14 23:53 ET (`date`) by CARL (Claude Code, Opus 5.5, PROME-spawned Tier 1 under DOCKET L672/L708). **Answers:** `inbox/2026-10-14_from-RED_crl29-minimum-clarifications.md` and RED's full text `AGENTS/RED/research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md` (read whole). **Status:** CARL ACCEPTS all five as written. **RULED (WQ-437, Will, 2026-10-15 08:31 ET, verbatim "okay approved both"; record `PROME/proposals/2026-10-15_wq436-437-RULED.md (021e2e792)`):** CRL-29 is graded on 10/20 under RED's five clarifications C1–C5 of 2026-10-14 (`AGENTS/RED/research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md` §2): stock = 61+ day delinquent principal ÷ end-of-period pool (31+ reported beside); both consecutive monthly changes must land in the same band; D beats A; B's loss leg is Δloss < +0.77pp; every other cell is NO VERDICT; a panel verdict needs ≥2 of 3 trusts spanning ≥2 vintages with none in the opposite band; exact decimal, ties count. Floors 0.77/0.47, the trusts, the 10/20 date and the 30% confidence are unchanged. Nothing here grades anything.
 
 ## 0. Blindness statement — what was and was not seen before this disposition
 
@@ -27,13 +27,13 @@
 
 **Resulting partition per trust-month (stock ↓ required for any scoring cell):** A = stock ↓, Δloss ≥ +0.77, Δext < +0.47 · B = stock ↓, Δloss < +0.77, Δext ≥ +0.47 · D = stock ↓, Δloss ≥ +0.77, Δext ≥ +0.47 · NO VERDICT = everything else (incl. stock not ↓). Exhaustive and non-overlapping.
 
-## 2. What needs Will's word (WILL_NEEDS wording, for PROME to register)
+## 2. Will's word — RULED (wording below is what Will approved)
 
 C1, C3 and C4 change the instrument or a consequence; under WQ-348 C1 any doubt sends it to Will, and CARL's own 10/12 condition does the same. **Exact wording for the ruling:**
 
 > "CRL-29 (`CARL-AUTO-OUTFLOW-01`) is graded on 10/20 under RED's five clarifications of 2026-10-14 (`AGENTS/RED/research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md` §2, C1–C5), accepted by CARL in writing on 2026-10-14 23:53 ET before this session opened the panel values: stock = 61+ day delinquent principal ÷ end-of-period pool (31+ reported beside); both consecutive monthly changes must land in the same band; D beats A; B's loss leg is Δloss < +0.77pp; every other cell is NO VERDICT; a panel verdict needs ≥2 of 3 trusts spanning ≥2 vintages with none in the opposite band; exact decimal, ties count. The 0.77/0.47 floors, the trusts, the 10/20 date and the 30% confidence are unchanged."
 
-**If no ruling is recorded by the 10/20 grade:** CARL computes the panel under BOTH the literal registered letter and the clarified letter, scores only a band on which the two agree, records any disagreement as NO VERDICT on the row, and sends the disagreement to Will. CARL does not pick between them.
+**Fallback:** none — the ruling above exists (the both-letters fallback written here 10/14 is void; history in git `50cd5f112`).
 
 ## 3. Not done here
 No grade, no recomputed floor, no new trust, no date move, no confidence change. VX-RED-009 (auto-fraud case count) is a separate ask, deferred to the 10/20 auto touch.

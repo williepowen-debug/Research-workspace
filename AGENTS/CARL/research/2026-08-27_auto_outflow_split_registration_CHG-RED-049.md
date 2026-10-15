@@ -66,6 +66,8 @@ RED nominated **Intex subprime ABS extension share** — the series the Philly F
 
 ## §4 — THE REGISTERED TEST — `CARL-AUTO-OUTFLOW-01`
 
+> **RULED (WQ-437, Will, 2026-10-15 08:31 ET, verbatim "okay approved both"; record `PROME/proposals/2026-10-15_wq436-437-RULED.md (021e2e792)`):** CRL-29 is graded on 10/20 under RED's five clarifications C1–C5 of 2026-10-14 (`AGENTS/RED/research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md` §2): stock = 61+ day delinquent principal ÷ end-of-period pool (31+ reported beside); both consecutive monthly changes must land in the same band; D beats A; B's loss leg is Δloss < +0.77pp; every other cell is NO VERDICT; a panel verdict needs ≥2 of 3 trusts spanning ≥2 vintages with none in the opposite band; exact decimal, ties count. Floors 0.77/0.47, the trusts, the 10/20 date and the 30% confidence are unchanged. The bands below are read with these clarifications; the table text is the 8/27 letter as registered.
+
 **Question (RED's, adopted verbatim in substance):** when the subprime auto delinquency stock falls, is it emptying into **loss** (my read) or into **extension** (the Philly Fed's mechanism)?
 
 **Instrument:** AMCAR 10-D Ex-99.1 `{127}` Extension Rate · `{115}` Net Losses in Period ÷ `{126}` Beginning-of-Period Pool Balance (annualized) · `{119}-{122}` delinquency buckets. **Panel: ≥3 subprime trusts spanning ≥2 vintages** (AMCAR 2024-1, AMCAR 2023-2, + Exeter vintages), **compared at MATCHED SEASONING (months-from-cutoff), never at matched calendar date** — this is the §3 confound control and it is mandatory.

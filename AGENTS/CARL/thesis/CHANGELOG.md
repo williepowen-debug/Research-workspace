@@ -8,6 +8,14 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-15 (2) — CRL-29 letter RULED (WQ-437); September retail T1 3/3 against (no score change)
+
+**CRL-29 (`CARL-AUTO-OUTFLOW-01`):** Will, 2026-10-15 08:31 ET, verbatim *"okay approved both"* (WQ-436 + WQ-437; record `PROME/proposals/2026-10-15_wq436-437-RULED.md`, 021e2e792). The 10/20 grade runs under RED's five clarifications C1–C5 (`AGENTS/RED/research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md` §2), accepted by CARL 10/14 23:53 ET before the panel values were opened. **Old → new:** instrument stock leg `{119}-{122}` buckets (denominator open) → issuer 61+ day delinquent principal ÷ end-of-period pool (C1); band-period, overlap (D beats A), B loss leg (Δloss < +0.77pp), NO VERDICT residual and panel aggregation (≥2 of 3 trusts, ≥2 vintages, none opposite) now stated (C2–C4); exact decimal, ties count (C5). **Unchanged:** floors 0.77/0.47, trusts, 10/20 date, 30% confidence. The both-letters fallback is void. Encoded in PREDICTIONS.tsv (Instrument + Notes), the 8/27 registration §4, the disposition record and the docket.
+
+**September retail (Census CB26-165, 10/15):** control group +0.14% m/m nominal after August +1.19%; gasoline stations +6.4%. T1 trade-down tripwire 3/3 AGAINST (grocery −0.85% real vs restaurants +3.41%; GM share 12.779→12.540%; apparel +1.56%). No score, instrument or prediction change (`domain/sources/2026-10-15_September-retail-read.md`, KB-CARL-535).
+
+---
+
 ## 2026-10-15 — CRL-10 re-graded 8% → 1% on the September CPI; KB-506 tariff bases separated; V2 August deep tier 0/4 (no version bump, no score change)
 
 **Session:** CARL recovery session (PROME-spawned Tier 1, WQ-184 D:L672/D:L708), finishing work written by the session that died in the ~03:08 ET machine crash.
