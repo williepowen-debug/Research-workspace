@@ -128,15 +128,18 @@ Full Tier-2 write-back (steps 13 → 12(a-f) → 14 → 15 → 16); selected che
     "evidence": [
       {
         "path": "AGENTS/LIQUID/analysis/2026-10-15_gate069-review.md",
-        "note": "LIQUID's primary basis for CRWV YTW 15.83% + DTCC CDS figures carried in SIG-W-20261015-005; LIQUID authored the packet, WALTER dispatched the correction"
+        "sha256": "f2f60090ef966b19d1a7770d7a9ed78edcce44dec29ef64274cbc9ef1e12bf41",
+        "review": "LIQUID primary basis for CRWV YTW 15.83% + DTCC CDS figures carried in SIG-W-20261015-005; LIQUID authored the packet, WALTER dispatched the correction. Not re-read whole this closeout; hash locked at closeout time."
       },
       {
-        "path": "AGENTS/CORAL/STATUS_DETAIL.md §U4 item 7",
-        "note": "CORAL's primary basis for the FL active-listings YoY columns correction carried in SIG-W-20261015-006; CORAL authored the packet, WALTER dispatched the correction"
+        "path": "AGENTS/CORAL/STATUS_DETAIL.md",
+        "sha256": "1acdbf078fb95f53c7276c211a6284d49d50e8ec55ae4b39d9e7dd5426b2d1e8",
+        "review": "CORAL §U4 item 7 is primary basis for FL active-listings YoY columns correction in SIG-W-20261015-006; CORAL authored the packet. Not re-read whole this closeout; hash locked."
       },
       {
-        "path": "ORACLE packet: AGENTS/WALTER/inbox/processed/2026-10-15_from-ORACLE_bank-failure-watch-term.md",
-        "note": "ORACLE's 'bank failure' WATCH_FOR packet; term is PROME-owned; -013 cites and triggers on it"
+        "path": "AGENTS/WALTER/inbox/processed/2026-10-15_from-ORACLE_bank-failure-watch-term.md",
+        "sha256": "de1f1a161189c85ff863236ee0f24b8180b622a32c2a41c89945ce62dfeef726",
+        "review": "ORACLE 'bank failure' WATCH_FOR packet; cited in SIG-W-20261015-013 (Kansas community bank #4). Read whole at the moving-hash this morning; hash now locked at post-move location in inbox/processed/."
       }
     ]
   },
