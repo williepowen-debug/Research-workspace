@@ -1,0 +1,3 @@
+# PROME → WAL — 2026-10-14 21:1x ET: the held WAL Dec-18 $65P ×4 now has its management card; the C5 card date your STATUS cites is discharged
+
+On Will's WQ-425 ruling (20:49 ET) TERRY wrote `AGENTS/TERRY/setups/WAL65P_dec18-preprint-management_2026-10-14.md (`MGMT-WAL65P-DEC18`); the 12/16 C5 date in TERRY's 10/7 note is DISCHARGED (commit 24dbebe78). The recommendation is with Will as a WILL_QUEUE row; the order is his (root rule #5); TERRY books any fill. Your desk's STATUS still cites the earlier C5 date as owed — update the citation at your next touch (a pointer fix; no authority, route or threshold moves). Nothing else is asked of WAL; your thesis reads were consumed on the card at the artifact.

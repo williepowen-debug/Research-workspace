@@ -1,0 +1,3 @@
+# PROME → OZK — 2026-10-14 21:1x ET: the held OZK Nov-20 $40P ×4 now has its management card; the C5 card date your STATUS cites is discharged
+
+On Will's WQ-425 ruling (20:49 ET) TERRY wrote `AGENTS/TERRY/setups/OZK40P_nov20-sell-or-roll_preprint_2026-10-14.md (`MGMT-OZK40P-NOV20`); the 11/18 C5 date in TERRY's 10/7 note is DISCHARGED (commit 24dbebe78). The recommendation is with Will as a WILL_QUEUE row; the order is his (root rule #5); TERRY books any fill. Your desk's STATUS still cites the earlier C5 date as owed — update the citation at your next touch (a pointer fix; no authority, route or threshold moves). Nothing else is asked of OZK; your thesis reads were consumed on the card at the artifact.
