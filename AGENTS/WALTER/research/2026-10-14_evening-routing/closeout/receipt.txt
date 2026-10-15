@@ -1,0 +1,14 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "STATUS:2: duplicate volatile claim; move to LAST_COMPLETION/dated receipt",
+    "owner evidence changed: AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md; reassess carried obligations"
+  ],
+  "as_of": "2026-10-15T00:42:18Z",
+  "origin_ref": "0002774f0d4860d11200b6856594cc83e44f6e6a",
+  "delivery_scope": "20261014",
+  "delivered": 106,
+  "total": 106,
+  "next_review": "2026-10-15",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

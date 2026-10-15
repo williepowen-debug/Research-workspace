@@ -1,0 +1,41 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] AGENTS/NEXUS/inbox/processed/2026-10-10_from-WALTER_S1-re-argued-at-the-artifact-FOR-the-boot-line-doctor-check-RE-SCOPED-due-field-YES.md
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/runs/GATE_LOG.tsv
+     [not yours]    AGENTS/DAEDALUS/scripts/prose_remedy_candidates.py
+     [not yours]    AGENTS/NEXUS/BRIEFS_MAP.md
+     [not yours]    AGENTS/NEXUS/LAST_COMPLETION.md
+     [not yours]    AGENTS/NEXUS/PREDICTIONS_COLD.md
+     [not yours]    AGENTS/NEXUS/PREDICTIONS_MONITOR.md
+     [not yours]    AGENTS/NEXUS/STATUS.md
+     [not yours]    AGENTS/NEXUS/STATUS_COLD.md
+     [not yours]    AGENTS/NEXUS/analysis/2026-09-29_one-root-or-many.md
+     [not yours]    AGENTS/NEXUS/analysis/PRED-50_grading_log.tsv
+     [not yours]    AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md
+     [not yours]    AGENTS/NEXUS/board_log.tsv
+     [not yours]    AGENTS/NEXUS/brief_fallback_log.tsv
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261012-005.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261012-025.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-10_from-PROME_S1-owner-unconsumed-line-liveness-correction-before-WQ-401.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-12_from-DEWEY_cato-causal-wording-consumption.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-12_from-DEWEY_fha-aggregation-erratum.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-12_from-MIDAS_approved-maintenance.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-12_from-MIDAS_bounded-thesis-verdicts.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-12_from-MIDAS_news-sweep.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-12_from-OZK_radd-executed-extension-L635.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-12_from-YURI_brief-refreshed-actor-instruments.md
+     [not yours]    AGENTS/NEXUS/inbox/processed/2026-10-14_from-BROCK_bounded-consumer-corrections.md
+     [not yours]    AGENTS/NEXUS/registry/corrections_receipts.tsv
+     [not yours]    AGENTS/NEXUS/research/2026-10-14_pass_record.md
+     [not yours]    AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md
+     [not yours]    PROME/inbox/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

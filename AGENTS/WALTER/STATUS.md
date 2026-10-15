@@ -1,24 +1,24 @@
 # WALTER STATUS
-**Updated:** 2026-10-14T18:33:50Z — Will-requested FULL context/persistence closeout. BOARD **1408**; October14 source set14 (3IMMEDIATE/11PRIORITY),19bookmark dispositions,6 bounded read-only verification helpers across the morning and three-thread passes. Source/boot market coverage remains PARTIAL. Current obligations and publication evidence: LAST_COMPLETION.md.
+**Updated:** 2026-10-15T00:41:30Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing; light-closeout. BOARD **1421**; October14 evening -015..-027 (13 signals: 1 IMMEDIATE/11 PRIORITY/1 ROUTINE, 55 handoffs). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY final power-contract report audited and its exact handoff filed on the14:49EDT restart; named service/payment/allocation gaps remain. Three BOND/LIQUID owner-routing packets remain in the inbox. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
+Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY final power-contract report audited and its exact handoff filed on the14:49EDT restart; named service/payment/allocation gaps remain. Evening: inbox drained (BOND, LIQUID x2, RED routed as -015..-017, -023); the day's new risk content is AI-infrastructure credit (-018) on a hot-CPI, worst-S&P-day-since-7/29 session; RED-FT-10 SKEW 4th close awaits the CBOE publisher file. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
 
-Restart 2026-10-14T19:12:37.845677Z: eight desks LIVE per Will; native fleetvisibility unavailable, other desks UNKNOWN. Boot/source coverage PARTIAL. Read-only X0new/drop0/intakesyncOK;15:00EDT intraday market snapshot saved at research/2026-10-14_resume-1449/market-snapshot.json. Mainpull/pushdeferredforeignwork;currentroutingqueueLAST_COMPLETION.
+Evening 2026-10-15T00:41:30Z: X token re-authorized (HTTP400 refresh fixed); 18 bookmarks + 13 intake items + 4 owner packets (BOND, LIQUID x2, RED) routed, batches BM-20261015-01/-02 CLOSED. Live per ListAgents 00:12Z: PROME, RED, NEXUS, DAEDALUS; others UNKNOWN. RED-FT-10: CBOE file still ends 10/13 (3 of 4) at 00:40Z; vendor 10/14 157.30 provisional. Iran full re-verify owed 10/15 (GFS Pride sinking is a ladder trigger).
 
-## DATED MARKET OBSERVATIONS — bounded refresh October14 16:12Z; unchanged rows retain prior dates
+## DATED MARKET OBSERVATIONS — bounded refresh October15 00:10–00:40Z; unchanged rows retain prior dates
 
 | Object | Observation and limit |
 |---|---|
-| Credit | FRED mirror HY316bp/CCC1267bp [October13], retrieved October14 16:12Z. HY4bp/1.25% below strict>320 on that dated print,0/3; +5bp versusOctober12, no+25bp bypass. CCC prior fire banked/no repeat. |
-| Volatility | FRED mirror VIXCLS15.27 [October13]; registered exit>=18 not met. CBOE PRIMARY SKEW154.74 [October13], after154.34/155.06 [October9/12]:3/4>=150, watch SIG-W-20261014-012; October14 official close absent/no early fire. Intraday VIX16.23 from16:12Z vendor pull is not a closing grade. |
+| Credit | FRED HY316bp/CCC1267bp [October13], re-pulled October15 00:10Z (10/14 not yet published). HY 4bp under strict>320, 0/3. LIQUID 15-obs ladder BROADENS to IG/BBB cumulatively (SIG-W-20261014-015). CoreWeave 2032 notes ~14.5% [10/14, Bloomberg relay, not TRACE] (SIG-W-20261014-018). CCC prior fire banked. |
+| Volatility | Vendor ^VIX 16.87 [10/14 close, +10.5%]; FRED VIXCLS 15.27 [10/13]; RED-FT-06 exit >=18 not met. CBOE PRIMARY SKEW 154.74 [10/13], 3/4 >=150; 10/14 publisher bar ABSENT at 00:40Z Oct15; vendor ^SKEW 157.30 [10/14] provisional, cannot complete RED-FT-10. S&P 500 -1.11% [10/14], worst since 7/29. |
 | Funding / rates | SOFR3.89−IORB3.90=-1bp [matchedOctober13];forwardIORB14 not substituted. DGS10/30 5.24/5.60 [October9],not October13. T5YIFR2.33 [October13]. |
 | Labor / inflation | ICSA197K [weekendingOctober3,FRED revised mirror];no first-release recertification. BLS September headline0.6/core0.3 m/m; TableA Jul0.2/Aug0.3/Sep0.3=>3.247216% annualized, qualifies RED-FT08. RED execution UNKNOWN. Real hourly earnings-0.5%m/m/-0.7%y/y; November composition resolver remains open. |
-| Banks | Vendor intraday October14 at16:12Z: KRE68.65/WAL72.14/OZK44.84; not closes. October13 vendor prior closes69.06/73.73/45.08 retain single-source limits; WAL existing cycle2/no exit/repeat. BAC/MS issuer Q3 counterevidence routed004; regional workout outcomes remain owner-gated. |
+| Banks | Vendor closes 10/14: KRE 68.54 (-0.75%) / WAL 72.22 (-2.05%) / OZK 44.93 (-0.33%); single source. WAL existing REG-T-02 cycle2, no >=81.90 exit, no repeat fire. BAC -4.76% on adjusted Q3 miss, BAC-specific (SIG-W-20261014-019). |
 | Storage | AGSI gasdayOctober13 fill74.04%−same-source5yrnorm88.884%=-14.844pp;existingOPEN,exit>-12 notmet,0/5. Baselinecomposition/economicusefulness unvalidated. |
 | Energy | Cushing24.745M bbl [weekOctober2];currentweek not yetpublished. October13 vendorfutures not formalsettles. BRENT/DEWEY recoveredOctober12 CMEfinal pairedinputs;no duplicated grade. Currentnamedsite run-rates/deliverednetdiesel UNKNOWN. |
-| UK / HANS remainder | UK/Bund closes,TTF contractidentity,Italy/France matchedcloselegs notrefreshed in this pass;old observations are not currentclearance. Monthly/qualitative rows remain owner/source-limited. |
+| UK / HANS remainder | CNBC live 00:11Z Oct15 (not closes): UK10Y 5.381 (T-06 >5.50: 12bp under), UK30Y 5.864 (T-13 >6.00: 14bp under), Bund 3.441 (T-05 watch open), IT-DE ~112bp (T-09 not met), FR-DE ~142bp / OAT 4.861 (T-10 fired, exit not met). TTF/storage not refreshed. |
 | Broker / Iran / freight | No newbroker or completeIranladder/freight survey;previous datedowner evidence retained. Brokertruth off-repo;no order/fill inferred. |
 
 Evidence: `research/2026-10-13_priority-routing/observations.json` and `threshold-coverage.tsv`. Source dates govern. No full-market clearance.
