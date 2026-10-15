@@ -23,7 +23,7 @@ DATE = r'20\d\d-\d\d-\d\d'
 AUTHOR = re.compile(r'^(?:Built(?: by)?|Body(?: date| vintage)?|Profile vintage|Date)\s*:', re.I)
 VINTAGE = re.compile(
     rf'^(?:Profile vintage|Body(?: date| vintage)?|Date|Built|Original|Prior full refresh|'
-    rf'Full refresh|Fully rebuilt|Fully rewritten|Rewritten|Refreshed(?:\s*\([^)]*\))?)'
+    rf'Full refresh|Whole refresh|Fully rebuilt|Fully rewritten|Rewritten|Refreshed(?:\s*\([^)]*\))?)'
     rf'\s*:?\s*(?:prior\s+)?(?P<date>{DATE})', re.I)
 CLOCK = re.compile(r'(?:Staleness(?:\s+triggers?|\s*/\s*refresh clock)?(?:\s*\([^)]*\))?|Refresh triggers?(?:\s*\([^)]*\))?|Day clock|Refresh clock)\s*:', re.I)
 DAYS = re.compile(
@@ -72,6 +72,11 @@ def vintage_of(text: str) -> tuple[dt.date | None, str]:
                     declared.append((dt.date.fromisoformat(follow[1]), 'Body refreshed '+follow[1]))
                 elif re.search(r'§.*refreshed', segment[match.end():], re.I):
                     ambiguous = True
+                # 2026-10-14 (design/2026-10-14_CLOSEOUT_SIGNAL_REPAIR_ACCEPTANCE.md Fix 3): a later
+                # "WHOLE refresh <date>" inside the same Body: segment is a whole-body vintage too —
+                # VULCAN's 10/08 refresh read as 9/05 and raised a false 39-day ALERT.
+                for whole in re.finditer(rf'\bwhole refresh\s*:?\s*({DATE})', segment[match.end():], re.I):
+                    declared.append((dt.date.fromisoformat(whole[1]), 'WHOLE refresh '+whole[1]))
     if explicit:
         if len({d for d, _ in explicit}) != 1:
             raise ValueError('conflicting explicit body vintages')
