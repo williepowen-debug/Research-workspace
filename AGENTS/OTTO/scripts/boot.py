@@ -13,8 +13,8 @@ What it runs:
 
 What it does NOT do: OTTO's domain data (fraud filings, ABS surveillance, bank
 8-Ks) has no clean automated feed — those are news/EDGAR/PACER lookups done
-in-session. abs_issuance_tracker.py / extension_proxy.py are manual-check stubs,
-not wired here. This kit automates the calendar/ledger/price hygiene only.
+in-session. (The abs_issuance_tracker.py / extension_proxy.py stubs were retired
+to archive/ on 2026-10-14.) This kit automates the calendar/ledger/price hygiene only.
 
 Usage:
   .venv/bin/python3 AGENTS/OTTO/scripts/boot.py

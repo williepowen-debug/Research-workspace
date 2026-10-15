@@ -274,14 +274,14 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `thesis/PREDICTIONS_ARCHIVE.md` | Post-mortems for resolved PREDICTIONS rows: substance vs window outcome, calibration lesson. Calibration scoreboard at top. Read at calibration-review pass, not at boot | The active TSV rows (those stay in `PREDICTIONS.tsv` with status); failure-pattern *rules* (those live in THESIS § Predictions) |
 | `workbook/ML.tsv` | Append-only dated master-log of observations (the event record) | Forward predictions (→ PREDICTIONS); live dashboard state (→ STATUS) |
 | `workbook/VX.tsv` | Tracked-vector **registry** — vector IDs, category, per-vector rungs + status | ⚠ dup/rot: its `Current_Value` column duplicates STATUS + the CLAUDE threshold rules and is Feb-stale; treat STATUS as the live read, VX as the structured registry |
-| `workbook/VX_HISTORY.tsv` | Time-series history of vector values | The current live read (→ STATUS / VX) |
+| `workbook/VX_HISTORY.tsv` | Time-series history of vector values — **FROZEN 2026-10-14** (2 rows from 2026-01-26; banner on line 1, CRLF kept) | The current live read (→ STATUS / VX) |
 | `workbook/FLOW.tsv` | Transmission pathways (trigger → transmission → endpoint → agents) | Current metric values |
 | `workbook/KB.tsv` | Structured KB facts with epistemic + `STALE_BY` tagging (the in-house precedent for the evidence tags) | — |
 | `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | Script-generated monitoring series (fed by `scripts/`) | Hand-authored narrative |
 | `workbook/PANEL_10D.tsv` | **LIVE** 10-D deal panel (9 deals, 3 tiers): 60+ DQ, CNL, ANL, recovery, extension rate, disclosed `collection_period`, issuer `months_seasoned` (Bridgecrest: exhibit-derived). Written ONLY by `scripts/panel_10d.py` | Hand edits; an index or blended average |
 | `workbook/SHELF_ACTIVITY.tsv` | OTTO-07 shelf-halt probe output (`scripts/shelf_halt_monitor.py`), event-driven | — |
 | `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
-| `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and monitoring stubs (`abs_issuance_tracker.py`, `extension_proxy.py` — manual-check placeholders, not live feeds) | — |
+| `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and instruments (`panel_10d.py`, `severity_divergence.py`, `shelf_halt_monitor.py`). The two manual-check stubs were retired to `archive/` 2026-10-14: run bare, they appended placeholder rows to FROZEN ledgers | — |
 | `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events. **Maintained by WINTERKORN sub-agent** (not edited by OTTO directly during normal sessions; OTTO applies WINTERKORN's flagged-for-OTTO escalations). Swept rows >30 days old move verbatim to `docket/CATALYSTS_ARCHIVE.tsv` (not a boot read) | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv); live dashboard values |
 | `docket/WINTERKORN.md` | **Sub-agent spec** (mandate, autonomy gradient, read/write-set, truth model, the job, return format). OTTO-internal docket steward — spawned every OTTO session with ≥7 days since its last run, plus T-3 pre-hearing. Not a network peer. Auto-domain reference (VW Dieselgate executive-knew archetype). | Live state (→ WINTERKORN_MEMORY); analytical judgment (→ THESIS); anything outside docket/ scope |
 | `docket/WINTERKORN_MEMORY.md` | **Sub-agent state** — LAST RUN (history), PENDING (OTTO-side decisions queued), STANDING MONITORS (recurring watches), CALIBRATION (OTTO-owned accept/decline log; WINTERKORN reads but never writes), NEXT RUN HINTS. Superseded run entries and cleared PENDING → `docket/WINTERKORN_MEMORY_ARCHIVE.md` (verbatim, not a read) | The durable spec (→ WINTERKORN.md); CATALYSTS data itself |
@@ -535,9 +535,7 @@ AGENTS/OTTO/
 │   ├── panel_10d.py        # 10-D performance panel → workbook/PANEL_10D.tsv (--backfill, --selftest, seasoning control)
 │   ├── severity_divergence.py  # Severity-Divergence Test (Secondary-thesis falsifier; quarterly)
 │   ├── shelf_halt_monitor.py   # OTTO-07 shelf-halt probe → workbook/SHELF_ACTIVITY.tsv
-│   ├── backfill_collection_period.py # one-off 2026-09-02 (spent)
-│   ├── abs_issuance_tracker.py # DEAD stub (superseded by shelf_halt_monitor.py) — archive candidate
-│   └── extension_proxy.py      # DEAD stub (superseded by panel_10d.py ext_rate) — archive candidate
+│   └── backfill_collection_period.py # one-off 2026-09-02 (spent)   [stubs abs_issuance_tracker.py + extension_proxy.py → archive/ 2026-10-14]
 ├── docket/
 │   ├── CATALYSTS.tsv         # Machine-readable forward-event feed (8-col) — boot step 5 source; WINTERKORN-maintained
 │   ├── CATALYSTS_ARCHIVE.tsv # Swept rows >30 days old, verbatim (not a boot read)
