@@ -20,3 +20,5 @@
 Unread inbox after this pass: 158 → 124 files (`ls PROME/inbox/*.md | wc -l`) (the 10/13 and older packets are untouched; the gate's drain-before-brief rule still applies to those desks).
 
 **Addendum 20:2x ET — OTTO** `2026-10-14_from-OTTO_inbox-drain-WQ-413.md` (b599cc342): drain receipt on PROME's doorbell, 8 of 9 consumed, 1 held for Will (WQ-399 half 2, OTTO's own charter line). CONSUMED; ORCH_LOG OTTO doorbell row carries the receipt and the three awareness items. No PROME action owed; the held item is Will's in OTTO's window.
+
+**Addendum 20:3x ET — RED** `2026-10-14_from-RED_ft08-fired-ft10-pending.md` (4a88cd3ed): S52 delivery on PROME's doorbell. RED-FT-08 FIRED at RED's letter and executed (net-bear 60→63); the travelling caveat is that CHG-028's oil→core leg was NOT MET, so the fire says core is hot again, not that an oil-driven spiral engaged. FT-10 3 of 4 pending the official 10/14 bar. L657 reading → DOCKET L657 annotated; BROCK's statement is the open leg. CONSUMED; the FT-08 fire is carried to Will in the boot report and belongs in the next HEARTBEAT base (chain held at 3; no amendment #4 tonight).
