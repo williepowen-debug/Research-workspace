@@ -8,18 +8,32 @@
 
 | # | Item | Why it matters | Source | Needs |
 |---|---|---|---|---|
-| 2 | **THESIS v1.6** | The canonical thesis is ~7 weeks behind STATUS: First Brands "not yet entered", Tricolor deal counts, OTTO-34 figures, OBK reclassification, Manheim | Review A H1–H5, M1, M7–M9, M11–M14, L1–L14 | OTTO |
+| 2 | **Target 10/30** (CATALYSTS). **THESIS v1.6** | The canonical thesis is ~7 weeks behind STATUS: First Brands "not yet entered", Tricolor deal counts, OTTO-34 figures, OBK reclassification, Manheim | Review A H1–H5, M1, M7–M9, M11–M14, L1–L14 | OTTO |
 | 2a | — conflicts the s029 matrix exposed | V6: STATUS "LOW" vs THESIS "KILLED on first measurement"; SDT "one more REFUTE" (STATUS) vs "next two runs" (THESIS L11); V2 recovery magnitude has no case-level downgrade rung; OTTO-30 called "the one calibration win" (it scores 0.36 as-made) | s029 verifier | OTTO, in v1.6 |
 | 2b | — fold the 9/30 failure-pattern rules from `PREDICTIONS_ARCHIVE.md` into THESIS § Predictions | Doc Ownership puts the rules in THESIS; they live only in ARCHIVE | Review A M13 | OTTO, in v1.6 |
-| 4 | **OTTO-11 has no instrument, source, unit or perimeter**; 2.0–2.5% gap is a dead zone | Resolves 12/31 and cannot be graded as written | Review A M2 | OTTO, before 12/31 |
-| 5 | **OTTO-12 10/01 attempt never logged** | DAEDALUS map row carries it; Ally Q3 10/20 is the next read | FLEET_MAP; review A M4 | OTTO, 10/20 |
-| 6 | **True-at-creation check on the four early hits** (OTTO-01, -08, -09, -27, made 2/23, confirmed within weeks) | If any was already true, the 0.2400 as-made Brier flatters the book | s029 scoreboard | OTTO |
+| 4 | **By 11/30** (CATALYSTS). **OTTO-11 has no instrument, source, unit or perimeter**; 2.0–2.5% gap is a dead zone | Resolves 12/31 and cannot be graded as written | Review A M2 | OTTO, before 12/31 |
+| 5 | **By 11/30** (CATALYSTS). **OTTO-12 10/01 attempt never logged** | DAEDALUS map row carries it; Ally Q3 10/20 is the next read | FLEET_MAP; review A M4 | OTTO, 10/20 |
+| 6 | **By 11/30** (CATALYSTS). **True-at-creation check on the four early hits** (OTTO-01, -08, -09, -27, made 2/23, confirmed within weeks) | If any was already true, the 0.2400 as-made Brier flatters the book | s029 scoreboard | OTTO |
 | 7 | **Dashboard refresh**: Fitch ANL and recovery rows are Mar-2026 data; the Bank Losses row has no dates or total; the lender watchlist was rotated to cold `[STALE]` and needs a rebuild or a retirement | Stale rows read as live | Review B M11, M12, L8 | OTTO |
 | 8 | **Seasoning repair not independently verified**; CARL's BLAST ruling (a/b) pending | The 🔴 39-of-39 row stands on it | s028 GAPS | OTTO / CARL |
 | 13 | `research/TIER2_FORENSIC_SCREEN_SPEC.md`: build "authorised" 7/25, no date | An owed build with no clock | Review C L9 | OTTO: schedule or drop |
 | 14 | **Archive sweep — remainder** (27 Feb–Mar files moved s029, `c7361651a`; its commit message says 26): `research/WAL/` (5 files, 12.4 MB .docx; REGINALD holds a copy; hand over via PROME) · `workbook/STATUS_archive_2026{0325,0608,0725,0803,0814}.md` (links from STATUS_COLD would need re-pointing) · `LESSONS.md` (Will's call, parked since June) · `research/outputs/` Feb packages stay (the research index points into them) | Root retirement rule | Review B L13–L17; review C | OTTO; WAL needs REGINALD/PROME; LESSONS needs Will |
 | 15 | `MEMORY.md` findings/references contradict each other (Verita "blocked" vs working; superseded entries) | A boot read that disagrees with itself | Review B M3–M5 | OTTO, at closeout |
 | 17 | `TRADE.md` FROZEN since 7/4 | No action unless a position opens | — | dormant |
+
+## Dated work (lives in `docket/CATALYSTS.tsv`; boot step 5 shows it)
+
+**Mon 10/19 — NEXUS commission #3, NOT STARTED** (packet in `inbox/`; read the spec first) · 10/15 CRMT STD (BROCK grades first) + SDART/BLAST Sept 10-D · 10/16 M&T Q3 (OTTO-31) · 10/20 Ally Q3 (OTTO-12) · 10/21 OTTO-07 shelf re-run, Carvana T-7, suppression check · 10/28 Carvana Q3 · **10/30 THESIS v1.6 target** · **11/30 year-end readiness**.
+
+## Waiting on others, or on Will
+
+| Item | Who | Since | Where |
+|---|---|---|---|
+| L5 ruling on OTTO (both stated legs landed; placement is a block above the dashboard, not columns on it) | DAEDALUS | 2026-10-14 | packet `054aaf5b8` in `AGENTS/DAEDALUS/inbox/`; FLEET_MAP OTTO row |
+| BLAST seasoning-clock basis: (a) keep exhibit-derived, (b) blank | CARL | 2026-10-14 (s028) | OTTO packet `0002774f0`; item #8 |
+| `research/WAL/` disposition (5 files, 12.4 MB; REGINALD holds a copy) | REGINALD / PROME | 2026-07-07 (DAEDALUS card) | item #14 |
+| `LESSONS.md`: archive or keep | Will | June | item #14 |
+| Veto, or not, the retirement of the FLG 8-K forwarding duty | Will (optional) | 2026-10-14 | `EDGAR_8K_MONITOR.md` footer |
 
 ## Closed
 

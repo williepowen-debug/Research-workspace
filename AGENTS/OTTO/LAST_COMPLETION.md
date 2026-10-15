@@ -18,4 +18,4 @@ THESIS v1.6 not started. The four early Feb hits are unchecked for true-at-creat
 `LESSONS.md` archive-or-keep (parked since June). The FLG cc duty retirement is OTTO's call; veto if you want it kept. Otherwise none.
 
 ## FOLLOW-UP
-1. 10/15 CRMT STD (BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`). 2. 10/16 M&T Q3 (OTTO-31). 3. 10/19 NEXUS commission #3. 4. 10/20 Ally Q3 (OTTO-12). 5. THESIS v1.6 with a cold reader (to-do #2).
+1. 10/15 CRMT STD (BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`). 2. 10/16 M&T Q3 (OTTO-31). 3. **10/19 NEXUS commission #3 — not started.** 4. 10/20 Ally Q3 (OTTO-12). 5. **THESIS v1.6 by 10/30** with a cold reader. 6. **Year-end readiness by 11/30** (OTTO-11 instrument, OTTO-12 evidence, true-at-creation check). Every owed item, including what waits on others, is in `STALE_PUNCHLIST.md`; the dated ones are docket rows, so boot shows them.

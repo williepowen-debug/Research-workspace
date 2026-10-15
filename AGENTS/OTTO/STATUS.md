@@ -3,7 +3,7 @@
 **Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-14 EDT (s029, Will-launched parity pass) · prior s028 same day
 
 > **📌 Session 029 (Oct 14, Wed late — Will-launched parity pass).** §2 **CONVERGENCE MATRIX** 33/50, independently checked · predictions scored at as-made: 5 of 10, Brier 0.240 vs 0.250 for a coin flip; seven ledger cells corrected · OTTO-33 68→60% · WINTERKORN refreshed and run (First Brands criminal trial 2/9/27) · one to-do list (`STALE_PUNCHLIST.md`). No threshold or trade changed.
-> - **OWED next:** CRMT 10/15 (BROCK) · ~10/15 SDART/BLAST 10-D · M&T 10/16 · **NEXUS #3 due 10/19** · Ally 10/20 · OTTO-07 re-run 10/21 · **THESIS v1.6** (to-do #2).
+> - **OWED next:** CRMT 10/15 (BROCK) · ~10/15 SDART/BLAST 10-D · M&T 10/16 · **NEXUS #3 due 10/19** · Ally 10/20 · OTTO-07 re-run 10/21 · **THESIS v1.6 by 10/30** · **year-end fixes by 11/30**. Full owed list: `STALE_PUNCHLIST.md`.
 > **📌 Cold half:** settled reasoning, resolved predictions, per-vector narrative and old pointers, verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §1–15 (not a boot read; hot STATUS wins on any disagreement).
 
 ---
@@ -101,10 +101,12 @@
 | **Oct 27 (Tue)** | First Brands Ch.7 — §341(a) creditors' meeting (reset), 11:00 CT, trustee Engelhart | 🟠 `confirmed` (WINTERKORN 10/14) |
 | **Oct 28 (Wed)** | 🔴 **Carvana Q3** (after close, call 17:30 ET) — finance line, loan sales, Bridgecrest, related party; same-day short-report watch | 🔴 `confirmed` **NEW s028** `[PRESS date]` |
 | **~Oct 29** | **10-D cycle — EART September collection month** | 🟠 `modeled` **NEW s028.** Recovery vs 28%; EART 2022-3 CNL for OTTO-34 |
+| **Oct 30 (Fri)** | **THESIS v1.6 — OTTO-set target** (after Carvana Q3) | 🟠 `confirmed` (OTTO-set). STALE_PUNCHLIST #2/2a/2b; cold reader before commit. Missed = re-date with a reason |
 | **Nov 6 (Fri)** | **Manheim October release** — the hinge's next read | 🟠 `confirmed`. A second negative print or ≤ −3% = the hinge moving; feeds the ~11/15 SDT |
 | **Nov 11** | Tricolor §341 (continued) | 🟠 [CONF Verita Jun 9; re-verify, WINTERKORN] — distribution-plan / $113M dispute check. Trustee projects the Final Report for **9/30/2030** (Dkt 1113); no distribution order through 9/30 |
 | **~Nov 16 / ~Nov 30** | 10-D cycles — SDART+BLAST / EART October collection month | 🟠 `modeled`. The EART print is the last before OTTO-34's Dec filing |
 | **~Nov 15** | **Severity-Divergence Test — quarterly re-run** (Secondary-thesis falsifier) | 🟠 `modeled` First reading **REFUTE** (ΔSev +0.06 vs ΔFreq +1.85, Manheim +1.3%). Needs ≥12 filings/deal and a supplied `--manheim`, else not recorded. **Pre-set: a second REFUTE ⇒ cut the load-bearing role, do NOT narrow again.** Watch EART 2023-1. Full row → cold §15 |
+| **Nov 30 (Mon)** | **Year-end readiness** — OTTO-11 instrument, OTTO-12 evidence, true-at-creation check on the four early hits | 🟠 `confirmed` (OTTO-set). STALE_PUNCHLIST #4–#6; the 12/31 cluster cannot be graded honestly without them |
 | **~Dec 1 (Tue)** | **Hertz US-fleet disposal WATCH** — $200M notes + HVF III 2021-2 $2,000M ABS mature 12/2026 | 🟡 `modeled` (SIG-W-20261004-006). FIRE = HVF III amortization event or Hertz Ch.11. LIQUID owns the credit read |
 | **Dec 4** | Tricolor criminal — **Goodgame sentencing control date** (Castel) | 🟡 docketed Aug 3; cooperator sentencing usually slips past trial |
 | **Dec 9** | Tricolor criminal Final Pre-Trial Conference (Castel, 2pm) | 🟠 newly docketed (WINTERKORN); priority follows the TSV |

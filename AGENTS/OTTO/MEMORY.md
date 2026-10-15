@@ -58,12 +58,6 @@
 3. **WINTERKORN**: spec + memory refreshed, docket archive split, run early. It added 9 rows, incl. the First Brands criminal trial **2/9/27** (US v. James) and the cooperators' case (US v. Brumbergs). EART 2026-4 ISSUED 8/28. Boot now flags its cadence.
 4. **Cleanup**: one to-do list (`STALE_PUNCHLIST.md`); stubs + 27 old files archived; EDGAR monitor split (FLG cc duty retired); RESEARCH_STATUS rebuilt; VX_HISTORY frozen. CLAUDE.md v2.9 (Will: "keep the charter change").
 
-### NEXT SESSION
-0. **Dated:** 10/15 CRMT STD (read BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`) · 10/16 M&T Q3 (OTTO-31) + Tricolor BlackRock Rule 2004 confer · **10/19 NEXUS #3** (packet in `inbox/`; read the spec first) · 10/20 Ally Q3 (OTTO-12; log the missed 10/01 attempt) + First Brands D&O hearing · 10/21 OTTO-07 shelf re-run, CRMT backstop, Carvana T-7, suppression check, First Brands §721 hearing · 10/27 First Brands §341 · 10/28 Carvana Q3.
-1. **THESIS v1.6** (to-do #2, incl. 2a/2b), with a cold reader before commit.
-2. The rest of `STALE_PUNCHLIST.md` (#4 OTTO-11 instrument, #6 true-at-creation check, #7 dashboard refresh, #13, #14, #15 this file's contradictions).
-3. **DEAD LEADS — do not re-run:** (a) TBK syndicate roster (b) Fitch alternatives (c) press-sweeping First Brands BDC counts (d) `browse-edgar` HTML (use `data.sec.gov/submissions`) (e) Kroll and the CourtListener docket PAGE / REST API (403/401). ✅ **CourtListener SEARCH API works unauthenticated** via DEWEY `recap_pull.py search` (search by case number: Chu's case sits under several docket ids). ✅ Verita full docket: POST `/document/list/6384`, PageSize 2000, Go Daddy G2 intermediate. ✅ Equifax editions use full month names.
-
 ### DURABLE LESSONS CARRIED
 - **An audit that reads markers finds only the rows that carry markers.** The 9/12 as-made audit trusted "(was X%)" annotations, so walked cells with no marker read as as-made (seven rows). Derive from history (git first appearance), not from the label.
 - **"Map the local colour" is a choice disguised as a transcription** when a vector has several local colours. Name the source cell, or the author picks the score while believing they only copied it (s029 matrix, caught by the verifier).
@@ -83,4 +77,11 @@
 - **Corrections still propagating (carried):** Bridgecrest servicing fee is **3.50% at the ABS level**, not 0.117% portfolio-wide. **Wilmington Trust has NO live trustee role at CRMT.** OTTO's Experian Q1-2026 subprime-share pair is chart-image locked, not a filed figure.
 
 ### PENDING PUSH
-- s029 (2026-10-14): all commits path-scoped; push at closeout via `scripts/safe-push.sh` (receipt in LAST_COMPLETION). ⚠️ Commit `c7361651a`'s message says 26 files archived (8 from `sources/`); the stat shows 27 (9). Not amended (root 4b); corrected here and in MAINTENANCE.
+- s029 (2026-10-14): all commits path-scoped and pushed via `scripts/safe-push.sh`; receipts `CONFIRMED: HEAD 3e4ea6cda` and `9cf08392b` on origin, then the final owed-items closeout push. Nothing pending. ⚠️ Commit `c7361651a`'s message says 26 files archived (8 from `sources/`); the stat shows 27 (9). Not amended (root 4b); corrected here and in MAINTENANCE.
+
+### NEXT SESSION *(kept last on purpose: boot step 3 ends on the action items)*
+0. **Dated:** 10/15 CRMT STD (read BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`) · 10/16 M&T Q3 (OTTO-31) + Tricolor BlackRock Rule 2004 confer · **10/19 NEXUS #3** (packet in `inbox/`; read the spec first) · 10/20 Ally Q3 (OTTO-12; log the missed 10/01 attempt) + First Brands D&O hearing · 10/21 OTTO-07 shelf re-run, CRMT backstop, Carvana T-7, suppression check, First Brands §721 hearing · 10/27 First Brands §341 · 10/28 Carvana Q3.
+1. **THESIS v1.6 — target 10/30** (to-do #2, incl. 2a/2b; docket row), with a cold reader before commit.
+2. **Year-end readiness by 11/30** (docket row): OTTO-11 instrument (#4), OTTO-12 evidence (#5), true-at-creation check on OTTO-01/-08/-09/-27 (#6).
+2a. **The full owed list is `STALE_PUNCHLIST.md`**: open items #2–#17, dated work, and *Waiting on others* (DAEDALUS's L5 ruling, CARL's BLAST ruling, REGINALD/PROME on `research/WAL/`, Will on `LESSONS.md`).
+3. **DEAD LEADS — do not re-run:** (a) TBK syndicate roster (b) Fitch alternatives (c) press-sweeping First Brands BDC counts (d) `browse-edgar` HTML (use `data.sec.gov/submissions`) (e) Kroll and the CourtListener docket PAGE / REST API (403/401). ✅ **CourtListener SEARCH API works unauthenticated** via DEWEY `recap_pull.py search` (search by case number: Chu's case sits under several docket ids). ✅ Verita full docket: POST `/document/list/6384`, PageSize 2000, Go Daddy G2 intermediate. ✅ Equifax editions use full month names.
