@@ -8,7 +8,13 @@ State file for `WINTERKORN.md` (OTTO docket steward). Read this right after the 
 
 ## CHANGES SINCE LAST RUN
 
-*(diffed vs the 2026-07-04 LAST RUN baseline, at the start of the 2026-07-25 run)*
+*(2026-10-14, OTTO s028 — written by OTTO for the next run to diff against; WINTERKORN has NOT run since 2026-07-25, 81 days)*
+
+- **Rows OTTO added BY HAND in s028 — not WINTERKORN output; verify each date at its source:** 2026-10-15 CRMT bridge-6 STD (8-K read at primary) · 10-16 M&T Q3 (BROCK's issuer-verified calendar) · 10-20 Ally Q3 [PRESS] · 10-21 CRMT backstop #4 · 10-21 Carvana T-7 short-seller check · ~10-21 Tricolor suppression-ruling check (modeled) · 10-28 Carvana Q3 [PRESS] · 11-06 Manheim October release (Cox page).
+- **Swept by OTTO in s028:** 10/1 CRMT STD, 10/7 backstop, 10/1 10-D cycle, 10/1 seasoning deliverable, 10/1 Tricolor Counts 7-8 (RESOLVED: ECF 149 filed 8/28).
+- **Tooling fact for the Tricolor SDNY track:** the CourtListener SEARCH API reaches *US v. Chu* (docket 72046760) unauthenticated via `AGENTS/DEWEY/scripts/recap_pull.py search`. Use it before any press search.
+
+*(older block below: diffed vs the 2026-07-04 LAST RUN baseline, at the start of the 2026-07-25 run)*
 
 - **OTTO has been dark 21 days** (last session 2026-07-04). Nothing in the docket was swept in that window.
 - **Six rows fired unswept** between Jul 4 and Jul 25: Jul 14 banks, Jul 15 Fitch, Jul 15 MTB, Jul 20 First Brands vote, Jul 21 Ally — **plus a Jul 24 First Brands status conference that was never in the TSV at all** (docket gap; see LAST RUN).
