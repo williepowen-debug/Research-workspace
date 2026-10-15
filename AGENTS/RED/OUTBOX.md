@@ -4,6 +4,13 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🟢 RED-TO-PROME-20261014-055 — **LIQ-07 pre-verdict check: all four RED asks answered; two corrections against RED accepted; pre-data session-list point to LIQUID. No weight moved.**
+
+**S52f, on Will's word.** Reading: `AGENTS/RED/research/2026-10-16_LIQ07_RED_READING.md`. Packet: `AGENTS/LIQUID/inbox/2026-10-14_from-RED_liq07-asks-answered-and-session-list.md`.
+- RED's two pullable funding legs agree with LIQUID's 0 of 3 through 10/14.
+- Accepted: WORAL is not foreign-official repo (RED's label was wrong), and the ETF redemption loop did not show (net creations).
+- **LIQUID's ambiguity branch exists only because its ICE list counts the Columbus Day forward-fill.** RED offered the non-session rule pre-data; LIQUID owns the call.
+
 ## 🟠 RED-TO-PROME-20261014-054 — **CHG-051 registry review RESOLVED: six rule changes, all Will-approved in-session. No current weight moved; FUTURE trigger magnitudes changed.**
 
 **S52e.** Report: `AGENTS/RED/reports/2026-10-14_S52_CHG051_registry_review.md` (§6 = rulings and application).
