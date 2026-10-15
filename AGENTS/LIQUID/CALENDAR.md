@@ -1,6 +1,6 @@
 # LIQUID — Calendar & Data Releases
 
-**Reviewed:** 2026-10-14T14:38:55.053387-04:00 — human twin of `workbook/CATALYSTS.tsv`,41 registered/owner obligations (updated 2026-10-15: 069 graded, its L4 10/16 row and 10/30 successor recommendation added, discount-window read re-dated to 10/16). Four existing October deadlines were missing from the countdown and are now represented; no new test/threshold. Current owed list: STATUS§3. Past date alone does not prove resolution. Exact criteria, outcome/source notes and date classes live on each machine row.
+**Reviewed:** 2026-10-14T14:38:55.053387-04:00 — human twin of `workbook/CATALYSTS.tsv`,50 registered/owner obligations (updated 2026-10-15: 9 rows added by the owed/gap audit and L4 marked FIRED; earlier 069 graded, its L4 10/16 row and 10/30 successor recommendation added, discount-window read re-dated to 10/16). Four existing October deadlines were missing from the countdown and are now represented; no new test/threshold. Current owed list: STATUS§3. Past date alone does not prove resolution. Exact criteria, outcome/source notes and date classes live on each machine row.
 
 Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior full calendar preserved in `archive/2026-10-14_staleness-sweep/CALENDAR.md`.
 
@@ -43,7 +43,16 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-12-31 | Updated tentative Treasury buyback SCHEDULE release (UNDATED — placeholder date) | UNDATED placeholder; not a forecast date |
 | 2026-10-16 | Discount-window primary credit — October14 Wednesday point (existing NEXUS T-30 follow-up) | Existing dated obligation: exact criteria/source in machine row (re-dated 10/15: publishes 10/15 ~16:30ET, read at 10/16 wake) |
 | 2026-10-15 | ✅ GRADED 2026-10-15 — GATE-LIQ-069 existing review (PROME-set successor date) | Past date: graded, see machine row |
-| 2026-10-16 | GATE-LIQ-069 L4 — 10/14 session HY half (equity half MET: CRWV raw close -15.46%) | Existing dated obligation: exact criteria/source in machine row |
+| 2026-10-16 | ✅ FIRED (graded 2026-10-15 12:1x ET) — GATE-LIQ-069 L4 — 10/14 session HY half (equity half MET: CRWV raw close -15.46%) | Existing dated obligation: exact criteria/source in machine row |
 | 2026-10-30 | GATE-LIQ-069 review — owner-recommended successor (PROME sets in GATES.tsv) | Recommendation pending PROME transcription |
 | 2026-10-30 | GATE-LIQ-076 existing review — dealer-positioning amplification | Existing dated obligation: exact criteria/source in machine row |
 | 2026-10-31 | GATE-LIQ-079 existing review — FIRE-leg bands/base-rate proposal | Existing dated obligation: exact criteria/source in machine row |
+| 2026-10-16 | CFTC TFF weekly file — as-of Tue 2026-10-13 (GATE-LIQ-076 W1) | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-10-19 | HY >320 sustained — earliest possible 3-of-3 (10/16 cell) | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-10-28 | October FOMC decision + UK Budget | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-10-30 | LIQ-04 ACCESS CHECK — is the PitchBook LCD monthly BSL CLO AAA average reachable from this box? | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-10-30 | OCIC Q3 final SC TO-I/A (BROCK GATE-BRK-R2 read) | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-10-30 | Volta $5.0B AI loan final pricing (UNDATED — placeholder) | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-11-06 | LIQ-07 window closes | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-11-10 | LIQ-07 Resolve_By | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-11-13 | Q3 BDC 10-Q window (FSK/OBDC/broader marks) — Q3 card + Q2 M3/M4/M5 owed | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
