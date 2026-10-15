@@ -28,3 +28,28 @@ This companion keeps render metadata outside the boot-read byte budget.
 *Thirtieth base 2026-10-10 (Sat, MARKETS CLOSED, PROME prome-ce, laptop, installed 12:50 ET) — chain 0: the twenty-ninth base's amendment #1 (SAM's yen close, 10/9 17:0x ET) was folded into the base at the re-base, so its projection is REMOVED; zero projections stand. The folded projection is preserved in this file's commit history (`git log -p -- PROME/HEARTBEAT_DASHBOARD.md`) and the amendment text verbatim in `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-10.md`.*
 
 *Thirty-first base 2026-10-15 (Thu INTRADAY, markets open, PROME prome-81, desktop, installed 10:54 ET) — chain 0: the thirtieth base's amendments #1–#5 (10/12 computer-switch · 10/13 laptop closeout · 10/14 evening boot · 10/14 closeout · 10/15 crash-recovery closeout) were folded into the base at the re-base, so their projections are REMOVED; zero projections stand. The folded projections are preserved in this file's commit history (`git log -p -- PROME/HEARTBEAT_DASHBOARD.md`) and the amendment texts in `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-15.md`.*
+
+```dashboard-amendment
+{
+  "amendment": 1,
+  "source_sha256": "6a928ff38ee681eb679fb193364beb8785d7662b4c06a47a7e6faacd1ba02fe6",
+  "set": {
+    "one": "WQ-365 RULED DECLINE by Will (Deck tap 12:03 ET 10/15): the QQQ Dec put-spread card lapses Fri 10/16 15:00 ET with no trade; TERRY retires it. Also ruled by tap: WQ-411 APPROVE (spine audit #16 ran, six blocking finds fixed), WQ-413 DECLINE, WQ-404 APPROVE (read ran: tool stays WITHHELD). HOMER catch-up landed: Trepp MF DQ 8.04% Sep (2026 high), thesis-kill 0 of 5. Nothing fired; $0 moved by PROME.",
+    "channels": {
+      "Equity-vol": {
+        "headline": "WQ-365 DECLINED — the QQQ Dec card lapses Friday, no trade",
+        "body": "Will's Deck tap 12:03 ET 10/15; TERRY retires the card. The one-liner's '320 line' crossing reads 'since 10/1'.",
+        "cls": "watch"
+      },
+      "War + Europe + Russia + housing": {
+        "headline": "HOMER: multifamily delinquency 8.04% Sep, 2026 high; thesis-kill 0 of 5",
+        "body": "Trepp Sep: MF DQ 8.04% (+35bp), special servicing 8.54%; PMMS 7.40%; Redfin seller-buyer gap 62.6% record. Trepp MF maturity-adjusted kill EXECUTED (successor MF SS).",
+        "cls": "elev"
+      }
+    },
+    "ticker": {
+      "QQQ": "WQ-365 DECLINED 12:03 ET — the Dec put-spread card lapses Fri 15:00, no trade"
+    }
+  }
+}
+```

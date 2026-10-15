@@ -1,0 +1,566 @@
+{
+  "summary": "Weekly reconciliation of PROME boot-read/protocol docs against canon anchors",
+  "agentCount": 9,
+  "logs": [
+    "17 files audited; 5 flagged; 6 blocking"
+  ],
+  "result": {
+    "files": [
+      {
+        "file": "/home/willi/Research-workspace/CLAUDE.md",
+        "verdict": "CLEAN",
+        "issues": [],
+        "sample": "Git Protocol L74-L118 verified against anchors: ff-gated safe-push receipt text matches scripts/safe-push.sh L117 verbatim; non-ff recovery = routine rebase with dirty-path overlap check, escalation only on out-of-dir conflict or persistence; all git ops from repo root; pathspec commits only. Machine model L15 'serial multi-machine (desktop ⇄ laptop, ONE at a time)' matches PROME/MACHINE_LOCAL.md. Roster pointer-only (ROSTER L8 confirms root carries no membership); exclusion classes ARCHIVE SOURCES / TOOL-CLASS / OFF-FLEET exist as ROSTER headings; Potash triage rule home = AGENTS/FERT/CLAUDE.md §POTASH (L76) VERIFIED. Citation discipline 'Non-Negotiable #6' is consistent with TERRY RISK_RULES L39 (its L127 'never Non-Negotiable #N' applies to construction rules 14-23, not the 1-8 list). Script flags cited in session-end steps 1b-1e all present (--slug, --self, --from-ledger, --check weekday, --nudge, --agent; check_memory_length rc=1/rc=2; 25,600 B cap; READ_CAP 32,550 B). Messaging rule 6/6b exist in MESSAGING/CROSS_SESSION_MESSAGING.md L31/L35; live routes PROME→BRENT/SAM match MESSAGING/README.md. All 40+ backticked paths exist except KERNEL/audit/commands/, which is a create-on-first-rejection write destination named by KERNEL/tools/audit.py L21, not a dead pointer. Header stamp (WQ-385, 2026-10-05) matches last commit 88417ced3 on this file. No catalyst dates or market levels asserted."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/CLAUDE.md",
+        "verdict": "FLAG",
+        "issues": [
+          {
+            "severity": "blocking",
+            "description": "The WQ-348 guard ('each act is named in that day's closeout or boot report under the heading \"Done without asking\"', Ask-First section ~L53) has no step in either executed report spec: PROME/BOOT.md step 8 (L78, the boot-report contents list) and PROME/CLOSEOUT.md § Delivery ('Session summary to Will' list) both omit it, and neither runner (PROME/.claude/skills/boot/SKILL.md step 4, closeout/SKILL.md step 8) names it; grep of PROME/BOOT.md, PROME/CLOSEOUT.md, both SKILL.md files, prome_gate.py and boot_session.py for 'without asking' / 'WQ-348' returns nothing (VERIFIED). Under the charter's own layering rule (L19: a manual step absent from its runner is a defect) the sole control on seven autonomy classes C1-C7 — Will undoes an act by naming it, and one undo demotes the whole class — never runs when PROME follows /boot or /closeout as written. Repair home is BOOT.md step 8 + CLOSEOUT.md § Delivery (+ runner pointers), not this file; flagged here because this is the rule's home.",
+            "location": "§ Ask First / Do Not Do Autonomously — 'Done without asking' paragraph, 'Guard, all seven' clause (~L53); cross-ref § Boot Sequence item 2 layering rule (L19)"
+          },
+          {
+            "severity": "minor",
+            "description": "Skipped-control reporting (L70) requires any skipped BOOT/CLOSEOUT step be named SKIPPED in the same report with headline PARTIAL, but PROME/CLOSEOUT.md § Delivery defines PARTIAL only as 'two of three delivery states' and lists no SKIPPED line in the Will-facing summary; BOOT.md step 8 likewise lists no SKIPPED item; neither runner carries it (grep 'SKIPPED' across BOOT.md/CLOSEOUT.md/both SKILL.md: zero hits, VERIFIED). Two PARTIAL definitions coexist without cross-reference; a closeout run from the runner omits the SKIPPED naming. Same class as the blocking item, lower consequence.",
+            "location": "§ Session Process Controls — 'Skipped-control reporting' bullet (L70)"
+          },
+          {
+            "severity": "minor",
+            "description": "FREEZE header still says spine audit #15 'carries a consolidation PROPOSAL (C2–C4...), approved by Will candidate by candidate', but PROME/proposals/2026-10-02_wq299-c2-c4-consolidation-RULED.md L3 records RULED — APPROVE C2·C3·C4 (Will 2026-10-08 20:09 ET 'WQ-371 approve'), and DOCKET L647 dates the encode 2026-10-10 with no execution in its state cell (last charter commit is 88417ced3, 2026-10-05). C4 (fold Read budget + Late-session rule into Review budget) is visibly unencoded: L65 and L71 remain separate bullets. Dated phrasing only; the overdue encode is a DOCKET matter (L647) and measure.py reads the file at 23,662 B against the header's 20,000 B target, which the header itself says 'licenses nothing'.",
+            "location": "§ Session Process Controls header line (L59); bullets L65 (Read budget) and L71 (Late-session rule)"
+          }
+        ],
+        "sample": "Verified clean: header stamp 2026-10-05 WQ-385 matches git log; archive snapshot + acceptance file exist; all five skill pairs root/PROME byte-identical (diff -q); /reconcile has no manual pointer (its own home, matches anchor); SYSTEM.md confirmed on-demand (BOOT.md L75/L101 'only for implementation work'); retired bootstrap manuals present in PROME/archive/ (CLAUDE_CODE_PROME*.md). Spawn block: L291 RESOLVED(2026-09-19) WQ-268 VERIFIED at DOCKET L291; successor L445 dated 2026-10-25 VERIFIED; Review budget L511 state '① IMPLEMENTED ... canon PROME/CLAUDE.md § Review budget' VERIFIED; L378 mechanization row VERIFIED; HEARTBEAT freed 8/23 / FORGE owned 7/30 VERIFIED at AUTONOMY L95/L100; WQ-361 repair recorded inside the wq348 RULED file; all proposal/tool/spec pointers exist (spawn_list.py, prome_gate.py, measure.py, inbox_census.py, ORCH_LOG.tsv, GIT_COORDINATION.md cookbook, tests/README.md 'reads:' line, STATE_VOCABULARY Class 13). Git-default paragraph defers to root session-end step 3 verbatim (overlap check before autostash) — consistent. Boot step 3 'do not stash/pull when dirty' matches BOOT.md L54 and is a permitted stricter-than-root local rule. Freeze respected: Session Process Controls has 12 bullets now and 12 in the 2026-10-04 snapshot (no new bullet entered)."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/BOOT.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Header stamp reads 'Updated: 2026-10-05' but step 3b (Decision Deck pickup) was rewritten in five commits on 2026-10-09 (efd67fbf0, 33e01997d, ab34e02bc, 5183201ed, 46c6b938b) adding the Change-A unit/CHOICE consumption rule — a rule change carried under a stale header stamp (the body's own '2026-10-09' dates are correct; the header is the drift). Same class CLOSEOUT.md's header explicitly calls a defect for its 9/25 edit.",
+            "location": "Header line 3 vs § Boot Sequence step 3b (~line 59)"
+          },
+          {
+            "severity": "minor",
+            "description": "Step 5's 'Machine capabilities' (env_doctor), 'Position-agreement gate' and 'Fire-time gate' bullets are written as standalone commands with no note that they already run inside `prome_gate.py boot` (verified: prome_gate.py ~L1581 env_doctor, ~L1587 position_agreement, ~L1600 firetime), whereas 5b and the BOARD scan say 'also runs inside / ALREADY inside'. The /boot runner covers them only via the one-shot gate line, which is correct in effect, but a cold reader of the manual cannot tell whether the runner skips them or runs them twice. Note also the gate wires firetime WITHOUT --quiet (flags are the payload) while the manual quotes --quiet — fine for the standalone form, worth one clause.",
+            "location": "§ Boot Sequence step 5, bullets 4, 5 and 'Fire-time gate' (~lines 66-70)"
+          }
+        ],
+        "sample": "Pointers: 90+ backticked paths checked on disk, all resolve (SOUL/IDENTITY/AGENTS-PROME correctly asserted absent). Runner /boot vs manual: both directions consistent; runner's 'prome_gate carries no spine-stamp check' claim VERIFIED by grep; root/PROME SKILL.md copies identical. Git/machine-model wording matches root Git Protocol + MACHINE_LOCAL. GATES `consumed_by` column VERIFIED. DOCKET L660 cited correctly (row dated 10/10, change dated 10/9 as stated)."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/CLOSEOUT.md",
+        "verdict": "FLAG",
+        "issues": [
+          {
+            "severity": "blocking",
+            "description": "Step 11 still reads 'The HELM keeps this step's rule as written until WQ-382 (b) is ruled' and directs publishing the Helm (page + docket.html) at every Standard+ closeout, with Pre-closeout item 4/5 and § Delivery PUBLISHED keyed to that per-closeout Helm publish. WQ-382 (b) WAS ruled: Decision Deck APPROVE note 'B', Will 2026-10-09 18:41 ET, consumed 20:28 ET (WILL_QUEUE row 382, § RECENTLY DONE: 'IN FORCE FROM THE WORD: the Helm is NOT republished at Standard+ closeouts; it republishes only on Will's word or at a spine audit ... until encoded a closeout that skips the Helm cites this ruling and is not PARTIAL on that step'). The encode is DOCKET L665 (dated 2026-10-13, PENDING, now past due). The file's header was re-stamped 2026-10-10 17:05 ET — after the ruling — with the stale conditional intact. A closeout reader following step 11 as written republishes the Helm against a standing ruling and mis-reports a Helm-skipping closeout as PARTIAL; STATUS.md's Publication row already points at the ruling, the manual itself does not. Fix = L665's step-11 encode (plus the symmetry-row re-wire L594 names) in one edit; at minimum a pointer to WQ-382 (b)/L665 beside the step-11 Helm sentence.",
+            "location": "§ The routine step 11 (~line 96); also Pre-closeout item 4 'MANDATORY dashboard and THE HELM symmetry rows' (~line 33), item 5 Helm file-LISTING prerequisite (~line 34), § Delivery PUBLISHED row (~line 109-111)"
+          },
+          {
+            "severity": "minor",
+            "description": "Step 11 says Fleet-Ops' two panels 'fold into the Helm under DOCKET L594 (apply-ready, waiting a process slot), after which the symmetry row above is re-wired'. L594's state cell reads APPLIED 2026-10-09 20:53 ET (prome-1e; commit e3f4f739c; size leg failed and disclosed). What remains per L594 is the CLOSEOUT.md re-wire itself (symmetry row + step 11, 'in ONE edit with L665'). Dated phrasing is now false and the header stamp (10/10) postdates the apply.",
+            "location": "§ The routine step 11 (~line 96) and § Boot↔Closeout symmetry table row 'Fleet-Ops dashboard · THE HELM · DECISION DECK' (~line 59)"
+          },
+          {
+            "severity": "minor",
+            "description": "Step 8 names 'DOCKET L473's disposition cell (successor read registered at L488)' as the LIVE condition for --consumed-move. L473's cell has read 'RESOLVED — FOLDED INTO L488' since 2026-10-08 18:49 ET; L488 (PENDING, 'next-PROME-session') is the live carrier of the restriction. A reader lands right via L473's own redirect, so the instruction (no --consumed-move; commit consumed packets separately) is still correct, but the pointer is one hop stale. The /closeout runner mirrors the same wording (consistent, no layering defect).",
+            "location": "§ The routine step 8, second paragraph (~line 81)"
+          },
+          {
+            "severity": "minor",
+            "description": "Helm/Deck sources are named as bare `BRIEF.md` and `HANDBOOK.md` in step 7 and in the symmetry-table render row; the files live at `PROME/BRIEF.md` / `PROME/HANDBOOK.md` (no root BRIEF.md or HANDBOOK.md exists). Every command in this file runs from the repo root, where the bare names do not resolve. The 2026-10-02 audit path-qualified `PROME/registry/WQ_EXPLAINERS.tsv` in the same list and left these two.",
+            "location": "§ The routine step 7 (~line 78) and § Boot↔Closeout symmetry table render row (~line 59)"
+          },
+          {
+            "severity": "minor",
+            "description": "Pre-closeout item 5 and § Delivery present `prome_gate closeout → publication prerequisites` as covering three legs (every OPEN WQ row has an explainer row · live artifact viewed this session · Helm files LISTED). The instrument (`check_publication_prereqs`, prome_gate.py ~L1398-1424, ADVISE class) checks only Deck explainer coverage; the viewed/listed legs are judgment, not mechanized. Wording slightly overstates the instrument — say which leg the gate checks.",
+            "location": "§ Pre-closeout item 5 (~line 34) and § Delivery 'Publication prerequisites are checked at Pre-closeout' (~line 111)"
+          }
+        ],
+        "sample": "Pointers: all backticked paths resolve except the two bare BRIEF.md/HANDBOOK.md names (exist under PROME/). Tool interfaces quoted (argus_scope --record-review/--mark-reviewed/--consumed-move/--verify-review --ref --paths/--record-baseline, RECEIPT_PATHS; commit_check --stage -F --push; prome_gate closeout --tier/--no-memory/--slug/--no-superseded/--superseded; claim_check advisory; decision_deck --owed-url/--reference-url, _hosted_reference_note, deck_reference_hosted.json; will_handbook docket.html build line; wq_ledger sync/check; docket_view/willq_view --write; ledger_staleness --nudge) all VERIFIED present. Runner /closeout vs manual: both directions consistent; root/PROME SKILL.md identical. Git wording matches root (pathspec, ff-gated safe-push, dirty-path overlap before autostash, verbatim push receipt). Post-stamp edit check: one wording-only change after the 10/10 stamp (6c1421c93)."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/STATUS.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Header line says 'WQ411 owns the next audit decision' (and Last spine audit 2026-10-02, re-run when >7d). WILL_QUEUE.md (working tree, uncommitted) now records WQ-411 APPROVE via Decision Deck tap 2026-10-15T16:00:30Z (12:00 ET), moved to RECENTLY DONE. The pointer to the deciding row is still correct, but a boot reader would read it as 'awaiting the word' when the word was given; stamp at the end of this audit.",
+            "location": "Header, line 3 ('Last spine audit')"
+          },
+          {
+            "severity": "minor",
+            "description": "'Position follow-through' row's remaining-work cell says 'USO 150C ×2 sold (Will's word 10/14, fill owed)', lists 'QQQ 740P ×3 (Thu)' and 'HBAN 16P ×2 (Fri)' as Will's live lines. The 10/15 10:10 ET broker capture (FORGE/STATUS.md L48/L50/L88, ANVIL reconcile; DOCKET L615 RESOLVED 10:23 ET; L709 note) shows the USO fill broker-CONFIRMED ($760.68), QQQ 740P ×3 all SOLD 10/14 (expiry MOOT), and HBAN 16P now ×1 (D-80). STATUS stamp 09:09 predates the capture; FORGE is named as the record, so not blocking, but the cell directs PROME to chase a fill already evidenced and a line already closed.",
+            "location": "§ Current Work Queue table, row 'Position follow-through' (line 11)"
+          }
+        ],
+        "sample": "L3: **Last spine audit:** 2026-10-02. Re-run when >7d; WQ411 owns the next audit decision. | L11: USO 150C ×2 sold (Will's word 10/14, fill owed) … QQQ 740P ×3 (Thu), HBAN 16P ×2 (Fri, WQ-302 OPEN)"
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/SCRATCH.md",
+        "verdict": "FLAG",
+        "issues": [
+          {
+            "severity": "blocking",
+            "description": "Hand-written lines contradict the file's own generated Pending-Will view and WILL_QUEUE.md. Line 14 ('WQ-365 lapses 15:00'), line 16 ('Will's open rows: … WQ-365 (10/16, lapses) · WQ-404 · WQ-411 (spine audit, stamp 10/02) · WQ-413'), line 27 ('Standing guards: … WQ-365 NOT ARMABLE unless HY ≥321 on the two latest readings (window ends Fri 10/16 15:00 …)') and line 32 ('Spine audit awaits WQ411's word') all treat WQ-365/404/411/413 as OPEN. WILL_QUEUE.md (working tree) records all four RULED via Decision Deck 12:00–12:03 ET 10/15: 411 APPROVE, 413 DECLINE, 404 APPROVE, 365 DECLINE (also evidenced by the untracked packet AGENTS/TERRY/inbox/2026-10-15_from-PROME_WQ365-RULED-DECLINE-card-lapses-retire.md). The generated WILLQ-VIEW on line 22 was regenerated and already dropped them (26→22 open), so the file states two different rule sets: a boot reader would hold the spine audit for a word already given and carry a DECLINED QQQ card as a live 'standing guard' with an arming condition (HY ≥321). Fix = re-cut lines 14/16/27/32 from WILL_QUEUE at closeout.",
+            "location": "§ NEXT SESSION lines 14, 16; § Operator card line 27 ('Standing guards'); § Open carry line 32 — vs generated view line 22"
+          },
+          {
+            "severity": "blocking",
+            "description": "The DOCKET-VIEW generated block (as-of 2026-10-15, docket-crc32 1924111048) is STALE against PROME/DOCKET.tsv: `python3 scripts/docket_view.py --check-generated PROME/SCRATCH.md` → 'DOCKET-GENERATED STALE … rc=1' (DOCKET.tsv committed 936683324 at 11:24 ET, after the 11:04 checkpoint, and further modified uncommitted). Concretely the THU 10/15 line still shows L615 'QQQ Oct-15 740P remaining x3 — sell-or-roll before expiry' and L700 (MIDAS CPI/PPI) as live, while DOCKET L615 is RESOLVED 10:23 ET (all three SOLD 10/14) and L700 RESOLVED-WITH-POINTER 10:28 ET — and the file's own Operator card (line 26) says the 740P expiry alarm is MOOT. The view's instruction 'Use those rows and the generated calendar for dates' (line 30) would send a boot reader to act on a position-facing row for contracts already closed. Fix = `docket_view.py --write PROME/SCRATCH.md` at closeout (the block says DOCKET wins on drift, which bounds the harm but does not remove the contradiction).",
+            "location": "§ Live-catalyst calendar, DOCKET-VIEW block lines 44–50 (THU 10/15 entries L615, L700) vs Operator card line 26"
+          },
+          {
+            "severity": "minor",
+            "description": "Unexpanded placeholder: '③ ANVIL D-70: FORGE/position_management.tsv re-review (spawned {now})' — the spawn stamp was never written (the `{now}` template token shipped). ORCH_LOG carries the ANVIL 10/15 row; replace with the ORCH_LOG time or drop the parenthetical.",
+            "location": "§ NEXT SESSION, 'Remaining today' line 12, item ③"
+          },
+          {
+            "severity": "minor",
+            "description": "'Next HEARTBEAT base: carry SHADE's PROVISIONAL fire, WQ414/415, GPU lane, AEOLUS bands and read-1/read-2 residue lists; [30th-base plan] retains the basis/residue' is overtaken within the same file: line 6 names `plans/2026-10-15_heartbeat-31st-rebase-PLAN.md` (reads + residue) and line 8 records the 31st re-base committed 79f704ed3; HEARTBEAT.md header reads THIRTY-FIRST re-base, chain 0. Two sections name different 'next base' carry/plan files; the 30th-base bullet should be re-pointed to the 31st plan or marked done.",
+            "location": "§ Open carry, bullet 'Next HEARTBEAT base' (line 32)"
+          },
+          {
+            "severity": "minor",
+            "description": "Cosmetic concatenations from a stripped-space edit: 'last audit10/2' (line 32), 'plus27tests' (line 33); the generated block inherits 'both08:30' from DOCKET L700 (source-side, not SCRATCH's).",
+            "location": "§ Open carry lines 32–33"
+          }
+        ],
+        "sample": "L27: WQ-365 NOT ARMABLE unless HY ≥321 on the two latest readings (window ends Fri 10/16 15:00; HY 316 [10/13]) | L32: Spine audit awaits WQ411's word; last audit10/2 | L12: (spawned {now}) | DOCKET-VIEW THU 10/15: QQQ Oct-15 740P remaining x3 — sell-or-roll before expiry… (L615)"
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/ACTIVE_DECISIONS.md",
+        "verdict": "FLAG",
+        "issues": [
+          {
+            "severity": "blocking",
+            "description": "The TERRY row states WQ-365 is \"NOT ARMABLE unless HY ≥321 on the two latest readings, window ends Fri 10/16 15:00 ET\" — a revival condition the owner card denies and that is now moot. The card (AGENTS/TERRY/setups/QQQ_dec18-put-spread_dated-downside_2026-10-02.md §5 + 10/7 addendum) needs (a2) a QQQ close < $748.65 AND (b) HY ≥321 ×2, and its own kill (a cell ≤312) PRINTED 10/2–10/6 ('credit has un-led'); HEARTBEAT L9/L18/L43 say Friday's HY cell cannot revive it. With HY 325 [10/14] being the first ≥321 cell, a boot reader of this row would hold the card open on a second ≥321 print. Will also ruled WQ-365 DECLINE via Decision Deck 2026-10-15 12:03 ET (WILL_QUEUE row 365; packet AGENTS/TERRY/inbox/2026-10-15_from-PROME_WQ365-RULED-DECLINE-card-lapses-retire.md) — not recorded here. Fix: replace the clause with 'WQ-365 RULED DECLINE 10/15 12:03 ET; lapses Fri 10/16 15:00 ET; TERRY retires the card'. Note for the operator question: this ask had no consequence either way (card self-killed, both desks leaned LAPSE, $0) — PROME/CLAUDE.md C3 class, should have been recorded without an ask.",
+            "location": "Live Decision Index, TERRY duration/TLT-put row (L38), Next column, final sentences"
+          },
+          {
+            "severity": "minor",
+            "description": "Position language in the 'October14 accepted broker evidence' paragraph is a day stale against the 10/15 capture: 'QQQ740P3 remain' (SOLD 10/14, broker-evidenced 10/15 per HEARTBEAT §Book + ANVIL 6fbf39cd0), 'USO150C2 expireOctober14' (SOLD 10/14), 'HBAN16P2 October16' and 'WQ302 now concerns HBAN2' (×1 held at 10/15 rcv). The paragraph is dated and points to the transcription JSON + FORGE, so it is labeled rather than wrong-at-write, but an index row asserting lots that were sold is the drift the Current Mode section warns against. Replace with the 10/15 state or cut to the FORGE pointer.",
+            "location": "TERRY duration/TLT-put row (L38), Next column, 'October14 accepted broker evidence' paragraph"
+          },
+          {
+            "severity": "minor",
+            "description": "Pointer rot: `AGENTS/TERRY/inbox/2026-10-14_from-PROME_WQ428-429-RULED-book-the-fills.md` no longer exists at that path — TERRY consumed it; the git-tracked file is at `AGENTS/TERRY/inbox/processed/2026-10-14_from-PROME_WQ428-429-RULED-book-the-fills.md`.",
+            "location": "OZK/WAL SELL row (L39), Owner column"
+          },
+          {
+            "severity": "minor",
+            "description": "Internal rule violation: the Rules section (L22) sets a row target of ≤ ~2 KB, but three live rows exceed it — TERRY row L38 = 4,731 B, Post-FOMC row L35 = 3,317 B, CORAL row L36 = 2,210 B (UTF-8, measured). The 2026-10-10 rotation header itself records 'the live-row snapshot-then-rewrite step is NOT performed this pass — owed'. Standing guards are exempt from rotation, but L38 is more than double the target even net of them.",
+            "location": "Rules (L22) vs Live Decision Index rows L35, L36, L38"
+          },
+          {
+            "severity": "minor",
+            "description": "Stale date: 'next grade 10/09' for GATE-CORAL-MSI-01. Reading #9 was graded 10/15 (GATES state cell; HEARTBEAT §7) and GATES review_by is now 2026-10-22. The row says 'GATES canonical', so a reader is pointed right, but the inline date is six days past.",
+            "location": "CORAL thesis row (L36), Next column, 'next grade 10/09'"
+          },
+          {
+            "severity": "minor",
+            "description": "Band-operator drift in two rows that do not carry the declaration: RESEARCH-INTAKE row says 'named ≥280 X1-breach' and the Post-FOMC row says 're-arm ≥280 s=3', while the ruled letter (KILL_MEMO WQ-363, 2026-10-04) is 'three consecutive published readings strictly above 280.0bp; any reading at or below 280.0 resets'. config.py classify() does use >= 280 for red, and the Bank-put row (L40) correctly declares that ≥ vs > mismatch as the OPEN CATO item (verified at PROME/HEARTBEAT_COLD.md L705, open since 9/22). Either carry the strict '>280' letter in L34/L35 or point them at L40's declaration.",
+            "location": "RESEARCH-INTAKE row (L34) and Post-FOMC row (L35), the ≥280 clauses"
+          }
+        ],
+        "sample": "Date basis: the harness passed no `today`; the environment date 2026-10-15 was used. Verified clean: pointer existence for 40+ paths (one moved, flagged); machine-model phrasing (serial multi-machine, L37) matches MACHINE_LOCAL.md; VLO-HELD-01 review 11/18 and Dec observations through 11/19 match GATES/WQ-386; OZK/WAL windows (Mon 10/19 15:30; backstop Tue 10/20 15:30) match TERRY's cards; DOCKET L329/L471/L709 dates match; all roster names (incl. ANVIL as a tool-class clerk, CATO) resolve in ROSTER.md; weekday labels all correct."
+      },
+      {
+        "file": "/home/willi/Research-workspace/HEARTBEAT.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Freshness lag inside the same session, not a base error: the one-liner (L9), §Book (L43), §Thresholds closest-lines (L52), the kill-on-sight cell (L58) and §Skip (L67) all say WQ-365 'lapses Fri unless Will keeps it / a word from Will is owed only to keep it alive'. Will DECLINED it via Decision Deck at 12:03 ET 10/15, consumed 12:06 ET by prome-81 (WILL_QUEUE row 365) — 69 minutes after this 10:54 base, with chain still 0. Owner surface wins by L7's own rule, but L56 says 'never Will's open LIST here', and five cells now describe an open ask that is ruled. Append AMENDMENT #1 (which the L2 size clock already requires on ANY append; file is at 24,390 B = 74.9% of cap).",
+            "location": "One-liner L9; §Book L43; §Thresholds L52; Pointers kill-on-sight cell L58; §Skip L67"
+          },
+          {
+            "severity": "minor",
+            "description": "Wording: 'HY OAS printed 325 bp on the 10/14 cell — the FIRST cell OVER the 320 line' is false absolutely — 10/1 printed 324 (TERRY's WQ-365 card §4, FRED read 10/2). §3 (L18) quotes RED correctly as 'first cell over 320 since 10/1'. Add 'since 10/1' in the one-liner.",
+            "location": "One-liner (L9), first sentence"
+          },
+          {
+            "severity": "minor",
+            "description": "Date claim not at its cited row: 'GPU futures NOT trading (CFTC to 11/9; L250)'. DOCKET L250 (RESOLVED 2026-10-08, the CME/Silicon Data listing row) carries no 11/9 date anywhere in the row (grep SEARCH-NOT-FOUND). The 11/9 figure presumably comes from VULCAN's WQ-389 memo; cite that artifact or drop the date.",
+            "location": "§6 AI capex (L27), 'CFTC to 11/9; L250'"
+          }
+        ],
+        "sample": "Verified clean: every GATES review date in §Thresholds (LIQ-069 10/30 · LIQ-076 10/30 · LIQ-079 10/31 · HOMER-KILL 11/20 · T12S 10/19 · ROLL70 12/04 · FALCON-001 10/21 · OSPREY-001 10/18 · FERT-G5 10/21 · FERT-G3 11/05 · CORAL-MSI-01 10/22 · BRK-R2 10/31 · OP-SCALE-01 11/07 · VLO-HELD-01 11/18 · COT-35B 10/16 · NEXUS-SEAT-01 RESOLVED) matches GATES.tsv col 12; every L### in the Thu→Wed calendar (L35, L170, L405, L520, L554, L558, L586, L599, L620, L651, L666, L704, L705, L706, L708, L709, L720, L721) matches DOCKET.tsv by physical line; all cold pointers (§31.1/.2/.3/.5/.7/.B, §30.4, §30.B, §29.8, §KOS…§KOS.15, §KOS.15-H, §K, §K.1, §C, §S, §R, §B.1, §D.2, §19.2R) exist in HEARTBEAT_COLD.md; the fleet_dashboard.py 'Brent' parser anchor is real (PROME/tools/fleet_dashboard.py L314–319); band definitions (HY >320 RED count, <260 ×2 re-kill, X1 CLOSED) match KILL_MEMO/config.py; machine model ('first sitting after the laptop→desktop switch') matches MACHINE_LOCAL.md; roster names resolve; weekday labels all correct; 32,550 B budget matches root read-cap. Market levels ignored by design."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/GIT_COORDINATION.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Section pointer `PROME/CLOSEOUT.md` Chunk 4 (cited twice: 'Manual rules and closeout receipt: PROME/CLOSEOUT.md Chunk 4' and 'PROME commits go through the wrapper (PROME/CLOSEOUT.md Chunk 4)') names a section that no longer exists — grep for 'Chunk 4'/'Chunk-4' returns 0 hits in both PROME/CLOSEOUT.md and PROME/CLOSEOUT_PROCEDURES.md; CLOSEOUT.md's headings are When to run / Pre-closeout / Boot↔Closeout symmetry / The routine / Delivery / Conditional procedures. The same paragraph's 'step 10' cite is correct (CLOSEOUT.md L89–93), so a reader lands in the right file; re-point 'Chunk 4' to '§ The routine step 10' or '§ Boot↔Closeout symmetry'.",
+            "location": "Commit cookbook, Fail-stop batch paragraph (~L90) and Default-from-2026-08-29 paragraph (~L92)"
+          },
+          {
+            "severity": "minor",
+            "description": "Header stamp says 'Updated: 2026-10-02 … body edits are dated in place through 2026-09-12', but the Fail-stop batch paragraph carries an in-place edit dated 'reconciled 2026-10-03 22:0x ET' and git log shows the file's last commit is 2026-10-03 (a2009b1ff). Stamp reconcile only; no rule affected.",
+            "location": "Header L4 vs Commit cookbook ~L90"
+          },
+          {
+            "severity": "minor",
+            "description": "Purpose parenthetical 'All agents are Claude Code sessions under serial multi-machine operation' is runtime-specific wording superseded by root CLAUDE.md's 2026-10-05 WQ-385 amendment ('A desk may run with an OpenAI or Anthropic model… do not assume a runtime auto-loads another runtime's instruction files'; Data Hygiene: 'not an assumption that every session exposes Claude tools'). The serial-multi-machine half of the sentence is correct; the git rules themselves are runtime-neutral, so no directive is wrong — wording drift only.",
+            "location": "Purpose section, ~L9"
+          }
+        ],
+        "sample": "Hard Rules L15–20; Commit cookbook L90–119; Push Discipline L123–134 checked against root CLAUDE.md Git Protocol, safe-push.sh, commit_check.py, orphan_check.sh, ROSTER.md, DOCKET L503."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/SYSTEM.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Mirror-map rows for Gate C custody and Git/push protocol list `PROME/CLOSEOUT.md` (Chunk 4) / 'Chunk 4' as a known mirror; CLOSEOUT.md no longer has a section by that name (0 grep hits in CLOSEOUT.md and CLOSEOUT_PROCEDURES.md). The mirror walk still reaches the right file; the section label should become '§ The routine step 10' (the commit/verify/push block). The 'CLOSEOUT Chunk-4 git prose' mention in the 8/9 census paragraph (~L55) is a dated record and is fine.",
+            "location": "Canonical → Mirrors table, rows 'Gate C Kernel custody' (~L59) and 'Git/push protocol' (~L61)"
+          },
+          {
+            "severity": "minor",
+            "description": "Safety / Autonomy Reminders bullet 'All agents are Claude Code sessions (no persistent/managed agents — OpenClaw vestige removed 7/1). PROME may spawn domain agents via teams-mode… apply the mode-split rule' predates root CLAUDE.md's 2026-10-05 WQ-385 runtime-compatibility amendment (desks may run on OpenAI or Anthropic models; identify runtime at boot; desk-spawn preflight must cover 'every runtime in use' per PROME/CLAUDE.md). SYSTEM.md is on-demand, not a boot read, and the bullet does not alter any grant, so this is wording drift rather than a mis-directive — but the spawn sentence should cite the WQ-385 Desk-spawn preflight alongside the mode-split rule. Header 'Updated: 2026-10-02' predates WQ-385, consistent with the gap.",
+            "location": "Safety / Autonomy Reminders, 5th bullet (~L230); also Prome Runtime ~L76 ('Prome runs as a Claude Code session' — PROME-specific, acceptable)"
+          }
+        ],
+        "sample": "Boot Trust Stack L20–46 (symlink, parity-BLOCKING, SCRATCH/STATUS rules), Mirror Map L57–70 (DOCKET, GATES, WILL_QUEUE markers, HEARTBEAT near-dates view, MACHINE_LOCAL L16), Tools/Data L164–177 (workflows absent, prome_gate check names, CLOSEOUT step 9), Note 1 HY bands L206, Note 2 DM-v1 routes L208 — all verified at the artifact."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/HANDOFF.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "HEARTBEAT 31st re-base is listed as OWED / open carry ('96% after amendment #5, chain 5; skipped 10/14 night and 10/15') in the Resume line, the October15 entry and 'Older unresolved continuity' — but HEARTBEAT.md was re-based at 79f704ed3 (2026-10-15 11:03 ET; header reads 'THIRTY-FIRST re-base', 'Chain: 0'). HANDOFF was committed 09:30 ET, before the re-base; SCRATCH ★ NEXT (the entry point HANDOFF defers to) already reflects it. Mid-session drift, not a wrong directive — but the three mentions must be reconciled at this session's closeout per the Handoff Requirement.",
+            "location": "Resume (line 3), October15 entry 'Owed:' (line 6), Older unresolved continuity (line 18)"
+          },
+          {
+            "severity": "minor",
+            "description": "'ARGUS L678/L679/P5' is carried as open — DOCKET L678 (done-rows preamble gap) is RESOLVED 2026-10-10 20:33 ET; only L679 (legacy done-row sweep, PENDING) remains. Stale carry item.",
+            "location": "Older unresolved continuity (line 18)"
+          },
+          {
+            "severity": "minor",
+            "description": "'the box died at 03:08' / 'went down at ~03:08 ET' merges two timestamps: MACHINE_LOCAL.md § Overnight desk runs (VERIFIED at the Windows System log) puts the planned Windows-Update restart at 03:28:30 ET; 03:08 is the sessions' last transcript write. Wording only — dated narrative, no directive depends on it.",
+            "location": "October15 heading + first sentence (lines 5–6)"
+          }
+        ],
+        "sample": "Resume: '[SCRATCH ★ NEXT] owns the entry point (positions first, BROCK after 16:30, the 10/16 wakes, the 31st re-base, the WQ-430 maintenance session, GIBBS 10/19)' — all rows verified at DOCKET L586/L651 (BROCK 10/15), L721 (LIQUID 10/16), L710 (WQ-430 Thu 10/15), L704 (GIBBS 10/19); 31st re-base since done (79f704ed3)."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/AUTONOMY.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Header stamp 'Updated: 2026-10-05' under-covers the change log: the 2026-10-04 narrow-C8 row was written 2026-10-08 18:50 ET (per its own text) and the 2026-10-14 WQ-430 row was added later still. The header's own convention enumerates every edit in its 'Prior:' chain, so the two newest rows ride under a stale stamp (the 9/10 'row rode under the 9/06 stamp' pattern this header already records once).",
+            "location": "Header 'Updated:' line (line 3) vs change-log rows dated 2026-10-04 and 2026-10-14 (lines 103–104)"
+          },
+          {
+            "severity": "minor",
+            "description": "The narrow-C8 grant (WQ-369, IMMEDIATE dark-desk own-theater spawn, a Tier-2 exception) exists only in the change log: the Tier-1 WQ-348 index bullet lists C1–C7, the Tier-2 'NEW-DIRECTION domain spawn' bullet carries no exception, and the auto-injected PROME/CLAUDE.md § Ask First has zero C8/IMMEDIATE text (grep 0). The row discloses this honestly ('Charter propagation still OWED → DOCKET row registered 2026-10-08'), but that row — DOCKET L644, dated 2026-10-12, PENDING — is now 3 days past date. Fail direction is safe (a reader asks rather than acts), hence minor; flag L644 as overdue to the session.",
+            "location": "Change log row 2026-10-04 (line 103); Tier 1 index bullet (line 27); Tier 2 spawn bullet (line 38)"
+          },
+          {
+            "severity": "minor",
+            "description": "Change-log rows are out of date order: the 2026-07-30 FORGE-ownership row sits after the two 2026-09-10 rows (late-logged 8/16, self-explained in the row). Cosmetic; a reader scanning chronologically can miss it.",
+            "location": "Autonomy Change Log table (line 100 between lines 99 and 101)"
+          }
+        ],
+        "sample": "Line 6: 'Git / commit / push autonomy is owned by root CLAUDE.md Git Protocol … demoted to pointer 8/9, spine-audit #8 … don't re-add a git rule here.' — pointer-only, matches root canon; no restated non-ff rule remains. Line 97 spawn-driver row: 'review 2026-09-19 (DOCKET L291 — sat and RESOLVED, WQ-268; successor L445 2026-10-25)' — L291=2026-09-19 and L445=2026-10-25 verified at DOCKET.tsv."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/COMPLETION_SPEC.md",
+        "verdict": "CLEAN",
+        "issues": [],
+        "sample": "Verified: BOOT.md step 3b (line 59) + boot runner SKILL.md line 15 both carry the WALTER LAST_COMPLETION §WILL_NEEDS deck-feed read, so the §Updated carve-out is live canon; CLOSEOUT.md § Boot↔Closeout symmetry (line 40), ORCHESTRATION_PLAYBOOK.md § Runtime mechanics (line 64), orch_closeout.py --expected-key/--inventory-complete + ASKED_RECEIPT/ASKED_WORKING/ALREADY_CLOSED/DARK_BEFORE_ASK all exist; STATUS_TWO_STATE_PILOT.md line 92 carries the HENRY mixed-vintage row; WAL promotion 7/25 matches ROSTER line 137; no canon file requires LAST_COMPLETION.md fleet-wide, so 'no longer required' holds."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/MACHINE_LOCAL.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Header stamp reads 'Updated: 2026-10-02 (… stamp reconcile only …)' and the Inventory italic note says 'verifications run through 9/22', but the body carries later material: Bright Data row (10/04), Fleet safeguards section (10/05), laptop hooks/dispatcher verification (10/08), Kalshi rc=3 change and the whole Overnight-desk-runs section (10/15). Per-cell dates govern by the file's own rule, so no boot reader acts wrongly, but the 'through 9/22' claim is false and the header no longer describes the body's vintage.",
+            "location": "Header line 2 and Inventory note line 7 (vs rows 15, 27 and sections at lines 30-36, 49-67)"
+          },
+          {
+            "severity": "minor",
+            "description": "Row 11 (Repo venv) cites 'scripts/env_doctor.py's fix lines (`.venv/bin/pip install yfinance pandas pyyaml pdfminer.six`)' — env_doctor's actual fix strings are `python3 -m venv .venv && .venv/bin/pip install yfinance pandas` (line 251) plus per-dependency lines (259/266) and a separate pyyaml line (148); no single line matches the quoted recipe. The same cell then says 'The fix line below also omits bs4' but no fix line appears below it in this file. Wording drift in a rebuild recipe; the substance (install all five, warn-only gaps) is still right.",
+            "location": "Inventory table row 11 'Repo venv', Consequence cell"
+          },
+          {
+            "severity": "minor",
+            "description": "Fleet-safeguards table desktop column reads bare 'VERIFIED' (hooks row, dispatcher row, master-protection row) with no date, hostname or session id, in a file whose explicit rule is that per-cell dates govern; the laptop column beside it is fully dated (2026-10-08 18:54 ET, prome-07). A later reader cannot tell when the desktop verification was made.",
+            "location": "'Fleet safeguards — installed 2026-10-05' table, Desktop column, lines 34-36"
+          },
+          {
+            "severity": "minor",
+            "description": "VIRGIL row restates 'the 8/24 assessment' and 'fellowship-assessment prep artifacts (ASSESSMENT_STATE.md, DRILL_SHEET.md, mock_datavault/)' whereas PROME/ROSTER.md line 168 says the assessment specifics 'live in its own charter and are deliberately NOT restated in a shared file — routing fact here, content there'. This PROME-owned file is a shared repo file, so the detail sits in tension with the ROSTER's stated privacy rule; routing fact (gitignored path, launch line, OFF-FLEET) is enough here.",
+            "location": "Inventory table row 'Will-personal prep zone' (line 28), Desktop cell"
+          }
+        ],
+        "sample": "Verified: kalshi.py lines 229-232 implement 'rc=3 = reachable but UNSIGNED' per the 10/15 row; WILL_QUEUE row 31 dated 2026-11-01 covers FFIEC JWT 11/05, desktop PAT 11/12, laptop PAT 11/15 exactly as the FFIEC and gh rows claim (DOCKET line 219 agrees); DOCKET line 599 = 2026-10-17 WQ-373 pilot review as the Bright Data row cites (L599); core.hooksPath=scripts/githooks with commit-msg/pre-commit/pre-push present; .gitignore lines 19-20 and 76 cover .env/.env.*/WILL/private/; cited commits 5eae08a1c, 517e79c11, 09f592f4d, 66a00c863, 34d168514, 8c3d576a7 all exist with matching dates; all 38 backticked paths resolve."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/.claude/skills/boot/SKILL.md",
+        "verdict": "CLEAN",
+        "issues": [],
+        "sample": "VERIFIED: root/local copies byte-identical (diff). Step order 3–6 = BOOT.md 7·8·6·9 checked true. One-shot command (line 17) matches BOOT.md step 5 verbatim; `--refresh` and `--charter-mode` exist in boot_session.py (default explicit = the fail-safe mode BOOT.md requires). BOOT.md step-5 items the runner folds into 'the gate' (env_doctor, position_agreement, board_scan, firetime_check, corrections_boot_check) all run inside prome_gate.py mode_boot (L1579–1615). Runner line 20's claim that prome_gate.py carries no 'Last spine audit' check is VERIFIED (grep: comments only) — the runner is that stamp's only carrier. Every required read (USER.md, HANDOFF, SCRATCH, ACTIVE_DECISIONS+GATES, STATUS, 4b memories, HEARTBEAT, WALTER LAST_COMPLETION §WILL_NEEDS) and every trigger-gated residual (step 8 interrupt test / third-boot disposition, step 6 conditional reads) is named. No rule stated only in the runner. All backticked paths exist. Context note (not this file's defect): PROME/STATUS.md 'Last spine audit: 2026-10-02' is >7d today, so runner step 4 will fire on the next boot."
+      },
+      {
+        "file": "/home/willi/Research-workspace/PROME/.claude/skills/closeout/SKILL.md",
+        "verdict": "CLEAN",
+        "issues": [
+          {
+            "severity": "minor",
+            "description": "Pointer drift: the runner says 'the live condition is DOCKET L473's disposition cell (successor read L488)'. L473's state cell now reads 'RESOLVED — FOLDED INTO L488'; the live restriction ('no --consumed-move at any real closeout; consume-moves are committed before the freeze') lives in L488's PENDING cell. The operative instruction on the runner line is still correct (commit consumed packets separately; --consumed-move NOT VERIFIED), so a reader acts rightly, but the named live cell is a resolved row. The same stale pointer is mirrored in PROME/CLOSEOUT.md step 8 (manual, not in this audit's scope) — fix both by pointing at L488 as the live cell.",
+            "location": "Step 3 (FREEZE, then AUDIT), line 17, the parenthetical after `--consumed-move`"
+          },
+          {
+            "severity": "minor",
+            "description": "Label under-names a trigger-gated duty: step 2 lists 'root steps 1b–1e', but CLOSEOUT.md routine step 6 also carries 1c-bis (ledger nudge) and the PROME-only 1d-bis hot-index FLOW rule (≥75% of MEMORY.md cap ⇒ demote to INDEX_COLD.md, Will 2026-08-12), which the manual explicitly says is 'not a root step'. The runner reaches it only via the 'Steps 1–7 of § The routine' pointer; the literal label is the same wording whose deletion ARGUS caught at spine audit #15. Suggest 'routine step 6 (root 1b–1e + 1c-bis + PROME-only 1d-bis)'.",
+            "location": "Step 2, line 14, phrase 'root steps 1b–1e'"
+          },
+          {
+            "severity": "minor",
+            "description": "Depth inconsistency on trigger-gated publish conditions: step 6 reads only 'Publish the verified artifacts → step 11', while CLOSEOUT.md step 11 holds three trigger-gated residuals — Helm `files={\"docket.html\": ...}` ONLY when the step-7 build line shows `+ docket.html` (will_handbook.py L851 emits 'no docket file — page in legacy form' otherwise); Deck REFERENCE view republished only on Will's word or at a spine audit, with `PROME/state/deck_reference_hosted.json` updated in the same sitting (WQ-382 (a)); Fleet-Ops builds but is not published (WQ-372). Runner step 0b already names the Helm file-listing prerequisite, so the runner names the prerequisite but not the publish-time conditions it exists for. Covered by the step-11 pointer (manual wins), so not blocking; naming the three conditions in one clause would match the runner's own depth at steps 2 and 3.",
+            "location": "Step 6, line 21"
+          }
+        ],
+        "sample": "VERIFIED: root/local copies byte-identical (diff). Steps 0–8 map in order onto Pre-closeout items 1–5 and routine steps 1–12; every quoted flag exists in its tool (argus_scope.py --record-review/--consumed-move/--mark-reviewed/--verify-review --ref --paths/--record-baseline, RECEIPT_PATHS at L146; commit_check.py commit --stage -F with --push present-but-forbidden here; prome_gate.py closeout --tier/--no-memory/--slug/--no-superseded/--superseded, untiered = 'review requirement NOT enforced' at L1360; decision_deck.py --owed-url/--reference-url). Step-7 deterministic checks (table_check --quiet · done_rows_check · wq_ledger check) match the manual's WQ-417 P4 text. Git handling conforms to root Git Protocol (pathspec commit, verify before push, safe-push.sh only on rc 0, no force). `argus` agent file exists at both .claude/agents/ and PROME/.claude/agents/; PROME/inbox/processed/ and PROME/CLOSEOUT_PROCEDURES.md (§ Byte-flow, § Chunk 3) exist. No catalyst dates, roster names, bands or machine-model claims in either runner. No blocking issue; three minor pointer/label items above."
+      },
+      {
+        "file": "PROME/DOCKET.tsv (anchor sample)",
+        "verdict": "FLAG",
+        "sample": "today=2026-10-15 (environment date; no {today} arg passed). Parsed at commit ce261f182 (worktree clean for DOCKET): 719 data rows, N=72 eligible (status begins PENDING, first date >= today+8d), STEP=max(1,floor(72/8))=9, R=0, selected idx 9,18,27,36,45,54,63,72 -> DOCKET lines 155,219,342,483,567,606,701,723. Rows: [9] 2026-12-31 'ALL SAVE exit notices issued — COMPRESSED ~3 mo' (CARL/STUE) · [18] 2026-11-01 'November credential sitting (queue row 31, s' (Will) · [27] 2026-11-26 'CBOE CROSS-ARCHIVE HOLIDAY-BAR DEFECT BITES (T' (VIOLET/WALTER/RED/PROME) · [36] 2026-11-27 'MOFCOM 公告2024年第46号 CLAUSE 2 — SUSPENSION ENDS' (ZHAO) · [45] 2026-11-13 'CARL-DR-1 CARD LEG — DEWEY builds the one rem' (DEWEY/CARL/WALTER/PROME) · [54] 2026-11-14 'CRU-11 GRADE — the ratio-form successor lette' (CRUISE/PROME) · [63] 2026-10-26 'Nornickel 9M2026 production results — existin' (MIDAS) · [72] 2026-10-28 \"CREED — '450 Fifth St NW' AUCTION 10/28 (as n\" (CREED/PROME). NOTE: the first parse, taken minutes earlier, read N=73 with idx 72 = L722 (HOMER FULL CATCH-UP, 2026-10-31, PENDING) while HOMER's commit b9041531b and its delivery packet already showed it delivered-PARTIAL; PROME resolved L722 at 12:09 ET (commit ce261f182) during this audit, so it left the eligible set — no finding. CLEAN at artifact: L155 (STUE STATUS L143/L463: all notices by Dec 31 2026), L219 (WILL_QUEUE row 31 + 2026-08-21 RULED record: sitting ~11/1, three regenerations), L342 (RED packet b5e2a6f1e + VIOLET packet: Thanksgiving 2026-11-26 deadline; VIOLET/WALTER surfaces show no bridge rule yet, so still PENDING), L483 (KB-ZHAO-185 + ZHAO CATALYSTS row 2026-11-27, primary pull owed 10/19), L567 (DEWEY packet deliver-by 2026-11-13; 10/12 checkin: Q2 delivered eb1213301, Q3 due 11/13 — matches status annotation), L606 (AGENTS/CRUISE/workbook/PREDICTIONS.tsv line 12 = CRU-11 OPEN by 2026-11-14 close; CRUISE STATUS cites L606), L701 (MIDAS analysis §4: Nornickel 9M results October 26; hashes 778ef6a38/55ee66731 verified to touch the named files).",
+        "issues": [
+          {
+            "severity": "blocking",
+            "description": "Owner/wake designation contradicts the roster launch fence. The row's owner field says 'PROME (wake + consumer read)' and its status says 'WQ-184 driver: names CREED', i.e. the due-row driver spawns CREED Tier 1 at the first boot on/after 10/28 if the desk is dark. But PROME/ROSTER.md L124 ('launch only on Will's explicit permission', standing since 6/27) and L262 ('explicit-permission desk that launches only on Will's word'), plus AGENTS/CREED/STATUS.md L5 and AGENTS/CREED/CLAUDE.md L5 ('do not spawn without explicit Will permission'), make CREED a desk WQ-184 cannot wake; PROME/CLAUDE.md's WQ-184 clause preserves 'roster eligibility, launch grants and caps', and PROME/tools/spawn_list.py carries no explicit-permission gate (grep for explicit/permission/launch-only: no hits — it only reads cadence tokens). When the row enters its window a boot reader following it would launch CREED without Will's word. Date (10/28) and owner (CREED) are otherwise supported: AGENTS/CREED/inbox/WALTER/SIG-W-20261002-006.md (unconsumed, full-signal filename '...450-Fifth-NW-auction-10-28') and WALTER's 10/11 ranked drain list ('450 Fifth NW auction 10/28'). Repair is an annotation on the row (the wake is a Will ask or a doorbell to a live CREED, not a WQ-184 auto-spawn), not a date or owner change.",
+            "location": "PROME/DOCKET.tsv line 723 (owner + status fields) vs PROME/ROSTER.md L124, L262"
+          },
+          {
+            "severity": "minor",
+            "description": "NOTES field keeps a withdrawn inference as live text: 'servicer-FAQ moves of this kind are typically Department-wide'. STUE STATUS L461 (CARL read 10/01) records 'the Department-wide 12/31 inference is withdrawn' (windows are servicer-specific: Edfinancial 7/1–8/15, MOHELA Jul–Oct). The row's status annotation (+2026-10-01 'read this row as Nelnet-sourced, not system-wide') already corrects it, so no reader acts wrongly, but the notes field and the status field now carry two live readings of the same claim. Date 2026-12-31 and owner CARL/STUE are supported (STUE STATUS L143, L463).",
+            "location": "PROME/DOCKET.tsv line 155 (notes field) vs AGENTS/CARL/sub_agents/STUE/STATUS.md L461"
+          },
+          {
+            "severity": "minor",
+            "description": "Pointer drift, two rows: L342's source names PROME/inbox/2026-09-12_from-RED_l320-ft11-ft10-ft06-grades-board-ledger-closed.md and L701's source names PROME/inbox/2026-10-12_from-MIDAS_news-sweep.md; both files now live under PROME/inbox/processed/ (the literal paths do not exist). The commit hashes cited beside them (b5e2a6f1e, 778ef6a38) are valid and pin the content, and the artifacts fully support the rows' dates (Thanksgiving 2026-11-26; Nornickel 9M results October 26). Not a contradiction.",
+            "location": "PROME/DOCKET.tsv lines 342 and 701 (source fields)"
+          },
+          {
+            "severity": "minor",
+            "description": "Source field holds no file: 'PROME prome-ed 2026-10-03 21:16 ET — Decision Deck pickup (Will present in session)'. The only artifact pointer is the unpathed 'PREDICTIONS.tsv line 12' in the owner field; it resolves to AGENTS/CRUISE/workbook/PREDICTIONS.tsv line 12 (CRU-11, OPEN, 'by 2026-11-14 close'), and the status field names the CRUISE inbox packet 2026-10-03_from-PROME_WQ-242-RULED-CRU-11-approved.md, which exists. Content fully supports the row; a reader using the source field alone finds nothing to open.",
+            "location": "PROME/DOCKET.tsv line 606 (source field)"
+          }
+        ]
+      }
+    ],
+    "blocking_count": 6
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Audit"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "spine:CLAUDE.md+CLAUDE.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "ad015be3870acbd0b",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450830,
+      "queuedAt": 1792080450785,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/CLAUDE.md and /home/willi/Research-workspace/PROME/CLAUDE.md\n\nCANON ANCHORS (read these FIRST;…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080772268,
+      "tokens": 148746,
+      "toolCalls": 22,
+      "durationMs": 321436,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/CLAUDE.md\",\"verdict\":\"CLEAN\",\"issues\":[],\"sample\":\"Git Protocol L74-L118 verified against anchors: ff-gated safe-push receipt text matches scripts/safe-push.sh L117 verbatim; non-ff recovery = routine rebase with dirty-path overlap check, escalation only on out-of-dir conflict or persistence; all git ops from repo root; pathspec commits only. Machi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "spine:BOOT.md+CLOSEOUT.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "acf87c5681f634eca",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450830,
+      "queuedAt": 1792080450785,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/PROME/BOOT.md and /home/willi/Research-workspace/PROME/CLOSEOUT.md\n\nCANON ANCHORS (read these …",
+      "promptFramed": true,
+      "lastProgressAt": 1792080718575,
+      "tokens": 148462,
+      "toolCalls": 19,
+      "durationMs": 266624,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/PROME/BOOT.md\",\"verdict\":\"CLEAN\",\"issues\":[{\"severity\":\"minor\",\"description\":\"Header stamp reads 'Updated: 2026-10-05' but step 3b (Decision Deck pickup) was rewritten in five commits on 2026-10-09 (efd67fbf0, 33e01997d, ab34e02bc, 5183201ed, 46c6b938b) adding the Change-A unit/CHOICE consumption rule — a rule change carried under a stale header st…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "spine:STATUS.md+SCRATCH.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "a3dd185d70b483cff",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450830,
+      "queuedAt": 1792080450785,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/PROME/STATUS.md and /home/willi/Research-workspace/PROME/SCRATCH.md\n\nCANON ANCHORS (read these…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080714780,
+      "tokens": 157779,
+      "toolCalls": 22,
+      "durationMs": 262828,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/PROME/STATUS.md\",\"verdict\":\"CLEAN\",\"issues\":[{\"severity\":\"minor\",\"description\":\"Header line says 'WQ411 owns the next audit decision' (and Last spine audit 2026-10-02, re-run when >7d). WILL_QUEUE.md (working tree, uncommitted) now records WQ-411 APPROVE via Decision Deck tap 2026-10-15T16:00:30Z (12:00 ET), moved to RECENTLY DONE. The pointer to t…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "spine:ACTIVE_DECISIONS.md+HEARTBEAT.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "a9423a71eaaa7e9f1",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450830,
+      "queuedAt": 1792080450785,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/PROME/ACTIVE_DECISIONS.md and /home/willi/Research-workspace/HEARTBEAT.md\n\nCANON ANCHORS (read…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080769582,
+      "tokens": 172314,
+      "toolCalls": 21,
+      "durationMs": 317630,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/PROME/ACTIVE_DECISIONS.md\",\"verdict\":\"FLAG\",\"issues\":[{\"severity\":\"blocking\",\"description\":\"The TERRY row states WQ-365 is \\\"NOT ARMABLE unless HY ≥321 on the two latest readings, window ends Fri 10/16 15:00 ET\\\" — a revival condition the owner card denies and that is now moot. The card (AGENTS/TERRY/setups/QQQ_dec18-put-spread_dated-downside_2026-…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "spine:GIT_COORDINATION.md+SYSTEM.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "a289355aba9f81db2",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450830,
+      "queuedAt": 1792080450785,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/PROME/GIT_COORDINATION.md and /home/willi/Research-workspace/PROME/SYSTEM.md\n\nCANON ANCHORS (r…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080644951,
+      "tokens": 143096,
+      "toolCalls": 20,
+      "durationMs": 192998,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/PROME/GIT_COORDINATION.md\",\"verdict\":\"CLEAN\",\"issues\":[{\"severity\":\"minor\",\"description\":\"Section pointer `PROME/CLOSEOUT.md` Chunk 4 (cited twice: 'Manual rules and closeout receipt: PROME/CLOSEOUT.md Chunk 4' and 'PROME commits go through the wrapper (PROME/CLOSEOUT.md Chunk 4)') names a section that no longer exists — grep for 'Chunk 4'/'Chunk-4…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "spine:HANDOFF.md+AUTONOMY.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "ab3af9f4b5c96cb20",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450831,
+      "queuedAt": 1792080450786,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/PROME/HANDOFF.md and /home/willi/Research-workspace/PROME/AUTONOMY.md\n\nCANON ANCHORS (read the…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080619274,
+      "tokens": 125576,
+      "toolCalls": 13,
+      "durationMs": 167321,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/PROME/HANDOFF.md\",\"verdict\":\"CLEAN\",\"issues\":[{\"severity\":\"minor\",\"description\":\"HEARTBEAT 31st re-base is listed as OWED / open carry ('96% after amendment #5, chain 5; skipped 10/14 night and 10/15') in the Resume line, the October15 entry and 'Older unresolved continuity' — but HEARTBEAT.md was re-based at 79f704ed3 (2026-10-15 11:03 ET; header …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "spine:MACHINE_LOCAL.md+COMPLETION_SPEC.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "a0c11d61031f4d0b9",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450831,
+      "queuedAt": 1792080450786,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/PROME/MACHINE_LOCAL.md and /home/willi/Research-workspace/PROME/COMPLETION_SPEC.md\n\nCANON ANCH…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080686578,
+      "tokens": 130567,
+      "toolCalls": 18,
+      "durationMs": 234625,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/PROME/COMPLETION_SPEC.md\",\"verdict\":\"CLEAN\",\"issues\":[],\"sample\":\"Verified: BOOT.md step 3b (line 59) + boot runner SKILL.md line 15 both carry the WALTER LAST_COMPLETION §WILL_NEEDS deck-feed read, so the §Updated carve-out is live canon; CLOSEOUT.md § Boot↔Closeout symmetry (line 40), ORCHESTRATION_PLAYBOOK.md § Runtime mechanics (line 64), orch_…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "spine:SKILL.md+SKILL.md",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "a880380d3d24268bf",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450831,
+      "queuedAt": 1792080450786,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY spine auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nRepo root: /home/willi/Research-workspace. Your two files: /home/willi/Research-workspace/PROME/.claude/skills/boot/SKILL.md and /home/willi/Research-workspace/PROME/.claude/skills/clo…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080639172,
+      "tokens": 111133,
+      "toolCalls": 13,
+      "durationMs": 187219,
+      "resultPreview": "{\"files\":[{\"file\":\"/home/willi/Research-workspace/PROME/.claude/skills/boot/SKILL.md\",\"verdict\":\"CLEAN\",\"issues\":[],\"sample\":\"VERIFIED: root/local copies byte-identical (diff). Step order 3–6 = BOOT.md 7·8·6·9 checked true. One-shot command (line 17) matches BOOT.md step 5 verbatim; `--refresh` and `--charter-mode` exist in boot_session.py (default explicit = the fail-safe mode BOOT.md requires). …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "anchor:DOCKET-tail",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit",
+      "agentId": "ab16e6ee19779855c",
+      "model": "claude-fable-5-1",
+      "state": "done",
+      "startedAt": 1792080450831,
+      "queuedAt": 1792080450786,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are a READ-ONLY canon-anchor auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is UNSTAMPED — ask PROME to pass args as a JSON object { today: \"YYYY-MM-DD\" }.\n\nCONTEXT: the weekly spine audit checks PROME's boot-read docs AGAINST /home/willi/Research-workspace/PROME/DOCKET.tsv as canon — so an error INSIDE DOCKET is self-sealing (views…",
+      "promptFramed": true,
+      "lastProgressAt": 1792080738871,
+      "tokens": 143941,
+      "toolCalls": 23,
+      "durationMs": 286918,
+      "resultPreview": "{\"files\":[{\"file\":\"PROME/DOCKET.tsv (anchor sample)\",\"verdict\":\"FLAG\",\"sample\":\"today=2026-10-15 (environment date; no {today} arg passed). Parsed at commit ce261f182 (worktree clean for DOCKET): 719 data rows, N=72 eligible (status begins PENDING, first date >= today+8d), STEP=max(1,floor(72/8))=9, R=0, selected idx 9,18,27,36,45,54,63,72 -> DOCKET lines 155,219,342,483,567,606,701,723. Rows: [9]…"
+    }
+  ],
+  "totalTokens": 1281614,
+  "totalToolCalls": 171
+}

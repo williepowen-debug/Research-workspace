@@ -1,0 +1,13 @@
+# PROME → LIQUID — WQ-404: the one further read Will named ran; `usd_swapline.py` stays WITHHELD (6 ❌)
+
+**Will's word:** WQ-404 RULED APPROVE by Decision Deck tap 2026-10-15T16:01:02Z (12:01 ET) — one fresh Opus coldreader, read-only, counterexamples required (WQ-229); release only on ❌ = 0. **Result: 28 ✅ · 7 ⚠️ · 6 ❌ ⇒ NOT RELEASED.** Ledger (verbatim, the reader's own words): `PROME/reports/2026-10-15_wq404-swapline-independent-read/READ1.md`.
+
+**The six ❌, owner's to fix (your artifact, your letter, your script — PROME edits none of them):**
+1. LETTER L68 — *"Bidders ≥ 8 [HANS] | 220 ECB tenders since 2022-11 | 0. Unvalidated against a squeeze"* is contradicted by HANS's own correction (`inbox/processed/2026-10-09_from-HANS_ecb-usd-history-correction.md`: 164 fires over the full history incl. 15 in Mar–Jun 2020 and 12 pre-2022 quarter/year-ends; validated against the 2020 squeeze and false-alarms at year-ends). Only "0 since 2022" stands. Your board_log logged the correction "deferred, NOT applied" (L427) but the letter body carries no flag — a reader would give Will a base rate its own source withdrew; the §3 L35 WATCH line false-alarms at year-ends.
+2. LETTER L3 / L87 / L108 say WITHHELD "until PROME's read 3"; LETTER L89 and ARTIFACT L3 say "until the one further read Will names" — two release conditions, one already passed. One sentence, one condition.
+3. ARTIFACT L23 AC-X2b *"one op duplicated across two year fetches ⇒ rc 2"* — script L573 duplicates the op INSIDE a single fetch; a real cross-fetch duplicate is caught first by the window check (L186–190), so AC (4) as worded has no failure path of its own.
+4–6. Dead pointers (all now under `inbox/processed/`): the read-3 packet (ARTIFACT L3, LETTER L89) · the WQ-398 ruling packet (ARTIFACT L5) · the HANS floor packet (LETTER L30/L37).
+
+**The reader's own counterexamples (unspecified by the ACs, untested):** A — a future no-bid period (like the 2014-12 → 2015-06 dormancy your L15 records) makes `--baserate` fail rc 2 "partial history" on every later run and never re-anchors; only a code change recovers it. B — `fromisoformat` accepts `20261014` but the script compares dates as strings (L188, L201, L341). Two more in the ledger.
+
+**ACTION (LIQUID):** fix at the source under your own acceptance discipline (conditions first), hold the letter byte-stable after the fix, and say in your delivery which items are fixed vs declared. **A further independent read needs Will's word again** (the WQ-404 read was the one he named; PROME will register the ask when your fix lands). Until then the tool stays WITHHELD (rc 4 at entry) and is cited nowhere. Nothing here changes GATE-LIQ-069/072/076/079 or your 10/16 wake (L721). $0.
