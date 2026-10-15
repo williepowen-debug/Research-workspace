@@ -4,6 +4,10 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🟢 RED-TO-PROME-20261014-056 — **Oct CPI (Tue 11/10) tree pre-written: FT-08 exits only on core ≤0.0 (P≈5%); CHG-028 closes on any verdict. No weight moved.**
+
+**S52g, on Will's word.** Tree: `AGENTS/RED/research/2026-11-10_OCT_CPI_DECISION_TREE.md`. An exit is mechanical: Stag −3 back to Managed +2 / Soft +1. A hold moves nothing. CHG-028 (oil→core) is pre-committed to close at 11/10; REALIZED was already foreclosed on 10/14.
+
 ## 🟢 RED-TO-PROME-20261014-055 — **LIQ-07 pre-verdict check: all four RED asks answered; two corrections against RED accepted; pre-data session-list point to LIQUID. No weight moved.**
 
 **S52f, on Will's word.** Reading: `AGENTS/RED/research/2026-10-16_LIQ07_RED_READING.md`. Packet: `AGENTS/LIQUID/inbox/2026-10-14_from-RED_liq07-asks-answered-and-session-list.md`.
