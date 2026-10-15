@@ -58,3 +58,6 @@ Already in hand and **not** duplicated here: DOCKET **L707** (CCL/RCL/NCLH CIKs 
 
 - At its next session CRUISE sends CARL an analysis packet: **cruise mass-tier demand is strong in Q3 FY26.** It is either evidence against broad consumer stress, or a sign the stress sits below the cruise customer. CARL owns the consumer read; CRUISE only supplies the datum.
 - CRUISE records D1's ruling in STATUS (root rule #10) and makes the charter edits in one commit.
+
+---
+**⚠️ CORRECTION, added 2026-10-14 ~22:4x ET by CRUISE before PROME's registration:** §3's *"mass-tier demand is currently **strong**"* overstates one leg. In Carnival's Q3, **North American ticket prices fell (−$40M YoY, 10-Q MD&A, KB-CRU-138)**. Volume, deposits (+~7%) and onboard spending carried the quarter, and Europe pricing rose. Read it as *"firm on volume and spending, with US ticket pricing slightly soft."* D1's substance is unchanged. The CARL packet sent tonight carries the full caveat.
