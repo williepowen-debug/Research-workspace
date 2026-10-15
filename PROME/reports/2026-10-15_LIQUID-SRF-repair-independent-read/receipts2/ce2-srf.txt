@@ -1,0 +1,28 @@
+######## ws
+M1 T newest parseable (10-13=30), OLDER row non-numeric; MBS 10-13=30 -> [('SRF usage', '$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M2 BOTH legs newest non-numeric, older rows same day 10-10 -> [('SRF usage', '$60.00B', '🔴', '2026-10-10', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M2b BOTH legs newest non-numeric, older rows on DIFFERENT days -> [('SRF usage', 'UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [2026-10-10]; MBS $30.00B [2026-10-09]; combined grade withheld')]
+M3 T only parseable row 5 obs back (10-06); MBS fresh 10-13 -> [('SRF usage', 'UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [2026-10-06]; MBS $30.00B [2026-10-13]; combined grade withheld')]
+M3b BOTH legs only parseable 10-06 -> [('SRF usage', '$60.00B', '🔴', '2026-10-06', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M4 T newest non-numeric, parseable row has NO date key -> [('SRF usage', 'UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [date unknown]; MBS $30.00B [2026-10-13]; combined grade withheld')]
+M5 T newest "nan" (parses as float) -> [('SRF usage', 'PARTIAL', '🟠', '', 'UNGRADEABLE — leg unavailable; T unavailable; MBS $30.00B [2026-10-13]; combined grade withheld')]
+M5b T newest "inf" -> [('SRF usage', 'PARTIAL', '🟠', '', 'UNGRADEABLE — leg unavailable; T unavailable; MBS $30.00B [2026-10-13]; combined grade withheld')]
+M6 fred_series newest ND -> (2.59, '2026-10-10', [2.59, 2.58], None)
+M6b fred_series INTERIOR ND (newest parses) -> (2.59, '2026-10-13', [2.59, 2.58], None)
+M7 HY newest ND (older 10-10=2.90), IG 10-13=1.00 -> [('HY OAS', '290bps', '🔴', '2026-10-10', "HY >280 (strict) — X1 level leg TAGGED, not met: the letter is >280 SUSTAINED, counted on KILL_MEMO, not by this label — X1 half ONLY, never 'X1 MET' "), ('CCC-BB gap', 'N/A', '🟠', '', 'UNAVAILABLE — a leg failed to fetch; CCC-BB gap missing this boot'), ('HY-IG basis', '190bps', '⚪', '2026-10-10', 'UNGRADEABLE — legs are DIFFERENT SESSIONS (2026-10-10 vs 2026-10-13); a cross-date difference is an artifact, not a level, and is NOT graded this boot')]
+M8 HY dashboard: newest 2.59 [10-13], INTERIOR ND [10-10], 2.59 [10-09] -> [('HY OAS', '259bps', '🔴', '2026-10-13', 'BEAR-AXIS KILL FIRED — HY <260 on 2 CONSECUTIVE closes (GATE-HY-REKILL). Credit-thesis invalidation, NOT a stress event. ⚠️ KB-LIQ-105 two-sided guard')]
+M9 Reserves newest ND + parseable row with NO date key -> RAISED TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+######## prefix
+M1 T newest parseable (10-13=30), OLDER row non-numeric; MBS 10-13=30 -> [('SRF usage', '$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M2 BOTH legs newest non-numeric, older rows same day 10-10 -> [('SRF usage', '$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M2b BOTH legs newest non-numeric, older rows on DIFFERENT days -> [('SRF usage', '$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M3 T only parseable row 5 obs back (10-06); MBS fresh 10-13 -> [('SRF usage', '$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M3b BOTH legs only parseable 10-06 -> [('SRF usage', '$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M4 T newest non-numeric, parseable row has NO date key -> [('SRF usage', '$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+M5 T newest "nan" (parses as float) -> [('SRF usage', 'PARTIAL', '🟠', '', 'UNGRADEABLE — leg unavailable; T unavailable; MBS $30.00B [2026-10-13]; combined grade withheld')]
+M5b T newest "inf" -> [('SRF usage', 'PARTIAL', '🟠', '', 'UNGRADEABLE — leg unavailable; T unavailable; MBS $30.00B [2026-10-13]; combined grade withheld')]
+M6 fred_series newest ND -> (2.59, '2026-10-13', [2.59, 2.58], None)
+M6b fred_series INTERIOR ND (newest parses) -> (2.59, '2026-10-13', [2.59, 2.58], None)
+M7 HY newest ND (older 10-10=2.90), IG 10-13=1.00 -> [('HY OAS', '290bps', '🔴', '2026-10-13', "HY >280 (strict) — X1 level leg TAGGED, not met: the letter is >280 SUSTAINED, counted on KILL_MEMO, not by this label — X1 half ONLY, never 'X1 MET' "), ('CCC-BB gap', 'N/A', '🟠', '', 'UNAVAILABLE — a leg failed to fetch; CCC-BB gap missing this boot'), ('HY-IG basis', '190bps', '🟢', '2026-10-13', 'flat — no aggregate decompression (stress stays tail-only)  [both 2026-10-13]')]
+M8 HY dashboard: newest 2.59 [10-13], INTERIOR ND [10-10], 2.59 [10-09] -> [('HY OAS', '259bps', '🔴', '2026-10-13', 'BEAR-AXIS KILL FIRED — HY <260 on 2 CONSECUTIVE closes (GATE-HY-REKILL). Credit-thesis invalidation, NOT a stress event. ⚠️ KB-LIQ-105 two-sided guard')]
+M9 Reserves newest ND + parseable row with NO date key -> [('Reserves', '$2.900T', '🟢', '2026-10-08 (as-of Wed)', 'cushion $100B above floor')]

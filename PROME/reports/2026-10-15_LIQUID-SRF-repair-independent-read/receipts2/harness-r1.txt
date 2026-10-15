@@ -1,0 +1,45 @@
+######## ws dup_obs
+WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail
+rc 0
+--- duplicated 07-03 row, one distinct sub-260 close
+  rc/state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0
+  watch.log tail: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+######## ws dup_obs_distinct_dates_control
+WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail
+rc 0
+--- control: no duplicate
+  rc/state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0
+  watch.log tail: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+######## prefix dup_obs
+WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail
+rc 0
+--- duplicated 07-03 row, one distinct sub-260 close
+  rc/state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]', '**Current quote:** HY OAS 259bps [2026-07-03], latest-revised zone reading; the kill event uses its separately dated first-published observations.']}
+  SIGNALS LIQUID rows: 1
+     | 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This ...
+  watch.log tail: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## prefix dup_obs_distinct_dates_control
+WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail
+rc 0
+--- control: no duplicate
+  rc/state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0
+  watch.log tail: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+######## ws srf
+WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail
+CE5 tie sweep: 50,001 splits of exactly $50.000B through build_domestic; graded above 50 -> 0 []
+CE5b smallest-above tie (25.001+25.000=50.001): $50.00B 🔴 ABOVE $50B — escalate REGINALD/HENRY/PROME
+CE6 T newest unparseable (10-13), older 10-10 = 30; MBS 10-13 = 30 -> [('UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [2026-10-10]; MBS $30.00B [2026-10-13]; combined grade withheld')]
+CE7 mismatched (holiday on one leg) -> [('UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [2026-10-10]; MBS $30.00B [2026-10-13]; combined grade withheld')]
+######## prefix srf
+WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail
+CE5 tie sweep: 50,001 splits of exactly $50.000B through build_domestic; graded above 50 -> 0 []
+CE5b smallest-above tie (25.001+25.000=50.001): $50.00B 🔴 ABOVE $50B — escalate REGINALD/HENRY/PROME
+CE6 T newest unparseable (10-13), older 10-10 = 30; MBS 10-13 = 30 -> [('$60.00B', '🔴', '2026-10-13', 'ABOVE $50B — escalate REGINALD/HENRY/PROME')]
+CE7 mismatched (holiday on one leg) -> [('UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [2026-10-10]; MBS $30.00B [2026-10-13]; combined grade withheld')]

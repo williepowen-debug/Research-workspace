@@ -1,0 +1,16 @@
+######## ws N5b
+direct: [('2026-06-30', 272), ('2026-07-01', 259), ('2026-07-03', 259), ('2026-7-02', 270)]
+rc 0
+--- 07-02 reset close dated "2026-7-02"
+  state: {'zone': 'green', 'bps': 259, 'sub260': 0, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-03 NEW) ok']
+######## prefix N5b
+direct: [('2026-06-30', 272), ('2026-07-01', 259), ('2026-07-03', 259), ('2026-7-02', 270)]
+rc 0
+--- 07-02 reset close dated "2026-7-02"
+  state: {'zone': 'green', 'bps': 259, 'sub260': 0, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-03 NEW) ok']

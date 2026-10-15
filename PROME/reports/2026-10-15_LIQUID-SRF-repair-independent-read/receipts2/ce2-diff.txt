@@ -1,0 +1,7 @@
+A _first_published ordinary distinct dates: 5000 trials, outputs differing: 0
+B one repeated date injected: 2000 trials, HEAD refused 2000, pre-fix refused 2
+C_ordinary: 5000 trials, differing: 0
+D_nonnum_not_head: 4131 trials, differing: 0
+D_nonnum_head: 4131 trials, differing: 4131
+D_head_value_differs: 4131 trials, differing: 0
+E full main() multi-run ordinary scenarios: 400, with any packet: 370, outputs differing HEAD vs pre-fix: 0

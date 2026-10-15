@@ -1,0 +1,244 @@
+######## ws N1_dup_elsewhere_suppresses_then_recovers
+direct _first_published: None
+rc 0
+--- run 1: dup on 06-29 + genuine pair 07-02/07-03
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+rc 0
+--- run 2 (next day): clean feed, latest 07-06=261
+  state: {'zone': 'green', 'bps': 261, 'sub260': 0, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-06']}
+  packets: {'2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-261bps.md': ['**Signal:** recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-261bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 261bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-06 NEW) FIRED 1']
+rc 0
+--- run 3: rerun same obs (idempotency)
+  state: {'zone': 'green', 'bps': 261, 'sub260': 0, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-06']}
+  packets: {'2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-261bps.md': ['**Signal:** recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 1 | watch.log: [' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 261bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-06 NEW) FIRED 1', ' HY OAS 261bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-06) ok']
+######## ws N2_out_of_order_distinct
+direct: [('2026-07-01', 259), ('2026-07-02', 270), ('2026-07-03', 259)]
+rc 0
+--- 259/270/259 shuffled
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: [('2026-07-01', 270), ('2026-07-02', 259), ('2026-07-03', 259)]
+rc 0
+--- 270/259/259 shuffled
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## ws N3_dup_before_gate_window
+rc 0
+--- dup outside the kill window + genuine pair
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+######## ws N4_empty_and_dot_dups
+direct: None
+rc 0
+--- empty observations
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: None
+rc 0
+--- dup date both "."
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok', ' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: None
+rc 0
+--- dup date "." + numeric
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok', ' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+######## ws N5_noncanonical_date_string
+direct: [('2026-07-01', 272), ('2026-07-02', 270), ('2026-07-03', 259), ('2026-07-03 ', 259)]
+rc 0
+--- one distinct sub-260 close, duplicate written as '2026-07-03 '
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03 ', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+direct: [('2026-07-01', 272), ('2026-07-02', 270), ('2026-07-03', 259), ('2026-07-03T00:00:00', 259)]
+rc 0
+--- one distinct sub-260 close, duplicate written as '2026-07-03T00:00:00'
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03T00:00:00', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 2 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2', '| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 2 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+direct: [('2026-07-01', 272), ('2026-07-02', 270), ('2026-07-03', 259), ('2026-7-03', 259)]
+rc 0
+--- one distinct sub-260 close, duplicate written as '2026-7-03'
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-7-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** recovered historical kill-level event [UNKNOWN]']}
+  SIGNALS LIQUID rows: 3 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2', '| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2', '| UNKNOWN | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 ']
+  alert-log lines: 3 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## ws N6_dup_after_kill_already_recorded
+rc 0
+--- prior kill marker + duplicated feed
+  state: {'zone': 'green', 'bps': 258, 'sub260': 1, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 258bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-06 NEW) ok']
+######## ws N7_missing_date_keys
+direct: None
+rc 0
+--- two rows without a date key
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: None
+rc 0
+--- one numeric row without a date key
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok', ' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: [('2026-07-02', 259), ('2026-07-03', 259)]
+rc 0
+--- one "." row without a date key
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## ws N8_dup_with_escalation
+rc 0
+--- escalation to red + duplicated fp row
+  state: {'zone': 'red', 'bps': 290, 'sub260': 0, 'obs_date': '2026-10-14', 'kill_met_on': None, 'delivered': ['🚨 ESCALATION 🟢green→🔴red|2026-10-14']}
+  packets: {'2026-10-14_from-LIQUID_UNATTENDED-hy-oas-zone-escalation-290bps.md': ['**Signal:** zone escalation [2026-10-14]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-10-14 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level l']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-10-14_from-LIQUID_UNATTENDED-hy-oas-zone-escalation-290bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 290bps 🔴red (sev 2, prev 0green, sub260 0, obs 2026-10-14 NEW) FIRED 1']
+######## prefix N1_dup_elsewhere_suppresses_then_recovers
+direct _first_published: [('2026-06-29', 272), ('2026-06-29', 275), ('2026-07-01', 270), ('2026-07-02', 259), ('2026-07-03', 259)]
+rc 0
+--- run 1: dup on 06-29 + genuine pair 07-02/07-03
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+rc 0
+--- run 2 (next day): clean feed, latest 07-06=261
+  state: {'zone': 'green', 'bps': 261, 'sub260': 0, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1', ' HY OAS 261bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-06 NEW) ok']
+rc 0
+--- run 3: rerun same obs (idempotency)
+  state: {'zone': 'green', 'bps': 261, 'sub260': 0, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1', ' HY OAS 261bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-06 NEW) ok', ' HY OAS 261bps 🟢green (sev 0, prev 0green, sub260 0, obs 2026-07-06) ok']
+######## prefix N2_out_of_order_distinct
+direct: [('2026-07-01', 259), ('2026-07-02', 270), ('2026-07-03', 259)]
+rc 0
+--- 259/270/259 shuffled
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: [('2026-07-01', 270), ('2026-07-02', 259), ('2026-07-03', 259)]
+rc 0
+--- 270/259/259 shuffled
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## prefix N3_dup_before_gate_window
+rc 0
+--- dup outside the kill window + genuine pair
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## prefix N4_empty_and_dot_dups
+direct: None
+rc 0
+--- empty observations
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: [('2026-07-01', 259), ('2026-07-03', 259)]
+rc 0
+--- dup date both "."
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+direct: [('2026-07-01', 270), ('2026-07-02', 259), ('2026-07-03', 259)]
+rc 0
+--- dup date "." + numeric
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 2 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c', '| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 2 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## prefix N5_noncanonical_date_string
+direct: [('2026-07-01', 272), ('2026-07-02', 270), ('2026-07-03', 259), ('2026-07-03 ', 259)]
+rc 0
+--- one distinct sub-260 close, duplicate written as '2026-07-03 '
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03 ', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+direct: [('2026-07-01', 272), ('2026-07-02', 270), ('2026-07-03', 259), ('2026-07-03T00:00:00', 259)]
+rc 0
+--- one distinct sub-260 close, duplicate written as '2026-07-03T00:00:00'
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03T00:00:00', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 2 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2', '| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 2 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+direct: [('2026-07-01', 272), ('2026-07-02', 270), ('2026-07-03', 259), ('2026-7-03', 259)]
+rc 0
+--- one distinct sub-260 close, duplicate written as '2026-7-03'
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-7-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** recovered historical kill-level event [UNKNOWN]']}
+  SIGNALS LIQUID rows: 3 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2', '| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2', '| UNKNOWN | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 ']
+  alert-log lines: 3 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## prefix N6_dup_after_kill_already_recorded
+rc 0
+--- prior kill marker + duplicated feed
+  state: {'zone': 'green', 'bps': 258, 'sub260': 4, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 258bps 🟢green (sev 0, prev 0green, sub260 4, obs 2026-07-06 NEW) ok']
+######## prefix N7_missing_date_keys
+direct: None
+rc 0
+--- two rows without a date key
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: None
+rc 0
+--- one numeric row without a date key
+  state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0 []
+  alert-log lines: 0 | watch.log: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok', ' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+direct: [('2026-07-02', 259), ('2026-07-03', 259)]
+rc 0
+--- one "." row without a date key
+  state: {'zone': 'green', 'bps': 259, 'sub260': 2, 'obs_date': '2026-07-03', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 KILL-LEVEL MET (NOT a |2026-07-03']}
+  packets: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': ['**Signal:** kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive c']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1']
+######## prefix N8_dup_with_escalation
+rc 0
+--- escalation to red + duplicated fp row
+  state: {'zone': 'red', 'bps': 290, 'sub260': 0, 'obs_date': '2026-10-14', 'kill_met_on': None, 'delivered': ['🚨 ESCALATION 🟢green→🔴red|2026-10-14']}
+  packets: {'2026-10-14_from-LIQUID_UNATTENDED-hy-oas-zone-escalation-290bps.md': ['**Signal:** zone escalation [2026-10-14]']}
+  SIGNALS LIQUID rows: 1 ['| 2026-10-14 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level l']
+  alert-log lines: 1 | watch.log: [' DELIVERED packet -> inbox/2026-10-14_from-LIQUID_UNATTENDED-hy-oas-zone-escalation-290bps.md', ' DELIVERED SIGNALS.md 1 event row(s)', ' HY OAS 290bps 🔴red (sev 2, prev 0green, sub260 0, obs 2026-10-14 NEW) FIRED 1']

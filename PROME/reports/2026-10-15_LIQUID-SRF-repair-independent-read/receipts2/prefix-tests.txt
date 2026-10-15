@@ -1,0 +1,348 @@
+WARN fetch.py: FRED_API_KEY not set (export it or add to FORGE/tools/market-data/.env) — FRED calls will fail
+test_aligned_quiet_threshold_and_above (__main__.SRFTests.test_aligned_quiet_threshold_and_above) ... ok
+test_domestic_dashboard_calls_guard_without_network (__main__.SRFTests.test_domestic_dashboard_calls_guard_without_network) ... ok
+test_mismatched_high_and_quiet_are_ungradeable_and_visible (__main__.SRFTests.test_mismatched_high_and_quiet_are_ungradeable_and_visible) ... ok
+test_missing_dates_and_legs (__main__.SRFTests.test_missing_dates_and_legs) ... ok
+test_unparseable_newest_row_dates_value_by_its_own_row (__main__.SRFTests.test_unparseable_newest_row_dates_value_by_its_own_row) ... FAIL
+test_append_preserves_foreign_rows_and_repeat_delivery (__main__.WatcherConsumerTests.test_append_preserves_foreign_rows_and_repeat_delivery) ... ok
+test_escalation_actual_main_consumers_own_side (__main__.WatcherConsumerTests.test_escalation_actual_main_consumers_own_side) ... ok
+test_first_published_frontier_behind_latest_keeps_original_date (__main__.WatcherConsumerTests.test_first_published_frontier_behind_latest_keeps_original_date) ... ok
+test_first_published_value_distinct_from_latest_quote (__main__.WatcherConsumerTests.test_first_published_value_distinct_from_latest_quote) ... ok
+test_guard_not_truncated_and_pipe_safe (__main__.WatcherConsumerTests.test_guard_not_truncated_and_pipe_safe) ... ok
+test_invalid_latest_quote_is_parse_failure_without_grade (__main__.WatcherConsumerTests.test_invalid_latest_quote_is_parse_failure_without_grade) ... ok
+test_late_only_headline_and_log_preserve_history (__main__.WatcherConsumerTests.test_late_only_headline_and_log_preserve_history) ... ok
+test_legacy_dedup_keys_and_foreign_destinations_untouched (__main__.WatcherConsumerTests.test_legacy_dedup_keys_and_foreign_destinations_untouched) ... ok
+test_missing_first_publication_fails_closed (__main__.WatcherConsumerTests.test_missing_first_publication_fails_closed) ... ok
+test_missing_historical_date_not_relabelled_today (__main__.WatcherConsumerTests.test_missing_historical_date_not_relabelled_today) ... ok
+test_mixed_lost_state_all_consumers_original_event_date (__main__.WatcherConsumerTests.test_mixed_lost_state_all_consumers_original_event_date) ... ok
+test_ordinary_kill_actual_main_consumers_and_repeat (__main__.WatcherConsumerTests.test_ordinary_kill_actual_main_consumers_and_repeat) ... ok
+test_polling_gap_and_single_known_observation (__main__.WatcherConsumerTests.test_polling_gap_and_single_known_observation) ... ok
+test_published_boundary_normalization_actual_first_release_and_main (__main__.WatcherConsumerTests.test_published_boundary_normalization_actual_first_release_and_main) ... ok
+test_repeated_first_published_date_fails_kill_closed (__main__.WatcherConsumerTests.test_repeated_first_published_date_fails_kill_closed) ... FAIL
+
+======================================================================
+FAIL: test_unparseable_newest_row_dates_value_by_its_own_row (__main__.SRFTests.test_unparseable_newest_row_dates_value_by_its_own_row)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/claude-1000/-home-willi-Research-workspace-PROME/16d245b5-0cb3-4174-b43d-e76c4903c384/scratchpad/liquid-review2/prefix/AGENTS/LIQUID/scripts/test_alert_srf_repair.py", line 356, in test_unparseable_newest_row_dates_value_by_its_own_row
+    self.assertEqual((rows[0]['display'], rows[0]['marker'], rows[0]['asof']), ('UNGRADEABLE', '⚪', ''))
+AssertionError: Tuples differ: ('$60.00B', '🔴', '2026-10-13') != ('UNGRADEABLE', '⚪', '')
+
+First differing element 0:
+'$60.00B'
+'UNGRADEABLE'
+
+- ('$60.00B', '🔴', '2026-10-13')
++ ('UNGRADEABLE', '⚪', '')
+
+======================================================================
+FAIL: test_repeated_first_published_date_fails_kill_closed (__main__.WatcherConsumerTests.test_repeated_first_published_date_fails_kill_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/claude-1000/-home-willi-Research-workspace-PROME/16d245b5-0cb3-4174-b43d-e76c4903c384/scratchpad/liquid-review2/prefix/AGENTS/LIQUID/scripts/test_alert_srf_repair.py", line 237, in test_repeated_first_published_date_fails_kill_closed
+    self.assertFalse(out['packets'])
+AssertionError: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': '## 2026-07-03 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** kill-level event [2026-07-03]\n**Current quote:** HY OAS 259bps [2026-07-03], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO\'s tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never "guard cleared".\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-07-03` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n'} is not false
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.101s
+
+FAILED (failures=2)
+
+SYNTHETIC CONSUMER SNAPSHOTS — not live market events
+{
+  "escalation-only": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-10-14_from-LIQUID_UNATTENDED-hy-oas-zone-escalation-290bps.md": "## 2026-10-14 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** zone escalation [2026-10-14]\n**Current quote:** HY OAS 290bps [2026-10-14], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🟠\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-10-14` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-10-14 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet. | unattended watcher; current quote observation 2026-10-14, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-10-14_from-LIQUID_UNATTENDED-hy-oas-zone-escalation-290bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 1 event row(s)\n2026-10-15 08:51   HY OAS 290bps 🔴red (sev 2, prev 0green, sub260 0, obs 2026-10-14 NEW) FIRED 1\n",
+    "state": {
+      "zone": "red",
+      "bps": 290,
+      "sev": 2,
+      "marker": "🔴",
+      "sub260": 0,
+      "obs_date": "2026-10-14",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "delivered": [
+        "🚨 ESCALATION 🟢green→🔴red|2026-10-14"
+      ]
+    }
+  },
+  "delayed-first-publication-frontier": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md": "## 2026-07-06 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** recovered historical kill-level event [2026-07-03]\n**Current quote:** HY OAS 259bps [2026-07-06], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-03; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-03, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-07-06` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-03; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-03, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-07-06, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-03; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-03, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 1 event row(s)\n2026-10-15 08:51   HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-06 NEW) FIRED 1\n",
+    "state": {
+      "zone": "green",
+      "bps": 259,
+      "sev": 0,
+      "marker": "🟢",
+      "sub260": 2,
+      "obs_date": "2026-07-06",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-03",
+      "delivered": [
+        "🚨 KILL-LEVEL MET (NOT a |2026-07-06"
+      ]
+    }
+  },
+  "revision-latest-versus-first-published": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md": "## 2026-07-03 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** zone escalation [2026-07-03]; kill-level event [2026-07-03]\n**Current quote:** HY OAS 290bps [2026-07-03], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-07-03) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze\n- 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 258bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-07-03` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-07-03 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-07-03) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet. | unattended watcher; current quote observation 2026-07-03, no analyst judgment attached |\n| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 258bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-07-03, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-07-03) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 258bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 2 event row(s)\n2026-10-15 08:51   HY OAS 290bps 🔴red (sev 2, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 2\n",
+    "state": {
+      "zone": "red",
+      "bps": 290,
+      "sev": 2,
+      "marker": "🔴",
+      "sub260": 2,
+      "obs_date": "2026-07-03",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-03",
+      "delivered": [
+        "🚨 ESCALATION 🟢green→🔴red|2026-07-03",
+        "🚨 KILL-LEVEL MET (NOT a |2026-07-03"
+      ]
+    }
+  },
+  "invalid-latest-not a number": {
+    "synthetic_fixture": true,
+    "packets": {},
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n",
+    "alert_log": "",
+    "watch_log": "2026-10-15 08:51   PARSE-FAIL — could not convert string to float: 'not a number'\n",
+    "state": {
+      "zone": "green",
+      "sev": 0,
+      "obs_date": "2026-07-01"
+    }
+  },
+  "invalid-latest-nan": {
+    "synthetic_fixture": true,
+    "packets": {},
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n",
+    "alert_log": "",
+    "watch_log": "2026-10-15 08:51   PARSE-FAIL — cannot convert float NaN to integer\n",
+    "state": {
+      "zone": "green",
+      "sev": 0,
+      "obs_date": "2026-07-01"
+    }
+  },
+  "invalid-latest-inf": {
+    "synthetic_fixture": true,
+    "packets": {},
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n",
+    "alert_log": "",
+    "watch_log": "2026-10-15 08:51   PARSE-FAIL — cannot convert float infinity to integer\n",
+    "state": {
+      "zone": "green",
+      "sev": 0,
+      "obs_date": "2026-07-01"
+    }
+  },
+  "historical-only": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-10-14_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md": "## 2026-10-14 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** recovered historical kill-level event [2026-07-02]\n**Current quote:** HY OAS 290bps [2026-10-14], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-10-14` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-07-02 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-10-14, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-10-14_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 1 event row(s)\n2026-10-15 08:51   HY OAS 290bps 🔴red (sev 2, prev 2red, sub260 0, obs 2026-10-14 NEW) FIRED 1\n",
+    "state": {
+      "zone": "red",
+      "bps": 290,
+      "sev": 2,
+      "marker": "🔴",
+      "sub260": 0,
+      "obs_date": "2026-10-14",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-02",
+      "delivered": [
+        "🚨 KILL-LEVEL MET (NOT a |2026-10-14"
+      ]
+    }
+  },
+  "legacy-before": {
+    "synthetic_fixture": true,
+    "packets": {},
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n",
+    "alert_log": "",
+    "watch_log": "",
+    "state": {}
+  },
+  "legacy-after": {
+    "synthetic_fixture": true,
+    "packets": {},
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n",
+    "alert_log": "",
+    "watch_log": "",
+    "state": {}
+  },
+  "vintage-unavailable": {
+    "synthetic_fixture": true,
+    "packets": {},
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n",
+    "alert_log": "",
+    "watch_log": "2026-10-15 08:51   VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)\n2026-10-15 08:51   HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok\n",
+    "state": {
+      "zone": "green",
+      "bps": 259,
+      "sev": 0,
+      "marker": "🟢",
+      "sub260": 1,
+      "obs_date": "2026-07-03",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series"
+    }
+  },
+  "mixed-current-plus-historical": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-10-14_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md": "## 2026-10-14 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** zone escalation [2026-10-14]; recovered historical kill-level event [2026-07-02]\n**Current quote:** HY OAS 290bps [2026-10-14], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze\n- 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-10-14` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-10-14 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet. | unattended watcher; current quote observation 2026-10-14, no analyst judgment attached |\n| 2026-07-02 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-10-14, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-10-14_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 2 event row(s)\n2026-10-15 08:51   HY OAS 290bps 🔴red (sev 2, prev 0green, sub260 0, obs 2026-10-14 NEW) FIRED 2\n",
+    "state": {
+      "zone": "red",
+      "bps": 290,
+      "sev": 2,
+      "marker": "🔴",
+      "sub260": 0,
+      "obs_date": "2026-10-14",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-02",
+      "delivered": [
+        "🚨 ESCALATION 🟢green→🔴red|2026-10-14",
+        "🚨 KILL-LEVEL MET (NOT a |2026-10-14"
+      ]
+    }
+  },
+  "mixed-repeat": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-10-14_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md": "## 2026-10-14 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** zone escalation [2026-10-14]; recovered historical kill-level event [2026-07-02]\n**Current quote:** HY OAS 290bps [2026-10-14], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze\n- 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-10-14` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-10-14 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet. | unattended watcher; current quote observation 2026-10-14, no analyst judgment attached |\n| 2026-07-02 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-10-14, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 ESCALATION 🟢green→🔴red  HY OAS 290bps (as-of 2026-10-14) — >280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze ⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). **X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. Do not size off this packet.\n2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <260 on two consecutive published closes, the second dated 2026-07-02; this box holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a DUPLICATE of an alert another box sent). It is the SAME single terminal event dated 2026-07-02, never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO §D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-10-14_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-290bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 2 event row(s)\n2026-10-15 08:51   HY OAS 290bps 🔴red (sev 2, prev 0green, sub260 0, obs 2026-10-14 NEW) FIRED 2\n2026-10-15 08:51   HY OAS 290bps 🔴red (sev 2, prev 2red, sub260 0, obs 2026-10-14) ok\n",
+    "state": {
+      "zone": "red",
+      "bps": 290,
+      "sev": 2,
+      "marker": "🔴",
+      "sub260": 0,
+      "obs_date": "2026-10-14",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-02",
+      "delivered": [
+        "🚨 ESCALATION 🟢green→🔴red|2026-10-14",
+        "🚨 KILL-LEVEL MET (NOT a |2026-10-14"
+      ]
+    }
+  },
+  "ordinary-kill": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md": "## 2026-07-03 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** kill-level event [2026-07-03]\n**Current quote:** HY OAS 259bps [2026-07-03], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-07-03` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-07-03, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 1 event row(s)\n2026-10-15 08:51   HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1\n",
+    "state": {
+      "zone": "green",
+      "bps": 259,
+      "sev": 0,
+      "marker": "🟢",
+      "sub260": 2,
+      "obs_date": "2026-07-03",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-03",
+      "delivered": [
+        "🚨 KILL-LEVEL MET (NOT a |2026-07-03"
+      ]
+    }
+  },
+  "ordinary-kill-repeat": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md": "## 2026-07-03 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** kill-level event [2026-07-03]\n**Current quote:** HY OAS 259bps [2026-07-03], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-07-03` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-07-03, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 1 event row(s)\n2026-10-15 08:51   HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1\n2026-10-15 08:51   HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03) ok\n",
+    "state": {
+      "zone": "green",
+      "bps": 259,
+      "sev": 0,
+      "marker": "🟢",
+      "sub260": 2,
+      "obs_date": "2026-07-03",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-03",
+      "delivered": [
+        "🚨 KILL-LEVEL MET (NOT a |2026-07-03"
+      ]
+    }
+  },
+  "missed-poll-reset": {
+    "synthetic_fixture": true,
+    "packets": {},
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n",
+    "alert_log": "",
+    "watch_log": "2026-10-15 08:51   HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok\n",
+    "state": {
+      "zone": "green",
+      "bps": 259,
+      "sev": 0,
+      "marker": "🟢",
+      "sub260": 1,
+      "obs_date": "2026-07-03",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series"
+    }
+  },
+  "ce1-duplicated-first-published-date": {
+    "synthetic_fixture": true,
+    "packets": {
+      "2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md": "## 2026-07-03 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** kill-level event [2026-07-03]\n**Current quote:** HY OAS 259bps [2026-07-03], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-07-03` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n"
+    },
+    "signals": "| date | owner | target | priority | description | source |\n| 2026-10-01 | OTHER_OWNER | PROME | 🟡 | preserve this foreign row | fixture |\n| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read. | unattended watcher; current quote observation 2026-07-03, no analyst judgment attached |\n",
+    "alert_log": "2026-10-15 08:51   🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis. ⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\". Do NOT trade or retire a thesis off this mechanical read.\n",
+    "watch_log": "2026-10-15 08:51   DELIVERED packet -> PROME/inbox/2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md\n2026-10-15 08:51   DELIVERED SIGNALS.md 1 event row(s)\n2026-10-15 08:51   HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 2, obs 2026-07-03 NEW) FIRED 1\n",
+    "state": {
+      "zone": "green",
+      "bps": 259,
+      "sev": 0,
+      "marker": "🟢",
+      "sub260": 2,
+      "obs_date": "2026-07-03",
+      "checked": "2026-10-15 08:51 ",
+      "count_basis": "first-published-series",
+      "kill_met_on": "2026-07-03",
+      "delivered": [
+        "🚨 KILL-LEVEL MET (NOT a |2026-07-03"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+######## ws N5c
+--- day 2: 07-06=265 appended
+  state: {'zone': 'yellow', 'bps': 265, 'sub260': 0, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 ESCALATION 🟢green→🟡yel|2026-07-06', '🚨 KILL-LEVEL MET (NOT a |2026-07-06']}
+  packets: {'2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-265bps.md': ['**Signal:** zone escalation [2026-07-06]; recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 2 ['| 2026-07-06 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🟡yellow  HY OAS 265bps (as-of 2026-07-06) — >280 sustained, leve', '| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 2 | watch.log: [' DELIVERED packet -> inbox/2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-265bps.md', ' DELIVERED SIGNALS.md 2 event row(s)', ' HY OAS 265bps 🟡yellow (sev 1, prev 0green, sub260 0, obs 2026-07-06 NEW) FIRED 2']
+######## prefix N5c
+--- day 2: 07-06=265 appended
+  state: {'zone': 'yellow', 'bps': 265, 'sub260': 0, 'obs_date': '2026-07-06', 'kill_met_on': '2026-07-03', 'delivered': ['🚨 ESCALATION 🟢green→🟡yel|2026-07-06', '🚨 KILL-LEVEL MET (NOT a |2026-07-06']}
+  packets: {'2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-265bps.md': ['**Signal:** zone escalation [2026-07-06]; recovered historical kill-level event [2026-07-03]']}
+  SIGNALS LIQUID rows: 2 ['| 2026-07-06 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🟡yellow  HY OAS 265bps (as-of 2026-07-06) — >280 sustained, leve', '| 2026-07-03 | LIQUID | ALL | 🔴 | 🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS <2']
+  alert-log lines: 2 | watch.log: [' DELIVERED packet -> inbox/2026-07-06_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-265bps.md', ' DELIVERED SIGNALS.md 2 event row(s)', ' HY OAS 265bps 🟡yellow (sev 1, prev 0green, sub260 0, obs 2026-07-06 NEW) FIRED 2']
