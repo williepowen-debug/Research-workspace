@@ -1,3 +1,13 @@
+# 2026-10-15T03:51:54Z — Will-requested FULL CLOSEOUT / Tier-2 (walter-dc, Claude Code, Opus 5.5)
+
+Will-launched 20:09 ET boot (PARTIAL by charter; doctor 0 HIGH). Evening: X token re-authorized; 18 bookmarks + 13 intake + 9 owner packets (BOND, LIQUID x2, RED x3, CRUISE, OTTO x4, FALCON, DAEDALUS) dispositioned; 23 signals -015..-037 (IMMEDIATE -018 AI-infra credit, -034 RED-FT-10 fire), 6 corrections with R1 rows; Iran full re-verify (3 Opus legs) + FALCON doorbell -> FALCON graded (losses 3->5, ratchet RED); GIBBS lane (routing v0.43, DAEDALUS-verified); RED non-session rule (THRESHOLD_SCAN v0.52); dark-desk backlog ranking to PROME; PROME's 3 items answered (WQ-401 was already discharged 10/10). Defect self-found: -034 PROME handoff regrew AGENTS/PROME (3rd time), fixed same session (ee7071e20; auto-memory n+3). Evidence research/2026-10-14_evening-routing, research/2026-10-14_iran-full-sweep; duties LAST_COMPLETION.
+
+## Prior MEMORY session notes — verbatim conservation
+
+**CHANGES SINCE — 2026-10-14T18:33:50Z, Will-requested full context/persistence closeout:** October14 source set14 signals/51owner packets,19bookmark dispositions;745processed/0staged. X and other intake health checks saved; six bounded verification helpers explicitly closed.
+**NEXT SESSION:** read LAST_COMPLETION.md; pick up BOND/LIQUID routing returns and DEWEY final handoff when delivered. Reuse prior source/mark evidence; retain dated market/source limitations and Will's scope correction.
+Will confirms DEWEY running; prior diesel commission remains closed. No new trade, monitor or unattended authority. Old session notes conserved verbatim in SESSION_LOG; existing October15 size trigger retained.
+
 # 2026-10-15T01:39:54Z — walter-dc help-the-live-desks pass / light-closeout re-run — full deferred
 RED-FT-10 FIRED (-034; Cboe 10/14 157.30, 4/4); dark-desk backlog ranking to PROME; GIBBS lane landed (routing v0.43, DAEDALUS-verified); AGENTS/PROME dead-path regrowth from -034 fixed same session (ee7071e20; memory n+3). 126/126 handoffs delivered.
 

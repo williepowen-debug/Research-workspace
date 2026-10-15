@@ -1,5 +1,5 @@
 # Cadence: EVENT-DRIVEN
-# Last re-pull ATTEMPTED: 2026-10-14 (scoped bookmark routing: COR16, four exact batch closures, or DEWEY final delivery; not a historic closure/trigger census)
+# Last re-pull ATTEMPTED: 2026-10-15 (walter-dc: BM-20261015-01 18/18 and BM-20261015-02 13/13 CLOSED)
 # Review evidence: research/2026-10-12_closeout-improvements/cadence-review.json (content/receipt check; no invented event).
 batch_id	opened_utc	source	declared	dispositioned	state	items	notes
 BM-20260809-01	2026-08-09T21:02:49Z	Will-Telegram 9-image batch 2026-08-09 ~17:02 ET (21:02Z)	9	9	CLOSED	1=DISPATCH:SIG-W-20260809-009;2=KILL:kill_log 2026-08-09: Pilkington opinion, unverified Iran-tanker claim;3=KILL:kill_log 2026-08-09: Unusual Whales API advertisement;4=FOLD:SIG-W-20260809-008 (HFI Research quote of Iranian FM reinforces the SNSC correction);5=DISPATCH:SIG-W-20260809-007;6=FOLD:SIG-W-20260809-010 (Crypto Rover JGB 31-year framing folded into JGB signal);7=KILL:kill_log 2026-08-09: recurring viral falsehood, China dumped 657B USTs is cumulative-since-peak relabelled as fresh selling;8=FOLD:SIG-W-20260809-008 (WarMonitor Iran demands = shorter paraphrase of the SNSC 6-7 item list);9=FOLD:SIG-W-20260809-010 (Bloomberg Japan insurers 14T yen chart folded into JGB signal)	closed 2026-08-09T21:14:00Z

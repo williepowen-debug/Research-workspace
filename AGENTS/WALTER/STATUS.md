@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-15T03:31:26Z — walter-dc (Claude Code, Opus 5.5) Will-launched evening boot + routing + Iran full re-verify + help-the-live-desks pass; light-closeout re-run. BOARD **1431**; October14 evening -015..-037 (23 signals, 84 handoffs). Boot/source coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
+**Updated:** 2026-10-15T03:51:17Z — Will-requested FULL closeout (Tier 2), walter-dc (Claude Code, Opus 5.5). BOARD **1431**; October14 total 37 signals (morning -001..-014 Codex; evening -015..-037 walter-dc: 23 signals, 84 handoffs, 2 IMMEDIATE). Source/boot market coverage PARTIAL. Current obligations: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Morning CPI, shipping, energy, bank/AI/housing inputs and the later power-contract/diesel-surcharge findings have source-backed records. Bookmark access works; the745-ID ledger and prior dispositions are preserved. DEWEY final power-contract report audited and its exact handoff filed on the14:49EDT restart; named service/payment/allocation gaps remain. Evening: inbox drained (BOND, LIQUID x2, RED routed as -015..-017, -023); the day's new risk content is AI-infrastructure credit (-018) on a hot-CPI, worst-S&P-day-since-7/29 session; RED-FT-10 SKEW 4th close awaits the CBOE publisher file. Research gaps, source clocks and current work belong to LAST_COMPLETION.md; this closeout does not certify current market conditions.
+October 14 closed with three registered fires recorded at their owners: RED-FT-08 (core CPI, morning) and **RED-FT-10 (Cboe SKEW 157.30, the 4th close >=150; -034)**, both executed by RED (net-bear 60 -> 65), and FALCON's re-graded war state after WALTER's **full Iran re-verify** (anchor last-full 2026-10-15, next ~10/22): FAL-01 firm-negative, losses 3 -> 5, casualty ratchet RED, marks held. The day's new risk content was AI-infrastructure credit on a hot-CPI, worst-S&P-since-7/29 session (-018). Routing law moved twice: the **GIBBS large-bank lane** (routing v0.43) and RED's **non-session holiday rule** (THRESHOLD_SCAN v0.52). Inbox drained. Open items, dated, live only in LAST_COMPLETION.md.
 
-Evening 2026-10-15T00:41:30Z: X token re-authorized (HTTP400 refresh fixed); 18 bookmarks + 13 intake items + 4 owner packets (BOND, LIQUID x2, RED) routed, batches BM-20261015-01/-02 CLOSED. Live per ListAgents 00:12Z: PROME, RED, NEXUS, DAEDALUS; others UNKNOWN. RED-FT-10: CBOE file still ends 10/13 (3 of 4) at 00:40Z; vendor 10/14 157.30 provisional. Iran FULL re-verify done 2026-10-15 ~01:15Z (-032; anchor next ~10/22); FALCON then spawned and GRADED: losses 3->5, ratchet RED, marks held (-035 correction). RED non-session rule in THRESHOLD_SCAN v0.52.
+Closeout 2026-10-15T03:51:17Z: live sessions at last check NEXUS, RED, DAEDALUS, OTTO, PROME (busy) + a Will-started LABOR session for the 10/15 08:30 claims grade; other desks dark/UNKNOWN. X bookmarks re-authorized this session (745 -> 763 processed).
 
 ## DATED MARKET OBSERVATIONS — bounded refresh October15 00:10–00:40Z; unchanged rows retain prior dates
 
@@ -30,18 +30,18 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 ## STATE POINTERS
 
 - Current obligation/design/Will-choice list and resume point: `LAST_COMPLETION.md`.
-- Closeout evidence/manual duty outcomes: `research/2026-10-14_walter-closeout/`.
+- Closeout evidence/manual duty outcomes: `research/2026-10-14_evening-routing/closeout/` (evening, walter-dc); morning `research/2026-10-14_walter-closeout/`. Evening routing plans/written-path receipts and verify reports: `research/2026-10-14_evening-routing/`; Iran full sweep: `research/2026-10-14_iran-full-sweep/`.
 - Bookmark source/read/dispatch evidence: `research/2026-10-12_bookmarks-reauth/REPORT.md`.
-- X access rechecked October14 16:54Z (HTTP200); read-only backlog check17:36Z found0unprocessed on the standard newest-first boundary.745processed/0staged; no token refresh or additional mark. Morning19 IDs remain source-backed; prior72/48 batch evidence remains historical. Sources: `research/2026-10-14_morning-news/`.
+- X bookmarks: refresh token was dead at the 10/15 ~00:12Z boot (HTTP 400, rotated elsewhere); re-authorized ~00:15Z via background `--authorize` + Windows browser; 18 new routed and marked (BM-20261015-01), **763 processed / 0 staged**. Token is per-machine `.env`; a machine switch may need one more re-authorize.
 - CL9 runner repair implemented under Will's direct request;30 regressions passed at its dated test. Runtime friction/time savings and independent acceptance remain separate. No further runner/spec work commissioned.
 - Prior reboot/owner-intake/Rosner evidence remains at its named research paths and exact checkpoint archives. No full-source or first-release certification inferred from those saved passes.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
 
 ## NETWORK AWARENESS
 
-REGISTRY reviewed at2026-10-14T18:33:50Z before this derived subsection: 46rows/41available STATUS headers at first30-line scope; 5missing (RAV, DARWIN, BARON, HERMES, DEWEY). PROME resolved at the repository root. Owner dates/bands retained; header inspection is not complete owner evidence or fleet presence. Older dates: YEYOU 2026-09-05 (RETIRED); RAV 2026-08-02 (YELLOW); ATHENA 2026-03-14 (GREEN); DARWIN 2026-02-18 (YELLOW); SENTRY 2026-09-24 (YELLOW).
+REGISTRY refreshed at 2026-10-15T03:51:17Z before this subsection (step 13 -> 12(b)): 47 rows, GIBBS added (built 10/14, first session Mon 10/19, routing v0.43); FALCON, VIOLET, MIDAS and six live-desk rows refreshed from headers tonight. Status bands (owner-held): GREEN 4 · YELLOW 14 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · none 3. Oldest dates: DARWIN 2026-02-18, ATHENA 2026-03-14, SENTRY 2026-05-09, RAV 2026-08-02, YEYOU 2026-08-20 (RETIRED). PROME resolved at repo root.
 
-October14 source set14:3IMMEDIATE/11PRIORITY;0cluster-mediating; one existing FT08 qualification, no additional owner grade. New BOND/LIQUID returns are queued for source routing. Six read-only verification helpers explicitly closed across two passes; Will reports DEWEY running independently. No WALTER owner launch or new doorbell.
+October 14 evening: 23 signals (2 IMMEDIATE: -018 AI-infra credit, -034 FT-10 fire); 6 corrections (-023, -031, -033, -035, -036 and the -001 update) with R1 rows; 31 batch items CLOSED (BM-20261015-01 18/18, -02 13/13); 2 Opus RULE 9 verify helpers + 3 Opus Iran-sweep legs, all complete. Doorbell: FALCON YES (PROME spawned it; graded), 14 other dark-recipient rows logged NO. Dark-desk backlog ranking delivered to PROME (unfiled in PROME/inbox at PROME's 23:01 closeout). No WALTER owner launch.
 
 ## Active LIAISON channels
 
