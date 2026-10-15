@@ -1,5 +1,7 @@
 # The Capital-Access Ladder — RCL / CCL / NCLH read as documents
 
+> ⛔ **2026-10-14 BANNER — WINS OVER THE BODY (KB-CRU-145/146/147):** two rungs are overtaken. **NCLH did issue:** $950.0M 8.750% senior notes due 2031, priced 9/30 (secured/unsecured not stated), repaying ~$376.3M of its secured revolver — any line below saying NCLH did not issue in-window is false from 9/30. **RCL is adding ~$3B of committed Morgan Stanley debt** for 50% of Sandals Resorts (8-K 9/23, close early 2027) — the zero-secured-debt and 30.2% liquidity/stated-debt readings are pre-deal. Re-read at the Q3 10-Qs.
+
 **Built:** 2026-09-20 Sun (CRUISE, Will-directed research session, Thread A of 4)
 **Method:** the CCL "read the filings as DOCUMENTS, not by the `items` tag" sweep of 2026-09-19, applied for the first time to **RCL and NCLH**.
 **Why it existed:** the 9/19 sweep closed the method defect *for CCL only*. Two-thirds of the Big 3 had never been read this way.

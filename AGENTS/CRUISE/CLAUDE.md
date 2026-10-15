@@ -21,7 +21,12 @@ When spawned with a task:
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
-3c. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" CRUISE` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
+3c. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" CRUISE` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then write the receipt in the field-carrying form the writer REQUIRES since WQ-399 (Will 2026-10-08; an incomplete receipt is refused rc 2 and nothing is written), and commit `registry/corrections_receipts.tsv`:
+    - `APPLIED`: `--receipt <COR-id> --action APPLIED --artifact <path#key> [--artifact …] --validation-ref <path#key|NONE> [--scope <text>] [--note "<text>"]`
+    - `NO-OP`: `--receipt <COR-id> --action NO-OP --scope <text> [--artifact <path#key>] [--note "<text>"]`
+    - `DEFERRED`: `--receipt <COR-id> --action DEFERRED --review YYYY-MM-DD [--scope <text>] [--note "<text>"]` (review date today or later)
+    - `CONTESTED`: `--receipt <COR-id> --action CONTESTED [--scope <text>] [--artifact <path#key>] [--note "<text>"]`
+    - `path#key` = repo path + `#` + a stable key, e.g. `AGENTS/CRUISE/workbook/KB.tsv#KB-CRU-146`. No `;`, tab or line break in any value. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①; receipt form updated 2026-10-14 per SIG-W-20261008-033 / WQ-399.)*
 3d. **Ledger staleness check:** `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" CRUISE` — every workbook ledger must be in one of two states, never the silent middle: **FROZEN** with a first-line banner, or **LIVE** with a `# Last real data refresh: YYYY-MM-DD` header line. A `⚠️ STALE` line is a freeze-or-refresh decision owed **this session**, not a note for later. *(Wired 2026-09-02 after DAEDALUS Staleness Sweep #4 found `workbook/FLOW.tsv` +43d behind STATUS with no banner and no clock, carrying two July-direction rows into September. The 7/4 fleet rollout of this boot line predates this desk — born 7/2, dark 7/3→8/14 — so no alarm had ever printed here.)*
 
 ### WALTER signal intake (inbox/WALTER delivery lane)
@@ -113,13 +118,7 @@ When spawned with a task:
 
 ## KEY THRESHOLDS
 
-| Metric | Current | Threshold | Implication |
-|--------|---------|-----------|-------------|
-| CCL stock (% from pre-conflict) | -25 to -30% [CONF Mar 9] | >-35% = RED | Unhedged fuel + $24B debt = existential if sustained |
-| NCLH interest coverage | ~0.86x [EST] ($600M income / $700M interest) | <1.0x = RED | Interest exceeds net income — cash bleed |
-| Bunker fuel ($/mt) | Ref BRENT | >800 = RED | Wipes cruise operator margins |
-| Gulf itineraries | Season cancelled [CONF Mar 9] | >15 cancelled = RED | Already at RED — full season loss |
-| Forward booking pace YoY | Unknown post-conflict | >-20% = RED | Q1 earnings (April) = first hard data |
+⛔ **The live thresholds are the bands in `workbook/VX.tsv`** (one row per vector, with its basis and source), **and the live values are on the `STATUS.md` Signal Dashboard.** The March-2026 table that stood here (CCL −25 to −30%, NCLH coverage ~0.86x, "Gulf season cancelled", etc.) was replaced 2026-10-14 — its values were March readings and two of its rows no longer match any vector. History: `git log -p -- AGENTS/CRUISE/CLAUDE.md`.
 
 ---
 
@@ -143,10 +142,7 @@ See STATUS.md for the live convergence matrix.
 
 ## EXIT RULES (Falsification)
 
-1. **Thesis kill (exit all):** Hormuz reopens + fuel drops below $500/mt bunker + all three operators confirm stable/growing bookings at next earnings.
-2. **Position-specific:** CCL puts (if opened) — exit if CCL recovers above -15% from pre-conflict AND fuel hedging announced.
-3. **Convergence downgrade (trim):** Gulf routes reinsured at normal rates + booking pace stabilizes to positive YoY.
-4. **Time-based:** Q1 earnings (April 2026) = mandatory thesis check. If all three operators guide above consensus, reassess entirely.
+⛔ **The live exit rules, with their dated verdicts, are in `STATUS.md` § Exit rules — that section is the only live copy.** The March-2026 list that stood here (Hormuz-reopens thesis kill, CCL-puts exit at −15%, Gulf-reinsurance trim, April Q1 check) was replaced 2026-10-14 at DAEDALUS's Falsification Sweep #4 ask: it was written for a fuel/Gulf thesis the desk has since retired (WQ-164, WQ-218) and was still readable as live. History: `git log -p -- AGENTS/CRUISE/CLAUDE.md`.
 
 ---
 

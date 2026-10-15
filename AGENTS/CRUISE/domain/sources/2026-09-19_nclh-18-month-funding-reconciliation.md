@@ -1,5 +1,7 @@
 # NCLH — 18-month funding reconciliation to ONE dated horizon
 
+> ⛔ **2026-10-14 BANNER — WINS OVER THE BODY (KB-CRU-145/146):** on **2026-09-30** NCL Corporation priced **$950.0M of 8.750% senior notes due 2031** (closing 10/15) to redeem all 6.125% 2028 notes, repay **~$376.3M** of the secured revolver and prepay ~$42.2M of export-credit debt. **The revolver draw, undrawn capacity, maturity ladder and interest cost below are pre-refinancing and are NOT recomputed.** NCLH's FY26 interest-expense-net guide is **~$705M** (Q2 Ex-99.1). Cite this paper as the 9/19 model, never as current.
+
 **Built:** 2026-09-19 Sat (CRUISE, evening session) · **Discharges CATO R7** ("the ~$1.3B funding gap is UNVERIFIED and needs a MODEL, not one filing")
 **Horizon:** **2026-07-01 → 2027-12-31** — exactly 18 months from the balance-sheet date of the primary.
 **Primary:** NCLH Q2 FY26 10-Q, filed **2026-08-03**, acc **0001104659-26-089657**, period ended 2026-06-30. Secondary primary: FY2025 10-K debt-maturity ladder via SEC XBRL.
