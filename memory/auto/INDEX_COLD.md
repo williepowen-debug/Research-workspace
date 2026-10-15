@@ -409,3 +409,19 @@
 - finding_live_claim_in_a_closed_container_is_invisible — container status wins BOTH ways; CLOSED under Live manufactures work
 - finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs — which surface does the reader consult? (n=6, 5 desks, 9/2)
 - finding_correction_to_the_sequence_survives_every_fact_check — facts re-verify clean while the ORDER inverts the call
+
+## Demoted 2026-10-15 — flow-rule pass (hot 19,339 B = 75% → under 70%; PROME prome-81 closeout; settled/predictable-trigger rows; hooks trimmed to ≤80 chars on the move; slug union proven in the commit body)
+- finding_rederived_signal_loses_the_senders_caveats — caveats don't survive a hop; carry the sender's wording
+- finding_retired_figure_relabelled_onto_another_subject_evades_its_guard — DO-NOT lists key on SUBJECT; same subject, prior event (n=2)
+- finding_a_run_and_a_count_are_different_statistics — a RUN and a COUNT differ; write BOTH off official series
+- finding_one_percentile_rule_is_several_rules_across_strata — a percentile is a SHAPE claim; measure the bite per stratum
+- finding_a_summary_statistic_manufactures_a_verdict_when_the_threshold_is_inside_the_distribution — a mean LOOKS correct when the threshold sits inside the distribution
+- finding_verify_recommended_fix_not_just_finding — verify the recommended FIX, not only the finding
+- finding_prose_claims_escape_test_rigor — prose claims escape the rigor tests apply to numbers
+- finding_a_column_that_is_both_record_and_instrument_basis_fails_twice — record AND instrument-basis column fails twice; the 2nd is silent
+- finding_a_warning_dated_on_its_own_event_fires_too_late — a review_by set TO its own event fires one tick too late
+- finding_bracket_test_cannot_parse_base_prefix — `[ 10#..-ge ]` is always false; use (( )) (n=2)
+- finding_grading_a_disposition_on_a_book_you_do_not_own — the tape says WORTH, never whether it was HELD (n=2)
+- feedback_research_sessions_living_page_plain_updates — one living page + plain milestone updates, not every delivery
+- finding_lenient_parser_reports_unparseable_as_a_behavior — headline count == unparseable cells ⇒ parseability, not behavior
+- finding_truncation_returns_a_plausible_answer_not_an_error — the cut end of an append-only log is its NEWEST rows
