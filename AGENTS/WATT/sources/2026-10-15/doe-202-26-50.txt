@@ -1,0 +1,608 @@
+Department of Energy 
+Washington, DC 20585 
+
+PJM Interconnection, L.L.C.  
+Regarding Specified and Backup Generation Resources 
+
+Order No. 202-26-50 
+
+Pursuant to the authority vested in the Secretary of Energy (Secretary) by 
+section 202(c) of the Federal Power Act (FPA)1 and section 301(b) of the Department 
+of Energy (DOE or Department) Organization Act,2 and for the reasons set forth 
+below, I hereby determine that a statutory emergency exists in the PJM 
+Interconnection, L.L.C. (PJM) Region3 due to a  sudden  increase  in the  demand for 
+electric energy, or a  shortage  of  electric energy or of facilities for the generation or 
+transmission of electric energy, and other causes.  I direct PJM as well as specified 
+and backup generation resources defined below to comply with this Order.4  PJM is 
+authorized to call upon its Transmission Owners and Electric Distribution Companies 
+to implement this Order as needed.  Issuance of this Order will meet the emergency 
+and serve the public interest. 
+
+EMERGENCY CONDITIONS 
+
+On October 11, 2026, PJM submitted a request for an emergency order pursuant 
+to FPA section 202(c) (Application).5  Specifically, PJM requests that the Secretary find 
+that “an imminent electric reliability emergency will exist that will threaten transmission 
+reliability and the ability to serve load in the PJM Region due to a shortage of electric 
+energy, a shortage of facilities for the generation of electric energy, and other causes.”6  
+PJM forecasts demand “at or around 111,500 MW (or higher)” on October 13, 2026, and 
+
+1 16 U.S.C. § 824a(c). 
+2 42 U.S.C. § 7151(b). 
+3 PJM serves as the Reliability Coordinator and Balancing Authority for its region 
+
+and is, therefore, responsible for overseeing the dispatch of generation to meet system 
+demand at all times within the limits of the transmission system.  The PJM Region 
+includes all or parts of Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, 
+New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, West Virginia, and 
+the District of Columbia. 
+
+4 All geographical or electrical areas of the Bulk-Power System are under the 
+oversight of one and only one Reliability Coordinator.  See N. Am. Elec. Reliability Corp. 
+(NERC), Rules of Procedure, § 501.1.4.1, https://www.nerc.com/globalassets/who-we-
+are/rules-of-procedure/nerc-rop-with-appendices-eff-20250520_signed.pdf [hereinafter 
+NERC Rules of Procedure].  All Balancing Authorities are under the responsibility of one 
+and only one Reliability Coordinator.  See id. § 501.1.4.2.  All load and generation are 
+under the responsibility and control of one and only one Balancing Authority.  
+See id.  § 501.1.4.4. 
+
+5 Application at 1. 
+6 Id. 
+
+1 
+
+ 
+ 
+ 
+ 
+  
+ 
+reports that “PJM is forecasted to be within 900 MW of its reserve margin on 
+October 14, 2026” with anticipated generation outages to reach 61,591 MW across PJM, 
+with the most acute issues in the BGE, PEPCO, and Dominion zones.7 
+
+According to PJM, system conditions that could arise from capacity deficiencies 
+
+and/or transmission constraints, among other things, pose a “significant risk of 
+emergency conditions that could jeopardize electric reliability and public safety.”8  
+PJM states that some generating units could encounter an operational limitation due to a 
+restriction under an environmental permit or state requirement.9  Further, PJM reports 
+system conditions are being driven by elevated demand, a high generation outage rate 
+due to planned outages during the autumn outage season, and numerous planned 
+transmission outages.10  Anticipated transfers issues that could limit generation 
+deliverability include north-to-south transfers on the Conastone–Peach Bottom 5012 
+500 kV facility and west-to-east transfers on the Crete–St. Johns 345 kV tie line with 
+Midcontinent Independent System Operator, Inc. (MISO).  Further, MISO–PJM seams 
+transfers are being limited by loading on the Fostoria–Lallendorf.11  If other unforeseen 
+contingencies were to arise, PJM notes that the reliability impacts to the PJM system 
+could be significant.12 
+
+Consistent with my letter issued on January 22, 2026,13 regarding the deployment 
+of backup generation during emergency conditions, PJM seeks authorization for “PJM to 
+direct backup generation resources . . . at large loads to operate” pursuant to a section 
+202(c) order and to use those backup generation facilities instead of grid power during or 
+as a last resort before or during declaring a PJM-wide or local EEA 3 event.14  It is our 
+understanding that PJM seeks to unlock and deploy backup generation resources 
+(whether auxiliary, standby, directly-connected, battery storage, or other, and whether 
+synchronized or not to the bulk-power system) at data centers (including, but not limited 
+to, hyperscaler facilities) and at other large load industrial and commercial customer sites 
+as another tool to mitigate any undue risk to the bulk-power system.  The employment of 
+this backup generation is expected to reduce stress on the grid and permit orderly, safe, 
+and secure operations during the emergency conditions.  According to its Application, 
+PJM further requests that the “order make clear that PJM may call upon its Transmission 
+Owners to work with Electric Distribution Companies to take lawful actions to 
+implement this aspect of the requested relief and support customers in bringing these 
+
+7 Id. at 2. 
+8 Id. 
+9 Id. at 4. 
+10 Id. at 2. 
+11 Id. 
+12 Id. at 3. 
+13 Letter from Chris Wright, Sec’y, DOE, to Reliability Coordinators & Balancing 
+
+Auths. (Jan. 22, 2026), https://www.energy.gov/documents/leveraging-backup-
+generation-facilities-during-energy-emergencies. 
+
+14 Application at 1. 
+
+2 
+
+ 
+ 
+ 
+ 
+backup resources online.”15 
+
+REQUEST FOR ORDER 
+
+PJM requests that the Secretary issue an order effective on October 13, 2026, 
+
+through October 16, 2026, which is the expected period to reduce the need for any firm 
+load shedding during emergency system conditions, which authorizes “the provision of 
+additional energy from any units identified in Exhibit A, as well as any other generating 
+units that PJM may deem necessary to operate in excess of Operating Limits in order to 
+maintain the reliability of the power grid” in the PJM Region.16  The generating units to 
+which this Order pertains (Specified Resources) are listed in Exhibit A to the Application 
+for the Order 202-26-50, as described below.  Furthermore, PJM requests that the order 
+allow “use of backup generation by large loads notwithstanding any applicable 
+environmental limitations under federal, state, or local law or regulation.”17 
+
+DESCRIPTION OF MITIGATION MEASURES 
+
+In anticipation of this emergency, PJM states that it will commit all available 
+
+generation resources across its footprint to support reliability on October 13 and 
+October 14.18  PJM issued a “Capacity Advisory for October 12–14, 2026 due to the 
+combined impacts of elevated electric demand, generation outages, planned transmission 
+outages, and significant firm export obligations.”19  Regarding the seams transfer issue 
+noted above, MISO has also issued a “Capacity Advisory starting on [October 12] and 
+Conservative Operation starting on [October 12] which could impact the re-dispatch 
+available for the seams transfers.”20  PJM states that it is “actively evaluating emergency 
+actions, including a Transmission Loading Relief (TLR) request, recalling off-system 
+sales, and deployment of Demand Response resources as needed.”21  Further, PJM 
+reports that it may “implement Load Management, recall off-system sales and take other 
+emergency actions within its authority.”22 
+
+APPLICATION OF EOP-011-4 
+
+Section 215 of the FPA23 established a framework for development and 
+
+implementation of mandatory and enforceable Reliability Standards that apply to 
+Bulk-Power System owners, operators, and users, such as Reliability Coordinators and 
+Balancing Authorities.   NERC certifies Reliability Coordinators and Balancing 
+
+15 Id. 
+16 Id. at 4. 
+17 Id. at 5. 
+18 Id. at 3. 
+19 Id. at 2. 
+20 Id. 
+21 Id. at 3. 
+22 Id. 
+23 16 U.S.C. § 824o. 
+
+3 
+
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+Authorities pursuant to an Organization Certification program set forth in its Rules of 
+Procedure,24 because of the significant roles these two functional entity category types 
+have in ensuring bulk-power system reliability.  A Reliability Coordinator is defined as 
+
+the entity that is the highest level of authority who  is responsible for  the 
+Reliable Operation of the [Bulk Electric System (BES)], has the Wide Area 
+view of the BES, and has the operating tools, processes,  and procedures, 
+including  the  authority  to  prevent  or  mitigate  emergency  operating 
+situations  in  both  next-day  analysis  and  real-time  operations. 
+  The 
+Reliability Coordinator has the purview that is broad enough to enable the 
+calculation of Interconnection Reliability Operating Limits, which may be 
+based  on  the  operating  parameters  of  transmission  systems  beyond  any 
+Transmission Operator’s vision.25 
+
+A Balancing Authority is “the responsible entity that integrates resource plans 
+
+ahead of time, maintains Load-interchange-generation balance within a Balancing 
+Authority Area, and supports Interconnection frequency in real time.”26 
+
+Because of the criticality of their respective roles, Reliability Coordinators and 
+
+Balancing Authorities are subject to NERC’s Organization Certification Program to 
+ensure that they have “the tools, processes, training, and procedures to demonstrate their 
+ability to meet the Requirements/sub-Requirements of all of the Reliability Standards 
+applicable to the function(s).”27 
+
+NERC Reliability Standard EOP-011-4 addresses Emergency Operations. 
+
+Requirement 2 provides that “[e]ach Balancing Authority shall develop, maintain, and 
+implement one or more Reliability Coordinator-reviewed Operating Plan(s) to mitigate 
+Capacity Emergencies and Energy Emergencies within its Balancing Authority Area.”  
+Balancing Authorities are responsible for requesting that their respective Reliability 
+Coordinators issue an EEA in accordance with Requirement 2 and Attachment 1 to 
+Reliability Standard EOP-011-4.   Among other things, Requirement 2.2.4 of this 
+reliability standard authorizes Balancing Authorities to make “[p]ublic appeals for 
+voluntary Load reductions.”   Moreover, section 2.2.9 requires Balancing Authority 
+Operating plans to include provisions for “Transmission Operators to implement 
+operator-controlled manual Load shedding, undervoltage Load shedding, or 
+underfrequency Load shedding,” and section 2.2.10 requires such plans to determine 
+reliability impacts of “extreme weather conditions.” 
+
+According to Requirement 5, 
+
+24 See generally NERC Rules of Procedure, supra note 4; see also id. § 500. 
+25 NERC Rules of Procedure, supra note 4, app. 5B; see also id. app. 2.  Other 
+
+capitalized terms in this definition also are defined in the NERC Rules of Procedure 
+at app. 2. 
+
+26 Id. app. 5B; see also id. app. 2. 
+27 Id. § 501. 
+
+4 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Each Reliability Coordinator that receives an Emergency notification from a 
+Transmission  Operator  or  Balancing  Authority  within  its  Reliability 
+Coordinator Area shall notify, within 30 minutes from the time of receiving 
+notification, other Balancing Authorities and Transmission Operators in its 
+Reliability Coordinator Area, and neighboring Reliability Coordinators. 
+
+According to Requirement 6, 
+
+Each Reliability Coordinator that has a Balancing Authority experiencing a 
+potential  or  actual  Energy  Emergency  within  its  Reliability  Coordinator 
+Area shall declare an Energy Emergency Alert, as detailed in Attachment 1. 
+
+Attachment 1 provides, 
+
+Initiation by Reliability Coordinator.  An Energy Emergency Alert (EEA) 
+may  be  initiated  only  by  a  Reliability  Coordinator  at  1)  the  Reliability 
+Coordinator’s own request, or 2)  upon the request of an energy deficient 
+Balancing Authority. 
+
+*** 
+
+To ensure that all Reliability Coordinators clearly understand potential and 
+actual Energy Emergencies in the Interconnection, NERC has established 
+three  levels  of  EEAs.    The  Reliability Coordinators will use these terms 
+when communicating Energy Emergencies to  each  other.    An  EEA  is  an 
+Emergency procedure, not a daily operating practice, and is not intended as 
+an alternative to compliance with NERC Reliability Standards. 
+
+The Reliability Coordinator may declare whatever alert level is necessary 
+and need not proceed through the alerts sequentially. 
+
+*** 
+
+Before requesting an EEA 3, the energy deficient Balancing Authority must 
+make use of all available resources; this includes, but is not limited to: 
+
+2.5.1  All available generation units are on line.  All generation capable of 
+being on line in the time frame of the Emergency is online. 
+
+2.5.2  Demand-Side  Management.    Activate  Demand-Side  Management 
+within provisions of any applicable agreements. 
+
+*** 
+
+3.3.1  Energy  deficient  Balancing  Authority  obligations.    The  energy 
+deficient  Balancing  Authority,  upon  notification  from  its  Reliability 
+Coordinator  of  the  situation,  will  immediately  take  whatever  actions  are 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+necessary to mitigate any undue risk to the Interconnection.  These actions 
+may include Load shedding. 
+
+ORDER 
+
+FPA section 202(c)(1) provides that whenever the Secretary determines “that an 
+emergency exists by reason of a sudden increase in the demand for electric energy, or a 
+shortage of electric energy or of facilities for the generation or transmission of electric 
+energy,” the Secretary has the authority “to require by order . . . such generation, 
+delivery, interchange, or transmission of electric energy as in [his] judgment will best 
+meet the emergency and serve the public interest.”28  This statutory language constitutes 
+a specific grant of authority to the Secretary to authorize the operation of generation, 
+delivery, and transmission resources that the Secretary has determined will best meet an 
+emergency. 
+
+Given the emergency caused by the expected system stress, the responsibility of 
+PJM to ensure maximum reliability of its system, and the ability of PJM to identify and 
+dispatch generation resources and make available backup generation resources necessary 
+to meet load requirements, I have determined that, under the conditions specified below, 
+additional dispatch of the Specified Resources is necessary and operation of backup 
+generation resources may be necessary to best meet the statutory emergency and serve 
+the public interest for purposes of FPA section 202(c).  This determination is based on 
+the expected load stress, shortage of electric energy, shortage of facilities for the 
+generation of electric energy, and other causes, and the loss of power to homes and local 
+businesses, presenting a risk to public health and safety. 
+
+Consistent with the anticipated circumstances, this Order is limited to the period 
+of time that the emergency conditions are expected to impact the PJM region.  Because 
+the additional generation or availability of backup generation may result in conflict with 
+environmental standards and requirements, I am authorizing only the necessary 
+additional resources on the conditions contained in this Order, with reporting 
+requirements as described below. 
+
+FPA section 202(c)(2) requires the Secretary to ensure that any 202(c) order that 
+
+may result in a conflict with a requirement of any environmental law be limited to the 
+“hours necessary to meet the emergency and serve the public interest, and, to the 
+maximum extent practicable,” be consistent with any applicable environmental law and 
+minimize any adverse environmental impacts.29  PJM anticipates that this Order may 
+result in exceedance of permit restrictions on sulfur dioxide, nitrogen oxide, carbon 
+monoxide, wastewater release,  and other air pollutants (including ammonia) or other 
+
+28 Although the text of FPA section 202(c) grants this authority to “the 
+Commission,” section 301(b) of the Department of Energy Organization Act transferred 
+this authority to the Secretary of the Department of Energy.  See 42 U.S.C. § 7151(b). 
+
+29 16 U.S.C. § 824a(c). 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+limitations, such as fuel throughput.30  To minimize adverse environmental impacts, this 
+Order limits operation of dispatched units to the times and within the parameters 
+determined by PJM for reliability purposes.  Consistent with FPA section 202(c)(3) and 
+DOE’s February 4, 2026, Order Granting Rehearing, the emissions from, hours of 
+operation of, and fuel burned by Specified Resources and backup generation resources 
+while this Order is in effect will not be counted toward applicable rolling-average based 
+limitations.31 
+
+Based on my determination of an emergency set forth above, I hereby order: 
+
+A.  From October 13, 2026, in the event that PJM determines that generation from the 
+
+Specified Resources is necessary to meet the electricity demand that PJM 
+anticipates in its service territory, I direct PJM to dispatch such unit or units and 
+to order their operation only as needed to maintain reliability.  Specified 
+Resources are those generating units set forth in Exhibit A to its Application for 
+this Order (i.e., Order No. 202-26-50 Resource List), subject to updates directed 
+here and as described in paragraph G, which DOE shall post on www.energy.gov. 
+
+B.  From October 13, 2026, PJM is authorized to direct backup generation resources 
+(whether auxiliary, standby, directly-connected, battery storage, or other, and 
+whether synchronized or not to the bulk power system) to operate as a last resort 
+before declaring an EEA 3 (i.e., before firm load interruption) or during an EEA 
+3.32  PJM is authorized to call upon its Transmission Owners and Electric 
+Distribution Companies to implement this Order as needed. 
+
+C.  This Order requires the operation of the backup generation resources described in 
+paragraph B.  Following the conclusion of the EEA conditions described in 
+paragraph B, sufficient time for orderly ramp down is permitted, consistent with 
+industry practices. 
+
+D.  This Order is not applicable to any backup generation resource serving a critical 
+reliability or backup need, including those at defense, homeland security, first 
+responder, air traffic control, hospital facilities, 911 call centers, water treatment 
+or wastewater facilities, natural gas pipeline facilities, natural gas gathering 
+facilities, or other similar facilities. 
+
+E.  To minimize adverse environmental impacts, this Order limits operation of 
+
+dispatched Specified Resources and backup generation resources (1) to the times 
+
+30 Application at 3. 
+31 See 16 U.S.C. § 824a(c)(3); PJM Interconnection, L.L.C., Order Granting 
+
+Reh’g, DOE Order Nos 202-26-02B et al. (2026) (including Order Nos. 202-26-01B to -
+15A, regarding Winter Storm Fern). 
+
+32 See NERC Reliability Standard EOP-011-4, attach. 1, at 3.1 (“The Reliability 
+
+Coordinators and the energy deficient Balancing Authority shall continue to take all 
+actions initiated during EEA 2.”). 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and within the parameters determined by PJM for maintaining grid reliability, and 
+(2) such that any operation is consistent, to the maximum extent practicable, with 
+any applicable environmental law.  PJM shall provide a daily notification to DOE 
+(via AskCR@hq.doe.gov) reporting each Specified Resource and backup 
+generation resource that has been designated to use the allowance and operated in 
+reliance on the allowances contained in this Order. 
+
+F.  All operations of the Specified Resources and backup generation resources must 
+comply with applicable environmental requirements, including but not limited to 
+monitoring, reporting, and recordkeeping requirements, to the maximum extent 
+practicable while operating consistent with the emergency conditions. 
+
+G.  In the event that PJM identifies additional generation units that it deems necessary 
+to maintain the reliability of the power grid, PJM shall provide prompt written 
+notice to DOE at AskCR@hq.doe.gov with the name and location of those units 
+that PJM has identified.  Such additional generation unit shall be deemed a 
+Specified Resource for the purpose of this Order for the hours prior to the 
+required written notice to DOE updating Exhibit A of the Application, and PJM 
+may dispatch such additional generation units, provided that if the DOE notifies 
+PJM that it does not approve of such generation unit being designated as a 
+Specified Resource, such generation unit shall not constitute a Specified Resource 
+upon notification from DOE. 
+
+H.  PJM shall also provide such additional information regarding the environmental 
+
+impacts of this Order and its compliance with the conditions of this Order, in each 
+case as requested by DOE from time to time. 
+
+I.  Each party affected by this Order is directed to file with the Federal Energy 
+Regulatory Commission any tariff, tariff revisions or waivers necessary to 
+effectuate this Order, as applicable.  Rate recovery is available pursuant 
+to 16 U.S.C. § 824a(c). 
+
+J.  This Order shall not preclude the need for the Specified Resources and backup 
+generation resources to comply with applicable state, local, or Federal law or 
+regulations following the expiration of this Order. 
+
+K.  Because this Order is predicated on the shortage of facilities for generation of 
+
+electric energy and other causes, any backup generation resource subject to this 
+Order shall not be considered a capacity resource. 
+
+L.  This Order shall be effective October 13 through October 16, 2026, with the 
+
+exception of the reporting requirements in paragraph E and applicable compliance 
+obligations in paragraph F.  Renewal of this Order, should it be needed, must be 
+requested before this Order expires. 
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Issued in Washington, D.C. on this 12th day of October 2026. 
+
+_____________________ 
+Chris Wright 
+Secretary of Energy 
+
+cc: 
+
+Federal Energy Regulatory Commission 
+Chairman Laura V. Swett 
+Commissioner David Rosner 
+Commissioner Lindsay S. See 
+Commissioner Judy W. Chang 
+Commissioner David A. LaCerte 
+
+Public Service Commission of the District of Columbia 
+Interim Chairman Ted Trabue 
+Commissioner Richard A. Beverly 
+
+Delaware Public Service Commission 
+Chairman Harold Gray 
+Commissioner Regina A. Iorii 
+Commissioner Michael T. Richard 
+Commissioner Robert C. Wheatley 
+Commissioner Anthony J. DePrima 
+
+Illinois Commerce Commission 
+Chairman Douglas P. Scott 
+Commissioner Michael T. Carrigan 
+Commissioner Ann McCabe 
+Commissioner Conrad R. Reddick 
+Commissioner Stacey Paradis 
+
+Indiana Utility Regulatory Commission 
+Chairman Anthony Swinger 
+Commissioner Joshua Bain 
+Commissioner Bob Dieg 
+Commissioner Joby D. Jerrells 
+Commissioner David E. Ziegner 
+
+Kentucky Public Service Commission 
+Chair Angie C. Hatton 
+Vice Chair Mary Pat Regan 
+Commissioner Andrew W. Wood 
+Commissioner Barry L. Mayfield 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Maryland Public Service Commission 
+Chair Kumar P.  Barve 
+Commissioner Frederick H. Hoover 
+Commissioner Bonnie A. Suchman 
+Commissioner Odogwu Obi Linton 
+Commissioner Ryan C. “Chuck” McLean 
+
+Michigan Public Service Commission 
+Chairman Daniel C. Scripps 
+Commissioner Katherine L. Peretick 
+Commissioner Shaquila Myers 
+
+New Jersey Board of Public Utilities 
+President Ben Hertz-Shargel 
+Commissioner Christine Guhl-Sadovy 
+Commissioner Michael Bange 
+Commissioner Joseph Coviello 
+Commissioner Emma Rebhorn 
+
+North Carolina Utilities Commission 
+Chairman William M. Brawley 
+Commissioner Floyd B. McKissick, Jr. 
+Commissioner Tommy Tucker 
+Commissioner Donald van de Vaart 
+Commissioner John W. Gajda 
+
+Public Utilities Commission of Ohio 
+Chair Jenifer French 
+Commissioner John D. Williams 
+Commissioner Daniel R. Conway 
+Commissioner Dennis P. Deters 
+Commissioner Lawrence K. Friedeman 
+
+Pennsylvania Public Utility Commission 
+Chairman Stephen M. DeFrank 
+Vice Chair Kimberly M. Barrow 
+Commissioner Kathryn L. Zerfuss 
+Commissioner John F. Coleman, Jr. 
+Commissioner Ralph V. Yanora 
+
+10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tennessee Public Utility Commission 
+Chairman Herbert H. “Herb” Hilliard 
+Vice Chair Clay R. Good 
+Commissioner Kenneth C. Hill 
+Commissioner David F. Jones 
+Commissioner John A. Hie 
+Commissioner Robin L. Morrison 
+Commissioner Patsy Hazlewood 
+
+Virginia State Corporation Commission 
+Chair Kelsey A. Bagot 
+Commissioner Jehmal T. Hudson 
+Commissioner Samuel T. Towell 
+
+Public Service Commission of West Virginia 
+Chairman Charlotte R. Lane 
+Commissioner Renee A. Larrick 
+Commissioner William B. “Bill” Raney 
+
+11 
+
+ 
+ 
+ 
+

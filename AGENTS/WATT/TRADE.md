@@ -1,6 +1,6 @@
 # WATT — TRADE
 
-**Last real data refresh: 2026-10-12** (trigger states; no security quotes or position reconciliation)
+**Last real data refresh: 2026-10-15** (trigger states; no security quotes or position reconciliation)
 
 **No WATT trade proposed or executed.** Position truth is Will/broker direct; this file records research trigger states.
 
@@ -14,16 +14,16 @@
 
 ## Candidate expressions (thesis → instrument, not yet proposed)
 
-| Channel | Direction | Candidate surface | Trigger state [as of 2026-10-12] |
+| Channel | Direction | Candidate surface | Trigger state [as of 2026-10-15] |
 |---|---|---|---|
-| **P1** | long scarcity | IPP generators (VST/CEG/NRG/TLN) | **Score 5 held from October 7; event spent, no entry inferred.** October 12 max $52.90 through 10:35; advisories October 12–14, recall October 14 noon; new DOE request unverified as issued. WATT-12 already HIT. No security quotes or repricing measurement |
+| **P1** | long scarcity | IPP generators (VST/CEG/NRG/TLN) | **Score 5 held; RED re-fired 10/13** (29 consecutive 5-min ≥$1,000, max $2,327.04) in PJM's 5th emergency 10/13–14 (EEA-1 both days, DR ×4, DOE 202-26-50 to 10/16). PJM expects conditions to end after 10/14 — an event with a published end, so the four ENTRY reasons below still bind; de-escalation re-test ≥10/22. 10/15 outage forecast 67.7 GW (above the emergency days) is a watch fact, not a call. No security quotes or repricing measurement |
 | P2 | structural | utility/IPP capacity-cost beneficiaries; industrial power-cost shorts | ⚠️ **FIRED 2026-07-14** — 28/29 BRA cleared **at cap** ($325/MW-day = **100% of the 28/29 cap**) **and 6,831 MW short** ✅ *(the old "97.5% of $333.44" was PJM's YoY cap decrease mislabelled as utilisation — resolved 9/6 at PJM primary; FIRED call unaffected)*; 3rd straight at-cap clear, 2nd straight RTO-wide shortfall. **Fired ≠ proposed** |
 | P3 | long buildout | IPP load-growth beneficiaries | ⚠️ **FIRED 2026-07-31** — VULCAN-06: the 7/29-31 hyperscaler cluster **funds the WoodMac 55 GW high side**. Trigger is **SPENT — do not re-fire.** IPP guidance still **reaffirmed, not raised** (the next rung, P3→5). ⚠️ **New counterweight 9/2:** DEWEY's primary read finds GEV's "116 GW under contract" is **~53 GW firm + 63 GW slot reservations** — 54% outside the audited RPO — so the *turbine* order book is inflated. **This does NOT discount the PJM interconnection queue** (different population, different layer); **do not net them** |
-| P4 | — | no candidate | **NOT-FIRED**; provisional stress-window spark +$37.23/MWh (HR7, October 6–11, n=1,142); intraday gas dated October 12 and October 7 outlier. No widening claim |
+| P4 | — | no candidate | **NOT-FIRED**; boot 10/15 same-vintage spark +$89.20/MWh (HR7: PJM-RTO on-peak mean $112.00, 10/9–14, n=1,141, minus 7 × HH $3.257 dated 10/15, intraday) — a STRESS read: 10/13 ($349.94) and 10/14 ($140.64) are outliers vs the $59.75 window median. Spread positive; no widening/compression claim |
 | **P2/P3 catalyst** | — | regulatory event | **WATT-10 MISS:** FERC rejected IRAS/BYONC October 9; definition/registry accepted October 12 with compliance within 30 days. WATT-08 ~50% OPEN. Consumer allocation risk rises relative to Door B; actual amount unresolved, physical/contract costs persist. EL26-67 responses November 16, suspension proviso |
 
 
-**October 12 supersession:** the September entry discussion below is historical. Current entry case is not registered. No security quotes, no assumption that scarcity rent is unpriced, and no trade construction request.
+**October 12 supersession (reaffirmed 10/15 after the 10/13 fire):** the September entry discussion below is historical. Current entry case is not registered. No security quotes, no assumption that scarcity rent is unpriced, and no trade construction request.
 
 ## ⛔ WHY A FIRED BAND IS STILL NOT A PROPOSAL — four reasons, all about ENTRY
 
