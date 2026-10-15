@@ -3,7 +3,7 @@
 **Status:** 🔴🔴 fraud-leg (4 confirmed cases; both OTTO mechanisms criminally charged; First Brands in Ch.7 since 9/1) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 points on one root
 **Domain:** Auto-sector fraud & stress: subprime lending, ABS performance, immigration-auto transmission, related-party manipulation
 **Thesis version:** v1.5 (v1.6 rewrite OWED; 10/14 file review found it seven weeks behind STATUS, so read STATUS for live state)
-**As of:** 2026-10-14 23:37 ET (session 029, owed-items closeout) | STATUS commit: `7a95e1fba`
+**As of:** 2026-10-14 23:52 ET (session 029, final) | STATUS commit: `879874556`
 **Recent thesis pivots:** **Oct 14 (s029): two.** (1) **OTTO-33 68% → 60%**: the Kollar/Seibold plea transcripts it was raised on are unposted 76 days after the order. (2) **Calibration, scored at as-made from git: 5 of 10, mean Brier 0.2400 vs 0.2500 for always-50%** — no evidence of skill yet. *s028:* the Tricolor criminal ABS charge reaches back to 2018 (ECF 149: 11 of ≥13 TAST deals; 2022-2 and 2023-2 not charged).
 
 ---
@@ -13,7 +13,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| CARL | **August 10-D panel: 39 of 39 deal-months worse YoY on 60+ DQ.** Jul→Aug tier gaps widened: BROAD +1.00→+1.09, DEEP +1.21→+1.30 (seasonal; Aug-2025 rose too), **CARVANA +1.73→+3.17 (a level move)**. Seasoning repair landed: labels 29/30/31, values unchanged; BLAST clock ruling asked (packet `0002774f0`) | 🟠 | V2 / CRL-29 inputs. OTTO's pre-committed turn (a tier mean ≤ 0, or any deal-month better YoY) has NOT happened |
+| CARL | **August 10-D panel: 39 of 39 deal-months worse YoY on 60+ DQ.** Jul→Aug tier gaps widened: BROAD +1.00→+1.09, DEEP +1.21→+1.30 (seasonal; Aug-2025 rose too), **CARVANA +1.73→+3.17 (a level move)**. ⚠️ **Paired with extensions 10/14 (`SIG-OTTO-WALTER-20261014-005`): every Exeter deal extended LESS YoY while DQ rose, so DEEP's worsening may be partly less masking `[EST]`, cause unknown; Carvana's extensions were flat, so its jump stands; Santander discloses none.** Seasoning repair landed; BLAST clock ruling asked (`0002774f0`) | 🟠 | V2 / CRL-29 inputs. OTTO's pre-committed turn (a tier mean ≤ 0, or any deal-month better YoY) has NOT happened |
 | CARL | Recovery <28% (deep-subprime 10-D panel, deal-level) still met in August: 25.17 / 24.58 / 24.79 / 29.78 | 🟠 | Fired 9/2 (`SIG-W-20260903-007`); this is a level update, not a new firing |
 | REGINALD · BROCK | Tricolor ECF 149 perimeter (above); a never-formed SPV4 securitization is also charged; **no new counterparty or bank named** | 🟠 | Bank-exposure perimeter unchanged; the SPV4 warehouse lender is unnamed. ⛔ Do not cite "every securitization since 2018" (corrected, `SIG-W-20261014-033`) |
 | TERRY · NEXUS | Carvana's securitized collateral: BLAST 60+ DQ 14.80→15.82% and 15.30→16.48% in one month (Aug) | 🟠 | Collateral, NOT a corporate disclosure; ~16% vs a 50% deal trigger. CVNA Q3 10/28; short-seller check 10/21 |
@@ -27,7 +27,7 @@
 | BROCK | CRMT bridge-6 Scheduled Termination Date read | 10/15 after ~16:30 ET | Covenant/liquidity event at a BHPH lender; NOT a fraud case | A transaction or new warehouse = first real information; acceleration / cash dominion = escalate |
 | CARL | BLAST seasoning-clock ruling: (a) keep exhibit-derived / (b) blank | Open | Label basis on 2 of 9 panel deals | None on values |
 | REGINALD | Q3 bank sizing of Tricolor / First Brands exposure | M&T 10/16, then the regional cycle | OTTO stops at "exposed"; REGINALD sizes | A new named bank → OTTO-33 context |
-| NEXUS (commission #3) | OTTO's leg is due 10/19 (consumer / subprime-auto issuers at CCC or B) | 10/19 | Will-commissioned | Verdict per the spec rule, not OTTO's prior |
+| NEXUS (commission #3, D:L708) | OTTO's leg is due 10/19 (consumer / subprime-auto issuers at CCC or B); **not started, deferred by Will to OTTO's next session** | 10/19 | Will-commissioned | Verdict per the spec rule, not OTTO's prior |
 
 ---
 
