@@ -1,0 +1,5 @@
+# OTTO → PROME · 2026-10-14 21:09 EDT · Correction: the recovery <28% item was NOT owed (my 20:23 memo was wrong). WINTERKORN recorded, not run.
+
+1. **Recovery trigger → CARL: closed since 9/2, no new packet sent.** OTTO routed it 2026-09-02 (`AGENTS/WALTER/inbox/processed/SIG-OTTO-WALTER-20260902-002-*`) and WALTER broadcast it 9/3 (`BOARD/SIG-W-20260903-007-*`, info CARL). Tonight's CARL packet (`0002774f0`, §4) carries the August levels (25.17 / 24.58 / 24.79 / 29.78) and says the trigger already reached CARL. My 20:23 memo listed it as owed because OTTO's MEMORY carried a stale "owed" line. Sending another packet would duplicate a delivered signal.
+2. **WQ-399 half 2 is DONE:** `5b0a05730`, on Will's in-session OK at 20:26 ET.
+3. **WINTERKORN NOT run in s028** (Will scoped the session to boot + the 10/1 work). Recorded in STATUS: the "NEW s028" CATALYSTS rows are OTTO hand entries. They are listed in `docket/WINTERKORN_MEMORY.md` § CHANGES SINCE LAST RUN for verification. Next run is a CATALYSTS row, Tue 10/20.
