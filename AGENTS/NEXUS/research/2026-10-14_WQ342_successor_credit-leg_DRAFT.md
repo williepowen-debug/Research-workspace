@@ -139,6 +139,7 @@ By episode: 2023-10/11 UP 5 · DOWN 1 · NV 11 · 2024-08 0 · 1 · 2 · 2025-04
 - **UP is TRUE-in-spirit iff ΔIG > 0** (`BAMLC0A0CM`: the stress reached investment grade). ΔIG ≤ 0 ⇒ TRUE-in-letter / FALSE-in-spirit (a high-yield-only move). Base rate: TRUE in 196 of 220 past UP fires, 11 of 12 live.
 - **DOWN's mechanism (relief reaching the weakest tier) is a branch leg here**, so its Disc-A residue — ΔB ≤ 0 — is recorded but uninformative (TRUE in all 296 past guarded DOWN fires).
 - The letter's consequence applies as written either way; a letter/spirit split is recorded and routed to PROME. The commissioned read (DOCKET L708) informs the Disc-A note, never the branch.
+  - *Receipt 2026-10-15 (sourced; changes no letter, number or recommendation):* L708 legs 1–2 of 3 in — H1 consumer attribution: CARL MIXED (a ladder that returns MIXED ~99.8% under noise ⇒ no support, absence uncertified), LIQUID NO_INSTRUMENT; LIQUID: CCC excess over B-beta +66.9bp, 7/7 sessions 10/2→10/13, not the rebalance ⇒ a real dispersion move of unnamed cause (relevant to §2B's Disc-A). OTTO's leg due 10/19. Record `research/2026-10-15_L708_consumption.md`.
 
 **Grade:** first NEXUS session on/after the fire observation, cell 15, or the backstop is published. Owner NEXUS; no other desk grades it.
 
