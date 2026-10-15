@@ -1,4 +1,4 @@
-# FALCON SCRATCH — 2026-10-14 (Will-launched boot 21:23 ET, "catch up on recent news"; PROME `prome-8e` named the owed reviews 21:35 ET)
+# FALCON SCRATCH — 2026-10-14 (Will-launched boot 21:23 ET, "catch up on recent news"; PROME `prome-8e` named the owed reviews 21:35 ET; closed out 22:2x ET on Will's "okay lets close out")
 
 ## CURRENT MARKS
 **B 1 / C 14 / D 85** HELD at the 7-day review (next **10/21**). Convergence 43/50. **Losses 5** (two class-(ii) added 10/14: GFS PRIDE, CAPE DAO) — same-day re-mark proposal ⇒ **RULED HOLD by Will 10/14 (WQ-431)**. **Casualty ratchet 🔴 RED rate-step + 🟠 ORANGE (i)** (21 vs 6 killed) ⇒ EXIT §3 **7 of 8**. Production rung D 85→92 **ARMED, NOT FIRED**. **GATE-FALCON-001 LIVE:** leg 2 NOT FIRED (10/14 review), override not triggered, next review_by **10/21**. FAL-06 OPEN 70% (to 11/05). WARRISK: Hormuz 6–10% refreshed; 4 rows still EXPIRED incl. the registered falsifier. No settle-count clock (12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
@@ -19,6 +19,7 @@
 - KB-276..292 (291 = own IMO primary fetch: Cape Dao "Sunk" verified, 6 more hulls named VI-0067..0072, CAS-031; 292 = helper gap-sweep incl. Perim reportedly retaken 10/09); VX 8 rows stamped (incl. IRAN-02 instrument named — DAEDALUS ⑰ DONE); WARRISK Hormuz re-pull; EXIT §3/§5; false-fire rows ⑦⑧; brief-pin wiring in CLAUDE.md step 14.
 - Inbox 17/17 drained (WALTER 16 + DAEDALUS 1); 3 corrections APPLIED.
 - Memo to PROME with COMPLETION block; report `reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md`.
+- **After the memo (Will's follow-up questions):** Abqaiq geometry vs OSM (KB-293: heat on the processing facility's two mapped flare stacks — emergency-flaring signature); **self-catch** — 2 US KIA Jordan 7/17 missing from the casualty ledger (CAS-2026-032, KB-294; MEMORY 10/14 finding). **Will ruled WQ-431/432/433 (22:01 ET) and WQ-434 (22:18 ET)** — all encoded (gate letter ①④, FAL-06 dated search, ratchet §2/§3/§5) and receipted to PROME.
 
 ## NEXT SESSION (dated, future-verifiable)
 1. ✅ **RULED 10/14 22:01 ET (WQ-431/432/433, Will verbatim "Approve 431, 432 and 433", record `PROME/proposals/2026-10-14_wq431-433-RULED.md`):** HOLD · leg 2 KEPT PROVISIONAL + ①④ (encoded in the FRESH_LEG_BASELINE letter) · FAL-06 dated search (encoded on the row; run it ON 2026-11-05).
@@ -39,7 +40,7 @@
 FAL-06 OPEN (70%, 2026-11-05). Three Will decisions RULED 10/14 (WQ-431/432/433) and encoded. No GATES flip owed; PROME to set `G:GATE-FALCON-001` review_by 2026-10-21.
 
 ## MAIL STATE
-In: 0 (17 consumed). Out: `PROME/inbox/2026-10-14_from-FALCON_weekly-review-losses-ratchet-gate001.md` + SendMessage to `prome-8e`.
+In: 0 (17 consumed). Out: PROME memo `2026-10-14_from-FALCON_weekly-review-losses-ratchet-gate001.md` + packet `2026-10-14_from-FALCON_casualty-ratchet-class-step-defect.md` (both consumed by PROME); consumer packets to HAWK + WALTER inboxes (war-risk 6–9% → 6–10%; WALTER also IMO primary checks); 5 SendMessages to `prome-8e`.
 
 ## PENDING PUSH / GIT
-Exact-path commits; push via `scripts/safe-push.sh`. HEAD carried 4 other desks' unpushed commits at boot (WALTER/OTTO/PROME) — not mine; safe-push pushes HEAD as-is.
+All FALCON paths committed + pushed (safe-push receipts each round; final receipt in the closeout commit's push). ⚠️ SKIPPED this session, stated: research/sources >60-day retirement scan (closeout data-hygiene step) — not run. Foreign dirty paths seen (DAEDALUS GATE_LOG.tsv, OTTO files, scripts/orphan_check.sh) are not mine — untouched.
