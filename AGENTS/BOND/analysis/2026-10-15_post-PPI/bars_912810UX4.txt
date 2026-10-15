@@ -1,0 +1,22 @@
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 360 rows through 2026-09-24 | +3 newer print(s) overlaid from TA_WS
+[grade] ⚠️ 912810UX4 is a REOPENING with a PENDING auction (2026-10-21). The auctioned record dated 2026-09-15 is the ORIGINAL ISSUE, not the pending print — reporting PRE-PRINT bars instead of grading stale results.
+==============================================================================
+PRE-PRINT — no results published yet. Reporting the BARS.
+  19-Year 10-Month  912810UX4  $13B  tips=No  reopening=Yes  auction 2026-10-21
+
+  BENCHMARK — 20-Year
+    method : trailing-12 SAME-TENOR SAME-TIPS auctions, strictly prior,
+             % of COMPETITIVE ACCEPTED (PD+direct+indirect)
+    window : 2025-10-22 -> 2026-09-15   n=12
+    BTC        median    2.66 | mean    2.63 | min    2.36 | max    2.86
+    indirect%  median   64.95 | mean   64.04 | min   52.47 | max   71.57
+    dealer%    median   10.71 | mean   11.55 | min    6.21 | max   17.59
+
+    ⇒ COMPOSITION-FAILURE test : indirect < 52.47%  AND  dealer > 17.59%
+    ⇒ COVER-MARKER test        : BTC < 2.36 with composition intact
+    ⇒ I' (MATRIX_V2, 8/27)     : indirect < 57.96%  [P15 linear over the same window, STRICT]  (reopening-only alt 64.24, n=12; POOLED governs)
+
+  ⇒ Freeze these bars NOW, before the print. That is the whole point.
+==============================================================================

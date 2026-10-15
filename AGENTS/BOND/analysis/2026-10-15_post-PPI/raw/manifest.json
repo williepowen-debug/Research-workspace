@@ -1,0 +1,44 @@
+{
+  "nominal.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&_format=csv",
+    "captured_et": "2026-10-15T13:50:36.923157-04:00",
+    "status": 200,
+    "bytes": 16067
+  },
+  "real.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&_format=csv",
+    "captured_et": "2026-10-15T13:50:36.923990-04:00",
+    "status": 200,
+    "bytes": 7134
+  },
+  "ACM.xls": {
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xls",
+    "captured_et": "2026-10-15T13:50:36.924447-04:00",
+    "status": 200,
+    "bytes": 10159616,
+    "note": "10 MB source file trashed before commit (prior-session convention: not committed). ACM 10Y TP 0.8086 [2026-10-14] read via monitors/rates_context.py in boot_recompute."
+  },
+  "bund10.csv": {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?format=csv&lang=en",
+    "captured_et": "2026-10-15T13:50:36.924988-04:00",
+    "status": 200,
+    "bytes": 231425
+  },
+  "ppi.html": {
+    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "captured_et": "2026-10-15T13:50:36.925589-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "nyfed_rates.json": {
+    "url": "https://markets.newyorkfed.org/api/rates/all/latest.json",
+    "captured_et": "2026-10-15T13:50:36.926215-04:00",
+    "status": 200,
+    "bytes": 1427
+  },
+  "pmms.csv": {
+    "url": "https://www.freddiemac.com/pmms/docs/PMMS_history.csv",
+    "captured_et": "2026-10-15T13:50:36.926660-04:00",
+    "status": 200,
+    "bytes": 97536
+  }
+}

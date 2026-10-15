@@ -1,6 +1,6 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-10-14T15:35:58.540263-04:00 — October14 body and review list reconciled to the completed owner evidence; approvals unchanged.
+**Last Updated:** 2026-10-15 15:16 ET — October 15 evidence (official 10/14 close, PPI-day haven rally, buyback dig, 20Y-cut news) folded into §2–§3 and the review list; posture, gates and approvals unchanged.
 **Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.11** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
@@ -9,13 +9,13 @@
 
 ---
 
-## The view (October14 update; existing approvals unchanged)
+## The view (October 15 update; existing approvals unchanged)
 
 **1. Operational letter and analytical evidence stay separate.** The 9/23 5Y OLD fire was confirmed clean on10/1; its WQ291 dealer leg MET. The rule's exit recommendation remains in force, but Will ruled LATER10/3, path C to10/14. Net inventory is not proof of auction warehousing, funding window UNGRADED, no predictive claim.
 
-**2. Completed research is incorporated, including October14.** L608 was delivered October5. The October14 report (`analysis/2026-10-14_post-CPI/REPORT.md`) records the initial CPI yield jump and afternoon long-end retracement, firmer futures policy pricing, and qualified real-yield/inflation-compensation evidence. Clean October7/8 auctions and the September30 inventory unwind weaken a continuing demand-break claim. The broader real-rate rise and cumulative credit broadening remain adverse evidence. Official October14 daily decomposition and morning synchronized TIPS were unavailable at the report cutoff. These observations do not overturn the MET operational recommendation, prove a lasting rebound, reopen an add, or approve a fill. Independent dated OIS/FedWatch remains missing.
+**2. Completed research is incorporated, including October14.** L608 was delivered October5. The October14 report (`analysis/2026-10-14_post-CPI/REPORT.md`) records the initial CPI yield jump and afternoon long-end retracement, firmer futures policy pricing, and qualified real-yield/inflation-compensation evidence. Clean October7/8 auctions and the September30 inventory unwind weaken a continuing demand-break claim. The broader real-rate rise and cumulative credit broadening remain adverse evidence. Official October14 daily decomposition and morning synchronized TIPS were unavailable at the report cutoff. These observations do not overturn the MET operational recommendation, prove a lasting rebound, reopen an add, or approve a fill. Independent dated OIS/FedWatch remains missing. **October 15 addendum (`analysis/2026-10-15_post-PPI/REPORT.md`):** official 10/14 close confirmed a bull flattener (2Y +3, 10Y −2 = real −4 + compensation +2, 30Y −4). On 10/15 long yields fell ~10bp, set overnight on the Asia equity selloff BEFORE the hot 08:30 PPI — the long end worked as a haven. This is evidence for "expensive, not broken", not a thesis change, and it moves no gate or approval.
 
-**3. Treasury's official bid is real but bounded.** Four current stepped-up operations read OFF-THE-RUN under the original-issue-date rank; latest10/8 read delivered to RED. Full cap utilization is not yield control or a price-cap finding. F1/F3 await11/4.
+**3. Treasury's official bid is real but bounded.** Five of five stepped-up operations read OFF-THE-RUN (10/15: recent share 0.33%, $6.0B full fill, 93% into 912810TC2); read delivered to RED (cbf40ee2b). Timing-corrected, the yield Treasury pays over the curve is flat at ~11–13bp (10–20Y) and ~7bp (20–30Y) — no overpaying; buybacks offset ~30% of new 20Y/30Y DV01 since 9/10; quarter-to-date liquidity buybacks $43.13B vs $38B guided (`analysis/2026-10-15_buyback-dig/`). Full cap utilization is not yield control or a price-cap finding. A 20Y cut/suspension is press-reported analyst speculation (Bloomberg 10/12), not Treasury policy. F1/F3 await 11/4; the dealer questionnaire (expected 10/16) is the first read.
 
 **4. Credit marker and capital gates remain separate.** October13 HY/CCC/IG and the October14 LIQUID return show cumulative stronger-tier broadening with tail-dominated widening; the October6 tightening example is historical. One large secured issuer's verified pricing shows that issuer had access, not that all issuers did. A comprehensive pulled-deal census is unavailable. BOND's existing credit-to-equity spread band remains unmet, and HYG sizing remains gated by LIQUID/BROCK/TERRY/Will's existing rules. No index trade is newly proposed.
 
@@ -86,7 +86,7 @@
 ## Next Review — existing obligations only
 
 - October14 research/catalyst read completed; prior nominal-auction counter2 and F2 four OFF reads remain. WQ400 Bund definition is encoded prospectively, not pending approval. VX20 review serviced October14, next October28 or issuer news.
-- Next BOND touch October15: official October14 nominal/real confirmation when published, FR2004 as-ofOctober7, PMMS, and F2 operation result→RED; freeze the October21 nominal20Y and October22 TIPS bars at announcement. Morning synchronized TIPS is a separate source gap.
+- October 15 DONE: official 10/14 confirmation, PMMS, F2 result→RED, 20Y/TIPS bars frozen (20Y-R I' indirect <57.96%). Owed next touch: FR2004 as-of 10/7 (VX-04), official 10/15 close, 10/16 dealer questionnaire special topics. Morning synchronized TIPS remains a separate source gap.
 - Existing WQ357 decision concerns TBT5 only; TLT82P sold October12. WQ360's October14 15:00 card window has elapsed at this review; BOND grants no extension or fill and PROME/TERRY own its disposition.
 - October21: register the existing October28 FOMC curve-shape test with its base rate; grade the actual20Y auction before moving counter2.
 - October28: FOMC/VX20 checkpoint; November4: QRA F1/F3; remaining F2 operations under the existing carrier.

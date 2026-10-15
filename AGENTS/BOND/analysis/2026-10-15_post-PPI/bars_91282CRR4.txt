@@ -1,0 +1,23 @@
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 360 rows through 2026-09-24 | +3 newer print(s) overlaid from TA_WS
+==============================================================================
+PRE-PRINT — no results published yet. Reporting the BARS.
+  5-Year  91282CRR4  $26B  tips=Yes  reopening=No  auction 2026-10-22
+  ⚠️ TIPS — different buyer base. Never benchmarked against nominals.
+
+  BENCHMARK — 5-Year TIPS
+    method : trailing-12 SAME-TENOR SAME-TIPS auctions, strictly prior,
+             % of COMPETITIVE ACCEPTED (PD+direct+indirect)
+    window : 2023-10-19 -> 2026-06-18   n=12
+    BTC        median    2.52 | mean    2.47 | min    2.10 | max    2.62
+    indirect%  median   72.93 | mean   69.94 | min   51.43 | max   79.14
+    dealer%    median    7.22 | mean    9.20 | min    2.33 | max   25.42
+
+    ⇒ COMPOSITION-FAILURE test : indirect < 51.43%  AND  dealer > 25.42%
+    ⇒ COVER-MARKER test        : BTC < 2.10 with composition intact
+    ⇒ I' (MATRIX_V2)           : NOT DEFINED FOR TIPS — registered spec excludes TIPS
+                                 (KB-BND-304; L410 decision 2026-10-01: tool brought to the spec).
+
+  ⇒ Freeze these bars NOW, before the print. That is the whole point.
+==============================================================================

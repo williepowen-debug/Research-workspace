@@ -1,29 +1,34 @@
-# BOND SCRATCH — 2026-10-14T15:54:26.483176-04:00
+# BOND SCRATCH — 2026-10-15 (Thu) end-of-day, standard closeout
 
-> STATE AT WRITING: TBT5/TLT82P CLOSEDOctober12 perFORGEOctober14; WQ357 survivingTBT review remains Will/TERRY's. NO-ADD WQ280; WQ291 kill MET recommendation, windowclosed and fundingwindow UNGRADED. Composite17/35,counter2,OPEN0. Sourcecutoffs: vendor13:59EDT,officialTreasury/ICE/repoOctober13,dealerSeptember30.
+> STATE AT WRITING: TBT 5 held / TLT 82P closed 10/12; WQ357 TBT decision is Will/TERRY's. NO-ADD WQ280; WQ291 kill MET recommendation, funding window UNGRADED. Composite 17/35 (5+4+2+3+1+1+1), counter 2, OPEN predictions 0. Frontiers: Treasury curve/real 10/14 · ICE 10/14 · NY Fed repo 10/14 · FR2004 9/30 · vendor 10/15 13:50.
 
-## Latest work
-October14 research and closeout published:99c38dbfb/0146a9947. Now serviced Will's transition/workbook question: source-aligned THESIS/TRADE currentbody and review list;8FLOW evidence rows refreshed with existingOctober14evidence;8historicalKBrows ACTIVE→CONFIRMED,no figure/source/confidence edits;KB459auditfact. VX scores/definitions/regime/thesisversion/gates unchanged. Currentaudit→analysis/2026-10-14_transition-audit/REPORT.md. Earlier source report→analysis/2026-10-14_post-CPI/REPORT.md. No helper, newstudy ortoolrepair.
+## WHAT I DID (Claude Code / Opus 5.5, Will-launched)
+- **Boot:** docket_check rc=0 (verified through 10/22; blind span 10/23→11/05 UNVERIFIED) · boot_recompute rc=0 · corrections rc=1 → COR-20261014-36 NO-OP receipt. HEAD == origin/master at boot fetch; no pull needed. Foreign dirty WALTER/TERRY paths and WALTER's staged rename left untouched.
+- **10/14 official close confirmed:** 2Y +3, 10Y −2 (real −4, comp +2), 30Y −4 → bull flattener (KB-460).
+- **10/15 PPI day:** 10Y −11bp already at 08:20 BEFORE the PPI; PPI blip +2.5bp faded; haven bid from Asia selloff; FF contracts −3 to −6bp vs 10Y ~−10 (KB-461/467).
+- Credit 10/14 HY 325 / CCC 1282 / IG 84; SOFR−IORB −2bp; PMMS 7.40 (221bp); Bund 3.45, WQ400 NOT MET (5th eval) (KB-462..465).
+- **Bars frozen:** 20Y-R 912810UX4 I' indirect <57.96% (old conj <52.47 AND >17.59; cover <2.36). 5Y TIPS 91282CRR4 conj <51.43 AND >25.42; cover <2.10; no I' (KB-466, docket rows). Run grade_auction from `.venv` (system python lacks numpy → I' NOT COMPUTED).
+- **F2 10/15:** OFF-THE-RUN 0.33%, 93% into 912810TC2 → RED packet committed cbf40ee2b (carve-out ①); ledger row `registry/f2_reads.tsv`.
+- **Buyback dig (Will ask):** `analysis/2026-10-15_buyback-dig/REPORT.md`, KB-469..471. Prior-close spread "collapse" = TIMING ARTIFACT; op-window spread flat ~11–13bp (10–20Y), ~7bp (20–30Y). ~30% DV01 offset since 9/10. Record 10–20Y offers concentrated in single 2041–42 bonds; 912810TH1 28.2% retired.
+- **News sweep (Will ask):** `analysis/2026-10-15_buyback-dig/NEWS.md`, KB-472..474. No Fed support; Treasury intent yes, effect limited; 20Y cut = analyst speculation (Bloomberg 10/12), Treasury silent; QTD buybacks $43.13B vs $38B guided; 20Y>30Y hump only since 9/10. **Docketed Fri 10/16 dealer questionnaire** (date press-reported, date_class estimated).
 
-## Publication status — 2026-10-14T15:50:54.230187-04:00
-Fresh fetch confirms `99c38dbfb`, maintenance `21357468c` and status receipt `2b89d943b` are on origin/master. The shared fleet push train carried maintenance; BOND did not retry the rejected public export. Actual remote presence does not imply a new Will approval. Will subsequently instructed “Lets push to github if safe to do so.” This authorizes the final closeout and this publication-disposition receipt, conditional on the fresh remote/path/ancestry guard; no unrelated unpublished commit may be exported. No foreign files pulled, stashed, staged or swept.
+## Closeout C1–C12 outcomes (standard)
+C1 STATUS rewritten (dashboard, gates, matrix re-summed 17, catalysts, bottom line). C2 KB-460..474 (15 rows), VX 12 Current_State refreshed (scores unchanged), FLOW 01/02/03/07/15/16 evidence (statuses unchanged; FL-07 got dated COUNTER-evidence: haven worked). C3 no-op — nothing DUE; 10/28 FOMC curve-shape registration owed by 10/21. C4 THESIS current-evidence legs + channel table updated; no version/regime/gate change, token unchanged. C5 docket: 10/14-confirmation row COMPLETED, PMMS re-dated 10/22, 10/21 + 10/22 frozen bars recorded, 10/16 dealer questionnaire added. C6 TRADE §2/§3/review updated; posture/gates/token unchanged. C7 this file. C8 RECEIPT overwritten; board_log 5 rows. C9 MEMORY: timing-artifact lesson (BOND-local, links fleet vintage-clock finding); outbox none. C10 n/a (standard). C11 NEXUS_BRIEF re-pinned last. C12: first run declared `--superseded 61.72 57.96` in error — those are frozen I' bars for two DIFFERENT 20Y auctions (9/15 vs 10/21, rolling trailing-12), not a superseded figure; the 9/15 grade file is correct history. Re-run without it.
 
-## Next dated tests
-October15: officialOctober14 nominal/realconfirmation whenpublished;FR2004as-ofOctober7,PMMS,F2result→RED andnominal20Y/TIPSbarfreeze. PPI08:30macrocontext as alreadydocketed. October21:existingFOMCcurvepredictionregistration/countergrade. October28VX20/FOMC,November4QRA.Funding/morningTIPS gapsseparate; no automatic fill or extension forWQ360'selapsed15:00October14cardwindow;PROME/TERRY disposition.
+## NEXT SESSION (dated)
+1. **FR2004 next weekly as-of** (publishes Thu 10/15 ~16:15 ET, after this closeout) → VX-BND-04 stock read + weak 11–21Y test of dealer selling into the first October 10–20Y buyback op (buyback-dig REPORT §Owed).
+2. **Official 10/15 Treasury close** → confirm vendor −10bp; fill the 10/15 same-day-close bracket in `analysis/2026-10-15_buyback-dig/dig.py` (re-run with refreshed `nominal.csv`).
+3. **Fri 10/16 dealer questionnaire** → read special topics (20Y / bills / buyback cap after 11/4). FRED 10/15 HY cell 10/16 AM (RED/REGINALD own >320 count).
+4. **By 10/21:** register the 10/28 FOMC curve-shape prediction with base rate. **10/21** grade 20Y-R vs frozen bars; **10/22** 5Y TIPS.
+5. 10/27 F2 op (20–30Y) · 10/28 FOMC · 11/2 borrowing estimates · 11/4 QRA F1/F3 + buyback-cap expiry.
 
-## Gaps and residual work
-Morning synchronizedTIPS/eventsplit, officialOctober14/ACM/repoatpriorcutoff;trueCDX/MBSOAS/failed-deal/microstructureandnamedfundcashdemand unmeasured. No newpullin thismaintenancepass. Remaining36undatedACTIVE KBmethod/policy/correctionrecords are not a measured stale count; fullper-itemunderlying-sourceaudit notdone. THESISlargehistoricalbody retained,no archivalsplit. ExistingF2stub/tie-bandtoolissues remain untouched.
+## OPEN THREADS
+- Offered Will a RED follow-up on the timing-corrected buyback pricing (second independent leg vs F2 YCC-lite); no answer — not sent.
+- KB lint FYI: KB-BND-352/422/423 Stale_By 10/14 overdue (423 Fed path superseded in substance by 467) — lifecycle not edited.
+- Asia figures (KOSPI/Nikkei) only X-feed + press; HENRY/ZHAO lanes.
 
-## Delivery and ownership
-Ownsession01a13b8c-bf81-7d83-9731-47f494922784,Codexgpt-6.1-solhigh;15:30hostinventoryonlycurrentBOND+guardian,nativeClaude noBOND;globalapp-servercoverageUNKNOWN. No competingwriteridentified. Foreigndirtywork meansrootpullDEFERRED,nostash/sweep. TERRY3457e8628consumedpriorpacket;PROMExactreportackUNKNOWN,nativetransportunverified. Priorpublicapproval/actualoriginreceipt/sharedpushBROCKexception→PROME/inbox/2026-10-14_from-BOND_{publication-APPROVED,origin-publication-receipt}.md;Priorresearchpublication is confirmed; maintenance is now confirmed on origin by fresh fetch; safe publication is now authorized by Will, subject to the fixed-SHA scope guard. Newmaintenancepacketself-authored;do notpublishunrelatedsharedcommits.
+## POSITION
+TBT 5 (FORGE 10/14); TBT −3.1% on 10/15 vendor tape. No action by BOND.
 
-## Closeout — STANDARD, same-day substantive maintenance
-C1STATUSdatedmetadataonly,datafrontiersunchanged. C2KB459+8lifecycleclarifications,FLOW8evidenceupdates,statusesunchanged;VXno-op current19live/1retired. C3predictionsno-opOPEN0,registrationnotdueuntil10/21. C4THESIScurrentprose/CHANGELOGmaintenance,no version/regime/gate change. C5CATALYSTSno-opno newevent,outcomesfrompriorresearch. C6TRADEcurrentview/reviewlist,capitalrulesunchanged. C7thiscurrenthandoffrewritten,chronology→datedreports/receipts. C8RECEIPTupdated,no newWALTERsignals. C9MEMORYno-opknownheader/bodyfailureclass,not a newlesson. C10notapplicable:no tool/charter/schema/thresholdchange. C11NEXUSrewrittenlast.C12freeze→run→verify→exactpathcommit/persistence;checksloggedunderregistry. Existingresearchsourcegaps do not implyfailedmaintenance.
-
-Consumerdisposition: broadbareoldlabelscanmatchedhistoricalrecords/quotes;actualerroneouscurrentfullstatementidentifiedandbothcross/selfstrictscansclean. No newregime/figure;historicalfigurespreserved,qualifiedMIDAS/PROMErecord-usepacketswritten. Twelvevalidationinvariants/kb_lint/mirror PASS. FinalC12usesexactcorrectedstatement,notagenericword appearinginversionhistory.
-
-## Final closeout — ADDENDUM
-Will requested session closeout. A1 STATUS session clock and remote-receipt metadata refreshed; market/data frontiers unchanged. A2 this handoff records final remote verification and the unresolved further-publication dependency. No new market observation, signal, prediction, catalyst, threshold, score, trade, version or regime change. Workbook/THESIS/TRADE/MEMORY/board_log no-op: prior maintenance and research stand. RECEIPT and PROME final packet updated; NEXUS folded last. A3 run/verify/commit exact paths; no public retry while the existing approval dependency remains unresolved. Next boot starts with October15 duties above.
-
-## Publication authorization — 2026-10-14T15:54:26.483176-04:00
-Will authorized safe GitHub publication after the earlier closeout. Fresh fetch shows only `70d58221e` unpublished before this receipt; destination remains the established public `williepowen-debug/Research-workspace` repository. No BOND dirty work at entry; WALTER dirty/staged files untouched. Approval dependency resolved for these BOND closeout receipts. Publish only the pinned reviewed boundary after exact commit/path verification; never a moving shared HEAD. No new research, metrics, holdings, thresholds or trades. STATUS session metadata and this handoff/RECEIPT/PROME disposition updated; NEXUS folded last; addendum runner/verify then exact-path commit. VX/KB/FLOW/THESIS/TRADE/docket/predictions/MEMORY unchanged because only publication authority changed.
+## MAIL
+WALTER lane drained (5). General inbox not swept: `inbox/2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7.md` (info; figures cited). Packet sent: RED F2 read (committed).
