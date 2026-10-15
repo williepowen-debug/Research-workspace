@@ -1,0 +1,26 @@
+n=1327 weight 99.05%  price-only contribution -0.3931% of fund (excl. accrual)
+YTW>=12% sleeve (distressed proxy): n=102 weight 5.18% contribution -0.0629%  (16% of total) wavg ret -1.21%
+YTW 9-12%: n=125 weight 10.30% contribution -0.1050%  (27% of total) wavg ret -1.02%
+YTW<9%: n=1100 weight 83.57% contribution -0.2251%  (57% of total) wavg ret -0.27%
+YTW>=12% sleeve by sector (contribution, share of sleeve loss):
+  Other                        n= 15 w=1.12% contrib=-0.0226% share=   36% wavg ret=-2.03%
+  Consumer Cyclical            n= 10 w=0.60% contrib=-0.0125% share=   20% wavg ret=-2.09%
+  Transportation               n=  4 w=0.20% contrib=-0.0101% share=   16% wavg ret=-4.99%
+  Communications               n= 35 w=1.68% contrib=-0.0089% share=   14% wavg ret=-0.53%
+  Capital Goods                n=  9 w=0.26% contrib=-0.0060% share=   10% wavg ret=-2.34%
+  Basic Industry               n=  4 w=0.12% contrib=-0.0030% share=    5% wavg ret=-2.60%
+  Finance Companies            n=  1 w=0.06% contrib=-0.0023% share=    4% wavg ret=-3.68%
+  Consumer Non-Cyclical        n=  4 w=0.13% contrib=-0.0011% share=    2% wavg ret=-0.84%
+  Financial Other              n=  3 w=0.16% contrib=-0.0005% share=    1% wavg ret=-0.33%
+  Healthcare                   n=  9 w=0.35% contrib=-0.0003% share=    0% wavg ret=-0.08%
+  Industrial Other             n=  1 w=0.09% contrib=+0.0008% share=   -1% wavg ret=+0.88%
+  Insurance                    n=  7 w=0.43% contrib=+0.0035% share=   -6% wavg ret=+0.80%
+YTW>=12% sleeve top issuers by loss contribution:
+  COREWEAVE INC 144A                       w=0.561% contrib=-0.0174% share=  28% cum=  28%
+  JETBLUE AIRWAYS CORPORATION 144A         w=0.107% contrib=-0.0068% share=  11% cum=  38%
+  CONNECT HOLDING II LLC 144A              w=0.118% contrib=-0.0047% share=   8% cum=  46%
+  STAPLES INC 144A                         w=0.240% contrib=-0.0043% share=   7% cum=  53%
+  IHEARTCOMMUNICATIONS INC 144A            w=0.120% contrib=-0.0039% share=   6% cum=  59%
+  HERTZ CORPORATION (THE) 144A             w=0.087% contrib=-0.0033% share=   5% cum=  64%
+  LBM ACQUISITION LLC 144A                 w=0.077% contrib=-0.0031% share=   5% cum=  69%
+  VIRGIN MEDIA FINANCE PLC 144A            w=0.033% contrib=-0.0030% share=   5% cum=  74%

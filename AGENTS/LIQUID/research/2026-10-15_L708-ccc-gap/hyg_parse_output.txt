@@ -1,0 +1,7 @@
+asof Oct 13, 2026 1340 | Oct 14, 2026 1340
+cols ['Name', 'Sector', 'Asset Class', 'Market Value', 'Weight (%)', 'Notional Value', 'Par Value', 'Price', 'Location', 'Exchange', 'Currency', 'Duration', 'YTM (%)', 'FX Rate', 'Maturity', 'Coupon (%)', 'Mod. Duration', 'Yield to Call (%)', 'Yield to Worst (%)', 'Real Duration', 'Real YTM (%)', 'Market Currency', 'Accrual Date', 'Effective Date']
+fixed-income 10/13 1332 10/14 1332 common 1331
+('COREWEAVE INC 144A', 'Oct 01, 2031', '9.75') px 82.46 -> 81 YTW 14.87 -> 15.35 sector Other w 0.18798
+('COREWEAVE INC 144A', 'Jun 01, 2030', '9.25') px 89.37 -> 85.76 YTW 13 -> 14.41 sector Other w 0.1605
+('COREWEAVE INC 144A', 'Feb 01, 2031', '9') px 84.85 -> 81.7 YTW 13.77 -> 14.9 sector Other w 0.12789
+('COREWEAVE INC 144A', 'Jul 15, 2032', '9.63') px 79.75 -> 77.03 YTW 14.98 -> 15.83 sector Other w 0.08463
