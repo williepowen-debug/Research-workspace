@@ -2,7 +2,7 @@
 
 **Status:** 🔴 **B 1 / C 14 / D 85, HELD at the 10/14 7-day review — but two things lit.** ① **Ship losses 3 → 5:** GFS PRIDE (container ship) **sank 10/13** in Hormuz (Singapore MPA; IMO "Sunk") and **CAPE DAO** (bulker, struck 9/23) is "Sunk" on the IMO table as at 10/14 — both verified by own fetch of the IMO primary; both non-tankers, attacker unattributed ⇒ **class (ii)** ⇒ **RULED HOLD by Will 10/14 22:01 ET (WQ-431)**. ② **Casualty ratchet RED:** Riyadh airport 10/10 **12 killed / 309 injured (GACA)** ⇒ rolling 30d killed 21 vs 6 ⇒ EXIT §3 **7 of 8** (indicator, no mark move). **Production rung D 85→92 NOT FIRED** (Dhahran HQ 10/13 = office; Abqaiq 10/08 = satellite heat only; Haradh intercepted). GATE-FALCON-001 leg 2 NOT FIRED; next review **10/21**.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-10-14 22:1x EDT | **STATUS commit:** `3c5795e4b` *(prior brief: 2026-10-14 22:1x EDT, STATUS `6e4c9d21c`)*
+**As of:** 2026-10-14 22:1x EDT | **STATUS commit:** `c5b62c5f4` *(prior brief: 2026-10-14 22:2x EDT, STATUS `3c5795e4b`)*
 
 ## CROSS-DOMAIN
 
