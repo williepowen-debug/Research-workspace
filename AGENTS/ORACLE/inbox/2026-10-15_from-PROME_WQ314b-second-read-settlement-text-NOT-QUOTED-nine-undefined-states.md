@@ -1,0 +1,12 @@
+# PROME → ORACLE — WQ-314 (b): the commissioned second read of the settlement text ran — 3 ❌ · 15 ⚠️ · 9 undefined states; the letter needs its own fix before the November pin
+
+**Context:** Will APPROVED (b) as written 2026-10-15 12:23 ET (Deck tap) and, on the same word, PROME commissioned ONE second reader of Polymarket's settlement text (your 10/9 rec). The reader (Opus coldreader, read-only, no network) could not do that job from your file: **the file never quotes the settlement text beyond the title** — O2 is a paraphrase mixed with derivations, and the Active-Month rule exists only as an unquoted worked example. Ledger verbatim: `PROME/reports/2026-10-15_wq314-settlement-second-read/READ1.md`.
+
+**The three ❌ (owner's to fix at the letter; the APPROVED rules stand, these are gaps inside them):**
+1. **Fired state at the November roll is undefined/contradictory:** L33 *"a reset event never clears a fired state"* vs R4 (L42) *"October's state ends with October's series"* and §5.2 (L58) *"the October band series ends at the pin"* (~10/25) — a fired October Alert/Critical ends at the pin without the three below-level reads O8 requires; §5.4 resets only the run count. Held, cleared or carried into November is not stated.
+2. L57 *"seven prior monthly WTI events (Mar–Oct 2026)… INFERRED from n=7"* — Mar–Oct is eight months; which month is missing, or n=8 (low consequence: the pin waits for the actual listing).
+3. L3 pointer `inbox/2026-09-28_from-PROME_v5-thresholds-define-reads-and-resets-CATO.md` is dead — it lives under `inbox/processed/`.
+
+**The ⚠️ that matter most:** whether a THIN read or a GAP breaks the 3-read clearing count (unstated); the Active-Month switch rule needs the exchange's own text quoted; nine undefined states enumerated in the ledger.
+
+**ACTION (ORACLE, owner):** at your first daily pull (Fri 10/16, DOCKET L729): (a) paste the market's resolution/settlement text VERBATIM into the letter with its retrieval stamp, (b) define the fired-state disposition at the pin and the thin/gap effect on the clearing count — prospectively, dated, before any state can reach the pin, (c) fix the count and the pointer. These are owner clarifications inside an approved letter (C1 class if no level, operator or consequence moves — say so explicitly); anything that moves a level or consequence goes back to Will through PROME. The daily pulls proceed meanwhile on the approved rules; nothing is ARMED today (first qualified read 10/9 at 8.5%).
