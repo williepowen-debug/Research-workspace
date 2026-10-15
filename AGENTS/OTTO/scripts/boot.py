@@ -77,6 +77,27 @@ def run(cmd, timeout=60):
         return 1, f"  ERROR: {e}", time.time() - start
 
 
+WINTERKORN_MEMORY = OTTO_DIR / "docket" / "WINTERKORN_MEMORY.md"
+WINTERKORN_DUE_DAYS = 7  # CLAUDE.md § Sub-Agents: every OTTO session >=7 days since the last run
+LAST_RUN_HEADING = re.compile(r"^### (\d{4}-\d{2}-\d{2})\b", re.M)
+
+
+def winterkorn_last_run(text):
+    """Newest `### YYYY-MM-DD` heading inside `## LAST RUN`, or None.
+
+    Fails closed: no section, or no dated heading in it, returns None and the
+    caller reports FAIL. The weekly-Tue cadence lapsed 81 days (7/25 -> 10/14)
+    because nothing measured it; this is the measurement (s029, 2026-10-14).
+    """
+    m = re.search(r"^## LAST RUN\s*$(.*?)(?=^## |\Z)", text, re.M | re.S)
+    if not m:
+        return None
+    dates = LAST_RUN_HEADING.findall(m.group(1))
+    if not dates:
+        return None
+    return max(datetime.strptime(d, "%Y-%m-%d").date() for d in dates)
+
+
 def main():
     verbose = "--verbose" in sys.argv
     no_price = "--no-price" in sys.argv
@@ -154,6 +175,30 @@ def main():
         else:
             status = "FAIL"
         results.append((label, status, elapsed))
+
+    # WINTERKORN cadence — printed directly (not through the keyword filter above).
+    print(f"\n  ⏳ WINTERKORN Cadence...", flush=True)
+    t0 = time.time()
+    try:
+        last = winterkorn_last_run(WINTERKORN_MEMORY.read_text(encoding="utf-8"))
+    except OSError as e:
+        last, err = None, str(e)
+    else:
+        err = "no dated `### YYYY-MM-DD` heading under `## LAST RUN`"
+    if last is None:
+        print(f"    ❌ cannot certify the last WINTERKORN run: {err} ({WINTERKORN_MEMORY.name})")
+        wk_status = "FAIL"
+    else:
+        days = (now.date() - last).days
+        if days >= WINTERKORN_DUE_DAYS:
+            print(f"    🟠 WINTERKORN last ran {last} ({days} days ago) — DUE this session "
+                  f"(CLAUDE.md § Sub-Agents; spec docket/WINTERKORN.md)")
+            wk_status = "FINDINGS"
+        else:
+            print(f"    ✓ WINTERKORN last ran {last} ({days} days ago) — not due "
+                  f"(due at {WINTERKORN_DUE_DAYS})")
+            wk_status = "OK"
+    results.append(("WINTERKORN Cadence", wk_status, time.time() - t0))
 
     # N. Ledger staleness — workbook TSVs + trade surface (fleet enforcer, read-only alert; PROME PAT-035)
     if STALENESS.exists():

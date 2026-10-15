@@ -529,7 +529,7 @@ AGENTS/OTTO/
 │   ├── PREDICTIONS.tsv     # Falsifiable claims (9-col standard schema)
 │   └── PREDICTIONS_ARCHIVE.md  # Resolved-row post-mortems + calibration scoreboard
 ├── scripts/
-│   ├── boot.py             # Boot orchestrator — price + predictions + catalysts (~2s)
+│   ├── boot.py             # Boot orchestrator — price + predictions + catalysts + WINTERKORN cadence (~3s)
 │   ├── predictions_due.py  # Boot step 4 — OVERDUE/DUE-SOON scan of thesis/PREDICTIONS.tsv
 │   ├── catalyst_countdown.py # Boot step 5 — countdown off docket/CATALYSTS.tsv
 │   ├── panel_10d.py        # 10-D performance panel → workbook/PANEL_10D.tsv (--backfill, --selftest, seasoning control)

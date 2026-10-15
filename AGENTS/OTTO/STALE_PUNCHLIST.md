@@ -25,7 +25,6 @@
 | 13 | `research/TIER2_FORENSIC_SCREEN_SPEC.md`: build "authorised" 7/25, no date | An owed build with no clock | Review C L9 | OTTO: schedule or drop |
 | 14 | **Archive sweep** (~40 files >60 days: prompts, briefings, recon, sources, a delivered outbox record) | Root retirement rule | Review B L13–L17; review C retirement list | OTTO; `research/WAL/` needs REGINALD; `LESSONS.md` needs Will |
 | 15 | `MEMORY.md` findings/references contradict each other (Verita "blocked" vs working; superseded entries) | A boot read that disagrees with itself | Review B M3–M5 | OTTO, at closeout |
-| 16 | Boot does not show days since the last WINTERKORN run | The cadence now depends on a session noticing; mechanize it | s029 cadence change | OTTO (`boot.py`) |
 | 17 | `TRADE.md` FROZEN since 7/4 | No action unless a position opens | — | dormant |
 
 ## Closed
@@ -35,5 +34,6 @@
 | §2 universal 5-pt handle + Independence (DAEDALUS card priority 2; L5 gate leg) | 2026-10-14 s029 | MAINTENANCE (c) |
 | WINTERKORN spec + memory refresh; docket archive split (review C H3/M3/M4/M5/M6/M8) | 2026-10-14 s029 | `8aff72737` |
 | PREDICTIONS_ARCHIVE as-made scoreboard + OTTO-04 / OTTO-30 post-mortems (review A M10) | 2026-10-14 s029 | this commit |
+| Boot shows days since the last WINTERKORN run (🟠 DUE at ≥7; fails closed on an unreadable LAST RUN; 5-case guard test) | 2026-10-14 s029 | this commit |
 | Charter version-stamp drift (DAEDALUS F-2) | 2026-09-12 s022 | — |
 | Dead `AGENTS/SIGNALS.md` append instruction | 2026-09-02 | — |
