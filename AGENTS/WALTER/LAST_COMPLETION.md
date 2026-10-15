@@ -117,8 +117,8 @@ Full context/persistence write-back; selected checks, publication, recipient int
   "delivery": {
     "signal_date": "20261014",
     "total": 134,
-    "delivered": 126,
-    "note": "51 morning + 83 evening handoffs; 8 from -035/-036 pending push at this write. Owner integration separate."
+    "delivered": 130,
+    "note": "51 morning + 83 evening handoffs; 4 from -036 pending push at this write (-035 now on origin). Owner integration separate."
   },
   "push": {
     "all_walter_commits_on_origin": false,
