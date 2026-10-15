@@ -6,3 +6,5 @@ receipt_date	correction_id	action	note
 2026-10-09T14:14Z	COR-20261007-01	NO-OP	scope=Paramount financing not carried in any VULCAN ledger or STATUS - grep 2026-10-09 clean; 
 2026-10-09T14:14Z	COR-20261007-12	NO-OP	scope=NYFed private-credit visit confidence metadata not carried by VULCAN - info-only recipient; 
 2026-10-09T14:14Z	COR-20261007-17	NO-OP	scope=Workday cluster label not carried by VULCAN - info-only recipient; 
+2026-10-15T16:10Z	COR-20261014-10	NO-OP	scope=VULCAN never carried the Ornn Anthropic all-time-low or nominal-cut claim - grep of AGENTS/VULCAN 2026-10-15 found 0 hits - the bounded index observation enters KB with the method disagreement; 
+2026-10-15T16:10Z	COR-20261015-05	NO-OP	scope=VULCAN never carried the 14.5pct CRWV 2032 YTW relay - grep 2026-10-15 found 0 hits - LIQUID 15.83pct HYG fund-eval figure enters VULCAN records first-time this session with its bid-side caveat; 
