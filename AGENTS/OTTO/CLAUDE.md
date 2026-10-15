@@ -1,6 +1,6 @@
 # OTTO — Agent Instructions
 
-**Version:** 2.8 | **Updated:** 2026-10-14 *(s028 file-review bundle, Will-approved in session — `MAINTENANCE.md` 2026-10-14 (b))*
+**Version:** 2.9 | **Updated:** 2026-10-14 *(s029: CONVERGENCE MATRIX re-score in closeout step 1 — `MAINTENANCE.md` 2026-10-14 (c))*
 
 > *Stamp reconciled 2026-09-12 (s022), DAEDALUS profile finding **F-2**: this header read `v2.5 | 2026-06-08` while the footer read `v2.7 | 2026-06-09`, and the file had been edited as recently as 9/2. **The footer's version is the true one** — v2.7 is the WINTERKORN introduction — so the header is moved to it and the date to this session's edit. The 7/4, 8/27 and 9/2 content edits carried no version bump; that is a convention, not a defect. **Structural history is `MAINTENANCE.md`, not this line.** A booting reader takes the header at face value, and two stamps that disagree mean neither can be trusted.*
 
@@ -141,6 +141,9 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
 1. **Update `STATUS.md`** *(mirror of boot 1)* — signal dashboard, status changes, watchlist,
    and any thesis-level movement (STATUS owns the thesis block until Phase 3). Keep the
    boot-pointer at top current — it's the first thing next boot orients on.
+   **Re-score the CONVERGENCE MATRIX** for every vector whose local state moved this session
+   (score = the local colour's mapping, never a fresh judgment), and rewrite the composite as
+   arithmetic (`4+5+… = N`). A vector whose local state did not move keeps its score.
    **Byte cap, not line cap (root read-cap rule, 32,550 B):** run
    `python3 scripts/read_cap_check.py --agent OTTO`. At ≥75% of budget, rotate settled rows,
    old session pointers and superseded rows VERBATIM into `STATUS_COLD.md` (a new dated §)
@@ -263,7 +266,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
 | `thesis/THESIS.md` | **Canonical versioned thesis (v1.0+).** Primary Cockroach, Secondary Invisible Exit, Carvana sub-thesis carve-out, transmission chain, why-now timing claim, conviction decomposition, risk matrix, predictions pointer, cross-agent links. STATUS § THESIS is a live-state *mirror* — canonical wins on disagreement | Live dashboard metrics (→ STATUS); transient case-status updates (→ STATUS) |
-| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, **live thesis-state mirror** (3-line summary + case-status table; canonical narrative → `thesis/THESIS.md`), CRITICAL TIMELINE, active vectors, lender watchlist. **Root byte cap 32,550 B — rotate verbatim into `STATUS_COLD.md` (closeout step 1)** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ thesis/CHANGELOG); the durable thesis narrative (→ thesis/THESIS) |
+| `STATUS.md` | Live signal dashboard, all current metrics, case statuses, **live thesis-state mirror** (3-line summary + case-status table; canonical narrative → `thesis/THESIS.md`), CRITICAL TIMELINE, **CONVERGENCE MATRIX** (blueprint §2 1–5 handle + Independence; replaced ACTIVE VECTORS 2026-10-14), lender watchlist. **Root byte cap 32,550 B — rotate verbatim into `STATUS_COLD.md` (closeout step 1)** | Cross-session learnings; raw research; the prediction ledger; thesis-pivot history (→ thesis/CHANGELOG); the durable thesis narrative (→ thesis/THESIS) |
 | `thesis/CHANGELOG.md` | Thesis/POV-pivot audit trail (**analytical**) — dated Was→Is + Trigger + Touches for every material view change. The trajectory record STATUS-pruning destroys. *Moved from top-level → thesis/ on 2026-06-09 with thesis/THESIS.md introduction* | Routine dashboard refreshes (→ STATUS); structural changes (→ MAINTENANCE); live state |
 | `MAINTENANCE.md` | **Structural** change-log — docs/folders/scripts/protocol changes (Trigger/What/Files/Boot-impact/Lessons). "Why is OTTO organized this way?" | Analytical/thesis changes (→ CHANGELOG); forward to-do (→ STALE_PUNCHLIST); live state |
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief (locked schema; OTTO=Tier-2 opt-in). VIEW/CALIBRATION/CROSS-DOMAIN/NEXT-DECISION/FORWARD-CATALYSTS. Refreshed every closeout (step 7a) | Restated canonical content (references PREDICTIONS/CHANGELOG/CATALYSTS); P/L or marks |
@@ -279,9 +282,9 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `workbook/SHELF_ACTIVITY.tsv` | OTTO-07 shelf-halt probe output (`scripts/shelf_halt_monitor.py`), event-driven | — |
 | `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
 | `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and monitoring stubs (`abs_issuance_tracker.py`, `extension_proxy.py` — manual-check placeholders, not live feeds) | — |
-| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events. **Maintained by WINTERKORN sub-agent** (not edited by OTTO directly during normal sessions; OTTO applies WINTERKORN's flagged-for-OTTO escalations) | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv); live dashboard values |
-| `docket/WINTERKORN.md` | **Sub-agent spec** (mandate, autonomy gradient, read/write-set, truth model, the job, return format). OTTO-internal docket steward — spawned weekly Tue + T-3 pre-hearing. Not a network peer. Auto-domain reference (VW Dieselgate executive-knew archetype). | Live state (→ WINTERKORN_MEMORY); analytical judgment (→ THESIS); anything outside docket/ scope |
-| `docket/WINTERKORN_MEMORY.md` | **Sub-agent state** — LAST RUN (history), PENDING (OTTO-side decisions queued), STANDING MONITORS (recurring watches), CALIBRATION (OTTO-owned accept/decline log; WINTERKORN reads but never writes), NEXT RUN HINTS | The durable spec (→ WINTERKORN.md); CATALYSTS data itself |
+| `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events. **Maintained by WINTERKORN sub-agent** (not edited by OTTO directly during normal sessions; OTTO applies WINTERKORN's flagged-for-OTTO escalations). Swept rows >30 days old move verbatim to `docket/CATALYSTS_ARCHIVE.tsv` (not a boot read) | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv); live dashboard values |
+| `docket/WINTERKORN.md` | **Sub-agent spec** (mandate, autonomy gradient, read/write-set, truth model, the job, return format). OTTO-internal docket steward — spawned every OTTO session with ≥7 days since its last run, plus T-3 pre-hearing. Not a network peer. Auto-domain reference (VW Dieselgate executive-knew archetype). | Live state (→ WINTERKORN_MEMORY); analytical judgment (→ THESIS); anything outside docket/ scope |
+| `docket/WINTERKORN_MEMORY.md` | **Sub-agent state** — LAST RUN (history), PENDING (OTTO-side decisions queued), STANDING MONITORS (recurring watches), CALIBRATION (OTTO-owned accept/decline log; WINTERKORN reads but never writes), NEXT RUN HINTS. Superseded run entries and cleared PENDING → `docket/WINTERKORN_MEMORY_ARCHIVE.md` (verbatim, not a read) | The durable spec (→ WINTERKORN.md); CATALYSTS data itself |
 | `MEMORY.md` | Cross-session feedback, findings, references, Session Notes (CHANGES/LAST/NEXT) | Recaps of STATUS values (reference, don't copy) |
 | `LESSONS.md` | Distilled durable process rules | ⚠ overlaps MEMORY § Feedback + these conventions (consolidation candidate — punch-list) |
 | `LAST_COMPLETION.md` | The per-session hand-off | Durable learnings (→ MEMORY) |
@@ -332,7 +335,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 
 | Name | Pattern | Owns | Spawn cadence |
 |------|---------|------|---------------|
-| **WINTERKORN** | FASTOW-style scoped owner (busy-work, no judgment) | `docket/CATALYSTS.tsv` + `docket/WINTERKORN_MEMORY.md`. Verifies forward dates against bankruptcy dockets (First Brands S.D. Tex; Tricolor Ch.7; Tricolor SDNY criminal — selective; Carvana DE Chancery), SEC EDGAR / IR calendars (named-banks Q-earnings subset), rating agencies (Fitch/S&P/KBRA/Moody's ABS surveillance), ABS pricing windows (modeled). | Weekly Tue + on-demand T-3 pre-hearing |
+| **WINTERKORN** | FASTOW-style scoped owner (busy-work, no judgment) | `docket/CATALYSTS.tsv` + `docket/WINTERKORN_MEMORY.md`. Verifies forward dates against court dockets (Tricolor SDNY criminal — full discovery scope since 7/25; Tricolor Ch.7; First Brands Ch.7 since 9/1; Carvana DE Chancery), SEC EDGAR / IR calendars (MTB + ALLY earnings; 10-D cycles), Manheim, NY Fed HDC, rating agencies (S&P/KBRA/Moody's on-event; Fitch declined 10/14), ABS pricing windows (modeled). | Every OTTO session with ≥7 days since its last run, plus T-3 pre-hearing (was "weekly Tue": it lapsed 81 days while OTTO was dark) |
 
 Spawn pattern: Agent tool with prompt pointing to `AGENTS/OTTO/docket/WINTERKORN.md` (spec) then `AGENTS/OTTO/docket/WINTERKORN_MEMORY.md` (state). Sub-agent returns categorized summary block; OTTO applies any flagged-for-OTTO escalations (STATUS sync / PREDICTIONS sync / docket ambiguities). Sub-agents never commit or push.
 
@@ -537,8 +540,10 @@ AGENTS/OTTO/
 │   └── extension_proxy.py      # DEAD stub (superseded by panel_10d.py ext_rate) — archive candidate
 ├── docket/
 │   ├── CATALYSTS.tsv         # Machine-readable forward-event feed (8-col) — boot step 5 source; WINTERKORN-maintained
-│   ├── WINTERKORN.md         # Sub-agent spec — docket steward (weekly Tue + T-3 pre-hearing)
-│   └── WINTERKORN_MEMORY.md  # Sub-agent state — LAST RUN / PENDING / STANDING MONITORS / CALIBRATION / NEXT RUN HINTS
+│   ├── CATALYSTS_ARCHIVE.tsv # Swept rows >30 days old, verbatim (not a boot read)
+│   ├── WINTERKORN.md         # Sub-agent spec — docket steward (each OTTO session ≥7d since last run + T-3 pre-hearing)
+│   ├── WINTERKORN_MEMORY.md  # Sub-agent state — LAST RUN / PENDING / STANDING MONITORS / CALIBRATION / NEXT RUN HINTS
+│   └── WINTERKORN_MEMORY_ARCHIVE.md # Superseded run entries + cleared PENDING, verbatim (not a read)
 ├── research/
 │   └── outputs/        # RP-OTT-x.x research packages
 ├── workbook/
@@ -568,4 +573,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md **v2.8** | 2026-10-14 — s028 file-review bundle (Will-approved): recovery trigger marked FIRED 9/2; recovery perimeter named in thresholds + invalidation; brief-pin check per NEXUS Amendment 11; byte-cap closeout; frozen-ledger and OUTBOX pointers retired; file tree + ownership rows for the 10-D panel. v2.7 (2026-06-09) introduced WINTERKORN. **Full version/structural history → `MAINTENANCE.md`.***
+*OTTO CLAUDE.md **v2.9** | 2026-10-14 — s029: closeout step 1 re-scores the §2 CONVERGENCE MATRIX; STATUS ownership row names it; WINTERKORN cadence re-written (each session ≥7d since last run, + T-3) and docket/memory archive files added. v2.8 (same day) — s028 file-review bundle (Will-approved): recovery trigger marked FIRED 9/2; recovery perimeter named in thresholds + invalidation; brief-pin check per NEXUS Amendment 11; byte-cap closeout; frozen-ledger and OUTBOX pointers retired; file tree + ownership rows for the 10-D panel. v2.7 (2026-06-09) introduced WINTERKORN. **Full version/structural history → `MAINTENANCE.md`.***

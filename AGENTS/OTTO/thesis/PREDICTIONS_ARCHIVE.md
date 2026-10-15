@@ -4,7 +4,36 @@ Post-mortems for resolved rows in [`PREDICTIONS.tsv`](PREDICTIONS.tsv). The TSV 
 
 ---
 
-## Calibration Scoreboard (as of 2026-07-25, session 016)
+## Calibration Scoreboard — AS-MADE (rebuilt 2026-10-14, s029)
+
+**Every resolved row, scored at the confidence it carried when it was written.** As-made figures come from git: the first commit that carries each row (`91c301279` 2026-03-04 seed for the 2/23 rows; `0bc51c74d` 4/15; `3c880fbb1` 5/22). A walked cell is never the scoring vintage.
+
+| Row | Outcome | As-made | Brier | Counted? |
+|---|---|---|---|---|
+| OTTO-01 | ✅ CONFIRMED | 75% | 0.0625 | yes |
+| OTTO-05 | ❌ FALSIFIED | **60%** | 0.3600 | yes |
+| OTTO-08 | ✅ CONFIRMED | 50% | 0.2500 | yes |
+| OTTO-09 | ✅ CONFIRMED | 65% | 0.1225 | yes |
+| OTTO-26 | ❌ FALSIFIED (date) | 40% | 0.1600 | yes |
+| OTTO-27 | ✅ CONFIRMED | 50% | 0.2500 | yes |
+| OTTO-28 | ❌ FALSIFIED (window) | 50% | 0.2500 | yes |
+| OTTO-29 | ❌ FALSIFIED (window) | 75% | 0.5625 | yes |
+| OTTO-30 | ❌ FALSIFIED | **60%** | 0.3600 | yes |
+| OTTO-32 | ✅ CONFIRMED | 85% | 0.0225 | yes |
+| OTTO-04 | ❌ FALSIFIED-on-metric | 75% | 0.5625 | **no**: graded on a projection of a series OTTO could not observe after March (post-mortem below) |
+| OTTO-06 | ❌ FALSIFIED | 70% | 0.4900 | **no**: dead zone; the resolving clause was written late and decided it (s026) |
+| OTTO-10 | ⚪ NEEDS_VERIFY | 65% | 0.4225 staged | **no**: data cover May only; re-check ~12/15 |
+| **Counted** | **5 of 10 hits** | | **mean 0.2400** | |
+
+**Read this before citing 0.2400:** answering 50% on every row scores **0.2500**. On ten rows OTTO's stated confidence carries almost no information beyond a coin flip. The hits cluster at 50–75% and two misses sat at 60–75%. n=10 is small; this says "no evidence of skill yet", not "no skill".
+
+⚠️ **Two as-made figures corrected tonight, both against OTTO.** (1) **OTTO-05** was carried at 48% with no as-made marker; the seed is **60%** (walk 60 → 62 [5/22] → 48 [6/08]). (2) **OTTO-30**'s marker read "was 65% [2026-04-15]"; git shows **60%** at creation and 65% set on 5/21 (`20cd8a532`). The 9/12 as-made audit missed both. OTTO-30 scores 0.36, not the 0.4225 the audit recorded. Five other rows carry walked cells without a marker (OTTO-07, -10, -29, -33, -34); the ledger fix is owed in `PREDICTIONS.tsv`.
+
+⚠️ **Not re-examined:** the four early hits (OTTO-01, -08, -09, -27) were made 2/23 and confirmed within days to weeks. None has been checked for being true at creation (the OTTO-04 rule). If any was, the 0.2400 flatters the book.
+
+---
+
+### History — the 2026-07-25 scoreboard, as it stood (superseded by the as-made table above)
 
 > ⚠️ **The counts in this table are as of 7/25.** Ledger at 2026-09-30 after s026 (Status column of `PREDICTIONS.tsv`): **5 CONFIRMED · 7 FALSIFIED · 1 NEEDS_VERIFY (OTTO-10) · 7 OPEN.** *(s025 read 5 · 8 · 7; OTTO-10 moved FALSIFIED → NEEDS_VERIFY on CATO RC2.)* The 9/30 set is in § *9/30 resolve set* below; OTTO-30 (resolved 8/14) has its grade in its TSV row.
 
@@ -94,9 +123,31 @@ CATO's finding was that three negative grades went further than the evidence rec
 
 ---
 
+## OTTO-30 — 6th US bank discloses Tricolor-related exposure by Q2 earnings ❌ FALSIFIED (post-mortem written 2026-10-14, s029)
+
+**Made:** 2026-04-15 at **60%**. **Walk:** 60 → 65 (5/21, `20cd8a532`) → 45 (5/22) → 12 (7/25). **Resolved:** FALSIFIED 2026-08-14, 17 days early, on a pre-registered complete SEC EDGAR full-text scan (q="Tricolor", 4/15 → 8/14): zero new US bank names. **As-made Brier 0.3600.**
+
+**What went wrong:** the claim was made with no named instrument, and OTTO's working instrument was press-sampling. Press-sampling measured OTTO's own discovery latency, not new disclosure: Triumph (TFIN) surfaced 10 months after its first disclosure and Origin (OBK) 7 months after. Both looked like hits and both were known-unknowns, first disclosed before the window opened. The trap fired twice inside one prediction.
+
+**What went right, and why it earns no credit:** on 7/25 OTTO measured the instrument (a complete EDGAR scan to date) instead of arguing, cut 45 → 12%, and the row resolved false three weeks later. That is a process observation. Under as-made scoring the walk-down earns nothing, and THESIS § Predictions still calls it "the one calibration win worth banking" (owed fix, THESIS v1.6). The 5/21 walk *up* to 65% moved the wrong way.
+
+**Lessons:** (1) a prediction about NEW disclosure must check each counterparty's FIRST disclosure date, never the date of the filing that surfaced it; (2) name the instrument in the row at creation, and make it a complete scan, not a sample; (3) this row tested the bank-contagion channel, and that channel is now disconfirmed (THESIS v1.3).
+
+---
+
+## OTTO-04 — 2022-vintage CNL exceeds 25% by Sep 30 ❌ FALSIFIED-on-metric / ✅ substance — NOT COUNTED (post-mortem written 2026-10-14, s029)
+
+**Made:** 2026-02-23 at **75%** on the Will-ratified metric, the Fitch blended subprime index. **Walk:** 75 → 68 → 62 (both 7/4). **Resolved early 2026-07-25:** FALSIFIED on the metric (projected ~24.3–24.5% at 9/30) and confirmed on substance (deep-subprime EART 2022-3 27.58%, 2022-2 26.34% on the 6/30 10-Ds).
+
+**Why it is not counted (Brier 0.5625 shown only):** two independent reasons. (1) The FALSIFIED grade rests on a *projection* of a series OTTO could not observe after March 2026: the free mirror decayed and the paid sources were closed. Under the s026 rule, a negative grade needs evidence for the whole claim period, and this one has four months. (2) The re-based metric cannot rescue it either: on the deep-subprime tranche the claim was already true at creation (EART 2022-3 25.90% on the 1/28 10-D), so scoring it CONFIRMED would launder a likely miss into a hit. The TSV row's 9/12 note ("score at 75%, not 62%") fixes the *vintage* if the row is ever scored; this archive rules it not scored, consistent with the 7/25 disposition.
+
+**What it taught:** a blended index can falsify a claim whose substance is true. EART deep-subprime ran ~2.3× Santander's broad tier at the same seasoning, and the blend sat between them. The fix was to own the instrument: the 10-D panel built from 7/25 is now OTTO's canonical measure, and **OTTO-34** is the genuinely forward claim on it. **Rule: when you re-base an open prediction's metric, check whether the new metric was already satisfied at Made_Date; if it was, retire the row and write a new one.**
+
+---
+
 ## OTTO-05 — Subprime BBB ABS spread >250bps by Jun 30 ❌ FALSIFIED (substance AND window)
 
-**Resolved:** 2026-07-04 (s014 catch-up sweep). **Confidence at close:** had been carried at 70%.
+**Resolved:** 2026-07-04 (s014 catch-up sweep). **Confidence at close:** had been carried at 70%. *(Corrected 2026-10-14: git shows 60% at creation → 62% [5/22] → 48% [6/08]; the "70%" here was never in the ledger. As-made **60%**, Brier 0.3600.)*
 
 **What happened:** the spread moved **the opposite way**. EART 2026-3 Class D (BBB/Baa3) settled ~Jun 24 at **+140bps** `[CONF SEC FWP/IFR]`, versus +190bps in March — a 50bp *tightening* against a predicted blowout to +250. The deal was **upsized to $1.2bn** and Exeter earned its **first-ever AAA** from S&P/Moody's.
 

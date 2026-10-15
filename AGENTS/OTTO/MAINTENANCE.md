@@ -14,6 +14,41 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-10-14 (s029) (d) — WINTERKORN spec + memory refresh; docket archive split
+
+**Trigger:** file review C (s028) H3/M3/M4/M5/M6/M8, owed before the 10/20 WINTERKORN run. The run's brief would have opened on July instructions ("sweep the Jul 28 First Brands confirmation first").
+
+**What changed:**
+- `docket/CATALYSTS.tsv` 67.0 KB → 32.4 KB: 28 swept rows dated ≤ 9/14 moved **verbatim** to new `docket/CATALYSTS_ARCHIVE.tsv` (rows chosen by inspection, not regex: the 8/17 EART 2026-4 row reads "UNSWEPT", which contains "SWEPT", and stays). Conservation asserted (61 = 33 + 28). File date-sorted. Annotated: 7/14 banks, 7/15 MTB, 7/21 Ally ("awaiting OTTO sweep" on reads that had happened), 8/31 First Brands entry (RESOLVED 9/30), 9/09 deliverable (DONE 9/2). 7/15 Fitch row RETIRED (unobservable, 91 days unswept). `catalyst_countdown.py` re-run: same forward set. The archive file is name-exempt from `ledger_staleness.py`.
+- `docket/WINTERKORN.md`: "Last run: none — inaugural" replaced with a pointer (the spec is OTTO-edited only, so a state line in it can only go stale). Job step 1 delete-after-a-week → archive-after-30-days-with-outcome, never delete, count conserved (it contradicted closeout step 3). Universe: Fitch DECLINED; Manheim and the 10-D cycle added (review C H1's root cause); named-bank earnings narrowed to MTB + ALLY; First Brands re-scoped to Ch.7 administration; sources re-pointed to the CourtListener SEARCH API and the Verita POST that work from this box. Cadence: "weekly Tue" → every OTTO session with ≥7 days since the last run, plus T-3.
+- `docket/WINTERKORN_MEMORY.md` 45,953 → 27,938 B: older run entries, cleared PENDING blocks and the July hints moved verbatim to new `docket/WINTERKORN_MEMORY_ARCHIVE.md`. STANDING MONITORS rewritten (one line still said the criminal track was "selective", contradicting the 7/25 ruling two sections down). CALIBRATION (OTTO-owned): Fitch and the non-MTB/ALLY banks DECLINED with reasons; the "keep proposing Fitch" pattern struck. New NEXT RUN HINTS.
+- `CLAUDE.md` v2.9: ownership rows, sub-agent table and file tree carry the new cadence and the two archive files.
+
+**Files touched:** `docket/CATALYSTS.tsv`, `docket/CATALYSTS_ARCHIVE.tsv` (new), `docket/WINTERKORN.md`, `docket/WINTERKORN_MEMORY.md`, `docket/WINTERKORN_MEMORY_ARCHIVE.md` (new), `CLAUDE.md`, this file.
+
+**Boot-impact:** none on OTTO's boot (the countdown reads only the live file and looks back 10 days). WINTERKORN's three required whole-file reads drop from 141,653 B to 91,667 B (spec 31,292 · memory 27,938 · CATALYSTS 32,437; measured with `wc -c`).
+
+**Lessons:** a state line inside a document its subject may not edit can only go stale. "Last run: none" sat in WINTERKORN's spec through three runs because the one agent that knew it had run was forbidden to touch it. Put state where its writer can write.
+
+---
+
+## 2026-10-14 (s029) (c) — §2 CONVERGENCE MATRIX on STATUS; ACTIVE VECTORS retired into it; CLAUDE.md v2.9
+
+**Trigger:** Will-launched parity pass ("go ahead, start", 2026-10-14 22:22 ET). DAEDALUS FLEET_MAP (scored 10/01) names OTTO's L5 gate: *"the §2 5-pt + Independence overlay on SIGNAL DASHBOARD, with read_cap_check --agent OTTO rotation_due=0."* The handle had been DEFERRED since 7/25 (STALE_PUNCHLIST (a)); 15 desks already carried one.
+
+**What changed:**
+- `STATUS.md`: new `## CONVERGENCE MATRIX` before the dashboard, in the blueprint's required columns (`# | Vector | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger`). 10 vectors, composite **33/50** written as arithmetic. **One written rule: each row names its source cell first, and the score is that cell's colour (5 🔴🔴 · 4 🔴 · 3 🟠 · 2 🟡/LOW · 1 🟢/⚪/DORMANT/DISCONFIRMED); transmission vectors source from THESIS § TRANSMISSION CHAIN.** Triggers cite registered events only, with no destination levels. ⛔ **The first draft (32/50) failed an independent Opus check** (44 verified / 14 wrong / 6 mismapped / 5 unsupported; report in the s029 scratchpad): V5 counted Carvana's collateral, already in V4, a second time; the mapping had no written tie-break, so the total could read 27–36; several triggers misquoted THESIS or invented destination scores; "replaces ACTIVE VECTORS" overstated it. Corrected before commit: V5 4→2, V8 1→3 (stage [4] 🟠 "fired, then CLOSED"), V10 2→3 (dashboard 🟠).
+- `ACTIVE VECTORS` retired: each row's local label is carried word-for-word into the matrix's Local state column, and the table moved verbatim → `STATUS_COLD.md` §15. Same rotation: the s028 pointer, five long prediction cells (one-line forms keep ID, status and confidence) and the closed First Brands trigger row. The recovery <28% trigger (FIRED 9/2) is now in the Signal Triggers table (file-review B M10). Header names both disconfirmed systemic legs (B L7).
+- `CLAUDE.md` v2.8 → v2.9: closeout step 1 re-scores the matrix by mapping, never fresh judgment; the STATUS ownership row names it.
+
+**Files touched:** `STATUS.md`, `STATUS_COLD.md`, `CLAUDE.md`, `STALE_PUNCHLIST.md`, this file.
+
+**Boot-impact:** STATUS 22,782 → peak 25,614 B (79%, rotation due) → 22,977 B (71%, `rotation_due=0`) after four verbatim rotation passes to `STATUS_COLD.md` §15 (lender watchlist `[STALE]`, long dashboard/timeline cells, thesis-mirror preamble). The last ~190 B to the 70% line close at closeout. The matrix sits before the dashboard, so it is the first triage read.
+
+**Lessons:** building the handle surfaced three things the local forms hid. (1) The bank-losses dashboard row is 🔴 while its own sum (≈$767M `[EST]`) is under the $1.5B 🟡 band; the colour is composite, not mechanical. (2) V2 (recovery magnitude, scored 5) has no registered downgrade rung. (3) 21 of the 33 points are one root (the four fraud cases and the channels hanging off them). The handle's worth is the Independence column, not the number. (4) **Mapping "the local colour" is not one rule when a vector has several local colours.** The rule has to name the source cell, or the author picks the score while believing they are only transcribing it.
+
+---
+
 ## 2026-10-14 (s028) (b) — CLAUDE.md v2.8 file-review bundle + boot predictions scan sees NEEDS_VERIFY
 
 **Trigger:** Will-directed read-through of OTTO's files (three read-only Opus reviewers; reports in the s028 scratchpad). Will approved the CLAUDE.md bundle in session ("Yes, make the edits", 2026-10-14 ~21:50 ET).
