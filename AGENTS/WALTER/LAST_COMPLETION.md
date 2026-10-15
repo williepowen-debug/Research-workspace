@@ -107,11 +107,11 @@ Full Tier-2 write-back (steps 13 → 12(a-f) → 14 → 15 → 16); selected che
   "schema": 1,
   "as_of": "2026-10-15T16:01:19Z",
   "publication": [
-    {"commit": "103a70834", "state": "local-pending-push"},
-    {"commit": "a44a5bbc7", "state": "local-pending-push"},
-    {"commit": "f444ff03d", "state": "local-pending-push"},
-    {"commit": "06aba65a4", "state": "local-pending-push"},
-    {"commit": "this-closeout-commit", "state": "local-pending-push"}
+    {"commit": "103a70834", "state": "pending"},
+    {"commit": "a44a5bbc7", "state": "pending"},
+    {"commit": "f444ff03d", "state": "pending"},
+    {"commit": "06aba65a4", "state": "pending"},
+    {"commit": "8e670eaab", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20261015",
