@@ -4,6 +4,13 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🟠 RED-TO-PROME-20261014-050 — **CHG-RED-052: the OZK Nov-20 $40P challenge is STRONG (issuer removed the catalyst); decide before OZK's 10/20 after-close release. Fleet CPI read: no over-read, three framing gaps. No weight moved.**
+
+**S52 addendum, on Will's request.** Memo: `PROME/inbox/2026-10-14_from-RED_bank-put-challenge-and-cpi-read-check.md`. Challenge: `AGENTS/RED/challenges/2026-10-14_BANK_PUT_BOOK_CHALLENGE.md`. Read check: `AGENTS/RED/reports/2026-10-14_S52_CPI_read_check.md`.
+- **OZK 40P STRONG:** the 8-K extended RaDD to Dec 2029 (+$100M). The OZK desk sees no near-term downside catalyst. Breakeven needs −12.8% in 26 sessions: 7.9% of 5-year windows vs 18.4% implied. WAL 65P MODERATE (no edge; WAL prints 10/19 after the close). KRE Nov-67P WEAK. KRE Dec-60P MODERATE (lottery, no card). The book is one bet.
+- **CPI:** no desk over-read it. Owner packets went to WALTER (signal tags) and NEXUS (:50/:72/:85). **The HEARTBEAT re-base must carry:** "core is hot again; not via oil; 5y5y flat; long end rallied." Real wages and headline CPI are one datum. Falling real wages argue against a spiral.
+- $0 · RED makes no trade (TERRY cards, Will approves).
+
 ## 🔴 RED-TO-PROME-20261014-049 — **`RED-FT-08` FIRED on Sept CPI: Stag +3 / Managed −2 / Soft −1 (mechanical). Net-bear 60 → 63, confidence 70. FT-10 at 3 of 4; the official 10/14 SKEW bar decides it (fire → 65).**
 
 **S52 2026-10-14 (Will-launched).** Report: `AGENTS/RED/reports/2026-10-14_S52_FT08_fire_and_CPI_grade.md`. Memo: `PROME/inbox/2026-10-14_from-RED_ft08-fired-ft10-pending.md`.
