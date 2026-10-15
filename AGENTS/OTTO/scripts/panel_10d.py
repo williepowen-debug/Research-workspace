@@ -43,6 +43,8 @@ Usage:
   .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py                 # latest filing per deal
   .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py --history 6     # last 6 filings per deal
   .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py --dry-run
+  .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py --backfill      # re-parse every ledger filing + newer
+  .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py --selftest      # offline merge/seasoning tests
 """
 
 import json
@@ -97,6 +99,49 @@ CONTROL = {
     "url":    "https://www.sec.gov/Archives/edgar/data/1931330/"
               "000092963826002447/eart2022-3_exhibit991.htm",
 }
+
+
+# Seasoning positive control (CARL ruling 2026-09-17, acceptance condition 2): >=3 rows per
+# shelf, INCLUDING both Exeter double-filing dates (filed 2025-12-01 -> collection 2025-10;
+# filed 2026-03-03 -> collection 2026-01). Expected values were read OFF THE EXHIBITS by a
+# separate raw-text grep on 2026-10-14 (not by this parser), so the control tests the parser
+# against the document. Bridgecrest expectations are hand arithmetic on the exhibit's own
+# two dates (agreement "dated as of" = closing date, verified for 2024-1 at its 424B5:
+# "on or about January 24, 2024 ... the closing date").
+_SA = "https://www.sec.gov/Archives/edgar/data/"
+SEASONING_CONTROL = [
+    # (deal, issuer, exhibit, expected months_seasoned, expected collection month)
+    ("EART 2022-2", "exeter", _SA + "1920761/000092963825004454/eart2022-2_exhibit991.htm", 43, "2025-10"),  # double-filing date
+    ("EART 2022-2", "exeter", _SA + "1920761/000092963825004752/eart2022-2_exhibit991.htm", 44, "2025-11"),
+    ("EART 2022-2", "exeter", _SA + "1920761/000092963826000840/eart2022-2_exhibit991.htm", 46, "2026-01"),  # double-filing date
+    ("EART 2024-1", "exeter", _SA + "2005087/000092963826000850/eart2024-1_exhibit991.htm", 25, "2026-01"),  # double-filing date
+    ("SDART 2024-1", "santander", _SA + "1383094/000119312525239308/d67309dex991.htm", 21, "2025-09"),
+    ("SDART 2024-1", "santander", _SA + "1383094/000119312526013270/d57557dex991.htm", 24, "2025-12"),
+    ("SDART 2024-1", "santander", _SA + "1383094/000119312526106789/d108803dex991.htm", 26, "2026-02"),
+    ("BLAST 2024-1", "bridgecrest", _SA + "2006743/000110465925059729/tm2517576d1_ex99-1.htm", 17, "2025-05"),
+    ("BLAST 2024-1", "bridgecrest", _SA + "1974820/000110465926062002/tm2613972d2_ex99-1.htm", 28, "2026-04"),
+    ("BLAST 2024-1", "bridgecrest", _SA + "1974820/000110465926097635/tm2622707d2_ex99-1.htm", 31, "2026-07"),
+    ("BLAST 2023-1", "bridgecrest", _SA + "1974820/000110465926061994/tm2613972d1_ex99-1.htm", 31, "2026-04"),
+]
+
+
+def run_seasoning_control():
+    """Re-parse each frozen seasoning-control exhibit. True only if EVERY row reproduces
+    both its months_seasoned and its collection month; None if any exhibit is unreachable."""
+    ok = True
+    for deal, issuer, url, want_ms, want_cp in SEASONING_CONTROL:
+        try:
+            txt = flatten(fetch(url))
+        except Exception as e:
+            print(f"\n    (seasoning control exhibit unreachable: {deal} {type(e).__name__})", end="")
+            return None
+        got_ms, miss = months_seasoned(txt, issuer)
+        cp, _ = collection_period(txt)
+        if got_ms != want_ms or not cp or cp[:7] != want_cp:
+            print(f"\n    ✗ {deal} {want_cp}: months_seasoned {got_ms} (want {want_ms}), "
+                  f"collection {cp} (want {want_cp}) {miss or ''}", end="")
+            ok = False
+    return ok
 
 
 def run_control():
@@ -249,6 +294,46 @@ def collection_period(txt):
     return None, "collection_period-label-not-found"
 
 
+# ── Months seasoned (CARL ruling 2026-09-17: ISSUER-STATED, distribution-date clock) ──
+# Until 2026-10-14 this column was OTTO-COMPUTED as months between the deal's FIRST 10-D
+# filing date and this filing date. Read against the exhibits (2026-09-12) that clock was
+# -1 on ordinary rows and 0 at the two Exeter double-filing dates (filed 2025-12-01 ->
+# collection 2025-10; filed 2026-03-03 -> collection 2026-01), so it was NON-MONOTONE
+# inside a deal (43·43, 46·46) and one value mapped to two collection months. The issuer
+# keys "Months Seasoned" to the DISTRIBUTION date (one month after the collection
+# period). CARL ruled the issuer clock on the grader-checkability test: a grader checking
+# the exhibit must find the number in it.
+#
+#   exeter / santander : the exhibit STATES it ("Months Seasoned: NN"), read label-anchored.
+#   bridgecrest        : the exhibit does NOT state it (checked 2026-10-14). It does state
+#     the Sale and Servicing Agreement date ("... dated as of January 24, 2024") and the
+#     "Distribution Date:", so the value is computed from those TWO EXHIBIT DATES on the
+#     convention the other two issuers use (distribution month minus closing month).
+#     EXHIBIT-DERIVED, NOT ISSUER-STATED: a grader can check it from the exhibit by
+#     arithmetic but will not find it printed. The one place the ruling's letter cannot
+#     be met; flagged to CARL.
+# Never falls back to filing dates: an unreadable clock is a named miss, written EMPTY.
+MS_STATED = re.compile(r"Months\s+Seasoned\s*:\s*(?P<v>\d{1,3})\b")
+_MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
+BC_AGREEMENT = re.compile(r"dated\s+as\s+of\s+(?P<v>(?:" + _MONTHS + r")\s+\d{1,2}\s*,\s*\d{4})")
+BC_DISTRIBUTION = re.compile(r"Distribution\s+Date\s*:\s*" + _D.format("v"))
+
+
+def months_seasoned(txt, issuer):
+    """Return (int, None) or (None, reason). See the block comment above."""
+    if issuer in ("exeter", "santander"):
+        m = MS_STATED.search(txt)
+        return (int(m.group("v")), None) if m else (None, "months_seasoned-label-not-found")
+    if issuer == "bridgecrest":
+        a, d = BC_AGREEMENT.search(txt), BC_DISTRIBUTION.search(txt)
+        if not (a and d):
+            return None, "months_seasoned-dates-not-found"
+        ad = datetime.strptime(re.sub(r"\s*,\s*", ", ", re.sub(r"\s+", " ", a.group("v"))), "%B %d, %Y")
+        dd = datetime.strptime(_iso(d.group("v")), "%Y-%m-%d")
+        return (dd.year - ad.year) * 12 + (dd.month - ad.month), None
+    return None, "months_seasoned-no-rule-for-issuer"
+
+
 def _num(s):
     return float(s.replace(",", "")) if s else None
 
@@ -290,8 +375,11 @@ def resolve_trust_cik(hits, phrase):
     return None
 
 
-def deal_filings(phrase, want):
-    """Return [(filing_date, cik, accession)] newest-first for this deal's 10-Ds."""
+def deal_filings(phrase, want, since=None):
+    """Return [(filing_date, cik, accession)] newest-first for this deal's 10-Ds AND
+    10-D/As (an amendment restates a servicer report; the (deal, collection_period)
+    upsert key lets it supersede the original — see merge()). `since` (YYYY-MM-DD)
+    keeps every filing on/after that date instead of the newest `want`."""
     r = json.loads(fetch(FTS + urllib.parse.urlencode({"q": f'"{phrase}"', "forms": "10-D"}), 30))
     hits = r.get("hits", {}).get("hits", [])
     if not hits:
@@ -302,8 +390,10 @@ def deal_filings(phrase, want):
     sub = json.loads(fetch(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json", 30))
     rec = sub["filings"]["recent"]
     out = [(rec["filingDate"][i], cik, rec["accessionNumber"][i])
-           for i in range(len(rec["form"])) if rec["form"][i] == "10-D"]
+           for i in range(len(rec["form"])) if rec["form"][i] in ("10-D", "10-D/A")]
     out.sort(reverse=True)
+    if since:
+        return [f for f in out if f[0] >= since], (out[-1][0] if out else None)
     return out[:want], (out[-1][0] if out else None)
 
 
@@ -441,6 +531,167 @@ def months_between(a, b):
     return (db.year - da.year) * 12 + (db.month - da.month)
 
 
+# ── Ledger I/O, merge and the seasoning check (2026-10-14 repair) ────────────
+def ledger_key(rec):
+    """(deal, collection_period); a row with no disclosed period keys on its filing date
+    so that two period-less rows can never collapse onto one key."""
+    cp = rec.get("collection_period", "")
+    return (rec.get("deal", ""), cp if cp else "filed:" + rec.get("filing_date", ""))
+
+
+def read_ledger(path=None):
+    path = path or LEDGER
+    existing, order = {}, []
+    if not path.exists():
+        return order, existing
+    with path.open() as fh:
+        lines = [ln.rstrip("\n") for ln in fh if ln.strip()]
+    if lines and lines[0].split("\t")[0] == COLUMNS[0]:
+        lines = lines[1:]
+    for ln in lines:
+        parts = ln.split("\t")
+        if len(parts) == len(LEGACY_COLUMNS_14):
+            # Pre-2026-09-02 shape: migrate in memory with an EMPTY collection_period,
+            # never a guessed one (a skipped ragged row would drop real history).
+            print(f"  ⚠ legacy 14-col row migrated (collection_period left EMPTY): {parts[1]} {parts[4]}")
+            rec = dict(zip(LEGACY_COLUMNS_14, parts)); rec["collection_period"] = ""
+        elif len(parts) != len(COLUMNS):
+            print(f"  ⚠ RAGGED ROW skipped ({len(parts)} of {len(COLUMNS)} fields): {ln[:60]}…")
+            continue
+        else:
+            rec = dict(zip(COLUMNS, parts))
+        k = ledger_key(rec)
+        if k in existing:
+            # A duplicate key already on disk is a pre-repair artefact; keep the newer filing.
+            if rec.get("filing_date", "") >= existing[k].get("filing_date", ""):
+                existing[k] = rec
+            continue
+        order.append(k); existing[k] = rec
+    return order, existing
+
+
+def merge(order, existing, rows):
+    """Upsert `rows` into (order, existing) on ledger_key. SUPERSEDE RULE: a row replaces
+    the one on file only if its filing_date is the SAME OR LATER (a re-parse of the same
+    report after a parser fix, or a 10-D/A amending it) AND it is not INVALID while the
+    row on file is good. An older filing never overwrites its own amendment, whatever
+    order the run fetched them in (runs fetch newest-first, so without this the ORIGINAL
+    10-D would be written last and win)."""
+    order, existing = list(order), dict(existing)
+    stats = {"added": 0, "replaced": 0, "kept": 0}
+    for r in rows:
+        new = {c: str(r.get(c, "")) for c in COLUMNS}
+        k = ledger_key(new)
+        old = existing.get(k)
+        if old is None:
+            order.append(k); existing[k] = new; stats["added"] += 1
+            continue
+        older = new["filing_date"] < old.get("filing_date", "")
+        degrades = new["status"] == "INVALID" and old.get("status", "").startswith("OK")
+        if older or degrades:
+            stats["kept"] += 1
+            continue
+        existing[k] = new; stats["replaced"] += 1
+    return order, existing, stats
+
+
+def _ym(cp):
+    y, m = int(cp[:4]), int(cp[5:7])
+    return y * 12 + m
+
+
+def check_seasoning(existing):
+    """Acceptance condition 3, FAIL-CLOSED: within each deal, ordered by collection month,
+    months_seasoned must rise by EXACTLY the number of collection months elapsed — no
+    repeat (the old 43·43), no skip (41 -> 43 across one month). Also fails on any OK row
+    with an empty months_seasoned or an empty collection_period (condition 1: on EVERY
+    row). Returns a list of defects; empty = pass. A coverage gap (a missing month) is
+    NOT a defect in the clock and passes if the clock moves by the same number of months."""
+    bad, by = [], {}
+    for rec in existing.values():
+        if not rec.get("status", "").startswith("OK"):
+            continue
+        if not rec.get("collection_period") or rec.get("months_seasoned", "") == "":
+            bad.append(f"{rec.get('deal')} filed {rec.get('filing_date')}: empty "
+                       f"collection_period or months_seasoned")
+            continue
+        by.setdefault(rec["deal"], []).append(rec)
+    for deal, recs in by.items():
+        recs.sort(key=lambda r: r["collection_period"])
+        for a, b in zip(recs, recs[1:]):
+            dm = _ym(b["collection_period"]) - _ym(a["collection_period"])
+            ds = int(b["months_seasoned"]) - int(a["months_seasoned"])
+            if dm == 0:
+                bad.append(f"{deal}: collection month {a['collection_period'][:7]} appears twice")
+            elif ds != dm:
+                bad.append(f"{deal}: {a['collection_period'][:7]}->{b['collection_period'][:7]} "
+                           f"is {dm} month(s) but seasoning moves {a['months_seasoned']}->"
+                           f"{b['months_seasoned']} ({ds:+d})")
+    return bad
+
+
+def write_ledger(order, existing):
+    tmp = LEDGER.with_suffix(".tsv.tmp")
+    with tmp.open("w") as fh:
+        fh.write("\t".join(COLUMNS) + "\n")
+        for k in order:
+            fh.write("\t".join(existing[k].get(c, "") for c in COLUMNS) + "\n")
+    os.replace(tmp, LEDGER)                       # atomic; never a half-written ledger
+
+
+def selftest():
+    """Offline tests of merge() and check_seasoning(). No network, nothing written.
+    Acceptance condition 4's OVERLAP test lives here: a 10-D/A amending a row that sits
+    on an Exeter double-filing date."""
+    def row(deal, fd, cp, ms, dq, status="OK"):
+        return {c: "" for c in COLUMNS} | {"deal": deal, "filing_date": fd,
+                "collection_period": cp, "months_seasoned": str(ms), "dq_60plus_pct": str(dq),
+                "status": status}
+    results = []
+    def t(name, cond):
+        results.append(cond); print(f"  {'PASS' if cond else 'FAIL'}  {name}")
+
+    # Double-filing date: Exeter filed TWO reports in Dec-2025 (12-01 -> Oct, 12-23 -> Nov).
+    base = [row("EART 2022-2", "2025-11-17", "2025-09-01/2025-09-30", 42, 14.00),
+            row("EART 2022-2", "2025-12-01", "2025-10-01/2025-10-31", 43, 14.50),
+            row("EART 2022-2", "2025-12-23", "2025-11-01/2025-11-30", 44, 15.00)]
+    o, e, s = merge([], {}, base)
+    t("double-filing date: two December filings stay TWO rows (distinct periods)", len(o) == 3 and s["added"] == 3)
+    t("issuer-clock series passes the seasoning check", check_seasoning(e) == [])
+
+    amend = row("EART 2022-2", "2026-01-20", "2025-10-01/2025-10-31", 43, 14.75)   # 10-D/A
+    o2, e2, s2 = merge(o, e, [amend])
+    k = ("EART 2022-2", "2025-10-01/2025-10-31")
+    t("10-D/A on the double-filing row SUPERSEDES it (no extra row)", len(o2) == 3 and s2["replaced"] == 1)
+    t("amended values carried", e2[k]["dq_60plus_pct"] == "14.75" and e2[k]["filing_date"] == "2026-01-20")
+    t("the other December row is untouched", e2[("EART 2022-2", "2025-11-01/2025-11-30")]["dq_60plus_pct"] == "15.0")
+
+    # A newest-first run fetches the amendment AND the original; the original must not win.
+    o3, e3, s3 = merge(o2, e2, [amend, base[1]])
+    t("original 10-D re-read after its amendment does NOT overwrite it", e3[k]["dq_60plus_pct"] == "14.75" and s3["kept"] == 1)
+    o4, e4, s4 = merge(o, e, [base[1] | {"status": "INVALID", "dq_60plus_pct": ""}])
+    t("an INVALID re-parse never overwrites a good row", e4[k]["dq_60plus_pct"] == "14.5" and s4["kept"] == 1)
+    o5, e5, s5 = merge(o, e, [row("EART 2022-2", "2025-05-28", "", "", "")])
+    t("a period-less row keys on its filing date, never collides", len(o5) == 4)
+
+    # The OLD clock: 41·43·43·44 (filed-date based) must FAIL closed.
+    old = [row("EART 2022-2", "2025-10-28", "2025-09-01/2025-09-30", 41, 1),
+           row("EART 2022-2", "2025-12-01", "2025-10-01/2025-10-31", 43, 1),
+           row("EART 2022-2", "2025-12-23", "2025-11-01/2025-11-30", 43, 1),
+           row("EART 2022-2", "2026-01-28", "2025-12-01/2025-12-31", 44, 1)]
+    bad = check_seasoning(merge([], {}, old)[1])
+    t("old non-monotone clock (41·43·43·44) FAILS closed", len(bad) == 2)
+    gap = [row("SDART 2024-1", "2025-12-15", "2025-11-01/2025-11-30", 23, 1),
+           row("SDART 2024-1", "2026-02-17", "2026-01-01/2026-01-31", 25, 1)]
+    t("coverage gap with a consistent clock passes", check_seasoning(merge([], {}, gap)[1]) == [])
+    skip = [gap[0], row("SDART 2024-1", "2026-01-15", "2025-12-01/2025-12-31", 25, 1)]
+    t("a seasoning skip across one month FAILS", len(check_seasoning(merge([], {}, skip)[1])) == 1)
+    t("an OK row with empty months_seasoned FAILS", len(check_seasoning(merge([], {}, [row("X", "2026-01-15", "2025-12-01/2025-12-31", "", 1)])[1])) == 1)
+    n_fail = results.count(False)
+    print(f"\n  selftest: {len(results) - n_fail}/{len(results)} PASS")
+    return 0 if n_fail == 0 else 1
+
+
 def main():
     want = 1
     if "--history" in sys.argv:
@@ -454,6 +705,19 @@ def main():
     only = None
     if "--only" in sys.argv:
         only = sys.argv[sys.argv.index("--only") + 1].lower()
+    if "--selftest" in sys.argv:
+        return selftest()
+    # --backfill → re-parse EVERY filing already on the ledger for each deal (back to that
+    # deal's earliest ledger filing_date) plus anything newer. Added 2026-10-14 for the
+    # seasoning-clock repair: the ruling requires ONE parser change + a FULL backfill,
+    # never hand edits, and check_seasoning() validates the whole ledger, so a partial
+    # re-parse would leave old-clock rows beside new-clock rows and fail closed.
+    backfill_since = {}
+    if "--backfill" in sys.argv:
+        for rec in read_ledger()[1].values():
+            if rec.get("filing_date"):
+                d0 = backfill_since.get(rec["deal"])
+                backfill_since[rec["deal"]] = min(d0, rec["filing_date"]) if d0 else rec["filing_date"]
     run_ts = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
 
     print(f"\n{'='*104}\n  OTTO 10-D Performance Panel — {run_ts}   ({want} filing(s)/deal)")
@@ -470,7 +734,7 @@ def main():
                              dq_60plus_pct="", cnl_pct="", anl_pct="", recovery_pct="", ext_rate_pct="", source_url=""))
             print(f"  {deal:14s} UNSUPPORTED — no field spec"); continue
         try:
-            filings, first_date = deal_filings(phrase, want)
+            filings, first_date = deal_filings(phrase, want, since=backfill_since.get(deal))
         except Exception as e:
             print(f"  {deal:14s} ERROR resolving filings: {type(e).__name__}"); continue
         if not filings:
@@ -491,6 +755,9 @@ def main():
             cper, cmiss = collection_period(txt)
             if cmiss:
                 misses.append(cmiss)
+            mseas, mmiss = months_seasoned(txt, issuer)
+            if mmiss:
+                misses.append(mmiss)
             # ⚠ 2026-08-27: the ledger upsert is last-write-wins, which silently assumes
             # the newest write is the better one. A FAILED parse also wins. On 8/27 a
             # wrong-document fetch wrote all-blank rows over four good EART rows. A row
@@ -505,12 +772,12 @@ def main():
             status = "OK" if not misses else "OK-PARTIAL"
             rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, filing_date=fdate,
                              collection_period=cper or "",
-                             months_seasoned=months_between(first_date, fdate) if first_date else "",
+                             months_seasoned="" if mseas is None else mseas,
                              status=status, parse_misses=";".join(misses), source_url=url,
                              **{k: ("" if d[k] is None else d[k]) for k in
                                 ("dq_60plus_pct","cnl_pct","anl_pct","recovery_pct","ext_rate_pct")}))
             f = lambda k: f"{d[k]:6.2f}" if d[k] is not None else "   n/d"
-            print(f"  {deal:14s} {tier:5s} {fdate}  CP {cper or 'NOT-DISCLOSED':>21s}  60+DQ {f('dq_60plus_pct')}  CNL {f('cnl_pct')}"
+            print(f"  {deal:14s} {tier:5s} {fdate}  CP {cper or 'NOT-DISCLOSED':>21s}  MS {mseas if mseas is not None else 'n/d':>3}  60+DQ {f('dq_60plus_pct')}  CNL {f('cnl_pct')}"
                   f"  ANL {f('anl_pct')}  REC {f('recovery_pct')}  EXT {f('ext_rate_pct')}"
                   + (f"   ⚠ missed: {','.join(misses)}" if misses else ""))
 
@@ -546,81 +813,41 @@ def main():
         print("**FAIL** → every value in this run is untrustworthy; run marked INVALID")
         for r in rows: r["status"] = "INVALID"
 
+    print(f"  SEASONING CONTROL — {len(SEASONING_CONTROL)} frozen exhibits, >=3 per shelf, both "
+          f"Exeter double-filing dates: ", end="")
+    s_ok = run_seasoning_control()
+    if s_ok is None:
+        print("\n    NOT EVALUATED (exhibit unreachable) → run marked INVALID")
+        for r in rows: r["status"] = "INVALID"
+    elif s_ok:
+        print("PASS ✓")
+    else:
+        print("\n    **FAIL** → the seasoning parser does not reproduce the exhibits; run marked INVALID")
+        for r in rows: r["status"] = "INVALID"
+
     if dry:
         print("\n  [--dry-run] nothing written\n"); return 0
 
-    # ── UPSERT on (deal, filing_date), atomic write ──────────────────────────
-    # Was a blind append. Re-running against an already-recorded filing wrote a
-    # DUPLICATE row — 5 of them existed by 2026-08-14, all the 07-15 SDART/BLAST
-    # filings, from the s017 re-run. Harmless to eyeball, NOT harmless to any
-    # statistic computed off this ledger: duplicates silently inflate n and
-    # double-weight one month. Found while base-rating the severity-divergence
-    # falsifier, which reads exactly these columns. Key is (deal, filing_date)
-    # because that pair identifies one servicer report; last write wins, so a
-    # re-parse after a parser fix supersedes rather than accumulates.
-    # ⚠ REGISTERED 2026-09-02 (LIQUID, vintage-pinning sweep) — NOT FIXED TONIGHT, ON PURPOSE.
-    # THE VINTAGE HOLE, EXPRESSED IN AN UPSERT KEY RATHER THAN IN PROSE. The key is
-    # (deal, filing_date). A 10-D/A — an AMENDED servicer report — filed under a NEW
-    # date would therefore land as an ADDITIONAL row rather than superseding the
-    # original. Two consequences, the second worse than the first:
-    #   (1) a duplicate deal-month inflates n and double-weights that month;
-    #   (2) the panel's headline test is matched-collection-month YoY, which is a
-    #       DELTA — it has TWO endpoints, and an amendment restates ONE OF THEM. So a
-    #       single 10-D/A can corrupt every YoY pair that touches that deal-month, not
-    #       just the row it lands on. A delta carries twice the revision exposure of a
-    #       level because both endpoints can be restated independently.
-    # WHY IT IS REGISTERED AND NOT REPAIRED: measured base rate, pulled 2026-09-02 —
-    # ZERO 10-D/A across ALL panel CIKs over ~800 10-D filings (SDART shelf 478,
-    # BLAST 84+34+31, EART 52/50/43/31). The amendment path is effectively unused on
-    # these shelves. Touching the upsert eight days before CARL's V2 grade sitting, on
-    # a path with no live instances, is the worse trade. Owed at the ~2026-10-01 cycle.
-    # FIX WHEN TAKEN: key on (deal, collection_period) — now that the column exists and
-    # is DISCLOSED rather than inferred, it is the stable identity of a servicer report;
-    # an amendment covers the SAME collection period and would correctly supersede.
-    existing, order = {}, []
-    if LEDGER.exists():
-        with LEDGER.open() as fh:
-            lines = [ln.rstrip("\n") for ln in fh if ln.strip()]
-        if lines and lines[0].split("\t")[0] == COLUMNS[0]:
-            lines = lines[1:]
-        for ln in lines:
-            parts = ln.split("\t")
-            if len(parts) == len(LEGACY_COLUMNS_14):
-                # Pre-2026-09-02 ledger shape. Migrate in memory rather than discard —
-                # a "ragged row skipped" here would drop real history. The row is read
-                # with an EMPTY collection_period, never a guessed one.
-                print(f"  ⚠ legacy 14-col row migrated (collection_period left EMPTY): "
-                      f"{parts[1]} {parts[4]}")
-                rec = dict(zip(LEGACY_COLUMNS_14, parts))
-                rec["collection_period"] = ""
-            elif len(parts) != len(COLUMNS):      # field-count the WHOLE file
-                print(f"  ⚠ RAGGED ROW skipped ({len(parts)} of {len(COLUMNS)} fields): {ln[:60]}…")
-                continue
-            else:
-                rec = dict(zip(COLUMNS, parts))
-            k = (rec["deal"], rec["filing_date"])
-            if k not in existing:
-                order.append(k)
-            existing[k] = rec
-
-    added = replaced = 0
-    for r in rows:
-        k = (str(r.get("deal", "")), str(r.get("filing_date", "")))
-        if k in existing:
-            replaced += 1
-        else:
-            added += 1
-            order.append(k)
-        existing[k] = {c: str(r.get(c, "")) for c in COLUMNS}
-
-    tmp = LEDGER.with_suffix(".tsv.tmp")
-    with tmp.open("w") as fh:
-        fh.write("\t".join(COLUMNS) + "\n")
-        for k in order:
-            fh.write("\t".join(existing[k].get(c, "") for c in COLUMNS) + "\n")
-    os.replace(tmp, LEDGER)                       # atomic; never a half-written ledger
-    print(f"\n  {LEDGER.name}: {added} new row(s), {replaced} replaced, "
-          f"{len(order)} total (upsert on deal+filing_date)\n")
+    # ── UPSERT on (deal, collection_period), atomic write ────────────────────
+    # History: a blind append until 2026-08-14 (duplicates inflated n), then an upsert on
+    # (deal, filing_date). LIQUID registered the vintage hole in that key 2026-09-02: a
+    # 10-D/A filed under a NEW date would land as an ADDITIONAL row, and because the
+    # headline test is a matched-collection-month YoY DELTA (two endpoints), one amendment
+    # could corrupt every YoY pair touching that deal-month. Fixed 2026-10-14 (CARL ruling
+    # 2026-09-17, acceptance condition 4): key on the DISCLOSED collection period, which is
+    # the stable identity of a servicer report. See merge() for the supersede rule.
+    order, existing = read_ledger()
+    order, existing, stats = merge(order, existing, rows)
+    bad = check_seasoning(existing)
+    if bad:
+        print("\n  ⛔ SEASONING CHECK FAILED — ledger NOT written (fails closed):")
+        for b in bad:
+            print(f"       {b}")
+        return 2
+    write_ledger(order, existing)
+    print(f"\n  {LEDGER.name}: {stats['added']} new row(s), {stats['replaced']} replaced, "
+          f"{stats['kept']} kept (an older or INVALID read never overwrites a newer good row), "
+          f"{len(order)} total (upsert on deal+collection_period); seasoning check PASS\n")
     return 0
 
 

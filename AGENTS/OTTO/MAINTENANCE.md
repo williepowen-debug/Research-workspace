@@ -14,6 +14,27 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-10-14 (s028) — 10-D panel: issuer seasoning clock + (deal, collection_period) upsert key
+
+**Trigger:** OTTO's own CATALYSTS deliverable (due 10/1, done 10/14 = 13 days late) on CARL's 2026-09-17 ruling: `months_seasoned` must be the exhibit's issuer-stated "Months Seasoned" (distribution-date clock), and the 10-D/A upsert-key hole LIQUID registered 9/2 lands in the same pass.
+
+**What changed (`scripts/panel_10d.py`):**
+- `months_seasoned()` replaces `months_between(first 10-D, this filing)`. Exeter / Santander: label-anchored read of "Months Seasoned: NN". **Bridgecrest states no such figure** (checked 10/14): computed from the exhibit's own agreement date ("dated as of", = closing date, verified at BLAST 2024-1's 424B5) and its Distribution Date, on the same convention. Exhibit-derived, NOT issuer-stated; flagged to CARL.
+- `SEASONING_CONTROL`: 11 frozen exhibits, >=3 per shelf, both Exeter double-filing dates; expected values read by a separate raw grep, not by the parser.
+- Upsert key `(deal, filing_date)` → `(deal, collection_period)` (period-less rows fall back to the filing date). Supersede rule in `merge()`: same-or-later filing wins; an older filing never overwrites its amendment; an INVALID re-read never overwrites a good row. `deal_filings()` now also fetches `10-D/A`.
+- `check_seasoning()`: fail-closed — the ledger is NOT written if any deal's clock repeats or skips relative to its collection months, or any OK row lacks a clock or a period.
+- New flags `--backfill` (re-parse every ledger filing per deal + newer) and `--selftest` (12 offline tests incl. the 10-D/A-on-a-double-filing-date OVERLAP test).
+
+**Files touched:** `scripts/panel_10d.py`, `workbook/PANEL_10D.tsv` (backfilled 137 → 147 rows).
+
+**Boot-impact:** none on boot. PANEL_10D's staleness alarm clears.
+
+**Verification, stated separately (WQ-229):** IMPLEMENTED (above). TESTED: selftest 12/12; three mutations each caught (supersede, INVALID-guard, seasoning-delta); the new check run on the PRE-repair ledger found exactly the 16 known double-filing defects; live run controls PASS (CNL + seasoning). VALUES: 0 of 137 overlapping rows moved on any metric, status, date or source cell; seasoning +1 on 129 ordinary rows, 0 on 8 double-filing rows; CARL's n=3 reproduces to the cent at 29/30/31. NOT INDEPENDENTLY VERIFIED (no second reader yet). STILL UNRESOLVED: BLAST clock is exhibit-derived; `read_ledger()`'s on-disk duplicate-key path and `check_seasoning()`'s same-month branch have no test (the merge makes the latter unreachable).
+
+**Lessons:** a twin filing showed up (EART 2023-1 Nov-2025 collection, accessions 0000929638-25-004757 and -004758, same day, identical values) — the old key collapsed it silently, the new one collapses it on purpose. And an acceptance condition OTTO wrote ("issuer-stated on EVERY row") assumed all three shelves state the figure; one does not. Check the documents before writing the condition.
+
+---
+
 ## 2026-08-27 (s020) — five structural changes, three of them repairs to OTTO's own instruments
 
 **Trigger:** a same-day re-boot after s019, an inbox drain (9→0), and a Will-supplied media artifact that pointed at a real document.
