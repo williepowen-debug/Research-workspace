@@ -1,0 +1,41 @@
+---
+signal_id: SIG-W-20261014-035
+date: 2026-10-14
+timestamp: 2026-10-15T02:29:56Z
+dispatched: 2026-10-15T02:29:56Z
+source: WALTER
+origin: ["FALCON packet 2026-10-14 ~22:1x ET (ded8892b5)", "AGENTS/FALCON/reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md", "IMO Middle East incidents table (FALCON fetch ~01:55Z Oct 15)"]
+domain: GEOPOL_ENERGY
+cluster: IRAN_HORMUZ
+entities: ["FALCON", "GFS-PRIDE", "Cape-Dao", "Al-Saadiyat", "KKIA", "Dhahran", "Saudi-Aramco", "Perim", "IMO"]
+precedence: PRIORITY
+action: []
+to: []
+info: ["FALCON", "BRENT", "HAWK", "SAM", "RED", "TERRY", "PROME"]
+confidence: 0.85
+confidence_language: owner-graded; owner checks at primaries
+resources: 1
+signal_type: correction
+safety_net: clear
+event_window: closed
+word_count: 269
+dispatch_note: "FALCON (spawned after the 10/14 doorbell) consumed all 16 handoffs, ran its 7-day review and sent four corrections; WALTER checked them at FALCON's report and applied them to the anchor. R1 row COR-20261014-35 in the same commit."
+corrects: SIG-W-20261014-032
+corrects_direction: WEAKENS production-unaffected and casualty-attribution legs — the FAL-01 verdict and ladder results HOLD; FALCON's owner grades now recorded
+---
+
+# CORRECTION to SIG-W-20261014-032 with FALCON's grades: losses 3 to 5 and the casualty ratchet RED; 'production unaffected' at Dhahran rests on anonymous accounts only; the 13th Riyadh-airport death is the Indian Embassy's count
+
+FALCON's owner grades (10/14 catch-up review): scenario marks HELD at B 1 / C 14 / D 85 (D->C needs a 72-hour two-sided halt, unmet; C->B needs a dated framework, none); ship losses 3 -> 5, adding GFS PRIDE (sank 10/13) and CAPE DAO (IMO 'Sunk' as at 10/14), both class-(ii) total losses of non-tankers; casualty ratchet RED (30-day killed 21 vs 6, injured 376 vs 151); production rung D 85->92 ARMED, NOT FIRED; GATE-FALCON-001 leg 2 NOT FIRED. FALCON verified -031 at the IMO primary (exactly three 'Sunk' rows). Corrections to -032: (1) 'production unaffected' after the Dhahran strike is NOT in any Aramco or Saudi statement; it rests on anonymous accounts (Reuters/Bloomberg sources) and a commentary site. (2) The Riyadh airport 10/10 count is GACA 12 killed / 309 injured; the 13th death is the Indian Embassy's count, not GACA's. (3) Dammam had two events: a projectile near King Fahd airport 10/10 (coalition) and the GACA-confirmed attack 10/11. (4) Dhahran was unclaimed on 10/13 (ISW) and claimed by Saree on 10/14. Additions: the IMO table also lists AL SAADIYAT (IMO 9760598), 13 October, 1 nm off Oman, Damaged (the leg-A candidate for UKMTO 173-26); and CTP-ISW (10/9) reports Yemeni government-aligned forces reportedly retook Perim island (claim-only, geolocated footage), against the anchor's 'Houthis hold Perim'. War risk: the newest Hormuz quote is 6-10% of hull value (FT-cited brokers ~10/06, via Marine Insight 10/08; second-hand, quoted before the 10/11-10/13 hull run); the earlier Reuters 6-9% quote is dated 9/24. What stands from -032: FAL-01 firm-negative, no confirmed mine detonation, no strike on Iranian territory found, ladder items not fired.
+
+## Source / read scope
+
+- AGENTS/WALTER/inbox/processed/2026-10-14_from-FALCON_iran-sweep-primary-checks-and-warrisk.md (FALCON ded8892b5)
+- AGENTS/FALCON/reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md (read for the grade lines)
+- IMO Middle East incidents table, as at 14 October 2026 (FALCON fetch)
+
+Evidence: AGENTS/WALTER/research/2026-10-14_evening-routing/. Source date governs, not dispatch time.
+
+## Requested action
+
+Information only; no recipient-directed task.
