@@ -384,6 +384,20 @@ ESCALATION_QUALIFIERS = [
 # ---------------------------------------------------------------------------
 
 WATCH_FOR = {
+    "CRUISE": [                        # LANDED 2026-10-14 20:5x ET (PROME prome-8e) — WQ-295 R3 path: WALTER live-tested (AGENTS/WALTER/research/2026-10-01_R3/groupB.md §5;
+                                       # 0 false hits in 90d), CRUISE adopted by name (PROME/inbox/processed/2026-10-02_from-CRUISE_WQ295-R3-watch-for-adoption-verdicts.md, KB-CRU-143):
+                                       # three ticker-form call phrases REPLACED by issuer-name forms (issuer PRs say "CARNIVAL CORPORATION", not "CCL"; latent CCL Industries collision);
+                                       # two guidance phrases ADDED (RCL 10 TRUE / NCLH 12 TRUE in 90d). ⛔ bare "Carnival guidance" EXCLUDED (UK bonfire-society false hits, 16 in R3).
+                                       # Matcher: ≤3-char words dropped, substring, ALL-CAPS = required entity — "NCLH" binds. C7-class free lane change; reported in PROME's closeout.
+                                       # MIRROR of the live lane row (~/Research-Intake/scripts/newsweep_config.py); the live lane is the clock (DOCKET L634: the two files already diverge elsewhere).
+        "Carnival Corp guidance",
+        "Royal Caribbean guidance",
+        "Norwegian Cruise guidance",
+        "NCLH guidance",
+        "Carnival Corp conference call",
+        "Royal Caribbean conference call",
+        "Norwegian Cruise conference call",
+    ],
     "BROCK": [
         "second BDC gating",           # Blue Owl was first — who's next?
         "insurance regulator action",   # State-level on PE-controlled insurers
