@@ -22,7 +22,7 @@
 
 ## Signals routed before GIBBS was registered (read at the first session)
 
-WALTER's GIBBS lane is not live yet (packet DEFERRED by WALTER 10/14 21:1x ET to its next session, before 10/19). Until it lands, perimeter news goes to REGINALD under current routing. Known so far: `BOARD/SIG-W-20261014-019-bac-closed-minus-4point8-not-8-adjusted-q3-eps-miss-roe-9point1-bac-specific.md` (BAC Q3, 10/14 — routed to REGINALD). Check `BOARD/` for other perimeter tickers dated 10/13 onward.
+WALTER's GIBBS routing lane **LANDED 2026-10-14 21:36 ET** (`AGENTS/WALTER/design/ROUTING_CARVEOUTS.md` § "Large-bank multi-name routing — GIBBS", routing v0.42, commit `ca9be40bf`). Signals before that went to REGINALD/BROCK; WALTER's pointer list for your first session (read on `BOARD/`): WFC `SIG-W-20261013-001` · JPM `SIG-W-20261013-019` · BAC `SIG-W-20261013-015`, `SIG-W-20261014-004`, `SIG-W-20261014-019` · MS `SIG-W-20261014-004`. One lane fix open: foreign-bank US IHC stress events → GIBBS info (DAEDALUS → WALTER 21:3x; the error was the builder's packet).
 
 ## Standing conditions (WQ-426)
 
