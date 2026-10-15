@@ -1,0 +1,16 @@
+# Fleet trade-idea sweep — 2026-10-15 (Thu), written 11:2x ET
+
+**Commission:** Will, in session 11:20 ET: read the agents' TRADE.md / STATUS files for trade ideas. **Method:** four read-only Explore readers (Opus) over 34 agents' TRADE.md + STATUS.md (credit/banks · energy/geopolitics · rates/macro/vol · Florida/consumer/other); TERRY screened the survivors on live vendor quotes 11:23 ET (SCREENING marks, not bids — RISK_RULES 5b). Reader findings are relayed claims about the agents' files, NOT re-verified line by line by TERRY. `$0` · no order · no card · no gate moved.
+
+**Verdict: NO NEW TRADE PROPOSED.** No agent proposes an unheld expression whose trigger has fired and whose owner releases it.
+
+| Rank | Item | State | TERRY read |
+|---|---|---|---|
+| 1 | **TBT 5 sh (HELD)** — BOND kill MET 10/1 (FR2004 3–6Y $60.079B vs $56.586B), exit recommended; Will LATER 10/3 (WQ-357); 10/14 clock passed with no recorded decision | decision owed by Will | Owner's rule fired; TBT $39.83 (−3.29%), TLT $80.12 (+1.56%) at 11:23. Exit lean = owner's. Basis $172.01. |
+| 2 | **Credit trigger completing** — HY OAS 325 [FRED 10/14] = RED-FT-02 / REG-T-03 1-of-3; next cells publish 10/16, 10/19; LIQ-07 verdict 10/16; GATE-LIQ-069 fired (L4 grade 10/16) | NOT FIRED | If FT-02 completes, the cleaner expression is INDEX credit, not another bank name: HYG Dec-18 puts screen at IV ~9–10% (75P 0.46/0.53, OI 649,022; spot $77.08). BOND's own HYG gate (HY 338–363 with VIX <20) is NOT MET. ⚠️ **Correction 11:26 ET, same session:** ~10% IV is NOT cheap for HYG — realized vol (n=251 daily closes, 1y) is RV20 4.3% / RV60 3.9% / RV250 4.2% ⇒ implied ≈ 2.4× realized; the stress is already priced. By the same measure CRWV Dec puts (IV ~86% vs RV20 78% / RV60 102% / RV250 94.5%) and VST Dec calls (IV ~47% vs RV20 58.7% / RV60 49.5%) are fair-to-cheap. Same credit falsifier as the bank book (N_eff 1) ⇒ a REPLACEMENT for the bank puts being sold, never an add. Fresh capital only on a fired trigger. |
+| 3 | **AI-credit (CRWV)** — VULCAN S5 fired 10/9; LIQ-069 fired; CRWV 2032 notes ~15.8% | no owner expression | CRWV $63.55; Dec-18 puts IV ~86%; 62.5P 8.45/8.60 = ~$850 > $500 cap; 60/50P spread ≈ $3.80 mid (screen). Not TERRY's thesis to originate — ask VULCAN/LIQUID for an expression first. |
+| 4 | **Power generators (WATT P1)** VST/CEG/NRG/TLN long — PJM RED re-fire 10/13 | WATT blocks its own entry (4 blocks); re-test ≥10/22 | Names −1.9% to −3.5% today on AI-capex fear. Wait for WATT. |
+
+**Rejected / parked:** FLG puts (ladder RED since 10/7, Q3 ~10/23 — construction rule #18, same bank falsifier, FLG desk file stale) · more KRE (REG-T-03 1-of-3; LIQUID X1 DON'T-SIZE) · NCLH Dec 14P (funding leg weakened, CRUISE 10/14; Stale_By 10/20) · oil adds / USO 162/175C / refiners (WQ-192 WAIT) · EWJ / Japan banks (delinquency legs unprinted) · VIX calls (VIOLET credit-vol trigger NOT MET) · gold/silver ratio (69.07 [10/9] < 75 but MIDAS has not graded; already long GLD) · RNR (NO-BUILD).
+
+**Stale-surface flags seen by readers (owners', not edited here):** NEXUS docket names a QQQ Oct-15 740P expiry (spent 10/14; the live one is the 715P, FORGE 6fbf39cd0) · REGINALD TRADE lists HBAN 16P ×2 (broker ×1) and omits KRE Nov-27 67P ×4 · BROCK/REGINALD/BOND/SAM carry pre-10/14 HY cells (315/316/293) · FLG TRADE.md (8/20) contradicts its STATUS.
