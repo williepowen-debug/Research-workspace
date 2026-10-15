@@ -73,3 +73,8 @@ Russia reportedly set to extend its diesel export ban (Bloomberg 9/21, not decre
 **Active obligations row: Model limits** (verbatim):
 
 | Model limits | Claims kill leg revision exposure and energy-kill leg3 instrument defect remain at THESIS; do not infer independent falsifiers merely from multi-leg wording. |
+
+## Rotation 2026-10-15 08:16 EDT (crash-recovery session, read-cap rule 5: STATUS 24,958 B → under 22,785 B; sha256[:12] of the moved block 0603397e6b1d)
+Moved verbatim from STATUS.md (the 10/12 "Other missed evidence" paragraph, including the 10/15 adds written minutes before the move). Not current data.
+
+**Other missed evidence (10/12):** ConferenceBoardSeptconfidence81.9/expectations63.6 [rel9/29,KB514]. CCLQ3netyields+2.4%constantcurrencyYoY oppose uniform discretionaryweakness (globalnonGAAP,notCaribbean-only;KB513). EpiqSeptindividualfilings+7.1%YoY;SubVYTD+46.1% (primary has inconsistentYTDindividualgrowth,notcarried;KB516). **NY Fed tariff study, two bases (corrected 10/15, COR-36):** 12-month goods-inflation contribution modeled NEGATIVE ~Aug-2026→mid-2027; price LEVEL ~2% higher and edging up after August [LSE10/6,KB506]. **10/15 adds:** SSA 2027 COLA 3.6% (recomputed 3.619%, from January; beneficiaries only). Carnival Jun–Aug: volume/deposits/onboard firm, NA ticket prices −$40M (CRUISE 10/14, no cause named; global, pre-September).
