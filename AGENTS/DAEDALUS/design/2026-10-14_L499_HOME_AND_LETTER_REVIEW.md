@@ -20,4 +20,6 @@ Neighbour check (MEMORY MODEL rule: scan the destination for rules that appear t
 | 3 | "Will's pass" | Keep. It is the ruled one-pass review (WQ-298 ②); WQ-300 shows the pass ran once and declined, so the default branch is the live one |
 | 4 | Per-leg vs per-gate | Already per-leg ("a registered leg"), which matches Class 2's weakest-leg rule. No change |
 
+**PROME disposition 2026-10-14 20:57 ET (prome-8e, `46569038c`):** home accepted; change 2's path = **`PROME/registry/UNREACHABLE_MEASUREMENTS.tsv`** (instrument · desk · leg/gate · date filed · Will's pass · disposition), created at the insertion session; the insertion itself is a PROME canon-drafts slot, not 10/14.
+
 **Verdict:** ACCEPT the clause with changes 1 and 2. Change 2 gates the insertion; change 1 is wording. Next: PROME's blind plan read in the record, then one insertion at `FORGE/PREDICTION_DISCIPLINE.md`, then one result read; DAEDALUS adds the Class 2 pointer.
