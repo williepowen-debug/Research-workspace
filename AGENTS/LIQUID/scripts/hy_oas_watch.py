@@ -427,8 +427,16 @@ def _first_published(mult):
         d = _f._retry_request(f"{_f.FRED_BASE}?{urllib.parse.urlencode(q)}")
         if not isinstance(d, dict) or "error" in d:
             return None
+        obs = d.get("observations", [])
+        # 2026-10-15 (WQ-229 independent read #1, CE1; acceptance #8): first-published means ONE
+        # row per observation date. A repeated date (any values) would let one close count twice
+        # toward the ×2 TERMINAL kill, so the series is refused and the kill leg fails CLOSED
+        # (caller logs VINTAGE-FETCH-FAIL). Input check only: threshold/operator/count unchanged.
+        dates = [o.get("date") for o in obs]
+        if len(dates) != len(set(dates)):
+            return None
         out = []
-        for o in d.get("observations", []):
+        for o in obs:
             if o.get("value") in (".", None, ""):
                 continue
             # FRED publishes OAS at 0.01 percent: compare its integer-bp value,

@@ -1,0 +1,4 @@
+CE5 tie sweep: 50,001 splits of exactly $50.000B through build_domestic; graded above 50 -> 0 []
+CE5b smallest-above tie (25.001+25.000=50.001): $50.00B 🔴 ABOVE $50B — escalate REGINALD/HENRY/PROME
+CE6 T newest unparseable (10-13), older 10-10 = 30; MBS 10-13 = 30 -> [('UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [2026-10-10]; MBS $30.00B [2026-10-13]; combined grade withheld')]
+CE7 mismatched (holiday on one leg) -> [('UNGRADEABLE', '⚪', '', 'Dates do not establish a same-day total; T $30.00B [2026-10-10]; MBS $30.00B [2026-10-13]; combined grade withheld')]

@@ -64,16 +64,22 @@ def fred_series(sid, n=6):
     if not obs or (isinstance(obs[0], dict) and "error" in obs[0]):
         ERRORS += 1
         return None, None, [], (obs[0]["error"] if obs else "no data")
-    vals = []
+    vals, first_date = [], None
     for o in obs:
         try:
             vals.append(float(o["value"]))
         except (ValueError, KeyError, TypeError):
-            pass
+            continue
+        if first_date is None:
+            first_date = o.get("date")
     if not vals:
         ERRORS += 1
         return None, None, [], "no numeric values"
-    return vals[0], obs[0]["date"], vals, None
+    # 2026-10-15 (WQ-229 independent read #1, CE6; acceptance #9): the latest value is dated by
+    # the row it CAME FROM. Returning obs[0]["date"] paired an older row's value with the newest
+    # row's date whenever the newest row did not parse, so the SRF guard saw two "matching" legs
+    # and graded a cross-date sum stamped with the later day. Identical output when obs[0] parses.
+    return vals[0], first_date, vals, None
 
 
 def fred_pairs(sid, n=14):

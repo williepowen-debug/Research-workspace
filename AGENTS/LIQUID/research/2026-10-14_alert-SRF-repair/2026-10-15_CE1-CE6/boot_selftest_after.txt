@@ -1,0 +1,4 @@
+  ✓ 076 a required W1 Tuesday absent (9/22 not in rows) → W1 UNKNOWN: got 'UNKNOWN', want 'UNKNOWN'
+  ✓ 076 W3 witness at MOVE 85.9 is EDGE, not a hit: got ([], ['2026-09-23']), want ([], ['2026-09-23'])
+
+  SELFTEST: PASS

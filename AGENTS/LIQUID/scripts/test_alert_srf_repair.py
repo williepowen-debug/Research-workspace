@@ -227,6 +227,39 @@ class WatcherConsumerTests(unittest.TestCase):
             self.assertNotIn('kill_met_on', out['state'])
             self.assertIn('VINTAGE-FETCH-FAIL', out['watch_log'])
 
+    def test_repeated_first_published_date_fails_kill_closed(self):
+        # CE1 (WQ-229 read #1; acceptance #8): ONE distinct sub-260 close (07-03) delivered twice.
+        dup = {'observations': observations(('2026-07-01', '2.72'), ('2026-07-02', '2.70'),
+                                             ('2026-07-03', '2.59'), ('2026-07-03', '2.59'))}
+        with isolated_watcher():
+            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), dup, self.base), 0)
+            out = capture('ce1-duplicated-first-published-date')
+            self.assertFalse(out['packets'])
+            self.assertNotIn('kill_met_on', out['state'])
+            self.assertIn('VINTAGE-FETCH-FAIL', out['watch_log'])
+            self.assertNotIn('2026-07-03', out['signals'])
+            self.assertEqual(out['alert_log'], '')
+        # Repeated date with DIFFERENT values is refused too (whatever the values).
+        mixed = {'observations': observations(('2026-07-02', '2.59'), ('2026-07-03', '2.59'),
+                                              ('2026-07-03', '2.70'))}
+        with isolated_watcher():
+            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), mixed, self.base), 0)
+            self.assertNotIn('kill_met_on', capture('ce1-repeated-date-different-values')['state'])
+        # Control: the same closes on DISTINCT dates grade exactly as before (one sub-260 = no fire;
+        # two consecutive = the existing terminal fire).
+        with isolated_watcher():
+            ctl = {'observations': observations(('2026-07-01', '2.72'), ('2026-07-02', '2.70'),
+                                                 ('2026-07-03', '2.59'))}
+            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), ctl, self.base), 0)
+            out = capture('ce1-control-distinct-dates')
+            self.assertNotIn('kill_met_on', out['state'])
+            self.assertNotIn('VINTAGE-FETCH-FAIL', out['watch_log'])
+        with isolated_watcher():
+            two = {'observations': observations(('2026-07-01', '2.70'), ('2026-07-02', '2.59'),
+                                                ('2026-07-03', '2.59'))}
+            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), two, self.base), 0)
+            self.assertEqual(capture('ce1-control-two-distinct')['state']['kill_met_on'], '2026-07-03')
+
     def test_invalid_latest_quote_is_parse_failure_without_grade(self):
         for value in ('not a number', 'nan', 'inf'):
             with self.subTest(value=value), isolated_watcher():
@@ -303,6 +336,35 @@ class SRFTests(unittest.TestCase):
             self.assertEqual(row['display'], 'PARTIAL')
             self.assertIn('combined grade withheld', row['note'])
             self.assertFalse(row['asof'])
+
+    def test_unparseable_newest_row_dates_value_by_its_own_row(self):
+        # CE6 (WQ-229 read #1; acceptance #9): real build_domestic through the REAL fred_series.
+        def ff(sid, limit=5):
+            if sid == 'RPONTSYD':
+                return [{'date': '2026-10-13', 'value': 'ND'}, {'date': '2026-10-10', 'value': '30.000'}]
+            if sid == 'RPONMBSD':
+                return [{'date': '2026-10-13', 'value': '30.000'}]
+            return [{'error': 'synthetic unavailable'}]
+        boot.RESULTS.clear()
+        with mock.patch.object(boot, 'fred_fetch', side_effect=ff), \
+             mock.patch.object(boot, 'fred_pairs', return_value=([], 'synthetic unavailable')), \
+             mock.patch.object(sofr_dispersion, '_load', return_value=[]), \
+             contextlib.redirect_stdout(io.StringIO()):
+            boot.build_domestic()
+        rows = [r for r in boot.RESULTS if r['label'] == 'SRF usage']
+        self.assertEqual(len(rows), 1)
+        self.assertEqual((rows[0]['display'], rows[0]['marker'], rows[0]['asof']), ('UNGRADEABLE', '⚪', ''))
+        self.assertIn('2026-10-10', rows[0]['note'])
+        self.assertIn('2026-10-13', rows[0]['note'])
+        self.assertNotIn('ABOVE $50B', rows[0]['note'])
+        # fred_series itself: value paired with ITS row's date; unchanged when the newest row parses.
+        with mock.patch.object(boot, 'fred_fetch', side_effect=ff):
+            v, d, vals, err = boot.fred_series('RPONTSYD')
+            self.assertEqual((v, d, vals, err), (30.0, '2026-10-10', [30.0], None))
+            v, d, vals, err = boot.fred_series('RPONMBSD')
+            self.assertEqual((v, d, vals, err), (30.0, '2026-10-13', [30.0], None))
+        with mock.patch.object(boot, 'fred_fetch', return_value=[{'date': '2026-10-13', 'value': 'x'}]):
+            self.assertEqual(boot.fred_series('RPONTSYD')[:2], (None, None))
 
     def test_domestic_dashboard_calls_guard_without_network(self):
         def series(sid, n=6):

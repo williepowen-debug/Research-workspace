@@ -1,0 +1,3 @@
+  ✓ AC2 GUARD-HELD appears only as the conditional rule: got True, want True
+
+  SELFTEST: PASS

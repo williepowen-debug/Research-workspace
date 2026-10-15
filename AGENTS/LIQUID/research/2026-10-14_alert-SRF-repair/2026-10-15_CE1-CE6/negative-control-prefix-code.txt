@@ -1,0 +1,28 @@
+FF
+======================================================================
+FAIL: test_repeated_first_published_date_fails_kill_closed (test_alert_srf_repair.WatcherConsumerTests.test_repeated_first_published_date_fails_kill_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/claude-1000/-home-willi-Research-workspace-PROME/16d245b5-0cb3-4174-b43d-e76c4903c384/scratchpad/mut/AGENTS/LIQUID/scripts/test_alert_srf_repair.py", line 237, in test_repeated_first_published_date_fails_kill_closed
+    self.assertFalse(out['packets'])
+AssertionError: {'2026-07-03_from-LIQUID_UNATTENDED-hy-oas-kill-level-met-259bps.md': '## 2026-07-03 — To: PROME (unattended watcher, no human in the loop)\n**Signal:** kill-level event [2026-07-03]\n**Current quote:** HY OAS 259bps [2026-07-03], latest-revised zone reading; the kill event uses its separately dated first-published observations.\n**Priority:** 🔴\n\n**Generated mechanically by `AGENTS/LIQUID/scripts/hy_oas_watch.py`; no analyst judgment attached.**\n\n- 🚨 KILL-LEVEL MET (NOT a kill) — first-published HY OAS 259bps < 260 on 2 consecutive closes (as-of 2026-07-03). This is the LEVEL condition only. KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. Escalate to BROCK/PROME and do NOT retire the thesis.\n\n**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — it is a mechanical level read with no analyst attached.\n\n⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO\'s tape-vs-substance guard (§A) applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is deliberately NOT restated here, because a dated state written into an unattended script goes stale (L493 ①). If the arbiter is dark or under adjudication, the rule is to record `GUARD-HELD-PENDING-ARBITER`, never "guard cleared".\n\n**Basis:** FRED `BAMLH0A0HYM2`, end-of-day, T+1 — `2026-07-03` is the OBSERVATION date, not the wall-clock date this fired.\n\n*This packet is written to disk by an unattended process and is NOT committed by it. If you are reading it, it survived to a session — commit it.*\n'} is not false
+
+======================================================================
+FAIL: test_unparseable_newest_row_dates_value_by_its_own_row (test_alert_srf_repair.SRFTests.test_unparseable_newest_row_dates_value_by_its_own_row)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/claude-1000/-home-willi-Research-workspace-PROME/16d245b5-0cb3-4174-b43d-e76c4903c384/scratchpad/mut/AGENTS/LIQUID/scripts/test_alert_srf_repair.py", line 356, in test_unparseable_newest_row_dates_value_by_its_own_row
+    self.assertEqual((rows[0]['display'], rows[0]['marker'], rows[0]['asof']), ('UNGRADEABLE', '⚪', ''))
+AssertionError: Tuples differ: ('$60.00B', '🔴', '2026-10-13') != ('UNGRADEABLE', '⚪', '')
+
+First differing element 0:
+'$60.00B'
+'UNGRADEABLE'
+
+- ('$60.00B', '🔴', '2026-10-13')
++ ('UNGRADEABLE', '⚪', '')
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.027s
+
+FAILED (failures=2)

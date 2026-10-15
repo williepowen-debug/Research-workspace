@@ -1,0 +1,12 @@
+rc 0
+--- duplicated 07-03 row, one distinct sub-260 close
+  rc/state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0
+  watch.log tail: [' VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)', ' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
+rc 0
+--- control: no duplicate
+  rc/state: {'zone': 'green', 'bps': 259, 'sub260': 1, 'obs_date': '2026-07-03', 'kill_met_on': None, 'delivered': None}
+  packets: {}
+  SIGNALS LIQUID rows: 0
+  watch.log tail: [' HY OAS 259bps 🟢green (sev 0, prev 0green, sub260 1, obs 2026-07-03 NEW) ok']
