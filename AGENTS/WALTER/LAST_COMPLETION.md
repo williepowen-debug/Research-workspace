@@ -115,8 +115,8 @@ Full Tier-2 write-back (steps 13 → 12(a-f) → 14 → 15 → 16); selected che
   ],
   "delivery": {
     "signal_date": "20261015",
-    "total_handoffs": 65,
-    "delivered_to_origin": 0,
+    "total": 65,
+    "delivered": 0,
     "note": "All 65 handoffs written and committed locally. Delivery to origin pending push; RED/TERRY/HOMER/CREED dirty at closeout."
   },
   "push": {
