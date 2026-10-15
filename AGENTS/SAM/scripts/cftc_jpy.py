@@ -23,8 +23,9 @@ Usage:
 import csv
 import io
 import sys
-import urllib.request
 from datetime import datetime, date
+
+import requests
 from pathlib import Path
 
 SAM_DIR = Path(__file__).resolve().parent.parent
@@ -170,12 +171,15 @@ def multi_print_drift_check():
 def fetch_cftc_text():
     """Fetch CFTC deafut.txt content."""
     try:
-        req = urllib.request.Request(CFTC_URL, headers=HEADERS)
+        # 2026-10-15: cftc.gov returns 403 to urllib whatever the headers
+        # (browser UA and Accept headers also 403), while requests and curl get
+        # 200 with this same UA — the block keys on the client, not the UA.
         # 10s (not 30s): fail fast on a slow/dead CFTC endpoint rather than
         # hanging ~30s and eating boot.py's 60s per-script budget. Cached TSV
         # holds last-known positioning; a FAIL here is an honest "couldn't refresh".
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            return resp.read().decode("utf-8", errors="replace")
+        resp = requests.get(CFTC_URL, headers=HEADERS, timeout=10)
+        resp.raise_for_status()
+        return resp.content.decode("utf-8", errors="replace")
     except Exception as e:
         print(f"  ERROR fetching CFTC data: {e}")
         return None
