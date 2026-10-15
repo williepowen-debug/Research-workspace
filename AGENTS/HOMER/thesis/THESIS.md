@@ -3,7 +3,7 @@
 **Kill rail re-derived: 2026-09-29** · Authored 2026-09-29 under Will's 8/23 build authorization (L3 build 3b, DAEDALUS PR6 ask 2, due 9/30) · **Criteria FROZEN from this commit** · Next formal grade: **2026-11-20** · Fleet registration: **`GATE-HOMER-THESIS-KILL`** in `PROME/GATES.tsv` (PROME, 2026-09-29). This file is the canonical letter; the gate row is a summary and pointer. **If any leg reaches its kill count before 11/20, re-date by packet to PROME.**
 
 > ⚠️ **What this file is NOT:** the per-prediction machinery in `PREDICTIONS.tsv` (HOM-01, HOM-02, early-kill arms). That covers **two metrics**. This rail covers the **transmission chain**. A HOM-02 resolution is evidence for leg A1 below, not a thesis grade.
-> **Not built here:** the convergence handle (L3 build 3c). Still OPEN on the docket.
+> **Convergence handle (L3 build 3c): BUILT 2026-10-15, §8** (6 days past its 10/09 due date). Between-grade clarifications from DAEDALUS's 10/08 sweeps: **§7**. No kill level moved.
 
 ---
 
@@ -119,3 +119,53 @@ The DAEDALUS card (`HOMER_CARD.md` §4) says "five elements per leg" without lis
 | D4 | 2026-09-29 | A3 base window is general knowledge (NAHB table not read) | Read NAHB HMI history |
 | D5 | 2026-09-29 | First grade written with data in hand (ordering) | None; frozen from here |
 | D6 | 2026-09-29 | No REGINALD-side (bank-loss) confirm criterion. The upgrade to "transmission confirmed" is REGINALD's call, so this rail only kills | By design; revisit if REGINALD asks |
+| D7 | 2026-10-15 | **D1 CLOSED.** DAEDALUS confirmed 2026-10-01 that my five elements match `market-agent.md` §4 one for one (packet `inbox/processed/2026-10-01_from-DAEDALUS_D1-five-elements-confirmed.md`) | None |
+| D8 | 2026-10-15 | DAEDALUS Gate-Basis #2 (10/08): resolving vintage, UNGRADED-month handling, the provision comparison period and C1's count-vs-rate were unstated. Clarified in §7 without moving any level | GATES summary cell is PROME's: packeted 2026-10-15 |
+
+---
+
+## 7. Between-grade clarifications — 2026-10-15 (DAEDALUS Gate-Basis #2 + stranger read; no level moved)
+
+These say what the frozen letter already meant. None moves a kill level, a count or a date. They were written before the next grade and before the September prints for C1 and the GSE books.
+
+| # | Question | Answer |
+|---|---|---|
+| **V1** | **Which vintage resolves each core print?** | The value **as first published in that month's release**, read at the issuer: ICE First Look (that month's release) · Trepp (that month's headline MF DQ, 2dp) · Freddie Monthly Volume Summary · Fannie Monthly Summary. Later revisions (Fannie revised July 0.61→0.62% in the August release) are recorded beside the first print and **never re-grade a count already taken.** |
+| **V2** | **Does an UNGRADED month break or pause a 3-print run?** | **It PAUSES the run.** The count neither advances nor resets, and the next graded print continues it. I chose pause because "break" would make my own thesis harder to kill, which is the self-serving direction. ⚠️ A missed release by the *instrument* is UNGRADED. A release I failed to fetch is a HOMER defect, logged as one, and also pauses. |
+| **V3** | **"The provision rose" (C2 Fannie pairing) compared with what?** | **The same quarter's Fannie MF credit-loss provision vs the immediately prior quarter (QoQ)**, both as reported in the 10-Q/10-K for the graded quarter. Example of record: Q2 $259M vs Q1 $174M = rose. |
+| **V4** | **C1 "FC pre-sale inventory YoY": the COUNT or the RATE?** | **The COUNT** (Aug: 298K, +41% YoY), as in the 9/29 grade of record. The pre-sale *rate* (0.54% in August) is an observation and never grades C1. The C2 GSE measure is Fannie MF **serious** DQ; the GATES summary dropped both qualifiers. |
+| **V5** | **What can 11/20 return?** | **On the core legs, NOT FIRED or UNGRADED only.** Every core kill needs 3 consecutive prints and every core count was 0 at 9/29. At most 2 new monthly prints per core instrument land before 11/20 (Trepp: Sept + Oct · First Look: Sept, maybe Oct · GSE: Sept, maybe Oct), so no core leg can reach its count. ⇒ **11/20 cannot return FALSIFIED or PARTIAL.** Earliest possible core kill: **Trepp's November-data print (published ~early Dec)**; §4's "Trepp November" is the release published in November (October data). A1 *can* fire at 11/20, on the Q3 NDS plus the ICE cure rate. |
+
+---
+
+## 8. Convergence handle (L3 build 3c) — BUILT 2026-10-15
+
+The handle has two parts: **(i) the universal 5-point handle** that blueprint `market-agent.md` §2 requires (score, independence, transparent composite), and **(ii) the join** into CARL's convergence matrix. **CARL scores its vectors; HOMER feeds.**
+
+### 8a. The 5-point handle (blueprint `market-agent.md` §2 interface)
+
+⚠️ **Scores are the ones PROPOSED 2026-09-29** (packet to CARL, commit `64d35bf5f`), which CARL told me to build as proposed (10/01). **Not re-scored on 10/15:** the recovery session integrated no print newer than 10/02. Local state is the newest value I hold, dated. The kill rail (§3) governs; a score is a triage projection that routes attention back to it. Re-score at each formal grade (next 2026-11-20).
+
+| # | Vector (HOMER leg) | Score (1–5) | Local state (as of) | Independence | Key signal | Upgrade trigger (→ 5) |
+|---|---|---|---|---|---|---|
+| C1 | Residential conversion (CORE) | **4** | ICE 90+/FC **872K** (Aug; 22K past Orange, RED >1M); FC pre-sale inventory **298K, +41% YoY** but +2K MoM; FC starts **+29% YoY**; ATTOM Aug REO **+42% YoY** | **Root R1** (residential FC pipeline) | ICE First Look, monthly | §3 C1 "for" flip: FC sales YoY **≥ +20%** (Aug +11.7%) |
+| C2 | Multifamily realization (CORE) | **4** | Freddie MF **0.64%** (Aug, 14bps above Red); Fannie MF serious **0.57%** (Aug, mod-suppressible); Trepp CMBS MF **7.69%** (Aug); realized marks (BANC HFS, Arbor REO) | **Root R2** (MF credit) | Trepp MF DQ + GSE monthlies | §3 C2 "for" flip: Trepp CMBS MF **> 7.71%** (a new 2026 high) |
+| A1 | FHA-bottom inflow (AMP) | **4** | FHA SA DQ **11.79%** (Q2, 21bps below Red); ICE cure rate **−28% YoY**, FHA **−39%** (Jul) | **Co-rooted with C1 (R1): count once** | MBA NDS (quarterly) + ICE Mortgage Monitor | §3 A1 "for" flip: FHA SA **≥ 12.00%** at the Q3 NDS |
+| A2 | Rate amplifier (AMP) | **4** | PMMS **7.28%** [wk 10/01], RED, HOLD state fired; spread ~199bps | **Co-rooted with CARL's V12** (rates; BROCK/HENRY own direction): count once | Freddie PMMS, weekly | None defined: PMMS has no uncrossed rung above RED. Set one at the 11/20 grade or leave the score capped at 4 |
+| A3 | Builder distress (AMP) | **3** | NAHB HMI **32** (Sep); price cutters **38%** (Orange); LEN/KBH margins at trough, orders −9% / −12% | **Root R3** (new-home supply → LABOR) | NAHB HMI, monthly; builder 8-Ks | §3 A3 "for" flip: price cutters **> 45%** (RED) |
+
+**Composite (transparent, no weighting): 4 + 4 + 4 + 4 + 3 = 19/25 across 5 legs.** Independent roots: **3** (R1, R2, R3). A1 folds into R1; A2 is an input to CARL's V12, not a new root.
+
+### 8b. The join into CARL's matrix
+
+How this rail's legs map into CARL's convergence matrix. **CARL scores; HOMER feeds.** CARL's answers: `inbox/processed/2026-10-01_from-CARL_3c-handle-confirmed-V3-rescope-at-10-05.md`. CARL's scope review, held 10/12 rather than 10/05: `AGENTS/CARL/domain/sources/2026-10-12_scope-review.md`.
+
+| HOMER leg | CARL vector | State of the link | Rule |
+|---|---|---|---|
+| **C1 + A1** (one root, R1) | **V10** (foreclosure acceleration) | ✅ **CONFIRMED (a)** | Count C1 and A1 **once**, as R1. The K-shape reading of A1 stays CARL's (V8) |
+| **A2** | **V12** input | ✅ **CONFIRMED (a)** | Counted once |
+| **C2** (both MF books) | **V3** (Fannie MF DQ) | ✅ **RESOLVED 10/12: V3 is NOT re-scoped.** It stays a Fannie-only vector. C2 reaches CARL as **peer evidence only**. | ⛔ **Never map C2's state onto V3's score.** V3 reads the calmer book: Aug Fannie 0.57% vs Freddie 0.64%. A Freddie move does not reach V3 unless CARL re-scopes it, and that would be a thesis change routed to Will |
+| **A3** (builders) | **R3**, unscored | 🟡 **CANDIDATE (c)** | CRL-23 (DHI/PHM Q1 FY27 gross margin) is the resolver on CARL's side; no new vector |
+| C1 (REO, FL) | V7 / V10 citations | CARL refreshes its own cells | CARL's 10/01 answer names ATTOM H1 REO 27,983 (+33% YoY) and Aug REO +42% YoY as the citations it will carry; its 10/12 review cites Aug REO +42% for V10. **Florida statewide figures come from CORAL, never from HOMER** |
+
+**Double-count guard:** one HOMER fact feeds one CARL vector. A fact that bears on two vectors (A1 → V10 and V8) is counted at V10; V8 is CARL's own reading of it.

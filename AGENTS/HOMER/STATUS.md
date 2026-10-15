@@ -9,6 +9,7 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
+⛔ **10/15 CRASH-RECOVERY SESSION (WQ-436) — NO DATA REFRESHED. Every value below is as of 10/02 or earlier.** Will's 10/14 23:58 ET catch-up died with the machine at ~03:08 ET; its five data pulls never returned (0 of 5 reports; partial transcripts exist on this machine only, not in git). **Lapsed, unpulled:** FMHPI Aug (9/30) · Trepp Sept DQ (~10/01) · PMMS 10/08 · Realtor.com + Redfin Sept · ICE Mortgage Monitor Oct · NAR EHS Sept (10/13) · Trepp Sept SS (~10/14) · NAHB Oct (~10/15). ⚠️ Relays not yet read at issuer: Trepp Sept MF 8.04% (+35bp), PMMS 10/08 7.40%.
 ✅ **10/02 (Tier-2 bounded spawn under Will's authorization):** **PMMS 10/01 7.28% graded against the 9/29 pre-registration = HOLD** (ISSUER PRIMARY WebFetch of freddiemac.com/pmms); CREED multifamily relay (SIG-W-20261001-029) triaged — items 2/3/5 travel to HOMER's book, item 1 (Lurin/Venetos) noted as context, no auction row upgrade.
 ✅ **9/29 PM:** Case-Shiller July · Miami-Dade Aug condo · Class A FIRED 2026-08-07 at UWM, found 53 days late (secondary; Fitch primary owed) · Will-ruled rent breadth + nat'l FC starts bands RE-ARMED.
 ⚠️ **YEAR TRAP, now n=4 on this desk:** verify the page's publication YEAR, not just the month.
@@ -93,7 +94,7 @@
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
 ### ⚠️ STANDING CAVEATS
-1. **FHA PROCESS BREAK:** any FHA DQ **YoY** spanning **Oct-2025** is ~79% slower-cure-drain, not credit — opposite-signed to the HUD ML 2026-08 mechanic. **Say which you mean.**
+1. **FHA PROCESS BREAK:** any FHA DQ **YoY** spanning **Oct-2025** mixes a cure-pipeline change with credit — opposite-signed to the HUD ML 2026-08 mechanic. ⚠️ **Corrected 10/15 (COR-20261012-25):** "~79%" is an accounting split of H1 net accumulation (lower exits), **not** a measured causal share of the YoY rise — never write "79% is not credit." **Say which you mean.**
 2. **GSE MF band** (A1) · 3. **Builder price ≠ what the buyer pays** · 4. **FL rank ≠ FL level** ⇒ in full on `CLAUDE.md`.
 
 ## OPEN OBLIGATIONS
@@ -102,8 +103,8 @@
 | # | Item | State |
 |---|---|---|
 | **A1** | GSE MF band | ✅ **RULED 9/17 — WQ-248 C** (Will: *"248 - C is fine"*): letter frozen, grade each print against it; an ungraded leg above the top rung is CORRECT until I have a basis for a rung (mine to write) |
-| **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). **Registered by PROME as `GATE-HOMER-THESIS-KILL`** (GATES.tsv, JUDGEMENT class, review_by 11/20; PROME message 2026-09-29). 3c convergence handle still open | ✅ |
-| **A2–A5** | ✅ **A2** rider ENCODED (KB-HOMER-032) · ✅ **A3 + A4 RULED BY WILL 2026-09-29 and INSTALLED** — rent: Apartment List, 20/40/55 (`tools/rent_breadth.py`, frozen roster); FC STARTS: 100K/130K/175K, severity ladder. CATO review f139c5db7 · **A5-3c** link packeted to CARL (ack by 10/05), build by **10/09** | ⏳ A5-3c only |
+| **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). **Registered by PROME as `GATE-HOMER-THESIS-KILL`** (GATES.tsv, JUDGEMENT class, review_by 11/20; PROME message 2026-09-29). **10/15: §7 between-grade clarifications V1–V5 (DAEDALUS Gate-Basis #2 asks 1 + 3 answered; no level moved) — 11/20 cannot return FALSIFIED or PARTIAL on the core legs** | ✅ |
+| **A2–A5** | ✅ **A2** rider ENCODED (KB-HOMER-032) · ✅ **A3 + A4 RULED BY WILL 2026-09-29 and INSTALLED** — rent: Apartment List, 20/40/55 (`tools/rent_breadth.py`, frozen roster); FC STARTS: 100K/130K/175K, severity ladder. CATO review f139c5db7 · ✅ **A5-3c BUILT 2026-10-15** (6 days late): `thesis/THESIS.md` §8 — 5-pt handle **19/25, 3 independent roots** (scores as proposed 9/29) + CARL join (V3 NOT re-scoped, CARL 10/12) | ✅ |
 | **A6** | Cure Rates band | ✅ **CLOSED 2026-09-24 — graded on its NATIVE basis (YoY cure rate, ICE Mortgage Monitor): YELLOW.** Feed = the Mortgage Monitor (docket row); the First Look MoM count is an OBSERVATION, not the band |
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |
 
@@ -111,7 +112,7 @@
 **B1 RE-CUT 9/24: the CREED courier is DEAD (8/13)** — CREED owes only a narrow no-cadence mat-adj/SS back-fill; **the Trepp PULL is mine.** **B7** CalculatedRisk sweep: packet consumed, **no fleet withdrawal found — disposition UNKNOWN.**
 
 ### C. Instruments that GRADE NOTHING — do not read silence as calm
-- ⛔ **Trepp maturity-adjusted MF** — no value since June; trepp.com reachable 9/24 ⇒ **re-test at issuer next session before the dated kill executes**
+- ⛔ **Trepp maturity-adjusted MF** — no value since June. **The dated kill is LAPSED (owed since ~10/01; DAEDALUS Falsification #4 ask 2). DATED DEFERRAL, written 10/15: execute or lapse it by 2026-10-31, before Trepp's October print.** Reason: the 10/15 recovery session did not read the September PDF at issuer.
 - ⛔ **5 standing dead/ungraded instruments** (FL YoY RETIRED · measurement breaks …; National FC STARTS and Rent breadth were RE-ARMED 9/29 and left this list) + 2 annual-only FL bands + 3 measurement breaks → `OBLIGATIONS_OTHERS.md` §C-STANDING
 - ⛔ **Google Trends** — RETIRED at CARL 9/1; **9/10 captures UNDATED / NOT GRADEABLE** (Will, WQ-225); my 9/14 "bounded ~9/06" WITHDRAWN
 - ⛔ **Morgan Stanley 7.1%** — unresolved perimeter; closing it needs the MS report
@@ -119,7 +120,7 @@
 ---
 
 ## CATALYSTS — FORWARD ONLY
-*Full calendar → `docket/CATALYSTS.tsv` (canonical; 8 recurring rows added 9/24).*
+*Full calendar → `docket/CATALYSTS.tsv` (canonical; 8 recurring rows added 9/24).* ⚠️ **10/15: every row below dated before 10/15 that is not marked ✅ is LAPSED and unpulled** (see DATA VINTAGE).
 
 | Date | Event | Watch |
 |---|---|---|
@@ -152,12 +153,10 @@
 
 ## BOTTOM LINE
 
-**2026-10-02 (Fri) PM — bounded Tier-2 spawn under Will's authorization ("open up the rest of the agents"). Prior 9/29 PM BOTTOM LINE → `archive/STATUS_bottom_line_2026-09-29-PM.md`.**
+**2026-10-15 (Thu) — PROME-spawned crash-recovery session (WQ-436, Will 08:31 ET). No new data. Prior 10/02 BOTTOM LINE → `archive/STATUS_bottom_line_2026-10-02-PM.md`.**
 
-**① PMMS 10/01 = 7.28%, HOLD state fired.** +25bps WoW — the largest ONE-WEEK rise in the current (post-2022-11-17 LPA) PMMS methodology, highest 30Y since 2023-11-22. Pre-registered state (`reports/2026-09-29_PMMS-...-PRE-REGISTRATION.md`) said HOLD at ≥7.05%; 7.28% ≥ 7.05%. The 9/24 "3bps < one week's move" caveat RETIRES — RED is now a two-print regime read, 28bps through the line, no uncrossed rung above. **Attribution:** DGS10 Wed 9/23 5.11 → Wed 9/30 5.29 = +18bps Treasury; survey-matched spread widened 192 → 199bps = +7bps spread. The residual against the four-week 1.92-1.94 range is +5-7bps, inside the 10bp line — same regime, no spread break. **Primary verified** at freddiemac.com/pmms (year-stamped 10/01/2026) + FRED DGS10. The FT headline "largest since 2022" crosses Freddie's 2022-11-17 PMMS method change; carry the caveat or write "series record under current method."
+**① The dead session's residue is committed, after checking.** It had written: the three correction receipts; the FHA "79%" re-label (an accounting split, not a causal share); the ledger-header fix DAEDALUS asked for (one data clock per file; the dates are unchanged because nothing was refreshed); THESIS §7 and §8; and a PROME packet. All were verified at their sources. **Repaired:** §8 held only the CARL join, so the 5-pt handle the 3c spec requires was added (19/25). Two wordings were fixed and one five-month claim qualified. **Recovered:** the 9/29 PM BOTTOM LINE archive, which the 10/02 STATUS pointed at but which had never been written.
 
-**② THESIS KILL RAIL (GATE-HOMER-THESIS-KILL) — no leg moved toward kill; FIRED COUNT HOLDS 0 of 5.** A2 (rate amplifier) kill = PMMS ≤6.50% ×4 weekly prints: at 7.28% we are 78bps ABOVE the kill line and 4 weeks UP; the direction of A2 is confirmed, not killed. C1/C2/A1/A3 have no new prints this spawn. 🔴 holds; formal grade 2026-11-20 unchanged.
+**② Thesis kill rail: 0 of 5 legs fired, 🔴 holds.** No print has been integrated since 10/02. 11/20 cannot return FALSIFIED or PARTIAL on the core legs (§7 V5).
 
-**③ CREED MULTIFAMILY RELAY TRIAGED (SIG-W-20261001-029, 8 items).** Items that travel to HOMER's book: **(2) Trepp 2025 MF NOI medians** — NOI +1.8%, insurance deceleration from +10.9% to +2.7% (CREED-PRIMARY-read), eases the acute-realization read at the margin, logs to `MULTIFAMILY.tsv`; **(3) CRED iQ coupon gap +65bp MF (vs +172bp office)** — MF refi stress exists but less acute than office; context, logs; **(5) CRE CLO distress 28% ⚠️ 2021-22 vintage ONLY** — carries the vintage scope; important TX-syndicator-exposure proxy that already overlaps my own TX auction row, logs with scope. Items noted but not promoted: **(1) Lurin/Venetos personal involuntary Ch.7 + FBI probe** — SECONDARY (Unicus Substack), sponsor-level event; HOMER already carries Lurin in the August TX auction row as a named syndicator; the current row is NOT upgraded without a docket read. **(4) student-housing 2029-30 maturities, (6) Blackstone $90M unnamed, (7) Boulder Creek WA $500K/unit, (8) MF-only starts −22.5%** — SECONDARY newsletter relays, context only, not posted to the ledger. The Miami 33.9% NOI line is CORAL's.
-
-**④ RESIDUE + SKIPPED CONTROLS (bounded spawn).** Not pulled this spawn: FMHPI Aug (due 9/30), MBA weekly apps (next due 10/08), MND daily, Trepp Sept DQ (~10/01, docket row owed; mat-adj kill still armed for the 3rd consecutive absence). Full CREED-relay items 2/3/5 workbook rows for `MULTIFAMILY.tsv` are posted here in STATUS as summaries; the ledger-row-with-sources append is deferred to the next full session. ARGUS/CATO: not spawned.
+**③ Not done: the data catch-up Will asked for on 10/14.** Every lapsed pull is listed in DATA VINTAGE, and the Trepp mat-adj kill now carries a dated deferral (by 10/31). Inbox: 26 of 34 consumed (this session's own brief is filed at delivery); 8 left for the catch-up: 6 WALTER ACTION data signals, CREED's Arbor label ask, PROME's 10/14 compound-stress evidence.

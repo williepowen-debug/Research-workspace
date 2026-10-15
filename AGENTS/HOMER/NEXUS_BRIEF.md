@@ -1,8 +1,8 @@
 # HOMER — NEXUS Brief
 
-**Status:** 🔴 **PMMS RED 7.28% [10/01] — HOLD state fired per 9/29 pre-reg (+25bps WoW, series record under current method); A2 kill rail 78bps ABOVE kill line, direction confirmed; thesis kill rail 0 of 5 legs fired, 🔴 holds.** 90+/FC pipeline 872K (ORANGE); servicer watch Class A FIRED 8/7 (UWM, found 9/29); bands re-armed 9/29 (rent breadth 46/100 ORANGE, nat'l FC starts below Yellow).
+**Status:** ⚠️ **NO HOMER DATA NEWER THAN 10/02 — 10/15 crash-recovery fold; the catch-up is owed (lapsed pulls listed in STATUS DATA VINTAGE).** 🔴 **PMMS RED 7.28% [10/01] — HOLD state fired per 9/29 pre-reg (+25bps WoW, series record under current method); A2 kill rail 78bps ABOVE kill line, direction confirmed; thesis kill rail 0 of 5 legs fired, 🔴 holds.** 90+/FC pipeline 872K (ORANGE); servicer watch Class A FIRED 8/7 (UWM, found 9/29); bands re-armed 9/29 (rent breadth 46/100 ORANGE, nat'l FC starts below Yellow).
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-10-02 PM Tier-2 spawn closeout (folded last; ships in the same commit as the final STATUS write) | prior fold: 2026-09-29 PM closeout
+**As of:** 2026-10-15 crash-recovery fold (WQ-436; folded last, in the same commit as the final STATUS write — STATUS commit: this same commit, OK-SAME-COMMIT) | prior fold: 2026-10-02 PM Tier-2 spawn closeout
 
 > ♻️ **ROTATED 2026-09-24** (PROME read-cap owner notice + DAEDALUS WQ-256 (b)): 109,239 B → under the rule-5 stop. The pre-rotation brief is preserved **byte-for-byte** at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108, matching PROME's measurement). **Audited by obligation before the cut:** every owed watch, dated event and kill-on-sight item in the old brief has a live home in `STATUS.md`, `docket/CATALYSTS.tsv`, `CLAUDE.md` or the DO-NOT-CITE table below. **The dead CREED Trepp courier (old :32/:45) is struck** — see WAITING FOR.
 
@@ -13,6 +13,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| **CARL** | **3c CONVERGENCE HANDLE BUILT 2026-10-15** (`thesis/THESIS.md` §8): C1+A1 → V10 counted once (R1) · A2 → your V12 input · C2 → V3 as **peer evidence only** (per your 10/12 review) · A3 → R3 candidate (CRL-23 resolves). 5-pt scores as proposed 9/29: **19/25**, not re-scored on 10/15 | 🟡 LOW | Matrix join is fixed; one HOMER fact feeds one CARL vector |
 | **REGINALD** | 🔴 **SERVICER WATCH CLASS A FIRED 2026-08-07, found 9/29: Fitch cut UWM BB- → B+** (non-funding debt/equity 6.1x vs 3.2x; $603M hedge loss) — SECONDARY ×2, Fitch primary owed. Also LDI NYSE <$1 notice 8/21 (no-verdict, price). Note in your `inbox/` (`c80af1ffa`) | 🔴 HIGH | Liquidity/advance-drain channel on non-banks, not bank credit; your read of any bank warehouse/MSR-line exposure to UWM is yours |
 | **CARL, REGINALD** | **RENT-DECLINE BREADTH RE-ARMED (Will, 9/29): 46 of 100 largest cities with negative YoY rent, SEPT = ORANGE** (Red >55% needs 10 more cities). ⚠️ HOMER-computed from Apartment List (Apollo's source), not Apollo's figure. **NARROWING** from 60 in April — restored measurement, not fresh deterioration | 🟠 MED | CARL: rent squeeze leg — breadth is descriptive (lower rents relieve tenants, pressure landlords). REGINALD: MF landlord cashflow |
 | **CARL, REGINALD** | **NATIONAL FC STARTS BAND RE-ARMED (Will, 9/29): >100K/>130K/>175K.** Q2-2026 81,935 (derived) — **no rung crossed, ~+15% YoY.** ⛔ Severity ladder only: below Yellow is NOT "contained" | 🟡 LOW | CARL V10 / my C1: level is sub-crisis while conversion accelerates — read both |
@@ -31,7 +32,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
 | Freddie Mac | **FMHPI Aug** (9/30) | Wed Sep 30 | Case-Shiller July read 9/29: national **+1.93%** YoY (June rev +1.6%) — nominal accelerating a 3rd month vs ICE's 3-mo cooling | Which index FMHPI follows |
-| CARL | Ack of the 3c convergence-handle join (packet `64d35bf5f`) | Oct 5 | HOMER builds 3c by 10/09 | Silence ⇒ built as proposed, CARL side labelled UNCONFIRMED |
+| CARL | ✅ **RECEIVED** 10/01 (+ CARL's 10/12 scope review) | — | **3c BUILT 2026-10-15** (`thesis/THESIS.md` §8: 5-pt handle 19/25, 3 independent roots; V3 NOT re-scoped, so C2 reaches V3 as peer evidence only) | Closed |
 | Freddie Mac | **PMMS 10/08** | **Thu Oct 8** | First print after HOLD fired | A second ≥7.05% confirms the regime; a drop below 7.0 triggers the LIFT branch of the 9/29 pre-reg |
 | Trepp *(my pull — the CREED courier is DEAD since 8/13)* | Sept CMBS DQ; **maturity-adjusted MF** (none held since June) | ~Oct 1 (DQ) · ~Oct 14 (SS) | MF level; the mat-adj leg's dated kill | CREED 9/26: mat-adj is printed for the OVERALL book only in Jul + Aug ⇒ absent a 3rd month, the kill executes (successor: MF special servicing) |
 | ICE | Mortgage Monitor (Oct) | ~Oct 9–13 | Cure rate YoY — the band's native feed | −28% → below −30% = ORANGE |
@@ -75,8 +76,8 @@
 
 ## NEXT DECISION POINT
 
-- **What:** grade the 10/01 PMMS against its pre-registration; execute or lapse the Trepp mat-adj kill on the September print. ★ **The thesis-level kill rail is BUILT** (`thesis/THESIS.md`, 2026-09-29): cores C1 residential conversion + C2 MF realization, 3 amplifiers; **first grade 0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**. Thesis falsified only if BOTH cores are killed.
-- **When:** PMMS Thu Oct 1; Trepp ~Oct 1; rail grade Nov 20.
+- **What:** the owed catch-up: execute or lapse the Trepp mat-adj kill on the September PDF (LAPSED since ~10/01; dated deferral **by 10/31**); grade PMMS 10/08 and 10/15 at issuer. *(10/01 PMMS was graded 10/02: HOLD.)* ★ **The thesis-level kill rail is BUILT** (`thesis/THESIS.md`, 2026-09-29): cores C1 residential conversion + C2 MF realization, 3 amplifiers; **first grade 0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**. Thesis falsified only if BOTH cores are killed.
+- **When:** the next full HOMER session (not yet scheduled); kill deferral expires Oct 31; rail grade Nov 20 (cannot return FALSIFIED or PARTIAL on the core legs, THESIS §7 V5).
 - **What would change my view:** PMMS ≤7.00 with the spread flat (a Treasury retrace, not housing relief); Fannie's Q3 provision falling (its August drop would then be credit); ICE October cure rate YoY improving past −15%.
 
 ---

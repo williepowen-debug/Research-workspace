@@ -1,0 +1,17 @@
+# ARCHIVED — HOMER STATUS BOTTOM LINE, 2026-10-02 (Fri) PM
+
+*Moved verbatim from `STATUS.md` on 2026-10-15 by the crash-recovery session (WQ-436), under the CLOSEOUT retention rule (BOTTOM LINE = current session only). ⚠️ One claim below is stale on its own terms: ④ says the CREED-relay ledger rows were deferred, but `workbook/MULTIFAMILY.tsv` rows 69–71 and `STATE_HSG.tsv` row 71 carry them (checked 2026-10-15).*
+
+---
+
+## BOTTOM LINE
+
+**2026-10-02 (Fri) PM — bounded Tier-2 spawn under Will's authorization ("open up the rest of the agents"). Prior 9/29 PM BOTTOM LINE → `archive/STATUS_bottom_line_2026-09-29-PM.md`.**
+
+**① PMMS 10/01 = 7.28%, HOLD state fired.** +25bps WoW — the largest ONE-WEEK rise in the current (post-2022-11-17 LPA) PMMS methodology, highest 30Y since 2023-11-22. Pre-registered state (`reports/2026-09-29_PMMS-...-PRE-REGISTRATION.md`) said HOLD at ≥7.05%; 7.28% ≥ 7.05%. The 9/24 "3bps < one week's move" caveat RETIRES — RED is now a two-print regime read, 28bps through the line, no uncrossed rung above. **Attribution:** DGS10 Wed 9/23 5.11 → Wed 9/30 5.29 = +18bps Treasury; survey-matched spread widened 192 → 199bps = +7bps spread. The residual against the four-week 1.92-1.94 range is +5-7bps, inside the 10bp line — same regime, no spread break. **Primary verified** at freddiemac.com/pmms (year-stamped 10/01/2026) + FRED DGS10. The FT headline "largest since 2022" crosses Freddie's 2022-11-17 PMMS method change; carry the caveat or write "series record under current method."
+
+**② THESIS KILL RAIL (GATE-HOMER-THESIS-KILL) — no leg moved toward kill; FIRED COUNT HOLDS 0 of 5.** A2 (rate amplifier) kill = PMMS ≤6.50% ×4 weekly prints: at 7.28% we are 78bps ABOVE the kill line and 4 weeks UP; the direction of A2 is confirmed, not killed. C1/C2/A1/A3 have no new prints this spawn. 🔴 holds; formal grade 2026-11-20 unchanged.
+
+**③ CREED MULTIFAMILY RELAY TRIAGED (SIG-W-20261001-029, 8 items).** Items that travel to HOMER's book: **(2) Trepp 2025 MF NOI medians** — NOI +1.8%, insurance deceleration from +10.9% to +2.7% (CREED-PRIMARY-read), eases the acute-realization read at the margin, logs to `MULTIFAMILY.tsv`; **(3) CRED iQ coupon gap +65bp MF (vs +172bp office)** — MF refi stress exists but less acute than office; context, logs; **(5) CRE CLO distress 28% ⚠️ 2021-22 vintage ONLY** — carries the vintage scope; important TX-syndicator-exposure proxy that already overlaps my own TX auction row, logs with scope. Items noted but not promoted: **(1) Lurin/Venetos personal involuntary Ch.7 + FBI probe** — SECONDARY (Unicus Substack), sponsor-level event; HOMER already carries Lurin in the August TX auction row as a named syndicator; the current row is NOT upgraded without a docket read. **(4) student-housing 2029-30 maturities, (6) Blackstone $90M unnamed, (7) Boulder Creek WA $500K/unit, (8) MF-only starts −22.5%** — SECONDARY newsletter relays, context only, not posted to the ledger. The Miami 33.9% NOI line is CORAL's.
+
+**④ RESIDUE + SKIPPED CONTROLS (bounded spawn).** Not pulled this spawn: FMHPI Aug (due 9/30), MBA weekly apps (next due 10/08), MND daily, Trepp Sept DQ (~10/01, docket row owed; mat-adj kill still armed for the 3rd consecutive absence). Full CREED-relay items 2/3/5 workbook rows for `MULTIFAMILY.tsv` are posted here in STATUS as summaries; the ledger-row-with-sources append is deferred to the next full session. ARGUS/CATO: not spawned.

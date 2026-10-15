@@ -65,3 +65,16 @@ timestamp_read	signal_id	disposition	source	notes
 SIG-W-20261001-025	2026-10-02	consumed	PMMS 7.28% HOLD state fired per 9/29 pre-registration; RATES.tsv row added; A2 kill count 0/4 unchanged
 SIG-W-20261001-029	2026-10-02	consumed	CREED multifamily relay triaged — items 2/3/5 logged to MULTIFAMILY.tsv; item 1 (Lurin/Venetos) noted in STATE_HSG.tsv but TX auction row NOT upgraded (docket read owed)
 SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; HOMER cites via CARL/BROCK, not a HOMER instrument
+2026-10-15T12:41Z	SIG-W-20261003-014	info-only	INBOX_WALTER	Bloomberg 10/3 home-equity/HELOC extraction — consumer-transmission reading is CARL's (BOARD-diff); no HOMER row.
+2026-10-15T12:41Z	SIG-W-20261004-001	info-only	INBOX_WALTER	FL property-tax-cut study → FL home values: a STATEWIDE FL figure is CORAL's, HOMER publishes none; context only.
+2026-10-15T12:41Z	SIG-W-20261008-001	info-only	INBOX_WALTER	Hurricane Isaias (FL Panhandle) — AEOLUS/CORAL/BRENT action; HOMER holds no storm-damage instrument; no row.
+2026-10-15T12:41Z	SIG-W-20261008-019	info-only	INBOX_WALTER	Isaias update to -001 — same disposition.
+2026-10-15T12:41Z	SIG-W-20261008-030	noted	INBOX_WALTER	Rates/Fed 10/8 relay carries mortgage rate 7.40% — PMMS 10/08 is graded at issuer by HOMER's PMMS docket row in the owed catch-up, not from this relay; direction is BROCK/HENRY's.
+2026-10-15T12:41Z	SIG-W-20261008-033	acted	INBOX_WALTER	WQ-399 receipt command: the 3 receipts of 2026-10-15T04:01Z carry the required fields (writer accepted them, check rc 0); charter boot step 6a re-worded to the field-bearing form (C4 own-charter edit, 2026-10-15).
+2026-10-15T12:41Z	SIG-W-20261008-050	info-only	INBOX_WALTER	Wymore 360 (Altamonte Springs FL, $33M MF, special servicing) — CORAL/CREED action; HOMER info. No HOMER case row (CREED's case ledger holds it).
+2026-10-15T12:41Z	SIG-W-20261010-005	info-only	INBOX_WALTER	Fed 2025 SCF delinquency share — CARL's lane; HOMER holds no SCF figure.
+2026-10-15T12:41Z	SIG-W-20261011-005	noted	INBOX_WALTER	UWMC closed $1.08 on 10/9, record low (chart read from an image, not a primary). Context for the servicer-watch row (Class A FIRED 8/7 at UWM); price is no-verdict; credit change rides SIG-W-20261008-026 (deferred to catch-up).
+2026-10-15T12:41Z	SIG-W-20261012-007	info-only	INBOX_WALTER	Michigan October prelim spending intentions by cohort — CARL's lane.
+2026-10-15T12:41Z	SIG-W-20261012-008	noted	INBOX_WALTER	SCF income/wealth correction — receipt COR-20261012-08 NO-OP on file (HOMER holds no SCF figure).
+2026-10-15T12:41Z	SIG-W-20261012-018	info-only	INBOX_WALTER	SCF all-family delinquency base verified — CARL's lane; no HOMER row.
+2026-10-15T12:41Z	SIG-W-20261012-025	acted	INBOX_WALTER	FHA aggregation/79% correction APPLIED: PIPELINE.tsv FHA PROCESS BREAK row re-labelled (78.47% = accounting decomposition, causal attribution withdrawn; 5-month wording qualified 10/15) + STATUS standing caveat 1; receipt COR-20261012-25 APPLIED. HOMER held no 100.7bp/97.4bp figure.
