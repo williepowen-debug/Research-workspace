@@ -20,7 +20,7 @@
 4. 14 corrections receipted NO-OP (rc 0). Inbox 7 + 2 drained; the CARL packet is kept (deferred). About 22 BOARD signals logged.
 5. FHLB "$480B" replaced with Office of Finance figures; the **Pillar 10 >$800B test is retired** and now defers to REG-T-06 (WQ-414).
 6. **DOCKET L657 BRK-26 reading delivered** (PROME memo §3 + a BROCK packet): pre-registration orders don't count, and one spec gap is flagged.
-7. **Addendum (on Will's "go ahead with #2 and #3"):** **CHG-RED-052** on the bank-put book (OZK STRONG; decide before the 10/20 close) → TERRY packet. **CPI read check:** no over-read; packets to WALTER (tags) and NEXUS (:50/:72/:85); re-base caveat → PROME memo `2026-10-14_from-RED_bank-put-challenge-and-cpi-read-check.md`. ML-282/283.
+7. **Addendum (on Will's "go ahead with #2 and #3"):** **CHG-RED-052** on the bank-put book (OZK STRONG; decide before the 10/20 close) → TERRY packet. **CPI read check:** no over-read; packets to WALTER (tags) and NEXUS (:50/:72/:85); re-base caveat → PROME memo `2026-10-14_from-RED_bank-put-challenge-and-cpi-read-check.md`. ML-282/283. **NEXUS consumed and applied all three asks, VERIFIED at its commit `30756de78`** (STATUS :85 FT-08 FIRED with the oil leg NOT MET · :50 headline not core · :72 one datum). Still open: WALTER's signal-tag update; TERRY and the bank-put asks.
 
 ## NEXT SESSION (dated, priority-ordered)
 
