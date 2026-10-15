@@ -57,7 +57,7 @@ def board_text(sig, stamp):
         f"word_count: {len(sig['body'].split())}",
         f"dispatch_note: {json.dumps(sig['dispatch_note'])}",
     ]
-    for k in ('narrative_channel', 'anchor_unverified_as_of', 'case', 'correction_of'):
+    for k in ('corrects', 'narrative_channel', 'anchor_unverified_as_of', 'cluster_secondary', 'case'):
         if sig.get(k):
             hdr.append(f"{k}: {sig[k] if isinstance(sig[k], str) else json.dumps(sig[k])}")
     hdr.append('---')
