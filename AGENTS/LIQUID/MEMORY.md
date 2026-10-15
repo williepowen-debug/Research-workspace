@@ -2,7 +2,23 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
+### CURRENT SESSION (2026-10-15 Thu 12:07–15:2x ET — Will-launched, Claude Code / Opus 5.5; closed 2026-10-15T15:14:41-0400)
+
+No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
+
+- **Boot:** HY OAS 325 [10/14] = SECOND >320 cell (324 [10/1] first). 4 WALTER items consumed; COR-20261015-05 NO-OP.
+- **GATE-LIQ-069 L4 FIRED** on the 10/14 session (CRWV −15.46%, HY +9bp); count unchanged; routed WALTER `93948f7fe` with the "first cell" correction; SIGNALS.md row.
+- **WQ-444 RULED (Will 15:08 ET):** HY >320 sustained = 3 consecutive first-published >320.0, ≤320.0 resets, non-session bridges. Encoded `d0e0a8726` (KILL_MEMO row 60, drill log, `boot.py` witness counter + 4 selftests). PROME recorded it C2. Run **1-of-3**.
+- **Owed/gap audit** → `audits/2026-10-15_owed-gap-audit.md`; 9 catalyst rows added (CATALYSTS + CALENDAR twin).
+- TERRY answered (CRWV CDS leg: ≥1,000 low print = not repaired; kill = high print <840 ×5 sessions, VULCAN's line). VULCAN adopted 15.83%/~1,059–1,120 as one figure; Volta S5 pre-stated.
+- Alert/SRF repair INDEPENDENTLY VERIFIED (PROME read #2). Swap-line WQ-404 read NOT RELEASED (6❌) → fix pass owed.
+- ⚠️ Self-caught: my C4 catalyst row copied CLAUDE.md's 9/12 "OCIC at 2 consecutive" text; SIGNALS.md shows BROCK R2 (a) FIRED #2 on OCIC 10/2. Corrected the row; the CLAUDE.md line ~84 is stale (charter edit not made).
+
+### NEXT SESSION
+
+10/16 wake: ① LIQ-07 verdict on BOTH lists after ~08:00 ET (ICE list already complete through the 10/14 cell). ② WQ-444: grade the 10/15 HY cell (pub 10/16 AM) → 2-of-3 if >320; MET earliest on the 10/16 cell (pub 10/19) ⇒ signal ALL via WALTER + TERRY card ask. ③ 069 L4 on the 10/15 session once its HY cell publishes. ④ WLCFLPCL as-of 10/14; August TIC; CFTC TFF as-of 10/13 (403 fallback hunt); DAEDALUS 10/8 asks review. ⑤ Swap-line WQ-404 fix pass (conditions first). ⑥ STATUS at ~74% of read budget — rotate before §1 refresh. ⑦ Fix stale OCIC/R2 line in CLAUDE.md (~line 84). ⑧ By 10/30: LIQ-04 PitchBook access check; Q3 BDC card before ~11/13.
+
+### PRIOR SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
 
 No `git pull` (tree carries HOMER/LABOR/ORACLE/SAM recovery work); pathspec commits only. Root/local instructions read explicitly.
 
@@ -12,29 +28,4 @@ No `git pull` (tree carries HOMER/LABOR/ORACLE/SAM recovery work); pathspec comm
 - **Alert/SRF repair, read #1 HOLD → fixed:** CE1 (repeated first-published date fails kill closed) + CE6 (`fred_series` dates value by its own row); acceptance `88fece5a7` before code `fd036576c`; 20/20 tests; second read pending (PROME).
 - **Inbox 20 → 0** (`ba98e8977`): 9 acted, 11 noted. COR-20261014-23 NO-OP.
 
-### NEXT SESSION
-
-10/16 wake (armed): ① LIQ-07 final funding read after ~08:00 ET (10/15 SOFR obs) on BOTH lists, plus confirm the 10/14 ICE cell; S2 unless a leg reads; a 10/15-only leg ⇒ AMBIGUOUS-BY-SESSION-LIST → PROME. ② GATE-LIQ-069 L4 on the 10/14 session (`gate069_legs.py`): HY [10/14] ≥321 ⇒ L4 observation, route via WALTER. ③ WLCFLPCL as-of 10/14 (released 10/15 16:30) beside the verdict, not a leg. ④ August TIC (Japan net transactions; Cayman bills verify at primary). Keep withheld tools withheld; second WQ229 read of the alert/SRF repair is PROME's.
-
-### PRIOR SESSION (2026-10-14T14:05:40.282749-04:00 — October14 Will-launched Codex research wave)
-
-Session `01a13b8c-ebf0-74c0-a1c3-5ae79550bd06`; sole writer confirmed by Will after partial sandbox inventory. Root/local instruction reads explicit. No additional agents. No pull while BRENT/TERRY/PROME carry concurrent changes; owned scoped persistence only.
-
-Delivered `research/2026-10-14_credit-funding-refresh/REPORT.md` with first-published B/CCC/HY and funding window checks, ladder/funding output and frozen LIQ-07 October16 preparation. October13 IG/BBB/BB/B/CCC/HY83/103/191/317/1267/316;15observation changes+6/+8/+35/+46/+192/+48 return BROADENS under existing rule. All3 LIQ-07 funding legs absent so far;9/10ICE and8/10SOFR look-forward observations. Final verdict waits October16 SOFR publication, reports both lists, and never translates S2 into no loop.
-
-Closed the free-history gap using issuer downloads: HYG+16.12% shares/JNK−13.47% September24–October13; both contracted afterOctober6. ETF creations/redemptions are not proof of forced cash selling. Applied TGA weekly-average/point correction from H.4.1:880.253/885.783B[October7]; WRESBAL3029.659B is the weekly average. Discount-window9.965B is the Wednesday point, not average7.701B. Swap-line tool/letter untouched and WITHHELD under WQ404. Fresh076 conjunction INSTRUMENT-FAULT(CFTC403); prior state stays dated.
-
-Recovered REGINALD/WAL/BOND/PROME current approved returns; no duplicate bank study. Current FORGE holdings used without assuming bank-put desk/card ownership or live mark times. No trade/threshold/probability changed. Full pre-write STATUS/MEMORY/CALENDAR bytes archived with hashes/CRCs at `research/2026-10-14_credit-funding-refresh/rotation-receipt.json`. Older session/next-session text is history in `archive/MEMORY_before-2026-10-14-credit-funding.md`.
-
-**Staleness sweep 2026-10-14T14:34:46.375649-04:00:** audited active desk surfaces, refreshed secondary synthesis/navigation and stale definition copies, synced all calendar events, and made raw SOFR display informational. Exact changes, archives, protected-hash checks and unresolved gaps are in `audits/2026-10-14_staleness-sweep/REPORT.md`. Current market observations retain their earlier dates; no new trade, threshold, prediction grade or withheld-tool use.
-
-**Coverage priorities October14:** `research/2026-10-14_coverage-priorities/REPORT.md` ranks existing pulls and explicit gaps. ICI week endedOctober7 government/prime assets both grew; dated counterevidence, not current funding clearance. Actual collateral constraints remain the principal blind spot. PROME/WALTER packets saved; consumption unverified.
-
-**Will-directed CATO LQR-1–4 implementation 2026-10-14T15:32:09.070700-04:00:** neutral startup premise installed; named financing constraints/success promoted beside scheduled pulls. Four-case assessment, explicit 15% forecast surprise and dated count clarification at `research/2026-10-14_direction-implementation/REPORT.md`. Strict funding: two/seven listed windows, or two/eight run-reset diagnostics, both one descriptive cluster; original3/7 undefined and1/7 mixes units. Original probabilities/gates and withholding preserved. No future verdict claimed.
-
-**Instrument repair 2026-10-14T16:26:17.242520-04:00:** `research/2026-10-14_alert-SRF-repair/REPORT.md`; acceptance committed before code. Alert delivery, historical dating, same-day SRF guard and preventive HY normalization IMPLEMENTED+TESTED;18 temporary-consumer tests,5 old-code negative controls and39 captured transitions pass. INDEPENDENTLY VERIFIED remains pending underWQ229; no agent launched or real alerts/state written by tests. Supplementary context cannot delay an otherwise complete LIQ-07 verdict.
-
-**Publication incident 2026-10-14T16:33:52.940291-04:00:** safe-push confirmed repaird186bb16a but also exported BROCK2eebe1e2c/50006b90c, whose prior rejection was inspected only after completion. No BROCK approval obtained. Local-only incident/coordination receipts at `research/2026-10-14_alert-SRF-repair/publication-incident.md`; no further remote push or foreign-state rewrite. Reconcile via PROME/BROCK before further export.
-
-
-*Older session (2026-10-08 PROME wake) and the prior NEXT SESSION text → `archive/MEMORY_before-2026-10-15-wake.md` (verbatim copy taken 10/15).*
+*Older sessions (2026-10-08 PROME wake; 2026-10-14 Codex research wave, appended verbatim at the 10/15 closeout) and the prior NEXT SESSION text → `archive/MEMORY_before-2026-10-15-wake.md` (verbatim copy taken 10/15).*

@@ -29,7 +29,7 @@ Will-directed ("anything owed, incomplete, broken, or any gaps in your coverage"
 | C1 | **LIQ-04 access check** (PitchBook LCD monthly CLO AAA average) — owed since 2026-08-20, note says "do not let the check land in December" | Resolver 12/31; if the series is terminal-gated the prediction silently NO-VERDICTs. Not in §3 or OPEN_MONITORS. |
 | C2 | **BDC card M3/M4/M5** (non-accrual %, PIK %, rest) "stay owed" since the 8/23 Q2 grade; **no Q3 card exists** | Q3 10-Qs land ~early–mid Nov; the Q2 card was graded 36 days late for exactly this reason. |
 | C3 | **CATALYSTS.tsv missing forward rows:** LIQ-07 window close 11/6 → resolve 11/10 · FOMC 10/28 (+ UK Budget 10/28) · CFTC TFF as-of 10/13 (publishes 10/16, 076 W1) · Q3 BDC 10-Q window · BROCK OCIC Q3 `SC TO-I/A` ~late Oct (GATE-BRK-R2 read) · Volta final pricing (VULCAN S5 / my L3) | `boot.py` countdown cannot warn on what is not registered; CALENDAR.md twin must get the same set. |
-| C4 | OCIC/BCRED/MS-PIF at 2 consecutive sub-100% quarters (BROCK GATE-BRK-R2) | BROCK owns; I keep no count — but no LIQUID date reminds me to read BROCK's. Covered by C3 row. |
+| C4 | BROCK GATE-BRK-R2 — ⚠️ **CORRECTED 15:2x ET:** R2 (a) already FIRED #2 on OCIC Q3 prelim ~30% (3rd consecutive sub-100%, `AGENTS/SIGNALS.md` 2026-10-02). The original cell copied `CLAUDE.md`'s 9/12 "2 consecutive" text, which is stale. | BROCK owns; I keep no count — but no LIQUID date reminds me to read BROCK's final. Covered by C3 row. |
 
 ## D. Housekeeping / near-limits
 
