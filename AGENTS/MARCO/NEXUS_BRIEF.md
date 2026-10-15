@@ -3,7 +3,7 @@
 **Status:** 🟠 **v3.2** (unchanged s32). 🆕 **s32 (10/14) = catch-up of every print that lapsed while dark — no thesis version move.** **Channel 1's two quantity instruments SPLIT:** remittance re-spec **CONFIRMED** (Aug count 2-yr −11.99%) while **`SDL-01` flipped NORMAL** (Sep foreign-born labor force **+206K YoY**, one print; conviction HELD, November pre-registered). `ENR-02` leg 1 **PASSED** (Sep airfares 2-yr +26.36%). Canada **−28.72%** BREACHED 11th month, `ID-01` leg 1 MET. NTTO Sep −22.40% vs 2019 (widening run broke). LVCVA Aug RevPAR −11.5% (Labor Day-confounded). BTS July all-3 FL airports negative raw — CONFOUNDED. 🆕 **s32b owed-work pass:** US–Canada air **seats** now measured (winter 25-26 −11.03%, **FL −17.67%**; TOUR-03 instrument adopted, letter ruled by Will: calendar-year seats vs CY2025, conf 90→75%); state-of-origin remittance map run and retired as non-discriminating; AZ-01 / TAX-01 / ENF-01 refreshed NORMAL with two of MARCO's own 8/21 conclusions reversed.
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag/immigration), internal migration (FL/Sun Belt). FL is the primary geography.
 **Thesis version:** **v3.2** (set s29, Will-ruled 9/24: Channel 4 MED-LOW → LOW). s30–s32 moved no channel. · **Position:** none — theses express downstream via REGINALD (bank/CRE) and CARL (consumer).
-**As of:** 2026-10-14 22:04 ET (session 32c — Arizona rule re-spec'd after the owed-work pass). **STATUS commit:** `fb8382621`.
+**As of:** 2026-10-14 22:08 ET (session 32 closeout — catch-up, owed-work pass, Arizona re-spec). **STATUS commit:** `fb8382621`.
 
 ---
 
