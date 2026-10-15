@@ -46,6 +46,26 @@
 3. **Never run agent sessions on both machines simultaneously.** Serial operation is what makes the git layer safe (see root `CLAUDE.md` Git Protocol).
 4. ✅ **DONE 2026-09-22 20:3x ET (WQ-238 closed, prome-68; rows 13 + 25) — kept for history:** ~~**Arriving on the LAPTOP (until done once):** paste `FIRMS_MAP_KEY=<the key from Will's 9/11 NASA email>` into `FORGE/tools/market-data/.env` — row 25 above; `python3 scripts/env_doctor.py --quiet` flags it once DAEDALUS lands the REQUIRED_KEYS add. Same class as the FFIEC laptop gap (row 13).~~ *(Added 2026-09-11 14:3x.)*
 
+## Overnight desk runs (Will) — what killed the 10/15 sessions, and the checklist before leaving desks running
+
+**Incident (VERIFIED at the Windows System log, Will's PowerShell paste 2026-10-15 09:40 ET):** Event 1074 at **03:28:30 and 03:29:04 AM 2026-10-15** — `C:\WINDOWS\servicing\TrustedInstaller.exe` initiated a **planned restart** ("Operating System: Upgrade (Planned)", reason 0x80020003) on behalf of SYSTEM after installing KB5127648, KB5127647 (security) and KB5127690 (update), all stamped 10/15. The restart tore down the WSL2 VM; every Claude session in it (nine desks, PROME, two helpers) died; their last transcript writes were 03:08 ET; WSL booted fresh at 07:47 ET when the lid opened. Closing the lid did NOT cause it — sleep pauses the VM and sessions survive it; a Windows RESTART does not. Recovery: `PROME/reports/2026-10-15_crash-recovery-closeout.md`; 82 uncommitted paths at nine desks recovered by re-spawn.
+
+**Diagnosis first, every time (from PowerShell, not WSL — the Windows log is unreadable from here):**
+```
+Get-WinEvent -FilterHashtable @{LogName='System'; Id=1074,41,6008} -MaxEvents 10 | Format-List TimeCreated, Id, Message
+Get-HotFix | Sort-Object InstalledOn -Descending | Select-Object -First 3
+```
+1074 names the requester and reason (TrustedInstaller = Windows Update); 41 / 6008 = an unclean shutdown (power loss, crash); a hotfix dated the same day confirms an update restart.
+
+**Checklist before leaving desks running overnight on either box (Will's hands; settings PROME cannot set from WSL):**
+1. **Windows Update → Advanced options:** set **Active hours** to cover the run window (max 18 h; e.g. 14:00–08:00), or **Pause updates** for the week of a research wave. This is the one that bit on 10/15.
+2. **Power → lid close = "Do nothing"** (plugged in) and **Sleep = Never** (plugged in) on the laptop; the desktop is the better overnight box (no lid, mains power).
+3. Plugged in, not on battery; battery saver off.
+4. Every session inside `tmux` (already the practice) — survives a terminal close, not a reboot.
+5. Desks **checkpoint-commit** at each finished artifact (ideas list 2026-10-15; blueprint change pending) so a reboot strands minutes, not hours; PROME writes its SCRATCH checkpoint before leaving desks unattended.
+6. Fewer desks in flight unattended: the 10/15 exposure was twelve things at 3 a.m. A wave that must run overnight runs on the desktop with 1–2 confirmed, or paused updates.
+7. On return: `uptime -s` (WSL boot time) and the transcript mtimes (`find ~/.claude/projects -name '*.jsonl' -newermt '<last known time>'`) date the death; then the recovery brief procedure in the 10/15 record.
+
 ## Session diagnosis one-liners
 ```bash
 python3 "$(git rev-parse --show-toplevel)/scripts/env_doctor.py"   # one-shot: keys + machine-local extras (PROME boot gate runs it --quiet)
