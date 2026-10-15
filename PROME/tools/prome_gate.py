@@ -1432,6 +1432,72 @@ def check_orch_closeout():
                "Reconcile --expected-key values from the tool record with --inventory-complete; "
                "without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.")
 
+ORCH_LEDGER = ROOT / "PROME/state/ORCH_LOG.tsv"
+ORCH_VIEW = ROOT / "PROME/state/ORCH_INFLIGHT.md"
+ORCH_VIEW_HEADER = re.compile(r"^# generated (\d{4}-\d{2}-\d{2}) · source \S+ \((\d+) data rows\)", re.M)
+ORCH_OWNER = ("scripts/orch_log.py append — the ONLY writer (validates the row and the ledger, appends under a lock, "
+              "regenerates PROME/state/ORCH_INFLIGHT.md as its last step); a hand row: `orch_log.py check`, then "
+              "`orch_log.py view`, and NAME the row in the closeout report (L733, 2026-10-15)")
+
+
+def orch_ledger_rows(path):
+    """Data-row count + newest date of a schema-v2 ledger, counted the way orch_log.check counts
+    (non-empty, non-comment lines; the `date\t…` header excluded). Raises OSError on an unreadable file."""
+    n, newest = 0, ""
+    for ln in Path(path).read_text(encoding="utf-8").split("\n"):
+        if not ln.strip() or ln.startswith("#"):
+            continue
+        f = ln.split("\t")
+        if f[0] == "date":
+            continue
+        n += 1
+        newest = max(newest, f[0].strip())
+    return n, newest
+
+
+def check_orch_log_observed(ledger=None, view=None):
+    """L733 OBSERVED (2026-10-15): `scripts/orch_log.py append` regenerates the in-flight view as its LAST
+    step under the writer lock, so the view's header count equals the ledger's data-row count whenever
+    every row entered through the writer. A ledger with MORE rows than the view records holds a row
+    typed by hand (or a writer append whose view step failed and said so). COUNT, not date: a same-day
+    hand row passes a date test (the 10/15 class — 59 hand rows, two merged plus a blank line, found by
+    a hand width check hours later). BLOCKING because an advisory here is overridden exactly as the
+    width check was; the remedy is one command and the row's name in the closeout report. A missing or
+    unparseable input is UNKNOWN and FAILS — never a pass, never a silent default."""
+    ledger = Path(ledger) if ledger else ORCH_LEDGER
+    view = Path(view) if view else ORCH_VIEW
+    name = "orchestration log OBSERVED (in-flight view row count == ledger, L733)"
+    try:
+        head = "\n".join(view.read_text(encoding="utf-8").split("\n")[:3])
+    except OSError as e:
+        record(BLOCK, name, False, f"UNKNOWN: view unreadable ({type(e).__name__}: {str(e)[:80]}) — "
+               "regenerate with `orch_log.py view`", ORCH_OWNER)
+        return False
+    m = ORCH_VIEW_HEADER.search(head)
+    if not m:
+        record(BLOCK, name, False, "UNKNOWN: the view's header carries no `# generated <date> · source … (N data rows)` "
+               "line — not the writer's form; regenerate with `orch_log.py view`", ORCH_OWNER)
+        return False
+    vdate, vcount = m.group(1), int(m.group(2))
+    try:
+        n, newest = orch_ledger_rows(ledger)
+    except OSError as e:
+        record(BLOCK, name, False, f"UNKNOWN: ledger unreadable ({type(e).__name__}: {str(e)[:80]})", ORCH_OWNER)
+        return False
+    ok = n == vcount
+    if ok:
+        detail = f"view generated {vdate} records {vcount} data rows == ledger {n} (newest row {newest or '—'})"
+    elif n > vcount:
+        detail = (f"ledger holds {n} data rows, the view (generated {vdate}) records {vcount}: {n - vcount} row(s) "
+                  f"entered WITHOUT the writer, or its view step failed — `orch_log.py check`, then `orch_log.py view`, "
+                  f"and name the row(s) in the closeout report (newest ledger row {newest})")
+    else:
+        detail = (f"the view (generated {vdate}) records {vcount} data rows, the ledger holds {n}: rows left the ledger "
+                  f"without `orch_log.py rotate`/`view` — regenerate with `orch_log.py view` and say what moved")
+    record(BLOCK, name, ok, detail, ORCH_OWNER)
+    return ok
+
+
 MEMORY_OWNER = "root CLAUDE.md carve-out ③ · scripts/memory_index_check.py --strict --slug <name>"
 CONSUMER_OWNER = "root CLAUDE.md step 1c + PROME/SYSTEM.md Mirror Map · scripts/consumer_check.py"
 
@@ -1671,6 +1737,13 @@ def mode_boot(advance_board=True):
 
 def mode_closeout(tier=None, memory=None, superseded=None):
     check_orch_closeout()
+    # L733 (2026-10-15): the orchestration log has ONE writer and closeout is where its rows get WRITTEN
+    # (Pre-closeout 3, step 8) — the validator and the OBSERVED check run here, BLOCKING. The writer existed
+    # since 9/3 (L262 RESOLVED named it canonical); every 10/15 row was typed by hand because no procedure
+    # routed to it and this gate never ran `check`.
+    run_script(BLOCK, "orchestration log validates (scripts/orch_log.py check, L733)",
+               [sys.executable, "scripts/orch_log.py", "check"], ORCH_OWNER)
+    guard(check_orch_log_observed)
     guard(check_review_manifest, tier)
     guard(check_publication_prereqs)
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
