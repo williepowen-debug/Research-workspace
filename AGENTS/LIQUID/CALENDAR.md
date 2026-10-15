@@ -1,6 +1,6 @@
 # LIQUID — Calendar & Data Releases
 
-**Reviewed:** 2026-10-14T14:38:55.053387-04:00 — human twin of `workbook/CATALYSTS.tsv`,39 existing registered/owner obligations. Four existing October deadlines were missing from the countdown and are now represented; no new test/threshold. Current owed list: STATUS§3. Past date alone does not prove resolution. Exact criteria, outcome/source notes and date classes live on each machine row.
+**Reviewed:** 2026-10-14T14:38:55.053387-04:00 — human twin of `workbook/CATALYSTS.tsv`,41 registered/owner obligations (updated 2026-10-15: 069 graded, its L4 10/16 row and 10/30 successor recommendation added, discount-window read re-dated to 10/16). Four existing October deadlines were missing from the countdown and are now represented; no new test/threshold. Current owed list: STATUS§3. Past date alone does not prove resolution. Exact criteria, outcome/source notes and date classes live on each machine row.
 
 Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior full calendar preserved in `archive/2026-10-14_staleness-sweep/CALENDAR.md`.
 
@@ -41,7 +41,9 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-12-31 | Warsh Balance-Sheet Policy review outcome | Existing dated obligation: exact criteria/source in machine row |
 | 2026-12-31 | NAIC CLO RBC charges BITE (insurer capital treatment) | Existing dated obligation: exact criteria/source in machine row |
 | 2026-12-31 | Updated tentative Treasury buyback SCHEDULE release (UNDATED — placeholder date) | UNDATED placeholder; not a forecast date |
-| 2026-10-15 | Discount-window primary credit — October14 Wednesday point (existing NEXUS T-30 follow-up) | Existing dated obligation: exact criteria/source in machine row |
-| 2026-10-15 | GATE-LIQ-069 existing review (PROME-set successor date) | Existing dated obligation: exact criteria/source in machine row |
+| 2026-10-16 | Discount-window primary credit — October14 Wednesday point (existing NEXUS T-30 follow-up) | Existing dated obligation: exact criteria/source in machine row (re-dated 10/15: publishes 10/15 ~16:30ET, read at 10/16 wake) |
+| 2026-10-15 | ✅ GRADED 2026-10-15 — GATE-LIQ-069 existing review (PROME-set successor date) | Past date: graded, see machine row |
+| 2026-10-16 | GATE-LIQ-069 L4 — 10/14 session HY half (equity half MET: CRWV raw close -15.46%) | Existing dated obligation: exact criteria/source in machine row |
+| 2026-10-30 | GATE-LIQ-069 review — owner-recommended successor (PROME sets in GATES.tsv) | Recommendation pending PROME transcription |
 | 2026-10-30 | GATE-LIQ-076 existing review — dealer-positioning amplification | Existing dated obligation: exact criteria/source in machine row |
 | 2026-10-31 | GATE-LIQ-079 existing review — FIRE-leg bands/base-rate proposal | Existing dated obligation: exact criteria/source in machine row |

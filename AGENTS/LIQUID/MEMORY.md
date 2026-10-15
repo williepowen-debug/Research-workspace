@@ -2,7 +2,21 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-10-14T14:05:40.282749-04:00 — October14 Will-launched Codex research wave)
+### CURRENT SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
+
+No `git pull` (tree carries HOMER/LABOR/ORACLE/SAM recovery work); pathspec commits only. Root/local instructions read explicitly.
+
+- **GATE-LIQ-069 reviewed at review_by:** 2-of-2 FIRED unchanged. **L2 deepening:** DTCC Dec-2031 CoreWeave 5Y 17.17–18.67pt [10/14] ≈ 1,059–1,120bp model-derived, vs ~840 [10/7], above the 877.6 Dec reference. **L4 10/14 equity half MET** (CRWV −15.46% raw); HY half pending (fires iff HY [10/14] ≥321). KB-LIQ-073 basket (HYG evaluated CRWV 2030/31/32 YTW 14.41/14.90/15.83%) routed via WALTER. Next review_by **10/30 recommended** to PROME. → `analysis/2026-10-15_gate069-review.md`.
+- **L708 leg → NEXUS:** CCC excess over B-beta +66.9bp, 7/7 primary sessions; ICE baskets fixed intramonth (KB-LIQ-144) so H3 migration excluded in the window; rebalance 18.5% of move (NOT SUPPORTED); few-names/sector NO_INSTRUMENT (HYG holdings = forward-only proxy); H2 MIXED; **H1 token NO_INSTRUMENT**. → `analysis/2026-10-15_L708-H3-ccc-gap-beta-and-rebalance.md`.
+- **LIQ-07:** funding legs absent through 10/14 (z −0.7, SOFR99−IORB +7, SRF $0.001B). ARMED for 10/16 (10/15 SOFR at ~08:00; 10/14 ICE cell ~10/15 16:15). RED's 10/12 non-session reading = my SOFR list; no letter change.
+- **Alert/SRF repair, read #1 HOLD → fixed:** CE1 (repeated first-published date fails kill closed) + CE6 (`fred_series` dates value by its own row); acceptance `88fece5a7` before code `fd036576c`; 20/20 tests; second read pending (PROME).
+- **Inbox 20 → 0** (`ba98e8977`): 9 acted, 11 noted. COR-20261014-23 NO-OP.
+
+### NEXT SESSION
+
+10/16 wake (armed): ① LIQ-07 final funding read after ~08:00 ET (10/15 SOFR obs) on BOTH lists, plus confirm the 10/14 ICE cell; S2 unless a leg reads; a 10/15-only leg ⇒ AMBIGUOUS-BY-SESSION-LIST → PROME. ② GATE-LIQ-069 L4 on the 10/14 session (`gate069_legs.py`): HY [10/14] ≥321 ⇒ L4 observation, route via WALTER. ③ WLCFLPCL as-of 10/14 (released 10/15 16:30) beside the verdict, not a leg. ④ August TIC (Japan net transactions; Cayman bills verify at primary). Keep withheld tools withheld; second WQ229 read of the alert/SRF repair is PROME's.
+
+### PRIOR SESSION (2026-10-14T14:05:40.282749-04:00 — October14 Will-launched Codex research wave)
 
 Session `01a13b8c-ebf0-74c0-a1c3-5ae79550bd06`; sole writer confirmed by Will after partial sandbox inventory. Root/local instruction reads explicit. No additional agents. No pull while BRENT/TERRY/PROME carry concurrent changes; owned scoped persistence only.
 
@@ -22,51 +36,5 @@ Recovered REGINALD/WAL/BOND/PROME current approved returns; no duplicate bank st
 
 **Publication incident 2026-10-14T16:33:52.940291-04:00:** safe-push confirmed repaird186bb16a but also exported BROCK2eebe1e2c/50006b90c, whose prior rejection was inspected only after completion. No BROCK approval obtained. Local-only incident/coordination receipts at `research/2026-10-14_alert-SRF-repair/publication-incident.md`; no further remote push or foreign-state rewrite. Reconcile via PROME/BROCK before further export.
 
-### NEXT SESSION
 
-Run existing boot, then STATUS§3(the only owed list). Prioritize October15/16 funding/ICE publications and October14 discount-window point release, then October16 LIQ-07 context/dual-list verdict and August TIC. Carry financing/forecast/count context; missing supplementary context does not delay a grade from complete registered inputs and both lists. Revisit cases only at existing owner carriers. Independent instrument read remains owed. WQ404 reader must see HANS's known-wrong line68 before any edit/release. Keep withheld tools withheld. Recipient consumption and live closeout transport remain unverified until an actual acknowledgment.
-
-### PRIOR SESSION (2026-10-08 Thu 08:14–08:4x ET — PROME `prome-fc` Tier-1 WQ-184 due-row wake under WQ-389 (DOCKET L568, 1 day overdue), laptop. STANDARD: L568 fix pass delivered (still WITHHELD) · 076 state for the 10/9 review · WQ-363 encoded · inbox 29 → 0 · 1 KB · 0 thresholds moved)
-
-**Context:** Book FLAT, $0. X1 CLOSED. No `git pull` (the tree carried WALTER's uncommitted work; origin was even at fetch). Eight desks woke in parallel.
-
-**Delivered:** ① **L568, one pass**, with the acceptance conditions committed BEFORE the code (`a3e8af6fa`), then the code (`9004d5450`), then the letter and change note (`dba78f384`). The fixes:
-- X1: per-leg grading, PARTIAL = exit 3, a known ALERT never printed as UNGRADEABLE.
-- X2: `--baserate` fails closed.
-- X3: the window's cost is computed — 248/1,031 weeks (24.1%), 10 suppressed ≥$10B weeks incl. 2007-12-26.
-- X4: one live turn rule in the analysis file.
-- X5: ONE letter (`analysis/2026-10-08_usd-swapline-LETTER.md`).
-- D2: `WITHHELD = True`; a default run refuses before any network call, exit 4.
-
-Tests:
-- selftest 48/48;
-- daily real-data regression 2014→2026: 0 graded days changed;
-- outage replay on 266 real ALERT days: the old code went UNGRADEABLE on all 266, the new code has 0 violations;
-- CATO's probe at `9004d5450`: rc 4, banner true.
-
-**IMPLEMENTED · TESTED, NOT verified; WITHHELD until PROME's read 3.**
-
-② **GATE-LIQ-076: 1 of 3, NOT MET** in the window 9/24→10/7.
-- W1 [as-of 9/29]: −2,410,343, w/w +34,643.
-- W2 [as-of 9/23]: G10 −8,189 · G5L10 +1,176.
-- W3: met on every session.
-- No re-arm, so no 2nd write-up is owed whatever Friday prints. Next review_by recommended: 10/30.
-
-③ **WQ-363 encoded** on the X1 card. The HY leg is MET at 9/29 and holds through 303 [10/6]; that is a leg state only.
-
-④ **Q3 persistence:** every leg read is NOT MET. ARMED on WRESBAL as-of 10/7 (16:30 ET 10/8): SEASONAL unless < $2,800.0B.
-
-⑤ **Drain of 29 packets** (`0734364ed`): 6 acted, 23 noted. Acted:
-- OCIC fire = wrapper evidence, not a re-arm;
-- CABO added to breadth;
-- Paramount kill strings: none carried;
-- FOMC minutes: funding kept separate from duration;
-- the FT channel answered;
-- WQ-363.
-
-**Found:**
-- ① **BIZD's first close under $12.50 (10/1) is its $0.437 ex-dividend.** A raw-close wrapper-vs-manager comparison across 10/1 carries the dividend; named for BROCK via the PROME memo.
-- ② **The read-2 X1 class, measured on real history** (KB-LIQ-143): a fail-closed check that returns before grading turns every real ALERT into UNGRADEABLE under a one-source outage — 266 of 266 days.
-
-**NEXT SESSION entry point:** the NEXT SESSION block below, then STATUS §3.
-
+*Older session (2026-10-08 PROME wake) and the prior NEXT SESSION text → `archive/MEMORY_before-2026-10-15-wake.md` (verbatim copy taken 10/15).*
