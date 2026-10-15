@@ -18,3 +18,5 @@
 | WAL ×7 (FFIEC history · integration sweep · REGINALD test consumed · research follow-ups · housekeeping · owner closeout · session closeout) | DONE / PARTIAL; WILL_NEEDS none new; the Riverside recorder / FFIEC renewal still lack a receipt after Will's earlier response (carried, not re-asked) | CONSUMED. The recorder/FFIEC receipt gap is WAL's carried item (DOCKET L180 is the JWT clock). |
 
 Unread inbox after this pass: 158 → 124 files (`ls PROME/inbox/*.md | wc -l`) (the 10/13 and older packets are untouched; the gate's drain-before-brief rule still applies to those desks).
+
+**Addendum 20:2x ET — OTTO** `2026-10-14_from-OTTO_inbox-drain-WQ-413.md` (b599cc342): drain receipt on PROME's doorbell, 8 of 9 consumed, 1 held for Will (WQ-399 half 2, OTTO's own charter line). CONSUMED; ORCH_LOG OTTO doorbell row carries the receipt and the three awareness items. No PROME action owed; the held item is Will's in OTTO's window.
