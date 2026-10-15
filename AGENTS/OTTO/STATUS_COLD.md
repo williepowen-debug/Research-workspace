@@ -160,6 +160,14 @@ purpose: root rule #4 says never cite a price from a STATUS file — fetch live.
 
 *Next triggers **(rebuilt 2026-08-27 — the ~Sep 15 First Brands row FIRED EARLY on Aug 24 and is retired; the two ~Aug 17 rows fired — the 10-D SWEPT in blocks 2-4, the FWP window STILL UNSWEPT)**: **🔴 ENTRY of the First Brands CONVERSION ORDER (~Aug 27-31) — this is now OTTO-32's resolver; conversion is ordered but *effective upon entry*. Poll `docket_id:71483359` EVERY session**; **✅ ~Aug 17 Bridgecrest/Santander 10-D — FIRED + SWEPT 8/27 (blocks 2-4); CVNA read UNFROZEN, BLAST 2024-1 60+ DQ 15.30 / CNL 25.41 — closed**; **⚠️ ~Aug 17 EART 2026-4 FWP — FIRED, UNSWEPT**; Aug (TBD) BDC Q2 10-Qs → $237M First Brands **par**-figure refresh → **BROCK** (who also owns the **PSEC Rule 2004** thread — and both worsen on the Ch.7 conversion); **Sep 4** Tricolor privilege chain — first DOCKETED output; **~Nov 15 SEVERITY-DIVERGENCE TEST quarterly re-run** (`--manheim <yoy>` required or the run is uncontrolled and must not be recorded; **this REFUTE + one more ⇒ cut, don't narrow**); **Sep 30** OTTO-29 resolve (OTTO-32 expected earlier, OTTO-04 already falsified); **Dec 4** Goodgame sentencing control date; **Dec 9** Tricolor FPTC; **Dec 31** OTTO-07/-11/-12/-31/-33/-34 resolve; **Jan 25 2027** Tricolor criminal trial (Castel). **Watch-items with no date:** the **Kollar/Seibold plea transcripts** (highest-yield OTTO-33 instrument, ordered unsealed 7/30, **still unposted at 28 days — re-examine the DELAY itself at ~Sep 28**); the **8/24 hearing transcript** (Dkt 3727, filed 8/27, **access restricted through ~11/2** — carries Lopez's reasons). **RETIRED from this footer:** the ~Sep 15 confirmation-ruling row (**fired Aug 24**).*
 
+
+**Swept 2026-10-14 (s028) — the CRMT 10/1 STD and 10/7 backstop rows. Both graded by BROCK: L479 = a FIFTH bridge (8-K 0001171843-26-006326, agreed 9/30, STD → 10/8); L480 = CLOSED SILENT 10/8. Then a SIXTH bridge (8-K 0001171843-26-006538, agreed 10/8, STD → 10/15; BROCK L585). OTTO re-read both 8-Ks at primary 10/14. Rows as they stood:**
+
+| Date | Event | Status |
+|------|-------|--------|
+| **Oct 1 (Thu)** | 🔴 **CRMT — bridge-4 Scheduled Termination Date** (Silver Point) | 🔴 `confirmed` **Owner BROCK (DOCKET L479); OTTO reads BROCK's grade, never ahead of it.** Bridges 3 and 4 both filed ~16:05 ET on the expiry day ⇒ read after ~22:00 ET or next morning. Silence narrows, never grades |
+| **Oct 7 (Wed)** | CRMT — Item 1.01 backstop #2 (agreement dated ≤10/1 must reach 8-K) | 🟠 `confirmed` Owner BROCK (DOCKET L480). Silence through 10/7 narrows, is not a grade |
+
 ---
 
 ## 4. PREDICTIONS — resolved rows (verbatim; OPEN rows stay hot; canonical ledger is `thesis/PREDICTIONS.tsv`)
@@ -400,3 +408,32 @@ split, not an archive. Archives are frozen; this file is maintained alongside `S
 
 ### Predictions — the s025 resolved line
 > **✅ Resolved 2026-09-30 (s025), at AS-MADE:** OTTO-06 FALSIFIED · OTTO-10 FALSIFIED · OTTO-29 FALSIFIED-on-window / CONFIRMED-on-substance · OTTO-32 CONFIRMED (VERIFIED Dkt 3748). Brier 0.4900 / 0.4225 / 0.5625 / 0.0225, mean 0.3744. Grades in `thesis/PREDICTIONS.tsv` Result cells; pre-resolve rows verbatim → `STATUS_COLD.md` §12.
+
+---
+
+## 14. Lines rotated out of hot STATUS 2026-10-14 (s028) — verbatim, as they stood before replacement
+
+*Rotated by the read-cap rule-5 pass (STATUS 26,984 B > the 75% trigger; stop < 22,785 B). Hot STATUS wins on any disagreement.*
+
+**s027 + s026 boot pointers:**
+
+> **📌 Session 027 (Oct 4, Sun — PROME explicit intake, ONE item: Hertz `SIG-W-20261004-006`). Disposition: ADDS A WATCH.** The reported sale of Hertz's **Australian** business has **no relevant effect** on the US used-car channel: that fleet stays in Australia on its own ABS ($226M, 1.8% of Hertz vehicle debt) `[CONF 10-Q Q2-26]`. The only route to a US fleet dump is an **HVF III amortization event or a Hertz Ch.11**; the fleet platform priced $834.75M of notes on 8/27 `[CONF 8-K]`. Dated test **~Dec 1** (CRITICAL TIMELINE). No 8-K on the Australian sale (EDGAR, 10/4). ML-OTTO-287. **No trade, threshold, prediction or confidence changed.** ⚠️ The 10/1 rows below were NOT swept this session (bounded spawn) — still owed.
+> **📌 Session 026 (Sep 30, Wed late — PROME spawn on CATO RC2 + RC3, `433084d2b`). Evidence re-check of the 9/30 grades. No outcome flipped.** s025 pointer → `STATUS_COLD.md` §13.
+> - **Verified + calibration-eligible set is now 2 rows, 1 of 2, mean Brier 0.2925:** OTTO-29 ❌ on window (0.5625) and OTTO-32 ✅ (0.0225). ⚠️ **n=2 is not a calibration statistic, and it reads better than 0.3744 only because two misses left on evidence grounds.**
+> - **OTTO-10 → NEEDS_VERIFY.** CATO was right: the grade read Equifax data through March against a claim that runs through Q3. The July and August editions **did exist** (full month names; s025's 404s were guessed URLs). Coverage now runs through May: YTD account share 18.1%, balance share 15.2%, nothing below 13% on any reading. **But the May monthly balance share is 13.1%, 0.1pp above the line after three monthly declines.** Re-check at the edition covering September (expected Dec, `CATALYSTS` 12-15).
+> - **OTTO-29 VERIFIED.** The claims agent's full free docket (Verita, 1,448 entries, case 25-33487) has no distribution order and no final report. The trustee's own 4/30 report projects the final report for **9/30/2030** (Dkt 1113). **OTTO-06 stays FALSIFIED but is NOT calibration-eligible:** the clause that resolved it was written after the July data, and on the 2/23 terms the result sits in the 15–18% dead zone. Detail is in the `PREDICTIONS.tsv` Result cells, `PREDICTIONS_ARCHIVE.md` and `research/2026-09-30_RC2_evidence_receipts.md`.
+> - **No trade, threshold, confidence cell, as-made or term changed.** `NEXUS_BRIEF.md` First Brands / OTTO-32 statements reconciled (RC3) and its poll row retired.
+
+**Resolved-set note under § PREDICTIONS (s025/s026):**
+
+> **✅ Resolved 2026-09-30 (s025), re-checked for evidence s026 (CATO RC2):** OTTO-29 FALSIFIED-on-window / CONFIRMED-on-substance, **VERIFIED** (Verita full docket + Dkt 1113), eligible, 0.5625 · OTTO-32 CONFIRMED, **VERIFIED** (Dkt 3748), eligible, 0.0225 · OTTO-06 FALSIFIED on the 9/28 instrument, **not calibration-eligible** (0.4900 shown, not counted) · OTTO-10 **NEEDS_VERIFY** (Equifax through May only; s025 FALSIFIED held, 0.4225 staged, not counted). **Verified + eligible: 1 of 2, mean 0.2925** (n=2, not a calibration statistic). The s025 '1 of 4 / mean 0.3744' is the as-graded figure; its arithmetic is correct and it is superseded as a verified figure. Grades: `thesis/PREDICTIONS.tsv` Result cells; pre-resolve rows verbatim → `STATUS_COLD.md` §12, s025 lines → §13.
+
+**s025/s026 BOTTOM LINE paragraphs:**
+
+**🔴 The finding this session is against OTTO's own instrument.** OTTO-10 spent seven months on a "16.5→15.2→14.7% Equifax unit share" that no Equifax table contains. At primary, the subprime share of originations is **rising on both bases**. The 8/14 cut was right in direction, but for a reason that does not exist. A gate missed by 8 days was still worth grading: resolving on 9/30 without it would have scored the row off a phantom series.
+
+**⚠️ Two carried states were stale while the desk was dark.** First Brands' conversion order landed 9/1 while OTTO still carried "entry UNVERIFIED". CRMT bridged twice past OTTO's "live" 9/18. **A dark desk does not freeze the world, and it does freeze the desk's description of the world.**
+
+**Archive-pointer line (s021-era):**
+
+*2026-03-23 – 2026-05-22 PM dated check-in blocks archived to `workbook/STATUS_archive_20260608.md` (2026-06-08 line-cap pass). Resolved outcomes → CRITICAL TIMELINE; thesis pivots → CHANGELOG.md; current vector state → ACTIVE VECTORS.*
