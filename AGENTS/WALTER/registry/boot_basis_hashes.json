@@ -23,9 +23,9 @@
   "FORGE/tools/market-data/dashboard.py": "b8271cb66df872c9b36c6a478e529ffa0c58dc09ddeaa4e6c50fb219638a561d",
   "FORGE/tools/market-data/fetch.py": "afb8838728c74d8584d46ec2aadb948efdffc6deddc275f9eb23dc9d05d76c6b",
   "PROME/COMPLETION_SPEC.md": "d213e20eb75f65ab6953ec99d6430c56500744ea4fad8efd01d968228288a6ff",
-  "PROME/ORCHESTRATION_PLAYBOOK.md": "22c0750a022d7211fd017a94efe1db6f2525380db526972a2ee03b62b85b6d20",
+  "PROME/ORCHESTRATION_PLAYBOOK.md": "d12c35316024397879a44679187b43a3bc3ab84e458c5463e166dcef75d017d9",
   "PROME/tools/reads_check.py": "6fa5e0b5f5e99ea63f43133cdce7d939198866fe682139dca62dbca0ef4fc115",
-  "USER.md": "93dec5953f37a02058c48a389e6653743fcb2da0aec20db7b06da7bd8b690b2a",
+  "USER.md": "8cb441d55bb6bec0e90352141a92f5b3e565dbbc5b7f86c405042a21bf71d742",
   "scripts/corrections_boot_check.py": "db69634350a304386e77eab0220c1a2efb4ee47aaeba58a2e45435bc21bf8f0e",
   "scripts/read_cap_check.py": "b5fbd2fd3b108a3d375731f30dd4470bdd4ad7fbfecf3f1a295aa5fc30279180"
 }
