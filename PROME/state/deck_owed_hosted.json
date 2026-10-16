@@ -1,0 +1,28 @@
+{
+ "_doc": "L738 / WQ-446 A hosted record — the Owed view the HOST holds, copied from the receipt embedded in the page file that was published / downloaded from the host (never recomputed from the queue, never from a build-receipt file). The closeout gate compares the current owed set with these fingerprints: equal ⇒ NO-OP (recorded, not published); different ⇒ OWED; absent ⇒ UNKNOWN.",
+ "digest": "3cc76407d23352b4b554eb3c68eb64eef4452834cb829413ad8c17aa256535d9",
+ "fingerprints": {
+  "204": "beb37721f427ea90eefe0ddb2b07510c693f7b0c8c2b3c91fc14031e91c9b253",
+  "302": "fa74991064789364043cd22150b8e045e54fbda436a9245bcdf6238424f779d4",
+  "31": "6c11fcda16a481fb33d357f1feb900e2723daf2f5f50279621f70a23aeccf783",
+  "357": "ee5a4c58d19e0e33a382068c065a380c5ec3e080b04da50bc192ff054dd5547d",
+  "422": "23533b5c10e20e8a3f69803aba148790667b3835b1cb9ba725025fd22daddd47",
+  "441": "7f3a1a452d0ea56dc9ad83039f9bd1ce21c25d6b15963e603cd4f4028d4dda83",
+  "442": "8c5b77a2e5889096eb5cdc01f89b58bf123aaaf17b64d35e6a2706ea529938d5",
+  "443": "cc2c9df7d7c495b27299c28d6c1a7d27c285f0ce2ebcf32feda6100fbf7fc99f",
+  "445": "dcff61a56186eb6a405738a0f1ef2e8b89b4465f13d922503fe7f463b585f653",
+  "448": "1087df76e948c06f02c3bee70a57396429a77c440dd22bf0e5b2ddd52d6b1bfa",
+  "449": "64a4080dfd07382c8a38517d93417d2c554512f2a86b5986d6108bf822af202b"
+ },
+ "extras": {
+  "reference_note": "hosted build 2026-09-26 16:03 (v12); refreshes on Will's word or at a spine audit",
+  "renderer": "c3e7235cc3dd746c0c70b12af712be43c5a101aa8cbef137b29ee48170ab6a5e"
+ },
+ "version": "v114",
+ "published_at": "2026-10-16 00:58 ET",
+ "build_id": "ea99186fc·2026-10-16 00:57 ET",
+ "built_at": "2026-10-16 00:57 ET",
+ "build_sha": "ea99186fc",
+ "page_sha256": "df744b577f54b89db58f386a543ced06dfea99aea017b94b234bd97b8573dc0f",
+ "page_file": "/tmp/claude-1000/-home-willi-Research-workspace-PROME/b486657a-3c9c-4ce0-a606-b35537aa3fe2/scratchpad/artifact-files/16655022-6e00-4cea-9916-7cb0ff304bca/index.html"
+}

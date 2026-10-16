@@ -116,3 +116,27 @@ Tonight (prome-be, slot already spent on change 1): this plan; ② executed as h
 > 4. Complete the existing reviewed closeout. Distinguish COMMITTED, PUSHED and PUBLISHED, verify the actual hosted build, and record its matching receipt only after confirmed publication. Clearly name anything still pending.
 >
 > WQ-448's addendum remains a separate, unapproved proposal. No third optimization or additional broad audit is authorized. Due research and position work retains priority.
+
+## Will's word — reboot closure, 2026-10-16 10:45 ET (PROME session b486657a; pasted verbatim)
+
+> Finish this sitting with bounded closure, then stop for reboot.
+>
+> 1. Consume CATO's review, commit d46977765. Use its targeted checks as the evidence for L738's final command-line correction. Reconcile the outstanding hold and resume the already-approved NO-OP behavior if that was its sole remaining condition. Preserve the requirement to record from the downloaded copy after confirmed publication. Do not commission another identical review; name any specific surviving blocker.
+>
+> 2. Run the omitted fire-time check on the affected citing artifacts and disposition its results.
+>
+> 3. Keep WQ-448 unapproved. Record CATO's remaining D1 condition: checks must examine the same fixed snapshot that receives the receipt. Include the "change, check, change back" counterexample in its acceptance conditions. No implementation or broader redesign this sitting.
+>
+> 4. Preserve the seven-day docket cues. No further compression now. Leave WQ-445 and WQ-449 for their separate rulings.
+>
+> 5. Complete normal reviewed closeout, accounting for pending state files and distinguishing committed, pushed and published. Explicitly identify anything that legitimately carries forward.
+>
+> Leave a short reboot handoff with Friday's due research and position-facing work first. Then stop—no new process initiative before reboot.
+
+**PROME's reading (same sitting):** the NO-OP hold's sole condition was one independent read of the `--page` change; CATO's d46977765 checks are that read ⇒ hold lifted, downloaded-copy recording preserved; no surviving blocker on the NO-OP mechanism (residue listed in the acceptance file). Fire-time rerun done and dispositioned. WQ-448 D1 corrected to a materialized snapshot + A17d; unapproved. #7 untouched. Reviewed closeout with the five carried state files; then stop.
+
+## Carried items (moved here from SCRATCH ★ NEXT at the 2026-10-16 11:00 ET closure; this is their home)
+- Next process slots, one per sitting: WQ-445 is Will's (10/16); then `plans/2026-10-15_simplification-PLAN.md` sequence 2 — retire unneeded generated outputs (#8 · #9 · #11; #8 and #11 touch Will-gated surfaces, his word first).
+- #10 follow-up: at the next reconcile-stamp write of `PROME/WILL_QUEUE.md` line 16, replace the sentence 'this line keeps the latest stamp and at most ONE prior; older stamps move to that archive at each spine audit' with a PLAIN POINTER to the archive — no recurring duty (Will 22:36 ET 10/15); not a separate edit.
+- The two-correction stop is TRIPPED on `PROME/tools/decision_deck.py` and `PROME/CLOSEOUT.md`: any further correction to either needs an independent read first (`PROME/CLAUDE.md` § Review budget).
+- `test_gate_isolation_L294_F7` ×4 = the pre-existing L737 class, untouched.

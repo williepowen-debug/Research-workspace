@@ -1,18 +1,15 @@
 {
-  "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
+  "_doc": "L336 condition A1 — the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
   "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
-  "sha": "6eb4ed3235bc4bc8dcec7e145e31a3d47ef93253",
-  "subject": "PROME: post-close closeout 10/15 \u2014 L688 VERIFIED (3 reads); HEARTBEAT 32nd base; WQ-447 RULED A",
-  "recorded_at": "2026-10-15T17:56:15-04:00",
+  "sha": "b9d9ffc61e84aecc6165e4412c69d41fb917b650",
+  "subject": "PROME: Standard closeout 10/16 00:xx — L738 + backlog #7 shipped under Will's two-change exception",
+  "recorded_at": "2026-10-16T00:57:42-04:00",
   "recorded_by": "PROME",
   "delivery_receipt": {
-    "closeout": "2026-10-15 morning Standard (prome-73, crash recovery, machine switch laptop \u2192 desktop)",
-    "closeout_commit": "ede16ce72",
-    "commit_check": "intent \u2194 commit: 20 path(s) match exactly (rc 0)",
-    "verify_review": "ARGUS-REVIEW \u2705 UNCHANGED \u2014 341 path(s) in HEAD byte-identical to the frozen candidate (verdict REVIEWED, recorded 2026-10-15T13:29:30+00:00)",
-    "push": "Pushed. CONFIRMED: HEAD ede16ce72 is on origin/master (fresh fetch).",
-    "hosted_publication": "DEFERRED \u2014 the in-session view of the Helm and Deck pages was not taken (\u2248130k tokens of HTML); renders committed in ede16ce72; the next sitting views and republishes. Last hosted: Deck 23:48 ET and Helm 23:51 ET 10/14 (ORCH_LOG PUBLISH rows).",
-    "argus_run": "run 1: \u274c9 \u26a0\ufe0f10 \u270538 / 57; 9 applied, 10 residue (reports/2026-10-15_crash-recovery-closeout.md)",
-    "written_by": "PROME prome-73 at step 12, replacing the 10/14 receipt the auditor flagged as stale beside the new sha"
+    "closeout": "2026-10-16 00:5x ET Standard (session b486657a, desktop) — L738 + backlog #7 under Will's 23:55 ET two-change exception",
+    "committed": "b9d9ffc61 (33 paths; intent↔commit exact; --verify-review UNCHANGED over the 35 frozen paths)",
+    "pushed": "Pushed. CONFIRMED: HEAD b9d9ffc61 is on origin/master (fresh fetch).",
+    "published": "Deck Owed v114 (version id 1792126673-ecbe; hosted data-build ea99186fc·2026-10-16 00:57 ET == the render); hosted record seeded from the downloaded copy (page sha256 df744b577f54…); Helm and REFERENCE unchanged by rule (WQ-382 a/b)",
+    "source": "PROME/state/ORCH_LOG.tsv row 'PROME (b486657a) PUBLISH' CLOSE 2026-10-16"
   }
 }
