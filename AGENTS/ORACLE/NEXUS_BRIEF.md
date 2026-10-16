@@ -1,10 +1,12 @@
 # ORACLE — NEXUS Brief
 
-**As of:** **2026-10-15T12:39Z (Thu 08:39 ET, prome-73 WQ-436 crash-recovery session)**. Every level below is from this pull unless stamped. | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` | **Box:** LAPTOP `WilliePOwen`, Kalshi read UNSIGNED (public market data; no creds on this box).
-**Status:** 🟠. The hot September CPI revived the October hike to ~30%. Iran talks and blockade-end odds fell hard across ORACLE's dark gap. A thin any-bank failure market relisted.
+**As of:** **2026-10-16T17:36Z (Fri 13:36 ET, prome-ac, DOCKET L729 daily pull 1)** for the ★ 10/16 block; the 10/15 blocks below are 2026-10-15T12:39Z. | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` | **Box:** LAPTOP, Kalshi UNSIGNED.
+**Status:** 🟠. The October hike priced back out (PM 12.5, Kalshi 16.0); the October $110 oil leg doubled to 20.5% and its band run is ARMED (no Alert).
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi): crowd-implied probabilities and crowd-vs-thesis divergence. Inbound routed by WALTER.
 **Constraint honored:** no trade implied, no P&L, no position language. No new gate registered.
 
+> **★ 10/16 (supersedes the Fed and oil lines below):** PM Fed HIKE-at-Oct **12.5%** (31.5 on 10/15; liq $352.8K) · Kalshi >4.00 **16.0** · Dec-meeting 77.5. Oct $110 leg **20.5%** (liq $34.8K) · CME CLZ26 proxy $98.64 ⇒ +11.5% to $110 · WQ-314 (b) encoded, run 3 ARMED, no Alert (≥40.0 ×3 needed). Iran next meeting by 12/31 35.5. Any-bank-failure 84.5 on a thin $3.0K book, not a crowd view (WALTER's "fourth failure" item was false).
+>
 > **★ THE ONE THING: THE OCTOBER FED HIKE IS BACK ON THE TABLE (~30%) AFTER SEPTEMBER CPI PRINTED 3.7%.**
 > Kalshi `KXCPIYOY-26SEP` settled at **3.7** (`>3.6` YES, `>3.7` NO). On 10/9 the crowd's mode was 3.6 (P ≈ 49) and P(3.7) ≈ 30. PM hike-at-Oct: CLOB 18.5 (10/14 12:00Z) → **39.5** (15:00Z) → 27.5 (10/15 12:00Z); Gamma **31.5** ($9.6M vol). Kalshi `KXFED-26OCT >4.00` **29.0** (OI 74.5K), so the venues agree. December: PM Dec-meeting 78.5 · Kalshi ≥1 more hike by Dec 87.0 (cumulative, not like-for-like). ⚠️ This supersedes the 15.5/18.0 ORACLE sent LIQUID on 10/9 (KB-ORC-103 basis).
 >

@@ -1,6 +1,14 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-10-15 (Thu) 08:4x ET · **Box:** LAPTOP `WilliePOwen`. No Kalshi creds here, so `kalshi.py` reads UNSIGNED (`status` rc=3, public market data). · Session: PROME-spawned (`prome-73`, Opus), **WQ-436 crash recovery**. Will's own 10/14 23:56 ET session `0ce3f089` died in the 03:08 ET machine crash with six files uncommitted. Its last tool call was 00:03 ET.
+**Last updated:** 2026-10-16 (Fri) 13:5x ET — see the 10/16 block. Prior: 2026-10-15 (Thu) 08:4x ET · **Box:** LAPTOP `WilliePOwen`. No Kalshi creds here, so `kalshi.py` reads UNSIGNED (`status` rc=3, public market data). · Session: PROME-spawned (`prome-73`, Opus), **WQ-436 crash recovery**. Will's own 10/14 23:56 ET session `0ce3f089` died in the 03:08 ET machine crash with six files uncommitted. Its last tool call was 00:03 ET.
+
+## 10/16 SESSION (Fri 13:36–13:5x ET, PROME spawn `prome-ac`, DOCKET L729 daily pull 1 of 11) — read first
+
+- **Pulls:** PM 2026-10-16T17:36Z (53 rows) · Kalshi 17:39Z (11/11, unsigned). Oct $110 **20.5%** QUALIFIED ⇒ band run 3 **ARMED**, no Alert. Ledger `workbook/V5_OCT110_READS.tsv` (one row per business-day read).
+- **Encoded on VX.tsv:** WQ-314 (b) (ORC-04 🟡) · WQ-439 A (ORC-07 48h-pair only; 🔴 on Fed NO-change-at-Oct +20.5/29h) · WQ-440 (ORC-08 RETIRED SPENT; successor PROPOSAL `PROME/inbox/2026-10-16_from-ORACLE_ORC08-successor-october-fomc-PROPOSAL.md`, not encoded).
+- **Letter fixed** (second read's 3 ❌ + clearing count; settlement text verbatim §7.1, sha256 bfff6022…0b62). Two items declined to Will via PROME: Critical→Alert downgrade path; touch-before-close timing.
+- Inbox 5/5 consumed (3 PROME + 2 WALTER). COR-20261016-02 receipted NO-OP. LIQUID packet sent (Oct hike −19pp/29h). KB-ORC-104/105.
+- **NEXT:** 🔴 **Mon 10/19 read** (first pull of the ET day; Fri→Mon is no gap) — run 4 continues ARMED if qualified; Alert only on 3 consecutive qualified reads ≥40.0. ORC-07 has no ≤48h pair on Mon vs Fri 17:36Z unless a pull lands earlier → UNKNOWN. 🟠 any-bank-failure 84.5 thin → re-check ≥3 days (10/19+). Older NEXT items below still stand.
 
 ## CHANGES SINCE LAST SESSION (10/9 14:26Z → 10/15 12:39Z)
 
