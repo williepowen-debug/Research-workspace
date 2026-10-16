@@ -1,0 +1,88 @@
+{
+  "revision": "1684ae0d7920c66faedb60c7643f4dcbef9a17d0",
+  "cruise_actual_record": {
+    "source": "PROME/state/ORCH_LOG.tsv",
+    "structured": {
+      "owner": "PROME",
+      "session_id": "agent-tool:desk:cruise-1016",
+      "touch_at": "2026-10-16T16:31:00+00:00",
+      "observed_at": "2026-10-16T16:35:00+00:00",
+      "state": "ASKED_RECEIPT",
+      "ask": "SendMessage 12:3x ET: WQ-249 closeout ask; RECEIPT 12:32 ET (16:32:11Z): nothing unsaved · no uncommitted paths · no further work pending · HEAD e58c18266 on origin — desk idle for good"
+    },
+    "state": "UNKNOWN",
+    "detail": "ASKED_RECEIPT: missing required evidence ('ask', 'receipt')"
+  },
+  "cruise_positive_control": "ASKED_RECEIPT after adding the separate receipt field in an in-memory copy",
+  "post_gate_ruling_fixture": {
+    "producer": "pinned real WILL_QUEUE row 450; hypothetical close in temp copy",
+    "before": 0,
+    "after_private_mutation": 1,
+    "after_existing_view_regeneration": 0,
+    "log": "WILLQ-VIEW ✓ <temp>/scratch.md block agrees with <temp>/queue.md § OPEN (483 B, as-of 2026-10-16)\nWILLQ-VIEW ✗ DRIFT in <temp>/scratch.md: block says ['WQ-450 (10/20)']; queue says — — regenerate with `python3 PROME/tools/willq_view.py --write <temp>/scratch.md`; never edit inside the markers\nWILLQ-VIEW ✓ wrote 465 B block into <temp>/scratch.md (re-render; file 483 → 465 B)\nWILLQ-VIEW ✓ <temp>/scratch.md block agrees with <temp>/queue.md § OPEN (465 B, as-of 2026-10-16)\n"
+  },
+  "dashboard_fixtures": [
+    {
+      "case": "dated_today",
+      "available": true,
+      "flags": [],
+      "date": "2026-10-16"
+    },
+    {
+      "case": "dated_yesterday",
+      "available": true,
+      "flags": [
+        "⚠stale"
+      ],
+      "date": "2026-10-15"
+    },
+    {
+      "case": "missing_date",
+      "available": true,
+      "flags": [
+        "date?"
+      ],
+      "date": null
+    },
+    {
+      "case": "error",
+      "available": false,
+      "flags": [],
+      "date": null
+    }
+  ],
+  "unchanged_vs_parent": [
+    "CLAUDE.md",
+    "PROME/CLAUDE.md",
+    "PROME/ACTIVE_DECISIONS.md",
+    "HEARTBEAT.md",
+    "PROME/tools/prome_gate.py",
+    "PROME/tools/boot_session.py",
+    "PROME/tools/table_check.py"
+  ],
+  "boot_skill_parity": true,
+  "all_reads_modes_unchanged": true,
+  "symmetry_reads": [
+    "BOOT.md",
+    "HEARTBEAT.md",
+    "PROME/ACTIVE_DECISIONS.md",
+    "PROME/CLAUDE.md",
+    "PROME/CLOSEOUT.md",
+    "PROME/GATES.tsv",
+    "PROME/HANDOFF.md",
+    "PROME/SCRATCH.md",
+    "PROME/STATUS.md",
+    "USER.md",
+    "WILL_QUEUE.md"
+  ],
+  "table_perimeter": [
+    "USER.md",
+    "PROME/BOOT.md",
+    "PROME/HANDOFF.md",
+    "PROME/SCRATCH.md",
+    "PROME/ACTIVE_DECISIONS.md",
+    "PROME/STATUS.md",
+    "HEARTBEAT.md"
+  ],
+  "gate_and_five_verdict_bullets_unchanged": true
+}
