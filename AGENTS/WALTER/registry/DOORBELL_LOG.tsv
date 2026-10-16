@@ -515,3 +515,17 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-10-16	VULCAN	SIG-W-20261016-013	NONE	P0-UNKNOWN	NO	NA	NA	NA		Fleet liveness UNKNOWN; no native ListAgents; no dark-owner inference or doorbell. Foreign writes observed.
 2026-10-16	VULCAN	SIG-W-20261016-014	NONE	P0-UNKNOWN	NO	NA	NA	NA		Fleet liveness UNKNOWN; no native ListAgents; no dark-owner inference or doorbell. Foreign writes observed.
 2026-10-16	OSPREY	SIG-W-20261016-015	NONE	P0-UNKNOWN	NO	NA	NA	NA		Fleet liveness UNKNOWN; no native ListAgents; no dark-owner inference or doorbell. Foreign writes observed.
+2026-10-16	ZHAO	SIG-W-20261016-016	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	VULCAN	SIG-W-20261016-017	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	LIQUID	SIG-W-20261016-017	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	FALCON	SIG-W-20261016-018	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	CREED	SIG-W-20261016-019	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	HOMER	SIG-W-20261016-019	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	LIQUID	SIG-W-20261016-020	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	HANS	SIG-W-20261016-021	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	SAM	SIG-W-20261016-022	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	HENRY	SIG-W-20261016-023	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	BRENT	SIG-W-20261016-024	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	REGINALD	SIG-W-20261016-025	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
+2026-10-16	FALCON	SIG-W-20261016-026	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet census; no darkness or eligibility inferred. Repo packet saved.
+2026-10-16	BRENT	SIG-W-20261016-026	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet census; no darkness or eligibility inferred. Repo packet saved.

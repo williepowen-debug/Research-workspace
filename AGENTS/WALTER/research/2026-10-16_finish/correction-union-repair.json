@@ -1,0 +1,78 @@
+{
+  "as_of": "2026-10-16T17:33:47Z",
+  "rows": [
+    {
+      "correction": "COR-20261015-05",
+      "corrector": "SIG-W-20261015-005",
+      "corrected": [
+        "SIG-W-20261014-018"
+      ],
+      "old_targets": [
+        "BROCK",
+        "HENRY",
+        "LIQUID",
+        "NEXUS",
+        "RED",
+        "VIOLET",
+        "VULCAN"
+      ],
+      "added": [
+        "PROME",
+        "REGINALD",
+        "SHADE",
+        "TERRY",
+        "WATT"
+      ],
+      "targets": [
+        "BROCK",
+        "HENRY",
+        "LIQUID",
+        "NEXUS",
+        "PROME",
+        "RED",
+        "REGINALD",
+        "SHADE",
+        "TERRY",
+        "VIOLET",
+        "VULCAN",
+        "WATT"
+      ]
+    },
+    {
+      "correction": "COR-20261015-06",
+      "corrector": "SIG-W-20261015-006",
+      "corrected": [
+        "SIG-W-20261012-035",
+        "SIG-W-20261014-006"
+      ],
+      "old_targets": [
+        "CARL",
+        "CORAL",
+        "HOMER",
+        "MARCO",
+        "REGINALD"
+      ],
+      "added": [
+        "HENRY",
+        "PROME",
+        "RED"
+      ],
+      "targets": [
+        "CARL",
+        "CORAL",
+        "HENRY",
+        "HOMER",
+        "MARCO",
+        "PROME",
+        "RED",
+        "REGINALD"
+      ]
+    }
+  ],
+  "handoffs": [
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261015-005.md",
+    "AGENTS/SHADE/inbox/WALTER/SIG-W-20261015-005.md",
+    "AGENTS/WATT/inbox/WALTER/SIG-W-20261015-005.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-006.md"
+  ]
+}

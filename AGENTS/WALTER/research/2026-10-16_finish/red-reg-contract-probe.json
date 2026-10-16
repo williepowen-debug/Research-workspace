@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-10-16T17:25:16.012458+00:00",
+  "function": "fetch.contract_probe(root), default horizon5, internal negative control",
+  "results": {
+    "CL": {
+      "root": "CL",
+      "continuous": "CL=F",
+      "continuous_price": 98.67,
+      "continuous_time": 1792170910,
+      "candidates": {
+        "CLX26.NYM": 100.69,
+        "CLZ26.NYM": 98.66,
+        "CLF27.NYM": 96.97,
+        "CLG27.NYM": 94.95
+      },
+      "candidate_times": {
+        "CLX26.NYM": 1792170915,
+        "CLZ26.NYM": 1792170915,
+        "CLF27.NYM": 1792170908,
+        "CLG27.NYM": 1792170899
+      },
+      "candidate_age_s": {
+        "CLX26.NYM": 5,
+        "CLZ26.NYM": 5,
+        "CLF27.NYM": 2,
+        "CLG27.NYM": 11
+      },
+      "attempted": [
+        "CLV26.NYM",
+        "CLX26.NYM",
+        "CLZ26.NYM",
+        "CLF27.NYM",
+        "CLG27.NYM"
+      ],
+      "dropped": {
+        "CLV26.NYM": "metadata-symbol-missing"
+      },
+      "verdict": "REFUSED-no-price-match",
+      "control": "passed-distinct-prices",
+      "retryable": false
+    },
+    "BZ": {
+      "root": "BZ",
+      "continuous": "BZ=F",
+      "continuous_price": 109.29,
+      "continuous_time": 1792170901,
+      "candidates": {
+        "BZZ26.NYM": 109.29,
+        "BZF27.NYM": 106.23,
+        "BZG27.NYM": 103.2
+      },
+      "candidate_times": {
+        "BZZ26.NYM": 1792170901,
+        "BZF27.NYM": 1792170899,
+        "BZG27.NYM": 1792170704
+      },
+      "candidate_age_s": {
+        "BZZ26.NYM": 0,
+        "BZF27.NYM": 2,
+        "BZG27.NYM": 197
+      },
+      "attempted": [
+        "BZV26.NYM",
+        "BZX26.NYM",
+        "BZZ26.NYM",
+        "BZF27.NYM",
+        "BZG27.NYM"
+      ],
+      "dropped": {
+        "BZV26.NYM": "metadata-symbol-missing",
+        "BZX26.NYM": "metadata-symbol-missing"
+      },
+      "verdict": "IDENTIFIED",
+      "tracking": "BZZ26.NYM",
+      "control": "passed-distinct-prices",
+      "cross_check": "no-vendor-name-to-compare"
+    },
+    "HO": {
+      "root": "HO",
+      "continuous": "HO=F",
+      "continuous_price": 4.7178,
+      "continuous_time": 1792170910,
+      "candidates": {
+        "HOX26.NYM": 4.8972,
+        "HOZ26.NYM": 4.7178,
+        "HOF27.NYM": 4.6156,
+        "HOG27.NYM": 4.511
+      },
+      "candidate_times": {
+        "HOX26.NYM": 1792170910,
+        "HOZ26.NYM": 1792170910,
+        "HOF27.NYM": 1792170910,
+        "HOG27.NYM": 1792170909
+      },
+      "candidate_age_s": {
+        "HOX26.NYM": 0,
+        "HOZ26.NYM": 0,
+        "HOF27.NYM": 0,
+        "HOG27.NYM": 1
+      },
+      "attempted": [
+        "HOV26.NYM",
+        "HOX26.NYM",
+        "HOZ26.NYM",
+        "HOF27.NYM",
+        "HOG27.NYM"
+      ],
+      "dropped": {
+        "HOV26.NYM": "metadata-symbol-missing"
+      },
+      "verdict": "REFUSED-disagrees-with-vendor-name",
+      "tracking_by_price": "HOZ26.NYM",
+      "tracking_by_name": "HOX26",
+      "control": "passed-distinct-prices"
+    }
+  }
+}

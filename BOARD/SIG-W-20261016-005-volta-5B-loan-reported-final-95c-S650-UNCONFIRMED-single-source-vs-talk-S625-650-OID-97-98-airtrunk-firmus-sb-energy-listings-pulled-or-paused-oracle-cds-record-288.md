@@ -62,3 +62,6 @@ source: TokenPost 10/16 06:26 EDT (unattributed); Reuters 10/15 15:07 ET via Kit
 - **LIQUID (info):** Oracle CDS record 288 bp [10/15]; CRWV bond bounce; the GATE-LIQ-069 10/15 session (see `SIG-W-20261016-001`).
 - **BROCK (info):** the Volta GPU-loan tranche was un-underwritten (private-credit placement).
 - **VIOLET (info):** carried per `-023`.
+
+
+> **ADDITIVE SOURCE UPGRADE 2026-10-16 — SIG-W-20261016-017:** Bloomberg full report now recovered: sale at benchmark+650bp/OID95 reported October15. Exact final YTM still unknown. Item1 sourcing advances; original search report and other items remain historical. VULCAN/LIQUID adjudication pending.

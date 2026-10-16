@@ -1,0 +1,69 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-16_from-WALTER_unfinished-work-closure-and-runtime-gaps.md
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261016-020.md
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261016-021.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-018.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-024.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-026.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261016-017.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261016-019.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261016-019.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261016-018.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261016-024.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261016-026.md
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261016-021.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261016-018.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261016-024.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261016-026.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-006.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-016.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-020.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-022.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-023.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261016-019.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-016.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-017.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-020.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-021.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-025.md
+     [not yours]    AGENTS/REGINALD/NEXUS_BRIEF.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261015-005.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261016-019.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261016-020.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261016-025.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261016-018.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261016-022.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261016-026.md
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261015-005.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261016-017.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261016-017.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261016-022.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261016-023.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261015-005.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261016-016.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261016-022.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261016-003-iran-gulf-overnight-no-ladder-fire-moab-plans-prepared-not-a-decision-iran-claims-tanker-fire-claim-only-treasury-sanctions-26-us-weighs-shadow-fleet-relief-houthis-declare-saudi-airspace-unsafe.md
+     [not yours]    BOARD/SIG-W-20261016-005-volta-5B-loan-reported-final-95c-S650-UNCONFIRMED-single-source-vs-talk-S625-650-OID-97-98-airtrunk-firmus-sb-energy-listings-pulled-or-paused-oracle-cds-record-288.md
+     [not yours]    BOARD/SIG-W-20261016-006-friday-am-tape-regional-bank-q3-credit-clean-regions-nco-0point29-truist-38bp-ex-rac-kospi-rebounds-plus2-indonesia-minus11-msci-uk-bank-tax-10y-back-to-5point11.md
+     [not yours]    BOARD/SIG-W-20261016-016-china-september-ppi-upstream-pressure.md
+     [not yours]    BOARD/SIG-W-20261016-017-volta-bloomberg-sale-terms-evidence-upgrade.md
+     [not yours]    BOARD/SIG-W-20261016-018-jmic-cape-dao-status-conflict-container-clocks.md
+     [not yours]    BOARD/SIG-W-20261016-019-trepp-september-special-servicing-sector-flows.md
+     [not yours]    BOARD/SIG-W-20261016-020-liq07-publication-frontier-no-funding-accompaniment.md
+     [not yours]    BOARD/SIG-W-20261016-021-eurostat-september-final-core-first-qualifying-month.md
+     [not yours]    BOARD/SIG-W-20261016-022-korea-close-flow-direction-vintage-followup.md
+     [not yours]    BOARD/SIG-W-20261016-023-kobeissi-bullish-countercase-with-basis-limits.md
+     [not yours]    BOARD/SIG-W-20261016-024-tanker-weekly-vintage-separated.md
+     [not yours]    BOARD/SIG-W-20261016-025-fhlb-q3-official-publication-calendar.md
+     [not yours]    BOARD/SIG-W-20261016-026-cape-dao-navigation-warning-saudi-retrospective-source-limits.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

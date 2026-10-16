@@ -1,0 +1,37 @@
+---
+signal_id: SIG-W-20261016-019
+date: 2026-10-16
+timestamp: 2026-10-16T17:31:22Z
+dispatched: 2026-10-16T17:31:22Z
+source: WALTER
+origin: Unfinished-work source verification; see body
+domain: BANK_CRE
+cluster: BANK_COLLATERAL
+entities: ["Trepp", "One-SoHo-Square"]
+precedence: PRIORITY
+action: ["CREED", "HOMER"]
+to: ["CREED", "HOMER"]
+info: ["REGINALD", "BROCK", "CARL", "RED", "PROME"]
+confidence: 0.95
+confidence_language: confirmed
+resources: 1
+signal_type: data-point
+safety_net: clear
+word_count: 154
+dispatch_note: Scoped verification; no owner grade or consumption inferred. Native fleet tools unavailable; Will reports PROME/CATO/WALTER active. Concurrent foreign work gates push.
+case: ["One SoHo Square, New York NY"]
+---
+
+# Trepp September special servicing reaches 11.49%; office eases while multifamily rises
+
+Trepp September full report (excerpt publishedOctober13), all-vintages Table1: overall special servicing11.49%, +7bp; office16.85%, −5bp; multifamily8.54%, +17bp; retail13.84%; lodging8.95%; mixed-use13.17%; industrial1.23%. Office remains below its registered>18 two-month bar. Multifamily belongs to HOMER, other national CRE to CREED.
+
+Incoming transfers$2.65B/42wholeloans versus August$3.04B/29; exits$1.95B/48 versus$579.7M/32. Office represents57% of incoming balance. Reported exits mix returns to master servicing and zero balances, so they do not uniformly mean successful refinancing. August$3.04B is this report's comparison vintage, differing from the older owner$3.16B; reconcile rather than overwrite.
+
+Named case: One SoHo Square, New York NY,$512.8M, transferAugust28 in the September report, current payments. Report simultaneously states imminent balloon/maturity default and maturityAugust6,2028; contradiction unresolved. No inferred acceleration or revised maturity.
+
+Source: https://www.trepp.com/hubfs/Trepp%20CMBS%20Special%20Servicing%20Report%20September%202026.pdf . Full PDF/text and table verification: research/2026-10-16_finish/verify-credit.md. September officeDQ12.16 was alreadySIG-W-20261009-002; DQ and special servicing are different series.
+
+## Recipient action
+
+CREED: grade the office print, reconcile comparison vintage and record the named case with the maturity conflict. HOMER: integrate the multifamily special-servicing print.

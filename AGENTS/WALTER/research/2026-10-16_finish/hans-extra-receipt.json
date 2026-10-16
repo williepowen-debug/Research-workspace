@@ -1,0 +1,27 @@
+{
+  "eurostat-sep-final": {
+    "status": 200,
+    "bytes": 410754,
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap"
+  },
+  "eurostat-api": {
+    "status": 200,
+    "bytes": 3880,
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_manr?lang=EN&geo=EA21&coicop=CP00_X_EF_AT&sinceTimePeriod=2026-07"
+  },
+  "eurusd-chart": {
+    "status": 200,
+    "bytes": 3698,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD=X?interval=1d&range=1mo"
+  },
+  "ttf-chart": {
+    "status": 200,
+    "bytes": 3565,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTFX26.NYM?interval=1d&range=1mo"
+  },
+  "krx": {
+    "status": 400,
+    "bytes": 6
+  },
+  "fetched_utc": "2026-10-16T17:20:22.347084+00:00"
+}

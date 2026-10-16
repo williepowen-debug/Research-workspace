@@ -1,3 +1,12 @@
+# 2026-10-16T17:40:05Z — unfinished-work Tier-2 closeout
+
+Bookmark batch40/40 closed and marked; source checks and ten follow-ups016–025 saved. Threshold scan accounts for48rows with source/eligibility limits. VULCAN design and dispatch-header guard implemented; correction target unions repaired. Publication and remaining obligations live in LAST_COMPLETION.md.
+
+## Prior MEMORY session notes — verbatim
+
+**CHANGES SINCE — 2026-10-16T14:5xZ, Will-requested FULL CLOSEOUT before a machine swap (walter-b4, Claude Code / Opus 5.5):** 6 dispatches -001..-006 (27 handoffs). HY 323 [10/15] → RED-FT-02 / REG-T-03 **2-of-3** (-001). **-002 CORRECTION FALSE:** 10/15-013's "Kansas = 4th failure of 2026" was a 2023 KBRA article riding a 10/13 lane row (finding #6, n+1). Iran overnight no ladder fire (-003); EIA WPSR −8.6M published 10/15 (-004); Volta 95c/S+650 single unattributed source → VULCAN, doorbelled (-005); Friday tape (-006). Boot PARTIAL (steps 6/6b/7/8/9/9a not whole). DNS blip killed the first sweep wave. X-bookmarks token dead on this machine. Dispatch commits on origin via teammate pushes; Tier-2 commit local (PROME tree dirty).
+**NEXT SESSION (desktop, after the swap):** read LAST_COMPLETION.md first. **`git pull` first — confirm the WALTER Tier-2 closeout commit (10/16) reached origin**; the three dispatch commits already had. **Re-authorize X bookmarks (`x_bookmarks_scan.py --authorize`)** — Will's instruction. **Mon 10/19 AM: FRED HY 10/16 cell** → FT-02/REG-T-03 FIRE (>320) or reset. VULCAN intake-expansion design pass still #1 queue item (packet in inbox). Volta final terms on tier-1 confirmation → VULCAN S5. WAL 10/19–20 (date unconfirmed), OZK 10/20 AMC, FOMC 10/27–28.
+
 **2026-10-16T16:48:07Z — light-closeout — full deferred:** Codex boot PARTIAL; OAuth renewed and40items fetched; BM-20261016-02 37/40, no mark;007–015 plus23handoffs local, foreign-work push deferral. Receipt research/2026-10-16_codex-boot/BOOT-RECEIPT.md.
 
 # 2026-10-16T14:5xZ — walter-b4 Friday-AM Will-launched session / Tier-2 FULL CLOSEOUT before machine swap (Claude Code, Opus 5.5)

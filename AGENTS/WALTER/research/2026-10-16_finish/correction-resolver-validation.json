@@ -1,0 +1,46 @@
+{
+  "scope": "two actual repaired rows plus four pointer fixtures; not installed",
+  "results": [
+    {
+      "signal": "SIG-W-20261015-005",
+      "originals": [
+        "SIG-W-20261014-018"
+      ],
+      "basis": "frontmatter",
+      "required": [
+        "BROCK",
+        "HENRY",
+        "LIQUID",
+        "NEXUS",
+        "PROME",
+        "RED",
+        "REGINALD",
+        "SHADE",
+        "TERRY",
+        "VIOLET",
+        "VULCAN",
+        "WATT"
+      ],
+      "missing": []
+    },
+    {
+      "signal": "SIG-W-20261015-006",
+      "originals": [
+        "SIG-W-20261012-035",
+        "SIG-W-20261014-006"
+      ],
+      "basis": "frontmatter",
+      "required": [
+        "CARL",
+        "CORAL",
+        "HENRY",
+        "HOMER",
+        "MARCO",
+        "PROME",
+        "RED",
+        "REGINALD"
+      ],
+      "missing": []
+    }
+  ]
+}

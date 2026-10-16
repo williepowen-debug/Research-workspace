@@ -1,0 +1,5 @@
+2026-10-16T13:20:49.191145 FRED_FETCH latency=851ms {"series": "SOFR75", "observations": 716}
+2026-10-16T13:20:55.769052 FRED_FETCH latency=6577ms {"series": "SOFR99", "observations": 716}
+2026-10-16T13:20:56.194566 FRED_FETCH latency=425ms {"series": "IORB", "observations": 750}
+2026-10-16T13:20:58.236850 FRED_FETCH latency=2042ms {"series": "RPONTTLD", "observations": 716}
+2026-10-16T13:20:58.612583 FRED_FETCH latency=375ms {"series": "BAMLH0A2HYB", "observations": 742}

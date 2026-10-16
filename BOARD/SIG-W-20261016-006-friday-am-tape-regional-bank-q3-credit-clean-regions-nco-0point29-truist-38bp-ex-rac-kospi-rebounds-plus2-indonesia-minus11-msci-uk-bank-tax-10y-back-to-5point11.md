@@ -59,3 +59,6 @@ Premarket: Truist −0.9% to −2.5% (sources differ); Travelers −4.6% on cata
 - **HANS (info):** UK bank-tax reports ahead of the 10/28 Budget.
 - **BROCK (info):** Moody's 5.8% PIK-inclusive default rate (10/14); no new private-credit event.
 - **ZHAO (info):** Indonesia / MSCI downgrade proposal (EM contagion lens).
+
+
+> **ADDITIVE FOLLOW-UP 2026-10-16 — SIG-W-20261016-022:** close net buying now corroborated by KoreaTimes/Edaily; the earlier AJU sell observation was intraday. Exact KRX total remains unavailable. WAL issuer-confirmed date carried by WAL/RED owner records is October19AMC, callOctober20noonET; earlier date-unconfirmed wording is retained as the morning search state.

@@ -42,6 +42,7 @@ Checks:
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
   correction_target_declared  every `signal_type: correction` declares a resolvable `corrects:` (SIG-ID/SELF/EXTERNAL)
   batch_manifest_open    a declared Will-batch left OPEN with un-dispositioned items (the input-side blind spot)
+  dispatch_frontmatter   recent BOARD action list and UTC dispatched header; body cannot satisfy
   action_line_rule       an agent on `info:` while the body carries ask-language naming it (§3.5.4, mechanized)
   terry_override_ratio   S1 — TERRY inverted-token override ratio (90d/10%/n≥10) + the 72h revert falsifier
   filed_vs_consumed      S7 — processed/ moves without a consume:<AGENT> declaration are FILED, not CONSUMED (§5.1)
@@ -2245,6 +2246,62 @@ _ASK_PATTERNS = [
 ]
 
 
+def check_dispatch_frontmatter():
+    """Require explicit routing and dispatch time on recent archived signals.
+
+    Presence/shape guard only: does not certify recipient completeness, truth,
+    delivery or consumption. Only top-level keys inside the initial frontmatter
+    count; body examples must never satisfy a missing header. Forward-only adoption from 2026-10-16 within the existing14d
+    diagnostic window; no automatic backfill or historical rewrite.
+    """
+    out, scanned = [], 0
+    cutoff = max(dt.date(2026, 10, 16), TODAY - dt.timedelta(days=ACTION_LINE_WINDOW_DAYS))
+    for path in sorted(BOARD.glob("SIG-W-*.md")):
+        match = re.match(r"SIG-W-(\d{8})-", path.name)
+        if not match:
+            continue
+        try:
+            day = dt.datetime.strptime(match[1], "%Y%m%d").date()
+        except ValueError:
+            continue
+        if day < cutoff:
+            continue
+        scanned += 1
+        try:
+            lines = path.read_text(encoding="utf-8").splitlines()
+        except (OSError, UnicodeError) as exc:
+            out.append((MED, f"{path.name}: unreadable header ({type(exc).__name__})"))
+            continue
+        if not lines or lines[0] != "---" or "---" not in lines[1:]:
+            out.append((MED, f"{path.name}: missing/unterminated initial frontmatter"))
+            continue
+        header = lines[1:lines.index("---", 1)]
+        for key in ("action", "dispatched"):
+            values = [line.split(":", 1)[1].strip() for line in header
+                      if line.startswith(key + ":")]
+            if len(values) != 1:
+                out.append((MED, f"{path.name}: {key}: requires exactly one frontmatter key"))
+                continue
+            value = values[0]
+            if key == "action":
+                tokens = value[1:-1].split(",") if value.startswith("[") and value.endswith("]") else None
+                agent = r"[A-Z][A-Z0-9_]*"
+                token_pattern = agent + "|" + chr(34) + agent + chr(34) + "|" + chr(39) + agent + chr(39)
+                valid = tokens is not None and (not value[1:-1].strip() or all(re.fullmatch(token_pattern, token.strip()) for token in tokens))
+            else:
+                if len(value) >= 2 and value[0] in ("'", chr(34)) and value[-1] == value[0]:
+                    value = value[1:-1]
+                valid = bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z", value))
+                if valid:
+                    try:
+                        dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+                    except ValueError:
+                        valid = False
+            if not valid:
+                out.append((MED, f"{path.name}: malformed/empty {key}: frontmatter value"))
+    return out or [(INFO, f"dispatch header presence/shape checked in {scanned} recent signals; not delivery or action completeness")]
+
+
 def check_action_line_rule():
     """§3.5.4: an ask aimed at a named recipient must be on `action:`, not `info:`.
 
@@ -2893,6 +2950,7 @@ CHECKS = [
     ("registered_but_unrouted", check_registered_but_unrouted),
     ("correction_target_declared", check_correction_target_declared),
     ("batch_manifest_open", check_batch_manifest_open),
+    ("dispatch_frontmatter", check_dispatch_frontmatter),
     ("action_line_rule", check_action_line_rule),
     ("terry_override_ratio", check_terry_override_ratio),
     ("filed_vs_consumed", check_filed_vs_consumed),

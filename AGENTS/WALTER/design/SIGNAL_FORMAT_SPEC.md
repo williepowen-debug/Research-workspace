@@ -1,4 +1,6 @@
-# WALTER Signal Format Specification v0.24
+# WALTER Signal Format Specification v0.25
+
+**v0.25 (2026-10-16):** Encode existing dispatch practice in the template: canonical BOARD carries an explicit `action: []` list (empty is deliberate), `info: []`, and UTC `dispatched:` when archived/dispatched. `to:` remains per-recipient handoff addressing. The forward-only doctor (adoption2026-10-16, trailing14-day window) checks header presence/shape; it does not infer asks, delivery or consumption. No retrospective rewrite authorized. Repairs MEMORY finding49; existing Rule10 / BOARD_CONSUMPTION_SPEC action-line obligation governs.
 
 **v0.24 (2026-10-04):** Adds **`RU_STATE_ACTOR` (→ YURI)** — the 21st canonical domain. YURI (Russia actor-keyed intent desk, DAEDALUS-wired 2026-09-24 on Will's WQ-267 word) had been registered with **NO domain code and NO routing row**, so no domain line could route a Russia-state-actor signal to it — the same quiet mis-filing failure mode `EUROPE_MACRO` (v0.17) closed, one step earlier: here there was no lane at all, not a wrong one. Inline enum-add, small-change rule; **Will sign-off 2026-10-04 in-session ("yes go ahead").** Scope + the boundaries vs OSPREY's strike ledger (`GEOPOL_ENERGY`) and HAWK's NATO reaction are WALTER's placement from YURI's charter; YURI can refine them when it next boots. Propagates to ROUTING_TABLE v0.40 (routing row) + REGISTRY (YURI Domain cell) + STATE §1 (propagation flagged, not yet executed).
 
@@ -60,13 +62,14 @@ timestamp: 2026-04-07T14:30:00Z
 source: WALTER
 origin: "Financial Times, 2026-04-07"
 
-to: CARL (ACTION)
-info: RED, REGINALD
+action: [CARL]
+info: [RED, REGINALD]
+# to: CARL (ACTION)  # per-recipient handoff only
 group: THESIS_CORE
 
 signal_type: catalyst
 confidence: 0.72
-confidence_language: reports
+confidence_language: assessed
 resources: 1
 safety_net: clear
 
@@ -85,7 +88,7 @@ event_window: closed                  # optional, boolean — set 'open' during 
 # v0.9 field (added 2026-06-06 per 5-decision-walkthrough closeout; carry-forward from 6/2 Iran-anchor refresh)
 narrative_channel: tasnim             # Iran-cluster MANDATORY (7-value enum); null/omit on non-Iran clusters until promoted to wider scope
 
-# Optional dispatch-time fields (added when signal is routed to recipient inboxes)
+# Dispatch-time fields (dispatched required on archived/dispatched BOARD signals)
 dispatched: 2026-04-07T14:45:00Z
 dispatch_note: "Trimmed from 4-recipient plan to CARL+RED after HENRY already processed"
 
@@ -110,8 +113,9 @@ case: ["5400 Westheimer Court, Houston TX [CASE-CREED-002]"]   # one entry per p
 | `timestamp` | ISO8601 | — | When WALTER classified this signal. |
 | `source` | string | `WALTER` | Always WALTER for v0.1. |
 | `origin` | string OR array of strings | Free text OR `["src1", "src2", ...]` | Where the raw information came from. Array form when 2+ sources fold into one signal — see Multi-Origin Signals below. |
+| `action` | list | Agent names; `[]` for deliberately no action recipients | Required on canonical BOARD; every recipient-directed ask belongs here (BOARD_CONSUMPTION_SPEC §3.5.4). |
 | `to` | string | `AGENT (ACTION)` or `AGENT (INFO)` | Primary recipient for this file. Per-recipient files get their own `to:` value when the same signal dispatches to multiple agents. |
-| `info` | string | Comma-separated agents | Awareness recipients. Optional. |
+| `info` | list | Agent names | Awareness recipients. Optional. |
 | `group` | string | AIG name | Optional. Which Address Indicating Group, if any. |
 | `signal_type` | enum | See Signal Types | What kind of signal this is. |
 | `confidence` | float | 0.0–1.0 | Numerical confidence score. For machine routing and threshold filters. See Confidence Model below. |
@@ -135,7 +139,7 @@ case: ["5400 Westheimer Court, Houston TX [CASE-CREED-002]"]   # one entry per p
 | `corrects_direction` | string | `HOLDS` / `WEAKENS` / `FLIPS` + `<leg>` + ` — <one line>` | **v0.20 — Optional; meaningful ONLY beside `corrects:`.** The §3.6.2 direction call, stated by the corrector: does the corrected signal's CONCLUSION hold, weaken or flip, and on which leg. A consumer cannot infer conclusion-inversion from a corrected number alone; this field is what the generated INDEX back-marker lifts. Omit on non-corrections. |
 | `kill_strings` | list of strings | `["<literal>", ...]` **or** `["NONE — <why>"]` | **v0.22 — MANDATORY whenever `signal_type: correction`; omit otherwise.** The exact dead literals from the corrected signal(s) — figures, phrasings, attributions — as a consumer would find them in its own files, so a desk (or the correction-closure mode) can grep its copies mechanically. Copy them VERBATIM from the corrected text, not paraphrased. When the correction retracts something with no greppable literal (e.g. a withdrawn mechanism described in varying words), write `["NONE — <why>"]`; an empty or absent value on a correction is invalid. Field ④ of `AGENTS/DAEDALUS/BLUEPRINTS/CORRECTION_FORM.md`. |
 | `case` | list of strings | `["<property or address>, <city> <ST>[ [CASE-CREED-NNN]]", ...]` | **v0.23 — MANDATORY whenever the signal reports a DISTRESS EVENT (definition in the v0.23 note above) on a NAMED CRE property or loan; omit otherwise.** One entry per property/loan. Use the name the sources use plus the street address when known (`3000 Post Oak Blvd, Houston TX`); append CREED's ledger ID only if `AGENTS/CREED/cases/CASES.tsv` already carries one (grep it; never invent an ID). A portfolio or anonymous loan ("an $80M Houston office loan") is NOT a case entry: name it in the body, omit the field. Presence of this field puts **CREED on `info:`** (ROUTING_CARVEOUTS § "Named-case feed — CREED"). Forward-only; older signals are never retro-filled (CREED's seed from `AGENTS/WALTER/research/2026-09-29_cre-case-seed.tsv` covers the back catalogue). |
-| `dispatched` | ISO8601 | — | **Optional.** Added when the signal is actually dispatched to recipient inboxes (may be later than `timestamp` if drafted-then-dispatched flow is used). |
+| `dispatched` | ISO8601 | — | **Required at dispatch.** Added when the signal is actually dispatched (including pull-complete BOARD delivery) (may be later than `timestamp` if drafted-then-dispatched flow is used). |
 | `dispatch_note` | string | Free text | **Optional.** Rationale if the dispatch deviated from the original plan: recipient trim, re-route, precedence downgrade, staleness caveat. Paired with `dispatched`. |
 
 ---

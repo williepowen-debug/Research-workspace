@@ -1,0 +1,66 @@
+{
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.html": {
+    "sha256": "00ddc0ccd70bd74e77597ec26f3c20120b8edc2749aef970add1c36fd9957f69",
+    "bytes": 35975
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-liq07-arithmetic.json": {
+    "sha256": "6a9435f8ee1fcffaf36835314949f2467e0497ec792e213f70a7b5a46a93397f",
+    "bytes": 8921
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq-excerpt.html": {
+    "sha256": "267a5953b7dddc5e1bc78406de42ae606eec33e47ea0538642dd521d355be05d",
+    "bytes": 119548
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-volta-bloomberg.txt": {
+    "sha256": "9c01036831c912fb8a97a7ed95e8aea76f392ab440a6b5f2737f04c651b199e6",
+    "bytes": 3832
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.txt": {
+    "sha256": "951a6dc543a22631c47c5baff4aeb789a89173eb891a16c6e9b4b01be1369eb4",
+    "bytes": 7515
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss-excerpt.html": {
+    "sha256": "b54dabe4e3441f8c26fcc1c45839ac711277d0604bc440d29e8531739842f22b",
+    "bytes": 119505
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-sofr.json": {
+    "sha256": "7731062b2d92a06d15c866c48a3ddf56a3e7d0cee72ac7ee1c9510d9be57409e",
+    "bytes": 7396
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.html": {
+    "sha256": "ac3ca21e5690d0e37abccec7e76a9977e4890c6dc110e57628e4b8bce46a3e8c",
+    "bytes": 35983
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-funding.json": {
+    "sha256": "55c91997d5f438aae7ea8af42db8b15bc595ee03a9d057e1219fc0c5236e708e",
+    "bytes": 228854
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-volta-bloomberg.html": {
+    "sha256": "c55906b6d88123e03597ce4a977df50a215ee21ccc4fcfac45c08952ce998ce2",
+    "bytes": 435560
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-market-audit.txt": {
+    "sha256": "c6cc5208f50ca33557f9deb3761a0e04441394361b67d430c7c994364b7e6ef6",
+    "bytes": 477
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-ss-table.png": {
+    "sha256": "9031cbe60cc6cff8336305ea68655330f9c5fc121f4f131bcf24181faeefb2dc",
+    "bytes": 243674
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.pdf": {
+    "sha256": "b39845196613ef9885a2f4ca9456277d13b59c072d70b7fded29675593ccad5a",
+    "bytes": 13884853
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.pdf": {
+    "sha256": "f8ec5c43b63543597a13b66847b2bb5a917215d868c40d043936f00aec62bb97",
+    "bytes": 10266468
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-dq-table.png": {
+    "sha256": "a22417e7f93c57453dac7205246409b86144f629597b65a68acc248f630478fc",
+    "bytes": 190448
+  },
+  "AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.txt": {
+    "sha256": "f6fa33c7c20940f998c9cd1043238e8ae28f271ad3b64de612f25e7bd8a48cf9",
+    "bytes": 9424
+  }
+}

@@ -1,0 +1,2 @@
+2026-10-16T13:19:01.120222 PRICE_FETCH latency=3ms {"tickers": 2, "errors": 2}
+2026-10-16T13:19:13.545298 PRICE_FETCH latency=1140ms {"tickers": 2, "errors": 0}

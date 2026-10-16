@@ -59,3 +59,6 @@ No strike on Iranian territory found. No Trump decision. No dated talks. No UKMT
 - **BRENT (info):** shadow-fleet sanctions-relief deliberation (no decision) and France's deployment to Saudi oil facilities.
 - **HAWK (info):** war-risk / shipping synthesis; Houthi airspace declaration.
 - **SAM (info):** carried per the Iran-cluster precedent. **RED / PROME (info, BOARD ID-diff).**
+
+
+> **ADDITIVE FOLLOW-UP 2026-10-16 — SIG-W-20261016-018:** October13UTC and October14Singapore timestamps reconcile; JMIC105 provisional hull mappings supplied. The same DRAFT-watermarked publishedPDF disputes CapeDao sinking against the carried IMO/owner finding. Five-loss owner state is unchanged pending adjudication; no new incident counted.
