@@ -25,7 +25,7 @@ Earlier signal commitcbed6d56b8555cda6ac4ddfaab7f73ab38906f4d and receiptc62cf6a
 
 ## GAPS / OWED
 
-- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is now proven published against local origin/master `89e713448`; instruction-fix commit `a23059765652e7e4b6980f60101aac98e4820228` and receipt `3adf5c89f` are published against local origin/master; WA2 clarification/receipt awaits coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
+- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is now proven published against local origin/master `89e713448`; instruction-fix commit `a23059765652e7e4b6980f60101aac98e4820228` and receipt `3adf5c89f` are published against local origin/master; WA2 correction `68044f367c96b0aa130e1999727ea08da6e737c0` is pending against local origin; receipt bookkeeping awaits coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
 - **Runtime:** shell/Python/git/local PDF/web and thread-local verification helpers work. Native fleet ListAgents, cross-runtime desk messaging and Telegram unavailable. Earlier user report named PROME/CATO/WALTER; later owner records show PROME-spawned sessions. This is not a current fleet census; unknown desks are not declared dark. Root/local instructions explicitly read; provider does not establish tools or permissions.
 - **Read coverage:** WALTER charter now22760bytes, below22,785cleanup stop. Owned changed basis hashes reviewed; matching hashes do not certify execution. PROME READS attestation remains stale/UNKNOWN; no whole-boot certification. Root charter and generated ORCH rotation advisories remain owner matters; no shared source/generator edit made.
 - **Shared checker:** R1's remaining two SHORT-TARGETS outputs are now demonstrated filename-date misparses after the genuine target omissions were repaired. Canonical corrects IDs and target unions pass the review-only resolver. Existing LABOR_DOWN/archive-schema and historical delivery-ID residues remain declared; no history erased to quiet checks.
@@ -121,6 +121,10 @@ Source/read accounting and publication are separate. Current repair checks: `res
     {
       "commit": "3adf5c89fd63e838ebd7fdce0cdf8804fef0b200",
       "state": "published"
+    },
+    {
+      "commit": "68044f367c96b0aa130e1999727ea08da6e737c0",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -218,7 +222,7 @@ Source/read accounting and publication are separate. Current repair checks: `res
     "12(d,e)": "Tier-2 SESSION_LOG entry and STATUS BOTTOM LINE reflect implemented fixes.",
     "14": "Memory28/29/41/43 and size history condensed; original narratives appended verbatim to MEMORY_PROMOTED. Under100lines/read budget.",
     "15": "Short dated receipt updated for CATO WA2, publication carries checked; other duties/approvals retained.",
-    "16": "WA2 exact-path commit pending; foreign work preserved.",
+    "16": "WA2 exact-path commit 68044f367c96b0aa130e1999727ea08da6e737c0 is pending against local origin; foreign work preserved, WALTER push deferred. Receipt-only commit follows.",
     "Tier1": "Only affected charter-size/receipt/publication claims updated; no new signals or market observations.",
     "root.consumer": "No numeric threshold, grade, weight or recipient changed. Safety-net precedence relationship clarified at owner and direct dependents.",
     "root.memory": "Own memory narratives conserved; no shared auto-memory/index edit.",
