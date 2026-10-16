@@ -42,7 +42,8 @@ Four standalone runs per boot (the reviewer's criterion, adopted: *what existing
 
 ## Result
 - before: `PROME/BOOT.md 25797 B · 134 lines · crc32 1913524426` (measure.py, 20:07 ET). after (pre-read): `25794 B · 131 lines · crc32 359668352`. A6 holds.
-- A1–A4, A6 ✅ at the read (below); A5 N/A; A7 OBSERVED half PENDING — claimable at the next boot's report only.
+- A2–A4, A6 ✅ at the read (below); A5 N/A; A7 OBSERVED half PENDING — claimable at the next boot's report only.
+- **A1 NARROWED 21:2x ET (CATO SP1, `AGENTS/CATO/runs/2026-10-15_2025_prome-simplification-oversight.md`):** A1's file-wide clause ("no other line in BOOT.md orders any of the five standalone") is **UNMET** — `BOOT.md` line 47 (the no-banner case: run the banner's checks manually) and `scripts/session_banner.sh` lines 45–46 both invoke `env_doctor.py --quiet`, so the capability check can still run beside the gate on a full boot. The disposition is the four removed step-5 repetitions only; the step-0/banner invocation is a separate, pre-existing path kept for its early-disclosure purpose, and any change to it needs its own slot and the relevant ownership boundary. INDEPENDENTLY VERIFIED applies to A2–A4, A6 and to A1 as narrowed; the wider A1 stays STILL UNRESOLVED.
 - Correction to the defect paragraph, found by the reader: the old Fire-time bullet said `--quiet`; the gate runs firetime WITHOUT `--quiet` (its flagged lines are the payload). "Same flags" was therefore slightly off for that one check — the gate's run is a superset of the standalone's output, which is the plan's own wording and the reason the standalone was the redundant one.
 
 ## reads: 1
