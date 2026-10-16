@@ -1424,6 +1424,29 @@ def check_publication_prereqs():
            "add the row to PROME/registry/WQ_EXPLAINERS.tsv at Pre-closeout, not at the render")
 
 
+def check_deck_republish():
+    """L738 / WQ-446 A (Will 2026-10-15 16:16 ET): the Deck OWED view republishes ONLY when the owed set changed since
+    the last HOSTED build. Current fingerprints (queue § OPEN + explainers, through decision_deck — one parser home)
+    vs the HOSTED record; the BUILD receipt is never consulted here (a render is not a publish). UNKNOWN ⇒ republish
+    and record (never NO-OP on silence). Replaces the full hosted-page read that earned a NO-OP by hand (survey #17)."""
+    name = "Deck republish (WQ-446 A, L738)"
+    owner = ("PROME/CLOSEOUT.md step 11 — OWED/UNKNOWN ⇒ publish the Owed view once, then "
+             "`decision_deck.py --record-hosted-owed <version> --page <downloaded hosted copy>`; NO-OP ⇒ quote this line in the report — "
+             "do not publish and do not run --record-hosted-owed (it would stamp a version that never reached the host)")
+    try:
+        sys.path.insert(0, str(ROOT / "PROME/tools"))
+        import decision_deck as dd  # noqa: E402
+        qtext = (ROOT / "PROME/WILL_QUEUE.md").read_text(encoding="utf-8")
+        rows = dd.parse_open(qtext)
+        if not rows and dd.open_looks_populated(qtext):      # read 1 ⚠️8: the same incoherent state build() refuses
+            raise ValueError(f"parse_open returned 0 rows while § OPEN holds {dd.open_looks_populated(qtext)} row-shaped lines")
+        state, line = dd.republish_verdict(dd.owed_fingerprints(rows, dd.load_explainers()), extras=dd.current_extras())
+    except Exception as e:  # never silent: UNKNOWN is a visible advisory
+        record(ADVISE, name, False, f"UNKNOWN — {type(e).__name__}: {str(e)[:120]}", owner)
+        return
+    record(ADVISE, name, state == "NO-OP", line, owner)
+
+
 def check_orch_closeout():
     run_script(ADVISE, "orchestrated touch closeout evidence (WQ-249)",
                [sys.executable, "PROME/tools/orch_closeout.py"],
@@ -1750,6 +1773,7 @@ def mode_closeout(tier=None, memory=None, superseded=None):
     guard(check_orch_log_observed)
     guard(check_review_manifest, tier)
     guard(check_publication_prereqs)
+    guard(check_deck_republish)     # L738: the gate decides the Deck publish; the page is read only when OWED/UNKNOWN
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical")
     guard(check_gates_tsv)          # FIRED-UNEXECUTED must never leave a session

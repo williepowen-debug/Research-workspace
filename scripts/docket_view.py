@@ -173,7 +173,8 @@ def render(rows, as_of, window=21, detail_days=7, full_chars=90, brief_chars=48,
            f"({DAYN[as_of.weekday()]}) · window {window}d → {horizon.isoformat()} · "
            f"live rows {len(live)} = {len(forward)} in window + {len(overdue)} OVERDUE + "
            f"{len(beyond)} beyond window (not shown) + {len(undated)} undated · "
-           f"docket-crc32 {vintage}. Rows cited by physical line (L#). "
+           f"docket-crc32 {vintage}. Rows cited by physical line (L#); far rows (starting beyond {detail_days}d) "
+           f"are `L# owner` only (a leading severity glyph kept) — their text is at the L# in the source (backlog #7). "
            f"Do not hand-edit inside the markers; the line after END is the hand-annotation line.*"]
 
     if overdue:
@@ -200,12 +201,17 @@ def render(rows, as_of, window=21, detail_days=7, full_chars=90, brief_chars=48,
         items = []
         for r in by_day[d]:
             near = (r["start"] - as_of).days <= detail_days
-            txt = short(r["catalyst"], full_chars if near else brief_chars)
             span = "" if r["end"] == r["start"] else (
                 f" (since {r['start'].month}/{r['start'].day} →{r['end'].month}/{r['end'].day})" if r["start"] < as_of
                 else f" (→{r['end'].month}/{r['end'].day})")
             approx = "~" if r["approx"] else ""
-            items.append(f"{approx}{txt}{span} [{owner_names(r['owners'])}] (L{r['line']})")
+            if near:
+                items.append(f"{approx}{short(r['catalyst'], full_chars)}{span} [{owner_names(r['owners'])}] (L{r['line']})")
+            else:   # backlog #7 (Will 2026-10-15 23:55 ET exception): far rows keep L#, owner, span, ~ and a LEADING severity
+                    # glyph (read 1 ⚠️: 🔴/🟠/🟡/⚠️/★ is the only "look now" cue on a long-lead row) — the text lives at the L#
+                g = re.match(r"\s*(🔴|🟠|🟡|🟢|⚠️|⛔|★|🧊)\s*", r["catalyst"])
+                glyph = (g.group(1) + " ") if g else ""
+                items.append(f"{approx}{glyph}L{r['line']} {owner_names(r['owners'])}{span}")
         head = f"**{fmt_day(d)}:**" if (d - as_of).days <= detail_days else f"**{d.month}/{d.day}:**"
         parts.append(f"{head} " + " · ".join(items))
     out.append(" — ".join(parts) if parts else f"*(no PENDING rows inside the {window}-day window)*")
@@ -587,8 +593,11 @@ def _run(cmd):
 def selftest():
     fails = 0
 
+    ran = 0
+
     def drill(name, ok, detail=""):
-        nonlocal fails
+        nonlocal fails, ran
+        ran += 1
         fails += not ok
         print(f"  {'✓' if ok else '✗'} {name}{(' — ' + detail) if detail else ''}")
 
@@ -701,6 +710,27 @@ def selftest():
         drill("OVERDUE ᶜ: 'recovered'/'covered()' do NOT tag (L3)", rc18 == 0 and "L3 8/10 " in out18 and "L3 8/10ᶜ" not in out18, f"rc={rc18}")
         drill("OVERDUE ᶜ: 'PENDING · COVERED: BRENT' DOES tag (L4); 'Not COVERED' does NOT (L5)",
               "L4 8/11ᶜ" in out18 and "L5 8/12 " in out18 and "L5 8/12ᶜ" not in out18, f"rc={rc18}")
+        # 11. backlog #7: far rows are `L# owner` only; the near week, OVERDUE and UNDATED are whole
+        drill("#7 A1: far row (8/30, 14d out) renders as `L3 AEOLUS` — no catalyst text",
+              "**8/30:** L3 AEOLUS" in blk and "Colorado River operating guidelines — EARLIEST" not in blk)
+        drill("#7 A1: near row (8/21, 5d out) renders in full with weekday head", "**FRI 8/21:** Baker Hughes rigs" in blk)
+        drill("#7 header names the far-row form and does NOT claim the text is in the Helm file (read 1 ❌)", "far rows (starting beyond 7d)" in blk and "`L# owner` only" in blk and "Helm" not in blk)
+        g7 = os.path.join(td, "G7.tsv")
+        open(g7, "w", encoding="utf-8").write(FIXTURE_DOCKET + "2026-09-01\t🟠 Glyphed far row with a long lead\tAEOLUS/PROME\tPENDING\t-\t-\n")
+        rc21, out21 = _run(["--write", pr, "--docket", g7, "--dry-run"] + asof)
+        drill("#7 far row keeps its LEADING severity glyph, drops its text (read 1 ⚠️ glyph)", rc21 == 0 and "**9/1:** 🟠 L13 AEOLUS/PROME" in out21 and "Glyphed far row" not in out21, f"rc={rc21}")
+        b23 = os.path.join(td, "B23.tsv")
+        open(b23, "w", encoding="utf-8").write(FIXTURE_DOCKET + "2026-08-23\tBoundary row exactly detail_days out\tOTTO\tPENDING\t-\t-\n"
+                                                 "2026-08-24\tOne day past the boundary\tOTTO\tPENDING\t-\t-\n")
+        rc19, out19 = _run(["--write", pr, "--docket", b23, "--dry-run"] + asof)
+        drill("#7 A2: a row starting exactly at as-of + detail_days (8/23) is NEAR (full text); 8/24 is far (`L14 OTTO`)",
+              rc19 == 0 and "Boundary row exactly detail_days out" in out19 and "**8/24:** L14 OTTO" in out19 and "One day past" not in out19, f"rc={rc19}")
+        drill("#7 A2: the in-progress window row (since 8/12 →8/20) stays NEAR and whole", "FALCON leg-3 WEEKLY sweep window (in progress at as-of) (since 8/12 →8/20)" in out19)
+        rc20, out20 = _run(["--write", pr, "--docket", dk, "--dry-run", "--detail", "100"] + asof)
+        def sect(o, key): return next((ln for ln in o.splitlines() if ln.startswith(key)), None)
+        drill("#7 A3: OVERDUE and UNDATED lines are byte-identical whatever --detail is (sections untouched by the far-row form)",
+              rc20 == 0 and sect(out20, "**⚠️ OVERDUE") == sect(blk, "**⚠️ OVERDUE") and sect(out20, "**UNDATED") == sect(blk, "**UNDATED") and sect(out20, "*Beyond") == sect(blk, "*Beyond"))
+        drill("#7 A3: the counts line is unchanged by the far-row form", sect(out20, "*GENERATED").split("docket-crc32")[0].replace("far rows (starting beyond 100d)", "") == sect(blk, "*GENERATED").split("docket-crc32")[0].replace("far rows (starting beyond 7d)", ""))
         # 10. zero-match surface says so
         v4 = os.path.join(td, "view_none.md")
         open(v4, "w", encoding="utf-8").write("nothing dated relevant 1/1\n")
@@ -709,7 +739,7 @@ def selftest():
     if fails:
         print(f"DOCKET-VIEW SELFTEST ✗ {fails} drill(s) FAILED — do not trust the tool")
         return 1
-    print("DOCKET-VIEW SELFTEST ✓ 26/26 drills behaved")
+    print(f"DOCKET-VIEW SELFTEST ✓ {ran}/{ran} drills behaved")
     return 0
 
 

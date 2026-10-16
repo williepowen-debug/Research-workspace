@@ -76,3 +76,43 @@
 
 ## Order and slots
 Tonight (prome-be, slot already spent on change 1): this plan; ② executed as hygiene (disclosed). Next sitting with a free slot and no due domain/position row ahead of it: ① (approved, L738 due 10/16). The sitting after: ③. The WQ-448 addendum is written when its slot comes and is not implemented before Will's word. Each implementation sitting ends in a reviewed Standard closeout so the held train (31062bfc6 and what follows) ships under the existing rule, never by the bypass.
+
+---
+
+## Will's word — session exception, 2026-10-15 23:55 ET (PROME session b486657a; pasted verbatim, nothing paraphrased)
+
+> For this session only, I authorize two process changes: **L738 first, followed by backlog #7**, provided L738 passes its applicable checks and independent review.
+>
+> This is a specific exception, not a general lifting of the one-change-per-session ceiling. WQ-445's broader proposal remains a separate decision.
+>
+> **L738:** Complete the code, acceptance tests, manual updates, and runner integration before final independent review. Preserve the distinction between rendered, committed, and successfully hosted content. Include the amended publication-snapshot and row-difference tests.
+>
+> **Backlog #7:** Proceed only after L738 passes. Reduce the redundant SCRATCH docket content while preserving complete OVERDUE and UNDATED information, urgent preparation cues, counts, and access to the full authoritative docket.
+>
+> **WQ-448:** You may complete the bounded addendum, but do not implement the push-control redesign without separate approval.
+>
+> **Measurement:** Record that the four removed standalone checks did not recur during this boot. Do not claim elapsed-time or model-usage savings that haven't been measured. Preserve the known startup-banner exception.
+>
+> **Priorities:** Scheduled financial research, catalyst wakes, and position-facing work take precedence. Do not force both process changes to completion if doing so compromises those obligations.
+>
+> Complete delivery through the existing reviewed closeout requirements. Avoid creating new recurring documentation or verification obligations unless they replace something necessary.
+>
+> Our objective is less recurring operational work, not simply more completed process changes.
+
+**PROME's reading (same minute):** the session ceiling is TWO for this session only (L738, then ③/#7 after L738 is INDEPENDENTLY VERIFIED); WQ-445 stays OPEN and unruled; the WQ-448 addendum may be written, nothing of WQ-448 implemented; the change-1 OBSERVED half is recorded at the acceptance file (A7) from this boot's gate log; no time or usage saving is claimed; the step-0 banner `env_doctor` path (W5) stays.
+
+## Will's word — wave close-out priorities, 2026-10-16 00:44 ET (PROME session b486657a; pasted verbatim)
+
+> Finish the current wave with these priorities:
+>
+> 1. Repair L738's publication binding. CATO reproduced this failure: build A, save A's page, change the queue and build B within the same minute, then record A as published. The tool accepts B's receipt and incorrectly returns NO-OP.
+>
+> Bind the receipt to the exact rendered page. Increasing timestamp precision alone is insufficient. Use CATO's reproduction at AGENTS/CATO/runs/2026-10-15_2025_prome-simplification-l738-collision-probe.py as a regression case. The result must either refuse mismatched evidence or correctly record A while B remains OWED.
+>
+> 2. Review the final L738 candidate. Within this existing episode, I authorize the bounded correction/read-budget exception needed for this repair and one targeted final independent review, covering the collision fix and the already-unreviewed post-read edits, including affected instructions. Preserve the review history; do not reset the episode or expand into unrelated cautions. Keep the publication-snapshot, row-difference, date-sensitive display and failed-publication tests passing. Do not rely on the new NO-OP mechanism until this is resolved.
+>
+> 3. Stop expanding #7. Preserve the seven-day detail window, urgent preparation cues, and complete overdue/undated sections. Report the actual reduction and A6's unmet target. Accurately disposition any remaining rotation work; do not compress further merely to meet the original estimate.
+>
+> 4. Complete the existing reviewed closeout. Distinguish COMMITTED, PUSHED and PUBLISHED, verify the actual hosted build, and record its matching receipt only after confirmed publication. Clearly name anything still pending.
+>
+> WQ-448's addendum remains a separate, unapproved proposal. No third optimization or additional broad audit is authorized. Due research and position work retains priority.

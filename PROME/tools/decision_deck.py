@@ -27,7 +27,7 @@ Usage:  python3 PROME/tools/decision_deck.py [-o PROME/artifacts/decision_deck.h
         --selftest   parse-shape drills on the live sources (counts + required fields)
 """
 from __future__ import annotations
-import argparse, datetime as dt, glob, html, json, os, re, subprocess, sys
+import argparse, datetime as dt, glob, hashlib, html, json, os, re, subprocess, sys
 from pathlib import Path
 from urllib.parse import quote
 
@@ -170,6 +170,175 @@ def load_explainers() -> dict[str, dict]:
         c = l.split("\t")
         out[c[0].strip()] = dict(zip(hdr, c))
     return out
+
+# ---- L738 / WQ-446 A (Will 2026-10-15 16:16 ET, "approved."): the OWED view republishes ONLY when the owed set
+# changed since the last HOSTED build. Three records, never merged: the RENDER (build receipt, written by build()),
+# the COMMIT (git), and the HOSTED page (the hosted record, written only after a confirmed publish and copied FROM
+# the build receipt of the page that was published — never recomputed from the queue at record time).
+# The owed set = every parse_open row (open AND answered/hands-owed: the page renders both) as its RAW cells, plus
+# that row's whole explainer row. Build stamp, sha, build id, the hosted-reference note and the Reference panels are
+# NOT in the set (a generated timestamp is not a republish trigger). Acceptance: tests/ACCEPTANCE_L738_deck_owed_digest.md.
+OWED_ROW_CELLS = ("n", "item", "kind", "by_raw", "since", "rec", "notes")   # parse_open's raw cells; nothing derived
+
+
+def _owed_build_path() -> Path:
+    return ROOT / "PROME/state/deck_owed_build.json"      # read ROOT at call time: fixtures patch ROOT
+
+
+def _owed_hosted_path() -> Path:
+    return ROOT / "PROME/state/deck_owed_hosted.json"
+
+
+def _nkey(n: str):
+    m = re.match(r"\d+", n)
+    return (int(m.group(0)) if m else 10 ** 9, n)
+
+
+def owed_fingerprints(rows: list[dict], expl: dict) -> dict[str, str]:
+    """One sha256 per owed row over its raw cells + its whole explainer row (every column, header-driven)."""
+    out = {}
+    for r in rows:
+        e = expl.get(r["n"]) or {}
+        row = "\x1e".join(str(r.get(k, "")) for k in OWED_ROW_CELLS)
+        ex = "\x1e".join(f"{k}\x1f{e[k]}" for k in sorted(e))
+        out[r["n"]] = hashlib.sha256((row + "\x1d" + ex).encode("utf-8")).hexdigest()
+    return out
+
+
+def owed_digest(fps: dict[str, str]) -> str:
+    """Derived from the per-row map (sorted n:fingerprint), never computed alone — so +/−/~ rows stay nameable."""
+    return hashlib.sha256("\n".join(f"{n}:{fps[n]}" for n in sorted(fps, key=_nkey)).encode("utf-8")).hexdigest()
+
+
+def owed_diff(hosted: dict[str, str], current: dict[str, str]) -> tuple[list[str], list[str], list[str]]:
+    added = sorted(set(current) - set(hosted), key=_nkey)
+    removed = sorted(set(hosted) - set(current), key=_nkey)
+    changed = sorted((n for n in set(hosted) & set(current) if hosted[n] != current[n]), key=_nkey)
+    return added, removed, changed
+
+
+EXTRA_LABELS = {"renderer": "renderer changed", "reference_note": "reference note changed"}
+
+
+def current_extras() -> dict[str, str]:
+    """L738 read 1 ❌2 / ⚠️10: what the page shows that is NOT in the two source files — the renderer itself
+    (this file's bytes) and the hosted-reference note. A change in either is a republish trigger."""
+    return {"renderer": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(), "reference_note": _hosted_reference_note()}
+
+
+def open_looks_populated(text: str) -> int:
+    """Row-shaped lines in § OPEN — the same test build() uses to refuse a blank deck (F2)."""
+    sect = text.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
+    return len(re.findall(r"^\|\s*\d+\s*\|", sect, re.M))
+
+
+def republish_verdict(current: dict[str, str], hosted_path: Path | None = None,
+                      extras: dict[str, str] | None = None) -> tuple[str, str]:
+    """(state, line): UNKNOWN (no/unreadable hosted record ⇒ republish and record — never NO-OP on silence) ·
+    NO-OP (owed set AND extras unchanged since the hosted version) · OWED (names −removed +added ~changed WQ
+    numbers, then any changed extra: renderer / reference note)."""
+    path = _owed_hosted_path() if hosted_path is None else Path(hosted_path)
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        hosted, version, published = data["fingerprints"], str(data["version"]).strip(), str(data["published_at"]).strip()
+        hx = data["extras"]
+        if (not isinstance(hosted, dict) or not version or not all(isinstance(v, str) for v in hosted.values())
+                or not isinstance(hx, dict) or not all(isinstance(v, str) for v in hx.values())):
+            raise ValueError("malformed hosted record")
+    except (OSError, ValueError, KeyError, TypeError):
+        return "UNKNOWN", ("UNKNOWN — no hosted owed record (missing or unreadable): republish the Owed view at this "
+                           "Standard+ closeout and record it (`decision_deck.py --record-hosted-owed <version> --page <downloaded hosted copy>`)")
+    added, removed, changed = owed_diff(hosted, current)
+    parts = [f"−{n}" for n in removed] + [f"+{n}" for n in added] + [f"~{n}" for n in changed]
+    if extras is not None:
+        parts += [EXTRA_LABELS.get(k, f"{k} changed") for k in sorted(set(extras) | set(hx)) if hx.get(k) != extras.get(k)]
+    if not parts:
+        return "NO-OP", f"NO-OP (owed set unchanged since {version}, {published})"
+    return "OWED", f"OWED — since {version} ({published}): {' '.join(parts)}"
+
+
+def page_build_id(page: Path) -> str | None:
+    """The build id the PUBLISHED file carries (<body data-build="…">) — read from the file, never retyped."""
+    m = re.search(r'<body[^>]*\sdata-build="([^"]*)"', Path(page).read_text(encoding="utf-8"))
+    return html.unescape(m.group(1)) if m else None
+
+
+PAGE_RECEIPT_ID = "deck-owed-receipt"
+_PAGE_RECEIPT_RE = re.compile(r'<script type="application/json" id="' + PAGE_RECEIPT_ID + r'">(.*?)</script>', re.S)
+
+
+def page_receipt_block(rec: dict) -> str:
+    """The receipt EMBEDDED in the rendered Owed page (CATO SP6 / Will 2026-10-16 00:44 ET: bind the record to the exact
+    rendered page — two builds inside one minute share a build id, so an external receipt file can describe the wrong page).
+    `</` is escaped so the JSON can never close the script element early."""
+    body = json.dumps({k: rec[k] for k in ("digest", "fingerprints", "extras", "build_id", "link_mode", "built_at", "build_sha")},
+                      ensure_ascii=False, sort_keys=True).replace("</", "<\\/")
+    return f'<script type="application/json" id="{PAGE_RECEIPT_ID}">{body}</script>'
+
+
+def page_receipt(page: Path) -> dict:
+    """The receipt the PAGE FILE carries — the only evidence `--record-hosted-owed` accepts. Works on the local render and
+    on a copy downloaded from the host (the host wraps the page in its own skeleton; the block survives inside).
+    Raises ValueError when absent or malformed (never a silent default)."""
+    text = Path(page).read_text(encoding="utf-8")
+    m = _PAGE_RECEIPT_RE.search(text)
+    if not m:
+        raise ValueError(f"no embedded owed receipt (<script id={PAGE_RECEIPT_ID!r}>) in {page} — a page built before L738's binding, or not an Owed page")
+    rec = json.loads(m.group(1).replace("<\\/", "</"))
+    if (not isinstance(rec.get("fingerprints"), dict) or not rec.get("digest") or not rec.get("build_id")
+            or not isinstance(rec.get("extras"), dict) or not all(isinstance(v, str) for v in rec["fingerprints"].values())):
+        raise ValueError("malformed embedded owed receipt")
+    if rec["digest"] != owed_digest(rec["fingerprints"]):
+        raise ValueError("embedded receipt digest does not match its own fingerprints")
+    return rec
+
+
+def write_build_receipt(fps: dict[str, str], build_id: str, stamp: str, sha: str, path: Path | None = None,
+                        extras: dict[str, str] | None = None, link_mode: str = "local") -> dict:
+    """The RENDER record: what this build contains. Written by build() beside the page; not a publish."""
+    path = _owed_build_path() if path is None else Path(path)
+    rec = {"_doc": "L738 build receipt — what the LAST RENDER of the Owed view contains (digest over the owed set + extras: "
+                   "renderer fingerprint, reference note). A render is not a publish: the hosted record is written only by "
+                   "--record-hosted-owed after a confirmed publish.",
+           "digest": owed_digest(fps), "fingerprints": dict(sorted(fps.items(), key=lambda kv: _nkey(kv[0]))),
+           "extras": dict(current_extras() if extras is None else extras), "link_mode": link_mode,
+           "build_id": build_id, "built_at": stamp, "build_sha": sha}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(rec, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    return rec
+
+
+def record_hosted_owed(version: str, page: Path, hosted_path: Path | None = None) -> tuple[int, str]:
+    """After a CONFIRMED publish only. Copies the receipt EMBEDDED IN THE PAGE FILE GIVEN (the published render, or better the
+    copy downloaded from the host) into the hosted record. The page is the only evidence: the external build-receipt file is
+    never consulted (CATO SP6: two builds in one minute share a build id, so a file receipt can describe the wrong page).
+    Refuses — writing nothing — on a missing/malformed embedded receipt, a local-link build, or an empty version."""
+    hpath = _owed_hosted_path() if hosted_path is None else Path(hosted_path)
+    page = Path(page)
+    try:
+        raw = page.read_bytes()
+        rec = page_receipt(page)
+    except (OSError, ValueError, KeyError, TypeError) as e:
+        return 2, f"REFUSED — {page}: {type(e).__name__}: {e}"
+    if not version.strip():
+        return 2, "REFUSED — empty version"
+    if rec.get("link_mode") != "hosted":   # read 2 ⚠️5: a local-link build published by mistake would read NO-OP forever
+        return 2, ("REFUSED — the page is a LOCAL-link build (no --owed-url/--reference-url): its Reference link is a relative "
+                   "file path, broken on the host; rebuild with the hosted URLs, republish, then record")
+    from zoneinfo import ZoneInfo
+    hosted = {"_doc": "L738 / WQ-446 A hosted record — the Owed view the HOST holds, copied from the receipt embedded in the page "
+                      "file that was published / downloaded from the host (never recomputed from the queue, never from a build-receipt "
+                      "file). The closeout gate compares the current owed set with these fingerprints: equal ⇒ NO-OP (recorded, not "
+                      "published); different ⇒ OWED; absent ⇒ UNKNOWN.",
+              "digest": rec["digest"], "fingerprints": rec["fingerprints"], "extras": rec["extras"], "version": version.strip(),
+              "published_at": dt.datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M ET"),
+              "build_id": rec["build_id"], "built_at": rec.get("built_at", ""), "build_sha": rec.get("build_sha", ""),
+              "page_sha256": hashlib.sha256(raw).hexdigest(), "page_file": str(page)}
+    hpath.parent.mkdir(parents=True, exist_ok=True)
+    hpath.write_text(json.dumps(hosted, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    return 0, (f"recorded hosted {version.strip()} = build {rec['build_id']} from {page.name} (page sha256 {hosted['page_sha256'][:12]}…, "
+               f"digest {rec['digest'][:12]}…, {len(rec['fingerprints'])} rows) → {hpath}")
+
 
 # ---- Change A (DOCKET L660, Will 2026-10-09 12:09/12:32/12:35 ET): selectable options, copied VERBATIM from the
 # owner card and validated against the OFFERED set at build time. Acceptance: tests/ACCEPTANCE_deck_options_2026-10-09.md.
@@ -690,13 +859,16 @@ def due_pill(by: str | None, days: int | None, blocked: bool, blocker: str | Non
     if days is None:
         return f'<span class="pill soft">{html.escape(by)}</span>'
     ck = ("" if not clock else (f" · {clock[:-1]}\u2026" if clock.endswith("\u2026") else f" · {clock}"))
+    # L738 read 1 ❌1: the countdown is RECOMPUTED IN THE BROWSER from data-by/data-ck (refreshPills in the page
+    # script) because the hosted page is no longer rebuilt daily (WQ-446 A) — the build-day text is only the initial render.
+    live = f' data-by="{html.escape(by, quote=True)}" data-ck="{html.escape(ck, quote=True)}"'
     if days < 0:
-        return f'<span class="pill crit">overdue {-days}d · {by}{ck}</span>'
+        return f'<span class="pill crit"{live}>overdue {-days}d · {by}{ck}</span>'
     if days == 0:
-        return f'<span class="pill crit">due today · {by}{ck}</span>'
+        return f'<span class="pill crit"{live}>due today · {by}{ck}</span>'
     if days <= 2:
-        return f'<span class="pill warn">{days}d left · {by}{ck}</span>'
-    return f'<span class="pill ok">{days}d left · {by}{ck}</span>'
+        return f'<span class="pill warn"{live}>{days}d left · {by}{ck}</span>'
+    return f'<span class="pill ok"{live}>{days}d left · {by}{ck}</span>'
 
 def render_unit(wq: str, unit: dict, multi: bool) -> str:
     did = f"{wq}.{unit['unit']}" if multi else wq
@@ -791,7 +963,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
                      f'<td class="c-who">{GRPLBL[g]}</td><td class="c-kind">{kind_chip(r["kind"])}</td>'
                      f'<td class="c-due">{pill}</td><td class="c-since">{html.escape(r["since"])}</td></tr>')
         tiles.append(f'<button type="button" class="ovtile" {attrs}><span class="t-top"><span class="num">WQ-{r["n"]}</span>'
-                     f'{"<span class=\"pill pin\">PINNED</span>" if pn else ""}<span class="pill rl" hidden></span></span>{pill}'
+                     f'<span class="pill pin"{"" if pn else " hidden"}>PINNED</span><span class="pill rl" hidden></span></span>{pill}'
                      f'<span class="t-kind">{kind_chip(r["kind"])} · {GRPLBL[g]}</span><span class="t-title">{html.escape(nm)}</span></button>')
     out.append(
         '<div class="viewbar">'
@@ -923,7 +1095,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
         pin = r["_pin"] if "_pin" in r else is_pinned(r, days)
         dom = " ".join(d for d in ((e.get("domains") or "").replace("·", " ").split() if e else [])
                        if d.lower() not in _RESERVED_LC)   # read 2 ❌3: the card attr honors the same guard
-        pin_pill = '<span class="pill pin" title="Due, clocked or money-moving: visible under every filter">PINNED</span>' if pin else ""
+        pin_pill = f'<span class="pill pin" title="Due, clocked or money-moving: visible under every filter"{"" if pin else " hidden"}>PINNED</span>'
         out.append(
             f'<article class="card{" blocked" if r["blocked"] else ""}" id="wq-{r["n"]}" data-wq="{r["n"]}"'
             f' data-kchip="{kind_chip(r["kind"])}" data-dom="{html.escape(dom, quote=True)}" data-pin="{"1" if pin else "0"}" data-due="{html.escape(r["by"] or "", quote=True)}">'
@@ -1178,6 +1350,25 @@ UI_JS = r"""
     var curChip = 'All', curPreset = 'all';
     function etToday(){ try { return new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()); } catch(e){ var d = new Date(); return d.getFullYear() + '-' + ('0'+(d.getMonth()+1)).slice(-2) + '-' + ('0'+d.getDate()).slice(-2); } }
     function allUnits(){ return Array.prototype.slice.call(document.querySelectorAll('#owed .card, #owed .ovrow, #owed .ovtile')); }
+    function refreshPills(){                               // L738 read 1 ❌1: countdowns + pin marks follow TODAY, not the build day
+      var t = etToday();
+      function dnum(s){ return Date.UTC(+s.slice(0,4), +s.slice(5,7)-1, +s.slice(8,10)); }
+      Array.prototype.slice.call(document.querySelectorAll('.pill[data-by]')).forEach(function(p){
+        var by = p.dataset.by, ck = p.dataset.ck || '';
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(by)) return;
+        var d = Math.round((dnum(by) - dnum(t)) / 86400000);
+        p.className = 'pill ' + (d <= 0 ? 'crit' : d <= 2 ? 'warn' : 'ok');
+        p.textContent = (d < 0 ? 'overdue ' + (-d) + 'd' : d === 0 ? 'due today' : d + 'd left') + ' · ' + by + ck;
+      });
+      allUnits().forEach(function(el){
+        if (el.dataset.pin !== '1' && el.dataset.due && el.dataset.due <= t) {
+          el.dataset.pin = '1';
+          var pp = el.querySelector('.pill.pin'); if (pp) pp.hidden = false;
+          var c = el.querySelector('.c-pin'); if (c) c.textContent = '📌';
+        }
+      });
+    }
+    refreshPills();
     var applyFilters = function(chipVal, preset, save){
       if (save === undefined) save = true;
       curChip = chipVal; curPreset = preset;
@@ -1557,6 +1748,7 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
     from zoneinfo import ZoneInfo
     stamp = dt.datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M") + " ET"  # AC-B8 (read 1 ⚠️9: explicit TZ)
     build_id = f"{sha}·{stamp}"
+    owed_fps = owed_fingerprints(owed, expl)              # L738: the owed set this render contains
     actionable = [r for r in owed if not r["blocked"] and not r.get("answered")]
     answered = [r for r in owed if not r["blocked"] and r.get("answered")]
     missing = [r["n"] for r in owed if r["n"] not in expl]
@@ -1607,11 +1799,15 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
                 f"width change or an unescaped pipe) and re-run. ⛔ Refusing is correct here: a "
                 f"blank deck is indistinguishable from a clear one.")
 
+    # L738 binding (CATO SP6): the Owed page carries its OWN receipt; --record-hosted-owed reads it from the page file.
+    receipt = write_build_receipt(owed_fps, build_id, stamp, sha, link_mode=link_mode)   # the RENDER record file (not a publish)
+    assert page.count("</body></html>") == 1
+    page = page.replace("</body></html>", page_receipt_block(receipt) + "\n</body></html>")
     # Construct both outputs before writing. The normal candidate freeze covers the pair.
     for path, content in ((out, page), (reference_out, reference)):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding="utf-8")
-    return {"owed": len(owed), "actionable": len(actionable), "answered_hands": len(answered), "decided": len(decided), "active": len(active),
+    return {"owed": len(owed), "owed_digest": receipt["digest"], "build_id": build_id, "build_receipt": str(_owed_build_path()), "actionable": len(actionable), "answered_hands": len(answered), "decided": len(decided), "active": len(active),
             "docket": len(docket), "explainers_missing": missing, "options_rows": option_rows,
             "options_warnings": option_warnings, "done_rows_skipped": DONE_ROWS_SKIPPED, "bytes": len(page.encode()), "out": str(out),
             "reference_out": str(reference_out), "reference_bytes": len(reference.encode()), "link_mode": link_mode}
@@ -1663,6 +1859,8 @@ def selftest() -> int:
     elif ncol == 10:
         chk("options WITHHELD on every row (10-column sidecar, no options cell filled) — the page renders plain cards", True, f"plain {len(plain_rows)}")
     chk("md() escapes HTML before styling", md("<b>x</b> **y**") == "&lt;b&gt;x&lt;/b&gt; <strong>y</strong>")
+    fp1, fp2 = owed_fingerprints(o, e), owed_fingerprints(o, e)
+    chk("L738: owed fingerprints cover every OPEN row, are distinct and stable across two calls", set(fp1) == {r["n"] for r in o} and len(set(fp1.values())) == len(fp1) and owed_digest(fp1) == owed_digest(fp2), f"{len(fp1)} rows")
     # Change B (AC-B10): pins + chips on the live sources
     today0 = dt.date.today()
     live = [r for r in o if not r["blocked"]]
@@ -1698,9 +1896,24 @@ if __name__ == "__main__":
     ap.add_argument("--reference-url", help="private reference artifact URL; requires --owed-url")
     ap.add_argument("--today", default=None, help="YYYY-MM-DD (default: system date)")
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--record-hosted-owed", metavar="VERSION",
+                    help="L738: after a CONFIRMED publish of the Owed view, copy the receipt EMBEDDED IN THE PAGE FILE into the "
+                         "hosted record; --page is REQUIRED and must be the copy DOWNLOADED from the host after the publish "
+                         "(Artifact read with path index.html) — never the local render (read 3 ❌1: a default to the -o path "
+                         "recorded an unpublished build as hosted)")
+    ap.add_argument("--page", help="with --record-hosted-owed: the Owed page file DOWNLOADED from the host; the -o path is refused")
     a = ap.parse_args()
     if a.selftest:
         sys.exit(selftest())
+    if a.record_hosted_owed is not None:
+        if not a.page:
+            ap.error("--record-hosted-owed requires --page <the copy DOWNLOADED from the host> (no default: the local render "
+                     "may be a later, unpublished build)")
+        if Path(a.page).resolve() == Path(a.out).resolve():
+            ap.error(f"--page {a.page} is the local render (-o path); pass the copy downloaded from the host after the publish")
+        rc, msg = record_hosted_owed(a.record_hosted_owed, Path(a.page))
+        print(msg)
+        sys.exit(rc)
     from zoneinfo import ZoneInfo as _ZI
     today = dt.date.fromisoformat(a.today) if a.today else dt.datetime.now(_ZI("America/New_York")).date()
     try:

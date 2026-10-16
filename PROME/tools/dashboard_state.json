@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-15 23:11",
+ "built": "2026-10-16 00:56",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -17,10 +17,6 @@
   "2026-09-25 \u2605 IRAN-OMAN PERMANENT-ROUTE WINDOW \u2014 the 8/26 finalised INTE",
   "2026-10-01 Fifth Plenum, 20th CPC Central Committee \u2014 15th Five-Year-Pl",
   "2026-10-01 \u2605 CORAL thesis re-test CONVERGENCE \u2014 the two instruments tha",
-  "2026-10-15 Closeout display applicability \u2014 prepare implementation from",
-  "2026-10-15 INFO-BACKLOG PREDICTIVE STUDY \u2014 does a desk's UNCONSUMED inf",
-  "2026-10-15 PROME DEDICATED MAINTENANCE SESSION (WQ-430 RULED 10/14 21:3",
-  "2026-10-15 \ud83d\udfe1 FORGE/STATUS.md WRITE MODE \u2014 the mirror re-breaches its re",
   "2026-10-16 August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-mo",
   "2026-10-16 CFG Q3-2026 PRINT (Fri 10/16, call 09:00 ET) \u2014 WQ-318 gradin",
   "2026-10-16 CRUISE \u2014 NCLC $950M 8.750% 2031 NOTES CLOSING 8-K (closing e",
@@ -30,7 +26,6 @@
   "2026-10-16 ORACLE DAILY PULL \u2014 WQ-314 (b) RULED APPROVE 2026-10-15 12:2",
   "2026-10-16 OSPREY strike_feed.py \u2014 READ 3 RESIDUE, a NEW episode (reads",
   "2026-10-16 RESEARCH-INTAKE edgar_8k \u2014 add the CCL / RCL / NCLH CIKs to ",
-  "2026-10-16 WQ-446 ENCODE \u2014 the Decision Deck OWED view republishes ONLY",
   "2026-10-17 WQ-373 PHASE 1 \u2014 TWO-WEEK PILOT REVIEW (provisional date = 1",
   "2026-10-19 BESSENT '2027-01-10' EXTENSION \u2014 INSTRUMENT RE-CHECK: has AN",
   "2026-10-19 CCC-GAP CONSUMER-ATTRIBUTION READ \u2014 Will-commissioned (in th",
@@ -94,7 +89,9 @@
   "2026-11-04 FERT WAKE \u2014 CF INDUSTRIES Q3 2026 RESULTS (after the close 1",
   "2026-11-05 FFIEC CDR JWT EXPIRES 11/05 (90d lifetime; WILL_QUEUE row 31",
   "2026-11-05 FORUM-5 deferrals cluster at SHADE Q3 session: L3 baseline p",
-  "2026-11-05 NEXUS LETTER WAKE \u2014 M-01 \u00b7 M-03 \u00b7 M-04 \u00b7 M-05 \u00b7 M-07 falsifi"
+  "2026-11-05 NEXUS LETTER WAKE \u2014 M-01 \u00b7 M-03 \u00b7 M-04 \u00b7 M-05 \u00b7 M-07 falsifi",
+  "2026-11-06 CRUISE \u2014 NCLH Q3 RELEASE + 10-Q \u2014 FALLBACK DATE, NOT announc",
+  "2026-11-06 NEXUS PRED-41 WAKE \u2014 first boot after the NY Fed Household D"
  ],
  "fleet": {
   "AEOLUS": "watch",
@@ -106,7 +103,7 @@
   "CRUISE": "ok",
   "FALCON": "ok",
   "FERT": "ok",
-  "FLG": "elev",
+  "FLG": "crit",
   "HAWK": "watch",
   "HENRY": "elev",
   "HOMER": "ok",
@@ -174,6 +171,7 @@
   "WQ-445 (10/16)",
   "WQ-448 (10/17)",
   "WQ-441 (10/17)",
+  "WQ-449 (10/19)",
   "WQ-443 (10/19)",
   "WQ-442 (10/23)",
   "WQ-422 (10/23)",
