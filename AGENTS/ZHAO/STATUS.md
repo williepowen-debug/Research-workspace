@@ -1,12 +1,12 @@
 # ZHAO STATUS
 
-**Updated:** 2026-10-09 (see commit time). **Session: PROME-spawned (Tier 1 due-row, DOCKET L482) — 10/09 instrument re-check + ride-alongs L223/L405 + whole-inbox drain (12 items).** *(9/30 session: ZHA-16 graded, L481.)*
+**Updated:** 2026-10-16 (see commit time). **Session: PROME-spawned (Tier 1 due-row, DOCKET L405) — August TIC, ZHA-18 graded + whole-inbox drain (20 items).** *(10/09 session: L482 instrument re-check.)*
+📊 **10/16 — ZHA-18 GRADED NO (branch B): China LT −$4,828M, $172M inside the −$5B boundary ⇒ the threshold did the work, not banked as skill (letter §4).** Selling continued a 3rd month but halved again (LT −15.8 → −7.7 → −4.8; total −9.6). Level **$590.7B**, ⚠️ of which a **−$12.25B LT residual is NOT transactions or valuation** (largest of 43 months; cause UNKNOWN). Belgium +8.74% YoY ⇒ kill-leg print 1/2 **SATISFIED-ON-BASE-EFFECT**. rho n=43 +0.067. Agency sold again. KB-197 · `reports/2026-10-16_AUGUST_TIC_SESSION.md`.
 🔒 **10/9 — NO INSTRUMENT ANYWHERE; BOTH 11/10 CLOCKS STAND.** WH ×5 listings · FR published + public inspection (current + 10/1–10/8, all 200) · MOFCOM 公告 through No.44 (10/3) · cacs (41/42 = trade-barrier investigation extensions) — nothing implements the 1/10 extension (KB-192). Tariff Commission 502 again (SEARCH-NOT-FOUND). 🔴→🟠 **Sept construction PMI 50.3 ⇒ property tripwire FIRED, Vector 5 5→4, total 28/60** (KB-193). Plenum **10/26–29**, agenda Party discipline not fiscal (KB-195). Aug TIC **Fri 10/16 16:00** confirmed (sb0631).
-🔒 **9/30 — ZHA-16 GRADED MISS by its letter (Brier 0.2025).** No instrument with an effective date beyond 11/10 at WH / FR (incl. public inspection, now 200) / govinfo / MOFCOM 公告 (KB-190). 🆕 **MOFCOM 9/28 put 2027-01-10 IN WRITING** (美大司 interpretation §八: both sides agreed to extend the Kuala Lumpur arrangement to 1/10 as the basis for further talks) — an official statement, **still not an instrument** (KB-189). *(9/19 header lines verbatim → `archive/STATUS_COLD_20260925.md` §ⓐ.)*
-🔴 **9/25 — THE SUMMIT HAPPENED, NO INSTRUMENT MOVED, AND ONE OF MY THREE 11/10 CLOCKS WAS NEVER LIVE.** Xi in Washington 9/23-25, official readouts both sides (KB-181). Xinhua: 「达成了一份新的联合安排」 — **a new joint arrangement, NO terms published.** Bessent (Fox 9/23): "Busan Agreement" extended to **2027-01-10** — **VERBAL ONLY; no WH action/fact sheet, no FR notice, no MOFCOM notice as of 9/25 ~09:3x ET** (KB-182). ★🔴 **ZHAO's own premise error: the US IEEPA reciprocal "lapse" has had no duty behind it since 2026-02-24** — *Learning Resources v. Trump* (S.Ct. 2/20) + **EO 14389** ended the IEEPA duties under EO 14257-as-amended and EO 14195; EO 14358's 11/10 suspension sits inside that frame. **My 9/2 "re-verification" read EO 14358 and never checked its later disposition** (KB-183; KB-131 → CORRECTED).
-**Overall Status:** 🟠 ELEVATED — **28/60 (−1, 10/9: Vector 5 → 4 on the pre-registered construction tripwire, KB-193).** **July TIC (released 9/16, own pull 9/17): China $618.0B (−$15.4B), LT/coupon net −$7.7B — a SECOND consecutive month of duration selling, at half June's pace.** ZHA-17 resolves **NO** on its own boundary rule (−$10B ≥ LT > −$5B ⇒ NO): *continued but decelerating.* Belgium **sold alongside** (−$20.4B); proxy stays falsified (rho +0.067, n=42); rotation refuted again (Agency −$36.1B TTM). **Official sector as a whole BOUGHT coupons (+$25.5B) while private sold (−$29.1B) — June's split reversed.**
+🔴 **9/25 — summit: no instrument moved; the US IEEPA 11/10 clock was VOID since 2/24 (KB-183).** Full line → `archive/STATUS_COLD_20261016.md` §ⓐ.
+**Overall Status:** 🟠 ELEVATED — **28/60 (−1, 10/9: Vector 5 → 4 on the pre-registered construction tripwire, KB-193).** **August TIC (released 10/16, own pull 16:17 ET): China $590.7B (−$27.3B, ~45% of it non-transaction), LT/coupon net −$4.8B — a THIRD month of selling at half July's pace.** ZHA-18 **NO** (branch B). Proxy stays falsified (rho +0.067, n=43); rotation refuted a 3rd time. Official LT **+$18.1B**, private LT **+$90.9B** (all countries) — LIQUID's to price. *(July detail → KB-149/150.)*
 
-> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)**
+> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)**
 
 ---
 
@@ -21,7 +21,6 @@
 
 **If the 1/10 extension (Bessent verbal 9/23; MOFCOM written 9/28) becomes instruments, the two live clocks re-date to 2027-01-10; until an instrument publishes, they stand.** ✅ 10/09 re-check: **none published** (KB-192). Next look **10/19**; blind spots = Tariff Commission (502) and MOFCOM 公告 39/43 (not located). ⛔ DO-NOT-MERGE still binds. The 8/22 Canada precedent (announced, never instrumented, tariff went live) is why a verbal extension is not graded as done.
 
-### 🔒 **ZHA-16 — GRADED 9/30: MISS (branch B via the declared residual), Brier 0.2025 at 45%.** Amendment-1 bar ('published instrument effective beyond 11/10?') = **NO**. MOFCOM's 9/28 statement touches the end date but is not an instrument ⇒ fits neither A nor B literally ⇒ residual ⇒ B (letter defect recorded, not fixed inside the grade). **VOID declined** (would erase the MISS — flattering); the pre-amendment letter would have read A at Brier 0.3025 — disclosed, not chosen. Branch C (公告2026年第40号 precursor controls, 9/22) declined on the registered read; MISS either way. **Re-open only** if an instrument dated ≤9/30 surfaces (Tariff Commission site 502 = SEARCH-NOT-FOUND). KB-190 · `PREDICTIONS.tsv`.
 
 ---
 
@@ -33,12 +32,12 @@
 
 | Metric | Value | Threshold | Status | Record |
 |--------|-------|-----------|--------|--------|
-| China Official UST | **$618.0B** (Jul, **−$15.4B MoM**) | <$650B = RED | 🔴 **2nd month below** | TIC Jul'26 T5, pull 9/17 — net **−$12.6B**, LT **−$7.7B**. ⚠️ press "16/18-yr low" NOT certified. ZHA-17 **NO** · KB-149/150 |
-| China UST — trailing 12m | **−$101.5B net sold** (Aug-25→Jul-26; LT −$75.4B, ST −$26.1B) | — | 🔴 | vs −$77.6B level change ⇒ **valuation masks ~24% of the selling** · `VX-1.03` |
-| Belgium TIC (proxy) | **$470.7B** (Jul, −$11.8B MoM) | >$500B = **FYI only** | 🟠 | net **−$20.4B**: **sold alongside China = the anti-mirror.** YoY +10.6% ⚠️ **kill-leg fires on a base effect** · `VX-1.04` |
-| **Belgium↔China flow rho** | **+0.067 (n=42)** · 24m +0.017 · LT +0.054 | rho < −0.5 = usable | 🟢 **PROXY STILL FALSIFIED** | ~zero every window; Belgium buys in 15 of 28 China-selling months (54%). **No China inference either direction** · `VX-1.09`, KB-151 |
-| Official vs Non-Official (coupons) | **Jul: official +$25.5B / private −$29.1B** (Jun: −$45.4B / +$23.2B) | — | 🟠 **REVERSED** | sb0631 — China sold inside a bucket that net **bought** ⇒ others absorbed. **LIQUID's to price** · KB-149 |
-| Combined Anchor Selling | **Jul: China −$12.6B, Korea −$1.7B = −$14.3B** | >$50B/qtr = 🔴 LIQUID | 🟡 | **Q3-to-date does not trip the route** · `VX-7.01`. Japan LT −$8.8B / ST +$9.7B = SAM's |
+| China Official UST | **$590.7B** (Aug, **−$27.3B MoM**) | <$650B = RED | 🔴 **3rd month below** | TIC Aug'26 T5, pull 10/16 — net **−$9.6B**, LT **−$4.8B**; ⚠️ **−$12.25B LT residual not transactions** (cause UNKNOWN) ⇒ level overstates selling. ZHA-18 **NO** · KB-197 |
+| China UST — trailing 12m | **−$102.1B net sold** (Sep-25→Aug-26; LT −$58.4B, ST −$43.7B) | — | 🔴 | vs −$109.0B level change ⇒ level now **overstates** selling (Aug residual) · `VX-1.03` |
+| Belgium TIC (proxy) | **$490.5B** (Aug, +$19.8B MoM) | >$500B = **FYI only** | 🟠 | net **−$0.05B** — the rise is a **+$19.85B non-transaction residual** (Belgium's are habitually large, 5th of 43). YoY **+8.74%** ⇒ kill-leg print 1/2 **SATISFIED-ON-BASE-EFFECT** · `VX-1.04` *(row not refreshed this session)* |
+| **Belgium↔China flow rho** | **+0.067 (n=43)** · 24m +0.017 · LT +0.057 | rho < −0.5 = usable | 🟢 **PROXY STILL FALSIFIED** | ~zero every window; Belgium buys in 15 of 28 China-selling months (54%). **No China inference either direction** · `VX-1.09`, KB-151 |
+| Official vs Non-Official (LT, all countries) | **Aug: official +$18.1B / private +$90.9B** (Jul: +$25.5B / −$29.1B) · official bills **−$42.2B** | — | 🟢 | T3 Grand Total LT +$108.9B — broad foreign coupon buying while China sold. **LIQUID's to price** · KB-197 |
+| Combined Anchor Selling | **Aug: China −$9.6B, Korea +$2.3B (bought)** · Q3-to-date China −$22.2B | >$50B/qtr = 🔴 LIQUID | 🟡 | **Needs ~−$28B in Sep to trip — not forecast** · `VX-7.01` *(not refreshed)*. Japan LT +$11.9B / ST −$48.9B = SAM's |
 | Brent crude | **$98.77** (live 9/18) | Asia shock transmission | 🟠 | boot.py `BZ=F` front — **never compute a % move across a roll.** **HAWK/BRENT own the price** |
 | Property / LGFV / banking | **source of truth = `workbook/VX.tsv`** | mixed | 🟠 | land sales, LGFV, NPL 🧊 |
 
@@ -77,9 +76,9 @@
 
 | # | Vector | Score | As-Of |
 |---|---|---|---|
-| 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Jul'26**, pull 9/17 |
+| 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Aug'26**, pull 10/16 — ⚠️ held, not re-scored: China decelerating, Korea buying (rescore question owed) |
 | 2 | Korea Crisis | 🟢 1 | won **live 9/18**; TIC Jul'26 |
-| 3 | Custodial Arb. | 🟡 2 | Belgium Jun'26 |
+| 3 | Custodial Arb. | 🟡 2 | Belgium Aug'26 |
 | 4 | LGFV/Banks | 🟡 2 | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
 | 5 | Property Zombification | 🟠 **4 ↓** | **Sep 30** (tripwire, KB-193) |
 | 5b | Domestic Demand / Broad Activity | 🟠 **3** | RatingDog **Aug**, NBS Aug 31 |
@@ -96,7 +95,7 @@
 
 ## CROSS-AGENT TRANSMISSION
 
-🔔 **9/25: two NEW outbox packets await PROME routing** — `outbox/2026-09-25_…_to-HAWK-HENRY-VULCAN_summit-outcome-and-IEEPA-11-10-leg-VOID.md` · `outbox/2026-09-25_…_to-BOND_H41-custody-…`. WATT packet delivered direct (PROME's 9/22 ACTION said *packet WATT*). **9/18-9/19 transmission history + HANS exchange + OPEN-asks line → COLD_20260925 §ⓕ.** Still owed: `VX` row for the Chinese clock (NEXT #12).
+🔔 **10/16: one NEW outbox packet awaits PROME routing** — `outbox/2026-10-16_from-ZHAO_to-MIDAS_minus-41pct-is-June-CRUDE-imports-not-copper.md` (answers MIDAS's 10/12 ask). 9/25 packets routed 9/25; 9/30 MOFCOM packet DECLINED as a duplicate of WALTER SIG-W-20260930-003 (PROME 10/14). **9/18-9/19 transmission history + HANS exchange + OPEN-asks line → COLD_20260925 §ⓕ.** Still owed: `VX` row for the Chinese clock (NEXT #12).
 
 
 ---
@@ -107,11 +106,11 @@
 
 **The kill letter, carried live (DAEDALUS 10/8):** *Belgium <10% YoY ×2 AND China >$700B ×3 · fiscal >5% GDP w/ LGFV backstop — neither close.* 🟠 **Belgium-leg re-spec DEFERRED to 2026-10-23** (after ZHA-18 grades; ⛔ never inside the letter that grades it, KB-159) — routed to PROME 10/09.
 
-⛔ **The Belgium half of the kill is DEGENERATE and the old framing was backwards:** it read *"Belgium must fall"*; **Belgium must RISE $25.5B not to trigger** (2025 base climbed $425.4B→$481.0B, so a FLAT Jul-26 level prints +4.35% Aug / +1.54% Sep, both under 10%). ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, not as evidence** — declared in the ZHA-18 letter §2 **before** the print. **The full kill still cannot fire** (other leg needs China >$700B ×3; China is $618.0B). `VX-1.04`, KB-159.
+⛔ **The Belgium half of the kill is DEGENERATE and the old framing was backwards:** it read *"Belgium must fall"*; **Belgium must RISE $25.5B not to trigger** (2025 base climbed $425.4B→$481.0B, so a FLAT Jul-26 level prints +4.35% Aug / +1.54% Sep, both under 10%). ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, not as evidence** — declared in the ZHA-18 letter §2 **before** the print. **✅ Aug print: Belgium +8.74% YoY — recorded SATISFIED-ON-BASE-EFFECT (10/16).** **The full kill still cannot fire** (other leg needs China >$700B ×3; China is $590.7B). `VX-1.04`, KB-159.
 
 ### Live tripwires
-- **China TIC >$680B for 2 consecutive months** ⇒ the selling was noise. *(Far away — $618.0B.)*
-- **COMPOSITION, NOT LEVEL — ✅ run 9/17:** China LT/coupon **−$7.7B** ⇒ ZHA-17 **NO on the declared boundary**, *"continued but decelerating."* **Next: Aug TIC 10/16 — a third month ≤−$5B is a trend by any reading.**
+- **China TIC >$680B for 2 consecutive months** ⇒ the selling was noise. *(Far away — $590.7B.)*
+- **COMPOSITION, NOT LEVEL — ✅ run 10/16:** China LT/coupon **−$4.8B** ⇒ ZHA-18 **NO** (branch B): the ≤−$5B run broke; direction continued a 3rd month, decelerating. Next: Sep TIC ~mid-Nov (date unconfirmed).
 - **Belgium proxy:** reinstate the migration reading **only if rho < −0.5** rolling 24m (`VX-1.09`). Until then the level is **not evidence in either direction.**
 - ✅ **Korea KRW <1,450 FIRED 8/12, graded 8/21** — falsifies the Korea-as-UST-anchor leg; **not a full stand-down** (two caveats unverified). **USD/CNY 7.30 near-invalidated** at 6.70.
 - ✅ **Property leg FIRED 10/9:** Sept construction **50.3 > 47.5** ⇒ the 9/2 Vector-5 upgrade reversed (5→4). **Re-raise if** October construction <47.5, or construction new orders fail to clear 47 while special-bond issuance runs (KB-193).
@@ -125,13 +124,13 @@
 |------|-------|---|
 | ✅ Fri Oct 9 | Instrument re-check — **NONE published** (KB-192) · Sept PMI read, tripwire FIRED (KB-193) | — |
 | 🟡 Thu Oct 1 | H.4.1 week ending 9/30 (BOND's 5Y question, KB-186) — ⚠️ **still unread** | 🟡 |
-| **Fri Oct 16 16:00** | **August TIC** (date confirmed, sb0631) — third month of coupon selling? **ZHA-18** (40%) | 🔴 |
+| ✅ Fri Oct 16 | **August TIC — ZHA-18 NO** (LT −$4.8B, KB-197) | — |
 | Mon Oct 19 | BIS/MOFCOM re-check + **WATT T2 read** + 46号 primary pull (suspending instrument per a secondary = 公告2025年第72号, unverified) | 🟠 |
 | Mon–Thu Oct 26–29 | **Fifth Plenum** — agenda Party self-governance, not fiscal (KB-195) | 🟡 |
 
 > 🔴 **THE NOVEMBER WINDOW — TWO LIVE CLOCKS ON 11/10 + ONE ON 11/27 (corrected 9/25).** **Tue 11/10 US:** BIS Affiliates Rule reimposed effective (≥50% aggregate ownership, zero new listings). **Tue 11/10 CHINA:** 公告70 expires — six announcements incl. **Li-battery/LFP cathode/graphite anode (公告58) — WATT's triggered channel keys on the MOFCOM instrument, not the date** (`reports/2026-09-25_WATT_TRIGGER_WORDING_gonggao58.md`). **Fri 11/27 CHINA:** 公告2024年第46号 clause 2 (B2). ⛔ ~~US IEEPA reciprocal lapse~~ **VOID since 2/24/2026.** Full verbatim prior → COLD_20260925 §ⓒ.
 
-## PREDICTIONS (status Oct 9)
+## PREDICTIONS (status Oct 16)
 
 *(**OPEN rows only** — resolved rows live in `workbook/PREDICTIONS.tsv`.)*
 
@@ -140,47 +139,36 @@
 | ZHA-01 | USD/CNY breaks 7.30 | **18%** | OPEN — ledger governs; as-made pass done 9/18 (`reports/2026-09-18_WQ112_ASMADE_LEDGER_WRITE.md`) |
 | ZHA-05 / 06 / 07 / 10 | Regional NPL >12% · >250 banks consolidated · liquidity crunch forcing UST sales · petro-yuan >$5B | 55/72/70/40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
 | ✅ ZHA-16 | Xi–Trump summit produces branch A (instrument extending past 11/10) | 45% | **RESOLVED 9/30 — MISS (B via residual), Brier 0.2025** → `PREDICTIONS.tsv`, KB-190 |
-| 🆕 **ZHA-18** | **Aug TIC (10/16): China LT/coupon ≤ −$5.0B — a THIRD consecutive duration-selling month.** A/B/C exhaustive; non-publication ⇒ STUCK not NO | **40%** | 🔒 OPEN, **pre-registered 9/18, 28d early.** ⚠️ **The base rate INVERTED the story: 23/42 = 55% unconditional but 3/9 = 33% given the prior two months** — mean-reverts after a cluster. Narrative said 60%; **settled 40%.** Letter: `reports/2026-09-18_PREREGISTRATION_ZHA-18_august-tic.md` |
+| ✅ **ZHA-18** | Aug TIC: China LT ≤ −$5.0B (third month) | 40% | **RESOLVED 10/16 — NO, branch B (−$4,828M), Brier 0.16.** $172M from the boundary ⇒ not banked as skill (letter §4). Narrative said 60%, base rate 3/9 said 33%; the base rate pointed the right way. → `PREDICTIONS.tsv`, KB-197 |
 | ✅ ZHA-11 · 12 · 17 | **RESOLVED 9/17 on July TIC — YES · YES · NO** (Brier 0.10 / 0.04 / 0.30) → `PREDICTIONS.tsv`, KB-150 |  |  |
 
 ---
 
 ## NEXT ACTIONS
 
+**Done Oct 16:** L405 — ZHA-18 graded NO (KB-197) · 5 declared observations logged · L405 tail VERIFIED already discharged 9/18 (`4c27c1548`) · inbox drained **20/20** (KB-198..201) · CATALYSTS row 10/16 resolved + base-effect rule · CLAUDE.md: brief-pin check named, git lines aligned to root (PROME 10/14) · rotation #8.
 **Done Oct 9:** L482 instrument re-check (KB-192, none) · Sept PMI → V5 5→4 (KB-193) · plenum + TIC dates at primary (KB-195) · inbox drained **12/12** (board_log) · COR-20261008-41 NO-OP · R3 watch terms answered by name → PROME · NEXUS_BRIEF rotated under budget · brief caps typed into `boot.py` [7] · charter receipt line (WQ-399).
-**Done Sep 30:** ZHA-16 graded (KB-189/190) · inbox drained 2/2 (PROME WQ-295 → cadence WEEKLY + 9 watch terms packeted; VULCAN → KB-191) · outbox: MOFCOM-1/10-in-writing signal for PROME routing.
-**Done Sep 25:** boot (corrections rc=0) · L222 summit read at primary (WH · Xinhua/MFA · FR · MOFCOM) · **IEEPA premise failure found (KB-183)** · inbox drained 2/2 (PROME ruling → WATT trigger; BOND → H.4.1) · KB-181..188 · CATALYSTS: summit/LPR DONE, IEEPA row VOID, +10/1 · 10/9 · 11/27.
-**Done Sep 19:** boot clean (corrections rc=0 · read-cap rc=0 · inbox empty · claim-check clean) · catalyst enum defect fixed · **MOFCOM primary pulled on Will's direction — 6/6 falsifiers, date B2→A1, three scope corrections** · KB-172..176 · `FLOW-15` registered · 2 letters · 3 packets (VULCAN/HAWK/HENRY correction · PROME asks · PROME battery DECISION) · 1 auto-memory · rotation #5.
 
 **OWED — in priority order; full rationale per item → COLD_20260918b §ⓠ + §ⓝ.**
 
-1. ✅ **DONE 9/19 — MOFCOM primary fetched, Will-directed.** 6/6 pre-registered falsifiers CONFIRM; **date B2→A1**; three scope corrections (KB-173/174/175). Letters: `reports/2026-09-19_PREREGISTRATION_…` + `…_RESULT_…`. 🔴 **NOW OWED FROM IT: correction packets to VULCAN (its chip limb is wider than it was told) · HAWK · HENRY, plus a PROME packet — `DOCKET.tsv` L435/436/437 carry the discharged B2 caveat and L437's scope label is wrong.** ⛔ ZHAO does not edit PROME's file. **MARCO/WATT were never in this thread; the battery leg is theirs to model, not mine.**
 2. ✅ **DONE 10/9 — instrument re-check: none** (KB-192); Sept PMI read (KB-193). 🔴 **NEXT: 10/19 re-check** — Tariff Commission still 502; locate MOFCOM 公告 39/43.
-3. 🔴 **Aug TIC Fri 10/16** — ZHA-18 registered; at the print log the 4 DECLARED OBSERVATIONS (Belgium + base-effect annotation · rho at n=43 · Agency line · official/private split).
+3. ✅ **DONE 10/16 — Aug TIC graded (ZHA-18 NO).** 🟠 **NEW: explain the −$12.25B China / +$19.85B Belgium holdings residuals** (Treasury note? ask LIQUID/HANS) · re-score question for Vector 1 · refresh `VX-1.04`/`VX-7.01` (not done 10/16).
 4. 🟠 **Re-spec Vectors 6 & 9 as TWO-DIRECTIONAL** (⛔ next free `VX` id) — both read 🟢 against an actively-managed 4-yr-high yuan. **In daylight, not inside a news sweep** (KB-168).
 5. 🟠 **Primaries owed on the two NEW rows:** ChinaBond for `VX-2.08` (currently a secondary carrier) · **a single-source matched-basis figure for `VX-2.09`** — today's legs are mixed carriers/dates/conventions and **only the DIRECTION is quotable** (KB-171).
 6. 🟠 **PBOC central-parity primary** (`chinamoney.com.cn`) — boot.py pulls the MARKET rate; **the fixing is a different series and the gap between them IS the signal**, and nothing here carries it.
-7. 🟠 **Re-spec the Belgium kill-leg** as a level/flow test — ⛔ **NOT inside the letter that grades it** (KB-159). **DEFERRED to 2026-10-23** (post ZHA-18), routed to PROME 10/9.
+7. 🟠 **Re-spec the Belgium kill-leg** as a level/flow test — ⛔ **NOT inside the letter that grades it** (KB-159). **DEFERRED to 2026-10-23** (post ZHA-18 — now UNBLOCKED, ZHA-18 graded 10/16), routed to PROME 10/9.
 8. 🟠 **GACC Aug tables** (TLS-blocked; try CN-side) · **SAFE Aug reserves/gold**, unpulled since 7/7.
 9. 🟠 **`KB.tsv` `Stale_By` has NO READER** (30+ rows past due; ~5 lines in `boot.py` §6; ⛔ do NOT bulk-mark SUPERSEDED) · **rolling-5d SOFR basis** for `VX-2.04` (KB-154) · **Vector 8 has no `VX` row** — ⛔ **NOT `VX-ZHAO-8.01`, that id is a FROZEN row; use the next free id** (KB-146/162f).
-10. 🟡 **US-China ag channel unmeasured** (KB-170) · **Korea's two unverified caveats** since 8/3 · **`CLAUDE.md` re-key** L56/L246/L260 + the owed 9/2 CLOSEOUT-1 edit · **ZHA-10 `Date_Made` defect** · **HK $9.33B June UST sale unlogged** (KB-140).
-11. ✅ **DONE 9/25 — PROME ruled ①+③ on 9/22; WATT trigger wording drafted + packeted** (`reports/2026-09-25_WATT_TRIGGER_WORDING_gonggao58.md`, KB-187). ZHAO applies T1/T2; **T2 read at 10/19.** Finished-cell leg stays UNOWNED. 🔔 **Two NEW outbox packets await PROME routing:** IEEPA-leg VOID + summit read → VULCAN/HAWK/HENRY; H.4.1 answer → BOND.
+10. 🟡 **US-China ag channel unmeasured** (KB-170) · **Korea's two unverified caveats** since 8/3 · ~~CLAUDE.md re-key~~ (landed 9/17 `c6ac32e81`, per DAEDALUS 10/14) · DAEDALUS 10/14 fix-list items 3–7, 9, 10 OWED (maintenance spawn) · **ZHA-10 `Date_Made` defect** · **HK $9.33B June UST sale unlogged** (KB-140).
 12. 🟠 **`VX` row owed for the Chinese clock** — `FLOW-15` exists, no vector tracks it. ⛔ next free id (8.01 is FROZEN).
 13. ⛔ **UNVERIFIED, do not cite:** the claim that China listed MP Materials / USA Rare Earth in June 2026. One secondary; CSIS did not corroborate. **Verify or drop — never repeat as fact.**
 
 ## BOTTOM LINE
 
+**OCT 16 — the third month of China's Treasury selling came in at −$4.8B, $172M short of my −$5B bar, so ZHA-18 is a NO, and I'm not counting it as a win.** The direction held for a third month and the pace halved again (−15.8 → −7.7 → −4.8). That is what the base rate said (after two heavy months this series reverts), and the story I first wanted to tell (60%) did not say it. The headline level, $590.7B, is the lowest in the table, but about $12B of August's drop is not selling or price moves at all. Treasury's own tables don't explain it, and until something does, "China dumped $27B" is wrong: the transaction figure is $9.6B. The Belgium kill-leg ticked on arithmetic, as I declared beforehand it would.
+
 **OCT 9 — still no instrument, and the property leg just told me the record lows were partly a timing story.** Sixteen days after Bessent said "January 10", nobody has published the paper: not the White House, not the Federal Register (the public-inspection desk included), not MOFCOM, whose newest 公告 is an EU anti-dumping case. Both 11/10 clocks stand on their own texts, and WATT's trigger keys on MOFCOM's instrument, so nothing re-dates. Separately, September construction bounced to 50.3, so by my own pre-registered rule the August upgrade comes off (V5 5→4, 28/60) — but new orders are still 45.7, so what came back was activity funded by special bonds, not demand.
 
-**SEP 30 — ZHA-16 is a MISS by its own letter, and Beijing has now written the date down.** No instrument moved anywhere by window close. MOFCOM's 9/28 readout is the first written PRC statement of the 2027-01-10 extension, but it is a statement, not a 公告. The clocks stay at 11/10 until one publishes; the likely direction is now a re-dating, not a lapse (INFERRED). Re-check 10/09.
-
-**SEP 25 — the summit happened, the instruments did not move, and the clock I had treated as the anchor was dead before I registered on it.**
-
-Xi was in Washington 9/23-25 and both governments published readouts, so **branch D is dead.** Beijing's readout claims a new joint arrangement **without publishing a word of it**. The only date anyone has named — Bessent's 2027-01-10 — was **said on Fox the night Xi landed and exists in no instrument**: nothing at the White House, nothing in the Federal Register, nothing from MOFCOM as of this morning. **So both live 11/10 clocks still read 11/10**, and the Canada precedent says an announced deal is not an instrument.
-
-**The finding that matters is my own error.** The Supreme Court struck down the IEEPA tariffs on **2026-02-20** and EO 14389 ended them four days later. The "US tariff lapse on 11/10" I built ZHA-16 and a three-clock structure on had **no duty behind it for seven months**. My 9/2 re-verification read the suspension order and never asked what had happened to it since — **one Federal Register API call would have shown it.** The two export-control clocks are real; the tariff clock was not. ZHA-16 is graded by its letter on 9/30 — **I am not voiding my own likely miss.**
-
-Also: WATT's battery trigger drafted (keyed on the MOFCOM text, not the date); BOND's custody question answered (official custody **+$12.4B** the week of 9/23 — not a step-back, but the 5Y settles 9/30, so 10/1 is the real test); LPR held a 16th month (priced); an unlogged 11/27 Chinese clock found.
 
 ---
 

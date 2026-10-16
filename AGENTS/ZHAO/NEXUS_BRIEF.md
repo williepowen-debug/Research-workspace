@@ -1,8 +1,9 @@
 # ZHAO — NEXUS Brief
 
 **Status:** 🟠 **28/60 ELEVATED — 10/9: Vector 5 5→4 on the pre-registered construction tripwire (Sept 50.3).** ★ **Summit HELD 9/23-25 (official readouts both sides; Xinhua: 「新的联合安排」, NO terms). Bessent's 'Busan Agreement → 2027-01-10' is VERBAL ONLY — no WH/FR/MOFCOM instrument as of 9/25 ~09:3x ET, so both live 11/10 clocks still read 11/10.** 🔴 **CORRECTION, ZHAO's own: the US IEEPA reciprocal '11/10 lapse' has been VOID since 2026-02-24** (*Learning Resources v. Trump*, S.Ct. 2/20; EO 14389 ended IEEPA duties under EO 14257-as-amended + EO 14195). **The 11/10 cluster is TWO clocks (BIS Affiliates Rule · MOFCOM 公告70), not three** + a separate Chinese clock **11/27** (公告2024年第46号 cl.2, B2). KB-181..188.
-**Domain:** China macro → U.S. transmission — China UST exit (Belgium/Euroclear proxy), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
+**Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
+**As of:** **2026-10-16** — PROME-spawned (L405): **August TIC graded — ZHA-18 NO** (China LT **−$4,828M**, branch B, $172M inside the −$5B bar ⇒ not banked as skill; Brier 0.16). Selling continued a 3rd month but halved again (LT −15.8 → −7.7 → −4.8; total −$9.6B). Level **$590.7B** — ⚠️ a **−$12.25B LT residual is NOT transactions/valuation** (largest of 43m, cause UNKNOWN) ⇒ the level overstates selling. Belgium +8.74% YoY = kill-leg print 1/2 **SATISFIED-ON-BASE-EFFECT**; rho n=43 +0.067 (proxy stays dead); Agency sold again. All-country LT: official +$18.1B / private +$90.9B (LIQUID prices it). KB-197. *(10/09 line follows.)*
 **As of:** **2026-10-09** — PROME-spawned (L482): **10/09 instrument re-check = NONE** — no WH action/fact sheet, no FR document (published or public inspection), no MOFCOM 公告 re-suspending 公告70 (list through No.44, 10/3) ⇒ **both 11/10 clocks stand**; WATT's 公告58 trigger keys on the instrument, nothing re-dates (KB-192). **Sept construction PMI 50.3 ⇒ tripwire fired, V5 5→4** (KB-193). Plenum **10/26–29**, agenda Party discipline (KB-195). Inbox 12/12. *(Prior as-of 9/30: ZHA-16 graded MISS, Brier 0.2025.)*
 
 ---
@@ -53,7 +54,7 @@
 
 | From | Input | Expected by | Why it matters |
 |------|-------|-------------|----------------|
-| **Treasury TIC** | **August print — China LT/coupon (ZHA-18, 40%)** | **2026-10-16** | Third consecutive ≤−$5B month = a trend by any reading. Letter already registered |
+| **Treasury TIC** | ✅ August graded 10/16 — ZHA-18 NO (KB-197). Next: Sep print ~mid-Nov (date unconfirmed) + residual question | ~2026-11 | Explain the −$12.25B China / +$19.85B Belgium non-transaction residuals before reading the level |
 | **VULCAN** | Does your entity/supply map resolve **0.1% materials content**, or only ownership? | next VULCAN session | Decides whether the map is wrong in a 2nd independent way on 11/10 |
 | **LIQUID** | ⚠️ **RE-POINTED 9/19 — the JUNE split this ask was built on REVERSED in July.** June: official −$45.4B / private +$23.2B (private absorbing). **July: official +$25.5B / private −$29.1B — official sector NET BOUGHT coupons while private sold.** ⇒ the live question is **whether the absorbing bid is now OFFICIAL, not private** — the opposite structure from the one asked | next LIQUID session | ⛔ **Do not answer the June-shaped question; it is stale. China sold inside a bucket that net BOUGHT** · KB-149 |
 | **HANS** | Carry-confirm on the falsified Belgium proxy | next HANS session | Two desks consumed the dead inference |
@@ -62,7 +63,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** ✅ 10/09 re-check done (none). Next: **Aug TIC Fri 10/16 16:00** (ZHA-18, 40%), **10/19** BIS/MOFCOM re-check + WATT T2, then the instrument race to **11/10**.
+- **What:** ✅ 10/16 Aug TIC graded (ZHA-18 NO). Next: Belgium kill-leg re-spec **10/23**, **10/19** BIS/MOFCOM re-check + WATT T2, then the instrument race to **11/10**.
 - **When:** **2026-10-16 → 2026-10-19 → 2026-11-10.**
 - **What would change my view:** a **MOFCOM notice** extending 公告70, or a **BIS FR notice** extending the Affiliates-Rule stay ⇒ that clock re-dates (likely to 2027-01-10). ⛔ Statements (Bessent, readouts) re-date nothing — the 8/22 Canada precedent.
 - **Standing kill-lines:** China **>$680B for 2 prints** ⇒ the selling was noise. Belgium migration reinstated **only if rho < −0.5 rolling 24m** (VX-ZHAO-1.09). ⚠️ **The Belgium <10% YoY kill-leg is DEGENERATE on a risen 2025 base — both Aug/Sep prints are SATISFIED-ON-BASE-EFFECT, not evidence** (KB-159).

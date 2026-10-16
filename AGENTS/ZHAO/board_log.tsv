@@ -23,3 +23,16 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-09T14:35:38Z	SIG-W-20261008-033	acted	INBOX_WALTER	WQ-399 receipt form applied: COR-20261008-41 receipted NO-OP with --scope (first receipt under the new writer, rc 0); charter receipt line CLAUDE.md:33 fixed (C4 own-charter, no authority moved, file under read-cap).
 2026-10-09T14:35:38Z	SIG-W-20261008-036	info-only	INBOX_WALTER	30Y 10/8 stop 5.618%, indirect 72.32% (−7pp), dealers 6.79%. Foreign-demand composition datum for LIQUID/BOND; indirect is not China-attributable. No ZHAO carrier.
 2026-10-09T14:35:38Z	SIG-W-20261008-041	acted	INBOX_WALTER	CORRECTION to -036 (since Aug 2000, not 'dataset lacks 2000'). ZHAO carriers = 0 (grep). COR-20261008-41 receipted NO-OP 2026-10-09T14:35Z.
+2026-10-16T20:20:56Z	SIG-W-20261010-004	acted	INBOX_WALTER	Shelton as Treasury counselor with a China financial-conditions focus: logged as KB-ZHAO-198, with no score change. The Citi 20Y/30Y cut is a forecast and BOND's.
+2026-10-16T20:20:56Z	SIG-W-20261012-042	info-only	INBOX_WALTER	Physical Brent chart bases and an unverified China stock-draw claim. BRENT's. ZHAO carriers: 0.
+2026-10-16T20:20:56Z	SIG-W-20261012-043	info-only	INBOX_WALTER	CPC blending allegation, body unread. HAWK/BRENT's. No ZHAO carrier.
+2026-10-16T20:20:56Z	SIG-W-20261013-024	info-only	INBOX_WALTER	KOSPI 10/13 close −5.46%, SK hynix −10.09%, program-sell sidecar. Korea vector: equity contagion is not the UST-anchor leg. Aug TIC shows Korea +$2.33B net BOUGHT (LT −0.56). No rescore; noted in STATUS.
+2026-10-16T20:20:56Z	SIG-W-20261014-011	info-only	INBOX_WALTER	Cato's compilation of US-government equity positions. Not a ZHAO vector.
+2026-10-16T20:20:56Z	SIG-W-20261015-002	info-only	INBOX_WALTER	CXMT 350K→500K wafers and MS 30% of new DRAM: company capacity is VULCAN's (CLAUDE.md scope). ZHAO keeps only the export-control layer. Routed back by note.
+2026-10-16T20:20:56Z	SIG-W-20261015-014	info-only	INBOX_WALTER	TrendForce DRAM: industry capacity, VULCAN's.
+2026-10-16T20:20:56Z	SIG-W-20261015-021	info-only	INBOX_WALTER	Taiwan foreign net selling ~$9.3B on 10/15 (unverified tail rank) is EQUITY flow, not TIC custody. SAM is primary. Aug TIC Taiwan Treasury holdings $298.4B (+2.3B m/m).
+2026-10-16T20:20:56Z	SIG-W-20261016-006	info-only	INBOX_WALTER	Friday AM tape. Indonesia MSCI item: not ZHAO.
+2026-10-16T20:20:56Z	SIG-W-20261016-009	info-only	INBOX_WALTER	SPR exchange RFP and Indonesian fuel distribution: BRENT's. No ZHAO carrier.
+2026-10-16T20:20:56Z	SIG-W-20261016-013	info-only	INBOX_WALTER	IDC Q3 smartphones −22% YoY (Xiaomi −29%, OPPO −35%, vivo −32%). Chinese OEM volume: context for a China consumer read, no ZHAO vector moved.
+2026-10-16T20:20:56Z	SIG-W-20261016-016	acted	INBOX_WALTER	China Sept PPI +5.0% y/y, upstream vs downstream: assessed in KB-ZHAO-199. FLOW-13 stays CONTESTED.
+2026-10-16T20:20:56Z	SIG-W-20261016-022	info-only	INBOX_WALTER	KOSPI 10/16 foreign net buying ₩341B (unconfirmed by KRX). SAM's.
