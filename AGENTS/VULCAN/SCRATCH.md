@@ -1,4 +1,21 @@
-> # ⛔ 2026-10-15 (Thu) — READ THIS BLOCK FIRST. Will-launched in-folder catch-up ("get VULCAN caught up to live news and data"), boot 12:07 ET → closeout ~12:5x ET (`date`). First session since the 10/09 PM re-wake; the desk was dark 10/10–10/14.
+> # ⛔ 2026-10-16 (Fri) POST-CLOSE — READ THIS BLOCK FIRST. PROME-spawned Tier-1 wake (WQ-184 L0 on the two P1 10/16 rows; spawner prome-7b), boot 17:08 ET → closeout ~17:22 ET (`date`). Scope: grade GPU reading 6 + Volta, record the 10/16 tape, drain the inbox.
+>
+> ## ONE LINE: **No score moved; composite 15/25. Volta GRADED: sold 10/15 at S+650 / OID 95 (Bloomberg) ⇒ NOT RED on the letter (reading A, formal launch talk); RED n=2 on reading B (SOFR+500 sounding). WQ-441 (Will, due 10/17) picks the reading — nothing self-applied** [KB-227].
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **WQ-441 ruled?** Read PROME/WILL_QUEUE.md row 441 (register row 10/17). **A** ⇒ record, S5 stays 4. **B** ⇒ write the S5 4 → 5 PROPOSAL to Will via PROME + packets LIQUID/BROCK; do NOT re-grade Volta (both readings computed in KB-227). Unruled by 10/23 ⇒ carry and say so.
+> 2. **10/21 META** (first §4b leg) → **10/23** slot 7 + GPU reading 7 + S2 cadence row 2 (FROM THE REPO ROOT, L-46) → **10/28** MSFT/GOOGL/SK hynix → **10/29** Samsung/AMZN. S2's upgrade legs ride hynix/Samsung (customer order cuts).
+> 3. **10/20 owed:** validator impossible-date check (re-homed) · THESIS split · CLAUDE.md slim PROPOSAL to PROME.
+> 4. GPU: per spec §7c (pre-stated `80b873617` before reading 6) an UNGRADEABLE cell does not count toward §6's four values ⇒ on-demand/index 4th value earliest 10/23, marketplace spread 10/30. Crusoe's list price rose 3.90 → 4.50 between readings 5 and 6 (change date UNKNOWN; Wayback was offline).
+>
+> ## WHAT THIS SESSION DID
+> - **Git:** no pull (PROME's uncommitted work in the tree); path-scoped commits `80b873617` (spec §7c + slot 6 + S2 row) · `144795cef` (GPU reading 6, KB-227..230, VX, inbox) · `c3e1f2355` (STATUS rewrite + rotation 26,049 → 21,163 B, cells → CHANNEL_DETAIL §I) · closeout commit (register sweep, THESIS 2b, EXIT_PROTOCOL, LESSONS L-49/50, this block) · brief. Push via `scripts/safe-push.sh` (spawn prompt says push).
+> - **Volta:** Bloomberg 10/15 19:25 ET read via Yahoo UK; YTM ~12.4% INFERRED (simple OID/3 at the ~4.25% base implied by PitchBook's launch YTMs; cash-flow 12.65–12.85%); 13.25% needs a base ≥ ~4.7–5.1% vs 13-week bill 4.07%. Spread at the wide end of talk; OID 2–3 points wider.
+> - **Tape (fetch.py 17:14 ET):** CRWV $61.39 (−11.91%), MU $878.84 (−5.63%), QQQ $709.80 (−2.50%), VIX 19.99, ORCL −4.64%, SOXX −4.14%. Context, not a grade (KB-229); attribution is HENRY's. Slot 6 holdings are 10/15 — they do not include 10/16.
+> - **Inbox 8 → 0** (all WALTER, `board_log.tsv` with reasons): -005/-017 Volta acted · -013 IDC −22% acted (S2 held, KB-230) · -014 CRWV founder sales acted (secondary sales ≠ corporate funding) · -008 noted · -011/-022/-023 info-only.
+> - **Register:** 4 rows swept to `archive/CATALYSTS_FIRED_2026-10.tsv`; re-homed 10/17 (WQ-441 apply) and 10/20 (validator). **Packets:** PROME memo; LIQUID + BROCK (Volta grade, seam figure).
+
+> # 2026-10-15 (Thu) — *(superseded by the 2026-10-16 block above; kept as record)*. Will-launched in-folder catch-up ("get VULCAN caught up to live news and data"), boot 12:07 ET → closeout ~12:5x ET (`date`). First session since the 10/09 PM re-wake; the desk was dark 10/10–10/14.
 >
 > ## ONE LINE: **No score moved; composite 15/25.** The 10/13–15 AI selloff (KOSPI circuit breaker −7.57%, SK hynix −11%, CRWV −15.5% on 10/14 with 2032 notes at 15.83% YTW, SOX −4.3%) is equity and SECONDARY credit; no capex cut, no contract roll, no FIRM curtailment, no export action, no new issue pulled or +150bp. **Next S5 test = Volta's $5B loan (pre-stated: ≥ SOFR+800 / YTM ≥ 13.25% / PULLED vs the 10/9 launch talk).**
 >
