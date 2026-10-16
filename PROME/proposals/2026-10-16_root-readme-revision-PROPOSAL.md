@@ -2,7 +2,7 @@
 
 **Drafted:** 2026-10-16 18:59 ET (prome-7b) · **Why:** the README is the front door for the fellowship application now that the full repository is offered alongside the demonstration repo. **Figures** are from the commands in the draft's own table, run at `385b0854d`; re-run them on the day of submission. **Root doc ⇒ Will-gated** (PROME/CLAUDE.md § Ask First).
 
-**What changed against the 2026-10-02 README:** figures refreshed (10,200 → 18,563 commits; "33 active" → 34/5/2 from ROSTER; ledgers and findings added) · sections reordered (calibration → failure → architecture) · a five-stop reviewer route added before the deeper view · the demonstration repo cross-linked and the "operating, not curated" boundary stated · "each a Claude Code session" → two runtimes · a "right and wrong about" sentence with the demo's scored case · three limitations added (small numbers · process overhead measured · no external review) and one stated (positions visible) · a ten-term glossary · the My-role row and an authorship sentence in About · the context-siloing detail folded into How it works. Voice and the Why-finance section kept. **Things only Will can answer before publishing:** whether the Brier line (0.17 / 0.19 on fourteen rows, the demo's September figures) should be re-scored on today's ledger; whether the visible-positions limitation is the wording he wants; whether to name the two runtimes as "Claude Code and Codex".
+**What changed against the 2026-10-02 README:** figures refreshed (10,200 → 18,563 commits; "33 active" → 34/5/2 from ROSTER; ledgers and findings added) · sections reordered (calibration → failure → architecture) · a five-stop reviewer route added before the deeper view · the demonstration repo cross-linked and the "operating, not curated" boundary stated · "each a Claude Code session" → two runtimes · a "right and wrong about" sentence with the demo's scored case · three limitations added (small numbers · process overhead measured · no external review) and one stated (positions visible) · a ten-term glossary · the My-role row and an authorship sentence in About · the context-siloing detail folded into How it works. Voice and the Why-finance section kept. **CATO review (relayed by Will 19:0x ET) APPLIED to this draft:** September Brier figures kept, dated and scoped, with the baseline explained · positions limitation reworded to CATO's text · both runtimes named · 'agents with live state' → desk directories with a maintained state file, running count distinguished · scale-count caveat added under the table. One bounded cold read of the draft commissioned before approval (CATO's suggested next step). **Things only Will can answer before publishing:** whether the Brier line (0.17 / 0.19 on fourteen rows, the demo's September figures) should be re-scored on today's ledger; whether the visible-positions limitation is the wording he wants; whether to name the two runtimes as "Claude Code and Codex".
 
 ---
 
@@ -12,25 +12,25 @@ Research Workspace is an empirical, multi-agent research system for tracking how
 
 It is also proof-of-work: a test of whether one operator without traditional research credentials can build rigorous empirical capability through sustained collaboration with frontier language models. Finance is the testbed because markets impose dated events, falsifiable outcomes, and a real cost for being wrong.
 
-**This is the operating repository, not a curated one.** Nothing here is edited for a reader; it is the working state of the system as it stands at the latest commit, positions included. The curated companion, nine case studies with offline checks you can run, is [Selected Agents Open Demonstration](https://github.com/williepowen-debug/Selected-Agents-Open-Demonstration). Read that first if you have fifteen minutes; read this if you want to check it.
+**This is the operating repository, not a curated one.** Nothing here is edited for a reader; it is the working state of the system as it stands at the latest commit, position records included. The curated companion, nine case studies with offline checks you can run, is [Selected Agents Open Demonstration](https://github.com/williepowen-debug/Selected-Agents-Open-Demonstration). Read that first if you have fifteen minutes; read this if you want to check it.
 
 ## At a glance
 
 | | |
 |---|---|
 | **Operated** | since February 1, 2026: 18,563 commits on 253 of 258 days |
-| **Scale** | 41 agents with live state files: 34 active, 5 spawned as needed, 2 dormant ([roster](PROME/ROSTER.md)); run as Claude Code and Codex sessions |
+| **Scale** | 41 desk directories carry a maintained state file; the [roster](PROME/ROSTER.md) classes 34 as active, 5 as spawned when needed and 2 as dormant. The number running at any moment is smaller and varies by session. Desks run as Claude Code and Codex sessions |
 | **Forecasts** | 653 registered rows across 52 prediction ledgers, each with a threshold, a window and a resolution rule |
 | **Failure record** | 487 catalogued failure findings, each a dated file naming what went wrong and what procedure changed |
 | **Notes** | 207 daily session notes |
 | **My role** | I designed and operate the system, set its direction and decision rules, and make every consequential call; agents produce the analysis, code and most of the prose under my direction |
 
-Counts are from the commands below, run at commit `385b0854d` (2026-10-16 18:59 ET). Commit counts include automated state writes, so they measure activity, not quality.
+These counts show scale and accumulated records. They do not by themselves demonstrate productivity, calibration or reliability; the route below is where those are checked. Counts are from the commands below, run at commit `385b0854d` (2026-10-16 18:59 ET). Commit counts include automated state writes, so they measure activity, not quality.
 
 | Metric | Command |
 |---|---|
 | Commits · commit-days | `git rev-list --count HEAD` · `git log --format=%ad --date=short \| sort -u \| wc -l` |
-| Agents with live state | `ls AGENTS/*/STATUS.md \| wc -l` |
+| Desk directories with a state file | `ls AGENTS/*/STATUS.md \| wc -l` |
 | Forecast rows · ledgers | `find AGENTS -name PREDICTIONS.tsv -exec awk 'FNR>1 && $0!~/^#/ && NF>2' {} \; \| wc -l` · `find AGENTS -name PREDICTIONS.tsv \| wc -l` |
 | Failure findings | `ls memory/auto/finding_*.md \| wc -l` |
 | Daily notes | `ls memory/2*.md \| wc -l` |
@@ -51,7 +51,7 @@ Five stops, in order. Each line says what you will see and what it is evidence o
 
 Most domain agents maintain pre-registered prediction ledgers with explicit thresholds, defined time windows, resolution criteria, CONFIRMED, FAILED and special-resolution outcomes, and failure-pattern tracking. Representative ledgers: [`AGENTS/SAM/thesis/PREDICTIONS.tsv`](AGENTS/SAM/thesis/PREDICTIONS.tsv) and [`AGENTS/BRENT/thesis/PREDICTIONS.tsv`](AGENTS/BRENT/thesis/PREDICTIONS.tsv).
 
-What it has been right and wrong about so far is small in number and stated plainly: the energy desk's fourteen resolved binary forecasts score Brier 0.17 against a 0.25 chance baseline, and 0.19 on the marks as first written. Fourteen is suggestive, not proof.
+What it has been right and wrong about so far is small in number and stated plainly. In the demonstration repo's scoring of September 6, 2026, the energy desk's fourteen resolved binary forecasts score a Brier of 0.17 on the marks as they stood that day and 0.19 on the marks as first written; a Brier score is the mean squared gap between a stated probability and the outcome, lower is better, and always saying 50% scores 0.25. Both scores beat that baseline on fourteen rows, which is suggestive, not proof, and the gap between them is the cost of re-marking.
 
 The system does not claim to eliminate error or post-hoc reasoning. It attempts to catch, grade and learn from those failures.
 
@@ -91,7 +91,7 @@ Finance is the forcing function, not the endpoint. Markets provide public eviden
 - **No external review yet.** The only reviewer so far is another model acting read-only. No human expert has audited the system.
 - **Agent maturity varies.** [`AGENTS/DAEDALUS/FLEET_DIRECTORY.md`](AGENTS/DAEDALUS/FLEET_DIRECTORY.md) tracks the differences.
 - **Source hallucination remains possible.** Trade-relevant claims require verification against primary sources. The system treats hallucination as a tracked failure mode, not a solved problem.
-- **Positions are visible.** The operator's holdings and account state appear in the working files. That is deliberate: it is the ground truth the forecasts are scored against.
+- **Positions are visible.** The repository includes position records to connect research with decisions. These records may lag the broker account and do not establish investment performance.
 
 ## Deeper view
 
