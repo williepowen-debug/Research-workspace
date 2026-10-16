@@ -1,0 +1,5 @@
+delivery_log rows: 4633
+  pending -> delivered (in origin/master tree, or in origin/master HISTORY): 41
+  REAL ORPHANS (origin/master has NEVER seen the path, left untouched): 0
+
+WROTE 41 rows -> delivered. Field count uniform at 9.
