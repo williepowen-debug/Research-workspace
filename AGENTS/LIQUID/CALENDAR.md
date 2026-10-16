@@ -35,19 +35,20 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-10-07 | L568 usd_swapline.py FIX PASS (X1-X5 + CATO D2 item 6) + ONE consolidated letter → PROME READ 3 (the LAST) | Past date: consult outcome notes in machine row |
 | 2026-10-08 | Q3-end PERSISTENCE verdict — last of the post-quarter-end prints (registered 2026-09-25, PROME/Will item 3) | Past date: consult outcome notes in machine row |
 | 2026-10-08 | USD swap-line usage — first operation that can show the 10/01 European periphery move (registered 2026-10-01) | Past date: consult outcome notes in machine row |
-| 2026-10-16 | LIQ-07 S1/S2 branch VERDICT (trigger fired 9/30) — funding look-forward closes | Existing dated obligation: exact criteria/source in machine row |
-| 2026-10-16 | August TIC release — Japan and Cayman UST holdings check | Existing dated obligation: exact criteria/source in machine row |
+| 2026-10-16 | ✅ RESOLVED S2 (graded 2026-10-16 16:2x ET, both lists) — LIQ-07 S1/S2 branch VERDICT (trigger fired 9/30) — funding look-forward closes | Existing dated obligation: exact criteria/source in machine row |
+| 2026-10-16 | ✅ READ 2026-10-16 (aggregate; country flows → ZHAO L405) — August TIC release — Japan and Cayman UST holdings check | Existing dated obligation: exact criteria/source in machine row |
 | 2026-11-04 | Treasury long-end buyback program ENDS (refunding quarter close) | Existing dated obligation: exact criteria/source in machine row |
+| 2026-11-11 | MSCI non-operating-company rule — final constituent list (effective 11/30 close) | Added 2026-10-16 (SIG-W-20261016-012): exact criteria/source in machine row |
 | 2026-12-31 | Warsh Balance-Sheet Policy review outcome | Existing dated obligation: exact criteria/source in machine row |
 | 2026-12-31 | NAIC CLO RBC charges BITE (insurer capital treatment) | Existing dated obligation: exact criteria/source in machine row |
 | 2026-12-31 | Updated tentative Treasury buyback SCHEDULE release (UNDATED — placeholder date) | UNDATED placeholder; not a forecast date |
-| 2026-10-16 | Discount-window primary credit — October14 Wednesday point (existing NEXUS T-30 follow-up) | Existing dated obligation: exact criteria/source in machine row (re-dated 10/15: publishes 10/15 ~16:30ET, read at 10/16 wake) |
+| 2026-10-16 | ✅ READ 2026-10-16 ($11.044B [10/14], highest since 4/2023) — Discount-window primary credit — October14 Wednesday point (existing NEXUS T-30 follow-up) | Existing dated obligation: exact criteria/source in machine row (re-dated 10/15: publishes 10/15 ~16:30ET, read at 10/16 wake) |
 | 2026-10-15 | ✅ GRADED 2026-10-15 — GATE-LIQ-069 existing review (PROME-set successor date) | Past date: graded, see machine row |
 | 2026-10-16 | ✅ FIRED (graded 2026-10-15 12:1x ET) — GATE-LIQ-069 L4 — 10/14 session HY half (equity half MET: CRWV raw close -15.46%) | Existing dated obligation: exact criteria/source in machine row |
 | 2026-10-30 | GATE-LIQ-069 review — owner-recommended successor (PROME sets in GATES.tsv) | Recommendation pending PROME transcription |
 | 2026-10-30 | GATE-LIQ-076 existing review — dealer-positioning amplification | Existing dated obligation: exact criteria/source in machine row |
 | 2026-10-31 | GATE-LIQ-079 existing review — FIRE-leg bands/base-rate proposal | Existing dated obligation: exact criteria/source in machine row |
-| 2026-10-16 | CFTC TFF weekly file — as-of Tue 2026-10-13 (GATE-LIQ-076 W1) | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
+| 2026-10-16 | ⚠️ HTTP 403 again 2026-10-16 16:16 ET (UNMEASURED) — CFTC TFF weekly file — as-of Tue 2026-10-13 (GATE-LIQ-076 W1) | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
 | 2026-10-19 | HY >320 sustained — earliest possible 3-of-3 (10/16 cell) | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
 | 2026-10-28 | October FOMC decision + UK Budget | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
 | 2026-10-30 | LIQ-04 ACCESS CHECK — is the PitchBook LCD monthly BSL CLO AAA average reachable from this box? | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |

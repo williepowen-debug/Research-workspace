@@ -2,7 +2,17 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-10-15 Thu 12:07–15:2x ET — Will-launched, Claude Code / Opus 5.5; closed 2026-10-15T15:14:41-0400)
+### CURRENT SESSION (2026-10-16 Fri 16:16–16:4x ET — PROME Tier-1 wake DOCKET L721, Claude Code / Opus 5.5)
+
+No `git pull` (PROME/memory/WALTER dirty paths); pathspec commits only. → `analysis/2026-10-16_L721-four-legs.md`.
+
+- **LIQ-07 RESOLVED S2** on both lists (max eligible z −0.225, SOFR99−IORB +9, SRF $1.2B; 10/15 z −0.3/+7/$0.111B). PREDICTIONS status RESOLVED-S2.
+- **WQ-444 >320 run 2-of-3** (325 [10/14] · 323 [10/15], first-published). 069 L4: 10/14 FIRED confirmed; 10/15 NOT FIRED; 10/16 equity half provisionally NOT MET (all four names −11 to −12%). Volta = L3 CANDIDATE, UNGRADED.
+- **Discount window $11.044B [10/14]** — highest since 2023-04-26. fetch.py CDN-stale (showed 10/7); cache-busted CSV + H.4.1 primary agreed.
+- **August TIC aggregate:** Treasuries official −24.1 / private +85.3 / total +61.2 ($B). Country flows not reached → ZHAO (packet).
+- Inbox 23 → 0; 3 corrections NO-OP. ⚠️ Self-caught: nearly re-answered TERRY's 10/15 ask with a different kill rule — the 10/15 afternoon session had answered it but left the packet unmoved. Check `git log -- AGENTS/<peer>/inbox` before replying to a packet still in the inbox.
+
+### PRIOR SESSION (2026-10-15 Thu 12:07–15:2x ET — Will-launched, Claude Code / Opus 5.5; closed 2026-10-15T15:14:41-0400)
 
 No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
@@ -16,9 +26,9 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 ### NEXT SESSION
 
-10/16 wake: ① LIQ-07 verdict on BOTH lists after ~08:00 ET (ICE list already complete through the 10/14 cell). ② WQ-444: grade the 10/15 HY cell (pub 10/16 AM) → 2-of-3 if >320; MET earliest on the 10/16 cell (pub 10/19) ⇒ signal ALL via WALTER + TERRY card ask. ③ 069 L4 on the 10/15 session once its HY cell publishes. ④ WLCFLPCL as-of 10/14; August TIC; CFTC TFF as-of 10/13 (403 fallback hunt); DAEDALUS 10/8 asks review. ⑤ Swap-line WQ-404 fix pass (conditions first). ⑥ STATUS at ~74% of read budget — rotate before §1 refresh. ⑦ Fix stale OCIC/R2 line in CLAUDE.md (~line 84). ⑧ By 10/30: LIQ-04 PitchBook access check; Q3 BDC card before ~11/13.
+Mon 10/19 AM: ① WQ-444 third bar = 10/16 HY cell: >320.0 ⇒ MET ⇒ signal ALL via WALTER + TERRY card ask; ≤320.0 resets. ② 069 L4 10/16 session HY half (equity half provisionally NOT MET). ③ Read ZHAO's August TIC country grade; reconcile. ④ Swap-line WQ-404 fix pass (conditions first). ⑤ CFTC TFF 403 fallback hunt (076 UNMEASURED). ⑥ DAEDALUS 10/8 asks; stale OCIC/R2 line in CLAUDE.md ~84. ⑦ By 10/30: LIQ-04 PitchBook check; 069/076 reviews; 10/31 079 FIRE-leg bands proposal.
 
-### PRIOR SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
+### EARLIER SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
 
 No `git pull` (tree carries HOMER/LABOR/ORACLE/SAM recovery work); pathspec commits only. Root/local instructions read explicitly.
 

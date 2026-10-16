@@ -24,3 +24,6 @@ receipt_date	correction_id	action	note
 2026-10-14T18:06Z	COR-20261012-25	NO-OP	scope=Current LIQUID ladder and funding verdict do not use the historical FHA100.7bp aggregation or causal kill. Correction read. No current LIQUID numeric premise needs replacement.; 
 2026-10-15T12:40Z	COR-20261014-23	NO-OP	scope=LIQUID carries no SIG-W-20261014-001 tag reading or FT-08 or CHG-028 pump pass-through claim on any desk surface (grep 10/15 found only board_log and inbox hits) and -001 was logged noted 10/14 as dated context only; 
 2026-10-15T16:09Z	COR-20261015-05	NO-OP	scope=Correction derives from LIQUID's own 10/15 08:36 packet. LIQUID artifacts (analysis/2026-10-15_gate069-review.md and STATUS 2 069 row) already carry YTW 15.83% and CDS ~1059-1120bp [10/14]. LIQUID never cited the ~14.5% relay.; 
+2026-10-16T20:20Z	COR-20261015-22	NO-OP	scope=STATUS header already reads 325 [10/14] as the second >320 cell, 324 [10/1] first (LIQUID originated the correction 10/15); 
+2026-10-16T20:20Z	COR-20261015-15	NO-OP	scope=LIQUID STATUS/MEMORY/NEXUS_BRIEF carry no private-credit-is-opaque bloc claim (grep 2026-10-16), BROCK owns private credit; 
+2026-10-16T20:20Z	COR-20261016-02	NO-OP	scope=claim appears only in the append-only board_log.tsv row for SIG-W-20261015-013 (noted, no gate keyed), not cited in STATUS/MEMORY/NEXUS_BRIEF, -002 logged as the correction; 

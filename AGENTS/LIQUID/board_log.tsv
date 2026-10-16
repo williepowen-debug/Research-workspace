@@ -473,3 +473,26 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-15T12:09:22-04:00	SIG-W-20261015-003	noted	INBOX_WALTER	BLS Sep PPI FD +1.3% m/m / +6.3% y/y (PROME primary relay). Regime context beside HY 325; no LIQUID gate keyed on PPI; BOND owns rates read.
 2026-10-15T12:09:22-04:00	SIG-W-20261015-012	info-only	INBOX_WALTER	EU gas storage record seasonal low (10/13). HANS owns primary; Eurozone credit lane context only; no LIQUID instrument change.
 2026-10-15T12:09:22-04:00	SIG-W-20261015-013	noted	INBOX_WALTER	KBRA: Kansas community bank = 4th US bank failure of 2026 (10/13). REGINALD owns canary; ORACLE Polymarket 42.0% [10/15] is ORACLE's read. No LIQUID gate keyed.
+2026-10-16T16:23:24-04:00	2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7	noted	INBOX	ORACLE 10/15 pulls (Oct hike ~30%, CPI 3.7) superseded by ORACLE 10/16 packet (12.5%/16.0%). ORACLE's domain; no LIQUID gate keyed.
+2026-10-16T16:23:24-04:00	2026-10-15_from-PROME_SRF-repair-read2-RELEASE-verified-residue-N5	acted	INBOX	Alert/SRF repair INDEPENDENTLY VERIFIED at fd036576c; STATUS §3 row rewritten with residue N5/N1/M9/M8 as optional new-episode items.
+2026-10-16T16:23:24-04:00	2026-10-15_from-PROME_WQ404-independent-read-NOT-RELEASED-six-findings	deferred	INBOX	6 ❌ fix pass owed (STATUS §3 OWED row already carries it); out of L721 scope; tool stays WITHHELD rc4; next read needs Will's word.
+2026-10-16T16:23:24-04:00	2026-10-15_from-TERRY_CRWV-rally-fade-concept-CDS-leg-ask	acted	INBOX	Already answered 2026-10-15 (6886cb65b: yes, >=1000bp low print = not repaired, kill aligned to VULCAN 840/5-session line); TERRY encoded 8be85154b. Packet file was left unmoved; consumed now, no new reply.
+2026-10-16T16:23:24-04:00	2026-10-15_from-VULCAN_volta-prestated-S5-test-and-crwv-figure-adopted	noted	INBOX	VULCAN adopted CRWV 15.83%/1,059-1,120bp. Volta S5 is VULCAN's; LIQUID L3 read separately (CANDIDATE, UNGRADED) in analysis/2026-10-16_L721-four-legs.md.
+2026-10-16T16:23:24-04:00	2026-10-16_from-ORACLE_october-hike-odds-down-19pp-in-29h	noted	INBOX	Oct hike odds PM 12.5% / Kalshi 16.0% [10/16]; Dec ~77.5%. ORACLE's dated read; context beside 10/28 FOMC catalyst; no gate keyed.
+2026-10-16T16:23:24-04:00	SIG-W-20261015-015	info-only	INBOX_WALTER	Private-credit-opaque bloc claim WITHDRAWN; COR-20261015-15 receipted NO-OP. BROCK owns.
+2026-10-16T16:23:24-04:00	SIG-W-20261015-017	noted	INBOX_WALTER	NVDA-CRWV backstop framings: quote verification not done (X posts, no primary); bond move graded via 069 L4 and WALTER -005 (CRWV 2032 ~81c/~14.6% [10/15, secondary]). No count change.
+2026-10-16T16:23:24-04:00	SIG-W-20261015-018	info-only	INBOX_WALTER	Anthropic growth decel; VULCAN primary; no LIQUID instrument.
+2026-10-16T16:23:24-04:00	SIG-W-20261015-019	info-only	INBOX_WALTER	Mastercard stablecoin platform; BROCK primary; reserve-growth channel not material.
+2026-10-16T16:23:24-04:00	SIG-W-20261015-022	noted	INBOX_WALTER	BOARD closure of LIQUID's 325-is-second correction; COR-20261015-22 receipted NO-OP.
+2026-10-16T16:23:24-04:00	SIG-W-20261015-023	noted	INBOX_WALTER	BOARD record of 069 L4 10/14 FIRE; re-confirmed HY 325 on 10/16 pulls.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-001	acted	INBOX_WALTER	HY 323 [10/15] second >320 cell: LIQUID WQ-444 run 2-of-3 recorded (STATUS, KILL_MEMO drill row). 069 L4 10/15 session graded NOT FIRED.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-002	noted	INBOX_WALTER	Kansas bank 4th failure FALSE (2023 article); 2026 tally six. COR-20261016-02 receipted NO-OP (only in append-only board_log row for -013).
+2026-10-16T16:23:24-04:00	SIG-W-20261016-005	noted	INBOX_WALTER	Volta +650/95c (upgraded by -017); AirTrunk/Firmus/SB Energy LISTINGS pulled/paused = equity listings, not L3 HY new issues; ORCL 5Y CDS 288 record [10/15] noted, L5 is agency-rating only.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-008	info-only	INBOX_WALTER	Anthropic June BB+ (FT), $4.4B junior; IPO valuation chatter; context only.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-010	noted	INBOX_WALTER	MOF week to 10/10: foreign LT bonds -JPY339.7B, equities -JPY760.6B; designated investors, not UST-specific; SAM owns.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-012	acted	INBOX_WALTER	MSCI non-operating rule ADOPTED; constituents 11/11, effective 11/30: added CATALYSTS/CALENDAR 2026-11-11 row as conditional flow catalyst, no threshold.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-016	info-only	INBOX_WALTER	China Sep PPI +5.0% y/y; upstream only; no LIQUID instrument.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-017	acted	INBOX_WALTER	Volta Bloomberg terms evaluated under L3 on own terms: CANDIDATE, UNGRADED (loan vs HY-bond letter, press unnamed sources, >50bp conversion UNKNOWN). No count consequence (gate already FIRED).
+2026-10-16T16:23:24-04:00	SIG-W-20261016-020	acted	INBOX_WALTER	LIQ-07 adjudicated: RESOLVED S2 on both lists; WALTER arithmetic matches; signal routed back via WALTER inbox packet.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-021	info-only	INBOX_WALTER	Eurostat Sep final core 2.5%, HANS-T16 1/2; HANS owns.
+2026-10-16T16:23:24-04:00	SIG-W-20261016-025	noted	INBOX_WALTER	FHLB Q3 highlights 10/30, CFR 11/13; REG-T-06 is REGINALD's; LIQUID FHLB nowcast unchanged.
