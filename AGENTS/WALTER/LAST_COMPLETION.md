@@ -27,7 +27,7 @@ Earlier signal commitcbed6d56b8555cda6ac4ddfaab7f73ab38906f4d and receiptc62cf6a
 
 ## GAPS / OWED
 
-- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is now proven published against local origin/master `89e713448`; instruction-fix commit `a23059765652e7e4b6980f60101aac98e4820228` and receipt `3adf5c89f` are published against local origin/master; WA2 correction `68044f367c96b0aa130e1999727ea08da6e737c0` is pending against local origin; receipt bookkeeping awaits coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
+- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is now proven published against local origin/master `89e713448`; instruction-fix commit `a23059765652e7e4b6980f60101aac98e4820228` and receipt `3adf5c89f` are published against local origin/master; WA2 correction `68044f367c96b0aa130e1999727ea08da6e737c0` is pending against local origin; final closeout `0a82cbfa5c38923362b42bf5c4cc55f359b8b9bc` is pending against local origin. Receipt bookkeeping awaits coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
 - **Runtime:** shell/Python/git/local PDF/web and thread-local verification helpers work. Native fleet ListAgents, cross-runtime desk messaging and Telegram unavailable. Earlier user report named PROME/CATO/WALTER; later owner records show PROME-spawned sessions. This is not a current fleet census; unknown desks are not declared dark. Root/local instructions explicitly read; provider does not establish tools or permissions.
 - **Read coverage:** WALTER charter now22760bytes, below22,785cleanup stop. Owned changed basis hashes reviewed; matching hashes do not certify execution. PROME READS attestation remains stale/UNKNOWN; no whole-boot certification. Root charter and generated ORCH rotation advisories remain owner matters; no shared source/generator edit made.
 - **Shared checker:** R1's remaining two SHORT-TARGETS outputs are now demonstrated filename-date misparses after the genuine target omissions were repaired. Canonical corrects IDs and target unions pass the review-only resolver. Existing LABOR_DOWN/archive-schema and historical delivery-ID residues remain declared; no history erased to quiet checks.
@@ -128,6 +128,10 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
     {
       "commit": "68044f367c96b0aa130e1999727ea08da6e737c0",
       "state": "pending"
+    },
+    {
+      "commit": "0a82cbfa5c38923362b42bf5c4cc55f359b8b9bc",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -138,7 +142,7 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Prior cleanup/receipt now on local origin reference; WA2 clarification awaits coordinated publication. Foreign work dirty; no WALTER push."
+    "note": "Final closeout exact-path commit 0a82cbfa5c38923362b42bf5c4cc55f359b8b9bc; pending against local origin. WA2/receipt publication still coordinated; foreign staged/dirty work preserved. No WALTER push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -231,7 +235,7 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
     "12(d,e)": "Final Tier-2 entry and BOTTOM LINE written; preceding WA2 light deferral discharged.",
     "14": "Memory session notes updated; durable findings/approval triggers retained; no new narrative rotation.",
     "15": "Existing carries and source-search approval retained. L334 and L599 source rows read; omitted copy-sample duty restored. Afternoon releases explicitly unrefreshed.",
-    "16": "Final exact-path local commit pending; foreign work preserved and coordinated push deferred.",
+    "16": "Final closeout exact-path commit 0a82cbfa5c38923362b42bf5c4cc55f359b8b9bc; pending against local origin. WA2/receipt publication still coordinated; foreign staged/dirty work preserved. No WALTER push.",
     "Tier1": "Affected completion/publication/source-date statements reconciled; no full market freshness claim.",
     "root.consumer": "No numeric threshold, owner grade, weight or routing changed during closeout.",
     "root.memory": "No auto-memory/index edit. Two self-authored idea-log rows only; existing PROME ideas untouched.",
