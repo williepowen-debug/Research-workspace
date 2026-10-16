@@ -1,0 +1,28 @@
+{
+  "revision": "0f6340038",
+  "proposed_Q6": {
+    "return": {},
+    "failures": [
+      [
+        "pressure (feed only)",
+        "PROME/tools/dashboard_state.json",
+        "channel-change feed RETIRED"
+      ]
+    ]
+  },
+  "channels_removed_diff": [],
+  "real_heartbeat_projection": {
+    "with_companion_errors": [],
+    "without_companion_errors": []
+  },
+  "working_tree_correction": {
+    "path": "PROME/tools/will_brief.py",
+    "sha256": "6fe2961d41fe446b060b2dd66bfaa776c01d3c54e31647465c072261d47d7dff",
+    "result": {},
+    "function_calls": 0
+  },
+  "working_tree_manifest_check": {
+    "rc": 1,
+    "output": "  ❌ SCHEMA READS.tsv:217: mode 'RETIRED 2026-10-16' not in ['grep', 'programmatic', 'scoped', 'summary', 'whole'] or RETIRED-<ISO date>"
+  }
+}
