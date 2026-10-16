@@ -1,0 +1,18 @@
+# Rules-document overlap — the reconciliation table (plan item 3; READ-ONLY work, no edit made) — 2026-10-16 16:2x ET
+**Scope:** root `CLAUDE.md` (24,961 B, Will-gated), `PROME/CLAUDE.md` (23,662 B, PROME's charter — ask-first for its own edits), `PROME/BOOT.md` (25,667 B after today's PARTIAL rotation). Bytes are `len(utf-8)` of the passage named, measured 16:2x ET by the script that wrote this table; the three files total 74,290 B of boot-time context. **Nothing here is approved by being written:** each row's "mirrors → pointer" column is a proposal for ONE edit per file under Will's word (root) / the 10/25 WQ-299 review, cold-read as a plan first (`PROME/CLAUDE.md` § Canon drafts).
+
+| Rule | root CLAUDE.md B | PROME/CLAUDE.md B | BOOT.md B | Canonical home (proposed) | Mirrors → pointer (proposed) |
+|---|---|---|---|---|---|
+| Git protocol (pull/commit/push mechanics, pathspec rules, non-ff recovery) | 12,224 | 671 | 678 | root CLAUDE.md § Git Protocol | PROME/CLAUDE.md keeps ONE pointer sentence; BOOT.md keeps step 0's four commands and one pointer |
+| Desk-spawn preflight / orchestration mechanics | 0 | 1,391 | 1,091 | PROME/CLAUDE.md § Session Process Controls (single-homed by its own text) | BOOT.md step 0 and Non-Negotiables keep one pointer each |
+| Skipped-control reporting | 0 | 478 | 210 | PROME/CLAUDE.md (the rule); BOOT.md step 8 (the report line) | keep both — the report line is the carrier, the rule is the home; no cut |
+| Live prices / no trade execution / external sends | 140 | 66 | 360 | root CLAUDE.md Critical Rules #4/#5 (numbered, cited by number) | BOOT.md Non-Negotiables → one line 'root rules #4/#5 and PROME/CLAUDE.md Ask-First bind'; PROME/CLAUDE.md keeps its Ask-First list (it is the authority surface) |
+| Runtime/context-injection disclosure (charters explicitly read when injection unconfirmed) | 787 | 353 | 934 | PROME/CLAUDE.md Boot step 1 + BOOT.md's two paragraphs (BOOT owns the --charter-mode mechanics) | root CLAUDE.md keeps the fleet rule (one sentence); PROME/CLAUDE.md step 1 → pointer to BOOT.md |
+| Weekend/holiday HEARTBEAT orientation rule | 0 | 0 | 564 | BOOT.md step 5 (the executed line) | Non-Negotiables bullet → delete (duplicate inside the same file) |
+| FRED citation convention / HEARTBEAT must be read | 0 | 0 | 256 | BOOT.md step 5 (HEARTBEAT read) · HEARTBEAT.md § 2R date convention (FRED) | two Non-Negotiables lines → delete (step 5 and HEARTBEAT carry them) |
+
+**Duplicated-passage bytes across the seven rows: 20,203 B** (the canonical copy stays; the saving is the mirrors — roughly half, ≈10,101 B per boot, measured when the pointers are written, never asserted).
+**Cuts that need NO Will word (BOOT.md is PROME's; no rule changes meaning):** the three Non-Negotiables lines duplicated inside BOOT.md itself (weekend rule · FRED convention · HEARTBEAT-must-be-read) and the prices/no-trade/external-send bullets → one pointer line to root rules #4/#5 and PROME/CLAUDE.md Ask-First. That is ≈1.2 KB and would complete the rotation (<70% needs ≈2.9 KB more; the git bullets add ≈1.1 KB).
+**Cuts that need Will's word:** any root `CLAUDE.md` line (the runtime-disclosure sentence stays; the Git Protocol is already the single home — PROME/CLAUDE.md's "Git default" paragraph becomes the pointer, which is a PROME-charter edit = ask-first by PROME's own rule).
+**Not a cut:** the skipped-control rule (home) and its report line (carrier) are different things; both stay.
+**Method note:** passages located by anchor phrase, not by rule meaning — a reader should check each row at the file before any edit (`finding_scan_keyed_on_naming_reads_local_form_as_absence`).
