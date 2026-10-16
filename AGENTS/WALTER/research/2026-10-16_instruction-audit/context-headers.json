@@ -1,0 +1,373 @@
+[
+  {
+    "path": "AGENTS/AEOLUS/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "3a1987c0372e7690e05ef9cf0aaef02f59efafc052d9dbbb0eda1095272d19e5",
+    "compared_line_count": 30,
+    "compared_header_sha256": "64b359e939c4c845d8446cebf89116c74fe17f315c974f788920b1ef2a059dff",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/ATHENA/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "402c220565df07464ea17fcb0347ee15a80f15a34820ce84eab68446c68b0339",
+    "compared_line_count": 26,
+    "compared_header_sha256": "d17ea84aaf4cfce746f9002e7bae4644184618f1a8fd819dd52c7104986ece78",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/BOND/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "f55169da7a9c5bc08b0b2653417f9979cabd40f2a49da288bbe95e15fb39c5da",
+    "compared_line_count": 30,
+    "compared_header_sha256": "dba2fc848039682ad0361e472903289a9b253ef1bb22139db2cf5b97ae44bfc7",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/BRENT/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "063817e065e2d855925aae3b90475f7f7889b955d010a16c7dfe15176a4e47bf",
+    "compared_line_count": 30,
+    "compared_header_sha256": "cd810550903d5ee774df5518b5e6f9925f2c4f8d1ae796467234bf3eb158d0be",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/BROCK/STATUS.md",
+    "unchanged_from_prior": false,
+    "sha256": "1eb52869039b05b094e5169a52ac385217c12e22bd30d47ac46d34022a6bc44f",
+    "compared_line_count": 30,
+    "compared_header_sha256": "f1b5ece310400b6cc5de8814603ebf7a6281ced8efae55986aa29e97cb582ebb",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json",
+    "reviewed_lead_lines": [
+      "# BROCK — STATUS",
+      "",
+      "**Updated:** 2026-10-16 Fri 13:41 ET — PROME due-row wake (prome-ac): **L653 CABO backstop: no filing; TRO reported (press)** · BRK-31 MTB/CFG no fire · CRMT 10/15 window empty · drain 7/7. Narrative → CURRENT catch-up.",
+      "",
+      "---"
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "ea5a61122144c0a025b28f6db76bf618b0e61c28dc573f19219ae637ea8e2027",
+    "compared_line_count": 30,
+    "compared_header_sha256": "fb541e12d3ed59de99b6ba0a3fb814b853fd62b267edb593904cf6d7ec8edc75",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/CORAL/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "abcf8e4f3abd5f0313c0b1314adf4e382f61bab07303ecb09e5c716caee208a8",
+    "compared_line_count": 30,
+    "compared_header_sha256": "71480217f8859770c117f0b1b6e7d29d545b5f05c5fd97ecb91c7347227a19ac",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/CREED/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "02cb66abb2c9a63e34cdcd18a0d05992dc9ce085e2c0c6852eba96aa9bed148d",
+    "compared_line_count": 30,
+    "compared_header_sha256": "3e37c588a0bd82fb3a76abefe37fdec67140c3a6c8f1a59f9096ffadd55d33c2",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/CRUISE/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "37abaa94c1303553d2f86efa7aa6f23ec4037cee5374bd512b321778e99fcfa5",
+    "compared_line_count": 30,
+    "compared_header_sha256": "9df84da2c92f52d109e9ffc1669defde56b6742717af9a331f923dfcb42e8c87",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "8b4c6269d8bd35f2f67543d16aefc1bed9f6a58372790b178bd014fae689360e",
+    "compared_line_count": 30,
+    "compared_header_sha256": "37e7fb2f3cbb9caa76b370c4a8b21dc60ca1ea92009f31c2aea1aff494056623",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/FALCON/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "4e6ac2230d6aef0383bdc77424f8599dcdf434e909023f8574d0b5f2c645057d",
+    "compared_line_count": 30,
+    "compared_header_sha256": "5cfb09b356ec0cc459fa5dcd4d554c78133ffeb07e5643bcb3cacbbaa2fbd2c7",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/FERT/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "66ddbce56a90c3af31c17619c8e3bd5b565f3d2c72844e1e57c4e624ea5b916b",
+    "compared_line_count": 30,
+    "compared_header_sha256": "85a9d0a7cdd73ad6077b6e8f486f781bf140f07a039911c6ebf630c4e122ab2c",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/FLG/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "18baea5c15056094c10722ba3a49a6956425201d179d083b7aa42a02edd08459",
+    "compared_line_count": 30,
+    "compared_header_sha256": "d18b7edb42798574e22f0f1550cbbcb4d33c3b2e72e18ed9bbf473ec6d3035b5",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/GIBBS/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "1d2583ad0f101b817fc2ba177347e6a3a6ab6a3d413d57149d3cbdd0f8cc01c6",
+    "compared_line_count": 30,
+    "compared_header_sha256": "0341bedf2815b30e04f76bcbdfdd5dea633ab76984df67c78144cf8fd626d100",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/HANS/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "706971624af274ef29bcb34b61f0ef373f296b2b43bc30f5e751b9d160e93659",
+    "compared_line_count": 30,
+    "compared_header_sha256": "b933757b682a4717c4709a9fe0ff7687d445dbc5f2aa5df3f1202b78d6dec61a",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/HAWK/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "564d583e0ba07031f964b091803db87b36943db84cbaa3d2a9caec824d8f65ca",
+    "compared_line_count": 30,
+    "compared_header_sha256": "9e9b1b8212abc001b390d21bf4a873cb481a71257323e0a6559c0d608362e101",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/HENRY/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "401ecb5a5e88c10e17041f5b53facea1ce16a3f7552e54f0ab358dbd169a68a8",
+    "compared_line_count": 30,
+    "compared_header_sha256": "3448fad47e39ef137529244fb05eddf8410dd230023d8eed37b66a69951cfac5",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/HOMER/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "26f06ee94a7f919670a9d4237be0a62a6a2aa0a5d28cccd804c3d178f8119b56",
+    "compared_line_count": 30,
+    "compared_header_sha256": "162016e4550e4e361f8a6f31fc107a12b45e22b255c7b972a69178503126ae17",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/LABOR/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "26ccddc13d5ead7de821f20b5058baf04813467616cb9e8b8552ce9b25ba314d",
+    "compared_line_count": 30,
+    "compared_header_sha256": "d10219a93683eb453711ebc03ac8c54c2aec7bb86d29d17c83b9ea8b4aedc8bc",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/LIQUID/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "5bc94e5cb0579ffad12843addc530e0ab426863ca53f51f18c1e7d2106b8f870",
+    "compared_line_count": 30,
+    "compared_header_sha256": "4894b7051c654ccdd99bb75c5ebc0eb8d23d660529b337effcded3fb8f5e5c7b",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/MARCO/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "a2b6caee9d73eb50ddbbe2da488d545f0d4f24a5ad5aff9f058a2552b3b09192",
+    "compared_line_count": 30,
+    "compared_header_sha256": "ec34c59e3edad8fe421ccc6342ad5c6306649ed93815062812495f001e1c1402",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/MIDAS/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "5681906cad27a221c3fc944e3555f8ee4b2fc6b4a7ab15888adda3502f951d2f",
+    "compared_line_count": 30,
+    "compared_header_sha256": "f2c899cf2f4b9a0674f7c3c528b045018c2429a3d4ffe63acc7b428878ee73f2",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/NEXUS/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "5425fec2765972a91f4f0f0a8d50e04608324a3b6d6ecc0c306633209b601e3c",
+    "compared_line_count": 30,
+    "compared_header_sha256": "835166e1b8c98cdc677517e4bb86430c8840f9dae440bc56cfa579bcb110f01c",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/ORACLE/STATUS.md",
+    "unchanged_from_prior": false,
+    "sha256": "5e1e7d687808b1a323054d8dcc8a61286973efc09119ab0e2afb07102d05a803",
+    "compared_line_count": 30,
+    "compared_header_sha256": "2d93b1d2083dc84c058d909a6bfc08d8396c4bbaa71c84792c6b15c6fb1a509a",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json",
+    "reviewed_lead_lines": [
+      "# ORACLE STATUS",
+      "",
+      "**Live dashboard: prediction-market probabilities, divergences, alerts.**",
+      "**10/16 DAILY PULL (Fri, PROME-spawned `prome-ac`, DOCKET L729 pull 1 of 11, WQ-314 (b) cadence).** Polymarket `pull --log` **2026-10-16T17:36Z** 53 rows rc=0 · Kalshi `pull --log` 17:39Z 11/11 (unsigned). **Supersedes the 10/15 figures below for the rows named here; everything else below is 10/15 or older.**",
+      "- 🟡 **OIL v5 — OCT $110 LEG 20.5% (9.0 on 10/15), QUALIFIED (liq $34.8K, vol $125.6K). Band run = 3 (10/14 9.5 · 10/15 9.0 · 10/16 20.5) ⇒ ARMED, no Alert (needs 3 qualified reads ≥40.0).** WQ-314 (b) APPROVED 10/15 and now encoded on VX-ORC-04 (state 🟡: Watch Δ7d +10.5). Spot proxy CME CLZ26 $98.64 (`fetch.py` 17:37Z, +2.22%) ⇒ $110 is +11.5%. Kalshi Brent @Oct-30 `>$100.99` 73.0 (Δ +9). Ledger `workbook/V5_OCT110_READS.tsv`. Settlement text now verbatim in the letter §7.1. **Next read Mon 10/19.** Spread tool not run."
+    ]
+  },
+  {
+    "path": "AGENTS/OSPREY/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "fb5a34936cd9eb0d522da627a0b30f4e9219a81476b2b2a9e47ceb9a2997c915",
+    "compared_line_count": 30,
+    "compared_header_sha256": "b52552ece9226df7a30d6213c785040a350b0fbd4a1858088768baf9dd2b81d3",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/OTTO/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "1410ba5e57f3a0fd305e2132c472695fc721af65eb1821c4eab9a7e33eec30d0",
+    "compared_line_count": 30,
+    "compared_header_sha256": "1b89d29f79b748b72394f71f4592cf7fde49b640cb743d84ce3da945e9d93974",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/OZK/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "b91d70ee5450dd5a85f2da78bf511c66fb17b7b4699d0a3183796a7301649def",
+    "compared_line_count": 30,
+    "compared_header_sha256": "ab05259b2db1a709b2e59603995ae455c960e7c7ba11c99ea95202b624b35fef",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/RED/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "2b945f8c8980a897262f6d29f88d699e91d19300307a2b89ec20f67b0b104e6b",
+    "compared_line_count": 30,
+    "compared_header_sha256": "1ef762d1bb63474061bdaed9af750f668686d9a2eb0c67793ea7c1e7be4d96cd",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/REGINALD/STATUS.md",
+    "unchanged_from_prior": false,
+    "sha256": "d8a2b77d4207ce9c269b05efafc558e5b2bd021724afebce1aad03d411aaf728",
+    "compared_line_count": 30,
+    "compared_header_sha256": "da5cfd9478c9c573e6ef4b7962ed212f07ef67d54a53030e2d1e4f85f439f1f2",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json",
+    "reviewed_lead_lines": [
+      "# REGINALD STATUS",
+      "**Due rows,10/16 (PROME spawn,L0):** `reports/2026-10-16_due-rows_CFG-Q3-grade_Nano_REG-T-03.md`. **CFG Q3 WQ-318 = INCONCLUSIVE** (IB cost 2.13% +5bp; avg NIB +1.7%; NIB 22%; FHLB +32% to $7.613B = only F leg; cap-call+PC $15.0B deck basis < $15.46B; unfunded NDFI line not printed → 10-Q/11/07). **Nano P&A NOT POSTED** 13:38ET (bid summary only). **REG-T-03 2-of-3** (325 [10/14], 323 [10/15]); bank-credit cross-check BANK-ABSENT (BB-led, CCC last, pref basket flat). Failures 6 (FDIC CSV 10/16); -013 discarded. REG-07 VOID (WQ-412). Big-bank: BAC closed −4.76% 10/14 (not −8%), adjusted miss ROE 9.1%, no regional transmission that day (WALTER -019).",
+      "**Will-requested December probabilities,10/14:** `reports/2026-10-14_WAL_December_outcome_probabilities.md`,KB230. Closed at Will’s request;first subjective Dec18-close mark,not measured prior reduction or WAL-owner re-mark;bounds/limits and premium distinction in report. Fresh14:59ET WAL/chain snapshot saved;existing Q3 checks/frames unchanged.",
+      "**Will-selected WAL earnings test,10/14:** `reports/2026-10-14_WAL_2027_earnings-path-test.md`,KB228–229. Public ~$11 FY27 EPS plausible;least verified link is net funding-cost relief/expense control converting growth to profit. Conditional reverse budget,not analyst components or new forecast. Mortgage/credit normalization counterevidence retained;existing10/19–20 outcomes PENDING,owner frames unchanged. WAL owner review read:four scenarios/decisive primaries agree;borrower attribution and remaining bank-parent mortgage/cost/persistence questions open. Proposals unstarted.",
+      "**Bank/ETF tape,10/14 ~12:55ET retrieval:** quotes12:37–40ET,delayed/intraday; `reports/2026-10-14_bank-and-ETF-intraday-comparison.md`. Tracked regionals14/14 down,median−1.23%;KRE−0.61% vsKBWB−1.87%,SPY−1.03%,IWM−1.78%. BAC−5.24%/MS−3.19%,JPM+1.06%;WAL−2.44%/CUBI−2.01% weakest tracked. Weighting/single-name dispersion,not proven credit attribution;no new gate/score/trade. KB227."
+    ]
+  },
+  {
+    "path": "AGENTS/SAM/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "11afccf34dd70f020d0f8b4f531141c0d4d22c2cb3cd420822f5e4a33967474c",
+    "compared_line_count": 30,
+    "compared_header_sha256": "a590ea500da7ed5235ec3d0c34bbc06641a91ab8a3272bf3c1823855063699c0",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/SENTRY/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "1282c07adec5863c63cf32c0c35bea5eb65076510e8d9dbeab3602e6e4496f83",
+    "compared_line_count": 30,
+    "compared_header_sha256": "9e66d689ca734caabff621766a896a73835d8adf397857d958740acbd2699bc6",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/SHADE/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "62b1e1002e9ac45df6459c51893e1cb2581eac1395d7b1488716fea5ffee1b8b",
+    "compared_line_count": 30,
+    "compared_header_sha256": "dbb6d778258af88164fce848ab151f1c0673381ddf0ff98759819ddcc70b0e93",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/TERRY/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "8516e82b70350cbfa641f0d3f8379100d3bc8e9893a83fdb32d9402916142b34",
+    "compared_line_count": 30,
+    "compared_header_sha256": "6b008e2423ac002840469d82db74dffb84f5597466b8a41afca9ceee55f8526e",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/VIOLET/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "208e2b05440d8e64e4105dbb83721a69a4af788b237892c5546bb554163cfaf5",
+    "compared_line_count": 30,
+    "compared_header_sha256": "b4b83336230a375995d2ec56f81a6679bb124567161476e2b4e511483d0212f0",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/VULCAN/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "c57a654e7a830520db91ae7a8f4d12e3d1cd909d1d4065aa81fad29c9f73ac83",
+    "compared_line_count": 30,
+    "compared_header_sha256": "17862e6ec8a7e9d983d8d8c0cf154cab9c2f9527ca1e705208331a022e035d6d",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/WAL/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "b604306980a0c20883ddd4472b85a884b485c0e8dedd6e1c13b3a0c0ae8a4aa0",
+    "compared_line_count": 30,
+    "compared_header_sha256": "d65d0bae51b0e9eed08a098b121f7e228ecb36fe0786ad245da76ff67f01089a",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/WALTER/STATUS.md",
+    "unchanged_from_prior": false,
+    "sha256": "99a0824bfd702fac9591a448ba46f13461c21d246de1c53ae31bdce9aa519514",
+    "compared_line_count": 30,
+    "compared_header_sha256": "704e739838430c7839dd96014875d01575864a019dd17a34f243c5f29b8eb15b",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json",
+    "reviewed_lead_lines": [
+      "# WALTER STATUS",
+      "**Updated:** 2026-10-16T17:45:00Z — unfinished-work follow-up, Tier-2 state refresh. Runtime Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals** (`cluster_mediating:true`). Three bounded verification helpers continued this task; these are not domain desk launches. Publication/delivery and remaining duties: `LAST_COMPLETION.md`.",
+      "",
+      "## BOTTOM LINE",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/WATT/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "df8019267765bcaa4680cc535ae05bff460a5945d11579d49ff47dc0b0714107",
+    "compared_line_count": 30,
+    "compared_header_sha256": "42927e0655733bd0e6780e4b4d99a058c640e18007cef645c58c41fb3bc8514e",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/YEYOU/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "5d75fcd89db7fa2b9116a25e6c264aac75ee5168d9f1aa3d87f44cb08313287b",
+    "compared_line_count": 30,
+    "compared_header_sha256": "fc04ae5c743bb4f5ca5c1a938f8bc2283843cd8a9b48a0cb7e5a0fe3130f58d8",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/YURI/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "ec44cdce183c9961ec8a42266748203b89daa7a54d5c58b8de1d7a8e9c2de578",
+    "compared_line_count": 30,
+    "compared_header_sha256": "300ec81b3c672a55c7c53c7beff68e7e5ecd215e188d0b5b3ad68b509044a58b",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "AGENTS/ZHAO/STATUS.md",
+    "unchanged_from_prior": true,
+    "sha256": "ebf57f2838e684cf4c3858b77905c655f9bbdcb5ff9a60dd93827b1305757902",
+    "compared_line_count": 30,
+    "compared_header_sha256": "feaab64ce336ba965eb76581f68d63ac960220cb98ed659a6561b0c7ece73df6",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json"
+  },
+  {
+    "path": "PROME/STATUS.md",
+    "unchanged_from_prior": false,
+    "sha256": "c1b0c62b74011dca0b6e13c8787923ae1313f1d5d4d950bd3f9d38e9cbb395ba",
+    "compared_line_count": 30,
+    "compared_header_sha256": "b75d17de643a6ed365ed55d16efc853fa651eee3b7dc64522e04780540799d7c",
+    "prior_snapshot": "AGENTS/WALTER/research/2026-10-16_finish/context-headers.json",
+    "reviewed_lead_lines": [
+      "# PROME STATUS.md",
+      "**Updated:** 15:1x ET 10/16 — session 8fb641db (boot/closeout cost reduction, CATO's 10/16 plan). **The session account lives in `memory/2026-10-16.md` and is not retold here; prior header stamps (10/14 → 10/16 14:51) → `archive/STATUS_STAMP_CHAIN_2026-10-16.md`, older → git.** Market observations retain their own dates.",
+      "**Last spine audit:** 2026-10-15 (16th run — 9 readers/17 files: 6 blocking [WQ-348 'Done without asking' guard had no report step (BOOT step 8 + CLOSEOUT § Delivery + runners, FIXED) · CLOSEOUT step 11 still pre-WQ-382 (b) (FIXED, L665/L594 RESOLVED) · SCRATCH hand lines vs the four 12:00 Deck rulings (FIXED) · SCRATCH DOCKET-VIEW stale (regenerated) · ACTIVE_DECISIONS WQ-365 revival clause (FIXED) · DOCKET L723 CREED named as a WQ-184 driver on an explicit-permission desk (FIXED)] + ~35 minors [header-stamp ride-under · pointer rot into inbox/processed · 'Chunk 4' section labels (FIXED in GIT_COORDINATION/SYSTEM) · ≥280 vs >280 operator carry · row-size debt in ACTIVE_DECISIONS · runner depth]; record `PROME/reports/2026-10-15_spine-audit-16/`. Re-run when >7d.) Prior: #15 2026-10-02 — full stamp verbatim in `PROME/archive/STATUS_SPINE_AUDIT_PRIORS_2026-10-02.md`.",
+      "",
+      "## Current Work Queue — PROME's own actions"
+    ]
+  }
+]

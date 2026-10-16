@@ -94,5 +94,5 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**CHANGES SINCE — 2026-10-16T17:40:05Z:** Bookmark backlog closed; PDF reviewed; source/threshold follow-ups routed; intake design ready for PROME; header guard and correction target unions repaired. Finding49 promoted above its former duplicate.
-**NEXT SESSION:** Evaluate LAST_COMPLETION.md against owner evidence before carrying any obligation. X reauthorization is complete. Review the October16 HY bar on October19; no autonomous background run is installed.
+**CHANGES SINCE — 2026-10-16T19:21:31Z:** Instruction audit saved; no operating rule edited. Approved source-search stopping/reopening conditions recorded in LAST_COMPLETION.md.
+**NEXT SESSION:** Read LAST_COMPLETION.md and current owner evidence before carrying obligations. Do not restart closed source searches without their recorded reopening condition; mandatory checks and fresh material news still apply. Charter condensation remains proposed, not implemented.

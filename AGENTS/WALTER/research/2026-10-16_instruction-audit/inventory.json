@@ -1,0 +1,74 @@
+[
+  {
+    "path": "AGENTS/WALTER/CLAUDE.md",
+    "bytes": 70223,
+    "lines": 204,
+    "sha256": "0091de857733acf78769ee3894277a6de725a55cdaa0a906f3ce40829c79dec2"
+  },
+  {
+    "path": "AGENTS/WALTER/MEMORY.md",
+    "bytes": 22545,
+    "lines": 98,
+    "sha256": "cef6c6822a94292bb2a15039a625eedbd44dbfd30d568c462518236c3d878615"
+  },
+  {
+    "path": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+    "bytes": 71306,
+    "lines": 221,
+    "sha256": "9d8868e8660ca2b141c1d701a735722ba8e0d15a9630b90dcf5a648866c686c2"
+  },
+  {
+    "path": "AGENTS/WALTER/design/SPEC_OWNERSHIP.md",
+    "bytes": 24016,
+    "lines": 82,
+    "sha256": "1b87d63e4704e00ad1f7ed912f92cece2d97267f0c0a61c78d3a24c40605de75"
+  },
+  {
+    "path": "CLAUDE.md",
+    "bytes": 24961,
+    "lines": 135,
+    "sha256": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 5427,
+    "lines": 60,
+    "sha256": "67f1ca99575dd8df027a08a3c769e5e6bee3c514d116dcc0ea8469f29badd3dd"
+  },
+  {
+    "path": "USER.md",
+    "bytes": 7026,
+    "lines": 94,
+    "sha256": "8cb441d55bb6bec0e90352141a92f5b3e565dbbc5b7f86c405042a21bf71d742"
+  },
+  {
+    "path": "PROME/state/ORCH_INFLIGHT.md",
+    "bytes": 26433,
+    "lines": 145,
+    "sha256": "3a45c21d9c9531068f15469b5a1f6613faa69dda4b667b3fe362abec981f4202"
+  },
+  {
+    "path": "AGENTS/HANS/registry/THRESHOLDS.tsv",
+    "bytes": 21420,
+    "lines": 18,
+    "sha256": "c3110b3c23127a3e5e121c6afad59fcf84df8d2b7d1597358379e47e39533722"
+  },
+  {
+    "path": "AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv",
+    "bytes": 116031,
+    "lines": 13,
+    "sha256": "9e24d1d0a1540f80f6a09fe4722f453d536ca4b28c72c0a8ab4fbdf9778c336f"
+  },
+  {
+    "path": "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md",
+    "bytes": 33677,
+    "lines": 175,
+    "sha256": "135b8a0a885cc60d17bda8d4d899b0606a3981f26bf55e989c9bbb5a07e827d8"
+  },
+  {
+    "path": "AGENTS/WALTER/registry/signal_read_companions.json",
+    "bytes": 657,
+    "lines": 13,
+    "sha256": "a21d9e2f8e7f5810f0ed2ac4fd03f7d39a10ac585d94c536ddb0659f0dac9018"
+  }
+]

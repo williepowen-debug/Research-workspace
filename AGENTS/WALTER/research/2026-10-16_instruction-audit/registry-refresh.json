@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-10-16T19:21:31Z",
+  "rows": 47,
+  "header_inputs": 42,
+  "changed_header_reviews": [
+    "PROME",
+    "REGINALD",
+    "BROCK",
+    "ORACLE",
+    "WALTER"
+  ],
+  "other_headers": "Exact comparison to prior snapshot;37 unchanged.",
+  "band_policy": "Prior owner bands retained; no global-band regrade inferred from narrative updates."
+}

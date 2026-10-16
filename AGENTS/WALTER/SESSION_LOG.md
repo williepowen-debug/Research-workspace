@@ -1,3 +1,7 @@
+# 2026-10-16T19:21:31Z — instruction audit and source-search disposition
+
+Reviewed WALTER charter, memory, boot rationale and ownership map against selected canonical sources. Report and snapshot inventory: `research/2026-10-16_instruction-audit/REPORT.md`. No charter/spec edits or new research dispatches. After the audit, applied Will's explicit approval to stop repeated missing-source searches and retain reopening conditions in LAST_COMPLETION.md. Updated changed owner-header mirrors before STATUS; memory notes refreshed. Prior completion preserved verbatim in audit evidence. Existing source/boot/read-attestation limitations remain; no full-market-sweep claim.
+
 # 2026-10-16T17:40:05Z — unfinished-work Tier-2 closeout
 
 Bookmark batch40/40 closed and marked; source checks and ten follow-ups016–025 saved. Threshold scan accounts for48rows with source/eligibility limits. VULCAN design and dispatch-header guard implemented; correction target unions repaired. Publication and remaining obligations live in LAST_COMPLETION.md.

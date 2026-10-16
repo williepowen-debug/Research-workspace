@@ -1,0 +1,5 @@
+⚠️  nudge: [WALTER] STATUS moving without ledgers — 1 ledger(s) behind: kill_log.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+ℹ️  nudge: [WALTER] event-driven: corrections_receipts.tsv (39 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: REG_THRESHOLDS_FIRED_LOG.tsv (7 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-15) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: FALSIFICATION_FIRED_LOG.tsv (7 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-15) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: DEEP_RESEARCH_FLAGGED_LOG.tsv (7 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-15) — confirm the re-pull clock moved

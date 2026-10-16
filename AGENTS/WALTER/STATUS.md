@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-16T17:45:00Z — unfinished-work follow-up, Tier-2 state refresh. Runtime Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals** (`cluster_mediating:true`). Three bounded verification helpers continued this task; these are not domain desk launches. Publication/delivery and remaining duties: `LAST_COMPLETION.md`.
+**Updated:** 2026-10-16T19:21:31Z — instruction audit and approved source-search disposition. Runtime Codex/OpenAI; exact model variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals**. No new signals or helpers in this audit. Publication, approvals and obligations: `LAST_COMPLETION.md`.
 
 ## BOTTOM LINE
 
-All40staged bookmarks are dispositioned and marked, including Will's Kobeissi PDF. Follow-ups cover China PPI, Volta sale terms, Iran source conflicts, Trepp sector flows, LIQ-07 funding evidence, euro-area final inflation, Korea flow vintages, the bullish earnings countercase, tanker report vintages and the FHLB calendar. All48registered threshold rows are accounted for with explicit source/eligibility gaps; this is not48fresh grades or a market all-clear. Owner judgments remain with their desks. WALTER's remaining obligations and partial boot limits are recorded only in LAST_COMPLETION.md.
+The instruction audit identifies stale rule copies, duplicated histories and specific condensation candidates; operating instructions remain unchanged. Will's approved stopping/reopening conditions for missing-source searches are recorded in LAST_COMPLETION.md. The earlier40-bookmark batch and source follow-ups remain complete within their stated limits; missing evidence has not become an all-clear. Dated market observations below were not refreshed by this documentation pass.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -38,9 +38,9 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed before this regeneration from42scoped STATUS headers;47rows retained, owner bands preserved when no unambiguous overall status was declared. Full input snapshot and extraction limits: `research/2026-10-16_finish/context-headers.json`, `registry-refresh.json`. Bands: GREEN 4 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · YELLOW 14 · — 3. Registry dates beforeOctober9: HENRY 2026-10-08, YEYOU 2026-08-20, RAV 2026-08-02, ATHENA 2026-03-14, DARWIN 2026-02-18, CREED 2026-10-01, SENTRY 2026-05-09, FLG 2026-10-01. These are owner document dates, not fleet availability.
+REGISTRY refreshed before this regeneration:42scoped header snapshots compared with the earlier read,37unchanged and5changed reviewed;47rows retained. Owner bands preserved absent an unambiguous overall replacement. Evidence: `research/2026-10-16_instruction-audit/context-headers.json` and `registry-refresh.json`. Bands: GREEN 4 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · YELLOW 14 · — 3. Registry dates beforeOctober9: HENRY 2026-10-08, YEYOU 2026-08-20, RAV 2026-08-02, ATHENA 2026-03-14, DARWIN 2026-02-18, CREED 2026-10-01, SENTRY 2026-05-09, FLG 2026-10-01. These are owner document dates, not fleet availability.
 
-Will reports PROME,CATO,WALTER active. Native fleet census, cross-runtime desk messaging and Telegram are unavailable. Other desks remain UNKNOWN unless current evidence establishes otherwise; thread-local helpers are not desk sessions. Foreign writes have been observed in PROME,CATO,CRUISE and laterORACLE paths; preserved. No doorbell based solely on missing tools. Backlog age is measured from `delivery_log.timestamp_routed`, never assumed darkness age; current counts are in the doctor output. Today's routing is the dated BOARD index, with source limitations on each card.
+Native fleet census, cross-runtime desk messaging and Telegram are unavailable. Will's earlier PROME/CATO/WALTER report is dated context, not a current exclusive census: later owner artifacts show PROME-spawned work. Availability remains UNKNOWN unless current evidence establishes otherwise. Foreign changes were observed and preserved. No doorbell or spawn follows from missing visibility. Backlog age uses delivery_log.timestamp_routed, not assumed darkness age. Today's routing remains the dated BOARD index, with each card's source limits.
 
 ## Active LIAISON channels
 
