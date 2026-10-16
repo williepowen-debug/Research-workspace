@@ -91,7 +91,7 @@ The live index is newest-first in document order (real fixture). So a followed i
   - **⚠️16:** the followed row's `pub_date` = the window END (the date staleness keys on), and the note says `pub_date = window END`. Live mis-slug fixture: `pub_date` 2026-09-20, not 2026-09-07.
   - **⚠️17:** on a body-fetch failure, the stdout summary reads `(followed: FETCH_FAILED (newest post))`, never `(followed: BULLETIN)`.
   - **⚠️18:** `BULLETIN_STALE` names its cutoff basis (`run − days_back N d`). When `days_back` < 10, it says an on-time weekly bulletin can read STALE at that window, and it does not give "publisher stopped" as the cause. CX5b: `--days 3`, 28 Sep–4 Oct read 10/9 ⇒ `BULLETIN_STALE` (still NOT_READ, the safe direction) with `days_back 3` and `on-time` in the label.
-- **AC12: the prior code fails first (AC8, pass 2).** Every new pass-2 test FAILS with `STRIKE_FEED_PATH` = a copy of `04d8f06be`'s `strike_feed.py`. The fixed code passes the whole file, old tests included.
+- **AC12: the prior code fails first (AC8, pass 2).** Every new DISCRIMINATING pass-2 test FAILS with `STRIKE_FEED_PATH` = a copy of `04d8f06be`'s `strike_feed.py`; the one must-not-reach neighbour test (`test_wrong_owner_non_follow_index_unchanged`) passes there by design and is labelled NON-DISCRIMINATING in its docstring. The fixed code passes the whole file, old tests included. *(Reworded in place 2026-10-16 — DOCKET L661 AC18, READ 3 ⚠️6. The over-claiming original is in git: `git show 88d715d03:AGENTS/OSPREY/scripts/tests/ACCEPTANCE_L624_strike_feed_follow_newest.md`.)*
 
 ## Neighbours (pass 2; CONSIDER all five)
 
@@ -117,7 +117,7 @@ The live index is newest-first in document order (real fixture). So a followed i
   - README: the `BULLETIN_NEWEST_UNSURE` row, the `BULLETIN` and `BULLETIN_STALE` rows reworded, and the follow_newest bullet now leads with the current rule, with history after it (⚠️19).
 - **TESTED:** `python3 -B -W error::ResourceWarning -m unittest AGENTS/OSPREY/scripts/tests/test_strike_feed_L624.py` gives **Ran 32, OK**, and `python3 -I -B <test file>` also gives OK. That is 12 new tests (AC10 ×9, AC11 ×3) plus 3 pass-1 tests changed by design (X2, X3, real index).
   - **Fails first (AC12):** `STRIKE_FEED_PATH` = `git show 04d8f06be:…/strike_feed.py` gives **14 failures**: 11 of the 12 new tests, plus all 3 changed tests.
-  - ⚠️ **AC12 as written over-claimed "every new pass-2 test FAILS".** `test_wrong_owner_non_follow_index_unchanged` passes on `04d8f06be` by design: it is a must-not-reach neighbour test, labelled NON-DISCRIMINATING in its docstring, like pass 1's 10/9-shape test.
+  - ⚠️ **AC12 as first written over-claimed "every new pass-2 test FAILS"** (AC12 reworded in place 2026-10-16, L661 AC18). `test_wrong_owner_non_follow_index_unchanged` passes on `04d8f06be` by design: it is a must-not-reach neighbour test, labelled NON-DISCRIMINATING in its docstring, like pass 1's 10/9-shape test.
   - Older versions for the record: `46d6f6dea` gives 23 F, and `46d6f6dea^` gives 20 F + 4 E.
   - Reader CX1 / CX1b / CX2 / CX2b each give `BULLETIN_NEWEST_UNSURE`, NOT_READ = 1, with the real newest named in the note. CX5b gives STALE with `days_back 3 … on-time`.
   - The real 10/9 index stays fresh, NOT_READ = 0, at "position 1 of 14", with no UNSURE.
@@ -126,7 +126,7 @@ The live index is newest-first in document order (real fixture). So a followed i
   - ⚠️15: **FIXED**. The pass-1 TESTED line is corrected in place, with a marker.
   - ⚠️16, ⚠️17, ⚠️18: **FIXED** (AC11, tested).
   - ⚠️19: **FIXED** (README).
-  - ⚠️21: **CLOSED IN EFFECT on a newest-first page.** CX1 now fails closed through AC10(a), because the typo'd newest sits above the followed link. Title-first and pass-1 residue 2 (a cross-year slug with the year mid-string does not parse) are **unchanged**. Remaining limit: on a page that is NOT newest-first, a year-typo'd real newest placed BELOW the followed link looks the same as an older bulletin and is still skipped. An order signal does exist for every such link except the LAST one on the page (see N6; READ 3 ⚠️2).
+  - ⚠️21: **CLOSED IN EFFECT on a newest-first page.** CX1 now fails closed through AC10(a), because the typo'd newest sits above the followed link. Title-first and pass-1 residue 2 (a cross-year slug with the year mid-string does not parse) are **unchanged**. Remaining limit: on a page that is NOT newest-first, a year-typo'd real newest placed BELOW the followed link looks the same as an older bulletin and is still skipped. An order signal does exist for every such link except the LAST one on the page (see N6; READ 3 ⚠️2). → **2026-10-16: worked as DOCKET L661** (a new episode); the current rule and the remaining limit live in `ACCEPTANCE_L661_strike_feed_read3_residue.md`, not here.
   - ⚠️22: **DECLARED out of scope; pass-1 residue 4 stands.** The `matched_tokens` on the BULLETIN row come from the first 20,000 chars of a script-dominated page, not from the report. The row still says read manually.
   - Pass-1 residue 3 (past-year typo): **SUPERSEDED.** AC10 closes it for the newest-first case, and the remaining limit is the same as ⚠️21's.
   - Pass-1 residue 1 (the 9/19–9/24 evidence base is not on disk) and residue 5 stand.
@@ -139,4 +139,4 @@ The live index is newest-first in document order (real fixture). So a followed i
     - **Order:** on a page that is not newest-first, a date-typo'd newest below the followed link breaks the monotone run of window ENDs down the page. READ 3 R3-Q ran 10-04, then 2025-10-11, then 09-27. That breaks the monotone run for every such link except the last. The real 10/9 fixture's 14 ENDs are monotone non-increasing, so a "dated link below the followed one whose END is later than an earlier link's" doubt rule would not fire on the live page.
     - **Dedup:** `parse_html_index` keeps a duplicate's FIRST position, which loses the list position.
     - A title-vs-slug year disagreement (READ 3 ⚠️4) is a second unused tell.
-    - Not fixed here: the two-correction stop has tripped on `strike_feed.py`. PROME registers a DOCKET row for an out-of-order-date check as a later, separate episode. READ 3 ⚠️3/⚠️5/⚠️6/⚠️7 travel with it.
+    - Not fixed here: the two-correction stop has tripped on `strike_feed.py`. PROME registers a DOCKET row for an out-of-order-date check as a later, separate episode. READ 3 ⚠️3/⚠️5/⚠️6/⚠️7 travel with it. → **Registered as DOCKET L661 (10/9) and worked 2026-10-16:** `ACCEPTANCE_L661_strike_feed_read3_residue.md`.

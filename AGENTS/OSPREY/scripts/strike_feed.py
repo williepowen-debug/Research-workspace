@@ -74,35 +74,74 @@ def parse_rss(xml_text):
     return items
 
 def parse_html_index(html_text, link_pattern, base):
-    seen, out = set(), []
+    seen, out, n_listing = {}, [], 0
     for m in re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html_text, flags=re.S | re.I):
         href, inner = m.group(1), norm(m.group(2))
         # urljoin FIRST, then test link_pattern (DAEDALUS 9/10 finding (3)): an absolute-host
         # pattern silently yields zero items the moment the publisher serves relative hrefs.
         if href.startswith("/") or not re.match(r"[a-z]+:", href):
             from urllib.parse import urljoin; href = urljoin(base, href)
-        if link_pattern not in href or href in seen:
+        if link_pattern not in href:
             continue
-        seen.add(href)
+        listing, n_listing = n_listing, n_listing + 1
+        if href in seen:
+            # L661 AC14 (READ 3 ⚠️2): a duplicate keeps its FIRST listing's data, but every later listing is kept as a
+            # POSITION -- a featured copy at the top must not erase the list position below it.
+            seen[href]["occ"].append(listing); continue
         # date guesses: in the slug or the anchor text
-        d = None
-        mm = re.search(r"(\d{1,2})(?:st|nd|rd|th)?[- ]+(?:to[- ]+)?(?:\d{1,2}(?:st|nd|rd|th)?[- ]+)?(january|february|march|april|may|june|july|august|september|october|november|december)[- ]+(\d{4})", (href + " " + inner).lower())
-        if mm:
-            try: d = dt.datetime.strptime(f"{mm[1]} {mm[2]} {mm[3]}", "%d %B %Y").date()
-            except ValueError: d = None
-        out.append({"title": inner or href.rsplit("/", 1)[-1], "url": href, "summary": "", "date": d})
+        d = single_date(href + " " + inner)
+        seen[href] = {"title": inner or href.rsplit("/", 1)[-1], "url": href, "summary": "", "date": d, "occ": [listing]}
+        out.append(seen[href])
     return out
 
 MONTHS = "january|february|march|april|may|june|july|august|september|october|november|december"
 _SEP = r"[\s\-–]+"
 WIN_RE = (r"(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(?:(" + MONTHS + r")" + _SEP + r")?(?:to" + _SEP + r")?"
           r"(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(" + MONTHS + r")" + _SEP + r"(\d{4})")
+# L661 AC16 (READ 3 ⚠️3; L624 pass-1 residue 2): the two-year form, "29th December 2026 - 4th January 2027" or
+# "29th-december-2026-4th-january-2027". Left digit boundary so a day can never start inside a year (cf. N2).
+WIN2_RE = (r"(?<!\d)(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(" + MONTHS + r")" + _SEP + r"(\d{4})" + _SEP + r"(?:to" + _SEP + r")?"
+           r"(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(" + MONTHS + r")" + _SEP + r"(\d{4})")
+# The legacy single-date guess (slug or anchor text), unchanged since 9/9; one home so the index parser and the
+# L661 slug reading cannot drift apart.
+SINGLE_DATE_RE = (r"(\d{1,2})(?:st|nd|rd|th)?[- ]+(?:to[- ]+)?(?:\d{1,2}(?:st|nd|rd|th)?[- ]+)?(" + MONTHS + r")[- ]+(\d{4})")
+YEAR_CLASS_DAYS = 180   # L661 AC15: title vs slug more than this far apart = a year-class disagreement (the live -1 mis-slug is 1 d)
+
+def single_date(text):
+    mm = re.search(SINGLE_DATE_RE, (text or "").lower())
+    if not mm:
+        return None
+    try: return dt.datetime.strptime(f"{mm[1]} {mm[2]} {mm[3]}", "%d %B %Y").date()
+    except ValueError: return None
+
+def slug_reading(url):
+    """The slug's own date reading: its window, else its single date as a one-day window, else (None, None)."""
+    s, e = bulletin_window(url)
+    if s is not None:
+        return (s, e)
+    d = single_date(url)
+    return (d, d) if d else (None, None)
+
+def gap_days(w1, w2):
+    """Days between two (start, end) windows; 0 if they overlap or touch."""
+    return max(0, (max(w1[0], w2[0]) - min(w1[1], w2[1])).days)
 
 def bulletin_window(text):
     """(start, end) of a dated-window bulletin ("21st - 27th September 2026", "28th-september-4th-october-2026",
     "22-29-june-2026"), or (None, None). L624: staleness and newest-selection key on the window END -- the
     legacy slug date is the FIRST day of a within-month window and the LAST day of a cross-month one."""
-    m = re.search(WIN_RE, (text or "").lower())
+    t = (text or "").lower()
+    m2 = re.search(WIN2_RE, t)
+    if m2:   # a two-year string is judged by the two-year form only: an implausible one stays unparsed (fails closed)
+        try:
+            start = dt.datetime.strptime(f"{m2[1]} {m2[2]} {m2[3]}", "%d %B %Y").date()
+            end = dt.datetime.strptime(f"{m2[4]} {m2[5]} {m2[6]}", "%d %B %Y").date()
+        except ValueError:
+            return (None, None)
+        if not (0 <= (end - start).days <= 14):   # also forces the second year to be the first or the first + 1
+            return (None, None)
+        return (start, end)
+    m = re.search(WIN_RE, t)
     if not m:
         return (None, None)
     d1, m1, d2, m2, y = int(m[1]), m[2], int(m[3]), m[4], int(m[5])
@@ -126,16 +165,24 @@ def pick_newest(items, today):
     must never be skipped silently. The live index is newest-first in document order, so every matching link
     ABOVE the followed one, and every link with no usable date anywhere on the index, is a DOUBT link: it could
     be newer than what was followed. Doubt links are returned for naming; the caller fails the row closed.
-    Returns (item, eligible, doubts, n_dated); doubts = [(link, [reasons])] in document order;
-    eligible=False => no usable date => the row reads BULLETIN_UNDATED."""
+    L661 (READ 3 residue) adds three doubt tells, each still "could this be newer, or is the followed date wrong":
+    AC14 "above" is measured against the followed link's LOWEST listing (a featured duplicate keeps its list position);
+    AC13 a dated link below every listing of the followed one whose END is earlier than a dated link listed below it
+    (out of date order -- the tell for a date-typo'd newer bulletin on a page that is not newest-first);
+    AC15 a title window and a slug reading more than YEAR_CLASS_DAYS apart, on the followed link or on a link whose
+    slug reading would be newer than the followed one (a reading that starts after the run date is impossible, ignored).
+    Returns (item, eligible, doubts, n_dated); doubts = [(link, [reasons])] in document order (the followed link itself
+    appears only under AC15); eligible=False => no usable date => the row reads BULLETIN_UNDATED."""
     dated, unusable = [], {}
     for i, it in enumerate(items):
         s, e = bulletin_window(it["title"]); basis = "title"
+        it["title_win"] = (s, e)
         if s is None:
             s, e = bulletin_window(it["url"]); basis = "slug"
         if s is None and it["date"]:
             s = e = it["date"]; basis = "slug date"
-        it["win"], it["win_basis"], it["pos"] = (s, e), basis, i
+        occ = it.get("occ") or [i]
+        it["win"], it["win_basis"], it["pos"], it["first"], it["last"] = (s, e), basis, i, occ[0], occ[-1]
         if s is None:
             unusable[i] = "no parseable date"; continue
         if s > today:
@@ -145,13 +192,39 @@ def pick_newest(items, today):
         followed, eligible = max(dated, key=lambda x: (x[0], x[1]))[2], True
     else:
         followed, eligible = items[0], False
-    doubts = []
+    why = {i: [] for i in range(len(items))}
     for i, it in enumerate(items):
         if it is followed:
             continue
-        why = (["above the followed link"] if i < followed["pos"] else []) + ([unusable[i]] if i in unusable else [])
-        if why:
-            doubts.append((it, why))
+        if it["first"] < followed["first"]:
+            why[i].append("above the followed link")
+        elif it["first"] < followed["last"]:   # AC14
+            why[i].append(f"above the followed link's lower listing (matching link {followed['last'] + 1} on the page)")
+        if i in unusable:
+            why[i].append(unusable[i])
+    if eligible:
+        below = [it for it in items if it["first"] > followed["last"] and it["pos"] not in unusable]
+        for k, it in enumerate(below):   # AC13
+            later = [x for x in below[k + 1:] if x["win"][1] > it["win"][1]]
+            if later:
+                x = max(later, key=lambda y: y["win"][1])
+                why[it["pos"]].append(f"out of date order: END {it['win'][1].isoformat()} listed above {x['url']} END {x['win'][1].isoformat()}"
+                                      " -- may be a date-typo'd newer bulletin")
+        fe = followed["win"][1]
+        for i, it in enumerate(items):   # AC15
+            tw = it["title_win"]
+            if tw[0] is None:
+                continue
+            sr = slug_reading(it["url"])
+            if sr[0] is None or sr[0] > today or gap_days(tw, sr) <= YEAR_CLASS_DAYS:
+                continue
+            txt = (f"title/slug dates disagree by {gap_days(tw, sr)} d: title window {tw[0].isoformat()}..{tw[1].isoformat()},"
+                   f" slug {sr[0].isoformat()}..{sr[1].isoformat()}")
+            if it is followed:
+                why[i].append(txt + " -- the followed link's own date is in doubt")
+            elif sr[1] > fe:
+                why[i].append(txt + f" -- the slug reading is later than the followed END {fe.isoformat()}")
+    doubts = [(it, why[i]) for i, it in enumerate(items) if why[i]]
     return followed, eligible, doubts, len(dated)
 
 NOT_READ_TITLES = ("FETCH_FAILED", "EMPTY_FEED", "PARSER_STALE")
@@ -253,29 +326,43 @@ def main():
             followed, eligible, doubts, n_dated = pick_newest(items, today)
             followed["followed"] = True
             s, e = followed["win"]
+            single = followed["win_basis"] == "slug date"   # L661 AC16: one date, no window -- its END is unknown
             stale = ""
             if eligible:
                 followed["date"] = e   # read-2 ⚠️16: ONE governing date per bulletin -- the window END staleness keys on
                 if e < cutoff:
                     cause = (("the real newest may be a named doubt link, or " if doubts else "") + "publisher stopped, or index cached" if days >= CADENCE_DAYS else
                              f"days_back {days} < {CADENCE_DAYS} (weekly cadence + publication lag), so an on-time bulletin can read STALE at this window; re-run at the default days_back before reading this as a stopped publisher")
+                    if single:
+                        cause = ("the date is a single slug/anchor date with no window END (it may be the window START), so an on-time bulletin"
+                                 " can read STALE up to ~6 days early; or " + cause)
                     stale = (f"latest dated bulletin window ends {e.isoformat()} < cutoff {cutoff.isoformat()} = run − days_back {days} d"
                              f" ({(today - e).days} d before run): {cause}")
             if not eligible:
                 f_label = "BULLETIN_UNDATED — read manually; no usable bulletin date, freshness unknown: treat as NOT read until opened"
             elif doubts:
-                f_label = (f"BULLETIN_NEWEST_UNSURE — {len(doubts)} index link(s) could be newer than the followed bulletin and were NOT read"
-                           " (named in note): open the index and the named link(s) — treat as NOT read" + (f"; the followed bulletin is also BULLETIN_STALE ({stale})" if stale else ""))
+                f_label = (f"BULLETIN_NEWEST_UNSURE — {len(doubts)} doubt link(s): an index link could be newer than the followed bulletin, or the followed"
+                           " bulletin's own date is in doubt (named in note): open the index and the named link(s) — treat as NOT read"
+                           + (f"; the followed bulletin is also BULLETIN_STALE ({stale})" if stale else ""))
             elif stale:
                 f_label = f"BULLETIN_STALE — {stale} — treat as NOT read"
             else:
                 f_label = "BULLETIN — read manually"
             f_sum = f_label.split(" — ")[0]
             if eligible:
-                f_notes.append(f"window {s.isoformat()}..{e.isoformat()} ({followed['win_basis']}); pub_date = window END;"
-                               f" latest window END of {n_dated} dated index link(s), position {followed['pos'] + 1} of {n_index} in document order")
+                where = f"latest window END of {n_dated} dated index link(s), position {followed['pos'] + 1} of {n_index} in document order"
+                if len(followed.get("occ", [])) > 1:
+                    n_listings = sum(len(x.get("occ", [0])) for x in items)
+                    where += (f"; the followed link is listed {len(followed['occ'])} times (matching links "
+                              + ", ".join(str(o + 1) for o in followed["occ"]) + f" of {n_listings}): a link above its lowest listing is a doubt link")
+                if single:
+                    f_notes.append(f"single date {s.isoformat()} (slug date: no window parsed, so window END unknown; this date may be the window START);"
+                                   f" pub_date = this date; {where}")
+                else:
+                    f_notes.append(f"window {s.isoformat()}..{e.isoformat()} ({followed['win_basis']}); pub_date = window END; {where}")
             if doubts:
-                f_notes.append(f"{len(doubts)} doubt link(s), NOT read: " + "; ".join(f"{d['url']} [{', '.join(why)}]" for d, why in doubts[:5])
+                f_notes.append(f"{len(doubts)} doubt link(s), NOT read unless marked FOLLOWED: "
+                               + "; ".join(f"{d['url']} [{'FOLLOWED LINK: ' if d is followed else ''}{', '.join(why)}]" for d, why in doubts[:5])
                                + (f"; +{len(doubts) - 5} more" if len(doubts) > 5 else ""))
             try:
                 body = norm(fetch(followed["url"]))
