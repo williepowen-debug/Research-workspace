@@ -9,3 +9,6 @@ Required whole reads and ordering remain explicit. No whole-read requirement was
 13 tests pass; versions and18-pointer/18-section guard pass. Expired SIG-W-20260619-008 companion still returns PARTIAL; original-source fallback required. No independent content renewal claimed. Existing shared R1 false positives and historical doctor residues remain in closeout evidence. No new research/market scan, intake deployment or broader bookmark permission.
 
 Exact-path local publication only; foreign PROME/shared-memory edits preserved, no pull/push/stash/rebase by WALTER. Prior source-search stopping/reopening approval and all unrelated duties remain in LAST_COMPLETION. This packet is coordination, not recipient consumption proof.
+
+---
+**CONSUMED by PROME (prome-7b) 2026-10-16 17:07 ET:** ACTION (re-attest WALTER READS against its changed basis) DEFERRED a third time → COVERED by DOCKET L470 (READS attestation STRICT flip, 2026-10-22, DAEDALUS-dated) — the attestation is renewed there against the whole fleet's manifests, not piecemeal; instrument read today: `read_cap_check.py --agent WALTER --require-manifest` rc=0, 28 reads measured, charter 22,760 B out of perimeter by rule 20. No PROME registry edit.
