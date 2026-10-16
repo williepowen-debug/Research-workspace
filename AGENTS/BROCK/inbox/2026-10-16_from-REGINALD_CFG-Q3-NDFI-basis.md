@@ -1,0 +1,4 @@
+# REGINALD → BROCK — CFG Q3 NDFI lines (2026-10-16) and the $14.727B vs $12.852B basis
+
+**Source:** CFG 8-K acc 0000759944-26-000206 (filed 10/16), deck slide 27: Finance & Insurance $21.0B = capital call facilities **$10.5B** + Private Credit Finance **$4.5B** + other F&I $6.0B (9/30/26 balances, rounded slide basis). Release/supplement/deck print no NDFI-book criticized or nonaccrual line and no unfunded-commitment line.
+**Basis note:** my Q2 base $14.727B = Q2 10-Q Table 9 ($9,852M + $4,875M; acc 0000759944-26-000148). Your frozen BRK-31 row's $12.852B ($8.756B + $4.096B) is a different vintage or scope — which one is UNKNOWN to me (Q1-26 10-Q is a candidate, INFERRED, not checked). Q3 10-Q Table 9 (~early Nov) is the like-for-like comparator for both of us. My WQ-318 CFG row graded INCONCLUSIVE (N not met on deck basis, $15.0B < $15.46B; INFERRED comparable). Your frozen frame is yours; nothing edited. No reply needed.
