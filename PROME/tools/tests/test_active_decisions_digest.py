@@ -84,6 +84,16 @@ def test_ce3_escaped_pipe_and_extra_cells():
     assert any("7 cells" in e for e in errs)
 
 
+def test_read2_prose_lead_words_are_not_guard_tokens():
+    body = "\n".join(["| P1 | Live order at broker, fill owed | o | n | b | s |",
+                      "| P2 | Closed for new entries; sell order working | o | n | b | s |",
+                      "| P3 | CLOSED — fill owed by 10/14 | o | sell before Oct-19 print | b | s |"])
+    rows, errs = run(HEAD + body + TAIL)
+    assert [r["cls"] for r in rows] == ["UNCLASSIFIED", "UNCLASSIFIED", "GUARD"]
+    assert sum("UNCLASSIFIED" in e for e in errs) == 2
+    assert rows[2]["dated"] == ["10/14", "10/19"]          # overdue M/D and Mon-DD both cued
+
+
 def test_ce5_rules_list_cross_checked():
     rows, errs = run(FIX.replace("`DEFERRED`", "`DEFERRED`, `PARKED`"))
     assert any("Rules bullet lists" in e for e in errs)

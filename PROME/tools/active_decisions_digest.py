@@ -9,7 +9,7 @@ bytes · class. Classes (never a silent default):
                  explicit GUARD_TOKENS list below): a closed or monitor-only row kept for its
                  standing guards; read whole (`--row N`) when the session touches it;
   UNCLASSIFIED — anything else: printed with ★, counted in the header, rc=1 (read the row whole).
-A GUARD/UNCLASSIFIED row whose cells carry a date inside the next 7 days gets a ⏱ cue.
+A GUARD/UNCLASSIFIED row whose cells carry a date from 14 days back (overdue) to 7 days ahead gets a ⏱ cue.
 
 Exit 1 (loud) on: no index heading · a row without exactly six cells (`\\|` honoured) · an empty
 State cell · an UNCLASSIFIED row · the Rules bullet's state list disagreeing with this tool's list ·
@@ -52,8 +52,11 @@ def _split(line):
 
 
 def _classify(state_clean):
-    head = state_clean[:72].upper()
-    tokens = set(re.findall(r"[A-Z][A-Z0-9_\-]*[A-Z0-9]|[A-Z]", head)) | set(re.findall(r"[A-Z][A-Z0-9_]*", head))
+    # ACTIONABLE matches case-INsensitively (fails toward loud); the GUARD whitelist matches the
+    # lead token case-SENSITIVELY on the original text, so prose "Closed"/"Live" never passes (read 2).
+    head = state_clean[:72]
+    up = head.upper()
+    tokens = set(re.findall(r"[A-Z][A-Z0-9_\-]*[A-Z0-9]|[A-Z]", up)) | set(re.findall(r"[A-Z][A-Z0-9_]*", up))
     lead = re.split(r"[\s—(:;,/→]", head, 1)[0].strip("`*_") if head else ""
     if tokens & set(NON_TERMINAL):
         return "ACTIONABLE"
@@ -62,21 +65,33 @@ def _classify(state_clean):
     return "UNCLASSIFIED"
 
 
-def _dated_soon(raw, today, days=7):
+_MON = re.compile(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[- ](\d{1,2})\b")
+_MONTHS = {m: i + 1 for i, m in enumerate("Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split())}
+
+
+def _dated_soon(raw, today, days=7, back=14):
+    """Dates inside the row from `back` days ago (overdue) to `days` ahead; ISO, M/D and Mon-DD forms."""
     hits = set()
+    for m in _MON.finditer(raw):
+        try:
+            d = dt.date(today.year, _MONTHS[m[1]], int(m[2]))
+        except ValueError:
+            continue
+        if -back <= (d - today).days <= days:
+            hits.add(d.strftime("%-m/%-d"))
     for m in _ISO.finditer(raw):
         try:
             d = dt.date(int(m[1]), int(m[2]), int(m[3]))
         except ValueError:
             continue
-        if 0 <= (d - today).days <= days:
+        if -back <= (d - today).days <= days:
             hits.add(d.strftime("%-m/%-d"))
     for m in _MDY.finditer(raw):
         try:
             d = dt.date(today.year, int(m[1]), int(m[2]))
         except ValueError:
             continue
-        if 0 <= (d - today).days <= days:
+        if -back <= (d - today).days <= days:
             hits.add(d.strftime("%-m/%-d"))
     return sorted(hits, key=lambda s: tuple(map(int, s.split("/"))))
 
@@ -164,7 +179,7 @@ def main(argv=None):
           f"{act} ACTIONABLE · {unc} UNCLASSIFIED · as-of {today.isoformat()}")
     for r in rows:
         mark = "★" if r["cls"] != "GUARD" else "·"
-        cue = f"  ⏱ dated inside next 7d: {', '.join(r['dated'])}" if r["dated"] and r["cls"] != "ACTIONABLE" else ""
+        cue = f"  ⏱ dated −14d..+7d: {', '.join(r['dated'])}" if r["dated"] and r["cls"] != "ACTIONABLE" else ""
         print(f"{mark} [{r['n']}] {r['cls']:<12} {r['bytes']:>5} B  {r['title']}{cue}")
         print(f"      state: {r['state']}")
         print(f"      next:  {r['next']}")
