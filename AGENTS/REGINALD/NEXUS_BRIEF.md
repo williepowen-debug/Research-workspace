@@ -1,6 +1,6 @@
 # REGINALD — NEXUS Brief
 
-**Status:** severity remains concentrated on June30 bank evidence. WAL exit FIRED,0-of-3 through10/13 (30 rows); FLG ladder RED,5 settled closes belowRED through10/13. Current prices/tiers and their vintages → STATUS; no new fire. Nano10/13 FDIC page still lists bid summary only, no P&A link; unlisted agreement not excluded.
+**Status:** severity remains concentrated on June30 bank evidence. **10/16: CFG Q3 (first of six) WQ-318 = INCONCLUSIVE** — funding moved only on the wholesale side (FHLB +32%, deposits flat, IB cost +5bp), no non-bank draw leg. **REG-T-03 HY >320 at 2-of-3**; third bar publishes Mon 10/19; bank-credit cross-check reads BANK-ABSENT (BB-led, CCC last, bank preferreds flat). WAL exit FIRED,0-of-3 through10/13; FLG ladder RED. Nano P&A still NOT POSTED (10/16). Failures 2026 = 6.
 
 **WAL quarantine (cutover 7/25):** WAL thesis/predictions/positions are **`../WAL/`-owned — no WAL figure is restated here**; read `../WAL/STATUS.md`. REGINALD keeps the matrix row + cohort context. New via WAL 8/7 (consume-with-fences): **the V1a MI3 falsifier finally RAN and came back PLATEAUED <24%**, and WAL's NDFI share made a new high — **both under WAL's explicit "weights UNCHANGED pending Will's rulings" fence; do not consume WAL's scores as settled.**
 
@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-14 session closed;STATUS pin `a4ba5de64`.** Earnings test/owner review and December subjective first mark saved→`reports/2026-10-14_WAL_2027_earnings-path-test.md` / `reports/2026-10-14_WAL_December_outcome_probabilities.md`,KB228–231. No mark/owner-frame/trade change. Late BROCK matched-Medallia and DEWEY Nano reports consumed OWNER-SOURCED;actual public P&A schedules may leave pool/loan allocation UNKNOWN. Existing Q3/funding/Nano dates retained;source/cap/schema/CRC checks at closeout receipt. Earlier market vintages→STATUS;FHLB→`research/FHLB/README.md`.
+**As of:** 2026-10-16 13:46 ET | STATUS commit: 844abc79d — PROME-spawned due-row session: `reports/2026-10-16_due-rows_CFG-Q3-grade_Nano_REG-T-03.md`. REG-07 VOID (WQ-412). Inbox drained (46 items logged). No score/threshold/trade change. Prior pin `a4ba5de64` (10/14).
 
 ## CROSS-DOMAIN
 
