@@ -14,7 +14,7 @@
 **Owed PROME work (not blocking):** the two RED blind-spot WQ registrations (Fri boot, above) · DOCKET rows L742 · L679 (+ WQ-415's DATE-FUTURE flag) · L736 · L737 · L720 (LABOR C2 by 10/21) · L724 · L710 (WQ-430 session) · L704 (GIBBS Mon) · L725 (HOMER Mon) · L728 · L723 (ask Will before any CREED launch).
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-16 · 13 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-357 (10/14) · WQ-302 (10/14) · WQ-445 (10/16) · WQ-448 (10/17) · WQ-441 (10/17) · WQ-449 (10/19) · WQ-443 (10/19) · WQ-450 (10/20) · WQ-451 (10/23) · WQ-442 (10/23) · WQ-422 (10/23) · WQ-31 (11/1)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-16 · 14 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-204 (10/9) · WQ-357 (10/14) · WQ-302 (10/14) · WQ-445 (10/16) · WQ-448 (10/17) · WQ-441 (10/17) · WQ-449 (10/19) · WQ-443 (10/19) · WQ-452 (10/20) · WQ-450 (10/20) · WQ-451 (10/23) · WQ-442 (10/23) · WQ-422 (10/23) · WQ-31 (11/1)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
