@@ -1,3 +1,7 @@
+## 2026-10-16T20:16:54Z — light-closeout — full deferred: CATO WA2
+
+Confirmed and corrected ambiguous LIGHT receipt deferral: both tiers explicitly update the short dated LAST_COMPLETION receipt and run applicable checks. One charter sentence changed; owned basis hash and affected receipt updated. No broader rewrite or new market work. Evidence: `research/2026-10-16_instruction-fixes/WA2/RESULT.md`. Prior approvals/open duties preserved; foreign-work publication deferral.
+
 ## 2026-10-16T19:44:54Z — TIER-2 CLOSEOUT: instruction fixes
 
 Will-authorized charter/direct-dependent cleanup and explicit FLASH-floor ruling implemented. Original instructions conserved; memory narratives moved verbatim while triggers remain. Report: `research/2026-10-16_instruction-fixes/RESULT.md`. Registry reviewed before network regeneration; no new research dispatches. READS attestation, expired companion, shared/historical checker findings and exhaustive older-file eligibility remain explicit. Source-search dispositions and other approvals preserved. Foreign work untouched; local exact-path commit with coordinated publication deferred.

@@ -80,7 +80,7 @@ Apply CHECKLIST:
 
 ### Closeout — TIERED
 
-Tier0: BOARD/logs/handoffs+commit under11. Tier1 LIGHT: routing/midday/pre-compaction default. Commit Tier0+touched anchor; refresh affected/stale STATUS levels or explicit unavailable evidence; resolve carries; warranted registry additions only. Prepend light-closeout — full deferred SESSION_LOG breadcrumb; commit. Defer full lead/network/registry/MEMORY/receipt rewrites/version sweep. Transport repair alone requires no narrative regeneration or fresh-market claim.
+Tier0: BOARD/logs/handoffs+commit under11. Tier1 LIGHT: routing/midday/pre-compaction default. Commit Tier0+touched anchor; refresh affected/stale STATUS levels or explicit unavailable evidence; resolve carries; warranted registry additions only. Prepend light-closeout — full deferred SESSION_LOG breadcrumb; commit. Defer full lead/network/registry/MEMORY narratives and version sweep. Both tiers update the short dated LAST_COMPLETION receipt and run applicable closeout checks. Transport repair alone requires no narrative regeneration or fresh-market claim.
 
 Tier2 FULL: wrap/end-of-day/going dark, design/audit/major-anchor work, long gap or≥3full-deferred breadcrumbs (surface debt). Clears deferrals. Never skip Tier1; uncertain midday routing→light, ending/non-routing→full. [→ BP §closeout]
 

@@ -1,12 +1,14 @@
 # WALTER LAST_COMPLETION — instruction fixes and preserved duties
 
-Updated 2026-10-16T19:45:25Z. Runtime Codex/OpenAI GPT-6 family, exact variant UNKNOWN; native thread01a1458b-26e4-7a30-ac32-637669ba826e. Root `/home/willi/Research-workspace`; launch `AGENTS/WALTER`. Prior completion archived verbatim in `research/2026-10-16_finish/prior-LAST_COMPLETION.md`.
+Updated 2026-10-16T20:16:54Z. Runtime Codex/OpenAI GPT-6 family, exact variant UNKNOWN; native thread01a1458b-26e4-7a30-ac32-637669ba826e. Root `/home/willi/Research-workspace`; launch `AGENTS/WALTER`. Prior completion archived verbatim in `research/2026-10-16_finish/prior-LAST_COMPLETION.md`.
 
 ## STATUS
 
 Available bookmark, source-verification, intake-design and local repair work completed. Tier-2 state refresh executed. **BOOT remains PARTIAL:** pull deferred for concurrency; source/grade limits remain; fleet/Telegram tools unavailable; read-attestation and companion-review gaps remain. WALTER charter size defect repaired. Earlier required-order startup record remains in `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`; this receipt supersedes its unfinished-task claims, not its historical execution record.
 
 ## CHANGED
+
+- **CATO WA2 follow-up:** restored explicit both-tier short dated receipt and applicable-check duty in LIGHT; only full narrative regeneration is deferred. Charter now22760bytes. Evidence: `research/2026-10-16_instruction-fixes/WA2/RESULT.md`. Prior cleanup retained.
 
 - **Current leg:** Will-authorized instruction cleanup implemented; charter70,223→22,668bytes, stale copies/direct dependents corrected, memory findings condensed with verbatim history. FILTERv0.8/routingv0.44 retain FLASH bypass including duplicates; IMMEDIATE is only the floor, per Will’s explicit ruling. Thresholds unchanged. Evidence: `research/2026-10-16_instruction-fixes/RESULT.md`. Prior completion archived there.
 
@@ -23,9 +25,9 @@ Earlier signal commitcbed6d56b8555cda6ac4ddfaab7f73ab38906f4d and receiptc62cf6a
 
 ## GAPS / OWED
 
-- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is now proven published against local origin/master `89e713448`; instruction-fix commit `a23059765652e7e4b6980f60101aac98e4820228` is pending against local origin/master; receipt bookkeeping awaits coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
+- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is now proven published against local origin/master `89e713448`; instruction-fix commit `a23059765652e7e4b6980f60101aac98e4820228` and receipt `3adf5c89f` are published against local origin/master; WA2 clarification/receipt awaits coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
 - **Runtime:** shell/Python/git/local PDF/web and thread-local verification helpers work. Native fleet ListAgents, cross-runtime desk messaging and Telegram unavailable. Earlier user report named PROME/CATO/WALTER; later owner records show PROME-spawned sessions. This is not a current fleet census; unknown desks are not declared dark. Root/local instructions explicitly read; provider does not establish tools or permissions.
-- **Read coverage:** WALTER charter now22,668bytes, below22,785cleanup stop. Owned changed basis hashes reviewed; matching hashes do not certify execution. PROME READS attestation remains stale/UNKNOWN; no whole-boot certification. Root charter and generated ORCH rotation advisories remain owner matters; no shared source/generator edit made.
+- **Read coverage:** WALTER charter now22760bytes, below22,785cleanup stop. Owned changed basis hashes reviewed; matching hashes do not certify execution. PROME READS attestation remains stale/UNKNOWN; no whole-boot certification. Root charter and generated ORCH rotation advisories remain owner matters; no shared source/generator edit made.
 - **Shared checker:** R1's remaining two SHORT-TARGETS outputs are now demonstrated filename-date misparses after the genuine target omissions were repaired. Canonical corrects IDs and target unions pass the review-only resolver. Existing LABOR_DOWN/archive-schema and historical delivery-ID residues remain declared; no history erased to quiet checks.
 - **Sources:** official ICE settlement basis, Baltic current-week body, exact KRX close total, Volta exact yield, CREED event/cohort census, HANS T12 and some event inputs remain unavailable/uninstrumented. Iran fullperimeter recheck attempted; access-limited limbs and source contradictions prevent an all-clear or clean full-sweep stamp.
 - **Maintenance:** instruction cleanup and audited memory condensation implemented. Exhaustive >60-day research/source eligibility still unclassified; no age-only deletion/move. Expired signal companion (review_due2026-09-30) fails closed; substantive content review still owed, not a date/hash restamp.
@@ -86,7 +88,7 @@ Source/read accounting and publication are separate. Current repair checks: `res
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-16T19:47:53Z",
+  "as_of": "2026-10-16T20:16:54Z",
   "publication": [
     {
       "commit": "55b4f53f3",
@@ -114,7 +116,11 @@ Source/read accounting and publication are separate. Current repair checks: `res
     },
     {
       "commit": "a23059765652e7e4b6980f60101aac98e4820228",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "3adf5c89fd63e838ebd7fdce0cdf8804fef0b200",
+      "state": "published"
     }
   ],
   "delivery": {
@@ -125,7 +131,7 @@ Source/read accounting and publication are separate. Current repair checks: `res
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Instruction-fix commit a23059765652e7e4b6980f60101aac98e4820228: pending against local origin reference. Receipt bookkeeping separate; WALTER did not push because foreign work remains dirty."
+    "note": "Prior cleanup/receipt now on local origin reference; WA2 clarification awaits coordinated publication. Foreign work dirty; no WALTER push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -184,6 +190,11 @@ Source/read accounting and publication are separate. Current repair checks: `res
         "path": "AGENTS/WALTER/research/2026-10-16_instruction-fixes/RESULT.md",
         "sha256": "4638e21af8bfd38ec94cba7b2ddf681a91c01e71a97da9d9fe45b3a80eb7e4ca",
         "review": "Manual obligation comparison and scoped repair disposition; byte conservation checked separately. Not independent certification or owner market grade."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_instruction-fixes/WA2/RESULT.md",
+        "sha256": "25a2bf03468a2a52bd2b380d07e25353c84b390ccc61de5b78c0e3cefa1dde96",
+        "review": "Compared LIGHT with BP Consistency contract and runner common plan; only the missing explicit execution cue restored."
       }
     ]
   },
@@ -195,9 +206,9 @@ Source/read accounting and publication are separate. Current repair checks: `res
   ],
   "next_review": "2026-10-17",
   "procedure": {
-    "tier": "full",
-    "scope": "Instruction-repair closeout; affected state only, earlier research receipt preserved.",
-    "claim": "PARTIAL boot remains; no new full market/source sweep or repaired READS attestation claimed."
+    "tier": "light",
+    "scope": "CATO WA2 bounded follow-up: one charter sentence and affected receipt/basis; full narrative regeneration deferred per requested narrow scope.",
+    "claim": "No fresh boot, domain grade or full-state refresh claimed. Prior Tier-2 record remains in Git."
   },
   "manual_duties": {
     "11": "No new signals, handoffs or batches in this repair; earlier delivery scope retained.",
@@ -206,15 +217,16 @@ Source/read accounting and publication are separate. Current repair checks: `res
     "12(c)": "BALANCED/scoped catalyst posture unchanged; safety-net mirror aligned to explicit Will FLASH-floor ruling.",
     "12(d,e)": "Tier-2 SESSION_LOG entry and STATUS BOTTOM LINE reflect implemented fixes.",
     "14": "Memory28/29/41/43 and size history condensed; original narratives appended verbatim to MEMORY_PROMOTED. Under100lines/read budget.",
-    "15": "Current report and prior completion archived; source-search dispositions and all unrelated approvals/carries retained.",
-    "16": "Exact-path local instruction-fix commit a23059765652e7e4b6980f60101aac98e4820228; pending against local origin reference. Foreign work preserved, no pull/push/stash/rebase. Receipt committed separately.",
-    "Tier1": "Affected source/observation/authorization claims refreshed in current surfaces.",
+    "15": "Short dated receipt updated for CATO WA2, publication carries checked; other duties/approvals retained.",
+    "16": "WA2 exact-path commit pending; foreign work preserved.",
+    "Tier1": "Only affected charter-size/receipt/publication claims updated; no new signals or market observations.",
     "root.consumer": "No numeric threshold, grade, weight or recipient changed. Safety-net precedence relationship clarified at owner and direct dependents.",
     "root.memory": "Own memory narratives conserved; no shared auto-memory/index edit.",
     "root.retirement": "Current repair evidence is new. Exhaustive older-file eligibility remains unperformed; no age-only deletion or archival move.",
     "root.ledger_nudge": "No new signals, kills, corrections or threshold grades in this documentation leg. Existing event/fire-only ledgers retained at actual observation dates; no synthetic row or refresh stamp added to clear nudges.",
     "root.claim_check": "Required4weekday inputs and new11BOARD weekday checks PASS; outputs retained.",
-    "root.orphans": "Review exact authored paths; exclude foreign changes and caches from local commit."
+    "root.orphans": "Review exact authored paths; exclude foreign changes and caches from local commit.",
+    "Tier1.breadcrumb": "WA2 light-closeout breadcrumb prepended; full narrative regeneration deferred by bounded request."
   }
 }
 END_CLOSEOUT_RECEIPT -->

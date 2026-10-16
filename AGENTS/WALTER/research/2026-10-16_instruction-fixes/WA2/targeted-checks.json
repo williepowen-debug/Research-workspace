@@ -1,0 +1,24 @@
+{
+  "check_claude_md_version_drift": [
+    [
+      "INFO",
+      "Registered table/inline CANONICAL version claims match spec headers (3 claim(s) checked across 2 file(s))"
+    ]
+  ],
+  "check_boot_protocol_xref": [
+    [
+      "INFO",
+      "boot-protocol xref clean (18 pointers \u2194 18 sections)"
+    ]
+  ],
+  "check_full_closeout_owed": [
+    [
+      "INFO",
+      "1 stacked `full deferred` breadcrumb(s) since the last full closeout ('2026-10-16T19:44:54Z \u2014 TIER-2 CLOSEOUT: instruction fixes') \u2014 under the >=3 trigger"
+    ]
+  ],
+  "basis": [
+    [],
+    29
+  ]
+}
