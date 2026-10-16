@@ -1,0 +1,29 @@
+# STATUS ROTATION 2026-10-16 — VERBATIM, the `## ACTIVE — 2026-10-15` block of STATUS.md as of commit a15874a42 (the 10/15 osprey-1015 closeout), unchanged in the working tree before this rotation. Rotated for the read cap (read_cap_check: STATUS 27,587 B = 85% of the 32,550 B budget, rotate-tier). 4586 B, crc32 635854654 of the block text below (from its '## ACTIVE' line through the blank line before '## THREE-CHANNEL DASHBOARD'). Nothing in it was closed by this rotation; its live items are carried in STATUS (dashboard, OWED register) and KB-OSPREY-193…199.
+
+## ACTIVE — 2026-10-15 (three due rows graded · no mark, band or threshold moved)
+1. **D:L544 — C1 5→4 downgrade test, first dated evaluation: NOT MET. C1 stays 5.** (KB-196)
+   - **14-day leg UNMET, read at the ledger:** newest refinery-class row is still `RU-20261009-UKHTA` ⇒ **6/14** today; the earliest date it can be met is **10/23**.
+   - **Aggregate leg: NO QUALIFYING PRINT.** On record: S&P/CERA ~50% offline end-August (9/3) and IIR 3.805 M bpd August outages (9/8). September/October independent aggregate: **SEARCH-NOT-FOUND** (IIR September not found; two "September" hits were date traps — Kpler = Sept **2025**, Reuters 3.87 Mt / 14.5% = Sept **2024**). FT/Kpler "~60% of installed capacity" (10/10) is utilization and reads ~40% idle at best — not below 40%.
+   - This is a gradeable NOT MET (a leg fails at the ledger), **not** an ungradeable hold. **Blackout clock: day 42/60** from 9/3 ⇒ UNREACHABLE flag to PROME on **11/2** if nothing prints. The №686 goods-code list is still unlocated (YURI 10/12); no series is shown to have stopped.
+2. **D:L666 — Azov C2 lead: OPEN-UNRESOLVED (not graded on absence).** (KB-194)
+   - **Palaemon 5–11 Oct, read today:** *"Two unidentified vessels were struck by UAVs and damaged while berthed at the port of Azov"*; flags, damage and casualties *"have not been disclosed"*; no oil terminal named.
+   - New: berthed in port. Still unknown everywhere checked: names, types, berth, cargo (RTVI, RBC, Liga, Militarnyi, Seawanderer, DefenseMagazine, UkraineToday, a Telegram roundup).
+   - C2 stays ⚪1 KILLED; a tanker at an oil berth, if ever established, re-arms C2 at 5 **as of 10/10**.
+3. **OSP-06: RESOLVED CONFIRMED (45%).** (KB-197) No Bloomberg 4-wk print ≥ 3.9 with an as-of date ≤ 10/15: 3.54 · 3.53 · 3.71 · 3.76 (rev. ~3.8) · **~3.7 to 10/11** (Bloomberg 10/13, *"Russia's Oil Exports Slow as Black Sea Loading Takes Longer"*: Sheskharis moorings ~4 days).
+   - ⚠️ The 10/4 and 10/11 figures are **B3** (search summaries; article 403). The 8/30 and 9/6 prints were never read and are excluded by arithmetic only. **Flip-on-backfill:** an in-window print ≥ 3.9 turns this FAILED.
+   - Calibration: 45% on an outcome that happened = underconfident. The prediction book is now **empty**.
+4. 🕊️ **Energy-strike PAUSE 10/11–10/14, LIFTED 10/15 — declaratory both ways.** (KB-195)
+   - Trump posted an "ENERGY CEASEFIRE" 10/11 (no text). Russia did not agree and kept hitting Ukraine's grid (Kharkiv CHP-5 10/11; 39 ballistic missiles + >120 drones 10/14).
+   - Ukraine held off: Zelensky 10/13 "two days" with no refinery or energy strikes; Moscow Times 10/13 "second day". Novak 10/14 claimed hits on two refineries (Saratov, Ryazan); Kyiv called it fake.
+   - **Zelensky to the FT 10/15: "We've had enough"** — the refinery-strike ban is lifted; a halt again only for more Patriots. No post-resumption strike found to ~08:30 ET.
+   - **Nothing in the exit rules fires.** The only arithmetic effect is on L544's 14-day leg.
+5. **Ledger** (KB-193): Palaemon 5–11 Oct listed 4 in-theater events, **all already rowed** (0 misses). +2 rows: Bulgaria coast 10/13 (Chelsea 3 cargo + one vessel sunk; Russia-attributed ⇒ excluded from C3) · Saratov 10/14 "energy infrastructure facility" (class unestablished, **not** counted as refinery). Rostov NZNP terminal fire reached 8 of 12 tanks by 10/14, no new strike. RIO spill reached the Novorossiysk/Anapa coast and the CPC SPM area; no CPC halt reported. **Mark 10/07 → 10/11 (BOUNDED); 10/12–10/15 swept, not certified.**
+6. **Diesel instruments at primary (via YURI):** a **partial 500 kt permission** effective 10/10, and the producer ban is signed to 10/31 (№1252) ⇒ **not a lift; the C1 companion tell is not met.** First post-deal cargo ~40 kt Primorsk 10/13. KB-190 is qualified (KB-198); COR-20261012-16 receipted APPLIED, COR-20261012-31 NO-OP.
+7. **Inbox 28/28 drained** (12 top-level + 16 WALTER; re-census 0/0). BOARD `HYDROCARBON_INFRA` 10/10–10/15: all 17 OSPREY rows were in the inbox; the 4 others are out of theater. `strike_feed.py` is **operational again** (RELEASED 10/9 13:15 ET, L624 READ 3, declared limit ⚠️21); the 10/15 run gave 32 rows, all dispositioned.
+8. **Closeout step 12, EXIT RULES checked against today:** §1 C1 kill 6/30 (also needs a >90%-recovered independent aggregate) · C2 already KILLED, dormant-armed · C3 9/21 · §2 theater clock not running (C1, C3 live; no ceasefire in force) · §3 is BRENT's call, not known fired. **No trigger fired.** Next §5 re-read 11/8.
+
+
+---
+# PART 2 — VERBATIM, the `**2026-09-29 packets:**` line of STATUS.md § Cross-Agent Implications as of a15874a42 (630 B, crc32 938751491). Rotated to finish rule 5 (below 70% of budget).
+
+**2026-09-29 packets:** **PROME** ×2 — WQ-276 executed (C1 4→5, successor row = CLAUDE.md §1b "Channel 1, 5→4", first eval 10/15, KB-159) · WQ-295 cadence `WEEKLY` + WATCH_FOR terms (cc WALTER). **BRENT** — new halts Novoshakhtinsk/Perm/Ilsky (capacity, not barrels); 9/28 data decree (instrument risk to runs reads); truce talk; Novorossiysk: Kommersant safety-avoidance as the candidate halt cause — ask: Bloomberg 4-wk to 9/27 when printed. **HAWK** — Platts $2.9/bbl 9/21 AWRP lead (snippet-only; grade it — moves C3 earliest both-clear 10/9 → 10/12 if real); CREA false-flag/reflagging figures; H.R. 5334.
