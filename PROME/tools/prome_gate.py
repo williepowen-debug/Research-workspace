@@ -16,7 +16,7 @@ DESIGN CONSTRAINTS (Will-approved, in the 7/28 disposition packet):
      BLOCKING failures.
   2. Every wrapped check stays INDEPENDENTLY RUNNABLE — this is a thin shell
      dispatcher, not a monolith. Each failure prints the owner doc to read.
-  3. The T3-a MECHANICAL CORE lives here (dashboard-state emptiness/vintage,
+  3. The T3-a MECHANICAL CORE lives here (dashboard-state checks RETIRED 10/16 WQ-452;
      GATES token vocabulary + ages, DOCKET overdue rows, boot↔closeout symmetry
      diff) so scriptable checks run EVERY BOOT — DAEDALUS's ~21d external sweep
      keeps only the judgment tail a script cannot do.
@@ -1045,7 +1045,8 @@ def check_heartbeat_chain():
 
 
 def check_dashboard_build_receipt(state_built):
-    """L339: fleet_dashboard.py writes dashboard_state.json ONLY on a clean
+    """RETIRED 2026-10-16 (WQ-452.FLEETOPS) — no gate path calls this; kept unreferenced pending cleanup.
+    L339: fleet_dashboard.py writes dashboard_state.json ONLY on a clean
     build, so a FAILING build leaves the previous snapshot in place and returns
     rc=1 silently — and every check below then certifies that stale snapshot and
     passes. The receipt records each baseline-advancing run's own outcome; this
@@ -1097,7 +1098,8 @@ def check_dashboard_build_receipt(state_built):
 
 
 def check_dashboard_state():
-    """The publisher's own blank panels — the 4-day silent regression class.
+    """RETIRED 2026-10-16 (WQ-452.FLEETOPS) — no gate path calls this; kept unreferenced pending cleanup.
+    The publisher's own blank panels — the 4-day silent regression class.
     BLOCKING on emptiness (a degraded Will-facing page), advisory on vintage.
     L339: the checks below certify the FILE — the receipt check above certifies
     that the file is the latest build's output. A green line here over a stale
@@ -1735,7 +1737,7 @@ def mode_boot(advance_board=True):
     run_script(ADVISE, "done rows: parser-independent short-row + rulings-reach-ledger (WQ-417 P1)",
                [sys.executable, "PROME/tools/done_rows_check.py", "--quiet"],
                "fix the ROW (three cells: title | done | record) and re-sync the ledger; rc=2 = file or heading missing")
-    guard(check_dashboard_state)
+    # Fleet-Ops dashboard checks RETIRED 2026-10-16 (WQ-452.FLEETOPS, Will 12:56 ET) — the page was retired 10/2 (WQ-372); the state file's only readers were these checks and will_brief's channel feed (retired with it). Record: PROME/proposals/2026-10-16_wq452-fleetops-retire-RULED.md
     guard(check_symmetry)
     guard(check_claude_dir_drift)
     guard(check_desk_catalyst_summons)
@@ -1799,7 +1801,7 @@ def mode_closeout(tier=None, memory=None, superseded=None):
                "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
                "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
     guard(check_heartbeat_chain)    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
-    guard(check_dashboard_state)    # Standard+ closeouts regenerate; this catches a skipped one
+    # Fleet-Ops dashboard checks RETIRED 2026-10-16 (WQ-452.FLEETOPS, Will 12:56 ET) — the page was retired 10/2 (WQ-372); the state file's only readers were these checks and will_brief's channel feed (retired with it). Record: PROME/proposals/2026-10-16_wq452-fleetops-retire-RULED.md
     guard(check_byte_budgets)       # flow-rule meter: >=75% here means rotate NOW, in this closeout
     # BLOCKING at closeout and advisory at boot, deliberately: closeout is where
     # these rows get WRITTEN, so this is the only run that can stop the defect

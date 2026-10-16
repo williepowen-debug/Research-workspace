@@ -242,8 +242,12 @@ class PreservedInvariants(unittest.TestCase):
         self.assertIn("carve-out", cold)
 
     def test_publication_stays_required_at_standard_plus(self):
+        # WQ-452.FLEETOPS (Will 2026-10-16): the Fleet-Ops build mandate ("Standard+ mandatory for the
+        # dashboard build") was retired; the Standard+ publication requirement that SURVIVES is the Deck
+        # OWED view on the gate's WQ-446 A line. Pin that letter, not the retired phrase.
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
-        self.assertIn("Standard+ mandatory", m)
+        self.assertIn("Standard+: the Decision Deck OWED view publishes", m)
+        self.assertIn("The Deck OWED view only when the gate's WQ-446 A line reads OWED or UNKNOWN", m)
 
     def test_every_cold_section_is_reachable_by_an_explicit_pointer(self):
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")

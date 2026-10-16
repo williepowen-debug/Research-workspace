@@ -369,15 +369,12 @@ def parse_gates():
 
 
 def parse_channels():
-    """dashboard_state.json — v2 no longer RENDERS these (4-of-7 read 'crit', so
-    the row stopped discriminating), but a channel CHANGING state is still news,
-    so it stays wired into the change feed only."""
-    p = ROOT / "PROME/tools/dashboard_state.json"
-    try:
-        return (json.loads(p.read_text()).get("channels") or {})
-    except Exception as e:
-        return fail("pressure (feed only)", "PROME/tools/dashboard_state.json",
-                    f"unreadable: {e}") or {}
+    """RETIRED 2026-10-16 (WQ-452.FLEETOPS): the Fleet-Ops build that wrote
+    dashboard_state.json no longer runs, so the channel-change feed has no live
+    input. Returns {} with no fail() entry (a fail() line would print a permanent
+    PARSE-FAILED block on every brief — plan read ❌ C19); the feed comparison
+    iterates the NEW snapshot's items, so an empty dict emits nothing."""
+    return {}
 
 
 # ------------------------------------------------------------- the change feed
@@ -731,6 +728,8 @@ def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fi
 
     # ---- 2. what changed (the feed)
     A("<section><h2>What changed</h2>")
+    A('<p class="empty">Pressure (channel-change) entries stopped 2026-10-16: their source, the Fleet-Ops build, '
+      "was retired (WQ-452). Regime moves are read in HEARTBEAT.</p>")
     if first_build:
         A('<p class="empty">Baseline recorded. Changes will appear here from the next '
           "rebuild onward — nothing is invented for a first build.</p>")

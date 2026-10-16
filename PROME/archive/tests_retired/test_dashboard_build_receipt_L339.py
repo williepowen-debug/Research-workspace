@@ -1,3 +1,5 @@
+# RETIRED 2026-10-16 (WQ-452.FLEETOPS): the gate no longer calls check_dashboard_state; this suite tested that wiring.
+# Record: PROME/proposals/2026-10-16_wq452-fleetops-retire-RULED.md. Kept for history; not collected.
 #!/usr/bin/env python3
 """Falsification set for the L339 repair — a FAILED dashboard build must not leave a PASSING gate.
 

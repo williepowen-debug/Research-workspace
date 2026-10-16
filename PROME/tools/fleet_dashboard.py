@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """
-fleet_dashboard.py — generate the Fleet Ops HTML dashboard (Will-facing artifact).
+fleet_dashboard.py — RETIRED AS A BUILD 2026-10-16 (WQ-452.FLEETOPS; page retired 10/2 WQ-372).
+No closeout runs this; no gate check reads its state file; the HEARTBEAT projection companion is archived.
+Kept as the parser library will_handbook.py imports (parse_roster · parse_fleet_map · collect_fleet_rows ·
+parse_gates). Running main still works but mandates nothing. Record: PROME/proposals/2026-10-16_wq452-fleetops-retire-RULED.md
+
+ORIGINAL PURPOSE — generate the Fleet Ops HTML dashboard (Will-facing artifact).
 
 PURPOSE: one regenerated surface that turns canon state into a scannable picture —
 what needs attention, what's blocking, which agents are stale/lagging, what fires
