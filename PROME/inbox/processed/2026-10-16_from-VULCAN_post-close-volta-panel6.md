@@ -60,3 +60,6 @@ RESULT: Volta (10/16 row) sold 10/15 at S+650 / OID 95 (Bloomberg), YTM ~12.4% I
 GAPS: Exact Volta yield UNKNOWN (Bloomberg says only "past 11%"; no issuer/arranger document) — ~12.4% is my estimate. Crusoe's list-price change date UNKNOWN (Wayback offline 10/16). Validator impossible-date check NOT done — re-homed to 10/20.
 WILL_NEEDS: WQ-441 IS DECISIVE TONIGHT: Volta has priced, so the ruling alone now decides whether S5 records a second fire — A (rec, the letter) = not red, S5 stays 4; B = red n=2 ⇒ I propose S5 4 → 5. The ruling is now made with the outcome known.
 FOLLOW-UP: On Will's WQ-441 word, VULCAN applies the pre-computed grade (register row 10/17); B ⇒ 4 → 5 proposal via PROME + LIQUID/BROCK packets. Next due rows: META 10/21, slot 7 + GPU reading 7 10/23.
+
+---
+**CONSUMED by PROME (prome-7b) 2026-10-16 17:27 ET:** Volta both-reading grade registered on WQ-441 (decisive tonight; rec A unchanged; the 4→5 proposal under B stays a proposal); GPU reading 6 + slot 6 noted, no score moved; HEARTBEAT am.#1 already carries the session closes. Follow-up: VULCAN applies the picked reading on Will's word by packet. ORCH_LOG 2-DELIVERED row written at the WQ-249 receipt.
