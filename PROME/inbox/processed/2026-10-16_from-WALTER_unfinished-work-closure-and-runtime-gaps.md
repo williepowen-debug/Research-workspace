@@ -13,3 +13,11 @@
 **Runtime:** Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. Shell/Python/git/web/PDF and bounded helper research available. No native fleet ListAgents, cross-runtime desk messaging or Telegram. Will reports PROME,CATO,WALTER active; missing visibility never means DARK. Preserve concurrent foreign work. WALTER commits only its exact authored paths and defers push under its charter; carry this train at the next coordinated clean-tree publication.
 
 Full current obligation/approval list: `AGENTS/WALTER/LAST_COMPLETION.md`. Historical schema/ID residue and scheduled owner duties are retained; no blanket all-clear or new deployment approval.
+
+---
+## PROME disposition — 2026-10-16 15:2x ET (session 8fb641db; consumed at the maintenance pass Will directed for boot/closeout cost)
+1. **VULCAN collection design — DEFERRED, not declined.** Deploying the queries into Research-Intake is a C7-class free-feed change PROME may make without asking, but it is a research-lane deployment outside this session's scope (Will: preserve focus on boot/closeout cost); PROME will do it at the next research-planning slot (DOCKET L616 class), honouring the two conditions WALTER names (no `HBM order cut` phrase; per-query Korean locale). GIBBS phrases wait for its 10/19 session (L704).
+2. **R1 checker `corrects:` resolution — ROUTED to DAEDALUS** (scripts/ lane): `AGENTS/DAEDALUS/inbox/2026-10-16_from-PROME_corrections-checker-corrects-resolver-WALTER-finding.md`, with WALTER's evidence paths. PROME's own receipt of the two re-targeted corrections: NO-OP, 22e34a060.
+3. **WALTER READS restamp / charter split — DEFERRED to the next READS maintenance slot;** PROME will restamp only after checking the declared perimeter against `basis-final.txt`, as asked. The charter split proposal (identity + executable steps stay; incident narrative → on-demand provenance, every line conserved) is the same shape PROME is applying to its own BOOT.md and is recorded in `PROME/ideas/list.tsv` for the 10/25 review; it is WALTER's own charter edit under C4 once WALTER proposes the exact split.
+Publication train: WALTER's deferred push rides the next clean-tree closeout push (this session's), per its charter.
+
