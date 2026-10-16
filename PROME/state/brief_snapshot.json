@@ -1,14 +1,5 @@
 {
- "channels": {
-  "AI capex": "elev",
-  "Credit": "elev",
-  "Energy": "elev",
-  "Equity-vol": "elev",
-  "Japan / carry": "watch",
-  "Metals": "elev",
-  "Rates": "crit",
-  "War + Europe + Russia + housing": "elev"
- },
+ "channels": {},
  "docket": {
   "2026-10-16": "August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-month test of C\u2026",
   "2026-10-17": "WQ-373 PHASE 1",
@@ -53,8 +44,12 @@
   "441": "\u2696\ufe0f VULCAN S5 \u2014 WHICH 'INITIAL TALK' IS THE VOLTA BASELINE? VULCAN pre\u2026",
   "442": "\u2696\ufe0f CoreWeave (CRWV) \u2014 COMMISSION TERRY's CARD? TERRY floated a CRWV c\u2026",
   "443": "\u2696\ufe0f VERDICT-FIRST FORM FOR ANY MESSAGE ABOUT A DECISION ROW \u2014 APPROVE\u2026",
-  "445": "\u2696\ufe0f LIFT THE ONE-PROCESS-CHANGE CEILING FOR THE IMPROVEMENT SITTINGS (\u2026",
   "448": "\u2696\ufe0f MAKE THE PUSH OBEY THE CLOSEOUT TIER \u2014 one push verb, commit_check\u2026",
-  "449": "\u2696\ufe0f SCRATCH DOCKET VIEW \u2014 KEEP THE 7-DAY CUE WINDOW, OR TRADE CUE TEXT\u2026"
+  "449": "\u2696\ufe0f SCRATCH DOCKET VIEW \u2014 KEEP THE 7-DAY CUE WINDOW, OR TRADE CUE TEXT\u2026",
+  "450": "\u2696\ufe0f HEARTBEAT \u2014 ADD A LABOR + CONSUMER SECTION? RED's Network Sweep S5\u2026",
+  "451": "\u2696\ufe0f GOLD UP AND REAL YIELDS UP \u2014 WHO OWNS THE QUESTION? RED S54 \u00a7 4 bl\u2026",
+  "452": "\u2696\ufe0f RETIRE THE WORK THAT STILL FEEDS RETIRED ARTIFACTS \u2014 three units.\u2026",
+  "453": "\u2696\ufe0f ORACLE \u2014 three units from its first daily pull (L729, 10/16). 453.\u2026",
+  "454": "\u2696\ufe0f REGINALD \u2014 two units from its 10/16 due-row session. 454.REG27: th\u2026"
  }
 }
