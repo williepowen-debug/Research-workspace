@@ -88,3 +88,10 @@ def test_read1_c13_spawn_list_counts_and_ids_on_the_line():
     assert "DARK: D:L405 ZHAO" in line and "ACTIVE: D:L548 DAEDALUS, G:GATE-X BRENT" in line
     with pytest.raises(ValueError, match="counts UNKNOWN"):
         pg.summarize_spawn_list("key\tdue\n", 1)
+
+
+def test_read2_c17_forty_active_rows_all_named():
+    rows = "\n".join(f"D:L{100+i}\t2026-10-01\t15\tDESK{i}\tACTIVE\t…" for i in range(40))
+    body = "spawn_list · as-of 2026-10-16 · horizon +0d · 40 row(s): DARK 0 · ACTIVE 40 · lands-ahead 0 · PROME 0 · WILL 0\nkey\tdue\n" + rows + "\n"
+    ok, line = pg.summarize_spawn_list(body, 1)
+    assert all(f"D:L{100+i} DESK{i}" in line for i in range(40))

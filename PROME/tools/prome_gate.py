@@ -1516,7 +1516,7 @@ def summarize_spawn_list(body, rc):
     for cls in ("DARK", "ACTIVE"):
         if ids.get(cls):
             parts.append(f"{cls}: " + ", ".join(ids[cls]))
-    return rc == 0, " · ".join(parts)[:600]
+    return rc == 0, " · ".join(parts)          # no cap (read 2 C17): every DARK/ACTIVE id, or nothing is claimed complete
 
 
 def check_orch_closeout():
