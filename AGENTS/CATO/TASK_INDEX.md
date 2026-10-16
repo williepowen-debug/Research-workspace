@@ -2,6 +2,12 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 14 PROME proposal follow-up
+
+Moved from CONTINUITY on October 15 when Will commissioned simplification oversight; this remains a dated disposition, not a new assignment.
+
+**PROME proposal follow-up complete; await Will.** [Continuing review](runs/2026-10-14_1529_prome-closeout-review.md#october14--review-of-promes-bounded-proposal-at-3f9db4e15) supports3f9db4e15’s design, confirms calendar patch hash mismatch, and names implementation clarifications: PC14-5 observed inventory versus frozen review; PC14-6 stored selections/BOOT pickup and runtime re-enable guard; PC14-7 verified SHA versus shared push/currentness. Add quote-only negative control; favor B before A when eligible/authorized, without changing approved maintenance order. No owner edits, sends, launches or build approval. Resume with changed owner design/implementation; no unchanged-package audit.
+
 ## October 12 retained dispositions — read only the relevant topic
 
 Moved verbatim from the pre-implementation CONTINUITY resume section under Will's October 12 approval. These are dated review snapshots, not live tasks. They preserve approval scope, unresolved limits and source links. The current [resume point](CONTINUITY.md) and later dated follow-ups in each report supersede older dispositions. In particular, the procedure proposals in the first entry are now implemented under the [approved follow-up](runs/2026-10-01_1152_startup-closeout-review.md#october-12--approved-task-boundary-saving-and-continuity-compaction). Do not read this section wholesale at boot; search its topic headings.
