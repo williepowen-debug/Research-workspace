@@ -1,3 +1,7 @@
+## 2026-10-16T23:50:53Z — sweep (Will: "anything owed, incomplete, broken, missing") — light, full deferred
+
+Origin had every WALTER commit through 385b0854d (028–040 carried by another session's push); delivery reconciled 30 → delivered, 121/121 for 10/16. Fixed: 5 FILED-not-CONSUMED packets declared retrospectively with commit evidence; `SIG-W-20261015-015` `corrects:` prefixed `EXTERNAL:`; LAST_COMPLETION rotated 28,883 → 16,722 B (verbatim archive `research/2026-10-16_evening/prior-LAST_COMPLETION.md`). Owed and carried: READS re-attestation, L599 review 10/17, L334 study, expired companion, retirement review, Telegram FLASH gap. Heredoc backtick slip caught pre-commit (auto-memory n+1).
+
 ## 2026-10-16T21:47:28Z — light-closeout — full deferred: evening boot + routing (Claude Code, claude-opus-5-5)
 
 Will-launched boot 17:25 ET. Pull not needed (0/0 after fetch). Doctor 0 HIGH / 6 MED, all pre-existing. 6c: VIX +5.85 intraday → FLASH `027` pushed (2ac692eab), follow-up `034`; Iran/Yanbu scoped verify → `035`; inbox 3/3 → `028`–`030`; intake 17/17 → `031`–`033`, `035`. Two Rule-9 Opus verify helpers; evidence `research/2026-10-16_evening/`. X-bookmark token refresh FAILED (400), nothing marked. 028–035 committed locally, push awaiting Will. A directory pathspec swept exactly one intended file (`verify-vol-rumor.md`) into 48309e30f; no foreign content.
