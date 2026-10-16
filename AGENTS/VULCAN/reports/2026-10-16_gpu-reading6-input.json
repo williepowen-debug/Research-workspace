@@ -1,0 +1,13 @@
+{
+  "_README": "GPU-PANEL-01 reading 6 hand-read input, every URL re-read 2026-10-16 17:11-17:14 ET (post-close). Vendor pages carry no as-of date => vintage UNSPECIFIED + read_on.",
+  "tier_a": [
+    {"vendor": "Lambda",    "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 3.99,  "vintage": "UNSPECIFIED", "read_on": "2026-10-16", "url": "https://lambda.ai/pricing", "_note": "8x H100 SXM 80GB table, PRICE/GPU/HR $3.99 (1x table $4.29, not the panel cell)."},
+    {"vendor": "CoreWeave", "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 6.155, "vintage": "UNSPECIFIED", "read_on": "2026-10-16", "url": "https://www.coreweave.com/pricing", "num_gpus": 8, "divisor": 8, "node_price": 49.24, "_note": "HGX H100 node $49.24/hr -> /8."},
+    {"vendor": "Nebius",    "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 4.50,  "vintage": "UNSPECIFIED", "read_on": "2026-10-16", "url": "https://nebius.com/prices", "_note": "HGX H100 on-demand $4.50. Preemptible now 'from $0.79' (different service condition, not substituted)."},
+    {"vendor": "Crusoe",    "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 4.50,  "vintage": "UNSPECIFIED", "read_on": "2026-10-16", "url": "https://crusoe.ai/cloud/pricing/", "_note": "GPU instances table, row 'NVIDIA H100 80GB HGX', On-demand column $4.50/GPU-hr (spot: Contact sales). Was $3.90 at readings 4 and 5. The $6.30 H100 figure on the same page is Self-Serve Deployments (managed endpoint) - a different service, not substituted. Page last-modified header 2026-10-16 20:58 GMT; Wayback offline, so the change date is UNKNOWN."}
+  ],
+  "tier_d": [
+    {"vendor": "SDH100RT",  "tier": "index", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "term_normalized", "price": 2.83, "segment": "neo-cloud", "vintage": "2026-10-16", "url": "https://www.silicondata.com/products/silicon-index/h100", "_note": "Dated header 'As of Oct 16, 2026', rawValue 2.83; embedded daily points 10/09 2.85 ... 10/16 2.83. The header's '6.8% (7D)' label matches the 30-day change (9/17 2.65 -> 2.83), not its own 7-day points (-0.7%). FAQ $2.53 ignored (freeze level)."},
+    {"vendor": "OCPI-H100", "tier": "index", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "term_normalized", "price": 2.74, "segment": "all", "vintage": "2026-10-16", "url": "https://data.ornn.com/preview", "_note": "OCPI H100 $2.74 settle 2026-10-16. The URL still serves it; the page no longer carries 'preview' wording (recorded per template)."}
+  ]
+}
