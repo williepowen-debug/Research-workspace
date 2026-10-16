@@ -1,8 +1,8 @@
-# WALTER Routing Overlays v0.43
+# WALTER Routing Overlays v0.44
 
 **Read this file WHOLE at boot immediately after `ROUTING_TABLE.md`.** This is the second part of that spec, not optional background. The parent owns domain defaults; this file owns the following type/tag, boundary, convergence, safety-net, escalation and MINIMIZE rules. Both apply at dispatch; `ROUTING_CARVEOUTS.md` remains the per-agent dispatch consult.
 
-Split 2026-09-08: the complete contiguous suffix beginning "By Signal Type" was moved verbatim. Historical examples retain their dates; superseded pre-v0.8 conventions do not override current FORMAT/CHECKLIST rules. Measure after append and at each Tier-2; next calendar check 2026-09-30. Reapply the fleet rotation tiers if needed. The split preserves total rule-reading cost; see `../research/2026-09-08_boot-maintenance/rotation-receipt.json` for measured bytes and obligation conservation.
+Split 2026-09-08: the complete contiguous suffix beginning "By Signal Type" was moved verbatim. Historical examples retain their dates; superseded pre-v0.8 conventions do not override current FORMAT/CHECKLIST rules. Measure after append and at each Tier-2; calendar size check completed 2026-10-16 (receipt: `../research/2026-10-16_instruction-fixes/RESULT.md`). Reapply the fleet rotation tiers if needed. The split preserves total rule-reading cost; see `../research/2026-09-08_boot-maintenance/rotation-receipt.json` for measured bytes and obligation conservation.
 
 ## By Signal Type
 
@@ -148,7 +148,7 @@ REGINALD LIAISON Q5 (REGINALD → WALTER, Turn 1, framework proposed) → WALTER
 
 ## Safety Net Auto-Upgrades
 
-These conditions override the routing table and force minimum IMMEDIATE precedence:
+These conditions override the routing table and force minimum IMMEDIATE precedence. **This is a floor: FILTER_SPEC § Pre-Gate requires FLASH, even on duplicates, when a safety-net bypass qualifies.** Retained by Will on 2026-10-16; no trigger threshold or detection basis changed. Apply the operators in this table, not abbreviated examples elsewhere:
 
 | Trigger | Detection Method | Upgrade To |
 |---------|-----------------|------------|

@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-10-16T19:44:54Z",
+  "headers_compared": 42,
+  "unchanged": 41,
+  "changed_reviewed": [
+    "WALTER"
+  ],
+  "rows": 47,
+  "bands": {
+    "GREEN": 4,
+    "ORANGE": 14,
+    "RED": 10,
+    "RED2": 1,
+    "RETIRED": 1,
+    "YELLOW": 14,
+    "\u2014": 3
+  },
+  "limit": "Owner lead comparison only; bands preserved. No fresh domain grade or fleet census."
+}

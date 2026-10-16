@@ -1,0 +1,68 @@
+[
+  {
+    "source": "CLAUDE.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/CLAUDE.md",
+    "sha256": "0091de857733acf78769ee3894277a6de725a55cdaa0a906f3ce40829c79dec2",
+    "bytes": 70223
+  },
+  {
+    "source": "design/BOOT_PROTOCOL.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/BOOT_PROTOCOL.md",
+    "sha256": "9d8868e8660ca2b141c1d701a735722ba8e0d15a9630b90dcf5a648866c686c2",
+    "bytes": 71306
+  },
+  {
+    "source": "design/SPEC_OWNERSHIP.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/SPEC_OWNERSHIP.md",
+    "sha256": "1b87d63e4704e00ad1f7ed912f92cece2d97267f0c0a61c78d3a24c40605de75",
+    "bytes": 24016
+  },
+  {
+    "source": "design/OPERATOR_BRIEF_SPEC.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/OPERATOR_BRIEF_SPEC.md",
+    "sha256": "9568096cc843ea2950a8cf29eb37456dc032fb795b33a14169c601f6d781483e",
+    "bytes": 9654
+  },
+  {
+    "source": "design/STATE.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/STATE.md",
+    "sha256": "06c126cf806dcaadde0048c2cec3ca0fcefe190d5fb81cd4c503149da03dd183",
+    "bytes": 65181
+  },
+  {
+    "source": "design/X_BOOKMARKS_ACCEPTANCE.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/X_BOOKMARKS_ACCEPTANCE.md",
+    "sha256": "135b8a0a885cc60d17bda8d4d899b0606a3981f26bf55e989c9bbb5a07e827d8",
+    "bytes": 33677
+  },
+  {
+    "source": "design/FILTER_SPEC.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/FILTER_SPEC.md",
+    "sha256": "307a9010b0f609b8d41c53ef94d66708743dfaa20fd9b9d8ec27595fb65b419b",
+    "bytes": 28319
+  },
+  {
+    "source": "design/ROUTING_TABLE.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/ROUTING_TABLE.md",
+    "sha256": "8077943558033d4921bf91dd4a7fd7c77334c194320d5953c7066b63339dec63",
+    "bytes": 22665
+  },
+  {
+    "source": "design/ROUTING_OVERLAYS.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/ROUTING_OVERLAYS.md",
+    "sha256": "0a3a2c9c48e484b4072918682ee6eb350ad6ed3bddce7e199644ee3182944c11",
+    "bytes": 21349
+  },
+  {
+    "source": "design/ROUTING_CARVEOUTS.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/ROUTING_CARVEOUTS.md",
+    "sha256": "87b023a1b5d421f794afdd5ff854bde090ae044b4b27d05e3dd62cf12eba04c8",
+    "bytes": 72242
+  },
+  {
+    "source": "MEMORY.md",
+    "archive": "design/history/2026-10-16_instruction-cleanup/MEMORY.md",
+    "sha256": "cbce81dac31f81158db33c7c45c140ffacc34a874ab767422633a0c4ec5ab9c8",
+    "bytes": 22549
+  }
+]

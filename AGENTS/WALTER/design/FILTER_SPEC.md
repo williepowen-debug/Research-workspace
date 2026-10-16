@@ -1,4 +1,4 @@
-# WALTER Filter Specification v0.7
+# WALTER Filter Specification v0.8
 
 WALTER filters BEFORE routing. Every piece of incoming information passes through a **pre-gate System-Critical bypass**, then **Gate 1** (the two hard kill gates: Novelty + Relevance), then **a soft credibility check** that adjusts confidence before reaching Gate 2 (classification + routing). Most raw information should die at Novelty or Relevance.
 
@@ -26,6 +26,8 @@ This gives WALTER a working model of "what matters right now" without needing to
 ## Pre-Gate: System-Critical Bypass
 
 Before any filter runs, check for system-critical conditions. If any trigger fires, **skip all filter gates, route FLASH immediately, even on duplicates.**
+
+**v0.8 — Will ruling, 2026-10-16:** retain this FLASH bypass. The IMMEDIATE minimum in ROUTING_OVERLAYS and SIGNAL_FORMAT_SPEC is a floor, never a downgrade of a qualifying bypass. Apply the safety-net thresholds/operators in ROUTING_OVERLAYS; the abbreviated trigger examples below do not redefine equality or the session basis. No trigger threshold changed.
 
 **Bypass triggers:**
 - A held position is directly named and materially affected (stop-loss breach, material news, liquidity issue)

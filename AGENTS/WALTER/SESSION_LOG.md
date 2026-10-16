@@ -1,3 +1,7 @@
+## 2026-10-16T19:44:54Z — TIER-2 CLOSEOUT: instruction fixes
+
+Will-authorized charter/direct-dependent cleanup and explicit FLASH-floor ruling implemented. Original instructions conserved; memory narratives moved verbatim while triggers remain. Report: `research/2026-10-16_instruction-fixes/RESULT.md`. Registry reviewed before network regeneration; no new research dispatches. READS attestation, expired companion, shared/historical checker findings and exhaustive older-file eligibility remain explicit. Source-search dispositions and other approvals preserved. Foreign work untouched; local exact-path commit with coordinated publication deferred.
+
 # 2026-10-16T19:21:31Z — instruction audit and source-search disposition
 
 Reviewed WALTER charter, memory, boot rationale and ownership map against selected canonical sources. Report and snapshot inventory: `research/2026-10-16_instruction-audit/REPORT.md`. No charter/spec edits or new research dispatches. After the audit, applied Will's explicit approval to stop repeated missing-source searches and retain reopening conditions in LAST_COMPLETION.md. Updated changed owner-header mirrors before STATUS; memory notes refreshed. Prior completion preserved verbatim in audit evidence. Existing source/boot/read-attestation limitations remain; no full-market-sweep claim.

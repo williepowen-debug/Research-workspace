@@ -1,0 +1,18 @@
+test_cluster_pointer_does_not_hide_missing_or_false_claims (test_boot_repairs.BootRepairs.test_cluster_pointer_does_not_hide_missing_or_false_claims) ... ok
+test_current_claims_exclude_history (test_boot_repairs.BootRepairs.test_current_claims_exclude_history) ... ok
+test_dropzone_files_only (test_boot_repairs.BootRepairs.test_dropzone_files_only) ... ok
+test_inline_drift_reaches_production_verdict (test_boot_repairs.BootRepairs.test_inline_drift_reaches_production_verdict) ... ok
+test_invalid_freshness (test_boot_repairs.BootRepairs.test_invalid_freshness) ... ok
+test_missing_data_cannot_look_clean (test_boot_repairs.BootRepairs.test_missing_data_cannot_look_clean) ... ok
+test_nonfinite_fetch_to_main (test_boot_repairs.BootRepairs.test_nonfinite_fetch_to_main) ... ok
+test_owner_session_date_is_not_commit_date (test_boot_repairs.BootRepairs.test_owner_session_date_is_not_commit_date) ... ok
+test_quiet_uses_final_hysteresis_zone (test_boot_repairs.BootRepairs.test_quiet_uses_final_hysteresis_zone) ... ok
+test_scoped_run_preserves_unselected_baselines_without_second_fetch (test_boot_repairs.BootRepairs.test_scoped_run_preserves_unselected_baselines_without_second_fetch) ... ok
+test_unavailable_preserves_baseline_and_recovery_is_not_new_alert (test_boot_repairs.BootRepairs.test_unavailable_preserves_baseline_and_recovery_is_not_new_alert) ... ok
+test_weekday_health (test_boot_repairs.BootRepairs.test_weekday_health) ... ok
+test_zero_and_red_are_valid_data (test_boot_repairs.BootRepairs.test_zero_and_red_are_valid_data) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.073s
+
+OK

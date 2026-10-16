@@ -1,0 +1,82 @@
+{
+  "limit": "Byte conservation only; semantic review separately recorded in RESULT.md.",
+  "files": [
+    {
+      "source": "CLAUDE.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 70223,
+      "after_bytes": 22668
+    },
+    {
+      "source": "design/BOOT_PROTOCOL.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 71306,
+      "after_bytes": 70727
+    },
+    {
+      "source": "design/SPEC_OWNERSHIP.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 24016,
+      "after_bytes": 16237
+    },
+    {
+      "source": "design/OPERATOR_BRIEF_SPEC.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 9654,
+      "after_bytes": 9624
+    },
+    {
+      "source": "design/STATE.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 65181,
+      "after_bytes": 64455
+    },
+    {
+      "source": "design/X_BOOKMARKS_ACCEPTANCE.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 33677,
+      "after_bytes": 33939
+    },
+    {
+      "source": "design/FILTER_SPEC.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 28319,
+      "after_bytes": 28682
+    },
+    {
+      "source": "design/ROUTING_TABLE.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 22665,
+      "after_bytes": 22487
+    },
+    {
+      "source": "design/ROUTING_OVERLAYS.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 21349,
+      "after_bytes": 21692
+    },
+    {
+      "source": "design/ROUTING_CARVEOUTS.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 72242,
+      "after_bytes": 72364
+    },
+    {
+      "source": "MEMORY.md",
+      "archive_exact": true,
+      "git_head_exact": true,
+      "before_bytes": 22549,
+      "after_bytes": 17544
+    }
+  ]
+}

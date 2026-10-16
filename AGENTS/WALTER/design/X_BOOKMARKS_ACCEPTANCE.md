@@ -109,7 +109,9 @@ Read-3 (the last in the episode's Review budget) verdict: **NOT MET on two small
 - **INDEPENDENTLY VERIFIED: NO** — no read follows this commit within budget (a fourth read is Will's to name; PROME's rec is "not needed").
 - **STILL UNRESOLVED after it: none known at unit scope.** The remaining gate is the **live first-run (L1–L2)** on Will's token + the WSL2-localhost answer; "working" is claimable only after that.
 
-### LIVE FIRST-RUN RESULT — 2026-10-03 12:44 ET → ✅ WORKING
+**Current validation scope, 2026-10-16:** L1/L2 and L3-success observed live; L3-failure observed once for a token rotated away on another machine (October10 HTTP400, exit1, nothing marked). N1 and all L4 remain untested live. Earlier dated blocks below describe their observation-time scope. Charter7h now matches this evidence; fail-loud behavior and October17 pilot review remain unchanged.
+
+### HISTORICAL FIRST-RUN RESULT — 2026-10-03 12:44 ET → ✅ WORKING
 - **L1 (PKCE authorize): PASS** — flow completed; access+refresh tokens + `X_USER_ID` written to the gitignored `.env`.
 - **L2 (real GET + dedup): PASS** — seed read **287** existing bookmarks across pages; a follow-up normal scan reads clean and reports "0 new bookmarks" (dedup holds end-to-end).
 - **WSL2 localhost: WORKED** — the one untested piece. Will's Windows browser reached the WSL server at `localhost:8723`; callback caught, no timeout. (`webbrowser.open` failed headless as expected — harmless; he opened the relayed URL manually.)
@@ -118,14 +120,14 @@ Read-3 (the last in the episode's Review budget) verdict: **NOT MET on two small
 - **L3 (expired-token refresh) — ✅ NOW EXERCISED LIVE 2026-10-03 ~19:25Z** (see LIVE UPDATE below). ⚠️ **NARROW:** only the expired-token RECOVERY+retry succeeded. **L3-FAILURE (a refresh that itself fails → re-authorize path), N1 (seed-failure), and L4 (429 AND network/other errors — not just rate-limit) remain UNtested live.**
 - **STATUS: WORKING** at unit scope + live L1–L2 (+ L3-success). First-successful-scan 2026-10-03 → L599 two-week review 2026-10-17. WQ-377 boot-wiring now unblocked.
 
-### LIVE UPDATE — L3 expired-token refresh, 2026-10-03 ~19:25Z (walter-f0 bookmark-backlog diagnostic)
+### HISTORICAL UPDATE — L3 expired-token refresh, 2026-10-03 ~19:25Z (walter-f0 bookmark-backlog diagnostic)
 During a read-only backlog pull (via a throwaway script that imported the tool's own `load_env`/`api_get_bookmarks`/`refresh_access_token`/`rewrite_env` and pointed `WALTER_X_ENV` at the LIVE `.env` so rotation would land correctly), the ~12:44 ET access token had expired. A real `GET /bookmarks` returned **401 → `refresh_access_token` succeeded → live `.env` rotated (new access+refresh) → retry succeeded** (`refreshed=True`, 100 bookmarks fetched). ⇒ **L3's success leg (expiry → one silent refresh → retry) is now LIVE-VALIDATED.** ⛔ **What is STILL untested:** the FAILURE leg of L3 (a refresh that fails must fail LOUD with a re-authorize instruction — the message exists, the live path has not fired); N1 (seed-failure writes no seen-file); L4 (429 *and* network errors fail LOUD, nothing marked). Do not paraphrase this as "only 429 remains." *(10/10: the L3 FAILURE leg has since been observed live. See the next block. N1 and L4 are unchanged.)*
 
 ### LIVE UPDATE — L3 refresh FAILURE leg observed, and the authorize method that works from WSL, 2026-10-10 (walter-66, laptop; MEMORY #47)
 - **L3-FAILURE: OBSERVED LIVE, as designed.** The laptop's X token had been invalidated by the desktop's 10/9 rotation, so the boot step 7h scan's refresh returned **HTTP 400 → exit 1, nothing marked**, with the re-authorize instruction. The fail-loud path works on a real failure. ⚠️ **One instance, one cause** (a refresh token rotated away on another machine). It does not validate other refresh-failure causes, and it does not touch N1 or L4, which remain untested live.
 - **Authorize method (the one that worked):** a `! … x_bookmarks_scan.py --authorize` handed to Will **failed unseen**. It ran past the 120 s display limit, moved to the background, and wrote its sign-in URL to a file he never saw; `gio` could not open a browser from WSL, and it timed out after 5 minutes. **What worked:** WALTER runs `--authorize` itself with `run_in_background`, reads the URL from the task output, and opens it in Will's Windows browser with `powershell.exe -NoProfile -Command "Start-Process '<url>'"`. Will only clicks Authorize. Security is unchanged: the login never leaves Will's browser; only the read-only token reaches the `.env`.
 - **Machine-local:** the token lives in the per-machine gitignored `.env`. After a rotation on one box, the other box's copy is dead. At a machine switch, carry the current `.env` or expect one re-authorize.
-- **For the 10/17 pilot review (L599):** record L3-FAILURE as live-observed (n=1), and record this authorize method. ⚠️ The charter line in WALTER `CLAUDE.md` step 7h that calls the L3 failure leg "not live-validated" is now one instance out of date. Changing it is a charter edit (Will's direct word); the operating rule it carries (stay fail-loud, add no silent fallback) is unaffected.
+- **For the 10/17 pilot review (L599):** record L3-FAILURE as live-observed (n=1), and record this authorize method. **ClosedOctober16:** Will-authorized charter cleanup corrected7h to this bounded evidence. Fail-loud/no-silent-fallback unchanged.
 
 ## 9. Triage method (standing — apply when routing bookmark items; bought by the CATO review 2026-10-03)
 

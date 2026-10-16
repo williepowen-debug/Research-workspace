@@ -1,0 +1,260 @@
+[
+  {
+    "path": "AGENTS/AEOLUS/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "64b359e939c4c845d8446cebf89116c74fe17f315c974f788920b1ef2a059dff"
+  },
+  {
+    "path": "AGENTS/ATHENA/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "d17ea84aaf4cfce746f9002e7bae4644184618f1a8fd819dd52c7104986ece78"
+  },
+  {
+    "path": "AGENTS/BOND/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "dba2fc848039682ad0361e472903289a9b253ef1bb22139db2cf5b97ae44bfc7"
+  },
+  {
+    "path": "AGENTS/BRENT/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "cd810550903d5ee774df5518b5e6f9925f2c4f8d1ae796467234bf3eb158d0be"
+  },
+  {
+    "path": "AGENTS/BROCK/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "f1b5ece310400b6cc5de8814603ebf7a6281ced8efae55986aa29e97cb582ebb"
+  },
+  {
+    "path": "AGENTS/CARL/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "fb541e12d3ed59de99b6ba0a3fb814b853fd62b267edb593904cf6d7ec8edc75"
+  },
+  {
+    "path": "AGENTS/CORAL/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "71480217f8859770c117f0b1b6e7d29d545b5f05c5fd97ecb91c7347227a19ac"
+  },
+  {
+    "path": "AGENTS/CREED/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "3e37c588a0bd82fb3a76abefe37fdec67140c3a6c8f1a59f9096ffadd55d33c2"
+  },
+  {
+    "path": "AGENTS/CRUISE/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "9df84da2c92f52d109e9ffc1669defde56b6742717af9a331f923dfcb42e8c87"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "37e7fb2f3cbb9caa76b370c4a8b21dc60ca1ea92009f31c2aea1aff494056623"
+  },
+  {
+    "path": "AGENTS/FALCON/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "5cfb09b356ec0cc459fa5dcd4d554c78133ffeb07e5643bcb3cacbbaa2fbd2c7"
+  },
+  {
+    "path": "AGENTS/FERT/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "85a9d0a7cdd73ad6077b6e8f486f781bf140f07a039911c6ebf630c4e122ab2c"
+  },
+  {
+    "path": "AGENTS/FLG/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "d18b7edb42798574e22f0f1550cbbcb4d33c3b2e72e18ed9bbf473ec6d3035b5"
+  },
+  {
+    "path": "AGENTS/GIBBS/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "0341bedf2815b30e04f76bcbdfdd5dea633ab76984df67c78144cf8fd626d100"
+  },
+  {
+    "path": "AGENTS/HANS/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "b933757b682a4717c4709a9fe0ff7687d445dbc5f2aa5df3f1202b78d6dec61a"
+  },
+  {
+    "path": "AGENTS/HAWK/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "9e9b1b8212abc001b390d21bf4a873cb481a71257323e0a6559c0d608362e101"
+  },
+  {
+    "path": "AGENTS/HENRY/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "3448fad47e39ef137529244fb05eddf8410dd230023d8eed37b66a69951cfac5"
+  },
+  {
+    "path": "AGENTS/HOMER/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "162016e4550e4e361f8a6f31fc107a12b45e22b255c7b972a69178503126ae17"
+  },
+  {
+    "path": "AGENTS/LABOR/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "d10219a93683eb453711ebc03ac8c54c2aec7bb86d29d17c83b9ea8b4aedc8bc"
+  },
+  {
+    "path": "AGENTS/LIQUID/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "4894b7051c654ccdd99bb75c5ebc0eb8d23d660529b337effcded3fb8f5e5c7b"
+  },
+  {
+    "path": "AGENTS/MARCO/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "ec34c59e3edad8fe421ccc6342ad5c6306649ed93815062812495f001e1c1402"
+  },
+  {
+    "path": "AGENTS/MIDAS/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "f2c899cf2f4b9a0674f7c3c528b045018c2429a3d4ffe63acc7b428878ee73f2"
+  },
+  {
+    "path": "AGENTS/NEXUS/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "835166e1b8c98cdc677517e4bb86430c8840f9dae440bc56cfa579bcb110f01c"
+  },
+  {
+    "path": "AGENTS/ORACLE/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "2d93b1d2083dc84c058d909a6bfc08d8396c4bbaa71c84792c6b15c6fb1a509a"
+  },
+  {
+    "path": "AGENTS/OSPREY/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "b52552ece9226df7a30d6213c785040a350b0fbd4a1858088768baf9dd2b81d3"
+  },
+  {
+    "path": "AGENTS/OTTO/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "1b89d29f79b748b72394f71f4592cf7fde49b640cb743d84ce3da945e9d93974"
+  },
+  {
+    "path": "AGENTS/OZK/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "ab05259b2db1a709b2e59603995ae455c960e7c7ba11c99ea95202b624b35fef"
+  },
+  {
+    "path": "AGENTS/RED/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "1ef762d1bb63474061bdaed9af750f668686d9a2eb0c67793ea7c1e7be4d96cd"
+  },
+  {
+    "path": "AGENTS/REGINALD/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "da5cfd9478c9c573e6ef4b7962ed212f07ef67d54a53030e2d1e4f85f439f1f2"
+  },
+  {
+    "path": "AGENTS/SAM/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "a590ea500da7ed5235ec3d0c34bbc06641a91ab8a3272bf3c1823855063699c0"
+  },
+  {
+    "path": "AGENTS/SENTRY/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "9e66d689ca734caabff621766a896a73835d8adf397857d958740acbd2699bc6"
+  },
+  {
+    "path": "AGENTS/SHADE/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "dbb6d778258af88164fce848ab151f1c0673381ddf0ff98759819ddcc70b0e93"
+  },
+  {
+    "path": "AGENTS/TERRY/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "6b008e2423ac002840469d82db74dffb84f5597466b8a41afca9ceee55f8526e"
+  },
+  {
+    "path": "AGENTS/VIOLET/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "b4b83336230a375995d2ec56f81a6679bb124567161476e2b4e511483d0212f0"
+  },
+  {
+    "path": "AGENTS/VULCAN/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "17862e6ec8a7e9d983d8d8c0cf154cab9c2f9527ca1e705208331a022e035d6d"
+  },
+  {
+    "path": "AGENTS/WAL/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "d65d0bae51b0e9eed08a098b121f7e228ecb36fe0786ad245da76ff67f01089a"
+  },
+  {
+    "path": "AGENTS/WALTER/STATUS.md",
+    "changed": true,
+    "lead": [
+      "# WALTER STATUS",
+      "**Updated:** 2026-10-16T19:21:31Z \u2014 instruction audit and approved source-search disposition. Runtime Codex/OpenAI; exact model variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals**. No new signals or helpers in this audit. Publication, approvals and obligations: `LAST_COMPLETION.md`.",
+      "",
+      "## BOTTOM LINE",
+      ""
+    ],
+    "header_sha256": "f83bb7a3474a40186f5e20e058d3922d955bc01089b7dd08bfb7b0769f064ffe"
+  },
+  {
+    "path": "AGENTS/WATT/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "42927e0655733bd0e6780e4b4d99a058c640e18007cef645c58c41fb3bc8514e"
+  },
+  {
+    "path": "AGENTS/YEYOU/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "fc04ae5c743bb4f5ca5c1a938f8bc2283843cd8a9b48a0cb7e5a0fe3130f58d8"
+  },
+  {
+    "path": "AGENTS/YURI/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "300ec81b3c672a55c7c53c7beff68e7e5ecd215e188d0b5b3ad68b509044a58b"
+  },
+  {
+    "path": "AGENTS/ZHAO/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "feaab64ce336ba965eb76581f68d63ac960220cb98ed659a6561b0c7ece73df6"
+  },
+  {
+    "path": "PROME/STATUS.md",
+    "changed": false,
+    "lead": [],
+    "header_sha256": "b75d17de643a6ed365ed55d16efc853fa651eee3b7dc64522e04780540799d7c"
+  }
+]

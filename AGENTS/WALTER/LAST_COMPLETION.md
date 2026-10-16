@@ -1,20 +1,20 @@
-# WALTER LAST_COMPLETION — instruction audit and source-search disposition
+# WALTER LAST_COMPLETION — instruction fixes and preserved duties
 
-Updated 2026-10-16T19:21:31Z. Runtime Codex/OpenAI GPT-6 family, exact variant UNKNOWN; native thread01a1458b-26e4-7a30-ac32-637669ba826e. Root `/home/willi/Research-workspace`; launch `AGENTS/WALTER`. Prior completion archived verbatim in `research/2026-10-16_finish/prior-LAST_COMPLETION.md`.
+Updated 2026-10-16T19:45:25Z. Runtime Codex/OpenAI GPT-6 family, exact variant UNKNOWN; native thread01a1458b-26e4-7a30-ac32-637669ba826e. Root `/home/willi/Research-workspace`; launch `AGENTS/WALTER`. Prior completion archived verbatim in `research/2026-10-16_finish/prior-LAST_COMPLETION.md`.
 
 ## STATUS
 
-Available bookmark, source-verification, intake-design and local repair work completed. Tier-2 state refresh executed. **BOOT remains PARTIAL:** pull deferred for concurrency; source/grade limits remain; fleet/Telegram tools unavailable; charter/read-attestation defects unresolved. Earlier required-order startup record remains in `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`; this receipt supersedes its unfinished-task claims, not its historical execution record.
+Available bookmark, source-verification, intake-design and local repair work completed. Tier-2 state refresh executed. **BOOT remains PARTIAL:** pull deferred for concurrency; source/grade limits remain; fleet/Telegram tools unavailable; read-attestation and companion-review gaps remain. WALTER charter size defect repaired. Earlier required-order startup record remains in `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`; this receipt supersedes its unfinished-task claims, not its historical execution record.
 
 ## CHANGED
 
-- **Current leg:** instruction audit completed at `research/2026-10-16_instruction-audit/REPORT.md` with hash/size inventory. No charter/spec changes. Will approved the #4 search stopping/reopening recommendations; disposition below applied after the audit. Prior completion archived verbatim in the audit directory.
+- **Current leg:** Will-authorized instruction cleanup implemented; charter70,223→22,668bytes, stale copies/direct dependents corrected, memory findings condensed with verbatim history. FILTERv0.8/routingv0.44 retain FLASH bypass including duplicates; IMMEDIATE is only the floor, per Will’s explicit ruling. Thresholds unchanged. Evidence: `research/2026-10-16_instruction-fixes/RESULT.md`. Prior completion archived there.
 
 - All40bookmark dispositions completed and exact40stagedIDs marked after batch closure. User PDF read, ChinaPPI primary recovered, LPG claim explicitly held rather than adopted. No reauthorization owed.
 - Eleven new source-follow-up signals016–026 with37new handoffs, plus4missing October15correction handoffs. Exact final counts from delivery receipt below.
 -48threshold rows accounted for: RED12/REG8/CREED11/HANS17. Official settlement, qualitative/event census and primary-source gaps are named in reports. Full42header/context/log/FORGE/RED-calendar reads completed;47rowREGISTRY then STATUS regenerated.
 - VULCAN's three collection requests tested against5498historical unique headlines and163publicRSS query results; design ready, no production changes. Source packet consumed for design only. GIBBS phrases await its scheduled owner session.
-- FORMATv0.25 template and forward-only dispatch-frontmatter doctor check implemented;7meaningful fixtures passed in the earlier leg. Finding49 and prior memory notes conserved; current memory98lines/22549bytes.
+- FORMATv0.25 template and forward-only dispatch-frontmatter doctor check implemented;7meaningful fixtures passed in the earlier leg. Finding49 and prior memory notes conserved; memory findings subsequently condensed in this instruction pass; original narratives preserved.
 - Two correction target unions repaired after checking actual original IDs; four missing handoffs created. Shared checker still guesses the wrong dates from filenames; tested resolver candidate prepared for PROME, not installed in its file.
 
 ## RESULT
@@ -23,12 +23,12 @@ Earlier signal commitcbed6d56b8555cda6ac4ddfaab7f73ab38906f4d and receiptc62cf6a
 
 ## GAPS / OWED
 
-- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is pending against local origin/master; receipt bookkeeping remains subject to coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
+- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is now proven published against local origin/master `89e713448`; current instruction-fix/receipt bookkeeping awaits coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
 - **Runtime:** shell/Python/git/local PDF/web and thread-local verification helpers work. Native fleet ListAgents, cross-runtime desk messaging and Telegram unavailable. Earlier user report named PROME/CATO/WALTER; later owner records show PROME-spawned sessions. This is not a current fleet census; unknown desks are not declared dark. Root/local instructions explicitly read; provider does not establish tools or permissions.
-- **Read coverage:** boot-basis29MATCH at the recorded check; execution is separate. Read declaration stale/UNKNOWN; charter70223bytes exceeds budget/physical cap. At audit snapshot root charter24961bytes and ORCH view26433bytes are below32550 but above the75% rotation trigger; advisories remain, and generated ORCH requires an owner-side source/generator remedy. WALTER charter remains70223bytes. No whole-boot certification. Concrete split/attestation and generated-view concerns sent to PROME without editing its registry or generator.
+- **Read coverage:** WALTER charter now22,668bytes, below22,785cleanup stop. Owned changed basis hashes reviewed; matching hashes do not certify execution. PROME READS attestation remains stale/UNKNOWN; no whole-boot certification. Root charter and generated ORCH rotation advisories remain owner matters; no shared source/generator edit made.
 - **Shared checker:** R1's remaining two SHORT-TARGETS outputs are now demonstrated filename-date misparses after the genuine target omissions were repaired. Canonical corrects IDs and target unions pass the review-only resolver. Existing LABOR_DOWN/archive-schema and historical delivery-ID residues remain declared; no history erased to quiet checks.
 - **Sources:** official ICE settlement basis, Baltic current-week body, exact KRX close total, Volta exact yield, CREED event/cohort census, HANS T12 and some event inputs remain unavailable/uninstrumented. Iran fullperimeter recheck attempted; access-limited limbs and source contradictions prevent an all-clear or clean full-sweep stamp.
-- **Maintenance:** exhaustive >60-day research/source retirement eligibility not classified; no deletion/move inferred. Instruction audit is complete; implementation/charter split and exhaustive archive eligibility remain open. Expired signal companion review (review_due2026-09-30) is a real carried duty; do not erase or renew it by editing its date.
+- **Maintenance:** instruction cleanup and audited memory condensation implemented. Exhaustive >60-day research/source eligibility still unclassified; no age-only deletion/move. Expired signal companion (review_due2026-09-30) fails closed; substantive content review still owed, not a date/hash restamp.
 
 ## WILL_NEEDS
 
@@ -43,7 +43,7 @@ No new decision or authorization needed to finish this scoped work. Existing app
 5. **PROME scheduled carries:** L717 WATT retest≥October22; L516 REGINALD nextOctober20 (Nano P&A still unposted at owner13:38ETOctober16 check); L730 S1boot line. Existing scopes unchanged. REGINALD confirmed T03/04 non-session bridge/exclusion in its October16 due-row report §5: that confirmation is DONE. FHLB Q2 Highlights-versus-CFR basis discrepancy remains owner-held (§6), with CFR confirmation plannedNovember13; no instrument substitution approved here.
 6. **Calendar / sources:** WAL October19afterclose/callOctober20noonET; OZK October20afterclose. RCL October27; FOMC October27–28; Carvana/UKBudget October28; ECB October29; BZZ26lasttradeOctober30 and boundary8switchNovember2; TreasuryrefundingNovember4. LIQ-07 windows now observable,020owneradjudication owed. TIC16:00ET and H.8 16:15ET October16 were not yet due at this source pass; no future release claimed checked. Tanker available evidence024, current Baltic source still missing.
 7. **Korea:** closing buy direction corroborated secondarily in022; exact primary total/value discrepancy remains with SAM.
-8. **Maintenance:** PROME R1checker candidate/read attestation; WALTER instruction-audit recommendations ready, charter split not implemented, expired signal-companion review and older-file retirement review remain. Preserve approvals/schema residues below. MEMORY rotation done; next calendarcheckOctober22.
+8. **Maintenance:** PROME R1checker candidate/read attestation; WALTER charter/direct-dependent and audited memory fixes implemented; expired signal-companion review and older-file retirement review remain. Preserve approvals/schema residues below. MEMORY rotation done; next calendarcheckOctober22.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will 2026-10-16
 
@@ -71,6 +71,8 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 - CRUISE miss option 2.
 - **Proposed in the current VULCAN intake design, not deployed:** the intake lane's batch date can carry an old article with nothing looking stale (n=2: #39 EnergyNow 10/01, -013 KBRA 2023). A lane-side "article dateline ≠ batch date" flag would belong to PROME's config. Candidate only.
 
+**Current ruling:** Will retained FLASH bypass, including duplicates; IMMEDIATE is only the floor (2026-10-16). Encoded FILTERv0.8/routingv0.44; no trigger threshold changed.
+
 **Previously resolved (retained):** WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405, WQ-426, WQ-388 DECLINE, WQ-401 APPROVE (b), WQ-364 APPROVE FUNCTIONAL, WQ-444 (HY >320 "sustained" defined), WQ-447 A (reader-class spawns on Sonnet).
 
 **Carried process ideas:** k, t, u, a, s, j, p. Current intake-design REQ is review-ready and delivered to PROME/inbox; no deployment inferred.
@@ -79,12 +81,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Source/read accounting and publication are separate. Current audit checks: `research/2026-10-16_instruction-audit/closeout/`: REVIEW (existing R1 parser false positives, read cap/attestation limits and historical doctor findings). Prior research checks: `research/2026-10-16_finish/closeout/`: REVIEW. Doctor0HIGH/5MED (historical cluster, malformed oldID, preservedNOTErows, unconsumed backlog, historical corrects encoding). New dispatch7tests and existing boot12tests PASS; versions,29pathbasis, required weekday checks PASS. Read cap/attestation and shared R1 parser remain REVIEW/UNKNOWN, never silently waived.
+Source/read accounting and publication are separate. Current repair checks: `research/2026-10-16_instruction-fixes/closeout/`. Thirteen relevant unit tests and version checks PASS; original archive bytes conserved. Expired companion deliberately returns PARTIAL. Existing read-attestation, shared/historical findings remain explicit; selected checks do not certify a fresh boot.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-16T19:21:31Z",
+  "as_of": "2026-10-16T19:45:25Z",
   "publication": [
     {
       "commit": "55b4f53f3",
@@ -108,7 +110,7 @@ Source/read accounting and publication are separate. Current audit checks: `rese
     },
     {
       "commit": "1930f2fb02221e51546a3bce9d53b87c466561b9",
-      "state": "pending"
+      "state": "published"
     }
   ],
   "delivery": {
@@ -119,7 +121,7 @@ Source/read accounting and publication are separate. Current audit checks: `rese
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Audit commit 1930f2fb02221e51546a3bce9d53b87c466561b9: pending against local origin reference. Receipt bookkeeping may remain local; WALTER push deferred for observed foreign work."
+    "note": "Prior listed commits proven on local origin/master89e713448; current instruction-fix/receipt work awaits coordinated publication. WALTER push deferred for foreign dirty work."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -173,34 +175,39 @@ Source/read accounting and publication are separate. Current audit checks: `rese
         "path": "AGENTS/REGINALD/reports/2026-10-16_due-rows_CFG-Q3-grade_Nano_REG-T-03.md",
         "sha256": "1420dd9f202e984921de04889ec9e543d6e46be91547c078b0e60d7d44e07891",
         "review": "Read for instruction audit or specific obligation reconciliation; no automatic owner completion inferred."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_instruction-fixes/RESULT.md",
+        "sha256": "4638e21af8bfd38ec94cba7b2ddf681a91c01e71a97da9d9fe45b3a80eb7e4ca",
+        "review": "Manual obligation comparison and scoped repair disposition; byte conservation checked separately. Not independent certification or owner market grade."
       }
     ]
   },
   "owed": [
-    "Publish current audit/disposition bookkeeping via coordinated push",
-    "Implement reviewed instruction cleanup when commissioned; expired companion review and archive eligibility remain",
-    "Owner judgments and source gaps with approved reopening conditions",
-    "PROME intake/shared checker/read-attestation work and scheduled observations"
+    "Coordinated publication of instruction-fix/receipt commits",
+    "PROME READS re-attestation and shared checker review",
+    "Expired companion content review and exhaustive old-file eligibility",
+    "Owner/source and scheduled duties under preserved approvals/reopening conditions"
   ],
-  "next_review": "2026-10-19",
+  "next_review": "2026-10-17",
   "procedure": {
     "tier": "full",
-    "scope": "Documentation audit/disposition closeout; affected-state refresh only. Earlier research receipt preserved verbatim.",
-    "claim": "PARTIAL boot remains; no new full market/source sweep or repaired read attestation claimed."
+    "scope": "Instruction-repair closeout; affected state only, earlier research receipt preserved.",
+    "claim": "PARTIAL boot remains; no new full market/source sweep or repaired READS attestation claimed."
   },
   "manual_duties": {
-    "11": "No new signals, handoffs or batches in this audit; earlier delivery scope retained.",
-    "13": "42header snapshots compared:37 unchanged,5changed reviewed;47registry rows retained, changed owner focuses refreshed before12(b).",
-    "12(a,b)": "No new routing counts; dated observations preserved as dated. Network regenerated from refreshed registry.",
-    "12(c)": "Existing FILTER POSTURE/standing flags preserved; audit records precedence-copy conflict without changing behavior.",
-    "12(d,e)": "Current SESSION_LOG entry and STATUS BOTTOM LINE rewritten for audit/disposition.",
-    "14": "Durable memory findings preserved; notes refreshed;98lines/22549bytes, within limits.",
-    "15": "Audit and approved source-search disposition recorded; previous receipt archived; resolved REGINALD confirmation and L516 date reconciled against owner evidence.",
-    "16": "Exact-path audit commit 1930f2fb02221e51546a3bce9d53b87c466561b9; pending against local origin reference. Foreign work preserved; WALTER did not push. Receipt bookkeeping committed separately.",
+    "11": "No new signals, handoffs or batches in this repair; earlier delivery scope retained.",
+    "13": "42 scoped owner headers compared with audit snapshot;41 unchanged, WALTER changed.47 registry rows retained and reviewed before12(b).",
+    "12(a,b)": "Routing counts unchanged; dated observations retained. Network regenerated from reviewed registry.",
+    "12(c)": "BALANCED/scoped catalyst posture unchanged; safety-net mirror aligned to explicit Will FLASH-floor ruling.",
+    "12(d,e)": "Tier-2 SESSION_LOG entry and STATUS BOTTOM LINE reflect implemented fixes.",
+    "14": "Memory28/29/41/43 and size history condensed; original narratives appended verbatim to MEMORY_PROMOTED. Under100lines/read budget.",
+    "15": "Current report and prior completion archived; source-search dispositions and all unrelated approvals/carries retained.",
+    "16": "Exact-path local commit pending; foreign work preserved, coordinated push deferred.",
     "Tier1": "Affected source/observation/authorization claims refreshed in current surfaces.",
-    "root.consumer": "Correction original/correcting unions checked explicitly, four missing INFOhandoffs supplied. External observations routed to owning desks; no owned numerical threshold/weight/band superseded.",
-    "root.memory": "No shared auto-memory writes. Own memory conservation checked.",
-    "root.retirement": "Current audit evidence not retirement-eligible. Exhaustive older-file eligibility remains explicitly unperformed; no move/deletion authorized by this review.",
+    "root.consumer": "No numeric threshold, grade, weight or recipient changed. Safety-net precedence relationship clarified at owner and direct dependents.",
+    "root.memory": "Own memory narratives conserved; no shared auto-memory/index edit.",
+    "root.retirement": "Current repair evidence is new. Exhaustive older-file eligibility remains unperformed; no age-only deletion or archival move.",
     "root.ledger_nudge": "No new signals, kills, corrections or threshold grades in this documentation leg. Existing event/fire-only ledgers retained at actual observation dates; no synthetic row or refresh stamp added to clear nudges.",
     "root.claim_check": "Required4weekday inputs and new11BOARD weekday checks PASS; outputs retained.",
     "root.orphans": "Review exact authored paths; exclude foreign changes and caches from local commit."

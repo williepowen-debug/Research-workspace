@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-16T19:21:31Z — instruction audit and approved source-search disposition. Runtime Codex/OpenAI; exact model variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals**. No new signals or helpers in this audit. Publication, approvals and obligations: `LAST_COMPLETION.md`.
+**Updated:** 2026-10-16T19:44:54Z — instruction fixes and Tier-2 closeout. Runtime Codex/OpenAI; exact variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals**. No new signals/helpers in this repair. Duties and publication: `LAST_COMPLETION.md`.
 
 ## BOTTOM LINE
 
-The instruction audit identifies stale rule copies, duplicated histories and specific condensation candidates; operating instructions remain unchanged. Will's approved stopping/reopening conditions for missing-source searches are recorded in LAST_COMPLETION.md. The earlier40-bookmark batch and source follow-ups remain complete within their stated limits; missing evidence has not become an all-clear. Dated market observations below were not refreshed by this documentation pass.
+Instruction cleanup implemented: charter70,223→22,668bytes, original history conserved; stale copies corrected and memory narratives condensed. Will retained FLASH bypass, including duplicates; IMMEDIATE is only the floor. Read attestation, expired-companion review and older-file retirement remain open. Earlier bookmark/source work and approved search reopening conditions remain in LAST_COMPLETION; market observations below were not refreshed by this documentation pass.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -38,7 +38,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed before this regeneration:42scoped header snapshots compared with the earlier read,37unchanged and5changed reviewed;47rows retained. Owner bands preserved absent an unambiguous overall replacement. Evidence: `research/2026-10-16_instruction-audit/context-headers.json` and `registry-refresh.json`. Bands: GREEN 4 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · YELLOW 14 · — 3. Registry dates beforeOctober9: HENRY 2026-10-08, YEYOU 2026-08-20, RAV 2026-08-02, ATHENA 2026-03-14, DARWIN 2026-02-18, CREED 2026-10-01, SENTRY 2026-05-09, FLG 2026-10-01. These are owner document dates, not fleet availability.
+REGISTRY reviewed before this regeneration:42scoped headers compared,41unchanged and WALTER changed;47rows retained, owner bands preserved. Evidence: `research/2026-10-16_instruction-fixes/context-headers.json` and `registry-refresh.json`. Bands: GREEN 4 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · YELLOW 14 · — 3. Header dates remain owner document dates, not fleet availability.
 
 Native fleet census, cross-runtime desk messaging and Telegram are unavailable. Will's earlier PROME/CATO/WALTER report is dated context, not a current exclusive census: later owner artifacts show PROME-spawned work. Availability remains UNKNOWN unless current evidence establishes otherwise. Foreign changes were observed and preserved. No doorbell or spawn follows from missing visibility. Backlog age uses delivery_log.timestamp_routed, not assumed darkness age. Today's routing remains the dated BOARD index, with each card's source limits.
 
@@ -58,11 +58,10 @@ CARL,RED,REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or ca
 - Confidence threshold: 0.30 minimum (unchanged)
 - MINIMIZE level: Normal (all signals route)
 
-**BYPASS + SAFETY-NET TRIGGERS — one merged list (RULE 5 in `CLAUDE.md` auto-loads and is canon for the safety net):**
-- WAL or ZION gap-down >5% premarket · KRE intraday drop >3% · Iran kinetic-interdiction of a US naval vessel → **FLASH**
-- **HY OAS +25bp single session** · **VIX +5 intraday, or VIX >30** → **FLASH / auto-upgrade to IMMEDIATE** (safety net)
-- 2+ agents flag the same theme in 24h → **convergence flag** · held-position liquidity drop → **FLASH**
-- Will explicit FLASH flag via Telegram → **FLASH** *(RULE 12: reply via the reply tool; form per `OPERATOR_BRIEF_SPEC`)*
+**BYPASS + SAFETY NET:** FILTER_SPEC §Pre-Gate owns FLASH bypass (even duplicates); ROUTING_OVERLAYS §Safety Net Auto-Upgrades owns thresholds/operators. IMMEDIATE is only the floor, per Will’s October16 ruling. This status summary cannot redefine a threshold.
+- WAL/ZION premarket gap-down >5%, KRE intraday drop >3%, or Iran kinetic-interdiction of a US naval vessel → FLASH.
+- Safety-net HY/VIX/convergence/liquidity/correlation triggers → FLASH pre-gate; preserve the convergence flag and exact OVERLAYS detection basis.
+- Will explicit FLASH/IMMEDIATE flag → FILTER_SPEC bypass; Telegram alert plus durable BOARD/delivery records, unavailable tool carried as a gap.
 
 **🔴 KILL-ON-SIGHT — NATO/RUSSIA PHRASINGS (registered 2026-09-18; loaded here 2026-09-19 as an INTAKE guard).** ⚠️ **Sweep result first, so this is not mistaken for a repair: all five are ABSENT from WALTER's lane** — `grep -rln` over `BOARD/` (994 signals) + `AGENTS/WALTER/` for each literal plus loosened variants; **three near-miss hits inspected individually and all three are unrelated** (£120bn = BoE APF held-to-maturity gilts `SIG-W-20260917-005`; >\$120bn = AI data-centre off-balance-sheet SPVs `SIG-W-20260627-033`; "22-year-old" = a casualty's age `SIG-W-20260906-001`). **No output was truncated.** ⇒ **These are FORWARD guards on intake, not retro-fixes.** ⚠️ **Limit, stated: this greps the phrasings AS WORDED — the same false CLAIM in different words is invisible to it.**
 

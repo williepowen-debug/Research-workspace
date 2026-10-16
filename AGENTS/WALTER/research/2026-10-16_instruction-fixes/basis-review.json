@@ -1,0 +1,40 @@
+{
+  "reviewed_changes": [
+    {
+      "path": "AGENTS/WALTER/CLAUDE.md",
+      "before": "0091de857733acf78769ee3894277a6de725a55cdaa0a906f3ce40829c79dec2",
+      "after": "67ef13a9fcf9856818a8cf2c6a236a7074bea00a597a11391ef6dfcb5ae628cd"
+    },
+    {
+      "path": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+      "before": "9d8868e8660ca2b141c1d701a735722ba8e0d15a9630b90dcf5a648866c686c2",
+      "after": "909791689a88ea11b0b8cf4b6b25771df6998495c067f9f8483a3c542fdb3863"
+    },
+    {
+      "path": "AGENTS/WALTER/design/FILTER_SPEC.md",
+      "before": "307a9010b0f609b8d41c53ef94d66708743dfaa20fd9b9d8ec27595fb65b419b",
+      "after": "07c502b5991658fb25667aee7d03d27aac0b2c815bfe30ba0f710208f5ceabea"
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_TABLE.md",
+      "before": "8077943558033d4921bf91dd4a7fd7c77334c194320d5953c7066b63339dec63",
+      "after": "5e07c839ce3ec04565e5f3572ce6ae1e0bc10f803ecd0245404a757f460210f8"
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_OVERLAYS.md",
+      "before": "0a3a2c9c48e484b4072918682ee6eb350ad6ed3bddce7e199644ee3182944c11",
+      "after": "b44667286902899e55568d24aab2a0939bd01d33d66a8f303a1c061a0e02bd66"
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md",
+      "before": "135b8a0a885cc60d17bda8d4d899b0606a3981f26bf55e989c9bbb5a07e827d8",
+      "after": "8d5ed58cd43b6afc6debd4309bc8b0334a57213f3c26292b648b363b8829ddc8"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/walter_doctor.py",
+      "before": "f1dfcd7d4b12bd94f1308b49eae949b9ffdab3a91b7458bdc3c307ad135bf45f",
+      "after": "bc3f70717cbc766bd45baa2078205999b7feb7ea3c3b995db190fa37dd7a5c82"
+    }
+  ],
+  "attestation": "PROME READS re-attestation pending; matching bytes do not certify execution."
+}

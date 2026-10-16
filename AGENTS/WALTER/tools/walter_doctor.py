@@ -1765,14 +1765,20 @@ def check_restated_set_drift():
             if m and int(m.group(1)) != n:
                 out.append((MED, f"CLUSTER_TAXONOMY heading says '{m.group(1)} clusters' but its "
                                  f"own canonical table lists {n} — self-inconsistent"))
-            # (b) CLAUDE.md dispatch step 11 restates the count
+            # (b) Step 11 either asserts a checked count or points to the canonical
+            # taxonomy (2026-10-16 instruction cleanup). A missing/moved pointer
+            # still fails loud; a false count cannot hide behind a valid pointer.
             claude = _read(WALTER / "CLAUDE.md")
             if claude:
                 m = re.search(r"MUST be 1 of the (\d+) in `CLUSTER_TAXONOMY\.md`", claude)
-                if not m:
+                canonical_pointer = re.search(
+                    r"^11\. .*canonical cluster from `design/CLUSTER_TAXONOMY\.md`",
+                    claude, re.M,
+                )
+                if not m and not canonical_pointer:
                     out.append((LOW, "CLAUDE.md step 11: cluster-count claim didn't match — "
-                                     "phrasing changed? re-anchor the regex"))
-                elif int(m.group(1)) != n:
+                                     "no canonical taxonomy pointer either; re-anchor the contract"))
+                elif m and int(m.group(1)) != n:
                     out.append((MED, f"CLAUDE.md step 11 (run on EVERY dispatch) says a cluster "
                                      f"MUST be 1 of {m.group(1)} — canonical taxonomy has {n}"))
             # (c) BOARD INDEX sections must be exactly the taxonomy set

@@ -1,0 +1,7 @@
+source      : HEAD:AGENTS/WALTER/CLAUDE.md
+destinations: AGENTS/WALTER/design/history/2026-10-16_instruction-cleanup/CLAUDE.md
+source lines: 205 (144 distinct)
+output lines: 205
+added (scaffolding, expected): 0
+
+✅ CONSERVED: every source line appears in the outputs. Nothing lost.

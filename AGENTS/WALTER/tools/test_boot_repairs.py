@@ -78,6 +78,31 @@ class BootRepairs(unittest.TestCase):
             with patch.object(doctor, 'REPO', root), patch.object(doctor, '_agent_paths', return_value=('STATUS.md', '')):
                 self.assertEqual(doctor._status_header_date('BOND'), dt.date(2026, 9, 14))
 
+    def test_cluster_pointer_does_not_hide_missing_or_false_claims(self):
+        original = doctor._read
+        pointer = '11. Every dispatch: canonical cluster from `design/CLUSTER_TAXONOMY.md`.'
+
+        def verdict(charter, taxonomy_missing=False):
+            def read(path):
+                if path == doctor.WALTER / 'CLAUDE.md':
+                    return charter
+                if taxonomy_missing and path == doctor.WALTER / 'design/CLUSTER_TAXONOMY.md':
+                    return None
+                return original(path)
+            with patch.object(doctor, '_read', side_effect=read):
+                return doctor.check_restated_set_drift()
+
+        def step_findings(result):
+            return [(level, message) for level, message in result if 'step 11' in message]
+
+        self.assertEqual(step_findings(verdict(pointer)), [])
+        self.assertTrue(step_findings(verdict('11. Every dispatch: any cluster.')))
+        # A valid pointer elsewhere cannot excuse a retired or incorrect count.
+        wrong = pointer + '\nMUST be 1 of the 999 in `CLUSTER_TAXONOMY.md`'
+        self.assertTrue(any(level == doctor.MED for level, _ in step_findings(verdict(wrong))))
+        self.assertTrue(any('taxonomy pointer' in message for _, message in verdict(pointer.replace('11.', '10.'))))
+        self.assertTrue(any('CLUSTER_TAXONOMY.md unreadable' in message for _, message in verdict(pointer, True)))
+
     def run_dashboard(self, rows, *args):
         out, err = io.StringIO(), io.StringIO()
         with patch.object(sys, "argv", ["dashboard.py", "--json", "--no-save", *args]), \
