@@ -1,0 +1,39 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261016-011.md
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261016-007.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-009.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261016-008.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261016-014.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261016-015.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-009.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-010.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-012.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-008.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-010.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261016-012.md
+     [not yours]    AGENTS/OSPREY/inbox/WALTER/SIG-W-20261016-015.md
+     [not yours]    AGENTS/RED/inbox/WALTER/SIG-W-20261016-007.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261016-010.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261016-008.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261016-011.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261016-013.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261016-014.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261016-011.md
+     [not yours]    AGENTS/YURI/inbox/WALTER/SIG-W-20261016-015.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261016-009.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261016-013.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261016-007-ft11-oct14-window-meets-flow-classifier-owner-review.md
+     [not yours]    BOARD/SIG-W-20261016-008-anthropic-june-bbplus-disclosure-and-ipo-expectations.md
+     [not yours]    BOARD/SIG-W-20261016-009-spr-exchange-offer-indonesia-distribution-limits.md
+     [not yours]    BOARD/SIG-W-20261016-010-japan-weekly-foreign-sales-mof-oct16.md
+     [not yours]    BOARD/SIG-W-20261016-011-electric-utility-utilization-not-regional-grid-headroom.md
+     [not yours]    BOARD/SIG-W-20261016-012-msci-nonoperating-rule-adopted-constituents-pending.md
+     [not yours]    BOARD/SIG-W-20261016-013-idc-q3-smartphone-shipments-memory-cost-pressure.md
+     [not yours]    BOARD/SIG-W-20261016-014-coreweave-founder-sales-cumulative-not-timing-proof.md
+     [not yours]    BOARD/SIG-W-20261016-015-sberbank-balakovo-data-center-strike-services-reported-normal.md
+     [not yours]    PROME/state/board_consumed.tsv
+     [not yours]    PROME/state/board_cursor.txt
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

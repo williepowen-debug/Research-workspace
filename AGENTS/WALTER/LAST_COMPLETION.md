@@ -1,61 +1,35 @@
-# WALTER LAST_COMPLETION — October 16 AM FULL closeout (Tier 2, walter-b4), before a machine swap
-Runtime: Claude Code, model Opus 5.5 (claude-opus-5-5), session walter-b4. Will-launched at 08:47 ET with "catch up on the morning news". At 10:46 ET Will said "after you finish your sweeps lets close out" and "We will fix the X bookmarks on desktop after we swap". Updated 2026-10-16T14:5xZ.
+# WALTER LAST_COMPLETION — Codex boot and bookmark reauthorization, October16
 
-## CURRENT RESTART
-
-Resume point for next boot (desktop, after the swap):
-1. Read this file first, then follow the charter boot.
-2. **`git pull` first and confirm that the WALTER Tier-2 closeout commit (10/16) is on origin.** The three dispatch commits (b79cdb202, ea08d95f8, e5f23d2d0) were already pushed by PROME and CATO teammate FF pushes during this closeout. The Tier-2 commit was not self-pushed because PROME's tree was dirty. If it is missing, it is on the laptop.
-3. **Re-authorize X bookmarks on the desktop** (`x_bookmarks_scan.py --authorize`; Will's instruction). The token was dead here.
-4. **Mon 10/19 AM: the FRED HY 10/16 cell decides RED-FT-02 / REG-T-03.** Over 320 = FIRE (PATH-B-CONFIRM / CREDIT-CANARY-FIRED); at or under 320 = reset.
+Runtime Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. Thread01a1458b-26e4-7a30-ac32-637669ba826e. Updated 2026-10-16T16:48:07Z. Prior AM full receipt archived verbatim: `research/2026-10-16_codex-boot/prior-LAST_COMPLETION.md`.
 
 ## STATUS
 
-Friday AM Will-launched session COMPLETE through Tier-2 closeout. BOARD 1455 → 1461 (6 signals, -001..-006). 27 handoffs. Lane batch BM-20261016-01 closed 32/32. **Boot was PARTIAL:**
-- **Ran:** steps 0, 0.5, 1, 2, 3, 6c, 7b, 7d, 7e, 7f, 7g, 7h (token dead), 9b.
-- **Not run whole:** step 6 (ROUTING_TABLE + OVERLAYS; routing used a grep of the table, the CARVEOUTS war-theater section and precedent route_log rows); 6b (CREED-T / HANS-T registries not read; RED-FT and REG-T rows read by grep for the HY/CCC/VIX/SKEW triggers only); 7 (BOARD INDEX scan); 8 (full registry refresh; only the 4 `registry_lag` rows plus WALTER were refreshed at closeout); 9 (liaison/outbox); 9a (corrections check).
-- **Threshold scan coverage:** HY, CCC, BB, B, IG, VIX and T5YIFR (FRED), SKEW (Cboe CSV), and `fetch.py` prices. Not covered: CREED-T, HANS-T daily, REG-T beyond 03/04/02, Cushing beyond the EIA relay. **No full threshold clearance claimed.**
+BOOT PARTIAL. Detailed required-order outcomes and incomplete steps: `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`. OAuth repair COMPLETE, renewed-token API read successful. No all-clear on thresholds, fleet liveness or source access.
 
 ## CHANGED
 
-- **6 BOARD signals** (route, delivery, doorbell, correction and batch ledgers appended):
-  - **-001 PRIORITY → RED, REGINALD** (info LIQUID, HENRY, CARL): FRED HY **323 bp [10/15]**, the second consecutive cell over 320. RED-FT-02 and REG-T-03 move to **2-of-3**. The third bar is 10/16, published ~Mon 10/19 AM. The level eased 2 bp. CCC 1,278 / BB 197 / B 326 / IG 84 [10/15].
-  - **-002 PRIORITY CORRECTION → REGINALD** (info ORACLE, BROCK, LIQUID, CARL, RED): 10/15-013 is FALSE. The KBRA article is dated 2023-08-01 (Heartland Tri-State Bank). The FDIC lists six 2026 failures, the latest Nano Banc on 9/25, none since. -013 was annotated in place. R1 row **COR-20261016-02 FLIP**, cap 2026-10-30.
-  - **-003 PRIORITY → FALCON** (info BRENT, HAWK, SAM, RED, PROME): Iran overnight. No ladder fire. MOAB plans prepared, not ordered. Iranian tanker-fire claim is CLAIM-ONLY. Treasury sb0660 (26 targets). US weighing shadow-fleet relief (no decision). Houthis declared Saudi airspace unsafe. FALCON to adjudicate a reported 10/14 container-ship hit against 173-26.
-  - **-004 PRIORITY → BRENT, OSPREY** (info HENRY, HAWK, FERT): EIA WPSR published 10/15. Crude −8.6M (hurricane shut-ins) confirms API's direction. Cushing +1.9M to ~26.6M. IEA >20M bbl diesel release. Surgut condensate plant fire on 10/16.
-  - **-005 PRIORITY → VULCAN** (info LIQUID, BROCK, VIOLET), confidence 0.55: Volta reportedly priced FINAL at 95c / S+650 (TokenPost only, unattributed) vs talk S+625–650 / 97–98. Reuters: AirTrunk REIT, Firmus and SB Energy listings pulled or paused. ORCL 5Y CDS record 288 [10/15].
-  - **-006 ROUTINE → HENRY** (info REGINALD, SAM, HANS, BROCK, ZHAO): Friday tape. Regional-bank Q3 credit is clean (Regions 8-K NCO 0.29%; Truist 38 bp ex-RAC). KOSPI +2.05%. Indonesia −11% on MSCI. UK bank-tax reports.
-- **Lane batch BM-20261016-01** (intake 10/15 batch, 32 items): 0 dispatched. It was all DUP of -20261015-004/-008 and FOLD into -003/-004/-005, plus NO-ACTION and 1 KILL (an Aug-12 Lummis article). ⚠️ One Russia-diesel DUP was over-numbered, which pushed the final Micron NO-ACTION off the end. The manifest closed 32/32 with class-correct dispositions, but the item numbering is shifted by one. `intake_scan.py --mark` run.
-- **DOORBELL_LOG +7:** RED, REGINALD (-001); FALCON (-003); BRENT, OSPREY (-004); HENRY (-006) NO. **VULCAN (-005) YES:** cross-session message to prome-be recommending a VULCAN touch only on tier-1 confirmation of Volta's terms, otherwise Monday.
-- **Boot basis re-attested:** USER.md (WQ-447 paragraph) and PLAYBOOK (L733 ledger line), both reviewed compatible. `boot_basis_hashes.json` updated; BOOT BASIS MATCH 29. Packet filed: `PROME/inbox/2026-10-16_from-WALTER_boot-basis-re-attestation-USER-and-PLAYBOOK.md`. PROME's 10/15 USER.md packet consumed (`git mv` to processed/ plus a `.consumed.tsv` row).
-- **REGISTRY:** surgical Updated/Focus refresh of PROME, BROCK, BOND, TERRY and WALTER. Status bands unchanged.
-- **STATUS:** lead header, BOTTOM LINE, DATED MARKET OBSERVATIONS (Credit, Volatility, Funding, Banks, Energy and Iran rows refreshed), NETWORK AWARENESS (including the receiving layer) and STATE POINTERS (X-bookmarks token dead). FILTER POSTURE unchanged.
-- **MEMORY:** session notes rewritten. Finding #6 extended with the n+1 Kansas date-trap instance.
-- **SESSION_LOG:** Tier-2 entry prepended.
-- **Morning brief to Will on Telegram** (msg 4972), plus an earlier acknowledgement (msg 4971).
+Nine signals007–015;23handoffs; route/delivery/readiness rows.37/40bookmark dispositions in OPEN BM-20261016-02. Eleven REGISTRY focus rows updated from dated owner headers; status bands unchanged. STATUS funding/claims/storage and authorization freshness repaired. Three bounded verification helpers; no domain launches. Raw evidence and receipts retained.
 
 ## RESULT
 
-- **Commits:** b79cdb202 (-001 + basis re-attest), ea08d95f8 (-002 correction), e5f23d2d0 (-003..-006). **All three are on origin** via teammate FF pushes (PROME 11e53ea97 / CATO 5ba6b3898 carried them). `reconcile_delivery_log.py --apply`: 65 rows → delivered, including all 27 of 10/16. The Tier-2 commit is local at write time.
-- **Two decision-relevant facts for Monday:** the FT-02 / REG-T-03 third bar (HY 10/16 cell), and Volta's final terms (VULCAN S5).
-- **One FALSE claim from 10/15 unwound fleet-wide** (-002).
+X access restored; seen-set untouched.40pending stagekeys retained because items18,20,38 remain unresolved. New artifacts local; owner consumption and publication not yet confirmed. Morning Tier2 commit55b4f53f3 is present in local origin/master history; fresh remote freshness UNKNOWN.
 
 ## GAPS / OWED
 
-- **Tier-2 commit not self-pushed.** Foreign uncommitted PROME work was present at closeout (state, HANDOFF, SCRATCH, STATUS, plans, artifacts; memory/2026-10-16.md). The dispatch commits were already on origin. ⚠️ **My first draft of these records said 'push deferred / all local'. That was false by receipt time, and `git fetch` caught it before the commit** (finding #29 class: a record written before the world finished moving).
-- **Boot PARTIAL** (see STATUS). The routing-law whole reads were skipped this session.
-- **MEMORY 25,159 B = 77% of the 32,550 B budget, above the 75% rotate trigger (24,412 B).** No finding acquired an owning surface today, so nothing was eligible for verbatim rotation. The next mandatory check is 2026-10-22, or when #49 gets its doctor check.
-- **X-bookmarks token dead on this machine.** Re-authorize on the desktop.
-- **`reads_check --agent WALTER`** still prints READS-CAP UNKNOWN (WALTER's attestation date is behind its boot protocol) even after PROME re-stamped the two BASIS rows (11e53ea97). The charter-size finding (CLAUDE.md 70,223 B) is unchanged.
-- **Sweep reports are not retained in-repo** (scratchpad only). The BOARD signals carry their sources.
-- **R1 write-compliance:** COR-20261015-22 targets widened (+CARL, HENRY, TERRY; they received -001). The two remaining SHORT-TARGETS flags (COR-20261015-05 and -06) are a **checker misparse**: `corrects_boot_check --write-compliance` reads a pointer like `-to-014-018` as same-day `20261015-014` rather than `20261014-018`, so the targets were NOT widened to the wrong desks. Flag to the script owner when convenient.
-- **Doctor MEDs carried:** `LABOR_DOWN` cluster residual; delivery_log L2933/L2934 AMENDMENT-NOTE ids; 20 NOTE rows; SIG-W-20261015-015's malformed `corrects:` value; delivered_but_unconsumed 122 (27 ACTION).
+- Step0 workspace pull and publication deferred for concurrent foreign work. Preserve PROME/CRUISE work and earlier untracked10/12cache.
+- Step6c partial thresholds; step7 context perimeter incomplete; step8 full registry refresh incomplete. Detailed missing instruments/reads in BOOT-RECEIPT.
+- BM-20261016-02 remains OPEN:18 Xarticle404;20 UANI advocacy-source validation/current Iran guard;38 blocked CNBC ChinaPPI body. No --mark until these are dispositioned and batch closed.
+- VULCAN intake-expansion packet remains deliberately pending; no collector deployment approved or inferred.
+- Read attestation stale/UNKNOWN and charter over cap; current-byte rechecks retained. Doctor final6MED/0HIGH includes open batch plus existing schema/backlog issues. R1 write-compliance retains two prior SHORT-TARGETS findings; prior receipt diagnoses the cross-date pointer misparse, not repaired or silently waived here.
+- Prior obligations below are preserved; untested owner outcomes remain UNKNOWN, not silently discharged. Volta tier1 terms and full Iran sweep not rerun.
 
 ## WILL_NEEDS
 
-None newly required. Existing choices stay with their owners: AI_INFRA_CAPEX re-cut/split; verdict-letter F1/F2; staleness-sweep P2; CRUISE miss option 2. WQ-401 S1 boot line still awaits PROME (DOCKET L730). No trade, unattended run or spawn authority is inferred.
+No further authorization required for X; Will completed browser consent. No new trade, spawn, collection or unattended-run approval inferred. Publication waits for coordinated clean-tree sync.
 
 ## FOLLOW-UP
+
+0. **Current boot:** finish three pending bookmark items and remaining boot scope above; publish the local signal/handoff commit. FT11 owner adjudication is requested in007; no WALTER owner-grade substitute.
 
 1. **Mon 10/19 AM FRED HY 10/16 cell:** RED-FT-02 / REG-T-03 3-of-3 FIRE if >320, reset if ≤320. RED and REGINALD grade it; WALTER reads it at boot. *(Yesterday's #1, the 10/15 cell, DISCHARGED: 323, 2-of-3.)*
 2. **Volta final terms on tier-1 confirmation** → VULCAN S5 grade (-005). Re-search Bloomberg / PitchBook-LCD / Reuters at the next boot.
@@ -70,6 +44,7 @@ None newly required. Existing choices stay with their owners: AI_INFRA_CAPEX re-
 11. **Dark-desk watch:** WAL 10/19–20 (date UNCONFIRMED); OZK 10/20 AMC (confirmed); RCL call 10/27; FOMC 10/27–28; Carvana 10/28; UK Budget 10/28; ECB 10/29; BZZ26 last trade 10/30 (boundary #8 switch 11/2); Treasury refunding 11/4; Veterans Day 11/11. *Items for 10/16 not checked this session: LIQ-07, TIC (16:00 ET), H.8 / tanker weekly.*
 12. **Korea foreign-flow direction 10/16** is unresolved (KT net buy vs AJU net sell). SAM can check KRX.
 *(Resolved since 10/15: SKEW 10/15 bar = 160.45, re-entry inside FT-10's fired state, exit 0/4; EIA WPSR = published 10/15, −8.6M; Kansas bank #4 = FALSE, -002.)*
+
 
 ## OPEN DESIGN DECISIONS
 
@@ -87,64 +62,83 @@ None newly required. Existing choices stay with their owners: AI_INFRA_CAPEX re-
 
 **Carried process ideas:** k, t, u, a, s, j, p. No active top-level REQ.
 
+
 ## CLOSEOUT RECEIPT
 
-Full Tier-2 write-back (steps 13 → 12(a–f) → 14 → 15 → 16). The dispatch commits are published; the Tier-2 commit is local at write time. Selected checks, recipient integration and market coverage remain separate claims.
+Light routing closeout; full procedure coverage remains PARTIAL. Checks and publication are separate claims.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-16T14:58:21Z",
+  "as_of": "2026-10-16T16:48:07Z",
   "publication": [
-    {"commit": "b79cdb202", "state": "published"},
-    {"commit": "ea08d95f8", "state": "published"},
-    {"commit": "e5f23d2d0", "state": "published"}
+    {
+      "commit": "55b4f53f3",
+      "state": "published"
+    }
   ],
   "delivery": {
     "signal_date": "20261016",
-    "total": 27,
+    "total": 50,
     "delivered": 27,
-    "note": "27 handoffs; all on origin via teammate FF pushes; reconcile_delivery_log.py --apply flipped them (65 rows total incl. older)."
+    "note": "Prior AM27 already recorded delivered; current23 written pending local commit/push."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "3 dispatch commits on origin (teammate FF pushes); the Tier-2 commit is local, not self-pushed (PROME tree dirty, charter step 16)."
+    "note": "Concurrent foreign writes observed; no push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/WALTER/inbox/processed/2026-10-15_from-PROME_USER-md-changed-after-your-re-attestation.md", "sha256": "6639aa6f7027086612a8d965aa77b3bd5b914dbcc08da3eec898a77848cdc0b5", "review": "Read whole; USER.md diff reviewed; hash re-attested; PROME re-stamped READS rows (11e53ea97)."}
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/verify-ai-finance.json",
+        "sha256": "f9d3db27951d463601ddb861f67f71dd4a09bc4677ea6c5cccc7131168c3dc14",
+        "review": "Read; material claim, source observation and access limits checked; not domain-owner adoption."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/verify-energy.md",
+        "sha256": "5fabc0dca8fcd5997b033fdf014480461e02178c6897612e8abb47348f1327a2",
+        "review": "Read; material claim, source observation and access limits checked; not domain-owner adoption."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/verify-macro.md",
+        "sha256": "d48c0689527c07effc2a2f4cd3fcc9091bc77eed96be9550eb95ec8aba20c24e",
+        "review": "Read; material claim, source observation and access limits checked; not domain-owner adoption."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/bookmark-dispositions.md",
+        "sha256": "649d4db8c7c3cf23ee2fbbbeac33a75c1fe54e17b08ee8ca0594f303df1736cc",
+        "review": "Read; material claim, source observation and access limits checked; not domain-owner adoption."
+      }
     ]
   },
   "owed": [
-    "Tier-2 commit to origin (next clean-tree push)",
-    "Mon 10/19 AM FRED HY 10/16 cell: RED-FT-02 / REG-T-03 fire or reset",
-    "X-bookmarks re-authorize on desktop",
-    "Volta final terms on tier-1 confirmation (VULCAN S5)",
-    "VULCAN intake-expansion design pass",
-    "MEMORY rotation (77% of budget; check 10/22)"
+    "Finish BM-20261016-02 items18,20,38; then close and mark exact stage",
+    "Complete unrun boot scope per BOOT-RECEIPT",
+    "Publish current exact-path commit at clean coordinated sync",
+    "Carry all FOLLOW-UP and OPEN DESIGN DECISIONS below"
   ],
   "next_review": "2026-10-19",
   "procedure": {
-    "tier": "full",
-    "scope": "Tier-2 steps 13, 12(a-f), 14, 15, 16 (commit only); boot was PARTIAL",
-    "claim": "Selected checks as recorded; no full market clearance; no full threshold scan"
+    "tier": "light",
+    "scope": "Routing closeout; partial boot; selected checks only",
+    "claim": "No full procedure certification"
   },
   "manual_duties": {
-    "13": "REGISTRY: 5 rows refreshed header-only (PROME, BROCK, BOND, TERRY, WALTER); bands unchanged",
-    "12(a,b)": "STATUS lead + NETWORK AWARENESS regenerated from the refreshed REGISTRY, with the receiving layer",
-    "12(c)": "FILTER POSTURE unchanged (BALANCED; bank-Q3 window scoped LOOSE)",
-    "12(d,e)": "SESSION_LOG entry prepended; BOTTOM LINE re-cut",
-    "12(f)": "STATUS 14,020 B = 43% of budget",
-    "14": "MEMORY session notes rewritten; #6 n+1; 25,159 B = 77%, OVER the 75% trigger, rotation deferred (no owning surface acquired today)",
-    "15": "This file overwritten",
-    "16": "Pathspec commits; dispatch commits on origin via teammates; Tier-2 commit not self-pushed (foreign dirty tree); delivery_log reconciled after the fetch",
-    "root.orphans": "see closeout check output",
-    "root.consumer": "No WALTER-owned threshold/flip/split/band superseded (count advances and a correction of a claim, not of a figure others cite as a threshold)",
-    "root.ledger_nudge": "kill_log +1 (lane Lummis date-stale KILL, was batch-manifest only until the nudge caught it); event-driven fire/receipt/deep-research ledgers: no fire, no receipt owed, no flag today. Event ledgers appended: route_log +6, delivery_log +27, CORRECTIONS +1, BATCH_MANIFEST +1, DOORBELL_LOG +7, intake_seen reconciled",
-    "root.memory": "No auto-memory written this session",
-    "root.retirement": "Not re-assessed this session (10/15 census, 0 candidates)",
-    "root.claim_check": "Weekday check clean on all 10/16 BOARD cards + handoffs before each commit"
+    "13": "11bounded header-focus updates; no owner band changes; full registry refresh incomplete",
+    "12": "Surgical dated STATUS updates and SESSION_LOG only; derived network AM snapshot retained as dated",
+    "14": "Deferred at light tier; no memory edits",
+    "15": "Current receipt with verbatim carried followups/open decisions; prior full record archived",
+    "16": "Exact-path local commit pending; no push due concurrency",
+    "root.consumer": "No owned threshold/flip/split/band superseded; external claims routed with source limits",
+    "root.memory": "No auto-memory edits",
+    "root.retirement": "Not reassessed at this light routing closeout; prior10/15census is historical only",
+    "11": "9BOARD/23handoffs authored;37of40batch items dispositioned;3pending; no mark or owner-consumption claim",
+    "Tier1": "Dated funding/claims/storage/auth repair; remaining old levels labelled, no fresh clearance",
+    "Tier1.breadcrumb": "One light-closeout breadcrumb prepended",
+    "root.ledger_nudge": "route/delivery/batch/doorbell/kill ledgers updated in this same pending commit; no new certified threshold fire or correction receipt; no deepresearch flag; no event fabricated to satisfy age",
+    "root.claim_check": "Selected weekday check PASS4files; handoff weekday tokens absent except correctly dated source text",
+    "root.orphans": "Advisory retained in closeout/orphans.txt; commit only exact authored paths; preexisting10/12cache excluded"
   }
 }
 END_CLOSEOUT_RECEIPT -->

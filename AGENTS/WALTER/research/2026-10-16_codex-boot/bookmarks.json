@@ -1,0 +1,679 @@
+[
+  {
+    "id": "2111118074816737771",
+    "dedup_key": "2111118074816737771",
+    "author_id": "2070363238932373504",
+    "username": "macropaperr",
+    "created_at": "2026-10-16T15:32:26.000Z",
+    "text": "$480 Billion erased from the US stock market in last 2 hours as Nasdaq dropped 1.2%. https://t.co/XelbUGSSCS",
+    "full_text": "$480 Billion erased from the US stock market in last 2 hours as Nasdaq dropped 1.2%. https://t.co/XelbUGSSCS",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwygd-bEAAUuYm.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2111058732650045666",
+    "dedup_key": "2111058732650045666",
+    "author_id": "2704294333",
+    "username": "DeItaone",
+    "created_at": "2026-10-16T11:36:38.000Z",
+    "text": "ANTHROPIC SECURES BB+ CREDIT RATING AS WALL STREET PREPARES $60 BILLION AI FINANCING\n\nAnthropic received a BB+ credit rating from KBRA, just one notch below investment grade, ahead of a $35 billion chip financing deal.\n\nNow, Wall Street banks are reportedly assembling another $60",
+    "full_text": "ANTHROPIC SECURES BB+ CREDIT RATING AS WALL STREET PREPARES $60 BILLION AI FINANCING\n\nAnthropic received a BB+ credit rating from KBRA, just one notch below investment grade, ahead of a $35 billion chip financing deal.\n\nNow, Wall Street banks are reportedly assembling another $60 billion financing package for AI chips developed by Google ($GOOGL) and Broadcom ($AVGO).\n\nThe company could also issue up to $42 billion in convertible notes to finance chip leases.\n\nThe key concern: Anthropic's massive AI expansion increasingly depends on access to affordable debt financing.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2111092456590848355",
+    "dedup_key": "2111092456590848355",
+    "author_id": "703601972",
+    "username": "akshay_pachaar",
+    "created_at": "2026-10-16T13:50:38.000Z",
+    "text": "Stanford just reinvented text generation.\n\n(it’s neither autoregressive nor diffusion)\n\nAutoregressive LLMs generate one token at a time. Longer answers require longer chains of sequential predictions.\n\nDiffusion LLMs generate many tokens in parallel, but still need repeated https://t.co/LThqrf1fKt",
+    "full_text": "Stanford just reinvented text generation.\n\n(it’s neither autoregressive nor diffusion)\n\nAutoregressive LLMs generate one token at a time. Longer answers require longer chains of sequential predictions.\n\nDiffusion LLMs generate many tokens in parallel, but still need repeated refinement passes. Each pass processes the full sequence, and quality drops quickly when you cut the passes.\n\nStanford researchers proposed another approach, Next-Concept Modeling (NCM). It generates text from coarse structure to fine detail in roughly a dozen passes.\n\nFirst, a tokenizer learns to represent text as layers of compressed information. Early layers capture broad structure, while later layers add details the earlier ones missed.\n\nA transformer then learns to generate these layers in order, predicting everything within each layer simultaneously. A decoder converts the completed representation into text.\n\nThe advantage is that early layers are tiny. Generation needs fewer passes, and those early passes process much less information.\n\nYou can see this in the team’s translation example. Early layers produce rough, repetitive text, which later layers refine into a clean translation.\n\nIn the researchers’ tests, NCM generated text 10–31× faster than strong diffusion baselines, with comparable or better benchmark scores. On LM1B and OpenWebText, it also used roughly 4–5× fewer training tokens, including tokenizer training.\n\nThat speed can also improve quality. Generating several candidates and selecting one based on agreement outperformed diffusion baselines at the same sampling time budget.\n\nThe limits matter. Scaling experiments reach 725M parameters, tasks use separate tokenizers, and the release includes evaluation code and checkpoints without a training pipeline.\n\nSome evaluations also use repetition penalties during final decoding, without additional model calls.\n\nNCM shows that parallel generation can work by building increasingly detailed representations. Whether those gains hold at general-purpose LLM scale remains open.\n\n- GitHub repo: https://t.co/WXqcGEX056\n- Paper: https://t.co/G5v0TVpzwj",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwbZqFaoAAV76X.jpg"
+      }
+    ],
+    "links": [
+      "https://github.com/HazyResearch/ncm",
+      "https://arxiv.org/abs/2610.14162"
+    ],
+    "dig": [
+      "media",
+      "link"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2111091037972181403",
+    "dedup_key": "2111091037972181403",
+    "author_id": "1640054058684743680",
+    "username": "ChillBanking",
+    "created_at": "2026-10-16T13:45:00.000Z",
+    "text": "JP Morgan calls for a re-rating in memory stocks on “business model transformation” with “unprecedented forward visibility”\n\n“The setup for memory is meaningfully stronger than 90 days ago, with the structural S-D imbalance deepening and business model transformation gaining https://t.co/EVh593qtGe",
+    "full_text": "JP Morgan calls for a re-rating in memory stocks on “business model transformation” with “unprecedented forward visibility”\n\n“The setup for memory is meaningfully stronger than 90 days ago, with the structural S-D imbalance deepening and business model transformation gaining pace.” $SNDK $MU $SKHY",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwUz0cWsAAZTEk.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2111101792272699405",
+    "dedup_key": "2111101792272699405",
+    "author_id": "3295423333",
+    "username": "FirstSquawk",
+    "created_at": "2026-10-16T14:27:44.000Z",
+    "text": "US OFFERS AS MUCH AS 17M BBL CRUDE FROM STRATEGIC RESERVE",
+    "full_text": "US OFFERS AS MUCH AS 17M BBL CRUDE FROM STRATEGIC RESERVE",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2111070249466409460",
+    "dedup_key": "2111070249466409460",
+    "author_id": "2704294333",
+    "username": "DeItaone",
+    "created_at": "2026-10-16T12:22:23.000Z",
+    "text": "FED HIKE ODDS CRASH FROM 55% TO 13%\n\nWarsh signals an October pause despite inflation hitting 3.7%.\n\nKalshi now puts the odds of a Fed hold at 86%, up from 50%.\n\n📊 Watch the odds move in real time 👇\nhttps://t.co/zjyZ70SiCv https://t.co/rN61sTYvzq",
+    "full_text": "FED HIKE ODDS CRASH FROM 55% TO 13%\n\nWarsh signals an October pause despite inflation hitting 3.7%.\n\nKalshi now puts the odds of a Fed hold at 86%, up from 50%.\n\n📊 Watch the odds move in real time 👇\nhttps://t.co/qUEGIdb1ac",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwHFFTXcAEBW51.png"
+      }
+    ],
+    "links": [
+      "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26oct?utm_source=walterbloomberg"
+    ],
+    "dig": [
+      "media",
+      "link"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110855319047852167",
+    "dedup_key": "2110855319047852167",
+    "author_id": "486834036",
+    "username": "sarrah_bellus",
+    "created_at": "2026-10-15T22:08:20.000Z",
+    "text": "And we have a fourth strike!! \nUkraine has struck a fourth Russian data center, despite new Starlink restrictions 🇺🇦 https://t.co/HLx1ZZ0L8T",
+    "full_text": "And we have a fourth strike!! \nUkraine has struck a fourth Russian data center, despite new Starlink restrictions 🇺🇦 https://t.co/HLx1ZZ0L8T",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2110855266182823936/img/69RKT0Mf0RGumXWO.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110931649680797932",
+    "dedup_key": "2110931649680797932",
+    "author_id": "1261335549215989760",
+    "username": "Polymarket",
+    "created_at": "2026-10-16T03:11:39.000Z",
+    "text": "JUST IN: G7 nations agree to launch simulated AI-powered cyberattacks on financial systems to test their defenses.",
+    "full_text": "JUST IN: G7 nations agree to launch simulated AI-powered cyberattacks on financial systems to test their defenses.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2111061228433134056",
+    "dedup_key": "2111061228433134056",
+    "author_id": "906230721513181184",
+    "username": "coinbureau",
+    "created_at": "2026-10-16T11:46:33.000Z",
+    "text": "JUST IN: 🇮🇩Indonesia’s stock market wiped out $60,000,000,000 today, its worst day in 28 years.\n\nThe Jakarta Composite closed down 11.57% at 5,185, a level not seen in almost 26 years.\n\nThe last bigger daily drop came during the 1998 Asian financial crisis, when a collapsing https://t.co/SgN0PkuMkr",
+    "full_text": "JUST IN: 🇮🇩Indonesia’s stock market wiped out $60,000,000,000 today, its worst day in 28 years.\n\nThe Jakarta Composite closed down 11.57% at 5,185, a level not seen in almost 26 years.\n\nThe last bigger daily drop came during the 1998 Asian financial crisis, when a collapsing rupiah drove up foreign debt costs and deepened a banking crisis.\n\nThe index is now down about 40% this year.\n\nThe fall comes amid MSCI proposing to strip Indonesia of emerging-market status over opaque ownership, suspected coordinated trading and weak enforcement.\n\nThat could force funds tracking its global indices to sell Indonesian stocks.\n\nUBS estimates around $4 BILLION in passive outflows, with active investors potentially withdrawing another $15 BILLION.\n\nThe downgrade is still pending, with a final decision due by June 2027.\n\nThe rout comes as South Korea’s KOSPI fell -14.46% this week, its worst week since the 2008 financial crisis.",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUv4iQibkAA8IVp.png"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2111083472400093666",
+    "dedup_key": "2111083472400093666",
+    "author_id": "1387497871751196672",
+    "username": "WatcherGuru",
+    "created_at": "2026-10-16T13:14:56.000Z",
+    "text": "JUST IN: Visa officially launches stablecoin payments through Visa Direct, enabling near-instant global payouts using $USDC across 180+ countries.",
+    "full_text": "JUST IN: Visa officially launches stablecoin payments through Visa Direct, enabling near-instant global payouts using $USDC across 180+ countries.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2111079715381616892",
+    "dedup_key": "2111079715381616892",
+    "author_id": "2027429188400254976",
+    "username": "Kalshi_Finance",
+    "created_at": "2026-10-16T13:00:00.000Z",
+    "text": "BREAKING: CoreWeave $CRWV founders cashed out $3.3 billion before the \"meltdown\"",
+    "full_text": "BREAKING: CoreWeave $CRWV founders cashed out $3.3 billion before the \"meltdown\"",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110912053510635795",
+    "dedup_key": "2110912053510635795",
+    "author_id": "34713362",
+    "username": "business",
+    "created_at": "2026-10-16T01:53:47.000Z",
+    "text": "Indonesia faces a potential ejection from global stock indexes after MSCI said the country no longer merits emerging-market status, escalating the threat of foreign investor flight as concerns deepen over market integrity. https://t.co/GBhH97lIJV\n\n📷️: Muhammad Fadli/Bloomberg https://t.co/5jMfy3POpJ",
+    "full_text": "Indonesia faces a potential ejection from global stock indexes after MSCI said the country no longer merits emerging-market status, escalating the threat of foreign investor flight as concerns deepen over market integrity. https://t.co/GBhH97lIJV\n\n📷️: Muhammad Fadli/Bloomberg https://t.co/5jMfy3POpJ",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUt3U5oWIAAS1Yh.jpg"
+      }
+    ],
+    "links": [
+      "https://bloom.bg/4zCCLQR"
+    ],
+    "dig": [
+      "media",
+      "link"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2111060279413088412",
+    "dedup_key": "2111060279413088412",
+    "author_id": "815942827968495616",
+    "username": "BullTheoryio",
+    "created_at": "2026-10-16T11:42:46.000Z",
+    "text": "BREAKING: G7 countries are now preparing for a major AI cyberattack on the banking system.\n\nG7 governments and central banks have agreed to run simulated AI attacks to test how they would respond to a major incident. https://t.co/DYvtjR1ncb",
+    "full_text": "BREAKING: G7 countries are now preparing for a major AI cyberattack on the banking system.\n\nG7 governments and central banks have agreed to run simulated AI attacks to test how they would respond to a major incident. https://t.co/DYvtjR1ncb",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUv-DmNakAAiouZ.jpg"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUv-DmNaIAA_jL4.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110982708893823424",
+    "dedup_key": "2110982708893823424",
+    "author_id": "3295423333",
+    "username": "FirstSquawk",
+    "created_at": "2026-10-16T06:34:32.000Z",
+    "text": "South Korea’s KOSPI Ends the Week Down 14.5%, Its Worst Weekly Performance Since October 2008",
+    "full_text": "South Korea’s KOSPI Ends the Week Down 14.5%, Its Worst Weekly Performance Since October 2008",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110980827941101758",
+    "dedup_key": "2110980827941101758",
+    "author_id": "2004722276659593216",
+    "username": "HormuzLetter",
+    "created_at": "2026-10-16T06:27:04.000Z",
+    "text": "BREAKING: Bali has run out of fuel, with hours-long queues outside gas stations since Sunday and attendants posting signs reading \"Sorry, no fuel available.\" Shortages are now hitting at least 11 Indonesian provinces.\n\nWaiting times reached 2 to 3 hours in West Sumatra, and",
+    "full_text": "BREAKING: Bali has run out of fuel, with hours-long queues outside gas stations since Sunday and attendants posting signs reading \"Sorry, no fuel available.\" Shortages are now hitting at least 11 Indonesian provinces.\n\nWaiting times reached 2 to 3 hours in West Sumatra, and diesel queues ran about a kilometre on the Merak-Tangerang highway in Banten. Diesel or Pertalite sold out in Aceh, Riau, West Kalimantan, South Sulawesi, North Sulawesi and Yogyakarta.\n\nFuel tenders now attract few participants, per Indonesia's oil and gas director general, forcing the government to seek supplies directly from countries with surplus stocks at higher prices. Indonesia lost 25% of its fuel import sources after the Iran war began.\n\nBali is now preparing to restrict subsidised fuel sales to the top income decile.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2111049897931653240",
+    "dedup_key": "2111049897931653240",
+    "author_id": "1436021471671955465",
+    "username": "IranObserver0",
+    "created_at": "2026-10-16T11:01:31.000Z",
+    "text": "⚡️JUST IN: Iran has announced it has struck an Oil Tanker near Oman for transiting the Strait of Hormuz Illegally\n\nOver 26 Vessels have been hit by Iran in the past 2 Weeks https://t.co/yaAZmmPpSP",
+    "full_text": "⚡️JUST IN: Iran has announced it has struck an Oil Tanker near Oman for transiting the Strait of Hormuz Illegally\n\nOver 26 Vessels have been hit by Iran in the past 2 Weeks https://t.co/yaAZmmPpSP",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2111049885524889601/img/cfW4yEGfzbA8Rlcq.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2111060586989564330",
+    "dedup_key": "2111060586989564330",
+    "author_id": "3316376038",
+    "username": "KobeissiLetter",
+    "created_at": "2026-10-16T11:44:00.000Z",
+    "text": "The initial response to this article has been incredible.\n\nThe S&amp;P 500 is now &lt;1% away from a record high but 206 of its components are down over -30%.\n\nNever in history has this happened before.\n\nIt's the \"Bear-Bull Market Paradox.\" Bookmark this. https://t.co/CuUwtwaw5V",
+    "full_text": "The initial response to this article has been incredible.\n\nThe S&amp;P 500 is now &lt;1% away from a record high but 206 of its components are down over -30%.\n\nNever in history has this happened before.\n\nIt's the \"Bear-Bull Market Paradox.\" Bookmark this. https://t.co/CuUwtwaw5V",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110778022131306528",
+    "dedup_key": "2110778022131306528",
+    "author_id": "3316376038",
+    "username": "KobeissiLetter",
+    "created_at": "2026-10-15T17:01:11.000Z",
+    "text": "https://t.co/WahTIU665I",
+    "full_text": "https://t.co/WahTIU665I",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110845674455474662",
+    "dedup_key": "2110845674455474662",
+    "author_id": "1617356004609384451",
+    "username": "silvertrade",
+    "created_at": "2026-10-15T21:30:01.000Z",
+    "text": "🚨US Mint Gold Coin Sales Plunge to Lowest Level Since 2000⚠️\n\n👀The data shows that the US retail channel is the quietest it has been in a GENERATION: 👇\nhttps://t.co/x8vUnSuHiX",
+    "full_text": "🚨US Mint Gold Coin Sales Plunge to Lowest Level Since 2000⚠️\n\n👀The data shows that the US retail channel is the quietest it has been in a GENERATION: 👇\nhttps://t.co/1vbaB0KeEs",
+    "media": [],
+    "links": [
+      "https://silvertrade.com/news/precious-metals/gold-news/us-mint-gold-coin-sales-plunge-to-lowest-level-since-2000/"
+    ],
+    "dig": [
+      "link"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2111045850101100834",
+    "dedup_key": "2111045850101100834",
+    "author_id": "2704294333",
+    "username": "DeItaone",
+    "created_at": "2026-10-16T10:45:26.000Z",
+    "text": "IRANIAN FUEL SHIPMENTS BREACH U.S. NAVAL BLOCKADE \n\nIran has reportedly exported 4.1 million barrels of LPG aboard at least eight tankers since July, despite the U.S. naval blockade.\n\nA separate shipment of Iranian jet fuel reached Myanmar, while some LPG cargoes were likely",
+    "full_text": "IRANIAN FUEL SHIPMENTS BREACH U.S. NAVAL BLOCKADE \n\nIran has reportedly exported 4.1 million barrels of LPG aboard at least eight tankers since July, despite the U.S. naval blockade.\n\nA separate shipment of Iranian jet fuel reached Myanmar, while some LPG cargoes were likely headed to China.\n\nMeanwhile, Iranian crude exports fell to zero in September, according to Kpler.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2111015360975532461",
+    "dedup_key": "2111015360975532461",
+    "author_id": "988955288",
+    "username": "Investingcom",
+    "created_at": "2026-10-16T08:44:17.000Z",
+    "text": "⚠️BREAKING:\n\n*INDONESIA STOCKS PLUNGE 11%, MOST SINCE 1998, AS MSCI CONSIDERS DOWNGRADING THE COUNTRY\n\n🇮🇩 🇮🇩 https://t.co/nVYTvpFTrA",
+    "full_text": "⚠️BREAKING:\n\n*INDONESIA STOCKS PLUNGE 11%, MOST SINCE 1998, AS MSCI CONSIDERS DOWNGRADING THE COUNTRY\n\n🇮🇩 🇮🇩 https://t.co/nVYTvpFTrA",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvVRvMW4AAaxyF.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110889104506532107",
+    "dedup_key": "2110889104506532107",
+    "author_id": "1586128484870590465",
+    "username": "RealJohnGaltFla",
+    "created_at": "2026-10-16T00:22:35.000Z",
+    "text": "Welp, that didn't take long. From https://t.co/VMTeG1RqfG: https://t.co/Sq8aNVk3as",
+    "full_text": "Welp, that didn't take long. From https://t.co/VMTeG1RqfG: https://t.co/Sq8aNVk3as",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUtictoW4AI2g4l.jpg"
+      }
+    ],
+    "links": [
+      "https://OilPrice.com"
+    ],
+    "dig": [
+      "media",
+      "link",
+      "pointer"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110882600239984962",
+    "dedup_key": "2110882600239984962",
+    "author_id": "3295423333",
+    "username": "FirstSquawk",
+    "created_at": "2026-10-15T23:56:44.000Z",
+    "text": "JAPANESE INVESTORS SOLD ¥339.7 BLN OF FOREIGN BONDS IN THE WEEK TO OCT. 10, A SMALLER OUTFLOW THAN THE PRIOR ¥347.6 BLN, WHILE SELLING ¥760.6 BLN OF FOREIGN STOCKS AFTER BUYING ¥1,328.6 BLN.",
+    "full_text": "JAPANESE INVESTORS SOLD ¥339.7 BLN OF FOREIGN BONDS IN THE WEEK TO OCT. 10, A SMALLER OUTFLOW THAN THE PRIOR ¥347.6 BLN, WHILE SELLING ¥760.6 BLN OF FOREIGN STOCKS AFTER BUYING ¥1,328.6 BLN.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110822233941713141",
+    "dedup_key": "2110822233941713141",
+    "author_id": "17802669",
+    "username": "JG_Nuke",
+    "created_at": "2026-10-15T19:56:52.000Z",
+    "text": "Lennar caught selling homes to themselves, juicing numbers and inflating comps. \nh/t @hntrbrkmedia @m3_melody $LEN https://t.co/7vkX4cTWXK",
+    "full_text": "Lennar caught selling homes to themselves, juicing numbers and inflating comps. \nh/t @hntrbrkmedia @m3_melody $LEN https://t.co/7vkX4cTWXK",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2110813263332016128/img/KUq2mbyO2-VNz_UZ.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110708900752454134",
+    "dedup_key": "2110708900752454134",
+    "author_id": "1753467918690508801",
+    "username": "SternDrewCrypto",
+    "created_at": "2026-10-15T12:26:31.000Z",
+    "text": "🚨 WE ARE ABOUT TO WITNESS THE BIGGEST WAR IN HISTORY FOR THE SURVIVAL OF PETRODOLLAR\n\nMassive U.S. bomber formations, continuous surveillance flights, and heavy air movements are now saturating the skies near Iran. This is no longer posturing. \n\nThis is the opening chapter of https://t.co/2ciEgoAuSd https://t.co/mRmlrWEZ6X",
+    "full_text": "🚨 WE ARE ABOUT TO WITNESS THE BIGGEST WAR IN HISTORY FOR THE SURVIVAL OF PETRODOLLAR\n\nMassive U.S. bomber formations, continuous surveillance flights, and heavy air movements are now saturating the skies near Iran. This is no longer posturing. \n\nThis is the opening chapter of the biggest geopolitical-financial war of our lifetime, the one that will decide whether the petrodollar survives… or dies.\n\nIf the U.S. fails to completely dismantle the IRGC’s control inside Iran, the consequences are not gradual. They are terminal‼️\n\nIran has already laid down the new law of energy: Every single barrel of oil that passes through the Strait of Hormuz, the artery carrying ~20% of the world’s crude, must be settled in Chinese yuan. No dollars. Full stop.\n\nThe moment that demand sticks, the 50-year monopoly that forced the world to recycle oil revenues into U.S. Treasuries collapses overnight. The petrodollar doesn’t weaken. It dies. And the yuan (backed by real oil flow) becomes the new settlement currency of the energy world.\n\nJeff Currie, former Goldman Sachs head of commodities and lifelong insider of the dollar system, just laid out the one line America cannot cross. Handing control of the Strait of Hormuz to Iran is not a tactical retreat. It is the formal end of the United States as global hegemon and the death of the dollar as the world’s reserve currency.\n\nJP Morgan CEO Jamie Dimon said that Iran had its “throat on the Strait of Hormuz” for 45+ years and told the Trump administration to “finish this thing and finish it right.”\n\nBank of America reports that U.S. now only has 43-day emergency buffer of crude oil left in 45-year low.\n\nJapan’s @yutokanzakireal had warned about the off-the-record deals signed for Japan’s energy security.\n\nIf Japan’s oil purchases start to be priced in Yen, it’s going to be catastrophic for the global economy.\n\nThe faith of the fiat system is now being decided in the skies over the Middle East.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2110708887058014209/img/Mz6y3f8QwTOEOp-H.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2103919532796465604",
+    "dedup_key": "2103919532796465604",
+    "author_id": "1876336840153640960",
+    "username": "yutokanzakireal",
+    "created_at": "2026-09-26T18:48:00.000Z",
+    "text": "イランは、米国との戦争に勝つための戦略の一環として、日本が依存する石油の流れを妨害する意図があるように見える。 \n東京は、日本のエネルギー安全保障が巻き添え被害となることを許さない。\nトランプ政権との間で重要なエネルギー安全保障取引が行われた。",
+    "full_text": "イランは、米国との戦争に勝つための戦略の一環として、日本が依存する石油の流れを妨害する意図があるように見える。 \n東京は、日本のエネルギー安全保障が巻き添え被害となることを許さない。\nトランプ政権との間で重要なエネルギー安全保障取引が行われた。 \nすべてのチャネルが利用されると予想される。日本のエネルギー需要を確保するための、オフレコで行われる取引も含めて。",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110837977928638529",
+    "dedup_key": "2110837977928638529",
+    "author_id": "2704294333",
+    "username": "DeItaone",
+    "created_at": "2026-10-15T20:59:26.000Z",
+    "text": "ANTHROPIC’S IPO VALUATION EXPECTATIONS DROP FROM $2 TRILLION TO $1.5 TRILLION\n\nSome investors are considering a $1.5 trillion valuation for Anthropic’s upcoming IPO, down 25% from earlier expectations of $2 trillion.\n\nAnthropic reported $16.8 billion in Q3 revenue, up 45%",
+    "full_text": "ANTHROPIC’S IPO VALUATION EXPECTATIONS DROP FROM $2 TRILLION TO $1.5 TRILLION\n\nSome investors are considering a $1.5 trillion valuation for Anthropic’s upcoming IPO, down 25% from earlier expectations of $2 trillion.\n\nAnthropic reported $16.8 billion in Q3 revenue, up 45% quarter-over-quarter, but growth slowed sharply after revenue more than doubled in Q2.\n\nThe company also reported adjusted profitability for the quarter.\n\nThe key concern: Slowing revenue growth and rising AI infrastructure costs could weigh on one of the most anticipated IPOs.\n\nSource: Reuters Exclusive",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110838207021735952",
+    "dedup_key": "2110838207021735952",
+    "author_id": "906230721513181184",
+    "username": "coinbureau",
+    "created_at": "2026-10-15T21:00:20.000Z",
+    "text": "🚨BREAKING: MSCI officially moves to remove Michael Saylor’s Strategy from its global indexes, starting November 30.\n\nMSCI will now treat companies like Strategy as “non-operating” and ineligible for its indexes.\n\nStrategy is on MSCI’s list of potential deletions, alongside https://t.co/W1BXOzU8l0",
+    "full_text": "🚨BREAKING: MSCI officially moves to remove Michael Saylor’s Strategy from its global indexes, starting November 30.\n\nMSCI will now treat companies like Strategy as “non-operating” and ineligible for its indexes.\n\nStrategy is on MSCI’s list of potential deletions, alongside Bitcoin treasury firm Metaplanet.\n\nThe final list is due on November 11.\n\nJPMorgan previously estimated Strategy could face about $2.8 BILLION of selling if dropped from MSCI indexes.",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUs0KKfbQAA-TNp.jpg"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUs0KKjbEAAMRs1.png"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110839595814584795",
+    "dedup_key": "2110839595814584795",
+    "author_id": "3295423333",
+    "username": "FirstSquawk",
+    "created_at": "2026-10-15T21:05:51.000Z",
+    "text": "NETFLIX PREPARES TO CUT 800 JOBS DAYS BEFORE EARNINGS AMID DECLINING U.S. TV VIEWING SHARE",
+    "full_text": "NETFLIX PREPARES TO CUT 800 JOBS DAYS BEFORE EARNINGS AMID DECLINING U.S. TV VIEWING SHARE",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110688554900713903",
+    "dedup_key": "2110688554900713903",
+    "author_id": "2001724228165603331",
+    "username": "AuditTheHerd",
+    "created_at": "2026-10-15T11:05:40.000Z",
+    "text": "Everyone knows I've been bearish on specific parts of the AI trade. Just search my profile, I've been saying it for months.\n\nTo be clear, I'm not bearish on AI. I'm bearish on bad business models being priced like good AI companies.\n\nIf you break the trade down to first https://t.co/2QeDGK8vTQ",
+    "full_text": "Everyone knows I've been bearish on specific parts of the AI trade. Just search my profile, I've been saying it for months.\n\nTo be clear, I'm not bearish on AI. I'm bearish on bad business models being priced like good AI companies.\n\nIf you break the trade down to first principles, there are two very different categories in the basket right now:\n\nInfrastructure that has to exist regardless of who wins\n\n$ASML - There is literally no alternative. If you want to make an advanced chip, you go through them. It's a monopoly plain and simple.\n\n$SITM - Nobody talks about it, but timing is in every single piece of hardware. It's the lowest level, most defensible layer. It doesn’t matter what happens with data centers, technology is moving towards MEMS with robotics, space, military, communications, ect. Forward P/E in mid 30s now, i think it’s one of the best buys in the market despite throwing the baby out with the bath water. \n\n$NBIS - I am slightly skeptical on the path to profitability as well as valuation but it’s hard to argue that they’re not the best infra play . Owns the data centers, owns the software layer, has a backlog of actual enterprise clients who can't get capacity elsewhere. They have pricing power because they built something hard to build.\n\nThose companies work even if capex slows down 20%. They work if the cycle pauses.\n\nThen you have $CRWV and some other names including the frontier models.\n\nThis is the problem with the entire basket. CoreWeave is a neocloud that rents depreciating assets with leverage. $2.5B+ in quarterly revenue, $104B in backlog, but $21-25B in debt today with up to $68B in potential future obligations, a $35-39B capex plan for 2026 alone, deeply negative free cash flow (-$4.7B last quarter on $7.7B capex), and interest expense ($640M in Q2, guided $860-940M in Q3) growing faster than operating income. Adjusted operating income was $128M in Q2 on double the revenue vs $200M a year ago.\n\nAnd the structure is circular. Nvidia owns ∼7% of CoreWeave, invested $2B in equity in January 2026, CoreWeave uses that money to buy Nvidia chips, Nvidia books it as revenue, and Nvidia contractually backstops $6.3B of unsold CoreWeave capacity through 2032. It's demand pulled forward with debt.\n\nWhen rates stay higher, or when one contract slips, that entire leverage loop unwinds. And because passive flows and retail traders own AI as a *basket* through ETFs and thematic funds, the unwind doesn't just hit CRWV. It hits SITM, NBIS, ASML, NVDA. All of it gets sold together.\n\nThat's the flaw in the current market. We're letting the weakest business model set the multiple for the strongest companies.\n\nOutside of the direct AI trade: the software and distribution layers of $RDDT, $TEM and $LMND will continue to perform. $ODD is likely seen as the biggest hedge for me at least and it is why I have been buying heavily the past month. \n\nI'm not short AI. In the next phase, the market will stop buying \"AI\" and start buying actual infrastructure. Have no clue how aggressive this will get but I think its exactly what needs to happen.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110421732029063352",
+    "dedup_key": "2110421732029063352",
+    "author_id": "2024518793679294464",
+    "username": "ClaudeDevs",
+    "created_at": "2026-10-14T17:25:25.000Z",
+    "text": "Now in public beta, Claude Platform can send OpenTelemetry traces from the Messages API, Claude Managed Agents, and the Claude SDKs to your observability stack. https://t.co/gXmi5xlkfO",
+    "full_text": "Now in public beta, Claude Platform can send OpenTelemetry traces from the Messages API, Claude Managed Agents, and the Claude SDKs to your observability stack. https://t.co/gXmi5xlkfO",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2110416330834780162/img/v_T1EX-N4DpwgQv-.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110809771238383762",
+    "dedup_key": "2110809771238383762",
+    "author_id": "1788426063535624192",
+    "username": "LHMacro",
+    "created_at": "2026-10-15T19:07:21.000Z",
+    "text": "Utilities ran at 70.4% of capacity in August, the 2nd percentile since 1972 (avg 86.3%). Capacity is up 23% since 2019, output 10%, so the grid build is running ahead of demand for now. Factories 75.7%, mining 86.3%. Industrial production lands Friday. https://t.co/NpdAYupI8E",
+    "full_text": "Utilities ran at 70.4% of capacity in August, the 2nd percentile since 1972 (avg 86.3%). Capacity is up 23% since 2019, output 10%, so the grid build is running ahead of demand for now. Factories 75.7%, mining 86.3%. Industrial production lands Friday. https://t.co/NpdAYupI8E",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUsaTOJWMAE3Chs.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110786617744969983",
+    "dedup_key": "2110786617744969983",
+    "author_id": "18719020",
+    "username": "Hedgeye",
+    "created_at": "2026-10-15T17:35:20.000Z",
+    "text": "BREAKING: CoreWeave, $CRWV, erases all losses and turns positive after an earlier decline of more than 9%. https://t.co/WjdynVREeM",
+    "full_text": "BREAKING: CoreWeave, $CRWV, erases all losses and turns positive after an earlier decline of more than 9%. https://t.co/WjdynVREeM",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUsFOg6WsAE2Ng6.png"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110823369755304326",
+    "dedup_key": "2110823369755304326",
+    "author_id": "1486417511763656706",
+    "username": "GavMcCracken",
+    "created_at": "2026-10-15T20:01:23.000Z",
+    "text": "UKRAINE STRIKES RYAZAN OIL REFINERY ON SAME DAY THERE ARE SIGNS THAT $CLMT IS MAKING MASSIVE AMOUNTS OF PROFIT (EARLY DEBT PAYDOWN)\n\n$CLMT BARELY UP ON THE DAY AS RUSSIAN REFINED OIL PRODUCTS INCINERATE, BOOSTING BLOOMBERG'S AERIAL RESERVES https://t.co/T5cqFYd1B3",
+    "full_text": "UKRAINE STRIKES RYAZAN OIL REFINERY ON SAME DAY THERE ARE SIGNS THAT $CLMT IS MAKING MASSIVE AMOUNTS OF PROFIT (EARLY DEBT PAYDOWN)\n\n$CLMT BARELY UP ON THE DAY AS RUSSIAN REFINED OIL PRODUCTS INCINERATE, BOOSTING BLOOMBERG'S AERIAL RESERVES https://t.co/T5cqFYd1B3",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110738717317226620",
+    "dedup_key": "2110738717317226620",
+    "author_id": "1261335549215989760",
+    "username": "Polymarket",
+    "created_at": "2026-10-15T14:25:00.000Z",
+    "text": "JUST IN: Global smartphone shipments plunge 22% in the worst quarterly decline on record, driven by soaring memory costs fueled by AI demand.",
+    "full_text": "JUST IN: Global smartphone shipments plunge 22% in the worst quarterly decline on record, driven by soaring memory costs fueled by AI demand.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110780938435379238",
+    "dedup_key": "2110780938435379238",
+    "author_id": "2004722276659593216",
+    "username": "HormuzLetter",
+    "created_at": "2026-10-15T17:12:46.000Z",
+    "text": "BREAKING: Trump considering firing Defense Secretary Hegseth after the midterms in an effort to take the blame of the unpopular Iran war off of himself and onto Hegseth in order to \"protect his legacy\" and \"reputation as an anti-war president,\" per multiple initial reports.",
+    "full_text": "BREAKING: Trump considering firing Defense Secretary Hegseth after the midterms in an effort to take the blame of the unpopular Iran war off of himself and onto Hegseth in order to \"protect his legacy\" and \"reputation as an anti-war president,\" per multiple initial reports.\n\nTrump is also on the verge of firing several key members of his administration in an effort to \"clean house\" amid mounting corruption allegations and expected midterm losses, as per the reports.",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110755484559135120",
+    "dedup_key": "2110755484559135120",
+    "author_id": "18856867",
+    "username": "zerohedge",
+    "created_at": "2026-10-15T15:31:38.000Z",
+    "text": "Nasdaq breaks:\n\n*NASDAQ CURRENTLY EXPERIENCING A NETWORK DISRUPTION\n\n*NASDAQ: DISRUPTION AFFECTING MULTIPLE MULTICAST GROUPS\n\n*NASDAQ: DISRUPTION ORIGINATING FROM CARTERET",
+    "full_text": "Nasdaq breaks:\n\n*NASDAQ CURRENTLY EXPERIENCING A NETWORK DISRUPTION\n\n*NASDAQ: DISRUPTION AFFECTING MULTIPLE MULTICAST GROUPS\n\n*NASDAQ: DISRUPTION ORIGINATING FROM CARTERET",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  },
+  {
+    "id": "2110544165780295995",
+    "dedup_key": "2110544165780295995",
+    "author_id": "1149446023",
+    "username": "rdd147",
+    "created_at": "2026-10-15T01:31:55.000Z",
+    "text": "Yikes. Looks like we have pandemic level inflation incoming 👀 \n\nGet ready $TLT\n\nhttps://t.co/pWt3NqXrdd",
+    "full_text": "Yikes. Looks like we have pandemic level inflation incoming 👀 \n\nGet ready $TLT\n\nhttps://t.co/pWt3NqXrdd",
+    "media": [],
+    "links": [
+      "https://www.cnbc.com/amp/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html"
+    ],
+    "dig": [
+      "link",
+      "pointer"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110712332506775698",
+    "dedup_key": "2110712332506775698",
+    "author_id": "1149446023",
+    "username": "rdd147",
+    "created_at": "2026-10-15T12:40:09.000Z",
+    "text": "I warned you last night we’re headed to Covid level inflations 6.3% Wholesale inflation. Still haven’t priced in exploding producer inflation in China that just hit. $TLT https://t.co/OBCXHGEeFV https://t.co/4hsb7INNdr",
+    "full_text": "I warned you last night we’re headed to Covid level inflations 6.3% Wholesale inflation. Still haven’t priced in exploding producer inflation in China that just hit. $TLT https://t.co/OBCXHGEeFV https://t.co/4hsb7INNdr",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUrBrUibwAAaICK.jpg"
+      }
+    ],
+    "links": [],
+    "dig": [
+      "media"
+    ],
+    "warn": []
+  },
+  {
+    "id": "2110778159033659720",
+    "dedup_key": "2110778159033659720",
+    "author_id": "3295423333",
+    "username": "FirstSquawk",
+    "created_at": "2026-10-15T17:01:44.000Z",
+    "text": "HARVARD ENDOWMENT JUMPS TO RECORD $68B AFTER 27% ANNUAL RETURN",
+    "full_text": "HARVARD ENDOWMENT JUMPS TO RECORD $68B AFTER 27% ANNUAL RETURN",
+    "media": [],
+    "links": [],
+    "dig": [],
+    "warn": []
+  }
+]

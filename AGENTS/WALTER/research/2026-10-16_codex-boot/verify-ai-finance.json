@@ -1,0 +1,92 @@
+{
+  "checked_at_utc": "2026-10-16T16:40:35.417253+00:00",
+  "runtime": "Codex; exact model UNKNOWN; bounded verify helper /root/verify_ai_finance",
+  "instructions": "Root CLAUDE.md, AGENTS.md and USER.md explicitly read; WALTER charter runtime/identity/rules and narrow helper authorization read. Whole charter tool output truncated; no full desk boot claimed. No domain grading, sends, marks or commits.",
+  "dedup_method": "BOARD filename/content rg then item-specific Python regex across all BOARD/SIG-W*.md; candidate files -20261008-045/-024 read in full. No exact-match claim is bounded to these searches, not proof no semantic duplicate exists.",
+  "items": [
+    {
+      "item": 2,
+      "verdict": "CORRECTED-framing",
+      "claim_checked": "Anthropic BB+; $35B chip financing; banks preparing $60B; possible $42B convertibles.",
+      "urls": [
+        "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+        "https://finance.yahoo.com/technology/ai/articles/anthropic-secured-highest-junk-credit-040018773.html"
+      ],
+      "observation": "FT October16 original reporting, syndicated Yahoo, says issuer BB+ assigned June, not today. $35B June deal included $4.4B junior direct Anthropic risk; remainder Broadcom-guaranteed. KBRA lacked FCF/EBITDA, used risk score and estimates. June balance-sheet debt zero. $42B Anthropic convertible facility and prospective $60B chip financing are distinct.",
+      "limit": "KBRA report/private documents not read; FT original URL inaccessible but attributed full syndication read.",
+      "board_duplicates": [
+        "SIG-W-20260627-033: $35B Atlas SP/Athene chip-lease structure",
+        "SIG-W-20261008-024: $60B Anthropic financing vs separate $50B OpenAI deal",
+        "SIG-W-20261008-045: up-to-$42B Broadcom-to-Anthropic convertible facility; separate $42B senior tranche of $60B package"
+      ],
+      "conclusion": "Novel rating/disclosure-quality and junior-risk details warrant dated attributed routing. No new October rating action, no aggregate sum of facilities, no issuer conflict with -045. Preliminary helper message implying issuer conflict withdrawn."
+    },
+    {
+      "item": 4,
+      "verdict": "INDETERMINATE",
+      "claim_checked": "JPMorgan calls memory-stock rerating on transformation and unprecedented visibility.",
+      "urls": [
+        "https://x.com/ChillBanking/status/2111091037972181403",
+        "https://pbs.twimg.com/media/HUwUz0cWsAAZTEk.jpg"
+      ],
+      "observation": "October16 bookmark asserts thesis, but quick exact-phrase searches did not locate authenticated JPM research. Screenshot URL inaccessible via web tool.",
+      "limit": "Screenshot not inspected in this helper; primary note/date/authorship unresolved. Parent can supplement downloaded media.",
+      "board_duplicates": [],
+      "conclusion": "No exact BOARD match located. Treat as unverified analyst-note relay; lack of access is not falsity."
+    },
+    {
+      "item": 11,
+      "verdict": "CORRECTED-framing",
+      "claim_checked": "CoreWeave founders cashed out $3.3B before meltdown.",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-10-15/coreweave-founders-shield-fortunes-with-3-3-billion-stock-sales",
+        "https://ca.finance.yahoo.com/news/coreweave-founders-shield-fortunes-3-202255611.html/"
+      ],
+      "observation": "Bloomberg Dylan Sloan October15 16:22ET, Yahoo syndication read: $3.3B cumulative since March2025 IPO, $2.4B during2026. Company says sales pre-scheduled/disclosed and trio retain approximately20%.",
+      "limit": "SEC sale-by-sale recomputation not performed; Bloomberg original URL inaccessible; attributed original syndication available.",
+      "board_duplicates": [],
+      "conclusion": "No exact BOARD match. Report cumulative sales, not proof of anticipatory exit or motive."
+    },
+    {
+      "item": 27,
+      "verdict": "CORRECTED-framing",
+      "claim_checked": "Anthropic IPO expectations $2T to $1.5T; Q3 $16.8B,+45%QoQ,adjusted profit.",
+      "urls": [
+        "https://www.marketscreener.com/news/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-ce785dd3d18ef225",
+        "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_L6N4611DN%3A0-investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say/"
+      ],
+      "observation": "Reuters Milana Vinn/Anirban Sen October15 16:58ET updated19:28ET, syndicated original read: three sources say some investors discussed $1.5T; four sources describe disappointment. Company did not respond.",
+      "limit": "Anonymous-source report; no final IPO valuation or public audited quarter established.",
+      "board_duplicates": [
+        "SIG-W-20261015-018: $16.8B,+45%QoQ,adjusted profitability/revenue deceleration"
+      ],
+      "conclusion": "Novel investor valuation discussion; existing quarterly figures duplicate. Do not call a priced IPO cut."
+    },
+    {
+      "item": 28,
+      "verdict": "CORRECTED-framing",
+      "claim_checked": "MSCI officially removing Strategy November30; final list November11.",
+      "urls": [
+        "https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=aq0wbkjxPgo%3D",
+        "https://www.msci.com/indexes/index-resources/index-consultations",
+        "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy"
+      ],
+      "observation": "MSCI primary October15 20:48GMT adopts non-operating-company rule; effect November30 close; final list November11. Current constituents fail screen in both latest annual periods. Strategy potential-deletion status reported by secondary sources; primary list linked but not opened.",
+      "limit": "Cannot certify Strategy final deletion or current $2.8B selling estimate (earlier JPM estimate pertains prior proposal).",
+      "board_duplicates": [],
+      "conclusion": "No exact BOARD duplicate. Adopted methodology with conditional constituent removal, not mere proposal and not final Strategy deletion."
+    },
+    {
+      "item": 35,
+      "verdict": "CONFIRMED",
+      "claim_checked": "Global smartphone shipments fall22%, worst quarterly decline, AI-led memory-cost pressure.",
+      "urls": [
+        "https://www.idc.com/resource-center/press-releases/smartphone-shipments-decline-3q26/"
+      ],
+      "observation": "IDC primary displayed October15, release/dateline and tracker October14: preliminary3Q26 shipments255.3M vs327.3M, -22.0%YoY, record quarterly YoY fall. IDC attributes pressure to memory/component costs and supply. Samsung-5.8%,Apple-4.0%,Xiaomi-29.2%,OPPO-34.5%,vivo-31.5%.",
+      "limit": "Preliminary new branded shipments, excluding refurbished/OEM; attribution is IDC assessment, not independent causal identification.",
+      "board_duplicates": [],
+      "conclusion": "No exact BOARD match. Route IDC dated preliminary sell-in data; preserve unit/basis and supplier-versus-downstream divergence."
+    }
+  ]
+}
