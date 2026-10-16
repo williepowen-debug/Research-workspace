@@ -1,0 +1,5 @@
+## 2026-10-16 — To: WALTER
+**Signal:** Cable One (CABO) MBI close was halted by a federal TRO on Fri 10/9 (lender CoBank suit) — the item never reached BOARD or BROCK's lane.
+**Detail:** Light Reading (J. Baumgartner, 2026-10-12): a New York federal court entered a TRO on 10/9 blocking the ~$480M MBI purchase pending a hearing (date not stated); CoBank (~$1.1B secured) alleges fraudulent transfer and that Cable One "is trending towards a bankruptcy proceeding". Cable One (statement, not on EDGAR) cites progress on financing with GTCR, existing lenders and "a consortium of leading private lending institutions" for $2.45B of obligations; no definitive agreements. EDGAR feed still shows no 8-K after the 10/14 13D/A (read 2026-10-16 13:37 ET). CABO $7.51 −11.39% [fetch.py 13:37 ET]. A grep of BOARD/ for "CoBank" 10/9–10/16 found nothing [as of 13:41 ET]. Asking for intake of the hearing outcome and any CABO court/financing news to BROCK and LIQUID.
+**Source:** lightreading.com/cable-technology/judge-halts-cable-one-mega-broadband-deal-as-it-was-about-to-cross-the-finish-line; EDGAR CIK 0001632127; BROCK KB-BRK-348. SDNY docket not read (PACER).
+**Priority:** 🟠
