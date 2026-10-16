@@ -1449,13 +1449,53 @@ def check_deck_republish():
     record(ADVISE, name, state == "NO-OP", line, owner)
 
 
+ORCH_LABELS = ("ASKED → receipt", "ASKED → still working", "ALREADY CLOSED OUT", "WENT DARK BEFORE THE ASK")
+
+
+def summarize_orch_closeout(body, rc, today=None):
+    """The WQ-249 log's four-state counts + today's named touches, on the gate line (2026-10-16 change 2:
+    the ~115 KB log becomes drill-down). Counts are READ from the log's own labelled lines, never
+    recomputed; a log without all four ⇒ ValueError ⇒ the gate line reads UNKNOWN (never zeros).
+    ok follows rc exactly as before (rc=0); the summary never changes severity."""
+    today = today or dt.date.today().isoformat()
+    counts, names = {}, {}
+    cur = None
+    for line in body.split("\n"):
+        m = re.match(r"^(ASKED → receipt|ASKED → still working|ALREADY CLOSED OUT|WENT DARK BEFORE THE ASK): (\d+)$", line)
+        if m:
+            cur = m[1]; counts[cur] = int(m[2]); names.setdefault(cur, []); continue
+        if cur and line.startswith("  " + today + " "):
+            names[cur].append(line.split()[1])
+        elif line and not line.startswith("  "):
+            cur = None
+    missing = [l for l in ORCH_LABELS if l not in counts]
+    if missing:
+        raise ValueError(f"counts UNKNOWN — read the log ({len(missing)} of 4 count lines absent)")
+    unknown = [l for l in body.split("\n") if re.match(r"UNKNOWN: \d{4}-\d{2}-\d{2} ", l)]
+    dates = sorted(l.split()[1] for l in unknown)
+    todays = sum(d == today for d in dates)
+    older = [d for d in dates if d != today]
+    legacy = (f"UNKNOWN rows {len(unknown)} (today {todays} · older {len(older)}"
+              + (f" ≤{older[-1]}, legacy — never a boot read" if older else "") + ")") if unknown else "UNKNOWN rows 0"
+    def seg(label, short):
+        n = counts[label]; who = names.get(label) or []
+        return f"{short} {n}" + (f" ({' '.join(dict.fromkeys(who))})" if who else "")
+    summary = " · ".join([seg(ORCH_LABELS[0], "ASKED→receipt"), seg(ORCH_LABELS[1], "still working"),
+                          seg(ORCH_LABELS[2], "already closed"), seg(ORCH_LABELS[3], "dark-before-ask"), legacy])
+    tail = [l for l in body.strip().split("\n") if l.startswith("UNKNOWN: ") and not re.match(r"UNKNOWN: \d{4}-", l)]
+    if tail:
+        summary += " · " + tail[-1][len("UNKNOWN: "):][:110]
+    return rc == 0, summary
+
+
 def check_orch_closeout():
     run_script(ADVISE, "orchestrated touch closeout evidence (WQ-249)",
                [sys.executable, "PROME/tools/orch_closeout.py"],
                "Enumerate ORCH_LOG touches, including read-only helpers. Request closeout via the actual "
                "runtime before handoff; record evidence in notes. UNKNOWN is not DARK or a receipt. "
                "Reconcile --expected-key values from the tool record with --inventory-complete; "
-               "without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.")
+               "without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.",
+               summarize=summarize_orch_closeout)
 
 ORCH_LEDGER = ROOT / "PROME/state/ORCH_LOG.tsv"
 ORCH_VIEW = ROOT / "PROME/state/ORCH_INFLIGHT.md"

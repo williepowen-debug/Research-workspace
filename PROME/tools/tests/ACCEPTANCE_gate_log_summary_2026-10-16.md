@@ -1,0 +1,9 @@
+# ACCEPTANCE — gate logs: the four WQ-249 counts on the verdict line, named logs as drill-down — 2026-10-16
+
+**Conditions written BEFORE the edit** in `PROME/proposals/2026-10-16_gate-log-summary-PROPOSAL.md` (15:2x ET; A1–A7 verbatim there — this file records implementation against them, never restates them). **Authority:** WQ-445 RULED A (Will in-session 16:04 ET; `PROME/AUTONOMY.md` change log 2026-10-16). Class: PROCESS (the sitting's second change under the lifted ceiling).
+
+## Record
+- IMPLEMENTED 16:1x ET: `PROME/tools/prome_gate.py` `summarize_orch_closeout` (counts READ from the log's four labelled lines; today's touch names; UNKNOWN rows split today/older with the older max date; the tool's own trailing UNKNOWN reason kept; a log missing any of the four lines ⇒ ValueError ⇒ the gate line reads `UNKNOWN: counts UNKNOWN — read the log`; ok follows rc exactly as before) wired through `run_script(summarize=…)` on the WQ-249 check (boot AND closeout paths share `check_orch_closeout`). `PROME/BOOT.md` step 5 log-read contract replaced (one home); both `/boot` runner copies (parity `cmp` OK); `PROME/CLOSEOUT.md` step 9 one sentence pointing at BOOT's contract. READS.tsv unchanged.
+- TESTED: `PROME/tools/tests/test_gate_orch_summary.py` — 6 tests (`grep -c 'def test_'`), all pass under `.venv`: A1 counts+names, A2 overlap (BROCK in two states, both counted), A3 wrong owner (another log's flag never on this line), A4 missing information (ValueError, never zeros), rc semantics unchanged, the live 10/16 boot log (≤300 chars). A5 N/A — single reader of one run directory. A6 measured on the live log: the line is under 300 chars (test asserts).
+- A7 WIRED = this record. OBSERVED = the next boot's report reads `gate.txt` only and names no skipped control for the logs; the next closeout likewise. Not claimable at this sitting.
+- INDEPENDENTLY VERIFIED: pending one Opus read (gate-adjacent contract, WQ-447), its own counterexample required.
