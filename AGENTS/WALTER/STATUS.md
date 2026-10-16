@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-16T21:46:28Z — Will-launched evening boot + routing; light closeout (full deferred). Runtime Claude Code, `claude-opus-5-5`. BOARD **1490**; October16 **35 signals**, **24 kill-log rows**, **0 cluster_mediating**. Duties and publication: `LAST_COMPLETION.md`.
+**Updated:** 2026-10-16T22:29:52Z — Will-launched evening boot + routing + bookmark batch; light closeout (full deferred). Runtime Claude Code, `claude-opus-5-5`. BOARD **1495**; October16 **40 signals**, **24 kill-log rows**, **0 cluster_mediating**. Duties and publication: `LAST_COMPLETION.md`.
 
 ## BOTTOM LINE
 
-**The VIX safety-net FLASH fired: the first FLASH-precedence BOARD signal keyed on VIX** (four earlier FLASH signals, none VIX). VIX rose +5.85 intraday on Friday 10/16 (16.46 → 22.31 at 13:20 ET), closing 19.99. The VIX futures front end inverted. The cause is NOT established. No credible outlet names a fund behind the "hedge fund blowout" rumor, and the steep leg came while oil was flat (`027`/`034`). The Saudi pipeline "targeted again" is IRIB CLAIM-ONLY; the Yanbu missile was INTERCEPTED; no ladder item fired (`035`). Brent Z6 settled $109.86 on rumour. HY 10/16 (RED-FT-02/REG-T-03 bar 3) publishes Monday. 028–035 are committed locally and await a Will-coordinated push; the X-bookmark token needs re-authorizing.
+**The VIX safety-net FLASH fired: the first FLASH-precedence BOARD signal keyed on VIX** (four earlier FLASH signals, none VIX). VIX rose +5.85 intraday on Friday 10/16 (16.46 → 22.31 at 13:20 ET), closing 19.99. The VIX futures front end inverted. The cause is NOT established. No credible outlet names a fund behind the "hedge fund blowout" rumor, and the steep leg came while oil was flat (`027`/`034`). The Saudi pipeline "targeted again" is IRIB CLAIM-ONLY; the Yanbu missile was INTERCEPTED; no ladder item fired (`035`). Brent Z6 settled $109.86 on rumour. HY 10/16 (RED-FT-02/REG-T-03 bar 3) publishes Monday. 028–040 are committed locally and await a Will-coordinated push. X bookmarks re-authorized by Will (22:24Z); 5 routed (`036`–`040`): the KBW Bank Index is down 6 straight weeks, its longest since 2008, but large-bank-led (KRE up this week); Two Sigma is exiting CRE fundraising.
 
 ## DATED MARKET OBSERVATIONS
 

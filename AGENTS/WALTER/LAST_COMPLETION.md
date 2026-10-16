@@ -17,10 +17,10 @@ Runtime: Claude Code, `claude-opus-5-5` (Will-launched; boot 17:25 ET). Root, AG
 **GAPS / OWED (new or changed).**
 - **Publication:** commits 9c6387039 (028–033), 48309e30f (034 + registry) and a4e9436e1 (035), plus this closeout commit, are **local, pending a Will-coordinated push**. Only FLASH has standing push authority (§3.4). Their 22 delivery rows stay pending until pushed and reconciled.
 - **Telegram:** FLASH `027` was not sent to Telegram (no inbound chat_id this session). Will was told in the terminal. Deliver on the next supported inbound per Rule 12.
-- **X bookmarks:** token refresh failed (HTTP 400). `x_bookmarks_scan.py --authorize` needs Will's browser. Nothing was staged or marked.
+- **X bookmarks:** RESOLVED. The token refresh failed (HTTP 400) at boot; Will re-authorized at 22:24Z. Five bookmarks were routed `036`–`040` (`037` is correction COR-20261016-03 to `034`, direction HOLD). One Bright Data request (PARTIAL: Bloomberg Two Sigma) was logged for the 10/17 L599 review.
 - **Git slip, recorded:** commit 48309e30f used a directory pathspec for `research/2026-10-16_evening/`. It captured exactly one intended file (`verify-vol-rumor.md`) and no foreign content.
 
-**WILL_NEEDS.** (1) OK to push the four local WALTER commits (028–035 + closeout)? (2) Re-authorize X bookmarks when convenient. No other new decision; existing approvals below are unchanged.
+**WILL_NEEDS.** (1) OK to push the five local WALTER commits (028–040 + closeout)? (2) ~~Re-authorize X bookmarks~~ DONE by Will 22:24Z; batch BM-20261016-06 5/5 routed `036`–`040` and `--mark` consumed the 5 staged ids. No other new decision; existing approvals below are unchanged.
 
 **FOLLOW-UP (new; the numbered list below still stands).**
 - **Mon 10/19 AM:** the 10/16 HY cell decides RED-FT-02/REG-T-03 bar 3 (>320 = FIRE, ≤320 = reset), **and** the HY +25bp single-session safety-net leg for 10/16. The VIXCLS 10/16 value decides the FT-06 exit 1/5 candidate. The Cboe VIX_History/SKEW_History 10/16 rows should confirm 22.31/19.99/168.59.
@@ -119,7 +119,7 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-16T21:48:25Z",
+  "as_of": "2026-10-16T22:29:52Z",
   "publication": [
     {
       "commit": "55b4f53f3",
@@ -176,13 +176,21 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
     {
       "commit": "a4e9436e18990bf03bfed776280926b248907d1f",
       "state": "pending"
+    },
+    {
+      "commit": "8567c442f47d9a419f1816afeb7850352c593c99",
+      "state": "pending"
+    },
+    {
+      "commit": "83d2f3727e4c8848d6e07db96539a0d10560d675",
+      "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261016",
-    "total": 111,
+    "total": 121,
     "delivered": 91,
-    "note": "87 earlier October16 rows delivered; evening FLASH 027 (4 rows) pushed and reconciled to delivered; 20 rows for 028-035 committed locally, pending Will-coordinated push. Consumption UNKNOWN."
+    "note": "87 earlier rows + FLASH 027 (4) delivered; 30 rows for 028-040 committed locally, pending Will-coordinated push. Consumption UNKNOWN."
   },
   "push": {
     "all_walter_commits_on_origin": false,
@@ -269,8 +277,7 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
     ]
   },
   "owed": [
-    "Will-coordinated push of 9c6387039/48309e30f/a4e9436e1 + light closeout commit, then reconcile_delivery_log --apply",
-    "X bookmarks re-authorize (Will's browser)",
+    "Will-coordinated push of 9c6387039/48309e30f/a4e9436e1/83d2f3727/8567c442f (+ this receipt commit), then reconcile_delivery_log --apply",
     "Telegram delivery of FLASH 027 on next supported inbound (Rule 12)",
     "Mon 10/19: HY 10/16 cell (FT-02/REG-T-03 bar 3 + 25bp safety leg); VIXCLS 10/16 (FT-06 exit); Cboe history rows",
     "Coordinated publication of WA2/final-closeout receipts",
