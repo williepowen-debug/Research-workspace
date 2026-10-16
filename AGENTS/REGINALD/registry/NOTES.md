@@ -180,6 +180,8 @@ No RESOLVED row's scoring vintage changed ⇒ nothing re-scored. `python3 script
 
 **Downstream-of-bank caveat (7/30 attribution, standing):** HY sits DOWNSTREAM of bank credit in my chain — an HY move without a bank-credit leg is not my chain firing. Before treating any HY level as bank transmission, run the bank-credit cross-check (`reports/2026-07-30_bank-side-HY-attribution.md`).
 
+**Non-session bars (owner reading, 2026-10-16, on WALTER's 10/14 ask):** "consecutive daily closes" means market sessions. A FRED `BAMLH0A0HYM2` bar dated on a SIFMA full close or NYSE holiday (e.g. Columbus Day 10/12, Veterans Day 11/11) is a forward-fill, not a close: it is EXCLUDED and the run BRIDGES it (it neither counts nor resets). Reading of the existing letter only — no level, operator, instrument, sustain length or consequence changed; matches RED FT-02 (`AGENTS/RED/scripts/nonsession.py`) so one crossing counts identically on both rows. Applies to REG-T-03 and REG-T-04.
+
 ---
 
 # SCHEMA CHANGE 2026-08-13 — audit-convention encode (8 cols → 13, APPEND-ONLY)

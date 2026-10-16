@@ -30,7 +30,7 @@
 <!-- reginald:earnings-dates:begin -->
 | Ticker | Date | Day | Timing | Status | Question | Source |
 |---|---|---|---|---|---|---|
-| CFG | 2026-10-16 | Fri | pre-open (time inferred); call 09:00 ET | CONFIRMED | Q1 | CFG IR 9/10; BROCK at issuer 10/9 (SIG-W-20261009-010) |
+| CFG | 2026-10-16 | Fri | pre-open (time inferred); call 09:00 ET | CONFIRMED | Q1 | CFG IR 9/10; BROCK at issuer 10/9 (SIG-W-20261009-010) · ✅ PRINTED 10/16 (8-K acc 0000759944-26-000206); WQ-318 graded INCONCLUSIVE → `reports/2026-10-16_due-rows_CFG-Q3-grade_Nano_REG-T-03.md` |
 | MTB | 2026-10-16 | Fri | pre-open | CONFIRMED | ctx | BROCK at issuer 10/9 (SIG-W-20261009-010) |
 | WAL | 2026-10-19 | Mon | after close; call Tue 10/20 12:00 ET | CONFIRMED | Q1 Q2 | Business Wire 10/6 (issuer text) |
 | OZK | 2026-10-20 | Tue | after close; call Wed 10/21 08:30 ET | CONFIRMED | Q1 Q2 | OZK release 9/30 |
