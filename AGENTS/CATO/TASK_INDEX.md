@@ -6,6 +6,10 @@ Read only entries relevant to Will's current assignment. This is historical evid
 
 Moved verbatim from the pre-closeout CONTINUITY on October 16 under the existing compact-continuity rule. These are dated snapshots; PROME was still working at CATO closeout, so later owner changes are not assessed here. Approval scopes, unresolved limits and links survive. Consult only the relevant topic.
 
+### October 16 execution habits
+
+**Execution follow-up complete before the planned desktop switch.** Will directed making the discussed habits persist for future sessions. CATO AGENTS.md now makes evidence reuse, bounded reads, stopping conditions and combined delivery explicit, and uses the explicit-file read-cap command. [Implementation and limits](runs/2026-10-01_1152_startup-closeout-review.md#october-16--execution-habits-installed). Author work; efficiency gains remain unmeasured. No cleanup, audit, repair, pilot collection or launch follows automatically.
+
 ### PROME recent-commit checkpoint
 
 **Recent-commit review complete, October 16 08:40 ET; orient and await Will.** Reviewed `8ac3461de..b9d9ffc61` on Will's request to check the recent commits. Fresh fetch confirms `b9d9ffc61`, including CATO's prior SP6 evidence and closeout. No owner edits, sends, launches or operational boot/closeout. Active PROME state work remains untouched. [Continuing evidence](runs/2026-10-15_2025_prome-simplification-oversight.md#october-16-0840-et--recent-commit-review-and-d1-counterexample). Resume only on Will's direction or an applicable saved trigger; this review does not start unrelated pending work.
