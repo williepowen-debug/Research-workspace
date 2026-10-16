@@ -2,7 +2,7 @@
 
 > The eight **embedded → canon** census sections — every row here has a canon embed home (BOOT.md · CLOSEOUT.md · ORCHESTRATION_PLAYBOOK.md · COMPLETION_SPEC.md · root CLAUDE.md Git Protocol · FORGE/PREDICTION_DISCIPLINE.md · AGENTS/TERRY/RISK_RULES.md · DEWEY) and is promotion-EXEMPT (Will 8/22). Moved VERBATIM; per-file ceiling **51,200 B** applies to this file too (`read_cap_check.py memory/auto/INDEX_COLD_EMBEDDED.md`). Readers treat `INDEX_COLD.md + INDEX_COLD_*.md` as ONE cold set (memory_index_check · memory_citation_census, shard-aware 9/6). ⛔ Never delete a row; rows move, never vanish.
 
-## Boot / closeout / handoff / revival / sync — embedded → `PROME/BOOT.md` § Boot-class fleet memories (2026-07-31; regrouped 8/29, all 14 slugs still named there)
+## Boot / closeout / handoff / revival / sync — embedded → `PROME/BOOT.md` § Boot-class fleet memories (2026-07-31; regrouped 8/29; 8 slugs named there, 6 in `PROME/BOOT_MODULES.md` § Trigger-keyed fleet memories since the 2026-10-16 rotation)
 - finding_display_filter_gating_safety_net — a forward-section display filter silently gates the past-due safety net too
 - finding_boot_protocol_live_event_override — SPAWN PROTOCOL framing pulls agents to CLOSEOUT mid-event; needs a live override
 - finding_boot_predictions_scan — a boot-time PREDICTIONS due/stale scan catches silently-stale OPEN predictions
