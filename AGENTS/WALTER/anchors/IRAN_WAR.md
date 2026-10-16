@@ -1,5 +1,7 @@
 # IRAN-WAR ANCHOR
 
+> **October16 evening scoped check (SIG-W-20261016-035; not a full sweep):** IRIB "East-West line targeted again" CLAIM-ONLY (ATTACKED claim / SHUT none / DAMAGED none); coalition: ballistic missile toward Yanbu INTERCEPTED, no damage (Rapidan). MT ST 3 struck in Hormuz 10/16, not sunk, no UKMTO number. FAL-01 not met; no ladder fire. CNBC-relayed CENTCOM "Iran sank GFS PRIDE" unread → FALCON. Evidence: `research/2026-10-16_evening/verify-iran-pipeline.md`.
+
 > **October16 source-conflict follow-up (2026-10-16T17:45:00Z, SIG-W-20261016-026):** NHO380/26 issued15:50UTC now reports CapeDao sinking/drifting; IMO current wording partially sunk; prior draftJMIC105 not-sunk statement has older cutoff. FALCON owns chronology/loss definition; five losses and B1/C14/D85 unchanged. Reuters October15 retrospective reporting of three Saudi oil-processing hubs challenges the blanket entire-cycle production-asset negative below: exact assets/dates/classification remain UNRESOLVED, so do not repeat that negative as freshly verified. IEA recovered September flow figures do not establish October16 transit. Fullperimeter attempt ACCESS-LIMITED; retain October15~01:15UTC full-sweep stamp. Evidence: `research/2026-10-16_finish/verify-iran-full-followup.md`.
 
 
