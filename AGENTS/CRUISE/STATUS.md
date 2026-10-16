@@ -1,8 +1,16 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-14 Wed 22:17 ET** (closeout of the 10/14 Will-launched session: boot + catch-up, Isaias port check, WQ-427 recorded, NCLH funding deep-dive, NCLH Q3 watchlist). Session opened 20:36 ET; desk was dark 10/3 → 10/14. **Rotated 2026-10-14** under READ_CAP rule 5 (was 32,105 B, 99% of budget): the full prior STATUS — 9/19 carries, the 9/20 PM eight-correction block, the 9/29 print block and the 10/2 block — is verbatim at `domain/sources/STATUS_archive_2026-10-14_rotation.md`, under a correction banner that WINS over its body. Per-operator detail: `OPERATORS.md`. Wake set: `CADENCE.md`.*
+*Last updated: **2026-10-16 Fri 12:3x ET** (PROME-spawned L0 session, prome-ac: D:L712 closing 8-K read, whole-inbox drain, WQ-435 charter encode). Prior: 2026-10-14 Wed 22:17 ET closeout. **Rotated 2026-10-14** under READ_CAP rule 5 — full prior STATUS verbatim at `domain/sources/STATUS_archive_2026-10-14_rotation.md`, under a correction banner that WINS over its body. Per-operator detail: `OPERATORS.md`. Wake set: PROME DOCKET rows L712–L715 (`CADENCE.md` alone wakes nobody).*
 
-> ## ⚖️ STATE — 2026-10-14 Wed, **BOOT + CATCH-UP.** $0, no trade, no Will-gated level moved.
+> ## ⚖️ STATE — 2026-10-16 Fri, **D:L712 GRADED + L0 DRAIN.** $0, no trade, no Will-gated level moved.
+> | Item | Done | Receipt |
+> |---|---|---|
+> | **D:L712 — NCLC $950M 8.750% 2031 notes CLOSED 10/15** (8-Ks filed 10/15 ~20:2x ET, NCLC + NCLH) | ① **UNSECURED** — "senior unsecured obligations of the Issuer" (indenture form of Note ¶11); NCLC sole issuer, no guarantor named. This **answers the 10/14 "secured or unsecured: NOT STATED" row below.** ② **Issue price: NOT STATED** in any closing document; net proceeds ~$941.7M = 99.13% of par after the purchasers' discount. ③ **2028 notes: redeemed in full 10/15 at a "make-whole" price — no figure disclosed.** Calls: 104.375% from 10/15/28, 102.188%, par from 10/15/30. | KB-CRU-157 |
+> | **NCLH revolver amended same day** | Commitments **$2,486.0M → $2,801.0M**; ~$376.3M repaid ⇒ undrawn capacity up ~$690M (inferred). **11/17 springing test restated** (2027 exchangeables + liquidity test); threshold not in the 8-K — Ex 10.1 not read. Collateral: Pride of America + Norwegian Epic in, Dawn + Spirit out. | KB-CRU-158 → L715 |
+> | **WQ-435 ruling recorded (root rule #10)** | Will APPROVED the charter re-scope 10/15 12:26 ET. **Encoded** in `CLAUDE.md` § IDENTITY → *Live scope* + two working rules. ⏳ `VX-CRU-01` raw-price re-reference ($33.99) **held** — a band-line move, lands with a live price + consumer check by L732 (10/23). | KB-CRU-159 |
+> | **Inbox** | 3 packets consumed (WALTER disposition · WQ-435 ruling · SIG-W-20261014-028); top level and WALTER lane empty. | `board_log.tsv`; `inbox/RECEIPT.md` |
+
+> ## ⚖️ PRIOR STATE — 2026-10-14 Wed, **BOOT + CATCH-UP.** $0, no trade, no Will-gated level moved.
 > | Item | Done | Receipt |
 > |---|---|---|
 > | **WQ-242 ruling recorded (root rule #10)** | Will APPROVED CRU-11 as frozen (Deck tap 10/3 21:11 ET). Grade at the **2026-11-14** close, DOCKET L606. Base closes logged with source: **NCLH $15.14 · RCL $277.74** (10/2). | KB-CRU-151 |
