@@ -17,11 +17,11 @@ Available bookmark, source-verification, intake-design and local repair work com
 
 ## RESULT
 
-Earlier signal commitcbed6d56b8555cda6ac4ddfaab7f73ab38906f4d and receiptc62cf6a40 are confirmed ancestors of fresh remote master1c2b4025ae41202f44f11005cc3bbacfcbb127ba;23priorpending handoffs reconciled to delivered. New work is saved locally, publication deferred under WALTER's concurrency rule. Delivery never proves owner consumption. No trade, domain spawn, external send, collector deployment or approval expansion occurred.
+Earlier signal commitcbed6d56b8555cda6ac4ddfaab7f73ab38906f4d and receiptc62cf6a40 are confirmed ancestors of fresh remote master1c2b4025ae41202f44f11005cc3bbacfcbb127ba;23priorpending handoffs reconciled to delivered. New work is committed locally in `4e85fb6de369ae2addac333f243c9372dcedf9bc`, publication deferred under WALTER's concurrency rule. Delivery never proves owner consumption. No trade, domain spawn, external send, collector deployment or approval expansion occurred.
 
 ## GAPS / OWED
 
-- **Publication:** locally commit exact authored paths, then coordinated clean-tree publication/reconciliation. Concurrent PROME/CATO/CRUISE and laterORACLE work preserved. No workspace pull/push/rebase/stash performed.
+- **Publication:** exact authored paths committed in4e85fb6de; coordinated clean-tree publication/reconciliation remains. Concurrent PROME/CATO/CRUISE and laterORACLE work preserved. No workspace pull/push/rebase/stash performed.
 - **Runtime:** shell/Python/git/local PDF/web and thread-local verification helpers work. Native fleet ListAgents, cross-runtime desk messaging and Telegram unavailable. User reports PROME/CATO/WALTER active; unknown desks are not declared dark. Root/local instructions explicitly read; provider does not establish tools or permissions.
 - **Read coverage:** boot-basis29MATCH at the recorded check; execution is separate. Read declaration stale/UNKNOWN; charter70223bytes exceeds budget/physical cap. Root charter and generated ORCH view also have rotation advisories. No whole-boot certification. Concrete split/attestation and generated-view concerns sent to PROME without editing its registry or generator.
 - **Shared checker:** R1's remaining two SHORT-TARGETS outputs are now demonstrated filename-date misparses after the genuine target omissions were repaired. Canonical corrects IDs and target unions pass the review-only resolver. Existing LABOR_DOWN/archive-schema and historical delivery-ID residues remain declared; no history erased to quiet checks.
@@ -67,7 +67,7 @@ Source/read accounting and publication are separate. Selected-check results: `re
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-16T17:45:00Z",
+  "as_of": "2026-10-16T17:49:02Z",
   "publication": [
     {
       "commit": "55b4f53f3",
@@ -80,6 +80,10 @@ Source/read accounting and publication are separate. Selected-check results: `re
     {
       "commit": "c62cf6a40",
       "state": "published"
+    },
+    {
+      "commit": "4e85fb6de369ae2addac333f243c9372dcedf9bc",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -90,7 +94,7 @@ Source/read accounting and publication are separate. Selected-check results: `re
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Fresh remote proof for prior commits saved; new exact-path local work will be committed, push deferred for observed concurrent foreign work."
+    "note": "Local scoped commit4e85fb6de saved; push deferred for observed concurrent foreign work. Prior publication proof retained."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -157,7 +161,7 @@ Source/read accounting and publication are separate. Selected-check results: `re
     "12(d,e)": "Current SESSION_LOG entry and BOTTOM LINE rewritten; prior full-deferred breadcrumb superseded by this full state refresh.",
     "14": "Finding49 promoted to FORMATv0.25/doctor; prior text conserved in MEMORY_PROMOTED/SESSION_LOG,98lines and22545bytes; split_verify PASS.",
     "15": "Carried duties evaluated; current evidence hashes and unresolved design approvals preserved.",
-    "16": "Exact-path local commit required; pending coordinated publication due observed foreign writes; no stash/reset/rebase/push.",
+    "16": "Exact-path commit4e85fb6de saved157changed files (one rename); staged archive guard1deletion/0review. New publication pending; receipt follow-up committed separately. Foreign work preserved.",
     "Tier1": "Affected source/observation/authorization claims refreshed in current surfaces.",
     "root.consumer": "Correction original/correcting unions checked explicitly, four missing INFOhandoffs supplied. External observations routed to owning desks; no owned numerical threshold/weight/band superseded.",
     "root.memory": "No shared auto-memory writes. Own memory conservation checked.",
