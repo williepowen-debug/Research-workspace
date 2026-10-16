@@ -1,5 +1,33 @@
 # WALTER LAST_COMPLETION — instruction fixes and preserved duties
 
+## EVENING UPDATE — light closeout, full deferred (stamped in SESSION_LOG 2026-10-16T21:47:28Z)
+
+Runtime: Claude Code, `claude-opus-5-5` (Will-launched; boot 17:25 ET). Root, AGENTS.md, USER.md, charter and WALTER MEMORY read explicitly. Everything below the next heading stays valid except where this block supersedes it.
+
+**STATUS.** Boot steps 0–9b executed. Boot = **PARTIAL** for these reasons: the READS attestation is still stale (reads_check UNKNOWN); X bookmarks could not run (token refresh 400); HANS daily rows were not re-pulled at 10/16 closes, so the earlier helper's intraday reads stand, dated; the Cushing and official-settlement instrument gaps are unchanged. Sync: fetch showed 0 ahead / 0 behind, so no pull was needed; foreign OSPREY dirt was later committed by OSPREY. Doctor 0 HIGH / 6 MED, all pre-existing (LABOR_DOWN taxonomy, 2 malformed delivery IDs, 20 NOTE rows, ZHAO registry lag (since refreshed), 119 unconsumed >2d, malformed `corrects:` on -015).
+
+**CHANGED / RESULT.**
+- **FLASH `027`**: VIX +5.85 intraday (16.46 Cboe close → 22.31 at 13:20 ET), close 19.99. **Published, pushed via safe-push and CONFIRMED on origin (2ac692eab)**; 4 handoffs reconciled to delivered. Follow-up `034` (cause check): no fund named; rumor unconfirmed; the steep leg came with oil flat; VX futures front inverted; SKEW 168.59 at the Cboe delayed quote.
+- **`035` Iran/Saudi**: IRIB pipeline claim CLAIM-ONLY; Yanbu missile INTERCEPTED; MT ST 3 struck in Hormuz, not sunk; Brent Z6 $109.86 on rumour; FAL-01 not met. Guard corpus read in full; anchor scoped-check header added (24,015 B, under the 24,412 B trigger).
+- **Inbox 3/3** consumed (git mv + `.consumed.tsv`): `028` LIQ-07 S2 → RED; `029` discount window $11.044B → REGINALD; `030` Cable One TRO (missed route) → BROCK. REGINALD packet NO-ACTION (non-session rule re-confirmed by packet; already recorded DONE in FOLLOW-UP #5 below).
+- **Intake 10/16 batch 17/17** (BM-20261016-05 closed; `--mark` run): `031` private-credit watch hits → BROCK; `032` Black Sea war-risk → OSPREY; `033` NCLH Q3 Thu 10/29 06:30 ET (IR primary) → CRUISE/TERRY; Yanbu items → `035`; 4 kill rows.
+- REGISTRY: 6 rows refreshed (LIQUID, ZHAO, VULCAN, OSPREY, PROME, WALTER). STATUS and SESSION_LOG updated.
+- Evidence: `research/2026-10-16_evening/verify-vol-rumor.md`, `verify-iran-pipeline.md` (Rule-9 helpers, Opus, read-only).
+
+**GAPS / OWED (new or changed).**
+- **Publication:** commits 9c6387039 (028–033), 48309e30f (034 + registry) and a4e9436e1 (035), plus this closeout commit, are **local, pending a Will-coordinated push**. Only FLASH has standing push authority (§3.4). Their 22 delivery rows stay pending until pushed and reconciled.
+- **Telegram:** FLASH `027` was not sent to Telegram (no inbound chat_id this session). Will was told in the terminal. Deliver on the next supported inbound per Rule 12.
+- **X bookmarks:** token refresh failed (HTTP 400). `x_bookmarks_scan.py --authorize` needs Will's browser. Nothing was staged or marked.
+- **Git slip, recorded:** commit 48309e30f used a directory pathspec for `research/2026-10-16_evening/`. It captured exactly one intended file (`verify-vol-rumor.md`) and no foreign content.
+
+**WILL_NEEDS.** (1) OK to push the four local WALTER commits (028–035 + closeout)? (2) Re-authorize X bookmarks when convenient. No other new decision; existing approvals below are unchanged.
+
+**FOLLOW-UP (new; the numbered list below still stands).**
+- **Mon 10/19 AM:** the 10/16 HY cell decides RED-FT-02/REG-T-03 bar 3 (>320 = FIRE, ≤320 = reset), **and** the HY +25bp single-session safety-net leg for 10/16. The VIXCLS 10/16 value decides the FT-06 exit 1/5 candidate. The Cboe VIX_History/SKEW_History 10/16 rows should confirm 22.31/19.99/168.59.
+- **Cable One:** check for the SDNY hearing date and outcome at each boot until one posts (BROCK's ask, `030`).
+- **VIX:** the October VX contract expires **Wed 10/21**. Mon 10/19 is the Black Monday anniversary (calendar only).
+- **Iran:** FALCON reads CENTCOM on the GFS PRIDE attribution and records MT ST 3. The full sweep is still due ~10/22.
+
 Updated 2026-10-16T20:21:27Z. Runtime Codex/OpenAI GPT-6 family, exact variant UNKNOWN; native thread01a1458b-26e4-7a30-ac32-637669ba826e. Root `/home/willi/Research-workspace`; launch `AGENTS/WALTER`. Prior completion archived verbatim in `research/2026-10-16_finish/prior-LAST_COMPLETION.md`.
 
 ## STATUS
@@ -91,7 +119,7 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-16T20:22:36Z",
+  "as_of": "2026-10-16T21:48:25Z",
   "publication": [
     {
       "commit": "55b4f53f3",
@@ -127,22 +155,38 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
     },
     {
       "commit": "68044f367c96b0aa130e1999727ea08da6e737c0",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "0a82cbfa5c38923362b42bf5c4cc55f359b8b9bc",
+      "state": "published"
+    },
+    {
+      "commit": "2ac692eab60572c39d523abbdb817f3011458dd7",
+      "state": "published"
+    },
+    {
+      "commit": "9c6387039b4d729ef44a9388e300e50cdcf23c93",
+      "state": "pending"
+    },
+    {
+      "commit": "48309e30f784c230d50f355b84b88be5fec02c96",
+      "state": "pending"
+    },
+    {
+      "commit": "a4e9436e18990bf03bfed776280926b248907d1f",
       "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261016",
-    "total": 87,
-    "delivered": 87,
-    "note": "All87October16signal-date handoffs proven on origin. Four supplemental October15handoffs also published; total41new/repair rows reconciled. Consumption UNKNOWN."
+    "total": 111,
+    "delivered": 91,
+    "note": "87 earlier October16 rows delivered; evening FLASH 027 (4 rows) pushed and reconciled to delivered; 20 rows for 028-035 committed locally, pending Will-coordinated push. Consumption UNKNOWN."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Final closeout exact-path commit 0a82cbfa5c38923362b42bf5c4cc55f359b8b9bc; pending against local origin. WA2/receipt publication still coordinated; foreign staged/dirty work preserved. No WALTER push."
+    "note": "FLASH 027 pushed via safe-push (CONFIRMED 2ac692eab). 9c6387039, 48309e30f, a4e9436e1 and this light-closeout commit are local; PRIORITY/ROUTINE push is Will-coordinated (BOARD_CONSUMPTION_SPEC 3.4/7)."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -211,10 +255,24 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
         "path": "AGENTS/WALTER/research/2026-10-16_final-closeout/OBSERVATIONS.md",
         "sha256": "1d7a75bcdbbbbf6d2813bb3d546d8529cb95f868c34c955f57c83ff8d930a95d",
         "review": "Concrete overhead observations and existing-duty/status cross-check; no measured token/cost saving or authorized new build inferred."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_evening/verify-vol-rumor.md",
+        "sha256": "02f62e7239a9abe524ce4ac77578505a1e40f9fbbca4edaec6ae28625f4e1e57",
+        "review": "Read whole; figures cross-checked against WALTER's own pulls; fund name withheld from BOARD as RUMOR-UNCONFIRMED. Routing review, not owner adoption."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-16_evening/verify-iran-pipeline.md",
+        "sha256": "3fc2026106afabbd97e1c0c0eab0dbf262244b69c95f618d8063e598f05ba55c",
+        "review": "Read whole against the Iran guard corpus; routing review, not FALCON adjudication."
       }
     ]
   },
   "owed": [
+    "Will-coordinated push of 9c6387039/48309e30f/a4e9436e1 + light closeout commit, then reconcile_delivery_log --apply",
+    "X bookmarks re-authorize (Will's browser)",
+    "Telegram delivery of FLASH 027 on next supported inbound (Rule 12)",
+    "Mon 10/19: HY 10/16 cell (FT-02/REG-T-03 bar 3 + 25bp safety leg); VIXCLS 10/16 (FT-06 exit); Cboe history rows",
     "Coordinated publication of WA2/final-closeout receipts",
     "October17L599 pilot review and existing L334 INFO-copy use sample",
     "PROME READS attestation/shared-checker work",
@@ -223,9 +281,9 @@ Final closeout checks: `research/2026-10-16_final-closeout/checks/`. Selected ag
   ],
   "next_review": "2026-10-17",
   "procedure": {
-    "tier": "full",
-    "scope": "Will-requested final closeout; affected-state and owner-header/count review, not a new market sweep.",
-    "claim": "Startup remains PARTIAL; source gaps and missing runtime capabilities not cured by closeout."
+    "tier": "light",
+    "scope": "Evening boot + routing; full narrative regeneration deferred.",
+    "claim": "Boot PARTIAL: READS attestation stale, X bookmark token refresh failed, HANS daily rows not re-pulled at 10/16 closes."
   },
   "manual_duties": {
     "11": "No new signals, handoffs or batches in this repair; earlier delivery scope retained.",
