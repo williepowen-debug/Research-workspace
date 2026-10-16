@@ -279,3 +279,10 @@ A vendor/tier **cell** enters `GPU-PANEL-01` iff **all** of:
 ### 9.8 What this freeze does NOT do
 
 **No threshold registered. No band set. No score moved. No capital path.** `GPU_SERIES.tsv` holds **zero rows** and will until 2026-09-18 post-close. The freeze is a **composition decision**, and its most important content is a **negative** — that one of its two designed tiers has no public members.
+
+### 7c. 🔒 R-G COUNTING RULE — PRE-STATED 2026-10-16 17:11 EDT, BEFORE READING 6 IS FETCHED (owed since 10/09 SCRATCH ▶1)
+
+**Question:** does reading 5's UNGRADEABLE on-demand-minus-marketplace spread (10/09, Vast.ai n=3 < floor 5) count toward §6's "≥4 weekly rows"?
+**Decision: NO. §6's row count is per CELL and counts GRADEABLE values only; a sentinel row is not an observation.** A slot TAKEN keeps the cadence intact (it is not MISSED, nothing is cured off-cadence); a cell UNGRADEABLE at that slot adds nothing to that cell's n. Counting a sentinel toward n would let a base rate be "stated" on fewer than four values, which is the free-parameter defect §6 exists to forbid.
+**Consequence, stated before any reading-6 number:** on-demand tier and index-dispersion cell — gradeable at 10/02 and 10/09 ⇒ earliest 4th value **10/23** (if 10/16 and 10/23 are gradeable). On-demand-minus-marketplace spread — gradeable at 10/02 only ⇒ earliest 4th value **10/30**, and only if 10/16 · 10/23 · 10/30 are all gradeable. If Vast.ai is under its floor at 10/16 too (two readings running), that is recorded as a finding on the marketplace leg's viability, not repaired by changing the floor.
+**Not changed:** no threshold, no floor, no band, no panel composition. §6 still also requires a STATED base rate after the 4th value.
