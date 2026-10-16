@@ -23,7 +23,7 @@ Earlier signal commitcbed6d56b8555cda6ac4ddfaab7f73ab38906f4d and receiptc62cf6a
 
 ## GAPS / OWED
 
-- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; this audit and disposition require exact-path local commit and coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
+- **Publication:** prior main/receipt/reconciliation commits are on the locally available origin/master reference; audit/disposition commit `1930f2fb02221e51546a3bce9d53b87c466561b9` is pending against local origin/master; receipt bookkeeping remains subject to coordinated publication. Foreign work preserved; no pull/push/rebase/stash performed.
 - **Runtime:** shell/Python/git/local PDF/web and thread-local verification helpers work. Native fleet ListAgents, cross-runtime desk messaging and Telegram unavailable. Earlier user report named PROME/CATO/WALTER; later owner records show PROME-spawned sessions. This is not a current fleet census; unknown desks are not declared dark. Root/local instructions explicitly read; provider does not establish tools or permissions.
 - **Read coverage:** boot-basis29MATCH at the recorded check; execution is separate. Read declaration stale/UNKNOWN; charter70223bytes exceeds budget/physical cap. At audit snapshot root charter24961bytes and ORCH view26433bytes are below32550 but above the75% rotation trigger; advisories remain, and generated ORCH requires an owner-side source/generator remedy. WALTER charter remains70223bytes. No whole-boot certification. Concrete split/attestation and generated-view concerns sent to PROME without editing its registry or generator.
 - **Shared checker:** R1's remaining two SHORT-TARGETS outputs are now demonstrated filename-date misparses after the genuine target omissions were repaired. Canonical corrects IDs and target unions pass the review-only resolver. Existing LABOR_DOWN/archive-schema and historical delivery-ID residues remain declared; no history erased to quiet checks.
@@ -105,6 +105,10 @@ Source/read accounting and publication are separate. Current audit checks: `rese
     {
       "commit": "c851c55bedfeb98b104a0147deede325d6233ab8",
       "state": "published"
+    },
+    {
+      "commit": "1930f2fb02221e51546a3bce9d53b87c466561b9",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -115,7 +119,7 @@ Source/read accounting and publication are separate. Current audit checks: `rese
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Current audit/disposition changes require local commit; foreign work observed so WALTER push deferred. Prior receipt bookkeeping confirmed against local origin reference; no fresh remote claim in this leg."
+    "note": "Audit commit 1930f2fb02221e51546a3bce9d53b87c466561b9: pending against local origin reference. Receipt bookkeeping may remain local; WALTER push deferred for observed foreign work."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -192,7 +196,7 @@ Source/read accounting and publication are separate. Current audit checks: `rese
     "12(d,e)": "Current SESSION_LOG entry and STATUS BOTTOM LINE rewritten for audit/disposition.",
     "14": "Durable memory findings preserved; notes refreshed;98lines/22549bytes, within limits.",
     "15": "Audit and approved source-search disposition recorded; previous receipt archived; resolved REGINALD confirmation and L516 date reconciled against owner evidence.",
-    "16": "Exact-path local commit pending; foreign work observed, push deferred.",
+    "16": "Exact-path audit commit 1930f2fb02221e51546a3bce9d53b87c466561b9; pending against local origin reference. Foreign work preserved; WALTER did not push. Receipt bookkeeping committed separately.",
     "Tier1": "Affected source/observation/authorization claims refreshed in current surfaces.",
     "root.consumer": "Correction original/correcting unions checked explicitly, four missing INFOhandoffs supplied. External observations routed to owning desks; no owned numerical threshold/weight/band superseded.",
     "root.memory": "No shared auto-memory writes. Own memory conservation checked.",
