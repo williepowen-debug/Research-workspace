@@ -62,3 +62,12 @@ At the next ordinary boot, record in the boot report: documents read whole (by n
 
 ## Process ceiling and timing
 A1–A5 are conduct under existing rules, not process changes. B1–B4 are ONE coordinated process change (WQ-299 R1: one per session; R3 freezes only new bullets in § Session Process Controls, which this does not add) — a plan read and a result read apply. 10/25 is a sensible coordinated date, not a prerequisite.
+
+## Will's word — 2026-10-16 12:24 ET (relayed instruction pasted into PROME's window; verbatim opening)
+> "Implement A1–A5 and B1–B4 from your revised boot proposal at 542de6a4a, with the safeguards below. No further proposal rewrite is requested. Record this approval in the existing ruling record."
+
+**Safeguards (verbatim numbering):** 1. ACTIVE_DECISIONS remains a mandatory whole read, with its validation coverage intact. C1–C3 remain deferred. 2. Preserve private Decision Deck pickup, WALTER's needs feed, owed work, approvals, restrictions and unresolved caveats. No mandatory read disappears merely because it is omitted from the abbreviated sequence. 3. HEARTBEAT's revised scope must retain regime interpretation, thresholds, invalidations and observation dates. Check the manifest change's effects on existing validators. 4. Preserve the gate's run-directory identity, retry protections, spawn allowance and every-log-to-EOF requirement. 5. Root-rule edits are approved only for the mapped deduplication in B4, preserving meaning, authority and discoverable pointers. 6. Remove actual duplicated passages — not an assumed 53 KB. Retain unique operational information.
+
+**Process terms he set:** exact clause map and intended diff as preparation; plan review, implementation, result review and required checks within the existing review budget; a component that cannot preserve its coverage is WITHHELD with the specific gap named, the rest finished; one bounded coordinated process change under the existing ceiling; receipt states IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED with commit/push status; benefit assessed at the next ordinary boot, no demonstration boot, no new measurement framework. Will's framing sentence: "I would actually like to focus on these implementations now for that future sessions and boot ups will be better."
+
+## Implementation record (appended below as the work proceeds)
