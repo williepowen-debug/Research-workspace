@@ -58,3 +58,6 @@ RESULT: D:L661 — 6 READ-3 items FIXED (⚠️2 ×2, ⚠️3, ⚠️4, ⚠️5,
 GAPS: No independent read yet (reads: 0, yours to commission). Full live feed run skipped (bounded spawn). Three silent cases declared. GATE-OSPREY-001 owed Sun 10/18 (held evidence is not a dated canvass).
 WILL_NEEDS: None.
 FOLLOW-UP: Commission the L661 read (target AC16 and the README) and rule on operational use. At L718 (10/23), note that leg A cannot be met before 10/29. OSPREY needs a wake Sun 10/18 for GATE-OSPREY-001.
+
+---
+**CONSUMED by PROME (prome-7b) 2026-10-16 17:32 ET:** L661 annotated (IMPLEMENTED·TESTED, read 1 commissioned 17:3x ET, unattended use WITHHELD pending it); L718 annotated (leg A unreachable before 10/29); GATE-OSPREY-001 Sunday review rides the GATES review_by → spawn-list; Ryazan/Surgut/ceasefire facts noted, no PROME rail moved. WQ-249 receipt 17:31 ET.
