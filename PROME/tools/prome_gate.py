@@ -1449,6 +1449,15 @@ def check_deck_republish():
     record(ADVISE, name, state == "NO-OP", line, owner)
 
 
+def _et_today():
+    """The ET calendar date (orch_closeout.py dates rows in ET; a host clock elsewhere must not relabel them — read 1 C5)."""
+    try:
+        from zoneinfo import ZoneInfo
+        return dt.datetime.now(ZoneInfo("America/New_York")).date().isoformat()
+    except Exception:
+        return dt.date.today().isoformat()
+
+
 ORCH_LABELS = ("ASKED → receipt", "ASKED → still working", "ALREADY CLOSED OUT", "WENT DARK BEFORE THE ASK")
 
 
@@ -1457,26 +1466,28 @@ def summarize_orch_closeout(body, rc, today=None):
     the ~115 KB log becomes drill-down). Counts are READ from the log's own labelled lines, never
     recomputed; a log without all four ⇒ ValueError ⇒ the gate line reads UNKNOWN (never zeros).
     ok follows rc exactly as before (rc=0); the summary never changes severity."""
-    today = today or dt.date.today().isoformat()
+    today = today or _et_today()
     counts, names = {}, {}
     cur = None
+    desk_of = lambda l: l.strip().split(" ", 1)[1].split(" touch ", 1)[0]   # full desk token (read 1 C4)
     for line in body.split("\n"):
         m = re.match(r"^(ASKED → receipt|ASKED → still working|ALREADY CLOSED OUT|WENT DARK BEFORE THE ASK): (\d+)$", line)
         if m:
             cur = m[1]; counts[cur] = int(m[2]); names.setdefault(cur, []); continue
-        if cur and line.startswith("  " + today + " "):
-            names[cur].append(line.split()[1])
+        if cur and line.startswith("  " + today + " ") and " touch " in line:
+            names[cur].append(desk_of(line))
         elif line and not line.startswith("  "):
             cur = None
     missing = [l for l in ORCH_LABELS if l not in counts]
     if missing:
         raise ValueError(f"counts UNKNOWN — read the log ({len(missing)} of 4 count lines absent)")
-    unknown = [l for l in body.split("\n") if re.match(r"UNKNOWN: \d{4}-\d{2}-\d{2} ", l)]
+    unknown = [l for l in body.split("\n") if re.match(r"UNKNOWN: \d{4}-\d{2}-\d{2} .* touch ", l)]
     dates = sorted(l.split()[1] for l in unknown)
-    todays = sum(d == today for d in dates)
+    todays = [l[len("UNKNOWN: "):].split(" ", 1)[1].split(" touch ", 1)[0] for l in unknown if l.split()[1] == today]
     older = [d for d in dates if d != today]
-    legacy = (f"UNKNOWN rows {len(unknown)} (today {todays} · older {len(older)}"
-              + (f" ≤{older[-1]}, legacy — never a boot read" if older else "") + ")") if unknown else "UNKNOWN rows 0"
+    legacy = (f"UNKNOWN rows {len(unknown)} (today {len(todays)}" + (f": {' '.join(dict.fromkeys(todays))}" if todays else "")
+              + f" · older {len(older)}" + (f" ≤{older[-1]}, the standing WQ-249 backlog — not a boot read" if older else "")
+              + ")") if unknown else "UNKNOWN rows 0"
     def seg(label, short):
         n = counts[label]; who = names.get(label) or []
         return f"{short} {n}" + (f" ({' '.join(dict.fromkeys(who))})" if who else "")
@@ -1486,6 +1497,26 @@ def summarize_orch_closeout(body, rc, today=None):
     if tail:
         summary += " · " + tail[-1][len("UNKNOWN: "):][:110]
     return rc == 0, summary
+
+
+def summarize_spawn_list(body, rc):
+    """Log 27 on the gate line (read 1 C13): the tool's own count line + every DARK and ACTIVE row id, so
+    the class counts and the rows needing a consumer read are on gate.txt, not only in the log.
+    ok follows rc exactly as before. No count line ⇒ ValueError ⇒ UNKNOWN."""
+    lines = body.split("\n")
+    head = next((l for l in lines if l.startswith("spawn_list · ")), None)
+    if head is None:
+        raise ValueError("counts UNKNOWN — read the log (no spawn_list count line)")
+    ids = {}
+    for l in lines:
+        cells = l.lstrip("⚠️❌ ").split("\t")
+        if len(cells) >= 5 and re.match(r"[DG]:", cells[0]):
+            ids.setdefault(cells[4], []).append(f"{cells[0]} {cells[3]}")
+    parts = [head.split(" · ", 1)[1] if " · " in head else head]
+    for cls in ("DARK", "ACTIVE"):
+        if ids.get(cls):
+            parts.append(f"{cls}: " + ", ".join(ids[cls]))
+    return rc == 0, " · ".join(parts)[:600]
 
 
 def check_orch_closeout():
@@ -1787,7 +1818,8 @@ def mode_boot(advance_board=True):
     run_script(ADVISE, "spawn list — L0 due-row candidates (WQ-184)",
                [sys.executable, "PROME/tools/spawn_list.py", "--horizon", "0"],
                "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; "
-               "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it")
+               "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it",
+               summarize=summarize_spawn_list)
     # DAEDALUS 2026-10-02 (Will-commissioned via PROME DAEDALUS packet 3892a8e40): spawn slate built
     # on spawn_list.render(). The ANSWERED/PARTIAL class the brief asked for FAILED its independent
     # read (BRENT and MIDAS each asked their own packets for re-spawn ≥15:30 ET; v1 said ALREADY ANSWERED)

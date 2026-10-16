@@ -28,9 +28,9 @@ def test_a1_counts_and_todays_names_on_the_line():
     ok, line = pg.summarize_orch_closeout(BODY, 1, TODAY)
     assert ok is False                                   # rc=1 stays an advisory flag, as before
     assert line.startswith("ASKED→receipt 2 (CRUISE BROCK) · still working 1 · already closed 0 · dark-before-ask 2 (PROME-reader)")
-    assert "UNKNOWN rows 2 (today 1 · older 1 ≤2026-09-01, legacy — never a boot read)" in line
+    assert "UNKNOWN rows 2 (today 1: ZHAO · older 1 ≤2026-09-01, the standing WQ-249 backlog — not a boot read)" in line
     assert line.endswith("spawn inventory coverage UNKNOWN; ledger absence cannot prove no spawns")
-    assert len(line) <= 300                               # A6
+    assert len(line) <= 700                               # A6 (amended at read 1: the line names today's touches)
 
 
 def test_a2_overlap_same_desk_in_two_states_counted_in_each():
@@ -60,4 +60,31 @@ def test_live_log_if_present():
     if not p.exists():
         pytest.skip("no live boot log on this machine")
     ok, line = pg.summarize_orch_closeout(p.read_text(encoding="utf-8"), 1, TODAY)
-    assert "ASKED→receipt 4 (CRUISE REGINALD ORACLE BROCK)" in line and len(line) <= 300
+    assert "ASKED→receipt 4 (CRUISE REGINALD ORACLE BROCK)" in line and len(line) <= 700
+    assert "PROME-reader (bootplan-read1)" in line          # read 1 C4: the full desk token
+    assert "today 14:" in line and "ARGUS" in line         # read 1 C8: today's UNKNOWN touches named
+
+
+def test_read1_c4_full_desk_token_and_c8_todays_unknown_names():
+    body = BODY.replace("  2026-10-16 PROME-reader touch", "  2026-10-16 PROME-reader (plan-read x) touch")
+    ok, line = pg.summarize_orch_closeout(body, 1, TODAY)
+    assert "dark-before-ask 2 (PROME-reader (plan-read x))" in line
+    assert "today 1: ZHAO" in line
+
+
+SPAWN = """spawn_list · as-of 2026-10-16 · horizon +0d · 4 row(s): DARK 1 · ACTIVE 2 · lands-ahead 0 · PROME 1 · WILL 0
+key\tdue\tΔd\towner\tclass\tbasis
+⚠️ D:L405\t2026-10-16\t0\tZHAO\tDARK\tlast self-commit …
+D:L548\t2026-10-07\t9\tDAEDALUS\tACTIVE\t…
+G:GATE-X\t2026-10-09\t7\tBRENT\tACTIVE\t…
+D:L350\t2026-09-19\t27\tPROME\tPROME-OWNED\tdo it
+"""
+
+
+def test_read1_c13_spawn_list_counts_and_ids_on_the_line():
+    ok, line = pg.summarize_spawn_list(SPAWN, 1)
+    assert ok is False
+    assert line.startswith("as-of 2026-10-16 · horizon +0d · 4 row(s): DARK 1 · ACTIVE 2")
+    assert "DARK: D:L405 ZHAO" in line and "ACTIVE: D:L548 DAEDALUS, G:GATE-X BRENT" in line
+    with pytest.raises(ValueError, match="counts UNKNOWN"):
+        pg.summarize_spawn_list("key\tdue\n", 1)
