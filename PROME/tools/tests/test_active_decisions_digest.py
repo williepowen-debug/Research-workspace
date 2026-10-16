@@ -94,6 +94,13 @@ def test_read2_prose_lead_words_are_not_guard_tokens():
     assert rows[2]["dated"] == ["10/14", "10/19"]          # overdue M/D and Mon-DD both cued
 
 
+def test_read3_suffixed_and_hyphen_forms_are_actionable():
+    body = "\n".join(["| Q3 | MONITOR_ONLY — re-armed: WILL_APPROVED_SELL awaiting order | o | n | b | s |",
+                      "| Q4 | LIVE — FILLED_PARTIAL, remainder BROKER-PENDING at the desk | o | n | b | s |"])
+    rows, errs = run(HEAD + body + TAIL)
+    assert [r["cls"] for r in rows] == ["ACTIONABLE", "ACTIONABLE"] and errs == []
+
+
 def test_ce5_rules_list_cross_checked():
     rows, errs = run(FIX.replace("`DEFERRED`", "`DEFERRED`, `PARKED`"))
     assert any("Rules bullet lists" in e for e in errs)

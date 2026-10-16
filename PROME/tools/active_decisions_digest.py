@@ -58,7 +58,8 @@ def _classify(state_clean):
     up = head.upper()
     tokens = set(re.findall(r"[A-Z][A-Z0-9_\-]*[A-Z0-9]|[A-Z]", up)) | set(re.findall(r"[A-Z][A-Z0-9_]*", up))
     lead = re.split(r"[\s—(:;,/→]", head, 1)[0].strip("`*_") if head else ""
-    if tokens & set(NON_TERMINAL):
+    norm = up.replace("-", "_")
+    if tokens & set(NON_TERMINAL) or any(s in norm for s in NON_TERMINAL):   # read 3: suffixed/hyphen forms
         return "ACTIONABLE"
     if lead in TERMINAL or lead in GUARD_TOKENS:
         return "GUARD"
