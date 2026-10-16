@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-15 17:45",
+ "built": "2026-10-15 23:11",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -108,7 +108,7 @@
   "FERT": "ok",
   "FLG": "elev",
   "HAWK": "watch",
-  "HENRY": "watch",
+  "HENRY": "elev",
   "HOMER": "ok",
   "LABOR": "ok",
   "LIQUID": "ok",
@@ -172,6 +172,7 @@
   "WQ-357 (10/14)",
   "WQ-302 (10/14)",
   "WQ-445 (10/16)",
+  "WQ-448 (10/17)",
   "WQ-441 (10/17)",
   "WQ-443 (10/19)",
   "WQ-442 (10/23)",

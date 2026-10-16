@@ -47,7 +47,7 @@ Four standalone runs per boot (the reviewer's criterion, adopted: *what existing
 - Correction to the defect paragraph, found by the reader: the old Fire-time bullet said `--quiet`; the gate runs firetime WITHOUT `--quiet` (its flagged lines are the payload). "Same flags" was therefore slightly off for that one check — the gate's run is a superset of the standalone's output, which is the plan's own wording and the reason the standalone was the redundant one.
 
 ## reads: 1
-- Read 1 (coldreader, model sonnet per WQ-447, 20:08–20:10 ET; ledger scratchpad `coldread_boot_step5.md`, 14 claims, 6 counterexamples) — **RELEASE: 0 ❌ · 5 ⚠️ · 9 ✅**. Disposition: IMPLEMENTED · TESTED (acceptance greps + measure) · INDEPENDENTLY VERIFIED on A1–A6 by a reader who did not write the edit; A7 OBSERVED pending.
+- Read 1 (coldreader, model sonnet per WQ-447, 20:08–20:10 ET; ledger scratchpad `coldread_boot_step5.md`, 14 claims, 6 counterexamples) — **RELEASE: 0 ❌ · 5 ⚠️ · 9 ✅**. Disposition: IMPLEMENTED · TESTED (acceptance greps + measure) · INDEPENDENTLY VERIFIED on A2–A4, A6 and A1 AS NARROWED (see the A1 NARROWED line above; the wider A1 is STILL UNRESOLVED) by a reader who did not write the edit; A7 OBSERVED pending.
 - W1 applied after the read as a one-character fix (`scope TRY-* cards` → `scope: TRY-* cards`, restoring the old "Scope:" reading; unreviewed by construction, declared here). File after: `measure.py` in the commit body.
 
 ## Declared residue (2026-10-15 20:1x ET — the reader's ⚠️ not fixed, per `PROME/CLAUDE.md` § Read budget)
