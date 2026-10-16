@@ -18,3 +18,5 @@
 
 ## What this plan does NOT do
 No new instrument beyond the gate line in item 1; no telemetry system (CATO step 5: use the closeout record); no change to read MODES except BOOT.md's size; no change to any rule's meaning (item 3 moves text, and only under Will's word); no edit to another desk's files.
+
+**Outcome note (closeout 16:3x ET):** item 1 SHIPPED and INDEPENDENTLY VERIFIED (c9897174e); item 2 SHIPPED as a PARTIAL rotation — BOOT.md measured 25,667 B = 78.9%, not the forecast ≈74%: completion = DOCKET L745; item 3's table written (mirror bytes 4,702 B — the 15–20 KB forecast in the row above was wrong); item 4 = DOCKET L744; item 5 done (L721/L405 RESOLVED); item 6 = this closeout.

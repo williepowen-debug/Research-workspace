@@ -2,6 +2,9 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) is the only entry point (current assignment, owed work, Will's hands). **Latest account:** `memory/2026-10-16.md` (one home per sitting; this file never retells it). **Current work and restrictions:** [STATUS](STATUS.md). The dated entries below are history — evidence of what happened, never the current resume.
 
+## October16 afternoon — WQ-445 A; three boot-cost changes shipped and read; LIQUID/ZHAO woken
+Session 8fb641db (boot 15:08 ET; Standard closeout 16:2x ET 10/16). Account: `memory/2026-10-16.md` § 8fb641db. Records: `plans/2026-10-16_boot-closeout-cost-PLAN.md` · `tools/tests/ACCEPTANCE_active_decisions_digest_2026-10-16.md` · `tools/tests/ACCEPTANCE_gate_log_summary_2026-10-16.md` · `proposals/2026-10-16_boot-rotation-PLAN.md` · `reports/2026-10-16_rules-overlap-table.md`. Open for Will → SCRATCH ★ NEXT.
+
 ## October16 midday — boot rewiring shipped, Fleet-Ops build retired, four desks woken and closed
 Session prome-ac (boot 11:38 ET; closeout 14:51 ET, Light-run on a Standard-sized session — ARGUS/freeze/verify SKIPPED on Will's word, named PARTIAL). Account: `memory/2026-10-16.md` § prome-ac. Records: `proposals/2026-10-16_boot-rewiring-RULED.md` (A1–A5 + B1–B3 shipped, B4 withheld, CATO corrections 1–4, a fourth read recorded as an unauthorized deviation) · `proposals/2026-10-16_wq452-fleetops-retire-RULED.md` (build + four gate checks + projection companion retired; channel feed retirement accepted; Deck-build transfer dropped). Desks: CRUISE (L712 NCLC notes closed, unsecured) · REGINALD (CFG inconclusive, Nano not posted, HY 2-of-3) · ORACLE (L729 read 1, Oct $110 20.5% armed) · BROCK (CABO not closed, CoBank TRO; L743 10/23). Registered WQ-450–454; L707 (cruise CIKs in intake) + L563 (FLG 10/23 confirmed) done. Open for Will → SCRATCH ★ NEXT.
 
