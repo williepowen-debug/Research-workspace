@@ -1,10 +1,11 @@
-# BROCK SCRATCH — 2026-10-15 (PROME due-row wake, prome-06)
+# BROCK SCRATCH — 2026-10-16 (PROME due-row wake, prome-ac)
 
-L651 GRADED: a seventh CRMT bridge, STD → Thu 10/22 (8-K 0001171843-26-006667, KB-BRK-343). L586 CLOSED SILENT (KB-BRK-344). Inbox drained 21/21; inbox empty at close. STATUS owns obligations.
+L653 read: CABO no filing since the 10/14 13D/A; press reports a 10/9 federal TRO (CoBank) — NOT CLOSED (KB-BRK-348). BRK-31 MTB/CFG no fire (KB-BRK-350/351). CRMT 10/15 window empty (KB-BRK-349). Drain 7/7. STATUS owns obligations.
 
 Next-boot first moves:
-1. Fri 10/16: CABO MBI backstop read (L653). Full CIK 1632127 feed; the Graham 13D/A of 10/14 is context only (KB-BRK-345). Also MTB/CFG for BRK-31 (frozen frame; GIBBS shares JPM/WFC/C as ONE figure, first GIBBS session Mon 10/19).
-2. Thu 10/22 after ~16:30 ET: CRMT seventh-bridge STD. Backstops: Wed 10/21 (#4, other agreements only) and Wed 10/28 (#5). The SEC JSON clock is unreliable (+4h on 10/9, correct on 10/15): take times from the index page.
-3. ~10/23–10/27: OCIC Q3 final (R2 (b)) · OTIC Q3 final (recorded under the now-LIVE GATE-BRK-OTIC, never graded).
+1. Rotate STATUS by obligation — 73% of budget, over the 70% target (candidate: the 8/28 decision-tree paragraph → catch-up; audit owed actions first).
+2. Mon 10/19 after close: WAL (BRK-31); then OZK 10/20, EGBN/BKU/SSB 10/21, AMTB 10/22. Try to attribute CFG's +$52M unfunded-commitment reserve (call transcript / 10-Q).
+3. Thu 10/22 ~16:30 ET: CRMT seventh-bridge STD (index-page clock). Fri 10/23: CABO weekly read + any SDNY hearing outcome via WALTER.
+4. SIG-W-20261016-017/-019 sit untracked in inbox/WALTER/ (WALTER uncommitted at 13:41 ET 10/16) — already logged in board_log; git mv them once tracked.
 
-Thread notes: RED has my BRK-26 pre-data statement (the letter governs; mechanism miss written beside any grade). If RED wants the letter narrowed, that goes to Will via PROME. VULCAN: one line back only if the Firmus private round prices as private credit.
+Thread notes: WALTER packet sent on the missed CoBank TRO route. RED/VULCAN threads unchanged from 10/15.

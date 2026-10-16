@@ -11,3 +11,4 @@ receipt_date	correction_id	action	note
 2026-10-15T20:58Z	COR-20261015-05	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-346; validation_ref=NONE; 
 2026-10-15T20:58Z	COR-20261015-15	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-347; validation_ref=NONE; 
 2026-10-15T20:58Z	COR-20261014-33	NO-OP	scope=BROCK never carried the -030 every-securitization headline, board_log disposition info-only; 
+2026-10-16T17:42Z	COR-20261016-02	APPLIED	artifact=AGENTS/BROCK/board_log.tsv#SIG-W-20261016-002; validation_ref=NONE; 
