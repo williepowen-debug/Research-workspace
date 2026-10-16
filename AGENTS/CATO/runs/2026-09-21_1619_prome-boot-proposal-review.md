@@ -366,3 +366,8 @@ The gate's spawn-slate owner instruction already says “read the top block ... 
 
 
 **CATO delivery checks:** intended files existed and were readable. Read-cap passed for exactly CATO AGENTS/CHARTER/CONTINUITY and root CLAUDE/USER/AGENTS, with the existing root rotation advisory. Weekday check passed on PROME DOCKET/GATES/WILL_QUEUE, CATO CONTINUITY and this report; absent optional CATO STATUS/CALENDAR/CATALYSTS were omitted. Orphan advisory inspected: foreign WALTER/PROME work preserved; no CATO-authored packet outside this directory. No STATUS/ledger, auto-memory or superseded research-figure change triggers a conditional check. Whitespace check passed. CATO delivery comprises this report, CONTINUITY and two reproducibility files only; exact commit/push receipt follows in-session. No owner publication or recipient consumption is claimed.
+
+
+## October 16 — owner disposition used for subsequent planning
+
+At `23af2c215`, the boot ruling records the shipped CATO corrections and Will's instruction to retain the fourth read as technical evidence while recording it as an unauthorized process deviation, without retroactive authorization. The owner reports B14–B17 corrected; no fresh CATO full implementation acceptance is claimed in the later duplicated-state planning task. Prior findings and test evidence remain above. The next ordinary boot is still the practical-benefit observation. [Subsequent planning scope](2026-10-16_1506_prome-current-state-plan.md) does not reopen this episode or reset its review budget.
