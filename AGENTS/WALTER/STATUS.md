@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-16T19:44:54Z — instruction fixes and Tier-2 closeout. Runtime Codex/OpenAI; exact variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals**. No new signals/helpers in this repair. Duties and publication: `LAST_COMPLETION.md`.
+**Updated:** 2026-10-16T20:20:23Z — Will-requested final Tier-2 closeout. Runtime Codex/OpenAI; exact variant UNKNOWN. BOARD **1481**; October16 **26 signals**, **20 kill-log rows**, **0 bifurcation signals**. No new research signals/helpers during instruction cleanup/closeout. Duties and publication: `LAST_COMPLETION.md`.
 
 ## BOTTOM LINE
 
-Instruction cleanup implemented: charter70,223→22,668bytes, original history conserved; stale copies corrected and memory narratives condensed. Will retained FLASH bypass, including duplicates; IMMEDIATE is only the floor. Read attestation, expired-companion review and older-file retirement remain open. Earlier bookmark/source work and approved search reopening conditions remain in LAST_COMPLETION; market observations below were not refreshed by this documentation pass.
+Instruction cleanup and CATO’s light-receipt clarification are complete. Charter22,760bytes; original history and approval conditions preserved. Concrete closeout overhead and duplicate-work risks recorded for later review, with no new process deployed. Read attestation, expired companion and remaining research/maintenance duties are explicit in LAST_COMPLETION. Market observations below retain their earlier dates; this closeout did not fetch the afternoon releases.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -38,7 +38,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY reviewed before this regeneration:42scoped headers compared,41unchanged and WALTER changed;47rows retained, owner bands preserved. Evidence: `research/2026-10-16_instruction-fixes/context-headers.json` and `registry-refresh.json`. Bands: GREEN 4 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · YELLOW 14 · — 3. Header dates remain owner document dates, not fleet availability.
+REGISTRY reviewed before regeneration:42scoped headers compared,41unchanged and WALTER changed;47rows retained. Evidence: `research/2026-10-16_final-closeout/context-headers.json` and `state-review.json`. Bands: GREEN 4 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · YELLOW 14 · — 3. Owner dates/bands preserved; not a liveness census.
 
 Native fleet census, cross-runtime desk messaging and Telegram are unavailable. Will's earlier PROME/CATO/WALTER report is dated context, not a current exclusive census: later owner artifacts show PROME-spawned work. Availability remains UNKNOWN unless current evidence establishes otherwise. Foreign changes were observed and preserved. No doorbell or spawn follows from missing visibility. Backlog age uses delivery_log.timestamp_routed, not assumed darkness age. Today's routing remains the dated BOARD index, with each card's source limits.
 

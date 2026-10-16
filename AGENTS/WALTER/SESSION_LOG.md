@@ -1,3 +1,7 @@
+## 2026-10-16T20:20:23Z — TIER-2 CLOSEOUT: Will-requested session end
+
+Cleanup and WA2 preserved.42owner-header comparison (41unchanged); REGISTRY reviewed before network; BOARD/log counts checked. Prior market observations remain dated, no fresh sweep. Performance/duplication observations: `research/2026-10-16_final-closeout/OBSERVATIONS.md`. Existing INFO-copy sample restored to FOLLOW-UP alongside October17pilot review. One full check bundle; known failures remain visible. Foreign work preserved; exact-path local commits and deferred coordinated publication.
+
 ## 2026-10-16T20:16:54Z — light-closeout — full deferred: CATO WA2
 
 Confirmed and corrected ambiguous LIGHT receipt deferral: both tiers explicitly update the short dated LAST_COMPLETION receipt and run applicable checks. One charter sentence changed; owned basis hash and affected receipt updated. No broader rewrite or new market work. Evidence: `research/2026-10-16_instruction-fixes/WA2/RESULT.md`. Prior approvals/open duties preserved; foreign-work publication deferral.

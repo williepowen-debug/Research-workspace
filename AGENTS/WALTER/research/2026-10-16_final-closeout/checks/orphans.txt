@@ -1,0 +1,42 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-16_from-WALTER_closeout-cost-observations.md
+     [not yours]    AGENTS/LIQUID/analysis/2026-10-16_L721-four-legs.md
+     [not yours]    AGENTS/LIQUID/registry/corrections_receipts.tsv
+     [not yours]    AGENTS/ZHAO/CLAUDE.md
+     [not yours]    AGENTS/ZHAO/board_log.tsv
+     [not yours]    AGENTS/ZHAO/docket/CATALYSTS.tsv
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261010-004.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261012-042.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261012-043.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261013-024.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261014-011.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261015-002-handoff.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261015-014-handoff.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261015-021-handoff.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261016-006-handoff.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261016-009.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261016-013.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261016-016.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20261016-022.md
+     [not yours]    AGENTS/ZHAO/reports/2026-10-16_AUGUST_TIC_SESSION.md
+     [not yours]    AGENTS/ZHAO/workbook/FLOW.tsv
+     [not yours]    AGENTS/ZHAO/workbook/KB.tsv
+     [not yours]    AGENTS/ZHAO/workbook/PREDICTIONS.tsv
+     [not yours]    AGENTS/ZHAO/workbook/VX.tsv
+     [not yours]    PROME/ideas/list.tsv
+     [not yours]    PROME/registry/WQ_LEDGER.crc
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/board_consumed.tsv
+     [not yours]    PROME/state/board_cursor.txt
+     [not yours]    memory/2026-10-16.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
