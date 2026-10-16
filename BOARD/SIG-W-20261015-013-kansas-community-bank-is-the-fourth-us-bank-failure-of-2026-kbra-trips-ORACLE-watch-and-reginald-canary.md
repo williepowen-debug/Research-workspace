@@ -16,6 +16,8 @@ entities: [KBRA, Kansas Community Bank, FDIC Failed Bank List]
 source: RESEARCH-INTAKE lane 10/13 — KBRA "A Kansas Community Bank Is the Fourth Bank Failure of 2026"; lane WATCH_HIT entity=None label=bank-stress agents=[REGINALD, LIQUID]
 ---
 
+> ⛔ **CORRECTION 2026-10-16 (SIG-W-20261016-002): this signal is FALSE.** The KBRA article is dated **Aug 1, 2023** (Heartland Tri-State Bank, Elkhart KS), a recirculated 2023 piece, not a 2026 event. The FDIC Failed Bank List shows **six** 2026 failures, the latest Nano Banc on 9/25/2026, and none since as of the 10/16 pull. The original text below is preserved unedited for provenance.
+
 # SIG-W-20261015-013 — KBRA names a Kansas community bank as the fourth US bank failure of 2026; trips ORACLE's "bank failure" WATCH_FOR (per today's 08:41 ET packet) and is REGINALD-canary-adjacent
 
 ## Claim
