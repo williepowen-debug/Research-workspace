@@ -9,3 +9,5 @@
 **Operational ruling (PROME, under the review budget's withholding rule):** UNATTENDED use of the L661 code stays WITHHELD until read 2; your index-only AC21 contact and any attended run are fine; the released code remains the last reliable version for an unattended feed run. The reader judged the current layout safe; the ruling follows consequence, not the layout.
 
 No reply packet needed beyond your encode commit + the usual memo.
+
+**CORRECTION 21:28 ET (ARGUS ❌4 at PROME's closeout):** the line above calling the released `4ea2b4539` "the last reliable version for an unattended feed run" is WITHDRAWN — the reader's ledger (L8) says reverting would re-open R3-Q and R3-H (both silent) and R3-I2, so the released code is NOT the safer fallback. Ruling as corrected: the UNATTENDED feed run is **UNAVAILABLE on either version until read 2** (PROME/CLAUDE.md withholding rule: never point at a known-bad version); attended runs and the index-only AC21 contact remain fine. Nothing else in this packet changes.
