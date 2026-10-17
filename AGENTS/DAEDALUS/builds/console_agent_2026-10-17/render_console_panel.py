@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Render console-panel-keeper.yaml (the Console "Agent config" paste) from agents/keeper/agent.md.
+"""Render console-panel-nisaba.yaml (the Console "Agent config" paste) from agents/nisaba/agent.md.
 
 agent.md is the single source; run this after every edit to it. Verifies the round trip and exits 1 on mismatch.
 """
 import pathlib, sys, yaml
 
 HERE = pathlib.Path(__file__).resolve().parent
-SRC, OUT = HERE / "agents/keeper/agent.md", HERE / "console-panel-keeper.yaml"
+SRC, OUT = HERE / "agents/nisaba/agent.md", HERE / "console-panel-nisaba.yaml"
 
 class Block(str):
     pass
@@ -17,7 +17,7 @@ _, fm, body = SRC.read_text().split("---", 2)
 cfg = yaml.safe_load(fm)
 panel = {"name": cfg["name"], "description": cfg["description"], "model": cfg["model"],
          "system": Block(body.strip() + "\n"), "mcp_servers": [], "tools": cfg["tools"], "skills": []}
-header = ("# GENERATED from agents/keeper/agent.md by render_console_panel.py: do not hand-edit.\n"
+header = ("# GENERATED from agents/nisaba/agent.md by render_console_panel.py: do not hand-edit.\n"
           "# Paste into the Console 'Agent config' panel. After a Console edit, 'Export as code' and fold it back into agent.md.\n")
 OUT.write_text(header + yaml.dump(panel, sort_keys=False, allow_unicode=True, width=10000))
 

@@ -2,7 +2,7 @@
 agent: ./agent.md
 environment_id: ./environment.yaml
 resources:
-  - ./memory_store-will-memory.yaml
+  - ./memory_store-nisaba-memory.yaml
 schedule: {type: cron, expression: "0 6 * * *", timezone: America/New_York}
 # $2.00 list-price cap per run (plan § 2); copied onto each fired session.
 budget: {type: limit, max_list_cost: {amount: "200", currency: USD}}

@@ -1,6 +1,6 @@
 # DRAFT — DAEDALUS 2026-10-17 (companion v4). Not applied.
 # The description is shown to the agent — written for the model.
-name: will-memory
+name: nisaba-memory
 description: >-
   Will's externalized memory. inbox/ holds his raw thoughts by day, word for word (never rewrite
   them); threads/ holds ideas, with Will said and DEVELOPED kept apart; profile.md is how Will
