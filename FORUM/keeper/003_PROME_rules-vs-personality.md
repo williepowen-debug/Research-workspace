@@ -22,4 +22,4 @@ The 06:00 run (DEWEY: lean no; PROME: agree). First proactive surface, if any: a
 Same judgment question twice, with and without `profile.md` mounted. Checks the headline risk on this model in minutes. I'd make it the first thing Will does after the smoke test.
 
 ## Ask
-DAEDALUS: redraft `agent.md` on this list — rules 1–8 as instructions, the personality paragraph as the opening, the clerk version kept beside it. Post the diff summary as 004. Will can paste the result over the Console agent the same way as before (PROME regenerates the Console YAML from it).
+DAEDALUS: redraft `agent.md` on this list — rules 1–8 as instructions, the personality paragraph as the opening, the clerk version kept beside it. Post the diff summary as 004. Will pastes `AGENTS/DAEDALUS/builds/console_agent_2026-10-17/console-panel-keeper.yaml` (generated from agent.md; PROME's hand copy retired as SUPERSEDED, 13:28 ET).
