@@ -1,86 +1,119 @@
-# Console agent — Telegram relay (poller) SPEC
+# Console agent — Telegram relay SPEC (v2: primary channel)
 
-**Written:** 2026-10-17 12:39 ET · DAEDALUS (daedalus-6d, desktop) · **For:** PROME, Will
-**Commissioned by:** PROME prome-ab, cross-session message 2026-10-17 ~12:37 ET (prompt-hook clock). **Spec only; no code.** Option (a) in `CONSOLE_AGENT_CHANNEL_OPTIONS_2026-10-17.md`.
-**Applies only if** Will picks Telegram at plan § 3.3 (`PROME/plans/2026-10-17_console-memory-agent-PLAN.md`). Nothing here authorizes a build, a bot, a key, or spend.
-**Platform source:** bundled `claude-api` skill, Claude Code 2.1.302, `shared/managed-agents-*.md`, read 2026-10-17. Items marked UNVERIFIED were not checked against live docs or the live Console.
+**v2 written:** 2026-10-17 12:47 ET · DAEDALUS (daedalus-6d, desktop) · **For:** PROME, Will
+**v1:** 2026-10-17 12:39 ET, commit 17ea8f905 (option (a) of three). **v2 is a re-scope, not a correction pass.** Will's brief (plan § 3b, 12:42 ET) made Telegram the PRIMARY channel. PROME's 12:43 ET message asked for four additions: voice notes, a capture latency target, a one-line confirmation, and the serial-machine limit designed around rather than only disclosed.
+**Spec only; no code.** Nothing here authorizes a build, a bot, a key, or spend.
+**Platform source:** bundled `claude-api` skill, Claude Code 2.1.302, `shared/managed-agents-*.md`, read 2026-10-17. UNVERIFIED = not checked against live docs, the live Console, or the laptop.
+**Agent drafts this relay serves:** `builds/console_agent_2026-10-17/` (agent `keeper`, store `will-memory`, relay store `keeper-relay-state`).
 
 ---
 
 ## 0. Acceptance conditions (written first, WQ-229)
 
-Stated as properties of the relay, not as symptoms. Each condition is graded on a live fixture before the relay counts as IMPLEMENTED. The relay is a Will-facing surface, so an independent reader devises at least one counterexample of their own before it is called VERIFIED.
+Properties of the relay, not symptoms. Each is graded on a live fixture before IMPLEMENTED. The relay is Will-facing, so an independent reader devises at least one counterexample of their own before VERIFIED.
 
 | # | Property | Category |
 |---|---|---|
-| AC1 | A brief written to the store's `/log/YYYY-MM-DD.md` reaches Will's Telegram chat **exactly once** per relay host, within one poll interval of the relay seeing it, with the date in the first line. | ordinary |
-| AC2 | A message from Will's chat id reaches the agent as a `user.message`, and the agent's final `agent.message` text comes back to the same chat. A run that ends without one sends an explicit "no reply (status: …)" line, never silence. | ordinary |
-| AC3 | A message from **any other chat id** is never forwarded to the agent, never answered, and is logged locally (chat id + timestamp, no content). | wrong owner |
-| AC4 | When the relay starts after downtime, it delivers every undelivered brief from the last 7 days in date order, each marked **LATE (written HH:MM, delivered HH:MM)**, then sends one line stating the downtime window it observed. A late brief is never passed off as fresh. | missing information |
-| AC5 | If the API key, bot token, store id or agent id is absent or rejected, the relay **exits nonzero with the reason named** and does not loop silently. When Telegram itself is reachable, it sends Will one "relay cannot reach Console: <reason>" line. | missing information |
-| AC6 | A second relay on another host (both machines up) produces a **loud** result, either Telegram's 409 on the second `getUpdates` or a startup refusal, and never a silent split of inbound messages. A brief sent once by each host is acceptable, and visible. | concurrent |
-| AC7 | A Telegram message that arrives while the agent is mid-reply to the previous one is queued and answered in order, never dropped and never sent into a running session as an interleaved turn. | overlap |
-| AC8 | No secret (bot token, API key) appears in any file under the repo, in the memory store, in a prompt, or in a log line. Checked by grepping relay logs and the store listing for the token prefixes. | ordinary (security) |
-| AC9 | A session that reaches its budget cap (`stop_reason: budget_reached`) yields a "budget cap reached — not answered" message to Will, not a retry loop. | missing information |
+| AC1 | **A capture is saved before any model runs.** Within **3 s** (text) or **transcription time + 3 s** (voice) of Telegram delivering it, the capture exists in the store at `inbox/YYYY-MM-DD/HHMM-<update_id>.md` with Will's exact words, and Will sees a `✓ saved HH:MM` reply. If the agent is slow, down or out of budget, the capture is still saved. | ordinary |
+| AC2 | The `✓ saved` reply is **edited in place** to the agent's one-line filing (`✓ saved 14:02 → kitchen-reno`) when the agent finishes. It is never a second notification. If the agent produces no line within 120 s, the reply becomes `✓ saved 14:02 · filing pending` and the morning run files it. | ordinary |
+| AC3 | A message from **any other chat id** is never saved, never forwarded, never answered. It is logged locally as chat id + timestamp, no content. | wrong owner |
+| AC4 | A voice note is transcribed **on the relay host**. The saved capture carries `source: voice`, the duration, the transcript, and the Telegram `file_id`, so the audio can be re-fetched while Telegram keeps it. A failed transcription saves `source: voice · TRANSCRIPTION FAILED` plus the file_id, and says so in the reply. It is never silently dropped. | missing information |
+| AC5 | Each morning brief reaches Will **exactly once across all relay hosts**. The delivery ledger is shared (§ 5), not per machine. A brief delivered late is marked `LATE (written HH:MM, delivered HH:MM)`. | concurrent |
+| AC6 | **At most one relay polls Telegram at any moment**, arbitrated by a lease in the shared relay store (§ 5). A second relay that starts while the lease is fresh stays STANDBY and says so in its own log. A relay that loses the lease stops polling within one heartbeat. Two pollers is a failure, never a split. | concurrent |
+| AC7 | A message that arrives while the agent is still filing the previous one is **saved immediately (AC1)** and handed to the agent in order after the current turn. It is never dropped and never interleaved. | overlap |
+| AC8 | No secret (bot token, API key) appears in the repo, either memory store, any prompt or message, or any log line. Checked by grepping logs and both store listings for the token prefixes. | ordinary (security) |
+| AC9 | Missing or rejected credentials or ids → the relay **exits nonzero naming the reason** and never loops silently. Budget cap reached (`stop_reason: budget_reached`) → the reply line reads `✓ saved · agent at budget cap, filed tomorrow`. | missing information |
+| AC10 | When a relay takes the lease after a gap, it sends **one** line: `relay was off X–Y; anything you sent before <Y − 24h> may not have arrived` (see § 5 on Telegram retention), then delivers any backlog. | missing information |
 
-N/A justifications: none. All five categories apply to a two-way relay.
+N/A justifications: none. All five categories apply.
 
 ---
 
-## 1. Shape
+## 1. Shape: two-stage capture
 
 ```
- Anthropic cloud                                   Will's machine (one at a time)          Will's phone
- ┌───────────────────────────────┐                ┌──────────────────────────────┐        ┌──────────┐
- │ deployment 06:00 ET → session │── writes ─▶ memory store /log/DATE.md            │        │          │
- │ memory store (persistent)     │◀── memories.list/retrieve ── relay (poller) ──▶ │ Telegram │
- │ interactive sessions          │◀── sessions.create + user.message ──┘   ◀─getUpdates─│   bot    │
- └───────────────────────────────┘                └──────────────────────────────┘        └──────────┘
+ Will's phone ──text/voice──▶ Telegram ◀──getUpdates── RELAY (whichever machine holds the lease)
+                                                          │ 1. (voice) transcribe locally
+                                                          │ 2. memories.create inbox/… ──────────▶ ┌ cloud store will-memory ┐
+                                                          │ 3. reply "✓ saved HH:MM"                │                          │
+                                                          │ 4. user.message "new capture: <path>" ─▶ today's keeper session    │
+                                                          │ 5. edit reply → "✓ saved HH:MM → slug"  │ (files into threads/)    │
+                                                          │                                         └──────────────────────────┘
+ 06:00 ET deployment (cloud, no machine needed) ──writes log/DATE.md──▶ store ──read by relay──▶ Telegram brief
 ```
 
-The relay is a **courier only**. It holds no memory of its own beyond a delivery ledger. Everything Will says is filed by the agent into the cloud store.
+**Why two stages.** Will's brief says the thought lives for seconds. The model is the slow and failable part: a session starting up, Opus thinking, a budget cap. Stage 1 is plain code and makes the thought safe before any model runs. Stage 2 is the agent's judgment, so it can be slow without losing anything.
 
-## 2. Outbound: the morning brief
+## 2. Capture latency targets
 
-- **What it reads:** the memory store via the host-side memory API, `memories.list(store_id, path_prefix="/log/", view="basic")`, then `memories.retrieve` for any `/log/YYYY-MM-DD.md` that is not in the delivery ledger. Chosen over deployment runs → session → `/mnt/session/outputs` because (i) the store is the agent's durable record, so it's the one place the brief must exist; (ii) it survives the session; (iii) it works the same for interactive sessions. The deployment-runs list (`GET /v1/deployment_runs?deployment_id=…&has_error=true`) is read **only to report failures**: a failed 06:00 run produces "06:00 run failed: <error.type>" in Telegram instead of an absent brief.
-- **Cadence:** every 5 minutes between 05:55 and 08:00 ET, then every 30 minutes. The deployment fires at 06:00 with up to 9 minutes of jitter (`managed-agents-scheduled-deployments.md`), so the brief normally lands 06:05–06:15. Cost is negligible: list calls are API reads, not model tokens.
-- **Size:** a Telegram message is capped at 4,096 characters (UNVERIFIED, from memory of the Bot API; confirm). Longer briefs split on paragraph boundaries, numbered "(1/2)". The plan's "one screen" target should normally fit in one message.
-- **Delivery ledger:** a local TSV of `date · memory_id · content_sha256 · delivered_at · host`. Not in the repo; it's per-machine (§5). Cross-machine duplicates are accepted (AC6).
+| Path | Target (Telegram delivery → `✓ saved`) | Basis |
+|---|---|---|
+| Text | **≤ 3 s** p95 | long-poll delivery is near-instant; one `memories.create` call; one Telegram send. UNVERIFIED until measured. |
+| Voice, ≤ 60 s note | **≤ 10 s** p95 on the desktop | download + local transcription (§ 3) + the text path. Desktop: 20 cores, RTX 3070 visible in WSL (checked 2026-10-17). Laptop: UNVERIFIED, likely slower on CPU only. |
+| Filing line (stage 2) | **≤ 60 s** typical, 120 s ceiling (AC2) | the session is already warm if Will messaged earlier that day; a cold session start is slower. UNVERIFIED. |
 
-## 3. Inbound: Will messages the agent
+The relay logs each capture's three timings so the targets are measured from week one, not asserted.
 
-- **Receive:** Telegram `getUpdates` long-poll (timeout ~50 s) on the NEW bot's token. Process only updates whose `chat.id` equals Will's chat id in the config (AC3).
-- **Session strategy:** **one session per day ("today's thread")**. The first message after 04:00 ET creates a session with the memory store attached `read_write` and a per-session budget (plan § 2: $10). Later messages that day go to the same session as new `user.message` events, so "that" and "the thing I just said" keep their referent. If the day's session is terminated, budget-capped (AC9) or errored, the relay creates a fresh one and says so in one line. Memory stores attach only at session create (`managed-agents-memory.md`), which this strategy respects.
-- **Reply:** stream the session's events, or list them after `session.status_idle`. Concatenate the `agent.message` text from that turn and send it back. Queue later inbound messages until the session is idle (AC7).
-- **Tool approvals:** none expected (narrow `always_allow` tool set, see the channel note's permission finding). If a `requires_action` idle ever arrives, the relay **does not approve on Will's behalf**. It sends "agent is asking to run <tool>; reply YES to allow" and waits. Approval stays a human act.
-- **Relayed words are operator intent.** Text the relay puts in `user.message` counts as the operator's intent under `auto` evaluation (`managed-agents-tools.md:131`). The chat-id allowlist is what makes that safe. Under no circumstances may the relay forward text from anyone else.
+## 3. Voice notes
 
-## 4. Where the secrets live
+- **Where it runs:** on the relay host, never in the cloud agent. To DAEDALUS's knowledge Managed Agents takes no audio input; the bundled docs have no audio path (UNVERIFIED against live docs). Local also means Will's spoken thoughts go to no third party.
+- **Engine:** `faster-whisper` (open-source Whisper) in the relay's own Python environment. Use the `small` or `medium` model on the desktop GPU, and `small` on CPU for the laptop. Not installed today (checked: not in `.venv`, no system `ffmpeg`; faster-whisper decodes audio through PyAV without system ffmpeg, UNVERIFIED). Install is a build step requiring Will's approval.
+- **Cost:** $0 per note; a one-time model download of a few hundred MB per machine (UNVERIFIED size).
+- **Rejected alternative:** a cloud speech API, such as OpenAI's Whisper API at about $0.006/min (UNVERIFIED price). It would send every spoken thought to another provider, which is an external send needing Will's word. Hold it as a fallback only if local accuracy disappoints.
+- **Accuracy guard:** the agent sees `source: voice` and is told by its prompt never to rewrite captures. A misheard word stays visible in the saved capture, and Will can correct the thread.
+
+## 4. Session strategy and confirmation
+
+- **One session per day.** The first capture after 04:00 ET creates a session with `will-memory` attached `read_write` and a $10 budget (plan § 2). Later captures that day are new `user.message` events in it. If that session is terminated, errored or budget-capped, the relay starts a fresh one and says so in the reply line.
+- **The agent's reply is one line** (its prompt requires this). The relay edits the `✓ saved` message to append it (Telegram `editMessageText`), so Will gets **one notification per capture**, not two.
+- **Questions and commands** (`what was…`, `kill <slug>`, `push <slug>`) still go through stage 1: saved as captures, so the record is complete. The agent's answer comes back as a normal reply, since it may be longer than one line.
+- **Tool approvals:** none expected (narrow `always_allow` tool set). If a `requires_action` ever arrives, the relay asks Will `agent wants to run <tool> — reply YES` and never approves on his behalf.
+- **Relayed words are operator intent** (`managed-agents-tools.md:131`). That is why AC3's chat-id allowlist is absolute.
+
+## 5. Designing around the serial-machine limit
+
+**Fact (unchanged from v1):** the relay must run on one of Will's machines. A Telegram bot token travels in the URL path, which the Console's vault never substitutes (`managed-agents-tools.md:330`).
+
+**The design: the relay runs on whichever machine is on, and the machines share state through the cloud, not through git.**
+
+| Piece | Where it lives | Shared between desktop and laptop? |
+|---|---|---|
+| Captures, threads, briefs | cloud store `will-memory` | **Yes**, it is the cloud |
+| **Lease** (`lease.md`: host · heartbeat time) | cloud store `keeper-relay-state`, updated with `memories.update` + `precondition: content_sha256` (optimistic concurrency, `managed-agents-memory.md`) | **Yes.** This is what stops two pollers |
+| **Delivery ledger** (`delivered/YYYY-MM-DD.md` per brief) | cloud store `keeper-relay-state` | **Yes.** This is what makes AC5 "exactly once" |
+| Bot token, API key, ids | `~/.config/console-relay/.env` (mode 600) on **each** machine | **No.** Installed by Will on each machine |
+| Whisper model | each machine's relay environment | **No.** Downloaded per machine |
+| Relay logs and timings | each machine, local | **No.** Each machine sees its own |
+
+**Lease rules.** Heartbeat every 2 minutes. A lease older than 6 minutes is free to take. On taking the lease, a relay checks the store for captures and briefs it hasn't handled. A relay whose heartbeat write fails on the precondition has lost the lease and stops polling (AC6). The lease lives in a store the agent never mounts, so ~720 small versions a day never reach the agent's context. (Versions accumulate for the life of the memory. Rotate to a new lease file monthly if the version list grows unwieldy; UNVERIFIED whether that matters.)
+
+**What this buys.** Will can switch machines without remembering anything. Close the desktop lid, open the laptop, and the laptop's relay takes over within ~6 minutes. No duplicate briefs, no split messages, no "stop the relay" step at closeout.
+
+**What it can't buy, stated plainly for Will.**
+- ⚠️ **When both machines are off, nothing reaches the phone and nothing from the phone is saved.** The 06:00 brief is still written in the cloud and arrives LATE when a machine comes on.
+- ⚠️ **Messages sent while both machines are off wait in Telegram for a limited time.** Believed to be 24 hours (UNVERIFIED; check the Bot API docs). After that they are gone and no relay can know it. AC10's line tells Will the gap.
+- **The only fix for "both off" is a machine that is always on.** That would be a small always-on server (a few dollars a month, external). The fleet deliberately shut down its cloud server in the OpenClaw cutover, so this is Will's call and a later phase, not part of this build.
+
+## 6. Where the secrets live
 
 | Secret | Location | Rule |
 |---|---|---|
-| Telegram bot token (NEW bot, created by Will via @BotFather) | `~/.config/console-relay/.env`, mode 600 | ⛔ Not under `~/.claude/channels/`, where a Claude Code Telegram channel could pick it up and become a second poller. ⛔ Never reuse a fleet bot token (OPENCLAW_CUTOVER_PLAN §0c: two pollers on one token ≈ half of Will's messages silently lost). |
-| Anthropic credential for the org holding the $200 credits | same `.env` as `ANTHROPIC_API_KEY`, or an `ant auth login` profile | Must belong to the workspace where the agent and store live. Ideally a key scoped to that workspace only (UNVERIFIED whether workspace scoping is available on this org). |
-| Will's chat id, store id, agent id, environment id | same `.env` | Not secret, but kept together so one file configures a host. |
+| Telegram bot token (NEW bot, created by Will via @BotFather) | `~/.config/console-relay/.env`, mode 600, on each machine | ⛔ Not under `~/.claude/channels/`, where a Claude Code Telegram channel could pick it up and become a second poller. ⛔ Never a fleet bot token: every fleet bot already has a reader (OPENCLAW_CUTOVER_PLAN §0c). |
+| Anthropic credential for the org holding the credits | same `.env` (`ANTHROPIC_API_KEY`) or an `ant auth login` profile | Must belong to the workspace where `keeper` lives. Workspace-scoped key availability is UNVERIFIED. |
+| Will's chat id, store ids, agent id, environment id | same `.env` | Not secret; one file configures a machine. |
 
-Nothing goes in the repo, the memory store, the agent's system prompt or any message (AC8). The repo may carry the relay's **code** only after Will approves a build, and a home for it is decided then (not `scripts/`; this is not a fleet check).
+Nothing secret goes in the repo, either store, any prompt or any message (AC8). The relay's code lands in the repo only after Will approves a build, and its home is decided then (not root `scripts/`; this is not a fleet check).
 
-## 5. When the box is off (the serial-machine limit)
+## 7. Size and cost
 
-- The cloud keeps working: the 06:00 run fires and writes `/log/DATE.md`. Nothing is lost cloud-side.
-- Outbound waits. On restart the relay delivers the backlog marked LATE (AC4).
-- Inbound waits. Telegram holds unread updates for a limited time (UNVERIFIED, believed 24 h). Past that window, messages Will sent while every relay was down are **lost**, and the relay can't know it. The restart line therefore says, plainly: "relay was down from X to Y; messages you sent before <Y − 24h> may not have arrived".
-- **Laptop:** install the same relay (code + `.env`) on the laptop. Will's one-machine-at-a-time practice means one relay at a time. The closeout before a machine switch should stop the relay (`systemctl --user stop console-relay`) so the overlap window is zero. This is a Will habit to add to the switch routine; PROME decides where it is written.
-- **Process host:** a systemd user unit on WSL, the same pattern as LIQUID's existing `liquid-hy-watch.service`. `Restart=on-failure` with a backoff; it never restarts in a tight loop on AC5 failures.
+- **Code:** one Python file, ~350–450 lines with the lease and voice (up from v1's 200–300), using the official `anthropic` SDK (`beta.memory_stores.*`, `beta.sessions.*`, `beta.deployment_runs.*`), plain HTTPS to Telegram, and `faster-whisper`. A `--selftest` covers AC1–AC10 on fixtures; one live smoke test per machine.
+- **Process:** a systemd user unit on each machine (the pattern of LIQUID's `liquid-hy-watch.service`), `Restart=on-failure` with backoff, never a tight loop on AC9 failures.
+- **Cloud cost added by the relay:** API reads and small memory writes only, no model tokens. Agent cost is the agent's (plan § 2): $2 per 06:00 run, $10 per day's interactive session.
 
-## 6. Size and cost
+## 8. Open items (not DAEDALUS's to decide)
 
-- **Code:** one Python file (~200–300 lines) using the official `anthropic` SDK (`client.beta.memory_stores.*`, `client.beta.sessions.*`, `client.beta.deployment_runs.*`) and plain HTTPS to Telegram. A `--selftest` covers AC1–AC9 against fixtures plus one live smoke test.
-- **Cloud cost added by the relay itself:** API list/read calls, no model tokens. Interactive sessions cost what the agent costs (plan § 2), bounded by the per-session budget.
-
-## 7. Open items (not DAEDALUS's to decide)
-
-1. Will picks Telegram (§ 3.3) and creates the new bot. PROME owns the ask.
-2. Where the relay code lives in the repo, if anywhere: PROME/Will at build approval.
-3. Whether the machine-switch closeout gains a "stop the relay" line: PROME.
-4. Independent reader for the relay before VERIFIED: PROME commissions it at build time.
+1. Will creates the new bot (two minutes in @BotFather) and gives the relay his chat id. PROME owns the ask.
+2. The voice engine install (faster-whisper + model download) on each machine: part of build approval.
+3. The relay's code home in the repo, if any: PROME/Will at build approval.
+4. The independent reader before VERIFIED: PROME commissions it at build time.
+5. An always-on host for the "both machines off" gap: Will, later, only if the two-week measurement says missed captures matter.

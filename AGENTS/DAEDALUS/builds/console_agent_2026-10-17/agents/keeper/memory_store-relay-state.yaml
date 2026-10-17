@@ -1,0 +1,7 @@
+# DRAFT — DAEDALUS 2026-10-17. Not applied.
+# Relay bookkeeping only (lease + delivery ledger), shared by the desktop and laptop relays.
+# NEVER attached to an agent session; holds no secrets. See the relay spec § 5.
+name: keeper-relay-state
+description: >-
+  Telegram relay bookkeeping for the keeper agent: which machine holds the relay lease, and
+  which briefs have been delivered. Not for the agent.

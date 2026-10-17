@@ -1,0 +1,4 @@
+# DRAFT — DAEDALUS 2026-10-17. Not applied.
+# No network hosts at all: the agent touches only its own sandbox and the mounted memory store.
+# No MCP servers (outside systems = none, plan § 3.4), no package managers.
+config: {type: cloud, networking: {type: limited, allow_package_managers: false, allow_mcp_servers: false, allowed_hosts: []}}
