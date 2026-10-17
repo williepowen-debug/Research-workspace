@@ -1,7 +1,7 @@
-# DRAFT — DAEDALUS 2026-10-17. Not applied.
+# DRAFT — DAEDALUS 2026-10-17 (companion v3). Not applied.
 # The description is shown to the agent — written for the model.
 name: will-memory
 description: >-
-  Will's externalized memory. inbox/ holds his raw captures (never rewrite them); threads/ holds
-  live ideas; parked/ holds set-aside ones; profile.md is how Will works (his words win);
-  picture.md is your synthesis; log/ holds each day's morning brief.
+  Will's externalized memory. inbox/ holds his raw thoughts by day, word for word (never rewrite
+  them); threads/ holds ideas, with Will said and DEVELOPED kept apart; profile.md is how Will
+  works (his lines win); parked/ holds set-aside threads, still searchable.
