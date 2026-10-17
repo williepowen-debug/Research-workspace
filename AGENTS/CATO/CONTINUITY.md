@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated October 16, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; open only task-relevant entries in [TASK_INDEX](TASK_INDEX.md). Saved approvals are not commands to start unrelated work.
+**Updated October 17, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; open only task-relevant entries in [TASK_INDEX](TASK_INDEX.md). Saved approvals are not commands to start unrelated work.
 
 ## Resume point
+
+**October 17 machine-switch closeout — README/application discussion complete.** [Assessment, verification limits and surviving duties](runs/2026-10-17_1049_readme-application-review.md). Root README corrections are owner-committed; CATO checked revision 3's 29 local link occurrences at the intended root and current README/proposal body equality, not all underlying operational/calibration claims. Application direction: claim verification/follow-through and judgment under uncertain evidence; Will writes the first draft, model assistance refines. No application, study, referee send or owner work started. WALTER's closeout still carries READS attestation, the October 17 bookmark review and the missed Telegram FLASH; prior WA2 remains unverified by CATO. Preserve all grants below. On desktop, follow root Git startup rules, orient and await Will; closeout triggers no unrelated work.
 
 **October 16 WALTER result review complete.** [Evidence, WA1 closure and WA2 correction](runs/2026-10-16_walter-instruction-audit-review.md#october-16--completed-cleanup-result-review). Keep cleanup at `a23059765`: archived originals, FLASH bypass including duplicates, unchanged routing tables and selected tests/checks verified. One bounded owner correction remains: WA2, explicitly retain receipt updates/applicable checks at LIGHT closeout while deferring full narrative regeneration. No rollback/general audit; follow up on that correction or Will's direction. Expired-companion substantive review, PROME READS attestation and other named owner duties remain. Realized savings and ordinary boot recovery are unobserved. No CATO owner edits/sends; source-search approval unchanged. Orient and await Will; other approvals do not auto-trigger.
 
