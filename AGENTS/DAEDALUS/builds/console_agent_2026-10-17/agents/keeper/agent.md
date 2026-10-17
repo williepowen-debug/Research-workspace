@@ -2,7 +2,8 @@
 # DRAFT — DAEDALUS 2026-10-17. Not applied. `ant apply` is Will's step (see ../../README.md).
 # Working name "keeper"; the real name is Will's to choose before apply.
 name: keeper
-model: claude-opus-5-5
+description: Curator and custodian of Will's externalized memory — captures fleeting thoughts, keeps threads findable, surfaces them once a day.
+model: {id: claude-opus-5-5, effort: medium}
 tools:
   - type: agent_toolset_20260401
     default_config: {enabled: false}

@@ -53,15 +53,30 @@ Relay (the Telegram courier): `../CONSOLE_AGENT_TELEGRAM_POLLER_SPEC_2026-10-17.
 
 ## Apply sequence, for Will when approved (nothing here runs until then)
 
-0. **`ant` is not installed on this desktop** (checked 2026-10-17). Install it first (Anthropic's CLI; version 1.34.0 or later), then `ant auth login` against the org that holds the $200 credits. Check that `ant auth status` names that org and workspace.
+There are two equivalent paths. **Path A (Console) is the default.** Path B (`ant apply`) is the code path, for when the definitions should live in git with their IDs.
+
+### Path A: the Console, no install
+
+Found by Will 2026-10-17: the Console's blank-agent flow has an **Agent config** YAML panel and an "Export as code" button. Its progress steps are Create agent → Configure environment → Start session → Integrate.
+
+1. **Create agent.** Paste `PROME/plans/2026-10-17_console-keeper-agent-CONSOLE.yaml` into the Agent config panel. That file is PROME's conversion of `agents/keeper/agent.md` into the panel's shape. DAEDALUS checked at 12:51 ET that its system prompt is byte-identical to the agent.md body, and the tools match. UNVERIFIED: whether the panel accepts the per-tool `configs` block as written. If it rejects it, set the same eight tool switches by hand: read, write, edit, glob, grep and bash on, each "always allow"; web search and web fetch off.
+2. **Configure environment.** Cloud. Networking **limited**, with **no allowed hosts**, MCP servers off, package managers off (`agents/keeper/environment.yaml`).
+3. **Memory stores.** Create `will-memory` and `keeper-relay-state`, and paste each `description:` from the two `memory_store-*.yaml` files. The first description is written for the agent to read.
+4. **Seed `profile.md`** in `will-memory` with Will's own brief (plan § 3b, verbatim, dated 2026-10-17) as the first "said" lines. The agent then starts from his words, not from inference.
+5. **Start session (smoke test, no Telegram yet).** Attach `will-memory` read-write, send three captures by hand, and check that they land in `threads/` with one-line replies. Then, in a fresh session, send the morning kickoff text from `deployment-morning.yaml` and read the brief and the store it leaves. **This is the manual brief test, done before any schedule exists.**
+6. Build the relay (separate approval, spec v2), create the new bot, and test captures from the phone.
+7. **Schedule last.** Create the scheduled deployment from the Console with: cron `0 6 * * *`, timezone America/New_York, `will-memory` attached, a $2 budget, and the kickoff text from `deployment-morning.yaml`. The schedule is live from the next 06:00.
+
+⚠️ **Keep one source of truth.** Two copies of the agent now exist: `agents/keeper/agent.md` (DAEDALUS, source) and PROME's Console YAML (derived). A change to one goes to the other in the same sitting, or the Console runs a prompt nobody reviewed. After any edit in the Console, "Export as code" and compare.
+
+### Path B: `ant apply` (code path)
+
+0. **`ant` is not installed on this desktop** (checked 2026-10-17). Install it (Anthropic's CLI; version 1.34.0 or later), then `ant auth login` against the org that holds the $200 credits. Check that `ant auth status` names that org and workspace.
 1. From `AGENTS/DAEDALUS/builds/console_agent_2026-10-17/`:
    - `ant apply --dry-run agents/keeper` is the walk check. It must list exactly the five files above.
    - Then `ant apply agents/keeper/agent.md agents/keeper/environment.yaml agents/keeper/memory_store-will-memory.yaml agents/keeper/memory_store-relay-state.yaml`. **Not the deployment yet.**
    - The first run writes `claude-lock.json` (resource IDs) here. Commit it.
-2. **Seed `profile.md`** with Will's own brief (plan § 3b, verbatim, dated 2026-10-17) as the first "said" lines, through the Console's memory store page or one SDK `memories.create` call. The agent then starts from his words, not from inference.
-3. **Smoke test without Telegram.** Open a session in the Console with `will-memory` attached, send three captures by hand, and check that they land in `threads/` with one-line replies.
-4. Build the relay (separate approval, spec v2), create the new bot, and test captures from the phone.
-5. **One manual run of the morning brief, before the schedule exists:** a Console session with `will-memory` attached and the deployment's kickoff text. Read the brief and the store it left before trusting the schedule. (A deployment's own manual-run endpoint needs the deployment to exist already, which would also arm the next 06:00. That's why this step uses a plain session.)
-6. `ant apply agents/keeper/deployment-morning.yaml`. The schedule is live from the next 06:00.
+2. Path A steps 4–6 (seed, smoke test with the manual brief, relay).
+3. `ant apply agents/keeper/deployment-morning.yaml`, last. (A deployment's own manual-run endpoint needs the deployment to exist, which also arms the next 06:00. That's why the brief test uses a plain session.)
 
 **Cost guard rails:** $2 per morning run (in the deployment file). The relay sets a $10 cap on each day's interactive session. Budgets pause a session; they never delete anything. Two-week measure (plan § 4): if the agent caught nothing Will would have lost, stop.
