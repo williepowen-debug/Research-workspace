@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 17 README/application and machine switch
+
+**README/application discussion complete.** [Assessment, verification limits and surviving duties](runs/2026-10-17_1049_readme-application-review.md). Root README corrections are owner-committed; CATO checked revision 3's 29 local link occurrences at the intended root and current README/proposal body equality, not all underlying operational/calibration claims. Application direction: claim verification/follow-through and judgment under uncertain evidence; Will writes the first draft, model assistance refines. No application, study, referee send or owner work started. WALTER's closeout still carries READS attestation, the October 17 bookmark review and the missed Telegram FLASH; prior WA2 remains unverified by CATO. Preserve all grants. Machine handoff still requires other active sessions to finish and push; CATO's clean directory alone is insufficient. Moved from CONTINUITY on October 17 when Keeper feedback became the current resume point; no new verification or closure inferred.
+
 ## October 16 retained review dispositions
 
 Moved verbatim from the pre-closeout CONTINUITY on October 16 under the existing compact-continuity rule. These are dated snapshots; PROME was still working at CATO closeout, so later owner changes are not assessed here. Approval scopes, unresolved limits and links survive. Consult only the relevant topic.
