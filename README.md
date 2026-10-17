@@ -1,119 +1,85 @@
 # Research Workspace
 
-Research Workspace is an empirical, multi-agent research system for tracking how stress moves through credit, energy, labor, housing, commodities, and capital markets.
+This is the operating repository of a human-directed research operation. Some forty specialist agents, run as Claude Code and Codex sessions, track how stress moves through credit, energy, labor, housing, commodities and capital markets, and keep their claims, forecasts, evidence and disagreements in dated, Git-versioned files. Finance is the testbed because markets impose dated events, falsifiable outcomes and a real cost for being wrong. The method is the project.
 
-It is also proof-of-work: a test of whether one operator without traditional research credentials can build rigorous empirical capability through sustained collaboration with frontier language models. Finance is the testbed because markets impose dated events, falsifiable outcomes, and a real cost for being wrong.
+I have a literature background and am self-taught across trading, systems design and AI orchestration. I designed the system and its decision rules, set its direction, choose what it works on, rule on every consequential call, and judge what its records do and do not establish. Agents produce the analysis, code and most of the prose under that direction. The failures in the system, and in how I built it, are mine.
 
-## What this project demonstrates
+The underlying records are working artifacts rather than a curated selection; what you see is the state at the latest commit. A curated introduction, nine case studies with offline checks you can run in under a minute, is [Selected Agents Open Demonstration](https://github.com/williepowen-debug/Selected-Agents-Open-Demonstration). Read that first if you have fifteen minutes. Read this if you want to check it.
 
-### 1. An architecture in operational use
+## Start here: a route for a reader with thirty minutes
 
-The current system has operated continuously since February 2026 — roughly 10,200 commits over seven months. Its git history records the development of specialist research agents, persistent memory, cross-domain synthesis, adversarial review, and file-based coordination.
+Five stops, in order. Each says what you will see, what it demonstrates, and what it leaves unproven. Unfamiliar terms are defined in *Terms you will meet*, below the route.
 
-The important claim is not that every design is novel. It is that these structures emerged through repeated use: failure, diagnosis, revision, and another live test.
+1. **A scored forecast record.** The energy desk's ledger, [`AGENTS/BRENT/thesis/PREDICTIONS.tsv`](AGENTS/BRENT/thesis/PREDICTIONS.tsv), beside the demonstration repo's [case 9](https://github.com/williepowen-debug/Selected-Agents-Open-Demonstration/tree/main/cases/09_brent-calibration-record), which scores its resolved rows on the first call and again on the current mark. *You will see:* dated claims with probabilities, windows and outcomes, failures kept as failures, and one row the desk itself flags as written after its outcome. *Demonstrates:* forecasts are registered and graded, misses included, and the re-mark history is kept. *Unproven:* that registration preceded the outcome is carried by the commit history in case 9, not by the ledger file alone; and sixteen scored rows establish nothing about the system as a whole.
+2. **The failure catalogue.** [`memory/auto/`](memory/auto/), 487 files named `finding_*.md`, indexed by [`INDEX_COLD.md`](memory/auto/INDEX_COLD.md). Open two: [`finding_adoption_is_not_validation.md`](memory/auto/finding_adoption_is_not_validation.md) and [`finding_record_of_an_action_is_not_the_action.md`](memory/auto/finding_record_of_an_action_is_not_the_action.md). *You will see:* a named way a frontier model went wrong at a judgment, its dated instances, and the procedure that changed. *Demonstrates:* failure is classified rather than narrated, and recurrence is counted. *Unproven:* the two files are a sample; the catalogue's quality is uneven, and no one has yet analysed it as a whole.
+3. **The rules forecasts must obey.** [`FORGE/PREDICTION_DISCIPLINE.md`](FORGE/PREDICTION_DISCIPLINE.md). *You will see:* how a threshold is specified so it cannot be re-tuned once the answer is visible, which mark a re-marked forecast is scored on, when a registered invalidation resolves a row; each rule, some of them a paragraph long, points at the failure that produced it. *Demonstrates:* method is written down, dated and traceable. *Unproven:* that the desks follow every rule; compliance is checked by scripts and by review, not guaranteed.
+4. **A tool that was built, verified and not used until the human intervened.** [`PROME/plans/2026-10-15_last-mile-wiring-PLAN.md`](PROME/plans/2026-10-15_last-mile-wiring-PLAN.md) and DOCKET row 733. *You will see:* a validated writer for the orchestration log existed from September 3 and was named canonical the next day, yet the coordinator kept typing log rows by hand. When the writer's count check first ran on October 15, the ledger held 59 rows the writer had never seen, entered on October 14 and 15; among them were two rows merged into one line and a stray blank line, found that midday by a manual width check hours after they were written. A census the same day found 14 of 37 tools built since September named by no procedure at all. On my word of October 15 ("focus on working on these improvements") the writer was wired into every write site and the closeout gate. *Demonstrates:* the gap between building a tool and adopting it is a measured failure here, and the record keeps the completion states apart: wired and tested on October 15 at 15:18 ET; independently verified that afternoon by two readers who brought 17 counterexamples of their own; observed in ordinary use at that evening's closeout, where every row added in the sitting carried the writer's receipt, and again on October 16, when the count check read equal over the 58 rows added since wiring. *Unproven:* benefit. The count check cannot see a hand-typed row that a later writer run has followed, so "no hand rows since" is not established; the write-time refusal that would close that hole is still owed; no time saving has been measured; and the adoption census re-runs on November 16. The same ruling family, [`2026-09-25_wq299`](PROME/proposals/2026-09-25_wq299-prome-self-correction-reform-RULED.md), froze the coordinator's own rule growth after it measured its overhead; the authority model is [`PROME/AUTONOMY.md`](PROME/AUTONOMY.md).
+5. **One session's account and the live decision surfaces.** A short Sunday session, [`memory/2026-10-11.md`](memory/2026-10-11.md), beside the fire ledger [`PROME/GATES.tsv`](PROME/GATES.tsv) with its rules in [`PROME/GATES_README.md`](PROME/GATES_README.md) and the operator's open decisions in [`PROME/WILL_QUEUE.md`](PROME/WILL_QUEUE.md). *You will see:* approvals given and bounded, launches scoped, results consumed at their artifacts; triggers with their conditions and states; decisions waiting on the human. *Demonstrates:* where the human sits and what a routine sitting looks like. *Unproven:* that the sampled day is typical; session notes range from a few lines to several pages.
 
-Early operating history can be found in [`memory/2026-02-01.md`](memory/2026-02-01.md) and the dated briefings under [`archive/IRA/briefings/`](archive/IRA/briefings/).
+## Repository scale
 
-### 2. Calibration rather than narrative confidence
+These figures measure accumulated records, not results. They say how much was done and written down, not how well. The guided route above provides examples through which readers can assess quality.
 
-Most domain agents maintain pre-registered prediction ledgers with:
+| | | Command (from the repository root) |
+|---|---|---|
+| **Operated** | since February 1, 2026; commits on 253 of 258 days; 18,563 commits, including automated state writes | `git log --format=%ad --date=short \| sort -u \| wc -l` · `git rev-list --count HEAD` |
+| **Desks** | 41 directories carry a maintained state file. The [roster](PROME/ROSTER.md) classes 34 as active, 5 as spawned when needed and 2 as dormant; the rest are retired or special seats. The number running at any moment is smaller and varies by session | `ls AGENTS/*/STATUS.md \| wc -l` |
+| **Forecast ledgers** | 30 live ledgers holding 445 rows (archived snapshots and sub-agent copies excluded; counting them gives 52 and 653). A row is a registered claim; only a minority have resolved and been scored, see Calibration below | `find AGENTS -name PREDICTIONS.tsv -not -path '*/archive/*' -not -path '*/_archive/*' -not -path '*/research/*' -not -path '*/sub_agents/*' \| wc -l` · the same with `-exec awk 'FNR>1 && $0!~/^#/ && NF>2' {} \;` before `\| wc -l` |
+| **Failure findings** | 487 files, each a dated record of something that went wrong | `ls memory/auto/finding_*.md \| wc -l` |
+| **Session notes** | 207 daily files | `ls memory/2*.md \| wc -l` |
 
-- Explicit thresholds
-- Defined time windows
-- Resolution criteria
-- CONFIRMED, FAILED, and special-resolution outcomes
-- Failure-pattern tracking
+Run at commit `c0cf7a6d2` (2026-10-16 19:28 ET). The figures drift daily; re-run the commands rather than trusting the page.
 
-The system does not claim to eliminate error or post-hoc reasoning. Instead, it attempts to catch, grade, and learn from those failures.
+## Terms you will meet
 
-Representative ledgers:
+- **Desk, agent:** one specialist with its own directory under `AGENTS/`, run as a model session. Its `STATUS.md` is the canonical state for its domain.
+- **PROME:** the coordinator. **WALTER:** signal routing. **NEXUS:** cross-domain synthesis. **RED:** adversarial review. **TERRY:** trade construction; it never executes.
+- **Ledger:** a `PREDICTIONS.tsv` of dated, falsifiable claims, each with a probability (its **mark**), a window and a resolution rule. The **first call** is the mark as first committed; a **re-mark** is a later change.
+- **Gate:** a pre-registered trigger in `PROME/GATES.tsv` with a condition and a consequence; its state reads LIVE, FIRED, NOT FIRED or CLOSED.
+- **DOCKET row, `L` number:** a dated obligation in `PROME/DOCKET.tsv`, cited by line number. **WQ row:** a decision only the operator can make, in `PROME/WILL_QUEUE.md`.
+- **Finding:** a file in `memory/auto/` recording a failure mode and the procedure that changed.
+- **HEARTBEAT:** the coordinator's dated regime memo; never a source of current prices.
+- **Packet:** a file one agent writes into another's `inbox/`; all coordination is file-based. **Boot, closeout:** a session's start and end procedures, each with mechanical checks.
 
-- [`AGENTS/SAM/thesis/PREDICTIONS.tsv`](AGENTS/SAM/thesis/PREDICTIONS.tsv)
-- [`AGENTS/BRENT/thesis/PREDICTIONS.tsv`](AGENTS/BRENT/thesis/PREDICTIONS.tsv)
+## Calibration
 
-### 3. Operational discipline at research-team scale
+Most live ledgers are too young or too small to score. The one scored record is the energy desk's, in the demonstration repo's case 9 as revised October 5, 2026: of its 31 registered rows, 17 have resolved yes or no, and 16 are scored because one was written after its outcome. On those sixteen the first calls score a Brier of 0.1911 and the current marks 0.1697. A Brier score is the mean squared gap between a stated probability and the outcome, so lower is better; always saying 50% scores 0.25, which both beat. A stricter comparator, always forecasting the 75% rate at which the scored rows actually came true, scores 0.1875: the first calls do not beat it, the revised marks do. The gap between the two desk scores is how much later revision improved the record, and the case walks through each revision with its date. Sixteen rows from one desk is suggestive, not proof, and says nothing about the other 29 ledgers. The figures are reproducible by the case's bundled script and are also stated in the ledger's own header in this repository.
 
-The repository supports 33 active specialist agents, each a Claude Code session, working through one shared research system.
+## What the project demonstrates
 
-The architecture includes:
-
-- Domain-specific ownership and persistent state
-- A signal-routing layer
-- Cross-agent synthesis
-- Formal adversarial review
-- Pre-registered trade-construction rules
-- Agent lifecycle management
-- Scoped Git protocols for concurrent sessions
-- Fail-safe, non-force push handling
-
-The verified roster and responsibility model live in [`PROME/ROSTER.md`](PROME/ROSTER.md). The transmission topology lives in [`AGENTS.md`](AGENTS.md).
+1. **Calibration rather than narrative confidence.** Pre-registered ledgers with explicit thresholds, defined windows, resolution criteria and outcome tokens, scored on the first call as well as the current mark. The system does not claim to eliminate error or post-hoc reasoning; it attempts to catch, grade and learn from those failures.
+2. **Failure made classifiable.** The findings are not a bug list. They are named failure modes of model judgment under real stakes, with instance counts where a mode recurred: a passing test mistaken for validation, a clean instrument pointed at the wrong referent, a correction pass carrying a higher defect rate than the work it corrected, a check that only advises being overridden downstream. The procedures in this repository are the residue of those findings.
+3. **An architecture that emerged from use.** Domain ownership with persistent state, a signal-routing layer, cross-agent synthesis, formal adversarial review, pre-registered trade-construction rules, agent lifecycle management, scoped Git protocols for concurrent sessions and fail-safe, non-force push handling. None of it is claimed as novel. The claim is that each piece arrived through failure, diagnosis, revision and another live test. The roster is [`PROME/ROSTER.md`](PROME/ROSTER.md), the transmission topology [`AGENTS.md`](AGENTS.md), and the earliest operating history [`memory/2026-02-01.md`](memory/2026-02-01.md).
 
 ## How the system works
 
-Each specialist runs from its own directory and maintains a focused set of operating instructions, current state, durable memory, evidence, and thesis history.
-
-A few roles organize the system:
-
-- **PROME** coordinates priorities, decisions, and operator-facing synthesis.
-- **WALTER** ingests and routes signals and news.
-- **NEXUS** synthesizes findings across domains.
-- **RED** challenges theses and searches for falsifiers.
-- **TERRY** converts research into proposed trade structures and risk rules. It does not execute trades.
-
-Domain agents remain responsible for their own evidence and judgment.
-
-### Context siloing
-
-Agents load their own domain context rather than the entire repository. At closeout, they publish compressed `NEXUS_BRIEF.md` files for cross-domain consumption.
-
-This write-once, read-many layer allows the system to share important findings without forcing every agent to ingest every other agent's raw state. Boot-loaded files also have a script-enforced size cap (32,550 B per surface) to control context growth.
-
-The isolation is maintained by operating convention and repository structure rather than by a distributed technical runtime.
-
-## Guided tour
-
-### Five-minute view
-
-- [`CLAUDE.md`](CLAUDE.md) — fleet-wide operating rules
-- [`PROME/CLAUDE.md`](PROME/CLAUDE.md) — chief-of-staff role and authority
-- [`AGENTS/SAM/STATUS.md`](AGENTS/SAM/STATUS.md) — a representative domain state
-- [`PROME/ROSTER.md`](PROME/ROSTER.md) — verified agent roster and classifications
-
-### Deeper view
-
-- [`AGENTS/BRENT/CLAUDE.md`](AGENTS/BRENT/CLAUDE.md) and [`AGENTS/BRENT/TRADE.md`](AGENTS/BRENT/TRADE.md) — a full domain specification and trade framework
-- [`AGENTS/VIOLET/MEMORY.md`](AGENTS/VIOLET/MEMORY.md) — epistemic and measurement corrections
-- [`AGENTS/MARCO/MEMORY.md`](AGENTS/MARCO/MEMORY.md) — characteristic-error tracking
-- [`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`](AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md) — cross-agent synthesis interface
-- [`PROME/ORCHESTRAL_LAYER_DESIGN.md`](PROME/ORCHESTRAL_LAYER_DESIGN.md) — coordination-layer design
-- [`AGENTS/RED/challenges/`](AGENTS/RED/challenges/) — adversarial-review corpus
-- [`AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`](AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md) — specification for building a new agent
+Each desk runs from its own directory with its own operating instructions, current state, durable memory, evidence and thesis history, and loads its own context rather than the whole repository. PROME coordinates priorities, decisions and operator-facing synthesis; WALTER ingests and routes signals; NEXUS synthesizes across domains; RED challenges theses and hunts falsifiers; TERRY turns research into proposed trade structures and never executes. Domain desks keep responsibility for their own evidence and judgment. At closeout each publishes a compressed brief for cross-domain consumption, and boot-loaded files carry a script-enforced size cap. The isolation is a matter of convention and repository structure, not a distributed runtime.
 
 ## Why finance
 
-Finance is the forcing function, not the endpoint.
-
-Markets provide public evidence, dated catalysts, measurable outcomes, and adversarial feedback. That makes them a useful environment for developing a broader empirical method built around:
-
-- Pre-registration
-- Calibration
-- Source verification
-- Adversarial review
-- Transmission-chain reasoning
-- Explicit decision thresholds
-
-The same method can apply to other research problems with external data and falsifiable claims.
+Finance is the forcing function, not the endpoint. Markets provide public evidence, dated catalysts, measurable outcomes and adversarial feedback, which makes them a useful environment for developing a broader empirical method: pre-registration, calibration, source verification, adversarial review, transmission-chain reasoning and explicit decision thresholds. The same method applies to other questions with external data and falsifiable claims.
 
 ## Known limitations
 
-- **Serial rather than distributed.** Multiple sessions can operate on the current machine, but only one machine should write at a time. True simultaneous multi-machine operation would require a different branching model.
-- **Broker reconciliation is manual.** Position truth remains with the operator and broker. [`FORGE/STATUS.md`](FORGE/STATUS.md) is a dated mirror and can become stale between reconciliations.
-- **No externally audited P&L attribution.** The repository exposes calibration records and research process, but it does not claim independently verified investment performance.
-- **Agent maturity varies.** Some domains have long operating histories; others remain earlier-stage. [`AGENTS/DAEDALUS/FLEET_DIRECTORY.md`](AGENTS/DAEDALUS/FLEET_DIRECTORY.md) tracks those differences.
+- **Small numbers.** One desk's sixteen scored forecasts. On first calls they beat a coin flip and not the base rate of their own outcomes; after revision they beat both. This does not establish forecasting skill for that desk, let alone the system.
+- **Process overhead is a measured cost.** The coordinator's rulebook grew faster than it earned its keep. A September ruling froze it; a review on October 25 decides what is cut. Nothing is cut yet.
+- **No independent external human audit.** The operator supervises the system daily, directs its work, rules on its consequential decisions and judges what its records establish. That is continuous human evaluation, but it is the builder's own. Every other review so far has been performed by a model: the system's adversarial desk, read-only cold readers and one external model reviewer. No independent human expert has audited the system.
+- **Built, tested, verified, used and useful are five different states.** The record tries to keep them apart (stop 4 is the worked example). Where it says only "implemented" or "tested", that is all it is claiming.
+- **Visible positions.** This operating repository includes position records linking research to real decisions. They are dated records, may differ from current broker holdings, and do not establish independently verified investment performance.
+- **Serial rather than distributed.** Several sessions can run on the current machine, but one machine writes at a time.
+- **Broker reconciliation is manual.** Position truth stays with the operator and broker; [`FORGE/STATUS.md`](FORGE/STATUS.md) is a dated mirror that goes stale between reconciliations.
+- **Agent maturity varies.** [`AGENTS/DAEDALUS/FLEET_DIRECTORY.md`](AGENTS/DAEDALUS/FLEET_DIRECTORY.md) tracks the differences.
 - **Source hallucination remains possible.** Trade-relevant claims require verification against primary sources. The system treats hallucination as a tracked failure mode, not a solved problem.
+
+## Deeper view
+
+- [`CLAUDE.md`](CLAUDE.md) and [`PROME/CLAUDE.md`](PROME/CLAUDE.md): the fleet-wide rules and the coordinator's charter. Dense by design; read after the route.
+- [`AGENTS/BRENT/CLAUDE.md`](AGENTS/BRENT/CLAUDE.md) and [`AGENTS/BRENT/TRADE.md`](AGENTS/BRENT/TRADE.md): a full domain specification and trade framework.
+- [`AGENTS/VIOLET/MEMORY.md`](AGENTS/VIOLET/MEMORY.md) and [`AGENTS/MARCO/MEMORY.md`](AGENTS/MARCO/MEMORY.md): desk-level correction and characteristic-error tracking.
+- [`AGENTS/RED/challenges/`](AGENTS/RED/challenges/): the adversarial-review corpus.
+- [`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`](AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md): the cross-agent synthesis interface.
+- [`PROME/ORCHESTRAL_LAYER_DESIGN.md`](PROME/ORCHESTRAL_LAYER_DESIGN.md): coordination-layer design. [`AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`](AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md): a specification for building a new desk.
 
 ## About
 
-This project grew from self-directed experiments with persistent memory and identity continuity in ChatGPT and Claude interfaces beginning in May 2025. The git-versioned multi-agent system took its current form in February 2026.
-
-Every agent, protocol, and workflow in the repository was developed through iteration with AI as a research and systems-design partner.
+This project grew from self-directed experiments with persistent memory and identity continuity in ChatGPT and Claude interfaces beginning in May 2025. The git-versioned multi-agent system took its current form in February 2026. Every agent, protocol and workflow here was developed through iteration with AI as a research and systems-design partner; the direction, the decision rules and the judgment of what the records establish are mine.
