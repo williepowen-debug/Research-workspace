@@ -1,0 +1,2 @@
+MEMORY.md: 24 lines (12% of 200), 17676 bytes (69% of 25600) — boot-load cap
+OK: under the cap (12% lines / 69% bytes; flow-rule trip line at 75%).

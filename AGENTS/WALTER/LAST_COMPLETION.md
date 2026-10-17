@@ -1,10 +1,10 @@
 # WALTER LAST_COMPLETION — evening boot, routing and owed-work sweep
 
-Updated 2026-10-16T23:50:12Z. Runtime Claude Code, `claude-opus-5-5` (Will-launched; boot 17:25 ET; sweep 19:46 ET on Will's ask). Root, AGENTS.md, USER.md, charter and WALTER MEMORY read explicitly. **Read-cap rotation (READ_CAP rule 5, 89% → under 70% of budget):** the prior file is archived VERBATIM at `research/2026-10-16_evening/prior-LAST_COMPLETION.md` (sha256 `2ff8820f9f967f68…`). Its afternoon CHANGED/RESULT narrative, superseded publication notes and earlier evidence hashes live there. Every duty, approval and open decision is carried below, and the approval table is word for word.
+Updated 2026-10-17T14:44:07Z: **Tier-2 FULL closeout for the laptop → desktop switch** (Will, Sat 10/17 10:42 ET: commit and push everything; the desktop will pull from GitHub). Runtime Claude Code, `claude-opus-5-5` (Will-launched 10/16; boot 17:25 ET; sweep 19:46 ET). Root, AGENTS.md, USER.md, charter and WALTER MEMORY read explicitly. **Read-cap rotation (READ_CAP rule 5, 89% → under 70% of budget):** the prior file is archived VERBATIM at `research/2026-10-16_evening/prior-LAST_COMPLETION.md` (sha256 `2ff8820f9f967f68…`). Its afternoon CHANGED/RESULT narrative, superseded publication notes and earlier evidence hashes live there. Every duty, approval and open decision is carried below, and the approval table is word for word.
 
 ## STATUS
 
-Boot steps 0–9b executed; boot = **PARTIAL** because the READS attestation is stale (see GAPS) and the HANS daily rows were not re-pulled at the 10/16 closes. Sync: 0 ahead / 0 behind at 23:46Z. **Every WALTER commit through 385b0854d is on origin**: another session's push carried 028–040 up, and `reconcile_delivery_log --apply` moved 30 rows to delivered, 0 orphans. Doctor 0 HIGH. Its MEDs are all pre-existing or transient: LABOR_DOWN taxonomy; 2 historical AMENDMENT-NOTE delivery IDs; 20 NOTE rows; 119 unconsumed >2d across 9 recipient desks; newsweep "degraded" = 1 of 4 RSS requests timed out on the 18:34Z run, with all 57 Google requests OK and every prior day OK.
+Boot steps 0–9b executed; boot = **PARTIAL** because the READS attestation is stale (see GAPS) and the HANS daily rows were not re-pulled at the 10/16 closes. Sync: 0 ahead / 0 behind at 23:46Z (10/16) and again at 14:43Z (10/17, before this closeout commit); the WALTER inbox was empty on 10/17 and no 10/17 intake batch had run (Saturday). **Every WALTER commit through 385b0854d is on origin**: another session's push carried 028–040 up, and `reconcile_delivery_log --apply` moved 30 rows to delivered, 0 orphans. Doctor 0 HIGH. Its MEDs are all pre-existing or transient: LABOR_DOWN taxonomy; 2 historical AMENDMENT-NOTE delivery IDs; 20 NOTE rows; 119 unconsumed >2d across 9 recipient desks; newsweep "degraded" = 1 of 4 RSS requests timed out on the 18:34Z run, with all 57 Google requests OK and every prior day OK.
 
 ## CHANGED (this session)
 
@@ -77,12 +77,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Light closeout reopened by the sweep. Selected checks are in `research/2026-10-16_evening/closeout-light/` (read-cap, archives, weekdays and ledger PASS; the receipt check stays REVIEW only on the two documented R1 misparse rows). This closes the session's records, not the duties above.
+Tier-2 closeout 10/17 (checks in `research/2026-10-17_closeout-full/`); the 10/16 light closeout and sweep checks are in `research/2026-10-16_evening/closeout-light/` (read-cap, archives, weekdays and ledger PASS; the receipt check stays REVIEW only on the two documented R1 misparse rows). This closes the session's records, not the duties above.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-16T23:50:12Z",
+  "as_of": "2026-10-17T14:44:07Z",
   "publication": [
     {
       "commit": "2ac692eab60572c39d523abbdb817f3011458dd7",
@@ -111,6 +111,14 @@ Light closeout reopened by the sweep. Selected checks are in `research/2026-10-1
     {
       "commit": "385b0854d8e6e066dcb87bc05404cdeb94013145",
       "state": "published"
+    },
+    {
+      "commit": "b521a70400a44b29069be0a91b8529f277012c7f",
+      "state": "published"
+    },
+    {
+      "commit": "ab21ddcaf836f23648e5f4f8ed1f1c4b899ed25c",
+      "state": "published"
     }
   ],
   "delivery": {
@@ -121,7 +129,7 @@ Light closeout reopened by the sweep. Selected checks are in `research/2026-10-1
   },
   "push": {
     "all_walter_commits_on_origin": true,
-    "note": "Through 385b0854d on origin (FLASH via WALTER safe-push; 028-040 carried by another session's branch push). This sweep commit is pending until pushed."
+    "note": "All WALTER commits through ab21ddcaf proven on origin at 14:43Z 10/17. This Tier-2 closeout commit is pushed via scripts/safe-push.sh on Will's explicit instruction (10/17 10:42 ET); the receipt line is recorded in SESSION_LOG/terminal."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -153,9 +161,9 @@ Light closeout reopened by the sweep. Selected checks are in `research/2026-10-1
   ],
   "next_review": "2026-10-17",
   "procedure": {
-    "tier": "light",
-    "scope": "Evening boot + routing + bookmark batch + owed-work sweep; full narrative regeneration deferred.",
-    "claim": "Boot PARTIAL: READS attestation stale; HANS daily rows not re-pulled at 10/16 closes."
+    "tier": "full",
+    "scope": "Laptop → desktop switch closeout; clears the 10/16 21:47Z and 23:50Z light deferrals.",
+    "claim": "The 10/16 boot stays PARTIAL (READS attestation stale; HANS daily rows not re-pulled at the 10/16 closes). The closeout does not cure those gaps."
   },
   "manual_duties": {
     "11": "027-040 authored: 14 BOARD signals, 40 handoffs, 3 batches closed (04 4/4, 05 17/17, 06 5/5); one correction row COR-20261016-03.",
@@ -165,7 +173,10 @@ Light closeout reopened by the sweep. Selected checks are in `research/2026-10-1
     "root.retirement": "New artifacts are under 60 days; the exhaustive review is still owed.",
     "root.memory": "WALTER MEMORY #34 n+1 only; no auto-memory edit.",
     "root.claim_check": "Weekday checks PASS on every new card.",
-    "root.consumer": "No threshold or owner figure superseded."
+    "root.consumer": "No threshold or owner figure superseded.",
+    "13": "Registry: only PROME's header changed since 21:42Z 10/16; PROME and WALTER rows refreshed; 47 rows.",
+    "12(a-f)": "STATUS header, BOTTOM LINE and NETWORK AWARENESS regenerated; counts re-measured (BOARD 1495); read cap re-run.",
+    "14": "MEMORY session notes rewritten for the desktop session; no new standing finding (heredoc n+1 already in auto-memory)."
   }
 }
 END_CLOSEOUT_RECEIPT -->

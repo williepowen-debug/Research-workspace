@@ -1,0 +1,15 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "STATUS:2: duplicate volatile claim; move to LAST_COMPLETION/dated receipt",
+    "STATUS:6: duplicate volatile claim; move to LAST_COMPLETION/dated receipt",
+    "R1 write compliance OWED: R1-WRITE 1 OWED: 0 correction-class signal(s) with NO register row \u00b7 2 row(s) whose targets miss a recipient of the corrected signal \u2014 since 2026-10-08 \u00b7 256 BOARD signal(s) scanned \u00b7 33 correction-class (signal_type: correction OR title marker) \u00b7 32 with a register row \u00b7 1 exempt (dispatch_note 'not correction-class') \u00b7 0 without a closed frontmatter block (title-only basis) \u00b7 15 row(s) target-checked against the corrected signal's recipients, 17 not checkable (pointer names no '-to-YYYYMMDD-NNN' original, or it is not on BOARD) | \u26d4 SHORT-TARGETS COR-20261015-05 (SIG-W-20261015-005 corrects S"
+  ],
+  "as_of": "2026-10-17T14:44:07Z",
+  "origin_ref": "bf85f3fc160537108fc799a2eb3066015fc2687b",
+  "delivery_scope": "20261016",
+  "delivered": 121,
+  "total": 121,
+  "next_review": "2026-10-17",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

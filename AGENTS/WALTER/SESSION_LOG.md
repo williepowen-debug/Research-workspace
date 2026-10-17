@@ -1,3 +1,7 @@
+## 2026-10-17T14:44:07Z — TIER-2 CLOSEOUT: laptop → desktop switch (Will, Sat 10/17 10:42 ET)
+
+Clears the 10/16 21:47Z and 23:50Z light deferrals. Sync 0/0 before commit; WALTER inbox empty; no new signals 10/17. Registry: PROME header refreshed (21:11 ET 10/16 closeout) plus WALTER; 47 rows. STATUS, network block, MEMORY session notes and the LAST_COMPLETION receipt updated. Every WALTER commit through ab21ddcaf was already on origin; this commit is pushed via safe-push on Will's instruction. Next session (desktop): pull, then the L599 pilot review (due 10/17) and READS re-attestation.
+
 ## 2026-10-16T23:50:53Z — sweep (Will: "anything owed, incomplete, broken, missing") — light, full deferred
 
 Origin had every WALTER commit through 385b0854d (028–040 carried by another session's push); delivery reconciled 30 → delivered, 121/121 for 10/16. Fixed: 5 FILED-not-CONSUMED packets declared retrospectively with commit evidence; `SIG-W-20261015-015` `corrects:` prefixed `EXTERNAL:`; LAST_COMPLETION rotated 28,883 → 16,722 B (verbatim archive `research/2026-10-16_evening/prior-LAST_COMPLETION.md`). Owed and carried: READS re-attestation, L599 review 10/17, L334 study, expired companion, retirement review, Telegram FLASH gap. Heredoc backtick slip caught pre-commit (auto-memory n+1).

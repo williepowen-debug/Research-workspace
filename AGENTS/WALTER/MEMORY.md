@@ -90,5 +90,5 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**CHANGES SINCE — 2026-10-16T20:20:23Z:** Final closeout after instruction cleanup and CATO WA2; performance observations saved, no new process installed.
-**NEXT SESSION:** Read LAST_COMPLETION/current owners; preserve source-search reopening limits. October17 pilot review and existing INFO-copy sample are owed; READS attestation, expired companion and retirement review remain open.
+**CHANGES SINCE — 2026-10-17T14:43:49Z (Tier-2, laptop → desktop switch):** 10/16 evening Claude Code session: the VIX +5.85 intraday FLASH `027` (cause unproven; follow-up `034`, correction `037`), Iran `035`, routes `028`–`040`, X bookmarks re-authorized by Will, sweep fixes (LAST_COMPLETION rotated, retro consumes, corrects normalized). All on origin; 121/121 delivered.
+**NEXT SESSION (desktop):** `git pull` first. Read LAST_COMPLETION (sole duty list). Due today 10/17: the L599 bookmark pilot review (report only, no self-extension). Then READS re-attestation (charter changed 10/16), L334, the expired companion, the retirement review, and the Telegram FLASH gap. Mon 10/19 AM: HY 10/16 cell (FT-02/REG-T-03 bar 3 + 25 bp leg), VIXCLS 10/16, Cboe rows. Preserve the source-search reopening limits.
