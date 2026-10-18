@@ -1,6 +1,17 @@
 # OSPREY STATUS
-**Last Updated:** 2026-10-16 (Fri) 17:26 ET (from `date`): osprey-1016, PROME prome-7b Tier-1 spawn (WQ-184: DOCKET L661 strike_feed residue + L0 inbox drain 5/5). **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live 5) / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
-**Evidence:** KB-OSPREY-200…203 · `STRIKES.tsv` (+2 rows, 2 updated in place; mark NOT advanced, stays 10/11) · `scripts/tests/ACCEPTANCE_L661_strike_feed_read3_residue.md`.
+**Last Updated:** 2026-10-18 (Sun) 17:54 ET (from `date`): osprey-1018, PROME prome-65 Tier-1 spawn (WQ-184: GATE-OSPREY-001 review_by + DOCKET L661 read-1 fix + L0 inbox drain 2/2). **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live 5) / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
+**Evidence:** KB-OSPREY-204…206 · `workbook/WARRISK.tsv` (+1 LEAD row, data clock NOT advanced) · `scripts/tests/ACCEPTANCE_L661_strike_feed_read3_residue.md` § READ-1 FIX · `STRIKES.tsv` untouched (mark stays 10/11).
+
+## ACTIVE — 2026-10-18 (GATE-OSPREY-001 graded · L661 read-1 fix · inbox 2/2 · no mark, band or threshold moved)
+1. **GATE-OSPREY-001 GRADED at its review_by: LIVE, no leg newly fired, NO Channel-2 upgrade, no BRENT route.** (KB-204/205)
+   - **(a) CPC SPM structural damage confirmed by assessment: NOT FIRED.** Window 9/18→10/18. No SPM-damage report located (EN+RU). Reuters 10/13 (via Baird Maritime): CPC throughput 6.0 Mt (1.59 M bpd) in September vs 6.28 Mt in August, the drop put on Karachaganak maintenance; no terminal or SPM damage reported. ⚠️ **Absence-based this time** — unlike 9/18 no assessment ran (none was called for); cpc.ru press pages 404, operator primary NOT read.
+   - **(b) FIRED 7/24, stays fired.**
+   - **(c) Tengiz force majeure: NOT FIRED.** TCO's own news index (10 items 8/19→10/16) mentions no FM, halt or suspension; Reuters 10/13 mentions none. SEARCH-NOT-FOUND, not VERIFIED-absent (index read to 100k of 305k chars).
+   - **Next review_by 2026-11-18** (30 days), or at once on any CPC terminal strike or SPM incident. PROME transcribes; I do not edit GATES.
+2. **`strike_feed.py` L661 read-1 ❌1 FIXED — IMPLEMENTED + TESTED, NOT independently verified.** Leftmost window wins: a later two-year date pair in the anchor text can no longer make a stale bulletin read fresh (CX-A now `BULLETIN_STALE`, NOT_READ 1). Acceptance first `31053d1f6`, fix `7299a2e39`. 64 tests OK (8 new); 3 F on the pre-fix code, 16 F on the released code; read-1 mutants MR2/MR4/MR5/MR7 caught. ⚠️1 declared (pinned), ⚠️2 pinned, ⚠️3 residue list now non-exhaustive (+CX-D2, CX-E), ⚠️4 "~7 days". **Unattended feed run UNAVAILABLE on either version until read 2** (PROME 10/16 as corrected); PROME commissions read 2.
+3. **War-risk: Lukoil-Bulgaria executive says Black Sea tanker cover rose ~$200K → ~$2.5M per vessel** (BNT, reported ~10/13). **Admissible as a dated claim, NOT a rate print** — one interested source, no broker primary, a different metric (USD per vessel). WARRISK LEAD row; data clock stays 9/18. Input to the C3 limb-2 canvass before 10/27 (HAWK grades). The 10/6 and 10/13 Bulgarian-coast incidents it cites are rowed and Russia-attributed (C3-excluded). (KB-206)
+4. **L666 / L718 — nothing new; not graded early.** Palaemon 12–18 Oct still NOT posted (index read 10/18 ~17:5x ET); Azov 10/10 hulls stay unidentified. One name-free refinery query found no refinery row after Ryazan 10/15 (not a sweep; mark stays 10/11). L718 (10/23): leg A still cannot be met before 10/29.
+5. **Inbox 2/2 drained** (census 0/0): PROME L661 packet + SIG-W-20261016-032.
 
 ## ACTIVE — 2026-10-16 (L661 strike_feed residue · inbox 5/5 · no mark, band or threshold moved)
 1. **Ryazan refinery hit overnight 10/14–15 — the first refinery strike after the pause; NEW C1 anchor.** (KB-200, `RU-20261015-RYAZAN`)
@@ -11,7 +22,7 @@
 3. **Surgut condensate plant 10/16, graded:** event confirmed (governor: fire at an industrial facility after drones); identity probable (OSINT and residents name the Surgut ZSK, Gazprom); attribution inferred; damage unknown. **Not refinery-class** (OWED-46 open). (KB-202)
 4. **Sberbank Balakovo data centre 10/14** = a non-energy target class, out of every count. It is the data-centre element of the Saratov 10/14 row; the "energy facility" there is still unidentified. (KB-203)
 5. **`strike_feed.py` — DOCKET L661 (READ-3 residue, new episode): IMPLEMENTED and TESTED, NOT independently verified.** Four new doubt tells: out-of-date-order links below the followed bulletin; a featured duplicate keeps its list position; a title/slug disagreement over 180 days; the two-year window form parses. The single-date note no longer claims a window END. 56 tests OK; 11 fail on the released code; 15 mutants caught. Three cases are still silent (declared in the acceptance file and the feed README). Live index 10/16: newest 5–11 Oct, 0 doubts. Acceptance `e5fe3a692`, fix `48342e63a`. PROME commissions the read.
-6. **GATE-OSPREY-001 review is due Sun 10/18 and is OWED, not graded today.** Evidence held (10/15): no CPC halt reported; the RIO spill reached the CPC SPM area (a spill, not structural damage); no Tengiz force majeure seen. That is not a dated canvass, so it is not a grade.
+6. **GATE-OSPREY-001 review was due Sun 10/18 — ✅ GRADED 10/18 (ACTIVE 2026-10-18 item 1).** Evidence held (10/15): no CPC halt reported; the RIO spill reached the CPC SPM area (a spill, not structural damage); no Tengiz force majeure seen. That is not a dated canvass, so it is not a grade.
 7. **Inbox 5/5 drained** (census 0/0). `strike_feed.py` NOT run live (a bounded spawn, not a sweep); mark stays 10/11.
 
 ## ACTIVE — 2026-10-15 — ROTATED VERBATIM → `archive/STATUS_ROTATED_2026-10-16.md` (crc32 635854654)
@@ -63,11 +74,12 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 | **✅ 10/15** | **OSP-06 deadline** | **CONFIRMED** (KB-197). Flip-on-backfill if an in-window 4-wk ≥ 3.9 surfaces. |
 | **✅ 10/15** | **C1 5→4 successor — first dated evaluation** (WQ-276; §1b; **DOCKET L544**) | **NOT MET; C1 stays 5** (KB-196). **✅ 10/15 DOCKET L666 Azov: OPEN-UNRESOLVED** (KB-194). |
 | **~10/18** | **H.R. 5334 implementation deadline** (30 days from 9/18) | Consumer read → BRENT/HAWK. Waivers are the observable (KB-164). |
-| **~10/19+** | **Palaemon 12–18 Oct** | Read for C3 (10/12–10/18) and any Azov follow-up; it certifies the ledger past 10/11. |
-| **10/18 (Sun)** | **GATE-OSPREY-001 review_by** (CPC: SPM structural damage · Tengiz FM; (b) stays fired) | **OWED — mine.** Held evidence (10/15) points NOT FIRED but is not a dated canvass. |
+| **~10/19+** | **Palaemon 12–18 Oct** | NOT posted as of 10/18 ~18:00 ET. Read for C3 (10/12–10/18) and any Azov follow-up; it certifies the ledger past 10/11. |
+| **✅ 10/18 (Sun)** | **GATE-OSPREY-001 review_by** (CPC: SPM structural damage · Tengiz FM; (b) stays fired) | **GRADED 10/18: LIVE, (a) NOT FIRED · (b) stays fired · (c) NOT FIRED; no upgrade** (KB-204/205). |
+| **11/18** | **GATE-OSPREY-001 next review_by** | Mine; earlier on any CPC terminal strike / SPM incident. |
 | **~10/20–21** | **+5d re-reads: Ryazan 10/15 (units, halt) · Surgut ZSK 10/16 (identity, damage)** | OWED-43 class. |
 | **10/23** | **L718 (successor of L544) — C1 5→4 test** | Graded on its date. ⚠️ Ryazan 10/15 is now the newest refinery row, so leg A cannot be met before **10/29** (any later refinery row resets it again). The aggregate leg still needs two <40% prints. |
-| **before 10/27** | **C3 limb-2 dated canvass** (10 outlets + TD6) for HAWK to grade | Mine to run; HAWK grades (KB-HAWK-428). Without it no C3 kill is writable on 10/27. |
+| **before 10/27** | **C3 limb-2 dated canvass** (10 outlets + TD6) for HAWK to grade | Mine to run; HAWK grades (KB-HAWK-428). Without it no C3 kill is writable on 10/27. Carries the 10/13 Lukoil-exec per-vessel claim (KB-206) as an input, not a print. |
 | **10/27** | **Earliest C3 limb-1 kill** (RIO anchor 10/6) | Needs limb 2 too. |
 | **11/2** | **C1 aggregate blackout: 60 days from S&P/CERA 9/3** | If no independent aggregate prints, flag the §1b test **UNREACHABLE** to PROME that session (11/7 if IIR's 9/8 volume print counts). |
 | **11/8** | **§5 30-day EXIT RULES re-read** (last 10/9) | Mine. |
@@ -92,20 +104,18 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 | **51** | **MIDSTREAM backfill — ~12 pump-station strikes Apr-Jul 2026 absent from STRIKES.tsv** | **9/29 (NEW)** | **OPEN.** ASTRA-reported, dates unverified; + Novokuibyshevsk refinery 8/22. Also re-run the unfinished Sept upstream queries (RU-language weekly, Caspian platforms, CPC pumps, BTS, Druzhba HU/SK). Session search cap blocked it 9/29. KB-169. |
 
 ## Cross-Agent Implications
+**2026-10-18:** no peer packets. GATE-OSPREY-001 graded LIVE/no upgrade, so no 🔴 BRENT route. **PROME** — memo `PROME/inbox/2026-10-18_from-OSPREY_gate001-review-L661-encode.md` (gate grade to transcribe, next review_by 11/18; L661 commits for read 2).
 **2026-10-16:** no peer packets. The Ryazan resumption is a 🟠 refinery-campaign marker — routine via `NEXUS_BRIEF.md` per CLAUDE.md (BRENT/HAWK also hold WALTER's SIG-W-20261015-004 as info). **PROME** — memo `PROME/inbox/2026-10-16_from-OSPREY_L661-strike-feed-residue.md` (L661 + drain + the L718 leg-A fact).
 **2026-10-15 packets (carve-out ①):** **BRENT** — OSP-06 CONFIRMED (B3 limits), L544 NOT MET, energy pause and its 10/15 lift, Rostov NZNP fire progression, RIO spill near the CPC SPMs. **HAWK** — Azov answer it asked for (no crude terminal shown damaged ⇒ no HAW-22 print), Swedish Club discrepancy accepted and fixed, the limb-2 canvass owed before 10/27, Bulgaria-coast 10/13 (Russia-attributed). **RED** — OSP-06 resolved (its rotation-split consumer). **PROME** — memo `PROME/inbox/2026-10-15_from-OSPREY_L544-L666-OSP06-grades.md`.
 **2026-09-29 packets** (PROME ×2, BRENT, HAWK) → `archive/STATUS_ROTATED_2026-10-16.md` Part 2 (verbatim).
 Prior cross-agent blocks (9/19-9/24) rotated VERBATIM → `archive/STATUS_ROTATED_2026-09-29.md` Part 2. Delivery is on commit; receiver integration UNKNOWN. I do not edit `GATES.tsv`.
 
 ## BOTTOM LINE
-**All three marks hold at 5 / ⚪1 / 3. Ukraine resumed refinery strikes the night its pause ended, so the refinery channel's downgrade test is now further away.**
-- **Refineries (5):** Ryazan was hit overnight 10/14–15 (governor-confirmed fire). The 14-day no-strike leg of the downgrade test restarts from 10/15, so it cannot be met before 10/29. No independent September or October outage figure has surfaced. The Surgut condensate-plant fire (10/16) is not counted as a refinery strike.
-- **Export terminals (⚪1, killed 10/9):** still no Black Sea, Azov or Baltic oil-port strike since 9/9. The Azov 10/10 hulls are still unidentified.
-- **Tankers (3):** the RIO anchor holds (10/6); not killable before 10/27, and only with the war-risk canvass.
-- **The 10/11 "energy ceasefire" is over in practice** — it was never agreed by Russia, and Kyiv ended its own pause 10/15.
-- **Strike feed:** the L661 residue fix is implemented and tested, not yet independently verified.
+**All three marks hold at 5 / ⚪1 / 3. The CPC tripwire (GATE-OSPREY-001) was graded on its date: no new leg fired, so no Channel-2 upgrade.**
+- **CPC gate:** no SPM structural damage and no Tengiz force majeure found for 9/18–10/18; CPC ran 1.59 M bpd in September (Reuters 10/13). The (a) grade rests on absence, not on a fresh assessment. Next review 11/18.
+- **Refineries (5):** Ryazan 10/15 is still the newest refinery row; the downgrade test cannot be met before 10/29.
+- **Export terminals (⚪1, killed 10/9):** still no Black Sea, Azov or Baltic oil-port strike since 9/9.
+- **Tankers (3):** RIO anchor 10/6; earliest kill 10/27, only with the war-risk canvass. A Lukoil executive's ~$2.5M-per-vessel cover claim is a lead, not a print.
+- **Strike feed:** the read-1 fix is implemented and tested; unattended runs stay unavailable until PROME's read 2.
 
-**Watch:**
-- whether Ryazan halted (re-read ~10/20) and the next refinery strike (each one resets the 14-day leg);
-- any independent capacity-offline figure (two prints below 40% are needed);
-- GATE-OSPREY-001 review Sunday 10/18; Palaemon 12–18 Oct; the C3 war-risk canvass before 10/27.
+**Watch:** Palaemon 12–18 Oct (C3 + Azov); Ryazan halt re-read ~10/20; the C3 war-risk canvass before 10/27; L718 on 10/23.

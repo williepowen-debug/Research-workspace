@@ -1,42 +1,40 @@
-# OSPREY SCRATCH — 2026-10-16 (Fri) · osprey-1016 · 17:26 ET (from `date`) · PROME prome-7b Tier-1 spawn (WQ-184: DOCKET L661 + L0 inbox drain)
+# OSPREY SCRATCH — 2026-10-18 (Sun) · 17:55 ET (from `date`) · osprey-1018 · PROME prome-65 Tier-1 spawn (WQ-184: GATE-OSPREY-001 review_by + DOCKET L661 read-1 fix + L0 inbox drain)
 
-*Rewritten in full (template). The 10/15 SCRATCH is in git history (`git show a15874a42:AGENTS/OSPREY/SCRATCH.md`); every carried item is below or in the STATUS OWED register.*
+*Rewritten in full (template). The 10/16 SCRATCH is in git history (`git log -1 --format=%h -- AGENTS/OSPREY/SCRATCH.md` before this commit); every carried item is below or in the STATUS OWED register.*
 
 ## CURRENT MARKS (one line)
 - Refineries/products **5** · crude-export terminals **⚪1 KILLED 10/9 (dormant-armed, last live 5)** · shadow-fleet tankers **3** · band ~30% [EST] · Brent → BRENT (not tracked here).
 
-## CHANGES SINCE LAST SESSION (10/15 08:21 ET → 10/16)
-- **Ryazan refinery hit overnight 10/14–15** (governor-confirmed fire; Moscow Times, Meduza, Reuters headline). It is the first refinery strike after the pause, so it is the new C1 anchor. The 10/15 session missed it.
-- Kremlin (Peskov 10/15): Kyiv never complied with the 10/11 "energy ceasefire". It is over in practice.
-- **Surgut condensate plant fire 10/16** (governor: an industrial facility; OSINT names the Surgut ZSK). Sberbank Balakovo data centre 10/14 (Reuters).
-- Live Palaemon index 10/16: newest bulletin is 5–11 Oct; 12–18 Oct not yet posted.
+## CHANGES SINCE LAST SESSION (10/16 17:26 ET → 10/18)
+- Reuters 10/13: CPC September throughput 6.0 Mt (1.59 M bpd) vs 6.28 Mt August; Kazakh exports via CPC 5.2 vs 5.7 Mt; Karachaganak maintenance. No SPM damage, no FM.
+- Lukoil-Bulgaria executive (BNT, ~10/13): Black Sea tanker war-risk cover ~$200K → ~$2.5M per vessel — single interested source.
+- Palaemon 12–18 Oct NOT posted as of 10/18 ~18:00 ET. No refinery row after Ryazan 10/15 found in one query (not a sweep).
 
 ## WHAT I DID THIS SESSION
-- **DOCKET L661 (strike_feed READ-3 residue, new episode):** acceptance written first and committed alone (`e5fe3a692`), then the fix (`48342e63a`): AC13 order rule · AC14 duplicate listings · AC15 title/slug > 180 d · AC16 two-year window + honest single-date note · AC17 pins (M4/M5) · AC18 L624:94 reworded. 56 tests OK; 11 fail on the released code; 15 mutants caught (1 equivalent, guard removed). New real fixture 10/16. README rewritten. **IMPLEMENTED + TESTED, not verified.**
-- **Inbox 5/5 drained** (board_log + `git mv`; census 0/0): STRIKES +2 rows (Ryazan 10/15, Surgut ZSK 10/16), 2 updated in place (Ukhta anchor superseded; Saratov data centre = Sberbank Balakovo). KB-200…203.
-- STATUS ACTIVE 10/16 block + dashboard clocks + BOTTOM LINE; NEXUS_BRIEF refreshed; memo to PROME.
-- GATE-OSPREY-001: NOT graded (review_by 10/18; held evidence is not a dated canvass).
+- **GATE-OSPREY-001 graded at review_by:** LIVE; (a) NOT FIRED (absence-based; cpc.ru 404), (b) stays fired, (c) NOT FIRED. Next review_by **2026-11-18**. KB-204/205. No BRENT route (no upgrade).
+- **DOCKET L661 read-1 fix:** acceptance AC22–AC26 committed alone (`31053d1f6`), then fix (`7299a2e39`): leftmost window wins (❌1, CX-A), reader pins (CX-F, span 15/14, reversed, 2025–2026), ⚠️1 declared + pinned (CX-E), ⚠️3 residue non-exhaustive (+CX-D2, CX-E), ⚠️4 "~7 days". 64 tests OK. **IMPLEMENTED + TESTED, not verified.** Unattended run UNAVAILABLE until read 2.
+- **Inbox 2/2 drained** (board_log + `git mv`; census 0/0). KB-206 + WARRISK LEAD row (data clock NOT advanced; re-pull clock 10/18 = targeted check, not a canvass).
+- STATUS ACTIVE 10/18 block + OWED rows + BOTTOM LINE; NEXUS_BRIEF refreshed; memo to PROME.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Sun 10/18:** grade GATE-OSPREY-001 at its review_by — (a) CPC SPM structural damage, (c) Tengiz force majeure; (b) stays fired. Dated canvass, then the owner grade at the gate letter.
-2. **~10/19+:** read **Palaemon 12–18 Oct** (C3 10/12–10/18; Azov follow-up). Run `strike_feed.py` — the FIRST live run of the L661 code; any `BULLETIN_NEWEST_UNSURE` is read at the named links, never dismissed as the new rule's noise.
-3. **~10/20–21:** +5d re-reads — Ryazan 10/15 (units, halt) and Surgut ZSK 10/16 (identity, damage).
-4. **10/23:** L718 — graded on its date. Leg A cannot be met before 10/29 on the current ledger (Ryazan 10/15).
-5. **Before 10/27:** C3 limb-2 dated canvass (10 outlets + TD6) for HAWK. **10/27** = the earliest C3 limb-1 kill (RIO anchor).
-6. **11/2:** C1 aggregate blackout = 60 days → flag the §1b test UNREACHABLE to PROME if nothing has printed (11/7 if IIR's 9/8 print counts). **11/8:** §5 EXIT RULES re-read.
+1. **~10/19+:** read **Palaemon 12–18 Oct** (C3 10/12–10/18; Azov follow-up for L666). An ATTENDED `strike_feed.py` run is allowed; unattended is not until read 2.
+2. **Mon 10/19:** DOCKET L666 (Azov C2 lead) — PROME's row; nothing new found 10/18.
+3. **~10/20–21:** +5d re-reads — Ryazan 10/15 (units, halt) and Surgut ZSK 10/16.
+4. **10/23:** L718 — graded on its date; leg A cannot be met before 10/29.
+5. **Before 10/27:** C3 limb-2 dated canvass (10 outlets + TD6) for HAWK, carrying KB-206 as an input. **10/27** earliest C3 limb-1 kill.
+6. **11/2:** C1 aggregate blackout 60 days → UNREACHABLE flag if nothing prints (11/7 if IIR 9/8 counts). **11/8:** §5 EXIT RULES re-read. **11/18:** GATE-OSPREY-001 next review.
+7. L661 read 2 — PROME commissions; answer any reader ❌ inside the episode budget (3 reads max; after read 2, one remains).
 
 ## OPEN THREADS / WATCHES
 - 🔴 Refinery tempo after the 10/15 resumption (each refinery row resets the C1 14-day leg).
-- 🟠 L661 independent read (PROME commissions); the README operator text is part of it. Azov 10/10 hulls (void-on-backfill for the C2 kill as of 10/10).
-- 🟡 Carried, unchanged: OWED-30 write-up · 42/50 basis pair · 43 Moscow barrels · 44 Ust-Luga condensate · 45 feed dispositions git-ignored · 46 condensate plants and C1 (Surgut is a third instance) · 48 AWRP · 51 midstream backfill.
+- 🟠 L661 read 2. Azov 10/10 hulls (void-on-backfill for the C2 kill as of 10/10).
+- 🟡 Carried, unchanged: OWED-30 write-up · 42/50 basis pair · 43 Moscow barrels · 44 Ust-Luga condensate · 45 feed dispositions git-ignored · 46 condensate plants and C1 · 48 AWRP · 51 midstream backfill.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - No live prediction (book empty). No Will-gated decision open. None forced by this session's evidence.
 
 ## MAIL STATE (one line per surface)
-- Inbox: clear (0 top-level).
-- WALTER lane: clear (0).
-- Outbox: none this session.
+- Inbox: clear (0 top-level). WALTER lane: clear (0). Outbox: none this session.
 
 ## PENDING PUSH / GIT
-- Path-scoped commits; push via `scripts/safe-push.sh` — receipt in the PROME SendMessage. The tree carries VULCAN's uncommitted work; not pulled, not touched.
+- Path-scoped commits; push via `scripts/safe-push.sh` — receipt in the PROME SendMessage. Tree also carries PROME's uncommitted ORCH_LOG.tsv; not pulled, not touched.
