@@ -99,7 +99,8 @@ _SEP = r"[\s\-–]+"
 WIN_RE = (r"(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(?:(" + MONTHS + r")" + _SEP + r")?(?:to" + _SEP + r")?"
           r"(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(" + MONTHS + r")" + _SEP + r"(\d{4})")
 # L661 AC16 (READ 3 ⚠️3; L624 pass-1 residue 2): the two-year form, "29th December 2026 - 4th January 2027" or
-# "29th-december-2026-4th-january-2027". Left digit boundary so a day can never start inside a year (cf. N2).
+# "29th-december-2026-4th-january-2027". The left digit boundary is belt-and-braces, NOT a guard (L661 read 1 MR6:
+# near-equivalent on any realistic text); the guards are the 0-14-day span and leftmost precedence (AC22).
 WIN2_RE = (r"(?<!\d)(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(" + MONTHS + r")" + _SEP + r"(\d{4})" + _SEP + r"(?:to" + _SEP + r")?"
            r"(\d{1,2})(?:st|nd|rd|th)?" + _SEP + r"(" + MONTHS + r")" + _SEP + r"(\d{4})")
 # The legacy single-date guess (slug or anchor text), unchanged since 9/9; one home so the index parser and the
@@ -132,7 +133,12 @@ def bulletin_window(text):
     legacy slug date is the FIRST day of a within-month window and the LAST day of a cross-month one."""
     t = (text or "").lower()
     m2 = re.search(WIN2_RE, t)
-    if m2:   # a two-year string is judged by the two-year form only: an implausible one stays unparsed (fails closed)
+    m1 = re.search(WIN_RE, t)
+    # L661 AC22 (read 1 ❌1): the window whose match STARTS FIRST governs. A two-year pair later in the text (e.g. a
+    # "next report, covering ..." clause after the title's own window) must never override the leftmost one-year window:
+    # that made a STALE bulletin read fresh. When the two-year form governs, it is final: an implausible one stays
+    # unparsed (fails closed).
+    if m2 and (m1 is None or m2.start() <= m1.start()):
         try:
             start = dt.datetime.strptime(f"{m2[1]} {m2[2]} {m2[3]}", "%d %B %Y").date()
             end = dt.datetime.strptime(f"{m2[4]} {m2[5]} {m2[6]}", "%d %B %Y").date()
@@ -141,7 +147,7 @@ def bulletin_window(text):
         if not (0 <= (end - start).days <= 14):   # also forces the second year to be the first or the first + 1
             return (None, None)
         return (start, end)
-    m = re.search(WIN_RE, t)
+    m = m1
     if not m:
         return (None, None)
     d1, m1, d2, m2, y = int(m[1]), m[2], int(m[3]), m[4], int(m[5])
@@ -335,7 +341,7 @@ def main():
                              f"days_back {days} < {CADENCE_DAYS} (weekly cadence + publication lag), so an on-time bulletin can read STALE at this window; re-run at the default days_back before reading this as a stopped publisher")
                     if single:
                         cause = ("the date is a single slug/anchor date with no window END (it may be the window START), so an on-time bulletin"
-                                 " can read STALE up to ~6 days early; or " + cause)
+                                 " can read STALE up to ~7 days early (the live index carries 8-day windows); or " + cause)
                     stale = (f"latest dated bulletin window ends {e.isoformat()} < cutoff {cutoff.isoformat()} = run − days_back {days} d"
                              f" ({(today - e).days} d before run): {cause}")
             if not eligible:

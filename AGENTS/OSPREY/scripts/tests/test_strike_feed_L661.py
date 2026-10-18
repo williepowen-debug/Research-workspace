@@ -172,7 +172,7 @@ class AC16_TwoYearWindowAndSingleDateBasis(unittest.TestCase):
         self.assertEqual(nr, 0)
         rows, nr, _ = run("2026-10-23", {BASE: index(single), single[0]: BODY_OK})
         lm = one(rows)["ledger_match"]
-        self.assertTrue(lm.startswith("BULLETIN_STALE"), lm); self.assertIn("6 days early", lm)
+        self.assertTrue(lm.startswith("BULLETIN_STALE"), lm); self.assertIn("7 days early", lm)   # AC26 (read 1 ⚠️4): was ~6
         self.assertEqual(nr, 1)
 
     def test_no_regression_one_year_forms_real_fixtures(self):
@@ -261,6 +261,77 @@ class Neighbours_L661(unittest.TestCase):
             r = one(rows)
             self.assertEqual(r["url"], top[0])
             self.assertTrue(r["ledger_match"].startswith("BULLETIN — read manually"), r["ledger_match"]); self.assertEqual(nr, 0)
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# READ-1 FIX (AC22-AC26; ACCEPTANCE_L661 "READ-1 FIX", committed alone in 31053d1f6 before this code edit).
+# Ledger: PROME/reports/2026-10-16_L661_strike-feed_read_1.md (❌1 CX-A; ⚠️2 mutants MR2/MR4/MR5/MR7; ⚠️1 CX-E).
+CXA_TITLE = ("Maritime Security Report: 21st - 27th September 2026. Our next report, covering "
+             "28th September 2026 - 4th October 2026, will follow.")
+CXA = (post("21st-27th-september-2026"), CXA_TITLE)
+
+
+class AC22_LeftmostWindowWins(unittest.TestCase):
+    def test_CXA_later_two_year_pair_in_anchor_text_never_makes_stale_read_fresh(self):
+        """❌1 CX-A: the title's own window ends 09-27 (< cutoff 09-28); the later 'next report' pair must not govern.
+        DISCRIMINATING against 48342e63a (HEAD before AC22: BULLETIN, NOT_READ 0, pub 10-04). Passes on 4ea2b4539 (the
+        released code parsed no two-year form), so it is a regression test, labelled here per AC20."""
+        rows, nr, _ = run("2026-10-08", {BASE: index(CXA), CXA[0]: BODY_OK})
+        r = one(rows)
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN_STALE"), r["ledger_match"])
+        self.assertEqual(r["pub_date"], "2026-09-27")
+        self.assertEqual(nr, 1)
+
+    def test_direct_leftmost_one_year_window_governs(self):
+        """❌1 direct. DISCRIMINATING against 48342e63a (later END 01-04); passes on 4ea2b4539 (regression test)."""
+        m = module()
+        self.assertEqual(m.bulletin_window(CXA_TITLE), (D(2026, 9, 21), D(2026, 9, 27)))
+        self.assertEqual(m.bulletin_window("Maritime Security Report: 22nd - 28th December 2026 - 4th January 2027"),
+                         (D(2026, 12, 22), D(2026, 12, 28)))
+
+    def test_two_year_forms_still_parse_when_they_start_first(self):
+        """NON-DISCRIMINATING against 48342e63a by design (must-not-regress): R3-I2 title/slug, the 'to' and no-space forms.
+        Fails on 4ea2b4539 (it parsed no two-year form); its discrimination against AC22 is shown by mutant MR7."""
+        m = module()
+        for t in (R3I2[1], R3I2[0], "29th December 2026 to 4th January 2027", "29th December 2026-4th January 2027"):
+            self.assertEqual(m.bulletin_window(t), (D(2026, 12, 29), D(2027, 1, 4)), t)
+
+
+class AC23_ReaderPins(unittest.TestCase):
+    def test_CXF_duplicate_then_typo_newest_then_older_is_unsure(self):
+        """⚠️2 CX-F (kills read-1 mutant MR2, listing positions compressed): OCT, OCT, TYPO25, SEP at 10/13.
+        Fails on 4ea2b4539 (the released code was silent here)."""
+        rows, nr, _ = run("2026-10-13", {BASE: index(OCT, OCT, TYPO25, SEP), OCT[0]: BODY_OK})
+        r = one(rows)
+        self.assertEqual(r["url"], OCT[0])
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), r["ledger_match"])
+        self.assertIn(TYPO25[0], r["note"]); self.assertEqual(nr, 1)
+
+    def test_two_year_span_bound_is_14_days(self):
+        """⚠️2 (kills MR4, span bound loosened): a 15-day two-year span is unparsed; a 14-day one parses.
+        Fails on 4ea2b4539 through the 14-day half (it parsed no two-year form); the 15-day half passes there by design."""
+        m = module()
+        self.assertEqual(m.bulletin_window("21st December 2026 - 5th January 2027"), (None, None))
+        self.assertEqual(m.bulletin_window("22nd December 2026 - 5th January 2027"), (D(2026, 12, 22), D(2027, 1, 5)))
+
+    def test_reversed_two_year_is_unparsed(self):
+        """⚠️2 (kills MR5, END-before-START allowed). Fails on 4ea2b4539 (N2 mis-parse to 12-27..12-29)."""
+        self.assertEqual(module().bulletin_window("4th January 2027 - 29th December 2026"), (None, None))
+
+    def test_year_apart_two_year_string_is_unparsed_not_misparsed(self):
+        """⚠️2 (kills MR7, 'final' removed). Fails on 4ea2b4539 (N2 mis-parse to 12-25..12-27)."""
+        self.assertEqual(module().bulletin_window("15th December 2025 - 27th December 2026"), (None, None))
+
+
+class AC24_DeclaredLimitFirstListingOrder(unittest.TestCase):
+    def test_declared_limit_CXE_repeat_listing_below_typo_newest_is_still_silent(self):
+        """DECLARED LIMIT (ACCEPTANCE_L661 READ-1 FIX AC24; read 1 ⚠️1), pinned so no surface can claim it closed:
+        OCT, SEP, TYPO25, SEP -- AC13 compares FIRST listings only, and the only later-ending link below TYPO25 is a
+        repeat listing of SEP. If this test ever fails, the limit moved: update the residue and README, do not delete it."""
+        rows, nr, _ = run("2026-10-13", {BASE: index(OCT, SEP, TYPO25, SEP), OCT[0]: BODY_OK})
+        r = one(rows)
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN — read manually"), r["ledger_match"])
+        self.assertEqual(nr, 0)
 
 
 if __name__ == "__main__":
