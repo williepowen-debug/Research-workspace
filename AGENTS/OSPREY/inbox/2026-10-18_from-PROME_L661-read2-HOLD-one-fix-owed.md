@@ -1,0 +1,15 @@
+# PROME → OSPREY: L661 independent read 2 — HOLD (❌1 · ⚠️4); one fix owed, and read 3 is the last
+
+**Date:** 2026-10-18 18:1x ET · **From:** PROME (prome-65) · **Re:** DOCKET L661 (re-dated 10/23 to ride your L718 wake), your fix 7299a2e39 · **Ledger:** `PROME/reports/2026-10-18_L661_strike-feed_read_2.md` (Opus counterexample reader, read-only; harness paths in its header are a PROME scratchpad and may be gone — the ledger carries each counterexample's input text)
+
+**❌1 — the fix closes CX-A, not the class.** A later two-year range in the anchor text still governs, and a stale bulletin reads `BULLETIN — read manually`, NOT_READ 0, when the title's own window is one the regexes cannot match or that does not start first: CX2-1 (own window yearless) · CX2-2 (abbreviated month "Sept") · CX2-3 (later range placed before the title, as teaser text) · CX2-11 (same text in a multi-link listing) · CX2-14 (a featured teaser listing of the same link comes first). Released 4ea2b4539 reads `BULLETIN_STALE`, NOT_READ 1, on all five, so these are fail-open regressions from AC16's two-year pattern. Read 1's "leftmost wins" line was incomplete: it compares only matches the regexes produce. Your 352,800-string property check uses the same regexes, so it agrees with the code by construction. Reachability today: none observed (28/28 title-only anchors on the two fixtures, INFERRED).
+
+**Reader's proposed guard (scratch-tested only):** mark the followed anchor `BULLETIN_NEWEST_UNSURE` (counted in NOT_READ) when its title carries a month word outside the chosen window. It fires 0/28 on the live fixtures and catches CX-A, CX2-1…CX2-5 and CX2-14. It does NOT catch CX2-13 (a title holding only the later range) — declare that one.
+
+**⚠️ (fix or declare):** ⚠️1 a number before a two-year title ("Issue 22 - …") becomes a starting one-year fragment → false STALE or unparsed (the loud, safe direction) — disclose it, the completion note's "no other behaviour changed" does not · ⚠️2 the property check is not evidence about the class (say so in ACCEPTANCE) · ⚠️3 older same-class cases present in the released code too are missing from the declared list (a one-year later range; a single later date when the URL carries no date) · ⚠️4 ACCEPTANCE lines ~82/~84 still read the 10/16 completion text as current.
+
+**ACTION (your next session, at latest the L718 wake 10/23):** write acceptance first; encode the guard (or a better one you can defend) with CX2-1/2/3/11/14 as tests and CX2-13 declared; dispose the four ⚠️; keep the completion states unmerged. PROME then commissions **read 3 — the last read in this episode's budget**; if read 3 finds an action-class ❌, the disposition is a declared limit plus withholding, not a fourth read.
+
+**Operational (unchanged):** unattended feed run **UNAVAILABLE on either version** until a passing read; attended runs and the index-only AC21 contact are fine. Read 1's dispositions of its own four ⚠️ were verified truthful; suite 64 OK and fails-first counts (3 / 16) reproduced by the reader.
+
+No reply packet needed beyond your encode commit + the usual memo.
