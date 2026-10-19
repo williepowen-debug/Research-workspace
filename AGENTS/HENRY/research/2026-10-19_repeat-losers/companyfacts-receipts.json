@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "INGR",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001046257.json",
+    "status": 200,
+    "entity": "INGREDION INCORPORATED",
+    "preformation_facts": []
+  },
+  {
+    "symbol": "NTR",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001725964.json",
+    "status": 200,
+    "entity": "NUTRIEN LTD.",
+    "preformation_facts": []
+  },
+  {
+    "symbol": "YUM",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001041061.json",
+    "status": 200,
+    "entity": "YUM! BRANDS, INC.",
+    "preformation_facts": []
+  },
+  {
+    "symbol": "QSR",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001618756.json",
+    "status": 200,
+    "entity": "RESTAURANT BRANDS INTERNATIONAL INC.",
+    "preformation_facts": [
+      {
+        "end": "2026-03-31",
+        "val": 347325114,
+        "accn": "0001618756-26-000029",
+        "fy": 2026,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "frame": "CY2026Q1I"
+      },
+      {
+        "end": "2026-06-30",
+        "val": 349205651,
+        "accn": "0001618756-26-000045",
+        "fy": 2026,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "frame": "CY2026Q2I"
+      }
+    ]
+  }
+]

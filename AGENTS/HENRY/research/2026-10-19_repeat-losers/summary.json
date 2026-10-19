@@ -1,0 +1,72 @@
+{
+  "endpoint": "2026-10-19",
+  "starts": {
+    "5": "2026-10-12",
+    "20": "2026-09-21",
+    "60": "2026-07-24"
+  },
+  "universe": 503,
+  "covered": 501,
+  "excluded": [
+    {
+      "symbol": "VYLR",
+      "reason": "missing_stock_or_sector_bar_in61sessiongrid"
+    },
+    {
+      "symbol": "SKYD",
+      "reason": "October6acquisition/tickerhistory_unreconciled"
+    }
+  ],
+  "labels": {
+    "CURRENTLY-PERSISTENT": 1,
+    "INSUFFICIENT": 132,
+    "OTHER": 323,
+    "RECENT-ROTATION": 39,
+    "RECOVERING": 6
+  },
+  "persistent_rank": [
+    "MOS",
+    "HII",
+    "ADM",
+    "MGM",
+    "MCD",
+    "PCAR",
+    "CPRT"
+  ],
+  "shortlist": [
+    "MOS",
+    "HII",
+    "ADM",
+    "MGM",
+    "MCD",
+    "PCAR",
+    "CPRT"
+  ],
+  "benchmarks": {
+    "SPY": {
+      "5": -1.493380732782723,
+      "20": -0.90756555025856,
+      "60": 3.9859431100041087
+    },
+    "RSP": {
+      "5": 0.0984996729083587,
+      "20": 0.3385373544754211,
+      "60": 0.2959959862617323
+    },
+    "QQQ": {
+      "5": -3.7102559502202315,
+      "20": -3.116779676140846,
+      "60": 5.097486283073427
+    },
+    "QQEW": {
+      "5": -3.474025032474126,
+      "20": -3.847814660817639,
+      "60": 3.5754445740117546
+    },
+    "IWM": {
+      "5": -2.382150148464346,
+      "20": -5.007349417095853,
+      "60": -6.587731138620912
+    }
+  }
+}

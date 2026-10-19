@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "HII",
+    "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000047/hii-20260630.htm",
+    "status": 200
+  },
+  {
+    "symbol": "ADM",
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000042/adm-20260630.htm",
+    "status": 200
+  },
+  {
+    "symbol": "MCD",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000073/mcd-20260630.htm",
+    "status": 200
+  },
+  {
+    "symbol": "SBUX",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/sbux-20260628.htm",
+    "status": 200
+  },
+  {
+    "symbol": "PCAR",
+    "url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526323642/pcar-20260630.htm",
+    "status": 200
+  },
+  {
+    "symbol": "CPRT",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526245578/cprt-20260430.htm",
+    "status": 200
+  }
+]

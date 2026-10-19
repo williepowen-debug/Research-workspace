@@ -1,0 +1,12 @@
+[
+  {
+    "symbol": "CPRT-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm",
+    "status": 200
+  },
+  {
+    "symbol": "CPRT-acquisition",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322dex991.htm",
+    "status": 200
+  }
+]

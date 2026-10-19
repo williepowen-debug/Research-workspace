@@ -1,0 +1,4673 @@
+[
+  {
+    "symbol": "NVDA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:14.801181+00:00",
+    "status": 200,
+    "bytes": 29112,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "AAPL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:14.801724+00:00",
+    "status": 200,
+    "bytes": 28446,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MSFT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:14.802159+00:00",
+    "status": 200,
+    "bytes": 28265,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "AMZN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:14.803254+00:00",
+    "status": 200,
+    "bytes": 28497,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "GOOGL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:14.804527+00:00",
+    "status": 200,
+    "bytes": 28338,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "GOOG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:14.805795+00:00",
+    "status": 200,
+    "bytes": 28516,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "META",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.098762+00:00",
+    "status": 200,
+    "bytes": 26978,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "AVGO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.145366+00:00",
+    "status": 200,
+    "bytes": 28094,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "LLY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LLY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.150851+00:00",
+    "status": 200,
+    "bytes": 26867,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TSLA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.217872+00:00",
+    "status": 200,
+    "bytes": 27894,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.416081+00:00",
+    "status": 200,
+    "bytes": 27495,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "BRK-B",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.427299+00:00",
+    "status": 200,
+    "bytes": 27205,
+    "bars": 251,
+    "vendor_quote_time": 1792440038
+  },
+  {
+    "symbol": "JPM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.459897+00:00",
+    "status": 200,
+    "bytes": 27714,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "AMD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.489011+00:00",
+    "status": 200,
+    "bytes": 27664,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "XOM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.491301+00:00",
+    "status": 200,
+    "bytes": 29083,
+    "bars": 251,
+    "vendor_quote_time": 1792440273
+  },
+  {
+    "symbol": "V",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/V?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.530682+00:00",
+    "status": 200,
+    "bytes": 27580,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "JNJ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JNJ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.697488+00:00",
+    "status": 200,
+    "bytes": 28185,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "WMT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WMT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.740112+00:00",
+    "status": 200,
+    "bytes": 29351,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "ABBV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABBV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.744533+00:00",
+    "status": 200,
+    "bytes": 28123,
+    "bars": 251,
+    "vendor_quote_time": 1792440234
+  },
+  {
+    "symbol": "MA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.806658+00:00",
+    "status": 200,
+    "bytes": 26903,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "INTC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:15.839596+00:00",
+    "status": 200,
+    "bytes": 28480,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CVX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.066238+00:00",
+    "status": 200,
+    "bytes": 28545,
+    "bars": 251,
+    "vendor_quote_time": 1792440214
+  },
+  {
+    "symbol": "COST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.068284+00:00",
+    "status": 200,
+    "bytes": 26504,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "PLTR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.078325+00:00",
+    "status": 200,
+    "bytes": 28576,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CSCO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CSCO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.205660+00:00",
+    "status": 200,
+    "bytes": 28612,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "PG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.349244+00:00",
+    "status": 200,
+    "bytes": 28882,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "KO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.370709+00:00",
+    "status": 200,
+    "bytes": 28123,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "UNH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UNH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.412967+00:00",
+    "status": 200,
+    "bytes": 27891,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MRK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.432614+00:00",
+    "status": 200,
+    "bytes": 28891,
+    "bars": 251,
+    "vendor_quote_time": 1792440231
+  },
+  {
+    "symbol": "CAT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.523575+00:00",
+    "status": 200,
+    "bytes": 26363,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BAC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.583829+00:00",
+    "status": 200,
+    "bytes": 28463,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "LRCX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.615524+00:00",
+    "status": 200,
+    "bytes": 28080,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "GE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.668568+00:00",
+    "status": 200,
+    "bytes": 27810,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AMAT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.744673+00:00",
+    "status": 200,
+    "bytes": 27412,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "PM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.766427+00:00",
+    "status": 200,
+    "bytes": 28252,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "HD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.831452+00:00",
+    "status": 200,
+    "bytes": 27667,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "NFLX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NFLX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:16.879463+00:00",
+    "status": 200,
+    "bytes": 28063,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "PANW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PANW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.007896+00:00",
+    "status": 200,
+    "bytes": 27830,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "RTX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RTX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.039776+00:00",
+    "status": 200,
+    "bytes": 28167,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "GS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.122761+00:00",
+    "status": 200,
+    "bytes": 26411,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TMO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.195510+00:00",
+    "status": 200,
+    "bytes": 27103,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "WFC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WFC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.276687+00:00",
+    "status": 200,
+    "bytes": 27961,
+    "bars": 251,
+    "vendor_quote_time": 1792440288
+  },
+  {
+    "symbol": "TXN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TXN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.356935+00:00",
+    "status": 200,
+    "bytes": 28487,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "GEV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.376436+00:00",
+    "status": 200,
+    "bytes": 26040,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "AMGN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMGN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.436596+00:00",
+    "status": 200,
+    "bytes": 27656,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "CRWD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.458502+00:00",
+    "status": 200,
+    "bytes": 27806,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "LIN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LIN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.498893+00:00",
+    "status": 200,
+    "bytes": 27775,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ORCL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.631590+00:00",
+    "status": 200,
+    "bytes": 28673,
+    "bars": 251,
+    "vendor_quote_time": 1792440245
+  },
+  {
+    "symbol": "IBM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.711001+00:00",
+    "status": 200,
+    "bytes": 27939,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "KLAC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.713309+00:00",
+    "status": 200,
+    "bytes": 28855,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.797169+00:00",
+    "status": 200,
+    "bytes": 28552,
+    "bars": 251,
+    "vendor_quote_time": 1792440075
+  },
+  {
+    "symbol": "C",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/C?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.817474+00:00",
+    "status": 200,
+    "bytes": 28990,
+    "bars": 251,
+    "vendor_quote_time": 1792440196
+  },
+  {
+    "symbol": "MRVL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.962685+00:00",
+    "status": 200,
+    "bytes": 28503,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CRM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:17.982695+00:00",
+    "status": 200,
+    "bytes": 28271,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "APH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.058031+00:00",
+    "status": 200,
+    "bytes": 27693,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "GILD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GILD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.132405+00:00",
+    "status": 200,
+    "bytes": 28695,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ADI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.140558+00:00",
+    "status": 200,
+    "bytes": 27779,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "DIS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DIS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.195531+00:00",
+    "status": 200,
+    "bytes": 28895,
+    "bars": 251,
+    "vendor_quote_time": 1792440251
+  },
+  {
+    "symbol": "SNDK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.239897+00:00",
+    "status": 200,
+    "bytes": 26336,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "VZ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.282396+00:00",
+    "status": 200,
+    "bytes": 28767,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ANET",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ANET?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.459105+00:00",
+    "status": 200,
+    "bytes": 28194,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "QCOM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.462841+00:00",
+    "status": 200,
+    "bytes": 28702,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ABT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.550952+00:00",
+    "status": 200,
+    "bytes": 28578,
+    "bars": 251,
+    "vendor_quote_time": 1792440196
+  },
+  {
+    "symbol": "PEP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PEP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.563673+00:00",
+    "status": 200,
+    "bytes": 28874,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "COP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.779990+00:00",
+    "status": 200,
+    "bytes": 28609,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MCD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.790474+00:00",
+    "status": 200,
+    "bytes": 27794,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "UNP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UNP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.819036+00:00",
+    "status": 200,
+    "bytes": 28400,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "WELL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WELL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:18.880301+00:00",
+    "status": 200,
+    "bytes": 28669,
+    "bars": 251,
+    "vendor_quote_time": 1792440151
+  },
+  {
+    "symbol": "PFE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PFE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.106637+00:00",
+    "status": 200,
+    "bytes": 29196,
+    "bars": 251,
+    "vendor_quote_time": 1792440096
+  },
+  {
+    "symbol": "NEE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NEE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.122671+00:00",
+    "status": 200,
+    "bytes": 27924,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "AXP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AXP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.170320+00:00",
+    "status": 200,
+    "bytes": 27487,
+    "bars": 251,
+    "vendor_quote_time": 1792440106
+  },
+  {
+    "symbol": "BLK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BLK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.178541+00:00",
+    "status": 200,
+    "bytes": 27270,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TJX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TJX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.182637+00:00",
+    "status": 200,
+    "bytes": 28478,
+    "bars": 251,
+    "vendor_quote_time": 1792440239
+  },
+  {
+    "symbol": "DE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.374880+00:00",
+    "status": 200,
+    "bytes": 27128,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "T",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/T?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.449297+00:00",
+    "status": 200,
+    "bytes": 29002,
+    "bars": 251,
+    "vendor_quote_time": 1792440234
+  },
+  {
+    "symbol": "ETN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.500035+00:00",
+    "status": 200,
+    "bytes": 27455,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "ISRG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ISRG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.502552+00:00",
+    "status": 200,
+    "bytes": 26863,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "BA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.513134+00:00",
+    "status": 200,
+    "bytes": 27700,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "SCHW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SCHW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.769320+00:00",
+    "status": 200,
+    "bytes": 28165,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "NOW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.795333+00:00",
+    "status": 200,
+    "bytes": 28433,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "STX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.801414+00:00",
+    "status": 200,
+    "bytes": 26815,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "UBER",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UBER?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:19.849945+00:00",
+    "status": 200,
+    "bytes": 27748,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "DHR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DHR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.072943+00:00",
+    "status": 200,
+    "bytes": 28273,
+    "bars": 251,
+    "vendor_quote_time": 1792440151
+  },
+  {
+    "symbol": "ACN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.085566+00:00",
+    "status": 200,
+    "bytes": 27896,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "DELL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.143232+00:00",
+    "status": 200,
+    "bytes": 27676,
+    "bars": 251,
+    "vendor_quote_time": 1792440247
+  },
+  {
+    "symbol": "MPC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MPC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.181371+00:00",
+    "status": 200,
+    "bytes": 28072,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "SPGI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPGI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.240059+00:00",
+    "status": 200,
+    "bytes": 28411,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "VLO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VLO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.381870+00:00",
+    "status": 200,
+    "bytes": 27963,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PGR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PGR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.385663+00:00",
+    "status": 200,
+    "bytes": 28449,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "VRTX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRTX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.392853+00:00",
+    "status": 200,
+    "bytes": 27169,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.472845+00:00",
+    "status": 200,
+    "bytes": 27656,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "MO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.526145+00:00",
+    "status": 200,
+    "bytes": 27761,
+    "bars": 251,
+    "vendor_quote_time": 1792440246
+  },
+  {
+    "symbol": "NEM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NEM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.674346+00:00",
+    "status": 200,
+    "bytes": 28492,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "COF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.682019+00:00",
+    "status": 200,
+    "bytes": 28452,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BKNG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BKNG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.731639+00:00",
+    "status": 200,
+    "bytes": 28986,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "BMY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BMY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.781368+00:00",
+    "status": 200,
+    "bytes": 28444,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.841311+00:00",
+    "status": 200,
+    "bytes": 27028,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "WDC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:20.954096+00:00",
+    "status": 200,
+    "bytes": 27307,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "PLD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.007615+00:00",
+    "status": 200,
+    "bytes": 28722,
+    "bars": 251,
+    "vendor_quote_time": 1792440159
+  },
+  {
+    "symbol": "CVS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.020895+00:00",
+    "status": 200,
+    "bytes": 27708,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MCK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.138111+00:00",
+    "status": 200,
+    "bytes": 26827,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PSX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PSX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.190295+00:00",
+    "status": 200,
+    "bytes": 28186,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "MDT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MDT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.251169+00:00",
+    "status": 200,
+    "bytes": 27673,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ADP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.334934+00:00",
+    "status": 200,
+    "bytes": 28640,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "LMT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.338300+00:00",
+    "status": 200,
+    "bytes": 26367,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "SBUX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SBUX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.444295+00:00",
+    "status": 200,
+    "bytes": 28063,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "LOW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LOW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.479243+00:00",
+    "status": 200,
+    "bytes": 28287,
+    "bars": 251,
+    "vendor_quote_time": 1792440198
+  },
+  {
+    "symbol": "CME",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CME?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.536588+00:00",
+    "status": 200,
+    "bytes": 27983,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "SO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.609008+00:00",
+    "status": 200,
+    "bytes": 27529,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "GLW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.624016+00:00",
+    "status": 200,
+    "bytes": 27951,
+    "bars": 251,
+    "vendor_quote_time": 1792440241
+  },
+  {
+    "symbol": "FTNT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FTNT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.759440+00:00",
+    "status": 200,
+    "bytes": 27799,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "SYK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SYK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.818027+00:00",
+    "status": 200,
+    "bytes": 27561,
+    "bars": 251,
+    "vendor_quote_time": 1792440218
+  },
+  {
+    "symbol": "TT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.876018+00:00",
+    "status": 200,
+    "bytes": 27875,
+    "bars": 251,
+    "vendor_quote_time": 1792440118
+  },
+  {
+    "symbol": "FCX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FCX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.930182+00:00",
+    "status": 200,
+    "bytes": 28258,
+    "bars": 251,
+    "vendor_quote_time": 1792440233
+  },
+  {
+    "symbol": "EQIX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EQIX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:21.974115+00:00",
+    "status": 200,
+    "bytes": 27593,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "ADBE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADBE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.034994+00:00",
+    "status": 200,
+    "bytes": 27907,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "BNY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BNY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.111420+00:00",
+    "status": 200,
+    "bytes": 28844,
+    "bars": 251,
+    "vendor_quote_time": 1792440102
+  },
+  {
+    "symbol": "PWR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PWR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.158963+00:00",
+    "status": 200,
+    "bytes": 26889,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DUK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DUK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.208577+00:00",
+    "status": 200,
+    "bytes": 28601,
+    "bars": 251,
+    "vendor_quote_time": 1792440020
+  },
+  {
+    "symbol": "ELV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ELV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.285326+00:00",
+    "status": 200,
+    "bytes": 27529,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "USB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/USB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.355029+00:00",
+    "status": 200,
+    "bytes": 28417,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ICE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ICE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.404152+00:00",
+    "status": 200,
+    "bytes": 28537,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "EMR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EMR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.439814+00:00",
+    "status": 200,
+    "bytes": 28511,
+    "bars": 251,
+    "vendor_quote_time": 1792440183
+  },
+  {
+    "symbol": "CSX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CSX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.497554+00:00",
+    "status": 200,
+    "bytes": 28682,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MRSH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRSH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.555512+00:00",
+    "status": 200,
+    "bytes": 28540,
+    "bars": 251,
+    "vendor_quote_time": 1792440051
+  },
+  {
+    "symbol": "CEG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CEG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.649451+00:00",
+    "status": 200,
+    "bytes": 27538,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "INTU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTU?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.688670+00:00",
+    "status": 200,
+    "bytes": 27435,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "JCI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JCI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.732200+00:00",
+    "status": 200,
+    "bytes": 28640,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "HWM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HWM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.818019+00:00",
+    "status": 200,
+    "bytes": 28210,
+    "bars": 251,
+    "vendor_quote_time": 1792440091
+  },
+  {
+    "symbol": "CDNS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CDNS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.853392+00:00",
+    "status": 200,
+    "bytes": 27311,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "GD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.920001+00:00",
+    "status": 200,
+    "bytes": 27678,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "WMB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WMB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.128686+00:00",
+    "status": 200,
+    "bytes": 28001,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "SNPS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNPS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.137872+00:00",
+    "status": 200,
+    "bytes": 27039,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "PNC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PNC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.210393+00:00",
+    "status": 200,
+    "bytes": 28583,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "AMT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.403982+00:00",
+    "status": 200,
+    "bytes": 28682,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "MMM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MMM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.439697+00:00",
+    "status": 200,
+    "bytes": 28418,
+    "bars": 251,
+    "vendor_quote_time": 1792440240
+  },
+  {
+    "symbol": "WM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.475100+00:00",
+    "status": 200,
+    "bytes": 28262,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "EOG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EOG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.728422+00:00",
+    "status": 200,
+    "bytes": 28725,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MAR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.755360+00:00",
+    "status": 200,
+    "bytes": 28042,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "DDOG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DDOG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.798823+00:00",
+    "status": 200,
+    "bytes": 27843,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "MDLZ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MDLZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.824907+00:00",
+    "status": 200,
+    "bytes": 28445,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "TRV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TRV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:22.861356+00:00",
+    "status": 200,
+    "bytes": 28101,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MRNA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.014652+00:00",
+    "status": 200,
+    "bytes": 28071,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "BX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.022521+00:00",
+    "status": 200,
+    "bytes": 28527,
+    "bars": 251,
+    "vendor_quote_time": 1792440210
+  },
+  {
+    "symbol": "CI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.056956+00:00",
+    "status": 200,
+    "bytes": 27399,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "VRT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.114750+00:00",
+    "status": 200,
+    "bytes": 27742,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "HOOD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOOD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.169051+00:00",
+    "status": 200,
+    "bytes": 28292,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "HLT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HLT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.267579+00:00",
+    "status": 200,
+    "bytes": 28231,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "REGN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/REGN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.393538+00:00",
+    "status": 200,
+    "bytes": 26796,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "CMCSA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMCSA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.454162+00:00",
+    "status": 200,
+    "bytes": 29386,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "TMUS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMUS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.481271+00:00",
+    "status": 200,
+    "bytes": 28643,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MSI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.532793+00:00",
+    "status": 200,
+    "bytes": 27889,
+    "bars": 251,
+    "vendor_quote_time": 1792440097
+  },
+  {
+    "symbol": "SHW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SHW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.673528+00:00",
+    "status": 200,
+    "bytes": 27891,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ROST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROST?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.796039+00:00",
+    "status": 200,
+    "bytes": 28718,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "CL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.881802+00:00",
+    "status": 200,
+    "bytes": 27671,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "GM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.884402+00:00",
+    "status": 200,
+    "bytes": 27724,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "CTAS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CTAS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:23.997615+00:00",
+    "status": 200,
+    "bytes": 28862,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "NSC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NSC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.065904+00:00",
+    "status": 200,
+    "bytes": 27691,
+    "bars": 251,
+    "vendor_quote_time": 1792440085
+  },
+  {
+    "symbol": "SLB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SLB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.165416+00:00",
+    "status": 200,
+    "bytes": 28549,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "HPE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.193752+00:00",
+    "status": 200,
+    "bytes": 28847,
+    "bars": 251,
+    "vendor_quote_time": 1792440278
+  },
+  {
+    "symbol": "CMI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.222851+00:00",
+    "status": 200,
+    "bytes": 26973,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "LITE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.352047+00:00",
+    "status": 200,
+    "bytes": 25885,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "UPS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UPS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.428161+00:00",
+    "status": 200,
+    "bytes": 28236,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ABNB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABNB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.479366+00:00",
+    "status": 200,
+    "bytes": 28234,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ECL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ECL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.481144+00:00",
+    "status": 200,
+    "bytes": 27784,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "MCO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.534621+00:00",
+    "status": 200,
+    "bytes": 27576,
+    "bars": 251,
+    "vendor_quote_time": 1792440166
+  },
+  {
+    "symbol": "ORLY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ORLY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.539472+00:00",
+    "status": 200,
+    "bytes": 27543,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "APP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.694113+00:00",
+    "status": 200,
+    "bytes": 26588,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "DASH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DASH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.743273+00:00",
+    "status": 200,
+    "bytes": 27957,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "ITW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ITW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.812376+00:00",
+    "status": 200,
+    "bytes": 28534,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TGT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.849721+00:00",
+    "status": 200,
+    "bytes": 28391,
+    "bars": 251,
+    "vendor_quote_time": 1792440166
+  },
+  {
+    "symbol": "NOC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.867942+00:00",
+    "status": 200,
+    "bytes": 26393,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AEP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AEP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:24.990903+00:00",
+    "status": 200,
+    "bytes": 28829,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "RCL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.034393+00:00",
+    "status": 200,
+    "bytes": 26916,
+    "bars": 251,
+    "vendor_quote_time": 1792440259
+  },
+  {
+    "symbol": "HCA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HCA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.143411+00:00",
+    "status": 200,
+    "bytes": 27313,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "HON",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HON?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.145294+00:00",
+    "status": 200,
+    "bytes": 29307,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "KMI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KMI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.147233+00:00",
+    "status": 200,
+    "bytes": 28761,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "APD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.331908+00:00",
+    "status": 200,
+    "bytes": 27755,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "SPG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.451572+00:00",
+    "status": 200,
+    "bytes": 28757,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MNST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MNST?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.495233+00:00",
+    "status": 200,
+    "bytes": 28506,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "AJG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AJG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.533360+00:00",
+    "status": 200,
+    "bytes": 28292,
+    "bars": 251,
+    "vendor_quote_time": 1792440024
+  },
+  {
+    "symbol": "BE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.743153+00:00",
+    "status": 200,
+    "bytes": 27222,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "COR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.749921+00:00",
+    "status": 200,
+    "bytes": 28055,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "FDX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FDX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.790334+00:00",
+    "status": 200,
+    "bytes": 28569,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BSX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BSX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:25.920405+00:00",
+    "status": 200,
+    "bytes": 28039,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "URI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/URI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.069094+00:00",
+    "status": 200,
+    "bytes": 27070,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TRGP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TRGP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.092851+00:00",
+    "status": 200,
+    "bytes": 28399,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TDG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TDG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.127074+00:00",
+    "status": 200,
+    "bytes": 27212,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ALL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.180822+00:00",
+    "status": 200,
+    "bytes": 28653,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AON",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AON?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.251048+00:00",
+    "status": 200,
+    "bytes": 27787,
+    "bars": 251,
+    "vendor_quote_time": 1792440030
+  },
+  {
+    "symbol": "DLR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DLR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.375865+00:00",
+    "status": 200,
+    "bytes": 28676,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TEL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.454421+00:00",
+    "status": 200,
+    "bytes": 28526,
+    "bars": 251,
+    "vendor_quote_time": 1792440123
+  },
+  {
+    "symbol": "KKR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KKR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.551485+00:00",
+    "status": 200,
+    "bytes": 27963,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "MPWR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MPWR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.583132+00:00",
+    "status": 200,
+    "bytes": 27516,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "OKE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OKE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.671414+00:00",
+    "status": 200,
+    "bytes": 27644,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CAH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.718656+00:00",
+    "status": 200,
+    "bytes": 28723,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FAST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FAST?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.820987+00:00",
+    "status": 200,
+    "bytes": 28411,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "PCAR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PCAR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.874717+00:00",
+    "status": 200,
+    "bytes": 28928,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "NUE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NUE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.902587+00:00",
+    "status": 200,
+    "bytes": 28081,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "NXPI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NXPI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:26.999813+00:00",
+    "status": 200,
+    "bytes": 28513,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "GWW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GWW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.034687+00:00",
+    "status": 200,
+    "bytes": 27746,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TFC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TFC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.162845+00:00",
+    "status": 200,
+    "bytes": 28308,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AME",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AME?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.210469+00:00",
+    "status": 200,
+    "bytes": 28630,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "KEYS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KEYS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.279209+00:00",
+    "status": 200,
+    "bytes": 27449,
+    "bars": 251,
+    "vendor_quote_time": 1792440109
+  },
+  {
+    "symbol": "D",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/D?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.379740+00:00",
+    "status": 200,
+    "bytes": 28073,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "DVN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DVN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.429290+00:00",
+    "status": 200,
+    "bytes": 28636,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CRH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.465444+00:00",
+    "status": 200,
+    "bytes": 28565,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BKR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BKR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.526222+00:00",
+    "status": 200,
+    "bytes": 28237,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "SRE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SRE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.682445+00:00",
+    "status": 200,
+    "bytes": 27855,
+    "bars": 251,
+    "vendor_quote_time": 1792440156
+  },
+  {
+    "symbol": "MET",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MET?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.710653+00:00",
+    "status": 200,
+    "bytes": 27759,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "AFL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AFL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.846370+00:00",
+    "status": 200,
+    "bytes": 28918,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "HONA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HONA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.959431+00:00",
+    "status": 200,
+    "bytes": 10356,
+    "bars": 88,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "O",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/O?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.972652+00:00",
+    "status": 200,
+    "bytes": 28659,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "APO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:27.983897+00:00",
+    "status": 200,
+    "bytes": 28588,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BDX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BDX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.169693+00:00",
+    "status": 200,
+    "bytes": 29006,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TER",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TER?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.255571+00:00",
+    "status": 200,
+    "bytes": 27461,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "AZO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AZO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.259888+00:00",
+    "status": 200,
+    "bytes": 25283,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "ADSK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADSK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.279561+00:00",
+    "status": 200,
+    "bytes": 27919,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "FIX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FIX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.282062+00:00",
+    "status": 200,
+    "bytes": 26645,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PSA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PSA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.339466+00:00",
+    "status": 200,
+    "bytes": 27876,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.473623+00:00",
+    "status": 200,
+    "bytes": 27487,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "HUM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HUM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.517761+00:00",
+    "status": 200,
+    "bytes": 27529,
+    "bars": 251,
+    "vendor_quote_time": 1792440203
+  },
+  {
+    "symbol": "ETR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.576536+00:00",
+    "status": 200,
+    "bytes": 28581,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "A",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/A?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.603279+00:00",
+    "status": 200,
+    "bytes": 28748,
+    "bars": 251,
+    "vendor_quote_time": 1792440291
+  },
+  {
+    "symbol": "F",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/F?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.667223+00:00",
+    "status": 200,
+    "bytes": 29184,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "VYLR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VYLR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.800361+00:00",
+    "status": 200,
+    "bytes": 2434,
+    "bars": 13,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PYPL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PYPL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.858791+00:00",
+    "status": 200,
+    "bytes": 28589,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "WAB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WAB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.873908+00:00",
+    "status": 200,
+    "bytes": 28213,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EBAY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EBAY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.957733+00:00",
+    "status": 200,
+    "bytes": 28266,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "VST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VST?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:28.998040+00:00",
+    "status": 200,
+    "bytes": 28054,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "XEL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XEL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.111455+00:00",
+    "status": 200,
+    "bytes": 27699,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ROK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.122750+00:00",
+    "status": 200,
+    "bytes": 27595,
+    "bars": 251,
+    "vendor_quote_time": 1792440217
+  },
+  {
+    "symbol": "GRMN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GRMN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.254919+00:00",
+    "status": 200,
+    "bytes": 28370,
+    "bars": 251,
+    "vendor_quote_time": 1792440130
+  },
+  {
+    "symbol": "KDP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KDP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.264997+00:00",
+    "status": 200,
+    "bytes": 28908,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CIEN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CIEN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.417317+00:00",
+    "status": 200,
+    "bytes": 26962,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "LHX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LHX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.427262+00:00",
+    "status": 200,
+    "bytes": 27788,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "VEEV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VEEV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.474876+00:00",
+    "status": 200,
+    "bytes": 27529,
+    "bars": 251,
+    "vendor_quote_time": 1792440055
+  },
+  {
+    "symbol": "COHR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.572267+00:00",
+    "status": 200,
+    "bytes": 27085,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FITB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FITB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.576699+00:00",
+    "status": 200,
+    "bytes": 28693,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "OXY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OXY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.737852+00:00",
+    "status": 200,
+    "bytes": 28224,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "STT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.762033+00:00",
+    "status": 200,
+    "bytes": 28756,
+    "bars": 251,
+    "vendor_quote_time": 1792440128
+  },
+  {
+    "symbol": "CARR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CARR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.772367+00:00",
+    "status": 200,
+    "bytes": 28201,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "RSG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.890095+00:00",
+    "status": 200,
+    "bytes": 28829,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EXC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EXC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:29.900142+00:00",
+    "status": 200,
+    "bytes": 28514,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "FERG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FERG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.008103+00:00",
+    "status": 200,
+    "bytes": 28848,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "DAL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DAL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.028308+00:00",
+    "status": 200,
+    "bytes": 27641,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "NKE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.030643+00:00",
+    "status": 200,
+    "bytes": 28615,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "IDXX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IDXX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.036951+00:00",
+    "status": 200,
+    "bytes": 26977,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "AMP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.202061+00:00",
+    "status": 200,
+    "bytes": 27629,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "VTR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VTR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.207009+00:00",
+    "status": 200,
+    "bytes": 27865,
+    "bars": 251,
+    "vendor_quote_time": 1792440153
+  },
+  {
+    "symbol": "VMRK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VMRK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.294882+00:00",
+    "status": 200,
+    "bytes": 28172,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "IQV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IQV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.327114+00:00",
+    "status": 200,
+    "bytes": 28325,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "WAT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WAT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.355777+00:00",
+    "status": 200,
+    "bytes": 27694,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CVNA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVNA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.440647+00:00",
+    "status": 200,
+    "bytes": 27887,
+    "bars": 251,
+    "vendor_quote_time": 1792440252
+  },
+  {
+    "symbol": "AIG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AIG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.454117+00:00",
+    "status": 200,
+    "bytes": 27864,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "XYZ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XYZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.602708+00:00",
+    "status": 200,
+    "bytes": 27541,
+    "bars": 251,
+    "vendor_quote_time": 1792440199
+  },
+  {
+    "symbol": "FANG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FANG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.630885+00:00",
+    "status": 200,
+    "bytes": 28453,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MSCI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSCI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.644858+00:00",
+    "status": 200,
+    "bytes": 27135,
+    "bars": 251,
+    "vendor_quote_time": 1792440253
+  },
+  {
+    "symbol": "ED",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ED?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.727542+00:00",
+    "status": 200,
+    "bytes": 28791,
+    "bars": 251,
+    "vendor_quote_time": 1792440087
+  },
+  {
+    "symbol": "NDAQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NDAQ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.736895+00:00",
+    "status": 200,
+    "bytes": 27810,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "P",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/P?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.892772+00:00",
+    "status": 200,
+    "bytes": 27268,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "YUM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/YUM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:30.934405+00:00",
+    "status": 200,
+    "bytes": 28588,
+    "bars": 251,
+    "vendor_quote_time": 1792440148
+  },
+  {
+    "symbol": "MCHP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCHP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.040721+00:00",
+    "status": 200,
+    "bytes": 27970,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "NTAP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NTAP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.059085+00:00",
+    "status": 200,
+    "bytes": 28740,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ADM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.141842+00:00",
+    "status": 200,
+    "bytes": 27869,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PRU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PRU?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.227841+00:00",
+    "status": 200,
+    "bytes": 28333,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ILMN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ILMN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.273906+00:00",
+    "status": 200,
+    "bytes": 27930,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "SYY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SYY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.306815+00:00",
+    "status": 200,
+    "bytes": 27854,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "COIN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COIN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.363883+00:00",
+    "status": 200,
+    "bytes": 27973,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "WDAY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDAY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.422346+00:00",
+    "status": 200,
+    "bytes": 28245,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "ROP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.430733+00:00",
+    "status": 200,
+    "bytes": 27810,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CBRE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CBRE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.501215+00:00",
+    "status": 200,
+    "bytes": 28700,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TWLO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TWLO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.549607+00:00",
+    "status": 200,
+    "bytes": 27866,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CMG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.634694+00:00",
+    "status": 200,
+    "bytes": 28193,
+    "bars": 251,
+    "vendor_quote_time": 1792440207
+  },
+  {
+    "symbol": "IBKR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IBKR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.649730+00:00",
+    "status": 200,
+    "bytes": 27643,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "HIG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HIG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.671618+00:00",
+    "status": 200,
+    "bytes": 28884,
+    "bars": 251,
+    "vendor_quote_time": 1792440046
+  },
+  {
+    "symbol": "KVUE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KVUE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.765453+00:00",
+    "status": 200,
+    "bytes": 29223,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "KR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.812888+00:00",
+    "status": 200,
+    "bytes": 28066,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "TTWO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTWO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.815106+00:00",
+    "status": 200,
+    "bytes": 27918,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "PEG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PEG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.937010+00:00",
+    "status": 200,
+    "bytes": 27878,
+    "bars": 251,
+    "vendor_quote_time": 1792440233
+  },
+  {
+    "symbol": "PAYX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PAYX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:31.945668+00:00",
+    "status": 200,
+    "bytes": 28374,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "WEC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WEC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.070448+00:00",
+    "status": 200,
+    "bytes": 28949,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DHI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DHI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.120568+00:00",
+    "status": 200,
+    "bytes": 28331,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "KMB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KMB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.181048+00:00",
+    "status": 200,
+    "bytes": 28526,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ODFL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ODFL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.183584+00:00",
+    "status": 200,
+    "bytes": 28685,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CCI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.254767+00:00",
+    "status": 200,
+    "bytes": 27566,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BIIB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BIIB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.356606+00:00",
+    "status": 200,
+    "bytes": 27974,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "RMD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RMD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.445030+00:00",
+    "status": 200,
+    "bytes": 28136,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ACGL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACGL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.465308+00:00",
+    "status": 200,
+    "bytes": 27866,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CNC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.484353+00:00",
+    "status": 200,
+    "bytes": 27842,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EQT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EQT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.561703+00:00",
+    "status": 200,
+    "bytes": 28123,
+    "bars": 251,
+    "vendor_quote_time": 1792440201
+  },
+  {
+    "symbol": "IRM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IRM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.599856+00:00",
+    "status": 200,
+    "bytes": 28444,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "VMC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VMC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.711787+00:00",
+    "status": 200,
+    "bytes": 28060,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FLEX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FLEX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.745540+00:00",
+    "status": 200,
+    "bytes": 27937,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "EXPE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EXPE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.851176+00:00",
+    "status": 200,
+    "bytes": 28180,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "CBOE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CBOE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:32.908595+00:00",
+    "status": 200,
+    "bytes": 27704,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "CCL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.028258+00:00",
+    "status": 200,
+    "bytes": 29178,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ZTS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZTS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.052448+00:00",
+    "status": 200,
+    "bytes": 28206,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "MTD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MTD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.226525+00:00",
+    "status": 200,
+    "bytes": 27556,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "STLD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STLD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.349748+00:00",
+    "status": 200,
+    "bytes": 28562,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "DXCM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DXCM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.384953+00:00",
+    "status": 200,
+    "bytes": 27468,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "EME",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EME?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.523738+00:00",
+    "status": 200,
+    "bytes": 26842,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AXON",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AXON?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.612811+00:00",
+    "status": 200,
+    "bytes": 26420,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "GEHC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.619137+00:00",
+    "status": 200,
+    "bytes": 27693,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "UAL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UAL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.698764+00:00",
+    "status": 200,
+    "bytes": 28057,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "HBAN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HBAN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.763451+00:00",
+    "status": 200,
+    "bytes": 29379,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MTB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MTB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.850413+00:00",
+    "status": 200,
+    "bytes": 28436,
+    "bars": 251,
+    "vendor_quote_time": 1792440219
+  },
+  {
+    "symbol": "NTRS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NTRS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.873309+00:00",
+    "status": 200,
+    "bytes": 28530,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MLM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MLM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:33.905417+00:00",
+    "status": 200,
+    "bytes": 27316,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CTSH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CTSH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.003673+00:00",
+    "status": 200,
+    "bytes": 28365,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "DG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.096100+00:00",
+    "status": 200,
+    "bytes": 28559,
+    "bars": 251,
+    "vendor_quote_time": 1792440209
+  },
+  {
+    "symbol": "EXR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EXR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.180096+00:00",
+    "status": 200,
+    "bytes": 28829,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "WSM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WSM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.259641+00:00",
+    "status": 200,
+    "bytes": 28597,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AEE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AEE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.349885+00:00",
+    "status": 200,
+    "bytes": 28962,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "WTW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WTW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.487790+00:00",
+    "status": 200,
+    "bytes": 28043,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "JBL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JBL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.578213+00:00",
+    "status": 200,
+    "bytes": 27656,
+    "bars": 251,
+    "vendor_quote_time": 1792440108
+  },
+  {
+    "symbol": "PCG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PCG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.648780+00:00",
+    "status": 200,
+    "bytes": 29252,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TDY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TDY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.676791+00:00",
+    "status": 200,
+    "bytes": 26899,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ATO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.780881+00:00",
+    "status": 200,
+    "bytes": 28741,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "HAL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HAL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.880511+00:00",
+    "status": 200,
+    "bytes": 28651,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ON",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ON?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:34.947320+00:00",
+    "status": 200,
+    "bytes": 27929,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "HPQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPQ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.008680+00:00",
+    "status": 200,
+    "bytes": 29143,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "RJF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RJF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.106456+00:00",
+    "status": 200,
+    "bytes": 28743,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "WST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WST?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.124918+00:00",
+    "status": 200,
+    "bytes": 27875,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "OTIS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OTIS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.209770+00:00",
+    "status": 200,
+    "bytes": 27803,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DTE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DTE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.230124+00:00",
+    "status": 200,
+    "bytes": 28608,
+    "bars": 251,
+    "vendor_quote_time": 1792440214
+  },
+  {
+    "symbol": "LYV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LYV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.375946+00:00",
+    "status": 200,
+    "bytes": 28341,
+    "bars": 251,
+    "vendor_quote_time": 1792440078
+  },
+  {
+    "symbol": "CFG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CFG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.442237+00:00",
+    "status": 200,
+    "bytes": 28242,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AWK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AWK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.555792+00:00",
+    "status": 200,
+    "bytes": 28783,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "IR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.725583+00:00",
+    "status": 200,
+    "bytes": 27772,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CNP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.822647+00:00",
+    "status": 200,
+    "bytes": 28488,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PPL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PPL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.872594+00:00",
+    "status": 200,
+    "bytes": 28465,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "DOV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DOV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:35.998632+00:00",
+    "status": 200,
+    "bytes": 28650,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "CINF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CINF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.107358+00:00",
+    "status": 200,
+    "bytes": 28684,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "CPAY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CPAY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.202116+00:00",
+    "status": 200,
+    "bytes": 27581,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DGX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DGX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.257965+00:00",
+    "status": 200,
+    "bytes": 28571,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "VICI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VICI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.337291+00:00",
+    "status": 200,
+    "bytes": 29095,
+    "bars": 251,
+    "vendor_quote_time": 1792440147
+  },
+  {
+    "symbol": "EL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.439753+00:00",
+    "status": 200,
+    "bytes": 27817,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EXPD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EXPD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.442089+00:00",
+    "status": 200,
+    "bytes": 28583,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "LH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.451143+00:00",
+    "status": 200,
+    "bytes": 27969,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CASY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CASY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.576950+00:00",
+    "status": 200,
+    "bytes": 26609,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "FISV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FISV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.622564+00:00",
+    "status": 200,
+    "bytes": 27949,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ULTA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ULTA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.776368+00:00",
+    "status": 200,
+    "bytes": 26790,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "ES",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ES?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.900316+00:00",
+    "status": 200,
+    "bytes": 27795,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ARES",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARES?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.921394+00:00",
+    "status": 200,
+    "bytes": 28716,
+    "bars": 251,
+    "vendor_quote_time": 1792440040
+  },
+  {
+    "symbol": "VRSK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRSK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:36.929264+00:00",
+    "status": 200,
+    "bytes": 28687,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "FFIV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FFIV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.036178+00:00",
+    "status": 200,
+    "bytes": 27376,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "HSY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HSY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.195428+00:00",
+    "status": 200,
+    "bytes": 28389,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CHD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CHD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.202370+00:00",
+    "status": 200,
+    "bytes": 28095,
+    "bars": 251,
+    "vendor_quote_time": 1792440186
+  },
+  {
+    "symbol": "VLTO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VLTO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.268765+00:00",
+    "status": 200,
+    "bytes": 28057,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "VRSN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRSN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.340003+00:00",
+    "status": 200,
+    "bytes": 28374,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "DRI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DRI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.486989+00:00",
+    "status": 200,
+    "bytes": 28531,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "HUBB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HUBB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.544772+00:00",
+    "status": 200,
+    "bytes": 27937,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "XYL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XYL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.555873+00:00",
+    "status": 200,
+    "bytes": 28865,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "Q",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/Q?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.614945+00:00",
+    "status": 200,
+    "bytes": 27338,
+    "bars": 246,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.617414+00:00",
+    "status": 200,
+    "bytes": 28359,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PPG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PPG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.773219+00:00",
+    "status": 200,
+    "bytes": 28547,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DLTR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DLTR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.831042+00:00",
+    "status": 200,
+    "bytes": 28209,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "SYF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SYF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.846062+00:00",
+    "status": 200,
+    "bytes": 27877,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TPR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TPR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.860784+00:00",
+    "status": 200,
+    "bytes": 28695,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "RF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.906125+00:00",
+    "status": 200,
+    "bytes": 29229,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CPRT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CPRT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:37.942317+00:00",
+    "status": 200,
+    "bytes": 28449,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "IFF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IFF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.092285+00:00",
+    "status": 200,
+    "bytes": 27778,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "RDDT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RDDT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.098226+00:00",
+    "status": 200,
+    "bytes": 27472,
+    "bars": 251,
+    "vendor_quote_time": 1792440229
+  },
+  {
+    "symbol": "OMC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OMC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.136437+00:00",
+    "status": 200,
+    "bytes": 27682,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "NRG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NRG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.162343+00:00",
+    "status": 200,
+    "bytes": 28298,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "STE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.218181+00:00",
+    "status": 200,
+    "bytes": 28417,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TROW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TROW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.228246+00:00",
+    "status": 200,
+    "bytes": 28424,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "SW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.373121+00:00",
+    "status": 200,
+    "bytes": 28402,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EIX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EIX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.379552+00:00",
+    "status": 200,
+    "bytes": 27946,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DOW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DOW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.422126+00:00",
+    "status": 200,
+    "bytes": 28764,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CMS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.425881+00:00",
+    "status": 200,
+    "bytes": 27945,
+    "bars": 251,
+    "vendor_quote_time": 1792440082
+  },
+  {
+    "symbol": "EXE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EXE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.497629+00:00",
+    "status": 200,
+    "bytes": 28323,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "VTRS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VTRS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.560918+00:00",
+    "status": 200,
+    "bytes": 28929,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "PHM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PHM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.695031+00:00",
+    "status": 200,
+    "bytes": 28833,
+    "bars": 251,
+    "vendor_quote_time": 1792440118
+  },
+  {
+    "symbol": "PFG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PFG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.723769+00:00",
+    "status": 200,
+    "bytes": 28335,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "PKG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PKG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.725468+00:00",
+    "status": 200,
+    "bytes": 28609,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PTC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PTC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.807877+00:00",
+    "status": 200,
+    "bytes": 28025,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "TPL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TPL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.810707+00:00",
+    "status": 200,
+    "bytes": 27282,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "KHC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KHC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.840624+00:00",
+    "status": 200,
+    "bytes": 29269,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "NI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:38.975060+00:00",
+    "status": 200,
+    "bytes": 28445,
+    "bars": 251,
+    "vendor_quote_time": 1792440174
+  },
+  {
+    "symbol": "AMCR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMCR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.014534+00:00",
+    "status": 200,
+    "bytes": 27909,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BRO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.052662+00:00",
+    "status": 200,
+    "bytes": 28038,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.057119+00:00",
+    "status": 200,
+    "bytes": 28767,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "SBAC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SBAC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.138511+00:00",
+    "status": 200,
+    "bytes": 28683,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "STZ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.292266+00:00",
+    "status": 200,
+    "bytes": 28155,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "LUV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LUV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.340710+00:00",
+    "status": 200,
+    "bytes": 28282,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EVRG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EVRG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.384214+00:00",
+    "status": 200,
+    "bytes": 27811,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "INCY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INCY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.698053+00:00",
+    "status": 200,
+    "bytes": 27757,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "SNA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.715593+00:00",
+    "status": 200,
+    "bytes": 28046,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "EFX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EFX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.922137+00:00",
+    "status": 200,
+    "bytes": 28671,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "CDW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CDW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:39.973959+00:00",
+    "status": 200,
+    "bytes": 28843,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "FIS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FIS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.255689+00:00",
+    "status": 200,
+    "bytes": 28365,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "GPN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GPN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.292990+00:00",
+    "status": 200,
+    "bytes": 27528,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FSLR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FSLR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.307500+00:00",
+    "status": 200,
+    "bytes": 27367,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "GPC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GPC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.413938+00:00",
+    "status": 200,
+    "bytes": 28685,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.493910+00:00",
+    "status": 200,
+    "bytes": 28190,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BBY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BBY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.561614+00:00",
+    "status": 200,
+    "bytes": 27697,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "SWKS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SWKS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.618254+00:00",
+    "status": 200,
+    "bytes": 27852,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "L",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/L?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.631806+00:00",
+    "status": 200,
+    "bytes": 28929,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "KEY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KEY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.743239+00:00",
+    "status": 200,
+    "bytes": 28954,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ZBH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZBH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.766704+00:00",
+    "status": 200,
+    "bytes": 27802,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "IP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:40.912628+00:00",
+    "status": 200,
+    "bytes": 28437,
+    "bars": 251,
+    "vendor_quote_time": 1792440265
+  },
+  {
+    "symbol": "SMCI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMCI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.038787+00:00",
+    "status": 200,
+    "bytes": 28654,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "DD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.044559+00:00",
+    "status": 200,
+    "bytes": 29050,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "GIS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GIS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.064214+00:00",
+    "status": 200,
+    "bytes": 28446,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "FTV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FTV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.304864+00:00",
+    "status": 200,
+    "bytes": 28461,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ZBRA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZBRA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.338057+00:00",
+    "status": 200,
+    "bytes": 27938,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "LNT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LNT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.414662+00:00",
+    "status": 200,
+    "bytes": 27872,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "IEX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IEX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.555342+00:00",
+    "status": 200,
+    "bytes": 28628,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TSCO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSCO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.628377+00:00",
+    "status": 200,
+    "bytes": 28794,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "APA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.766752+00:00",
+    "status": 200,
+    "bytes": 28656,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "ESS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ESS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:41.785410+00:00",
+    "status": 200,
+    "bytes": 28209,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "NDSN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NDSN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.091387+00:00",
+    "status": 200,
+    "bytes": 28175,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "JBHT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JBHT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.093943+00:00",
+    "status": 200,
+    "bytes": 28217,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "WRB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WRB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.273286+00:00",
+    "status": 200,
+    "bytes": 27920,
+    "bars": 251,
+    "vendor_quote_time": 1792440263
+  },
+  {
+    "symbol": "RVTY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RVTY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.384258+00:00",
+    "status": 200,
+    "bytes": 28193,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BALL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BALL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.632116+00:00",
+    "status": 200,
+    "bytes": 28386,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.666251+00:00",
+    "status": 200,
+    "bytes": 28446,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "J",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/J?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.680764+00:00",
+    "status": 200,
+    "bytes": 28508,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FICO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FICO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.716971+00:00",
+    "status": 200,
+    "bytes": 25764,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "LYB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LYB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.746742+00:00",
+    "status": 200,
+    "bytes": 28100,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "CHRW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CHRW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.889567+00:00",
+    "status": 200,
+    "bytes": 28639,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "HST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HST?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.938187+00:00",
+    "status": 200,
+    "bytes": 29239,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "LDOS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LDOS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:42.989923+00:00",
+    "status": 200,
+    "bytes": 28253,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TSN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.001756+00:00",
+    "status": 200,
+    "bytes": 28212,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "KIM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KIM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.026774+00:00",
+    "status": 200,
+    "bytes": 28979,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "NVR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.049643+00:00",
+    "status": 200,
+    "bytes": 23949,
+    "bars": 251,
+    "vendor_quote_time": 1792440069
+  },
+  {
+    "symbol": "LEN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LEN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.213786+00:00",
+    "status": 200,
+    "bytes": 27975,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "INVH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INVH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.271649+00:00",
+    "status": 200,
+    "bytes": 28973,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "RL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.288868+00:00",
+    "status": 200,
+    "bytes": 27653,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CRL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.299134+00:00",
+    "status": 200,
+    "bytes": 28074,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MAS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.331249+00:00",
+    "status": 200,
+    "bytes": 27901,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "AIZ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AIZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.374628+00:00",
+    "status": 200,
+    "bytes": 28293,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "WY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.476122+00:00",
+    "status": 200,
+    "bytes": 29031,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "HAS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HAS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.545291+00:00",
+    "status": 200,
+    "bytes": 27762,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "TRMB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TRMB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.550392+00:00",
+    "status": 200,
+    "bytes": 27832,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "EG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.715749+00:00",
+    "status": 200,
+    "bytes": 27845,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "SWK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SWK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.718137+00:00",
+    "status": 200,
+    "bytes": 27808,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TYL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TYL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.872733+00:00",
+    "status": 200,
+    "bytes": 27203,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "SJM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SJM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:43.992059+00:00",
+    "status": 200,
+    "bytes": 28521,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MAA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.173950+00:00",
+    "status": 200,
+    "bytes": 28575,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FDXF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FDXF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.287643+00:00",
+    "status": 200,
+    "bytes": 11616,
+    "bars": 101,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "AVY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.356900+00:00",
+    "status": 200,
+    "bytes": 28708,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "GDDY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GDDY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.416020+00:00",
+    "status": 200,
+    "bytes": 28146,
+    "bars": 251,
+    "vendor_quote_time": 1792440071
+  },
+  {
+    "symbol": "ALLE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALLE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.481532+00:00",
+    "status": 200,
+    "bytes": 28831,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "CSGP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CSGP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.496189+00:00",
+    "status": 200,
+    "bytes": 28126,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "TXT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TXT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.649536+00:00",
+    "status": 200,
+    "bytes": 27676,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BAX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.677958+00:00",
+    "status": 200,
+    "bytes": 28938,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "GL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.789810+00:00",
+    "status": 200,
+    "bytes": 28401,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DOC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DOC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.794685+00:00",
+    "status": 200,
+    "bytes": 29208,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "GEN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.915711+00:00",
+    "status": 200,
+    "bytes": 28689,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "FOXA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FOXA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.956868+00:00",
+    "status": 200,
+    "bytes": 28030,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "IT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:44.978857+00:00",
+    "status": 200,
+    "bytes": 28174,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AKAM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AKAM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.049874+00:00",
+    "status": 200,
+    "bytes": 27488,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "PNW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PNW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.180814+00:00",
+    "status": 200,
+    "bytes": 28357,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "IVZ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IVZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.249032+00:00",
+    "status": 200,
+    "bytes": 28933,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "SOLV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOLV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.263565+00:00",
+    "status": 200,
+    "bytes": 27356,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CHTR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CHTR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.328850+00:00",
+    "status": 200,
+    "bytes": 27936,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "REG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/REG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.518781+00:00",
+    "status": 200,
+    "bytes": 28014,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "MKC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MKC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.606676+00:00",
+    "status": 200,
+    "bytes": 28240,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ECHO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ECHO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.635117+00:00",
+    "status": 200,
+    "bytes": 27438,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "DECK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DECK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.795811+00:00",
+    "status": 200,
+    "bytes": 27793,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "TECH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TECH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.884291+00:00",
+    "status": 200,
+    "bytes": 28087,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "LII",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LII?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.923517+00:00",
+    "status": 200,
+    "bytes": 27574,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "COO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:45.994906+00:00",
+    "status": 200,
+    "bytes": 27669,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "ALB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.052905+00:00",
+    "status": 200,
+    "bytes": 27990,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "GNRC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GNRC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.220045+00:00",
+    "status": 200,
+    "bytes": 27708,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "NWSA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NWSA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.311826+00:00",
+    "status": 200,
+    "bytes": 28814,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "JKHY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JKHY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.331600+00:00",
+    "status": 200,
+    "bytes": 28756,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "FDS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FDS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.525856+00:00",
+    "status": 200,
+    "bytes": 27956,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "HII",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HII?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.631388+00:00",
+    "status": 200,
+    "bytes": 27505,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AES",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AES?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.640145+00:00",
+    "status": 200,
+    "bytes": 29227,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CLX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.947077+00:00",
+    "status": 200,
+    "bytes": 28037,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "TKO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TKO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:46.962742+00:00",
+    "status": 200,
+    "bytes": 28692,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "DPZ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DPZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.084355+00:00",
+    "status": 200,
+    "bytes": 27025,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "LULU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LULU?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.095743+00:00",
+    "status": 200,
+    "bytes": 28242,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "UDR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UDR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.239197+00:00",
+    "status": 200,
+    "bytes": 28490,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "CPT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CPT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.244566+00:00",
+    "status": 200,
+    "bytes": 28642,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ROL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.286008+00:00",
+    "status": 200,
+    "bytes": 28422,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PODD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PODD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.336532+00:00",
+    "status": 200,
+    "bytes": 28164,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "LVS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LVS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.370683+00:00",
+    "status": 200,
+    "bytes": 28312,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ALGN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALGN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.420018+00:00",
+    "status": 200,
+    "bytes": 27994,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "UHS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UHS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.583685+00:00",
+    "status": 200,
+    "bytes": 28483,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "APTV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APTV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.589852+00:00",
+    "status": 200,
+    "bytes": 27890,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "BXP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BXP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.629974+00:00",
+    "status": 200,
+    "bytes": 28123,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "BEN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BEN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.638940+00:00",
+    "status": 200,
+    "bytes": 28666,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "PNR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PNR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.711365+00:00",
+    "status": 200,
+    "bytes": 28435,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "FRT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FRT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.886677+00:00",
+    "status": 200,
+    "bytes": 28639,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "HSIC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HSIC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.909719+00:00",
+    "status": 200,
+    "bytes": 27443,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "FOX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FOX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:47.928420+00:00",
+    "status": 200,
+    "bytes": 28247,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "NCLH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NCLH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.083013+00:00",
+    "status": 200,
+    "bytes": 28858,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "AOS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AOS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.134003+00:00",
+    "status": 200,
+    "bytes": 28283,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ARE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.213570+00:00",
+    "status": 200,
+    "bytes": 28496,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "DVA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DVA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.403301+00:00",
+    "status": 200,
+    "bytes": 28041,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "ERIE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ERIE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.445629+00:00",
+    "status": 200,
+    "bytes": 28126,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "MOS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MOS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.552075+00:00",
+    "status": 200,
+    "bytes": 28872,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "HRL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HRL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.585201+00:00",
+    "status": 200,
+    "bytes": 28968,
+    "bars": 251,
+    "vendor_quote_time": 1792440003
+  },
+  {
+    "symbol": "WYNN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WYNN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.653153+00:00",
+    "status": 200,
+    "bytes": 28167,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "BF-B",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BF-B?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.730711+00:00",
+    "status": 200,
+    "bytes": 28954,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "MGM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MGM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.842509+00:00",
+    "status": 200,
+    "bytes": 28114,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "NWS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NWS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.860517+00:00",
+    "status": 200,
+    "bytes": 28754,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "SKYD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SKYD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:48.969387+00:00",
+    "status": 200,
+    "bytes": 28720,
+    "bars": 251,
+    "vendor_quote_time": 1792440002
+  },
+  {
+    "symbol": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.072772+00:00",
+    "status": 200,
+    "bytes": 28139,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "RSP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.074772+00:00",
+    "status": 200,
+    "bytes": 29156,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "QQQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.134555+00:00",
+    "status": 200,
+    "bytes": 28086,
+    "bars": 251,
+    "vendor_quote_time": 1792440001
+  },
+  {
+    "symbol": "QQEW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQEW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.268853+00:00",
+    "status": 200,
+    "bytes": 28562,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "IWM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.357958+00:00",
+    "status": 200,
+    "bytes": 28997,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.416606+00:00",
+    "status": 200,
+    "bytes": 28754,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.427945+00:00",
+    "status": 200,
+    "bytes": 29318,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.430257+00:00",
+    "status": 200,
+    "bytes": 28766,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.594404+00:00",
+    "status": 200,
+    "bytes": 28868,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.621976+00:00",
+    "status": 200,
+    "bytes": 29101,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.727622+00:00",
+    "status": 200,
+    "bytes": 29253,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.730590+00:00",
+    "status": 200,
+    "bytes": 28375,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLRE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLRE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.816066+00:00",
+    "status": 200,
+    "bytes": 28641,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.892474+00:00",
+    "status": 200,
+    "bytes": 28952,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:49.948423+00:00",
+    "status": 200,
+    "bytes": 29101,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  },
+  {
+    "symbol": "XLY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_at": "2026-10-19T22:24:50.007546+00:00",
+    "status": 200,
+    "bytes": 29536,
+    "bars": 251,
+    "vendor_quote_time": 1792440000
+  }
+]

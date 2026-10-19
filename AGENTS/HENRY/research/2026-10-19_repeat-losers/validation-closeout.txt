@@ -1,0 +1,75 @@
+COMMAND: python3 scripts/read_cap_check.py --agent HENRY
+EXIT: 0
+READ-CAP [HENRY] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 3 boot section(s) in CLAUDE.md, 19 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 4 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ LESSONS.md                           24,342 B    75% of budget    (boot-step line 28)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,558 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 70 B.
+  ✅ MEMORY.md                            19,059 B    59% of budget    (boot-step line 29)
+  ✅ STATUS.md                            17,964 B    55% of budget    (boot-step line 34)
+  ✅ NEXUS_BRIEF.md                        3,678 B    11% of budget    (boot-step line 34)
+✅ READ-CAP 0 [HENRY]: every boot-mandated read this check found is under budget (4 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+  ℹ️  charter AGENTS/HENRY/CLAUDE.md = 35,938 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=HENRY reads=4 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=35938
+
+COMMAND: python3 scripts/corrections_boot_check.py HENRY
+EXIT: 0
+  INFO 1 dead-at-cap with no receipt from this desk: COR-20260925-13 — 0 NAMED (still BLOCKING until receipted, WQ-254 D4(a)) · 1 ALL-row (broadcast expired: no warn, no block)
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for HENRY (register 90 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 37) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)
+
+COMMAND: python3 scripts/claim_check.py --check weekday AGENTS/HENRY/STATUS.md
+EXIT: 0
+CLAIM-CHECK ✓ 1 file(s) clean [weekday]
+
+COMMAND: bash scripts/orphan_check.sh HENRY
+EXIT: 0
+⚠️  uncommitted files outside AGENTS/HENRY/:
+     [not yours]    AGENTS/BROCK/inbox/2026-10-19_from-GIBBS_canonical-NDFI-consumed.md
+     [not yours]    AGENTS/GIBBS/NEXUS_BRIEF.md
+     [not yours]    AGENTS/REGINALD/inbox/2026-10-19_from-GIBBS_first-owner-Q3-context.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq-excerpt.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.pdf
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss-excerpt.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.pdf
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-volta-bloomberg.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/ai-fed.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/bund.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/eurusd.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/italy.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/nahb.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-1.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-10.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-11.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-12.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-13.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-14.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-2.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-3.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-4.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-5.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-6.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-7.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-8.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-9.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context.json
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/ttf.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/uk10.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/uk30.html
+     [not yours]    PROME/inbox/2026-10-19_from-GIBBS_morning-first-owner-PARTIAL.md
+     [not yours]    PROME/reports/2026-10-19_three-owner-coordination.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/argus_baseline.json
+     [not yours]    PROME/state/argus_review.json
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+

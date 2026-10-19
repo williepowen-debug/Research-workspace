@@ -1,0 +1,5 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=1y&interval=1d&includeAdjustedClose=true",
+  "status": 200,
+  "retrieved": "2026-10-19T22:31:54.279998+00:00"
+}

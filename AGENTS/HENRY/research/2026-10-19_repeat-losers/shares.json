@@ -1,0 +1,86 @@
+{
+  "MOS": {
+    "shares": 317895646,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-05",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000112/mos-20260630.htm",
+    "basis": "Outstanding317895646 notissued395563251"
+  },
+  "CF": {
+    "shares": 151595676,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-06",
+    "source": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000019/cf-20260630.htm",
+    "basis": "151641530issued less45854treasury; signed August6"
+  },
+  "MGM": {
+    "shares": 251586206,
+    "period_end": "2026-06-30",
+    "available_by": "2026-07-29",
+    "source": "https://investors.mgmresorts.com/2026-07-29-MGM-RESORTS-INTERNATIONAL-REPORTS-SECOND-QUARTER-2026-FINANCIAL-AND-OPERATING-RESULTS",
+    "basis": "Issued/outstanding common251586206"
+  },
+  "WYNN": {
+    "shares": 103405133,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-05",
+    "source": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+    "basis": "135316099issued less31910966treasury; notJuly31covercount"
+  },
+  "LVS": {
+    "shares": 648000000,
+    "period_end": "2026-06-30",
+    "available_by": "2026-07-24",
+    "source": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000085/lvs-20260630.htm",
+    "basis": "648Moutstanding not842Missued or654Maverage; rounded; signed July24"
+  },
+  "HII": {
+    "shares": 39404203,
+    "period_end": "2026-06-30",
+    "available_by": "2026-07-30",
+    "source": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000047/hii-20260630.htm",
+    "basis": "us-gaap:CommonStockSharesOutstanding contextc-14,notJuly24cover"
+  },
+  "ADM": {
+    "shares": 482000000,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-04",
+    "source": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000042/adm-20260630.htm",
+    "basis": "CommonStockSharesOutstanding c-19 scale6,already net treasury;rounded"
+  },
+  "MCD": {
+    "shares": 707641531,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-07",
+    "source": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000073/mcd-20260630.htm",
+    "basis": "dei:EntityCommonStockSharesOutstanding contextc-2 is June30 periodend,notJulycover;matches roundedissued1660.6M minus953.0Mtreasury"
+  },
+  "SBUX": {
+    "shares": 1139800000,
+    "period_end": "2026-06-28",
+    "available_by": "2026-07-29",
+    "source": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/sbux-20260628.htm",
+    "basis": "CommonStockSharesOutstanding c-57 scale6;notJuly23cover1140.0M"
+  },
+  "PCAR": {
+    "shares": 526360000,
+    "period_end": "2026-06-30",
+    "available_by": "2026-07-29",
+    "source": "https://www.sec.gov/Archives/edgar/data/75362/000119312526323642/pcar-20260630.htm",
+    "basis": "Roundedissued526.4M less0.04Mtreasury=526.36M;notJuly24cover"
+  },
+  "CPRT": {
+    "shares": 925811482,
+    "period_end": "2026-04-30",
+    "available_by": "2026-05-29",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526245578/cprt-20260430.htm",
+    "basis": "April30outstanding925811482;September10Q4releasecontainsEPSaverages,noteligibleJuly31outstandingcount;July31annual10KfiledSeptember29AFTERformationexcluded"
+  },
+  "INGR": {
+    "shares": 63100000,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-07",
+    "source": "https://www.sec.gov/Archives/edgar/data/1046257/000162828026054722/ingr-20260630.htm",
+    "basis": "Roundedissued77.8M less14.7Mtreasury=63.1M;notAugust5cover"
+  }
+}

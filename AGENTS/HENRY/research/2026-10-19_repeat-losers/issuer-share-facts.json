@@ -1,0 +1,666 @@
+[
+  {
+    "symbol": "HII",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0001501585 2026-07-24",
+    "scale": "0",
+    "text": "39,404,598"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-14",
+    "context_text": "0001501585 2026-06-30",
+    "scale": "0",
+    "text": "53,988,912"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-15",
+    "context_text": "0001501585 2025-12-31",
+    "scale": "0",
+    "text": "53,826,236"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-14",
+    "context_text": "0001501585 2026-06-30",
+    "scale": "0",
+    "text": "39,404,203"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-15",
+    "context_text": "0001501585 2025-12-31",
+    "scale": "0",
+    "text": "39,241,527"
+  },
+  {
+    "symbol": "HII",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0001501585 2026-07-24",
+    "scale": "0",
+    "text": "39,404,598"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-14",
+    "context_text": "0001501585 2026-06-30",
+    "scale": "0",
+    "text": "53,988,912"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-14",
+    "context_text": "0001501585 2026-06-30",
+    "scale": "0",
+    "text": "39,404,203"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-15",
+    "context_text": "0001501585 2025-12-31",
+    "scale": "0",
+    "text": "53,826,236"
+  },
+  {
+    "symbol": "HII",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-15",
+    "context_text": "0001501585 2025-12-31",
+    "scale": "0",
+    "text": "39,241,527"
+  },
+  {
+    "symbol": "ADM",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0000007084 2026-07-30",
+    "scale": "0",
+    "text": "481,959,583"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-10",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2026-03-31",
+    "scale": "6",
+    "text": "482"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-19",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2026-06-30",
+    "scale": "6",
+    "text": "482"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-23",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2025-12-31",
+    "scale": "6",
+    "text": "480"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-19",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2026-06-30",
+    "scale": "6",
+    "text": "482"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-31",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2025-03-31",
+    "scale": "6",
+    "text": "480"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-40",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2025-06-30",
+    "scale": "6",
+    "text": "480"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-44",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2024-12-31",
+    "scale": "6",
+    "text": "478"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-40",
+    "context_text": "0000007084 us-gaap:CommonStockMember 2025-06-30",
+    "scale": "6",
+    "text": "480"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-6",
+    "context_text": "0000007084 2026-06-30",
+    "scale": "6",
+    "text": "234.1"
+  },
+  {
+    "symbol": "ADM",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-7",
+    "context_text": "0000007084 2025-12-31",
+    "scale": "6",
+    "text": "235.5"
+  },
+  {
+    "symbol": "MCD",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0000063908 2026-06-30",
+    "scale": "0",
+    "text": "707,641,531"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-2",
+    "context_text": "0000063908 2026-06-30",
+    "scale": "6",
+    "text": "1,660.6"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-3",
+    "context_text": "0000063908 2025-12-31",
+    "scale": "6",
+    "text": "1,660.6"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-2",
+    "context_text": "0000063908 2026-06-30",
+    "scale": "6",
+    "text": "953.0"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-3",
+    "context_text": "0000063908 2025-12-31",
+    "scale": "6",
+    "text": "950.0"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-19",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2024-12-31",
+    "scale": "6",
+    "text": "945.4"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-32",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2025-06-30",
+    "scale": "6",
+    "text": "947.0"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-39",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2025-12-31",
+    "scale": "6",
+    "text": "950.0"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-51",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2026-06-30",
+    "scale": "6",
+    "text": "953.0"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-58",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2025-03-31",
+    "scale": "6",
+    "text": "945.6"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-32",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2025-06-30",
+    "scale": "6",
+    "text": "947.0"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-71",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2026-03-31",
+    "scale": "6",
+    "text": "950.2"
+  },
+  {
+    "symbol": "MCD",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-51",
+    "context_text": "0000063908 us-gaap:TreasuryStockCommonMember 2026-06-30",
+    "scale": "6",
+    "text": "953.0"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0000829224 2026-07-23",
+    "scale": "6",
+    "text": "1,140.0"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-40",
+    "context_text": "0000829224 2026-06-28",
+    "scale": "6",
+    "text": "1,139.8"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-41",
+    "context_text": "0000829224 2025-09-28",
+    "scale": "6",
+    "text": "1,136.9"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-44",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2026-03-29",
+    "scale": "6",
+    "text": "1,139.5"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-57",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2026-06-28",
+    "scale": "6",
+    "text": "1,139.8"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-63",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2025-03-30",
+    "scale": "6",
+    "text": "1,136.2"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-76",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2025-06-29",
+    "scale": "6",
+    "text": "1,136.5"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-82",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2025-09-28",
+    "scale": "6",
+    "text": "1,136.9"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-57",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2026-06-28",
+    "scale": "6",
+    "text": "1,139.8"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-94",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2024-09-29",
+    "scale": "6",
+    "text": "1,133.5"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-76",
+    "context_text": "0000829224 us-gaap:CommonStockMember 2025-06-29",
+    "scale": "6",
+    "text": "1,136.5"
+  },
+  {
+    "symbol": "PCAR",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "C_4bbdd6f2-2c0a-4c57-b4d8-d730e1327a37",
+    "context_text": "0000075362 2026-07-24",
+    "scale": "0",
+    "text": "526,364,953"
+  },
+  {
+    "symbol": "PCAR",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "C_08bca147-69c3-40bf-b2a4-ef555a514e0e",
+    "context_text": "0000075362 2026-06-30",
+    "scale": "6",
+    "text": "526.4"
+  },
+  {
+    "symbol": "PCAR",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "C_7bdeaed2-058f-4358-b56a-98ec87e39eed",
+    "context_text": "0000075362 2025-12-31",
+    "scale": "6",
+    "text": "525.4"
+  },
+  {
+    "symbol": "PCAR",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "C_08bca147-69c3-40bf-b2a4-ef555a514e0e",
+    "context_text": "0000075362 2026-06-30",
+    "scale": "6",
+    "text": ".04"
+  },
+  {
+    "symbol": "PCAR",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "C_7bdeaed2-058f-4358-b56a-98ec87e39eed",
+    "context_text": "0000075362 2025-12-31",
+    "scale": "6",
+    "text": "nil"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "C_1a94d61a-fc4f-4961-aba6-46a4d3bf0741",
+    "context_text": "0000900075 2026-05-27",
+    "scale": "0",
+    "text": "925,811,482"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "C_51d02d35-101c-4a4c-a76c-f82a85f4d6e4",
+    "context_text": "0000900075 2026-04-30",
+    "scale": "0",
+    "text": "925,811,482"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_51d02d35-101c-4a4c-a76c-f82a85f4d6e4",
+    "context_text": "0000900075 2026-04-30",
+    "scale": "0",
+    "text": "925,811,482"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "C_28e22fd9-4aea-417f-baf6-83ffa14bc518",
+    "context_text": "0000900075 2025-07-31",
+    "scale": "0",
+    "text": "967,478,690"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_28e22fd9-4aea-417f-baf6-83ffa14bc518",
+    "context_text": "0000900075 2025-07-31",
+    "scale": "0",
+    "text": "967,478,690"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_46b5c763-e2ff-4351-a946-8026aae2cabe",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2025-07-31",
+    "scale": "0",
+    "text": "967,478,690"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_82befefd-0dd3-4fa8-8563-e4e4c0e80fcc",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2025-10-31",
+    "scale": "0",
+    "text": "967,904,634"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_9e086647-5a09-4cb3-852d-3fae0f6c481f",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2026-01-31",
+    "scale": "0",
+    "text": "963,290,932"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_a6418be4-a42f-4ffa-a1dc-7ab7a805f43b",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2026-04-30",
+    "scale": "0",
+    "text": "925,811,482"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_a209b31d-4c83-44a8-ac50-f918a312fdfb",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2024-07-31",
+    "scale": "0",
+    "text": "962,967,011"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_e90e7eca-ce17-4f4e-bf57-779434c084d0",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2024-10-31",
+    "scale": "0",
+    "text": "963,524,402"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_31b142aa-3a05-4364-a7fd-8dfab29720bc",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2025-01-31",
+    "scale": "0",
+    "text": "966,053,166"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "C_67a68bdc-fd90-4141-80ef-95df234d79aa",
+    "context_text": "0000900075 us-gaap:CommonStockMember 2025-04-30",
+    "scale": "0",
+    "text": "966,812,661"
+  },
+  {
+    "symbol": "INGR",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0001046257 2026-08-05",
+    "scale": "0",
+    "text": "63,063,979"
+  },
+  {
+    "symbol": "INGR",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-7",
+    "context_text": "0001046257 2025-12-31",
+    "scale": "6",
+    "text": "77.8"
+  },
+  {
+    "symbol": "INGR",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-6",
+    "context_text": "0001046257 2026-06-30",
+    "scale": "6",
+    "text": "77.8"
+  },
+  {
+    "symbol": "INGR",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-6",
+    "context_text": "0001046257 2026-06-30",
+    "scale": "6",
+    "text": "14.7"
+  },
+  {
+    "symbol": "INGR",
+    "name": "us-gaap:TreasuryStockCommonShares",
+    "context": "c-7",
+    "context_text": "0001046257 2025-12-31",
+    "scale": "6",
+    "text": "14.8"
+  },
+  {
+    "symbol": "YUM",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0001041061 2026-07-30",
+    "scale": "0",
+    "text": "272,901,085"
+  },
+  {
+    "symbol": "YUM",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-22",
+    "context_text": "0001041061 2026-06-30",
+    "scale": "6",
+    "text": "273"
+  },
+  {
+    "symbol": "YUM",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-20",
+    "context_text": "0001041061 2025-12-31",
+    "scale": "6",
+    "text": "277"
+  },
+  {
+    "symbol": "QSR",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-2",
+    "context_text": "0001618756 us-gaap:CommonClassAMember 2026-07-31",
+    "scale": "0",
+    "text": "348,758,065"
+  },
+  {
+    "symbol": "QSR",
+    "name": "dei:EntityCommonStockSharesOutstanding",
+    "context": "c-3",
+    "context_text": "0001618756 qsr:PartnershipsWithExchangeableUnitsMember 2026-07-31",
+    "scale": "0",
+    "text": "105,750,828"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-4",
+    "context_text": "0001618756 2026-06-30",
+    "scale": "0",
+    "text": "349,205,651"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-4",
+    "context_text": "0001618756 2026-06-30",
+    "scale": "0",
+    "text": "349,205,651"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesIssued",
+    "context": "c-5",
+    "context_text": "0001618756 2025-12-31",
+    "scale": "0",
+    "text": "346,323,165"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-5",
+    "context_text": "0001618756 2025-12-31",
+    "scale": "0",
+    "text": "346,323,165"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-34",
+    "context_text": "0001618756 us-gaap:CommonStockMember 2025-12-31",
+    "scale": "0",
+    "text": "346,323,165"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-43",
+    "context_text": "0001618756 us-gaap:CommonStockMember 2026-03-31",
+    "scale": "0",
+    "text": "347,325,114"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-52",
+    "context_text": "0001618756 us-gaap:CommonStockMember 2026-06-30",
+    "scale": "0",
+    "text": "349,205,651"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-56",
+    "context_text": "0001618756 us-gaap:CommonStockMember 2024-12-31",
+    "scale": "0",
+    "text": "324,426,589"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-66",
+    "context_text": "0001618756 us-gaap:CommonStockMember 2025-03-31",
+    "scale": "0",
+    "text": "327,629,161"
+  },
+  {
+    "symbol": "QSR",
+    "name": "us-gaap:CommonStockSharesOutstanding",
+    "context": "c-75",
+    "context_text": "0001618756 us-gaap:CommonStockMember 2025-06-30",
+    "scale": "0",
+    "text": "327,777,360"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "MOS": {
+    "20": {
+      "cash_index_up_losses": 7,
+      "cash_index_up_days": 8,
+      "cash_both_losses": 6,
+      "cash_both_days": 7,
+      "spy_sign_disagreement_dates": []
+    },
+    "60": {
+      "cash_index_up_losses": 17,
+      "cash_index_up_days": 27,
+      "cash_both_losses": 9,
+      "cash_both_days": 17,
+      "spy_sign_disagreement_dates": [
+        "2026-08-26"
+      ]
+    }
+  },
+  "HII": {
+    "20": {
+      "cash_index_up_losses": 6,
+      "cash_index_up_days": 8,
+      "cash_both_losses": 5,
+      "cash_both_days": 7,
+      "spy_sign_disagreement_dates": []
+    },
+    "60": {
+      "cash_index_up_losses": 17,
+      "cash_index_up_days": 27,
+      "cash_both_losses": 13,
+      "cash_both_days": 21,
+      "spy_sign_disagreement_dates": [
+        "2026-08-26"
+      ]
+    }
+  },
+  "ADM": {
+    "20": {
+      "cash_index_up_losses": 5,
+      "cash_index_up_days": 8,
+      "cash_both_losses": 4,
+      "cash_both_days": 6,
+      "spy_sign_disagreement_dates": []
+    },
+    "60": {
+      "cash_index_up_losses": 18,
+      "cash_index_up_days": 27,
+      "cash_both_losses": 11,
+      "cash_both_days": 17,
+      "spy_sign_disagreement_dates": [
+        "2026-08-26"
+      ]
+    }
+  },
+  "MGM": {
+    "20": {
+      "cash_index_up_losses": 5,
+      "cash_index_up_days": 8,
+      "cash_both_losses": 4,
+      "cash_both_days": 7,
+      "spy_sign_disagreement_dates": []
+    },
+    "60": {
+      "cash_index_up_losses": 18,
+      "cash_index_up_days": 27,
+      "cash_both_losses": 13,
+      "cash_both_days": 22,
+      "spy_sign_disagreement_dates": [
+        "2026-08-26"
+      ]
+    }
+  },
+  "MCD": {
+    "20": {
+      "cash_index_up_losses": 4,
+      "cash_index_up_days": 8,
+      "cash_both_losses": 4,
+      "cash_both_days": 7,
+      "spy_sign_disagreement_dates": []
+    },
+    "60": {
+      "cash_index_up_losses": 16,
+      "cash_index_up_days": 27,
+      "cash_both_losses": 13,
+      "cash_both_days": 22,
+      "spy_sign_disagreement_dates": [
+        "2026-08-26"
+      ]
+    }
+  },
+  "PCAR": {
+    "20": {
+      "cash_index_up_losses": 5,
+      "cash_index_up_days": 8,
+      "cash_both_losses": 4,
+      "cash_both_days": 7,
+      "spy_sign_disagreement_dates": []
+    },
+    "60": {
+      "cash_index_up_losses": 17,
+      "cash_index_up_days": 27,
+      "cash_both_losses": 12,
+      "cash_both_days": 21,
+      "spy_sign_disagreement_dates": [
+        "2026-08-26"
+      ]
+    }
+  },
+  "CPRT": {
+    "20": {
+      "cash_index_up_losses": 5,
+      "cash_index_up_days": 8,
+      "cash_both_losses": 4,
+      "cash_both_days": 7,
+      "spy_sign_disagreement_dates": []
+    },
+    "60": {
+      "cash_index_up_losses": 14,
+      "cash_index_up_days": 27,
+      "cash_both_losses": 13,
+      "cash_both_days": 21,
+      "spy_sign_disagreement_dates": [
+        "2026-08-26"
+      ]
+    }
+  }
+}

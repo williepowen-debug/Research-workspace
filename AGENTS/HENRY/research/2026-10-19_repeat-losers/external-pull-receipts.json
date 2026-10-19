@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "BWXT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BWXT?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "retrieved": "2026-10-19T22:26:21.225325+00:00"
+  },
+  {
+    "symbol": "RBA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RBA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "retrieved": "2026-10-19T22:26:21.243665+00:00"
+  },
+  {
+    "symbol": "QSR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QSR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "retrieved": "2026-10-19T22:26:21.261103+00:00"
+  },
+  {
+    "symbol": "NTR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NTR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "retrieved": "2026-10-19T22:26:21.500033+00:00"
+  },
+  {
+    "symbol": "INGR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INGR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "retrieved": "2026-10-19T22:26:21.516392+00:00"
+  }
+]

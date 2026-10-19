@@ -1,0 +1,3535 @@
+{
+  "source": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx",
+  "content_asof": "As of 16-Oct-2026",
+  "retrieved": "2026-10-19T18:57:13.816992+00:00",
+  "holdings_sha256": "01ebf197474145023e6761450a542260ec3986117d4e7b6732dfe5efc2b07ccb",
+  "scope": "503tradableequitysecuritylines,not500issuers;cashandnontradableCVRexcluded;currentholdingsproxy,notpointintimeindexmembership",
+  "excluded": [
+    "USDcash",
+    "2602335D CVR"
+  ],
+  "equity_weight_sum_pct": 99.929217,
+  "rows": [
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "ssga_ticker": "NVDA",
+      "weight_pct": 7.850898,
+      "id": "67066G104"
+    },
+    {
+      "name": "APPLE INC",
+      "ticker": "AAPL",
+      "ssga_ticker": "AAPL",
+      "weight_pct": 7.594225,
+      "id": "037833100"
+    },
+    {
+      "name": "MICROSOFT CORP",
+      "ticker": "MSFT",
+      "ssga_ticker": "MSFT",
+      "weight_pct": 5.951445,
+      "id": "594918104"
+    },
+    {
+      "name": "AMAZON.COM INC",
+      "ticker": "AMZN",
+      "ssga_ticker": "AMZN",
+      "weight_pct": 3.717575,
+      "id": "023135106"
+    },
+    {
+      "name": "ALPHABET INC CL A",
+      "ticker": "GOOGL",
+      "ssga_ticker": "GOOGL",
+      "weight_pct": 3.027833,
+      "id": "02079K305"
+    },
+    {
+      "name": "ALPHABET INC CL C",
+      "ticker": "GOOG",
+      "ssga_ticker": "GOOG",
+      "weight_pct": 2.426167,
+      "id": "02079K107"
+    },
+    {
+      "name": "META PLATFORMS INC CLASS A",
+      "ticker": "META",
+      "ssga_ticker": "META",
+      "weight_pct": 2.369714,
+      "id": "30303M102"
+    },
+    {
+      "name": "BROADCOM INC",
+      "ticker": "AVGO",
+      "ssga_ticker": "AVGO",
+      "weight_pct": 2.36956,
+      "id": "11135F101"
+    },
+    {
+      "name": "ELI LILLY + CO",
+      "ticker": "LLY",
+      "ssga_ticker": "LLY",
+      "weight_pct": 1.523949,
+      "id": "532457108"
+    },
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "ssga_ticker": "TSLA",
+      "weight_pct": 1.514623,
+      "id": "88160R101"
+    },
+    {
+      "name": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "ssga_ticker": "MU",
+      "weight_pct": 1.503777,
+      "id": "595112103"
+    },
+    {
+      "name": "BERKSHIRE HATHAWAY INC CL B",
+      "ticker": "BRK-B",
+      "ssga_ticker": "BRK.B",
+      "weight_pct": 1.50124,
+      "id": "084670702"
+    },
+    {
+      "name": "JPMORGAN CHASE + CO",
+      "ticker": "JPM",
+      "ssga_ticker": "JPM",
+      "weight_pct": 1.368213,
+      "id": "46625H100"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "ssga_ticker": "AMD",
+      "weight_pct": 1.307775,
+      "id": "007903107"
+    },
+    {
+      "name": "EXXONMOBIL HOLDINGS CORP",
+      "ticker": "XOM",
+      "ssga_ticker": "XOM",
+      "weight_pct": 1.115105,
+      "id": "30233Q108"
+    },
+    {
+      "name": "VISA INC CLASS A SHARES",
+      "ticker": "V",
+      "ssga_ticker": "V",
+      "weight_pct": 1.039575,
+      "id": "92826C839"
+    },
+    {
+      "name": "JOHNSON + JOHNSON",
+      "ticker": "JNJ",
+      "ssga_ticker": "JNJ",
+      "weight_pct": 0.933186,
+      "id": "478160104"
+    },
+    {
+      "name": "WALMART INC",
+      "ticker": "WMT",
+      "ssga_ticker": "WMT",
+      "weight_pct": 0.802334,
+      "id": "931142103"
+    },
+    {
+      "name": "ABBVIE INC",
+      "ticker": "ABBV",
+      "ssga_ticker": "ABBV",
+      "weight_pct": 0.764288,
+      "id": "00287Y109"
+    },
+    {
+      "name": "MASTERCARD INC   A",
+      "ticker": "MA",
+      "ssga_ticker": "MA",
+      "weight_pct": 0.75654,
+      "id": "57636Q104"
+    },
+    {
+      "name": "INTEL CORP",
+      "ticker": "INTC",
+      "ssga_ticker": "INTC",
+      "weight_pct": 0.67649,
+      "id": "458140100"
+    },
+    {
+      "name": "CHEVRON CORP",
+      "ticker": "CVX",
+      "ssga_ticker": "CVX",
+      "weight_pct": 0.673634,
+      "id": "166764100"
+    },
+    {
+      "name": "COSTCO WHOLESALE CORP",
+      "ticker": "COST",
+      "ssga_ticker": "COST",
+      "weight_pct": 0.664712,
+      "id": "22160K105"
+    },
+    {
+      "name": "PALANTIR TECHNOLOGIES INC A",
+      "ticker": "PLTR",
+      "ssga_ticker": "PLTR",
+      "weight_pct": 0.648575,
+      "id": "69608A108"
+    },
+    {
+      "name": "CISCO SYSTEMS INC",
+      "ticker": "CSCO",
+      "ssga_ticker": "CSCO",
+      "weight_pct": 0.641401,
+      "id": "17275R102"
+    },
+    {
+      "name": "PROCTER + GAMBLE CO/THE",
+      "ticker": "PG",
+      "ssga_ticker": "PG",
+      "weight_pct": 0.561335,
+      "id": "742718109"
+    },
+    {
+      "name": "COCA COLA CO/THE",
+      "ticker": "KO",
+      "ssga_ticker": "KO",
+      "weight_pct": 0.551047,
+      "id": "191216100"
+    },
+    {
+      "name": "UNITEDHEALTH GROUP INC",
+      "ticker": "UNH",
+      "ssga_ticker": "UNH",
+      "weight_pct": 0.546063,
+      "id": "91324P102"
+    },
+    {
+      "name": "MERCK + CO. INC.",
+      "ticker": "MRK",
+      "ssga_ticker": "MRK",
+      "weight_pct": 0.545693,
+      "id": "58933Y105"
+    },
+    {
+      "name": "CATERPILLAR INC",
+      "ticker": "CAT",
+      "ssga_ticker": "CAT",
+      "weight_pct": 0.509045,
+      "id": "149123101"
+    },
+    {
+      "name": "BANK OF AMERICA CORP",
+      "ticker": "BAC",
+      "ssga_ticker": "BAC",
+      "weight_pct": 0.504896,
+      "id": "060505104"
+    },
+    {
+      "name": "LAM RESEARCH CORP",
+      "ticker": "LRCX",
+      "ssga_ticker": "LRCX",
+      "weight_pct": 0.500488,
+      "id": "512807306"
+    },
+    {
+      "name": "GENERAL ELECTRIC",
+      "ticker": "GE",
+      "ssga_ticker": "GE",
+      "weight_pct": 0.493479,
+      "id": "369604301"
+    },
+    {
+      "name": "APPLIED MATERIALS INC",
+      "ticker": "AMAT",
+      "ssga_ticker": "AMAT",
+      "weight_pct": 0.492428,
+      "id": "038222105"
+    },
+    {
+      "name": "PHILIP MORRIS INTERNATIONAL",
+      "ticker": "PM",
+      "ssga_ticker": "PM",
+      "weight_pct": 0.484721,
+      "id": "718172109"
+    },
+    {
+      "name": "HOME DEPOT INC",
+      "ticker": "HD",
+      "ssga_ticker": "HD",
+      "weight_pct": 0.467594,
+      "id": "437076102"
+    },
+    {
+      "name": "NETFLIX INC",
+      "ticker": "NFLX",
+      "ssga_ticker": "NFLX",
+      "weight_pct": 0.445108,
+      "id": "64110L106"
+    },
+    {
+      "name": "PALO ALTO NETWORKS INC",
+      "ticker": "PANW",
+      "ssga_ticker": "PANW",
+      "weight_pct": 0.42245,
+      "id": "697435105"
+    },
+    {
+      "name": "RTX CORP",
+      "ticker": "RTX",
+      "ssga_ticker": "RTX",
+      "weight_pct": 0.395726,
+      "id": "75513E101"
+    },
+    {
+      "name": "GOLDMAN SACHS GROUP INC",
+      "ticker": "GS",
+      "ssga_ticker": "GS",
+      "weight_pct": 0.388495,
+      "id": "38141G104"
+    },
+    {
+      "name": "THERMO FISHER SCIENTIFIC INC",
+      "ticker": "TMO",
+      "ssga_ticker": "TMO",
+      "weight_pct": 0.386702,
+      "id": "883556102"
+    },
+    {
+      "name": "WELLS FARGO + CO",
+      "ticker": "WFC",
+      "ssga_ticker": "WFC",
+      "weight_pct": 0.384421,
+      "id": "949746101"
+    },
+    {
+      "name": "TEXAS INSTRUMENTS INC",
+      "ticker": "TXN",
+      "ssga_ticker": "TXN",
+      "weight_pct": 0.382313,
+      "id": "882508104"
+    },
+    {
+      "name": "GE VERNOVA INC",
+      "ticker": "GEV",
+      "ssga_ticker": "GEV",
+      "weight_pct": 0.37186,
+      "id": "36828A101"
+    },
+    {
+      "name": "AMGEN INC",
+      "ticker": "AMGN",
+      "ssga_ticker": "AMGN",
+      "weight_pct": 0.354086,
+      "id": "031162100"
+    },
+    {
+      "name": "CROWDSTRIKE HOLDINGS INC   A",
+      "ticker": "CRWD",
+      "ssga_ticker": "CRWD",
+      "weight_pct": 0.350952,
+      "id": "22788C105"
+    },
+    {
+      "name": "LINDE PLC",
+      "ticker": "LIN",
+      "ssga_ticker": "LIN",
+      "weight_pct": 0.348289,
+      "id": "G54950103"
+    },
+    {
+      "name": "ORACLE CORP",
+      "ticker": "ORCL",
+      "ssga_ticker": "ORCL",
+      "weight_pct": 0.335557,
+      "id": "68389X105"
+    },
+    {
+      "name": "INTL BUSINESS MACHINES CORP",
+      "ticker": "IBM",
+      "ssga_ticker": "IBM",
+      "weight_pct": 0.331152,
+      "id": "459200101"
+    },
+    {
+      "name": "KLA CORP",
+      "ticker": "KLAC",
+      "ssga_ticker": "KLAC",
+      "weight_pct": 0.327881,
+      "id": "482480100"
+    },
+    {
+      "name": "MORGAN STANLEY",
+      "ticker": "MS",
+      "ssga_ticker": "MS",
+      "weight_pct": 0.326699,
+      "id": "617446448"
+    },
+    {
+      "name": "CITIGROUP INC",
+      "ticker": "C",
+      "ssga_ticker": "C",
+      "weight_pct": 0.315954,
+      "id": "172967424"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL",
+      "ssga_ticker": "MRVL",
+      "weight_pct": 0.302369,
+      "id": "573874104"
+    },
+    {
+      "name": "SALESFORCE INC",
+      "ticker": "CRM",
+      "ssga_ticker": "CRM",
+      "weight_pct": 0.298544,
+      "id": "79466L302"
+    },
+    {
+      "name": "AMPHENOL CORP CL A",
+      "ticker": "APH",
+      "ssga_ticker": "APH",
+      "weight_pct": 0.296609,
+      "id": "032095101"
+    },
+    {
+      "name": "GILEAD SCIENCES INC",
+      "ticker": "GILD",
+      "ssga_ticker": "GILD",
+      "weight_pct": 0.293603,
+      "id": "375558103"
+    },
+    {
+      "name": "ANALOG DEVICES INC",
+      "ticker": "ADI",
+      "ssga_ticker": "ADI",
+      "weight_pct": 0.291981,
+      "id": "032654105"
+    },
+    {
+      "name": "WALT DISNEY CO/THE",
+      "ticker": "DIS",
+      "ssga_ticker": "DIS",
+      "weight_pct": 0.289493,
+      "id": "254687106"
+    },
+    {
+      "name": "SANDISK CORP",
+      "ticker": "SNDK",
+      "ssga_ticker": "SNDK",
+      "weight_pct": 0.287179,
+      "id": "80004C200"
+    },
+    {
+      "name": "VERIZON COMMUNICATIONS INC",
+      "ticker": "VZ",
+      "ssga_ticker": "VZ",
+      "weight_pct": 0.282106,
+      "id": "92343V104"
+    },
+    {
+      "name": "ARISTA NETWORKS INC",
+      "ticker": "ANET",
+      "ssga_ticker": "ANET",
+      "weight_pct": 0.280514,
+      "id": "040413205"
+    },
+    {
+      "name": "QUALCOMM INC",
+      "ticker": "QCOM",
+      "ssga_ticker": "QCOM",
+      "weight_pct": 0.278333,
+      "id": "747525103"
+    },
+    {
+      "name": "ABBOTT LABORATORIES",
+      "ticker": "ABT",
+      "ssga_ticker": "ABT",
+      "weight_pct": 0.274814,
+      "id": "002824100"
+    },
+    {
+      "name": "PEPSICO INC",
+      "ticker": "PEP",
+      "ssga_ticker": "PEP",
+      "weight_pct": 0.272085,
+      "id": "713448108"
+    },
+    {
+      "name": "CONOCOPHILLIPS",
+      "ticker": "COP",
+      "ssga_ticker": "COP",
+      "weight_pct": 0.266498,
+      "id": "20825C104"
+    },
+    {
+      "name": "MCDONALD S CORP",
+      "ticker": "MCD",
+      "ssga_ticker": "MCD",
+      "weight_pct": 0.260672,
+      "id": "580135101"
+    },
+    {
+      "name": "UNION PACIFIC CORP",
+      "ticker": "UNP",
+      "ssga_ticker": "UNP",
+      "weight_pct": 0.2602,
+      "id": "907818108"
+    },
+    {
+      "name": "WELLTOWER INC",
+      "ticker": "WELL",
+      "ssga_ticker": "WELL",
+      "weight_pct": 0.256299,
+      "id": "95040Q104"
+    },
+    {
+      "name": "PFIZER INC",
+      "ticker": "PFE",
+      "ssga_ticker": "PFE",
+      "weight_pct": 0.255505,
+      "id": "717081103"
+    },
+    {
+      "name": "NEXTERA ENERGY INC",
+      "ticker": "NEE",
+      "ssga_ticker": "NEE",
+      "weight_pct": 0.25233,
+      "id": "65339F101"
+    },
+    {
+      "name": "AMERICAN EXPRESS CO",
+      "ticker": "AXP",
+      "ssga_ticker": "AXP",
+      "weight_pct": 0.250102,
+      "id": "025816109"
+    },
+    {
+      "name": "BLACKROCK INC",
+      "ticker": "BLK",
+      "ssga_ticker": "BLK",
+      "weight_pct": 0.247355,
+      "id": "09290D101"
+    },
+    {
+      "name": "TJX COMPANIES INC",
+      "ticker": "TJX",
+      "ssga_ticker": "TJX",
+      "weight_pct": 0.24643,
+      "id": "872540109"
+    },
+    {
+      "name": "DEERE + CO",
+      "ticker": "DE",
+      "ssga_ticker": "DE",
+      "weight_pct": 0.244282,
+      "id": "244199105"
+    },
+    {
+      "name": "AT+T INC",
+      "ticker": "T",
+      "ssga_ticker": "T",
+      "weight_pct": 0.243515,
+      "id": "00206R102"
+    },
+    {
+      "name": "EATON CORP PLC",
+      "ticker": "ETN",
+      "ssga_ticker": "ETN",
+      "weight_pct": 0.23035,
+      "id": "G29183103"
+    },
+    {
+      "name": "INTUITIVE SURGICAL INC",
+      "ticker": "ISRG",
+      "ssga_ticker": "ISRG",
+      "weight_pct": 0.228236,
+      "id": "46120E602"
+    },
+    {
+      "name": "BOEING CO/THE",
+      "ticker": "BA",
+      "ssga_ticker": "BA",
+      "weight_pct": 0.227631,
+      "id": "097023105"
+    },
+    {
+      "name": "SCHWAB (CHARLES) CORP",
+      "ticker": "SCHW",
+      "ssga_ticker": "SCHW",
+      "weight_pct": 0.226667,
+      "id": "808513105"
+    },
+    {
+      "name": "SERVICENOW INC",
+      "ticker": "NOW",
+      "ssga_ticker": "NOW",
+      "weight_pct": 0.222241,
+      "id": "81762P102"
+    },
+    {
+      "name": "SEAGATE TECHNOLOGY HOLDINGS",
+      "ticker": "STX",
+      "ssga_ticker": "STX",
+      "weight_pct": 0.219289,
+      "id": "G7997R103"
+    },
+    {
+      "name": "UBER TECHNOLOGIES INC",
+      "ticker": "UBER",
+      "ssga_ticker": "UBER",
+      "weight_pct": 0.217571,
+      "id": "90353T100"
+    },
+    {
+      "name": "DANAHER CORP",
+      "ticker": "DHR",
+      "ssga_ticker": "DHR",
+      "weight_pct": 0.216981,
+      "id": "235851102"
+    },
+    {
+      "name": "ACCENTURE PLC CL A",
+      "ticker": "ACN",
+      "ssga_ticker": "ACN",
+      "weight_pct": 0.213152,
+      "id": "G1151C101"
+    },
+    {
+      "name": "DELL TECHNOLOGIES  C",
+      "ticker": "DELL",
+      "ssga_ticker": "DELL",
+      "weight_pct": 0.206761,
+      "id": "24703L202"
+    },
+    {
+      "name": "MARATHON PETROLEUM CORP",
+      "ticker": "MPC",
+      "ssga_ticker": "MPC",
+      "weight_pct": 0.203606,
+      "id": "56585A102"
+    },
+    {
+      "name": "S+P GLOBAL INC",
+      "ticker": "SPGI",
+      "ssga_ticker": "SPGI",
+      "weight_pct": 0.196475,
+      "id": "78409V104"
+    },
+    {
+      "name": "VALERO ENERGY CORP",
+      "ticker": "VLO",
+      "ssga_ticker": "VLO",
+      "weight_pct": 0.193865,
+      "id": "91913Y100"
+    },
+    {
+      "name": "PROGRESSIVE CORP",
+      "ticker": "PGR",
+      "ssga_ticker": "PGR",
+      "weight_pct": 0.192329,
+      "id": "743315103"
+    },
+    {
+      "name": "VERTEX PHARMACEUTICALS INC",
+      "ticker": "VRTX",
+      "ssga_ticker": "VRTX",
+      "weight_pct": 0.191781,
+      "id": "92532F100"
+    },
+    {
+      "name": "CHUBB LTD",
+      "ticker": "CB",
+      "ssga_ticker": "CB",
+      "weight_pct": 0.191578,
+      "id": "H1467J104"
+    },
+    {
+      "name": "ALTRIA GROUP INC",
+      "ticker": "MO",
+      "ssga_ticker": "MO",
+      "weight_pct": 0.190023,
+      "id": "02209S103"
+    },
+    {
+      "name": "NEWMONT CORP",
+      "ticker": "NEM",
+      "ssga_ticker": "NEM",
+      "weight_pct": 0.189033,
+      "id": "651639106"
+    },
+    {
+      "name": "CAPITAL ONE FINANCIAL CORP",
+      "ticker": "COF",
+      "ssga_ticker": "COF",
+      "weight_pct": 0.187709,
+      "id": "14040H105"
+    },
+    {
+      "name": "BOOKING HOLDINGS INC",
+      "ticker": "BKNG",
+      "ssga_ticker": "BKNG",
+      "weight_pct": 0.185769,
+      "id": "09857L108"
+    },
+    {
+      "name": "BRISTOL MYERS SQUIBB CO",
+      "ticker": "BMY",
+      "ssga_ticker": "BMY",
+      "weight_pct": 0.184894,
+      "id": "110122108"
+    },
+    {
+      "name": "PARKER HANNIFIN CORP",
+      "ticker": "PH",
+      "ssga_ticker": "PH",
+      "weight_pct": 0.184068,
+      "id": "701094104"
+    },
+    {
+      "name": "WESTERN DIGITAL CORP",
+      "ticker": "WDC",
+      "ssga_ticker": "WDC",
+      "weight_pct": 0.181236,
+      "id": "958102105"
+    },
+    {
+      "name": "PROLOGIS INC",
+      "ticker": "PLD",
+      "ssga_ticker": "PLD",
+      "weight_pct": 0.180945,
+      "id": "74340W103"
+    },
+    {
+      "name": "CVS HEALTH CORP",
+      "ticker": "CVS",
+      "ssga_ticker": "CVS",
+      "weight_pct": 0.178857,
+      "id": "126650100"
+    },
+    {
+      "name": "MCKESSON CORP",
+      "ticker": "MCK",
+      "ssga_ticker": "MCK",
+      "weight_pct": 0.177695,
+      "id": "58155Q103"
+    },
+    {
+      "name": "PHILLIPS 66",
+      "ticker": "PSX",
+      "ssga_ticker": "PSX",
+      "weight_pct": 0.176927,
+      "id": "718546104"
+    },
+    {
+      "name": "MEDTRONIC PLC",
+      "ticker": "MDT",
+      "ssga_ticker": "MDT",
+      "weight_pct": 0.176016,
+      "id": "G5960L103"
+    },
+    {
+      "name": "AUTOMATIC DATA PROCESSING",
+      "ticker": "ADP",
+      "ssga_ticker": "ADP",
+      "weight_pct": 0.173785,
+      "id": "053015103"
+    },
+    {
+      "name": "LOCKHEED MARTIN CORP",
+      "ticker": "LMT",
+      "ssga_ticker": "LMT",
+      "weight_pct": 0.169837,
+      "id": "539830109"
+    },
+    {
+      "name": "STARBUCKS CORP",
+      "ticker": "SBUX",
+      "ssga_ticker": "SBUX",
+      "weight_pct": 0.168408,
+      "id": "855244109"
+    },
+    {
+      "name": "LOWE S COS INC",
+      "ticker": "LOW",
+      "ssga_ticker": "LOW",
+      "weight_pct": 0.167507,
+      "id": "548661107"
+    },
+    {
+      "name": "CME GROUP INC",
+      "ticker": "CME",
+      "ssga_ticker": "CME",
+      "weight_pct": 0.159791,
+      "id": "12572Q105"
+    },
+    {
+      "name": "SOUTHERN CO/THE",
+      "ticker": "SO",
+      "ssga_ticker": "SO",
+      "weight_pct": 0.158817,
+      "id": "842587107"
+    },
+    {
+      "name": "CORNING INC",
+      "ticker": "GLW",
+      "ssga_ticker": "GLW",
+      "weight_pct": 0.158387,
+      "id": "219350105"
+    },
+    {
+      "name": "FORTINET INC",
+      "ticker": "FTNT",
+      "ssga_ticker": "FTNT",
+      "weight_pct": 0.157826,
+      "id": "34959E109"
+    },
+    {
+      "name": "STRYKER CORP",
+      "ticker": "SYK",
+      "ssga_ticker": "SYK",
+      "weight_pct": 0.155736,
+      "id": "863667101"
+    },
+    {
+      "name": "TRANE TECHNOLOGIES PLC",
+      "ticker": "TT",
+      "ssga_ticker": "TT",
+      "weight_pct": 0.153159,
+      "id": "G8994E103"
+    },
+    {
+      "name": "FREEPORT MCMORAN INC",
+      "ticker": "FCX",
+      "ssga_ticker": "FCX",
+      "weight_pct": 0.151012,
+      "id": "35671D857"
+    },
+    {
+      "name": "EQUINIX INC",
+      "ticker": "EQIX",
+      "ssga_ticker": "EQIX",
+      "weight_pct": 0.147502,
+      "id": "29444U700"
+    },
+    {
+      "name": "ADOBE INC",
+      "ticker": "ADBE",
+      "ssga_ticker": "ADBE",
+      "weight_pct": 0.147395,
+      "id": "00724F101"
+    },
+    {
+      "name": "BANK OF NEW YORK MELLON CORP",
+      "ticker": "BNY",
+      "ssga_ticker": "BNY",
+      "weight_pct": 0.147035,
+      "id": "064058100"
+    },
+    {
+      "name": "QUANTA SERVICES INC",
+      "ticker": "PWR",
+      "ssga_ticker": "PWR",
+      "weight_pct": 0.144104,
+      "id": "74762E102"
+    },
+    {
+      "name": "DUKE ENERGY CORP",
+      "ticker": "DUK",
+      "ssga_ticker": "DUK",
+      "weight_pct": 0.143444,
+      "id": "26441C204"
+    },
+    {
+      "name": "ELEVANCE HEALTH INC",
+      "ticker": "ELV",
+      "ssga_ticker": "ELV",
+      "weight_pct": 0.140414,
+      "id": "036752103"
+    },
+    {
+      "name": "US BANCORP",
+      "ticker": "USB",
+      "ssga_ticker": "USB",
+      "weight_pct": 0.13855,
+      "id": "902973304"
+    },
+    {
+      "name": "INTERCONTINENTAL EXCHANGE IN",
+      "ticker": "ICE",
+      "ssga_ticker": "ICE",
+      "weight_pct": 0.137327,
+      "id": "45866F104"
+    },
+    {
+      "name": "EMERSON ELECTRIC CO",
+      "ticker": "EMR",
+      "ssga_ticker": "EMR",
+      "weight_pct": 0.136656,
+      "id": "291011104"
+    },
+    {
+      "name": "CSX CORP",
+      "ticker": "CSX",
+      "ssga_ticker": "CSX",
+      "weight_pct": 0.136346,
+      "id": "126408103"
+    },
+    {
+      "name": "MARSH + MCLENNAN COS",
+      "ticker": "MRSH",
+      "ssga_ticker": "MRSH",
+      "weight_pct": 0.136096,
+      "id": "571748102"
+    },
+    {
+      "name": "CONSTELLATION ENERGY",
+      "ticker": "CEG",
+      "ssga_ticker": "CEG",
+      "weight_pct": 0.135389,
+      "id": "21037T109"
+    },
+    {
+      "name": "INTUIT INC",
+      "ticker": "INTU",
+      "ssga_ticker": "INTU",
+      "weight_pct": 0.134464,
+      "id": "461202103"
+    },
+    {
+      "name": "JOHNSON CONTROLS INTERNATION",
+      "ticker": "JCI",
+      "ssga_ticker": "JCI",
+      "weight_pct": 0.133687,
+      "id": "G51502105"
+    },
+    {
+      "name": "HOWMET AEROSPACE INC",
+      "ticker": "HWM",
+      "ssga_ticker": "HWM",
+      "weight_pct": 0.133233,
+      "id": "443201108"
+    },
+    {
+      "name": "CADENCE DESIGN SYS INC",
+      "ticker": "CDNS",
+      "ssga_ticker": "CDNS",
+      "weight_pct": 0.133223,
+      "id": "127387108"
+    },
+    {
+      "name": "GENERAL DYNAMICS CORP",
+      "ticker": "GD",
+      "ssga_ticker": "GD",
+      "weight_pct": 0.132661,
+      "id": "369550108"
+    },
+    {
+      "name": "WILLIAMS COS INC",
+      "ticker": "WMB",
+      "ssga_ticker": "WMB",
+      "weight_pct": 0.132134,
+      "id": "969457100"
+    },
+    {
+      "name": "SYNOPSYS INC",
+      "ticker": "SNPS",
+      "ssga_ticker": "SNPS",
+      "weight_pct": 0.131819,
+      "id": "871607107"
+    },
+    {
+      "name": "PNC FINANCIAL SERVICES GROUP",
+      "ticker": "PNC",
+      "ssga_ticker": "PNC",
+      "weight_pct": 0.131323,
+      "id": "693475105"
+    },
+    {
+      "name": "AMERICAN TOWER CORP",
+      "ticker": "AMT",
+      "ssga_ticker": "AMT",
+      "weight_pct": 0.131045,
+      "id": "03027X100"
+    },
+    {
+      "name": "3M CO",
+      "ticker": "MMM",
+      "ssga_ticker": "MMM",
+      "weight_pct": 0.128455,
+      "id": "88579Y101"
+    },
+    {
+      "name": "WASTE MANAGEMENT INC",
+      "ticker": "WM",
+      "ssga_ticker": "WM",
+      "weight_pct": 0.127691,
+      "id": "94106L109"
+    },
+    {
+      "name": "EOG RESOURCES INC",
+      "ticker": "EOG",
+      "ssga_ticker": "EOG",
+      "weight_pct": 0.125489,
+      "id": "26875P101"
+    },
+    {
+      "name": "MARRIOTT INTERNATIONAL  CL A",
+      "ticker": "MAR",
+      "ssga_ticker": "MAR",
+      "weight_pct": 0.125426,
+      "id": "571903202"
+    },
+    {
+      "name": "DATADOG INC   CLASS A",
+      "ticker": "DDOG",
+      "ssga_ticker": "DDOG",
+      "weight_pct": 0.125314,
+      "id": "23804L103"
+    },
+    {
+      "name": "MONDELEZ INTERNATIONAL INC A",
+      "ticker": "MDLZ",
+      "ssga_ticker": "MDLZ",
+      "weight_pct": 0.123308,
+      "id": "609207105"
+    },
+    {
+      "name": "TRAVELERS COS INC/THE",
+      "ticker": "TRV",
+      "ssga_ticker": "TRV",
+      "weight_pct": 0.122838,
+      "id": "89417E109"
+    },
+    {
+      "name": "MODERNA INC",
+      "ticker": "MRNA",
+      "ssga_ticker": "MRNA",
+      "weight_pct": 0.122567,
+      "id": "60770K107"
+    },
+    {
+      "name": "BLACKSTONE INC",
+      "ticker": "BX",
+      "ssga_ticker": "BX",
+      "weight_pct": 0.121168,
+      "id": "09260D107"
+    },
+    {
+      "name": "THE CIGNA GROUP",
+      "ticker": "CI",
+      "ssga_ticker": "CI",
+      "weight_pct": 0.120955,
+      "id": "125523100"
+    },
+    {
+      "name": "VERTIV HOLDINGS CO A",
+      "ticker": "VRT",
+      "ssga_ticker": "VRT",
+      "weight_pct": 0.120331,
+      "id": "92537N108"
+    },
+    {
+      "name": "ROBINHOOD MARKETS INC   A",
+      "ticker": "HOOD",
+      "ssga_ticker": "HOOD",
+      "weight_pct": 0.118485,
+      "id": "770700102"
+    },
+    {
+      "name": "HILTON WORLDWIDE HOLDINGS IN",
+      "ticker": "HLT",
+      "ssga_ticker": "HLT",
+      "weight_pct": 0.117387,
+      "id": "43300A203"
+    },
+    {
+      "name": "REGENERON PHARMACEUTICALS",
+      "ticker": "REGN",
+      "ssga_ticker": "REGN",
+      "weight_pct": 0.117209,
+      "id": "75886F107"
+    },
+    {
+      "name": "COMCAST CORP CLASS A",
+      "ticker": "CMCSA",
+      "ssga_ticker": "CMCSA",
+      "weight_pct": 0.117174,
+      "id": "20030N101"
+    },
+    {
+      "name": "T MOBILE US INC",
+      "ticker": "TMUS",
+      "ssga_ticker": "TMUS",
+      "weight_pct": 0.116281,
+      "id": "872590104"
+    },
+    {
+      "name": "MOTOROLA SOLUTIONS INC",
+      "ticker": "MSI",
+      "ssga_ticker": "MSI",
+      "weight_pct": 0.115875,
+      "id": "620076307"
+    },
+    {
+      "name": "SHERWIN WILLIAMS CO/THE",
+      "ticker": "SHW",
+      "ssga_ticker": "SHW",
+      "weight_pct": 0.115618,
+      "id": "824348106"
+    },
+    {
+      "name": "ROSS STORES INC",
+      "ticker": "ROST",
+      "ssga_ticker": "ROST",
+      "weight_pct": 0.114856,
+      "id": "778296103"
+    },
+    {
+      "name": "COLGATE PALMOLIVE CO",
+      "ticker": "CL",
+      "ssga_ticker": "CL",
+      "weight_pct": 0.113594,
+      "id": "194162103"
+    },
+    {
+      "name": "GENERAL MOTORS CO",
+      "ticker": "GM",
+      "ssga_ticker": "GM",
+      "weight_pct": 0.111359,
+      "id": "37045V100"
+    },
+    {
+      "name": "CINTAS CORP",
+      "ticker": "CTAS",
+      "ssga_ticker": "CTAS",
+      "weight_pct": 0.111352,
+      "id": "172908105"
+    },
+    {
+      "name": "NORFOLK SOUTHERN CORP",
+      "ticker": "NSC",
+      "ssga_ticker": "NSC",
+      "weight_pct": 0.111224,
+      "id": "655844108"
+    },
+    {
+      "name": "SLB LTD",
+      "ticker": "SLB",
+      "ssga_ticker": "SLB",
+      "weight_pct": 0.111053,
+      "id": "806857108"
+    },
+    {
+      "name": "HEWLETT PACKARD ENTERPRISE",
+      "ticker": "HPE",
+      "ssga_ticker": "HPE",
+      "weight_pct": 0.11076,
+      "id": "42824C109"
+    },
+    {
+      "name": "CUMMINS INC",
+      "ticker": "CMI",
+      "ssga_ticker": "CMI",
+      "weight_pct": 0.110575,
+      "id": "231021106"
+    },
+    {
+      "name": "LUMENTUM HOLDINGS INC",
+      "ticker": "LITE",
+      "ssga_ticker": "LITE",
+      "weight_pct": 0.110544,
+      "id": "55024U109"
+    },
+    {
+      "name": "UNITED PARCEL SERVICE CL B",
+      "ticker": "UPS",
+      "ssga_ticker": "UPS",
+      "weight_pct": 0.110513,
+      "id": "911312106"
+    },
+    {
+      "name": "AIRBNB INC CLASS A",
+      "ticker": "ABNB",
+      "ssga_ticker": "ABNB",
+      "weight_pct": 0.110228,
+      "id": "009066101"
+    },
+    {
+      "name": "ECOLAB INC",
+      "ticker": "ECL",
+      "ssga_ticker": "ECL",
+      "weight_pct": 0.110158,
+      "id": "278865100"
+    },
+    {
+      "name": "MOODY S CORP",
+      "ticker": "MCO",
+      "ssga_ticker": "MCO",
+      "weight_pct": 0.109383,
+      "id": "615369105"
+    },
+    {
+      "name": "O REILLY AUTOMOTIVE INC",
+      "ticker": "ORLY",
+      "ssga_ticker": "ORLY",
+      "weight_pct": 0.109347,
+      "id": "67103H107"
+    },
+    {
+      "name": "APPLOVIN CORP CLASS A",
+      "ticker": "APP",
+      "ssga_ticker": "APP",
+      "weight_pct": 0.109191,
+      "id": "03831W108"
+    },
+    {
+      "name": "DOORDASH INC   A",
+      "ticker": "DASH",
+      "ssga_ticker": "DASH",
+      "weight_pct": 0.107762,
+      "id": "25809K105"
+    },
+    {
+      "name": "ILLINOIS TOOL WORKS",
+      "ticker": "ITW",
+      "ssga_ticker": "ITW",
+      "weight_pct": 0.106851,
+      "id": "452308109"
+    },
+    {
+      "name": "TARGET CORP",
+      "ticker": "TGT",
+      "ssga_ticker": "TGT",
+      "weight_pct": 0.106185,
+      "id": "87612E106"
+    },
+    {
+      "name": "NORTHROP GRUMMAN CORP",
+      "ticker": "NOC",
+      "ssga_ticker": "NOC",
+      "weight_pct": 0.105364,
+      "id": "666807102"
+    },
+    {
+      "name": "AMERICAN ELECTRIC POWER",
+      "ticker": "AEP",
+      "ssga_ticker": "AEP",
+      "weight_pct": 0.105033,
+      "id": "025537101"
+    },
+    {
+      "name": "ROYAL CARIBBEAN CRUISES LTD",
+      "ticker": "RCL",
+      "ssga_ticker": "RCL",
+      "weight_pct": 0.104368,
+      "id": "V7780T103"
+    },
+    {
+      "name": "HCA HEALTHCARE INC",
+      "ticker": "HCA",
+      "ssga_ticker": "HCA",
+      "weight_pct": 0.102276,
+      "id": "40412C101"
+    },
+    {
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "ticker": "HON",
+      "ssga_ticker": "HON",
+      "weight_pct": 0.1017,
+      "id": "438516205"
+    },
+    {
+      "name": "KINDER MORGAN INC",
+      "ticker": "KMI",
+      "ssga_ticker": "KMI",
+      "weight_pct": 0.101665,
+      "id": "49456B101"
+    },
+    {
+      "name": "AIR PRODUCTS + CHEMICALS INC",
+      "ticker": "APD",
+      "ssga_ticker": "APD",
+      "weight_pct": 0.101329,
+      "id": "009158106"
+    },
+    {
+      "name": "SIMON PROPERTY GROUP INC",
+      "ticker": "SPG",
+      "ssga_ticker": "SPG",
+      "weight_pct": 0.100643,
+      "id": "828806109"
+    },
+    {
+      "name": "MONSTER BEVERAGE CORP",
+      "ticker": "MNST",
+      "ssga_ticker": "MNST",
+      "weight_pct": 0.099094,
+      "id": "61174X109"
+    },
+    {
+      "name": "ARTHUR J GALLAGHER + CO",
+      "ticker": "AJG",
+      "ssga_ticker": "AJG",
+      "weight_pct": 0.098909,
+      "id": "363576109"
+    },
+    {
+      "name": "BLOOM ENERGY CORP  A",
+      "ticker": "BE",
+      "ssga_ticker": "BE",
+      "weight_pct": 0.09869,
+      "id": "093712107"
+    },
+    {
+      "name": "CENCORA INC",
+      "ticker": "COR",
+      "ssga_ticker": "COR",
+      "weight_pct": 0.098495,
+      "id": "03073E105"
+    },
+    {
+      "name": "FEDEX CORP",
+      "ticker": "FDX",
+      "ssga_ticker": "FDX",
+      "weight_pct": 0.097836,
+      "id": "31428X106"
+    },
+    {
+      "name": "BOSTON SCIENTIFIC CORP",
+      "ticker": "BSX",
+      "ssga_ticker": "BSX",
+      "weight_pct": 0.09721,
+      "id": "101137107"
+    },
+    {
+      "name": "UNITED RENTALS INC",
+      "ticker": "URI",
+      "ssga_ticker": "URI",
+      "weight_pct": 0.097037,
+      "id": "911363109"
+    },
+    {
+      "name": "TARGA RESOURCES CORP",
+      "ticker": "TRGP",
+      "ssga_ticker": "TRGP",
+      "weight_pct": 0.095746,
+      "id": "87612G101"
+    },
+    {
+      "name": "TRANSDIGM GROUP INC",
+      "ticker": "TDG",
+      "ssga_ticker": "TDG",
+      "weight_pct": 0.095159,
+      "id": "893641100"
+    },
+    {
+      "name": "ALLSTATE CORP",
+      "ticker": "ALL",
+      "ssga_ticker": "ALL",
+      "weight_pct": 0.094711,
+      "id": "020002101"
+    },
+    {
+      "name": "AON PLC CLASS A",
+      "ticker": "AON",
+      "ssga_ticker": "AON",
+      "weight_pct": 0.093782,
+      "id": "G0403H108"
+    },
+    {
+      "name": "DIGITAL REALTY TRUST INC",
+      "ticker": "DLR",
+      "ssga_ticker": "DLR",
+      "weight_pct": 0.09366,
+      "id": "253868103"
+    },
+    {
+      "name": "TE CONNECTIVITY PLC",
+      "ticker": "TEL",
+      "ssga_ticker": "TEL",
+      "weight_pct": 0.093205,
+      "id": "G87052109"
+    },
+    {
+      "name": "KKR + CO INC",
+      "ticker": "KKR",
+      "ssga_ticker": "KKR",
+      "weight_pct": 0.090496,
+      "id": "48251W104"
+    },
+    {
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "ticker": "MPWR",
+      "ssga_ticker": "MPWR",
+      "weight_pct": 0.090258,
+      "id": "609839105"
+    },
+    {
+      "name": "ONEOK INC",
+      "ticker": "OKE",
+      "ssga_ticker": "OKE",
+      "weight_pct": 0.089256,
+      "id": "30609A109"
+    },
+    {
+      "name": "CARDINAL HEALTH INC",
+      "ticker": "CAH",
+      "ssga_ticker": "CAH",
+      "weight_pct": 0.08924,
+      "id": "14149Y108"
+    },
+    {
+      "name": "FASTENAL CO",
+      "ticker": "FAST",
+      "ssga_ticker": "FAST",
+      "weight_pct": 0.088927,
+      "id": "311900104"
+    },
+    {
+      "name": "PACCAR INC",
+      "ticker": "PCAR",
+      "ssga_ticker": "PCAR",
+      "weight_pct": 0.088547,
+      "id": "693718108"
+    },
+    {
+      "name": "NUCOR CORP",
+      "ticker": "NUE",
+      "ssga_ticker": "NUE",
+      "weight_pct": 0.087851,
+      "id": "670346105"
+    },
+    {
+      "name": "NXP SEMICONDUCTORS NV",
+      "ticker": "NXPI",
+      "ssga_ticker": "NXPI",
+      "weight_pct": 0.087566,
+      "id": "N6596X109"
+    },
+    {
+      "name": "WW GRAINGER INC",
+      "ticker": "GWW",
+      "ssga_ticker": "GWW",
+      "weight_pct": 0.087303,
+      "id": "384802104"
+    },
+    {
+      "name": "TRUIST FINANCIAL CORP",
+      "ticker": "TFC",
+      "ssga_ticker": "TFC",
+      "weight_pct": 0.086877,
+      "id": "89832Q109"
+    },
+    {
+      "name": "AMETEK INC",
+      "ticker": "AME",
+      "ssga_ticker": "AME",
+      "weight_pct": 0.086369,
+      "id": "031100100"
+    },
+    {
+      "name": "KEYSIGHT TECHNOLOGIES IN",
+      "ticker": "KEYS",
+      "ssga_ticker": "KEYS",
+      "weight_pct": 0.086041,
+      "id": "49338L103"
+    },
+    {
+      "name": "DOMINION ENERGY INC",
+      "ticker": "D",
+      "ssga_ticker": "D",
+      "weight_pct": 0.084874,
+      "id": "25746U109"
+    },
+    {
+      "name": "DEVON ENERGY CORP",
+      "ticker": "DVN",
+      "ssga_ticker": "DVN",
+      "weight_pct": 0.084293,
+      "id": "25179M103"
+    },
+    {
+      "name": "CRH PLC",
+      "ticker": "CRH",
+      "ssga_ticker": "CRH",
+      "weight_pct": 0.084058,
+      "id": "G25508105"
+    },
+    {
+      "name": "BAKER HUGHES CO",
+      "ticker": "BKR",
+      "ssga_ticker": "BKR",
+      "weight_pct": 0.083916,
+      "id": "05722G100"
+    },
+    {
+      "name": "SEMPRA",
+      "ticker": "SRE",
+      "ssga_ticker": "SRE",
+      "weight_pct": 0.082789,
+      "id": "816851109"
+    },
+    {
+      "name": "METLIFE INC",
+      "ticker": "MET",
+      "ssga_ticker": "MET",
+      "weight_pct": 0.081241,
+      "id": "59156R108"
+    },
+    {
+      "name": "AFLAC INC",
+      "ticker": "AFL",
+      "ssga_ticker": "AFL",
+      "weight_pct": 0.081053,
+      "id": "001055102"
+    },
+    {
+      "name": "HONEYWELL AEROSPACE INC",
+      "ticker": "HONA",
+      "ssga_ticker": "HONA",
+      "weight_pct": 0.080861,
+      "id": "43849R105"
+    },
+    {
+      "name": "REALTY INCOME CORP",
+      "ticker": "O",
+      "ssga_ticker": "O",
+      "weight_pct": 0.080346,
+      "id": "756109104"
+    },
+    {
+      "name": "APOLLO GLOBAL MANAGEMENT INC",
+      "ticker": "APO",
+      "ssga_ticker": "APO",
+      "weight_pct": 0.079243,
+      "id": "03769M106"
+    },
+    {
+      "name": "BECTON DICKINSON AND CO",
+      "ticker": "BDX",
+      "ssga_ticker": "BDX",
+      "weight_pct": 0.078879,
+      "id": "075887109"
+    },
+    {
+      "name": "TERADYNE INC",
+      "ticker": "TER",
+      "ssga_ticker": "TER",
+      "weight_pct": 0.077197,
+      "id": "880770102"
+    },
+    {
+      "name": "AUTOZONE INC",
+      "ticker": "AZO",
+      "ssga_ticker": "AZO",
+      "weight_pct": 0.077016,
+      "id": "053332102"
+    },
+    {
+      "name": "AUTODESK INC",
+      "ticker": "ADSK",
+      "ssga_ticker": "ADSK",
+      "weight_pct": 0.076902,
+      "id": "052769106"
+    },
+    {
+      "name": "COMFORT SYSTEMS USA INC",
+      "ticker": "FIX",
+      "ssga_ticker": "FIX",
+      "weight_pct": 0.076728,
+      "id": "199908104"
+    },
+    {
+      "name": "PUBLIC STORAGE",
+      "ticker": "PSA",
+      "ssga_ticker": "PSA",
+      "weight_pct": 0.075964,
+      "id": "74460D109"
+    },
+    {
+      "name": "EDWARDS LIFESCIENCES CORP",
+      "ticker": "EW",
+      "ssga_ticker": "EW",
+      "weight_pct": 0.075714,
+      "id": "28176E108"
+    },
+    {
+      "name": "HUMANA INC",
+      "ticker": "HUM",
+      "ssga_ticker": "HUM",
+      "weight_pct": 0.075307,
+      "id": "444859102"
+    },
+    {
+      "name": "ENTERGY CORP",
+      "ticker": "ETR",
+      "ssga_ticker": "ETR",
+      "weight_pct": 0.074267,
+      "id": "29364G103"
+    },
+    {
+      "name": "AGILENT TECHNOLOGIES INC",
+      "ticker": "A",
+      "ssga_ticker": "A",
+      "weight_pct": 0.074212,
+      "id": "00846U101"
+    },
+    {
+      "name": "FORD MOTOR CO",
+      "ticker": "F",
+      "ssga_ticker": "F",
+      "weight_pct": 0.073866,
+      "id": "345370860"
+    },
+    {
+      "name": "VYLOR INC",
+      "ticker": "VYLR",
+      "ssga_ticker": "VYLR",
+      "weight_pct": 0.073393,
+      "id": "92892R108"
+    },
+    {
+      "name": "PAYPAL HOLDINGS INC",
+      "ticker": "PYPL",
+      "ssga_ticker": "PYPL",
+      "weight_pct": 0.073235,
+      "id": "70450Y103"
+    },
+    {
+      "name": "WABTEC CORP",
+      "ticker": "WAB",
+      "ssga_ticker": "WAB",
+      "weight_pct": 0.073166,
+      "id": "929740108"
+    },
+    {
+      "name": "EBAY INC",
+      "ticker": "EBAY",
+      "ssga_ticker": "EBAY",
+      "weight_pct": 0.072937,
+      "id": "278642103"
+    },
+    {
+      "name": "VISTRA CORP",
+      "ticker": "VST",
+      "ssga_ticker": "VST",
+      "weight_pct": 0.072615,
+      "id": "92840M102"
+    },
+    {
+      "name": "XCEL ENERGY INC",
+      "ticker": "XEL",
+      "ssga_ticker": "XEL",
+      "weight_pct": 0.072334,
+      "id": "98389B100"
+    },
+    {
+      "name": "ROCKWELL AUTOMATION INC",
+      "ticker": "ROK",
+      "ssga_ticker": "ROK",
+      "weight_pct": 0.071988,
+      "id": "773903109"
+    },
+    {
+      "name": "GARMIN LTD",
+      "ticker": "GRMN",
+      "ssga_ticker": "GRMN",
+      "weight_pct": 0.071521,
+      "id": "H2906T109"
+    },
+    {
+      "name": "KEURIG DR PEPPER INC",
+      "ticker": "KDP",
+      "ssga_ticker": "KDP",
+      "weight_pct": 0.071516,
+      "id": "49271V100"
+    },
+    {
+      "name": "CIENA CORP",
+      "ticker": "CIEN",
+      "ssga_ticker": "CIEN",
+      "weight_pct": 0.071277,
+      "id": "171779309"
+    },
+    {
+      "name": "L3HARRIS TECHNOLOGIES INC",
+      "ticker": "LHX",
+      "ssga_ticker": "LHX",
+      "weight_pct": 0.070297,
+      "id": "502431109"
+    },
+    {
+      "name": "VEEVA SYSTEMS INC CLASS A",
+      "ticker": "VEEV",
+      "ssga_ticker": "VEEV",
+      "weight_pct": 0.070218,
+      "id": "922475108"
+    },
+    {
+      "name": "COHERENT CORP",
+      "ticker": "COHR",
+      "ssga_ticker": "COHR",
+      "weight_pct": 0.069173,
+      "id": "19247G107"
+    },
+    {
+      "name": "FIFTH THIRD BANCORP",
+      "ticker": "FITB",
+      "ssga_ticker": "FITB",
+      "weight_pct": 0.069145,
+      "id": "316773100"
+    },
+    {
+      "name": "OCCIDENTAL PETROLEUM CORP",
+      "ticker": "OXY",
+      "ssga_ticker": "OXY",
+      "weight_pct": 0.068784,
+      "id": "674599105"
+    },
+    {
+      "name": "STATE STREET CORP",
+      "ticker": "STT",
+      "ssga_ticker": "STT",
+      "weight_pct": 0.068758,
+      "id": "857477103"
+    },
+    {
+      "name": "CARRIER GLOBAL CORP",
+      "ticker": "CARR",
+      "ssga_ticker": "CARR",
+      "weight_pct": 0.068647,
+      "id": "14448C104"
+    },
+    {
+      "name": "REPUBLIC SERVICES INC",
+      "ticker": "RSG",
+      "ssga_ticker": "RSG",
+      "weight_pct": 0.068497,
+      "id": "760759100"
+    },
+    {
+      "name": "EXELON CORP",
+      "ticker": "EXC",
+      "ssga_ticker": "EXC",
+      "weight_pct": 0.06799,
+      "id": "30161N101"
+    },
+    {
+      "name": "FERGUSON ENTERPRISES INC",
+      "ticker": "FERG",
+      "ssga_ticker": "FERG",
+      "weight_pct": 0.067841,
+      "id": "31488V107"
+    },
+    {
+      "name": "DELTA AIR LINES INC",
+      "ticker": "DAL",
+      "ssga_ticker": "DAL",
+      "weight_pct": 0.067742,
+      "id": "247361702"
+    },
+    {
+      "name": "NIKE INC  CL B",
+      "ticker": "NKE",
+      "ssga_ticker": "NKE",
+      "weight_pct": 0.067628,
+      "id": "654106103"
+    },
+    {
+      "name": "IDEXX LABORATORIES INC",
+      "ticker": "IDXX",
+      "ssga_ticker": "IDXX",
+      "weight_pct": 0.067136,
+      "id": "45168D104"
+    },
+    {
+      "name": "AMERIPRISE FINANCIAL INC",
+      "ticker": "AMP",
+      "ssga_ticker": "AMP",
+      "weight_pct": 0.066801,
+      "id": "03076C106"
+    },
+    {
+      "name": "VENTAS INC",
+      "ticker": "VTR",
+      "ssga_ticker": "VTR",
+      "weight_pct": 0.066684,
+      "id": "92276F100"
+    },
+    {
+      "name": "VIVMARK RESIDENTIAL",
+      "ticker": "VMRK",
+      "ssga_ticker": "VMRK",
+      "weight_pct": 0.066561,
+      "id": "29476L107"
+    },
+    {
+      "name": "IQVIA HOLDINGS INC",
+      "ticker": "IQV",
+      "ssga_ticker": "IQV",
+      "weight_pct": 0.066324,
+      "id": "46266C105"
+    },
+    {
+      "name": "WATERS CORP",
+      "ticker": "WAT",
+      "ssga_ticker": "WAT",
+      "weight_pct": 0.06506,
+      "id": "941848103"
+    },
+    {
+      "name": "CARVANA CO",
+      "ticker": "CVNA",
+      "ssga_ticker": "CVNA",
+      "weight_pct": 0.063988,
+      "id": "146869102"
+    },
+    {
+      "name": "AMERICAN INTERNATIONAL GROUP",
+      "ticker": "AIG",
+      "ssga_ticker": "AIG",
+      "weight_pct": 0.063922,
+      "id": "026874784"
+    },
+    {
+      "name": "BLOCK INC",
+      "ticker": "XYZ",
+      "ssga_ticker": "XYZ",
+      "weight_pct": 0.063784,
+      "id": "852234103"
+    },
+    {
+      "name": "DIAMONDBACK ENERGY INC",
+      "ticker": "FANG",
+      "ssga_ticker": "FANG",
+      "weight_pct": 0.063123,
+      "id": "25278X109"
+    },
+    {
+      "name": "MSCI INC",
+      "ticker": "MSCI",
+      "ssga_ticker": "MSCI",
+      "weight_pct": 0.062892,
+      "id": "55354G100"
+    },
+    {
+      "name": "CONSOLIDATED EDISON INC",
+      "ticker": "ED",
+      "ssga_ticker": "ED",
+      "weight_pct": 0.062833,
+      "id": "209115104"
+    },
+    {
+      "name": "NASDAQ INC",
+      "ticker": "NDAQ",
+      "ssga_ticker": "NDAQ",
+      "weight_pct": 0.062828,
+      "id": "631103108"
+    },
+    {
+      "name": "EVERPURE INC A",
+      "ticker": "P",
+      "ssga_ticker": "P",
+      "weight_pct": 0.062413,
+      "id": "74624M102"
+    },
+    {
+      "name": "YUM  BRANDS INC",
+      "ticker": "YUM",
+      "ssga_ticker": "YUM",
+      "weight_pct": 0.062194,
+      "id": "988498101"
+    },
+    {
+      "name": "MICROCHIP TECHNOLOGY INC",
+      "ticker": "MCHP",
+      "ssga_ticker": "MCHP",
+      "weight_pct": 0.060689,
+      "id": "595017104"
+    },
+    {
+      "name": "NETAPP INC",
+      "ticker": "NTAP",
+      "ssga_ticker": "NTAP",
+      "weight_pct": 0.060546,
+      "id": "64110D104"
+    },
+    {
+      "name": "ARCHER DANIELS MIDLAND CO",
+      "ticker": "ADM",
+      "ssga_ticker": "ADM",
+      "weight_pct": 0.060448,
+      "id": "039483102"
+    },
+    {
+      "name": "PRUDENTIAL FINANCIAL INC",
+      "ticker": "PRU",
+      "ssga_ticker": "PRU",
+      "weight_pct": 0.060357,
+      "id": "744320102"
+    },
+    {
+      "name": "ILLUMINA INC",
+      "ticker": "ILMN",
+      "ssga_ticker": "ILMN",
+      "weight_pct": 0.06002,
+      "id": "452327109"
+    },
+    {
+      "name": "SYSCO CORP",
+      "ticker": "SYY",
+      "ssga_ticker": "SYY",
+      "weight_pct": 0.059695,
+      "id": "871829107"
+    },
+    {
+      "name": "COINBASE GLOBAL INC  CLASS A",
+      "ticker": "COIN",
+      "ssga_ticker": "COIN",
+      "weight_pct": 0.058482,
+      "id": "19260Q107"
+    },
+    {
+      "name": "WORKDAY INC CLASS A",
+      "ticker": "WDAY",
+      "ssga_ticker": "WDAY",
+      "weight_pct": 0.057884,
+      "id": "98138H101"
+    },
+    {
+      "name": "ROPER TECHNOLOGIES INC",
+      "ticker": "ROP",
+      "ssga_ticker": "ROP",
+      "weight_pct": 0.057305,
+      "id": "776696106"
+    },
+    {
+      "name": "CBRE GROUP INC   A",
+      "ticker": "CBRE",
+      "ssga_ticker": "CBRE",
+      "weight_pct": 0.057243,
+      "id": "12504L109"
+    },
+    {
+      "name": "TWILIO INC   A",
+      "ticker": "TWLO",
+      "ssga_ticker": "TWLO",
+      "weight_pct": 0.057141,
+      "id": "90138F102"
+    },
+    {
+      "name": "CHIPOTLE MEXICAN GRILL INC",
+      "ticker": "CMG",
+      "ssga_ticker": "CMG",
+      "weight_pct": 0.057097,
+      "id": "169656105"
+    },
+    {
+      "name": "INTERACTIVE BROKERS GRO CL A",
+      "ticker": "IBKR",
+      "ssga_ticker": "IBKR",
+      "weight_pct": 0.056728,
+      "id": "45841N107"
+    },
+    {
+      "name": "HARTFORD INSURANCE GROUP INC",
+      "ticker": "HIG",
+      "ssga_ticker": "HIG",
+      "weight_pct": 0.055227,
+      "id": "416515104"
+    },
+    {
+      "name": "KENVUE INC",
+      "ticker": "KVUE",
+      "ssga_ticker": "KVUE",
+      "weight_pct": 0.055126,
+      "id": "49177J102"
+    },
+    {
+      "name": "KROGER CO",
+      "ticker": "KR",
+      "ssga_ticker": "KR",
+      "weight_pct": 0.05481,
+      "id": "501044101"
+    },
+    {
+      "name": "TAKE TWO INTERACTIVE SOFTWRE",
+      "ticker": "TTWO",
+      "ssga_ticker": "TTWO",
+      "weight_pct": 0.054637,
+      "id": "874054109"
+    },
+    {
+      "name": "PUBLIC SERVICE ENTERPRISE GP",
+      "ticker": "PEG",
+      "ssga_ticker": "PEG",
+      "weight_pct": 0.054088,
+      "id": "744573106"
+    },
+    {
+      "name": "PAYCHEX INC",
+      "ticker": "PAYX",
+      "ssga_ticker": "PAYX",
+      "weight_pct": 0.053922,
+      "id": "704326107"
+    },
+    {
+      "name": "WEC ENERGY GROUP INC",
+      "ticker": "WEC",
+      "ssga_ticker": "WEC",
+      "weight_pct": 0.053759,
+      "id": "92939U106"
+    },
+    {
+      "name": "DR HORTON INC",
+      "ticker": "DHI",
+      "ssga_ticker": "DHI",
+      "weight_pct": 0.053527,
+      "id": "23331A109"
+    },
+    {
+      "name": "KIMBERLY CLARK CORP",
+      "ticker": "KMB",
+      "ssga_ticker": "KMB",
+      "weight_pct": 0.053203,
+      "id": "494368103"
+    },
+    {
+      "name": "OLD DOMINION FREIGHT LINE",
+      "ticker": "ODFL",
+      "ssga_ticker": "ODFL",
+      "weight_pct": 0.053047,
+      "id": "679580100"
+    },
+    {
+      "name": "CROWN CASTLE INC",
+      "ticker": "CCI",
+      "ssga_ticker": "CCI",
+      "weight_pct": 0.052992,
+      "id": "22822V101"
+    },
+    {
+      "name": "BIOGEN INC",
+      "ticker": "BIIB",
+      "ssga_ticker": "BIIB",
+      "weight_pct": 0.052228,
+      "id": "09062X103"
+    },
+    {
+      "name": "RESMED INC",
+      "ticker": "RMD",
+      "ssga_ticker": "RMD",
+      "weight_pct": 0.052187,
+      "id": "761152107"
+    },
+    {
+      "name": "ARCH CAPITAL GROUP LTD",
+      "ticker": "ACGL",
+      "ssga_ticker": "ACGL",
+      "weight_pct": 0.051904,
+      "id": "G0450A105"
+    },
+    {
+      "name": "CENTENE CORP",
+      "ticker": "CNC",
+      "ssga_ticker": "CNC",
+      "weight_pct": 0.051731,
+      "id": "15135B101"
+    },
+    {
+      "name": "EQT CORP",
+      "ticker": "EQT",
+      "ssga_ticker": "EQT",
+      "weight_pct": 0.051566,
+      "id": "26884L109"
+    },
+    {
+      "name": "IRON MOUNTAIN INC",
+      "ticker": "IRM",
+      "ssga_ticker": "IRM",
+      "weight_pct": 0.050821,
+      "id": "46284V101"
+    },
+    {
+      "name": "VULCAN MATERIALS CO",
+      "ticker": "VMC",
+      "ssga_ticker": "VMC",
+      "weight_pct": 0.050751,
+      "id": "929160109"
+    },
+    {
+      "name": "FLEX LTD",
+      "ticker": "FLEX",
+      "ssga_ticker": "FLEX",
+      "weight_pct": 0.050506,
+      "id": "Y2573F102"
+    },
+    {
+      "name": "EXPEDIA GROUP INC",
+      "ticker": "EXPE",
+      "ssga_ticker": "EXPE",
+      "weight_pct": 0.050222,
+      "id": "30212P303"
+    },
+    {
+      "name": "CBOE GLOBAL MARKETS INC",
+      "ticker": "CBOE",
+      "ssga_ticker": "CBOE",
+      "weight_pct": 0.050125,
+      "id": "12503M108"
+    },
+    {
+      "name": "CARNIVAL CORP LTD",
+      "ticker": "CCL",
+      "ssga_ticker": "CCL",
+      "weight_pct": 0.049952,
+      "id": "G2004J103"
+    },
+    {
+      "name": "ZOETIS INC",
+      "ticker": "ZTS",
+      "ssga_ticker": "ZTS",
+      "weight_pct": 0.049667,
+      "id": "98978V103"
+    },
+    {
+      "name": "METTLER TOLEDO INTERNATIONAL",
+      "ticker": "MTD",
+      "ssga_ticker": "MTD",
+      "weight_pct": 0.049523,
+      "id": "592688105"
+    },
+    {
+      "name": "STEEL DYNAMICS INC",
+      "ticker": "STLD",
+      "ssga_ticker": "STLD",
+      "weight_pct": 0.04907,
+      "id": "858119100"
+    },
+    {
+      "name": "DEXCOM INC",
+      "ticker": "DXCM",
+      "ssga_ticker": "DXCM",
+      "weight_pct": 0.048971,
+      "id": "252131107"
+    },
+    {
+      "name": "EMCOR GROUP INC",
+      "ticker": "EME",
+      "ssga_ticker": "EME",
+      "weight_pct": 0.048194,
+      "id": "29084Q100"
+    },
+    {
+      "name": "AXON ENTERPRISE INC",
+      "ticker": "AXON",
+      "ssga_ticker": "AXON",
+      "weight_pct": 0.048009,
+      "id": "05464C101"
+    },
+    {
+      "name": "GE HEALTHCARE TECHNOLOGY",
+      "ticker": "GEHC",
+      "ssga_ticker": "GEHC",
+      "weight_pct": 0.047579,
+      "id": "36266G107"
+    },
+    {
+      "name": "UNITED AIRLINES HOLDINGS INC",
+      "ticker": "UAL",
+      "ssga_ticker": "UAL",
+      "weight_pct": 0.047359,
+      "id": "910047109"
+    },
+    {
+      "name": "HUNTINGTON BANCSHARES INC",
+      "ticker": "HBAN",
+      "ssga_ticker": "HBAN",
+      "weight_pct": 0.046992,
+      "id": "446150104"
+    },
+    {
+      "name": "M + T BANK CORP",
+      "ticker": "MTB",
+      "ssga_ticker": "MTB",
+      "weight_pct": 0.04689,
+      "id": "55261F104"
+    },
+    {
+      "name": "NORTHERN TRUST CORP",
+      "ticker": "NTRS",
+      "ssga_ticker": "NTRS",
+      "weight_pct": 0.045861,
+      "id": "665859104"
+    },
+    {
+      "name": "MARTIN MARIETTA MATERIALS",
+      "ticker": "MLM",
+      "ssga_ticker": "MLM",
+      "weight_pct": 0.045674,
+      "id": "573284106"
+    },
+    {
+      "name": "COGNIZANT TECH SOLUTIONS A",
+      "ticker": "CTSH",
+      "ssga_ticker": "CTSH",
+      "weight_pct": 0.045032,
+      "id": "192446102"
+    },
+    {
+      "name": "DOLLAR GENERAL CORP",
+      "ticker": "DG",
+      "ssga_ticker": "DG",
+      "weight_pct": 0.044977,
+      "id": "256677105"
+    },
+    {
+      "name": "EXTRA SPACE STORAGE INC",
+      "ticker": "EXR",
+      "ssga_ticker": "EXR",
+      "weight_pct": 0.044777,
+      "id": "30225T102"
+    },
+    {
+      "name": "WILLIAMS SONOMA INC",
+      "ticker": "WSM",
+      "ssga_ticker": "WSM",
+      "weight_pct": 0.044717,
+      "id": "969904101"
+    },
+    {
+      "name": "AMEREN CORPORATION",
+      "ticker": "AEE",
+      "ssga_ticker": "AEE",
+      "weight_pct": 0.044561,
+      "id": "023608102"
+    },
+    {
+      "name": "WILLIS TOWERS WATSON PLC",
+      "ticker": "WTW",
+      "ssga_ticker": "WTW",
+      "weight_pct": 0.044372,
+      "id": "G96629103"
+    },
+    {
+      "name": "JABIL INC",
+      "ticker": "JBL",
+      "ssga_ticker": "JBL",
+      "weight_pct": 0.044157,
+      "id": "466313103"
+    },
+    {
+      "name": "P G + E CORP",
+      "ticker": "PCG",
+      "ssga_ticker": "PCG",
+      "weight_pct": 0.043768,
+      "id": "69331C108"
+    },
+    {
+      "name": "TELEDYNE TECHNOLOGIES INC",
+      "ticker": "TDY",
+      "ssga_ticker": "TDY",
+      "weight_pct": 0.043526,
+      "id": "879360105"
+    },
+    {
+      "name": "ATMOS ENERGY CORP",
+      "ticker": "ATO",
+      "ssga_ticker": "ATO",
+      "weight_pct": 0.042822,
+      "id": "049560105"
+    },
+    {
+      "name": "HALLIBURTON CO",
+      "ticker": "HAL",
+      "ssga_ticker": "HAL",
+      "weight_pct": 0.042473,
+      "id": "406216101"
+    },
+    {
+      "name": "ON SEMICONDUCTOR",
+      "ticker": "ON",
+      "ssga_ticker": "ON",
+      "weight_pct": 0.042453,
+      "id": "682189105"
+    },
+    {
+      "name": "HP INC",
+      "ticker": "HPQ",
+      "ssga_ticker": "HPQ",
+      "weight_pct": 0.041699,
+      "id": "40434L105"
+    },
+    {
+      "name": "RAYMOND JAMES FINANCIAL INC",
+      "ticker": "RJF",
+      "ssga_ticker": "RJF",
+      "weight_pct": 0.041294,
+      "id": "754730109"
+    },
+    {
+      "name": "WEST PHARMACEUTICAL SERVICES",
+      "ticker": "WST",
+      "ssga_ticker": "WST",
+      "weight_pct": 0.041195,
+      "id": "955306105"
+    },
+    {
+      "name": "OTIS WORLDWIDE CORP",
+      "ticker": "OTIS",
+      "ssga_ticker": "OTIS",
+      "weight_pct": 0.041113,
+      "id": "68902V107"
+    },
+    {
+      "name": "DTE ENERGY COMPANY",
+      "ticker": "DTE",
+      "ssga_ticker": "DTE",
+      "weight_pct": 0.040979,
+      "id": "233331107"
+    },
+    {
+      "name": "LIVE NATION ENTERTAINMENT IN",
+      "ticker": "LYV",
+      "ssga_ticker": "LYV",
+      "weight_pct": 0.040975,
+      "id": "538034109"
+    },
+    {
+      "name": "CITIZENS FINANCIAL GROUP",
+      "ticker": "CFG",
+      "ssga_ticker": "CFG",
+      "weight_pct": 0.040674,
+      "id": "174610105"
+    },
+    {
+      "name": "AMERICAN WATER WORKS CO INC",
+      "ticker": "AWK",
+      "ssga_ticker": "AWK",
+      "weight_pct": 0.040605,
+      "id": "030420103"
+    },
+    {
+      "name": "INGERSOLL RAND INC",
+      "ticker": "IR",
+      "ssga_ticker": "IR",
+      "weight_pct": 0.040464,
+      "id": "45687V106"
+    },
+    {
+      "name": "CENTERPOINT ENERGY INC",
+      "ticker": "CNP",
+      "ssga_ticker": "CNP",
+      "weight_pct": 0.040269,
+      "id": "15189T107"
+    },
+    {
+      "name": "PPL CORP",
+      "ticker": "PPL",
+      "ssga_ticker": "PPL",
+      "weight_pct": 0.040174,
+      "id": "69351T106"
+    },
+    {
+      "name": "DOVER CORP",
+      "ticker": "DOV",
+      "ssga_ticker": "DOV",
+      "weight_pct": 0.040066,
+      "id": "260003108"
+    },
+    {
+      "name": "CINCINNATI FINANCIAL CORP",
+      "ticker": "CINF",
+      "ssga_ticker": "CINF",
+      "weight_pct": 0.0398,
+      "id": "172062101"
+    },
+    {
+      "name": "CORPAY INC",
+      "ticker": "CPAY",
+      "ssga_ticker": "CPAY",
+      "weight_pct": 0.039688,
+      "id": "219948106"
+    },
+    {
+      "name": "QUEST DIAGNOSTICS INC",
+      "ticker": "DGX",
+      "ssga_ticker": "DGX",
+      "weight_pct": 0.039494,
+      "id": "74834L100"
+    },
+    {
+      "name": "VICI PROPERTIES INC",
+      "ticker": "VICI",
+      "ssga_ticker": "VICI",
+      "weight_pct": 0.039345,
+      "id": "925652109"
+    },
+    {
+      "name": "ESTEE LAUDER COMPANIES CL A",
+      "ticker": "EL",
+      "ssga_ticker": "EL",
+      "weight_pct": 0.03913,
+      "id": "518439104"
+    },
+    {
+      "name": "EXPEDITORS INTL WASH INC",
+      "ticker": "EXPD",
+      "ssga_ticker": "EXPD",
+      "weight_pct": 0.038893,
+      "id": "302130109"
+    },
+    {
+      "name": "LABCORP HOLDINGS INC",
+      "ticker": "LH",
+      "ssga_ticker": "LH",
+      "weight_pct": 0.038857,
+      "id": "504922105"
+    },
+    {
+      "name": "CASEY S GENERAL STORES INC",
+      "ticker": "CASY",
+      "ssga_ticker": "CASY",
+      "weight_pct": 0.038724,
+      "id": "147528103"
+    },
+    {
+      "name": "FISERV INC",
+      "ticker": "FISV",
+      "ssga_ticker": "FISV",
+      "weight_pct": 0.038493,
+      "id": "337738108"
+    },
+    {
+      "name": "ULTA BEAUTY INC",
+      "ticker": "ULTA",
+      "ssga_ticker": "ULTA",
+      "weight_pct": 0.038393,
+      "id": "90384S303"
+    },
+    {
+      "name": "EVERSOURCE ENERGY",
+      "ticker": "ES",
+      "ssga_ticker": "ES",
+      "weight_pct": 0.038119,
+      "id": "30040W108"
+    },
+    {
+      "name": "ARES MANAGEMENT CORP   A",
+      "ticker": "ARES",
+      "ssga_ticker": "ARES",
+      "weight_pct": 0.03807,
+      "id": "03990B101"
+    },
+    {
+      "name": "VERISK ANALYTICS INC",
+      "ticker": "VRSK",
+      "ssga_ticker": "VRSK",
+      "weight_pct": 0.037963,
+      "id": "92345Y106"
+    },
+    {
+      "name": "F5 INC",
+      "ticker": "FFIV",
+      "ssga_ticker": "FFIV",
+      "weight_pct": 0.037827,
+      "id": "315616102"
+    },
+    {
+      "name": "HERSHEY CO/THE",
+      "ticker": "HSY",
+      "ssga_ticker": "HSY",
+      "weight_pct": 0.037656,
+      "id": "427866108"
+    },
+    {
+      "name": "CHURCH + DWIGHT CO INC",
+      "ticker": "CHD",
+      "ssga_ticker": "CHD",
+      "weight_pct": 0.03751,
+      "id": "171340102"
+    },
+    {
+      "name": "VERALTO CORP",
+      "ticker": "VLTO",
+      "ssga_ticker": "VLTO",
+      "weight_pct": 0.037298,
+      "id": "92338C103"
+    },
+    {
+      "name": "VERISIGN INC",
+      "ticker": "VRSN",
+      "ssga_ticker": "VRSN",
+      "weight_pct": 0.037203,
+      "id": "92343E102"
+    },
+    {
+      "name": "DARDEN RESTAURANTS INC",
+      "ticker": "DRI",
+      "ssga_ticker": "DRI",
+      "weight_pct": 0.0372,
+      "id": "237194105"
+    },
+    {
+      "name": "HUBBELL INC",
+      "ticker": "HUBB",
+      "ssga_ticker": "HUBB",
+      "weight_pct": 0.037018,
+      "id": "443510607"
+    },
+    {
+      "name": "XYLEM INC",
+      "ticker": "XYL",
+      "ssga_ticker": "XYL",
+      "weight_pct": 0.036785,
+      "id": "98419M100"
+    },
+    {
+      "name": "QNITY ELECTRONICS INC",
+      "ticker": "Q",
+      "ssga_ticker": "Q",
+      "weight_pct": 0.036646,
+      "id": "74743L100"
+    },
+    {
+      "name": "FIRSTENERGY CORP",
+      "ticker": "FE",
+      "ssga_ticker": "FE",
+      "weight_pct": 0.03651,
+      "id": "337932107"
+    },
+    {
+      "name": "PPG INDUSTRIES INC",
+      "ticker": "PPG",
+      "ssga_ticker": "PPG",
+      "weight_pct": 0.036338,
+      "id": "693506107"
+    },
+    {
+      "name": "DOLLAR TREE INC",
+      "ticker": "DLTR",
+      "ssga_ticker": "DLTR",
+      "weight_pct": 0.036133,
+      "id": "256746108"
+    },
+    {
+      "name": "SYNCHRONY FINANCIAL",
+      "ticker": "SYF",
+      "ssga_ticker": "SYF",
+      "weight_pct": 0.036107,
+      "id": "87165B103"
+    },
+    {
+      "name": "TAPESTRY INC",
+      "ticker": "TPR",
+      "ssga_ticker": "TPR",
+      "weight_pct": 0.036081,
+      "id": "876030107"
+    },
+    {
+      "name": "REGIONS FINANCIAL CORP",
+      "ticker": "RF",
+      "ssga_ticker": "RF",
+      "weight_pct": 0.035565,
+      "id": "7591EP100"
+    },
+    {
+      "name": "COPART INC",
+      "ticker": "CPRT",
+      "ssga_ticker": "CPRT",
+      "weight_pct": 0.035371,
+      "id": "217204106"
+    },
+    {
+      "name": "INTL FLAVORS + FRAGRANCES",
+      "ticker": "IFF",
+      "ssga_ticker": "IFF",
+      "weight_pct": 0.03523,
+      "id": "459506101"
+    },
+    {
+      "name": "REDDIT INC CL A",
+      "ticker": "RDDT",
+      "ssga_ticker": "RDDT",
+      "weight_pct": 0.034535,
+      "id": "75734B100"
+    },
+    {
+      "name": "OMNICOM GROUP",
+      "ticker": "OMC",
+      "ssga_ticker": "OMC",
+      "weight_pct": 0.033467,
+      "id": "681919106"
+    },
+    {
+      "name": "NRG ENERGY INC",
+      "ticker": "NRG",
+      "ssga_ticker": "NRG",
+      "weight_pct": 0.033228,
+      "id": "629377508"
+    },
+    {
+      "name": "STERIS PLC",
+      "ticker": "STE",
+      "ssga_ticker": "STE",
+      "weight_pct": 0.033142,
+      "id": "G8473T100"
+    },
+    {
+      "name": "T ROWE PRICE GROUP INC",
+      "ticker": "TROW",
+      "ssga_ticker": "TROW",
+      "weight_pct": 0.032839,
+      "id": "74144T108"
+    },
+    {
+      "name": "SMURFIT WESTROCK PLC",
+      "ticker": "SW",
+      "ssga_ticker": "SW",
+      "weight_pct": 0.032796,
+      "id": "G8267P108"
+    },
+    {
+      "name": "EDISON INTERNATIONAL",
+      "ticker": "EIX",
+      "ssga_ticker": "EIX",
+      "weight_pct": 0.032675,
+      "id": "281020107"
+    },
+    {
+      "name": "DOW INC",
+      "ticker": "DOW",
+      "ssga_ticker": "DOW",
+      "weight_pct": 0.032642,
+      "id": "260557103"
+    },
+    {
+      "name": "CMS ENERGY CORP",
+      "ticker": "CMS",
+      "ssga_ticker": "CMS",
+      "weight_pct": 0.032617,
+      "id": "125896100"
+    },
+    {
+      "name": "EXPAND ENERGY CORP",
+      "ticker": "EXE",
+      "ssga_ticker": "EXE",
+      "weight_pct": 0.032541,
+      "id": "165167735"
+    },
+    {
+      "name": "VIATRIS INC",
+      "ticker": "VTRS",
+      "ssga_ticker": "VTRS",
+      "weight_pct": 0.032443,
+      "id": "92556V106"
+    },
+    {
+      "name": "PULTEGROUP INC",
+      "ticker": "PHM",
+      "ssga_ticker": "PHM",
+      "weight_pct": 0.032225,
+      "id": "745867101"
+    },
+    {
+      "name": "PRINCIPAL FINANCIAL GROUP",
+      "ticker": "PFG",
+      "ssga_ticker": "PFG",
+      "weight_pct": 0.032103,
+      "id": "74251V102"
+    },
+    {
+      "name": "PACKAGING CORP OF AMERICA",
+      "ticker": "PKG",
+      "ssga_ticker": "PKG",
+      "weight_pct": 0.031719,
+      "id": "695156109"
+    },
+    {
+      "name": "PTC INC",
+      "ticker": "PTC",
+      "ssga_ticker": "PTC",
+      "weight_pct": 0.031434,
+      "id": "69370C100"
+    },
+    {
+      "name": "TEXAS PACIFIC LAND CORP",
+      "ticker": "TPL",
+      "ssga_ticker": "TPL",
+      "weight_pct": 0.031155,
+      "id": "88262P102"
+    },
+    {
+      "name": "KRAFT HEINZ CO/THE",
+      "ticker": "KHC",
+      "ssga_ticker": "KHC",
+      "weight_pct": 0.031037,
+      "id": "500754106"
+    },
+    {
+      "name": "NISOURCE INC",
+      "ticker": "NI",
+      "ssga_ticker": "NI",
+      "weight_pct": 0.03098,
+      "id": "65473P105"
+    },
+    {
+      "name": "AMCOR PLC",
+      "ticker": "AMCR",
+      "ssga_ticker": "AMCR",
+      "weight_pct": 0.030567,
+      "id": "G0250X149"
+    },
+    {
+      "name": "BROWN + BROWN INC",
+      "ticker": "BRO",
+      "ssga_ticker": "BRO",
+      "weight_pct": 0.030236,
+      "id": "115236101"
+    },
+    {
+      "name": "BROADRIDGE FINANCIAL SOLUTIO",
+      "ticker": "BR",
+      "ssga_ticker": "BR",
+      "weight_pct": 0.030233,
+      "id": "11133T103"
+    },
+    {
+      "name": "SBA COMMUNICATIONS CORP",
+      "ticker": "SBAC",
+      "ssga_ticker": "SBAC",
+      "weight_pct": 0.030114,
+      "id": "78410G104"
+    },
+    {
+      "name": "CONSTELLATION BRANDS INC A",
+      "ticker": "STZ",
+      "ssga_ticker": "STZ",
+      "weight_pct": 0.029885,
+      "id": "21036P108"
+    },
+    {
+      "name": "SOUTHWEST AIRLINES CO",
+      "ticker": "LUV",
+      "ssga_ticker": "LUV",
+      "weight_pct": 0.029305,
+      "id": "844741108"
+    },
+    {
+      "name": "EVERGY INC",
+      "ticker": "EVRG",
+      "ssga_ticker": "EVRG",
+      "weight_pct": 0.029159,
+      "id": "30034W106"
+    },
+    {
+      "name": "INCYTE CORP",
+      "ticker": "INCY",
+      "ssga_ticker": "INCY",
+      "weight_pct": 0.029146,
+      "id": "45337C102"
+    },
+    {
+      "name": "SNAP ON INC",
+      "ticker": "SNA",
+      "ssga_ticker": "SNA",
+      "weight_pct": 0.028885,
+      "id": "833034101"
+    },
+    {
+      "name": "EQUIFAX INC",
+      "ticker": "EFX",
+      "ssga_ticker": "EFX",
+      "weight_pct": 0.028685,
+      "id": "294429105"
+    },
+    {
+      "name": "CDW CORP/DE",
+      "ticker": "CDW",
+      "ssga_ticker": "CDW",
+      "weight_pct": 0.028287,
+      "id": "12514G108"
+    },
+    {
+      "name": "FIDELITY NATIONAL INFO SERV",
+      "ticker": "FIS",
+      "ssga_ticker": "FIS",
+      "weight_pct": 0.028259,
+      "id": "31620M106"
+    },
+    {
+      "name": "GLOBAL PAYMENTS INC",
+      "ticker": "GPN",
+      "ssga_ticker": "GPN",
+      "weight_pct": 0.028159,
+      "id": "37940X102"
+    },
+    {
+      "name": "FIRST SOLAR INC",
+      "ticker": "FSLR",
+      "ssga_ticker": "FSLR",
+      "weight_pct": 0.028141,
+      "id": "336433107"
+    },
+    {
+      "name": "GENUINE PARTS CO",
+      "ticker": "GPC",
+      "ssga_ticker": "GPC",
+      "weight_pct": 0.027997,
+      "id": "372460105"
+    },
+    {
+      "name": "CF INDUSTRIES HOLDINGS INC",
+      "ticker": "CF",
+      "ssga_ticker": "CF",
+      "weight_pct": 0.027692,
+      "id": "125269100"
+    },
+    {
+      "name": "BEST BUY CO INC",
+      "ticker": "BBY",
+      "ssga_ticker": "BBY",
+      "weight_pct": 0.027667,
+      "id": "086516101"
+    },
+    {
+      "name": "SKYWORKS SOLUTIONS INC",
+      "ticker": "SWKS",
+      "ssga_ticker": "SWKS",
+      "weight_pct": 0.027589,
+      "id": "83088M102"
+    },
+    {
+      "name": "LOEWS CORP",
+      "ticker": "L",
+      "ssga_ticker": "L",
+      "weight_pct": 0.027516,
+      "id": "540424108"
+    },
+    {
+      "name": "KEYCORP",
+      "ticker": "KEY",
+      "ssga_ticker": "KEY",
+      "weight_pct": 0.027454,
+      "id": "493267108"
+    },
+    {
+      "name": "ZIMMER BIOMET HOLDINGS INC",
+      "ticker": "ZBH",
+      "ssga_ticker": "ZBH",
+      "weight_pct": 0.027428,
+      "id": "98956P102"
+    },
+    {
+      "name": "INTERNATIONAL PAPER CO",
+      "ticker": "IP",
+      "ssga_ticker": "IP",
+      "weight_pct": 0.027315,
+      "id": "460146103"
+    },
+    {
+      "name": "SUPER MICRO COMPUTER INC",
+      "ticker": "SMCI",
+      "ssga_ticker": "SMCI",
+      "weight_pct": 0.027024,
+      "id": "86800U302"
+    },
+    {
+      "name": "DUPONT DE NEMOURS INC",
+      "ticker": "DD",
+      "ssga_ticker": "DD",
+      "weight_pct": 0.026857,
+      "id": "26614N201"
+    },
+    {
+      "name": "GENERAL MILLS INC",
+      "ticker": "GIS",
+      "ssga_ticker": "GIS",
+      "weight_pct": 0.026845,
+      "id": "370334104"
+    },
+    {
+      "name": "FORTIVE CORP",
+      "ticker": "FTV",
+      "ssga_ticker": "FTV",
+      "weight_pct": 0.026743,
+      "id": "34959J108"
+    },
+    {
+      "name": "ZEBRA TECHNOLOGIES CORP CL A",
+      "ticker": "ZBRA",
+      "ssga_ticker": "ZBRA",
+      "weight_pct": 0.026674,
+      "id": "989207105"
+    },
+    {
+      "name": "ALLIANT ENERGY CORP",
+      "ticker": "LNT",
+      "ssga_ticker": "LNT",
+      "weight_pct": 0.026645,
+      "id": "018802108"
+    },
+    {
+      "name": "IDEX CORP",
+      "ticker": "IEX",
+      "ssga_ticker": "IEX",
+      "weight_pct": 0.026473,
+      "id": "45167R104"
+    },
+    {
+      "name": "TRACTOR SUPPLY COMPANY",
+      "ticker": "TSCO",
+      "ssga_ticker": "TSCO",
+      "weight_pct": 0.026397,
+      "id": "892356106"
+    },
+    {
+      "name": "APA CORP",
+      "ticker": "APA",
+      "ssga_ticker": "APA",
+      "weight_pct": 0.026369,
+      "id": "03743Q108"
+    },
+    {
+      "name": "ESSEX PROPERTY TRUST INC",
+      "ticker": "ESS",
+      "ssga_ticker": "ESS",
+      "weight_pct": 0.026277,
+      "id": "297178105"
+    },
+    {
+      "name": "NORDSON CORP",
+      "ticker": "NDSN",
+      "ssga_ticker": "NDSN",
+      "weight_pct": 0.025946,
+      "id": "655663102"
+    },
+    {
+      "name": "HUNT (JB) TRANSPRT SVCS INC",
+      "ticker": "JBHT",
+      "ssga_ticker": "JBHT",
+      "weight_pct": 0.025863,
+      "id": "445658107"
+    },
+    {
+      "name": "WR BERKLEY CORP",
+      "ticker": "WRB",
+      "ssga_ticker": "WRB",
+      "weight_pct": 0.02586,
+      "id": "084423102"
+    },
+    {
+      "name": "REVVITY INC",
+      "ticker": "RVTY",
+      "ssga_ticker": "RVTY",
+      "weight_pct": 0.025855,
+      "id": "714046109"
+    },
+    {
+      "name": "BALL CORP",
+      "ticker": "BALL",
+      "ssga_ticker": "BALL",
+      "weight_pct": 0.025542,
+      "id": "058498106"
+    },
+    {
+      "name": "BUNGE GLOBAL SA",
+      "ticker": "BG",
+      "ssga_ticker": "BG",
+      "weight_pct": 0.025317,
+      "id": "H11356104"
+    },
+    {
+      "name": "JACOBS SOLUTIONS INC",
+      "ticker": "J",
+      "ssga_ticker": "J",
+      "weight_pct": 0.025287,
+      "id": "46982L108"
+    },
+    {
+      "name": "FAIR ISAAC CORP",
+      "ticker": "FICO",
+      "ssga_ticker": "FICO",
+      "weight_pct": 0.025187,
+      "id": "303250104"
+    },
+    {
+      "name": "LYONDELLBASELL INDU CL A",
+      "ticker": "LYB",
+      "ssga_ticker": "LYB",
+      "weight_pct": 0.025183,
+      "id": "N53745100"
+    },
+    {
+      "name": "C.H. ROBINSON WORLDWIDE INC",
+      "ticker": "CHRW",
+      "ssga_ticker": "CHRW",
+      "weight_pct": 0.02496,
+      "id": "12541W209"
+    },
+    {
+      "name": "HOST HOTELS + RESORTS INC",
+      "ticker": "HST",
+      "ssga_ticker": "HST",
+      "weight_pct": 0.024865,
+      "id": "44107P104"
+    },
+    {
+      "name": "LEIDOS HOLDINGS INC",
+      "ticker": "LDOS",
+      "ssga_ticker": "LDOS",
+      "weight_pct": 0.023847,
+      "id": "525327102"
+    },
+    {
+      "name": "TYSON FOODS INC CL A",
+      "ticker": "TSN",
+      "ssga_ticker": "TSN",
+      "weight_pct": 0.023517,
+      "id": "902494103"
+    },
+    {
+      "name": "KIMCO REALTY CORP",
+      "ticker": "KIM",
+      "ssga_ticker": "KIM",
+      "weight_pct": 0.023456,
+      "id": "49446R109"
+    },
+    {
+      "name": "NVR INC",
+      "ticker": "NVR",
+      "ssga_ticker": "NVR",
+      "weight_pct": 0.022843,
+      "id": "62944T105"
+    },
+    {
+      "name": "LENNAR CORP A",
+      "ticker": "LEN",
+      "ssga_ticker": "LEN",
+      "weight_pct": 0.022417,
+      "id": "526057104"
+    },
+    {
+      "name": "INVITATION HOMES INC",
+      "ticker": "INVH",
+      "ssga_ticker": "INVH",
+      "weight_pct": 0.02203,
+      "id": "46187W107"
+    },
+    {
+      "name": "RALPH LAUREN CORP",
+      "ticker": "RL",
+      "ssga_ticker": "RL",
+      "weight_pct": 0.022013,
+      "id": "751212101"
+    },
+    {
+      "name": "CHARLES RIVER LABORATORIES",
+      "ticker": "CRL",
+      "ssga_ticker": "CRL",
+      "weight_pct": 0.021954,
+      "id": "159864107"
+    },
+    {
+      "name": "MASCO CORP",
+      "ticker": "MAS",
+      "ssga_ticker": "MAS",
+      "weight_pct": 0.021551,
+      "id": "574599106"
+    },
+    {
+      "name": "ASSURANT INC",
+      "ticker": "AIZ",
+      "ssga_ticker": "AIZ",
+      "weight_pct": 0.021325,
+      "id": "04621X108"
+    },
+    {
+      "name": "WEYERHAEUSER CO",
+      "ticker": "WY",
+      "ssga_ticker": "WY",
+      "weight_pct": 0.021309,
+      "id": "962166104"
+    },
+    {
+      "name": "HASBRO INC",
+      "ticker": "HAS",
+      "ssga_ticker": "HAS",
+      "weight_pct": 0.021095,
+      "id": "418056107"
+    },
+    {
+      "name": "TRIMBLE INC",
+      "ticker": "TRMB",
+      "ssga_ticker": "TRMB",
+      "weight_pct": 0.021045,
+      "id": "896239100"
+    },
+    {
+      "name": "EVEREST GROUP LTD",
+      "ticker": "EG",
+      "ssga_ticker": "EG",
+      "weight_pct": 0.02102,
+      "id": "G3223R108"
+    },
+    {
+      "name": "STANLEY BLACK + DECKER INC",
+      "ticker": "SWK",
+      "ssga_ticker": "SWK",
+      "weight_pct": 0.020944,
+      "id": "854502101"
+    },
+    {
+      "name": "TYLER TECHNOLOGIES INC",
+      "ticker": "TYL",
+      "ssga_ticker": "TYL",
+      "weight_pct": 0.02081,
+      "id": "902252105"
+    },
+    {
+      "name": "JM SMUCKER CO/THE",
+      "ticker": "SJM",
+      "ssga_ticker": "SJM",
+      "weight_pct": 0.020639,
+      "id": "832696405"
+    },
+    {
+      "name": "MID AMERICA APARTMENT COMM",
+      "ticker": "MAA",
+      "ssga_ticker": "MAA",
+      "weight_pct": 0.020603,
+      "id": "59522J103"
+    },
+    {
+      "name": "FEDEX FREIGHT HOLDING CO",
+      "ticker": "FDXF",
+      "ssga_ticker": "FDXF",
+      "weight_pct": 0.020503,
+      "id": "314352105"
+    },
+    {
+      "name": "AVERY DENNISON CORP",
+      "ticker": "AVY",
+      "ssga_ticker": "AVY",
+      "weight_pct": 0.020354,
+      "id": "053611109"
+    },
+    {
+      "name": "GODADDY INC   CLASS A",
+      "ticker": "GDDY",
+      "ssga_ticker": "GDDY",
+      "weight_pct": 0.020317,
+      "id": "380237107"
+    },
+    {
+      "name": "ALLEGION PLC",
+      "ticker": "ALLE",
+      "ssga_ticker": "ALLE",
+      "weight_pct": 0.020185,
+      "id": "G0176J109"
+    },
+    {
+      "name": "COSTAR GROUP INC",
+      "ticker": "CSGP",
+      "ssga_ticker": "CSGP",
+      "weight_pct": 0.020029,
+      "id": "22160N109"
+    },
+    {
+      "name": "TEXTRON INC",
+      "ticker": "TXT",
+      "ssga_ticker": "TXT",
+      "weight_pct": 0.019992,
+      "id": "883203101"
+    },
+    {
+      "name": "BAXTER INTERNATIONAL INC",
+      "ticker": "BAX",
+      "ssga_ticker": "BAX",
+      "weight_pct": 0.019914,
+      "id": "071813109"
+    },
+    {
+      "name": "GLOBE LIFE INC",
+      "ticker": "GL",
+      "ssga_ticker": "GL",
+      "weight_pct": 0.019883,
+      "id": "37959E102"
+    },
+    {
+      "name": "HEALTHPEAK PROPERTIES INC",
+      "ticker": "DOC",
+      "ssga_ticker": "DOC",
+      "weight_pct": 0.019838,
+      "id": "42250P103"
+    },
+    {
+      "name": "GEN DIGITAL INC",
+      "ticker": "GEN",
+      "ssga_ticker": "GEN",
+      "weight_pct": 0.019707,
+      "id": "668771108"
+    },
+    {
+      "name": "FOX CORP   CLASS A",
+      "ticker": "FOXA",
+      "ssga_ticker": "FOXA",
+      "weight_pct": 0.019432,
+      "id": "35137L105"
+    },
+    {
+      "name": "GARTNER INC",
+      "ticker": "IT",
+      "ssga_ticker": "IT",
+      "weight_pct": 0.019423,
+      "id": "366651107"
+    },
+    {
+      "name": "AKAMAI TECHNOLOGIES INC",
+      "ticker": "AKAM",
+      "ssga_ticker": "AKAM",
+      "weight_pct": 0.019374,
+      "id": "00971T101"
+    },
+    {
+      "name": "PINNACLE WEST CAPITAL",
+      "ticker": "PNW",
+      "ssga_ticker": "PNW",
+      "weight_pct": 0.01904,
+      "id": "723484101"
+    },
+    {
+      "name": "INVESCO LTD",
+      "ticker": "IVZ",
+      "ssga_ticker": "IVZ",
+      "weight_pct": 0.019017,
+      "id": "G491BT108"
+    },
+    {
+      "name": "SOLVENTUM CORP",
+      "ticker": "SOLV",
+      "ssga_ticker": "SOLV",
+      "weight_pct": 0.018802,
+      "id": "83444M101"
+    },
+    {
+      "name": "CHARTER COMMUNICATIONS INC A",
+      "ticker": "CHTR",
+      "ssga_ticker": "CHTR",
+      "weight_pct": 0.018642,
+      "id": "16119P108"
+    },
+    {
+      "name": "REGENCY CENTERS CORP",
+      "ticker": "REG",
+      "ssga_ticker": "REG",
+      "weight_pct": 0.018331,
+      "id": "758849103"
+    },
+    {
+      "name": "MCCORMICK + CO NON VTG SHRS",
+      "ticker": "MKC",
+      "ssga_ticker": "MKC",
+      "weight_pct": 0.017929,
+      "id": "579780206"
+    },
+    {
+      "name": "ECHOSTAR CORP A",
+      "ticker": "ECHO",
+      "ssga_ticker": "ECHO",
+      "weight_pct": 0.017896,
+      "id": "278768106"
+    },
+    {
+      "name": "DECKERS OUTDOOR CORP",
+      "ticker": "DECK",
+      "ssga_ticker": "DECK",
+      "weight_pct": 0.017468,
+      "id": "243537107"
+    },
+    {
+      "name": "BIO TECHNE CORP",
+      "ticker": "TECH",
+      "ssga_ticker": "TECH",
+      "weight_pct": 0.017278,
+      "id": "09073M104"
+    },
+    {
+      "name": "LENNOX INTERNATIONAL INC",
+      "ticker": "LII",
+      "ssga_ticker": "LII",
+      "weight_pct": 0.017185,
+      "id": "526107107"
+    },
+    {
+      "name": "COOPER COS INC/THE",
+      "ticker": "COO",
+      "ssga_ticker": "COO",
+      "weight_pct": 0.017161,
+      "id": "216648501"
+    },
+    {
+      "name": "ALBEMARLE CORP",
+      "ticker": "ALB",
+      "ssga_ticker": "ALB",
+      "weight_pct": 0.017073,
+      "id": "012653101"
+    },
+    {
+      "name": "GENERAC HOLDINGS INC",
+      "ticker": "GNRC",
+      "ssga_ticker": "GNRC",
+      "weight_pct": 0.017063,
+      "id": "368736104"
+    },
+    {
+      "name": "NEWS CORP   CLASS A",
+      "ticker": "NWSA",
+      "ssga_ticker": "NWSA",
+      "weight_pct": 0.016629,
+      "id": "65249B109"
+    },
+    {
+      "name": "JACK HENRY + ASSOCIATES INC",
+      "ticker": "JKHY",
+      "ssga_ticker": "JKHY",
+      "weight_pct": 0.016522,
+      "id": "426281101"
+    },
+    {
+      "name": "FACTSET RESEARCH SYSTEMS INC",
+      "ticker": "FDS",
+      "ssga_ticker": "FDS",
+      "weight_pct": 0.016257,
+      "id": "303075105"
+    },
+    {
+      "name": "HUNTINGTON INGALLS INDUSTRIE",
+      "ticker": "HII",
+      "ssga_ticker": "HII",
+      "weight_pct": 0.0162,
+      "id": "446413106"
+    },
+    {
+      "name": "AES CORP",
+      "ticker": "AES",
+      "ssga_ticker": "AES",
+      "weight_pct": 0.016187,
+      "id": "00130H105"
+    },
+    {
+      "name": "CLOROX COMPANY",
+      "ticker": "CLX",
+      "ssga_ticker": "CLX",
+      "weight_pct": 0.016075,
+      "id": "189054109"
+    },
+    {
+      "name": "TKO GROUP HOLDINGS INC",
+      "ticker": "TKO",
+      "ssga_ticker": "TKO",
+      "weight_pct": 0.015758,
+      "id": "87256C101"
+    },
+    {
+      "name": "DOMINO S PIZZA INC",
+      "ticker": "DPZ",
+      "ssga_ticker": "DPZ",
+      "weight_pct": 0.015456,
+      "id": "25754A201"
+    },
+    {
+      "name": "LULULEMON ATHLETICA INC",
+      "ticker": "LULU",
+      "ssga_ticker": "LULU",
+      "weight_pct": 0.015434,
+      "id": "550021109"
+    },
+    {
+      "name": "UDR INC",
+      "ticker": "UDR",
+      "ssga_ticker": "UDR",
+      "weight_pct": 0.015308,
+      "id": "902653104"
+    },
+    {
+      "name": "CAMDEN PROPERTY TRUST",
+      "ticker": "CPT",
+      "ssga_ticker": "CPT",
+      "weight_pct": 0.015044,
+      "id": "133131102"
+    },
+    {
+      "name": "ROLLINS INC",
+      "ticker": "ROL",
+      "ssga_ticker": "ROL",
+      "weight_pct": 0.014924,
+      "id": "775711104"
+    },
+    {
+      "name": "INSULET CORP",
+      "ticker": "PODD",
+      "ssga_ticker": "PODD",
+      "weight_pct": 0.014838,
+      "id": "45784P101"
+    },
+    {
+      "name": "LAS VEGAS SANDS CORP",
+      "ticker": "LVS",
+      "ssga_ticker": "LVS",
+      "weight_pct": 0.014731,
+      "id": "517834107"
+    },
+    {
+      "name": "ALIGN TECHNOLOGY INC",
+      "ticker": "ALGN",
+      "ssga_ticker": "ALGN",
+      "weight_pct": 0.01473,
+      "id": "016255101"
+    },
+    {
+      "name": "UNIVERSAL HEALTH SERVICES B",
+      "ticker": "UHS",
+      "ssga_ticker": "UHS",
+      "weight_pct": 0.014489,
+      "id": "913903100"
+    },
+    {
+      "name": "APTIV PLC",
+      "ticker": "APTV",
+      "ssga_ticker": "APTV",
+      "weight_pct": 0.014421,
+      "id": "G3265R107"
+    },
+    {
+      "name": "BXP INC",
+      "ticker": "BXP",
+      "ssga_ticker": "BXP",
+      "weight_pct": 0.01431,
+      "id": "101121101"
+    },
+    {
+      "name": "FRANKLIN TEMPLETON INC",
+      "ticker": "BEN",
+      "ssga_ticker": "BEN",
+      "weight_pct": 0.013642,
+      "id": "354613101"
+    },
+    {
+      "name": "PENTAIR PLC",
+      "ticker": "PNR",
+      "ssga_ticker": "PNR",
+      "weight_pct": 0.013106,
+      "id": "G7S00T104"
+    },
+    {
+      "name": "FEDERAL REALTY INVS TRUST",
+      "ticker": "FRT",
+      "ssga_ticker": "FRT",
+      "weight_pct": 0.012735,
+      "id": "313745101"
+    },
+    {
+      "name": "HENRY SCHEIN INC",
+      "ticker": "HSIC",
+      "ssga_ticker": "HSIC",
+      "weight_pct": 0.012691,
+      "id": "806407102"
+    },
+    {
+      "name": "FOX CORP   CLASS B",
+      "ticker": "FOX",
+      "ssga_ticker": "FOX",
+      "weight_pct": 0.011641,
+      "id": "35137L204"
+    },
+    {
+      "name": "NORWEGIAN CRUISE LINE HOLDIN",
+      "ticker": "NCLH",
+      "ssga_ticker": "NCLH",
+      "weight_pct": 0.010562,
+      "id": "G66721104"
+    },
+    {
+      "name": "SMITH (A.O.) CORP",
+      "ticker": "AOS",
+      "ssga_ticker": "AOS",
+      "weight_pct": 0.010059,
+      "id": "831865209"
+    },
+    {
+      "name": "ALEXANDRIA REAL ESTATE EQUIT",
+      "ticker": "ARE",
+      "ssga_ticker": "ARE",
+      "weight_pct": 0.009876,
+      "id": "015271109"
+    },
+    {
+      "name": "DAVITA INC",
+      "ticker": "DVA",
+      "ssga_ticker": "DVA",
+      "weight_pct": 0.009598,
+      "id": "23918K108"
+    },
+    {
+      "name": "ERIE INDEMNITY COMPANY CL A",
+      "ticker": "ERIE",
+      "ssga_ticker": "ERIE",
+      "weight_pct": 0.009398,
+      "id": "29530P102"
+    },
+    {
+      "name": "MOSAIC CO/THE",
+      "ticker": "MOS",
+      "ssga_ticker": "MOS",
+      "weight_pct": 0.009148,
+      "id": "61945C103"
+    },
+    {
+      "name": "HORMEL FOODS CORP",
+      "ticker": "HRL",
+      "ssga_ticker": "HRL",
+      "weight_pct": 0.009034,
+      "id": "440452100"
+    },
+    {
+      "name": "WYNN RESORTS LTD",
+      "ticker": "WYNN",
+      "ssga_ticker": "WYNN",
+      "weight_pct": 0.008185,
+      "id": "983134107"
+    },
+    {
+      "name": "BROWN FORMAN CORP CLASS B",
+      "ticker": "BF-B",
+      "ssga_ticker": "BF.B",
+      "weight_pct": 0.007745,
+      "id": "115637209"
+    },
+    {
+      "name": "MGM RESORTS INTERNATIONAL",
+      "ticker": "MGM",
+      "ssga_ticker": "MGM",
+      "weight_pct": 0.007627,
+      "id": "552953101"
+    },
+    {
+      "name": "NEWS CORP   CLASS B",
+      "ticker": "NWS",
+      "ssga_ticker": "NWS",
+      "weight_pct": 0.006086,
+      "id": "65249B208"
+    },
+    {
+      "name": "SKYDANCE CORP",
+      "ticker": "SKYD",
+      "ssga_ticker": "SKYD",
+      "weight_pct": 0.005704,
+      "id": "69932A204"
+    }
+  ]
+}

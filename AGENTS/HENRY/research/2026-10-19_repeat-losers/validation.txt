@@ -1,0 +1,3 @@
+PASS:503=501complete+2excluded;all5/20/60dailycountandconditionalreturnreconciliations;strongerpeer+sizeconstraints;originalcohortshaunchanged.
+Cash SPX vs adjustedSPY sign disagreements: {'MOS': {'20': [], '60': ['2026-08-26']}, 'HII': {'20': [], '60': ['2026-08-26']}, 'ADM': {'20': [], '60': ['2026-08-26']}, 'MGM': {'20': [], '60': ['2026-08-26']}, 'MCD': {'20': [], '60': ['2026-08-26']}, 'PCAR': {'20': [], '60': ['2026-08-26']}, 'CPRT': {'20': [], '60': ['2026-08-26']}}
+PASS refers to retained sample arithmetic and source chronology,notcausalidentification/completeglobalpeeruniverse.

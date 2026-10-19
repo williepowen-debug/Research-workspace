@@ -1,0 +1,37 @@
+{
+  "separate_condition_robust": [
+    "MOS",
+    "HII",
+    "ADM",
+    "CPRT"
+  ],
+  "min_eligible_sensitivity": {
+    "(5, 15)": [
+      "MCD",
+      "PCAR",
+      "ADM",
+      "CPRT",
+      "HII",
+      "MOS",
+      "MGM"
+    ],
+    "(4, 12)": [
+      "MCD",
+      "PCAR",
+      "ADM",
+      "CPRT",
+      "HII",
+      "MOS",
+      "MGM"
+    ],
+    "(0, 0)": [
+      "MCD",
+      "PCAR",
+      "ADM",
+      "CPRT",
+      "HII",
+      "MOS",
+      "MGM"
+    ]
+  }
+}

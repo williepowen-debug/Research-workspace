@@ -50,19 +50,20 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-19, Will-directed boot and catch-up
+### CHANGES SINCE — 2026-10-19 boot, catch-up and clarified repeat-loser workflow
 
-- Boot:gammaNEG14d/35dflip7756–7762versusSPX7690.73,17:44–17:46ET;wallsWITHHELD,OI vintageuncertified. FRED10/16HY331/BB203/CCC1297;3observations>320. Ownergradesseparate;LIQ-07noreserve-loopobservednotnoloop.
-- CPI/PPIprimariesrecovered:CPI0.6/3.7core0.3/2.6;PPI1.3/6.3exFET0.5/5.0;AugustPPIrevised0.5/5.6. Consensus/reactionlimitsretained;KB178–180boot,181–183catch-up.
-- Eightweaknamesfixed/deliveredLIQUID:SNDKCOHRSTXWDCMGMMOSDELLSMCI. Fouruniquematchedcontrasts,threeunmatched. Outcome-selected/current-membership/lagsize/productmixlimits;LIQUIDfirstpassread:heterogeneousfunding,SNDKnilJulydebt/Septemberbankrenewalcountersuniversalrefinancingstory;fullcausalityuntested. WDCpreferredNILJuly3(sourcecorrectionbeforecommit),commoncount/matchesunchanged. COHORT.md,shares/candidateaudit/returnsretained.
-- Ratesrepair:10/16TreasuryviaFRED2Y4.74/10Y5.09/30Y5.43;real10Y2.74/30Y3.16. DirectTreasuryfailed. NYFedACM10/7–16fitted10Y−20.597bp=premium−22.858+expected-rate+2.261. Differentfromnominal-real decomposition;notFedeasinginference.
-- WQ392Decemberbasisencoded,95/90.16unchanged,F3spent. Owntier3Oct15/16/19cracks98.921255/99.450909/99.865664withcontractexpiry/minuteproof. CommonF1UNKNOWNpendingBRENTadopt/publishsameWQ386basis;candidateNOTFIREDnotTERRYgrade.
-- AALF5fullvendorlow/closepath9/11–10/19min11.64/11.68>11.308,NOTFIRED. LUVrelease10/21afterclose,call10/22 10:00ET;AALcall10/22 08:30ET=07:30CT,exactrelease minuteunstated. HEN46resolution10/22replaces10/31fallback;originaltests/confidencesunchanged. PROMEwakerequestnotworkingautomaticwake.
--132totalpacketsthissession(130boot+2CRUISE)read/logged;133filed/latestLIQUIDsourceawaitssendercommit;29namedcorrectionreceipts fromboot scopedNO-OP,notallhistoryaudit. CRUISEcurrentownerevidenceintegratedseparatefromCRU11. R3adopt/declinealreadydone10/2,donotduplicate.
-- Startupnorebase/pull:otherdesksdirty. Nativefleetnotification/consumptionUNKNOWN,nohelpers. Ownexplicitpathpersistence/safepushonly. BootoldSTATUSretainedverbatim. Catch-upreconcileusesroot.venv/bin/python(xlrdavailablethere).
+- Will clarified: daily index-up/sector-up/BOTH-up losses,5/20/60returns,strongerindustry/sizepeers,persistencevsrotation. HENRYacknowledged;LIQUIDactualackpacket+ASSIGNMENT-ACKread. Finalshortlistconsumptionremainsseparate. Nohelpers/no newmonitor/trade/sizing.
+- Follow-upthroughOct19:primaryMOS/HII/ADM/CPRTnegative20/60andmajoritylossesunderall3conditions. FixedBOTH-onlyscreen7;secondaryMGM/MCD/PCARweakerseparate-conditiontests. OnlyMOS5dconfirms(2eligible);HII/ADM/CPRT5returnspositive. No crash odds or financingcause.
+-501/503full61sessiongrids;SKYDunreconciledhistory,VYLRmissinggrid.5/20/60startOct12/Sep21/Jul24. Sourcearchive545members;all519+5chartpulls200. Exactdenominators/dailyrows and cashSPXsignsensitivity retained. Nestedwindows/outcomeselection/currentmembership/singlevendor limits.
+-StrongerpairsMGM/WYNNandMCD/SBUX;20/60strength+lower20BOTHlossrate+size≤2. Fiveunmatched,includingprimary4;do notforcecontrols. Broadrestaurant/coffeeandMacaugeographymixlimitcausality. Pre-windowperiodendcommonsharesverified,CPRTolderAprilsharesused;September10releasehasEPSaveragesonly;annualpostformationexcluded.
+-RSP5/20/60+0.10/+0.34/+0.30%,countering uninterruptednarrowing. DELL/SMCI60positive+4.10/+6.64%andfewBOTH-uplosses;recentrepricingisnotprovenrotation. Original8cohortsha278210be…unchanged,LIQUIDfirstpassretained(SNDKnilJulydebt/Septemberrenewal,WDCpreferrednil).
+-Originalbootstatekept:gammaNEG14/35dflip7756–7762at17:44–46ET,wallswithheld;FRED10/16HY331/BB203/CCC1297. CPI/PPIandrates/ACMrepairsinpriorresearch/STATUS. No newmarketgamma orcreditgradeinthisfollow-up. KB184addsconditionalstudy;earlier178–183preserved.
+-HEN46unchanged:DecemberbasisWQ39295/90.16,F3spent;owntier3Oct15/16/19above95,commonpublicationpendingBRENT. F5retainedpathNOTFIRED. LUV10/21afterclose/AALcall10/22 08:30ET/LUV10:00ET;PROMEwakerequestnotcertifiedautomaticwake.
+-WAL/TERRYfocusedcontextdelivered,preservingexistingwork;consumptionUNKNOWN. CRUISEclarificationread,original8andCRU11windowpreserved. WALTERreceivesconditionalstudy/alternatives,VIOLETconfirmationwithinexistingvolwork,PROMEcoordinates. PreviouslyuncommittedLIQUIDprecursorreceiptnowtrackedbysenderandfiled;actualoldreadnotupgradedtofinalack.
+-Otherdesksdirty,no pull/stash/cross-owner edits. Ownpathcommits/recipientnamedpackets/safepush. Nativefleettransportunavailable;actualfileackmayproveworkflowacceptance,notfinalversionconsumptionorcloseouthandshake.
 
 ### NEXT SESSION
 
-1.Refreshgammabeforemarketuse. BRENTcommonDecemberreadingpublication/adoption;donotuseNovorindependentmeasurementasitsclaimedpublishedstate. F2/F4primaryevidencestillrequired.
-2.BeforeLUV10/21aftercloseandAAL10/22results,consumeoriginalHEN46criteria/checklistinresearch/2026-10-19_catchup/DATA.md. ConfirmPROMEwakeregistrationreceipt;donotpromisewakefrompacketalone.
-3.LIQUIDfinancingclassificationsonfixedcohortpending,donotreplaceinconvenient/lowdebtorunmatchednames. DeferredAsiahlt/cyberattack,consensus,Muse/TLTflow,DGS30historyandISMlate-evaluatorambiguityremain;noindiscriminateregrade. Wallsoftwarecross-horizongapheld. WATT>=10/22retestbelongsWATT;FOMC10/27–28/ECI10/30carriedcalendarverifybeforeuse.
+1.LIQUID/companyownersreconcilefinancingterms/maturities/drawability/chronologyandoperatingalternativesonconditionalcases. Highercostdiffersfrominabilitytofinance;do not repeat initialresearchorforceascorefromunmatchedcases.
+2.Consumeexactfinalshortlistversionreceiptwhenitarrives;WALTERassemblescompetingexplanations,VIOLETexistingconfirmation. Sharedquestion:Whatwoulddistinguishfinancing-drivenweaknessfromordinaryrotationorcompany-specificdisappointment?
+3.Refreshgammabeforemarketuse;BRENTcommonF1publication;HEN46originalcriteriaatOct21/22issuerresults. Confirmwakeactualregistration. Fullconsensus/Asiahlt/cyberattack/Muse/TLTflow/historicalDGS30/ISMlate-evaluatorambiguityremainexplicitcarry-ins,notclearedbythisstudy. WATT>=10/22retestbelongsWATT.

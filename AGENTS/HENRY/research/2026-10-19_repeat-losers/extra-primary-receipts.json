@@ -1,0 +1,22 @@
+[
+  {
+    "symbol": "INGR",
+    "url": "https://www.sec.gov/Archives/edgar/data/1046257/000162828026054722/ingr-20260630.htm",
+    "status": 200
+  },
+  {
+    "symbol": "YUM",
+    "url": "https://www.sec.gov/Archives/edgar/data/1041061/000104106126000160/yum-20260630.htm",
+    "status": 200
+  },
+  {
+    "symbol": "QSR",
+    "url": "https://www.sec.gov/Archives/edgar/data/1618756/000161875626000045/qsr-20260630.htm",
+    "status": 200
+  },
+  {
+    "symbol": "NTR",
+    "url": "https://www.nutrien.com/investors/financial-reporting",
+    "status": 200
+  }
+]

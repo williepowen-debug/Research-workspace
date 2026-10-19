@@ -1,0 +1,9 @@
+Separate index/sector/BOTH-up robust in20and60: ['MOS', 'HII', 'ADM', 'CPRT']
+MOS {'control': None, 'weak_cap_bn': 7.651748102205948, 'reason': 'No verified stronger peer within2x in boundedindustrypool;seeaudit,notwholemarketcensus'}
+HII {'control': None, 'weak_cap_bn': 10.87950068880417, 'reason': 'No verified stronger peer within2x in boundedindustrypool;seeaudit,notwholemarketcensus'}
+ADM {'control': None, 'weak_cap_bn': 40.189158676147464, 'reason': 'No verified stronger peer within2x in boundedindustrypool;seeaudit,notwholemarketcensus'}
+MGM {'control': 'WYNN', 'size_ratio': 1.1309488426778906, 'weak_cap_bn': 9.743933643212975, 'control_cap_bn': 8.615715650003258, 'difference_pp': {'5': -4.259777788352748, '20': -17.68168793813021, '60': -16.070005587654602}}
+MCD {'control': 'SBUX', 'size_ratio': 1.6216604963247965, 'weak_cap_bn': 175.4101861595609, 'control_cap_bn': 108.16702173919678, 'difference_pp': {'5': -3.0671646097798044, '20': -5.231437481974388, '60': -3.0257925388296414}}
+PCAR {'control': None, 'weak_cap_bn': 60.38928456695557, 'reason': 'No verified stronger peer within2x in boundedindustrypool;seeaudit,notwholemarketcensus'}
+CPRT {'control': None, 'weak_cap_bn': 26.765209803352377, 'reason': 'No verified stronger peer within2x in boundedindustrypool;seeaudit,notwholemarketcensus'}
+PASS strongerpeerconstraints,2xsize,preformationavailability,denominatorsensitivity,noforcedmatch
