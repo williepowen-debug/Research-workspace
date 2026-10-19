@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-19T13:28:10-04:00 — Will-directed workbook reconciliation against October19 saved primary evidence; current mirrors repaired, dated history retained. → `audits/2026-10-19_workbook-reconciliation/REPORT.md`. No gate/count/capital change.
+**Last Updated:** 2026-10-19T13:44:41-04:00 — CLOSED at Will’s direct request; no new source pull. Evidence/frontiers unchanged. Workbook audit: `audits/2026-10-19_workbook-reconciliation/REPORT.md`; closeout: `reports/2026-10-19_Will-closeout.md`. X1 CLOSED; no capital change.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 

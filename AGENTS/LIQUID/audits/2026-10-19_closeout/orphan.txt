@@ -1,0 +1,47 @@
+⚠️  uncommitted files outside AGENTS/LIQUID/:
+     [not yours]    AGENTS/BROCK/inbox/2026-10-19_from-GIBBS_canonical-NDFI-consumed.md
+     [not yours]    AGENTS/GIBBS/NEXUS_BRIEF.md
+     [not yours]    AGENTS/OTTO/research/2026-10-19_forecast-repair/
+     [not yours]    AGENTS/REGINALD/inbox/2026-10-19_from-GIBBS_first-owner-Q3-context.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq-excerpt.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.pdf
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss-excerpt.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.pdf
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-volta-bloomberg.html
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/ai-fed.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/bund.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/eurusd.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/italy.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/nahb.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-1.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-10.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-11.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-12.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-13.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-14.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-2.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-3.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-4.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-5.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-6.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-7.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-8.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context-9.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/status-context.json
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/ttf.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/uk10.html
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/uk30.html
+     [not yours]    PROME/inbox/2026-10-19_from-GIBBS_morning-first-owner-PARTIAL.md
+     [not yours]    PROME/tools/tests/ACCEPTANCE_projection_isolation_2026-10-19.md
+     [not yours]    PROME/tools/tests/test_heartbeat_projection.py
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

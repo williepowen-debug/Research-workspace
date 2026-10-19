@@ -1,0 +1,16 @@
+{
+  "base": "3de841ef2",
+  "status_bytes": 22663,
+  "passed": 8,
+  "total": 8,
+  "checks": {
+    "five_gates_retained": true,
+    "STATUS_below_postrotation_target": true,
+    "STATUS_only_closeout_header_changed": true,
+    "all_23_workbook_files_unchanged_since_reconciliation": true,
+    "NEXUS_only_explicit_closeout_note_added": true,
+    "memory_records_direct_Will_closeout": true,
+    "no_whitespace_errors": true,
+    "no_new_auto_memory": true
+  }
+}
