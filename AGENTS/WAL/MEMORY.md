@@ -4,6 +4,8 @@
 
 **LAST SESSION:** Will directly commissioned release-night grading. Read frozen frame first, then retrieved SEC8-K0001628280-26-066286 release +24slides; no helper. `research/2026-10-19_Q3_STAGE1_GRADE.md` owns grades, sources, five findings, ten exact call questions, account context and limitations. Ledger WAL02 INVALIDATED30bps with10-Qconfirmpending; WAL01 OPEN with provisionalINVALIDATED272.75M and later10-Qcross-check. Priorprobabilities25%/50%unchanged. MigrationDP2provisional; finalcounter1of3untilcall. Stage2future, not an unperformed release-night duty.
 
+**EXPLICIT CLOSEOUT — 2026-10-19T17:43:39-04:00:** PROME requested final persistence/notification/closeout via this conversation. Existing report/source/protected records and delivery packets verified; no new research run. WAL confirms release-night work complete and this pass closed, no background work. Receipt `research/2026-10-19_Q3-stage1-closeout-receipt.json`; evidence delivery92e38d67f, subsequent freshness234311645. Supplied PROME/TERRY thread IDs recorded as supplied, not verified native identity; no exposed transport for those IDs. Final reply and committed PROME receipt carry notice; artifact consumption remains UNKNOWN. No new Will ruling.
+
 ### NEXT SESSION — existing carriers only
 
 1. **October20 noonET call:** use the ten-question table in Stage1report verbatim as collection aid. Lead with99M appraisal/carry/reserve/status and explicitnewmigrations; then four-of-six/OREObridge, guided567NPLbasis and Officeexposure. If99Msilentaftercall⇒PENDING-10-Q, neverbenign; reserveundisclosednotzero. FinalizeDP2onlywithaddressedtopicandnonewidentifiedmigration. No incrementfromdeltas.
