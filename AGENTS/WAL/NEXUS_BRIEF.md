@@ -1,10 +1,10 @@
 # WAL — NEXUS Brief
 
-**As of:** October19 2026 after close. **STATUS commit `92e38d67fdac680a4c459fffbac13bfdd3118e57`**. Final desk write after the Stage1 STATUS/source/delivery commit.
+**As of:** October19 2026 after close. **STATUS commit `c0648632ca392fc98a3e3db91d16515d412be041`**. Final desk write after the Stage1 STATUS/source/delivery commit.
 **Status:** Q3 Stage1 complete; Stage2 **PENDING-CALL October20 12:00ET**. Release-night creditactuals weaken the near-term bear; earnings/capital mixed; decisive$99M appraisal unknown. No demonstrated expectations gap established.
 **Thesis:** v2.4; Bear-fast2%/Bear-medium16%/Base45%/Bull30%/Tail7%; **EV$75.96 /PT$52–76**, V3=3/5, composite13/25 unchanged. Canonical THESIS/SCENARIOS/frozenframebytes preserved. No score/weight/traderule/order change.
 **Domain:** issuer evidence, credit depth and frozen grading. REGINALD owns funding/peers/severity/priceguard; TERRY/Will manage positions. No helpers or duplicate desk launches.
-**Positions:** POSITIONS/FORGE per-account evidence, October19Fidelity versus September29Robinhoodcarry. Neither Fidelity line inherits Robinhood's81.90×3/December4rules. Existing65PcarddischargesoldDecember16duty; approvedpreprintsaleunexecutedinthecapture,windowelapsed/no renewal. NewFidelity70Popening/card/approvalunknown. Alloptionssell-or-roll.
+**Positions:** POSITIONS/FORGE per-account evidence, October19Fidelity versus September29Robinhoodcarry. Neither Fidelity line inherits Robinhood's81.90×3/December4rules. Existing65PcarddischargesoldDecember16duty; approvedpreprintsalenotevidencedinthecapture,windowelapsed/no renewal. NewFidelity70Popening/card/approvalunknown. Alloptionssell-or-roll.
 
 ## Recent pivot
 
@@ -46,3 +46,5 @@ Will-onlydependenciesremainwithPROME: recorder/APNmissingwithOctober13response; 
 Rootpull/pushdeferredbecauseforeigndirtyworkremains. Exactpathlocalcommitsonly; noGitHubpushreceiptclaimed. ThisbriefislastdeskwriteandmustbecommittedafteritsSTATUSpin. Nohelpers/backgroundresearchrunning; futurecarrierhandoffsaved.
 
 FinalfreshnesscheckfoundoldretainedheaderclocksbesideOctober19actualrefresh. PriorcommentlabelsnowreadHistoricaldatarefresh,withdates/narrativesandallnoncommentrowbytesunchanged; latestrealclockisOctober19. IndividualstaleKB223stillflagged. Thisfinalbrieffoldfollowstheheaderrepair; STATUSpinremainsunchanged.
+
+**Explicit continuation closeout:** PROME/Will coordination request received in this conversation; WAL reconciled saved artifacts without research restart and confirms release-night work complete. Receipt `research/2026-10-19_Q3-stage1-closeout-receipt.json`; rootPROMEcloseoutpacket `PROME/inbox/2026-10-19_from-WAL_Q3-stage1-explicit-closeout.md`, STATUS/receiptcommit c0648632ca392fc98a3e3db91d16515d412be041. Native transport for supplied PROME/TERRYthreadIDs unavailable; no fabricated send/consumption/identity acknowledgment. No new Will decision, probability/rule change, helper or background job. Tomorrow's call/close and later10-Q remain existing handoffs. This is the final desk write after the explicit-closeout STATUS commit.
