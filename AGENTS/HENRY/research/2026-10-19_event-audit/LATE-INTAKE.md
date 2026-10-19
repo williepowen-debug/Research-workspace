@@ -1,0 +1,17 @@
+# Financing and bank-owner findings received before closeout
+
+Read at 2026-10-19T18:57:38-04:00; exact committed versions and SHA256 equality are recorded in `late-owner-consumption.json`. This supplements, without overwriting, research730ed937d and the previously delivered shortlist hashes.
+
+**LIQUID completed the initial financing investigation:** nine issuers/controls,22datedevents,68sourcearchive members and37/37owner checks. HENRY read the full [conditional financing result](../../../LIQUID/research/2026-10-19_equity-financing/conditional/RESULT.md) at5de5eeb1c. The equity shortlist is no longer a dependency or a blocker. Final attribution remains unresolved.
+
+|Finding consumed from owner|Implication and limit|
+|---|---|
+|Mosaic/ADM completed bond issuance; HII’s reported interest expense fell despite low cash/working-capital absorption; Copart renewed its bank line and completed ACV.|A common inability to finance is not established. Positive access at a transaction date does not certify current cash, every draw condition or future access. HENRY independently captured Mosaic/ADM issuance and Copart completion/annual renewal; other financing fields are consumed owner evidence.|
+|Stronger-performing Wynn issued6.875%notes; McDonald’s reports higher average rates; PCAR’s borrowing rate fell while customer-credit losses rose.|Higher costs, corporate funding access and customer losses are different channels. There is no verified common rising-cost explanation or matched financing ordering. Geography, operations and cash perimeters matter.|
+|Mosaic’s scheduledSeptember28redemption payment remains unconfirmed; private covenant/draw data, current cash bridges, complete obligations and comparable issuer spreads/rating histories remain incomplete.|Missing evidence is unknown, not zero. Item2.04 voluntary-redemption wording is not a default. Do not invent an October cash balance or convert a financing mechanism into an equity-causal coefficient.|
+
+**WAL consumed the focused context and supplied its contribution:** exact [bank-stress context](../../../WAL/research/2026-10-19_broader-bank-stress-context.md) read atfd3f986ae. The owner reports Q3 net charge-offs30bps, broadly stable deposits and lower borrowings as counterevidence to a common funding shock; rising special mention/OREO and capital marks remain cautions with distinct explanations. These are dated owner observations, not an independently reproduced HENRY bank analysis. One bank’s quarter does not establish sector health or post-quarter liquidity. WAL’s existing October20call/regular-close tests and later10-Q remain its carriers; no new broad study.
+
+HENRY’s final assessment is unchanged in direction but better supported: MOS strongest residual equity candidate, ADM qualified, HII/CPRT event-sensitive and outperforming their broad sectors over60sessions. Funding pressure can amplify some cases, but current evidence does not identify financing as the common cause. Equal-weight recovery and five-day gains remain material. HENRY selection and LIQUID’s initial investigation are delivered; the scientific attribution and current exposure gaps remain open.
+
+PROME can combine these owner findings with CRUISE/VIOLET/WALTER’s existing work, preserving TERRY/WAL priorities. This is integration, not new tasking or a claim of full-fleet consumption. New event-audit reads and native closeout transport remain unverified. No new trade, sizing, monitor, threshold, forecast or Will decision.

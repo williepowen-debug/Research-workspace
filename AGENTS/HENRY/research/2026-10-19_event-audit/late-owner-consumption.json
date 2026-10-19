@@ -1,0 +1,18 @@
+[
+  {
+    "observed_at": "2026-10-19T18:57:38-04:00",
+    "path": "AGENTS/LIQUID/research/2026-10-19_equity-financing/conditional/RESULT.md",
+    "commit": "5de5eeb1c",
+    "sha256": "64b6aacbaf6aa020f3f04f5b39dc6e9e0206694db8eb019321c7c97016aa8774",
+    "committed_blob_equal": true,
+    "read_scope": "Full owner result read in sections; owner evidence consumed, not independent re-audit of all financing/accounting fields"
+  },
+  {
+    "observed_at": "2026-10-19T18:57:38-04:00",
+    "path": "AGENTS/WAL/research/2026-10-19_broader-bank-stress-context.md",
+    "commit": "fd3f986ae",
+    "sha256": "f5ec2251ad80d12f946444f4ef308a0a010d389dbc823bcabc3af53eccf8380f",
+    "committed_blob_equal": true,
+    "read_scope": "Full owner result read in sections; owner evidence consumed, not independent re-audit of all financing/accounting fields"
+  }
+]
