@@ -1,0 +1,230 @@
+Asking Prices Fall For the First Time Since March (https://www.redfin.com/news/housing-market-update-asking-prices-decline-october/)
+citeturn22view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.redfin.com/news/housing-market-update-asking-prices-decline-october/","lineno":160}); Total lines: 672
+L1: ### Access comprehensive market data, trends, and insights in one place
+L2: 
+L3: cite0†Learn More L4: 
+L5:   * Buy
+L6: 
+L7: Close Buy Open Buy
+L8: 
+L9: Popular Searches
+L10: 
+L11:     * cite1†Homes for sale L12:     * cite2†Condos for sale L13:     * cite3†Land for Sale L14:     * cite4†Open houses L15:     * cite1†Homes for sale L16:     * cite2†Condos for sale L17:     * cite3†Land for Sale L18:     * cite4†Open houses L19: 
+L20: Buying Options
+L21: 
+L22:     * cite5†Buy with Redfin L23:     * cite6†Redfin Premier L24:     * cite7†Redfin Early Access L25:     * cite5†Buy with Redfin L26:     * cite6†Redfin Premier L27:     * cite7†Redfin Early Access L28: Buying Resources
+L29: 
+L30:     * cite8†Affordability calculator L31:     * cite9†Home buying guide L32:     * cite10†Free home buying classes L33:     * cite11†US housing market L34:     * cite8†Affordability calculator L35:     * cite9†Home buying guide L36:     * cite10†Free home buying classes L37:     * cite11†US housing market L38: 
+L39:   * Rent
+L40: 
+L41: Close Rent Open Rent
+L42: 
+L43: Rental Resources
+L44:     * cite12†Renter dashboard L45:     * cite13†Rental market tracker L46:     * cite14†How much rent can I afford? L47:     * cite15†Should I rent or buy? L48:     * cite16†Renter guide L49:     * cite12†Renter dashboard L50:     * cite13†Rental market tracker L51:     * cite14†How much rent can I afford? L52:     * cite15†Should I rent or buy? L53:     * cite16†Renter guide L54: 
+L55: Redfin Rental Tools
+L56:     * cite17†List my home for rent L57:     * cite18†Rental Tools dashboard L58:     * cite19†US rental market trends L59:     * cite20†Should I sell or rent my home? L60:     * cite17†List my home for rent L61:     * cite18†Rental Tools dashboard L62:     * cite19†US rental market trends L63:     * cite20†Should I sell or rent my home? L64: 
+L65:   * Sell
+L66: 
+L67: Close Sell Open Sell
+L68: 
+L69: My Home
+L70: 
+L71:     * cite21†What is my home worth? L72:     * cite22†My home dashboard L73:     * cite21†What is my home worth? L74:     * cite22†My home dashboard L75: 
+L76: Redfin Selling Options
+L77:     * cite23†Why sell with Redfin? L78:     * cite24†Redfin Premier L79:     * cite7†Redfin Early Access L80:     * cite25†Redfin Full Service L81:     * cite26†Find an agent L82:     * cite23†Why sell with Redfin? L83:     * cite24†Redfin Premier L84:     * cite7†Redfin Early Access L85:     * cite25†Redfin Full Service L86:     * cite26†Find an agent L87: 
+L88: Selling Resources
+L89: 
+L90:     * cite27†Home selling guide L91:     * cite28†Will selling pay off? L92:     * cite29†Home improvement trends L93:     * cite27†Home selling guide L94:     * cite28†Will selling pay off? L95:     * cite29†Home improvement trends L96:   * Mortgage
+L97: 
+L98: Close Mortgage Open Mortgage
+L99: 
+L100: Redfin and Rocket Mortgage have partnered to make buying a home easier. ⓘ Rocket Mortgage is an affiliate of Redfin. You aren’t required to use its lending services. Learn more at  cite30†redfin.com/afba .
+L101: 
+L102: cite31†See what's possible L103: 
+L104: Mortgage rates
+L105:     * cite32†Get prequalified L106:     * cite33†Today’s mortgage rates L107:     * cite34†Today’s refinance rates L108:     * cite35†Home equity loan L109:     * cite32†Get prequalified L110:     * cite33†Today’s mortgage rates L111:     * cite34†Today’s refinance rates L112:     * cite35†Home equity loan L113: 
+L114: Calculators
+L115:     * cite36†Payment calculator L116:     * cite8†How much can I afford? L117:     * cite37†Home equity calculator L118:     * cite38†Rent vs. buy L119:     * cite39†How to get pre-approved L120:     * cite36†Payment calculator L121:     * cite8†How much can I afford? L122:     * cite37†Home equity calculator L123:     * cite38†Rent vs. buy L124:     * cite39†How to get pre-approved L125: 
+L126:   * Real Estate Agents
+L127: 
+L128: Close Real Estate Agents Open Real Estate Agents
+L129:     * cite40†Find an Agent L130:     * cite41†Join us as a Redfin Agent L131:     * cite42†Join our referral network L132:     * cite43†Agent Resource Center L133:     * cite40†Find an Agent L134:     * cite41†Join us as a Redfin Agent L135:     * cite42†Join our referral network L136:     * cite43†Agent Resource Center L137: 
+L138:   * cite44†Feed L139: 
+L140:   * cite45†Housing Market L141:   * cite13†Rental Market L142:   * cite46†Equality & Policy L143:   * cite47†Lifestyle L144:   * cite48†From Our Economists L145:   * cite0†Data Center L146:   * cite49†Company News L147:   * cite50†Press Center L148:   * cite51†Contact L149:   * cite45†Housing Market L150:   * cite13†Rental Market L151:   * cite46†Equality & Policy L152:   * cite47†Lifestyle L153:   * cite48†From Our Economists L154:   * cite0†Data Center L155:   * cite49†Company News L156:   * cite50†Press Center L157:   * cite51†Contact L158: 
+L159: Search [Input: Search...]
+L160: # Housing Market Update: Asking Prices Fall For the First Time Since March
+L161: 
+L162: Published on October 15th, 2026 by cite52†Dana Anderson L163: 
+L164: Pending home sales inched up this week, but they’re still near record lows.
+L165: 
+L166: What to know about the U.S. housing market for the four weeks ending October 11:
+L167:   *     * Home prices are losing momentum. The median U.S. home-sale price rose just 0.5% year over year, the slowest growth rate since March. The median asking price fell 0.3% year over year, its first decline since March. Some relief could be on the horizon for buyers.
+L168:     * Mortgage rates are still a vital stat for homebuyers and sellers. The weekly average mortgage rate hit a 3-year high of cite53†7.4%†www.freddiemac.com on October 8. Daily average rates have eased slightly in recent days, dipping to cite54†7.45%†www.mortgagenewsdaily.com on October 14 from 7.61% about a week earlier.
+L169:     * The typical homebuyer’s monthly payment is $2,777, the highest level on record except the previous week. That’s due to high mortgage rates and still-increasing home prices.
+L170:     * Homebuying demand remains near record low. Pending home sales ticked up 1.5% from a week earlier–perhaps thanks to rates easing ever-so-slightly–but were still near their lowest level in records dating back to 2021. That includes the end of 2023, when mortgage rates were nearing 8%. Pending sales declined year over year in all 50 of the most populous U.S. metro areas.
+L171:     * Price drops are at a record high. As sellers come to terms with prices losing steam, more of them are dropping their prices: 22% of home sellers with active listings cut their asking price, up from 20.9% a year earlier and the highest level in our records.
+L172:     * Housing supply is growing, but slowly. New listings of homes for sale inched up 0.4% week over week, while the total number of homes for sale rose 0.8%.
+L173: For Redfin economists’ takes on the housing market, please visit Redfin’s “cite48†From Our Economists ” page.
+L174: ### Below is a summary of our most recent housing-market data. For more national and metro-level stats, please visit cite55†Redfin’s data center. L175: U.S. highlights: Four weeks ending Oct. 11, 2026 Redfin’s national metrics include data from 900+ U.S. metro areas and are based on homes listed and/or sold during the period. Weekly housing-market data goes back through 2021. Subject to revision.
+L176:  | Four weeks ending Oct. 11, 2026  | Year-over-year change  | Week-over-week change (where applicable)  | Notes
+L177: Median sale price  | $391,116  | 0.5%  |  | Slowest price growth since March
+L178: Median asking price (seasonally adjusted)  | $396,881  | -0.3%  |  | First decline since March
+L179: Median monthly mortgage payment (seasonally adjusted)  | $2,777 at a 7.4% mortgage rate  | 8.8%  |  | Highest level in our records (except the prior week)
+L180: Pending sales (seasonally adjusted)  | 286,531  | -12.7%  | 1.5%  | Lowest level in our records (except the prior week)
+L181: New listings (seasonally adjusted)  | 359,859  | -1.3%  | 0.4%  |
+L182: Active listings (seasonally adjusted)  | 1,506,396  | 2%  | 0.8%  |
+L183: Months of supply   | 4.2  | Up from 3.8  |  | 4 to 5 cite56†months of supply is considered balanced
+L184: Share of homes off market in two weeks   | 29%  | Down from 29.6%  |  |
+L185: Median days on market  | 49  | 1  |  |
+L186: Share of home listings with price drops  | 22%  | Up from 20.9%  |  |
+L187: Share of homes sold above list price  | 23.6%  | Up from 23.2%  |  |
+L188: Average sale-to-list price ratio   | 98.4%  | Up from 98.3%  |  |
+L189: Metro-level highlights: Four weeks ending Oct. 11, 2026 Redfin’s metro-level rankings data includes the 50 most populous U.S. metros. Select metros may be excluded from time to time to ensure data accuracy.
+L190: ---
+L191:  | Metros with biggest year-over-year increases  | Metros with biggest year-over-year decreases  | Notes
+L192: --- | --- | --- | ---
+L193: Median sale price  | San Francisco (18.1%) Detroit (9.4%) West Palm Beach, FL (7.8%) Chicago (5.2%) Newark, NJ (5.1%)  | Seattle (-6.3%) San Jose, CA (-4.8%)
+L194: Orlando, FL (-3.4%) Charlotte, NC (-2.3%) Anaheim, CA (-2.1%)  |
+L195: --- | --- | --- | ---
+L196: Pending sales  |  | Seattle (-26%) Atlanta (-22.7%) San Diego (-22.6%) Denver (-19.3%) Minneapolis (-18.5%)  | Declined in every single metro we analyzed for the first time in 3 years
+L197: New listings  | Nashville, TN (22.1%) San Jose, CA (20.3%) Boston (12.4%) San Francisco (11.5%) Newark, NJ (8.7%)  | Atlanta (-21.3%) San Antonio (-14.6%) Dallas (-10.2%) Fort Worth, TX (-9.2%) Jacksonville, FL (-6.5%)  |
+L198: Refer to our cite57†metrics definition page for explanations of all the metrics used in this report.
+L199: 
+L200: cite58†Image L201: #### cite52†Dana Anderson L202: 
+L203: ######
+L204: 
+L205: As a data journalist at Redfin, Dana Anderson writes about the numbers behind real estate trends. Redfin is a full-service real estate brokerage that uses modern technology to make clients smarter and faster. For more information about working with a Redfin real estate agent to buy or sell a home, visit our Why Redfin page.
+L206: 
+L207: Email Dana (dana.anderson@redfin.com)
+L208: ### Get a home loan
+L209: that helps you win
+L210: 
+L211: cite59†Get prequalified L212: 
+L213: Join us on X for more
+L214: #housingmarket updates
+L215: 
+L216: cite60†Follow Us†twitter.com L217: ### You Might Also Like
+L218: cite61†Pending Home Sales Dip to Lowest Level in Nearly 3 Years cite62†High Costs Sideline Some Would-Be Homebuyers, Handing Upper Hand to Those Who Stay in the Market cite63†Homebuyers Have More Fresh Options Than They’ve Had in 4 Years cite64†New Listings Hit 4-Month High While Demand Slips, Giving Serious Buyers Chance to Get a Deal Done cite65†New Listings Tick Up As Summer Winds Down cite66†U.S.
+L219: Pending Home Sales, New Listings Show Flickers of Life to Start August cite67†Home Sales Drop to Lowest Level in Nearly 2 Years, With Texas and Seattle Driving Decline L220: ### Be the first to see the latest real estate news:
+L221: 
+L222:   * Email
+L223: 
+L224: [Input]
+L225: 
+L226: This field is for validation purposes and should be left unchanged.
+L227: 
+L228:   * Email*
+L229: 
+L230: [Input: Email Address]
+L231: 
+L232: [Button: Sign up] [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input] [Input]
+L233: 
+L234: By submitting your email you agree to cite68†Redfin’s Terms of Use and Privacy Policy L235: 
+L236: ### Follow Redfin
+L237: ### cite69†Looking for tips and advice about buying, selling, and home improvement? Visit our blog! L238: 
+L239: Search for homes by city
+L240: cite70†Albuquerque Real Estate L241:   * cite71†Alexandria Real Estate L242:   * cite72†Anchorage Real Estate L243:   * cite73†Arlington Real Estate L244:   * cite74†Ashburn Real Estate L245:   * cite75†Atlanta Real Estate L246:   * cite76†Aurora Real Estate L247:   * cite77†Austin Real Estate L248:   * cite78†Bakersfield Real Estate L249:   * cite79†Baltimore Real Estate L250:   * cite80†Baton Rouge Real Estate L251:   * cite81†Beaverton Real Estate L252:   * cite82†Bend Real Estate L253:   * cite83†Birmingham Real Estate L254:   * cite84†Boca Raton Real Estate L255:   * cite85†Boise Real Estate L256:   * cite86†Boston Real Estate L257:   * cite87†Boulder Real Estate L258:   * cite88†Bowie Real Estate L259:   * cite89†Brentwood Real Estate L260:   * cite90†Buffalo Real Estate L261:   * cite91†Burlington Real Estate L262:   * cite92†Cape Coral Real Estate L263:   * cite93†Chandler Real Estate L264:   * cite94†Charleston Real Estate L265:   * cite95†Charlotte Real Estate L266:   * cite96†Chattanooga Real Estate L267:   * cite97†Chicago Real Estate L268:   * cite98†Cincinnati Real Estate L269:   * cite99†Colorado Springs Real Estate L270:   * cite100†Columbia Real Estate L271:   * cite101†Columbus Real Estate L272:   * cite102†Dallas Real Estate L273:   * cite103†Denver Real Estate L274:   * cite104†Des Moines Real Estate L275:   * cite105†Detroit Real Estate L276:   * cite106†El Paso Real Estate L277:   * cite107†Elk Grove Real Estate L278:   * cite108†Eugene Real Estate L279:   * cite109†Fairfax Real Estate L280:   * cite110†Flagstaff Real Estate L281:   * cite111†Fort Collins Real Estate L282:   * cite112†Fort Lauderdale Real Estate L283:   * cite113†Fort Myers Real Estate L284:   * cite114†Fort Worth Real Estate L285:   * cite115†Frederick Real Estate L286:   * cite116†Fremont Real Estate L287:   * cite117†Fresno Real Estate L288:   * cite118†Frisco Real Estate L289:   * cite119†Gilbert Real Estate L290:   * cite120†Glenview Real Estate L291:   * cite121†Henderson Real Estate L292:   * cite122†Honolulu Real Estate L293:   * cite123†Houston Real Estate --------------------------------------------------------------------------------
+Housing demand finds a new home in rentals, up 19.2% (September Rent Report) | Zillow Research (https://www.zillow.com/research/september-2026-rent-report/)
+citeturn22view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.zillow.com/research/september-2026-rent-report/","lineno":18}); Total lines: 221
+L0: cite0†Research Open menu
+L1: 
+L2: cite1†Housing Market cite2†Rental Market cite3†New Construction cite4†Policy & Industry cite5†Macroeconomy L3: 
+L4: [Input: Search]
+L5: 
+L6:   * cite1†Housing Market L7: 
+L8:   * cite2†Rental Market L9: 
+L10:   * cite3†New Construction L11: 
+L12:   * cite4†Policy & Industry L13: 
+L14:   * cite5†Macroeconomy L15: 
+L16: cite6†Rental Market cite7†Featured Insights cite8†Rental Market Reports L17: 
+L18: 6 min read
+L19: # Housing demand finds a new home in rentals, up 19.2% (September Rent Report)
+L20: 
+L21: As elevated borrowing costs push up a buyer’s monthly payment, more shoppers are choosing to rent.
+L22: 
+L23: cite9†Image: Housing demand finds a new home in rentals, up 19.2% (September Rent Report)†www.zillowstatic.com L24: 
+L25: cite10†Image: Kara Ng†www.zillowstatic.com L26: 
+L27: Written by Kara Ng on October 15, 2026
+L28:   * Rental demand is up 19.2% year over year nationwide, as measured by the Zillow Observed Renter Demand Index (ZORDI).^{cite11†1 }
+L29:   * The typical U.S. rent was $1,932 a month in September, up 2.7% from a year ago.
+L30:   * The financial advantage of renting is growing, as the typical new home buyer’s monthly payment^{cite12†2 } is climbing nearly twice as fast as rent, up 5% from a year ago to $3,037.
+L31: Housing demand doesn’t disappear when buying becomes harder financially. Instead, it finds a new home in the rental market. The Zillow Observed Renter Demand Index (ZORDI), an indicator of rental demand, rose 19.2% year over year as elevated borrowing costs push would-be buyers to rent instead.
+L32: Rents are climbing, but buying costs are climbing faster. Typical rent is $1,932 a month, up 2.7% from a year ago. By comparison, the typical new home buyer’s monthly payment has risen 5%, to $3,037, nearly double the pace.
+L33: 
+L34: A buyer’s monthly payment is climbing nearly twice as fast as rent, and for some shoppers, that gap is the start of a different plan. These deliberate renters keep their housing costs lower, put the difference toward saving and investing, and build wealth without a mortgage.
+L35: And for many home shoppers, what they still want is a house. ZORDI shows demand for single-family rentals up 21.6% from a year ago, more than double the 10.1% rise for multifamily rentals. At a typical rent of $2,266, renting a house offers the space and lifestyle shoppers want without a down payment or the hidden costs of owning, and it costs $771 less each month than a buyer’s monthly payment.
+L36: For shoppers weighing renting against buying, Zillow’s cite13†rent vs. buy research breaks down the break-even timeline by metro, that timeline being the number of years a household would need to own before buying comes out ahead.
+L37: 
+L38: Rental demand surges in the Bay Area and the Sun Belt
+L39: 
+L40: Rental demand rose the most in San Jose, where ZORDI is up 82.5% from a year ago, followed by San Francisco (66.9%), Austin (49.3%), Miami (48.9%) and Phoenix (43%).
+L41: Rent growth over the past year was also fastest in California’s Bay Area, where typical rent is up 11.8% in San Francisco and 8.3% in San Jose. In the other markets where demand has jumped the most, rent growth was more moderate, at 0.7% in Austin, 1.8% in Miami and 1% in Phoenix, as new construction has kept supply in step with demand.
+L42: Not every market is following the national trend. ZORDI is down year over year in markets that include Louisville (down 6.2%), Baltimore (-6.1%), Washington, D.C. (-5.6%) and Cleveland (-5.5%).
+L43: 
+L44: Affordability holds steady for renters
+L45: The median household spends 26.3% of its income on a new rental, essentially unchanged from a year ago, compared with 41.3% spent by a new homeowner. A household needs an income of $77,278 to afford a typical rental versus $121,496 to afford a typical home, a gap of more than $44,000.
+L46: Metro area*  | Zillow Observed Renter Demand Index (ZORDI), YoY  | Zillow Observed Rent Index (ZORI)  | Zillow Observed Rent Index (ZORI), YoY  | Typical monthly payment for a new homeowner (10% down, 30-year fixed)  | Typical monthly payment for a new homeowner (10% down, 30-year fixed), YoY
+L47: United States  | 19.2%  | $1,932  | 2.7%  | $3,037  | 5.0%
+L48: New York, NY  | 19.3%  | $3,546  | 4.2%  | $6,296  | 8.6%
+L49: Los Angeles, CA  | 25.9%  | $2,929  | 1.8%  | $7,473  | 5.3%
+L50: Chicago, IL  | 21.6%  | $2,163  | 4.7%  | $3,120  | 8.5%
+L51: Dallas, TX  | 38.9%  | $1,659  | 0.7%  | $3,205  | 1.6%
+L52: Houston, TX  | 32.2%  | $1,638  | 0.1%  | $2,665  | 1.9%
+L53: Washington, DC  | -5.6%  | $2,407  | 1.4%  | $4,673  | 4.1%
+L54: Philadelphia, PA  | 13.1%  | $1,903  | 3.3%  | $3,335  | 6.1%
+L55: Miami, FL  | 48.9%  | $2,654  | 1.8%  | $4,259  | 3.8%
+L56: Atlanta, GA  | 26.3%  | $1,843  | 2.1%  | $3,154  | 2.3%
+L57: Boston, MA  | 21.2%  | $2,987  | 2.3%  | $5,926  | 6.0%
+L58: Phoenix, AZ  | 43.0%  | $1,720  | 1.0%  | $3,400  | 3.1%
+L59: San Francisco, CA  | 66.9%  | $3,445  | 11.8%  | $8,931  | 7.1%
+L60: Riverside, CA  | 26.9%  | $2,533  | 2.9%  | $4,689  | 4.5%
+L61: Detroit, MI  | 8.4%  | $1,514  | 4.2%  | $2,267  | 5.5%
+L62: Seattle, WA  | 7.7%  | $2,250  | 1.8%  | $5,817  | 2.3%
+L63: Minneapolis, MN  | 21.0%  | $1,736  | 3.5%  | $3,341  | 5.4%
+L64: San Diego, CA  | 29.1%  | $2,967  | 2.2%  | $7,308  | 4.8%
+L65: Tampa, FL  | 23.2%  | $1,991  | 0.4%  | $3,128  | 2.8%
+L66: Denver, CO  | 19.6%  | $1,900  | 0.0%  | $4,457  | 2.2%
+L67: Baltimore, MD  | -6.1%  | $1,937  | 2.7%  | $3,337  | 4.2%
+L68: St. Louis, MO  | -1.1%  | $1,427  | 4.1%  | $2,377  | 6.8%
+L69: Orlando, FL  | 21.1%  | $1,929  | 0.8%  | $3,301  | 2.3%
+L70: Charlotte, NC  | 17.6%  | $1,735  | 1.4%  | $3,057  | 3.2%
+L71: San Antonio, TX  | 28.7%  | $1,415  | -0.7%  | $2,430  | 1.8%
+L72: Portland, OR  | 15.7%  | $1,803  | 1.1%  | $4,394  | 3.7%
+L73: Sacramento, CA  | 22.8%  | $2,269  | 1.8%  | $4,633  | 3.9%
+L74: Pittsburgh, PA  | 7.7%  | $1,467  | 3.5%  | $1,995  | 3.9%
+L75: Cincinnati, OH  | 0.0%  | $1,522  | 2.8%  | $2,590  | 5.9%
+L76: Austin, TX  | 49.3%  | $1,603  | 0.7%  | $3,696  | -0.6%
+L77: Las Vegas, NV  | 16.9%  | $1,732  | 0.5%  | $3,272  | 1.5%
+L78: Kansas City, MO  | 12.4%  | $1,534  | 3.8%  | $2,818  | 7.2%
+L79: Columbus, OH  | 4.0%  | $1,525  | 2.9%  | $2,813  | 4.9%
+L80: Indianapolis, IN  | 24.2%  | $1,528  | 3.5%  | $2,449  | 4.8%
+L81: Cleveland, OH  | -5.5%  | $1,440  | 4.5%  | $2,217  | 7.3%
+L82: San Jose, CA  | 82.5%  | $3,812  | 8.3%  | $11,845  | 4.3%
+L83: Nashville, TN  | 15.0%  | $1,803  | 1.2%  | $3,558  | 3.5%
+L84: Virginia Beach, VA  | 40.0%  | $1,886  | 7.1%  | $3,095  | 6.6%
+L85: Providence, RI  | -1.3%  | $2,166  | 4.2%  | $4,331  | 7.4%
+L86: Jacksonville, FL  | 35.5%  | $1,680  | 2.2%  | $3,037  | 3.6%
+L87: Milwaukee, WI  | 6.1%  | $1,549  | 5.1%  | $3,364  | 8.9%
+L88: Oklahoma City, OK  | 14.8%  | $1,384  | 2.4%  | $2,191  | 4.5%
+L89: Raleigh, NC  | 23.2%  | $1,669  | 1.4%  | $3,487  | 2.2%
+L90: Memphis, TN  | 19.0%  | $1,393  | 1.1%  | $2,116  | 3.7%
+L91: Richmond, VA  | -2.7%  | $1,706  | 2.5%  | $3,182  | 6.5%
+L92: Louisville, KY  | -6.2%  | $1,339  | 2.0%  | $2,337  | 5.3%
+L93: New Orleans, LA  | 7.9%  | $1,577  | 1.7%  | $2,424  | 4.8%
+L94: Salt Lake City, UT  | 7.4%  | $1,644  | 0.7%  | $4,337  | 5.1%
+L95: Hartford, CT  | -2.9%  | $1,998  | 3.5%  | $3,580  | 8.5%
+L96: Buffalo, NY  | 24.0%  | $1,451  | 3.8%  | $2,274  | 7.6%
+L97: Birmingham, AL  | 23.9%  | $1,404  | 2.9%  | $2,116  | 6.3%
+L98: *Table ordered by market size
+L99: ## Rents
+L100:   * The typical asking rent is $1,932 in September, up 0.1% month-over-month. The pre-pandemic average month-over-month change for this time of year is 0%.
+L101:   * Since the beginning of the pandemic, rents have increased by 38.6%.
+L102:   * Rents are now up 2.7% from last year.
+L103:   * Rents fell, on a monthly basis, in 16 major metro areas. The largest monthly drops are in Boston (-0.6%), Richmond (-0.3%), Orlando (-0.3%), Chicago (-0.2%), and Denver (-0.2%).
+L104:   * Rents are up from year-ago levels in 49 of the 50 largest metro areas. Annual rent increases are highest in San Francisco (11.8%), San Jose (8.3%), Virginia Beach (7.1%), Milwaukee (5.1%), and Chicago (4.7%).
+L105: ## Single-Family Rents
+L106:   * The typical asking rent for single-family homes is $2,266 in September, up 0.1% month-over-month. Since the beginning of the pandemic, single-family rents have increased by 47.1%.
+L107:   * Single-family rents are now up 3.1% from last year.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn22view2 [wordlim: 200] Source: open({"ref_id":"https://www.miamirealtors.com/2026/10/16/miami-dade-breaks-annual-record-for-30-million-plus-home-sales-in-just-nine-months/","lineno":145}); Total lines: 1

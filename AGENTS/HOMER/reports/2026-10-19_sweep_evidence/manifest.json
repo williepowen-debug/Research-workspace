@@ -1,0 +1,86 @@
+[
+  {
+    "key": "trepp_clo",
+    "url": "https://www.trepp.com/trepptalk/cre-clo-multifamily-delinquency-2021-2022",
+    "status": 200,
+    "retrieved_utc": "2026-10-19T16:25:28.959445+00:00",
+    "sha256": "fb67c9512a1e3337ecc858ca46a8b36da58557af2f9bc1e22a9d490bd3a31da3",
+    "text_sha256": "6ff97b92b06038a7409abc8c50ed6fd2acb2d761c45f160e27232d2d210aeca0"
+  },
+  {
+    "key": "trepp_distribution",
+    "url": "https://www.trepp.com/trepptalk/securitized-multifamily-delinquency-cmbs-cre-clo",
+    "status": 200,
+    "retrieved_utc": "2026-10-19T16:25:28.973367+00:00",
+    "sha256": "5f604db5aa9790ef22530f8207a0fa4e9cb18f7d2e0c0ea5c8ec6b5ea2025d1b",
+    "text_sha256": "391c2599e0d35900fd6ccf5ff9d9020c0b9f4ae7266f07f81422005422aebd08"
+  },
+  {
+    "key": "redfin_weekly",
+    "url": "https://www.redfin.com/news/housing-market-update-asking-prices-decline-october/",
+    "status": 429,
+    "retrieved_utc": "2026-10-19T16:25:32.427347+00:00",
+    "sha256": "c1c8abd87274b9243a8e2cbb6630feaa73c28aa4bfe7c3d46a2549cf089c0c46",
+    "text_sha256": "8056ff66de1edab5f248b91a4cf91477739ee56d719ed98a77f0401daa6cce87"
+  },
+  {
+    "key": "zillow_sept",
+    "url": "https://www.zillow.com/research/september-2026-rent-report/",
+    "status": 403,
+    "retrieved_utc": "2026-10-19T16:25:28.900737+00:00",
+    "sha256": "6f8c7b0c39342ac530d68135ed432dcd64e150f624c5e9b69ed220c64b4e3103",
+    "text_sha256": "a6ed6ffd8b30a7b5c0e316a69142d50a974d3760a4c24ab2d7e4d82e9f349d32"
+  },
+  {
+    "key": "hud_total",
+    "url": "https://www.hud.gov/stat/sfh/FHA-Total",
+    "status": 200,
+    "retrieved_utc": "2026-10-19T16:25:29.337131+00:00",
+    "sha256": "1b7fdfdc5f70cd969e00dd379a907617b495aa81031be5636a7c0d5e6718d482",
+    "text_sha256": "4264b3095681a103b93a2a7d00abe731ba86dac23c803ef2d1a87e025ef971bf"
+  },
+  {
+    "key": "mnd",
+    "url": "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
+    "status": 200,
+    "retrieved_utc": "2026-10-19T16:25:29.064969+00:00",
+    "sha256": "a0fc75e8cdda9d6119ba48f46675acf3e85a1fcf3c5bda01933bcb82942ed7ef",
+    "text_sha256": "166acbdacba98bb618d55ef6cb2824fc9f55fa75a26958ea63f7f5102f08c796"
+  },
+  {
+    "key": "miami_sept",
+    "url": "https://www.miamirealtors.com/2026/10/16/miami-dade-breaks-annual-record-for-30-million-plus-home-sales-in-just-nine-months/",
+    "status": 403,
+    "retrieved_utc": "2026-10-19T16:25:28.924338+00:00",
+    "sha256": "f261423d1da97890ff6bfccd31ff4ee0b74f69351cf75095fbe791cb16cbf5bd",
+    "text_sha256": "6fb2e71c994580125a0c78c10572e9fa61f650a9dc6e0ae644ee0aed49092d1f"
+  },
+  {
+    "key": "hud_2026_11",
+    "url": "https://www.hud.gov/sites/default/files/hudclips/documents/2026-11hsgml.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-10-19T16:25:51.324817+00:00",
+    "sha256": "b183cfba8632a1d8ab61655e8bab5d89b0731d7a34a2c143913f4a79ecf368c4",
+    "text_sha256": "b92499f85749d00e7512f7e21bc140129bf85ce23e44d346ec42222b667f460c"
+  },
+  {
+    "key": "hud_2026_12",
+    "url": "https://www.hud.gov/sites/default/files/hudclips/documents/2026-12hsgml.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-10-19T16:25:51.964158+00:00",
+    "sha256": "9d951b68d6d7d7bbd419fe0a6de9e88b108c2dacf15d4a3567aa7b7ba5886688",
+    "text_sha256": "36dc414debfbd1673f6ac18d13a783692f01c3ad5130e04d3c1a8f45deec7de6"
+  },
+  {
+    "key": "web_primary_extracts",
+    "method": "web.run open: Redfin weekly 10/15, Zillow September 10/15, Miami September 10/16; issuer pages accessible via web, shell blocked",
+    "retrieved_utc": "2026-10-19T16:26:44.863570+00:00",
+    "text_sha256": "efd402a19564699f0728bbe36e605356582869182679fd2e94b71049bc49657d"
+  },
+  {
+    "key": "servicer_primary_extracts",
+    "method": "web.run issuer/SEC opens: LDI 8-K, UWM original capital announcement, PFSI events",
+    "retrieved_utc": "2026-10-19T16:28:50.321308+00:00",
+    "text_sha256": "49ba86e8f79e7c81acfc57aaf7bbb101385f71facb62e7d0fb1ca40d4a5f4b71"
+  }
+]

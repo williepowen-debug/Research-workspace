@@ -9,10 +9,7 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
-✅ **10/19 — L725:** October HMI integrated; spread recomputed; Texas auction report inspected with source gaps. Evidence and dispositions → `reports/2026-10-19_morning-L725.md`. Independent Will-launched Codex terminal; local persistence, PROME coordinates push.
-✅ **10/15 PM — L722 FULL CATCH-UP (PROME Tier-1 wake; Will's 10/14 ask).** Pulled at issuer: Trepp Sept DQ + SS (PDFs) · PMMS 10/08 + 10/15 · NAR EHS Sept · ICE Mortgage Monitor Oct · FMHPI Aug · Realtor.com Sept · Redfin Sept (gap + monthly) · MBA wk 10/2 + 10/9 · MND. **NOT OUT at 10/15 noon:** NAHB Oct (Mon 10/19) · ICE First Look Sept (~10/22–28) · ATTOM Sept/Q3. **NOT PULLED:** TX Oct auction list. ⛔ **Trepp MF mat-adj DATED KILL EXECUTED** (absent at source 3 months; successor MF SS).
-⚠️ **10/15 AM (WQ-436 crash recovery):** residue committed, no data refreshed → `archive/STATUS_bottom_line_2026-10-15-AM.md`.
-✅ **10/02 (Tier-2 bounded spawn):** PMMS 10/01 7.28% graded HOLD; CREED MF relay triaged.
+✅ **10/19 — Will-requested sweep + morning L725.** New evidence → `reports/2026-10-19_domain-news-sweep.md`; HMI/spread grade → `reports/2026-10-19_morning-L725.md`. Prior narrative retained in `archive/STATUS_2026-10-19_morning-narrative.md`.
 ⚠️ **YEAR TRAP, now n=4 on this desk:** verify the page's publication YEAR, not just the month.
 
 ---
@@ -33,6 +30,7 @@
 | **★ ICE active FC inventory** | **298K AUG, +41% YoY** (Jul +43%) but **+2K MoM = smallest build since Nov-25**; FC starts 37K, **−5.8% MoM, +29% YoY** (Jul +23%); FC sales 7.8K, 57% of Aug-19 pace | 🔴🔴 conversion / 🟡 **inventory build slowing** |
 | **★★ FHA total DQ (SA)** | **11.79% Q2** (−9bps QoQ, +122bps YoY) | 🔴 **ORANGE, 21bps below RED (>12%)** |
 | **★★ 90+/FC pipeline (ICE basis)** | **872K AUGUST** (574K 90+ + 298K FC; HOMER sum) — Jul 859K · Jun 862K | 🔴🔴 **22K past ORANGE (>850K); RED (>1M) 128K away** |
+| **FHA score model (ML2026-11,10/8)** | VantageScore4.0/FICO10T alongside Classic; case numbers from **1/1/27**. Existing500/580 credit floors unchanged | Origination model/vintage break, not current MBA delinquency change or automatic credit easing |
 | **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🔴 accelerant in force — first visible in FHA FC starts, ~late Oct |
 | **★★ Non-bank servicer watch** | **CLASS A FIRED 2026-08-07: Fitch cut UWM BB- → B+** (non-funding debt/equity 6.1x vs 3.2x; $603M hedge loss). ⚠️ SECONDARY ×2 (HousingWire, Investing.com); Fitch primary owed. **Found 9/29, 53 days late:** this row carried the 7/31 "no event" negative without re-running it. Also: **LDI NYSE <$1 notice 8/21** = no-verdict (price) · RITM S&P **upgrade** 9/28 · PFSI/RKT/ONIT nothing found *(KB-HOMER-033; last full sweep 9/29)* | 🔴 **FIRED (A)** — was labelled "seeded, never fired" |
 
@@ -45,10 +43,12 @@
 | **★★ Fannie MF serious DQ** | **0.57% AUGUST (−5bps)** — Mar 0.78 → Apr 0.64 → May 0.58 → Jun 0.60 → **Jul 0.62 (REVISED from 0.61)** → Aug 0.57 (Table 7, pub 9/25) | 🟡 **8bps below Orange (>0.65%)**; RED untested. ⚠️ mod-suppressible headline — no provision pairing until Q3 10-Q |
 | **★★ GSE BOOKS** | **AUGUST: DIVERGED — Freddie 0.64 ↑ vs Fannie 0.57 ↓, 7bps apart, Freddie now ABOVE.** July (revised) 2bps apart | 🟠 **the 9/24 'both rising' read held for July only.** One month; not a trend |
 | **Fannie MF credit provision** | **$259M Q2 vs $174M Q1 (+49% QoQ)** | 🔴 **this PAIRING held the Q2 signal; the DQ level did not** |
-| **Realized MF marks + rent (ledger `MULTIFAMILY.tsv`)** | **BANC $827.0M to HFS, 95.8% MF** · **Arbor REO $545.9M > non-performing $428.8M + non-accrual $94.9M** (10-Q labels re-read 10/15; ABR never calls the $94.9M "delinquent") · **S2 Capital $400M fund $0-to-LPs** · Oct hard maturities: MF $877.6M, one $569.2M loan at 5.87% DY · rent $1,962 (+2.3% YoY), concessions 39.8% | 🔴🔴 **REALIZED marks, not ratios** |
+| **Realized MF marks + rent (ledger `MULTIFAMILY.tsv`)** | **BANC $827.0M to HFS, 95.8% MF** · **Arbor REO $545.9M > non-performing $428.8M + non-accrual $94.9M** (10-Q labels re-read 10/15; ABR never calls the $94.9M "delinquent") · **S2 Capital $400M fund $0-to-LPs** · Oct hard maturities: MF $877.6M, one $569.2M loan at 5.87% DY · **Zillow SEPT rent $1,932 (+2.7% YoY), MF +2.2%, concessions 39.6%; ZORDI demand +19.2%** (issuer10/15) | 🔴🔴 **REALIZED marks, not ratios** |
 | **★★ Rent-decline breadth** *(re-armed 9/29, Will; HOMER-computed from Apartment List)* | **46 of 100 cities negative YoY, SEPT** — Aug 52 · Apr 60 (peak). RED crossed 7 of last 13 months (recalculated history) | 🟠 **ORANGE — RED (>55%) needs 10 more cities.** Breadth NARROWING: restored measurement, not fresh deterioration |
 | **🔴🔴 ★★ CMBS MF DQ (Trepp)** | **8.04% SEPTEMBER, +35bp — a 2026 HIGH (above Apr 7.71); ISSUER PDF Table 2** (pub 10/02). Aug 7.69 · Jul 7.69 · 3-mo 7.23 · 6-mo 7.15 · 12-mo 6.59 (+145bp YoY). Overall 8.02% (highest since Nov-2020) | 🔴🔴 **THESIS C2 "for" flip MET; kill 0/3.** ⚠️ composition unknown (no 30-day split by type); this series cures in blocks |
 | **★ CMBS MF special servicing** *(now the successor instrument for the retired mat-adj leg)* | **8.54% SEPTEMBER (+17bp)**, ISSUER PDF (pub 10/13) · Aug 8.37 · 6-mo 8.75 · Apr peak 9.08 · 12-mo 8.20. Overall SS 11.49% (highest since Feb-2013) | 🟠 rising with DQ but **not at a new high**; SS−DQ gap 68 → 50bp |
+| **CRE CLO MF reporting cohort (Trepp10/16)** | **2021–22-securitized /5 states: 93 loans, $3.95B;12.2% of book /80.2% of delinquency. Median paired DSCR1.60x→0.64x;93.8% of performing balance WITH latest coverage reports <1.0x** | 🟠 cash-flow pressure before default; selected reporting subset, latest cash-flow dates unspecified. Not whole MF market, bank losses or a C2 resolver |
+| **HUD BTR financing (ML2026-12)** | Qualifying5+ unit purpose-built communities;221(d)(4) new build;223(f) CO<3y. PDF undated, discovered10/19, says effective immediately | Context counterweight, conditional underwriting; not blanket old-MF rescue or funding approval |
 | ⛔ Trepp **maturity-adjusted** MF | **RETIRED 2026-10-15 — DATED KILL EXECUTED:** absent at source Jul · Aug · Sep (Sep PDF read in full: mat-adj printed for the OVERALL book only, 9.66%). Last MF value June 9.53% | ⛔ do not grade, cite as current or wait on it. Successor = MF SS (a REPLACEMENT, never "the mat-adj rate") |
 | ⛔ **MF maturity wall** | **`$160B+` / `$270B+` DEAD (9/2).** Replacement is a **SHARE: 13% of MF balances mature in 2026** [MBA]. ⚠️ Circulating WSJ "$2T" is NOT that figure; its **"$297B in 2026" = 13% × $2.3T — DERIVED, not an MBA print** | ⛔ kill-on-sight |
 | **Morgan Stanley "7.1%" (WSJ 9/21)** | **RULED: an MS series of UNRESOLVED perimeter** — not a stale Trepp vintage; do not join "1% → 7.1%" onto Trepp | ⚪ grades nothing |
@@ -59,7 +59,7 @@
 | **🔴🔴 ★★★ 30-Yr PMMS** | **7.40% [wk 10/15], UNCHANGED** · 7.40 [10/08] (+12) · 7.28 [10/01]; 15Y 6.71%; year-ago 6.27% (+113bps). ISSUER page read 10/15 12:02 ET | 🔴🔴 **RED, 40bps through; no uncrossed rung above.** A2 kill 0/4. The rise PAUSED |
 | **CONTEXT — FOMC 9/16** *(BROCK/HENRY own direction)* | **HIKED 25bp → 3.75–4.00%, 12–0**; SEP 2026 median 4.1 ⇒ one more hike implied | context |
 | **★★ 10Y-FRM spread** | **~221bps [10/15], recomputed 10/19** = PMMS 7.40% − Wed 10/14 nominal 10Y 5.19% (Fed H.15 PRIMARY, FRED MIRROR). Prior ~212 [10/08], ~199 [10/01]; replaces provisional 219 | 🔴 **+9bp WoW; third weekly widening in house Wednesday-close convention.** Weekly survey minus one daily close, not a full-window mean or MBS OAS; cause unknown |
-| **BASIS TRAP** | PMMS 7.40 [10/15] · **MBA 7.50 [wk ending 10/9]** (highest since Nov-2023) · **MND 7.45 [10/14]** (52-wk high 7.61 on 10/5) | ✅ span narrowed 42bps (9/24) → ~10bps: PMMS caught up; MND has eased ~14bps from its high |
+| **BASIS TRAP / daily context** | PMMS 7.40 [10/15] · MBA 7.50 [wk10/9] · **MND 7.40 [10/19 observed]**, after 7.45 [10/14] →7.33 [10/15] →7.37 [10/16] | Different windows. Post-survey relief partly reversed; MND is not a new A2 print or a full-day close |
 | **★★ MBA weekly apps** | **wk ending 10/9: PURCHASE −4% WoW, −16% YoY**; refi −56% YoY; ARM share 10.5% (highest since Oct-25) · wk 10/2: purchase −2.1%, −15% YoY (MBA NewsLink; level 139.3 = T2) | 🟠 purchase demand falling; YoY deepening −11 → −15 → −16% |
 | **🔴🔴 Existing home sales (SAAR)** | **3.99M SEPTEMBER (+1.5% MoM, −2.2% YoY)**, NAR issuer 10/13; **Aug REVISED 3.98 → ~3.93M** (inferred from NAR's % change); 4.8 months; median $417,500 (+1.3%); first-time 31% | 🔴🔴 **RED (<4.0M) crossed by 10K — inside revision noise**; no uncrossed rung |
 | **Pending home sales (NAR)** | **71.2 AUGUST** (+0.3% MoM, −4.7% YoY) ⇒ July implicitly revised to ~71.0 | 🔴 ⛔ still ABOVE the 69.0 COVID trough |
@@ -80,6 +80,7 @@
 | **★ Freddie FMHPI national** | **+2.19% YoY SA AUGUST** (+2.13% NSA; computed from Freddie's index file, posted 9/30) · **July REVISED +2.31 → +1.89%** · Cape Coral −1.53% · Punta Gorda −0.38% · Tampa +1.07% | 🟠 nominal (accelerating on the current vintage) / 🔴 real (CPI Sept 3.7%). ⛔ "fastest of the run" superlative DEAD |
 | **★★ Case-Shiller national** | **+1.93% YoY JULY** (June REVISED +1.52 → +1.6%); 20-City +2.47%, 10-City +3.39%; MoM SA +0.29%. Chicago +6.9% / Seattle −1.6%; Miami +3.5%, Tampa −0.7% *(S&P, pub 9/29, issuer primary)* | 🟠 nominal **accelerating 3rd month** / 🔴 **14th negative REAL month** (S&P: CPI 3.4% ~1.5pp above) |
 | **★ ICE HPI** | **+1.44% YoY AUG, +1.41% early-Sep (first slowing in 7 mo); 3-mo annualized SA 0.1–0.3%**; condos −0.9%; >40% of major markets falling 3 months running; Cape Coral −16.5% from peak (a DRAWDOWN, not YoY) | 🟠 ★ **diverges from FMHPI (3-mo 2.84%)** — two methods; the divergence is the finding |
+| **Redfin weekly,4wk to10/11 (pub10/15)** | **Pending −12.7% YoY, +1.5% vs preceding overlapping window; sales price +0.5%; SA ask −0.3%;22% of active listings cut price** | 🟠 broad weakness (pending down all50 metros); latest window improved. Records since2021, subject to revision; not NAHB builder-cut share |
 | **Realtor.com** | **SEPT (report 9/30): list −1.4% YoY, $/sqft −1.7%; active +5.4%; price-cut share 20.8% (highest since Oct-2022); pending listings −4.1% YoY** | ⛔ CONTEXT ONLY (stripped of lead standing) |
 | **🔴🔴 Redfin sellers/buyers gap** | **62.6% — RECORD, SEPTEMBER** (pub 10/14). Sellers 1.51M (+1.2%); **buyers 928,892 (−2.4%, record low; MODELLED)**. ⚠️ Aug RESTATED 57.9 → 56.9%. Redfin pending −4% MoM (lowest since spring-2014 ex-Apr-2020), −8.6% YoY | 🔴🔴 **both legs now: buyers falling AND sellers rising** |
 
@@ -88,9 +89,9 @@
 
 | State | Metric | Value | Band |
 |---|---|---|---|
-| FL | **Condo/TH median — ONE FIGURE (CORAL)** | **$298K, +2.8% YoY (Aug, FL Realtors)** — supersedes my July 0.0% cite. My FL condo figures are metro/segment only | 🟡 cuts AGAINST statewide price distress |
+| FL | **Condo/TH median — CORAL owns statewide** | **CURRENT refresh owed:** Florida Realtors Sept/3Q release10/16 supersedes August. Prior $298K/+2.8% is historical only; source address sent to CORAL | ⚪ current statewide read withheld pending owner reconcile; old positive-YoY context cannot stand as current |
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
-| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo AUG: 12.1mo (Jul 12.0), median $408K −0.5% YoY, 66 days to contract (Jul 86)** — my July 'declining median' is NOT supported: price ~flat, only speed moved *(MIAMI REALTORS 9/16)* · Tampa $/sqft −5.6% YoY · Cape Coral HPI −2.3% YoY (ICE, Aug) · **Miami #1 buyer's market, Sept: 158.9% more sellers than buyers (Redfin via WALTER)** | 🔴🔴 sub-statewide |
+| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo SEPT: 12.3mo; median $417,090 −0.69% YoY; inventory 11,706 −7.24% YoY; contracts 67days vs75 last year (faster), cash49.4%** (issuer10/16). Aug12.1mo/$408K/66days as originally published; no revised MoM comparator · Tampa $/sqft −5.6% YoY · Cape Coral HPI −2.3% YoY (ICE, Aug) · **Miami #1 buyer's market, Sept: 158.9% more sellers than buyers (Redfin via WALTER)** | 🔴🔴 sub-statewide |
 | **TX** | October CRE auction postings, major markets | **>$1B / 46 properties / 18 repeats** (CCN 10/06 via TRD/Roddy, SECONDARY). Sept $778M / $562M MF. **October MF subtotal UNKNOWN; original/list unavailable** | 🟠 postings, not sales, new distress or losses. Do not carry Sept MF share into Oct |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
@@ -105,9 +106,9 @@
 |---|---|---|
 | **A1** | GSE MF band | ✅ **RULED 9/17 — WQ-248 C** (Will: *"248 - C is fine"*): letter frozen, grade each print against it; an ungraded leg above the top rung is CORRECT until I have a basis for a rung (mine to write) |
 | **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). **Registered by PROME as `GATE-HOMER-THESIS-KILL`** (GATES.tsv, JUDGEMENT class, review_by 11/20; PROME message 2026-09-29). **10/15: §7 between-grade clarifications V1–V5 (DAEDALUS Gate-Basis #2 asks 1 + 3 answered; no level moved) — 11/20 cannot return FALSIFIED or PARTIAL on the core legs** | ✅ |
-| **A2–A5** | ✅ **A2** rider ENCODED (KB-HOMER-032) · ✅ **A3 + A4 RULED BY WILL 2026-09-29 and INSTALLED** — rent: Apartment List, 20/40/55 (`tools/rent_breadth.py`, frozen roster); FC STARTS: 100K/130K/175K, severity ladder. CATO review f139c5db7 · ✅ **A5-3c BUILT 2026-10-15** (6 days late): `thesis/THESIS.md` §8 — 5-pt handle **19/25, 3 independent roots** (scores as proposed 9/29) + CARL join (V3 NOT re-scoped, CARL 10/12) | ✅ |
-| **A6** | Cure Rates band | ✅ **CLOSED 2026-09-24 — graded on its NATIVE basis (YoY cure rate, ICE Mortgage Monitor): YELLOW.** Feed = the Mortgage Monitor (docket row); the First Look MoM count is an OBSERVATION, not the band |
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |
+
+Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-narrative.md`.
 
 ### B. Owed by others → `OBLIGATIONS_OTHERS.md`
 **B1 DISCHARGED 9/26** (CREED's SS back-fill landed; MF mat-adj closed NOT-IN-SOURCE, kill executed 10/15) — **the Trepp PULL is mine** (Sept PDFs reached at trepp.com/hubfs 10/15). **B7** CalculatedRisk sweep: packet consumed, **no fleet withdrawal found — disposition UNKNOWN.**
@@ -155,10 +156,10 @@
 
 ## BOTTOM LINE
 
-**2026-10-19 — L725 morning commission, independent Will-launched terminal.**
+**2026-10-19 — Will-requested sweep for uncaptured domain evidence.**
 
-**Builder demand weakened:** October HMI **29** (32), price cutters **43%** (38). Incentive participation eased **66% →65%**, and explicit cuts remain a lower bound on the effective discount. Frozen A3 kill **0/3**; neither directional flip met. Mortgage spread **~221bp** on 10/15's PMMS 7.40% minus Wednesday 10/14 nominal 10Y 5.19% (issuer sources), **+9bp** from 10/08, replacing provisional 219.
+**Nine additions captured.** The strongest: Trepp's selected 2021–22 multifamily CRE CLO cohort has weak cash-flow coverage even among loans still paying. **93.8% applies only to performing balances with reported coverage in five states**, not all apartments; reporting dates/selection limit the inference. It strengthens financing-pressure evidence, not a bank-loss or imminent-default claim.
 
-**Texas postings rose above $1B**, including 18 repeat properties out of 46 (secondary); underlying list, MF subtotal and outcomes remain missing. Postings do not establish new distress or realized bank losses. ATTOM August REO and Trepp September MF SS relays duplicate existing evidence; Galleon is an unverified building case. **No core kill follows from any of them.** September/Q3 ATTOM access failed; that is not proof of nonpublication.
+**Counter-evidence matters:** Zillow September rental demand **+19.2% YoY**, MF asking rents **+2.2%**, concessions39.6%. Miami-Dade condo inventory **−7.24% YoY**, contracts eight days faster, despite12.3months supply. Redfin's four-week pending-sales reading is **−12.7% YoY**, with the latest overlapping window **+1.5%**. HUD's conditional BTR financing and dated FHA score methodology are now recorded; MND's post-survey rate relief partly reversed. loanDepot's up-to$125M uncommitted facility does not itself fire a servicer class.
 
-**Thesis rail remains 0/5 legs killed; formal review 11/20, 19/25 handle unchanged.** Inbox four items integrated before filing; office request declined to WALTER as misrouted. Source/access and runtime evidence: `reports/2026-10-19_morning-L725.md`. Next dated owner work: NRC/PHSI 10/20, PMMS/PHM 10/22, then ICE/GSE monthlies. Local commits only, no push under this commission. PROME consumption and explicit closeout exchange remain unverified. **Will decision required: none.**
+**Thesis counts0/5 killed, handle19/25, formal review11/20 unchanged.** Morning HMI/spread findings remain in their report. Three later WALTER items integrated, including the office-task correction (NO-OP receipt). Current evidence and limitations → `reports/2026-10-19_domain-news-sweep.md`. No trade, spend, threshold or confidence change. **Will decision required: none.**

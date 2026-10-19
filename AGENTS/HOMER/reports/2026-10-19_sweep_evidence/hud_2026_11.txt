@@ -1,0 +1,944 @@
+Date: October 8, 2026
+
+Mortgagee Letter 2026-11
+
+To:   All FHA-Approved Mortgagees
+      All Direct Endorsement Underwriters
+      All Eligible Submission Sources for Condominium Project Approvals
+      All FHA Roster Appraisers
+      All FHA-Approved 203(k) Consultants
+      All FHA-Approved Title I Lenders
+      All HUD-Certified Housing Counselors
+      All HUD-Approved Nonprofit Organizations
+      All Governmental Entity Participants
+      All Real Estate Brokers
+      All Closing Agents
+
+
+
+Subject           Updated Minimum Decision Credit Score Methodology for the
+                  Implementation of Alternative Credit Scores
+
+
+Purpose           This Mortgagee Letter (ML) updates FHA’s Minimum Decision Credit
+                  Score (MDCS) methodology to facilitate the adoption of alternative credit
+                  score models.
+
+
+Effective Date    The provisions of this ML are effective for case numbers assigned on or
+                  after January 1, 2027.
+
+                  All updates will be incorporated into a forthcoming update of the HUD
+                  Handbook 4000.1, FHA Single Family Housing Policy Handbook
+                  (Handbook 4000.1).
+
+
+Affected          The provisions of this ML apply to all FHA-insured Title II Single Family
+Programs          mortgage programs.
+
+
+Background        The Administration has prioritized reducing housing costs, expanding access
+                  to mortgage credit, and promoting competition and innovation in the
+                  mortgage market. Consistent with these priorities, FHA is adopting
+                  alternative credit score models, FICO 10T and VantageScore 4.0, alongside
+                  Classic FICO, to modernize its credit scoring framework. The new models
+
+
+                                        www.hud.gov
+Mortgagee Letter 2026-11, Continued
+
+
+                  leverage trended data which analyzes a consumers’ credit behavior over
+                  time. They also leverage non-traditional credit like rent and utilities which,
+                  along with the trended data, provide greater predictive power allowing FHA
+                  to better quantify risk and increase access to homeownership.
+
+                  FHA will continue to require a tri-merge credit report, and the existing
+                  minimum credit score thresholds remain unchanged regardless of Credit
+                  Score Model Type.
+
+                  The Home Equity Conversion Mortgage (HECM) program does not rely on
+                  credit scores as an underwriting component. Accordingly, the reference to
+                  the MDCS is being deleted from the general eligibility requirements for the
+                  program.
+
+
+Summary of        This ML:
+Changes              • updates Minimum Decision Credit Score (II.A.1.b.ii(A)(3)) to revise
+                        the methodology for determining the MDCS when multiple credit
+                        score models are present;
+                     • updates LTV Limitations Based on Minimum Decision Credit Score
+                        (II.A.2.b.i) to align headings and terminology;
+                     • updates Approvable Ratio Requirements (Manual) (II.A.5.d.viii) to
+                        align terminology;
+                     • updates Loan-to-Value Ratios for Refinance (II.A.8.a.x(A)) to align
+                        headings and terminology;
+                     • updates Borrower Eligibility – Credit Score (II.A.8.b.ii(A)(3)) to
+                        align terminology;
+                     • updates Streamline Refinance Exemptions (II.A.8.d.vi(C)(1)) to
+                        align terminology;
+                     • updates Section 203(b) (II.A.8.o.vi(A)) to align terminology; and
+                     • removes Borrower Minimum Decision Credit Score
+                        (II.B.2.b.ii(A)(8)), as HECMs do not rely on credit scores, and
+                        renumbers subsequent sections.
+
+                  The Handbook 4000.1 sections impacted by this ML are provided in
+                  Attachment 1, with changes tracked in redline to help users clearly identify
+                  the policy requirements being revised or removed from the Handbook.
+
+
+FHA Single        The policy changes will be incorporated into Handbook 4000.1 as follows:
+Family Housing
+Policy            Minimum Decision Credit Score (II.A.1.b.ii(A)(3))
+Handbook
+4000.1            (a) Definitions
+
+
+
+
+                                              2
+Mortgagee Letter 2026-11, Continued
+
+
+Origination       A Credit Score Model Type refers to a credit scoring model (e.g. Classic
+Through Post-     FICO, VantageScore 4.0, or FICO 10T) on a credit report that contains
+Closing/          scores from the credit repositories for a Borrower.
+Endorsement
+                  A Borrower-Level Score refers to the credit score selected for each
+                  Borrower after evaluating the scores from each Credit Score Model Type
+                  submitted.
+
+                  Minimum Decision Credit Score (MDCS) refers to the lowest Borrower-
+                  Level Score among all Borrowers on the transaction.
+
+                  (b) Standard
+
+                     (i) Determining the Minimum Decision Credit Score (MDCS)
+
+                     To determine the MDCS, the Mortgagee must first determine the
+                     Borrower-Level Score for each Borrower by evaluating the scores from
+                     each Credit Score Model Type submitted.
+
+                     Select the score from each Credit Score Model Type as follows:
+                         • if three differing scores are reported, use the middle score;
+                         • if two differing scores are reported, use the lowest score;
+                         • if only one score is reported, use that score
+
+                     The Borrower-Level Score is the lowest score of the selected scores
+                     from each Credit Score Model Type submitted. If only one Credit Score
+                     Model Type is submitted, the score selected from the process above is
+                     the Borrower-Level Score.
+
+                     The MDCS is the lowest Borrower-Level Score among all Borrowers for
+                     the transaction.
+
+                     Where the transaction involves multiple Borrowers and one or more of
+                     the Borrowers do not have any credit scores (non-traditional or
+                     insufficient credit), the MDCS is the lowest Borrower-Level Score
+                     among the Borrowers with credit score(s).
+
+                     (ii) Eligibility
+
+                     The Mortgagee may submit one or more Credit Score Model Type(s),
+                     provided the same model type(s) are used for all Borrowers. For
+                     example, the Mortgagee may not submit FICO 10T for the primary
+                     Borrower and VantageScore 4.0 for the co-Borrower.
+
+                     The credit report retained in the case binder must include all Credit
+                     Score Model Type(s) submitted in the final TOTAL submission. The
+                     credit report may include additional Credit Score Model Types that were
+                     not submitted to TOTAL. For example, if VantageScore 4.0 and FICO
+
+
+                                             3
+Mortgagee Letter 2026-11, Continued
+
+
+                     10T are submitted in the final TOTAL submission, the credit report
+                     retained in the case binder must include both VantageScore 4.0 and
+                     FICO 10T, but may also include Classic FICO.
+
+                     The transaction is not eligible for FHA-insured financing if the MDCS is
+                     less than 500.
+
+
+                  Loan-to-Value Limits (II.A.2.b)
+
+                  i. LTV Limitations Based on Minimum Decision Credit Score (Applies
+                  to All Transactions)
+
+                  The Mortgagee must review the credit report(s) for all Borrowers on a
+                  transaction to determine the Minimum Decision Credit Score (MDCS),
+                  except for Mortgages to be insured under Section 247 (II.A.8.h), Section
+                  248 (II.A.8.g), Streamline Refinances (II.A.8.d), and Assumptions
+                  (II.A.8.n).
+
+                  The MDCS will be used to determine the maximum insured financing
+                  available to a Borrower with traditional credit.
+
+                  The table below describes the relationship between the MDCS and the LTV
+                  ratio for which the transaction is eligible. Borrowers with non-traditional or
+                  insufficient credit histories are eligible for maximum financing but must be
+                  underwritten using the procedures in Manual Underwriting of the Borrower
+                  (II.A.5).
+
+                  If the MDCS is:           Then the transaction is:
+                  at or above 580           eligible for maximum financing
+                  between 500 and 579       limited to a maximum LTV of 90%
+
+
+                  Final Underwriting Decision (Manual) (II.A.5.d)
+
+                  viii. Approvable Ratio Requirements (Manual)
+
+                  The maximum Total Mortgage Payment to Effective Income Ratio (PTI)
+                  and Total Fixed Payments to Effective Income Ratio, or DTI, applicable to
+                  manually underwritten Mortgages are summarized in the matrix below.
+
+                  The qualifying ratios for Borrowers with no Borrower-Level Credit Scores
+                  are computed using income only from Borrowers occupying the Property
+                  and obligated on the Mortgage. Non-occupant co-Borrower income may not
+                  be included.
+
+
+
+
+                                              4
+Mortgagee Letter 2026-11, Continued
+
+
+                    Minimum     Maximum
+                    Decision    Qualifying      Acceptable Compensating Factors
+                   Credit Score Ratios (%)
+                  500-579 or No 31/43      Not applicable. Transactions with Minimum
+                  Credit Score             Decision Credit Scores (MDCS) below 580,
+                                           or with no credit score may not exceed 31/43
+                                           ratios.
+
+                                                Energy Efficient Homes may have stretch
+                                                ratios of 33/45.
+                  580 and above 31/43           No compensating factors required.
+
+                                                Energy Efficient Homes may have stretch
+                                                ratios of 33/45.
+                  580 and above 37/47           One of the following:
+                                                    • verified and documented cash
+                                                        Reserves;
+                                                    • minimal increase in housing
+                                                        payment; or
+                                                    • residual income.
+                  580 and above 40/40           No discretionary debt.
+                  580 and above 40/50           Two of the following:
+                                                    • verified and documented cash
+                                                        Reserves;
+                                                    • minimal increase in housing
+                                                        payment;
+                                                    • significant additional income not
+                                                        reflected in Effective Income; and/or
+                                                    • residual income.
+
+
+                  Maximum Mortgage Amount for Refinance (II.A.8.a.x)
+
+                  (A) Loan-to-Value Ratios for Refinance
+
+                  The table below describes the relationship between the Minimum Decision
+                  Credit Score and the LTV ratio for transaction eligibility.
+
+                  If the MDCS is:         Then the transaction is:
+                  at or above 580         eligible for maximum financing of 97.75%
+                  between 500 and 579     limited to a maximum LTV of 90%
+
+
+                  Borrower Eligibility II.A.8.b.ii(A)
+
+
+
+
+                                            5
+Mortgagee Letter 2026-11, Continued
+
+
+                  (1) Application Deadline
+
+                  The FHA case number must be assigned within one year of the date the
+                  PDMDA is declared, unless an additional period of eligibility is provided.
+
+                  (2) Principal Residence
+
+                  The mortgaged Property must be the Borrower’s Principal Residence.
+
+                  (3) Credit Score
+
+                  The transaction must have an MDCS of 500.
+
+
+                  Streamline Refinance Exemptions (II.A.8.d.vi(C)(1)
+
+                  (a) Non-credit Qualifying Exemptions
+
+                  Unless otherwise stated in this section, the following sections of Origination
+                  through Post-closing/Endorsement (II.A) do not apply to non-credit
+                  qualifying Streamline Refinances:
+                      • Ordering Appraisal
+                      • Transferring Existing Appraisal
+                      • Ordering Second Appraisal
+                      • Ordering an Update to an Appraisal
+                      • Minimum Decision Credit Score
+                      • Borrower and Co-Borrower Ownership and Obligation
+                          Requirements
+                      • Co-signer Requirements
+                      • Principal Residence in the United States
+                      • Military Personnel Eligibility
+                      • Borrower Ineligibility Due to Delinquent Federal Non-Tax Debt
+                      • Delinquent Federal Tax Debt
+                      • Property Eligibility and Acceptability Criteria
+                      • National Housing Act’s Statutory Limits
+                      • Nationwide Mortgage Limits
+                      • LTV Limitations Based on MDCS
+                      • Underwriting the Property
+                      • Underwriting the Borrower Using the TOTAL Mortgage Scorecard
+                      • Credit Requirements (Manual)
+                      • Income Requirements (Manual)
+                      • Asset Requirements (Manual)
+                      • Underwriting of Credit and Debt (Manual)
+                      • Underwriting of Income (Manual)
+                      • Underwriting of Assets (Manual)
+                      • Calculating Qualifying Ratios (Manual)
+
+
+                                              6
+Mortgagee Letter 2026-11, Continued
+
+
+                     •   Approvable Ratio Requirements (Manual)
+                     •   Documenting Acceptable Compensating Factors (Manual)
+
+                  (b) Credit Qualifying Exemptions
+
+                  The following sections of Origination through Post-closing/Endorsement
+                  (II.A) do not apply to credit qualifying Streamline Refinances:
+                      • Ordering Appraisal
+                      • Transferring Existing Appraisal
+                      • Ordering Second Appraisal
+                      • Ordering an Update to an Appraisal
+                      • Borrower Ineligibility Due to Delinquent Federal Non-Tax Debt
+                      • Delinquent Federal Tax Debt
+                      • Property Eligibility and Acceptability Criteria
+                      • National Housing Act’s Statutory Limits
+                      • Nationwide Mortgage Limits
+                      • LTV Limitations Based on MDCS
+                      • Underwriting the Property
+                      • Underwriting the Borrower Using the TOTAL Mortgage Scorecard
+
+
+                  Maximum Mortgage Amounts (II.A.8.o.vi)
+
+                  (A) Section 203(b)
+
+                  Mortgagees must calculate the maximum mortgage amounts in accordance
+                  with the requirements of Calculating Maximum Mortgage Amounts for
+                  Purchases, using the applicable Loan-To-Value ratio (LTV) from this
+                  section, subject to LTV Limitations Based on Minimum Decision Credit
+                  Score.
+
+
+Paperwork         The information collection requirements contained in this document have
+Reduction Act     been approved by the Office of Management and Budget (OMB) under the
+                  Paperwork Reduction Act (PRA) of 1995 (44 U.S.C. 3501-3520) and
+                  assigned OMB control numbers 2502-0005; 2502-0059; 2502-0117; 2502-
+                  0189; 2502-0302; 2502-0306; 2502-0322; 2502-0328; 2502-0358; 2502-
+                  0404; 2502-0414; 2502-0429; 2502-0494; 2502-0496; 2502-0524; 2502-
+                  0525; 2502-0527; 2502-0538; 2502-0540; 2502-0561; 2502-0566; 2502-
+                  0570; 2502-0583; 2502-0584; 2502-0589; 2502-0600; 2502-0610; and
+                  2502-0611. In accordance with the PRA, HUD may not conduct or sponsor,
+                  and a person is not required to respond to, a collection of information unless
+                  the collection displays a currently valid OMB control number.
+
+
+
+
+                                              7
+Mortgagee Letter 2026-11, Continued
+
+
+
+Feedback or       HUD welcomes feedback from interested parties and will consider feedback
+Questions         in determining the need for future updates. Any feedback or questions
+                  regarding this ML may be directed to the FHA Resource Center at 1-800-
+                  CALLFHA (1-800-225-5342), answers@hud.gov, or
+                  www.hud.gov/answers. The FHA Resource Center is prepared to accept
+                  calls from persons who are deaf or hard of hearing, as well as individuals
+                  with speech or communication disabilities. Information on how to make an
+                  accessible phone call is available at
+                  https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs.
+
+
+Signature
+
+
+                  Joseph M. Gormley
+                  Performing the delegable duties of the Assistant Secretary for Housing -
+                    Federal Housing Commissioner
+
+
+
+
+                                             8
+FHA Single Family Housing Handbook
+
+
+                                        Attachment 1
+                  Handbook 4000.1 Pages Impacted by this Mortgagee Letter
+
+
+   The Handbook 4000.1 sections impacted by this Mortgagee Letter (ML) are provided in this
+attachment, with changes tracked in redline to help users clearly identify the policy requirements
+                        being revised or removed from the Handbook.
+
+
+
+
+Handbook 4000.1
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+1. Origination/Processing
+
+                (1) Social Security Number
+                     (a) Standard
+                     Each Borrower must provide evidence of their valid SSN to the Mortgagee.
+
+                     Exception
+
+                     Individuals employed by the World Bank, a foreign embassy or equivalent
+                     employer identified by HUD, state and local government agencies,
+                     Instrumentalities of Government, and HUD-approved Nonprofit organizations
+                     are not required to provide an SSN.
+
+                     (b) Required Documentation
+                     The Mortgagee must:
+                        • validate and document an SSN for each Borrower, co-Borrower, or
+                           Co-signer on the Mortgage by:
+                           o entering the Borrower’s name, date of birth, and SSN in the
+                               Borrower/address validation screen through FHAC; and
+                           o examining the Borrower’s original pay stubs; IRS Form W-2s,
+                               Wage and Tax Statement; valid Tax Returns obtained directly from
+                               the IRS; or other document relied upon to underwrite the
+                               Mortgage; and
+                        • resolve any inconsistencies or multiple SSNs for individual Borrowers
+                           that are revealed during Mortgage processing and underwriting using a
+                           service provider to verify the SSN with the SSA.
+
+                (2) Borrower Age Limits
+                The Borrower must be old enough to enter into a mortgage Note that can be
+                legally enforced in the state, or other jurisdiction, where the Property is located.
+                There is no maximum age limit for a Borrower.
+
+                (3) Borrower Minimum Decision Credit Score
+                     (a) Definitions
+                     A Credit Score Model Type refers to a credit scoring model (e.g. Classic
+                     FICO, VantageScore 4.0, or FICO 10T) on a credit report that contains scores
+                     from the credit repositories for a Borrower.
+
+                     A Borrower-Level Score refers to the credit score selected for each Borrower
+                     after evaluating the scores from each Credit Score Model Type submitted.
+
+                     Minimum Decision Credit Score (MDCS) refers to the lowest Borrower-Level
+                     Score among all Borrowers on the transaction. The Minimum Decision Credit
+                     Score (MDCS) refers to the credit score reported on the Borrower’s credit
+
+
+Handbook 4000.1                                                                                    151
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+1. Origination/Processing
+
+                     report when all reported scores are the same. Where three scores are reported,
+                     the median score is the MDCS. Where two differing scores are reported, the
+                     MDCS is the lowest score. Where only one score is reported, that score is the
+                     MDCS.
+
+                     An MDCS is determined for each Borrower. Where the Mortgage involves
+                     multiple Borrowers, the Mortgagee must determine the MDCS for each
+                     Borrower, and then select the lowest MDCS for all Borrowers.
+
+                     (b) Standard
+                          (i) Determining the Minimum Decision Credit Score (MDCS)
+                          To determine the MDCS, the Mortgagee must first determine the
+                          Borrower-Level Score for each Borrower by evaluating the scores from
+                          each Credit Score Model Type submitted.
+
+                          Select the score from each Credit Score Model Type as follows:
+                              • if three differing scores are reported, use the middle score;
+                              • if two differing scores are reported, use the lowest score;
+                              • if only one score is reported, use that score
+
+                          The Borrower-Level Score is the lowest score of the selected scores from
+                          each Credit Score Model Type submitted. If only one Credit Score Model
+                          Type is submitted, the score selected from the process above is the
+                          Borrower-Level Score.
+
+                          The MDCS is the lowest Borrower-Level Score among all Borrowers for
+                          the transaction.
+
+                          Where the Mortgage transaction involves multiple Borrowers and one or
+                          more of the Borrowers do not have any credit scores (non-traditional or
+                          insufficient credit), the MDCS is the lowest Borrower-Level Credit Score
+                          among Mortgagee must select the lowest MDCS of the Borrower(s) with
+                          credit score(s).
+
+                          (ii) Eligibility Standard
+                          The Mortgagee may submit one or more Credit Score Model Type(s),
+                          provided the same model type(s) are used for all Borrowers. For example,
+                          the Mortgagee may not submit FICO 10T for the primary Borrower and
+                          VantageScore 4.0 for the co-Borrower.
+
+                          The credit report retained in the case binder must include all Credit Score
+                          Model Type(s) submitted in the final TOTAL submission. The credit report
+                          may include additional Credit Score Model Types that were not submitted
+                          to TOTAL. For example, if VantageScore 4.0 and FICO 10T are submitted
+                          in the final TOTAL submission, the credit report retained in the case
+Handbook 4000.1                                                                                  152
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+1. Origination/Processing
+
+                          binder must include both VantageScore 4.0 and FICO 10T, but may also
+                          include Classic FICO.
+
+                          The Borrower transaction is not eligible for FHA-insured financing if the
+                          MDCS is less than 500.
+
+
+
+
+Handbook 4000.1                                                                                  153
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+2. Allowable Mortgage Parameters
+
+            The maximum amount of repair costs that may be added to the sales price is the lesser
+            of:
+                • the amount by which the value of the Property exceeds the sales price;
+                • the Appraiser’s estimate of repairs; or
+                • the amount of the contractor’s bid.
+
+            (B) Energy-Related Weatherization Repairs and Improvements
+
+            A Mortgagee may add energy-related weatherization costs, to be paid for by the
+            Borrower, in accordance with Weatherization policies.
+
+            (C) Solar Energy Systems
+
+            A Mortgagee may add the cost of a solar energy system (including active and passive
+            solar- and wind-driven systems) to the Mortgage in accordance with Solar and Wind
+            Technologies policies.
+
+            When adding the cost of a solar energy system to the mortgage amount, the maximum
+            insurable mortgage limit may be exceeded by up to 20 percent.
+
+    b. Loan-to-Value Limits (02/16/2021)
+    The maximum LTV ratios vary depending upon the type of Borrower, type of transaction
+    (purchase or refinance), program type, and stage of construction.
+    The Mortgagee must apply the lowest applicable LTV percentage as determined under the
+    requirements in this section.
+        i. Loan-to-Value LTV Limitations Based on Borrower’s Minimum Decision Credit
+        Score (Applies to All Transactions)
+        The Mortgagee must review the credit report(s) for all Borrowers on a transaction to
+        determine the Borrower’s Minimum Decision Credit Score (MDCS), except for
+        Mortgages to be insured under Section 247, Section 248, Streamline Refinances, and
+        Assumptions.
+        The MDCS will be used to determine the maximum insured financing available to a
+        Borrower with traditional credit.
+        The table below describes the relationship between the Borrower’s MDCS and the LTV
+        ratio for which they are the transaction is eligible. Borrowers with non-traditional or
+        insufficient credit histories are eligible for maximum financing but must be underwritten
+        using the procedures in Manual Underwriting of the Borrower.
+
+                   If the Minimum Decision Credit Then the Borrower transaction is:
+                   Score MDCS is:
+                   at or above 580                eligible for maximum financing
+                   between 500 and 579            limited to a maximum LTV of 90%
+
+Handbook 4000.1                                                                                179
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+5. Manual Underwriting of the Borrower
+
+                •    the total Mortgage Payment; and
+                •    monthly obligations on all debts and liabilities.
+
+        viii. Approvable Ratio Requirements (Manual)
+
+        The maximum Total Mortgage Payment to Effective Income Ratio (PTI) and Total Fixed
+        Payments to Effective Income Ratio, or DTI, applicable to manually underwritten
+        Mortgages are summarized in the matrix below.
+
+        The qualifying ratios for Borrowers with no Borrower-Level Credit Scores credit score
+        are computed using income only from Borrowers occupying the Property and obligated
+        on the Mortgage. Non-occupant co-Borrower income may not be included.
+
+              Lowest           Maximum
+             Minimum           Qualifying
+                                                       Acceptable Compensating Factors
+              Decision         Ratios (%)
+            Credit Score
+           500-579 or No      31/43           Not applicable. Borrowers Transactions with
+           Credit Score                       Minimum Decision Credit Scores (MDCS) below
+                                              580, or with no credit score may not exceed 31/43
+                                              ratios.
+
+                                              Energy Efficient Homes may have stretch ratios of
+                                              33/45.
+           580 and above      31/43           No compensating factors required.
+
+                                              Energy Efficient Homes may have stretch ratios of
+                                              33/45.
+           580 and above      37/47           One of the following:
+                                                 • verified and documented cash Reserves;
+                                                 • minimal increase in housing payment; or
+                                                 • residual income.
+           580 and above      40/40           No discretionary debt.
+           580 and above      40/50           Two of the following:
+                                                 • verified and documented cash Reserves;
+                                                 • minimal increase in housing payment;
+                                                 • significant additional income not reflected in
+                                                     Effective Income; and/or
+                                                 • residual income.
+
+        ix. Documenting Acceptable Compensation Factors (Manual)
+
+        The following describes the compensating factors and required documentation that may
+        be used to justify approval of manually underwritten Mortgages with qualifying ratios as
+        described above.
+
+
+Handbook 4000.1                                                                                   359
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+8. Programs and Products – 203(k) Rehabilitation Mortgage Insurance Program (11/10/2026)
+
+                    o Financeable Mortgage Fees, for Standard 203(k) or Limited 203(k);
+                    o Financeable Contingency Reserves, for Standard 203(k) or Limited
+                        203(k); and
+                    o Financeable Mortgage Payment Reserves, for Standard 203(k) only; or
+                • 110 percent of the After Improved Value (100 percent for condominiums); or
+            3. the Nationwide Mortgage Limits.
+
+            (A) Loan-to-Value Ratios for Refinance
+
+            The table below describes the relationship between the Borrower’s Minimum
+            Decision Credit Score and the LTV ratio for transaction eligibility which they are
+            eligible.
+
+                 If the Borrower’s Minimum      Then the Borrower transaction is:
+                 Decision Credit Score MDCS is:
+                 at or above 580                eligible for maximum financing of 97.75%
+                 Between 500 and 579            limited to a maximum LTV of 90%
+
+            For Secondary Residences, the maximum LTV is 85 percent.
+
+            (B) Required Documentation
+
+            The Mortgagee must obtain the mortgage payoff statement for existing debt.
+
+        xi. Maximum Mortgage Amounts for Energy Efficient Mortgages, Weatherization
+        Items, and Solar Energy Systems
+
+        The Mortgagee must calculate the maximum mortgage amount without factoring in the
+        cost of Energy Efficient Mortgage (EEM) items, Weatherization items, and solar energy
+        systems. The Mortgagee may then add the cost of these improvements to determine the
+        Base Loan Amount. The Base Loan Amount may not exceed 110 percent of the After
+        Improved Value of the Property (100 percent for condominiums).
+
+        For Limited 203(k) transactions, the costs for energy improvements can be in addition to
+        the $75,000 limit on total rehabilitation costs.
+
+        xii. Combined Loan-to-Value
+
+            (A) Secondary Financing Provided by Governmental Entities, Homeownership
+               and Opportunity for People Everywhere Grantees, and HUD-Approved
+               Nonprofits
+
+            There is no maximum Combined Loan-to-Value (CLTV) for secondary financing
+            meeting the requirements found in Governmental Entities, Homeownership and
+            Opportunity for People Everywhere (HOPE) Grantees, and HUD-Approved
+            Nonprofits.
+
+
+Handbook 4000.1                                                                                  407
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+8. Programs and Products – Disasters and 203(h) Mortgage Insurance for Disaster Victims (09/14/2015)
+
+    b. Disasters and 203(h) Mortgage Insurance for Disaster Victims (09/14/2015)
+
+        i. Definition
+
+        Section 203(h) of the National Housing Act authorizes FHA to insure Mortgages to
+        victims of a Presidentially-Declared Major Disaster Area (PDMDA) for the purchase or
+        reconstruction of a Single Family Property.
+
+        Mortgages to be insured under Section 203(h) must be processed and underwritten in
+        accordance with the regulations and requirements applicable to the 203(b) program.
+        Where 203(b) program guidance conflicts with the specific requirements on Section
+        203(h) Mortgages provided below, this specific guidance controls.
+
+        ii. Eligibility Requirements
+
+            (A) Borrower Eligibility
+
+                (1) Application Deadline
+
+                The FHA case number must be assigned within one year of the date the PDMDA
+                is declared, unless an additional period of eligibility is provided.
+
+                (2) Principal Residence
+
+                The mortgaged Property must be the Borrower’s Principal Residence.
+
+                (3) Credit Score
+
+                The Borrower transaction must have an MDCS minimum credit score of 500.
+
+            (B) Property Eligibility
+
+            The previous residence (owned or rented) must have been located in a PDMDA and
+            destroyed or damaged to such an extent that reconstruction or replacement is
+            necessary. A list of the specified affected counties and cities and corresponding
+            disaster declarations are provided by the Federal Emergency Management Agency
+            (FEMA).
+
+            The purchased or reconstructed Property must be a Single Family Property or a unit
+            in an FHA-Approved Condominium Project.
+
+            (C) Minimum Required Investment/Maximum Loan-to-Value
+
+            The Borrower is not required to make the Minimum Required Investment (MRI). The
+            maximum Loan-to-Value (LTV) ratio limit is 100 percent of the Adjusted Value. If a
+            203(k) is used in conjunction with a 203(h), the 203(k) LTV applies.
+
+
+
+Handbook 4000.1                                                                                        425
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+8. Programs and Products – Refinances (11/10/2026)
+
+                     Cash to the Borrower resulting from the refund of Borrower’s unused escrow
+                     balance from the previous Mortgage must not be considered in the $500 cash
+                     back limit whether received at or subsequent to mortgage Disbursement.
+
+                     (c) Excess Cash Back
+
+                     When the estimated costs utilized in calculating the maximum mortgage
+                     amount resulted in greater than $500 cash back to the Borrower at mortgage
+                     Disbursement, Mortgagees may reduce the Borrower’s principal balance on
+                     the subject loan to satisfy the $500 cash back requirement.
+
+                     (d) Required Documentation
+
+                     The Mortgagee must obtain the payoff statement for the existing Mortgage
+                     being refinanced.
+
+                (4) Upfront and Annual Mortgage Insurance Premium
+
+                See Appendix 1.0 – Mortgage Insurance Premiums for assessing upfront and
+                annual MIP.
+
+            (C) Streamline Refinances
+
+            Streamline Refinance may be used when the proceeds of the Mortgage are used to
+            extinguish an existing FHA-insured first mortgage lien. Mortgagees must manually
+            underwrite all Streamline Refinances in accordance with the guidance provided in
+            this section
+
+                (1) Streamline Refinance Exemptions
+
+                     (a) Non-credit Qualifying Exemptions
+
+                     Unless otherwise stated in this section, the following sections of Origination
+                     through Post-closing/Endorsement do not apply to non-credit qualifying
+                     Streamline Refinances:
+                         • Ordering Appraisal
+                         • Transferring Existing Appraisal
+                         • Ordering Second Appraisal
+                         • Ordering an Update to an Appraisal
+                         • Borrower Minimum Decision Credit Score
+                         • Borrower and Co-Borrower Ownership and Obligation Requirements
+                         • Co-signer Requirements
+                         • Principal Residence in the United States
+                         • Military Personnel Eligibility
+                         • Borrower Ineligibility Due to Delinquent Federal Non-Tax Debt
+                         • Delinquent Federal Tax Debt
+
+Handbook 4000.1                                                                                  445
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+8. Programs and Products – Refinances (11/10/2026)
+
+                          •   Property Eligibility and Acceptability Criteria
+                          •   National Housing Act’s Statutory Limits
+                          •   Nationwide Mortgage Limits
+                          •   LTV Limitations Based on Borrower’s Credit Score MDCS
+                          •   Underwriting the Property
+                          •   Underwriting the Borrower Using the TOTAL Mortgage Scorecard
+                          •   Credit Requirements (Manual)
+                          •   Income Requirements (Manual)
+                          •   Asset Requirements (Manual)
+                          •   Underwriting of Credit and Debt (Manual)
+                          •   Underwriting of Income (Manual)
+                          •   Underwriting of Assets (Manual)
+                          •   Calculating Qualifying Ratios (Manual)
+                          •   Approvable Ratio Requirements (Manual)
+                          •   Documenting Acceptable Compensating Factors (Manual)
+
+                     (b) Credit Qualifying Exemptions
+
+                     The following sections of Origination through Post-closing/Endorsement do
+                     not apply to credit qualifying Streamline Refinances:
+                         • Ordering Appraisal
+                         • Transferring Existing Appraisal
+                         • Ordering Second Appraisal
+                         • Ordering an Update to an Appraisal
+                         • Borrower Ineligibility Due to Delinquent Federal Non-Tax Debt
+                         • Delinquent Federal Tax Debt
+                         • Property Eligibility and Acceptability Criteria
+                         • National Housing Act’s Statutory Limits
+                         • Nationwide Mortgage Limits
+                         • LTV Limitations Based on Borrower’s Credit Score MDCS
+                         • Underwriting the Property
+                         • Underwriting the Borrower Using the TOTAL Mortgage Scorecard
+
+                2) Borrower Eligibility
+
+                     (a) Occupancy Requirements
+
+                          (i) Standard
+
+                          Streamline Refinances may be used for Principal Residences, HUD-
+                          approved Secondary Residences, or non-owner occupied Properties.
+
+
+
+
+Handbook 4000.1                                                                              446
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+A. Title II Insured Housing Programs Forward Mortgages
+8. Programs and Products – HUD Real Estate Owned Purchasing (09/20/2021)
+
+                (2) Section 203(k)
+
+                Mortgagees must order appraisals in accordance with the requirements of
+                Ordering Appraisals and Appraisals for Standard 203(k) and Limited 203(k).
+
+            (B) Appraisal Review and Property Acceptability
+
+            The Mortgagee must review the appraisal and property conditions in accordance with
+            the requirements of Underwriting the Property.
+
+        v. Occupancy Types
+
+            (A) Principal Residence
+
+            An Owner-Occupant Borrower may purchase HUD REO Properties using Section
+            203(b), Section 203(b) with Repair Escrow, and Section 203(k).
+
+            (B) Investment Property
+
+                (1) Eligible Nonprofit or State or Local Government Agency Borrower
+
+                An eligible nonprofit or state or local government agency Borrower may purchase
+                HUD REO Properties using Section 203(b), Section 203(b) with Repair Escrow,
+                and Section 203(k).
+
+                (2) Investor Buyer
+
+                A Borrower may purchase HUD REO Properties as Investment Properties using
+                Section 203(b) or Section 203(b) with Repair Escrow. These transactions must be
+                scored through TOTAL Scorecard and then manually underwritten. The
+                Mortgagee must downgrade and manually underwrite any Mortgage that received
+                an Accept recommendation through TOTAL.
+
+        vi. Maximum Mortgage Amounts
+
+            (A) Section 203(b)
+
+            Mortgagees must calculate the maximum mortgage amounts in accordance with the
+            requirements of Calculating Maximum Mortgage Amounts for Purchases, using the
+            applicable Loan-To-Value ratio (LTV) from this section, subject to LTV Limitations
+            Based on Minimum Decision Borrower’s Credit Score.
+
+                (1) Owner-Occupant Borrower
+
+                The maximum LTV is 96.5 percent.
+
+
+
+
+Handbook 4000.1                                                                              492
+Last Revised: 8/12/2026
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+B. Title II Insured Housing Programs Reverse Mortgages
+2. Origination/Processing
+
+                (6) Marital Status
+
+                The Mortgagee must require all Borrowers to state whether they are legally
+                married at the time of initial application and confirm this information at closing
+                by signing the appropriate certification.
+
+                (7) Social Security Number
+
+                     (a) Standard
+
+                     Each Borrower must provide evidence of their valid SSN to the Mortgagee.
+
+                     Exception
+
+                     Individuals employed by the World Bank, a foreign embassy, or equivalent
+                     employer identified by HUD are not required to provide an SSN.
+
+                     (b) Required Documentation
+
+                     The Mortgagee must:
+                        • validate and document an SSN for each Borrower by:
+                           o entering the Borrower’s name, date of birth, and SSN in the
+                               Borrower/address validation screen through FHAC; and
+                           o examining the Borrower’s original pay stubs, IRS Form W-2s,
+                               Wage and Tax Statement, valid Tax Returns obtained directly from
+                               the IRS; or other document relied upon to process the HECM; and
+                        • resolve any inconsistencies or multiple SSNs for individual Borrowers
+                           that are revealed during HECM processing using a service provider to
+                           verify the SSN with the SSA.
+
+                (8) Borrower Minimum Decision Credit Score
+
+                     (a) Definition
+
+                     The Minimum Decision Credit Score (MDCS) refers to the credit score
+                     reported on the Borrower’s credit report when all reported scores are the same.
+                     Where three differing scores are reported, the middle score is the MDCS.
+                     Where two differing scores are reported, the MDCS is the lowest score.
+                     Where only one score is reported, that score is the MDCS.
+
+                     (b) Standard
+
+                     There is no MDCS for a HECM. Credit scores are not a criterion for
+                     processing or evaluating a HECM.
+
+
+
+
+Handbook 4000.1                                                                                  566
+Last Revised: 8/12/2026
+

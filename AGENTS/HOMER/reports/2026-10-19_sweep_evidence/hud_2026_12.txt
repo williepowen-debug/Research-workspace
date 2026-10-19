@@ -1,0 +1,214 @@
+                         U.S. DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT
+                                        WASHINGTON, DC 20410-8000
+
+
+OFFICE OF HOUSING
+
+
+
+
+MORTGAGEE LETTER 2026 -12
+
+
+
+TO:                 All FHA-Approved Multifamily Mortgagees
+
+SUBJECT:            “Build-To-Rent” Developments Underwriting Eligibility
+
+I.       Purpose
+Effective immediately, HUD will accept applications for mortgage insurance on multifamily rental
+properties that consist of detached single-family homes, duplexes, or triplexes—commonly referred
+to as Build-to-Rent (“BTR”) communities (formerly referred to as “subdivisions for rent” by HUD).
+These properties will now be treated under the same terms and conditions as traditional multifamily
+rental developments, subject to the specific requirements outlined in this memorandum.
+
+II.      Background
+This Mortgagee Letter is responsive to Section 3 of Executive Order 14376, issued January 20,
+2026 – Stopping Wall Street from Competing with Main Street Homebuyers – which directs
+HUD to include “narrowly tailored exceptions for Build-to-Rent properties that are planned,
+permitted, financed and constructed as rental communities.”
+
+HUD’s Office of Multifamily Housing has traditionally limited its insured loans to developments
+with buildings containing four or more units—such as garden-style, mid-rise, or high-rise
+apartments. Build-to-Rent (BTR) properties were excluded due to their single-family design and
+subdivision-style layout that raised concerns about Fair Housing Act compliance (particularly,
+accessibility design requirements) and valuation and underwriting challenges. To align with
+evolving market dynamics, increased demand for rental housing for families unable to purchase
+homes, and the growing prevalence of professionally managed BTR communities, HUD is revising
+its policy to expand access to HUD-insured financing for BTR developments by providing the
+following guidance for eligibility.
+
+III.     Eligibility Criteria
+
+BTR properties are eligible under the following multifamily programs:
+  • Section 221(d)(4) – New construction only.
+  • Section 223(f) – Acquisition or refinancing of recently developed (i.e., certificate of
+      occupancy dated less than 3 years prior to application) multifamily rental housing only.
+
+
+
+                                        www.hud.gov
+To qualify, BTR properties must meet the following conditions:
+  1. Developed on a single cohesive contiguous site and operated as one multifamily rental
+      property.
+          a. The project must be developed for the purpose of long-term rental housing
+              with five or more dwelling units on a site that is characteristically uniform and
+              recognizably one cohesive rental property.
+          b. While a single tax parcel is preferrable, multiple contiguous parcels on a
+              single site that defines the insured collateral is acceptable.
+          c. No interspersed privately owned parcels or residences are allowed.
+          d. No sales of parcels, buildings, or any partial release of collateral will be approved
+              during the insured loan term.
+          e. Projects with a mix of building types that include a BTR component along with
+              traditional multifamily buildings are acceptable, but the lender must address the
+              underwriting and accessibility compliance complexities in the application.
+          f. HUD recognizes that BTR projects may use manufactured or modular
+              construction methods as opposed to on-site “stick-built” construction. While all
+              are generally acceptable, manufactured housing and modular construction add
+              challenges to HUD’s traditional approach to insuring advances for work installed
+              on-site, and these issues must be carefully vetted at the concept meeting.
+
+  2. Management and Governance.
+         a. The property must be professionally managed similar to comparable multifamily
+            projects in the market, including other BTR projects.
+         b. The presence of an on-site management office (including the leasing office) and
+            maintenance staff should be consistent with comparable properties in the
+            market. If not on-site, the management and maintenance operation must have a
+            local presence in the market area and be adequately staffed to operate the subject
+            property and the rest of the portfolio.
+         c. Any Homeowner’s Association (HOA) or other types of governing regime of
+            any larger masterplan community shall not impede HUD’s enforcement of
+            programmatic or statutory requirements, or the borrower’s full management
+            control of the property.
+         d. The lender must disclose any HOA involvement and other governing regime
+            during the Concept Meeting and must ensure that there are no conflicts or
+            impediments with a full analysis by the time the Firm Application is submitted.
+
+  3. Amenities and services consistent with the market.
+        a. Amenities should be consistent with similar BTR properties or other comparable
+             multifamily developments in the market. Deviations from market norms shall be
+             discussed and accurately adjusted for on form HUD-92273.
+                                    www.hud.gov
+       b. The lender must evaluate strengths and prevalences of amenities specific to the
+          market. For example, common area amenities such as clubhouses, pools or
+          playgrounds may not be prevalent when individual unit-based amenities such as
+          private backyards, lawns or garages prevail in the market.
+       c. Common area maintenance services should be adequate and include (but not be
+          limited to): (i) interior and exterior common spaces; (ii) trash removal; and (iii)
+          seasonal grounds and building maintenance.
+
+4. Accessibility requirements under the Fair Housing Act accessibility design and
+   construction requirements, the Americans with Disabilities Act, and Section 504
+   of the Rehabilitation Act of 1973.
+       a. Detached single family houses, duplexes and triplexes do not meet the definition
+           of “covered multifamily dwelling.” Therefore, the following Fair Housing
+           Accessibility Guidelines design requirements are exempt for such non-covered
+           building types and the unit(s) located within: Requirement #1, Accessible
+           Building Entrance on an Accessible Route; Requirement #4, Accessible Route
+           Into and Through the Covered Dwelling Unit; Requirement #5, Light Switches,
+           Electrical Outlets, Thermostats and Other Environmental Controls; Requirement
+           #6, Reinforced Walls for Grab Bars; and, Requirement #7, Usable Kitchens and
+           Bathrooms. While not required, such accessibility features are strongly
+           encouraged.
+       b. If the site contains multiple building types and includes any “covered multifamily
+           buildings” (i.e., buildings with four or more dwelling units), the Fair Housing Act
+           accessibility design and construction requirements apply to those buildings and
+           the covered units within.
+       c. Accessible routes, entries, and other features under the Fair Housing Act are
+           required for common use areas and site amenities, the same as for typical
+           multifamily properties.
+       d. Other accessibility laws and requirements may apply, depending on the funding
+           source and other criteria. For example, Section 504 of the Rehabilitation Act of
+           1973 implementing Uniform Federal Accessibility Standards (UFAS) applies
+           when federally funded; and Americans with Disabilities Act applies to public
+           accommodation, if present.
+       e. Where relevant federal, state, or local laws differ, the more stringent requirements
+           shall apply.
+
+5. BTR-specific underwriting issues fully addressed, including the following.
+      a. Borrowers, contractors and management agents demonstrate successful experience
+         developing (design and construction) and operating similar projects in
+         type and scale.
+                                  www.hud.gov
+       b. Initial operating deficit (IOD) estimates should be conservative, anticipating
+          slower lease-up for BTR communities than other traditional multifamily
+          properties in the market.
+             i. For new construction, HUD will consider 24 months for maximum
+                   allowable absorption period recognizing a longer “rolling” basis
+                   construction and leasing schedule with possible ongoing construction
+                   impact on the completed units.
+             ii. At minimum, the IOD escrow amount must be the greater of 3% of the
+                   loan amount or 4 months of debt service.
+             iii. The lender must provide a robust analysis to independently size the IOD
+                   needed in accordance with the Multifamily Accelerated Processing
+                   (MAP) Guide, supported by available recent lease-up activities at
+                   comparable BTR communities in the market, addressing the complexity
+                   with a detailed construction schedule and planned leasing strategy.
+       c. Operating expenses may be higher due to low-density layouts (e.g., grounds
+          and road maintenance).
+             i. For new and recently constructed projects: use borrower/agent budgets,
+                   comparable data from stabilized BTR projects, and industry benchmarks.
+             ii. Only using expense data from traditional multifamily projects is
+                   discouraged.
+       d. Anticipate higher initial and annual Reserve for Replacement (RfR) deposits at
+          BTR properties due to the increased number of buildings and associated
+          components (e.g., roofing, exterior cladding, and windows) that require
+          ongoing maintenance and scheduled replacement.
+       e. Vacancy estimates should be conservative, as BTRs are relatively new both to the
+          market and HUD’s insurance platform.
+              i. For Market Rate projects: use the greater of 7% or market-based rate of
+                   comparable projects.
+             ii. For Affordable projects: a lower vacancy than 7% may be
+                   reasonable based on the market, the Area Median Income (AMI)
+                   targets, the duration of affordable restrictions and the rent
+                   advantage, but a minimum of 5% vacancy is required.
+             iii. Smaller projects may require higher vacancy assumptions as each vacant
+                   unit has heavier impact.
+
+6. Building codes and safety standards appropriately applied.
+        a. We recognize the confusion around the term “multifamily,” as it can refer to both
+           the building/structure (i.e., a building containing multiple dwelling units) as well
+           as the property itself (i.e., multifamily rental development). While BTR is a
+           “multifamily” property, the individual detached single-family house onsite is not
+
+
+
+                                  www.hud.gov
+              a “multifamily” building. Multifamily buildings contain four or more units by
+              definition, whereas BTR residential buildings typically contain only one dwelling
+              unit (possibly up to three for triplexes).
+           b. For example, where National Fire Protection Association (NFPA) 101 requires fire
+              sprinklers for new multifamily buildings, detached single-family structures for
+              rental at a multifamily property (e.g., BTR) may be exempt based on the structure
+              type and various factors such as the separation between buildings, etc.
+           c. In general, HUD will recognize and rely on the local building department’s
+              interpretation and proper enforcement of building codes and other safety
+              standards for the building types (detached, duplexes or triplexes) and the property
+              usage.
+
+IV.    Implementation
+
+This Mortgagee Letter is effective immediately and remains effective until amended, superseded, or
+rescinded. The MAP Guide will be revised to incorporate the changes specified in this Mortgagee
+Letter. Additionally, related MAP Guide cross references will be revised for consistency with the
+revisions. For questions about this Mortgagee Letter, please contact Margaret Lawrence, Deputy
+Director, Office of Multifamily Production at margaret.a.lawrence@hud.gov.
+
+The information collection requirements contained in this document have been approved by the
+Office of Management and Budget (OMB) under the Paperwork Reduction Act of 1995 (44 U.S.C.
+3501-3520) and assigned OMB control number 2502-0541. In accordance with the Paperwork
+Reduction Act, HUD may not conduct or sponsor, and a person is not required to respond to, a
+collection of information unless the collection displays a currently valid OMB control number.
+
+
+
+                                             __________________________________________
+                                             Joseph M. Gormley, performing the delegable duties
+                                             of the Assistant Secretary for Housing – Federal
+                                             Housing Commissioner
+
+
+
+
+                                      www.hud.gov
+
