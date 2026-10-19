@@ -1,9 +1,15 @@
 # WAL — NEXUS Brief
 
-**As of:** October19 2026 evening, after close. **STATUS commit `5b285249a069d33d2f8f2812bfa843f5dcaae5c9`**. This is the final desk write after the earnings-bridge STATUS/source/delivery commit.
+**As of:** October19 2026 evening, after close. **STATUS commit `fd3f986aea6eb363f4a26f5707dfc3f129101373`**. This is the final desk write after the coordinated bank-context STATUS/delivery commit.
 **Status:** Q3 Stage1 and subsequent full read complete; Will-authorized bounded earnings bridge complete. Stage2 **PENDING-CALL October20 noonET**. Credit actuals weaken the near-term bear; recurring earnings/capital mixed; $99M appraisal unknown. No demonstrated expectations gap.
 **Thesis:** v2.4; Bear-fast2%/Bear-medium16%/Base45%/Bull30%/Tail7%; **EV$75.96 / PT$52–76**, V3=3/5, composite13/25 unchanged. Frozen frames, THESIS/SCENARIOS/PREDICTIONS/POSITIONS bytes unchanged by this follow-up. No grade/probability/score/valuation/rule/order change.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity/price guard remain REGINALD-owned; structure and position management TERRY/Will. No helpers, duplicate owners, wider investigations or background jobs.
+
+## Coordinated weakness-study contribution
+
+Will’s new table assigned WAL its existing earnings/funding/credit lane. Completed `research/2026-10-19_broader-bank-stress-context.md`: lower NCO, improved reserve coverage, stable quarter-end deposits and lower borrowings do not confirm a common funding shock or spreading credit losses. Special mention+81M, OREO+39M, securities marks and deposit-mix costs remain cautions. Optimization/mix, loan cleanup and rates/capital-distribution explanations are retained. Quarter-end stocks cannot establish current/daily liquidity; missing99 appraisal, net funding economics and peer/common borrower linkage remain unknown. No fresh WAL equity shortlist test or financing causation asserted.
+
+HENRY and CRUISE exact focused-context packets read/applied; explicit WAL consumption/disposition receipts saved to their inboxes. Narrow REGINALD and WALTER packets preserve ownership and deduplicate the already-delivered SEC event. Root PROME packet `PROME/inbox/2026-10-19_from-WAL_coordinated-bank-stress-contribution.md` and research receipt are committed at `fd3f986aea6eb363f4a26f5707dfc3f129101373`. Nine protected files/source hash/caps and five packet pins checked. No new source-data refresh or KB row;247/20groups unchanged. WAL confirms assignment complete and pass closed, no helpers/background work. PROME owns combined assessment/other assignment confirmations. Native recipient consumption/closeout UNKNOWN; local commits, foreign-dirty push deferral. No new Will decision, trade construction, order, study, monitor or authority change.
 
 ## New evidence and judgment
 
