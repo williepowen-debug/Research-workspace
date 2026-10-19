@@ -1,0 +1,46 @@
+[
+  {
+    "commit": "ee95c5631",
+    "path": "AGENTS/OTTO/PREDICTIONS.md",
+    "snapshot": "ee95c5631-PREDICTIONS.md",
+    "metadata": [
+      "ee95c563114771efcdf12a811c15fdc6d763618e",
+      "2026-02-04T14:47:40+00:00",
+      "2026-02-04T14:47:40+00:00",
+      "OTTO PREDICTIONS.md created + workbook refresh"
+    ]
+  },
+  {
+    "commit": "3d85bd588",
+    "path": "AGENTS/OTTO/PREDICTIONS.md",
+    "snapshot": "3d85bd588-PREDICTIONS.md",
+    "metadata": [
+      "3d85bd5886d683d92a0a270070d3b33052b23e1e",
+      "2026-02-15T18:17:54+00:00",
+      "2026-02-15T18:17:54+00:00",
+      "Agent system upgrade: OTTO complete as reference implementation"
+    ]
+  },
+  {
+    "commit": "786d95673",
+    "path": "AGENTS/OTTO/PREDICTIONS.md",
+    "snapshot": "786d95673-PREDICTIONS.md",
+    "metadata": [
+      "786d95673631529991641d8ecd82aafdab9e9706",
+      "2026-03-04T02:13:02+00:00",
+      "2026-03-04T02:13:02+00:00",
+      "Pre-compaction: daily memory, SCRATCH updated. Chunk 4 in progress (5/15 audits done, CARL+LABOR running)"
+    ]
+  },
+  {
+    "commit": "91c301279",
+    "path": "AGENTS/OTTO/workbook/PREDICTIONS.tsv",
+    "snapshot": "91c301279-seed.tsv",
+    "metadata": [
+      "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "2026-03-04T03:29:53+00:00",
+      "2026-03-04T03:29:53+00:00",
+      "PREDICTIONS.tsv rollout: created for 24 agents, seeded 11 core agents (55 predictions), archived FL.tsv, updated instruction files, added resolution protocol to template"
+    ]
+  }
+]

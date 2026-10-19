@@ -1,0 +1,106 @@
+{
+  "pp_2026_report": {
+    "url": "https://20635162.fs1.hubspotusercontent-na1.net/hubfs/20635162/2026%20Auto%20Lending%20Fraud%20Trends%20Report%20-%20Final.pdf",
+    "accessed_utc": "2026-10-19T17:42:29.329864+00:00",
+    "status": 200,
+    "final_url": "https://20635162.fs1.hubspotusercontent-na1.net/hubfs/20635162/2026%20Auto%20Lending%20Fraud%20Trends%20Report%20-%20Final.pdf",
+    "content_type": "application/pdf",
+    "path": "sources/pp_2026_report.pdf",
+    "sha256": "310feb57f162eac9e380aac0e4d1118c0797af58a9bc865edd77c255aa2a39bb",
+    "bytes": 49770386,
+    "original_download_path_retained_in_bundle": false,
+    "retained_pdf_excerpt": "sources/pp_2026_report_page13.pdf",
+    "retained_pdf_excerpt_sha256": "bb8e008d859f5c127a4d6d2966d23bb2f21bc289855837415f952fff6bea6ab8",
+    "retention_note": "Original 49.8 MB PDF hash retained; full pdftotext extraction and page13 PDF retained. Original downloaded PDF left in /tmp, not committed."
+  },
+  "pp_q2_2026_page": {
+    "url": "https://landing.pointpredictive.com/fraud-risk-intelligence-q2-2026",
+    "accessed_utc": "2026-10-19T17:42:30.457332+00:00",
+    "status": 200,
+    "final_url": "https://landing.pointpredictive.com/fraud-risk-intelligence-q2-2026",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/pp_q2_2026_page.html",
+    "sha256": "e84b2a6a5dc8b5af4a68e3488377a1bc745656df08cde2886cdb5d5075e1f8ad",
+    "bytes": 743129
+  },
+  "saratoga_nov2025_10q": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377936/000121390026002153/ea0270446-10q_saratoga.htm",
+    "accessed_utc": "2026-10-19T17:42:30.832351+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1377936/000121390026002153/ea0270446-10q_saratoga.htm",
+    "content_type": "text/html",
+    "path": "sources/saratoga_nov2025_10q.html",
+    "sha256": "fb5760a74a359ec28d30afd12b0bcad6709f81c5e65c155ecf864983ec1a24dd",
+    "bytes": 8879126
+  },
+  "saratoga_nov2025_pdf": {
+    "url": "https://ir.saratogainvestmentcorp.com/static-files/6eeb7323-9bae-4559-8277-a088e8633b44",
+    "accessed_utc": "2026-10-19T17:42:35.230100+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "bcred_sep3": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026096935/ea0244647-03_ex99a1vii.htm",
+    "accessed_utc": "2026-10-19T17:42:35.402644+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026096935/ea0244647-03_ex99a1vii.htm",
+    "content_type": "text/html",
+    "path": "sources/bcred_sep3.html",
+    "sha256": "0d51451d9695127aecd54fe659c8fdd295f100ec71767ab6faea97cecc9d9b08",
+    "bytes": 48374
+  },
+  "obdcii_feb18": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1655887/000162828026009025/exhibit991-obdciix8xk21826.htm",
+    "accessed_utc": "2026-10-19T17:42:35.661323+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1655887/000162828026009025/exhibit991-obdciix8xk21826.htm",
+    "content_type": "text/html",
+    "path": "sources/obdcii_feb18.html",
+    "sha256": "a0a6d0c4983ab99a7cbc2b714cb63b78083c75d3829988664a2e200f84350490",
+    "bytes": 16033
+  },
+  "fsk_q1_2026": {
+    "url": "https://fskkrcapitalcorp.gcs-web.com/news-releases/news-release-details/fs-kkr-capital-corp-announces-first-quarter-2026-results-and",
+    "accessed_utc": "2026-10-19T17:42:35.977943+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "fsk_q1_2026_pdf": {
+    "url": "https://www.fskkrcapitalcorp.com/wp-content/uploads/2026/05/fsk-q1-2026-press-release.pdf",
+    "accessed_utc": "2026-10-19T17:42:36.191046+00:00",
+    "status": 200,
+    "final_url": "https://www.fskkrcapitalcorp.com/wp-content/uploads/2026/05/fsk-q1-2026-press-release.pdf",
+    "content_type": "application/pdf",
+    "path": "sources/fsk_q1_2026_pdf.pdf",
+    "sha256": "edad43f0222602dab202c8cff9bf279fb812037c87ce9f19b6508b97e3bae547",
+    "bytes": 312597
+  },
+  "mfs_administration": {
+    "url": "https://www.thegazette.co.uk/notice/5126098/",
+    "accessed_utc": "2026-10-19T17:42:36.466493+00:00",
+    "status": 200,
+    "final_url": "https://www.thegazette.co.uk/notice/5126098/",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/mfs_administration.html",
+    "sha256": "79383384513aba8783dcaddf6ca8fd30f29097a4a43b4dc400c06e9f09780e76",
+    "bytes": 41492
+  },
+  "gecc_sep2025": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312525264873/gecc-20250930.htm",
+    "accessed_utc": "2026-10-19T17:43:57.354463+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312525264873/gecc-20250930.htm",
+    "content_type": "text/html",
+    "path": "sources/gecc_sep2025.html",
+    "sha256": "f02a703303d8f749d3f7f51da28a150ef80d1e42971d49919cb2d628579cb656",
+    "bytes": 6332902
+  },
+  "gecc_filing_index": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312525264873/0001193125-25-264873-index.html",
+    "accessed_utc": "2026-10-19T17:44:28.417342+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312525264873/0001193125-25-264873-index.html",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/gecc_filing_index.html",
+    "sha256": "4b20610f10a72ffe06a24d1d85e3298fdd2d5193c923117cd8b3f15e39718514",
+    "bytes": 9861
+  }
+}
