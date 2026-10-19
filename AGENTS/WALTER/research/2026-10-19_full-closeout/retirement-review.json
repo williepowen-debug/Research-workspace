@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-10-19T18:17:42.847198+00:00",
+  "tracked_research_source_files": 1376,
+  "age_basis": "last path commit timestamp, not mtime or source publication date",
+  "older_than60days": [
+    {
+      "path": "AGENTS/WALTER/sources/2026-04_Trepp_CMBS_Delinquency_Report.pdf",
+      "last_commit": "2026-08-19T11:23:57-04:00",
+      "days": 61,
+      "analytical_references": [
+        "PROME/reports/2026-10-03_system-improvement-candidates-primary-source-read.md#trial"
+      ],
+      "disposition": "RETAIN: analytical extraction-method trial explicitly cites source; not navigation-only"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-05_Trepp_CMBS_Delinquency_Report.pdf",
+      "last_commit": "2026-08-19T11:14:20-04:00",
+      "days": 61,
+      "analytical_references": [],
+      "disposition": "ARCHIVED exact bytes: no repository text references found by exact filename/stem; not boot-read or registered pending dated-event artifact; age61days",
+      "sha256": "948c4be863aaeaa9067fe99f3519db85034c300c3dd39f26a30fcbc082a0b96a",
+      "archive_path": "AGENTS/WALTER/archive/2026-10-19_retired-sources/2026-05_Trepp_CMBS_Delinquency_Report.pdf"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-06_Trepp_CMBS_Delinquency_Report.pdf",
+      "last_commit": "2026-08-19T10:58:16-04:00",
+      "days": 61,
+      "analytical_references": [
+        "BOARD/SIG-W-20260819-020-creed-t-02-sustain-condition-is-MET-65pct-june-and-66pct-july-both-above-50-and-the-word-again-says-it-may-have-been-fireable-since-june.md"
+      ],
+      "disposition": "RETAIN: source PDF explicitly cited by existing analytical BOARD signal(s); not navigation-only"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-07_Trepp_CMBS_Delinquency_Report.pdf",
+      "last_commit": "2026-08-19T10:46:03-04:00",
+      "days": 61,
+      "analytical_references": [
+        "BOARD/SIG-W-20260819-021-may-is-70pct-so-creed-t-02-was-met-at-the-JUNE-report-six-weeks-ago-and-the-metric-peaked-in-may-this-is-not-a-wave-starting.md",
+        "BOARD/SIG-W-20260819-019-office-dq-11-91-is-9bp-from-creeds-gate-and-matured-balloon-at-66pct-is-a-candidate-crossing-of-creed-t-02-a-trigger-my-boot-does-not-read.md"
+      ],
+      "disposition": "RETAIN: source PDF explicitly cited by existing analytical BOARD signal(s); not navigation-only"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-07_Trepp_CMBS_Special_Servicing_Report.pdf",
+      "last_commit": "2026-08-19T10:36:33-04:00",
+      "days": 61,
+      "analytical_references": [
+        "BOARD/SIG-W-20260819-018-office-cmbs-special-servicing-fell-53bp-which-reverses-the-extend-and-pretend-leg-and-the-16-58-percent-does-NOT-grade-reg-t-07.md"
+      ],
+      "disposition": "RETAIN: source PDF explicitly cited by existing analytical BOARD signal(s); not navigation-only"
+    }
+  ],
+  "unknown": [],
+  "disposition": "Four source PDFs retained by analytical references; May PDF moved verbatim to own archive, no content deletion. Root source-search retirements unchanged."
+}

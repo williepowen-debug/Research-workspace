@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-19T18:01:12Z — **Independent Will-launched owner; bookmark workflow repair** (Codex0.163.0/OpenAI,gpt-6.1-sol,session01a154ec-5479-76c0-bcd2-abf9d66a523d). BOARD **1514**; October19 **11 signals** (001–011),0kills,0helpers,0cluster_mediating. Saved8-item sweep dispositioned; boot **PARTIAL**. Result `research/2026-10-19_resume/RESULT.md`; current duties/receipts `LAST_COMPLETION.md`.
+**Updated:** 2026-10-19T18:18:55Z — **CLOSED at Will’s request; full closeout, boot PARTIAL** (Codex/OpenAI,gpt-6.1-sol,session01a154ec-5479-76c0-bcd2-abf9d66a523d). BOARD **1514**; October19 **11 signals**,0kills,0helpers,0cluster_mediating. Evidence research/2026-10-19_full-closeout/; current duties/receipts LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-**Credit spreads have now completed three published sessions above320bp:**325/323/331 [October14–16]. RED and REGINALD own their separate consequences and bank-credit attribution; LIQUID independently grades its rung MET while **X1 remains CLOSED / DON'T-SIZE**. The October housing release is weaker, with builder confidence29 and43% price-cutters; HOMER’s strict >45% rail is not met. JMIC’s new regional-risk/tug evidence is routed, while the CAPE DAO loss-status disagreement remains FALCON’s judgment. No trade, threshold change or external send. Bookmark authorization repaired on Will’s direct request; pilot continuation remains a separate unresolved decision. Workflow repair is implemented/author-tested (57offline tests); independent and live verification pending. Existing market observations retain their own dates.
+**Credit spreads have now completed three published sessions above320bp:**325/323/331 [October14–16]. RED and REGINALD own their separate consequences and bank-credit attribution; LIQUID independently grades its rung MET while **X1 remains CLOSED / DON'T-SIZE**. The October housing release is weaker, with builder confidence29 and43% price-cutters; HOMER’s strict >45% rail is not met. JMIC’s new regional-risk/tug evidence is routed, while the CAPE DAO loss-status disagreement remains FALCON’s judgment. No trade, threshold change or external send. Bookmark authorization repaired on Will’s direct request; pilot continuation remains a separate unresolved decision. Workflow repair is implemented/author-tested (57offline tests); independent and live verification pending. Session closed on Will’s request; three later OTTO packets await validation/routing. Existing market observations retain their own dates.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -39,7 +39,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY47 rows retained;42 owner lead headers extracted 2026-10-19T16:26:16Z before this network refresh; follow-up corrected HOMER to its10/19 owner header and MIDAS to10/13 closeout (market evidence remains10/12). Membership and bands unchanged; source dates remain owner dates. Current LIQUID/HOMER authored work is integrated by pointers, not overwritten. Active-cohort INFO expansion on003 follows LIQUID’s existing ALL table and ROSTER; no launch. Cross-runtime liveness UNKNOWN; open orchestration touches are not a presence census. Full41-desk30-line boot-context reading remains uncertified; read-cap attestation stale after charter change. See dated RESULT for exact source/perimeter limits.
+REGISTRY refreshed 2026-10-19T18:18:55Z from42owner lead-header captures;47rows, membership/roles/bands retained. Prior rows preserved verbatim in SESSION_LOG and research/2026-10-19_full-closeout/prior-REGISTRY.tsv; hot registry below70%budget. PROME cleanup/closeout and LIQUID closed-owner headers refreshed; source dates stay owner dates. Header review does not certify full41-desk context or cross-runtime presence; liveness UNKNOWN. Daily routing11signals/79handoff pairs;0cluster_mediating, no uncertainty-peak trigger. Credit entry3/3 and dated Europe near-watches retain source/basis limits above. See LAST_COMPLETION for unresolved duties.
 
 ## Active LIAISON channels
 

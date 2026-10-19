@@ -1,6 +1,6 @@
-# WALTER LAST_COMPLETION — independent morning resume 2026-10-19
+# WALTER LAST_COMPLETION — full closeout 2026-10-19
 
-Updated 2026-10-19T18:04:26Z. OpenAI/Codex0.163.0,gpt-6.1-sol,session01a154ec-5479-76c0-bcd2-abf9d66a523d,task/root. Root `/home/willi/Research-workspace`. Light closeout; original full-owner closeout remains separately owed to PROME, with no new explicit final-touch ask received here. Current result `research/2026-10-19_resume/RESULT.md`; prior morning result remains valid within its earlier observation time.
+Updated 2026-10-19T18:19:53Z. OpenAI/Codex0.163.0,gpt-6.1-sol,session01a154ec-5479-76c0-bcd2-abf9d66a523d,task/root. Root `/home/willi/Research-workspace`. FULL closeout on Will’s direct terminal request; desk session CLOSED, boot/commission PARTIAL. Receipt answers Will; separate PROME ask/acknowledgment remains unverified. Closeout result `research/2026-10-19_full-closeout/RESULT.md`; earlier source results remain valid within their observation times.
 
 ## STATUS
 
@@ -22,14 +22,7 @@ Credit crossing routed to existing owners without bank attribution or sizing app
 
 - READS10/12 stale after10/16 charter change; re-enumeration and PROME attestation packet before10/22 remain owed. Some aggregate required reads truncated; full41desk context and ORCH_INFLIGHT enumeration not certified. Basis29path match is not execution proof. BootPARTIAL.
 - Full CREED property/event/cohort and HANS event perimeter not certified; HANS T12 UNINSTRUMENTED,T15 unresolved. Live UK/TTF/France displays do not certify registered final closes/settlements or all intervening crossings. Retired discretionary hunts remain closed below.
-- No verified independent-terminal PROME transport/fleet census. LivenessUNKNOWN; no doorbell. New packet acknowledgment/consumption and explicit full closeout ask/receipt remain unverified. Commission prohibits Telegram/public sends; Friday FLASH027 Telegram gap retained.
-- Earlier doctor snapshot (through008)0HIGH/55MED:48 then-unpublished packets plus7 operational/history findings (including HOMER registry date selection, now corrected). No market-clean claim; see doctor.txt. Final rerun through011:0HIGH/68MED, including62filesystem-present unpublished-packet flags and6operational/history findings; complete pending-publication ledger scope remains68 because already-filed packets still require origin proof. See doctor-final.txt.
-- Publication update during workflow review: localorigin454435973 now proves all79daily handoff paths;68additional rows reconciled,0remaining. Morning9cb358680 is the detached pre-rewrite identity of publishedf880624a5, verified identical stable patch IDs. This new workflow review still needs PROME publication; no fresh remote fetch or recipient-consumption claim.
-- R1 historical SHORT-TARGETS: COR-20261015-05 lacksSAM/ZHAO;06 lacksBRENT/HANS/LIQUID. New07 row targets corrected+correcting union. LABOR_DOWN,historical AMENDMENT-NOTE IDs/NOTE rows remain known; no broad rule/taxonomy repair commissioned.
-- L334 INFO-backlog study, expired reading/SIG-W-20260619-008 content review, >60day retirement classification remain owed. RootCLAUDE/ORCH_INFLIGHT read-cap rotation-tier is PROME/owner work.
-- bs4 absent; stdlib recovered8fetched bodies, no installation. UKMTO shell403 recovered through web primary. Optional OTTO/CARL/NEXUS CROSS_REFS absent, canonical routing used. No pending technical approval/rejection.
-- L599 already completed/consumed: whole-pilot account census/exact per-ID times unavailable; prior report preserves sample and upper-bound limits. No paid-feed/credit proof; WQ458 continuation unresolved, auth repair supplies no renewal.
-
+- No verified independent-terminal PROME transport/fleet census. LivenessUNKNOWN; no doorbell. Will’s direct closeout ask received and answered here; PROME packet acknowledgment/consumption and separate lifecycle ask remain unverified. Commission prohibits Telegram/public sends; Friday FLASH027 Telegram gap retained.
 ## WILL_NEEDS
 
 None newly created by this resume. Existing **WQ458** remains PROME's registered bookmark-pilot continuation decision; no self-extension, paid Phase2 or new measurement. X login no longer needs action. No repeated Sunday push question.
@@ -40,12 +33,12 @@ None newly created by this resume. Existing **WQ458** remains PROME's registered
 
 **New source queue:** SIG-OTTO-WALTER-20261019-readiness.md, -CATO-OR1-correction.md and -forecast-repairs.md arrived during implementation. Whole packet bodies read to identify later Ally amendment and55→25forecast supersession; source READOUT validation/routing still pending. Keep all3unconsumed; do not propagate the older commitment endpoint or held55% without the later source chain. Existing owner evidence/grades not changed in this code task.
 
-1. PROME consumes the new bookmark repair packet and coordinates its required independent review before a verified/live-use claim; then the first authorized human-watched live check. L599/WQ458 and L728 receipt ownership remain with PROME. Full WALTER closeout ask/receipt still needs a supported channel. No digest or final-touch receipt inferred.
+1. PROME consumes the new bookmark repair packet and coordinates its required independent review before a verified/live-use claim; then the first authorized human-watched live check. L599/WQ458 and L728 receipt ownership remain with PROME. Will’s direct FULL closeout ask received and answered in this terminal; PROME consumption/native transport remains unverified. No digest or final-touch receipt inferred.
 2. RED/REGINALD apply their published3/3 entry consequences with REGINALD bank attribution separate; LIQUID's current MET rung retains X1 CLOSED/DON'T-SIZE. TERRY existing card request is BOARD003, not approval to size.
 3. GIBBS existing lane used by001: FITB published10/19 morning,09:00ETcall; PROME corrects oldL704AMC wording and integrates bank comparison/NDFI withBROCK. No new GIBBS launch here.
 4. FALCON/BRENT existing owner lanes for005; full Iran sweep due~10/22, no clock reset. CapeDao/GFS PRIDE and asset census remain owner work; no '$136physical','USaskedpermission' or 'Straitclosed' carried as fact. OSPREY terminal003Sunday; L661read2HOLD10/23.
 5. Existing owner calendar: WAL10/19AMC(call10/20noonET),OZK10/20AMC,NanoP&A/regulatory/receiverchecks10/20,EGBN10/21AMC,EIA10/21,WATTretest>=10/22,READS/MEMORYcalendar10/22,RCL10/27,FOMC10/27–28,Carvana/UKBudget10/28,NCLH10/29 06:30ET,ECB10/29,BOJ10/29–30,BZZ26lasttrade10/30→boundary8switch11/2,refunding11/4. OctoberVXexpiry10/21 remains dated owner work, no new expiry reminder delegated.
-6. VULCAN intakeREQ,Volta owner method,Korea exacttotal,CableOne SDNY hearing owner check eachboot remain as qualified; source-search dispositions below do not waive mandatory source/anchor checks. L334,expiredcompanion/retirement and READS are unfinished general duties, not silently closed by this bounded commission.
+6. VULCAN intakeREQ,Volta owner method,Korea exacttotal,CableOne SDNY hearing owner check eachboot remain as qualified; source-search dispositions below do not waive mandatory source/anchor checks. L334,expiredcompanion and READS are unfinished general duties, not silently closed by this bounded commission.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will 2026-10-16
 
@@ -81,18 +74,20 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Earlier interrupted13:30 full-check bundle preserved unmodified at research/2026-10-19_morning/closeout; selected UNKNOWN then (receipt absent/READS stale), never converted into a complete procedure claim.
+Earlier dated light/interrupted-check narratives rotated VERBATIM to SESSION_LOG, section “2026-10-19 full closeout — prior receipt snapshots”. Their source artifacts remain unchanged; current full outcomes and unresolved findings are below.
 
-Final arrival integration2d9238d29/0cd4974a7, exact final packet filingcc9753f11; all six incoming packets now filed. Earlier 45e52ba5b four-packet/59-pair receipt is superseded by this live receipt. New009–011 source limits remain in RESULT and as-read owner snapshots.
 
-Light receipt check REVIEW on existing R1 short targets; ledger-nudge also REVIEW, with freeze/refresh dispositions below. Read-cap, weekday and archive checks pass their scopes. Ledger nudge is advisory: no kills this pass, so kill_log frozen; REGISTRY refreshed after late008. Event-driven receipt/deep-research/doorbell ledgers unchanged because no new corresponding event; named-correction boot check0owed. Fire ledgers refreshed earlier today; CORRECTIONS new07 added. No artificial event rows or no-change timestamps. HOMER/MIDAS header-date extraction repaired from actual owner text. No auto-memory edit; no shared index mutation.
+**FULL procedure update:** Will explicitly requested closeout; full narrative deferrals now cleared. Registry47rows/42leadheaders refreshed before network;26,226→21,144bytes with prior TSV verbatim in SESSION_LOG/evidence. MEMORY99lines. Five aged source PDFs classified; one exact archive move. Source/boot/review/inbox gaps above remain unfinished. Final checks at research/2026-10-19_full-closeout/checks/; REVIEW/UNKNOWN are scoped outcomes, not full-boot clearance. Implementation6c89f1a2c and receipta6d7d3ef3 pending PROME publication on current localorigin. No fresh fetch or consumption inferred.
 
-Current implementation light checks: research/2026-10-19_bookmark-repair/closeout/. Read-cap/archives/weekday/versions PASS their scopes; receipt REVIEW on historical R1, ledger-nudge REVIEW with explicit freeze reasons in manual_duties.root.ledger. Earlier resume/workflow check bundles remain dated snapshots. Full boot/desk closeout and independent/live repair verification are not claimed.
+
+## Selected check results
+
+Full runner selected state UNKNOWN: READS attestation stale10/12 and boot-defining COMPLETION_SPEC changed10/19. Basis REVIEW names X_BOOKMARKS_ACCEPTANCE, x_bookmarks_scan, COMPLETION_SPEC and ORCHESTRATION_PLAYBOOK;29path match from earlier snapshots is no longer current. Re-enumeration/review/attestation remains owed, not automatically rewritten to bless modified code. Receipt REVIEW: historical COR-20261015-05/06 short-targets. Ledger REVIEW explicitly frozen per duties above. Doctor0HIGH/6MED: LABOR_DOWN taxonomy, historical AMENDMENT-NOTE IDs,20NOTE rows, degraded intake/EIA feed and303unconsumed>2days across27desks (81ACTION/222INFO; not a liveness census). No desk launch or broad repair commissioned. Read-cap/archives(1exactpairedmove)/weekday/baselineversions/localMEMORY PASS their selected scopes; orphan advisory excludes foreign paths. Registry remains under70%budget; rootCLAUDE/generatedORCH source-size remedies belong to PROME. Raw caches and foreign CATO/GIBBS/PROME files preserved/excluded.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-19T18:04:26Z",
+  "as_of": "2026-10-19T18:21:14Z",
   "next_review": "2026-10-20",
   "publication": [
     {
@@ -150,6 +145,10 @@ Current implementation light checks: research/2026-10-19_bookmark-repair/closeou
     {
       "commit": "6c89f1a2c",
       "state": "pending"
+    },
+    {
+      "commit": "a6d7d3ef3",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -192,39 +191,68 @@ Current implementation light checks: research/2026-10-19_bookmark-repair/closeou
       {
         "path": "AGENTS/WALTER/research/2026-10-19_bookmark-repair/verification.json",
         "sha256": "8ba3d400a1168877291ce2bca00d14b35b58717308db3fce58a11283e72a0baa"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_full-closeout/RESULT.md",
+        "sha256": "2c342d96fe7ffd0e34c9bae5612dc21a429828ef043d7e58fbdc0de77ff1f643"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_full-closeout/registry-review.json",
+        "sha256": "52a205a1afd98600ef727c3c289a16de23afdec7d62234174332553a65b2ed6b"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_full-closeout/retirement-review.json",
+        "sha256": "25c4fed34c977391ff5095925db83f5503433b48c435aa88b8c196cec6ae4a27"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_full-closeout/repair-input-recheck.json",
+        "sha256": "4feae9753dc5adac55e6668c8c622fd9707fd4cfd172497ae7023fda1325dfa9"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
+    "tier": "full",
     "boot": "PARTIAL",
-    "full_closeout": "PROME explicit final-touch ask/receipt remains pending; no verified cross-terminal transport"
+    "full_closeout": "Will direct terminal ask received; full narrative duties executed and open work preserved; selected checks separately scoped",
+    "owner": "WILL",
+    "ask": "Okay lets close out here WALTER",
+    "PROME_ack": "UNVERIFIED; independent-terminal native transport unavailable"
   },
   "manual_duties": {
     "11": "Eleven daily signals, nine added on resumed pass,79handoff pairs. Batches02 8/8,03 5/5,04 2/2,05 2/2,06 9/9,07 5/5 CLOSED. Six incoming packets integrated before filing.",
     "Tier1": "HY/VIX/Cboe/Cushing gaps refreshed, Europe source basis retained; remaining event/cohort gaps explicit.",
-    "13": "47 registry rows retained;42 headers extracted before network summary. No liveness inference.",
-    "12(a-f)": "BOARD1514,11today,0kills/helpers/cluster_mediating; affected STATUS and current network mirrors updated; posture/standing thresholds unchanged, SESSION_LOG breadcrumb. Read-cap saved.",
-    "14": "MEMORY session notes refreshed under100lines; no auto-memory promotion/index edit.",
-    "15": "Current and prior committed LAST_COMPLETION compared; obsolete source gaps discharged, approvals and unresolved carries retained.",
-    "16": "Exact-path bookmark implementation commit6c89f1a2c and earlier research persist. Earlier79daily handoffs delivered on localorigin; current implementation/receipt publication remains PROME-coordinated. No main-repo pull/stash/reset/push.",
-    "root.retirement": "New artifacts under60days; earlier >60day classification still owed, no silent retirement. Source-search retirements unchanged.",
+    "13": "47rows/42owner headers refreshed before network; membership/roles/bands retained. Focus reduced to header/pointer, prior entire registry preserved verbatim in SESSION_LOG/evidence;26226\u219221144bytes.",
+    "12(a-f)": "BOARD1514/11daily/0kills/helpers/cluster_mediating. Full lead/network refreshed; posture/standing flags reviewed unchanged; full SESSION_LOG entry clears deferrals; read-cap scope/remaining upstreamflags retained.",
+    "14": "MEMORY99lines refreshed; no new shared auto-memory/index write or promotion.",
+    "15": "Approvals, source-search dispositions and unresolved design/current duties preserved; Will direct full-closeout ask answered, receipt retains boot PARTIAL.",
+    "16": "Implementation6c89f1a2c and receipta6d7d3ef3 pending on localorigin; final exact-path closeout publication deferred to PROME. No pull/stash/reset/push.",
+    "root.retirement": "1376trackedsource/research paths assessed;5agedPDFs,4retainedanalyticalrefs,MayPDFexactarchive. retirement-review.json. Raw untracked cache captures preserved.",
     "root.consumer": "44/44 enlarges39/39 with new months, not error correction; dated HY/VIX observations updated, no canonical threshold superseded. OTTO owns12\u21928 forecast; caveats routed to prior owner lanes.",
-    "root.claim_check": "Saved light-run result governs; flags require review, not automatic edits.",
-    "root.archives": "Six exact own-inbox moves after integration:766a19a60,c58c42e27,cc9753f11. Sender files not edited.",
-    "root.memory": "No shared auto-memory edits; local MEMORY93lines.",
+    "root.claim_check": "Full runner weekday4filesPASS; no semantic-date clearance beyond checked scope.",
+    "root.archives": "Five aged sources classified, MayPDF byte-identicalmove paired/staged archivePASS; earlier6inbox moves retained.",
+    "root.memory": "No shared auto-memory edits; local MEMORY99lines.",
     "7g/7e": "Initial1+5arrivals=6read/integrated/filed;final0. Final post-drain intake0NEW/13suppressed,1missedweekday,EIAdegraded; no mark. Exact incoming final packet bytes persisted inside owned inbox before moves.",
     "7h": "Authorization repaired on direct Will request;0bookmarkfetch/mark; pilot remains unrenewed, L599 not repeated.",
-    "workflow_followup": "Will-requested review only; offline cap counterexample verified; L599 reused, no live scan or production/spec edit. Source/read receipt ideas saved; full closeout remains separately owed.",
+    "workflow_followup": "Earlier assessment reused L599; later Will-authorized implementation57author tests. Independent/livecheck pending; no live scan/mark or renewal. Full narrative deferrals cleared.",
     "bookmark_implementation": "Will authorized code/workflow improvements;57author tests, read-cap/version guard passed scopes, production seen/stage unchanged. No independent reviewer launched or live API/mark. Material unread/partial gaps cannot be hidden by the new mark flow. Required review/liveness transport remains pending.",
     "new_source_queue": "Three later OTTO packet bodies read but source reports/routing pending; no consume declaration or move; previous six remain completed.",
-    "root.ledger": "Current code/workflow task: kill_log frozen (no new kills), route_log frozen (no new BOARD dispatch), delivery_log frozen after79/79 publication reconciliation (no new handoffs). Source fire/correction/doorbell ledgers unchanged without events; REGISTRY self row refreshed with STATUS. New OTTO source queue unconsumed, not false no-action rows."
+    "root.ledger": "Current code/workflow task: kill_log frozen (no new kills), route_log frozen (no new BOARD dispatch), delivery_log frozen after79/79 publication reconciliation (no new handoffs). Source fire/correction/doorbell ledgers unchanged without events; REGISTRY self row refreshed with STATUS. New OTTO source queue unconsumed, not false no-action rows.",
+    "boot_basis": "REVIEW: bookmark acceptance/scanner and PROME completion/playbook changed; do not reuse prior29pathmatch as current. READS UNKNOWN stale10/12, completion spec changed10/19."
   },
   "publication_equivalence": {
     "prior": "9cb358680",
     "canonical": "f880624a5",
     "proof": "research/2026-10-19_resume/workflow-closeout/morning-commit-equivalence.json",
     "method": "identical git patch-id --stable; prior not an outstanding push target"
+  },
+  "selected_checks": {
+    "state": "UNKNOWN",
+    "doctor": "0HIGH/6MED",
+    "receipt": "REVIEW historical R1shorttargets",
+    "reads": "UNKNOWN staleattestation",
+    "basis": "REVIEW fourchangedpaths",
+    "ledger": "REVIEW explicitfreezereasons",
+    "read_cap_archives_weekday_versions_memory": "PASS selectedscope"
   }
 }
 END_CLOSEOUT_RECEIPT -->

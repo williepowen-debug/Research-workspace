@@ -95,3 +95,5 @@
 **10/19 bookmark feedback:** Will enjoys capture workflow. Offline501item cap/mark/rescan leaves1unseen; see resume RESULT and bookmark-workflow-offline-check.json. Live occurrenceUNKNOWN; repair nowimplemented/57author tests, independent/liveverificationpending; WQ458notrenewed. Currentoperator guide design/X_BOOKMARKS_WORKFLOW.md.
 
 **Bookmark completion:** new stages require --review-template + --mark --review; --receipt is local-only. Fully/partly/unread labels are attestations; material reading gaps need follow-up/request. Repairevidence research/2026-10-19_bookmark-repair/.
+
+**10/19 full closeout:** Will requested close; review/live check and3OTTO source tasks pending. LAST_COMPLETION is the restart point; narrative deferrals cleared, boot PARTIAL.
