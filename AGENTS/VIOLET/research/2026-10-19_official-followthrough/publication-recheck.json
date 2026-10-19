@@ -1,0 +1,113 @@
+{
+  "VIX": {
+    "read_at": "2026-10-19T21:39:42.195609+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "16.020000",
+      "HIGH": "22.310000",
+      "LOW": "15.720000",
+      "CLOSE": "19.990000"
+    },
+    "October19_present": false
+  },
+  "VIX9D": {
+    "read_at": "2026-10-19T21:39:42.196878+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "17.110000",
+      "HIGH": "18.340000",
+      "LOW": "16.500000",
+      "CLOSE": "17.930000"
+    },
+    "October19_present": true
+  },
+  "VIX3M": {
+    "read_at": "2026-10-19T21:39:42.197696+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "18.200000",
+      "HIGH": "21.650000",
+      "LOW": "18.090000",
+      "CLOSE": "20.500000"
+    },
+    "October19_present": false
+  },
+  "VIX6M": {
+    "read_at": "2026-10-19T21:39:42.198515+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "20.060000",
+      "HIGH": "22.270000",
+      "LOW": "20.000000",
+      "CLOSE": "21.670000"
+    },
+    "October19_present": false
+  },
+  "VVIX": {
+    "read_at": "2026-10-19T21:39:42.199288+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "VVIX": "106.930000"
+    },
+    "October19_present": true
+  },
+  "SKEW": {
+    "read_at": "2026-10-19T21:39:42.200071+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "SKEW": "168.590000"
+    },
+    "October19_present": false
+  },
+  "COR1M": {
+    "read_at": "2026-10-19T21:39:42.200762+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "6.810000",
+      "HIGH": "13.510000",
+      "LOW": "6.810000",
+      "CLOSE": "10.070000"
+    },
+    "October19_present": false
+  },
+  "COR3M": {
+    "read_at": "2026-10-19T21:39:42.201482+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "11.820000",
+      "HIGH": "16.410000",
+      "LOW": "11.820000",
+      "CLOSE": "13.980000"
+    },
+    "October19_present": false
+  },
+  "COR30D": {
+    "read_at": "2026-10-19T21:39:42.202166+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "http": 200,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "9.690000",
+      "HIGH": "10.620000",
+      "LOW": "9.610000",
+      "CLOSE": "10.370000"
+    },
+    "October19_present": true
+  }
+}

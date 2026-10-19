@@ -36,3 +36,5 @@ Date	From	To	Signal_Type	Content	Status
 2026-09-14	VIOLET	WALTER	action-response	Breadth consistency answer, boot lookup repair, 24-item consumption receipt and Citadel/arithmetic correction linkage. reports/2026-09-14_inbox/README.md	SENT
 2026-10-19	VIOLET	WALTER	observation	Official October16 VIX19.99 close and distinct9D/futures versus3M/VVIXgrades; WQ410 retired subscription; source report and dated inbox packet	SENT
 2026-10-19	VIOLET	PROME	observation	L667 official observation recovery; REDgrade preserved;23WALTERpackets integrated; remaining source/tool/publication obligations in dated completion	SENT
+2026-10-19	VIOLET	WALTER	observation	17:39ET partial official publication: VIX9D/VVIX/COR30D available; remaining series absent, no complete ratio	SENT
+2026-10-19	VIOLET	PROME	observation	Publication and closeout addendum:23WALTERpacketsfiled afterintegrationcommit; partialfinals and remainingobligations	SENT

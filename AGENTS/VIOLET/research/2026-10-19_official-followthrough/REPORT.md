@@ -2,6 +2,10 @@
 
 VIOLET, Will-launched after close. Evidence retrieved 17:29–17:31 ET; exact UTC retrieval times, URLs and SHA256 hashes in `sources/manifest.json`. Current official daily-history frontier is October 16. Current October 19 delayed quotes and dated futures settlements are different evidence classes. Calculations: `derived.json`. No new research direction, trade or threshold.
 
+## Publication addendum — October19 17:39 ET
+
+The final recheck (`publication-recheck.json`, primary URLs/read timestamps retained) now finds **October19 VIX9D17.93, VVIX106.93 and COR30D10.37 official daily observations**. VIX, VIX3M, VIX6M, SKEW, COR1M and COR3M still endOctober16. This supersedes the initial capture's blanket frontier statement for those three individual series only. Complete same-date VIX ratios remain ungradeable because October19 VIX final is absent; the VX_DAILY and IMPLIED_CORR row basis stays TICK. VVIX's daily120line is NOT FIRED on the newly published106.93. FT10officialcountunchanged; noOctober19SKEWCSV. No newfire,tradeorregimechange.
+
 ## Findings that matter
 
 1. **The outstanding October 14 SKEW observation exists and agrees with RED's completed grade.** Official closes October 9/12/13/14 =154.34/155.06/154.74/157.30: four consecutive published sessions at or above150.00. October8=149.19 resets the prior run; Columbus Day October12 is present and counts. October15=160.45 and October16=168.59 extend the same run to six observations, without a second fire. RED already recorded FT10 FIRING October14 and its ACUTE+2/MANAGED−2 action. VIOLET supplies the observations and does not execute or revise RED's weights, grade or outcome. The current archive agrees with RED/WALTER's contemporaneous capture; our October19 recovery cannot independently certify first publication.
@@ -20,7 +24,7 @@ VIOLET, Will-launched after close. Evidence retrieved 17:29–17:31 ET; exact UT
 |October14|16.87|14.59|18.79|20.49|94.45|157.30|0.8648|1.1138|
 |October15|16.46|13.97|18.49|20.24|92.57|160.45|0.8487|1.1233|
 |October16|19.99|20.12|20.50|21.67|109.91|168.59|1.0065|1.0255|
-|October19|—|—|—|—|—|—|—|—|
+|October19 partial|—|17.93|—|—|106.93|—|—|—|
 
 Sources: [Cboe VIX history](https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv), [SKEW history](https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv); all six exact publisher files saved. SKEW20-session mean throughOctober16=148.5125. Filled October15/16 daily rows and replaced October14's five provisional cells with official closes; no claim those prior timestamped quotes were incorrect at their own times. Three rows now SETTLE. Futures settlement dates remain independent.
 

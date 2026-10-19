@@ -11,3 +11,13 @@ Direct Will task; same owner01a15611-0101-79e0-b103-685fe4eb21cf. Research resul
 - Nativecross-windowtransportunavailable; hostPROME/WALTERprocessesvisible, exhaustivefleetdiscoveryUNKNOWN. No dark-ownerinferenceorlaunch. Savedpacketandfinalcompletionblockprovidecontractdelivery; PROMEconsumption/ackandanylatercloseoutask/receiptremainUNKNOWN.
 
 Persistence steps below will be updated from actual command receipts. No success inferred before the command completes.
+
+## Integration / source-availability checkpoint
+
+- fb1ea8ab9 committed canonical research, STATUS/brief, source evidence and both initial recipient packets together. Postcommitwritebackprovenance and surfaceagreementPASS.
+-23WALTERpacketsgitmovedafterintegrationcommit; source/destinationpairs and evidencehashesinconsumption.json. Tenacted/thirteennoted, no unreadWALTERpacketknownatfiling.
+-17:39ETpublicationrecheckfoundindividualOctober19VIX9D/VVIX/COR30Dfinals. Remaining sixqueriedseriesstillOctober16. AddedKB344/report+state+brief+recipientaddenda; no fullsame-datefinalratioandnoFT10countchange.
+- Orphan advisory lists foreignGIBBS/WAL/TERRY/WALTER/PROMEwork; none swept. Fulladvisorysavedalongside; currentknownledgersupdated, tradeperimeterscanned. No auto-memorywritten, so slug/indexchecknotapplicable.
+- Pushandpost-addendumvalidationwillberecordedfromactualreceipts; no recipientackorcloseouttransportclaim.
+
+Post-addendumfullguard10/10GREEN; weekday6filesclean; sourcefrontierrecheck9seriesboundedandreported. CurrentPROME/WALTERhostprocessesstillvisibleat17:41ET; noverifiednativechannelavailable, notification/consumptionremainUNKNOWN.

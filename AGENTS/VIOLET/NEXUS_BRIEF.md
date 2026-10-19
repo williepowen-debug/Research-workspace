@@ -3,14 +3,14 @@
 **Status:** Confirmed short-end volatility stress; systemic transmission incomplete.
 **Domain:** Volatility term structure, tail pricing and credit-to-volatility timing.
 **Thesis version:** v4.1.4, approved WQ410 retirement enacted; no successor threshold.
-**As of:** 2026-10-19 17:38 ET | **STATUS commit:** `same-commit`; pre-commit base recorded in CLOSEOUT.md.
-Official cash history through October16; Monday quotes separately dated. Canonical numbers: [STATUS](STATUS.md). Source/owner hashes, calculations and remaining obligations: [REPORT](research/2026-10-19_official-followthrough/REPORT.md). Convergence **31/50**.
+**As of:** 2026-10-19 17:40 ET | **STATUS commit:** `same-commit`; pre-commit base recorded in CLOSEOUT.md.
+Complete official complex throughOctober16; final recheck17:39ETnowpublishesOctober19VIX9D17.93,VVIX106.93,COR30D10.37individually. RemainingVIX/3M/6M/SKEW/COR1M/COR3Mfinalsabsent; ratiosprovisional. Canonical numbers: [STATUS](STATUS.md). Source/owner hashes, calculations and remaining obligations: [REPORT](research/2026-10-19_official-followthrough/REPORT.md). Convergence **31/50**.
 
 ## CROSS-DOMAIN
 
 **PROME / RED:** Official October14 SKEW157.30 completes154.34/155.06/154.74/157.30, four consecutive qualifying published observations. RED already graded FT10 FIRING and owns weights, exit and outcome. October15/16=160.45/168.59 extend the same run to6, no second fire. Count agrees, so no RED disagreement packet or duplicate fire alert. Current archive matches the contemporaneous owner record; recovery is not independently verified first-publication vintage. October19quote161.86 is excluded pending dailyCSV. At-use integrity23/23 within0.005 throughOctober16.
 
-**HENRY / LIQUID / RED via WALTER:** October16 official VIX high22.31/close19.99, +5.85points intraday versus priorclose16.46.9D20.12/VIX19.99=1.0065 inverted;3M20.50/VIX19.99=1.0255 NOT inverted. VVIX109.91daily<120; WALTER121.17intraday=WATCH. VXOct/Nov−3.362% inverted. These instruments cannot substitute for one another. StrictVIX<20filter is met on official19.99close, not22.31high; no rounding across boundary and no fullPath-A/076fire from that leg alone. MondayquotesVIX18.44/VVIX106.93 ease; official cash finals still missing at capture.
+**HENRY / LIQUID / RED via WALTER:** October16 official VIX high22.31/close19.99, +5.85points intraday versus priorclose16.46.9D20.12/VIX19.99=1.0065 inverted;3M20.50/VIX19.99=1.0255 NOT inverted. VVIX109.91daily<120; WALTER121.17intraday=WATCH. VXOct/Nov−3.362% inverted. These instruments cannot substitute for one another. StrictVIX<20filter is met on official19.99close, not22.31high; no rounding across boundary and no fullPath-A/076fire from that leg alone. MondayquotesVIX18.44/VVIX106.93 ease; VIX/SKEW/longertenorfinalsstillmissing;9D/VVIX/COR30Dnowpublishedindividually.
 
 **LIQUID / BOND / PROME:** HY325/323/331bpOctober14/15/16 completes LIQUID's >320×3 line. HY+63bp sinceSeptember22 below central100bp size; origin/cross-sector causal evidence remains incomplete. LIQ07 resolved S2 on both frozen lists: no reserve-channel loop observed, not no loop; Friday lies outside its window. Hidden collateral calls and offshore dollars remain unmeasured. FridayETFcreations and lagged Treasury inventory counter blanket forced-selling claims; credit NET stocks do not identify Fridaygrosssales. BOND's officialOctober14real-yield retracement opposes a simple sustained CPIyieldjump story. No newOctober19BONDgrade imported.
 
@@ -37,7 +37,7 @@ NoFT10countdisagreement. LIQUID'screditrungMETandVIOLET'sfullPath-AWATCHarecompa
 
 ## NEXT DECISION POINT
 
-ActualOctober19officialcash/SKEW/correlation/MOVEpublication,thenLIQUIDnextpublishedcredit/fundingbridge; no assumedhour. October21AMexpiry/pairs,October28FOMC,November17lagendpointandDecember16L441 unchanged. L667observationlegcomplete; existingcalendarpacket-output/charterclauseandcorrelation-helperbasisrepairremainseparateobligations. Currentcalendarpopulated; noemptyevent.
+RemainingOctober19VIX/3M/6M/SKEW/COR1M/COR3MfinalsandMOVEprimarypublication,thenLIQUIDnextpublishedcredit/fundingbridge; no assumedhour. October21AMexpiry/pairs,October28FOMC,November17lagendpointandDecember16L441 unchanged. L667observationlegcomplete; existingcalendarpacket-output/charterclauseandcorrelation-helperbasisrepairremainseparateobligations. Currentcalendarpopulated; noemptyevent.
 
 ## VIEW
 

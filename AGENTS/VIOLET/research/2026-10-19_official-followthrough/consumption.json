@@ -139,6 +139,8 @@
       "sha256": "ef2bc5eb7b99a52b33d3dcc085cd75b659d485d2bb9f43d44db868a9dcaf0bac"
     }
   ],
-  "filing": "AFTER canonical integration commit",
-  "count": 23
+  "filing": "git mv after canonical integration commit",
+  "count": 23,
+  "integration_commit": "fb1ea8ab9",
+  "filed_at": "2026-10-19T21:39:18.674845+00:00"
 }
