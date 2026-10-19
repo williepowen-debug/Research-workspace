@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-19T18:40:55-04:00",
+  "source": "AGENTS/HENRY/research/2026-10-19_repeat-losers/RESULT.md",
+  "commit": "4261b747e",
+  "sha256": "7667de05aafc30edf6276b597454e5fd2cc191fd1ecc7bedf32a4af2ee960984",
+  "committed_blob_equal": true,
+  "primary": [
+    "MOS",
+    "HII",
+    "ADM",
+    "CPRT"
+  ],
+  "secondary": [
+    "MGM",
+    "MCD",
+    "PCAR"
+  ],
+  "controls": {
+    "MGM": "WYNN",
+    "MCD": "SBUX"
+  },
+  "primary_unmatched": true
+}
