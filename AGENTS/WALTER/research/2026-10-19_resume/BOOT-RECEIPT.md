@@ -11,3 +11,5 @@ Will’s new direct question about X authorization was handled as an authorizati
 Missing venv bs4 was bypassed with stdlib extraction of already-fetched HTML; it was not installed. Direct UKMTO PDF download403, web PDF primary recovered. Governing OAT path was recovered from owner evidence after a guessed locator404. Current market/source gaps and incomplete general duties remain explicitly in RESULT/LAST_COMPLETION. No pending technical approval or rejection in this terminal.
 
 The required full desk closeout remains a separate PROME final-touch ask/owner receipt. This turn supplies a light closeout and durable completion packet; saved work and notification are not PROME consumption.
+
+Operational correction during closeout: one attempted WALTER archive command was mistakenly run from the separate intake cwd and failed before any move/write; rerun from verified research root succeeded. Intake pull was up-to-date; final health scan followed the completed drain. No main-repository git operation ran from an agent/launch directory.

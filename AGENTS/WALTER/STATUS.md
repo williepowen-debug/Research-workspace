@@ -39,7 +39,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY47 rows retained;42 owner lead headers extracted 2026-10-19T16:26:16Z before this network refresh. Membership and bands unchanged; source dates remain owner dates. Current LIQUID/HOMER authored work is integrated by pointers, not overwritten. Active-cohort INFO expansion on003 follows LIQUID’s existing ALL table and ROSTER; no launch. Cross-runtime liveness UNKNOWN; open orchestration touches are not a presence census. Full41-desk30-line boot-context reading remains uncertified; read-cap attestation stale after charter change. See dated RESULT for exact source/perimeter limits.
+REGISTRY47 rows retained;42 owner lead headers extracted 2026-10-19T16:26:16Z before this network refresh; follow-up corrected HOMER to its10/19 owner header and MIDAS to10/13 closeout (market evidence remains10/12). Membership and bands unchanged; source dates remain owner dates. Current LIQUID/HOMER authored work is integrated by pointers, not overwritten. Active-cohort INFO expansion on003 follows LIQUID’s existing ALL table and ROSTER; no launch. Cross-runtime liveness UNKNOWN; open orchestration touches are not a presence census. Full41-desk30-line boot-context reading remains uncertified; read-cap attestation stale after charter change. See dated RESULT for exact source/perimeter limits.
 
 ## Active LIAISON channels
 

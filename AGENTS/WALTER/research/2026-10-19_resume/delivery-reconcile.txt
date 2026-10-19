@@ -1,0 +1,27 @@
+delivery_log rows: 4749
+  pending -> delivered (in origin/master tree, or in origin/master HISTORY): 11
+  REAL ORPHANS (origin/master has NEVER seen the path, left untouched): 48
+    row 4703: AGENTS/HOMER/inbox/WALTER/SIG-W-20261019-004.md
+    row 4704: AGENTS/REGINALD/inbox/WALTER/SIG-W-20261019-004.md
+    row 4705: AGENTS/MARCO/inbox/WALTER/SIG-W-20261019-004.md
+    row 4706: AGENTS/LABOR/inbox/WALTER/SIG-W-20261019-004.md
+    row 4707: AGENTS/FALCON/inbox/WALTER/SIG-W-20261019-005.md
+    row 4708: AGENTS/BRENT/inbox/WALTER/SIG-W-20261019-005.md
+    row 4709: AGENTS/HAWK/inbox/WALTER/SIG-W-20261019-005.md
+    row 4710: AGENTS/SAM/inbox/WALTER/SIG-W-20261019-005.md
+    row 4711: AGENTS/CARL/inbox/WALTER/SIG-W-20261019-006.md
+    row 4712: AGENTS/REGINALD/inbox/WALTER/SIG-W-20261019-006.md
+    row 4713: AGENTS/BROCK/inbox/WALTER/SIG-W-20261019-006.md
+    row 4714: AGENTS/LIQUID/inbox/WALTER/SIG-W-20261019-006.md
+    row 4715: AGENTS/OTTO/inbox/WALTER/SIG-W-20261019-006.md
+    row 4716: AGENTS/CREED/inbox/WALTER/SIG-W-20261019-007.md
+    row 4717: AGENTS/HOMER/inbox/WALTER/SIG-W-20261019-007.md
+    row 4718: AGENTS/REGINALD/inbox/WALTER/SIG-W-20261019-007.md
+    row 4719: AGENTS/NEXUS/inbox/WALTER/SIG-W-20261019-003.md
+    row 4720: AGENTS/SAM/inbox/WALTER/SIG-W-20261019-003.md
+    row 4721: AGENTS/BRENT/inbox/WALTER/SIG-W-20261019-003.md
+    row 4722: AGENTS/LABOR/inbox/WALTER/SIG-W-20261019-003.md
+    … and 28 more
+
+WROTE 11 rows -> delivered. Field count uniform at 9.
+⚠️  48 real orphan(s) LEFT AS-IS — investigate, do not sweep.

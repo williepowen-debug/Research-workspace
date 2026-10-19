@@ -1,0 +1,28 @@
+RESEARCH-INTAKE scan — 2026-10-19 16:31Z
+================================================================
+
+[health]
+  OK   last_run 2026-10-18T17:43:34Z (1 missed weekday runs, 0 calendar days)
+  MED  lane status=degraded
+  MED  feed eia_petroleum status=error
+  OK   news search items saved: 93 (trailing median 191 over 10 batches)
+
+[NEW breaches to ROUTE — 0]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  (none — gate quiet)
+
+[suppressed — still-true, already seen — 13]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=51.7 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.4 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=323.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=323bps [red] >=280 X1-trigger breach (LIQUID half )
+  cftc:cftc_cot_VIX_lev_money_net_1105_orange_n:orange  (cftc_cot VIX lev-money net=1105 [orange] (net-long vol / de-risking re)
+  edgar:NCLH_2026_10_15_1_01_1_02_2_03_8_01_9_01_  (NCLH 2026-10-15 ['1.01', '1.02', '2.03', '8.01', '9.01'])
+  edgar:NCLC_2026_10_15_1_01_1_02_2_03_8_01_9_01_  (NCLC 2026-10-15 ['1.01', '1.02', '2.03', '8.01', '9.01'])
+  news:NEW_ALERT:data/2026-10-18/news.json  (1 NEW_ALERT item(s) — read data/2026-10-18/news.json)
+  news:NEW_WATCH:data/2026-10-18/news.json  (4 NEW_WATCH item(s) — read data/2026-10-18/news.json)
+  news:WATCH_HIT:fc0e61e1aca1  (Ukraine sets Saint Petersburg refinery ablaze in large-scale drone att)
+  news:WATCH_HIT:48c58b432728  (Zelenskyy Defies Trump, Orders New Russian Refinery Attacks - Bloomber)
+  news:WATCH_HIT:062ab3a89bef  (Central Bank Gold Statistics: Central banks make positive headlines on)
+  news:WATCH_HIT:a23ef77d5963  (The damaged Aframax tanker Rio was brought to Novorossiysk after a fir)
+
+After routing the NEW breaches, run:  python3 tools/intake_scan.py --mark

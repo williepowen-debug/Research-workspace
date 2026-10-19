@@ -295,5 +295,32 @@
       "header": "**Last Updated: 2026-10-19 \u2014 first owner morning session, Codex / gpt-6.1-sol, /root/gibbs_morning.**",
       "status_band": "retained; no automatic reclassification"
     }
-  ]
+  ],
+  "followup_review": {
+    "as_of": "2026-10-19T16:34:16Z",
+    "reason": "HOMER promotion date was incorrectly selected as freshness; corrected to actual10/19 L725 header. MIDAS closeout10/13 distinct from market evidence10/12. WALTER late008 incorporated.",
+    "rows": [
+      {
+        "agent": "HOMER",
+        "source": "AGENTS/HOMER/STATUS.md",
+        "sha256": "9e4823bbb667a90ed33816b2143ad1afd3c9a31a45effe220f5c8b607e42d8d4",
+        "updated": "2026-10-19",
+        "reviewed_line": "10/19 L725: October HMI integrated; spread recomputed; Texas auction inspected with source gaps."
+      },
+      {
+        "agent": "MIDAS",
+        "source": "AGENTS/MIDAS/STATUS.md",
+        "sha256": "5681906cad27a221c3fc944e3555f8ee4b2fc6b4a7ab15888adda3502f951d2f",
+        "updated": "2026-10-13",
+        "reviewed_line": "Closeout October13,2026; market evidence October12 or earlier. No new market pull."
+      },
+      {
+        "agent": "WALTER",
+        "source": "AGENTS/WALTER/STATUS.md",
+        "sha256": "59d431982f27fef6bc136647014a9e34fbedd9edf1f34c0d09ecac2bffda7d5c",
+        "updated": "2026-10-19",
+        "reviewed_line": "Independent resumed owner:003\u2013008,8signals today; bootPARTIAL; duties/receipts LAST_COMPLETION."
+      }
+    ]
+  }
 }
