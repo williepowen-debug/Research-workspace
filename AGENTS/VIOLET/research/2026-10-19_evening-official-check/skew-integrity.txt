@@ -1,0 +1,1 @@
+[SKEW-INTEGRITY 2026-10-19 18:53 EDT] ✅ CBOE and yfinance agree on all 23 sessions 2026-09-16..2026-10-16 (|Δ| ≤ 0.005). Verified AT TIME OF USE — this bounds THIS read only, not any earlier one.

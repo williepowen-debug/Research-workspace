@@ -1,0 +1,698 @@
+{
+  "VIX_history": {
+    "retrieved_at": "2026-10-19T22:53:49.194509+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "series": "VIX",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Sat, 17 Oct 2026 01:11:02 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VIX_history.csv",
+    "sha256": "a9742d4deab98f7644bda10df92db0b6afbca17ccc8b64139c52ad2ca0963d42",
+    "bytes": 473839,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "16.020000",
+      "HIGH": "22.310000",
+      "LOW": "15.720000",
+      "CLOSE": "19.990000"
+    },
+    "target_row": null
+  },
+  "VIX9D_history": {
+    "retrieved_at": "2026-10-19T22:53:49.153869+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "series": "VIX9D",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VIX9D_history.csv",
+    "sha256": "0961b5cdf0c802bffa3714f94d18f2bcdd59e933db9b9233f33cb2d98c9b9821",
+    "bytes": 201713,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "17.110000",
+      "HIGH": "18.340000",
+      "LOW": "16.500000",
+      "CLOSE": "17.930000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "17.110000",
+      "HIGH": "18.340000",
+      "LOW": "16.500000",
+      "CLOSE": "17.930000"
+    }
+  },
+  "VIX3M_history": {
+    "retrieved_at": "2026-10-19T22:53:49.264659+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "series": "VIX3M",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VIX3M_history.csv",
+    "sha256": "ef83c9eb0d8efbb2d6730b2a553d4fd1e601c026c3a1de6525206f0f80f6b85a",
+    "bytes": 219172,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "19.410000",
+      "HIGH": "19.770000",
+      "LOW": "19.030000",
+      "CLOSE": "19.600000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "19.410000",
+      "HIGH": "19.770000",
+      "LOW": "19.030000",
+      "CLOSE": "19.600000"
+    }
+  },
+  "VIX6M_history": {
+    "retrieved_at": "2026-10-19T22:53:54.114887+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "series": "VIX6M",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VIX6M_history.csv",
+    "sha256": "e1045795f83778e686e81231b4b701a24d203321a70b1dfe2e98e7073c926d9f",
+    "bytes": 241204,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "20.950000",
+      "HIGH": "21.770000",
+      "LOW": "20.720000",
+      "CLOSE": "21.120000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "20.950000",
+      "HIGH": "21.770000",
+      "LOW": "20.720000",
+      "CLOSE": "21.120000"
+    }
+  },
+  "VVIX_history": {
+    "retrieved_at": "2026-10-19T22:53:49.258451+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "series": "VVIX",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VVIX_history.csv",
+    "sha256": "cfcc7ec8775bfa02d45bc23e4e4cc713ec3b5e2255defe63c610980fc330df34",
+    "bytes": 109131,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "VVIX": "106.930000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "VVIX": "106.930000"
+    }
+  },
+  "SKEW_history": {
+    "retrieved_at": "2026-10-19T22:53:49.187396+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "series": "SKEW",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Sat, 17 Oct 2026 01:11:00 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/SKEW_history.csv",
+    "sha256": "f10ca44d9b1943cdc5d812f738145d57a23ced0ed1d1e6e0803d1fa8988b6e6f",
+    "bytes": 203510,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "SKEW": "168.590000"
+    },
+    "target_row": null
+  },
+  "OVX_history": {
+    "retrieved_at": "2026-10-19T22:53:49.207291+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/OVX_History.csv",
+    "series": "OVX",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:05 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/OVX_history.csv",
+    "sha256": "6b4ce25b270c510e5550a87436b23e2154433ad8b5dcc517fba26e2afac44214",
+    "bytes": 90251,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OVX": "50.220000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "OVX": "50.220000"
+    }
+  },
+  "COR1M_history": {
+    "retrieved_at": "2026-10-19T22:53:49.227593+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "series": "COR1M",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:04 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/COR1M_history.csv",
+    "sha256": "90a648d6f2ac645e80cfab39ebe177e8e193274c3d754f18d7eefb7058fa974a",
+    "bytes": 265933,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "8.680000",
+      "HIGH": "9.900000",
+      "LOW": "8.290000",
+      "CLOSE": "9.680000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "8.680000",
+      "HIGH": "9.900000",
+      "LOW": "8.290000",
+      "CLOSE": "9.680000"
+    }
+  },
+  "COR3M_history": {
+    "retrieved_at": "2026-10-19T22:53:49.227858+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "series": "COR3M",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:04 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/COR3M_history.csv",
+    "sha256": "6aa67b6ed0ae81c9e4200191f105d62a9da3622b9b49f7f195dd7a2f016dd781",
+    "bytes": 265805,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "12.790000",
+      "HIGH": "13.820000",
+      "LOW": "12.580000",
+      "CLOSE": "13.660000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "12.790000",
+      "HIGH": "13.820000",
+      "LOW": "12.580000",
+      "CLOSE": "13.660000"
+    }
+  },
+  "COR30D_history": {
+    "retrieved_at": "2026-10-19T22:53:49.406361+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "series": "COR30D",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 21:31:04 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/COR30D_history.csv",
+    "sha256": "0d833a30adf055514b8d49ed3b793ac09807ff4b613a4d6790980fab8f24e48f",
+    "bytes": 265794,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "9.690000",
+      "HIGH": "10.620000",
+      "LOW": "9.610000",
+      "CLOSE": "10.370000"
+    },
+    "target_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "9.690000",
+      "HIGH": "10.620000",
+      "LOW": "9.610000",
+      "CLOSE": "10.370000"
+    }
+  },
+  "DSPX_history": {
+    "retrieved_at": "2026-10-19T22:53:49.246138+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "series": "DSPX",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Sat, 17 Oct 2026 01:20:58 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/DSPX_history.csv",
+    "sha256": "6e139a077dade708297255a52719c315ff7e9038a4c4332fc795fdd266bac3c5",
+    "bytes": 65128,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "DSPX": "36.610000"
+    },
+    "target_row": null
+  },
+  "VIXEQ_history": {
+    "retrieved_at": "2026-10-19T22:53:49.207501+00:00",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "series": "VIXEQ",
+    "kind": "history",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Sat, 17 Oct 2026 01:11:02 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VIXEQ_history.csv",
+    "sha256": "413d3d454b5d9f5dbcbaec0a21a7f6856823b50836262af68f5ea3a91fc90821",
+    "bytes": 65132,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "VIXEQ": "41.710000"
+    },
+    "target_row": null
+  },
+  "VIX_quote": {
+    "retrieved_at": "2026-10-19T22:53:49.389924+00:00",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX.json",
+    "series": "VIX",
+    "kind": "quote",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 22:52:53 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VIX_quote.json",
+    "sha256": "50b57de83e379b8d3986d493223a0599841e8b801bcb21b0337356068a042da9",
+    "bytes": 498,
+    "quote": {
+      "current_price": 18.44,
+      "last_trade_time": "2026-10-19T16:15:01",
+      "prev_day_close": 19.99
+    },
+    "quote_timestamp": "2026-10-19 22:52:46"
+  },
+  "SKEW_quote": {
+    "retrieved_at": "2026-10-19T22:53:49.623455+00:00",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_SKEW.json",
+    "series": "SKEW",
+    "kind": "quote",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 22:52:51 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/SKEW_quote.json",
+    "sha256": "9a18e6b37d2751412f5fd9d5f7d483753cd5831311d122a19705662f236f1311",
+    "bytes": 507,
+    "quote": {
+      "current_price": 161.86,
+      "last_trade_time": "2026-10-19T17:00:20",
+      "prev_day_close": 168.59
+    },
+    "quote_timestamp": "2026-10-19 22:52:46"
+  },
+  "DSPX_quote": {
+    "retrieved_at": "2026-10-19T22:53:49.737427+00:00",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_DSPX.json",
+    "series": "DSPX",
+    "kind": "quote",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 22:53:48 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/DSPX_quote.json",
+    "sha256": "87b4d270567aba649e55f8ed9f004b617c41707b02a4ab8813b2bd68991f6afb",
+    "bytes": 497,
+    "quote": {
+      "current_price": 36.5,
+      "last_trade_time": "2026-10-19T16:02:02",
+      "prev_day_close": 36.61
+    },
+    "quote_timestamp": "2026-10-19 22:53:46"
+  },
+  "VIXEQ_quote": {
+    "retrieved_at": "2026-10-19T22:53:49.583247+00:00",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIXEQ.json",
+    "series": "VIXEQ",
+    "kind": "quote",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 22:52:53 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/VIXEQ_quote.json",
+    "sha256": "bd8968107f87f9dc2385dac48f19663268aaa43adce2cf604eb8c3146b9a385e",
+    "bytes": 499,
+    "quote": {
+      "current_price": 40.92,
+      "last_trade_time": "2026-10-19T16:02:02",
+      "prev_day_close": 41.71
+    },
+    "quote_timestamp": "2026-10-19 22:52:46"
+  },
+  "MOVE_primary": {
+    "retrieved_at": "2026-10-19T22:53:49.716007+00:00",
+    "url": "https://www.investing.com/indices/ice-bofaml-move-historical-data",
+    "series": "MOVE",
+    "kind": "move",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": null,
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/MOVE_primary.html",
+    "sha256": "e5b5dd4de01d22df7c21b2a78393f0cd528aa75eb95e3d569ef4f2fcdfcddb6c",
+    "bytes": 949744,
+    "last_row": {
+      "rowDateTimestamp": "2026-10-16T00:00:00Z",
+      "last_close": "101.10"
+    },
+    "target_row": null
+  },
+  "SOFR_primary": {
+    "retrieved_at": "2026-10-19T22:53:49.603859+00:00",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+    "series": "SOFR",
+    "kind": "sofr",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": null,
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/SOFR_primary.json",
+    "sha256": "a38718faea765ad056a81ff0cd70c958812e8f215362f3e896500e8bfb71a4cd",
+    "bytes": 1208,
+    "last_row": {
+      "effectiveDate": "2026-10-16",
+      "type": "SOFR",
+      "percentRate": 3.88,
+      "percentPercentile1": 3.84,
+      "percentPercentile25": 3.85,
+      "percentPercentile75": 3.93,
+      "percentPercentile99": 3.95,
+      "volumeInBillions": 2925,
+      "revisionIndicator": ""
+    }
+  },
+  "FRED_BAMLH0A0HYM2": {
+    "retrieved_at": "2026-10-19T22:53:52.237670+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "BAMLH0A0HYM2",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 14:09:32 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_BAMLH0A0HYM2.json",
+    "sha256": "2c68f5a3108aa85d6f55466617e24ea9832e7d219942f4714d5c5fb9861f0017",
+    "bytes": 3500,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "3.31"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "BAMLH0A0HYM2",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_BAMLH0A3HYC": {
+    "retrieved_at": "2026-10-19T22:53:49.526081+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "BAMLH0A3HYC",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 14:10:33 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_BAMLH0A3HYC.json",
+    "sha256": "43ee4db263477101a6900c7f1162bf46d65eab710f3417c7eb2e5941ce42e253",
+    "bytes": 3538,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "12.97"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "BAMLH0A3HYC",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_BAMLC0A0CM": {
+    "retrieved_at": "2026-10-19T22:53:49.667404+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "BAMLC0A0CM",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 14:09:45 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_BAMLC0A0CM.json",
+    "sha256": "799cbe4959c0b35f4262ac1374c8a99c2431ce4852f680af1ae0c91758997fcd",
+    "bytes": 3501,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "0.85"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "BAMLC0A0CM",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_BAMLC0A4CBBB": {
+    "retrieved_at": "2026-10-19T22:53:49.607703+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "BAMLC0A4CBBB",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 14:12:23 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_BAMLC0A4CBBB.json",
+    "sha256": "8ff7aa0621d5b1dec3a6548df937a0699856e86bf03def75c1e055c5738896ae",
+    "bytes": 3502,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "1.06"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "BAMLC0A4CBBB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_BAMLH0A1HYBB": {
+    "retrieved_at": "2026-10-19T22:53:49.669387+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "BAMLH0A1HYBB",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 14:08:42 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_BAMLH0A1HYBB.json",
+    "sha256": "6f923dc69c46b113215fe099b621a39f90fc1d2819bc5a398035edc6b5518e0d",
+    "bytes": 3504,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "2.03"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "BAMLH0A1HYBB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_BAMLH0A2HYB": {
+    "retrieved_at": "2026-10-19T22:53:49.691569+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "BAMLH0A2HYB",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 14:08:49 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_BAMLH0A2HYB.json",
+    "sha256": "a56532edfbe000ebc3d3e023ae2074540cb96b28cad662b9c76f0f1745f208e3",
+    "bytes": 3497,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "3.35"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "BAMLH0A2HYB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_DGS10": {
+    "retrieved_at": "2026-10-19T22:53:49.883160+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "DGS10",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 20:16:46 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_DGS10.json",
+    "sha256": "e422068d342e0628dda91e32d5187fc8028cfc86ccbee96a14e478c1ae55f9ab",
+    "bytes": 3494,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "5.09"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "DGS10",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_DGS2": {
+    "retrieved_at": "2026-10-19T22:53:50.022072+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "DGS2",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 20:17:02 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_DGS2.json",
+    "sha256": "ced0f4771308295ad807abb340fa9bebc8f82cddd6af75e0a088f76e49d4e431",
+    "bytes": 3498,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "4.74"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "DGS2",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_DFII10": {
+    "retrieved_at": "2026-10-19T22:53:50.149052+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "DFII10",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 20:16:42 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_DFII10.json",
+    "sha256": "77b15fd79f9e528936c9edeb76becce5b3bd4c50e2e3ed88ef09bb121758378f",
+    "bytes": 3496,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "2.74"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "DFII10",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_VIXCLS": {
+    "retrieved_at": "2026-10-19T22:53:49.971016+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "VIXCLS",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 13:38:30 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_VIXCLS.json",
+    "sha256": "5f5bfd1f212836d54923a2cf912bd906bd906af782983a902db5c0cae3405797",
+    "bytes": 3535,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "19.99"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "VIXCLS",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_SOFR": {
+    "retrieved_at": "2026-10-19T22:53:49.942760+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "SOFR",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 12:02:28 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_SOFR.json",
+    "sha256": "7522d90cda3361078622b9a5f7d79fc8969b2ce2a3c7fbe30a8d96b6807a37b6",
+    "bytes": 3495,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-16",
+      "value": "3.88"
+    },
+    "target_row": null,
+    "public_query": {
+      "series_id": "SOFR",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  },
+  "FRED_IORB": {
+    "retrieved_at": "2026-10-19T22:53:50.021246+00:00",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series": "IORB",
+    "kind": "fred",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "last_modified": "Mon, 19 Oct 2026 20:31:12 GMT",
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/sources/FRED_IORB.json",
+    "sha256": "7aea64f131c607b80bd2d12115e7e520d00765fc33027b896b1ad96bab6cb2af",
+    "bytes": 4897,
+    "last_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-19",
+      "value": "3.9"
+    },
+    "target_row": {
+      "realtime_start": "2026-10-19",
+      "realtime_end": "2026-10-19",
+      "date": "2026-10-19",
+      "value": "3.9"
+    },
+    "public_query": {
+      "series_id": "IORB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "vintage_basis": "LATEST-REVISED at retrieval; original first-publication vintage not certified"
+  }
+}

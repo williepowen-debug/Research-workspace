@@ -1,12 +1,12 @@
 # VIOLET STATUS
 
-**As of:** October19,2026 18:02ET. Same owner `01a15611-0101-79e0-b103-685fe4eb21cf`, Codex/OpenAI gpt-6.1-sol/high. Latest [live sweep](research/2026-10-19_live-sweep/REPORT.md); exact source clocks/hashes and bounded audits accompany it. Boot17:53ET; final targeted Cboe check18:00:57ET. Thesis **v4.1.4**; no new numerical line or regime phase. Prior [official follow-through](research/2026-10-19_official-followthrough/REPORT.md) and coordinator receipt remain dated history.
+**As of:** October19,2026 18:55ET. Same owner `01a15611-0101-79e0-b103-685fe4eb21cf`, Codex/OpenAI gpt-6.1-sol/high. Latest [evening official check](research/2026-10-19_evening-official-check/REPORT.md):30live endpoints HTTP200 plus dated futures recheck,12source checksPASS. Exact source clocks/hashes accompany it. Savedboot17:53ET; targeted source retrieval18:53:49–54ET. Earlier [20-session live sweep](research/2026-10-19_live-sweep/REPORT.md) retains its original scope/clock. Thesis **v4.1.4**; no new numerical line or regime phase. Prior [official follow-through](research/2026-10-19_official-followthrough/REPORT.md) and coordinator receipt remain dated history.
 
 ## BOTTOM LINE
 
-**Recent published data are reconciled within the declared September22→October19 window; two cash-index final observations remain absent from the retrieved histories.** The sweep filled14dated futures entries and added2oil-volatility/2yen realized-volatility rows:18missing feed observations repaired. All118available spot cells and60native correlation cells match Cboe. All20recent futures pairs are filled and source-verified; no source/pair mismatch.
+**Recent published data are reconciled within the declared September22→October19 window; four October19daily index rows remain absent from the retrieved histories (VIX/SKEW/DSPX/VIXEQ).** The sweep filled14dated futures entries and added2oil-volatility/2yen realized-volatility rows:18missing feed observations repaired. All118available spot cells and60native correlation cells match Cboe. All20recent futures pairs are filled and source-verified; no source/pair mismatch.
 
-**Current quotes show Monday easing after Friday's stress, but a complete Monday official cash complex is unavailable.** VIX/SKEW daily histories still endOctober16 at the18:00:57ETcheck; their October19quotes18.44/161.86 are separately timestamped. The other four core volatility indices and all three correlation indices have October19finals. No official same-date VIX ratio or seventh official SKEW observation is inferred from quotes. RED retains its October14FT10grade.
+**Current quotes show Monday easing after Friday's stress, but a complete Monday official cash complex is unavailable.** VIX/SKEW daily histories still endOctober16 at the18:53:49–54ETcheck; their October19quotes18.44/161.86 are separately timestamped. The other four core volatility indices and all three correlation indices have October19finals. No official same-date VIX ratio or seventh official SKEW observation is inferred from quotes. RED retains its October14FT10grade.
 
 **Credit's current publication frontier is October16, not a new Monday observation.** Live officialFREDAPI agrees with LIQUID's existing HY331bp observation and grade. NYFedSOFR also endsOctober16; hidden collateral/offshore conditions remain unmeasured. LIQ07S2 is owner-resolved within its frozen window, not a clearance of later events. OriginalOctober13→November17credit-volWATCH remains; sequence is not credit-origin causation.
 
@@ -17,11 +17,11 @@
 | Metric | Latest captured value | Basis / interpretation |
 |---|---:|---|
 |VIX official daily|**19.99**, high**22.31**|[CONF] CboeOctober16; noOctober19daily row in final targeted retrieval. Friday+21.45%close-to-close; high+5.85points versusOctober15close16.46.|
-|VIX quote|**18.44**|[CONF] CboeOctober19last_trade_time16:15:01ET; captured during17:53–17:55sweep. Quote, not final daily bar.|
+|VIX quote|**18.44**|[CONF] CboeOctober19last_trade_time16:15:01ET; refetched18:53ET, trade time unchanged. Quote, not final daily bar.|
 |VIX9D /VIX3M /VIX6M|**17.93 /19.60 /21.12**|[CONF] Individually officialOctober19 Cboe daily rows. With VIXquote denominator,9D/VIX0.9723and3M/VIX1.0629remain PROVISIONAL.|
 |VVIX latest final|**106.93**|[CONF] CboeOctober19daily;120line NOT FIRED. Friday109.91daily and WALTER121.17intraday remain distinct.|
 |SKEW official /mean20|**168.59 /148.5125**|[CONF] CboeOctober16. Six qualifying official>=150observations; first4completedOctober14. RED owns FT10grade/exit/outcome.|
-|SKEW quote|**161.86**|[CONF] CboeOctober19last_trade_time17:00:20ET. NoOctober19daily row retrieved at18:00:57ET; not added to official count.|
+|SKEW quote|**161.86**|[CONF] CboeOctober19last_trade_time17:00:20ET. NoOctober19daily row retrieved at18:53:49–54ET; not added to official count.|
 |Adjusted VX futures|**+0.734%**,VX/X6→VX/Z6|[CONF] CboeOctober19settlement18.5996→18.7362. October/November strict+2.431%,18.1582→18.5996. Preserve symbols/settlementdate across<5calendarDTEroll.|
 |Friday futures /cash distinction|**−3.362%**Oct/Nov; cash3M/VIX**1.0255**|[CONF] October16settlements/cash finals. Futures and9D/VIXinverted; registered3Mcashline did not. Not an automatic entry signal.|
 |MOVE primary|**101.10**|[CONF] Investing.comOctober16. All18available recent rows match ledger;October14primary99.06. NoOctober12or19bar in retrieved primary table.|
@@ -34,7 +34,7 @@
 |CFTC VIX futures|Report**October13**,net**+1,105**,p**91.0**|[CONF] Weekly and annual primary files agree; all4recent reports present. Original release-time vintage not certified. Net−4,389w/w; rank remains extreme.|
 |VIX options|October21C/P OI**2.864**|[CONF] Refreshed17:53ETvendor snapshot,4,268,922calls/1,490,729puts;7forward expiries. GrossOI vintage not independently dated; no initiated net-flow or old-chain reconstruction.|
 
-**At-use SKEW integrity:** `[SKEW-INTEGRITY 2026-10-19 17:58 EDT] Cboe and yfinance agree on23sessions2026-09-16..2026-10-16 within0.005.` Bounds that read only. Publisher grades; shared calculation lineage is not independent confirmation.
+**At-use SKEW integrity:** `[SKEW-INTEGRITY 2026-10-19 18:53 EDT] Cboe and yfinance agree on23sessions2026-09-16..2026-10-16 within0.005.` Bounds that read only. Publisher grades; shared calculation lineage is not independent confirmation.
 
 ## GATE STATUS
 
@@ -70,6 +70,8 @@
 
 ## REGIME STATUS AND DRIFT
 
+**Tonight's assessment (18:53 source check):** no additional broad volatility confirmation of spreading stress. Monday official VVIX below120 and dated futures contango favor easing after Friday's front-end episode; incomplete Monday cash publication prevents a complete final comparison. Credit/funding still Friday-dated; hidden channels remain unmeasured. Existing WATCH/31-of-50 score unchanged. No additional breadth study, new trade construction, independent-signal vote or calibrated crash odds.
+
 LOW_VOL at last officialOctober16VIX19.99, with FridayintradayRISING_VOL excursion. Monday18.44quote suggests easing; no officialMondayVIXbucket upgrade. Systemic phase change and full credit-origin transmission remain unconfirmed. HY+63bp sinceSeptember22is below the central100bp size. Creditprecedingvolatility does not establish causation.
 
 **Strongest counterevidence/limits:** non-inverted lastcomplete3Mcashcurve, dailyVVIXbelow120, Mondayfutures/quotes easing, LIQUIDdated reserve-channel nonconfirmation and FridayETFcreations. Hidden collateral/private redemptions/offshore dollars are unmeasured. No verified named fund or forced seller from Friday's rumor; corrected earliest public mention13:36:33ETfollows13:20peak by16minutes, causal direction unresolved. HENRYOctober8gamma board is stale for current sign/flip claims.
@@ -89,4 +91,4 @@ Current truth remains Will/broker off-repo, with the separately dated FORGE mirr
 5. **Repaired recent gaps:**14VXfutures entries,2OVXrows,2JPYRVrows. Remaining historical FXYIV/OI, old VIXchain snapshots, original release vintages and inherited-study replication are explicit limitations; do not fill from today's chain. Audit coverage is the named feeds/window, not all historical data.
 6. Deck PAUSED WQ460; Helm RETIRED WQ461. No generation, upkeep or publishing resumes. Standalone historical hosted copies remain outside this data-sweep task.
 
-**Persistence/coordination:** foreign dirty PROME/other-desk work prevents initialpull; only owned files and self-authored recipient packets are committed. No additional agents or background research launched. Source/client failures resolved through verified normal methods; no permission bypass. Native independent-thread notification unavailable; durable PROME/WALTER delivery and acknowledgment remain distinct. Latest sweep closeout receipt accompanies the report.
+**Persistence/coordination:** foreign dirty PROME/other-desk work prevents initialpull; only owned files and self-authored recipient packets are committed. No additional agents or background research launched. Source/client failures resolved through verified normal methods; no permission bypass. Native independent-thread notification unavailable; durable PROME/WALTER delivery and acknowledgment remain distinct. Latest evening-check owner receipt accompanies the report; native independent-thread notification and recipient acknowledgment remain distinct.

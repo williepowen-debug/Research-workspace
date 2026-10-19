@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-19T22:54:51.871955+00:00",
+  "checks": {
+    "all30_endpoints_http200": true,
+    "four_expected_history_frontiers_absent": true,
+    "all_raw_sha256_match": true,
+    "four_quotes_explicit_trade_times": true,
+    "six_credit_series_frontier_oct16": true,
+    "SOFR_primary_and_FRED_match_oct16": true,
+    "MOVE_primary_frontier_oct16": true,
+    "saved_request_urls_no_api_key": true,
+    "current_row_TICK": true,
+    "fresh_VIX_SKEW_quotes_match_current_row": true,
+    "dated_futures_match_existing_row": true,
+    "native_COR_values_match": true
+  },
+  "passed": true
+}

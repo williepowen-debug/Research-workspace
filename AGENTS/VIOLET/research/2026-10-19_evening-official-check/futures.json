@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-10-19",
+  "strict": {
+    "front": {
+      "symbol": "VX/V6",
+      "expiration": "2026-10-21",
+      "price": 18.1582
+    },
+    "back": {
+      "symbol": "VX/X6",
+      "expiration": "2026-11-18",
+      "price": 18.5996
+    },
+    "steepness_pct": 2.431,
+    "m1_days_to_expiry": 2,
+    "classification": "BELOW_AVG"
+  },
+  "adjusted": {
+    "front": {
+      "symbol": "VX/X6",
+      "expiration": "2026-11-18",
+      "price": 18.5996
+    },
+    "back": {
+      "symbol": "VX/Z6",
+      "expiration": "2026-12-16",
+      "price": 18.7362
+    },
+    "steepness_pct": 0.734,
+    "classification": "BELOW_AVG",
+    "reason": "M1 has 2d to expiry (<5d), using M2/M3"
+  },
+  "thresholds": {
+    "historical_avg": 5.6,
+    "historical_avg_vintage": "2026-09-24",
+    "historical_avg_recheck_by": "2026-12-16",
+    "historical_avg_status": "OK",
+    "complacency_top30": 8.99
+  }
+}
