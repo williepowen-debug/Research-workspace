@@ -92,11 +92,13 @@ class ProjectionTests(unittest.TestCase):
 
 class LiveConsumerTests(unittest.TestCase):
     def test_missing_companion_withholds_amended_state(self):
-        read = fd.read
+        # Historical library contract, not a demand to restore the retired live companion.
         def missing(path):
             if path == 'PROME/HEARTBEAT_DASHBOARD.md':
                 raise FileNotFoundError(path)
-            return read(path)
+            if path == 'HEARTBEAT.md':
+                return FIXTURE_FILES[path].read_text(encoding='utf-8')
+            raise AssertionError(f'unexpected input: {path}')
         with patch.object(fd, 'read', side_effect=missing):
             h = fd.parse_heartbeat()
         self.assertTrue(h['errors'])
@@ -148,11 +150,13 @@ class LiveConsumerTests(unittest.TestCase):
     def test_failed_render_does_not_advance_snapshot(self):
         with tempfile.TemporaryDirectory() as directory:
             out, state = Path(directory) / 'view.html', Path(directory) / 'state.json'
+            receipt = Path(directory) / 'build.json'
             state.write_text('previous baseline')
-            with patch.object(fd, 'STATE_PATH', str(state)), patch.object(fd, 'build', return_value=(
+            with patch.object(fd, 'STATE_PATH', str(state)), patch.object(fd, 'BUILD_PATH', str(receipt)), patch.object(fd, 'build', return_value=(
                 'visible diagnostic', {'heartbeat_errors': ['bad amendment']})), patch.object(sys, 'argv', ['fleet_dashboard', '-o', str(out)]):
                 self.assertEqual(fd.main(), 1)
             self.assertEqual(state.read_text(), 'previous baseline')
+            self.assertFalse(json.loads(receipt.read_text())['ok'])
 
     def test_basis_points_respect_each_series_unit(self):
         h = {'ticker': ['HY OAS 268 bp [9/7]', 'CCC 1051 bps [9/3]',
