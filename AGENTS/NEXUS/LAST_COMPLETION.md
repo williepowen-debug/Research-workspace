@@ -14,6 +14,8 @@ Controls recorded before commit: weekday/corrections/read-cap/orphan, unchanged1
 
 Local persistence in introducing commit; **push deferred to PROME**. Consumption/explicit closeout exchange unverified. Next: FRED cell15/nextVIX, OTTO via PROME, WQ459, L11 reconciliation, L630 wording, L730 acceptance. Delivery: PROME/inbox/2026-10-19_from-NEXUS_morning-continuation-publication-and-persistence.md.
 
+Addendum 2026-10-19T10:32:05-04:00 (STANDARD): blank GIBBS brief vintage now explicit UNCOMMITTED/UNKNOWN; whitespace fixed. No research/letter change. Same skipped steps.
+
 ---
 
 ## 2026-10-15 Thu 10:12 EDT — PROME-spawned DOCKET L571 wake (prome-81, WQ-184 Tier 1; scoped) — STANDARD tier

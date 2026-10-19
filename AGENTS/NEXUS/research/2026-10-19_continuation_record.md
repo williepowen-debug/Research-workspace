@@ -37,7 +37,7 @@ Local exact-path commits are authorized; **shared-branch push deferred per origi
 
 Fleet-freshness scan at 2026-10-19T10:28:33-04:00 saved in `research/2026-10-19_continuation_freshness.tsv` (70 surfaces). Changed/new versus the saved morning scan:
 
-- `AGENTS/GIBBS/NEXUS_BRIEF.md`: 
+- `AGENTS/GIBBS/NEXUS_BRIEF.md`: UNCOMMITTED; no committed history at scan.
 - `AGENTS/GIBBS/STATUS.md`: 6ef8f0375|2026-10-19T10:18:28-04:00|GIBBS (orch): establish first-owner Q3 evidence and retain explicit coverage gaps
 - `AGENTS/NEXUS/STATUS.md`: 471fba11d|2026-10-19T10:18:28-04:00|NEXUS (orch): integrate morning evidence and review guarded credit successor
 - `AGENTS/WALTER/STATUS.md`: f880624a5|2026-10-19T10:18:28-04:00|WALTER (orch): route FITB and limited waiver; measure L599 pilot; reconcile Sunday delivery
