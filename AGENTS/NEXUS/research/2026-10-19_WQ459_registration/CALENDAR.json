@@ -1,0 +1,42 @@
+{
+  "recorded_at_et": "2026-10-19T11:43:36-04:00",
+  "status": "PROVISIONAL; no actual anchor yet",
+  "assumed_anchor": "2026-10-19",
+  "actual_anchor": null,
+  "actual_anchor_HY_CCC_levels": null,
+  "actual_earliest_fire": null,
+  "actual_window_end": null,
+  "actual_backstop": null,
+  "weekday_only_qualifying_dates_assumed": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-09"
+  ],
+  "provisional_earliest_fire_observation": "2026-10-22",
+  "provisional_earliest_fire_publication_read": "2026-10-23 expected only",
+  "provisional_cell15_observation": "2026-11-09",
+  "provisional_cell15_publication_read": "2026-11-10 expected only",
+  "provisional_backstop_inclusive": "2026-11-23 end ET",
+  "month_end_variant": "If10/31 is an additional qualifying observation and all listed weekdays qualify, cell15=11/06, expected read11/09. FRED notes weekend month-end observations; do not automatically exclude them.",
+  "conditions": "All listed dates assume qualifying10/19 anchor, no skipped carry/missing cells, and approximate T+1 weekday publication; only observation count determines end. Carry-forward exclusions/missing data can delay, qualifying extra dates can advance. If10/19 excluded, next qualifying date is anchor and all dates recomputed; +35 is calendar days.",
+  "next_existing_check": "2026-10-20 L554; no unattended polling",
+  "wakes_to_PROME": [
+    "2026-10-20 anchor/next ordinary check",
+    "2026-10-23 provisional earliest-fire publication check",
+    "2026-11-09 month-end contingency window-end publication check",
+    "2026-11-10 provisional weekday-only window-end publication check",
+    "2026-11-23 provisional end-of-day +35 backstop; first session after inclusive cutoff if needed"
+  ]
+}

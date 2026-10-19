@@ -1,18 +1,16 @@
 # NEXUS — LAST COMPLETION
 
-## 2026-10-19T11:17:15-04:00 — full synthesis execution — HEAVY
+## 2026-10-19T11:46:40-04:00 — morning/full synthesis + WQ459 registration
 
-Codex/OpenAI `/root`; window per task01a1548b-7607-75c3-8730-86a7a2aba119, exact root model not independently exposed. Root/local startup read; original471fba11d and continuation6c7b16f5c/b3256b0fe reused. Earlier packet consumption acknowledged. No push/pull/stash/reset/rebase.
+Codex/OpenAI `/root`, taskwindow01a1548b-7607-75c3-8730-86a7a2aba119; exactrootmodelunexposed. Root/local startupread. Reused471fba11d/6c7b16f5c/b3256b0fe; fullpassc1f2f4321, dependencyreceipt69c256ad0. No push/pull/stash/reset/rebase.
 
-PhasesA/B/availableC complete:28whole briefs/3read-only gpt-6.1-sol helpers; root owner reads;10matrix rows/all roots/transmission/tensions/thresholds/narrative/docket. Fourth Sol coldreader2reads, explicit closeouts all4. Evidence: research/2026-10-19_full_synthesis/RECORD.md; COLDREAD1/2; CLOSEOUT.json. STATUS rewritten; monitor/map/audit/Willpage refreshed; CONFIRMED unchanged. No promotion.
+HEAVYfullpassdone:28briefs/3read-onlygpt-6.1-solhelpers,10matrix/allroots/obligations; ownerreads; fourthSolcoldreader2reads. All4closed. Fullsynthesis/OTTOconsumedbyPROME. Evidence/reviewlimits/orderdeviation→ research/2026-10-19_full_synthesis/RECORD.md,COLDREAD1/2,CLOSEOUT.0bwrittenauditafterhelperstarts, beforeforecastwrites; finalDFII/OTTOeditsnotre-read.
 
-Split20/47/33 and all numbered matrix forecasts HELD; M06already withdrawn, no replacement. VIX19.99 and B335/CCC1297 each1-of2. DFIIcell15missing: formalC#1/L2pending, no invented anchor/date. WQ459unadmitted; credit-side unfalsifiable. L11raw−4.828BNV, allowance=PROME. OTTOa95429b7c NO_INSTRUMENT consumed late; supplementaryMIXED no attribution/absence proof. All3L708legs consumed; OTTO657e54b74packet read/filed; closure=PROME; draft Disc-A receipt updated. L630wording applied byPROME, persistence unverified; L730artifact absent.
+STANDARDboundedregistration: WillWQ459A rulingbbf3cc41a admittedsection2A/Break±6pp. Canonical research/2026-10-19_WQ459_guarded_HY_letter.md; monitorL16; analysis/WQ342_grading_log.tsv. FROZEN/REGISTERED, admissionridermet.10/19anchor(or nextqualifyingdate)UNPUBLISHED; L/C₀/edges/actualdatesPENDING, never10/16. Provisional10/19case:cell3obs10/22/read~10/23;cell15obs11/9/read~11/10(or11/6/read~11/9 if10/31qualifies);+35inclusive11/23. Counts/publicationgovern. Noapproval-onlymove; split20/47/33/allConfHELD. M06withdrawn; L11NVhold; L13cell15pending; M04/M08each1/2; L730artifactpending. All3L708consumed; noattribution/absenceproof.
 
-Controls: numeric/obligation/weekday/corrections/cap/orphan/freshness/diff+state/residue audits in CLOSEOUT; owned files below75%; no rotation.0b ordering deviation: written audit after helper starts, before forecast writes. Final DFII wording/OTTO annotation after2reads not re-read. No required unrun control except disclosed ordering defect. Skipped:9a10/27;root1c no new threshold/band/split;1c-bis noLEDGER_GLOB;1d no memory.15a run.
+Registrationevidence/15encodingcases/controls→ research/2026-10-19_WQ459_registration/RECORD.md,ENCODING_CHECK.json,CONTROLS.json. New0baudit/ties/carry/vintage/C/VOID/countonce preserved. Noresweep/grid/draftreview/ownerlaunch; noexistingfullrewrite/rotation. Skipped:9a10/27;root1cnofigure superseded;1c-bisnoLEDGER_GLOB;1dnomemory;15anorewrite. Exactpathcommit; inputfiled; foreignworkuntouched.
 
-Full packet: PROME/inbox/2026-10-19_from-NEXUS_full-synthesis-execution.md. REGINALD/VULCAN seams packeted. Exact local commit in thread; foreign work untouched; current packet consumption pending. Next10/20L554;10/27L555;10/29M06disposition;10/30&11/5letters;11/10PRED38;11/20transfers. Window stays open.
-
-Addendum 2026-10-19T11:21:21-04:00 LIGHT: queued PROME update logged; L11ambiguity corroborated, NV/hold. OTTOawait superseded by consumed return; no duplicate. No state change. Controls/tier→ RECORD dependency acknowledgment.
+Delivery:PROME/inbox/2026-10-19_from-NEXUS_WQ459-A-registered-anchor-pending.md. PROMEencodes/acceptswakes; currentregistrationpacketconsumptionpending. Next10/20L554,10/27L555,10/29M06,10/30&11/5matrix,11/10PRED38,11/20transfers. Terminalopen, nopolling.
 
 ---
 

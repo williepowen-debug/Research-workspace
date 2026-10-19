@@ -1,0 +1,108 @@
+{
+  "checked_at_et": "2026-10-19T11:45:20-04:00",
+  "scope": "Mechanical frozen-text encoding/counterexamples and calendar only; no historical grid or independent draft review; synthetic L316/C01267 never live anchors.",
+  "result": "PASS",
+  "cases": [
+    {
+      "case": "lower inclusive",
+      "grade": "DOWN",
+      "cell": 3
+    },
+    {
+      "case": "guard inclusive",
+      "grade": "DOWN",
+      "cell": 3
+    },
+    {
+      "case": "one inside lower",
+      "grade": "C",
+      "cell": null
+    },
+    {
+      "case": "upper inclusive",
+      "grade": "UP",
+      "cell": 3
+    },
+    {
+      "case": "mixed broken then DOWN",
+      "grade": "DOWN",
+      "cell": 6
+    },
+    {
+      "case": "alternating edges",
+      "grade": "C",
+      "cell": null
+    },
+    {
+      "case": "guard blocked until5",
+      "grade": "DOWN",
+      "cell": 5
+    },
+    {
+      "case": "K shape all15",
+      "grade": "C",
+      "cell": null
+    },
+    {
+      "case": "n0 backstop",
+      "grade": "VOID",
+      "cell": null
+    },
+    {
+      "case": "n1 backstop",
+      "grade": "VOID",
+      "cell": null
+    },
+    {
+      "case": "n2 backstop",
+      "grade": "VOID",
+      "cell": null
+    },
+    {
+      "case": "blocked short backstop",
+      "grade": "C",
+      "cell": null
+    },
+    {
+      "case": "blocked DOWN then UP",
+      "grade": "UP",
+      "cell": 6
+    },
+    {
+      "case": "short backstop fire",
+      "grade": "DOWN",
+      "cell": 6
+    },
+    {
+      "case": "n0 before deadline",
+      "grade": "PENDING",
+      "cell": null
+    }
+  ],
+  "additional_checks": [
+    "five-series carry exclusion, auxiliary missing rule, both HY/CCC required",
+    "carry does not break/count run",
+    "inclusive guard exact-tie vs1bpwider",
+    "vintage outcome conflict becomesC under frozen letter",
+    "\u00b16 arithmetic examples, no live move; count-once provision preserved byte-for-byte",
+    "weekday provisional15th11/09 vs added10/31=>11/06; +35=>11/23",
+    "approved section2A body byte-for-byte copied including all non-renewable/count-once/vintage/mechanism provisions"
+  ],
+  "operative_body_sha256": "efeab75ff57655886015e1313ec84699ba2cd5a4dd83e90d830fd875e65f2c82",
+  "not_tested": "No live market branch eligible without anchor. Future two-vintage actual outcome/DiscA cannot be certified now.",
+  "carry_test_detail": {
+    "raw_HY": [
+      326,
+      330,
+      330,
+      329
+    ],
+    "qualified_HY": [
+      326,
+      330,
+      329
+    ],
+    "result": "Third raw date equals immediately preceding raw cells across all five: excluded, run not broken; third qualifying observation firesUP. Each row compares to its own prior raw cell, not anchor.",
+    "harness_correction": "Initial temporary assertion used a fixed baseline; corrected to each immediately preceding raw cell before commitment. No operational letter or actual grade changed."
+  }
+}

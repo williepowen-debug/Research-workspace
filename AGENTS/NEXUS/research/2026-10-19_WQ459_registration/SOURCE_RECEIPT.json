@@ -1,0 +1,83 @@
+{
+  "checked_at_et": "2026-10-19T11:43:36-04:00",
+  "retrieval": "FRED public series pages, web open; not an ALFRED/first-publication certificate. Approved convention is first-read by NEXUS. Prior10/16 context already read in saved morning/full-pass receipts.",
+  "ruling_date": "2026-10-19",
+  "anchor_state": "PENDING",
+  "anchor_observation_date": null,
+  "target_anchor_date": "2026-10-19",
+  "HY_anchor_bp": null,
+  "CCC_anchor_bp": null,
+  "HY_UP_edge_bp": null,
+  "HY_DOWN_edge_bp": null,
+  "postanchor_observations": 0,
+  "grade": "PENDING",
+  "C_count": 0,
+  "split": [
+    20,
+    47,
+    33
+  ],
+  "sources": {
+    "BAMLH0A0HYM2": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "3.31",
+      "latest_bp": 331,
+      "previous_date": "2026-10-15",
+      "previous_percent": "3.23",
+      "public_updated": "2026-10-19 09:09 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell"
+    },
+    "BAMLH0A3HYC": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "12.97",
+      "latest_bp": 1297,
+      "previous_date": "2026-10-15",
+      "previous_percent": "12.78",
+      "public_updated": "2026-10-19 09:10 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell"
+    },
+    "BAMLH0A1HYBB": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A1HYBB",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "2.03",
+      "latest_bp": 203,
+      "previous_date": "2026-10-15",
+      "previous_percent": "1.97",
+      "public_updated": "2026-10-19 09:08 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell"
+    },
+    "BAMLH0A2HYB": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A2HYB",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "3.35",
+      "latest_bp": 335,
+      "previous_date": "2026-10-15",
+      "previous_percent": "3.26",
+      "public_updated": "2026-10-19 09:08 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell"
+    },
+    "BAMLC0A0CM": {
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "0.85",
+      "latest_bp": 85,
+      "previous_date": "2026-10-15",
+      "previous_percent": "0.84",
+      "public_updated": "2026-10-19 09:09 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell"
+    }
+  },
+  "qualification": "Target10/19 unpublished in all five pages; cannot test whether it is a qualifying non-carry observation. All-five unchanged dates excluded, using available auxiliary series if missing; both HY and CCC required. Weekend month-end changes may qualify. No intraday/proxy/prior-date substitution."
+}

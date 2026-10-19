@@ -1,0 +1,31 @@
+{
+  "checked_at_et": "2026-10-19T11:48:16-04:00",
+  "matrix_rows_identical_to_fullpass": true,
+  "matrix_rows": 10,
+  "old_L_rows_preserved_plus_L16": true,
+  "split_unchanged": [
+    20,
+    47,
+    33
+  ],
+  "STATUS_lines": 122,
+  "Will_page_bytes": 5968,
+  "relative_links_checked": true,
+  "residue_scan": {
+    "rc": 0,
+    "hits": 7,
+    "live_hits": [
+      "AGENTS/NEXUS/LAST_COMPLETION.md:9:STANDARDboundedregistration: WillWQ459A rulingbbf3cc41a admittedsection2A/Break\u00b16pp. Canonical research/2026-10-19_WQ459_guarded_HY_letter.md; monitorL16; analysis/WQ342_grading_log.tsv. FROZEN/REGISTERED, admissionridermet.10/19anchor(or nextqualifyingdate)UNPUBLISHED; L/C\u2080/edges/actualdatesPENDING, never10/16. Provisional10/19case:cell3obs10/22/read~10/23;cell15obs11/9/read~11/10(or11/6/read~11/9 if10/31qualifies);+35inclusive11/23. Counts/publicationgovern. Noapproval-onlymove; split20/47/33/allConfHELD. M06withdrawn; L11NVhold; L13cell15pending; M04/M08each1/2; L730artifactpending. All3L708consumed; noattribution/absenceproof."
+    ],
+    "false_positive_disposition": "LAST explicitly says registered/admission met; broad ruling.*pending pattern crosses the same long line into anchor-level/date pending. FALSE-POSITIVE, not stale ruling state.",
+    "live_residue": [],
+    "history_disposition": "Dated prior packets/fullpass audits/initial review snapshots RETAINED-HISTORY; historical draft has explicit approved-registration banner. Frozen letter quotes EXHAUSTED un-falsifiable language for a future terminal branch, not current admission."
+  },
+  "closing_freshness": {
+    "surfaces": 70,
+    "changes_since_fullpass": {},
+    "disposition": "PROME ruling/task read; any later domain/synthesis change deferred to existing10/20/catalyst touch, no re-sweep in bounded registration. No authority inferred from metadata."
+  },
+  "new_wake_carrier": "PROME/inbox/2026-10-19_from-NEXUS_WQ459-A-registered-anchor-pending.md; acceptance pending",
+  "prediction_or_CONFIRMED_change": "No existing prediction state, CONFIRMED row, root count or confidence changed; admission state/L16 registration alone changed."
+}

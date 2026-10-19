@@ -1,0 +1,3 @@
+read_at_ET	event	window	target_anchor_date	obs_date	HY_bp	CCC_bp	BB_bp	B_bp	IG_bp	qualification	postanchor_cell	grade	C_count	split	source_receipt	note
+2026-10-19T11:43:36-04:00	CONTEXT_REREAD	1	2026-10-19	2026-10-16	331	1297	203	335	85	EXCLUDED_PRE_RULING		NOT_GRADED	0	20/47/33	research/2026-10-19_WQ459_registration/SOURCE_RECEIPT.json	These context values were already read in morning/full-pass receipts; not a new first-read claim or eligible anchor.
+2026-10-19T11:43:36-04:00	REGISTRATION	1	2026-10-19							PENDING_PUBLICATION_AND_QUALIFICATION	0	PENDING	0	20/47/33	research/2026-10-19_WQ459_registration/SOURCE_RECEIPT.json	L/C0/edges and actual anchor date PENDING; no unpublished cell fabricated; no C/VOID before resolver.
