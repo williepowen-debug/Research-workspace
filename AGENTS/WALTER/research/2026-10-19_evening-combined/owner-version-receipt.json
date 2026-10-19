@@ -1,0 +1,112 @@
+[
+  {
+    "path": "PROME/reports/2026-10-19_evening-repeat-loser-assessment.md",
+    "snapshot": "owner-01.md",
+    "sha256": "0d20338de5777746adaf1627b19b58e2859eb47e7a7059b426547465167084ce",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "b1769034df3c0eb2fccdc163ffff74f5408d4bc5",
+    "working_status": "M PROME/reports/2026-10-19_evening-repeat-loser-assessment.md",
+    "equals_HEAD_blob": false,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/HENRY/research/2026-10-19_event-audit/RESULT.md",
+    "snapshot": "owner-02.md",
+    "sha256": "768f41c46e23ab7d1e91a080fe09b10cf34ccdda0985f967453d773f63384873",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "730ed937d7f0c5643128bebb8fbc6fd63c096eb1",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/HENRY/research/2026-10-19_event-audit/SHORTLIST.md",
+    "snapshot": "owner-03.md",
+    "sha256": "addfdfcb1d136b4cfd81ec509b9a6ccef760263a61d4a8e8cef9ff1cfebf45c7",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "730ed937d7f0c5643128bebb8fbc6fd63c096eb1",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/HENRY/research/2026-10-19_event-audit/LATE-INTAKE.md",
+    "snapshot": "owner-04.md",
+    "sha256": "5962a27bc5cf48b82b2d798aaa240725a3b83880a4f27bf8ad20e9e85773eee7",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "20118ce77611ddcedd80f69d34f5414dd9df5576",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/LIQUID/research/2026-10-19_equity-financing/conditional/RESULT.md",
+    "snapshot": "owner-05.md",
+    "sha256": "64b6aacbaf6aa020f3f04f5b39dc6e9e0206694db8eb019321c7c97016aa8774",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "5de5eeb1c8de699c15ec7ec7357e80ec89f2c0b4",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/CRUISE/research/2026-10-19_cushion/RESULT.md",
+    "snapshot": "owner-06.md",
+    "sha256": "797ca949cb3bdd65072cf0219f23a1d254e4c5e679c45c66cd681949b68f089f",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "0818ed306deff51322b4c8321262c55436fbf6f6",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/CRUISE/research/2026-10-19_cushion/TONIGHT_ASSESSMENT.md",
+    "snapshot": "owner-07.md",
+    "sha256": "e8e044357648fa4ba1fe4e66b45a925ece9806e599d228c158876b7f13b8091b",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "eec4bad26b620fadb8503479df309e34ef34d1f7",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/REPORT.md",
+    "snapshot": "owner-08.md",
+    "sha256": "d5dbb0c5aa6965129d96feb3b39229e0899f04e915f1c9fad700d0eb0a965713",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "0f83d687707dea146842d02026274c6584797e73",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/WAL/research/2026-10-19_broader-bank-stress-context.md",
+    "snapshot": "owner-09.md",
+    "sha256": "f5ec2251ad80d12f946444f4ef308a0a010d389dbc823bcabc3af53eccf8380f",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "fd3f986aea6eb363f4a26f5707dfc3f129101373",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/WAL/research/2026-10-19_Q3_STAGE1_GRADE.md",
+    "snapshot": "owner-10.md",
+    "sha256": "a4798e9be2ecc21bc02ed8d4dc6c7c4d478f11f0858b6098da2dc8f3c2bdb87c",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "92e38d67fdac680a4c459fffbac13bfdd3118e57",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  },
+  {
+    "path": "AGENTS/HENRY/STATUS.md",
+    "snapshot": "owner-11.md",
+    "sha256": "c00c8fd683a985e94c3d850271ab4d5f0e102236e2b29de880f0b3c4db265807",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00",
+    "latest_path_commit": "20118ce77611ddcedd80f69d34f5414dd9df5576",
+    "working_status": "",
+    "equals_HEAD_blob": true,
+    "scope": "Read owner report; no independent replication of market/financial calculations"
+  }
+]

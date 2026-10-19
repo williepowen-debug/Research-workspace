@@ -1,0 +1,56 @@
+# October 19 evening — repeat-loser coordination and combined assessment
+
+Owner: PROME. Authority: Will's direct assignment in current Codex session `01a15626-abda-7862-89d6-c1fb8e9481ef`. Scope: existing seven owner sessions, research synthesis and existing position priorities. No new launch, trade construction from this study, threshold or standing monitor.
+
+## Assignment confirmation
+
+PROME read the local saved transcripts at approximately 18:53 ET. The six recipient desks received Will's exact tonight-work table and responded in their existing sessions. WALTER originated the table in its own conversation. This verifies task receipt/response, not completion of the subsequent turn or OS lifecycle.
+
+| Desk | Verified existing session | Confirmed responsibility |
+|---|---|---|
+| HENRY | 01a1561f-54dd-7c63-8c13-99fd025b7528 | Repeat losers, sector/index conditions, stronger industry/size peers, exclusions and event sensitivity. |
+| LIQUID | 01a15626-6af3-7ba2-a813-ecec80a264d6 | Financing evidence for HENRY's names; available coverage/gaps; no separate equity screen. |
+| CRUISE | 01a15628-7d7c-7613-a9d9-275791fe1ade | Norwegian/Royal Caribbean transaction, operating and company-news reconciliation. |
+| VIOLET | 01a15611-0101-79e0-b103-685fe4eb21cf | Existing official-data checks and spreading-stress interpretation; no new breadth study. |
+| WAL | 01a15611-6a10-7161-9ee3-168ece82137e | Tonight's release, funding/credit disclosures and bounded broader-bank implications. |
+| TERRY | 01a15610-6ca1-7a52-9c12-58250b30d99a | Position reconciliation, imminent expiries and approved management; no new study trades. |
+| WALTER | 01a15572-effa-7db1-af2e-99682f19ab1c | Company-news reconciliation and material-signal routing; synthesis contribution requested by packet. |
+
+HENRY's exact conditional-workflow acknowledgment and LIQUID's acknowledgment/consumption of the committed screen are now VERIFIED at their saved artifacts. Earlier packets saying the shortlist or acknowledgments were pending are superseded by the delivered screen and `LIQUID/research/2026-10-19_equity-financing/conditional/RESULT.md`. Do not restart owners or repeat completed selection. Six direct recipient acknowledgments obviate redundant assignment messages.
+
+## Combined assessment — six desk contributions consumed; WALTER reconciliation pending
+
+**A credible weak-stock shortlist exists, but a common financing mechanism is not established.** HENRY's event sensitivity makes Mosaic the strongest residual case. ADM is a weaker residual with fragile economic magnitude. Huntington Ingalls and Copart retain conditional weakness but do not support equally strong persistent-negative-return claims. This is a diagnostic shortlist, not a forecast that the rally ends.
+
+| Name | October 19 frozen 20 / 60-session adjusted returns | Event-sensitive interpretation | Funding evidence and competing explanation |
+|---|---|---|---|
+| Mosaic (MOS) | -25.55% / -18.96% | Negative after captured-event and worst-day exclusions; broad event halos exhaust the original minimum sample. | Completed August bond issuance contradicts universal inability to borrow. Sulfur/input constraints, output reductions and cash uses remain operating explanations. |
+| ADM | -3.44% / -5.70% | Removing the worst day leaves only -0.35% / -2.42%; up-day loss majorities persist in the main retained sample. | August issuance demonstrates access. Receivables-program renewals, commodity/processing conditions and working capital need distinction; no demonstrated lending refusal. |
+| Huntington Ingalls (HII) | -2.34% / -5.80% | Worst-day removal reverses both total returns positive, although conditional loss counts persist. | Working-capital absorption is a vulnerability; lower reported interest expense, undrawn capacity and favorable contracts/earnings oppose a blanket funding-crunch story. |
+| Copart (CPRT) | -4.84% / -1.54% | 60-session loss reverses on earnings/worst-day exclusions; event removal leaves too few 20-session eligible days. | ACV acquisition completed October 16; earlier proposed-only wording is superseded. Cash-funded acquisition and bank renewal coexist with earnings disappointment/capital-allocation effects; actual post-deal cash bridge unknown. |
+
+Sources: HENRY `research/2026-10-19_repeat-losers/RESULT.md` (committed screen `4261b747e`, SHA256 `7667de05aafc30edf6276b597454e5fd2cc191fd1ecc7bedf32a4af2ee960984`), HENRY `research/2026-10-19_event-audit/RESULT.md` and `SHORTLIST.md` (final delivery verified at `730ed937d`), and LIQUID `research/2026-10-19_equity-financing/conditional/RESULT.md` (`5de5eeb1c`). Paths are relative to each `AGENTS/<desk>/`. PROME consumes owner research; no independent full-universe price audit claimed. Exact source hashes and committed-byte matches: `2026-10-19_evening-assessment-sources.json` beside this report.
+
+**Sector-relative qualification:** HENRY's stock-wealth/sector-wealth minus one measure over 20 / 60 sessions is MOS -27.36% / -18.84%; ADM -9.30% / -9.63%; HII -0.41% / +2.95%; CPRT -2.96% / +7.61%. HII and Copart beat their broad sector ETFs over 60 sessions. Repeated losses on selected up days must not be restated as persistent sector underperformance. All returns are frozen historical October19 endpoints, not executable quotes.
+
+**Comparison gap:** all four primary names lack a verified stronger industry/size control in the bounded pool. MGM/WYNN and MCD/SBUX are accepted but imperfect comparisons for weaker secondary candidates; they do not fix the primary-four gap. PCAR is also secondary and unmatched. No matched financing-risk coefficient is supported. Five-session returns are positive for HII/ADM/CPRT; MOS's initial five-session repetition has only two eligible days and no eligible days after the event-plus-worst exclusion. Recent equal-weight recovery is counterevidence. Current constituents, one price vendor, outcome selection, overlapping windows, sparse conditional days and incomplete news coverage constrain inference.
+
+**Cruise contribution:** CRUISE's `research/2026-10-19_cushion/RESULT.md` reconciles June balances, later issuance and operating differences. Norwegian retained access at a higher coupon and increased nominal bank capacity; that capacity is not cash. Both stocks rose in WALTER's September18–October16 window (RCL +12.97%, NCLH +6.59%). Norwegian's relative lag therefore does not demonstrate absolute deterioration or financing causality. Weaker yield/bookings/execution are direct competing explanations. Actual post-June cash, drawings and compliance remain unreleased/unbridged. CRU-11 has a different registered window and remains untouched.
+
+PROME independently reopened Norwegian's October15 8-K (https://www.sec.gov/Archives/edgar/data/1513761/000110465926116254/tm2627514d1_8k.htm): $950M 8.750% notes closed; $941.7M net before fees; $525M old notes redeemed, $376.3M revolver and $42.2M export-credit debt repaid; commitments increased $2,486M to $2,801M. This verifies access and the transaction, not current cash or future access. Also reopened Copart's October16 completion exhibit (https://www.sec.gov/Archives/edgar/data/900075/000119312526423478/d129535dex991.htm); completed-deal correction carries forward.
+
+**WAL:** full release read/capital correction, recurring-earnings bridge and final `research/2026-10-19_broader-bank-stress-context.md` (`fd3f986ae`) consumed. Q2-to-Q3 charge-offs fell 37 to 30bp, deposits $81.874B to $81.755B and borrowings $6.236B to $5.613B, alongside special-mention loans +$81M, foreclosed property +$39M and securities/deposit-mix cautions. These are issuer findings, not proof of banking-system contagion or post-quarter liquidity. Earlier numerator-NOT_PRINTED language is corrected: disclosed CET1 capital is $7,389M; exact RWA/adjustments and the $99M appraisal question remain open for the October20 call/later filing. No grade, probability or trade change inferred. PROME's web reopening of the release failed; this synthesis uses WAL's committed source-backed report, not a claimed independent web re-verification.
+
+**VIOLET:** final `research/2026-10-19_evening-official-check/REPORT.md` (`0f83d6877`) consumed. Its 18:53:49–54 ET check found no added broad volatility confirmation: published Monday VVIX and futures settlements show easing after Friday's front-end stress. However VIX/SKEW/DSPX/VIXEQ histories still ended Friday, as did MOVE and credit/funding series. Separate Monday quotes are not final daily publications. This is incomplete confirmation, not proof hidden funding risk disappeared. Do not combine dates into an October19 official-final claim or count volatility/breadth/credit as independent causal votes. Existing WATCH and owner grades remain unchanged.
+
+**TERRY:** direct acknowledgment preserves three October20 QQQ expiries first, then October23 contracts; eight management cards already prepared. Broker holdings/orders, missing Activity/basis/disposition and existing approvals retain their own boundaries. No new study-driven trade card, sale, roll or sizing instruction is authorized here. Prepared proposals are not approvals or fills.
+
+## What tomorrow can test
+
+Use the frozen October19 shortlist as the reference. Observe whether weakness persists on index-up and sector-up sessions, whether it also underperforms available peers, and whether new dated financing evidence precedes or instead follows the price behavior. Separate ordinary rotation and company events from a shared funding mechanism. A single October20 session cannot establish or falsify the broader mechanism. Existing owner work and future catalysts carry follow-through; no automatic background monitoring promised.
+
+## Collection and runtime receipt
+
+PROME runtime: Codex/OpenAI; local filesystem and exec tools verified. Root/local instructions and USER read; this is scoped session recovery/coordination, not a certified full boot. Full boot gate/dashboard/whole continuity reads were not rerun; full boot remains PARTIAL. Dirty shared work predates this task; no pull, peer edit, index sweep or replacement owner. Local transcript reads establish bounded identity/receipt evidence only, not full-fleet presence. HENRY event audit, LIQUID/CRUISE evening contributions, VIOLET source-qualified result and WAL focused packet now consumed, with earlier TERRY continuation and direct priority acknowledgment. All seven source artifacts in the companion manifest match committed bytes.
+
+WALTER doorbell: `codex queue` succeeded after sandbox escalation, queue `01a1567a-54be-7d13-a79f-911075b25934`; direct saved transcript verifies delivery at 2026-10-19T23:23:40.928Z and owner response at 23:23:43.650Z. Requested bounded contribution plus completion/closeout receipt. Logged through canonical `scripts/orch_log.py append`, touch `1-EVENING-SYNTHESIS-1019`, owner WILL, same existing window. Queue acceptance and owner acknowledgment are separate; result/closeout remains pending. No new launch. Final synthesis waits for that contribution while independently integrating completed desk returns.

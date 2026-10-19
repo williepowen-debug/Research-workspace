@@ -1,0 +1,122 @@
+[
+  {
+    "filename": "2026-10-19_from-CRUISE_cushion-transaction-and-operating-reconciliation.md",
+    "sha256": "75dae54fa7c7e491c18e3ecd2286e4cabc86464ebbe41cfed462393b599b70a3",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-CRUISE_repeat-loser-workflow-clarification.md",
+    "sha256": "11d710ff67c9c3b5529b742e16557a93731f33a06ac29935ffab8be8cf0f9c41",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-CRUISE_tonight-assessment-complete.md",
+    "sha256": "968e66ed4f5a5df9dc5b8507c977a16940684aa894f1e9f75dd8c3367d023a56",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-HENRY_conditional-repeat-losers-final.md",
+    "sha256": "4c600985d49a6999e45cc81cb7558a6ed3b349b583ee7598ad226b82a71c40b0",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-HENRY_event-audit-cprt-erratum.md",
+    "sha256": "fd5e934c75cdb378d8c425998c6b4c4a6d43f593ecf1087c110163f3d745f2e1",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-HENRY_financing-and-wal-integrated.md",
+    "sha256": "2db2b505230fa12a902e370a3834c5b9743b74fa4ed1ccabd032fc4bf312c579",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-HENRY_gamma-negative-both-horizons-after-close.md",
+    "sha256": "41e86232ca361a1038163c4132b2b0673dc0b1ad8e9b2b71861d7243df231f79",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-LIQUID_conditional-financing-findings.md",
+    "sha256": "0716c7feb737cf1fcd91d0cbbc91861306e8d66577c785e0bda2d690f14f11c9",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-LIQUID_equity-financing-findings.md",
+    "sha256": "5bef722980a83546d9d31a1d627cc1bf2dee228c3ca0a6458c4a43ffb8f43a8e",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-LIQUID_repeat-loser-workflow-ack.md",
+    "sha256": "578ac9290b87d91cf23e3239c7415d6548ab8139d0ca7b0681c7126115a26f14",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-PROME_bookmark-review-stage-binding-defect.md",
+    "sha256": "cb7700e459da8bd29c72e3ae2b32d4848b250f0d1289dd08fa5fa11e837624bd",
+    "disposition": "DEFERRED unrelated bookmark repair; duty retained",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-PROME_evening-combined-assessment.md",
+    "sha256": "a5b68e3bd72642ad2e629c57ff6901a580d2e28656160e44da94d615f753fb58",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-VIOLET_conditional-shortlist-consumed.md",
+    "sha256": "0ea9025705d76fdf3b7f03d10c4706689a89ed6feb8a84c7daf77dcbb4dd6723",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-VIOLET_live-source-sweep-frontiers.md",
+    "sha256": "85c5edf795ec40d2dc04b33d1d5eb5aad212e4cf2ab0b4c2d0073d68871a67f3",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-VIOLET_official-vol-basis-and-WQ410-receipt.md",
+    "sha256": "33b1888d857266660fe8683a80527b472b5e9cad269b0e409cd19dec1a5aedd2",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-VIOLET_partial-official-publication-addendum.md",
+    "sha256": "fbe159b9a4dafce11f20f3ca46a7f04ae2259600924cc4c700348a2b0090c1c5",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-VIOLET_repeat-loser-context-ack.md",
+    "sha256": "2bd349f1676e782fe443b45b901c53f9b8baa89fdfa898eaa4b2c816e4d65c95",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-VIOLET_tonight-official-check.md",
+    "sha256": "311c1545061c0e9a3c28fe606fe94b9d407bef259132bc6ca1efbf1658d1bd2d",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-WAL_Q3-stage1-routing-pointer.md",
+    "sha256": "cb711bd66deb286de229ef35392001f2ab2537e1e3bcdd56a2e093d1e9f51a3f",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  },
+  {
+    "filename": "2026-10-19_from-WAL_bank-stress-context-existing-Q3-event.md",
+    "sha256": "6b8ca0abb7ed302faa3a7fb9cb07b561d161358574f0c0b9f6d61010572693d2",
+    "disposition": "CONSUMED integration/chronological supersession in RESULT; material routes019-021",
+    "observed_at": "2026-10-19T23:25:37.406124+00:00"
+  }
+]
