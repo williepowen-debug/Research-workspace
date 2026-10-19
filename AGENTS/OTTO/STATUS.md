@@ -4,7 +4,7 @@
 
 > **Research s034:** warehouse25%OPEN subjective (original55% scoring); VRM/private gaps bar an absence grade. Credit-washingSTUCK:2025 alerts do not measure H2-2026 proven prevalence. Strict score3/8,0.276875; no demonstrated edge, old0.2400 superseded. Evidence `research/2026-10-19_forecast-repair/READOUT.md` (`ea329d216`).
 > **Thesis:** v1.5 scoped factual reconciliation now; finalv1.6/cold read still10/30. SDT consequence restored to original August REFUTE + next TWO quarterly REFUTEs =3total; no numerical threshold change. CATO OR1 owner correction stands; reviewer closure pending. JulyAlly$8B/July2027 and immediate discretionary cancellation remain separate from warehouses; no actual cancellation established.
-> **s035 closeout:** earlier claim was incomplete. Calendar/mirror review and lesson-scan results: `research/2026-10-19_closeout-finish/RECEIPT.md`. Research dates/terms unchanged; no push.
+> **s035 closeout:** earlier claim was incomplete. Calendar/mirror review and lesson-scan results: `research/2026-10-19_closeout-finish/RECEIPT.md`. Research dates/terms unchanged. Will subsequently authorized safe fast-forward publication; remote receipt verified separately.
 > **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below.
 > **Cold history:** `STATUS_COLD.md` §1–16 is not a boot read; hot STATUS governs.
 
