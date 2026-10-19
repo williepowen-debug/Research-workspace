@@ -18,6 +18,8 @@ Will requested a fresh sweep of all recent live desk feeds after the earlier coo
 
 ## NEXT SESSION
 
+**New coordination dependency, October 19, 18:25 ET:** Will's [workflow clarification](research/2026-10-19_repeat-loser-volatility-context.md) integrated without a new market pull. Await HENRY's repeat-loser shortlist (index-up/sector-up days; 5/20/60 sessions; industry/size peers) and LIQUID/company-owner financing mechanisms. Exact workflow acknowledgments remain unverified here; WAL/TERRY consumption also unverified. Preserve recent equal-weight recovery, competing explanations and existing owner work. Ask: “What would distinguish financing-driven weakness from ordinary rotation or company-specific disappointment?” Volatility confirms stress, not financing causation; no automatic independent votes or crash odds.
+
 1. Actual VIX/SKEW/DSPX/VIXEQOctober19daily rows and MOVEprimary; next owner credit/funding publication. No clock-based final grade. If VIX19publishes, promote only after every core field has its exact-date daily witness; official OVX19=50.22awaits the matching VIXfinal.
 2. October21AMSOQ/expiry: keep symbols/dates and compare matched pairs;October28FOMC;November17lagendpoint;November18expiry;December16L441.
 3. L667officialobservation legcomplete, tooling rider separate: empty-calendar durable packet output/14-daycharter clause uncertified. Correlation clock-onlySETTLE helper still needs bounded repair; native data rows now accurately labelled. No new tooling commission.

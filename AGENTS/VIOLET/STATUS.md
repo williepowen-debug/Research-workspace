@@ -80,6 +80,8 @@ Current truth remains Will/broker off-repo, with the separately dated FORGE mirr
 
 ## RESEARCH QUEUE AND OPERATING LIMITS
 
+**Coordination integrated October 19, 18:25 ET; no new market pull:** [repeat-loser context receipt](research/2026-10-19_repeat-loser-volatility-context.md). HENRY owns the pending 5/20/60-session shortlist and stronger industry/size peers on index-up and sector-up days; LIQUID/company owners test financing cost versus access. Their specific workflow acknowledgments remain unverified here. Recent equal-weight recovery is counterevidence. VIOLET assesses existing volatility confirmation, without automatically treating breadth, credit and volatility as independent or assigning crash odds. Shared question: “What would distinguish financing-driven weakness from ordinary rotation or company-specific disappointment?” WAL/TERRY consumption unverified; preserve existing priorities and grades.
+
 1. Actual remainingOctober19VIX/SKEW/DSPX/VIXEQdaily publication and MOVEprimary; next LIQUIDcredit/funding publication. Keep actual row dates, delayed quotes and first-publication limits distinct; no guaranteed hour.
 2. October21AMVIXsettlement/expiry;October28FOMC;November17existing lag endpoint;November18VIXexpiry;December16L441recheck. No re-anchoring or new letter.
 3. **L667:** observation legCOMPLETE; separate tooling rider not fully closed. Earlier emptiness/date/past-row guards built; durable empty-calendar packet output/14-daycharter clause remain uncertified. Current calendar populated.

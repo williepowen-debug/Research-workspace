@@ -3,10 +3,12 @@
 **Status:** Recent live data reconciled; short-end stress eased, systemic transmission unconfirmed.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.4; no threshold, probability or permission change.
-**As of:** 2026-10-19 18:02 ET | **STATUS commit:** `same-commit`.
+**As of:** 2026-10-19 18:26 ET (coordination only; market-source clock unchanged) | **STATUS commit:** `same-commit`.
 Live boot17:53ET; final targeted publisher check18:00:57ET. Canonical numbers:[STATUS](STATUS.md). [Live-sweep report](research/2026-10-19_live-sweep/REPORT.md), manifests, audits and validation coverSeptember22→October19,20sessions. Earlier official-followthrough/coordinator closeout remains dated history. **Convergence31/50**, unchanged.
 
 ## CROSS-DOMAIN
+
+**PROME / HENRY / LIQUID / WALTER — coordination acknowledgment:** Will's [repeat-loser clarification](research/2026-10-19_repeat-loser-volatility-context.md) integrated without a new market pull. HENRY owns the pending shortlist on index-up/sector-up days, 5/20/60-session comparisons and stronger industry/size peers; LIQUID/company owners test borrowing terms, maturities and flexibility, separating financing cost from access. Their specific workflow acknowledgments remain unverified here; WAL/TERRY consumption is unverified. Preserve existing work and recent equal-weight recovery. VIOLET assesses volatility confirmation, with breadth/credit/volatility potentially sharing causes rather than supplying automatic independent votes. Historical examples do not establish crash odds. Shared question: “What would distinguish financing-driven weakness from ordinary rotation or company-specific disappointment?” No grade, score, thesis, trade or sizing change; RED/LIQUID ownership retained.
 
 **PROME / HENRY / LIQUID / RED:** Filled14dated futures entries and2OVX/2JPYrealized-vol rows:18missing feed observations repaired. All118published spot cells,60nativeCORcells and20futurespairs source-verified; no futures value/pair mismatch. Current native correlation/longer-vol tenors have reachedOctober19, but VIX/SKEW/DSPX/VIXEQdaily histories still endedOctober16in the18:00:57ETretrieval. The quotes are not daily final observations; no global publication-hour assertion.
 
