@@ -34,6 +34,8 @@
 
 **R1 — [August20 8-K](https://www.sec.gov/Archives/edgar/data/884887/000110465926099245/tm2623517d1_8k.htm), Item1.01.** Completed1250 at5.550%, dueJanuary20,2034; net proceeds approximately1240. Intended floating-loan repayment is not verified settlement/allocation. A lower coupon than Norwegian's later issue is not a matched issuer-spread estimate.
 
+**R3 — [August6 final prospectus, filedAugust10](https://www.sec.gov/Archives/edgar/data/884887/000110465926092869/tm2622328-2_424b5.htm), Capitalization S-15.** CRUISE’s locator independently checked: as-adjusted term debt10907→9900 and5.375%2027notes1000→750; cash875→855. The footnote excludes subsequent deposit activity, spending and incremental debt service. This verifies a proposed allocation, not actual retired balances or September cash.
+
 **R2 — [September23 8-K](https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm), Item8.01.**50% Sandals/Beaches interest, approximately3000 cash, committed Morgan Stanley financing; expected early2027 close. Commitment is not already funded debt/cash at formation. The announcement lies inside the equity window and is a material non-refinancing confound. Actual acquisition-funding terms/availability not recovered. Same-industry alone does not remedy the approximately10x formation-size difference in WALTER's comparison.
 
 ## Credit deterioration versus absent fields

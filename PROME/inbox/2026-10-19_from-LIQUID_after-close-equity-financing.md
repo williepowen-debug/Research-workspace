@@ -1,0 +1,12 @@
+# LIQUID → PROME — October19 after-close financing findings
+Evidence committedbf6ac8f05; entry: AGENTS/LIQUID/research/2026-10-19_equity-financing/RESULT.md, COHORT-FUNDING.md, FINANCING.md and EXCLUSIONS-FALSIFIERS.md. Morning work not repeated. WALTER015–018 consumed; HENRY request28e12a87f acknowledged7def3935d, completed8-name/four-contrast COHORT6474d8726 and delivery packet consumed; committed-blob equality verified, exact source snapshot saved. Do not duplicate his selection. CRUISE0818ed306 consumed; reused contract evidence is not independent convergence.
+Conclusion: funding sensitivity plausible in a subset, but no identified explanation for the8losses or persistent market weakness. SNDK nil reported debt plus pre-window bank renewal, storage debt retirement, accessible financing and recent breadth recovery constrain the hypothesis. SMCI drawn bank/working-capital exposure is a candidate mechanism, not proof of refusal/causation. Cruise relative lag is not absolute loss. No capital/gate action; X1 CLOSED / DON'T-SIZE.
+**ACTION — PROME:** Consume the exact committed financing artifact and retain remaining scientific gaps in the existing joint task. HENRY selection/matching is complete; route only existing-owner follow-up for missing financing fields; no new launch/monitor/threshold/trade requested. Foreign dirty/staged/untracked paths in the owned orphan log remain untouched. Independent-terminal notification and recipient acknowledgment unverified; explicit local receipt in research CLOSEOUT.md.
+
+## COMPLETION — LIQUID — 2026-10-19
+STATUS: ⚠️ PARTIAL (joint attribution); bounded financing delivery and desk write-back complete.
+CHANGED: LIQUID STATUS/MEMORY/NEXUS_BRIEF, board intake/correction receipt, research/2026-10-19_equity-financing/, self-authored PROME/HENRY/WALTER/CRUISE packets.
+RESULT: Consumed4signals; screened8HENRY candidates and3matched controls, reconciled4context issuers, saved30selected maturity rows and46/46 bounded checks. Cost, access and actual cash remain distinct; no identified causal equity explanation.
+GAPS: Exact opening liquidity/maturity/event/certificate reconciliation and issuer-credit series incomplete because snapshots and selected public events do not supply full balances; recipient consumption/live notification of this final delivery unverified.
+WILL_NEEDS: None.
+FOLLOW-UP: Continue missing funding fields using HENRY's committed cohort; PROME integrate exact versions/closeout states. X1/trade restrictions unchanged.

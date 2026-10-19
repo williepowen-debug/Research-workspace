@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-10-19T18:11:27-04:00",
+  "source": "AGENTS/HENRY/research/2026-10-19_catchup/COHORT.md",
+  "sha256": "278210becafd4ad78bf8e9d5b8125b35837884b4da6b9347341cf029e4340dcc",
+  "source_commit": "6474d87269c5f81084501bf9d719d934da976249",
+  "packet": "AGENTS/LIQUID/inbox/2026-10-19_from-HENRY_fixed-equity-cohort-delivery.md",
+  "consumption": "Read full COHORT.md, including late source qualification. Working tree matches committed blob. Equity selection/return/size computations remain HENRY-owned, not independently recertified by LIQUID."
+}

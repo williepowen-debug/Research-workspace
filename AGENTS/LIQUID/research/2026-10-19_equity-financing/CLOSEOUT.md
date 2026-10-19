@@ -1,0 +1,32 @@
+# LIQUID — after-close completion and closeout receipt, October19,2026
+
+**Owner:** LIQUID; directly launched by Will after market close. Runtime Codex/OpenAI, exact model version UNKNOWN; session01a15626-6af3-7ba2-a813-ecec80a264d6. Root /home/willi/Research-workspace. This is separate from the morning session01a154ec-1848-79a3-9cc8-58ac8ca7c5b4. No helper/duplicate desk launched.
+
+**Ask observed:** current direct Will commission says “Report blockers and explicit completion/closeout receipts under PROME/COMPLETION_SPEC.md.” **Owner response (2026-10-19T18:10:08-04:00):** Standard desk closeout/write-back performed for this bounded evidence delivery. This answers Will's direct request; no PROME final-touch ask/acknowledgment is inferred. Joint financing attribution remains PARTIAL; no unattended background research or monitor is left running by LIQUID.
+
+## Work and write-back
+
+- Morning L746, sweep and workbook reconciliation were continued from, not repeated. Root/local instructions and boot methods explicitly read. Required FRED-only boot returned19series/0errors; H.15 newer dated frontier written, no new HY cell/count.
+- SIG-W-20261019-015–018 consumed with4acted rows and git-mv to processed. Both required WALTER RESULTs read; intraday versus close and historical/proxy denominators retained.
+- Owned findings: FINANCING.md, COHORT-FUNDING.md, RESULT.md, EXCLUSIONS-FALSIFIERS.md, SOURCES.md,30selected maturity rows and reproducible arithmetic. Core findings/peer replies committedbf6ac8f05; initial HENRY request28e12a87f. Failure/unknown capture receipts preserved; no denied page parsed as financial data.
+- STATUS/MEMORY/NEXUS_BRIEF updated; all5gate rows/workbook files preserved. No new threshold, prediction, monitor or trade. X1 CLOSED / DON'T-SIZE. No fresh position/book classification changed.
+- HENRY acknowledged the initial request in7def3935d, then provided a fixed8-name/four-contrast COHORT artifact and final-delivery packet. The latter were **not yet committed at18:07ET**; LIQUID read them but did not stage the sender's untracked files. Initial working snapshot/digests and exact HENRY-COHORT-SNAPSHOT.md retained. Exact committed-version consumption remains to be reconciled when sender persistence lands.
+- CRUISE's final0818ed306 artifact/packet consumed; RCL prospectus as-adjusted versus actual-retirement distinction and operating alternatives retained. It explicitly reuses LIQUID contract evidence; no independent vote manufactured. Existing-work reply delivered to its inbox. No owner file edited.
+
+## Checks and limits
+
+46/46 bounded checks passed: arithmetic,30window classifications, PDFhash,4intake moves, all5gate rows and workbook stability. These checks certify neither complete financial-source coverage nor causation. Initial Decimal comparison exposed a stored binary-float tail; normalized the calculated field to13.78125 and reran successfully. Read-cap rc0 in its heuristic scope; STATUS below75%trigger, never rotated this session. Weekday check rc0 on6prescribed files. Correction check0unreceipted after COR-20261019-12 NO-OP receipt. Orphan check rc0 advisory; foreign uncommitted paths preserved, not swept.
+
+Ledger nudge advisory: GATE079 exclusion calendar remains fixed throughJune2027; no eligibility/calendar change. CATALYSTS/PREDICTIONS/KB unchanged because this bounded research changes no registered event, forecast or durable structural finding; pinnedLIQ04 unchanged. No auto-memory authored, so memory-index checks not triggered. No same-date corrected threshold/flip/split/band: numeric consumer scan not triggered. New dated H.15 observation is not a revision of the prior date.
+
+**Scientific gaps:** full formation-date usable liquidity, exact rolling maturity/amortization/put/conversion schedules, post-statement cash/debt bridges and current covenant certificates are not supplied by selected quarterly snapshots and have not been fully reconciled; issuer-credit chronology likewise incomplete. Eight outcome-selected stocks/four imperfect industry-size comparisons are not a representative or causal study. HENRY selection/matching is complete and committed6474d8726, not work LIQUID should repeat. No funding-risk rank manufactured. No new Will decision.
+
+**Operational limits:** concurrent foreign dirty/staged paths prohibited a pull/stash; exact pathspec commits preserved their index. Native live transport to independent terminals unavailable. Sender packets establish durable file delivery only; notification acceptance/current exact-version recipient consumption and a PROME closeout handshake are UNKNOWN unless separately evidenced. HENRY's initial request acknowledgment is positive consumption evidence for28e12a87f only. The initially untracked final cohort/packet was left for HENRY and he committed it at6474d8726; LIQUID then consumed/moved its own inbound handoff. Root routine safe-push will supply a separate receipt; pending until that literal receipt is observed. No rebase over another desk's dirty work.
+
+## Resume / delivery
+
+Sole owed list STATUS§3. Continue from committed financing findings and HENRY's exact committed COHORT, fill missing exposure/transaction fields without replacing inconvenient weak names, and obtain recipient dispositions. Existing WQ404/441 and dated October21/22/30/31 obligations remain at their owners. Dated PROME inbox memo plus HENRY/WALTER analytical packets carry the result. Packet creation, push, recipient integration and explicit owner closeout remain distinct states.
+
+**Final cohort persistence/consumption receipt (2026-10-19T18:11:27-04:00):** HENRY COHORT.md read at committed6474d8726, working tree equals committed blob; exact snapshot/digest saved. Selection/matching complete. It explicitly acknowledges LIQUID’s heterogeneous funding findings and corrects WDC nil preferred, without claiming an independent financing study. Earlier uncommitted/pending notes above are acquisition history, superseded by this receipt. Remaining scientific work is the funding exposure/event reconciliation, not HENRY selection.
+
+Orphan advisory qualification: HENRY moved our already-committedbf6ac8f05 first-pass packet into his processed lane while working. That recipient-owned move was not LIQUID’s to stage; authorship is not a grant to sweep another desk’s consumption mutation. Original packet authorship/delivery remains proven by Git history. Newly self-authored completion packets are committed explicitly.
