@@ -1,0 +1,149 @@
+{
+  "reviewed_at": "2026-10-19T13:28:10-04:00",
+  "base_commit": "09265ad6971d58e893e462c32e499f74e26344d2",
+  "runtime": "Codex/OpenAI gpt-6.1-sol; independent Will terminal",
+  "updated": [
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "before_sha256": "3309e9923e9973d034e3e361c5c6e5bfd77c395d4d43749ee7bdca3498074a41",
+      "after_sha256": "79d570f4aa7b420e3e51c722c98de73db19bafc8398b40c8b6650bc7aaf774a9"
+    },
+    {
+      "path": "AGENTS/LIQUID/MEMORY.md",
+      "before_sha256": "cdedc7140fe98080c5a7d14324758db780bd2e9f34164720891d7c694d3040c1",
+      "after_sha256": "e860963dd16ff013e2e6c23a6036f676b993e41b0c0554b2c16369ec4b420230"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/OPEN_MONITORS.md",
+      "before_sha256": "d161a1cc76b8c069370494153c720d61738877c200a5c746477f3f58b6a0b0ea",
+      "after_sha256": "faf5e3c2c0eac0bd1daab2ee41700c5cca2b100a2ae7647bb10bc4f0df71ef88"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/REFERENCE_TABLES.md",
+      "before_sha256": "ae7a61244617fdde438d7edfae3cc9f795356b0b92974c65d44ece5d19f941bf",
+      "after_sha256": "e36eab5e595c16b297e3bc94a511d0f786a3d657e3991c1dc4a8e6a22477d71d"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/DEALER_POSITIONING_NEXUS_WATCH.md",
+      "before_sha256": "ea9d44d6bd74feac662c808565c4559808355dfc331bc4369126625c6cd89c80",
+      "after_sha256": "0f7da1402301a75af593d6dcffa633bef2c3277dca6be77f8221dbcc3d62c65d"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/BDC_MARK_CONVERGENCE_MONITOR.md",
+      "before_sha256": "144377b0aebcce8de579aec871b8bd3792db3c748115ca5c2a80a515b924831d",
+      "after_sha256": "5313d8d4949facde8e842445549b0edbcbde92179d00a28af1d87f45d92f575a"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/TIC_FRAMEWORK.md",
+      "before_sha256": "67b19b735d0dc8297b855b43ed597b0f943f1e1a176d79bb3c4312fc9b2f6a3f",
+      "after_sha256": "913a8cf508850903087f6cabb2487bd8d54f828ae34edd1ccfa55b1c2e210485"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md",
+      "before_sha256": "8c3c25db1c5602d681cdb970def7aed02fb260ffb3f8fa418fe7a0016bf0add0",
+      "after_sha256": "14a25f437f26f84658ed66a29579393e73594a420ec780bffdb5de84160b981d"
+    },
+    {
+      "path": "AGENTS/LIQUID/STRATEGY.md",
+      "before_sha256": "32eaa78a732a9010e23b55badc86f62243565ed89f4be01d3ce6ea402f69ebe6",
+      "after_sha256": "ae70e2c1c1485ad171980bcc72387dbde91473501fcb4a4de6e0121d17dec7e7"
+    },
+    {
+      "path": "AGENTS/LIQUID/IDENTITY.md",
+      "before_sha256": "3b23b1657ec29c39278f2df8b9c820d1df9387f260c49354b8795c6679306e89",
+      "after_sha256": "6aea24e0e8be4830fb1f133dd43762ae32a2d3bab9eb3da4e2760eadc65b118d"
+    },
+    {
+      "path": "AGENTS/LIQUID/USER.md",
+      "before_sha256": "f1422663f2a7f13ff55858eafc8cbf342e282e223bd8a1c4e83054112d6f14bd",
+      "after_sha256": "9d822c36c827f71749a71d3179c791e1241f296200b582700f39952f29d337e6"
+    },
+    {
+      "path": "AGENTS/LIQUID/CLAUDE.md",
+      "before_sha256": "23d2332110f97ef88a54f39da88f6eda56d0594654ecb3c37fa0b9d496a9be05",
+      "after_sha256": "5b7ec0e06343b75c674cca7769a1ea381a81f80705318b37f295834a41dd73fb"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/PRE_STAGED_RESHAPE_WAKEUP_BRIEF_2026-07-29.md",
+      "before_sha256": "6e56f4cd31a45d1fcfa9e774348d94846b9586330afeea0a84712a2f4ef2fd10",
+      "after_sha256": "21de371450e7e21cd9389a33b6b373237be970a11798711ae33492be60362f7e"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/HY_HORMUZ_LAGGING_TELL_WATCH.md",
+      "before_sha256": "19bcae706929187d30829f03b5da0db4ecf230fd207152ad7d4abf697a61d55a",
+      "after_sha256": "3a8c912665d765388e8513eb047c2dd6250648f1001a4dac16e7be2fb9dd2cc0"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/DECOUPLING_TESTS_VIX_HY_2026-08-10.md",
+      "before_sha256": "af62d95fdb9521ba9bca64317f64c2dcc20101d76f3a4745a3a5365da438af2a",
+      "after_sha256": "37d9de2e79495776534ada16f8e76639a9cba3b017a7cfe87c8dc6187d23d1d9"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/T3_DECOUPLING_TEST_A_DRYRUN.md",
+      "before_sha256": "fe0ee6510b0ebecb9a5f5a49e0c34879c35b504220e69dbc07b7ce3791a8c8e6",
+      "after_sha256": "5834ac2f5ad6a5c33218a23d74b261a73f9dc45eb61856111eae6e5b4a5e76e4"
+    },
+    {
+      "path": "AGENTS/LIQUID/thesis/TIMELINE.md",
+      "before_sha256": "f44b9e614fe22a6632e95a254d87bccbf9366e4f218025943490fe4e5e37e885",
+      "after_sha256": "5334d39b9085bcff763cd874106b8f881366ef96a7eb97acf27b7616bb3096ce"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/KB.tsv",
+      "before_sha256": "c107e47b3aeffaa0a0e40e565d798c9a2899f2653689d6f9b5bb239b061939fd",
+      "after_sha256": "1f7560be65426ed93700b6770f8dc53537144ac03d00e14fe30a58b3750bd693"
+    },
+    {
+      "path": "AGENTS/LIQUID/NEXUS_BRIEF.md",
+      "before_sha256": "66d77aa3313d14f226179122ef0a138e753ae45a4ba5685fd89f1e37e3684d58",
+      "after_sha256": "3e7d2aa2249c87555a9bae8635597a9d4ba99e0bf6078c9f79376a6a91a65826"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "before_sha256": "7a845b83956995a259e151c78a2b412d85f430751084a737860fcdce562b9585",
+      "after_sha256": "623fb297ed53ec6051848ce733abc0aaf343e084051edae79ba8db185d971745"
+    },
+    {
+      "path": "AGENTS/LIQUID/CALENDAR.md",
+      "before_sha256": "4048dc0b456600b39e8075194709972f76f67bc41007c511cda53e2a35c87477",
+      "after_sha256": "b2e50447004901444a7257f4dc781e0e7876f8983468110bc4292edadd683b04"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/PREDICTIONS.tsv",
+      "before_sha256": "d26eb3b8bc63bdae9ee46b90247cadb04ffad9b548529ac8a3bc4413333846ee",
+      "after_sha256": "4f9ef740ae86db86a778644eb9e77a78620a9e96fabb0203b42330703a2de2c9"
+    }
+  ],
+  "workbook_files": [
+    "AUCTION_FRAMEWORK.md",
+    "BDC_MARK_CONVERGENCE_MONITOR.md",
+    "CATALYSTS.tsv",
+    "DEALER_POSITIONING_NEXUS_WATCH.md",
+    "DECOUPLING_TESTS_VIX_HY_2026-08-10.md",
+    "DEMAND_HOLE_AUCTION_PREREG_2026-07.md",
+    "EXPECTED_SIGNALS_TRACKER.md",
+    "FLOW.tsv",
+    "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "GATE079_CALENDAR_EXCLUDED.tsv",
+    "HY_HORMUZ_LAGGING_TELL_WATCH.md",
+    "KB.tsv",
+    "KILL_MEMO_HY_OAS_260.md",
+    "LIQ-04_KERNEL_NATIVE_COMPANION.json",
+    "OPEN_MONITORS.md",
+    "ORCL_FALLEN_ANGEL_MAP.md",
+    "PREDICTIONS.tsv",
+    "PRE_STAGED_RESHAPE_WAKEUP_BRIEF_2026-07-29.md",
+    "REFERENCE_TABLES.md",
+    "T3_DECOUPLING_TEST_A_DRYRUN.md",
+    "T3v2_READ_2026-09-23.md",
+    "TIC_FRAMEWORK.md",
+    "VX.tsv"
+  ],
+  "evidence": "AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+  "dependencies": {
+    "python_alias": "python absent; python3 and repository .venv/bin/python3 available",
+    "LEDGER_GLOB": "absent; explicit known ledgers used",
+    "PROME_live_transport": "unavailable in independent terminal; durable inbox packet used, acknowledgment not inferred",
+    "CFTC_boot_route": "urllib403; requests primary pull recovered, original publication vintage unverified"
+  }
+}

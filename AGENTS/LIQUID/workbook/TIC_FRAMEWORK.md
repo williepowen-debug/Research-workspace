@@ -1,4 +1,6 @@
 # TIC Data Analysis Framework
+
+> **Latest evidence reconciliation October19.** The June figures and “live/next” language below belong to the August23 methodological baseline. Latest saved August TIC (releasedOctober16): Treasury transactions official−$24.1B, private+$85.3B; total of record+$61.1B from ZHAO Table3 (rounded aggregate release sums+$61.2B). Belgium holdings$490.5B remains a level; no China-proxy inference. Fed Treasury custody WednesdayOctober14 $2,550.889B (−$14.588B weekly) is a separate level series, not sovereign sales. Country detail/limits: STATUS§1 and `research/2026-10-19_sweep/REPORT.md`; ZHAO/SAM retain country adjudication. Original June thresholds and falsifications below are preserved; no new rule or country grade.
 *Reusable reference for monthly TIC releases*
 
 **Rewritten 2026-08-23** (LIQUID boot) on ZHAO's 8/21 June-TIC packets — two of them, both Will-ruled: the **Belgium-proxy falsification** and the **China-rotation WITHDRAWAL**. Prior version (2026-03-20 vintage, extracted from a Mar-19 STATUS analysis) is superseded. Records: KB-ZHAO-119..124 · KB-ZHAO-127 · VX-ZHAO-1.09/1.10.

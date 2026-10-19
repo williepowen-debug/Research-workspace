@@ -12,7 +12,7 @@ No pull/stash/reset/push per commission; concurrent tree preserved. Session UUID
 - **069 L4 10/16 NOT FIRED:** HY+8 meets, no equity≤−15%; worst NBIS−12.1756% on daily raw bars. 2-of-2 gate count unchanged.
 - **Funding PARTIALLY INSTRUMENTED / SUPERVISOR-BLIND:** first-published10/16 SOFR−IORB−2bp,75th+3,99th+5,SRF$0.000B. LIQ-07 remains RESOLVED S2, not a new prediction.
 - **Whole inbox integrated:** initial2 top-level+6 WALTER; new WALTER-003 arrived mid-work,9 total(2+7). Volta WQ441 A NOT RED/B RED stays unresolved; L3 UNGRADED. GIBBS named deposits integrated without system-wide flight inference. VIX/fund-unwind cause unproven; COR-20261016-03 applies13:36:33ET timestamp.
-- **Gaps:** CFTC403 at required full boot; no fallback hunt. EUR/USD tool WITHHELD, no capacity/haircut instrument. Full closeout awaits PROME's explicit final-touch ask; delivery/notification/consumption are separate.
+- **Gaps:** boot urllib CFTC403 persists; subsequent requests pull recovered primary data, but original Friday publication vintage is unverified (not source absence). EUR/USD tool WITHHELD, no capacity/haircut instrument. Full closeout awaits PROME's explicit final-touch ask; delivery/notification/consumption are separate.
 
 ### PRIOR SESSION (2026-10-16 Fri 16:16–16:4x ET — PROME Tier-1 wake DOCKET L721, Claude Code / Opus 5.5)
 
@@ -37,6 +37,8 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 - ⚠️ Self-caught: my C4 catalyst row copied CLAUDE.md's 9/12 "OCIC at 2 consecutive" text; SIGNALS.md shows BROCK R2 (a) FIRED #2 on OCIC 10/2. Corrected the row; the CLAUDE.md line ~84 is stale (charter edit not made).
 
 ### NEXT SESSION
+
+Workbook/current-file reconciliation completed October19; audit and exact file inventory → `audits/2026-10-19_workbook-reconciliation/REPORT.md`. Read dated source frontiers, not review stamps.
 
 Re-anchor current publications, STATUS and all inbox lanes. L746 is graded; no re-run of Friday research because a notification failed. PROME consumes the exact memo/version, mirrors L746/GATES and acknowledges; full desk closeout follows its explicit ask. Next source reads:20Y10/21,TIPS/Car-Mart/dealer10/22(onlyactualpublisheddata). Existing separate work remains: WQ404 conditions-first fix pass; deferred DAEDALUS10/8 asks; October30 reviews and October31 079 band proposal. Volta WQ441 remains unresolved until Will rules; no repeated supervisor-blind data-wall hunt.
 

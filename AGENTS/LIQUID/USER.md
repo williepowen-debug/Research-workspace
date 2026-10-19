@@ -16,4 +16,4 @@ Use the verified runtime channel. Dated PROME completion packets are delivered t
 
 ## Dates
 
-`workbook/CATALYSTS.tsv` and its human twin `CALENDAR.md` carry events. `STATUS.md` §3 owns the owed list. October15–16 existing releases/verdict are the next tests; resolved June/July dates are archived history, not upcoming work.
+`workbook/CATALYSTS.tsv` and its human twin `CALENDAR.md` carry events. `STATUS.md` §3 owns the owed list. LIQ-07 resolved October16. Next existing tests are October21 20Y and October22 TIPS/Car-Mart/dealer publication; use the calendar’s observation/publication distinctions. Resolved dates are history, not upcoming work.

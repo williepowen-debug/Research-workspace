@@ -1,5 +1,18 @@
 # Dealer-Positioning Nexus Watch — registered 2026-07-11 (Sat ~18:00 ET)
-**Owner:** LIQUID. **Current state:** STATUS§2; October14 fresh conjunction INSTRUMENT-FAULT(CFTC403). Prior dated grades below remain historical. Next review October30, set by PROME. No leg/count or reset change.
+**Owner:** LIQUID. **Reconciled 2026-10-19T13:28:10-04:00.** Current state: STATUS§2. CFTC data recovered; fresh first-publication certificate remains INSTRUMENT-FAULT / UNGRADEABLE. Next review October30, set by PROME. Registered operators/count/reset unchanged.
+
+## Latest evidence — read October19, observation dates retained
+
+| Leg | Saved source read | Certification limit |
+|---|---|---|
+| W1 | CME SOFR-3M as-ofOctober13: long1,137,065 − short3,382,572 = net−2,245,507; w/w+108,209 (long+92,971, short−15,238). Latest-returned W1 NOT MET | requests recovered weekly/raw archive; weekly Last-Modified October19, not initial October16 release. Original first-publication vintage unverified; boot urllib403 remains |
+| W2 | NY Fed as-ofOctober7: G10−$10.665B; G5L10−$1.462B vs+$0.847B September30. Latest-returned W2 NOT MET: one qualifying week below−$0.800B, two required | Latest-returned, no new first-publication certification |
+| W3 | October16 VIX witness19.99 lies within1point of20 | VIOLET recorded same-session closes required; no witness-only boundary grade |
+
+No newly certified conjunction, re-arm or second write-up. Four below-IG net buckets fell$4.959B→$2.164B; Treasury7–11/11–21/>21Y nets total$135.084B (+$2.022B). Net stock is not gross selling/capacity refusal; `...C` series numerically match weekly NET changes, not gross inventory. Source files, arithmetic and limits: `research/2026-10-19_sweep/REPORT.md`, `derived-evidence.json`, `pd-source-receipts.json`.
+
+## Registered rules and historical grades
+
 
 > ✅ **W1 BLIND SPOT — DOCUMENTED, WQ-88 RULED 2026-09-01 (Will 17:22 ET, *"approve all of those with your recs"*; PROME packet 2026-09-01; encoded here 2026-09-02).**
 > **W1 keys on a WEEKLY DELTA and cannot see a multi-week orderly exit.** That is the whole ruling and it is my own recommended option (a): **document the blind spot, change nothing.**
@@ -41,7 +54,7 @@ A hot CPI 7/14 landing on a completed arm-#2 (10Y 5-of-5 ≥4.50 if Mon holds) h
 > **"Record" is NOT a live referent.** W1's level line is the **FROZEN −2,950,000**, set 7/11 as "past the −2,943,898 [6/30] peak". The word "record" describes history and grades nothing, so the all-history vs since-registration question DAEDALUS raised cannot flip the leg. (For context only: that 2026 peak also stands in the 2026 file; pre-2026 history was not checked 9/29.)
 > **Window:** 14 calendar days, anchored at the latest observation date of any leg. W1 is dated by its as-of Tuesday, not its Friday release.
 > **Reset rule:** a MET conjunction owes ONE write-up. A **second** MET (a second write-up) requires a re-arm: **10 consecutive business days with no leg met**, then a fresh 2-of-3. The window read in `boot.py` is not a latch. It stops showing MET once the hits age out, and that says nothing about whether a re-arm has occurred.
-> **Current (10/9, graded 15:5x ET):** **W1 NOT MET [as-of Tue 10/6, CFTC TFF raw `FinFutWk.txt`, Last-Modified 2026-10-09 19:27:48Z = as first published]:** CME LevF long 1,044,094 − short 3,397,810 = **net −2,353,716**, 596,284 short of ≤ −2,950,000; w/w **+56,627** vs the > +300,000 cover line (prior −2,410,343 [9/29], unrevised). Spreading 2,650,333 (−9,662) · OI 12,657,372 (+201,495). FMX row (OI 154,636) present and excluded by the full-name key (KB-LIQ-116). **W2 NOT MET [as-of 9/30: G10 −9,570 · G5L10 +847]** · **W3 MET** (witness MOVE 98.48 / VIX 14.85, yfinance 10/9 15:51 ET, intraday) ⇒ **1 of 3, NOT MET**. No re-arm since 9/29 (W3 met every business day), so no 2nd write-up is owed. *Context, grades nothing:* third consecutive cover (+329,162 · +34,643 · +56,627); net is the least-short since as-of 6/2 (−2,103,389) and +590,182 (20.0%) off the −2,943,898 [6/30] peak — the multi-week exit W1 is documented blind to (WQ-88).
+> **Historical (10/9, graded 15:5x ET):** **W1 NOT MET [as-of Tue 10/6, CFTC TFF raw `FinFutWk.txt`, Last-Modified 2026-10-09 19:27:48Z = as first published]:** CME LevF long 1,044,094 − short 3,397,810 = **net −2,353,716**, 596,284 short of ≤ −2,950,000; w/w **+56,627** vs the > +300,000 cover line (prior −2,410,343 [9/29], unrevised). Spreading 2,650,333 (−9,662) · OI 12,657,372 (+201,495). FMX row (OI 154,636) present and excluded by the full-name key (KB-LIQ-116). **W2 NOT MET [as-of 9/30: G10 −9,570 · G5L10 +847]** · **W3 MET** (witness MOVE 98.48 / VIX 14.85, yfinance 10/9 15:51 ET, intraday) ⇒ **1 of 3, NOT MET**. No re-arm since 9/29 (W3 met every business day), so no 2nd write-up is owed. *Context, grades nothing:* third consecutive cover (+329,162 · +34,643 · +56,627); net is the least-short since as-of 6/2 (−2,103,389) and +590,182 (20.0%) off the −2,943,898 [6/30] peak — the multi-week exit W1 is documented blind to (WQ-88).
 > *Prior (9/29):* W1 MET [as-of 9/22 cover +329,162] · **W2 NOT MET [as-of 9/16: G10 −9,286 · G5L10 +564]**, its first grade since 8/19 · W3 MET [9/23–9/28] ⇒ conjunction MET (2 of 3, all three measured).
 
 ## Basis-vs-directional caveat (added 7/11 PM deep-dive — load-bearing for interpretation)

@@ -1,4 +1,6 @@
 # PRE-STAGED — Bank-Put Reshape Wake-Up Brief
+
+> **Navigation reconciliation October19:** July29 conditional research only; “tomorrow/current” below means July30/July29. It is not a present wake-up or trade instruction. Current state: STATUS; construction remains TERRY/Will.
 **Status: PRE-STAGED, CONDITIONAL on tomorrow's HY OAS print (7/29 FOMC-day data, publishes ~7/30 via FRED).** This is NOT a trade recommendation and does not by itself trigger anything. It exists so that IF GATE-RESHAPE-BC's HY leg fires on the sustain-confirm, Will/PROME/TERRY have the credit-side context on hand instead of re-deriving it live.
 
 **Author:** LIQUID · **Date:** 2026-07-29 ~22:5x ET · **Trigger being pre-staged for:** `PROME/proposals/2026-06-26_bank-put-reshape-roll.md` (GATE-RESHAPE-BC, `PROME/GATES.tsv`)

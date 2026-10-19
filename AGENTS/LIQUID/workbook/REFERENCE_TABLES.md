@@ -1,11 +1,11 @@
 # LIQUID — Registered Definition References
 
-**Reviewed 2026-10-14T14:34:46.375649-04:00.** `STATUS.md` owns live gate state; existing instruments supply fresh readings. This reference creates no criteria or counts. Prior September table and its historical levels are preserved in `archive/2026-10-14_staleness-sweep/workbook/REFERENCE_TABLES.md`.
+**Reconciled 2026-10-19T13:28:10-04:00.** `STATUS.md` owns live gate state; existing instruments supply fresh readings. This reference creates no criteria or counts. Prior September table and its historical levels are preserved in `archive/2026-10-14_staleness-sweep/workbook/REFERENCE_TABLES.md`.
 
 | Instrument / question | Existing canonical definition |
 |---|---|
-| HY kill / X1 / confirmation | `KILL_MEMO_HY_OAS_260.md`; strict<260×2 published observations, guard first. X1 HY>280×3 under WQ363 plus BROCK wrapper half. Strict>320 send line; RED/REGINALD own their counts. |
-| Credit-quality broadening / LIQ-07 | September25 credit-transmission §1c and Q2 letter; frozen thresholds/session-list ambiguity preserved |
+| HY kill / X1 / confirmation | `KILL_MEMO_HY_OAS_260.md`; strict<260×2 published observations, guard first. X1 HY>280×3 under WQ363 plus BROCK wrapper half. Strict>320 send line plus WQ444 three eligible first-published readings >320, non-session bridges, ≤320 resets, non-latching; RED/REGINALD own their counts. |
+| Credit-quality broadening / LIQ-07 | September25 credit-transmission §1c and Q2 letter; frozen rules retained. LIQ-07 resolved S2 October16 on both lists; original November dates are not a second verdict |
 | AI-credit re-arm | KB-LIQ-069 letter; ORCL map sharpens issuer-rating leg, not the gate itself. Energy/sector source gaps remain explicit. |
 | IG rating/spread mismatch | KB-LIQ-072 letter: IG>94 or HY−IG<180, plus its existing event legs. SpaceX leg CANNOT-FIRE. |
 | Dealer conjunction | `DEALER_POSITIONING_NEXUS_WATCH.md`; W2 is named IG-corporate buckets, not an inference that all dealers have no balance-sheet capacity |

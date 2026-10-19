@@ -1,13 +1,13 @@
 # LIQUID — Decision Playbook
 
-**Reviewed:** 2026-10-14T14:34:46.375649-04:00 — stale mirrors reconciled to registered letters. Current state: `STATUS.md`; old price snapshots archived with the original.
+**Reconciled:** 2026-10-19T13:28:10-04:00 — includes WQ444 approved October15; other registered letters retained. Current state: `STATUS.md`; old price snapshots archived with the original.
 
 ---
 
 ## Position Framework
 
 ### When to Escalate (signal other agents / propose trades)
-- HY OAS strictly >320bp: apply the desk’s registered send line. RED/REGINALD own their persistence counts; do not add a momentum veto or invent a LIQUID sustain count.
+- HY OAS strictly >320bp: apply the registered send line and the separate WQ444 sustained letter in KILL_MEMO (three eligible first-published readings strictly>320, ≤320 resets, non-session bridges, non-latching). RED/REGINALD own their counts. LIQUID’s approved sustained count is MET3-of-3 throughOctober16, gradedOctober19; no momentum veto or auto-sizing.
 - **HY OAS strictly <260.0 bp on TWO CONSECUTIVE published observations** → credit-thesis kill (canonical letter `workbook/KILL_MEMO_HY_OAS_260.md:47`; that letter governs) ⛔ **CORRECTED 2026-09-17 — this was a SECOND copy of the same wrong condition in this same file.** DAEDALUS's Production Review #6 named only line 29; I fixed the named line and found this neighbour by sweeping the file rather than trusting the named row. **A review is a SAMPLE, not a census** — `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`
 - **APO >$130 for 3 sessions** (raw closes only) → HEARTBEAT line 80 reassessment trigger. **FIRED 6/11** (closes 6/9-6/11: 132.70/131.14/133.91) — **NOT Trigger C**: escalation requires concurrent HY OAS *compression*, and HY widened 274→280 through the window. Reassess resolved 6/12 (equity/mark-decoupling read → BROCK). Re-fires as Trigger C precondition only if a ≥3-close streak coincides with HY compression. May history: ten straight closes 5/8–5/21, broke 5/22. **6/25: APO BROKE <$130 (~$122) on the AI/alts-crack — the >$130 recovery co-trigger is moot; the FALL is bear-confirming (PC→public transmission candidate). HY widened to 276 (not compressing) → still NOT Trigger C.**
 - Read funding pressure against same-date IORB, registered persistence, SOFR dispersion and GATE-LIQ-079. The fixed SOFR >3.70% display is obsolete after policy-rate changes; it supplies no independent escalation.

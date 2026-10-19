@@ -1,5 +1,7 @@
 # VIX-vs-HY Decoupling Test Battery (Tests A/B/C)
 
+> **Navigation reconciliation October19:** Frozen forum test definitions and dated provisional reads; not a fresh grade. Current T3v2 L238 is INSTRUMENT-FAULT (missing September22 DXY bar); if restored, VOID, never CONFIRM. See STATUS§4 and T3v2_READ_2026-09-23.md final section.
+
 **Registered:** 2026-08-10, financial-conditions forum (`FORUM/2026-08-10_financial-conditions/`). **Will-ruled 2026-08-10 in-session, forum FINAL §5 item 5: REGISTERED, act on none yet.** DOCKET rows set by PROME: Test B grades **8/24**, Test C closes **8/26**, Test A first read **~9/1**.
 
 **Purpose:** the forum's independence question — is HENRY's twin soft-kill VIX leg and HY leg (and by extension my own GATE-HY-REKILL, confirmed the same kill as HENRY's HY leg per the forum's kill-correlation map) one risk-on factor measured twice, or genuinely distinct? HENRY's daily-change correlation (ρ≈+0.52 full-sample, current-regime ~0.34, effective signals ~1.3-1.5) rules out "one tick measured twice" but cannot rule out a common slow-moving factor. These three tests are the discrimination battery, registered as frozen spec text — no threshold moved, no gate created, nothing fires from these tests alone.

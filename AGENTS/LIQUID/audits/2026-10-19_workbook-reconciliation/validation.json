@@ -1,0 +1,131 @@
+{
+  "passed": 25,
+  "total": 25,
+  "checks": [
+    {
+      "check": "complete inventory",
+      "pass": true,
+      "detail": "23 workbook files + 15 key files"
+    },
+    {
+      "check": "inventory changes accounted for",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "manifest hashes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "KB rectangular and unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all 144 prior KB Facts retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "KB changes scoped to notes/status/review fields",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all seven predictions retain registered fields",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "LIQ07 resolution intact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "LIQ04 open unchanged; coverage caveat explicit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "55 calendar events exactly mirrored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "calendar review correction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "five registered gates retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "STATUS below70percent read budget",
+      "pass": true,
+      "detail": "22647 bytes <22785"
+    },
+    {
+      "check": "closed X1 preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "16-observation HY witness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "approved320 witness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HY kill canonical letter byte-stable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "WQ444 threshold/count/reset/action row byte-stable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "076 fire conditions byte-stable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "076 exact basis/window/reset byte-stable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "held swapline code and letter untouched",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "frozen ledgers and structured forecast untouched",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "original synthesis archived losslessly",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "October19 bill results still null, not zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no whitespace errors",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?filter=auction_date%3Aeq%3A2026-10-19&page%5Bsize%5D=100",
+  "status": 200,
+  "retrieved_at": "2026-10-19T17:28:40.538503+00:00",
+  "sha256": "722e8072f8574f9a120b7023749f0c8a768c352e787a49a13beb375f2b72f2d4"
+}

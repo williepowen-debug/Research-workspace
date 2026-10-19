@@ -1,4 +1,6 @@
 # HY-vs-Hormuz Lagging-Tell Recognition Watch
+
+> **Navigation reconciliation October19:** July registration/August24 grade below are dated history. Energy-sector HY OAS is CANNOT-FIRE sinceSeptember26 under WQ300; no reachable source. No fresh war/sector recognition grade; broader HY level is not a substitute.
 **Registered:** 2026-07-17 (LIQUID) · **KB:** KB-LIQ-081 · **Assigned:** HEARTBEAT 7/16 §4 ("the key lagging tell", watch to LIQUID) · **Successor to:** KB-LIQ-071 Part-2 (graded MISS, KB-LIQ-080) — that pre-reg said HY *would* re-approach 280 via oil-beta; it didn't. This watch replaces "HY will widen" with **"here is what genuine recognition looks like vs beta noise, pre-registered so recognition-vs-shrug stops being vibes."**
 
 ---

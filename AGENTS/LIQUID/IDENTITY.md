@@ -15,13 +15,13 @@ Funding markets specialist. Monitors Treasury plumbing (RRP/SRF/SOFR/reserves), 
 
 ## Current Focus
 
-**Reviewed 2026-10-14T15:32:09.070700-04:00.** Current evidence and gate states live in `STATUS.md`; refresh levels with `scripts/boot.py`. The June focus snapshot and its original thesis wording are preserved in `archive/2026-10-14_staleness-sweep/IDENTITY.md`.
+**Reconciled 2026-10-19T13:28:10-04:00.** Current dated observations and gate state: `STATUS.md`; evidence: `research/2026-10-19_sweep/REPORT.md`. The June focus snapshot remains historical in `archive/2026-10-14_staleness-sweep/IDENTITY.md`.
 
-1. Alongside scheduled pulls, use existing owner returns for named financing constraints and successful financing; stop at explicit unknowns.
-2. Complete the existing October16 LIQ-07 funding verdict on both ICE/SOFR lists; distinguish the realized 15% credit-trigger outcome from the pending funding branch. Refresh the credit-quality ladder and retain the reserve-channel limitation.
-3. Read the October14 discount-window balance when published October15; distinguish borrowing use from borrowing restrictions and weekly averages from Wednesday balances.
-4. Use recovered HYG/JNK issuer share histories beside the verdict; creations/redemptions do not by themselves prove forced cash selling.
-5. Read August TIC October16 using actual transactions. Belgium is a bare level alert; its China-migration inference is falsified.
+1. Track credit broadening and the approved >320 sustained signal; X1 remains CLOSED / DON’T-SIZE pending BROCK’s relative wrapper half.
+2. Carry LIQ-07’s October16 RESOLVED-S2 dual-list verdict: no reserve-channel loop observed. Retain hidden haircut, collateral, prime-broker and offshore-dollar limits.
+3. Compare the recovered CFTC/NY Fed evidence with funding and settlement, preserving publication-vintage gaps and net-versus-gross distinctions.
+4. Read HYG/JNK creations and continued named financing beside credit stress; neither share changes nor commitments prove funded cash or forced sales.
+5. Next existing tests: October21 20Y; October22 TIPS, Car-Mart continuation and expected dealer publication; October30 reviews and October31 funding-band proposal. Actual publications govern grades.
 
 ## Working thesis
 

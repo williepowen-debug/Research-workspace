@@ -1,5 +1,7 @@
 # BDC Mark Convergence Monitor — Q2-2026 PRE-REGISTERED GRADING CARD
 
+> **Reconciliation October19 — Q2 historical card, not a current X1 grade.** The August23 absolute mark card remains CONFIRM at its own letter. BROCK adjudicated August28 that an absolute card with no manager comparator cannot satisfy the relative wrapper-leads-managers half; X1 remains CLOSED / DON’T-SIZE. Owner packet: `AGENTS/LIQUID/inbox/processed/2026-08-28_from-BROCK_X1-wrapper-half-ADJUDICATED-not-armed-your-card-is-sound-and-cannot-reach-the-threshold.md`. The “arms X1” and “contradictory reads” passages below are the pre-adjudication record, superseded on that interpretation. FSK’s denominator defect is resolved in the grade (Q1 NAV18.83); the reproduced baseline20.89 is the known old error. M3/M4 and ARCC M1 remain ungraded here; no Q3 card or new mark grade is inferred. Current state: STATUS§§1–2.
+
 **Purpose:** Track whether public BDC marks catch down to the mark-vs-price divergence — the specific transmission mechanism between private-credit mark-to-model fiction and public-market price discovery. **This is the LIQUID-domain reflection of the BROCK "wrapper-leads-managers-down" half of the X1 conjunction.**
 **Built:** 2026-04-16 · **Light-populated:** 2026-06-12 (Q1 NAVs) · **★ PRE-REG grading card added:** 2026-07-18 (Sat-eve, PROME Rank-1, Will-approved) for the **7/25-28 → early-Aug Q2 marks window** = NEXUS R3 credit-bifurcation transmission test · **KB:** KB-LIQ-083.
 

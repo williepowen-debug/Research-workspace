@@ -1,4 +1,6 @@
 # T3 / Test A — DECOUPLING DRY-RUN (DOCKET 2026-09-01)
+
+> **Navigation reconciliation October19:** August28 dry-run and co-spec history only. The later registered T3v2 L238 read is INSTRUMENT-FAULT; if missing September22 DXY bar is restored it is VOID, never CONFIRM. STATUS§4 and T3v2_READ_2026-09-23.md final section govern.
 **Run:** 2026-08-28, data through **obs 2026-08-27** · **Owner:** LIQUID (test design) / HENRY (numeric bands, Phase 2) · **Tool:** `scripts/t3_decoupling.py` (built this session, reproducible)
 **⛔ THIS GRADES NOTHING.** Dry-run only, as instructed. No verdict is recorded, no threshold moves, and the 9/1 read is pre-registered below rather than pre-empted.
 
