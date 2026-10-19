@@ -1,0 +1,20 @@
+[
+  {
+    "inventory_at": "2026-10-19T09:00:00-04:00",
+    "launch_at": "2026-10-19T10:00:00-04:00",
+    "receipt_at": "2026-10-19T10:05:00-04:00",
+    "nonpass": true,
+    "expected_nonpass": true,
+    "issues": [
+      "inventory observation predates enumerated touch: 71eeba8193f4de18b777d8d9fd8a778510bd4977bfe74104726c91f502061801; UNKNOWN"
+    ]
+  },
+  {
+    "inventory_at": "2026-10-19T10:01:00-04:00",
+    "launch_at": "2026-10-19T10:00:00-04:00",
+    "receipt_at": "2026-10-19T10:05:00-04:00",
+    "nonpass": false,
+    "expected_nonpass": false,
+    "issues": []
+  }
+]
