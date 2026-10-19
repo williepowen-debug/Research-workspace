@@ -1,6 +1,6 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-19 18:01 ET** (Will-directed after-close cushion study; SIG-W-20261019-018 and whole-inbox intake). Prior boot: October 16. Dashboard prices retain their stated October 14 vintage; no live-price or CRU-11 grade claim. Per-operator detail: `OPERATORS.md`; full study: `research/2026-10-19_cushion/RESULT.md`.*
+*Last updated: **2026-10-19T22:24:44.080353+00:00** (Will coordination clarification and two late peer receipts). Research and dated-price bases unchanged; see `research/2026-10-19_cushion/COORDINATION.md`.*
 
 ## October 19 research finding — cushion survives as a dated contrast
 
@@ -13,7 +13,7 @@
 | **Alternative explanation: demand/execution** | Q2 CC yield RCL +1.2% / NCLH −2.6%; capacity +4.87%/+8.88%; deposit cash build +12.8%/−31.9%. Both groups include premium brands. No causal attribution to financing. KB-CRU-164 |
 | **WALTER window reproduced; CRU-11 OPEN** | September18–October16 RCL +12.97%, NCLH +6.59%, lag −6.38pp. Both rose; that window cannot grade October2–November14. Frozen preceding-session rule implies November13 if normally traded. PREDICTIONS/VX untouched. |
 | **NCLH Q3 date confirmed** | October29 06:30 ET release / 08:30 ET call, primary October15 announcement; CADENCE/watchlist updated. PROME receives existing L714 date-reconciliation ask. KB-CRU-165 |
-| **Coordination / consumption** | Reused HENRY current intake and LIQUID financing study; initial packets c45f20fb9. Live fleet messaging unavailable; durable findings sent, recipient consumption and live closeout handshake UNKNOWN. No new launch, trade, threshold or monitor. |
+| **Coordination / consumption — updated** | HENRY5ca79d333 and LIQUIDbf6ac8f05/CLOSEOUT explicitly consume CRUISE findings. Original HENRY eight-name cohort6474d8726 delivered and consumed by LIQUID. Specific index-up/sector-up repeat-loser workflow acknowledgment still unverified; seven focused packets sent. Native live transport unavailable. `research/2026-10-19_cushion/COORDINATION.md`. |
 
 > ## ⚖️ PRIOR STATE — 2026-10-16 Fri, **D:L712 GRADED + L0 DRAIN.** $0, no trade, no Will-gated level moved.
 > | Item | Done | Receipt |

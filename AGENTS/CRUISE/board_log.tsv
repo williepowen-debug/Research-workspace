@@ -29,3 +29,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-19T22:02:18.703255+00:00	SIG-W-20261019-018	acted	INBOX_WALTER	Primary transaction/operating reconciliation saved; KB160-164/167. CRU-11 not graded.
 2026-10-19T22:02:18.703255+00:00	SIG-W-20261016-033	acted	INBOX_WALTER	Primary release833 read; October29 calendar encoded, KB165.
 2026-10-19T22:02:18.703255+00:00	SIG-W-20261019-003	info-only	INBOX_WALTER	Dated LIQUID owner credit context; KB166, no cruise attribution.
+2026-10-19T22:24:44.080353+00:00	HENRY-20261019-CRUISE-RECEIPT	acted	MANUAL	KB168; committed cohort and specific CRUISE consumption verified; conditional workflow still distinct.
+2026-10-19T22:24:44.080353+00:00	LIQUID-20261019-EXISTING-FINANCING	acted	MANUAL	KB169; actual scoped consumption verified; no independent vote.
