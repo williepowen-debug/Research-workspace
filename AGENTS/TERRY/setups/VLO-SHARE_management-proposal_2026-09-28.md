@@ -1,9 +1,20 @@
 # MANAGEMENT PROPOSAL — VLO ×1 held share — a price rule vs a policy/event rule
 
+**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original-share management; approved wording independently accepted October14 (PROME92ae2b847), latest accepted leg-A observation October15 NOT FIRED/no notice; October16/19 not graded. Total holding3, original-share rule scope1, added-share scope2 UNKNOWN.
+
 > **CURRENT FOLLOW-THROUGH — 2026-10-19T17:32:27-04:00**
 > **October19 scope reconciliation:** Fidelity now shows3VLO shares, exact basis$1,296.73/value$1,299.93. HELD-01 covers the original1share only; the two later shares have UNKNOWN authorization/management scope. The latest added basis is$444.73 DERIVED from$1,296.73−$852.00, not a certified fill. This does not extend the original rule or revive SCALE, which remains TERMINAL. Last accepted leg-A observation is October15 NOT FIRED/no notice on matched December; October16/19 are not graded here. Governing pair throughNovember19 is HOZ26×42−CLZ26 under the existing source/precision letter. No stock-mark proxy, fresh crack grade or B1–B3 policy grade. PROME must route the two-share scope question for Will's ruling; until then no automatic three-share instruction.
 
-**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original-share management; approved wording independently accepted October14 (PROME92ae2b847), latest accepted leg-A observation October15 NOT FIRED/no notice; October16/19 not graded. Total holding3, original-share rule scope1, added-share scope2 UNKNOWN.
+## Added-share scope decision prepared — 2026-10-19T17:44:09-04:00
+
+**Current adopted scope stays original1share; later2 remain UNKNOWN.** Proposed scope-only choice for Will: **A (desk preference)** prospectively apply the existing HELD-01 management letter to both additional held shares, so the same existing evidence/consequence covers all3; **B** retain original1scope and expressly keep the added2 under separate manual management. A requires an explicit Will ruling and PROME registration of exact quantity/effective scope before any three-share consequence. This preparation is not adoption, not retrospective authorization of the unseen purchases, not an add, and not revival of terminal SCALE. Historical original-share observations are not back-applied to the added2.
+
+If A is chosen, retain the complete existing letter's source order, thresholds/ties, missing-data/UNKNOWN bands, matchedDecember window, November18 basis review and suspension afterNovember19 absent successor, B1–B3 meanings and Will-only execution. No threshold, timing, monitor or roll rule is added. Any original-share exit already owed remains owed. Confirm current total holdings/orders and explicitly reconcile any outstanding exit before extending future scope; a later scope decision cannot erase it.
+
+**Risk that travels with the choice:** the October19 supplied total3mark was $1,299.93, versus $433.31 for1. All3 can lose their full contemporaneous value; a management signal is not a guaranteed stop. Scope extension grants no larger loss budget, no new capital approval, and no fiction of3independent $500ideas. The additional shares' buy approval/basis/fill proof remains unresolved whichever scope Will chooses. No new crack/policy grade is claimed in this continuation.
+
+**APPROVAL REQUIRED — Will must approve/reject before any changed management scope or execution. Terry never executes.**
+
 
 > **CURRENT OBSERVATION — 2026-10-15 14:46 ET (TERRY, Claude Opus 5.5): FIRST DECEMBER OBSERVATION, session 10/15, governing `HOZ26×42 − CLZ26` = NOT FIRED, NO NOTICE** on source ③ ESTIMATE **C3 = 98.9213** (two-bar close-VWAP 14:28+14:29: HO 4.6560×783, 4.6498×1136 ⇒ P_HO 4.65233; CL 96.49×3013, 96.46×2434 ⇒ P_CL 96.47659) — **$3.92 above the $95 notice line, $8.76 above $90.16**, outside the ±$0.15 UNKNOWN band. Identity `expireDate` HOZ26 2026-11-30 · CLZ26 2026-11-20. Source ① unreachable; source ② (the 10/15 daily row) not yet finalized at this touch. ⚠️ **The notice line is now ~$4 away** (December runs ~$5–6 below November). No exit, no notice, no order. Next: any touch after 14:31 ET on a later session through 11/19.
 

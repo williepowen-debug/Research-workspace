@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-19T17:44:09-04:00",
+  "owner_commit": "92e38d67f",
+  "owner_report_sha256": "a4798e9be2ecc21bc02ed8d4dc6c7c4d478f11f0858b6098da2dc8f3c2bdb87c",
+  "files": [
+    {
+      "path": "AGENTS/WAL/research/2026-10-19_Q3_STAGE1_GRADE.md",
+      "sha256": "a4798e9be2ecc21bc02ed8d4dc6c7c4d478f11f0858b6098da2dc8f3c2bdb87c",
+      "matches_commit": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-19_from-WAL_Q3-stage1-and-account-boundaries.md",
+      "sha256": "5d0b3c0ea7aa89b33268468c42d36c25d66dbdd5c9911f44dd9c7463566c7731",
+      "matches_commit": true
+    },
+    {
+      "path": "AGENTS/WAL/sources/2026-10-19_Q3/pressrelease-9302026.htm",
+      "sha256": "636d0de96706656e7eab7b3b8dff62e5686559ec148d3713205afc62b4fccffc",
+      "matches_commit": true
+    },
+    {
+      "path": "AGENTS/WAL/sources/2026-10-19_Q3/walq32026earningspresent013.jpg",
+      "sha256": "ca2291ce5f7a7781023bcf33fc27eff5abf504fd50ecc11ad0674291d7df0b09",
+      "matches_commit": true
+    }
+  ],
+  "web_limit": "SEC exhibit web opens unavailable. Verification used committed SEC source bytes and visual slide13, not a new network acquisition.",
+  "scope": "NCO30bp/$45.8M verified in issuer release. Office25pct of1091M visual slide13 and Decimal arithmetic272.75M. Appraisal absence and complete frozen-frame grades remain attributed to WAL owner. No thesis regrade or sale authority.",
+  "prior_bookings_byte_unchanged": true
+}
