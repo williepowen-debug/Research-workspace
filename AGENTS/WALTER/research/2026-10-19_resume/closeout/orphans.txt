@@ -1,26 +1,18 @@
 ⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-19_from-WALTER_morning-resumed-coverage-and-auth.md
      [not yours]    AGENTS/BROCK/inbox/2026-10-19_from-GIBBS_canonical-NDFI-consumed.md
      [not yours]    AGENTS/GIBBS/NEXUS_BRIEF.md
-     [not yours]    AGENTS/HOMER/SCRATCH.md
-     [not yours]    AGENTS/HOMER/STATUS.md
-     [not yours]    AGENTS/HOMER/archive/SCRATCH_2026-10-19_morning.md
-     [not yours]    AGENTS/HOMER/archive/STATUS_2026-10-19_morning-narrative.md
-     [not yours]    AGENTS/HOMER/board_log.tsv
-     [not yours]    AGENTS/HOMER/docket/CATALYSTS.tsv
-     [not yours]    AGENTS/HOMER/registry/corrections_receipts.tsv
-     [not yours]    AGENTS/HOMER/reports/2026-10-19_domain-news-sweep.md
-     [not yours]    AGENTS/HOMER/reports/2026-10-19_sweep_evidence/
-     [not yours]    AGENTS/HOMER/workbook/MULTIFAMILY.tsv
-     [not yours]    AGENTS/HOMER/workbook/PIPELINE.tsv
-     [not yours]    AGENTS/HOMER/workbook/PRICING.tsv
-     [not yours]    AGENTS/HOMER/workbook/RATES.tsv
-     [not yours]    AGENTS/HOMER/workbook/STATE_HSG.tsv
-     [not yours]    AGENTS/LIQUID/research/2026-10-19_sweep/
      [not yours]    AGENTS/NEXUS/BRIEFS_MAP.md
      [not yours]    AGENTS/NEXUS/LAST_COMPLETION.md
      [not yours]    AGENTS/NEXUS/PREDICTIONS_MONITOR.md
      [not yours]    AGENTS/NEXUS/STATUS.md
+     [not yours]    AGENTS/NEXUS/board_log.tsv
      [not yours]    AGENTS/NEXUS/brief_fallback_log.tsv
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261019-003.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261019-008.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261019-009.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261019-010.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261019-011.md
      [not yours]    AGENTS/NEXUS/research/2026-10-08_S1_owner-unconsumed-line_DESIGN.md
      [not yours]    AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md
      [not yours]    AGENTS/NEXUS/research/2026-10-19_WQ459_registration/CALENDAR.json
@@ -29,9 +21,17 @@
      [not yours]    PROME/SCRATCH.md
      [not yours]    PROME/WILL_QUEUE.md
      [not yours]    PROME/inbox/2026-10-19_from-GIBBS_morning-first-owner-PARTIAL.md
+     [not yours]    PROME/inbox/2026-10-19_from-NEXUS_file-audit-receipt.md
      [not yours]    PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md
      [not yours]    PROME/registry/WQ_LEDGER.crc
      [not yours]    PROME/registry/WQ_LEDGER.tsv
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
 
 ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
    Flag to PROME (or Will) rather than sweeping them into your commit.

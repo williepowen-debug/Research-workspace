@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-19T16:34:23Z",
+  "as_of": "2026-10-19T16:42:00Z",
   "tier": "light",
   "selected_check_state": "REVIEW",
   "procedure_completion": "UNVERIFIED \u2014 owner must account for manual duties",
@@ -116,11 +116,11 @@
   },
   "limits": "No fetch or source writes. Local origin can be stale. Advisory findings and manual judgments require review. Conditional flags must match actual work; unselected checks are not passes.",
   "receipt_observation": {
-    "as_of": "2026-10-19T16:33:09Z",
+    "as_of": "2026-10-19T16:41:51Z",
     "origin_ref": "50b7103238ccf225555d6ec1c10d3c53a0205dc9",
     "delivery_scope": "20261019",
     "delivered": 11,
-    "total": 59,
+    "total": 79,
     "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
     "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
   }
