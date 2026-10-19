@@ -3,11 +3,11 @@
 
 ## ★ NEXT SESSION — START HERE
 
-Resume at `reports/2026-10-19_NEXUS-execution-coordination.md` for the current NEXUS/OTTO handoff and WQ459 implementation. The original NEXUS child is archived; use only the independent owner UUID recorded there. Current obligations, ruling states and wake dates live in DOCKET/GATES/WILL_QUEUE below, not in this paragraph. The day’s account is `../memory/2026-10-19.md`.
+Will requested a Light closeout and commit/push before a fresh PROME context. Resume at `reports/2026-10-19_CATO-follow-through.md`: MR1 broker-reconciliation wording is corrected and independently checked; MR2 source-qualified owner returns still need consumption. Existing owner IDs are recorded there—use those windows, never duplicate them.
 
-Earlier permission interruptions and remaining WALTER/GIBBS coverage are in `reports/2026-10-19_morning-boot.md`. Parent Standard closeout/publication remains pending until its own verified delivery receipt. Prior application/resume work created no research-repository résumé artifact; the fellowship factpack is `reports/2026-10-18_fellowship-application-factpack.md`.
+Will confirmed LIQUID, HOMER and WALTER are all open; native reads observed their existing commissioned work. No additional directions were queued before the closeout request. Read their latest artifacts/threads after reboot, then integrate deliveries under DOCKET L746/L725 and WALTER's saved incomplete sweep. NEXUS/OTTO implementation and their next work remain at `reports/2026-10-19_NEXUS-execution-coordination.md`; L11 remains unresolved.
 
-**Prior resumes:** `archive/SCRATCH_ROTATED_2026-10-19_morning.md` preserves older resume blocks as history, not current launch instructions.
+Delivery caveat: earlier PROME/NEXUS commits reached origin through CATO's shared push. The prior Standard committed-content verifier still includes three uncommitted GIBBS-authored packets; do not stage those, alter the control, or advance the ARGUS baseline to erase the discrepancy. Current Light closeout disposition → `reports/2026-10-19_light-closeout.md`. Hosted publication remains unavailable. Earlier resumes are preserved in `archive/SCRATCH_ROTATED_2026-10-19_morning.md`.
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
