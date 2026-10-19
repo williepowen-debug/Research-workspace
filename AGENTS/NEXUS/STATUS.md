@@ -1,145 +1,122 @@
 # NEXUS STATUS
 
-**Updated:** 2026-10-19T10:27:08-04:00 — **October19 morning continuation:** saved research preserved; FRED VIX19.99 [10/16] = M-04 UP1-of-2, no fire; DFII10 cell15 still unpublished at recheck. Split20/47/33 HELD; M-06 number WITHDRAWN; LIQ-07 S2; L708 OTTO outstanding; L11 raw NV. Evidence → `research/2026-10-19_continuation_record.md` (prior synthesis/review linked there).
-**Last full matrix review: 2026-09-29** *(deltas 10/1 · 10/8 · 10/9 · 10/14 re-anchor · **10/15 +10/19 scoped wakes = delta-annotated, not re-swept**)*. 📦 COLD: §A–§H20 · `PREDICTIONS_COLD.md` §P5, §C6.
+**Updated:** 2026-10-19T11:05:25-04:00 — **FULL MATRIX REVIEW completed10/19** under Will's execution commission. Previous full9/29; scoped October deltas reused. All extant briefs read whole by3 fresh-context **gpt-6.1-sol** readers; direct owner evidence and controls → `research/2026-10-19_full_synthesis/RECORD.md`. Older snapshots → STATUS_COLD §H1–H20. No push. **Late annotation1:** OTTO L708 result consumed at closeout; delta-annotated, not re-swept.
+**Frontiers:** FRED rates10/15; credit/VIX10/16; vendor KRE settled10/16. Domain evidence retains dates below. A last owner commit is not a terminal-presence test.
 
-> ## Probability split, 2–6wk: **Break 20% (—) · Grind-lasts 47% (—) · Unresolved-divergence 33% (—)** — re-dated 2026-10-08, HELD 10/14
-> **Falsifier (Disc-J) = DFII10 L13.** L=2.85 [9/24], UP≥2.95×5 / DOWN≤2.75×5; ±6pp Break from/to Grind. Cells13–14=2.84 [10/14] /2.78 [10/15], latest retrieved this morning. **Cell15 [10/16] still not displayed at10/19 recheck. C#1 is arithmetically certain but formal grade/L₂ wait for cell15; no proxy anchor.** Split HELD20/47/33.
-> **Credit leg currently un-falsifiable; binding rider unmet until admission.** Successor v2.1 reviewed; guarded-HY refreshed gate PASS, live32.6/4.7/NV62.8 FAIL robustness. Will chooses instrument/letter/mapping (DOCKET L558); no registration. → `research/2026-10-19_WQ342_review.md`.
-> **PRED-50 CLOSED 10/14 ✅ OBSERVED, FINAL** (n=4 · W=2 · T=0 · F=2; vintage re-pull clean → `PREDICTIONS_COLD.md` §C6). **WQ-341 attribution:** VULCAN's issuer read FAILED the mechanism leg (named AI-disrupted single-B incumbents flat within \|z\| ≤0.3 — 3 of 4 on 9/29, CABO z −1.8 read as issuer-specific; 4 of 4 on 10/7) ⇒ **OBSERVED is in-letter only**; LIQUID's tier read neither shows nor refutes it (the whole ladder repriced by quality). ⚠️ Hatches open: equities stand in for credit; a lagged catch-up is untested. **Root B = CANDIDATE, UNSUPPORTED** (no "non-root" installed); effective-N **1 established + 1 CANDIDATE**. → T-27 · R4 · `research/2026-10-14_pass_record.md` §E.
+> **2–6wk split: Break20% (—) · Grind47% (—) · Unresolved33% (—).** Re-dated10/8, reviewed/HELD10/19; no existing letter fired in this pass.
+> **Disc-J / L13:** L=2.85[9/24]; UP≥2.95×5 / DOWN≤2.75×5, Break±6pp from/toGrind. Cells13–14=2.84[10/14]/2.78[10/15]. **Cell15[10/16] still unpublished at source check; formalC#1 and L2 PENDING.** C scores nothing, not stability. FrozenC#1 allows one reanchor on actualcell15; C#2 terminal. No substituteanchor/thirdwindow. Gatebasis≈5regimeepisodes,leansDOWN;ex2008conditionalratiofails(caveattravels). Precision/tie/actionable-life disclosure owed at actualreanchor → audit.
+> **Credit leg currently un-falsifiable; binding admission rider unmet. WQ459 PENDING.** Reviewedv2.1/10/19grid reused: guardedHY gatePASS; live32.6/4.7/NV62.8 robustnessFAIL. Two post-data designsteps, thin opposingepisodes,10/15 actionablecells, fire-day-onlyCCCguard and sharedHYvote caveats travel. No new registration/consequence without specificWillruling.
 
-**Trading constraint:** no trade rails from NEXUS; positions → `FORGE/STATUS.md` (vintage in its header; expiries = TERRY; orders = Will). **Duration sleeve:** TLT Oct-16 82P CLOSED 10/12 (broker receipt 10/13); **TBT 5 sh: WQ-357's 10/14 clock — no decision recorded at my read** (BOND: exit rec stands, NO-ADD; Will/TERRY); WQ-360 (TLT Dec 77P card) LAPSED 10/14 unapproved. ⚠️ **No level here is a live price.** Credit/rates = **FRED obs 10/13** unless dated. `[10/14c]` = PROME dashboard close (HEARTBEAT #3), not a NEXUS pull. ⛔ Brent: name the month — BZZ26 through Fri 10/30 (LTD, BRENT; corrected from 10/29), BZF27 after.
+**Trading:** NEXUS supplies synthesis; construction=TERRY, orders/approval=Will; broker truth off-repo, mirror→FORGE/STATUS.md. No quote here is a live executable price. No trade proposal or new trade study.
 
----
+## ACTIVE CONVERGENCE MATRIX — all live rows reviewed10/19
 
-## ACTIVE CONVERGENCE MATRIX — full review 9/29 · deltas 10/1, 10/8, 10/9, 10/14 · evidence → §H12–§H20 · roots → `analysis/2026-09-29_one-root-or-many.md`
+`Conf` held unless a frozen letter fires; `Last upd` records material evidence, not only review. Roots/classes/desks are distinct counts. Detailed sources/0b five-case tests → full-synthesis RECORD / SELF_LETTER_AUDIT.
 
-> **Disc-J: every row carries a registered falsifier except M-06 (DEFECTIVE 10/14, below)** (M-08 · M-09 10/1; eight letters 10/8 → `research/2026-10-08_disc-J_letters.md`, ±4pp; anchors logged 10/8–10/9). Numbers move only when a letter fires. **Cells 10/9–10/13: no letter fired** (pass record §C). ⚠️ 0b edge: ICE 10/12 holiday cells (\*) repeat 10/9; the ×2 letters don't exclude a carry-forward — moot this window, declared.
-
-| ID | Convergence | Indep. | Conf % | Δ | Last upd. | State |
+| ID | Convergence | Root / evidence classes / reporting desks | Conf | Δ | Last upd | Evidence, state and existing letter |
 |---|---|---|---:|---|---|---|
-| **M-01** | Substance / tape divergence | High | **60%** | **—** | 10-08 | HELD. HY L = 315 [10/8] → 311 · 311* · **316** [10/9 · 10/12* · 10/13]; ICSA **199K** [w/e 10/10, DOL 10/15; LABOR band B] (w/e 10/3 rev 197 → 198K); CC 1,710K [w/e 10/3]. CPI [BLS 10/14]: headline 3.7% y/y, core +0.3% m/m (→ R5); **real hourly earnings −0.7% y/y.** **Letter: HY ≥350 ×2 with ICSA ≤215K ⇒ +4 · HY ≤280 ×2 OR ICSA ≥230K ×2 ⇒ −4, to 11/05.** Neither. |
-| **M-03** | Duration channel — driver a **SPLIT** | Med — 2 types | **78%** | **—** | 10-08 | HELD. 10Y 5.24 · **5.21** [FRED 10/9 · 10/13] · real 2.88 · 30Y 5.56. CPI day: 10Y +7.3bp, then the long end retraced; ACM term premium −5.1bp 10/9→10/13 (BOND); Oct-28 +25bp ≈36% on a futures proxy [BOND 10/14, not certified] vs hike PM 15.5 / Kalshi 18.0 [ORACLE 10/9]. ⚠️ 3–6Y-only build. **Letter: L = 5.22 ⇒ ≥5.37 ×2 ⇒ +4 · ≤5.07 ×2 ⇒ −4, to 11/05.** Neither. |
-| **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | **10-19** | HELD by its letter. VIXCLS **16.46 ·19.99 [10/15·16 FRED,10/19 recheck]** = UP1-of-2; no completed run. **`RED-FT-10` FIRED 10/14 (SKEW 157.30, 4 of 4) — integrated, Conf held:** RED net-bear 63 → 65 (Managed 27 · Stag 35 · Acute 16 · War 14 · Soft 4 · Rescue 4) [RED STATUS 10/14 23:47]; RED's outcome test VIX ≥20 within 30 obs. Disc-A: index vol rose; gamma sign at a fire remains unverified. ⛔ One SKEW series — one vote. ⚠️ Gamma basis last read POSITIVE [HENRY 10/8 — HENRY dark since] ⇒ read 26% as ~3pp rich. **Letter: VIXCLS ≥18.41 ×2 ⇒ +4 · ≤12.41 ×2 ⇒ −4, to 11/05.** Neither. |
-| **M-05** | WAL/CRE — first bank-tier LEVEL fire | Medium | **48%** | **—** | **10-14** | HELD. **Secondary cause RESOLVED: the $915M RaDD bridge (OZK-identified) was extended 10/9 to Dec 2029 with $100M fresh capital** (OZK 8-K 10/12, primary) — caveats travel: the paydown is re-advanceable, the LTV is as-stabilized, loss recognition UNKNOWN (OZK-09 OPEN). FLG RED, 5 closes below ($11.21 [10/13]) · WAL $72.22 (−2.05%) [10/14c] · OZK $44.93 [10/14c]. **Anchor KRE L = $69.59 [10/8] ⇒ ≤$64.02 ×2 ⇒ +4 · ≥$75.16 ×2 ⇒ −4, to 11/05.** KRE 69.01 · 69.56 · 69.06 [10/9 · 10/12 · 10/13 closes] · 68.54 [10/14c]: neither. |
-| **M-06** | Energy — bypass event REVERSING | R2+R9 | **judgment, no number** | **withdrawn** | **10-19** | ⛔ **LETTER DEFECTIVE 10/14** — BRENT 10/9 (`a16831e82`): no settle source for the 10/8 `BZZ26` anchor ⇒ no resolver (L15 / 0b iii); never graded off a vendor bar (frozen letter: settle ≥L+10% ×2 ⇒ +4 · ≤L−10% ×2 ⇒ −4, to 10/29). **⇒ Disc-J: 41% WITHDRAWN10/19; no new estimate without a valid registered falsifier** (swaps fail — pass record §D; DOCKET L630 idle until then). Evidence: **GFS Pride SANK (MPA 10/14) — the first confirmed sinking; vessel type unconfirmed** (FALCON's loss count — not sinkings — 3 [10/10], unconsumed) · Dhahran: no output loss (ministry); Shedgum gas plant: output effect UNREAD · **IEA OMR 10/14 (Sept): Gulf crude exports 13.9 mb/d (>75% of prewar) vs Middle East products 1.9 of 4.7 — products are the scarce barrels**  · Isaias shut-ins 62.89% → 29.63% [10/8 → 10/12], transient so far. → §E. |
-| **M-07** | Bull-counter tape cluster | Med — ~4 classes | **79%** | **—** | 09-29 | HELD. IG **83** · 83* · 83 [10/9–10/13]; funding SOFR−IORB **−1** · SRF $0 [10/13]; `LIQ-079` NOT ARMED (SOFR99−IORB +8). **Big-bank Q3 benign:** BAC net charge-offs $1.349B vs $1.412B Q2, card 3.22% vs 3.55% [issuer 10/14]. **Letter: IG L = 82 ⇒ ≤71 ×2 ⇒ +4 · ≥93 ×2 ⇒ −4, to 11/05.** Neither. |
-| **M-08** | R3 credit K-split — **BROADENING** | 1 root, multi-instr. | **79%** | **—** | 10-01 | HELD. Letter (10/1): **UP B ≥330 AND CCC ≥1,200 on the SAME 2 cells ⇒ +4 · DOWN B ≤290 ×2 ⇒ −4 · to 10/30.** B 310 · 310* · **317** [10/9 · 10/12* · 10/13] ⇒ 13bp short of UP. **CCC 1,267 [10/13] = new window high (1,229 [10/7] · 1,252 [10/8])**; BB 191 ⇒ CCC−BB **1,076bp** [10/13] vs 1,040 [10/7] (own FRED arithmetic). CCC widens fastest (+38 since 10/7 vs B +9 · BB +2 · IG +1). |
-| **M-09** | AI → capex-correction, CREDIT + POWER faces | R4+R7 — SCORE-ONCE | **69%** | **—** | **10-15** | HELD. **10/15: `LIQ-069` review = FIRED, not released ⇒ DOWN dead; UP only** (LIQUID `analysis/2026-10-15_gate069-review.md`): CRWV CDS ~1,059–1,120bp [DTCC 10/14, model] vs ~840 [10/7]; **L4 FIRED10/14**: CRWV−15.46%, HY316→325 (+9bp), LIQUID10/16; gate count remains2-of-2. VULCAN **15/25** (S5 FIRED 10/9, Firmus IPO pulled; n=1, equity). VULCAN's alternative (not an attribution): AI-infra equities down 10/7–10/8, flat 9/29 → the capex face. Power: **FERC rejected IRAS/BYONC 10/9** (WATT-10 MISS); DOE 202(c) order 10/13–16 (WATT: unread). Letter (10/1): UP +4 if BB ≥220 ×2 by 10/30 (BB 191 [10/13]) · DOWN −4 if `GATE-LIQ-069`'s **10/15** review grades CRWV RELEASED (not released). Neither. |
-| **M-10** | UST foreign-official — counter CONFIRMED | R8 | **25%** | **—** | **10-19** | HELD. **L11 August LT−$4.828B [ZHAO10/16] = raw NO-VERDICT ⇒ hold25**; July/new-letter allowance interpretation unresolved, no inferred terminal MISS or renewed window — one observation with PRED-30, never two votes. ⚠️ ZHAO's ZHA-18 bar is −$5.0B: a print in (−$12.0B, −$5.0B] is a ZHAO YES and my ⚪. |
-| **M-11** | Insurer/PC recognition | Med — guard = ONE vote | **51%** | **—** | 09-02 | HELD. SHADE prior fire PROVISIONAL (DOCKET L673 window); no transfer document. ⛔ The ~$849B PE-life figure is one of three unreconciled perimeters (Moody's $807B · Chicago Fed $849B · MBA $775B) — never sum, never cite alone. **Letter rides PRED-45 (0.1¢ precision): lowest arms-length loan-level transfer ≤90.0¢ ⇒ +4 · 90.1–95.0¢ ⇒ ⚪ · none ≤95.0¢ by 11/20 ⇒ −4.** BROCK count stays 2; Medallia 49.5¢ rows are June-30 MARKS, not transfers. |
+| M-01 | Substance/tape divergence |R1/candidateR3;2 classes(market/labor);LABOR,CARL,LIQUID,RED |60%|—|10-19|HY325/323/**331bp**[10/14–16,FRED first-published]; claims**199K**[w/e10/10,DOL firstprint viaLABOR10/15]. Low-fire/low-hire persists. **UP HY≥350×2 with latestclaims≤215K; DOWN HY≤280×2 OR claims≥230K×2 weekly;±4pp,to11/5. Neither.**|
+| M-03 | Duration channel, driver SPLIT |R1;1 repricingclass;BOND,HENRY |78%|—|10-19|DGS10**5.19→5.10%**[10/14–15]; DFII10**2.84→2.78**. BOND10/15: CPIclosedbullflattener; PPIrallyprecededprint, mostlyhaven/termpremium versuspath. ACM10Y0.8086%[10/14],−4.3bpday; models/windowsdistinct. **Letter5.37×2 UP/5.07×2 DOWN,±4pp,to11/5. Neither.**|
+| M-04 | Vol/gamma crack candidate |R1/R7 possible;1 repricingclass;RED,VIOLET,HENRY |26%|—|10-19|VIX**16.46→19.99**[10/15–16,FRED Cboeclose] = **UP1-of-2**. SKEW157.30[10/14],FT10FIRED(owner); currentcashcurve/gamma not refreshed. HENRY10/8positivegamma expiredatthatopen; currentmechanismUNKNOWN. **VIX≥18.41×2 UP/≤12.41×2 DOWN,±4pp,to11/5;notfired.**|
+| M-05 | Named-regional/CRE level fire |R10/R1;2 classes(filing/market);REGINALD,WAL,OZK |48%|—|10-19|KRE**69.75/69.81**[10/15–16,vendorclosedbars],currentdayexcluded. CFGQ3**INCONCLUSIVE**; FLGownerREDthrough10/13,notnewgrade. RaDDextendedDec2029,+100Mcapital; paydownre-advanceable/lossrecognitionUNKNOWN. WALowner:no demonstratedexpectationsgap. **KRE≤64.02×2 UP/≥75.16×2 DOWN,±4pp,to11/5. Neither.**|
+| M-06 | Energy: products scarce, crude recovering |R2/R9;3 classes(two physicaltheaters/monthlyflow);BRENT,FALCON,OSPREY,YURI |judgment,no number|withdrawn|10-19|**41% WITHDRAWN10/19; letterDEFECTIVE**, no10/8BZZ26settlesource; no replacement. FALCON5losses/marks1/14/85HELD[10/14], qualifiedcrude-productionrungnotfired. IEASeptGulfcrude13.9mb/d,+4.4m/m; MiddleEastproducts1.9vs4.7prewar(BRENT10/14). ActualincrementaldieselUNKNOWN. L630cue=PROME.|
+| M-07 | Bull counterevidence |R1/candidateR3;2 classes(market/filings);LIQUID,REGINALD,GIBBS |79%|—|10-19|IG**85bp**[10/16,FRED]; fundingorderly[10/15]; **LIQ07S2**, reserve-loopnegativeonly. BACNCO1.349Bvs1.412BQ2[issuer10/14]; CFGNCO37bpstable[10/16]. GIBBSpartial,notindustryclearance. **IG≤71×2 UP/≥93×2 DOWN,±4pp,to11/5. Neither.**|
+| M-08 | Credit K-split, some broadening |candidateR3;1 repricingclass;LIQUID,BROCK,RED,REGINALD |79%|—|10-19|B**326→335**,CCC**1278→1297bp**[10/15–16]; CCC−BB**1094bp**[10/16,arithmetic]. **UP B≥330 AND CCC≥1200 same2cells; DOWN B≤290×2;±4pp,to10/30. UP1-of-2**, notfired. Cause not establishedbyqualityladder.|
+| M-09 | AI financing + power pressure |R4/R7;3 classes(filing/market/operator);VULCAN,LIQUID,WATT,SHADE |69%|—|10-19|VULCAN**15/25**[10/16]; Firmusn1equitywithdrawal; VoltaNOTREDreadingA,WQ441baselinepending(owner). CRWV15.83%YTWfund-eval/CDSmodel,notnewissue. WATT**16/20,P1=5**[10/15],fifthemergency,hedgedshareUNKNOWN;no demonstratedcapexcut/firmcapacityremoval. **BB≥220×2 UP**(203[10/16]); DOWNLIQ069RELEASEDat10/15reviewdead(notRELEASED),±4pp,to10/30. Held.|
+| M-10 | Foreign-official UST counter |R8;1 TICclass;ZHAO,LIQUID |25%|—|10-19|AugustChinaLT**−4.828B**,holdings590.7B;−12.25BLTresidualUNKNOWN[ZHAO10/16]. **L11rawNV**,July/newallowanceinterpretation=PROME;noMISS/renewal. All-countryofficialcoupons+18.1B,officialTreasurytotal−24.1Bincludesbills−42.2B;do not fuse. L11HIT≤−12/MISS≥−3B maps±4pp;rawNVholds.|
+| M-11 | Insurer/PC recognition |R10;2 classes(filing/market);SHADE,BROCK |51%|—|10-19|SHADE**10/15prospectivetestNOTMET**(wrappers−5.44%,managers−6.20%RAW);10/10firePROVISIONAL. AHLguaranteebaseUNKNOWN,no realizedloss. PE-life807/849/775B are unreconciledperimeters,neversum. **Loantransfer≤90.0c UP;90.1–95NV;none≤95by11/20 DOWN,±4pp.** No qualifiednewtransfer established;notsearch-wideabsence.|
 
-\* 10/12 = bond-market holiday carry-forward.
+## ANTECEDENT MAP — current causes, not automatic break votes
 
----
+**Systemic repricing perimeter:** **1 established rates-related root +1 CANDIDATE,UNSUPPORTED creditcause** remains(WQ340/PRED50). **1 market-repricingclass across7 desks**(BOND,HENRY,LIQUID,RED,REGINALD,BROCK,VIOLET),not7votes. Officialreleases,issuerfilings and physicaloperations are distinctcontextclasses; no extra broad-breakvote just because they exist. Widercausesbelow remain separatelynamed.
 
-## ANTECEDENT MAP — compact root states (Disc-F) · 10/14 · evidence prose → §H12–§H20 · roots → `analysis/2026-09-29_one-root-or-many.md`
-
-| Root | State · next resolver |
+| Root | State / next resolver |
 |---|---|
-| **R1 USD/Fed** | 🔴 Levels → M-03. CPI 10/14 firmed the path (futures proxy ~36% for 10/28 [BOND, not certified]) while the long end retraced; T10YIE 2.35 · T5YIFR 2.34 [FRED 10/14]. ⚠️ No desk-owned FedWatch/OIS table; **HENRY dark since 10/8 (no post-CPI policy read).** Resolvers → docket. |
-| **R2 Iran/Hormuz** | First confirmed sinking (M-06); IRGC 10/12 claim unverified; Sohar drone hit; airports hit 10/8, 10/10. FALCON B 1 / C 14 / D 85 [10/10], **dark since 10/10, 12 signals unconsumed, 10/14 review not on disk.** Corridor window to 10/26 (Rezaei 10/11: US rejected joint management). |
-| **R9 Russia/Ukraine** | OFAC GL 135 licenses Russian diesel to 2027-04-07; Russia's partial export permission 500 kt from 10/10 (YURI, primary) — delivered increment UNKNOWN; ban to 10/31; OSPREY C2 KILLED 10/9; YUR-004 next 10/16. |
-| **R3 Credit fundamental** | Levels [10/13] → M-08 / thresholds. CCC new high, B +7 on 10/13, IG flat, funding orderly. `LIQ-07` **RESOLVED-S2 on both lists [LIQUID10/16]**: no reserve-channel loop observed; other funding channels outside test. Big-bank Q3 benign; JPM/WFC/C reserve builds carry NO private-credit attribution (BROCK BRK-31 OPEN). **DOCKET L708 (2 of 3 legs, OTTO 10/19; PENDING):** H1 consumer — CARL **MIXED** (0 of 5 names), LIQUID NO_INSTRUMENT · H3 rebalance NOT SUPPORTED, migration excluded, few-names NO_INSTRUMENT · CCC excess over B-beta **+66.9bp, 7/7** ⇒ not beta, not plumbing. ⚠️ My ladder returns MIXED ~99.8% under noise ⇒ MIXED = no support, absence uncertified. → `research/2026-10-15_L708_consumption.md`. |
-| **R4 AI — TWO FACES** | Capex: VULCAN 15/25, S5 fired 10/9 (M-09). **Disruption (Root B): CANDIDATE, UNSUPPORTED — VULCAN's issuer read failed the mechanism; LIQUID's tier read neither shows nor refutes (10/9); hatches: credit instruments unread, lagged catch-up untested.** No face installed. |
-| **R6 Japan/BOJ** | USDJPY 158.246 [10/9 close, SAM provisional] = fourth (non-consecutive) close above the 158.054 rate-check high, no intervention; BOJ Dec 80% / Oct 10% [Totan 10/9; 25bp-equivalents]; MPM 10/29–30. SAM dark since 10/9. |
-| **R7 Concentration** | Mag-7 34.75% · breadth −3.44pp [VULCAN 10/8, YELLOW]. |
-| **R8 Foreign-official UST** | August LT China−$4.828B [ZHAO10/16] ⇒ raw NV (L11/M-10). Official coupons+$18.1B all-country; no China-official decomposition inferred. |
-| **R10 Recognition-perimeter** | RaDD EXTENDED (M-05) · FLG RED 5 closes · SHADE fire PROVISIONAL · Pembroke Lakes Mall $260M CMBS: WALTER files only, unowned. |
-| **R11 China · R12 European rivers** | Construction PMI 50.3 (ZHAO V5 5→4); auto retail −28% y/y (MIDAS; China antecedent counted once); Plenum 10/26–29; 11/10 clocks. Rhine below record low 22 days (AEOLUS 10/10). |
-| *R5 (energy→CPI→Fed)* | Not a root on this board. **CPI 10/14 is the test case:** gasoline (+9.1% m/m) carried over half of the +0.6% m/m HEADLINE — a pass-through to headline, not core; core +0.3% rose on non-energy items (shelter +0.4; RED reading BLS) and RED's oil→core leg was NOT MET. Not yet a breakeven move (T10YIE 2.35, under the 2.40 re-open line). |
+|R1 USD/rates|LEVELhigh,latestlongendrallycounterevidence. BOND10/15hazard: havenFLOW resemblesbuybackFLOW; causeunresolved. ORACLE10/16Octoberhike12.5PM/16Kalshi is dated,instrumentsdiffer;HENRYlatest10/8,no currentgamma/policyboard. FOMC10/27–28.|
+|R2 Iran/Hormuz|FALCON10/14B1/C14/D85HELD; ship-loss5,totalinstrumentnotsolelysinkings. GFSPridetypecontainerconfirmed; CapeDaosinkingdateunstated. Productionrungnotfired;no measurednewnetcrudelosstotal. Next10/21review/11/5FAL06.|
+|R9 Russia/products|OSPREY10/18:C2crude-exportKILLED10/9,dormantarmed/voidonbackfill;C1refinerylive. Ryazan10/15anchor⇒earliest14daylimb10/29;L71810/23notearlygrade. Capacity≠barrels. YURI10/12:500ktpermission,deliveryunknown;producerban10/31,broaderbanJan31.|
+|R3 credit fundamental|HY331gives325/323/331>320×3 numerically;REGINALDsavedowner2-of-3,nextgradeowed. BANK-ABSENTthrough10/15only. LIQ07S2excludesreserve-channeltest;otherchannelsunseen. L708consumerCARLMIXED(~99.8%noise),LIQUIDNO_INSTRUMENT;OTTONO_INSTRUMENT[strictn0,a95429b7c10/19];supplementaryMIXEDnotformal.|
+|R4 AI, two faces|Financingriskobserved;capexstillraised/no provencontractcut. DisruptionRootB**CANDIDATE,UNSUPPORTED**:VULCANissuerreadfailedmechanism;LIQUIDtierreadneithershowsnorrefutes. Equityproxy/laghatchesremain. AIpowerdemandsharesroot;plannedoutagesaresupplycause,notdemandproof.|
+|R6 Japan|SAM10/15:USDJPY158.054[10/14]tiesthecheckhigh;JGB10Y3.015/30Y4.072[10/14]orderlyretreat. No newcarryunwindvote. TotanOct6/Dec82=25bpequivalents,sourceageexpired10/18;nextBOJ10/29–30.|
+|R7 concentration|Mag734.5986%,breadth−2.83pp[holdings10/15,VULCAN10/16],YELLOW;predates10/16selloff. SharedAI/marketantecedents,notnewindependentbreakvote.|
+|R8 foreign official|Augustcouponsboughtwhilebills sold(allcountry);ChinaLTsalehalvesagain. Levelresidualnottransactionproof. L11interpretationpending;ChinaUSDexitureasonnotrestored.|
+|R10 recognition/CRE|RaDDmaturitycountercase;CFGQ3inconclusive;BROCK5/11banksread,noqualifyingNDFIfire. TreppSeptMF8.04%,SS8.54%;GSEAugFreddie0.64↑/Fannie0.57↓,differentbooks. BankQ3/11/7CRbreadthtestnext;Q2concentrationnotfreshQ3census.|
+|R11 China|ZHAOconstruction50.3forcedV5down,total28/60[10/9];weakorders/employmentremain. MIDAS8/20[10/13],Pd/silversinglesupplystoriesweakened. Two11/10controlclocks;operatingmagnitudeUNKNOWN.|
+|R12 European rivers|AEOLUS10/10Rhinefiredthrough10/9;notrefreshedafter10/15CPC/WSRdates. Physicalfreightrisk,notobservedbank/fundingtransmission.|
+|Climate/power context|IsaiasCat2,majorthresholdnotfired;CORALstormruleS2notmet[10/15]. WATTfifthemergencyat~108GWload/~61GWoffline;P1refired10/13,supply/maintenance,notheat. Clear-dayretest≥10/22;backup-useafter10/13UNKNOWN.|
+|R5 derived, not newroot|Gasoline+9.1%m/mcarried>halfSeptemberheadlineCPI;notcorecausation. Corehot/RED-FT08fired;oil→corelegNOTMET. PPIhot,butlongbondrallyprecededrelease(BOND10/15). Powerprice→invoice→AIearningsunmeasured;noindependentinflationspiralvote.|
 
-**C1 — count-once:** ONE R1 root (L13 + M-03 letters) · ONE HY series, five desks · ONE B series (M-08 = LIQ-07) · ONE CPI print — RED · MARCO graded, ORACLE · CARL owe · ONE 10Y move behind BROCK's duration rung AND HOMER's mortgage HOLD · ONE SKEW series (FT-10 = M-04 evidence). **C2:** Fed + BOJ + Treasury = ONE policy vote. **C3 — effective-N:** **1 established + 1 CANDIDATE (unsupported)**.
+## TRANSMISSION CHAIN
 
----
+| Link | Evidence / status / next observation |
+|---|---|
+|LABOR→CARL|**SOFTENING,NOTBROKEN.** Claims199K[10/10],LABOR26/75[10/15],positiveJOLTSNET counter layoffs. CARLconcentratedcredit/affordabilitystrain,notbroadspendingcollapse. Realwage−0.7%y/y[CPI10/14]same-deflatorobservation. Nextclaims10/22/issuerQ3.|
+|CARL→REGINALD|**Named stress, broad bank loss unconfirmed.** ConsumerABS/CREvslarge-bankNCOs measuredifferentpopulations. CFGINCONCLUSIVE,cheapdepositsnotfalling;FHLB+32%oneleg. GIBBS52slots/15observations/37pending. NextWAL/OZK/BKUandNDFI10Qs.|
+|REGINALD→repricing|**BroadHYsustainnowobservable;bankcausestillunconfirmed.** >320×3FREDdatedcells;owner2-of-3receiptneedsupdate;BANK-ABSENT[10/13–15]notextended. KRE69.81[10/16],noNEXUSbankletterfire.|
+|Credit→vol/funding|**Volfollowsoneclose;measuredfundinglegstops.** VIX19.99[10/16],M04UP1-of-2;datedVIOLETcurve10/14notfreshinversionproof. LIQ07S2,IG85[10/16],SOFR−IORB−1[10/15]. Haircuts/redemptions/term/offshoreoutsideS2.|
+|Energy/power→inflation/AI|**Inputpressureobserved,financialconsequencepartlymissing.** Productscarcityvscruderecovery;PJMoperatorstresswithoutqualifiedcurtailment. Bills/hedges/issuerunitavailability/earningsunknown;permission≠dieseldelivery.|
 
-## TRANSMISSION CHAIN (10/14) · full text → §H12–§H20
+## CONTRADICTIONS / TENSIONS
 
-| Link | Status | Verified |
+| ID | Type | Current state / resolver |
 |---|---|---|
-| **LABOR → CARL** — no labor print since NFP +29K [BLS 10/2]; claims 199K [w/e 10/10, DOL 10/15]; **real hourly earnings −0.7% y/y [BLS 10/14]** (not a matched panel). LABOR dark since 10/8. | 🟡 **SOFTENING, NOT BROKEN** — real-wage squeeze added | 10-14 |
-| **CARL → REGINALD** — big-bank Q3 benign (BAC NCOs and card NCOs down); CARL last 10/12 (V16 C, 53/70), has not read Q3 or CPI. | 🟠 **FIRING bottom-tier, BENIGN broad** | 10-14 |
-| **REGINALD → repricing** — named-regional tail: FLG RED 5 closes; WAL −2.05% [10/14c]; KRE 68.54 [10/14c]; OZK's RaDD maturity extended (loss recognition UNKNOWN). REGINALD 10/14: severity CONCENTRATED, not tier-wide (3 of 14 elevated). Bank-equity-leads-credit: still untested. | 🟠 **LEVEL at named names** | 10-14 |
+|T-01|R|HYsustain/CCC1297/VIX19.99 vsIG85,orderlyfunding,claims199K,BACNCOdecline. Broadstressnotjointlyconfirmed. NextpublishedVIX/B/CCC/IG +bankQ3.|
+|T-26|R/T|HotCPI/PPIvsreal-ledlongendrally. BOND:CPIclose5.19/2.84;PPIrallyovernight. FLOWshapeinsufficienttoidentifybuybackvs haven. BONDmodel/auctionreadnext.|
+|T-27|R|AI-disruptioncauseunsupported;PRED50OBSERVEDin-letteronly. ConsumerL708also unsupported;OTTOformalNO_INSTRUMENT10/19;equitysupplementMIXED,noabsenceclaim. Primarycreditissuance/demandcounterevidencepreserved.|
+|T-30|R|Primarycredit11.044BWednesday10/14/11.312Bavg[LIQUID10/16];thirdweeklyrise,borrowersunnamed/noattribution/no threshold. S2notblanketfundingclearance.|
+|T-10|R/T|MatchedCMEfinaldieselcracksNov104.63/Dec99.79[10/12,BRENT];Decembergovernsfrom10/15(TERRY). Notalaterholdinggrade/currentcapturedmargin.|
+|T-11/T-12|closed|FERCIRAScoreREJECTED10/9(WATT10MISS);T12oldclauseEXHAUSTED. L13successorformalgradependingpublication,notoldT12revival.|
+|T-15|R/T|CRMTbridge7→10/22,no permanentwaiver/deal[BROCK10/15];L740STD/L741backstop10/28. PCconsumerjoinlive,notfraudcase.|
+|T-18/T-20/T-22/T-24/T-29|carry|T18source-artifacts10+#11–14 unchanged;T20transitcontrolmissing(L12);T22notfired;T24no3-legconfirmation;T29qualifiedcrudelosssourceabsent[FALCON10/14],notgas-plant/HQheatproxy. Details→STATUS_COLD§H16;nextownerreadswake.|
+|T-21/T-23|closed|Closedstatesretained;no newfindingreopens them. C36LEVEL/SPLITunchanged.|
 
-**Verdict:** head softer (real wages falling), middle benign at the large banks, tail at named regionals and in CCC. The regional Q3 prints (CFG 10/16 → WAL 10/19 → OZK 10/20) are the chain's next test.
+## THRESHOLD PROXIMITY — source frontiers above; never another desk's owner grade
 
----
-
-## CONTRADICTIONS / TENSIONS · evidence → §H4/§H12–§H20
-
-| ID | T | Live state + resolution path |
+### BREACHED / existing owner fires
+| Line | Dated mark | Interpretation |
 |---|---|---|
-| **T-01** | R | Bear: CCC 1,267 high · `RED-FT-10` FIRED · `RED-FT-08` FIRED · CPI headline 3.7% (= real wages −0.7% y/y — one datum, RED) · first confirmed sinking · FLG RED. Tape: HY 316 · IG 83 · funding −1bp · big-bank NCOs improving · VIX 16.87 [10/14c]. → 10/15–16 · 10/19–20. |
-| **T-26** | R | Two windows, not one move: pre-CPI (10/9→10/13, ACM) term premium −5.1bp, risk-neutral +1.4; CPI day the path firmed (+25bp proxy ~22% prior bar → ~36% [BOND, not certified]) while the long end retraced. BOND's 10/14 ACM read decides whether the path carried any level. |
-| **T-27** | R | **Root B — VULCAN's issuer read failed the mechanism leg; LIQUID's tier read neither shows nor refutes** (10/9; split block above). Reopens on a credit-instrument read (TRACE/CDS) of the named issuers or a lagged-equity test. Unowned until someone can reach those instruments. **10/15 (L708, LIQUID): H2 — VULCAN's 4 CCC names — MIXED (equity); CoreWeave's 10/14 repricing is forward-only evidence (M-09).** |
-| **T-30** | R | **Funding tell:** primary credit **$11.044B Wednesday10/14 /$11.312B weekly avg**, LIQUID10/16 H.4.1. Third weekly rise; borrowers unnamed, precaution versus need unknown; no threshold. **LIQ-07 S2** on both lists: reserve-loop absence observed only. |
-| **T-10 · T-11 · T-12 · T-15 · T-18 · T-20–T-24 · T-29** | R/T | **→ §H16; live states:** T-10 diesel cracks Nov / Dec **104.63 / 99.79** [CME final 10/12] — Dec $4.79 above the $95 line, December governs from 10/15 (TERRY) · **T-11 RESOLVED 10/9 (FERC rejected IRAS; WATT-10 MISS)** · T-12 🔒 CLOSED · T-15 CRMT **bridge7→10/22**, no deal/waiver (BROCK8-K0001171843-26-006667; next L74010/22,L74110/28) · T-18 artifacts 10 + #11–14 · T-20 no control (L12) · T-21/T-23 CLOSED · T-22 not fired · T-24 0/3 · T-29 Khurais/Ghawar: no confirmed crude loss (FALCON 10/10); resolves at an Aramco statement. |
+|HY>320×3 sharedline|325/323/331bp[10/14–16,FREDfirstpublished]|Numericalsustainmet;REGINALDowner2-of-3[10/16],RED/LIQUIDearlierfrontiers;formalownerwritebackpending. Notbanktransmission.|
+|VIXboard≥18|19.99[10/16,FREDclose]|Levelbreached;M04≥18.41×2still1-of-2.|
+|RED-FT08 / FT10|core3mo3.25%;SKEW157.30×4[10/14,RED]|BothownerFIRED;netbear65lastread10/15. NoNEXUSre-mark;RED'sS1+discountconditionalnotmetonS2.|
+|LIQ07 / LIQ069|S2[10/16];0692-of-2,L4FIRED10/14|OneB/HYseries,repeatedsurfacesnotnewvotes;069notRELEASED.|
+|CCC>1100 / B>300|1297/335bp[10/16,FRED]|Levelsmet;M08same2cellconditionnotyetmet.|
+|Real10Y≥2.50|2.78%[10/15,FRED]|Levelhigh;L13relative±10bp×5notfired. BONDNO-ADDunchanged.|
+|FLGRED / PJM P1|FLG5closesbelowthrough10/13[REGINALD];P1FIRED10/13[WATT]|Namedbankladdervsgridoperatorstate,differentroots;no automaticjointseverity.|
+|BOND3–6Yoldkill / Rhine|BONDone-shotMET10/1(asof9/23);RhineFIREDthrough10/9|Datedownerstates,notfreshprintstoday.|
 
----
-
-## THRESHOLD PROXIMITY · 10/14 (FRED obs 10/13 unless dated)
-
-### BREACHED
-| Threshold | Mark | Source | Read |
-|---|---:|---|---|
-| **`RED-FT-08` core 3-mo ≥3.0** | 3.2 (0.2/0.3/0.3, Table A) [BLS 10/14] | RED | **FIRED — RED S52 `b79c04c9a` 10/14 20:23: net-bear 60 → 63.** Oil→core leg (CHG-028) NOT MET (airfares +1.159% vs 2.35%) ⇒ core is hot, no pass-through claim; REALIZED foreclosed for 11/10 (RED). |
-| **`RED-FT-10` SKEW ≥150 ×4** | 157.30 [Cboe 10/14] = 4 of 4 | RED | **FIRED — RED S52b `c9fe1073d`: Acute +2 / Managed −2, net-bear 63 → 65.** Exit <140 ×4. M-04 evidence; Conf held (letter = VIXCLS). |
-| **VIX ≥18** (board line; M-04 letter18.41×2) | **19.99 [10/16]** | FRED VIXCLS,10/19 | Board level breached; M-04 UP1-of-2, **not fired**. |
-| **BOND Sept-4 kill — FR2004 3–6Y ≥$56.586B** | MET 10/1 on the 9/23 print (one-shot); 9/30 print $52.885B, below | BOND | Sleeve → trading line. |
-| **`LIQ-07` SPREAD-B ×3** | 3 of 3 [9/30] | LIQUID | **RESOLVED-S2 [LIQUID10/16]**, both lists; no reserve-channel loop observed. Same B series as M-08. |
-| **HENRY 30Y >5.50 RED · `DGS10` >5.00 · `DFII10` ≥2.50** | 5.56 · 5.21 · 2.88 | FRED | ⛔ NO ADD to the duration sleeve (BOND's WQ-280 rule). |
-| **HY ≥280 ×3 (FT-01 EXIT)** | 316 | FRED | One series, five desks. |
-| **CCC >1,100 · B >300** | 1,267 · 317 | FRED | CCC new window high. |
-| **FLG `VX-REG-6.03` RED · OZK <$45** | $11.21 [10/13] · $44.93 [10/14c] | REGINALD/OZK | Owner-graded; FLG 5 closes below. |
-| **BOND 3Y I-prime · `LIQ-069` · BOJ hike · Rhine C5 · PJM** | as owners [≤10/13] | owners | → §H16. `LIQ-069` 2 of 2 fired, review 10/15. |
-
-### PROXIMATE (within ~20%)
-| Threshold | Mark | Dist. | Read |
-|---|---:|---:|---|
-| 🔴 **HY >320 ×3 (`RED-FT-02` · `REG-T-03`)** | 316 | **4bp** | 0 of 3. The 10/14 cell (unpublished 10:08 ET 10/15) also decides `LIQ-069` L4 (≥321) — one series, one observation. |
-| **`T10YIE` >2.40 (FRED cell, ×1)** | 2.35 [10/14] | 5bp | Breakevens joining ⇒ re-attribute to an inflation scare (R5). |
-| **M-08 UP B ≥330 + CCC ≥1,200 ×2** | 317 · 1,267 | 13bp · met | — |
-| **IG >94 (`GATE-LIQ-072`)** | 83 | 11bp | A LEVEL, not a cause test. |
-| **T5YIFR ≥2.50 (BOND line, ×1)** | 2.34 [10/14] | 16bp | Same read as `T10YIE`. |
-| **M-08 DOWN B ≤290 ×2** | 317 | 27bp | −4 on M-08. |
-| **BB ≥220 (M-09 UP)** | 191 | 29bp | — |
-
-### NOT CONFIRMING
-**HY <260 kill** (316, 56bp away) · L13 UP/DOWN `DFII10` ×5 (2.88: DEAD this window, C#1 on 10/19) · funding (SOFR−IORB −1, SRF $0 [10/13]) · KRE <65 (68.54 [10/14c]) · claims ≤185K ×5 (199K [w/e 10/10]) · `LIQ-079` NOT ARMED · `LIQ-076` INSTRUMENT-FAULT (CFTC HTTP 403, 10/14; review 10/30) · FERT G5 (owner-graded) · JGB disorder (RED CH-009 DISMISSED) · MOF intervention (¥0 to 9/28) · T-24.
-
-**Cluster verdict (10/14, before the scoped VIX update above):** 🟠 **CCC widens fastest — 1,229 → 1,267 [10/7 → 10/13], a window high (B +9, BB +2) — while IG holds 83 and funding stays orderly; tails are bought (`RED-FT-10` FIRED) under a VIX only now lifting (16.87 [10/14c]); CPI firmed the path, not breakevens. Still stopped at FUNDING, IG and INDEX VOL. Next: HY 320 ×3 (4bp) · T10YIE 2.40 (5bp) · discount window 10/15 · `LIQ-07` 10/16.**
-
----
-
-## CATALYST DOCKET
-
-| Date | Event | Status |
+### PROXIMATE / one observation short
+| Existing test | Dated mark | Distance / next |
 |---|---|---|
-| ✅ **10-09 → 10-14** | CONSUMED — PRED-50 · WQ-341 reads · RaDD · Isaias · FERC IRAS · bank Q3 (10/13–14) · CPI · IEA OMR · GFS Pride · **DOCKET L554 (10/13) MISSED, run 10/14** · S1 corrections (DOCKET L639). | ✅ |
-| **10-15 →10-16** | **Consumed10/19:** PPI relay context; LIQ-07 S2 final; T-30 primary credit$11.044B; T-15 bridge7→10/22;10/14–15 FRED cells; August TIC raw NV. **Deferred owner/event reads:** CFG Q3, FR2004, WPSR, YUR-004; no grade claimed here. Option records belong Will/TERRY. | PARTIAL |
-| **10-19 → 10-30** | **Mon10/19: L13 formal C#1/L₂ awaits publication; L558 decision-ready, Will-gated; L708 OTTO missing; M-06 number withdrawn; WQ401 APPROVED→PROME L730 build, acceptance read later** · WAL AMC 10/19 · OZK AMC 10/20 · Tue 10/20 DOCKET L554 wake (PROME re-dates) · 10/21 20Y-R · ≥10/27 rollup #6 (DOCKET L555) · 10/26–29 Plenum · 10/27–28 FOMC · ~10/28 hyperscalers · 10/28 UK Budget · 10/29 M-06 window end (DOCKET L630; DEFECTIVE) · 10/29–30 BOJ · **10/30 M-08 + M-09 windows close (DOCKET L573)** · 10/31 Russian diesel ban end. | FWD |
-| **Nov** | **11/05 letters M-01/03/04/05/07 end (DOCKET L631)** · FAL-06 · 11/4 QRA · **11/10 PRED-38 (DOCKET L572)** + Oct CPI (FT-08 composition) + two China clocks · ~early Nov HHDC (PRED-41, DOCKET L575) · 11/15 SHADE/DLIC Q3 · **11/20 PRED-45 + M-11 (DOCKET L574/L632).** | FWD |
+|M08UP B≥330+CCC≥1200×2|335/1297[10/16]|1-of-2;nextpublishedsame-datepair.|
+|M04UP VIX≥18.41×2|19.99[10/16]|1-of-2;10/19closewhenpublished,norelay/intraday.|
+|M03DOWN DGS10≤5.07×2|5.10[10/15]|3bpabove;needs2observations.|
+|M07DOWN IG≥93×2 / LIQ072strict>94|85[10/16]|8bp/10bptoqualify;distinctoperators.|
+|M01UP HY≥350×2|331[10/16]|19bp;claimsconditionalso required.|
+|M09UP BB≥220×2|203[10/16]|17bp,notfired.|
+|Breakevenreopen>2.40|2.35[10/14,BOND/FRED]|5bp,dated. Latestnominal−real2.32[10/15]isderived,not substitutedseriesgrade.|
 
----
+### NOT CONFIRMING / unavailable
+HY<260kill(331,71bpaway) · M08B≤290(45bp) · KRE≤64.02/≥75.16(69.81[10/16]) · LIQ079NOTARMED[10/15,+7bp99thvs30] · LIQ076INSTRUMENT-FAULT[10/14] · LIQ07reservecouplingnotobserved · M06DEFECTIVE/withdrawn · L13formalgrade/L2publicationPENDING · FERTG5owner-gradeunchanged · nofreshJGBdisorder/MOFinterventiongrade.
+
+## CATALYST DOCKET — observation date is not always publication/grade date
+
+| Date | Event / current ownership |
+|---|---|
+|10/19–20|**L554Tue10/20:** DFII10cell15formalgrade/reanchorifpublished;M04nextVIXclose;M08nextB/CCCpair. **WQ459specificrulingPENDING;L708threelegsconsumed,closure=PROME;L11interpretation=PROME.** WALAMC10/19/call10/20;OZKAMC10/20/call10/21. HOMERNAHBL725ownerresultpending;GIBBSCOF10/20.|
+|10/21–23|BOND20Y10/21;bankQ3EGBN/BKU/SSB;WATTP1earliestclear-dayretest≥10/22(orderlapse/renewalcheck);CRMTSTD10/22;FALCON10/21review;CORALMSI10/22;LIQUID/REGINALDHYownerwritebacksowed;no newcommission.|
+|10/27|**L555brief-healthrollup**;L554recurringTuesdaywake(PROMEredates). Fullcensustodaydoesnotpullrollupforward.|
+|10/26–31|Plenum10/26–29;FOMC10/27–28;hyperscalersownercalendar;UKBudget10/28;**M06formerend10/29=L630dispositioncuecorrectedinPROMEworkingtree,persistenceunverified**;BOJ10/29–30;**L573M08/M09end10/30**;Russianproducerban10/31(broaderrestrictionJan31).|
+|11/05|**L631M01/03/04/05/07windowsend**;gradeonlyafterfinaldatedcellpublishes. FAL06ownersearch11/5;FFIECJWTexpiry11/5/CRbreadthread11/7(Will/PROME).|
+|11/10|**L572PRED38**Q3attributedbankNBFIchargeoffs;coverageauditbeforecount. TwoChinacontrolclocks. HHDCQ3~earlyNovEXPECTEDonly,L575;Q4~earlyFeb.|
+|11/20|**L574/L632PRED45/M11**loan-transferdocuments;marksnevertransfers. S1build/acceptance=PROMEL730,notblockingsynthesis.|
 
 ## NARRATIVE GAP
 
-- **Consensus (BOND 10/14 post-CPI + tape; ⚠️ HENRY, its owner, dark since 10/8):** headline hot on gasoline, core +0.3% (hot on 3 months — FT-08); the 10Y jumped then retraced; Oct-28 hike odds firmed; SPY −1.08%, QQQ −1.97% [10/14c]; credit calm at the index.
-- **Agent-data:** one established root (price of money) · bottom-tier widening the AI-disruption mechanism failed to explain (VULCAN; LIQUID neutral; equity proxy, lag untested) · real wages falling · first confirmed sinking · products, not crude, are scarce · large-bank credit benign, the tail at named regionals and in CCC.
-- 🔴 **Counter-signal (Disc-D):** **Bank of America's Q3 net charge-offs FELL ($1.349B vs $1.412B; card 3.22% vs 3.55%) and IG held 83 with funding at −1bp** — the bank-loss tape and the index-grade tape both say no broad stress.
-- **Gap: K-shaped inside credit and widening — CCC−IG 1,184bp [10/13] vs 1,147 [10/7] (own FRED arithmetic).** The aggregate gap is unchanged: no funding stress, labor soft not breaking.
-- **Closing catalysts** → docket.
+- **Market-side read:** broadHYspreadshavesustainedabove320andVIXhasliftedto19.99,whileIG85andmeasuredfundingremainorderly. Longendwasboughtaroundhotinflation(BOND10/15);HENRY'spostCPIgammareadmissing. Thisisnotfreshconsensuspolling.
+- **Agent-side read:** concentratedconsumer/CREstress,AI-financingfriction,productsupplypressureandmaintenance-seasonpowerstressremainreal; neithercommoncause norbroadloss/fundingcascadeisproved. BroaderHYrepricingisnowstrongerthanlastfullreview.
+- **Strongestcounterevidence:** claims199K[10/10]/positiveJOLTSNET;BACNCOdeclineandCFGstableNCO;LIQ07S2;IG85[10/16];openAIprimarydeals/raiseddemand. GIBBScoverageincomplete,notallbanksclear.
+- **Nextdiscriminator:** nextVIXandB/CCCcloses plusmatchedbankfunding/creditoutcomes;actualdieseldelivery/AIhedgedcostsremainmissing. AsecondVIXclosecanfireM04withoutprovinggammaorcreditcausation.
 
----
+## CONFIRMED / NEXT
 
-## CONFIRMED — pointer
-
-→ `CONFIRMED.md`. **C-36 = SPLIT** (unchanged) · **C-35** ungradeable on transits (L12). No promotion (PRED-50: behavior).
-
----
-
-## BOTTOM LINE
-
-**10/19 scoped result:** split20/47/33 HELD; VIX19.99 [10/16] = M-04 UP1-of-2, no completed run. Earlier rates/credit cells through10/15 do not fire tested letters. L13 formal C#1/L₂ still awaits10/16 publication at recheck. M-06 number WITHDRAWN. LIQ-07 S2 both lists; L708 OTTO outstanding; L11 raw NV, allowance interpretation unresolved. Successor admission is Will-gated; no extra root/vote installed. Counterevidence: IG84 [10/15], LIQ-07 reserve-loop test negative. Prior domain marks remain dated, not refreshed by this scoped pass.
-
-## LAST RUN → `LAST_COMPLETION.md`. **Next:** DFII10 cell15 publication (L13 formal C#1/L₂); M-04 next dated close (UP1-of-2) · OTTO L708 via PROME · Will L558 · L11 allowance interpretation · PROME L730 acceptance file. No full fleet re-sweep; older domain marks retain their dates.
+CONFIRMED.md reviewed: C35ungradeableontransits;C36LEVEL/SPLITunchanged;PRED48/PRED50finalworkreused,no promotion. **Next:** publication-qualifiedL13/M04/M08;PROMEL708closure/L11/WQ459/L630persistence/L730;ownedcensus/controlsandWillpageinfull-synthesisfolder. No unpublishedcell blocks completedfullreview.

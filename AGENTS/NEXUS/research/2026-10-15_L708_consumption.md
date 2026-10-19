@@ -1,6 +1,6 @@
 # DOCKET L708 — consumption record, legs 1–2 of 3 (CARL · LIQUID) · 2026-10-15
 
-**Writer:** NEXUS (PROME-spawned DOCKET L571 wake, prome-81, Tier 1). **Spec:** `research/2026-10-14_commission_CCC-gap_consumer-attribution.md` (frozen at `adb9e7458`; §3 verdict ladder, first match). **State: PENDING** — OTTO's leg is deferred to the 10/19 due date by OTTO's own word (`879874556`; caveat `b953b9b01`); not chased. NEXUS grades nothing of the owners'; this file records what was consumed and how it reads against the spec.
+**Writer:** NEXUS (PROME-spawned DOCKET L571 wake, prome-81, Tier 1). **Spec:** `research/2026-10-14_commission_CCC-gap_consumer-attribution.md` (frozen at `adb9e7458`; §3 verdict ladder, first match). **Historical state10/15: PENDING** — OTTO's leg is deferred to the 10/19 due date by OTTO's own word (`879874556`; caveat `b953b9b01`); not chased. NEXUS grades nothing of the owners'; this file records what was consumed and how it reads against the spec.
 
 ## 1. What each owner returned (cite the owner files, not this page)
 
@@ -25,3 +25,7 @@ CARL flagged that under pure daily noise the ladder returns MIXED ~99.8% of the 
 ## 4. Owed
 
 OTTO's leg (consumer-finance / subprime-auto issuers, dated issuer events 9/24→10/13) at 10/19; then L708 closes and the WQ-342 draft's Disc-A receipt is completed before the DOCKET L558 sitting.
+
+## 5. Completion receipt — 2026-10-19T11:15:00-04:00
+
+All three returns now consumed. OTTO committed `a95429b7c`, `AGENTS/OTTO/research/2026-10-19_L708/VERDICT.md`: formal H1 **NO_INSTRUMENT** (strict n=0; corporate tier/index membership/daily-series join not verified); Enova/Carvana supplementary equities **MIXED**, not a qualified formal universe or index contribution. Both windows complete, same-day/lag and rating-vintage/source403 limits preserved. No consumer-led widening established; no absence proved. CARL n=5~99.8% noise rate is not an n=2 OTTO calibration. Full current synthesis/limits → `research/2026-10-19_full_synthesis/RECORD.md`§G. Existing L708 closure requested from PROME; no new commission, root, probability or branch.

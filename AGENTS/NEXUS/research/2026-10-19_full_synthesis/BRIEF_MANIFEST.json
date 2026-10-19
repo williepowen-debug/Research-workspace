@@ -1,0 +1,360 @@
+{
+  "recorded_at": "2026-10-19T11:07:39-04:00",
+  "groups": {
+    "brief_credit": [
+      "LABOR",
+      "CARL",
+      "REGINALD",
+      "BROCK",
+      "OTTO",
+      "SHADE",
+      "HOMER",
+      "GIBBS",
+      "WAL"
+    ],
+    "brief_rates": [
+      "LIQUID",
+      "BOND",
+      "HENRY",
+      "RED",
+      "VIOLET",
+      "SAM",
+      "ORACLE",
+      "MIDAS",
+      "ZHAO"
+    ],
+    "brief_energy": [
+      "AEOLUS",
+      "BRENT",
+      "CORAL",
+      "FALCON",
+      "HAWK",
+      "MARCO",
+      "OSPREY",
+      "VULCAN",
+      "WATT",
+      "YURI"
+    ]
+  },
+  "model": "gpt-6.1-sol",
+  "read_only": true,
+  "closeout_asks_and_receipts": "All3 in existing thread; no files/Git changes confirmed",
+  "briefs": [
+    {
+      "desk": "LABOR",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/LABOR/NEXUS_BRIEF.md",
+      "bytes": 16262,
+      "sha256": "2150d6ea03f6a325644d0d07d1f39dcf16b22c9678d71d559e176520d3659c3f",
+      "git": "f0a1e720b|2026-10-15T08:37:13-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "CARL",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/CARL/NEXUS_BRIEF.md",
+      "bytes": 7062,
+      "sha256": "5dacaee4b0baf31cf76b45418f7c8fa334977b97fea2ae05858f8a0695231ed9",
+      "git": "da3e278fc|2026-10-15T08:34:52-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "REGINALD",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/REGINALD/NEXUS_BRIEF.md",
+      "bytes": 24050,
+      "sha256": "3a0a3055d43d7566b2e985ba726d4666dcb9a2c1178e7892011dd45ef13a8ec9",
+      "git": "aef69386c|2026-10-16T13:47:16-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "BROCK",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/BROCK/NEXUS_BRIEF.md",
+      "bytes": 9609,
+      "sha256": "717128f7d669b73f71f7468440ca9202a17a4ec1a718f98a9e016b3b3a8bfbea",
+      "git": "f4659c3c2|2026-10-15T16:59:24-04:00",
+      "order": "pre-A12"
+    },
+    {
+      "desk": "OTTO",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/OTTO/NEXUS_BRIEF.md",
+      "bytes": 9532,
+      "sha256": "f37f85d283b9b8f69d96208892113626d9111bac6d5bf905e99b9a4b90338f26",
+      "git": "4dbe692b5|2026-10-14T23:52:30-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "SHADE",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/SHADE/NEXUS_BRIEF.md",
+      "bytes": 7917,
+      "sha256": "997f456616ba73f16984f470d2b3aaf533d4b40c6570e81ec3bb4a4b990a9e5d",
+      "git": "5f0abbbbc|2026-10-15T10:32:10-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "HOMER",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/HOMER/NEXUS_BRIEF.md",
+      "bytes": 10694,
+      "sha256": "ad301380f6c7daefe6403f8979d1a10d27a0dbf3431ffd7dc2af5bdaae857605",
+      "git": "b9041531b|2026-10-15T12:07:53-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "GIBBS",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/GIBBS/NEXUS_BRIEF.md",
+      "bytes": 2602,
+      "sha256": "2a148198d5640cd1f4206c33c57ae945cda169bc04101175486237e2b20c65af",
+      "git": "UNCOMMITTED",
+      "order": "A12"
+    },
+    {
+      "desk": "WAL",
+      "reader": "/root/brief_credit",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/WAL/NEXUS_BRIEF.md",
+      "bytes": 11952,
+      "sha256": "6ddb87017ff9193357db486c9f990f71928c28e2c8485da9fec93f9f548a21a4",
+      "git": "9328bceea|2026-10-14T15:46:59-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "LIQUID",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/LIQUID/NEXUS_BRIEF.md",
+      "bytes": 4538,
+      "sha256": "66d77aa3313d14f226179122ef0a138e753ae45a4ba5685fd89f1e37e3684d58",
+      "git": "1521382c0|2026-10-15T08:44:26-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "BOND",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/BOND/NEXUS_BRIEF.md",
+      "bytes": 1349,
+      "sha256": "5e812d33184cc6ac9fd70281cf859fd10b819d9919eab56479482cf394d5efbc",
+      "git": "cada759e1|2026-10-15T15:20:45-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "HENRY",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/HENRY/NEXUS_BRIEF.md",
+      "bytes": 2273,
+      "sha256": "2f2ff9e97f65c246a5174801415e5e4c9cc73cf7487028e0c0008cd805854f62",
+      "git": "046ee4763|2026-10-08T08:27:27-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "RED",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/RED/NEXUS_BRIEF.md",
+      "bytes": 10596,
+      "sha256": "e783cee4da833ba4ce257f04bb23efcbe237de47ee3725c97486d66cbc67e89c",
+      "git": "ed650de51|2026-10-15T16:02:41-04:00",
+      "order": "pre-A12"
+    },
+    {
+      "desk": "VIOLET",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/VIOLET/NEXUS_BRIEF.md",
+      "bytes": 6982,
+      "sha256": "e404ec90675eaaaf86d9e85c7747434aa3d4809859cb70a6343ddb7b1a051592",
+      "git": "32c08e414|2026-10-14T16:45:24-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "SAM",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/SAM/NEXUS_BRIEF.md",
+      "bytes": 4555,
+      "sha256": "01f5a1d4dd4327e9a46e40231be1db867d0c70d3586807f09c86ae2e023d2f67",
+      "git": "dc1843efd|2026-10-15T08:44:13-04:00",
+      "order": "pre-A12"
+    },
+    {
+      "desk": "ORACLE",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/ORACLE/NEXUS_BRIEF.md",
+      "bytes": 4615,
+      "sha256": "bb0c3ae7c2177df9a7ee6b91513f9fb8ff9030ec62134abbb0b8838fa71a6da3",
+      "git": "1435334d0|2026-10-16T13:42:51-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "MIDAS",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/MIDAS/NEXUS_BRIEF.md",
+      "bytes": 7225,
+      "sha256": "11c47f403361f085f075b3b4545d5a8b5cc4b0cba15e72d1abe7ad9aa5fe392f",
+      "git": "4bd058afd|2026-10-13T10:26:12-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "ZHAO",
+      "reader": "/root/brief_rates",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/ZHAO/NEXUS_BRIEF.md",
+      "bytes": 21276,
+      "sha256": "36b198889d1c65261668ffa6af3018c53008cbaca1fcfff4f5c110eb345e0e73",
+      "git": "a2a03b42a|2026-10-16T16:23:38-04:00",
+      "order": "pre-A12"
+    },
+    {
+      "desk": "AEOLUS",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/AEOLUS/NEXUS_BRIEF.md",
+      "bytes": 7393,
+      "sha256": "b94aab2aa2bdadbad9d23c090eced2e8a5e884bc280e966274da594a0505d601",
+      "git": "10331d23b|2026-10-10T13:31:00-04:00",
+      "order": "n/a"
+    },
+    {
+      "desk": "BRENT",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/BRENT/NEXUS_BRIEF.md",
+      "bytes": 21997,
+      "sha256": "6bfa937b45eb5cacfb5d7d5fc82af14b2bf60c4992890a1575f1897094e1c11e",
+      "git": "33b3fb682|2026-10-14T14:29:19-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "CORAL",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/CORAL/NEXUS_BRIEF.md",
+      "bytes": 11265,
+      "sha256": "598392d96355ff8faac1a8e5a88a0b592edf5d168bc2a576d68742aabbff7779",
+      "git": "9b5a3c07c|2026-10-15T08:15:16-04:00",
+      "order": "pre-A12"
+    },
+    {
+      "desk": "FALCON",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/FALCON/NEXUS_BRIEF.md",
+      "bytes": 6390,
+      "sha256": "85c1d34da654cc95beda812a79659a06e21ffb72c3029d9ab6b1db282a6958ed",
+      "git": "2c50eea4f|2026-10-14T22:19:55-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "HAWK",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/HAWK/NEXUS_BRIEF.md",
+      "bytes": 7903,
+      "sha256": "4b2ad1d21be45fdbe4f5ef59ea144cfcb8ba35699d02e25adcdd9b1f972c4940",
+      "git": "46745a28b|2026-10-10T12:56:22-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "MARCO",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/MARCO/NEXUS_BRIEF.md",
+      "bytes": 19620,
+      "sha256": "d193be0a3432250ea643fcd3129bd6489b04ceee3c417c8b2ade28061f6ed5ae",
+      "git": "bdb01d98e|2026-10-14T22:08:18-04:00",
+      "order": "pre-A12"
+    },
+    {
+      "desk": "OSPREY",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/OSPREY/NEXUS_BRIEF.md",
+      "bytes": 26024,
+      "sha256": "b2ac4be97125053ba039db77dd2d3ceadf7a5f448125f9cfea2e28958c062714",
+      "git": "3e87063b9|2026-10-18T17:55:38-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "VULCAN",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/VULCAN/NEXUS_BRIEF.md",
+      "bytes": 26968,
+      "sha256": "f130c2404e86b3a5a8ad9574d104e2ded51d6f4991b836d4fd962b2e46684ef5",
+      "git": "884bf8ad0|2026-10-16T17:24:37-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "WATT",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/WATT/NEXUS_BRIEF.md",
+      "bytes": 4836,
+      "sha256": "95d170fc1f97e527b6810e34f32b1c729815078de017b6762862d76c96d5c1a9",
+      "git": "3f52934c1|2026-10-15T08:16:50-04:00",
+      "order": "A12"
+    },
+    {
+      "desk": "YURI",
+      "reader": "/root/brief_energy",
+      "model": "gpt-6.1-sol",
+      "path": "AGENTS/YURI/NEXUS_BRIEF.md",
+      "bytes": 11083,
+      "sha256": "22948ba3c721caa9aeb342954a3efcc54c95e65eb4a22ad5627fbe45cb698ee2",
+      "git": "6244b3945|2026-10-12T23:10:05-04:00",
+      "order": "A12"
+    }
+  ],
+  "ordering": {
+    "A12": [
+      "LABOR",
+      "CARL",
+      "REGINALD",
+      "OTTO",
+      "HOMER",
+      "GIBBS",
+      "VIOLET",
+      "BRENT",
+      "FALCON",
+      "HAWK",
+      "OSPREY",
+      "VULCAN",
+      "WATT",
+      "YURI"
+    ],
+    "pre-A12": [
+      "BROCK",
+      "RED",
+      "SAM",
+      "ZHAO",
+      "CORAL",
+      "MARCO"
+    ],
+    "n/a": [
+      "SHADE",
+      "WAL",
+      "LIQUID",
+      "BOND",
+      "HENRY",
+      "ORACLE",
+      "MIDAS",
+      "AEOLUS"
+    ]
+  }
+}

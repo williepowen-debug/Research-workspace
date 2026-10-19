@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-19T11:18:27-04:00",
+  "command": "rg -n -i -e <historical dark/UNREAD/vol-lag/OTTO-pending/L630-stale claims> AGENTS/NEXUS",
+  "rc": 0,
+  "matches": 22,
+  "live_surface_hits": [
+    "AGENTS/NEXUS/LAST_COMPLETION.md:56:**Owners' items, not NEXUS's (watch, don't chase):** FALCON's loss census after the GFS Pride sinking \u00b7 HENRY's first post-CPI policy read (dark since 10/8) \u00b7 WATT has not consumed DOE 202-26-50.",
+    "AGENTS/NEXUS/LAST_COMPLETION.md:74:**Addendum 2026-10-14 21:30 ET (LIGHT \u2014 packets + a research draft; nothing re-marked):** Will: *\"start the draft now, and commission #3\"*. (1) **Commission** `research/2026-10-14_commission_CCC-gap_consumer-attribution.md` \u2192 OTTO \u00b7 CARL \u00b7 LIQUID, due 10/19 (`adb9e7458`; OTTO doorbelled; PROME asked to register the row). Fact: CCC\u2212B gap widened on all 12 published sessions 9/25\u219210/13 (826 \u2192 950bp). (2) **WQ-342 successor DRAFT v0** `research/2026-10-14_WQ342_successor_credit-leg_DRAFT.md` + grid `research/2026-10-14_wq342_grid/`: broad credit (HY/B) NOT admissible on FRED's 3-year history (the HY k=3 pass is a pooled-regime artifact: ex-live DOWN 91.7% vs live UP 31.4%); **CCC\u2212B gap W21/\u00b125bp/k5 clears every set** but fires UP 88.6% / DOWN 0% in the live episode and its eligibility under WQ-224 (ii) is Will's. Owed before 10/19: cold read of the draft + \u00a71 re-run. skipped: 9 \u00b7 9b beyond the STATUS next-boot line \u00b7 9c \u00b7 10 \u00b7 14 \u00b7 15a (Light) \u00b7 1c/1c-bis/1d n/a; 1b + 1e run."
+  ],
+  "disposition": "Historical dated reports, old completion blocks, processed inputs and explicit COLDREAD snapshot ledgers RETAINED-HISTORY. Current STATUS/Will page/packet have OTTO consumed, current gamma UNKNOWN, VIX follows one close and L630 working-tree correction. BRIEFS_MAP historical deltas visibly dated; LAST prior10/14 dark phrase retained in its old block. No current unqualified absence/pending claim remains for OTTO. Review-period COLDREAD ledgers record their then-current scope, not current absence."
+}

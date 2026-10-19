@@ -1,0 +1,398 @@
+{
+  "recorded_at": "2026-10-19T11:00:29-04:00",
+  "web_check": "2026-10-19 14:54:14 UTC (clock after batched source read)",
+  "api_check": "2026-10-19T10:56:11.797611-04:00",
+  "sources": {
+    "DFII10": {
+      "url": "https://fred.stlouisfed.org/series/DFII10",
+      "basis": "first-published",
+      "error": null,
+      "short": false,
+      "missing": [],
+      "rows": [
+        {
+          "date": "2026-10-15",
+          "value": "2.78",
+          "first_published": "2026-10-16"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "2.84",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "2.88",
+          "first_published": "2026-10-14"
+        },
+        {
+          "date": "2026-10-09",
+          "value": "2.91",
+          "first_published": "2026-10-13"
+        },
+        {
+          "date": "2026-10-08",
+          "value": "2.87",
+          "first_published": "2026-10-09"
+        },
+        {
+          "date": "2026-10-07",
+          "value": "2.92",
+          "first_published": "2026-10-08"
+        },
+        {
+          "date": "2026-10-06",
+          "value": "2.91",
+          "first_published": "2026-10-07"
+        },
+        {
+          "date": "2026-10-05",
+          "value": "2.95",
+          "first_published": "2026-10-06"
+        },
+        {
+          "date": "2026-10-02",
+          "value": "2.92",
+          "first_published": "2026-10-05"
+        },
+        {
+          "date": "2026-10-01",
+          "value": "2.88",
+          "first_published": "2026-10-02"
+        },
+        {
+          "date": "2026-09-30",
+          "value": "2.93",
+          "first_published": "2026-10-01"
+        },
+        {
+          "date": "2026-09-29",
+          "value": "2.91",
+          "first_published": "2026-09-30"
+        },
+        {
+          "date": "2026-09-28",
+          "value": "2.9",
+          "first_published": "2026-09-29"
+        },
+        {
+          "date": "2026-09-25",
+          "value": "2.83",
+          "first_published": "2026-09-28"
+        },
+        {
+          "date": "2026-09-24",
+          "value": "2.85",
+          "first_published": "2026-09-25"
+        }
+      ]
+    },
+    "DGS10": {
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "basis": "first-published",
+      "error": null,
+      "short": false,
+      "missing": [],
+      "rows": [
+        {
+          "date": "2026-10-15",
+          "value": "5.1",
+          "first_published": "2026-10-16"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "5.19",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "5.21",
+          "first_published": "2026-10-14"
+        },
+        {
+          "date": "2026-10-09",
+          "value": "5.24",
+          "first_published": "2026-10-13"
+        },
+        {
+          "date": "2026-10-08",
+          "value": "5.22",
+          "first_published": "2026-10-09"
+        }
+      ]
+    },
+    "BAMLH0A0HYM2": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "basis": "first-published",
+      "error": null,
+      "short": false,
+      "missing": [],
+      "rows": [
+        {
+          "date": "2026-10-16",
+          "value": "3.31",
+          "first_published": "2026-10-16"
+        },
+        {
+          "date": "2026-10-15",
+          "value": "3.23",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "3.25",
+          "first_published": "2026-10-14"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "3.16",
+          "first_published": "2026-10-13"
+        },
+        {
+          "date": "2026-10-12",
+          "value": "3.11",
+          "first_published": "2026-10-12"
+        }
+      ]
+    },
+    "BAMLC0A0CM": {
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "basis": "first-published",
+      "error": null,
+      "short": false,
+      "missing": [],
+      "rows": [
+        {
+          "date": "2026-10-16",
+          "value": "0.85",
+          "first_published": "2026-10-16"
+        },
+        {
+          "date": "2026-10-15",
+          "value": "0.84",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "0.84",
+          "first_published": "2026-10-14"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "0.83",
+          "first_published": "2026-10-13"
+        },
+        {
+          "date": "2026-10-12",
+          "value": "0.83",
+          "first_published": "2026-10-12"
+        }
+      ]
+    },
+    "BAMLH0A2HYB": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A2HYB",
+      "basis": "first-published",
+      "error": null,
+      "short": false,
+      "missing": [],
+      "rows": [
+        {
+          "date": "2026-10-16",
+          "value": "3.35",
+          "first_published": "2026-10-16"
+        },
+        {
+          "date": "2026-10-15",
+          "value": "3.26",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "3.29",
+          "first_published": "2026-10-14"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "3.17",
+          "first_published": "2026-10-13"
+        },
+        {
+          "date": "2026-10-12",
+          "value": "3.1",
+          "first_published": "2026-10-12"
+        }
+      ]
+    },
+    "BAMLH0A3HYC": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC",
+      "basis": "first-published",
+      "error": null,
+      "short": false,
+      "missing": [],
+      "rows": [
+        {
+          "date": "2026-10-16",
+          "value": "12.97",
+          "first_published": "2026-10-16"
+        },
+        {
+          "date": "2026-10-15",
+          "value": "12.78",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "12.82",
+          "first_published": "2026-10-14"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "12.67",
+          "first_published": "2026-10-13"
+        },
+        {
+          "date": "2026-10-12",
+          "value": "12.53",
+          "first_published": "2026-10-12"
+        }
+      ]
+    },
+    "BAMLH0A1HYBB": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A1HYBB",
+      "basis": "first-published",
+      "error": null,
+      "short": false,
+      "missing": [],
+      "rows": [
+        {
+          "date": "2026-10-16",
+          "value": "2.03",
+          "first_published": "2026-10-16"
+        },
+        {
+          "date": "2026-10-15",
+          "value": "1.97",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "1.99",
+          "first_published": "2026-10-14"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "1.91",
+          "first_published": "2026-10-13"
+        },
+        {
+          "date": "2026-10-12",
+          "value": "1.88",
+          "first_published": "2026-10-12"
+        }
+      ]
+    },
+    "VIXCLS": {
+      "url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "basis": "FRED displayed Cboe daily close; first-publication API leg timed out",
+      "source_updated": "2026-10-19 08:38 CDT",
+      "rows": [
+        {
+          "date": "2026-10-16",
+          "value": "19.99"
+        },
+        {
+          "date": "2026-10-15",
+          "value": "16.46"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "16.87"
+        }
+      ]
+    },
+    "KRE": {
+      "basis": "existing fetch.py price_history/yfinance, settled dates only",
+      "rows": [
+        {
+          "date": "2026-09-29",
+          "close": 69.83,
+          "volume": 19935800
+        },
+        {
+          "date": "2026-09-30",
+          "close": 69.44,
+          "volume": 22328600
+        },
+        {
+          "date": "2026-10-01",
+          "close": 69.95,
+          "volume": 21331200
+        },
+        {
+          "date": "2026-10-02",
+          "close": 70.78,
+          "volume": 18654200
+        },
+        {
+          "date": "2026-10-05",
+          "close": 70.39,
+          "volume": 9793600
+        },
+        {
+          "date": "2026-10-06",
+          "close": 70.07,
+          "volume": 10550800
+        },
+        {
+          "date": "2026-10-07",
+          "close": 68.89,
+          "volume": 20355600
+        },
+        {
+          "date": "2026-10-08",
+          "close": 69.59,
+          "volume": 18920300
+        },
+        {
+          "date": "2026-10-09",
+          "close": 69.01,
+          "volume": 15111600
+        },
+        {
+          "date": "2026-10-12",
+          "close": 69.56,
+          "volume": 7091200
+        },
+        {
+          "date": "2026-10-13",
+          "close": 69.06,
+          "volume": 12186800
+        },
+        {
+          "date": "2026-10-14",
+          "close": 68.54,
+          "volume": 19909400
+        },
+        {
+          "date": "2026-10-15",
+          "close": 69.75,
+          "volume": 20139400
+        },
+        {
+          "date": "2026-10-16",
+          "close": 69.81,
+          "volume": 15244300
+        }
+      ],
+      "excluded_current_day": "2026-10-19",
+      "complete_returned_span": true,
+      "edge_coverage_limit": "span edges not certified; anchor10/8 present and equal69.59"
+    }
+  },
+  "probe_exit": {
+    "KRE_BB": 0,
+    "multi_series": 124,
+    "multi_series_gap": "VIX first-publication request unfinished; seven earlier series saved, error=False/short=False. VIX letter specifies FRED close, not ALFRED; web close is used."
+  },
+  "publication_basis_caveat": "ICE ALFRED realtime_start fields use observation-day labels in this returned window. Do not infer those data were available before this observed10/19 retrieval; FRED public update is10/19. Rates return T+1 labels."
+}
