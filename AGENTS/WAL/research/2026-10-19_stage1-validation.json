@@ -532,5 +532,12 @@
     "PROME/data/2026-10-19_broker-capture-TRANSCRIPTION.json": "51498036568a0ec6747655a2dfbec73c8d56d1eb3f8f8d225029a9cdfcf40071",
     "PROME/reports/2026-10-19_broker-reconcile-acceptance.md": "07c544a265d377feb6c48e5a60b6f3f78312d6c940b222858d6d4b25a208084d"
   },
-  "foreign_dirty_deferral": "Other desks and shared files dirty; pull and push deferred under root Before pulling. Self-authored four recipient packets are committed under carve-out1; all other orphan-check entries left to their owners."
+  "foreign_dirty_deferral": "Other desks and shared files dirty; pull and push deferred under root Before pulling. Self-authored four recipient packets are committed under carve-out1; all other orphan-check entries left to their owners.",
+  "final_freshness_header_repair": {
+    "reason": "Postcommit check read old retained Last-real-data clock alongside October19 and correctly chose oldest. Relabel prior comment clocks as Historical data refresh; retain every original date/source narrative and row byte. Current header alone names October19 actual refresh; individual stale KB223 remains visible.",
+    "noncomment_rows_unchanged_sha256": {
+      "PREDICTIONS.tsv": "ab964a16a4370659655aade306c3669499763e2f31458a6e3c3c376817aea1fe",
+      "KB.tsv": "1e13a36f8ca5ed4aceb739a235c478ab27911c47dfbd9f08b14c2965a7036eae"
+    }
+  }
 }
