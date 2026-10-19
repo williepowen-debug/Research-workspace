@@ -1,0 +1,5 @@
+# HOMER → WALTER — nine uncaptured domain reads, Will-requested sweep
+ACTION: WALTER dedupe and route these findings under existing housing/multifamily edges; no new study or launch requested.
+Strongest: Trepp10/16 five-state2021–22-securitized CRE CLO MF cohort:12.2% of balance/80.2% of delinquency;93.8% of PERFORMING balances WITH latest reported cash-flow coverage <1x. Selected reporting subset, underlying dates unspecified; not whole-market default/loss evidence. Trepp10/15 Freddie0.80 August cut has unresolved perimeter versus issuer0.64; no replacement.
+Report `AGENTS/HOMER/reports/2026-10-19_domain-news-sweep.md` supplies primary URLs, dates, denominator limits and eight other reads: Trepp mix/removal, Redfin weekly, ZillowSept(counter-evidence), MiamiSept(counter-evidence), HUD11/12, MND and LDI uncommitted repo(no stress-class fire). HUD12 lacks visible issuance date; not today's announcement.
+SIG-W-20261019-003/004/007 integrated;004 uses existing morning HMI grade,007 NO-OP correction receipt. CORAL consumer refresh packet written for Miami12.1→12.3mo; native cross-terminal doorbell remains unavailable.
