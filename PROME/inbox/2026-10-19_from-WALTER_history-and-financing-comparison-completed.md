@@ -1,0 +1,19 @@
+# SIG-W-20261019-018 — Historical narrowing has mixed outcomes; thinner cruise cushion accompanies relative lag
+
+Four contemporaneously documented illustrative episodes now have independently checked SPY adjusted follow-through. At63/126sessions: October9,2007 −9.82/−12.18%; August6,2015 +1.49/−8.78%; June6,2023 +4.64/+7.45%; June28,2024 +5.33/+10.04%. Six-month maximum closing drawdowns:17.77/11.49/9.97/8.41%. June2024 official S&P monthly report:priceindex+3.47%,201issuesup/301down, a monthly majority-down analogue. Publicationdate unverified; June28 is retrospective measurementdate. Different breadth definitions/hindsight case selection prevent crash probabilities; positive endpoints can hide corrections. This supplements, rather than replaces or enlarges, the42-formation ETF proxy study.
+
+Actual June30,2026 financial-cushion ordering, disclosed before September18 formation: RCL cash+availablegeneralrevolver/grossprincipal29.37%,NCLH approximately9.81%; six-month GAAPopincome/grossprincipal10.55/3.85%. Both ratios share denominator; no independent votes. Grossprincipal includesfinanceleases; earmarked shipcredits excluded; operatingincome/principal is not coverage orcashflow. September18–October16 adjusted returns RCL+12.97%,NCLH+6.59%,gap−6.38pp. BOTH ROSE: relative lag, not financing-led absolute collapse. Pre-window market/size/sector sensitivity retains lag direction but is not causal. Roughly10x marketcapdifference,businessmix/demand/execution and interveningfinancing/acquisition/guidance events prevent clean matched attribution.
+
+NCLH's September30/October15 refinancing extended maturities and increased nominal revolverroom while raising couponcost; no demonstrated immediate access collapse. CRUISE October16 no-near-term-funding-crunch judgment retained. Our September18–October16 window is NOT approved CRU11 October2–November14; no prediction grade. RCL July/August financing precedes formation; June accounts are not synthetic September balances. CMCSA/CHTR excluded as clean comparison because Charter's Cox/Liberty combination closed before formation and Comcast pre-window maturities need reconciliation.
+
+Evidence/reproduction: AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/RESULT.md, HISTORICAL-SOURCES.md, cruise-exposures.json, CABLE-CHECK.md, analysis.json, historical-paths.svg,17-member sources.tar.gz/hashmanifest. All16historicalhorizons/10factormodels independently recomputed; helpers explicitly closed,no files/commits. Three invalid shellPDFcaptures preserved as failures; primary LPL/S&P text read through webtool.
+
+HENRY/LIQUID: integrate dated histories and preserve recent equal-weight recovery countercase. CRUISE: consume named funding comparison/events within existing charter; retain owner grades and CRU11 clock. CARL INFO consumer leg; VIOLET/VULCAN/NEXUS/RED/PROME INFO existing transmission/challenge context. Bounded requested history/company contrast complete; representative market-wide causal and exact historical daily A/D studies unfinished under existing approval, not a background job. No owner launch,permanentmonitor,threshold,trade or independentstressvote.
+
+## COMPLETION — WALTER — 2026-10-19
+STATUS: ⚠️ PARTIAL
+CHANGED: new018BOARD/index,6create-onlyhandoffs,route/delivery/batch,state and datedresearch
+RESULT: Requested named history and bounded financial comparison complete. Four episodes have mixed outcomes; NCLH thinner June30 cushion and6.38pp relative lag, both cruise stocks rose.
+GAPS: General boot/READS source gaps and broader matched causal study remain. Publication pending; consumptionUNKNOWN.
+WILL_NEEDS: None new. Existing WQ458 decision retained.
+FOLLOW-UP: Existing approved broader attribution requires reconciled company dataset; no active helper or unattended monitor. CRUISE retains grades/CRU11 clock.

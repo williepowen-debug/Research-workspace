@@ -1,0 +1,108 @@
+{
+  "members": [
+    {
+      "member": "raw/CCL.json",
+      "sha256": "a73d09b2f8342ddf0bef88082a91faad7aef5a3376a8d04efe103fccd68ec947",
+      "bytes": 29179,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/CHTR.json",
+      "sha256": "1553725499277e38093ed7d4b7d15d7314c93e99b2515b8e4fbc1b93b3417d48",
+      "bytes": 27936,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/CMCSA.json",
+      "sha256": "1f1b065b8fbb3352709518bacffd1c10f63f90e3832f9c7a043d9c4549201638",
+      "bytes": 29396,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/IWM.json",
+      "sha256": "d7cf383f5788a1f1a9ccb56407bed3f444f936d5f7cc153be265fbb461ac1e29",
+      "bytes": 28994,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/NCLH.json",
+      "sha256": "dea21726b6fd06925315fbf2b7e329921ae0b5b0586e759c7d559b8e65cafa05",
+      "bytes": 28858,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/RCL.json",
+      "sha256": "923bcfaff332ce63b240949c717cb2d47167a34ee5d03e0273080ec0eeea7c43",
+      "bytes": 26920,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/RSP.json",
+      "sha256": "67f0b86d0608be871819d0cfdcfc8bea8f3bcf89c6dc0fc40529f9ca5390cd2a",
+      "bytes": 29163,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/SPY.json",
+      "sha256": "d004421010d8ea65d642b84b4c23bccfec6ca3c42deb7dad0f9555691453484b",
+      "bytes": 28133,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/XLC.json",
+      "sha256": "1ca276f5c03353e4890abd5d5018c0d51c00a6730b141eb939799ae794a59c9d",
+      "bytes": 29321,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/XLY.json",
+      "sha256": "93ec7c95f73b3f40b65310d7aa31963373a850f4dea2006c5c401b262cbd812d",
+      "bytes": 29535,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/lpl2023.pdf",
+      "sha256": "2cf5bd3519cc32af5f888290a99d7c56c06eae6fcfe1b65d25f964337e00ae78",
+      "bytes": 4544,
+      "valid_pdf": false
+    },
+    {
+      "member": "raw/murphy2007.html",
+      "sha256": "d51efdb396e821dfa360ae553cc1c65e0f83eff723ddf6fea1108598be9ab4fe",
+      "bytes": 83326,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/pring2015.html",
+      "sha256": "60ee36218a7448848a5e993c7879a8218d876a2a7c92d4bf33390bc1ff21b574",
+      "bytes": 85120,
+      "valid_pdf": null
+    },
+    {
+      "member": "raw/rbc2023.pdf",
+      "sha256": "6fc99e0273fe06d2d03cf1e88db73e0ec0699e52e913d677b106401cb5151580",
+      "bytes": 775,
+      "valid_pdf": false
+    },
+    {
+      "member": "raw/sp2024.pdf",
+      "sha256": "0e1371d4226023ded052cd3a1847cfbce72157d4c19796bb0d6de0abfb1c952d",
+      "bytes": 2011,
+      "valid_pdf": false
+    },
+    {
+      "member": "history/chart-RSP.json",
+      "sha256": "5daece7e5fff02355be2af65db7b01a3fe618b03eb29b0d8cb5a00a2a10ba187",
+      "bytes": 640717,
+      "valid_pdf": null
+    },
+    {
+      "member": "history/chart-SPY.json",
+      "sha256": "37c826a53a9f3fa71204c14565022058b0a6bc6dba39372b3d7c9666f76a37ef",
+      "bytes": 663496,
+      "valid_pdf": null
+    }
+  ],
+  "bundle_sha256": "99facfe27480226f99d958363ce1c1715807ddc9d9719af9e882f28277e8a63c",
+  "note": "Three .pdf members are failed HTML captures, not PDF evidence; primary text recovered through web tool."
+}

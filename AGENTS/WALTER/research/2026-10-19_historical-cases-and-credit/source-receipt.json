@@ -1,0 +1,135 @@
+[
+  {
+    "name": "RCL.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 26920,
+    "sha256": "923bcfaff332ce63b240949c717cb2d47167a34ee5d03e0273080ec0eeea7c43",
+    "retrieved": "2026-10-19T20:29:19.962339+00:00",
+    "bars": 251
+  },
+  {
+    "name": "NCLH.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NCLH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28858,
+    "sha256": "dea21726b6fd06925315fbf2b7e329921ae0b5b0586e759c7d559b8e65cafa05",
+    "retrieved": "2026-10-19T20:29:19.836599+00:00",
+    "bars": 251
+  },
+  {
+    "name": "CCL.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 29179,
+    "sha256": "a73d09b2f8342ddf0bef88082a91faad7aef5a3376a8d04efe103fccd68ec947",
+    "retrieved": "2026-10-19T20:29:19.853387+00:00",
+    "bars": 251
+  },
+  {
+    "name": "CMCSA.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CMCSA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 29396,
+    "sha256": "1f1b065b8fbb3352709518bacffd1c10f63f90e3832f9c7a043d9c4549201638",
+    "retrieved": "2026-10-19T20:29:19.797071+00:00",
+    "bars": 251
+  },
+  {
+    "name": "CHTR.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CHTR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 27936,
+    "sha256": "1553725499277e38093ed7d4b7d15d7314c93e99b2515b8e4fbc1b93b3417d48",
+    "retrieved": "2026-10-19T20:29:20.119346+00:00",
+    "bars": 251
+  },
+  {
+    "name": "SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28133,
+    "sha256": "d004421010d8ea65d642b84b4c23bccfec6ca3c42deb7dad0f9555691453484b",
+    "retrieved": "2026-10-19T20:29:20.183794+00:00",
+    "bars": 251
+  },
+  {
+    "name": "RSP.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 29163,
+    "sha256": "67f0b86d0608be871819d0cfdcfc8bea8f3bcf89c6dc0fc40529f9ca5390cd2a",
+    "retrieved": "2026-10-19T20:29:20.207203+00:00",
+    "bars": 251
+  },
+  {
+    "name": "IWM.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28994,
+    "sha256": "d7cf383f5788a1f1a9ccb56407bed3f444f936d5f7cc153be265fbb461ac1e29",
+    "retrieved": "2026-10-19T20:29:20.405112+00:00",
+    "bars": 251
+  },
+  {
+    "name": "XLY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 29535,
+    "sha256": "93ec7c95f73b3f40b65310d7aa31963373a850f4dea2006c5c401b262cbd812d",
+    "retrieved": "2026-10-19T20:29:20.492083+00:00",
+    "bars": 251
+  },
+  {
+    "name": "XLC.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 29321,
+    "sha256": "1ca276f5c03353e4890abd5d5018c0d51c00a6730b141eb939799ae794a59c9d",
+    "retrieved": "2026-10-19T20:29:20.631236+00:00",
+    "bars": 251
+  },
+  {
+    "name": "murphy2007.html",
+    "url": "https://articles.stockcharts.com/article/members-analysis-20071009-1/",
+    "rc": 0,
+    "bytes": 83326,
+    "sha256": "d51efdb396e821dfa360ae553cc1c65e0f83eff723ddf6fea1108598be9ab4fe",
+    "retrieved": "2026-10-19T20:29:20.925380+00:00"
+  },
+  {
+    "name": "pring2015.html",
+    "url": "https://articles.stockcharts.com/article/members-articles-pring-2015-08-recent-quiet-market-action-continues-to-mask-deteriorating-breadth/",
+    "rc": 0,
+    "bytes": 85120,
+    "sha256": "60ee36218a7448848a5e993c7879a8218d876a2a7c92d4bf33390bc1ff21b574",
+    "retrieved": "2026-10-19T20:29:20.954000+00:00"
+  },
+  {
+    "name": "rbc2023.pdf",
+    "url": "https://institutional.rbcgam.com/documents/en/common/article/market-update-june-2-2023.pdf",
+    "rc": 0,
+    "bytes": 775,
+    "sha256": "6fc99e0273fe06d2d03cf1e88db73e0ec0699e52e913d677b106401cb5151580",
+    "retrieved": "2026-10-19T20:29:20.786411+00:00",
+    "pdf_magic_valid": false
+  },
+  {
+    "name": "sp2024.pdf",
+    "url": "https://www.spglobal.com/spdji/en/documents/commentary/market-attributes-us-equities-202406.pdf",
+    "rc": 0,
+    "bytes": 2011,
+    "sha256": "0e1371d4226023ded052cd3a1847cfbce72157d4c19796bb0d6de0abfb1c952d",
+    "retrieved": "2026-10-19T20:29:20.877437+00:00",
+    "pdf_magic_valid": false
+  },
+  {
+    "name": "lpl2023.pdf",
+    "url": "https://www.lpl.com/content/dam/lpl-www/documents/asset-library/weekly-market-commentary-06052023.pdf",
+    "rc": 0,
+    "bytes": 4544,
+    "sha256": "2cf5bd3519cc32af5f888290a99d7c56c06eae6fcfe1b65d25f964337e00ae78",
+    "retrieved": "2026-10-19T20:29:20.866552+00:00",
+    "pdf_magic_valid": false
+  }
+]

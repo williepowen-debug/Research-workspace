@@ -1,0 +1,528 @@
+{
+  "asof": "2026-10-19T20:31:01.727753+00:00",
+  "historical_cases": [
+    {
+      "label": "2007 breadth warning",
+      "anchor": "2007-10-09",
+      "outcomes": {
+        "21": {
+          "end": "2007-11-07",
+          "spy_adj_return_pct": -5.476737124606601,
+          "rsp_adj_return_pct": -6.27186247738295,
+          "rsp_spy_ratio_change_pct": -0.8411954143230704,
+          "max_closing_drawdown_pct": -5.476737124606601,
+          "drawdown_trough_date": "2007-11-07",
+          "drawdown_peak_date": "2007-10-09",
+          "worst_return_from_anchor_pct": -5.476737124606601
+        },
+        "63": {
+          "end": "2008-01-09",
+          "spy_adj_return_pct": -9.819158007830332,
+          "rsp_adj_return_pct": -13.486488868801704,
+          "rsp_spy_ratio_change_pct": -4.066640740934535,
+          "max_closing_drawdown_pct": -10.757105576118365,
+          "drawdown_trough_date": "2008-01-08",
+          "drawdown_peak_date": "2007-10-09",
+          "worst_return_from_anchor_pct": -10.757105576118365
+        },
+        "126": {
+          "end": "2008-04-10",
+          "spy_adj_return_pct": -12.181204444658144,
+          "rsp_adj_return_pct": -13.343178795735932,
+          "rsp_spy_ratio_change_pct": -1.3231499518181478,
+          "max_closing_drawdown_pct": -17.766263399756056,
+          "drawdown_trough_date": "2008-03-10",
+          "drawdown_peak_date": "2007-10-09",
+          "worst_return_from_anchor_pct": -17.766263399756056
+        },
+        "252": {
+          "end": "2008-10-08",
+          "spy_adj_return_pct": -36.36334599525528,
+          "rsp_adj_return_pct": -37.88230904395756,
+          "rsp_spy_ratio_change_pct": -2.3869310422716894,
+          "max_closing_drawdown_pct": -36.36334599525528,
+          "drawdown_trough_date": "2008-10-08",
+          "drawdown_peak_date": "2007-10-09",
+          "worst_return_from_anchor_pct": -36.36334599525528
+        }
+      }
+    },
+    {
+      "label": "2015 deterioration",
+      "anchor": "2015-08-06",
+      "outcomes": {
+        "21": {
+          "end": "2015-09-04",
+          "spy_adj_return_pct": -7.564169906881702,
+          "rsp_adj_return_pct": -6.957805024472696,
+          "rsp_spy_ratio_change_pct": 0.6559846780173517,
+          "max_closing_drawdown_pct": -11.073642575083365,
+          "drawdown_trough_date": "2015-08-25",
+          "drawdown_peak_date": "2015-08-17",
+          "worst_return_from_anchor_pct": -10.11758116975322
+        },
+        "63": {
+          "end": "2015-11-04",
+          "spy_adj_return_pct": 1.4896814323019925,
+          "rsp_adj_return_pct": 0.0176393348619186,
+          "rsp_spy_ratio_change_pct": -1.4504352330852344,
+          "max_closing_drawdown_pct": -11.073642575083365,
+          "drawdown_trough_date": "2015-08-25",
+          "drawdown_peak_date": "2015-08-17",
+          "worst_return_from_anchor_pct": -10.11758116975322
+        },
+        "126": {
+          "end": "2016-02-05",
+          "spy_adj_return_pct": -8.782567078065007,
+          "rsp_adj_return_pct": -10.722122255723221,
+          "rsp_spy_ratio_change_pct": -2.1262987956678248,
+          "max_closing_drawdown_pct": -11.490601427499648,
+          "drawdown_trough_date": "2016-01-20",
+          "drawdown_peak_date": "2015-11-03",
+          "worst_return_from_anchor_pct": -10.11758116975322
+        },
+        "252": {
+          "end": "2016-08-05",
+          "spy_adj_return_pct": 6.988543926396518,
+          "rsp_adj_return_pct": 6.481641172032715,
+          "rsp_spy_ratio_change_pct": -0.4737916189536451,
+          "max_closing_drawdown_pct": -12.820723978009752,
+          "drawdown_trough_date": "2016-02-11",
+          "drawdown_peak_date": "2015-11-03",
+          "worst_return_from_anchor_pct": -11.252876786998222
+        }
+      }
+    },
+    {
+      "label": "2023 narrow advance",
+      "anchor": "2023-06-06",
+      "outcomes": {
+        "21": {
+          "end": "2023-07-07",
+          "spy_adj_return_pct": 2.8383478886771174,
+          "rsp_adj_return_pct": 3.434888199417485,
+          "rsp_spy_ratio_change_pct": 0.5800757431324355,
+          "max_closing_drawdown_pct": -2.1593692451411073,
+          "drawdown_trough_date": "2023-06-26",
+          "drawdown_peak_date": "2023-06-15",
+          "worst_return_from_anchor_pct": -0.34578963366821425
+        },
+        "63": {
+          "end": "2023-09-06",
+          "spy_adj_return_pct": 4.636951415647994,
+          "rsp_adj_return_pct": 3.19113321642297,
+          "rsp_spy_ratio_change_pct": -1.3817472505308515,
+          "max_closing_drawdown_pct": -4.6964719024601305,
+          "drawdown_trough_date": "2023-08-17",
+          "drawdown_peak_date": "2023-07-31",
+          "worst_return_from_anchor_pct": -0.34578963366821425
+        },
+        "126": {
+          "end": "2023-12-05",
+          "spy_adj_return_pct": 7.448700101735239,
+          "rsp_adj_return_pct": 4.401561125404974,
+          "rsp_spy_ratio_change_pct": -2.835901200708013,
+          "max_closing_drawdown_pct": -9.974311205185515,
+          "drawdown_trough_date": "2023-10-27",
+          "drawdown_peak_date": "2023-07-31",
+          "worst_return_from_anchor_pct": -3.3573599889313965
+        },
+        "252": {
+          "end": "2024-06-06",
+          "spy_adj_return_pct": 26.720671288811793,
+          "rsp_adj_return_pct": 16.399805229057527,
+          "rsp_spy_ratio_change_pct": -8.144579692315357,
+          "max_closing_drawdown_pct": -9.974311205185515,
+          "drawdown_trough_date": "2023-10-27",
+          "drawdown_peak_date": "2023-07-31",
+          "worst_return_from_anchor_pct": -3.3573599889313965
+        }
+      }
+    },
+    {
+      "label": "2024 majority-down month",
+      "anchor": "2024-06-28",
+      "outcomes": {
+        "21": {
+          "end": "2024-07-30",
+          "spy_adj_return_pct": -0.40790809051088894,
+          "rsp_adj_return_pct": 3.962732526729451,
+          "rsp_spy_ratio_change_pct": 4.388541834438464,
+          "max_closing_drawdown_pct": -4.682583060192725,
+          "drawdown_trough_date": "2024-07-25",
+          "drawdown_peak_date": "2024-07-16",
+          "worst_return_from_anchor_pct": -1.0675908378700583
+        },
+        "63": {
+          "end": "2024-09-27",
+          "spy_adj_return_pct": 5.329253254966604,
+          "rsp_adj_return_pct": 9.345971489103611,
+          "rsp_spy_ratio_change_pct": 3.8134878108495585,
+          "max_closing_drawdown_pct": -8.40562840968352,
+          "drawdown_trough_date": "2024-08-05",
+          "drawdown_peak_date": "2024-07-16",
+          "worst_return_from_anchor_pct": -4.931835775157722
+        },
+        "126": {
+          "end": "2024-12-27",
+          "spy_adj_return_pct": 10.03709176102079,
+          "rsp_adj_return_pct": 8.357378853352394,
+          "rsp_spy_ratio_change_pct": -1.5264970027710323,
+          "max_closing_drawdown_pct": -8.40562840968352,
+          "drawdown_trough_date": "2024-08-05",
+          "drawdown_peak_date": "2024-07-16",
+          "worst_return_from_anchor_pct": -4.931835775157722
+        },
+        "252": {
+          "end": "2025-07-02",
+          "spy_adj_return_pct": 15.427182501638326,
+          "rsp_adj_return_pct": 14.024433947650138,
+          "rsp_spy_ratio_change_pct": -1.2152670831831802,
+          "max_closing_drawdown_pct": -18.755237333914387,
+          "drawdown_trough_date": "2025-04-08",
+          "drawdown_peak_date": "2025-02-19",
+          "worst_return_from_anchor_pct": -7.908176829687951
+        }
+      }
+    }
+  ],
+  "financing_ratios": {
+    "RCL": {
+      "balance_date": "2026-06-30",
+      "liquidity_to_gross_principal_pct": 29.371555517580212,
+      "six_month_operating_income_to_gross_principal_pct": 10.54812662878626,
+      "liquidity_to_scheduled_principal_interest_through2027_pct": 132.79891829244738,
+      "gross_principal": 23.407,
+      "general_liquidity": 6.875
+    },
+    "NCLH": {
+      "balance_date": "2026-06-30",
+      "liquidity_to_gross_principal_pct": 9.814617450701443,
+      "six_month_operating_income_to_gross_principal_pct": 3.8549252007968837,
+      "liquidity_to_scheduled_principal_interest_through2027_pct": 60.8674036028884,
+      "gross_principal": 15.467745,
+      "general_liquidity": 1.5181
+    }
+  },
+  "recent_returns": [
+    {
+      "symbol": "RCL",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": -1.6226234434154385,
+      "5d_raw_return_pct": -1.6226234434154385,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 12.965296543559269,
+      "20d_raw_return_pct": 12.965296543559269,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -1.4395815214583219,
+      "60d_raw_return_pct": -2.021809714649181
+    },
+    {
+      "symbol": "NCLH",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": -3.339752821332509,
+      "5d_raw_return_pct": -3.339752821332509,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 6.586404480972541,
+      "20d_raw_return_pct": 6.586404480972541,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -19.561726738806783,
+      "60d_raw_return_pct": -19.561726738806783
+    },
+    {
+      "symbol": "CCL",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": -1.7077827568302784,
+      "5d_raw_return_pct": -1.7077827568302784,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 18.589741014545268,
+      "20d_raw_return_pct": 18.589741014545268,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 3.0298723873706024,
+      "60d_raw_return_pct": 2.493071426015936
+    },
+    {
+      "symbol": "CMCSA",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 6.001935044900253,
+      "5d_raw_return_pct": 6.001935044900253,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": -2.19694927309394,
+      "20d_raw_return_pct": -3.693932106607878,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 1.4617431254517088,
+      "60d_raw_return_pct": -0.09124296393274722
+    },
+    {
+      "symbol": "CHTR",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 6.509966662541267,
+      "5d_raw_return_pct": 6.509966662541267,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": -14.090659137552796,
+      "20d_raw_return_pct": -14.090659137552796,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -12.956521256639085,
+      "60d_raw_return_pct": -12.956521256639085
+    },
+    {
+      "symbol": "SPY",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": -1.9677109547117544,
+      "5d_raw_return_pct": -1.9677109547117544,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 0.204807408997576,
+      "20d_raw_return_pct": 0.204807408997576,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 3.6529427157609318,
+      "60d_raw_return_pct": 3.3961916569079653
+    },
+    {
+      "symbol": "RSP",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 0.49286663764938066,
+      "5d_raw_return_pct": 0.49286663764938066,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 1.2269799667198988,
+      "20d_raw_return_pct": 0.8478982093761189,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 1.4037199619727048,
+      "60d_raw_return_pct": 1.023970454744605
+    },
+    {
+      "symbol": "IWM",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": -3.0472502780541477,
+      "5d_raw_return_pct": -3.0472502780541477,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": -4.808167324407653,
+      "20d_raw_return_pct": -4.808167324407653,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -7.1702754750755044,
+      "60d_raw_return_pct": -7.412097013907859
+    },
+    {
+      "symbol": "XLY",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": -0.3455909569532456,
+      "5d_raw_return_pct": -0.3455909569532456,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 1.5110245602523609,
+      "20d_raw_return_pct": 1.287940485362249,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 3.6297223936648804,
+      "60d_raw_return_pct": 3.401983151496868
+    },
+    {
+      "symbol": "XLC",
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": -0.05435546302470229,
+      "5d_raw_return_pct": -0.05435546302470229,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": -0.11407550383635279,
+      "20d_raw_return_pct": -0.4421964394597411,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 5.032827064499346,
+      "60d_raw_return_pct": 4.687798984779357
+    }
+  ],
+  "factor_sensitivity": [
+    {
+      "symbol": "RCL",
+      "spec": "market",
+      "sector_proxy": "XLY",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0028363268710299393,
+        1.7652582099320628
+      ],
+      "cumulative_residual_log_return": 0.1750253303763389,
+      "residual_return_proxy_pct": 19.12763917095089,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "RCL",
+      "spec": "market_size_sector",
+      "sector_proxy": "XLY",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0015826569368999294,
+        1.5157446008017927,
+        1.0401530355045496,
+        0.8188555266590432
+      ],
+      "cumulative_residual_log_return": 0.19323998788003452,
+      "residual_return_proxy_pct": 21.317390561975728,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "NCLH",
+      "spec": "market",
+      "sector_proxy": "XLY",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0050146753104544604,
+        1.9940985044750217
+      ],
+      "cumulative_residual_log_return": 0.15999940116595912,
+      "residual_return_proxy_pct": 17.351016825376377,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "NCLH",
+      "spec": "market_size_sector",
+      "sector_proxy": "XLY",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0028513624583298724,
+        1.5949215284427751,
+        1.436937076611426,
+        1.4719318990300188
+      ],
+      "cumulative_residual_log_return": 0.17223301550854556,
+      "residual_return_proxy_pct": 18.79546128139178,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "CCL",
+      "spec": "market",
+      "sector_proxy": "XLY",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0036461119542031436,
+        2.2328127723916436
+      ],
+      "cumulative_residual_log_return": 0.23885374571321197,
+      "residual_return_proxy_pct": 26.979281036069157,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "CCL",
+      "spec": "market_size_sector",
+      "sector_proxy": "XLY",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0018190854484579915,
+        1.8952560939124792,
+        1.2184892211000486,
+        1.2423099324141893
+      ],
+      "cumulative_residual_log_return": 0.2494497181330352,
+      "residual_return_proxy_pct": 28.33190351565151,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "CMCSA",
+      "spec": "market",
+      "sector_proxy": "XLC",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0018087093437667233,
+        0.0694329314193909
+      ],
+      "cumulative_residual_log_return": 0.013817712603744437,
+      "residual_return_proxy_pct": 1.3913618418426066,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "CMCSA",
+      "spec": "market_size_sector",
+      "sector_proxy": "XLC",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.00048636582808928713,
+        0.49574530756703283,
+        0.47447428819212717,
+        1.3633795736796563
+      ],
+      "cumulative_residual_log_return": 0.015195210903738167,
+      "residual_return_proxy_pct": 1.531124509732515,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "CHTR",
+      "spec": "market",
+      "sector_proxy": "XLC",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.004005820755933899,
+        0.021478066598348805
+      ],
+      "cumulative_residual_log_return": -0.0718051503553905,
+      "residual_return_proxy_pct": -6.9287772908853285,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    },
+    {
+      "symbol": "CHTR",
+      "spec": "market_size_sector",
+      "sector_proxy": "XLC",
+      "training_start": "2026-03-19",
+      "training_end": "2026-09-18",
+      "training_returns": 126,
+      "outcome_start": "2026-09-18",
+      "outcome_end": "2026-10-16",
+      "outcome_sessions": 20,
+      "beta": [
+        -0.0019184163084809106,
+        0.6164499577554036,
+        1.1471998461842985,
+        2.059676156620856
+      ],
+      "cumulative_residual_log_return": -0.04932894506297508,
+      "residual_return_proxy_pct": -4.813203407350533,
+      "limits": "Exploratory126-session pre-window OLS; factor residual is not a causal credit effect or investable return."
+    }
+  ],
+  "limits": [
+    "Four hindsight-selected histories use different breadth definitions; no hit rate.",
+    "2024 measurement date is not verified publication date; cases are not executable signals.",
+    "RCL/NCLH June30 financial-cushion ordering, not September actual liquidity or rolling-maturity ordering.",
+    "RCL/NCLH size/businessmix differ; factor controls do not establish causal refinancing attribution.",
+    "CMCSA/CHTR acquisition/maturity clocks prevent clean exposure ordering; returns descriptive only."
+  ]
+}
