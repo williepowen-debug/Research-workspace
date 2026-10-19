@@ -30,7 +30,7 @@ Closing inbox:003 consumed; **008ACTION owed October20L554** for OTTO's primary 
 
 ## Older instruction / schema debt
 
-The charter still hardcodes Opus at its digest/coldreader steps; current root runtime rules and Will's explicit Sol selections govern this window. The schema still contains a provisional100-line ceiling awaiting its pilot resolution;3 current briefs exceed100lines. That is a policy/wording follow-up, not proof of a read-cap breach or authorization to rewrite other desks. September7 VIOLET/OSPREY section questions are historical: both now have CROSS-DOMAIN. No charter/model/schema policy was changed here.
+**Housekeeping correction10/19:** legacy helper selectors are now reconciled with runtime/task authority. The provisional100-line text was ALREADY superseded by schema§4.5's8/28ruling: ceiling UNENFORCED, no pilot decision owed. Historical pilot text is now labelled; root byte budget, section order and amendment cap unchanged. The earlier unresolved-policy description was wrong. September7 VIOLET/OSPREY questions remain historical; both now have CROSS-DOMAIN.
 
 ## Verification and limits
 

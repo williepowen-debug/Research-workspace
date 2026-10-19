@@ -181,11 +181,11 @@ not where synthesis happens. Compressible under cap pressure.>
 - Material STATUS change → brief content updates same session.
 - No-material-change session → AS OF + hash stamp refresh only.
 
-### 4.2 Cap discipline — measurement, not aspiration
+### 4.2 Cap discipline — HISTORICAL PILOT; superseded by §4.5
 
-- **No fixed cap until pilot measurement completes.** The SAM pilot brief sets the empirical ceiling for the heaviest real domain. If SAM compresses cleanly to 50, cap is 50. If SAM bursts to 95, cap is 95 (not "force-trim SAM").
-- **Cap is calibrated to the heaviest real domain, not picked aspirationally.**
-- **Cap-burst on a settled agent = fragmentation hypothesis** (not an auto-trigger). If SAM consistently bursts after pilot calibration, that's a signal to investigate whether SAM's domain has fragmented and warrants sub-agent spinout (like OZK from REGINALD). Investigation, not automatic action.
+> - **No fixed cap until pilot measurement completes.** The SAM pilot brief sets the empirical ceiling for the heaviest real domain. If SAM compresses cleanly to 50, cap is 50. If SAM bursts to 95, cap is 95 (not "force-trim SAM").
+> - **Cap is calibrated to the heaviest real domain, not picked aspirationally.**
+> - **Cap-burst on a settled agent = fragmentation hypothesis** (not an auto-trigger). If SAM consistently bursts after pilot calibration, that's a signal to investigate whether SAM's domain has fragmented and warrants sub-agent spinout (like OZK from REGINALD). Investigation, not automatic action.
 
 ### 4.3 Reference, never restate (the anti-drift rule)
 
@@ -220,8 +220,12 @@ NEXUS reads raw STATUS for an agent when ANY of:
 
 ### 4.5 Length
 
-- Hard ceiling: pending pilot measurement (provisionally 100 lines; revise after SAM pilot).
-- Headers, separators, section markers count.
+**Historical pilot text — superseded 2026-08-28; 100-line ceiling UNENFORCED:**
+
+> - Hard ceiling: pending pilot measurement (provisionally 100 lines; revise after SAM pilot).
+> - Headers, separators, section markers count.
+
+Root `CLAUDE.md` §Data Hygiene's byte budget still binds alongside amendment12's section order. No new cap or §4.6 re-spec is installed.
 
 > ⚠️ **RULED 2026-08-28 (NEXUS, on VULCAN's §4.5 ask + HOMER's ordering packet): THE 100-LINE CEILING IS ON THE WRONG AXIS AND IS NOT ENFORCED. ✅ **AMENDMENT 12 IS NOW RULED (2026-09-01) — the ordering fix shipped; the ceiling remains UNENFORCED and the binding control is POSITION, not length (§2 order + amendment 12).** 🔒 **And it can no longer be fixed by a thirteenth amendment — a line/byte-axis re-spec is now RE-SPEC-SITTING work under §4.6.**** Measured fleet-wide this session (all 26 briefs): **12 of 26 are over the cap** — it is not binding, it is being ignored by half the fleet — and **line count is nearly uncorrelated with byte load**: `WATT` 37 lines / **20.4 KB** (550 B/line) vs `OSPREY` 75 lines / **11.5 KB** (153 B/line); `SHADE` 42 lines / 22.5 KB; heaviest are `SAM` 318/105.9 KB, `HOMER` 165/94.7 KB, `VULCAN` 187/92.8 KB. **A brief can sit 60% under the cap and carry more bytes than one twice over it.** ⛔ **A byte cap alone is the WEAKER fix and is NOT adopted** — HOMER flagged against its own interest that a cap on the wrong axis *rewards compression into longer lines*, and the fleet's highest B/line figures are all short files, which confirms it. **No agent is to cut content against this line cap — it is not enforced, and amendment 12 (ruled 9/1) fixed the real defect by ORDER instead** (VULCAN was told so explicitly at 187 lines; ✅ **VULCAN's held revert is RELEASED this session — its condition was MET, and under the new order it no longer pushes routing below the cut**). The binding control is POSITION, not length — see the §6 strike below.
 - "N/A" sections allowed but must include a one-line reason (`N/A — no active cross-agent threads this cycle`).
@@ -252,7 +256,7 @@ NEXUS reads raw STATUS for an agent when ANY of:
 
 ---
 
-## 5. INTEGRATION WITH NEXUS
+## 5. INTEGRATION WITH NEXUS — HISTORICAL PROPOSAL; ratification superseded by header
 
 ### 5.1 NEXUS BOOT change
 

@@ -4,7 +4,9 @@
 > File audit 2026-10-19T12:32:17-04:00: pins unchanged classes; LIQUIDnow7STATUScommitsbehind(earlierfull-passsnapshot5). RawownerHYMETreceipt consumed; no fullbrief/synthesis re-sweep. Evidence→ research/2026-10-19_file_audit/PIN_CHECK.txt.
 
 
-> **Scoped four-item pass 2026-10-19T13:19:05-04:00:** queued OTTO/HOMER/LIQUID owner research read directly; HOMER currentbrief read whole, no full census/digest refresh. LIQUID rawsource/state used for chronic brief staleness; newest pin snapshot in resolution_pass/PIN_CHECK.txt. These owner changes are consumed; L555healthrollupremains10/27.
+> **Scoped four-item pass 2026-10-19T13:19:05-04:00:** queued OTTO/HOMER/LIQUID owner research read directly; HOMER currentbrief read whole, no full census/digest refresh. LIQUID rawsource/state used for chronic brief staleness; newest pin snapshot in `research/2026-10-19_resolution_pass/PIN_CHECK.txt`. These owner changes are consumed; L555healthrollupremains10/27.
+
+> **Housekeeping 2026-10-19T13:33:36-04:00:** schema§4.2/4.5 pilot text is historical;100-line ceiling already UNENFORCED since8/28. Root byte budget and A12 order still bind; no new brief requirement or census/health refresh.
 
 > **★ October19 FULL pass** — every extant brief read whole by three fresh-context **gpt-6.1-sol** readers (Will override, no Opus/Astra); HAWK included for cross-war question. Read coverage/pins/fingerprints are in the timestamped manifest; rerun `ls AGENTS/*/NEXUS_BRIEF.md` for the live census.
 > **Pin result:** OK-PINNED12 / OK-SAME-COMMIT12 / STALE-PIN2(BROCK1behind,LIQUID5behind) / UNPINNED1(WALlabelgap,matchingliteralhash) / CANNOT-EVALUATE1(GIBBSuncommittedbrief). GIBBS committedSTATUSexists; checker wording must not imply absentownerwork.
