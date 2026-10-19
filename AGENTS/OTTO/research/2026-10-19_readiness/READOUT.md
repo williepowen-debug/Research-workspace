@@ -1,5 +1,7 @@
 # OTTO s032 — Ally readiness, overdue warehouse search, short-report dates
 
+> **CorrectionOctober19,s033 (CATO OR1):** the commitment description below stopped at the olderAlly filing. Current corrected preview and `../2026-10-19_ally-amendment/READOUT.md` establish theJuly$8B amendment plus immediate cancellation discretion and the narrative/exhibit one-day discrepancy. The364-day statement below is historical, not current access. Original s032 results/bundle preserved; no warehouse or timing result changed.55% remains uncalibrated judgment, not justified by incomplete coverage.
+
 **As of:** October19,2026. **Authority:** Will: “okay I want us to do all3,” referring to the Ally comparison sheet, overdue warehouse search and historical short-report timing evidence. No trading, spending, external sends, push or broader thesis rewrite authorized by this task. Root/local instructions read explicitly; identity OTTO in the existing Will-owned Codex thread, OpenAI GPT-6 family (exact suffix unavailable). Shell, web, SEC primary retrieval and local Git available. No helper spawned. No verified native transport to independent fleet sessions; use committed PROME/WALTER packets and distinguish them from recipient consumption. Other desks' dirty work is preserved; no pull/stash/reset/rebase/push.
 
 ## Completed deliverables

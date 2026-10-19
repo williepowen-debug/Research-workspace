@@ -1,0 +1,52 @@
+{
+  "cvna_q2_10q": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/cvna-20260630.htm",
+    "accessed_utc": "2026-10-19T17:27:48.441007+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/cvna-20260630.htm",
+    "content_type": "text/html",
+    "path": "sources/cvna_q2_10q.html",
+    "sha256": "62589143558ce9e9e2e11679eaf9c0bfc1f076a227da334edb411d696bb57e89",
+    "bytes": 1840661
+  },
+  "july27_amendment": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/ex10_10carvana-allyforward.htm",
+    "accessed_utc": "2026-10-19T17:27:49.434919+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000055/ex10_10carvana-allyforward.htm",
+    "content_type": "text/html",
+    "path": "sources/july27_amendment.html",
+    "sha256": "9745ceae25764743416479c65d0c3e5d5dbadd40f35ca93a1b9d3353b3eb81d9",
+    "bytes": 48259
+  },
+  "cvna_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0001690820.json",
+    "accessed_utc": "2026-10-19T17:27:49.759078+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0001690820.json",
+    "content_type": "application/json",
+    "path": "sources/cvna_submissions.json",
+    "sha256": "08cf3c3265f390fa8064fee29830b1fc30d61a08490c2415d0bef588760be594",
+    "bytes": 158254
+  },
+  "cvna_aug14_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000059/cvna-20260814.htm",
+    "accessed_utc": "2026-10-19T17:28:14.467019+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000059/cvna-20260814.htm",
+    "content_type": "text/html",
+    "path": "sources/cvna_aug14_8k.html",
+    "sha256": "7c27bc63e6759790258c293dffee72fe3fedacd46e4bd56ea15dea42511003f5",
+    "bytes": 40749
+  },
+  "cvna_july29_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000054/cvna-20260729.htm",
+    "accessed_utc": "2026-10-19T17:28:14.692481+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000054/cvna-20260729.htm",
+    "content_type": "text/html",
+    "path": "sources/cvna_july29_8k.html",
+    "sha256": "7a6a91d969c00651e6c00a35e491528cdb88384cfca2f99a5b063c1f8970c3a3",
+    "bytes": 32137
+  }
+}

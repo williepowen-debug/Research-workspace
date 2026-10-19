@@ -16,6 +16,12 @@ pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` exist
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
 
+### 2026-10-19 (s033) — Ally–Carvana capacity expanded, but continuing access is cancellable
+
+**Was→Is:** s032 challenged the old$6B/October2027 claim but stopped at an older364-day description. The current disclosed July27 amendment is$8B throughJuly2027, with immediate purchaser cancellation without Seller/Transferor breach/default subject to applicable law. The10-Q narrative endsJuly26; the exhibit initially namesJuly27; neither is silently reconciled. Larger purchase capacity and preJuly actual flows counter a weakening-relationship claim, but capacity is not guaranteed durable access, current unused capacity or a warehouse loan. No actual cancellation established.
+
+**Trigger:** Will supplied CATO review59d026ce4 OR1; OTTO independently read CarvanaJuly29 10-Q Notes7/19 and Exhibit10.10 §§2.01–2.02. **Touches:** corrected Ally preview/current banners, STATUS/brief, memory, append-onlyML and dated WALTER/PROME delivery. OTTO-12's55% remains uncalibrated subjective judgment, not justified by missing private coverage; no replacement probability or event definition invented. No convergence, trade or failed systemic-leg change. Source/coverage limits: `../research/2026-10-19_ally-amendment/READOUT.md`. BroadTHESISv1.6 remains owedOctober30.
+
 ### 2026-10-19 (s031) — Wilmington exit forecast cut12→8%; September panel remains worse, with servicing caveat
 
 **Was → Is:** OTTO-31 at12% → **8%**, OPEN; as-made60% unchanged. October16 M&T reports higher corporate-trust revenues and the secondary call transcript describes an ongoing franchise. This is another adverse observation for the broad exit story, not a clean measurement of non-mortgage ABS custody. It applies the already-dated read's direction without a new threshold, early negative grade or trade consequence.

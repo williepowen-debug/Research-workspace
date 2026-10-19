@@ -1,0 +1,14 @@
+{
+  "source_hashes": {
+    "cvna_q2_10q": true,
+    "july27_amendment": true,
+    "cvna_submissions": true,
+    "cvna_aug14_8k": true,
+    "cvna_july29_8k": true
+  },
+  "primary_clause_checks": "PASS after accounting for redaction/page-break text between without and the occurrence",
+  "narrative_endpoint": "2027-07-26",
+  "exhibit_initial_endpoint": "2027-07-27",
+  "endpoint_difference_unreconciled": true,
+  "original_s032_bundle_sha256": "8e96c7524221ed4f7d8e6ebace007c3b23d43bb0a26b922d83b7ccd740da63d8"
+}
