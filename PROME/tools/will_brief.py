@@ -56,6 +56,9 @@ ARTIFACT_URL: https://claude.ai/code/artifact/76508dac-662b-4da4-a60b-c586e3a472
 ⛔ PAGE RETIRED 2026-08-21 (Will in-session: "lets just run that through the
 handbook and retire the standalone") — the URL above carries a retirement
 banner pointing at the Operator Handbook, whose brief tab renders BRIEF.md now.
+HELM RETIRED 2026-10-19 (WQ-461): routine handbook generation and its change-feed
+baseline advancement ended. The following ownership description is historical.
+Shared parsers and --book-line remain active; do not run a replacement page build.
 THIS FILE LIVES ON as the parser/state library: will_handbook.py imports
 parse_* + update_changes (write=True — the handbook run owns the change-feed
 baseline since the same commit). Do NOT run this as a page generator at

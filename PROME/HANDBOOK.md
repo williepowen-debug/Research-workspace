@@ -1,5 +1,7 @@
 # HANDBOOK.md — the hand-written half of THE HELM
 
+**RETIRED / FROZEN — WQ-461, 2026-10-19.** Helm-only presentation upkeep has ended on Will's word. All prior content and maintenance/format instructions below are historical, not live duties or current coverage. Direct briefings and canonical research/decision records remain active; no replacement dashboard is commissioned. Authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`.
+
 **Owner:** PROME. Stable operating guidance plus a short source-backed priorities index, rendered by `PROME/tools/will_handbook.py`. Queue and calendar are generated from WILL_QUEUE/DOCKET. Publication policy and delivery evidence are linked in the manual below.
 
 <!-- Declared residue 2026-10-11, plan read1: the existing renderer omits Spawn queue prose when there are no recognized current rows; spawns REVIEW remains. No verified launch slate is claimed. See reports/2026-10-11_current-surfaces-cleanup.md; current source/preflight rules remain at their canonical records. -->

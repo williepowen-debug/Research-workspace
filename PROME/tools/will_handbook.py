@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """
+RETIRED 2026-10-19 (WQ-461): no routine generation, publication or presentation
+upkeep. Legacy renderer retained for history/shared imports; do not run as a
+boot/closeout/spine-audit duty. Its change-feed history no longer advances.
+
 will_handbook.py — THE HELM (renamed from "Operator Handbook", Will's word 2026-08-21
 — the page outgrew the name once the brief moved in; same URL, same favicon 📖 for
 tab continuity). Will's command seat: desk · brief · manual.

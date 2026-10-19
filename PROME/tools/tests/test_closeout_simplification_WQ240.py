@@ -241,12 +241,12 @@ class PreservedInvariants(unittest.TestCase):
         self.assertIn("Skip rules", cold)
         self.assertIn("carve-out", cold)
 
-    def test_publication_respects_the_deck_pause_and_active_helm_scope(self):
-        # WQ-460 suspends Deck publication; active Helm delivery still follows WQ-382(b).
+    def test_publication_respects_deck_pause_and_helm_retirement(self):
+        # WQ-461 retires routine Helm work; WQ-460 continues to pause the Deck.
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
         self.assertIn("Decision Deck Owed and Reference are PAUSED BY WILL (WQ-460)", m)
-        self.assertIn("THE HELM publication runs only on Will\'s word or at a spine audit", m)
-        self.assertIn("Unmet owed publication is reported, never waived", m)
+        self.assertIn("THE HELM is RETIRED (WQ-461)", m)
+        self.assertIn("Unmet owed publication for a separately requested active deliverable is reported, never waived", m)
 
     def test_every_cold_section_is_reachable_by_an_explicit_pointer(self):
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")

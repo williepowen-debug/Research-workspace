@@ -4,6 +4,8 @@
 
 **Goal:** become operational fast.
 
+**Helm RETIRED (WQ-461, 2026-10-19).** No routine dashboard generation, presentation upkeep, hosted reads or publication. Historical BRIEF/HANDBOOK/HTML and change-feed records are frozen; use canonical owner records and the direct conversation. The boot book line, WALTER intake and decision checks remain active. Authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`.
+
 **Decision Deck PAUSED BY WILL (WQ-460, 2026-10-19).** Deck-specific pickup, upkeep, builds and publication are suspended until explicit resume and reconciliation. Decisions continue in chat + WILL_QUEUE; WALTER intake still runs at step 3b. Scope: `PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`. The hosted page has not been disabled; unseen taps remain UNKNOWN.
 
 **Auto-loaded context (Claude Code):** root/local/user-level `CLAUDE.md` and auto-memory `MEMORY.md`; re-read only for drift. `USER.md` must be explicitly read, subject only to the retained-context exception (`PROME/BOOT_MODULES.md` § Repeat boot); `AGENTS.md` is on-demand for roster/routing. Neither is auto-loaded. `SOUL.md` / `IDENTITY.md` do not exist.

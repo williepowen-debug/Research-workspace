@@ -1,5 +1,7 @@
 # BRIEF.md — the narrative block for Will's briefing page
 
+**RETIRED / FROZEN — WQ-461, 2026-10-19.** Helm-only presentation upkeep has ended on Will's word. All prior content and maintenance/format instructions below are historical, not live duties or current coverage. Direct briefings and canonical research/decision records remain active; no replacement dashboard is commissioned. Authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`.
+
 **Owner:** PROME. This is the hand-written narrative for the Helm's brief tab; queue, book and calendar panels come from their existing sources. Publication rules live in `PROME/CLOSEOUT.md` step11 and WQ382's ruling; actual hosted delivery requires a PUBLISH receipt. Zero pending rulings is not an all-clear: broker actions and management gaps remain in the desk tab.
 
 **Content:** plain language, claims dated; STORY is one paragraph; FALSIFIER and DISAGREEMENT name observable evidence or uncertainty. Rewrite the narrative when the picture changes. Its date is separate from broker/market observation dates. Format contract: one each of WRITTEN, HEADLINE, STORY, QUESTION, FALSIFIER, DISAGREEMENT, POSITION and WATCH. Earlier contract prose and all historical briefings are preserved in [the October11 snapshot](archive/CURRENT_SURFACES_2026-10-11/BRIEF.md); they are not current instructions.
