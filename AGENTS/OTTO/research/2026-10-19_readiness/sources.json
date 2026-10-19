@@ -1,0 +1,387 @@
+{
+  "ally_q2_release": {
+    "url": "https://mmx.prnewswire.com/media/MS1886857/Ally-2Q-2026-Press-Release.pdf",
+    "accessed_utc": "2026-10-19T17:06:36.393341+00:00",
+    "status": 200,
+    "final_url": "https://mmx.prnewswire.com/media/MS1886857/Ally-2Q-2026-Press-Release.pdf",
+    "content_type": "application/pdf",
+    "path": "sources/ally_q2_release.pdf",
+    "sha256": "baf98e1a626290cf815abdf22ae879d9cd7bbe7be608193bbe9f1ed3fa951dd8",
+    "bytes": 167805
+  },
+  "ally_q2_deck": {
+    "url": "https://s2.q4cdn.com/753234398/files/doc_financials/2026/q2/Ally-2Q-2026-Earnings-Presentation.pdf",
+    "accessed_utc": "2026-10-19T17:06:36.603903+00:00",
+    "status": 200,
+    "final_url": "https://s2.q4cdn.com/753234398/files/doc_financials/2026/q2/Ally-2Q-2026-Earnings-Presentation.pdf",
+    "content_type": "application/pdf",
+    "path": "sources/ally_q2_deck.pdf",
+    "sha256": "9a5fefce468550d2f7a2643e0762ace909366edd880f9ffed5400e3cf391b410",
+    "bytes": 366573
+  },
+  "ally_q3_2025_deck": {
+    "url": "https://s2.q4cdn.com/753234398/files/doc_financials/2025/q3/Ally-3Q-2025-Earnings-Presentation.pdf",
+    "accessed_utc": "2026-10-19T17:06:36.840856+00:00",
+    "status": 200,
+    "final_url": "https://s2.q4cdn.com/753234398/files/doc_financials/2025/q3/Ally-3Q-2025-Earnings-Presentation.pdf",
+    "content_type": "application/pdf",
+    "path": "sources/ally_q3_2025_deck.pdf",
+    "sha256": "94f5aed90cd6722020ae7ac9008106ea45e3e2b69a464d9eb0565d91638764f8",
+    "bytes": 363725
+  },
+  "vrm_0930": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-20260930.htm",
+    "accessed_utc": "2026-10-19T17:06:37.165244+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-20260930.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_0930.html",
+    "sha256": "599efa2e9637d3ee0e5c0dd7d8125d597a1a9b000a74536d90d1391855290319",
+    "bytes": 57904
+  },
+  "vrm_0930_ex1": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-ex10_1.htm",
+    "accessed_utc": "2026-10-19T17:06:37.689001+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-ex10_1.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_0930_ex1.html",
+    "sha256": "5a6a144776d7aa690571680ae94f1d9e6fafbeb7e7eebb7b5413b399ff9a5aa2",
+    "bytes": 324294
+  },
+  "vrm_0930_ex2": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-ex10_2.htm",
+    "accessed_utc": "2026-10-19T17:06:38.349981+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-ex10_2.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_0930_ex2.html",
+    "sha256": "26a8cffe414433f6ea92b166aca159ec8101d6056c5f4093909e923fee97198b",
+    "bytes": 840918
+  },
+  "gotham_jan28": {
+    "url": "https://www.gothamcityresearch.com/post/carvana-bridgecrest-and-the-undisclosed-transactions-and-debts",
+    "accessed_utc": "2026-10-19T17:06:38.871386+00:00",
+    "status": 200,
+    "final_url": "https://www.gothamcityresearch.com/post/carvana-bridgecrest-and-the-undisclosed-transactions-and-debts",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/gotham_jan28.html",
+    "sha256": "9e6e405373754dd1d45349b4b3aded4cdbb9efa1ab946ab0a920a96727e70270",
+    "bytes": 612935
+  },
+  "gotham_feb18": {
+    "url": "https://www.gothamcityresearch.com/post/carvana-new-information-reveals-that-bridgecrest-is-the-lienholder-cvna-must-explain-how-and-how",
+    "accessed_utc": "2026-10-19T17:06:39.153466+00:00",
+    "status": 200,
+    "final_url": "https://www.gothamcityresearch.com/post/carvana-new-information-reveals-that-bridgecrest-is-the-lienholder-cvna-must-explain-how-and-how",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/gotham_feb18.html",
+    "sha256": "c4faee1bef7a3dd268219cae1d59d80e85036cc66ee96d3d8dc28aadd8443e7b",
+    "bytes": 594165
+  },
+  "hindenburg_jan02": {
+    "url": "https://hindenburgresearch.com/carvana/",
+    "accessed_utc": "2026-10-19T17:06:40.557911+00:00",
+    "status": 200,
+    "final_url": "https://hindenburgresearch.com/carvana/",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/hindenburg_jan02.html",
+    "sha256": "48075914867c7e872990d24bdaf5a75ee0fc33ffc7eb4853f1f15378373c67e7",
+    "bytes": 210260
+  },
+  "cvna_events": {
+    "url": "https://investors.carvana.com/events-and-presentations",
+    "accessed_utc": "2026-10-19T17:06:40.957393+00:00",
+    "status": 200,
+    "final_url": "https://investors.carvana.com/events-and-presentations",
+    "content_type": "text/html; charset=utf-8",
+    "path": "sources/cvna_events.html",
+    "sha256": "5466c4bcf6cacefa45d704d4865c7c2a78dc30882932465298a87a14b43e9bd1",
+    "bytes": 191339
+  },
+  "cvna_2025_earnings_notice": {
+    "url": "https://investors.carvana.com/news-releases/2025/01-22-2025-130234116",
+    "accessed_utc": "2026-10-19T17:06:41.547266+00:00",
+    "status": 200,
+    "final_url": "https://press.carvana.com/",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/cvna_2025_earnings_notice.html",
+    "sha256": "d0fee15a09d07749638610e3a07603995c516de15ea814b13349f9bc6c6f511e",
+    "bytes": 267996
+  },
+  "cvna_2026_earnings_notice": {
+    "url": "https://investors.carvana.com/news-releases/2026/01-21-2026-130040242",
+    "accessed_utc": "2026-10-19T17:06:42.653582+00:00",
+    "status": 200,
+    "final_url": "https://press.carvana.com/",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/cvna_2026_earnings_notice.html",
+    "sha256": "610acbcd74e04f434f3fdc92c72e2ca9fa51451d441df9ee20a2a70ff1dbbc05",
+    "bytes": 267996
+  },
+  "cvna_2026_earnings_actual": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000008/a9928-k123125.htm",
+    "accessed_utc": "2026-10-19T17:06:43.652322+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000008/a9928-k123125.htm",
+    "content_type": "text/html",
+    "path": "sources/cvna_2026_earnings_actual.html",
+    "sha256": "636992a047307987a521a8c8451a765d2476432f2ebf291f7e6434967e1bc7f0",
+    "bytes": 67452
+  },
+  "gotham_index": {
+    "url": "https://www.gothamcityresearch.com/main",
+    "accessed_utc": "2026-10-19T17:06:43.892733+00:00",
+    "status": 200,
+    "final_url": "https://www.gothamcityresearch.com/main",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/gotham_index.html",
+    "sha256": "fc805bdec9a9ff74d392e029de517a8ffdcb87679f2f18cd4f9c33e4fb55b61e",
+    "bytes": 626798
+  },
+  "ally_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0000040729.json",
+    "accessed_utc": "2026-10-19T17:06:44.170295+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0000040729.json",
+    "content_type": "application/json",
+    "path": "sources/ally_submissions.json",
+    "sha256": "6ed5c08b0a795d1e168babba7e181eeaa27dc0b0df9f1594d43565ca457f247b",
+    "bytes": 166341
+  },
+  "vrm_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0001580864.json",
+    "accessed_utc": "2026-10-19T17:06:44.425635+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0001580864.json",
+    "content_type": "application/json",
+    "path": "sources/vrm_submissions.json",
+    "sha256": "fea6b53587688cf42814d5721bac3bbc1089308669f5667e84e1ba16764be7e2",
+    "bytes": 72006
+  },
+  "cacc_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0000885550.json",
+    "accessed_utc": "2026-10-19T17:06:44.610716+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0000885550.json",
+    "content_type": "application/json",
+    "path": "sources/cacc_submissions.json",
+    "sha256": "039a69a6b5fd82a1447936fd2fb8579c71c8b8911bf7da19a9d703c56c15264f",
+    "bytes": 163948
+  },
+  "cps_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0000889609.json",
+    "accessed_utc": "2026-10-19T17:06:44.742223+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0000889609.json",
+    "content_type": "application/json",
+    "path": "sources/cps_submissions.json",
+    "sha256": "59e267ec1e2ab2f13fa4262f517e764acf5a0c3f9e843a1c87b059ef9699e0c7",
+    "bytes": 160476
+  },
+  "crmt_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0000799850.json",
+    "accessed_utc": "2026-10-19T17:06:45.058362+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0000799850.json",
+    "content_type": "application/json",
+    "path": "sources/crmt_submissions.json",
+    "sha256": "6784a45e3d0a395a22346061520ff1f18379d4b01874e5f001d742d44f18bf7c",
+    "bytes": 162993
+  },
+  "vrm_2026-10-15": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526422899/vrm-20261013.htm",
+    "accessed_utc": "2026-10-19T17:07:06.852288+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526422899/vrm-20261013.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_2026-10-15.html",
+    "sha256": "6bd46b16b7a8efc7649875a587105b489b30bd5431e07ebba318b0bbde2bcd08",
+    "bytes": 67020
+  },
+  "vrm_2026-09-30": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-20260930.htm",
+    "accessed_utc": "2026-10-19T17:07:07.125427+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526409064/vrm-20260930.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_2026-09-30.html",
+    "sha256": "599efa2e9637d3ee0e5c0dd7d8125d597a1a9b000a74536d90d1391855290319",
+    "bytes": 57904
+  },
+  "cacc_0921": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000195/cacc-20260915.htm",
+    "accessed_utc": "2026-10-19T17:07:07.339509+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000195/cacc-20260915.htm",
+    "content_type": "text/html",
+    "path": "sources/cacc_0921.html",
+    "sha256": "b027bded8d4bcede4c7f3c259d84e610131287f8dd90f6589b289e939198c30e",
+    "bytes": 35025
+  },
+  "cps_2026-10-13": {
+    "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826007809/cps_8k.htm",
+    "accessed_utc": "2026-10-19T17:07:12.918138+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826007809/cps_8k.htm",
+    "content_type": "text/html",
+    "path": "sources/cps_2026-10-13.html",
+    "sha256": "c9ad7f071921c9c2b829fe1c8f7f8f2447924fbbb829537e0a077de4a283c2ed",
+    "bytes": 30802
+  },
+  "crmt_2026-10-15": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006667/f8k_101526.htm",
+    "accessed_utc": "2026-10-19T17:07:13.281313+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006667/f8k_101526.htm",
+    "content_type": "text/html",
+    "path": "sources/crmt_2026-10-15.html",
+    "sha256": "8e461b73afaf86f8231cb37d34e238ee311ad75ec08712cb6ae4fa3c8fd37aa7",
+    "bytes": 24785
+  },
+  "crmt_2026-10-08": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006538/f8k_100826.htm",
+    "accessed_utc": "2026-10-19T17:07:13.436116+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006538/f8k_100826.htm",
+    "content_type": "text/html",
+    "path": "sources/crmt_2026-10-08.html",
+    "sha256": "ca715b2fee47627ee21db570a3f685b35b4da8681ad2667d4900b046b8cb6e18",
+    "bytes": 24813
+  },
+  "crmt_2026-10-01": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006326/f8k_093026.htm",
+    "accessed_utc": "2026-10-19T17:07:13.674130+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006326/f8k_093026.htm",
+    "content_type": "text/html",
+    "path": "sources/crmt_2026-10-01.html",
+    "sha256": "a8085459a90d375c48926e951576b2e66d2097f2b0225c4a90184b448c373dad",
+    "bytes": 25647
+  },
+  "crmt_2026-09-24": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006214/f8k_092426.htm",
+    "accessed_utc": "2026-10-19T17:07:14.356086+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006214/f8k_092426.htm",
+    "content_type": "text/html",
+    "path": "sources/crmt_2026-09-24.html",
+    "sha256": "b09d972e8821751b4552c5937bcd70718e612b90d6e6dadbbb39163f57af4775",
+    "bytes": 29999
+  },
+  "ally_q2_10q": {
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000004072926000017/ally-20260630.htm",
+    "accessed_utc": "2026-10-19T17:07:14.654057+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/40729/000004072926000017/ally-20260630.htm",
+    "content_type": "text/html",
+    "path": "sources/ally_q2_10q.html",
+    "sha256": "38f2f8f3877b1c94b266ad780b4427d84592bab0be941017d2a02206dd5f0ab4",
+    "bytes": 7567058
+  },
+  "ally_q3_notice": {
+    "url": "https://media.ally.com/2026-09-17-Ally-Financial-schedules-release-of-third-quarter-2026-financial-results",
+    "accessed_utc": "2026-10-19T17:07:26.929141+00:00",
+    "status": 200,
+    "final_url": "https://media.ally.com/2026-09-17-Ally-Financial-schedules-release-of-third-quarter-2026-financial-results",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "sources/ally_q3_notice.html",
+    "sha256": "0ddfd4ebb9114fbc9ab64e19dc3b610a128f9a6829c88530888f483424409348",
+    "bytes": 135131
+  },
+  "vrm_0001193125-26-374609": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526374609/vrm-20260826.htm",
+    "accessed_utc": "2026-10-19T17:07:44.911891+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526374609/vrm-20260826.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_0001193125-26-374609.html",
+    "sha256": "7b9c68adce8c9646f6d46dd57267e7743a968bb5bb6ac1be8ff6a30112aa4c75",
+    "bytes": 38848
+  },
+  "vrm_0001193125-26-332834": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526332834/vrm-20260630.htm",
+    "accessed_utc": "2026-10-19T17:07:45.382986+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526332834/vrm-20260630.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_0001193125-26-332834.html",
+    "sha256": "71a233bf4bac8a90f5ea730ddecff8c7c6191962005229f10bf674211e72cb71",
+    "bytes": 7732303
+  },
+  "vrm_0001193125-26-332803": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526332803/vrm-20260804.htm",
+    "accessed_utc": "2026-10-19T17:07:47.514873+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1580864/000119312526332803/vrm-20260804.htm",
+    "content_type": "text/html",
+    "path": "sources/vrm_0001193125-26-332803.html",
+    "sha256": "3d29e88ff3ad8b34eb9f6ccc7b100d89a6449469a2eb22afcfb85d31f437aa25",
+    "bytes": 60340
+  },
+  "crmt_0001171843-26-006216": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006216/f8k_092426.htm",
+    "accessed_utc": "2026-10-19T17:07:47.871131+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006216/f8k_092426.htm",
+    "content_type": "text/html",
+    "path": "sources/crmt_0001171843-26-006216.html",
+    "sha256": "45acc887f0e1fca5b4e28ac7f346dcc12a7fba7c4761a61f2cdc4d2052136cfe",
+    "bytes": 25574
+  },
+  "crmt_0001171843-26-006214": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006214/f8k_092426.htm",
+    "accessed_utc": "2026-10-19T17:07:48.129713+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006214/f8k_092426.htm",
+    "content_type": "text/html",
+    "path": "sources/crmt_0001171843-26-006214.html",
+    "sha256": "b09d972e8821751b4552c5937bcd70718e612b90d6e6dadbbb39163f57af4775",
+    "bytes": 29999
+  },
+  "cacc_bleecker": {
+    "url": "https://www.bleeckerstreetresearch.com/research/cacc",
+    "accessed_utc": "2026-10-19T17:07:48.370215+00:00",
+    "status": 200,
+    "final_url": "https://www.bleeckerstreetresearch.com/research/cacc",
+    "content_type": "text/html;charset=utf-8",
+    "path": "sources/cacc_bleecker.html",
+    "sha256": "bc86647d6b8de52788f2ccc60ff5d6d3210e8fb45bb82c751afd1f4233010f9b",
+    "bytes": 209352
+  },
+  "ally_ir": {
+    "url": "https://www.ally.com/about/investor/",
+    "accessed_utc": "2026-10-19T17:07:49.647193+00:00",
+    "status": 200,
+    "final_url": "https://www.ally.com/about/investor/",
+    "content_type": "text/html",
+    "path": "sources/ally_ir.html",
+    "sha256": "995a92d9c4b22f1ac0eaeef649342b214ed6d37c7392756456b71b33c14ca704",
+    "bytes": 233856
+  },
+  "cacc_2023_earnings": {
+    "url": "https://www.globenewswire.com/en/news-release/2023/01/31/2598945/3872/en/Credit-Acceptance-Announces-Fourth-Quarter-and-Full-Year-2022-Results.html",
+    "accessed_utc": "2026-10-19T17:08:43.372269+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "cvna_2025_earnings_actual": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082025000073/cvna-20250219.htm",
+    "accessed_utc": "2026-10-19T17:08:43.471944+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082025000073/cvna-20250219.htm",
+    "content_type": "text/html",
+    "path": "sources/cvna_2025_earnings_actual.html",
+    "sha256": "60c9c6952ad8618f3dde33bef37c38fab56d486628ac1e862458c9b9adf2a76c",
+    "bytes": 33354
+  },
+  "vrm_ir_news": {
+    "url": "https://ir.vroom.com/news-events/news-releases",
+    "accessed_utc": "2026-10-19T17:08:43.955406+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "cacc_2023_earnings_pdf": {
+    "url": "https://www.ir.creditacceptance.com/node/20146/pdf",
+    "accessed_utc": "2026-10-19T17:09:01.293554+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+}

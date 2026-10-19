@@ -1,0 +1,5 @@
+ticker	source_key	publisher_timestamp	report_date	next_actual_earnings	calendar_days_before	type
+CVNA	hindenburg_jan02	2025-01-02T10:00:05-05:00	2025-01-02	2025-02-19	48	initial
+CVNA	gotham_jan28	2026-01-28T16:21:03.457Z	2026-01-28	2026-02-18	21	initial
+CVNA	gotham_feb18	2026-02-18T13:56:09.190Z	2026-02-18	2026-02-18	0	follow-up, same Gotham campaign
+CACC	cacc_bleecker	2023-01-13T08:30:00-0500	2023-01-13	2023-01-31	18	initial, older comparison
