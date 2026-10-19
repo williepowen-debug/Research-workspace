@@ -160,3 +160,5 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 **2026-10-19 — documentation maintenance after the domain sweep.** All nine source reads have workbook homes; durable evidence and policy changes are KB-HOMER-034–038. Added the missing workbook schema definitions and repaired three older multifamily rows without changing their original cells. Handoff and intake lifecycle reconciled; old completion bannered historical. Full audit → `reports/2026-10-19_documentation-audit.md`; sweep synthesis preserved verbatim → `archive/STATUS_2026-10-19_sweep-bottom-line.md`.
 
 **Thesis 0/5 killed, handle 19/25; formal review 11/20.** Source-access and denominator gaps remain explicit. **Will decision required: none.**
+
+**Will-requested final closeout 10/19:** both inbox lanes empty; handoff current. Receipt → `PROME/inbox/2026-10-19_from-HOMER_final-closeout.md` (or `processed/`). Registered source follow-ups remain on the docket; PROME coordinates reviewed push.
