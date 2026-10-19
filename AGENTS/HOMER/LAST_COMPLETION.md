@@ -1,3 +1,11 @@
+# FROZEN 2026-10-15 — historical completion record
+
+**Banner added 2026-10-19. Everything below the divider is the unchanged October 15 snapshot, including its then-open owed list. It is not current work status.** Current state: `STATUS.md`; continuation: `SCRATCH.md`; dated delivery: `PROME/inbox/2026-10-19_from-HOMER_domain-sweep-nine-new-reads.md` (or its `processed/` successor). Maintenance audit: `reports/2026-10-19_documentation-audit.md`.
+
+This copy is frozen under `PROME/COMPLETION_SPEC.md`'s owner freeze/banner provision. Future completions go to dated PROME delivery memos.
+
+---
+
 # HOMER — LAST_COMPLETION
 
 *Dated record of the most recent session's completion. The dated delivery memo in `PROME/inbox/` (or `processed/`) is the delivery surface; live state is `STATUS.md`, the handoff is `SCRATCH.md`. If this file's date is older than the newest HOMER commit, it is stale.*

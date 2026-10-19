@@ -48,3 +48,30 @@ KB.tsv	Epistemic	String	EMPIRICAL / ESTIMATE / ASSUMPTION
 KB.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED
 KB.tsv	Stale_By	Date	Expected review date (YYYY-MM-DD or empty)
 KB.tsv	Notes	String	Context, caveats, cross-agent links
+KB_LIVE.tsv	ID	String	KB-HOMER-NNN; sequential post-promotion IDs; frozen KB.tsv IDs unchanged
+KB_LIVE.tsv	Date	Date	Date claim logged, YYYY-MM-DD; publication and observation dates distinguished in Source
+KB_LIVE.tsv	Group	String	Domain or source/process group
+KB_LIVE.tsv	Entity	String	Specific entity, cohort or document
+KB_LIVE.tsv	Fact	String	Precise claim; quantified evidence and inference labelled separately
+KB_LIVE.tsv	Source	String	Source URL/date and saved evidence path where available
+KB_LIVE.tsv	Conf	String	Admiralty reliability/credibility digraph; older rows retain their recorded confidence convention
+KB_LIVE.tsv	Epistemic	String	EMPIRICAL / ESTIMATE / ASSUMPTION; label inference or ruling explicitly
+KB_LIVE.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED; older rows retain original terminology
+KB_LIVE.tsv	Stale_By	Date or String	Review date or explicit source/event condition; not an invented publisher release date
+KB_LIVE.tsv	Notes	String	Scope, denominator, limitations, consumer links and review context
+RATES.tsv	Metric	String	Instrument, rate or demand measure; PMMS/MBA/MND bases kept distinct
+RATES.tsv	Value	String	Current observed value and units
+RATES.tsv	Prior	String	Prior observation on stated basis; historical vintage labelled
+RATES.tsv	Change	String	Change with comparison window and units
+RATES.tsv	As_Of	Date or String	Measurement date/window; intraday observed updates distinguished from final closes
+RATES.tsv	Source	String	Publisher, publication/retrieval date and source basis
+RATES.tsv	Status	String	Approved band color or explicit context/ungraded status
+RATES.tsv	Notes	String	Method, survey alignment, revisions and interpretation limits
+PRICING.tsv	Index	String	Publisher/index or market-series identity
+PRICING.tsv	Metric	String	Specific price, demand or inventory measure and window
+PRICING.tsv	Value	String	Current observed value with units and adjustment basis
+PRICING.tsv	Prior	String	Prior or comparison observation; cross-instrument differences explicit
+PRICING.tsv	As_Of	Date or String	Measurement window, publication date and vintage where relevant
+PRICING.tsv	Source	String	Publisher URL/date and source/evidence basis
+PRICING.tsv	Status	String	Approved band color or explicit context/ungraded status
+PRICING.tsv	Notes	String	Revisions, sample limits, ownership and inference constraints

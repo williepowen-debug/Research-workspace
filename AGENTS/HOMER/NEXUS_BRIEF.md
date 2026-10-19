@@ -2,7 +2,7 @@
 
 **Status:** 🔴 New Trepp cohort coverage warning; rental-demand counterweight. Nine sweep additions; thesis counts unchanged.
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-10-19 Will-requested sweep fold, after final STATUS write, same owner commit. New context is dated below; morning HMI/spread grade unchanged. Routed digest SIG-W-20261019-009 receipted against the existing sweep; no extra observation.
+**As of:** 2026-10-19 documentation-maintenance fold, after final STATUS write, same owner commit. Sweep evidence and morning HMI/spread grades unchanged. Routed digest SIG-W-20261019-009 receives the existing sweep; no extra observation. Durable findings now KB-HOMER-034–038; evidence-to-ledger mapping and continuity repairs → `reports/2026-10-19_documentation-audit.md`.
 
 > ♻️ **ROTATED 2026-09-24** — the pre-rotation brief is preserved byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108).
 

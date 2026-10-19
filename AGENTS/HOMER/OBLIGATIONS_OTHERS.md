@@ -31,5 +31,6 @@
 | **Ginnie Mae APM 26-06** | **MEASUREMENT BREAK** from Mar-2026 reporting: headline Ginnie **issuer** DQ ratios UNDERSTATE stress | not a catalyst |
 | **NY Fed HHDC VantageScore 4.0** | **MEASUREMENT BREAK** at 2026:Q1 (measurement side) — any score-stratified series across the 2025Q4→2026Q1 seam measures two instruments, direction unsigned | not a catalyst |
 | **FHFA all-lenders VantageScore order (9/3)** | **MEASUREMENT BREAK**, ORIGINATION side, 2026:Q3/Q4 on | not a catalyst |
+| **HUD ML2026-11, FHA case numbers from 2027-01-01** | **FUTURE MODEL/VINTAGE BREAK**, origination side: alternative score models alongside Classic; numeric 500/580 floors unchanged. `workbook/KB_LIVE.tsv` KB-HOMER-037; implementation/preparedness check on docket | not today's MBA delinquency numerator, a numeric credit-floor cut or a HOM-02 resolver |
 
-✅ **HOMER holds NO score-stratified series and NO score-share threshold (VERIFIED 2026-09-11)** — the three measurement-break rows are **prophylactic registrations**, not live exposures.
+✅ **HOMER holds NO score-stratified series and NO score-share threshold (VERIFIED 2026-09-11)** — these measurement-break rows are **prophylactic registrations**, not live exposures. The 10/19 sweep added the future FHA implementation flag without creating a new scored series.

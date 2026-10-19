@@ -1,19 +1,25 @@
-# HOMER SCRATCH — 2026-10-19 Will-requested domain sweep
+# HOMER SCRATCH — 2026-10-19 documentation maintenance
 
-**Runtime/session unchanged:** Will-launched Codex, launch-selected gpt-6.1-sol; root /home/willi/Research-workspace; session01a154ec-39a6-7411-b4ea-0e517d328823. No new owner/helper. No pull/stash/reset/push under existing commission; PROME coordinates reviewed push. Morning handoff retained verbatim at archive/SCRATCH_2026-10-19_morning.md.
+**Runtime/session:** independent Will-launched Codex/OpenAI, launch-selected gpt-6.1-sol; root `/home/willi/Research-workspace`; session `01a154ec-39a6-7411-b4ea-0e517d328823`. Same owner; no helpers. No pull/stash/reset/push under the commission; PROME coordinates reviewed push.
 
-## Sweep result
+## Durable result
 
-Nine uncaptured observations/documents in reports/2026-10-19_domain-news-sweep.md: two Trepp studies; Redfin weekly; ZillowSept; Miami-DadeSept; HUDML2026-11/12; MND newer daily path; LDI Nomura facility. Five workbook ledgers updated. Strongest addition is performing CRE CLO reporting-cohort cash-flow shortfall; rental demand and Miami inventory/speed are counter-evidence. Scope/denominator/method cautions are in the report and current dashboard.
+Morning L725: October HMI 29/cutters 43%, A3 0/3; 10/15 house mortgage spread recomputed to 221bp; Texas October secondary inspected, primary list/MF subtotal still unavailable. Report: `reports/2026-10-19_morning-L725.md`; owner commit `2556731f0`, PROME delivery `eba68e7b0`.
 
-**No new formal resolver:** morning0/5 killed,19/25 and11/20 unchanged. Trepp vendor Freddie0.80 August cut is unresolved-perimeter, never replaces issuer0.64. HUD12 PDF lacks visible issuance date; not labelled today news. LDI uncommitted repo is no-verdict absent emergency/breach evidence. Full servicer filing census not certified (SEC index403).
+Will-requested sweep: nine uncaptured observations/documents in `reports/2026-10-19_domain-news-sweep.md`, five data ledgers updated. Owner evidence `076910b8f`; WALTER/CORAL packets `3c7e5fb3a`; digest receipt `cf1443a51`; final delivery `2f9b4117c`.
 
-## Registered continuation
+Will's maintenance follow-up: KB-HOMER-034–038 preserve the Trepp reporting-cohort warning, managed-pool/comparability caveat, rental-demand counterevidence and two HUD changes. SCHEMA now covers KB_LIVE/RATES/PRICING. Three old MULTIFAMILY rows had a missing Metric cell; labels added, all original cells retained. Fixed stale July FHA context in current STATUS summaries; bannered LAST_COMPLETION as a frozen October 15 snapshot. Exact mapping/checks: `reports/2026-10-19_documentation-audit.md`.
 
-Existing late-October clocks remain in docket/CATALYSTS.tsv. Docket now also carries the previously uncaptured Redfin weekly, Zillow and Miami recurring reads; FHA model implementation1/1/27; expected UWM rights schedule verification (11/12 close from original announcement, not finalized outcome); PFSI10/29. No unregistered proposed study. Texas/ATTOM access gaps and11/20 base-window defects remain in their existing rows.
+**No resolver/grade change:** thesis 0/5 killed, handle 19/25, formal review November 20. HOM-01 closed MISSED; HOM-02 open pending Q3 NDS. Frozen parent-era KB and thesis/prediction files unchanged in this maintenance pass.
 
-## Intake / delivery
+## Intake and delivery state
 
-Sweep intake0 top-level/3 WALTER:003 upstreamHY INFO,004 receives existingHMIgrade,007 office-routing correction; all integrated into board_log. Named COR-20261019-07 receipted NO-OP, prior decline commits cited. Sender packets were uncommitted at first read, then became tracked during the sweep; filing occurs only after HOMER integration commit. Final census and delivery commits are in dated PROME memo.
+Sweep started 0 top-level / 3 WALTER; later digest009 made four total. All integrated before filing; final and maintenance census 0/0. Sender tracking `666b5eb5d` preceded filing. Initial three integrated at `076910b8f` before `3c7e5fb3a`;009 at `cf1443a51` before `2f9b4117c`. COR-20261019-07 has a NO-OP receipt citing the prior office-task decline.
 
-Owner evidence is durable before WALTER/PROME packets. Native cross-terminal notification/consumption/closeout transport remains unverified. Await explicit PROME closeout ask and answer if received. No Will decision identified.
+WALTER BOARD SIG-W-20261019-009 establishes its consumption/routing of the sweep. CORAL and PROME exact-version consumption remain unverified. Dated delivery memos are in `PROME/inbox/` or `processed/`; newest maintenance memo: `2026-10-19_from-HOMER_documentation-audit-and-KB.md`. Native cross-terminal transport remains unverified. Answer PROME's explicit full-closeout request when received.
+
+## Next registered work / gaps
+
+Use `docket/CATALYSTS.tsv`: October 20 NRC/PHSI; October 22 PMMS/PHM/Redfin; late-October ICE/GSE; PFSI October 29; UWM expected rights schedule verification; monthly Zillow/Miami; Q4 FHA preparedness, effective January 1. ATTOM retry and warrantability-policy instrument remain explicitly unresolved; no county-level causal inference.
+
+Trepp Freddie 0.80 vs issuer 0.64 perimeter unresolved; selected cash-flow reporting dates unspecified. HUD BTR PDF issuance date absent. Full servicer census not certified (SEC index403); ATTOM access and Texas primary gaps remain. Required local tools ran; optional LEDGER_GLOB absent, default workbook scan used (10 files), with docket/corrections/predictions checked separately. Read-cap result is heuristic, not charter-injection certification. No Will decision required.

@@ -10,6 +10,7 @@
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
 ✅ **10/19 — Will-requested sweep + morning L725.** New evidence → `reports/2026-10-19_domain-news-sweep.md`; HMI/spread grade → `reports/2026-10-19_morning-L725.md`. Prior narrative retained in `archive/STATUS_2026-10-19_morning-narrative.md`.
+Documentation audited 10/19; durable findings → `workbook/KB_LIVE.tsv` KB-HOMER-034–038.
 ⚠️ **YEAR TRAP, now n=4 on this desk:** verify the page's publication YEAR, not just the month.
 
 ---
@@ -34,7 +35,7 @@
 | **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🔴 accelerant in force — first visible in FHA FC starts, ~late Oct |
 | **★★ Non-bank servicer watch** | **CLASS A FIRED 2026-08-07: Fitch cut UWM BB- → B+** (non-funding debt/equity 6.1x vs 3.2x; $603M hedge loss). ⚠️ SECONDARY ×2 (HousingWire, Investing.com); Fitch primary owed. **Found 9/29, 53 days late:** this row carried the 7/31 "no event" negative without re-running it. Also: **LDI NYSE <$1 notice 8/21** = no-verdict (price) · RITM S&P **upgrade** 9/28 · PFSI/RKT/ONIT nothing found *(KB-HOMER-033; last full sweep 9/29)* | 🔴 **FIRED (A)** — was labelled "seeded, never fired" |
 
-★★ **INFLOW COOLING, CONVERSION ACCELERATING — holds.** ⚠️ The inflow half cuts against HOM-02 — **but on the YoY basis FHA cures are still 39% below a year ago, so that counter-evidence is WEAKER than I recorded 9/14. Say both.**
+★★ **INFLOW COOLING, CONVERSION ACCELERATING — holds.** FHA new defaults **−15% YoY** cuts against HOM-02; FHA cures **−37% YoY in August** still limit the relief. July's −39% is historical. Say both.
 
 ### Multifamily — GSE + CMBS Books
 | Metric | Value (as of) | Band |
@@ -147,7 +148,7 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 | ID | Call | State |
 |---|---|---|
 | **HOM-01** | FMHPI nominal YoY rolls over | ⛔ **CLOSED — MISSED (EARLY-KILL) 8/31. DO NOT RE-OPEN.** ICE's 3-mo cooling (9/24) is context, not a re-opening |
-| **HOM-02** | MBA NDS **FHA SA total DQ ≥12.00%** (65%) | 🔴 **OPEN. Early-kill arm 1 of 2 FIRED** (Q2 11.79%). Evidence both ways: ICE July inflow improving at every stage **vs** FHA cure rate still **−39% YoY** and HUD ML 2026-08 now in force. **Q3 (~mid-Nov) decides** |
+| **HOM-02** | MBA NDS **FHA SA total DQ ≥12.00%** (65%) | 🔴 **OPEN. Early-kill arm 1 of 2 FIRED** (Q2 11.79%). August FHA new defaults **−15% YoY** vs FHA cures **−37% YoY**; HUD ML 2026-08 now in force. **Q3 (~mid-Nov) decides** |
 | **CRL-06 · CRL-23** | *(CARL-held; HOMER data owner)* | CRL-06 ✅ CONFIRMED 7/16 (basis = STARTS). CRL-23 🟡 OPEN — DHI + PHM moving AWAY |
 
 ⚠️ `Date_Resolved`/`Outcome` stay EMPTY while one arm of a two-arm kill has fired — that is not a resolution.
@@ -156,10 +157,6 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 ## BOTTOM LINE
 
-**2026-10-19 — Will-requested sweep for uncaptured domain evidence.**
+**2026-10-19 — documentation maintenance after the domain sweep.** All nine source reads have workbook homes; durable evidence and policy changes are KB-HOMER-034–038. Added the missing workbook schema definitions and repaired three older multifamily rows without changing their original cells. Handoff and intake lifecycle reconciled; old completion bannered historical. Full audit → `reports/2026-10-19_documentation-audit.md`; sweep synthesis preserved verbatim → `archive/STATUS_2026-10-19_sweep-bottom-line.md`.
 
-**Nine additions captured.** The strongest: Trepp's selected 2021–22 multifamily CRE CLO cohort has weak cash-flow coverage even among loans still paying. **93.8% applies only to performing balances with reported coverage in five states**, not all apartments; reporting dates/selection limit the inference. It strengthens financing-pressure evidence, not a bank-loss or imminent-default claim.
-
-**Counter-evidence matters:** Zillow September rental demand **+19.2% YoY**, MF asking rents **+2.2%**, concessions39.6%. Miami-Dade condo inventory **−7.24% YoY**, contracts eight days faster, despite12.3months supply. Redfin's four-week pending-sales reading is **−12.7% YoY**, with the latest overlapping window **+1.5%**. HUD's conditional BTR financing and dated FHA score methodology are now recorded; MND's post-survey rate relief partly reversed. loanDepot's up-to$125M uncommitted facility does not itself fire a servicer class.
-
-**Thesis counts0/5 killed, handle19/25, formal review11/20 unchanged.** Morning HMI/spread findings remain in their report. Three later WALTER items integrated, including the office-task correction (NO-OP receipt). Current evidence and limitations → `reports/2026-10-19_domain-news-sweep.md`. No trade, spend, threshold or confidence change. **Will decision required: none.**
+**Thesis 0/5 killed, handle 19/25; formal review 11/20.** Source-access and denominator gaps remain explicit. **Will decision required: none.**
