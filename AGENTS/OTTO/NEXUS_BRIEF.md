@@ -3,7 +3,7 @@
 **Status:** 🔴🔴 fraud-leg (4 confirmed cases; both OTTO mechanisms criminally charged; First Brands in Ch.7 since 9/1) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 points on one root
 **Domain:** Auto-sector fraud & stress: subprime lending, ABS performance, immigration-auto transmission, related-party manipulation
 **Thesis version:** v1.5 + scoped10/19 factual/rule/calibration addendum; finalv1.6, earnings/risk audit/recovery rung and cold read still due10/30
-**As of:** 2026-10-19 13:53 ET (session034, final fold) | STATUS commit: `4cb6c316a`
+**As of:** 2026-10-19 14:36 ET (session035, final fold) | STATUS commit: `7a690e796`
 **Recent thesis pivots:** s034 warehouse55→25%OPEN subjective; credit-washingSTUCK; strict original forecast score3/8,0.276875. SDT consequence restored to original3consecutive total; no numerical threshold/colour/convergence/trade change. s033 JulyAlly$8B/July2027 with immediate cancellation discretion remains; no actual cancellation established. OTTO-31 remains8%OPEN.
 
 ---
@@ -45,6 +45,7 @@
 
 ## CALIBRATION
 
+- **s035 procedural correction:** earlier research acceptance did not establish full closeout. Omitted semantic mirror/promotion checks completed now:32events,8unresolved predictions,8conviction/rule claims. Nine calendar rows reconciled; no earnings-day publication pattern, no issuedEART2026-4 absence candidate, no retired-row instruction or retroactiveOTTO-29 grade. Existing memory classes suffice, no new promotion. Receipt `research/2026-10-19_closeout-finish/RECEIPT.md`,7a690e796. No date/forecast/threshold/colour/convergence/research judgment change; receiver/CATO closure unverified.
 - **s034 instrument audit:** OTTO-11 **STUCK**,60%/deadline/terms preserved. Candidate PointPredictive consortium applicationALERT rate2025=1.54%,2024=1.70%; not proven national prevalence/H2-2026. Q2-2026 page repeats2025. No proxy substitution/early negative grade; post-hoc dead-zone decision earns no calibration credit.11/30/12/31 source checks. CATO OR1 owner repair stands; reviewer closure unverified.
 - **s032:** historical publication dates do not estimate future report-arrival probability; same-dayGotham follow-up is dependent. No backdating the missedOctober1 warehouse search: actual attemptOctober19.37successful source captures hash-verified (duplicates included),8in-window8-Ks inspected; no full-market coverage claimed.
 - **L708 calibration limit:** the n=5 noise exercise returns MIXED ~99.8% (CARL/NEXUS); not a new calibration for our n=2 supplement. NO_INSTRUMENT is no evidence of absence; equities may miss credit/lag effects.
@@ -72,7 +73,7 @@ Canonical forward set: `docket/CATALYSTS.tsv`. WINTERKORN (the docket sub-agent)
 | 10/22 · ~11/05 | CRMT bridge7 STD (BROCK); modeled M&T Q3 10-Q narrow-custody check | Read owner grade; no promised filing date or broad-to-narrow inference |
 | 10/20 · 10/21 | Ally Q3 + First Brands D&O; BlackRock confer outcome pending10/21 | Warehouse-lending curtailment; post-deadline order, not an implication |
 | 10/21 · 10/27 | First Brands §721 operate-the-business hearing · First Brands §341 | Trustee's path for the estate |
-| 10/21 | OTTO-07 shelf re-run · Carvana T-7 short-seller check · Tricolor suppression-ruling check (ECF 108) | A shelf that stopped issuing · activist mention · evidence suppressed |
+| 10/21 | OTTO-07 full shelf re-run (EART2026-4 FWP already read) · Carvana T-7 short-seller check · Tricolor suppression-ruling check (ECF 108) | A shelf that stopped issuing · activist mention · evidence suppressed |
 | 10/28 · ~10/29 | Carvana Q3 + CRMT backstop5 (BROCK) · EART Sept 10-Ds | Published finance disclosures + any actual report; no cadence · recovery vs 28%, OTTO-34 |
 | 10/30 · 11/30 | Finalv1.6/cold read · covering-source/warehouse follow-up | Source/early-hit audits DONE10/19; literal11claimSTUCK, broader thesis still owed |
 | 11/6 · ~11/15 | Manheim October · Severity-Divergence re-run | A second negative print · CONFIRM / REFUTE |
