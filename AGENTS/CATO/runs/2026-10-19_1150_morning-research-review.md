@@ -68,3 +68,37 @@ Stop this review after durable findings/checks and exact Git delivery. Recommend
 Named-condition recheck at **11:53:51 ET**: MR1's Friday HBAN instruction still present; L725/L746 PENDING and PROME's current owner-handoff row still says wakes unlaunched. This is a later check of those specific conditions, not a second full review. Evidence companion: [input manifest](2026-10-19_1150_morning-research-review/input_manifest.json), [CATO arithmetic witness output](2026-10-19_1150_morning-research-review/independent_checks.json).
 
 All twelve distinct intended checker inputs verified existing/readable. Weekday checker passed `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, `AGENTS/CATO/CONTINUITY.md`, `AGENTS/CATO/TASK_INDEX.md`, the continuing README/application report and this report (seven paths). Read-cap passed the six required startup paths: `AGENTS/CATO/AGENTS.md`, `AGENTS/CATO/CHARTER.md`, `AGENTS/CATO/CONTINUITY.md` (7,167 B), `CLAUDE.md`, `USER.md`, `AGENTS.md`; root CLAUDE rotation advisory unchanged. Optional desk STATUS/CALENDAR/catalyst files not introduced or included. Orphan advisory found no likely CATO packets; other-owner changes preserved; shared index empty at inspection. No conditional auto-memory/ledger/consumer trigger. Whitespace diff check passed; numerical/source checks and limits are above. Exact commit/push receipt and any other-owner commits carried by the shared push are delivered in-session.
+
+## October 19, 12:07 ET — operator-card ownership and launch commands
+
+Will initially asked CATO to correct the operator card, then redirected that correction to the agents before any owner-file write. No change was made to PROME/SCRATCH.md. MR1 remains OPEN at PROME; no trade, broker disposition or consumer repair is inferred. The newer owner coordination commit is `26f69a9da`; its existence does not establish owner absence. This follow-up does not re-audit that commit.
+
+Will requested commands for separate LIQUID, HOMER and WALTER terminals using Codex Sol with permissions enabled. Commands below select `gpt-6.1-sol`, live search and the explicit full-access/no-approval flag. Verified against installed `codex-cli 0.163.0 --help` and [official CLI reference](https://learn.chatgpt.com/docs/developer-commands?surface=cli). These are commands for Will to run, not launch receipts; no agent was spawned, contacted or assigned additional work by CATO. Each begins with the required runtime-loading brief and points to the existing bounded commission. WALTER must use saved completions rather than repeat the completed bookmark measurement. Prior source notes in the commissions are dated snapshots; owners recheck sources. Existing no-trade, no-spend, no-external-send and shared-Git restrictions remain.
+
+Before running a command, establish that no other session is writing that desk; a clean path or an old absence receipt does not establish current absence. The full-access flag changes technical execution permissions, not research or trade authority. MR2 stays OPEN until source-qualified owner returns are consumed; MR3 and prior source/publication conditions survive. CATO has no remaining implementation assignment; orient and await Will.
+
+**LIQUID**
+
+```bash
+codex -C /home/willi/Research-workspace/AGENTS/LIQUID \
+  -m gpt-6.1-sol --search --dangerously-bypass-approvals-and-sandbox \
+  "Resolve the repository root. Explicitly read root CLAUDE.md, AGENTS.md and USER.md, then AGENTS/LIQUID/CLAUDE.md and that desk's boot instructions. Resolve all repository-root paths from the repository root. Do not assume instructions, hooks or tools loaded from the launch directory. Report missing dependencies and continue independent authorized work. Resume the existing commission at PROME/tasks/2026-10-19_morning/LIQUID.md after checking current owner state, sources and saved completions. This is an independent Will-launched terminal; report here and deliver the durable result to PROME."
+```
+
+**HOMER**
+
+```bash
+codex -C /home/willi/Research-workspace/AGENTS/HOMER \
+  -m gpt-6.1-sol --search --dangerously-bypass-approvals-and-sandbox \
+  "Resolve the repository root. Explicitly read root CLAUDE.md, AGENTS.md and USER.md, then AGENTS/HOMER/CLAUDE.md and that desk's boot instructions. Resolve all repository-root paths from the repository root. Do not assume instructions, hooks or tools loaded from the launch directory. Report missing dependencies and continue independent authorized work. Resume the existing commission at PROME/tasks/2026-10-19_morning/HOMER.md after checking current owner state, sources and saved completions. This is an independent Will-launched terminal; report here and deliver the durable result to PROME."
+```
+
+**WALTER**
+
+```bash
+codex -C /home/willi/Research-workspace/AGENTS/WALTER \
+  -m gpt-6.1-sol --search --dangerously-bypass-approvals-and-sandbox \
+  "Resolve the repository root. Explicitly read root CLAUDE.md, AGENTS.md and USER.md, then AGENTS/WALTER/CLAUDE.md and that desk's boot instructions. Resolve all repository-root paths from the repository root. Do not assume instructions, hooks or tools loaded from the launch directory. Report missing dependencies and continue independent authorized work. Resume the existing commission at PROME/tasks/2026-10-19_morning/WALTER.md after checking current owner state, sources and saved completions. This is an independent Will-launched terminal; report here and deliver the durable result to PROME. Use current LAST_COMPLETION.md to resume unfinished coverage; do not repeat completed L599 measurement."
+```
+
+Follow-up validation: syntax-only `bash -n` passed all three commands; no launch was executed. All ten distinct checker inputs existed/readable. Weekday check passed the three required PROME paths, CATO CONTINUITY and this report (five paths); the six explicit startup paths passed read-cap, retaining the root CLAUDE rotation advisory. Orphan advisory found only other-owner paths, preserved; shared index empty and PROME/SCRATCH clean at inspection. No conditional memory, ledger or numerical-consumer trigger. Exact CATO diff passed whitespace check. Final Git receipt is delivered in-session.
