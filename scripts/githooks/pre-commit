@@ -5,6 +5,10 @@
 set -u
 root=$(git rev-parse --show-toplevel) || exit 1
 cd "$root" || exit 1
+# Account-number guard (WQ-455, 2026-10-18): runs on EVERY commit, before the docket-only early exit.
+if command -v python3 >/dev/null && [ -f scripts/account_guard.py ]; then
+    python3 scripts/account_guard.py || { echo 'pre-commit: account-number guard refused or could not run; never --no-verify' >&2; exit 1; }
+fi
 git diff --cached --quiet -- PROME/DOCKET.tsv 2>/dev/null && exit 0   # docket not in this commit
 command -v python3 >/dev/null || { echo 'pre-commit: Python 3 unavailable; docket rows cannot be checked' >&2; exit 1; }
 [ -f PROME/tools/docket_row_cap.py ] || { echo 'pre-commit: PROME/tools/docket_row_cap.py missing; docket rows cannot be checked' >&2; exit 1; }
