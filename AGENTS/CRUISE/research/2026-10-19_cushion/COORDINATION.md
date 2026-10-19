@@ -4,6 +4,12 @@ Observed 2026-10-19T22:24:44.080353+00:00. Direct Will task clarification in the
 
 **Shared question:** “What would distinguish financing-driven weakness from ordinary rotation or company-specific disappointment?”
 
+## Latest acknowledgment update
+
+2026-10-19T22:26:06.395994+00:00: Both owners now explicitly acknowledge the specific conditional workflow: HENRY in committed PROME packet1f27347f2; LIQUID in its18:25:21ET ASSIGNMENT-ACK.md/PROME packet, still untracked at this observation. The remaining research dependency is HENRY’s conditional-day shortlist, not the original eight-name cohort. LIQUID acknowledgment persistence remains to be verified; this desk will not commit another owner’s files.
+
+Earlier pending-status statements below describe the preceding observation.
+
 ## Verified progress versus the remaining assignment
 
 | Owner | Verified existing work | Remaining distinction |

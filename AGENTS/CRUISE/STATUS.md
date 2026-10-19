@@ -13,7 +13,7 @@
 | **Alternative explanation: demand/execution** | Q2 CC yield RCL +1.2% / NCLH −2.6%; capacity +4.87%/+8.88%; deposit cash build +12.8%/−31.9%. Both groups include premium brands. No causal attribution to financing. KB-CRU-164 |
 | **WALTER window reproduced; CRU-11 OPEN** | September18–October16 RCL +12.97%, NCLH +6.59%, lag −6.38pp. Both rose; that window cannot grade October2–November14. Frozen preceding-session rule implies November13 if normally traded. PREDICTIONS/VX untouched. |
 | **NCLH Q3 date confirmed** | October29 06:30 ET release / 08:30 ET call, primary October15 announcement; CADENCE/watchlist updated. PROME receives existing L714 date-reconciliation ask. KB-CRU-165 |
-| **Coordination / consumption — updated** | HENRY5ca79d333 and LIQUIDbf6ac8f05/CLOSEOUT explicitly consume CRUISE findings. Original HENRY eight-name cohort6474d8726 delivered and consumed by LIQUID. Specific index-up/sector-up repeat-loser workflow acknowledgment still unverified; seven focused packets sent. Native live transport unavailable. `research/2026-10-19_cushion/COORDINATION.md`. |
+| **Coordination / consumption — updated** | HENRY5ca79d333 and LIQUIDbf6ac8f05/CLOSEOUT explicitly consume CRUISE findings. Original HENRY eight-name cohort6474d8726 delivered and consumed by LIQUID. Specific workflow explicitly acknowledged by HENRY (committed1f27347f2) and LIQUID (written18:25ET; commit pending at check); conditional shortlist remains pending. Seven focused packets sent. Native live transport unavailable. `research/2026-10-19_cushion/COORDINATION.md`. |
 
 > ## ⚖️ PRIOR STATE — 2026-10-16 Fri, **D:L712 GRADED + L0 DRAIN.** $0, no trade, no Will-gated level moved.
 > | Item | Done | Receipt |

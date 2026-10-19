@@ -21,3 +21,5 @@ RESULT: Verified 2 peer consumption receipts and the delivered eight-name cohort
 GAPS: New workflow acknowledgment and WAL/TERRY context consumption unverified; native independent-session messaging unavailable.
 WILL_NEEDS: None.
 FOLLOW-UP: PROME obtain HENRY/LIQUID acknowledgment of the conditional repeat-loser workflow; preserve completed work.
+
+Acknowledgment recheck 2026-10-19T22:26:06.395994+00:00: Both owners now explicitly acknowledge the specific conditional workflow: HENRY in committed PROME packet1f27347f2; LIQUID in its18:25:21ET ASSIGNMENT-ACK.md/PROME packet, still untracked at this observation. The remaining research dependency is HENRY’s conditional-day shortlist, not the original eight-name cohort. LIQUID acknowledgment persistence remains to be verified; this desk will not commit another owner’s files.
