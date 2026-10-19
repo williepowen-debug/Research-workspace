@@ -496,3 +496,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-16T16:23:24-04:00	SIG-W-20261016-020	acted	INBOX_WALTER	LIQ-07 adjudicated: RESOLVED S2 on both lists; WALTER arithmetic matches; signal routed back via WALTER inbox packet.
 2026-10-16T16:23:24-04:00	SIG-W-20261016-021	info-only	INBOX_WALTER	Eurostat Sep final core 2.5%, HANS-T16 1/2; HANS owns.
 2026-10-16T16:23:24-04:00	SIG-W-20261016-025	noted	INBOX_WALTER	FHLB Q3 highlights 10/30, CFR 11/13; REG-T-06 is REGINALD's; LIQUID FHLB nowcast unchanged.
+2026-10-19T16:15:06+00:00	SIG-W-20261016-027	acted	INBOX_WALTER	HY10/16 +8bp does not meet +25; measured funding no seizure; fund-unwind cause unconfirmed; L746 analysis and route packet. Integration commit50b710323.
+2026-10-19T16:15:06+00:00	SIG-W-20261016-030	noted	INBOX_WALTER	CABO court/TRO and insolvency allegation are secondary relay; no docket-primary or definitive rescue; BROCK owns borrower. Integration commit50b710323.
+2026-10-19T16:15:06+00:00	SIG-W-20261016-034	noted	INBOX_WALTER	Verification artifact checked; no named confirmed fund; timing corrected by037; causes unresolved. Integration commit50b710323.
+2026-10-19T16:15:06+00:00	SIG-W-20261016-037	acted	INBOX_WALTER	COR-20261016-03 APPLIED: earliest dated rumor13:36:33ET,16min after13:20peak; causal direction indeterminate; L746 analysis. Integration commit50b710323.
+2026-10-19T16:15:06+00:00	SIG-W-20261016-039	info-only	INBOX_WALTER	BOJ rate intent/timing undecided; corrected inevitable framing; SAM owns. Integration commit50b710323.
+2026-10-19T16:15:06+00:00	SIG-W-20261018-004	info-only	INBOX_WALTER	France protesters550K official/800K organisers;2018 quote; no dated censure/OAT fresh grade. Integration commit50b710323.
+2026-10-19T16:15:06+00:00	SIG-W-20261019-003	acted	INBOX_WALTER	Same325/323/331 source sequence confirms own MET3/3 L746; no imported RED/REG grade; WALTER dedupes route packet. Integration commit50b710323.
