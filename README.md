@@ -4,7 +4,7 @@ This is the operating repository of a human-directed research operation. Some fo
 
 I have a literature background and am self-taught across trading, systems design and AI orchestration. I designed the system and its decision rules, set its direction, choose what it works on, rule on every consequential call, and judge what its records do and do not establish. Agents produce the analysis, code and most of the prose under that direction. The failures in the system, and in how I built it, are mine.
 
-The underlying records are working artifacts rather than a curated selection; what you see is the state at the latest commit. A curated introduction, nine case studies with offline checks you can run in under a minute, is [Selected Agents Open Demonstration](https://github.com/williepowen-debug/Selected-Agents-Open-Demonstration). Read that first if you have fifteen minutes. Read this if you want to check it.
+The underlying records are working artifacts rather than a curated selection; what you see is the state at the latest commit. A curated introduction, ten case studies, seven with offline checks you can run in under a minute, is [Selected Agents Open Demonstration](https://github.com/williepowen-debug/Selected-Agents-Open-Demonstration). Read that first if you have fifteen minutes. Read this if you want to check it.
 
 ## Start here: a route for a reader with thirty minutes
 
