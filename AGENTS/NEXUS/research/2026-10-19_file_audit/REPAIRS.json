@@ -1,0 +1,76 @@
+{
+  "recorded_at_et": "2026-10-19T12:31:08-04:00",
+  "path_repairs": [
+    {
+      "file": "AGENTS/NEXUS/LAST_COMPLETION.md",
+      "old": "PROME/inbox/2026-10-15_from-NEXUS_L571-PRED48-final-FT10-L708-two-legs.md",
+      "new": "PROME/inbox/processed/2026-10-15_from-NEXUS_L571-PRED48-final-FT10-L708-two-legs.md",
+      "occurrences": 1
+    },
+    {
+      "file": "AGENTS/NEXUS/LAST_COMPLETION.md",
+      "old": "PROME/inbox/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md",
+      "new": "PROME/inbox/processed/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md",
+      "occurrences": 1
+    },
+    {
+      "file": "AGENTS/NEXUS/LAST_COMPLETION.md",
+      "old": "PROME/inbox/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md",
+      "new": "PROME/inbox/processed/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md",
+      "occurrences": 1
+    },
+    {
+      "file": "AGENTS/NEXUS/PREDICTIONS_MONITOR.md",
+      "old": "PROME/inbox/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md",
+      "new": "PROME/inbox/processed/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md",
+      "occurrences": 1
+    },
+    {
+      "file": "AGENTS/NEXUS/PREDICTIONS_MONITOR.md",
+      "old": "PROME/inbox/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md",
+      "new": "PROME/inbox/processed/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md",
+      "occurrences": 1
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_S1_owner-unconsumed-line_DESIGN.md",
+      "old": "AGENTS/NEXUS/inbox/2026-10-10_from-PROME_S1-owner-unconsumed-line-liveness-correction-before-WQ-401.md",
+      "new": "AGENTS/NEXUS/inbox/processed/2026-10-10_from-PROME_S1-owner-unconsumed-line-liveness-correction-before-WQ-401.md",
+      "occurrences": 1
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_S1_owner-unconsumed-line_DESIGN.md",
+      "old": "`inbox/2026-10-15_from-PROME_WQ401-APPROVE-S1-build.md`",
+      "new": "`inbox/processed/2026-10-15_from-PROME_WQ401-APPROVE-S1-build.md`",
+      "occurrences": 1
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_S1_owner-unconsumed-line_DESIGN.md",
+      "old": "`registry/DOORBELL_LOG.tsv`",
+      "new": "`AGENTS/WALTER/registry/DOORBELL_LOG.tsv`",
+      "occurrences": 1
+    }
+  ],
+  "gate_reference_repairs": [
+    "L9row10\u2192GATE-NEXUS-SEAT-01",
+    "L13row24\u2192GATE-NEXUS-T12S-DFII10(actualphysical19)"
+  ],
+  "claim_repair": "PRED38 historical WAL FirstBrands context explicitly EXCLUDED in claim cell; existing criteria/probabilities unchanged.",
+  "operative_HY_body_hash_unchanged": "efeab75ff57655886015e1313ec84699ba2cd5a4dd83e90d830fd875e65f2c82",
+  "no_forecast_moved": true,
+  "uncommitted_WALTER_input": "Initial audit snapshot only; both packets subsequently committed and were logged/filed as above.",
+  "WALTER_closing_disposition": {
+    "003": "committed666b5eb5d;read/noted/filed,owner-rung duplicate",
+    "008": "committedd6e2dbfeb;read/deferred/filed;source-owner read+integration10/20L554,existing wake;no third late annotation",
+    "source": "AGENTS/OTTO/research/2026-10-19_quickwins/READOUT.md (commits3a68e48c1/80aab5846)",
+    "limits": "Routed5/9September coverage and servicing effects;not44independentcredits,newcorporatebondattributionorNEXUSconfidencechange",
+    "009": "2d9238d29 INFO read/deferred/filed, HOMER primary read10/20",
+    "010_011": "0cd4974a7 INFO read/deferred/filed, LIQUID primary reads10/20",
+    "intake_cutoff_et": "2026-10-19T12:41:05-04:00",
+    "scope": "Five named committed packets only; later arrivals outside this receipt remain queued, no unattended polling."
+  },
+  "board_timestamp_audit": {
+    "old_rows": "Retained exactly per charter historical-format rule",
+    "new_rows": "Two new receipts use minute-resolution ISO ET",
+    "note": "Existing seconds-format rows are historical records, not retrofitted."
+  }
+}

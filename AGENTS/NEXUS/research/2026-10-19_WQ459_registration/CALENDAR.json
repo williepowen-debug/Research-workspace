@@ -38,5 +38,23 @@
     "2026-11-09 month-end contingency window-end publication check",
     "2026-11-10 provisional weekday-only window-end publication check",
     "2026-11-23 provisional end-of-day +35 backstop; first session after inclusive cutoff if needed"
-  ]
+  ],
+  "PROME_acceptance": {
+    "recorded_at_et": "2026-10-19T12:31:08-04:00",
+    "accepted_commit": "1131bd9bd",
+    "gate_key": "GATE-NEXUS-WQ459-HY",
+    "state": "NOT ARMED",
+    "source": "PROME acceptance in existing thread, confirmed against committed DOCKET26f69a9da",
+    "existing_wake": {
+      "L554": "2026-10-20"
+    },
+    "conditional_wakes": {
+      "L751": "2026-10-23",
+      "L752": "2026-11-09",
+      "L753": "2026-11-10",
+      "L754": "2026-11-24"
+    },
+    "cutoff_vs_wake": "Provisional inclusive cutoff11/23END ET;L754isfirst-session-aftercutoff11/24,neverearlygrade11/23morning. Recomputeactualdatesfromqualifyinganchor/count.",
+    "qualification": "wakes_to_PROME above preserves original request; this accepted set is the current registered schedule. Actual anchor/levels/dates remain unset."
+  }
 }

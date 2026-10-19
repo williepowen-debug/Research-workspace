@@ -1,0 +1,61 @@
+{
+  "recorded_at_utc": "2026-10-19 16:42:19 UTC",
+  "tier": "STANDARD",
+  "task": "Will asked to review NEXUS files for old/broken/missing/incomplete/owed work; file audit and routine owned repairs only.",
+  "coverage": "INVENTORY.json:376original files,330Markdown navigation scan,15pre-existingJSON syntax,6Python AST only,9TSVpayload widths. Hot obligations/ruling/receipt/peer-source references read directly. No external URL fetch, source-price poll, historical grid execution, new helper or full synthesis.",
+  "repairs": "REPAIRS.json:8handoff paths,2stablegate-key references,PRED38excluded historical example,acceptedWQ459NOTARMED/wakes,L630localpersistence,LIQUIDownerMETreceipt,currenthandoff history labels. No charter/model/schema policy edit.",
+  "invariants": "VERIFICATION.json:10matrixrows byte-identical,existing prediction criteria/dates/status/confidences identical,L13/L16branch cells identical,HYoperativehash efeab75ff57655886015e1313ec84699ba2cd5a4dd83e90d830fd875e65f2c82,DFIIletter+gradinglog unchanged,CONFIRMED/charter unchanged,23cold/archive files byte-identical toHEAD; actualanchor/levels unset.",
+  "checks": {
+    "weekday": {
+      "command": "recorded shell command",
+      "exit_code": 0,
+      "output": "CLAIM-CHECK \u2713 7 file(s) clean [weekday]\n"
+    },
+    "corrections": {
+      "command": "python3 scripts/corrections_boot_check.py NEXUS",
+      "exit_code": 0,
+      "output": "  INFO 1 dead-at-cap with no receipt from this desk: COR-20260925-13 \u2014 0 NAMED (still BLOCKING until receipted, WQ-254 D4(a)) \u00b7 1 ALL-row (broadcast expired: no warn, no block)\nCORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for NEXUS (register 89 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 8) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+    },
+    "read_cap": {
+      "command": "python3 scripts/read_cap_check.py --agent NEXUS",
+      "exit_code": 0,
+      "result": "READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=NEXUS reads=75 over_budget=0 over_cap=0 manifest_defects=0 advisories=2 generated_flagged=0 rotation_due=5 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=70679",
+      "own_summary": [
+        "  \u2705 AGENTS/NEXUS/LAST_COMPLETION.md      23,882 B    73% of budget    (whole \u00b7 NEXUS:15a)",
+        "  \u2705 AGENTS/NEXUS/BRIEFS_MAP.md           22,673 B    70% of budget    (whole \u00b7 NEXUS:15a)"
+      ],
+      "disposition": "No owned cap-bearing surface>=75%; no rotation. Five peer surfaces rotate-tier, owner responsibility. Peer pins do not establish content health."
+    },
+    "orphan": {
+      "command": "bash scripts/orphan_check.sh NEXUS",
+      "exit_code": 0,
+      "likely_yours": [
+        "     [likely YOURS] AGENTS/GIBBS/NEXUS_BRIEF.md",
+        "     [likely YOURS] PROME/inbox/2026-10-19_from-NEXUS_file-audit-receipt.md"
+      ],
+      "disposition": "Exact authored PROME audit packet committed; GIBBS/NEXUS_BRIEF foreign filename false-positive not staged; all other foreign work untouched."
+    },
+    "pins": {
+      "command": "python3 scripts/brief_pin_check.py",
+      "exit_code": 1,
+      "summary": "BRIEF-PIN 1 STALE: 28 brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) \u2014 CANNOT-EVALUATE 1 \u00b7 OK-PINNED 12 \u00b7 OK-SAME-COMMIT 12 \u00b7 STALE-PIN 2 \u00b7 UNPINNED 1. A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.",
+      "disposition": "BROCK1behind/LIQUID7behind;WALhash-labelgap;GIBBSbriefuncommitted not absentcommittedSTATUS. Recorded, not a clean-pin claim."
+    },
+    "diff": {
+      "command": "git diff --check -- AGENTS/NEXUS <authored audit packet>",
+      "exit_code": 0,
+      "final_staged_check": "Staged diff verified after trimming new report trailing whitespace; no letter or state change."
+    },
+    "state_and_links": "Invariant verification and final JSON/relative-link/packet-byte checks; active lexical miss only explicit negative historical memory-path example, actual index exists.",
+    "freshness": "FRESHNESS.json:70surfaces. LIQUIDownerMET andPROMEreceipt/persistence consumed; OTTO/HOMER/LIQUIDlater source updates explicitly queued10/20. No full re-sweep; reader must not infer current domain certification."
+  },
+  "intake": {
+    "cutoff_et": "2026-10-19T12:41:05-04:00",
+    "packets": "CommittedWALTER003 consumed;008ACTION and009\u2013011INFO read/deferred/filed10/20L554 with primary-owner read/coverage/servicing obligations. Existing9c two-late-annotation limit reached; no third synthesis patch claimed.",
+    "later_arrivals": "Outside this sealed file-audit receipt; leave active queue for existing next wake, no unattended polling."
+  },
+  "remaining": "10/20publication-qualified L13/L16/M04/M08+L11interpretation+queuedownerreads;10/27L555;M06disposition/otherexistingmatrixwindows;PRED38coverage/loan-transfers/HHDCdates;PROME L730artifact;C35ownerinstrumentlapse. CharterOpus/schema provisionalpilot noted as policy/wording debt, not silently changed or newly commissioned.",
+  "independent_review": "No new independent review; no existing whole-file rewrite or rotation, frozen HY draft-review budget not reopened. Owned reference/metadata/context-label edits verified directly; no new letter condition/threshold.",
+  "skipped": "BOOTdigest/fullmatrix and sourcepoll outside file-audit scope;9a not due10/27;root1c no published threshold/flip/split/band superseded;1c-bis noLEDGER_GLOB;1d noauto-memory;15a no existing whole rewrite/rotation. Promotion none. No applicable required control omitted.",
+  "persistence": "Exact owned paths/self-authored PROME packet only. Incoming5WALTERbytes preserved on filing. Priorboardlogbytes retained,5newminuteISO receipts appended. No push/pull/stash/reset/rebase. Terminal stays Will-owned/open."
+}

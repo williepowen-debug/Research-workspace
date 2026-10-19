@@ -1,6 +1,7 @@
 # NEXUS — Fleet Brief Map
 **Purpose:** Single index of `NEXUS_BRIEF.md` status across the fleet. NEXUS reads this at BOOT step 6 to decide where the brief read-flow applies vs where raw STATUS fallback is mandatory.
 **Updated:** 2026-10-19T11:07:39-04:00 — full census/read/pin/order pass; prior dated layers below are historical. Current evidence → `research/2026-10-19_full_synthesis/BRIEF_READS.md` / `BRIEF_MANIFEST.json`.
+> File audit 2026-10-19T12:32:17-04:00: pins unchanged classes; LIQUIDnow7STATUScommitsbehind(earlierfull-passsnapshot5). RawownerHYMETreceipt consumed; no fullbrief/synthesis re-sweep. Evidence→ research/2026-10-19_file_audit/PIN_CHECK.txt.
 
 
 > **★ October19 FULL pass** — every extant brief read whole by three fresh-context **gpt-6.1-sol** readers (Will override, no Opus/Astra); HAWK included for cross-war question. Read coverage/pins/fingerprints are in the timestamped manifest; rerun `ls AGENTS/*/NEXUS_BRIEF.md` for the live census.

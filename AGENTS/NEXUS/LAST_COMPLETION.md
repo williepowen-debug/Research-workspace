@@ -1,22 +1,20 @@
 # NEXUS — LAST COMPLETION
 
-## 2026-10-19T11:46:40-04:00 — morning/full synthesis + WQ459 registration
+## 2026-10-19T12:32:17-04:00 — morning/full synthesis, WQ459 registration, file audit
 
-Codex/OpenAI `/root`, taskwindow01a1548b-7607-75c3-8730-86a7a2aba119; exactrootmodelunexposed. Root/local startupread. Reused471fba11d/6c7b16f5c/b3256b0fe; fullpassc1f2f4321, dependencyreceipt69c256ad0. No push/pull/stash/reset/rebase.
+Codex/OpenAI `/root`, taskwindow01a1548b-7607-75c3-8730-86a7a2aba119; root/localread; exactrootmodelunexposed. Reused471fba11d/6c7b16f5c/b3256b0fe. Fullpassc1f2f4321/receipt69c256ad0;28briefs/10matrix/allroots reviewed,4read-onlySolhelpersclosed,2coldreads. Fullpass0borderingdeviation/finalunreadDFII-OTTO edits→ research/2026-10-19_full_synthesis/RECORD.md,COLDREAD1/2.
 
-HEAVYfullpassdone:28briefs/3read-onlygpt-6.1-solhelpers,10matrix/allroots/obligations; ownerreads; fourthSolcoldreader2reads. All4closed. Fullsynthesis/OTTOconsumedbyPROME. Evidence/reviewlimits/orderdeviation→ research/2026-10-19_full_synthesis/RECORD.md,COLDREAD1/2,CLOSEOUT.0bwrittenauditafterhelperstarts, beforeforecastwrites; finalDFII/OTTOeditsnotre-read.
+WQ459Aregistered1131bd9bd; PROMEaccepted/locallypersisted26f69a9da. GATE-NEXUS-WQ459-HY NOT ARMED; L16actualanchor/levelsPENDING10/19or nextqualifyingdate, never10/16. L55410/20; conditionalL751–75410/23,11/9,11/10,11/24(after11/23ENDcutoff). Recomputedatesfromactualanchor/count; monthend/carryqualifications→ frozenletter/registrationCALENDAR. Noapproval-onlymove; split20/47/33/allConfHELD. L13cell15pending;M04/M08each1/2;L11NVhold. M06withdrawn;L630dispositionpersisted,10/29reviewonly. All3L708consumed/accepted;L730awaitPROMEbuild.
 
-STANDARDboundedregistration: WillWQ459A rulingbbf3cc41a admittedsection2A/Break±6pp. Canonical research/2026-10-19_WQ459_guarded_HY_letter.md; monitorL16; analysis/WQ342_grading_log.tsv. FROZEN/REGISTERED, admissionridermet.10/19anchor(or nextqualifyingdate)UNPUBLISHED; L/C₀/edges/actualdatesPENDING, never10/16. Provisional10/19case:cell3obs10/22/read~10/23;cell15obs11/9/read~11/10(or11/6/read~11/9 if10/31qualifies);+35inclusive11/23. Counts/publicationgovern. Noapproval-onlymove; split20/47/33/allConfHELD. M06withdrawn; L11NVhold; L13cell15pending; M04/M08each1/2; L730artifactpending. All3L708consumed; noattribution/absenceproof.
+STANDARDfileaudit→ research/2026-10-19_file_audit/AUDIT.md,INVENTORY.json,REPAIRS.json,CONTROLS.json.376filesinventoried;8handoffrefsrepointed,physicalGATErowsreplacedbystablekeys,PRED38excludedlosslabelclarified,receipts/wakesfolded. LIQUIDMET565f15613consumed(lateannotation2);notnewbankcause. WALTER003consumed;008ACTION+009–011INFOdeferred10/20L554(ownerreads/integration);5committedpacketslogged/filed. Nocharter/rule/band/probabilitychange; no grid/sourcepoll/helperlaunch/fullrewrite. ExistingHYoperativebodyhashunchanged.
 
-Registrationevidence/15encodingcases/controls→ research/2026-10-19_WQ459_registration/RECORD.md,ENCODING_CHECK.json,CONTROLS.json. New0baudit/ties/carry/vintage/C/VOID/countonce preserved. Noresweep/grid/draftreview/ownerlaunch; noexistingfullrewrite/rotation. Skipped:9a10/27;root1cnofigure superseded;1c-bisnoLEDGER_GLOB;1dnomemory;15anorewrite. Exactpathcommit; inputfiled; foreignworkuntouched.
-
-Delivery:PROME/inbox/2026-10-19_from-NEXUS_WQ459-A-registered-anchor-pending.md. PROMEencodes/acceptswakes; currentregistrationpacketconsumptionpending. Next10/20L554,10/27L555,10/29M06,10/30&11/5matrix,11/10PRED38,11/20transfers. Terminalopen, nopolling.
+Controls in audit receipt:cap/weekday/corrections/orphan/links/state/freshness/diff. Skipped:9a10/27;root1cnofiguresuperseded;1c-bisnoLEDGER_GLOB;1dnomemory;15anorewrite/rotation. Next10/20letters+L11;10/27health;10/29M06;10/30&11/5matrix;11/10PRED38;11/20transfers. No push/pull/stash/reset/rebase; terminalopen/nopolling. PriorblocksbelowareHISTORY;theirnext-sessionlistsaresuperseded,notnewdebt.
 
 ---
 
 ## 2026-10-15 Thu 10:12 EDT — PROME-spawned DOCKET L571 wake (prome-81, WQ-184 Tier 1; scoped) — STANDARD tier
 
-Runtime: Claude Code, `claude-opus-5-5`, spawned from PROME's cwd; charter + root + COMPLETION_SPEC read explicitly. No digest readers (scoped due-row wake, not a full pass). **Delivery:** `PROME/inbox/2026-10-15_from-NEXUS_L571-PRED48-final-FT10-L708-two-legs.md`.
+Runtime: Claude Code, `claude-opus-5-5`, spawned from PROME's cwd; charter + root + COMPLETION_SPEC read explicitly. No digest readers (scoped due-row wake, not a full pass). **Delivery:** `PROME/inbox/processed/2026-10-15_from-NEXUS_L571-PRED48-final-FT10-L708-two-legs.md`.
 
 - **DOCKET L571 DONE — PRED-48 ❌ MISS FINAL.** FRED 10:07 ET: CA 1.69 [w/e 9/19] · 1.73 [w/e 9/26]; NY 1.42 · 1.42 — no cell ≥2.0; the 10/1-cited cells re-pulled identical. PREDICTIONS L10 / header / Closed row · COLD §C4 sub-bullet · CONFIRMED C-05 cell.
 - **`RED-FT-10` integrated:** BREACHED row; M-04 evidence (RED net-bear 65, weights at RED STATUS 10/14 23:47); Conf held (VIXCLS 16.87 [10/14] < 18.41). M-04 `Last upd.` 10-15 (evidence state change).
@@ -73,11 +71,11 @@ Runtime: Claude Code, `claude-opus-5-5`, spawned from PROME's cwd; charter + roo
 
 **Addendum 2026-10-14 21:30 ET (LIGHT — packets + a research draft; nothing re-marked):** Will: *"start the draft now, and commission #3"*. (1) **Commission** `research/2026-10-14_commission_CCC-gap_consumer-attribution.md` → OTTO · CARL · LIQUID, due 10/19 (`adb9e7458`; OTTO doorbelled; PROME asked to register the row). Fact: CCC−B gap widened on all 12 published sessions 9/25→10/13 (826 → 950bp). (2) **WQ-342 successor DRAFT v0** `research/2026-10-14_WQ342_successor_credit-leg_DRAFT.md` + grid `research/2026-10-14_wq342_grid/`: broad credit (HY/B) NOT admissible on FRED's 3-year history (the HY k=3 pass is a pooled-regime artifact: ex-live DOWN 91.7% vs live UP 31.4%); **CCC−B gap W21/±25bp/k5 clears every set** but fires UP 88.6% / DOWN 0% in the live episode and its eligibility under WQ-224 (ii) is Will's. Owed before 10/19: cold read of the draft + §1 re-run. skipped: 9 · 9b beyond the STATUS next-boot line · 9c · 10 · 14 · 15a (Light) · 1c/1c-bis/1d n/a; 1b + 1e run.
 
-**Addendum 2026-10-14 21:21 ET (LIGHT):** Will, in session: *"NEXUS stays — record that as my WQ-394 verdict"* — relayed verbatim to `PROME/inbox/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md`; L9 annotated; PROME records WQ-394 + GATES row 10. Earlier: Will said "i sold before close" (USO) — relayed to PROME by message; FORGE is PROME's. skipped: 9 · 9b beyond L9 (the only NEXUS surface carrying SEAT-01) · 9c · 10 · 14 · 15a (Light) · 1c / 1c-bis / 1d (n/a); 1b + 1e run.
+**Addendum 2026-10-14 21:21 ET (LIGHT):** Will, in session: *"NEXUS stays — record that as my WQ-394 verdict"* — relayed verbatim to `PROME/inbox/processed/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md`; L9 annotated; PROME records WQ-394 + GATES row 10. Earlier: Will said "i sold before close" (USO) — relayed to PROME by message; FORGE is PROME's. skipped: 9 · 9b beyond L9 (the only NEXUS surface carrying SEAT-01) · 9c · 10 · 14 · 15a (Light) · 1c / 1c-bis / 1d (n/a); 1b + 1e run.
 
 ## 2026-10-14 Wed 20:11→20:55 ET — CATCH-UP RE-ANCHOR after 5 dark days (Will: "boot up … catch up on system context") — HEAVY tier (whole-file STATUS rewrite ⇒ 15a)
 
-Runtime: Claude Code, `claude-opus-5-5` (env `ANTHROPIC_MODEL=claude-opus-4-8` set for new sessions). Subagents: 3 Opus digest readers + 1 Opus `coldreader`. **Long form:** `research/2026-10-14_pass_record.md`. **Delivery:** `PROME/inbox/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md`. Missed: DOCKET L554 (Tue 10/13 wake) — run 10/14.
+Runtime: Claude Code, `claude-opus-5-5` (env `ANTHROPIC_MODEL=claude-opus-4-8` set for new sessions). Subagents: 3 Opus digest readers + 1 Opus `coldreader`. **Long form:** `research/2026-10-14_pass_record.md`. **Delivery:** `PROME/inbox/processed/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md`. Missed: DOCKET L554 (Tue 10/13 wake) — run 10/14.
 
 - **No letter fired** on any 10/9–10/13 cell; no Conf % moved; split 20/47/33 HELD. **L13: cell 11 = 2.91 broke the last possible five-run ⇒ the Mon 10/19 grade is C#1 by arithmetic.**
 - **PRED-50 / L14 CLOSED** — revision re-pull (owed 10/13) clean, OBSERVED final → `PREDICTIONS_COLD.md` §C6 (crc32 `c64d06f6`); grading-log final row.

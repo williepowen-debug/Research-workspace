@@ -1,0 +1,1000 @@
+{
+  "recorded_at_et": "2026-10-19T12:29:55-04:00",
+  "scope": "Owned file audit, no market-source fetch/grid run/full synthesis/poll. Inventory and navigation scan all owned artifacts; direct current obligations/handoffs/rule references checked; historical cold evidence not fact revalidated.",
+  "files": 376,
+  "extensions": {
+    ".md": 330,
+    ".tsv": 9,
+    ".json": 15,
+    "(none)": 3,
+    ".log": 1,
+    ".txt": 2,
+    ".py": 6,
+    ".csv": 10
+  },
+  "top_level": {
+    "LAST_COMPLETION.md": 23892,
+    "brief_health.md": 9956,
+    "CLAUDE.md": 70679,
+    "brief_fallback_log.tsv": 16482,
+    "PREDICTIONS_COLD.md": 96688,
+    "BRIEFING_2026-08-29_SYSTEMS_REVIEW.md": 12401,
+    "BRIEFS_MAP.md": 22429,
+    "STATUS_COLD.md": 344082,
+    "SIGNALS.md": 10537,
+    "PREDICTIONS_MONITOR.md": 18738,
+    "CONFIRMED.md": 10464,
+    "STATUS.md": 17849,
+    "board_log.tsv": 68501
+  },
+  "parse": {
+    ".json": {
+      "files": 15,
+      "errors": [],
+      "qualification": "Syntax only, not evidence certification"
+    },
+    ".py": {
+      "files": 6,
+      "errors": [],
+      "qualification": "AST only, no grid/script execution"
+    }
+  },
+  "tsv": {
+    "AGENTS/NEXUS/brief_fallback_log.tsv": {
+      "header_width": 4,
+      "payload_rows": 74,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 7
+    },
+    "AGENTS/NEXUS/board_log.tsv": {
+      "header_width": 5,
+      "payload_rows": 169,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    },
+    "AGENTS/NEXUS/research/2026-10-19_continuation_freshness.tsv": {
+      "header_width": 2,
+      "payload_rows": 70,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    },
+    "AGENTS/NEXUS/research/2026-10-19_fleet_freshness.tsv": {
+      "header_width": 2,
+      "payload_rows": 69,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    },
+    "AGENTS/NEXUS/analysis/PRED-50_grading_log.tsv": {
+      "header_width": 6,
+      "payload_rows": 35,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    },
+    "AGENTS/NEXUS/analysis/WQ342_grading_log.tsv": {
+      "header_width": 17,
+      "payload_rows": 2,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    },
+    "AGENTS/NEXUS/registry/corrections_receipts.tsv": {
+      "header_width": 4,
+      "payload_rows": 8,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    },
+    "AGENTS/NEXUS/research/2026-10-19_full_synthesis/FRESHNESS_CLOSE.tsv": {
+      "header_width": 2,
+      "payload_rows": 70,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    },
+    "AGENTS/NEXUS/research/2026-10-19_full_synthesis/FRESHNESS_OPEN.tsv": {
+      "header_width": 2,
+      "payload_rows": 70,
+      "bad_payload_rows": [],
+      "comment_lines_skipped": 0
+    }
+  },
+  "empty_files": [
+    "AGENTS/NEXUS/inbox/processed/.gitkeep",
+    "AGENTS/NEXUS/inbox/WALTER/processed/.gitkeep",
+    "AGENTS/NEXUS/outbox/delivered/.gitkeep"
+  ],
+  "active_before_sha256": {
+    "AGENTS/NEXUS/STATUS.md": "04633f63cd765372d9185d6fbe2e8c4c0bcea9541eff7bd7d242e6e26029f9d5",
+    "AGENTS/NEXUS/LAST_COMPLETION.md": "7d0365d4e4dc42fb8565a0a55b4af0cdff05d0187d2d9a37e58118bfe63ea0b4",
+    "AGENTS/NEXUS/PREDICTIONS_MONITOR.md": "57c96591ab427695b3b8d89c52c8c351101ce080bf79335a48cfc41a527278c4",
+    "AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md": "254ebd836f06d0aba37628059404459a5db19fb81c4e4c93f24d22d500b160ff",
+    "AGENTS/NEXUS/research/2026-10-19_WQ459_registration/CALENDAR.json": "5f051988a17daac143424206dbb37ea5ad87883aba0ea028297fde94d532c47d"
+  },
+  "markdown_navigation": {
+    "files": 330,
+    "missing_targets": [],
+    "qualification": "Local targets; external URLs not fetched; section-anchor fragments not independently checked."
+  },
+  "inline_reference_misses_before": [
+    {
+      "file": "AGENTS/NEXUS/LAST_COMPLETION.md",
+      "line": 19,
+      "target": "PROME/inbox/2026-10-15_from-NEXUS_L571-PRED48-final-FT10-L708-two-legs.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-15_from-NEXUS_L571-PRED48-final-FT10-L708-two-legs.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/LAST_COMPLETION.md",
+      "line": 76,
+      "target": "PROME/inbox/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/LAST_COMPLETION.md",
+      "line": 80,
+      "target": "PROME/inbox/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/CLAUDE.md",
+      "line": 102,
+      "target": "memory/MEMORY.md",
+      "same_basename_candidates": [
+        "AGENTS/REGINALD/MEMORY.md",
+        "AGENTS/HENRY/MEMORY.md",
+        "archive/skills-openclaw/walter/MEMORY.md",
+        "AGENTS/RED/MEMORY.md",
+        "AGENTS/HAWK/MEMORY.md",
+        "AGENTS/LIQUID/research/2026-10-14_direction-implementation/archive/before/MEMORY.md",
+        "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/MEMORY.md",
+        "AGENTS/LIQUID/MEMORY.md",
+        "AGENTS/CARL/MEMORY.md",
+        "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/MEMORY.md",
+        "AGENTS/CORAL/MEMORY.md",
+        "AGENTS/YEYOU/MEMORY.md",
+        "AGENTS/VIOLET/MEMORY.md",
+        "AGENTS/VIOLET/archive/sweep_2026-09-14/MEMORY.md",
+        "PROME/argus/MEMORY.md",
+        "AGENTS/SENTRY/MEMORY.md",
+        "AGENTS/WAL/MEMORY.md",
+        "AGENTS/CARL/archive/2026-09-16_closeout/MEMORY.md",
+        "AGENTS/MARCO/MEMORY.md",
+        "AGENTS/ORACLE/MEMORY.md",
+        "AGENTS/HOMER/MEMORY.md",
+        "AGENTS/WALTER/MEMORY.md",
+        "AGENTS/SHADE/MEMORY.md",
+        "AGENTS/WALTER/design/history/2026-10-16_instruction-cleanup/MEMORY.md",
+        "memory/auto/MEMORY.md",
+        "AGENTS/BOND/MEMORY.md",
+        "AGENTS/OTTO/MEMORY.md",
+        "AGENTS/OZK/MEMORY.md",
+        "AGENTS/FALCON/MEMORY.md",
+        "AGENTS/BRENT/MEMORY.md",
+        "AGENTS/TERRY/MEMORY.md",
+        "AGENTS/OSPREY/MEMORY.md",
+        "AGENTS/SAM/MEMORY.md",
+        "AGENTS/SAM/research/outputs/2026-09-15_news-sweep/before/MEMORY.md",
+        "AGENTS/SAM/research/outputs/2026-09-14_stale-sweep/before/MEMORY.md",
+        "AGENTS/SAM/research/outputs/2026-09-08_integration/before/MEMORY.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/PREDICTIONS_COLD.md",
+      "line": 18,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/PREDICTIONS_COLD.md",
+      "line": 21,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/PREDICTIONS_COLD.md",
+      "line": 292,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/BRIEFING_2026-08-29_SYSTEMS_REVIEW.md",
+      "line": 8,
+      "target": "inbox/2026-08-17_from-PROME_commission-self-audit-slate-post-falsifier.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/inbox/processed/2026-08-17_from-PROME_commission-self-audit-slate-post-falsifier.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/STATUS_COLD.md",
+      "line": 1536,
+      "target": "PROME/inbox/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/STATUS_COLD.md",
+      "line": 1553,
+      "target": "PROME/inbox/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/PREDICTIONS_MONITOR.md",
+      "line": 12,
+      "target": "PROME/inbox/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/PREDICTIONS_MONITOR.md",
+      "line": 12,
+      "target": "PROME/inbox/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-14_from-NEXUS_WQ-394-Will-verdict-NEXUS-stays.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-09.md",
+      "line": 19,
+      "target": "inbox/2026-10-01_from-PROME_review-of-nexus-4f-commits-one-rule-change-three-smaller.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/inbox/processed/2026-10-01_from-PROME_review-of-nexus-4f-commits-one-rule-change-three-smaller.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-09.md",
+      "line": 34,
+      "target": "PROME/inbox/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-09.md",
+      "line": 57,
+      "target": "PROME/inbox/2026-10-08_from-NEXUS_PM-delta-pred-50-rule-2-met-anchors-dispositions.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-08_from-NEXUS_PM-delta-pred-50-rule-2-met-anchors-dispositions.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-09.md",
+      "line": 57,
+      "target": "AGENTS/DAEDALUS/inbox/2026-10-08_from-NEXUS_pin-check-adopted-unpinned-ruling-t12s-deferral-readcap-named.md",
+      "same_basename_candidates": [
+        "AGENTS/DAEDALUS/inbox/processed/2026-10-08_from-NEXUS_pin-check-adopted-unpinned-ruling-t12s-deferral-readcap-named.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/2026-06-06_self_audit.md",
+      "line": 36,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/2026-06-06_self_audit.md",
+      "line": 147,
+      "target": "outbox/2026-05-21_to-PROME_stage2late_divergence_reset.md",
+      "same_basename_candidates": []
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/BRIEFS_MAP_COLD_2026-09-29.md",
+      "line": 8,
+      "target": "research/2026-08-17_boj-sep-second-eyes-verdict.md",
+      "same_basename_candidates": [
+        "AGENTS/ORACLE/research/2026-08-17_boj-sep-second-eyes-verdict.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+      "line": 8,
+      "target": "PROME/inbox/2026-10-08_from-NEXUS_S1-design-DELIVERED-EARLY-L639-dewey-miss-was-untyped-peer-packets.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-08_from-NEXUS_S1-design-DELIVERED-EARLY-L639-dewey-miss-was-untyped-peer-packets.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+      "line": 8,
+      "target": "AGENTS/WALTER/inbox/2026-10-08_from-NEXUS_S1-design-at-the-artifact-re-argue-your-sec-5-veto-by-10-13.md",
+      "same_basename_candidates": [
+        "AGENTS/WALTER/inbox/processed/2026-10-08_from-NEXUS_S1-design-at-the-artifact-re-argue-your-sec-5-veto-by-10-13.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+      "line": 30,
+      "target": "PROME/inbox/2026-10-08_from-NEXUS_corrections-after-CATO-review-attribution-first-55pct-forecast-of-record.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-08_from-NEXUS_corrections-after-CATO-review-attribution-first-55pct-forecast-of-record.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+      "line": 54,
+      "target": "PROME/inbox/2026-10-09_from-NEXUS_evening-fred-cells.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-09_from-NEXUS_evening-fred-cells.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+      "line": 76,
+      "target": "PROME/inbox/2026-10-09_from-NEXUS_pred50-first-grade.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-09_from-NEXUS_pred50-first-grade.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+      "line": 76,
+      "target": "PROME/inbox/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+      "line": 76,
+      "target": "AGENTS/BRENT/inbox/2026-10-09_from-NEXUS_bzz26-10-08-settle-for-M-06-anchor.md",
+      "same_basename_candidates": [
+        "AGENTS/BRENT/inbox/processed/2026-10-09_from-NEXUS_bzz26-10-08-settle-for-M-06-anchor.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/2026-06-08_cpi_pre_registration.md",
+      "line": 111,
+      "target": "research/2026-06-XX_cpi_resolution.md",
+      "same_basename_candidates": []
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-01.md",
+      "line": 12,
+      "target": "research/2026-09-28_FORUM-7_P1-grade.md",
+      "same_basename_candidates": [
+        "AGENTS/HENRY/research/2026-09-28_FORUM-7_P1-grade.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/2026-07-10_correlation-collapse-map_packetA.md",
+      "line": 2,
+      "target": "PROME/MID_JULY_NODE.md",
+      "same_basename_candidates": [
+        "PROME/archive/MID_JULY_NODE.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/2026-06-17_fomc_pre_registration.md",
+      "line": 3,
+      "target": "research/2026-06-08_cpi_pre_registration.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/archive/2026-06-08_cpi_pre_registration.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/2026-05-21_revival_audit_draft.md",
+      "line": 159,
+      "target": "AGENTS/NEXUS/inbox/signal_2026-05-14_gamma_momentum_factor_squeeze.md",
+      "same_basename_candidates": []
+    },
+    {
+      "file": "AGENTS/NEXUS/archive/2026-05-21_revival_audit_draft.md",
+      "line": 173,
+      "target": "AGENTS/NEXUS/recon/2026-05-21_revival_audit_draft.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/archive/2026-05-21_revival_audit_draft.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/proposals/2026-09-02_self-audit-improvement-slate.md",
+      "line": 168,
+      "target": "research/2026-06-06_e_phase_outputs.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/archive/2026-06-06_e_phase_outputs.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/proposals/2026-09-02_self-audit-improvement-slate.md",
+      "line": 169,
+      "target": "research/2026-06-17_fomc_pre_registration.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/archive/2026-06-17_fomc_pre_registration.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/proposals/2026-09-02_self-audit-improvement-slate.md",
+      "line": 172,
+      "target": "research/2026-06-08_cpi_pre_registration.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/archive/2026-06-08_cpi_pre_registration.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/proposals/2026-09-02_self-audit-improvement-slate.md",
+      "line": 173,
+      "target": "research/2026-07-10_correlation-collapse-map_packetA.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/archive/2026-07-10_correlation-collapse-map_packetA.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-09-07_forum_falsifiers_grade.md",
+      "line": 64,
+      "target": "registry/FALSIFICATION_TRIGGERS.tsv",
+      "same_basename_candidates": [
+        "AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-09-07_forum_falsifiers_grade.md",
+      "line": 66,
+      "target": "registry/FALSIFICATION_TRIGGERS.tsv",
+      "same_basename_candidates": [
+        "AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-09-07_forum_falsifiers_grade.md",
+      "line": 67,
+      "target": "BOARD/INDEX.generated.md",
+      "same_basename_candidates": []
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-09-07_forum_falsifiers_grade.md",
+      "line": 96,
+      "target": "PROME/inbox/2026-09-07_from-NEXUS_forum-falsifiers-grade-day-1.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-09-07_from-NEXUS_forum-falsifiers-grade-day-1.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_pass_record_PM.md",
+      "line": 57,
+      "target": "PROME/inbox/2026-10-08_from-NEXUS_S1-design-DELIVERED-EARLY-L639-dewey-miss-was-untyped-peer-packets.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-08_from-NEXUS_S1-design-DELIVERED-EARLY-L639-dewey-miss-was-untyped-peer-packets.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_pass_record_PM.md",
+      "line": 57,
+      "target": "AGENTS/WALTER/inbox/2026-10-08_from-NEXUS_S1-design-at-the-artifact-re-argue-your-sec-5-veto-by-10-13.md",
+      "same_basename_candidates": [
+        "AGENTS/WALTER/inbox/processed/2026-10-08_from-NEXUS_S1-design-at-the-artifact-re-argue-your-sec-5-veto-by-10-13.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-19_morning_synthesis.md",
+      "line": 27,
+      "target": "analysis/2026-10-16_L721-four-legs.md",
+      "same_basename_candidates": [
+        "AGENTS/LIQUID/analysis/2026-10-16_L721-four-legs.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-09-03_predictions_monitor_split_obligation_ledger.md",
+      "line": 30,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_S1_owner-unconsumed-line_DESIGN.md",
+      "line": 4,
+      "target": "AGENTS/NEXUS/inbox/2026-10-10_from-PROME_S1-owner-unconsumed-line-liveness-correction-before-WQ-401.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/inbox/processed/2026-10-10_from-PROME_S1-owner-unconsumed-line-liveness-correction-before-WQ-401.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_S1_owner-unconsumed-line_DESIGN.md",
+      "line": 6,
+      "target": "inbox/2026-10-15_from-PROME_WQ401-APPROVE-S1-build.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/inbox/processed/2026-10-15_from-PROME_WQ401-APPROVE-S1-build.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-08_S1_owner-unconsumed-line_DESIGN.md",
+      "line": 91,
+      "target": "registry/DOORBELL_LOG.tsv",
+      "same_basename_candidates": [
+        "AGENTS/WALTER/registry/DOORBELL_LOG.tsv"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/recon/2026-10-14_coldread_status_ledger.md",
+      "line": 20,
+      "target": "PROME/inbox/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/recon/2026-06-06_c_id_index.md",
+      "line": 16,
+      "target": "archive/STATUS_PRE_MAY21_RESET_20260521.md",
+      "same_basename_candidates": []
+    },
+    {
+      "file": "AGENTS/NEXUS/recon/2026-10-14_coldread2_status_and_memo_ledger.md",
+      "line": 1,
+      "target": "PROME/inbox/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-10-14_from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/recon/2026-10-14_coldread2_status_and_memo_ledger.md",
+      "line": 8,
+      "target": "inbox/WALTER/SIG-W-20261014-023.md",
+      "same_basename_candidates": [
+        "AGENTS/LABOR/inbox/WALTER/processed/SIG-W-20261014-023.md",
+        "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-023.md",
+        "AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20261014-023.md",
+        "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-023.md",
+        "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261014-023.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/recon/2026-10-01_coldread_STATUS.md",
+      "line": 19,
+      "target": "AGENTS/HENRY/inbox/2026-10-01_from-NEXUS_FORUM-7-section7-NEXUS-row-CONCUR.md",
+      "same_basename_candidates": [
+        "AGENTS/HENRY/inbox/processed/2026-10-01_from-NEXUS_FORUM-7-section7-NEXUS-row-CONCUR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/recon/2026-10-01_coldread3_CHARTER.md",
+      "line": 4,
+      "target": "inbox/2026-09-29_from-PROME_charter-cold-read-2-six-contradictions-VERIFIED.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/inbox/processed/2026-09-29_from-PROME_charter-cold-read-2-six-contradictions-VERIFIED.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/recon/2026-10-01_coldread3_CHARTER.md",
+      "line": 13,
+      "target": "AGENTS/NEXUS/inbox/2026-09-29_from-PROME_charter-cold-read-2-six-contradictions-VERIFIED.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/inbox/processed/2026-09-29_from-PROME_charter-cold-read-2-six-contradictions-VERIFIED.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-09-25_from-PROME_declare-cadence-and-watch-terms-WQ-295.md",
+      "line": 10,
+      "target": "PROME/inbox/2026-MM-DD_from-NEXUS_cadence-and-watch-terms.md",
+      "same_basename_candidates": []
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-24_from-PROME_red-chg043-route-count-line-rec.md",
+      "line": 4,
+      "target": "AGENTS/RED/outbox/2026-07-24_to-PROME_chg043-premium-breadth-redteam.md",
+      "same_basename_candidates": [
+        "AGENTS/RED/archive/2026-07-24_to-PROME_chg043-premium-breadth-redteam.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-05_from-PROME_correlation-collapse-stresstest.md",
+      "line": 4,
+      "target": "PROME/MID_JULY_NODE.md",
+      "same_basename_candidates": [
+        "PROME/archive/MID_JULY_NODE.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-08-04_from-WATT_doc-sweep-4-findings-two-of-which-corrected-my-own-first-read.md",
+      "line": 77,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-05_from-PROME_zhao-briefs-map-add.md",
+      "line": 13,
+      "target": "AGENTS/ZHAO/outbox/2026-07-04_to-PROME_zhao-reactivation.md",
+      "same_basename_candidates": [
+        "AGENTS/ZHAO/outbox/delivered/2026-07-04_to-PROME_zhao-reactivation.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-25_from-PROME_bdc-dates-verified-your-flag-confirmed.md",
+      "line": 3,
+      "target": "PROME/inbox/2026-07-24_from-NEXUS_bdc-date-flag-and-decision-cc.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-07-24_from-NEXUS_bdc-date-flag-and-decision-cc.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-17_from-PROME_cclfx-verdict-premise-refused.md",
+      "line": 13,
+      "target": "inbox/WALTER/SIG-W-20260716-007.md",
+      "same_basename_candidates": [
+        "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20260716-007.md",
+        "AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260716-007.md",
+        "PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/reaccumulated_2026-06-25_to_07-24/inbox_WALTER_processed/SIG-W-20260716-007.md",
+        "AGENTS/BROCK/inbox/WALTER/processed/SIG-W-20260716-007.md",
+        "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260716-007.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-17_from-PROME_day-absorption-packet.md",
+      "line": 6,
+      "target": "outbox/2026-07-17_to-PROME_fal02-confirmed-remark-b5-c30-d65-transit-fired.md",
+      "same_basename_candidates": [
+        "AGENTS/FALCON/outbox/2026-07-17_to-PROME_fal02-confirmed-remark-b5-c30-d65-transit-fired.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-17_from-PROME_day-absorption-packet.md",
+      "line": 7,
+      "target": "outbox/2026-07-17_to-PROME_cot-preprint-prep.md",
+      "same_basename_candidates": [
+        "AGENTS/BRENT/outbox/delivered/2026-07-17_to-PROME_cot-preprint-prep.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-17_from-PROME_day-absorption-packet.md",
+      "line": 8,
+      "target": "outbox/2026-07-17_to-PROME_useful-life-card-built-gate-mis-specified.md",
+      "same_basename_candidates": [
+        "AGENTS/VULCAN/archive/outbox/2026-07-17_to-PROME_useful-life-card-built-gate-mis-specified.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-17_from-PROME_day-absorption-packet.md",
+      "line": 9,
+      "target": "outbox/2026-07-17_to-PROME_cclfx-premise-correction-and-marks-window-prep.md",
+      "same_basename_candidates": [
+        "AGENTS/BROCK/outbox/2026-07-17_to-PROME_cclfx-premise-correction-and-marks-window-prep.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-17_from-PROME_day-absorption-packet.md",
+      "line": 10,
+      "target": "outbox/2026-07-17_to-PROME_attom-h1-foreclosure-fl-worst.md",
+      "same_basename_candidates": [
+        "AGENTS/HOMER/outbox/delivered/2026-07-17_to-PROME_attom-h1-foreclosure-fl-worst.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-09-29_from-PROME_charter-cold-read-ledger-14-flags.md",
+      "line": 60,
+      "target": "memory/MEMORY.md",
+      "same_basename_candidates": [
+        "AGENTS/REGINALD/MEMORY.md",
+        "AGENTS/HENRY/MEMORY.md",
+        "archive/skills-openclaw/walter/MEMORY.md",
+        "AGENTS/RED/MEMORY.md",
+        "AGENTS/HAWK/MEMORY.md",
+        "AGENTS/LIQUID/research/2026-10-14_direction-implementation/archive/before/MEMORY.md",
+        "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/MEMORY.md",
+        "AGENTS/LIQUID/MEMORY.md",
+        "AGENTS/CARL/MEMORY.md",
+        "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/MEMORY.md",
+        "AGENTS/CORAL/MEMORY.md",
+        "AGENTS/YEYOU/MEMORY.md",
+        "AGENTS/VIOLET/MEMORY.md",
+        "AGENTS/VIOLET/archive/sweep_2026-09-14/MEMORY.md",
+        "PROME/argus/MEMORY.md",
+        "AGENTS/SENTRY/MEMORY.md",
+        "AGENTS/WAL/MEMORY.md",
+        "AGENTS/CARL/archive/2026-09-16_closeout/MEMORY.md",
+        "AGENTS/MARCO/MEMORY.md",
+        "AGENTS/ORACLE/MEMORY.md",
+        "AGENTS/HOMER/MEMORY.md",
+        "AGENTS/WALTER/MEMORY.md",
+        "AGENTS/SHADE/MEMORY.md",
+        "AGENTS/WALTER/design/history/2026-10-16_instruction-cleanup/MEMORY.md",
+        "memory/auto/MEMORY.md",
+        "AGENTS/BOND/MEMORY.md",
+        "AGENTS/OTTO/MEMORY.md",
+        "AGENTS/OZK/MEMORY.md",
+        "AGENTS/FALCON/MEMORY.md",
+        "AGENTS/BRENT/MEMORY.md",
+        "AGENTS/TERRY/MEMORY.md",
+        "AGENTS/OSPREY/MEMORY.md",
+        "AGENTS/SAM/MEMORY.md",
+        "AGENTS/SAM/research/outputs/2026-09-15_news-sweep/before/MEMORY.md",
+        "AGENTS/SAM/research/outputs/2026-09-14_stale-sweep/before/MEMORY.md",
+        "AGENTS/SAM/research/outputs/2026-09-08_integration/before/MEMORY.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-10-10_from-WALTER_S1-re-argued-at-the-artifact-FOR-the-boot-line-doctor-check-RE-SCOPED-due-field-YES.md",
+      "line": 3,
+      "target": "AGENTS/WALTER/inbox/2026-10-08_from-NEXUS_S1-design-at-the-artifact-re-argue-your-sec-5-veto-by-10-13.md",
+      "same_basename_candidates": [
+        "AGENTS/WALTER/inbox/processed/2026-10-08_from-NEXUS_S1-design-at-the-artifact-re-argue-your-sec-5-veto-by-10-13.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-10-10_from-WALTER_S1-re-argued-at-the-artifact-FOR-the-boot-line-doctor-check-RE-SCOPED-due-field-YES.md",
+      "line": 3,
+      "target": "AGENTS/NEXUS/inbox/2026-10-10_from-PROME_S1-owner-unconsumed-line-liveness-correction-before-WQ-401.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/inbox/processed/2026-10-10_from-PROME_S1-owner-unconsumed-line-liveness-correction-before-WQ-401.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-10-10_from-WALTER_S1-re-argued-at-the-artifact-FOR-the-boot-line-doctor-check-RE-SCOPED-due-field-YES.md",
+      "line": 18,
+      "target": "registry/DOORBELL_LOG.tsv",
+      "same_basename_candidates": [
+        "AGENTS/WALTER/registry/DOORBELL_LOG.tsv"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-28_from-BOND_prereg-challenged-by-my-own-backtest-pre-print.md",
+      "line": 5,
+      "target": "analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md",
+      "same_basename_candidates": [
+        "AGENTS/BOND/analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-28_from-BOND_prereg-challenged-by-my-own-backtest-pre-print.md",
+      "line": 5,
+      "target": "analysis/2026-07-28_grade_7-27-2Y-5Y_prereg_7-28-7Y.md",
+      "same_basename_candidates": [
+        "AGENTS/BOND/analysis/2026-07-28_grade_7-27-2Y-5Y_prereg_7-28-7Y.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-28_from-BOND_prereg-challenged-by-my-own-backtest-pre-print.md",
+      "line": 44,
+      "target": "analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md",
+      "same_basename_candidates": [
+        "AGENTS/BOND/analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-08-18_from-ORACLE_71.5-percent-named-the-aggregate-fed-contract-not-sept-specific.md",
+      "line": 3,
+      "target": "AGENTS/ORACLE/inbox/2026-08-13_from-PROME_rule-which-instrument-71point5-named-three-surfaces-depend.md",
+      "same_basename_candidates": [
+        "AGENTS/ORACLE/inbox/processed/2026-08-13_from-PROME_rule-which-instrument-71point5-named-three-surfaces-depend.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-24_from-LABOR_three-asks-DELIVERED.md",
+      "line": 9,
+      "target": "AGENTS/LABOR/docket/GRADING_CARD_20260730.md",
+      "same_basename_candidates": [
+        "AGENTS/LABOR/docket/graded/GRADING_CARD_20260730.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-24_from-LABOR_three-asks-DELIVERED.md",
+      "line": 20,
+      "target": "AGENTS/LABOR/docket/FOMC_LABOR_LANGUAGE_20260729.md",
+      "same_basename_candidates": [
+        "AGENTS/LABOR/docket/graded/FOMC_LABOR_LANGUAGE_20260729.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-24_from-LABOR_three-asks-DELIVERED.md",
+      "line": 20,
+      "target": "AGENTS/RED/inbox/2026-07-24_from-LABOR_kfrc-date-correction-and-fomc-labor-language-leg.md",
+      "same_basename_candidates": [
+        "AGENTS/RED/inbox/processed/2026-07-24_from-LABOR_kfrc-date-correction-and-fomc-labor-language-leg.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-08-21_from-ZHAO_pred30-china-leg-conditional-met-june-tic.md",
+      "line": 41,
+      "target": "outbox/2026-08-21_to-LIQUID-PROME_june-tic-650-breach-and-belgium-proxy-falsified.md",
+      "same_basename_candidates": [
+        "AGENTS/ZHAO/outbox/delivered/2026-08-21_to-LIQUID-PROME_june-tic-650-breach-and-belgium-proxy-falsified.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-07-25_from-PROME_cpi-dates-corrected-forward-rows.md",
+      "line": 5,
+      "target": "PROME/inbox/2026-07-24_from-RED_cpi-calendar-correction-july-print-is-8-12.md",
+      "same_basename_candidates": [
+        "AGENTS/HENRY/inbox/processed/2026-07-24_from-RED_cpi-calendar-correction-july-print-is-8-12.md",
+        "AGENTS/CARL/inbox/processed/2026-07-24_from-RED_cpi-calendar-correction-july-print-is-8-12.md",
+        "PROME/inbox/processed/2026-07-24_from-RED_cpi-calendar-correction-july-print-is-8-12.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/processed/2026-10-15_from-CARL_L708-CCC-gap-consumer-names-MIXED.md",
+      "line": 3,
+      "target": "AGENTS/CARL/inbox/2026-10-14_from-NEXUS_commission-what-is-widening-the-CCC-tier-alone.md",
+      "same_basename_candidates": [
+        "AGENTS/LIQUID/inbox/processed/2026-10-14_from-NEXUS_commission-what-is-widening-the-CCC-tier-alone.md",
+        "AGENTS/CARL/inbox/processed/2026-10-14_from-NEXUS_commission-what-is-widening-the-CCC-tier-alone.md",
+        "AGENTS/OTTO/inbox/processed/2026-10-14_from-NEXUS_commission-what-is-widening-the-CCC-tier-alone.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260828-011-the-charged-off-cohort-stopped-paying-voluntarily-more-than-100pct-of-collections-growth-came-from-the-courts.md",
+      "line": 51,
+      "target": "AGENTS/RED/inbox/2026-08-28_from-DEWEY_carl-dr2-charged-off-cohort.md",
+      "same_basename_candidates": [
+        "AGENTS/REGINALD/inbox/processed/2026-08-28_from-DEWEY_carl-dr2-charged-off-cohort.md",
+        "AGENTS/RED/inbox/processed/2026-08-28_from-DEWEY_carl-dr2-charged-off-cohort.md",
+        "AGENTS/CARL/inbox/processed/2026-08-28_from-DEWEY_carl-dr2-charged-off-cohort.md",
+        "AGENTS/WALTER/inbox/DEWEY/processed/2026-08-28_from-DEWEY_carl-dr2-charged-off-cohort.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260811-002-N5-futures-bar-capture-time-fleet-rule-five-clauses-ratified-never-quote-a-bar-as-a-close.md",
+      "line": 5,
+      "target": "inbox/2026-08-11_from-PROME_forum4-close-futures-bar-note-plus-instrument-traps.md",
+      "same_basename_candidates": [
+        "AGENTS/WALTER/inbox/processed/2026-08-11_from-PROME_forum4-close-futures-bar-note-plus-instrument-traps.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/outbox/delivered/2026-06-27_to-PROME_reanchor-flags-and-grind-divergence.md",
+      "line": 13,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/outbox/delivered/2026-06-27_to-PROME_reanchor-flags-and-grind-divergence.md",
+      "line": 13,
+      "target": "PROME/PREDICTIONS_MONITOR.md",
+      "same_basename_candidates": [
+        "AGENTS/NEXUS/PREDICTIONS_MONITOR.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/outbox/delivered/2026-09-02_to-PROME_self-audit-slate-drain-and-split.md",
+      "line": 33,
+      "target": "AGENTS/OTTO/outbox/2026-09-02_to-PROME_collection-period-landed-tricolor-crmt-letters-drain.md",
+      "same_basename_candidates": [
+        "AGENTS/OTTO/outbox/delivered/2026-09-02_to-PROME_collection-period-landed-tricolor-crmt-letters-drain.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/outbox/delivered/2026-09-02_to-PROME_self-audit-slate-drain-and-split.md",
+      "line": 33,
+      "target": "PROME/inbox/2026-09-02_from-OTTO_collection-period-landed-tricolor-crmt-letters-drain.md",
+      "same_basename_candidates": [
+        "PROME/inbox/processed/2026-09-02_from-OTTO_collection-period-landed-tricolor-crmt-letters-drain.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/SELF_LETTER_AUDIT.md",
+      "line": 44,
+      "target": "AGENTS/RED/registry/THRESHOLDS.tsv",
+      "same_basename_candidates": [
+        "AGENTS/REGINALD/registry/THRESHOLDS.tsv",
+        "AGENTS/HANS/registry/THRESHOLDS.tsv",
+        "AGENTS/CREED/registry/THRESHOLDS.tsv",
+        "AGENTS/WALTER/design/pilot_runs/fixture/AGENTS/REGINALD/registry/THRESHOLDS.tsv"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/RECORD.md",
+      "line": 32,
+      "target": "research/2026-10-16_BRK-31_MTB_CFG_read.md",
+      "same_basename_candidates": [
+        "AGENTS/BROCK/research/2026-10-16_BRK-31_MTB_CFG_read.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/RECORD.md",
+      "line": 34,
+      "target": "analysis/2026-10-16_L721-four-legs.md",
+      "same_basename_candidates": [
+        "AGENTS/LIQUID/analysis/2026-10-16_L721-four-legs.md"
+      ]
+    },
+    {
+      "file": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/RECORD.md",
+      "line": 38,
+      "target": "research/2026-10-14_boot-omr/REPORT.md",
+      "same_basename_candidates": [
+        "AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/REPORT.md",
+        "AGENTS/LIQUID/research/2026-10-14_direction-implementation/REPORT.md",
+        "AGENTS/LIQUID/research/2026-10-14_direction-implementation/archive/before/research/2026-10-14_credit-funding-refresh/REPORT.md",
+        "AGENTS/LIQUID/research/2026-10-14_direction-implementation/archive/before/research/2026-10-14_coverage-priorities/REPORT.md",
+        "AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+        "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/REPORT.md",
+        "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/research/2026-10-14_credit-funding-refresh/REPORT.md",
+        "AGENTS/LIQUID/research/2026-10-14_coverage-priorities/REPORT.md",
+        "AGENTS/_archive/DOC/REPORT.md",
+        "PROME/research/2026-09-16_consumer-retail/REPORT.md",
+        "AGENTS/CARL/sub_agents/POLLY/archive/REPORT.md",
+        "AGENTS/LIQUID/audits/2026-10-14_staleness-sweep/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_runner-cl9/REPORT.md",
+        "AGENTS/VIOLET/research/2026-10-14_post-CPI/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-14_walter-closeout/REPORT.md",
+        "AGENTS/VIOLET/research/2026-10-14_data-refresh/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_desk-sweep/REPORT.md",
+        "AGENTS/CATO/runs/2026-09-30_2355_cohort-feasibility/REPORT.md",
+        "AGENTS/VIOLET/research/2026-10-14_accuracy-sweep/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-13_bookmark-routing/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_Rosner-primary-pass/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-14_morning-news/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-16_instruction-audit/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-05_tanker-costs/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-14_three-thread-verification/REPORT.md",
+        "AGENTS/BOND/analysis/2026-10-15_post-PPI/REPORT.md",
+        "AGENTS/BOND/analysis/2026-10-14_transition-audit/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_bookmarks-reauth/REPORT.md",
+        "AGENTS/HOMER/archive/REPORT.md",
+        "AGENTS/BOND/analysis/2026-10-14_post-CPI/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-14_resume-1449/REPORT.md",
+        "AGENTS/BOND/analysis/2026-10-07_catchup/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-13_session-closeout/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_owner-intake/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-13_bookmarks-repair/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/REPORT.md",
+        "AGENTS/BOND/analysis/2026-10-15_buyback-dig/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-14_session-closeout/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_boot-gap-completion/REPORT.md",
+        "AGENTS/BOND/analysis/2026-10-08_ninth-wake/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-12_closeout-improvements/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-07_catchup/REPORT.md",
+        "AGENTS/WALTER/research/2026-10-13_priority-routing/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-12_morning-news/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-12_middle-east-panama/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-07_news-catchup/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-08_catchup/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-09_steo-comparison/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-08_isaias-hormuz/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-11_evening-news/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-09_squeeze-review/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-16_cross-war-oil/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-05_market-open/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-12_USO-view/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-14_energy-option-continuity/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-08_batch2/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-14_shipping-check/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-12_fresh-context-boot/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-09_morning/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-15_backlog-review/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-15_workdown/REPORT.md",
+        "AGENTS/OSPREY/research/2026-09-16_cross-war-oil/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-30_wpsr-grades/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-14_boot-omr/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-02_incidents-reverify/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-10_wpsr/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-15_boot/REPORT.md",
+        "AGENTS/TERRY/research/2026-10-14_desk-repair/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-09_incidents-reverify/REPORT.md",
+        "AGENTS/BRENT/research/2026-09-18_news-catchup/REPORT.md",
+        "AGENTS/TERRY/research/2026-10-12_closeout-repair/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-13_energy-wait/REPORT.md",
+        "AGENTS/BRENT/research/2026-10-12_resume-l633/REPORT.md",
+        "AGENTS/BRENT/audits/2026-09-08_stale-intel/REPORT.md",
+        "AGENTS/BRENT/audits/2026-10-04_file-sweep/REPORT.md",
+        "AGENTS/BRENT/audits/2026-10-14_operational-followups/REPORT.md",
+        "AGENTS/BRENT/audits/2026-09-09_maintenance/REPORT.md",
+        "AGENTS/BRENT/audits/2026-10-04_cato-correction/REPORT.md",
+        "AGENTS/BRENT/audits/2026-09-09_boot/REPORT.md",
+        "AGENTS/BRENT/audits/2026-10-14_consistency-sweep/REPORT.md",
+        "AGENTS/BRENT/audits/2026-09-09_file-health/REPORT.md",
+        "AGENTS/BRENT/audits/2026-10-13_continuity-news/REPORT.md",
+        "AGENTS/BRENT/audits/2026-10-05_closeout-check/REPORT.md",
+        "AGENTS/BRENT/audits/2026-10-12_desk-health/REPORT.md",
+        "AGENTS/SAM/research/outputs/2026-09-20_intervention-ust-study/REPORT.md"
+      ]
+    }
+  ],
+  "inline_disposition": "90 candidates/66targetstrings at scan; lexical candidates include quoted dead paths, context-relative names and moved archival packets. Not90proven active defects. Eight live/handoff references selected for explicit path repair; frozen/cold/history bytes retained. See audit report.",
+  "peer_pin_check": "Snapshot from current tool, saved in PIN_CHECK.txt; status/pin is not proof of content health.",
+  "reference_scan_note": "Candidate alternatives are navigation hints, not proof of equivalence. Cold/frozen files were not rewritten; active repairs are enumerated in REPAIRS.json. Literal memory/MEMORY.md in charter is a negative historical example, not active pointer."
+}

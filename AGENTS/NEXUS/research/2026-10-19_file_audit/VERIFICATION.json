@@ -1,0 +1,57 @@
+{
+  "checked_at_et": "2026-10-19T12:35:26-04:00",
+  "result": "PASS",
+  "all_10_matrix_rows_identical": true,
+  "existing_prediction_criteria_dates_status_confidences_identical": true,
+  "PRED38_change": "Context label only, explicitly excludes already-excluded operating-company loss",
+  "L13_L16_instrument_branch_cells_identical": true,
+  "guarded_HY_operative_body_sha256": "efeab75ff57655886015e1313ec84699ba2cd5a4dd83e90d830fd875e65f2c82",
+  "real_rate_letter_and_grading_log_unchanged": true,
+  "charter_and_CONFIRMED_unchanged": true,
+  "cold_archives_bytes_unchanged": [
+    "AGENTS/NEXUS/STATUS_COLD.md",
+    "AGENTS/NEXUS/PREDICTIONS_COLD.md",
+    "AGENTS/NEXUS/archive/2026-06-06_e_phase_pre_registration.md",
+    "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-09.md",
+    "AGENTS/NEXUS/archive/2026-10-09_one-root-or-many_COLD.md",
+    "AGENTS/NEXUS/archive/2026-06-06_e_phase_outputs.md",
+    "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-09-29b.md",
+    "AGENTS/NEXUS/archive/2026-08-28_BRIEF_SCHEMA_decision-log_and_review-history.md",
+    "AGENTS/NEXUS/archive/2026-06-06_self_audit.md",
+    "AGENTS/NEXUS/archive/BRIEFS_MAP_COLD_2026-09-29.md",
+    "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-09-29.md",
+    "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-14.md",
+    "AGENTS/NEXUS/archive/2026-06-08_cpi_pre_registration.md",
+    "AGENTS/NEXUS/archive/SYNTHESIS_2026-03-15.md",
+    "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-01.md",
+    "AGENTS/NEXUS/archive/2026-07-10_correlation-collapse-map_packetA.md",
+    "AGENTS/NEXUS/archive/2026-08-28_STATUS_prose_rotation.md",
+    "AGENTS/NEXUS/archive/2026-06-17_fomc_pre_registration.md",
+    "AGENTS/NEXUS/archive/SHADE_CROSS_CONNECTION_ANALYSIS.md",
+    "AGENTS/NEXUS/archive/AIRLINE_VULNERABILITY_SYNTHESIS.md",
+    "AGENTS/NEXUS/archive/2026-07-31_cross_brief_connections.md",
+    "AGENTS/NEXUS/archive/2026-05-21_revival_audit_draft.md",
+    "AGENTS/NEXUS/archive/LNG_TRANSMISSION_MAP_MAR2.md"
+  ],
+  "actual_anchor_levels_dates_still_unset": true,
+  "L754_after_cutoff_wake": "2026-11-24",
+  "remaining_active_inline_candidates": [
+    [
+      "AGENTS/NEXUS/CLAUDE.md",
+      102,
+      "memory/MEMORY.md"
+    ]
+  ],
+  "candidate_disposition": "Only charter negative historical memory-path example remains; actual memory/auto/MEMORY.md exists. No active unresolved path from this targeted hot/handoff set.",
+  "audit_page_bytes": 6094,
+  "empty_files": "Three expected .gitkeep scaffolds",
+  "no_external_source_poll_or_grid_execution": true,
+  "closing_inbox": {
+    "003": "Read/noted/filed committed666b5eb5d",
+    "008": "Read/deferred/filed committedd6e2dbfeb; primary-owner read/integration10/20L554 under existing wake, explicit9cannotation-cap deferral",
+    "009_011": "Three committed INFO packets read/deferred/filed; primary-owner reads at10/20L554",
+    "intake_cutoff_et": "2026-10-19T12:41:05-04:00"
+  },
+  "new_board_rows_valid": true,
+  "current_page_links_checked": "All AUDIT local links existence-checked after CONTROLS save; all other edited navigation targets verified."
+}

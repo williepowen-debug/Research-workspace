@@ -1,11 +1,11 @@
 # NEXUS STATUS
 
-**Updated:** 2026-10-19T11:05:25-04:00 — **FULL MATRIX REVIEW completed10/19** under Will's execution commission. Previous full9/29; scoped October deltas reused. All extant briefs read whole by3 fresh-context **gpt-6.1-sol** readers; direct owner evidence and controls → `research/2026-10-19_full_synthesis/RECORD.md`. Older snapshots → STATUS_COLD §H1–H20. No push. **Bounded WQ459 registration 2026-10-19T11:44:30-04:00; no re-sweep.** **Late annotation1:** OTTO L708 result consumed at closeout; delta-annotated, not re-swept.
+**Updated:** 2026-10-19T11:05:25-04:00 — **FULL MATRIX REVIEW completed10/19** under Will's execution commission. Previous full9/29; scoped October deltas reused. All extant briefs read whole by3 fresh-context **gpt-6.1-sol** readers; direct owner evidence and controls → `research/2026-10-19_full_synthesis/RECORD.md`. Older snapshots → STATUS_COLD §H1–H20. No push. **Bounded WQ459 registration 2026-10-19T11:44:30-04:00; no re-sweep.** **Late annotations1–2:** OTTO L708 and LIQUID ownerHYsustainMET consumed; delta-annotated, not re-swept. **File audit 2026-10-19T12:31:08-04:00**: receipt/pointer repairs only; no probability re-mark.
 **Frontiers:** FRED rates10/15; credit/VIX10/16; vendor KRE settled10/16. Domain evidence retains dates below. A last owner commit is not a terminal-presence test.
 
 > **2–6wk split: Break20% (—) · Grind47% (—) · Unresolved33% (—).** Re-dated10/8, reviewed/HELD10/19; no existing letter fired in this pass.
 > **Disc-J / L13:** L=2.85[9/24]; UP≥2.95×5 / DOWN≤2.75×5, Break±6pp from/toGrind. Cells13–14=2.84[10/14]/2.78[10/15]. **Cell15[10/16] still unpublished at source check; formalC#1 and L2 PENDING.** C scores nothing, not stability. FrozenC#1 allows one reanchor on actualcell15; C#2 terminal. No substituteanchor/thirdwindow. Gatebasis≈5regimeepisodes,leansDOWN;ex2008conditionalratiofails(caveattravels). Precision/tie/actionable-life disclosure owed at actualreanchor → audit.
-> **WQ459A APPROVED10/19; credit-admission rider MET. L16 guardedHY REGISTERED, anchor/levels PENDING for10/19 or nextqualifyingobservation; not yet evaluable.** UP HY≥L+10×3 / DOWN HY≤L−10×3 completingwithCCC≤C₀ ⇒ Break±6pp from/toGrind;15postanchorobs;firstfullbranchwins. No approval-only probabilitymove. First-read/carry/vintage/count-once/C/VOID/mechanism rules frozen→ `research/2026-10-19_WQ459_guarded_HY_letter.md`. Reviewedgrid reused,live32.6/4.7/NV62.8 robustnessFAIL;post-data design,thinopposingepisodes,10/15actionable,fire-day-onlyguard/sharedHY caveats retained. **PROVISIONAL** if10/19anchor:fireobs10/22(read~10/23),cell15obs11/9(read~11/10),+35backstop11/23;qualifying10/31monthendcouldmakecell15=11/6(read~11/9);carry/missingmaydelay. ActualdatesPENDING;nextcheck10/20.
+> **WQ459A APPROVED10/19; credit-admission rider MET. L16 / `GATE-NEXUS-WQ459-HY` REGISTERED **NOT ARMED**, acceptedbyPROME; anchor/levels PENDING for10/19 or nextqualifyingobservation; not yet evaluable.** UP HY≥L+10×3 / DOWN HY≤L−10×3 completingwithCCC≤C₀ ⇒ Break±6pp from/toGrind;15postanchorobs;firstfullbranchwins. No approval-only probabilitymove. First-read/carry/vintage/count-once/C/VOID/mechanism rules frozen→ `research/2026-10-19_WQ459_guarded_HY_letter.md`. Reviewedgrid reused,live32.6/4.7/NV62.8 robustnessFAIL;post-data design,thinopposingepisodes,10/15actionable,fire-day-onlyguard/sharedHY caveats retained. **PROVISIONAL** if10/19anchor:fireobs10/22(read~10/23),cell15obs11/9(read~11/10),+35backstop11/23;qualifying10/31monthendcouldmakecell15=11/6(read~11/9);carry/missingmaydelay. ActualdatesPENDING;L554nextcheck10/20;PROMEacceptedconditionalwakesL751–754(10/23,11/9,11/10,11/24after11/23END).
 
 **Trading:** NEXUS supplies synthesis; construction=TERRY, orders/approval=Will; broker truth off-repo, mirror→FORGE/STATUS.md. No quote here is a live executable price. No trade proposal or new trade study.
 
@@ -35,7 +35,7 @@
 |R1 USD/rates|LEVELhigh,latestlongendrallycounterevidence. BOND10/15hazard: havenFLOW resemblesbuybackFLOW; causeunresolved. ORACLE10/16Octoberhike12.5PM/16Kalshi is dated,instrumentsdiffer;HENRYlatest10/8,no currentgamma/policyboard. FOMC10/27–28.|
 |R2 Iran/Hormuz|FALCON10/14B1/C14/D85HELD; ship-loss5,totalinstrumentnotsolelysinkings. GFSPridetypecontainerconfirmed; CapeDaosinkingdateunstated. Productionrungnotfired;no measurednewnetcrudelosstotal. Next10/21review/11/5FAL06.|
 |R9 Russia/products|OSPREY10/18:C2crude-exportKILLED10/9,dormantarmed/voidonbackfill;C1refinerylive. Ryazan10/15anchor⇒earliest14daylimb10/29;L71810/23notearlygrade. Capacity≠barrels. YURI10/12:500ktpermission,deliveryunknown;producerban10/31,broaderbanJan31.|
-|R3 credit fundamental|HY331gives325/323/331>320×3 numerically;REGINALDsavedowner2-of-3,nextgradeowed. BANK-ABSENTthrough10/15only. LIQ07S2excludesreserve-channeltest;otherchannelsunseen. L708consumerCARLMIXED(~99.8%noise),LIQUIDNO_INSTRUMENT;OTTONO_INSTRUMENT[strictn0,a95429b7c10/19];supplementaryMIXEDnotformal.|
+|R3 credit fundamental|HY331gives325/323/331>320×3 numerically;REGINALDsavedowner2-of-3,nextgradeowed;LIQUIDowner>320rungMET3/3[10/19,565f15613]. BANK-ABSENTthrough10/15only. LIQ07S2excludesreserve-channeltest;otherchannelsunseen. L708consumerCARLMIXED(~99.8%noise),LIQUIDNO_INSTRUMENT;OTTONO_INSTRUMENT[strictn0,a95429b7c10/19];supplementaryMIXEDnotformal.|
 |R4 AI, two faces|Financingriskobserved;capexstillraised/no provencontractcut. DisruptionRootB**CANDIDATE,UNSUPPORTED**:VULCANissuerreadfailedmechanism;LIQUIDtierreadneithershowsnorrefutes. Equityproxy/laghatchesremain. AIpowerdemandsharesroot;plannedoutagesaresupplycause,notdemandproof.|
 |R6 Japan|SAM10/15:USDJPY158.054[10/14]tiesthecheckhigh;JGB10Y3.015/30Y4.072[10/14]orderlyretreat. No newcarryunwindvote. TotanOct6/Dec82=25bpequivalents,sourceageexpired10/18;nextBOJ10/29–30.|
 |R7 concentration|Mag734.5986%,breadth−2.83pp[holdings10/15,VULCAN10/16],YELLOW;predates10/16selloff. SharedAI/marketantecedents,notnewindependentbreakvote.|
@@ -75,7 +75,7 @@
 ### BREACHED / existing owner fires
 | Line | Dated mark | Interpretation |
 |---|---|---|
-|HY>320×3 sharedline|325/323/331bp[10/14–16,FREDfirstpublished]|Numericalsustainmet;REGINALDowner2-of-3[10/16],RED/LIQUIDearlierfrontiers;formalownerwritebackpending. Notbanktransmission.|
+|HY>320×3 sharedline|325/323/331bp[10/14–16,FREDfirstpublished]|Numericalsustainmet;REGINALDowner2-of-3[10/16];LIQUIDownerMET3/3[10/19,565f15613];RED/REGINALDconsequencesremainowners. Notbanktransmission.|
 |VIXboard≥18|19.99[10/16,FREDclose]|Levelbreached;M04≥18.41×2still1-of-2.|
 |RED-FT08 / FT10|core3mo3.25%;SKEW157.30×4[10/14,RED]|BothownerFIRED;netbear65lastread10/15. NoNEXUSre-mark;RED'sS1+discountconditionalnotmetonS2.|
 |LIQ07 / LIQ069|S2[10/16];0692-of-2,L4FIRED10/14|OneB/HYseries,repeatedsurfacesnotnewvotes;069notRELEASED.|
@@ -103,9 +103,9 @@ HY<260kill(331,71bpaway) · M08B≤290(45bp) · KRE≤64.02/≥75.16(69.81[10/16
 | Date | Event / current ownership |
 |---|---|
 |10/19–20|**L554Tue10/20:** DFII10cell15formalgrade/reanchorifpublished;M04nextVIXclose;M08nextB/CCCpair. **WQ459Aapproved/L16anchorPENDING;L708threelegsconsumed/acceptedbyPROME;L11interpretation=PROME.** WALAMC10/19/call10/20;OZKAMC10/20/call10/21. HOMERNAHBL725ownerresultpending;GIBBSCOF10/20.|
-|10/21–23|BOND20Y10/21;bankQ3EGBN/BKU/SSB;WATTP1earliestclear-dayretest≥10/22(orderlapse/renewalcheck);CRMTSTD10/22;FALCON10/21review;CORALMSI10/22;LIQUID/REGINALDHYownerwritebacksowed;no newcommission.|
+|10/21–23|BOND20Y10/21;bankQ3EGBN/BKU/SSB;WATTP1earliestclear-dayretest≥10/22(orderlapse/renewalcheck);CRMTSTD10/22;FALCON10/21review;CORALMSI10/22;REGINALDHYownerwritebackpending;LIQUIDMETfoldconsumed;no newcommission.|
 |10/27|**L555brief-healthrollup**;L554recurringTuesdaywake(PROMEredates). Fullcensustodaydoesnotpullrollupforward.|
-|10/26–31|Plenum10/26–29;FOMC10/27–28;hyperscalersownercalendar;UKBudget10/28;**M06formerend10/29=L630dispositioncuecorrectedinPROMEworkingtree,persistenceunverified**;BOJ10/29–30;**L573M08/M09end10/30**;Russianproducerban10/31(broaderrestrictionJan31).|
+|10/26–31|Plenum10/26–29;FOMC10/27–28;hyperscalersownercalendar;UKBudget10/28;**M06formerend10/29=L630dispositionpersisted26f69a9da,no numeric test**;BOJ10/29–30;**L573M08/M09end10/30**;Russianproducerban10/31(broaderrestrictionJan31).|
 |11/05|**L631M01/03/04/05/07windowsend**;gradeonlyafterfinaldatedcellpublishes. FAL06ownersearch11/5;FFIECJWTexpiry11/5/CRbreadthread11/7(Will/PROME).|
 |11/10|**L572PRED38**Q3attributedbankNBFIchargeoffs;coverageauditbeforecount. TwoChinacontrolclocks. HHDCQ3~earlyNovEXPECTEDonly,L575;Q4~earlyFeb.|
 |11/20|**L574/L632PRED45/M11**loan-transferdocuments;marksnevertransfers. S1build/acceptance=PROMEL730,notblockingsynthesis.|
@@ -119,4 +119,8 @@ HY<260kill(331,71bpaway) · M08B≤290(45bp) · KRE≤64.02/≥75.16(69.81[10/16
 
 ## CONFIRMED / NEXT
 
-CONFIRMED.md reviewed: C35ungradeableontransits;C36LEVEL/SPLITunchanged;PRED48/PRED50finalworkreused,no promotion. **Next:** publication-qualifiedL13/M04/M08;L16anchor/PROMEL11/L630persistence/L730;ownedcensus/controlsandWillpageinfull-synthesisfolder. No unpublishedcell blocks completedfullreview.
+CONFIRMED.md reviewed: C35ungradeableontransits;C36LEVEL/SPLITunchanged;PRED48/PRED50finalworkreused,no promotion. **Next:** publication-qualifiedL13/M04/M08;L16anchor/PROMEL11/L730;ownedcensus/controlsandWillpageinfull-synthesisfolder. No unpublishedcell blocks completedfullreview.
+
+File-audit findings/owed map → `research/2026-10-19_file_audit/AUDIT.md`; no market-source poll or whole re-sweep.
+
+Queued WALTER008ACTION(d6e2dbfeb) and009–011INFO(2d9238d29/0cd4974a7): OTTO September5/9/custody, HOMER housing and LIQUID inventory/valuation updates await primary-owner reads/integration at10/20L554. Two late annotations used; explicitly deferred, no third patch/grade. File-audit intake cutoff 2026-10-19T12:41:05-04:00; later arrivals remain queued, outside this receipt.
