@@ -1,45 +1,40 @@
-# WALTER LAST_COMPLETION — evening boot, routing and owed-work sweep
+# WALTER LAST_COMPLETION — Sun 10/18 boot and weekend routing
 
-Updated 2026-10-17T14:44:07Z: **Tier-2 FULL closeout for the laptop → desktop switch** (Will, Sat 10/17 10:42 ET: commit and push everything; the desktop will pull from GitHub). Runtime Claude Code, `claude-opus-5-5` (Will-launched 10/16; boot 17:25 ET; sweep 19:46 ET). Root, AGENTS.md, USER.md, charter and WALTER MEMORY read explicitly. **Read-cap rotation (READ_CAP rule 5, 89% → under 70% of budget):** the prior file is archived VERBATIM at `research/2026-10-16_evening/prior-LAST_COMPLETION.md` (sha256 `2ff8820f9f967f68…`). Its afternoon CHANGED/RESULT narrative, superseded publication notes and earlier evidence hashes live there. Every duty, approval and open decision is carried below, and the approval table is word for word.
+Updated 2026-10-19T00:59:10Z: **Tier-2 FULL closeout** (Will, Sun 10/18 20:56 ET: "lets close out here"). Runtime Claude Code, `claude-opus-5-5`, desktop. Root CLAUDE.md, WALTER charter and MEMORY loaded (auto-injected; explicit reads of STATUS, anchor, MEMORY, this file, REGISTRY, routing table/overlays, THRESHOLD_SCAN, four registries, guard corpus). Prior version: `git show dd9764575:AGENTS/WALTER/LAST_COMPLETION.md`.
 
 ## STATUS
 
-Boot steps 0–9b executed; boot = **PARTIAL** because the READS attestation is stale (see GAPS) and the HANS daily rows were not re-pulled at the 10/16 closes. Sync: 0 ahead / 0 behind at 23:46Z (10/16) and again at 14:43Z (10/17, before this closeout commit); the WALTER inbox was empty on 10/17 and no 10/17 intake batch had run (Saturday). **Every WALTER commit through 385b0854d is on origin**: another session's push carried 028–040 up, and `reconcile_delivery_log --apply` moved 30 rows to delivered, 0 orphans. Doctor 0 HIGH. Its MEDs are all pre-existing or transient: LABOR_DOWN taxonomy; 2 historical AMENDMENT-NOTE delivery IDs; 20 NOTE rows; 119 unconsumed >2d across 9 recipient desks; newsweep "degraded" = 1 of 4 RSS requests timed out on the 18:34Z run, with all 57 Google requests OK and every prior day OK.
+Boot 0–9b executed; **PARTIAL** because the READS attestation is still stale (reads_check UNKNOWN). Sync at boot 0 behind; origin had nothing new; PROME held 3–4 unpushed local commits. Doctor 0 HIGH, 6 MED all pre-existing (LABOR_DOWN taxonomy; 2 historical AMENDMENT-NOTE delivery IDs; 20 NOTE rows; newsweep degraded; DAEDALUS registry lag; 240 unconsumed >2d across 23 desks, 51 ACTION, oldest 16d). 6c: no market session since Fri 10/16; FRED HY and VIXCLS for 10/16 unpublished at 22:01Z; no new fire. Inbox 0, phone lane absent, dropzone 0. **Routing commit a302bd265 and this closeout commit are LOCAL, not on origin** (push deferred, see WILL_NEEDS); delivery rows for 001–008 stay `written_not_delivered_pending_push`.
 
 ## CHANGED (this session)
 
-- **FLASH `027`**: VIX +5.85 intraday (16.46 Cboe close → 22.31 at 13:20 ET), close 19.99. Pushed via safe-push, CONFIRMED 2ac692eab. Follow-up `034` (no fund named, rumor unconfirmed, steep leg came with oil flat, VX futures front inverted, SKEW 168.59 at Cboe). Correction `037` (COR-20261016-03, HOLD): the earliest dated rumor is Renick's X post at 13:36 ET, not 14:47.
-- **`035` Iran/Saudi**: IRIB pipeline claim CLAIM-ONLY; Yanbu missile INTERCEPTED; MT ST 3 struck in Hormuz, not sunk; Brent Z6 $109.86 on rumour; FAL-01 not met. Guard corpus read in full; anchor scoped-check line added (24,015 B).
-- **Inbox 3/3** (`028` LIQ-07 S2 → RED; `029` discount window $11.044B → REGINALD; `030` Cable One TRO, a missed route → BROCK). **Intake 17/17** (`031`–`033`, `035`; 4 kill rows). **X bookmarks**: token refresh failed at boot; Will re-authorized at 22:24Z; 5/5 routed `036`–`040` (Two Sigma CRE exit → CREED; KBW bank index 6-week losing streak, longest since 2008, large-bank-led → REGINALD/GIBBS; Ueda "will continue to raise" → SAM; BofA boom-bust unverified → VULCAN).
-- **Sweep fixes:** 5 FILED-not-CONSUMED packets from 10/15 declared RETROSPECTIVELY, each citing the WALTER commit that did the work (66f5753ac, a44a5bbc7). The malformed `corrects:` on `SIG-W-20261015-015` was normalized to `EXTERNAL: fleet-bloc-claim …` (prefix only, meaning kept). This file was rotated.
-- REGISTRY 6 rows refreshed; STATUS re-cut; two Rule-9 Opus verify reports in `research/2026-10-16_evening/`. MEMORY #34 n+1 (typed stamps ahead of the clock in `source:` lines, caught pre-commit).
+- **8 signals, 23 handoffs** (the routing commit message says 22; 23 is the delivery_log count): `001` VULCAN (MSFT exits Nscale Loughton anchor tenancy for grid power; "MSFT dumping neoclouds" unsupported; MS AMD 2026 units ~2.4M→~0.6M; Character.AI Ch.11; Trump MU trim) · `002` FALCON/BRENT Iran scoped check (Al Jubail hits UKMTO; IRGC mine claim CLAIM-ONLY; Pickaxe permission claim unsourced; no strike on Iran; no FM; Dated ~$116.58 vs Z6 $109.86, aggregator) · `003` OSPREY St Petersburg Oil Terminal + Ruchyi (terminal, not refinery) · `004` HANS France 550K/800K, Macron quote 2018 · `005` HOMER ATTOM August REO · `006` CREED Kohan Chicago (case) · `007` CORAL Galleon · `008` CARL WSJ pass-through + NY QCEW.
+- **Batches:** BM-20261018-01 bookmarks 28/28 (token valid, no re-auth; `--mark` done); BM-20261018-02 intake 10/10 (`--mark` done). 2 kill-log rows. Four Rule-9 Opus verify reports: `research/2026-10-18_boot/verify-{iran,russia-france,ai-tech,us-credit}.md`.
+- **Iran anchor:** guard corpus read whole pre-dispatch; 10/18 scoped line added; superseded 10/16 conflict-flag line rotated verbatim to `IRAN_WAR_HISTORY.md` § Rotated 2026-10-18; 24,101 B (trigger 24,412).
+- REGISTRY rows PROME/OSPREY/DAEDALUS/WALTER refreshed; STATUS re-cut; SESSION_LOG entry; MEMORY #34 n+1 (typed '01:0xZ' REGISTRY stamp ahead of the clock, caught pre-commit).
 
 ## GAPS / OWED
 
-- **READS attestation STALE (reads_check UNKNOWN):** `AGENTS/WALTER/CLAUDE.md` changed 10/16 (instruction cleanup) after the 10/12 attestation row in `PROME/registry/READS.tsv`. **Owed: re-enumerate the charter's boot reads against WALTER's READS rows, then file a re-attestation packet to PROME** (PROME owns the file). Not done tonight.
-- **Telegram:** FLASH `027` was not sent to Telegram (no inbound chat_id this session); Will was told in the terminal. Deliver it on the next supported inbound (Rule 12).
-- **Runtime:** shell/Python/git/web, Rule-9 helpers and the Telegram reply tool (inbound-only) work. A native fleet census is not established; unknown desks are not dark.
-- **Shared checker:** R1's remaining two SHORT-TARGETS outputs are demonstrated filename-date misparses (closeout_check REVIEW stays on these only; COR-20261016-03 added none). A tested resolver candidate went to PROME, not installed. The LABOR_DOWN/archive-schema and historical delivery-ID residues remain declared; no history is erased to quiet checks.
-- **PROME-owned advisories (flag, not WALTER's to edit):** root `CLAUDE.md` at 77% of read budget; generated `ORCH_INFLIGHT.md` at 84% (source `ORCH_LOG.tsv`).
-- **Sources:** official ICE settlement basis, Baltic current-week body, exact KRX close total, Volta exact yield, CREED event/cohort census, HANS T12 and some event inputs remain unavailable or uninstrumented. The Iran full-perimeter recheck has access-limited limbs; no all-clear and no clean full-sweep stamp.
-- **Maintenance:** exhaustive >60-day research/source retirement eligibility is still unclassified (no age-only moves). **Expired signal companion `reading/SIG-W-20260619-008.md` (review_due 2026-09-30) fails closed.** A substantive content review against the 39.5 KB source signal is owed, not a date/hash restamp.
-- **DOCKET L334 INFO-backlog predictive study** (WALTER-designed, dated 10/15): owed; also tracks which recipient desks later cited INFO copies.
+- **Push/delivery:** a302bd265 + closeout commit not on origin. Next session: safe-push on Will's word, then `reconcile_delivery_log.py --apply`.
+- **READS attestation STALE:** charter changed 10/16 after the 10/12 READS row. Owed: re-enumerate boot reads against `PROME/registry/READS.tsv` and file a re-attestation packet to PROME **before the 10/22 strict flip** (DOCKET).
+- **Telegram:** no inbound this session either; FLASH `027` still not delivered to Telegram (Rule 12).
+- **Runtime:** shell/Python/git/web, Rule-9 helpers work; Telegram reply tool inbound-only; native fleet census not established.
+- **Shared checker:** R1 SHORT-TARGETS filename-date misparses (closeout_check REVIEW on those only); LABOR_DOWN/archive-schema and historical delivery-ID residues declared.
+- **PROME-owned advisories:** root `CLAUDE.md` read budget; generated `ORCH_INFLIGHT.md` size (source `ORCH_LOG.tsv`).
+- **Sources:** as before (ICE settlement basis, Baltic body, KRX total, Volta yield, CREED census, HANS T12). Tonight: Telegraph/WSJ/Reuters originals not opened (relays only); Dated Brent from an aggregator.
+- **Maintenance:** >60-day retirement review unclassified; expired companion `reading/SIG-W-20260619-008.md` (review_due 9/30) content review owed; DOCKET L334 INFO-backlog study owed.
 
 ## WILL_NEEDS
 
-No new decision needed. Existing approvals below keep their conditions. **Tomorrow (10/17) is the L599 bookmark pilot review:** WALTER measures and reports; PROME re-presents it as a WQ row; Will decides on continuing, Phase 2 (paid account feed) or stopping. No self-extension.
+⚖️ **Push decision (asked 10/18, unanswered):** push a302bd265 + the closeout commit via `scripts/safe-push.sh` (also carries PROME's unpushed commits), or hold for Monday. Recommendation: push once PROME has closed out. **Mon 10/19 L599 bookmark pilot review:** WALTER measures, PROME re-presents as a WQ row, Will decides continue / Phase 2 / stop. No self-extension.
 
 ## FOLLOW-UP
 
-1. **Mon 10/19 AM, HY 10/16 cell (FRED, first-published):** RED-FT-02 / REG-T-03 bar 3 (>320 = FIRE, ≤320 = reset); also the +25 bp single-session safety-net leg. Carry REGINALD's BANK-ABSENT read beside any fire. **VIXCLS 10/16** decides the RED-FT-06 exit candidate 1/5 (vendor close 19.99). Cboe history rows should confirm 22.31/19.99/168.59 (not posted at 23:46Z). FT11 FLOW evidence is already in `007`; owner vintage/classifier adoption is pending.
-2. **Volta:** routed `017`. VULCAN graded it 10/16 (not red on reading A, red n=2 on reading B, WQ-441, Will due 10/17); LIQUID owns L3. Exact-yield evidence is owner/source follow-up; do not repeat "tier-1 source unavailable."
-3. **Iran:** FALCON reconciles the Cape Dao chronology, container 172/173 clocks and the retrospective Saudi infrastructure reporting; it also reads CENTCOM on the GFS PRIDE attribution and records MT ST 3 (`035`). The five-loss census and B1/C14/D85 marks are owner-held. **Full sweep due ~10/22**; anchor 24,015 B (rotation trigger 24,412 B).
-4. **Intake:** PROME decides deployment/adoption on the tested VULCAN proposal (`outbox/REQ-PROME-20261016-vulcan-intake-design.md`, delivered). The rejected HBM-order-cut phrase is dropped; Korean locale support is required. GIBBS owner phrases at its planned 10/19 session (L704), then R3 test. Optional WATCH_FOR terms "Cable One"/"CoBank" are PROME config. No new collection commissioned.
-5. **PROME scheduled carries:** L717 WATT retest ≥10/22; L516 REGINALD next on 10/20 (Nano P&A unposted at the 13:38 ET 10/16 check); L730 S1 boot line. REGINALD's T03/04 non-session bridge confirmation is DONE (re-confirmed by packet 10/16). The FHLB Q2 Highlights-vs-CFR basis discrepancy is owner-held (CFR 11/13); no instrument substitution approved.
-6. **Calendar / sources:** WAL Mon 10/19 after close, call 10/20 noon ET; OZK 10/20 after close; **October VX expiry Wed 10/21**; EGBN 10/21 after close; RCL call 10/27; FOMC 10/27–28; **NCLH Q3 Thu 10/29 06:30 ET** (`033`); BOJ 10/29–30; Carvana and UK Budget 10/28; ECB 10/29; BZZ26 last trade 10/30, so boundary #8 switches 11/2; Treasury refunding 11/4. LIQ-07 resolved S2 (`028`). Current Baltic tanker source still missing.
-7. **Korea:** the closing-buy direction is corroborated secondarily (`022`); the exact primary total and value discrepancy remain with SAM.
-8. **Cable One (`030`):** check for the SDNY hearing date and outcome at each boot until one posts (BROCK's ask).
-9. **L599 pilot review 10/17** (bookmarks/day, dispatch rate vs the 42% screenshot baseline, post-to-disposition time, accounts seen; Bright Data ledger 5 requests: 2 RESCUED / 1 PARTIAL / 1 REACHED-NO-TARGET / 1 NOT-RESCUED, per `registry/brightdata_usage.tsv`). Then L334, READS re-attestation, companion review and retirement review (GAPS). MEMORY calendar check 10/22.
+1. **Mon 10/19 AM — HY 10/16 cell (FRED first-published):** RED-FT-02 / REG-T-03 bar 3 (>320 FIRE, ≤320 reset; 10/15 323) and the +25bp single-session leg; carry REGINALD's BANK-ABSENT read beside any fire. **VIXCLS 10/16** decides FT-06 exit candidate 1/5 (vendor 19.99). Cboe history rows for 22.31/19.99/168.59.
+2. **Iran:** FALCON owns the Al Jubail rows, mine-claim adjudication, Cape Dao chronology, GFS PRIDE attribution. Full sweep due ~10/22. Do not carry "$136 physical", "US asked permission", or "Strait closed" as fact.
+3. **OSPREY:** St Petersburg terminal row (`003`); L661 read 2 HOLD re-dated 10/23 (PROME).
+4. **Calendar:** WAL Mon 10/19 AMC (call 10/20 noon); GIBBS first session 10/19; OZK 10/20 AMC; Nano P&A posting check (REGINALD L516) 10/20; receiver-side canary 10/20; **October VX expiry Wed 10/21**; EGBN 10/21 AMC; EIA weekly 10/21; L717 WATT retest ≥10/22; READS strict flip 10/22; RCL 10/27; FOMC 10/27–28; Carvana/UK Budget 10/28; NCLH 10/29 06:30 ET; ECB 10/29; BOJ 10/29–30; BZZ26 last trade 10/30 (boundary #8 switches 11/2); refunding 11/4.
+5. **Carried from 10/17:** Volta (`017`, VULCAN/LIQUID); VULCAN intake design REQ with PROME; Korea exact total (SAM); Cable One SDNY hearing check each boot (BROCK); L599 metrics (bookmarks/day, dispatch rate vs 42% screenshot baseline, post-to-disposition time, accounts; Bright Data ledger 5 requests). MEMORY calendar check 10/22.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will 2026-10-16
 
@@ -77,106 +72,79 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Tier-2 closeout 10/17 (checks in `research/2026-10-17_closeout-full/`); the 10/16 light closeout and sweep checks are in `research/2026-10-16_evening/closeout-light/` (read-cap, archives, weekdays and ledger PASS; the receipt check stays REVIEW only on the two documented R1 misparse rows). This closes the session's records, not the duties above.
+Tier-2 closeout 10/18 (checks in `research/2026-10-18_closeout-full/`). This closes the session's records, not the duties above.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-17T14:44:07Z",
+  "as_of": "2026-10-19T00:59:10Z",
   "publication": [
     {
-      "commit": "2ac692eab60572c39d523abbdb817f3011458dd7",
-      "state": "published"
-    },
-    {
-      "commit": "9c6387039b4d729ef44a9388e300e50cdcf23c93",
-      "state": "published"
-    },
-    {
-      "commit": "48309e30f784c230d50f355b84b88be5fec02c96",
-      "state": "published"
-    },
-    {
-      "commit": "a4e9436e18990bf03bfed776280926b248907d1f",
-      "state": "published"
-    },
-    {
-      "commit": "83d2f3727e4c8848d6e07db96539a0d10560d675",
-      "state": "published"
-    },
-    {
-      "commit": "8567c442f47d9a419f1816afeb7850352c593c99",
-      "state": "published"
-    },
-    {
-      "commit": "385b0854d8e6e066dcb87bc05404cdeb94013145",
-      "state": "published"
-    },
-    {
-      "commit": "b521a70400a44b29069be0a91b8529f277012c7f",
-      "state": "published"
-    },
-    {
-      "commit": "ab21ddcaf836f23648e5f4f8ed1f1c4b899ed25c",
-      "state": "published"
+      "commit": "a302bd265",
+      "state": "pending"
     }
   ],
   "delivery": {
-    "signal_date": "20261016",
-    "total": 121,
-    "delivered": 121,
-    "note": "All 121 October16 handoff rows proven on origin (87 earlier + 4 FLASH 027 + 30 evening rows reconciled 23:46Z). Consumption UNKNOWN."
+    "signal_date": "20261018",
+    "total": 23,
+    "delivered": 0,
+    "note": "23 handoff rows for 001-008 written_not_delivered_pending_push; push deferred to Will. Consumption UNKNOWN."
   },
   "push": {
-    "all_walter_commits_on_origin": true,
-    "note": "All WALTER commits through ab21ddcaf proven on origin at 14:43Z 10/17. This Tier-2 closeout commit is pushed via scripts/safe-push.sh on Will's explicit instruction (10/17 10:42 ET); the receipt line is recorded in SESSION_LOG/terminal."
+    "all_walter_commits_on_origin": false,
+    "note": "a302bd265 and this closeout commit are local; push is Will-coordinated (BOARD_CONSUMPTION_SPEC 7); asked 10/18, unanswered at closeout."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-16_evening/verify-vol-rumor.md",
-        "sha256": "02f62e7239a9abe524ce4ac77578505a1e40f9fbbca4edaec6ae28625f4e1e57",
-        "review": "Read whole; figures cross-checked against WALTER's own pulls; fund name withheld from BOARD as RUMOR-UNCONFIRMED. Routing review, not owner adoption."
+        "path": "AGENTS/WALTER/research/2026-10-18_boot/verify-iran.md",
+        "sha256": "5bff2ce826acbe5aeb26ec3591ac5bd2cebd8deee99dbdabb9163d45593d0a2a",
+        "review": "Read (summary + load-bearing tables) before dispatch; routing review, not owner adoption."
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-16_evening/verify-iran-pipeline.md",
-        "sha256": "3fc2026106afabbd97e1c0c0eab0dbf262244b69c95f618d8063e598f05ba55c",
-        "review": "Read whole against the Iran guard corpus; routing review, not FALCON adjudication."
+        "path": "AGENTS/WALTER/research/2026-10-18_boot/verify-russia-france.md",
+        "sha256": "2c56cbdb7de88105842b0197a75b2e65cba12dbd6c8a612e2eb7e6721d5923fb",
+        "review": "Read (summary + load-bearing tables) before dispatch; routing review, not owner adoption."
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-16_evening/prior-LAST_COMPLETION.md",
-        "sha256": "2ff8820f9f967f6829e552bededd931b9a8323a50d6c6849bebf46ee32476d9d",
-        "review": "Verbatim rotation archive of the pre-rotation LAST_COMPLETION; carries were re-derived from it line by line, and the earlier publication proofs and 13 evidence hashes live there."
+        "path": "AGENTS/WALTER/research/2026-10-18_boot/verify-ai-tech.md",
+        "sha256": "9376112777940bcd0fa147221ceb29b689de2de5a6e9d85da61ac555f2d0aee7",
+        "review": "Read (summary + load-bearing tables) before dispatch; routing review, not owner adoption."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-18_boot/verify-us-credit.md",
+        "sha256": "0cd5847e16cf895b6182b940248bd691d2f226c645e285d04e252c70c6e82e02",
+        "review": "Read (summary + load-bearing tables) before dispatch; routing review, not owner adoption."
       }
     ]
   },
   "owed": [
-    "READS re-enumeration + re-attestation packet to PROME",
-    "Telegram delivery of FLASH 027 on next supported inbound",
-    "L599 pilot review 10/17; L334 INFO-backlog study",
-    "Expired companion reading/SIG-W-20260619-008.md content review; bounded >60-day retirement review",
-    "Mon 10/19: HY 10/16 cell; VIXCLS 10/16; Cboe history rows",
-    "Owner/source and scheduled duties under preserved approvals"
+    "Push + reconcile delivery (Will's word)",
+    "READS re-attestation packet to PROME before 10/22",
+    "Telegram delivery of FLASH 027",
+    "L599 pilot review 10/19; L334 study",
+    "Expired companion review; >60-day retirement review",
+    "Mon 10/19: HY 10/16 cell; VIXCLS 10/16; Cboe rows"
   ],
-  "next_review": "2026-10-17",
+  "next_review": "2026-10-19",
   "procedure": {
     "tier": "full",
-    "scope": "Laptop → desktop switch closeout; clears the 10/16 21:47Z and 23:50Z light deferrals.",
-    "claim": "The 10/16 boot stays PARTIAL (READS attestation stale; HANS daily rows not re-pulled at the 10/16 closes). The closeout does not cure those gaps."
+    "scope": "Sun 10/18 boot + routing 001-008.",
+    "claim": "Boot PARTIAL (READS attestation stale). Closeout does not cure it."
   },
   "manual_duties": {
-    "11": "027-040 authored: 14 BOARD signals, 40 handoffs, 3 batches closed (04 4/4, 05 17/17, 06 5/5); one correction row COR-20261016-03.",
-    "Tier1": "STATUS counts and dated market rows refreshed; no fresh market claim beyond dated pulls.",
-    "15": "Carries re-derived from the archived file; approvals and the source-search table kept verbatim.",
-    "16": "Exact-path commits; FLASH pushed under 3.4; the rest are on origin via another session's push; delivery reconciled.",
-    "root.retirement": "New artifacts are under 60 days; the exhaustive review is still owed.",
-    "root.memory": "WALTER MEMORY #34 n+1 only; no auto-memory edit.",
-    "root.claim_check": "Weekday checks PASS on every new card.",
+    "11": "001-008 authored: 8 BOARD signals, 22 handoffs, batches 01 28/28 and 02 10/10 closed; no correction rows.",
+    "Tier1": "STATUS header/bottom line/Iran row/network regenerated; no fresh market claim beyond dated pulls.",
+    "15": "Carries re-derived from the 10/17 file; approvals table and open design decisions kept verbatim.",
+    "16": "Exact-path commits; push deferred (Will-coordinated).",
+    "root.retirement": "New artifacts under 60 days; exhaustive review still owed.",
+    "root.memory": "WALTER MEMORY #34 n+1 and session notes; no auto-memory edit.",
+    "root.claim_check": "Weekday check PASS on 001-008 and anchor.",
     "root.consumer": "No threshold or owner figure superseded.",
-    "13": "Registry: only PROME's header changed since 21:42Z 10/16; PROME and WALTER rows refreshed; 47 rows.",
-    "12(a-f)": "STATUS header, BOTTOM LINE and NETWORK AWARENESS regenerated; counts re-measured (BOARD 1495); read cap re-run.",
-    "14": "MEMORY session notes rewritten for the desktop session; no new standing finding (heredoc n+1 already in auto-memory)."
+    "13": "Registry: PROME, OSPREY, DAEDALUS, WALTER rows refreshed; 47 rows.",
+    "12(a-f)": "BOARD 1503 re-measured; 0 cluster_mediating; read cap re-run at closeout.",
+    "14": "MEMORY session notes rewritten for Mon 10/19."
   }
 }
 END_CLOSEOUT_RECEIPT -->
