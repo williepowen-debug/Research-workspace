@@ -4,15 +4,15 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-14 14:27 EDT (Will-requested final closeout)
+## Current Session — 2026-10-19T17:34:52-04:00
 
-Will directly requested closeout after bounded continuation. OpenAI GPT-6/Codex /root; exact variant/native sessionID UNKNOWN; no helper. Completed construction PASS/0freshcandidates, supplied broker bookkeeping, independently accepted repairs, and BOND's existing TBT context. Acceptance/QQQ-filing loop VERIFIED CLOSED; VIOLET L681 separate. No repair reopening, duplicate booking, new trade/rule/study/monitor or sample credit. Core continuation05cd9c319 and BOND filing3457e8628 freshly confirmed on origin/master; final closeout publication recorded separately in dated delivery. Root safeguards remain.
+Will launched TERRY aftercloseOctober19 for PROMEbroker-reconcile/C5. OpenAI GPT-6/Codex, exactvariantUNKNOWN, session01a15610-6ca1-7a52-9c12-58250b30d99a, nohelper. Noorder/capital/rule/gate. Read research/2026-10-19_broker-reconcile/REPORT.md FIRST for exactrows/gaps/cardindex.19Activityrowsfrozen (16filled/3cancel), sourcehash514980…40071. ThreecompleteQQQcallthreads+27.69DERIVED bookedonce inPOSTMORTEMS.719Ppartial−53.32CONDITIONAL/0.50allocationmismatch excluded. No dailyrealizedtotal. Priorbookingspreserved.
 
-Latest broker receipt October14/timeUNKNOWN: QQQ744P CLOSED, QQQ740P3/basis1591.99 expireOctober15; USO150C2 expireOctober14, HBAN16P2 expireOctober16, TBT5 reviewOctober14. These are last supplied holdings, not a fresh query. Orders/laterdispositions/filltimes/exercise/BP/RH UNKNOWN. TLTclosed; BOND prior operational killMET/NO-ADD and WQ357 clock unchanged; official October14 nominal/real split pending. VLO2 onlyoriginal1rulescope/secondUNKNOWN/scaleterminal; qualifying source/DecemberbasisOctober15 remain. DEWEYcommissionFINAL/complete, netadditionUNKNOWN; L694/L372complete. No future DEWEYpass owed.
+EightseparateC5cards: tomorrowQQQ720P/719P/715Peach1priority,prefer09:35–10:00review/proposed14:30stop;brokerholdings/orders/bidandWillapprovalowed. October23CRWV56P/USO163Cnext,thenUSOOct28/CMGandUSOOct30. AllCONDITIONAL, norollapproved. WAL65P4preprintwindowended/noextension/noautomaticHOLD;WALownerpostprintread/renewedchoiceowedbyexisting10/21review. OZK40P4approvedSELLbackstop10/20 15:30;TBT5approvedSELLhandsowed. Nonehasclosingfill. LIQ07S2precludesFT02ANDS1flip.
 
-**Will's standing continuation scope — October14:** Record supplied broker transactions/orders, preserve unknowns, evaluate existing management conditions only on qualifying evidence. Missing information alone authorizes no study. Scoring requirements unchanged: no quota trades or automatic discretionary-trade entry-test credit; minimum permits evaluation, proves no reliable edge and authorizes no larger sizing. Surface only material changes, existing decisions and time-sensitive management duties. No new trade, rule, research commission or monitor authorized. Exact instruction: research/2026-10-14_desk-repair/REPORT.md, final continuation section. Two-pullproposal NOTADOPTED; dashboard onrequestonly.
+VLO3total/original1rulecoverage/added2scopeUNKNOWN;SCALETERMINAL. FidelityWAL70P2distinctRH1,ZION62.5P2newscopeintakeowed. D84unseenentries/quantitychanges,D85basis,D86expiredQQQ/HBANoutcomes,RH/order/clocks/handlingremainunknown. Neverinferlapsefromabsence. No newstudy,monitorortradeauthorized. ExistingOctober14scopecontinuesexceptexplicitOctober19C5commission. Dashboardonrequest;Deckpaused/Helmretired.
 
-Closeout checks/cutoff/retirement/persistence: outbox/2026-10-14_to-PROME_closeout.md and research/2026-10-14_closeout/receipt.json latest_closeout. BOARD0new/0logged since030; rawWill0/inbox0 at final observation, R1zeroNAMEDowed. Retirement120research/sourcepaths assessed/3oldretained for live graded/rule evidence/0moves; no broader cleanup. Foreign work/index untouched; no pull/stash. Native cross-window notification/recipient consumption of this new closeout and process termination unavailable/unverified. Stop work after final response unless Will reopens; next boot reconciles later inbox and processed versions against cutoff without repeating accepted work.
+Checks/cutoff/publication andremainingacceptance in PROME/inbox/2026-10-19_from-TERRY_broker-reconcile-and-expiry-cards.md. NativePROMEnotification/consumption/closeoutaskreceiptunavailable/unverified. No foreignworktouched/pull/stash. New BOARD033read/logged;3NAMEDcorrectionsNO-OP;rawWill0new. Paper3marked,noscoringcredit. SETUPS/TRADE_BOOKhistorysplitcrcverified,allcurrentobligationshot;researchretirement146pathsassessed/3oldretainedfordirectliveuses/0moves,carriedprocessdebtsnotclosed.
 
 ### Prior boundary — October14 11:12 EDT
 
@@ -26,10 +26,10 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-1. Continue within Will's October14 standing scope above. PROME acceptance/QQQ-filing acknowledgment loop CLOSED and verified; do not reopen repairs or create another receipt loop. VIOLET L681 remains separate. No repeated L694/L372/DEWEY work; reconcile only new supplied evidence.
-2. Current broker evidence governs USO150C2October14, QQQ740P3October15, HBAN2October16 and TBT5review. Times are proposed, orders UNKNOWN; Will executes. No exit/roll inferred. SecondVLO/KRE/CMG and RH/exercise/D69 limits survive.
-3. WQ420/L684 wording and L687 supplied-receipt acceptance resolved, specificGitrecipehold released. VIOLET L681 acknowledgment remains unverified. QualifyingVLOsource/DecemberbasisOctober15 and existing CARL/dormantcard/window/Q3/C5 duties retain their owners and dates. Two-pullproposal stays NOTADOPTED.
-4. Parser repairs independently accepted within state-join scope; narrative/quantity/price completeness unclaimed. Paper sample insufficient; daytrade loop subordinate/no new raw input; dashboard onrequestonly. Preserve local/private raw sources. Publication requires actual fresh proof; no pull over dirty peer work or repeated test/research solely for sharedHEAD changes.
+1. Reconcile later inbox/processed and broker evidence against October19 source hash/Activity keys before repeating any booking. PriorOctober15QQQ740P/USO150Cclosures already booked; cohort/partial totals are not additive.
+2. TomorrowQQQthreeputs andOZK10/20 15:30backstop first. Re-markheldquantity/orders/bids;Willapproves/orders. WALwindowended,ownerQ3grade/freshchoiceowed;TBT5approvedexitfillowed. October23cardsnext,otherC5draftsreadybutexecutablechecksowed.
+3. VLOoriginal1only;twoaddedsharescopeUNKNOWN,scaleterminal. FidelityWAL70P2andZION2intake/KREcarddates remain. ActualQQQ/HBANexpiredoutcomes andbasisgapsawaitbroker,notinference.
+4. CarryNCLH10/20stale-bywithprimary10/29reportdate,existingdormantprint/relockandprocessdebts. Noadditionalresearchbydefault. Rootexactpaths/freshpushproof andindependentacceptance/consumptionseparations remain.
 
 ## Mandate (one line)
 

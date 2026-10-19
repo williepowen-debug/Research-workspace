@@ -1,0 +1,72 @@
+{
+  "observed_at": "2026-10-19T17:36:57.574321-04:00",
+  "checks": [
+    {
+      "name": "ledger-sweep",
+      "command": [
+        "python3",
+        "AGENTS/TERRY/scripts/ledger_sweep.py"
+      ],
+      "rc": 0,
+      "output": "ledger-sweep.txt"
+    },
+    {
+      "name": "corrections",
+      "command": [
+        "python3",
+        "scripts/corrections_boot_check.py",
+        "TERRY"
+      ],
+      "rc": 0,
+      "output": "corrections.txt"
+    },
+    {
+      "name": "read-cap",
+      "command": [
+        "python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "TERRY"
+      ],
+      "rc": 0,
+      "output": "read-cap.txt"
+    },
+    {
+      "name": "weekday",
+      "command": [
+        "python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/TERRY/STATUS.md"
+      ],
+      "rc": 0,
+      "output": "weekday.txt"
+    },
+    {
+      "name": "boot-final",
+      "command": [
+        "python3",
+        "AGENTS/TERRY/scripts/boot.py"
+      ],
+      "rc": 0,
+      "output": "boot-final.txt"
+    },
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "--",
+        "AGENTS/TERRY/"
+      ],
+      "rc": 0,
+      "output": "diff-check.txt"
+    }
+  ],
+  "limits": "Checks certify only their printed scopes. No independent source/recipient/approval/quote acceptance."
+}

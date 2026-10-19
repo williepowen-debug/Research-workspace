@@ -1,0 +1,29 @@
+TERRY snapshot — 2026-10-19 17:28 local
+Tickers: QQQ, CRWV, USO, WAL, OZK, TBT, VLO | Benchmark: SPY | Lookback: 30d
+Data: yfinance via FORGE fetch.py; option-chain NOT included.
+
+DATA COVERAGE (bars returned; ~21 trading days implied by 30d)
+  CRWV:30  OZK:30  QQQ:30  SPY:30  TBT:30  USO:30  VLO:30  WAL:30
+
+PRICE / TAPE
+Ticker     Price      Day chg   Lookback  Rel vs bench   Range loc     Key range
+---------  ---------  --------  --------  -------------  ------------  ----------------
+QQQ           718.36    +1.21%    +0.10%         -0.21%  mid-range     703.81–759.66
+CRWV           61.12    -0.44%   -38.78%        -39.09%  near range low  61.12–99.83
+USO           160.81    -0.59%   +10.12%         +9.80%  near range high  143.35–161.86
+WAL            73.63    -1.18%    -7.89%         -8.21%  near range low  72.22–79.94
+OZK            45.19    -2.02%    -7.26%         -7.58%  mid-range     43.09–48.73
+TBT            40.62    +1.75%    +7.01%         +6.69%  mid-range     37.96–42.98
+VLO           433.31    -2.56%   +13.18%        +12.86%  mid-range     375.84–459.78
+
+Benchmark SPY: +0.32% over 30d; range 752.18–779.09
+
+TERRY READ PROMPTS
+- Entry quality: avoid chasing if price is near range extreme without fresh catalyst.
+- Invalidation: use nearby support/resistance or thesis/tape break; do not hide behind macro narrative.
+- Options: chain still required (bid/ask, OI/volume, IV, delta, theta, expected move).
+
+CREDIT / RATES BACKDROP
+- HY OAS: 331bps [2026-10-16] — FRED observation date
+- CCC OAS: 1297bps [2026-10-16] — FRED observation date
+- 10Y: 5.09% [2026-10-16] — FRED observation date

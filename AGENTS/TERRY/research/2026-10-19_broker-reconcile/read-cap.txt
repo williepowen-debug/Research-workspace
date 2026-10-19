@@ -1,0 +1,13 @@
+READ-CAP [TERRY] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 1 boot section(s) in CLAUDE.md, 10 'read' line(s) scanned (0 on-demand/grep + 1 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 7 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ RISK_RULES_CONSTRUCTION.md           23,573 B    72% of budget    (boot-step line 154)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 789 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 839 B.
+  ✅ RISK_RULES.md                        23,316 B    72% of budget    (boot-step line 143)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 532 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,096 B.
+  ✅ SETUPS.tsv                           21,960 B    67% of budget    (boot-step line 155)
+  ✅ TRADE_BOOK.md                        20,911 B    64% of budget    (boot-step line 155)
+  ✅ STATUS.md                            19,772 B    61% of budget    (boot-step line 142)
+  ✅ RISK_SCORING.md                      10,134 B    31% of budget    (boot-step line 144)
+  ✅ TRADE_CARD_TEMPLATE.md                4,418 B    14% of budget    (boot-step line 154)
+✅ READ-CAP 0 [TERRY]: every boot-mandated read this check found is under budget (7 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+  ℹ️  charter AGENTS/TERRY/CLAUDE.md = 31,610 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=TERRY reads=7 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31610

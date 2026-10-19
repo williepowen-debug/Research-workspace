@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-19T17:35:12.511552-04:00",
+  "scope": "Supplied transcription arithmetic,8contract/card uniqueness,ledger presence,receipt-local row IDs and frozen source identity. Not original-image,fill-time,brokerquote,approval or recipient acceptance validation.",
+  "positions_checked": 23,
+  "activity_rows": 19,
+  "filled": 16,
+  "canceled": 3,
+  "complete_roundtrips_derived_usd": "27.69",
+  "qqq719_partial_conditional_usd": "-53.32",
+  "qqq719_allocation_mismatch_usd": "0.50",
+  "c5_distinct_contracts": 8,
+  "new_orders": 0,
+  "result": "PASS"
+}

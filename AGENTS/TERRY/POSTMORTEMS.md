@@ -477,3 +477,18 @@ October13 AAPL sale now has a conditional basis bridge: prior$236.45 less remain
 Original October7 card reviewed: strong flat-price/flat-vol decay warning, but preferred sale window was explicitly after CPI October14; it did not unconditionally reject holding the event. Its conditional break-even illustration needed roughly2.2% downside from$757.73; fresh October14 vendor QQQ$732.03/-1.55%day is about3.39% below that original reference. Successful directional outcome, not proof of model probability/expected-value calibration. Latest broker receipt:744P derived realized+$545.66;740P partial+$139.66 conditional basisbridge; remaining3 displayed gain+$919.01/+57.72% at unknown capturetime, not current executable P/L.
 
 Assessment: acknowledge Will's successful direction/timing without relabeling entry quality or fitting the missing original thesis. Desk risk warnings remain valid; flat-market decay is a conditional scenario, not a forecast. The remaining740P expiry tomorrow changes the forward decision: realizable current option value is capital still at risk, with rebound/exercise risks and no newly approved management order. No new probability, rule, roll, order or performance endorsement. Further entry/process attribution needs Will's pre-entry reasoning; one winning event does not identify whether the earlier caution was quantitatively excessive.
+
+## October19 — three complete QQQ call roundtrips; broker bookkeeping only
+
+Source: `research/2026-10-19_broker-reconcile/broker-source.json`, source row keys in `ACTIVITY.tsv`. PROME transcription of Will's images, originals not independently viewed, fill/capture clocks UNKNOWN; broker continuity INFERRED. These three newly supplied complete threads are integrated once. Prior closures, partials and cohort totals remain booked in their dated records and are not added again.
+
+| Contract | Opening net cost | Closing net proceeds | DERIVED realized USD |
+|---|---:|---:|---:|
+| QQQ October19 725C ×1 | 98.66 | 1.99 | −96.67 |
+| QQQ October19 721C ×1 | 133.66 | 313.34 | +179.68 |
+| QQQ October19 720C ×1 | 165.66 | 110.34 | −55.32 |
+| Three complete roundtrips only | 397.98 | 425.67 | +27.69 |
+
+This is arithmetic from supplied net cash, not broker-reported realized or full daily P/L. Canceled rows6/9/13 are not fills. QQQ719P partial's removed basis277.66 gives conditional−53.32, with0.50 allocation mismatch versus equal277.16: unresolved, excluded from the complete-thread total. QQQ712C sale739.32 and October21 700P sale91.34 have unseen opening bases; realized UNKNOWN. Expired QQQ715P October15/735C October16 and HBAN16P October16 outcomes remain UNKNOWN despite absence/no stock visible. Reduced USO/CMG dispositions also remain UNKNOWN.
+
+Tags: POSITION_TRUTH_MISSING. No same-timestamp execution, thesis, entry, sizing or behavioral grade from this crop. The725C returned about2% of cost, but exact decision path/initiator are unknown; this is not evidence for a new rule. No scoring credit, sample promotion or automatic performance endorsement. Full discretionary-day review is not manufactured from19 cropped rows.

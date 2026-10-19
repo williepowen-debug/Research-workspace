@@ -1,0 +1,33 @@
+{
+  "method": "Git first-add author dates for tracked research files; undated included. Current-file literal basename references checked, excluding archive/processed/cache. Existing live direct analytical/rule references prevent retirement. No removals.",
+  "research_files_enumerated": 146,
+  "older_than_60_days": [
+    {
+      "path": "AGENTS/TERRY/research/SIGNAL_COMBINATION_2026-07-26.md",
+      "first_added": "2026-07-26",
+      "live_references": [
+        "AGENTS/TERRY/MEMORY.md",
+        "AGENTS/TERRY/TRADE_CARD_TEMPLATE.md",
+        "AGENTS/TERRY/RISK_SCORING.md"
+      ]
+    },
+    {
+      "path": "AGENTS/TERRY/research/PLAYBOOK_flow-trigger-supply-strand.md",
+      "first_added": "2026-08-18",
+      "live_references": [
+        "AGENTS/TERRY/POSTMORTEMS.md",
+        "AGENTS/TERRY/setups/INDEX.md",
+        "AGENTS/TERRY/setups/FIRE_CARDS_LADDER.md",
+        "AGENTS/TERRY/setups/_archive/FLOW-TRIGGER_kharg-strand-USO-call.md"
+      ]
+    },
+    {
+      "path": "AGENTS/TERRY/research/sources/2026-07-26_roan_combining-50-weak-signals.txt",
+      "first_added": "2026-07-26",
+      "live_references": [
+        "AGENTS/TERRY/research/SIGNAL_COMBINATION_2026-07-26.md"
+      ]
+    }
+  ],
+  "moves": 0
+}

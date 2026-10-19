@@ -1,6 +1,9 @@
 # MANAGEMENT PROPOSAL — VLO ×1 held share — a price rule vs a policy/event rule
 
-**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original-share management; approved wording independently accepted October14 (PROME92ae2b847), qualifying source proof still pending, no gate grade.
+> **CURRENT FOLLOW-THROUGH — 2026-10-19T17:32:27-04:00**
+> **October19 scope reconciliation:** Fidelity now shows3VLO shares, exact basis$1,296.73/value$1,299.93. HELD-01 covers the original1share only; the two later shares have UNKNOWN authorization/management scope. The latest added basis is$444.73 DERIVED from$1,296.73−$852.00, not a certified fill. This does not extend the original rule or revive SCALE, which remains TERMINAL. Last accepted leg-A observation is October15 NOT FIRED/no notice on matched December; October16/19 are not graded here. Governing pair throughNovember19 is HOZ26×42−CLZ26 under the existing source/precision letter. No stock-mark proxy, fresh crack grade or B1–B3 policy grade. PROME must route the two-share scope question for Will's ruling; until then no automatic three-share instruction.
+
+**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original-share management; approved wording independently accepted October14 (PROME92ae2b847), latest accepted leg-A observation October15 NOT FIRED/no notice; October16/19 not graded. Total holding3, original-share rule scope1, added-share scope2 UNKNOWN.
 
 > **CURRENT OBSERVATION — 2026-10-15 14:46 ET (TERRY, Claude Opus 5.5): FIRST DECEMBER OBSERVATION, session 10/15, governing `HOZ26×42 − CLZ26` = NOT FIRED, NO NOTICE** on source ③ ESTIMATE **C3 = 98.9213** (two-bar close-VWAP 14:28+14:29: HO 4.6560×783, 4.6498×1136 ⇒ P_HO 4.65233; CL 96.49×3013, 96.46×2434 ⇒ P_CL 96.47659) — **$3.92 above the $95 notice line, $8.76 above $90.16**, outside the ±$0.15 UNKNOWN band. Identity `expireDate` HOZ26 2026-11-30 · CLZ26 2026-11-20. Source ① unreachable; source ② (the 10/15 daily row) not yet finalized at this touch. ⚠️ **The notice line is now ~$4 away** (December runs ~$5–6 below November). No exit, no notice, no order. Next: any touch after 14:31 ET on a later session through 11/19.
 

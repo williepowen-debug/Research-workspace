@@ -1,5 +1,8 @@
 # SELL-OR-ROLL CARD — OZK Nov-20-2026 $40P ×4 (Fidelity) — pulled forward to before the Q3 print
 
+> **CURRENT FOLLOW-THROUGH — 2026-10-19T17:32:27-04:00**
+> **October19 follow-through:** captured ×4, exact basis $322.65, displayed value $100. No closing fill supplied; full working orders UNKNOWN. WQ-428 SELL×4 retains the existing October20 15:30 ET backstop before the after-close print; no new approval or extension inferred. Will verifies held quantity, any working order and live Fidelity bid before acting. October19 17:29 screening OZK45.19,40P0.25/0.35,OI2457,width33.33%,DIRINC advisory; not executable. Do not reuse October14 limits or promise a fill. LIQUID's final LIQ-07=S2 (October16 L721 report), so RED's FT-02 AND S1 flip is NOT MET. No roll or replacement capital proposed. Book only an actual filled ticket.
+
 **Id:** `MGMT-OZK40P-NOV20`
 
 > **RULED 2026-10-14 21:32 ET — WQ-428 SELL ×4 before the Tue 10/20 print** (Will verbatim *"Approve 428, 429 and 430"*; record `PROME/proposals/2026-10-14_wq428-430-RULED.md`). **2026-10-15 10:10 ET capture: no OZK order in Pending, ×4 still held** (FORGE D-82) — order state UNKNOWN; fill to be booked from Will's capture. **F1 status 10/15:** RED-FT-02 at **1 of 3** (HY OAS 325 bp [FRED 10/14], SIG-W-20261015-001); third cell earliest = the 10/16 observation, published ~Mon 10/19; LIQ-07 read Fri 10/16. A sale before then forecloses the F1 branch — the ruled default stands. Screening 10:38 ET: OZK $45.91, 40P 0.30/0.60 (vendor, not a bid).

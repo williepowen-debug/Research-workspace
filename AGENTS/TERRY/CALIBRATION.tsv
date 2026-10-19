@@ -1,6 +1,7 @@
 # TERRY CALIBRATION.tsv — LIVE (not frozen). Pre-registered probability calls and their grades.
 # Last real data refresh: 2026-09-05
-# Last staleness check: 2026-10-12 (TERRY file sweep): 2 existing registered rows retained; L694/BNO/new booking notes contain no new pre-outcome desk probability forecast to register. Owner CRU-10 result is not a TERRY forecast; chain model odds/payoff hurdles and guard fixtures are not forecasts. Last real forecast/grade refresh unchanged; no manufactured row.
+# Last staleness check: 2026-10-19T17:35:54-04:00 — no new pre-outcome probability or forecast grade in this commission. Existing2rows retained, no synthetic forecast.
+# Prior staleness check: 2026-10-12 (TERRY file sweep): 2 existing registered rows retained; L694/BNO/new booking notes contain no new pre-outcome desk probability forecast to register. Owner CRU-10 result is not a TERRY forecast; chain model odds/payoff hurdles and guard fixtures are not forecasts. Last real forecast/grade refresh unchanged; no manufactured row.
 # OWNER TERRY. Spec = RISK_SCORING.md §5 (fields + Brier). Created 2026-09-05 draining DOCKET L115:
 #   the desk had TWO graded pre-registered calls and NO ledger — both sat in prose inside long files
 #   (card §11.C-RESOLVED / POSTMORTEMS.md), which is how a correct call silently becomes no call at all.

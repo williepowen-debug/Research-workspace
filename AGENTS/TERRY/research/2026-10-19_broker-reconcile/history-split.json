@@ -1,0 +1,17 @@
+{
+  "SETUPS": {
+    "old_bytes": 28846,
+    "new_bytes": 21844,
+    "archive": "AGENTS/TERRY/archive/SETUPS_ENTRY_HISTORY_2026-10-19.tsv",
+    "body_crc32": "6bfb67fa",
+    "obligations_moved": 0,
+    "hot_preserved": "HELD01 rule/scope/11-18review and ROLL70 guard/manualharvest/12-04stop/unknownholdings; no add/roll"
+  },
+  "TRADE_BOOK": {
+    "old_bytes": 25939,
+    "new_bytes": 20911,
+    "archive": "AGENTS/TERRY/archive/TRADE_BOOK_ENTRY_HISTORY_2026-10-19.md",
+    "body_crc32": "2002f356",
+    "obligations_moved": 0
+  }
+}
