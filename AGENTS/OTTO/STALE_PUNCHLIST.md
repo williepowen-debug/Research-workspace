@@ -38,9 +38,9 @@
 
 | Item | Closed | Commit |
 |---|---|---|
-| #15: stale memory/history pruned; duplicate lessons consolidated; old boot memory preserved | 2026-10-19 s031 | `3a68e48c1` (archive/lessons), s031 owner-state commit |
+| #15: stale memory/history pruned; duplicate lessons consolidated; old boot memory preserved | 2026-10-19 s031 | `3a68e48c1` (archive/lessons), `80aab5846` (memory state) |
 | #18: LESSONS rebuilt and boot3a installed, CLAUDEv3.0 | 2026-10-19 s031 | `3a68e48c1` |
-| September10-D and M&T10/16 reads; settled calendar residue retired; STATUS headroom restored | 2026-10-19 s031 | `3a68e48c1` evidence; s031 owner-state commit |
+| September10-D and M&T10/16 reads; settled calendar residue retired; STATUS headroom restored | 2026-10-19 s031 | `3a68e48c1` evidence; `80aab5846` state |
 | #8: CARL independently checked 16/16 EART cells and SDART pair; BLAST ruling (a) computed-basis schema applied. Legacy parser branches remain outside this verification | 2026-10-19 s030 | `a95429b7c` |
 | L708 commission #3: bounded attribution returned NO_INSTRUMENT; conditional equities MIXED | 2026-10-19 s030 | `a95429b7c` |
 | §2 universal 5-pt handle + Independence (DAEDALUS card priority 2; L5 gate leg) | 2026-10-14 s029 | MAINTENANCE (c) |
