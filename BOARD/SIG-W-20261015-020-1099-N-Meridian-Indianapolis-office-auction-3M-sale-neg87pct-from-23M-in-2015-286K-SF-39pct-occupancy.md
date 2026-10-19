@@ -19,7 +19,11 @@ case:
     event: auction sale 2026-10 — $3M vs $23M (2015), 286K SF, 39% occupancy, built 1983
     source: X-bookmark @FCNightingale 2026-10-15T00:30:02Z
 source: X-bookmark @FCNightingale 2026-10-15T00:30:02Z (BM-20261015-04 item 15); auction-result relay with image
+status: PARTIALLY-CORRECTED
+status_ref: SIG-W-20261019-007 — office routing wrong; unverified named-case lead survives
 ---
+
+> CORRECTION 2026-10-19: national office belongs to CREED; HOMER office task withdrawn. Transaction/occupancy/holder claims remain unverified. Named-case lead survives. See SIG-W-20261019-007.
 
 # SIG-W-20261015-020 — 1099 N Meridian St (Indianapolis, 286K SF, built 1983, 39% occupancy) sold at auction for $3M, −87% from $23M 2015 sale when 94% leased
 

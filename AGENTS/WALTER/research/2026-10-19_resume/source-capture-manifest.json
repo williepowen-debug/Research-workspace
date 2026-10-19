@@ -1,0 +1,55 @@
+{
+  "retrieved": "2026-10-19T16:16:04.759724+00:00",
+  "sources": [
+    {
+      "file": "jmic106.pdf",
+      "url": "https://www.ukmto.org/-/media/ukmto/products/update-106-jmic-advisory-note-18-october.pdf?rev=86f67da1821f4dcdb4e27868b6679729",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "nahb.html",
+      "url": "https://www.nahb.org/news-and-economics/press-releases/2026/10/builder-sentiment-falls-on-rising-rates",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    },
+    {
+      "file": "oat.html",
+      "url": "https://www.ideal-investisseur.fr/taux/oat-10-ans.html",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "file": "uk10.html",
+      "url": "https://tradingeconomics.com/united-kingdom/government-bond-yield",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    },
+    {
+      "file": "uk30.html",
+      "url": "https://tradingeconomics.com/united-kingdom/30-year-bond-yield",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    },
+    {
+      "file": "bund.html",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    },
+    {
+      "file": "italy.html",
+      "url": "https://tradingeconomics.com/italy/government-bond-yield",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    },
+    {
+      "file": "eurusd.html",
+      "url": "https://tradingeconomics.com/euro-area/currency",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    },
+    {
+      "file": "ttf.html",
+      "url": "https://tradingeconomics.com/commodity/eu-natural-gas",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    },
+    {
+      "file": "ai-fed.html",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-sees-ai-boom-adding-100456000.html",
+      "error": "ModuleNotFoundError: No module named 'bs4'"
+    }
+  ]
+}

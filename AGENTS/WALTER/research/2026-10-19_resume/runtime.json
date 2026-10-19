@@ -1,0 +1,44 @@
+{
+  "captured": "2026-10-19T16:22:46.433133+00:00",
+  "runtime": "Codex 0.163.0",
+  "session": "01a154ec-5479-76c0-bcd2-abf9d66a523d",
+  "ancestors": [
+    {
+      "pid": 121293,
+      "executable": "python3",
+      "model_flags": []
+    },
+    {
+      "pid": 121287,
+      "executable": "bash",
+      "model_flags": []
+    },
+    {
+      "pid": 89234,
+      "executable": "codex",
+      "model_flags": [
+        "gpt-6.1-sol"
+      ]
+    },
+    {
+      "pid": 89220,
+      "executable": "-bash",
+      "model_flags": []
+    },
+    {
+      "pid": 89217,
+      "executable": "init",
+      "model_flags": []
+    },
+    {
+      "pid": 89215,
+      "executable": "init",
+      "model_flags": []
+    },
+    {
+      "pid": 2,
+      "executable": "init",
+      "model_flags": []
+    }
+  ]
+}

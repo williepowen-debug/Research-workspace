@@ -1,0 +1,16 @@
+{
+  "checked": "2026-10-19T16:24:39.270176+00:00",
+  "scope": "authorization-only; no bookmark request",
+  "present": {
+    "X_CLIENT_ID": true,
+    "X_USER_ID": true,
+    "X_BOOKMARK_ACCESS_TOKEN": true,
+    "X_BOOKMARK_REFRESH_TOKEN": true
+  },
+  "seen_exists": true,
+  "profile_http": 401,
+  "refresh": "failed",
+  "refresh_http": 400,
+  "reauthorization_needed": true,
+  "seen_unchanged": true
+}

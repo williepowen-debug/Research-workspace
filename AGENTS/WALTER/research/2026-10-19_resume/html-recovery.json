@@ -1,0 +1,58 @@
+[
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/ttf.html",
+    "bytes": 432163,
+    "sha256": "932c836be5f048a9c870d08fa6cd7096bf3783ede3887657656f3a0e0673987e",
+    "text_bytes": 11627,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  },
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/uk10.html",
+    "bytes": 507435,
+    "sha256": "564e0d9dbc85b5c32190de1341699553e1bb59835b9add2286565e7e6b44e00b",
+    "text_bytes": 18145,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  },
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/eurusd.html",
+    "bytes": 499614,
+    "sha256": "b77dab8451e46aad6f9ba8a1dd62406d40d98de2f0e3264629d9453295aa298f",
+    "text_bytes": 17176,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  },
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/bund.html",
+    "bytes": 499929,
+    "sha256": "0de1cc7edbf085ddfb5f2ffed64a89569553cea8709895b884585cb52fe9628a",
+    "text_bytes": 17543,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  },
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/nahb.html",
+    "bytes": 40186,
+    "sha256": "fd4a1e7ef8d6b37702f59cef8d0cfd2adcf10334ba925c198c93711a8e359fd0",
+    "text_bytes": 4681,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  },
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/ai-fed.html",
+    "bytes": 861858,
+    "sha256": "910e162d29d98cd3b249881e8d2bf8b34f2c3e8faa15dd4207283273c244d6d0",
+    "text_bytes": 10701,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  },
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/italy.html",
+    "bytes": 494061,
+    "sha256": "2fbe9671b68040e14244e5cda2e0013cf8d7ce685b64015a7181304b42736ce1",
+    "text_bytes": 17238,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  },
+  {
+    "file": "AGENTS/WALTER/research/2026-10-19_resume/uk30.html",
+    "bytes": 498162,
+    "sha256": "5baef57b1849a1ac995318562a677b244cea06a71ae7ee2658bc0e4e1b0b387e",
+    "text_bytes": 13419,
+    "extraction": "stdlib HTMLParser; prior bs4 import failed after raw capture"
+  }
+]
