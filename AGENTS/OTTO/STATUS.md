@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s032, Will-approved three readiness tasks)
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s033, CATO OR1 owner correction)
 
-> **📌 s032 — October19 readiness complete.** Ally baseline/definitions prepared; issuer confirms10/20~07:30ET/09:00call. OTTO-12 actual search10/19:8 in-window8-Ks, NO EXIT FOUND within scope; **VRM Trust V post9/30 outcome UNKNOWN**, private coverage incomplete;55%OPEN unchanged. Short-report sample48/21/0 days pre-CVNA earnings, olderCACC18days; no dependable cadence. Sources/limits: `research/2026-10-19_readiness/READOUT.md` (`cebaa8c61`). Q3 outcome still future; no colour, threshold or trade change.
+> **📌 s033 — CATO OR1 implemented at OTTO; reviewer closure pending.** July27 Ally–Carvana amendment: **$8B throughJuly2027; each purchaser can cancel immediately without Seller/Transferor default, subject to law**. Capacity expanded, access not guaranteed; no actual cancellation established.10-Q narrativeJuly26/exhibitJuly27 endpoint discrepancy retained. Tomorrow separate capacity, actual purchases/access and loan performance; whole-loan purchases are not warehouses. Source `research/2026-10-19_ally-amendment/READOUT.md` (`cf2879751`). OTTO-12's55% remains uncalibrated judgment; private coverage gaps do not justify it. VRMUNKNOWN, warehouse/timing results unchanged; no probability/colour/threshold/trade change.
 > **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below; broader THESIS v1.6 due10/30. Push held.
 > **📌 Cold half:** settled reasoning, resolved predictions, per-vector narrative and old pointers, verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §1–16 (not a boot read; hot STATUS wins on any disagreement).
 
@@ -87,7 +87,7 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | Date | Event | Status / next read |
 |---|---|---|
 | 2026-10-16 (Fri) | Tricolor BlackRock Rule2004 confer deadline; outcome still unverified, check10/21 | 🟠 confirmed; Pending; discovery is not implication |
-| 2026-10-20 (Tue) | Ally Q3:07:30ET release/09:00 call; autoNCO/severity/warehouse | 🟠 confirmed; baseline prepareds032; actual read + VRM warehouse recheck pending |
+| 2026-10-20 (Tue) | Ally Q3:07:30ET release/09:00 call; autoNCO/severity/warehouse | 🟠 confirmed; s033 preview corrected: capacity/purchases/cancellation/performance; actual read + VRM recheck pending |
 | 2026-10-20 (Tue) | First Brands D&O insurer hearing (Dkt3669/3800) | 🟠 confirmed; See event; read the actual outcome |
 | 2026-10-21 (Wed) | CRMT backstop4: agreement≤10/15; BROCK | 🟠 confirmed; Existing owner/test governs |
 | 2026-10-21 (Wed) | Carvana T-7 short-seller check | 🟠 confirmed; Existing owner/test governs |
@@ -154,6 +154,6 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 
 ## BOTTOM LINE
 
-**Fraud-leg 🔴🔴 / systemic legs DISCONFIRMED (funding 🟢, bank contagion 🟠 fired-then-closed). Convergence33/50 =4+5+5+4+2+2+1+3+4+3,21points one root. s032 prepares Ally, refreshes the overdue warehouse search and measures report dates; no reliable cadence or verified new exit. VRM facility unresolved. September panel/M&T conclusions unchanged (s031); no probability, colour, threshold or trade moved.** *(Older bottom lines → `STATUS_COLD.md` §10.)*
+**Fraud-leg 🔴🔴 / systemic legs DISCONFIRMED (funding 🟢, bank contagion 🟠 fired-then-closed). Convergence33/50 =4+5+5+4+2+2+1+3+4+3,21points one root. s033 corrects the Ally preparation: larger July purchase capacity, immediate cancellation discretion, no actual cancellation established. Whole-loan and warehouse evidence remain separate; VRM unresolved,55% uncalibrated. September/M&T and timing conclusions unchanged; no probability, colour, threshold or trade moved.** *(Older bottom lines → `STATUS_COLD.md` §10.)*
 
 **L708:** NO_INSTRUMENT; supplementary MIXED cannot establish attribution or absence. NEXUS/PROME consumed it (PROME receipt10/19). **Nearest resolvers:** timeline above.

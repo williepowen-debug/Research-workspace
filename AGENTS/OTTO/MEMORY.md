@@ -1,6 +1,6 @@
 # OTTO MEMORY
 
-**Updated:** 2026-10-19,s032. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-10-19,s033. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
@@ -21,11 +21,11 @@
 - M&T official IR direct requests returned403 on10/19, while the web tool read its official deck/quarterly index and SEC supplied the filed release. Official webcast403; third-party transcript is labelled secondary. Do not claim a primary audio read.
 - Fitch paid/full index access was declined10/14; no new account or paid-data authority. March aggregate values retired from hot STATUS; deal-level panel is a different instrument, not a replacement Fitch index.
 
-## LAST SESSION — s032, three Will-approved readiness tasks
+## LAST SESSION — s033, Will-supplied CATO OR1 correction
 - `research/2026-10-19_readiness/READOUT.md` (`cebaa8c61`) owns the Ally worksheet, warehouse refresh and report-date sample. Original sources/text in committed `sources.tar.gz`; manifest hashes/replay verified. Q3 data still future; no webcast participation or contact.
 - Ledger now records the missedOctober1 attempt and actualOctober19 search. NO EXIT FOUND within scope is not a full-market negative; TrustV's postSeptember30 outcome remains UNKNOWN. Read the next actual filing, not a maturity date as evidence of exit.
-- Ally whole-loan commitment duration in the oldFebruary synthesis was unsupported; current primaryQ2 filing says364days, exact end date unverified. Correction banner preserves the old record. Whole-loan purchases, dealer floorplan and warehouse lending are different instruments.
-- The bounded historical activist sample establishes dates, not a cadence or trade rule; October21/28 observations remain owed. OTTO-12 held unchanged as a weakly evidenced judgment, not a high-conviction signal. Matrix unchanged.
+- **CATO OR1 accepted and owner repair implemented:** `research/2026-10-19_ally-amendment/READOUT.md` (`cf2879751`). The s032364-day correction stopped at Ally's older filing; current July amendment is$8B throughJuly2027 plus immediate discretionary purchaser cancellation subject to law. Narrative/exhibit one-day discrepancy retained, no actual cancellation established. Preview/banners/ML corrected; original evidence preserved. Reviewer closure/recipient consumption not yet verified.
+- The bounded historical activist sample establishes dates, not a cadence or trade rule; October21/28 observations remain owed. OTTO-12 unchanged55% is uncalibrated subjective judgment; missing private coverage cannot justify its level and this correction does not revalidate it. Matrix unchanged.
 - Prior s031 September/M&T work, LESSONS boot wiring and STATUS rotation remain complete; do not rerun as overdue. Exact evidence/limits remain in `research/2026-10-19_quickwins/READOUT.md`.
 - **L708 delivered AND consumed:** PROME's October19 receipt cites artifacta95429b7c, delivery657e54b74, NEXUS consumptionc1f2f4321/ack69c256ad0. Verified at PROME's execution-coordination report and NEXUS STATUS. No further attribution research commissioned; NO_INSTRUMENT stands.
 - PUSH HOLD remains. Exact OTTO paths plus self-authored packets only; other desks' dirty work preserved. No pull/stash/reset/rebase/push or terminal shutdown.
@@ -35,4 +35,4 @@
 2. **10/21:** BlackRock confer outcome, suppression-ruling check, OTTO-07 shelf re-run/EART2026-4 FWP, Carvana T-7 short-seller check and First Brands §721. Historical release-date research is DONE; actual future checks remain.
 3. **10/22:** CRMT — BROCK's grade first. **10/28:** CRMT backstop5 and Carvana Q3. **~10/29:** Exeter September collection completes this panel cycle; pair DQ/extensions. **~11/05:** modeled M&T Q3 10-Q narrow-custody check.
 4. **10/30:** broader THESISv1.6; **11/30:** OTTO-11 instrument and early-hit true-at-creation audit. Single backlog: `STALE_PUNCHLIST.md`; full dates/definitions: `docket/CATALYSTS.tsv`.
-5. Receiver consumption for new s032 packets remains a separate observation; no native fleet-channel acknowledgment claimed. Prior L708 consumption is settled; do not reopen its instrument search.
+5. Receiver consumption and CATO verification for new s033 packets remain separate observations; no native fleet-channel acknowledgment claimed. Prior L708 consumption is settled; do not reopen its instrument search.

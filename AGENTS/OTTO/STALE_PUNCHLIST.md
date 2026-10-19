@@ -1,6 +1,6 @@
 # OTTO — Forward To-Do (stale intel + fleet parity)
 
-**Updated 2026-10-19 (s032); rewritten 2026-10-14 (s029). One list.** It replaces the June–September punchlist (verbatim → `archive/STALE_PUNCHLIST_2026-06-02_to_2026-10-14.md`) and `PEER_PARITY_ROADMAP.md` (verbatim → `archive/PEER_PARITY_ROADMAP_2026-06-09.md`). Both had gone stale while policing staleness.
+**Updated 2026-10-19 (s033); rewritten 2026-10-14 (s029). One list.** It replaces the June–September punchlist (verbatim → `archive/STALE_PUNCHLIST_2026-06-02_to_2026-10-14.md`) and `PEER_PARITY_ROADMAP.md` (verbatim → `archive/PEER_PARITY_ROADMAP_2026-06-09.md`). Both had gone stale while policing staleness.
 
 **Rules:** an item closes with a date and a commit hash, never by deletion; closed items move to § Closed at the next rewrite. Re-audit this list at any closeout that touches an item. Sources: the s028 file review (`research/2026-10-14_file_review/`, reviews A/B/C), DAEDALUS `FLEET_MAP.tsv` (OTTO row, scored 10/01) and the s029 matrix check.
 
@@ -30,6 +30,7 @@
 
 | Item | Who | Since | Where |
 |---|---|---|---|
+| CATO OR1 independent verification/closure; OTTO owner repair implemented, not a new study or launch | CATO / coordination via WALTER | 2026-10-19 | `research/2026-10-19_ally-amendment/READOUT.md`, `cf2879751`; CATO review59d026ce4 remains reviewer-owned |
 | L5 ruling on OTTO (both stated legs landed; placement is a block above the dashboard, not columns on it) | DAEDALUS | 2026-10-14 | packet `054aaf5b8` in `AGENTS/DAEDALUS/inbox/`; FLEET_MAP OTTO row |
 | `research/WAL/` disposition (5 files, 12.4 MB; REGINALD holds a copy) | REGINALD / PROME | 2026-07-07 (DAEDALUS card) | item #14 |
 | Veto, or not, the retirement of the FLG 8-K forwarding duty | Will (optional) | 2026-10-14 | `EDGAR_8K_MONITOR.md` footer |
@@ -38,7 +39,7 @@
 
 | Item | Closed | Commit |
 |---|---|---|
-| Ally comparison sheet: primaryQ2/Q3-2025 baseline and definitions, Q3 outcomes unfilled | 2026-10-19 s032 | `cebaa8c61` |
+| Ally comparison sheet: baseline done s032; s033 repairs missing July$8B amendment/cancellation clause, Q3 outcomes still future | 2026-10-19 s032/s033 | `cebaa8c61`, correction`cf2879751` |
 | #15: stale memory/history pruned; duplicate lessons consolidated; old boot memory preserved | 2026-10-19 s031 | `3a68e48c1` (archive/lessons), `80aab5846` (memory state) |
 | #18: LESSONS rebuilt and boot3a installed, CLAUDEv3.0 | 2026-10-19 s031 | `3a68e48c1` |
 | September10-D and M&T10/16 reads; settled calendar residue retired; STATUS headroom restored | 2026-10-19 s031 | `3a68e48c1` evidence; `80aab5846` state |

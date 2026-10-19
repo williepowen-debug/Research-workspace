@@ -1,6 +1,6 @@
 # OTTO Research Status
 
-**Last Updated:** 2026-10-19 (s032); Ally readiness, warehouse refresh and report-date sample at `cebaa8c61`. s031 September/M&T read at `3a68e48c1`; s030 L708 NO_INSTRUMENT at `a95429b7c`. Prior index/archive repair preserved below.
+**Last Updated:** 2026-10-19 (s033); CATO OR1 owner correction at `cf2879751`; s032 readiness evidence retained at `cebaa8c61`. s031 September/M&T `3a68e48c1`; L708 NO_INSTRUMENT `a95429b7c`.
 
 ---
 
@@ -9,6 +9,7 @@
 
 | ID | Topic | Date | Finding | Location |
 |----|-------|------|---------|----------|
+| **s033** | **CATO OR1 / Ally–Carvana actual July amendment** | **2026-10-19** | $8B throughJuly2027, immediate discretionary cancellation subject to law; narrative/exhibit endpoint discrepancy retained. Expanded capacity is not guaranteed access or warehouse credit | `research/2026-10-19_ally-amendment/READOUT.md` (`cf2879751`) |
 | **s032** | **Ally baseline / warehouse refresh / report timing** | **2026-10-19** | AllyQ3 unprinted; NO EXIT FOUND in bounded scope, VRM warehouseUNKNOWN; CVNA48/21/0days + olderCACC18, no reliable cadence | `research/2026-10-19_readiness/READOUT.md` (`cebaa8c61`) |
 | **s031** | **September panel + M&T/Wilmington dated read** | **2026-10-19** | Five Sep deals remain worse YoY;44/44 available comparisons; servicing confound. OTTO-31 12→8%, OPEN; broad corporate trust is not narrow custody | `research/2026-10-19_quickwins/READOUT.md` (`3a68e48c1`) |
 | **L708** | **NEXUS consumer-lender CCC attribution** | **2026-10-19** | **NO_INSTRUMENT** strict n=0; fixed ENVA/CVNA supplementary equities MIXED; source/replay gaps explicit | `research/2026-10-19_L708/VERDICT.md` (`a95429b7c`) |
