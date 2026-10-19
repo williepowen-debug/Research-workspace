@@ -1,0 +1,47 @@
+PASS NCLH proceeds minus principal uses = -1.8 before other costs
+PASS NCLH marginal nominal room = 691.3, not cash
+PASS NCLH new annual coupon = 83.125
+PASS NCLH same-principal hypothetical coupon increase = 13.78125
+PASS VZ displayed expense and total-interest changes round to issuer figures
+PASS T transaction cash contribution is 8500, not a September cash balance
+PASS 30 dated selected instruments, not complete obligations
+PASS VZ/parent note/2026-10-27: window/unit/vintage
+PASS VZ/parent note/2027-03-16: window/unit/vintage
+PASS VZ/parent note/2027-04-08: window/unit/vintage
+PASS VZ/Frontier California note/2027-05-15: window/unit/vintage
+PASS VZ/parent note/2027-11-30: window/unit/vintage
+PASS VZ/Frontier Florida note/2028-02-01: window/unit/vintage
+PASS VZ/parent note/2028-02-01: window/unit/vintage
+PASS VZ/Frontier North note/2028-02-15: window/unit/vintage
+PASS VZ/parent note/2028-02-15: window/unit/vintage
+PASS VZ/parent note/2028-03-22: window/unit/vintage
+PASS VZ/parent note/2028-03-22: window/unit/vintage
+PASS VZ/parent note/2028-03-24: window/unit/vintage
+PASS VZ/parent note/2028-04-15: window/unit/vintage
+PASS VZ/Verizon New York note/2028-04-15: window/unit/vintage
+PASS VZ/parent note/2028-09-21: window/unit/vintage
+PASS T/parent note/2026-07-15: window/unit/vintage
+PASS T/parent euro note/2026-09-05: window/unit/vintage
+PASS T/AT&T DW note/2026-11-15: window/unit/vintage
+PASS T/Wisconsin Bell note/2026-12-01: window/unit/vintage
+PASS T/parent sterling note/2026-12-04: window/unit/vintage
+PASS T/parent note/2027-02-15: window/unit/vintage
+PASS T/parent note/2027-03-01: window/unit/vintage
+PASS T/parent sterling note/2027-03-15: window/unit/vintage
+PASS T/parent note/2027-06-01: window/unit/vintage
+PASS T/parent floating euro note/2027-09-16: window/unit/vintage
+PASS T/AT&T Teleholdings note/2027-10-15: window/unit/vintage
+PASS T/parent note/2027-10-15: window/unit/vintage
+PASS T/parent note/2028-02-01: window/unit/vintage
+PASS T/parent note/2028-02-15: window/unit/vintage
+PASS T/parent euro note/2028-05-19: window/unit/vintage
+PASS VZ September21,2028 excluded from 24-month window
+PASS VZ frozen primary PDF hash matches successful capture
+PASS Five gate rows byte-stable
+PASS All captured workbook files unchanged
+PASS X1 restriction and STATUS line cap retained
+PASS SIG-W-20261019-015: one acted row and processed handoff
+PASS SIG-W-20261019-016: one acted row and processed handoff
+PASS SIG-W-20261019-017: one acted row and processed handoff
+PASS SIG-W-20261019-018: one acted row and processed handoff
+46/46 research checks passed. Source completeness and causal attribution are not certified.

@@ -1,0 +1,55 @@
+{
+  "basis": "USD millions except rates and explicitly native-currency maturity ledger. Calculations from disclosed rounded inputs. Not an as-of September balance or a cash forecast.",
+  "NCLH": {
+    "new_face": 950,
+    "new_coupon_pct": 8.75,
+    "net_proceeds_before_expenses": 941.7,
+    "old_bond_face": 525,
+    "old_coupon_pct": 6.125,
+    "revolver_repayment": 376.3,
+    "eca_prepayment": 42.2,
+    "commitment_before": 2486,
+    "commitment_after": 2801,
+    "principal_uses": 943.5,
+    "cash_before_premiums_fees_accruals": -1.8,
+    "nominal_room_increment_before_other_changes": 691.3,
+    "new_annual_coupon": 83.125,
+    "retired_annual_bond_coupon": 32.15625,
+    "same_principal_hypothetical_annual_coupon_increase": 13.78125,
+    "coupon_step_bp": 262.5,
+    "whole_transaction_net_interest_change": "UNKNOWN",
+    "actual_current_liquidity": "UNKNOWN",
+    "source": "N1"
+  },
+  "VZ": {
+    "h1_interest_expense_2026": 3925,
+    "h1_interest_expense_2025": 3271,
+    "expense_change_pct": 19.993885661877098,
+    "h1_total_debt_interest_2026": 4245,
+    "h1_total_debt_interest_2025": 3659,
+    "debt_interest_change_pct": 16.015304728067782,
+    "h1_average_debt_2026": 168837,
+    "h1_average_debt_2025": 144461,
+    "average_debt_change_pct": 16.873758315393083,
+    "effective_rate_pct_2026": 5.0,
+    "effective_rate_pct_2025": 5.1,
+    "current_debt_less_current_abs": 6143,
+    "remainder_is_unsecured_maturities": false,
+    "source": "V1"
+  },
+  "T": {
+    "approximate_acquisition_price": 23000,
+    "two_year_draw": 11500,
+    "day364_draw": 3000,
+    "transaction_cash_contribution_before_other_flows": 8500,
+    "synthetic_september_cash": "UNKNOWN",
+    "eur_august3_closed_principal": 4100,
+    "gbp_august3_closed_principal": 550,
+    "sources": [
+      "T2",
+      "T3"
+    ]
+  },
+  "maturity_rows": 30,
+  "maturity_coverage": "Selected June30 public instruments only. Not complete rolling obligations. First-publication clocks of issuer PDFs UNKNOWN. No actual September outstanding-principal claim."
+}

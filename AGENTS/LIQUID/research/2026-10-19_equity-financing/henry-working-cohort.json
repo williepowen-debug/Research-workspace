@@ -1,0 +1,112 @@
+{
+  "observed_at": "2026-10-19T22:05:08.166749+00:00",
+  "state": "WORKING_OWNER_ARTIFACT_NOT_FINAL_DELIVERY",
+  "owner": "HENRY",
+  "selection_source": "AGENTS/HENRY/research/2026-10-19_catchup/PLAN.md",
+  "matches_source": "AGENTS/HENRY/research/2026-10-19_catchup/matches.json",
+  "matches_sha256": "342696c77b61c2f99ff174f6296b707c04ab1e5891bb4a3db11111c5d5b02678",
+  "plan_sha256": "429c786df640342496b5c48d15d8b3471de0191ce0b335e1c6d05073c32c1344",
+  "cohort": [
+    "SNDK",
+    "COHR",
+    "STX",
+    "WDC",
+    "MGM",
+    "MOS",
+    "DELL",
+    "SMCI"
+  ],
+  "selected_screen_rows": [
+    {
+      "symbol": "SNDK",
+      "sector": "XLK",
+      "raw20_pct": -27.48713598464132,
+      "exclusion": ""
+    },
+    {
+      "symbol": "COHR",
+      "sector": "XLK",
+      "raw20_pct": -26.613309805898666,
+      "exclusion": ""
+    },
+    {
+      "symbol": "STX",
+      "sector": "XLK",
+      "raw20_pct": -25.591821050547857,
+      "exclusion": ""
+    },
+    {
+      "symbol": "WDC",
+      "sector": "XLK",
+      "raw20_pct": -24.77795903570782,
+      "exclusion": ""
+    },
+    {
+      "symbol": "MGM",
+      "sector": "XLY",
+      "raw20_pct": -24.358635281671514,
+      "exclusion": ""
+    },
+    {
+      "symbol": "MOS",
+      "sector": "XLB",
+      "raw20_pct": -23.120915032679733,
+      "exclusion": ""
+    },
+    {
+      "symbol": "DELL",
+      "sector": "XLK",
+      "raw20_pct": -20.48199133894306,
+      "exclusion": ""
+    },
+    {
+      "symbol": "SMCI",
+      "sector": "XLK",
+      "raw20_pct": -19.084164748017407,
+      "exclusion": ""
+    }
+  ],
+  "matches": {
+    "SNDK": {
+      "control": null,
+      "reason": "no_candidate_within_2x",
+      "adjusted20_difference_pp": null
+    },
+    "COHR": {
+      "control": "LITE",
+      "reason": "nearest_size_within_2x",
+      "adjusted20_difference_pp": -15.142814809423568
+    },
+    "STX": {
+      "control": "WDC",
+      "reason": "nearest_size_within_2x",
+      "adjusted20_difference_pp": -0.7542148695770621
+    },
+    "WDC": {
+      "control": "STX",
+      "reason": "nearest_size_within_2x",
+      "adjusted20_difference_pp": 0.7542148695770621
+    },
+    "MGM": {
+      "control": "WYNN",
+      "reason": "nearest_size_within_2x",
+      "adjusted20_difference_pp": -16.91495214213193
+    },
+    "MOS": {
+      "control": null,
+      "reason": "no_candidate_within_2x",
+      "adjusted20_difference_pp": null
+    },
+    "DELL": {
+      "control": null,
+      "reason": "no_candidate_within_2x",
+      "adjusted20_difference_pp": null
+    },
+    "SMCI": {
+      "control": "HPQ",
+      "reason": "nearest_size_within_2x",
+      "adjusted20_difference_pp": -6.322536099548483
+    }
+  },
+  "scope": "Retrospective outcome-conditioned selection. LIQUID did not select names or match peers. Values are owner working results awaiting final delivery/version."
+}

@@ -1,0 +1,52 @@
+
+####################################################################
+#               LIQUID BOOT — 3-dashboard live sweep               #
+#                 Monday, October 19, 2026  17:53                  #
+####################################################################
+
+  ⏩ --quick: skipping yfinance prices (APO/BIZD/VIX/HYG/TLT/USDJPY/Brent) and GATE-LIQ-076 legs (UNGRADED this run)
+
+  Dashboard 1 — Credit Spreads
+    🔴 HY OAS       331bps               HY >320 — CONFIRMATION rung MET-WITNESS (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)  (obs 2026-10-16)
+    🔴 CCC OAS      1297bps              CCC tail >1000 trip  (obs 2026-10-16)
+    🟢 CCC-BB gap   1094bps              pin INTACT — quality bifurcation wide (KB-LIQ-058)  [both 2026-10-16]  (obs 2026-10-16)
+
+  Dashboard 2 — Domestic Plumbing
+    🟠 10Y (DGS10)  5.09%                ABOVE 4.50 pivot  (obs 2026-10-16)
+    🟠 30Y (DGS30)  5.43%                ABOVE 5.00 — duration regime re-establishing (need ≥5 closes)  (obs 2026-10-16)
+
+  Catalyst Countdown (workbook/CATALYSTS.tsv, 60d horizon)
+    🔴  2026-10-19 Mon    0d cal /  0d trd  ✅ MET 2026-10-19 — HY >320 sustained (10/16 cell),  ⏰ IMMINENT
+    🟠  2026-10-21 Wed    2d cal /  2d trd  Treasury20Y reopening — $13B,CUSIP912810UX4,13:00E  ⏰ IMMINENT
+    🟠  2026-10-22 Thu    3d cal /  3d trd  Treasury5Y TIPS — $26B,CUSIP91282CRR4,13:00ET  ⏰ IMMINENT
+    🟠  2026-10-22 Thu    3d cal /  3d trd  Car-Mart temporary relief throughOctober22 — conti  ⏰ IMMINENT
+    🟠  2026-10-22 Thu    3d cal /  3d trd  NY Fed dealer data — next as-ofOctober14 print,pub  ⏰ IMMINENT
+    🟠  2026-10-28 Wed    9d cal /  7d trd  October FOMC decision + UK Budget
+    🟠  2026-10-30 Fri   11d cal /  9d trd  GATE-LIQ-069 review — October30 SET BY PROME Octob
+    🟠  2026-10-30 Fri   11d cal /  9d trd  GATE-LIQ-076 existing review — dealer-positioning 
+    🟡  2026-10-30 Fri   11d cal /  9d trd  LIQ-04 source coverage reconciliation — monthly BS
+    🟡  2026-10-30 Fri   11d cal /  9d trd  OCIC Q3 final SC TO-I/A (BROCK GATE-BRK-R2 read)
+    🟡  2026-10-30 Fri   11d cal /  9d trd  ✅ PRICING READ 2026-10-19 — Volta loan SOLD; WQ441
+    🟠  2026-10-31 Sat   12d cal /  9d trd  GATE-LIQ-079 existing review — FIRE-leg bands/base
+    🟠  2026-11-04 Wed   16d cal / 12d trd  Treasury long-end buyback program ENDS (refunding 
+    🟠  2026-11-06 Fri   18d cal / 14d trd  ✅ RESOLVED S2 2026-10-16 — LIQ-07 window closes
+    🟠  2026-11-10 Tue   22d cal / 16d trd  ✅ RESOLVED S2 2026-10-16 — LIQ-07 Resolve_By
+    🟡  2026-11-11 Wed   23d cal / 17d trd  MSCI non-operating-company rule — final constituen
+    🟠  2026-11-13 Fri   25d cal / 19d trd  Q3 BDC 10-Q window (FSK/OBDC/broader marks) — Q3 c
+
+  Predictions Due-Scan (workbook/PREDICTIONS.tsv)
+    🟡 LIQ-04: due 2026-12-31 (73d) — US BSL new-issue CLO AAA monthly average exceeds SOF
+
+  Unattended Watcher (AGENTS/LIQUID/alerts/HY_OAS_STATE)
+    🔴 HY OAS last red 331bps (obs 2026-10-16, checked 2026-10-19 13:00 )  ⚠️ ELEVATED — check alerts/HY_OAS_ALERTS.log
+
+  ==================================================================
+  BOOT SUMMARY   🔴 2   🟠 2   🟡 0   ⏰ 5 imminent   📋 0 overdue-pred   (19 series, 0 fetch errors, 13.3s)
+  Headline: HY OAS 331bps — HY >320 — CONFIRMATION rung MET-WITNESS (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 HY OAS: HY >320 — CONFIRMATION rung MET-WITNESS (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 CCC OAS: CCC tail >1000 trip
+
+  ⚠️  Basis: FRED prints lag T+1 (latest may be 1-2 sessions back, more on a weekend);
+      yfinance = last close; Brent BZ=F ≠ ICE settle; USD/JPY ≠ 5pm-ET NY close.
+      Declare the basis when citing any figure downstream.
+

@@ -2,7 +2,13 @@
 
 ## Session Notes
 
-### CURRENT SESSION — CLOSED 2026-10-19T13:44:41-04:00 (Will direct; Codex/gpt-6.1-sol)
+### CURRENT SESSION — 2026-10-19T17:59:09-04:00 (Will-launched after close, Codex/OpenAI, exact model UNKNOWN)
+
+Financing investigation saved at `research/2026-10-19_equity-financing/RESULT.md` (primary notes,30 selected maturity rows, calculations, exclusions/falsifiers). WALTER015–018 consumed. Closed financing shows cost/access distinctions; joint attribution remains PARTIAL. HENRY acknowledged the request and working8-name/four-contrast selection is now screened in COHORT-FUNDING.md; final owner delivery and complete exposure bridges remain pending. No replacement equity selection, new threshold/monitor/trade or gate change. X1 CLOSED / DON'T-SIZE. Morning L746/sweep/reconciliation not repeated.
+
+Session01a15626-6af3-7ba2-a813-ecec80a264d6. Required FRED-only boot completed; H.15 frontier advanced toOctober16. COR-20261019-12 NO-OP receipted. Foreign dirty/staged paths preserved; pull deferred under shared-worktree rule. HENRY coordination request committed28e12a87f; live independent-terminal transport/recipient consumption UNKNOWN. Final receipt and persistence status: `research/2026-10-19_equity-financing/CLOSEOUT.md`.
+
+### PRIOR SESSION — CLOSED 2026-10-19T13:44:41-04:00 (Will direct; Codex/gpt-6.1-sol)
 
 Will explicitly requested “Okay lets close out here.” Full desk closeout completed on that direct request; no PROME final-touch request is inferred. L746, domain sweep and workbook reconciliation are saved and committed; 23 workbook +15 key files reviewed,22 updated,25/25 reconciliation checks and boot selftest passed. Current evidence dates remain in STATUS/NEXUS_BRIEF; closeout is not a new live-data pull. Receipt: `reports/2026-10-19_Will-closeout.md`; durable PROME closeout packet is the handoff. No pull/stash/reset/push under the commission; PROME coordinates reviewed push. Delivery persistence and recipient consumption remain distinct.
 
@@ -42,9 +48,9 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 ### NEXT SESSION
 
-Resume from STATUS§3 and `reports/2026-10-19_Will-closeout.md`. Re-anchor new publications and every inbox lane; check PROME acknowledgment against the exact saved L746/sweep/reconciliation/closeout packets before retrying delivery. Do not repeat completed research for missing notification. This Will-launched session is closed at Will's direct request.
+Resume STATUS§3 and `research/2026-10-19_equity-financing/RESULT.md`. Check HENRY’s exact cohort/matching reply and recipient acknowledgment before repeating any research. Use existing funding notes to fill only missing formation-date maturity/liquidity/credit fields. Joint attribution is saved PARTIAL, not an unattended job. Closeout receipt separates desk write-back, push, notification and recipient consumption.
 
-Existing next source dates: October21 20Y; October22 TIPS, Car-Mart continuation and expected dealer publication (grade only actual publications). October30 069/076 reviews and LIQ04 source coverage; October31 079 FIRE-band proposal. WQ404 conditions-first repair and remaining CATO/DAEDALUS work remain separate obligations. Volta WQ441 A/B unresolved; X1 CLOSED / DON'T-SIZE. Source/vintage/private-funding limits survive; no repeated supervisor-blind data-wall hunt. Reviewed push/recipient integration belong to PROME.
+Existing source clocks and WQ404/CATO/DAEDALUS obligations stay in STATUS§3; no new collection protocol. Preserve source/vintage/private-funding limits, Volta WQ441 unresolved readings and X1 CLOSED / DON'T-SIZE.
 
 ### EARLIER SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
 
