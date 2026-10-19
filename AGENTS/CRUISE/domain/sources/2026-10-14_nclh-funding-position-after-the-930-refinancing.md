@@ -1,4 +1,5 @@
 # NCLH — funding position after the 2026-09-30 refinancing
+> **October19 successor clarification (KB-CRU-162/163):** [transaction bridge](../../research/2026-10-19_cushion/RESULT.md) incorporates October15 closing and amended ARCA. Notes are **unsecured**; commitments +315M plus repayment 376.3M imply +691.3M nominal room before other draws. Closing proceeds 941.7M minus principal uses 943.5M imply **−1.8M cash before premiums, accruals and fees**, replacing the +6.5M gross-face residual as the cash starting point. Principal after all named repayments is **15,474.245M** on June balances, not ~15,515M; the earlier total omitted the 42.2M ECA prepayment while leaving its year allocation unknown. The 800M springing test remains in amended Ex10.1; the 300M debt-service exception requires liquidity throughout the preceding four quarters. October14 endpoint model excludes the later 315M commitment increase and remains a dated scenario, not actual post-June cash.
 
 **Built:** 2026-10-14 Wed evening ET (CRUISE, Will-directed: "Dig into Norwegian's funding position"). **Supersedes in part** `2026-09-19_nclh-18-month-funding-reconciliation.md` (bannered 10/14); that paper's method and limits still apply.
 **Primaries read this session:** NCLH Q2 FY26 10-Q (acc 0001104659-26-089657) · NCLH FY2025 10-K (acc 0001104659-26-022067, Note 9 + Risk Factors) · Seventh ARCA as amended, 8-K 2025-06-27 Ex-10.1 (acc 0001104659-25-063237) · NCLC pricing releases #827/#828 (2026-09-30) · NCLH Q2 Ex-99.1 (acc 0001171843-26-005050) · NCLH 8-Ks 2026-03-27 (Elliott) and 2026-05-29 (exchangeable cash settlement).
@@ -63,7 +64,7 @@ The ~$2.5B revolver matures **early** if any of three conditions bites (ARCA def
 | **2030** | **3,949.6** | **~3,573.3** | **the wall:** revolver (Jan 2030) + **$1,760.9M 2030 exchangeables** (0.875% $353.9M + 0.750% $1,407.0M) + $315M 6.25%. −$376.3M revolver paydown, **if** those borrowings sit in the 2030 bucket |
 | 2031 | 1,865.4 | **~2,815.4** | +$950M new notes (beside the $1.2B 5.875% 2031s) |
 | Thereafter | 5,363.5 | 5,363.5 | |
-| **Total** | **15,467.7** | ~15,515 | ECA prepay ($42.2M) not allocated by year |
+| **Total** | **15,467.7** | **15,474.245 (corrected 10/19)** | Includes the $42.2M ECA prepayment in aggregate; allocation by year unknown. Prior ~15,515 total SUPERSEDED. |
 
 Equity $2,572.9M at 6/30 ⇒ **gross debt ~6.0x book equity.** Ratings **Moody's B1 / B3 unsecured · S&P B+ / B+ unsecured / BB revolver** (10-Q). Market tell: the **0.750% 2030 exchangeables carried a fair value of $1,304.8M on $1,407.0M principal (~93 cents) at 6/30.**
 

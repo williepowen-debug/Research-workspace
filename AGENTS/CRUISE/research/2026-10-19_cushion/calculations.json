@@ -1,0 +1,123 @@
+{
+  "units": "USD millions / percent / percentage points",
+  "june": {
+    "RCL": {
+      "cash": 875.0,
+      "room": 6000.0,
+      "principal": 23407.0,
+      "op_income_h1": 2469.0,
+      "general_liquidity": 6875.0,
+      "liquidity_principal_pct": 29.371555517580212,
+      "cash_principal_pct": 3.7381979749647543,
+      "operating_income_principal_pct": 10.54812662878626
+    },
+    "NCLH": {
+      "cash": 218.1,
+      "room": 1300.0,
+      "principal": 15467.745,
+      "op_income_h1": 596.27,
+      "general_liquidity": 1518.1,
+      "liquidity_principal_pct": 9.814617450701443,
+      "cash_principal_pct": 1.4100310032263914,
+      "operating_income_principal_pct": 3.8549252007968837
+    }
+  },
+  "nclh_transaction_only": {
+    "new_face": 950,
+    "net_proceeds_before_fees": 941.7,
+    "principal_uses": 943.5,
+    "cash_change_before_premium_accruals_fees": -1.7999999999999545,
+    "net_principal_change": 6.5,
+    "nominal_revolver_room_change": 691.3,
+    "old_2028_bond_annual_coupon": 32.15625,
+    "new_2031_bond_annual_coupon": 83.125,
+    "same_525_principal_coupon_increase": 13.781249999999998,
+    "hypothetical_principal": 15474.245000000003,
+    "hypothetical_liquidity_before_fees": 2207.5999999999995,
+    "hypothetical_liquidity_principal_pct": 14.266285689544137
+  },
+  "rcl_transaction_only": {
+    "prospectus_as_adjusted_cash": 855,
+    "prospectus_as_adjusted_principal_plus_leases": 23409,
+    "july_commitment_increase": 250,
+    "hypothetical_liquidity": 7105,
+    "hypothetical_liquidity_principal_pct": 30.351574180870607,
+    "prospective_sandals_debt": 3000,
+    "hypothetical_post_sandals_ratio_pct": 26.90370706955962,
+    "prospectus_actual_vs_q2_principal_difference": 9
+  },
+  "transaction_sensitivity_warning": "NOT actual September/October balances. Omits operating flows, deposits, ship funding/capex, amortization, dividends, buybacks, FX, other draws, fees and NCLH redemption premium. Sandals is prospective, not funded.",
+  "walter_chart_sha256": {
+    "RCL": "923bcfaff332ce63b240949c717cb2d47167a34ee5d03e0273080ec0eeea7c43",
+    "NCLH": "dea21726b6fd06925315fbf2b7e329921ae0b5b0586e759c7d559b8e65cafa05"
+  },
+  "dated_path_from_september18_pct": [
+    {
+      "date": "2026-09-18",
+      "RCL": 0.0,
+      "NCLH": 0.0,
+      "NCLH_minus_RCL_pp": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "RCL": 1.806274148938103,
+      "NCLH": 0.8498575533404162,
+      "NCLH_minus_RCL_pp": -0.9564165955976867
+    },
+    {
+      "date": "2026-09-22",
+      "RCL": -4.442454854319877,
+      "NCLH": 0.7082180048173958,
+      "NCLH_minus_RCL_pp": 5.150672859137273
+    },
+    {
+      "date": "2026-09-23",
+      "RCL": -6.309749261983866,
+      "NCLH": 0.42493215370393855,
+      "NCLH_minus_RCL_pp": 6.734681415687804
+    },
+    {
+      "date": "2026-09-29",
+      "RCL": 6.045326071653556,
+      "NCLH": 4.815866222996479,
+      "NCLH_minus_RCL_pp": -1.2294598486570774
+    },
+    {
+      "date": "2026-09-30",
+      "RCL": 8.156701514221144,
+      "NCLH": 3.8243623670656035,
+      "NCLH_minus_RCL_pp": -4.33233914715554
+    },
+    {
+      "date": "2026-10-01",
+      "RCL": 9.836862990089523,
+      "NCLH": 3.682722818542583,
+      "NCLH_minus_RCL_pp": -6.15414017154694
+    },
+    {
+      "date": "2026-10-02",
+      "RCL": 12.989704647049628,
+      "NCLH": 7.223799334494707,
+      "NCLH_minus_RCL_pp": -5.765905312554921
+    },
+    {
+      "date": "2026-10-14",
+      "RCL": 11.594320932046887,
+      "NCLH": 5.311614773928186,
+      "NCLH_minus_RCL_pp": -6.282706158118701
+    },
+    {
+      "date": "2026-10-15",
+      "RCL": 13.913190084499716,
+      "NCLH": 8.994337592470792,
+      "NCLH_minus_RCL_pp": -4.918852492028924
+    },
+    {
+      "date": "2026-10-16",
+      "RCL": 12.965296543559269,
+      "NCLH": 6.586404480972541,
+      "NCLH_minus_RCL_pp": -6.378892062586728
+    }
+  ],
+  "grading": "CRU-11 untouched; no prediction resolver executed"
+}

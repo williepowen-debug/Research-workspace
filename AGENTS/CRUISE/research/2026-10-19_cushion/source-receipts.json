@@ -1,0 +1,173 @@
+[
+  {
+    "id": "rcl-q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000038/rcl-20260630.htm",
+    "status": 200,
+    "bytes": 1772860,
+    "sha256": "94f04aa3d3b0882c5e44349271136c6da9216605c8a7f2ce016246ce2745a4bc",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.028909+00:00"
+  },
+  {
+    "id": "nclh-q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926089657/nclh-20260630x10q.htm",
+    "status": 200,
+    "bytes": 2370367,
+    "sha256": "be9ff7c107d10712d7b0af317722fa0b19eba615c51a01123d69b99eeb5ecbbf",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.404774+00:00"
+  },
+  {
+    "id": "rcl-q2-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000036/a2026q2earningsrelease.htm",
+    "status": 200,
+    "bytes": 417127,
+    "sha256": "afe8d19641cc990eea45e50ce4aa0fd06be13928f26cf0779bc06a7e2c58290b",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:22.401751+00:00"
+  },
+  {
+    "id": "rcl-aug-close",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926099245/tm2623517d1_8k.htm",
+    "status": 200,
+    "bytes": 37272,
+    "sha256": "28dc23e41f8f9a1e1b568fad77313e4d5e24ca9d82f7badddaf4f06f12dd6e77",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:22.404135+00:00"
+  },
+  {
+    "id": "rcl-sandals",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm",
+    "status": 200,
+    "bytes": 25950,
+    "sha256": "7ef3e5fd4a283ba913dece30965d0e4e49096f9b7d12d58765dd31a1c4098c94",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:22.375218+00:00"
+  },
+  {
+    "id": "rcl-sandals-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_ex99-1.htm",
+    "status": 200,
+    "bytes": 21657,
+    "sha256": "b1b8de59487a3cbb76a6d8ceb3545998e0c7c95d184131bf40559735b17ec503",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:22.765214+00:00"
+  },
+  {
+    "id": "nclh-sept-guide",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926112116/tm2626633d1_8k.htm",
+    "status": 200,
+    "bytes": 32722,
+    "sha256": "5159d8ee2bf525fffbc893fed48465a99ffef9ea30875eae3ec997da8a6c424d",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:22.940774+00:00"
+  },
+  {
+    "id": "nclh-oct-close",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926116254/tm2627514d1_8k.htm",
+    "status": 200,
+    "bytes": 41971,
+    "sha256": "cc2b1554c7a3694824563560ce1779173b1f1b68923c6ec1f9dde9752550e9e4",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:22.862412+00:00"
+  },
+  {
+    "id": "nclh-oct-arca",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926116254/tm2627514d1_ex10-1.htm",
+    "status": 200,
+    "bytes": 1370820,
+    "sha256": "5f4edcf095f9374a689c83c2b104c149b4ced97dc87348b25887db16edcf9819",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.884911+00:00"
+  },
+  {
+    "id": "nclh-indent",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926116254/tm2627514d1_ex4-1.htm",
+    "status": 200,
+    "bytes": 594066,
+    "sha256": "738fea8f6623490b47cfb37a1d12c98b0b4d2f9863304590855716f228c2ca35",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.602854+00:00"
+  },
+  {
+    "id": "nclh-pricing",
+    "url": "https://www.nclhltd.com/news-media/press-releases/detail/828/ncl-corporation-ltd-announces-upsizing-and-pricing-of",
+    "status": 200,
+    "bytes": 27105,
+    "sha256": "ea68250ba7c5bca2689febf23838ff55a71504e1678ebebdebf5e66ce4a776ac",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.361018+00:00"
+  },
+  {
+    "id": "rcl-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000884887.json",
+    "status": 200,
+    "bytes": 155967,
+    "sha256": "3d97453cb971ccef0b24b12dede5f43f85130ee520fe76c810521bb9f69614d2",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.401311+00:00"
+  },
+  {
+    "id": "nclh-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001513761.json",
+    "status": 200,
+    "bytes": 168000,
+    "sha256": "fad8476bae328077a58e52cc1346075c0154633edbe49efba05afc4f2096049b",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.883320+00:00"
+  },
+  {
+    "id": "nclh-ir-index",
+    "url": "https://www.nclhltd.com/news-media/press-releases",
+    "status": 200,
+    "bytes": 34748,
+    "sha256": "fc1ade051fec7147599e4fe5b144a42e037d40019b6c678df3e707140205d0db",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:23.880354+00:00"
+  },
+  {
+    "id": "rcl-ir-index",
+    "url": "https://www.rclinvestor.com/press-releases/",
+    "status": 200,
+    "bytes": 63006,
+    "sha256": "143875ecef862306819dd5a11b1a6141be8c22339e3af82bbbc9919b340b2085",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:24.437750+00:00"
+  },
+  {
+    "id": "rcl-july",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926085080/tm2620798d1_8k.htm",
+    "status": 403,
+    "bytes": 4818,
+    "sha256": "b421cf54e51d65007829167aa7f8600985373cdc8863d4ec90cd40d1bb4bca9d",
+    "valid": false,
+    "retrieved": "2026-10-19T21:56:58.022906+00:00"
+  },
+  {
+    "id": "rcl-final-prospectus",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926092869/tm2622328-2_424b5.htm",
+    "status": 403,
+    "bytes": 4818,
+    "sha256": "3ad5037954d9ee34c1214eff0b5d803c6189626ef96122ca1b4103f7faf0db66",
+    "valid": false,
+    "retrieved": "2026-10-19T21:56:58.250254+00:00"
+  },
+  {
+    "id": "nclh-q2-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000117184326005050/exh_991.htm",
+    "status": 403,
+    "bytes": 4818,
+    "sha256": "b4e0538ea6bfced38ea034731355db8b69fc4f3cab1e74381974d92b88295572",
+    "valid": false,
+    "retrieved": "2026-10-19T21:56:58.505708+00:00"
+  },
+  {
+    "id": "nclh-q3-date",
+    "url": "https://www.nclhltd.com/investors/news-events/press-releases/detail/833/norwegian-cruise-line-holdings-to-hold-conference-call-on",
+    "status": 200,
+    "bytes": 39497,
+    "sha256": "9aff873da216a287f7f3a65cbde4841f42a86b4fba98855647c6dfbb7a4849d0",
+    "valid": true,
+    "retrieved": "2026-10-19T21:56:58.771492+00:00"
+  }
+]

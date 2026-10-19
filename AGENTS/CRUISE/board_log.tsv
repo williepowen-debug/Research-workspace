@@ -26,3 +26,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-16T16:30Z	SIG-W-20261014-028	info-only	INBOX_WALTER	Late board carrier of CRUISE's own KB-CRU-145/-146/-147 (NCLH $950M notes; RCL Sandals). No new fact; closing read is KB-CRU-157.
 2026-10-16T16:30Z	WALTER-20261014-CAPITAL-MISSES-DISPOSITION	noted	MANUAL	MISSED-structural; fix 1 = DOCKET L707 (PROME/RESEARCH-INTAKE), fix 3 landed. No reply needed. KB-CRU-159.
 2026-10-16T16:30Z	PROME-20261015-WQ435-RULED	acted	MANUAL	Ruling verified at PROME/proposals/2026-10-15_deck-batch-16-RULED.md row 435 (APPROVE 2026-10-15T16:26:56Z). Charter encoded CLAUDE.md § Live scope; VX-CRU-01 raw re-reference held to L732. KB-CRU-159.
+2026-10-19T22:02:18.703255+00:00	SIG-W-20261019-018	acted	INBOX_WALTER	Primary transaction/operating reconciliation saved; KB160-164/167. CRU-11 not graded.
+2026-10-19T22:02:18.703255+00:00	SIG-W-20261016-033	acted	INBOX_WALTER	Primary release833 read; October29 calendar encoded, KB165.
+2026-10-19T22:02:18.703255+00:00	SIG-W-20261019-003	info-only	INBOX_WALTER	Dated LIQUID owner credit context; KB166, no cruise attribution.
