@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-19T12:13:11-04:00 — Will-launched Codex / host-selected gpt-6.1-sol, L746. Own >320 rung MET 3-of-3 on October16 published cell; 069 L4 October16 NOT FIRED. Funding leg PARTIALLY INSTRUMENTED / SUPERVISOR-BLIND. → `analysis/2026-10-19_L746-published-close.md`. X1 CLOSED; no capital or threshold change.
+**Last Updated:** 2026-10-19T12:16:52-04:00 — Will-launched Codex / host-selected gpt-6.1-sol, L746. Own >320 rung MET 3-of-3 on October16 published cell; 069 L4 October16 NOT FIRED. Funding leg PARTIALLY INSTRUMENTED / SUPERVISOR-BLIND. → `analysis/2026-10-19_L746-published-close.md`. X1 CLOSED; no capital or threshold change.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
