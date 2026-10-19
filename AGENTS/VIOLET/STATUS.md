@@ -22,7 +22,7 @@
 |Monday SKEW quote|**161.86**|[CONF] Cboe delayedOctober19last_trade_time17:00:20ET. Same-day dated quote, excluded from daily-CSV count until final publication; no assumed hour.|
 |M1:M2 adjusted|**+0.734%**,VX/X6→VX/Z6|[CONF] CboeOctober19settlementNovember18/December16,18.5996→18.7362. October/November strict**+2.431%**,18.1582→18.5996. Pair switched inside5calendarDTE.|
 |Friday futures|**−3.362%**,VX/V6→VX/X6|[CONF] CboeOctober16settlement19.9075→19.2382. Same-dateNov/Dec−1.506%; Mondaysamepair+0.734% steepens2.240pp. Futures inversion does not substitute for cash3M/VIX.|
-|MOVE primary|**101.10**|[CONF] Investing.comOctober16;October14=99.14,October15=102.49. NoOctober19primary print captured. Standing pause/resume lines remain ARMED.|
+|MOVE primary|**101.10**|[CONF] Investing.comOctober16;October14=99.06,October15=102.49. NoOctober19primary print captured. Standing pause/resume lines remain ARMED.|
 |OVX final|**50.74**,OVX/VIX**2.54**,CALM ratio state|[CONF] October16matched Cboe/VIX daily, boot cross-check; oil-vol levelp86.1still elevated. Ratio easing as VIX rises is not oil-risk clearance. BRENT/HAWK substance.|
 |JPY RV10 /RV20|**2.61% /4.40%**,p4.4CALM|[CONF] October19boot FX pull. SAM owns policy/carry. FXY near-ATMIV13.4%,IV/RV5.14off-hours STALE; usable chain required before any option-leg conclusion.|
 |Correlation final|COR1M**10.07**,COR3M**13.98**,COR30D**10.31**|[CONF] CboeOctober16history. October14/15COR1M9.02/7.65. WQ410first-tellRETIRED; daily series remains context.|
@@ -82,6 +82,8 @@ Current position truth is Will/broker off-repo; refer to FORGE/STATUS.md for its
 3. ExistingL667calendar-toolrider: earlier warning/date/past-rowguards built; October10packet's durableempty-calendarpacketoutput/14-daycharterclause not certified here. Currentcalendar populated, noempty event. PROME must separate observationcompletion from residualrider.
 4. Existing correlation helper still stampsSETTLEbyclock. CurrentrowmanuallydemotedTICK; source-basis repair remainsowed, no broad tooling audit/build claimed.
 5. HistoricalFXYIV/OIandempiricalcredit-studyreplicationremainlimited. NewCFTCweekrecovered; no originalrelease-vintageclaim. Olderfuturesblankcells not touched; existingbackfillcode has dated settlement support, so prior generic “conventionunresolved” claim is not current capability evidence.
-6. RepoHTMLlivebandsrefreshed; original hostedArtifactpublisher unavailable/unverified. No newURLorhostedrefreshclaim.
+6. Deck PAUSED WQ460; Helm RETIRED WQ461. No build, upkeep or publication duty resumes. Earlier standalone Artifact copies remain historically unverified; this closeout commissions no hosted refresh.
+
+**Closeout reviewed:** 2026-10-19 17:44 EDT. Saved market evidence remains at its stated dates (latest publication check17:39ET), without a new boot or market pull. PROME coordination/closeout request received through the user channel; owner receipt: research/2026-10-19_official-followthrough/COORDINATOR_CLOSEOUT.md. Native notification to PROME thread01a155c9-1523-7453-b498-a9f88ea2b27c remains unavailable.
 
 **Persistence/coordination:** initialpull deferred dueforeigndirtywork; only ownedpaths/self-authoredrecipientpacketscommitted. IndependentPROME/WALTERprocessesvisible, nativecross-windowtransportnotexposed; notification/consumptionUNKNOWN. Bootfailed on2missingVXdailyrows, nowrecovered; closeoutchecks and Gitreceipts recorded in research/2026-10-19_official-followthrough/CLOSEOUT.md. No additional agents launched.
