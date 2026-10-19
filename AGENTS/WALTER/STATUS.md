@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-19T00:58Z — **Tier-2 FULL closeout of the Sun 10/18 Will-launched boot** (desktop; Claude Code, `claude-opus-5-5`). BOARD **1503**; October18 **8 signals** (001–008), 2 kill-log rows, 0 cluster_mediating. Batches BM-20261018-01 28/28, -02 10/10. Duties and publication: `LAST_COMPLETION.md`.
+**Updated:** 2026-10-19T13:29:56Z — **Monday morning owner / full closeout requested by PROME** (Codex/OpenAI, selected gpt-6.1-sol; task /root/walter_morning). BOARD **1505**; October19 **2 signals** (001–002),0kills,0cluster_mediating; batch3/3. Boot **PARTIAL**; result `research/2026-10-19_morning/RESULT.md`; duties `LAST_COMPLETION.md`.
 
 ## BOTTOM LINE
 
-**The Gulf war at sea escalated over the weekend, but no gate fired.** UKMTO confirmed two tankers struck off Al Jubail (Saudi Gulf coast) 10/16–17 and ≥10 vessels attacked in the week to 10/17 (a floor). The IRGC two-supertanker mine claim is CLAIM-ONLY; the "US asked permission to strike Pickaxe Mountain" story is unsourced beyond one X account and its "24h war" call lapsed; no strike on Iran; Yanbu INTERCEPTED; no force majeure (`002`). Ukraine hit the St Petersburg Oil Terminal and Ruchyi depot overnight 10/17–18 — a terminal, not a refinery — after OSPREY's 10/18 session had found no new row (`003`). France protests 550K (Interior) / 800K (CGT), cost of living; the Macron quote is 2018 (`004`). Microsoft dropped its Nscale Loughton anchor tenancy for grid power, not demand; "MSFT dumping neoclouds" is unsupported (`001`). No market session since Friday 10/16, so no new threshold fire. **Next WALTER session (Mon 10/19): push if not done, reconcile delivery, then the HY 10/16 first-published cell (FT-02/REG-T-03 bar 3), VIXCLS 10/16, the L599 bookmark pilot review, and the READS re-attestation before the 10/22 strict flip.** WAL reports Mon after close.
+**Fifth Third's results arrived this morning; the coordinator calendar's after-close wording is wrong.** Its issuer call is09:00 ET today; GIBBS receives001 for its existing four-item bank comparison read. The October16 Graham Act waiver preserves the pre-existing executive-order Russia sanctions described in section4(b);002 routes that qualification to HAWK and existing owners, with no delivered-barrel inference. **The October16 HY and VIXCLS deciding observations remain absent on direct FRED pulls.** HY323bp [10/15] leaves candidate2/3; no new owner fire is claimed. The bookmark review measures555 new IDs/14days and recommends fresh Will approval for bookmarks-only, holding paid Phase2. Source/perimeter limits are explicit in the report. Sunday's23 handoffs now prove delivered from origin history; today's 6 handoffs await PROME publication. No external send or capital action.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -38,9 +38,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY reviewed at the 2026-10-19T00:57:37Z closeout: owner headers changed since the 10/17 closeout only for PROME (10/18 prome-58 + later commits), OSPREY (10/18 17:54 ET) and DAEDALUS (10/17 light closeout); those and WALTER's row refreshed; 47 rows retained. Bands: GREEN 4 · ORANGE 14 · RED 10 · RED2 1 · RETIRED 1 · YELLOW 14 · — 3. Owner dates and bands preserved; not a liveness census.
-
-PROME and OSPREY were live 10/18 afternoon (last PROME commit 18:06 ET; none since through 20:56 ET). ORCH_INFLIGHT (40 IN-FLIGHT rows, generated 10/17) read whole at 9b: neither live nor dark; no doorbell warranted. Doctor: 240 handoffs unconsumed >2d across 23 desks (51 ACTION, oldest 16d), recipient-side backlog by delivery_log.timestamp_routed. No Telegram inbound this session: Rule 12 gap for FLASH `027` carried.
+REGISTRY47 rows retained, PROME/WALTER headers refreshed 2026-10-19T13:29:56Z. Bands unchanged from prior review; this is a routing mirror, not fleet presence. GIBBS routing already landed10/14;001 uses its normal lane. Parent reports GIBBS commissioned; other live/dark states UNKNOWN from this runtime's incomplete discovery. ORCH_INFLIGHT read as an open-touch view, never a liveness verdict. No doorbell or additional desk launched. Current partial-boot read/scan limits in the morning RESULT; no clean fleet census claimed.
 
 ## Active LIAISON channels
 

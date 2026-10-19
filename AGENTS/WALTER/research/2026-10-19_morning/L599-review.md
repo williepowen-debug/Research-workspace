@@ -1,0 +1,16 @@
+# L599 — bookmark pilot measurement, 2026-10-19
+
+Recommendation to PROME/Will: continue human-watched bookmarks-only if Will approves a fresh continuation; hold paid Phase 2. No self-extension, purchase, new scan or feed launch performed. WQ-373's first successful scan was October3 16:44:07Z; the 14-day measurement window ends October17 16:44:07Z. October18 is outside that cohort (28 additional IDs), retained separately. This recommendation is a decision input, not approval.
+
+| Required metric | Measured result | Limit |
+|---|---|---|
+| Bookmarks/day | 555 newly marked IDs /14 calendar days =39.64/day. Excludes287 initial seed IDs. | This measures observed intake/disposition, not bookmark-event timestamps; no scan on every calendar day. Old posts newly bookmarked count correctly. |
+| Dispatch rate versus42% screenshot baseline | 177 DISPATCH /545 content items across24 named bookmark manifests =32.48%, 9.52 percentage points below42%. FOLD140, DUP79, NOTE46, KILL39, NO-ACTION64. | Content items can split one post or combine into one signal. 545 is a documented manifest cohort, NOT the555-ID denominator: the October14 morning19-item JSON disposition exists outside these named manifests, and thread/media splits add content. The baseline's own sampling/perimeter is not re-derived; this is descriptive, not a causal performance test. |
+| Post-to-disposition | All555 IDs: post-creation→first mark-commit upper bound median13.53h, p75 nearest-rank25.94h, min0.17h, max612.49h. | Commit time follows disposition and includes publication delay; creation time is decoded from the X ID, not bookmarking time. Exact routing/disposition timestamps are not retained per post. Cannot claim a13.53h actual handling median or measure bookmark→handling delay. |
+| Accounts /15-account alternative | Complete October16 saved40-item sample:28 distinct accounts; FirstSquawk5, DeItaone4, Polymarket/coinbureau/HormuzLetter/KobeissiLetter/rdd1472 each,21 singleton accounts. Best possible15 within this sample cover27/40=67.5%; at least13/40 fall outside. | This is a40-item sample, not a whole-pilot account census or financial-only yield test. No prospective15-account list exists to score; paid-feed performance remains UNKNOWN. |
+
+Broad specialist diversity and actual routed items support bookmarks as useful. A lower raw dispatch rate does not establish worse quality; curated screenshots, content splitting and FOLD handling differ. The sample gives no basis to pay for a fixed feed as a replacement. If Will continues, preserve per-ID scan/disposition timestamps and usernames without post bodies; implementing telemetry is not commissioned here.
+
+Bright Data WQ-383 companion usage:5 requests in registry/brightdata_usage.tsv;2 RESCUED (CNBC body, Baltic week41 body),1 PARTIAL (Bloomberg headline/Takeaways only),1 REACHED-NO-TARGET,1 NOT-RESCUED. Strict target rescue2/5=40%; not5 useful bodies. Free-tier use does not authorize paid Phase2. L1/L2 and L3 success observed; L3 failure one cause/instance; N1/L4 live remain untested. Actual portal credit/billing unknown.
+
+Reproduction: measure_l599.py →L599-metrics.json. Script reads committed consumed-ID history, existing batch manifests and existing October16 saved source; writes no source bodies or credentials. ID-level mark evidence retained in the JSON. No new API request needed.

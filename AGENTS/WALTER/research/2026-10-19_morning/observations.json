@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-19T13:30:27.617486+00:00",
+  "source_calls": [
+    "python3 FORGE/tools/market-data/fetch.py fred BAMLH0A0HYM2 --periods 8 --first-published --json",
+    "python3 FORGE/tools/market-data/fetch.py fred VIXCLS --periods 6 --json"
+  ],
+  "HY_first_published_rows": [
+    {
+      "date": "2026-10-15",
+      "value": "3.23"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "3.25"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "3.16"
+    },
+    {
+      "date": "2026-10-12",
+      "value": "3.11"
+    }
+  ],
+  "HY_request_output_type": 4,
+  "HY_2026_10_16": "ABSENT",
+  "VIXCLS_last_row": {
+    "date": "2026-10-15",
+    "value": "16.46"
+  },
+  "VIXCLS_2026_10_16": "ABSENT",
+  "scope": "manual transcription of completed direct API tool outputs; recording clock is not source publication time; no reconstructed vintage proof"
+}
