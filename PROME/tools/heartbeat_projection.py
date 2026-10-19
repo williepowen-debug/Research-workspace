@@ -1,5 +1,9 @@
 """Apply reviewed HEARTBEAT amendment projections without interpreting free prose.
 
+RETIRED WORKFLOW: WQ-452.FLEETOPS (2026-10-16) ended companion upkeep and
+the dashboard build. The protocol below describes historical/library behavior;
+it creates no current obligation to project new HEARTBEAT amendments.
+
 Each amendment has one dashboard-amendment JSON block in the companion. Its source hash
 binds it to the full amendment paragraph. Later amendments win; missing or stale
 projections withhold the derived view. Authors must project every affected field:

@@ -39,14 +39,13 @@ comparison file. Without `--activity-state`, the boot gate collects current pend
 files and commits without writing a baseline. This is an on-demand snapshot view;
 it does not monitor while PROME is idle. Evidence: [presence/activity report](../reports/2026-09-09_presence-activity.md).
 
-Standalone runtime inventory and the optional dashboard projection:
+Standalone runtime inventory (Fleet-Ops/Helm dashboard projections are retired under WQ-452/461; no dashboard build accompanies this inventory):
 
 ```bash
 python3 PROME/tools/session_bridge.py > /tmp/prome-sessions.json
-python3 PROME/tools/fleet_dashboard.py --sessions-json /tmp/prome-sessions.json -o /tmp/fleet_dashboard.html
 ```
 
-The dashboard command also updates its existing local change-feed baseline. Inventory sees only its accessible PID namespace. A sandbox snapshot cannot establish host absence. Inspect `coverage`, `pid1`, timestamps and gaps. Process presence does not establish an active turn, and a persisted Claude blocked record without a PID does not establish a live process. No supplied Codex endpoint means UNKNOWN. The optional `--codex-socket` path is experimental: the Unix initialization pilot disconnected; it is not a verified connection recipe. The proven RPC transport is an explicitly owned stdio app-server process.
+Inventory sees only its accessible PID namespace. A sandbox snapshot cannot establish host absence. Inspect `coverage`, `pid1`, timestamps and gaps. Process presence does not establish an active turn, and a persisted Claude blocked record without a PID does not establish a live process. No supplied Codex endpoint means UNKNOWN. The optional `--codex-socket` path is experimental: the Unix initialization pilot disconnected; it is not a verified connection recipe. The proven RPC transport is an explicitly owned stdio app-server process.
 
 `session_bridge.py` is a library plus read-only inventory CLI. It does not launch desks, reserve capacity automatically, install hooks, resume owner sessions or dispatch messages from its CLI. `Rpc.stdio` explicitly creates an owned subprocess when a caller invokes it; closing that object stops that child. Never substitute a production session for a fixture without current roster and live-owner preflight. One RPC object supports one caller.
 
