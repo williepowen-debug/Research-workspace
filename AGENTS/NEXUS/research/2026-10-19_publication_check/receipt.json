@@ -1,0 +1,72 @@
+{
+  "source_check_started_utc": "2026-10-19 14:25:59 UTC",
+  "transport": "web.run, two public FRED series pages",
+  "basis": "Latest displayed dated observations; no ALFRED first-publication certificate asserted.",
+  "sources": [
+    {
+      "series": "DFII10",
+      "url": "https://fred.stlouisfed.org/series/DFII10",
+      "source_updated": "2026-10-16 15:16 CDT",
+      "next_release_date": "2026-10-19",
+      "rows": [
+        {
+          "date": "2026-10-15",
+          "value": "2.78"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "2.84"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "2.88"
+        },
+        {
+          "date": "2026-10-12",
+          "value": null
+        },
+        {
+          "date": "2026-10-09",
+          "value": "2.91"
+        }
+      ],
+      "target_date": "2026-10-16",
+      "target_displayed": false,
+      "disposition": "Formal C#1 and L2 remain pending a FRED-published cell15; no substituted anchor."
+    },
+    {
+      "series": "VIXCLS",
+      "url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "source_updated": "2026-10-19 08:38 CDT",
+      "next_release_date": "2026-10-20",
+      "rows": [
+        {
+          "date": "2026-10-16",
+          "value": "19.99"
+        },
+        {
+          "date": "2026-10-15",
+          "value": "16.46"
+        },
+        {
+          "date": "2026-10-14",
+          "value": "16.87"
+        },
+        {
+          "date": "2026-10-13",
+          "value": "15.27"
+        },
+        {
+          "date": "2026-10-12",
+          "value": "15.21"
+        }
+      ],
+      "letter_upper_edge": "18.41",
+      "letter_lower_edge": "12.41",
+      "consecutive_upper_cells": 1,
+      "disposition": "No completed two-cell run; M04 held26. Weekend supplies no cells. Next available close on expected calendar10/19; read when FRED publishes."
+    }
+  ],
+  "archival_gap": "A separate direct urllib archive request did not finish promptly and was terminated. This record preserves the successful web-tool observations, not a downloaded raw response.",
+  "recorded_at": "2026-10-19T10:26:23.781101-04:00"
+}

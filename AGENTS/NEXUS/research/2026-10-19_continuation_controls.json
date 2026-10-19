@@ -1,0 +1,163 @@
+{
+  "recorded_at": "2026-10-19T10:30:42.091997-04:00",
+  "tier": "STANDARD",
+  "checks": {
+    "weekday": {
+      "returncode": 0,
+      "stdout": "CLAIM-CHECK \u2713 7 file(s) clean [weekday]\n",
+      "stderr": ""
+    },
+    "corrections": {
+      "returncode": 0,
+      "stdout": "  INFO 1 dead-at-cap with no receipt from this desk: COR-20260925-13 \u2014 0 NAMED (still BLOCKING until receipted, WQ-254 D4(a)) \u00b7 1 ALL-row (broadcast expired: no warn, no block)\nCORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for NEXUS (register 88 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 8) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n",
+      "stderr": ""
+    },
+    "read_cap": {
+      "returncode": 0,
+      "stdout": "READ-CAP [NEXUS] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: DECLARED in PROME/registry/READS.tsv \u2014 75 cap-bearing (whole/programmatic) measured, 15 declared-not-counted (scoped/grep/summary), 35 manifest row(s) for this desk; 69 of the measured are MEMBERS of 5 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself\n  \u2705 AGENTS/NEXUS/LAST_COMPLETION.md      24,021 B    74% of budget    (whole \u00b7 NEXUS:15a)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,237 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 391 B.\n  \u2705 AGENTS/NEXUS/STATUS.md               23,476 B    72% of budget    (whole \u00b7 NEXUS:15a)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 692 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 936 B.\n  \u2705 AGENTS/NEXUS/BRIEFS_MAP.md           21,224 B    65% of budget    (whole \u00b7 NEXUS:15a)\n  \u2705 AGENTS/NEXUS/PREDICTIONS_MONITOR.md   19,208 B    59% of budget    (whole \u00b7 NEXUS:15a)\n  \u2705 AGENTS/NEXUS/brief_fallback_log.tsv   16,049 B    49% of budget    (whole \u00b7 NEXUS:9a)\n  \u2705 AGENTS/NEXUS/CONFIRMED.md            10,464 B    32% of budget    (whole \u00b7 NEXUS:15a)\n  \u25a3 AGENTS/NEXUS/inbox/*.md                   \u2014  declared `whole` \u00b7 CLASS row matched 0 files today (142 files matched historically) \u2014 correctly quiet, not counted  (NEXUS:4)\n  \u25a3 AGENTS/*/NEXUS_BRIEF.md                      declared `whole` \u00b7 CLASS row \u2014 cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 28 member(s) measured, 0 over budget, 0 over the CAP, largest 26,968 B (83% of budget)  (NEXUS:6)\n      \ud83d\udfe1 AGENTS/VULCAN/NEXUS_BRIEF.md         26,968 B    83% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 NEXUS:6)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 4,184 MORE B to finish rotating. \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n      \ud83d\udfe1 AGENTS/OSPREY/NEXUS_BRIEF.md         26,024 B    80% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 NEXUS:6)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 3,240 MORE B to finish rotating. \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n      \u2705 AGENTS/REGINALD/NEXUS_BRIEF.md       24,050 B    74% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,266 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 362 B.\n      + 25 member(s) all under 70% of budget (<22,785 B)\n  \u25a3 AGENTS/*/STATUS.md                           declared `whole` \u00b7 CLASS row \u2014 cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 40 member(s) measured, 0 over budget, 0 over the CAP, largest 28,506 B (88% of budget); 1 member(s) also matched by another manifest row, graded there  (NEXUS:6)\n      \ud83d\udfe1 AGENTS/SAM/STATUS.md                 28,506 B    88% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 NEXUS:6)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 5,722 MORE B to finish rotating. \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n      \ud83d\udfe1 AGENTS/OSPREY/STATUS.md              25,711 B    79% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 NEXUS:6)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 2,927 MORE B to finish rotating. \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n      \ud83d\udfe1 AGENTS/REGINALD/STATUS.md            24,831 B    76% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 NEXUS:6)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 2,047 MORE B to finish rotating. \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n      \u2705 AGENTS/MARCO/STATUS.md               24,248 B    74% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,464 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 164 B.\n      \u2705 AGENTS/CREED/STATUS.md               24,217 B    74% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,433 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 195 B.\n      \u2705 AGENTS/LABOR/STATUS.md               24,117 B    74% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,333 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 295 B.\n      \u2705 AGENTS/OZK/STATUS.md                 24,042 B    74% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,258 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 370 B.\n      \u2705 AGENTS/WAL/STATUS.md                 24,031 B    74% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,247 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 381 B.\n      \u2705 AGENTS/AEOLUS/STATUS.md              23,768 B    73% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 984 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 644 B.\n      \u2705 AGENTS/CORAL/STATUS.md               23,728 B    73% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 944 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 684 B.\n      \u2705 AGENTS/BROCK/STATUS.md               23,658 B    73% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 874 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 754 B.\n      \u2705 AGENTS/SHADE/STATUS.md               23,497 B    72% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 713 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 915 B.\n      \u2705 AGENTS/OTTO/STATUS.md                23,427 B    72% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 643 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 985 B.\n      \u2705 AGENTS/DAEDALUS/STATUS.md            23,134 B    71% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 350 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 1,278 B.\n      \u2705 AGENTS/LIQUID/STATUS.md              22,962 B    71% of budget    (whole \u00b7 NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 178 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 1,450 B.\n      + 25 member(s) all under 70% of budget (<22,785 B)\n  \u25a3 AGENTS/NEXUS/inbox/WALTER/*.md            \u2014  declared `whole` \u00b7 CLASS row matched 0 files today (99 files matched historically) \u2014 correctly quiet, not counted  (NEXUS:7)\n  \u25a3 AGENTS/NEXUS/analysis/*.md                   declared `whole` \u00b7 CLASS row \u2014 cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1 member(s) measured, 0 over budget, 0 over the CAP, largest 21,537 B (66% of budget)  (NEXUS:15a)\n      1 member(s) all under 70% of budget (<22,785 B)\n  \u25e6 scripts/read_cap_check.py         123,510 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:0a)\n  \u25e6 PROME/GATES.tsv                    69,018 B  declared `grep` \u2014 not cap-bearing, not counted  (NEXUS:0b)\n  \u25e6 AGENTS/NEXUS/analysis/*.md                \u2014  declared `scoped \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (NEXUS:0b)\n  \u25e6 AGENTS/*/STATUS.md                        \u2014  declared `summary \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (NEXUS:6,9c)\n  \u25e6 AGENTS/*/NEXUS_BRIEF.md                   \u2014  declared `summary \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (NEXUS:6,9c)\n  \u25e6 PROME/STATUS.md                    14,872 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:6,9c)\n  \u25e6 BOARD/SIG-W-*.md                          \u2014  declared `scoped \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (NEXUS:7)\n  \u25e6 AGENTS/NEXUS/board_log.tsv         67,702 B  declared `grep` \u2014 not cap-bearing, not counted  (NEXUS:7)\n  \u25e6 scripts/corrections_boot_check.py  46,689 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:7a)\n  \u25e6 AGENTS/NEXUS/                             \u2014  declared `grep \u00b7 directory` \u2014 not cap-bearing, not counted  (NEXUS:9b)\n  \u25e6 scripts/orphan_check.sh             4,380 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:16)\n  \u25e6 scripts/consumer_check.py          63,038 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:16)\n  \u25e6 scripts/claim_check.py             29,439 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:16)\n  \u25e6 scripts/memory_index_check.py      41,274 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:16)\n  \u25e6 scripts/check_memory_length.sh      3,158 B  declared `summary` \u2014 not cap-bearing, not counted  (NEXUS:16)\n  \u2139\ufe0f ADVISORY: CLASS row `AGENTS/NEXUS/inbox/*.md` (NEXUS:4) declared `whole` matched 0 files today (142 files matched historically) \u2014 correctly quiet, not counted\n  \u2139\ufe0f ADVISORY: CLASS row `AGENTS/NEXUS/inbox/WALTER/*.md` (NEXUS:7) declared `whole` matched 0 files today (99 files matched historically) \u2014 correctly quiet, not counted\n\u2705 READ-CAP 0 [NEXUS]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (75 measured, 15 declared-not-counted). Perimeter = the desk's own declaration, not a scan.\n  \u2139\ufe0f  charter AGENTS/NEXUS/CLAUDE.md = 70,679 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\n\u2139\ufe0f  READ-CAP ADVISORY [NEXUS]: 2 reading(s) this check will NOT adjudicate (above). \u26d4 These do NOT affect rc \u2014 the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=NEXUS reads=75 over_budget=0 over_cap=0 manifest_defects=0 advisories=2 generated_flagged=0 rotation_due=5 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=70679\n",
+      "stderr": ""
+    },
+    "orphan": {
+      "returncode": 0,
+      "stdout": "\u26a0\ufe0f  uncommitted files outside AGENTS/NEXUS/:\n     [likely YOURS] AGENTS/GIBBS/NEXUS_BRIEF.md\n     [likely YOURS] PROME/inbox/2026-10-19_from-NEXUS_morning-continuation-publication-and-persistence.md\n     [likely YOURS] PROME/inbox/2026-10-19_from-NEXUS_morning-independent-work-and-publication-pending.md\n     [not yours]    AGENTS/BROCK/inbox/2026-10-19_from-GIBBS_canonical-NDFI-consumed.md\n     [not yours]    AGENTS/LIQUID/inbox/2026-10-19_from-GIBBS_custody-brokerage-deposits.md\n     [not yours]    AGENTS/REGINALD/inbox/2026-10-19_from-GIBBS_first-owner-Q3-context.md\n     [not yours]    AGENTS/WALTER/LAST_COMPLETION.md\n     [not yours]    AGENTS/WALTER/MEMORY.md\n     [not yours]    AGENTS/WALTER/SESSION_LOG.md\n     [not yours]    AGENTS/WALTER/registry/BATCH_MANIFEST.tsv\n     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq-excerpt.html\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.html\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.pdf\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss-excerpt.html\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.html\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.pdf\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-volta-bloomberg.html\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/hans-cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-19_morning/closeout/\n     [not yours]    HEARTBEAT.md\n     [not yours]    PROME/BRIEF.md\n     [not yours]    PROME/DOCKET.tsv\n     [not yours]    PROME/GATES.tsv\n     [not yours]    PROME/HANDBOOK.md\n     [not yours]    PROME/HANDOFF.md\n     [not yours]    PROME/SCRATCH.md\n     [not yours]    PROME/STATUS.md\n     [not yours]    PROME/WILL_QUEUE.md\n     [not yours]    PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-19.md\n     [not yours]    PROME/archive/SCRATCH_ROTATED_2026-10-19_morning.md\n     [not yours]    PROME/inbox/2026-10-19_from-GIBBS_morning-first-owner-PARTIAL.md\n     [not yours]    PROME/inbox/2026-10-19_from-WALTER_morning-bounded-interruption.md\n     [not yours]    PROME/plans/2026-10-19_heartbeat-33rd-rebase-PLAN.md\n     [not yours]    PROME/proposals/2026-10-19_bookmark-pilot-review-PROPOSAL.md\n     [not yours]    PROME/proposals/2026-10-19_credit-successor-PROPOSAL.md\n     [not yours]    PROME/registry/WQ_EXPLAINERS.tsv\n     [not yours]    PROME/registry/WQ_LEDGER.crc\n     [not yours]    PROME/registry/WQ_LEDGER.tsv\n     [not yours]    PROME/reports/2026-10-19_L728-digest-receipt/\n     [not yours]    PROME/reports/2026-10-19_heartbeat-rebase/\n     [not yours]    PROME/reports/2026-10-19_morning-boot.md\n     [not yours]    PROME/state/ORCH_INFLIGHT.md\n     [not yours]    PROME/state/ORCH_LOG.tsv\n     [not yours]    PROME/state/board_consumed.tsv\n     [not yours]    PROME/state/board_cursor.txt\n     [not yours]    PROME/tasks/2026-10-19_morning/\n     [not yours]    memory/2026-10-19.md\n\n\ud83d\udd34 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.\n   If you do not commit them they never reach the recipient, and the recipient\n   is never told anything was sent. Committing files you authored into another\n   agent's inbox is the ONE sanctioned exception to the pathspec rule.\n\n   git add <paths> && git commit <paths> -m \"NEXUS -> <recipient>: <what>\"\n\n\u2139\ufe0f  The [not yours] entries are someone else's work \u2014 do NOT commit them.\n   Flag to PROME (or Will) rather than sweeping them into your commit.\n",
+      "stderr": ""
+    },
+    "vix_integer_run": {
+      "upper_edge_hundredths": 1841,
+      "last_two": [
+        {
+          "date": "2026-10-15",
+          "value": "16.46"
+        },
+        {
+          "date": "2026-10-16",
+          "value": "19.99"
+        }
+      ],
+      "max_run_in_source_rows": 1,
+      "current_run": 1,
+      "m04": "HELD26",
+      "split": "HELD20/47/33",
+      "new_letter": false
+    },
+    "dfii10": {
+      "cell15": "NOT_DISPLAYED",
+      "formal_grade": "PENDING",
+      "reanchor": "PENDING"
+    },
+    "inbox": {
+      "before": 16,
+      "after": 0,
+      "tracked_inputs_unchanged": [
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-001-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-001-handoff.md",
+          "sha256": "61a7b9973739c8f7aa5c2c0ac45b9d039b1cacf842aeb630dde2eb502ce2141f"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-002-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-002-handoff.md",
+          "sha256": "c1752ee32a46dfcd1c5d2d5518034156fefacb825b506d4469042a0776fc4fea"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-003-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-003-handoff.md",
+          "sha256": "224c4733717413fb3c0fdf367f56a08e3c30e2d3a4fa15bbabd4d28e37c96f14"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-005-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "sha256": "9df3f76aeaee844d06eacb41ad44b50881dd23a3fa7001b89ec6ea9ca5b3b33e"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-007-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-007-handoff.md",
+          "sha256": "fc7cc0ab34b19f6a0ce795c902c7c2c1df6ac9d0b72693eaf79cba78ebe15a38"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-015-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-015-handoff.md",
+          "sha256": "34ab4eeb7b427f1ceefceb0060e806881b790f8155f2dc1d4a0536a42978da64"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-018-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-018-handoff.md",
+          "sha256": "65b50cdabcab09ae1ba9d1feae5c607c57d13001bcbe69bc3f72b15a4108d05c"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-021-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-021-handoff.md",
+          "sha256": "83bc879732a1bda1d6b7db9e7872abe6621e5b35f3dce805aea10b0698358caa"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-022-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-022-handoff.md",
+          "sha256": "ace14ad7b704c64d6e31f626702f66d2500faa7174c42af3086e9c9356a6045c"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-023-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-023-handoff.md",
+          "sha256": "d668b519c72ff8ac215b347af64c2a318cb9d7e4826f9cfaa516d2218ba75321"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261015-024-handoff.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-024-handoff.md",
+          "sha256": "1ebaff71203b01bf5bd3ba978e71880f07765793d7f6212c4355a8bae12a62cf"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261016-028.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261016-028.md",
+          "sha256": "49f1d9f34469085469a75f04a0bc25bdbe3a825ae91c62fe4f5459a1b3c4bfc3"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261016-029.md",
+          "destination": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261016-029.md",
+          "sha256": "c724741eb4887a8059dee806676100385325a4d04bc4f83cd766b91612c88643"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/2026-10-15_from-PROME_L651-CRMT-bridge-7-STD-10-22-for-T-15.md",
+          "destination": "AGENTS/NEXUS/inbox/processed/2026-10-15_from-PROME_L651-CRMT-bridge-7-STD-10-22-for-T-15.md",
+          "sha256": "e0c1c181ea1f20bd55ca3e90b5bf403deab45db1ce0e88ba2f293ae28242818d"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/2026-10-15_from-PROME_WQ401-APPROVE-S1-build.md",
+          "destination": "AGENTS/NEXUS/inbox/processed/2026-10-15_from-PROME_WQ401-APPROVE-S1-build.md",
+          "sha256": "e3e5710cb888ab9d1f6a119ec6e1c68e7ec9239dee312bfe091dc08780cd1229"
+        }
+      ],
+      "new_handoff_recorded": true,
+      "duplicate_signal_dispositions": 0
+    },
+    "cross_surface": {
+      "status_lines": 145,
+      "m04": "one close, no run fire",
+      "predictions_header": "matches",
+      "confirmed": "unchanged/no affected confirmed row",
+      "legacy_vix_copies": "RETAINED-HISTORY: explicit dates, prior-session blocks or initial-read banner",
+      "legacy_m06_copies": "RETAINED-HISTORY; current withdrawal already applied",
+      "inbox_claim": "prior prospective completion corrected to verified16-to0"
+    },
+    "new_artifact_paths": {
+      "AGENTS/NEXUS/research/2026-10-19_continuation_record.md": "EXISTS",
+      "AGENTS/NEXUS/research/2026-10-19_continuation_freshness.tsv": "EXISTS",
+      "AGENTS/NEXUS/research/2026-10-19_publication_check/receipt.json": "EXISTS",
+      "PROME/inbox/2026-10-19_from-NEXUS_morning-continuation-publication-and-persistence.md": "EXISTS"
+    }
+  },
+  "skipped": {
+    "full_brief_loop": "saved bounded assignment, no subagents authorized",
+    "9a": "due10/27",
+    "15a": "no full-file rewrite/rotation",
+    "root1c": "no new threshold/band/split superseded; previous M06 consumer run retained",
+    "root1c-bis": "noLEDGER_GLOB",
+    "root1d": "no memory written",
+    "push": "explicit original task and fresh handoff reserve reviewed delivery to PROME"
+  },
+  "coordination": {
+    "independent_prome_discovery": "UNAVAILABLE",
+    "live_notice": "UNVERIFIED",
+    "recipient_consumption": "UNVERIFIED",
+    "explicit_closeout_exchange": "UNVERIFIED",
+    "no_alternate_transport": true
+  }
+}

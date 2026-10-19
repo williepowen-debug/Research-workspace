@@ -1,5 +1,7 @@
 # NEXUS — October 19 morning: credit remains uneven; no new split fire
 
+> **Earlier-window record:** publication checks below retain their initial-read vintage. Later source-publication and persistence results → `research/2026-10-19_continuation_record.md`; current synthesis → STATUS.md.
+
 The split stays **Break 20 / Grind 47 / Unresolved 33**. Published rates and volatility cells do not fire NEXUS's letters. The real-yield window is arithmetically certain to end without a verdict, but its last observation has not returned at FRED; the formal grade and new anchor wait. LIQUID finished its funding test: no reserve-channel loop was observed, with other funding channels outside the test. Consumer attribution remains unsupported by the two delivered reads, with OTTO still owed. The credit successor is ready for Will's decision, subject to the limitations below. M-06's unsupported 41% is withdrawn rather than carried as an estimate.
 
 ## Published cells and letter dispositions

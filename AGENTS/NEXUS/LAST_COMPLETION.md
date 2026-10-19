@@ -1,14 +1,18 @@
 # NEXUS — LAST COMPLETION
 
-## 2026-10-19T09:31:19-04:00 — NEXUS morning scoped owner pass — STANDARD
+## 2026-10-19T10:30:01-04:00 — morning assignment + fresh window — STANDARD
 
-Runtime Codex; identity `/root/nexus_morning`; repository `/home/willi/Research-workspace`. Parent selected gpt-6.1-sol; exact runtime model not independently exposed. Root/local instructions explicitly read. No subagents, pull/stash/reset/push. Source DNS failures retried by approved escalation; no pending approval.
+OpenAI Codex `/root`; exact model/window UUID UNKNOWN. Root/local/task/runtime instructions read. Saved18-file research=471fba11d (prior0b2be90c9); no replay, subagents or pull/stash/reset/rebase/push. Shell/web available; independent PROME discovery/messaging unavailable.
 
-L558 successor v2.1 already reviewed: guarded HY recommendation unchanged, refreshed gate PASS; live-only FAIL. L13 formal C#1/L₂ awaits published10/16 cell (latest initial pull10/15); M-04 two-close rule held. LIQ-07 S2 consumed. L708 OTTO missing. L11 August−$4.828B raw NV; allowance ambiguity preserved. M-06 number withdrawn. L639/WQ401 ruling recorded; PROME L730 builds.
+L558/WQ459: v2.1 reviewed; guarded-HY gate PASS, live robustness FAIL; admission rider unmet pending Will. M-06 number withdrawn; LIQ-07 S2 consumed; L708 OTTO absent (879874556). L11 raw August−$4.828B NV/M-10 held25; history search did not settle allowance; no terminal MISS/new question/renewal. WQ401 recorded; PROME L730 builds.
 
-Files/evidence: `research/2026-10-19_morning_synthesis.md`, `research/2026-10-19_WQ342_review.md`, refreshed grid/receipt, STATUS/PREDICTIONS, board_log15 rows, four correction receipts, S1 design ruling note. Whole inbox15→0 after integration commit and consume moves. Full fleet freshness saved; owner commits not used in this scoped read deferred to next full matrix pass. Prior dated domain marks unchanged. No full re-sweep claimed; no original letter altered.
+FRED: VIX19.99 [10/16] after16.46 [10/15] ⇒ M-04 UP1-of-2,26 HELD; board18 breached. DFII10 through10/15 ⇒ C#1/L₂ pending cell15, no proxy. Split20/47/33 HELD;10/20 L554 backstop.
 
-Controls: weekday check clean; corrections check and read-cap/orphan/freshness at commit. State changes propagated STATUS↔PREDICTIONS; CONFIRMED unchanged (no affected row). Residue in preserved letters/prior completion blocks is RETAINED-HISTORY. Promotion: none this pass. Skipped: full brief loop/digest (bounded task/no subagents);9a not due;15a no existing full-file rewrite; root1c no fleet-cited figure superseded (own Conf withdrawal);1c-bis noLEDGER_GLOB;1d no memory. Await published cells, OTTO via PROME, Will decision, L11 interpretation, and explicit full-closeout ask. No push per task.
+Files/evidence → research/2026-10-19_continuation_record.md, continuation_freshness.tsv, continuation_controls.json and publication_check/receipt.json; STATUS/PREDICTIONS/board_log, earlier synthesis vintage banner. Prior15 integrated inputs git-mv filed; fresh handoff logged/filed: **physical16→0**. Two self-authored PROME packets persisted. Shared work untouched; GIBBS/NEXUS_BRIEF orphan label false positive.
+
+Controls recorded before commit: weekday/corrections/read-cap/orphan, unchanged15 input bytes, integer VIX run check. State propagated; no CONFIRMED row affected. Older datedVIX/M06/delivery states RETAINED-HISTORY; prospective inbox completion RESIDUE corrected. No letter/rule change; no0b correction. Promotion none. Skipped: digest loop (bounded task);9a10/27;15a no rewrite/rotation;root1c no new threshold/band/split superseded (priorM06 check saved);1c-bis noLEDGER_GLOB;1d no memory.
+
+Local persistence in introducing commit; **push deferred to PROME**. Consumption/explicit closeout exchange unverified. Next: FRED cell15/nextVIX, OTTO via PROME, WQ459, L11 reconciliation, L630 wording, L730 acceptance. Delivery: PROME/inbox/2026-10-19_from-NEXUS_morning-continuation-publication-and-persistence.md.
 
 ---
 
