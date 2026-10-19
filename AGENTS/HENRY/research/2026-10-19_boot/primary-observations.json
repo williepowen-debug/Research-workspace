@@ -1,0 +1,31 @@
+{
+  "retrieved_at": "2026-10-19T17:47:43-04:00",
+  "retrieval": "web tool primary pages succeeded, shell BLS captures HTTP403",
+  "CPI": {
+    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "release": "2026-10-14 08:30 ET",
+    "period": "September2026",
+    "headline_mom_sa": 0.6,
+    "headline_yoy_nsa": 3.7,
+    "core_mom_sa": 0.3,
+    "core_yoy_nsa": 2.6,
+    "prior_headline_mom": 0.4,
+    "prior_headline_yoy": 3.4,
+    "prior_core_mom": 0.3,
+    "prior_core_yoy": 2.4,
+    "gasoline_mom": 9.1
+  },
+  "PPI": {
+    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "release": "2026-10-15 08:30 ET",
+    "period": "September2026",
+    "FD_mom_sa": 1.3,
+    "FD_yoy_nsa": 6.3,
+    "prior_FD_mom_revised": 0.5,
+    "prior_FD_yoy_revised": 5.6,
+    "ex_food_energy_trade_mom": 0.5,
+    "ex_food_energy_trade_yoy": 5.0,
+    "services_mom": 0.8
+  },
+  "credit_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+}

@@ -50,17 +50,18 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-08T08:25:56-04:00, PROME WQ-389 due-row wake (Claude Code desk spawn, `prome-fc`)
+### CHANGES SINCE — 2026-10-19, Will-directed Codex boot
 
-- **L612 GRADED:** Sept ISM Services first print 54.9 / activity 56.5 / orders 59.8 / employment 50.1 / deliveries 53.2 / prices 74.0 (ISM PDF `rain202609svcs.pdf`, ismworld.org; the HTML page is reCAPTCHA-walled, the PDF under `globalassets/pub/research-and-surveys/rob/nmi/` is not). HEN-48–56 RESOLVED: 7 HIT / 2 MISS (activity range, headline >55.4). Graded ~64h late — disclosed; evaluator-timing reading open for PROME. GRADE.md in `research/2026-10-08_ISM-services-september-grade/`. KB ML-HEN-177.
-- **Gamma 10/8 pre-open:** POS both horizons, flip 7,746–7,750, spot 7,801.77 [10/7 close]; walls withheld. PUBLISHED.tsv rows annotated (gamma_flip.py appends on its own when run directly; boot.py does not).
-- **Rates:** Treasury official 30Y 5.67 [10/7] = high of the 2023→ Treasury par window (n=942). 30Y real 3.36 [10/7] is NOT a high — 3.37 [10/5]; HEARTBEAT's "NEW CYCLE HIGH" tag is false and was routed to PROME. 10Y BE flat 2.36 all sessions. Oct hike ~20% [ZQX26 96.07, 10/8].
-- **Credit:** HY 303 [10/6] back under the 320 yellow; CCC 1,214, gap 1,029 (+61/5d): the tail widened under a tighter index.
-- **Inbox:** 19 logged (16 WALTER + 2 top-level + late −015); all 19 git-moved by explicit name (−015 after WALTER committed it in 4608a0e78). WALTER −009 carries a wrong weekday ("Tue 10/14", but it is Wed) — packeted. BOND co-signed FORUM-7 on 10/2 (KB-BND-389) — HEN-47 receipt added.
-- STATUS superseded blocks → STATUS_COLD §ROT-10/8 verbatim. MARKET_DATA 10/7 row appended.
+- Current gamma NEG at14d/35d, flip7756–7762 versus SPX7690.73 (after-close retrieval17:44–17:46ET). Walls WITHHELD;14d ties/cross-horizon disagreement. Not Monday-open reconstruction. OI vintage not certified.
+- Credit FRED10/16:HY331/BB203/CCC1297, gap1094. HY325→323→331 completes three>320; owners grade. LIQ-07 S2: no reserve-channel loop observed, not no loop.
+- Monday S&P rebound narrow (vendor325/503down), but Nasdaq participated; RSP positive weeks10/9+10/16 and5/20session gains refute uninterrupted narrowing. Historical narrowing proxy is not crash timing; company refinancing causality incomplete. WALTER's dated sources/caveats in STATUS/INTAKE.
+- CPI/PPI September primaries recovered via web. CPI0.6/3.7,core0.3/2.6;PPI1.3/6.3,exFET0.5/5.0. August PPI revised0.5/5.6. Shell BLS403. KB178/179, MACRO.md. Consensus partly missing; daily reactions are not release-only causes.
+- WQ-392 ENCODED: F1 matchedDecemberHOZ26*42−CLZ26,10/15–11/19, same BRENT published basis as WQ-386.95/90.16 unchanged; F1 current UNKNOWN, no current qualified settlement. F3 spent, successor not now. Roll caveat preserved. KB180; ruling verified4fe63451b/PROME row392.
+-129 inbox packets logged/read and git-moved (118WALTER+11root).29 named correction receipts scoped NO-OP on current wrong-carrier scan; check rc0. Cold history not certified. Deferred10/15−002 exchange-primary halt verification and−010 tanker cyberattack article, with no dependent grades. All details in research/2026-10-19_boot/INTAKE.md.
+- Startup pull deferred: other desks dirty. Cross-runtime discovery/notification unverified, consumption UNKNOWN. No helpers. Original STATUS preserved verbatim in boot research. No trade, probability or threshold changed.
 
 ### NEXT SESSION
 
-1. **Fri 10/9 close:** grade RSP week 8 (< $209.73 continues the streak; 210.60 [10/7]). **Wed 10/14:** Sept CPI is a HENRY-owned release — log actual/consensus/prior/reaction; F1 November basis ends (HEN-46). Thu 10/15 PPI.
-2. Re-pull gamma pre-open at the next wake (both horizons; walls only if they agree). ACM 10/1–10/7 cells are owed; HEN-46 F1 crack not re-measured by me (BRENT's $105.82 estimate [10/7]).
-3. If PROME rules the late-grade reading as evaluator-timing, flip HEN-48–56 to NO-VERDICT and keep the observed values. Carry-ins: real-yield letter, KRE Muse, CLAUDE.md KB count (now ML-HEN-177), DGS30 coverage, TLT −013 verification, wall cross-horizon gap E2.
+1. Refresh gamma before market use. Recover qualified current December F1 reading from BRENT's published basis; do not reuse November state. AAL/LUV lateOctober issuer dates unverified here. F2/F4/F5 need their original evidence; latestAAL11.68 is not a path test.
+2. Official nominal/real/ACM refresh; full macro consensus/reaction source gaps. FOMC10/27–28/ECI10/30 carried calendar; verify primary before scheduling. WATT earliest re-test≥10/22 belongs to WATT.
+3. Carry late ISM-grade evaluator-timing ambiguity (7HIT/2MISS reported~64h late, wide ranges weak evidence). Other carry-ins: unregistered real-yield letter,KRE Muse,DGS30 history,TLT flow source,wall cross-horizon software gap. None silently cleared.

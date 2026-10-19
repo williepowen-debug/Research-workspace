@@ -1,0 +1,9 @@
+# September inflation catch-up — October19,2026
+
+1. **Consumer prices:** September CPI+0.6%m/m SA and+3.7%y/y NSA versus August+0.4%/+3.4%; core+0.3%/+2.6% versus+0.3%/+2.4%. Gasoline+9.1%m/m supplied over half the headline increase. Core firmness survives stripping energy out; an oil-to-core causal mechanism does not follow from the headline.
+2. **Producer prices:** FD+1.3%m/m SA/+6.3%y/y NSA, ex-food/energy/trade+0.5%/+5.0%. Services+0.8%; energy explains >80% of the goods increase. August is now+0.5%/+5.6%, revising first-print+0.4%/+5.4%. The standing PPI red level>0.6 is exceeded, without adding a sustain clause.
+3. **Market reaction has two clocks:** BOND's CPI release-window10Y+7.3bp in2minutes later retraced; WALTER's SPX−1.11%day is a daily result. PPI-day10Y~5.05% at10:04ET was a flight-to-quality relay during Asian stress; SPX+0.31%/KRE+1.77% at the close. Neither is a clean release-only experiment.
+4. **Forecast/grade limits:** headline CPI consensus3.6%y/y is AP secondary via WALTER, not a newly recovered consensus panel. Remaining CPI/PPI consensus unavailable in this boot. No new HENRY forecast was registered or graded retrospectively. RED owns FT-08; its September composition leg NOT MET is retained.
+5. **Read:** inflation constrains easing, but risk-off shocks can still rally duration. Today's official real-yield/term-premium decomposition was not refreshed. Do not keep October8's bond-driver attribution current by implication.
+
+Primary pages read October19 through web tools: [BLS CPI](https://www.bls.gov/news.release/cpi.nr0.htm), [BLS PPI](https://www.bls.gov/news.release/ppi.nr0.htm). Structured observed fields:primary-observations.json. Shell BLS attempts403; no raw successful shell capture claimed. Reactions are attributed owner/vendor relays:WALTER10/14−017/−018,10/15−003/−024. Original CPI release10/14 08:30ET; PPI10/15 08:30ET.

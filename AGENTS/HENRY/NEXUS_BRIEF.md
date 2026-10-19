@@ -1,20 +1,16 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-10-08T08:26:17-04:00 — after the final STATUS write (PROME WQ-389 wake). Prior fold (10/4 ISM adoption) is superseded; history in git.
+**Owner fold:** 2026-10-19T17:52:59-04:00 after the final STATUS write. OpenAI Codex boot; current tape17:44ET,35d gamma~17:46ET. Prior October8 basis is historical.
 
-## VIEW
-September services **did not confirm strong demand** (activity 56.5, −5.2) but **did confirm both hawkish legs**: employment 50.1 (back over 50) and prices 74.0 (highest since Jul-2022). The bond market agrees: official 30Y 5.67 [10/7] is the high of the 2023→ Treasury par window, on real yield, with the 10Y breakeven flat at 2.36 every session. Equity is calm. The credit tail widens under a tighter index.
+**View:** equity amplification risk has risen and broad HY now accompanies the weak tail. Monday's narrow S&P rebound coexists with recent equal-weight recovery and Nasdaq participation. No established systemic funding cascade or reliable crash timer.
 
-## GRADED (DOCKET L612)
-HEN-48–56 against the 10/4 frozen letter: ranges 5/6 HIT (business activity MISS), directions 2/3 HIT (headline >55.4 MISS). ⚠️ **Graded ~64h after the letter's chosen 10/5 16:00 deadline** (disclosed; a strict evaluator-timing reading makes all nine NO-VERDICT, open for PROME). ⚠️ The ranges were wide (17/24 prior cells inside), so 5/6 is weak skill evidence. The market map was never registered: reaction is observation only (a ~1bp yield dip, round-tripped in 30 min). Detail: `research/2026-10-08_ISM-services-september-grade/GRADE.md`.
+- **Gamma:**SPX7690.73 below14d flip~7756/35d~7762,NEG both. Cboe-chain free-tier proxy,3407/7369contracts;GEX−$41.2/−$53.1B per1% assumption-dependent. Walls WITHHELD. OI vintage not separately certified;after-close read,not Monday-open reconstruction. Refresh before use.
+- **Credit:**HY331/BB203/CCC1297bp[FRED10/16],gap1094. HY325→323→331 meets3observations>320;RED/REGINALD own execution. No bank-loss attribution. LIQ-07 ownerS2 says no reserve-channel loop observed,not no loop.
+- **Breadth:**vendorOctober19 close176up/325down/2flat among503current-SPY securitylines;SPY+0.439/RSP−0.332%;QQQ+1.206/QQEW+1.164%;IWM+0.314%. Not official membership/exchange census. Through10/16,RSP+0.49%/5sessions,+1.23%/20;positive weeks10/9+10/16 end prior decline run. Historical42formation proxy:smaller average gains after narrowing,not higher10%drawdown frequency;four examples are separate. Refinancing causality unfinished,not established. WALTER−015–018 limits retained.
+- **Macro:**BLS September CPI+0.6%m/m/+3.7%y/y,core+0.3/+2.6;PPI+1.3/+6.3,exFET+0.5/+5.0,services+0.8. August PPI revised+0.5/+5.6. Energy drives much headline pressure;RED's September oil-to-core conjunction NOT MET. Reactions split by clock/shock. No fresh official real-yield/ACM decomposition or current Fed odds.
+- **HEN-46:**WQ-392 ENCODED:matchedDecemberHOZ26×42−CLZ26,10/15–11/19,same BRENT published basis asWQ-386.95/90.16unchanged,F3SPENT,no successor. Current qualified December F1 UNKNOWN. At ruling December about$5 under November and<95 on7/26versus1/26sessions,single-vendor NOT CME. One roll is comparable to the whole separation.
+- **Power:**WATT's10/15dated read:IRAS core rejection removes proposed tariff burden,not PPAs/physical expense;October13–14emergency at~108GW;hedged share/cost amount unknown. No quantified HENRY FCF revision.
 
-## CURRENT BASIS (dated)
-- **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above. Walls WITHHELD (near-tie and cross-horizon disagreement). +GEX cushions a level move, not a duration shock.
-- **Rates [Treasury 10/7]:** 2Y 4.77 · 10Y 5.28 · 30Y 5.67 · 10Y real 2.92 · 30Y real 3.36. ⛔ **3.36 is NOT a cycle high: 3.37 on 10/5.** Oct +25bp ≈ 20% [ZQX26 vendor 10/8, ±2pp]; minutes = a conditional year-end hike.
-- **Credit [FRED 10/6]:** HY 303 (back under the 320 yellow) · BB 185 · CCC 1,214 · gap 1,029 (+61/5d).
-- **Vol:** VIX 15.08 [10/7 close], 15.77 pre-market 10/8; 15.01 on 10/6 missed the <15 kill leg by 0.01. Triad JOINT 0.
+**Operations:**129packets read/logged/filed;29named correction receipts scoped to live wrong-carrier scan;0overdue prediction rows. BLS primary web access succeeded,shell403. Current December settlement,official rates/ACM,full consensus,Asia exchange-primary halt and tanker-cyberattack source remain gaps. ISM evaluator-deadline ambiguity remains from October8;no probability/grade/threshold moved.
 
-## FORWARD
-Thu 10/8 30Y auction (BOND's) · Fri 10/9 RSP week-8 close (streak at risk: 210.60 vs 209.73) · Isaias landfall 10/9–10/10 · **Wed 10/14 Sept CPI (HENRY-owned)** + HEN-46 F1 November basis ends · Thu 10/15 PPI · FOMC 10/27–28.
-
-**Unchanged:** HEN-46 (ACTIVE; WQ-386 did not amend it), every threshold, gate and letter. No Will decision.
+Evidence:`research/2026-10-19_boot/{INTAKE.md,MACRO.md,CORRECTIONS.md,boot.txt,gamma35.txt}`;STATUS canonical. Next:gamma refresh/qualifiedF1/AAL-LUVlateOctober dates (unverified here);no automatic monitor or new trade. No Will decision requested.

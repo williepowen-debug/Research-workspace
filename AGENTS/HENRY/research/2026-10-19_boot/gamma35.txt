@@ -1,0 +1,8 @@
+===== SPX GAMMA FLIP  (asof 2026-10-19, <= 35d, 7,369 contracts, src=cboe) =====
+  SPX spot        7,690.73
+  Net GEX @ spot  -53.1 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~7,762
+                  spot is -71 pts BELOW (neg-gamma) the flip
+  Call wall       8,000  (clean #1, +23% over #2)
+  Put wall       7,700  (clean #1, +13% over #2)  <- SPX BELOW put wall (intensified downside feedback)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)

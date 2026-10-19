@@ -3,6 +3,12 @@
 **Owner:** HENRY (F1 is HEN-46's falsifier). **Asked by:** TERRY `7a8c291a0` (14:27) + `be312801d` (16:4x ADDENDUM). **Referent:** `PROME/GATES.tsv` `GATE-TERRY-VLO-SCALE` (WQ-282, Will 14:59 ET), "F1: ULSD crack close < $95, on the basis HENRY names". **Spawned by:** PROME `prome-f5`, Tier 1.
 **Scope:** names a BASIS. No threshold moved ($95.00 stand-down / $90.16 thesis-dead unchanged), no score changed, no trade view, $0.
 
+## Current owner amendment — 2026-10-19
+
+WQ-392 ENCODED 2026-10-19: F1 uses matched December HOZ26*42-CLZ26 from 2026-10-15 through 2026-11-19, same published BRENT crack estimate as GATE-TERRY-VLO-HELD-01 under WQ-386. $95 stand-down / $90.16 thesis-dead unchanged. November governed through10/14. One roll is comparable to the whole separation. At ruling December read about $5 below November and <95 on7/26 sessions vs1/26 November, single-vendor quotes NOT CME settlements. F3 remains SPENT with no successor now. Current qualified December settlement not recovered at this boot: F1 UNKNOWN, no automatic carry-forward of the10/7 November NOT-FIRED state. Authority: inbox/processed/2026-10-08_from-PROME_WQ-392-RULED-HEN-46-december-basis.md, committed4fe63451b and PROME/WILL_QUEUE.md row392.
+
+The September basis and validation record below is historical. Source hierarchy and near-line UNKNOWN rule remain unchanged.
+
 ## 1. THE BASIS (answer)
 
 | Leg | Named | NOT this |

@@ -4,6 +4,10 @@
 
 ---
 
+## Owner amendment — 2026-10-19
+
+WQ-392 ENCODED 2026-10-19: F1 uses matched December HOZ26*42-CLZ26 from 2026-10-15 through 2026-11-19, same published BRENT crack estimate as GATE-TERRY-VLO-HELD-01 under WQ-386. $95 stand-down / $90.16 thesis-dead unchanged. November governed through10/14. One roll is comparable to the whole separation. At ruling December read about $5 below November and <95 on7/26 sessions vs1/26 November, single-vendor quotes NOT CME settlements. F3 remains SPENT with no successor now. Current qualified December settlement not recovered at this boot: F1 UNKNOWN, no automatic carry-forward of the10/7 November NOT-FIRED state. Authority: inbox/processed/2026-10-08_from-PROME_WQ-392-RULED-HEN-46-december-basis.md, committed4fe63451b and PROME/WILL_QUEUE.md row392. Historical prices, screening and sizing below are September research, not current trade instructions.
+
 ## VERDICT FIRST
 
 **Short the AIRLINES that are still carrying a pre-squeeze fuel assumption. Do NOT short the truckers, and do NOT short DAL or UAL.**
@@ -111,7 +115,7 @@ Over **9/8 → 9/10** the ULSD crack went **$98.82 → $109.93 (+$11.11, +11.2%)
 
 | # | Falsifier | Instrument | Level / test |
 |---|---|---|---|
-| **F1** | **The squeeze normalises** | ULSD crack `HO=F×42 − CL=F`, daily close | **< $95** ⇒ stand down and re-read. **< $90.16** (the 7/23 level) ⇒ **thesis dead.** |
+| **F1** | **The squeeze normalises** | Matched `HOZ26×42 − CLZ26`, 10/15–11/19 per WQ-392; settlement hierarchy in reports/2026-09-24_F1-basis-named.md | **< $95** ⇒ stand down and re-read. **< $90.16** (the 7/23 level) ⇒ **thesis dead.** |
 | **F2** | **Jazan restarts** | **Aramco or Saudi MoE statement — primary only, no wire relay** | any CONFIRMED restart of the 400 kb/d |
 | **F3** | **Russian export ban lapses** | primary | ban expires **9/30** without extension **AND** crack < $95 within 10 sessions |
 | **F4** | **Pass-through is working after all** | carrier guidance | any of AAL/LUV **raising** FY guidance citing fare recapture — **UAL has already done exactly this**, which is why UAL is excluded, and it is the single best argument against this trade |

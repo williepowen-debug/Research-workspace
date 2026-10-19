@@ -1,0 +1,139 @@
+
+================================================================
+  HENRY BOOT KIT (v1)   ·   Monday, October 19, 2026  17:44
+================================================================
+
+────────────────────────────────────────────────────────────────
+  (a) LIVE TAPE   ·   pulled 2026-10-19 17:44:42 local
+────────────────────────────────────────────────────────────────
+  SPX          7,690.73   +0.41%
+  VIX             18.44   -7.75%
+  VIX9D           17.93   -10.88%
+  VIX3M           19.60   -4.39%
+  VVIX           106.93   -2.71%
+  SKEW           161.86   -3.99%
+  10Y              5.14   +0.75%
+  TLT             79.46   -0.74%
+  KRE             69.26   -0.79%
+  WAL             73.63   -1.18%
+  APO            110.95   +0.15%
+  ARES           113.00   +0.65%
+  Brent          109.21   -0.59%  [FUTURES BAR — not a settle]
+  USD/JPY        158.48   +0.31%
+
+  ⚠️  real-time/last quote — stamp THIS timestamp in STATUS, not 'close'.
+  ⚠️  N5 (i): Brent above is a DAILY BAR pulled after the 14:30 ET ICE settlement — it is NOT the settle. Dime precision; say 'bar' or source the settlement.
+
+────────────────────────────────────────────────────────────────
+  (b) GAMMA  ·  SPX dealer-gamma flip (gamma_flip.py, free-tier)
+────────────────────────────────────────────────────────────────
+  SPX 7,690.73 · flip ~7,756 · spot -65pts BELOW → NEG-gamma, dealers AMPLIFY
+  Net GEX -41.2B/1% · put wall 7,700 (SPX THROUGH it) · call wall 7,750   [14d, 3407 contracts, src=cboe]
+  ⚠️  NEAR-TIE on the call wall (3% over #2) — report the BAND 7,750-7,800, NOT the bare strike
+  ⚠️  NEAR-TIE on the put wall (9% over #2) — report the BAND 7,700-7,750, NOT the bare strike
+  → WALLS WITHHELD at this horizon: #1 and #2 strikes are a coin flip, so the 'wall' is a BAND, not a level. Publish the flip band only.
+  → (Separate, still unfixed: audit-E2 CROSS-horizon disagreement — run `gamma_flip.py --days 35` and withhold if 14d and 35d disagree.)
+  (free-tier: sign+flip robust, $B assumption-dependent · gamma_flip.py --days 35 for the definitive read)
+
+────────────────────────────────────────────────────────────────
+  (c) CREDIT  ·  FRED bifurcation (credit_monitor.py)
+────────────────────────────────────────────────────────────────
+  CREDIT BIFURCATION (quality BB vs distressed CCC — the K-shape)
+  BB  203bps   B-tier quality junk (healthy top)
+  HY  331bps   blended index [2026-10-16] (masks the tail)
+  CCC 1297bps   distressed tail [2026-10-16]
+  → GAP (CCC-BB) 1094bps   ratio 6.39x   Δgap 5d +29  20d +166  ~3mo +274
+  → 3mo trend: CCC +319bps  vs  BB +45bps
+  HY FUND-FLOW PROXY (ETF price / volume / vs IG)
+  HYG  $76.83   1d -0.04%   5d -0.6%   vol 0.46x20d
+  HYG/LQD (HY vs IG) 5d: -0.89%
+  ⚠ FLAGS:
+  → HY OAS 331 > 320 YELLOW — range break, bid giving way
+  → CCC-BB gap +29bps over 5d — acute tail stress
+  → BIFURCATION: CCC-BB gap +274bps over ~3mo — sustained K-shaped widening
+  → HYG/LQD -0.89% over 5d — HY underperforming IG, income bid stepping back
+
+────────────────────────────────────────────────────────────────
+  (d) PREDICTIONS-DUE SCAN  ·  as of 2026-10-19
+────────────────────────────────────────────────────────────────
+  ✓ none overdue.
+
+────────────────────────────────────────────────────────────────
+  (e) LEDGER STALENESS  ·  mtime vs 2026-10-19
+────────────────────────────────────────────────────────────────
+  ✓  workbook/PREDICTIONS.tsv     2026-10-08  (11d)
+  ❄️  workbook/VX.tsv              FROZEN (not maintained)
+  ✓  workbook/KB.tsv              2026-10-08  (11d)
+  ❄️  workbook/FLOW.tsv            FROZEN (not maintained)
+  ✓  workbook/MARKET_DATA.tsv     2026-10-08  (11d)
+  ✓  board_log.tsv                2026-10-08  (11d)
+
+  ✓ all live ledgers fresh (<14d).
+
+────────────────────────────────────────────────────────────────
+  (f) INBOX TRIAGE  ·  filenames only — this is NOT processing
+────────────────────────────────────────────────────────────────
+  🔴 2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md
+       unread 11d · 11d unread
+  🔴 2026-10-08_from-PROME_WQ-392-RULED-HEN-46-december-basis.md
+       live gate HEN-46 · 11d unread
+  🔴 2026-10-09_from-WATT_PJM-10-7-price-spike-FCF-input-unchanged.md
+       gate keyword: fcf · 10d unread
+  🔴 2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7.md
+       gate keyword: cpi · 4d unread
+  🔴 2026-10-15_from-WATT_PJM-5th-emergency-10-13-14-FCF-input-unchanged-in-kind.md
+       gate keyword: fcf · 4d unread
+  ⚪ no hit (6): from-MIDAS_China-PGM-demand-test.md, from-MIDAS_approved-maintenance.md, from-MIDAS_metals-growth-and-precious-, from-MIDAS_news-sweep.md, from-WATT_IRAS-core-rejected-WATT10-MI, from-DEWEY_ports-pike-power.md
+
+  → 5 of 11 flagged. Open flagged ONLY; the rest wait for a processing spawn.
+
+────────────────────────────────────────────────────────────────
+  (f2) WALTER LANE  ·  boot step 3a — unlogged signals, filenames only
+────────────────────────────────────────────────────────────────
+  🔴 118 unlogged signal(s) in the WALTER lane; oldest 11d.
+     Step 3a: read → append a board_log row (source=INBOX_WALTER) → git mv to processed/.
+        11d  SIG-W-20261008-019.md
+        11d  SIG-W-20261008-024.md
+        11d  SIG-W-20261008-025.md
+        11d  SIG-W-20261008-027.md
+        11d  SIG-W-20261008-030.md
+        11d  SIG-W-20261008-033.md
+        11d  SIG-W-20261008-034.md
+        11d  SIG-W-20261008-035.md
+       … and 110 more (filenames only; `ls inbox/WALTER/`)
+
+────────────────────────────────────────────────────────────────
+  (g) STALE-CONSUMER CHECK  ·  who still cites a number I superseded?
+────────────────────────────────────────────────────────────────
+  ⚠️  duplicate (metric, asof) in PUBLISHED.tsv: gamma_flip_35d_STALE @ 2026-09-04 — append order used as the tie-break; give the later row a timestamp asof to disambiguate.
+  ◦ gamma_flip_35d: scanning the 5 most recent superseded values; 14 older value(s) NOT scanned (pass them via --old to include).
+  ◦ net_gex_35d_Bn: scanning the 5 most recent superseded values; 14 older value(s) NOT scanned (pass them via --old to include).
+  ◦ gamma_flip_14d: scanning the 5 most recent superseded values; 6 older value(s) NOT scanned (pass them via --old to include).
+  ◦ net_gex_14d_Bn: scanning the 5 most recent superseded values; 7 older value(s) NOT scanned (pass them via --old to include).
+  ── gamma_flip_35d · superseded 7698, 7693, 7704, 7702, 7669 → current 7746
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (50)
+        AGENTS/MIDAS/SCRATCH.md:3  [7702]  (needle <5 sig digits)
+           **October13,2026 · Will-requested closeout of existing Codex session** `01a131e1-82c3-7702-beae-4992d53e8fd5`. ProviderOpenAI, GPT-6 family 
+        AGENTS/BROCK/LAST_COMPLETION.md:10  [7702]  (needle <5 sig digits)
+           - **NEW** `archive/STATUS_ROTATED_2026-09-21.md` — verbatim 9/18 stamp (Block A, crc32=313375049, 3,057 B) + verbatim 9/18 BOTTOM LINE (Bloc
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2844  [7702]  (needle <5 sig digits)
+           2026-09-03,Monthly,2024-06-01,2024-06-30,Metro,"West Palm Beach, FL metro area",Single Family Residential,Buyer's Market,4978,3.44,7702,28.3
+        AGENTS/MIDAS/analysis/2026-10-12_due-metals-review-held-GLD.md:69  [7702]  (needle <5 sig digits)
+           Desk MIDAS; provider OpenAI; runtime Codex; exact model identifier UNKNOWN (GPT-6 family exposed); session `01a131e1-82c3-7702-beae-4992d53e
+        AGENTS/MIDAS/analysis/2026-10-12_PGM-inventory-flow-followup.md:7  [7702]  (needle <5 sig digits)
+           Authority: `0cb6d515f:AGENTS/MIDAS/inbox/2026-10-12_from-PROME_laptop-orchestration.md` and `PROME/reports/2026-10-12_laptop-orchestration.m
+        AGENTS/MIDAS/analysis/2026-10-13_CLOSEOUT.md:5  [7702]  (needle <5 sig digits)
+           Authority: Will directly asked “Okay lets close out here MIDAS”, then repeated “Lets close out her MIDAS”. This supersedes the earlier keep-
+        AGENTS/MIDAS/analysis/BEFORE_MAINTENANCE_2026-10-12_SCRATCH.md:3  [7702]  (needle <5 sig digits)
+           **Last session:** 2026-10-12, Will-directed Codex boot and due metals review. Explicitly read root/desk CLAUDE.md, AGENTS.md, USER.md and PR
+        AGENTS/MIDAS/analysis/BEFORE_MAINTENANCE_2026-10-12_SCRATCH.md:26  [7702]  (needle <5 sig digits)
+           PROME task accepted in existing thread01a131e1-82c3-7702-beae-4992d53e8fd5 on committed0cb6d515f authority. One PGM primary inventory/fund-e
+        … +7 more 🟠 hit(s) on [7702] across 14 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/STATUS_COLD.md:928  [7704]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **↑3pp** | 09-29 | 🔑 **The arbiter I named (HENRY's board) came back NEGATIVE at 
+  … 404 more line(s) NOT SHOWN (cap 26) — rerun `python3 scripts/consumer_check.py --agent HENRY --from-ledger` for the full list.
+
+================================================================
+  boot brief done in 51.1s   (--verbose full credit · --quick skip gamma+credit · --selftest)
+================================================================
+

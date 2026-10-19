@@ -1,0 +1,63 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/HENRY/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 7750 → current 7756
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (16)
+        AGENTS/NEXUS/STATUS_COLD.md:1420  [7750]
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 09-29 | HELD. VIX **15.08** [10/7 FRED] · 15.41 [10/8 vendor close] · MOV
+        AGENTS/NEXUS/STATUS_COLD.md:1537  [7750]
+           [STATUS line 24] | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held).
+        AGENTS/NEXUS/STATUS_COLD.md:1568  [7750]
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held). VIX **15.08** [1
+        AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-HENRY-NEXUS_BRIEF.md:12  [7750]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above. 
+        AGENTS/WALTER/research/2026-10-14_resume-1449/registry-before.tsv:11  [7750]
+           HENRY	1	CC	Equities, VIX, Fed expectations, market structure	VOL,CREDIT_SPREADS,FLOWS,RATES,STAGFLATION	—	LABOR,WALTER	LIQUID,RED	RED	2026-1
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-3.md:191  [7750]
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held). VIX **15.08** [1
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-2.md:236  [7750]
+           **Last owner update:** 2026-10-08T08:25:29-04:00 — PROME WQ-389 due-row wake (`prome-fc`, Tier 1). **DOCKET L612 graded:** September ISM Ser
+        AGENTS/WALTER/research/2026-10-19_resume/status-context-5.txt:69  [7750]
+           **Last owner update:** 2026-10-08T08:25:29-04:00 — PROME WQ-389 due-row wake (`prome-fc`, Tier 1). **DOCKET L612 graded:** September ISM Ser
+        AGENTS/WALTER/research/2026-10-16_finish/prior-REGISTRY.tsv:11  [7750]
+           HENRY	1	CC	Equities, VIX, Fed expectations, market structure	VOL,CREDIT_SPREADS,FLOWS,RATES,STAGFLATION	—	LABOR,WALTER	LIQUID,RED	RED	2026-1
+        AGENTS/WALTER/research/2026-10-14_morning-news/before-REGISTRY.tsv:11  [7750]
+           HENRY	1	CC	Equities, VIX, Fed expectations, market structure	VOL,CREDIT_SPREADS,FLOWS,RATES,STAGFLATION	—	LABOR,WALTER	LIQUID,RED	RED	2026-1
+        AGENTS/WALTER/research/2026-10-14_walter-closeout/before-REGISTRY.tsv:11  [7750]
+           HENRY	1	CC	Equities, VIX, Fed expectations, market structure	VOL,CREDIT_SPREADS,FLOWS,RATES,STAGFLATION	—	LABOR,WALTER	LIQUID,RED	RED	2026-1
+        AGENTS/WALTER/research/2026-10-09_morning/desk-status-context.md:24  [7750]
+           | HENRY | 2026-10-08T08:25:29-04:00 | no | — | Sept ISM Services: soft volume, firm hiring, hot costs (stagflation-leaning); dealers long ga
+        AGENTS/NEXUS/recon/2026-10-08_coldread_status_PM_ledger.md:40  [7750]
+           | 33 | 26 | ✅ | Gamma POSITIVE; flip ~7,746–7,750; SPX 7,765.36 "closed ~15–20 pts above it" | 7,765.36 minus 7,750 or 7,746 gives 15–19. | 
+        PROME/HEARTBEAT_COLD.md:649  [7750]
+           - **HENRY's gamma board is STALE.** Last measurement 9/21 15:1xZ INTRADAY (`AGENTS/HENRY/STATUS.md` L3/L13/L34–L55): sign POSITIVE, Net GEX 
+        PROME/HEARTBEAT_COLD.md:997  [7750]
+           - **Gamma (HENRY 10/8 08:18 ET pre-open, CBOE OI 10/7 EOD; memo `…from-HENRY_L612-ISM-services-graded-gamma-drain.md`):** POSITIVE at both h
+        PROME/HEARTBEAT_COLD.md:1053  [7750]
+           - HENRY gamma [10/8 pre-open, CBOE OI 10/7]: POSITIVE both horizons, flip ~7,746–7,750 — SPENT, that session only. Breadth: the slot-5 RSP-v
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (15)
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:880  [7750]  (no unit/series context on line)
+           2026-09-03,Monthly,2017-06-01,2017-06-30,Metro,"Jacksonville, FL metro area",Single Family Residential,Buyer's Market,7750,6.63,9099,-10.02,
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:2769  [7750]  (no unit/series context on line)
+           100644 blob 2f64687d38abc0c7750d932ba8ac8ea790e2da05	PROME/inbox/processed/2026-10-02_from-BROCK_READS-reattestation-0-5b.md
+        AGENTS/WAL/sources/2026-10-13_Q2_rate-securities-hedges_extract.md:348  [7750]  (no unit/series context on line)
+           WAB | 8,667 | 7,750 | 63,395 | 93,891 | 13.7 | 12.2 | 8.3 | 11.8
+        AGENTS/WAL/sources/q1_2026/wal-20260331_text.txt:1  [7750]  (no unit/series context on line)
+           wal-20260331 0001212545 2026 Q1 FALSE --12-31 0.0025 http://www.westernalliancebancorp.com/20260331#NetGainOnMortgageLoanOriginationAndSaleA
+        AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q2_10Q-text.txt:1  [7750]  (no unit/series context on line)
+           wal-20260630 0001212545 2026 Q2 FALSE --12-31 0.0025 http://www.westernalliancebancorp.com/20260630#NetGainOnMortgageLoanOriginationAndSaleA
+        AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q1_10Q-text.txt:1  [7750]  (no unit/series context on line)
+           wal-20260331 0001212545 2026 Q1 FALSE --12-31 0.0025 http://www.westernalliancebancorp.com/20260331#NetGainOnMortgageLoanOriginationAndSaleA
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/WAL_Q2.txt:1  [7750]  (no unit/series context on line)
+           wal-20260630 Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-Q (Mark One) ☒ Quarterly Repo
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-2.md:263  [7750]  (no unit/series context on line)
+           `HENRY 2026-10-08 pre-open: flip ~7,750 (14d, 4,141 contracts) / ~7,746 (35d, 7,307 contracts), src=CBOE; spot 7,801.77 [^GSPC 10/7 close] →
+        … +7 more 🟠 hit(s) on [7750] across 15 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (1)  [--show-handled to audit]
+
+  🔴 16 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

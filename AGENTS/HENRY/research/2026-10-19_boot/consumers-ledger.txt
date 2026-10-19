@@ -1,0 +1,450 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/HENRY/   (processed/ + archive/ excluded everywhere — historical by design)
+  ⚠️  duplicate (metric, asof) in PUBLISHED.tsv: gamma_flip_35d_STALE @ 2026-09-04 — append order used as the tie-break; give the later row a timestamp asof to disambiguate.
+  ◦ gamma_flip_35d: scanning the 5 most recent superseded values; 15 older value(s) NOT scanned (pass them via --old to include).
+  ◦ net_gex_35d_Bn: scanning the 5 most recent superseded values; 15 older value(s) NOT scanned (pass them via --old to include).
+  ◦ gamma_flip_14d: scanning the 5 most recent superseded values; 6 older value(s) NOT scanned (pass them via --old to include).
+  ◦ net_gex_14d_Bn: scanning the 5 most recent superseded values; 7 older value(s) NOT scanned (pass them via --old to include).
+
+  ── gamma_flip_35d · superseded 7746, 7698, 7693, 7704, 7702 → current 7762
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (69)
+        AGENTS/MIDAS/SCRATCH.md:3  [7702]  (needle <5 sig digits)
+           **October13,2026 · Will-requested closeout of existing Codex session** `01a131e1-82c3-7702-beae-4992d53e8fd5`. ProviderOpenAI, GPT-6 family 
+        AGENTS/BROCK/LAST_COMPLETION.md:10  [7702]  (needle <5 sig digits)
+           - **NEW** `archive/STATUS_ROTATED_2026-09-21.md` — verbatim 9/18 stamp (Block A, crc32=313375049, 3,057 B) + verbatim 9/18 BOTTOM LINE (Bloc
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2844  [7702]  (needle <5 sig digits)
+           2026-09-03,Monthly,2024-06-01,2024-06-30,Metro,"West Palm Beach, FL metro area",Single Family Residential,Buyer's Market,4978,3.44,7702,28.3
+        AGENTS/MIDAS/analysis/2026-10-12_due-metals-review-held-GLD.md:69  [7702]  (needle <5 sig digits)
+           Desk MIDAS; provider OpenAI; runtime Codex; exact model identifier UNKNOWN (GPT-6 family exposed); session `01a131e1-82c3-7702-beae-4992d53e
+        AGENTS/MIDAS/analysis/2026-10-12_PGM-inventory-flow-followup.md:7  [7702]  (needle <5 sig digits)
+           Authority: `0cb6d515f:AGENTS/MIDAS/inbox/2026-10-12_from-PROME_laptop-orchestration.md` and `PROME/reports/2026-10-12_laptop-orchestration.m
+        AGENTS/MIDAS/analysis/2026-10-13_CLOSEOUT.md:5  [7702]  (needle <5 sig digits)
+           Authority: Will directly asked “Okay lets close out here MIDAS”, then repeated “Lets close out her MIDAS”. This supersedes the earlier keep-
+        AGENTS/MIDAS/analysis/BEFORE_MAINTENANCE_2026-10-12_SCRATCH.md:3  [7702]  (needle <5 sig digits)
+           **Last session:** 2026-10-12, Will-directed Codex boot and due metals review. Explicitly read root/desk CLAUDE.md, AGENTS.md, USER.md and PR
+        AGENTS/MIDAS/analysis/BEFORE_MAINTENANCE_2026-10-12_SCRATCH.md:26  [7702]  (needle <5 sig digits)
+           PROME task accepted in existing thread01a131e1-82c3-7702-beae-4992d53e8fd5 on committed0cb6d515f authority. One PGM primary inventory/fund-e
+        … +7 more 🟠 hit(s) on [7702] across 14 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/STATUS_COLD.md:928  [7704]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **↑3pp** | 09-29 | 🔑 **The arbiter I named (HENRY's board) came back NEGATIVE at 
+        AGENTS/NEXUS/STATUS_COLD.md:949  [7704]  (needle <5 sig digits)
+           | **R7 Concentration** | **Amplifier LIVE: gamma NEGATIVE both horizons [9/28]**, SPX below the 7,704–07 flip; `GATE-LIQ-076` conjunction ME
+        AGENTS/NEXUS/STATUS_COLD.md:1003  [7704]  (needle <5 sig digits)
+           | 🆕 **Gamma flip — NEGATIVE both horizons** | band 7,704–7,707; GEX −$16–17B/1% [9/28] | HENRY | 9/18 and 9/25 UNMEASURED. |
+        AGENTS/NEXUS/STATUS_COLD.md:1093  [7704]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **↑3pp** | 09-29 | **HENRY board NEGATIVE both horizons [9/28]**: flip 7,704–7,70
+        AGENTS/NEXUS/STATUS_COLD.md:1166  [7704]  (needle <5 sig digits)
+           | **Gamma NEGATIVE both horizons** | 7,704–7,707; −$16–17B/1% [9/28] | HENRY | 9/18, 9/25 UNMEASURED. |
+        AGENTS/TERRY/board_log.tsv:50  [7704]  (needle <5 sig digits)
+           2026-09-30 08:12 ET	SIG-W-20260929-004	acted	BOARD	READ IN FULL with its correction -009. HENRY 9/28-close SPX dealer gamma NEGATIVE both ho
+        AGENTS/WALTER/routed/route_log.tsv:1104  [7704]  (needle <5 sig digits)
+           2026-09-29T18:26:31Z	SIG-W-20260929-004	HENRY packet 9/28 20:44 EDT (PUBLISHED.tsv 9/28)	SPX dealer gamma NEGATIVE both horizons 9/28 close;
+        AGENTS/NEXUS/analysis/2026-09-29_one-root-or-many.md:35  [7704]  (needle <5 sig digits)
+           | 9/28 close | **dealer gamma NEGATIVE at both horizons**, SPX 7,683 below the 7,704–07 flip | HENRY: net GEX −$16–17B / 1% — *"nothing mech
+        … +4 more 🟠 hit(s) on [7704] across 7 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/STATUS_COLD.md:1253  [7693]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 09-29 | HELD. Gamma NEGATIVE both horizons again [9/30 pre-open]: flip 7,
+        AGENTS/TERRY/board_log.tsv:56  [7693]  (needle <5 sig digits)
+           2026-09-30 08:14 ET	2026-09-30_from-HENRY_gamma-read-and-F3-basis	acted	INBOX_HENRY	READ IN FULL. Fresh pre-open SPX gamma (replaces the exp
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:1378  [7693]  (needle <5 sig digits)
+           100644 blob e3abcbe7693ca08dc6af9a1ae9d6043acdd6b773	PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-17_eve.md
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:1542  [7693]  (needle <5 sig digits)
+           100644 blob 082e9433298886d1a7693b37a91798e4cc9da3d5	PROME/archive/teams_memory_audit_001/joint_decision.md
+        AGENTS/DEWEY/research/2026-10-13_diesel-final/monthly-import-next-release.txt:22  [7693]  (needle <5 sig digits)
+           L60:   1999  | 9,409  | 9,022  | 7,693  | 6,376  | 8,105  | 7,150  | 7,251  | 8,463  | 7,483  | 6,697  | 7,939  | 5,840
+        AGENTS/BROCK/research/2026-10-14_wave/jpm_supplement.txt:237  [7693]  (needle <5 sig digits)
+           Accumulated other comprehensive loss (“AOCI”)  (19,820)  (7,693)  (6,689)  (4,290)  (5,878)  (158)  (237)
+        AGENTS/NEXUS/recon/2026-10-01_coldread_STATUS.md:39  [7693]  (needle <5 sig digits)
+           1 Header stamp 2026-10-01 Thu (weekday correct) · 2 §H13 rotation pointer resolves (L1070) · 5 one re-mark = only M-08 bears 10-01 · 6 last 
+        AGENTS/TERRY/setups/QQQ730P-USO159C_sep30-disposition_2026-09-28.md:112  [7693]  (needle <5 sig digits)
+           **HENRY's gamma read (input, never a rule):** his 08:0x read had dealer gamma NEGATIVE, with spot 22–23 pt *below* the ~7,693 flip. At 11:02
+        … +5 more 🟠 hit(s) on [7693] across 10 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/STATUS_COLD.md:1420  [7746]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 09-29 | HELD. VIX **15.08** [10/7 FRED] · 15.41 [10/8 vendor close] · MOV
+        AGENTS/NEXUS/STATUS_COLD.md:1537  [7746]  (needle <5 sig digits)
+           [STATUS line 24] | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held).
+        AGENTS/NEXUS/STATUS_COLD.md:1568  [7746]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held). VIX **15.08** [1
+        AGENTS/CORAL/sources/insurance/affiliate_fee_analysis_outcome_test_2026-10-01.md:78  [7746]  (needle <5 sig digits)
+           | III.2 | Cypress P&C | single | **NOT** | "This level of fees is presumed not to be fair and reasonable" (L7826–7828) | ~21.2 (computed)/21
+        AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-HENRY-NEXUS_BRIEF.md:12  [7746]  (needle <5 sig digits)
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above. 
+        AGENTS/WALTER/research/2026-10-14_resume-1449/registry-before.tsv:11  [7746]  (needle <5 sig digits)
+           HENRY	1	CC	Equities, VIX, Fed expectations, market structure	VOL,CREDIT_SPREADS,FLOWS,RATES,STAGFLATION	—	LABOR,WALTER	LIQUID,RED	RED	2026-1
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-3.md:191  [7746]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held). VIX **15.08** [1
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-2.md:236  [7746]  (needle <5 sig digits)
+           **Last owner update:** 2026-10-08T08:25:29-04:00 — PROME WQ-389 due-row wake (`prome-fc`, Tier 1). **DOCKET L612 graded:** September ISM Ser
+        … +16 more 🟠 hit(s) on [7746] across 18 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/recon/2026-10-01_coldread_STATUS.md:28  [7693, 7704]  (needle <5 sig digits)
+           ⚠️ 61 L97: "gamma NEGATIVE … | as 9/29 | … Unchanged". M-04 (L23) gives new 9/30 marks (flip 7,693–7,694, −$11.4B/−$14.6B) that differ from 
+        AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt:254  [7698]  (needle <5 sig digits)
+           "PROPANE OPIS MT BELVIEU TET FP - ICE FUTURES ENERGY DIV",260901,2026-09-01,06641G,IFED,01,066 ,  181950,   30264,   33108,   20851,  129515
+        PROME/HEARTBEAT_COLD.md:895  [7698]  (needle <5 sig digits)
+           - **Am.#1 §5-6 as written (verbatim):** **§5-6 Equity-vol / breadth / AI:** QQQ **$749.58 (+1.02%)** = new ATH (prior close high 10/01 742.0
+        PROME/HEARTBEAT_COLD.md:949  [7698]  (needle <5 sig digits)
+           - **Breadth / gamma:** VULCAN's last board 10/2 (composite 14/25; S1 YELLOW held; RSP−SPY 63d −5.07pp = 3.7th pct; Mag-7 34.5445% [holdings 
+        PROME/state/ORCH_LOG.tsv:675  [7698]  (needle <5 sig digits)
+           2026-10-02	HENRY (henry-1002b)	2	1-SPAWN	RSP seventh-week test (close < 211.11; carried from morning HENRY session as ARMED) + Sept ISM re-r
+     🟢 cleared: marker-adjacent / next to new value / frozen file (8)  [--show-handled to audit]
+
+  ── net_gex_35d_Bn · superseded 50.8, 20.1, -14.6, -17.0, 1.6 → current -53.1
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (16033)
+        AGENTS/SELF_RULINGS.tsv:24  [17]  (needle <5 sig digits)
+           2026-09-19	OSPREY	EXIT RULES section 1, Channel 3: does 'vessel-strike incident' count ANY hull, or only a hull of the channel's own subject
+        AGENTS/SIGNALS.md:40  [17]  (needle <5 sig digits)
+           | 2026-09-03 | LIQUID | BROCK, REGINALD | 🟠 | **LATE LEDGER ROW — registered LIQUID trigger "Second private credit fund gate" (CLAUDE.md sen
+        AGENTS/CORAL/GRID_PER_METRO.md:3  [17]  (needle <5 sig digits)
+           **Built:** 2026-07-17 (CORAL) — the multi-session open build item, seeded by the ATTOM H1-2026 foreclosure print (Jacksonville named = a gri
+        AGENTS/CORAL/GRID_PER_METRO.md:11  [17]  (needle <5 sig digits)
+           ## The grid (as of 2026-07-17; 7/21 annotations below — full rebuild due after the Q2 bank prints)
+        AGENTS/CORAL/board_log.tsv:68  [17]  (needle <5 sig digits)
+           2026-09-28T14:50:52-04:00	2026-09-17_from-DAEDALUS_PR6-STATUS-regrew-to-100pct	acted	INBOX_LEGACY	ACTED both asks: (1) STATUS rotated 32,493
+        AGENTS/CORAL/board_log.tsv:69  [17]  (needle <5 sig digits)
+           2026-09-28T14:50:52-04:00	2026-09-17_from-DAEDALUS_gate-basis-sweep-1-MSI-01	acted	INBOX_LEGACY	Final recheck WITHDREW all asks (nothing owe
+        AGENTS/CORAL/board_log.tsv:70  [17]  (needle <5 sig digits)
+           2026-09-28T14:50:52-04:00	2026-09-17_from-LABOR_fl-initial-claims-minus-8pct	noted	INBOX_LEGACY	FL claims 4-wk -8.3% YoY (w/e 9/5), breadth 
+        AGENTS/CORAL/board_log.tsv:71  [17]  (needle <5 sig digits)
+           2026-09-28T14:50:52-04:00	2026-09-17_from-MARCO_the-one-FL-enrollment-figure-193656	acted	INBOX_LEGACY	ACTED: re-verified 193,656 at the OCP
+        … +13314 more 🟠 hit(s) on [17] across 1479 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/CORAL/NEXUS_BRIEF.md:17  [14.6]  (needle <5 sig digits)
+           | 4 | **Redfin FL listings columns (WALTER SIG-035):** −14.6 / −13.8 / −13.3% (FTL / Jax / WPB) are **ACTIVE** listings YoY (table + prose +
+        AGENTS/CORAL/STATUS_DETAIL.md:1032  [14.6]  (needle <5 sig digits)
+           | Fort Lauderdale | 117.8% | 9 | 99.6% | 139.0% | −21.2pp | −6.3% | −14.6% | −3.1% | −6.5% | 192.0 / 56.6 |
+        AGENTS/CORAL/STATUS_DETAIL.md:1044  [14.6]  (needle <5 sig digits)
+           7. **SIG-035 FL listings-column conflict — does NOT reproduce at the primary (10/15 08:0x ET).** Table header order: Median sale price · YoY
+        AGENTS/CORAL/board_log.tsv:114  [14.6]  (needle <5 sig digits)
+           2026-10-15T08:13:50-04:00	SIG-W-20261012-035	acted	INBOX_WALTER	FL listings-column conflict reconciled at the Redfin primary (10/15): -14.6/
+        AGENTS/ORACLE/watchlist.tsv:136  [14.6]  (needle <5 sig digits)
+           # v5 ENTRY READ at the venue 2026-09-24T19:05Z (my own read, not PROME's 9/17 figures): market id 3866512, slug will-wti-reach-110-in-septem
+        AGENTS/CORAL/workbook/KB.tsv:112  [14.6]  (needle <5 sig digits)
+           ML-CORAL-111	2026-10-15	FL-HOUSING	Redfin Sep buyers-vs-sellers: Miami 158.9% #1 of 50, WIDENED +37.1pp YoY (Aug narrowing), condo-led; the 
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1571  [14.6]  (needle <5 sig digits)
+           2026-09-03,Monthly,2023-11-01,2023-11-30,Metro,"Orlando, FL metro area",All Residential,Balanced Market,13847,24.96,13885,9.08,1,12.67,0.27,
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1661  [14.6]  (needle <5 sig digits)
+           2026-09-03,Monthly,2016-05-01,2016-05-31,Metro,"Orlando, FL metro area",All Residential,Balanced Market,19009,10.78,18929,-3.38,1,12.84,-0.4
+        … +21 more 🟠 hit(s) on [14.6] across 23 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/CORAL/OPEN_THREADS_2026-07-09.md:32  [1.6]  (needle <5 sig digits)
+           | **Construction-insurance availability block (Damac $1.6B tower) — one-off or pattern?** | Availability blocks are harder-edge than premium
+        AGENTS/CORAL/STATUS_DETAIL.md:35  [1.6]  (needle <5 sig digits)
+           | Citizens commercial / condo-assoc layer | **Commercial Lines +10.4% capped, eff on/after 7/1/26** (⚠️ +18.8% uncapped indication remains u
+        AGENTS/CORAL/STATUS_DETAIL.md:51  [1.6]  (needle <5 sig digits)
+           | **Single-family (2)** | ⚠️ **Median SALE PRICE $425K, +3.7% YoY (July, FL Realtors — DECELERATING from June $432K/+4.9%)**, **4.5mo supply
+        AGENTS/CORAL/STATUS_DETAIL.md:564  [1.6]  (needle <5 sig digits)
+           | 2 | **Ocean Five Condominium Association, Inc.** · 458 Ocean Dr, Miami Beach (**16 units** per plan, not 13; built 2006 [P]) | 5/2/2025 · 
+        AGENTS/CORAL/board_log.tsv:23  [1.6]  (needle <5 sig digits)
+           2026-07-09T17:35:00-0400	SIG-W-20260627-026	acted	INBOX_WALTER	Refines 627-023: Surfside/Damac 0-units is IDIOSYNCRATIC (stigma+inexperience
+        AGENTS/CORAL/board_log.tsv:49  [1.6]  (needle <5 sig digits)
+           2026-08-23T15:09:45-0400	SIG-W-20260813-017	acted	INBOX_WALTER	FL SF median +4.9% YoY (June) vs ZHVI negative in all six FL top-50 counties,
+        AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv:113  [1.6]  (needle <5 sig digits)
+           FLG	2026-08-28	L1→L2 re-score at FLG's first live session (accruing leg met); prior Level=L1; prior Gaps+Next (verbatim):	"L1 NOT L2 deliber
+        AGENTS/LABOR/STATUS_DETAIL.md:50  [1.6]  (needle <5 sig digits)
+           | Mfg employment surveys | **The MFG divergence stays closed — all three agreed UP through July, and August holds ≥50 while DECELERATING.** 
+        … +2188 more 🟠 hit(s) on [1.6] across 716 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/CORAL/STATUS_DETAIL.md:527  [50.8]  (needle <5 sig digits)
+           | Fort Lauderdale · condo / SF | 206.2 / 71.0 | 243.8 / 92.1 | **166.6 / 41.2** | −77.1 / −50.8 |
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1486  [50.8]  (needle <5 sig digits)
+           2026-09-03,Monthly,2020-04-01,2020-04-30,Metro,"Miami, FL metro area",Townhouse,Buyer's Market,688,-50.8,1416,-13.87,0.49,-36.44,105.97,88.3
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2822  [50.8]  (needle <5 sig digits)
+           2026-09-03,Monthly,2026-04-01,2026-04-30,Metro,"West Palm Beach, FL metro area",Single Family Residential,Buyer's Market,5069,27.93,7644,-13
+        AGENTS/OTTO/research/2026-10-19_readiness/sources/ally_q2_release.txt:518  [50.8]  (needle <5 sig digits)
+           Adjusted Efficiency Ratio                                               [a] ÷ [b]                      48.7 %                  50.8 %       
+        AGENTS/OTTO/research/2026-10-19_readiness/sources/ally_q2_deck.txt:85  [50.8]  (needle <5 sig digits)
+           Adjusted efficiency ratio (1)(2)                                                                                                    48.7%   
+        AGENTS/OTTO/research/2026-10-19_readiness/sources/ally_q2_deck.txt:1097  [50.8]  (needle <5 sig digits)
+           GAAP shareholders' equity per share                                                                $     50.9     $     50.8        $     50
+        AGENTS/OTTO/research/2026-10-19_readiness/sources/ally_q2_deck.txt:1135  [50.8]  (needle <5 sig digits)
+           Adjusted Efficiency Ratio                                        [a] / [b]       48.7%         50.8%           50.8%          50.0%         
+        AGENTS/OTTO/research/2026-10-19_L708/sources/WRLD-latest-10Q.txt:1  [50.8]  (needle <5 sig digits)
+           wrld-20260630 0000108385 3/31 2027 Q1 False xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure wrld:state wrld:segment wrld:portfo
+        … +40 more 🟠 hit(s) on [50.8] across 35 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/CORAL/STATUS_DETAIL.md:840  [20.1]  (needle <5 sig digits)
+           | Walton | $3,092.6M | Regions 20.1% |
+        AGENTS/CORAL/FL_BANK_WATCHLIST.md:9  [20.1]  (needle <5 sig digits)
+           **Headline (updated 8/3 — Q2 WINDOW CLOSED, 7-of-7 BENIGN):** SBCF Q2 graded **BENIGN (0-of-4)** off primary 8-K acc. 0001628280-26-050147 (
+        AGENTS/CORAL/FL_BANK_WATCHLIST.md:29  [20.1]  (needle <5 sig digits)
+           | 7 | **7/28 AMC** *(GRADED 8/3 — entity confirmed = Seacoast Banking Corp of FLORIDA, NASDAQ:SBCF, CIK 0000730708, Stuart FL; distinct from
+        AGENTS/CREED/LAST_COMPLETION.md:64  [20.1]  (needle <5 sig digits)
+           **Moody's Q2 is PUBLIC-BUT-UNREACHABLE** (403; absent from search/Bisnow/CRE Daily/CalculatedRisk) — **tested, not assumed. That is not "unp
+        AGENTS/MARCO/FIGURES.md:126  [20.1]  (needle <5 sig digits)
+           | **Central America remittances, regional YoY** | **+7.2%** Jan–Jul (US$29,064.1M vs 27,122.7M); Jul +3.7%; FY2025 +20.1% reproduces | Jan–J
+        AGENTS/TERRY/SIGNALS.tsv:32  [20.1]  (needle <5 sig digits)
+           2026-09-14	HENRY	HEN-46-BASIS-CORRECTION	diesel/refining	any AAL/LUV jet-fuel short construction, and any refiner/crack sizing rationale (TR
+        AGENTS/CORAL/workbook/KB.tsv:55  [20.1]  (needle <5 sig digits)
+           ML-CORAL-054	2026-08-03	FL-BANKS	SBCF Q2 BENIGN (0-of-4) -- Q2 FL-BANK WINDOW CLOSED 7-of-7, FINAL SYNC 0-of->=2; AND THE SHARPEST PRE-REGIS
+        AGENTS/CORAL/tools/bkcy/build_output.txt:32  [20.1]  (needle <5 sig digits)
+           2025-12-31   2,453 120.6 +23.6% 24,969 177.6 +25.4% 14,867 201.8 +12.1% 39,836 185.9 +20.1% 42,289 180.2 +20.3%543,654 159.1 +11.3%549,547 1
+        … +326 more 🟠 hit(s) on [20.1] across 106 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/ORACLE/watchlist.tsv:83  [1.6, 17]  (needle <5 sig digits)
+           # ★ NEW PIN 2026-09-17 (sweep 2nd pass, Will-authorised) — VENEZUELAN CRUDE PRODUCTION LADDER ($184.6K). 🔑 WHY IT EARNS A SLOT: the v4 suppl
+        AGENTS/HANS/SESSION_LOG.md:72  [1.6, 17]  (needle <5 sig digits)
+           **STALE ROWS CLEARED — boot §[6] had 5 over 21d, now 0:** **`8.05`** 89d → **−1.6% YoY** (Destatis `PE26_316_421`, rel. 9/7), the basis the 
+        AGENTS/CARL/ROADMAP_THREADS.md:26  [1.6, 17]  (needle <5 sig digits)
+           | **V12 REGIME SHIFT — Waller pivot 5/22 + Oct hike modal** | **NEW 5/27.** Waller German economic forum 5/22 killed easing-bias language → 
+        AGENTS/SAM/METSUKE_MEMORY.md:953  [1.6, 17]  (needle <5 sig digits)
+           8. **STALE-FRAMING — TRADE § Asymmetric Setup, Independent Fed Path L170-173:** Entire section is the Jun-1 reframe of Fed-cut path as "mult
+        AGENTS/SAM/STATUS_ARCHIVE.md:94  [1.6, 17]  (needle <5 sig digits)
+           **⑤ 🔴 THE 9/3 GRADE IS PRE-REGISTERED BEFORE THE PRINT — and my own letter had been unreachable since 8/20.** ⚪ **NO-VERDICT, OVER-DETERMINE
+        AGENTS/SAM/STRATEGY.md:61  [1.6, 17]  (needle <5 sig digits)
+           | **4. Post-catalyst convexity-tail (v1.6 FINALIZED 2026-06-22)** | Catalyst spent without violence; Pillar 1 directional vector broken; Pil
+        AGENTS/SAM/MEMORY_ARCHIVE.md:127  [1.6, 17]  (needle <5 sig digits)
+           - **7/16 – 7/31 (compressed 8/02, re-compressed 8/17 — narratives → TIMELINE Jul 11-23 + Jul 24-31 + `thesis/BOJ_2026-07-31_PREREGISTRATION.
+        AGENTS/SAM/TRADE.md:95  [1.6, 17]  (needle <5 sig digits)
+           | Fed cuts via credit cascade | **v1.6 TAIL route only** — Fed-cut path REPLACED by Fed-HIKE regime under Warsh (Jun-17 FOMC +40bp 2026 dot)
+        … +72 more 🟠 hit(s) on [1.6, 17] across 53 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/BROCK/board_log.tsv:42  [17, 20.1]  (needle <5 sig digits)
+           2026-07-17T14:20:00Z	SIG-W-20260717-003	acted	INBOX_WALTER	SPREAD-STRUCTURAL competing mechanism ADOPTED as a pre-registered discriminator f
+        AGENTS/VIOLET/workbook/VX_TERM_HISTORY.tsv:2977  [17, 20.1]  (needle <5 sig digits)
+           2014-10-14	2015-06-17	246	20.1000
+        AGENTS/VIOLET/workbook/VX_TERM_HISTORY.tsv:3004  [17, 20.1]  (needle <5 sig digits)
+           2014-10-17	2015-06-17	243	20.1000
+        AGENTS/VIOLET/workbook/VX_TERM_HISTORY.tsv:3340  [17, 20.1]  (needle <5 sig digits)
+           2014-12-11	2015-06-17	188	20.1000
+        AGENTS/VIOLET/workbook/VX_TERM_HISTORY.tsv:7340  [17, 20.1]  (needle <5 sig digits)
+           2016-09-22	2017-05-17	237	20.1000
+        AGENTS/VIOLET/workbook/VX_TERM_HISTORY.tsv:7365  [17, 20.1]  (needle <5 sig digits)
+           2016-09-27	2017-05-17	232	20.1000
+        AGENTS/VIOLET/workbook/VX_TERM_HISTORY.tsv:12223  [17, 20.1]  (needle <5 sig digits)
+           2018-12-14	2019-07-17	215	20.1000
+        AGENTS/VIOLET/workbook/VX_TERM_HISTORY.tsv:22423  [17, 20.1]  (needle <5 sig digits)
+           2023-08-01	2024-04-17	260	20.1000
+        … +4 more 🟠 hit(s) on [17, 20.1] across 5 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-latest-10Q.txt:1  [14.6, 20.1, 50.8]  (needle <5 sig digits)
+           cacc-20260630 false 2026 Q2 0000885550 12/31 xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure cacc:program cacc:loan cacc:segmen
+        AGENTS/WAL/sources/q1_2026/wal-20260331_text.txt:1  [1.6, 20.1, 50.8]  (needle <5 sig digits)
+           wal-20260331 0001212545 2026 Q1 FALSE --12-31 0.0025 http://www.westernalliancebancorp.com/20260331#NetGainOnMortgageLoanOriginationAndSaleA
+        AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q1_10Q-text.txt:1  [1.6, 20.1, 50.8]  (needle <5 sig digits)
+           wal-20260331 0001212545 2026 Q1 FALSE --12-31 0.0025 http://www.westernalliancebancorp.com/20260331#NetGainOnMortgageLoanOriginationAndSaleA
+        AGENTS/MIDAS/sources/2026-10-12_review/deafut.txt:113  [1.6, 20.1, 50.8]  (needle <5 sig digits)
+           "FRZN CONCENTRATED ORANGE JUICE - ICE FUTURES U.S.",261006,2026-10-06,040701,ICUS,01,040 ,    9955,    4377,    3938,     685,    2914,    3
+        AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q2_release-text.txt:1  [1.6, 20.1]  (needle <5 sig digits)
+           EX-99.1 2 pressrelease-6302026.htm EX-99.1 Document Western Alliance Bancorporation One East Washington Street Phoenix, AZ 85004 www.western
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/BKU_Q2.txt:1  [1.6, 20.1]  (needle <5 sig digits)
+           bku-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 
+        AGENTS/MIDAS/analysis/2026-09-25_band-base-rates.md:101  [1.6, 20.1]  (needle <5 sig digits)
+           | PALL | full | 4004 | 30.3 | 20.1 | 17.2 | 13.8 | 6.9 | 1.6 | 0.1 | 11.3 | 5.5 | 2.2 |
+        AGENTS/BRENT/audits/2026-10-14_operational-followups/public-fedex-surcharge.txt:7026  [1.6, 20.1]  (needle <5 sig digits)
+           <path d="M27.7 21.3c-.1-.2-.4-.3-.7-.3h-.6l-.1-.9c-.5-3-2.8-5.4-5.7-6 1.8-1.5 2.9-3.7 2.9-6.2 0-.3 0-.7-.1-1H26c.6 0 1-.4 1-1s-.4-1-1-1h-3.1
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/SSB_Q2.txt:1  [1.6, 50.8]  (needle <5 sig digits)
+           SOUTHSTATE BANK CORP_June 30, 2026 Table of Contents ​ ​ UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 ​ FORM 10-Q
+        AGENTS/BROCK/research/2026-10-14_wave/fsk_q1.txt:1  [1.6, 17, 20.1]  (needle <5 sig digits)
+           fsk-20260331 Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 _____________________________________
+        AGENTS/BROCK/research/2026-10-14_wave/fsk_10q.txt:1  [1.6, 17, 20.1, 50.8]  (needle <5 sig digits)
+           fsk-20260630 Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 _____________________________________
+        BOARD/SIG-W-20261012-035-September-Redfin-demand-Parcl-between-cuts-SHED-vintage-qualified.md:28  [1.6, 14.6]  (needle <5 sig digits)
+           Redfin's October12 publisher body reports September seasonally adjusted pending sales down4% MoM and closed sales down1.6%; median price, no
+     🟡 in MAIL, point-in-time — usually no action (258: BOND, BRENT, BROCK, CARL, CATO, CORAL, CREED, CRUISE, DAEDALUS, DEWEY, FALCON, FERT, HANS, HAWK, HOMER, LABOR, LIQUID, MARCO, MIDAS, NEXUS, ORACLE, OTTO, OZK, RED, REGINALD, SAM, TERRY, VIOLET, VULCAN, WALTER, ZHAO, inbox)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2060)  [--show-handled to audit]
+
+  ── gamma_flip_14d · superseded 7698, 7694, 7707, 7669, 7668 → current 7750
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (44)
+        AGENTS/NEXUS/STATUS_COLD.md:928  [7707]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **↑3pp** | 09-29 | 🔑 **The arbiter I named (HENRY's board) came back NEGATIVE at 
+        AGENTS/NEXUS/STATUS_COLD.md:1003  [7707]  (needle <5 sig digits)
+           | 🆕 **Gamma flip — NEGATIVE both horizons** | band 7,704–7,707; GEX −$16–17B/1% [9/28] | HENRY | 9/18 and 9/25 UNMEASURED. |
+        AGENTS/NEXUS/STATUS_COLD.md:1093  [7707]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **↑3pp** | 09-29 | **HENRY board NEGATIVE both horizons [9/28]**: flip 7,704–7,70
+        AGENTS/NEXUS/STATUS_COLD.md:1166  [7707]  (needle <5 sig digits)
+           | **Gamma NEGATIVE both horizons** | 7,704–7,707; −$16–17B/1% [9/28] | HENRY | 9/18, 9/25 UNMEASURED. |
+        AGENTS/TERRY/board_log.tsv:50  [7707]  (needle <5 sig digits)
+           2026-09-30 08:12 ET	SIG-W-20260929-004	acted	BOARD	READ IN FULL with its correction -009. HENRY 9/28-close SPX dealer gamma NEGATIVE both ho
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2888  [7707]  (needle <5 sig digits)
+           2026-09-03,Monthly,2020-10-01,2020-10-31,Metro,"West Palm Beach, FL metro area",Single Family Residential,Balanced Market,7554,19.55,7707,-1
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/HBAN_Q2.txt:1  [7707]  (needle <5 sig digits)
+           hban-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR
+        AGENTS/WALTER/routed/route_log.tsv:1104  [7707]  (needle <5 sig digits)
+           2026-09-29T18:26:31Z	SIG-W-20260929-004	HENRY packet 9/28 20:44 EDT (PUBLISHED.tsv 9/28)	SPX dealer gamma NEGATIVE both horizons 9/28 close;
+        … +10 more 🟠 hit(s) on [7707] across 14 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/STATUS_COLD.md:1253  [7694]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 09-29 | HELD. Gamma NEGATIVE both horizons again [9/30 pre-open]: flip 7,
+        AGENTS/TERRY/board_log.tsv:56  [7694]  (needle <5 sig digits)
+           2026-09-30 08:14 ET	2026-09-30_from-HENRY_gamma-read-and-F3-basis	acted	INBOX_HENRY	READ IN FULL. Fresh pre-open SPX gamma (replaces the exp
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:1489  [7694]  (needle <5 sig digits)
+           5b9d7694c1372798f2c3fcac8e7815673b734c6d 2026-09-17T09:07:45-04:00 ZHAO -> PROME, LIQUID: July TIC grade memo + official/private-reversal pa
+        AGENTS/DEWEY/research/2026-10-13_diesel/cme-oct12-final.txt:5109  [7694]  (needle <5 sig digits)
+           7694 +
+        AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [7694]  (needle <5 sig digits)
+           egbn-20251231 0001050441 false 2025 FY http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-
+        AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_2025_10Q.txt:1  [7694]  (needle <5 sig digits)
+           egbn-20250930 0001050441 false --12-31 2025 Q3 http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets P5Y xbrli:s
+        PROME/DOCKET.tsv:405  [7694]  (needle <5 sig digits)
+           2026-10-16	August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-month test of China coupon selling — July LT −$7.685B (June −$15.77B), 
+        PROME/state/ORCH_LOG.tsv:166  [7694]  (needle <5 sig digits)
+           2026-09-17	ZHAO	subagent	1-SPAWN	WQ-206 aged-ACTION-line L0 DRAIN-ONLY spawn: five WALTER ACTION handoffs 9-13d old at a desk with NO board_
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1047  [7669]  (needle <5 sig digits)
+           2026-09-03,Monthly,2024-11-01,2024-11-30,Metro,"Miami, FL metro area",All Residential,Buyer's Market,7669,-20.1,19580,29.14,0.39,-24.13,155.
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:428  [7669]  (needle <5 sig digits)
+           100644 blob bce1065e93d9148a7669dc3ff8f8b9d092b6c235	AGENTS/DAEDALUS/inbox/processed/2026-09-25_from-MIDAS_PR6-asks-done-L4-STATUS-rotated-s
+        AGENTS/SHADE/research/DELAWARE_LIFE_RELATED_PARTY_RESTATEMENT_2026-07-27.md:81  [7669]  (needle <5 sig digits)
+           | Mortgage Loans | 7,669 | 7,669 |
+        AGENTS/SAM/workbook/MOF_FLOWS.tsv:271  [7669]  (needle <5 sig digits)
+           2010．2．28～ 3．6	1195	6781	7976	-308	7669	0.678	2619	4624	7243	-2104	5139
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:2207  [7668]  (needle <5 sig digits)
+           100644 blob ac7668be9db618220aedb6a636d454d08c652998	PROME/inbox/processed/2026-09-07f_from-LABOR_ACK-commission-received-WQ-193-already-del
+        AGENTS/VIOLET/workbook/KB.tsv:308  [7668]  (needle <5 sig digits)
+           KB-VIO-307	2026-09-18	VOL	VIX	VOL-OF-VOL WAS NOT FULLY REPRICED ON EITHER POST-FOMC SESSION, AND THE DISCRIMINATOR I BUILT ON THAT OBSERVATI
+        AGENTS/VIOLET/research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md:178  [7668]  (needle <5 sig digits)
+           | gamma flip 14d / 35d | 7,675 / 7,674 | **7,668 / 7,668** (cross-horizon agreement EXACT) |
+        AGENTS/OZK/sources/2026-10-12_L690/Q2_2026_10Q_PRIMARY_TEXT.txt:7129  [7668]  (needle <5 sig digits)
+           7,668
+        AGENTS/BROCK/research/2026-10-14_followup/semiannual.txt:1474  [7668]  (needle <5 sig digits)
+           AmeriLife Holdings, LLC������������������ Delayed Draw                 1.00%                        8/31/2029      USD        1,632,082    
+        PROME/HEARTBEAT_COLD.md:529  [7668]  (needle <5 sig digits)
+           > **5. Equity-vol 🟠 — HENRY L411 [9/18c, `4294f9187`]: flip ~7,668 BOTH horizons (exact agreement) · SPX 7,650.50 official close, spot -0.23
+        PROME/HEARTBEAT_COLD.md:563  [7668]  (needle <5 sig digits)
+           **HENRY L411 [9/18 close].** Flip ~7,668 at BOTH horizons — exact agreement, itself unusual. SPX 7,650.50 official close, spot −0.23% below 
+        PROME/DOCKET.tsv:411  [7668]  (needle <5 sig digits)
+           2026-09-18	🔴 **SPX GAMMA BOARD — POST-OPEX RE-MEASURE ON THE 9/18 CLOSE (L383 successor).** HENRY's 9/17 pre-opex board (flip ~7,674 · sign 
+        … +1 more 🟠 hit(s) on [7668] across 8 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/recon/2026-10-01_coldread_STATUS.md:28  [7694, 7707]  (needle <5 sig digits)
+           ⚠️ 61 L97: "gamma NEGATIVE … | as 9/29 | … Unchanged". M-04 (L23) gives new 9/30 marks (flip 7,693–7,694, −$11.4B/−$14.6B) that differ from 
+        AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt:254  [7698]  (needle <5 sig digits)
+           "PROPANE OPIS MT BELVIEU TET FP - ICE FUTURES ENERGY DIV",260901,2026-09-01,06641G,IFED,01,066 ,  181950,   30264,   33108,   20851,  129515
+        PROME/HEARTBEAT_COLD.md:895  [7698]  (needle <5 sig digits)
+           - **Am.#1 §5-6 as written (verbatim):** **§5-6 Equity-vol / breadth / AI:** QQQ **$749.58 (+1.02%)** = new ATH (prior close high 10/01 742.0
+        PROME/HEARTBEAT_COLD.md:949  [7698]  (needle <5 sig digits)
+           - **Breadth / gamma:** VULCAN's last board 10/2 (composite 14/25; S1 YELLOW held; RSP−SPY 63d −5.07pp = 3.7th pct; Mag-7 34.5445% [holdings 
+        PROME/state/ORCH_LOG.tsv:675  [7698]  (needle <5 sig digits)
+           2026-10-02	HENRY (henry-1002b)	2	1-SPAWN	RSP seventh-week test (close < 211.11; carried from morning HENRY session as ARMED) + Sept ISM re-r
+     🟢 cleared: marker-adjacent / next to new value / frozen file (5)  [--show-handled to audit]
+
+  ── net_gex_14d_Bn · superseded 17.3, -11.4, -15.6, -2.0, 33.7 → current 42.0
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (10100)
+        AGENTS/SELF_RULINGS.tsv:22  [2]  (needle <5 sig digits)
+           2026-08-21	MIDAS	L-13: every registered I1 (copper) trigger is a DOWNSIDE band, so a physical TIGHTENING regime scores 1 (benign) - may I ad
+        AGENTS/_INDEX.md:21  [2]  (needle <5 sig digits)
+           Active + Tier-2 agents and meta-agents with live folders. Full verified classification + evidence → [`../PROME/ROSTER.md`](../PROME/ROSTER.m
+        AGENTS/_INDEX.md:25  [2]  (needle <5 sig digits)
+           > *Historical note: this table previously described its members as "Active + Tier-2 **domain owners**," carrying the same flattening the Pha
+        AGENTS/_INDEX.md:35  [2]  (needle <5 sig digits)
+           | CREED | [`CREED/`](./CREED/) | Credit · Tier-2 (explicit-permission spawn) |
+        AGENTS/_INDEX.md:37  [2]  (needle <5 sig digits)
+           | DEWEY | [`DEWEY/`](./DEWEY/) | Synthesis / Ops · Tier-2 |
+        AGENTS/_INDEX.md:38  [2]  (needle <5 sig digits)
+           | HANS | [`HANS/`](./HANS/) | Funding / Macro · Tier-2 |
+        AGENTS/_INDEX.md:51  [2]  (needle <5 sig digits)
+           | OTTO | [`OTTO/`](./OTTO/) | Credit · Tier-2 |
+        AGENTS/_INDEX.md:61  [2]  (needle <5 sig digits)
+           | GIBBS | [`GIBBS/`](./GIBBS/) | Credit (large-bank desk — the 16 US firms in Fed Categories I–III, named list re-cut quarterly; industry-wi
+        … +9487 more 🟠 hit(s) on [2] across 2411 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/CRUISE/2026-09-02_LADDER_DISPOSITION_MEMO.md:64  [15.6]  (needle <5 sig digits)
+           | CCL $28.12 → $23.74 | **−15.6%** | **0%** |
+        AGENTS/CRUISE/2026-09-02_LADDER_DISPOSITION_MEMO.md:88  [15.6]  (needle <5 sig digits)
+           CCL is **−15.6% in 19 days** and printed a 4-month low of **$23.23 on 9/1**. Whatever the ladder was built to capture, the tape took most of
+        AGENTS/CRUISE/WATCHLIST_CCL_PREANNOUNCE.md:55  [15.6]  (needle <5 sig digits)
+           | Live tape | **$23.74** (9/2 +2.20%d) | own yfinance pull 9/2 | **−15.6% since 8/14**; 4-mo low **$23.23** on 9/1. ⛔ The 8/14 baseline read
+        AGENTS/REGINALD/STATUS_MATRIX.md:19  [15.6]  (needle <5 sig digits)
+           > ⚠️ **Reserves below 100% of their OWN recognised nonaccruals: FLG 31%/29% (10-Q HFI / Call Report basis) · AMTB 51% · EGBN 88%** — the mos
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1831  [15.6]  (needle <5 sig digits)
+           2026-09-03,Monthly,2023-07-01,2023-07-31,Metro,"Orlando, FL metro area",Single Family Residential,Seller's Market,9982,12.78,8425,-13.36,1.1
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2746  [15.6]  (needle <5 sig digits)
+           2026-09-03,Monthly,2021-12-01,2021-12-31,Metro,"West Palm Beach, FL metro area",Condo/Co-op,Seller's Market,4122,-11.36,3479,-43.19,1.18,42.
+        AGENTS/OTTO/sources/Gotham_CVNA_Main_Report_2026-01-28.txt:1437  [15.6]  (needle <5 sig digits)
+           -7.2 -13.3 -20.9 -44.2 -24.5 -36.3 -33.4 -15.6 -20.8
+        AGENTS/OTTO/sources/Gotham_CVNA_Main_Report_2026-01-28.txt:1483  [15.6]  (needle <5 sig digits)
+           -15.6
+        … +17 more 🟠 hit(s) on [15.6] across 18 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/ORACLE/watchlist.tsv:194  [17.3]  (needle <5 sig digits)
+           #   (1) **THE 8/9 FLAG RETRACED.** by-Aug-31 is **17.3% (Δ7d −5.2)** at 16:46Z, vs the 24.1% I published on 8/9. The ≥3-day re-check that a 
+        AGENTS/WAL/CHANGELOG.md:398  [17.3]  (needle <5 sig digits)
+           - Mortgage credit intermediaries $10.25B (17.3%) / Business credit intermediaries $3.42B (5.8%) / PE funds $1.26B (2.1%).
+        AGENTS/LIQUID/board_log.tsv:107  [17.3]  (needle <5 sig digits)
+           2026-08-10T16:00:00Z	SIG-W-20260809-006	noted	INBOX_WALTER	China Jan-Jul trade +17.3% YoY, imports +22% outpacing exports +14% -- tension wi
+        AGENTS/MIDAS/NEXUS_BRIEF.md:20  [17.3]  (needle <5 sig digits)
+           | SLV | -17.30% /3 | -48.53% /1 | -17.30% /1 | 3 |
+        AGENTS/MIDAS/CLAUDE.md:164  [17.3]  (needle <5 sig digits)
+           **Historical September30 example — superseded by STATUS's dated October9 crossing read:** at 9/30, Silver `3 🟠` (Leg T −17.3%; Leg C decayed
+        AGENTS/MIDAS/STATUS.md:33  [17.3]  (needle <5 sig digits)
+           **CROSSING recommendation approved October12** in response to the sit-rep; approval evidence `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.m
+        AGENTS/MIDAS/STATUS.md:38  [17.3]  (needle <5 sig digits)
+           | SLV | -17.30% /3 | -48.53% /1 | -17.30% /1 | 3 |
+        AGENTS/SAM/STATUS_ARCHIVE.md:485  [17.3]  (needle <5 sig digits)
+           - **6/29 – 7/31 (all >17d — full narratives → TIMELINE Jun 22-Jul 2, Jul 6-10, Jul 11-23, Jul 24-31 + `thesis/BOJ_2026-07-31_PREREGISTRATION
+        … +418 more 🟠 hit(s) on [17.3] across 107 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/WALTER/SESSION_LOG.md:1716  [11.4]  (needle <5 sig digits)
+           > 🆕 **`ICSA` 206,000 [wk ending 2026-08-15 — DOL release TODAY 08:30 ET, verified at the primary PDF, not off the wire].** **`RED-FT-05` (>2
+        AGENTS/BROCK/STATUS.md:14  [11.4]  (needle <5 sig digits)
+           | **Fri 10/23** (weekly; L653 backstop read 10/16) | **Cable One (CABO) MBI close — NOT CLOSED per press:** 10/9 New York federal TRO on len
+        AGENTS/BROCK/STATUS.md:114  [11.4]  (needle <5 sig digits)
+           **2026-10-16 — Cable One's MBI purchase did not close: press reports a 10/9 federal restraining order won by lender CoBank, which calls Cabl
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1010  [11.4]  (needle <5 sig digits)
+           2026-09-03,Monthly,2017-04-01,2017-04-30,Metro,"Jacksonville, FL metro area",Townhouse,Buyer's Market,550,-6.05,608,-14.83,0.9,8.44,10.63,-1
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2774  [11.4]  (needle <5 sig digits)
+           2026-09-03,Monthly,2019-08-01,2019-08-31,Metro,"West Palm Beach, FL metro area",Condo/Co-op,Buyer's Market,3757,2.9,5735,-4.25,0.66,4.55,52.
+        AGENTS/VIOLET/research/2026-04-16_skew_post_fire_trajectory.md:37  [11.4]  (needle <5 sig digits)
+           | 14 | 180.0 | 168.6 | -11.4 | 158.5 | -21.5 | 156.7 | -6.2 | no | STRESS +50% |
+        AGENTS/REGINALD/MTB/EARNINGS_Q1_2026.md:20  [11.4]  (needle <5 sig digits)
+           | **EPS (Operating)** | $4.18 | $4.72 | -11.4% | — |
+        AGENTS/CREED/research/2026-09-30_CASE_LEDGER_PATTERNS.md:28  [11.4]  (needle <5 sig digits)
+           | 3a | A lender loses more than the sale price implies | Loss beyond price, as a share of the loan: **1740 Broadway 22pp** (note sale at 60%
+        … +14 more 🟠 hit(s) on [11.4] across 19 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/WALTER/SESSION_LOG.md:2183  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun **HEAVY session** ~15:32 ET → ~20:00Z 8/10; Will-Telegram *"please boot up"* → *"news sweep"* → **three
+        AGENTS/WALTER/SESSION_LOG.md:2185  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun ~15:32 ET / 19:32Z, Will-Telegram *"please boot up"* → *"lets have you do a news sweep"* ~20:04Z — **Ti
+        AGENTS/WALTER/research/2026-10-14_three-thread-verification/before-SESSION_LOG.md:1981  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun **HEAVY session** ~15:32 ET → ~20:00Z 8/10; Will-Telegram *"please boot up"* → *"news sweep"* → **three
+        AGENTS/WALTER/research/2026-10-14_three-thread-verification/before-SESSION_LOG.md:1983  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun ~15:32 ET / 19:32Z, Will-Telegram *"please boot up"* → *"lets have you do a news sweep"* ~20:04Z — **Ti
+        AGENTS/WALTER/research/2026-10-14_morning-news/before-SESSION_LOG.md:1978  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun **HEAVY session** ~15:32 ET → ~20:00Z 8/10; Will-Telegram *"please boot up"* → *"news sweep"* → **three
+        AGENTS/WALTER/research/2026-10-14_morning-news/before-SESSION_LOG.md:1980  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun ~15:32 ET / 19:32Z, Will-Telegram *"please boot up"* → *"lets have you do a news sweep"* ~20:04Z — **Ti
+        AGENTS/WALTER/research/2026-10-14_walter-closeout/before-SESSION_LOG.md:1984  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun **HEAVY session** ~15:32 ET → ~20:00Z 8/10; Will-Telegram *"please boot up"* → *"news sweep"* → **three
+        AGENTS/WALTER/research/2026-10-14_walter-closeout/before-SESSION_LOG.md:1986  [17.3, 2]  (needle <5 sig digits)
+           **[Prior] Updated:** 2026-08-09 (Sun ~15:32 ET / 19:32Z, Will-Telegram *"please boot up"* → *"lets have you do a news sweep"* ~20:04Z — **Ti
+        … +2 more 🟠 hit(s) on [17.3, 2] across 6 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/SAM/STATUS_ARCHIVE.md:104  [33.7]  (needle <5 sig digits)
+           **⑩ 🔑 CFTC CHARACTER FLIPPED: a fresh SHORT BUILD with OI RISING**, not liquidation (net −63,298, OI +3,405, shorts +9,813, longs flat). ⚠️ 
+        AGENTS/CORAL/tools/bkcy/build_output.txt:106  [33.7]  (needle <5 sig digits)
+           2025-12-31     497  97.7 +31.8%  5,149 146.5 +33.7%  2,073 112.6 +11.3%  7,222 134.8 +26.4%  7,719 131.6 +26.8% 85,298  99.8 +15.3% 85,812  
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:186  [33.7]  (needle <5 sig digits)
+           2026-09-03,Monthly,2021-12-01,2021-12-31,Metro,"Fort Lauderdale, FL metro area",Condo/Co-op,Balanced Market,6423,20.9,5844,-33.7,1.1,49.64,-
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:537  [33.7]  (needle <5 sig digits)
+           2026-09-03,Monthly,2024-09-01,2024-09-30,Metro,"Jacksonville, FL metro area",All Residential,Buyer's Market,7247,-13.7,13400,33.7,0.54,-29.7
+        AGENTS/DAEDALUS/profiles/AEOLUS.md:12  [33.7]  (needle <5 sig digits)
+           **Root:** `CLAUDE.md` (328 ln/34.1 KB — C1-C6 channels + C6 discriminator :103-105; C6 re-key ruling :154-157; C5 trigger re-spec :161-184 (
+        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R5_florida_housing.md:213  [33.7]  (needle <5 sig digits)
+           | §1 *"`STATUS.md` (165 ln/33.7 KB, vintage 8/13 — 105% of the default byte budget)"* | **176 ln / 32,504 B, vintage 9/11, rc=0** | `read_ca
+        AGENTS/LABOR/domain/sources/NFP_JUNE_2026_DATAPACK.md:8  [33.7]  (needle <5 sig digits)
+           - Wages/hours: AHE +13c/+0.3% → $37.64; **+3.5% YoY** (Jun-25 base $36.36); prod/nonsup +7c/+0.2% → $32.38; workweek 34.3 flat (prod 33.7, −
+        AGENTS/OTTO/sources/Gotham_CVNA_Main_Report_2026-01-28.txt:4351  [33.7]  (needle <5 sig digits)
+           33.7%
+        … +110 more 🟠 hit(s) on [33.7] across 56 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/BRENT/board_log.tsv:95  [15.6, 2]  (needle <5 sig digits)
+           2026-07-28 21:55:00 EDT	2026-07-28_from-DAEDALUS_architecture-audit-findings	acted	INBOX	DAEDALUS architecture audit, Will-directed 3-reader
+        AGENTS/CRUISE/workbook/FLOW.tsv:15  [15.6, 2]  (needle <5 sig digits)
+           FL-CRU-09	Cruise-sector tape	CRUISE	Common-mode sector de-rating (NOT hedge-differentiated)	Immediate	Yes	8/14 -> 9/2 closes: CCL $28.12 -> 
+        AGENTS/CRUISE/domain/sources/STATUS_archive_2026-09-13_rotation.md:10  [15.6, 2]  (needle <5 sig digits)
+           > The 8/14 STATUS said *"the fuel tape has NOT priced through into CCL's stock… CCL is $28.28, up-drift from $27 despite Brent doubling."* *
+        AGENTS/CARL/domain/sources/2026-10-12_catchup/g19-extract.txt:4  [11.4, 2]  (needle <5 sig digits)
+           access the information through the links provided below. Home Data Consumer Credit - G.19 Current Release Release Dates Revisions Historical
+     🟡 in MAIL, point-in-time — usually no action (347: AEOLUS, BOND, BRENT, BROCK, CARL, CORAL, CREED, CRUISE, DAEDALUS, DEWEY, FALCON, FERT, FLG, HANS, HAWK, HOMER, LABOR, LIQUID, MARCO, MIDAS, NEXUS, ORACLE, OSPREY, OTTO, OZK, RAV, RED, REGINALD, SAM, SHADE, TERRY, VIOLET, VULCAN, WAL, WALTER, WATT, YEYOU, ZHAO, inbox)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2775)  [--show-handled to audit]
+
+  ── spx_close · superseded 7591.70 → current 7650.50
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (8)
+        AGENTS/LIQUID/board_log.tsv:264  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           2026-09-12T18:05Z	SIG-W-20260911-009	info-only	INBOX_WALTER	Breadth washout on the 9/10 tape: SPX 7591.70 (-0.58%) closed BELOW its 50dma (7
+        AGENTS/WALTER/routed/route_log.tsv:955  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           2026-09-11	SIG-W-20260911-009	Will-Telegram BM-20260911-02 items 6+7 folded - @ClaytonCharts X post + the underlying StockCharts $SPX panel,
+        AGENTS/WALTER/research/2026-09-15_follow-through/route-baseline.tsv:955  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           2026-09-11	SIG-W-20260911-009	Will-Telegram BM-20260911-02 items 6+7 folded - @ClaytonCharts X post + the underlying StockCharts $SPX panel,
+        PROME/HEARTBEAT_COLD.md:267  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           - **The diesel/jet squeeze (HENRY V4, DOCKET L325):** ULSD crack `HO=F×42 − CL=F`, front-month closes, one definition both eras: **2022-04-2
+        PROME/reports/2026-09-11_heartbeat-14th-rebase.md:25  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           | F7 | Energy | ULSD crack (HO=F×42 − CL=F, NYH basis) **$110.87/bbl [9/11 overnight, HENRY]** > the 2022 peak $110.33 [2022-04-28], identic
+        BOARD/SIG-W-20260911-009-largest-new-low-expansion-since-liberation-day-on-the-9-10-tape-with-the-hindenburg-inoculation-attached.md:20  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           verdict: "A charting account posts 'the largest expansion in new lows since Liberation Day' on the 2026-09-10 tape: SPX closed 7591.70 (-44.
+        BOARD/SIG-W-20260911-009-largest-new-low-expansion-since-liberation-day-on-the-9-10-tape-with-the-hindenburg-inoculation-attached.md:34  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           | `$SPX` close | **7591.70**, chg **−44.66 (−0.58%)** |
+        BOARD/SIG-W-20260911-009-largest-new-low-expansion-since-liberation-day-on-the-9-10-tape-with-the-hindenburg-inoculation-attached.md:70  [7591.7]  (noise-dominated: needle in 6 files — mass propagation or collision; re-run with --unit/--series)
+           **This signal said: *"WALTER holds NO base rate at all for Titanic Syndrome and did not build one."* That was true and is now partly remedie
+
+  🟠 26254 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

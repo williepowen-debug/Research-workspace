@@ -1,0 +1,49 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 153 files under AGENTS/HENRY/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 7746 → current 7762
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (9)
+        AGENTS/HENRY/LAST_COMPLETION.md:15  [7746]
+           | Gamma (pre-open 10/8) | Dealers long gamma at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close]; walls withheld |
+        AGENTS/HENRY/MEMORY.md:56  [7746]
+           - **Gamma 10/8 pre-open:** POS both horizons, flip 7,746–7,750, spot 7,801.77 [10/7 close]; walls withheld. PUBLISHED.tsv rows annotated (ga
+        AGENTS/HENRY/NEXUS_BRIEF.md:12  [7746]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above. 
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:3  [7746]
+           **Last owner update:** 2026-10-08T08:25:29-04:00 — PROME WQ-389 due-row wake (`prome-fc`, Tier 1). **DOCKET L612 graded:** September ISM Ser
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:16  [7746]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above.
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:34  [7746]
+           | 33 | 26 | ✅ | Gamma POSITIVE; flip ~7,746–7,750; SPX 7,765.36 "closed ~15–20 pts above it" | 7,765.36 minus 7,750 or 7,746 gives 15–19. |
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:38  [7746]
+           - HENRY gamma [10/8 pre-open, CBOE OI 10/7]: POSITIVE both horizons, flip ~7,746–7,750 — SPENT, that session only. Breadth: the slot-5 RSP-v
+        AGENTS/HENRY/workbook/PUBLISHED.tsv:96  [7746]
+           gamma_flip_35d	7746	2026-10-08	cboe 7307 contracts; PRE-OPEN 08:18 ET 10/8 read: CBOE OI = 10/7 EOD; spot = ^GSPC 10/7 close 7,801.77 (+52/+
+        AGENTS/HENRY/workbook/PUBLISHED.tsv:98  [7746]
+           gamma_flip_14d	7750	2026-10-08	cboe 4141 contracts; PRE-OPEN 08:18 ET 10/8 read: CBOE OI = 10/7 EOD; spot = ^GSPC 10/7 close 7,801.77 (+52/+
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (33)
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:30  [7746]  (no unit/series context on line)
+           `HENRY 2026-10-08 pre-open: flip ~7,750 (14d, 4,141 contracts) / ~7,746 (35d, 7,307 contracts), src=CBOE; spot 7,801.77 [^GSPC 10/7 close] →
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:32  [7746]  (no unit/series context on line)
+           - **Walls withheld:** 14d call near-tie (7,800 vs 8,000, 3% apart); 35d put ≡ call ≡ 8,000 (impossible as stated); the horizons disagree on 
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:87  [7746]  (no unit/series context on line)
+           | SPX | **7,801.77 [10/7 close]** · 7,818.93 [10/6] | <7,200 | <7,100 | <6,494 | 🟢 ABOVE the flip (~7,746–7,750, POS both horizons). 8.4% ab
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:11  [7746]  (no unit/series context on line)
+           AGENTS/NEXUS/STATUS_COLD.md:1537  [7746]
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:13  [7746]  (no unit/series context on line)
+           AGENTS/NEXUS/STATUS_COLD.md:1568  [7746]
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:15  [7746]  (no unit/series context on line)
+           AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-HENRY-NEXUS_BRIEF.md:12  [7746]
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:17  [7746]  (no unit/series context on line)
+           AGENTS/WALTER/research/2026-10-14_resume-1449/registry-before.tsv:11  [7746]
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:19  [7746]  (no unit/series context on line)
+           AGENTS/WALTER/research/2026-10-12_resume-2057/headers-3.md:191  [7746]
+        … +25 more 🟠 hit(s) on [7746] across 3 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (3)  [--show-handled to audit]
+
+  🔴 9 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

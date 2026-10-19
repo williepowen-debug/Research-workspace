@@ -1,0 +1,776 @@
+[
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-019.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-019.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-024.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-024.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-025.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-025.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-027.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-027.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-030.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-030.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-033.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-033.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-034.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-034.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-035.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-035.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-036.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-036.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-038.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-038.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-041.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-041.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-042.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-042.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-045.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-045.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-046.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261008-046.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-001.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-001.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-004.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-004.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-006.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-006.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-008.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-008.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-009.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-009.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-011.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-011.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-012.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-012.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-013.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-013.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-014.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261009-014.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-001.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261010-001.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-004.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261010-004.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-006.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261010-006.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-007.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261010-007.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-009.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261010-009.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261011-001.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261011-001.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261011-002.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261011-002.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261011-004.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261011-004.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261011-005.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261011-005.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261011-006.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261011-006.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261011-007.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261011-007.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261011-008.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261011-008.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-001.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-001.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-002.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-002.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-003.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-003.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-004.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-004.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-006.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-006.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-007.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-007.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-008.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-008.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-009.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-009.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-012.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-012.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-014.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-014.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-017.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-017.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-019.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-019.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-033.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-033.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-034.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-034.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-035.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-035.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-036.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-036.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-037.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-037.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-038.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-038.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-042.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-042.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-044.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261012-044.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-005.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261013-005.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-006.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261013-006.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-007.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261013-007.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-021.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261013-021.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-024.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261013-024.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261013-027.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261013-027.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-001.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-001.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-003.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-003.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-005.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-005.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-006.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-006.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-007.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-007.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-008.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-008.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-010.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-010.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-012.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-012.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-013.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-013.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-014.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-014.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-015.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-015.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-016.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-016.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-017.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-017.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-018.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-018.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-020.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-020.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-021.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-021.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-022.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-022.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-023.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-023.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-024.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-024.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-034.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-034.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261014-036.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261014-036.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-001-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-001-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-002-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-002-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-003-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-003-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-005-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-006.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-006.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-010-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-010-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-011-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-011-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-012-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-012-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-014-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-014-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-018-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-018-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-021-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-021-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261015-024-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-024-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-001-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-001-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-004-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-004-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-006-handoff.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-006-handoff.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-009.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-009.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-010.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-010.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-012.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-012.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-016.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-016.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-020.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-020.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-022.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-022.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-023.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-023.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-027.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-027.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-028.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-028.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-034.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-034.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261016-037.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261016-037.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261018-001.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261018-001.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261018-008.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261018-008.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-003.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-003.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-010.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-010.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-011.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-011.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-013.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-013.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-015.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-015.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-016.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-016.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-017.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-017.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-018.md",
+    "to": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261019-018.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-08_from-PROME_WQ-392-RULED-HEN-46-december-basis.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-08_from-PROME_WQ-392-RULED-HEN-46-december-basis.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-09_from-WATT_PJM-10-7-price-spike-FCF-input-unchanged.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-09_from-WATT_PJM-10-7-price-spike-FCF-input-unchanged.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-12_from-MIDAS_China-PGM-demand-test.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-12_from-MIDAS_China-PGM-demand-test.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-12_from-MIDAS_approved-maintenance.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-12_from-MIDAS_approved-maintenance.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-12_from-MIDAS_metals-growth-and-precious-reads.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-12_from-MIDAS_metals-growth-and-precious-reads.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-12_from-MIDAS_news-sweep.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-12_from-MIDAS_news-sweep.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-12_from-WATT_IRAS-core-rejected-WATT10-MISS.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-12_from-WATT_IRAS-core-rejected-WATT10-MISS.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-14_from-DEWEY_ports-pike-power.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-14_from-DEWEY_ports-pike-power.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7.md",
+    "rc": 0,
+    "error": ""
+  },
+  {
+    "from": "AGENTS/HENRY/inbox/2026-10-15_from-WATT_PJM-5th-emergency-10-13-14-FCF-input-unchanged-in-kind.md",
+    "to": "AGENTS/HENRY/inbox/processed/2026-10-15_from-WATT_PJM-5th-emergency-10-13-14-FCF-input-unchanged-in-kind.md",
+    "rc": 0,
+    "error": ""
+  }
+]

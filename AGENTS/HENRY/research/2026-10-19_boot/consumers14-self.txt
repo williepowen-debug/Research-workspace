@@ -1,0 +1,65 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 156 files under AGENTS/HENRY/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 7750 → current 7756
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (17)
+        AGENTS/HENRY/LAST_COMPLETION.md:15  [7750]
+           | Gamma (pre-open 10/8) | Dealers long gamma at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close]; walls withheld |
+        AGENTS/HENRY/NEXUS_BRIEF.md:12  [7750]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above. 
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:3  [7750]
+           **Last owner update:** 2026-10-08T08:25:29-04:00 — PROME WQ-389 due-row wake (`prome-fc`, Tier 1). **DOCKET L612 graded:** September ISM Ser
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-ledger.txt:74  [7750]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above.
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:10  [7750]
+           | Gamma (pre-open 10/8) | Dealers long gamma at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close]; walls withheld |
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:12  [7750]
+           - **Gamma 10/8 pre-open:** POS both horizons, flip 7,746–7,750, spot 7,801.77 [10/7 close]; walls withheld. PUBLISHED.tsv rows annotated (ga
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:14  [7750]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above.
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:18  [7750]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above.
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:20  [7750]
+           | 33 | 26 | ✅ | Gamma POSITIVE; flip ~7,746–7,750; SPX 7,765.36 "closed ~15–20 pts above it" | 7,765.36 minus 7,750 or 7,746 gives 15–19. |
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:22  [7750]
+           - HENRY gamma [10/8 pre-open, CBOE OI 10/7]: POSITIVE both horizons, flip ~7,746–7,750 — SPENT, that session only. Breadth: the slot-5 RSP-v
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:26  [7750]
+           gamma_flip_14d	7750	2026-10-08	cboe 4141 contracts; PRE-OPEN 08:18 ET 10/8 read: CBOE OI = 10/7 EOD; spot = ^GSPC 10/7 close 7,801.77 (+52/+
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:16  [7750]
+           - **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above.
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:34  [7750]
+           | 33 | 26 | ✅ | Gamma POSITIVE; flip ~7,746–7,750; SPX 7,765.36 "closed ~15–20 pts above it" | 7,765.36 minus 7,750 or 7,746 gives 15–19. |
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:38  [7750]
+           - HENRY gamma [10/8 pre-open, CBOE OI 10/7]: POSITIVE both horizons, flip ~7,746–7,750 — SPENT, that session only. Breadth: the slot-5 RSP-v
+        AGENTS/HENRY/status_archive/NEXUS_BRIEF_ROTATED_2026-09-28.md:23  [7750]
+           > **③ VIOLET / TERRY / ALL — GAMMA ≈ 0; EVERY HENRY WALL DATED BEFORE 9/24 IS VOID** (including 9/21's call 7,750 / put 7,700). **Flip band 
+        AGENTS/HENRY/workbook/PUBLISHED.tsv:96  [7750]
+           gamma_flip_35d	7746	2026-10-08	cboe 7307 contracts; PRE-OPEN 08:18 ET 10/8 read: CBOE OI = 10/7 EOD; spot = ^GSPC 10/7 close 7,801.77 (+52/+
+        AGENTS/HENRY/workbook/PUBLISHED.tsv:98  [7750]
+           gamma_flip_14d	7750	2026-10-08	cboe 4141 contracts; PRE-OPEN 08:18 ET 10/8 read: CBOE OI = 10/7 EOD; spot = ^GSPC 10/7 close 7,801.77 (+52/+
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (21)
+        AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-owner-boot-20261004-network.txt:31  [7750]  (no unit/series context on line)
+           Net GEX +12.0B/1% · put wall 7,700 · call wall 7,750   [14d, 4166 contracts, src=cboe]
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:30  [7750]  (no unit/series context on line)
+           `HENRY 2026-10-08 pre-open: flip ~7,750 (14d, 4,141 contracts) / ~7,746 (35d, 7,307 contracts), src=CBOE; spot 7,801.77 [^GSPC 10/7 close] →
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:32  [7750]  (no unit/series context on line)
+           - **Walls withheld:** 14d call near-tie (7,800 vs 8,000, 3% apart); 35d put ≡ call ≡ 8,000 (impossible as stated); the horizons disagree on 
+        AGENTS/HENRY/research/2026-10-19_boot/STATUS-before.md:87  [7750]  (no unit/series context on line)
+           | SPX | **7,801.77 [10/7 close]** · 7,818.93 [10/6] | <7,200 | <7,100 | <6,494 | 🟢 ABOVE the flip (~7,746–7,750, POS both horizons). 8.4% ab
+        AGENTS/HENRY/research/2026-10-19_boot/boot.txt:33  [7750]  (no unit/series context on line)
+           ⚠️  NEAR-TIE on the put wall (9% over #2) — report the BAND 7,700-7,750, NOT the bare strike
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:29  [7750]  (no unit/series context on line)
+           `HENRY 2026-10-08 pre-open: flip ~7,750 (14d, 4,141 contracts) / ~7,746 (35d, 7,307 contracts), src=CBOE; spot 7,801.77 [^GSPC 10/7 close] →
+        AGENTS/HENRY/research/2026-10-19_boot/consumers-self.txt:33  [7750]  (no unit/series context on line)
+           | SPX | **7,801.77 [10/7 close]** · 7,818.93 [10/6] | <7,200 | <7,100 | <6,494 | 🟢 ABOVE the flip (~7,746–7,750, POS both horizons). 8.4% ab
+        AGENTS/HENRY/research/2026-10-19_boot/consumers35.txt:43  [7750]  (no unit/series context on line)
+           `HENRY 2026-10-08 pre-open: flip ~7,750 (14d, 4,141 contracts) / ~7,746 (35d, 7,307 contracts), src=CBOE; spot 7,801.77 [^GSPC 10/7 close] →
+        … +13 more 🟠 hit(s) on [7750] across 8 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (4)  [--show-handled to audit]
+
+  🔴 17 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

@@ -1,0 +1,30 @@
+{
+  "AAL": {
+    "price": 11.68,
+    "prev": 11.88,
+    "change_pct": -1.68,
+    "name": "AAL",
+    "volume": 37049548,
+    "asof": "2026-10-19",
+    "prev_asof": "2026-10-16",
+    "contract_month": null,
+    "contract_basis": "name-carries-no-month:'American Airlines Group, Inc.' (instrumentType='EQUITY')",
+    "instrument_type": "EQUITY",
+    "is_future": false,
+    "contract_symbol": null
+  },
+  "LUV": {
+    "price": 38.8,
+    "prev": 39.5,
+    "change_pct": -1.77,
+    "name": "LUV",
+    "volume": 4441481,
+    "asof": "2026-10-19",
+    "prev_asof": "2026-10-16",
+    "contract_month": null,
+    "contract_basis": "name-carries-no-month:'Southwest Airlines Company' (instrumentType='EQUITY')",
+    "instrument_type": "EQUITY",
+    "is_future": false,
+    "contract_symbol": null
+  }
+}
