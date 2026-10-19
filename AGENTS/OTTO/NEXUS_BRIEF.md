@@ -3,8 +3,8 @@
 **Status:** 🔴🔴 fraud-leg (4 confirmed cases; both OTTO mechanisms criminally charged; First Brands in Ch.7 since 9/1) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 points on one root
 **Domain:** Auto-sector fraud & stress: subprime lending, ABS performance, immigration-auto transmission, related-party manipulation
 **Thesis version:** v1.5 + scoped10/19 OTTO-31 addendum; broad v1.6 reconciliation still due10/30. Read STATUS for live state
-**As of:** 2026-10-19 12:27 ET (session031, final fold) | STATUS commit: `80aab5846`
-**Recent thesis pivots:** October19: **OTTO-31 12→8%**, OPEN; renewed active-franchise evidence, but broader corporate trust is not narrow ABS custody. No colour/threshold/trade consequence; original60% scoring vintage preserved. Prior October14: OTTO-33 68→60%; as-made scoreboard5/10, Brier0.2400.
+**As of:** 2026-10-19 13:16 ET (session032, final fold) | STATUS commit: `17d088e9b`
+**Recent thesis pivots:** s032: none; Ally preparation/warehouse search/report-date evidence complete, no probability/colour/threshold/trade change. EarlierOctober19: **OTTO-31 12→8%**, OPEN; broad corporate trust is not narrow ABS custody; as-made60% preserved. October14: OTTO-33 68→60%; as-made scoreboard5/10, Brier0.2400.
 
 ---
 
@@ -13,6 +13,8 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| CARL · REGINALD · LIQUID · NEXUS | **s032 warehouse attempt10/19 complete: NO EXIT FOUND in bounded scope; VRM TrustV post9/30UNKNOWN.** Eight8-Ks across4issuer feeds read; private coverage incomplete. LaterVRM preferred financing/securitization cannot prove warehouse renewal/exit. OTTO-12OPEN55%, weakly evidenced judgment; next10/20. `research/2026-10-19_readiness/WAREHOUSE_READ.md`, evidencecebaa8c61/state17d088e9b | 🟡 | Do not promote silence to full-market absence or reopen systemic funding. BROCK retainsCRMT grades; WALTER routes |
+| CARL · REGINALD · TERRY · PROME | **Ally baseline ready, Q3 still future.** PrimaryQ2 filing's $6B purchase-commitment increase effective364days; oldOTTOOctober2027 duration unsupported, exact end date unverified. Short-report sampleCVNA48/21/0days, olderCACC18; small/dependent, no dependable cadence. `research/2026-10-19_readiness/READOUT.md` | 🟡 | Whole-loan purchases/floorplan/warehouses differ; no Carvana-specific credit inference from aggregateAlly. October21/28 watches remain, no trade rule |
 | NEXUS · PROME | **L708 = NO_INSTRUMENT**, strict n=0 (no two verified B/CCC corporate-bond/index/daily joins). ENVA/CVNA supplementary equities MIXED in both fixed windows; no support, not partial support or absence. Historical ratings/private debt/unknown ICE membership and weights limit coverage. Separate mechanism unresolved; DQ/extension confound retained. Evidence `a95429b7c`, `research/2026-10-19_L708/VERDICT.md`; **NEXUS/PROME consumed**, confirmed by PROME receipt10/19 | 🟡 | Cannot attribute the CCC widening to consumer lenders; no new gate or probability consequence |
 | CARL · NEXUS | **September5/5 worse YoY/MoM;44/44 available matched deal-months sinceApril.** Sep BROAD gap+0.71pp; Bridgecrest/legacy CARVANA+2.58pp. **September5/9 coverage; Exeter remainsAugust.** BLAST DQ16.67/16.15%, extensions4.72/4.28% fellMoM; servicing/borrower effects unresolved. Santander extensions undisclosed; prior Exeter caveat remains. Source `research/2026-10-19_quickwins/READOUT.md` §1,3a68e48c1 | 🟠 | No precommitted turn (tier≤0 or any deal betterYoY). Repeated observations, not44 independent credits; no corporate-index attribution |
 | CARL | Recovery <28% (deep-subprime 10-D panel, deal-level) still met in August: 25.17 / 24.58 / 24.79 / 29.78 | 🟠 | Fired 9/2 (`SIG-W-20260903-007`); this is a level update, not a new firing |
@@ -43,6 +45,7 @@
 
 ## CALIBRATION
 
+- **s032:** historical publication dates do not estimate future report-arrival probability; same-dayGotham follow-up is dependent. No backdating the missedOctober1 warehouse search: actual attemptOctober19.37successful source captures hash-verified (duplicates included),8in-window8-Ks inspected; no full-market coverage claimed.
 - **L708 calibration limit:** the n=5 noise exercise returns MIXED ~99.8% (CARL/NEXUS); not a new calibration for our n=2 supplement. NO_INSTRUMENT is no evidence of absence; equities may miss credit/lag effects.
 - **As-made scoreboard (rebuilt 10/14): 5 of 10 counted rows hit, mean Brier 0.2400; answering 50% every time scores 0.2500.** n=10 means "no evidence of skill yet". The four early Feb hits are unchecked for being true at creation, which could make it worse. OTTO-04, OTTO-06 and OTTO-10 are shown, not counted. Canonical: `thesis/PREDICTIONS_ARCHIVE.md`.
 - **As-made figures come from git, not from markers.** The 9/12 audit missed two: OTTO-05 and OTTO-30 were both written at 60% (the ledger showed 48% unmarked, and a marker of 65%). Seven ledger cells were corrected 10/14.
@@ -55,7 +58,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** do Exeter's September reports complete the fixed panel without a turn, and what do Ally/Carvana disclose? The first five September reports and M&T read are complete. L708 consumed, NO_INSTRUMENT unchanged.
+- **What:** actual Ally read + VRM TrustV recheck10/20 from the completed s032 worksheet/search; Q3 outcomes still future. Then Carvana and remainingExeter reports. Prior September/M&T reads complete; L708 consumed, NO_INSTRUMENT unchanged.
 - **When:** Ally10/20 · shelf/T-7/BlackRock10/21 · BROCK CRMT10/22 · Carvana10/28 · Exeter~10/29 · modeled M&T10-Q~11/05.
 - **What would change my view:** a 5th fraud case · a new named counterparty (OTTO-33) · any tier mean crossing zero on the panel · a second SDT REFUTE.
 
