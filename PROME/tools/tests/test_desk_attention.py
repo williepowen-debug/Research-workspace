@@ -1,6 +1,7 @@
 """Behavioral checks for operator decisions, contract coverage and stale evidence."""
 import csv
 import datetime as dt
+import json
 from pathlib import Path
 import shutil
 import sys
@@ -133,9 +134,11 @@ class AttentionTests(unittest.TestCase):
 
     def test_failed_attention_does_not_advance_dashboard_baseline(self):
         with tempfile.TemporaryDirectory() as d:
-            out,state=Path(d)/'out.html',Path(d)/'state.json';state.write_text('before')
-            with patch.object(fd,'STATE_PATH',str(state)),patch.object(fd,'build',return_value=('visible error',{'heartbeat_errors':[],'attention_errors':['missing source']})),patch.object(sys,'argv',['fleet_dashboard','-o',str(out)]):
+            out,state,receipt=Path(d)/'out.html',Path(d)/'state.json',Path(d)/'build.json';state.write_text('before')
+            # BUILD_PATH patched too: unpatched, this test overwrote the real PROME/tools/dashboard_build.json (found 2026-10-18).
+            with patch.object(fd,'STATE_PATH',str(state)),patch.object(fd,'BUILD_PATH',str(receipt)),patch.object(fd,'build',return_value=('visible error',{'heartbeat_errors':[],'attention_errors':['missing source']})),patch.object(sys,'argv',['fleet_dashboard','-o',str(out)]):
                 self.assertEqual(fd.main(),1)
             self.assertEqual(state.read_text(),'before')
+            self.assertFalse(json.loads(receipt.read_text())['ok'])
 
 if __name__=='__main__':unittest.main()
