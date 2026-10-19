@@ -3,7 +3,7 @@
 **Status:** 🔴🔴 fraud-leg (4 confirmed cases; both OTTO mechanisms criminally charged; First Brands in Ch.7 since 9/1) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 points on one root
 **Domain:** Auto-sector fraud & stress: subprime lending, ABS performance, immigration-auto transmission, related-party manipulation
 **Thesis version:** v1.5 + scoped10/19 factual/rule/calibration addendum; finalv1.6, earnings/risk audit/recovery rung and cold read still due10/30
-**As of:** 2026-10-19 14:36 ET (session035, final fold) | STATUS commit: `7a690e796`
+**As of:** 2026-10-19 14:42 ET (publication authorization follow-up) | STATUS commit: `586b33778`
 **Recent thesis pivots:** s034 warehouse55→25%OPEN subjective; credit-washingSTUCK; strict original forecast score3/8,0.276875. SDT consequence restored to original3consecutive total; no numerical threshold/colour/convergence/trade change. s033 JulyAlly$8B/July2027 with immediate cancellation discretion remains; no actual cancellation established. OTTO-31 remains8%OPEN.
 
 ---
@@ -59,6 +59,8 @@
 - **Cross-agent tensions known to me:** "subprime ABS primary market open" vs any acute funding-freeze framing (LIQUID/BROCK). A scope boundary, not a contradiction; OTTO's shelf reading is 86 days old until the 10/21 re-run. L708 does not establish consumer causation of CCC widening.
 
 ## NEXT DECISION POINT
+
+Publication follow-up10/19: Will explicitly authorized safe fast-forward push after s035, superseding its earlier push hold for this publication. This authorization is not a remote receipt; research/approval boundaries unchanged.
 
 - **What:** actual Ally read + VRM TrustV recheck10/20 from the completed s032 worksheet/search; Q3 outcomes still future. Then Carvana and remainingExeter reports. Prior September/M&T reads complete; L708 consumed, NO_INSTRUMENT unchanged.
 - **When:** Ally10/20 · shelf/T-7/BlackRock10/21 · BROCK CRMT10/22 · Carvana10/28 · Exeter~10/29 · modeled M&T10-Q~11/05.
