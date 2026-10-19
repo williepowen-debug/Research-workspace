@@ -32,7 +32,7 @@
 
 | Field | Value | Source / vintage | Confidence |
 |---|---|---|---|
-| Shares | **37** | `FORGE/STATUS.md` mirror, 9/3 reconcile (ANVIL, Fidelity IRA 216461326 positions view ~15:07 ET) | **INFERRED** — a dated MIRROR count, **not live holdings** |
+| Shares | **37** | `FORGE/STATUS.md` mirror, 9/3 reconcile (ANVIL, Fidelity IRA •1326 positions view ~15:07 ET) | **INFERRED** — a dated MIRROR count, **not live holdings** |
 | Basis | **$122.28 / sh = $4,524.36** | same mirror | **INFERRED** — state-file basis, confirm at any fill (Non-Negotiable #4) |
 | Close | **$149.97 (+2.70%)** | Yahoo **MIRROR**, `fetch.py price USO`, as-of 2026-09-09, **pulled 21:07:04 ET** | **VERIFIED** at the pull |
 | Market value | **$5,548.89** | 37 × $149.97 | VERIFIED (arithmetic) |

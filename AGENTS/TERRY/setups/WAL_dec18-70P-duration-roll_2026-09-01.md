@@ -32,7 +32,7 @@
 ## 0. Missing inputs / hard caveats
 - [x] Live price checked — WAL $77.26 close 9/1 (−1.11%); KRE $72.62 (−1.28%) — **RED day ⇒ no fill today (root rule #6). No break offered; none exists** (REGINALD's cohort sort says sector beta = the proxy working, not failing).
 - [x] Option chain checked — Dec-18 $70P **bid 2.05 / ask 2.75 / mark 2.40**, IV 35.3%, OI 31, vol 6, last trade 8/27 · Nov-20 $70P **1.70 / 2.35 / 2.02**, IV 37.6%, OI 28, last trade 9/1 11:16 · Sep-18 $70P 0.20/0.40, $67.5P 0.10/0.25 (pair ≈ **$30 at the bid**, $47 at last). REGINALD's 9/1 reads (Dec-18 $2.50 last / $2.75 ask · Nov-20 $1.86 / $2.35) **reconcile** — same ask on both; his "last" on Dec-18 is the 8/27 print.
-- [x] Existing position truth — `FORGE` 8/29: **WAL $67.5P ×1 + $70P ×1, Sep-18-2026, Fidelity IRA 216461326, basis $1,519.34 ($7.69 + $7.51)**; 12 sessions to expiry. ⚠️ Basis is a state-file figure (RISK_RULES #4) — confirm at fill. **HELD TO EXPIRY per Will's ruling; nothing sold.**
+- [x] Existing position truth — `FORGE` 8/29: **WAL $67.5P ×1 + $70P ×1, Sep-18-2026, Fidelity IRA •1326, basis $1,519.34 ($7.69 + $7.51)**; 12 sessions to expiry. ⚠️ Basis is a state-file figure (RISK_RULES #4) — confirm at fill. **HELD TO EXPIRY per Will's ruling; nothing sold.**
 - [x] Catalyst dates — WAL Q3 print **NOT ANNOUNCED** (REGINALD 8/27: established absence; announcement expected ~Oct 1–6; pattern ESTIMATE Tue Oct 20 AMC — **do not key anything to the estimate**). Both candidate expiries span it: Nov-20 (~23 sessions post-print), Dec-18 (~42).
 - [x] Thesis owner current — WAL desk re-based 8/28 (EV $75.96 unchanged since v2.4 8/20); REGINALD graded the fire 9/1 at the instrument.
 
@@ -66,7 +66,7 @@
 - **Same-day form for the fire packet:** `chain_fetch.py WAL 2026-12-18 --type put --legs 70 --no-cache` at fill-time; `snapshot.py WAL --benchmark KRE`; the live Fidelity book. Numbers go on this card under §10 with the wall-clock stamp (RISK_RULES 6b/#14).
 
 ## 5. Structure
-- **Instrument:** **BUY 1 × WAL Dec-18-2026 $70 PUT**, ~~Fidelity IRA (same account as the pair)~~ → **FILLED IN ROBINHOOD (Individual) 9/2 — a DIFFERENT account from the Sep-18 pair (Fidelity IRA 216461326). Will's placement, not the card's; consequences in §5c.**
+- **Instrument:** **BUY 1 × WAL Dec-18-2026 $70 PUT**, ~~Fidelity IRA (same account as the pair)~~ → **FILLED IN ROBINHOOD (Individual) 9/2 — a DIFFERENT account from the Sep-18 pair (Fidelity IRA •1326). Will's placement, not the card's; consequences in §5c.**
 - **Expiry / tenor:** Dec-18-2026 — **108 calendar / ~76 trading days**. Nov-20 (80 cal / ~57 td) is the registered alternative (§5b).
 - **Strike:** **$70** — SAME as the Sep-18 $70P leg. ⚠️ **RISK_RULES #21 definition check, said in those words:** *same underlying · same strike · later expiry* ⇒ this IS a "roll" of the $70P leg by the #21 guard, so the 60–90 DTE **entry-economics band does not bind** — **BUT the Sep-18 leg is HELD, not closed**, so no proceeds offset the new debit. Economically this is a roll whose close-leg is worth **$20 at the bid** and is being left to run rather than sold (Will's ruling: *nothing left to save*). The card treats that $20 as forgone, not as a reason to relabel. The $67.5P leg is **NOT rolled** (Will's shape: ×1 at $70 only).
 - **Alternatives considered:**
