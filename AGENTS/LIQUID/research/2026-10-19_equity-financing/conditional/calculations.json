@@ -1,0 +1,36 @@
+{
+  "units": "USD millions unless stated",
+  "MOS_tender_accepted": {
+    "by_series": {
+      "2027": "395.103",
+      "7.30_2028": "38.931",
+      "5.375_2028": "275.878",
+      "2029": "161.074"
+    },
+    "total": "870.986",
+    "state": "accepted for scheduled August18 settlement; not bank-statement payment certification"
+  },
+  "MOS_remaining_redemption": {
+    "parts": [
+      "304.897",
+      "108.211",
+      "124.122"
+    ],
+    "total": "537.230",
+    "state": "August28 notice for September28; actual payment UNKNOWN"
+  },
+  "MOS_new_coupon_annual": "111.2500",
+  "ADM_new_coupon_annual": "50.49000",
+  "ADM_conditional_same_principal_increment": "25.49000",
+  "WYNN_conditional_same_880_increment": "14.30000",
+  "HII_H1_interest_change_pct": "-12.500",
+  "CPRT_combined_statement_cash_investments": "4489.802",
+  "CPRT_caveat": "cash row includes restricted cash; no October post-acquisition liquidity calculated",
+  "created_at": "2026-10-19T18:47:29-04:00",
+  "MOS_730_principal_discrepancy": {
+    "tender_prior_outstanding": "147.100",
+    "accepted_plus_notice_remaining": "147.142",
+    "difference": "0.042",
+    "interpretation": "Public reported figures differ;do not force exact bridge or infer error/breach"
+  }
+}

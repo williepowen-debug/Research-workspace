@@ -1,0 +1,57 @@
+"""Validate this dated research packet; not a monitor or credit-health certificate."""
+from pathlib import Path
+from decimal import Decimal as D
+from datetime import date
+import csv, hashlib, json, tarfile, subprocess
+P=Path(__file__).resolve().parent
+ROOT=Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())
+checks=[]
+def check(name,condition):
+    checks.append((name,bool(condition)))
+c=json.loads((P/'calculations.json').read_text())
+check('MOS four accepted principal amounts sum to870.986',sum(map(D,c['MOS_tender_accepted']['by_series'].values()))==D('870.986'))
+check('MOS scheduled remaining principal sum537.230',sum(map(D,c['MOS_remaining_redemption']['parts']))==D('537.230'))
+check('MOS2027 accepted+remaining ties to700',D('395.103')+D('304.897')==D('700'))
+check('MOS5.375_2028 accepted+remaining ties to400',D('275.878')+D('124.122')==D('400'))
+check('MOS7.30_2028 discrepancy retained,not forced to zero',D('38.931')+D('108.211')-D('147.100')==D(c['MOS_730_principal_discrepancy']['difference'])==D('.042'))
+check('MOS new annual coupon111.25,not net incremental interest',D('1000')*D('.0535')+D('500')*D('.0565')+D('500')*D('.059')==D(c['MOS_new_coupon_annual']))
+check('ADM new coupon50.49',D('500')*D('.04829')+D('500')*D('.05269')==D(c['ADM_new_coupon_annual']))
+check('ADM conditional25.49increment on same1000principal',D(c['ADM_new_coupon_annual'])-D('25')==D(c['ADM_conditional_same_principal_increment']))
+check('WYNN same880conditionalincrement14.3',D('880')*(D('.06875')-D('.0525'))==D(c['WYNN_conditional_same_880_increment']))
+check('HII H1interest decline12.5percent',((D('49')/D('56'))-1)*100==D(c['HII_H1_interest_change_pct']))
+check('CPRT gross statement sum4489.802',D('1907.901')+D('2581.901')==D(c['CPRT_combined_statement_cash_investments']))
+check('CPRT line net1227.5 after22.5LC',D('1250')-D('22.5')==D('1227.5'))
+check('SBUX May repurchase1315.9',sum(map(D,['273.5','321.8','110.4','410.2','200']))==D('1315.9'))
+lo=date(2026,9,21);m12=date(2027,9,21);m24=date(2028,9,21)
+for due,within24 in [('2027-12-01',True),('2028-08-16',True),('2028-12-01',False)]:
+    dt=date.fromisoformat(due);check('HII '+due+' correct rolling12/24 window',dt>m12 and (lo<dt<=m24)==within24)
+rows=list(csv.DictReader((P/'funding-evidence.tsv').open(),delimiter='\t'))
+check('exact9issuer/control rows',len(rows)==9 and len({r['symbol'] for r in rows})==9)
+check('primary4 preserved',set(r['symbol'] for r in rows if r['role']=='primary')=={'MOS','HII','ADM','CPRT'})
+check('secondary3 preserved',set(r['symbol'] for r in rows if r['role']=='secondary')=={'MGM','MCD','PCAR'})
+check('only accepted2controls',set(r['symbol'] for r in rows if r['role'].startswith('control:'))=={'WYNN','SBUX'})
+r=json.loads((P/'henry-consumption.json').read_text());source=ROOT/r['source'];consumed=subprocess.check_output(['git','show',r['commit']+':'+r['source']],cwd=ROOT)
+check('exact consumed HENRY committed SHA',hashlib.sha256(consumed).hexdigest()==r['sha256']=='7667de05aafc30edf6276b597454e5fd2cc191fd1ecc7bedf32a4af2ee960984')
+check('receipt records primary4unmatched',r['primary_unmatched'] is True)
+manifest=json.loads((P/'source-archive-manifest.json').read_text())
+check('archive hash equality',hashlib.sha256((P/manifest['archive']).read_bytes()).hexdigest()==manifest['sha256'])
+with tarfile.open(P/manifest['archive']) as ar:
+    actual=ar.getnames();check('all archive members flat and safe',all('/' not in n and n not in ['.','..'] for n in actual))
+    check('all68members accounted for',len(actual)==len(manifest['members'])==68)
+    check('every archived source size/hash matches',all(len(ar.extractfile(x['member']).read())==x['bytes'] and hashlib.sha256(ar.extractfile(x['member']).read()).hexdigest()==x['sha256'] for x in manifest['members']))
+    check('failed MOS direct request not parsed as statement','MOS-tender.html' in actual and 'MOS-tender.txt' not in actual)
+    check('CPRT annual direct source preserved',len(ar.extractfile('CPRT-annual.html').read())==4477121)
+    check('receipt source hashes match actual successfulresponses',all(hashlib.sha256(ar.extractfile(x['id']+('.json' if x['id'].endswith('submissions') else '.html')).read()).hexdigest()==x['sha256'] for f in ['fetch-receipts.json','followup-fetch-receipts.json','contract-fetch-receipts.json'] for x in json.loads((P/f).read_text()) if x.get('status')==200))
+events=list(csv.DictReader((P/'events.tsv').open(),delimiter='\t'))
+check('22datedevents retained',len(events)==22)
+check('MOS redemption remains notice,not completed',any(x['symbol']=='MOS' and x['event_or_due_date']=='2026-09-28' and 'actual payment UNKNOWN' in x['evidence_state'] for x in events))
+check('ADM past maturity repayment remains unknown',any(x['symbol']=='ADM' and x['event_or_due_date']=='2026-08-11' and 'repayment UNKNOWN' in x['evidence_state'] for x in events))
+check('CPRT completion explicitly currentOct16',any(x['symbol']=='CPRT' and x['event_or_due_date']=='2026-10-16' and 'COMPLETED' in x['evidence_state'] for x in events))
+check('CPRT annual publicationafter20formation',next(x for x in events if x['symbol']=='CPRT' and x['event_type']=='statement')['public_date']>'2026-09-21')
+baseline=json.loads((P/'invariant-baseline.json').read_text());status=(ROOT/'AGENTS/LIQUID/STATUS.md').read_text();gates='\n'.join(x for x in status.splitlines() if x.startswith('| **GATE'))
+check('all5gaterows unchanged',len(gates.splitlines())==5 and hashlib.sha256(gates.encode()).hexdigest()==baseline['gate_sha256'])
+check('workbook byte hashes unchanged',all(hashlib.sha256((ROOT/k).read_bytes()).hexdigest()==v for k,v in baseline['workbook_sha256'].items()))
+check('STATUS below250lines and75percentrotationtrigger',len(status.splitlines())<250 and len(status.encode())<24412)
+for name,ok in checks:print(('PASS' if ok else 'FAIL')+' '+name)
+print(f'{sum(ok for _,ok in checks)}/{len(checks)} checks passed; not causal/source-completeness certification.')
+raise SystemExit(0 if all(ok for _,ok in checks) else 1)

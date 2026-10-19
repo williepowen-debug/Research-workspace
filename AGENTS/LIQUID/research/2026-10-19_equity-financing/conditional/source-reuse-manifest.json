@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "HII",
+    "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000047/hii-20260630.htm",
+    "source_owner_path": "AGENTS/HENRY/research/2026-10-19_repeat-losers/raw/issuer-HII.html",
+    "sha256": "11fc6e5077a96de088a17b57ed13129b2361473b39b6a5df9edf8c5f525d9ca8",
+    "bytes": 1976867,
+    "consumed_at": "2026-10-19T18:40:55-04:00",
+    "method": "reused preserved primary HTML, independently read by LIQUID; owner equity computations not rerun"
+  },
+  {
+    "symbol": "ADM",
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000042/adm-20260630.htm",
+    "source_owner_path": "AGENTS/HENRY/research/2026-10-19_repeat-losers/raw/issuer-ADM.html",
+    "sha256": "1f98977fd2727c5463255f8259def5dd1d230be3c47653b2e9e9b111dc7902af",
+    "bytes": 2300544,
+    "consumed_at": "2026-10-19T18:40:55-04:00",
+    "method": "reused preserved primary HTML, independently read by LIQUID; owner equity computations not rerun"
+  },
+  {
+    "symbol": "MCD",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000073/mcd-20260630.htm",
+    "source_owner_path": "AGENTS/HENRY/research/2026-10-19_repeat-losers/raw/issuer-MCD.html",
+    "sha256": "70592e22ce16ca7f4b7fc93f3a4506745d5283fae4b38690456d3c23fba3e741",
+    "bytes": 1522363,
+    "consumed_at": "2026-10-19T18:40:55-04:00",
+    "method": "reused preserved primary HTML, independently read by LIQUID; owner equity computations not rerun"
+  },
+  {
+    "symbol": "SBUX",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/sbux-20260628.htm",
+    "source_owner_path": "AGENTS/HENRY/research/2026-10-19_repeat-losers/raw/issuer-SBUX.html",
+    "sha256": "821398fadf2b76fb6f1ba8165ee228ba5d0bce627601464a48c9eacb5ea0387b",
+    "bytes": 2719730,
+    "consumed_at": "2026-10-19T18:40:55-04:00",
+    "method": "reused preserved primary HTML, independently read by LIQUID; owner equity computations not rerun"
+  },
+  {
+    "symbol": "PCAR",
+    "url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526323642/pcar-20260630.htm",
+    "source_owner_path": "AGENTS/HENRY/research/2026-10-19_repeat-losers/raw/issuer-PCAR.html",
+    "sha256": "65702a6c95a678ef7fddfdd18a47657d2df3aa3a1dfce265c5b6004689403d0d",
+    "bytes": 7450990,
+    "consumed_at": "2026-10-19T18:40:55-04:00",
+    "method": "reused preserved primary HTML, independently read by LIQUID; owner equity computations not rerun"
+  }
+]

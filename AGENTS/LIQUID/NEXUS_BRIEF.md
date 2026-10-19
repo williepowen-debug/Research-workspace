@@ -4,7 +4,7 @@
 
 **After-close review / local closeout:** 2026-10-19T18:10:08-04:00. WALTER015–018 integrated; new contract evidence at `research/2026-10-19_equity-financing/RESULT.md`. Morning evidence frontiers above remain dated; FRED-only boot advanced H.15 toOctober16. No new gate grade.
 
-**Will workflow clarification:** New HENRY conditional index/sector-up shortlist pending; earlier8-name total-loss screen is retained separately. LIQUID acknowledgment, timing tests and financing falsifiers → `research/2026-10-19_equity-financing/ASSIGNMENT-ACK.md`. Recent equal-weight recovery remains counterevidence.
+**Final conditional cohort consumed:** HENRY4261b747e;9issuer/control financing checks → `research/2026-10-19_equity-financing/conditional/RESULT.md`. Public access/cost evidence is heterogeneous; no common funding-refusal cause established. Four primary names remain unmatched; exact cash/event bridges and current credit evidence are incomplete. Recent equal-weight recovery remains counterevidence.
 
 ## Current judgment
 
@@ -18,7 +18,7 @@ CoreWeave standard uncapped December2031 DTCC upfronts remained15.90–18.89pt [
 
 ## Counterevidence and limits
 
-Financing vulnerability has not been isolated as the cause of persistent equity losses. The checked transactions show continued access at differing costs and conditions; higher interest expense can also reflect debt volume. Cruise relative lag is not an absolute loss. HENRY owns weak-name selection and industry/size matching; his working8-name/four-contrast result is screened, final COHORT6474d8726 consumed; complete formation-date liquidity/maturity bridges remain outstanding. The joint result is PARTIAL. Exclusions and falsifiers are saved with the contract evidence; no new monitor, threshold or trade authority.
+Financing vulnerability has not been isolated as the cause of persistent equity losses. The checked transactions show continued access at differing costs and conditions; higher interest expense can also reflect debt volume. Cruise relative lag is not an absolute loss. HENRY’s final conditional4261b747e cohort is now consumed separately from the earlier8-name total-loss study. Four primary names have no accepted stronger industry/size control;9funding rows and dated events are reconciled as far as public evidence supports, with remaining bridges/certificates explicit. The joint result is PARTIAL. Exclusions and falsifiers are saved with the contract evidence; no new monitor, threshold or trade authority.
 
 HYG/JNK both created shares Friday (+3.4M/+0.2M) despite credit losses; earlier redemption windows remain dated. Share changes need not be settled cash. ICI weekOctober14 assets fell$40.46B, with government and prime both down: no demonstrated prime-to-government rotation, no MMF maturity/cash-origin measurement. Car-Mart temporary relief extends toOctober22; it establishes neither a permanent waiver nor funded rescue. Continued named financing and selected borrower stress coexist. OTTO’s September panel is5/9 deals; HOMER’s coverage stress is a selected multifamily reporting subset. Neither is a census or measured bank loss.
 

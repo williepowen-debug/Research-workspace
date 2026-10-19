@@ -1,0 +1,138 @@
+[
+  {
+    "id": "HII-annual",
+    "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+    "retrieved_at": "2026-10-19T22:41:56.637139+00:00",
+    "status": 200,
+    "bytes": 3019818,
+    "sha256": "bc51ff5f1b86e4a91273341c59323e35c8cf5f5596b71006fb819fa9d34090ff"
+  },
+  {
+    "id": "ADM-annual",
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000011/adm-20251231.htm",
+    "retrieved_at": "2026-10-19T22:41:56.637514+00:00",
+    "status": 200,
+    "bytes": 3215235,
+    "sha256": "8ccdc5ec06ee09cc3a813c05270cbd5bea3017f482b407698602a19c75c020ee"
+  },
+  {
+    "id": "ADM-2026-08-10-342579",
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312526342579/d102470d8k.htm",
+    "retrieved_at": "2026-10-19T22:41:56.639574+00:00",
+    "status": 200,
+    "bytes": 27081,
+    "sha256": "575953aefd33317010771776d9ee7d9ebd13127c3400f59bf1aa0ac9e39682bb"
+  },
+  {
+    "id": "ADM-2026-08-06-338069",
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312526338069/d168347d424b2.htm",
+    "retrieved_at": "2026-10-19T22:41:56.640344+00:00",
+    "status": 200,
+    "bytes": 418380,
+    "sha256": "01a297876766b1fe13ef3174c0de65515a39e84d0ee1ad1eed2380a696bb1e04"
+  },
+  {
+    "id": "MOS-annual",
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm",
+    "retrieved_at": "2026-10-19T22:41:56.861244+00:00",
+    "status": 200,
+    "bytes": 4038995,
+    "sha256": "1de563864bbc7f52220dcdb0d75dc565e83b71d58d4ab7bc2ed4fa3ac86a5a04"
+  },
+  {
+    "id": "MOS-2026-08-28-000122",
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000122/a8-kxredemptionmakewhole8xk.htm",
+    "retrieved_at": "2026-10-19T22:41:57.742199+00:00",
+    "status": 200,
+    "bytes": 34102,
+    "sha256": "1fbdb9f161a2aeab32587f6acd9f1ceb08dd512051dec8cdf53836fae5cda647"
+  },
+  {
+    "id": "MOS-2026-08-17-354095",
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526354095/d168739d8k.htm",
+    "retrieved_at": "2026-10-19T22:41:57.793349+00:00",
+    "status": 200,
+    "bytes": 34045,
+    "sha256": "8814fcaea0c9242683bde35848a24bfdd703cea7516fad05be5cc0aeb6ec2248"
+  },
+  {
+    "id": "MOS-2026-08-17-353193",
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526353193/d172855d8k.htm",
+    "retrieved_at": "2026-10-19T22:41:57.919627+00:00",
+    "status": 200,
+    "bytes": 26554,
+    "sha256": "b277dc9da8bd8f74ebd10dab9c39e46bd7c843ce878706ce7c1a9e41d0a399b9"
+  },
+  {
+    "id": "MCD-annual",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+    "retrieved_at": "2026-10-19T22:41:58.103620+00:00",
+    "status": 200,
+    "bytes": 2182747,
+    "sha256": "22b83253fcaa63dc72b53beae01299c9e19c95e8069440d93b3f01e13221b075"
+  },
+  {
+    "id": "MCD-2026-09-23-000076",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/mcd-20260923.htm",
+    "retrieved_at": "2026-10-19T22:41:58.266856+00:00",
+    "status": 200,
+    "bytes": 32559,
+    "sha256": "181c09608b29477c5af1622fc83e99161ef67d0910d9ca114c2004b009099ddf"
+  },
+  {
+    "id": "PCAR-annual",
+    "url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526057025/pcar-20251231.htm",
+    "retrieved_at": "2026-10-19T22:41:58.714308+00:00",
+    "status": 200,
+    "bytes": 9188840,
+    "sha256": "478c3a1be4a7999acf1e4ab955623911824d8dc37c6d24c8387b52e3fe3b40ea"
+  },
+  {
+    "id": "WYNN-2026-09-22-000069",
+    "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000069/wynn-20260922.htm",
+    "retrieved_at": "2026-10-19T22:41:58.715916+00:00",
+    "status": 200,
+    "bytes": 35670,
+    "sha256": "7b8aabfb1ce7d38491f8c51a9edd544a01b7e5e6b44e71bcfa40a71ce9e4b1ac"
+  },
+  {
+    "id": "WYNN-2026-09-11-000066",
+    "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000066/wynn-20260910.htm",
+    "retrieved_at": "2026-10-19T22:41:59.052040+00:00",
+    "status": 200,
+    "bytes": 32432,
+    "sha256": "4a950071287010587e30485ff3a4a732f5d2247854ef0d45c23e9e02eb9b95c9"
+  },
+  {
+    "id": "WYNN-2026-07-22-000047",
+    "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000047/wynn-20260721.htm",
+    "retrieved_at": "2026-10-19T22:41:59.404908+00:00",
+    "status": 200,
+    "bytes": 36829,
+    "sha256": "54d149a27650180f260f7a0fced3d5ef7041ed04e7fbde53e7a571f6112ffb5e"
+  },
+  {
+    "id": "SBUX-2026-09-24-000145",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000145/sbux-20260922.htm",
+    "retrieved_at": "2026-10-19T22:41:59.549521+00:00",
+    "status": 200,
+    "bytes": 26188,
+    "sha256": "85ed275b1dc135afa5fa57099ebf0481dccb629780571c7052646e214e7de89f"
+  },
+  {
+    "id": "CPRT-2026-10-16-424052",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526424052/d177727d8k.htm",
+    "retrieved_at": "2026-10-19T22:41:59.664248+00:00",
+    "status": 200,
+    "bytes": 31305,
+    "sha256": "cf5e2789123764d189d75a19a0f2c2e8a202516a67d5c26f81a7cdb5060f0e02"
+  },
+  {
+    "id": "CPRT-2026-10-16-423478",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526423478/d129535d8k.htm",
+    "retrieved_at": "2026-10-19T22:41:59.742373+00:00",
+    "status": 200,
+    "bytes": 37650,
+    "sha256": "473a543cbee6425db5b95a9fe296a56e7cf8c1dfb968972885f86d4157e920ce"
+  }
+]

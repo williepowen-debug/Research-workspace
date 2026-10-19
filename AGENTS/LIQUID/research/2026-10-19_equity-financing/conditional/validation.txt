@@ -1,0 +1,38 @@
+PASS MOS four accepted principal amounts sum to870.986
+PASS MOS scheduled remaining principal sum537.230
+PASS MOS2027 accepted+remaining ties to700
+PASS MOS5.375_2028 accepted+remaining ties to400
+PASS MOS7.30_2028 discrepancy retained,not forced to zero
+PASS MOS new annual coupon111.25,not net incremental interest
+PASS ADM new coupon50.49
+PASS ADM conditional25.49increment on same1000principal
+PASS WYNN same880conditionalincrement14.3
+PASS HII H1interest decline12.5percent
+PASS CPRT gross statement sum4489.802
+PASS CPRT line net1227.5 after22.5LC
+PASS SBUX May repurchase1315.9
+PASS HII 2027-12-01 correct rolling12/24 window
+PASS HII 2028-08-16 correct rolling12/24 window
+PASS HII 2028-12-01 correct rolling12/24 window
+PASS exact9issuer/control rows
+PASS primary4 preserved
+PASS secondary3 preserved
+PASS only accepted2controls
+PASS exact consumed HENRY committed SHA
+PASS receipt records primary4unmatched
+PASS archive hash equality
+PASS all archive members flat and safe
+PASS all68members accounted for
+PASS every archived source size/hash matches
+PASS failed MOS direct request not parsed as statement
+PASS CPRT annual direct source preserved
+PASS receipt source hashes match actual successfulresponses
+PASS 22datedevents retained
+PASS MOS redemption remains notice,not completed
+PASS ADM past maturity repayment remains unknown
+PASS CPRT completion explicitly currentOct16
+PASS CPRT annual publicationafter20formation
+PASS all5gaterows unchanged
+PASS workbook byte hashes unchanged
+PASS STATUS below250lines and75percentrotationtrigger
+37/37 checks passed; not causal/source-completeness certification.

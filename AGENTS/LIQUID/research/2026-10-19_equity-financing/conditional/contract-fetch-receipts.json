@@ -1,0 +1,26 @@
+[
+  {
+    "id": "CPRT-offer",
+    "url": "https://www.sec.gov/Archives/edgar/data/1637873/000119312526393827/d160557dex99a1i.htm",
+    "retrieved_at": "2026-10-19T22:44:48.484926+00:00",
+    "status": 200,
+    "bytes": 442604,
+    "sha256": "7a28e4fb37cd2263d4cd98c07fd8cb3898aa64086e9c413b3c83719a4d35918e"
+  },
+  {
+    "id": "CPRT-credit",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526022730/d64083dex101.htm",
+    "retrieved_at": "2026-10-19T22:44:48.623782+00:00",
+    "status": 200,
+    "bytes": 1295289,
+    "sha256": "394bd4c150a3cce88098ab8713cd68192291bdc57213d5329aadc6ce51d3a18b"
+  },
+  {
+    "id": "HII-credit",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001501585/000119312524220532/d884280dex101.htm",
+    "retrieved_at": "2026-10-19T22:44:49.008288+00:00",
+    "status": 200,
+    "bytes": 937641,
+    "sha256": "943d52d8e78f9626dab9f8d4e7544486da29d5b1c64abf965652619fb8332d09"
+  }
+]

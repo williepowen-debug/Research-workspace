@@ -1,0 +1,82 @@
+[
+  {
+    "accessionNumber": "0001285785-26-000125",
+    "filingDate": "2026-09-25",
+    "reportDate": "2026-09-23",
+    "form": "8-K",
+    "primaryDocument": "formxchangeofofficerssepte.htm",
+    "items": "5.02"
+  },
+  {
+    "accessionNumber": "0001285785-26-000122",
+    "filingDate": "2026-08-28",
+    "reportDate": "2026-08-28",
+    "form": "8-K",
+    "primaryDocument": "a8-kxredemptionmakewhole8xk.htm",
+    "items": "2.04"
+  },
+  {
+    "accessionNumber": "0001193125-26-354095",
+    "filingDate": "2026-08-17",
+    "reportDate": "2026-08-17",
+    "form": "8-K",
+    "primaryDocument": "d168739d8k.htm",
+    "items": "2.03,8.01,9.01"
+  },
+  {
+    "accessionNumber": "0001193125-26-353193",
+    "filingDate": "2026-08-17",
+    "reportDate": "2026-08-17",
+    "form": "8-K",
+    "primaryDocument": "d172855d8k.htm",
+    "items": "8.01,9.01"
+  },
+  {
+    "accessionNumber": "0001193125-26-352365",
+    "filingDate": "2026-08-14",
+    "reportDate": "2026-08-14",
+    "form": "8-K",
+    "primaryDocument": "d178370d8k.htm",
+    "items": "8.01,9.01"
+  },
+  {
+    "accessionNumber": "0001193125-26-347026",
+    "filingDate": "2026-08-12",
+    "reportDate": "",
+    "form": "424B5",
+    "primaryDocument": "d292796d424b5.htm",
+    "items": ""
+  },
+  {
+    "accessionNumber": "0001193125-26-341391",
+    "filingDate": "2026-08-10",
+    "reportDate": "2026-08-10",
+    "form": "8-K",
+    "primaryDocument": "d319503d8k.htm",
+    "items": "8.01,9.01"
+  },
+  {
+    "accessionNumber": "0001193125-26-341376",
+    "filingDate": "2026-08-10",
+    "reportDate": "",
+    "form": "424B5",
+    "primaryDocument": "d292796d424b5.htm",
+    "items": ""
+  },
+  {
+    "accessionNumber": "0001285785-26-000112",
+    "filingDate": "2026-08-05",
+    "reportDate": "2026-06-30",
+    "form": "10-Q",
+    "primaryDocument": "mos-20260630.htm",
+    "items": ""
+  },
+  {
+    "accessionNumber": "0001285785-26-000109",
+    "filingDate": "2026-08-04",
+    "reportDate": "2026-08-04",
+    "form": "8-K",
+    "primaryDocument": "mos-20260804.htm",
+    "items": "2.02,9.01"
+  }
+]

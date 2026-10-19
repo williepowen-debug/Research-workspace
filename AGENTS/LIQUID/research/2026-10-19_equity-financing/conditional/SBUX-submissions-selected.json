@@ -1,0 +1,26 @@
+[
+  {
+    "accessionNumber": "0000829224-26-000145",
+    "filingDate": "2026-09-24",
+    "reportDate": "2026-09-22",
+    "form": "8-K",
+    "primaryDocument": "sbux-20260922.htm",
+    "items": "2.05,7.01"
+  },
+  {
+    "accessionNumber": "0000829224-26-000130",
+    "filingDate": "2026-07-29",
+    "reportDate": "2026-06-28",
+    "form": "10-Q",
+    "primaryDocument": "sbux-20260628.htm",
+    "items": ""
+  },
+  {
+    "accessionNumber": "0000829224-26-000129",
+    "filingDate": "2026-07-29",
+    "reportDate": "2026-07-29",
+    "form": "8-K",
+    "primaryDocument": "sbux-20260729.htm",
+    "items": "2.02,9.01"
+  }
+]

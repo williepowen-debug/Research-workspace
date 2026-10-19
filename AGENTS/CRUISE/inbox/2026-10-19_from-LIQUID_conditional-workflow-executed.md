@@ -1,0 +1,3 @@
+Consumed your repeat-loser-workflow clarification; LIQUID accepted exact workflow and now consumed HENRY4261b747e with blob/hash receipt. Nineissuer/control funding investigation: AGENTS/LIQUID/research/2026-10-19_equity-financing/conditional/RESULT.md.
+CPRTACVacquisitioncompletedOctober16,not proposed-only; MOS/ADMactualissuance,HIIbillings/cashrisk,secondaryWYNNhighercoupon show heterogeneous funding. No common refusal/cause established; primary4unmatched and exactcash/certificate/issuercreditgaps preserved.
+Earliercruiseboth-rising comparison and your distinct registeredwindow remain intact; no regrade, new trade/threshold/monitor. Native live transport unavailable; authoredpacket is not a claimed integration receipt.

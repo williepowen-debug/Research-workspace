@@ -1,0 +1,23 @@
+symbol	event_or_due_date	public_date	event_type	amount	units	evidence_state	source_archive_member	window_relation	limit
+HII	2024-09-17	2024-09-17	bank contract	1700	USDm	signed contract;2029fiveyearterm	HII-credit.html	pre20and60	Bank andCP not additive
+HII	2026-06-30	2026-07-30	statement	12	USDm	reported cash;not formation cash	HII.html	public after60formation before20	CFO-421;interest49vs56
+HII	2027-12-01	2026-02-05	contractual maturity	600	USDm	dated annual schedule;current balance not certified	HII-annual.html	within24not12fromSep21	3.483%
+HII	2028-08-16	2026-02-05	contractual maturity	600	USDm	dated annual schedule;current balance not certified	HII-annual.html	within24not12fromSep21	2.043%
+HII	2028-12-01	2026-02-05	contractual maturity	21	USDm	dated annual schedule	HII-annual.html	outside24fromSep21	4.55%
+MOS	2026-08-17	2026-08-17	note issuance	2000	USDm	CLOSED	MOS-issuance.html	pre20,in60	1000at5.35,500at5.65,500at5.90
+MOS	2026-08-18	2026-08-17	tender settlement	870.986	USDm	ACCEPTED;settlement scheduled;payment not independently certified	MOS-2026-08-17-353193.html	pre20,in60	issuer final results;not tender cap1400
+MOS	2026-09-28	2026-08-28	full redemption	537.230	USDm	NOTICE;actual payment UNKNOWN	MOS-2026-08-28-000122.html	in20and60;knownpre20	voluntary redemption,not default
+ADM	2026-08-10	2026-08-10	note issuance	1000	USDm	ISSUED	ADM-2026-08-10-342579.html	pre20,in60	2tranches500;50.49annualcoupon
+ADM	2026-08-11	2026-08-06	old note maturity	1000	USDm	contract date passed;repayment UNKNOWN	ADM-2026-08-06-338069.html	pre20,in60	newproceeds993estimated;usepermittednotverified
+ADM	2026-11-18	2026-08-04	nonUS receivables-program end	1300	USDm approximate	unless extended;renewal UNKNOWN	ADM.html	within12fromSep21	capacity not debt principal
+ADM	2027-05-14	2026-08-04	US receivables-program end	1700	USDm	unless extended;renewal UNKNOWN	ADM.html	within12fromSep21	capacity not debt principal
+CPRT	2026-01-23	2026-01-23	bank renewal	1250	USDm	SIGNED;unsecuredJan23,2031maturity	CPRT-credit.html	pre20and60	replaced securedDec2026maturity
+CPRT	2026-07-31	2026-09-29	statement	4489.802	USDm gross cash/investments	reported cash combined with restricted;not available liquidity	CPRT-annual.html	publicin20and60	notpre20formationinformation
+CPRT	2026-09-17	2026-09-17	offer financing representation	1900	USDm approximate	cash-on-hand intended;no financingcondition	CPRT-offer.html	pre20,in60	not exact paid price/current cash
+CPRT	2026-10-16	2026-10-16	ACV acquisition	1900	USDm approximate announcedequityvalue	COMPLETED;exact cash bridge UNKNOWN	CPRT-2026-10-16-423478.html	in20and60	replaces proposed-only status
+WYNN	2026-07-21	2026-07-22	Macau land contract	80.8	USDm approximate premium	contract obligation;payment timing not independently certified	WYNN-2026-07-22-000047.html	pre20and60	not parent bank availability
+WYNN	2026-09-22	2026-09-22	note issuance	900	USDm	ISSUED	WYNN-2026-09-22-000069.html	in20and60	6.875dueMar15,2035;880WLVredemptionuseintended
+SBUX	2026-05	2026-07-29	note tender	1315.9	USDm	COMPLETED by issuer account;already inJune	SBUX.html	pre20and60	China disposal funding;not future cash obligation
+SBUX	2026-09-22	2026-09-24	restructuring plan	200	USDm approximate cash component	APPROVED;cash payment timing UNKNOWN	SBUX-2026-09-24-000145.html	in20and60	plus100noncash
+MCD	2026-09-23	2026-09-23	strategy announcement			operating/valuation alternative	MCD-2026-09-23-000076.html	in20and60	not a debt default
+PCAR	2026-06-30	2026-07-29	funding-cost disclosure	4.8	percentQ2financeborrowingrate	reported versus5.2priorQ2	PCAR.html	publicafter60formation before20	not market bond spread

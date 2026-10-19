@@ -1,0 +1,58 @@
+[
+  {
+    "accessionNumber": "0001174922-26-000069",
+    "filingDate": "2026-09-22",
+    "reportDate": "2026-09-22",
+    "form": "8-K",
+    "primaryDocument": "wynn-20260922.htm",
+    "items": "1.01,9.01"
+  },
+  {
+    "accessionNumber": "0001174922-26-000066",
+    "filingDate": "2026-09-11",
+    "reportDate": "2026-09-10",
+    "form": "8-K",
+    "primaryDocument": "wynn-20260910.htm",
+    "items": "8.01,9.01"
+  },
+  {
+    "accessionNumber": "0001174922-26-000062",
+    "filingDate": "2026-09-10",
+    "reportDate": "2026-09-10",
+    "form": "8-K",
+    "primaryDocument": "wynn-20260910.htm",
+    "items": "8.01,9.01"
+  },
+  {
+    "accessionNumber": "0001174922-26-000057",
+    "filingDate": "2026-08-31",
+    "reportDate": "2026-08-31",
+    "form": "8-K",
+    "primaryDocument": "wynn-20260831.htm",
+    "items": "7.01,9.01"
+  },
+  {
+    "accessionNumber": "0001174922-26-000055",
+    "filingDate": "2026-08-06",
+    "reportDate": "2026-06-30",
+    "form": "10-Q",
+    "primaryDocument": "wynn-20260630.htm",
+    "items": ""
+  },
+  {
+    "accessionNumber": "0001174922-26-000051",
+    "filingDate": "2026-08-04",
+    "reportDate": "2026-08-04",
+    "form": "8-K",
+    "primaryDocument": "wynn-20260804.htm",
+    "items": "2.02,7.01,8.01,9.01"
+  },
+  {
+    "accessionNumber": "0001174922-26-000047",
+    "filingDate": "2026-07-22",
+    "reportDate": "2026-07-21",
+    "form": "8-K",
+    "primaryDocument": "wynn-20260721.htm",
+    "items": "1.01,7.01,9.01"
+  }
+]

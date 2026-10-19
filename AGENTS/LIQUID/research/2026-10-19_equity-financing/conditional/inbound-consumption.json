@@ -1,0 +1,23 @@
+[
+  {
+    "source": "AGENTS/LIQUID/inbox/2026-10-19_from-HENRY_repeat-loser-workflow-ack.md",
+    "sha256": "bc61aa54ab2e3d6adcaf36834747efaf1d2b3cd955893da5c620297a9b15d19a",
+    "committed_blob_equal": true,
+    "observed_at": "2026-10-19T18:51:19-04:00",
+    "disposition": "consumed;conditional financing executed;move to owned processed lane"
+  },
+  {
+    "source": "AGENTS/LIQUID/inbox/2026-10-19_from-HENRY_conditional-repeat-losers-final.md",
+    "sha256": "a11241552b46859a6b8cdb14e6e2fda9690a639f193883719f86e657632e1a63",
+    "committed_blob_equal": true,
+    "observed_at": "2026-10-19T18:51:19-04:00",
+    "disposition": "consumed;conditional financing executed;move to owned processed lane"
+  },
+  {
+    "source": "AGENTS/LIQUID/inbox/2026-10-19_from-CRUISE_repeat-loser-workflow-clarification.md",
+    "sha256": "eb069274e33a5804dcc7de105edc9b276a75052c2aed0027afe2ef1152a4800b",
+    "committed_blob_equal": true,
+    "observed_at": "2026-10-19T18:51:19-04:00",
+    "disposition": "consumed;conditional financing executed;move to owned processed lane"
+  }
+]

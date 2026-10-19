@@ -1,0 +1,123 @@
+[
+  {
+    "id": "CPRT-annual",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526405731/cprt-20260731.htm",
+    "retrieved_at": "2026-10-19T22:41:20.494549+00:00",
+    "status": 200,
+    "bytes": 4477121,
+    "sha256": "09964a52cb7a4fb38a2b82d22909883eafb718daca7f033bee54ba98589dfea6"
+  },
+  {
+    "id": "CPRT-completed",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526423478/d129535dex991.htm",
+    "retrieved_at": "2026-10-19T22:41:20.495759+00:00",
+    "status": 200,
+    "bytes": 11363,
+    "sha256": "ae327c43e28d0630ccfde9f1c217ce604f78df0ef260b48b9022fb17367eafd4"
+  },
+  {
+    "id": "MOS-quarter",
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000112/mos-20260630.htm",
+    "retrieved_at": "2026-10-19T22:41:20.496537+00:00",
+    "status": 200,
+    "bytes": 1933428,
+    "sha256": "57b6f218fbec2ed0a3a1a8e7112d35d299067f5f165bca97e15562ec2b90e668"
+  },
+  {
+    "id": "MOS-issuance",
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526354095/d168739d8k.htm",
+    "retrieved_at": "2026-10-19T22:41:20.497673+00:00",
+    "status": 200,
+    "bytes": 33682,
+    "sha256": "69972c45296fbce3170f4f53b59a646cac7d92aaedb6286df7ca7e43a8e40405"
+  },
+  {
+    "id": "MOS-tender",
+    "url": "https://investors.mosaicco.com/press-releases/news-details/2026/Mosaic-Announces-Final-Results-of-Offers-to-Purchase-for-Cash-Certain-of-its-Outstanding-Debt-Securities/default.aspx",
+    "retrieved_at": "2026-10-19T22:41:20.652933+00:00",
+    "status": 403,
+    "bytes": 6129,
+    "sha256": "39ae835dd3d8c1c70ced2a8dc37660b8477f3a59ee18e29783937e14a1aae8b6"
+  },
+  {
+    "id": "HII-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001501585.json",
+    "retrieved_at": "2026-10-19T22:41:20.694683+00:00",
+    "status": 200,
+    "bytes": 156097,
+    "sha256": "74440243e0eb45e75ee912c8200ecb8371f7f773588e2829894edcf51a261fea",
+    "selected_count": 2
+  },
+  {
+    "id": "ADM-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000007084.json",
+    "retrieved_at": "2026-10-19T22:41:21.030398+00:00",
+    "status": 200,
+    "bytes": 142736,
+    "sha256": "5bb4fb2ec2f8e2413964068fd22c4657db2e4f39c221e6c6a10f03de2ccde244",
+    "selected_count": 7
+  },
+  {
+    "id": "CPRT-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000900075.json",
+    "retrieved_at": "2026-10-19T22:41:21.136277+00:00",
+    "status": 200,
+    "bytes": 159917,
+    "sha256": "7bb30e9157aaf394effd9d4d1b634c66a056f7e612f3b584888a6539da7cee47",
+    "selected_count": 7
+  },
+  {
+    "id": "MOS-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001285785.json",
+    "retrieved_at": "2026-10-19T22:41:21.182397+00:00",
+    "status": 200,
+    "bytes": 174884,
+    "sha256": "d2c6b66427ce364199415a7b57c72ccf11a768f1c656dc2472ca329d1db694a6",
+    "selected_count": 10
+  },
+  {
+    "id": "MCD-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000063908.json",
+    "retrieved_at": "2026-10-19T22:41:21.303614+00:00",
+    "status": 200,
+    "bytes": 158068,
+    "sha256": "5ca5bd9a4dbc4878d898899a2ae41a8da1a0a42e24fc280a7f84e47f126f454e",
+    "selected_count": 4
+  },
+  {
+    "id": "PCAR-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000075362.json",
+    "retrieved_at": "2026-10-19T22:41:21.491759+00:00",
+    "status": 200,
+    "bytes": 141164,
+    "sha256": "cd5d238ed093644e2bf61ae35b22c23503d91c3b0ed1dc5a6c2ea948bb3ec952",
+    "selected_count": 2
+  },
+  {
+    "id": "SBUX-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000829224.json",
+    "retrieved_at": "2026-10-19T22:41:21.648397+00:00",
+    "status": 200,
+    "bytes": 160185,
+    "sha256": "3ba41ee11892aa52eec55ead1a66849985e11b32f2d22f9feda0214f08507c7a",
+    "selected_count": 3
+  },
+  {
+    "id": "MGM-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000789570.json",
+    "retrieved_at": "2026-10-19T22:41:21.719743+00:00",
+    "status": 200,
+    "bytes": 158678,
+    "sha256": "a462a1dd605fbcb37193e1d3e744c0903ea39663909fe5dbc76907f0c0cd85f7",
+    "selected_count": 2
+  },
+  {
+    "id": "WYNN-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001174922.json",
+    "retrieved_at": "2026-10-19T22:41:21.948777+00:00",
+    "status": 200,
+    "bytes": 168627,
+    "sha256": "23bfaf2c7a23fd1ca2287a4fc489887a89094ce4f380f2709fc89b5a88770c84",
+    "selected_count": 7
+  }
+]
