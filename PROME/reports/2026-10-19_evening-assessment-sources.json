@@ -1,0 +1,65 @@
+{
+  "observed_at": "2026-10-19T23:29:08.550109+00:00",
+  "sources": [
+    {
+      "path": "AGENTS/HENRY/research/2026-10-19_event-audit/SHORTLIST.md",
+      "sha256": "addfdfcb1d136b4cfd81ec509b9a6ccef760263a61d4a8e8cef9ff1cfebf45c7",
+      "head_matches": true,
+      "last_path_commit": "730ed937d7f0c5643128bebb8fbc6fd63c096eb1"
+    },
+    {
+      "path": "AGENTS/HENRY/research/2026-10-19_event-audit/RESULT.md",
+      "sha256": "768f41c46e23ab7d1e91a080fe09b10cf34ccdda0985f967453d773f63384873",
+      "head_matches": true,
+      "last_path_commit": "730ed937d7f0c5643128bebb8fbc6fd63c096eb1"
+    },
+    {
+      "path": "AGENTS/LIQUID/research/2026-10-19_equity-financing/conditional/RESULT.md",
+      "sha256": "64b6aacbaf6aa020f3f04f5b39dc6e9e0206694db8eb019321c7c97016aa8774",
+      "head_matches": true,
+      "last_path_commit": "5de5eeb1c8de699c15ec7ec7357e80ec89f2c0b4"
+    },
+    {
+      "path": "AGENTS/CRUISE/research/2026-10-19_cushion/TONIGHT_ASSESSMENT.md",
+      "sha256": "e8e044357648fa4ba1fe4e66b45a925ece9806e599d228c158876b7f13b8091b",
+      "head_matches": true,
+      "last_path_commit": "eec4bad26b620fadb8503479df309e34ef34d1f7"
+    },
+    {
+      "path": "AGENTS/VIOLET/research/2026-10-19_evening-official-check/REPORT.md",
+      "sha256": "d5dbb0c5aa6965129d96feb3b39229e0899f04e915f1c9fad700d0eb0a965713",
+      "head_matches": true,
+      "last_path_commit": "0f83d687707dea146842d02026274c6584797e73"
+    },
+    {
+      "path": "AGENTS/WAL/research/2026-10-19_broader-bank-stress-context.md",
+      "sha256": "f5ec2251ad80d12f946444f4ef308a0a010d389dbc823bcabc3af53eccf8380f",
+      "head_matches": true,
+      "last_path_commit": "fd3f986aea6eb363f4a26f5707dfc3f129101373"
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-19_broker-reconcile/CONTINUATION.md",
+      "sha256": "d4970f3d8c9a425683a3234081c276582aa203502adbf75eb24b9514564e1906",
+      "head_matches": true,
+      "last_path_commit": "0c79484b3646d9a1efeb26ca1621a554eaf644ce"
+    },
+    {
+      "path": "AGENTS/HENRY/research/2026-10-19_event-audit/LATE-INTAKE.md",
+      "sha256": "5962a27bc5cf48b82b2d798aaa240725a3b83880a4f27bf8ad20e9e85773eee7",
+      "head_matches": true,
+      "last_path_commit": "20118ce77611ddcedd80f69d34f5414dd9df5576"
+    },
+    {
+      "path": "AGENTS/WALTER/research/2026-10-19_evening-combined/RESULT.md",
+      "sha256": "16b7ea822aae48e06464cd6e0e202f24e9f7507b1c4f8eeb4ee1d08cec6db585",
+      "head_matches": true,
+      "last_path_commit": "96db4685ed95832534dd0a179a1598246e28305d"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-WALTER_evening-company-news-contribution-and-closeout.md",
+      "sha256": "58588412fc5667e0773a39bb8107b9b605f9bde631a934e337e24147b8446eeb",
+      "head_matches": true,
+      "last_path_commit": "96db4685ed95832534dd0a179a1598246e28305d"
+    }
+  ]
+}
