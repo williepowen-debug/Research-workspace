@@ -1,5 +1,7 @@
 # NEXUS — LAST COMPLETION
 
+**CLOSED OUT 2026-10-19T13:40:36-04:00 — Will requested closeout; NEXUS acknowledges and releases active work. No polling/push. Latest commits a1f8d3366/09265ad69; pending10/20source checks,L11/L730 unchanged. Final controls→ `research/2026-10-19_session_closeout.json`. Earlier work receipts below are history; no terminal-open instruction survives this closeout.**
+
 ## 2026-10-19T13:33:36-04:00 — approved housekeeping (STANDARD)
 
 Willapprovedhelper-modelwording/brief-lengthstatuscleanup. ExistingCodex/OpenAINEXUSwindow01a1548b-7607-75c3-8730-86a7a2aba119;root/local/USER/runtime rules retained/read;exactrootmodelunexposed. No helper/ownerlaunch,sourcepoll or new policy. Record→ research/2026-10-19_housekeeping/RECORD.md;OPEN.json/CHECKS.json;priorcurrentblock retainedinPRIOR_SESSION_BLOCK.md.
