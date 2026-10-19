@@ -5,6 +5,8 @@
 
 **Bounded registration 2026-10-19T11:44:30-04:00:** WQ459A specifically approved; L16 frozen/registered, anchor/levels PENDING for10/19 or next qualifying observation. Admission rider MET; PROME accepted1131bd9bd, `GATE-NEXUS-WQ459-HY` **NOT ARMED**; no approval-only probability move. First log→ `analysis/WQ342_grading_log.tsv`; actual/provisional dates→ `research/2026-10-19_WQ459_registration/CALENDAR.json`.
 
+**Scoped follow-up 2026-10-19T13:19:05-04:00:** one bounded FRED public-page check returned no new qualifying L13/L16/M04/M08 observations; existing grades/anchors/bands unchanged. L13cell15 and L16actualanchor remain PENDING;M04/M08each1of2;L11rawNV/hold. Four queued owner packets consumed, no new PRED38qualifying bank evidence/coverage certificate. Nextsourcecheck10/20L554. Receipt → `research/2026-10-19_resolution_pass/SOURCE_CHECK.json`.
+
 ## 🔴 LIVE OBLIGATIONS — the only things this header carries (each has ONE home)
 
 | # | Obligation | Instrument / letter | Due | Home |

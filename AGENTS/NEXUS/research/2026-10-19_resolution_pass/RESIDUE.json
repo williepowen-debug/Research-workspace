@@ -1,0 +1,156 @@
+{
+  "recorded_at": "2026-10-19T13:22:34.881649-04:00",
+  "scope": "OLDphrases/figures scanned across full owned tree. Adjudicate claims, not string absence. Closed original file-audit deferrals are dated historical records; current STATUS/record/log receipt supersede them. Old valid dated market observations retained.",
+  "patterns": [
+    {
+      "pattern": "await primary-owner",
+      "exit": 1,
+      "hits": []
+    },
+    {
+      "pattern": "primary-owner read at10/20",
+      "exit": 0,
+      "hits": [
+        {
+          "path": "AGENTS/NEXUS/board_log.tsv",
+          "line": 173,
+          "excerpt": "2026-10-19T12:41-04:00\tSIG-W-20261019-009\tdeferred\tWALTER\tCommitted2d9238d29 INFO read/filed;HOMER housing/reporting-subset/counterevidence requires primary-owner read at10/20L554. Two late annotations used; no third synthesis update or new investigation/grade.",
+          "disposition": "RETAINED-HISTORY: append-only dated original receipt; four new rows discharge prior deferral"
+        },
+        {
+          "path": "AGENTS/NEXUS/board_log.tsv",
+          "line": 174,
+          "excerpt": "2026-10-19T12:41-04:00\tSIG-W-20261019-010\tdeferred\tWALTER\tCommitted0cd4974a7 INFO read/filed;LIQUID lagged dealer credit/ETF counterevidence requires primary-owner read at10/20L554. Two late annotations used; no third synthesis update or new investigation/grade.",
+          "disposition": "RETAINED-HISTORY: append-only dated original receipt; four new rows discharge prior deferral"
+        },
+        {
+          "path": "AGENTS/NEXUS/board_log.tsv",
+          "line": 175,
+          "excerpt": "2026-10-19T12:41-04:00\tSIG-W-20261019-011\tdeferred\tWALTER\tCommitted0cd4974a7 INFO read/filed;LIQUID dated CRWV evaluations/CDS qualification requires primary-owner read at10/20L554. Two late annotations used; no third synthesis update or new investigation/grade.",
+          "disposition": "RETAINED-HISTORY: append-only dated original receipt; four new rows discharge prior deferral"
+        }
+      ]
+    },
+    {
+      "pattern": "READOUT source read",
+      "exit": 0,
+      "hits": [
+        {
+          "path": "AGENTS/NEXUS/board_log.tsv",
+          "line": 172,
+          "excerpt": "2026-10-19T12:37-04:00\tSIG-W-20261019-008\tdeferred\tWALTER\tCommittedd6e2dbfeb ACTION read/filed; OTTO owner3a68e48c1/80aab5846 READOUT source read+consumer integration owed10/20L554. Two late annotations used; no third synthesis patch. September5/9 and servicing caveats; not44independentcredits or new L708attribution.",
+          "disposition": "RETAINED-HISTORY: append-only dated original receipt; four new rows discharge prior deferral"
+        }
+      ]
+    },
+    {
+      "pattern": "008ACTION.*deferred",
+      "exit": 0,
+      "hits": [
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_file_audit/FRESHNESS.json",
+          "line": 14,
+          "excerpt": "  \"incoming_WALTER\": \"Five named committed packets read/logged/filed:003noted;008ACTION/009\\u2013011INFOdeferred10/20L554,9cannotationcap. Intake cutoff12:41:05ET; later arrivals outside sealed receipt remain queued.\",",
+          "disposition": "RETAINED-HISTORY: sealed dated prior audit, superseded for queued reads by current STATUS/record"
+        },
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_file_audit/CONTROLS.json",
+          "line": 54,
+          "excerpt": "    \"packets\": \"CommittedWALTER003 consumed;008ACTION and009\\u2013011INFO read/deferred/filed10/20L554 with primary-owner read/coverage/servicing obligations. Existing9c two-late-annotation limit reached; no third synthesis patch claimed.\",",
+          "disposition": "RETAINED-HISTORY: sealed dated prior audit, superseded for queued reads by current STATUS/record"
+        },
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_resolution_pass/PRIOR_SESSION_BLOCK.md",
+          "line": 9,
+          "excerpt": "STANDARDfileaudit\u2192 research/2026-10-19_file_audit/AUDIT.md,INVENTORY.json,REPAIRS.json,CONTROLS.json.376filesinventoried;8handoffrefsrepointed,physicalGATErowsreplacedbystablekeys,PRED38excludedlosslabelclarified,receipts/wakesfolded. LIQUIDMET565f15613consumed(lateannotation2);notnewbankcause. WALTER003consumed;008ACTION+009\u2013011INFOdeferred10/20L5",
+          "disposition": "RETAINED-HISTORY/context: original observation or explicitly reconciled prior deferral"
+        }
+      ]
+    },
+    {
+      "pattern": "HOMERNAHBL725ownerresultpending",
+      "exit": 1,
+      "hits": []
+    },
+    {
+      "pattern": "39/39",
+      "exit": 0,
+      "hits": [
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_resolution_pass/RECORD.md",
+          "line": 22,
+          "excerpt": "| OTTO quickwins READOUT,3a68e48c1 | Five September deals all worse YoY/MoM;44/44 available repeated deal-months worse YoY sinceApril, previously39/39. BROAD gap+0.71pp and Bridgecrest/legacyCarvana+2.58pp still positive; narrowing is deceleration, not the frozen turn. | September5/9, Exeter stillAugust pending~10/29. Fewer BLAST extensions can exp",
+          "disposition": "RETAINED-HISTORY/context: original observation or explicitly reconciled prior deferral"
+        },
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/BRIEF_READS.md",
+          "line": 11,
+          "excerpt": "|OTTO|10/14|Autocollateralstrain,notgeneralbankcontagion|39/39deal-monthsworse;extensionsqualifyExeter;L708notstarted|Collateralnotcorporate;lessmasking/seasoning|10/19L708existingcommission;10/28CVNA|not started, deferred by Will to OTTO's next session|",
+          "disposition": "RETAINED-HISTORY: earlier correct August panel vintage, not erroneous; September partial cohort44/44 now current"
+        },
+        {
+          "path": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261019-008.md",
+          "line": 14,
+          "excerpt": "September DQ for SDART2022-6/2023-1/2024-1 and BLAST2024-1/2023-1 is11.24/10.10/10.04/16.67/16.15%. All five worse YoY and MoM. The enlarged matched series is **44/44 worse YoY sinceApril**, formerly39/39; this adds observations and does not make the August count wrong. Tier mean YoY gaps: BROAD+0.71pp, Bridgecrest/legacyCARVANA+2.58pp. OTTO\u2019s unch",
+          "disposition": "RETAINED-HISTORY: earlier correct August panel vintage, not erroneous; September partial cohort44/44 now current"
+        }
+      ]
+    },
+    {
+      "pattern": "15.83",
+      "exit": 0,
+      "hits": [
+        {
+          "path": "AGENTS/NEXUS/board_log.tsv",
+          "line": 157,
+          "excerpt": "2026-10-19T09:30-04:00\tSIG-W-20261015-005\tacted\tINBOX_WALTER\tM-09:CRWV2032 YTW15.83 HYG evaluation not trade; CDS model caveat; correction receipt",
+          "disposition": "RETAINED-HISTORY: append-only dated original receipt; four new rows discharge prior deferral"
+        },
+        {
+          "path": "AGENTS/NEXUS/STATUS.md",
+          "line": 25,
+          "excerpt": "| M-09 | AI financing + power pressure |R4/R7;3 classes(filing/market/operator);VULCAN,LIQUID,WATT,SHADE |69%|\u2014|10-19|VULCAN**15/25**[10/16]; Firmusn1equitywithdrawal; VoltaNOTREDreadingA,WQ441baselinepending(owner). CRWV2030/Feb2031/2032YTW14.93/15.61/15.15%[10/16,HYGfund-evaluations],nottrades;two weaker/2032firmer vs10/14(2032then15.83%). CDSbpm",
+          "disposition": "RETAINED-HISTORY: valid10/14 CoreWeave2032 evaluation or other dated observation; new10/16 tenor does not correct old vintage"
+        },
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_morning_synthesis.md",
+          "line": 41,
+          "excerpt": "Initial15 files:2 PROME,13 WALTER. Every file read; dispositions logged to `board_log.tsv`; moves follow integration commit. PPI/Asia/AI revenue/flows relays are context, **not new letter observations or new roots**. US10/15 close recovery is the counter-signal to broad-contagion claims; IG84 and LIQ-07 S2 provide distinct credit/funding counterevi",
+          "disposition": "RETAINED-HISTORY: valid10/14 CoreWeave2032 evaluation or other dated observation; new10/16 tenor does not correct old vintage"
+        },
+        {
+          "path": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "line": 9,
+          "excerpt": "# WALTER \u2192 NEXUS (INFO): CORRECTION to -014-018 \u2014 CRWV 2032 YTW 15.83% (not ~14.5%); AI-credit flag reads sharper than yesterday",
+          "disposition": "RETAINED-HISTORY: valid10/14 CoreWeave2032 evaluation or other dated observation; new10/16 tenor does not correct old vintage"
+        },
+        {
+          "path": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "line": 11,
+          "excerpt": "LIQUID primary 10/15 08:36 ET corrects the ~14.5% Bloomberg relay in -018. Full CRWV ladder: 2030 14.41%, 2031 14.90%, 2032 15.83%. DTCC 5Y CDS ~1,059\u20131,120 bp [10/14] vs ~840 bp [10/7], above the 877.6 bp Dec-2025 peak.",
+          "disposition": "RETAINED-HISTORY: valid10/14 CoreWeave2032 evaluation or other dated observation; new10/16 tenor does not correct old vintage"
+        },
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/RECORD.md",
+          "line": 41,
+          "excerpt": "| AI financing/capex | VULCAN STATUS10/16; SHADE STATUS10/15 |15/25 held; Firmus n1 nonUS-equity withdrawal. Volta sold S+650/OID95 is NOTRED under owner readingA; WQ441 specific baseline ruling pending at owner, not re-graded. CRWV15.83%YTW is evaluation/secondary, CDS model-derived. TSMC/ASML raised-demand evidence and full-sized Cipher deal oppo",
+          "disposition": "RETAINED-HISTORY: valid10/14 CoreWeave2032 evaluation or other dated observation; new10/16 tenor does not correct old vintage"
+        }
+      ]
+    },
+    {
+      "pattern": "SOFR\u2212IORB\u22121",
+      "exit": 0,
+      "hits": [
+        {
+          "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/RECORD.md",
+          "line": 34,
+          "excerpt": "| Funding | LIQUID STATUS10/16 + earlier morning consumed analysis/2026-10-16_L721-four-legs.md |S2 on both lists: no reserve-channel loop observed; collateral/haircuts/redemptions/term/offshore channels excluded. SOFR\u2212IORB\u22121bp,99th+7bp,SRF0.111B[10/15]. Primary credit11.044B Wednesday10/14,11.312Bavg; third weekly rise per owner, borrowers/precaut",
+          "disposition": "RETAINED-HISTORY: morning record explicitly dates SOFR\u2212IORB\u22121 to10/15; new10/16\u22122 is a different observation, not correction."
+        }
+      ]
+    }
+  ],
+  "current_triangle": "STATUS evidence changed, no confidence/prediction/confirmed state transition; CONFIRMED unchanged, PRED rows invariant. Queued-consumption claims propagated through STATUS/currentLAST/boardlog/BRIEFS_MAP/report/PROMEpacket.",
+  "mirror_read": "PROME L554/L730/L751\u2013754/GATE-NEXUS-WQ459-HY directly read, still pending/provisional; no foreign edits; packet tells coordinator queued reads consumed early."
+}

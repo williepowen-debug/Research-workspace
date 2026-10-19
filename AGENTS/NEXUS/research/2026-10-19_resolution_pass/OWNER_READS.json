@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-10-19T13:16:32-04:00",
+  "reads": [
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_quickwins/READOUT.md",
+      "latest_commit": "3a68e48c15b6215ad334090bd8f3c6526ae72755|2026-10-19T12:24:21-04:00",
+      "sha256": "71507e29853c06e075e0e86150d6892aed197e160e3e8a3888c2aac128ec181c",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "AGENTS/HOMER/reports/2026-10-19_domain-news-sweep.md",
+      "latest_commit": "076910b8f2a9994a22337109e4dc9208f97357e9|2026-10-19T12:38:29-04:00",
+      "sha256": "ff4eda7dfe8a921240c8cccf8753aed56955f0ad99961c825bac2dfeffbf6a88",
+      "equals_committed_HEAD": false,
+      "read_scope": "whole",
+      "committed_evidence_sha256": "f4aa5e40456bcda637c24be4550ccb263c895df624db188f00304978fbaad703",
+      "evidence_section_equals_HEAD": true,
+      "dirty_footer_disposition": "Lifecycle/KB footer under owner documentation maintenance; not adopted. Economic evidence uses committed076910b8f."
+    },
+    {
+      "path": "AGENTS/HOMER/reports/2026-10-19_morning-L725.md",
+      "latest_commit": "2556731f09ecf6b490ecfac98782da8dfffbe28e|2026-10-19T12:17:32-04:00",
+      "sha256": "081439b15100bc8d3e03a501ee951e84605dd5bc49a35d4f9e03deaf13dd7fb9",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "AGENTS/HOMER/NEXUS_BRIEF.md",
+      "latest_commit": "cf1443a5121d6786445ab622adf834582a6005e6|2026-10-19T12:39:17-04:00",
+      "sha256": "202679434447f298be24d8e1978f04d36051b60b479145d61d91ad981781457f",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+      "latest_commit": "9db84090f7942d03d2035fd2e5f8acbd0db95d81|2026-10-19T12:43:18-04:00",
+      "sha256": "11ee2e2ca07b87747f6acc95e36264de840c4d8d1ae64bcd64caf83ba29c9de8",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "AGENTS/LIQUID/analysis/2026-10-19_L746-published-close.md",
+      "latest_commit": "565f1561364a84c599a3f55592eaf691b00939cd|2026-10-19T12:17:03-04:00",
+      "sha256": "02e4f60f42ac756bf8be542384db3198cea3bf9529eb6e1bc2dc8c2c563f7816",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "latest_commit": "9db84090f7942d03d2035fd2e5f8acbd0db95d81|2026-10-19T12:43:18-04:00",
+      "sha256": "3309e9923e9973d034e3e361c5c6e5bfd77c395d4d43749ee7bdca3498074a41",
+      "equals_committed_HEAD": true,
+      "read_scope": "scoped named rows"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/SELF_LETTER_AUDIT.md",
+      "latest_commit": "c1f2f4321de788e52f51d0ef56ddc0686aa01984|2026-10-19T11:20:21-04:00",
+      "sha256": "add08374502c6c06769359bf2f3309ca57a01b69a4477d9623034135ed186d9e",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md",
+      "latest_commit": "e941866c92fde55792a748283e05584f2a939bb0|2026-10-19T12:43:08-04:00",
+      "sha256": "478005fe1018a99928fb03bc160fcf52a7253fdcbd3bbbcebaa188b1c5935843",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-09-24_t12_successor_DFII10_letter.md",
+      "latest_commit": "2c73ce5051b60be21b9d305023c4f178c2ddf04d|2026-09-24T17:40:11-04:00",
+      "sha256": "5336e67423c84eca01f45f2b2cf53a9085e0ef0c843d24bc877a36cdd3039ac6",
+      "equals_committed_HEAD": true,
+      "read_scope": "whole"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_NEXUS-execution-coordination.md",
+      "latest_commit": "26f69a9dad6ddaab0e0c82a1ee43a74bd9fb8038|2026-10-19T12:04:13-04:00",
+      "sha256": "df503762cd35e11408c1bc3ae324a6a1b709e3c2af2eb516651950e37a8360b3",
+      "equals_committed_HEAD": true,
+      "read_scope": "scoped named rows"
+    }
+  ],
+  "scope": "Owner evidence read directly, not a rerun of all underlying filings. Committed OTTO source read; ongoing OTTO dirty state not inherited. Prior full-pass letters and historical research reused."
+}

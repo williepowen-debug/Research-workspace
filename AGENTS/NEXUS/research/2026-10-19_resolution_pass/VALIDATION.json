@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-19T13:22:02.787376-04:00",
+  "result": "PASS",
+  "matrix_10_Conf_delta_date_identity_unchanged": true,
+  "existing_prediction_rows_identical": true,
+  "protected_unchanged": [
+    "CONFIRMED.md",
+    "CLAUDE.md",
+    "research/2026-09-24_t12_successor_DFII10_letter.md",
+    "research/2026-10-19_WQ459_guarded_HY_letter.md",
+    "research/2026-10-19_WQ459_registration/CALENDAR.json",
+    "research/2026-10-19_WQ459_registration/ENCODING_CHECK.json"
+  ],
+  "cold_archive_files_unchanged": 23,
+  "frozen_HY_operative_body_strip_sha256": "efeab75ff57655886015e1313ec84699ba2cd5a4dd83e90d830fd875e65f2c82",
+  "prior_logs_append_only": true,
+  "prior_session_block_preserved": true,
+  "prior_handoff_history_byte_identical": true,
+  "WQlog_width": 17,
+  "actual_L16_anchor_levels_dates_unset": true,
+  "source_state": "Target observations NOT RETURNED in bounded public-page check, not a first-publication certificate",
+  "arithmetic": {
+    "inventory_change_B": "-2.795",
+    "inventory_pct": "-56.36",
+    "OTTO_BROAD_gap_pp": "0.71",
+    "OTTO_BLAST_gap_pp": "2.58",
+    "mortgage_spread_bp": "221.00",
+    "SOFR_IORB_bp": "-2.00"
+  },
+  "owned_sizes": {
+    "STATUS.md": 20360,
+    "PREDICTIONS_MONITOR.md": 19423,
+    "LAST_COMPLETION.md": 23897,
+    "BRIEFS_MAP.md": 23021
+  },
+  "status_lines": 126,
+  "will_page_bytes": 3382,
+  "opening_words": 80,
+  "missing_local_links": [],
+  "json_parsed": 4,
+  "pin_summary": "BRIEF-PIN 1 STALE: 28 brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) \u2014 CANNOT-EVALUATE 1 \u00b7 OK-PINNED 12 \u00b7 OK-SAME-COMMIT 11 \u00b7 STALE-PIN 2 \u00b7 UNPINNED 2. A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.",
+  "pin_disposition": "Not clean: BROCK1/LIQUID9behind; HOMER unpinned mid-closeout; WAL label gap; GIBBS uncommitted brief, not absent committed STATUS. No foreign edit.",
+  "author_verification_notes": "Two initial author assertions needed perimeter fixes: matrix prefix excludes intentional evidence updates; operative body hash uses original strip convention, not final file newline. No protected source changed."
+}

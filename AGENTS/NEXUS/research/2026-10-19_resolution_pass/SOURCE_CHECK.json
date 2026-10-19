@@ -1,0 +1,99 @@
+{
+  "recorded_at_et": "2026-10-19T13:16:32-04:00",
+  "retrieval": "One bounded seven-public-page source check via web; BB/IG display expanded within same check. Saved raw web result FRED_WEB_RECEIPT.json. Public current display, not ALFRED first-publication certificate. No API/grid execution or substitute feed.",
+  "sources": {
+    "BAMLH0A0HYM2": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "3.31",
+      "latest_bp": 331,
+      "previous_date": "2026-10-15",
+      "previous_percent": "3.23",
+      "public_updated": "2026-10-19 09:09 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell",
+      "followup_return": "same dated public-page context; target observation not returned"
+    },
+    "BAMLH0A3HYC": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "12.97",
+      "latest_bp": 1297,
+      "previous_date": "2026-10-15",
+      "previous_percent": "12.78",
+      "public_updated": "2026-10-19 09:10 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell",
+      "followup_return": "same dated public-page context; target observation not returned"
+    },
+    "BAMLH0A1HYBB": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A1HYBB",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "2.03",
+      "latest_bp": 203,
+      "previous_date": "2026-10-15",
+      "previous_percent": "1.97",
+      "public_updated": "2026-10-19 09:08 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell",
+      "followup_return": "same dated public-page context; target observation not returned"
+    },
+    "BAMLH0A2HYB": {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A2HYB",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "3.35",
+      "latest_bp": 335,
+      "previous_date": "2026-10-15",
+      "previous_percent": "3.26",
+      "public_updated": "2026-10-19 09:08 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell",
+      "followup_return": "same dated public-page context; target observation not returned"
+    },
+    "BAMLC0A0CM": {
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "latest_observation_date": "2026-10-16",
+      "latest_percent": "0.85",
+      "latest_bp": 85,
+      "previous_date": "2026-10-15",
+      "previous_percent": "0.84",
+      "public_updated": "2026-10-19 09:09 CDT",
+      "next_release_display": "2026-10-20",
+      "target_2026_10_19_returned": false,
+      "disposition": "PRE-RULING CONTEXT ONLY; never anchor or window cell",
+      "followup_return": "same dated public-page context; target observation not returned"
+    },
+    "DFII10": {
+      "url": "https://fred.stlouisfed.org/series/DFII10",
+      "latest_observation_date": "2026-10-15",
+      "latest_percent": "2.78",
+      "public_updated": "Oct 16, 2026 3:16 PM CDT",
+      "next_release_display": "Oct 19, 2026",
+      "target_2026_10_16_returned": false
+    },
+    "VIXCLS": {
+      "url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "latest_observation_date": "2026-10-16",
+      "latest_value": "19.99",
+      "public_updated": "Oct 19, 2026 8:38 AM CDT",
+      "target_2026_10_19_returned": false
+    }
+  },
+  "outcomes": {
+    "L13": "cell15 10/16 not returned; formal C1/reanchor still pending; no substitute",
+    "L16": "NOT ARMED; target10/19 matching HY/CCC absent; L/C0/edges/actualcalendar remain null;10/16 excluded",
+    "M04": "UP1of2 remains; repeated19.99 is same10/16 observation, no second close",
+    "M08": "UP1of2 remains; B335/CCC1297 repeats same10/16 pair",
+    "split": "20/47/33 unchanged; no existing letter newly fired",
+    "next_check": "2026-10-20 L554 existing wake; no unattended poll; if data returned earlier on a separately authorized wake, process actual observations"
+  },
+  "actual_anchor": null,
+  "actual_levels": null,
+  "actual_dates": null,
+  "provisional_calendar": "Unchanged registration CALENDAR.json;10/19 anchor scenario only, counts govern; L751\u2013754 conditional.",
+  "availability_limit": "Target cells were not returned by these pages at this check, not a claim that every upstream source was searched."
+}

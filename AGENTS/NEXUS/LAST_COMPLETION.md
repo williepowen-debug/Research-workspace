@@ -1,14 +1,14 @@
 # NEXUS — LAST COMPLETION
 
-## 2026-10-19T12:32:17-04:00 — morning/full synthesis, WQ459 registration, file audit
+## 2026-10-19T13:19:05-04:00 — four approved next steps; available work complete, publications pending
 
-Codex/OpenAI `/root`, taskwindow01a1548b-7607-75c3-8730-86a7a2aba119; root/localread; exactrootmodelunexposed. Reused471fba11d/6c7b16f5c/b3256b0fe. Fullpassc1f2f4321/receipt69c256ad0;28briefs/10matrix/allroots reviewed,4read-onlySolhelpersclosed,2coldreads. Fullpass0borderingdeviation/finalunreadDFII-OTTO edits→ research/2026-10-19_full_synthesis/RECORD.md,COLDREAD1/2.
+Codex/OpenAI existing NEXUSwindow01a1548b-7607-75c3-8730-86a7a2aba119; root/local/USER/runtime instructions explicitlyread. No helper/ownerlaunch. Scopedproperpass,notfullmatrixreview/thirdlateannotation. RECORD→ research/2026-10-19_resolution_pass/RECORD.md;SYNTHESIS.md;SOURCE_CHECK.json;OWNER_READS.json;controls/freshness/invariants. Priorcurrentblock retainedthereinPRIOR_SESSION_BLOCK.md.
 
-WQ459Aregistered1131bd9bd; PROMEaccepted/locallypersisted26f69a9da. GATE-NEXUS-WQ459-HY NOT ARMED; L16actualanchor/levelsPENDING10/19or nextqualifyingdate, never10/16. L55410/20; conditionalL751–75410/23,11/9,11/10,11/24(after11/23ENDcutoff). Recomputedatesfromactualanchor/count; monthend/carryqualifications→ frozenletter/registrationCALENDAR. Noapproval-onlymove; split20/47/33/allConfHELD. L13cell15pending;M04/M08each1/2;L11NVhold. M06withdrawn;L630dispositionpersisted,10/29reviewonly. All3L708consumed/accepted;L730awaitPROMEbuild.
+1 ExistingletterscheckedatFRED:DFII10latest10/15,VIX/ICE10/16;targetcellsnotreturned. L13formalC1/reanchorPENDING;L16REGISTEREDNOTARMED,actualanchor/edges/datesunset,never10/16substitute. M04/M08each1of2;no newgrade/C/VOID. Split20/47/33/Confheld;M06withdrawalstands.
+2 WALTER008ACTION/009–011INFOdischargedearly:directOTTO3a68e48c1,HOMER076910b8f/2556731f0/cf1443a51,LIQUID9db84090f/565f15613 consumed. Sept5/9/44repeatedmonths,servicing/reportingscope,ETFin-kind/laggednetinventory/fund-evalCDSlimits retained. Broadbankloss/fundingcauseunproved. CompletedL708notrerun.
+3 Shortcross-domainsynthesis saved;STATUSR3/R10/chain/M07/M09/narrativeupdated,no numericalmove.4 L11rawNVinterpretationandL730buildartifactstillPROMEdependencies;acceptancereadonlywhenartifactarrives. L55410/20sourcechecks;conditionalL751–754datesPROVISIONAL;L55510/27/otherexistingwindowsretained.
 
-STANDARDfileaudit→ research/2026-10-19_file_audit/AUDIT.md,INVENTORY.json,REPAIRS.json,CONTROLS.json.376filesinventoried;8handoffrefsrepointed,physicalGATErowsreplacedbystablekeys,PRED38excludedlosslabelclarified,receipts/wakesfolded. LIQUIDMET565f15613consumed(lateannotation2);notnewbankcause. WALTER003consumed;008ACTION+009–011INFOdeferred10/20L554(ownerreads/integration);5committedpacketslogged/filed. Nocharter/rule/band/probabilitychange; no grid/sourcepoll/helperlaunch/fullrewrite. ExistingHYoperativebodyhashunchanged.
-
-Controls in audit receipt:cap/weekday/corrections/orphan/links/state/freshness/diff. Skipped:9a10/27;root1cnofiguresuperseded;1c-bisnoLEDGER_GLOB;1dnomemory;15anorewrite/rotation. Next10/20letters+L11;10/27health;10/29M06;10/30&11/5matrix;11/10PRED38;11/20transfers. No push/pull/stash/reset/rebase; terminalopen/nopolling. PriorblocksbelowareHISTORY;theirnext-sessionlistsaresuperseded,notnewdebt.
+Morningfullpassc1f2f4321/receipt69c256ad0;WQ459registration1131bd9bdaccepted26f69a9da;audit e941866c9 reused. Full28briefs/10matrixreview and4Solhelpersclosed belongtomorning,notthisscope. ControlsSTANDARD:weekday/corrections/readcap/orphan,state/residue/links/freshness/diff. Skipped:fullbriefloopoutsideboundedcommission;9a10/27;15anowholerewrite/rotation;root1cnoqualifyingnumbersuperseded;1c-bisnoLEDGER_GLOB;1dnomemory. Promotionnone. No push/pull/stash/reset/rebase;terminalWill-owned/open. PriorblocksbelowHISTORY. Next10/20publicationchecks,notduplicateownerresearch.
 
 ---
 

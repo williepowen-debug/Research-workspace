@@ -81,3 +81,4 @@ date	agent	cause	note
 2026-10-19	LIQUID	stale	5STATUScommitsbehind;10/16S2/funding delivered at owner,rawSTATUSconsumed;not missingresearch
 2026-10-19	BROCK	convergence	1STATUScommitbehind;10/16CFG/MTBbank-attribution chase,rawSTATUS/researchconsumed;not mechanical>1trigger
 2026-10-19	LIQUID	stale	FILE AUDIT scoped owner-STATUS read:7commitsbehind;565f15613 HY>320rungMET3/3 delivered, not missingresearch; no fullsynthesis rerun
+2026-10-19	LIQUID	stale	Will-approved scoped four-item pass;rawSTATUS named rows plus committed9db84090f sweep/565f15613 L746 read directly; chronic briefstale,not missingresearch;dealer/ETF/CDS limits in resolution_pass/RECORD.md;no fullfleetdigest.
