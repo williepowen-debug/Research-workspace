@@ -1,0 +1,41 @@
+name: prome-digest
+
+on:
+  workflow_dispatch:          # first run by hand
+  schedule:
+    # GitHub cron is UTC and does NOT observe DST (same caveat as collect.yml).
+    # 10:15 UTC = 06:15 EDT / 05:15 EST  — weekdays, before Will's ~06:00 ET start settles
+    # 12:15 UTC = 08:15 EDT / 07:15 EST  — Sunday (the weekend gap the box does not cover)
+    - cron: '15 10 * * 1-5'
+    - cron: '15 12 * * 0'
+
+permissions:
+  contents: read              # this job never writes to either repo
+
+concurrency:
+  group: prome-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4          # RESEARCH-INTAKE (for scripts/prome_digest.py)
+
+      - uses: actions/checkout@v4          # Research-workspace, READ-ONLY; full history because
+        with:                              # spawn_list.py reads `git log` for owner liveness
+          repository: williepowen-debug/Research-workspace
+          token: ${{ secrets.RW_READ_TOKEN }}
+          path: rw
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build and post the digest
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/prome_digest.py --repo rw
