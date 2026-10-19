@@ -11,6 +11,8 @@
 - **HEN-46:**WQ-392 ENCODED:matchedDecemberHOZ26×42−CLZ26,10/15–11/19,same BRENT published basis asWQ-386.95/90.16unchanged,F3SPENT,no successor. Current qualified December F1 UNKNOWN. At ruling December about$5 under November and<95 on7/26versus1/26sessions,single-vendor NOT CME. One roll is comparable to the whole separation.
 - **Power:**WATT's10/15dated read:IRAS core rejection removes proposed tariff burden,not PPAs/physical expense;October13–14emergency at~108GW;hedged share/cost amount unknown. No quantified HENRY FCF revision.
 
-**Operations:**129packets read/logged/filed;29named correction receipts scoped to live wrong-carrier scan;0overdue prediction rows. BLS primary web access succeeded,shell403. Current December settlement,official rates/ACM,full consensus,Asia exchange-primary halt and tanker-cyberattack source remain gaps. ISM evaluator-deadline ambiguity remains from October8;no probability/grade/threshold moved.
+**Operations:**130packets(129initial+1lateLIQUID) read/logged/filed;29named correction receipts scoped to live wrong-carrier scan;0overdue prediction rows. BLS primary web access succeeded,shell403. Current December settlement,official rates/ACM,full consensus,Asia exchange-primary halt and tanker-cyberattack source remain gaps. ISM evaluator-deadline ambiguity remains from October8;no probability/grade/threshold moved.
 
 Evidence:`research/2026-10-19_boot/{INTAKE.md,MACRO.md,CORRECTIONS.md,boot.txt,gamma35.txt}`;STATUS canonical. Next:gamma refresh/qualifiedF1/AAL-LUVlateOctober dates (unverified here);no automatic monitor or new trade. No Will decision requested.
+
+**Late fold 2026-10-19T17:54:11-04:00:** LIQUID28e12a87f requests HENRY fixed weak-name cohort and formation-date industry/size matching. Packet read/logged/filed;cohort NOT PRODUCED in this boot. Pending follow-up preserved,financing ownership stays LIQUID,no background job. Relayed Will scope not independently certified here.

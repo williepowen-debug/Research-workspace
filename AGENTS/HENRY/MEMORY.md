@@ -57,8 +57,10 @@
 - Monday S&P rebound narrow (vendor325/503down), but Nasdaq participated; RSP positive weeks10/9+10/16 and5/20session gains refute uninterrupted narrowing. Historical narrowing proxy is not crash timing; company refinancing causality incomplete. WALTER's dated sources/caveats in STATUS/INTAKE.
 - CPI/PPI September primaries recovered via web. CPI0.6/3.7,core0.3/2.6;PPI1.3/6.3,exFET0.5/5.0. August PPI revised0.5/5.6. Shell BLS403. KB178/179, MACRO.md. Consensus partly missing; daily reactions are not release-only causes.
 - WQ-392 ENCODED: F1 matchedDecemberHOZ26*42−CLZ26,10/15–11/19, same BRENT published basis as WQ-386.95/90.16 unchanged; F1 current UNKNOWN, no current qualified settlement. F3 spent, successor not now. Roll caveat preserved. KB180; ruling verified4fe63451b/PROME row392.
--129 inbox packets logged/read and git-moved (118WALTER+11root).29 named correction receipts scoped NO-OP on current wrong-carrier scan; check rc0. Cold history not certified. Deferred10/15−002 exchange-primary halt verification and−010 tanker cyberattack article, with no dependent grades. All details in research/2026-10-19_boot/INTAKE.md.
+-Initial129 inbox packets logged/read and git-moved (118WALTER+11root).29 named correction receipts scoped NO-OP on current wrong-carrier scan; check rc0. Cold history not certified. Deferred10/15−002 exchange-primary halt verification and−010 tanker cyberattack article, with no dependent grades. All details in research/2026-10-19_boot/INTAKE.md.
 - Startup pull deferred: other desks dirty. Cross-runtime discovery/notification unverified, consumption UNKNOWN. No helpers. Original STATUS preserved verbatim in boot research. No trade, probability or threshold changed.
+
+- Late pickup 2026-10-19T17:54:11-04:00:LIQUID28e12a87f requests HENRY fixed weak-name cohort/windows/exclusions/formation-date size-industry matches.130th packet read/logged/filed;cohort NOT PRODUCED. Financing ownership stays LIQUID. Pending joint-work follow-up,not a background job;relayed Will scope not independently certified here. Receipt sent as file.
 
 ### NEXT SESSION
 

@@ -635,3 +635,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-19T17:47:43-04:00	2026-10-14_from-DEWEY_ports-pike-power	noted	INBOX_ROOT	Read and integrated as dated context with source limits. No threshold or confidence change.
 2026-10-19T17:47:43-04:00	2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7	noted	INBOX_ROOT	Read and integrated as dated context with source limits. No threshold or confidence change.
 2026-10-19T17:47:43-04:00	2026-10-15_from-WATT_PJM-5th-emergency-10-13-14-FCF-input-unchanged-in-kind	noted	INBOX_ROOT	Read and integrated as dated context with source limits. No threshold or confidence change.
+2026-10-19T17:54:11-04:00	2026-10-19_from-LIQUID_financing-coordination	deferred	INBOX_ROOT	Late28e12a87f packet read. Fixed weak-name cohort and industry/size matches requested from HENRY, not produced by this boot. LIQUID financing ownership retained. Pending existing-work follow-up, not a completed cohort or background job.
