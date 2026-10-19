@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-19T09:30:38-04:00",
+  "runtime": "Codex",
+  "desk": "NEXUS",
+  "session": "/root/nexus_morning",
+  "model": "gpt-6.1-sol per parent launch record; concrete runtime model not independently exposed",
+  "comparison": [
+    {
+      "series": "BAMLC0A0CM",
+      "first": "2023-10-17",
+      "last": "2026-10-15",
+      "n": 785,
+      "changed_overlap": [],
+      "dropped": [
+        "2023-10-16"
+      ],
+      "added": [
+        "2026-10-14",
+        "2026-10-15"
+      ]
+    },
+    {
+      "series": "BAMLH0A0HYM2",
+      "first": "2023-10-17",
+      "last": "2026-10-15",
+      "n": 786,
+      "changed_overlap": [],
+      "dropped": [
+        "2023-10-16"
+      ],
+      "added": [
+        "2026-10-14",
+        "2026-10-15"
+      ]
+    },
+    {
+      "series": "BAMLH0A1HYBB",
+      "first": "2023-10-17",
+      "last": "2026-10-15",
+      "n": 786,
+      "changed_overlap": [],
+      "dropped": [
+        "2023-10-16"
+      ],
+      "added": [
+        "2026-10-14",
+        "2026-10-15"
+      ]
+    },
+    {
+      "series": "BAMLH0A2HYB",
+      "first": "2023-10-17",
+      "last": "2026-10-15",
+      "n": 786,
+      "changed_overlap": [],
+      "dropped": [
+        "2023-10-16"
+      ],
+      "added": [
+        "2026-10-14",
+        "2026-10-15"
+      ]
+    },
+    {
+      "series": "BAMLH0A3HYC",
+      "first": "2023-10-17",
+      "last": "2026-10-15",
+      "n": 786,
+      "changed_overlap": [],
+      "dropped": [
+        "2023-10-16"
+      ],
+      "added": [
+        "2026-10-14",
+        "2026-10-15"
+      ]
+    }
+  ],
+  "hy": "HY W15 \u00b110 k3, DOWN guarded by CCC<=CCC(L)\n unconditional     n= 756 UP  29.2 DN  39.2 NV  31.6 ratio  1.34 PASS | leg-1  43.3% leg-2 eligible  75.3%\n non-overlapping   n=  51 UP  27.5 DN  37.3 NV  35.3 ratio  1.36 PASS | leg-1  43.1% leg-2 eligible  76.5%\n regime CCC>=1000  n=  79 UP  20.3 DN  45.6 NV  34.2 ratio  2.25 PASS | leg-1  55.7% leg-2 eligible  72.2%\n regime ex-live    n=  36 UP   5.6 DN  94.4 NV   0.0 ratio 17.00 fail | leg-1 100.0% leg-2 eligible 100.0%\n live only         n=  43 UP  32.6 DN   4.7 NV  62.8 ratio  7.00 fail | leg-1  18.6% leg-2 eligible  48.8%\n trailing year     n= 246 UP  31.3 DN  23.6 NV  45.1 ratio  1.33 PASS | leg-1  28.9% leg-2 eligible  65.0%\n",
+  "CCCmB": "== CCCmB W=21 D=\u00b125bp k=5  (last cell 2026-10-15 = 952bp)\n unconditional            n= 750 UP  32.7 DN  19.2 NV  48.1 ratio 1.70 PASS\n uncond non-overlapping   n=  36 UP  30.6 DN  16.7 NV  52.8 ratio 1.83 PASS\n regime CCC>=1000         n=  73 UP  53.4 DN  23.3 NV  23.3 ratio 2.29 PASS\n regime ex-live-episode   n=  36 UP  16.7 DN  47.2 NV  36.1 ratio 2.83 PASS\n regime live episode only n=  37 UP  89.2 DN   0.0 NV  10.8 ratio  inf fail\n trailing year starts     n= 240 UP  43.3 DN   5.4 NV  51.2 ratio 8.00 fail\n"
+}

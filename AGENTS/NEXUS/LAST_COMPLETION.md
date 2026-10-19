@@ -1,5 +1,17 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-10-19T09:31:19-04:00 — NEXUS morning scoped owner pass — STANDARD
+
+Runtime Codex; identity `/root/nexus_morning`; repository `/home/willi/Research-workspace`. Parent selected gpt-6.1-sol; exact runtime model not independently exposed. Root/local instructions explicitly read. No subagents, pull/stash/reset/push. Source DNS failures retried by approved escalation; no pending approval.
+
+L558 successor v2.1 already reviewed: guarded HY recommendation unchanged, refreshed gate PASS; live-only FAIL. L13 formal C#1/L₂ awaits published10/16 cell (latest initial pull10/15); M-04 two-close rule held. LIQ-07 S2 consumed. L708 OTTO missing. L11 August−$4.828B raw NV; allowance ambiguity preserved. M-06 number withdrawn. L639/WQ401 ruling recorded; PROME L730 builds.
+
+Files/evidence: `research/2026-10-19_morning_synthesis.md`, `research/2026-10-19_WQ342_review.md`, refreshed grid/receipt, STATUS/PREDICTIONS, board_log15 rows, four correction receipts, S1 design ruling note. Whole inbox15→0 after integration commit and consume moves. Full fleet freshness saved; owner commits not used in this scoped read deferred to next full matrix pass. Prior dated domain marks unchanged. No full re-sweep claimed; no original letter altered.
+
+Controls: weekday check clean; corrections check and read-cap/orphan/freshness at commit. State changes propagated STATUS↔PREDICTIONS; CONFIRMED unchanged (no affected row). Residue in preserved letters/prior completion blocks is RETAINED-HISTORY. Promotion: none this pass. Skipped: full brief loop/digest (bounded task/no subagents);9a not due;15a no existing full-file rewrite; root1c no fleet-cited figure superseded (own Conf withdrawal);1c-bis noLEDGER_GLOB;1d no memory. Await published cells, OTTO via PROME, Will decision, L11 interpretation, and explicit full-closeout ask. No push per task.
+
+---
+
 ## 2026-10-15 Thu 10:12 EDT — PROME-spawned DOCKET L571 wake (prome-81, WQ-184 Tier 1; scoped) — STANDARD tier
 
 Runtime: Claude Code, `claude-opus-5-5`, spawned from PROME's cwd; charter + root + COMPLETION_SPEC read explicitly. No digest readers (scoped due-row wake, not a full pass). **Delivery:** `PROME/inbox/2026-10-15_from-NEXUS_L571-PRED48-final-FT10-L708-two-legs.md`.
