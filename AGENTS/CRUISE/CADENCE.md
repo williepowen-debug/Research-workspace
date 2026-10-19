@@ -1,6 +1,6 @@
 # CRUISE — Cadence / event-driven wake set
 
-*Split out of `STATUS.md` 2026-09-19 under READ_CAP rule 5. **This is the LIVE surface for the wake set — not an archive.** `STATUS.md` carries a pointer; update this file, not a copy. Consumer: PROME BD-02. **Body 3,683 B, crc32 `aa2bb8e9`**, computed from the `**ACTIVE / EVENT-DRIVEN**` line to EOF (re-stamped 2026-10-14: trigger #1 resolved, RCL/NCLH prints and the CRU-11 grade added, the stale L221 owed-line removed — DOCKET L221 was dated 9/29 and RESOLVED 2026-09-29).*
+*Split out of `STATUS.md` 2026-09-19 under READ_CAP rule 5. **This is the LIVE surface for the wake set — not an archive.** `STATUS.md` carries a pointer; update this file, not a copy. Consumer: PROME BD-02. **Body 3,716 B, crc32 `4e5023cb`**, computed from the `**ACTIVE / EVENT-DRIVEN**` line to EOF (re-stamped 2026-10-14: trigger #1 resolved, RCL/NCLH prints and the CRU-11 grade added, the stale L221 owed-line removed — DOCKET L221 was dated 9/29 and RESOLVED 2026-09-29).*
 
 
 **ACTIVE / EVENT-DRIVEN** (Will-ruled 8/21). Dark 42 days, then 19, then 5, then 11 (10/3 → 10/14) — **each time catalysts fired unattended**; the last gap missed NCLH's 9/30 refinancing and RCL's 9/23 Sandals deal. Named triggers, owner who sees each first:
@@ -13,7 +13,7 @@
 | 1c | **CRU-11 grade — 2026-11-14 close** | PROME DOCKET L606 | Will-approved ratio-form K-shape test; grade carries both endpoint readings + sources. |
 | 1d | **NCLC notes closed 10/15; closing 8-K read 10/16, Ex10.1 read 10/19** | CRUISE (EDGAR) | **DONE:** unsecured (KB-CRU-157); amended 800M Free Liquidity springing test confirmed (KB-CRU-163). |
 | 1e | **Tue 2026-11-17 — NCLH revolver springing-maturity test** | CRUISE (EDGAR, Q3 10-Q) | The **$2.801B** revolver matures that day if the $216.2M 2027 exchangeables are still out **and** free liquidity < $800M (KB-CRU-155). Expected to pass; confirm from the Q3 10-Q liquidity figure. |
-| 2 | **CCL closes ≤ $21.7425** | CRUISE / any tape watcher | `VX-CRU-01` → RED(4). **19.4% away at the 10/14 close ($25.97).** |
+| 2 | **CCL closes ≤ $21.7425** | CRUISE / any tape watcher | `VX-CRU-01` → RED(4). **A 17.8% decline from the October19 close ($26.45) would reach that line.** |
 | 3 | CCL 8-K **item 2.02 or 8.01** off-cycle | CRUISE (EDGAR) | True preannouncement; base rate <10%. |
 | 4 | **RCL/NCLH guidance revision or capital-markets 8-K** | CRUISE (EDGAR) | Either moves the K-shape or the capital-access ladder. ⛔ **A company press release is not an SEC filing** — NCLC's 9/30 8-K did not describe the offering and the pricing release was not on EDGAR through 10/14; check the IR press-release page too. |
 | 5 | A **Big-3** Gulf/Red Sea/Suez cancellation | FALCON / trade press | `VX-CRU-04` → YELLOW(2). |

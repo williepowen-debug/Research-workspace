@@ -1,6 +1,6 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-19T22:24:44.080353+00:00** (Will coordination clarification and two late peer receipts). Research and dated-price bases unchanged; see `research/2026-10-19_cushion/COORDINATION.md`.*
+*Last updated: **2026-10-19T22:42:08.618843+00:00** (bounded currency check: October19 closes, SEC/IR index checks and final HENRY delivery). Older contextual inputs retain explicit dates; full desk coverage is not certified. See `research/2026-10-19_currency-check/RESULT.md`.*
 
 ## October 19 research finding — cushion survives as a dated contrast
 
@@ -13,7 +13,7 @@
 | **Alternative explanation: demand/execution** | Q2 CC yield RCL +1.2% / NCLH −2.6%; capacity +4.87%/+8.88%; deposit cash build +12.8%/−31.9%. Both groups include premium brands. No causal attribution to financing. KB-CRU-164 |
 | **WALTER window reproduced; CRU-11 OPEN** | September18–October16 RCL +12.97%, NCLH +6.59%, lag −6.38pp. Both rose; that window cannot grade October2–November14. Frozen preceding-session rule implies November13 if normally traded. PREDICTIONS/VX untouched. |
 | **NCLH Q3 date confirmed** | October29 06:30 ET release / 08:30 ET call, primary October15 announcement; CADENCE/watchlist updated. PROME receives existing L714 date-reconciliation ask. KB-CRU-165 |
-| **Coordination / consumption — updated** | HENRY5ca79d333 and LIQUIDbf6ac8f05/CLOSEOUT explicitly consume CRUISE findings. Original HENRY eight-name cohort6474d8726 delivered and consumed by LIQUID. Specific workflow explicitly acknowledged by HENRY (committed1f27347f2) and LIQUID (written18:25ET; commit pending at check); conditional shortlist remains pending. Seven focused packets sent. Native live transport unavailable. `research/2026-10-19_cushion/COORDINATION.md`. |
+| **Coordination / consumption — updated** | HENRY5ca79d333 and LIQUIDbf6ac8f05/CLOSEOUT explicitly consume CRUISE findings. Original HENRY eight-name cohort6474d8726 delivered and consumed by LIQUID. Both workflow acknowledgments committed (HENRY1f27347f2; LIQUID45336d17d). HENRY final conditional shortlist4261b747e/receiptfb4b004b3 now consumed: primary MOS/HII/ADM/CPRT, recent recovery caveats; cruise study unchanged. Seven focused packets sent. Native live transport unavailable. `research/2026-10-19_cushion/COORDINATION.md`. |
 
 > ## ⚖️ PRIOR STATE — 2026-10-16 Fri, **D:L712 GRADED + L0 DRAIN.** $0, no trade, no Will-gated level moved.
 > | Item | Done | Receipt |
@@ -38,14 +38,14 @@
 
 ## Signal Dashboard
 
-*Every price is the **2026-10-14 close** (FORGE `fetch.py`, cross-checked yfinance) unless stated. Total-return (TR) figures use yfinance adjusted closes.*
+*Big-3 prices and interim CRU-11 observation are the **2026-10-19 close**, pulled with repository yfinance(auto_adjust=False), cross-checked against separate Yahoo daily-chart responses (same vendor, not independent). Other rows retain named vintages. No endpoint grade.*
 
 | Metric | Value | State | Source |
 |--------|-------|-------|--------|
-| **CCL price** | **$25.97** (−2.84% on the day) = **−22.36% vs the named ref $33.45** — ⛔ **that ref is the DIVIDEND-ADJUSTED 2/06 close; the raw close was $33.99 ⇒ −23.59% on price** (KB-CRU-154). ORANGE on both. RED line: $21.7425 adjusted / **$22.09 price** — ⚠️ **on price, the 9/18 close $21.84 WAS below RED**. Print day 9/29: $22.14 → $25.11 (+13.4%) | 🟠 | [CONF] fetch.py + yfinance 10/14 |
-| **RCL price** | **$274.31** (−2.56%); TR since the CRU-11 base (10/2) **−1.24%**. Q3 call **10/27** | 🟠 | [CONF] fetch.py 10/14 |
-| **NCLH price** | **$14.87** (−2.94%); TR since 10/2 **−1.78%**; **−40.57%** from the 2/26 peak $25.02 | 🔴 | [CONF] fetch.py 10/14 (yfinance had no 10/14 NCLH bar at 20:4x ET) |
-| **CRU-11 spread** (NCLH − RCL TR from 10/2) | **≈ −0.55pp** at 10/14 (10/13: −0.17pp). Range since base **−2.24pp (10/7) to +1.21pp (10/9)**. Needs **≤ −5pp at the 11/14 close**. ⚠️ The ~9pp widening 9/25→10/2 happened **before** the base and does not count | 🟡 | [CONF] own pull 10/14 |
+| **CCL price** | **$26.45**, **+2.12%** on October19; **−20.93%** vs adjusted reference33.45 / **−22.18%** vs raw33.99. Existing RED line21.7425 remains pending approved basis work L732; no band moved | 🟠 | [CONF MIRROR] Yahoo yfinance + chart October19 |
+| **RCL price** | **$281.97**, **+1.54%** on October19; cumulative adjusted return from October2 **+1.52%**. Q3 call October27 | 🟠 | [CONF MIRROR] Yahoo yfinance + chart October19 |
+| **NCLH price** | **$15.24**, **+1.26%** on October19; cumulative adjusted return from October2 **+0.66%**; **−39.09%** vs February26 peak25.02. Q3 release October29 | 🔴 | [CONF MIRROR] Yahoo yfinance + chart October19 |
+| **CRU-11 spread** (NCLH − RCL cumulative adjusted TR from October2) | **−0.86pp at October19 close**, **interim observation only**. Frozen endpoint November14 / nearest preceding session; resolver not run | 🟡 | [CONF MIRROR] pinned yfinance Adj Close pull October19 |
 | Tape 10/14 | Big-3 −2.6% to −2.9% on a down day: SPY −1.08%, XLY −0.77%, VIX 16.87 (+10.5%). **No cruise-specific cause found** | — | [CONF] yfinance 10/14 |
 | **CCL Q3 / FY26** | Adj EPS **$1.43** vs ~$1.35 guide · FY CC net yield **~+2.3%** (was ~+1.75%) · FY adj EPS ~$2.24 · deposits **$7.6B, +~7%** on flat capacity · 2027 occupancy + pricing **at records**. ⚠️ 10-Q: **North America ticket prices −$40M YoY**, cause unnamed — not CRU-09 evidence, not the Norwegian channel | 🟢 | [CONF A1] 8-K …-000104 + 10-Q …-000107 |
 | **CCL fuel** (`VX-CRU-02`) | Q3 actual **$826/mt** vs $812 guide; fuel hit **$0.007/sh**; **Q4 guide $896/mt**; FY raised through a ~$150M fuel headwind. **Exit rule 2 FIRED** ⇒ cost line only. Brent BZZ26 ~$105.3 (bar labelled 10/14, may include the evening session — context; **BRENT owns it**) | 🟡 | [CONF A1] CCL 9/29; yfinance BZZ26.NYM |
@@ -65,9 +65,9 @@
 
 | # | Target/Vector | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------------|-------|--------|------------|-----------------|
-| 1 | NCLH relative weakness (`VX-CRU-05`) | 4 | 🔴 | 7/30 guide cut stands (9/30 = reaffirm, **not** a re-slash); −40.6% from peak; **new 8.750% paper replaces 6.125%** and 2027 interest +22-25% — but ~$376M of revolver room restored | NCLH Q3 print guides down · FY26 OCF below ~$1,926M · advance-ticket build falls again · leverage climbs off 5.3x |
+| 1 | NCLH relative weakness (`VX-CRU-05`) | 4 | 🔴 | 7/30 guide cut stands (9/30 = reaffirm, **not** a re-slash); −39.1% from peak at October19 close; **new 8.750% paper replaces 6.125%** and 2027 interest +22-25% — but ~$376M of revolver room restored | NCLH Q3 print guides down · FY26 OCF below ~$1,926M · advance-ticket build falls again · leverage climbs off 5.3x |
 | 2 | Consumer demand K-shape (`VX-CRU-03`) | 4 | 🔴 | **On the letter** (NCLH's guide-down not reversed). ⚠️ **Q3 evidence is non-escalating**: CCL records, NCLH beat on revenue. Dispersion fits; broad consumer stress does not. **Re-score owed at RCL 10/27 + NCLH Q3** | −20% booking-pace print · RCL guides FY yields DOWN |
-| 3 | CCL stock stress (`VX-CRU-01`) | 3 | 🟠 | −22.36% vs ref; RED line 19.4% away; near-RED 9/18 reversed on the print | Close ≤ $21.7425 |
+| 3 | CCL stock stress (`VX-CRU-01`) | 3 | 🟠 | October19 **−20.93%** vs adjusted reference; raw basis **−22.18%**. No state change; basis edit held to L732 | Existing close ≤21.7425 |
 | 4 | Fuel cost line (`VX-CRU-02`) | 2 | 🟡 | **Exit rule 2 FIRED.** Level band still RED ($826 actual, $896 Q4 guide) — **the channel is dead, the cost is not** | A print where the fuel-attributable hit vs guide > $0.10 **with** a yield guide-down |
 | 5 | Gulf/Red Sea → Big-3 (`VX-CRU-04`) | 1 | 🟢 | Zero Big-3 cancellations (as of FALCON 9/28; not re-swept) | ONE announced Big-3 cancellation ⇒ YELLOW(2) |
 

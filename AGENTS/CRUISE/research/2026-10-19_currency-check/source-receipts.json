@@ -1,0 +1,60 @@
+[
+  {
+    "id": "RCL-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000884887.json",
+    "status": 200,
+    "sha256": "3d97453cb971ccef0b24b12dede5f43f85130ee520fe76c810521bb9f69614d2",
+    "retrieved": "2026-10-19T22:41:00.800700+00:00",
+    "new_forms_since_october14": []
+  },
+  {
+    "id": "NCLH-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001513761.json",
+    "status": 200,
+    "sha256": "fad8476bae328077a58e52cc1346075c0154633edbe49efba05afc4f2096049b",
+    "retrieved": "2026-10-19T22:41:00.720243+00:00",
+    "new_forms_since_october14": [
+      {
+        "date": "2026-10-15",
+        "form": "8-K",
+        "acc": "0001104659-26-116254",
+        "document": "tm2627514d1_8k.htm"
+      }
+    ]
+  },
+  {
+    "id": "CCL-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000815097.json",
+    "status": 200,
+    "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0",
+    "retrieved": "2026-10-19T22:41:04.710578+00:00",
+    "new_forms_since_october14": []
+  },
+  {
+    "id": "CCL-chart",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCL?range=1mo&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "sha256": "2b75067e0adcd61cdfcc886d5e0b06580245337c0fc8014cc066b460be9d8c69",
+    "retrieved": "2026-10-19T22:41:00.877828+00:00",
+    "last_close": 26.450000762939453,
+    "last_timestamp": 1792416600
+  },
+  {
+    "id": "RCL-chart",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCL?range=1mo&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "sha256": "0f9864cc14eccbbdf62dd9092b9c7b05fd215b463806cce9b65531a513716593",
+    "retrieved": "2026-10-19T22:41:01.050612+00:00",
+    "last_close": 281.9700012207031,
+    "last_timestamp": 1792416600
+  },
+  {
+    "id": "NCLH-chart",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NCLH?range=1mo&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "sha256": "432fba1b43d9d32385ab3f0fb0785c8249d4f70b8abbbe5b13ce134cf098dcdd",
+    "retrieved": "2026-10-19T22:41:01.648868+00:00",
+    "last_close": 15.239999771118164,
+    "last_timestamp": 1792416600
+  }
+]
