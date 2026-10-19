@@ -12,6 +12,8 @@ Controls: numeric/obligation/weekday/corrections/cap/orphan/freshness/diff+state
 
 Full packet: PROME/inbox/2026-10-19_from-NEXUS_full-synthesis-execution.md. REGINALD/VULCAN seams packeted. Exact local commit in thread; foreign work untouched; current packet consumption pending. Next10/20L554;10/27L555;10/29M06disposition;10/30&11/5letters;11/10PRED38;11/20transfers. Window stays open.
 
+Addendum 2026-10-19T11:21:21-04:00 LIGHT: queued PROME update logged; L11ambiguity corroborated, NV/hold. OTTOawait superseded by consumed return; no duplicate. No state change. Controls/tier→ RECORD dependency acknowledgment.
+
 ---
 
 ## 2026-10-15 Thu 10:12 EDT — PROME-spawned DOCKET L571 wake (prome-81, WQ-184 Tier 1; scoped) — STANDARD tier
