@@ -242,6 +242,8 @@ class OwedDigest(unittest.TestCase):
     # read 1 ⚠️12 — the gate check itself, wired: UNKNOWN / NO-OP / OWED / incoherent queue ⇒ UNKNOWN
     def test_r1_gate_check_wiring(self):
         import prome_gate as G
+        # WQ-460: exercise the preserved active branch only inside this fixture.
+        patch.object(G, "DECISION_DECK_PAUSED", False).start()
         patch.object(G, "ROOT", self.root).start()
         (self.root / "PROME").mkdir(exist_ok=True)
         (self.root / "PROME/WILL_QUEUE.md").write_text(D.Q.read_text(encoding="utf-8"), encoding="utf-8")

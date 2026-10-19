@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**2026-10-19 midday — Decision Deck PAUSED by Will (WQ-460).** Suspend Deck-specific pickup, explainer/card upkeep, builds, publication and hosted verification until Will resumes. Keep decisions in chat + WILL_QUEUE and preserve approval history. Existing hosted page not disabled; unseen taps remain unknown. No replacement owner commissioned. Direct ruling and scope → `proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`; midday boot receipt → `reports/2026-10-19_midday-reboot.md`. This instruction supersedes older Deck chores below and in boot/closeout guidance.
+
 Will requested a Light closeout and commit/push before a fresh PROME context. Resume at `reports/2026-10-19_CATO-follow-through.md`: MR1 broker-reconciliation wording is corrected and independently checked; MR2 source-qualified owner returns still need consumption. Existing owner IDs are recorded there—use those windows, never duplicate them.
 
 Will confirmed LIQUID, HOMER and WALTER are all open; native reads observed their existing commissioned work. No additional directions were queued before the closeout request. Read their latest artifacts/threads after reboot, then integrate deliveries under DOCKET L746/L725 and WALTER's saved incomplete sweep. NEXUS/OTTO implementation and their next work remain at `reports/2026-10-19_NEXUS-execution-coordination.md`; L11 remains unresolved.

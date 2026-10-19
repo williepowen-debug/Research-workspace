@@ -63,6 +63,8 @@ ROOT = Path(__file__).resolve().parents[2]
 LOG_DIR = None
 CHARTER_MODE = "explicit"
 SESSION_JSON = None
+# WQ-460: resume only on Will's word, with store reconciliation and matching procedures.
+DECISION_DECK_PAUSED = True
 
 GATES_STATES = ("LIVE", "FIRED-UNEXECUTED", "RESOLVED", "LAPSED", "RETIRED")
 # GATES_AGE_DAYS retired 8/9 — the >5d raw-age rule was RETIRED by the 8/7
@@ -1404,6 +1406,11 @@ def check_publication_prereqs():
     an explainer row. The other half — whether this session has viewed the live
     artifact — is a harness fact the repo cannot see, and the procedure moves it
     to Pre-closeout so it cannot ambush the end."""
+    if DECISION_DECK_PAUSED:
+        record(ADVISE, "publication prerequisites (Deck explainer coverage)", True,
+               "PAUSED BY WILL (WQ-460) — no Deck explainer upkeep or hosted-page read",
+               "PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md")
+        return
     try:
         q = (ROOT / "PROME/WILL_QUEUE.md").read_text(encoding="utf-8")
         opn = q.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
@@ -1432,6 +1439,11 @@ def check_deck_republish():
     vs the HOSTED record; the BUILD receipt is never consulted here (a render is not a publish). UNKNOWN ⇒ republish
     and record (never NO-OP on silence). Replaces the full hosted-page read that earned a NO-OP by hand (survey #17)."""
     name = "Deck republish (WQ-446 A, L738)"
+    if DECISION_DECK_PAUSED:
+        record(ADVISE, name, True,
+               "PAUSED BY WILL (WQ-460) — Owed and Reference; no publish or hosted-receipt write",
+               "PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md")
+        return
     owner = ("PROME/CLOSEOUT.md step 11 — OWED/UNKNOWN ⇒ publish the Owed view once, then "
              "`decision_deck.py --record-hosted-owed <version> --page <downloaded hosted copy>`; NO-OP ⇒ quote this line in the report — "
              "do not publish and do not run --record-hosted-owed (it would stamp a version that never reached the host)")
@@ -1847,7 +1859,7 @@ def mode_closeout(tier=None, memory=None, superseded=None):
     guard(check_orch_log_observed)
     guard(check_review_manifest, tier)
     guard(check_publication_prereqs)
-    guard(check_deck_republish)     # L738: the gate decides the Deck publish; the page is read only when OWED/UNKNOWN
+    guard(check_deck_republish)     # WQ-460: reports PAUSED; preserved L738 branch requires authorized resume
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical")
     guard(check_gates_tsv)          # FIRED-UNEXECUTED must never leave a session

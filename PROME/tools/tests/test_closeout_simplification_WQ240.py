@@ -241,13 +241,12 @@ class PreservedInvariants(unittest.TestCase):
         self.assertIn("Skip rules", cold)
         self.assertIn("carve-out", cold)
 
-    def test_publication_stays_required_at_standard_plus(self):
-        # WQ-452.FLEETOPS (Will 2026-10-16): the Fleet-Ops build mandate ("Standard+ mandatory for the
-        # dashboard build") was retired; the Standard+ publication requirement that SURVIVES is the Deck
-        # OWED view on the gate's WQ-446 A line. Pin that letter, not the retired phrase.
+    def test_publication_respects_the_deck_pause_and_active_helm_scope(self):
+        # WQ-460 suspends Deck publication; active Helm delivery still follows WQ-382(b).
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
-        self.assertIn("Standard+: the Decision Deck OWED view publishes", m)
-        self.assertIn("The Deck OWED view only when the gate's WQ-446 A line reads OWED or UNKNOWN", m)
+        self.assertIn("Decision Deck Owed and Reference are PAUSED BY WILL (WQ-460)", m)
+        self.assertIn("THE HELM publication runs only on Will\'s word or at a spine audit", m)
+        self.assertIn("Unmet owed publication is reported, never waived", m)
 
     def test_every_cold_section_is_reachable_by_an_explicit_pointer(self):
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
