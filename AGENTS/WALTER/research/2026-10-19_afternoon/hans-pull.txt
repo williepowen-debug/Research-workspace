@@ -1,0 +1,102 @@
+{
+  "fetched_utc": "2026-10-19T18:40:59.410272+00:00",
+  "AGSI": {
+    "row": [
+      "2026-10-18",
+      74.58,
+      "0.11"
+    ],
+    "error": null,
+    "norm": [
+      89.15599999999999,
+      92.81,
+      5,
+      [
+        [
+          2021,
+          77.12
+        ],
+        [
+          2022,
+          92.81
+        ],
+        [
+          2023,
+          97.97
+        ],
+        [
+          2024,
+          95.1
+        ],
+        [
+          2025,
+          82.78
+        ]
+      ]
+    ]
+  },
+  "ECB_AAA10Y": [
+    [
+      "2026-10-16",
+      3.4444646497
+    ],
+    [
+      "2026-10-15",
+      3.390425514
+    ],
+    [
+      "2026-10-14",
+      3.510796188
+    ],
+    [
+      "2026-10-13",
+      3.491778165
+    ],
+    [
+      "2026-10-12",
+      3.4986692518
+    ],
+    [
+      "2026-10-09",
+      3.5112034635
+    ]
+  ],
+  "BOE_10Y_PAR": [
+    "15 Oct 2026",
+    5.3092
+  ],
+  "prices": {
+    "TTFX26.NYM": {
+      "price": 88.09,
+      "prev": 87.55,
+      "change_pct": 0.62,
+      "name": "TTFX26.NYM",
+      "volume": 89,
+      "asof": "2026-10-19",
+      "prev_asof": "2026-10-16",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Dutch TTF Natural Gas Calendar '",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": null,
+      "session": "day",
+      "trade_date": "2026-10-19",
+      "session_basis": "day session; last trade 2026-10-19 07:08:43 [America/New_York] vs bar 2026-10-19; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-16)"
+    },
+    "EURUSD=X": {
+      "price": 1.12,
+      "prev": 1.12,
+      "change_pct": -0.25,
+      "name": "EURUSD=X",
+      "volume": 0,
+      "asof": "2026-10-19",
+      "prev_asof": "2026-10-16",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'EUR/USD' (instrumentType='CURRENCY')",
+      "instrument_type": "CURRENCY",
+      "is_future": false,
+      "contract_symbol": null
+    }
+  }
+}

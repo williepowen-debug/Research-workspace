@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-19T18:44:45Z",
+  "origin_ref": "d127b83eb43373a2fbd356b4b601d1de381c0919",
+  "routing_commits": [
+    "81d159bdc",
+    "ea6eacc7a"
+  ],
+  "state": "published",
+  "today_handoff_pairs": 96,
+  "proven": 96,
+  "new_pairs": 17,
+  "new_recipient_consumption": "UNKNOWN",
+  "WALTER_push_executed": false,
+  "basis": "read-onlygitfetchplusancestry/historycheckanddeliveryreconciler"
+}

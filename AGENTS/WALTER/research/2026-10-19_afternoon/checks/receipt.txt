@@ -1,0 +1,33 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "81d159bdc: claimed pending, origin proves published",
+    "ea6eacc7a: claimed pending, origin proves published",
+    "SIG-W-20261019-012/CARL: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-012/RED: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-012/NEXUS: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-012/CATO: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-012/REGINALD: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-012/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-012/BROCK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-012/OTTO: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-013/ZHAO: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-013/SAM: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-013/HENRY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-013/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-013/BRENT: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-014/HANS: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-014/BOND: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-014/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261019-014/REGINALD: ledger/origin disagree; reconcile or investigate",
+    "delivery receipt mismatch: actual 96/96",
+    "R1 write compliance OWED: R1-WRITE 1 OWED: 0 correction-class signal(s) with NO register row \u00b7 2 row(s) whose targets miss a recipient of the corrected signal \u2014 since 2026-10-08 \u00b7 278 BOARD signal(s) scanned \u00b7 34 correction-class (signal_type: correction OR title marker) \u00b7 33 with a register row \u00b7 1 exempt (dispatch_note 'not correction-class') \u00b7 0 without a closed frontmatter block (title-only basis) \u00b7 15 row(s) target-checked against the corrected signal's recipients, 18 not checkable (pointer names no '-to-YYYYMMDD-NNN' original, or it is not on BOARD) | \u26d4 SHORT-TARGETS COR-20261015-05 (SIG-W-20261015-005 corrects S"
+  ],
+  "as_of": "2026-10-19T18:43:43Z",
+  "origin_ref": "d127b83eb43373a2fbd356b4b601d1de381c0919",
+  "delivery_scope": "20261019",
+  "delivered": 96,
+  "total": 96,
+  "next_review": "2026-10-20",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

@@ -1,0 +1,11 @@
+# Afternoon source verification — October19,2026
+
+Rule9 helper /root/verify_afternoon, thread-local read-only verifier, actual model not exposed to parent. No domain owner launched. Returned CONFIRMED China; CONFIRMED/CORRECTED-FRAMING France. Parent independently recovered NBS/Reuters substantive search responses and directly read governing i-i screen. Direct NBS/Reuters opens failed; no full authenticated-origin body-fetch claimed. Helper found no October19 BOARD duplicate; parent expanded to trailing48h and found1018-004 already covers France unrest. Only Monday market follow-through routed014.
+
+NBS release URL https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html ;10:00BeijingOctober19=22:00ETOctober18. Q3 GDP4.5%y/y vs4.3%,q/q1.2;9M4.6. Septretail1.1%,industrial5.5;9MFAI−7.2%,private−10.4%,property−20.6%. Constant-priceGDP versus distinct activity bases/periods; no broad demand recovery inferred. Full operative relay013.
+
+Reuters URL https://www.investing.com/news/economy-news/french-markets-tumble-as-riots-add-to-political-crisis-4958015 ;displayed11:12/11:19October19,timezonemissing. Intraday4.90%/146bp not identical-time comparison with https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html dailyOctober19 4.85/3.43/142.3 versusOctober16 137.4,+4.9bp. Fixing/finalityunverified;sitewideCAC17h35not bondfixing. ExistingHANS-T10OPEN,no newfire/governmentfall/USfundingtransmission inferred.
+
+AP https://apnews.com/article/stocks-markets-oil-us-ai-494fbe4361a0360b2f6368e7a6d8f058 at13:52ET reports tech-led rebound with weak breadth. Context only; no new mechanism dispatch. FITB alreadyGIBBS/001; sanctions002; unnamed mine claim1018-002/1019-005 not fresh confirmation. No newIran-cluster dispatch/full-sweep clock reset.
+
+OTTO: complete four packets and four controlling owner syntheses read; chronologicals032→s033→s034→s035 retained. Signal012 carries amended$8B/cancellation,subjective25%forecast,3/8calibration,STUCKinstrument and originalSDT/calendar corrections. Owner originalfilings not all independentlyreaudited. No actualcancellation/fullmarketabsence/CATOclosure inferred. Integrationcommit81d159bdc precedes packetmoves/consumption declaration.

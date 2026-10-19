@@ -1,0 +1,14 @@
+[
+  "BOARD/SIG-W-20261019-012-otto-ally-contract-warehouse-forecast-and-calendar-repairs.md",
+  "AGENTS/WALTER/routed/route_log.tsv",
+  "AGENTS/WALTER/routed/delivery_log.tsv",
+  "AGENTS/CARL/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/RED/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/NEXUS/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/CATO/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/BROCK/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/OTTO/inbox/WALTER/SIG-W-20261019-012.md",
+  "AGENTS/WALTER/registry/CORRECTIONS.tsv"
+]

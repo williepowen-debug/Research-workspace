@@ -1,0 +1,209 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-18T17:43:34Z (1 missed weekday runs, 1 calendar days)"
+    ],
+    [
+      "MED",
+      "lane status=degraded"
+    ],
+    [
+      "MED",
+      "feed eia_petroleum status=error"
+    ],
+    [
+      "OK",
+      "news search items saved: 93 (trailing median 191 over 10 batches)"
+    ]
+  ],
+  "new": [],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=51.7 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.4 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=323.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=323bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "cftc_cot",
+      "key": "cftc:cftc_cot_VIX_lev_money_net_1105_orange_n:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "VIOLET"
+      ],
+      "info_cc": [
+        "SAM"
+      ],
+      "precedence": "ROUTINE",
+      "raw": "cftc_cot VIX lev-money net=1105 [orange] (net-long vol / de-risking regime)",
+      "label": "VIX positioning",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:NCLH_2026_10_15_1_01_1_02_2_03_8_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLH 2026-10-15 ['1.01', '1.02', '2.03', '8.01', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:NCLC_2026_10_15_1_01_1_02_2_03_8_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLC 2026-10-15 ['1.01', '1.02', '2.03', '8.01', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-18/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "1 NEW_ALERT item(s) \u2014 read data/2026-10-18/news.json",
+      "label": "1 NEW_ALERT",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-18/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "4 NEW_WATCH item(s) \u2014 read data/2026-10-18/news.json",
+      "label": "4 NEW_WATCH",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:fc0e61e1aca1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ukraine sets Saint Petersburg refinery ablaze in large-scale drone attack - France 24",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:48c58b432728",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Zelenskyy Defies Trump, Orders New Russian Refinery Attacks - Bloomberg",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:062ab3a89bef",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "MIDAS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Central Bank Gold Statistics: Central banks make positive headlines on gold | Post by Marissa Salim | Insights - World Gold Council",
+      "label": "WATCH_HIT [MIDAS:'Central bank gold statistics']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:a23ef77d5963",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "The damaged Aframax tanker Rio was brought to Novorossiysk after a fire in the Black Sea - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+      "label": "WATCH_HIT [OSPREY:'Novorossiysk tanker']",
+      "onset": false
+    }
+  ]
+}
