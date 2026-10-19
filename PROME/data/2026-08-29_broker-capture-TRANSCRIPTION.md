@@ -1,7 +1,7 @@
 # Broker capture — 2026-08-29 (Sat) — PROME transcription for ANVIL
 **Source:** two Will screenshots posted in-session Sat 2026-08-29 ~12:45 ET. **Marks = Fri 2026-08-28 close** (Fidelity "Today's gain/loss" column populated ⇒ Friday session values; captured Saturday, markets closed). No activity/transactions view captured. **Arithmetic verified by PROME:** positions + cash $35,734.56 + pending activity $722.58 = **$36,457.14** = account total, exact to the cent.
 
-## ① Fidelity Traditional IRA — account no. **216461326** (screenshot header; resolves D-10 "•1326 presumed")
+## ① Fidelity Traditional IRA — account no. **•1326** (screenshot header; resolves D-10 "•1326 presumed")
 Account total **$36,457.14** · Today −$261.35 (−0.71%) · Total G/L +$314.31 (+1.44%) · **Pending activity $722.58** (unexplained on this capture — no activity view) · **Cash (money market) $13,600.67 = 37.31%**
 
 | Symbol | Expiry | Qty | Last | Today $ | Total G/L $ | Total G/L % | Current value | Avg cost | Cost basis total |

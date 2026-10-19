@@ -1,6 +1,6 @@
 # Broker capture — TRANSCRIPTION 2026-09-29 (Tue) ~13:4x ET, intraday (market OPEN; 'Today's gain/loss' populated ⇒ marks are LIVE INTRADAY, NOT a close)
 
-**Transcribed by:** PROME (prome-e6) from five Will screenshots posted 13:46 ET 2026-09-29. **Verified to the cent below (§②).** Accounts: Fidelity Traditional IRA (header shows 'Traditional IRA', number redacted — same position set as the 9/27 reconcile ⇒ 216461326 INFERRED) · Robinhood Individual. ⚠️ Fidelity images are the positions view and the Activity ledger (Sep-01 → Sep-28); Robinhood images are the home card + two 'Recent' activity scrolls (Sep-01 → Sep-25).
+**Transcribed by:** PROME (prome-e6) from five Will screenshots posted 13:46 ET 2026-09-29. **Verified to the cent below (§②).** Accounts: Fidelity Traditional IRA (header shows 'Traditional IRA', number redacted — same position set as the 9/27 reconcile ⇒ •1326 INFERRED) · Robinhood Individual. ⚠️ Fidelity images are the positions view and the Activity ledger (Sep-01 → Sep-28); Robinhood images are the home card + two 'Recent' activity scrolls (Sep-01 → Sep-25).
 
 ## ① Fidelity Traditional IRA — positions view (intraday 9/29)
 

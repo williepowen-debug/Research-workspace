@@ -2,7 +2,7 @@
 
 **Built by:** Claude Code Prome (CC), Will-authorized
 **Purpose:** Ground-truth reconciliation table for FORGE STATUS.md rebuild. Maps every Fidelity CSV line → thesis bucket → agent owner.
-**Source 1:** `AGENTS/RED/inbox/processed/Portfolio_Positions_May-21-2026.csv` — Fidelity export, account 216461326 Traditional IRA, downloaded 2026-05-21 2:03 PM ET
+**Source 1:** `AGENTS/RED/inbox/processed/Portfolio_Positions_May-21-2026.csv` — Fidelity export, account •1326 Traditional IRA, downloaded 2026-05-21 2:03 PM ET
 **Source 2:** `AGENTS/SAM/TRADE.md` v1.4 — for FXY position validation (one discrepancy flagged)
 **Status:** DRAFT — Will-review checkpoint before Step 2 (STATUS.md rebuild)
 
@@ -191,7 +191,7 @@ Other:
 
 ## Reconciliation provenance
 
-- CSV: `AGENTS/RED/inbox/processed/Portfolio_Positions_May-21-2026.csv` (Fidelity export, downloaded 2026-05-21 2:03 PM ET, account 216461326 Traditional IRA)
+- CSV: `AGENTS/RED/inbox/processed/Portfolio_Positions_May-21-2026.csv` (Fidelity export, downloaded 2026-05-21 2:03 PM ET, account •1326 Traditional IRA)
 - SAM TRADE.md: `AGENTS/SAM/TRADE.md` v1.4 (refreshed 2026-05-21)
 - BROCK decisions: `AGENTS/BROCK/domain/sources/POSITION_DECISIONS_MAY21.md` (used for APO + ARES + HYG dispositions)
 - Prior STATUS: `FORGE/STATUS.md` (Mar 25) — referenced for "unchanged" vs "NEW" classification

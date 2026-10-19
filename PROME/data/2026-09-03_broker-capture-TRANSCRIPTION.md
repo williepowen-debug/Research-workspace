@@ -1,4 +1,4 @@
-# Broker capture — TRANSCRIPTION · Fidelity Traditional IRA (216461326, per the 8/29 capture header; number NOT visible on this image) · captured Thu 2026-09-03 ~15:07 ET (Will's screenshot, posted in-session)
+# Broker capture — TRANSCRIPTION · Fidelity Traditional IRA (•1326, per the 8/29 capture header; number NOT visible on this image) · captured Thu 2026-09-03 ~15:07 ET (Will's screenshot, posted in-session)
 
 **Basis / as-of:** ONE image, Fidelity positions view only (no account header, no activity view). "Today's gain/loss" columns POPULATED and markets OPEN at capture ⇒ **marks are LIVE INTRADAY Thu 9/3 ~15:0x ET, not closes.** Cite as `[Fidelity positions, 9/3 ~15:07 ET intraday]`. Transcribed by PROME 15:1x ET; every cell below read from the image, arithmetic verified in §②. Robinhood NOT captured this pass.
 
