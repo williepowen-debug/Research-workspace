@@ -1,87 +1,35 @@
 # OTTO MEMORY
 
-*Curated cross-session memory. Read at boot, write before finishing. Cap at 100 lines — promote to thesis or delete, never just accumulate.*
+**Updated:** 2026-10-19,s031. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns now live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
----
+## Desk boundaries
+- OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
+- Root/desk charter owns routing and evidence conventions. Use WALTER for new signals; a peer's own ask may receive a direct answer, with a parallel WALTER drop for any firing/new dated fact. Never edit a peer's canonical record.
+- Runtime is Codex in this Will-owned thread. Explicitly read startup files; Claude-memory auto-loading is not assumed. Technical permissions do not change research, trade, spending or external-send approvals.
 
-## Feedback
-- [2026-04-15] **Cross-agent signals route through WALTER, not direct-to-recipient.** Drop signals as `AGENTS/WALTER/inbox/SIG-OTTO-WALTER-YYYYMMDD-[topic].md` using standard frontmatter (to: WALTER (ACTION), info: [target]). Do not write directly into other agents' inbox/outbox paths.
-- [2026-04-15] **Bank monitoring is REGINALD's domain, not OTTO's.** OTTO's cut = fraud mechanics + ABS recovery metrics + transmission-to-bank identification — stop at "the bank is exposed," REGINALD sizes it.
-- [2026-04-15] **OZK is REGINALD scope, not OTTO.** Don't duplicate. OTTO touches OZK only at auto-fraud crosslinks.
-- [2026-04-15] **Plain-English punchline first, then structure.** Especially when reframing a question mid-session (e.g., Apr 15 Tricolor recovery question turned out to be the wrong question — Will wanted that said directly before the data table).
-- [2026-05-21] **When a prior recalibration turns out wrong, say so plainly and supersede the ML/STATUS entries** rather than layering corrections. Apr 15 OTTO said real Tricolor deadline was Apr 30; May 21 sourced docket shows Mar 31 was operative. ML-OTTO-145 explicitly supersedes ML-OTTO-140's deadline assertion. Don't soft-pedal "may have been incorrect" — be definite when sources support it.
-- [2026-05-21; SUPERSEDED 2026-09-30] ~~Verita docket blocked~~. WebFetch still fails on cert, but the FULL Tricolor Ch.7 docket works via curl POST + the Go Daddy G2 intermediate (see DEAD LEADS / tooling below). Never `-k`.
-- [2026-06-08] *Promoted to auto-memory (transferable, cross-agent) — removed from local:* date-specificity-weakest-link, forward-discovery-prediction-spirit, subagent-web-tools-not-autoloaded, litigation-allegation-weighting. These load at every boot via the harness; don't re-add locally.
-- [2026-05-22 PM] **Separate the narrow corporate-confirmed event from the broader litigation framing in STATUS active vectors** (OTTO-structural application of auto-memory `litigation-allegation-weighting`). When a plaintiff allegation includes both a real narrow fact (Wilmington Tricolor resignation Sep 20 2025) and an expansive broader claim (full non-mortgage custodial exit), structure the vector around the corroborated narrow fact and add the broader framing only when corporate-side evidence supports it. Saves later rework and avoids overweighting a single transmission row.
+## Reading traps and canonical homes
+- `LESSONS.md` is the single desk mistake-pattern reference. Do not recreate its rules here. Calibration and source limitations: `thesis/PREDICTIONS_ARCHIVE.md`; original probabilities come from git first appearance.
+- Current scope distinctions: `workbook/PANEL_10D_SCHEMA.md` (collection/distribution/filing clocks, BLAST computed age); `research/2026-10-19_L708/VERDICT.md` (corporate/ABS/equity eligibility); `research/2026-10-19_quickwins/READOUT.md` (September extension caveat and Wilmington custody perimeter).
+- Both systemic transmission legs remain disconfirmed. Strong fraud/recovery evidence cannot keep a failed funding/bank-contagion thesis alive. Source figures and dates live in STATUS/THESIS; broad v1.6 reconciliation is still owed10/30.
+- Legal scope: confirmed charges are not adjudicated guilt. Keep narrow Tricolor trustee resignation separate from the broader Wilmington-exit allegation; current owner forecast is in PREDICTIONS, not an old memory bullet.
 
-## Findings
-- [2026-05-21] **Tricolor Vehicle Sales Deadline was Mar 31, NOT Apr 30** (corrects Apr 15 OTTO recalibration). No formal extension motion in public records. Auctions ran on the original schedule; proceeds data lagged into May.
-- [2026-05-21] **Tricolor auction proceeds (~May 14):** 5,857 of ~9,500 vehicles sold for $39.5M net. ~32% of cost basis on sold fraction. Full-auction projection ~$64M / $2B+ debt = ~3.2% recovery from vehicles alone. Confirms <10¢ ABS market pricing.
-- [2026-05-21] **Phantom Tricolor inventory: ~30,000 vehicles MISSING, up to $1.1B.** Distinct from the 29,000 double-pledged loans. Industrial-scale validation of Invisible Exit thesis. Vervent "Fresh Start" mod program to 30,000+ delinquent borrowers is the institutional concession this cohort can't be pursued.
-- [2026-05-21] **Tricolor $113M distribution gridlock** — receivables held in escrow because Wilmington Trust + JPM + Fifth Third + bankruptcy trustee dispute ownership. Vervent BLOCKED from initial servicer report. NEW transmission mechanic: banks can't book losses cleanly even when substance is clear. Likely pushes Jun 17 distribution-plan ETA past OTTO-29's Sep 30 resolve date.
-- [2026-05-21] **🔴🔴 Wilmington Trust reportedly exiting entire non-mortgage ABS custodial business** (billions of $ ABS; Tricolor alone = 7 trusts 2018-2025 / $1.8B+). Source: Jan 14 subordinated noteholder complaint (plaintiff allegation). Needs corporate-side confirmation. New prediction OTTO-31 created (60%, resolve 2026-12-31). Watch M&T parent earnings + ABS surveillance trustee-substitution filings.
-- [2026-05-21] **Fifth Third Tricolor exposure precise at $178M** (was $170-200M range). Source: Banking Dive Mar 2.
-- [2026-05-21] **Two parallel noteholder lawsuits** clarified as distinct: (1) Jan 14 vs Wilmington Trust + Vervent (post-default reserve-fund breach, "asleep at the wheel"); (2) Feb 27 vs JPM/Barclays/Fifth Third (concealed/misrepresented fraud despite 2022+2024 auditor warnings). 30 investors holding ~$270M total subordinated ABS.
-- [2026-05-21] **ACV Capital subpoenaed** via Trustee Rule 2004 motion May 14. Affiliate of ACV Auctions ($19M Tricolor-linked loss Feb 23). Fraud surface expanding to auction-side counterparty.
-- [2026-05-21] **Apr 24 Fifth Third supplemental motion exists** (per Octus May 8) but contents opaque from OTTO — Verita cert verification blocks direct fetch. Same day, separate filing: Trustee Rule 2004 motion against four Tricolor affiliates (Tricolor Financial, Tricolor Auto Receivables, TAG Asset Funding, Apoyo Financial) — likely tracking inter-entity transfers underlying the $113M dispute.
-- [2026-04-15] **Tricolor borrower composition validates Invisible Exit:** 75% undocumented Hispanic immigrants, 68% no credit score, 50% no driver's license. (Now reinforced by 30K missing vehicles + Fresh Start program — see May 21 entries.)
-- [2026-04-15] **Apr 3 CNBC "systematic fraud" was re-coverage of Dec 17 2025 indictment**, not new charges. No signal escalation. ✅ May 16 CNBC piece confirmed re-coverage (ML-OTTO-154).
-- [2026-05-22] **PSEC cut $0.045 → $0.035 on May 7 2026** (Q3 FY26 earnings 8-K). Falsifies OTTO-26 on date but confirms direction. Run-rate distribution now ~$0.42/yr.
-- [2026-05-22] **CVNA May 5 stockholder meeting — three reads:** (a) 5-for-1 split passed, eff May 7-8 — option strikes adjusted 5x, verify all old CVNA put quotes are split-adjusted before sizing. (b) Chairman/CEO separation defeated 96% against — Garcia governance entrenched, *thesis-confirming* on related-party concern. (c) Grant Thornton ratified — DISCONFIRMS the "GT resigns" red-line trigger; remove from active watchlist. Quorum 832.5M / 850.1M. No new short-seller activity Mar 15 – May 21.
-- [2026-05-22] **NY Fed Q1 2026 HDC (May 12 release): total auto $1.685T (+1.08% QoQ, ATH); auto transition-to-90+ 2.97% (flat QoQ, +3bps YoY).** Aggregate consumer-level flow is FLAT — does NOT confirm acceleration narrative at the headline. ABS-level subprime stress (60+ at 32-yr high per Fitch) diverges from consumer-level flow. Divergence is structurally consistent with Invisible Exit (skip bypasses standard DQ chain). Refresh dashboard $1.66T → $1.685T.
-- [2026-05-22] **Origin Bancorp (OBK) — previously-undiscovered Tricolor-exposed bank.** Disclosed Oct 23 2025 (Q3 2025 earnings clarification): $16.2M exec mortgages + $28.4M charge-off + $30.1M commitments = $74.7M total. OTTO never logged it. Sharpens named-banks list to 6 (JPM/5-3/BCS/Regions/MTB/OBK) but doesn't auto-confirm OTTO-30. Q1 2026 sweep otherwise clean — Truist explicitly disclaimed Tricolor (First Brands only).
-- [2026-05-22] **Q1 2026 was first quarter major GSIBs disclosed aggregate NDFI exposure** (BAC, C, GS, JPM, MS, WFC). Aggregate-only, no Tricolor-specific names. Useful REGINALD baseline for bank-NDFI cross-tracking.
-- [2026-06-02] **First Brands Ch.7 — mechanism ADVANCING (sweep resolved boot-flagged May 20/25/29).** 4 Evolution SPV debtors already converted to Ch.7 (Apr 9 Lopez order) — first concrete partial conversion. PMG single-debtor Ch.11 liquidating plan filed May 15 / DS May 18 (Global Settlement → Litigation Trust; all other debtors → Ch.7 post-effective). May 20 conditional-DS approval **DENIED** by Judge Lopez on creditor-rights + admin-insolvency grounds (= the UST's May 13 dismiss-or-convert basis — denial cuts TOWARD OTTO-32). May 25/29 superseded; plan-confirmation re-targeted **Jun 17 2026**; UST motion still contested. OTTO-32 held 85%. Transmission mechanic intact: admin expenses > estate value → recoveries toward zero regardless of asset quality. Sources: Law360 / CreditSights / Trucks-Parts-Service (Kroll docket still auth-gated; news cleared it).
-- [2026-05-22 PM] **Wilmington Trust full non-mortgage custodial exit DENIED corporate-side.** American Banker (Feb 19-20 2026) reports M&T-side anonymous source on record denied the plaintiff allegation; said unit "is accepting new clients." M&T 10-Q says Wilmington will "vigorously defend itself." Active-business evidence: #2 US ABS/MBS trustee 1H 2025; Outlook 2026 thought-leadership; no non-Tricolor trustee-substitution filings; no rating-agency notes flagging substitutions. OTTO-31 confidence dropped 60% → 30%. Plaintiff allegation = litigation rhetoric not franchise exit.
-- [2026-05-22 PM] **Wilmington Trust Tricolor-specific resignation IS corporate-confirmed (narrow).** 30-day notice given Sep 20 2025 to step down as indenture trustee on Tricolor ABS only. Successor-trustee role being shunned by other major trustees (Auto Finance News). KBRA Oct 2025 commentary on Tricolor servicing transition didn't extend to other Wilmington-administered deals. This is a real cockroach #1 mechanic and a structural signal (successor vacuum) — but narrow, not franchise-level.
-- [2026-06-09] **Substantive change buried in structural reorg.** thesis/ consolidation forced the Carvana-bundling question that hadn't surfaced under the flat STATUS table. Without the structural pass, the carve-out wouldn't have happened. *Promotion candidate next session — does this generalize?*
-- [2026-06-09] **Inaugural sub-agent CALIBRATION seeding.** A propose-only sub-agent with empty CALIBRATION on first run will repeatedly re-propose the same items. Seed CALIBRATION explicitly at end of inaugural run with accept/decline patterns + date-classification guidance — observed first-run on WINTERKORN (4 accepted, 1 deferred with re-propose conditions). *Promotion candidate — pair with `[[finding_subagent_baseline_audit]]`.*
-- [2026-07-04 s015] **2022-vintage subprime CNL is bifurcated ~2.3x by credit tier** (primary-source 10-D, May-2026 collection): deep-subprime Exeter EART 2022-3 27.58% / 2022-2 26.34% (both >25%, ~28-29% terminal) vs broad-subprime Santander SDART 2022-6 12.08%. The Fitch blended subprime *index* (22.42%@31mo) is a composition average anchored DOWN by Santander's dominant $2B+ deals → OTTO-04's blended-index metric can falsify-on-technicality while the deep-subprime *substance* (what the thesis cares about) is confirmed >25%. Application of auto-memory `[[finding_blended_index_masks_bifurcation]]` + `[[finding_decouple_idiosyncratic_from_systemic_leg]]` + `[[finding_measure_actionable_not_gross_rate]]`. **Consider redefining OTTO-04's canonical measure to the deep-subprime tranche.** EDGAR primary pull works via curl/urllib + compliant User-Agent (`[[finding_edgar_403_user_agent_header]]`).
+## Tooling — observed coverage, not permanent guarantees
+- SEC: `data.sec.gov/submissions` and archive exhibits work with the configured compliant User-Agent. Avoid the previously blocked browse-edgar HTML route. Saved source documents/hash manifests live with each research result.
+- Tricolor Ch.7 Verita: the verified recipe is POST `/document/list/6384` with PageSize2000 and the Go Daddy G2 intermediate added to a CA bundle. WebFetch's certificate failure is not absence of the docket. Never disable TLS verification.
+- Kroll and CourtListener docket/REST pages were blocked in the9/30 session. CourtListener SEARCH works unauthenticated through DEWEY's read-only `recap_pull.py search`; use the case number and verify document identity. Tricolor trial is a future docket event in the calendar, not the old October2026 date.
+- Equifax edition URLs use full month names. A guessed URL404 does not establish a missing edition. OTTO-10 remains NEEDS_VERIFY until the covering September edition, with its12/15 check.
+- M&T official IR direct requests returned403 on10/19, while the web tool read its official deck/quarterly index and SEC supplied the filed release. Official webcast403; third-party transcript is labelled secondary. Do not claim a primary audio read.
+- Fitch paid/full index access was declined10/14; no new account or paid-data authority. March aggregate values retired from hot STATUS; deal-level panel is a different instrument, not a replacement Fitch index.
 
-## References
-- [2026-04-15] Verita Global — Tricolor Ch.7 docket: https://veritaglobal.net/tricolor (WebFetch fails on cert; curl POST to `/document/list/6384` with the Go Daddy G2 intermediate works — 9/30)
-- [2026-04-15] Kroll — First Brands docket. ⛔ 403 from this box since 9/30: use the CourtListener SEARCH API (DEWEY `recap_pull.py`) instead
-- [2026-04-15] SEC EDGAR CIK 0001569650 = OZK (REGINALD scope)
-- [2026-04-15; corrected 2026-07-04] DOJ/SDNY Tricolor criminal case — presiding judge is **Kevin Castel**, NOT Liman (Liman took the Dec-2025 cooperator pleas). Trial **Jan 25 2027** (the Oct 19 date was superseded ~7/7). Docket: CourtListener 72046760 (case S1 25 Cr. 579 (PKC)), reachable via the search API.
-- [2026-05-21] Octus — paid source for ABS litigation coverage; referenced Fifth Third Apr 24 supplemental motion but didn't quote (paywalled to OTTO)
-- [2026-05-21] Auto Finance News (autofinancenews.net) — primary press source for auction proceeds + missing vehicles; WebFetch hits 403 but search snippets reliable
-- [2026-02-16] Prior cross-agent exposure map: `AGENTS/OTTO/archive/CROSS_AGENT_SIGNAL_REGINALD_APR15_draft_superseded.md`
+## LAST SESSION — s031, approved October19 quick wins
+- September SDART/BLAST and October16 M&T read completed; exact result, sources, coverage and limits in `research/2026-10-19_quickwins/READOUT.md`. The panel producer and15-document audit passed. OTTO-31 research confidence cut on the existing dated read; original scoring vintage preserved. Convergence colours unchanged.
+- LESSONS rebuilt and boot-wired (CLAUDEv3.0); old memory/stub archived. STATUS history rotated with hashes; settled calendar residue and the already-completed future WINTERKORN task retired. No threshold or trade consequence.
+- **L708 delivered AND consumed:** PROME's October19 receipt cites artifacta95429b7c, delivery657e54b74, NEXUS consumptionc1f2f4321/ack69c256ad0. Verified at PROME's execution-coordination report and NEXUS STATUS. No further attribution research commissioned; NO_INSTRUMENT stands.
+- PUSH HOLD remains. Exact OTTO paths plus self-authored packets only; other desks' dirty work preserved. No pull/stash/reset/rebase/push or terminal shutdown.
 
-## Session Notes
-
-### CHANGES SINCE LAST SESSION (s029 → s030, 2026-10-19)
-- Read BROCK's existing seventh CRMT bridge (10/15 → 10/22); CARL independently verified the repaired seasoning cells and ruled BLAST keep(a). No local score or probability moved.
-
-### LAST SESSION (s030, Will-launched Codex, 10/19)
-- **L708 DONE**, artifact `research/2026-10-19_L708/VERDICT.md`, evidence `a95429b7c`; method `54598a6b9`, universe `637347ca0` committed before prices. **NO_INSTRUMENT**, strict n=0 (no two current B/CCC bond/index/daily joins); ENVA/CVNA conditional equities MIXED in both windows. MIXED is no support and cannot certify absence; CARL's ~99.8% noise frequency is for n=5, not this n=2 basket.
-- World Acceptance's remaining Nov2026 notes were fully redeemed Aug2025 (June2026 10Q Note12). Do not resurrect an old CCC rating with today's stock. Four Sep29 EART reports say No DQ trigger; two show $22M reserve support paid Sep15. Extensions confound the DQ interpretation; no corporate-index inference.
-- Three inbox packets integrated; CARL check closes the label/value verification, not every parser branch. BLAST computed basis now explicit in `workbook/PANEL_10D_SCHEMA.md`. BROCK retains CRMT grades. Recipient consumption/notification remains unverified without native transport.
-- September SDART/BLAST read and M&T Wilmington read missed their 10/15–16 targets; acknowledged-pending 10/20 (bounded commission priority). BlackRock confer outcome pending 10/21. No prediction overdue; OTTO-10 NEEDS_VERIFY still has its December read.
-
-### DURABLE LESSONS CARRIED
-- **An audit that reads markers finds only the rows that carry markers.** The 9/12 as-made audit trusted "(was X%)" annotations, so walked cells with no marker read as as-made (seven rows). Derive from history (git first appearance), not from the label.
-- **"Map the local colour" is a choice disguised as a transcription** when a vector has several local colours. Name the source cell, or the author picks the score while believing they only copied it (s029 matrix, caught by the verifier).
-- **A trigger row that records its own state ("never fired", "owed") outlives the firing.** OTTO's recovery row said "owed" six weeks after it fired, and the boot read re-asserted it into MEMORY, LAST_COMPLETION and a PROME memo. State lives in STATUS/ledgers; the charter carries the rule.
-- **Before writing "every X", check the claim against your own inventory.** ECF 149's 11 deals were called "every securitization since 2018"; OTTO's own 15G table had two more.
-- **Write acceptance conditions against the documents, not against memory of them.** "Issuer-stated on EVERY row" assumed all three shelves print the figure; Bridgecrest does not.
-- **A dead row inside a live container manufactures work** (BROCK, 9/2). Sweep forward rows that are no longer *possible*, and delete rather than re-date.
-- **An amendment is only as good as its distribution.** Propagate, then verify at the surface a future session actually reads.
-- **A bulk inbox sweep cannot tell "consumed" from "arrived mid-session."** Re-list before sweeping.
-- **Two desks restating one source is ONE source.** Agreement is not corroboration.
-- **A date-keyed sweep asks "has this date passed?" and never "did the event already happen?"** `[[finding_dated_carry_item_has_no_expiry_check]]`
-- **A line-cap and a byte-cap measure different things** (now encoded: closeout step 1 is the byte cap).
-- **Report the instrument defect that cuts against you, in the same packet as the result.**
-- **A named series is not a source.** Read the series at its publisher before cutting a prediction on it.
-
-### FLEET-FLAG (surface to Will/PROME)
-- **Corrections still propagating (carried):** Bridgecrest servicing fee is **3.50% at the ABS level**, not 0.117% portfolio-wide. **Wilmington Trust has NO live trustee role at CRMT.** OTTO's Experian Q1-2026 subprime-share pair is chart-image locked, not a filed figure.
-
-### PENDING PUSH
-- **PUSH HOLD, 2026-10-19:** Will/PROME controls shared-branch publication. No pull, stash, reset, rebase or push this session. Other-owner dirty/staged work left alone. Exact owned-file commits and self-authored inbox carve-outs only.
-
-### NEXT SESSION *(last on purpose)*
-1. **10/20:** September SDART/BLAST 10-D read with extensions, M&T Wilmington-specific read, Ally Q3 (OTTO-12) and First Brands D&O hearing. The first two are overdue, acknowledged above; do not treat unswept filings as no news.
-2. **10/21:** OTTO-07 shelf re-run, Carvana T-7 check, suppression ruling, BlackRock confer outcome, First Brands §721. **10/22:** CRMT owner grade first (BROCK). **10/28:** CRMT backstop #5 and Carvana Q3.
-3. **10/30:** THESIS v1.6; **11/30:** year-end readiness. Broader approved backlog (LESSONS rebuild, parser gaps, source refreshes) remains `STALE_PUNCHLIST.md`, not part of the L708 return.
-4. NEXUS/PROME must read and disposition the exact L708 artifact; committed packets do not establish consumption. No new research direction, probability consequence or trade requested.
-5. Tooling dead leads remain as above: Kroll/docket page blocked; CourtListener SEARCH and verified Verita POST work. No new paid access or accounts.
+## NEXT SESSION — keep last
+1. **10/20:** Ally Q3 (OTTO-12; record the actual attempt, do not invent the missing10/01 attempt) and First Brands D&O hearing. September SDART/BLAST and M&T release/call read are complete; do not repeat them as overdue.
+2. **10/21:** BlackRock confer outcome, suppression-ruling check, OTTO-07 shelf re-run/EART2026-4 FWP, Carvana T-7 short-seller check and First Brands §721. The short-seller release-cadence evidence task remains punchlist#19; the lessons rebuild did not perform that research.
+3. **10/22:** CRMT — BROCK's grade first. **10/28:** CRMT backstop5 and Carvana Q3. **~10/29:** Exeter September collection completes this panel cycle; pair DQ/extensions. **~11/05:** modeled M&T Q3 10-Q narrow-custody check.
+4. **10/30:** broader THESISv1.6; **11/30:** OTTO-11 instrument and early-hit true-at-creation audit. Single backlog: `STALE_PUNCHLIST.md`; full dates/definitions: `docket/CATALYSTS.tsv`.
+5. Receiver consumption for new s031 packets remains a separate observation. Prior L708 consumption is settled; do not reopen its instrument search.
