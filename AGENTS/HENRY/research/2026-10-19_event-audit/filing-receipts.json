@@ -1,0 +1,338 @@
+[
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001285785-26-000125",
+      "filingDate": "2026-09-25",
+      "reportDate": "2026-09-23",
+      "acceptanceDateTime": "2026-09-24T23:04:12.000Z",
+      "form": "8-K",
+      "primaryDocument": "formxchangeofofficerssepte.htm",
+      "items": "5.02"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000125/formxchangeofofficerssepte.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.703485+00:00",
+    "file": "raw/MOS-2026-09-25-0001285785-26-000125.html"
+  },
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001285785-26-000122",
+      "filingDate": "2026-08-28",
+      "reportDate": "2026-08-28",
+      "acceptanceDateTime": "2026-08-28T20:09:00.000Z",
+      "form": "8-K",
+      "primaryDocument": "a8-kxredemptionmakewhole8xk.htm",
+      "items": "2.04"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000122/a8-kxredemptionmakewhole8xk.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.704651+00:00",
+    "file": "raw/MOS-2026-08-28-0001285785-26-000122.html"
+  },
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001193125-26-354095",
+      "filingDate": "2026-08-17",
+      "reportDate": "2026-08-17",
+      "acceptanceDateTime": "2026-08-17T20:18:22.000Z",
+      "form": "8-K",
+      "primaryDocument": "d168739d8k.htm",
+      "items": "2.03,8.01,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526354095/d168739d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.705596+00:00",
+    "file": "raw/MOS-2026-08-17-0001193125-26-354095.html"
+  },
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001193125-26-353193",
+      "filingDate": "2026-08-17",
+      "reportDate": "2026-08-17",
+      "acceptanceDateTime": "2026-08-17T10:38:21.000Z",
+      "form": "8-K",
+      "primaryDocument": "d172855d8k.htm",
+      "items": "8.01,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526353193/d172855d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.706305+00:00",
+    "file": "raw/MOS-2026-08-17-0001193125-26-353193.html"
+  },
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001193125-26-352365",
+      "filingDate": "2026-08-14",
+      "reportDate": "2026-08-14",
+      "acceptanceDateTime": "2026-08-14T20:25:42.000Z",
+      "form": "8-K",
+      "primaryDocument": "d178370d8k.htm",
+      "items": "8.01,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526352365/d178370d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.706997+00:00",
+    "file": "raw/MOS-2026-08-14-0001193125-26-352365.html"
+  },
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001193125-26-341391",
+      "filingDate": "2026-08-10",
+      "reportDate": "2026-08-10",
+      "acceptanceDateTime": "2026-08-10T12:50:07.000Z",
+      "form": "8-K",
+      "primaryDocument": "d319503d8k.htm",
+      "items": "8.01,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526341391/d319503d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.937649+00:00",
+    "file": "raw/MOS-2026-08-10-0001193125-26-341391.html"
+  },
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001285785-26-000112",
+      "filingDate": "2026-08-05",
+      "reportDate": "2026-06-30",
+      "acceptanceDateTime": "2026-08-05T18:20:20.000Z",
+      "form": "10-Q",
+      "primaryDocument": "mos-20260630.htm",
+      "items": ""
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000112/mos-20260630.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.957720+00:00",
+    "file": "raw/MOS-2026-08-05-0001285785-26-000112.html"
+  },
+  {
+    "symbol": "MOS",
+    "filing": {
+      "accessionNumber": "0001285785-26-000109",
+      "filingDate": "2026-08-04",
+      "reportDate": "2026-08-04",
+      "acceptanceDateTime": "2026-08-04T20:26:33.000Z",
+      "form": "8-K",
+      "primaryDocument": "mos-20260804.htm",
+      "items": "2.02,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000109/mos-20260804.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.967022+00:00",
+    "file": "raw/MOS-2026-08-04-0001285785-26-000109.html"
+  },
+  {
+    "symbol": "HII",
+    "filing": {
+      "accessionNumber": "0001501585-26-000047",
+      "filingDate": "2026-07-30",
+      "reportDate": "2026-06-30",
+      "acceptanceDateTime": "2026-07-30T15:51:22.000Z",
+      "form": "10-Q",
+      "primaryDocument": "hii-20260630.htm",
+      "items": ""
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000047/hii-20260630.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.975793+00:00",
+    "file": "raw/HII-2026-07-30-0001501585-26-000047.html"
+  },
+  {
+    "symbol": "HII",
+    "filing": {
+      "accessionNumber": "0001501585-26-000045",
+      "filingDate": "2026-07-30",
+      "reportDate": "2026-07-30",
+      "acceptanceDateTime": "2026-07-30T11:23:32.000Z",
+      "form": "8-K",
+      "primaryDocument": "hii-20260730.htm",
+      "items": "2.02,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000045/hii-20260730.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:06.985559+00:00",
+    "file": "raw/HII-2026-07-30-0001501585-26-000045.html"
+  },
+  {
+    "symbol": "ADM",
+    "filing": {
+      "accessionNumber": "0001193125-26-345800",
+      "filingDate": "2026-08-12",
+      "reportDate": "2026-08-06",
+      "acceptanceDateTime": "2026-08-12T16:00:10.000Z",
+      "form": "8-K",
+      "primaryDocument": "d176752d8k.htm",
+      "items": "5.02"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312526345800/d176752d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.075427+00:00",
+    "file": "raw/ADM-2026-08-12-0001193125-26-345800.html"
+  },
+  {
+    "symbol": "ADM",
+    "filing": {
+      "accessionNumber": "0001193125-26-342579",
+      "filingDate": "2026-08-10",
+      "reportDate": "2026-08-10",
+      "acceptanceDateTime": "2026-08-11T00:50:53.000Z",
+      "form": "8-K",
+      "primaryDocument": "d102470d8k.htm",
+      "items": "9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312526342579/d102470d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.113709+00:00",
+    "file": "raw/ADM-2026-08-10-0001193125-26-342579.html"
+  },
+  {
+    "symbol": "ADM",
+    "filing": {
+      "accessionNumber": "0000007084-26-000042",
+      "filingDate": "2026-08-04",
+      "reportDate": "2026-06-30",
+      "acceptanceDateTime": "2026-08-05T00:01:51.000Z",
+      "form": "10-Q",
+      "primaryDocument": "adm-20260630.htm",
+      "items": ""
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000042/adm-20260630.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.139606+00:00",
+    "file": "raw/ADM-2026-08-04-0000007084-26-000042.html"
+  },
+  {
+    "symbol": "ADM",
+    "filing": {
+      "accessionNumber": "0000007084-26-000040",
+      "filingDate": "2026-08-04",
+      "reportDate": "2026-08-04",
+      "acceptanceDateTime": "2026-08-04T14:03:55.000Z",
+      "form": "8-K",
+      "primaryDocument": "adm-20260804.htm",
+      "items": "2.02,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000040/adm-20260804.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.179541+00:00",
+    "file": "raw/ADM-2026-08-04-0000007084-26-000040.html"
+  },
+  {
+    "symbol": "CPRT",
+    "filing": {
+      "accessionNumber": "0001193125-26-424052",
+      "filingDate": "2026-10-16",
+      "reportDate": "2026-10-14",
+      "acceptanceDateTime": "2026-10-17T00:02:14.000Z",
+      "form": "8-K",
+      "primaryDocument": "d177727d8k.htm",
+      "items": "5.02,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526424052/d177727d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.224053+00:00",
+    "file": "raw/CPRT-2026-10-16-0001193125-26-424052.html"
+  },
+  {
+    "symbol": "CPRT",
+    "filing": {
+      "accessionNumber": "0001193125-26-423478",
+      "filingDate": "2026-10-16",
+      "reportDate": "2026-10-16",
+      "acceptanceDateTime": "2026-10-16T17:59:35.000Z",
+      "form": "8-K",
+      "primaryDocument": "d129535d8k.htm",
+      "items": "2.01,7.01,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526423478/d129535d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.288724+00:00",
+    "file": "raw/CPRT-2026-10-16-0001193125-26-423478.html"
+  },
+  {
+    "symbol": "CPRT",
+    "filing": {
+      "accessionNumber": "0001193125-26-405731",
+      "filingDate": "2026-09-29",
+      "reportDate": "2026-07-31",
+      "acceptanceDateTime": "2026-09-29T04:21:33.000Z",
+      "form": "10-K",
+      "primaryDocument": "cprt-20260731.htm",
+      "items": ""
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526405731/cprt-20260731.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.296413+00:00",
+    "file": "raw/CPRT-2026-09-29-0001193125-26-405731.html"
+  },
+  {
+    "symbol": "CPRT",
+    "filing": {
+      "accessionNumber": "0001193125-26-388064",
+      "filingDate": "2026-09-10",
+      "reportDate": "2026-09-10",
+      "acceptanceDateTime": "2026-09-11T01:17:57.000Z",
+      "form": "8-K",
+      "primaryDocument": "d138322d8k.htm",
+      "items": "1.01,7.01,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.301078+00:00",
+    "file": "raw/CPRT-2026-09-10-0001193125-26-388064.html"
+  },
+  {
+    "symbol": "CPRT",
+    "filing": {
+      "accessionNumber": "0001193125-26-387902",
+      "filingDate": "2026-09-10",
+      "reportDate": "2026-09-10",
+      "acceptanceDateTime": "2026-09-11T00:16:04.000Z",
+      "form": "8-K",
+      "primaryDocument": "cprt-20260910.htm",
+      "items": "2.02,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-20260910.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.372851+00:00",
+    "file": "raw/CPRT-2026-09-10-0001193125-26-387902.html"
+  },
+  {
+    "symbol": "CPRT",
+    "filing": {
+      "accessionNumber": "0001193125-26-356968",
+      "filingDate": "2026-08-19",
+      "reportDate": "2026-07-02",
+      "acceptanceDateTime": "2026-08-20T00:27:01.000Z",
+      "form": "8-K/A",
+      "primaryDocument": "d740839d8ka.htm",
+      "items": "5.02"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526356968/d740839d8ka.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.401814+00:00",
+    "file": "raw/CPRT-2026-08-19-0001193125-26-356968.html"
+  },
+  {
+    "symbol": "CPRT",
+    "filing": {
+      "accessionNumber": "0001193125-26-354640",
+      "filingDate": "2026-08-18",
+      "reportDate": "2026-08-13",
+      "acceptanceDateTime": "2026-08-18T14:01:08.000Z",
+      "form": "8-K",
+      "primaryDocument": "d77107d8k.htm",
+      "items": "5.02,7.01,9.01"
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526354640/d77107d8k.htm",
+    "status": 200,
+    "requested_at": "2026-10-19T22:41:07.553816+00:00",
+    "file": "raw/CPRT-2026-08-18-0001193125-26-354640.html"
+  }
+]

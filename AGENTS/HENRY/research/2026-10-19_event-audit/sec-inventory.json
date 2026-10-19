@@ -1,0 +1,223 @@
+[
+  {
+    "symbol": "MOS",
+    "url": "https://data.sec.gov/submissions/CIK0001285785.json",
+    "status": 200,
+    "requested_at": "2026-10-19T22:40:23.169770+00:00",
+    "filings": [
+      {
+        "accessionNumber": "0001285785-26-000125",
+        "filingDate": "2026-09-25",
+        "reportDate": "2026-09-23",
+        "acceptanceDateTime": "2026-09-24T23:04:12.000Z",
+        "form": "8-K",
+        "primaryDocument": "formxchangeofofficerssepte.htm",
+        "items": "5.02"
+      },
+      {
+        "accessionNumber": "0001285785-26-000122",
+        "filingDate": "2026-08-28",
+        "reportDate": "2026-08-28",
+        "acceptanceDateTime": "2026-08-28T20:09:00.000Z",
+        "form": "8-K",
+        "primaryDocument": "a8-kxredemptionmakewhole8xk.htm",
+        "items": "2.04"
+      },
+      {
+        "accessionNumber": "0001193125-26-354095",
+        "filingDate": "2026-08-17",
+        "reportDate": "2026-08-17",
+        "acceptanceDateTime": "2026-08-17T20:18:22.000Z",
+        "form": "8-K",
+        "primaryDocument": "d168739d8k.htm",
+        "items": "2.03,8.01,9.01"
+      },
+      {
+        "accessionNumber": "0001193125-26-353193",
+        "filingDate": "2026-08-17",
+        "reportDate": "2026-08-17",
+        "acceptanceDateTime": "2026-08-17T10:38:21.000Z",
+        "form": "8-K",
+        "primaryDocument": "d172855d8k.htm",
+        "items": "8.01,9.01"
+      },
+      {
+        "accessionNumber": "0001193125-26-352365",
+        "filingDate": "2026-08-14",
+        "reportDate": "2026-08-14",
+        "acceptanceDateTime": "2026-08-14T20:25:42.000Z",
+        "form": "8-K",
+        "primaryDocument": "d178370d8k.htm",
+        "items": "8.01,9.01"
+      },
+      {
+        "accessionNumber": "0001193125-26-341391",
+        "filingDate": "2026-08-10",
+        "reportDate": "2026-08-10",
+        "acceptanceDateTime": "2026-08-10T12:50:07.000Z",
+        "form": "8-K",
+        "primaryDocument": "d319503d8k.htm",
+        "items": "8.01,9.01"
+      },
+      {
+        "accessionNumber": "0001285785-26-000112",
+        "filingDate": "2026-08-05",
+        "reportDate": "2026-06-30",
+        "acceptanceDateTime": "2026-08-05T18:20:20.000Z",
+        "form": "10-Q",
+        "primaryDocument": "mos-20260630.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001285785-26-000109",
+        "filingDate": "2026-08-04",
+        "reportDate": "2026-08-04",
+        "acceptanceDateTime": "2026-08-04T20:26:33.000Z",
+        "form": "8-K",
+        "primaryDocument": "mos-20260804.htm",
+        "items": "2.02,9.01"
+      }
+    ]
+  },
+  {
+    "symbol": "HII",
+    "url": "https://data.sec.gov/submissions/CIK0001501585.json",
+    "status": 200,
+    "requested_at": "2026-10-19T22:40:23.171046+00:00",
+    "filings": [
+      {
+        "accessionNumber": "0001501585-26-000047",
+        "filingDate": "2026-07-30",
+        "reportDate": "2026-06-30",
+        "acceptanceDateTime": "2026-07-30T15:51:22.000Z",
+        "form": "10-Q",
+        "primaryDocument": "hii-20260630.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001501585-26-000045",
+        "filingDate": "2026-07-30",
+        "reportDate": "2026-07-30",
+        "acceptanceDateTime": "2026-07-30T11:23:32.000Z",
+        "form": "8-K",
+        "primaryDocument": "hii-20260730.htm",
+        "items": "2.02,9.01"
+      }
+    ]
+  },
+  {
+    "symbol": "ADM",
+    "url": "https://data.sec.gov/submissions/CIK0000007084.json",
+    "status": 200,
+    "requested_at": "2026-10-19T22:40:23.171815+00:00",
+    "filings": [
+      {
+        "accessionNumber": "0001193125-26-345800",
+        "filingDate": "2026-08-12",
+        "reportDate": "2026-08-06",
+        "acceptanceDateTime": "2026-08-12T16:00:10.000Z",
+        "form": "8-K",
+        "primaryDocument": "d176752d8k.htm",
+        "items": "5.02"
+      },
+      {
+        "accessionNumber": "0001193125-26-342579",
+        "filingDate": "2026-08-10",
+        "reportDate": "2026-08-10",
+        "acceptanceDateTime": "2026-08-11T00:50:53.000Z",
+        "form": "8-K",
+        "primaryDocument": "d102470d8k.htm",
+        "items": "9.01"
+      },
+      {
+        "accessionNumber": "0000007084-26-000042",
+        "filingDate": "2026-08-04",
+        "reportDate": "2026-06-30",
+        "acceptanceDateTime": "2026-08-05T00:01:51.000Z",
+        "form": "10-Q",
+        "primaryDocument": "adm-20260630.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000007084-26-000040",
+        "filingDate": "2026-08-04",
+        "reportDate": "2026-08-04",
+        "acceptanceDateTime": "2026-08-04T14:03:55.000Z",
+        "form": "8-K",
+        "primaryDocument": "adm-20260804.htm",
+        "items": "2.02,9.01"
+      }
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "url": "https://data.sec.gov/submissions/CIK0000900075.json",
+    "status": 200,
+    "requested_at": "2026-10-19T22:40:23.172559+00:00",
+    "filings": [
+      {
+        "accessionNumber": "0001193125-26-424052",
+        "filingDate": "2026-10-16",
+        "reportDate": "2026-10-14",
+        "acceptanceDateTime": "2026-10-17T00:02:14.000Z",
+        "form": "8-K",
+        "primaryDocument": "d177727d8k.htm",
+        "items": "5.02,9.01"
+      },
+      {
+        "accessionNumber": "0001193125-26-423478",
+        "filingDate": "2026-10-16",
+        "reportDate": "2026-10-16",
+        "acceptanceDateTime": "2026-10-16T17:59:35.000Z",
+        "form": "8-K",
+        "primaryDocument": "d129535d8k.htm",
+        "items": "2.01,7.01,9.01"
+      },
+      {
+        "accessionNumber": "0001193125-26-405731",
+        "filingDate": "2026-09-29",
+        "reportDate": "2026-07-31",
+        "acceptanceDateTime": "2026-09-29T04:21:33.000Z",
+        "form": "10-K",
+        "primaryDocument": "cprt-20260731.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001193125-26-388064",
+        "filingDate": "2026-09-10",
+        "reportDate": "2026-09-10",
+        "acceptanceDateTime": "2026-09-11T01:17:57.000Z",
+        "form": "8-K",
+        "primaryDocument": "d138322d8k.htm",
+        "items": "1.01,7.01,9.01"
+      },
+      {
+        "accessionNumber": "0001193125-26-387902",
+        "filingDate": "2026-09-10",
+        "reportDate": "2026-09-10",
+        "acceptanceDateTime": "2026-09-11T00:16:04.000Z",
+        "form": "8-K",
+        "primaryDocument": "cprt-20260910.htm",
+        "items": "2.02,9.01"
+      },
+      {
+        "accessionNumber": "0001193125-26-356968",
+        "filingDate": "2026-08-19",
+        "reportDate": "2026-07-02",
+        "acceptanceDateTime": "2026-08-20T00:27:01.000Z",
+        "form": "8-K/A",
+        "primaryDocument": "d740839d8ka.htm",
+        "items": "5.02"
+      },
+      {
+        "accessionNumber": "0001193125-26-354640",
+        "filingDate": "2026-08-18",
+        "reportDate": "2026-08-13",
+        "acceptanceDateTime": "2026-08-18T14:01:08.000Z",
+        "form": "8-K",
+        "primaryDocument": "d77107d8k.htm",
+        "items": "5.02,7.01,9.01"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "USDA-WASDE-index",
+    "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+    "status": 200
+  },
+  {
+    "name": "USDA-oilseed",
+    "url": "https://www.ers.usda.gov/topics/crops/soybeans-and-oil-crops/market-outlook",
+    "status": 200
+  }
+]

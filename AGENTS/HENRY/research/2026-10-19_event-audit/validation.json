@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-19T22:53:44.385775+00:00",
+  "source_members": 222,
+  "source_archive_sha256": "f8c3a4e47ecf2523cae14afa9e3d9ca6b776ce1e3cb39b6980031e0c6c522150",
+  "checks": {
+    "archive_member_hashes": "PASS",
+    "21_SEC_filings_http200": "PASS",
+    "340_daily_rows_signs_counts_compounds": "PASS",
+    "216_scenario_rows": "PASS",
+    "raw_absent_isolated_reproduction": "PASS",
+    "prior_cohort_and_result_immutable": "PASS",
+    "baseline_sector_relative_wealth": "PASS",
+    "new_verified_peers": 0
+  },
+  "result_sha256": "768f41c46e23ab7d1e91a080fe09b10cf34ccdda0985f967453d773f63384873",
+  "shortlist_sha256": "addfdfcb1d136b4cfd81ec509b9a6ccef760263a61d4a8e8cef9ff1cfebf45c7"
+}

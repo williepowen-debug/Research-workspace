@@ -1,0 +1,38 @@
+[
+  {
+    "text": "Company Name",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&sort=CompanyName&sortdir=ASC"
+  },
+  {
+    "text": "State Notification Date",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&sort=WARNReceivedByStateDate&sortdir=ASC"
+  },
+  {
+    "text": "Layoff Date",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&sort=LayOffDate&sortdir=ASC"
+  },
+  {
+    "text": "Employees Affected",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&sort=EmpAffected&sortdir=ASC"
+  },
+  {
+    "text": "Industry",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&sort=Industry&sortdir=ASC"
+  },
+  {
+    "text": "Attachment",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&sort=Attachment&sortdir=ASC"
+  },
+  {
+    "text": "2",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&page=2"
+  },
+  {
+    "text": "3",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&page=3"
+  },
+  {
+    "text": ">",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&page=2"
+  }
+]

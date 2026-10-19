@@ -1,0 +1,582 @@
+[
+  {
+    "symbol": "MOS",
+    "date": "2026-08-04",
+    "clock": "unknown",
+    "title": "Q2 results, phosphate production constraints and outlook",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000109/mos-20260804.htm",
+    "kind": "earnings",
+    "note": "SEC accepted16:26ET; actual issuer release clock unverified, conservative dated+next union",
+    "removed_sessions": [
+      "2026-08-04",
+      "2026-08-05"
+    ]
+  },
+  {
+    "symbol": "MOS",
+    "date": "2026-08-10",
+    "clock": "same",
+    "title": "Tender offer announcement and new-note underwriting",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526341391/d319503d8k.htm",
+    "kind": "capital",
+    "note": "Accepted08:50ET; public no later than before open",
+    "removed_sessions": [
+      "2026-08-10"
+    ]
+  },
+  {
+    "symbol": "MOS",
+    "date": "2026-08-14",
+    "clock": "unknown",
+    "title": "Tender pricing",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526352365/d178370d8k.htm",
+    "kind": "capital",
+    "note": "Release datedAug14; late SEC acceptance does not establish first public clock",
+    "removed_sessions": [
+      "2026-08-14",
+      "2026-08-17"
+    ]
+  },
+  {
+    "symbol": "MOS",
+    "date": "2026-08-17",
+    "clock": "same",
+    "title": "Final tender results",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526353193/d172855d8k.htm",
+    "kind": "capital",
+    "note": "Accepted06:38ET",
+    "removed_sessions": [
+      "2026-08-17"
+    ]
+  },
+  {
+    "symbol": "MOS",
+    "date": "2026-08-17",
+    "clock": "unknown",
+    "title": "Completed $2B new notes",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000119312526354095/d168739d8k.htm",
+    "kind": "capital",
+    "note": "Completed, not denied financing; filing16:18ET is latest known public time",
+    "removed_sessions": [
+      "2026-08-17",
+      "2026-08-18"
+    ]
+  },
+  {
+    "symbol": "MOS",
+    "date": "2026-08-28",
+    "clock": "unknown",
+    "title": "Redemption notice for2027/2028notes",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000122/a8-kxredemptionmakewhole8xk.htm",
+    "kind": "capital",
+    "note": "Notice of scheduledSept28redemption, not evidence execution occurred",
+    "removed_sessions": [
+      "2026-08-28",
+      "2026-08-31"
+    ]
+  },
+  {
+    "symbol": "MOS",
+    "date": "2026-10-14",
+    "clock": "unknown",
+    "title": "South Fort Meade199 layoffs, state notification received",
+    "source": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026",
+    "kind": "operating",
+    "note": "Primary record state notification10/14, layoff12/8; underlying letter download403; NOT October5 public event",
+    "removed_sessions": [
+      "2026-10-14",
+      "2026-10-15"
+    ]
+  },
+  {
+    "symbol": "ADM",
+    "date": "2026-08-04",
+    "clock": "same",
+    "title": "Q2 results and raised adjustedEPSguidance",
+    "source": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000040/adm-20260804.htm",
+    "kind": "earnings",
+    "note": "SEC public10:03ET; issuer call08:30ET; public no later than intraday",
+    "removed_sessions": [
+      "2026-08-04"
+    ]
+  },
+  {
+    "symbol": "ADM",
+    "date": "2026-08-10",
+    "clock": "unknown",
+    "title": "New-note underwriting agreement disclosed with closing",
+    "source": "https://www.sec.gov/Archives/edgar/data/7084/000119312526342579/d102470d8k.htm",
+    "kind": "capital",
+    "note": "AgreementAug5; first captured public disclosureAug10with closing. No exclusion backdated to private agreement",
+    "removed_sessions": [
+      "2026-08-10",
+      "2026-08-11"
+    ]
+  },
+  {
+    "symbol": "ADM",
+    "date": "2026-08-10",
+    "clock": "unknown",
+    "title": "Completed $1Bnotes",
+    "source": "https://www.sec.gov/Archives/edgar/data/7084/000119312526342579/d102470d8k.htm",
+    "kind": "capital",
+    "note": "Completed4.829%2031and5.269%2036; filingafterclose",
+    "removed_sessions": [
+      "2026-08-10",
+      "2026-08-11"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-19",
+    "clock": "same",
+    "title": "HII\u2019s Ingalls Shipbuilding Awarded Contract Modification for DDG 1002 Sea Trials",
+    "source": "https://www.globenewswire.com/news-release/2026/10/19/3383632/14858/en/hii-s-ingalls-shipbuilding-awarded-contract-modification-for-ddg-1002-sea-trials.html",
+    "kind": "operating",
+    "note": "Wire timestamp October 19, 2026 10:30 ET",
+    "removed_sessions": [
+      "2026-10-19"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-16",
+    "clock": "same",
+    "title": "Ingalls Shipbuilding to Host On-Site Hiring Event October 24 for All Skill Levels",
+    "source": "https://www.globenewswire.com/news-release/2026/10/16/3382745/14858/en/ingalls-shipbuilding-to-host-on-site-hiring-event-october-24-for-all-skill-levels.html",
+    "kind": "admin",
+    "note": "Wire timestamp October 16, 2026 13:30 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-16",
+    "clock": "same",
+    "title": "HII\u2019s Newport News Shipbuilding Charleston Operations to Host Skilled Trades Hiring Event Oct. 27",
+    "source": "https://www.globenewswire.com/news-release/2026/10/16/3382735/14858/en/hii-s-newport-news-shipbuilding-charleston-operations-to-host-skilled-trades-hiring-event-oct-27.html",
+    "kind": "admin",
+    "note": "Wire timestamp October 16, 2026 13:00 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-13",
+    "clock": "next",
+    "title": "HII is Awarded Contract to Support AUKUS Engineering and Design Work",
+    "source": "https://www.globenewswire.com/news-release/2026/10/13/3380279/14858/en/hii-is-awarded-contract-to-support-aukus-engineering-and-design-work.html",
+    "kind": "operating",
+    "note": "Wire timestamp October 13, 2026 18:30 ET",
+    "removed_sessions": [
+      "2026-10-14"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-08",
+    "clock": "same",
+    "title": "HII to Host Third Quarter Earnings Conference Call and Webcast on Oct. 29",
+    "source": "https://www.globenewswire.com/news-release/2026/10/08/3377434/14858/en/hii-to-host-third-quarter-earnings-conference-call-and-webcast-on-oct-29.html",
+    "kind": "admin",
+    "note": "Wire timestamp October 08, 2026 10:00 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-02",
+    "clock": "same",
+    "title": "HII Promotes Greg Ennis to Chief Financial Officer of Mission Technologies",
+    "source": "https://www.globenewswire.com/news-release/2026/10/02/3373938/14858/en/hii-promotes-greg-ennis-to-chief-financial-officer-of-mission-technologies.html",
+    "kind": "admin",
+    "note": "Wire timestamp October 02, 2026 12:15 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-30",
+    "clock": "same",
+    "title": "USS Harry S. Truman (CVN 75) Arrives at HII\u2019s Newport News Shipbuilding to Start its Refueling and Complex Overhaul",
+    "source": "https://www.globenewswire.com/news-release/2026/09/30/3372282/14858/en/uss-harry-s-truman-cvn-75-arrives-at-hii-s-newport-news-shipbuilding-to-start-its-refueling-and-complex-overhaul.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 30, 2026 13:00 ET",
+    "removed_sessions": [
+      "2026-09-30"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-29",
+    "clock": "next",
+    "title": "HII Wins U.S. Navy Contract for 10 ROMULUS USVs, Accelerating Deployment of Proven Autonomous Capability",
+    "source": "https://www.globenewswire.com/news-release/2026/09/29/3371454/14858/en/hii-wins-u-s-navy-contract-for-10-romulus-usvs-accelerating-deployment-of-proven-autonomous-capability.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 29, 2026 18:30 ET",
+    "removed_sessions": [
+      "2026-09-30"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-29",
+    "clock": "next",
+    "title": "HII is Awarded Contract to Execute USS Harry S. Truman (CVN 75) Refueling and Complex Overhaul",
+    "source": "https://www.globenewswire.com/news-release/2026/09/29/3371395/14858/en/hii-is-awarded-contract-to-execute-uss-harry-s-truman-cvn-75-refueling-and-complex-overhaul.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 29, 2026 17:15 ET",
+    "removed_sessions": [
+      "2026-09-30"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-29",
+    "clock": "same",
+    "title": "HII\u2019s Newport News Shipbuilding Achieves Preliminary Acceptance of John F. Kennedy (CVN 79)",
+    "source": "https://www.globenewswire.com/news-release/2026/09/29/3371310/14858/en/hii-s-newport-news-shipbuilding-achieves-preliminary-acceptance-of-john-f-kennedy-cvn-79.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 29, 2026 15:45 ET",
+    "removed_sessions": [
+      "2026-09-29"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-25",
+    "clock": "same",
+    "title": "HII Hosts National Commission on the Future of The Navy at Ingalls Shipbuilding",
+    "source": "https://www.globenewswire.com/news-release/2026/09/25/3369274/14858/en/hii-hosts-national-commission-on-the-future-of-the-navy-at-ingalls-shipbuilding.html",
+    "kind": "admin",
+    "note": "Wire timestamp September 25, 2026 13:30 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-22",
+    "clock": "next",
+    "title": "HII Expands Unmanned Production Facility by 25% to Meet Growing Global Maritime Demand",
+    "source": "https://www.globenewswire.com/news-release/2026/09/22/3366899/14858/en/hii-expands-unmanned-production-facility-by-25-to-meet-growing-global-maritime-demand.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 22, 2026 16:30 ET",
+    "removed_sessions": [
+      "2026-09-23"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-18",
+    "clock": "same",
+    "title": "Ingalls Shipbuilding\u2019s Virtual Reality Welding Lab Surpasses 1,000 Trainees",
+    "source": "https://www.globenewswire.com/news-release/2026/09/18/3364832/14858/en/ingalls-shipbuilding-s-virtual-reality-welding-lab-surpasses-1-000-trainees.html",
+    "kind": "admin",
+    "note": "Wire timestamp September 18, 2026 11:30 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-17",
+    "clock": "same",
+    "title": "Media Advisory \u2014 HII Unmanned Facility Expansion Ribbon Cutting",
+    "source": "https://www.globenewswire.com/news-release/2026/09/17/3364195/14858/en/media-advisory-hii-unmanned-facility-expansion-ribbon-cutting.html",
+    "kind": "admin",
+    "note": "Wire timestamp September 17, 2026 11:30 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-15",
+    "clock": "same",
+    "title": "HII to Advance Airdrop Technologies for U.S. Army Soldier Sustainment",
+    "source": "https://www.globenewswire.com/news-release/2026/09/15/3362366/14858/en/hii-to-advance-airdrop-technologies-for-u-s-army-soldier-sustainment.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 15, 2026 10:30 ET",
+    "removed_sessions": [
+      "2026-09-15"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-11",
+    "clock": "same",
+    "title": "HII is Awarded Long-Lead Time Materials Contract for CVN 82",
+    "source": "https://www.globenewswire.com/news-release/2026/09/11/3360493/14858/en/hii-is-awarded-long-lead-time-materials-contract-for-cvn-82.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 11, 2026 15:00 ET",
+    "removed_sessions": [
+      "2026-09-11"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-10",
+    "clock": "next",
+    "title": "HII Highlights Workforce Development and Industrial Capacity at Delta Fest 2026",
+    "source": "https://www.globenewswire.com/news-release/2026/09/10/3360033/14858/en/hii-highlights-workforce-development-and-industrial-capacity-at-delta-fest-2026.html",
+    "kind": "admin",
+    "note": "Wire timestamp September 10, 2026 17:45 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-09-04",
+    "clock": "next",
+    "title": "HII Details Strategy to Increase Shipbuilding Pace for U.S. Navy",
+    "source": "https://www.globenewswire.com/news-release/2026/09/04/3356831/14858/en/hii-details-strategy-to-increase-shipbuilding-pace-for-u-s-navy.html",
+    "kind": "operating",
+    "note": "Wire timestamp September 04, 2026 18:00 ET",
+    "removed_sessions": [
+      "2026-09-08"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-08-15",
+    "clock": "next",
+    "title": "HII\u2019s Newport News Shipbuilding Completes Successful Acceptance Sea Trials of John F. Kennedy (CVN 79)",
+    "source": "https://www.globenewswire.com/news-release/2026/08/16/3345762/14858/en/hii-s-newport-news-shipbuilding-completes-successful-acceptance-sea-trials-of-john-f-kennedy-cvn-79.html",
+    "kind": "operating",
+    "note": "Wire timestamp August 15, 2026 21:15 ET",
+    "removed_sessions": [
+      "2026-08-17"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-08-11",
+    "clock": "same",
+    "title": "HII Awarded $2.2 Billion Contract to Advance U.S. Surveillance and Intelligence Capabilities for the Western Hemisphere",
+    "source": "https://www.globenewswire.com/news-release/2026/08/11/3343021/14858/en/hii-awarded-2-2-billion-contract-to-advance-u-s-surveillance-and-intelligence-capabilities-for-the-western-hemisphere.html",
+    "kind": "operating",
+    "note": "Wire timestamp August 11, 2026 12:00 ET",
+    "removed_sessions": [
+      "2026-08-11"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-08-11",
+    "clock": "same",
+    "title": "HII/MetalCraft Marine Autonomous ROMULUS USV with HII Autonomy Successfully Passed a Critical DoW Test",
+    "source": "https://www.globenewswire.com/news-release/2026/08/11/3342881/14858/en/hii-metalcraft-marine-autonomous-romulus-usv-with-hii-autonomy-successfully-passed-a-critical-dow-test.html",
+    "kind": "operating",
+    "note": "Wire timestamp August 11, 2026 10:00 ET",
+    "removed_sessions": [
+      "2026-08-11"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-08-06",
+    "clock": "same",
+    "title": "HII Signs Performance-based Production Agreements with Path Robotics and GrayMatter Robotics",
+    "source": "https://www.globenewswire.com/news-release/2026/08/06/3340512/14858/en/hii-signs-performance-based-production-agreements-with-path-robotics-and-graymatter-robotics.html",
+    "kind": "operating",
+    "note": "Wire timestamp August 06, 2026 11:30 ET",
+    "removed_sessions": [
+      "2026-08-06"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-08-04",
+    "clock": "next",
+    "title": "HII Expands Welding Automation at Ingalls Shipbuilding Through Partnership with HD HHI",
+    "source": "https://www.globenewswire.com/news-release/2026/08/05/3339001/14858/en/hii-expands-welding-automation-at-ingalls-shipbuilding-through-partnership-with-hd-hhi.html",
+    "kind": "operating",
+    "note": "Wire timestamp August 04, 2026 22:30 ET",
+    "removed_sessions": [
+      "2026-08-05"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-08-03",
+    "clock": "same",
+    "title": "HII Names Chris Helton as Vice President of Infrastructure and Sustainability at Newport News Shipbuilding",
+    "source": "https://www.globenewswire.com/news-release/2026/08/03/3337792/14858/en/hii-names-chris-helton-as-vice-president-of-infrastructure-and-sustainability-at-newport-news-shipbuilding.html",
+    "kind": "admin",
+    "note": "Wire timestamp August 03, 2026 12:30 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-07-30",
+    "clock": "same",
+    "title": "HII Reports Second Quarter 2026 Results",
+    "source": "https://www.globenewswire.com/news-release/2026/07/30/3335901/14858/en/hii-reports-second-quarter-2026-results.html",
+    "kind": "earnings",
+    "note": "Wire timestamp July 30, 2026 07:00 ET",
+    "removed_sessions": [
+      "2026-07-30"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-07-29",
+    "clock": "next",
+    "title": "HII is Awarded Contracts for Construction of Block VI Virginia-class and Build II Columbia-class Submarines",
+    "source": "https://www.globenewswire.com/news-release/2026/07/29/3335667/14858/en/hii-is-awarded-contracts-for-construction-of-block-vi-virginia-class-and-build-ii-columbia-class-submarines.html",
+    "kind": "operating",
+    "note": "Wire timestamp July 29, 2026 17:45 ET",
+    "removed_sessions": [
+      "2026-07-30"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-07-29",
+    "clock": "same",
+    "title": "HII Declares Quarterly Dividend",
+    "source": "https://www.globenewswire.com/news-release/2026/07/29/3335195/14858/en/hii-declares-quarterly-dividend.html",
+    "kind": "admin",
+    "note": "Wire timestamp July 29, 2026 08:15 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-07-27",
+    "clock": "next",
+    "title": "HII\u2019s Ingalls Shipbuilding Expands Distributed Shipbuilding to Amphibious Ships",
+    "source": "https://www.globenewswire.com/news-release/2026/07/28/3333957/14858/en/hii-s-ingalls-shipbuilding-expands-distributed-shipbuilding-to-amphibious-ships.html",
+    "kind": "operating",
+    "note": "Wire timestamp July 27, 2026 20:00 ET",
+    "removed_sessions": [
+      "2026-07-28"
+    ]
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-07-27",
+    "clock": "next",
+    "title": "HII Hosts Australian Minister for Defence Industry at Newport News Shipbuilding Charleston Operations",
+    "source": "https://www.globenewswire.com/news-release/2026/07/27/3333932/14858/en/hii-hosts-australian-minister-for-defence-industry-at-newport-news-shipbuilding-charleston-operations.html",
+    "kind": "admin",
+    "note": "Wire timestamp July 27, 2026 18:30 ET",
+    "removed_sessions": []
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-19",
+    "clock": "unknown",
+    "title": "Autonomous launcher demonstration",
+    "source": "https://www.hii.com/newsroom",
+    "kind": "operating",
+    "note": "Issuer newsroom captured; clock unknown; modest operating milestone, broad event sensitivity only",
+    "removed_sessions": [
+      "2026-10-19"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-10",
+    "clock": "next",
+    "title": "Q4 results",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-20260910.htm",
+    "kind": "earnings",
+    "note": "IssuerSep1 scheduledreleaseafter16ET; actual8Kaccepted20:16ET. Plannedclock corroborates, exactactualrelease timestamp unavailable",
+    "removed_sessions": [
+      "2026-09-11"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-10",
+    "clock": "unknown",
+    "title": "ACV merger agreement announcement",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm",
+    "kind": "capital",
+    "note": "Actual release clock unresolved: preserveSep10and11, do not assume earnings clock applies to deal",
+    "removed_sessions": [
+      "2026-09-10",
+      "2026-09-11"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-17",
+    "clock": "unknown",
+    "title": "ACV tender commencement",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526393827/d160557dsctot.htm",
+    "kind": "capital",
+    "note": "Public dated release/filing; clock unresolved. Sep28underlyingHSRevent first capturedSep29: removeSep29+30, not privateSep28date",
+    "removed_sessions": [
+      "2026-09-17",
+      "2026-09-18"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-29",
+    "clock": "unknown",
+    "title": "HSR withdrawal/refiling and lawsuits disclosed",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526406039/d126618dsctota.htm",
+    "kind": "capital",
+    "note": "Public dated release/filing; clock unresolved. Sep28underlyingHSRevent first capturedSep29: removeSep29+30, not privateSep28date",
+    "removed_sessions": [
+      "2026-09-29",
+      "2026-09-30"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-01",
+    "clock": "unknown",
+    "title": "ACV first tender extension",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526409871/d113384dsctota.htm",
+    "kind": "capital",
+    "note": "Public dated release/filing; clock unresolved. Sep28underlyingHSRevent first capturedSep29: removeSep29+30, not privateSep28date",
+    "removed_sessions": [
+      "2026-10-01",
+      "2026-10-02"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-08",
+    "clock": "unknown",
+    "title": "ACV second tender extension",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526417451/d181465dsctota.htm",
+    "kind": "capital",
+    "note": "Public dated release/filing; clock unresolved. Sep28underlyingHSRevent first capturedSep29: removeSep29+30, not privateSep28date",
+    "removed_sessions": [
+      "2026-10-08",
+      "2026-10-09"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-14",
+    "clock": "unknown",
+    "title": "HSR clearance condition satisfied",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526421044/d160128dsctota.htm",
+    "kind": "capital",
+    "note": "Public dated release/filing; clock unresolved. Sep28underlyingHSRevent first capturedSep29: removeSep29+30, not privateSep28date",
+    "removed_sessions": [
+      "2026-10-14",
+      "2026-10-15"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-16",
+    "clock": "same",
+    "title": "ACV acquisition completed",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526423478/d129535d8k.htm",
+    "kind": "capital",
+    "note": "Accepted13:59ET; consummation completedOct16",
+    "removed_sessions": [
+      "2026-10-16"
+    ]
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-16",
+    "clock": "unknown",
+    "title": "20MCEOoptionaward, grantedOct14",
+    "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526424052/d177727d8k.htm",
+    "kind": "capital",
+    "note": "Material award subject shareholderapproval. First captured publicfilingOct16afterclose; no proof prior disclosure. UnknownunionOct16+19; NOT backdated toOct14grant",
+    "removed_sessions": [
+      "2026-10-16",
+      "2026-10-19"
+    ]
+  }
+]

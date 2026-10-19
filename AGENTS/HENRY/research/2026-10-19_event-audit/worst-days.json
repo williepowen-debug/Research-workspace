@@ -1,0 +1,110 @@
+[
+  {
+    "symbol": "MOS",
+    "window": 5,
+    "date": "2026-10-19",
+    "stock_return": -0.04782144703104252,
+    "index_up": true,
+    "sector_up": true,
+    "both_up": true
+  },
+  {
+    "symbol": "MOS",
+    "window": 20,
+    "date": "2026-10-09",
+    "stock_return": -0.05017738439369224,
+    "index_up": true,
+    "sector_up": true,
+    "both_up": true
+  },
+  {
+    "symbol": "MOS",
+    "window": 60,
+    "date": "2026-10-09",
+    "stock_return": -0.05017738439369224,
+    "index_up": true,
+    "sector_up": true,
+    "both_up": true
+  },
+  {
+    "symbol": "HII",
+    "window": 5,
+    "date": "2026-10-13",
+    "stock_return": -0.023444314926428067,
+    "index_up": false,
+    "sector_up": false,
+    "both_up": false
+  },
+  {
+    "symbol": "HII",
+    "window": 20,
+    "date": "2026-09-28",
+    "stock_return": -0.02639952091029818,
+    "index_up": false,
+    "sector_up": false,
+    "both_up": false
+  },
+  {
+    "symbol": "HII",
+    "window": 60,
+    "date": "2026-07-29",
+    "stock_return": -0.06502168479986614,
+    "index_up": false,
+    "sector_up": false,
+    "both_up": false
+  },
+  {
+    "symbol": "ADM",
+    "window": 5,
+    "date": "2026-10-19",
+    "stock_return": -0.025420632594184367,
+    "index_up": true,
+    "sector_up": false,
+    "both_up": false
+  },
+  {
+    "symbol": "ADM",
+    "window": 20,
+    "date": "2026-10-09",
+    "stock_return": -0.03104909221768415,
+    "index_up": true,
+    "sector_up": true,
+    "both_up": true
+  },
+  {
+    "symbol": "ADM",
+    "window": 60,
+    "date": "2026-07-29",
+    "stock_return": -0.0336619404737466,
+    "index_up": false,
+    "sector_up": true,
+    "both_up": false
+  },
+  {
+    "symbol": "CPRT",
+    "window": 5,
+    "date": "2026-10-19",
+    "stock_return": -0.012917136688592401,
+    "index_up": true,
+    "sector_up": false,
+    "both_up": false
+  },
+  {
+    "symbol": "CPRT",
+    "window": 20,
+    "date": "2026-10-12",
+    "stock_return": -0.030746711638764412,
+    "index_up": false,
+    "sector_up": false,
+    "both_up": false
+  },
+  {
+    "symbol": "CPRT",
+    "window": 60,
+    "date": "2026-07-30",
+    "stock_return": -0.04055807957097157,
+    "index_up": true,
+    "sector_up": true,
+    "both_up": true
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "HII-earnings",
+    "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000045/hii2026q2earningsrelease.htm",
+    "status": 200
+  },
+  {
+    "name": "ADM-issuer-q2",
+    "url": "https://www.adm.com/en-us/news/news-releases/2026/8/adm-reports-second-quarter-2026-results/",
+    "status": 200
+  }
+]

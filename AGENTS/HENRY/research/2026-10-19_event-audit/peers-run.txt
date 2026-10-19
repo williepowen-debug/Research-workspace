@@ -1,0 +1,52 @@
+[
+  {
+    "case": "MOS",
+    "candidate": "ICL",
+    "observed_endpoint": 4.880000114440918,
+    "local_currency_returns": {
+      "5": -0.012145737264080192,
+      "20": -0.08614232677953126,
+      "60": -0.0663728060116453
+    },
+    "20_both_up_loss_fraction": "3/7",
+    "disposition": "Return-strength passes20/60; MOS-mapped20BOTH loss fraction compared below. Primary6K retrieved only EPS-average shares, not a verified period-end economic-common count/security-unit proof. Size eligibility unresolved; not accepted control."
+  },
+  {
+    "case": "HII",
+    "candidate": "FCT.MI",
+    "observed_endpoint": null,
+    "local_currency_returns": {
+      "5": null,
+      "20": null,
+      "60": null
+    },
+    "disposition": "October19 adjusted close null; no fill from metadata/unadjusted spot/October16. Primary half-year endpoint404. No comparable frozen endpoint or verified size; reject as usable control."
+  },
+  {
+    "case": "ADM",
+    "candidate": "F34.SI",
+    "observed_endpoint": 3.430000066757202,
+    "local_currency_returns": {
+      "5": -0.014367802310988553,
+      "20": -0.06027397886631647,
+      "60": -0.10617321427872473
+    },
+    "usd_returns": {
+      "5": -0.013628474236311638,
+      "20": -0.06297608559537571,
+      "60": null
+    },
+    "disposition": "Foreign calendar/FX mismatch retained; primary half-year endpoint404. Compare observed USD returns, no verified formation size. Not accepted control."
+  },
+  {
+    "case": "CPRT",
+    "candidate": "ACVA",
+    "observed_endpoint": null,
+    "local_currency_returns": {
+      "5": null,
+      "20": null,
+      "60": null
+    },
+    "disposition": "ACV acquired by CPRTOct16; already deal-affected beforeSep21formation, endpointnull. Not independent operating control; reject before strength/size selection."
+  }
+]

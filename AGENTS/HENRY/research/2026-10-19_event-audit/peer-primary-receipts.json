@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HII-wire-0",
+    "url": "https://www.globenewswire.com/en/search/organization/HII?page=0",
+    "status": 200
+  },
+  {
+    "name": "HII-wire-1",
+    "url": "https://www.globenewswire.com/en/search/organization/HII?page=1",
+    "status": 200
+  },
+  {
+    "name": "HII-wire-2",
+    "url": "https://www.globenewswire.com/en/search/organization/HII?page=2",
+    "status": 200
+  },
+  {
+    "name": "HII-wire-3",
+    "url": "https://www.globenewswire.com/en/search/organization/HII?page=3",
+    "status": 200
+  },
+  {
+    "name": "ICL-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000941221.json",
+    "status": 200
+  },
+  {
+    "name": "ICL-issuer",
+    "url": "https://investors.icl-group.com/financials/quarterly-results/default.aspx",
+    "status": 403
+  },
+  {
+    "name": "Wilmar-half",
+    "url": "https://www.wilmar-international.com/investor-relations/financials",
+    "status": 404
+  },
+  {
+    "name": "Fincantieri-half",
+    "url": "https://www.fincantieri.com/en/investors/financial-information/financial-statements",
+    "status": 404
+  }
+]

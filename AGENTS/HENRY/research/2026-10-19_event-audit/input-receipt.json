@@ -1,0 +1,7 @@
+{
+  "input": "AGENTS/HENRY/research/2026-10-19_repeat-losers/daily-audit.csv.gz",
+  "compressed_sha256": "843e072215f05baca95c66945c5acd8156991dedc0309d9563ccf417226a0343",
+  "decompressed_sha256": "f98274d3ea70c734ecf0a16a522343c67caa870152a0ac0c01b708137dd4af05",
+  "frozen_cohort_sha256": "278210becafd4ad78bf8e9d5b8125b35837884b4da6b9347341cf029e4340dcc",
+  "frozen_repeat_result_sha256": "7667de05aafc30edf6276b597454e5fd2cc191fd1ecc7bedf32a4af2ee960984"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "ICL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ICL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200
+  },
+  {
+    "symbol": "FCT.MI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FCT.MI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200
+  },
+  {
+    "symbol": "F34.SI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/F34.SI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200
+  },
+  {
+    "symbol": "ACVA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACVA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200
+  },
+  {
+    "symbol": "EURUSD=X",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD=X?range=1y&interval=1d",
+    "status": 200
+  },
+  {
+    "symbol": "SGD=X",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGD=X?range=1y&interval=1d",
+    "status": 200
+  }
+]

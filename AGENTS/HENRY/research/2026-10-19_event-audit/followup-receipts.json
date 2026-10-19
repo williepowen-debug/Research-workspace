@@ -1,0 +1,183 @@
+[
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-16",
+    "form": "SC TO-T/A",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526423456/d123963dsctota.htm",
+    "status": 200,
+    "file": "raw/followup-00-CPRT.html"
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-14",
+    "form": "SC TO-T/A",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526421044/d160128dsctota.htm",
+    "status": 200,
+    "file": "raw/followup-01-CPRT.html"
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-08",
+    "form": "SC TO-T/A",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526417451/d181465dsctota.htm",
+    "status": 200,
+    "file": "raw/followup-02-CPRT.html"
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-01",
+    "form": "SC TO-T/A",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526409871/d113384dsctota.htm",
+    "status": 200,
+    "file": "raw/followup-03-CPRT.html"
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-29",
+    "form": "SC TO-T/A",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526406039/d126618dsctota.htm",
+    "status": 200,
+    "file": "raw/followup-04-CPRT.html"
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-17",
+    "form": "SC TO-T",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526393827/d160557dsctot.htm",
+    "status": 200,
+    "file": "raw/followup-05-CPRT.html"
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-11",
+    "form": "SC TO-C",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526388383/d138398dsctoc.htm",
+    "status": 200,
+    "file": "raw/followup-06-CPRT.html"
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-09-10",
+    "form": "SC TO-C",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526388070/d138322dsctoc.htm",
+    "status": 200,
+    "file": "raw/followup-07-CPRT.html"
+  },
+  {
+    "symbol": "fl-warn",
+    "date": "index",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&page=2",
+    "error": "HTTPSConnectionPool(host='reactwarn.floridajobs.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "symbol": "fl-warn",
+    "date": "index",
+    "url": "https://reactwarn.floridajobs.org/WarnList/Records?year=2026&page=3",
+    "error": "HTTPSConnectionPool(host='reactwarn.floridajobs.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-promotes-greg-ennis-to-chief-financial-officer-of-mission-technologies",
+    "status": 200,
+    "file": "raw/followup-10-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/uss-harry-s-truman-cvn-75-arrives-at-hiis-newport-news-shipbuilding-to-start-its-refueling-and-complex-overhaul",
+    "status": 200,
+    "file": "raw/followup-11-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-is-awarded-contracts-for-construction-of-block-vi-virginia-class-and-build-ii-columbia-class-submarines",
+    "status": 200,
+    "file": "raw/followup-12-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hiis-ingalls-shipbuilding-awarded-contract-modification-for-ddg-1002-sea-trials",
+    "status": 200,
+    "file": "raw/followup-13-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/another-sea-launcher-success-advances-maritime-autonomy",
+    "status": 200,
+    "file": "raw/followup-14-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/ingalls-shipbuilding-to-host-on-site-hiring-event-october-24-for-all-skill-levels-1",
+    "status": 200,
+    "file": "raw/followup-15-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hiis-newport-news-shipbuilding-charleston-operations-to-host-skilled-trades-hiring-event-oct-27",
+    "status": 200,
+    "file": "raw/followup-16-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-is-awarded-contract-to-support-aukus-engineering-and-design-work",
+    "status": 200,
+    "file": "raw/followup-17-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-to-host-third-quarter-earnings-conference-call-and-webcast-on-oct-29",
+    "status": 200,
+    "file": "raw/followup-18-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-is-awarded-contract-to-execute-uss-harry-s-truman-cvn-75-refueling-and-complex-overhaul",
+    "status": 200,
+    "file": "raw/followup-19-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hiis-newport-news-shipbuilding-achieves-preliminary-acceptance-of-john-f-kennedy-cvn-79",
+    "status": 200,
+    "file": "raw/followup-20-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-wins-us-navy-contract-for-10-romulus-usvs-accelerating-deployment-of-proven-autonomous-capability",
+    "status": 200,
+    "file": "raw/followup-21-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-hosts-national-commission-on-the-future-of-the-navy-at-ingalls-shipbuilding",
+    "status": 200,
+    "file": "raw/followup-22-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/hii-expands-unmanned-production-facility-by-25-to-meet-growing-global-maritime-demand",
+    "status": 200,
+    "file": "raw/followup-23-HII.html"
+  },
+  {
+    "symbol": "HII",
+    "date": "issuer",
+    "url": "https://www.hii.com/news/ingalls-shipbuildings-virtual-reality-welding-lab-surpasses-1000-trainees",
+    "status": 200,
+    "file": "raw/followup-24-HII.html"
+  }
+]

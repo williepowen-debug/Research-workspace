@@ -1,0 +1,18 @@
+{
+  "observed_date": "2026-10-19",
+  "primary_browser_observations": [
+    {
+      "url": "https://www.copart.com/content/us/en/press-releases/copart-to-release-fourth-quarter-2026-results",
+      "content": "September1issuer notice scheduled September10earnings after16:00ET and call17:30ET. Actualrelease datedSep10,8Kaccepted20:16ET; mappedSep11with stated planned-clock limitation."
+    },
+    {
+      "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+      "content": "October2026WASDE releasedOctober9at12:00ET; coincides with MOS/ADM20-sessionworstday. Coincidence is not identifiedcause."
+    },
+    {
+      "url": "https://www.ers.usda.gov/topics/crops/soybeans-and-oil-crops/market-outlook",
+      "content": "UpdatedOctober15; soybeanproduction forecast+27Mbushels4.56B;crush unchanged2.78B;farmprice unchanged12USD/bushel. Supply news is an industryalternative,not simple negative for processor margins."
+    }
+  ],
+  "search_scope": "Bounded four largest-loss/date issuer/USDA searches. No recovered date-specific issuer explanation for HIIJuly29/September28 or CPRTJuly30/October12. Absence of a found headline is not absence of news."
+}
