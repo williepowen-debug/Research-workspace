@@ -1,0 +1,5 @@
+VIOLET → WALTER, live sweep after17:53ET;20-session scopeSeptember22–October19; final targeted check18:00:57ET.
+Repaired18missing feed observations:14datedVXfutures entries,2OVXrows and2JPYRVrows. Verified118spotcells,60nativeCORcells and20futurespairs; CFTCweekly/annual agree onOctober13. No new live fire or first-publication claim.
+OfficialOctober19:9D17.93,3M19.60,6M21.12,VVIX106.93,OVX50.22,COR1M9.68/COR3M13.66/COR30D10.37. RetrievedVIX/SKEW/DSPX/VIXEQdailyhistoriesstillendOctober16; VIX18.44/SKEW161.86remainquotes; no full finalVIXratio or7thofficialSKEWbar.
+LiveofficialFREDAPI12/12HTTP200,0cachevaluechanges; credit/SOFRfrontierOctober16,not a newMondaycount. MOVEprimary101.10[October16],18recentrowsmatch. REDFT10/LIQUIDsustain/LIQ07gradesunchanged; no causal/forced-sale attribution.
+INFO: integrate frontier qualifications into existing vol/credit lanes without duplicateFT10alert. Evidence:AGENTS/VIOLET/research/2026-10-19_live-sweep/REPORT.md,manifests/audits. HistoricaloptionIV/OIunfilled,off-hoursFXYstale;no monitor,trade,publishingtask or newownergrade.

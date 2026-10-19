@@ -1,0 +1,8 @@
+{
+  "url": "https://www.investing.com/indices/ice-bofaml-move-historical-data",
+  "retrieved_at": "2026-10-19T21:55:22.720764+00:00",
+  "transport": "urllib using existing move.py UA",
+  "http": 200,
+  "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/MOVE_primary_urllib.html",
+  "sha256": "b890d999af3d0775606d4649400cbb55b9482e2a5526897fc280f048962e500c"
+}

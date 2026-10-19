@@ -1,0 +1,57 @@
+{
+  "VIX": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at": "2026-10-19T22:00:57.250425+00:00",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX_history_finalcheck.csv",
+    "sha256": "a9742d4deab98f7644bda10df92db0b6afbca17ccc8b64139c52ad2ca0963d42",
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "16.020000",
+      "HIGH": "22.310000",
+      "LOW": "15.720000",
+      "CLOSE": "19.990000"
+    },
+    "target_row": null
+  },
+  "SKEW": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "retrieved_at": "2026-10-19T22:00:57.251819+00:00",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/SKEW_history_finalcheck.csv",
+    "sha256": "f10ca44d9b1943cdc5d812f738145d57a23ced0ed1d1e6e0803d1fa8988b6e6f",
+    "last_row": {
+      "DATE": "10/16/2026",
+      "SKEW": "168.590000"
+    },
+    "target_row": null
+  },
+  "DSPX": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "retrieved_at": "2026-10-19T22:00:57.252679+00:00",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/DSPX_history_finalcheck.csv",
+    "sha256": "6e139a077dade708297255a52719c315ff7e9038a4c4332fc795fdd266bac3c5",
+    "last_row": {
+      "DATE": "10/16/2026",
+      "DSPX": "36.610000"
+    },
+    "target_row": null
+  },
+  "VIXEQ": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "retrieved_at": "2026-10-19T22:00:57.253417+00:00",
+    "request_cache_control": "no-cache",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIXEQ_history_finalcheck.csv",
+    "sha256": "413d3d454b5d9f5dbcbaec0a21a7f6856823b50836262af68f5ea3a91fc90821",
+    "last_row": {
+      "DATE": "10/16/2026",
+      "VIXEQ": "41.710000"
+    },
+    "target_row": null
+  }
+}

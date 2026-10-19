@@ -1,0 +1,10 @@
+READ-CAP [VIOLET] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 2 boot section(s) in CLAUDE.md, 22 'read' line(s) scanned (4 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ MEMORY.md                            23,883 B    73% of budget    (boot-step line 24)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,099 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 529 B.
+  ✅ STATUS.md                            11,259 B    35% of budget    (boot-step line 22)
+  ✅ CALENDAR.md                           6,842 B    21% of budget    (boot-step line 25)
+  ✅ SCRATCH.md                            4,174 B    13% of budget    (boot-step line 23)
+  ✅ workbook/CATALYSTS.tsv                1,278 B     4% of budget    (boot-step line 25)
+✅ READ-CAP 0 [VIOLET]: every boot-mandated read this check found is under budget (5 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+  ℹ️  charter AGENTS/VIOLET/CLAUDE.md = 27,535 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=VIOLET reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=27535

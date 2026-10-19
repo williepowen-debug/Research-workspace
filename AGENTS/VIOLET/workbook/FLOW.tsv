@@ -39,3 +39,5 @@ Date	From	To	Signal_Type	Content	Status
 2026-10-19	VIOLET	WALTER	observation	17:39ET partial official publication: VIX9D/VVIX/COR30D available; remaining series absent, no complete ratio	SENT
 2026-10-19	VIOLET	PROME	observation	Publication and closeout addendum:23WALTERpacketsfiled afterintegrationcommit; partialfinals and remainingobligations	SENT
 2026-10-19	VIOLET	PROME	observation	Coordinator thread01a155c9 finalL667disposition and explicitcloseoutreceipt; observationcomplete,riderseparate,source17:39limits,Deckpaused/Helmretired	SENT
+2026-10-19	VIOLET	PROME	observation	Live20session sweep:18ledgergapsrepaired;118spot/60CORcells/20VXpairsverified;unpublishedfinals and ownergrade limits preserved	SENT
+2026-10-19	VIOLET	WALTER	observation	Updated nativepublication frontiers and data-repair evidence for existing vol-credit lanes;no duplicateFT10alert or newgrade	SENT

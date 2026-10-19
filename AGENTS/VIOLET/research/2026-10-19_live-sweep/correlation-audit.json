@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2026-09-22",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-09-23",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-09-24",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-09-25",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-09-28",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-09-29",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-09-30",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-01",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-02",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-05",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-06",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-07",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-08",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-09",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-12",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-13",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-14",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-15",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-16",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "SETTLE"
+  },
+  {
+    "date": "2026-10-19",
+    "state": "MATCH",
+    "changes": [],
+    "composite_basis": "TICK"
+  }
+]

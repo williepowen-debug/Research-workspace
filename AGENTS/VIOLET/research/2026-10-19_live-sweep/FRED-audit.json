@@ -1,0 +1,98 @@
+[
+  {
+    "series": "BAMLH0A0HYM2",
+    "last_observation": "2026-10-16",
+    "last_value": "3.31",
+    "recent_rows": 19,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "BAMLH0A3HYC",
+    "last_observation": "2026-10-16",
+    "last_value": "12.97",
+    "recent_rows": 19,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "BAMLC0A0CM",
+    "last_observation": "2026-10-16",
+    "last_value": "0.85",
+    "recent_rows": 19,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "BAMLC0A4CBBB",
+    "last_observation": "2026-10-16",
+    "last_value": "1.06",
+    "recent_rows": 19,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "BAMLH0A1HYBB",
+    "last_observation": "2026-10-16",
+    "last_value": "2.03",
+    "recent_rows": 19,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "BAMLH0A2HYB",
+    "last_observation": "2026-10-16",
+    "last_value": "3.35",
+    "recent_rows": 19,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "DGS10",
+    "last_observation": "2026-10-16",
+    "last_value": "5.09",
+    "recent_rows": 18,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "DGS2",
+    "last_observation": "2026-10-16",
+    "last_value": "4.74",
+    "recent_rows": 18,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "DFII10",
+    "last_observation": "2026-10-16",
+    "last_value": "2.74",
+    "recent_rows": 18,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "IORB",
+    "last_observation": "2026-10-19",
+    "last_value": "3.9",
+    "recent_rows": 28,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "SOFR",
+    "last_observation": "2026-10-16",
+    "last_value": "3.88",
+    "recent_rows": 18,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  },
+  {
+    "series": "VIXCLS",
+    "last_observation": "2026-10-16",
+    "last_value": "19.99",
+    "recent_rows": 19,
+    "prior_cache_differences": [],
+    "basis": "LATEST-REVISED"
+  }
+]

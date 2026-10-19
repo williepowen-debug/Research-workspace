@@ -1,0 +1,8 @@
+{
+  "ticker": "JPY=X",
+  "provider": "Yahoo Finance via yfinance",
+  "retrieved_at": "2026-10-19T21:55:04.345516+00:00",
+  "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/USDJPY_5y.csv",
+  "sha256": "618add967b6ceb7326d96ad5074780d1dacf12f9b12fe3f931a3754c7d9bff35",
+  "note": "Vendor daily FX, current-day intraday and future-dated FX day excluded from daily target reconstruction"
+}

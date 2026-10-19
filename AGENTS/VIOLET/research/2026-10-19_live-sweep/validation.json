@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-19T22:00:37.791665+00:00",
+  "checks": {
+    "futures_all20_filled": true,
+    "futures_no_source_mismatches": true,
+    "spot118_available": true,
+    "current_row_TICK": true,
+    "correlation60_verified": true,
+    "CFTC_sources_agree": true,
+    "MOVE18_match": true,
+    "FRED12_live_and_unchanged": true,
+    "JPY20_date_coverage": true,
+    "JPY_history_options_unfilled": true,
+    "OVX19_matched_dates": true,
+    "no_final_OVX19_grade": true
+  },
+  "passed": true
+}

@@ -1,0 +1,410 @@
+{
+  "BAMLH0A0HYM2": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "BAMLH0A0HYM2",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:55:59.586971+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_BAMLH0A0HYM2_api.json",
+    "sha256": "ab395116bcaaaee5e868bd6a55892cf34553fafe81eca1a19b6b2b8c6c6cdf12",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "3.25"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "3.23"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "3.31"
+      }
+    ]
+  },
+  "BAMLH0A3HYC": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "BAMLH0A3HYC",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:55:59.588335+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_BAMLH0A3HYC_api.json",
+    "sha256": "e9a8f2c64ad247bb327062bf5074444908a88529460a3705239ba6f250e7e1ef",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "12.82"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "12.78"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "12.97"
+      }
+    ]
+  },
+  "BAMLC0A0CM": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "BAMLC0A0CM",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:55:59.589224+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_BAMLC0A0CM_api.json",
+    "sha256": "57552c6fa99db58f20c79cf7404a3c365e65ee16318badf2123c353a0e8d2914",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "0.84"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "0.84"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "0.85"
+      }
+    ]
+  },
+  "BAMLC0A4CBBB": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "BAMLC0A4CBBB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:55:59.590283+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_BAMLC0A4CBBB_api.json",
+    "sha256": "1e954502c62d8a40e3e76805f3d9725a4c308bb9eadd3a1642771b4c455bc7fe",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "1.04"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "1.05"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "1.06"
+      }
+    ]
+  },
+  "BAMLH0A1HYBB": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "BAMLH0A1HYBB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:55:59.591013+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_BAMLH0A1HYBB_api.json",
+    "sha256": "aa8c9dc5150488e21f5305be24cd0f05a80fba4960917b8d96c476f7a0a10db9",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "1.99"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "1.97"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "2.03"
+      }
+    ]
+  },
+  "BAMLH0A2HYB": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "BAMLH0A2HYB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:55:59.591845+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_BAMLH0A2HYB_api.json",
+    "sha256": "bf9c20eb4907d6d3688a0bc717639901232a36c4ea1d0d665fb351c023d56d8f",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "3.29"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "3.26"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "3.35"
+      }
+    ]
+  },
+  "DGS10": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "DGS10",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:56:00.030019+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_DGS10_api.json",
+    "sha256": "7c71c8ea9dd1ad7bdc9ce48250453c6567fbfea2fb57b1a991d34fd0f5f5cb0d",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "5.19"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "5.1"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "5.09"
+      }
+    ]
+  },
+  "DGS2": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "DGS2",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:56:00.041350+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_DGS2_api.json",
+    "sha256": "258153f67f85937cdff9f48db680e70da57a3cd8142ffb1216b5df017ca7fdd8",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "4.82"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "4.77"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "4.74"
+      }
+    ]
+  },
+  "DFII10": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "DFII10",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:56:00.055323+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_DFII10_api.json",
+    "sha256": "c120032a37c1dfcdc01cefc5c66779648884a413a4e328b3e7b704fbb8130026",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "2.84"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "2.78"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "2.74"
+      }
+    ]
+  },
+  "IORB": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "IORB",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:56:00.073287+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_IORB_api.json",
+    "sha256": "3ad3c5bb1995644b69b12ec922f8f4e8081e14701c04c5e16190668fa860e0b5",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-17",
+        "value": "3.9"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-18",
+        "value": "3.9"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-19",
+        "value": "3.9"
+      }
+    ]
+  },
+  "SOFR": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "SOFR",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:56:00.076064+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_SOFR_api.json",
+    "sha256": "bc21d6cd794c293e94c537465824aed5d8701ef871a58effea02c6337364d48f",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "3.88"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "3.89"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "3.88"
+      }
+    ]
+  },
+  "VIXCLS": {
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "parameters": {
+      "series_id": "VIXCLS",
+      "file_type": "json",
+      "observation_start": "2026-09-01",
+      "observation_end": "2026-10-19"
+    },
+    "retrieved_at": "2026-10-19T21:56:00.086030+00:00",
+    "basis": "LATEST-REVISED; not original publication vintage",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/FRED_VIXCLS_api.json",
+    "sha256": "f884be3486ddaa61427411f2472600c66e8c0322b19ae05e5f53f30f37c7a108",
+    "tail": [
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-14",
+        "value": "16.87"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-15",
+        "value": "16.46"
+      },
+      {
+        "realtime_start": "2026-10-19",
+        "realtime_end": "2026-10-19",
+        "date": "2026-10-16",
+        "value": "19.99"
+      }
+    ]
+  }
+}

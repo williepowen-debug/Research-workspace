@@ -1,0 +1,142 @@
+{
+  "2026-09-22": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-09-22",
+    "retrieved_at": "2026-10-19T21:55:02.124968+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-09-22.csv",
+    "sha256": "338bbf612ee49f84fb45afb7226d9f14b90ec3c31be11d053e7a75b896a688dd"
+  },
+  "2026-09-23": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-09-23",
+    "retrieved_at": "2026-10-19T21:55:02.125460+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-09-23.csv",
+    "sha256": "7ee49b55bcb2fc1b8fee4073f0ba57e6461c9e99ef6343419e0571d6bd1e82dd"
+  },
+  "2026-09-24": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-09-24",
+    "retrieved_at": "2026-10-19T21:55:02.127153+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-09-24.csv",
+    "sha256": "e248a4ded9ca942eea6904a2dadcb51fe9a4fdddc00d1295abec250ca51e841c"
+  },
+  "2026-09-25": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-09-25",
+    "retrieved_at": "2026-10-19T21:55:02.128090+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-09-25.csv",
+    "sha256": "11165f76ea1b245dee8399919b9102950b37a146446267db8d542fb608acd777"
+  },
+  "2026-09-28": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-09-28",
+    "retrieved_at": "2026-10-19T21:55:02.128789+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-09-28.csv",
+    "sha256": "0d2bb7a75ad3c34ca548fe76b96e18c2e3e348a1524eae50b5b132a4ff701650"
+  },
+  "2026-09-29": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-09-29",
+    "retrieved_at": "2026-10-19T21:55:02.129325+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-09-29.csv",
+    "sha256": "59a79d37ecf9b3793ba36aa855976ac521b29866e5708e1bb30d4c6ff1990c03"
+  },
+  "2026-09-30": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-09-30",
+    "retrieved_at": "2026-10-19T21:55:02.437989+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-09-30.csv",
+    "sha256": "f78629f420ace57e3923f61b50549aa81f54dace5be37370492ef2b38d1ce03e"
+  },
+  "2026-10-01": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-01",
+    "retrieved_at": "2026-10-19T21:55:02.448448+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-01.csv",
+    "sha256": "982bd005081e4f2ec392682bf7dab38f37e09c91cbd5ee08619665f31e0c97d6"
+  },
+  "2026-10-02": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-02",
+    "retrieved_at": "2026-10-19T21:55:02.454838+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-02.csv",
+    "sha256": "0daa355fcfb64c979eba26ed04b16bea78e80118c663d40728cc3a909019ca5e"
+  },
+  "2026-10-05": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-05",
+    "retrieved_at": "2026-10-19T21:55:02.484871+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-05.csv",
+    "sha256": "672cb37a1f53fca4ca441507fd7f5546e83c0674df801ae44489f3e2a52e72bb"
+  },
+  "2026-10-06": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-06",
+    "retrieved_at": "2026-10-19T21:55:02.526088+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-06.csv",
+    "sha256": "28bc846c65321136a4d84a87523dc3d13f14e6618ac562a398bb1a610f6257dd"
+  },
+  "2026-10-07": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-07",
+    "retrieved_at": "2026-10-19T21:55:02.723228+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-07.csv",
+    "sha256": "7b32caa4eb094c436af932a9d840f259ebfafc39398a8e6b87f008fa4705278a"
+  },
+  "2026-10-08": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-08",
+    "retrieved_at": "2026-10-19T21:55:02.794633+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-08.csv",
+    "sha256": "00ac6ce164840667de4a9fbd29e67e00f6479001ab9de12a36bacce2ad6aa4a0"
+  },
+  "2026-10-09": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-09",
+    "retrieved_at": "2026-10-19T21:55:02.798369+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-09.csv",
+    "sha256": "642c664208a084b3d64f2ca9f8c2972d073a1158435c788bd8a1f02af225aed3"
+  },
+  "2026-10-12": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-12",
+    "retrieved_at": "2026-10-19T21:55:02.821693+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-12.csv",
+    "sha256": "67a9602bae9354aa2a5b9984faa0ab85df64d8b21deb2f32fed2230820afdd17"
+  },
+  "2026-10-13": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-13",
+    "retrieved_at": "2026-10-19T21:55:02.868450+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-13.csv",
+    "sha256": "6e1f96d8279c52817c37b3bd1bb1b3c0c3fe4048035ea57248a74c802e0b7e14"
+  },
+  "2026-10-14": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-14",
+    "retrieved_at": "2026-10-19T21:55:02.961502+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-14.csv",
+    "sha256": "520f0b05784aa63b0432a2bb28f1fe33922244255da6e298d6bd8d7a0d2b8e4d"
+  },
+  "2026-10-15": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-15",
+    "retrieved_at": "2026-10-19T21:55:03.052626+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-15.csv",
+    "sha256": "f426c41135af0e04ce2cf3e4c7f7e2acaee9ca6dda77dff578b9e6f09a541bee"
+  },
+  "2026-10-16": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-16",
+    "retrieved_at": "2026-10-19T21:55:03.099533+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-16.csv",
+    "sha256": "2715f48481217cf790af273da85287d051dab10c37fe3f524c301f15f8d19927"
+  },
+  "2026-10-19": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-19",
+    "retrieved_at": "2026-10-19T21:55:03.100862+00:00",
+    "http": 200,
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-19.csv",
+    "sha256": "90440f66e1b6a8cc6440460ded744aad3ab4acbab314e850c9d0943c15dba8f2"
+  }
+}

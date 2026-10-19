@@ -1,0 +1,2 @@
+  perimeter [VIOLET]: 17 ledger(s) scanned; 6 TSV(s) NOT scanned by this pass: reports/2026-09-14_inbox/consumption.tsv, research/2026-10-14_accuracy-sweep/expired-kb-review.tsv, research/2026-10-14_accuracy-sweep/inventory-before.tsv, research/2026-10-14_data-refresh/freshness.tsv (+2 more)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass

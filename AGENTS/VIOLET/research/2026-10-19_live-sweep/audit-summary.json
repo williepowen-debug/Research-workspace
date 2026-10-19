@@ -1,0 +1,219 @@
+{
+  "bounded_start": "2026-09-22",
+  "bounded_end": "2026-10-19",
+  "sessions": [
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19"
+  ],
+  "source_frontiers": {
+    "VIX": "2026-10-16",
+    "VIX9D": "2026-10-19",
+    "VIX3M": "2026-10-19",
+    "VIX6M": "2026-10-19",
+    "VVIX": "2026-10-19",
+    "SKEW": "2026-10-16",
+    "OVX": "2026-10-19",
+    "COR1M": "2026-10-19",
+    "COR3M": "2026-10-19",
+    "COR30D": "2026-10-19",
+    "DSPX": "2026-10-16",
+    "VIXEQ": "2026-10-16"
+  },
+  "recoveries": {
+    "futures_rows": 14,
+    "OVX_rows": [
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "JPY_RV_rows": [
+      "2026-10-15",
+      "2026-10-16"
+    ]
+  },
+  "mismatches": {
+    "futures": []
+  },
+  "limits": [
+    "October19 VIX/SKEW daily absent in captured histories; no official full cash complex or 7th SKEW observation",
+    "October19 OVX final exists, matched VIX final missing: do not enter a final OVX/VIX daily grade",
+    "Historical FXY IV/OI and historical VIX option snapshots not reconstructed from present chains",
+    "Derived historical CHEAP_TAIL logs are not a daily native-data series; no historical catalyst availability invented",
+    "No first-publication certification from rewritten history; no RED/LIQUID grade substituted"
+  ],
+  "spot_available_cells": 118,
+  "spot_unpublished": [
+    {
+      "date": "2026-10-19",
+      "series": "VIX",
+      "state": "NOT_PUBLISHED",
+      "ledger_value": "18.44"
+    },
+    {
+      "date": "2026-10-19",
+      "series": "SKEW",
+      "state": "NOT_PUBLISHED",
+      "ledger_value": "161.86"
+    }
+  ],
+  "correlation_native_cells_verified": 60,
+  "CFTC_weekly": [
+    {
+      "report_date": "2026-10-13",
+      "open_interest": 448469,
+      "dealer_long": 106006,
+      "dealer_short": 35958,
+      "asset_mgr_long": 47336,
+      "asset_mgr_short": 124631,
+      "lev_money_long": 88587,
+      "lev_money_short": 87482,
+      "other_long": 3759,
+      "other_short": 898,
+      "nonrept_long": 25548,
+      "nonrept_short": 22267,
+      "dealer_net": 70048,
+      "asset_mgr_net": -77295,
+      "lev_money_net": 1105,
+      "other_net": 2861,
+      "nonrept_net": 3281
+    }
+  ],
+  "CFTC_annual_latest": {
+    "report_date": "2026-10-13",
+    "open_interest": 448469,
+    "dealer_long": 106006,
+    "dealer_short": 35958,
+    "asset_mgr_long": 47336,
+    "asset_mgr_short": 124631,
+    "lev_money_long": 88587,
+    "lev_money_short": 87482,
+    "other_long": 3759,
+    "other_short": 898,
+    "nonrept_long": 25548,
+    "nonrept_short": 22267,
+    "dealer_net": 70048,
+    "asset_mgr_net": -77295,
+    "lev_money_net": 1105,
+    "other_net": 2861,
+    "nonrept_net": 3281
+  },
+  "CFTC_agreement": true,
+  "FRED_frontiers": [
+    {
+      "series": "BAMLH0A0HYM2",
+      "last_observation": "2026-10-16",
+      "last_value": "3.31",
+      "recent_rows": 19,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "BAMLH0A3HYC",
+      "last_observation": "2026-10-16",
+      "last_value": "12.97",
+      "recent_rows": 19,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "BAMLC0A0CM",
+      "last_observation": "2026-10-16",
+      "last_value": "0.85",
+      "recent_rows": 19,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "BAMLC0A4CBBB",
+      "last_observation": "2026-10-16",
+      "last_value": "1.06",
+      "recent_rows": 19,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "BAMLH0A1HYBB",
+      "last_observation": "2026-10-16",
+      "last_value": "2.03",
+      "recent_rows": 19,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "BAMLH0A2HYB",
+      "last_observation": "2026-10-16",
+      "last_value": "3.35",
+      "recent_rows": 19,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "DGS10",
+      "last_observation": "2026-10-16",
+      "last_value": "5.09",
+      "recent_rows": 18,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "DGS2",
+      "last_observation": "2026-10-16",
+      "last_value": "4.74",
+      "recent_rows": 18,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "DFII10",
+      "last_observation": "2026-10-16",
+      "last_value": "2.74",
+      "recent_rows": 18,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "IORB",
+      "last_observation": "2026-10-19",
+      "last_value": "3.9",
+      "recent_rows": 28,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "SOFR",
+      "last_observation": "2026-10-16",
+      "last_value": "3.88",
+      "recent_rows": 18,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    },
+    {
+      "series": "VIXCLS",
+      "last_observation": "2026-10-16",
+      "last_value": "19.99",
+      "recent_rows": 19,
+      "prior_cache_differences": [],
+      "basis": "LATEST-REVISED"
+    }
+  ],
+  "MOVE_frontier": "2026-10-16",
+  "MOVE_recent_rows": 18,
+  "MOVE_mismatches": []
+}

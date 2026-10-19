@@ -1,6 +1,6 @@
 # VIOLET — volatility desk
 
-VIX complex, term structure, tail pricing and credit-to-vol transmission. **Reviewed October 19, 2026.** Start with [STATUS](STATUS.md), [SCRATCH](SCRATCH.md), and the [official follow-through](research/2026-10-19_official-followthrough/REPORT.md). The [accuracy sweep](research/2026-10-14_accuracy-sweep/REPORT.md) remains a dated audit. The [September sweep](reports/2026-09-14_sweep/README.md) is dated history.
+VIX complex, term structure, tail pricing and credit-to-vol transmission. **Reviewed October 19, 2026.** Start with [STATUS](STATUS.md), [SCRATCH](SCRATCH.md), and the [live-source sweep](research/2026-10-19_live-sweep/REPORT.md). The [official follow-through](research/2026-10-19_official-followthrough/REPORT.md) retains its dated source/grade record. The [accuracy sweep](research/2026-10-14_accuracy-sweep/REPORT.md) remains a dated audit. The [September sweep](reports/2026-09-14_sweep/README.md) is dated history.
 
 ## File map
 

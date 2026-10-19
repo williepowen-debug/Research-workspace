@@ -1,0 +1,222 @@
+[
+  {
+    "row_date": "2026-09-22",
+    "source_date": "2026-09-22",
+    "state": "FILLED",
+    "strict_pct": 4.853,
+    "adjusted_pct": 4.853,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-09-23",
+    "source_date": "2026-09-23",
+    "state": "FILLED",
+    "strict_pct": 4.122,
+    "adjusted_pct": 4.122,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-09-24",
+    "source_date": "2026-09-24",
+    "state": "MATCH",
+    "strict_pct": 4.171,
+    "adjusted_pct": 4.171,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-09-25",
+    "source_date": "2026-09-25",
+    "state": "FILLED",
+    "strict_pct": 5.026,
+    "adjusted_pct": 5.026,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-09-28",
+    "source_date": "2026-09-28",
+    "state": "MATCH",
+    "strict_pct": 4.357,
+    "adjusted_pct": 4.357,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-09-29",
+    "source_date": "2026-09-29",
+    "state": "FILLED",
+    "strict_pct": 3.987,
+    "adjusted_pct": 3.987,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-09-30",
+    "source_date": "2026-09-30",
+    "state": "FILLED",
+    "strict_pct": 3.275,
+    "adjusted_pct": 3.275,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-01",
+    "source_date": "2026-10-01",
+    "state": "FILLED",
+    "strict_pct": 2.897,
+    "adjusted_pct": 2.897,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-02",
+    "source_date": "2026-10-02",
+    "state": "FILLED",
+    "strict_pct": 3.949,
+    "adjusted_pct": 3.949,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-05",
+    "source_date": "2026-10-05",
+    "state": "FILLED",
+    "strict_pct": 3.917,
+    "adjusted_pct": 3.917,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-06",
+    "source_date": "2026-10-06",
+    "state": "FILLED",
+    "strict_pct": 3.253,
+    "adjusted_pct": 3.253,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-07",
+    "source_date": "2026-10-07",
+    "state": "FILLED",
+    "strict_pct": 1.797,
+    "adjusted_pct": 1.797,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-08",
+    "source_date": "2026-10-08",
+    "state": "FILLED",
+    "strict_pct": 2.179,
+    "adjusted_pct": 2.179,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-09",
+    "source_date": "2026-10-09",
+    "state": "FILLED",
+    "strict_pct": 4.282,
+    "adjusted_pct": 4.282,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-12",
+    "source_date": "2026-10-12",
+    "state": "FILLED",
+    "strict_pct": 4.968,
+    "adjusted_pct": 4.968,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-13",
+    "source_date": "2026-10-13",
+    "state": "FILLED",
+    "strict_pct": 4.482,
+    "adjusted_pct": 4.482,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-14",
+    "source_date": "2026-10-14",
+    "state": "MATCH",
+    "strict_pct": 2.396,
+    "adjusted_pct": 2.396,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-15",
+    "source_date": "2026-10-15",
+    "state": "MATCH",
+    "strict_pct": 2.872,
+    "adjusted_pct": 2.872,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-16",
+    "source_date": "2026-10-16",
+    "state": "MATCH",
+    "strict_pct": -3.362,
+    "adjusted_pct": -3.362,
+    "symbols": [
+      "VX/V6",
+      "VX/X6"
+    ]
+  },
+  {
+    "row_date": "2026-10-19",
+    "source_date": "2026-10-19",
+    "state": "MATCH",
+    "strict_pct": 2.431,
+    "adjusted_pct": 0.734,
+    "symbols": [
+      "VX/X6",
+      "VX/Z6"
+    ]
+  }
+]

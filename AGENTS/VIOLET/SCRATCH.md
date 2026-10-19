@@ -1,36 +1,36 @@
 # VIOLET — session handoff
 
-**As of:** October19,2026 17:40ET. Owner01a15611-0101-79e0-b103-685fe4eb21cf, Codex/OpenAI gpt-6.1-sol/high. Numerical dashboard:[STATUS](STATUS.md). Current [report](research/2026-10-19_official-followthrough/REPORT.md). Thesisv4.1.4, convergence31/50.
+**As of:** October19,2026 18:02ET; same owner01a15611-0101-79e0-b103-685fe4eb21cf, Codex/OpenAI gpt-6.1-sol/high. Current [STATUS](STATUS.md) and [live-source sweep](research/2026-10-19_live-sweep/REPORT.md). Thesisv4.1.4/convergence31/50unchanged. No new threshold, trade or publishing work.
 
 ## CHANGES SINCE
 
-OfficialOctober14SKEWexists; REDalreadygradedFT10FIRING. October15/16extend same run, not extra fires. FridayofficialVIXhigh22.31/close19.99confirms short-end stress:9Dandfuturesinverted,3Mcash/VVIXdaily registered linesdidnotfire. Mondayquotes/futures ease; completeofficialcomplexstillendsOctober16;17:39rechecknowpublishesOctober19VIX9D/VVIX/COR30Dindividually. VIX/SKEW/longertenors/COR1M/COR3Mstillpending;nofinalratio. LIQUIDHYsustainrungmet,LIQ07resolvedS2. WQ410approvedretirementwaspendingownerencode,nowenacted.
+Will requested a fresh sweep of all recent live desk feeds after the earlier coordinator closeout. Boot17:53ET; bounded source reconciliationSeptember22→October19,20sessions. Native daily correlation/longer-vol tenors have advanced toOctober19; VIX/SKEW/DSPX/VIXEQhistories still endOctober16 in the18:00:57ETtargeted check. Current quotes remain distinct from finals.
 
 ## WHAT I DID
 
-PROME coordination request received in user channel after the saved work was already pushed. Continued the same model/permissions/session. Verified scoped persistence and source limits; corrected the remaining STATUS MOVE October14 primary value99.14→99.06 from the saved ledger/report. Recorded explicit closeout receipt and exact L667 observation-versus-rider disposition in COORDINATOR_CLOSEOUT.md. No restart, new market pull, owner re-grade or publishing task.
-
-Explicitroot/desk/bootreads; runtime/processidentitychecked; initialpullwithheldforforeignwork. Fullboot31.8seconds,2missingVXrowsdetectedandfilled. OfficialOctober14fivequotecellssupersededbydatedfinals; futuresOctober15/16datedsettlesfilled,Mondayrollpairrecorded. CFTCannualZIPrecoveredOctober13report; correlationOctober14/15/16officialrowsrestoredandMondayclock-onlySETTLEdemotedTICK. At-useSKEWintegrity23/23within0.005. HistoricalOctober16cheap-tailDORMANTregradeclearsdarkledgerwithoutliveopportunityoroverwritingWQ418PASS.
-
-ConsumedWALTEROctober14→19evidenceincludingtwoR1corrections,FridayFLASHasksandMondaybreadth/creditcounterevidence. Ownercaptures/hashmanifestpreservecredit/rates/REDbasis. WQ410rulingdirectlyverifiedandencodedinSIGNAL_INTAKE/KB/thesisv4.1.4. Priorreportsarehistory,notrewrittengrades. DurablepacketstoPROME/WALTERsupplyfindingsandremainingobligations; noFT10disagreement,sodonotduplicateREDalert.
+- Filled14dated futures entries; now20recent pairs source-verified with symbols and settlement dates,0mismatches.
+- Added2OVXmatched rowsOctober14/15 and2JPYrealized-only rowsOctober15/16. Historical quantiles exclude later observations; original-publication vintage unverified. Old option fields deliberately blank.
+- Verified118published spot cells and60native CORcells. Current VX_DAILY and correlation composite remainTICK because VIXfinal19is absent; COR1M/COR3M/COR30D19are individually official.
+- FREDpublicCSVtimedout; officialAPIHTTP200for12series,0existing-cache differences. MOVErequests403resolvedthrough existingurllibUApathHTTP200;18recentprimaryobservationsmatch. No credential-bearingURLs/secrets persisted.
+- CFTCweekly/annual agree onOctober13; all4recentreports present. Current vendorVIXoption snapshot refreshed7expiries; OIvintage not independently certified. FXYIVoff-hoursSTALE; current JPYRV2.57/4.38CALM.
+- Current credit/funding publication frontiers remainOctober16. LIQUID's existing grades unchanged; no new Monday331observation or automatic count. No WALTERlive inbox files at sweep census.
+- Dated source manifests/audits/validation and KB345..348 preserve the evidence. Existing L667/tooling duties remain separate. Initial yen gap estimate3correctedto2;18totalrepairs, not19.
 
 ## NEXT SESSION
 
-1. **Actualpublication,notclock:**RemainingOctober19VIX/3M/6M/SKEW/COR1M/COR3MfinalsandMOVEprimary; LIQUIDnextpublishedcredit/funding. Currentquotescannotcompleteofficialdailycounts.
-2. **October21:**existingAMSOQ/expiry; comparematchedVXcontracts,notroll-adjustedheadlines. October28FOMC/November17lagendpointunchanged.
-3. **Existingtoolingresiduals:**L667calendarpacketoutput/charter14-dayclausenotcertified; correlationclock-onlySETTLEhelperneedsboundedrepair. Currentcalendarpopulated; currentcorrelationrowTICK. Do notcallfullridercompleteonSKEWobservationcompletion.
-4. Deck PAUSED WQ460 and Helm RETIRED WQ461: no publishing work resumes. Historical standalone Artifact copies are not verified; no hosted refresh is commissioned by this closeout. Existing historical FXY option and credit-study replication limits remain.
+1. Actual VIX/SKEW/DSPX/VIXEQOctober19daily rows and MOVEprimary; next owner credit/funding publication. No clock-based final grade. If VIX19publishes, promote only after every core field has its exact-date daily witness; official OVX19=50.22awaits the matching VIXfinal.
+2. October21AMSOQ/expiry: keep symbols/dates and compare matched pairs;October28FOMC;November17lagendpoint;November18expiry;December16L441.
+3. L667officialobservation legcomplete, tooling rider separate: empty-calendar durable packet output/14-daycharter clause uncertified. Correlation clock-onlySETTLE helper still needs bounded repair; native data rows now accurately labelled. No new tooling commission.
+4. HistoricalFXYIV/OI and VIXoption-chain snapshots cannot be substituted with current chains; older empirical tests are not revalidated by clean source coverage.
 
 ## CARRY-FORWARD
 
-- **REDownsFT10grade/weights/exit/outcome.** Currentarchiveagreestocontemporaneousrecord; recoveryisnotfirst-publicationvintage. FinalthroughOctober16only.
-- Path-A<20filterMETon19.99officialclose;22.31intradayfails. FilteraloneisnotfullPath-Afire;HY+63bpbelow100andcreditoriginunresolved. OriginalOctober13→November17WATCH.
-- LIQ07S2meansnoreserve-channelloopobservedwithinitsfrozenwindow;doesnotclearFridayorhiddencollateral/offshorestress.
-- Fridayrumor13:36:33ET,16minutesafter13:20peak;noverifiedfund/forcedseller/cause. WALTERminute/oiltimingisinference.
-- October14CRWV2032YTW15.83%fund-evaluationcorrectionstands;October16=15.15%isanewdatedobservation. CDSbparemodelderived,notexecutable/defaultprobability.
-- WQ410COR1Mfirst-tellRETIRED;seriescontextcontinues,no successor. WQ418PASSEDpre-CPIwindowclosed. ExistingWQ441belongsotherowners,noadditionalask.
-- Foreignworkuntouched. Durablesaved/committedpacketdoesnotprovePROMEreadorcloseoutack. Nativetransportunverified; exactGit/guardreceiptsinCLOSEOUT.
+- REDownsFT10grade/weights/exit/outcome. Four officialqualifyingbars completedOctober14; run6throughOctober16. Quote161.86October19cannotextendit. Publisher/mirror23/23integrity checked17:58ET; bounds that read only.
+- OfficialFridayVIX19.99<20passes that close filter;high22.31doesnot. 9D/futuresinversionsare not3Mcashinversion;dailyVVIX120notfired. FullPath-Acausation still unresolved, HY+63bpbelow100size. OriginalOctober13→November17WATCH.
+- LIQ07S2meansnoreserve-channelloopobservedwithinitsfrozenwindow, not absenceofallfundingstress. No new LIQUIDgrade.
+- WQ410COR1Mfirst-tellRETIRED;WQ418PASSED/closed. No new Will decision. DeckPAUSEDWQ460/HelmRETIREDWQ461; no publishing chores.
+- Foreignworkuntouched. Savedpacket/commit/pushdoesnotprovePROMEorWALTERconsumption; independent-threadnotificationunavailable. Earlier explicitcoordinatorcloseoutreceiptremaindatedhistory; this fresh Will task has its own delivery/closeout.
 
 ## OPEN HYPOTHESES
 
-Credit-leadmechanismandAI/concentrationamplificationremainhypotheses,nottwoconfirmedindependentcauses. MondaynarrowS&PbasketcoexistswithNasdaq/recentbroadening. Descriptivehistoricalbreadthstudiesare not calibratedcrashodds. RQ8PARKED. No newmonitor,threshold,researchlaunch,tradeororder.
+Credit-origin and concentration amplification remain hypotheses, not independent confirmed causes. Historical/official source recovery is not predictive skill or physical crash probability. Inherited hit/lag statistics remain unreplicated; RQ8PARKED. No permanent monitor or research-agent launch.

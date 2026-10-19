@@ -1,0 +1,788 @@
+{
+  "VIX_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.347591+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX_history.csv",
+    "sha256": "a9742d4deab98f7644bda10df92db0b6afbca17ccc8b64139c52ad2ca0963d42",
+    "last_modified": "Sat, 17 Oct 2026 01:11:02 GMT",
+    "bytes": 473839,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "OPEN": "16.020000",
+      "HIGH": "22.310000",
+      "LOW": "15.720000",
+      "CLOSE": "19.990000"
+    }
+  },
+  "VIX9D_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.348847+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX9D_history.csv",
+    "sha256": "0961b5cdf0c802bffa3714f94d18f2bcdd59e933db9b9233f33cb2d98c9b9821",
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "bytes": 201713,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "17.110000",
+      "HIGH": "18.340000",
+      "LOW": "16.500000",
+      "CLOSE": "17.930000"
+    }
+  },
+  "VIX3M_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.349602+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX3M_history.csv",
+    "sha256": "ef83c9eb0d8efbb2d6730b2a553d4fd1e601c026c3a1de6525206f0f80f6b85a",
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "bytes": 219172,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "19.410000",
+      "HIGH": "19.770000",
+      "LOW": "19.030000",
+      "CLOSE": "19.600000"
+    }
+  },
+  "VIX6M_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.350336+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX6M_history.csv",
+    "sha256": "e1045795f83778e686e81231b4b701a24d203321a70b1dfe2e98e7073c926d9f",
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "bytes": 241204,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "20.950000",
+      "HIGH": "21.770000",
+      "LOW": "20.720000",
+      "CLOSE": "21.120000"
+    }
+  },
+  "VVIX_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.351010+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VVIX_history.csv",
+    "sha256": "cfcc7ec8775bfa02d45bc23e4e4cc713ec3b5e2255defe63c610980fc330df34",
+    "last_modified": "Mon, 19 Oct 2026 21:31:08 GMT",
+    "bytes": 109131,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "VVIX": "106.930000"
+    }
+  },
+  "SKEW_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.351685+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/SKEW_history.csv",
+    "sha256": "f10ca44d9b1943cdc5d812f738145d57a23ced0ed1d1e6e0803d1fa8988b6e6f",
+    "last_modified": "Sat, 17 Oct 2026 01:11:00 GMT",
+    "bytes": 203510,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "SKEW": "168.590000"
+    }
+  },
+  "OVX_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/OVX_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.352202+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/OVX_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/OVX_history.csv",
+    "sha256": "6b4ce25b270c510e5550a87436b23e2154433ad8b5dcc517fba26e2afac44214",
+    "last_modified": "Mon, 19 Oct 2026 21:31:05 GMT",
+    "bytes": 90251,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OVX": "50.220000"
+    }
+  },
+  "COR1M_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.353027+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/COR1M_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/COR1M_history.csv",
+    "sha256": "90a648d6f2ac645e80cfab39ebe177e8e193274c3d754f18d7eefb7058fa974a",
+    "last_modified": "Mon, 19 Oct 2026 21:31:04 GMT",
+    "bytes": 265933,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "8.680000",
+      "HIGH": "9.900000",
+      "LOW": "8.290000",
+      "CLOSE": "9.680000"
+    }
+  },
+  "COR3M_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.353705+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/COR3M_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/COR3M_history.csv",
+    "sha256": "6aa67b6ed0ae81c9e4200191f105d62a9da3622b9b49f7f195dd7a2f016dd781",
+    "last_modified": "Mon, 19 Oct 2026 21:31:04 GMT",
+    "bytes": 265805,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "12.790000",
+      "HIGH": "13.820000",
+      "LOW": "12.580000",
+      "CLOSE": "13.660000"
+    }
+  },
+  "COR30D_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.354382+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/COR30D_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/COR30D_history.csv",
+    "sha256": "0d833a30adf055514b8d49ed3b793ac09807ff4b613a4d6790980fab8f24e48f",
+    "last_modified": "Mon, 19 Oct 2026 21:31:04 GMT",
+    "bytes": 265794,
+    "last_row": {
+      "DATE": "10/19/2026",
+      "OPEN": "9.690000",
+      "HIGH": "10.620000",
+      "LOW": "9.610000",
+      "CLOSE": "10.370000"
+    }
+  },
+  "DSPX_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.772763+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/DSPX_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/DSPX_history.csv",
+    "sha256": "6e139a077dade708297255a52719c315ff7e9038a4c4332fc795fdd266bac3c5",
+    "last_modified": "Sat, 17 Oct 2026 01:20:58 GMT",
+    "bytes": 65128,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "DSPX": "36.610000"
+    }
+  },
+  "VIXEQ_history": {
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "retrieved_at": "2026-10-19T21:54:12.804352+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIXEQ_History.csv",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIXEQ_history.csv",
+    "sha256": "413d3d454b5d9f5dbcbaec0a21a7f6856823b50836262af68f5ea3a91fc90821",
+    "last_modified": "Sat, 17 Oct 2026 01:11:02 GMT",
+    "bytes": 65132,
+    "last_row": {
+      "DATE": "10/16/2026",
+      "VIXEQ": "41.710000"
+    }
+  },
+  "VIX_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX.json",
+    "retrieved_at": "2026-10-19T21:54:12.818194+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX_quote.json",
+    "sha256": "74e8deaa69689df6d629f7842569b14f407984446754e02e65f34db1b3659b13",
+    "last_modified": "Mon, 19 Oct 2026 21:53:50 GMT",
+    "bytes": 498,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^VIX",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 18.44,
+        "price_change": -1.55,
+        "price_change_percent": -7.7539,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 18.1,
+        "high": 18.64,
+        "low": 17.39,
+        "close": 18.44,
+        "prev_day_close": 19.99,
+        "volume": 0,
+        "iv30": 91.963,
+        "iv30_change": 0.0,
+        "iv30_change_percent": 0.0,
+        "seqno": 8706392505,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "up"
+      },
+      "symbol": "_VIX"
+    }
+  },
+  "VIX9D_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX9D.json",
+    "retrieved_at": "2026-10-19T21:54:12.829141+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX9D.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX9D_quote.json",
+    "sha256": "2a88171e5cbe8e9150f35993fff63c7f1f40fd5286e55acfcfc897baffb75536",
+    "last_modified": "Mon, 19 Oct 2026 21:53:50 GMT",
+    "bytes": 501,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^VIX9D",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 17.93,
+        "price_change": -2.19,
+        "price_change_percent": -10.8847,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 17.11,
+        "high": 18.34,
+        "low": 16.5,
+        "close": 17.93,
+        "prev_day_close": 20.12,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8706384567,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "up"
+      },
+      "symbol": "_VIX9D"
+    }
+  },
+  "VIX3M_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX3M.json",
+    "retrieved_at": "2026-10-19T21:54:12.845247+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX3M.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX3M_quote.json",
+    "sha256": "e1f361267f5d4b883d96826d3a19ae21b5003fe6d38e588aedc23bbea72006e5",
+    "last_modified": "Mon, 19 Oct 2026 21:53:50 GMT",
+    "bytes": 497,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^VIX3M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 19.6,
+        "price_change": -0.9,
+        "price_change_percent": -4.3902,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 19.41,
+        "high": 19.77,
+        "low": 19.03,
+        "close": 19.6,
+        "prev_day_close": 20.5,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8706384558,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "up"
+      },
+      "symbol": "_VIX3M"
+    }
+  },
+  "VIX6M_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX6M.json",
+    "retrieved_at": "2026-10-19T21:54:12.854500+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIX6M.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIX6M_quote.json",
+    "sha256": "070189a25d2880176fd410cad1406d607cda20889518ea1fa890421b0ece0dd8",
+    "last_modified": "Mon, 19 Oct 2026 21:53:50 GMT",
+    "bytes": 503,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^VIX6M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 21.12,
+        "price_change": -0.55,
+        "price_change_percent": -2.5381,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 20.95,
+        "high": 21.77,
+        "low": 20.72,
+        "close": 21.12,
+        "prev_day_close": 21.67,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8706390010,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "down"
+      },
+      "symbol": "_VIX6M"
+    }
+  },
+  "VVIX_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VVIX.json",
+    "retrieved_at": "2026-10-19T21:54:12.878493+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VVIX.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VVIX_quote.json",
+    "sha256": "20cc1d409cbe12e2473e405488bb2be9846f51f038da79a353bfd8d920f6c366",
+    "last_modified": "Mon, 19 Oct 2026 21:53:50 GMT",
+    "bytes": 506,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^VVIX",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 106.93,
+        "price_change": -2.98,
+        "price_change_percent": -2.7113,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 103.29,
+        "high": 107.21,
+        "low": 99.17,
+        "close": 106.93,
+        "prev_day_close": 109.91,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8706384555,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "down"
+      },
+      "symbol": "_VVIX"
+    }
+  },
+  "SKEW_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_SKEW.json",
+    "retrieved_at": "2026-10-19T21:54:12.880195+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_SKEW.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/SKEW_quote.json",
+    "sha256": "e6719e73503c7ec3085a10b36b63904edb7cff2f4e3404bfb0be2720ddcd10ac",
+    "last_modified": "Mon, 19 Oct 2026 21:53:48 GMT",
+    "bytes": 507,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^SKEW",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 161.86,
+        "price_change": -6.73,
+        "price_change_percent": -3.9919,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 161.86,
+        "high": 161.86,
+        "low": 161.86,
+        "close": 161.86,
+        "prev_day_close": 168.59,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8736516299,
+        "last_trade_time": "2026-10-19T17:00:20",
+        "tick": "down"
+      },
+      "symbol": "_SKEW"
+    }
+  },
+  "OVX_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_OVX.json",
+    "retrieved_at": "2026-10-19T21:54:12.890056+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_OVX.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/OVX_quote.json",
+    "sha256": "fcb6410d1fa1b2c9dc2f1e064c96c03d358a060027c47d883af0ff032dae8878",
+    "last_modified": "Mon, 19 Oct 2026 21:50:28 GMT",
+    "bytes": 513,
+    "quote": {
+      "timestamp": "2026-10-19 21:50:18",
+      "data": {
+        "high": 52.89,
+        "exchange_id": 115,
+        "current_price": 50.22,
+        "close": 50.22,
+        "iv30_change_percent": 0,
+        "prev_day_close": 50.22,
+        "open": 52.89,
+        "security_type": "index",
+        "low": 49.89,
+        "ask_size": 0,
+        "symbol": "^OVX",
+        "index": "OVX",
+        "bid_size": 0,
+        "iv30_change": 0.0,
+        "iv30": 0.0,
+        "seqno": 150201,
+        "bid": 0.0,
+        "volume": 0,
+        "ask": 0.0,
+        "tick": "",
+        "price_change_percent": 0.0,
+        "price_change": 0.0,
+        "last_trade_time": "2026-10-19T15:02:01.160000-05:00"
+      },
+      "symbol": "_OVX"
+    }
+  },
+  "COR1M_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_COR1M.json",
+    "retrieved_at": "2026-10-19T21:54:12.911004+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_COR1M.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/COR1M_quote.json",
+    "sha256": "9f15cd10b6013d5a7b089b0f23691e8be49d6260a696e95a12d2905afcc619c8",
+    "last_modified": "Mon, 19 Oct 2026 21:53:46 GMT",
+    "bytes": 495,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^COR1M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 9.68,
+        "price_change": -0.39,
+        "price_change_percent": -3.8729,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 8.68,
+        "high": 9.9,
+        "low": 8.29,
+        "close": 9.68,
+        "prev_day_close": 10.07,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8706389985,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "up"
+      },
+      "symbol": "_COR1M"
+    }
+  },
+  "COR3M_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_COR3M.json",
+    "retrieved_at": "2026-10-19T21:54:13.126861+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_COR3M.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/COR3M_quote.json",
+    "sha256": "2661f1adbd6489c5f45b49e78e113bbd58583dedf3914fcd0fafc9dfccfb8320",
+    "last_modified": "Mon, 19 Oct 2026 21:53:46 GMT",
+    "bytes": 500,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^COR3M",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 13.66,
+        "price_change": -0.32,
+        "price_change_percent": -2.289,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 12.79,
+        "high": 13.82,
+        "low": 12.58,
+        "close": 13.66,
+        "prev_day_close": 13.98,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8706390005,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "up"
+      },
+      "symbol": "_COR3M"
+    }
+  },
+  "COR30D_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_COR30D.json",
+    "retrieved_at": "2026-10-19T21:54:13.130043+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_COR30D.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/COR30D_quote.json",
+    "sha256": "464830664f1a1cff205bed6b552f60c3091b63d395f511c2784ab14b0580da68",
+    "last_modified": "Mon, 19 Oct 2026 21:53:46 GMT",
+    "bytes": 500,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^COR30D",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 10.37,
+        "price_change": 0.06,
+        "price_change_percent": 0.582,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 9.69,
+        "high": 10.62,
+        "low": 9.61,
+        "close": 10.37,
+        "prev_day_close": 10.31,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8706389996,
+        "last_trade_time": "2026-10-19T16:15:01",
+        "tick": "down"
+      },
+      "symbol": "_COR30D"
+    }
+  },
+  "DSPX_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_DSPX.json",
+    "retrieved_at": "2026-10-19T21:54:13.183163+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_DSPX.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/DSPX_quote.json",
+    "sha256": "200f1ec234e111832d0b1134f8e9333f36c3b76eb6f09e76f4bfbe7830bd1324",
+    "last_modified": "Mon, 19 Oct 2026 21:53:46 GMT",
+    "bytes": 497,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^DSPX",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 36.5,
+        "price_change": -0.11,
+        "price_change_percent": -0.3005,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 37.98,
+        "high": 38.02,
+        "low": 36.47,
+        "close": 36.5,
+        "prev_day_close": 36.61,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8664088349,
+        "last_trade_time": "2026-10-19T16:02:02",
+        "tick": "up"
+      },
+      "symbol": "_DSPX"
+    }
+  },
+  "VIXEQ_quote": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIXEQ.json",
+    "retrieved_at": "2026-10-19T21:54:13.208469+00:00",
+    "http": 200,
+    "final_url": "https://cdn-api.cboe.com/api/global/delayed_quotes/quotes/_VIXEQ.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VIXEQ_quote.json",
+    "sha256": "4a0e16cbc18bf963a1c3c0511f995ac2314c3326ccab35da1cf7bc6dd3d0d9b3",
+    "last_modified": "Mon, 19 Oct 2026 21:53:50 GMT",
+    "bytes": 499,
+    "quote": {
+      "timestamp": "2026-10-19 21:53:43",
+      "data": {
+        "symbol": "^VIXEQ",
+        "security_type": "index",
+        "exchange_id": 5,
+        "current_price": 40.92,
+        "price_change": -0.79,
+        "price_change_percent": -1.894,
+        "bid": 0.0,
+        "ask": 0.0,
+        "bid_size": 0,
+        "ask_size": 0,
+        "open": 42.6,
+        "high": 42.65,
+        "low": 40.88,
+        "close": 40.92,
+        "prev_day_close": 41.71,
+        "volume": 0,
+        "iv30": 0.0,
+        "iv30_change": 0.0,
+        "iv30_change_percent": null,
+        "seqno": 8664088348,
+        "last_trade_time": "2026-10-19T16:02:02",
+        "tick": "up"
+      },
+      "symbol": "_VIXEQ"
+    }
+  },
+  "FRED_BAMLH0A0HYM2": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.349631+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_BAMLH0A3HYC": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A3HYC&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.359636+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_BAMLC0A0CM": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.362203+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_BAMLC0A4CBBB": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A4CBBB&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.394231+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_BAMLH0A1HYBB": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A1HYBB&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.405816+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_BAMLH0A2HYB": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A2HYB&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.542636+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_DGS10": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.559160+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_DGS2": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.680913+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_DFII10": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.697737+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_IORB": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IORB&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:13.731476+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_SOFR": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:38.461528+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "FRED_VIXCLS": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2026-09-01&coed=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:38.474867+00:00",
+    "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "SOFR_primary": {
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+    "retrieved_at": "2026-10-19T21:54:38.506606+00:00",
+    "http": 200,
+    "final_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/SOFR_primary.json",
+    "sha256": "a38718faea765ad056a81ff0cd70c958812e8f215362f3e896500e8bfb71a4cd",
+    "last_modified": null,
+    "bytes": 1208
+  },
+  "CFTC_weekly": {
+    "url": "https://www.cftc.gov/dea/newcot/FinFutWk.txt",
+    "retrieved_at": "2026-10-19T21:54:38.518886+00:00",
+    "http": 200,
+    "final_url": "https://www.cftc.gov/dea/newcot/FinFutWk.txt",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/CFTC_weekly.txt",
+    "sha256": "0ff3b1fb0fdb40d8b53f943a3b0d5cd3e7a8680fa8e17119661ff256a7f2b985",
+    "last_modified": "Mon, 19 Oct 2026 13:56:27 GMT",
+    "bytes": 73446
+  },
+  "CFTC_annual": {
+    "url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
+    "retrieved_at": "2026-10-19T21:54:38.526923+00:00",
+    "http": 200,
+    "final_url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/CFTC_annual.zip",
+    "sha256": "6722fc377087c9380d7504345ac7145a891185ea7d57c9ad3f184b29da43aa57",
+    "last_modified": "Mon, 19 Oct 2026 13:56:44 GMT",
+    "bytes": 578812
+  },
+  "MOVE_primary": {
+    "url": "https://www.investing.com/indices/ice-bofaml-move-historical-data",
+    "retrieved_at": "2026-10-19T21:54:38.658833+00:00",
+    "http": 403,
+    "final_url": "https://www.investing.com/indices/ice-bofaml-move-historical-data",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/MOVE_primary.html",
+    "sha256": "d26eae87829adde551bf4b852f9da6b8c3c2db9b65b8b68870632a2db5f53e00",
+    "last_modified": null,
+    "bytes": 3
+  },
+  "VX_2026-10-14": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-14",
+    "retrieved_at": "2026-10-19T21:54:38.659875+00:00",
+    "http": 200,
+    "final_url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-14",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-14.csv",
+    "sha256": "520f0b05784aa63b0432a2bb28f1fe33922244255da6e298d6bd8d7a0d2b8e4d",
+    "last_modified": "Mon, 19 Oct 2026 21:54:39 GMT",
+    "bytes": 1728
+  },
+  "VX_2026-10-15": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-15",
+    "retrieved_at": "2026-10-19T21:54:38.675603+00:00",
+    "http": 200,
+    "final_url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-15",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-15.csv",
+    "sha256": "f426c41135af0e04ce2cf3e4c7f7e2acaee9ca6dda77dff578b9e6f09a541bee",
+    "last_modified": "Mon, 19 Oct 2026 21:54:38 GMT",
+    "bytes": 1749
+  },
+  "VX_2026-10-16": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-16",
+    "retrieved_at": "2026-10-19T21:54:38.705758+00:00",
+    "http": 200,
+    "final_url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-16",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-16.csv",
+    "sha256": "2715f48481217cf790af273da85287d051dab10c37fe3f524c301f15f8d19927",
+    "last_modified": "Mon, 19 Oct 2026 21:54:39 GMT",
+    "bytes": 1767
+  },
+  "VX_2026-10-19": {
+    "url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-19",
+    "retrieved_at": "2026-10-19T21:54:38.745553+00:00",
+    "http": 200,
+    "final_url": "https://www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=2026-10-19",
+    "path": "AGENTS/VIOLET/research/2026-10-19_live-sweep/sources/VX_2026-10-19.csv",
+    "sha256": "90440f66e1b6a8cc6440460ded744aad3ab4acbab314e850c9d0943c15dba8f2",
+    "last_modified": "Mon, 19 Oct 2026 21:54:38 GMT",
+    "bytes": 1733
+  }
+}

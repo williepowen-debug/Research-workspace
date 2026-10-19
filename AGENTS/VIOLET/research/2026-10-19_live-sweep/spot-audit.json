@@ -1,0 +1,840 @@
+[
+  {
+    "date": "2026-09-22",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 14.21,
+    "prior_ledger_value": "14.21"
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 12.13,
+    "prior_ledger_value": "12.13"
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 17.61,
+    "prior_ledger_value": "17.61"
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 19.79,
+    "prior_ledger_value": "19.79"
+  },
+  {
+    "date": "2026-09-22",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 83.17,
+    "prior_ledger_value": "83.17"
+  },
+  {
+    "date": "2026-09-22",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 144.8,
+    "prior_ledger_value": "144.8"
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.18,
+    "prior_ledger_value": "15.18"
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 13.45,
+    "prior_ledger_value": "13.45"
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.11,
+    "prior_ledger_value": "18.11"
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.11,
+    "prior_ledger_value": "20.11"
+  },
+  {
+    "date": "2026-09-23",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 88.6,
+    "prior_ledger_value": "88.6"
+  },
+  {
+    "date": "2026-09-23",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 146.15,
+    "prior_ledger_value": "146.15"
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.67,
+    "prior_ledger_value": "15.67"
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 14.11,
+    "prior_ledger_value": "14.11"
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.43,
+    "prior_ledger_value": "18.43"
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.35,
+    "prior_ledger_value": "20.35"
+  },
+  {
+    "date": "2026-09-24",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 90.57,
+    "prior_ledger_value": "90.57"
+  },
+  {
+    "date": "2026-09-24",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 146.04,
+    "prior_ledger_value": "146.04"
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 14.87,
+    "prior_ledger_value": "14.87"
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 12.76,
+    "prior_ledger_value": "12.76"
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 17.93,
+    "prior_ledger_value": "17.93"
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.01,
+    "prior_ledger_value": "20.01"
+  },
+  {
+    "date": "2026-09-25",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 87.84,
+    "prior_ledger_value": "87.84"
+  },
+  {
+    "date": "2026-09-25",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 144.91,
+    "prior_ledger_value": "144.91"
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 16.07,
+    "prior_ledger_value": "16.07"
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 14.39,
+    "prior_ledger_value": "14.39"
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.23,
+    "prior_ledger_value": "18.23"
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.25,
+    "prior_ledger_value": "20.25"
+  },
+  {
+    "date": "2026-09-28",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 91.02,
+    "prior_ledger_value": "91.02"
+  },
+  {
+    "date": "2026-09-28",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 146.25,
+    "prior_ledger_value": "146.25"
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 16.04,
+    "prior_ledger_value": "16.04"
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 14.21,
+    "prior_ledger_value": "14.21"
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.09,
+    "prior_ledger_value": "18.09"
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.2,
+    "prior_ledger_value": "20.2"
+  },
+  {
+    "date": "2026-09-29",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 89.71,
+    "prior_ledger_value": "89.71"
+  },
+  {
+    "date": "2026-09-29",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 144.58,
+    "prior_ledger_value": "144.58"
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 16.34,
+    "prior_ledger_value": "16.34"
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 14.2,
+    "prior_ledger_value": "14.2"
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.37,
+    "prior_ledger_value": "18.37"
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.35,
+    "prior_ledger_value": "20.35"
+  },
+  {
+    "date": "2026-09-30",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 89.48,
+    "prior_ledger_value": "89.48"
+  },
+  {
+    "date": "2026-09-30",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 141.92,
+    "prior_ledger_value": "141.92"
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 16.39,
+    "prior_ledger_value": "16.39"
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 14.0,
+    "prior_ledger_value": "14.0"
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.58,
+    "prior_ledger_value": "18.58"
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.52,
+    "prior_ledger_value": "20.52"
+  },
+  {
+    "date": "2026-10-01",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 92.01,
+    "prior_ledger_value": "92.01"
+  },
+  {
+    "date": "2026-10-01",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 142.77,
+    "prior_ledger_value": "142.77"
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.31,
+    "prior_ledger_value": "15.31"
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 12.06,
+    "prior_ledger_value": "12.06"
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.01,
+    "prior_ledger_value": "18.01"
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.15,
+    "prior_ledger_value": "20.15"
+  },
+  {
+    "date": "2026-10-02",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 87.02,
+    "prior_ledger_value": "87.02"
+  },
+  {
+    "date": "2026-10-02",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 144.88,
+    "prior_ledger_value": "144.88"
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.52,
+    "prior_ledger_value": "15.52"
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 12.85,
+    "prior_ledger_value": "12.85"
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.0,
+    "prior_ledger_value": "18.0"
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.07,
+    "prior_ledger_value": "20.07"
+  },
+  {
+    "date": "2026-10-05",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 85.46,
+    "prior_ledger_value": "85.46"
+  },
+  {
+    "date": "2026-10-05",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 143.04,
+    "prior_ledger_value": "143.04"
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.01,
+    "prior_ledger_value": "15.01"
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 12.03,
+    "prior_ledger_value": "12.03"
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 17.64,
+    "prior_ledger_value": "17.64"
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 19.84,
+    "prior_ledger_value": "19.84"
+  },
+  {
+    "date": "2026-10-06",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 82.59,
+    "prior_ledger_value": "82.59"
+  },
+  {
+    "date": "2026-10-06",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 141.21,
+    "prior_ledger_value": "141.21"
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.08,
+    "prior_ledger_value": "15.08"
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 11.78,
+    "prior_ledger_value": "11.78"
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 17.72,
+    "prior_ledger_value": "17.72"
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 19.86,
+    "prior_ledger_value": "19.86"
+  },
+  {
+    "date": "2026-10-07",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 83.18,
+    "prior_ledger_value": "83.18"
+  },
+  {
+    "date": "2026-10-07",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 141.84,
+    "prior_ledger_value": "141.84"
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.41,
+    "prior_ledger_value": "15.41"
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 12.21,
+    "prior_ledger_value": "12.21"
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.08,
+    "prior_ledger_value": "18.08"
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.04,
+    "prior_ledger_value": "20.04"
+  },
+  {
+    "date": "2026-10-08",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 87.66,
+    "prior_ledger_value": "87.66"
+  },
+  {
+    "date": "2026-10-08",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 149.19,
+    "prior_ledger_value": "149.19"
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 14.84,
+    "prior_ledger_value": "14.84"
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 11.26,
+    "prior_ledger_value": "11.26"
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 17.77,
+    "prior_ledger_value": "17.77"
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 19.86,
+    "prior_ledger_value": "19.86"
+  },
+  {
+    "date": "2026-10-09",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 84.88,
+    "prior_ledger_value": "84.88"
+  },
+  {
+    "date": "2026-10-09",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 154.34,
+    "prior_ledger_value": "154.34"
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.21,
+    "prior_ledger_value": "15.21"
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 11.68,
+    "prior_ledger_value": "11.68"
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 17.93,
+    "prior_ledger_value": "17.93"
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 19.95,
+    "prior_ledger_value": "19.95"
+  },
+  {
+    "date": "2026-10-12",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 85.93,
+    "prior_ledger_value": "85.93"
+  },
+  {
+    "date": "2026-10-12",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 155.06,
+    "prior_ledger_value": "155.06"
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 15.27,
+    "prior_ledger_value": "15.27"
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 11.99,
+    "prior_ledger_value": "11.99"
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 17.96,
+    "prior_ledger_value": "17.96"
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 19.92,
+    "prior_ledger_value": "19.92"
+  },
+  {
+    "date": "2026-10-13",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 85.38,
+    "prior_ledger_value": "85.38"
+  },
+  {
+    "date": "2026-10-13",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 154.74,
+    "prior_ledger_value": "154.74"
+  },
+  {
+    "date": "2026-10-14",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 16.87,
+    "prior_ledger_value": "16.87"
+  },
+  {
+    "date": "2026-10-14",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 14.59,
+    "prior_ledger_value": "14.59"
+  },
+  {
+    "date": "2026-10-14",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.79,
+    "prior_ledger_value": "18.79"
+  },
+  {
+    "date": "2026-10-14",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.49,
+    "prior_ledger_value": "20.49"
+  },
+  {
+    "date": "2026-10-14",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 94.45,
+    "prior_ledger_value": "94.45"
+  },
+  {
+    "date": "2026-10-14",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 157.3,
+    "prior_ledger_value": "157.3"
+  },
+  {
+    "date": "2026-10-15",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 16.46,
+    "prior_ledger_value": "16.46"
+  },
+  {
+    "date": "2026-10-15",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 13.97,
+    "prior_ledger_value": "13.97"
+  },
+  {
+    "date": "2026-10-15",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 18.49,
+    "prior_ledger_value": "18.49"
+  },
+  {
+    "date": "2026-10-15",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 20.24,
+    "prior_ledger_value": "20.24"
+  },
+  {
+    "date": "2026-10-15",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 92.57,
+    "prior_ledger_value": "92.57"
+  },
+  {
+    "date": "2026-10-15",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 160.45,
+    "prior_ledger_value": "160.45"
+  },
+  {
+    "date": "2026-10-16",
+    "series": "VIX",
+    "state": "MATCH",
+    "publisher_value": 19.99,
+    "prior_ledger_value": "19.99"
+  },
+  {
+    "date": "2026-10-16",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 20.12,
+    "prior_ledger_value": "20.12"
+  },
+  {
+    "date": "2026-10-16",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 20.5,
+    "prior_ledger_value": "20.5"
+  },
+  {
+    "date": "2026-10-16",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 21.67,
+    "prior_ledger_value": "21.67"
+  },
+  {
+    "date": "2026-10-16",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 109.91,
+    "prior_ledger_value": "109.91"
+  },
+  {
+    "date": "2026-10-16",
+    "series": "SKEW",
+    "state": "MATCH",
+    "publisher_value": 168.59,
+    "prior_ledger_value": "168.59"
+  },
+  {
+    "date": "2026-10-19",
+    "series": "VIX",
+    "state": "NOT_PUBLISHED",
+    "ledger_value": "18.44"
+  },
+  {
+    "date": "2026-10-19",
+    "series": "VIX9D",
+    "state": "MATCH",
+    "publisher_value": 17.93,
+    "prior_ledger_value": "17.93"
+  },
+  {
+    "date": "2026-10-19",
+    "series": "VIX3M",
+    "state": "MATCH",
+    "publisher_value": 19.6,
+    "prior_ledger_value": "19.6"
+  },
+  {
+    "date": "2026-10-19",
+    "series": "VIX6M",
+    "state": "MATCH",
+    "publisher_value": 21.12,
+    "prior_ledger_value": "21.12"
+  },
+  {
+    "date": "2026-10-19",
+    "series": "VVIX",
+    "state": "MATCH",
+    "publisher_value": 106.93,
+    "prior_ledger_value": "106.93"
+  },
+  {
+    "date": "2026-10-19",
+    "series": "SKEW",
+    "state": "NOT_PUBLISHED",
+    "ledger_value": "161.86"
+  }
+]
