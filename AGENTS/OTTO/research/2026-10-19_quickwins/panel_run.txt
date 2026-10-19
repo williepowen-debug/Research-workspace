@@ -1,0 +1,20 @@
+
+========================================================================================================
+  OTTO 10-D Performance Panel — 2026-10-19T12:14:12   (1 filing(s)/deal)
+  FIXED PANEL of named deals — NOT an index. Tiers stay separate by design.
+========================================================================================================
+  EART 2022-2    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  53  60+DQ  15.22  CNL  27.07  ANL  20.00  REC  25.17  EXT   4.49
+  EART 2022-3    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  51  60+DQ  14.46  CNL  28.40  ANL  20.20  REC  24.58  EXT   4.73
+  EART 2023-1    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  43  60+DQ  12.32  CNL  23.17  ANL  19.18  REC  24.79  EXT   5.29
+  EART 2024-1    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  32  60+DQ  10.89  CNL  18.36  ANL  17.52  REC  29.78  EXT   5.44
+  SDART 2022-6   BROAD 2026-10-15  CP 2026-09-01/2026-09-30  MS  49  60+DQ  11.24  CNL  12.31  ANL   7.93  REC    n/d  EXT    n/d
+  SDART 2023-1   BROAD 2026-10-15  CP 2026-09-01/2026-09-30  MS  45  60+DQ  10.10  CNL  10.40  ANL  11.37  REC    n/d  EXT    n/d
+  SDART 2024-1   BROAD 2026-10-15  CP 2026-09-01/2026-09-30  MS  33  60+DQ  10.04  CNL   9.81  ANL   8.20  REC    n/d  EXT    n/d
+  BLAST 2024-1   CARVANA 2026-10-15  CP 2026-09-01/2026-09-30  MS  33  60+DQ  16.67  CNL  26.73  ANL  24.83  REC    n/d  EXT   4.72
+  BLAST 2023-1   CARVANA 2026-10-15  CP 2026-09-01/2026-09-30  MS  36  60+DQ  16.15  CNL  26.94  ANL  21.61  REC    n/d  EXT   4.28
+
+  POSITIVE CONTROL — re-parse frozen exhibit: EART 2022-3 cnl_pct must equal 27.58 (10-D filed 2026-06-30 (frozen exhibit)): PASS ✓
+  SEASONING CONTROL — 11 frozen exhibits, >=3 per shelf, both Exeter double-filing dates: PASS ✓
+
+  PANEL_10D.tsv: 5 new row(s), 4 replaced, 0 kept (an older or INVALID read never overwrites a newer good row), 152 total (upsert on deal+collection_period); seasoning check PASS
+

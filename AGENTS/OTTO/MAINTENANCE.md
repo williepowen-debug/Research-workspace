@@ -14,6 +14,10 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-10-19 (s031) — approved lessons rebuild, memory cleanup, calendar retirement and STATUS headroom
+
+**Trigger:** Will10/19 approved the four follow-ups recommended after L708; lessons rebuild was already approved10/14. **Changed:** LESSONS becomes a Mistake → Rule → evidence table based on OTTO's own cases, new boot3a and ownership row (CLAUDEv3.0); old LESSONS/MEMORY archived byte-identically. MEMORY now carries navigation/current continuity rather than duplicated lessons and contradictory historical claims. STATUS superseded blocks rotated verbatim with SHA256 receipts into cold§16, target below70% of budget; no budget change. Thirteen settled calendar rows retired (including a future WINTERKORN task already completed10/14); exact rows and disposition index preserved. All remaining calendar events mirrored, including dates the prior hot timeline omitted. **Files:** LESSONS,CLAUDE,MEMORY,STATUS/STATUS_COLD,docket TSVs,punchlist, research quickwins receipts. **Boot-impact:** LESSONS is now explicitly read; next checks remain visible, settled work no longer reawakens. **Lessons:** receipt consumption differs from file creation; an old label can manufacture work inside an otherwise-live container. No new research system or threshold installed. Data/forecast changes → thesis/CHANGELOG.
+
 ## 2026-10-19 (s030) — label the BLAST seasoning basis at the ledger
 
 **Trigger:** CARL's October 14/15 ruling (a) retains computed BLAST labels only if readers see the basis. **Changed:** added `workbook/PANEL_10D_SCHEMA.md`: BLAST is computed from two exhibit dates, not issuer-printed; EART/SDART retain issuer-printed labels. **Files:** schema only; parser and values unchanged. **Boot-impact:** no new boot step; schema travels with the ledger. **Lesson:** independent value verification does not prove every parser branch. L708 research package is this session's bounded output, not a new monitoring system.

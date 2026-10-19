@@ -1,0 +1,320 @@
+{
+  "new_rows": [
+    {
+      "deal": "SDART 2022-6",
+      "tier": "BROAD",
+      "period": "2026-09",
+      "dq": "11.24",
+      "dq_aug": "11.01",
+      "dq_prior_sep": "10.56",
+      "dq_mom_pp": "0.23",
+      "dq_yoy_pp": "0.68",
+      "ext": "",
+      "ext_aug": "",
+      "ext_prior_sep": "",
+      "ext_mom_pp": null,
+      "ext_yoy_pp": null,
+      "current_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421880/d166528dex991.htm",
+      "prior_sep_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239273/d46366dex991.htm"
+    },
+    {
+      "deal": "SDART 2023-1",
+      "tier": "BROAD",
+      "period": "2026-09",
+      "dq": "10.1",
+      "dq_aug": "10.09",
+      "dq_prior_sep": "9.81",
+      "dq_mom_pp": "0.01",
+      "dq_yoy_pp": "0.29",
+      "ext": "",
+      "ext_aug": "",
+      "ext_prior_sep": "",
+      "ext_mom_pp": null,
+      "ext_yoy_pp": null,
+      "current_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421907/d188159dex991.htm",
+      "prior_sep_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239286/d71245dex991.htm"
+    },
+    {
+      "deal": "SDART 2024-1",
+      "tier": "BROAD",
+      "period": "2026-09",
+      "dq": "10.04",
+      "dq_aug": "9.9",
+      "dq_prior_sep": "8.89",
+      "dq_mom_pp": "0.14",
+      "dq_yoy_pp": "1.15",
+      "ext": "",
+      "ext_aug": "",
+      "ext_prior_sep": "",
+      "ext_mom_pp": null,
+      "ext_yoy_pp": null,
+      "current_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421940/d183408dex991.htm",
+      "prior_sep_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239308/d67309dex991.htm"
+    },
+    {
+      "deal": "BLAST 2024-1",
+      "tier": "CARVANA",
+      "period": "2026-09",
+      "dq": "16.67",
+      "dq_aug": "16.48",
+      "dq_prior_sep": "14.22",
+      "dq_mom_pp": "0.19",
+      "dq_yoy_pp": "2.45",
+      "ext": "4.72",
+      "ext_aug": "5.11",
+      "ext_prior_sep": "4.8",
+      "ext_mom_pp": "-0.39",
+      "ext_yoy_pp": "-0.08",
+      "current_url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116044/tm2627320d2_ex99-1.htm",
+      "prior_sep_url": "https://www.sec.gov/Archives/edgar/data/2006743/000110465925099589/tm2528572d1_ex99-1.htm"
+    },
+    {
+      "deal": "BLAST 2023-1",
+      "tier": "CARVANA",
+      "period": "2026-09",
+      "dq": "16.15",
+      "dq_aug": "15.82",
+      "dq_prior_sep": "13.45",
+      "dq_mom_pp": "0.33",
+      "dq_yoy_pp": "2.70",
+      "ext": "4.28",
+      "ext_aug": "5.0",
+      "ext_prior_sep": "4.32",
+      "ext_mom_pp": "-0.72",
+      "ext_yoy_pp": "-0.04",
+      "current_url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116030/tm2627320d1_ex99-1.htm",
+      "prior_sep_url": "https://www.sec.gov/Archives/edgar/data/1993328/000110465925099585/tm2528567d1_ex99-1.htm"
+    }
+  ],
+  "september_yoy_tier_means": {
+    "BROAD": "0.7066666666666666666666666667",
+    "CARVANA": "2.575"
+  },
+  "available_matched_months": [
+    [
+      "SDART 2022-6",
+      "2026-05",
+      "2.08"
+    ],
+    [
+      "SDART 2022-6",
+      "2026-06",
+      "1.69"
+    ],
+    [
+      "SDART 2023-1",
+      "2026-05",
+      "1.35"
+    ],
+    [
+      "SDART 2023-1",
+      "2026-06",
+      "1.24"
+    ],
+    [
+      "SDART 2024-1",
+      "2026-05",
+      "2.33"
+    ],
+    [
+      "SDART 2024-1",
+      "2026-06",
+      "1.95"
+    ],
+    [
+      "BLAST 2023-1",
+      "2026-05",
+      "1.38"
+    ],
+    [
+      "BLAST 2023-1",
+      "2026-06",
+      "2.62"
+    ],
+    [
+      "BLAST 2024-1",
+      "2026-05",
+      "1.86"
+    ],
+    [
+      "BLAST 2024-1",
+      "2026-06",
+      "2.74"
+    ],
+    [
+      "EART 2022-2",
+      "2026-04",
+      "2.45"
+    ],
+    [
+      "EART 2022-2",
+      "2026-05",
+      "3.00"
+    ],
+    [
+      "EART 2022-3",
+      "2026-04",
+      "1.50"
+    ],
+    [
+      "EART 2022-3",
+      "2026-05",
+      "2.03"
+    ],
+    [
+      "EART 2023-1",
+      "2026-05",
+      "2.02"
+    ],
+    [
+      "EART 2024-1",
+      "2026-04",
+      "1.59"
+    ],
+    [
+      "EART 2024-1",
+      "2026-05",
+      "2.11"
+    ],
+    [
+      "EART 2022-2",
+      "2026-06",
+      "2.12"
+    ],
+    [
+      "EART 2022-3",
+      "2026-06",
+      "1.76"
+    ],
+    [
+      "EART 2023-1",
+      "2026-06",
+      "1.56"
+    ],
+    [
+      "EART 2024-1",
+      "2026-06",
+      "1.98"
+    ],
+    [
+      "SDART 2022-6",
+      "2026-07",
+      "0.80"
+    ],
+    [
+      "SDART 2023-1",
+      "2026-07",
+      "0.74"
+    ],
+    [
+      "SDART 2024-1",
+      "2026-07",
+      "1.45"
+    ],
+    [
+      "BLAST 2024-1",
+      "2026-07",
+      "1.58"
+    ],
+    [
+      "BLAST 2023-1",
+      "2026-07",
+      "1.89"
+    ],
+    [
+      "EART 2022-2",
+      "2026-07",
+      "1.31"
+    ],
+    [
+      "EART 2022-3",
+      "2026-07",
+      "0.74"
+    ],
+    [
+      "EART 2023-1",
+      "2026-07",
+      "1.47"
+    ],
+    [
+      "EART 2024-1",
+      "2026-07",
+      "1.33"
+    ],
+    [
+      "EART 2022-2",
+      "2026-08",
+      "1.87"
+    ],
+    [
+      "EART 2022-3",
+      "2026-08",
+      "1.19"
+    ],
+    [
+      "EART 2023-1",
+      "2026-08",
+      "0.93"
+    ],
+    [
+      "EART 2024-1",
+      "2026-08",
+      "1.20"
+    ],
+    [
+      "SDART 2022-6",
+      "2026-08",
+      "1.03"
+    ],
+    [
+      "SDART 2023-1",
+      "2026-08",
+      "0.72"
+    ],
+    [
+      "SDART 2024-1",
+      "2026-08",
+      "1.51"
+    ],
+    [
+      "BLAST 2024-1",
+      "2026-08",
+      "3.05"
+    ],
+    [
+      "BLAST 2023-1",
+      "2026-08",
+      "3.29"
+    ],
+    [
+      "SDART 2022-6",
+      "2026-09",
+      "0.68"
+    ],
+    [
+      "SDART 2023-1",
+      "2026-09",
+      "0.29"
+    ],
+    [
+      "SDART 2024-1",
+      "2026-09",
+      "1.15"
+    ],
+    [
+      "BLAST 2024-1",
+      "2026-09",
+      "2.45"
+    ],
+    [
+      "BLAST 2023-1",
+      "2026-09",
+      "2.70"
+    ]
+  ],
+  "worse_count": 44,
+  "total": 44,
+  "source_checks": 15,
+  "turn": false,
+  "coverage": "September 5/9; Exeter 4/9 remains August, not September"
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "name": "SDART_2022-6-2025-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239273/d46366dex991.htm",
+    "sha256": "2a7799b697016409de28ad097618ab87d41a7642675473c0e6b0aa8c6d0b750f",
+    "filing_date": "2025-10-15",
+    "collection_period": "2025-09-01/2025-09-30",
+    "clock": 37,
+    "dq": "10.56",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2022-6-2026-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526390863/d146063dex991.htm",
+    "sha256": "9a77d4ee076737641558eb047688ecd1ce40185e37afdd2d048f5ff013c5ca98",
+    "filing_date": "2026-09-15",
+    "collection_period": "2026-08-01/2026-08-31",
+    "clock": 48,
+    "dq": "11.01",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2022-6-2026-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421880/d166528dex991.htm",
+    "sha256": "667c3af96a19b631fbcf9570d12f8baa10e1f40f5496d5a974805df96513ab26",
+    "filing_date": "2026-10-15",
+    "collection_period": "2026-09-01/2026-09-30",
+    "clock": 49,
+    "dq": "11.24",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2023-1-2025-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239286/d71245dex991.htm",
+    "sha256": "3fdcf4e1e4cab3bbb4cb8f5c61fcb6a7446903998f68e87f1699b8ee20b68a76",
+    "filing_date": "2025-10-15",
+    "collection_period": "2025-09-01/2025-09-30",
+    "clock": 33,
+    "dq": "9.81",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2023-1-2026-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526390861/d156346dex991.htm",
+    "sha256": "d5ccdeba782c0a8c7043dece44b08af1f3650fc08a98599c7b63ad872e663518",
+    "filing_date": "2026-09-15",
+    "collection_period": "2026-08-01/2026-08-31",
+    "clock": 44,
+    "dq": "10.09",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2023-1-2026-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421907/d188159dex991.htm",
+    "sha256": "14c402946a1eae8a014e02fc6d3dd2bf8d326acc1cd84bc863e914ad3f34ba97",
+    "filing_date": "2026-10-15",
+    "collection_period": "2026-09-01/2026-09-30",
+    "clock": 45,
+    "dq": "10.1",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2024-1-2025-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239308/d67309dex991.htm",
+    "sha256": "1e8f3ceb4b6d338c6b793d9df78ada8fcc9752ddd401cf13992813ab396d2b94",
+    "filing_date": "2025-10-15",
+    "collection_period": "2025-09-01/2025-09-30",
+    "clock": 21,
+    "dq": "8.89",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2024-1-2026-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526390935/d157532dex991.htm",
+    "sha256": "7c33dca4bdfa6ff6a500a177146cf53f1285c7825446af6f88d5ac4e14cf429b",
+    "filing_date": "2026-09-15",
+    "collection_period": "2026-08-01/2026-08-31",
+    "clock": 32,
+    "dq": "9.9",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "SDART_2024-1-2026-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421940/d183408dex991.htm",
+    "sha256": "d3cbd439d4e62bdda6510e22a09a48ac99f7ecafeb12879455b7a9808095169a",
+    "filing_date": "2026-10-15",
+    "collection_period": "2026-09-01/2026-09-30",
+    "clock": 33,
+    "dq": "10.04",
+    "ext": "",
+    "misses": []
+  },
+  {
+    "name": "BLAST_2024-1-2025-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/2006743/000110465925099589/tm2528572d1_ex99-1.htm",
+    "sha256": "5ddfb030c8e5338fcaec536de366e6abc709834b204f02650fa67e47dea7d2b8",
+    "filing_date": "2025-10-15",
+    "collection_period": "2025-09-01/2025-09-30",
+    "clock": 21,
+    "dq": "14.22",
+    "ext": "4.8",
+    "misses": []
+  },
+  {
+    "name": "BLAST_2024-1-2026-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926107766/tm2624852d2_ex99-1.htm",
+    "sha256": "6f089ba975083b8d6f1653e3d093701dc30d6a65e69f0837281bed6ff50cab92",
+    "filing_date": "2026-09-15",
+    "collection_period": "2026-08-01/2026-08-31",
+    "clock": 32,
+    "dq": "16.48",
+    "ext": "5.11",
+    "misses": []
+  },
+  {
+    "name": "BLAST_2024-1-2026-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116044/tm2627320d2_ex99-1.htm",
+    "sha256": "a1b3f2214880437f8814fce846e1a8b8f39e31073379f94a510e6af0c8a51999",
+    "filing_date": "2026-10-15",
+    "collection_period": "2026-09-01/2026-09-30",
+    "clock": 33,
+    "dq": "16.67",
+    "ext": "4.72",
+    "misses": []
+  },
+  {
+    "name": "BLAST_2023-1-2025-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1993328/000110465925099585/tm2528567d1_ex99-1.htm",
+    "sha256": "7eb58b288d49fd934229591d8303a5c35eab7563cad0303d6f927235a016f84e",
+    "filing_date": "2025-10-15",
+    "collection_period": "2025-09-01/2025-09-30",
+    "clock": 24,
+    "dq": "13.45",
+    "ext": "4.32",
+    "misses": []
+  },
+  {
+    "name": "BLAST_2023-1-2026-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926107756/tm2624852d1_ex99-1.htm",
+    "sha256": "2cb509b1ad3523e7a3a0ac17dcadaae76934e4fef4ce9033e915ed76b55f8827",
+    "filing_date": "2026-09-15",
+    "collection_period": "2026-08-01/2026-08-31",
+    "clock": 35,
+    "dq": "15.82",
+    "ext": "5.0",
+    "misses": []
+  },
+  {
+    "name": "BLAST_2023-1-2026-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116030/tm2627320d1_ex99-1.htm",
+    "sha256": "aed7eed99c3a943d5610e41fcf8706e844e2113fcb58216505d5ae5be2f78963",
+    "filing_date": "2026-10-15",
+    "collection_period": "2026-09-01/2026-09-30",
+    "clock": 36,
+    "dq": "16.15",
+    "ext": "4.28",
+    "misses": []
+  }
+]

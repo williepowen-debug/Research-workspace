@@ -1,0 +1,78 @@
+
+########################################################################
+#                          OTTO BOOT SEQUENCE                          #
+#                   Monday, October 19, 2026  12:14                  #
+########################################################################
+
+  ⏩ Skipping price snapshot (--no-price)
+
+  ⏳ Predictions Due...
+      ⚠️  NOT OPEN AND NOT RESOLVED (1) — re-grade owed; find the next-check row in docket/CATALYSTS.tsv
+      OTTO-10  2026-09-30  ⚠️ NEEDS_VERI 20% [2026-08-14] (was 65% [2026-02-23])  Subprime origination share falls below 13%
+      7 OPEN | 🔴 0 overdue | 🟠 0 due soon | ⚠️ 1 unresolved non-OPEN
+
+  ⏳ Catalyst Countdown...
+      ⚠️  RECENTLY FIRED (last 10 days = since last closeout, basis=git-commit — sweep now)
+      🟠 2026-10-15 (Thu)  4d ago  10-D cycle — SDART + BLAST SEPTEMBER collection month (Santander / Bridgecrest file ~the 15th) — PENDING read, next-check 2026-10-20
+      🟠 2026-10-16 (Fri)  3d ago  M&T Bank (MTB) Q3-2026 earnings — the OTTO-31 dated in-window read (Wilmington Trust non-mortgage custodial exit) — PENDING Wilmington read, next-check 2026-10-20
+      🟠 2026-10-16 (Fri)  3d ago  Tricolor Ch.7 — BlackRock Rule 2004 meet-and-confer deadline (trustee's motion Dkt 1298, GRANTED 9/1; deadline set at the 10/7 status conference) — PENDING outcome, next-check 2026-10-21
+      🔴 IMMINENT (≤5 trading days)
+      🟠  2026-10-20 (Tue)   1d cal /  1d trd  Ally Financial (ALLY) Q3-2026 earnings (release ~07:30 ET, call 09:00 ET)
+      🟠  2026-10-20 (Tue)   1d cal /  1d trd  WINTERKORN docket-steward run (lapsed 2026-07-25 -> 2026-10-14) - DONE EARLY 2026-10-14
+      🟠  2026-10-20 (Tue)   1d cal /  1d trd  First Brands Ch.7 — hearing on the Excess ABC Insurers' motion: clarify the 5/29 order, or lift the stay so D&O insurers can advance defense costs of insured persons (Dkt 3669; reset to 10/20 by Dkt 3800)
+      🟠  2026-10-21 (Wed)   2d cal /  2d trd  CRMT Item 1.01 backstop #4 — last day for an agreement dated <=10/15 to reach Form 8-K — owner BROCK (DOCKET L652)
+      🟠  2026-10-21 (Wed)   2d cal /  2d trd  Carvana (CVNA) T-7 short-seller check before the Q3 release (10/28)
+           ↳ signal: Any known activist-short mention = 🔴 alert PROME via WALTER. Short interest +20% = note in STATUS.
+      🟠 ~2026-10-21 (Wed)   2d cal /  2d trd  Tricolor criminal — ruling on Chu's motion to suppress (ECF 108, seized devices / iCloud); evidentiary hearing set 10/7, continuing 10/8-9 as needed (ECF 171; 175-176)
+      🟠  2026-10-21 (Wed)   2d cal /  2d trd  OTTO-07 shelf re-run (shelf_halt_monitor.py) + EART 2026-4 FWP sweep — the STATUS-promised dated read
+      🟠  2026-10-21 (Wed)   2d cal /  2d trd  First Brands Ch.7 — hearing on the Ch.7 Trustee's Emergency Motion for Authority to Operate under 11 U.S.C. §721, effective as of 9/1 (Dkt 3796), 09:00 AM CT, Courtroom 402
+      🔴  2026-10-22 (Thu)   3d cal /  3d trd  CRMT BRIDGE-7 Scheduled Termination Date (Silver Point) — owner BROCK; OTTO consumer read only
+      🟠  2026-10-27 (Tue)    8d cal /   6d trd  First Brands Ch.7 — §341(a) meeting of creditor...
+      🔴  2026-10-28 (Wed)    9d cal /   7d trd  Carvana (CVNA) Q3-2026 results, after the close...
+      🟠  2026-10-28 (Wed)    9d cal /   7d trd  CRMT Item 1.01 backstop #5 — agreement dated <=...
+      🟠 ~2026-10-29 (Thu)   10d cal /   8d trd  10-D cycle — EART SEPTEMBER collection month (E...
+      🟠  2026-10-30 (Fri)   11d cal /   9d trd  THESIS v1.6 rewrite — OTTO-set TARGET (after Ca...
+      🟠 ~2026-11-04 (Wed)   16d cal /  12d trd  NY Fed Q3-2026 Household Debt and Credit Report...
+      🟠  2026-11-06 (Fri)   18d cal /  14d trd  Manheim Used Vehicle Value Index — October 2026...
+      🟠  2026-11-11 (Wed)   23d cal /  17d trd  Tricolor §341 (continued), 10:00 AM CT - next-c...
+      🟠 ~2026-11-12 (Thu)   24d cal /  18d trd  EART 2026-5 (Exeter) new-issue launch WINDOW cl...
+      🟠 ~2026-11-15 (Sun)   27d cal /  19d trd  Severity-Divergence Test (SDT) - quarterly re-r...
+      🟠 ~2026-11-16 (Mon)   28d cal /  20d trd  10-D cycle — SDART + BLAST OCTOBER collection m...
+      🟠 ~2026-11-30 (Mon)   42d cal /  30d trd  10-D cycle — EART OCTOBER collection month
+      🟠  2026-11-30 (Mon)   42d cal /  30d trd  Year-end readiness — last date to land three fi...
+      🟠 ~2026-12-07 (Mon)   49d cal /  35d trd  Manheim Used Vehicle Value Index — November 202...
+      🟠  2026-12-09 (Wed)   51d cal /  37d trd  Tricolor criminal Final Pre-Trial Conference (J...
+      🟠 ~2026-12-15 (Tue)   57d cal /  41d trd  OTTO-10 NEEDS_VERIFY re-check: read the Equifax...
+      🟠  2027-01-25 (Mon)   98d cal /  70d trd  Tricolor executive criminal trial (Chu, Judge C...
+      🟠  2027-02-01 (Mon)  105d cal /  75d trd  First Brands criminal — pretrial conference, US...
+      🟠  2027-02-09 (Tue)  113d cal /  81d trd  First Brands criminal trial — US v. Patrick Jam...
+      🔴 HIGH PRIORITY in horizon: 2
+
+  ⏳ WINTERKORN Cadence...
+    ✓ WINTERKORN last ran 2026-10-14 (5 days ago) — not due (due at 7)
+
+  ⏳ Workbook Staleness...
+    perimeter [OTTO]: 10 ledger(s) scanned; 6 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, registry/corrections_receipts.tsv, research/2026-10-19_L708/events.tsv, research/2026-10-19_L708/issuer_coverage.tsv (+2 more)
+
+  ⏳ Trade Staleness...
+    trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+
+========================================================================
+  BOOT SUMMARY
+========================================================================
+
+  Step                     Status     Time
+  ------------------------------------------
+  ⏩ Price Snapshot         SKIP    0.0s
+  ✅ Predictions Due          OK    0.0s
+  ✅ Catalyst Countdown       OK    0.0s
+  ✅ WINTERKORN Cadence       OK    0.0s
+  ✅ Workbook Staleness       OK    0.6s
+  ✅ Trade Staleness          OK    0.1s
+
+  Total boot time: 0.8s
+  Date: 2026-10-19 (Monday)
+
+  Next: read STATUS.md → LAST_COMPLETION.md → MEMORY.md, then report.
+  (Domain intel — fraud filings, ABS surveillance, bank 8-Ks — is in-session web/EDGAR work.)
+

@@ -1,6 +1,6 @@
 # OTTO — Agent Instructions
 
-**Version:** 2.9 | **Updated:** 2026-10-14 *(s029: CONVERGENCE MATRIX re-score in closeout step 1 — `MAINTENANCE.md` 2026-10-14 (c))*
+**Version:** 3.0 | **Updated:** 2026-10-19 *(s031: approved LESSONS rebuild added to boot; `MAINTENANCE.md` 2026-10-19)*
 
 > *Stamp reconciled 2026-09-12 (s022), DAEDALUS profile finding **F-2**: this header read `v2.5 | 2026-06-08` while the footer read `v2.7 | 2026-06-09`, and the file had been edited as recently as 9/2. **The footer's version is the true one** — v2.7 is the WINTERKORN introduction — so the header is moved to it and the date to this session's edit. The 7/4, 8/27 and 9/2 content edits carried no version bump; that is a convention, not a defect. **Structural history is `MAINTENANCE.md`, not this line.** A booting reader takes the header at face value, and two stamps that disagree mean neither can be trusted.*
 
@@ -84,6 +84,7 @@ things in context are what needs doing.
    follow-up queue.
 3. **Read `MEMORY.md`** — cross-session feedback, findings, references, and Session
    Notes (ends on NEXT SESSION action items).
+3a. **Read `LESSONS.md`** — OTTO's Mistake → Rule → evidence table. Use the relevant row before a grade or route; it references canonical rules rather than duplicating them. (Will-approved rebuild October14, reaffirmed October19.)
 4. **Scan `thesis/PREDICTIONS.tsv`** — **automated by the boot kit.** Run it once,
    covers this step + step 5 + a price snapshot (~2s):
    ```
@@ -293,6 +294,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `STALE_PUNCHLIST.md` | Standing stale-doc inventory + priority-ordered refresh plan; re-audit each major session. The "what needs work next" list — check it when planning a maintenance/refresh pass | Live state; the actual refreshed content (this is the to-do, not the fix) |
 | `EDGAR_8K_MONITOR.md` | The 8-K early-warning monitoring protocol + bank watchlist (method) | ⚠ Bank-loss sizing (REGINALD owns); heavy REGINALD overlap |
 | `OUTBOX.md` | *(Deprecated — legacy HERMES transport buffer; superseded by WALTER inbox routing)* | Anything live |
+| `LESSONS.md` | Desk mistake patterns and pointers to evidence; read at boot3a | Live metrics, duplicated canonical prediction/gate rules |
 | `CLAUDE.md` | Identity, domain scope, boot/closeout protocol, threshold *rules*, these conventions, one-line pointer to canonical thesis | **The canonical thesis** (→ thesis/THESIS.md); **any current value or case status** (all live state → STATUS) |
 
 ---
@@ -571,4 +573,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md **v2.9** | 2026-10-14 — s029: closeout step 1 re-scores the §2 CONVERGENCE MATRIX; STATUS ownership row names it; WINTERKORN cadence re-written (each session ≥7d since last run, + T-3) and docket/memory archive files added. v2.8 (same day) — s028 file-review bundle (Will-approved): recovery trigger marked FIRED 9/2; recovery perimeter named in thresholds + invalidation; brief-pin check per NEXUS Amendment 11; byte-cap closeout; frozen-ledger and OUTBOX pointers retired; file tree + ownership rows for the 10-D panel. v2.7 (2026-06-09) introduced WINTERKORN. **Full version/structural history → `MAINTENANCE.md`.***
+*OTTO CLAUDE.md **v3.0** | 2026-10-19 — s031: LESSONS rebuilt from OTTO mistakes and added as boot3a; no threshold or routing authority changed. Prior **v2.9** 2026-10-14 — s029: closeout step 1 re-scores the §2 CONVERGENCE MATRIX; STATUS ownership row names it; WINTERKORN cadence re-written (each session ≥7d since last run, + T-3) and docket/memory archive files added. v2.8 (same day) — s028 file-review bundle (Will-approved): recovery trigger marked FIRED 9/2; recovery perimeter named in thresholds + invalidation; brief-pin check per NEXUS Amendment 11; byte-cap closeout; frozen-ledger and OUTBOX pointers retired; file tree + ownership rows for the 10-D panel. v2.7 (2026-06-09) introduced WINTERKORN. **Full version/structural history → `MAINTENANCE.md`.***

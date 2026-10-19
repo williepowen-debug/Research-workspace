@@ -1,0 +1,122 @@
+[
+  {
+    "name": "mtb-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+    "sha256": "0bcfbe8246bdd863507c194dca69b47802acce21ab38a23e5f33a3c729692907",
+    "bytes": 1587155,
+    "file": "mtb-release.html.gz",
+    "term_hits": {
+      "corporate trust": 1,
+      "Wilmington": 1,
+      "custod": 0,
+      "Tricolor": 0,
+      "wind.down": 0,
+      "exit": 0
+    },
+    "contexts": [
+      "ion, or 1%, as compared with the third quarter of 2025. \u2022 Trust and investment services income rose $13 million reflecting higher corporate trust revenues from the Company's institutional services business and an increase in personal trust and investment services revenues from its wealth management businesses. \u2022 Mortgage banking revenues increased $5 million reflecting a rise in residential mortgage loan sub-ser"
+    ]
+  },
+  {
+    "name": "mtb-8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/mbt-20261016.htm",
+    "sha256": "24def185decad70522fa1a6e6c2b491967e167d223f88537541b4eb1736299c1",
+    "bytes": 38975,
+    "file": "mtb-8k.html.gz",
+    "term_hits": {
+      "corporate trust": 0,
+      "Wilmington": 0,
+      "custod": 0,
+      "Tricolor": 0,
+      "wind.down": 0,
+      "exit": 0
+    },
+    "contexts": []
+  },
+  {
+    "name": "mtb-deck",
+    "url": "https://ir.mtb.com/static-files/5e370b06-317f-4dd2-a3e9-9bccff37b8bb",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "mtb-quarterly",
+    "url": "https://ir.mtb.com/financial-information/quarterly-results",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "wt-abs-services",
+    "url": "https://www.wilmingtontrust.com/institutional-client-services/corporate-trust/structured-finance/asset-mortgage-backed-securities",
+    "sha256": "0c00cfffe76f98f3cab8f40eb9d7d85cbc6ce9cca1b5720109c157dd736a049b",
+    "bytes": 249515,
+    "file": "wt-abs-services.html.gz",
+    "term_hits": {
+      "corporate trust": 4,
+      "Wilmington": 43,
+      "custod": 6,
+      "Tricolor": 0,
+      "wind.down": 0,
+      "exit": 0
+    },
+    "contexts": [
+      " Insights About Us Contact Us Wealth Management Wilmington Trust Home Log In Search text href sectionheader parentpage level1 col Corporate Trust & Agency Services https://www.wilmingtontrust.com/institutional-client-services/corporate-trust Our Services institutionalservices ourservices 1 Custody & Collateral Services https://www.wilmingtontrust.com/institutional-client-services/custody-and-collateral-services ",
+      "es https://www.wilmingtontrust.com/institutional-client-services/corporate-trust Our Services institutionalservices ourservices 1 Custody & Collateral Services https://www.wilmingtontrust.com/institutional-client-services/custody-and-collateral-services Our Services institutionalservices ourservices 1 Institutional Investment Management https://www.wilmingtontrust.com/institutional-client-services/insti",
+      "s institutionalservices ourservices 1 Custody & Collateral Services https://www.wilmingtontrust.com/institutional-client-services/custody-and-collateral-services Our Services institutionalservices ourservices 1 Institutional Investment Management https://www.wilmingtontrust.com/institutional-client-services/institutional-investment-management Our Services institutionalservices ourservices 1 Internationa",
+      ".com/institutional-client-services/corporate-trust/international-clients-markets Our Services institutionalservices ourservices 1 Corporate Trust Insights https://www.wilmingtontrust.com/library/category/corporate-institutional Institutional Services Insights institutionalservices insights 1 Loan Market Solutions eBook https://www.wilmingtontrust.com/institutional-client-services/corporate-trust/loan-market-solu",
+      "Institutional Services Insights institutionalservices insights 1 Asset-Backed Securities (ABS) & Mortgage-Backed Securities (MBS) CORPORATE TRUST & AGENCY SERVICES At Wilmington Trust, we redefine what it means to be a trustee. Establishing a solid relationship, we provide dedicated support from experienced professionals who understand and respond to your needs, working tirelessly to execute your securitization ",
+      "ank Back-Up Servicer Bond & Securities Administrator Calculation Agent Cash Management Collateral Agent Delaware Trustee Document Custodian Escrow Agent Indenture Trustee Note Trustee Noteholder Representative Owner Trustee Paying Agent and Registrar Securities Intermediary Security Agent Security Trustee SPV Administration{ {wt-d151*}} Verification Agent Asset class experience Our comprehensive securit",
+      "tization, both public and private. Integrated full-service \u2028trustee offering Whether your securitization requires trustee, agent, custodian, or administrative services, let us illustrate how our international reputation as an established and experienced full-service trustee can benefit you. Deep industry experience Leverage in-depth knowledge from one of the longest-standing corporate trust providers in",
+      "enced full-service trustee can benefit you. Deep industry experience Leverage in-depth knowledge from one of the longest-standing corporate trust providers in the industry, with excellence and reliability recognized as the Securitization Trustee of the Year by GlobalCapital in May 2025. WTConnect Easily access and manage financial information through a comprehensive,\u00a0user-friendly digital platform. LOGIN> Our te",
+      "re sorry but there was a problem, and your form could not be submitted at this time. Close You may also be interested in Document Custody Learn More SPV Administration Learn more CLO, Borrowing Base & Loan Administration Services Learn more Equipment & Transportation Finance Learn More Leaving Site By clicking \"Continue\" below, you will leave wilmingtontrust.com and enter a Third-Party Website. Please n",
+      "ington Trust Asset Management, LLC (WTAM), and Wilmington Trust Investment Management, LLC (WTIM). Such services include trustee, custodial, agency, investment management, and other services. International corporate and institutional services are offered through M&T Bank Corporation\u2019s international subsidiaries. Loans, credit cards, retail and business deposits, and other business and personal banking s"
+    ]
+  },
+  {
+    "name": "wt-custody-services",
+    "url": "https://www.wilmingtontrust.com/institutional-client-services/custody-and-collateral-services",
+    "sha256": "970d3159a444af7d7335446f5865a766b4a7c7711dddff7a977509f0aaf65b6d",
+    "bytes": 165566,
+    "file": "wt-custody-services.html.gz",
+    "term_hits": {
+      "corporate trust": 2,
+      "Wilmington": 41,
+      "custod": 16,
+      "Tricolor": 0,
+      "wind.down": 0,
+      "exit": 1
+    },
+    "contexts": [
+      "Custody & Collateral Services  | Wilmington Trust Skip to Main Content Wilmington Trust Home Page Search Hamburger Menu Our Services Our Services Insights Institutional Services Insights About Us Contact Us Wealth Management Wilmington Trust Home Log In Search text href secti",
+      " Insights About Us Contact Us Wealth Management Wilmington Trust Home Log In Search text href sectionheader parentpage level1 col Corporate Trust & Agency Services https://www.wilmingtontrust.com/institutional-client-services/corporate-trust Our Services institutionalservices ourservices 1 Custody & Collateral Services https://www.wilmingtontrust.com/institutional-client-services/custody-and-collateral-services ",
+      "es https://www.wilmingtontrust.com/institutional-client-services/corporate-trust Our Services institutionalservices ourservices 1 Custody & Collateral Services https://www.wilmingtontrust.com/institutional-client-services/custody-and-collateral-services Our Services institutionalservices ourservices 1 Institutional Investment Management https://www.wilmingtontrust.com/institutional-client-services/insti",
+      "s institutionalservices ourservices 1 Custody & Collateral Services https://www.wilmingtontrust.com/institutional-client-services/custody-and-collateral-services Our Services institutionalservices ourservices 1 Institutional Investment Management https://www.wilmingtontrust.com/institutional-client-services/institutional-investment-management Our Services institutionalservices ourservices 1 Internationa",
+      ".com/institutional-client-services/corporate-trust/international-clients-markets Our Services institutionalservices ourservices 1 Corporate Trust Insights https://www.wilmingtontrust.com/library/category/corporate-institutional Institutional Services Insights institutionalservices insights 1 Loan Market Solutions eBook https://www.wilmingtontrust.com/institutional-client-services/corporate-trust/loan-market-solu",
+      "https://www.wilmingtontrust.com/library/tag/mergers-acquisitions Institutional Services Insights institutionalservices insights 1 Custody, Trustee, and Collateral Management Services designed for you CUSTODY & COLLATERAL SERVICES Through our personalized service and attention to every detail, our clients trust us to relieve them of the burden of administering their institutional custody, back office, ad",
+      "tutional Services Insights institutionalservices insights 1 Custody, Trustee, and Collateral Management Services designed for you CUSTODY & COLLATERAL SERVICES Through our personalized service and attention to every detail, our clients trust us to relieve them of the burden of administering their institutional custody, back office, administrative, and specialized accounting needs{ {wt-d47*}} Connect Wit",
+      "ed service and attention to every detail, our clients trust us to relieve them of the burden of administering their institutional custody, back office, administrative, and specialized accounting needs{ {wt-d47*}} Connect With Us A range of services to fit your needs Wilmington Trust provides comprehensive services \u2013 tailored to each client\u2019s specific needs \u2013 for a wide variety of institutions and organi",
+      "that trust by delivering for them time and again with the highest levels of precision,\u00a0diligence, and transparency. Institutional Custody Services We support various organizations with asset safekeeping, securities processing and settlement, proxy and corporate action processing, and cash management services. Learn More Trust & Pension Services Wilmington Trust offers employee benefit trustee, custody, ",
+      "n processing, and cash management services. Learn More Trust & Pension Services Wilmington Trust offers employee benefit trustee, custody, ERISA reporting, and benefit payment services to a range of retirement and employee benefit plans. Learn More Collateral Management Services We provide operational risk mitigation that helps to eliminate your manual back and middle office processes, allowing you to m",
+      "ed by technology that provides powerful functionality and full transparency, we stand ready to support you and your needs. 1,200+ Custody clients served $149.3B+ in assets under administration{ {wt-d319*}} 120+ years of experience{ {wt-d320*}} WHY WILMINGTON TRUST With a wide range of custom services, personalized attention, and a consistent, reliable approach, Wilmington Trust is a trusted leader in Cu",
+      "de range of custom services, personalized attention, and a consistent, reliable approach, Wilmington Trust is a trusted leader in Custody & Collateral services. Services designed for you Our flexible approach and customizable platform allow us to provide solutions that fit your needs and adhere to your specifications. Individualized attention A single point of contact provides efficient service from an ",
+      " adhere to your specifications. Individualized attention A single point of contact provides efficient service from an experienced custodian who understands your needs and complexities. Consistent execution A repeatable, end-to-end custody conversion process means there are no surprises, and your assets will be administered efficiently and confidentially. Advanced technology Enables you to streamline you",
+      " service from an experienced custodian who understands your needs and complexities. Consistent execution A repeatable, end-to-end custody conversion process means there are no surprises, and your assets will be administered efficiently and confidentially. Advanced technology Enables you to streamline your end-to-end collateral schedule workflow, increasing your efficiency and reducing admin busywork whi",
+      "e workflow, increasing your efficiency and reducing admin busywork while maintaining control of your collateral obligations. Your Custody, Trustee, and Collateral Management needs deserve a dedicated and experienced team. Our dedicated Custody, Trustee, and Collateral Management professionals\u00a0understand what it takes to succeed. We work tirelessly to help mitigate risk, provide full transparency, and fu"
+    ]
+  },
+  {
+    "name": "mtb-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000036270.json",
+    "sha256": "0cdbee70d444aea86abff75d40ee7e4db5acd5da6f90c35843073ace1da24291",
+    "bytes": 159414,
+    "file": "mtb-submissions.json",
+    "recent_10q": [
+      [
+        "2026-08-04",
+        "0000036270-26-000050"
+      ],
+      [
+        "2026-05-05",
+        "0000036270-26-000034"
+      ]
+    ]
+  }
+]
