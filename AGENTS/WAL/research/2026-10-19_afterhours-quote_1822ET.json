@@ -1,0 +1,23 @@
+{
+  "retrieved_utc": "2026-10-19T22:22:51.691557+00:00",
+  "source": "MIRROR Yahoo/yfinance get_info, fresh observed tool output",
+  "WAL": {
+    "regularMarketPrice": 73.63,
+    "regularMarketTime": 1792440133,
+    "regularMarketTime_ET": "2026-10-19T16:02:13-04:00",
+    "regularMarketPreviousClose": 74.51,
+    "postMarketPrice": 73.8555,
+    "postMarketTime": 1792448227,
+    "postMarketTime_ET": "2026-10-19T18:17:07-04:00",
+    "afterhours_change_dollars": 0.2255,
+    "afterhours_change_pct": 0.30626103490427603
+  },
+  "crosscheck": {
+    "source": "MIRROR StockAnalysis live overview https://stockanalysis.com/stocks/wal/",
+    "price": 73.86,
+    "change_pct": 0.31,
+    "asof_ET": "2026-10-19T17:30:00-04:00",
+    "warning": "Older history-page search cache showed72.00 at16:28; not a verified trade path. No claim of an initial drop/reversal from inconsistent cached snapshots."
+  },
+  "limits": "Point observation, not complete afterhours trajectory, execution bid, exchange-certified print or causal attribution. October19regular-session-1.18% is pre-release. Frozen reactiontest waits October20regularclose; no guard/grade/probability/trade change. STATUS regular-market quote remains unchanged; this file adds afterhours evidence only."
+}
