@@ -1,12 +1,14 @@
-# WALTER LAST_COMPLETION — company continuation / vendor close 2026-10-19
+# WALTER LAST_COMPLETION — historical cases / financing contrast 2026-10-19
 
-Updated 2026-10-19T20:19:04Z. Codex/OpenAI,GPT-6family;exactcurrentmodelsuffixUNKNOWN. Session01a15572-effa-7db1-af2e-99682f19ab1c;task/root;Will-launchedowner. Fullruntime/sourcegaps below; predecessorreceipt preservedverbatim research/2026-10-19_afternoon/prior-LAST_COMPLETION.md. Deskactive,notclosed. Initial breadth snapshot completed; expanded approved three-part investigation has a verified first pass and unfinished fundamental attribution. Full narratives refreshed; boot remains PARTIAL.
+Updated 2026-10-19T20:38:34Z. Codex/OpenAI,GPT-6family;exactcurrentmodelsuffixUNKNOWN. Session01a15572-effa-7db1-af2e-99682f19ab1c;task/root;Will-launchedowner. Fullruntime/sourcegaps below; predecessorreceipt preservedverbatim research/2026-10-19_afternoon/prior-LAST_COMPLETION.md. Deskactive,notclosed. Initial breadth snapshot completed; expanded approved three-part investigation has a verified first pass and unfinished fundamental attribution. Full narratives refreshed; boot remains PARTIAL.
 
 ## STATUS
 
-PARTIALboot/coverage;afternooncatch-upworkpersisted. Six signals012–017 added across the afternoon,BOARD1520,17today. FourincomingOTTOpacketsconsumedafterintegration. No trade,ownerthresholdorgradechanged.
+PARTIALboot/coverage;afternooncatch-upworkpersisted. Seven signals012–018 added across the afternoon,BOARD1521,18today. FourincomingOTTOpacketsconsumedafterintegration. No trade,ownerthresholdorgradechanged.
 
 ## CHANGED
+
+**Current018:** research/2026-10-19_historical-cases-and-credit/RESULT.md: four named historical episodes and actual June30RCL/NCLHfinancial-cushion contrast completed. Independent16historicalhorizons/10factormodels,17rawmembers/hashmanifest,SVG;6create-onlyhandoffs. ThreeRule9helpersclosedexplicitly;5uniquehelpers today. Prior017zero-rankablepilotremainsdated;018suppliesdatedcushioncomparison,notmatchedcausality.
 
 **Continuation017:** company-pairs/RESULT/source-review/exposures/27returnchecks/47-member rawbundle; vendorclose503/503,325decliners. New017fivehandoffpairs locally committed b4a181a62;publicationpending. Twoexistinghelpersresumedandexplicitlyclosed. User-facingstatusambiguitycorrected: savedpendingworkwasnotabackgroundjob;none remains after boundedpass.
 
@@ -17,6 +19,8 @@ Additional015 breadth signal and5handoffpairs committed6ffff7841;standaloneSVG,5
 BOARD012OTTOcontract/forecast/calendarrepairs;013ChinaGDP;014FranceMondaybondfollow-through;generatedINDEX,route/delivery/CORRECTIONS/BATCHledgers;4owninboxmoves+consumption;freshFRED/Cboe/EIA/AGSI/ECB/vendorreads;STATUS/REGISTRY/SESSION_LOG/MEMORY;datedresearch/PROMEpacket. Commits81d159bdc/ea6eacc7a. New17handoffpairsarecommittedandprovenonoriginbyfreshfetch;recipientconsumptionunverified.
 
 ## RESULT
+
+**Current018 bounded work complete:** 2007/2015warningsprecededdeclines;2023/June2024narrowadvancescontinuedwithcorrections;no crashodds. NCLHJune30general-liquidity/grossprincipal~9.81%vsRCL29.37%;September18–October16returns+6.59/+12.97%,gap−6.38pp,BOTHup. Size/businessmix/interveningevents defeatcausalinference. NCLHrefinancingincreasescostbutextendsmaturity/room;CRUISEnocrunchjudgmentandCRU11clockunchanged. Cablemergerpreventscleanpair. Allhelpersclosed;broadercausalstudyunresolved,notrunning.
 
 **October19 close / company continuation:** vendorregular-session176up/325down/2flat,SPY+0.439/RSP−0.332,QQQ+1.206/QQEW+1.164,IWM+0.314. CurrentOct16SPYholdingsecuritylines,not officialindexclosingcensus. Nineissuer/fourpairsourcecheck:6up/3telecomdownover20sessions;no comparablepre-windowrefinancing-riskordering,0rankablepairs. Company attribution remains incomplete; no causal score. Primarysource/fieldlimits at research/2026-10-19_breadth-followup/company-pairs/RESULT.md. Both resumedhelpersfinished;no unattended worker or standingmonitor.
 
@@ -30,7 +34,7 @@ HY331bp[10/16]stilllatest;325/323/331entryalready003,notre-fired. X1CLOSED/DON�
 
 ## GAPS / OWED
 
-- **Approved fundamental investigation remains owed:** broader pre-window industry/size-matched company cohort;12/24-month unsecured maturities,unrestrictedcash,committedfacilities,coverage,floatingexposureafterhedges,subsequentevents. No reconciled dataset recovered; stale exact SEC tags cannot fill gaps. Official historical A/D/new-highlow census and pre2023 credit history not recovered. Do not claim the ETF/quality proxies completed these legs.
+- **Approved broader fundamental investigation remains owed (018 completes bounded cruise cushion contrast):** broader pre-window industry/size-matched company cohort;12/24-month unsecured maturities,unrestrictedcash,committedfacilities,coverage,floatingexposureafterhedges,subsequentevents. No reconciled dataset recovered; stale exact SEC tags cannot fill gaps. Official historical A/D/new-highlow census and pre2023 credit history not recovered. Do not claim the ETF/quality proxies completed these legs.
 
 - Breadth capture is an asynchronous current-SPY-holdings security-line proxy,not official index membership or market close. Historical MA/count coverage partial;session-audit supersedes initialskip-gapsderivation. Primaryweightsunreconciled,so index contribution fractionsUNCERTIFIED. No permanent monitor commissioned; domain consumption unverified.
 
@@ -47,7 +51,9 @@ None newlycreated. ExistingWQ458bookmarkcontinuationdecisionremainsregisteredwit
 
 ## FOLLOW-UP
 
-**Execution status clarified to Will:** no research helper remains active after the bounded continuation. Existing-approved market-wide attribution remains unresolved, not a running job. Next market evidence is subsequent closing breadth versus recent equal-weight recovery; no new unattended monitor/schedule. Field-level prerequisite for company attribution is reconciled rolling maturities/available funding and intervening events, not an ETF-quality substitute.
+**Current execution:** namedhistoryandboundedfinancialcomparisoncomplete;allhelpersclosed,nounattendedjob. Broaderrepresentativestudyunfinishedunderexistingapproval;nonewpermissionneeded. Next evidencereviewOctober20/existingownerwindows;no monitorinstalled.
+
+**Earlier execution status clarified to Will:** no research helper remains active after the bounded continuation. Existing-approved market-wide attribution remains unresolved, not a running job. Next market evidence is subsequent closing breadth versus recent equal-weight recovery; no new unattended monitor/schedule. Field-level prerequisite for company attribution is reconciled rolling maturities/available funding and intervening events, not an ETF-quality substitute.
 
 **Will-approved breadth/credit continuation:** all3 investigations approved directly: “Okay approved go ahead and begin these.” First pass016 origin-proven after fresh fetch, recipient consumption unverified; next substantive leg is company-level matched financing dataset and post-filing transaction reconciliation. Existing approval suffices; no newtrade,standingmonitororownerlaunch authority. PROMEpacket2026-10-19_from-WALTER_approved-breadth-credit-first-pass.md records scope/remainingwork.
 
@@ -100,12 +106,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Light closeout after company continuation and vendorclose017; full narrative/REGISTRY/MEMORY regeneration deferred1breadcrumb. STATUScurrentclose/counts and LASTduties/approval/executionstatus refreshed. Both resumedhelpers returned explicit closeout; none remains active. Prior fullboot/READS/sourceperimeter gaps remain,not repaired by this pass. Selected light checks at research/2026-10-19_breadth-followup/company-pairs/checks/: receipt REVIEW only historical COR-20261015-05/06shorttargets; ledger nudge REVIEW because kill ledger unchanged with0kills/eventclocksnotmanufactured; readcap/archives/weekdays PASS. Parent full check20:06READSUNKNOWN/basis5paths/doctor0HIGH11MED remains dated. Freshfetchorigin1dcd0f460and reconciliation prove016;106/111todayhandoffs origin-proven,017fivependingcommitpublicationb4a181a62. ForeignPROMEworkdeferspull/stash/rebase/push;consumptionUNKNOWN. Exactself-authoredpaths committed;47rawcaptures bundled/hashverified,no old source deletion,no spec/auto-memory/trade/grade change. Broadcompanyattribution unresolved under existing approval; savedtask is not an active job.
+Light closeout after018; fullregistry/MEMORYnarrativeregenerationdeferred2breadcrumbs. CurrentSTATUS/LASTupdated;3helpersclosed. Boot/READS/sourcegapsretainPARTIAL. Selectedchecks at research/2026-10-19_historical-cases-and-credit/checks/: REVIEWhistoricalCORshorttargetsand0killledgeradvisory;readcap/archive/weekdayPASS. Freshorigin1dcd0f460andreconciliation106/117dailyoriginproven;017five+018sixpendingpublication. ForeignPROMEdirtyworkdeferspull/stash/rebase/push;consumptionUNKNOWN.17rawmembershashed/bundled;3invalidPDFHTMLresponsesexplicitfailures;no oldsource deletion/spec/auto-memory/trade/grade. Routing/research4ec1b9ca3 locallycommitted,pendingpublication;nextreviewOctober20normalownerwindows.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-19T20:19:04Z",
+  "as_of": "2026-10-19T20:38:34Z",
   "next_review": "2026-10-20",
   "publication": [
     {
@@ -127,13 +133,17 @@ Light closeout after company continuation and vendorclose017; full narrative/REG
     {
       "commit": "b4a181a62",
       "state": "pending"
+    },
+    {
+      "commit": "4ec1b9ca3",
+      "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261019",
-    "total": 111,
+    "total": 117,
     "delivered": 106,
-    "note": "106/111 origin-proven;017fivepending;consumptionUNKNOWN"
+    "note": "106/117 origin-proven;017five+018sixpendingpublication;consumptionUNKNOWN"
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -229,6 +239,22 @@ Light closeout after company continuation and vendorclose017; full narrative/REG
       {
         "path": "AGENTS/WALTER/research/2026-10-19_breadth-followup/company-pairs/sources-manifest.json",
         "sha256": "1be897f794a1c3984211ba925ea7de0fd4c8fb0052940d28e5cbf1509a5ce214"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/RESULT.md",
+        "sha256": "b5d507ce726d82a76a7f7872ce0a3fac78ef6387ffc9bd4a74568d123fd76233"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/analysis.json",
+        "sha256": "7ca540554d43990f686111621cf8b7f86439e64c4eae7202b4281f87aeae6d5c"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/VERIFICATION.md",
+        "sha256": "83a5770bedfd36cd2cba6ada8b3c972f84399d10853fce461cd15f9d39ac01ae"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/sources-manifest.json",
+        "sha256": "f91ebf37e57509d839652afe2d4e2f72b41afea2eb8a62fbf565b837d393d9d4"
       }
     ]
   },
@@ -237,7 +263,7 @@ Light closeout after company continuation and vendorclose017; full narrative/REG
     "boot": "PARTIAL",
     "owner": "WILL",
     "ask": "Hi WALTER please boot up; catch up missed news/signals",
-    "closeout": "Bounded continuation closed; broader attribution unresolved; no background worker; full deferred1; bootPARTIAL"
+    "closeout": "History and bounded cushion comparison complete; broader causal study unfinished; no active helpers; full deferred2breadcrumbs"
   },
   "manual_duties": {
     "7g": "4wholepackets/controllingsynthesesintegratedbeforefiling",
@@ -256,7 +282,32 @@ Light closeout after company continuation and vendorclose017; full narrative/REG
     "14": "MEMORY under100lines; no new spec/auto-memory promotion",
     "checks": "LightselectedREVIEWoldCORtargets/0killledgernudge;readcap/archive/weekdayPASS;generalbootREADSgapretained",
     "approved_followup": "3legs begun; computational firstpass verified; matched fundamental test unfinished, carried under existing approval",
-    "helpers": "Two existing Rule9 helpers resumed, both explicitnofiles/no-workremaining receipts; no ownerlaunch or backgroundjob"
+    "helpers": "Three Rule9read-only helpers explicitly closed thispass;fiveuniquetoday;noownerlaunch/backgroundjob",
+    "ledgers": "route/delivery/BATCH refreshed018;kill frozen0kills;REGISTRY full deferred2breadcrumbs;no correction/fire/doorbell/deepresearch event manufactured"
+  },
+  "current_research": {
+    "path": "research/2026-10-19_historical-cases-and-credit/RESULT.md",
+    "broader_causality": "unresolved",
+    "workers": "allcompleted",
+    "publication": "018sixpending;017fivepending;106of117dailyoriginproven",
+    "reviewed_files": [
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/RESULT.md",
+        "sha256": "b5d507ce726d82a76a7f7872ce0a3fac78ef6387ffc9bd4a74568d123fd76233"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/analysis.json",
+        "sha256": "7ca540554d43990f686111621cf8b7f86439e64c4eae7202b4281f87aeae6d5c"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/VERIFICATION.md",
+        "sha256": "83a5770bedfd36cd2cba6ada8b3c972f84399d10853fce461cd15f9d39ac01ae"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_historical-cases-and-credit/sources-manifest.json",
+        "sha256": "f91ebf37e57509d839652afe2d4e2f72b41afea2eb8a62fbf565b837d393d9d4"
+      }
+    ]
   }
 }
 END_CLOSEOUT_RECEIPT -->
