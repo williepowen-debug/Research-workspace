@@ -1,5 +1,7 @@
 # s034 verification and delivery boundary
 
+> **s035 correction to closeout scope:** the s034 checks below supported bounded research acceptance, not full procedural closeout. Lesson-promotion and full semantic canonical/mirror comparisons were omitted without a documented intentional deferral. They are completed and receipted at `../2026-10-19_closeout-finish/RECEIPT.md`; earlier “closed out” language must not be used as evidence they ran at s034. Original source/arithmetic checks below retain their actual scope.
+
 Evidence `ea329d216`. Root/local instructions explicitly loaded in this Will-owned Codex/GPT-6-family thread; exact suffix/sessionID unavailable. Shell, web, SEC source capture and Git verified. No verified native fleet transport, no helper launched; WINTERKORN last10/14,5days, not due.
 
 Replay verifies9 retained source/excerpt hashes and4 git snapshots. Original50MB PointPredictive PDF is deliberately not in repo; full text/page13 PDF retained and original hash recorded. Source manifest includes2 retrieval failures; alternate FSK issuer PDF works. Bundle1,907,677bytes; raw duplicate working files moved to/tmp rather than committed. `derive.py` reproduces strict score3/8,sum2.215,mean0.276875 and actualFSK0.875x/0.8542x. Inclusion judgments remain human evidence judgments, not proved by arithmetic.

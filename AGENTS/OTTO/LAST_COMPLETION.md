@@ -1,7 +1,7 @@
-## COMPLETION — OTTO — 2026-10-19 (s034)
-STATUS: ✅ DONE — bounded forecast repairs and thesis factual reconciliation; finalv1.6 not declared complete.
-CHANGED: Forecast-repair evidence/readout/replay, PREDICTIONS/archive/THESIS/CHANGELOG, ML316–320, STATUS/calendar/continuity/index/backlog, charter timing text; finalNEXUSbrief and PROME/WALTER delivery.
-RESULT: Evidenceea329d216. Warehouse55→25%OPEN subjective; original55% retained. Credit-washingSTUCK,60% preserved. Four early hits audited using February Markdown; strict original score3/8,0.276875. OriginalSDT consequence3total restored; numeric thresholds/colours/convergence unchanged.
-GAPS: Literal credit-washing prevalence/H2 coverage absent; proxy2025 cannot resolve it. VRM/private warehouse coverage incomplete. Finalv1.6 needs earnings, broader risk/causal audit, recovery rung and independent cold read. CATO OR1 closure/new recipient consumption/native notice unverified.
+## COMPLETION — OTTO — 2026-10-19 (s035)
+STATUS: ✅ DONE — bounded desk closeout checks completed now; prior procedural-closeout claim was incomplete.
+CHANGED: Nine calendar rows, STATUS claim mirror, MEMORY/LAST_COMPLETION/LESSONS/MAINTENANCE, audit receipts/verification, finalNEXUSbrief and dated PROME/WALTER notices.
+RESULT: Full32event identity/date/class/meaning review;8 unresolved prediction claims/states/current confidences;8 conviction/rule comparisons. Stale report-pattern/settled-issue/dead-row/retroactive-grade guidance reconciled. Lesson-promotion scan complete: no new class warrants a new fleet-memory file/index entry. No research restart or judgment change.
+GAPS: Push deliberately withheld by Will. Recipient consumption/native fleet notice and CATO OR1 closure unverified. Scheduled research/fullv1.6/cold read are separate open work, not completed by this closeout.
 WILL_NEEDS: None.
-FOLLOW-UP: ActualAlly/VRM/D&O10/20; existing10/21 checks; BROCKCRMT10/22; CVNA10/28/EART~10/29; finalthesis10/30; sourcecoverage11/30/12/31. Root/local instructions explicitly read; Codex/GPT-6 family, exact suffix/sessionID unavailable. No helpers, other-owner edits, pull/stash/reset/rebase/push, external send or terminal shutdown.
+FOLLOW-UP: ActualAlly/VRM/D&O10/20; existing10/21 checks; BROCKCRMT10/22; CVNA10/28/EART~10/29; finalv1.6 broader risk/causal review/recovery rung/cold read10/30. Existing OTTO-11 STUCK/OTTO-10 NEEDS_VERIFY remain; no forced grades. FinalSTATUS commit pinned in NEXUS_BRIEF. Codex/GPT-6 family, exact suffix/sessionID unknown; other desks preserved, no helpers or push.

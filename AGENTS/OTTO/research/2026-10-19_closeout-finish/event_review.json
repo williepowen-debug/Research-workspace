@@ -1,0 +1,258 @@
+[
+  {
+    "canonical_row": 1,
+    "status_row": 9,
+    "identity": "CRMT bridge7",
+    "canonical_anchor": "CRMT BRIDGE-7",
+    "mirror_anchor": "CRMT seventh-bridge",
+    "manual_claim_review": "BROCK grades; STD not an assumed exit; silence cannot resolve"
+  },
+  {
+    "canonical_row": 2,
+    "status_row": 1,
+    "identity": "BlackRock confer",
+    "canonical_anchor": "BlackRock Rule 2004",
+    "mirror_anchor": "BlackRock Rule2004",
+    "manual_claim_review": "Pending outcome, not implication; October21 next check retained"
+  },
+  {
+    "canonical_row": 3,
+    "status_row": 2,
+    "identity": "Ally Q3",
+    "canonical_anchor": "Ally Financial",
+    "mirror_anchor": "Ally Q3",
+    "manual_claim_review": "07:30 release/09:00 call; whole-loan capacity/access/performance separate from warehouses"
+  },
+  {
+    "canonical_row": 4,
+    "status_row": 3,
+    "identity": "First Brands D&O",
+    "canonical_anchor": "Excess ABC Insurers",
+    "mirror_anchor": "D&O insurer",
+    "manual_claim_review": "Dkts3669/3800; actual outcome required"
+  },
+  {
+    "canonical_row": 5,
+    "status_row": 4,
+    "identity": "CRMT backstop4",
+    "canonical_anchor": "backstop #4",
+    "mirror_anchor": "CRMT backstop4",
+    "manual_claim_review": "Agreement<=10/15; BROCK, silence not an outcome"
+  },
+  {
+    "canonical_row": 6,
+    "status_row": 5,
+    "identity": "Carvana T-7",
+    "canonical_anchor": "T-7 short-seller",
+    "mirror_anchor": "Carvana T-7",
+    "manual_claim_review": "Actual mentions under existing routing; no publication calendar"
+  },
+  {
+    "canonical_row": 7,
+    "status_row": 8,
+    "identity": "Chu suppression",
+    "canonical_anchor": "motion to suppress",
+    "mirror_anchor": "Chu suppression",
+    "manual_claim_review": "ECF108; modeled observation, not promised ruling"
+  },
+  {
+    "canonical_row": 8,
+    "status_row": 7,
+    "identity": "Shelf refresh",
+    "canonical_anchor": "full shelf_halt",
+    "mirror_anchor": "full shelf re-run",
+    "manual_claim_review": "EART2026-4 already issued, FWP read complete10/14; only full shelf refresh remains"
+  },
+  {
+    "canonical_row": 9,
+    "status_row": 6,
+    "identity": "First Brands721",
+    "canonical_anchor": "11 U.S.C. \u00a7721",
+    "mirror_anchor": "\u00a7721 operating",
+    "manual_claim_review": "Dkt3796;09:00CT; trustee operations order"
+  },
+  {
+    "canonical_row": 10,
+    "status_row": 10,
+    "identity": "First Brands341",
+    "canonical_anchor": "meeting of creditors",
+    "mirror_anchor": "First Brands \u00a7341",
+    "manual_claim_review": "11:00CT; absence of transcript is not failure"
+  },
+  {
+    "canonical_row": 11,
+    "status_row": 12,
+    "identity": "Carvana Q3",
+    "canonical_anchor": "Carvana (CVNA) Q3",
+    "mirror_anchor": "Carvana Q3 AMC",
+    "manual_claim_review": "After close17:30ET; actual disclosures/reports, no dependable timing pattern"
+  },
+  {
+    "canonical_row": 12,
+    "status_row": 13,
+    "identity": "EART September",
+    "canonical_anchor": "EART SEPTEMBER",
+    "mirror_anchor": "EART September-collection",
+    "manual_claim_review": "DQ/extensions, deal recovery<28%, CNL path is not December resolving filing"
+  },
+  {
+    "canonical_row": 13,
+    "status_row": 14,
+    "identity": "THESIS finalv1.6",
+    "canonical_anchor": "THESIS v1.6 rewrite",
+    "mirror_anchor": "THESIS v1.6 target",
+    "manual_claim_review": "Final review remains10/30; prior bounded repairs not finalv1.6"
+  },
+  {
+    "canonical_row": 14,
+    "status_row": 15,
+    "identity": "NYFed Q3",
+    "canonical_anchor": "NY Fed Q3-2026",
+    "mirror_anchor": "NY Fed Q3",
+    "manual_claim_review": "Modeled window11/04-11/12, no promised date"
+  },
+  {
+    "canonical_row": 15,
+    "status_row": 17,
+    "identity": "Manheim October",
+    "canonical_anchor": "October 2026 full-month",
+    "mirror_anchor": "Manheim October",
+    "manual_claim_review": "Confirmed11/6; input/hinge not standalone SDT confirmation"
+  },
+  {
+    "canonical_row": 16,
+    "status_row": 18,
+    "identity": "Tricolor341",
+    "canonical_anchor": "Tricolor \u00a7341",
+    "mirror_anchor": "Tricolor \u00a7341",
+    "manual_claim_review": "10:00CT continued; retrospective distribution evidence never regrades09/30"
+  },
+  {
+    "canonical_row": 17,
+    "status_row": 19,
+    "identity": "EART2026-5 cadence",
+    "canonical_anchor": "EART 2026-5",
+    "mirror_anchor": "EART2026-5",
+    "manual_claim_review": "Modeled10/20-11/12 launch window, no absence grade from bare calendar"
+  },
+  {
+    "canonical_row": 18,
+    "status_row": 20,
+    "identity": "SDT rerun",
+    "canonical_anchor": "Severity-Divergence Test",
+    "mirror_anchor": "Severity-Divergence Test",
+    "manual_claim_review": "Second observation; original consequence three total; thresholds/gate unchanged"
+  },
+  {
+    "canonical_row": 19,
+    "status_row": 21,
+    "identity": "SDART BLAST October",
+    "canonical_anchor": "SDART + BLAST OCTOBER",
+    "mirror_anchor": "SDART/BLAST October",
+    "manual_claim_review": "Collection join/DQ/extension controls; existing turn rule; retired10/15 pointer removed"
+  },
+  {
+    "canonical_row": 20,
+    "status_row": 22,
+    "identity": "EART October",
+    "canonical_anchor": "EART OCTOBER",
+    "mirror_anchor": "EART October",
+    "manual_claim_review": "Path observation before December-FILING claim; existing deal recovery rule"
+  },
+  {
+    "canonical_row": 21,
+    "status_row": 23,
+    "identity": "Year-end follow-up",
+    "canonical_anchor": "Year-end readiness follow-up",
+    "mirror_anchor": "Year-end follow-up",
+    "manual_claim_review": "Audit done,11STUCK; actual10/20 outcome must be read, not assumed"
+  },
+  {
+    "canonical_row": 22,
+    "status_row": 24,
+    "identity": "Hertz fleet watch",
+    "canonical_anchor": "Hertz US-fleet",
+    "mirror_anchor": "Hertz December",
+    "manual_claim_review": "Modeled12/1 observation of December maturities, not confirmed exact maturity day; LIQUID credit owner"
+  },
+  {
+    "canonical_row": 23,
+    "status_row": 25,
+    "identity": "Goodgame sentencing",
+    "canonical_anchor": "Goodgame sentencing",
+    "mirror_anchor": "Goodgame sentencing",
+    "manual_claim_review": "09:00ET control date, no outcome assumed"
+  },
+  {
+    "canonical_row": 24,
+    "status_row": 26,
+    "identity": "Manheim November",
+    "canonical_anchor": "November 2026 full-month",
+    "mirror_anchor": "Manheim November",
+    "manual_claim_review": "Modeled12/7; next release page will re-pin"
+  },
+  {
+    "canonical_row": 25,
+    "status_row": 27,
+    "identity": "Chu FPTC",
+    "canonical_anchor": "Final Pre-Trial Conference",
+    "mirror_anchor": "Chu Final Pretrial",
+    "manual_claim_review": "14:00ET; no trial slip asserted"
+  },
+  {
+    "canonical_row": 26,
+    "status_row": 28,
+    "identity": "Equifax covering edition",
+    "canonical_anchor": "Equifax Originations",
+    "mirror_anchor": "covering Equifax",
+    "manual_claim_review": "Modeled12/15 availability, must coverSeptember; no early grade"
+  },
+  {
+    "canonical_row": 27,
+    "status_row": 29,
+    "identity": "Year-end predictions",
+    "canonical_anchor": "year-end cluster",
+    "mirror_anchor": "year-end resolve",
+    "manual_claim_review": "Same six IDs,11 remains STUCK without instrument; terms in ledger"
+  },
+  {
+    "canonical_row": 28,
+    "status_row": 30,
+    "identity": "Chu trial",
+    "canonical_anchor": "Tricolor executive criminal trial",
+    "mirror_anchor": "Chu criminal trial",
+    "manual_claim_review": "January25,2027; charged case, no guilt assertion"
+  },
+  {
+    "canonical_row": 29,
+    "status_row": 31,
+    "identity": "James pretrial",
+    "canonical_anchor": "First Brands criminal \u2014 pretrial",
+    "mirror_anchor": "James criminal pretrial",
+    "manual_claim_review": "February1,2027;12:00ET"
+  },
+  {
+    "canonical_row": 30,
+    "status_row": 32,
+    "identity": "James trial",
+    "canonical_anchor": "First Brands criminal trial",
+    "mirror_anchor": "James criminal trial",
+    "manual_claim_review": "February9,2027;09:00ET"
+  },
+  {
+    "canonical_row": 31,
+    "status_row": 11,
+    "identity": "CRMT backstop5",
+    "canonical_anchor": "backstop #5",
+    "mirror_anchor": "CRMT backstop5",
+    "manual_claim_review": "Agreement<=10/22; BROCK; silence not outcome"
+  },
+  {
+    "canonical_row": 32,
+    "status_row": 16,
+    "identity": "M&T10Q",
+    "canonical_anchor": "M&T Q3 10-Q",
+    "mirror_anchor": "M&T Q3 10-Q",
+    "manual_claim_review": "Modeled11/05 check not promised filing; broad corporate trust not narrow ABS custody"
+  }
+]

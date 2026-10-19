@@ -1,6 +1,6 @@
 # OTTO MEMORY
 
-**Updated:** 2026-10-19,s034. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-10-19,s035. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
@@ -21,7 +21,7 @@
 - M&T official IR direct requests returned403 on10/19, while the web tool read its official deck/quarterly index and SEC supplied the filed release. Official webcast403; third-party transcript is labelled secondary. Do not claim a primary audio read.
 - Fitch paid/full index access was declined10/14; no new account or paid-data authority. March aggregate values retired from hot STATUS; deal-level panel is a different instrument, not a replacement Fitch index.
 
-## LAST SESSION — s034, Will-approved remaining repairs
+## LAST SESSION — s035, bounded procedural closeout finish
 - `research/2026-10-19_readiness/READOUT.md` (`cebaa8c61`) owns the Ally worksheet, warehouse refresh and report-date sample. Original sources/text in committed `sources.tar.gz`; manifest hashes/replay verified. Q3 data still future; no webcast participation or contact.
 - Ledger now records the missedOctober1 attempt and actualOctober19 search. NO EXIT FOUND within scope is not a full-market negative; TrustV's postSeptember30 outcome remains UNKNOWN. Read the next actual filing, not a maturity date as evidence of exit.
 - **CATO OR1 accepted and owner repair implemented:** `research/2026-10-19_ally-amendment/READOUT.md` (`cf2879751`). The s032364-day correction stopped at Ally's older filing; current July amendment is$8B throughJuly2027 plus immediate discretionary purchaser cancellation subject to law. Narrative/exhibit one-day discrepancy retained, no actual cancellation established. Preview/banners/ML corrected; original evidence preserved. Reviewer closure/recipient consumption not yet verified.
@@ -29,6 +29,7 @@
 - Bounded THESISv1.5 addendum reconciles live factual/rule/calibration conflicts. Original SDT consequence is3consecutiveREFUTEs total (August first plus nextTWO), not two; thresholds unchanged. Finalv1.6/cold read/recovery rung remain10/30. Historical activist dates supply no calendar;10/21 and10/28 checks remain owed.
 - Prior s031 September/M&T work, LESSONS boot wiring and STATUS rotation remain complete; do not rerun as overdue. Exact evidence/limits remain in `research/2026-10-19_quickwins/READOUT.md`.
 - **L708 delivered AND consumed:** PROME's October19 receipt cites artifacta95429b7c, delivery657e54b74, NEXUS consumptionc1f2f4321/ack69c256ad0. Verified at PROME's execution-coordination report and NEXUS STATUS. No further attribution research commissioned; NO_INSTRUMENT stands.
+- **s035 closes the two omitted procedural checks:** `research/2026-10-19_closeout-finish/RECEIPT.md` records calendar repair,32event semantic/date/class comparisons,8prediction comparisons and thesis-conviction pair review. Lesson-promotion scan mapped candidates to existing fleet memory; no new class/file/index edit needed. Prior research acceptance did not establish full closeout; packet delivery still is not recipient consumption.
 - PUSH HOLD remains. Exact OTTO paths plus self-authored packets only; other desks' dirty work preserved. No pull/stash/reset/rebase/push or terminal shutdown.
 
 ## NEXT SESSION — keep last

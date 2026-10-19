@@ -1,0 +1,164 @@
+[
+  {
+    "row": 3,
+    "date": "2026-10-20",
+    "fields": [
+      "what_to_check",
+      "threshold_signal",
+      "notes"
+    ],
+    "before": {
+      "what_to_check": "Retail-auto net charge-offs and 60+ DQ; used-vehicle recovery / severity language; any curtailment of warehouse or dealer-floorplan lending to subprime auto lenders.",
+      "threshold_signal": "Severity worsening alongside a negative-YoY Manheim = the hinge moving at a lender. A stated exit or curtailment of warehouse lending to subprime auto = OTTO-12 evidence.",
+      "notes": "NEW s028. Date [PRESS: finviz copy of Ally's 9/17 release]. || WINTERKORN 2026-10-14: date VERIFIED: Ally's 9/17 release sets Q3 results Tue 10/20 ~07:30 ET, call 09:00 ET (dial-in pre-registration required) [PRESS finviz + placera copies of the issuer release]. || s032 October19: primary issuer September17 notice directly read; times confirmed. Ally baseline/definitions and funding consequence map at research/2026-10-19_readiness/ALLY_PREVIEW.md (cebaa8c61); Q3 outcome unfilled. OTTO-12 October1 miss logged and October19 refresh done; actual Ally read and VRM TrustV recheck remainOctober20. Floorplan/whole-loan purchases are not warehouse exits. || s033 CATO OR1 corrected atcf2879751: July27$8B purchase arrangement with immediate discretionary cancellation subject to law, narrativeJuly26/exhibitJuly27,2027 discrepancy retained. Tomorrow distinguish stated capacity, actual purchases/access and comparable performance; no current unused-capacity or cancellation inference. Whole-loan purchases are not OTTO-12warehouse exits."
+    },
+    "after": {
+      "what_to_check": "Use research/2026-10-19_readiness/ALLY_PREVIEW.md and July-amendment READOUT. Read retail-auto NCO/60+DQ and severity; distinguish whole-loan capacity, actual purchases/access/cancellation and performance. Separately read explicit warehouse/dealer-floorplan curtailment and recheck VRM TrustV.",
+      "threshold_signal": "Existing registered SDT/OTTO-12 terms govern. Negative Manheim YoY alone is a directional watch, not SDT CONFIRM; current -0.6% is inside the +/-3% control gate. Warehouse exit/curtailment is evidence to assess at the registered major-lender scope, not automatic confirmation. Whole-loan purchase cancellation is a different instrument; no actual cancellation established as of10/19.",
+      "notes": "NEW s028. Date [PRESS: finviz copy of Ally's 9/17 release]. || WINTERKORN 2026-10-14: date VERIFIED: Ally's 9/17 release sets Q3 results Tue 10/20 ~07:30 ET, call 09:00 ET (dial-in pre-registration required) [PRESS finviz + placera copies of the issuer release]. || s032 October19: primary issuer September17 notice directly read; times confirmed. Ally baseline/definitions and funding consequence map at research/2026-10-19_readiness/ALLY_PREVIEW.md (cebaa8c61); Q3 outcome unfilled. OTTO-12 October1 miss logged and October19 refresh done; actual Ally read and VRM TrustV recheck remainOctober20. Floorplan/whole-loan purchases are not warehouse exits. || s033 CATO OR1 corrected atcf2879751: July27$8B purchase arrangement with immediate discretionary cancellation subject to law, narrativeJuly26/exhibitJuly27,2027 discrepancy retained. Tomorrow distinguish stated capacity, actual purchases/access and comparable performance; no current unused-capacity or cancellation inference. Whole-loan purchases are not OTTO-12warehouse exits. || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 6,
+    "date": "2026-10-21",
+    "fields": [
+      "what_to_check",
+      "notes"
+    ],
+    "before": {
+      "what_to_check": "Per CLAUDE.md \u00a7 Short-Seller Report Monitoring: activist-short trackers, \"Carvana short report\" / \"Carvana fraud\" searches, Gotham and Hindenburg mentions, short-interest change, unusual put volume.",
+      "notes": "NEW s028. Gotham dropped its Feb-2026 report on earnings day (CVNA lesson). || WINTERKORN 2026-10-14: anchor VERIFIED: Carvana's 9/30 release sets Q3 results Wed 10/28 after the close, call 17:30 ET [PRESS finviz copy of the Business Wire release]; T-7 = 10/21."
+    },
+    "after": {
+      "what_to_check": "Per CLAUDE.md \u00a7 Short-Seller Report Monitoring: activist-short trackers, \"Carvana short report\" / \"Carvana fraud\" searches, Gotham and Hindenburg mentions, short-interest change, unusual put volume. Record initial report versus follow-up and actual publication date. Existing CLAUDE/THESIS timing rule: no dependable earnings-day cadence or holding instruction.",
+      "notes": "NEW s028. Gotham dropped its Feb-2026 report on earnings day (CVNA lesson). || WINTERKORN 2026-10-14: anchor VERIFIED: Carvana's 9/30 release sets Q3 results Wed 10/28 after the close, call 17:30 ET [PRESS finviz copy of the Business Wire release]; T-7 = 10/21. || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 8,
+    "date": "2026-10-21",
+    "fields": [
+      "event",
+      "what_to_check",
+      "threshold_signal",
+      "notes"
+    ],
+    "before": {
+      "event": "OTTO-07 shelf re-run (shelf_halt_monitor.py) + EART 2026-4 FWP sweep \u2014 the STATUS-promised dated read",
+      "what_to_check": "Run scripts/shelf_halt_monitor.py; re-run stamps SHELF_ACTIVITY.tsv. Check whether EART 2026-4 priced (FWP / 424B) and which tracked shelves issued since 7/25.",
+      "threshold_signal": "Any tracked subprime shelf with no new deal in a window it normally issues in = OTTO-07 evidence (confidence lives in PREDICTIONS.tsv). EART 2026-4 absent = the first candidate.",
+      "notes": "NEW s028 2026-10-14. Answers DAEDALUS Falsification #4 (OTTO-07 dated read); the deferral in STATUS had no docket row until now. || WINTERKORN 2026-10-14: EART 2026-4 is NOT absent: it launched 8/19 and closed 8/28 (detail on the 2026-08-17 row). The next Exeter cadence test is EART 2026-5 (row 2026-11-12, window 10/20-11/12). Confidence figure stripped from threshold_signal. || OTTO s029: EART 2026-4 swept 10/14 (ISSUED); the 10/21 job is the full shelf_halt_monitor.py re-run only."
+    },
+    "after": {
+      "event": "OTTO-07 full shelf_halt_monitor.py re-run; EART2026-4 already issued (FWP sweep completed10/14)",
+      "what_to_check": "Run scripts/shelf_halt_monitor.py and record tracked-shelf issuance since the7/25 run. EART2026-4 launched8/19 and closed8/28; FWP sweep completed10/14. Do not treat that settled issue as an absence candidate or repeat its completed read. Next Exeter cadence window is2026-5,10/20-11/12.",
+      "threshold_signal": "A missing issue in a shelf-specific normal cadence window is a candidate for OTTO-07 investigation, not proof a shelf halted. EART2026-4 is issued. Original prediction definition/deadline unchanged.",
+      "notes": "NEW s028 2026-10-14. Answers DAEDALUS Falsification #4 (OTTO-07 dated read); the deferral in STATUS had no docket row until now. || WINTERKORN 2026-10-14: EART 2026-4 is NOT absent: it launched 8/19 and closed 8/28 (detail on the 2026-08-17 row). The next Exeter cadence test is EART 2026-5 (row 2026-11-12, window 10/20-11/12). Confidence figure stripped from threshold_signal. || OTTO s029: EART 2026-4 swept 10/14 (ISSUED); the 10/21 job is the full shelf_halt_monitor.py re-run only. || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 11,
+    "date": "2026-10-28",
+    "fields": [
+      "what_to_check",
+      "threshold_signal",
+      "notes"
+    ],
+    "before": {
+      "what_to_check": "Finance line: gain on sale, loan-sale volume and premium to third parties, Bridgecrest servicing, any extension-rate disclosure, DriveTime related-party transactions, auditor. Then same-day / next-day short-report check.",
+      "threshold_signal": "A same-day short report (Feb-18 pattern). The finance line is the whole GPU story.",
+      "notes": "NEW s028. Date [PRESS: finviz copy of Carvana's release]. || WINTERKORN 2026-10-14: date VERIFIED: Carvana's 9/30 release (Business Wire, finviz copy): Wed 10/28 after the close, webcast 17:30 ET (14:30 PT), replay to 11/4."
+    },
+    "after": {
+      "what_to_check": "Read gain on sale, actual loan-sale volume/premium, Bridgecrest servicing/extension disclosures, DriveTime related-party transactions and auditor changes. Check any actual new short report at the existing earnings/next-day observation; record initial/follow-up identity and date.",
+      "threshold_signal": "Apply existing disclosure/short-report routing rules to observed facts. The small dependent historical sample establishes no earnings-day publication pattern or arrival probability. No report at earnings is not evidence of absence, no corporate-fraud inference from ABS alone, and no holding/trade instruction.",
+      "notes": "NEW s028. Date [PRESS: finviz copy of Carvana's release]. || WINTERKORN 2026-10-14: date VERIFIED: Carvana's 9/30 release (Business Wire, finviz copy): Wed 10/28 after the close, webcast 17:30 ET (14:30 PT), replay to 11/4. || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 13,
+    "date": "2026-10-30",
+    "fields": [
+      "what_to_check",
+      "notes"
+    ],
+    "before": {
+      "what_to_check": "STALE_PUNCHLIST #2, #2a, #2b: file review A findings (research/2026-10-14_file_review/review_A_thesis.md), the s029 matrix conflicts (V6 LOW vs KILLED; SDT one-more vs next-two; no V2 downgrade rung; OTTO-30 called a calibration win), and the 9/30 failure-pattern rules folded in from PREDICTIONS_ARCHIVE. Independent cold reader before commit.",
+      "notes": "NEW s029 (OTTO hand entry, not WINTERKORN output). A target OTTO set itself, not an external date: an owed build with no clock is how the punchlist rotted (review C L9)."
+    },
+    "after": {
+      "what_to_check": "Integrate Ally/Carvana earnings into THESISv1.6, finish broader causal/risk audit and the case-level recovery downgrade rung, obtain independent cold read, then verify STATUS thesis mirror. s034 already reconciled LOW versus KILLED, originalSDT3total, calibration-win wording and9/30 failure rules; preserve those corrections, do not reopen them as uncompleted work.",
+      "notes": "NEW s029 (OTTO hand entry, not WINTERKORN output). A target OTTO set itself, not an external date: an owed build with no clock is how the punchlist rotted (review C L9). || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 16,
+    "date": "2026-11-11",
+    "fields": [
+      "threshold_signal",
+      "notes"
+    ],
+    "before": {
+      "threshold_signal": "Plan filed post-Sep-30 = OTTO-29 falsified on substance-after-resolve; further continuance = cockroach-magnitude amplification",
+      "notes": "[CONF Verita Jun 9 via WINTERKORN] - Jun 17 \u00a7341 already noticed continued to here. Forward observation point after OTTO-29 Sep 30 resolve || WINTERKORN 2026-10-14: RE-VERIFIED at Verita (POST /document/list/6384, TLS verified with the Go Daddy G2 intermediate; 1,462 entries): the 6/2/2026 'Trustee's Notice of Continued Section 341 Meeting of Creditors to November 11, 2026 at 10:00 am Central Time' is still the latest \u00a7341 notice; no further continuance through 10/14. The Ch.7 judge is Michelle V. Larson (N.D. Tex.); Anne Elizabeth Burns is the trustee."
+    },
+    "after": {
+      "threshold_signal": "Post-9/30 plan/distribution developments are retrospective evidence only. Preserve OTTO-29 historical FALSIFIED-on-window/CONFIRMED-on-substance and original distribution definition; a plan alone is not the registered distribution, and a late event cannot rescue or re-grade the expired forecast.",
+      "notes": "[CONF Verita Jun 9 via WINTERKORN] - Jun 17 \u00a7341 already noticed continued to here. Forward observation point after OTTO-29 Sep 30 resolve || WINTERKORN 2026-10-14: RE-VERIFIED at Verita (POST /document/list/6384, TLS verified with the Go Daddy G2 intermediate; 1,462 entries): the 6/2/2026 'Trustee's Notice of Continued Section 341 Meeting of Creditors to November 11, 2026 at 10:00 am Central Time' is still the latest \u00a7341 notice; no further continuance through 10/14. The Ch.7 judge is Michelle V. Larson (N.D. Tex.); Anne Elizabeth Burns is the trustee. || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 19,
+    "date": "2026-11-16",
+    "fields": [
+      "what_to_check",
+      "threshold_signal",
+      "notes"
+    ],
+    "before": {
+      "what_to_check": "As the 10-15 row. Pair every deal's 60+ DQ with its ext_rate_pct, YoY and MoM (EART and BLAST disclose; SDART does not): a DQ rise with falling extensions may be less masking, not worse borrowers (ML-OTTO-300).",
+      "threshold_signal": "As the 10-15 row.",
+      "notes": "NEW s028 2026-10-14 (11/15 is a Sunday)."
+    },
+    "after": {
+      "what_to_check": "Run scripts/panel_10d.py for the latest SDART/BLAST reports, join on collection_period, read October60+DQ YoY per deal/tier. Pair disclosed extensions YoY/MoM; EART/BLAST disclose, SDART does not. A DQ rise with falling extensions may expose delinquency rather than establish worse borrowers. Apply PANEL_10D_SCHEMA; keep September5/9 reading separate from October coverage.",
+      "threshold_signal": "Existing turn rule: a tier mean YoY gap<=0 or any comparable deal-month betterYoY. Read whether the Bridgecrest level move persists; levels belong to STATUS/PANEL_10D. No reference to the retired10/15 row, no new threshold.",
+      "notes": "NEW s028 2026-10-14 (11/15 is a Sunday). || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 20,
+    "date": "2026-11-30",
+    "fields": [
+      "what_to_check",
+      "threshold_signal",
+      "notes"
+    ],
+    "before": {
+      "what_to_check": "As the 10-29 row. Pair every deal's 60+ DQ with its ext_rate_pct, YoY and MoM (EART and BLAST disclose; SDART does not): a DQ rise with falling extensions may be less masking, not worse borrowers (ML-OTTO-300).",
+      "threshold_signal": "As the 10-29 row. Last EART print before the OTTO-34 Dec-2026 resolving filing.",
+      "notes": "NEW s028 2026-10-14 (Thanksgiving week; may land 11/27 or 11/30)."
+    },
+    "after": {
+      "what_to_check": "Run scripts/panel_10d.py --only EART for October collection reports. Read60+DQ YoY, deal-level recovery versus28%, and EART2022-3 CNL for OTTO-34. Pair disclosed extensions YoY/MoM; falling extensions confound a borrower-quality inference.",
+      "threshold_signal": "Existing OTTO-34 December-FILING CNL>=29.0% claim governs. October collections are a path observation, not the resolving December filing; deal-level recovery28% rule unchanged. Projection is not realized crossing.",
+      "notes": "NEW s028 2026-10-14 (Thanksgiving week; may land 11/27 or 11/30). || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  },
+  {
+    "row": 21,
+    "date": "2026-11-30",
+    "fields": [
+      "what_to_check",
+      "notes"
+    ],
+    "before": {
+      "what_to_check": "OTTO-11 source/instrument audit completed10/19; STUCK because consortium alerts/proven prevalence and2025/H2-2026 do not match. Inspect publisher index for explicitH2 coverage; annual average insufficient. OTTO-12 missed attempt logged10/19; current25%subjective; actual Ally/VRM read10/20 still future. Early-hit audit done10/19, strict score3/8,0.276875.",
+      "notes": "NEW s029 (OTTO hand entry). An OTTO-set deadline, one month before the cluster resolves. || s034 10/19: source audit/early-hit audit completed early, not a missed future task. READOUT at research/2026-10-19_forecast-repair/READOUT.md; keep follow-up for period coverage."
+    },
+    "after": {
+      "what_to_check": "OTTO-11 source/instrument audit completed10/19; STUCK because consortium alerts/proven prevalence and2025/H2-2026 do not match. Inspect publisher index for explicitH2 coverage; annual average insufficient. OTTO-12 missed attempt logged10/19; current25%subjective; read the recorded actual Ally/VRM10/20 outcome; if it did not run, record the miss rather than assuming a result. Early-hit audit done10/19, strict score3/8,0.276875.",
+      "notes": "NEW s029 (OTTO hand entry). An OTTO-set deadline, one month before the cluster resolves. || s034 10/19: source audit/early-hit audit completed early, not a missed future task. READOUT at research/2026-10-19_forecast-repair/READOUT.md; keep follow-up for period coverage. || s035 2026-10-19 bounded closeout: live instructions reconciled to existing owner records; no new source read, event date, prediction term or threshold."
+    }
+  }
+]

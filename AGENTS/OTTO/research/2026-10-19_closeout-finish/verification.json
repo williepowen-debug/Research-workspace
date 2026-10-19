@@ -1,0 +1,452 @@
+{
+  "checked_at_utc": "2026-10-19T18:35:47.846876+00:00",
+  "events": [
+    {
+      "canonical_row": 1,
+      "status_row": 9,
+      "identity": "CRMT bridge7",
+      "canonical_anchor": "CRMT BRIDGE-7",
+      "mirror_anchor": "CRMT seventh-bridge",
+      "manual_claim_review": "BROCK grades; STD not an assumed exit; silence cannot resolve",
+      "date": "2026-10-22",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 2,
+      "status_row": 1,
+      "identity": "BlackRock confer",
+      "canonical_anchor": "BlackRock Rule 2004",
+      "mirror_anchor": "BlackRock Rule2004",
+      "manual_claim_review": "Pending outcome, not implication; October21 next check retained",
+      "date": "2026-10-16",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 3,
+      "status_row": 2,
+      "identity": "Ally Q3",
+      "canonical_anchor": "Ally Financial",
+      "mirror_anchor": "Ally Q3",
+      "manual_claim_review": "07:30 release/09:00 call; whole-loan capacity/access/performance separate from warehouses",
+      "date": "2026-10-20",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 4,
+      "status_row": 3,
+      "identity": "First Brands D&O",
+      "canonical_anchor": "Excess ABC Insurers",
+      "mirror_anchor": "D&O insurer",
+      "manual_claim_review": "Dkts3669/3800; actual outcome required",
+      "date": "2026-10-20",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 5,
+      "status_row": 4,
+      "identity": "CRMT backstop4",
+      "canonical_anchor": "backstop #4",
+      "mirror_anchor": "CRMT backstop4",
+      "manual_claim_review": "Agreement<=10/15; BROCK, silence not an outcome",
+      "date": "2026-10-21",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 6,
+      "status_row": 5,
+      "identity": "Carvana T-7",
+      "canonical_anchor": "T-7 short-seller",
+      "mirror_anchor": "Carvana T-7",
+      "manual_claim_review": "Actual mentions under existing routing; no publication calendar",
+      "date": "2026-10-21",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 7,
+      "status_row": 8,
+      "identity": "Chu suppression",
+      "canonical_anchor": "motion to suppress",
+      "mirror_anchor": "Chu suppression",
+      "manual_claim_review": "ECF108; modeled observation, not promised ruling",
+      "date": "2026-10-21",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 8,
+      "status_row": 7,
+      "identity": "Shelf refresh",
+      "canonical_anchor": "full shelf_halt",
+      "mirror_anchor": "full shelf re-run",
+      "manual_claim_review": "EART2026-4 already issued, FWP read complete10/14; only full shelf refresh remains",
+      "date": "2026-10-21",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 9,
+      "status_row": 6,
+      "identity": "First Brands721",
+      "canonical_anchor": "11 U.S.C. \u00a7721",
+      "mirror_anchor": "\u00a7721 operating",
+      "manual_claim_review": "Dkt3796;09:00CT; trustee operations order",
+      "date": "2026-10-21",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 10,
+      "status_row": 10,
+      "identity": "First Brands341",
+      "canonical_anchor": "meeting of creditors",
+      "mirror_anchor": "First Brands \u00a7341",
+      "manual_claim_review": "11:00CT; absence of transcript is not failure",
+      "date": "2026-10-27",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 11,
+      "status_row": 12,
+      "identity": "Carvana Q3",
+      "canonical_anchor": "Carvana (CVNA) Q3",
+      "mirror_anchor": "Carvana Q3 AMC",
+      "manual_claim_review": "After close17:30ET; actual disclosures/reports, no dependable timing pattern",
+      "date": "2026-10-28",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 12,
+      "status_row": 13,
+      "identity": "EART September",
+      "canonical_anchor": "EART SEPTEMBER",
+      "mirror_anchor": "EART September-collection",
+      "manual_claim_review": "DQ/extensions, deal recovery<28%, CNL path is not December resolving filing",
+      "date": "2026-10-29",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 13,
+      "status_row": 14,
+      "identity": "THESIS finalv1.6",
+      "canonical_anchor": "THESIS v1.6 rewrite",
+      "mirror_anchor": "THESIS v1.6 target",
+      "manual_claim_review": "Final review remains10/30; prior bounded repairs not finalv1.6",
+      "date": "2026-10-30",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 14,
+      "status_row": 15,
+      "identity": "NYFed Q3",
+      "canonical_anchor": "NY Fed Q3-2026",
+      "mirror_anchor": "NY Fed Q3",
+      "manual_claim_review": "Modeled window11/04-11/12, no promised date",
+      "date": "2026-11-04",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 15,
+      "status_row": 17,
+      "identity": "Manheim October",
+      "canonical_anchor": "October 2026 full-month",
+      "mirror_anchor": "Manheim October",
+      "manual_claim_review": "Confirmed11/6; input/hinge not standalone SDT confirmation",
+      "date": "2026-11-06",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 16,
+      "status_row": 18,
+      "identity": "Tricolor341",
+      "canonical_anchor": "Tricolor \u00a7341",
+      "mirror_anchor": "Tricolor \u00a7341",
+      "manual_claim_review": "10:00CT continued; retrospective distribution evidence never regrades09/30",
+      "date": "2026-11-11",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 17,
+      "status_row": 19,
+      "identity": "EART2026-5 cadence",
+      "canonical_anchor": "EART 2026-5",
+      "mirror_anchor": "EART2026-5",
+      "manual_claim_review": "Modeled10/20-11/12 launch window, no absence grade from bare calendar",
+      "date": "2026-11-12",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 18,
+      "status_row": 20,
+      "identity": "SDT rerun",
+      "canonical_anchor": "Severity-Divergence Test",
+      "mirror_anchor": "Severity-Divergence Test",
+      "manual_claim_review": "Second observation; original consequence three total; thresholds/gate unchanged",
+      "date": "2026-11-15",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 19,
+      "status_row": 21,
+      "identity": "SDART BLAST October",
+      "canonical_anchor": "SDART + BLAST OCTOBER",
+      "mirror_anchor": "SDART/BLAST October",
+      "manual_claim_review": "Collection join/DQ/extension controls; existing turn rule; retired10/15 pointer removed",
+      "date": "2026-11-16",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 20,
+      "status_row": 22,
+      "identity": "EART October",
+      "canonical_anchor": "EART OCTOBER",
+      "mirror_anchor": "EART October",
+      "manual_claim_review": "Path observation before December-FILING claim; existing deal recovery rule",
+      "date": "2026-11-30",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 21,
+      "status_row": 23,
+      "identity": "Year-end follow-up",
+      "canonical_anchor": "Year-end readiness follow-up",
+      "mirror_anchor": "Year-end follow-up",
+      "manual_claim_review": "Audit done,11STUCK; actual10/20 outcome must be read, not assumed",
+      "date": "2026-11-30",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 22,
+      "status_row": 24,
+      "identity": "Hertz fleet watch",
+      "canonical_anchor": "Hertz US-fleet",
+      "mirror_anchor": "Hertz December",
+      "manual_claim_review": "Modeled12/1 observation of December maturities, not confirmed exact maturity day; LIQUID credit owner",
+      "date": "2026-12-01",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 23,
+      "status_row": 25,
+      "identity": "Goodgame sentencing",
+      "canonical_anchor": "Goodgame sentencing",
+      "mirror_anchor": "Goodgame sentencing",
+      "manual_claim_review": "09:00ET control date, no outcome assumed",
+      "date": "2026-12-04",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 24,
+      "status_row": 26,
+      "identity": "Manheim November",
+      "canonical_anchor": "November 2026 full-month",
+      "mirror_anchor": "Manheim November",
+      "manual_claim_review": "Modeled12/7; next release page will re-pin",
+      "date": "2026-12-07",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 25,
+      "status_row": 27,
+      "identity": "Chu FPTC",
+      "canonical_anchor": "Final Pre-Trial Conference",
+      "mirror_anchor": "Chu Final Pretrial",
+      "manual_claim_review": "14:00ET; no trial slip asserted",
+      "date": "2026-12-09",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 26,
+      "status_row": 28,
+      "identity": "Equifax covering edition",
+      "canonical_anchor": "Equifax Originations",
+      "mirror_anchor": "covering Equifax",
+      "manual_claim_review": "Modeled12/15 availability, must coverSeptember; no early grade",
+      "date": "2026-12-15",
+      "date_class": "modeled",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 27,
+      "status_row": 29,
+      "identity": "Year-end predictions",
+      "canonical_anchor": "year-end cluster",
+      "mirror_anchor": "year-end resolve",
+      "manual_claim_review": "Same six IDs,11 remains STUCK without instrument; terms in ledger",
+      "date": "2026-12-31",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 28,
+      "status_row": 30,
+      "identity": "Chu trial",
+      "canonical_anchor": "Tricolor executive criminal trial",
+      "mirror_anchor": "Chu criminal trial",
+      "manual_claim_review": "January25,2027; charged case, no guilt assertion",
+      "date": "2027-01-25",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 29,
+      "status_row": 31,
+      "identity": "James pretrial",
+      "canonical_anchor": "First Brands criminal \u2014 pretrial",
+      "mirror_anchor": "James criminal pretrial",
+      "manual_claim_review": "February1,2027;12:00ET",
+      "date": "2027-02-01",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 30,
+      "status_row": 32,
+      "identity": "James trial",
+      "canonical_anchor": "First Brands criminal trial",
+      "mirror_anchor": "James criminal trial",
+      "manual_claim_review": "February9,2027;09:00ET",
+      "date": "2027-02-09",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 31,
+      "status_row": 11,
+      "identity": "CRMT backstop5",
+      "canonical_anchor": "backstop #5",
+      "mirror_anchor": "CRMT backstop5",
+      "manual_claim_review": "Agreement<=10/22; BROCK; silence not outcome",
+      "date": "2026-10-28",
+      "date_class": "confirmed",
+      "result": "PASS"
+    },
+    {
+      "canonical_row": 32,
+      "status_row": 16,
+      "identity": "M&T10Q",
+      "canonical_anchor": "M&T Q3 10-Q",
+      "mirror_anchor": "M&T Q3 10-Q",
+      "manual_claim_review": "Modeled11/05 check not promised filing; broad corporate trust not narrow ABS custody",
+      "date": "2026-11-05",
+      "date_class": "modeled",
+      "result": "PASS"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "OTTO-07",
+      "status": "OPEN",
+      "current_confidence": "15%",
+      "resolve_date": "2026-12-31",
+      "manual_claim_review": "At least one subprimeABS shelf halts in2026;15%OPEN,12/31.8/8datedissuance is historical, next10/21 scan; absence of one issue is investigation evidence, not a halt grade.",
+      "result": "PASS"
+    },
+    {
+      "id": "OTTO-10",
+      "status": "NEEDS_VERIFY",
+      "current_confidence": "20%",
+      "resolve_date": "2026-09-30",
+      "manual_claim_review": "Origination share<13%; NEEDS_VERIFY,20%current/65%original; original9/30 deadline not moved by12/15 covering-edition check. Source coversMay, must coverSeptember and apply recordedfour-reading eligibility rule. No phantom series treated as evidence.",
+      "result": "PASS"
+    },
+    {
+      "id": "OTTO-11",
+      "status": "STUCK",
+      "current_confidence": "60%",
+      "resolve_date": "2026-12-31",
+      "manual_claim_review": "Prevalence>2.5%applications,H2-2026,12/31;60%unchanged,STUCK.2025consortium alerts not literalprovenprevalence/H2coverage; deadzone unresolved, no forced grade.",
+      "result": "PASS"
+    },
+    {
+      "id": "OTTO-12",
+      "status": "OPEN",
+      "current_confidence": "25%",
+      "resolve_date": "2026-12-31",
+      "manual_claim_review": "At least one MAJOR WAREHOUSE lender exits subprime auto in2026,12/31;25%subjectiveOPEN/original55%scoring. Whole-loan cancellation and individualfacilityoutcome do not auto-confirm; VRM/private coverage UNKNOWN.",
+      "result": "PASS"
+    },
+    {
+      "id": "OTTO-31",
+      "status": "OPEN",
+      "current_confidence": "8%",
+      "resolve_date": "2026-12-31",
+      "manual_claim_review": "Wilmington formally confirms/completes NON-MORTGAGE ABS CUSTODIAL exit by12/31/2026;8%current/60%originalOPEN. Broadcorporatetrust does not measure that book;11/05modeledobservation not promisedfiling.",
+      "result": "PASS"
+    },
+    {
+      "id": "OTTO-33",
+      "status": "OPEN",
+      "current_confidence": "60%",
+      "resolve_date": "2026-12-31",
+      "manual_claim_review": "New corporate counterparty OUTSIDE canonicalfixednamedlist publicly implicated inTricolor by12/31/2026;60%current/originalOPEN. Canonicaleligible filings/participated-financed-defrauded doublepledge definition controls; newdiscoverymotion/namealone not implication.",
+      "result": "PASS"
+    },
+    {
+      "id": "OTTO-34",
+      "status": "OPEN",
+      "current_confidence": "50%",
+      "resolve_date": "2026-12-31",
+      "manual_claim_review": "EART2022-3 CNL>=29.0% on filing INDECEMBER2026,12/31;50%current/60%originalOPEN. August28.40 andprojection29.00 are path/projection, not resolvingcrossing; not an October-collection grade.",
+      "result": "PASS"
+    },
+    {
+      "id": "OTTO-35",
+      "status": "OPEN",
+      "current_confidence": "15%",
+      "resolve_date": "2027-06-30",
+      "manual_claim_review": "At least one SDTCONFIRM quarterlyrun by06/30/2027;15%OPEN. DeltaS>=2.00pp andDeltaF<=0.50pp,Manheimcontrolled; REFUTEdeltas<=0.50/>=1.00 and +/-3%gate unchanged. Next11/15 observation and3totalREFUTEconsequence are distinct from this forwardclaim.",
+      "result": "PASS"
+    }
+  ],
+  "conviction_checks": {
+    "pattern_HIGH": true,
+    "recovery_HIGH": true,
+    "Tricolor_mechanism_HIGH": true,
+    "general_skip_LOW": true,
+    "funding_DISCONFIRMED": true,
+    "bank_DISCONFIRMED": true,
+    "Carvana_LOWER_carved_out": true,
+    "SDT_original_three_total": true
+  },
+  "operational_stale_guidance_checks": "PASS",
+  "prediction_ledger_byte_identical_to_s034": true,
+  "source_sha256": {
+    "CLAUDE.md": "40c5681cd5d5413d4940021820ba92ce6eb95ea414feea6a996bbaec0afd5351",
+    "STATUS.md": "2abaeb644da9b4d318ce05c0e15dab5c7c21f5004e4fe1d78368e4c07cf355b9",
+    "thesis/THESIS.md": "7abe66dd5faaadd3041ffbcd4d4c6304468aa71bc83f3e97b47dc07b7f472f73",
+    "thesis/PREDICTIONS.tsv": "6407cf557066f4af79e7c896dbda3b1a585dd9b5b60004f89919be2e7e3ec04c",
+    "docket/CATALYSTS.tsv": "42b2e09227910f7322df2ba8a9cbf06d478625ffda7833f4d96faf76a7eb9e89",
+    "MEMORY.md": "b8556846ba3bf50deecdcf805a92fae4f2ee3a1a147f6b77088de7339e303211",
+    "LAST_COMPLETION.md": "3e26ed4e64caac5238af965ee0803bcb3832d25d7f4d1705ba4e10be5cdc0d2e",
+    "LESSONS.md": "3f148e5ea6755c770d41e84f2b312858feffd48ddfb62884681c8400a6c95a1a"
+  },
+  "manual_review": "Event identity AND date/class/meaning reviewed; full claim text and omitted qualifiers judged against canonical record. No new source retrieval, full-thesis causal audit or independent cold read is implied.",
+  "lesson_promotion": "Completed in LESSON_PROMOTION.md; no new class/file/index change.",
+  "exceptions": [
+    "Push withheld by Will instruction",
+    "Recipient consumption/native fleet transport and CATO OR1 closure unverified",
+    "Scheduled research and fullv1.6 remain separate; see RECEIPT.md"
+  ]
+}

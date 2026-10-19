@@ -14,6 +14,10 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+### 2026-10-19 s035 — finish omitted closeout checks
+
+**Trigger:** Will accepted the bounded research repairs but explicitly withheld full procedural-closeout acceptance after OTTO admitted skipped semantic comparisons and lesson-promotion scan. **Changes:** reconcile nine live calendar rows to existing records, unroll dead instructions, explicitly compare all32 event identities/dates/classes/meanings and8 unresolved prediction claims, and review the thesis-conviction mirror. Save task-local review mapping, one-off verification and lesson-scan disposition under `research/2026-10-19_closeout-finish/`. No production monitor, new research, event date, forecast term, threshold or authority change. **Boot impact:** next-session calendar now agrees with the existing corrected timing/measurement rules; continuity records explain earlier incomplete closeout. **Lesson:** existing fleet correction/mirror/skipped-control memories already cover this class; no new auto-memory or index entry warranted. Fullv1.6 and independent cold read remain scheduled10/30.
+
 ### 2026-10-19 s034 — forecast provenance / charter timing consistency
 
 **Trigger:** Will approved remaining forecast/thesis repairs. **Changes:** pre-migration forecast snapshots and retained-primary-source replay added under `research/2026-10-19_forecast-repair/`; CLAUDE prediction vocabulary recognizes fleet-canonical STUCK, and short-report monitoring no longer asserts a measured cadence or supplies a holding instruction. No production parser, monitor, threshold, ownership or approval change. **Boot impact:** existing prediction reader already surfaces nonterminal STUCK; no new scheduled study. Analytical judgments and score eligibility live in THESIS/CHANGELOG/PREDICTIONS_ARCHIVE, not here.

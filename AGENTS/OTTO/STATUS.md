@@ -1,11 +1,12 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s034, forecast audit / bounded thesis reconciliation)
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s035, bounded procedural closeout finish)
 
-> **📌 s034 — evidence and forecast repairs.** OTTO-12 **55→25%**, OPEN, coarse subjective judgment; original55% preserved. Warehouse extensions/capacity weigh against broad retreat; VRMUNKNOWN/private gaps prevent an absence grade. OTTO-11 **STUCK**: PointPredictive alerts are not proven prevalence, latest data2025, notH2-2026. Early-hit audit found pre-migration records and window/baseline defects; strict as-made score **3/8,0.276875**, no demonstrated edge (old5/10,0.2400 superseded). `research/2026-10-19_forecast-repair/READOUT.md` (`ea329d216`).
+> **Research s034:** warehouse25%OPEN subjective (original55% scoring); VRM/private gaps bar an absence grade. Credit-washingSTUCK:2025 alerts do not measure H2-2026 proven prevalence. Strict score3/8,0.276875; no demonstrated edge, old0.2400 superseded. Evidence `research/2026-10-19_forecast-repair/READOUT.md` (`ea329d216`).
 > **Thesis:** v1.5 scoped factual reconciliation now; finalv1.6/cold read still10/30. SDT consequence restored to original August REFUTE + next TWO quarterly REFUTEs =3total; no numerical threshold change. CATO OR1 owner correction stands; reviewer closure pending. JulyAlly$8B/July2027 and immediate discretionary cancellation remain separate from warehouses; no actual cancellation established.
-> **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below; broader THESIS v1.6 due10/30. Push held.
-> **📌 Cold half:** settled reasoning, resolved predictions, per-vector narrative and old pointers, verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §1–16 (not a boot read; hot STATUS wins on any disagreement).
+> **s035 closeout:** earlier claim was incomplete. Calendar/mirror review and lesson-scan results: `research/2026-10-19_closeout-finish/RECEIPT.md`. Research dates/terms unchanged; no push.
+> **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below.
+> **Cold history:** `STATUS_COLD.md` §1–16 is not a boot read; hot STATUS governs.
 
 ---
 
@@ -15,7 +16,7 @@
 
 **Primary — "The Cockroach":** when you find one fraud, there are more. **4 confirmed cases** (Tricolor / First Brands / MFS / PrimaLend) + 1 alleged carve-out (Carvana). 🔴 **HIGH conviction** on pattern + **fraud-recovery magnitude**. ⚠ **Both systemic-transmission legs are DISCONFIRMED: funding (Jul 4 — BBB spreads tightened, issuance robust) and bank contagion (Aug 14 — OTTO-30 FALSIFIED, zero new US bank names).** Pattern + recovery magnitude stand (THESIS v1.3+).
 
-**Secondary — "The Invisible Exit":** immigrant subprime skip-defaults bypassing the 30→60→90 DQ chain. **Two convictions, never quoted as one (split 8/14):** (a) **at Tricolor: HIGH** — criminally charged Jun 24 (*"manipulated delinquent loan data to make non-performing loans appear current"*), cooperator-corroborated, 30K missing vehicles; (b) **general deep-subprime: LOW** — the SDT REFUTED it on first run (DQ +1.85pp vs severity +0.06pp). Original consequence: August first REFUTE + next TWO quarterly REFUTEs =3consecutive total ⇒ cut (a)'s load-bearing role; do not narrow again. Next~11/15 is the second observation, not by itself the three-reading consequence.
+**Secondary — "The Invisible Exit":** immigrant subprime skip-defaults bypassing the 30→60→90 DQ chain. **Two convictions, never quoted as one (split 8/14):** (a) **at Tricolor: HIGH** — criminally charged Jun 24 (*"manipulated delinquent loan data to make non-performing loans appear current"*), cooperator-corroborated, 30K missing vehicles; (b) **general deep-subprime: LOW** — the SDT REFUTED it on first run (DQ +1.85pp vs severity +0.06pp). Original consequence: August first REFUTE + next TWO quarterly REFUTEs =3consecutive total ⇒ cut (a)'s load-bearing role; do not narrow again. Next~11/15 is the second observation, not by itself the three-reading consequence. Tricolor144A pools lack public performance data; charges/missing vehicles do not establish why borrowers disappeared.
 
 **Carvana sub-thesis (carved out):** related-party allegation only; LOWER conviction (GT retained 5/5, no DOJ action). Not in the confirmed-case count.
 
@@ -93,7 +94,7 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | 2026-10-21 (Wed) | CRMT backstop4: agreement≤10/15; BROCK | 🟠 confirmed; Existing owner/test governs |
 | 2026-10-21 (Wed) | Carvana T-7 short-seller check | 🟠 confirmed; Existing owner/test governs |
 | 2026-10-21 (Wed) | First Brands §721 operating motion (Dkt3796),09:00CT | 🟠 confirmed; Existing owner/test governs |
-| 2026-10-21 (Wed) | OTTO-07 shelf re-run + EART2026-4 FWP | 🟠 confirmed; Existing owner/test governs |
+| 2026-10-21 (Wed) | OTTO-07 full shelf re-run; EART2026-4 already issued | 🟠 confirmed; FWP swept10/14; investigate shelf-specific missing issuance, no absence grade |
 | ~2026-10-21 (Wed) | Chu suppression-ruling check (ECF108) | 🟠 modeled; Existing owner/test governs |
 | 2026-10-22 (Thu) | CRMT seventh-bridge STD, Silver Point | 🔴 confirmed; BROCK grades; silence never grades |
 | 2026-10-27 (Tue) | First Brands §341 creditors meeting,11:00CT | 🟠 confirmed; Trustee Engelhart;11:00CT |
@@ -126,14 +127,16 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 
 | # | Prediction | Status |
 |---|------------|--------|
-| OTTO-31 | Wilmington Trust non-mortgage custodial exit by Dec 31 | 🟠 OPEN **8%** (12→8%10/19); active-franchise evidence again, but narrow ABS-custody book unmeasured. As-made60% unchanged; next10-Q check~11/05. `research/2026-10-19_quickwins/READOUT.md` §2 |
+| OTTO-31 | Wilmington Trust formally confirms/completes non-mortgage ABS custodial exit by12/31/2026 | 🟠 OPEN **8%** (12→8%10/19); active-franchise evidence again, but narrow ABS-custody book unmeasured. As-made60% unchanged; next10-Q check~11/05. `research/2026-10-19_quickwins/READOUT.md` §2 |
 | **OTTO-34** | EART 2022-3 CNL ≥29.0% on the Dec-2026 10-D | 🟠 OPEN **50%** (as-made 60%) — CNL 27.86 → 28.15 → **28.40%** (Jun/Jul/Aug); the row's method projects ≈29.00%, ON the line. Next prints ~10/29, ~11/30 |
-| **OTTO-33** | New corporate counterparty publicly implicated in Tricolor fraud by Dec 31 | 🟠 OPEN **60%** (68→60% 10/14, back to as-made) — the 8/03 raise was conditional on the Kollar/Seibold plea transcripts; none posted in 76 days, and the trustee logged 45,000+ documents as privileged (Chu ECF 162). New lead: trustee Rule 2004 exam of BlackRock (Dkt 1298). Still needs a NAME |
+| **OTTO-33** | Corporate counterparty outside the fixed named list publicly implicated in Tricolor fraud by12/31/2026 | 🟠 OPEN **60%** (68→60% 10/14, back to as-made) — the 8/03 raise was conditional on the Kollar/Seibold plea transcripts; none posted in 76 days, and the trustee logged 45,000+ documents as privileged (Chu ECF 162). New lead: trustee Rule 2004 exam of BlackRock (Dkt 1298). Still needs a NAME |
 | **OTTO-35** | Severity-Divergence Test returns CONFIRM on any quarterly run by Jun 30 2027 | 🟢 OPEN **15%** (Aug 14) — set low because its instrument REFUTED on first run. Two-sided: CONFIRM ΔS≥+2.00 & ΔF≤+0.50 · REFUTE ΔS≤+0.50 & ΔF≥+1.00 · Manheim-gated ±3%. Next run ~11/15 |
 | OTTO-07 | ≥1 subprime ABS shelf halts issuance | 🟢 OPEN **15%** (55→15% Jul 25) — 8 of 8 shelves issued 2026 on the rebuilt `shelf_halt_monitor.py`. Re-run 10/21 |
-| OTTO-11 | Credit-washing prevalence >2.5% of applications | ⚪ **STUCK**,60% preserved — candidate consortium alert proxy covers2025, notH2-2026/proven prevalence; no forced grade.11/30/12/31 coverage checks |
-| OTTO-12 | ≥1 major warehouse lender exits subprime auto | 🟠 **OPEN25%** (55→25,10/19), subjective judgment; original55% retained. Counterevidence from CACC/CPS; VRMUNKNOWN, incomplete private/annual coverage. Next10/20; resolve12/31 |
-| **OTTO-10** | Subprime share of originations falls below 13% (Equifax) | ⚪ **NEEDS_VERIFY** (CATO RC2, 9/30) — Equifax covers May only; re-grade ~12/15 at the edition covering September |
+| OTTO-11 | Credit-washing prevalence >2.5% of applications inH2-2026; resolve12/31 | ⚪ **STUCK**,60% preserved — candidate consortium alert proxy covers2025, notH2-2026/proven prevalence; no forced grade.11/30/12/31 coverage checks |
+| OTTO-12 | ≥1 major warehouse lender exits subprime auto in2026; resolve12/31 | 🟠 **OPEN25%** (55→25,10/19), subjective judgment; original55% retained. Counterevidence from CACC/CPS; VRMUNKNOWN, incomplete private/annual coverage. Next10/20; resolve12/31 |
+| **OTTO-10** | Subprime share of originations falls below 13% (Equifax) | ⚪ **NEEDS_VERIFY** (CATO RC2, 9/30) — Original9/30 deadline held NEEDS_VERIFY;20% current/as-made65%. Equifax coversMay only; re-grade~12/15 at edition coveringSeptember |
+
+> Abbreviated predictions defer to the canonical ledger for full event, exclusion list, unit, deadline and invalidation; summaries do not widen eligibility.
 
 > **Resolved rows moved verbatim to [`STATUS_COLD.md`](STATUS_COLD.md) §4.** Canonical ledger is `thesis/PREDICTIONS.tsv`.
 
