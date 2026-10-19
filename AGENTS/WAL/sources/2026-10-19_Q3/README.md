@@ -1,0 +1,3 @@
+# October19 Q3 source receipt
+
+SEC8-K0001628280-26-066286: actual release and24slideimages retrievedHTTP200, visuallyinspectedbyWAL. `retrieval.json` supplies exactURLs/UTCtimes/status/bytehashes, including failed issuer/BW discovery attempts. `pressrelease-9302026.htm.txt` is the locallyextractedissuertext. StockTitan is a reproduction/discoverycache, not the decisiveprimary. `.http404.html` files are failedguessedPDFpaths; the `ir-feed.json` filename is an unsuccessfulHTTP404HTMLresponse, not JSONfinancialdata. Other403responsesare accessfailures,notnondisclosures. Market snapshot is a datedYahooMIRROR; not exchange-certifiedcloses. RawpricesdonotgradetheOctober20reactionorREGINALDguard.

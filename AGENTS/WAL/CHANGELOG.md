@@ -1,5 +1,9 @@
 # WAL THESIS — CHANGELOG
 
+## 2026-10-19 — Q3 Stage1 grading; v2.4 unchanged
+
+Will directly commissioned release-night grading against the frozenSeptember24frame. SEC8-K0001628280-26-066286 release and all24slides obtained afterframe read. WAL02 INVALIDATED30bps; WAL01 provisionalINVALIDATED272.75M pending10-Qcross-check; prior25%/50%preserved. Coverage118%, peakedguideheld; $99MappraisalPENDING-CALL; DP2provisional, no finalcounteradvanceovernight. Mixedearnings/capitalandQ2comparativereclassification documented with10callquestions. No THESIS/SCENARIOS edit, score/composite/weight/EV/PT or traderulechange. Report `research/2026-10-19_Q3_STAGE1_GRADE.md`; ledgeractuals/ownedstateupdated; per-accountbrokercontextconsumedwithoutRHruletransfer.
+
 ## 2026-10-14 — post-analysis integration sweep; v2.4 unchanged
 
 Will requested a WAL sweep after discussing the FFIEC implications. Folded the new evidence beside V3's historical analysis, marked the old P1 pending-score language as history underWQ324, refreshed the countercase and connected the FY2027 bridge/Q3 preparation to the primary series. Corrected the preparation's unavailable-credential claim and distinguished Q3 FFIEC NOT_RETRIEVED from an undisclosed earnings result. Added descriptive worksheet anchors without new grading bands. No weights, ranges, EV, PT, score, prediction grade, registered condition or trade rule changed. Sweep receipt → `research/2026-10-14_FFIEC-integration-sweep.md`.

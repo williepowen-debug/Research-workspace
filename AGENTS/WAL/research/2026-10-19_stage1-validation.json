@@ -1,0 +1,536 @@
+{
+  "asof": "2026-10-19T21:39:26.411482+00:00",
+  "status": "PASS_WITH_EXPLAINED_ADVISORIES",
+  "checks": [
+    {
+      "check": "issuer-table-9",
+      "pass_": true,
+      "detail": [
+        "339.1",
+        "332.0",
+        "8.3",
+        "2.45"
+      ]
+    },
+    {
+      "check": "issuer-table-10",
+      "pass_": true,
+      "detail": [
+        "(786)",
+        "(451)",
+        "6,173",
+        "5,952"
+      ]
+    },
+    {
+      "check": "issuer-table-11",
+      "pass_": true,
+      "detail": [
+        "45.8",
+        "48.0",
+        "2.2",
+        "574.4"
+      ]
+    },
+    {
+      "check": "issuer-table-12",
+      "pass_": true,
+      "detail": [
+        "1,091",
+        "485",
+        "165"
+      ]
+    },
+    {
+      "check": "issuer-table-22",
+      "pass_": true,
+      "detail": [
+        "6,720",
+        "6,906",
+        "62.22"
+      ]
+    },
+    {
+      "check": "grade-NCO",
+      "pass_": true,
+      "detail": "30bps INVALIDATED; guide45.8<55 and30<37"
+    },
+    {
+      "check": "grade-Office",
+      "pass_": true,
+      "detail": "visualslide13Office25%;total1091;<=500notambiguous"
+    },
+    {
+      "check": "realized-addback",
+      "pass_": true,
+      "detail": "25.7CRE-NOOgrossloss;notloanidentity"
+    },
+    {
+      "check": "coverage",
+      "pass_": true,
+      "detail": "funded+unfunded/nonaccrual,notfullNPL"
+    },
+    {
+      "check": "protected:AGENTS/WAL/Q3_PRINT_GRADING_FRAME_2026-09-24.md",
+      "pass_": true,
+      "detail": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e"
+    },
+    {
+      "check": "protected:AGENTS/WAL/Q3_10Q_GRADING_FRAME_2026-09-24.md",
+      "pass_": true,
+      "detail": "6cb23d451cb0e1df66fb1bbb2fcbd8504d0c694dc60b21256f32595c4e563880"
+    },
+    {
+      "check": "protected:AGENTS/WAL/Q2_GRADING_FRAME_2026-07-21.md",
+      "pass_": true,
+      "detail": "c3e5b13a3e017da3745524b3527a1dc53c5cde9444a8739eeb55a71e91c927bc"
+    },
+    {
+      "check": "protected:AGENTS/WAL/THESIS.md",
+      "pass_": true,
+      "detail": "028ea08501ad443582bc1fa71fdd3ed634b6c32bbe965bec6ef7e7ca29bea68e"
+    },
+    {
+      "check": "protected:AGENTS/WAL/SCENARIOS.md",
+      "pass_": true,
+      "detail": "daf4f674ea1c63aee841eb2a4d6ef42e504fdfbade1815cc51bca1fbd58a08ff"
+    },
+    {
+      "check": "ledger-preserved:WAL-01",
+      "pass_": true,
+      "detail": {
+        "changed_fields": [
+          "Outcome",
+          "Notes"
+        ],
+        "probability": "25%"
+      }
+    },
+    {
+      "check": "ledger-preserved:WAL-02",
+      "pass_": true,
+      "detail": {
+        "changed_fields": [
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "Notes"
+        ],
+        "probability": "50%"
+      }
+    },
+    {
+      "check": "ledger-preserved:REG-15",
+      "pass_": true,
+      "detail": {
+        "changed_fields": [],
+        "probability": "60%"
+      }
+    },
+    {
+      "check": "ledger-01-open",
+      "pass_": true,
+      "detail": "provisionalonly;await10-Q"
+    },
+    {
+      "check": "ledger-02-resolved",
+      "pass_": true,
+      "detail": "10-Qprecedencenote"
+    },
+    {
+      "check": "KB-schema-count",
+      "pass_": true,
+      "detail": "242rows/20groups;uniqueIDs"
+    },
+    {
+      "check": "source-hash:ir-release.html",
+      "pass_": true,
+      "detail": {
+        "http": 403,
+        "url": "https://investors.westernalliancebancorporation.com/News-and-Presentations/news/news-details/2026/Western-Alliance-Bancorporation-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+      }
+    },
+    {
+      "check": "source-hash:ir-quarterly.html",
+      "pass_": true,
+      "detail": {
+        "http": 403,
+        "url": "https://investors.westernalliancebancorporation.com/financials/quarterly-results/default.aspx"
+      }
+    },
+    {
+      "check": "source-hash:ir-feed.json",
+      "pass_": true,
+      "detail": {
+        "http": 404,
+        "url": "https://investors.westernalliancebancorporation.com/feed/PressRelease.svc/GetPressReleases?pressReleaseDateFilter=3&pressReleaseYear=2026&pressReleaseCount=-1"
+      }
+    },
+    {
+      "check": "source-hash:sec-submissions.json",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://data.sec.gov/submissions/CIK0001212545.json"
+      }
+    },
+    {
+      "check": "source-hash:issuer-release.http404.html",
+      "pass_": true,
+      "detail": {
+        "http": 404,
+        "url": "https://investors.westernalliancebancorporation.com/files/doc_financials/2026/q3/Press-Release-9-30-2026.pdf"
+      }
+    },
+    {
+      "check": "source-hash:issuer-deck.http404.html",
+      "pass_": true,
+      "detail": {
+        "http": 404,
+        "url": "https://investors.westernalliancebancorporation.com/files/doc_financials/2026/q3/Earnings-Presentation-9-30-2026.pdf"
+      }
+    },
+    {
+      "check": "source-hash:stocktitan-release.html",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.stocktitan.net/news/WAL/western-alliance-bancorporation-reports-third-quarter-2026-financial-t2o3jzobzms8.html"
+      }
+    },
+    {
+      "check": "source-hash:businesswire.html",
+      "pass_": true,
+      "detail": {
+        "http": 403,
+        "url": "https://www.businesswire.com/news/home/20261016366696/en/"
+      }
+    },
+    {
+      "check": "source-hash:sec-8k.html",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/wal-20261019.htm"
+      }
+    },
+    {
+      "check": "source-hash:sec-index.json",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/index.json"
+      }
+    },
+    {
+      "check": "source-hash:pressrelease-9302026.htm",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/pressrelease-9302026.htm"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent.htm",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent.htm"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent001.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent001.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent002.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent002.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent003.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent003.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent004.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent004.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent005.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent005.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent006.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent006.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent007.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent007.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent008.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent008.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent009.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent009.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent010.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent010.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent011.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent011.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent012.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent012.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent013.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent013.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent014.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent014.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent015.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent015.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent016.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent016.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent017.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent017.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent018.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent018.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent019.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent019.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent020.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent020.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent021.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent021.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent022.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent022.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent023.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent023.jpg"
+      }
+    },
+    {
+      "check": "source-hash:walq32026earningspresent024.jpg",
+      "pass_": true,
+      "detail": {
+        "http": 200,
+        "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent024.jpg"
+      }
+    },
+    {
+      "check": "deck-all-24",
+      "pass_": true,
+      "detail": "all24visualimagesretained"
+    },
+    {
+      "check": "price-vintage",
+      "pass_": true,
+      "detail": "vendorregularmarketasof;notindependentclosecertification"
+    },
+    {
+      "check": "read-cap:STATUS.md",
+      "pass_": true,
+      "detail": 9602
+    },
+    {
+      "check": "read-cap:MEMORY.md",
+      "pass_": true,
+      "detail": 4536
+    },
+    {
+      "check": "read-cap:CLAUDE.md",
+      "pass_": true,
+      "detail": 25878
+    },
+    {
+      "check": "read-cap:AGENTS.md",
+      "pass_": true,
+      "detail": 1045
+    },
+    {
+      "check": "STATUS-line-cap",
+      "pass_": true,
+      "detail": 84
+    },
+    {
+      "check": "named-maintenance-fields",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "check": "new-pattern-identities-reviewed",
+      "pass_": true,
+      "detail": [
+        {
+          "identity": "623ab130bee1d25d189c99be85147cf6ce09f4e9c767dfa9ec74fae36947a515",
+          "kind": "retired",
+          "path": "workbook/PREDICTIONS.tsv",
+          "line": 7,
+          "token": "Schedule O",
+          "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tOPEN\t\t2026-10-19 Stage1 INVALIDATED (PROVISIONAL): EX99.2 slide13 Office25% x classified1091M=272"
+        },
+        {
+          "identity": "623ab130bee1d25d189c99be85147cf6ce09f4e9c767dfa9ec74fae36947a515",
+          "kind": "retired",
+          "path": "workbook/PREDICTIONS.tsv",
+          "line": 7,
+          "token": "Schedule O",
+          "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tOPEN\t\t2026-10-19 Stage1 INVALIDATED (PROVISIONAL): EX99.2 slide13 Office25% x classified1091M=272"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "Office_classified_M": "272.75",
+    "rounding_halfwidth_M": "5.455",
+    "plus_realized_M": "298.45",
+    "NCO_M": "45.8",
+    "ACL_M": "574.4",
+    "coverage_pct": "118.4329896907216494845360825",
+    "combined_NA_OREO_delta_M": "-38",
+    "common_equity_delta_M": "-188",
+    "TCE_delta_M": "-186",
+    "PPNR_less_gains_Q3_M": "401.8",
+    "PPNR_less_gains_Q2_M": "401.1",
+    "ECR_total_delta_M": "-10.5"
+  },
+  "maintenance_advisory": {
+    "new_matches": 2,
+    "why": "WAL01 Outcome changes rowprefix fingerprint; only historical ScheduleO references, frozen Instrument text unchanged",
+    "baseline_modified": false
+  },
+  "consumer_review": {
+    "price_cross": 22,
+    "price_self": 3,
+    "Office_cross": 11,
+    "Office_self": 22,
+    "disposition": "Reviewed shown matched contexts: old13Oct quotes and Q2Office baselines/records not overwritten; specialmention316 and BOND Treasury316M are different series. Current REGINALD stale-source row gets source packet; PROME integrationpacket supplies actuals; NEXUScurrentfold replacesoldbrief. No broad rewrite of history/frozenframe."
+  },
+  "expiry": "KB223 October13consensus deliberatelystale, sourcebasisunmatched;222superseded242, no expiryextensions",
+  "scope": "Sourcebytes/arithmetic/fields/protectedfiles; not every financial inference or futureoutcome. No modeltests/codechanges needed.",
+  "runtime_discovery": {
+    "observed": "collaboration.list_agents returns only /root running",
+    "coverage": "thread-local only, not full fleet; PROME/peer presence and transport UNKNOWN",
+    "helpers_spawned": 0
+  },
+  "broker_source_hashes": {
+    "FORGE/STATUS.md": "9a91e4b110be2c6f4e1e73ad97c12bfce55a06e06cc0e06e9764c105f17f3341",
+    "PROME/data/2026-10-19_broker-capture-TRANSCRIPTION.md": "a39b44adcea1e3bddd234b54a03c90a0a91da46a2434c0da8ff91917b55b47bd",
+    "PROME/data/2026-10-19_broker-capture-TRANSCRIPTION.json": "51498036568a0ec6747655a2dfbec73c8d56d1eb3f8f8d225029a9cdfcf40071",
+    "PROME/reports/2026-10-19_broker-reconcile-acceptance.md": "07c544a265d377feb6c48e5a60b6f3f78312d6c940b222858d6d4b25a208084d"
+  },
+  "foreign_dirty_deferral": "Other desks and shared files dirty; pull and push deferred under root Before pulling. Self-authored four recipient packets are committed under carve-out1; all other orphan-check entries left to their owners."
+}

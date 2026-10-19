@@ -1,0 +1,37 @@
+{
+  "retrieved_utc": "2026-10-19T21:31:02.735546+00:00",
+  "quotes": {
+    "WAL": {
+      "regularMarketPrice": 73.63,
+      "regularMarketTime": 1792440133,
+      "regularMarketPreviousClose": 74.51,
+      "previousClose": 74.51,
+      "postMarketPrice": 73.855,
+      "postMarketTime": 1792445419,
+      "currency": "USD",
+      "earningsTimestamp": 1792440000,
+      "forwardEps": 11.04928
+    },
+    "KRE": {
+      "regularMarketPrice": 69.26,
+      "regularMarketTime": 1792440000,
+      "regularMarketPreviousClose": 69.81,
+      "previousClose": 69.81,
+      "postMarketPrice": 69.26,
+      "postMarketTime": 1792445104,
+      "currency": "USD",
+      "earningsTimestamp": null,
+      "forwardEps": null
+    }
+  },
+  "rates": {
+    "2026-06-30": {
+      "vendor": "Yahoo ^TNX indicative close",
+      "yield_pct": 4.418000221252441
+    },
+    "2026-09-30": {
+      "vendor": "Yahoo ^TNX indicative close",
+      "yield_pct": 5.293000221252441
+    }
+  }
+}

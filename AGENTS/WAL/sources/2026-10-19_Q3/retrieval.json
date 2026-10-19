@@ -1,0 +1,300 @@
+[
+  {
+    "file": "ir-release.html",
+    "url": "https://investors.westernalliancebancorporation.com/News-and-Presentations/news/news-details/2026/Western-Alliance-Bancorporation-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+    "http": 403,
+    "bytes": 6126,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "c9a64a5ba5a977a22cc20254b912fb18fe5ac2f6d7cb57dbaed7d9d0b325b4f8",
+    "retrieved_utc": "2026-10-19T21:30:01.818400+00:00"
+  },
+  {
+    "file": "ir-quarterly.html",
+    "url": "https://investors.westernalliancebancorporation.com/financials/quarterly-results/default.aspx",
+    "http": 403,
+    "bytes": 5716,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "01268a58f5f35505769ee9ac46f1b9690261021e148da788455de53ba0df881a",
+    "retrieved_utc": "2026-10-19T21:30:01.744010+00:00"
+  },
+  {
+    "file": "ir-feed.json",
+    "url": "https://investors.westernalliancebancorporation.com/feed/PressRelease.svc/GetPressReleases?pressReleaseDateFilter=3&pressReleaseYear=2026&pressReleaseCount=-1",
+    "http": 404,
+    "bytes": 75678,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "979e1da31476403dbe9cd3c354a09421eee93c205d4c3e64162960f051afbaae",
+    "retrieved_utc": "2026-10-19T21:30:02.136243+00:00"
+  },
+  {
+    "file": "sec-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0001212545.json",
+    "http": 200,
+    "bytes": 164951,
+    "content_type": "application/json",
+    "sha256": "e51e98e5f7aab4aa15330c08f48a1d8051082cf95eb71005ca85b24adc30f2d2",
+    "retrieved_utc": "2026-10-19T21:30:01.708463+00:00"
+  },
+  {
+    "file": "issuer-release.http404.html",
+    "url": "https://investors.westernalliancebancorporation.com/files/doc_financials/2026/q3/Press-Release-9-30-2026.pdf",
+    "http": 404,
+    "bytes": 1438,
+    "content_type": "text/html",
+    "sha256": "3c69bc39bbd289e5e0c51a61a1af86c531d9a49f2d36cffe82ebc0ce4055ee01",
+    "retrieved_utc": "2026-10-19T21:30:02.296888+00:00",
+    "note": "Failed guessed URL; HTML error response, not a PDF or a filing-absence observation."
+  },
+  {
+    "file": "issuer-deck.http404.html",
+    "url": "https://investors.westernalliancebancorporation.com/files/doc_financials/2026/q3/Earnings-Presentation-9-30-2026.pdf",
+    "http": 404,
+    "bytes": 1438,
+    "content_type": "text/html",
+    "sha256": "3c69bc39bbd289e5e0c51a61a1af86c531d9a49f2d36cffe82ebc0ce4055ee01",
+    "retrieved_utc": "2026-10-19T21:30:02.267082+00:00",
+    "note": "Failed guessed URL; HTML error response, not a PDF or a filing-absence observation."
+  },
+  {
+    "file": "stocktitan-release.html",
+    "url": "https://www.stocktitan.net/news/WAL/western-alliance-bancorporation-reports-third-quarter-2026-financial-t2o3jzobzms8.html",
+    "http": 200,
+    "bytes": 1372999,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "8fd00ace5a8e1a0c9d2e3c5a4d3a6eb2a4643c045324d6849ea5828997bf6e37",
+    "retrieved_utc": "2026-10-19T21:30:02.018090+00:00"
+  },
+  {
+    "file": "businesswire.html",
+    "url": "https://www.businesswire.com/news/home/20261016366696/en/",
+    "http": 403,
+    "bytes": 418,
+    "content_type": "text/html",
+    "sha256": "050c05eff32c1d3238257a89de48a7d6c60ce961f4e221bd7b43e06aa60cf94a",
+    "retrieved_utc": "2026-10-19T21:30:01.669286+00:00"
+  },
+  {
+    "file": "sec-8k.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/wal-20261019.htm",
+    "http": 200,
+    "bytes": 29053,
+    "sha256": "03ed8ae444f0f22c53c49c4501792623a98fdb5180f911b8fadd428bf3c7689e",
+    "retrieved_utc": "2026-10-19T21:30:16.881180+00:00"
+  },
+  {
+    "file": "sec-index.json",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/index.json",
+    "http": 200,
+    "bytes": 4818,
+    "sha256": "fc57aeb3c954b6b79f87e3f5a36fc733b70c53b97574b91882bdcb227bd962c7",
+    "retrieved_utc": "2026-10-19T21:30:17.109874+00:00"
+  },
+  {
+    "file": "pressrelease-9302026.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/pressrelease-9302026.htm",
+    "http": 200,
+    "bytes": 1269375,
+    "sha256": "636d0de96706656e7eab7b3b8dff62e5686559ec148d3713205afc62b4fccffc",
+    "retrieved_utc": "2026-10-19T21:30:26.229714+00:00"
+  },
+  {
+    "file": "walq32026earningspresent.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent.htm",
+    "http": 200,
+    "bytes": 43615,
+    "sha256": "a24727df7874db01af2ce510a3d0ed2cc93b8074d874da8c23a068a9a4ba1121",
+    "retrieved_utc": "2026-10-19T21:30:25.873932+00:00"
+  },
+  {
+    "file": "walq32026earningspresent001.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent001.jpg",
+    "http": 200,
+    "bytes": 44599,
+    "sha256": "acd2a5f09ec1c1e92863d9c71efa9848aa094828d83bb4303650a4053e20fab2",
+    "retrieved_utc": "2026-10-19T21:30:25.953291+00:00"
+  },
+  {
+    "file": "walq32026earningspresent002.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent002.jpg",
+    "http": 200,
+    "bytes": 265782,
+    "sha256": "a5e3d562ed169f1eeae3851eb1f11310f170e68db2cceb47485045c5009551bc",
+    "retrieved_utc": "2026-10-19T21:30:25.804890+00:00"
+  },
+  {
+    "file": "walq32026earningspresent003.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent003.jpg",
+    "http": 200,
+    "bytes": 158125,
+    "sha256": "b935b6e3c230246e07ee45bfa0491b00a7a73e2fcfe78d7568a05f44128ab6d8",
+    "retrieved_utc": "2026-10-19T21:30:26.154453+00:00"
+  },
+  {
+    "file": "walq32026earningspresent004.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent004.jpg",
+    "http": 200,
+    "bytes": 136698,
+    "sha256": "8451df797a4a69ba405b72d9889a6f11dad81bac75db6a31e86802c70543cfbc",
+    "retrieved_utc": "2026-10-19T21:30:26.238002+00:00"
+  },
+  {
+    "file": "walq32026earningspresent005.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent005.jpg",
+    "http": 200,
+    "bytes": 179582,
+    "sha256": "16b7be4afa4aac1f1f874bbb6c8fa384f04799f1d6e6e80ca84542a13e28c439",
+    "retrieved_utc": "2026-10-19T21:30:26.227847+00:00"
+  },
+  {
+    "file": "walq32026earningspresent006.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent006.jpg",
+    "http": 200,
+    "bytes": 145368,
+    "sha256": "cf3db0d25cd0718839c484eaa160d8b9a46ec5dd3250902dbb8c8bb7b1d538bb",
+    "retrieved_utc": "2026-10-19T21:30:26.265642+00:00"
+  },
+  {
+    "file": "walq32026earningspresent007.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent007.jpg",
+    "http": 200,
+    "bytes": 117766,
+    "sha256": "9873222263a15044a42a9109fc6fb0be7653171c225e798575b5df60652b1077",
+    "retrieved_utc": "2026-10-19T21:30:26.352948+00:00"
+  },
+  {
+    "file": "walq32026earningspresent008.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent008.jpg",
+    "http": 200,
+    "bytes": 127265,
+    "sha256": "eb9d9b2458fbcfd755e459fb4c8fc7b895c36624d0188e0dd1c1add2029a7b5f",
+    "retrieved_utc": "2026-10-19T21:30:26.609550+00:00"
+  },
+  {
+    "file": "walq32026earningspresent009.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent009.jpg",
+    "http": 200,
+    "bytes": 133635,
+    "sha256": "a930d7fe15cd39950ef2b4e524db502fb0ab243dd61253dbffcc0e19408a8493",
+    "retrieved_utc": "2026-10-19T21:30:26.449970+00:00"
+  },
+  {
+    "file": "walq32026earningspresent010.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent010.jpg",
+    "http": 200,
+    "bytes": 116666,
+    "sha256": "633aee1ee9eee4aa57b04be47bc468577177389b460ab5b79b2905c7fd88bd89",
+    "retrieved_utc": "2026-10-19T21:30:26.553000+00:00"
+  },
+  {
+    "file": "walq32026earningspresent011.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent011.jpg",
+    "http": 200,
+    "bytes": 126658,
+    "sha256": "86193a22ae218c370fab9d5d7f7346c53a4e528d31bdbfc393128e1dddc3f3be",
+    "retrieved_utc": "2026-10-19T21:30:26.670035+00:00"
+  },
+  {
+    "file": "walq32026earningspresent012.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent012.jpg",
+    "http": 200,
+    "bytes": 104423,
+    "sha256": "4652e9cba376070120b8ba5bc5bb879288ea9d6b9a68f60a9a5618e9f3b65888",
+    "retrieved_utc": "2026-10-19T21:30:26.575411+00:00"
+  },
+  {
+    "file": "walq32026earningspresent013.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent013.jpg",
+    "http": 200,
+    "bytes": 118468,
+    "sha256": "ca2291ce5f7a7781023bcf33fc27eff5abf504fd50ecc11ad0674291d7df0b09",
+    "retrieved_utc": "2026-10-19T21:30:26.803367+00:00"
+  },
+  {
+    "file": "walq32026earningspresent014.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent014.jpg",
+    "http": 200,
+    "bytes": 141950,
+    "sha256": "8852b7a4149c6e8f7d8c35ea89789cb548b563f37088706a7193e50831493798",
+    "retrieved_utc": "2026-10-19T21:30:26.938288+00:00"
+  },
+  {
+    "file": "walq32026earningspresent015.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent015.jpg",
+    "http": 200,
+    "bytes": 110039,
+    "sha256": "b4660b6ea16e3f3a2f0b604bc1e68322c82b50156634cbc82c90cc041eccc709",
+    "retrieved_utc": "2026-10-19T21:30:26.825870+00:00"
+  },
+  {
+    "file": "walq32026earningspresent016.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent016.jpg",
+    "http": 200,
+    "bytes": 107027,
+    "sha256": "afa6f9e58b51daa6bd833b9c9f9a9f8470c35ef1a51ef511e9dbf34d75c26333",
+    "retrieved_utc": "2026-10-19T21:30:26.873086+00:00"
+  },
+  {
+    "file": "walq32026earningspresent017.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent017.jpg",
+    "http": 200,
+    "bytes": 159189,
+    "sha256": "5af4a5132bebe2b22f79cadc006cdf1eb12edc9d86699f602356132f530d4a4c",
+    "retrieved_utc": "2026-10-19T21:30:26.959954+00:00"
+  },
+  {
+    "file": "walq32026earningspresent018.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent018.jpg",
+    "http": 200,
+    "bytes": 40389,
+    "sha256": "364307b3182a0a688734891707f0c5aef0dec06301c9529c36548fc64ddb0196",
+    "retrieved_utc": "2026-10-19T21:30:26.967796+00:00"
+  },
+  {
+    "file": "walq32026earningspresent019.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent019.jpg",
+    "http": 200,
+    "bytes": 32208,
+    "sha256": "4eaa6bfe19f30d0bf96f904b965af4d45276561553e21038ec2bf78597af8cc8",
+    "retrieved_utc": "2026-10-19T21:30:26.969275+00:00"
+  },
+  {
+    "file": "walq32026earningspresent020.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent020.jpg",
+    "http": 200,
+    "bytes": 130861,
+    "sha256": "be4415a13250b951f1e003302aa0793ed8d64fc58be82139d8f8d4d2450aa309",
+    "retrieved_utc": "2026-10-19T21:30:27.077324+00:00"
+  },
+  {
+    "file": "walq32026earningspresent021.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent021.jpg",
+    "http": 200,
+    "bytes": 85726,
+    "sha256": "e9950ad8bcda5818329d8991196b52548e4cfc8353860b6d9f67a6226fb34f4e",
+    "retrieved_utc": "2026-10-19T21:30:27.159474+00:00"
+  },
+  {
+    "file": "walq32026earningspresent022.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent022.jpg",
+    "http": 200,
+    "bytes": 145341,
+    "sha256": "6f869097a393b94043a087a32b5916a0303526e2489ce59b1d2bfabb0ec2142f",
+    "retrieved_utc": "2026-10-19T21:30:27.126014+00:00"
+  },
+  {
+    "file": "walq32026earningspresent023.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent023.jpg",
+    "http": 200,
+    "bytes": 182487,
+    "sha256": "44219a8e635af8e6c6b08cc519603ff2c58a1f00eb1b41fb596ddcc7f0de35bf",
+    "retrieved_utc": "2026-10-19T21:30:27.254375+00:00"
+  },
+  {
+    "file": "walq32026earningspresent024.jpg",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent024.jpg",
+    "http": 200,
+    "bytes": 89082,
+    "sha256": "805f6418e9944b79ca48222406a5d18d467afab454a130793766059315c839f4",
+    "retrieved_utc": "2026-10-19T21:30:27.271026+00:00"
+  }
+]
