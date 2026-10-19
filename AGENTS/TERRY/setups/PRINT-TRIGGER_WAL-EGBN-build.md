@@ -3,6 +3,15 @@
 **Thesis owner:** REGINALD/CARL + grading instrument (`PROME/synthesis/2026-06-25_Q2-bank-print-grading-instrument.md`) · **Card pre-built:** 2026-06-26 · **Fired:** ____
 **Status:** PROPOSE-ONLY — Will [Approve] required (rule #5).
 
+## Current premise disposition — 2026-10-19T17:59:45-04:00
+
+**STAGED / DORMANT; ZONE1 remains UNLOCKED, no entry or re-lock.** CARL answered the October8 request onOctober10, already consumed October11 (`inbox/processed/2026-10-10_from-CARL_TRY-FIRE-002-CRL-21-read-KEEP-DORMANT.md`; `research/2026-10-11_WQ409-source-and-intake-receipt.md`). CRL21vintage OR-leg LIVE/UNTESTED at25%, NCOleg unreachable inQ3; latest bureauflow6.97%Q2 and no new bureauprint beforeWALOctober19. CARL explicitly **KEEP DORMANT**, not no reply. The outstanding-input claim below was stale; that read is discharged.
+
+The October16 review was not written to this card on time. This dated write-back records that failure; it does not backdate a grade or turn a prebuild into a failed prediction. WAL's October19 owner release read supplies no new premise/re-lock approval; EGBN's October21 print cannot activate the old Q2 comparator block. No strike/tenor/size built,0capital and no fired trade. An actual future construction requires fresh owner referral, Q3comparators, constructionrule18 and Willapproval.
+
+**Archive choice still requires Will/PROME disposition:** recommend retiring this unbuilt card ungraded, with any future transmission view on a fresh card. The originalSeptember2 fallback identified archive as Will's call; CARL replied within deadline, so the October8 no-reply branch cannot be falsely invoked. Until that ruling, retain this visible dormant record. No new study or archive move is performed.
+
+
 > **⚠️ 2026-08-19 SELF-AUDIT ANNOTATION — the Q2 window this card was built for RESOLVED ~4 WEEKS AGO and no grade was ever recorded here.** Found by the PROME-tasked self-audit sweep, and it is the desk's n=5 of *"spec frozen correctly in advance, INVOCATION late"* — sister card 003 recorded its Q2 grade on 7/24; this card did not. **Evidence in hand, recorded now, sources named:**
 > - **WAL Q2 printed 7/21 (not the Jul-30 the 6/26 pre-build guessed) — graded NOT-FIRED** (REGINALD Stage-1, GATES row; cited on this desk's own `2026-08-04_bank-put-reshape-REBUILD.md` §(c): *"the WAL 7/21 print fired NOT-FIRED… catalyst resolved null"*).
 > - **Monoline GATE: BEAT 7/21** — fades path (a) per this card's own ZONE-1 gate line (003's 7/24 grade: 0 un-mask tells across COF/SYF/ALLY, reserve releases).

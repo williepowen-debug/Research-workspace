@@ -1,0 +1,133 @@
+{
+  "prepared_at": "2026-10-19T17:58:16.640453-04:00",
+  "sources": {
+    "primary_settlements": "CME pages opened but dynamic settlement rows unavailable for named date/contracts. No source1 grade.",
+    "tick_primary_HO": "https://www.cmegroup.com/rulebook/NYMEX/1a/150.pdf#150102.C",
+    "tick_primary_CL": "https://www.cmegroup.com/rulebook/NYMEX/2/200.pdf#200102.C",
+    "source3": "yfinance1m exact named contracts, Close*Volume separately on14:28/14:29 bars, labelledESTIMATE"
+  },
+  "identity": {
+    "HOZ26.NYM": {
+      "expiry": "2026-11-30",
+      "name": "Heating Oil Dec 26",
+      "timezone": "America/New_York"
+    },
+    "CLZ26.NYM": {
+      "expiry": "2026-11-20",
+      "name": "Crude Oil Dec 26",
+      "timezone": "America/New_York"
+    }
+  },
+  "grades": [
+    {
+      "session": "2026-10-16",
+      "basis": "HOZ26x42-CLZ26,USD/bbl",
+      "source": "3 ESTIMATE",
+      "legs": {
+        "HOZ26.NYM": {
+          "bars": [
+            {
+              "time": "2026-10-16 14:28:00-04:00",
+              "raw_close": "4.725399971008301",
+              "verified_tick_close": "4.7254",
+              "volume": "914"
+            },
+            {
+              "time": "2026-10-16 14:29:00-04:00",
+              "raw_close": "4.7270002365112305",
+              "verified_tick_close": "4.7270",
+              "volume": "722"
+            }
+          ],
+          "sum_volume": "1636",
+          "vwap": "4.726106112469437652811735941320293398533"
+        },
+        "CLZ26.NYM": {
+          "bars": [
+            {
+              "time": "2026-10-16 14:28:00-04:00",
+              "raw_close": "99.05000305175781",
+              "verified_tick_close": "99.05",
+              "volume": "5237"
+            },
+            {
+              "time": "2026-10-16 14:29:00-04:00",
+              "raw_close": "99.04000091552734",
+              "verified_tick_close": "99.04",
+              "volume": "4200"
+            }
+          ],
+          "sum_volume": "9437",
+          "vwap": "99.04554943308254741973084666737310585991"
+        }
+      },
+      "C3_unrounded": "99.45090729063383399836206286807921687849",
+      "notice_comparison": "99.45090729063383399836206286807921687849 <95.00",
+      "exit_comparison": "99.45090729063383399836206286807921687849 <90.16",
+      "notice": "NOT FIRED",
+      "exit": "NOT FIRED",
+      "source2": "REJECTED: October16 daily volumes equal October15 on both legs"
+    },
+    {
+      "session": "2026-10-19",
+      "basis": "HOZ26x42-CLZ26,USD/bbl",
+      "source": "3 ESTIMATE",
+      "legs": {
+        "HOZ26.NYM": {
+          "bars": [
+            {
+              "time": "2026-10-19 14:28:00-04:00",
+              "raw_close": "4.725900173187256",
+              "verified_tick_close": "4.7259",
+              "volume": "1119"
+            },
+            {
+              "time": "2026-10-19 14:29:00-04:00",
+              "raw_close": "4.7179999351501465",
+              "verified_tick_close": "4.7180",
+              "volume": "969"
+            }
+          ],
+          "sum_volume": "2088",
+          "vwap": "4.722233764367816091954022988505747126437"
+        },
+        "CLZ26.NYM": {
+          "bars": [
+            {
+              "time": "2026-10-19 14:28:00-04:00",
+              "raw_close": "98.61000061035156",
+              "verified_tick_close": "98.61",
+              "volume": "8312"
+            },
+            {
+              "time": "2026-10-19 14:29:00-04:00",
+              "raw_close": "98.33000183105469",
+              "verified_tick_close": "98.33",
+              "volume": "8534"
+            }
+          ],
+          "sum_volume": "16846",
+          "vwap": "98.46815505164430725394752463492817286003"
+        }
+      },
+      "C3_unrounded": "99.86566305180396860812144088231320645037",
+      "notice_comparison": "99.86566305180396860812144088231320645037 <95.00",
+      "exit_comparison": "99.86566305180396860812144088231320645037 <90.16",
+      "notice": "NOT FIRED",
+      "exit": "NOT FIRED",
+      "source2": "REJECTED: October19 current daily rows provisional, no T+1 finalization"
+    }
+  ],
+  "opening_label_control": {
+    "2026-10-16": {
+      "n": 390,
+      "first": "2026-10-16 09:30:00-04:00",
+      "last": "2026-10-16 15:59:00-04:00"
+    },
+    "2026-10-19": {
+      "n": 390,
+      "first": "2026-10-19 09:30:00-04:00",
+      "last": "2026-10-19 15:59:00-04:00"
+    }
+  }
+}

@@ -1,8 +1,23 @@
 # MANAGEMENT PROPOSAL — VLO ×1 held share — a price rule vs a policy/event rule
 
-**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original-share management; approved wording independently accepted October14 (PROME92ae2b847), latest accepted leg-A observation October15 NOT FIRED/no notice; October16/19 not graded. Total holding3, original-share rule scope1, added-share scope2 UNKNOWN.
+**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original1share only; October16/19 legA NOT FIRED/no notice on verified two-bar source3 ESTIMATE. Added2scope UNKNOWN, prospective proposal unapproved; SCALE TERMINAL.
 
-> **CURRENT FOLLOW-THROUGH — 2026-10-19T17:32:27-04:00**
+## Current leg-A assessment — 2026-10-19T17:59:45-04:00
+
+| Session | Governing pair / source | C3 USD/bbl, shown rounded after exact comparison | Notice <95 | Exit <90.16 |
+|---|---|---:|---|---|
+| October16 | HOZ26×42−CLZ26, source3 ESTIMATE |99.4509072906|NOT FIRED|NOT FIRED|
+| October19 | HOZ26×42−CLZ26, source3 ESTIMATE |99.8656630518|NOT FIRED|NOT FIRED|
+
+Both values are outside the ±0.15 exit UNKNOWN band. October19 is4.865663USD/bbl above notice and9.705663above exit. This is **one original share only**, no SELL, notice, order, new threshold, scope extension or SCALE revival. Existing original-share exits already owed would survive a higher new observation; this read does not cancel one.
+
+**Exact proof:** `research/2026-10-19_catch-up/VLO-GRADE.json` and raw1m/daily CSVs. Pulled17:56ET, named December identities verified on BOTH contracts (`expireDate`: HO2026-11-30, CL2026-11-20). Two complete14:28/14:29 America/New_York bars per leg, separate Close×Volume sums, positive total volumes, no missing/duplicate target bars. Same-feed SPY390bars09:30→15:59 on each date establishes opening-time labels. Published native increments verified at PRIMARY CME rulebook150102.C (HO0.0001USD/gal) and200102.C (CL0.01USD/bbl); each normalized native price round-trips EXACTLY to its raw IEEEfloat32 transport value and both adjacent ticks do not, rather than rounding an unverified price. Exact Decimal comparisons retained before any display rounding. Source3 remains **ESTIMATE, MIRROR-WALLED**, not an official CME settlement.
+
+**Hierarchy respected:** CME settlement pages opened but supplied no dated named-contract rows. Source2October16 REJECTED: both leg volumes duplicateOctober15 (HO48065/CL249739); source2October19 REJECTED: current-session/provisional. Neither daily bar is substituted for settlement. Manual touch only, no automatic cadence.
+
+**Policy scope:** PRIMARY [EO14435](https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/) read in full October19: diesel tax/penalty relief, not an operative USdistillate export ban/cap/license, so that document does not satisfy B1. Bounded WhiteHouse/FederalRegister and ValeroIR/SEC searches found no qualifying new B1/B2 document; search coverage does not establish universal absence. General B1/B2 NOT CERTIFIED by this limited search; no policy fire or all-clear inferred. B3 remains context only. The original90.16 calibration's July23contract identity remains UNKNOWN; retaining it forDecember is Will's operational ruling, not empirical recalibration.
+
+> **PRIOR FOLLOW-THROUGH — 2026-10-19T17:32:27-04:00 (leg-A gaps superseded by the current assessment above)**
 > **October19 scope reconciliation:** Fidelity now shows3VLO shares, exact basis$1,296.73/value$1,299.93. HELD-01 covers the original1share only; the two later shares have UNKNOWN authorization/management scope. The latest added basis is$444.73 DERIVED from$1,296.73−$852.00, not a certified fill. This does not extend the original rule or revive SCALE, which remains TERMINAL. Last accepted leg-A observation is October15 NOT FIRED/no notice on matched December; October16/19 are not graded here. Governing pair throughNovember19 is HOZ26×42−CLZ26 under the existing source/precision letter. No stock-mark proxy, fresh crack grade or B1–B3 policy grade. PROME must route the two-share scope question for Will's ruling; until then no automatic three-share instruction.
 
 ## Added-share scope decision prepared — 2026-10-19T17:44:09-04:00

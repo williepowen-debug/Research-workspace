@@ -4,6 +4,8 @@
 
 **Scope:** Day-trading only. Thesis/position trades live in `FORGE/` + domain-agent STATUS files. Don't mix them here.
 
+**October19 scope clarification (answers the carried October8 question):** Will-direct discretionary short-dated QQQ puts and calls belong in this loop in either Fidelity or Robinhood. A later management-only expiry card does not turn an uncarded discretionary entry into a researched thesis entry. Broker receipts can enter as partial intake; full-window metrics and behavioral grades wait for adequate trade/decision evidence. Reconcile to the original booking IDs so the same realized result is never added twice. This clarifies existing scope; no new risk rule or scoring permission.
+
 **Priority (Will 6/27):** This is a **bounded side project** — its job is to plug the discretionary-scalp leaks so it can *fund dry powder* for the **researched** thesis trades. It is **subordinate to TERRY's core thesis/fire-card work and must not displace it.** Don't let the journal become the system.
 
 ---

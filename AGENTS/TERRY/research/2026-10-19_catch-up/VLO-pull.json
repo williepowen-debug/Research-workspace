@@ -1,0 +1,53 @@
+{
+  "pulled_at": "2026-10-19T17:56:31.876300-04:00",
+  "data": {
+    "HOZ26.NYM": {
+      "info": {
+        "symbol": "HOZ26.NYM",
+        "shortName": "Heating Oil Dec 26",
+        "exchange": "NYM",
+        "exchangeTimezoneName": "America/New_York",
+        "expireDate": 1795996800,
+        "priceHint": 4,
+        "tickSize": null,
+        "quoteType": "FUTURE"
+      },
+      "rows": 1940,
+      "timezone": "America/New_York",
+      "first": "2026-10-16 00:03:00-04:00",
+      "last": "2026-10-19 16:59:00-04:00"
+    },
+    "CLZ26.NYM": {
+      "info": {
+        "symbol": "CLZ26.NYM",
+        "shortName": "Crude Oil Dec 26",
+        "exchange": "NYM",
+        "exchangeTimezoneName": "America/New_York",
+        "expireDate": 1795132800,
+        "priceHint": 2,
+        "tickSize": null,
+        "quoteType": "FUTURE"
+      },
+      "rows": 2389,
+      "timezone": "America/New_York",
+      "first": "2026-10-16 00:00:00-04:00",
+      "last": "2026-10-19 16:59:00-04:00"
+    },
+    "SPY": {
+      "info": {
+        "symbol": "SPY",
+        "shortName": "State Street SPDR S&P 500 ETF T",
+        "exchange": "PCX",
+        "exchangeTimezoneName": "America/New_York",
+        "expireDate": null,
+        "priceHint": 2,
+        "tickSize": null,
+        "quoteType": "ETF"
+      },
+      "rows": 780,
+      "timezone": "America/New_York",
+      "first": "2026-10-16 09:30:00-04:00",
+      "last": "2026-10-19 15:59:00-04:00"
+    }
+  }
+}

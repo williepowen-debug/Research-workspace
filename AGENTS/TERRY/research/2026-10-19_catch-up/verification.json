@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-19T18:05:13.302320-04:00",
+  "no_rebooking": {
+    "AGENTS/TERRY/research/2026-10-19_broker-reconcile/ACTIVITY.tsv": {
+      "unchanged_since": "413e86381",
+      "sha256": "96c899c1ee7e45dc95d6c4f90bea3909bfa35d54d37cd777f766e1a5787077ee"
+    },
+    "AGENTS/TERRY/POSTMORTEMS.md": {
+      "unchanged_since": "413e86381",
+      "sha256": "6a22f7ee2d7810d2e99258017b20fb7250214188579140e217fc49ca7ec818ff"
+    }
+  },
+  "NCLH_rotation": {
+    "bytes": 4016,
+    "crc32": "38dbb03e",
+    "live_obligations_moved": 0
+  },
+  "raw_will_files": [
+    "AGENTS/TERRY/inbox/WILL/.gitkeep",
+    "AGENTS/TERRY/inbox/WILL/README.md"
+  ]
+}

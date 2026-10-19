@@ -4,7 +4,9 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-19T17:34:52-04:00
+## Current Session — 2026-10-19T18:02:50-04:00 catch-up reopened byWill
+
+Catchup current: `research/2026-10-19_catch-up/REPORT.md` first. Closed stale-debt claims via dated proofs (L372/checkA/CLOSEOUT/WQ399/VIOLETL681/SEPbatch); CARL10/10KEEP DORMANT alreadyconsumed,002notrelocked/archivechoiceWill. VLOoriginal1 A10/16and10/19NOTFIRED/noNotice onsource3ESTIMATE99.4509072906/99.8656630518;added2scopeUNKNOWN/Bpolicycoverageuncertified/scaleterminal. NCLHQ3confirmed10/29,10/30expiryspansrelease,earlystale-byreviewdone/no-card. DaytradeQQQclassificationYES/partialjournalintake,nofullmetrics. WAL0806a121fCET1numerator7389Mdisclosedcorrectionconsumed,exactRWA/adjustmentsremain. FutureC5KREdatesalreadyregistered;D706basisfix1391.36toPROME;FidelityWAL70/ZIONdatesDec16/Nov18toPROME. No rebooking/newrule/trade/study.
 
 Will launched TERRY aftercloseOctober19 for PROMEbroker-reconcile/C5. OpenAI GPT-6/Codex, exactvariantUNKNOWN, session01a15610-6ca1-7a52-9c12-58250b30d99a, nohelper. Noorder/capital/rule/gate. Read research/2026-10-19_broker-reconcile/CONTINUATION.md then REPORT.md FIRST for exactrows/gaps/cardindex.19Activityrowsfrozen (16filled/3cancel), sourcehash514980…40071. ThreecompleteQQQcallthreads+27.69DERIVED bookedonce inPOSTMORTEMS.719Ppartial−53.32CONDITIONAL/0.50allocationmismatch excluded. No dailyrealizedtotal. Priorbookingspreserved.
 
@@ -12,7 +14,7 @@ EightseparateC5cards: tomorrowQQQ720P/719P/715Peach1priority,prefer09:35–10:00
 
 VLO3total/original1rulecoverage/added2scopeUNKNOWN;prospectivesame-letter/manualA/BpreparedNOTAPPROVED,SCALETERMINAL. FidelityWAL70P2distinctRH1,ZION62.5P2newscopeintakeowed. D84unseenentries/quantitychanges,D85basis,D86expiredQQQ/HBANoutcomes,RH/order/clocks/handlingremainunknown. Neverinferlapsefromabsence. No newstudy,monitorortradeauthorized. ExistingOctober14scopecontinuesexceptexplicitOctober19C5commission. Dashboardonrequest;Deckpaused/Helmretired.
 
-Checks/cutoff/publication andremainingacceptance in PROME/inbox/2026-10-19_from-TERRY_broker-reconcile-and-expiry-cards.md. PROMEexplicitcloseoutrequestreceivedinthisconversationandansweredbyCONTINUATION.md/followupdelivery;nativecross-threadnotification/recipientconsumptionunverified. No foreignworktouched/pull/stash. New BOARD033read/logged;3NAMEDcorrectionsNO-OP;rawWill0new. Paper3marked,noscoringcredit. SETUPS/TRADE_BOOKhistorysplitcrcverified,allcurrentobligationshot;researchretirement146pathsassessed/3oldretainedfordirectliveuses/0moves,carriedprocessdebtsnotclosed.
+Checks/cutoff/publication andremainingacceptance in PROME/inbox/2026-10-19_from-TERRY_broker-reconcile-and-expiry-cards.md. PROMEexplicitcloseoutrequestreceivedinthisconversationandansweredbyCONTINUATION.md/followupdelivery;nativecross-threadnotification/recipientconsumptionunverified. No foreignworktouched/pull/stash. New BOARD033read/logged;3NAMEDcorrectionsNO-OP;rawWill0new. Paper3marked,noscoringcredit. SETUPS/TRADE_BOOKhistorysplitcrcverified,allcurrentobligationshot;researchretirement146pathsassessed/3oldretainedfordirectliveuses/0moves,carried process-debt descriptions at that earlier handoff are superseded by the catch-up proof above.
 
 ### Prior boundary — October14 11:12 EDT
 
@@ -28,8 +30,8 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 1. Reconcile later inbox/processed and broker evidence against October19 source hash/Activity keys before repeating any booking. PriorOctober15QQQ740P/USO150Cclosures already booked; cohort/partial totals are not additive.
 2. TomorrowQQQthreeputs andOZK10/20 15:30backstop first. Re-markheldquantity/orders/bids;Willapproves/orders. WALwindowended,ownerQ3grade/freshchoiceowed;TBT5approvedexitfillowed. October23cardsnext,otherC5draftsreadybutexecutablechecksowed.
-3. VLOoriginal1only;twoaddedsharescopeUNKNOWN,scaleterminal. FidelityWAL70P2andZION2intake/KREcarddates remain. ActualQQQ/HBANexpiredoutcomes andbasisgapsawaitbroker,notinference.
-4. CarryNCLH10/20stale-bywithprimary10/29reportdate,existingdormantprint/relockandprocessdebts. Noadditionalresearchbydefault. Rootexactpaths/freshpushproof andindependentacceptance/consumptionseparations remain.
+3. VLOoriginal1only;twoaddedsharescopeUNKNOWN,scaleterminal. FidelityWAL70P2 and ZION2 intake/date registration remain; KRE C5 dates are already registered (Nov24/Dec16), with future cards still owed. ActualQQQ/HBANexpiredoutcomes andbasisgapsawaitbroker,notinference.
+4. NCLH10/20date/ownercontextreviewcompletedearly10/19.002premisereadanswered/KEEPDORMANT;archivechoiceWill. Supersededprocessdebtsclearedbyproof,rulecandidatesstillunadopted. Noadditionalresearchbydefault. Rootexactpaths/freshpushproof andindependentacceptance/consumptionseparations remain.
 
 ## Mandate (one line)
 

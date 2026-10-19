@@ -4,6 +4,15 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## October19 — partial broker intake; existing QQQ review-loop question answered
+
+Observed 2026-10-19T18:02:50-04:00. Source `../research/2026-10-19_broker-reconcile/ACTIVITY.tsv` / frozen broker-source.json, October19 cropped Fidelity Activity and holdings; exact fill/capture clocks and earlier rows UNKNOWN. **Yes: these Will-direct short-dated QQQ puts/calls belong here.** This is a partial-intake note, not a new full-day/session performance review or an additional realized booking.
+
+Already-booked complete QQQOctober19callthreads:725C−96.67,721C+179.68,720C−55.32 = **DERIVED+$27.69**; reference only, never sum this journal copy as new P/L. QQQ719Ppartial conditional−53.32/$0.50lot mismatch,712C/October21 700Popeningbases and earlier expiredQQQ/HBAN outcomes remain unresolved. Three held October20puts each1 have prospective management cards, not reconstructed entry approval. Canceledorders are nottrades; cash/pending or openG/L are not realized profit.
+
+**Unscored:** missing fullwindow/orderclocks/pre-entry decisions prevent a full daily result, trade-frequency denominator, same-timestamp execution grade or causal/behavioral conviction. Near-total recovery loss on725C is a visible result, not proof of who initiated exit or which stop was ignored. No new Session6 metrics row or sample credit invented. Existing ledger's last complete metric refresh remainsAugust3; new evidence is discoverable here and in source-keyed Activity. Resume a full review when the missing window/entry/outcome evidence arrives. Existing harvest/stop/risk rules unchanged.
+
+
 ## Session 5 — 2026-08-04 · **three more 0DTE QQQ puts, all worthless — found from broker truth, not from intake**
 
 > **Reviewed 2026-08-04 ~16:10 ET, after the close. Source: Will's Fidelity + Robinhood captures (~15:40), Will-confirmed "this is it" — the book is complete.**

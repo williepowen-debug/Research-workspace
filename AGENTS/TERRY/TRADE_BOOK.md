@@ -93,3 +93,7 @@ Prior rows above are dated records. These rows supersede their current-state cla
 
 | 2026-10-19 continuation | MGMT-WAL65P-DEC18 | WAL / REGINALD | CONDITIONAL | Fresh post-print A/B owed; WQ429 ended/no renewal | CONDITIONAL — committed owner/source verification complete; lean SELL4 next liquid session vs explicit call hold; broker quote/new Will ruling owed | `setups/WAL65P_dec18-preprint-management_2026-10-14.md` |
 | 2026-10-19 continuation | MGMT-VLO-SHARE | BRENT / HENRY | CONDITIONAL | Original1scope only; added2 A/B NOT APPROVED | CONDITIONAL — prospective same-letter/manual-scope choice prepared; total3; no scale revival or retrospective grade | `setups/VLO-SHARE_management-proposal_2026-09-28.md` |
+
+| 2026-10-19 catchup | MGMT-VLO-SHARE | BRENT/HENRY | CONDITIONAL | Original1scope only | CONDITIONAL — A10/16and10/19 NOT FIRED/no notice; C3ESTIMATE99.4509072906/99.8656630518; added2scopeUNKNOWN; no order | `setups/VLO-SHARE_management-proposal_2026-09-28.md` |
+| 2026-10-19 catchup | TRY-FIRE-002 | CARL/REGINALD | STAGED | Ungradedarchivechoice toWill | STAGED — KEEP DORMANT reply10/10 consumed10/11, re-lockNO; reviewwrittenlate, no entry or archive execution | `setups/PRINT-TRIGGER_WAL-EGBN-build.md` |
+| 2026-10-19 catchup | TRY-COND-NCLHDEC14P | CRUISE | CONDITIONAL | No card/entry | CONDITIONAL — NOT PROPOSED; Q3dateconfirmed10/29,10/30expiryspansrelease; owner/edge prerequisitesremain, no freshpricing | `options/PRINT_ENVELOPE_CRUISE_2026-09-19.md` (datedanalysis) |
