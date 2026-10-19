@@ -4,32 +4,32 @@ Post-mortems for resolved rows in [`PREDICTIONS.tsv`](PREDICTIONS.tsv). The TSV 
 
 ---
 
-## Calibration Scoreboard — AS-MADE (rebuilt 2026-10-14, s029)
+## Calibration Scoreboard — strict AS-MADE (re-audited 2026-10-19, s034)
 
-**Every resolved row, scored at the confidence it carried when it was written.** As-made figures come from git: the first commit that carries each row (`91c301279` 2026-03-04 seed for the 2/23 rows; `0bc51c74d` 4/15; `3c880fbb1` 5/22). A walked cell is never the scoring vintage.
+The February Markdown ledger predates the March TSV seed. Nominal February23 Made_Date cells survive as migration records, not first-registration proof. Earliest saved records: `ee95c5631` February4 and `3d85bd588` February15. Full evidence, timing caveats and replay: [`forecast repair`](../research/2026-10-19_forecast-repair/READOUT.md). Later rows' original-confidence references remain `0bc51c74d` April15 and `3c880fbb1` May22. Do not score walked cells.
 
-| Row | Outcome | As-made | Brier | Counted? |
+| Row | Historical grade | As-made | Brier | Counted? |
 |---|---|---|---|---|
-| OTTO-01 | ✅ CONFIRMED | 75% | 0.0625 | yes |
-| OTTO-05 | ❌ FALSIFIED | **60%** | 0.3600 | yes |
-| OTTO-08 | ✅ CONFIRMED | 50% | 0.2500 | yes |
-| OTTO-09 | ✅ CONFIRMED | 65% | 0.1225 | yes |
-| OTTO-26 | ❌ FALSIFIED (date) | 40% | 0.1600 | yes |
-| OTTO-27 | ✅ CONFIRMED | 50% | 0.2500 | yes |
-| OTTO-28 | ❌ FALSIFIED (window) | 50% | 0.2500 | yes |
-| OTTO-29 | ❌ FALSIFIED (window) | 75% | 0.5625 | yes |
-| OTTO-30 | ❌ FALSIFIED | **60%** | 0.3600 | yes |
-| OTTO-32 | ✅ CONFIRMED | 85% | 0.0225 | yes |
-| OTTO-04 | ❌ FALSIFIED-on-metric | 75% | 0.5625 | **no**: graded on a projection of a series OTTO could not observe after March (post-mortem below) |
-| OTTO-06 | ❌ FALSIFIED | 70% | 0.4900 | **no**: dead zone; the resolving clause was written late and decided it (s026) |
-| OTTO-10 | ⚪ NEEDS_VERIFY | 65% | 0.4225 staged | **no**: data cover May only; re-check ~12/15 |
-| **Counted** | **5 of 10 hits** | | **mean 0.2400** | |
+| OTTO-01 | CONFIRMED on revised Q1–Q2 terms | **70%, February4, Q2** | 0.0900 if scored as a hit | **no:** February MFS precedes Q2; original “Q2” by-versus-during wording is ambiguous, February15 explicit Q1–Q2/75% are revised terms; conservative exclusion, not a new miss |
+| OTTO-05 | FALSIFIED | 60% | 0.3600 | yes |
+| OTTO-08 | CONFIRMED | 50%, February4,H2 | 0.2500 | yes, **BCRED September3/Q3** witness; original March resolver was early and misnamed OBDCII as OTIC |
+| OTTO-09 | CONFIRMED, historical grade retained | 65%, February4 | 0.1225 if scored | **no:** pre-existing FirstBrands BDC losses; additional-BDC set and comparison baseline unqualified |
+| OTTO-26 | FALSIFIED (date) | 40% | 0.1600 | yes |
+| OTTO-27 | CONFIRMED | 50%, February15,Q1 | 0.2500 | yes, **actual** Q1 NII0.42/total distribution0.48; old resolver used guidance |
+| OTTO-28 | FALSIFIED (window) | 50% | 0.2500 | yes |
+| OTTO-29 | FALSIFIED (window) | 75% | 0.5625 | yes |
+| OTTO-30 | FALSIFIED | 60% | 0.3600 | yes |
+| OTTO-32 | CONFIRMED | 85% | 0.0225 | yes |
+| OTTO-04 | FALSIFIED-on-metric | 75% | 0.5625 shown | no: unobservable original metric, true-at-creation replacement |
+| OTTO-06 | FALSIFIED | 70% | 0.4900 shown | no: post-hoc dead-zone rule decided grade |
+| OTTO-10 | NEEDS_VERIFY | 65% | 0.4225 staged | no: observation period incomplete |
+| **Counted** | **3 of8 hits** | | **sum2.2150 /8 =0.276875** | |
 
-**Read this before citing 0.2400:** answering 50% on every row scores **0.2500**. On ten rows OTTO's stated confidence carries almost no information beyond a coin flip. The hits cluster at 50–75% and two misses sat at 60–75%. n=10 is small; this says "no evidence of skill yet", not "no skill".
+The previous **5/10,0.2400 is superseded**. A constant50% forecast scores0.2500. Small, selected n=8 shows no demonstrated forecasting edge. This audit removes two historical hits, not misses. It preserves prior grades and distinguishes current eligibility from historical bookkeeping. The other resolved rows were not re-audited here; existing evidence exclusions still stand.
 
-⚠️ **Two as-made figures corrected tonight, both against OTTO.** (1) **OTTO-05** was carried at 48% with no as-made marker; the seed is **60%** (walk 60 → 62 [5/22] → 48 [6/08]). (2) **OTTO-30**'s marker read "was 65% [2026-04-15]"; git shows **60%** at creation and 65% set on 5/21 (`20cd8a532`). The 9/12 as-made audit missed both. OTTO-30 scores 0.36, not the 0.4225 the audit recorded. Five other rows carry walked cells without a marker (OTTO-07, -10, -29, -33, -34); the ledger fix is owed in `PREDICTIONS.tsv`.
+If one instead scores OTTO-01's **February15 revised75% and Q1–Q2 specification**, the sensitivity set is4/9, sum2.2775, mean0.253056. That is a revised-specification series, **not** the strict original forecast score and not its headline. Neither case supports the old edge claim.
 
-⚠️ **Not re-examined:** the four early hits (OTTO-01, -08, -09, -27) were made 2/23 and confirmed within days to weeks. None has been checked for being true at creation (the OTTO-04 rule). If any was, the 0.2400 flatters the book.
+**Earlier s029 audit repairs retained:** OTTO-05 began60%, not48%; OTTO-30 began60%, not65%. Its correct as-made loss is0.36. Forecast terms need the same provenance check as probabilities: OTTO-01's original70% cannot be paired silently with a later wider window. A post-registration actual outcome can validate a quarter-specific claim; prior-quarter undercoverage does not make FSK's Q1-2026 claim true at creation.
 
 ---
 

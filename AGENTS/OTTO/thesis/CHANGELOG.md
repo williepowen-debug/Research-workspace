@@ -9,12 +9,19 @@ prediction-confidence moves of note, new transmission rows, case-status escalati
 NOT routine dashboard refreshes (those live in STATUS) and NOT structural doc/folder
 changes (those live in `MAINTENANCE.md`).
 
-**Versioning:** OTTO's canonical thesis is `thesis/THESIS.md` (**v1.4 as of 2026-08-27** — the s019 bump: **First Brands plan confirmation DENIED and every debtor ordered into Ch.7 (Aug 24)**, moving the fraud-recovery-magnitude leg from forecast to court order while **neither systemic leg moves**; OTTO-32 85→97% resolving on ENTRY of the conversion order. *Prior: v1.3 2026-08-14* — the s018 bump: the **bank-contagion transmission leg joins the funding leg as DISCONFIRMED** (OTTO-30 falsified), Secondary-thesis falsifier #2 **ran, did not fire, and was re-specified as unsound** (a one-sided instrument), plus three factual corrections carried since v1.2 — the vacated Oct-19-2026 Tricolor trial date, the First Brands trial's true four-day/under-advisement posture, and the wrong "all 7 panel deals rising" claim — and a rebuilt calibration scoreboard naming **measure-design as the dominant failure family**. *Prior: v1.2 2026-07-25 absorbed the four s016 moves; v1.1 2026-07-04; v1.0 2026-06-09.*);
-`STATUS.md` § THESIS is a live-state mirror. Entries here are dated and may cite the
-thesis version they moved. *(Preamble corrected 2026-07-25 — it had described the
-pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` existed.)*
+**Versioning:** THESISv1.5 (August27) with bounded October19 factual addendum. Finalv1.6 remains dueOctober30 after earnings and independent cold read; not finalized by s034.
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
+
+### 2026-10-19 — s034 forecast/provenance repair and bounded thesis reconciliation
+
+**Was → Is.** Warehouse-exit55% held without calibration → **25% OPEN, coarse subjective judgment**, direct CACC extension/tighter spread and CPS added capacity weigh against broad retreat. Private/annual gaps and VRMUNKNOWN prevent a negative event grade, not a reason to favor exit. Original55% remains eventual scoring vintage; whole-loan arrangement separate. Credit-washingOPEN60% → **STUCK**, probability/terms/deadline unchanged: candidate alerts/consortium universe known, literal prevalence/H2 observation absent; no post-hoc dead-zone repair.
+
+**Calibration:** first registrations found in February Markdown, preceding TSV migration.01 original70%/Q2 window differs from later75%/Q1–Q2 and February MFS hit;09 lacks an additional-BDC baseline and pre-existing GECC losses were already>10%. Exclude both from strict original-series calibration, retaining historical grades.08 later BCREDH2 gate and27 actual Q1 NII support current grades. Strict score **3/8,0.276875**, old5/10,0.2400 superseded; no demonstrated edge. Saved snapshots/hashes/calculations in forecast-repair.
+
+**Thesis/rule repair:** FirstBrands entry/Tricolor ECF149 charge scope, pool-versus-corporate inference, report-date cadence, phantomEquifax mechanism, stale BDC total/trade status and scoreboard reconciled. Restore original August14 rule: firstREFUTE plus nextTWO quarterlyREFUTEs =3total. Later one-more language was a contradictory paraphrase, no explicit registered change; SDT numeric boundaries unchanged. General convictionLOW; no universal causal disproof. Case-level recovery rung, broader causal audit, earnings integration and independent cold read still owed for finalv1.6 October30.
+
+**Trigger:** Will asked to work on the remaining repairs now. No trade/colour/convergence change, external send or push; no other owner's record edited. CATO OR1 closure remains reviewer-owned. Sources/limits: `../research/2026-10-19_forecast-repair/READOUT.md`.
 
 ### 2026-10-19 (s033) — Ally–Carvana capacity expanded, but continuing access is cancellable
 

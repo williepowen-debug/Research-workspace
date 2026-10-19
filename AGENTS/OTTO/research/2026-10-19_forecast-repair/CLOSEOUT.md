@@ -1,0 +1,13 @@
+# s034 verification and delivery boundary
+
+Evidence `ea329d216`. Root/local instructions explicitly loaded in this Will-owned Codex/GPT-6-family thread; exact suffix/sessionID unavailable. Shell, web, SEC source capture and Git verified. No verified native fleet transport, no helper launched; WINTERKORN last10/14,5days, not due.
+
+Replay verifies9 retained source/excerpt hashes and4 git snapshots. Original50MB PointPredictive PDF is deliberately not in repo; full text/page13 PDF retained and original hash recorded. Source manifest includes2 retrieval failures; alternate FSK issuer PDF works. Bundle1,907,677bytes; raw duplicate working files moved to/tmp rather than committed. `derive.py` reproduces strict score3/8,sum2.215,mean0.276875 and actualFSK0.875x/0.8542x. Inclusion judgments remain human evidence judgments, not proved by arithmetic.
+
+Prediction dict comparison: six rows changed, only declared Notes/Result/Status/Confidence fields; all event text, deadlines, nominalMade_Date and invalidations unchanged. Original probabilities and historical grades retained; current12prob25%,11STUCK. ML byte-prefix preserved,5rows appended. Docket remains8columns,32events; no event-date change. Boot--no-price surfaces6OPEN plusSTUCK/NEEDS_VERIFY,0overdue; correction receipt and weekday checks pass. STATUS22,365bytes before final pin, under70%of32,550budget; convergence arithmetic remains33/50,21one root. Whitespace check passes.
+
+Consumer checks ran cross-owner andself for55→25(warehouse) and0.2400→0.276875(score). RED's55match is unrelated WAL office risk, no correction warranted; RED gets scenario change through WALTER. CATO current review mentions the same warehouse estimate and receives new owner judgment/provenance via WALTER, without altering its historical review/census. Own remaining old values are historical snapshots/readouts/append-onlyML, now superseded by dated records. Finalbrief/currentcontinuity reconciled at delivery. No bare-number candidate receives a correction packet.
+
+Fullv1.6, case-level recovery rung and required cold read remain open; this is a boundedv1.5 addendum. Credit-washing instrument audit completed but literal claim remainsSTUCK; no 2025 proxy forced intoH2-2026. OriginalSDT three-total consequence restored, no numeric threshold change. CATO OR1 owner repair froms033 stands; independent closure not claimed. Tomorrow's actual release/call read remains future.
+
+Exact owned paths and self-authored PROME/WALTER packets only. File delivery is distinct from recipient consumption/native notice; no push, trade, spending, external contact or terminal shutdown. Other desks' working files and commits preserved. FinalSTATUScommit is pinned in NEXUS_BRIEF; run brief_pin_check after delivery commit.

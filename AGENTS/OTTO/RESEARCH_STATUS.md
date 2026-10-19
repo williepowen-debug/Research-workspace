@@ -1,6 +1,6 @@
 # OTTO Research Status
 
-**Last Updated:** 2026-10-19 (s033); CATO OR1 owner correction at `cf2879751`; s032 readiness evidence retained at `cebaa8c61`. s031 September/M&T `3a68e48c1`; L708 NO_INSTRUMENT `a95429b7c`.
+**Last Updated:** 2026-10-19 (s034); CATO OR1 owner correction at `cf2879751`; s032 readiness evidence retained at `cebaa8c61`. s031 September/M&T `3a68e48c1`; L708 NO_INSTRUMENT `a95429b7c`.
 
 ---
 
@@ -9,6 +9,7 @@
 
 | ID | Topic | Date | Finding | Location |
 |----|-------|------|---------|----------|
+| **s034** | **Forecast provenance/instrument repair; bounded thesis reconciliation** | **2026-10-19** | Strict original score3/8,0.276875; warehouse55→25%subjective; credit-washingSTUCK; originalSDT3total. Finalv1.6 still10/30 | `research/2026-10-19_forecast-repair/READOUT.md` |
 | **s033** | **CATO OR1 / Ally–Carvana actual July amendment** | **2026-10-19** | $8B throughJuly2027, immediate discretionary cancellation subject to law; narrative/exhibit endpoint discrepancy retained. Expanded capacity is not guaranteed access or warehouse credit | `research/2026-10-19_ally-amendment/READOUT.md` (`cf2879751`) |
 | **s032** | **Ally baseline / warehouse refresh / report timing** | **2026-10-19** | AllyQ3 unprinted; NO EXIT FOUND in bounded scope, VRM warehouseUNKNOWN; CVNA48/21/0days + olderCACC18, no reliable cadence | `research/2026-10-19_readiness/READOUT.md` (`cebaa8c61`) |
 | **s031** | **September panel + M&T/Wilmington dated read** | **2026-10-19** | Five Sep deals remain worse YoY;44/44 available comparisons; servicing confound. OTTO-31 12→8%, OPEN; broad corporate trust is not narrow custody | `research/2026-10-19_quickwins/READOUT.md` (`3a68e48c1`) |
@@ -56,7 +57,7 @@ list — it does **not** own live monitoring snapshots.)*
 | Priority | Topic | Rationale |
 |----------|-------|-----------|
 | **HIGH** | **Kollar / Seibold plea transcripts** (unsealing ordered 7/30) | None posted at 76 days; OTTO-33's own ~9/28 re-examine is overdue. Highest-yield unclaimed Tricolor document for a new counterparty name |
-| **HIGH** | **OTTO-11 instrument** (credit-washing prevalence) | The row names no source, unit or perimeter; it resolves 12/31 and cannot be graded as written |
+| **FOLLOW-UP** | **OTTO-11 covering source** | Instrument audit done10/19: consortium alert proxy found, literal prevalence/H2-2026 coverage missing. STUCK; existing11/30/12/31 checks, no forced grade |
 | MEDIUM | Tricolor suppression ruling (ECF 108; hearing 10/7) | Granted in material part = a weaker case for the 1/25/27 trial |
 | LOW | `research/TIER2_FORENSIC_SCREEN_SPEC.md` build | Feasibility gate passed 7/25, no date since: schedule or drop |
 | ✅ RESOLVED | ~~Counts 7–8 securitization list~~ | ECF 149, filed on time 8/28: 11 of ≥13 TAST deals (ML-OTTO-293/294, s028) |

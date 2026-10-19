@@ -375,7 +375,7 @@ All predictions go in `thesis/PREDICTIONS.tsv` with 9-col schema (matches BROCK/
 - **Confidence:** Percentage
 - **Resolve_Date:** Specific date (not a range like "Q2 2026")
 - **Invalidation:** What observation would falsify it
-- **Status:** OPEN / CONFIRMED / FALSIFIED / NEEDS_VERIFY
+- **Status:** OPEN / CONFIRMED / FALSIFIED / NEEDS_VERIFY; **STUCK** for an instrument/window that cannot resolve, per fleet STATE_VOCABULARY Class3. STUCK is a state, not a confidence cut; preserve original terms.
 
 Review predictions weekly. Update on new data.
 
@@ -421,9 +421,9 @@ OTTO's job: Generate signal. Not position sizing.
    - Search "[Company] short report" + "[Company] fraud"
    
 2. **If Position Active:**
-   - Note historical pattern: Short reports often drop same-day or next-day after earnings
-   - Gotham/Hindenburg tend to time reports for maximum impact
-   - Consider holding through binary events when short thesis active
+   - Record actual initial/follow-up publication dates; the bounded historical sample establishes no reliable earnings-day cadence or arrival probability
+   - Read scheduled disclosures and any actual new report; absence at one release is not a timing model
+   - TERRY owns holding/exit construction; Will approves trades. Research timing does not create a holding instruction
 
 3. **Alert Triggers:**
    - Any mention of company by known short-seller → 🔴 ALERT PROME
@@ -434,11 +434,11 @@ OTTO's job: Generate signal. Not position sizing.
 
 - We had CVNA put position with correct thesis (GPU compression, margin miss)
 - Closed for $86 loss before EOD
-- Gotham dropped report SAME DAY as earnings
+- Gotham published a FOLLOW-UP on February18 earnings day; the January28 initial report was21days earlier
 - Stock dropped 24% after we closed
 - **Root cause:** Short-seller report timing not factored into exit decision
 
-**Rule:** When short thesis is active AND short-seller has covered the company before, assume report may drop on earnings day. Factor into position sizing and exit timing.
+**Research rule (reconciled s034):** perform the existing T-7/earnings report check, record initial versus follow-up identity, and infer no dependable publication calendar. Historical offsets48/21/0/18days are small and partly dependent (`research/2026-10-19_readiness/SHORT_REPORT_TIMING.md`). Any holding/exit/sizing decision remains TERRY/Will.
 
 ---
 

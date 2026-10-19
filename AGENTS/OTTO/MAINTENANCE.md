@@ -14,6 +14,10 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+### 2026-10-19 s034 — forecast provenance / charter timing consistency
+
+**Trigger:** Will approved remaining forecast/thesis repairs. **Changes:** pre-migration forecast snapshots and retained-primary-source replay added under `research/2026-10-19_forecast-repair/`; CLAUDE prediction vocabulary recognizes fleet-canonical STUCK, and short-report monitoring no longer asserts a measured cadence or supplies a holding instruction. No production parser, monitor, threshold, ownership or approval change. **Boot impact:** existing prediction reader already surfaces nonterminal STUCK; no new scheduled study. Analytical judgments and score eligibility live in THESIS/CHANGELOG/PREDICTIONS_ARCHIVE, not here.
+
 ## 2026-10-19 — s032: bounded research source bundle and replay
 
 **Trigger:** Will approved Ally preparation, overdue warehouse search and report-date evidence. **What:** added a task-local primary-source collector, deterministic compressed source bundle and hash/inventory/date replay; local loose sources and Python cache ignored. **Files:** `research/2026-10-19_readiness/` and its research index; original Ally synthesis receives a dated duration-correction banner, not a rewritten historical narrative. **Boot-impact:** no startup or production-instrument changes; current state links to the worksheet and unknowns. **Lesson:** include all8-K item classes in the bounded attempt; VRM's controlling short roll was Item8.01. Raw submissions clocks are not certified acceptance times. No new research monitor, threshold or cadence rule.

@@ -29,7 +29,9 @@ The s032 preview correctly challenged the old “$6B throughOctober2027” synth
 3. **Performance/concentration:** Ally's June figures already in the worksheet show Carvana-sourced receivables10.4→12.1% of consumer-auto receivables. Higher concentration raises the consequences of performance changes, but aggregateAlly losses cannot identify Carvana-specific deterioration. A same-perimeter numeric series or explicit qualified management statement is needed.
 4. **Withdrawal versus discretion:** verify any actual cancellation, effective date, scope and remaining obligations. Do not equate a newly read contract right with a newly occurred withdrawal. Keep the warehouse search/VRM unknown separate.
 
-## OTTO-12 probability reassessment
+## OTTO-12 probability reassessment — s033 historical judgment
+
+> **Superseded for the current estimate by s034:** current25% subjective judgment after matched warehouse counterevidence; original55% preserved for scoring. See `../2026-10-19_forecast-repair/READOUT.md`. Contract/cancellation correction above remains in force.
 
 CATO is right that incomplete private coverage explains uncertainty, not a55% estimate. Direct warehouse evidence already read—CACC extension/tighter spread and CPSS increased capacity—supports selective company stress alongside continuing access. It cannot rule out one other lender's exit. The new whole-loan amendment is adjacent counterevidence to a broad retreat, not a direct warehouse resolver.
 

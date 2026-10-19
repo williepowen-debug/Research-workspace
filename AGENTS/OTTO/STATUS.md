@@ -1,8 +1,9 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s033, CATO OR1 owner correction)
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s034, forecast audit / bounded thesis reconciliation)
 
-> **📌 s033 — CATO OR1 implemented at OTTO; reviewer closure pending.** July27 Ally–Carvana amendment: **$8B throughJuly2027; each purchaser can cancel immediately without Seller/Transferor default, subject to law**. Capacity expanded, access not guaranteed; no actual cancellation established.10-Q narrativeJuly26/exhibitJuly27 endpoint discrepancy retained. Tomorrow separate capacity, actual purchases/access and loan performance; whole-loan purchases are not warehouses. Source `research/2026-10-19_ally-amendment/READOUT.md` (`cf2879751`). OTTO-12's55% remains uncalibrated judgment; private coverage gaps do not justify it. VRMUNKNOWN, warehouse/timing results unchanged; no probability/colour/threshold/trade change.
+> **📌 s034 — evidence and forecast repairs.** OTTO-12 **55→25%**, OPEN, coarse subjective judgment; original55% preserved. Warehouse extensions/capacity weigh against broad retreat; VRMUNKNOWN/private gaps prevent an absence grade. OTTO-11 **STUCK**: PointPredictive alerts are not proven prevalence, latest data2025, notH2-2026. Early-hit audit found pre-migration records and window/baseline defects; strict as-made score **3/8,0.276875**, no demonstrated edge (old5/10,0.2400 superseded). `research/2026-10-19_forecast-repair/READOUT.md` (`ea329d216`).
+> **Thesis:** v1.5 scoped factual reconciliation now; finalv1.6/cold read still10/30. SDT consequence restored to original August REFUTE + next TWO quarterly REFUTEs =3total; no numerical threshold change. CATO OR1 owner correction stands; reviewer closure pending. JulyAlly$8B/July2027 and immediate discretionary cancellation remain separate from warehouses; no actual cancellation established.
 > **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below; broader THESIS v1.6 due10/30. Push held.
 > **📌 Cold half:** settled reasoning, resolved predictions, per-vector narrative and old pointers, verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §1–16 (not a boot read; hot STATUS wins on any disagreement).
 
@@ -10,11 +11,11 @@
 
 ## THESIS
 
-> **Canonical thesis: [`thesis/THESIS.md`](thesis/THESIS.md) v1.5 (2026-08-27).** This block mirrors case status and validation tags only; framing, mechanism, conviction decomposition and risk matrix live there.
+> **Canonical thesis: [`thesis/THESIS.md`](thesis/THESIS.md) v1.5 (2026-08-27), scoped reconciliation10/19; finalv1.6 owed10/30.** This block mirrors case status and validation tags only; framing, mechanism, conviction decomposition and risk matrix live there.
 
 **Primary — "The Cockroach":** when you find one fraud, there are more. **4 confirmed cases** (Tricolor / First Brands / MFS / PrimaLend) + 1 alleged carve-out (Carvana). 🔴 **HIGH conviction** on pattern + **fraud-recovery magnitude**. ⚠ **Both systemic-transmission legs are DISCONFIRMED: funding (Jul 4 — BBB spreads tightened, issuance robust) and bank contagion (Aug 14 — OTTO-30 FALSIFIED, zero new US bank names).** Pattern + recovery magnitude stand (THESIS v1.3+).
 
-**Secondary — "The Invisible Exit":** immigrant subprime skip-defaults bypassing the 30→60→90 DQ chain. **Two convictions, never quoted as one (split 8/14):** (a) **at Tricolor: HIGH** — criminally charged Jun 24 (*"manipulated delinquent loan data to make non-performing loans appear current"*), cooperator-corroborated, 30K missing vehicles; (b) **general deep-subprime: LOW** — the SDT REFUTED it on first run (DQ +1.85pp vs severity +0.06pp). Next SDT ~11/15; a second REFUTE ⇒ cut (a)'s load-bearing role, do not narrow again.
+**Secondary — "The Invisible Exit":** immigrant subprime skip-defaults bypassing the 30→60→90 DQ chain. **Two convictions, never quoted as one (split 8/14):** (a) **at Tricolor: HIGH** — criminally charged Jun 24 (*"manipulated delinquent loan data to make non-performing loans appear current"*), cooperator-corroborated, 30K missing vehicles; (b) **general deep-subprime: LOW** — the SDT REFUTED it on first run (DQ +1.85pp vs severity +0.06pp). Original consequence: August first REFUTE + next TWO quarterly REFUTEs =3consecutive total ⇒ cut (a)'s load-bearing role; do not narrow again. Next~11/15 is the second observation, not by itself the three-reading consequence.
 
 **Carvana sub-thesis (carved out):** related-party allegation only; LOWER conviction (GT retained 5/5, no DOJ action). Not in the confirmed-case count.
 
@@ -40,7 +41,7 @@
 | V3 | Tricolor criminal + counterparty discovery | **5** | **src: ACTIVE VECTORS "Tricolor Criminal Track" 🔴🔴 ESCALATED** · OBK 🔴🔴 · TFIN 🔴 | Root A | ECF 149 charges 11 of ≥13 TAST deals · 3 cooperators (allocutions ordered unsealed 7/30, none posted) · OBK related party 8/27 · TFIN ~$38M unnamed syndicate · trial 1/25/27 | ↓ suppression granted in material part (~10/21) · no new counterparty named by 12/31 (OTTO-33, 60% after the 10/14 re-examine) ⇒ this leg joins the two dead transmission legs (THESIS risk row) |
 | V4 | Subprime collateral (10-D panel) | **4** | **src: dashboard "MATCHED-COLLECTION-MONTH YoY" 🔴** · NY Fed transition-to-90+ 🟡 | **Root B** (consumer credit; panel spans 2022–24 vintages). Not clean of A: THESIS's why-now says vintage maturation surfaces the frauds. NY Fed = same root, aggregate | Sep5/5 worse YoY;44/44 available sinceApril. Sep BROAD+0.71pp / Bridgecrest+2.58pp; Exeter remainsAug (EART2022-3 CNL28.40%, OTTO-34 line29.0%). Extensions confound both shelves | ↑ none registered above 🔴 · ↓ pre-committed turn: a tier mean ≤0 or any deal-month better YoY |
 | V5 | Carvana related-party (alleged) | **2** | **src: THESIS conviction "Carvana sub-thesis: LOWER"** · ACTIVE VECTORS 🔴 (collateral, scored in V4) · watchlist 🔴 `[STALE Feb–Mar, cold §15]` | **Root C**, allegation only, `[ALLEG]` ≤40%. Its collateral is V4's Carvana tier: never scored twice | ABS servicing fee 3.50%, at market (Gotham's 0.117% is a third-party-sale estimate) · GT retained · no DOJ · Q3 10/28 | ↑ short report, GT resigns or 10-K delay (CLAUDE 🔴); discovery shows manipulation (THESIS: re-promotes) · ↓ clean Q3 + substantive rebuttal (CLAUDE −40%) |
-| V6 | Invisible Exit, general phenomenon | **2** | **src: STATUS § THESIS "(b) general: LOW"** · THESIS "KILLED on first measurement" (conflict, owed v1.6) · Manheim hinge 🟠 | **Root D** (the Tricolor half is A, in V1–V3). Manheim is a named thesis input, not only the SDT gate. Recovery <28% FIRED 9/2 is a level test; the SDT governs | SDT REFUTE 8/14: ΔDQ +1.85pp vs ΔSev +0.06pp · Manheim Sep −0.6% YoY | ↑ SDT CONFIRM ~11/15 (OTTO-35) · ↓ a second REFUTE; its registered consequence cuts the Tricolor half's role (V1–V3 side). "One more" (STATUS) vs "next two" (THESIS) owed v1.6 |
+| V6 | Invisible Exit, general phenomenon | **2** | **src: STATUS § THESIS "(b) general: LOW"** · THESIS LOW/disconfirmed on first reading, reconciled10/19 · Manheim hinge 🟠 | **Root D** (the Tricolor half is A, in V1–V3). Manheim is a named thesis input, not only the SDT gate. Recovery <28% FIRED 9/2 is a level test; the SDT governs | SDT REFUTE 8/14: ΔDQ +1.85pp vs ΔSev +0.06pp · Manheim Sep −0.6% YoY | ↑ SDT CONFIRM ~11/15 (OTTO-35) · ↓ original August REFUTE + next TWO quarterly REFUTEs =3total cuts the Tricolor half's load-bearing role (V1–V3 side); no repeated narrowing |
 | V7 | Systemic funding (ABS spreads / issuance) | **1** | **src: THESIS stage [3] 🟢 DISCONFIRMED** · stage [7] 🟢 | A channel of Root A: tests spread, never a witness | BBB +140 (EART 2026-3, ~6/24) `[STALE 2026-06]` · 8/8 shelves issued 2026 (7/25 run; re-run 10/21); EART 2026-4 closed 8/28 | ↑ THESIS: reopens only on a fresh ABS-spread blowout. Related evidence, not the reopen: a shelf halt (OTTO-07), a warehouse exit (OTTO-12) |
 | V8 | Bank contagion | **3** | **src: THESIS stage [4] 🟠 "fired, then CLOSED"** · conviction LOW/DISCONFIRMED (OTTO-30 FALSIFIED 8/14) · dashboard Bank Losses 🔴 | A channel of Root A | No new US bank name 4/15→8/14 (complete EDGAR scan) · booked losses ≈$767M `[EST]`, mixed bases (BCS UK; OBK incl. mortgages + commitments; WAL contested) vs CLAUDE's $1.5B 🟡 band; STATUS runs hotter and governs | ↑ THESIS: reopens only on a NEW named counterparty first disclosed after 4/15; a further loss at a listed bank does not. Reads: M&T 10/16, Ally 10/20 |
 | V9 | CRMT lender standstill | **4** | **src: dashboard "CRMT" 🔴** (OTTO's colour) | **Root F**, single name, not a fraud case. BROCK grades each 8-K (DOCKET L651/L652); BROCK's matrix has no CRMT vector | Bridge 7 → 10/22 STD; events of default disclosed | ↑/↓ OTTO re-colours only after BROCK's grade, never ahead |
@@ -97,7 +98,7 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | 2026-10-22 (Thu) | CRMT seventh-bridge STD, Silver Point | 🔴 confirmed; BROCK grades; silence never grades |
 | 2026-10-27 (Tue) | First Brands §341 creditors meeting,11:00CT | 🟠 confirmed; Trustee Engelhart;11:00CT |
 | 2026-10-28 (Wed) | CRMT backstop5: agreement≤10/22; BROCK | 🟠 confirmed; See event; BROCK owns CRMT |
-| 2026-10-28 (Wed) | Carvana Q3 AMC; call17:30ET | 🔴 confirmed; See event; BROCK owns CRMT |
+| 2026-10-28 (Wed) | Carvana Q3 AMC; call17:30ET | 🔴 confirmed; Published disclosures/earnings; no short-report cadence assumption |
 | ~2026-10-29 (Thu) | EART September-collection 10-Ds | 🟠 modeled; Pair DQ/extensions; recovery<28%; OTTO-34 |
 | 2026-10-30 (Fri) | THESIS v1.6 target after Carvana Q3 | 🟠 confirmed; THESIS v1.6; existing punchlist |
 | ~2026-11-04 (Wed) | NY Fed Q3 Household Debt/Credit window opens | 🟠 modeled; Window11/04–11/12, not promised date |
@@ -105,10 +106,10 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | 2026-11-06 (Fri) | Manheim October full-month release | 🟠 confirmed; Manheim hinge; SDT input |
 | 2026-11-11 (Wed) | Tricolor §341 continued | 🟠 confirmed; 10:00CT; date vintage10/14 |
 | ~2026-11-12 (Thu) | EART2026-5 modeled launch window closes | 🟠 modeled; OTTO-07 cadence window10/20–11/12 |
-| ~2026-11-15 (Sun) | Severity-Divergence Test quarterly re-run | 🟠 modeled; Second REFUTE consequence unchanged; ≥12 filings/deal |
+| ~2026-11-15 (Sun) | Severity-Divergence Test quarterly re-run | 🟠 modeled; Second observation; consequence requires3consecutive total; ≥12 filings/deal |
 | ~2026-11-16 (Mon) | SDART/BLAST October-collection 10-Ds | 🟠 modeled; SDART/BLAST October collection |
 | ~2026-11-30 (Mon) | EART October-collection 10-Ds | 🟠 modeled; See event; no retrospective grading repair |
-| 2026-11-30 (Mon) | Year-end readiness: OTTO-11 instrument/-12 attempt/early-hit audit | 🟠 confirmed; See event; no retrospective grading repair |
+| 2026-11-30 (Mon) | Year-end follow-up: OTTO-11 covering-source check/-12 coverage | 🟠 confirmed; Instrument/early-hit audits done10/19;11 remainsSTUCK; Ally/VRM read10/20 future |
 | ~2026-12-01 (Tue) | Hertz December debt maturities: fleet-disposal WATCH | 🟡 modeled; LIQUID credit read; OTTO disposal/repo mechanics |
 | 2026-12-04 (Fri) | Goodgame sentencing control date | 🟡 confirmed; Goodgame;09:00ET, control date |
 | ~2026-12-07 (Mon) | Manheim November full-month release | 🟠 modeled; Manheim November; date vintage10/14 |
@@ -130,8 +131,8 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | **OTTO-33** | New corporate counterparty publicly implicated in Tricolor fraud by Dec 31 | 🟠 OPEN **60%** (68→60% 10/14, back to as-made) — the 8/03 raise was conditional on the Kollar/Seibold plea transcripts; none posted in 76 days, and the trustee logged 45,000+ documents as privileged (Chu ECF 162). New lead: trustee Rule 2004 exam of BlackRock (Dkt 1298). Still needs a NAME |
 | **OTTO-35** | Severity-Divergence Test returns CONFIRM on any quarterly run by Jun 30 2027 | 🟢 OPEN **15%** (Aug 14) — set low because its instrument REFUTED on first run. Two-sided: CONFIRM ΔS≥+2.00 & ΔF≤+0.50 · REFUTE ΔS≤+0.50 & ΔF≥+1.00 · Manheim-gated ±3%. Next run ~11/15 |
 | OTTO-07 | ≥1 subprime ABS shelf halts issuance | 🟢 OPEN **15%** (55→15% Jul 25) — 8 of 8 shelves issued 2026 on the rebuilt `shelf_halt_monitor.py`. Re-run 10/21 |
-| OTTO-11 | Credit-washing prevalence >2.5% of applications | 🟠 OPEN 60% — resolve Dec 31 |
-| OTTO-12 | ≥1 major warehouse lender exits subprime auto | 🟠 OPEN55% — search10/19 NO EXIT FOUND within scope; VRM post9/30UNKNOWN, private coverage incomplete. Weakly evidenced judgment; next10/20; resolve12/31 |
+| OTTO-11 | Credit-washing prevalence >2.5% of applications | ⚪ **STUCK**,60% preserved — candidate consortium alert proxy covers2025, notH2-2026/proven prevalence; no forced grade.11/30/12/31 coverage checks |
+| OTTO-12 | ≥1 major warehouse lender exits subprime auto | 🟠 **OPEN25%** (55→25,10/19), subjective judgment; original55% retained. Counterevidence from CACC/CPS; VRMUNKNOWN, incomplete private/annual coverage. Next10/20; resolve12/31 |
 | **OTTO-10** | Subprime share of originations falls below 13% (Equifax) | ⚪ **NEEDS_VERIFY** (CATO RC2, 9/30) — Equifax covers May only; re-grade ~12/15 at the edition covering September |
 
 > **Resolved rows moved verbatim to [`STATUS_COLD.md`](STATUS_COLD.md) §4.** Canonical ledger is `thesis/PREDICTIONS.tsv`.
@@ -154,6 +155,6 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 
 ## BOTTOM LINE
 
-**Fraud-leg 🔴🔴 / systemic legs DISCONFIRMED (funding 🟢, bank contagion 🟠 fired-then-closed). Convergence33/50 =4+5+5+4+2+2+1+3+4+3,21points one root. s033 corrects the Ally preparation: larger July purchase capacity, immediate cancellation discretion, no actual cancellation established. Whole-loan and warehouse evidence remain separate; VRM unresolved,55% uncalibrated. September/M&T and timing conclusions unchanged; no probability, colour, threshold or trade moved.** *(Older bottom lines → `STATUS_COLD.md` §10.)*
+**Fraud-leg 🔴🔴 / systemic legs DISCONFIRMED. Convergence33/50,21points one root, unchanged. s034: warehouse forecast25% subjective, VRM unresolved; credit-washing STUCK; strict original score3/8 and0.276875. Factual thesis/rule conflicts repaired now; finalv1.6/cold read still due10/30. No trade, colour or numerical threshold change.**
 
 **L708:** NO_INSTRUMENT; supplementary MIXED cannot establish attribution or absence. NEXUS/PROME consumed it (PROME receipt10/19). **Nearest resolvers:** timeline above.
