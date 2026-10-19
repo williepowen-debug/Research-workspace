@@ -37,7 +37,7 @@ next report run (self-healing), so nothing is lost.
 HARD BOUNDARIES (acceptance §2)
 -------------------------------
 - READ-ONLY. Scopes tweet.read users.read bookmark.read offline.access. NEVER bookmark.write.
-- NO POST BODIES IN GIT. Seen-file and stage hold dedup-keys ONLY. Text is printed for
+- NO POST BODIES IN GIT. Seen/stage hold IDs and minimal workflow metadata only. Text is printed for
   routing and survives in BOARD as WALTER's own paraphrase, never persisted verbatim.
 - TOKEN NEVER IN GIT. Secrets live in AGENTS/WALTER/.env (gitignored). A full token is
   never printed.
@@ -48,21 +48,25 @@ HARD BOUNDARIES (acceptance §2)
 USAGE
   python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize   # one-time, in Will's browser
   python3 AGENTS/WALTER/tools/x_bookmarks_scan.py               # report NEW bookmarks (stages them)
-  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark        # consume the staged list (AFTER routing)
+  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --review-template <new-review.json>
+  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark --review <review.json>
+  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --receipt     # no API request
 
-STATUS: BUILT + unit-tested + coldread reads 1&2 fixes applied. NOT "working" until a
-final read closes and a live first-run on Will's token passes (acceptance §4).
+STATUS: Base reader live-validated; October19 continuation/receipt repair validation
+is recorded separately under acceptance §10. No live repair claim from unit tests.
 """
 import argparse
 import base64
 import hashlib
 import json
+import math
 import os
 import re
 import secrets
 import sys
 import time
 import urllib.parse
+import x_bookmarks_workflow as workflow
 from pathlib import Path
 
 WALTER = Path(__file__).resolve().parent.parent
@@ -192,6 +196,9 @@ def load_seen(path=None):
         _refuse(path, "`consumed` is not a list of plain id values")
     if not isinstance(d.get("pilot_start_id"), (str, type(None))):
         _refuse(path, "`pilot_start_id` is not a string")
+    if type(d.get("scan_complete", False)) is not bool:
+        _refuse(path, "`scan_complete` is not a boolean")
+    d.setdefault("scan_complete", False)
     d.setdefault("consumed", [])
     d.setdefault("pilot_start_id", None)
     d["consumed"] = [str(x) for x in d["consumed"]]   # normalize so --mark never mixes int/str (read-3 f2)
@@ -199,20 +206,22 @@ def load_seen(path=None):
 
 
 def save_seen(seen, path=None):
-    """Persist dedup-keys only (A7/X11). Reject a stray key AND a non-scalar element
+    """Persist IDs, pilot marker and completion guard (A7/X11). Reject a stray key/non-scalar
     (an inner dict with text would leak a body), with an explicit raise (survives -O)."""
     path = Path(path or SEEN)
-    stray = set(seen) - {"consumed", "pilot_start_id"}
+    stray = set(seen) - {"consumed", "pilot_start_id", "scan_complete"}
     if stray:
         raise ValueError(f"seen-file would persist unexpected keys {stray}")
     if not _scalar_ids_ok(seen.get("consumed", [])):
         raise ValueError("`consumed` must be a list of plain id values (no nested structures)")
     if not isinstance(seen.get("pilot_start_id"), (str, type(None))):
         raise ValueError("`pilot_start_id` must be a string or null")
+    if type(seen.get("scan_complete", False)) is not bool:
+        raise ValueError("scan_complete must be a boolean")
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps({"consumed": sorted(set(str(x) for x in seen["consumed"])),
-                                "pilot_start_id": seen.get("pilot_start_id")}, indent=2) + "\n",
-                    encoding="utf-8")
+    workflow.atomic_json(path, {"consumed": sorted(set(str(x) for x in seen["consumed"])),
+                                "pilot_start_id": seen.get("pilot_start_id"),
+                                "scan_complete": seen.get("scan_complete", False)})
 
 
 def load_pending(path=None):
@@ -396,52 +405,11 @@ def refresh_access_token(client_id, refresh_token, client_secret=None):
 
 
 def fetch_new_bookmarks(env, seen):
-    """Page newest-first, refresh once on 401, stop as soon as a whole page is already
-    consumed. seen-keys coerced to str so hand-edited int IDs still match (CX-I2). Fails
-    LOUD on any unrecoverable error — nothing marked on failure."""
-    requests = _require_requests()
-    user_id, token = env.get("X_USER_ID"), env.get("X_BOOKMARK_ACCESS_TOKEN")
-    seen_ids = set(str(s) for s in seen.get("consumed", []))
-    collected, refreshed, page_token, capped = [], False, None, True
-    for _ in range(MAX_PAGES):
-        try:
-            data, users, media, meta = api_get_bookmarks(user_id, token, page_token)
-        except requests.HTTPError as e:
-            code = e.response.status_code if e.response is not None else None
-            if code == 401 and not refreshed:
-                cid, rt = env.get("X_CLIENT_ID"), env.get("X_BOOKMARK_REFRESH_TOKEN")
-                if not (cid and rt):
-                    sys.exit("Access token rejected (401) and no refresh token on file — re-run --authorize.")
-                try:
-                    token, new_rt = refresh_access_token(cid, rt, env.get("X_CLIENT_SECRET"))
-                except Exception as re_e:  # noqa
-                    sys.exit(f"Token refresh FAILED ({re_e}). Re-run --authorize in Will's browser "
-                             "(a re-authorize does NOT discard bookmarks you have not routed yet).")
-                rewrite_env({"X_BOOKMARK_ACCESS_TOKEN": token, "X_BOOKMARK_REFRESH_TOKEN": new_rt})
-                env["X_BOOKMARK_ACCESS_TOKEN"], env["X_BOOKMARK_REFRESH_TOKEN"] = token, new_rt
-                refreshed = True
-                continue
-            if code == 429:
-                sys.exit("Rate-limited (429) by X. Nothing marked consumed. Retry at next launch.")
-            sys.exit(f"X API error {code}. Nothing marked consumed. ({e})")
-        except Exception as e:  # noqa
-            sys.exit(f"Bookmark fetch failed ({e}). Nothing marked consumed.")
-
-        parsed = [parse_bookmark(it, users, media) for it in data]
-        collected.extend(parsed)
-        page_keys = {p["dedup_key"] for p in parsed}
-        if not page_keys or page_keys <= seen_ids:
-            capped = False
-            break
-        page_token = meta.get("next_token")
-        if not page_token:
-            capped = False
-            break
-    if capped:
-        print(f"⚠️  reached the {MAX_PAGES}-page read cap ({MAX_PAGES * PAGE_SIZE} bookmarks) without "
-              f"hitting an all-seen page — any older new bookmarks beyond that surface next launch.",
-              flush=True)
-    return select_new(collected, seen.get("consumed", []))
+    """Return a bounded batch plus a continuation proposal; never mark IDs here."""
+    return workflow.fetch_batch(env, seen, seen_path=SEEN,
+        get_page=api_get_bookmarks, requests=_require_requests(),
+        refresh=refresh_access_token, rotate=rewrite_env,
+        parse=parse_bookmark, select=select_new, max_pages=MAX_PAGES, page_size=PAGE_SIZE)
 
 
 def _all_existing_bookmark_ids(user_id, token):
@@ -541,7 +509,8 @@ def do_authorize():
     # the seen-set or the stage, or it would consume bookmarks added since the last launch.
     if Path(SEEN).exists():
         print(f"\n✅ Re-authorized. Tokens refreshed in {ENV_PATH}. Your seen-set and any staged "
-              f"bookmarks are untouched — nothing waiting to be routed was consumed.", flush=True)
+              f"bookmarks are untouched — nothing waiting to be routed was consumed. "
+              "Authorization only: no bookmark scan performed.", flush=True)
         return 0
     try:
         existing, capped = _all_existing_bookmark_ids(user_id, access)
@@ -572,8 +541,21 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Read Will's new X bookmarks for routing.")
     ap.add_argument("--authorize", action="store_true", help="one-time OAuth2 PKCE setup (Will's browser)")
     ap.add_argument("--mark", action="store_true", help="consume the staged list (AFTER routing)")
+    ap.add_argument("--review", type=Path, help="completed exact-ID review used with --mark")
+    ap.add_argument("--review-template", type=Path, help="create an ID-only template for the staged scan")
+    ap.add_argument("--receipt", action="store_true", help="show last receipt without a scan or token read")
     args = ap.parse_args(argv)
 
+    if sum([args.authorize, args.mark, args.receipt, args.review_template is not None]) > 1:
+        ap.error("choose authorize, mark, receipt, review-template, or a normal scan")
+    if args.review and not args.mark:
+        ap.error("--review requires --mark")
+    if args.receipt:
+        workflow.show_receipt(SEEN)
+        return 0
+    if args.review_template:
+        workflow.review_template(SEEN, args.review_template)
+        return 0
     if args.authorize:
         return do_authorize()
 
@@ -587,9 +569,11 @@ def main(argv=None):
         print("\n[status] Not authorized yet — no token in .env. This is NOT an error.")
         print("         Run:  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize")
         print("         (one-time, in Will's browser — see design/X_BOOKMARKS_SETUP_CARD.md)")
+        print("No bookmark scan performed; queue status unknown.")
         return 0
     if not env.get("X_USER_ID"):
         print("\n[status] Partially authorized — token present but no X_USER_ID. Re-run --authorize.")
+        print("No bookmark scan performed; queue status unknown.")
         return 0
 
     seen = load_seen()
@@ -602,7 +586,8 @@ def main(argv=None):
         stamp = pending_stamp()
         # read-3 b3/b4/b5/b6: a stage with no timestamp, the legacy list form, staged_at<=0, or a
         # non-numeric stamp is UNVERIFIABLE — refuse rather than fail open. bool excluded (int subclass).
-        if not isinstance(stamp, (int, float)) or isinstance(stamp, bool) or stamp <= 0:
+        if (not isinstance(stamp, (int, float)) or isinstance(stamp, bool)
+                or not math.isfinite(stamp) or stamp <= 0 or stamp > time.time() + 60):
             print("\n[--mark] REFUSING: the stage has no valid timestamp (legacy or hand-edited). "
                   "Run a fresh report run, route, then --mark.")
             return 0
@@ -611,20 +596,39 @@ def main(argv=None):
             print(f"\n[--mark] REFUSING: the stage is {age_h:.0f}h old (from a prior session). "
                   "Run a report run first so you mark what you just routed, not a stale list.")
             return 0
+        staged = workflow.validate_stage(workflow.read_json(_pending_path()))
+        if staged.get('review_required') and not args.review:
+            print('REFUSING: this scan needs a completed --review before marking. No IDs marked.')
+            return 1
+        review = workflow.load_review(args.review, staged) if args.review else None
+        checkpoint = workflow.proposed_checkpoint(SEEN, staged)
         print(f"\n[--mark] consuming {len(pending)} staged id(s): {', '.join(pending[:10])}"
               f"{' …' if len(pending) > 10 else ''}")
         seen["consumed"] = sorted(set(seen.get("consumed", [])) | set(pending))
+        if checkpoint is not None:
+            seen['scan_complete'] = not checkpoint['incomplete']
+        # Seen first, cursor second, stage clear last: interrupted marking can
+        # repeat IDs, but cannot advance beyond unseen/unreviewed content.
         save_seen(seen)
+        workflow.commit_checkpoint(SEEN, checkpoint)
+        receipt = workflow.mark_receipt(SEEN, staged, review)
         save_pending([])
+        workflow.print_receipt(receipt)
         print(f"--mark: recorded {len(pending)} id(s) → {SEEN.name} (ids only).")
         return 0
 
     new = fetch_new_bookmarks(env, seen)
     n = len(new)
-    print(f"\n[{format_boot_line(n, 'M')}]   (M = how many you route below)")
+    print(f"\nFetched {n} new bookmark ID(s) in this scan segment; see the review/coverage receipt below.")
     if not n:
-        save_pending([])
-        print("[NEW bookmarks — 0]  (nothing to route)")
+        checkpoint = getattr(new, 'checkpoint', None)
+        receipt = workflow.stage(SEEN, [], checkpoint, getattr(new, 'scan', None))
+        if checkpoint is not None:
+            seen['scan_complete'] = not checkpoint['incomplete']
+            save_seen(seen)  # metadata only; no consumed IDs change
+            workflow.commit_checkpoint(SEEN, checkpoint)
+        workflow.print_receipt(receipt)
+        print("[NEW bookmarks — 0]  (no new IDs in this segment; see coverage above)")
         return 0
 
     print(f"\n[NEW bookmarks to ROUTE — {n}]  source: x-bookmark  (Will-originated — "
@@ -643,8 +647,10 @@ def main(argv=None):
             print(f"     🔗 {ln}")
         print()
 
-    save_pending([b["dedup_key"] for b in new])
-    print("After routing, run:  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark")
+    receipt = workflow.stage(SEEN, [b["dedup_key"] for b in new],
+                             getattr(new, 'checkpoint', None), getattr(new, 'scan', None))
+    workflow.print_receipt(receipt)
+    print("After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.")
     return 0
 
 

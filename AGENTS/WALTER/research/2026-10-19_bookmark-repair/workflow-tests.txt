@@ -1,0 +1,30 @@
+test_1001_three_scans_never_exceed_request_budget (__main__.Workflow.test_1001_three_scans_never_exceed_request_budget) ... ok
+test_401_retry_keeps_cursor_and_request_budget (__main__.Workflow.test_401_retry_keeps_cursor_and_request_budget) ... ok
+test_429_and_network_failure_do_not_mark_or_advance (__main__.Workflow.test_429_and_network_failure_do_not_mark_or_advance) ... ok
+test_501_resumes_after_actual_review_mark (__main__.Workflow.test_501_resumes_after_actual_review_mark) ... ok
+test_corrupt_cursor_state_refuses (__main__.Workflow.test_corrupt_cursor_state_refuses) ... ok
+test_corrupt_or_future_stage_cannot_mark (__main__.Workflow.test_corrupt_or_future_stage_cannot_mark) ... ok
+test_duplicate_page_ids_preserve_first_seen_order (__main__.Workflow.test_duplicate_page_ids_preserve_first_seen_order) ... ok
+test_existing_followup_ref_retains_unread_gap (__main__.Workflow.test_existing_followup_ref_retains_unread_gap) ... ok
+test_incomplete_proposal_tampering_prevents_seen_write (__main__.Workflow.test_incomplete_proposal_tampering_prevents_seen_write) ... ok
+test_incomplete_review_template_cannot_mark (__main__.Workflow.test_incomplete_review_template_cannot_mark) ... ok
+test_legacy_seen_prefix_gets_full_audit (__main__.Workflow.test_legacy_seen_prefix_gets_full_audit) ... ok
+test_lost_local_cursor_restarts_without_hiding_tail (__main__.Workflow.test_lost_local_cursor_restarts_without_hiding_tail) ... ok
+test_mark_interruption_after_seen_write_is_recoverable (__main__.Workflow.test_mark_interruption_after_seen_write_is_recoverable) ... ok
+test_mark_requires_review_and_exact_stage (__main__.Workflow.test_mark_requires_review_and_exact_stage) ... ok
+test_missing_proposal_fails_before_marking (__main__.Workflow.test_missing_proposal_fails_before_marking) ... ok
+test_new_head_item_is_checked_after_resumed_tail (__main__.Workflow.test_new_head_item_is_checked_after_resumed_tail) ... ok
+test_normal_no_cap_and_seen_fast_path (__main__.Workflow.test_normal_no_cap_and_seen_fast_path) ... ok
+test_partial_material_requires_followup_or_selective_request (__main__.Workflow.test_partial_material_requires_followup_or_selective_request) ... ok
+test_receipt_and_template_do_not_fetch_or_read_env (__main__.Workflow.test_receipt_and_template_do_not_fetch_or_read_env) ... ok
+test_rejected_cursor_fails_loud_then_recovers (__main__.Workflow.test_rejected_cursor_fails_loud_then_recovers) ... ok
+test_review_binding_rejects_new_scan_same_ids (__main__.Workflow.test_review_binding_rejects_new_scan_same_ids) ... ok
+test_state_and_stage_never_store_fetched_body_or_credential (__main__.Workflow.test_state_and_stage_never_store_fetched_body_or_credential) ... ok
+test_unmarked_scan_repeats_instead_of_advancing_cursor (__main__.Workflow.test_unmarked_scan_repeats_instead_of_advancing_cursor) ... ok
+test_unread_is_not_rejected_or_fully_read (__main__.Workflow.test_unread_is_not_rejected_or_fully_read) ... ok
+test_zero_items_at_head_makes_no_review_claim (__main__.Workflow.test_zero_items_at_head_makes_no_review_claim) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.156s
+
+OK

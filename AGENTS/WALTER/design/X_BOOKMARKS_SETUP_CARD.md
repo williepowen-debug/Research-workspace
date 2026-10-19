@@ -47,7 +47,9 @@ One-time setup. After it, you **bookmark a post** on X instead of screenshotting
 ---
 
 ## After setup — your whole job
-**Bookmark the post.** At WALTER's next launch it reads new bookmarks, tells you "N new bookmarks since last launch, M dispatched," and routes them like any other signal. Telegram and screenshots still work — nothing changed there.
+**Bookmark the post or article link.** During an approved human-watched session, WALTER fetches new items, checks the relevant content and routes useful findings. You receive a short receipt: when the newest bookmarks were checked, what was reviewed, important findings and anything partly read, inaccessible or still awaiting older-page coverage. Login/reauthorization alone is explicitly not a scan.
+
+If a consequential article is blocked, WALTER names what is missing and why; you can provide screenshots/text if convenient. For an urgent item, send its link directly in the WALTER conversation. To revisit an already-processed post, send the link with “look again”; re-bookmarking it does not requeue it. You do not need to fill review files or add tags. WALTER's current procedure: design/X_BOOKMARKS_WORKFLOW.md.
 
 ## If you ever want to cut it off
 - **X side (kills the key):** X app or x.com → **Settings → Security and account access → Apps and sessions → Connected apps** → "WALTER-bookmarks" → **Revoke access**.
@@ -60,7 +62,7 @@ One-time setup. After it, you **bookmark a post** on X instead of screenshotting
 - **The URL never appears** — you (or WALTER) ran it through a non-interactive tool; run it directly in a terminal.
 - **"could not read your current bookmarks to seed"** — the setup read failed (no credit yet, or a network hiccup) right after login. **Nothing was saved** — just re-run the same `--authorize` command once that's sorted and it will seed then.
 - **"Token refresh FAILED … Re-run --authorize"** — the saved key expired and couldn't renew. Re-authorizing is **safe once you're set up**: it only refreshes the key and does **not** discard bookmarks you haven't routed yet. (The one exception: if you had *deleted* the seen-file first, a re-authorize re-seeds from scratch — don't delete it unless you mean to start over.)
-- **The "authorization received" page won't load after you click Allow** — this box runs under WSL; if your browser is on Windows it has to reach `http://localhost:8723` inside WSL. Usually that just works; if it doesn't, tell WALTER — we may need a different redirect address. (This is the one step not yet tested live.)
+- **The "authorization received" page won't load after you click Allow** — this box runs under WSL; if your browser is on Windows it has to reach `http://localhost:8723` inside WSL. Usually that just works; if it doesn't, tell WALTER — we may need a different redirect address. (The Windows-browser-to-WSL callback has worked live; a new failure still needs diagnosis.)
 
 ## What WALTER can and can't do with this
 - **Can:** read your bookmarks (post text + who posted) and your user id.

@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-10-19T17:59:21.218223+00:00",
+  "files": [
+    {
+      "path": "AGENTS/WALTER/tools/x_bookmarks_scan.py",
+      "sha256": "ea5c9b7642cd1c95430b676b6a59b009597dd42bd9375b0f11f0ac179b7ebcbe"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/x_bookmarks_workflow.py",
+      "sha256": "49ab565fa7d158ac4b7b566ea7db376b09f826d58f89a32a7acab8404be23da1"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_x_bookmarks_scan.py",
+      "sha256": "cb3f0219430d0b683a575f90a28e3e74bca3b43650409860640aa5efcfe6cc2a"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_x_bookmarks_workflow.py",
+      "sha256": "54f805644b7f18d7abee58c942c438ab863bd1ed24016b7748607106a9c10ac5"
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md",
+      "sha256": "5283a41db987f40191648dea0ba10420e7e4f79b9e38ce6da94b1c7ff333bd86"
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_WORKFLOW.md",
+      "sha256": "331e8a87f938cf9f6a4b33ad70528a607a7aa7b74f754158c1fc1c85508ecb0e"
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_SETUP_CARD.md",
+      "sha256": "860dd8a0e15def50c6db2a88479510f85fb8647dd2480756bdf9c1e865ce006a"
+    }
+  ],
+  "verification": "57offline tests=32existing+25workflow; direct scripts and unittest discovery passed, ResourceWarning as error. No independent review or live pagination check claimed.",
+  "live_seen_stage_diff": [],
+  "cursor_ignore_proof": [
+    "AGENTS/WALTER/registry/x_bookmarks_scan_token.json",
+    "AGENTS/WALTER/registry/x_bookmarks_next_token.json"
+  ]
+}

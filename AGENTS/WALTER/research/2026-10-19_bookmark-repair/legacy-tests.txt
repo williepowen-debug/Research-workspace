@@ -1,0 +1,37 @@
+test_empty_var_refuses_not_traceback (__main__.Isolation.test_empty_var_refuses_not_traceback) ... ok
+test_live_seen_file_untouched_in_test_mode (__main__.Isolation.test_live_seen_file_untouched_in_test_mode) ... ok
+test_partial_config_refuses (__main__.Isolation.test_partial_config_refuses) ... ok
+test_relative_test_path_refuses (__main__.Isolation.test_relative_test_path_refuses) ... ok
+test_mark_consumes_only_staged_ids_no_body (__main__.MarkFlow.test_mark_consumes_only_staged_ids_no_body) ... ok
+test_mark_refuses_untimestamped_or_legacy_stage (__main__.MarkFlow.test_mark_refuses_untimestamped_or_legacy_stage) ... ok
+test_bool_id_and_nonstring_pilot_refused (__main__.PureLogic.test_bool_id_and_nonstring_pilot_refused) ... ok
+test_boot_line_shape (__main__.PureLogic.test_boot_line_shape) ... ok
+test_corrupt_seen_shapes_fail_closed (__main__.PureLogic.test_corrupt_seen_shapes_fail_closed) ... ok
+test_enrichment_populates_and_dedup_key_unchanged (__main__.PureLogic.test_enrichment_populates_and_dedup_key_unchanged) ... ok
+test_half_authorized_exits_zero (__main__.PureLogic.test_half_authorized_exits_zero) ... ok
+test_idless_dedup_key_stable_and_consumable (__main__.PureLogic.test_idless_dedup_key_stable_and_consumable) ... ok
+test_idless_item_always_surfaced (__main__.PureLogic.test_idless_item_always_surfaced) ... ok
+test_int_consumed_normalized_to_str (__main__.PureLogic.test_int_consumed_normalized_to_str) ... ok
+test_link_filter_is_host_based_not_substring (__main__.PureLogic.test_link_filter_is_host_based_not_substring) ... ok
+test_load_env_strips_quotes (__main__.PureLogic.test_load_env_strips_quotes) ... ok
+test_load_env_tolerates_bom (__main__.PureLogic.test_load_env_tolerates_bom) ... ok
+test_long_form_note_tweet_links_extracted (__main__.PureLogic.test_long_form_note_tweet_links_extracted) ... ok
+test_malformed_enrichment_metadata_never_raises (__main__.PureLogic.test_malformed_enrichment_metadata_never_raises) ... ok
+test_malformed_surfaced_with_warnings (__main__.PureLogic.test_malformed_surfaced_with_warnings) ... ok
+test_missing_seen_is_empty_not_error (__main__.PureLogic.test_missing_seen_is_empty_not_error) ... ok
+test_nested_list_consumed_refuses (__main__.PureLogic.test_nested_list_consumed_refuses) ... ok
+test_non_string_text_never_raises (__main__.PureLogic.test_non_string_text_never_raises) ... ok
+test_non_utf8_seen_refuses (__main__.PureLogic.test_non_utf8_seen_refuses) ... ok
+test_not_authorized_exits_zero (__main__.PureLogic.test_not_authorized_exits_zero) ... ok
+test_old_post_bookmarked_today_is_surfaced (__main__.PureLogic.test_old_post_bookmarked_today_is_surfaced) ... ok
+test_rewrite_env_preserves_collapses_crlf (__main__.PureLogic.test_rewrite_env_preserves_collapses_crlf) ... ok
+test_save_seen_ids_only_rejects_stray_key (__main__.PureLogic.test_save_seen_ids_only_rejects_stray_key) ... ok
+test_save_seen_rejects_bool_and_nonstring_pilot (__main__.PureLogic.test_save_seen_rejects_bool_and_nonstring_pilot) ... ok
+test_save_seen_rejects_nested_element (__main__.PureLogic.test_save_seen_rejects_nested_element) ... ok
+test_seen_never_refires (__main__.PureLogic.test_seen_never_refires) ... ok
+test_select_new_is_set_membership_order_preserved (__main__.PureLogic.test_select_new_is_set_membership_order_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.108s
+
+OK

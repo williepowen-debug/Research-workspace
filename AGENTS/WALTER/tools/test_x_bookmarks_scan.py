@@ -310,7 +310,13 @@ class MarkFlow(unittest.TestCase):
         try:
             with redirect_stdout(io.StringIO()):
                 xbm.main([])            # stages ["500"]
-                xbm.main(["--mark"])    # consumes the stage; MUST NOT re-fetch
+                review_path = d / "review.json"
+                xbm.workflow.review_template(xbm.SEEN, review_path)
+                review = json.loads(review_path.read_text())
+                for item in review["items"]:
+                    item.update(disposition="DISPATCH", read_state="fully_read")
+                review_path.write_text(json.dumps(review))
+                xbm.main(["--mark", "--review", str(review_path)])  # exact stage, no refetch
         finally:
             xbm.fetch_new_bookmarks = orig_fetch
             xbm.ENV_PATH, xbm.SEEN = orig_env, orig_seen
