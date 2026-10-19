@@ -2,15 +2,15 @@
 
 ## Current assessment
 
-Accept the bounded cleanup at `14a6fccff`: no blocking regression found in the inspected procedures, changed docket rows or retained executable library. Helm/Fleet-Ops upkeep is retired; Decision Deck duties remain paused until Will resumes them. Shared decision intake, broker/position records, parsers, integrity checks and review/commit/push duties survive. This removes concrete work rather than merely relabeling a broken publication as complete.
+Accept the cleanup and bounded follow-through at `7439e7f82`. RP1 is CLOSED: L636 folded into L601, the projection test receipt is isolated, L519's existing fix has full-suite acceptance, and only L366's retired dashboard subitem is superseded. CATO reran the guarded22-test acceptance plus absent/seeded-witness and missing-override probes; all passed with live receipt/state bytes unchanged. The earlier DS4 instruction closure stands. No material action remains under this review.
 
-One low-priority record reconciliation remains: the same projection-test write defect has a second pending home at L636, and L366's mixed backlog still includes a retired dashboard-check subitem. Keep the current cleanup; reconcile those records in the existing follow-up rather than create another project. The remaining test-isolation issue is real; the apparently fixed desk-attention test passed a safely isolated selected-case check. No CATO owner repair or new assignment was performed.
+L366's other four items, L523 and L742 remain independently open at their owners. Hidden/external schedules and ordinary-session cost benefit remain unassessed. No CATO owner edit, send, launch, live build or operational boot/closeout; orient and await Will. Initial findings/checks and dated closure are preserved below.
 
 ## Scope and authority
 
 Will directed CATO to review PROME's trimming of procedures dedicated to old/broken items, quoting its sweep result. Inspected the seven-file `14a6fccff` change, the sweep report and current related boot/closeout/runner/gate paths against WQ-460 (Deck pause), WQ-461 (Helm retirement), and the existing accepted WQ-452.FLEETOPS retirement. Reviewed the relevant original CATO DS4 counterexample, not every earlier cleanup case. Initial shared HEAD was `9481827bb`; a later bounded check saw `1c616898e`. PROME's reviewed paths and CATO were clean before CATO's record writes; other desks continued working. No pull, stash, owner-file edit, operational boot/closeout, live dashboard render, agent launch or message/send. Installed/hidden external schedules and hosted pages were not assessed.
 
-## What is independently supported
+## Initial review at 14a6fccff — what was independently supported
 
 - **Procedural paths:** current BOOT/BOOT_MODULES/CLOSEOUT and the root/local boot/closeout runners suspend Deck pickup, upkeep, generation and publication, while retaining WALTER decision intake. Helm retirement covers routine generation, supporting docket HTML, presentation/feed maintenance and publication, including spine-audit and correction-loop triggers. Later WQ-461 supersedes the active-Helm clauses in the earlier WQ-460 implementation record; history need not be rewritten.
 - **Preserved controls:** CLOSEOUT steps7–10 still require affected active outputs and deterministic checks before freeze, required review, correction/re-freeze, tiered gate, exact commit verification and safe push. The two Deck-specific checks return the named pause before accessing Deck inputs. Retired dashboard checks have zero references in the actual mode_boot/mode_closeout entrypoint ASTs. No active dashboard invocation found in inspected root/PROME settings, boot_session.py or spine_audit.workflow.js. This is bounded static inspection, not execution of those operational paths.
@@ -19,7 +19,7 @@ Will directed CATO to review PROME's trimming of procedures dedicated to old/bro
 - **State/library edits:** STATUS no longer presents resolved L665/L738 or retired dashboard work as current publication/process duties. SYSTEM retains the canonical sources and shared parsers. SESSION_PILOT no longer offers a Fleet-Ops render after runtime inventory. heartbeat_projection.py changes only its module documentation: AST identical after excluding that docstring. Root/local boot and closeout skill copies are byte-identical.
 - **Prior DS4:** the October16 example was CLOSEOUT's claim that Fleet-Ops builds at every closeout. Current generation/correction/publication paths explicitly exclude that work. DS4 is CLOSED for that inspected instruction; this does not retroactively review all DS1–DS3 implementation or earlier post-read fixes. The accepted feed retirement and dropped Deck-safeguard transfer remain accepted; no replacement is inferred.
 
-## RP1 — low: pending residue needs consolidation/re-scoping
+## RP1 — low: pending residue needs consolidation/re-scoping (closed in follow-up)
 
 **Evidence:** DOCKET L636 describes the same `test_heartbeat_projection.py` write into dashboard_build.json now carried in the sweep's L601 discussion. Both remain separately pending. L519 is the related desk-attention case whose code already redirects BUILD_PATH. L366 item2 still describes repairing green dashboard rows over stale state, although the relevant dashboard gate path is retired; the other four L366 items are broader and must not be discarded.
 
@@ -27,7 +27,7 @@ Will directed CATO to review PROME's trimming of procedures dedicated to old/bro
 
 **Recommendation/owner:** PROME should use one existing row as the canonical live test-isolation action and link/supersede the duplicate without deleting history; separate L601's obsolete missing-companion expectation from its surviving write defect. Mark only the retired dashboard subitem of L366 superseded, retaining the other obligations. For L519, reconcile its original acceptance against existing code/evidence rather than automatically reimplement the patch. No new tracker or audit is needed.
 
-**Closure:** one live action for each actual surviving fault; obsolete subitems explicitly superseded; required selected/all-suite acceptance distinguished in the completion record. OPEN advice to PROME, not a CATO implementation assignment. No owner response/consumption claimed.
+**Closure:** one live action for each actual surviving fault; obsolete subitems explicitly superseded; required selected/all-suite acceptance distinguished in the completion record. Initial disposition: OPEN advice to PROME, not a CATO implementation assignment; no owner response/consumption had been claimed. Superseded by the dated closure below.
 
 ## Existing test residue — reproduced safely, not newly discovered
 
@@ -49,3 +49,15 @@ The current cleanup's manual/code conditions are supported. Ordinary-session boo
 ## Delivery checks
 
 All ten distinct checker inputs existed/readable. Weekday check passed PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO CONTINUITY and this report. Read-cap passed the six required startup files: AGENTS/CATO/AGENTS.md, CHARTER.md, CONTINUITY.md and root CLAUDE.md, USER.md, AGENTS.md; root CLAUDE retains its rotation advisory. Orphan advisory found41 other-owner entries, no likely CATO packet; those paths were preserved. Shared index empty at inspection. No auto-memory, owner STATUS/ledger or numerical-canon change. Tracked/new-document whitespace checks passed. Exact Git/publication receipt and any other-owner commits carried are delivered in-session.
+
+## October 19, 13:51 ET — owner repair verified; RP1 closed
+
+Will supplied PROME's completion at `7439e7f82`. Reviewed its four-file diff and `PROME/tools/tests/ACCEPTANCE_projection_isolation_2026-10-19.md`. No broader procedure sweep was repeated. The projection failed-render test now overrides BUILD_PATH and checks its own failed receipt. Missing-companion coverage reads the existing frozen amended HEARTBEAT fixture, so the library test no longer depends on the retired live companion. Production behavior and the desk-attention implementation are unchanged.
+
+DOCKET still has754 physical rows. Only L366/L519/L601/L636 change; L366 stays pending with only item② superseded and the other four items/date/owner preserved. L636 folds into L601, rather than claiming a second repair. L601 and L519 carry terminal acceptance dispositions with prior records preserved. L523 and L742 are byte-identical across this commit. This satisfies RP1's record closure conditions.
+
+Inspected the existing temporary acceptance harness before reusing its exact command: `python3 -B -W error::ResourceWarning /tmp/prome_projection_acceptance.py`. It confines writes to an outer temporary root, resolves dir_fd-relative operations, denies subprocesses and checks live receipt/state bytes. CATO independently obtained22/22 passes (projection12, desk-attention10); absent/seeded outer receipts remained unchanged, and the in-memory mutant lacking BUILD_PATH confinement was detected. Zero denied write attempts; live dashboard_build.json/dashboard_state.json byte-identical. Expected simulated failed-build diagnostics are test evidence, not failed acceptance. Owner/reader fresh false-success-receipt and unamended-fixture probes are documented in the acceptance record; CATO did not repeat those extra probes.
+
+**Disposition:** RP1 CLOSED, selected isolation defect CLOSED, L519 acceptance reconciliation CLOSED. The prior DS4 closure remains. L366①③④⑤, L523 and L742 survive at their existing owners/conditions; no further work assigned or started by this review. Legacy suites still read some live inputs, so this verifies current results/write isolation rather than complete fixture independence. No ordinary-session savings or hidden schedule claim. Save/update continuity and perform only applicable delivery checks; exact Git receipt follows in-session.
+
+Follow-up delivery checks: same five weekday paths and six explicit startup paths checked after ten distinct existence/readability checks; pass, root CLAUDE rotation advisory retained. Orphan advisory63 other-owner entries, no likely CATO packets; preserved. Shared index empty, scoped whitespace clean. No conditional memory, ledger or numerical-consumer trigger. No repeated operational audit. Final publication receipt is in-session.

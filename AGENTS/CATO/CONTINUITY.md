@@ -4,7 +4,7 @@
 
 ## Resume point
 
-**October 19 PROME retired-procedure review delivered.** [Assessment, checks and residue](runs/2026-10-19_1340_prome-retired-procedures-review.md), candidate `14a6fccff`: no blocking regression found; retired/paused paths and shared controls distinguished. DS4's Fleet-Ops closeout-build instruction is closed at current procedures. RP1 low remains at PROME: consolidate duplicate L601/L636 isolation work, reconcile existing L519 fix and supersede only L366's retired dashboard subitem. Safely isolated selected tests support the distinction; no whole-suite or operational-benefit certification. No owner edit/send/launch. Orient and await Will; follow-up starts with changed owner evidence, not another sweep.
+**October 19 PROME procedure review complete; RP1 closed.** [Review and owner-repair verification](runs/2026-10-19_1340_prome-retired-procedures-review.md), accepted `7439e7f82`. Duplicate L636 folded, projection receipt isolated, L519 accepted; only L366's retired dashboard item superseded. CATO reran guarded22-test acceptance and prior escaping-write probes: pass, live files unchanged. DS4 remains closed. L366's other four obligations, L523 and L742 survive at owners; no further action assigned in this review. Hidden schedules, full fixture independence and ordinary-session savings remain unassessed. No owner edit/send/launch. Orient and await Will.
 
 **OTTO readiness:** [OR1 review](runs/2026-10-19_1322_otto-readiness-review.md). Owner commits `cf2879751` / `0544525bc` / `9481827bb` report repair; CATO has not assessed them. Any requested follow-up starts there and with retained amendment/cancellation/date-discrepancy evidence. Will directed current attention to PROME.
 
