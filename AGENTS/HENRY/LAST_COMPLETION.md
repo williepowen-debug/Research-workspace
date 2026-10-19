@@ -1,15 +1,21 @@
-# HENRY — October19 repeat-loser workflow — DONE, mechanisms pending
+# HENRY — first shortlist and event audit — DONE
 
-Will clarified the equity assignment. HENRY explicitly acknowledges daily index-up/sector-up/overlap losses,5/20/60performance,stronger industry/size peers,persistence vs rotation and equal-weight counterevidence. LIQUID's actual workflow acknowledgment and ASSIGNMENT-ACK.md read;final study consumption separate. Existing work preserved.
+RESULT: Mosaic is the strongest residual candidate; ADM retains conditional weakness with fragile short-window magnitude. HII/Copart need qualification: worst-day/earnings exclusions change return signs and both outperform their broad sector over60sessions. No financing cause established.
 
-RESULT:501/503complete grids. MOS/HII/ADM/CPRT are the clearest20/60repeat losers under all three conditions;onlyMOSalso meets5day test,with2eligible days. HII/ADM/CPRT recently improved. SevenBOTH-onlycandidates keep weakerMGM/MCD/PCAR separate. StrongerpairsMGM/WYNN,MCD/SBUX;fiveunmatched includingprimary4. No financingcausality/crash odds/rally-ending conclusion. RSPpositive5/20/60 is counterevidence.
+CHANGED: event-audit/SHORTLIST.md and full RESULT,49event/adminentries,216scenario-conditionrows,222sourcefiles,peerextension,source receipts and validation; STATUS/MEMORY/NEXUS_BRIEF/KB185/board_log/consumed inbox moves; LIQUID/WALTER/PROME packets.
 
-CHANGED:STATUS,MEMORY,LAST_COMPLETION,NEXUS_BRIEF,KB184,board_log,trackedclarificationinboxmoves,repeat-losers research/sourcearchive and recipientpackets. Originaleight-nameCOHORTsha278210be…unchanged,CRU11notregraded,LIQUIDfundingworkretained. NewendpointOctober19vsoriginalOctober16keptseparate.
+SESSION WORK:21SECfilings and8tenderforms, announcement-versus-filing clocks, earnings/events/worst/union/halo exclusions on paired benchmark dates. ICL is a stronger price comparison but size unverified; zero newlyacceptedcontrols. SecondaryMGM/WYNN,MCD/SBUX preserved. ExplicitCPRTACVclosedOct16/new2031facilityerratum; earlierreportversionpreserved. LIQUIDexactfirstshortlistread18:40:55 andCRUISEexactversionreadverified;newartifactconsumptionunverified.
 
-VALIDATION:full daily count/conditional compoundreturnreconciliation,strength/size/preformation source audit,545sourcearchivehashes,originalcohorthash andcashSPXsign sensitivity. Seven-name count unchanged with eligibility floors relaxed. Readcap/corrections/weekday/TSVchecksretainedinvalidation-closeout. No new prediction or threshold.
+VALIDATION: counts/signs/independentlogproducts,sectorrelativewealth,222archivehashes andisolatedreproductionwithoutlocalrawcapturesPASS. PriorCOHORTsha278210be…/screenRESULTsha7667de05…unchanged. Readcap/corrections/weekday/schema checks performed atcloseout;no forecast/thresholdchange.
 
-GAPS:boundedpeerpoolsleaveprimary4withoutstrongercontrols;NTRperiodend/QSRclassesunresolved;smallconditionaldaycounts,singlevendor/currentmembership/outcomeselection,mixandnestedwindowslimitinference. LIQUIDmechanism/eventreconciliationandfinalversionconsumptionpending. Existingfuel/earningswake/source/evaluatorcarry-insinSTATUSremain. No new trade/sizing/monitor/ownerlaunch.
+COMMITS:730ed937d event-auditresearch;4261b747e originalrepeat-loserresearch. This live closeout andrecipientpackets persist in separatelyexplicitpathcommits;fullhashesavailablefromtheirfilehistory.
 
-NEXT:LIQUID/companyownersmechanisms;WALTERcompeting-explanation synthesis;VIOLETwithinexistingvolwork;PROMEcoordination. WAL/TERRYcontextdelivered,no new broad study/priorities replaced;consumptionUNKNOWN. No Willdecision needed.
+GAPS / STILL PENDING:primary4lackverifiedstrongerindustry/sizecontrols;publicationclocks/newscapture/WARNPDF403/foreignendpoint404andnullprices; broadhalosamplesbelowfloor. LIQUIDlatestfundingbridge,combinedassessment/new-artifactconsumptionpending. Existingfuel/calendar/source/evaluatorcarry-ins inSTATUSnotcleared.
 
-HONEST SCOPE:Codex/OpenAI,sameHENRYsession,exactmodel/nativeIDUNKNOWN;root/localinstructionloadingexplicit,nohelpers. Sharedforeignchangespreserved,nopull/stash. Explicitpathcommits,self-authoredrecipientpackets,safe-pushreceiptseparatelyreported. ActualLIQUIDfileackestablishesworkflowacceptance,notnativefleetnotification/finalstudyconsumption/receivedcloseoutask.
+NEXT SESSION FOLLOW-UP: nextcompletedsessioncancompareconditionalweaknesswithfrozenOct19;noautomaticmonitoringpromised. ExistingLUV10/21afterclose/AAL10/22resultsandBRENTF1publication/wakeconfirmationremain. PreserveVIOLETcurrentofficial/volchecks(noextrabreadth),WALearnings,TERRYexistingreconciliation/expiries/approvedmanagement,CRUISEreconciliation;PROMEcoordinatescombinedassessment.
+
+THESIS SNAPSHOT:frozenatclose,baselinegamma/creditviewunchanged;equitydiagnosticstrongestMOS,qualifiedADM,mixedHII/CPRT. RSPpositive5/20/60andthreeprimaryfive-dayrecoveriespreventuniformdeteriorationclaim. No crashodds/rallyendingcall or newtrade/sizing/monitor.
+
+WILL_NEEDS:None.
+
+HONEST SCOPE:Codex/OpenAI,sameHENRYsession;exactmodel/nativeIDUNKNOWN,root/localinstructionloadingexplicit,nohelpers. Sharedforeignworkpreserved,nopull/stash. Filepackets/exactreadreceiptsareseparatefromnativefleetnotification/closeouthandshake,whichremainunavailable. Ownexplicitpathcommits andsafe-pushreceiptseparatelyreported.
