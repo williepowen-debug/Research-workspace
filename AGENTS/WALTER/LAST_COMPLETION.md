@@ -1,18 +1,22 @@
-# WALTER LAST_COMPLETION — breadth investigation 2026-10-19
+# WALTER LAST_COMPLETION — approved breadth/credit first pass 2026-10-19
 
-Updated 2026-10-19T19:04:54Z. Codex/OpenAI,GPT-6family;exactcurrentmodelsuffixUNKNOWN. Session01a15572-effa-7db1-af2e-99682f19ab1c;task/root;Will-launchedowner. Fullruntime/sourcegaps below; predecessorreceipt preservedverbatim research/2026-10-19_afternoon/prior-LAST_COMPLETION.md. Deskactive,notclosed. Will’s additional breadth investigation completed; full narrative deferrals cleared, boot remains PARTIAL.
+Updated 2026-10-19T20:06:58Z. Codex/OpenAI,GPT-6family;exactcurrentmodelsuffixUNKNOWN. Session01a15572-effa-7db1-af2e-99682f19ab1c;task/root;Will-launchedowner. Fullruntime/sourcegaps below; predecessorreceipt preservedverbatim research/2026-10-19_afternoon/prior-LAST_COMPLETION.md. Deskactive,notclosed. Initial breadth snapshot completed; expanded approved three-part investigation has a verified first pass and unfinished fundamental attribution. Full narratives refreshed; boot remains PARTIAL.
 
 ## STATUS
 
-PARTIALboot/coverage;afternooncatch-upworkpersisted. Four signals012–015 added across the afternoon,BOARD1518,15today. FourincomingOTTOpacketsconsumedafterintegration. No trade,ownerthresholdorgradechanged.
+PARTIALboot/coverage;afternooncatch-upworkpersisted. Five signals012–016 added across the afternoon,BOARD1519,16today. FourincomingOTTOpacketsconsumedafterintegration. No trade,ownerthresholdorgradechanged.
 
 ## CHANGED
 
-Additional015 breadth signal and5handoffpairs committed6ffff7841;standaloneSVG,51-membercanonicalrawbundle/hashmanifest,reproduciblecalculationandstrictsessionaudit;fullSTATUS/REGISTRY/MEMORY/SESSION_LOGrefresh. New0155handoffpairs remain committed pending origin proof; freshfetchfoundnooriginhistory,notmissinglocalartifacts.
+**Approved follow-up:** research/2026-10-19_breadth-followup has PLAN/RESULT,60-session counts,23-year ETF history,3-year credit series,quality sector screen,telecom filing pilot,1,299 independently recomputed event-horizons,SVG and34-member reproducible raw bundle. NewPRIORITY016/5handoffpairs locally committed a5eb897c4; publication/consumption separate. Full STATUS/REGISTRY/MEMORY/SESSION_LOG refreshed.
+
+Additional015 breadth signal and5handoffpairs committed6ffff7841;standaloneSVG,51-membercanonicalrawbundle/hashmanifest,reproduciblecalculationandstrictsessionaudit;fullSTATUS/REGISTRY/MEMORY/SESSION_LOGrefresh. Earlier0155handoffpairs now proven on origin after fresh fetch; new0165pairs locally committed pending publication.
 
 BOARD012OTTOcontract/forecast/calendarrepairs;013ChinaGDP;014FranceMondaybondfollow-through;generatedINDEX,route/delivery/CORRECTIONS/BATCHledgers;4owninboxmoves+consumption;freshFRED/Cboe/EIA/AGSI/ECB/vendorreads;STATUS/REGISTRY/SESSION_LOG/MEMORY;datedresearch/PROMEpacket. Commits81d159bdc/ea6eacc7a. New17handoffpairsarecommittedandprovenonoriginbyfreshfetch;recipientconsumptionunverified.
 
 ## RESULT
+
+**Expanded approved study — PARTIAL:** recent5/20-session breadth recovered;60-session small companies weak. Historical20-session ETF narrowing proxy42formations,28positive63-session outcomes,mean+1.86%;broad42/32positive/+3.28%;both7/42ten-percentclosingdrawdowns. Not exact A/D,matchedregimes orforecastodds. Creditjointn3too small. Quality-within-sector20-session+1.44pp is screening,notrefinancingcausality;3filings expose ABS/lease/acquisition comparability issues. Fullmarket-wide maturity/coverage/industry-size matchedtestunfinished under existing approval. All completed-market comparisons end10/16;Mondayearliersnapshotremainsintraday.
 
 **Breadth investigation:** 503currentSPYequitylinesallfetched;315down/186up/2flat around14:57ET versusSPY+0.57%/RSP−0.23%. Nasdaq100equalweight+1.31vs+1.35capweight and5/20dRSPoutperformance limit the all-index/persistent-narrowing claim. BOARD015/research/2026-10-19_breadth/RESULT.md. No certified contribution fractions,officialindexcloseornewS1/R7grade.
 
@@ -21,6 +25,8 @@ BOARD012OTTOcontract/forecast/calendarrepairs;013ChinaGDP;014FranceMondaybondfol
 HY331bp[10/16]stilllatest;325/323/331entryalready003,notre-fired. X1CLOSED/DON’T-SIZE. Newownerrelay:Allywhole-loan$8BthroughJuly2027withimmediatediscretionarycancellationright,noneestablished;OTTOwarehouseforecast25%subjective,notold55%. ChinaQ3realGDP4.5%withweakdomesticinvestment;FranceOAT4.85/spread142.3dailyrowvsReutersintraday4.90/146,differentbases. Limitednewsweepfinds0newintakebreaches;4inboxitemsintegrated,2batchesclosed4/4and6/6.
 
 ## GAPS / OWED
+
+- **Approved fundamental investigation remains owed:** broader pre-window industry/size-matched company cohort;12/24-month unsecured maturities,unrestrictedcash,committedfacilities,coverage,floatingexposureafterhedges,subsequentevents. No reconciled dataset recovered; stale exact SEC tags cannot fill gaps. Official historical A/D/new-highlow census and pre2023 credit history not recovered. Do not claim the ETF/quality proxies completed these legs.
 
 - Breadth capture is an asynchronous current-SPY-holdings security-line proxy,not official index membership or market close. Historical MA/count coverage partial;session-audit supersedes initialskip-gapsderivation. Primaryweightsunreconciled,so index contribution fractionsUNCERTIFIED. No permanent monitor commissioned; domain consumption unverified.
 
@@ -36,6 +42,8 @@ HY331bp[10/16]stilllatest;325/323/331entryalready003,notre-fired. X1CLOSED/DON�
 None newlycreated. ExistingWQ458bookmarkcontinuationdecisionremainsregisteredwithPROME;noXloginactionneeded. No repeatedSundaypushquestion.
 
 ## FOLLOW-UP
+
+**Will-approved breadth/credit continuation:** all3 investigations approved directly: “Okay approved go ahead and begin these.” First pass016 locally committed for existing owner integration, publication/consumption pending; next substantive leg is company-level matched financing dataset and post-filing transaction reconciliation. Existing approval suffices; no newtrade,standingmonitororownerlaunch authority. PROMEpacket2026-10-19_from-WALTER_approved-breadth-credit-first-pass.md records scope/remainingwork.
 
 
 **Bookmark workflow follow-through 2026-10-19T18:02:46Z:** Will authorized the practical improvements. The original capped-backlog defect is now implemented/author-tested in tools/x_bookmarks_scan.py and x_bookmarks_workflow.py;57offline tests pass, including501/1001actual staged/mark flows. Current guide design/X_BOOKMARKS_WORKFLOW.md, evidence research/2026-10-19_bookmark-repair/RESULT.md. Independent repair review and live pagination check PENDING under X_BOOKMARKS_ACCEPTANCE§4/§10; no reviewer launched/acknowledged here. First upgraded authorized scan conservatively audits legacy coverage; live cursor/list-mutation behavior not certified. No new scan, mark, scope/cap change or WQ458renewal.
@@ -86,12 +94,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Full narrative/check receipt after breadth work; prior three light deferrals cleared. SelectedfullrunnerUNKNOWNbecauseREADSattestationstale;basisREVIEWnow5changedpaths(rootCLAUDEchangedconcurrently). Newcanonicaldocs/GIT_WORKTREE_PROCEDURES.mdreadwholebeforepersistencecommit. Doctor0HIGH/11MED:6knownplus5pending015handoffpairs. ReceiptREVIEWonlyhistoricalCOR05/06shorttargets. Readcap,archive,weekday,versions,MEMORYPASSselectedscopes;killledgerfrozen0killsandother eventledgersnofreshqualifyingevent. NoPROMEacknowledgmentinferred. Earlier snapshots remain dated in SESSION_LOG. Exactpublication/delivery/owner-reviewproofbelow;selectedchecksgeneratedafterownerupdatesunderresearch/2026-10-19_afternoon/checks/. Noall-dutyPASSclaim. InitialselectedreceiptREVIEWfound17rowsalreadyonorigin;freshfetch+reconciliationcorrectedthatstate. RemainingREVIEW:historicalCOR-20261015-05/06shorttargets;knownbeforethisturn. Killlogunchangedbecause0kills(all6newsitemsotherwiseDISPATCH/DUP/NO-ACTION);nofalsefire/doorbell/deepresearchproposaltoappend. Correctionsbootcheck0namedowed;event-drivenledgersnotmanufactured.
+Full narrative refreshed after approved first pass; desk remains active and full company attribution is unfinished under existing approval. Checks at research/2026-10-19_breadth-followup/checks/. Selected runner UNKNOWN because READS attestation dated10/12 remains stale; basis REVIEW five changed paths. Doctor0HIGH/11MED: six standing findings plus five pending016 handoff copies. Read-cap,archives,weekdays,versions,MEMORY PASS in selected scopes. Receipt REVIEW only pre-existing COR-20261015-05/06 short targets. Ledger nudge REVIEW: kill log unchanged because this research produced no kills; event-driven ledgers had no new qualifying events and old re-pull clocks remain dated, not renewed by this work. No full-duty/all-source PASS claim. Fresh fetch origin66903b1cf proves015;101/106 today handoffs origin-proven, new016five locally committed pending routine publication. Foreign PROME tracked/untracked work prevents WALTER pull/stash/rebase/push. No native domain-owner acknowledgment/consumption inferred. Root Git procedures read; exact self-authored paths only. Prior state snapshots retained in the study folder; no old sources deleted,34new captures bundled and hashes verified. Existing general duties and bookmark rulings remain above.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-19T19:04:54Z",
+  "as_of": "2026-10-19T20:06:58Z",
   "next_review": "2026-10-20",
   "publication": [
     {
@@ -104,14 +112,18 @@ Full narrative/check receipt after breadth work; prior three light deferrals cle
     },
     {
       "commit": "6ffff7841",
+      "state": "published"
+    },
+    {
+      "commit": "a5eb897c4",
       "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261019",
-    "total": 101,
-    "delivered": 96,
-    "note": "Before finalfetch:96proven/101today;new5pairscommittedpendingproof;consumptionUNKNOWN"
+    "total": 106,
+    "delivered": 101,
+    "note": "101/106 origin-proven; new0165pairs locally committed pending publication; consumption UNKNOWN"
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -163,6 +175,26 @@ Full narrative/check receipt after breadth work; prior three light deferrals cle
       {
         "path": "AGENTS/WALTER/research/2026-10-19_breadth/validation.json",
         "sha256": "b17a26a58465d82440c7a8549172a3d7d0014c5341bb4e673fd98d44bba12b84"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_breadth-followup/RESULT.md",
+        "sha256": "0b23c23272629f7738b105fdc772e36baf942090d89ec32db8d91fcbe618711f"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_breadth-followup/analysis.json",
+        "sha256": "55c03859e989059762191ac66476813a8289d5c07e2a6165d93e62ddba966cef"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_breadth-followup/quality-screen.json",
+        "sha256": "c4d69a8583c857e89698dd47f8254aa5f68270611d961fcf5ae09088d1c0ac4a"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_breadth-followup/validation.json",
+        "sha256": "8fce613ed75dcf225fbaef10e7bb255fa8f68e9820377cfdb3bd40d780369652"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_breadth-followup/sources-manifest.json",
+        "sha256": "6f472f23b278347d304698b4ca6dfa6c82269e7dda5381ff901f80bdeec3a1d8"
       }
     ]
   },
@@ -171,7 +203,7 @@ Full narrative/check receipt after breadth work; prior three light deferrals cle
     "boot": "PARTIAL",
     "owner": "WILL",
     "ask": "Hi WALTER please boot up; catch up missed news/signals",
-    "closeout": "Full narrative/checks afterthree lightdeferrals;deskactive;bootPARTIAL"
+    "closeout": "Full first-pass continuity; desk active; approved fundamental attribution unfinished; boot PARTIAL"
   },
   "manual_duties": {
     "7g": "4wholepackets/controllingsynthesesintegratedbeforefiling",
@@ -180,15 +212,17 @@ Full narrative/check receipt after breadth work; prior three light deferrals cle
     "7f": "0contentfiles;phoneinboxabsentnormal",
     "7h": "NOlivebookmarkscan:WQ458continuationunresolved,upgradedscannerindependent/liveacceptancepending;noextensioninferred",
     "9b": "cross-runtimepresenceUNKNOWN,noDARKclaim/doorbell",
-    "13": "47rows42leadheadersbeforefreshnetwork;no41fulldeskcontextclaim",
-    "Tier1": "Full narrative deferralsclearedafterthirdlight;proceduralcoveragegapsretained",
-    "16": "Exactpathcommits;freshfetchconfirmedroutes;17deliveryrowsreconciled;mainpull/pushdeferredforeignwork;noexternalmessages/trades",
+    "13": "47registry rows/42leadheaders before derived network, no fullcontexts or liveness claim",
+    "Tier1": "Full narratives refreshed; prior unresolved general duties preserved",
+    "16": "a5eb897c4 path-scoped; earlier015 origin-proven; new016 pending; foreignPROME work prevents push; no external send",
     "followup": "Willcreditimplicationsexplanation;FREDpagesrechecked,samefrontier;nonewdispatch/judgment/approval",
     "breadth": "Willauthorized;503quotes,24proxycharts,51rawcapturesbundled;strictsessionaudit/sanityreview;1new015/5pairs;no newgrade/monitor",
-    "retirement": "No newagedsource;earliertodayfullinventoryremainsdated;newrawcapturesbundled",
-    "ledger": "Killlogfrozen0kills;RED/REGfireledgersnonewfire;nodeepresearchproposal/DARKdoorbell;no fabricatedeventrows",
-    "14": "MEMORY99lines;nonewtransferablelesson/specorauto-memorypromotion",
-    "checks": "FullrunnerUNKNOWNstaleREADS;5basispaths;doctor0HIGH11MED(5pendingroutecopies);receiptREVIEW2historicalshorttargets;selectedreadcap/archive/weekday/versions/memoryPASS"
+    "retirement": "34newrawcaptures bundled/hash-verified,loosecopiesignored; no old source deleted",
+    "ledger": "BM11closed3/3; no new kill/fire/doorbell/correction event; standing kill ledger frozen",
+    "14": "MEMORY under100lines; no new spec/auto-memory promotion",
+    "checks": "FullrunnerUNKNOWN stale10/12READS;basis5pathsREVIEW;doctor0HIGH11MED(5pending016);receipt2oldCORtargetsREVIEW;ledgernudgeREVIEW0kills;readcap/archives/weekday/versions/memoryPASS",
+    "approved_followup": "3legs begun; computational firstpass verified; matched fundamental test unfinished, carried under existing approval",
+    "helpers": "2new thread-local Rule9 helpers, both explicit no-files/no-work-remaining receipts; not domain owners"
   }
 }
 END_CLOSEOUT_RECEIPT -->

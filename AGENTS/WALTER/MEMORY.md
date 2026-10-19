@@ -96,4 +96,4 @@
 
 **Bookmark completion:** new stages require --review-template + --mark --review; --receipt is local-only. Fully/partly/unread labels are attestations; material reading gaps need follow-up/request. Repairevidence research/2026-10-19_bookmark-repair/.
 
-**10/19 breadth:** Will commissioned investigation;015 confirms315/503SPYlinesdown whileSPYup,quotes14:50–14:57ET. Nasdaq100/5–20dRSPcounterevidence retained;notpersistentall-indexdecline. Sourcebundle/replayresearch/2026-10-19_breadth. WQ458/acceptance/generalbootgaps LAST_COMPLETION;fullnarrativedeferralscleared.
+**10/19 breadth:** Will approved persistence/credit/historical follow-up;016 first pass shows recent broadening, longer small-cap weakness and weaker historical proxy gains without reliable crash timing. Full matched refinancing test unfinished under existing approval. Evidence research/2026-10-19_breadth-followup; duties/publication/generalboot/WQ458 gaps LAST_COMPLETION.

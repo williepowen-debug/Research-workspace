@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="540" viewBox="0 0 1050 540">
+<rect width="1050" height="540" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033;font-size:14px}.title{font-size:25px;font-weight:bold}</style>
+<text x="35" y="42" class="title">Recent broadening coexists with weak small-company stocks</text>
+<text x="35" y="73">20 completed sessions: September 18–October 16, 2026; adjusted-price change (%)</text>
+<line x1="80" x2="850" y1="410.0" y2="410.0" stroke="#e5e7eb"/>
+<text x="30" y="415.0">-5.8%</text>
+<line x1="80" x2="850" y1="340.0" y2="340.0" stroke="#e5e7eb"/>
+<text x="30" y="345.0">-3.1%</text>
+<line x1="80" x2="850" y1="270.0" y2="270.0" stroke="#e5e7eb"/>
+<text x="30" y="275.0">-0.5%</text>
+<line x1="80" x2="850" y1="200.0" y2="200.0" stroke="#e5e7eb"/>
+<text x="30" y="205.0">+2.2%</text>
+<line x1="80" x2="850" y1="130.0" y2="130.0" stroke="#e5e7eb"/>
+<text x="30" y="135.0">+4.9%</text>
+<polyline points="80.0,258.1 118.5,217.5 157.0,217.9 195.5,237.1 234.0,239.2 272.5,224.9 311.0,244.6 349.5,249.5 388.0,254.8 426.5,250.2 465.0,230.8 503.5,213.0 542.0,198.3 580.5,204.7 619.0,216.0 657.5,200.1 696.0,201.7 734.5,202.0 773.0,230.9 811.5,223.4 850.0,252.7" fill="none" stroke="#2563eb" stroke-width="3"/>
+<text x="865" y="257.7174555527181" style="fill:#2563eb">SPY +0.20%</text>
+<polyline points="80.0,258.1 118.5,243.4 157.0,241.9 195.5,260.4 234.0,273.3 272.5,262.8 311.0,279.8 349.5,282.7 388.0,301.1 426.5,288.9 465.0,279.9 503.5,262.7 542.0,247.7 580.5,269.1 619.0,253.4 657.5,239.0 696.0,237.1 734.5,235.8 773.0,250.7 811.5,214.7 850.0,226.0" fill="none" stroke="#c2410c" stroke-width="3"/>
+<text x="865" y="230.98029002804165" style="fill:#c2410c">RSP +1.23%</text>
+<polyline points="80.0,258.1 118.5,213.3 157.0,211.7 195.5,222.7 234.0,217.9 272.5,205.4 311.0,214.0 349.5,209.7 388.0,221.6 426.5,207.2 465.0,194.8 503.5,178.1 542.0,171.1 580.5,177.9 619.0,175.1 657.5,163.3 696.0,156.2 734.5,163.7 773.0,177.5 811.5,168.1 850.0,189.5" fill="none" stroke="#15803d" stroke-width="3"/>
+<text x="865" y="194.4534780636763" style="fill:#15803d">QUAL +2.62%</text>
+<polyline points="80.0,258.1 118.5,244.4 157.0,229.4 195.5,278.1 234.0,280.5 272.5,277.7 311.0,295.6 349.5,304.9 388.0,315.3 426.5,304.8 465.0,281.8 503.5,264.7 542.0,283.5 580.5,317.0 619.0,318.2 657.5,305.6 696.0,315.2 734.5,326.2 773.0,375.3 811.5,341.1 850.0,383.8" fill="none" stroke="#7c3aed" stroke-width="3"/>
+<text x="865" y="388.8428063611352" style="fill:#7c3aed">IWM -4.81%</text>
+<text x="62.0" y="440">09-18</text>
+<text x="254.5" y="440">09-25</text>
+<text x="447.0" y="440">10-02</text>
+<text x="639.5" y="440">10-09</text>
+<text x="832.0" y="440">10-16</text>
+<text x="35" y="480">SPY: size weighted S&amp;P 500; RSP: equal weight; QUAL: quality; IWM: small companies.</text>
+<text x="35" y="510">Source: Yahoo daily adjusted ETF prices. Different sector/style exposures; this does not isolate refinancing risk.</text>
+</svg>

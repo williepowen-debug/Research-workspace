@@ -1,0 +1,392 @@
+{
+  "asof": "2026-10-19T20:00:46.591242+00:00",
+  "sector_asofs": {
+    "XLK": "As of 16-Oct-2026",
+    "XLC": "As of 16-Oct-2026",
+    "XLY": "As of 16-Oct-2026",
+    "XLF": "As of 16-Oct-2026",
+    "XLV": "As of 16-Oct-2026",
+    "XLI": "As of 16-Oct-2026",
+    "XLP": "As of 16-Oct-2026",
+    "XLE": "As of 16-Oct-2026",
+    "XLU": "As of 16-Oct-2026",
+    "XLRE": "As of 16-Oct-2026",
+    "XLB": "As of 16-Oct-2026"
+  },
+  "sector_conflicts": [],
+  "qual_equity_lines": 118,
+  "sp500_qual_intersection": 113,
+  "sp500_sector_coverage": 503,
+  "results": [
+    {
+      "sessions": 5,
+      "start": "2026-10-09",
+      "end": "2026-10-16",
+      "sectors": [
+        {
+          "sector": "XLB",
+          "qual_n": 3,
+          "other_n": 21,
+          "qual_mean_pct": 3.501287135949601,
+          "other_mean_pct": 3.272329781285283,
+          "qual_median_pct": 3.0388853285924,
+          "other_median_pct": 4.463115242521765,
+          "qual_minus_other_mean_pp": 0.22895735466431777
+        },
+        {
+          "sector": "XLC",
+          "qual_n": 6,
+          "other_n": 16,
+          "qual_mean_pct": -0.978588359198368,
+          "other_mean_pct": 0.2587403069419568,
+          "qual_median_pct": -2.223720501143461,
+          "other_median_pct": 2.5487875081978473,
+          "qual_minus_other_mean_pp": -1.2373286661403249
+        },
+        {
+          "sector": "XLE",
+          "qual_n": 7,
+          "other_n": 14,
+          "qual_mean_pct": 3.5496586744264005,
+          "other_mean_pct": 4.040307486424893,
+          "qual_median_pct": 5.118110236220463,
+          "other_median_pct": 4.486044190923666,
+          "qual_minus_other_mean_pp": -0.4906488119984922
+        },
+        {
+          "sector": "XLF",
+          "qual_n": 22,
+          "other_n": 54,
+          "qual_mean_pct": 3.249440748607824,
+          "other_mean_pct": 0.8183027589440911,
+          "qual_median_pct": 4.697823666793388,
+          "other_median_pct": 1.025162046653516,
+          "qual_minus_other_mean_pp": 2.431137989663733
+        },
+        {
+          "sector": "XLI",
+          "qual_n": 16,
+          "other_n": 67,
+          "qual_mean_pct": 1.0496904159166556,
+          "other_mean_pct": 0.15521588555877616,
+          "qual_median_pct": 3.0400502058274825,
+          "other_median_pct": 1.5170331874892584,
+          "qual_minus_other_mean_pp": 0.8944745303578794
+        },
+        {
+          "sector": "XLK",
+          "qual_n": 19,
+          "other_n": 56,
+          "qual_mean_pct": -5.924834354909957,
+          "other_mean_pct": -8.281231962012212,
+          "qual_median_pct": -7.8777900506429415,
+          "other_median_pct": -9.05677619025263,
+          "qual_minus_other_mean_pp": 2.356397607102255
+        },
+        {
+          "sector": "XLP",
+          "qual_n": 9,
+          "other_n": 25,
+          "qual_mean_pct": 5.254562098766644,
+          "other_mean_pct": 5.031660708686405,
+          "qual_median_pct": 4.971119577239769,
+          "other_median_pct": 5.604024208127023,
+          "qual_minus_other_mean_pp": 0.22290139008023857
+        },
+        {
+          "sector": "XLRE",
+          "qual_n": 4,
+          "other_n": 26,
+          "qual_mean_pct": 0.4833928369037427,
+          "other_mean_pct": 1.5064600722409505,
+          "qual_median_pct": 0.9533124126220316,
+          "other_median_pct": 1.6571367404720316,
+          "qual_minus_other_mean_pp": -1.0230672353372077
+        },
+        {
+          "sector": "XLU",
+          "qual_n": 5,
+          "other_n": 26,
+          "qual_mean_pct": 4.25143743846665,
+          "other_mean_pct": 1.9102528358919892,
+          "qual_median_pct": 3.806634700068501,
+          "other_median_pct": 2.788223796197453,
+          "qual_minus_other_mean_pp": 2.3411846025746605
+        },
+        {
+          "sector": "XLV",
+          "qual_n": 12,
+          "other_n": 48,
+          "qual_mean_pct": 2.8020966685569553,
+          "other_mean_pct": 3.3803530597522444,
+          "qual_median_pct": 2.807689448843631,
+          "other_median_pct": 4.223097289082245,
+          "qual_minus_other_mean_pp": -0.5782563911952892
+        },
+        {
+          "sector": "XLY",
+          "qual_n": 10,
+          "other_n": 37,
+          "qual_mean_pct": 3.233735987956702,
+          "other_mean_pct": 2.343038323620568,
+          "qual_median_pct": 3.711520641206134,
+          "other_median_pct": 3.2903966330825263,
+          "qual_minus_other_mean_pp": 0.890697664336134
+        }
+      ],
+      "equal_sector_mean_gap_pp": 0.5487681849189003,
+      "nonfinancial_nonREIT_sector_mean_gap_pp": 0.5142643644201532,
+      "nonfinancial_positive_sectors": 6,
+      "nonfinancial_sector_count": 9
+    },
+    {
+      "sessions": 20,
+      "start": "2026-09-18",
+      "end": "2026-10-16",
+      "sectors": [
+        {
+          "sector": "XLB",
+          "qual_n": 3,
+          "other_n": 21,
+          "qual_mean_pct": 6.66083639916244,
+          "other_mean_pct": -0.2580631164851288,
+          "qual_median_pct": 7.210717731759808,
+          "other_median_pct": 2.244325427186933,
+          "qual_minus_other_mean_pp": 6.918899515647569
+        },
+        {
+          "sector": "XLC",
+          "qual_n": 6,
+          "other_n": 16,
+          "qual_mean_pct": -1.3912217200288644,
+          "other_mean_pct": -4.547377323963467,
+          "qual_median_pct": -1.9663781079589493,
+          "other_median_pct": -2.2972601224852007,
+          "qual_minus_other_mean_pp": 3.1561556039346024
+        },
+        {
+          "sector": "XLE",
+          "qual_n": 7,
+          "other_n": 14,
+          "qual_mean_pct": 3.7202328361337873,
+          "other_mean_pct": 5.75232727047487,
+          "qual_median_pct": 4.361242542686683,
+          "other_median_pct": 7.362917125487034,
+          "qual_minus_other_mean_pp": -2.032094434341083
+        },
+        {
+          "sector": "XLF",
+          "qual_n": 22,
+          "other_n": 54,
+          "qual_mean_pct": 3.2362879217122886,
+          "other_mean_pct": -2.9573110904799633,
+          "qual_median_pct": 4.2516464160202165,
+          "other_median_pct": -2.4135428745275522,
+          "qual_minus_other_mean_pp": 6.1935990121922515
+        },
+        {
+          "sector": "XLI",
+          "qual_n": 16,
+          "other_n": 67,
+          "qual_mean_pct": 1.508762445636589,
+          "other_mean_pct": -0.21637819537722092,
+          "qual_median_pct": 2.8740739010961636,
+          "other_median_pct": 0.49334789113995026,
+          "qual_minus_other_mean_pp": 1.7251406410138097
+        },
+        {
+          "sector": "XLK",
+          "qual_n": 19,
+          "other_n": 56,
+          "qual_mean_pct": 1.277638560044067,
+          "other_mean_pct": -3.743532649682132,
+          "qual_median_pct": 0.9767370876665016,
+          "other_median_pct": -1.7571367641478652,
+          "qual_minus_other_mean_pp": 5.021171209726199
+        },
+        {
+          "sector": "XLP",
+          "qual_n": 9,
+          "other_n": 24,
+          "qual_mean_pct": 5.193636247735757,
+          "other_mean_pct": 4.997723495680436,
+          "qual_median_pct": 6.402266288951841,
+          "other_median_pct": 6.113152723189219,
+          "qual_minus_other_mean_pp": 0.195912752055321
+        },
+        {
+          "sector": "XLRE",
+          "qual_n": 4,
+          "other_n": 26,
+          "qual_mean_pct": -2.650791669921246,
+          "other_mean_pct": -0.2696029326493,
+          "qual_median_pct": -2.2684062064192934,
+          "other_median_pct": -0.3677446528701611,
+          "qual_minus_other_mean_pp": -2.381188737271946
+        },
+        {
+          "sector": "XLU",
+          "qual_n": 5,
+          "other_n": 26,
+          "qual_mean_pct": 3.895189639104959,
+          "other_mean_pct": 3.4476138795976023,
+          "qual_median_pct": 4.391765439800377,
+          "other_median_pct": 3.375716158709363,
+          "qual_minus_other_mean_pp": 0.4475757595073566
+        },
+        {
+          "sector": "XLV",
+          "qual_n": 12,
+          "other_n": 48,
+          "qual_mean_pct": 3.030604052808562,
+          "other_mean_pct": 6.278329358864746,
+          "qual_median_pct": 3.8419403030793386,
+          "other_median_pct": 6.457385519502401,
+          "qual_minus_other_mean_pp": -3.2477253060561844
+        },
+        {
+          "sector": "XLY",
+          "qual_n": 10,
+          "other_n": 37,
+          "qual_mean_pct": 3.696632890039177,
+          "other_mean_pct": 2.9135550195748885,
+          "qual_median_pct": 4.225814637783998,
+          "other_median_pct": 3.216881125408344,
+          "qual_minus_other_mean_pp": 0.7830778704642887
+        }
+      ],
+      "equal_sector_mean_gap_pp": 1.5255021715338348,
+      "nonfinancial_nonREIT_sector_mean_gap_pp": 1.4409015124390976,
+      "nonfinancial_positive_sectors": 7,
+      "nonfinancial_sector_count": 9
+    },
+    {
+      "sessions": 60,
+      "start": "2026-07-23",
+      "end": "2026-10-16",
+      "sectors": [
+        {
+          "sector": "XLB",
+          "qual_n": 3,
+          "other_n": 21,
+          "qual_mean_pct": 5.389456121786862,
+          "other_mean_pct": -0.23441478927204323,
+          "qual_median_pct": 7.941005989566552,
+          "other_median_pct": -0.012470382840756855,
+          "qual_minus_other_mean_pp": 5.623870911058906
+        },
+        {
+          "sector": "XLC",
+          "qual_n": 6,
+          "other_n": 16,
+          "qual_mean_pct": 0.4319023191602039,
+          "other_mean_pct": 0.7573096131697091,
+          "qual_median_pct": 4.624009917299665,
+          "other_median_pct": -1.1407550308336567,
+          "qual_minus_other_mean_pp": -0.32540729400950524
+        },
+        {
+          "sector": "XLE",
+          "qual_n": 7,
+          "other_n": 14,
+          "qual_mean_pct": 3.747799416821023,
+          "other_mean_pct": 15.99859556386405,
+          "qual_median_pct": 4.828462515883092,
+          "other_median_pct": 6.331179220493,
+          "qual_minus_other_mean_pp": -12.250796147043028
+        },
+        {
+          "sector": "XLF",
+          "qual_n": 22,
+          "other_n": 54,
+          "qual_mean_pct": 2.439435711504915,
+          "other_mean_pct": -3.034116470072814,
+          "qual_median_pct": 2.502651050887461,
+          "other_median_pct": -4.238125971106294,
+          "qual_minus_other_mean_pp": 5.473552181577729
+        },
+        {
+          "sector": "XLI",
+          "qual_n": 16,
+          "other_n": 67,
+          "qual_mean_pct": -5.3543915094175025,
+          "other_mean_pct": -6.108598227516267,
+          "qual_median_pct": -2.877928561926879,
+          "other_median_pct": -5.779674166020166,
+          "qual_minus_other_mean_pp": 0.7542067180987644
+        },
+        {
+          "sector": "XLK",
+          "qual_n": 19,
+          "other_n": 56,
+          "qual_mean_pct": 9.441029325895252,
+          "other_mean_pct": 6.321199771180688,
+          "qual_median_pct": 11.607496370595216,
+          "other_median_pct": 1.624113175242714,
+          "qual_minus_other_mean_pp": 3.1198295547145642
+        },
+        {
+          "sector": "XLP",
+          "qual_n": 9,
+          "other_n": 24,
+          "qual_mean_pct": 3.9964778447681746,
+          "other_mean_pct": 2.6266613924853828,
+          "qual_median_pct": 6.808414141632291,
+          "other_median_pct": 2.9063489747387816,
+          "qual_minus_other_mean_pp": 1.3698164522827918
+        },
+        {
+          "sector": "XLRE",
+          "qual_n": 4,
+          "other_n": 26,
+          "qual_mean_pct": -7.688098582733465,
+          "other_mean_pct": -6.5955130188668765,
+          "qual_median_pct": -7.791307040828732,
+          "other_median_pct": -9.723767326356164,
+          "qual_minus_other_mean_pp": -1.0925855638665887
+        },
+        {
+          "sector": "XLU",
+          "qual_n": 5,
+          "other_n": 26,
+          "qual_mean_pct": -3.590997275617578,
+          "other_mean_pct": -9.511965233256612,
+          "qual_median_pct": -5.521852172836439,
+          "other_median_pct": -8.258433004822042,
+          "qual_minus_other_mean_pp": 5.920967957639034
+        },
+        {
+          "sector": "XLV",
+          "qual_n": 12,
+          "other_n": 48,
+          "qual_mean_pct": 10.331420043589372,
+          "other_mean_pct": 17.304250805058338,
+          "qual_median_pct": 7.239448106807444,
+          "other_median_pct": 11.991421625719923,
+          "qual_minus_other_mean_pp": -6.972830761468966
+        },
+        {
+          "sector": "XLY",
+          "qual_n": 10,
+          "other_n": 37,
+          "qual_mean_pct": 3.4452472836416903,
+          "other_mean_pct": -1.20605091261246,
+          "qual_median_pct": -0.9424355376633331,
+          "other_median_pct": -1.9209119054320434,
+          "qual_minus_other_mean_pp": 4.65129819625415
+        }
+      ],
+      "equal_sector_mean_gap_pp": 0.5701747459307137,
+      "nonfinancial_nonREIT_sector_mean_gap_pp": 0.21010617639185683,
+      "nonfinancial_positive_sectors": 6,
+      "nonfinancial_sector_count": 9
+    }
+  ],
+  "limits": [
+    "Current QUAL membership applied retrospectively; no point-in-time historical quality classification.",
+    "QUAL selects profitability and earnings stability as well as low debt; absence is not high debt.",
+    "Sectors matched, not industries/size/valuation/earnings events; no causal or refinancing attribution.",
+    "Raw stock price returns exclude distributions and may contain corporate-action artifacts.",
+    "This is a descriptive screening comparison only; full maturity/funding test remains separate."
+  ]
+}

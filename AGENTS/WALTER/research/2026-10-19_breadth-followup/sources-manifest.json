@@ -1,0 +1,178 @@
+{
+  "asof": "2026-10-19T20:04:25.075273+00:00",
+  "bundle": "sources.tar.gz",
+  "extract_to": "raw/",
+  "members": [
+    {
+      "member": "BAMLC0A0CM.csv",
+      "bytes": 12664,
+      "sha256": "871c9f973823e2d6561fb1333dc704039d6c0916d3458ac5834875baf04ea0b5"
+    },
+    {
+      "member": "BAMLH0A0HYM2.csv",
+      "bytes": 12670,
+      "sha256": "38a801869141ac31d6c877b6b803ca138b22a6817fbf1ec2cd2ae4bd53312db4"
+    },
+    {
+      "member": "BAMLH0A3HYC.csv",
+      "bytes": 12765,
+      "sha256": "0317fbf2506ddd296831ea6cbac3c5f16ec8fec7c40e22a9cec6fd2ff793036e"
+    },
+    {
+      "member": "QUAL.csv",
+      "bytes": 19905,
+      "sha256": "1974f284cd1454dbf56d8a64738a37ebc03d873806664716f6a8ad389e4083a6"
+    },
+    {
+      "member": "XLB.xlsx",
+      "bytes": 19044,
+      "sha256": "902280ea726cdc787664f9823905a556ebf0d9bf0373645e26bbbc59420d6b46"
+    },
+    {
+      "member": "XLC.xlsx",
+      "bytes": 18854,
+      "sha256": "19eee3ba39528a475a3957ad38e02095bf9cd8a0ee34350e2dd8151d655d320a"
+    },
+    {
+      "member": "XLE.xlsx",
+      "bytes": 18772,
+      "sha256": "127706da8ace8a12c3fcf00b94a50ce287b7c6e104dd2dd5f2a9b3a86aed40f4"
+    },
+    {
+      "member": "XLF.xlsx",
+      "bytes": 23270,
+      "sha256": "96b93d323e0fb0484c4dab9576af18a8c0807c5b7330288c20ac39200b46d06d"
+    },
+    {
+      "member": "XLI.xlsx",
+      "bytes": 23679,
+      "sha256": "7828cb8e4a40342cbcd906c4bc6147e308f04e382c90e0c47a555537c56b7b46"
+    },
+    {
+      "member": "XLK.xlsx",
+      "bytes": 23042,
+      "sha256": "4938f60b7474d9ea394d5cc2eb65744d0185afbf197ef831b07d765f6194863b"
+    },
+    {
+      "member": "XLP.xlsx",
+      "bytes": 19983,
+      "sha256": "cdd7b5bb5dac5797a25ea9c3c50d1f34da79703cd97b9db5a0c68ee6f162ccd0"
+    },
+    {
+      "member": "XLRE.xlsx",
+      "bytes": 19524,
+      "sha256": "0104e7a7d068f2820740e107953318814502271133412b2d3b8deaf0c44ed9c3"
+    },
+    {
+      "member": "XLU.xlsx",
+      "bytes": 19561,
+      "sha256": "a9c5404e74e987ef3a0e3aa16f32918325852acb226d5c3782e9eb00855cf374"
+    },
+    {
+      "member": "XLV.xlsx",
+      "bytes": 21979,
+      "sha256": "5c9465cfe8dd2ed9639eb2762ccc511fc4f13c2edf8e05b5f79446658497dc84"
+    },
+    {
+      "member": "XLY.xlsx",
+      "bytes": 20903,
+      "sha256": "a3e56e7aa4719d177edd743574b2d0a5fba1e1ba27e438889c7b381b0ed9ed3f"
+    },
+    {
+      "member": "chart-IWM.json",
+      "bytes": 660144,
+      "sha256": "e594e9b4e425b22d8347e325d013fdbd365396273f6c55c96422c18820013c93"
+    },
+    {
+      "member": "chart-QQEW.json",
+      "bytes": 555175,
+      "sha256": "1aeee99a59ed123ff4b32b27eef8d5ee2ca1ac26bcdd314ed1688ed608d55146"
+    },
+    {
+      "member": "chart-QQQ.json",
+      "bytes": 660545,
+      "sha256": "0ea02dd73fbd6559a904167e4ef6c26a65418a4b8525382142d336608e9cae9f"
+    },
+    {
+      "member": "chart-QUAL.json",
+      "bytes": 361936,
+      "sha256": "2f68294cc388ba20167aa969d0c1bc4dd0b13efad0cae3a2bd6e0639c14044a7"
+    },
+    {
+      "member": "chart-RSP.json",
+      "bytes": 640717,
+      "sha256": "5daece7e5fff02355be2af65db7b01a3fe618b03eb29b0d8cb5a00a2a10ba187"
+    },
+    {
+      "member": "chart-SPHB.json",
+      "bytes": 419243,
+      "sha256": "dd4352c89d8e7ec223aa9de875418ea210468d27a6a66ebf02eb4eacc155c7db"
+    },
+    {
+      "member": "chart-SPHQ.json",
+      "bytes": 568987,
+      "sha256": "bf90ef88dc14c762ffe08bb31b40346eb63e58130c885da64bf58224143d93ad"
+    },
+    {
+      "member": "chart-SPY.json",
+      "bytes": 663496,
+      "sha256": "37c826a53a9f3fa71204c14565022058b0a6bc6dba39372b3d7c9666f76a37ef"
+    },
+    {
+      "member": "chart-XLB.json",
+      "bytes": 662944,
+      "sha256": "67ef8e307001d37cab1e0bf536baf9145a72960a18f3ccf503ec3d898d609c0d"
+    },
+    {
+      "member": "chart-XLC.json",
+      "bytes": 229430,
+      "sha256": "f0a122c65d1e422dac110e4851b298b4e7181d2a28b4eca673aa2a930879aaa4"
+    },
+    {
+      "member": "chart-XLE.json",
+      "bytes": 661367,
+      "sha256": "ea067161f4be240ac53bcc743c958c34ebf4940982705a55b535a69936a585d6"
+    },
+    {
+      "member": "chart-XLF.json",
+      "bytes": 674961,
+      "sha256": "083b433cd4d454e9b0aa238bc2fa390dc61f78f13a232f46934d1a3790c0e37b"
+    },
+    {
+      "member": "chart-XLI.json",
+      "bytes": 655459,
+      "sha256": "4630831618aad2ee5460a7ac9335860c52d7f6526b038ac4e12a5f204451d6cd"
+    },
+    {
+      "member": "chart-XLK.json",
+      "bytes": 659833,
+      "sha256": "5f114475d22f172d8031bdc2a21660ccb120909f24c1791e0a340239b44c9c7a"
+    },
+    {
+      "member": "chart-XLP.json",
+      "bytes": 655497,
+      "sha256": "53e151e919ce39c26b793f1b447286652085c9d329b75d80302a1062000f70bd"
+    },
+    {
+      "member": "chart-XLRE.json",
+      "bytes": 304812,
+      "sha256": "c1eec33e6f57558812f10b7e4b8b971c92d3341475958e8fe1ffdda8cfac9f2d"
+    },
+    {
+      "member": "chart-XLU.json",
+      "bytes": 663555,
+      "sha256": "dd59e6af05cbfa4bd6cef0c9d1e83dee12329a7de6bcf96e9a89f1e4a74522b2"
+    },
+    {
+      "member": "chart-XLV.json",
+      "bytes": 655995,
+      "sha256": "feeabdec93d55b2c42913a2267354a7897c83ae05c3ae65ef7e29a8f8e85ae1e"
+    },
+    {
+      "member": "chart-XLY.json",
+      "bytes": 659086,
+      "sha256": "c72cf0c8303100f6574d0fbc66323a251074867d1dd3314935c259b925195a64"
+    }
+  ],
+  "all_hashes_verified": true
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "XLK.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlk.xlsx",
+    "rc": 0,
+    "bytes": 23042,
+    "sha256": "4938f60b7474d9ea394d5cc2eb65744d0185afbf197ef831b07d765f6194863b",
+    "retrieved": "2026-10-19T20:00:11.335513+00:00"
+  },
+  {
+    "name": "XLC.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlc.xlsx",
+    "rc": 0,
+    "bytes": 18854,
+    "sha256": "19eee3ba39528a475a3957ad38e02095bf9cd8a0ee34350e2dd8151d655d320a",
+    "retrieved": "2026-10-19T20:00:11.543353+00:00"
+  },
+  {
+    "name": "XLY.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xly.xlsx",
+    "rc": 0,
+    "bytes": 20903,
+    "sha256": "a3e56e7aa4719d177edd743574b2d0a5fba1e1ba27e438889c7b381b0ed9ed3f",
+    "retrieved": "2026-10-19T20:00:11.465386+00:00"
+  },
+  {
+    "name": "XLF.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlf.xlsx",
+    "rc": 0,
+    "bytes": 23270,
+    "sha256": "96b93d323e0fb0484c4dab9576af18a8c0807c5b7330288c20ac39200b46d06d",
+    "retrieved": "2026-10-19T20:00:11.470798+00:00"
+  },
+  {
+    "name": "XLV.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlv.xlsx",
+    "rc": 0,
+    "bytes": 21979,
+    "sha256": "5c9465cfe8dd2ed9639eb2762ccc511fc4f13c2edf8e05b5f79446658497dc84",
+    "retrieved": "2026-10-19T20:00:11.523307+00:00"
+  },
+  {
+    "name": "XLI.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xli.xlsx",
+    "rc": 0,
+    "bytes": 23679,
+    "sha256": "7828cb8e4a40342cbcd906c4bc6147e308f04e382c90e0c47a555537c56b7b46",
+    "retrieved": "2026-10-19T20:00:11.770153+00:00"
+  },
+  {
+    "name": "XLP.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlp.xlsx",
+    "rc": 0,
+    "bytes": 19983,
+    "sha256": "cdd7b5bb5dac5797a25ea9c3c50d1f34da79703cd97b9db5a0c68ee6f162ccd0",
+    "retrieved": "2026-10-19T20:00:12.221692+00:00"
+  },
+  {
+    "name": "XLE.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xle.xlsx",
+    "rc": 0,
+    "bytes": 18772,
+    "sha256": "127706da8ace8a12c3fcf00b94a50ce287b7c6e104dd2dd5f2a9b3a86aed40f4",
+    "retrieved": "2026-10-19T20:00:11.657331+00:00"
+  },
+  {
+    "name": "XLU.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlu.xlsx",
+    "rc": 0,
+    "bytes": 19561,
+    "sha256": "a9c5404e74e987ef3a0e3aa16f32918325852acb226d5c3782e9eb00855cf374",
+    "retrieved": "2026-10-19T20:00:11.626597+00:00"
+  },
+  {
+    "name": "XLRE.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlre.xlsx",
+    "rc": 0,
+    "bytes": 19524,
+    "sha256": "0104e7a7d068f2820740e107953318814502271133412b2d3b8deaf0c44ed9c3",
+    "retrieved": "2026-10-19T20:00:11.751571+00:00"
+  },
+  {
+    "name": "XLB.xlsx",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlb.xlsx",
+    "rc": 0,
+    "bytes": 19044,
+    "sha256": "902280ea726cdc787664f9823905a556ebf0d9bf0373645e26bbbc59420d6b46",
+    "retrieved": "2026-10-19T20:00:12.209923+00:00"
+  },
+  {
+    "name": "QUAL.csv",
+    "url": "https://www.ishares.com/us/products/256101/ishares-msci-usa-quality-factor-etf/latest-holdings.csv",
+    "rc": 0,
+    "bytes": 19905,
+    "sha256": "1974f284cd1454dbf56d8a64738a37ebc03d873806664716f6a8ad389e4083a6",
+    "retrieved": "2026-10-19T20:00:11.876549+00:00"
+  }
+]

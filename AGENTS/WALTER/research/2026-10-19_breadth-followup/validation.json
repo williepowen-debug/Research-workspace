@@ -1,0 +1,43 @@
+{
+  "asof": "2026-10-19T20:02:35.175650+00:00",
+  "outcome_horizons_independently_recomputed": 1299,
+  "forward_returns_drawdowns_spacing": "PASS",
+  "breadth_partitions": "PASS",
+  "same_vendor_recent_history_crosscheck": "PASS; not independent source",
+  "posthoc_phase_sensitivity": {
+    "20": {
+      "posthoc_sampling_sensitivity": true,
+      "phase_count": 126,
+      "narrow_minus_broad_63session_mean_min_pp": -1.5996050778463449,
+      "max_pp": -1.0259804085691904,
+      "negative_phases": 126
+    },
+    "60": {
+      "posthoc_sampling_sensitivity": true,
+      "phase_count": 126,
+      "narrow_minus_broad_63session_mean_min_pp": -1.8924202528245373,
+      "max_pp": -1.2936759397050497,
+      "negative_phases": 126
+    }
+  },
+  "quality_csv_recomputation": "PASS",
+  "quality_sensitivity": {
+    "5": {
+      "sectors": 9,
+      "leave_one_sector_out_min_pp": 0.2839977090848905,
+      "leave_one_sector_out_max_pp": 0.733213493240213
+    },
+    "20": {
+      "sectors": 9,
+      "leave_one_sector_out_min_pp": 0.7561517620380387,
+      "leave_one_sector_out_max_pp": 2.026979864751008
+    },
+    "60": {
+      "sectors": 9,
+      "leave_one_sector_out_min_pp": -0.5037515462640403,
+      "leave_one_sector_out_max_pp": 1.7677189668212174
+    }
+  },
+  "threshold_correction": "At-least20bp sensitivity uses >=20; reviewer-found initial >20 changed, main sample unchanged.",
+  "limits": "Calculation validation is not validation of a predictive or causal model."
+}
