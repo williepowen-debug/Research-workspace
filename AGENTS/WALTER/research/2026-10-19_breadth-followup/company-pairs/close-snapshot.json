@@ -1,0 +1,4040 @@
+{
+  "summary": {
+    "retrieved": "2026-10-19T20:14:31.102551+00:00",
+    "expected": 503,
+    "covered": 503,
+    "up": 176,
+    "down": 325,
+    "flat": 2,
+    "median_raw_return_pct": -0.497470489038776,
+    "quote_clock_min": "2026-10-19T15:59:41-04:00",
+    "quote_clock_max": "2026-10-19T16:00:01-04:00",
+    "limits": "Post-close retrieval of vendor daily regular-session bars; not official exchange/index close certification. Current SPY holding security lines, not historical constituent census. Stale quote clocks remain explicit; no claim every price last traded exactly16:00."
+  },
+  "rows": [
+    {
+      "symbol": "XOM",
+      "friday": 178.98,
+      "monday": 178.275,
+      "return_pct": -0.39389875963793397,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LLY",
+      "friday": 1257.03,
+      "monday": 1240.4,
+      "return_pct": -1.3229596747889816,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AAPL",
+      "friday": 343.46,
+      "monday": 342.94,
+      "return_pct": -0.15140045420135584,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NVDA",
+      "friday": 214.13,
+      "monday": 217.09,
+      "return_pct": 1.3823378321580426,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AMD",
+      "friday": 528.75,
+      "monday": 538.05,
+      "return_pct": 1.7588652482269485,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GOOGL",
+      "friday": 340.59,
+      "monday": 344.18,
+      "return_pct": 1.0540532605185282,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MSFT",
+      "friday": 529.05,
+      "monday": 533.52,
+      "return_pct": 0.8449106889708125,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ABBV",
+      "friday": 285.42,
+      "monday": 282.7,
+      "return_pct": -0.9529815710181633,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "META",
+      "friday": 709.33,
+      "monday": 705.44,
+      "return_pct": -0.5484048327294766,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "JNJ",
+      "friday": 255.56,
+      "monday": 253.96,
+      "return_pct": -0.6260760682422872,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GOOG",
+      "friday": 336.91,
+      "monday": 340.16,
+      "return_pct": 0.9646493128728784,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "JPM",
+      "friday": 339.72,
+      "monday": 333.63,
+      "return_pct": -1.7926527728717834,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AVGO",
+      "friday": 328.75,
+      "monday": 334.59,
+      "return_pct": 1.7764258555132972,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TSLA",
+      "friday": 354.72,
+      "monday": 368.06,
+      "return_pct": 3.760712674785749,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AMZN",
+      "friday": 250.0,
+      "monday": 262.45,
+      "return_pct": 4.979999999999984,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MU",
+      "friday": 878.84,
+      "monday": 904.9,
+      "return_pct": 2.965272404533237,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WMT",
+      "friday": 118.81,
+      "monday": 118.7,
+      "return_pct": -0.09258479925932095,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MA",
+      "friday": 617.42,
+      "monday": 616.27,
+      "return_pct": -0.18625894852773994,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "V",
+      "friday": 402.61,
+      "monday": 403.09,
+      "return_pct": 0.11922207595438383,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BRK-B",
+      "friday": 532.02,
+      "monday": 532.47,
+      "return_pct": 0.08458328634262102,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "INTC",
+      "friday": 89.85,
+      "monday": 92.03,
+      "return_pct": 2.426265998887045,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PLTR",
+      "friday": 186.03,
+      "monday": 194.15,
+      "return_pct": 4.3648873837553115,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CSCO",
+      "friday": 107.39,
+      "monday": 106.5,
+      "return_pct": -0.8287550051215176,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "UNH",
+      "friday": 401.43,
+      "monday": 406.87,
+      "return_pct": 1.35515531973196,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BAC",
+      "friday": 51.23,
+      "monday": 50.39,
+      "return_pct": -1.6396642592231059,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AMAT",
+      "friday": 409.29,
+      "monday": 413.11,
+      "return_pct": 0.9333235603117496,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CVX",
+      "friday": 224.99,
+      "monday": 224.48,
+      "return_pct": -0.2266767411885029,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CAT",
+      "friday": 730.76,
+      "monday": 725.77,
+      "return_pct": -0.6828507307460763,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HD",
+      "friday": 309.63,
+      "monday": 309.99,
+      "return_pct": 0.11626780350741939,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GE",
+      "friday": 313.83,
+      "monday": 311.337,
+      "return_pct": -0.7943791224548358,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PG",
+      "friday": 159.35,
+      "monday": 157.71,
+      "return_pct": -1.0291810480075214,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KO",
+      "friday": 93.9,
+      "monday": 93.435,
+      "return_pct": -0.49520766773163416,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "COST",
+      "friday": 989.11,
+      "monday": 995.53,
+      "return_pct": 0.6490683543791897,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PANW",
+      "friday": 342.0,
+      "monday": 346.95,
+      "return_pct": 1.4473684210526194,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GS",
+      "friday": 881.26,
+      "monday": 875.79,
+      "return_pct": -0.6207021764292109,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NFLX",
+      "friday": 70.53,
+      "monday": 69.85,
+      "return_pct": -0.9641287395434683,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MRK",
+      "friday": 145.95,
+      "monday": 143.67,
+      "return_pct": -1.5621788283658788,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LRCX",
+      "friday": 263.94,
+      "monday": 272.2,
+      "return_pct": 3.129499128589819,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PM",
+      "friday": 205.2,
+      "monday": 200.98,
+      "return_pct": -2.0565302144249453,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RTX",
+      "friday": 193.92,
+      "monday": 192.16,
+      "return_pct": -0.9075907590759047,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CRM",
+      "friday": 240.7,
+      "monday": 242.46,
+      "return_pct": 0.7312006647278935,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GILD",
+      "friday": 156.19,
+      "monday": 153.07,
+      "return_pct": -1.9975670657532474,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AMGN",
+      "friday": 432.49,
+      "monday": 424.94,
+      "return_pct": -1.745705103008166,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MRVL",
+      "friday": 227.83,
+      "monday": 237.09,
+      "return_pct": 4.064434007812845,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KLAC",
+      "friday": 165.74,
+      "monday": 166.4,
+      "return_pct": 0.39821407023048483,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DIS",
+      "friday": 110.59,
+      "monday": 109.58,
+      "return_pct": -0.9132832986707751,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "C",
+      "friday": 124.26,
+      "monday": 121.72,
+      "return_pct": -2.044101078384042,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WFC",
+      "friday": 83.87,
+      "monday": 81.8,
+      "return_pct": -2.4681054012161807,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ORCL",
+      "friday": 128.23,
+      "monday": 129.63,
+      "return_pct": 1.0917881930905482,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "APH",
+      "friday": 79.35,
+      "monday": 80.26,
+      "return_pct": 1.146817895400143,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GEV",
+      "friday": 921.2,
+      "monday": 908.35,
+      "return_pct": -1.3949196699956645,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ADI",
+      "friday": 395.44,
+      "monday": 394.35,
+      "return_pct": -0.27564232247622167,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MS",
+      "friday": 180.57,
+      "monday": 178.49,
+      "return_pct": -1.1519078473722022,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CRWD",
+      "friday": 227.39,
+      "monday": 228.1,
+      "return_pct": 0.3122388847354829,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IBM",
+      "friday": 232.14,
+      "monday": 236.36,
+      "return_pct": 1.8178685276126538,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SNDK",
+      "friday": 1299.3,
+      "monday": 1371.12,
+      "return_pct": 5.527591780189334,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VZ",
+      "friday": 44.79,
+      "monday": 44.14,
+      "return_pct": -1.4512167894619288,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LIN",
+      "friday": 498.43,
+      "monday": 503.44,
+      "return_pct": 1.0051561904379724,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TXN",
+      "friday": 276.48,
+      "monday": 276.15,
+      "return_pct": -0.11935763888890616,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TMO",
+      "friday": 690.0,
+      "monday": 679.28,
+      "return_pct": -1.553623188405806,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ABT",
+      "friday": 104.89,
+      "monday": 104.06,
+      "return_pct": -0.7913051768519419,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PEP",
+      "friday": 131.49,
+      "monday": 133.57,
+      "return_pct": 1.5818693436763231,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SCHW",
+      "friday": 91.96,
+      "monday": 89.58,
+      "return_pct": -2.5880817746846363,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ANET",
+      "friday": 176.98,
+      "monday": 182.915,
+      "return_pct": 3.3534862696349865,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "QCOM",
+      "friday": 172.11,
+      "monday": 173.53,
+      "return_pct": 0.8250537446981454,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NOW",
+      "friday": 141.97,
+      "monday": 145.35,
+      "return_pct": 2.3807846728181925,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MCD",
+      "friday": 242.97,
+      "monday": 242.63,
+      "return_pct": -0.13993497139564992,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "T",
+      "friday": 23.44,
+      "monday": 23.205,
+      "return_pct": -1.0025597269624709,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "COP",
+      "friday": 146.51,
+      "monday": 145.21,
+      "return_pct": -0.8873114463176512,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AXP",
+      "friday": 313.59,
+      "monday": 316.365,
+      "return_pct": 0.8849134219841348,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BLK",
+      "friday": 1134.38,
+      "monday": 1124.825,
+      "return_pct": -0.8423103369241458,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BA",
+      "friday": 190.21,
+      "monday": 191.51,
+      "return_pct": 0.683455128542132,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DE",
+      "friday": 641.86,
+      "monday": 627.3,
+      "return_pct": -2.2684074408749644,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NEE",
+      "friday": 79.8,
+      "monday": 78.179,
+      "return_pct": -2.031328320801995,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PFE",
+      "friday": 29.58,
+      "monday": 29.43,
+      "return_pct": -0.5070993914807254,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ETN",
+      "friday": 391.25,
+      "monday": 391.64,
+      "return_pct": 0.09968051118209864,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WELL",
+      "friday": 234.85,
+      "monday": 233.536,
+      "return_pct": -0.5595060677027863,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "UNP",
+      "friday": 289.04,
+      "monday": 287.08,
+      "return_pct": -0.6781068364240417,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TJX",
+      "friday": 147.33,
+      "monday": 147.335,
+      "return_pct": 0.0033937419398499813,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ISRG",
+      "friday": 426.7,
+      "monday": 433.18,
+      "return_pct": 1.5186313569252485,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "STX",
+      "friday": 639.01,
+      "monday": 660.81,
+      "return_pct": 3.4115272061469915,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "UBER",
+      "friday": 70.35,
+      "monday": 69.97,
+      "return_pct": -0.54015636105188,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VRTX",
+      "friday": 499.74,
+      "monday": 501.95,
+      "return_pct": 0.44222995957898803,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VLO",
+      "friday": 444.71,
+      "monday": 433.14,
+      "return_pct": -2.6016954869465425,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MO",
+      "friday": 75.11,
+      "monday": 74.065,
+      "return_pct": -1.3912927706031142,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NEM",
+      "friday": 118.6,
+      "monday": 118.01,
+      "return_pct": -0.497470489038776,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SPGI",
+      "friday": 429.64,
+      "monday": 427.81,
+      "return_pct": -0.42593799460012294,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MPC",
+      "friday": 478.07,
+      "monday": 473.835,
+      "return_pct": -0.8858535360930397,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DHR",
+      "friday": 229.04,
+      "monday": 224.39,
+      "return_pct": -2.0302130632203985,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PH",
+      "friday": 963.34,
+      "monday": 966.54,
+      "return_pct": 0.3321776319886949,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DELL",
+      "friday": 451.71,
+      "monday": 455.0,
+      "return_pct": 0.7283434061676752,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BKNG",
+      "friday": 163.45,
+      "monday": 162.6,
+      "return_pct": -0.5200367084735369,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BMY",
+      "friday": 59.75,
+      "monday": 58.84,
+      "return_pct": -1.5230125523012505,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "COF",
+      "friday": 201.74,
+      "monday": 199.86,
+      "return_pct": -0.9318925349459661,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CVS",
+      "friday": 92.36,
+      "monday": 92.675,
+      "return_pct": 0.34105673451709784,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PGR",
+      "friday": 218.49,
+      "monday": 219.1,
+      "return_pct": 0.2791889789006241,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PLD",
+      "friday": 125.75,
+      "monday": 124.07,
+      "return_pct": -1.335984095427445,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CB",
+      "friday": 359.79,
+      "monday": 356.34,
+      "return_pct": -0.9588926874009918,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ACN",
+      "friday": 229.68,
+      "monday": 236.9,
+      "return_pct": 3.1435040055729724,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WDC",
+      "friday": 332.0,
+      "monday": 352.21,
+      "return_pct": 6.087349397590347,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SBUX",
+      "friday": 97.52,
+      "monday": 97.87,
+      "return_pct": 0.3589007383101084,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MDT",
+      "friday": 94.75,
+      "monday": 92.74,
+      "return_pct": -2.121372031662272,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MCK",
+      "friday": 1004.84,
+      "monday": 1010.27,
+      "return_pct": 0.5403845388320505,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PSX",
+      "friday": 293.17,
+      "monday": 290.595,
+      "return_pct": -0.87832997919296,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ADP",
+      "friday": 288.9,
+      "monday": 287.03,
+      "return_pct": -0.647282796815507,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PWR",
+      "friday": 631.86,
+      "monday": 618.31,
+      "return_pct": -2.144462380907175,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TT",
+      "friday": 458.89,
+      "monday": 465.12,
+      "return_pct": 1.3576238314193079,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BNY",
+      "friday": 143.3,
+      "monday": 142.41,
+      "return_pct": -0.621074668527577,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ADBE",
+      "friday": 245.2,
+      "monday": 247.09,
+      "return_pct": 0.7707993474714625,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GLW",
+      "friday": 132.0,
+      "monday": 132.85,
+      "return_pct": 0.6439393939393856,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SO",
+      "friday": 91.18,
+      "monday": 89.27,
+      "return_pct": -2.0947576222856035,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CME",
+      "friday": 293.87,
+      "monday": 293.53,
+      "return_pct": -0.11569741722531335,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LOW",
+      "friday": 197.38,
+      "monday": 195.9,
+      "return_pct": -0.7498226770696115,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LMT",
+      "friday": 552.09,
+      "monday": 548.45,
+      "return_pct": -0.6593127932040033,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EQIX",
+      "friday": 985.98,
+      "monday": 975.71,
+      "return_pct": -1.0416032779569595,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FCX",
+      "friday": 69.54,
+      "monday": 69.73,
+      "return_pct": 0.2732240437158362,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FTNT",
+      "friday": 169.13,
+      "monday": 171.5,
+      "return_pct": 1.401288949328916,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DUK",
+      "friday": 121.47,
+      "monday": 119.26,
+      "return_pct": -1.8193792706017842,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SYK",
+      "friday": 294.66,
+      "monday": 298.0,
+      "return_pct": 1.1335098079142014,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ELV",
+      "friday": 428.26,
+      "monday": 430.22,
+      "return_pct": 0.4576659038901587,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CSX",
+      "friday": 48.68,
+      "monday": 47.88,
+      "return_pct": -1.6433853738701654,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ICE",
+      "friday": 161.56,
+      "monday": 158.372,
+      "return_pct": -1.9732607080960585,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AMT",
+      "friday": 185.27,
+      "monday": 183.05,
+      "return_pct": -1.1982512009499624,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CEG",
+      "friday": 271.37,
+      "monday": 263.19,
+      "return_pct": -3.0143346722187436,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "USB",
+      "friday": 58.73,
+      "monday": 57.85,
+      "return_pct": -1.4983824280606073,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GD",
+      "friday": 344.23,
+      "monday": 341.4,
+      "return_pct": -0.8221247421782096,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CDNS",
+      "friday": 319.51,
+      "monday": 325.86,
+      "return_pct": 1.9874182341710789,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "INTU",
+      "friday": 325.15,
+      "monday": 325.62,
+      "return_pct": 0.14454866984470183,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MRSH",
+      "friday": 188.35,
+      "monday": 188.57,
+      "return_pct": 0.11680382267056366,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "JCI",
+      "friday": 145.47,
+      "monday": 148.23,
+      "return_pct": 1.897298412043713,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MAR",
+      "friday": 388.05,
+      "monday": 390.7,
+      "return_pct": 0.6829016879268179,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EMR",
+      "friday": 161.47,
+      "monday": 160.52,
+      "return_pct": -0.5883445841332713,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WMB",
+      "friday": 71.28,
+      "monday": 70.395,
+      "return_pct": -1.2415824915824936,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HWM",
+      "friday": 220.96,
+      "monday": 220.0,
+      "return_pct": -0.43446777697321304,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MMM",
+      "friday": 164.75,
+      "monday": 162.1,
+      "return_pct": -1.6084977238239762,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WM",
+      "friday": 226.86,
+      "monday": 226.47,
+      "return_pct": -0.17191219254165668,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EOG",
+      "friday": 158.01,
+      "monday": 157.625,
+      "return_pct": -0.2436554648439948,
+      "quote_clock": "2026-10-19T15:59:52-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SNPS",
+      "friday": 454.63,
+      "monday": 454.58,
+      "return_pct": -0.01099795438048723,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DDOG",
+      "friday": 247.11,
+      "monday": 260.36,
+      "return_pct": 5.361984541297393,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PNC",
+      "friday": 217.39,
+      "monday": 216.18,
+      "return_pct": -0.5566033396200321,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CI",
+      "friday": 302.3,
+      "monday": 298.44,
+      "return_pct": -1.2768772742309031,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HOOD",
+      "friday": 98.87,
+      "monday": 96.52,
+      "return_pct": -2.376858501062007,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MDLZ",
+      "friday": 63.91,
+      "monday": 63.34,
+      "return_pct": -0.8918792051322066,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HLT",
+      "friday": 345.12,
+      "monday": 346.04,
+      "return_pct": 0.2665739452943905,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BX",
+      "friday": 106.61,
+      "monday": 107.1,
+      "return_pct": 0.45961917268548813,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "REGN",
+      "friday": 790.74,
+      "monday": 782.04,
+      "return_pct": -1.1002352227027945,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GM",
+      "friday": 83.96,
+      "monday": 82.72,
+      "return_pct": -1.476893758932818,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MRNA",
+      "friday": 218.01,
+      "monday": 226.89,
+      "return_pct": 4.07320765102519,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SHW",
+      "friday": 335.2,
+      "monday": 331.69,
+      "return_pct": -1.0471360381861583,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ROST",
+      "friday": 236.89,
+      "monday": 238.66,
+      "return_pct": 0.7471822364810699,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SLB",
+      "friday": 49.5,
+      "monday": 49.095,
+      "return_pct": -0.8181818181818179,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NSC",
+      "friday": 326.92,
+      "monday": 323.585,
+      "return_pct": -1.0201272482564638,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MSI",
+      "friday": 463.15,
+      "monday": 458.91,
+      "return_pct": -0.9154701500593609,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TMUS",
+      "friday": 159.1,
+      "monday": 156.09,
+      "return_pct": -1.8918918918918837,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VRT",
+      "friday": 206.42,
+      "monday": 206.06,
+      "return_pct": -0.17440170526110688,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TRV",
+      "friday": 389.54,
+      "monday": 385.528,
+      "return_pct": -1.0299327411819048,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HPE",
+      "friday": 55.13,
+      "monday": 55.84,
+      "return_pct": 1.2878650462543106,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CMCSA",
+      "friday": 21.9,
+      "monday": 21.9,
+      "return_pct": 0.0,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CL",
+      "friday": 94.11,
+      "monday": 93.4,
+      "return_pct": -0.7544362979492014,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CTAS",
+      "friday": 213.69,
+      "monday": 212.3,
+      "return_pct": -0.650474987130889,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AEP",
+      "friday": 127.14,
+      "monday": 124.72,
+      "return_pct": -1.9034135598552826,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MNST",
+      "friday": 45.73,
+      "monday": 46.8,
+      "return_pct": 2.3398206866389604,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "UPS",
+      "friday": 97.48,
+      "monday": 97.46,
+      "return_pct": -0.020517029134192732,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HCA",
+      "friday": 458.84,
+      "monday": 454.74,
+      "return_pct": -0.8935576671606604,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NOC",
+      "friday": 519.86,
+      "monday": 510.36,
+      "return_pct": -1.8274150732889627,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "APD",
+      "friday": 299.59,
+      "monday": 298.53,
+      "return_pct": -0.3538168830735322,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LITE",
+      "friday": 824.13,
+      "monday": 834.51,
+      "return_pct": 1.2595100287575933,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CMI",
+      "friday": 531.33,
+      "monday": 522.37,
+      "return_pct": -1.686334293188796,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TGT",
+      "friday": 154.26,
+      "monday": 153.26,
+      "return_pct": -0.6482561908466189,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DASH",
+      "friday": 189.15,
+      "monday": 193.53,
+      "return_pct": 2.3156225218080806,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SPG",
+      "friday": 205.44,
+      "monday": 202.465,
+      "return_pct": -1.4481113707165094,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ABNB",
+      "friday": 173.7,
+      "monday": 175.46,
+      "return_pct": 1.0132412204951091,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ECL",
+      "friday": 288.89,
+      "monday": 285.86,
+      "return_pct": -1.0488421198379894,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MCO",
+      "friday": 485.07,
+      "monday": 480.9,
+      "return_pct": -0.8596697383882801,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "APP",
+      "friday": 266.13,
+      "monday": 269.12,
+      "return_pct": 1.1235110660203773,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ITW",
+      "friday": 272.28,
+      "monday": 270.29,
+      "return_pct": -0.7308652857352604,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KMI",
+      "friday": 34.2,
+      "monday": 33.4,
+      "return_pct": -2.3391812865497186,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HON",
+      "friday": 211.41,
+      "monday": 209.98,
+      "return_pct": -0.676410765810509,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ORLY",
+      "friday": 89.27,
+      "monday": 89.07,
+      "return_pct": -0.22403943093984857,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RCL",
+      "friday": 277.68,
+      "monday": 281.97,
+      "return_pct": 1.54494382022472,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "COR",
+      "friday": 340.92,
+      "monday": 339.91,
+      "return_pct": -0.2962571864366992,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FDX",
+      "friday": 293.55,
+      "monday": 293.81,
+      "return_pct": 0.08857094191789816,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NUE",
+      "friday": 256.29,
+      "monday": 260.755,
+      "return_pct": 1.7421670763587915,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AON",
+      "friday": 292.55,
+      "monday": 289.53,
+      "return_pct": -1.0323021705691438,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MPWR",
+      "friday": 1210.86,
+      "monday": 1253.66,
+      "return_pct": 3.5346778322845163,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FAST",
+      "friday": 51.02,
+      "monday": 51.02,
+      "return_pct": 0.0,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CAH",
+      "friday": 254.06,
+      "monday": 252.61,
+      "return_pct": -0.570731323309448,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BE",
+      "friday": 221.31,
+      "monday": 226.21,
+      "return_pct": 2.214088834666317,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TDG",
+      "friday": 1139.34,
+      "monday": 1142.07,
+      "return_pct": 0.2396124071831096,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NXPI",
+      "friday": 229.33,
+      "monday": 230.19,
+      "return_pct": 0.37500545066060376,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "OKE",
+      "friday": 93.31,
+      "monday": 92.42,
+      "return_pct": -0.9538098810416895,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AJG",
+      "friday": 254.88,
+      "monday": 253.015,
+      "return_pct": -0.7317168863779089,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ALL",
+      "friday": 247.88,
+      "monday": 246.91,
+      "return_pct": -0.3913183798612274,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DLR",
+      "friday": 175.97,
+      "monday": 172.97,
+      "return_pct": -1.7048360515997008,
+      "quote_clock": "2026-10-19T15:59:54-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TRGP",
+      "friday": 294.9,
+      "monday": 292.83,
+      "return_pct": -0.7019328585961326,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KKR",
+      "friday": 86.21,
+      "monday": 87.0,
+      "return_pct": 0.916367010787611,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BSX",
+      "friday": 44.39,
+      "monday": 45.055,
+      "return_pct": 1.4980851543140217,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TEL",
+      "friday": 212.64,
+      "monday": 212.345,
+      "return_pct": -0.13873212942061564,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PCAR",
+      "friday": 110.82,
+      "monday": 108.42,
+      "return_pct": -2.165674066053047,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "URI",
+      "friday": 1029.64,
+      "monday": 1024.67,
+      "return_pct": -0.48269298007070915,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GWW",
+      "friday": 1330.7,
+      "monday": 1318.4,
+      "return_pct": -0.924325542947313,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SRE",
+      "friday": 83.41,
+      "monday": 81.73,
+      "return_pct": -2.0141469847740012,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AME",
+      "friday": 248.17,
+      "monday": 247.18,
+      "return_pct": -0.39892009509610027,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "D",
+      "friday": 63.56,
+      "monday": 62.185,
+      "return_pct": -2.1633102580239094,
+      "quote_clock": "2026-10-19T15:59:54-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MET",
+      "friday": 100.76,
+      "monday": 99.58,
+      "return_pct": -1.1710996427153675,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TFC",
+      "friday": 47.07,
+      "monday": 46.33,
+      "return_pct": -1.5721266199277717,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KEYS",
+      "friday": 331.21,
+      "monday": 336.05,
+      "return_pct": 1.4613085353703203,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BDX",
+      "friday": 191.75,
+      "monday": 190.68,
+      "return_pct": -0.5580182529335009,
+      "quote_clock": "2026-10-19T15:59:54-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BKR",
+      "friday": 55.7,
+      "monday": 55.81,
+      "return_pct": 0.19748653500897273,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "O",
+      "friday": 56.08,
+      "monday": 55.52,
+      "return_pct": -0.998573466476449,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CRH",
+      "friday": 83.63,
+      "monday": 83.18,
+      "return_pct": -0.538084419466689,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HONA",
+      "friday": 168.09,
+      "monday": 162.49,
+      "return_pct": -3.331548575168064,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AZO",
+      "friday": 3120.59,
+      "monday": 3098.07,
+      "return_pct": -0.7216584043402086,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AFL",
+      "friday": 119.97,
+      "monday": 118.7,
+      "return_pct": -1.0585979828290348,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ADSK",
+      "friday": 239.9,
+      "monday": 240.7,
+      "return_pct": 0.33347228011670893,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FIX",
+      "friday": 1439.07,
+      "monday": 1464.69,
+      "return_pct": 1.7803164543767958,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TER",
+      "friday": 325.0,
+      "monday": 335.53,
+      "return_pct": 3.2399999999999984,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PSA",
+      "friday": 298.31,
+      "monday": 295.72,
+      "return_pct": -0.8682243303945514,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "APO",
+      "friday": 110.78,
+      "monday": 110.99,
+      "return_pct": 0.18956490341215382,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DVN",
+      "friday": 50.73,
+      "monday": 50.915,
+      "return_pct": 0.36467573427951816,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ETR",
+      "friday": 105.11,
+      "monday": 103.76,
+      "return_pct": -1.2843687565407658,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EBAY",
+      "friday": 120.28,
+      "monday": 120.47,
+      "return_pct": 0.15796474891918155,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PYPL",
+      "friday": 56.7,
+      "monday": 56.51,
+      "return_pct": -0.3350970017636734,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "F",
+      "friday": 12.43,
+      "monday": 12.18,
+      "return_pct": -2.011263073209979,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HUM",
+      "friday": 413.16,
+      "monday": 415.14,
+      "return_pct": 0.4792332268370503,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "XEL",
+      "friday": 76.31,
+      "monday": 75.14,
+      "return_pct": -1.5332197614991494,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WAB",
+      "friday": 286.82,
+      "monday": 286.73,
+      "return_pct": -0.031378564953621346,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ROK",
+      "friday": 426.23,
+      "monday": 424.36,
+      "return_pct": -0.43873026300353946,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "COHR",
+      "friday": 232.9,
+      "monday": 232.01,
+      "return_pct": -0.3821382567625653,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VYLR",
+      "friday": 72.18,
+      "monday": 72.33,
+      "return_pct": 0.20781379883623163,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FITB",
+      "friday": 50.37,
+      "monday": 50.55,
+      "return_pct": 0.3573555687909513,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "OXY",
+      "friday": 62.38,
+      "monday": 62.73,
+      "return_pct": 0.5610772683552367,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VEEV",
+      "friday": 310.36,
+      "monday": 316.795,
+      "return_pct": 2.07339863384457,
+      "quote_clock": "2026-10-19T15:59:48-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KDP",
+      "friday": 34.62,
+      "monday": 34.46,
+      "return_pct": -0.46216060080876975,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LHX",
+      "friday": 248.51,
+      "monday": 243.887,
+      "return_pct": -1.860287312381792,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "A",
+      "friday": 172.97,
+      "monday": 169.91,
+      "return_pct": -1.7690929062843308,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CIEN",
+      "friday": 332.73,
+      "monday": 344.56,
+      "return_pct": 3.5554353379616987,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EW",
+      "friday": 86.6,
+      "monday": 87.2,
+      "return_pct": 0.6928406466512715,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GRMN",
+      "friday": 284.79,
+      "monday": 286.27,
+      "return_pct": 0.5196811685803437,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VST",
+      "friday": 152.02,
+      "monday": 149.7,
+      "return_pct": -1.5261149848704303,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AIG",
+      "friday": 80.74,
+      "monday": 80.67,
+      "return_pct": -0.08669804310130758,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RSG",
+      "friday": 231.54,
+      "monday": 229.047,
+      "return_pct": -1.0767038092770131,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "XYZ",
+      "friday": 77.89,
+      "monday": 77.52,
+      "return_pct": -0.4750288868917818,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "STT",
+      "friday": 165.72,
+      "monday": 165.44,
+      "return_pct": -0.16895969104513409,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EXC",
+      "friday": 43.5,
+      "monday": 42.41,
+      "return_pct": -2.505747126436786,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FANG",
+      "friday": 203.95,
+      "monday": 203.12,
+      "return_pct": -0.40696249080656166,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IDXX",
+      "friday": 560.36,
+      "monday": 555.8,
+      "return_pct": -0.8137625811978078,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AMP",
+      "friday": 500.8,
+      "monday": 480.46,
+      "return_pct": -4.061501597444095,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IQV",
+      "friday": 266.9,
+      "monday": 265.83,
+      "return_pct": -0.4008992131884548,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NDAQ",
+      "friday": 93.97,
+      "monday": 93.2,
+      "return_pct": -0.8194104501436539,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ED",
+      "friday": 112.26,
+      "monday": 109.69,
+      "return_pct": -2.2893283449135993,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MSCI",
+      "friday": 569.08,
+      "monday": 566.55,
+      "return_pct": -0.44457721234274494,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WAT",
+      "friday": 436.95,
+      "monday": 434.438,
+      "return_pct": -0.5748941526490414,
+      "quote_clock": "2026-10-19T15:59:51-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CARR",
+      "friday": 55.0,
+      "monday": 55.22,
+      "return_pct": 0.40000000000000036,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VTR",
+      "friday": 85.86,
+      "monday": 84.495,
+      "return_pct": -1.589797344514321,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DAL",
+      "friday": 75.37,
+      "monday": 74.65,
+      "return_pct": -0.9552872495687925,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NKE",
+      "friday": 37.13,
+      "monday": 37.22,
+      "return_pct": 0.24239159709129598,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CVNA",
+      "friday": 58.83,
+      "monday": 58.7,
+      "return_pct": -0.22097569267379713,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FERG",
+      "friday": 231.61,
+      "monday": 226.28,
+      "return_pct": -2.3012823280514683,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VMRK",
+      "friday": 61.26,
+      "monday": 60.855,
+      "return_pct": -0.6611165523996099,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ADM",
+      "friday": 82.61,
+      "monday": 80.5,
+      "return_pct": -2.5541701973126774,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "COIN",
+      "friday": 173.16,
+      "monday": 168.45,
+      "return_pct": -2.720027720027729,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ILMN",
+      "friday": 262.54,
+      "monday": 262.66,
+      "return_pct": 0.04570732078921225,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "P",
+      "friday": 124.01,
+      "monday": 127.03,
+      "return_pct": 2.4352874768163835,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PRU",
+      "friday": 115.91,
+      "monday": 113.655,
+      "return_pct": -1.9454749374514635,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NTAP",
+      "friday": 203.8,
+      "monday": 207.37,
+      "return_pct": 1.7517173699705513,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ROP",
+      "friday": 382.71,
+      "monday": 383.5,
+      "return_pct": 0.20642261764782788,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IBKR",
+      "friday": 82.69,
+      "monday": 81.35,
+      "return_pct": -1.6205103398234444,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HIG",
+      "friday": 135.12,
+      "monday": 134.33,
+      "return_pct": -0.5846654825340414,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WDAY",
+      "friday": 190.81,
+      "monday": 195.2,
+      "return_pct": 2.300717991719514,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KVUE",
+      "friday": 18.91,
+      "monday": 18.865,
+      "return_pct": -0.23796932839768026,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MCHP",
+      "friday": 73.85,
+      "monday": 74.42,
+      "return_pct": 0.771834800270832,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "YUM",
+      "friday": 150.51,
+      "monday": 149.79,
+      "return_pct": -0.47837352999801075,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CBRE",
+      "friday": 133.08,
+      "monday": 130.747,
+      "return_pct": -1.75308085362188,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CMG",
+      "friday": 29.89,
+      "monday": 29.84,
+      "return_pct": -0.16728002676480447,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TTWO",
+      "friday": 205.28,
+      "monday": 204.92,
+      "return_pct": -0.175370226032745,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SYY",
+      "friday": 82.22,
+      "monday": 81.6,
+      "return_pct": -0.7540744344441852,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TWLO",
+      "friday": 244.37,
+      "monday": 257.29,
+      "return_pct": 5.287064696975907,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PEG",
+      "friday": 71.49,
+      "monday": 70.315,
+      "return_pct": -1.6435865155965845,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KR",
+      "friday": 63.63,
+      "monday": 63.035,
+      "return_pct": -0.9350935093509483,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PAYX",
+      "friday": 111.63,
+      "monday": 110.75,
+      "return_pct": -0.7883185523604674,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IRM",
+      "friday": 112.51,
+      "monday": 111.55,
+      "return_pct": -0.8532574882232802,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CCL",
+      "friday": 25.9,
+      "monday": 26.445,
+      "return_pct": 2.1042471042471034,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RMD",
+      "friday": 238.97,
+      "monday": 239.73,
+      "return_pct": 0.31803155207765776,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DHI",
+      "friday": 139.39,
+      "monday": 135.27,
+      "return_pct": -2.9557357055742695,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KMB",
+      "friday": 105.57,
+      "monday": 105.41,
+      "return_pct": -0.15155820782418727,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ODFL",
+      "friday": 187.72,
+      "monday": 186.85,
+      "return_pct": -0.46345621137865445,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CBOE",
+      "friday": 314.98,
+      "monday": 307.03,
+      "return_pct": -2.523969775858803,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FLEX",
+      "friday": 90.46,
+      "monday": 87.54,
+      "return_pct": -3.2279460535042936,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ACGL",
+      "friday": 101.27,
+      "monday": 100.48,
+      "return_pct": -0.7800928211711189,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CCI",
+      "friday": 82.26,
+      "monday": 81.025,
+      "return_pct": -1.501337223437882,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WEC",
+      "friday": 108.71,
+      "monday": 106.99,
+      "return_pct": -1.5821911507680975,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "STLD",
+      "friday": 240.54,
+      "monday": 245.17,
+      "return_pct": 1.9248357861478382,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VMC",
+      "friday": 257.63,
+      "monday": 257.45,
+      "return_pct": -0.0698676396382436,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EXPE",
+      "friday": 288.95,
+      "monday": 291.72,
+      "return_pct": 0.9586433639038106,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ZTS",
+      "friday": 79.38,
+      "monday": 79.585,
+      "return_pct": 0.25825144872764216,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CNC",
+      "friday": 69.16,
+      "monday": 68.63,
+      "return_pct": -0.7663389242336671,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EQT",
+      "friday": 54.3,
+      "monday": 54.42,
+      "return_pct": 0.22099447513812542,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BIIB",
+      "friday": 232.65,
+      "monday": 233.48,
+      "return_pct": 0.3567590801633269,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MTD",
+      "friday": 1622.29,
+      "monday": 1624.866,
+      "return_pct": 0.1587878862595371,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DXCM",
+      "friday": 86.04,
+      "monday": 85.98,
+      "return_pct": -0.06973500697350365,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "UAL",
+      "friday": 96.1,
+      "monday": 95.6,
+      "return_pct": -0.5202913631633721,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MTB",
+      "friday": 215.28,
+      "monday": 213.75,
+      "return_pct": -0.710702341137126,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AXON",
+      "friday": 390.29,
+      "monday": 383.09,
+      "return_pct": -1.8447820851162033,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TDY",
+      "friday": 618.6,
+      "monday": 619.915,
+      "return_pct": 0.21257678629160726,
+      "quote_clock": "2026-10-19T15:59:52-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WSM",
+      "friday": 250.16,
+      "monday": 249.395,
+      "return_pct": -0.3058042852574272,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EXR",
+      "friday": 139.61,
+      "monday": 138.17,
+      "return_pct": -1.0314447389155657,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NTRS",
+      "friday": 165.54,
+      "monday": 164.46,
+      "return_pct": -0.6524102935846265,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EME",
+      "friday": 721.66,
+      "monday": 716.55,
+      "return_pct": -0.7080896821217819,
+      "quote_clock": "2026-10-19T15:59:48-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PCG",
+      "friday": 13.09,
+      "monday": 13.11,
+      "return_pct": 0.15278838808250317,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AEE",
+      "friday": 106.08,
+      "monday": 103.985,
+      "return_pct": -1.974924585218707,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HBAN",
+      "friday": 15.27,
+      "monday": 15.23,
+      "return_pct": -0.2619515389652882,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MLM",
+      "friday": 500.84,
+      "monday": 501.775,
+      "return_pct": 0.18668636690359897,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GEHC",
+      "friday": 69.57,
+      "monday": 69.76,
+      "return_pct": 0.27310622394711714,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HAL",
+      "friday": 33.5,
+      "monday": 33.0,
+      "return_pct": -1.4925373134328401,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ATO",
+      "friday": 167.34,
+      "monday": 164.68,
+      "return_pct": -1.5895781044579893,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WTW",
+      "friday": 315.49,
+      "monday": 314.45,
+      "return_pct": -0.3296459475736202,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CTSH",
+      "friday": 66.03,
+      "monday": 66.79,
+      "return_pct": 1.15099197334545,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "JBL",
+      "friday": 278.25,
+      "monday": 282.07,
+      "return_pct": 1.3728661275831167,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DG",
+      "friday": 134.36,
+      "monday": 133.3,
+      "return_pct": -0.7889252753795817,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DOV",
+      "friday": 195.8,
+      "monday": 195.385,
+      "return_pct": -0.21195097037794985,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RJF",
+      "friday": 156.78,
+      "monday": 153.3,
+      "return_pct": -2.219670876387292,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HPQ",
+      "friday": 30.01,
+      "monday": 30.24,
+      "return_pct": 0.7664111962679021,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CNP",
+      "friday": 40.55,
+      "monday": 39.565,
+      "return_pct": -2.4290998766954397,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PPL",
+      "friday": 35.17,
+      "monday": 34.31,
+      "return_pct": -2.445265851578049,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LYV",
+      "friday": 170.51,
+      "monday": 170.76,
+      "return_pct": 0.14661896662953033,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CPAY",
+      "friday": 399.84,
+      "monday": 402.455,
+      "return_pct": 0.6540116046418687,
+      "quote_clock": "2026-10-19T15:59:51-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VICI",
+      "friday": 23.6,
+      "monday": 23.085,
+      "return_pct": -2.182203389830506,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ON",
+      "friday": 72.02,
+      "monday": 73.12,
+      "return_pct": 1.5273535129130877,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DTE",
+      "friday": 129.73,
+      "monday": 126.94,
+      "return_pct": -2.1506205195405803,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IR",
+      "friday": 77.78,
+      "monday": 77.74,
+      "return_pct": -0.05142710208280166,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CINF",
+      "friday": 171.25,
+      "monday": 169.89,
+      "return_pct": -0.7941605839416166,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EL",
+      "friday": 104.54,
+      "monday": 105.8,
+      "return_pct": 1.2052802754926262,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LH",
+      "friday": 317.95,
+      "monday": 318.915,
+      "return_pct": 0.3035068406982422,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "OTIS",
+      "friday": 71.33,
+      "monday": 71.05,
+      "return_pct": -0.39254170755642637,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DGX",
+      "friday": 235.0,
+      "monday": 234.78,
+      "return_pct": -0.093617021276593,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WST",
+      "friday": 384.02,
+      "monday": 384.21,
+      "return_pct": 0.049476589760955036,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AWK",
+      "friday": 134.94,
+      "monday": 133.57,
+      "return_pct": -1.015266044167784,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EXPD",
+      "friday": 195.91,
+      "monday": 196.8,
+      "return_pct": 0.4542902353121381,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CFG",
+      "friday": 63.36,
+      "monday": 62.769,
+      "return_pct": -0.932765151515158,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VRSK",
+      "friday": 190.9,
+      "monday": 189.21,
+      "return_pct": -0.8852802514405456,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ARES",
+      "friday": 112.27,
+      "monday": 112.91,
+      "return_pct": 0.5700543333036379,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FISV",
+      "friday": 47.55,
+      "monday": 47.69,
+      "return_pct": 0.29442691903260876,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ES",
+      "friday": 66.85,
+      "monday": 64.47,
+      "return_pct": -3.56020942408376,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CHD",
+      "friday": 104.53,
+      "monday": 104.091,
+      "return_pct": -0.4199751267578766,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CASY",
+      "friday": 689.22,
+      "monday": 693.73,
+      "return_pct": 0.6543629029917897,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FFIV",
+      "friday": 442.03,
+      "monday": 450.8,
+      "return_pct": 1.9840282333778436,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ULTA",
+      "friday": 592.94,
+      "monday": 591.62,
+      "return_pct": -0.2226194893243938,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VRSN",
+      "friday": 302.34,
+      "monday": 306.48,
+      "return_pct": 1.3693193093867961,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "Q",
+      "friday": 115.37,
+      "monday": 118.91,
+      "return_pct": 3.0683886625639145,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DRI",
+      "friday": 216.35,
+      "monday": 216.33,
+      "return_pct": -0.009244280101683433,
+      "quote_clock": "2026-10-19T15:59:49-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FE",
+      "friday": 46.19,
+      "monday": 45.245,
+      "return_pct": -2.045897380385364,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TPR",
+      "friday": 120.18,
+      "monday": 117.67,
+      "return_pct": -2.08853386586787,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VLTO",
+      "friday": 101.04,
+      "monday": 100.485,
+      "return_pct": -0.549287410926369,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "XYL",
+      "friday": 104.05,
+      "monday": 103.53,
+      "return_pct": -0.4997597308986079,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DLTR",
+      "friday": 124.18,
+      "monday": 123.15,
+      "return_pct": -0.8294411338379826,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PPG",
+      "friday": 107.39,
+      "monday": 107.55,
+      "return_pct": 0.14898966384206958,
+      "quote_clock": "2026-10-19T15:59:50-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HSY",
+      "friday": 170.83,
+      "monday": 167.03,
+      "return_pct": -2.224433647485813,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HUBB",
+      "friday": 461.1,
+      "monday": 465.03,
+      "return_pct": 0.8523096942094854,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SYF",
+      "friday": 73.68,
+      "monday": 74.18,
+      "return_pct": 0.6786102062974919,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CPRT",
+      "friday": 27.87,
+      "monday": 27.51,
+      "return_pct": -1.2917115177610294,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RF",
+      "friday": 27.45,
+      "monday": 27.22,
+      "return_pct": -0.837887067395271,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SW",
+      "friday": 41.16,
+      "monday": 40.84,
+      "return_pct": -0.7774538386783103,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EIX",
+      "friday": 55.93,
+      "monday": 55.65,
+      "return_pct": -0.5006257822277815,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IFF",
+      "friday": 90.68,
+      "monday": 90.965,
+      "return_pct": 0.3142920158800244,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "OMC",
+      "friday": 80.56,
+      "monday": 79.45,
+      "return_pct": -1.3778550148957236,
+      "quote_clock": "2026-10-19T15:59:51-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TROW",
+      "friday": 100.97,
+      "monday": 100.1,
+      "return_pct": -0.8616420719025464,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "VTRS",
+      "friday": 18.66,
+      "monday": 18.26,
+      "return_pct": -2.143622722400851,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CMS",
+      "friday": 68.7,
+      "monday": 67.36,
+      "return_pct": -1.9505094614264973,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NRG",
+      "friday": 103.75,
+      "monday": 99.41,
+      "return_pct": -4.183132530120481,
+      "quote_clock": "2026-10-19T15:59:51-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "STE",
+      "friday": 222.66,
+      "monday": 221.92,
+      "return_pct": -0.3323452797987958,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DOW",
+      "friday": 29.93,
+      "monday": 30.085,
+      "return_pct": 0.5178750417641265,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TPL",
+      "friday": 350.92,
+      "monday": 344.83,
+      "return_pct": -1.7354382765302767,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KHC",
+      "friday": 23.68,
+      "monday": 23.19,
+      "return_pct": -2.0692567567567544,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RDDT",
+      "friday": 156.14,
+      "monday": 155.12,
+      "return_pct": -0.6532598949660406,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EXE",
+      "friday": 93.41,
+      "monday": 92.92,
+      "return_pct": -0.5245691039503231,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PFG",
+      "friday": 108.81,
+      "monday": 106.86,
+      "return_pct": -1.7921146953405076,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PTC",
+      "friday": 192.98,
+      "monday": 193.06,
+      "return_pct": 0.04145507306456686,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PKG",
+      "friday": 236.0,
+      "monday": 236.455,
+      "return_pct": 0.1927966101694878,
+      "quote_clock": "2026-10-19T15:59:54-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PHM",
+      "friday": 113.55,
+      "monday": 110.87,
+      "return_pct": -2.3601937472479073,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NI",
+      "friday": 42.68,
+      "monday": 41.955,
+      "return_pct": -1.6986879100281183,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BRO",
+      "friday": 69.4,
+      "monday": 69.215,
+      "return_pct": -0.2665706051873218,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GPN",
+      "friday": 83.67,
+      "monday": 84.59,
+      "return_pct": 1.09955778654236,
+      "quote_clock": "2026-10-19T15:59:54-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AMCR",
+      "friday": 43.85,
+      "monday": 43.97,
+      "return_pct": 0.273660205245152,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SNA",
+      "friday": 367.25,
+      "monday": 364.93,
+      "return_pct": -0.6317222600408456,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FSLR",
+      "friday": 172.64,
+      "monday": 171.8,
+      "return_pct": -0.4865616311399257,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LUV",
+      "friday": 39.5,
+      "monday": 38.81,
+      "return_pct": -1.746835443037964,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "STZ",
+      "friday": 131.35,
+      "monday": 131.13,
+      "return_pct": -0.16749143509706688,
+      "quote_clock": "2026-10-19T15:59:50-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BBY",
+      "friday": 92.63,
+      "monday": 91.135,
+      "return_pct": -1.6139479650221222,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "INCY",
+      "friday": 113.07,
+      "monday": 113.25,
+      "return_pct": 0.15919342000532133,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CF",
+      "friday": 120.85,
+      "monday": 118.54,
+      "return_pct": -1.9114604882085162,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EFX",
+      "friday": 161.25,
+      "monday": 158.55,
+      "return_pct": -1.674418604651151,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FIS",
+      "friday": 36.01,
+      "monday": 35.955,
+      "return_pct": -0.152735351291311,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BR",
+      "friday": 175.11,
+      "monday": 175.109,
+      "return_pct": -0.0005710696133864879,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CDW",
+      "friday": 150.48,
+      "monday": 152.645,
+      "return_pct": 1.4387293992557337,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GPC",
+      "friday": 133.96,
+      "monday": 130.16,
+      "return_pct": -2.8366676619886566,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "L",
+      "friday": 110.52,
+      "monday": 110.25,
+      "return_pct": -0.24429967426710109,
+      "quote_clock": "2026-10-19T15:59:48-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EVRG",
+      "friday": 83.3,
+      "monday": 81.69,
+      "return_pct": -1.9327731092437017,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SWKS",
+      "friday": 79.7,
+      "monday": 80.23,
+      "return_pct": 0.6649937264742833,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SBAC",
+      "friday": 187.06,
+      "monday": 183.09,
+      "return_pct": -2.1223136961402767,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GIS",
+      "friday": 33.13,
+      "monday": 32.56,
+      "return_pct": -1.7204950196196833,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KEY",
+      "friday": 19.99,
+      "monday": 19.9,
+      "return_pct": -0.4502251125562795,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "APA",
+      "friday": 49.15,
+      "monday": 49.76,
+      "return_pct": 1.2410986775178046,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TSCO",
+      "friday": 33.16,
+      "monday": 32.81,
+      "return_pct": -1.055488540410121,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ZBH",
+      "friday": 94.98,
+      "monday": 95.01,
+      "return_pct": 0.031585596967786955,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LNT",
+      "friday": 68.32,
+      "monday": 66.85,
+      "return_pct": -2.1516393442622905,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SMCI",
+      "friday": 31.63,
+      "monday": 32.1,
+      "return_pct": 1.48593107809043,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BG",
+      "friday": 106.14,
+      "monday": 103.15,
+      "return_pct": -2.8170341058978643,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BALL",
+      "friday": 63.2,
+      "monday": 63.87,
+      "return_pct": 1.0601265822784756,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FTV",
+      "friday": 57.79,
+      "monday": 57.48,
+      "return_pct": -0.5364249870219773,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DD",
+      "friday": 130.45,
+      "monday": 129.35,
+      "return_pct": -0.8432349559218011,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ZBRA",
+      "friday": 369.01,
+      "monday": 375.77,
+      "return_pct": 1.8319286740196672,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IP",
+      "friday": 34.05,
+      "monday": 33.76,
+      "return_pct": -0.8516886930983847,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ESS",
+      "friday": 269.43,
+      "monday": 266.664,
+      "return_pct": -1.0266117358868843,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RVTY",
+      "friday": 152.64,
+      "monday": 150.85,
+      "return_pct": -1.1726939203354214,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IEX",
+      "friday": 235.55,
+      "monday": 233.87,
+      "return_pct": -0.7132243684992545,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NDSN",
+      "friday": 322.31,
+      "monday": 323.88,
+      "return_pct": 0.4871086841860217,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "J",
+      "friday": 141.08,
+      "monday": 138.26,
+      "return_pct": -1.9988658916926694,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WRB",
+      "friday": 75.42,
+      "monday": 74.12,
+      "return_pct": -1.7236807212940852,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "JBHT",
+      "friday": 228.78,
+      "monday": 223.25,
+      "return_pct": -2.4171693329836486,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HST",
+      "friday": 23.97,
+      "monday": 24.19,
+      "return_pct": 0.9178139340842772,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TSN",
+      "friday": 54.9,
+      "monday": 53.99,
+      "return_pct": -1.6575591985428018,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LDOS",
+      "friday": 124.85,
+      "monday": 126.07,
+      "return_pct": 0.9771726071285514,
+      "quote_clock": "2026-10-19T15:59:47-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HAS",
+      "friday": 98.76,
+      "monday": 98.49,
+      "return_pct": -0.27339003645201476,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CHRW",
+      "friday": 139.49,
+      "monday": 138.85,
+      "return_pct": -0.4588142519177163,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LEN",
+      "friday": 77.08,
+      "monday": 75.86,
+      "return_pct": -1.5827711468604067,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NVR",
+      "friday": 5919.82,
+      "monday": 5823.38,
+      "return_pct": -1.629103587609071,
+      "quote_clock": "2026-10-19T15:59:49-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "EG",
+      "friday": 389.1,
+      "monday": 390.33,
+      "return_pct": 0.316114109483423,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MAS",
+      "friday": 72.87,
+      "monday": 72.98,
+      "return_pct": 0.15095375325921978,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AIZ",
+      "friday": 283.31,
+      "monday": 280.73,
+      "return_pct": -0.9106632310896146,
+      "quote_clock": "2026-10-19T15:59:41-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LYB",
+      "friday": 64.01,
+      "monday": 63.715,
+      "return_pct": -0.46086548976722597,
+      "quote_clock": "2026-10-19T15:59:57-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FICO",
+      "friday": 771.19,
+      "monday": 780.56,
+      "return_pct": 1.215005381293821,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SWK",
+      "friday": 92.48,
+      "monday": 91.19,
+      "return_pct": -1.394896193771633,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WY",
+      "friday": 19.61,
+      "monday": 19.21,
+      "return_pct": -2.0397756246812726,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "KIM",
+      "friday": 22.91,
+      "monday": 22.68,
+      "return_pct": -1.0039284155390682,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TRMB",
+      "friday": 59.46,
+      "monday": 59.95,
+      "return_pct": 0.8240834174234823,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CRL",
+      "friday": 300.15,
+      "monday": 299.98,
+      "return_pct": -0.05663834749290997,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "INVH",
+      "friday": 27.07,
+      "monday": 26.71,
+      "return_pct": -1.3298854820834816,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "RL",
+      "friday": 385.5,
+      "monday": 381.63,
+      "return_pct": -1.0038910505836607,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TYL",
+      "friday": 360.87,
+      "monday": 360.205,
+      "return_pct": -0.18427688641339257,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MAA",
+      "friday": 116.63,
+      "monday": 115.81,
+      "return_pct": -0.7030781102632222,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CSGP",
+      "friday": 32.31,
+      "monday": 31.81,
+      "return_pct": -1.5475085112968245,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AVY",
+      "friday": 175.31,
+      "monday": 175.58,
+      "return_pct": 0.15401289144942876,
+      "quote_clock": "2026-10-19T15:59:52-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SOLV",
+      "friday": 85.81,
+      "monday": 85.075,
+      "return_pct": -0.8565435263955257,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IVZ",
+      "friday": 28.2,
+      "monday": 28.285,
+      "return_pct": 0.30141843971631666,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DOC",
+      "friday": 18.98,
+      "monday": 18.41,
+      "return_pct": -3.003161222339301,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AKAM",
+      "friday": 87.81,
+      "monday": 87.25,
+      "return_pct": -0.6377405762441613,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "IT",
+      "friday": 205.35,
+      "monday": 207.61,
+      "return_pct": 1.1005600194789578,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FDXF",
+      "friday": 113.21,
+      "monday": 110.22,
+      "return_pct": -2.641109442628742,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ALLE",
+      "friday": 156.54,
+      "monday": 155.46,
+      "return_pct": -0.6899195093905575,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "REG",
+      "friday": 73.24,
+      "monday": 72.41,
+      "return_pct": -1.1332605133806628,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GL",
+      "friday": 168.77,
+      "monday": 167.735,
+      "return_pct": -0.6132606505895533,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FOXA",
+      "friday": 64.15,
+      "monday": 65.27,
+      "return_pct": 1.7459080280592287,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TXT",
+      "friday": 75.93,
+      "monday": 76.19,
+      "return_pct": 0.3424206505992178,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CHTR",
+      "friday": 110.11,
+      "monday": 108.51,
+      "return_pct": -1.4530923621832614,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GDDY",
+      "friday": 105.96,
+      "monday": 106.645,
+      "return_pct": 0.6464703661759108,
+      "quote_clock": "2026-10-19T15:59:55-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PNW",
+      "friday": 103.42,
+      "monday": 101.15,
+      "return_pct": -2.194933281763678,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SJM",
+      "friday": 127.43,
+      "monday": 127.075,
+      "return_pct": -0.27858432080357654,
+      "quote_clock": "2026-10-19T15:59:49-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BAX",
+      "friday": 25.28,
+      "monday": 25.005,
+      "return_pct": -1.087816455696211,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GEN",
+      "friday": 24.16,
+      "monday": 23.64,
+      "return_pct": -2.1523178807946963,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MKC",
+      "friday": 46.35,
+      "monday": 45.87,
+      "return_pct": -1.035598705501628,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ALB",
+      "friday": 95.48,
+      "monday": 94.62,
+      "return_pct": -0.9007121910347693,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "JKHY",
+      "friday": 153.19,
+      "monday": 152.79,
+      "return_pct": -0.26111364971603823,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ECHO",
+      "friday": 85.37,
+      "monday": 86.2,
+      "return_pct": 0.9722384912732807,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TECH",
+      "friday": 72.57,
+      "monday": 72.49,
+      "return_pct": -0.11023839051950146,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DECK",
+      "friday": 85.71,
+      "monday": 87.255,
+      "return_pct": 1.8025901295064761,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DPZ",
+      "friday": 308.64,
+      "monday": 305.42,
+      "return_pct": -1.043286677034727,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HII",
+      "friday": 272.0,
+      "monday": 269.58,
+      "return_pct": -0.8897058823529425,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "GNRC",
+      "friday": 192.68,
+      "monday": 193.35,
+      "return_pct": 0.3477268009134171,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CLX",
+      "friday": 87.09,
+      "monday": 85.55,
+      "return_pct": -1.7682856814789316,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ROL",
+      "friday": 33.45,
+      "monday": 32.66,
+      "return_pct": -2.3617339312406727,
+      "quote_clock": "2026-10-19T15:59:53-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LII",
+      "friday": 357.73,
+      "monday": 355.69,
+      "return_pct": -0.5702624884689644,
+      "quote_clock": "2026-10-19T15:59:54-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "UDR",
+      "friday": 34.26,
+      "monday": 33.85,
+      "return_pct": -1.1967308814944455,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NWSA",
+      "friday": 30.03,
+      "monday": 30.06,
+      "return_pct": 0.09990009990008542,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FDS",
+      "friday": 301.67,
+      "monday": 303.26,
+      "return_pct": 0.5270659992707261,
+      "quote_clock": "2026-10-19T15:59:51-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "TKO",
+      "friday": 175.5,
+      "monday": 174.15,
+      "return_pct": -0.7692307692307665,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AES",
+      "friday": 14.95,
+      "monday": 14.965,
+      "return_pct": 0.10033444816053283,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LULU",
+      "friday": 97.1,
+      "monday": 97.76,
+      "return_pct": 0.6797116374871459,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "COO",
+      "friday": 57.94,
+      "monday": 58.16,
+      "return_pct": 0.37970314118052073,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "CPT",
+      "friday": 98.59,
+      "monday": 97.845,
+      "return_pct": -0.7556547317172146,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "APTV",
+      "friday": 44.86,
+      "monday": 44.48,
+      "return_pct": -0.8470798038341609,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PNR",
+      "friday": 53.44,
+      "monday": 52.73,
+      "return_pct": -1.3285928143712544,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HSIC",
+      "friday": 86.38,
+      "monday": 83.97,
+      "return_pct": -2.789997684649226,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "DVA",
+      "friday": 187.31,
+      "monday": 187.12,
+      "return_pct": -0.10143612193689311,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FRT",
+      "friday": 106.32,
+      "monday": 104.79,
+      "return_pct": -1.4390519187358786,
+      "quote_clock": "2026-10-19T15:59:54-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "WYNN",
+      "friday": 75.6,
+      "monday": 75.98,
+      "return_pct": 0.5026455026455157,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ERIE",
+      "friday": 243.71,
+      "monday": 242.25,
+      "return_pct": -0.5990726683353209,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BXP",
+      "friday": 59.2,
+      "monday": 57.93,
+      "return_pct": -2.145270270270272,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "LVS",
+      "friday": 38.01,
+      "monday": 38.005,
+      "return_pct": -0.01315443304392705,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "UHS",
+      "friday": 185.1,
+      "monday": 182.25,
+      "return_pct": -1.5397082658022643,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "AOS",
+      "friday": 59.22,
+      "monday": 58.665,
+      "return_pct": -0.9371833839918908,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NCLH",
+      "friday": 15.05,
+      "monday": 15.235,
+      "return_pct": 1.2292358803986714,
+      "quote_clock": "2026-10-19T15:59:58-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "FOX",
+      "friday": 57.22,
+      "monday": 58.33,
+      "return_pct": 1.939881160433421,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "HRL",
+      "friday": 20.4,
+      "monday": 20.335,
+      "return_pct": -0.3186274509803799,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BEN",
+      "friday": 30.98,
+      "monday": 30.7,
+      "return_pct": -0.9038089089735357,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MOS",
+      "friday": 18.82,
+      "monday": 17.9,
+      "return_pct": -4.8884165781084015,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ALGN",
+      "friday": 147.31,
+      "monday": 149.0,
+      "return_pct": 1.1472405132034513,
+      "quote_clock": "2026-10-19T16:00:00-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "PODD",
+      "friday": 141.1,
+      "monday": 141.96,
+      "return_pct": 0.609496810772514,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "ARE",
+      "friday": 41.62,
+      "monday": 40.63,
+      "return_pct": -2.3786641037962353,
+      "quote_clock": "2026-10-19T15:59:56-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "BF-B",
+      "friday": 28.88,
+      "monday": 28.23,
+      "return_pct": -2.250692520775621,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "NWS",
+      "friday": 32.88,
+      "monday": 32.9,
+      "return_pct": 0.060827250608253,
+      "quote_clock": "2026-10-19T16:00:01-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "SKYD",
+      "friday": 6.91,
+      "monday": 6.8,
+      "return_pct": -1.591895803183796,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    },
+    {
+      "symbol": "MGM",
+      "friday": 28.6,
+      "monday": 28.455,
+      "return_pct": -0.5069930069930173,
+      "quote_clock": "2026-10-19T15:59:59-04:00",
+      "exchange_timezone": "America/New_York"
+    }
+  ]
+}

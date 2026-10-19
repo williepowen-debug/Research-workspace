@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5d&interval=1d&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 1716,
+    "sha256": "229f88191b33118a1ed1a743e9a92499e8316c585a8c578cb819d1330e07a143",
+    "retrieved": "2026-10-19T20:14:55.002465+00:00"
+  },
+  {
+    "symbol": "RSP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSP?range=5d&interval=1d&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 1751,
+    "sha256": "9d1903ea0fd387b87c1d7f036c8a8488470b7d9942280e0a12a0f0df0c362f75",
+    "retrieved": "2026-10-19T20:14:54.956156+00:00"
+  },
+  {
+    "symbol": "QQQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5d&interval=1d&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 1721,
+    "sha256": "7924bfbe63e454c49ef36af3482f8e2d87d09264403193c4e85afd9e2ecfceee",
+    "retrieved": "2026-10-19T20:14:55.021340+00:00"
+  },
+  {
+    "symbol": "QQEW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQEW?range=5d&interval=1d&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 1767,
+    "sha256": "db4acaedb18adb07c59299ab2b69bb6b833f0fba4f0ea094de8d9e622c18f096",
+    "retrieved": "2026-10-19T20:14:55.002701+00:00"
+  },
+  {
+    "symbol": "IWM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=5d&interval=1d&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 1771,
+    "sha256": "5d1fda964a1e2b1f478b10c06d9e5848e25d9c11bc9876a8ebe4cd0abcb874d7",
+    "retrieved": "2026-10-19T20:14:55.318309+00:00"
+  }
+]

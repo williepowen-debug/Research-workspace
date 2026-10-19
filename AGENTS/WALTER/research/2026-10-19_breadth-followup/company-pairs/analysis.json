@@ -1,0 +1,370 @@
+{
+  "asof": "2026-10-19T20:14:04.178560+00:00",
+  "end": "2026-10-16",
+  "rows": [
+    {
+      "symbol": "DG",
+      "financial_date": "2026-07-31",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 5.604021901512746,
+      "5d_raw_return_pct": 5.604021901512746,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 10.30770760058024,
+      "20d_raw_return_pct": 9.76227153887519,
+      "rough_pre_window_size_billion": 27.005702071822814,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 17.2522253564938,
+      "60d_raw_return_pct": 16.672452533586956
+    },
+    {
+      "symbol": "DLTR",
+      "financial_date": "2026-08-01",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 4.669589467319835,
+      "5d_raw_return_pct": 4.669589467319835,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 10.914613541112361,
+      "20d_raw_return_pct": 10.914613541112361,
+      "rough_pre_window_size_billion": 21.00708810425933,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 5.550360131411058,
+      "60d_raw_return_pct": 5.550360131411058
+    },
+    {
+      "symbol": "HD",
+      "financial_date": "2026-08-02",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 6.497219262203879,
+      "5d_raw_return_pct": 6.497219262203879,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 3.216878972954018,
+      "20d_raw_return_pct": 3.216878972954018,
+      "rough_pre_window_size_billion": 299.2869449684256,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -3.9414382962132843,
+      "60d_raw_return_pct": -4.644139992332774,
+      "ytd_operating_income_over_recognized_interest": 9.899497487437186
+    },
+    {
+      "symbol": "LOW",
+      "financial_date": "2026-07-31",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 6.118282195060476,
+      "5d_raw_return_pct": 6.118282195060476,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 2.540391319081814,
+      "20d_raw_return_pct": 2.540391319081814,
+      "rough_pre_window_size_billion": 107.99729119927177,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -2.248411909321746,
+      "60d_raw_return_pct": -2.248411909321746
+    },
+    {
+      "symbol": "VZ",
+      "financial_date": "2026-06-30",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 7.539013864615152,
+      "5d_raw_return_pct": 7.539013864615152,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": -5.4173775610321995,
+      "20d_raw_return_pct": -6.862131891432243,
+      "rough_pre_window_size_billion": 199.8031400981484,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 3.7991428861646748,
+      "60d_raw_return_pct": 2.2136038965278493,
+      "ytd_operating_income_over_recognized_interest": 3.9289171974522294
+    },
+    {
+      "symbol": "T",
+      "financial_date": "2026-06-30",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 5.680794461431149,
+      "5d_raw_return_pct": 5.680794461431149,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": -6.673315584827744,
+      "20d_raw_return_pct": -7.716531944523187,
+      "rough_pre_window_size_billion": 174.0505928960223,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": 3.2446860660502175,
+      "60d_raw_return_pct": 2.0905987313805108,
+      "ytd_operating_income_over_recognized_interest": 3.705627705627706
+    },
+    {
+      "symbol": "TMUS",
+      "financial_date": "2026-06-30",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 7.080363536691081,
+      "5d_raw_return_pct": 7.080363536691081,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": -5.39896953722081,
+      "20d_raw_return_pct": -5.39896953722081,
+      "rough_pre_window_size_billion": 180.40190401785847,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -6.103594425891002,
+      "60d_raw_return_pct": -6.642408277817047
+    },
+    {
+      "symbol": "DUK",
+      "financial_date": "2026-06-30",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 4.132018544170268,
+      "5d_raw_return_pct": 4.132018544170268,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 3.3523376859766474,
+      "20d_raw_return_pct": 3.3523376859766474,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -5.200377452320682,
+      "60d_raw_return_pct": -6.0266080900388985,
+      "ytd_operating_income_over_recognized_interest": 2.48
+    },
+    {
+      "symbol": "SO",
+      "financial_date": "2026-06-30",
+      "rankable_refinancing": false,
+      "5d_start": "2026-10-09",
+      "5d_adj_return_pct": 5.814091032481894,
+      "5d_raw_return_pct": 5.814091032481894,
+      "20d_start": "2026-09-18",
+      "20d_adj_return_pct": 6.618339434380993,
+      "20d_raw_return_pct": 6.618339434380993,
+      "60d_start": "2026-07-23",
+      "60d_adj_return_pct": -4.831364194905485,
+      "60d_raw_return_pct": -5.610764238673682
+    }
+  ],
+  "pairs": [
+    {
+      "a": "DG",
+      "b": "DLTR",
+      "refinancing_exposure_order": "NOT_ESTABLISHED",
+      "5d_a_minus_b_pp": 0.9344324341929111,
+      "20d_a_minus_b_pp": -0.6069059405321209,
+      "60d_a_minus_b_pp": 11.701865225082742,
+      "rough_pre_window_size_ratio": 1.2855519021861588
+    },
+    {
+      "a": "HD",
+      "b": "LOW",
+      "refinancing_exposure_order": "NOT_ESTABLISHED",
+      "5d_a_minus_b_pp": 0.37893706714340336,
+      "20d_a_minus_b_pp": 0.6764876538722042,
+      "60d_a_minus_b_pp": -1.6930263868915385,
+      "rough_pre_window_size_ratio": 2.771244923321222
+    },
+    {
+      "a": "VZ",
+      "b": "T",
+      "refinancing_exposure_order": "NOT_ESTABLISHED",
+      "5d_a_minus_b_pp": 1.8582194031840027,
+      "20d_a_minus_b_pp": 1.2559380237955446,
+      "60d_a_minus_b_pp": 0.5544568201144573,
+      "rough_pre_window_size_ratio": 1.1479601233964807
+    },
+    {
+      "a": "DUK",
+      "b": "SO",
+      "refinancing_exposure_order": "NOT_ESTABLISHED",
+      "5d_a_minus_b_pp": -1.6820724883116256,
+      "20d_a_minus_b_pp": -3.2660017484043458,
+      "60d_a_minus_b_pp": -0.3690132574151965
+    }
+  ],
+  "events": {
+    "DG": {
+      "dividends": {
+        "1767709800": {
+          "amount": 0.59,
+          "date": 1767709800
+        },
+        "1775568600": {
+          "amount": 0.59,
+          "date": 1775568600
+        },
+        "1783431000": {
+          "amount": 0.59,
+          "date": 1783431000
+        },
+        "1791293400": {
+          "amount": 0.59,
+          "date": 1791293400
+        }
+      }
+    },
+    "DLTR": {},
+    "HD": {
+      "dividends": {
+        "1764858600": {
+          "amount": 2.3,
+          "date": 1764858600
+        },
+        "1773322200": {
+          "amount": 2.33,
+          "date": 1773322200
+        },
+        "1780579800": {
+          "amount": 2.33,
+          "date": 1780579800
+        },
+        "1788442200": {
+          "amount": 2.33,
+          "date": 1788442200
+        }
+      }
+    },
+    "LOW": {
+      "dividends": {
+        "1761139800": {
+          "amount": 1.2,
+          "date": 1761139800
+        },
+        "1769005800": {
+          "amount": 1.2,
+          "date": 1769005800
+        },
+        "1776864600": {
+          "amount": 1.2,
+          "date": 1776864600
+        },
+        "1784727000": {
+          "amount": 1.25,
+          "date": 1784727000
+        }
+      }
+    },
+    "VZ": {
+      "dividends": {
+        "1768228200": {
+          "amount": 0.69,
+          "date": 1768228200
+        },
+        "1775827800": {
+          "amount": 0.708,
+          "date": 1775827800
+        },
+        "1783690200": {
+          "amount": 0.708,
+          "date": 1783690200
+        },
+        "1791552600": {
+          "amount": 0.708,
+          "date": 1791552600
+        }
+      }
+    },
+    "T": {
+      "dividends": {
+        "1768228200": {
+          "amount": 0.278,
+          "date": 1768228200
+        },
+        "1775827800": {
+          "amount": 0.278,
+          "date": 1775827800
+        },
+        "1783690200": {
+          "amount": 0.278,
+          "date": 1783690200
+        },
+        "1791552600": {
+          "amount": 0.278,
+          "date": 1791552600
+        }
+      }
+    },
+    "TMUS": {
+      "dividends": {
+        "1764167400": {
+          "amount": 1.02,
+          "date": 1764167400
+        },
+        "1772202600": {
+          "amount": 1.02,
+          "date": 1772202600
+        },
+        "1780061400": {
+          "amount": 1.02,
+          "date": 1780061400
+        },
+        "1787923800": {
+          "amount": 1.02,
+          "date": 1787923800
+        }
+      }
+    },
+    "DUK": {
+      "dividends": {
+        "1763130600": {
+          "amount": 1.065,
+          "date": 1763130600
+        },
+        "1770993000": {
+          "amount": 1.065,
+          "date": 1770993000
+        },
+        "1778851800": {
+          "amount": 1.065,
+          "date": 1778851800
+        },
+        "1786714200": {
+          "amount": 1.085,
+          "date": 1786714200
+        }
+      }
+    },
+    "SO": {
+      "dividends": {
+        "1763389800": {
+          "amount": 0.74,
+          "date": 1763389800
+        },
+        "1771338600": {
+          "amount": 0.74,
+          "date": 1771338600
+        },
+        "1779111000": {
+          "amount": 0.76,
+          "date": 1779111000
+        },
+        "1786973400": {
+          "amount": 0.76,
+          "date": 1786973400
+        }
+      }
+    },
+    "SPY": {
+      "dividends": {
+        "1766154600": {
+          "amount": 1.993,
+          "date": 1766154600
+        },
+        "1774013400": {
+          "amount": 1.797,
+          "date": 1774013400
+        },
+        "1781789400": {
+          "amount": 1.904,
+          "date": 1781789400
+        },
+        "1789738200": {
+          "amount": 1.889,
+          "date": 1789738200
+        }
+      }
+    }
+  },
+  "valid_pairs_for_maturity_exposure_hypothesis": 0,
+  "limits": [
+    "Four judgment-selected industry pairs, no market-wide representation or statistical causal estimate.",
+    "Size estimates use pre-window known cover-page shares; intervening buybacks/issuance not fully reconciled.",
+    "Comparable refinancing exposure not established, so no higher-risk-minus-lower-risk performance score.",
+    "Adjusted-return vendor calculations, not official index returns; dividends/raw prices compared separately."
+  ]
+}

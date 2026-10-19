@@ -1,0 +1,98 @@
+[
+  {
+    "name": "DG.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28564,
+    "sha256": "6f4e5f9ef8611b45bd8dddea4a1fe542e9923991062e54bbcd5349ef9006a887",
+    "retrieved": "2026-10-19T20:11:59.583325+00:00"
+  },
+  {
+    "name": "DLTR.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DLTR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28211,
+    "sha256": "93fc9a46caf870146439eab52f73b09d796cd510fde77b57b6041468aa2656aa",
+    "retrieved": "2026-10-19T20:11:59.537488+00:00"
+  },
+  {
+    "name": "HD.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HD?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 27669,
+    "sha256": "2fdafeefaa8f522c88c66bcb202428270f8ebe99fce3bec7f00e4bb8add967aa",
+    "retrieved": "2026-10-19T20:11:59.547341+00:00"
+  },
+  {
+    "name": "LOW.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LOW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28280,
+    "sha256": "feb5923b549359ece5fe0162afa6802ad051dd8bffa15ca9e5e3bd8f637ca417",
+    "retrieved": "2026-10-19T20:11:59.617339+00:00"
+  },
+  {
+    "name": "VZ.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VZ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28761,
+    "sha256": "84f8d48f0abcdec3c83429ece762d9ea655c17710490ab3e7d23876bd9bff305",
+    "retrieved": "2026-10-19T20:11:59.965637+00:00"
+  },
+  {
+    "name": "T.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/T?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 29005,
+    "sha256": "d2f3f008eff978f83f9b0560bf1dd3b8c22f7052993317e344680d25f6af374d",
+    "retrieved": "2026-10-19T20:11:59.914231+00:00"
+  },
+  {
+    "name": "TMUS.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMUS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28638,
+    "sha256": "3e1a9b8d2032a229afec3946a441db228cc7317dcb83de472b87accf9053f33c",
+    "retrieved": "2026-10-19T20:11:59.974831+00:00"
+  },
+  {
+    "name": "DUK.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DUK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28615,
+    "sha256": "2e702816e8d8f466d98e27150159d293204e5a6ff161fb7cc50d58409f36293f",
+    "retrieved": "2026-10-19T20:11:59.998431+00:00"
+  },
+  {
+    "name": "SO.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SO?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 27536,
+    "sha256": "3676b5a13fe1176f42302acef09f82d1bfa53717451479bbe280431b6d47ab67",
+    "retrieved": "2026-10-19T20:12:00.288623+00:00"
+  },
+  {
+    "name": "SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "rc": 0,
+    "bytes": 28125,
+    "sha256": "5a9894f871d253f060cb3d2cbfc479ebd9046e38257c38334d94e043a3581344",
+    "retrieved": "2026-10-19T20:12:00.384211+00:00"
+  },
+  {
+    "name": "DUK.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/20290/000132616026000040/duk-20260630.htm",
+    "rc": 0,
+    "bytes": 4819,
+    "sha256": "7a0e6815c63fd028e36272b7522e3e416c7898fa29d31c58aed0316695c8a21e",
+    "retrieved": "2026-10-19T20:12:00.079444+00:00"
+  },
+  {
+    "name": "SO.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000054/so-20260630.htm",
+    "rc": 0,
+    "bytes": 4819,
+    "sha256": "bc7ec05c7ee45325e1ab5ba34eec557fcd7bc34775e15a501e32755ac5afa995",
+    "retrieved": "2026-10-19T20:12:00.109261+00:00"
+  }
+]

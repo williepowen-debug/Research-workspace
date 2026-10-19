@@ -1,0 +1,210 @@
+[
+  {
+    "batch": 0,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=NVDA%2CAAPL%2CMSFT%2CAMZN%2CGOOGL%2CGOOG%2CMETA%2CAVGO%2CLLY%2CTSLA%2CMU%2CBRK-B%2CJPM%2CAMD%2CXOM%2CV%2CJNJ%2CWMT%2CABBV%2CMA&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24446,
+    "sha256": "3340aefea3fd98ce106a92ce6a85e6c99bde44ef7e6fbbab4f4cb091cc70a766",
+    "retrieved": "2026-10-19T20:14:29.111908+00:00"
+  },
+  {
+    "batch": 1,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=INTC%2CCVX%2CCOST%2CPLTR%2CCSCO%2CPG%2CKO%2CUNH%2CMRK%2CCAT%2CBAC%2CLRCX%2CGE%2CAMAT%2CPM%2CHD%2CNFLX%2CPANW%2CRTX%2CGS&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24550,
+    "sha256": "e2d7a50ad6c0c21c9acf9d8588e15e13ca1d2375f9070ecf1fde802b02929d2d",
+    "retrieved": "2026-10-19T20:14:29.147924+00:00"
+  },
+  {
+    "batch": 2,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=TMO%2CWFC%2CTXN%2CGEV%2CAMGN%2CCRWD%2CLIN%2CORCL%2CIBM%2CKLAC%2CMS%2CC%2CMRVL%2CCRM%2CAPH%2CGILD%2CADI%2CDIS%2CSNDK%2CVZ&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24464,
+    "sha256": "2ecab4c1d03db3e4a15aa6e7ed9904e7f25c8a7c04c80d0170d8d663a2fcde98",
+    "retrieved": "2026-10-19T20:14:29.161107+00:00"
+  },
+  {
+    "batch": 3,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=ANET%2CQCOM%2CABT%2CPEP%2CCOP%2CMCD%2CUNP%2CWELL%2CPFE%2CNEE%2CAXP%2CBLK%2CTJX%2CDE%2CT%2CETN%2CISRG%2CBA%2CSCHW%2CNOW&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24382,
+    "sha256": "f804e19987b96c91ade890f75efbb0a273e09392d920563dd7e44ded1393b66d",
+    "retrieved": "2026-10-19T20:14:29.142311+00:00"
+  },
+  {
+    "batch": 4,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=STX%2CUBER%2CDHR%2CACN%2CDELL%2CMPC%2CSPGI%2CVLO%2CPGR%2CVRTX%2CCB%2CMO%2CNEM%2CCOF%2CBKNG%2CBMY%2CPH%2CWDC%2CPLD%2CCVS&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24568,
+    "sha256": "3015ec4e07f9aa1859e8fabfccb63d23213167a9a36f9abc994e42e3bd11ed14",
+    "retrieved": "2026-10-19T20:14:29.352894+00:00"
+  },
+  {
+    "batch": 5,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=MCK%2CPSX%2CMDT%2CADP%2CLMT%2CSBUX%2CLOW%2CCME%2CSO%2CGLW%2CFTNT%2CSYK%2CTT%2CFCX%2CEQIX%2CADBE%2CBNY%2CPWR%2CDUK%2CELV&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24439,
+    "sha256": "18a122398097a1c8bb557235a34412f0c0115dfd181605bd5edda87fc2c828dd",
+    "retrieved": "2026-10-19T20:14:29.536506+00:00"
+  },
+  {
+    "batch": 6,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=USB%2CICE%2CEMR%2CCSX%2CMRSH%2CCEG%2CINTU%2CJCI%2CHWM%2CCDNS%2CGD%2CWMB%2CSNPS%2CPNC%2CAMT%2CMMM%2CWM%2CEOG%2CMAR%2CDDOG&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24541,
+    "sha256": "f6c46ebf54900391fdeb76643b10c34188d78d84681f6353c50f18171155a17b",
+    "retrieved": "2026-10-19T20:14:29.518966+00:00"
+  },
+  {
+    "batch": 7,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=MDLZ%2CTRV%2CMRNA%2CBX%2CCI%2CVRT%2CHOOD%2CHLT%2CREGN%2CCMCSA%2CTMUS%2CMSI%2CSHW%2CROST%2CCL%2CGM%2CCTAS%2CNSC%2CSLB%2CHPE&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24504,
+    "sha256": "8aa47ed00f6eacbd7de34ac3c09dbb2f904c865a3477d929b0f89e1c45640ec8",
+    "retrieved": "2026-10-19T20:14:29.499033+00:00"
+  },
+  {
+    "batch": 8,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CMI%2CLITE%2CUPS%2CABNB%2CECL%2CMCO%2CORLY%2CAPP%2CDASH%2CITW%2CTGT%2CNOC%2CAEP%2CRCL%2CHCA%2CHON%2CKMI%2CAPD%2CSPG%2CMNST&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24543,
+    "sha256": "c72538851d487e029e19679dde84eecf97ba99c07b19fd0d66773d25f18d8350",
+    "retrieved": "2026-10-19T20:14:29.656813+00:00"
+  },
+  {
+    "batch": 9,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=AJG%2CBE%2CCOR%2CFDX%2CBSX%2CURI%2CTRGP%2CTDG%2CALL%2CAON%2CDLR%2CTEL%2CKKR%2CMPWR%2COKE%2CCAH%2CFAST%2CPCAR%2CNUE%2CNXPI&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24458,
+    "sha256": "a6d5d605c3a12e779f007b6c48d4d9e9ddde045ee66c1ce7714a261265a7a628",
+    "retrieved": "2026-10-19T20:14:29.794905+00:00"
+  },
+  {
+    "batch": 10,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=GWW%2CTFC%2CAME%2CKEYS%2CD%2CDVN%2CCRH%2CBKR%2CSRE%2CMET%2CAFL%2CHONA%2CO%2CAPO%2CBDX%2CTER%2CAZO%2CADSK%2CFIX%2CPSA&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24367,
+    "sha256": "b6583c27fc6dfbc7f9946455cb4503b2e8a385bd286f9bbf88cdabbc0b50be7a",
+    "retrieved": "2026-10-19T20:14:29.891998+00:00"
+  },
+  {
+    "batch": 11,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=EW%2CHUM%2CETR%2CA%2CF%2CVYLR%2CPYPL%2CWAB%2CEBAY%2CVST%2CXEL%2CROK%2CGRMN%2CKDP%2CCIEN%2CLHX%2CVEEV%2CCOHR%2CFITB%2COXY&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24330,
+    "sha256": "15559c7532fc38462b8fb99aa1396b801fe0ad92b7a07a4f06f28b1a8d59ddf9",
+    "retrieved": "2026-10-19T20:14:29.941304+00:00"
+  },
+  {
+    "batch": 12,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=STT%2CCARR%2CRSG%2CEXC%2CFERG%2CDAL%2CNKE%2CIDXX%2CAMP%2CVTR%2CVMRK%2CIQV%2CWAT%2CCVNA%2CAIG%2CXYZ%2CFANG%2CMSCI%2CED%2CNDAQ&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24387,
+    "sha256": "0f06524fce8327706dd43fc0945304c2f38bd18094a9662558d205dec317165c",
+    "retrieved": "2026-10-19T20:14:29.981268+00:00"
+  },
+  {
+    "batch": 13,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=P%2CYUM%2CMCHP%2CNTAP%2CADM%2CPRU%2CILMN%2CSYY%2CCOIN%2CWDAY%2CROP%2CCBRE%2CTWLO%2CCMG%2CIBKR%2CHIG%2CKVUE%2CKR%2CTTWO%2CPEG&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24484,
+    "sha256": "0122a12c2cd3dde333367f1a069433422308e83438e86c9959d19e7ee4ca2700",
+    "retrieved": "2026-10-19T20:14:30.214317+00:00"
+  },
+  {
+    "batch": 14,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=PAYX%2CWEC%2CDHI%2CKMB%2CODFL%2CCCI%2CBIIB%2CRMD%2CACGL%2CCNC%2CEQT%2CIRM%2CVMC%2CFLEX%2CEXPE%2CCBOE%2CCCL%2CZTS%2CMTD%2CSTLD&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24443,
+    "sha256": "168027c6e360fa249f9212ba1f74aff56fd5f5a85c4a54baa234cadfea3bc490",
+    "retrieved": "2026-10-19T20:14:30.224277+00:00"
+  },
+  {
+    "batch": 15,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=DXCM%2CEME%2CAXON%2CGEHC%2CUAL%2CHBAN%2CMTB%2CNTRS%2CMLM%2CCTSH%2CDG%2CEXR%2CWSM%2CAEE%2CWTW%2CJBL%2CPCG%2CTDY%2CATO%2CHAL&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24606,
+    "sha256": "25a73823eb7553461f5389f28ba9a71e3d5529b310c8a7228382c46eae68b538",
+    "retrieved": "2026-10-19T20:14:30.272689+00:00"
+  },
+  {
+    "batch": 16,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=ON%2CHPQ%2CRJF%2CWST%2COTIS%2CDTE%2CLYV%2CCFG%2CAWK%2CIR%2CCNP%2CPPL%2CDOV%2CCINF%2CCPAY%2CDGX%2CVICI%2CEL%2CEXPD%2CLH&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24567,
+    "sha256": "6353ba7490940367b41374f02cda7a5ab1a7cc0290d426716aaaa1afefa46db5",
+    "retrieved": "2026-10-19T20:14:30.345336+00:00"
+  },
+  {
+    "batch": 17,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=CASY%2CFISV%2CULTA%2CES%2CARES%2CVRSK%2CFFIV%2CHSY%2CCHD%2CVLTO%2CVRSN%2CDRI%2CHUBB%2CXYL%2CQ%2CFE%2CPPG%2CDLTR%2CSYF%2CTPR&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24359,
+    "sha256": "2e292ea88ec84ceff81457aca74a4eae5e7b2cc03c27ca229cfeea500673aead",
+    "retrieved": "2026-10-19T20:14:30.505406+00:00"
+  },
+  {
+    "batch": 18,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=RF%2CCPRT%2CIFF%2CRDDT%2COMC%2CNRG%2CSTE%2CTROW%2CSW%2CEIX%2CDOW%2CCMS%2CEXE%2CVTRS%2CPHM%2CPFG%2CPKG%2CPTC%2CTPL%2CKHC&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24378,
+    "sha256": "9f69dccb27d049d0c1120b54a43a3edd96b11a65d3a0aaa36bf27b3bf2243e7b",
+    "retrieved": "2026-10-19T20:14:30.532163+00:00"
+  },
+  {
+    "batch": 19,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=NI%2CAMCR%2CBRO%2CBR%2CSBAC%2CSTZ%2CLUV%2CEVRG%2CINCY%2CSNA%2CEFX%2CCDW%2CFIS%2CGPN%2CFSLR%2CGPC%2CCF%2CBBY%2CSWKS%2CL&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24402,
+    "sha256": "2939f93d43e894d3e95934a12317f245c71af877fb5741c0abee46e23c9b8cba",
+    "retrieved": "2026-10-19T20:14:30.601642+00:00"
+  },
+  {
+    "batch": 20,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=KEY%2CZBH%2CIP%2CSMCI%2CDD%2CGIS%2CFTV%2CZBRA%2CLNT%2CIEX%2CTSCO%2CAPA%2CESS%2CNDSN%2CJBHT%2CWRB%2CRVTY%2CBALL%2CBG%2CJ&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24401,
+    "sha256": "c328d46174be786155e068158a00209f2802de9c033fe3d7dfab0dc7ade3631c",
+    "retrieved": "2026-10-19T20:14:30.651090+00:00"
+  },
+  {
+    "batch": 21,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=FICO%2CLYB%2CCHRW%2CHST%2CLDOS%2CTSN%2CKIM%2CNVR%2CLEN%2CINVH%2CRL%2CCRL%2CMAS%2CAIZ%2CWY%2CHAS%2CTRMB%2CEG%2CSWK%2CTYL&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24425,
+    "sha256": "b39c51e9abe159f217d4f18453a982f1c8d5ce57dc2d43c7e94786cad5be2d27",
+    "retrieved": "2026-10-19T20:14:30.899105+00:00"
+  },
+  {
+    "batch": 22,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=SJM%2CMAA%2CFDXF%2CAVY%2CGDDY%2CALLE%2CCSGP%2CTXT%2CBAX%2CGL%2CDOC%2CGEN%2CFOXA%2CIT%2CAKAM%2CPNW%2CIVZ%2CSOLV%2CCHTR%2CREG&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24420,
+    "sha256": "caecaaa991c4950eb53a9640fc031b9f5ab3c29b4b19635b3e56557296f1ed52",
+    "retrieved": "2026-10-19T20:14:30.933000+00:00"
+  },
+  {
+    "batch": 23,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=MKC%2CECHO%2CDECK%2CTECH%2CLII%2CCOO%2CALB%2CGNRC%2CNWSA%2CJKHY%2CFDS%2CHII%2CAES%2CCLX%2CTKO%2CDPZ%2CLULU%2CUDR%2CCPT%2CROL&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24409,
+    "sha256": "167c2f8839a6c59863cd02795a695a060d1b5af027feb56e205553fea6b72a1b",
+    "retrieved": "2026-10-19T20:14:30.982416+00:00"
+  },
+  {
+    "batch": 24,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=PODD%2CLVS%2CALGN%2CUHS%2CAPTV%2CBXP%2CBEN%2CPNR%2CFRT%2CHSIC%2CFOX%2CNCLH%2CAOS%2CARE%2CDVA%2CERIE%2CMOS%2CHRL%2CWYNN%2CBF-B&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 24370,
+    "sha256": "d4285450632abd568f6d4319b2ec0fa7279fd958ce004e91bb0f62c288cde105",
+    "retrieved": "2026-10-19T20:14:30.987445+00:00"
+  },
+  {
+    "batch": 25,
+    "url": "https://query1.finance.yahoo.com/v7/finance/spark?symbols=MGM%2CNWS%2CSKYD&range=5d&interval=1d&includePrePost=false",
+    "rc": 0,
+    "bytes": 3659,
+    "sha256": "f8955e9ec43ffe8ef0bb2f73e200badf158dbadea16a1938052e6acff7d4fba2",
+    "retrieved": "2026-10-19T20:14:31.098298+00:00"
+  }
+]

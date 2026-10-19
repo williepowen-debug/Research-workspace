@@ -1,0 +1,20 @@
+[
+  {
+    "symbol": "DUK",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326160.json",
+    "rc": 0,
+    "bytes": 4819,
+    "sha256": "c397c7e583929d6ced1ae47408bb4dd59b9e58100b011be9c4ca92a42cc5729e",
+    "retrieved": "2026-10-19T20:12:52.604934+00:00",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "symbol": "SO",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000092122.json",
+    "rc": 0,
+    "bytes": 4819,
+    "sha256": "a9fa74bbf7c0563f1e7b9d4db15cb48a4b1c3505c71d12db1847f76d8a05f642",
+    "retrieved": "2026-10-19T20:12:52.583495+00:00",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+]

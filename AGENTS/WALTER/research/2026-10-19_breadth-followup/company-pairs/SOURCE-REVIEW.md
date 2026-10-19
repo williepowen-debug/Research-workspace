@@ -1,0 +1,23 @@
+# Source verification and helper lifecycle — October19,2026
+
+Both read-only helpers were completed when Will asked whether work was still going. Owner explicitly said the remaining task had been saved but was not running. Both helpers were resumed with bounded source-verification assignments. Both subsequently returned explicit no-files/no-work-remaining closeout receipts. Thread-local status is not fleet presence; no HENRY/LIQUID owner launch or consumption is inferred.
+
+## Telecom helper
+
+Verified [VZ Q2](https://www.sec.gov/Archives/edgar/data/732712/000073271226000046/vz-20260630.htm), [T Q2](https://www.sec.gov/Archives/edgar/data/732717/000073271726000297/t-20260630.htm), [TMUS Q2](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/tmus-20260630.htm). Financial values, measurement periods and shares are in exposures.json. VZ current debt contains ABS and leases; recognized interest differs from total debt-interest costs. TMUS supplied net interest rather than a verified gross denominator. Neither is silently made comparable.
+
+AT&T EchoStar closedJuly28 with approximately$23B cash consideration and$14.5B two-year/364-day funding. August3 andAugust17 notes followed. These events predate the return window but do not provide a complete September cash/debt balance sheet. Sources: [July28 8-K](https://www.sec.gov/Archives/edgar/data/732717/000119312526321053/d142142d8k.htm), [August4 8-K](https://www.sec.gov/Archives/edgar/data/732717/000119312526332110/d112584d8k.htm), [August17 8-K](https://www.sec.gov/Archives/edgar/data/732717/000119312526354091/d153710d8k.htm). No September liquidity value is reconstructed by adding selected financing transactions to June balances.
+
+## Retail helper
+
+Verified [DG Q2](https://www.sec.gov/Archives/edgar/data/29534/000110465926101932/dg-20260731x10q.htm), [DLTR Q2](https://www.sec.gov/Archives/edgar/data/935703/000093570326000109/dltr-20260801.htm), [HD Q2](https://www.sec.gov/Archives/edgar/data/354950/000162828026058715/hd-20260802.htm), [LOW Q2](https://www.sec.gov/Archives/edgar/data/60667/000006066726000117/low-20260731.htm). Dollar stores have little immediate financial-debt maturity contrast; leases remain separate. DLTR continuing operations contain transition services after Family Dollar sale. Gross interest unavailable for DG/DLTR; no net-to-gross substitution.
+
+HD cash/CP/current maturities and gross bank lines require distinct treatment; known GMS/Mingledorff acquisitions already entered the reported balances and are not added again. [HD annual filing](https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm). LOW July facilities include a364-day$1B line expiring before September18. No verified pre-cutoff renewal found in the bounded filings census; this is UNKNOWN renewal status, not proof of lost funding. [September2 filing](https://www.sec.gov/Archives/edgar/data/60667/000006066726000119/low-20260828.htm) concerns officers. CP backing capacity is not subtracted and then counted again as an uncovered maturity.
+
+Helpers did not inspect newly pulled returns before their exposure reports. Owner had already seen initial telecom raw returns; no fully blinded study is claimed.
+
+## Utility owner check and access limits
+
+[DUK earnings release, August4](https://www.sec.gov/Archives/edgar/data/1326160/000132616026000037/er-20260630xearningsreleas.htm) supplies consolidated June cash673m, current LTD6,666m, notes/CP2,330m, six-month operating income4,774m and interest1,925m. [Q2 facility table](https://www.sec.gov/Archives/edgar/data/20290/000132616026000040/duk-20260630.htm) shows10,000m master line less1,900mCP,7mLC and81mput-bond reservations =8,012m unreserved capacity. [August10 equity-unit announcement](https://news.duke-energy.com/releases/duke-energy-announces-equity-units-offering) is an intervening funding event, not reconciled September liquidity. Legal-entity restrictions and puts matter.
+
+[SO Q2 primary search extract](https://www.sec.gov/Archives/edgar/data/92122/000009212226000054/so-20260630.htm) supplies consolidated cash2,984m, securities due within a year4,694m and notes payable2,132m. Full capacity/coverage extraction remains incomplete. Both full utility filing opens exceeded the browser tool's content limit; direct SEC HTML and CompanyFacts pulls returned automated-access-denial HTML. Stored denial pages are evidence of failed access, never parsed financial inputs. No access control bypass or stale substitute was used. Numeric primary search extracts are weaker than a complete filing review; utility exposure ordering withheld.
