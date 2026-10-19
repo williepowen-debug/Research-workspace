@@ -1,6 +1,6 @@
 # WALTER LAST_COMPLETION — independent morning resume 2026-10-19
 
-Updated 2026-10-19T16:41:51Z. OpenAI/Codex0.163.0,gpt-6.1-sol,session01a154ec-5479-76c0-bcd2-abf9d66a523d,task/root. Root `/home/willi/Research-workspace`. Light closeout; original full-owner closeout remains separately owed to PROME, with no new explicit final-touch ask received here. Current result `research/2026-10-19_resume/RESULT.md`; prior morning result remains valid within its earlier observation time.
+Updated 2026-10-19T17:33:06Z. OpenAI/Codex0.163.0,gpt-6.1-sol,session01a154ec-5479-76c0-bcd2-abf9d66a523d,task/root. Root `/home/willi/Research-workspace`. Light closeout; original full-owner closeout remains separately owed to PROME, with no new explicit final-touch ask received here. Current result `research/2026-10-19_resume/RESULT.md`; prior morning result remains valid within its earlier observation time.
 
 ## STATUS
 
@@ -8,7 +8,7 @@ Updated 2026-10-19T16:41:51Z. OpenAI/Codex0.163.0,gpt-6.1-sol,session01a154ec-54
 
 ## CHANGED
 
-BOARD003 expanded under LIQUID ALL request;004HMI,005JMIC/tug,006dated funding fragments,007office-route correction,008OTTO panel/forecast,009nine-read housing digest,010dealer/ETF/CFTC context,011dated CoreWeave valuations. Original1015-020 additive marker; generatedINDEX; route/delivery/CORRECTIONS/BATCH ledgers; STATUS/REGISTRY/SESSION_LOG/MEMORY; research/2026-10-19_resume evidence; six own-inbox exact moves+.consumed.tsv. Commits and provenance in CLOSEOUT RECEIPT below. Daily cohort79pairs,11proven on localorigin,68pending; unpushed committed packets are not missing artifacts. No shared-tree pull/stash/reset/push or external send. Sunday a302bd265/6058c3168 ancestry already discharged its old push question.
+BOARD003 expanded under LIQUID ALL request;004HMI,005JMIC/tug,006dated funding fragments,007office-route correction,008OTTO panel/forecast,009nine-read housing digest,010dealer/ETF/CFTC context,011dated CoreWeave valuations. Original1015-020 additive marker; generatedINDEX; route/delivery/CORRECTIONS/BATCH ledgers; STATUS/REGISTRY/SESSION_LOG/MEMORY; research/2026-10-19_resume evidence; six own-inbox exact moves+.consumed.tsv. Commits and provenance in CLOSEOUT RECEIPT below. Daily cohort79pairs,79proven on localorigin,0pending for that cohort; unpushed committed packets are not missing artifacts. No shared-tree pull/stash/reset/push or external send. Sunday a302bd265/6058c3168 ancestry already discharged its old push question.
 
 ## RESULT
 
@@ -20,7 +20,7 @@ Credit crossing routed to existing owners without bank attribution or sizing app
 - Full CREED property/event/cohort and HANS event perimeter not certified; HANS T12 UNINSTRUMENTED,T15 unresolved. Live UK/TTF/France displays do not certify registered final closes/settlements or all intervening crossings. Retired discretionary hunts remain closed below.
 - No verified independent-terminal PROME transport/fleet census. LivenessUNKNOWN; no doorbell. New packet acknowledgment/consumption and explicit full closeout ask/receipt remain unverified. Commission prohibits Telegram/public sends; Friday FLASH027 Telegram gap retained.
 - Earlier doctor snapshot (through008)0HIGH/55MED:48 then-unpublished packets plus7 operational/history findings (including HOMER registry date selection, now corrected). No market-clean claim; see doctor.txt. Final rerun through011:0HIGH/68MED, including62filesystem-present unpublished-packet flags and6operational/history findings; complete pending-publication ledger scope remains68 because already-filed packets still require origin proof. See doctor-final.txt.
-- Publication awaits PROME for pending commits; localorigin proof only, not a fresh remote fetch.68daily handoff pairs pending publication. Reconcile again after PROME publishes. Never infer consumption from publication.
+- Publication update during workflow review: localorigin454435973 now proves all79daily handoff paths;68additional rows reconciled,0remaining. Morning9cb358680 is the detached pre-rewrite identity of publishedf880624a5, verified identical stable patch IDs. This new workflow review still needs PROME publication; no fresh remote fetch or recipient-consumption claim.
 - R1 historical SHORT-TARGETS: COR-20261015-05 lacksSAM/ZHAO;06 lacksBRENT/HANS/LIQUID. New07 row targets corrected+correcting union. LABOR_DOWN,historical AMENDMENT-NOTE IDs/NOTE rows remain known; no broad rule/taxonomy repair commissioned.
 - L334 INFO-backlog study, expired reading/SIG-W-20260619-008 content review, >60day retirement classification remain owed. RootCLAUDE/ORCH_INFLIGHT read-cap rotation-tier is PROME/owner work.
 - bs4 absent; stdlib recovered8fetched bodies, no installation. UKMTO shell403 recovered through web primary. Optional OTTO/CARL/NEXUS CROSS_REFS absent, canonical routing used. No pending technical approval/rejection.
@@ -31,6 +31,8 @@ Credit crossing routed to existing owners without bank attribution or sizing app
 None newly created by this resume. Existing **WQ458** remains PROME's registered bookmark-pilot continuation decision; no self-extension, paid Phase2 or new measurement. X login no longer needs action. No repeated Sunday push question.
 
 ## FOLLOW-UP
+
+**New workflow finding10/19:**Will-requested analysis confirmed offline capped-pagination continuation bug:501synthetic→500processed→nextscan0,1undiscovered;1001→501remaining. Live occurrenceUNKNOWN. No new scan/code/spec/cap change. Repair acceptance in RESULT; source hash and controls in bookmark-workflow-offline-check.json. Proposed short receipts/minimal metadata saved to PROME ideas. Existing WQ458 unrenewed; recommend repair before large-backlog catch-up.
 
 1. PROME consumes the dated resumed packet, reconciles L599/WQ458 and L728 Actions/first-Telegram-digest receipt, then explicitly requests full WALTER desk closeout via a supported channel. No digest or final-touch receipt inferred.
 2. RED/REGINALD apply their published3/3 entry consequences with REGINALD bank attribution separate; LIQUID's current MET rung retains X1 CLOSED/DON'T-SIZE. TERRY existing card request is BOARD003, not approval to size.
@@ -84,12 +86,12 @@ Dated light receipt; selected check output at `research/2026-10-19_resume/closeo
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-19T16:41:51Z",
+  "as_of": "2026-10-19T17:33:06Z",
   "next_review": "2026-10-20",
   "publication": [
     {
-      "commit": "9cb358680",
-      "state": "pending"
+      "commit": "f880624a5",
+      "state": "published"
     },
     {
       "commit": "b2609cd03",
@@ -101,41 +103,45 @@ Dated light receipt; selected check output at `research/2026-10-19_resume/closeo
     },
     {
       "commit": "666b5eb5d",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "766a19a60",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "d6e2dbfeb",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "c58c42e27",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "45e52ba5b",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "2d9238d29",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "0cd4974a7",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "cc9753f11",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "faf50452e",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261019",
     "total": 79,
-    "delivered": 11,
+    "delivered": 79,
     "note": "Local origin ref only. Pending packets are locally committed, not lost. Publication does not prove consumption."
   },
   "owner_review": {
@@ -143,7 +149,7 @@ Dated light receipt; selected check output at `research/2026-10-19_resume/closeo
     "evidence": [
       {
         "path": "AGENTS/WALTER/research/2026-10-19_resume/RESULT.md",
-        "sha256": "8d40accfeaec6693b69c290131a01635f44e6932ce8fc18eb3d7a07e2cf0c1ab"
+        "sha256": "413078711dd7efacedd2a8a6bf5f840bcafe343b3c5679cdc84994082121d7a6"
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-19_resume/bookmark-auth-after.json",
@@ -160,6 +166,10 @@ Dated light receipt; selected check output at `research/2026-10-19_resume/closeo
       {
         "path": "AGENTS/WALTER/research/2026-10-19_resume/LIQUID-sweep-as-read.md",
         "sha256": "b2429d253a893dc39ba64f3843ee2cd1cec937228568f4309a4e262b408812ea"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-19_resume/bookmark-workflow-offline-check.json",
+        "sha256": "097fda8e8011cfe30fbcdf35054b37a21028c0df44c5a0fe4bd96b2c068b68e7"
       }
     ]
   },
@@ -175,14 +185,21 @@ Dated light receipt; selected check output at `research/2026-10-19_resume/closeo
     "12(a-f)": "BOARD1514,11today,0kills/helpers/cluster_mediating; affected STATUS and current network mirrors updated; posture/standing thresholds unchanged, SESSION_LOG breadcrumb. Read-cap saved.",
     "14": "MEMORY session notes refreshed under100lines; no auto-memory promotion/index edit.",
     "15": "Current and prior committed LAST_COMPLETION compared; obsolete source gaps discharged, approvals and unresolved carries retained.",
-    "16": "Exact-path integration and consume commits; no shared-tree pull/stash/reset/push. PROME coordinates publication;11 rows reconciled on local origin evidence.",
+    "16": "Prior exact-path research/route/consume commits published on localorigin454435973; all79daily handoff paths reconciled,68new delivered rows. Current workflow-review/repair-proposal commit awaits PROME. No shared-tree pull/stash/reset/push.",
     "root.retirement": "New artifacts under60days; earlier >60day classification still owed, no silent retirement. Source-search retirements unchanged.",
     "root.consumer": "44/44 enlarges39/39 with new months, not error correction; dated HY/VIX observations updated, no canonical threshold superseded. OTTO owns12\u21928 forecast; caveats routed to prior owner lanes.",
     "root.claim_check": "Saved light-run result governs; flags require review, not automatic edits.",
     "root.archives": "Six exact own-inbox moves after integration:766a19a60,c58c42e27,cc9753f11. Sender files not edited.",
     "root.memory": "No shared auto-memory edits; local MEMORY93lines.",
     "7g/7e": "Initial1+5arrivals=6read/integrated/filed;final0. Final post-drain intake0NEW/13suppressed,1missedweekday,EIAdegraded; no mark. Exact incoming final packet bytes persisted inside owned inbox before moves.",
-    "7h": "Authorization repaired on direct Will request;0bookmarkfetch/mark; pilot remains unrenewed, L599 not repeated."
+    "7h": "Authorization repaired on direct Will request;0bookmarkfetch/mark; pilot remains unrenewed, L599 not repeated.",
+    "workflow_followup": "Will-requested review only; offline cap counterexample verified; L599 reused, no live scan or production/spec edit. Source/read receipt ideas saved; full closeout remains separately owed."
+  },
+  "publication_equivalence": {
+    "prior": "9cb358680",
+    "canonical": "f880624a5",
+    "proof": "research/2026-10-19_resume/workflow-closeout/morning-commit-equivalence.json",
+    "method": "identical git patch-id --stable; prior not an outstanding push target"
   }
 }
 END_CLOSEOUT_RECEIPT -->

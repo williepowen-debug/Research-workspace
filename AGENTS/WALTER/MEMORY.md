@@ -91,3 +91,5 @@
 ## Session Notes
 
 **2026-10-19T16:41:51Z resumed owner:** publishedHY0033/3;004HMI;005newJMICrisk/tug,existinglossconflict;006OTTO;007office-routecorrection,008OTTOpanel44/44+forecast8%OPEN,009HOMERnine-readqualifieddigest,010dealer/ETFcounterevidence,011CRWVvaluations. Interrupted8-itembatchclosed; ownerinbox6integrated. L599notrepeated/noextension. Authrepair onWill’s directrequest:401/refresh400→reauth→200;seenunchanged,0bookmarkfetch/mark. Evidence `research/2026-10-19_resume/`; currentdutiesandpublication/consumptionlimitsinLAST_COMPLETION.
+
+**10/19 bookmark feedback:** Will enjoys capture workflow. Offline501item cap/mark/rescan leaves1unseen; see resume RESULT and bookmark-workflow-offline-check.json. Live occurrenceUNKNOWN; repairpending, WQ458notrenewed.

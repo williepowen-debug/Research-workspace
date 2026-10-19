@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-10-19T17:29:28.460001+00:00",
+  "source": "AGENTS/WALTER/tools/x_bookmarks_scan.py",
+  "source_sha256": "37fe84063dbd726d8e7d4f30dbf9c098044c2a9113ff540f9dc26a758a02a1e7",
+  "scope": "offline synthetic two-scan counterexample; simulated mark is memory only; zero live API calls, no env/seen/stage reads or writes; not a repeat of L599",
+  "cases": [
+    {
+      "synthetic_bookmarks": 499,
+      "first_scan_count": 499,
+      "first_scan_page_calls": 10,
+      "second_scan_count": 0,
+      "second_scan_page_calls": 1,
+      "unprocessed_after_second_scan": 0,
+      "cap_warning": ""
+    },
+    {
+      "synthetic_bookmarks": 500,
+      "first_scan_count": 500,
+      "first_scan_page_calls": 10,
+      "second_scan_count": 0,
+      "second_scan_page_calls": 1,
+      "unprocessed_after_second_scan": 0,
+      "cap_warning": ""
+    },
+    {
+      "synthetic_bookmarks": 501,
+      "first_scan_count": 500,
+      "first_scan_page_calls": 10,
+      "second_scan_count": 0,
+      "second_scan_page_calls": 1,
+      "unprocessed_after_second_scan": 1,
+      "cap_warning": "\u26a0\ufe0f  reached the 10-page read cap (500 bookmarks) without hitting an all-seen page \u2014 any older new bookmarks beyond that surface next launch."
+    },
+    {
+      "synthetic_bookmarks": 1001,
+      "first_scan_count": 500,
+      "first_scan_page_calls": 10,
+      "second_scan_count": 0,
+      "second_scan_page_calls": 1,
+      "unprocessed_after_second_scan": 501,
+      "cap_warning": "\u26a0\ufe0f  reached the 10-page read cap (500 bookmarks) without hitting an all-seen page \u2014 any older new bookmarks beyond that surface next launch."
+    }
+  ],
+  "finding": "After a capped batch is marked, next scan can stop at its all-seen first page and leave the unseen tail undiscovered. The current warning promises next-launch discovery which this fixture falsifies. Live occurrence not established."
+}
