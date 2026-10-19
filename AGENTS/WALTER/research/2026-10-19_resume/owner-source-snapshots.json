@@ -1,0 +1,14 @@
+{
+  "HOMER-sweep-as-read.md": {
+    "source": "AGENTS/HOMER/reports/2026-10-19_domain-news-sweep.md",
+    "captured_utc": "2026-10-19T16:39:54Z",
+    "sha256": "26e12e4f2c6178faad5260b7c92cd2401b53aaf49f9f3ed37e346ec46f707418",
+    "scope": "dated as-read evidence snapshot, not a replacement owner record"
+  },
+  "LIQUID-sweep-as-read.md": {
+    "source": "AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+    "captured_utc": "2026-10-19T16:39:54Z",
+    "sha256": "b2429d253a893dc39ba64f3843ee2cd1cec937228568f4309a4e262b408812ea",
+    "scope": "dated as-read evidence snapshot, not a replacement owner record"
+  }
+}

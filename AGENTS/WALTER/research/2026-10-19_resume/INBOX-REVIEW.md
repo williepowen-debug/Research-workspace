@@ -13,3 +13,5 @@ Integration commit precedes git mv into this desk’s processed/ directory. The 
 Fourth arrival: SIG-OTTO-WALTER-20261019-quickwins.md, whole packet/READOUT read; BM05 two items2/2, integrated into008 before filing. September5/9 and servicing limits travel with44/44; OTTO-31 remainsOPEN8%, not FALSIFIED.006 loopback read is owner-acknowledged, not publication proof.
 
 Fifth arrival:2026-10-19_from-HOMER_domain-sweep-new-primary-evidence.md; whole packet and owner report read, BM06 9/9 integrated into009 before filing. Owner acknowledgment:003/004/007 integrated,007NO-OP correction receipt. CORAL direct Miami refresh is existing owner work; no live doorbell inferred.
+
+Sixth arrival:2026-10-19_from-LIQUID_ROUTE-domain-sweep-dealers-financing.md; whole packet/full REPORT read; BM07 5/5,010/011 and Car-MartDUP. Final HOMER/LIQUID packets arrived untracked into this desk’s owned inbox; persist exact bytes with integration before exact git-move and consumed declarations. No sender-owned research/STATUS edit.
