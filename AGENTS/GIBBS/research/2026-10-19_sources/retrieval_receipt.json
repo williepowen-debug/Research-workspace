@@ -1,0 +1,511 @@
+{
+  "FITB": {
+    "cik": "0000035527",
+    "issuer": "FIFTH THIRD BANCORP",
+    "tickers": [
+      "FITB",
+      "FITB-PA",
+      "FITB-PI",
+      "FITB-PK",
+      "FITB-PM"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000035527.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "df59de54f5ff77225d8b5fc36c61437557efb3d4500b469503751a641b1fd8df",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 300180000000,
+      "accn": "0000035527-26-000202",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-08-04",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000035527-26-000229",
+    "earnings_docs": []
+  },
+  "GS": {
+    "cik": "0000886982",
+    "issuer": "GOLDMAN SACHS GROUP INC",
+    "tickers": [
+      "GS",
+      "GSCE",
+      "GS-PA",
+      "GS-PC",
+      "GS-PD"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000886982.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "4c8b1e0ff6f89f20592369575d29df8676eaa1ede031ceabd242ec0a07f5ca38",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 2127711000000,
+      "accn": "0000886982-26-000297",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-08-03",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000886982-26-000529",
+    "earnings_docs": []
+  },
+  "MS": {
+    "cik": "0000895421",
+    "issuer": "MORGAN STANLEY",
+    "tickers": [
+      "MS",
+      "MS-PK",
+      "MS-PE",
+      "MS-PA",
+      "MS-PF",
+      "MS-PI",
+      "MS-PL",
+      "MS-PO",
+      "MS-PP",
+      "MS-PQ"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000895421.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "c1fa8546dd97cff343fa16b3e6bb825444ac06f56ceafc19bfd0b3cb87025875",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 1675057000000,
+      "accn": "0000895421-26-000212",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-08-04",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000895421-26-000288",
+    "earnings_docs": []
+  },
+  "PNC": {
+    "cik": "0000713676",
+    "issuer": "PNC FINANCIAL SERVICES GROUP, INC.",
+    "tickers": [
+      "PNC"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000713676.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "7cc2810a7ab35d6bd76984e33a7c9d5f9fe269d828b90a58dcadee2f3a056ed2",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 616034000000,
+      "accn": "0001628280-26-053170",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-08-05",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0001628280-26-065936",
+    "earnings_docs": []
+  },
+  "AXP": {
+    "cik": "0000004962",
+    "issuer": "AMERICAN EXPRESS CO",
+    "tickers": [
+      "AXP"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000004962.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "de369a2f4232a4b95a6afed6e832e0711c77a4e02cb4c5d5aa8d286a36c8cdb9",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 308203000000,
+      "accn": "0000004962-26-000322",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-24",
+      "frame": "CY2026Q2I"
+    }
+  },
+  "NTRS": {
+    "cik": "0000073124",
+    "issuer": "NORTHERN TRUST CORP",
+    "tickers": [
+      "NTRS",
+      "NTRSO"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000073124.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "5b7be4284fb7e4822d22ed9c6e775206915fbd31492ce2f3e544b6f8c9d1159e",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 179297200000,
+      "accn": "0000073124-26-000047",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "frame": "CY2026Q2I"
+    }
+  },
+  "TFC": {
+    "cik": "0000092230",
+    "issuer": "TRUIST FINANCIAL CORP",
+    "tickers": [
+      "TFC",
+      "TFC-PI",
+      "TFC-PO",
+      "TFC-PR"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000092230.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "42625bee14ab4a7f96f4224be8b38ab4a2aa2820157b4162cfab76deb938b5a2",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 556023000000,
+      "accn": "0000092230-26-000099",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000092230-26-000108",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+        "sha256_text": "814621e7db3b3915aee6b04a8cfa0d68b62e753472236c7fb603c9e434e74900",
+        "characters": 36426
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex992-qpsx3q26.htm",
+        "sha256_text": "4e98d98b6a4deb196711428d0c04ba31a9048f884a8ef5f0ad006bc4c3439e1b",
+        "characters": 40859
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm",
+        "sha256_text": "34433c3d7129e69b7b42c9935d00282c2e01c0abfe3c6b9902c1c98ff63ea52d",
+        "characters": 42148
+      }
+    ]
+  },
+  "COF": {
+    "cik": "0000927628",
+    "issuer": "CAPITAL ONE FINANCIAL CORP",
+    "tickers": [
+      "COF",
+      "COF-PI",
+      "COF-PJ",
+      "COF-PK",
+      "COF-PL",
+      "COF-PN"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000927628.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "94dda27d415aefadb05c0e02618f0712f7009b5795e47514736d270700d5a987",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 673835000000,
+      "accn": "0000927628-26-000089",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-28",
+      "frame": "CY2026Q2I"
+    }
+  },
+  "WFC": {
+    "cik": "0000072971",
+    "issuer": "WELLS FARGO & COMPANY/MN",
+    "tickers": [
+      "WFC",
+      "WFC-PY",
+      "WFC-PL",
+      "WFC-PC",
+      "WFCNP",
+      "WFC-PA",
+      "WFC-PD",
+      "WFC-PZ"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000072971.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "a211b661a0ffc447da4d3c693c2880d5eff9614351c1b618f6a81419f893275d",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 2282201000000,
+      "accn": "0000072971-26-000302",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-28",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000072971-26-000318",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+        "sha256_text": "733b6071d710634c06f333ea2f4d17cd1e63fd70484b2ba06aebb71b137e0c17",
+        "characters": 29688
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex992xsuppl.htm",
+        "sha256_text": "9a1c1be3233dce5970419e677a19c53af19cdf3c3687f4355bedf0b847b313df",
+        "characters": 73234
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/ex993-wellsfargo3q26pres.htm",
+        "sha256_text": "067cf54404c1858b0307fec8a90f505e92c5ee87e04ec48ec0bba2436e585d4e",
+        "characters": 36233
+      }
+    ]
+  },
+  "STT": {
+    "cik": "0000093751",
+    "issuer": "STATE STREET CORP",
+    "tickers": [
+      "STT",
+      "STT-PG"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000093751.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "143e31cae67201c1746aac447a03d39709e313be6d6477854ae3b0a527248822",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 418381000000,
+      "accn": "0000093751-26-000397",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000093751-26-000592",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/exhibit992-3q26earningsrel.htm",
+        "sha256_text": "3a363bed1a229073396919eae46820235f84b21d1c1588f2f1c1a1c645b9e19d",
+        "characters": 96009
+      }
+    ]
+  },
+  "USB": {
+    "cik": "0000036104",
+    "issuer": "US BANCORP \\DE\\",
+    "tickers": [
+      "USB",
+      "USB-PA",
+      "USB-PH",
+      "USB-PP",
+      "USB-PQ",
+      "USB-PR",
+      "USB-PS"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000036104.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "ffd7de6de81976ce7f6727c8dbca77205dfa062c19fb0047e52e523fbac06603",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 725918000000,
+      "accn": "0000036104-26-000044",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-08-06",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000036104-26-000054",
+    "earnings_docs": []
+  },
+  "C": {
+    "cik": "0000831001",
+    "issuer": "CITIGROUP INC",
+    "tickers": [
+      "C",
+      "C-PN",
+      "C-PR"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000831001.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "b3ec24891659bc1ac1fc9ba29d5239fa973fd2fb5b209353c628d2d4f27277a0",
+    "Q2_Assets_10Q_fact": null,
+    "earnings_accession": "0001104659-26-115323",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-20261013xex99d3.htm",
+        "sha256_text": "bfae96f17c702906d0a44eb8b747b23c1a17905cca99d6763f58ca026550e4d3",
+        "characters": 2079
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+        "sha256_text": "0c60e4d616440533e765496dad127f37bac0e36d120a681b56b51455cd0b635d",
+        "characters": 39211
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d2.htm",
+        "sha256_text": "2fb85c6690f08460ff515e2d2ef7197249a34ebf3d136afe90cd32ff367994c4",
+        "characters": 149833
+      }
+    ]
+  },
+  "BAC": {
+    "cik": "0000070858",
+    "issuer": "BANK OF AMERICA CORP /DE/",
+    "tickers": [
+      "BAC",
+      "BML-PG",
+      "BML-PL",
+      "BAC-PB",
+      "BAC-PK",
+      "BAC-PE",
+      "BAC-PL",
+      "BAC-PM",
+      "BAC-PN",
+      "BAC-PO",
+      "BAC-PP",
+      "BAC-PQ",
+      "BAC-PS",
+      "BACRP",
+      "BML-PH",
+      "BML-PJ",
+      "MER-PK"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000070858.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "2ac3b02051acd52bfb2953f37538cef397bff7dafd67405a41333e06bbc77900",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 3499191000000,
+      "accn": "0000070858-26-000394",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000070858-26-000481",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+        "sha256_text": "7d8a12387f97d9ba99c43422f000ef0bf5322ba9af04d8c7cbc9a81aa26b7360",
+        "characters": 68718
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex992.htm",
+        "sha256_text": "fc14ec46fad3374dd37e3e5248f310bde1b49f6995a6d062f86566751d594be5",
+        "characters": 64541
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+        "sha256_text": "b6f09f76149a9f82a5fb552d783577002f2d5c9d022728abe8cccc576e243dee",
+        "characters": 95529
+      }
+    ]
+  },
+  "SCHW": {
+    "cik": "0000316709",
+    "issuer": "SCHWAB CHARLES CORP",
+    "tickers": [
+      "SCHW",
+      "SCHW-PD",
+      "SCHW-PJ"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000316709.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "bad87c9370d16a0501baa2cd8379b7754f348ae38660f6a53e88923efa5c8f02",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 517266000000,
+      "accn": "0000316709-26-000031",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-08-07",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0000316709-26-000035",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+        "sha256_text": "72b704a3040e4d8a4cf1167d4248c105069b8d54776e041ac42189cdb7927af8",
+        "characters": 41448
+      }
+    ]
+  },
+  "BK": {
+    "cik": "0001390777",
+    "issuer": "Bank of New York Mellon Corp",
+    "tickers": [
+      "BNY",
+      "BNY-PK"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0001390777.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "62779ac81a2dbb6238d2847b80e51798983080b77dc36dcaad65192d4c5ebfb1",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 525019000000,
+      "accn": "0001390777-26-000086",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0001390777-26-000104",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+        "sha256_text": "acdd3cef68bb0dd2c4236a9e46e4322c848da51593b5199f6bdfabb944334414",
+        "characters": 32755
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex992_financialsupplementx.htm",
+        "sha256_text": "425fcaa59debce3dade414c5b7feb83d0e04d5ff29d614667e883715ba0e0de3",
+        "characters": 44386
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex993_quarterlyupdatepre.htm",
+        "sha256_text": "e31ce8e2c781b5f55834ba4a04cd8241e764971f5664b072a187fc6cf5e6313e",
+        "characters": 26793
+      }
+    ]
+  },
+  "JPM": {
+    "cik": "0000019617",
+    "issuer": "JPMORGAN CHASE & CO",
+    "tickers": [
+      "JPM",
+      "JPM-PC",
+      "AMJB",
+      "JPM-PD",
+      "JPM-PJ",
+      "JPM-PK",
+      "JPM-PL",
+      "JPM-PM",
+      "VYLD"
+    ],
+    "url": "https://data.sec.gov/submissions/CIK0000019617.json",
+    "retrieved_at": "2026-10-19T13:30:56.384625+00:00",
+    "submissions_sha256": "cea1247642c48a058b1d6b8c319e327e7738e65e69634b4592d08f09bc947957",
+    "Q2_Assets_10Q_fact": {
+      "end": "2026-06-30",
+      "val": 5015069000000,
+      "accn": "0001628280-26-054343",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-08-06",
+      "frame": "CY2026Q2I"
+    },
+    "earnings_accession": "0001628280-26-065582",
+    "earnings_docs": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+        "sha256_text": "cdb5c9108790afe873401db08cdbb9568a376cdeaf17d15c5734188c73ae21d3",
+        "characters": 24090
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm",
+        "sha256_text": "b92a67475e85c66f2764d218b2ab49132be03b5644f81d66c0dc72c8623e22ef",
+        "characters": 95886
+      }
+    ]
+  }
+}

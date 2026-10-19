@@ -1,6 +1,6 @@
 # GIBBS — EXIT PROTOCOL (dated kill rail)
 
-**Kill rail re-derived: 2026-10-14** (at build, by DAEDALUS — PROVISIONAL until GIBBS re-derives it at its first live session)
+**Kill rail re-derived: 2026-10-19** — first owner read; R0 unchanged. No gate, magnitude threshold or prediction introduced.
 
 Two rails. **R0** asks whether the desk should exist. **R1/R2** ask whether its two questions have answers. At build there is no thesis to kill, only questions. This file says so rather than inventing a thesis.
 
@@ -19,8 +19,8 @@ Two rails. **R0** asks whether the desk should exist. **R1/R2** ask whether its 
 
 | Field | Content |
 |---|---|
-| State at build | **OPEN QUESTION — no stance.** No read exists yet |
-| Bidirectional flip | **OWED at the first live session:** name the single four-item read that would move the answer toward INDUSTRY-WIDE, and the one toward REGIONAL-ONLY, each testable at the next print |
+| State at build | **OPEN QUESTION — partial first-owner evidence.** No cohort-wide conclusion. |
+| Bidirectional flip | At the next NTRS Q3 release (10/21, schedule not reverified), one HC quarterly-average deposit-cost/NIB comparison against REGINALD CFG on the same Q3 basis: rising cost with stable/rising NIB moves the item toward INDUSTRY-WIDE; stable/falling cost with stable/rising NIB against CFG rising cost moves it toward REGIONAL-ONLY. A mixed cost/NIB result stays NOT-YET-DETERMINABLE. This is direction classification, not a new numerical gate. |
 | Instrument | `READS.tsv` `Scope_Tag` per item per quarter; counts carry N-prints, never "sustained" bare |
 | Kill (channel) | A channel kill on Q1 does NOT kill Q2 — say which channel died and the migration path |
 
@@ -28,9 +28,9 @@ Two rails. **R0** asks whether the desk should exist. **R1/R2** ask whether its 
 
 | Field | Content |
 |---|---|
-| State at build | **OPEN QUESTION — no stance.** Seed evidence: JPMorgan's FSK revolver tightened (BROCK KB-BRK-314, MIRROR) |
+| State at build | **OPEN QUESTION — BROCK attribution INSUFFICIENT in JPM/WFC/C Q3 releases.** Historical seed evidence: JPMorgan's FSK revolver tightened (BROCK KB-BRK-314, MIRROR) |
 | One figure | JPM · WFC · C = BROCK's BRK-31 figure. The other 13 = GIBBS's, sent to BROCK before cross-desk use (WQ-426) |
-| Bidirectional flip | **OWED at the first live session** |
+| Bidirectional flip | At the next available Q3 issuer exhibit/10-Q, an explicit PC/NDFI-attributable allowance build or named fund/manager migration moves Q2 toward transmission; a positively disclosed same-category allowance flat/down with performing exposure measured on the same basis moves Q2 away. One print moves the stance, never resolves BROCK BRK-31 FALSE; missing category disclosure leaves the channel open. |
 | Instrument (positive) | Disclosed NDFI exposure / reserve lines in 10-Q or earnings exhibits — a healthy reading is a disclosed figure with no reserve build and no named stressed counterparty, which is distinguishable from "not disclosed" (PAT-060: absence of a disclosure is not a clean reading) |
 
 ## Rules (blueprint §4 — cite, don't restate)

@@ -24,7 +24,7 @@
 1. Root sync per root `CLAUDE.md` §Git Protocol ("Before pulling").
 2. `python3 "$(git rev-parse --show-toplevel)/AGENTS/GIBBS/boot.py"` — rc 1 = REVIEW: work flagged items before new research (root rule #8).
 2b. **R1 corrections check:** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" GIBBS` — §9 rc 0/1/2; rc 1 = a NAMED correction is unreceipted: read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED>` with the fields the writer requires, and commit `registry/corrections_receipts.tsv`.
-3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`.
+3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`. WALTER intake follows `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1: search each signal_id with `grep -F` in `board_log.tsv`, read/disposition every unrecorded delivered signal, append timestamp_read/signal_id/disposition/source/notes, integrate and commit before `git mv` to `inbox/WALTER/processed/`.
 4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is present, § FIRST LIVE SESSION below is your session.**
 5. Execute the task. Write back: `workbook/READS.tsv` per print, STATUS + BOTTOM LINE, `NEXUS_BRIEF.md` (last write-back, after the final STATUS commit; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`; STATUS hash in the header — `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for GIBBS).
 6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push unless spawned.

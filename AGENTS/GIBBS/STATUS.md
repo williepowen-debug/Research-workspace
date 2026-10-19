@@ -1,44 +1,36 @@
 # GIBBS STATUS
 
-**Last Updated: 2026-10-14 21:08 ET — built by DAEDALUS (Claude Code, claude-opus-5-5); GIBBS has not yet run a session.**
+**Last Updated: 2026-10-19 — first owner morning session, Codex / gpt-6.1-sol, /root/gibbs_morning.**
 
-> 🆕 **FIRST-LIVE-SESSION BANNER — UNSPENT.** Your first session is `CLAUDE.md` § FIRST LIVE SESSION (PROME spawn, DOCKET L704, Mon 2026-10-19, FITB's print day). Strike this banner when that list is done.
+> **FIRST-LIVE-SESSION BANNER — PARTIAL.** WQ-426 / D:L704 eight-item commissioning is not complete; retain until remaining source reads, Citi asset verification, and owner responses close.
 
 ## Current judgment
 
-**NONE YET — by design.** GIBBS has read no print. Q1 (industry-wide or regional-only?) and Q2 (is large-lender NDFI lending transmitting?) are open questions with no stance (`workbook/EXIT_PROTOCOL.md` R1/R2). The only seed evidence on Q2 is BROCK's: JPMorgan's FSK revolver tightened (KB-GIB-007, MIRROR).
+Q1: deposit-cost pressure extends to large-bank perimeter names, but one matched CFG/FITB item does not establish industry-wide bank stress. Q2: JPM/WFC/C attribution remains INSUFFICIENT per BROCK canonical release read; not clean/flat and not a qualifying fire. No thresholds, predictions, grades or book created.
 
-## Perimeter (canonical: `workbook/PERIMETER.tsv`)
-
-16 US top-tier firms, Fed Categories I–III at 6/30/2026 — Cat I JPM BAC C WFC GS MS BK STT · Cat II AXP NTRS · Cat III USB COF PNC TFC SCHW FITB. **Boundaries:** FITB → GIBBS; HBAN stays REGINALD's. Foreign-bank US holding companies excluded (re-look condition in the charter).
-
-## Q3 2026 print state (from the builder's 10/14 check; re-verify)
-
-| State | Firms |
+| Work item | Owner state |
 |---|---|
-| Printed by 10/14 | JPM · WFC · C · GS (10/13) · BAC · MS · STT (10/14) |
-| Before the first session | PNC · USB · BK · SCHW (10/15; SCHW date `[S]`) · TFC (10/16) |
-| Live from the first session | FITB 10/19 · COF 10/20 · NTRS 10/21 · AXP 10/23 (HBAN 10/22 = REGINALD's) |
+| Perimeter IDs |16/16 SEC issuer names verified;15 Q2 Assets numeric facts verified from10-Q tags. Citi Assets absent; seed retained flagged. BK SEC ticker BNY, desk key unchanged pending named handling. |
+| Four-item read |52 firm/item slots for13 printed issuers;15 measured/canonical observations and37 PENDING; not52 completed reads. One limited INDUSTRY-WIDE deposit item against CFG;51 NOT-YET-DETERMINABLE. |
+| NDFI one figure | BROCK research/2026-10-14_wave/bank_Q3_read.md consumed. JPM/WFC/C figures not independently redefined. No other13-name NDFI figure published. |
+| REGINALD seam | Cohort pointer integrated; AOCI stays REGINALD pending mutual transfer; HBAN remains REGINALD until actual category-change primary plus named handoff. |
+| Registration | PROME request remains: register docket/CATALYSTS.tsv in SUMMONS_LEDGERS. No shared surface edited. |
+| Falsification | EXIT_PROTOCOL re-derived10/19 with directional Q1/Q2 reads; R0 November15 review unchanged. |
 
-## Signals routed before GIBBS was registered (read at the first session)
+## Decisive observations
 
-WALTER's GIBBS routing lane **LANDED 2026-10-14 21:36 ET** (`AGENTS/WALTER/design/ROUTING_CARVEOUTS.md` § "Large-bank multi-name routing — GIBBS", routing v0.42, commit `ca9be40bf`). Signals before that went to REGINALD/BROCK; WALTER's pointer list for your first session (read on `BOARD/`): WFC `SIG-W-20261013-001` · JPM `SIG-W-20261013-019` · BAC `SIG-W-20261013-015`, `SIG-W-20261014-004`, `SIG-W-20261014-019` · MS `SIG-W-20261014-004`. Lane fix LANDED 21:38 ET (`a2fc2ff1e`; versioned **routing v0.43** at `eca0341ae` — cite v0.43, not v0.42): a named STRESS EVENT at a foreign-bank US IHC → HANS action / GIBBS info (exclusions-register log + PROME flag); routine IHC news stays do-not-route.
+FITB has published this morning; issuer schedule06:30 expected release/09:00 call. D:L704 AMC wording is wrong; actual release second unknown. Average IB deposit cost2.24% vs2.13%, demand balances stable/up: same direction as CFG cost +5bp and NIB +1.7%, tagged at that narrow comparison only. Comerica/sweep migration matters.
 
-## Standing conditions (WQ-426)
+BNY average deposits declined0.94%, average NIB2.97%; Schwab bank deposits declined2.24% while broader transactional sweep cash rose$7.1B. LIQUID packet routes the two distinct instruments without inferring system cash flight. WFC annual NII guide approximately$50B unchanged, Q4 approximately$13B.
 
-- **NDFI / private-credit = ONE figure with BROCK.** JPM · WFC · C use BROCK's BRK-31 figure; GIBBS sends its own 13 to BROCK before cross-desk use.
-- **Ungraded, no thresholds at build.** Reads are tagged, not graded.
-- **Post-Q3 consumption review 2026-11-15** (`EXIT_PROTOCOL.md` R0) returns a recommendation to Will, never an automatic dormancy.
-- **No book** (`TRADE.md`, explicit re-arm condition). No trade authority was created by the ruling.
+## Source/continuity limits
 
-## Data walls (tell Will before spending a session)
+See research/2026-10-19_first-owner-morning.md and research/2026-10-19_sources/{retrieval_receipt,review_extracts}.json. SEC fetch approved after sandbox DNS failure. Direct FITB HTTP403; web search rendered substantive primary tables and schedule browser read succeeded. Five issuers' exhibit-discovery routes returned no attachments; finish before calling their items read. Q3 calls/final10-Qs remain. FFIEC NIC CAPTCHA wall remains; no session spent against it.
 
-FFIEC NIC (FR Y-9C holding-company data) blocks automated access (CAPTCHA, 10/14). SEC filings cover US firms. REGINALD's FFIEC CDR token expires 2026-11-05.
+## Inbox / delivery
 
-## Build record
-
-Built 2026-10-14 by DAEDALUS on WQ-426 — proposal `AGENTS/DAEDALUS/builds/LARGE_BANK_DESK_PROPOSAL_2026-10-14.md`, primary check `…/2026-10-14_LARGE_BANK_PRIMARY_CHECK.md`. Registration (ROSTER ✓ by PROME 10/14; AGENTS.md · _INDEX · _NETWORK · group pages · WALTER routing · FLEET_MAP) is in progress — DAEDALUS's build packet to PROME carries the state.
+Initial2 packets (REGINALD1, WALTER1), plus WALTER1 arrived during session. Both WALTER signals and BOARD timing artifact read and integrated; consumption ledger records dispositions. Commit integration before filing. Parent consumption and desk closeout are separate pending receipts.
 
 ## BOTTOM LINE
 
-GIBBS exists but has read nothing yet: both of its questions are open, with no stance and no thresholds. The most important first act is the retrospective read of the twelve large banks that will have reported by 10/16, each tagged industry-wide or regional-only against REGINALD's cohort. PROME wakes it Monday 10/19 for Fifth Third's print.
+Large-bank deposit pricing pressure is visible, but the full industry-versus-regional comparison remains incomplete. The most important read today is that Fifth Third already published; waiting until evening would miss the live evidence. Private-credit loss attribution remains unresolved at the three large cohort banks. Finish missing Q3 exhibits and matched regional comparisons, then the existing COF10/20 and NTRS10/21 prints wake the desk next.
