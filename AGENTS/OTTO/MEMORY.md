@@ -49,14 +49,14 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (s028 → s029, same evening, 2026-10-14)
-- Nothing external. s029 began ~20 minutes after s028 closed; Will asked to bring OTTO to fleet parity.
+### CHANGES SINCE LAST SESSION (s029 → s030, 2026-10-19)
+- Read BROCK's existing seventh CRMT bridge (10/15 → 10/22); CARL independently verified the repaired seasoning cells and ruled BLAST keep(a). No local score or probability moved.
 
-### LAST SESSION (s029, Will-launched parity pass, Wed 10/14 evening)
-1. **§2 CONVERGENCE MATRIX** on STATUS (DAEDALUS's stated L5 gate): **33/50** after an Opus verifier failed my 32/50 draft (Carvana collateral counted twice; no written tie-break). STATUS 69% of budget after verbatim rotations to STATUS_COLD §15. Packet to DAEDALUS; the L5 call is DAEDALUS's.
-2. **As-made scoreboard** (PREDICTIONS_ARCHIVE): 5 of 10, mean Brier **0.2400 vs 0.2500** for always-50%. Seven ledger cells corrected from git (OTTO-05 and OTTO-30 written at 60%). **OTTO-33 68→60%** on its overdue re-examine.
-3. **WINTERKORN**: spec + memory refreshed, docket archive split, run early. It added 9 rows, incl. the First Brands criminal trial **2/9/27** (US v. James) and the cooperators' case (US v. Brumbergs). EART 2026-4 ISSUED 8/28. Boot now flags its cadence.
-4. **Cleanup**: one to-do list (`STALE_PUNCHLIST.md`); stubs + 27 old files archived; EDGAR monitor split (FLG cc duty retired); RESEARCH_STATUS rebuilt; VX_HISTORY frozen. CLAUDE.md v2.9 (Will: "keep the charter change").
+### LAST SESSION (s030, Will-launched Codex, 10/19)
+- **L708 DONE**, artifact `research/2026-10-19_L708/VERDICT.md`, evidence `a95429b7c`; method `54598a6b9`, universe `637347ca0` committed before prices. **NO_INSTRUMENT**, strict n=0 (no two current B/CCC bond/index/daily joins); ENVA/CVNA conditional equities MIXED in both windows. MIXED is no support and cannot certify absence; CARL's ~99.8% noise frequency is for n=5, not this n=2 basket.
+- World Acceptance's remaining Nov2026 notes were fully redeemed Aug2025 (June2026 10Q Note12). Do not resurrect an old CCC rating with today's stock. Four Sep29 EART reports say No DQ trigger; two show $22M reserve support paid Sep15. Extensions confound the DQ interpretation; no corporate-index inference.
+- Three inbox packets integrated; CARL check closes the label/value verification, not every parser branch. BLAST computed basis now explicit in `workbook/PANEL_10D_SCHEMA.md`. BROCK retains CRMT grades. Recipient consumption/notification remains unverified without native transport.
+- September SDART/BLAST read and M&T Wilmington read missed their 10/15–16 targets; acknowledged-pending 10/20 (bounded commission priority). BlackRock confer outcome pending 10/21. No prediction overdue; OTTO-10 NEEDS_VERIFY still has its December read.
 
 ### DURABLE LESSONS CARRIED
 - **An audit that reads markers finds only the rows that carry markers.** The 9/12 as-made audit trusted "(was X%)" annotations, so walked cells with no marker read as as-made (seven rows). Derive from history (git first appearance), not from the label.
@@ -77,14 +77,11 @@
 - **Corrections still propagating (carried):** Bridgecrest servicing fee is **3.50% at the ABS level**, not 0.117% portfolio-wide. **Wilmington Trust has NO live trustee role at CRMT.** OTTO's Experian Q1-2026 subprime-share pair is chart-image locked, not a filed figure.
 
 ### PENDING PUSH
-- s029 (2026-10-14): all commits path-scoped and pushed via `scripts/safe-push.sh`; receipts `CONFIRMED: HEAD 3e4ea6cda` and `9cf08392b` on origin, then the final owed-items closeout push. Nothing pending. ⚠️ Commit `c7361651a`'s message says 26 files archived (8 from `sources/`); the stat shows 27 (9). Not amended (root 4b); corrected here and in MAINTENANCE.
+- **PUSH HOLD, 2026-10-19:** Will/PROME controls shared-branch publication. No pull, stash, reset, rebase or push this session. Other-owner dirty/staged work left alone. Exact owned-file commits and self-authored inbox carve-outs only.
 
-### NEXT SESSION *(kept last on purpose: boot step 3 ends on the action items)*
-00. **FIRST: NEXUS commission #3 (D:L708), due Mon 10/19, NOT STARTED — Will deferred it to this session.** Full delivery instructions in `STALE_PUNCHLIST.md` § Dated work. OTTO's leg only; read the spec's fixed verdict rule before any data.
-000. **On every 10-D read from 10/15 on, pair 60+ DQ with extension rates** (ML-OTTO-300; the docket rows say so). Exeter extended less while DQ rose; Carvana did not.
-0. **Dated:** 10/15 CRMT STD (read BROCK's grade first) + SDART/BLAST Sept 10-D (`panel_10d.py`) · 10/16 M&T Q3 (OTTO-31) + Tricolor BlackRock Rule 2004 confer · **10/19 NEXUS #3** (packet in `inbox/`; read the spec first) · 10/20 Ally Q3 (OTTO-12; log the missed 10/01 attempt) + First Brands D&O hearing · 10/21 OTTO-07 shelf re-run, CRMT backstop, Carvana T-7, suppression check, First Brands §721 hearing · 10/27 First Brands §341 · 10/28 Carvana Q3.
-1. **THESIS v1.6 — target 10/30** (to-do #2, incl. 2a/2b; docket row), with a cold reader before commit.
-2. **Year-end readiness by 11/30** (docket row): OTTO-11 instrument (#4), OTTO-12 evidence (#5), true-at-creation check on OTTO-01/-08/-09/-27 (#6).
-2b. **Rebuild `LESSONS.md`** as OTTO's live boot-read mistake-pattern file (to-do #18; Will chose rebuild over archive, 10/14).
-2a. **The full owed list is `STALE_PUNCHLIST.md`**: open items #2–#17, dated work, and *Waiting on others* (DAEDALUS's L5 ruling, CARL's BLAST ruling, REGINALD/PROME on `research/WAL/`, Will on `LESSONS.md`).
-3. **DEAD LEADS — do not re-run:** (a) TBK syndicate roster (b) Fitch alternatives (c) press-sweeping First Brands BDC counts (d) `browse-edgar` HTML (use `data.sec.gov/submissions`) (e) Kroll and the CourtListener docket PAGE / REST API (403/401). ✅ **CourtListener SEARCH API works unauthenticated** via DEWEY `recap_pull.py search` (search by case number: Chu's case sits under several docket ids). ✅ Verita full docket: POST `/document/list/6384`, PageSize 2000, Go Daddy G2 intermediate. ✅ Equifax editions use full month names.
+### NEXT SESSION *(last on purpose)*
+1. **10/20:** September SDART/BLAST 10-D read with extensions, M&T Wilmington-specific read, Ally Q3 (OTTO-12) and First Brands D&O hearing. The first two are overdue, acknowledged above; do not treat unswept filings as no news.
+2. **10/21:** OTTO-07 shelf re-run, Carvana T-7 check, suppression ruling, BlackRock confer outcome, First Brands §721. **10/22:** CRMT owner grade first (BROCK). **10/28:** CRMT backstop #5 and Carvana Q3.
+3. **10/30:** THESIS v1.6; **11/30:** year-end readiness. Broader approved backlog (LESSONS rebuild, parser gaps, source refreshes) remains `STALE_PUNCHLIST.md`, not part of the L708 return.
+4. NEXUS/PROME must read and disposition the exact L708 artifact; committed packets do not establish consumption. No new research direction, probability consequence or trade requested.
+5. Tooling dead leads remain as above: Kroll/docket page blocked; CourtListener SEARCH and verified Verita POST work. No new paid access or accounts.

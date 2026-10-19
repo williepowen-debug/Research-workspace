@@ -1,6 +1,6 @@
 # OTTO — Forward To-Do (stale intel + fleet parity)
 
-**Rewritten 2026-10-14 (s029). One list.** It replaces the June–September punchlist (verbatim → `archive/STALE_PUNCHLIST_2026-06-02_to_2026-10-14.md`) and `PEER_PARITY_ROADMAP.md` (verbatim → `archive/PEER_PARITY_ROADMAP_2026-06-09.md`). Both had gone stale while policing staleness.
+**Updated 2026-10-19 (s030); rewritten 2026-10-14 (s029). One list.** It replaces the June–September punchlist (verbatim → `archive/STALE_PUNCHLIST_2026-06-02_to_2026-10-14.md`) and `PEER_PARITY_ROADMAP.md` (verbatim → `archive/PEER_PARITY_ROADMAP_2026-06-09.md`). Both had gone stale while policing staleness.
 
 **Rules:** an item closes with a date and a commit hash, never by deletion; closed items move to § Closed at the next rewrite. Re-audit this list at any closeout that touches an item. Sources: the s028 file review (`research/2026-10-14_file_review/`, reviews A/B/C), DAEDALUS `FLEET_MAP.tsv` (OTTO row, scored 10/01) and the s029 matrix check.
 
@@ -15,7 +15,6 @@
 | 5 | **By 11/30** (CATALYSTS). **OTTO-12 10/01 attempt never logged** | DAEDALUS map row carries it; Ally Q3 10/20 is the next read | FLEET_MAP; review A M4 | OTTO, 10/20 |
 | 6 | **By 11/30** (CATALYSTS). **True-at-creation check on the four early hits** (OTTO-01, -08, -09, -27, made 2/23, confirmed within weeks) | If any was already true, the 0.2400 as-made Brier flatters the book | s029 scoreboard | OTTO |
 | 7 | **Dashboard refresh**: Fitch ANL and recovery rows are Mar-2026 data; the Bank Losses row has no dates or total; the lender watchlist was rotated to cold `[STALE]` and needs a rebuild or a retirement | Stale rows read as live | Review B M11, M12, L8 | OTTO |
-| 8 | **Seasoning repair not independently verified**; CARL's BLAST ruling (a/b) pending | The 🔴 39-of-39 row stands on it | s028 GAPS | OTTO / CARL |
 | 13 | `research/TIER2_FORENSIC_SCREEN_SPEC.md`: build "authorised" 7/25, no date | An owed build with no clock | Review C L9 | OTTO: schedule or drop |
 | 14 | **Archive sweep — remainder** (27 Feb–Mar files moved s029, `c7361651a`; its commit message says 26): `research/WAL/` (5 files, 12.4 MB .docx; REGINALD holds a copy; hand over via PROME) · `workbook/STATUS_archive_2026{0325,0608,0725,0803,0814}.md` (links from STATUS_COLD would need re-pointing) · `LESSONS.md` (Will's call, parked since June) · `research/outputs/` Feb packages stay (the research index points into them) | Root retirement rule | Review B L13–L17; review C | OTTO; WAL needs REGINALD/PROME; LESSONS needs Will |
 | 15 | `MEMORY.md` findings/references contradict each other (Verita "blocked" vs working; superseded entries) | A boot read that disagrees with itself | Review B M3–M5 | OTTO, at closeout |
@@ -25,14 +24,14 @@
 
 ## Dated work (lives in `docket/CATALYSTS.tsv`; boot step 5 shows it)
 
-**Mon 10/19 — NEXUS commission #3 (D:L708), NOT STARTED, deferred by Will to the next session** (packet in `inbox/`; spec `AGENTS/NEXUS/research/2026-10-14_commission_CCC-gap_consumer-attribution.md` — read it first and grade on its fixed rule; OTTO's leg only; deliver to `AGENTS/NEXUS/inbox/` + copy `PROME/inbox/2026-10-15_from-OTTO_L708-ccc-gap-verdict.md` with a COMPLETION block, then message PROME; PROME wakes OTTO 10/19 if no session opens first) · 10/15 CRMT STD (BROCK grades first) + SDART/BLAST Sept 10-D · 10/16 M&T Q3 (OTTO-31) · 10/20 Ally Q3 (OTTO-12) · 10/21 OTTO-07 shelf re-run, Carvana T-7, suppression check · 10/28 Carvana Q3 · **10/30 THESIS v1.6 target** · **11/30 year-end readiness**.
+**L708 DONE 10/19 (`a95429b7c`)** — strict NO_INSTRUMENT; supplementary MIXED, not support. Recipient reads pending at NEXUS/PROME. **Acknowledged overdue:** ~10/15 SDART/BLAST September cycle and 10/16 M&T Wilmington read → next-check **10/20**, deferred for bounded L708; no outcome inferred. BlackRock 10/16 confer outcome → next-check **10/21**. CRMT seventh bridge consumed (BROCK KB-BRK-343), next STD **10/22**. Remaining dates: Ally 10/20 · OTTO-07, T-7 and suppression check 10/21 · CRMT backstop #5 and Carvana Q3 10/28 · THESIS v1.6 10/30 · year-end readiness 11/30. Canonical event set remains `docket/CATALYSTS.tsv`.
+
 
 ## Waiting on others, or on Will
 
 | Item | Who | Since | Where |
 |---|---|---|---|
 | L5 ruling on OTTO (both stated legs landed; placement is a block above the dashboard, not columns on it) | DAEDALUS | 2026-10-14 | packet `054aaf5b8` in `AGENTS/DAEDALUS/inbox/`; FLEET_MAP OTTO row |
-| BLAST seasoning-clock basis: (a) keep exhibit-derived, (b) blank | CARL | 2026-10-14 (s028) | OTTO packet `0002774f0`; item #8 |
 | `research/WAL/` disposition (5 files, 12.4 MB; REGINALD holds a copy) | REGINALD / PROME | 2026-07-07 (DAEDALUS card) | item #14 |
 | Veto, or not, the retirement of the FLG 8-K forwarding duty | Will (optional) | 2026-10-14 | `EDGAR_8K_MONITOR.md` footer |
 
@@ -40,6 +39,8 @@
 
 | Item | Closed | Commit |
 |---|---|---|
+| #8: CARL independently checked 16/16 EART cells and SDART pair; BLAST ruling (a) computed-basis schema applied. Legacy parser branches remain outside this verification | 2026-10-19 s030 | `a95429b7c` |
+| L708 commission #3: bounded attribution returned NO_INSTRUMENT; conditional equities MIXED | 2026-10-19 s030 | `a95429b7c` |
 | §2 universal 5-pt handle + Independence (DAEDALUS card priority 2; L5 gate leg) | 2026-10-14 s029 | MAINTENANCE (c) |
 | WINTERKORN spec + memory refresh; docket archive split (review C H3/M3/M4/M5/M6/M8) | 2026-10-14 s029 | `8aff72737` |
 | PREDICTIONS_ARCHIVE as-made scoreboard + OTTO-04 / OTTO-30 post-mortems (review A M10) | 2026-10-14 s029 | this commit |

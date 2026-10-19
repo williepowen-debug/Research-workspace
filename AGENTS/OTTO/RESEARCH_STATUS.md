@@ -1,6 +1,6 @@
 # OTTO Research Status
 
-**Last Updated:** 2026-10-14 (s029) — completed-research index re-synced to `research/outputs/` (RP-OTT-1.7, 2.5, 3.3, 5.1 added); queue rebuilt; the Feb "this session" vector tables moved to `archive/`.
+**Last Updated:** 2026-10-19 (s030); L708 completed with NO_INSTRUMENT, evidence a95429b7c. Prior 2026-10-14 (s029) — completed-research index re-synced to `research/outputs/` (RP-OTT-1.7, 2.5, 3.3, 5.1 added); queue rebuilt; the Feb "this session" vector tables moved to `archive/`.
 
 ---
 
@@ -9,6 +9,7 @@
 
 | ID | Topic | Date | Finding | Location |
 |----|-------|------|---------|----------|
+| **L708** | **NEXUS consumer-lender CCC attribution** | **2026-10-19** | **NO_INSTRUMENT** strict n=0; fixed ENVA/CVNA supplementary equities MIXED; source/replay gaps explicit | `research/2026-10-19_L708/VERDICT.md` (`a95429b7c`) |
 | **RP-OTT-5.1** | **CRMT + Tricolor pre-registered letters, and the grade card** | **2026-09-02** | Bands sealed before the dates; graded 9/12 (Letter 1: 1A fires; Letter 2: 2A fires on the 9/11 8-K) | `research/outputs/RP-OTT-5.1_*.md` |
 | **RP-OTT-2.5** | **Negative equity & loan-term extension (the skip precondition)** | **2026-08-27** | Negative-equity share rising (26.6→29.6% YoY) while depth is flat; corroborates the SDT REFUTE; names Manheim as the hinge | `research/outputs/RP-OTT-2.5/` |
 | RP-OTT-3.3 | Feb 2026 bankruptcy surge | 2026-02-14 | ⛔ Corrected 9/2: its "$237M across 15 BDCs" First Brands figure is unqualifiable; six named BDC marks replace it | `research/outputs/RP-OTT-3.3/` |
@@ -51,7 +52,6 @@ list — it does **not** own live monitoring snapshots.)*
 
 | Priority | Topic | Rationale |
 |----------|-------|-----------|
-| **HIGH** | **NEXUS commission #3 — is CCC widening consumer-driven?** (due 10/19) | Will-commissioned. Packet in `inbox/`; spec `AGENTS/NEXUS/research/2026-10-14_commission_CCC-gap_consumer-attribution.md` |
 | **HIGH** | **Kollar / Seibold plea transcripts** (unsealing ordered 7/30) | None posted at 76 days; OTTO-33's own ~9/28 re-examine is overdue. Highest-yield unclaimed Tricolor document for a new counterparty name |
 | **HIGH** | **OTTO-11 instrument** (credit-washing prevalence) | The row names no source, unit or perimeter; it resolves 12/31 and cannot be graded as written |
 | MEDIUM | Tricolor suppression ruling (ECF 108; hearing 10/7) | Granted in material part = a weaker case for the 1/25/27 trial |
