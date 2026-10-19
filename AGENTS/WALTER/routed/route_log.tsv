@@ -1520,3 +1520,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-19T16:19:33Z	SIG-W-20261019-005	Owner packet / verified sources	JMIC106 raises Arabian Gulf risk; tug177 is new; CAPE DAO sinking status conflicts	IMMEDIATE	FALCON,BRENT	HAWK,SAM,RED,PROME	0.96
 2026-10-19T16:19:33Z	SIG-W-20261019-006	Owner packet / verified sources	OTTO filing fragments: Exeter support alongside CPS/Enova funding access	PRIORITY	CARL	REGINALD,BROCK,LIQUID,RED,OTTO,PROME	0.94
 2026-10-19T16:19:33Z	SIG-W-20261019-007	Owner packet / verified sources	CORRECTION to1015-020: Indianapolis office case belongs to CREED; transaction unverified	PRIORITY	CREED	HOMER,REGINALD,PROME	0.99
+2026-10-19T16:31:10Z	SIG-W-20261019-008	OTTO approved maintenance / owner synthesis	September5/9 panel44/44 worse YoY; OTTO-31 forecast8% OPEN, scope-limited	PRIORITY	CARL,NEXUS,REGINALD,RED	OTTO,BROCK,LIQUID,PROME	0.94

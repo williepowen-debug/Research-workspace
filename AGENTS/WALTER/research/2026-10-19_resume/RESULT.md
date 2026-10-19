@@ -66,3 +66,7 @@ L728 remains PROME’s Actions/first-Telegram-digest receipt check, not a WALTER
 ## Direct Will follow-up — X authorization
 
 Authorization-only check returned401; automatic refresh400. Will completed the standard browser flow, then profile check200. `bookmark-auth-after.json` verifies0bookmark requests/marks and unchanged seen state. No pilot renewal or L599 repetition; WQ458 remains separate. Missing authorization is discharged.
+
+## Final arrival during filing
+
+OTTO quickwins arrived after the first3 were integrated/filed at666b5eb5d/766a19a60. Read the whole packet and READOUT; BM05 declared2 before triage and closed2/2. BOARD008 routes September5/9 panel44/44 worse YoY, with servicing ambiguity, and OTTO-31 owner forecast12%→8% OPEN with broad-franchise/narrow-custody limits. No L708 rerun, new threshold or colour. Final inbox total handled4; consume evidence follows the integration commit. Optional CROSS_REFS files for OTTO/CARL/NEXUS do not exist; canonical routing/owner records used instead.

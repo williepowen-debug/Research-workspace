@@ -9,3 +9,5 @@ Initial top-level count1 (OTTO);2 packets arrived during work (LIQUID,HOMER). Al
 | 2026-10-19_from-HOMER_SIG-020-office-routing-disposition.md |007, additive marker on1015-020, R1 COR-20261019-07 | consumed: HOMER office task withdrawn; CREED case-feed pointer only, no launch/new investigation |
 
 Integration commit precedes git mv into this desk’s processed/ directory. The moving commit and .consumed.tsv declare consume:WALTER. A final census guards packets arriving during the drain. Recipient consumption of outbound packets remains separate and is never inferred from this inbox drain.
+
+Fourth arrival: SIG-OTTO-WALTER-20261019-quickwins.md, whole packet/READOUT read; BM05 two items2/2, integrated into008 before filing. September5/9 and servicing limits travel with44/44; OTTO-31 remainsOPEN8%, not FALSIFIED.006 loopback read is owner-acknowledged, not publication proof.
