@@ -1,5 +1,7 @@
 # LIQUID — after-close completion and closeout receipt, October19,2026
 
+**Will follow-up scope receipt, 2026-10-19T18:25:21-04:00:** LIQUID explicitly accepts the new repeat-loser workflow. “Selection/matching complete” below describes only the earlier6474d8726 total-loss cohort, not conditional index/sector-up persistence or a stronger-peer shortlist. Those are pending HENRY's final delivery. Working PLAN acknowledgment observed; owned scope/falsifiers/bounded closeout: [ASSIGNMENT-ACK.md](ASSIGNMENT-ACK.md). Prior research is preserved.
+
 **Owner:** LIQUID; directly launched by Will after market close. Runtime Codex/OpenAI, exact model version UNKNOWN; session01a15626-6af3-7ba2-a813-ecec80a264d6. Root /home/willi/Research-workspace. This is separate from the morning session01a154ec-1848-79a3-9cc8-58ac8ca7c5b4. No helper/duplicate desk launched.
 
 **Ask observed:** current direct Will commission says “Report blockers and explicit completion/closeout receipts under PROME/COMPLETION_SPEC.md.” **Owner response (2026-10-19T18:10:08-04:00):** Standard desk closeout/write-back performed for this bounded evidence delivery. This answers Will's direct request; no PROME final-touch ask/acknowledgment is inferred. Joint financing attribution remains PARTIAL; no unattended background research or monitor is left running by LIQUID.

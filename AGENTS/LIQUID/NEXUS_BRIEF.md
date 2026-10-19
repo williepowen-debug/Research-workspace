@@ -3,6 +3,9 @@
 **Reconciled:** 2026-10-19T13:28:10-04:00. Evidence acquired October19: credit/funding/ETF frontiers October16; dealer positions/fails October7; H.4.1 October14; August TIC releasedOctober16. Review date is not an observation date. Canonical levels/counts: `STATUS.md`; source package: `research/2026-10-19_sweep/REPORT.md`; morning first-published grades: `analysis/2026-10-19_L746-published-close.md`.
 
 **After-close review / local closeout:** 2026-10-19T18:10:08-04:00. WALTER015–018 integrated; new contract evidence at `research/2026-10-19_equity-financing/RESULT.md`. Morning evidence frontiers above remain dated; FRED-only boot advanced H.15 toOctober16. No new gate grade.
+
+**Will workflow clarification:** New HENRY conditional index/sector-up shortlist pending; earlier8-name total-loss screen is retained separately. LIQUID acknowledgment, timing tests and financing falsifiers → `research/2026-10-19_equity-financing/ASSIGNMENT-ACK.md`. Recent equal-weight recovery remains counterevidence.
+
 ## Current judgment
 
 Credit stress is transmitting through repricing; a broad funding seizure is unproven. HY331bp[October16] completes LIQUID’s approved WQ444 three-session >320 sustained count (325→323→331, first-published). No automatic sizing follows. X1 remains CLOSED / DON’T-SIZE because BROCK owns the relative wrapper half; the historical absolute BDC mark card cannot satisfy it.

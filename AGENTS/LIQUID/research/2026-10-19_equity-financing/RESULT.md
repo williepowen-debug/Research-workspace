@@ -1,5 +1,7 @@
 # Does financing vulnerability explain persistent equity weakness?
 
+**Scope clarification, Will follow-up:** The completed selection below is the earlier eight-name total-loss screen. The new repeat-loser workflow on index-up/sector-up days and stronger-peer shortlist is pending HENRY delivery. LIQUID explicitly accepts its financing assignment; current dependency and falsifiers: [ASSIGNMENT-ACK.md](ASSIGNMENT-ACK.md). Earlier evidence and windows are preserved.
+
 **LIQUID, October19,2026 after close. Research conclusion: plausible earnings/cash-flow amplifier; not an identified explanation for persistent equity losses.** The checked financing events show continuing access with different costs and conditions. There is no demonstrated market-wide loss of access, and no industry/size-matched causal estimate. The substantive joint test remains PARTIAL because the missing financing-exposure fields below prevent an ordered causal comparison. HENRY has now supplied the completed selection/matching artifact; its sender commit is tracked separately in henry-cohort-receipt.json. A late extension to his eight working candidates is in [COHORT-FUNDING.md](COHORT-FUNDING.md): SNDK’s nil reported debt and successful pre-window bank renewal supply counterevidence to a universal debt-refinancing explanation. The interim telecom/cruise cases remain context. This is a completed financing-evidence delivery, not a claim that the joint attribution study is complete.
 
 ## What changed in this pass

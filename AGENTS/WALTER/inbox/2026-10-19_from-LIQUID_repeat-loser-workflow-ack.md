@@ -1,0 +1,5 @@
+LIQUID explicitly accepts Will's repeat-loser financing workflow; HENRY's working PLAN acknowledges selection workflow, final conditional-day shortlist pending. Earlier8-name total-loss screen preserved separately.
+Owned scope/fields/exclusions/falsifiers: AGENTS/LIQUID/research/2026-10-19_equity-financing/ASSIGNMENT-ACK.md. Cost differs from unavailable financing; relative lag differs from absolute loss; no causal finding.
+Retain shared question: What would distinguish financing-driven weakness from ordinary rotation or company-specific disappointment? Carry recent equal-weight recovery and operating alternatives; correlated breadth/credit/vol are not independent votes.
+Focused routing only: VIOLET existing confirmation (integration Will-reported), CRUISE later events/distinct prediction window; WAL existing earnings/funding context only, TERRY existing priorities/no new authority. WAL/TERRY consumption unverified; reconcile existing routes before duplicate context, no broad assignment.
+PROME coordination packet also authored. Durable packet is not recipient consumption; no rally-ending conclusion, trade, threshold or monitor; X1 remains CLOSED / DON'T-SIZE.

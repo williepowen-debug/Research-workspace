@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-19T18:10:08-04:00 — Local desk closeout complete; joint financing attribution PARTIAL. WALTER015–018 consumed; HENRY cohort6474d8726 consumed. X1 CLOSED. No capital/gate change. Evidence/receipt: `research/2026-10-19_equity-financing/`.
+**Last Updated:** 2026-10-19T18:25:21-04:00 — Will repeat-loser workflow acknowledged; new HENRY shortlist pending. Earlier cohort6474d8726 retained. Joint attribution PARTIAL; X1 CLOSED. Scope/receipt: `research/2026-10-19_equity-financing/ASSIGNMENT-ACK.md`.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
@@ -47,7 +47,7 @@
 
 | When | What | Owner / status |
 |---|---|---|
-| **after-close research, 10/19** | Joint equity-financing attribution PARTIAL: HENRY request acknowledged; working8-name/four-contrast selection screened. HENRY cohort6474d8726 consumed; LIQUID financing bridges remain incomplete. Exact opening liquidity/maturity bridges and issuer-credit events still missing. No native live transport/recipient acknowledgment verified. | HENRY selection; LIQUID funding; PROME coordination |
+| **after-close research, 10/19** | PARTIAL: LIQUID accepts repeat-loser workflow; new HENRY index/sector-up shortlist pending. Earlier8/four-contrast cohort6474d8726 retained, not that conditional-day test. Funding/event bridges incomplete. Scope and observed HENRY working-plan acknowledgment → `research/2026-10-19_equity-financing/ASSIGNMENT-ACK.md`; final recipient consumption unknown. | HENRY selection; LIQUID funding; PROME coordination |
 | **before the WQ404 read or any letter edit** | HANS corrected swap-line letter line68:1,179 USD operations since2007; bidders≥8 fired164 times, including2020 and earlier year-end false alarms. Known-wrong line68 remains held byte-stable for the named reader; HANS figures not independently re-verified by LIQUID. Full figures/provenance preserved in the prior STATUS archive and WQ404. | LIQUID/PROME: tell the reader |
 | **OWED: fix pass** (WQ-404 read NOT RELEASED 10/15) | ⛔ `usd_swapline.py` + letter stay WITHHELD. Will-named read 10/15: 28✅·7⚠️·6❌ — letter L68 HANS base rate withdrawn by HANS; two release conditions; AC-X2b no own failure path; 3 dead pointers; reader counterexamples A (no-bid dormancy ⇒ `--baserate` rc 2 forever) and B (string date compare) untested. Conditions first, then code; another read needs Will's word. → `PROME/reports/2026-10-15_wq404-swapline-independent-read/READ1.md`. | LIQUID; Will (next read) |
 | **10/21–10/22** | Primary20Y/TIPS demand tests;Car-Mart10/22continuation;as-of10/14dealer print expected10/22,only grade onactualpublication. Mid-curveoneweek warning is not2week confirmation. Missing Car-Mart announcement means undisclosed outcome,not denial/default. | LIQUID;BOND/BROCK/OTTO own adjacent adjudications |
