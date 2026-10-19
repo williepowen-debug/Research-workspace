@@ -1,0 +1,22 @@
+Loaded 444 existing rows from VX_DAILY.tsv
+
+[1a] Fetching CBOE (publisher of record) BEFORE any write...
+  Fetching CBOE daily-prices CSVs (publisher of record) for ['VIX', 'VIX9D', 'VIX3M', 'VIX6M', 'VVIX', 'SKEW']
+
+[1b] yfinance provisional pass (12 days)...
+  Fetching yfinance history (30d) for ['^VIX', '^VIX9D', '^VIX3M', '^VIX6M', '^VVIX', '^SKEW']
+  yfinance (provisional): 0 cell(s) written where CBOE publishes nothing, 174 deferred to CBOE, 0 WITHHELD (CBOE series failed this run), 0 WITHHELD (row already basis=SETTLE), 6 WITHHELD (cell already holds a value — no overwrite)
+  touched 28 rows
+
+[1c] Writing spot columns from CBOE (authoritative)...
+  🆕 CREATED 2 missing session row(s) CBOE published and the ledger lacked: 2026-10-15, 2026-10-16
+     (filled from CBOE below; m1m2 left BLANK by convention)
+  CBOE: 2652 cell(s) agreed, 13 blank(s) filled, 5 CORRECTED, 3 row(s) stamped SETTLE, 0 row(s) NOT stamped (hold an unconfirmed cell)
+  🔴 5 VALUE CORRECTION(S) — ledger was wrong, CBOE wins:
+     2026-10-14  vix        16.80 ->     16.87  (-0.07)
+     2026-10-14  vix9d      14.48 ->     14.59  (-0.11)
+     2026-10-14  vix3m      18.75 ->     18.79  (-0.04)
+     2026-10-14  vix6m      20.46 ->     20.49  (-0.03)
+     2026-10-14  vvix       94.28 ->     94.45  (-0.17)
+
+✓ wrote 446 rows to /home/willi/Research-workspace/AGENTS/VIOLET/workbook/VX_DAILY.tsv

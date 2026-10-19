@@ -1,0 +1,178 @@
+{
+  "official": [
+    {
+      "date": "2026-10-09",
+      "VIX": 14.84,
+      "VIX9D": 11.26,
+      "VIX3M": 17.77,
+      "VIX6M": 19.86,
+      "VVIX": 84.88,
+      "SKEW": 154.34,
+      "VIX9D_VIX": 0.7587601078167115,
+      "VIX3M_VIX": 1.1974393530997305
+    },
+    {
+      "date": "2026-10-12",
+      "VIX": 15.21,
+      "VIX9D": 11.68,
+      "VIX3M": 17.93,
+      "VIX6M": 19.95,
+      "VVIX": 85.93,
+      "SKEW": 155.06,
+      "VIX9D_VIX": 0.7679158448389217,
+      "VIX3M_VIX": 1.1788297172912556
+    },
+    {
+      "date": "2026-10-13",
+      "VIX": 15.27,
+      "VIX9D": 11.99,
+      "VIX3M": 17.96,
+      "VIX6M": 19.92,
+      "VVIX": 85.38,
+      "SKEW": 154.74,
+      "VIX9D_VIX": 0.7851997380484611,
+      "VIX3M_VIX": 1.1761624099541585
+    },
+    {
+      "date": "2026-10-14",
+      "VIX": 16.87,
+      "VIX9D": 14.59,
+      "VIX3M": 18.79,
+      "VIX6M": 20.49,
+      "VVIX": 94.45,
+      "SKEW": 157.3,
+      "VIX9D_VIX": 0.8648488441019561,
+      "VIX3M_VIX": 1.1138114997036157
+    },
+    {
+      "date": "2026-10-15",
+      "VIX": 16.46,
+      "VIX9D": 13.97,
+      "VIX3M": 18.49,
+      "VIX6M": 20.24,
+      "VVIX": 92.57,
+      "SKEW": 160.45,
+      "VIX9D_VIX": 0.8487241798298907,
+      "VIX3M_VIX": 1.123329283110571
+    },
+    {
+      "date": "2026-10-16",
+      "VIX": 19.99,
+      "VIX9D": 20.12,
+      "VIX3M": 20.5,
+      "VIX6M": 21.67,
+      "VVIX": 109.91,
+      "SKEW": 168.59,
+      "VIX9D_VIX": 1.006503251625813,
+      "VIX3M_VIX": 1.0255127563781892
+    }
+  ],
+  "SKEW20mean_through_Oct16": 148.5125,
+  "futures": {
+    "2026-10-14": {
+      "strict_pct": 2.396,
+      "adjusted_pct": 2.396,
+      "adjusted_pair": [
+        "VX/V6",
+        "VX/X6"
+      ],
+      "contracts": [
+        {
+          "symbol": "VX/V6",
+          "expiration": "2026-10-21",
+          "price": 17.6542
+        },
+        {
+          "symbol": "VX/X6",
+          "expiration": "2026-11-18",
+          "price": 18.0772
+        },
+        {
+          "symbol": "VX/Z6",
+          "expiration": "2026-12-16",
+          "price": 18.3989
+        }
+      ]
+    },
+    "2026-10-15": {
+      "strict_pct": 2.872,
+      "adjusted_pct": 2.872,
+      "adjusted_pair": [
+        "VX/V6",
+        "VX/X6"
+      ],
+      "contracts": [
+        {
+          "symbol": "VX/V6",
+          "expiration": "2026-10-21",
+          "price": 17.4227
+        },
+        {
+          "symbol": "VX/X6",
+          "expiration": "2026-11-18",
+          "price": 17.9231
+        },
+        {
+          "symbol": "VX/Z6",
+          "expiration": "2026-12-16",
+          "price": 18.25
+        }
+      ]
+    },
+    "2026-10-16": {
+      "strict_pct": -3.362,
+      "adjusted_pct": -3.362,
+      "adjusted_pair": [
+        "VX/V6",
+        "VX/X6"
+      ],
+      "contracts": [
+        {
+          "symbol": "VX/V6",
+          "expiration": "2026-10-21",
+          "price": 19.9075
+        },
+        {
+          "symbol": "VX/X6",
+          "expiration": "2026-11-18",
+          "price": 19.2382
+        },
+        {
+          "symbol": "VX/Z6",
+          "expiration": "2026-12-16",
+          "price": 18.9485
+        }
+      ]
+    },
+    "2026-10-19": {
+      "strict_pct": 2.431,
+      "adjusted_pct": 0.734,
+      "adjusted_pair": [
+        "VX/X6",
+        "VX/Z6"
+      ],
+      "contracts": [
+        {
+          "symbol": "VX/V6",
+          "expiration": "2026-10-21",
+          "price": 18.1582
+        },
+        {
+          "symbol": "VX/X6",
+          "expiration": "2026-11-18",
+          "price": 18.5996
+        },
+        {
+          "symbol": "VX/Z6",
+          "expiration": "2026-12-16",
+          "price": 18.7362
+        }
+      ]
+    }
+  },
+  "VIX_Oct16_high": 22.31,
+  "VIX_Oct16_change_pct": 21.44592952612392,
+  "VIX_Oct16_intraday_point_rise": 5.849999999999998,
+  "VIX_Oct9_to_Oct16_pct": 34.70350404312668,
+  "HY_Sep22_to_Oct16_bp": 63
+}

@@ -1,46 +1,44 @@
 # VIOLET — NEXUS Brief
 
-**Status:** Front-end volatility repriced after CPI; systemic transmission unconfirmed.
+**Status:** Confirmed short-end volatility stress; systemic transmission incomplete.
 **Domain:** Volatility term structure, tail pricing and credit-to-volatility timing.
-**Thesis version:** v4.1.3; evidence refinement, no numerical or permission change.
-**As of:** 2026-10-14 16:43 ET | **STATUS commit:** `cd20b0b43`.
-Official Cboe history through October 13; delayed VIX-complex data-timeOctober14 16:00:31ET,pull16:16:23ET; matched VXfutures settlementOctober14+2.396%. Same owner completed Will's accuracy sweep and stopping request. Canonical numerical dashboard: [STATUS](STATUS.md); latest accuracy audit: [REPORT](research/2026-10-14_accuracy-sweep/REPORT.md). Earlier causal assessment remains dated history.
+**Thesis version:** v4.1.4, approved WQ410 retirement enacted; no successor threshold.
+**As of:** 2026-10-19 17:38 ET | **STATUS commit:** `same-commit`; pre-commit base recorded in CLOSEOUT.md.
+Official cash history through October16; Monday quotes separately dated. Canonical numbers: [STATUS](STATUS.md). Source/owner hashes, calculations and remaining obligations: [REPORT](research/2026-10-19_official-followthrough/REPORT.md). Convergence **31/50**.
 
 ## CROSS-DOMAIN
 
-**LIQUID / HENRY / RED / PROME:** the front end now responds, but credit causation remains unresolved. The cash-volatility curve is flatter and still upward; VVIX below its existing stress line. LIQUID's dated stronger-tier price broadening matters, yet HY size is below the central claim and funding accompaniment is absent on its dated reserve-channel gauges. CPI/rates/credit may share an antecedent; count that once. No Path-A fire. Original 10/13→11/17 credit-vol WATCH remains; inherited hit rates are not reproduced.
+**PROME / RED:** Official October14 SKEW157.30 completes154.34/155.06/154.74/157.30, four consecutive qualifying published observations. RED already graded FT10 FIRING and owns weights, exit and outcome. October15/16=160.45/168.59 extend the same run to6, no second fire. Count agrees, so no RED disagreement packet or duplicate fire alert. Current archive matches the contemporaneous owner record; recovery is not independently verified first-publication vintage. October19quote161.86 is excluded pending dailyCSV. At-use integrity23/23 within0.005 throughOctober16.
 
-**RED:** RED-FT-10 **3 of 4** through the official October 13 observation; October 14 bar absent at captured publisher frontier. Count agrees with WALTER's recovered sequence. Current-envelope SKEW quote still last-traded October 13. RED owns letter and grade; only the final dated official bar can complete/reset this run. At-use integrity October 14 15:27 ET: 22/22 sessions agree with publisher within 0.005; bounds this read only. Evidence packet supplied, native notification/consumption UNKNOWN.
+**HENRY / LIQUID / RED via WALTER:** October16 official VIX high22.31/close19.99, +5.85points intraday versus priorclose16.46.9D20.12/VIX19.99=1.0065 inverted;3M20.50/VIX19.99=1.0255 NOT inverted. VVIX109.91daily<120; WALTER121.17intraday=WATCH. VXOct/Nov−3.362% inverted. These instruments cannot substitute for one another. StrictVIX<20filter is met on official19.99close, not22.31high; no rounding across boundary and no fullPath-A/076fire from that leg alone. MondayquotesVIX18.44/VVIX106.93 ease; official cash finals still missing at capture.
 
-**TERRY / PROME:** actual WQ418 **PASSED/no trade** consumed from Will's October 11 committed ruling. October 9 alert note/current pending wording reconciled. Pre-CPI event window ended October 14 08:30 ET; no new opportunity or construction request. Current quantities come from FORGE's October 14 broker-received mirror; TERRY/Will already own expiry/construction work, with capture/fill times and current orders UNKNOWN.
+**LIQUID / BOND / PROME:** HY325/323/331bpOctober14/15/16 completes LIQUID's >320×3 line. HY+63bp sinceSeptember22 below central100bp size; origin/cross-sector causal evidence remains incomplete. LIQ07 resolved S2 on both frozen lists: no reserve-channel loop observed, not no loop; Friday lies outside its window. Hidden collateral calls and offshore dollars remain unmeasured. FridayETFcreations and lagged Treasury inventory counter blanket forced-selling claims; credit NET stocks do not identify Fridaygrosssales. BOND's officialOctober14real-yield retracement opposes a simple sustained CPIyieldjump story. No newOctober19BONDgrade imported.
 
-**BOND:** afternoon yield retracement weakens a one-way rates→credit→vol spiral. Reuse BOND's dated report and keep morning jump, afternoon vendor pair and pending official close separate. Financing cost does not establish funding dysfunction.
+**HENRY / VULCAN / NEXUS:** WALTERMondayvendor-close currentSPYholdings proxy176up/325down/2flat shows narrowS&Pparticipation, not officialindexcensus. Nasdaq100equalweightparticipation and recent5/20-sessionbroadening are counterevidence.42ETFproxyformations/fourselectedhistoricalepisodes are not calibratedcrashodds; jointcredit sample3 insufficient. Company contrasts do not prove refinancing caused market weakness. No independent stress-vote count or causalPath-Bcascadegrade. HENRYOctober8gamma sign/flip is stale.
 
-**HENRY / VULCAN:** existing Korea concentration stress and model-origin December put hedges remain alternate-channel context, not proof of US net hedge selling. Proprietary VS3D participant/baseline limits travel with WALTER's packet. ASML issuer-results relay supplies AI-demand counterevidence; Microsoft efficiency expectations/Broadcom commentary do not measure capex cuts. No new causal US cascade inferred.
+**VULCAN / LIQUID:** CRWV9.625%July2032 October14 fund-evaluatedYTW15.83% corrects~14.5relay. October16=15.15% is a new dated observation, while2030/2031tenors weakened. Fund evaluations are notTRACEtrades; standardDecember2031CDSupfront15.90–18.89points is observed,~1010–1131bp isMODEL-DERIVED/notISDA-certified/executable/defaultprobability. Volta terms remain unnamed-source reporting, sold not pulled, exactyieldunverified. No new069leg/repairgrade.
 
-**BRENT / SAM / HENRY:** 29 missing historical observations restored: OVX12,JPY realized13,correlation3,CFTC1. Current oil-vol canary remains WATCH on officialOctober13; yen realized leg CALM on October 14 with option-event-premium caveat. September 29CFTC net−7,467 preceded October 6+5,494; current rank96.8unchanged. ELEVATED_LONG rank onSeptember29 did not mean a positive net sign. No new live fire from a historical state reconstruction.
+**SAM / BRENT:** JPYOctober19realizedCALM; FXYoptionlegoff-hoursstale. OVXOctober16level50.74elevated butOVX/VIX2.54ratioCALM as equityvolrose; do not interpretlowerrelativeoilvolasriskclearance. CFTCprimaryOctober13reportrecoverednet+1,105,p91.0,down4,389w/w; originalreleasevintageUNKNOWN.
+
+**WALTER / PROME:** WQ410 APPROVE directly verified at committedOctober15ruling; COR1Mfirst-tellRETIREDinSIGNAL_INTAKE/KB342. Correlation series remains context; no successor. Pre-CPIWQ418PASSED/windowclosed. BothR1correctionsapplied; Fridayearliestpublicrumor13:36:33ET,16minafter13:20peak. Noverifiednamedfund,forcedseller,pipelinehitormargincall. Causal directionindeterminate.
 
 ## CALIBRATION
 
-- **Prediction7correction (KB334):** timing/counterfactual reproduce, actualSKEWspot moved+3.704%outside original±2%eligibility. KB220clean full-letter HITwithheld; HENRYoriginal explicitly supplied a counterfactual, not a forecast. Original letter/report retained; no invented FAILEDor retrospective rule change.
-- **Accuracy controls:**96/96bounded spot cells match Cboe; clock alone no longer certifiesSETTLE. All six exact-date daily closes must replace quotes; current after-close row remainsTICK. Same-day delivery guard anchors all phase addenda to committed STATUSand follows original creation through recipient moves;17new offline cases pass. Inherited credit rates and historical option/futures-convention gaps remain explicit.
-
-- Sequence is weaker evidence than causation: earlier credit widening plus post-CPI volatility does not establish a credit-origin shock.
-- Official SKEW is a dated publisher series. A current API envelope cannot turn yesterday's observation into today's fourth qualifying bar.
-- Gross OI and model positions do not reveal initiated net hedge flow; elevated SKEW is relative tail pricing, not an executable delta-specific premium or physical crash probability.
-- Approved L667 tools now warn on empty forward calendars, require explicit dated CBOE/calendar historical regrades and preserve operator disposition. Stale source-date readings cannot write past rows or issue construction menus. Seven new offline regression tests pass; all numerical lines unchanged.
-- Historical daily holes are now filled in the boundedSeptember22→October 13 audit; source dates and reconstruction labels retained. FXY historical optionIV/OI and older futures convention remain unresolved. 49expired ACTIVE KBrows reviewed,22STALEclosing dispositions,27retained dated findings/dependencies; older studies still not fully replicated. RQ8PARKEDremains; continuity is not forecast validation.
-- MOVE primary table still ends October 13; newer YahooOctober14bar99.1438 is UNCORROBORATED, not promoted to primary/grade basis. Different quote dates do not establish a primary close.
-- Oil historical tracked quantiles use only observations ending each reconstructed date;48quantilecells reproduced with0mismatches. No future calibration data or new numerical line.
+- Preserve originalOctober13→November17credit-volWATCH. Sequence alone is not credit-origin causation; inheritedhit/lagratesremainunreplicated.
+- FridayVIXclose19.99staysLOW_VOL, intraday22.31entersRISING_VOL. One session does not install a systemic phase change.
+- MondayadjustedfuturesNov/Dec+0.734%is a different pair fromFridayOct/Nov−3.362%; samepairNov/Dec−1.506%Friday→+0.734%Monday. No roll-induced trend inference.
+- ThreeofficialVXdailyrowsreconciled; two missing sessions filled. CorrelationOctober14/15/16officialrows restored; Mondayhelper'sclock-onlySETTLEdemotedTICK. Existinghelperrepairremainsowed, notsilentlycertifiedfixed.
+- HistoricalOctober16cheap-tailDORMANT2/4isdatedreconstructionwithcalendarreadOctober19,notaliveopportunityororiginalpublicationvintage. WQ418dispositionpreserved.
+- WALTER23packetsintegrated,10acted/13noted. Sourcequalificationsandcounterevidencetravelwithclaims; no trade,sizing,scenario-weightchangeornewmonitor.
 
 ## CROSS-AGENT TENSIONS
 
-No current numeric count dispute: VIOLET and WALTER agree; RED's old 0-of4 row is dated September, not an October grade. LIQUID stronger-credit price broadening and incomplete VIOLET causal confirmation coexist because they measure different claims. Compound-stress review identifies named borrower pressure without establishing a simultaneous system funding break or priced trade advantage.
+NoFT10countdisagreement. LIQUID'screditrungMETandVIOLET'sfullPath-AWATCHarecompatible: a spread-levelrule differsfromcredit-origin/fundingconfirmation. Fridayfrontinversionscoexistwithnon-inverted3Mcashcurve andnon-firingdailyVVIX. Mondaybreadthhasdifferentindex/horizonanswers,notoneuniformnarrowingregime.
 
 ## NEXT DECISION POINT
 
-October 14 evening **when dated official SKEW/volatility bars exist** → RED grade; October 15 published credit/funding supplies the first matched post-CPI bridge; October 16 LIQUID's existing final LIQ-07 and actual CFTC release. WQ410 retirement decision remains registered with Will; no new decision created here. Forward events: [CATALYSTS](workbook/CATALYSTS.tsv).
+ActualOctober19officialcash/SKEW/correlation/MOVEpublication,thenLIQUIDnextpublishedcredit/fundingbridge; no assumedhour. October21AMexpiry/pairs,October28FOMC,November17lagendpointandDecember16L441 unchanged. L667observationlegcomplete; existingcalendarpacket-output/charterclauseandcorrelation-helperbasisrepairremainseparateobligations. Currentcalendarpopulated; noemptyevent.
 
 ## VIEW
 
-LOW_VOL price bucket; front-end repricing, incomplete broad confirmation. **Convergence 30/50**, with front/VVIX rises and oil-canary easing tied to named evidence in STATUS. No new VIOLET position, proposal, threshold or order; $0 moved. Both existing repo HTML live bands refreshed; hosted publication unverified because original Artifact publisher not exposed/verified. No replacement hosted URL. Exact persistence and recipient-consumption states: research/2026-10-14_accuracy-sweep/CLOSEOUT.md. No additional agent or trade.
+LOW_VOLclosebucketwithrealshort-endstress; incomplete systemicconfirmation. **Convergence31/50**, not probability or independentvotes. No new Will decision/trade; $0moved. LocalHTMLsourcesupdated; originalhostedArtifactpublicationunverified/unavailable. DatedPROME/WALTERpacketsare durable delivery, not verified native notification, recipient consumption or latercloseoutask/receipt. Exactchecks/Gitreceipts: research/2026-10-19_official-followthrough/CLOSEOUT.md.

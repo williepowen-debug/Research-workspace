@@ -199,42 +199,41 @@
       </div>
       <div class="state-block">
         <span class="regime">LOW_VOL — front-end repricing, credit watch</span>
-        <span class="stamp">14 Oct 2026 · delayed volatility data 16:00:31 ET, pull 16:16 ET · SKEW/MOVE 13 Oct · COT report 6 Oct · framework v4.1.3</span>
+        <span class="stamp">19 Oct 2026 · official cash through 16 Oct · Monday quotes separately dated · framework v4.1.4 · hosted refresh unverified</span>
       </div>
     </header>
 
     <!-- ===== BAND 1: LIVE STATE ===== -->
     <div class="band">
-      <div class="band-head"><span class="band-key">Live state</span><span class="band-sub">14 October 2026; delayed quotes and final daily observations are separately dated</span></div>
+      <div class="band-head"><span class="band-key">Live state</span><span class="band-sub">19 October 2026; official daily cash history ends 16 October</span></div>
       <div class="tiles">
-        <div class="tile sv-calm"><span class="t-name">VIX</span><span class="t-val">16.80</span><span class="t-note">Repriced after CPI, still below 20. Intraday snapshot, not the final close.</span><span class="t-trip">Cboe delayed · 14 Oct · data 16:00:31 ET, pull 16:16 ET</span></div>
-        <div class="tile sv-watch"><span class="t-name">VVIX</span><span class="t-val">94.28</span><span class="t-note">Above the cheap-tail line of 90, below the stress line of 120. No new construction request.</span><span class="t-trip">Cboe delayed · 14 Oct · data 16:00:31 ET, pull 16:16 ET</span></div>
-        <div class="tile sv-stress"><span class="t-name">SKEW</span><span class="t-val">154.74</span><span class="t-note">Three qualifying official closes; today&rsquo;s final bar remains unpublished. RED owns the four-close grade.</span><span class="t-trip">Cboe final · 13 Oct · 20-session mean 146.183</span></div>
-        <div class="tile sv-watch"><span class="t-name">Term</span><span class="t-val">1.1161</span><span class="t-note">Flatter after CPI but still upward. Nine-day/30-day ratio 0.8671. No inversion.</span><span class="t-trip">Delayed same-session ratio · 14 Oct</span></div>
+        <div class="tile sv-watch"><span class="t-name">VIX</span><span class="t-val">18.44</span><span class="t-note">Monday delayed quote. Friday final 19.99; intraday high 22.31. No Monday official daily bar yet.</span><span class="t-trip">Cboe quote · 19 Oct · 16:15:01 ET</span></div>
+        <div class="tile sv-watch"><span class="t-name">VVIX</span><span class="t-val">106.93</span><span class="t-note">Monday quote. Friday final 109.91 stayed below 120; intraday 121.17 was a watch, not a daily fire.</span><span class="t-trip">Cboe quote · 19 Oct · 16:15:01 ET</span></div>
+        <div class="tile sv-stress"><span class="t-name">SKEW</span><span class="t-val">168.59 final</span><span class="t-note">Friday final; mean20 148.5125. RED graded the four-observation rule on 14 Oct. Six official qualifying observations through Friday.</span><span class="t-trip">Monday quote 161.86 · 17:00:20 ET · final missing</span></div>
+        <div class="tile sv-watch"><span class="t-name">Term</span><span class="t-val">1.0629 quote</span><span class="t-note">Monday 3M/VIX upward. Friday final 1.0255 also upward; the separate 9D/VIX and futures curves inverted Friday.</span><span class="t-trip">Cboe same-session delayed ratio · 19 Oct</span></div>
       </div>
       <div class="row-label">Other channels — evidence and limits</div>
       <div class="chans">
-        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">LIQUID</span><span class="cd">Owner&rsquo;s 13 Oct observation: HY +48bp since 22 Sep; below the thesis&rsquo;s 100bp condition. Broader price repricing is not broad default confirmation; no matched 14 Oct credit close yet.</span></div>
-        <div class="chan sv-stress"><span class="cn">Bond vol</span><span class="cv">101.09</span><span class="cd">MOVE, 13 Oct primary daily observation; +2.66% versus 9 Oct, below the 5 Oct peak 113.60. Today&rsquo;s primary print unavailable. BOND owns yields.</span></div>
-        <div class="chan sv-stress"><span class="cn">Positioning</span><span class="cv">Net long</span><span class="cd">CFTC leveraged money +5,494 on 6 Oct. Missing 29 Sep report recovered: &minus;7,467. Latest rank 96.8 unchanged; no 13 Oct release assumed.</span></div>
-        <div class="chan sv-watch"><span class="cn">Oil vol</span><span class="cv">48.77</span><span class="cd">13 Oct official OVX; same-date ratio 3.19, WATCH. Twelve missing historical observations restored. New delayed OVX 48.75 is a separate intraday quote, not a matched closing ratio.</span></div>
-        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">CALM</span><span class="cd">14 Oct pull: RV10 2.44%, RV20 4.88%; option IV 11.1%, IV/RV 4.55. Thirteen past RV observations recovered; historical option IV remains unavailable.</span></div>
+        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">LIQUID</span><span class="cd">HY 331bp on 16 Oct completes its three-session line. +63bp since 22 Sep is below the thesis 100bp move. Credit origin remains unproved; no reserve-channel loop observed within the frozen funding test.</span></div>
+        <div class="chan sv-stress"><span class="cn">Bond vol</span><span class="cv">101.10</span><span class="cd">MOVE primary 16 Oct; no Monday primary print captured. BOND owns yields.</span></div>
+        <div class="chan sv-watch"><span class="cn">Positioning</span><span class="cv">Net long</span><span class="cd">CFTC 13 Oct report recovered from annual archive: +1,105, p91.0; net long fell 4,389. Original release-time vintage unknown.</span></div>
+        <div class="chan sv-watch"><span class="cn">Oil vol</span><span class="cv">50.74</span><span class="cd">16 Oct final; OVX/VIX 2.54, CALM ratio state. Elevated oil-vol level remains; a lower ratio does not clear oil risk.</span></div>
+        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">CALM RV</span><span class="cd">19 Oct RV10 2.61%, RV20 4.40%. Option IV 13.4% is an off-hours stale quote; confirm a usable chain. SAM owns policy.</span></div>
       </div>
       <div class="row-label">Instruments</div>
       <div class="instr">
-        <div class="ins"><span class="kind">Alert</span><div class="ins-body"><div class="in">Pre-CPI cheap-tail window</div><div class="id2">Will chose PASS on 11 Oct under WQ-418. The event window ended at CPI, 14 Oct 08:30 ET. Historical OPEN is not a new live opportunity.</div></div><span class="status st-quiet">CLOSED · PASSED</span></div>
-        <div class="ins"><span class="kind">Pre-reg</span><div class="ins-body"><div class="in">RED&rsquo;s SKEW test (RED-FT-10)</div><div class="id2">Official 9, 12 and 13 Oct bars qualify. Only the dated final 14 Oct observation can complete or reset this run. No assumed publication hour.</div></div><span class="status st-watch">3 OF 4 · PENDING</span></div>
-        <div class="ins"><span class="kind">Test</span><div class="ins-body"><div class="in">Credit-to-volatility</div><div class="id2">Existing 13 Oct&ndash;17 Nov observation window. Size and credit-origin attribution remain incomplete; dated aggregate funding gauges do not show a reserve-channel loop.</div></div><span class="status st-watch">WATCH</span></div>
-        <div class="ins"><span class="kind">Rule</span><div class="ins-body"><div class="in">COR1M first-tell</div><div class="id2">Registered line unchanged until Will rules WQ-410. Current intraday correlation cannot complete its official-close sustain count.</div></div><span class="status st-watch">REGISTERED</span></div>
+        <div class="ins"><span class="kind">Alert</span><div class="ins-body"><div class="in">Pre-CPI cheap-tail window</div><div class="id2">PASSED WQ418; event ended 14 Oct. Historical 16 Oct regrade DORMANT 2/4 creates no live opportunity.</div></div><span class="status st-quiet">CLOSED · PASSED</span></div>
+        <div class="ins"><span class="kind">Pre-reg</span><div class="ins-body"><div class="in">RED SKEW test (FT10)</div><div class="id2">14 Oct official 157.30 completed 4/4. Later closes extend the same run. RED owns the grade, weights, exit and outcome.</div></div><span class="status st-watch">RED GRADED · FIRING</span></div>
+        <div class="ins"><span class="kind">Test</span><div class="ins-body"><div class="in">Credit-to-volatility</div><div class="id2">13 Oct–17 Nov window unchanged. Friday VIX 19.99 meets the below20 close filter, but that alone cannot establish credit causation or a full fire.</div></div><span class="status st-watch">WATCH</span></div>
+        <div class="ins"><span class="kind">Rule</span><div class="ins-body"><div class="in">COR1M first-tell</div><div class="id2">Retired on Will's WQ410 approval. Correlation remains context; no successor threshold.</div></div><span class="status st-quiet">RETIRED</span></div>
       </div>
       <div class="cols">
-        <div class="box posture"><h4>Posture</h4><p><b>Front-end repricing, incomplete systemic confirmation.</b> The curve remains upward and VVIX below 120. Credit deterioration preceded CPI, but that sequence does not establish credit causation. Funding evidence is separately dated and cannot clear hidden institution-specific restrictions. Convergence30/50; matched October14VX curve remains upward at+2.396%; no trade or threshold change. Current holdings live in FORGE; TERRY and Will own existing expiry work.</p></div>
+        <div class="box posture"><h4>Posture</h4><p><b>Real short-end stress, incomplete systemic confirmation.</b> Monday quotes and futures eased. Hidden collateral calls and offshore dollars remain unmeasured; no verified forced seller or cause for Friday. Convergence31/50 is a desk score, not a crash probability. No new trade; TERRY constructs and Will decides.</p></div>
         <div class="box"><h4>Next decision points</h4><div class="sched">
-          <div class="ev"><span class="when">14 Oct</span><span class="what">Final SKEW and volatility bars, <b>when actually published</b>; RED grades.</span></div>
-          <div class="ev"><span class="when">15 Oct</span><span class="what">Matched post-CPI credit/funding publication; PPI context.</span></div>
-          <div class="ev"><span class="when">16 Oct</span><span class="what">LIQUID&rsquo;s final funding test; actual CFTC publication; existing WQ-410 decision.</span></div>
-          <div class="ev"><span class="when">21 Oct</span><span class="what">October VIX expiry; verify futures pair.</span></div>
+          <div class="ev"><span class="when">Publication</span><span class="what">19 Oct final cash/SKEW/correlation bars and MOVE primary; no assumed hour.</span></div>
+          <div class="ev"><span class="when">21 Oct</span><span class="what">VIX AM settlement/expiry; preserve contract pairs across the roll.</span></div>
           <div class="ev"><span class="when">28 Oct</span><span class="what">FOMC decision.</span></div>
+          <div class="ev"><span class="when">17 Nov</span><span class="what">Existing credit-vol window endpoint.</span></div>
         </div></div>
       </div>
     </div>
@@ -310,13 +309,13 @@
     </div>
 
     <footer>
-      <span><b>Source dates matter.</b> Cboe volatility is a delayed 14 Oct snapshot; final SKEW and MOVE remain 13 Oct. CFTC is 6 Oct, with the missing 29 Sep report restored. Credit is LIQUID&rsquo;s 13 Oct observation. The final 14 Oct grade remains pending actual publication. Repo source refreshed; hosted publication not verified.</span>
+      <span><b>Source dates matter.</b> Cash finals, credit and MOVE through 16 Oct; CFTC report 13 Oct. Monday quotes and futures have their own dates. No original release-time certification from historical recovery. Repo source refreshed; hosted publication unverified.</span>
       <span><b>Four gauges, one signal.</b> VIX, VVIX, SKEW and term structure all come from the same options market — when they move together that's one opinion, not four confirmations. The independent channels are what make a signal real.</span>
       <span>Internal desk reference. Orientation, not trade instruction.</span>
       <div class="sig">
         <span>VIOLET — Volatility &amp; Term Structure</span>
-        <span>Framework v4.1.3</span>
-        <span>Repo snapshot refreshed 2026-10-14; hosted publication pending</span>
+        <span>Framework v4.1.4</span>
+        <span>Repo snapshot refreshed 2026-10-19; hosted publication unverified</span>
       </div>
     </footer>
 

@@ -1,13 +1,11 @@
 # VIOLET CALENDAR
 
-UpdatedOctober14,2026; canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Fired CPI/holiday removed from forward state; official SKEW checkpoint retained until publication. No new catalyst or threshold.
+Updated October19,2026; canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). OfficialOctober14SKEW recovered; RED already graded FT10. Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Oct 14 (Wed)|RED-FT-10 earliest-fire bar|LOW|3 qualifying official bars through October 13;October14absent at16:27ETpublisher recheck. Grade when dated official bar exists; RED owns grade.|
-|Oct 15 (Thu)|September PPI (08:30 ET)|LOW|Macro context; CARL/HENRY substance.|
 |Oct 21 (Wed)|VIX October expiration AM SOQ|MEDIUM|Record contract pair; roll-adjusted helper switches inside DTE<5.|
 |Oct 28 (Wed)|FOMC decisionOct27–28, noSEP|HIGH|Existing event; HENRY policy-path owner.|
 |Nov 18 (Wed)|VIX November expiration AM SOQ|MEDIUM|Existing dated expiry.|
@@ -15,7 +13,10 @@ UpdatedOctober14,2026; canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv).
 
 ## RESOLVED — fired catalysts and their grades
 
-- **October 14 08:30 ET September CPI:** releasedBLS; pre-CPI alert event window ended. Actual priorWQ418decisionPASSED/no trade, not pending. [Post-CPI assessment](research/2026-10-14_post-CPI/REPORT.md). OfficialOctober14 SKEWgrade remains separate and pending publication.
+- **October14SKEW:** official157.30 completes4/4; RED graded FIRING. October15/16final160.45/168.59extend same run, no second fire. Observation obligation behindL667complete; publication hour unassumed.
+- **October15PPI /October16funding/CFTC:** BOND owns post-PPI rates; LIQUID LIQ07RESOLVED S2. CFTC October13report recoveredOctober19, original release vintage unverified. [Follow-through](research/2026-10-19_official-followthrough/REPORT.md).
+
+- **October 14 08:30 ET September CPI:** releasedBLS; pre-CPI alert event window ended. Actual priorWQ418decisionPASSED/no trade, not pending. [Post-CPI assessment](research/2026-10-14_post-CPI/REPORT.md). OfficialOctober14 SKEWgrade subsequently recorded byRED; seeOctober19follow-through.
 - **October 12 Columbus Day:** equity/options session confirmed by official Cboe bar; do not remove that observation from the SKEW count. ICE holiday rows are dated publications, not fresh cash-credit witnesses.
 
 - **October 7 close — Q2 transmission-test window (DOCKET L477):** **CLOSED, NOT FIRED.** CBOE SETTLE 9/24–10/07: VIX3M/VIX min 1.1242 (9/30), VVIX max 92.01 (10/01) — neither leg near `≤1.00 AND >120`. Disconfirmer (b) met (VVIX 82.59 / 83.18 on 10/06–10/07 with MOVE 105.20 / 102.56). Graded late on 10/10 (VIOLET dark). → KB-VIO-323.

@@ -9,6 +9,16 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## October19,2026 — WQ410 first-tell retirement
+
+**Trigger:** Will's committed October15 WQ410 APPROVE, read October19.
+**What changed:** removed COR1M>=8.43×2 from SIGNAL_INTAKE's active table; retained a retirement pointer and original history. Context series continues. No successor, tool or numerical replacement.
+**Files touched:** SIGNAL_INTAKE.md; KB/STATUS/thesis and dated follow-through evidence. Ordinary market-data refreshes are not structural changes.
+**Boot-impact:** no new stage; WALTER subscription no longer treats this retired line as an alert.
+**Lessons:** an approved retirement needs an owner encode; a pending-approval phrase must expire on receipt of the ruling.
+
+---
+
 ## October14,2026 — accuracy sweep and daily-basis source repair
 
 **Trigger:** Will asked whether VIOLET files were current and accurate and requested a sweep.

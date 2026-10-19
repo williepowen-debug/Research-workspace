@@ -1,0 +1,44 @@
+{
+  "AGENTS/LIQUID/analysis/2026-10-19_L746-published-close.md": {
+    "capture": "AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-LIQUID-2026-10-19_L746-published-close.md",
+    "read_at": "2026-10-19T21:33:15.531971+00:00",
+    "sha256": "02e4f60f42ac756bf8be542384db3198cea3bf9529eb6e1bc2dc8c2c563f7816",
+    "git_commit": "565f1561364a84c599a3f55592eaf691b00939cd"
+  },
+  "AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md": {
+    "capture": "AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-LIQUID-REPORT.md",
+    "read_at": "2026-10-19T21:33:15.531971+00:00",
+    "sha256": "11ee2e2ca07b87747f6acc95e36264de840c4d8d1ae64bcd64caf83ba29c9de8",
+    "git_commit": "9db84090f7942d03d2035fd2e5f8acbd0db95d81"
+  },
+  "AGENTS/LIQUID/analysis/2026-10-16_L721-four-legs.md": {
+    "capture": "AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-LIQUID-2026-10-16_L721-four-legs.md",
+    "read_at": "2026-10-19T21:33:15.531971+00:00",
+    "sha256": "5b55d5200e2f9d272740f9045250d824bbfc2aed9dad1cffcdc19a8220829b88",
+    "git_commit": "5d0be8aaf2fc4e63b707e00fb4997ab953a67052"
+  },
+  "AGENTS/BOND/NEXUS_BRIEF.md": {
+    "capture": "AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-BOND-NEXUS_BRIEF.md",
+    "read_at": "2026-10-19T21:33:15.531971+00:00",
+    "sha256": "5e812d33184cc6ac9fd70281cf859fd10b819d9919eab56479482cf394d5efbc",
+    "git_commit": "cada759e1a3bcbd0945c88934f6b18b2fadf4a75"
+  },
+  "AGENTS/HENRY/NEXUS_BRIEF.md": {
+    "capture": "AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-HENRY-NEXUS_BRIEF.md",
+    "read_at": "2026-10-19T21:33:15.531971+00:00",
+    "sha256": "2f2ff9e97f65c246a5174801415e5e4c9cc73cf7487028e0c0008cd805854f62",
+    "git_commit": "046ee4763995af0e61992e170941ee062fff1118"
+  },
+  "AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv": {
+    "capture": "AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-RED-FALSIFICATION_TRIGGERS.tsv",
+    "read_at": "2026-10-19T21:33:15.531971+00:00",
+    "sha256": "9e24d1d0a1540f80f6a09fe4722f453d536ca4b28c72c0a8ab4fbdf9778c336f",
+    "git_commit": "47b622ddf561389ba31435910aedec7b255c60a2"
+  },
+  "PROME/proposals/2026-10-15_deck-batch-16-RULED.md": {
+    "capture": "AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-proposals-2026-10-15_deck-batch-16-RULED.md",
+    "read_at": "2026-10-19T21:33:15.531971+00:00",
+    "sha256": "dfe56a2642a2f498d46e39ffb8e9a69c0f1560478162fb14ed3cac8ac5df3536",
+    "git_commit": "a5bccb84b36880b52be340851958844f4337a0c0"
+  }
+}

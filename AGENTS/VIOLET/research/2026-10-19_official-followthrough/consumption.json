@@ -1,0 +1,144 @@
+{
+  "read_and_integrated": [
+    {
+      "signal_id": "SIG-W-20261014-015",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261014-015.md",
+      "disposition": "noted",
+      "sha256": "9310430bfed09ee53a98997b44c2daf1b38a65f48009fca5e67f0eda4d82242d"
+    },
+    {
+      "signal_id": "SIG-W-20261014-018",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261014-018.md",
+      "disposition": "noted",
+      "sha256": "03d5baf5100db2ad37a151a144216060d9bdd51e27fb95676eaf85845a8c529b"
+    },
+    {
+      "signal_id": "SIG-W-20261014-020",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261014-020.md",
+      "disposition": "noted",
+      "sha256": "a59e0d1a28f6191b8683a7bd06a7634c8dac825515e5a5e25e67e0b426cfac11"
+    },
+    {
+      "signal_id": "SIG-W-20261014-034",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261014-034.md",
+      "disposition": "acted",
+      "sha256": "9f44e7b438232107d21cd3cf48324b2ebd2c402b483256fe9e1229825044b3b7"
+    },
+    {
+      "signal_id": "SIG-W-20261015-002",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261015-002-handoff.md",
+      "disposition": "noted",
+      "sha256": "ee669981b8840cb60bbe4d46d2503ee7947add7efb0e3a79b23d093a37254105"
+    },
+    {
+      "signal_id": "SIG-W-20261015-005",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261015-005-handoff.md",
+      "disposition": "acted",
+      "sha256": "a317ff930621a0f4623bf77898451e96bbfdca899caae23e66a8e74f2ba1d37c"
+    },
+    {
+      "signal_id": "SIG-W-20261015-014",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261015-014-handoff.md",
+      "disposition": "noted",
+      "sha256": "582f2b0adec928bff3c01fc95a7e80016f3423b164a61b1475780d77f1c2b631"
+    },
+    {
+      "signal_id": "SIG-W-20261015-017",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261015-017-handoff.md",
+      "disposition": "noted",
+      "sha256": "f1540d0f0f31f2dc5301c68f2cf8073b35fbfab67c713be5eaa06bbfd43cd758"
+    },
+    {
+      "signal_id": "SIG-W-20261015-021",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261015-021-handoff.md",
+      "disposition": "noted",
+      "sha256": "dda4a1148de23ec5cf9e42c3d2733bdb667fc977d30808ff90a1c56b74f2fa3a"
+    },
+    {
+      "signal_id": "SIG-W-20261015-023",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261015-023-handoff.md",
+      "disposition": "acted",
+      "sha256": "0846bc1c5063a0ce1c2cf34378aff94f4282ddf34447614cd3bf65cb53d0d375"
+    },
+    {
+      "signal_id": "SIG-W-20261016-005",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261016-005-handoff.md",
+      "disposition": "noted",
+      "sha256": "6420eff1d5f3432c73a8f88e79dd0e0f418f9e7361b7d5cbb33656301e1846d5"
+    },
+    {
+      "signal_id": "SIG-W-20261016-017",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261016-017.md",
+      "disposition": "noted",
+      "sha256": "9dd524f5cbe3b8b275cae73042046ac51d61fd81b031d6e9656e27866afe0d1b"
+    },
+    {
+      "signal_id": "SIG-W-20261016-027",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261016-027.md",
+      "disposition": "acted",
+      "sha256": "01cb8705e7eb061ebce486035182a0401d100d7778d9b3657c87251a18451cfe"
+    },
+    {
+      "signal_id": "SIG-W-20261016-028",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261016-028.md",
+      "disposition": "acted",
+      "sha256": "6a43340f70cd9b5a5d14e23a6b1cae6b21984a20711b31c6468960c6f9da3673"
+    },
+    {
+      "signal_id": "SIG-W-20261016-034",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261016-034.md",
+      "disposition": "acted",
+      "sha256": "d26d8e11903e52348b0479052b05cda05b954c4b8931c1650ce19ca1a603f915"
+    },
+    {
+      "signal_id": "SIG-W-20261016-037",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261016-037.md",
+      "disposition": "acted",
+      "sha256": "b2a566359d98f57dff65b5936469e59f8b18a9c0b49c6dc99da9e59016abdac0"
+    },
+    {
+      "signal_id": "SIG-W-20261019-003",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-003.md",
+      "disposition": "acted",
+      "sha256": "2d47618240ac55d0ddd615c9e15b6b0f33710f49e9d0801872335076d4d19d35"
+    },
+    {
+      "signal_id": "SIG-W-20261019-010",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-010.md",
+      "disposition": "noted",
+      "sha256": "0ab29f62c0cf57e783fe74e2565d0a12629b324502b46a04e817710a291eb76a"
+    },
+    {
+      "signal_id": "SIG-W-20261019-011",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-011.md",
+      "disposition": "acted",
+      "sha256": "e4025a37bb572ac612872faa7b55329aabfd6e0e18fec3610b1f6cfc31c984f1"
+    },
+    {
+      "signal_id": "SIG-W-20261019-015",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-015.md",
+      "disposition": "noted",
+      "sha256": "488edfb7750e52145e8412f3db9b59b84e45e4f0fd1df2ef34a6c9644648f10a"
+    },
+    {
+      "signal_id": "SIG-W-20261019-016",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-016.md",
+      "disposition": "noted",
+      "sha256": "279c608e1107f7defae742cd0e89d02571be3ede3d49d107c13be3ef4712efb8"
+    },
+    {
+      "signal_id": "SIG-W-20261019-017",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-017.md",
+      "disposition": "acted",
+      "sha256": "9c049735b041161610d7edf7a26afbcc85d5a6943ebebb93ea2eb3ff69a0e766"
+    },
+    {
+      "signal_id": "SIG-W-20261019-018",
+      "file": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-018.md",
+      "disposition": "noted",
+      "sha256": "ef2bc5eb7b99a52b33d3dcc085cd75b659d485d2bb9f43d44db868a9dcaf0bac"
+    }
+  ],
+  "filing": "AFTER canonical integration commit",
+  "count": 23
+}

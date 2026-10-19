@@ -1,0 +1,8 @@
+CHEAP-TAIL [2026-10-16]: ⚪ DORMANT (2/4) · VIX 19.99 · VVIX 109.91 · SKEW 168.59 · nearest HIGH/MED catalyst 5d (VIX October expiration (monthly; AM SOQ))
+    ⬜ L1 VVIX cheap: VVIX 109.91 (p85.1) > 90.0
+    ⬜ L2 VIX complacency: VIX 19.99 (p65.4) > 16.0
+    ✅ L3 SKEW divergence: SKEW 168.59 (p99.5) >= 140.0
+    ✅ L4 event-boxed: nearest HIGH/MED catalyst 5d (VIX October expiration (monthly; AM SOQ)) <= 21d
+  HISTORICAL ONLY: this observation does not establish a live opportunity. No construction request.
+  ⚪ DORMANT — cheap-tail window closed. Lines: VVIX<=90.0 · VIX<=16.0 · SKEW>=140.0 · catalyst<=21d.
+  ✓ appended 2026-10-16 row to workbook/CHEAP_TAIL.tsv

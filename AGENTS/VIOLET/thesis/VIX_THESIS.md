@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.3 — prediction7 evidence correction, 2026-10-14; v4.1.2 transmission and registered gate constraints preserved)
+# VIX THESIS (v4.1.4 — WQ410 approved first-tell retirement recorded, 2026-10-19; existing transmission conditions preserved)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -17,6 +17,8 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ---
 
 ## CHANGELOG
+
+**v4.1.4 (2026-10-19):** WQ410 APPROVE retirement of COR1M>=8.43×2 first-tell enacted from Will's October15 committed tap. No successor; correlation remains context. RED retains FT10 ownership. Friday's nine-day/futures inversions do not substitute for the standing three-month cash or VVIX daily lines. No other threshold or trade permission changed. Dated evidence: `../research/2026-10-19_official-followthrough/REPORT.md`; KB337..343.
 
 **v4.1.3 (2026-10-14):** September prediction7 is closed for live use. Timing and fixed-spot arithmetic reproduce; the actual-flat-spot condition did not occur, so KB220's clean full-letter HIT is withheld. The original HENRY calculation is expressly a counterfactual. Current SKEW interpretation is relative tail pricing, not absolute put premium, net flow or physical crash odds; old KB108rotation attribution is historical/unvalidated. Registered lines and post-CPI WATCH unchanged. Full correction: CHANGELOG.md and KB334.
 
