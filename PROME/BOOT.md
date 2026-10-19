@@ -2,53 +2,44 @@
 
 **Owner:** PROME · **Updated:** 2026-10-16 12:5x ET (boot rewiring — ruling `PROME/proposals/2026-10-16_boot-rewiring-RULED.md`: execution order · GATES wording · HEARTBEAT scope · bounded-read rule · delta brief · one price pull · slate rule; plan read HOLD→fixed, result read recorded there). Prior stamps → `archive/BOOT_STAMP_CHAIN_2026-10-16.md`; this line keeps the latest and at most ONE prior.
 
-**Goal:** become operational fast.
-
 **Helm RETIRED (WQ-461, 2026-10-19).** No routine dashboard generation, presentation upkeep, hosted reads or publication. Historical BRIEF/HANDBOOK/HTML and change-feed records are frozen; use canonical owner records and the direct conversation. The boot book line, WALTER intake and decision checks remain active. Authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`.
 
 **Decision Deck PAUSED BY WILL (WQ-460, 2026-10-19).** Deck-specific pickup, upkeep, builds and publication are suspended until explicit resume and reconciliation. Decisions continue in chat + WILL_QUEUE; WALTER intake still runs at step 3b. Scope: `PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`. The hosted page has not been disabled; unseen taps remain UNKNOWN.
 
-**Auto-loaded context (Claude Code):** root/local/user-level `CLAUDE.md` and auto-memory `MEMORY.md`; re-read only for drift. `USER.md` must be explicitly read, subject only to the retained-context exception (`PROME/BOOT_MODULES.md` § Repeat boot); `AGENTS.md` is on-demand for roster/routing. Neither is auto-loaded. `SOUL.md` / `IDENTITY.md` do not exist.
+**Context loading:** `PROME/CLAUDE.md` Boot Sequence step 1 governs confirmed injection. Explicitly read `USER.md`; retained-context reuse is decided by `PROME/BOOT_MODULES.md` § Repeat boot. `AGENTS.md` is on-demand for roster/routing.
 
 On a runtime without confirmed context injection, explicitly read root `CLAUDE.md`, `PROME/CLAUDE.md` and `USER.md`. Do not assume Claude hooks ran. The gate defaults to `--charter-mode explicit`, assessing both charters in addition to declared reads. Only confirmed injection permits `--charter-mode injected`; pass the mode through `boot_session.py` (also on refresh). Saved verdicts retain their original coverage, never re-grade on retry. Standalone `scripts/read_cap_check.py --agent PROME --require-manifest --charter-mode explicit` checks that perimeter without a boot.
-
-> **HEARTBEAT.md must be explicitly read at boot.** PROME owns this regime memo; domain agents do not read it. Trust map: `PROME/SYSTEM.md` → Boot Trust Stack.
 
 ---
 
 ## Non-Negotiables
 
-- **Repo state first:** run `git status --short` + ahead/behind before pull/rebase.
-- **No broad git operations:** never `git add .`, `git add -A`, `git reset HEAD`, force-push, or stash/reset unknown work.
-- **Pull only if safe:** safe = clean working tree, no staged files, no known concurrent-agent risk. If dirty/untracked, read local continuity first and ask/triage; do not force sync just to boot.
-- **Prices:** run `FORGE/tools/market-data/dashboard.py` or `fetch.py` before citing current levels.
-- **Weekend / repeated-respawn rule:** on weekends or market holidays, `HEARTBEAT.md` may be used as regime orientation, but do **not** describe its levels as fresh. Say “last HEARTBEAT/Fri close” or refresh with dashboard/FRED before making a market claim. Repeated same-day Prome respawns should not rewrite `HEARTBEAT.md` or churn other state files for hygiene alone — only when a real market/system event or user decision changed.
-- **FRED citation convention:** cite observation dates, e.g. `HY OAS 280bps [FRED 5/20 close]`.
+- **Repeated same-day respawns:** do not rewrite HEARTBEAT or churn state for hygiene alone; require a real market/system event or user decision.
+- **FRED citations:** name observation dates, not retrieval dates.
+- Root `CLAUDE.md` Critical Rules #4/#5, position-truth canon and Git Protocol bind; PROME/CLAUDE.md Ask-First governs external sends and shared/root edits. Use live prices and the broker book at trade fire-time; FORGE is a stale mirror, never execution authority.
+- **No trade execution.**
 - **No agent edits** unless Will explicitly approves.
-- **No trade execution.** Trade rails are verification-required at every fire-time — root rule #4 (live prices, never STATUS marks) **plus** root position-truth canon (live broker book; FORGE is the stale mirror).
-- **External/public sends require approval.**
-- **Push auto at closeout:** ff-gated `scripts/safe-push.sh`, no per-push ask for own PROME work; shared/root docs need Will scope/approval. Non-ff is routine, never force; recovery/escalation → root Git Protocol.
 - **Shared repo coordination:** when another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
-- **Multi-agent orchestration:** before spawning more than one agent, apply the substantive mode-split rule in `PROME/ORCHESTRATION_PLAYBOOK.md` and select the available mechanism from its Runtime mechanics section. Carry the shared delivery contract from `PROME/COMPLETION_SPEC.md` into each spawn brief. Launch preflight and authority remain governed by `PROME/CLAUDE.md`.
+- **Multi-agent orchestration:** before spawning more than one agent, apply `PROME/ORCHESTRATION_PLAYBOOK.md`'s substantive mode split and Runtime mechanics. Each brief carries `PROME/COMPLETION_SPEC.md`; launch preflight and authority remain in `PROME/CLAUDE.md`.
 
 ---
 
 ## Doc Ownership
 
-Ownership/trust map: `PROME/SYSTEM.md` → **Boot Trust Stack**. Facts live at their owner; everything else is on-demand.
+`PROME/SYSTEM.md` → **Boot Trust Stack** owns the trust map.
 
 ---
 
 ## Boot Sequence
 
-**Bounded reads:** from repo root, use `python3 PROME/tools/boot_read.py <path>` for one document page per tool output. Follow each `next_offset` using `--offset <next_offset> --sha256 <sha256>` until `eof: true`; a changed-source refusal means restart that document. Truncated output is an incomplete read, never evidence of EOF. The manual's selected sections still determine read scope. **Every mandatory document read (steps 1–5) goes through the bounded reader, one document per call (ruling 2026-10-16, A4): never concatenate two documents into one command; a harness-persisted or truncated output is not a read beyond the text that reached context; a read not completed to `eof: true` is reported SKIPPED at step 8.**
+**Bounded reads (ruling 2026-10-16, A4):** every mandatory document read in steps1–5 uses `python3 PROME/tools/boot_read.py <path>` from repo root, one page per tool output and one document per call. Follow `next_offset` with `--offset <next_offset> --sha256 <sha256>` until `eof: true`; a changed-source refusal means restart that document. The manual's selected sections still determine scope. Never concatenate documents; truncated or harness-persisted output is incomplete beyond text received. Any read not completed to `eof: true` is SKIPPED at step8.
 
 **Repeat boot** — before reusing ANY earlier read in retained context, or on `--refresh`: `PROME/BOOT_MODULES.md` § Repeat boot decides eligibility (acknowledged reads, read-state IDs, invalidation, refresh of a completed original).
 
-**Execution order (ruling 2026-10-16, B1):** the step numbers below are stable citations (READS.tsv, the symmetry table and `/boot` cite them) and are NOT the running order. Run: **0 → 1 → 2 → 3 → 4 (STATUS — its § Restrictions are read BEFORE any gate-driven act; CATO 10/16, correction 4) → step 5's ⚡ ONE-SHOT GATE bullet → 3b → the rest of step 5 in full (HEARTBEAT read · weekend rule · the one dashboard pull · the five-verdict reading rules · 5b) → 4b → 6 → 7 → 8 → 9.** The gate moves ahead of HEARTBEAT and the fleet memories so that the reads after it are targeted; every active step is still run. Deck duties explicitly suspended by WQ-460 are reported PAUSED BY WILL, not SKIPPED; any other mandatory step not run is reported SKIPPED under step 8. `/boot` (`PROME/.claude/skills/boot/SKILL.md`) is the runner of this order; on any conflict between the runner and this paragraph, this manual wins and the runner is fixed.
+**Execution order (ruling 2026-10-16, B1):** step numbers are stable citations, not running order. Run **0 → 1 → 2 → 3 → 4 (STATUS restrictions before any gate-driven act) → step5’s ⚡ ONE-SHOT GATE → 3b → rest of step5 in full (HEARTBEAT · weekend rule · one dashboard pull · five-verdict rules · 5b) → 4b → 6 → 7 → 8 → 9.** Run every active step; WQ460 Deck duties are PAUSED BY WILL, other omitted mandatory steps are SKIPPED under step8. The `/boot` runner (`PROME/.claude/skills/boot/SKILL.md`) follows this order; this manual wins any conflict and the runner must be fixed.
 
 0. **Check repo state (and take the clock):**
-   At the opening report, apply the runtime selection sequence in `PROME/COMPLETION_SPEC.md` and disclose actual discovery, execution, messaging and closeout capabilities; private Artifact ruling access is PAUSED BY WILL (WQ-460), with no Deck-specific probe required using AVAILABLE / UNAVAILABLE / UNKNOWN. Cite this session's tool evidence and discovery coverage; a shell probe cannot establish connector availability. Record gaps and dependent skipped steps in the existing boot receipt, and recheck at use. Apply the capability-specific consequences in `PROME/ORCHESTRATION_PLAYBOOK.md` § Runtime mechanics and canonical launch preflight in `PROME/CLAUDE.md`. Thread-local helpers do not establish fleet presence. Credential presence remains distinct from authentication.
+   At the opening report, read and execute `PROME/BOOT_MODULES.md` § Runtime disclosure in full. It retains the capability evidence, coverage and unavailable-control requirements; it is mandatory on every boot.
    Use the prompt hook's `NOW: <day> <date> <time> ET` as clock (`PROME/.claude/settings.json`), never narrative. Without it, run `date` before any timestamp.
    The SessionStart banner (`scripts/session_banner.sh`, local settings wiring) reports fetch, ahead/behind, dirty tree and env_doctor. No banner ⇒ flag to Will and run these checks manually; otherwise confirm them. Subdirectory hooks need local wiring.
    ```bash

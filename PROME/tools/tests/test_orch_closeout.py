@@ -177,6 +177,117 @@ class CloseoutTests(unittest.TestCase):
             self.assertEqual(run.call_args.args[0], gate.ADVISE)
             self.assertIn('PROME/tools/orch_closeout.py', run.call_args.args[2])
 
+    def event(self, original, state='ASKED_RECEIPT', touch='2-RESOLUTION', **updates):
+        event = row(desk=original[1], touch=touch, state=state)
+        source = json.loads(original[8].split(oc.MARKER)[1])
+        data = json.loads(event[8].split(oc.MARKER)[1])
+        data.update(session_id=source['session_id'], resolves=[oc.touch_key(original)],
+                    touch_at='2026-09-16T11:00:00-04:00', observed_at='2026-09-16T12:00:00-04:00')
+        data.update(updates)
+        event[8] = oc.MARKER + json.dumps(data)
+        return event
+
+    def test_explicit_receipt_reconciles_original_without_mutating_ledger(self):
+        original = row(state='UNKNOWN')
+        self.write([original, self.event(original)])
+        before = self.path.read_bytes()
+        result, issues = oc.evaluate(self.path, DAY, [oc.touch_key(original)], True, NOW)
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]['key'], oc.touch_key(original))
+        self.assertEqual(result[0]['state'], 'ASKED_RECEIPT')
+        self.assertEqual(issues, [])
+        self.assertEqual(self.path.read_bytes(), before)
+
+    def test_link_never_closes_another_session_same_desk(self):
+        original = row(state='UNKNOWN')
+        event = self.event(original, session_id='another-session')
+        result, issues = self.evaluate([original, event])
+        self.assertEqual(result[0]['state'], 'UNKNOWN')
+        self.assertTrue(any('identity mismatch' in i for i in issues))
+
+    def test_missing_identity_or_target_and_future_or_earlier_event_fail(self):
+        for changes in ({'session_id': ''}, {'resolves': ['f' * 64]},
+                        {'observed_at': '2026-09-16T09:00:00-04:00'},
+                        {'observed_at': '2099-09-16T12:00:00-04:00'}, {'owner': 'WILL'}):
+            original = row(state='UNKNOWN')
+            result, issues = self.evaluate([original, self.event(original, **changes)])
+            self.assertEqual(result[0]['state'], 'UNKNOWN')
+            self.assertTrue(issues)
+
+    def test_working_correction_is_not_hidden_by_earlier_terminal_receipt(self):
+        original = row(state='UNKNOWN')
+        complete = self.event(original)
+        working = self.event(original, state='ASKED_WORKING', touch='3-CORRECTION',
+                             observed_at='2026-09-16T12:30:00-04:00')
+        self.write([original, complete, working])
+        result, issues = oc.evaluate(self.path, DAY, [oc.touch_key(original)], True, NOW)
+        self.assertEqual([r['state'] for r in result], ['ASKED_WORKING'])
+        self.assertEqual(issues, [])
+        self.assertEqual(len(result[0]['events']), 2)
+
+    def test_older_correction_cannot_overwrite_later_evidence(self):
+        original = row(state='UNKNOWN')
+        complete = self.event(original)
+        older = self.event(original, touch='3-STALE', observed_at='2026-09-16T11:30:00-04:00')
+        _, issues = self.evaluate([original, complete, older])
+        self.assertTrue(any('out-of-order' in i for i in issues))
+
+    def test_reader_equal_observation_cannot_overwrite_working(self):
+        original = row(state='UNKNOWN')
+        working = self.event(original, state='ASKED_WORKING', touch='2-WORKING',
+                             touch_at='2026-09-16T11:30:00-04:00')
+        stale = self.event(original, touch='3-STALE')
+        result, issues = self.evaluate([original, working, stale])
+        self.assertEqual(result[0]['state'], 'ASKED_WORKING')
+        self.assertTrue(any('ambiguous tied' in i for i in issues))
+
+    def test_reader_inventory_must_follow_launch_and_keep_completed_overnight_helper(self):
+        original = row(state='ASKED_WORKING')
+        self.write([original])
+        inv = {'complete': True, 'session_ids': ['runtime/session-1'],
+               'expected_keys': [oc.touch_key(original)], 'observed_at': '2026-09-16T09:00:00-04:00',
+               'evidence': 'Runtime enumeration'}
+        _, issues = oc.evaluate(self.path, DAY, now=NOW, session_inventory=inv)
+        self.assertTrue(any('predates' in i for i in issues))
+        original = self.prior_row('UNKNOWN')
+        self.write([original, self.event(original)])
+        inv.update(session_ids=['overnight-helper'], expected_keys=[oc.touch_key(original)],
+                   observed_at=NOW.isoformat())
+        result, issues = oc.evaluate(self.path, DAY, now=NOW, session_inventory=inv)
+        self.assertEqual(issues, [])
+        self.assertEqual([(r['key'], r['state'], r['population']) for r in result],
+                         [(oc.touch_key(original), 'ASKED_RECEIPT', 'current')])
+
+    def test_old_prose_identity_is_not_invented_by_resolution(self):
+        original = row(state='UNKNOWN'); event = self.event(original)
+        original[8] = 'Old unstructured launch. No session identity.'
+        result, issues = self.evaluate([original, event])
+        self.assertEqual(result[0]['state'], 'UNKNOWN')
+        self.assertTrue(issues)
+
+    def test_current_inventory_does_not_relabel_historical_debt(self):
+        old = self.prior_row('UNKNOWN'); current = row()
+        self.write([old, current])
+        inv = {'complete': True, 'session_ids': ['runtime/session-1'],
+               'expected_keys': [oc.touch_key(current)], 'observed_at': NOW.isoformat(),
+               'evidence': 'Native runtime enumeration of this coordinator thread'}
+        result, issues = oc.evaluate(self.path, DAY, now=NOW, session_inventory=inv)
+        self.assertEqual(issues, [])
+        self.assertEqual(result[0]['state'], 'UNKNOWN')
+        self.assertEqual(result[0]['population'], 'outside-inventory')
+        self.assertEqual(result[1]['population'], 'current')
+        inv['session_ids'].append('missing-native-helper')
+        _, issues = oc.evaluate(self.path, DAY, now=NOW, session_inventory=inv)
+        self.assertTrue(any('missing-native-helper' in i for i in issues))
+
+    def test_inventory_without_evidence_or_stale_observation_refuses(self):
+        self.write([row()])
+        inv = {'complete': True, 'session_ids': ['runtime/session-1'],
+               'expected_keys': [oc.touch_key(row())], 'observed_at': NOW.isoformat()}
+        with self.assertRaises(ValueError): oc.evaluate(self.path, DAY, now=NOW, session_inventory=inv)
+        inv.update(evidence='runtime observation', observed_at='2026-09-15T12:00:00-04:00')
+        with self.assertRaises(ValueError): oc.evaluate(self.path, DAY, now=NOW, session_inventory=inv)
+
 
 if __name__ == '__main__':
     unittest.main()

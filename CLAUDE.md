@@ -97,23 +97,9 @@ Agents share one working directory and branch. **GitHub is the single source of 
 2. **Auto-push** via `scripts/safe-push.sh`. The receipt is the line `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` — a log tail or a bare `Pushed.` is not a receipt.
 3. **If safe-push aborts (non-ff), do NOT force.** A non-ff means another SESSION pushed since this clone last fetched — usually a concurrent agent on the SAME box; it is a property of the commit graph, not of file paths, so separate directories cannot prevent it. Recovery: `git pull --rebase --autostash` then re-push — **first check that incoming commits don't touch any dirty path**: `git fetch origin && git diff --name-only "$(git merge-base HEAD origin/master)..origin/master"` against `git status --porcelain` — any overlap ⇒ stop and flag to PROME (the autostash stashes the whole dirty tree, other agents' work included). Rebase rewrites unpushed commit hashes — verify by subject if a hash goes missing. **Escalate to Will only if** the rebase conflicts outside your own dir or non-ff persists through a completed rebase→re-push cycle; bare recurrence is ordinary traffic.
 
-**Before committing** (pathspec pattern — avoids the shared-`.git/index` race):
-0. **Run ALL git operations from the repo root:** `cd "$(git rev-parse --show-toplevel)"`. From an agent dir, `git status -- AGENTS/<NAME>/` silently shows nothing — a false-clean check.
-1. **Modified files:** `git commit AGENTS/<YOUR_NAME>/<file> -m "..."` — path-scoped, no separate staging.
-2. **New untracked files:** `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, **never `git add AGENTS/<YOUR_NAME>/` as a directory** (`git add A B C` is atomic: one bad path stages nothing, and in an &&-chain the exit code is the only tell).
-3. Optional: `git diff --cached --stat` between add and commit.
-4. **Never `git reset HEAD`** — shared index; it is a global unstage.
-4b. **Never `git commit --amend`** — amend rewrites whoever holds HEAD, which with concurrent sessions may not be you. A damaged message over a correct tree is documentation debt — note it in the next commit, never rewrite. Write messages via quoted heredoc to a file (`cat > /tmp/msg.txt <<'EOF'` … `git commit -F /tmp/msg.txt`) so nothing shell-expands.
-4c. **A commit with no pathspec commits WHATEVER THE SHARED INDEX HOLDS** — another session's staged renames included — and `git commit --allow-empty -m "..."` is the dangerous form because it *succeeds either way*, so a "note-only" marker silently sweeps the index. For a marker commit, name a clean tracked path you own: `git commit --allow-empty -F /tmp/msg.txt -- AGENTS/<YOUR_NAME>/STATUS.md` (only that path's changes, if any, are committed). Fallback only: confirm `git diff --cached --name-only` prints nothing immediately before committing — it is check-then-act on a shared index, so prefer the pathspec. *(WQ-96, Will 2026-09-01; cold-read verified empirically.)*
-4d. **Commit SUBJECT ≤100 characters — it names the change; receipts, counts, crc figures and provenance go in the BODY** (the heredoc message file of 4b). Path-scoped small commits stay exactly as they are; only the ledger leaves the subject line. *(WQ-171 ①, Will 2026-09-03.)*
-5. **Pre-commit sanity check (mandatory):** `git status -- AGENTS/<YOUR_NAME>/` — no dangling deletions (bash-`mv` residue; use `git mv`), no unstaged new files you meant to include, nothing staged outside your dir.
+**Before committing** (mandatory for every commit): read and execute `docs/GIT_WORKTREE_PROCEDURES.md` § Before committing in full. It is the canonical continuation of this Git Protocol, including exact pathspecs, shared-index safeguards and message rules. These requirements remain binding; this pointer changes when the recipe is read, not who may commit.
 
-**Before pulling:**
-1. `git status` — check for uncommitted changes **OUTSIDE** your directory.
-2. If other agents' directories are modified: **STOP. Do not pull.** Either flag to Will and wait, or commit your work locally, defer the push, and note the pending push in your session notes.
-3. If clean outside your files: `git stash push -- AGENTS/<YOUR_NAME>/` → `git pull --rebase` → `git stash pop`.
-4. If stash pop fails: `git stash drop` is OK **only if YOUR files are already committed.** Never drop a stash containing other agents' work.
-5. Never resolve merge conflicts in another agent's files — flag to Prome.
+**Before pulling:** read and execute `docs/GIT_WORKTREE_PROCEDURES.md` § Before pulling in full, including the dirty-owner stop and scoped-stash conditions.
 
 **Never:** force push, commit outside your directory without instruction (the carve-outs ①–④, the Scope-note grants and the Gate C custody paragraph above ARE standing instruction, each for its narrow scope only), resolve another agent's conflicts, pull when other agents have uncommitted local changes (sole exception: session-end step 3's non-ff recovery, and only after its dirty-path overlap check passes).
 

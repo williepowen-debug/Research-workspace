@@ -221,6 +221,8 @@ def mark_reviewed(note=""):
     d["verdict"] = REVIEWED
     d["reviewed_note"] = note
     d["reviewed_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    if d.get("schema") == 2:
+        d["reviewed_contract_sha256"] = d["contract_sha256"]
     f.write_text(json.dumps(d, indent=2) + "\n", encoding="utf-8")
     return 0, f"verdict REVIEWED over {len(d['paths'])} path(s)"
 
@@ -400,7 +402,7 @@ def _consumed_move_exemption(dest, origin, ref, manifest, listed, origin_sha):
                   f"declared at freeze, manifest REVIEWED (WQ-289 (b), L473)")
 
 
-def verify_review(paths=None, ref=None):
+def verify_review(paths=None, ref=None, snapshot=None):
     """Compare the CURRENT working tree against the recorded review manifest.
 
     Returns (rc, lines). rc 0 = every reviewed path is byte-identical · rc 1 =
@@ -418,6 +420,12 @@ def verify_review(paths=None, ref=None):
         reviewed = d["paths"]
     except (json.JSONDecodeError, KeyError, TypeError) as e:
         return 2, [f"CANNOT-EVALUATE: review manifest unreadable ({type(e).__name__}: {e})"]
+    if d.get("schema") == 2:
+        import argus_contract
+        return argus_contract.verify(sys.modules[__name__] if __name__ in sys.modules else
+                                     __import__(__name__), d, paths, ref, snapshot)
+    if d.get("schema") is not None or snapshot is not None:
+        return 2, ["CANNOT-EVALUATE: unsupported schema/snapshot; explicitly re-freeze a schema 2 contract"]
     cur_base = _current_baseline_sha()
     if d.get("baseline") != cur_base:
         return 2, [f"CANNOT-EVALUATE: this manifest was frozen against baseline "
@@ -687,6 +695,10 @@ def main(argv=None):
     ap.add_argument("--record-review", action="store_true",
                     help="freeze the content identity of the current scope as the REVIEWED candidate "
                          "(run immediately before the audit)")
+    ap.add_argument("--contract", type=Path, help="with --record-review: explicit schema 2 delivery/evidence/observed plan JSON")
+    ap.add_argument("--observe", type=Path, help="append attributed unrelated-version classifications; never changes the contract")
+    ap.add_argument("--observe-at", help="with --observe: classify inventory at this outgoing/fetched snapshot")
+    ap.add_argument("--snapshot", help="with --verify-review --ref: compare relevant content at this outgoing/fetched commit")
     ap.add_argument("--verify-review", action="store_true",
                     help="compare against the frozen candidate; rc 1 = content changed or an unreviewed "
                          "path is shipping, rc 2 = CANNOT-EVALUATE (no manifest / prior closeout)")
@@ -705,6 +717,26 @@ def main(argv=None):
                     help="promote FROZEN -> REVIEWED after the audit actually ran; refuses if the frozen "
                          "candidate changed")
     args = ap.parse_args(argv)
+    if args.contract and (not args.record_review or args.consumed_move):
+        ap.error("--contract requires --record-review; consumed-move exemptions remain in the legacy workflow")
+    if args.snapshot and (not args.verify_review or not args.ref):
+        ap.error("--snapshot requires --verify-review --ref")
+    if args.observe_at and not args.observe:
+        ap.error("--observe-at requires --observe")
+    if args.observe or args.contract:
+        import argus_contract
+        try:
+            sc = sys.modules[__name__]
+            if args.observe:
+                argus_contract.observe(sc, json.loads(args.observe.read_text()), args.observe_at)
+                print("ARGUS inventory classifications appended; review contract unchanged")
+            else:
+                d = argus_contract.freeze(sc, json.loads(args.contract.read_text()))
+                print(f"ARGUS contract FROZEN: {d['contract_sha256']}; {len(d['paths'])} delivered paths")
+            return 0
+        except (ValueError, KeyError, TypeError, OSError, subprocess.CalledProcessError) as exc:
+            print(f"CANNOT-EVALUATE: {exc}")
+            return 2
     if args.consumed_move and not args.record_review:
         ap.error("--consumed-move is only meaningful with --record-review (it DECLARES a move at freeze time)")
     if args.consumed_move:
@@ -723,7 +755,7 @@ def main(argv=None):
         return rc
 
     if args.verify_review:
-        rc, lines = verify_review(paths=args.paths, ref=args.ref)
+        rc, lines = verify_review(paths=args.paths, ref=args.ref, snapshot=args.snapshot)
         tag = {0: "\u2705 UNCHANGED", 1: "\U0001f534 CHANGED SINCE REVIEW", 2: "\u2753 CANNOT-EVALUATE"}[rc]
         print(f"ARGUS-REVIEW {tag}")
         for ln in lines:

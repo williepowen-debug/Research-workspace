@@ -108,18 +108,109 @@ def disposition(row, now):
         return 'UNKNOWN', str(exc)
 
 
-def evaluate(path, day, expected=(), inventory_complete=False, now=None):
-    now = now or dt.datetime.now(dt.timezone.utc)
-    results = []
-    for key, row in read_touches(path, day):
+def structured(row):
+    if row[8].count(MARKER) != 1:
+        raise ValueError('missing or duplicate structured identity')
+    data = json.loads(row[8].split(MARKER, 1)[1])
+    if not isinstance(data, dict):
+        raise ValueError('evidence must be an object')
+    return data
+
+
+def reconcile(touches, now):
+    """Resolve explicit event links only; retain each original obligation's identity.
+
+    A resolution event is evidence about the named original touch, not another
+    spawn. It may update WORKING to RECEIPT (or correct a disposition), but never
+    guesses which earlier session a desk name meant.
+    """
+    originals, issues = {}, []
+    for key, row in touches:
         state, detail = disposition(row, now)
-        if row[0] < day.isoformat() and state in ('ASKED_RECEIPT', 'ALREADY_CLOSED', 'OUT_OF_SCOPE'):
+        try:
+            data = structured(row)
+        except (ValueError, TypeError):
+            data = {}
+        targets = data.get('resolves')
+        result = {'key': key, 'date': row[0], 'desk': row[1], 'touch': row[3],
+                  'state': state, 'detail': detail, 'session_id': data.get('session_id'),
+                  'owner': data.get('owner'), 'touch_at': data.get('touch_at'), 'events': []}
+        if targets is None:
+            originals[key] = (row, data, result)
             continue
-        results.append({'key': key, 'date': row[0], 'desk': row[1], 'touch': row[3],
-                        'state': state, 'detail': detail})
-    actual = {row['key'] for row in results}
+        try:
+            if not isinstance(targets, list) or not targets or len(set(targets)) != len(targets):
+                raise ValueError('resolves must name distinct original touch keys')
+            if state == 'UNKNOWN':
+                raise ValueError(f'invalid resolution evidence: {detail}')
+            checked = []
+            for target in targets:
+                if target not in originals:
+                    raise ValueError(f'unknown/non-original target {target}')
+                original, identity, previous = originals[target]
+                if (row[1], data['owner'], data['session_id']) != (
+                        original[1], identity.get('owner'), identity.get('session_id')):
+                    raise ValueError(f'identity mismatch for {target}')
+                touched = timestamp(identity.get('touch_at'))
+                if touched.astimezone(ET).date().isoformat() != original[0]:
+                    raise ValueError(f'original timestamp/date mismatch for {target}')
+                if not touched <= timestamp(data['touch_at']) <= timestamp(data['observed_at']) <= now:
+                    raise ValueError(f'resolution predates original touch {target}')
+                last_at = previous.get('resolved_at', identity.get('observed_at'))
+                if timestamp(data['observed_at']) <= timestamp(last_at):
+                    raise ValueError(f'out-of-order or ambiguous tied correction for {target}')
+                checked.append(previous)
+            for previous in checked:
+                previous.update(state=state, detail=f'{detail} | resolution event {key}',
+                                resolved_at=data['observed_at'])
+                previous['events'].append(key)
+        except (ValueError, TypeError, KeyError) as exc:
+            issues.append(f'resolution {key}: {exc}; UNKNOWN')
+            result.update(state='UNKNOWN', detail=str(exc))
+            originals[key] = (row, data, result)
+    return [item[2] for item in originals.values()], issues
+
+
+def evaluate(path, day, expected=(), inventory_complete=False, now=None, session_inventory=None):
+    now = now or dt.datetime.now(dt.timezone.utc)
+    reconciled, issues = reconcile(read_touches(path, day), now)
+    results = [r for r in reconciled if r['date'] >= day.isoformat() or
+               r['state'] not in ('ASKED_RECEIPT', 'ALREADY_CLOSED', 'OUT_OF_SCOPE')]
+    if session_inventory is not None:
+        inv = session_inventory
+        if not isinstance(inv, dict) or inv.get('complete') is not True or not inv.get('session_ids'):
+            raise ValueError('bounded inventory requires complete=true and session_ids')
+        if (not isinstance(inv['session_ids'], list) or
+                not all(isinstance(s, str) and s.strip() for s in inv['session_ids']) or
+                len(set(inv['session_ids'])) != len(inv['session_ids'])):
+            raise ValueError('inventory session identities must be distinct nonempty strings')
+        if not isinstance(inv.get('evidence'), str) or not inv['evidence'].strip():
+            raise ValueError('inventory requires actual runtime enumeration evidence')
+        if not timestamp(inv.get('observed_at')) <= now:
+            raise ValueError('inventory observation is in the future')
+        if timestamp(inv['observed_at']).astimezone(ET).date() != day:
+            raise ValueError('inventory observation must be on selected day')
+        if not isinstance(inv.get('expected_keys'), list) or not all(
+                isinstance(k, str) and re.fullmatch('[0-9a-f]{64}', k) for k in inv['expected_keys']):
+            raise ValueError('inventory expected_keys must contain touch hashes')
+        expected, inventory_complete = inv['expected_keys'], True
+        # Keep historical debt in results. Only this explicitly bounded population
+        # participates in current-session coverage, never a global green claim.
+        current = [r for r in reconciled if r['session_id'] in inv['session_ids']]
+        for row in current:
+            if timestamp(row['touch_at']) > timestamp(inv['observed_at']):
+                issues.append(f'inventory observation predates enumerated touch: {row["key"]}; UNKNOWN')
+        current_keys = {r['key'] for r in current}
+        results = [r for r in reconciled if r in results or r['key'] in current_keys]
+        for row in results:
+            row['population'] = 'current' if row['session_id'] in inv['session_ids'] else 'outside-inventory'
+        actual = {r['key'] for r in current}
+        known_sessions = {r['session_id'] for r in current}
+        for session in set(inv['session_ids']) - known_sessions:
+            issues.append(f'known session absent from ORCH_LOG: {session}; UNKNOWN')
+    else:
+        actual = {row['key'] for row in results}
     expected = set(expected)
-    issues = []
     if not inventory_complete:
         issues.append('spawn inventory coverage UNKNOWN; ledger absence cannot prove no spawns')
     for key in sorted(expected - actual):
@@ -137,12 +228,23 @@ def main(argv=None):
     ap.add_argument('--expected-key', action='append', default=[])
     ap.add_argument('--inventory-complete', action='store_true',
                     help='attest expected keys cover selected-day touches and unresolved prior touches; not fleet liveness')
+    ap.add_argument('--session-inventory', type=Path,
+                    help='JSON: session_ids, expected_keys, observed_at, evidence, complete; historical debt stays separate')
+    ap.add_argument('--json', action='store_true')
     args = ap.parse_args(argv)
     try:
-        rows, issues = evaluate(args.ledger, args.date, args.expected_key, args.inventory_complete)
+        inv = json.loads(args.session_inventory.read_text()) if args.session_inventory else None
+        rows, issues = evaluate(args.ledger, args.date, args.expected_key, args.inventory_complete,
+                               session_inventory=inv)
     except (OSError, ValueError) as exc:
         print(f'UNKNOWN: cannot enumerate {args.ledger}: {exc}')
         return 2
+    if args.json:
+        print(json.dumps({'rows': rows, 'issues': issues,
+                          'coverage': 'bounded-session' if inv else 'ledger-with-unresolved-history',
+                          'historical_unknown': sum(r['date'] < str(args.date) and r['state'] == 'UNKNOWN' for r in rows),
+                          'limits': 'Attributed records, not receipt authentication or fleet liveness.'}, indent=2))
+        return 1 if issues or any(r['state'] == 'UNKNOWN' for r in rows) else 0
     if not rows and not issues:
         return 0
     print(f'ORCH_LOG closeout evidence — {args.date} + unresolved prior touches; attributed records, not native receipt authentication')

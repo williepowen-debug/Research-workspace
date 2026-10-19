@@ -10,7 +10,7 @@ This file is an **index in execution order**, nothing more. Every rule, threshol
 
 Commands are quoted here only where they are stable interfaces; they are copied from BOOT.md verbatim, including the repo-root `cd` (PROME launches from `PROME/`, where a bare `PROME/tools/…` path does not resolve).
 
-0. **Repo state + the clock** → BOOT.md step 0 (early runtime capability disclosure, the banner, the no-banner rule, the repo-state checks + pull-if-safe, the `NOW:` stamp).
+0. **Repo state + the clock** → BOOT.md step 0 (read `PROME/BOOT_MODULES.md` § Runtime disclosure on every boot; early runtime capability disclosure, the banner, the no-banner rule, the repo-state checks + pull-if-safe, the `NOW:` stamp).
 1. **Instructions and the current assignment** → BOOT.md context-injection paragraph, "Bounded reads" (**every mandatory document through the bounded reader, one document per call**) and the Repeat-boot pointer (eligibility, acknowledgement and invalidation live in `PROME/BOOT_MODULES.md` § Repeat boot — open it before reusing any earlier read) · `USER.md` at the repo root (per `PROME/CLAUDE.md` Boot step 1) · Will's directed task, if any.
 2. **Short live resume and restrictions** → BOOT.md steps 1–4 (`HANDOFF` → `SCRATCH` → `ACTIVE_DECISIONS` by **digest** — `python3 PROME/tools/active_decisions_digest.py`, then `--row <n>` whole for each ACTIONABLE row and any row the session touches; step 3's GATES clause names what the gate checks — GATES is not read whole → `STATUS` whole, its § Restrictions before any gate-driven act).
 3. **One-shot gate** → BOOT.md step 5 "⚡ ONE-SHOT GATE", run ONCE:

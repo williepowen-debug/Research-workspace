@@ -41,3 +41,11 @@
 
 **Domain-desk boot-protocol patterns (read when hardening a desk's boot/closeout, not every boot):** read the corresponding `memory/auto/` lessons: `finding_boot_protocol_live_event_override.md`, `finding_boot_predictions_scan.md`, `finding_boot_closeout_hardening_recipe.md`, `finding_boot_py_cadence_skip_pattern.md`. DAEDALUS owns the blueprint class.
 
+
+---
+
+## Runtime disclosure
+
+Mandatory at BOOT.md step 0 on every boot.
+
+At the opening report, apply the runtime selection sequence in `PROME/COMPLETION_SPEC.md` and disclose actual discovery, execution, messaging and closeout capabilities; private Artifact ruling access is PAUSED BY WILL (WQ-460), with no Deck-specific probe required using AVAILABLE / UNAVAILABLE / UNKNOWN. Cite this session's tool evidence and discovery coverage; a shell probe cannot establish connector availability. Record gaps and dependent skipped steps in the existing boot receipt, and recheck at use. Apply the capability-specific consequences in `PROME/ORCHESTRATION_PLAYBOOK.md` § Runtime mechanics and canonical launch preflight in `PROME/CLAUDE.md`. Thread-local helpers do not establish fleet presence. Credential presence remains distinct from authentication.
