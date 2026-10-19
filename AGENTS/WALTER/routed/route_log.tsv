@@ -1527,3 +1527,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-19T18:39:15Z	SIG-W-20261019-012	OTTO four owner packets	OTTO corrects Ally contract; warehouse-exit forecast55→25%; timing pattern withdrawn	PRIORITY	CARL,RED,NEXUS,CATO	REGINALD,LIQUID,BROCK,TERRY,PROME,OTTO	0.94
 2026-10-19T18:40:41Z	SIG-W-20261019-013	Public sources / Rule9 helper	China Q3 GDP accelerates to4.5%; investment/property remain weak	PRIORITY	ZHAO	SAM,RED,HENRY,LIQUID,BRENT,PROME,CARL	0.92
 2026-10-19T18:40:41Z	SIG-W-20261019-014	Public sources / Rule9 helper	France Monday borrowing-cost rise follows already-routed weekend unrest	IMMEDIATE	HANS,BOND	LIQUID,REGINALD,CARL,RED,PROME	0.92
+2026-10-19T19:01:41Z	SIG-W-20261019-015	Will investigation / SSGA / Yahoo / Rule9	S&P rebound narrow:315/503 down; Nasdaq100 and recent equalweight provide counterevidence	IMMEDIATE	HENRY,LIQUID	VIOLET,VULCAN,NEXUS,RED,PROME	0.93
