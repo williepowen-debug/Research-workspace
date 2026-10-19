@@ -1,0 +1,11 @@
+issuer	business	rating_observation	rating_date	source	index_qualification	daily_measure	limit
+ENVA	consumer + small business	B- issue	2024-07-29	S&P id 3221986 indexed publisher extract	UNKNOWN	reachable equity	historical rating/current index join unverified
+CVNA	auto retailer + finance	B secured / CCC+ unsecured	2025-03-13	S&P sourceId 101616201 indexed publisher extract	UNKNOWN	reachable equity	boundary name; no current tier/index join
+Cobra/Exeter	subprime auto	B- parent	2026-03-17	S&P sourceId 101675261 indexed publisher extract	UNKNOWN	none recovered	parent rating and ABS do not identify HY corporate bond
+DriveTime/Bridgecrest	subprime auto	B historical	2016-05-10	S&P sourceId 9635349 indexed publisher extract	UNKNOWN	none recovered	historical only; private equity
+WRLD	consumer lender	historical B- issuer / CCC+ notes	2025-02-20	secondary; superseded for eligibility by June2026 10Q Note12	NOT_QUALIFIED_REDEEMED_BOND	equity exists; not tested	remaining Nov2026 notes fully redeemed 2025-08-29
+OPRT	consumer lender	UNVERIFIED corporate tier		SEC March2026 10Q / Feb9 ABS release	UNKNOWN	equity exists; not tested	corporate term loan and ABS are not verified B/CCC index notes
+CRMT	buy-here-pay-here auto	UNVERIFIED corporate tier		SEC 8Ks in inventory	UNKNOWN	equity exists; not tested	warehouse relief not corporate bond qualification
+CPSS	subprime auto	UNVERIFIED corporate tier		SEC Oct13 8K	UNKNOWN	equity exists; not tested	warehouse increase not corporate bond qualification
+CACC	subprime auto	UNVERIFIED target B/CCC tier		SEC June2026 10Q; HYG Oct14	UNKNOWN	equity exists; not tested	corporate notes located; no target-tier verification
+OMF	consumer lender	BB / Ba2 / BB+	2026-06-30	SEC June2026 10Q Credit Ratings	OUTSIDE_TARGET_TIER	equity exists; not tested	issuer debt table above B/CCC; no assumed issue-tier exception

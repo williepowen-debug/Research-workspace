@@ -14,6 +14,10 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-10-19 (s030) — label the BLAST seasoning basis at the ledger
+
+**Trigger:** CARL's October 14/15 ruling (a) retains computed BLAST labels only if readers see the basis. **Changed:** added `workbook/PANEL_10D_SCHEMA.md`: BLAST is computed from two exhibit dates, not issuer-printed; EART/SDART retain issuer-printed labels. **Files:** schema only; parser and values unchanged. **Boot-impact:** no new boot step; schema travels with the ledger. **Lesson:** independent value verification does not prove every parser branch. L708 research package is this session's bounded output, not a new monitoring system.
+
 ## 2026-10-14 (s029) (e) — one to-do list; dead stubs and 27 old files archived; boot measures WINTERKORN's cadence; ledger as-made markers
 
 **Trigger:** the rest of Will's parity pass ("carry on", 22:39 ET), worked down the new to-do list while WINTERKORN ran, then WINTERKORN's own escalations.

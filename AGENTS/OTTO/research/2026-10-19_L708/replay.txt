@@ -1,0 +1,8 @@
+primary MIXED
+ENVA -0.042 +0.722 +0.703 +0.338 -0.101 -1.112 -0.353 negative-tail 1 near-zero 2
+CVNA -0.110 -0.453 -0.271 -0.393 +0.487 -0.120 +0.467 negative-tail 0 near-zero 3
+secondary MIXED
+ENVA +0.079 -0.361 -0.344 -0.076 +0.823 negative-tail 0 near-zero 2
+CVNA +0.081 -1.721 +1.737 -0.397 +0.135 negative-tail 1 near-zero 2
+fit {'ENVA': {'beta': 1.2675144440958743, 'sigma': 0.029098073983542545, 'n': 143, 'first': '2026-03-02', 'last': '2026-09-23'}, 'CVNA': {'beta': 2.0440489295156095, 'sigma': 0.03216095684054952, 'n': 143, 'first': '2026-03-02', 'last': '2026-09-23'}}
+October 13 two-day sensitivity {'ENVA': -0.3981663625723197, 'CVNA': -1.1199567648475608}

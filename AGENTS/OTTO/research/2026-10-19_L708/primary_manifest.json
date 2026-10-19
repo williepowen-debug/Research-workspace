@@ -1,0 +1,127 @@
+[
+  {
+    "name": "ENVA-latest-10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/enva-20260630.htm",
+    "bytes": 4632252,
+    "sha256": "6b2df29ef0a45ddda096c7421fba8894e611f4a65d97c61cd4520a05dc966ad6",
+    "text_chars": 174531,
+    "rating_context": []
+  },
+  {
+    "name": "WRLD-latest-10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838526000034/wrld-20260630.htm",
+    "bytes": 1696612,
+    "sha256": "f98fc3d3802e6510255bd070be6ca7b60cdd9a2443948ed161e29c0778ade3a8",
+    "text_chars": 192386,
+    "rating_context": []
+  },
+  {
+    "name": "CACC-latest-10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000182/cacc-20260630.htm",
+    "bytes": 3328828,
+    "sha256": "cc9aa06d5edefbe6a5c261ba14b8bb4db6d93c04f6b05874d69964f56c070483",
+    "text_chars": 254702,
+    "rating_context": [
+      " rate fluctuations may adversely affect our borrowing costs, profitability, and liquidity. \u2022 Reduction in our credit rating could increase the cost of our funding from, and restrict our access to, the capital markets and adversely affect our liquidity, financial condition, and results of operations. \u2022 We may incur substantially more debt and"
+    ]
+  },
+  {
+    "name": "OMF-latest-10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1584207/000158420726000031/omf-20260630.htm",
+    "bytes": 3296646,
+    "sha256": "c60fe13cd370c9689946c7f9a989505b6df000fef45e9ab0a504d04ba8b1d353",
+    "text_chars": 187329,
+    "rating_context": [
+      "ge-offs as a percentage of average net receivables RMBS residential mortgage-backed securities S&P S&P Global Ratings SEC U.S. Securities and Exchange Commission Securities Act Securities Act of 1933, as amended Segment Accounting Basis a basis used to report the operating results of our C&I segment and our Other components, which refl",
+      "quirements; \u2022 our ability to comply with all of our covenants; and \u2022 the effects of any downgrade of our debt ratings by credit rating agencies. We also direct readers to the other risks and uncertainties discussed in Part I - Item 1A. \u201cRisk Factors\u201d included in our Annual Report and in other documents we file with the SEC. If one or m",
+      " \u2022 our ability to comply with all of our covenants; and \u2022 the effects of any downgrade of our debt ratings by credit rating agencies. We also direct readers to the other risks and uncertainties discussed in Part I - Item 1A. \u201cRisk Factors\u201d included in our Annual Report and in other documents we file with the SEC. If one or more of these or o",
+      "facility, revolving conduit facilities, and credit card revolving VFN facilities. 58 Table of Contents Credit Ratings Our credit ratings impact our ability to access capital markets and our borrowing costs. Rating agencies base their ratings on numerous factors, including liquidity, capital adequacy, asset quality, quality of earnings,",
+      "volving conduit facilities, and credit card revolving VFN facilities. 58 Table of Contents Credit Ratings Our credit ratings impact our ability to access capital markets and our borrowing costs. Rating agencies base their ratings on numerous factors, including liquidity, capital adequacy, asset quality, quality of earnings, and the probabili",
+      "edit ratings impact our ability to access capital markets and our borrowing costs. Rating agencies base their ratings on numerous factors, including liquidity, capital adequacy, asset quality, quality of earnings, and the probability of systemic support. Significant changes in these factors could result in different ratings. The table ",
+      "ings, and the probability of systemic support. Significant changes in these factors could result in different ratings. The table below outlines OMFC\u2019s long-term corporate debt ratings and outlook by rating agencies: As of June 30, 2026 Rating Outlook S&P BB Stable Moody\u2019s Ba2 Stable KBRA BB+ Stable Currently, no other entity has a corp",
+      " in these factors could result in different ratings. The table below outlines OMFC\u2019s long-term corporate debt ratings and outlook by rating agencies: As of June 30, 2026 Rating Outlook S&P BB Stable Moody\u2019s Ba2 Stable KBRA BB+ Stable Currently, no other entity has a corporate debt rating, though they may be rated in the future. Stock R"
+    ]
+  },
+  {
+    "name": "ENVA-SP-20240729",
+    "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3221986",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "CVNA-SP-20250313",
+    "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101616201",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Exeter-SP-20260317",
+    "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101675261",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "DriveTime-SP-20160510",
+    "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/9635349",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ICE-FRED-CCC",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC",
+    "bytes": 83605,
+    "sha256": "090fa45c00aa06fbe74b8ce287468e99cc30d0a063a4456455f236960d375ab3",
+    "text_chars": 8059,
+    "rating_context": [
+      "amages. The Top Level Data is not investment advice and a reference to a particular investment or security, a credit rating or any observation concerning a security or investment provided in the Top Level Data is not a recommendation to buy, sell or hold such investment or security or make any other investment decisions. You shall not use an"
+    ]
+  },
+  {
+    "name": "FINRA-bond-lookup",
+    "url": "https://www.finra.org/finra-data/fixed-income/bond",
+    "bytes": 78987,
+    "sha256": "81631211048062a87e2e4ad593ffb3508dac0afa87891f5262c23a059dc04db2",
+    "text_chars": 5149,
+    "rating_context": []
+  },
+  {
+    "name": "EART_2022-2-20260929",
+    "url": "https://www.sec.gov/Archives/edgar/data/1920761/000092963826003712/eart2022-2_exhibit991.htm",
+    "bytes": 341086,
+    "sha256": "5a560b6e7d1917529dbcedf7ec285d09f25361ca49c8efdb5f02ef6f8cae92af",
+    "text_chars": 9876,
+    "rating_context": [
+      "inquent {102} $21,562,109.38 {103} Delinquency Rate as of the end of the Collection Period {103} 15.22% {104} Delinquency Trigger {104} 40.00% {105} Delinquency Trigger occurred {105} No XI. EXTENSIONS: {106} Principal Balance of Receivables extended during current period {106} $6,724,872.50 {107} Beginning of Period Aggregate Principal Balance {1",
+      "nquency Rate as of the end of the Collection Period {103} 15.22% {104} Delinquency Trigger {104} 40.00% {105} Delinquency Trigger occurred {105} No XI. EXTENSIONS: {106} Principal Balance of Receivables extended during current period {106} $6,724,872.50 {107} Beginning of Period Aggregate Principal Balance {107} $149,886,691.18 {108} Extension Rat"
+    ]
+  },
+  {
+    "name": "EART_2022-3-20260929",
+    "url": "https://www.sec.gov/Archives/edgar/data/1931330/000092963826003713/eart2022-3_exhibit991.htm",
+    "bytes": 341346,
+    "sha256": "b199d85c8e8eb235e1ed8adf01b8d01a18e4b3681ffc15408eecdb21dcd7a46f",
+    "text_chars": 9876,
+    "rating_context": [
+      "inquent {101} $22,094,224.26 {102} Delinquency Rate as of the end of the Collection Period {102} 14.46% {103} Delinquency Trigger {103} 40.00% {104} Delinquency Trigger occurred {104} No XI. EXTENSIONS: {105} Principal Balance of Receivables extended during current period {105} $7,621,817.85 {106} Beginning of Period Aggregate Principal Balance {1",
+      "nquency Rate as of the end of the Collection Period {102} 14.46% {103} Delinquency Trigger {103} 40.00% {104} Delinquency Trigger occurred {104} No XI. EXTENSIONS: {105} Principal Balance of Receivables extended during current period {105} $7,621,817.85 {106} Beginning of Period Aggregate Principal Balance {106} $161,165,525.26 {107} Extension Rat"
+    ]
+  },
+  {
+    "name": "EART_2023-1-20260929",
+    "url": "https://www.sec.gov/Archives/edgar/data/1964225/000092963826003717/eart2023-1_exhibit991.htm",
+    "bytes": 338703,
+    "sha256": "8886c6398d5158c97ae5a4d03dd9cf8d4a36fefc6fe9ec5bce89f09dced125ea",
+    "text_chars": 9506,
+    "rating_context": [
+      "inquent {103} $16,268,671.28 {104} Delinquency Rate as of the end of the Collection Period {104} 12.32% {105} Delinquency Trigger {105} 40.00% {106} Delinquency Trigger occurred {106} No XI. EXTENSIONS: {107} Principal Balance of Receivables extended during current period {107} $7,310,868.44 {108} Beginning of Period Aggregate Principal Balance {1",
+      "nquency Rate as of the end of the Collection Period {104} 12.32% {105} Delinquency Trigger {105} 40.00% {106} Delinquency Trigger occurred {106} No XI. EXTENSIONS: {107} Principal Balance of Receivables extended during current period {107} $7,310,868.44 {108} Beginning of Period Aggregate Principal Balance {108} $138,181,551.67 {109} Extension Rat"
+    ]
+  },
+  {
+    "name": "EART_2024-1-20260929",
+    "url": "https://www.sec.gov/Archives/edgar/data/2005087/000092963826003722/eart2024-1_exhibit991.htm",
+    "bytes": 339810,
+    "sha256": "92ffc270b311ace8ec18155a7dcae3e4ee4c7533d6132441f0156af7c9ff1cc4",
+    "text_chars": 9569,
+    "rating_context": [
+      "inquent {103} $28,396,173.93 {104} Delinquency Rate as of the end of the Collection Period {104} 10.89% {105} Delinquency Trigger {105} 40.00% {106} Delinquency Trigger occurred {106} No XI. EXTENSIONS: {107} Principal Balance of Receivables extended during current period {107} $14,751,393.20 {108} Beginning of Period Aggregate Principal Balance {",
+      "nquency Rate as of the end of the Collection Period {104} 10.89% {105} Delinquency Trigger {105} 40.00% {106} Delinquency Trigger occurred {106} No XI. EXTENSIONS: {107} Principal Balance of Receivables extended during current period {107} $14,751,393.20 {108} Beginning of Period Aggregate Principal Balance {108} $271,249,252.19 {109} Extension Ra"
+    ]
+  }
+]
