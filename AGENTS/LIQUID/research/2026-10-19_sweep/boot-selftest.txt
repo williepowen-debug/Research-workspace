@@ -1,0 +1,32 @@
+
+  LIQUID boot.py --selftest
+  ✓ FORGE fetch.py import OK
+  ✓ WQ-444 >320 run counter (4 cases)
+  ✓ CATALYSTS.tsv OK (55 rows, 8 cols, dates parse)
+  ✓ PREDICTIONS.tsv OK (all OPEN timeframes parse)
+  ✓ KB.tsv OK (144 rows, 13 cols, IDs well-formed)
+  ✓ 076 real 9/22 cover + 9/23-9/28 rates vol → MET: got 'MET', want 'MET'
+  ✓ 076 W1 met + W2 NO DATA + W3 quiet → INDETERMINATE, never 'NOT MET': got True, want True
+  ✓ 076 cover of exactly +300,000 is NOT > 300,000: got [], want []
+  ✓ 076 cover +300,001 is met: got 1, want 1
+  ✓ 076 level -2,950,000 is met (<=): got 1, want 1
+  ✓ 076 level -2,949,999 is not: got [], want []
+  ✓ 076 MOVE exactly 85.0 is not >85: got [], want []
+  ✓ 076 VIX exactly 20.0 is not <20: got [], want []
+  ✓ 076 W1 15 days before the latest W3 hit is OUTSIDE the 14-day window: got 1, want 1
+  ✓ 076 W1 13 days before is INSIDE: got 2, want 2
+  ✓ 076 no data → UNGRADEABLE: got 'UNGRADEABLE', want 'UNGRADEABLE'
+  ✓ 076 first W1 row cannot be a cover (no prior week): got [], want []
+  ✓ 076 real W2 [9/16] → not met; conjunction still MET on W1+W3: got ([], 'MET'), want ([], 'MET')
+  ✓ 076 W2 G10 exactly -12,000 is NOT < -12,000: got [], want []
+  ✓ 076 W2 G5L10 -801 ONE week only → not met: got [], want []
+  ✓ 076 W2 G5L10 -801 two consecutive → met: got 1, want 1
+  ✓ 076 W1 met, W2 measured not met, W3 full & quiet → 'NOT MET (1 of 3)': got 'NOT MET (1 of 3)', want 'NOT MET (1 of 3)'
+  ✓ 076 CATO: missing middle W1 week → no cover hit; W1 UNKNOWN: got ([], 'UNKNOWN'), want ([], 'UNKNOWN')
+  ✓ 076 CATO: G5L10 x2 across a missing week → no hit; W2 UNKNOWN: got ([], 'UNKNOWN'), want ([], 'UNKNOWN')
+  ✓ 076 CATO: one met, one quiet, W3 at the edge → INDETERMINATE: got True, want True
+  ✓ 076 a missing W3 session in the window → W3 UNKNOWN: got 'UNKNOWN', want 'UNKNOWN'
+  ✓ 076 a required W1 Tuesday absent (9/22 not in rows) → W1 UNKNOWN: got 'UNKNOWN', want 'UNKNOWN'
+  ✓ 076 W3 witness at MOVE 85.9 is EDGE, not a hit: got ([], ['2026-09-23']), want ([], ['2026-09-23'])
+
+  SELFTEST: PASS

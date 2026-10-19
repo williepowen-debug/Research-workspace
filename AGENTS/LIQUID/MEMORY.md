@@ -4,6 +4,8 @@
 
 ### CURRENT SESSION (2026-10-19 Mon — Will-launched Codex, host argv gpt-6.1-sol; L746)
 
+**Follow-on sweep,Will-directed12:26ET:** primaryCFTC recovered(CME10/13net−2,245,507,cover+108,209;first-releasevintageunverified). PDbelow-IGnet$4.959B→$2.164B[10/7];IG5–10Y−$1.462B isonequalifyingweek. HYG/JNKFridaycreations+3.4M/+0.2M;ICIweek10/14assets−$40.46B;Car-Martreliefextendedto10/22. DTCCDec2031Friday15.90–18.89pt≈1,010–1,131bpMODEL-DERIVEDdirty. WALTER006/008/009/010/011integrated(1initial+4arrivals;010/011areown-loopbacks,notindependentdata);OTTOSeptember5/9coverage/servicing andHOMERselectedMFsubset/uncommittedfacilitylimitsretained. No new gate/count/capital. → `research/2026-10-19_sweep/REPORT.md`. Supervisor-blind limitations andWQ441unresolvedreadingssurvive.
+
 No pull/stash/reset/push per commission; concurrent tree preserved. Session UUID `01a154ec-1848-79a3-9cc8-58ac8ca7c5b4` (environment verified); no verified transport to PROME's independent terminal. → `analysis/2026-10-19_L746-published-close.md`.
 
 - **Own >320 sustained MET 3-of-3:** first-published325[10/14]→323[10/15]→331[10/16], graded10/19. Signal ALL + TERRY card ask via WALTER; RED/REGINALD own their counts. X1 CLOSED, no capital.
@@ -36,7 +38,7 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 ### NEXT SESSION
 
-Re-anchor current publications, STATUS and all inbox lanes. L746 is graded; no re-run of Friday research because a notification failed. PROME consumes the exact memo/version, mirrors L746/GATES and acknowledges; full desk closeout follows its explicit ask. Existing separate work remains: WQ404 conditions-first fix pass; deferred DAEDALUS10/8 asks; October30 reviews and October31 079 band proposal. Volta WQ441 remains unresolved until Will rules; no repeated supervisor-blind data-wall hunt.
+Re-anchor current publications, STATUS and all inbox lanes. L746 is graded; no re-run of Friday research because a notification failed. PROME consumes the exact memo/version, mirrors L746/GATES and acknowledges; full desk closeout follows its explicit ask. Next source reads:20Y10/21,TIPS/Car-Mart/dealer10/22(onlyactualpublisheddata). Existing separate work remains: WQ404 conditions-first fix pass; deferred DAEDALUS10/8 asks; October30 reviews and October31 079 band proposal. Volta WQ441 remains unresolved until Will rules; no repeated supervisor-blind data-wall hunt.
 
 ### EARLIER SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
 

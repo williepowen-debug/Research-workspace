@@ -1,0 +1,112 @@
+[
+  {
+    "name": "pd-breaks",
+    "url": "https://markets.newyorkfed.org/api/pd/list/seriesbreaks.json",
+    "final_url": "https://markets.newyorkfed.org/api/pd/list/seriesbreaks.json",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.012581+00:00",
+    "bytes": 716,
+    "sha256": "ef2ba93b10af9551181daf5a6f013dab9774ad0c84b9136d51fc17b79164ab78",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/pd-breaks.json"
+  },
+  {
+    "name": "pd-series",
+    "url": "https://markets.newyorkfed.org/api/pd/list/timeseries.json",
+    "final_url": "https://markets.newyorkfed.org/api/pd/list/timeseries.json",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.012991+00:00",
+    "bytes": 335616,
+    "sha256": "77a7805ffdf634d259bdc94c8eb4ff9f44acb7c5ea7c1246f05152a971d4c7c0",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/pd-series.json"
+  },
+  {
+    "name": "pd-latest",
+    "url": "https://markets.newyorkfed.org/api/pd/latest/SBN2024.json",
+    "final_url": "https://markets.newyorkfed.org/api/pd/latest/SBN2024.json",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.014632+00:00",
+    "bytes": 114785,
+    "sha256": "5747ea2e7af2b887669befc4afc652ba1fe102aa390dc7fd39b3544e76ecdf27",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/pd-latest.json"
+  },
+  {
+    "name": "hyg-download",
+    "url": "https://www.blackrock.com/varnish-api/blk-one01-product-data/product-data/api/v1/get-fund-document?appType=PRODUCT_PAGE&appSubType=ISHARES&targetSite=us-ishares&locale=en_US&portfolioId=239565&component=fundDownload&userType=individual",
+    "final_url": "https://www.blackrock.com/varnish-api/blk-one01-product-data/product-data/api/v1/get-fund-document?appType=PRODUCT_PAGE&appSubType=ISHARES&targetSite=us-ishares&locale=en_US&portfolioId=239565&component=fundDownload&userType=individual",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.015504+00:00",
+    "bytes": 4692092,
+    "sha256": "0217e207a632a15f83c69ef18117defc13a152457806a1e7e1056bb9d262dc40",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/hyg-download.xls"
+  },
+  {
+    "name": "jnk-navhist",
+    "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/navhist-us-en-jnk.xlsx",
+    "final_url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/navhist-us-en-jnk.xlsx",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.016349+00:00",
+    "bytes": 229212,
+    "sha256": "ee6b5ce2fe9b6cfc25978aae41d83b5405d27619016d3e2d2eee56551340f5e3",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/jnk-navhist.xlsx"
+  },
+  {
+    "name": "crmt-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000799850.json",
+    "final_url": "https://data.sec.gov/submissions/CIK0000799850.json",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.017204+00:00",
+    "bytes": 162993,
+    "sha256": "6784a45e3d0a395a22346061520ff1f18379d4b01874e5f001d742d44f18bf7c",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/crmt-submissions.json"
+  },
+  {
+    "name": "cftc-tff",
+    "url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
+    "final_url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.241118+00:00",
+    "bytes": 578812,
+    "sha256": "6722fc377087c9380d7504345ac7145a891185ea7d57c9ad3f184b29da43aa57",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/cftc-tff.zip"
+  },
+  {
+    "name": "ici-mmf",
+    "url": "https://www.ici.org/research/stats/mmf",
+    "final_url": "https://www.ici.org/research/stats/mmf",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.280158+00:00",
+    "bytes": 357454,
+    "sha256": "9952c33c160b95f4ee68ab41c54b6a11e1b0319e9b8737fc4ae1224cff756d9a",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/ici-mmf.html"
+  },
+  {
+    "name": "nyfed-sofr",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+    "final_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.325632+00:00",
+    "bytes": 1208,
+    "sha256": "a38718faea765ad056a81ff0cd70c958812e8f215362f3e896500e8bfb71a4cd",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/nyfed-sofr.json"
+  },
+  {
+    "name": "dtcc-2026-10-15",
+    "url": "https://pddata.dtcc.com/ppd/api/report/cumulative/sec/SEC_CUMULATIVE_CREDITS_2026_10_15.zip",
+    "final_url": "https://pddata.dtcc.com/ppd/api/report/cumulative/sec/SEC_CUMULATIVE_CREDITS_2026_10_15.zip",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.390160+00:00",
+    "bytes": 145979,
+    "sha256": "dd84aafc371f7b3c999c9d741ccdbf41e663c7bbdb476e41c45c35112345937f",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/dtcc-2026-10-15.zip"
+  },
+  {
+    "name": "dtcc-2026-10-16",
+    "url": "https://pddata.dtcc.com/ppd/api/report/cumulative/sec/SEC_CUMULATIVE_CREDITS_2026_10_16.zip",
+    "final_url": "https://pddata.dtcc.com/ppd/api/report/cumulative/sec/SEC_CUMULATIVE_CREDITS_2026_10_16.zip",
+    "status": 200,
+    "retrieved_at": "2026-10-19T16:27:19.407988+00:00",
+    "bytes": 299164,
+    "sha256": "07117157049cd11eb7980dd0698670006c29af8f0d8c0bc23bee4293e3376705",
+    "path": "AGENTS/LIQUID/research/2026-10-19_sweep/dtcc-2026-10-16.zip"
+  }
+]

@@ -1,0 +1,421 @@
+{
+  "seriesbreak_resolved": "SBN2024",
+  "results": [
+    {
+      "name": "PDFTD-USTET",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDFTD-USTET.json",
+      "status": 200,
+      "bytes": 8753,
+      "sha256": "87e9f935d27d965bb3202fa4cbb5cb38288efd02af7d5683a808adc8301a238d",
+      "retrieved_at": "2026-10-19T16:28:02.516132+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDFTD-USTET.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "86026"
+        ],
+        [
+          "2026-09-09",
+          "113827"
+        ],
+        [
+          "2026-09-16",
+          "161712"
+        ],
+        [
+          "2026-09-23",
+          "192514"
+        ],
+        [
+          "2026-09-30",
+          "130689"
+        ],
+        [
+          "2026-10-07",
+          "121178"
+        ]
+      ]
+    },
+    {
+      "name": "PDFTR-USTET",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDFTR-USTET.json",
+      "status": 200,
+      "bytes": 8771,
+      "sha256": "1a8c25f577182104bf545bd20f2ee0388087db89a668301b78bdaa66c6440c19",
+      "retrieved_at": "2026-10-19T16:28:02.807779+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDFTR-USTET.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "87259"
+        ],
+        [
+          "2026-09-09",
+          "119218"
+        ],
+        [
+          "2026-09-16",
+          "158653"
+        ],
+        [
+          "2026-09-23",
+          "197503"
+        ],
+        [
+          "2026-09-30",
+          "129280"
+        ],
+        [
+          "2026-10-07",
+          "137453"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSCSBND-G10",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-G10.json",
+      "status": 200,
+      "bytes": 9075,
+      "sha256": "2029d64f17bda4e26340df0d941c78cfbb33a4ea60b95c20018dd14a32c1034f",
+      "retrieved_at": "2026-10-19T16:28:02.470127+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSCSBND-G10.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "-8175"
+        ],
+        [
+          "2026-09-09",
+          "-8648"
+        ],
+        [
+          "2026-09-16",
+          "-9286"
+        ],
+        [
+          "2026-09-23",
+          "-8189"
+        ],
+        [
+          "2026-09-30",
+          "-9570"
+        ],
+        [
+          "2026-10-07",
+          "-10665"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSCSBND-G5L10",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-G5L10.json",
+      "status": 200,
+      "bytes": 9249,
+      "sha256": "10091d35af05e888ba54fe90148e34a58ec5f16caf4d9cdbea649bb0b1a93043",
+      "retrieved_at": "2026-10-19T16:28:02.633802+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSCSBND-G5L10.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "599"
+        ],
+        [
+          "2026-09-09",
+          "703"
+        ],
+        [
+          "2026-09-16",
+          "564"
+        ],
+        [
+          "2026-09-23",
+          "1176"
+        ],
+        [
+          "2026-09-30",
+          "847"
+        ],
+        [
+          "2026-10-07",
+          "-1462"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSCSBND-BELL13",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELL13.json",
+      "status": 200,
+      "bytes": 9267,
+      "sha256": "9128b2627770d56e6cf3dc12f0f6aa9617a9ca3a29b16332fa64e5d9b0f32fc4",
+      "retrieved_at": "2026-10-19T16:28:02.547556+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSCSBND-BELL13.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "1654"
+        ],
+        [
+          "2026-09-09",
+          "1666"
+        ],
+        [
+          "2026-09-16",
+          "1701"
+        ],
+        [
+          "2026-09-23",
+          "1816"
+        ],
+        [
+          "2026-09-30",
+          "1917"
+        ],
+        [
+          "2026-10-07",
+          "2119"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSCSBND-BELG13",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELG13.json",
+      "status": 200,
+      "bytes": 9292,
+      "sha256": "4233f1d9e91b9cf4ebbe622cb6b1b9dd847f43aaf99842c3893dcf2e7ffdd8a1",
+      "retrieved_at": "2026-10-19T16:28:02.835208+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSCSBND-BELG13.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "1128"
+        ],
+        [
+          "2026-09-09",
+          "1296"
+        ],
+        [
+          "2026-09-16",
+          "1826"
+        ],
+        [
+          "2026-09-23",
+          "2792"
+        ],
+        [
+          "2026-09-30",
+          "2010"
+        ],
+        [
+          "2026-10-07",
+          "885"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSCSBND-BELG5L10",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELG5L10.json",
+      "status": 200,
+      "bytes": 9604,
+      "sha256": "57074f299cf23606109c9b93de4b32de0e3b7873b42f47406f7b7d3fb22c2436",
+      "retrieved_at": "2026-10-19T16:28:03.705135+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSCSBND-BELG5L10.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "-1428"
+        ],
+        [
+          "2026-09-09",
+          "-1607"
+        ],
+        [
+          "2026-09-16",
+          "-1282"
+        ],
+        [
+          "2026-09-23",
+          "-916"
+        ],
+        [
+          "2026-09-30",
+          "-298"
+        ],
+        [
+          "2026-10-07",
+          "-1466"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSCSBND-BELG10",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELG10.json",
+      "status": 200,
+      "bytes": 9200,
+      "sha256": "af26db3d0c9dd05b4cfb550082f86fe11d2378474d9b7e10f10a11fcb0f80567",
+      "retrieved_at": "2026-10-19T16:28:03.482615+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSCSBND-BELG10.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "842"
+        ],
+        [
+          "2026-09-09",
+          "786"
+        ],
+        [
+          "2026-09-16",
+          "666"
+        ],
+        [
+          "2026-09-23",
+          "747"
+        ],
+        [
+          "2026-09-30",
+          "1330"
+        ],
+        [
+          "2026-10-07",
+          "626"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSGSC-G7L11",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSGSC-G7L11.json",
+      "status": 200,
+      "bytes": 9072,
+      "sha256": "b93c7782254ae36149829b1aed50c19c068941bd5880028079f45f4bbaca7405",
+      "retrieved_at": "2026-10-19T16:28:02.738374+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSGSC-G7L11.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "30910"
+        ],
+        [
+          "2026-09-09",
+          "36016"
+        ],
+        [
+          "2026-09-16",
+          "35127"
+        ],
+        [
+          "2026-09-23",
+          "34245"
+        ],
+        [
+          "2026-09-30",
+          "38599"
+        ],
+        [
+          "2026-10-07",
+          "38492"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSGSC-G11L21",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSGSC-G11L21.json",
+      "status": 200,
+      "bytes": 9191,
+      "sha256": "91ad71e8892c90ca6d4f19ea7d9569baa705d8faf5edf1cae0d62232ebd0cd7f",
+      "retrieved_at": "2026-10-19T16:28:02.787582+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSGSC-G11L21.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "66836"
+        ],
+        [
+          "2026-09-09",
+          "66778"
+        ],
+        [
+          "2026-09-16",
+          "68456"
+        ],
+        [
+          "2026-09-23",
+          "68486"
+        ],
+        [
+          "2026-09-30",
+          "56961"
+        ],
+        [
+          "2026-10-07",
+          "57842"
+        ]
+      ]
+    },
+    {
+      "name": "PDPOSGSC-G21",
+      "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSGSC-G21.json",
+      "status": 200,
+      "bytes": 8834,
+      "sha256": "f26a8acec813f72c27b5b9d2d4f7fc45183e2524e712bd0afd786eb11d3ba983",
+      "retrieved_at": "2026-10-19T16:28:02.873998+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/PDPOSGSC-G21.json",
+      "last_modified": null,
+      "last6": [
+        [
+          "2026-09-02",
+          "46970"
+        ],
+        [
+          "2026-09-09",
+          "43399"
+        ],
+        [
+          "2026-09-16",
+          "40790"
+        ],
+        [
+          "2026-09-23",
+          "37814"
+        ],
+        [
+          "2026-09-30",
+          "37502"
+        ],
+        [
+          "2026-10-07",
+          "38750"
+        ]
+      ]
+    },
+    {
+      "name": "crmt-1015",
+      "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006667/f8k_101526.htm",
+      "status": 200,
+      "bytes": 24785,
+      "sha256": "8e461b73afaf86f8231cb37d34e238ee311ad75ec08712cb6ae4fa3c8fd37aa7",
+      "retrieved_at": "2026-10-19T16:28:03.097008+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/crmt-1015.html",
+      "last_modified": "Thu, 15 Oct 2026 20:05:46 GMT"
+    },
+    {
+      "name": "cftc-weekly",
+      "url": "https://www.cftc.gov/dea/newcot/FinFutWk.txt",
+      "status": 200,
+      "bytes": 73446,
+      "sha256": "0ff3b1fb0fdb40d8b53f943a3b0d5cd3e7a8680fa8e17119661ff256a7f2b985",
+      "retrieved_at": "2026-10-19T16:28:02.926843+00:00",
+      "path": "/home/willi/Research-workspace/AGENTS/LIQUID/research/2026-10-19_sweep/cftc-weekly.txt",
+      "last_modified": "Mon, 19 Oct 2026 13:56:27 GMT"
+    }
+  ]
+}

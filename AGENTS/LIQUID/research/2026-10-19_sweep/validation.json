@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-19T16:38:06.974314+00:00",
+  "checks": {
+    "cftc_identity_and_weekly_archive_match": true,
+    "net_change_not_gross_cover": true,
+    "below_ig_common_date_sum": true,
+    "ETF_both_Friday_creations": true,
+    "ES04_retrospective_condition_and_current_reset": true,
+    "calendar_all_55_events_match": true,
+    "five_gate_rows": true,
+    "archive_lossless": true,
+    "rotated_STATUS_under_70_percent": true,
+    "CP_same_date_minus1_bp": true,
+    "pending_auction_null_not_zero": true,
+    "55_event_schema_selftest": true
+  },
+  "passed": 12,
+  "total": 12,
+  "note": "Research arithmetic/source-basis and persistence checks; no instrument code changed."
+}

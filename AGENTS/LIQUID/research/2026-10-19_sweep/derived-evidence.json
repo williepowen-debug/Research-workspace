@@ -1,0 +1,1271 @@
+{
+  "retrieved_at": "2026-10-19T16:28:58.511971+00:00",
+  "hyg": [
+    {
+      "date": "2026-09-23",
+      "NAV": 78.04043,
+      "shares": 198800000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-09-24",
+      "NAV": 77.818626,
+      "shares": 197300000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-09-25",
+      "NAV": 77.675618,
+      "shares": 202300000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-09-28",
+      "NAV": 77.256316,
+      "shares": 206600000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-09-29",
+      "NAV": 77.200271,
+      "shares": 214200000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-09-30",
+      "NAV": 77.179412,
+      "shares": 217400000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-01",
+      "NAV": 76.667977,
+      "shares": 224000000,
+      "ex_dividend": "0.341639"
+    },
+    {
+      "date": "2026-10-02",
+      "NAV": 76.875492,
+      "shares": 232300000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-05",
+      "NAV": 76.807139,
+      "shares": 234300000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-06",
+      "NAV": 77.154425,
+      "shares": 236500000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-07",
+      "NAV": 77.047499,
+      "shares": 232200000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-08",
+      "NAV": 76.978797,
+      "shares": 232100000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-09",
+      "NAV": 77.029527,
+      "shares": 228300000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-12",
+      "NAV": 77.075603,
+      "shares": 229100000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-13",
+      "NAV": 76.953206,
+      "shares": 229100000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-14",
+      "NAV": 76.649999,
+      "shares": 227100000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-15",
+      "NAV": 76.99049,
+      "shares": 220200000,
+      "ex_dividend": "--"
+    },
+    {
+      "date": "2026-10-16",
+      "NAV": 76.84362,
+      "shares": 223600000,
+      "ex_dividend": "--"
+    }
+  ],
+  "jnk": [
+    {
+      "date": "2026-09-23",
+      "NAV": 94.003778,
+      "shares": 72074605,
+      "net_assets": 6775285143.8
+    },
+    {
+      "date": "2026-09-24",
+      "NAV": 93.688403,
+      "shares": 71274605,
+      "net_assets": 6677603899.94
+    },
+    {
+      "date": "2026-09-25",
+      "NAV": 93.545906,
+      "shares": 71874605,
+      "net_assets": 6723575052.04
+    },
+    {
+      "date": "2026-09-28",
+      "NAV": 93.068318,
+      "shares": 71474605,
+      "net_assets": 6652021240.37
+    },
+    {
+      "date": "2026-09-29",
+      "NAV": 92.910418,
+      "shares": 71074605,
+      "net_assets": 6603571258.6
+    },
+    {
+      "date": "2026-09-30",
+      "NAV": 92.825078,
+      "shares": 70074605,
+      "net_assets": 6504680672.89
+    },
+    {
+      "date": "2026-10-01",
+      "NAV": 92.151415,
+      "shares": 67474605,
+      "net_assets": 6217880295.23
+    },
+    {
+      "date": "2026-10-02",
+      "NAV": 92.432793,
+      "shares": 67074605,
+      "net_assets": 6199893055.08
+    },
+    {
+      "date": "2026-10-05",
+      "NAV": 92.370969,
+      "shares": 63674605,
+      "net_assets": 5881684939.24
+    },
+    {
+      "date": "2026-10-06",
+      "NAV": 92.775511,
+      "shares": 62874605,
+      "net_assets": 5833223591.14
+    },
+    {
+      "date": "2026-10-07",
+      "NAV": 92.655049,
+      "shares": 63274605,
+      "net_assets": 5862711609.98
+    },
+    {
+      "date": "2026-10-08",
+      "NAV": 92.576576,
+      "shares": 63074605,
+      "net_assets": 5839230985.76
+    },
+    {
+      "date": "2026-10-09",
+      "NAV": 92.662943,
+      "shares": 61474605,
+      "net_assets": 5696417803.5
+    },
+    {
+      "date": "2026-10-12",
+      "NAV": 92.683443,
+      "shares": 61674605,
+      "net_assets": 5716214752.78
+    },
+    {
+      "date": "2026-10-13",
+      "NAV": 92.529211,
+      "shares": 61674605,
+      "net_assets": 5706702547.58
+    },
+    {
+      "date": "2026-10-14",
+      "NAV": 92.125737,
+      "shares": 61674605,
+      "net_assets": 5681818438.32
+    },
+    {
+      "date": "2026-10-15",
+      "NAV": 92.486501,
+      "shares": 61874605,
+      "net_assets": 5722565694.5
+    },
+    {
+      "date": "2026-10-16",
+      "NAV": 92.312226,
+      "shares": 62074605,
+      "net_assets": 5730244984.62
+    }
+  ],
+  "holdings_date": "2026-10-16",
+  "named_hyg_holdings": [
+    {
+      "Name": "COREWEAVE INC 144A",
+      "Sector": "Other",
+      "Asset Class": "Fixed Income",
+      "Market Value": "31370240.94",
+      "Weight (%)": "0.18647",
+      "Notional Value": "31370240.94",
+      "Par Value": "38773000",
+      "Price": "80.5",
+      "Location": "United States",
+      "Exchange": "--",
+      "Currency": "USD",
+      "Duration": "3.81",
+      "YTM (%)": "15.53",
+      "FX Rate": "1",
+      "Maturity": "Oct 01, 2031",
+      "Coupon (%)": "9.75",
+      "Mod. Duration": "3.63",
+      "Yield to Call (%)": "--",
+      "Yield to Worst (%)": "15.53",
+      "Real Duration": "3.63",
+      "Real YTM (%)": "15.53",
+      "Market Currency": "USD",
+      "Accrual Date": "Apr 14, 2026",
+      "Effective Date": "Apr 14, 2026"
+    },
+    {
+      "Name": "COREWEAVE INC 144A",
+      "Sector": "Other",
+      "Asset Class": "Fixed Income",
+      "Market Value": "23652987.46",
+      "Weight (%)": "0.1406",
+      "Notional Value": "23652987.46",
+      "Par Value": "26891000",
+      "Price": "84.49",
+      "Location": "United States",
+      "Exchange": "--",
+      "Currency": "USD",
+      "Duration": "2.93",
+      "YTM (%)": "14.93",
+      "FX Rate": "1",
+      "Maturity": "Jun 01, 2030",
+      "Coupon (%)": "9.25",
+      "Mod. Duration": "2.79",
+      "Yield to Call (%)": "--",
+      "Yield to Worst (%)": "14.93",
+      "Real Duration": "2.79",
+      "Real YTM (%)": "14.93",
+      "Market Currency": "USD",
+      "Accrual Date": "May 27, 2025",
+      "Effective Date": "May 27, 2025"
+    },
+    {
+      "Name": "COREWEAVE INC 144A",
+      "Sector": "Other",
+      "Asset Class": "Fixed Income",
+      "Market Value": "19020703.48",
+      "Weight (%)": "0.11306",
+      "Notional Value": "19020703.48",
+      "Par Value": "23277000",
+      "Price": "79.84",
+      "Location": "United States",
+      "Exchange": "--",
+      "Currency": "USD",
+      "Duration": "3.41",
+      "YTM (%)": "15.61",
+      "FX Rate": "1",
+      "Maturity": "Feb 01, 2031",
+      "Coupon (%)": "9",
+      "Mod. Duration": "3.23",
+      "Yield to Call (%)": "--",
+      "Yield to Worst (%)": "15.61",
+      "Real Duration": "3.23",
+      "Real YTM (%)": "15.61",
+      "Market Currency": "USD",
+      "Accrual Date": "Jul 25, 2025",
+      "Effective Date": "Jul 25, 2025"
+    },
+    {
+      "Name": "COREWEAVE INC 144A",
+      "Sector": "Other",
+      "Asset Class": "Fixed Income",
+      "Market Value": "15126040.63",
+      "Weight (%)": "0.08991",
+      "Notional Value": "15126040.63",
+      "Par Value": "18364000",
+      "Price": "79.21",
+      "Location": "United States",
+      "Exchange": "--",
+      "Currency": "USD",
+      "Duration": "4.11",
+      "YTM (%)": "15.15",
+      "FX Rate": "1",
+      "Maturity": "Jul 15, 2032",
+      "Coupon (%)": "9.63",
+      "Mod. Duration": "3.92",
+      "Yield to Call (%)": "--",
+      "Yield to Worst (%)": "15.15",
+      "Real Duration": "3.92",
+      "Real YTM (%)": "15.15",
+      "Market Currency": "USD",
+      "Accrual Date": "Jun 18, 2026",
+      "Effective Date": "Jun 18, 2026"
+    }
+  ],
+  "hyg_changes": {
+    "2026-09-24": {
+      "end": "2026-10-16",
+      "from_shares": 197300000,
+      "to_shares": 223600000,
+      "share_pct": 13.329954384186514,
+      "asset_equivalent_usd": 2028385755.0
+    },
+    "2026-10-06": {
+      "end": "2026-10-16",
+      "from_shares": 236500000,
+      "to_shares": 223600000,
+      "share_pct": -5.454545454545457,
+      "asset_equivalent_usd": -993319916.5999999
+    },
+    "2026-10-13": {
+      "end": "2026-10-16",
+      "from_shares": 229100000,
+      "to_shares": 223600000,
+      "share_pct": -2.400698384984723,
+      "asset_equivalent_usd": -423266070.99999994
+    },
+    "2026-10-15": {
+      "end": "2026-10-16",
+      "from_shares": 220200000,
+      "to_shares": 223600000,
+      "share_pct": 1.5440508628519423,
+      "asset_equivalent_usd": 261268308.0
+    }
+  },
+  "jnk_changes": {
+    "2026-09-24": {
+      "end": "2026-10-16",
+      "from_shares": 71274605,
+      "to_shares": 62074605,
+      "share_pct": -12.907823200142598,
+      "asset_equivalent_usd": -850155098.8000001
+    },
+    "2026-10-06": {
+      "end": "2026-10-16",
+      "from_shares": 62874605,
+      "to_shares": 62074605,
+      "share_pct": -1.2723737986107375,
+      "asset_equivalent_usd": -74217570.4
+    },
+    "2026-10-13": {
+      "end": "2026-10-16",
+      "from_shares": 61674605,
+      "to_shares": 62074605,
+      "share_pct": 0.6485651590310226,
+      "asset_equivalent_usd": 36959745.4
+    },
+    "2026-10-15": {
+      "end": "2026-10-16",
+      "from_shares": 61874605,
+      "to_shares": 62074605,
+      "share_pct": 0.3232343867084042,
+      "asset_equivalent_usd": 18462445.2
+    }
+  },
+  "cftc_cme_sofr": [
+    {
+      "asof": "2026-09-08",
+      "market": "SOFR-3M - CHICAGO MERCANTILE EXCHANGE",
+      "long": 894938,
+      "short": 3698383,
+      "spreading": 2897503,
+      "open_interest": 13294407,
+      "net": -2803445
+    },
+    {
+      "asof": "2026-09-15",
+      "market": "SOFR-3M - CHICAGO MERCANTILE EXCHANGE",
+      "long": 972837,
+      "short": 3746985,
+      "spreading": 2860344,
+      "open_interest": 13349060,
+      "net": -2774148
+    },
+    {
+      "asof": "2026-09-22",
+      "market": "SOFR-3M - CHICAGO MERCANTILE EXCHANGE",
+      "long": 972889,
+      "short": 3417875,
+      "spreading": 2774812,
+      "open_interest": 12230496,
+      "net": -2444986
+    },
+    {
+      "asof": "2026-09-29",
+      "market": "SOFR-3M - CHICAGO MERCANTILE EXCHANGE",
+      "long": 1027128,
+      "short": 3437471,
+      "spreading": 2659995,
+      "open_interest": 12455877,
+      "net": -2410343
+    },
+    {
+      "asof": "2026-10-06",
+      "market": "SOFR-3M - CHICAGO MERCANTILE EXCHANGE",
+      "long": 1044094,
+      "short": 3397810,
+      "spreading": 2650333,
+      "open_interest": 12657372,
+      "net": -2353716
+    },
+    {
+      "asof": "2026-10-13",
+      "market": "SOFR-3M - CHICAGO MERCANTILE EXCHANGE",
+      "long": 1137065,
+      "short": 3382572,
+      "spreading": 2651144,
+      "open_interest": 12928520,
+      "net": -2245507
+    }
+  ],
+  "cftc_weekly_matches_history": true,
+  "w1_cover": 108209,
+  "w1_current_met": false,
+  "pd_last10": {
+    "PDPOSCSBND-G5L10": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "508"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "1921"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "2302"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "398"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "599"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "703"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "564"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "1176"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "847"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSCSBND-G5L10",
+        "value": "-1462"
+      }
+    ],
+    "PDPOSCSBND-BELG10": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "497"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "759"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "579"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "657"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "842"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "786"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "666"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "747"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "1330"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSCSBND-BELG10",
+        "value": "626"
+      }
+    ],
+    "PDPOSCSBND-BELL13": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1516"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1501"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1504"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1511"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1654"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1666"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1701"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1816"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "1917"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSCSBND-BELL13",
+        "value": "2119"
+      }
+    ],
+    "PDPOSCSBND-BELG13": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "1015"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "1273"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "339"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "26"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "1128"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "1296"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "1826"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "2792"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "2010"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSCSBND-BELG13",
+        "value": "885"
+      }
+    ],
+    "PDFTD-USTET": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDFTD-USTET",
+        "value": "88362"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDFTD-USTET",
+        "value": "108036"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDFTD-USTET",
+        "value": "87915"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDFTD-USTET",
+        "value": "76655"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDFTD-USTET",
+        "value": "86026"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDFTD-USTET",
+        "value": "113827"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDFTD-USTET",
+        "value": "161712"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDFTD-USTET",
+        "value": "192514"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDFTD-USTET",
+        "value": "130689"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDFTD-USTET",
+        "value": "121178"
+      }
+    ],
+    "PDPOSCSBND-G10": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-9157"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-6929"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-7869"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-8857"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-8175"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-8648"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-9286"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-8189"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-9570"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSCSBND-G10",
+        "value": "-10665"
+      }
+    ],
+    "PDPOSGSC-G11L21": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "64133"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "61248"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "68895"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "64997"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "66836"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "66778"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "68456"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "68486"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "56961"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSGSC-G11L21",
+        "value": "57842"
+      }
+    ],
+    "PDPOSCSBND-BELG5L10": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-2382"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-2340"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-1735"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-2205"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-1428"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-1607"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-1282"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-916"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-298"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSCSBND-BELG5L10",
+        "value": "-1466"
+      }
+    ],
+    "PDFTR-USTET": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDFTR-USTET",
+        "value": "98478"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDFTR-USTET",
+        "value": "119089"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDFTR-USTET",
+        "value": "97005"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDFTR-USTET",
+        "value": "88371"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDFTR-USTET",
+        "value": "87259"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDFTR-USTET",
+        "value": "119218"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDFTR-USTET",
+        "value": "158653"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDFTR-USTET",
+        "value": "197503"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDFTR-USTET",
+        "value": "129280"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDFTR-USTET",
+        "value": "137453"
+      }
+    ],
+    "PDPOSGSC-G21": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSGSC-G21",
+        "value": "52509"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSGSC-G21",
+        "value": "48573"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSGSC-G21",
+        "value": "46717"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSGSC-G21",
+        "value": "51751"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSGSC-G21",
+        "value": "46970"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSGSC-G21",
+        "value": "43399"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSGSC-G21",
+        "value": "40790"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSGSC-G21",
+        "value": "37814"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSGSC-G21",
+        "value": "37502"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSGSC-G21",
+        "value": "38750"
+      }
+    ],
+    "PDPOSGSC-G7L11": [
+      {
+        "asofdate": "2026-08-05",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "33364"
+      },
+      {
+        "asofdate": "2026-08-12",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "39337"
+      },
+      {
+        "asofdate": "2026-08-19",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "30738"
+      },
+      {
+        "asofdate": "2026-08-26",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "35028"
+      },
+      {
+        "asofdate": "2026-09-02",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "30910"
+      },
+      {
+        "asofdate": "2026-09-09",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "36016"
+      },
+      {
+        "asofdate": "2026-09-16",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "35127"
+      },
+      {
+        "asofdate": "2026-09-23",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "34245"
+      },
+      {
+        "asofdate": "2026-09-30",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "38599"
+      },
+      {
+        "asofdate": "2026-10-07",
+        "keyid": "PDPOSGSC-G7L11",
+        "value": "38492"
+      }
+    ]
+  },
+  "crmt_recent_filings": [
+    {
+      "filingDate": "2026-10-15",
+      "form": "8-K",
+      "accessionNumber": "0001171843-26-006667",
+      "primaryDocument": "f8k_101526.htm"
+    },
+    {
+      "filingDate": "2026-10-08",
+      "form": "8-K",
+      "accessionNumber": "0001171843-26-006538",
+      "primaryDocument": "f8k_100826.htm"
+    },
+    {
+      "filingDate": "2026-10-02",
+      "form": "4",
+      "accessionNumber": "0001683168-26-007590",
+      "primaryDocument": "xslF345X06/ownership.xml"
+    },
+    {
+      "filingDate": "2026-10-01",
+      "form": "8-K",
+      "accessionNumber": "0001171843-26-006326",
+      "primaryDocument": "f8k_093026.htm"
+    }
+  ],
+  "below_ig_net_totals_mm": {
+    "2026-09-02": 2196.0,
+    "2026-09-09": 2141.0,
+    "2026-09-16": 2911.0,
+    "2026-09-23": 4439.0,
+    "2026-09-30": 4959.0,
+    "2026-10-07": 2164.0
+  },
+  "below_ig_net_change_mm": -2795.0,
+  "below_ig_net_change_pct": -56.36216979229683,
+  "pd_C_variants": "Numerically match weekly changes in net positions; not used as gross inventory.",
+  "es04_deliver_weekly_bn": {
+    "2026-08-12": 108.036,
+    "2026-08-19": 87.915,
+    "2026-08-26": 76.655,
+    "2026-09-02": 86.026,
+    "2026-09-09": 113.827,
+    "2026-09-16": 161.712,
+    "2026-09-23": 192.514,
+    "2026-09-30": 130.689,
+    "2026-10-07": 121.178
+  },
+  "es04_Y_first_two_run_dates": [
+    "2026-09-23"
+  ],
+  "es04_current_Y_run": 0,
+  "cds_standard_uncapped_dec2031": {
+    "2026-10-15": [
+      {
+        "id": "5796866398000000101",
+        "execution": "2026-10-15T19:29:14Z",
+        "upfront_pt": 17.152777666666665,
+        "notional_usd": 3000000.0,
+        "model_dirty_bp": 1058.717385010485,
+        "correction": ""
+      },
+      {
+        "id": "5786206700000000201",
+        "execution": "2026-10-15T11:59:43Z",
+        "upfront_pt": 16.652761074500003,
+        "notional_usd": 2000000.0,
+        "model_dirty_bp": 1038.9485399365456,
+        "correction": ""
+      },
+      {
+        "id": "5786209827000000101",
+        "execution": "2026-10-15T11:59:43Z",
+        "upfront_pt": 16.652761074500003,
+        "notional_usd": 2000000.0,
+        "model_dirty_bp": 1038.9485399365456,
+        "correction": "CORR"
+      },
+      {
+        "id": "5788293364000000201",
+        "execution": "2026-10-15T15:02:13Z",
+        "upfront_pt": 22.5428064,
+        "notional_usd": 3000000.0,
+        "model_dirty_bp": 1292.9297971394903,
+        "correction": ""
+      }
+    ],
+    "2026-10-16": [
+      {
+        "id": "5819931516000000101",
+        "execution": "2026-10-16T17:52:48Z",
+        "upfront_pt": 18.888889,
+        "notional_usd": 1000000.0,
+        "model_dirty_bp": 1130.5615245454396,
+        "correction": ""
+      },
+      {
+        "id": "5816334145000003101",
+        "execution": "2026-10-16T14:02:37Z",
+        "upfront_pt": 15.898908763,
+        "notional_usd": 1000000.0,
+        "model_dirty_bp": 1010.4146829909342,
+        "correction": ""
+      },
+      {
+        "id": "5816334162000004801",
+        "execution": "2026-10-16T14:02:37Z",
+        "upfront_pt": 15.898908763,
+        "notional_usd": 1000000.0,
+        "model_dirty_bp": 1010.4146829909342,
+        "correction": ""
+      }
+    ]
+  },
+  "treasury_upcoming": [
+    {
+      "cusip": "912810UX4",
+      "securityType": "Bond",
+      "securityTerm": "19-Year 10-Month",
+      "originalSecurityTerm": "20-Year",
+      "competitiveAuctionCloseDate": "2026-10-21T00:00:00",
+      "competitiveAuctionCloseTime": "01:00 PM",
+      "issueDate": "2026-10-23T00:00:00",
+      "offeringAmount": "13000000000",
+      "inflationIndexSecurity": null
+    },
+    {
+      "cusip": "91282CRR4",
+      "securityType": "Note",
+      "securityTerm": "5-Year",
+      "originalSecurityTerm": "5-Year",
+      "competitiveAuctionCloseDate": "2026-10-22T00:00:00",
+      "competitiveAuctionCloseTime": "01:00 PM",
+      "issueDate": "2026-10-30T00:00:00",
+      "offeringAmount": "26000000000",
+      "inflationIndexSecurity": null
+    },
+    {
+      "cusip": "91282CRU7",
+      "securityType": "Note",
+      "securityTerm": "2-Year",
+      "originalSecurityTerm": "2-Year",
+      "competitiveAuctionCloseDate": "2026-10-26T00:00:00",
+      "competitiveAuctionCloseTime": "",
+      "issueDate": "2026-11-02T00:00:00",
+      "offeringAmount": "",
+      "inflationIndexSecurity": null
+    },
+    {
+      "cusip": "91282CRT0",
+      "securityType": "Note",
+      "securityTerm": "5-Year",
+      "originalSecurityTerm": "5-Year",
+      "competitiveAuctionCloseDate": "2026-10-27T00:00:00",
+      "competitiveAuctionCloseTime": "",
+      "issueDate": "2026-11-02T00:00:00",
+      "offeringAmount": "",
+      "inflationIndexSecurity": null
+    },
+    {
+      "cusip": "91282CRS2",
+      "securityType": "Note",
+      "securityTerm": "2-Year",
+      "originalSecurityTerm": "2-Year",
+      "competitiveAuctionCloseDate": "2026-10-28T00:00:00",
+      "competitiveAuctionCloseTime": "",
+      "issueDate": "2026-11-02T00:00:00",
+      "offeringAmount": "",
+      "inflationIndexSecurity": null
+    },
+    {
+      "cusip": "91282CRV5",
+      "securityType": "Note",
+      "securityTerm": "7-Year",
+      "originalSecurityTerm": "7-Year",
+      "competitiveAuctionCloseDate": "2026-10-29T00:00:00",
+      "competitiveAuctionCloseTime": "",
+      "issueDate": "2026-11-02T00:00:00",
+      "offeringAmount": "",
+      "inflationIndexSecurity": null
+    }
+  ],
+  "treasury_recent_bills": [
+    {
+      "cusip": "912797SU2",
+      "securityTerm": "6-Week",
+      "competitiveAuctionCloseDate": "2026-10-13T00:00:00",
+      "bidToCoverRatio": "2.58",
+      "highDiscountRate": null,
+      "issueDate": "2026-10-15T00:00:00"
+    },
+    {
+      "cusip": "912797VT1",
+      "securityTerm": "13-Week",
+      "competitiveAuctionCloseDate": "2026-10-13T00:00:00",
+      "bidToCoverRatio": "2.68",
+      "highDiscountRate": null,
+      "issueDate": "2026-10-15T00:00:00"
+    },
+    {
+      "cusip": "912797UE5",
+      "securityTerm": "26-Week",
+      "competitiveAuctionCloseDate": "2026-10-13T00:00:00",
+      "bidToCoverRatio": "2.76",
+      "highDiscountRate": null,
+      "issueDate": "2026-10-15T00:00:00"
+    },
+    {
+      "cusip": "912797VW4",
+      "securityTerm": "4-Week",
+      "competitiveAuctionCloseDate": "2026-10-08T00:00:00",
+      "bidToCoverRatio": "2.40",
+      "highDiscountRate": null,
+      "issueDate": "2026-10-13T00:00:00"
+    },
+    {
+      "cusip": "912797WE3",
+      "securityTerm": "8-Week",
+      "competitiveAuctionCloseDate": "2026-10-08T00:00:00",
+      "bidToCoverRatio": "2.77",
+      "highDiscountRate": null,
+      "issueDate": "2026-10-13T00:00:00"
+    },
+    {
+      "cusip": "912797WY9",
+      "securityTerm": "17-Week",
+      "competitiveAuctionCloseDate": "2026-10-07T00:00:00",
+      "bidToCoverRatio": "3.10",
+      "highDiscountRate": null,
+      "issueDate": "2026-10-13T00:00:00"
+    }
+  ],
+  "ici_read": {
+    "source": "https://www.ici.org/research/stats/mmf",
+    "release_date": "2026-10-15",
+    "week_ended": "2026-10-14",
+    "unit": "$B",
+    "total_assets": 7923.08,
+    "total_change": -40.46,
+    "government_assets": 6519.99,
+    "government_change": -40.8,
+    "prime_assets": 1235.48,
+    "prime_change": -4.29,
+    "institutional_prime_assets": 249.18,
+    "institutional_prime_change": -3.09,
+    "tax_exempt_change": 4.63,
+    "basis": "published asset changes, not settled cash; prior weeks may be revised"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PDPOSCSBND-BELL13C",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELL13C.json",
+    "status": 200,
+    "bytes": 9283,
+    "sha256": "2c0c5d9921af28cea108f6c9779331377282be31491b73a530dfea8ebb97b859",
+    "retrieved_at": "2026-10-19T16:29:49.646436+00:00"
+  },
+  {
+    "name": "PDPOSCSBND-BELG13C",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELG13C.json",
+    "status": 200,
+    "bytes": 9356,
+    "sha256": "402e8442b6e0c49e8ab2812ace1a91a58537e941732fbfeea95649a4b200825b",
+    "retrieved_at": "2026-10-19T16:29:49.724640+00:00"
+  },
+  {
+    "name": "PDPOSCSBND-BELG5L10C",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELG5L10C.json",
+    "status": 200,
+    "bytes": 9583,
+    "sha256": "ed1a5a47269bf0c300b8707c25736dcd6ecb56afd0e1be1372e1496dd4a1c282",
+    "retrieved_at": "2026-10-19T16:29:49.714967+00:00"
+  },
+  {
+    "name": "PDPOSCSBND-BELG10C",
+    "url": "https://markets.newyorkfed.org/api/pd/get/SBN2024/timeseries/PDPOSCSBND-BELG10C.json",
+    "status": 200,
+    "bytes": 9302,
+    "sha256": "0f2fd77e4d14edab5919b10e80bdd5c996d5452f4cf2fad2c9921b892d1e0e8a",
+    "retrieved_at": "2026-10-19T16:29:49.731509+00:00"
+  },
+  {
+    "name": "treasury-upcoming",
+    "url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
+    "status": 200,
+    "bytes": 88687,
+    "sha256": "8c23473290e64f82ea7a60eb0bf6df31d141b273921fa0efab8655b300d231df",
+    "retrieved_at": "2026-10-19T16:29:49.014838+00:00"
+  },
+  {
+    "name": "treasury-recent",
+    "url": "https://www.treasurydirect.gov/TA_WS/securities/search?startDate=2026-10-09&endDate=2026-10-19&format=json&type=Bill",
+    "status": 200,
+    "bytes": 40692,
+    "sha256": "e2fce78b0a347c70bf04bdc752b316e57166f0471597fc3faab56f929faf4541",
+    "retrieved_at": "2026-10-19T16:29:49.013652+00:00"
+  }
+]
