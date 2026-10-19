@@ -1,6 +1,6 @@
 # ⚠️ FIRE-ONLY LOG — NOT AUTHORITATIVE FOR CURRENT TRIGGER STATE. Banner added 2026-08-12 by WALTER on DAEDALUS's 6c array audit (inbox/2026-08-12_from-DAEDALUS_autofire-array-audit-6c-has-no-executable.md, finding 1).
 # LIVE ledger. Cadence: EVENT-DRIVEN (a row appears only when a RED-FT trigger FIRES; a fire ledger with nothing to add is CORRECT, not stale — ledger_staleness Class 8, declared 2026-09-17 on DAEDALUS PR#6 ask 1).
-# Last re-pull ATTEMPTED: 2026-10-19 (scoped direct FRED: HY first-published through10/15=323,10/16 absent; VIXCLS through10/15=16.46; no new fire row; other current scan gaps in research/2026-10-19_morning/RESULT.md)
+# Last re-pull ATTEMPTED: 2026-10-19 (resume direct FRED first-published HY331 [10/16];3/3 entry measurement; source-refresh.json; owner interpretation separate)
 # WHAT THIS FILE RECORDS: the moment a trigger FIRED. WHAT IT CANNOT RECORD: un-fires, re-arms and re-fires — the 5-column schema has no row type for them, so a reader who treats the newest row per trigger_id as CURRENT STATE will be wrong across any completed round trip.
 # KNOWN MISSING EVENTS (RED's own registry is canonical; read AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv exit_source for the true state):
 #   RED-FT-01 UN-FIRED 2026-07-31 (S27, on 281/284/287+284; +2 executed) and RE-FIRED 2026-08-07 (S28, on 278/273/275/271, sustain-3 met at the 8/05 print; -2 executed, giving the +2 back).
@@ -13,3 +13,4 @@ RED-FT-07	2026-06-04	947	SIG-W-20260604-002	sustain=1-met-binary-fire-overdue-de
 RED-FT-06	2026-08-11	15.28	SIG-W-20260811-001	sustain=5-met-15.81-15.15-14.90-15.46-15.28-streak-restart-after-8-4-break-16.50-per-ML-RED-129
 RED-FT-08	2026-10-14	3.2472160702	SIG-W-20261014-001	sustain1; Decimal TableA Jul0.2/Aug0.3/Sep0.3; S50 preregistered basis; owner score execution UNKNOWN
 RED-FT-10	2026-10-14	157.30	SIG-W-20261014-034	sustain=4-met-154.34-155.06-154.74-157.30 at Cboe SKEW_History.csv publisher of record, retrieved 2026-10-15T01:30:26Z sha256 c01d74be; reset bar 10/08 149.19; owner execution by RED
+RED-FT-02	2026-10-19	331	SIG-W-20261019-003	sustain=3;325[10/14],323[10/15],331[10/16];first-published=latest;effective10/16,published10/19;owner-consequence-and-bank-attribution-separate
