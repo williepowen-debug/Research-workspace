@@ -1,0 +1,16 @@
+[
+  {
+    "file": "FY2025-8K-index.json",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026003507/index.json",
+    "http": 200,
+    "sha256": "0a9fedc44a84279d407fdda767228a9653b1fc3b8949fcb7b21e72ae0696f0f3",
+    "retrieved_utc": "2026-10-19T22:38:20.412453+00:00"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026003507/pressrelease-12312025.htm",
+    "path": "AGENTS/WAL/sources/2026-10-19_earnings-bridge/pressrelease-12312025.htm",
+    "http_status": 200,
+    "sha256": "77ae750e79bfed168b18e5361ea9b1708fa346903aec2c1a2702fa3e31d64d4a",
+    "retrieved_utc": "2026-10-19T22:39:53.136523+00:00"
+  }
+]

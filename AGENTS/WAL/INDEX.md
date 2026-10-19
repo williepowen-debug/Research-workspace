@@ -2,7 +2,7 @@
 
 **Cold start:** resolve the repository root and explicitly load root/local instructions. `AGENTS.md` is the Codex entry shim; **CLAUDE.md owns the single boot/closeout sequence**. Do not assume CLAUDE auto-loading or peer-messaging availability. Runtime/delivery → PROME/COMPLETION_SPEC and ORCHESTRATION_PLAYBOOK § Runtime mechanics.
 
-**Current mirrors, checked October19:** Thesis **v2.4**; Bear-fast2% / Bear-medium16% / Base45% / Bull30% / Tail7%; **EV $75.96 · PT $52-76** unchanged. **KB 244 rows / 20 groups**; full group membership is generated in workbook/KB_INDEX. Positions and their per-account vintages → POSITIONS/FORGE; no book count or live market figure is maintained in this index. Current quote/source timestamp → STATUS. Q3Stage1 saved: WAL02INVALIDATED30bps; WAL01provisionalINVALIDATED272.75M; callOctober20noonETpending. Frozenframesgovern. FFIEC access verified October14 with eight fresh reports; recordedNovember5 expiry/November1 renewal sitting remain. Q3 retrieval HTTP500, availability unknown.
+**Current mirrors, checked October19:** Thesis **v2.4**; Bear-fast2% / Bear-medium16% / Base45% / Bull30% / Tail7%; **EV $75.96 · PT $52-76** unchanged. **KB 247 rows / 20 groups**; full group membership is generated in workbook/KB_INDEX. Positions and their per-account vintages → POSITIONS/FORGE; no book count or live market figure is maintained in this index. Current quote/source timestamp → STATUS. Q3Stage1 saved: WAL02INVALIDATED30bps; WAL01provisionalINVALIDATED272.75M; callOctober20noonETpending. Frozenframesgovern. FFIEC access verified October14 with eight fresh reports; recordedNovember5 expiry/November1 renewal sitting remain. Q3 retrieval HTTP500, availability unknown.
 
 ## One boot sequence
 
@@ -14,6 +14,7 @@ Follow CLAUDE.md §Boot: STATUS and current MEMORY in full; THESIS header/calibr
 |---|---|
 | research/2026-10-19_Q3_STAGE1_GRADE.md | Actuals, verbatim grades, five findings, ten call questions and per-account context |
 | research/2026-10-19_Q3_FULL_READ.md | Full release/deck interpretation, CET1 numerator correction and loan/securities provision bridge; no grade change |
+| research/2026-10-19_Q3-recurring-earnings-bridge.md | Consistent Q2/Q3 profit screen, conditional Q4 guide residuals, five precise earnings call questions |
 | STATUS.md | Current dashboard, operator dependencies, existing carriers and guard pointers; ≤250lines |
 | MEMORY.md | One current handoff, next steps and source/authority gaps; completed narrative in linked archive |
 | THESIS.md / CHANGELOG.md | Framework and dated changes; weights/targets canonical; October14 FFIEC/V3 evidence fold has no numerical re-mark |

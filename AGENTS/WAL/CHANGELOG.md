@@ -1,5 +1,9 @@
 # WAL THESIS — CHANGELOG
 
+## 2026-10-19 — authorized recurring earnings bridge; v2.4 unchanged
+
+Will selected the bounded follow-up. Consistent current-presentation Q2/Q3 screen leaves pretax320.7→321.8M; report distinguishes this from normalizedEPS. Literal annual ex-deposit guide implies≥24.6M Q4 cost decline, subject to basis confirmation. Net guide midpoint revisions roughly offset; no fresh matched consensus/expectations gap established. KB245–247 and five precise earnings call questions. Frozen frames, THESIS/SCENARIOS/PREDICTIONS/POSITIONS and all probabilities/scores/trade rules unchanged. Report `research/2026-10-19_Q3-recurring-earnings-bridge.md`.
+
 ## 2026-10-19 — full-read supplement; evidence correction only, v2.4 unchanged
 
 Will requestedfullreleased-materialread. All32releaseHTMLtables/narrative/footnotesreviewedalongside24slidedeck. Source showsparentCET1capital7389Malreadydisclosed; previousworksheetunavailableclaimcorrectedandcallquestion8narrowed. Provision80.8loanless0.8HTMrelease=80.0consolidated; KB243/244. Fullread `research/2026-10-19_Q3_FULL_READ.md`. OriginalStage1artifact/frozenframes/THESIS/SCENARIOS/PREDICTIONSunchanged; no probability,score,target,tradeorregisteredrulechange.

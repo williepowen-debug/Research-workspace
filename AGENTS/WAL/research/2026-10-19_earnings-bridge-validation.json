@@ -1,0 +1,278 @@
+{
+  "observed_at": "2026-10-19T22:44:35.885443+00:00",
+  "checks": [
+    {
+      "check": "26 accounting ties",
+      "pass": true
+    },
+    {
+      "check": "gain-screen change independent arithmetic",
+      "pass": true
+    },
+    {
+      "check": "literal Q4 upper ex-deposit guide residual",
+      "pass": true
+    },
+    {
+      "check": "minimum Q4 ex-deposit reduction",
+      "pass": true
+    },
+    {
+      "check": "ECR benefit already embedded",
+      "pass": true
+    },
+    {
+      "check": "tax full year identity",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/Q3_PRINT_GRADING_FRAME_2026-09-24.md",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/Q3_10Q_GRADING_FRAME_2026-09-24.md",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/Q2_GRADING_FRAME_2026-07-21.md",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/THESIS.md",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/SCENARIOS.md",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/workbook/PREDICTIONS.tsv",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/research/2026-10-19_Q3_STAGE1_GRADE.md",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/research/2026-10-19_Q3_FULL_READ.md",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS/WAL/POSITIONS.md",
+      "pass": true
+    },
+    {
+      "check": "original report hash research/2026-10-19_Q3_STAGE1_GRADE.md",
+      "pass": true
+    },
+    {
+      "check": "original report hash research/2026-10-19_Q3_FULL_READ.md",
+      "pass": true
+    },
+    {
+      "check": "source AGENTS/WAL/sources/2026-10-19_Q3/pressrelease-9302026.htm",
+      "pass": true
+    },
+    {
+      "check": "source AGENTS/WAL/sources/2026-10-19_earnings-bridge/pressrelease-12312025.htm",
+      "pass": true
+    },
+    {
+      "check": "all existing KB bytes preserved",
+      "pass": true
+    },
+    {
+      "check": "247 unique KB records",
+      "pass": true
+    },
+    {
+      "check": "boot file cap CLAUDE.md",
+      "pass": true
+    },
+    {
+      "check": "boot file cap AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "boot file cap STATUS.md",
+      "pass": true
+    },
+    {
+      "check": "boot file cap MEMORY.md",
+      "pass": true
+    },
+    {
+      "check": "boot file cap INDEX.md",
+      "pass": true
+    },
+    {
+      "check": "boot file cap NEXUS_BRIEF.md",
+      "pass": true
+    },
+    {
+      "check": "STATUS line cap",
+      "pass": true
+    },
+    {
+      "check": "delivery report pin PROME/inbox/2026-10-19_from-WAL_recurring-earnings-bridge-complete.md",
+      "pass": true
+    },
+    {
+      "check": "delivery report pin AGENTS/REGINALD/inbox/2026-10-19_from-WAL_recurring-earnings-bridge.md",
+      "pass": true
+    },
+    {
+      "check": "owner packet line cap AGENTS/REGINALD/inbox/2026-10-19_from-WAL_recurring-earnings-bridge.md",
+      "pass": true
+    },
+    {
+      "check": "delivery report pin AGENTS/TERRY/inbox/2026-10-19_from-WAL_recurring-earnings-bridge.md",
+      "pass": true
+    },
+    {
+      "check": "owner packet line cap AGENTS/TERRY/inbox/2026-10-19_from-WAL_recurring-earnings-bridge.md",
+      "pass": true
+    },
+    {
+      "check": "owned diff check",
+      "pass": true
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "check": "Q3 fee components",
+      "value": "206.6",
+      "pass": true
+    },
+    {
+      "check": "Q3 expense components",
+      "value": "595.1",
+      "pass": true
+    },
+    {
+      "check": "Q3 pretax identity",
+      "value": "339.1",
+      "pass": true
+    },
+    {
+      "check": "Q3 tax identity",
+      "value": "277.2",
+      "pass": true
+    },
+    {
+      "check": "Q3 ECR components",
+      "value": "223.7",
+      "pass": true
+    },
+    {
+      "check": "Q2 fee components",
+      "value": "198.8",
+      "pass": true
+    },
+    {
+      "check": "Q2 expense components",
+      "value": "583.3",
+      "pass": true
+    },
+    {
+      "check": "Q2 pretax identity",
+      "value": "332.0",
+      "pass": true
+    },
+    {
+      "check": "Q2 tax identity",
+      "value": "268.8",
+      "pass": true
+    },
+    {
+      "check": "Q2 ECR components",
+      "value": "234.2",
+      "pass": true
+    },
+    {
+      "check": "Q1 fee components",
+      "value": "252.6",
+      "pass": true
+    },
+    {
+      "check": "Q1 expense components",
+      "value": "574.4",
+      "pass": true
+    },
+    {
+      "check": "Q1 pretax identity",
+      "value": "231.3",
+      "pass": true
+    },
+    {
+      "check": "Q1 tax identity",
+      "value": "189.2",
+      "pass": true
+    },
+    {
+      "check": "Q1 ECR components",
+      "value": "214.3",
+      "pass": true
+    },
+    {
+      "check": "9M tie Net interest income",
+      "value": "2370.8",
+      "pass": true
+    },
+    {
+      "check": "9M tie Total non-interest income",
+      "value": "658.0",
+      "pass": true
+    },
+    {
+      "check": "9M tie Total non-interest expense",
+      "value": "1752.8",
+      "pass": true
+    },
+    {
+      "check": "9M tie Deposit costs",
+      "value": "507.9",
+      "pass": true
+    },
+    {
+      "check": "9M tie Provision for credit losses",
+      "value": "373.6",
+      "pass": true
+    },
+    {
+      "check": "9M tie Income before income taxes",
+      "value": "902.4",
+      "pass": true
+    },
+    {
+      "check": "9M tie Income tax expense",
+      "value": "167.2",
+      "pass": true
+    },
+    {
+      "check": "Detailed pretax bridge",
+      "value": "7.1",
+      "pass": true
+    },
+    {
+      "check": "Net income increase",
+      "value": "8.4",
+      "pass": true
+    },
+    {
+      "check": "Screen plus visible gains reconciles pretax change",
+      "value": "7.1",
+      "pass": true
+    },
+    {
+      "check": "FY25 exact expense base",
+      "value": "1481.2",
+      "pass": true
+    }
+  ],
+  "calculator_reproducible": true,
+  "scope": "Owned research, accounting identities, source hashes, protected authority and persistence pins; not future actuals or market forecast correctness",
+  "unrelated_repo_diff_check": "PROME ORCH_LOG trailing whitespace detected outside owned perimeter; not edited",
+  "carried_hygiene": "Correction register named receipts clear; ledger/trade scanners rc0 within advertised coverage; KB checker warns one stale existing consensus row; no expiry extensions",
+  "native_transport": "Unavailable; recipient consumption/closeout UNKNOWN"
+}

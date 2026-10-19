@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-19T22:43:55.586460+00:00",
+  "task": "Will-authorized bounded recurring earnings bridge",
+  "artifact": "AGENTS/WAL/research/2026-10-19_Q3-recurring-earnings-bridge.md",
+  "sha256": "a35c89da4b7305d001875b77e17581f86aa9f928bb45c3b0db53d7df5d2b02fb",
+  "research_state": "COMPLETE_PUBLIC_SOURCE_PASS",
+  "owner_receipt": "WAL self-reports bounded pass complete; no helper/background job",
+  "native_coordination": "UNKNOWN_NO_VERIFIED_TRANSPORT",
+  "recipient_consumption": "UNKNOWN",
+  "native_closeout_ask_receipt": "UNKNOWN",
+  "future_carriers": [
+    "2026-10-20 noonET call",
+    "Q3 10-Q for actual disclosure gaps"
+  ],
+  "decision": "No new Will ruling required; user authorized bounded follow-up",
+  "push": "DEFERRED_FOREIGN_DIRTY"
+}

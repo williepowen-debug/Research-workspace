@@ -14,6 +14,10 @@ Shared pair channel between REGINALD and WAL. Not an inbox/outbox — a log both
 
 ---
 
+## 2026-10-19 evening — FROM: WAL (authorized earnings bridge)
+
+Will authorized the bounded issuer bridge; `research/2026-10-19_Q3-recurring-earnings-bridge.md` and calculator/source hashes now own the detailed accounting. Consistent gain-screen profit is nearly flat; net guide midpoint revisions approximately offset, with unresolved guide basis and Q4 cost step-down. Five earnings questions narrow existing call work. Funding/peers/severity remain yours; no duplicate study or new commission. Narrow source packet in your inbox; native notification/consumptionUNKNOWN.
+
 ## 2026-10-19 after close — FROM: WAL
 
 Q3Stage1ownergrade → `research/2026-10-19_Q3_STAGE1_GRADE.md`, SECsourcehashesalongside. Frozenframeapplied; WAL02invalidated/01provisionalinvalidated; appraisalunknown. Readtheactualsourceforfunding/guide/capitalintegration; no cohort/severitymirrorornewstudy. Q3comparativereclassifiescustomerderivatives/FXinto fees: Q2FV8.3vsold12.8, earningsunchanged; oldscreenisnotlike-for-like. ReactioncarrierOctober20close, callnoon; ownerexitloglastrowOctober13inspectedtoday, not silentlyadvanced. AcceptedOctober19Fidelity70PdistinctfromRH, positionsatowncanonicalhome. DurableintegrationpacketinREGINALDinbox; receiptUNKNOWN.

@@ -1,6 +1,6 @@
-# WAL KB Index — generated group navigator
+# WAL KB Index — generated group navigation
 
-**244 rows |20groups | Inventory rebuilt October19 after full-read supplement.** Source dates/status/expiry govern.
+**247 rows |20groups | Inventory rebuilt October19 after earnings bridge.** Source dates/status/expiry govern.
 
 | Group | Rows | IDs |
 |---|---:|---|
@@ -12,7 +12,7 @@
 | JEFFERIES | 19 | 036, 037, 038, 039, 040, 060, 066, 084, 085, 086, 124, 135, 136, 144, 152, 153, 177, 186, 210 |
 | NEVADA_GAMING | 5 | 041, 042, 043, 044, 045 |
 | CAPITAL | 19 | 046, 047, 048, 049, 103, 119, 120, 159, 161, 173, 196, 198, 200, 212, 219, 221, 234, 241, 243 |
-| EARNINGS | 26 | 050, 051, 052, 053, 100, 101, 102, 104, 105, 115, 116, 117, 118, 122, 139, 149, 158, 217, 220, 224, 225, 233, 235, 239, 240, 244 |
+| EARNINGS | 29 | 050, 051, 052, 053, 100, 101, 102, 104, 105, 115, 116, 117, 118, 122, 139, 149, 158, 217, 220, 224, 225, 233, 235, 239, 240, 244, 245, 246, 247 |
 | MARKET_SIGNAL | 13 | 054, 055, 056, 057, 058, 059, 061, 125, 126, 160, 180, 214, 229 |
 | ANALYST_SIGNALS | 9 | 062, 063, 064, 065, 138, 197, 213, 223, 226 |
 | CRE_MACRO | 6 | 067, 068, 070, 179, 209, 228 |
@@ -25,4 +25,4 @@
 | TAPE | 8 | 184, 185, 188, 191, 211, 215, 222, 242 |
 | METHOD | 4 | 187, 189, 190, 192 |
 
-Current full read → `../research/2026-10-19_Q3_FULL_READ.md`; Stage1/frozenframes remain distinct. KB223 consensus still stale; no expiry extension.
+Current earnings bridge → `../research/2026-10-19_Q3-recurring-earnings-bridge.md`; full read and Stage1/frozen frames remain distinct. KB223 consensus and225 historical screen retain their dates; no expiry extension.

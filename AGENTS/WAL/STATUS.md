@@ -2,6 +2,8 @@
 
 **Last Updated: 2026-10-19 after close — Q3 Stage1 complete; Stage2 PENDING-CALL October20 noon ET.** Actual SEC8-K0001628280-26-066286 release and all24deck slides retrieved/inspected after reading the frozen frame. Report and ten precise call questions → `research/2026-10-19_Q3_STAGE1_GRADE.md`. Nothing thesis-level is final between stages.
 
+**Will-authorized earnings bridge complete:** `research/2026-10-19_Q3-recurring-earnings-bridge.md`; KB245–247. Visible-gain-screen pretax320.7→321.8M versus reported332.0→339.1. Consistent-basis guide midpoint net roughly flat; literal ex-deposit cost guide requires Q4≤405.1 versus429.7, a24.6M decline. Guide exclusions/cost persistence/MSR cash-hedges remain unknown, not a miss. Five earnings questions refine existing call questions6/7; leading99M/migration questions unchanged. User authorized this bounded follow-up; wider investigations unstarted. No authority/grade change.
+
 **Will-authorized full read after the prior closeout:** release32tables/narrative/footnotes and deck reviewed in `research/2026-10-19_Q3_FULL_READ.md`. Corrected worksheet: parentCET1capital**7389M is disclosed**,10.9%ratio preliminary; only exactRWA/adjustments/bridge remain gaps. Loanprovision80.8 minusHTMrelease0.8 tiesconsolidated80.0; loanACLbuild35.0. KB243/244; originalStage1artifact/grades and frozenframes unchanged. Capitalcallquestion8now starts from disclosednumerator. No new Willdecision or trade/score change.
 
 **Closeout receipt (2026-10-19T17:43:39-04:00):** PROME coordination request received through this conversation; saved work reconciled without restart. Release-night owner work complete; no background job/helper continues. Receipt → `research/2026-10-19_Q3-stage1-closeout-receipt.json`. Future call/close/10-Q gaps remain below; native thread notification unavailable, recipient consumption UNKNOWN. No new Will decision.
@@ -10,7 +12,7 @@
 
 **Judgment:** Q3 credit actuals weaken the near-term bear: NCO30bps, Office classified272.75M provisional, coverage118%. Earnings/capital mixed: NIM improves but costs/mortgage/guidance/book need qualification. $99M appraisal not identified in release/deck: unknown, not benign. No demonstrated expectations gap established. **v2.4 / EV$75.96 / PT$52–76 / weights unchanged**, owned by THESIS. **Scores/composite13/25 unchanged** pending separate dated judgment; a ledger invalidation is not a silent score change.
 
-**KB: 244 rows /20groups.** New235–242 cover credit/Office/disclosure/outlook/earnings/capital/quote. KB222 superseded by242; October13 consensus223 remains dated and stale, no matched beat claim or expiry extension. Frame/THESIS/SCENARIOS bytes preserved; PREDICTIONS now carries available Stage1 results.
+**KB: 247 rows /20groups.** New235–242 cover credit/Office/disclosure/outlook/earnings/capital/quote. KB222 superseded by242; October13 consensus223 remains dated and stale, no matched beat claim or expiry extension. Frame/THESIS/SCENARIOS bytes preserved; PREDICTIONS now carries available Stage1 results.
 
 ## Q3 FROZEN-FRAME GRADES — release night
 
@@ -38,7 +40,7 @@ Ndiagnostics: NIM3.57% noN1breach; totaldepositcostN2notprinted (2.76%interest-b
 2. EPS2.45vs2.36;PPNR419.1vs412.4;pretax339.1vs332.0;tax61.9vs63.2. Vendorconsensusbasis/datesunmatched: no certifiedbeat.
 3. NII+10.7,NIM+4bp; mortgage84.7→79.5 (origination55.7,servicing23.8). Expenseexdeposit404.1→429.7; salary+21.8. ThreeECR/referral-linetotal234.2→223.7; savings overlapdepositexpense reduction, neveraddtwice. Fundinganalysis→REGINALD.
 4. Q3comparative reclassifies customerderivatives/FX into commercialfees. Q2FVnow8.3vs12.8inOctober14screen; netincomeunchanged. Onnewpresentation, PPNRlesssecuritysale/FV=401.8vs401.1. Not issueradjustedEPS or old8.98screen; hedge/persistence bridgeunknown.
-5. AOCI−451→−786; TCE6906→6720;TBV63.24→62.22;parentCET111.0→10.9%. Buyback92.1 ontrackbutconsumescapital. NIIguide12–14→11–12%;fees13–17→18–21%;expense7–11→7–10%;depositgrowth6B→3.5–4B. Netrecurringearningsbridge required beforeinterpreting guidecut.
+5. AOCI−451→−786; TCE6906→6720;TBV63.24→62.22;parentCET111.0→10.9%. Buyback92.1 ontrackbutconsumescapital. NIIguide12–14→11–12%;fees13–17→18–21%;expense7–11→7–10%;depositgrowth6B→3.5–4B. Bounded earnings bridge saved; guide bases and cost persistence still require call clarification.
 
 ## OPERATOR DEPENDENCIES
 
@@ -74,7 +76,7 @@ Composite13/25; weights2/16/45/30/7unchanged atTHESIS. No independent funding/pe
 
 | When | Required work |
 |---|---|
-| **October20 12:00ET call** |Report's10questions: $99Mmark/reserve/status/bucket; explicitnewmigrations; four/sixcash-loss-OREObridge; guidedNPLdefinition; Officefunded/criticized/maturitybridge; netearningsguide/costpersistence; mortgage/reclasshedgebridge; AOCI/CET1; NDFIborrowers; totaldepositcost/Cantor/hotelgaps. No externalquestionssent |
+| **October20 12:00ET call** |Report's10questions: $99Mmark/reserve/status/bucket; explicitnewmigrations; four/sixcash-loss-OREObridge; guidedNPLdefinition; Officefunded/criticized/maturitybridge; five earnings-bridge questions (guide basis,≥24.6M cost decline, MSR cash/hedges, net optimization, provision/tax/shares); AOCI/CET1; NDFIborrowers; totaldepositcost/Cantor/hotelgaps. No externalquestionssent |
 | **October20regularclose** |Frame10.2reactiontest onmatchedWAL/KREcloses; REGINALDlogcross-check whereavailable. MissingN/Clegsremainunknown |
 | LaterQ3 10-Q |Freeze-framecross-check01;confirm/correct02; appraisal/subsequentevents/legal/fullNPL/NDFI/hotel/hedges/equity/capital. Statutory11/9;ledgerResolve_By11/15retained |
 | Q3FFIECwhenretrieved |MI3 andsame-quarterbankNDFI/commitment/modification/mortgage/capital; June/Decembersemiannualfields notexpectedatQ3. No newstandingmonitor |
