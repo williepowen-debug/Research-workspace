@@ -1,0 +1,35 @@
+# Third-session post-close boot — October 19
+
+PROME, Codex/OpenAI GPT-6 family; exact model suffix UNKNOWN. Native task `01a155c9-1523-7453-b498-a9f88ea2b27c`, task path `/root`; launch cwd PROME, commands at repository root `/home/willi/Research-workspace`. Clock observed 16:11 ET. Root/local CLAUDE, USER, COMPLETION_SPEC, runtime mechanics and boot runner explicitly read. No SessionStart banner supplied; manual checks used.
+
+Boot state PARTIAL: mechanical gate PASS, 8 blocking / 24 advisory; no FIRED-UNEXECUTED gate. One-shot receipt `/tmp/prome-boot-20261019-1610-s3/`; gate.txt and required flagged logs read to EOF. HANDOFF, SCRATCH, STATUS, HEARTBEAT and USER read with bounded continuations to EOF; ACTIVE_DECISIONS digest plus actionable 1/2/10 and guards 5/6/7/9 read. Spine audit October15 is current. Deck paused, Helm retired.
+
+Git fetch succeeded after sandbox escalation; initial fresh comparison 0 ahead / 0 behind. Tree dirty: pre-existing ARGUS baseline/review changes and foreign GIBBS/WALTER work preserved. Pull deferred under dirty-owner rule. Boot instrument advanced BOARD through SIG-W-20261019-016 with no unresolved PROME ACTION line; this is instrument coverage, not a claim of independent source verification for every INFO item.
+
+Capabilities: shell/file execution AVAILABLE; market network AVAILABLE after approved escalation; credential presence AVAILABLE, authentication only established at successful use. Native Codex list/read/message tools exposed; list_threads returned a truncated app-server view, not cross-runtime absence. Host gate snapshot covers only visible PID namespace and lacks a Codex endpoint. Fleet-wide discovery UNKNOWN, pair-specific messaging/closeout unverified. No helpers or owners launched or messaged this boot. Historical ORCH UNKNOWN rows remain historical debt, not live-session counts. Prior PROME task was listed idle; its ARGUS files were not touched.
+
+## Post-close orientation and book
+
+Successful dashboard pull stamp 16:15:46 ET; source `/tmp/prome-boot-20261019-1610-s3/dashboard-network.txt`. Initial sandbox attempt failed DNS; network retry was required because observations were unavailable. HY331 / CCC1297 bp [October16]; December Brent BZZ26 $109.38, USD/JPY158.54, KRE69.27, WAL73.65, OZK45.19, TLT79.46, VIX18.50 [October19 vendor reads]. These are vendor observations, not certified exchange closes or futures settlements. HEARTBEAT is morning orientation only. Earlier consumed LIQUID grade already records >320 MET3/3; X1 CLOSED/DON'T-SIZE and funding limitations remain. No new grade or capital action.
+
+Book $37,494.54 · cash 48.42% · broker export received 2026-10-15 · marks as-of UNKNOWN clock, 10/15 intraday · 4d since receipt — not live, re-check before any fill
+
+Book line pasted from will_brief.py. TERRY inbox/WILL inspected including ignored files: no new unprocessed capture, only README/.gitkeep; historical processed CSV remains. WAL approved pre-print sale window ended today15:30ET; no fill evidence on file, so neither sale nor continued holding is certified. OZK card's backstop is October20 15:30ET. TBT sale and expired QQQ/HBAN broker dispositions remain unknown; any HBAN exercise/resulting stock is not inferred. Canonical obligations remain ACTIVE_DECISIONS10, DOCKET L709 and the TERRY cards. Near catalysts: WAL scheduled tonight, call tomorrow12:00ET; OZK scheduled tomorrow after close. No post-release result claimed.
+
+## COR-20261019-12
+
+Read full BOARD/SIG-W-20261019-012-otto-ally-contract-warehouse-forecast-and-calendar-repairs.md. Apply to this session's interpretation: Ally arrangement is $8B whole-loan purchasing through July2027, with immediate discretionary purchaser cancellation subject to law; the separate90-day notice is not a guaranteed cushion. Narrative July26 and exhibit July27 endpoint discrepancy preserved. No cancellation established; capacity is neither unused availability nor guaranteed access, and this is not a warehouse line. Q2 sales precede the amendment.
+
+OTTO's current warehouse-exit forecast is25% OPEN, coarse subjective judgment; original55% remains for scoring. Negative findings cover the named public-filing perimeter, not the whole market. Strict original-window score3/8, Brier0.276875; no demonstrated forecasting edge. Withdrawn earnings/T-7 arrival inference supplies no timing or holding instruction. Original SDT consequence is first August REFUTE plus next TWO quarterly REFUTEs, three total. October20 actual Ally/VRM review and October30 full thesis/cold read remain owed. This is owner-evidence consumption, not a new primary-source audit or CATO acceptance. Earlier PROME integration already preserved the forecast/calibration corrections.
+
+## Approved work started: consume WALTER's afternoon return
+
+Read the complete `AGENTS/WALTER/research/2026-10-19_breadth-followup/RESULT.md` and dated PROME packet; owner publication source ed53f8858 / a5eb897c4. Accepted as PARTIAL research delivery, not completed attribution. Five/20-session participation recovered through October16 while60-session small-cap weakness persisted. The historical equal-weight-lag proxy had28/42 positive three-month outcomes and7/42 ten-percent closing drawdowns, equal to the broad comparison's7/42; it does not establish a dependable crash timer. Current-basket reconstruction is not official historical membership/A-D. Credit overlay n3 is inadequate; quality-sector screen and three-filing pilot do not isolate refinancing causality. Company-level matched maturity/liquidity/coverage/hedge and subsequent-event work remains with WALTER under Will's existing approval. No duplicated investigation, new monitor or owner grade.
+
+WALTER WILL_NEEDS: none newly created; WQ458 already registered. Earlier same-morning Telegram delivery not evidenced in this read, so no assumption that Will received it. Pending decision with strongest market relevance remains WQ441, recommendation A; outcomes and secondary/inferred-yield limitations remain at the registered row.
+
+## Gaps and continuation
+
+SKIPPED/dependent: writing launches for due ZHAO L482, DAEDALUS L603 and OSPREY L666 withheld because complete same-minute cross-runtime ownership could not be established. Slate DARK is Git history only. Full legacy firetime artifact regrades and remaining ACTIVE-return consumption are not completed; the log's57 flags remain unresolved owner/source work, not a clean certification. CARL/RED/TERRY aged BOARD receipt gaps remain owner duties; no recipient acknowledgment claimed. No domain-file edits or speculative date repairs. In particular VIOLET's October14/15 catalyst grades remain due; read-cap pass does not discharge them. Prior receipt/source gaps remain at DOCKET, not reset by this third boot.
+
+Owed order: broker execution/disposition evidence (Will/TERRY/ANVIL) · current owner-return integration (started with WALTER above) · registered due desks after ownership preflight · approved process backlog. No new process implementation. Done without asking C1–C7: none. Session remains open; this is a boot receipt, not a closeout or publication receipt.

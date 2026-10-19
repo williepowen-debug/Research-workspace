@@ -1451,7 +1451,7 @@ SIG-W-20261015-016-api-crude-neg11point12M-vs-plus1point9M-expected-week-ending-
 SIG-W-20261015-017-nvda-crwv-backstop-split-framing-jensen-cost-of-capital-decreasing-vs-rdd147-13point5B-owed-on-10B-revenue-neoclouds	O	48e00ed08c28800a35bb8ea439fe3c0a9fab2ee9
 SIG-W-20261015-018-anthropic-revenue-45pct-qoq-16point8B-slowing-from-triple-digits-85pct-gaap-gm-11pct-adj-opex-margin	O	1353f0d20dd43b6af47ff60b7ad25bb1459064b1
 SIG-W-20261015-019-mastercard-launches-crypto-stablecoin-payments-platform-200-plus-countries-fiat-alongside	O	0f30e4f159a00d3f7b4d381721c62b34bb519325
-SIG-W-20261015-020-1099-N-Meridian-Indianapolis-office-auction-3M-sale-neg87pct-from-23M-in-2015-286K-SF-39pct-occupancy	O	ef4062e59e67bfcd93a5fd91569c4c94acef1f7a
+SIG-W-20261015-020-1099-N-Meridian-Indianapolis-office-auction-3M-sale-neg87pct-from-23M-in-2015-286K-SF-39pct-occupancy	O	01bbe17642ebf044f2b6f0d5b2ac27d6d0554985
 SIG-W-20261015-021-korea-eod-foreign-flows-kospi-foreigners-neg3point6B-sk-hynix-neg830M-15-cons-sess-samsung-neg1point1B-5-cons-sess-taiwan-neg9point3B-largest-ever	O	216ba56d4f236263672fae78ff2b08dae07b5906
 SIG-W-20261015-022-CORRECTION-to-001-325-is-the-second-not-first-HY-cell-over-320-324-printed-10-01-reset-by-310-10-02-counts-unaffected	O	6c63188d48d471e99470f049fc305643b6d1a8ce
 SIG-W-20261015-023-GATE-LIQ-069-L4-FIRED-10-14-crwv-raw-close-neg15point46pct-plus-fred-hy-316-to-325-plus9bp-gate-stays-2-of-2-count-unchanged	O	14cfe49efcfd2b750e43aaee2129ca54c39af88e
@@ -1506,4 +1506,17 @@ SIG-W-20261018-007-the-galleon-fort-lauderdale-oceanfront-condo-special-assessme
 SIG-W-20261018-008-wsj-businesses-stop-absorbing-costs-raising-prices-plus-ny-state-restaurants-and-bars-down-1928-yoy-q1-2026-qcew-fourth-straight-decline-CARL	O	cecb3a03d43801310f1e88831f6cba6f7afc02ac
 SIG-W-20261019-001-fitb-q3-published-morning-not-amc-gibbs	I	252037e55cbc3066e5c50e1a9ad8ff6d706ba25b
 SIG-W-20261019-002-graham-act-waivers-preserve-existing-eo-sanctions	I	e5003ea9d45efe8a12ec92a8c946267e38ad8b70
-SIG-W-20261019-003-hy-331-third-close-red-ft02-reg-t03	I	56f9a450a69ecd880fc76d73adce7174dafa65b6
+SIG-W-20261019-003-hy-331-third-close-red-ft02-reg-t03	I	d7dcae7f74b07396111f09933c793d4c037a30a4
+SIG-W-20261019-004-october-builder-confidence-29-price-cutters-43	I	3efaf835d9733be433ff54972702267d7d85dbd2
+SIG-W-20261019-005-jmic106-arabian-gulf-upgrade-tug177-cape-dao-conflict	I	bd591d5b80f1036c8f4b19ea2809f32f47b135ac
+SIG-W-20261019-006-otto-primary-funding-access-and-exeter-reserve-support	I	eed44c957fc583160d399606925a9a80dc1273c4
+SIG-W-20261019-007-correction-office-case-1099-meridian-belongs-creed-not-homer	I	e286544c967b152ffbce1d9edd2bf10b40ae95a4
+SIG-W-20261019-008-otto-september-panel-44of44-and-mt-exit-forecast-8pct	I	213b32a4e2421842955b14ad4a70f4e793c5ca92
+SIG-W-20261019-009-homer-nine-read-housing-mf-cohort-and-counterevidence	I	0e750929f166e5d2b30f075a7df29a4bfb5b4779
+SIG-W-20261019-010-liquid-dealer-credit-inventory-and-etf-counterevidence	I	dd79b7bd193dd02878cf36a09622a9da2bd9f728
+SIG-W-20261019-011-coreweave-oct16-evaluated-bonds-and-dtcc-upfronts	I	64ce135c2ab9b55498512222f8437b3b06f2e0ff
+SIG-W-20261019-012-otto-ally-contract-warehouse-forecast-and-calendar-repairs	I	5eec01a0d25d747a98c385aeaf50bb74b4758b13
+SIG-W-20261019-013-china-q3-gdp-45-domestic-investment-still-weak	I	0599f0cf8e192691f71ef468aa23df43b0bd19cc
+SIG-W-20261019-014-france-monday-bond-selloff-after-known-unrest	I	7b9504af569bcdcd04bb1aa29ae596d93bf0c84f
+SIG-W-20261019-015-sp500-rebound-narrow-but-recent-equalweight-recovered	I	393e5ae245d8d128ef29cda820eaa55c0f03bebe
+SIG-W-20261019-016-breadth-history-weaker-gains-not-reliable-crash-signal	I	acb5fb4d5be32d216ae57f4b84dfac95c5647e3c
