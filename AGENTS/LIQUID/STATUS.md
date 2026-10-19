@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-19T12:39:01-04:00 — Will-directed domain sweep, same Codex/gpt-6.1-sol terminal. Dealer credit inventory contracted; CFTC data recovered with vintage limit; ETF creations and named financing continue. → `research/2026-10-19_sweep/REPORT.md`. No capital/threshold change; X1 CLOSED.
+**Last Updated:** 2026-10-19T12:42:35-04:00 — Will-directed domain sweep, same Codex/gpt-6.1-sol terminal. Dealer credit inventory contracted; CFTC data recovered with vintage limit; ETF creations and named financing continue. → `research/2026-10-19_sweep/REPORT.md`. No capital/threshold change; X1 CLOSED.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
