@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-19T18:11:45-04:00",
+  "desk_commit": "6474d8726",
+  "current_cohort_sha256": "278210becafd4ad78bf8e9d5b8125b35837884b4da6b9347341cf029e4340dcc",
+  "recipient_receipt_source": "AGENTS/LIQUID/research/2026-10-19_equity-financing/henry-cohort-receipt.json",
+  "recipient_read_at": "2026-10-19T18:09:39-04:00",
+  "recipient_read_sha256": "225ba47299f4fd8967022cb24614c1e4003bdfce4ff9895dfbd026aff3da7bef",
+  "final_version_consumption": "UNKNOWN: hashes differ",
+  "push_confirmed": "9d7572109",
+  "note": "No native fleet transport/closeout ask receipt established"
+}

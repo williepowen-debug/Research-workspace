@@ -6,10 +6,12 @@ Repaired rates throughOctober16 using Treasury data via FRED after direct-source
 
 Issuer clocks confirmed LUVreleaseOctober21afterclose/callOctober22 10:00ET;AALcallOctober22 08:30ET(07:30CT), exact release minute unstated. HEN46resolutionOctober22replacesOctober31backstop; claim/confidences/original tests unchanged. Wake request toPROME is not a certified automatic wake.
 
-Two newCRUISEpackets plusLIQUIDfirstpassread/logged/filed;133totalpacketsacrossboot+catch-up. LIQUIDfindsheterogeneousfunding;SNDKnilJulydebt/Septemberbankrenewalcountersuniversalrefinancingattribution. WDCpreferredcaveatcorrectedatprimary:nilJuly3,361Mcommon/matchesunchanged. Existing operating/transaction/cushion analysis integrated separately fromCRU11. R3adopt/decline alreadydoneOctober2,notduplicated. State/KB181–183/PREDICTIONS/letter/basis/sourceevidenceupdated; peerbrief folded afterfinalSTATUS.
+Two newCRUISEpackets plusLIQUIDfirstpassread/logged;133filedplus1uncommittedLIQUIDsource,134totalpacketsacrossboot+catch-up. LIQUIDfindsheterogeneousfunding;SNDKnilJulydebt/Septemberbankrenewalcountersuniversalrefinancingattribution. WDCpreferredcaveatcorrectedatprimary:nilJuly3,361Mcommon/matchesunchanged. Existing operating/transaction/cushion analysis integrated separately fromCRU11. R3adopt/decline alreadydoneOctober2,notduplicated. State/KB181–183/PREDICTIONS/letter/basis/sourceevidenceupdated; peerbrief folded afterfinalSTATUS.
 
 Validation: retained-input reconcile passes exact full5/20/60-sessionwindows, frozen eight-name selection, complete size-candidate audit, issuer-source-before-formation dates, price consistency, Decemberexpiry/bar-label checks, AALfullpath and ACMidentity. Read-cap/corrections/schema/route checks recorded in research/2026-10-19_catchup/validation-closeout.txt.
 
 Gaps: commonBRENTmeasurementadoption; LIQUIDfinancingcausality; fullconsensus/Asiahlt/cyberattack/Muse/TLTflows/historicalDGS30source work; carriedISMevaluator-timingdisposition. No newstandingmonitor/threshold/trade. No decision requested ofWill.
 
 Runtime: sameCodex/OpenAIsession, exactmodel/nativeidentityUNKNOWN; nohelpers. Otherdesksdirty; no pull/stash. Ownexplicitpathcommits,recipientnamedpacketcommits,safe-pushreceiptseparatelyreported. Nativefleetnotification/consumptionUNKNOWN; packetpersistencealoneisnothandoffreceipt.
+
+Late receipt: LIQUID actual18:09:39 precursor read has sha225ba472…; final correctedCOHORT6474d8726 has sha278210be…; final-version consumptionUNKNOWN. Desk6474d8726 and sixpackets pushed with confirmed9d7572109 receipt; addendum follows.

@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-10-19T18:10:41-04:00 after the final STATUS write. OpenAI Codex boot + catch-up; current tape17:44ET,35d gamma~17:46ET. Prior October8 basis is historical.
+**Owner fold:** 2026-10-19T18:12:02-04:00 after the final STATUS write. OpenAI Codex boot + catch-up; current tape17:44ET,35d gamma~17:46ET. Prior October8 basis is historical.
 
 **View:** equity amplification risk has risen and broad HY now accompanies the weak tail. Monday's narrow S&P rebound coexists with recent equal-weight recovery and Nasdaq participation. No established systemic funding cascade or reliable crash timer.
 
@@ -11,10 +11,12 @@
 - **HEN-46:**WQ-392 ENCODED:matchedDecemberHOZ26×42−CLZ26,10/15–11/19,same BRENT published basis asWQ-386.95/90.16unchanged,F3SPENT,no successor. CommonF1UNKNOWNpendingBRENTpublication/adoption;ownqualifiedDecembertier3Oct15/16/19 98.921255/99.450909/99.865664,candidateNOTFIRED,notCMEorTERRYgrade. At ruling December about$5 under November and<95 on7/26versus1/26sessions,single-vendor NOT CME. One roll is comparable to the whole separation.
 - **Power:**WATT's10/15dated read:IRAS core rejection removes proposed tariff burden,not PPAs/physical expense;October13–14emergency at~108GW;hedged share/cost amount unknown. No quantified HENRY FCF revision.
 
-**Operations:**133packets(130boot+2CRUISE+LIQUIDfirstpass) read/logged/filed;29named correction receipts scoped to live wrong-carrier scan;0overdue prediction rows. BLS primary web access succeeded,shell403. CommonDecemberreadingadoption,fullconsensus,Asiaexchange-primaryhaltandtankercyberattacksource remain gaps. Rates/ACMrepairedthroughOctober16;DATA.md retainsdirectTreasuryfailures. ISM evaluator-deadline ambiguity remains from October8;no probability/grade/threshold moved.
+**Operations:**134packets(130boot+2CRUISE+2LIQUID) read/logged/filed;29named correction receipts scoped to live wrong-carrier scan;0overdue prediction rows. BLS primary web access succeeded,shell403. CommonDecemberreadingadoption,fullconsensus,Asiaexchange-primaryhaltandtankercyberattacksource remain gaps. Rates/ACMrepairedthroughOctober16;DATA.md retainsdirectTreasuryfailures. ISM evaluator-deadline ambiguity remains from October8;no probability/grade/threshold moved.
 
 **Fixed equity cohort:** eight weak names SNDK/COHR/STX/WDC/MGM/MOS/DELL/SMCI,September18–October16. MatchesCOHR→LITE,STX↔WDC,MGM→WYNN,SMCI→HPQ;threeunmatched,fouruniquecontrasts. Sizeproxy uses pre-windowperiod-end economiccommonshares,notEPSaverages/currentcap. Retrospectiveoutcome/current-membership/productmix limits retained; LIQUIDfirstpassconsumed:heterogeneousfunding,SNDKnilJulydebt/Septemberbankrenewalcountersuniversalrefinancingstory;nocausalproof. WDCpreferredNILJuly3,361Mcommon/matchesunchangedafterdraftcorrection. CRUISEoperatorcontextdatedandseparatefromCRU11.
 
 **HEN46clocks/path:** LUVreleaseOctober21afterclose/callOctober22 10:00ET;AALcallOctober22 08:30ET(07:30CT),exactreleaseminuteunstated. LedgerresolutionOctober22replacesOctober31fallback. F5AALretainedlow/closepath9/11–10/19 min11.64/11.68>11.308,NOTFIREDsinglevendor. Originalcriteria/confidencesunchanged;PROMEwakerequestnotcertifiedautomaticwake.
 
-Evidence:bootresearchand`research/2026-10-19_catchup/{COHORT.md,DATA.md,validation.txt}`;STATUScanonical. Source/return/size/contract/bar/ACMchecksPASS;133totalpacketsread/logged/filed. Durablepackets→LIQUID/BRENT/TERRY/CRUISE/BOND/PROME;consumptionUNKNOWN. Refreshgammabeforemarketuse. No newmonitor/tradeorWilldecision.
+Evidence:bootresearchand`research/2026-10-19_catchup/{COHORT.md,DATA.md,validation.txt}`;STATUScanonical. Source/return/size/contract/bar/ACMchecksPASS;134totalpacketsread/logged;133filed,latestLIQUIDsourceawaitssendercommit. Durablepackets→LIQUID/BRENT/TERRY/CRUISE/BOND/PROME;consumptionUNKNOWN. Refreshgammabeforemarketuse. No newmonitor/tradeorWilldecision.
+
+Late receipt:LIQUIDreadprecursorCOHORTsha225ba472… at18:09:39;finalcorrected6474d8726sha278210be… differs. Final-versionconsumptionUNKNOWN;donotdiscardactualprecursorreadorclaimclosedhandoff.
