@@ -192,3 +192,11 @@ How this rail's legs map into CARL's convergence matrix. **CARL scores; HOMER fe
 **Instrument note (C2 neighbourhood, not a C2 criterion):** the Trepp **MF maturity-adjusted** rate is RETIRED (dated kill EXECUTED 2026-10-15, absent at source Jul–Sep); C2 never graded on it. Its successor for the pre-delinquency channel is MF special servicing (8.54% Sep, +17bp).
 
 **HOMER defect (V2):** the September Trepp print and PMMS 10/08 were integrated ~2 weeks / 1 week late (the 10/14–15 crash). Under V2 a print HOMER failed to fetch PAUSES a run; no run was in progress, so no count is affected.
+
+### 2026-10-19 — L725 October HMI (mechanical update only)
+
+| Leg | First print integrated | Fired count | Verdict | Frozen cleanest-flip check |
+|---|---|---|---|---|
+| **A3** | October NAHB HMI **29** (Sep 32); cutters **43%** (38%); incentives **65%** (66%). PRIMARY NAHB HMI page directly fetched after 12:09 ET; issuer schedule 10/19 10:00 ET. Evidence: `reports/2026-10-19_morning_evidence/nahb_live.txt` | **0 / 3** | **NOT FIRED**: 29 <40 | For cutters >45%: NOT MET. Against HMI >=36 AND cutters falling: NOT MET. Explicit cutters rose 5pp; incentive participation eased 1pp. Average explicit cut 6% is a lower bound on total concessions |
+
+No other newly resolving print was integrated: **0/5 legs killed**, no criterion or confidence moved. C1 0/3; C2 CMBS 0/3 and GSE 0/3; A1 remains one of two FHA-quarter declines with all-loans cure YoY ungraded for August; A2 0/4 (10/15 PMMS reread is not another weekly print). ATTOM August and Trepp September SS relays duplicate existing evidence; Galleon is an unverified single-building case. None grades a core kill. **Formal review 2026-11-20, §7 V5 and §8a 19/25 handle unchanged.** Report: `reports/2026-10-19_morning-L725.md`.

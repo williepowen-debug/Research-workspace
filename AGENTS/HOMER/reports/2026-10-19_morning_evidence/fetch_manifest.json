@@ -1,0 +1,110 @@
+[
+  {
+    "key": "nahb_oct",
+    "url": "https://www.nahb.org/News%20and%20Economics/Housing%20Economics/Indices/Housing%20Market%20Index?source=news_body_link",
+    "final_url": "https://www.nahb.org/News%20and%20Economics/Housing%20Economics/Indices/Housing%20Market%20Index?source=news_body_link",
+    "status": 200,
+    "sha256": "875fc382fc9fa38424b8a73f3fc96efadecd23b52f14a7d833adad5209329754",
+    "text_bytes": 10954,
+    "saved_text_sha256": "405a963e2cc107b08d7c3bafb909ffd49a153c43d78849059d3b9a8dc346efbf",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.705764+00:00"
+  },
+  {
+    "key": "nahb_live",
+    "url": "https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index",
+    "final_url": "https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index",
+    "status": 200,
+    "sha256": "9edf4f304641ec22d82f6fbf396782d2266025e32e83dc77bf6f0fd9395eef7f",
+    "text_bytes": 10953,
+    "saved_text_sha256": "ca913f2f259517f40279caba781d979cd3740f235ed24435c4dc8f8f2029d9dd",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.705828+00:00"
+  },
+  {
+    "key": "fred_dgs10",
+    "url": "https://fred.stlouisfed.org/series/DGS10",
+    "final_url": "https://fred.stlouisfed.org/series/DGS10",
+    "status": 200,
+    "sha256": "fb2cc407f778a509d6f742f3736181490bb99aa3e6b7428b9375144201b15fb7",
+    "text_bytes": 5081,
+    "saved_text_sha256": "2fda64594ac240f86546ce4f10f9768a742502f7e35cdac04234a5dca35c37d2",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.705869+00:00"
+  },
+  {
+    "key": "freddie_pmms",
+    "url": "https://www.freddiemac.com/pmms",
+    "final_url": "https://www.freddiemac.com/pmms",
+    "status": 200,
+    "sha256": "3cb6c6d967d41cdcd1a94af8a2a5d63a6b4f026a29ce7c4be165afaea62a03a3",
+    "text_bytes": 10983,
+    "saved_text_sha256": "7ce3ecd0ce4eee6a6cbdef9e270baa4b512ed9c19fa9e0c56ed52127b83eb4aa",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.705955+00:00"
+  },
+  {
+    "key": "attom_aug",
+    "url": "https://www.attomdata.com/news/market-trends/foreclosures/august-2026-foreclosure-market-report/",
+    "final_url": "https://www.attomdata.com/news/market-trends/foreclosures/august-2026-foreclosure-market-report/",
+    "status": 403,
+    "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+    "text_bytes": 33,
+    "saved_text_sha256": "dac0a9bf68a19446e53ee5495a4f925eb598ef8feb0918f2ab802069ce053ea6",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.706028+00:00"
+  },
+  {
+    "key": "nahb_schedule",
+    "url": "https://www.nahb.org/news-and-economics/housing-economics/indices/NAHB-Wells-Fargo-Housing-Market-Index-Release-Dates",
+    "status": 200,
+    "sha256": "c3aad0938fe0de5311bae60b2b2cd2bc8897c273f47112f4719935a6e5947a08",
+    "saved_text_sha256": "c4b8a6ff46e6053f2dcb9ebaef09791ca30b4f47149280888a66db98a9f35462",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.706080+00:00"
+  },
+  {
+    "key": "texas_secondary",
+    "url": "https://www.creditandcollectionnews.com/texas-flagged-cre-loans-top-1b-in-october/",
+    "status": 200,
+    "sha256": "ffb422c245df12e50b3dcc8cbf4e8362b203379f5259b62803a3e9d99c85193a",
+    "saved_text_sha256": "48d83ee90d800779eb60150f05c895c00ebf4ec24347fcb65c8b9c078bfb78da",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.706231+00:00"
+  },
+  {
+    "key": "texas_original",
+    "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/",
+    "status": 403,
+    "sha256": "60fe3433bb0f16c1cd890300217fe4870270f8756cfb816e44f9908f2d130966",
+    "saved_text_sha256": "bfc76367c35096daef937a0609a8933bdd8aef95232e44d341749f5930aa9a60",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.706266+00:00"
+  },
+  {
+    "key": "attom_sept",
+    "url": "https://www.attomdata.com/news/market-trends/foreclosures/september-2026-foreclosure-market-report/",
+    "status": 403,
+    "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+    "saved_text_sha256": "dac0a9bf68a19446e53ee5495a4f925eb598ef8feb0918f2ab802069ce053ea6",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.706295+00:00"
+  },
+  {
+    "key": "attom_q3",
+    "url": "https://www.attomdata.com/news/market-trends/foreclosures/q3-2026-foreclosure-market-report/",
+    "status": 403,
+    "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+    "saved_text_sha256": "dac0a9bf68a19446e53ee5495a4f925eb598ef8feb0918f2ab802069ce053ea6",
+    "retrieval_session_date": "2026-10-19",
+    "manifest_updated_utc": "2026-10-19T16:11:26.706323+00:00"
+  },
+  {
+    "key": "fed_h15",
+    "url": "https://www.federalreserve.gov/releases/h15/",
+    "status": 200,
+    "sha256": "17ccc53896202c3ded8bea5bd3097ce0814717e9f5509466bf3e70795bf92ab6",
+    "saved_text_sha256": "ba0cd90164942891b02e381257950b6dc165565f1f063537a78d6377155a2ecd",
+    "retrieved_utc": "2026-10-19T16:11:49.485897+00:00"
+  }
+]

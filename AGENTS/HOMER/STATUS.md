@@ -9,6 +9,7 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
+✅ **10/19 — L725:** October HMI integrated; spread recomputed; Texas auction report inspected with source gaps. Evidence and dispositions → `reports/2026-10-19_morning-L725.md`. Independent Will-launched Codex terminal; local persistence, PROME coordinates push.
 ✅ **10/15 PM — L722 FULL CATCH-UP (PROME Tier-1 wake; Will's 10/14 ask).** Pulled at issuer: Trepp Sept DQ + SS (PDFs) · PMMS 10/08 + 10/15 · NAR EHS Sept · ICE Mortgage Monitor Oct · FMHPI Aug · Realtor.com Sept · Redfin Sept (gap + monthly) · MBA wk 10/2 + 10/9 · MND. **NOT OUT at 10/15 noon:** NAHB Oct (Mon 10/19) · ICE First Look Sept (~10/22–28) · ATTOM Sept/Q3. **NOT PULLED:** TX Oct auction list. ⛔ **Trepp MF mat-adj DATED KILL EXECUTED** (absent at source 3 months; successor MF SS).
 ⚠️ **10/15 AM (WQ-436 crash recovery):** residue committed, no data refreshed → `archive/STATUS_bottom_line_2026-10-15-AM.md`.
 ✅ **10/02 (Tier-2 bounded spawn):** PMMS 10/01 7.28% graded HOLD; CREED MF relay triaged.
@@ -57,7 +58,7 @@
 |---|---|---|
 | **🔴🔴 ★★★ 30-Yr PMMS** | **7.40% [wk 10/15], UNCHANGED** · 7.40 [10/08] (+12) · 7.28 [10/01]; 15Y 6.71%; year-ago 6.27% (+113bps). ISSUER page read 10/15 12:02 ET | 🔴🔴 **RED, 40bps through; no uncrossed rung above.** A2 kill 0/4. The rise PAUSED |
 | **CONTEXT — FOMC 9/16** *(BROCK/HENRY own direction)* | **HIKED 25bp → 3.75–4.00%, 12–0**; SEP 2026 median 4.1 ⇒ one more hike implied | context |
-| **★★ 10Y-FRM spread** | **~212bps [10/08]** (7.40 − DGS10 5.28 [Wed 10/7]) · ~199 [10/01] · ~192–194 [9/10–9/24] · **~219 [10/15] PROVISIONAL** (Tue 5.21; Wed close not yet on FRED) | 🔴 **the 10/08 rise was ~ALL spread (10Y flat)** — widening 3 weeks running; cause not established |
+| **★★ 10Y-FRM spread** | **~221bps [10/15], recomputed 10/19** = PMMS 7.40% − Wed 10/14 nominal 10Y 5.19% (Fed H.15 PRIMARY, FRED MIRROR). Prior ~212 [10/08], ~199 [10/01]; replaces provisional 219 | 🔴 **+9bp WoW; third weekly widening in house Wednesday-close convention.** Weekly survey minus one daily close, not a full-window mean or MBS OAS; cause unknown |
 | **BASIS TRAP** | PMMS 7.40 [10/15] · **MBA 7.50 [wk ending 10/9]** (highest since Nov-2023) · **MND 7.45 [10/14]** (52-wk high 7.61 on 10/5) | ✅ span narrowed 42bps (9/24) → ~10bps: PMMS caught up; MND has eased ~14bps from its high |
 | **★★ MBA weekly apps** | **wk ending 10/9: PURCHASE −4% WoW, −16% YoY**; refi −56% YoY; ARM share 10.5% (highest since Oct-25) · wk 10/2: purchase −2.1%, −15% YoY (MBA NewsLink; level 139.3 = T2) | 🟠 purchase demand falling; YoY deepening −11 → −15 → −16% |
 | **🔴🔴 Existing home sales (SAAR)** | **3.99M SEPTEMBER (+1.5% MoM, −2.2% YoY)**, NAR issuer 10/13; **Aug REVISED 3.98 → ~3.93M** (inferred from NAR's % change); 4.8 months; median $417,500 (+1.3%); first-time 31% | 🔴🔴 **RED (<4.0M) crossed by 10K — inside revision noise**; no uncrossed rung |
@@ -68,7 +69,7 @@
 ### Builder Distress
 | Metric | Value (as of) | Band |
 |---|---|---|
-| **🔴 NAHB HMI** | **32 SEPT (−3)**; sales 35, **expectations 37 (−6)**, traffic 23. **Price cutters 38%**, avg cut 6%; **incentives 66%** *(pub 9/16)* · ⏳ **October HMI NOT OUT — Mon 10/19 10:00 ET** (archived NAHB schedule) | 🔴 **Price Cuts 38% = ORANGE, 7pts below RED (>45%)** |
+| **🔴 NAHB HMI** | **29 OCT (−3)**; sales 33, expectations 32, traffic 18. **Price cutters 43%** (Sep 38), avg explicit cut 6%; **incentives 65%** (66). NAHB PRIMARY directly fetched 10/19 after release | 🟠 **RED price-cut rung >45% remains uncrossed**: +2pp reaches equality. A3 HMI ≥40 ×3 **0/3**; neither directional flip met. Explicit cuts understate total concessions |
 | **Builder earnings — `BUILDER.tsv`** | **LEN FQ3 GM 15.8% (Q2 15.6, yr-ago 17.5), ORDERS −9% YoY · KBH FQ3 op margin 5.2%, ORDERS −12%, cancels 18%.** DHI GM 20.7% · PHM 25.0% on ASP −3%. ★ **Hunterbrook (short) LEN→Millrose 700+ homes: Millrose's 8/27 amendment PERMITS buying completed homes as rentals (EDGAR, verified); the sales are NOT disclosed in any filing** | 🟠 margins at the trough while ORDERS fall · DHI + PHM move AWAY from CRL-23 |
 | **★★ Residential construction employment** | **AUG: 18th month of YoY decline — but the deficit more than halved, −44,200 → −19,800** | 🔴 streak / 🟡 **easing — say both halves** |
 | Q2 GDP residential fixed investment | +1.3% SAAR (2nd est.) — first positive in five quarters | 🟡 |
@@ -90,7 +91,7 @@
 | FL | **Condo/TH median — ONE FIGURE (CORAL)** | **$298K, +2.8% YoY (Aug, FL Realtors)** — supersedes my July 0.0% cite. My FL condo figures are metro/segment only | 🟡 cuts AGAINST statewide price distress |
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
 | FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo AUG: 12.1mo (Jul 12.0), median $408K −0.5% YoY, 66 days to contract (Jul 86)** — my July 'declining median' is NOT supported: price ~flat, only speed moved *(MIAMI REALTORS 9/16)* · Tampa $/sqft −5.6% YoY · Cape Coral HPI −2.3% YoY (ICE, Aug) · **Miami #1 buyer's market, Sept: 158.9% more sellers than buyers (Redfin via WALTER)** | 🔴🔴 sub-statewide |
-| **TX** | September CRE FC auction pipeline (Texas Triangle) | **$778M, $562M (>70%) MULTIFAMILY** — down from >$1B Aug; 16 repeat flags; S2 Capital ×2, an Arbor loan *(CRE Daily 9/4, secondary)* | 🔴🔴 |
+| **TX** | October CRE auction postings, major markets | **>$1B / 46 properties / 18 repeats** (CCN 10/06 via TRD/Roddy, SECONDARY). Sept $778M / $562M MF. **October MF subtotal UNKNOWN; original/list unavailable** | 🟠 postings, not sales, new distress or losses. Do not carry Sept MF share into Oct |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
 ### ⚠️ STANDING CAVEATS
@@ -120,17 +121,17 @@
 ---
 
 ## CATALYSTS — FORWARD ONLY
-*Full calendar → `docket/CATALYSTS.tsv` (canonical).* Every lapsed row was pulled or checked 10/15; what is not out yet is dated below.
+*Full calendar → `docket/CATALYSTS.tsv` (canonical).* 10/19 HMI and spread follow-ups completed; Texas secondary inspected. ATTOM access unresolved; dated rows remain on their own clocks.
 
 | Date | Event | Watch |
 |---|---|---|
-| **Mon 10/19 10:00** | **NAHB Oct HMI** (archived NAHB schedule) | A3 flip: price cutters >45% (RED; Sep 38%) for · HMI ≥36 with cutters falling against |
+| **Tue 11/17 10:00** | **NAHB Nov HMI** (issuer schedule) | October HMI 29, cutters 43%; A3 0/3; RED cutters >45% uncrossed |
 | **10/20 · 10/27** | NRC + **NAR PHSI (Tue 10/20, issuer)** · NHS (Sept) | Redfin pending −4% MoM says contracts fell; does PHSI agree? |
 | **10/22 · 10/28 · 10/29** | **PHM Q3 · MTH Q3 (after close) · DHI FQ4** | margins at the trough vs orders falling |
 | **Thu 10/22** | PMMS | 7.40 flat; MND eased ~14bps from its 10/5 high |
 | **~10/22–28** | **ICE First Look (Sept)** | C1 flip: FC sales YoY ≥ +20% for · FC inventory down MoM with sales down against; 90+/FC 872K vs RED 1M |
 | **~10/23–30** | Fannie + Freddie MF (Sept) · Case-Shiller Aug (~10/27) · FMHPI Sept (~10/30) | do the GSE books keep diverging? |
-| **~10/15–22** | ATTOM Sept monthly / **Q3 report** (not out 10/15) | Q3 STARTS vs Yellow >100K |
+| **next owner session / late Oct** | ATTOM Sept monthly / **Q3 report** (access UNRESOLVED 10/19: issuer paths 403; cannot infer unpublished) | Q3 STARTS vs Yellow >100K; prior Q2 vintage retained |
 | **~11/02 · ~11/13** | Trepp Oct DQ · Oct SS | MF 8.04% — does it cure (as May did) or hold? |
 | **~11/02–13** | ICE Mortgage Monitor (Nov) | does ICE print the all-loans cure YoY again? If not, the band needs a data route |
 | **🔴 ~mid-Nov** | **MBA Q3 NDS** | ⛔ **HOM-02's decider** — FHA ≥12.00% confirms; a 2nd QoQ decline kills it early |
@@ -154,12 +155,10 @@
 
 ## BOTTOM LINE
 
-**2026-10-15 (Thu) PM — L722 full data catch-up (PROME Tier-1 wake on Will's 10/14 ask). Prior 10/15 AM BOTTOM LINE → `archive/STATUS_bottom_line_2026-10-15-AM.md`.**
+**2026-10-19 — L725 morning commission, independent Will-launched terminal.**
 
-**① The lapsed prints are in, at the issuer, and they lean one way: demand is falling while supply builds and multifamily credit worsens.** Trepp CMBS multifamily delinquency rose to **8.04% in September (+35bp), its 2026 high**; special servicing rose to 8.54%. Mortgage rates sit at **7.40%** (10/08 and 10/15), and the 10/08 rise came almost entirely from a wider mortgage-to-Treasury spread, not from Treasuries. Redfin counts **62.6% more sellers than buyers**, a record, with buyers at a record low and pending sales down 4% in a month; MBA purchase applications are 16% below a year ago. Existing-home sales printed 3.99M, still under the 4.0M RED line, and August was revised down to ~3.93M.
+**Builder demand weakened:** October HMI **29** (32), price cutters **43%** (38). Incentive participation eased **66% →65%**, and explicit cuts remain a lower bound on the effective discount. Frozen A3 kill **0/3**; neither directional flip met. Mortgage spread **~221bp** on 10/15's PMMS 7.40% minus Wednesday 10/14 nominal 10Y 5.19% (issuer sources), **+9bp** from 10/08, replacing provisional 219.
 
-**② What cuts the other way.** Prices are not falling nationally: FMHPI rose 2.19% YoY in August, though July was revised down to 1.89%, and ICE's index is flat over three months. FHA new defaults keep falling (−15% YoY). Multifamily special servicing is not at a new high.
+**Texas postings rose above $1B**, including 18 repeat properties out of 46 (secondary); underlying list, MF subtotal and outcomes remain missing. Postings do not establish new distress or realized bank losses. ATTOM August REO and Trepp September MF SS relays duplicate existing evidence; Galleon is an unverified building case. **No core kill follows from any of them.** September/Q3 ATTOM access failed; that is not proof of nonpublication.
 
-**③ Rules graded.** Thesis kill rail: **0 of 5 legs fired, 🔴 holds** (THESIS §9). C2's "for" flip (>7.71%) is met. The C2 handle trigger is met but is re-scored at 11/20 per §8a. The **Trepp MF maturity-adjusted dated kill is EXECUTED**: absent at source for three months; the successor is MF special servicing. **Cure Rates band UNGRADED** for August because ICE did not print the statistic; last graded YELLOW. `GATE-HOMER-THESIS-KILL`: unchanged, review 11/20.
-
-**④ Not done:** NAHB Oct (out 10/19), ICE First Look Sept, ATTOM Q3 (not released); TX October auction list (not pulled). Inbox drained 9 → 0.
+**Thesis rail remains 0/5 legs killed; formal review 11/20, 19/25 handle unchanged.** Inbox four items integrated before filing; office request declined to WALTER as misrouted. Source/access and runtime evidence: `reports/2026-10-19_morning-L725.md`. Next dated owner work: NRC/PHSI 10/20, PMMS/PHM 10/22, then ICE/GSE monthlies. Local commits only, no push under this commission. PROME consumption and explicit closeout exchange remain unverified. **Will decision required: none.**
