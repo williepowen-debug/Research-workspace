@@ -1,6 +1,6 @@
 {
  "_doc": "L738 build receipt — what the LAST RENDER of the Owed view contains (digest over the owed set + extras: renderer fingerprint, reference note). A render is not a publish: the hosted record is written only by --record-hosted-owed after a confirmed publish.",
- "digest": "4d921d434436e7ae10b7c9b9b034f1e763ea1503cbbf9f2ddec94fd23ea48e45",
+ "digest": "e877c7a259d8adde49333118f526ac2943ddce709a87449ae8e49acf5087ebb1",
  "fingerprints": {
   "31": "6c11fcda16a481fb33d357f1feb900e2723daf2f5f50279621f70a23aeccf783",
   "204": "beb37721f427ea90eefe0ddb2b07510c693f7b0c8c2b3c91fc14031e91c9b253",
@@ -16,14 +16,17 @@
   "451": "1cadb6003bb0552565ab2e0a9758284b094e1a39df4e97959d1d2f3a2a28696d",
   "452": "5408724633afd4c64573605a53ef9992fb8cfd6170097eb5e7862a8653f9269d",
   "453": "a0f9545ec65190c1d90b0ccd0efe7766b03220a6f85f5ef716b6f3ab818d7c71",
-  "454": "0c5308217191ee598ebb7c113449c6c4d0352c0dbc36cdbfe91a6e91a5e00d42"
+  "454": "0c5308217191ee598ebb7c113449c6c4d0352c0dbc36cdbfe91a6e91a5e00d42",
+  "455": "12e7fc37cefcd686ac682ca494f2b2517b4d78739f11388e9fe5ae7914940b4c",
+  "456": "663a1f171aa0880a485ef4aa8ae02cb45e92cb692750be2c25ad429b5ce5160e",
+  "458": "39359df20b7ed794fa140ec274255a7e591bae5d0a6fcf473f091745caef9231"
  },
  "extras": {
   "renderer": "c3e7235cc3dd746c0c70b12af712be43c5a101aa8cbef137b29ee48170ab6a5e",
   "reference_note": "hosted build 2026-09-26 16:03 (v12); refreshes on Will's word or at a spine audit"
  },
  "link_mode": "hosted",
- "build_id": "b9a3dc3a5·2026-10-16 21:31 ET",
- "built_at": "2026-10-16 21:31 ET",
- "build_sha": "b9a3dc3a5"
+ "build_id": "6c4707bd3·2026-10-19 12:02 ET",
+ "built_at": "2026-10-19 12:02 ET",
+ "build_sha": "6c4707bd3"
 }

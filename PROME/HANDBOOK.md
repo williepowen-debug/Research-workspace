@@ -6,25 +6,19 @@
 
 ## Top priorities
 
-**2026-10-15 16:05 ET — PM closeout after the reboot (edited through the closeout's audit rounds); levels are the midday reads, owner reads as dated:**
-- **Your orders, nothing placed by PROME:** HBAN Oct-16 16P ×1 rides with ONE LOOK Friday before 16:00 ET (WQ-302 R-B) and the QQQ Oct-16 735C ×1 expires Friday; TBT ×5 sale approved (WQ-357), your order; WAL 65P ×4 to be sold before Monday's WAL print and OZK 40P ×4 to be sold before Tuesday's OZK print (WQ-429/428; fills owed, L709), no order seen at the 10:10 capture.
-- **What the afternoon meant:** nothing fired. LIQUID graded gate 069's fourth leg fired on the 10/14 session (CoreWeave −15% with high-yield +9bp) — the gate was already 2-of-2, no new consequent. BRENT's unattended Thursday read: the weekly crude draw crossed its registered line (−8.6M barrels) while Cushing built a fourth week — BRENT's next session owes the reading. WALTER's 23 signals of the day were unreadable to PROME's scanner from 10:44 to 15:06 ET (a stripped template; the cursor sat at the last 10/14 signal the whole time); fixed at the sender.
-- **Since the 13:20 midday closeout:** WQ-444 registered (14:44) and RULED by your words in LIQUID's window at 15:08 ET — LIQUID's letter, which you approved: 'sustained' above 320 = three consecutive first-published readings strictly above 320 (recorded, encoded). LIQUID's own caveat travels with it: the letter was chosen after the 324 [10/1] and 325 [10/14] cells were known, mitigated only by copying the two pre-existing desk counts. **New for you:** WQ-443 (the verdict-first rule, registered 14:42) and WQ-445 (lift PROME's one-change-per-sitting rule for the improvement sittings? rec A).
-- **The improvements you asked for:** step 1 is done and independently read twice — the orchestration ledger now has one writer wired into every procedure and a blocking gate check (with a named limit the tool owner must close). Step 2 (the broker as-of defect) is next; step 3 waits on your WQ-443 word (by 10/19).
-- **Still your word:** WQ-445 (by tomorrow) · WQ-441 Volta baseline (by 10/17) · WQ-443 (10/19) · WQ-442 CoreWeave card (10/23); hands on 302 · 357 · 422; the generated queue owns the full list.
+**October19 — full NEXUS delivery consumed; remaining fleet work stays scoped:**
+- **Broker follow-through:** existing position/disposition duties remain at DOCKET L709 and the owner cards. No new broker evidence or trade action.
+- **Decisions:** WQ459 A is approved; the frozen owner rule is registered, with anchor availability still pending/NOT ARMED. Other decisions remain in the generated queue.
+- **Synthesis:** current assessment and decision-relevant limitations → `PROME/BRIEF.md`; exact NEXUS/OTTO deliveries and implementation → `PROME/reports/2026-10-19_NEXUS-execution-coordination.md`.
+- **Coverage:** WALTER’s broader sweep and GIBBS’s first-owner retrospective remain PARTIAL. Their records own the remaining source and persistence gaps.
+
 ## Spawn queue
 
-Current owner obligations and dates come from `PROME/DOCKET.tsv`; eligibility and preflight remain in `PROME/ROSTER.md` and `PROME/CLAUDE.md`. A same-minute liveness check precedes every launch; a desk you launched yourself is doorbelled, never duplicated. Tomorrow's due-row wakes (WQ-184 class, up to eight when every row is a dated catalyst or review date):
+Canonical obligations: `PROME/DOCKET.tsv`; eligibility and same-minute preflight: `PROME/ROSTER.md` and `PROME/CLAUDE.md`. Never infer absence from an idle record.
 
-- **LIQUID** · Fri 10/16 after 08:00 ET · LIQ-07 funding verdict on the 10/15 SOFR; discount window; TIC (L721). Gate 069's fourth leg is already graded (fired on the 10/14 session, count unchanged).
-- **BROCK** · Fri 10/16 · CRMT Item 1.01 backstop #3 and the bridge-6 STD check (L586 · L651) — not read Thursday (the feed completes after 16:30 and PROME closed first); dark since 10/14
-- **ORACLE** · Fri 10/16 · first bounded daily pull of the October $110 oil leg (WQ-314 (b); L729, through 11/1)
-- **REGINALD** · Fri 10/16 · CFG Q3 print (call 09:00 ET, L620) and the Nano Banc P&A document check (L516)
-- **VULCAN** · Fri 10/16 after the close (16:00–20:00 ET) · Volta pricing (the WQ-441 test), GPU-rental reading 6, mag7 slot 6, the first `semi_watch.py` Friday slot — VULCAN has no auto-trigger; it asked for this wake
-- **CRUISE** · Fri 10/16 if dark · the NCLC $950M 2031-notes closing 8-K read (L712; catalyst-dated — a sixth wake inside C6's eight)
-- **Slated for your word (not catalyst-dated):** OSPREY · the strike_feed read PROME commissions (L661)
-- **GIBBS** · Mon 10/19 · first live session: retrospective read of the already-printed large banks, then FITB after the close (L704)
-- **HOMER** · Mon 10/19 · NAHB October HMI (A3 leg of GATE-HOMER-THESIS-KILL) and the 10/15 spread recompute (L725)
+- **NEXUS / OTTO:** existing Will-owned independent windows; use their recorded channels and UUIDs in the coordination receipt, never the archived parent-controlled NEXUS child. No duplicate owner. NEXUS registered WQ459 with anchor pending; OTTO’s next reads stay scheduled.
+- **LIQUID L746 / HOMER L725:** owner wakes remain unlaunched in this session; qualified source evidence and current-owner preflight govern the next touch.
+- **WALTER / GIBBS:** incomplete work stays at the original owner records; no full-coverage claim or automatic relaunch.
 
 ## Runs itself — no window needed from you
 

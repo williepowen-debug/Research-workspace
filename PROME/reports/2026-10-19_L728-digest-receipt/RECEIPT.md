@@ -1,0 +1,9 @@
+# L728 — morning digest receipt check, 2026-10-19 09:48 ET
+
+PARTIAL. The first Telegram digest is NOT VERIFIED. No Telegram message was sent in this check.
+
+Read-only GitHub evidence: the latest Research-Intake collector run succeeded 2026-10-18T17:40:37Z, run39150685168 (https://github.com/williepowen-debug/RESEARCH-INTAKE/actions/runs/39150685168). The latest30 run records all name `collect`. Querying workflow `prome_digest.yml` returns HTTP404. The current checkout at38306b52a08f53efc68713a78f64431e552bf867 contains `.github/workflows/collect.yml` only; that workflow has no Telegram send. These establish an absent registered workflow at the queried repository, not whether a message was ever sent elsewhere.
+
+The two prepared code blocks from `PROME/proposals/2026-09-06_L293-intake-digest-packet-TO-WILL.md` are extracted verbatim under `staged/` for review, not installed. Python syntax parses and the current-repository dry run exits0; the exact message is `dry-run.txt`. This old candidate is WITHHELD from deployment: its output labels CARL DARK even though today's host inventory observed CARL's Claude process. A cold CI clone cannot certify host-owner absence. The message is also truncated at3900 characters. Successful execution therefore does not establish safe current operational semantics.
+
+L728 remains PENDING: Will's10/15 hands-complete receipt is preserved, but the promised first-message receipt has not arrived. The existing packet explicitly reserves installation in Research-Intake to Will's word; no remote edits, deployment, workflow trigger, secret inspection or external send is authorized by today's receipt check. The missing workflow and stale presence wording must be resolved before a live test. No process instrumentation was changed. This report and its verbatim staging are evidence, not a repair-completion claim.

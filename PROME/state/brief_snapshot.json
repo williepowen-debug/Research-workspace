@@ -1,12 +1,12 @@
 {
  "channels": {},
  "docket": {
-  "2026-10-16": "OSPREY strike_feed.py",
-  "2026-10-17": "WQ-373 PHASE 1",
   "2026-10-19": "BESSENT '2027-01-10' EXTENSION",
   "2026-10-20": "RECEIVER-SIDE CANARY for every routing path (Will 9/25 14:08 ET \"proceed\u2026",
   "2026-10-21": "EGBN Q3 print = CHG-027's single deciding print, pre-registered branches\u2026",
-  "2026-10-22": "WAL Q3 print + deck slide 12"
+  "2026-10-22": "WAL Q3 print + deck slide 12",
+  "2026-10-23": "PJM's DR-verified 7/2/2026 peak",
+  "2026-10-24": "NISABA WEEK-ONE READ"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -24,6 +24,7 @@
   "GATE-LIQ-079": "LIVE",
   "GATE-NEXUS-SEAT-01": "RESOLVED",
   "GATE-NEXUS-T12S-DFII10": "LIVE",
+  "GATE-NEXUS-WQ459-HY": "LIVE",
   "GATE-OP-SCALE-01": "LIVE",
   "GATE-OSPREY-001": "LIVE",
   "GATE-TERRY-ROLL70-EXIT": "LIVE",
@@ -50,6 +51,9 @@
   "451": "\u2696\ufe0f GOLD UP AND REAL YIELDS UP \u2014 WHO OWNS THE QUESTION? RED S54 \u00a7 4 bl\u2026",
   "452": "\u2696\ufe0f RETIRE THE WORK THAT STILL FEEDS RETIRED ARTIFACTS \u2014 three units.\u2026",
   "453": "\u2696\ufe0f ORACLE \u2014 three units from its first daily pull (L729, 10/16). 453.\u2026",
-  "454": "\u2696\ufe0f REGINALD \u2014 two units from its 10/16 due-row session. 454.REG27: th\u2026"
+  "454": "\u2696\ufe0f REGINALD \u2014 two units from its 10/16 due-row session. 454.REG27: th\u2026",
+  "455": "\u2696\ufe0f FULL FIDELITY IRA ACCOUNT NUMBER (\u20221326) IS IN THE PUBLIC REPO \u2014 w\u2026",
+  "456": "\u2696\ufe0f TWO FOLLOW-UPS TO WQ-455 \u2014 how much of the money side stays public\u2026",
+  "458": "\u2696\ufe0f BOOKMARK PILOT REVIEW \u2014 continue the existing bookmarks-only lane\u2026"
  }
 }

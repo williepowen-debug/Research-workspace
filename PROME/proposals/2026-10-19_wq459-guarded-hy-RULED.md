@@ -8,7 +8,7 @@ The immediately preceding recommendation explicitly named **WQ-459 option A: ado
 
 ## Approved scope
 
-Admit FRED `BAMLH0A0HYM2` HY OAS with `BAMLH0A3HYC` CCC OAS as the relief safeguard and register the reviewed v2.1 **section 2A** in `AGENTS/NEXUS/research/2026-10-14_WQ342_successor_credit-leg_DRAFT.md`. The owner draft at `c1f2f4321` is the source; `research/2026-10-19_WQ342_review.md` is its refreshed decision evidence. Its completed draft-review budget is not reopened.
+Admit FRED `BAMLH0A0HYM2` HY OAS with `BAMLH0A3HYC` CCC OAS as the relief safeguard and register the reviewed v2.1 **section 2A** in `AGENTS/NEXUS/research/2026-10-14_WQ342_successor_credit-leg_DRAFT.md`. The owner draft at `c1f2f4321` is the source; `AGENTS/NEXUS/research/2026-10-19_WQ342_review.md` is its refreshed decision evidence. Its completed draft-review budget is not reopened.
 
 - Anchor: HY and CCC observations dated the ruling date, **2026-10-19**, or the next qualifying observation if that date is not an observation. A prior available observation is not a substitute. Until the required cells are published and read, actual anchor levels are PENDING.
 - Window: 15 qualifying observations **after** the anchor. UP requires three consecutive HY observations at least 10 bp above anchor; DOWN requires three at least 10 bp below anchor and CCC at or below its own anchor on the completing observation. The first fully completed branch wins.
