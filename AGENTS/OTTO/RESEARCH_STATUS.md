@@ -1,6 +1,6 @@
 # OTTO Research Status
 
-**Last Updated:** 2026-10-19 (s031); September panel/M&T read at `3a68e48c1`; prior s030: L708 completed with NO_INSTRUMENT, evidence a95429b7c. Prior 2026-10-14 (s029) — completed-research index re-synced to `research/outputs/` (RP-OTT-1.7, 2.5, 3.3, 5.1 added); queue rebuilt; the Feb "this session" vector tables moved to `archive/`.
+**Last Updated:** 2026-10-19 (s032); Ally readiness, warehouse refresh and report-date sample at `cebaa8c61`. s031 September/M&T read at `3a68e48c1`; s030 L708 NO_INSTRUMENT at `a95429b7c`. Prior index/archive repair preserved below.
 
 ---
 
@@ -9,6 +9,7 @@
 
 | ID | Topic | Date | Finding | Location |
 |----|-------|------|---------|----------|
+| **s032** | **Ally baseline / warehouse refresh / report timing** | **2026-10-19** | AllyQ3 unprinted; NO EXIT FOUND in bounded scope, VRM warehouseUNKNOWN; CVNA48/21/0days + olderCACC18, no reliable cadence | `research/2026-10-19_readiness/READOUT.md` (`cebaa8c61`) |
 | **s031** | **September panel + M&T/Wilmington dated read** | **2026-10-19** | Five Sep deals remain worse YoY;44/44 available comparisons; servicing confound. OTTO-31 12→8%, OPEN; broad corporate trust is not narrow custody | `research/2026-10-19_quickwins/READOUT.md` (`3a68e48c1`) |
 | **L708** | **NEXUS consumer-lender CCC attribution** | **2026-10-19** | **NO_INSTRUMENT** strict n=0; fixed ENVA/CVNA supplementary equities MIXED; source/replay gaps explicit | `research/2026-10-19_L708/VERDICT.md` (`a95429b7c`) |
 | **RP-OTT-5.1** | **CRMT + Tricolor pre-registered letters, and the grade card** | **2026-09-02** | Bands sealed before the dates; graded 9/12 (Letter 1: 1A fires; Letter 2: 2A fires on the 9/11 8-K) | `research/outputs/RP-OTT-5.1_*.md` |

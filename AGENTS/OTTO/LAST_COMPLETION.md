@@ -1,7 +1,7 @@
-## COMPLETION — OTTO — 2026-10-19 (s031)
-STATUS: ✅ DONE — Will-approved four quick wins; prior L708 consumption gap closed.
-CHANGED: quickwins research/sources; LESSONS boot3a/CLAUDEv3.0, memory/backlog, STATUS/cold, calendar/archive, panel/ML, OTTO-31/THESIS scoped addendum/CHANGELOG, board_log, NEXUS_BRIEF; receipt filed; PROME/WALTER packets.
-RESULT: Five September reports,15 source checks,44/44 available comparisons worse; no turn. OTTO-31 12→8%, still OPEN, as-made60 preserved. STATUS24,287→21,218B;13 settled calendar rows retired,32 live events mirrored. Evidence3a68e48c1; state80aab5846.
-GAPS: September5/9, Exeter pending~10/29; servicing effects unresolved. M&T broad trust/undated marketing do not measure narrow ABS custody; official webcast403, transcript secondary. New packet consumption not observed. WALTER-006 INFO loopback read/ledgered, left while sender-authored untracked.
+## COMPLETION — OTTO — 2026-10-19 (s032)
+STATUS: ✅ DONE — three Will-approved readiness tasks; future event reads remain pending.
+CHANGED: readiness research/bundled sources; OTTO-12 Notes, ML, STATUS/calendar, memory/backlog/index, old Ally synthesis correction banner, maintenance, NEXUS_BRIEF; PROME/WALTER deliveries.
+RESULT: Ally primary baseline ready. Eight bounded8-Ks inspected, NO EXIT FOUND within scope; VRM warehouseUNKNOWN. Four publication offsets48/21/0/18days; no reliable cadence. Evidencecebaa8c61; probabilities/colours/thresholds/trades unchanged.
+GAPS: AllyQ3 unpublished; private lender coverage incomplete and VRM TrustV disposition unobserved. Small retrospective activist sample, one dependent follow-up; CACC issuer release web-read, direct403. New recipient consumption/native notice unverified.
 WILL_NEEDS: None.
-FOLLOW-UP: Ally/D&O10/20; BlackRock/shelf/T-7/suppression/§72110/21; BROCK CRMT10/22; EART~10/29; broader thesis10/30; modeled M&T10-Q check~11/05. No pull/stash/reset/rebase/push; terminal stays open.
+FOLLOW-UP: Actual Ally read + VRM recheck10/20; existing D&O10/20 and10/21 checks; BROCK CRMT10/22; EART~10/29; broader thesis10/30; modeled M&T10-Q~11/05. Root/local startup explicitly read; Codex/GPT-6 family, exact suffix unavailable. No helpers or native fleet channel; no pull/stash/reset/rebase/push, no external send, terminal stays open.

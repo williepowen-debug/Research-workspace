@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s031, approved overdue reads + maintenance)
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s032, Will-approved three readiness tasks)
 
-> **📌 s031 — October19 approved follow-up.** September SDART/BLAST read complete: five of five worse YoY,44/44 available matched deal-months sinceApril; no turn. September coverage5/9, Exeter remainsAugust; reduced extensions confound Bridgecrest's MoM rise. M&T read complete: OTTO-31 **12→8%**, still OPEN (broad trust evidence is not narrow ABS custody). LESSONS rebuilt/boot-wired; L708 consumption receipt applied. No colour, threshold or trade changed.
+> **📌 s032 — October19 readiness complete.** Ally baseline/definitions prepared; issuer confirms10/20~07:30ET/09:00call. OTTO-12 actual search10/19:8 in-window8-Ks, NO EXIT FOUND within scope; **VRM Trust V post9/30 outcome UNKNOWN**, private coverage incomplete;55%OPEN unchanged. Short-report sample48/21/0 days pre-CVNA earnings, olderCACC18days; no dependable cadence. Sources/limits: `research/2026-10-19_readiness/READOUT.md` (`cebaa8c61`). Q3 outcome still future; no colour, threshold or trade change.
 > **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below; broader THESIS v1.6 due10/30. Push held.
 > **📌 Cold half:** settled reasoning, resolved predictions, per-vector narrative and old pointers, verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §1–16 (not a boot read; hot STATUS wins on any disagreement).
 
@@ -87,7 +87,7 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | Date | Event | Status / next read |
 |---|---|---|
 | 2026-10-16 (Fri) | Tricolor BlackRock Rule2004 confer deadline; outcome still unverified, check10/21 | 🟠 confirmed; Pending; discovery is not implication |
-| 2026-10-20 (Tue) | Ally Q3:07:30ET release/09:00 call; autoNCO/severity/warehouse | 🟠 confirmed; See event; read the actual outcome |
+| 2026-10-20 (Tue) | Ally Q3:07:30ET release/09:00 call; autoNCO/severity/warehouse | 🟠 confirmed; baseline prepareds032; actual read + VRM warehouse recheck pending |
 | 2026-10-20 (Tue) | First Brands D&O insurer hearing (Dkt3669/3800) | 🟠 confirmed; See event; read the actual outcome |
 | 2026-10-21 (Wed) | CRMT backstop4: agreement≤10/15; BROCK | 🟠 confirmed; Existing owner/test governs |
 | 2026-10-21 (Wed) | Carvana T-7 short-seller check | 🟠 confirmed; Existing owner/test governs |
@@ -131,7 +131,7 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | **OTTO-35** | Severity-Divergence Test returns CONFIRM on any quarterly run by Jun 30 2027 | 🟢 OPEN **15%** (Aug 14) — set low because its instrument REFUTED on first run. Two-sided: CONFIRM ΔS≥+2.00 & ΔF≤+0.50 · REFUTE ΔS≤+0.50 & ΔF≥+1.00 · Manheim-gated ±3%. Next run ~11/15 |
 | OTTO-07 | ≥1 subprime ABS shelf halts issuance | 🟢 OPEN **15%** (55→15% Jul 25) — 8 of 8 shelves issued 2026 on the rebuilt `shelf_halt_monitor.py`. Re-run 10/21 |
 | OTTO-11 | Credit-washing prevalence >2.5% of applications | 🟠 OPEN 60% — resolve Dec 31 |
-| OTTO-12 | ≥1 major warehouse lender exits subprime auto | 🟠 OPEN 55% — resolve Dec 31 |
+| OTTO-12 | ≥1 major warehouse lender exits subprime auto | 🟠 OPEN55% — search10/19 NO EXIT FOUND within scope; VRM post9/30UNKNOWN, private coverage incomplete. Weakly evidenced judgment; next10/20; resolve12/31 |
 | **OTTO-10** | Subprime share of originations falls below 13% (Equifax) | ⚪ **NEEDS_VERIFY** (CATO RC2, 9/30) — Equifax covers May only; re-grade ~12/15 at the edition covering September |
 
 > **Resolved rows moved verbatim to [`STATUS_COLD.md`](STATUS_COLD.md) §4.** Canonical ledger is `thesis/PREDICTIONS.tsv`.
@@ -154,6 +154,6 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 
 ## BOTTOM LINE
 
-**Fraud-leg 🔴🔴 / systemic legs DISCONFIRMED (funding 🟢, bank contagion 🟠 fired-then-closed). Convergence 33/50, 21 of it one root. s031 completes the September/M&T reads: OTTO-31 now8%; colours/33-point arithmetic unchanged; no threshold or trade moved.** *(Older bottom lines → `STATUS_COLD.md` §10.)*
+**Fraud-leg 🔴🔴 / systemic legs DISCONFIRMED (funding 🟢, bank contagion 🟠 fired-then-closed). Convergence33/50 =4+5+5+4+2+2+1+3+4+3,21points one root. s032 prepares Ally, refreshes the overdue warehouse search and measures report dates; no reliable cadence or verified new exit. VRM facility unresolved. September panel/M&T conclusions unchanged (s031); no probability, colour, threshold or trade moved.** *(Older bottom lines → `STATUS_COLD.md` §10.)*
 
 **L708:** NO_INSTRUMENT; supplementary MIXED cannot establish attribution or absence. NEXUS/PROME consumed it (PROME receipt10/19). **Nearest resolvers:** timeline above.

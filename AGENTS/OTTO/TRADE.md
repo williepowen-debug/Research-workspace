@@ -2,6 +2,8 @@
 
 > **FROZEN 2026-07-04 — not maintained; STATUS is canonical, do not cite rows as current.**
 
+> **Factual correction2026-10-19 (s032), freeze remains:** the historical Ally forward-flow duration below is superseded. Ally's Q2-2026 primary10-Q describes the Q4-2025 $6B increase as effective364days, not a verified October2027 expiry; exact end day unverified. See `research/2026-10-19_readiness/ALLY_PREVIEW.md`. This annotation corrects source duration only; it does not refresh a trade idea, price, position or approval.
+
 **Last Updated:** 2026-02-16 *(content frozen 2026-07-04)*
 **Domain:** Subprime Auto Lending, ABS, Immigration-Credit Nexus
 
