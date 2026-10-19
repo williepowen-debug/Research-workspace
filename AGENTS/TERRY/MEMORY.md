@@ -4,9 +4,9 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-19T18:02:50-04:00 catch-up reopened byWill
+## Current Session — 2026-10-19T18:39:46.051670-04:00 owed-task catch-up
 
-Diagnostic context consumed 2026-10-19T18:24:35.882322-04:00: research/2026-10-19_diagnostic-context-receipt.md. HENRY8-name cohort delivered/LIQUID exact-version read verified; HENRY now explicitly acknowledges the specific index-up/sector-up repeat-loser workflow (d4e7cf04b), shortlist pending; LIQUID workflow acknowledgment unverified. Diagnostic only, no trade/sizing authority; existing management priority preserved.
+Current owed answers: `research/2026-10-19_owed-answers.md`. HENRY final conditional-day shortlist4261b747e consumed; both exact-workflow acknowledgments verified, discharging previous pending/unverified labels. Four primary cases, only MOS confirms five-session repetition; primary4unmatched, financing causality unresolved. Three old outbox copies proven consumed by PROME and moved to delivered. Existing8C5cards done; broker/Will/registrar gaps unchanged, no new trade/sizing authority.
 
 Catchup current: `research/2026-10-19_catch-up/REPORT.md` first. Closed stale-debt claims via dated proofs (L372/checkA/CLOSEOUT/WQ399/VIOLETL681/SEPbatch); CARL10/10KEEP DORMANT alreadyconsumed,002notrelocked/archivechoiceWill. VLOoriginal1 A10/16and10/19NOTFIRED/noNotice onsource3ESTIMATE99.4509072906/99.8656630518;added2scopeUNKNOWN/Bpolicycoverageuncertified/scaleterminal. NCLHQ3confirmed10/29,10/30expiryspansrelease,earlystale-byreviewdone/no-card. DaytradeQQQclassificationYES/partialjournalintake,nofullmetrics. WAL0806a121fCET1numerator7389Mdisclosedcorrectionconsumed,exactRWA/adjustmentsremain. FutureC5KREdatesalreadyregistered;D706basisfix1391.36toPROME;FidelityWAL70/ZIONdatesDec16/Nov18toPROME. No rebooking/newrule/trade/study.
 
