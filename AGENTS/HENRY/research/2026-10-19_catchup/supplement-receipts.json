@@ -1,0 +1,17 @@
+[
+  {
+    "symbol": "AAL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200
+  },
+  {
+    "symbol": "HOZ26.NYM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOZ26.NYM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200
+  },
+  {
+    "symbol": "CLZ26.NYM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLZ26.NYM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200
+  }
+]

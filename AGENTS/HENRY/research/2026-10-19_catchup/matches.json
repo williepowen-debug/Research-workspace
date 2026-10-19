@@ -1,0 +1,42 @@
+{
+  "SNDK": {
+    "control": null,
+    "reason": "no_candidate_within_2x",
+    "adjusted20_difference_pp": null
+  },
+  "COHR": {
+    "control": "LITE",
+    "reason": "nearest_size_within_2x",
+    "adjusted20_difference_pp": -15.142814809423568
+  },
+  "STX": {
+    "control": "WDC",
+    "reason": "nearest_size_within_2x",
+    "adjusted20_difference_pp": -0.7542148695770621
+  },
+  "WDC": {
+    "control": "STX",
+    "reason": "nearest_size_within_2x",
+    "adjusted20_difference_pp": 0.7542148695770621
+  },
+  "MGM": {
+    "control": "WYNN",
+    "reason": "nearest_size_within_2x",
+    "adjusted20_difference_pp": -16.91495214213193
+  },
+  "MOS": {
+    "control": null,
+    "reason": "no_candidate_within_2x",
+    "adjusted20_difference_pp": null
+  },
+  "DELL": {
+    "control": null,
+    "reason": "no_candidate_within_2x",
+    "adjusted20_difference_pp": null
+  },
+  "SMCI": {
+    "control": "HPQ",
+    "reason": "nearest_size_within_2x",
+    "adjusted20_difference_pp": -6.322536099548483
+  }
+}

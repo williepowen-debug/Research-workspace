@@ -1,0 +1,30 @@
+[
+  {
+    "name": "tickers.json",
+    "url": "https://www.sec.gov/files/company_tickers.json",
+    "status": 403,
+    "bytes": 1925
+  },
+  {
+    "name": "sndk-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0002023554.json",
+    "status": 403,
+    "bytes": 4819
+  },
+  {
+    "name": "rates.csv",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "error": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "name": "real.xml",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+    "error": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "name": "acm.xlsx",
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xlsx",
+    "status": 200,
+    "bytes": 10161152
+  }
+]

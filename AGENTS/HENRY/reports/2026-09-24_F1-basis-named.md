@@ -57,3 +57,7 @@ The September basis and validation record below is historical. Source hierarchy 
 - Contract identity, expiries, 9/21–9/24 bars: **VERIFIED** (own pull).
 - "The finalized vendor row = CME settlement": **INFERRED** (3/3 sessions within $0.10 of the settlement window; not checked against CME, which blocks us).
 - 9/24 settlement $95.36: **ESTIMATE** (tier 3). Re-read the dated 9/24 row once it finalizes (next morning) and record it.
+
+## October19 catch-up source repair
+
+Own qualified matchedDecember tier3 observations10/15 $98.921255,10/16 $99.450909,10/19 $99.865664: candidate NOT-FIRED, with retained contract/expiry and minute-label proof. Canonical common WQ-386/WQ-392 F1 remains UNKNOWN until BRENT publishes/adopts the common observation; no TERRY grade inferred. AALF5 daily close/intraday-low path9/11–10/19 minimum11.68/11.64 stays above11.308; NOT-FIRED on retained vendor path. LUV releases10/21afterclose, calls10/22 10:00ET; AALcall10/22 08:30ET(07:30CT), exactrelease minute unstated. HEN-46 resolution10/22 replacesOctober31 fallback; original tests/confidence unchanged. Full evidence, source hierarchy and fixed grading checklist:research/2026-10-19_catchup/DATA.md.

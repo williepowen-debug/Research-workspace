@@ -1,0 +1,14 @@
+Selection: ['SNDK', 'COHR', 'STX', 'WDC', 'MGM', 'MOS', 'DELL', 'SMCI']
+Windows: {5: '2026-10-09', 20: '2026-09-18', 60: '2026-07-23'}
+SNDK 261.606 -27.4871 {'control': None, 'reason': 'no_candidate_within_2x', 'adjusted20_difference_pp': None}
+COHR 62.124 -26.6133 {'control': 'LITE', 'reason': 'nearest_size_within_2x', 'adjusted20_difference_pp': -15.142814809423568}
+STX 194.945 -25.5322 {'control': 'WDC', 'reason': 'nearest_size_within_2x', 'adjusted20_difference_pp': -0.7542148695770621}
+WDC 159.331 -24.778 {'control': 'STX', 'reason': 'nearest_size_within_2x', 'adjusted20_difference_pp': 0.7542148695770621}
+MGM 9.512 -24.3586 {'control': 'WYNN', 'reason': 'nearest_size_within_2x', 'adjusted20_difference_pp': -16.91495214213193}
+MOS 7.782 -23.1209 {'control': None, 'reason': 'no_candidate_within_2x', 'adjusted20_difference_pp': None}
+DELL 363.558 -20.482 {'control': None, 'reason': 'no_candidate_within_2x', 'adjusted20_difference_pp': None}
+SMCI 25.678 -19.0842 {'control': 'HPQ', 'reason': 'nearest_size_within_2x', 'adjusted20_difference_pp': -6.322536099548483}
+Fuel: [('2026-10-15', '98.92125482008026197584875166'), ('2026-10-16', '99.45090889318522307660076484'), ('2026-10-19', '99.86566445725066786095491816')]
+Rates: {'DGS2': ('2026-10-16', 4.74), 'DGS10': ('2026-10-16', 5.09), 'DGS30': ('2026-10-16', 5.43), 'DFII10': ('2026-10-16', 2.74), 'DFII30': ('2026-10-16', 3.16), 'T10YIE': ('2026-10-19', 2.35)}
+PASS: eight fixed weak names; all exact windows; full candidate audit; F1 two bars/leg and SPY390 control
+PASS: source-before-formation, full return windows, original-selection prices, December expiry identity and AAL full low/close path

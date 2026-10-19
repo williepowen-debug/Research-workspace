@@ -50,20 +50,19 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-19, Will-directed Codex boot
+### CHANGES SINCE — 2026-10-19, Will-directed boot and catch-up
 
-- Current gamma NEG at14d/35d, flip7756–7762 versus SPX7690.73 (after-close retrieval17:44–17:46ET). Walls WITHHELD;14d ties/cross-horizon disagreement. Not Monday-open reconstruction. OI vintage not certified.
-- Credit FRED10/16:HY331/BB203/CCC1297, gap1094. HY325→323→331 completes three>320; owners grade. LIQ-07 S2: no reserve-channel loop observed, not no loop.
-- Monday S&P rebound narrow (vendor325/503down), but Nasdaq participated; RSP positive weeks10/9+10/16 and5/20session gains refute uninterrupted narrowing. Historical narrowing proxy is not crash timing; company refinancing causality incomplete. WALTER's dated sources/caveats in STATUS/INTAKE.
-- CPI/PPI September primaries recovered via web. CPI0.6/3.7,core0.3/2.6;PPI1.3/6.3,exFET0.5/5.0. August PPI revised0.5/5.6. Shell BLS403. KB178/179, MACRO.md. Consensus partly missing; daily reactions are not release-only causes.
-- WQ-392 ENCODED: F1 matchedDecemberHOZ26*42−CLZ26,10/15–11/19, same BRENT published basis as WQ-386.95/90.16 unchanged; F1 current UNKNOWN, no current qualified settlement. F3 spent, successor not now. Roll caveat preserved. KB180; ruling verified4fe63451b/PROME row392.
--Initial129 inbox packets logged/read and git-moved (118WALTER+11root).29 named correction receipts scoped NO-OP on current wrong-carrier scan; check rc0. Cold history not certified. Deferred10/15−002 exchange-primary halt verification and−010 tanker cyberattack article, with no dependent grades. All details in research/2026-10-19_boot/INTAKE.md.
-- Startup pull deferred: other desks dirty. Cross-runtime discovery/notification unverified, consumption UNKNOWN. No helpers. Original STATUS preserved verbatim in boot research. No trade, probability or threshold changed.
-
-- Late pickup 2026-10-19T17:54:11-04:00:LIQUID28e12a87f requests HENRY fixed weak-name cohort/windows/exclusions/formation-date size-industry matches.130th packet read/logged/filed;cohort NOT PRODUCED. Financing ownership stays LIQUID. Pending joint-work follow-up,not a background job;relayed Will scope not independently certified here. Receipt sent as file.
+- Boot:gammaNEG14d/35dflip7756–7762versusSPX7690.73,17:44–17:46ET;wallsWITHHELD,OI vintageuncertified. FRED10/16HY331/BB203/CCC1297;3observations>320. Ownergradesseparate;LIQ-07noreserve-loopobservednotnoloop.
+- CPI/PPIprimariesrecovered:CPI0.6/3.7core0.3/2.6;PPI1.3/6.3exFET0.5/5.0;AugustPPIrevised0.5/5.6. Consensus/reactionlimitsretained;KB178–180boot,181–183catch-up.
+- Eightweaknamesfixed/deliveredLIQUID:SNDKCOHRSTXWDCMGMMOSDELLSMCI. Fouruniquematchedcontrasts,threeunmatched. Outcome-selected/current-membership/lagsize/productmixlimits;LIQUIDfirstpassread:heterogeneousfunding,SNDKnilJulydebt/Septemberbankrenewalcountersuniversalrefinancingstory;fullcausalityuntested. WDCpreferredNILJuly3(sourcecorrectionbeforecommit),commoncount/matchesunchanged. COHORT.md,shares/candidateaudit/returnsretained.
+- Ratesrepair:10/16TreasuryviaFRED2Y4.74/10Y5.09/30Y5.43;real10Y2.74/30Y3.16. DirectTreasuryfailed. NYFedACM10/7–16fitted10Y−20.597bp=premium−22.858+expected-rate+2.261. Differentfromnominal-real decomposition;notFedeasinginference.
+- WQ392Decemberbasisencoded,95/90.16unchanged,F3spent. Owntier3Oct15/16/19cracks98.921255/99.450909/99.865664withcontractexpiry/minuteproof. CommonF1UNKNOWNpendingBRENTadopt/publishsameWQ386basis;candidateNOTFIREDnotTERRYgrade.
+- AALF5fullvendorlow/closepath9/11–10/19min11.64/11.68>11.308,NOTFIRED. LUVrelease10/21afterclose,call10/22 10:00ET;AALcall10/22 08:30ET=07:30CT,exactrelease minuteunstated. HEN46resolution10/22replaces10/31fallback;originaltests/confidencesunchanged. PROMEwakerequestnotworkingautomaticwake.
+-132totalpacketsthissession(130boot+2CRUISE)read/logged/filed;29namedcorrectionreceipts fromboot scopedNO-OP,notallhistoryaudit. CRUISEcurrentownerevidenceintegratedseparatefromCRU11. R3adopt/declinealreadydone10/2,donotduplicate.
+- Startupnorebase/pull:otherdesksdirty. Nativefleetnotification/consumptionUNKNOWN,nohelpers. Ownexplicitpathpersistence/safepushonly. BootoldSTATUSretainedverbatim. Catch-upreconcileusesroot.venv/bin/python(xlrdavailablethere).
 
 ### NEXT SESSION
 
-1. Refresh gamma before market use. Recover qualified current December F1 reading from BRENT's published basis; do not reuse November state. AAL/LUV lateOctober issuer dates unverified here. F2/F4/F5 need their original evidence; latestAAL11.68 is not a path test.
-2. Official nominal/real/ACM refresh; full macro consensus/reaction source gaps. FOMC10/27–28/ECI10/30 carried calendar; verify primary before scheduling. WATT earliest re-test≥10/22 belongs to WATT.
-3. Carry late ISM-grade evaluator-timing ambiguity (7HIT/2MISS reported~64h late, wide ranges weak evidence). Other carry-ins: unregistered real-yield letter,KRE Muse,DGS30 history,TLT flow source,wall cross-horizon software gap. None silently cleared.
+1.Refreshgammabeforemarketuse. BRENTcommonDecemberreadingpublication/adoption;donotuseNovorindependentmeasurementasitsclaimedpublishedstate. F2/F4primaryevidencestillrequired.
+2.BeforeLUV10/21aftercloseandAAL10/22results,consumeoriginalHEN46criteria/checklistinresearch/2026-10-19_catchup/DATA.md. ConfirmPROMEwakeregistrationreceipt;donotpromisewakefrompacketalone.
+3.LIQUIDfinancingclassificationsonfixedcohortpending,donotreplaceinconvenient/lowdebtorunmatchednames. DeferredAsiahlt/cyberattack,consensus,Muse/TLTflow,DGS30historyandISMlate-evaluatorambiguityremain;noindiscriminateregrade. Wallsoftwarecross-horizongapheld. WATT>=10/22retestbelongsWATT;FOMC10/27–28/ECI10/30carriedcalendarverifybeforeuse.

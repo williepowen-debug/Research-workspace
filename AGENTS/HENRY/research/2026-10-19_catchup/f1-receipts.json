@@ -1,0 +1,598 @@
+[
+  {
+    "symbol": "HOZ26.NYM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOZ26.NYM?range=5d&interval=1m&includePrePost=true",
+    "retrieved": "2026-10-19T21:57:09.103264+00:00",
+    "status": 200,
+    "bars": 6777,
+    "meta": {
+      "currency": "USD",
+      "symbol": "HOZ26.NYM",
+      "exchangeName": "NYM",
+      "fullExchangeName": "NY Mercantile",
+      "instrumentType": "FUTURE",
+      "firstTradeDate": 1669784400,
+      "regularMarketTime": 1792443594,
+      "hasPrePostMarketData": false,
+      "gmtoffset": -14400,
+      "timezone": "EDT",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 4.732,
+      "regularMarketChangePercent": 0.176,
+      "fulldayPrice": 4.732,
+      "fulldayChange": 0.008,
+      "fulldayChangePercent": 0.176,
+      "fiftyTwoWeekHigh": 4.821,
+      "fiftyTwoWeekLow": 2.033,
+      "regularMarketDayHigh": 4.783,
+      "regularMarketDayLow": 4.568,
+      "regularMarketVolume": 38811,
+      "longName": "Heating Oil Dec 26",
+      "shortName": "Heating Oil Dec 26",
+      "chartPreviousClose": 4.751,
+      "previousClose": 4.726,
+      "scale": 3,
+      "priceHint": 4,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EDT",
+          "end": 1792382400,
+          "start": 1792382400,
+          "gmtoffset": -14400
+        },
+        "regular": {
+          "timezone": "EDT",
+          "end": 1792468740,
+          "start": 1792382400,
+          "gmtoffset": -14400
+        },
+        "post": {
+          "timezone": "EDT",
+          "end": 1792468740,
+          "start": 1792468740,
+          "gmtoffset": -14400
+        }
+      },
+      "tradingPeriods": {
+        "pre": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791950400,
+              "start": 1791950400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792036800,
+              "start": 1792036800,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792123200,
+              "start": 1792123200,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792296000,
+              "start": 1792296000,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792382400,
+              "start": 1792382400,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "post": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792036740,
+              "start": 1792036740,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792123140,
+              "start": 1792123140,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792209540,
+              "start": 1792209540,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792382340,
+              "start": 1792382340,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792468740,
+              "start": 1792468740,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "regular": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792036740,
+              "start": 1791950400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792123140,
+              "start": 1792036800,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792209540,
+              "start": 1792123200,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792382340,
+              "start": 1792296000,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792468740,
+              "start": 1792382400,
+              "gmtoffset": -14400
+            }
+          ]
+        ]
+      },
+      "dataGranularity": "1m",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "CLZ26.NYM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLZ26.NYM?range=5d&interval=1m&includePrePost=true",
+    "retrieved": "2026-10-19T21:57:08.735558+00:00",
+    "status": 200,
+    "bars": 6777,
+    "meta": {
+      "currency": "USD",
+      "symbol": "CLZ26.NYM",
+      "exchangeName": "NYM",
+      "fullExchangeName": "NY Mercantile",
+      "instrumentType": "FUTURE",
+      "firstTradeDate": 1511240400,
+      "regularMarketTime": 1792443599,
+      "hasPrePostMarketData": false,
+      "gmtoffset": -14400,
+      "timezone": "EDT",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 98.24,
+      "regularMarketChangePercent": -0.304,
+      "fulldayPrice": 98.24,
+      "fulldayChange": -0.3,
+      "fulldayChangePercent": -0.304,
+      "fiftyTwoWeekHigh": 99.71,
+      "fiftyTwoWeekLow": 55.63,
+      "regularMarketDayHigh": 99.71,
+      "regularMarketDayLow": 96.72,
+      "regularMarketVolume": 288743,
+      "longName": "Crude Oil Dec 26",
+      "shortName": "Crude Oil Dec 26",
+      "chartPreviousClose": 93.9,
+      "previousClose": 98.54,
+      "scale": 3,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EDT",
+          "start": 1792382400,
+          "end": 1792382400,
+          "gmtoffset": -14400
+        },
+        "regular": {
+          "timezone": "EDT",
+          "start": 1792382400,
+          "end": 1792468740,
+          "gmtoffset": -14400
+        },
+        "post": {
+          "timezone": "EDT",
+          "start": 1792468740,
+          "end": 1792468740,
+          "gmtoffset": -14400
+        }
+      },
+      "tradingPeriods": {
+        "pre": [
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791950400,
+              "end": 1791950400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792036800,
+              "end": 1792036800,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792123200,
+              "end": 1792123200,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792296000,
+              "end": 1792296000,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792382400,
+              "end": 1792382400,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "post": [
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792036740,
+              "end": 1792036740,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792123140,
+              "end": 1792123140,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792209540,
+              "end": 1792209540,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792382340,
+              "end": 1792382340,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792468740,
+              "end": 1792468740,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "regular": [
+          [
+            {
+              "timezone": "EDT",
+              "start": 1791950400,
+              "end": 1792036740,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792036800,
+              "end": 1792123140,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792123200,
+              "end": 1792209540,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792296000,
+              "end": 1792382340,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "start": 1792382400,
+              "end": 1792468740,
+              "gmtoffset": -14400
+            }
+          ]
+        ]
+      },
+      "dataGranularity": "1m",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5d&interval=1m&includePrePost=true",
+    "retrieved": "2026-10-19T21:57:08.885267+00:00",
+    "status": 200,
+    "bars": 4280,
+    "meta": {
+      "currency": "USD",
+      "symbol": "SPY",
+      "exchangeName": "PCX",
+      "fullExchangeName": "NYSEArca",
+      "instrumentType": "ETF",
+      "firstTradeDate": 728317800,
+      "regularMarketTime": 1792440000,
+      "hasPrePostMarketData": true,
+      "gmtoffset": -14400,
+      "timezone": "EDT",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 766.48,
+      "regularMarketChangePercent": 0.423,
+      "fulldayPrice": 767.04,
+      "fulldayChange": 3.79,
+      "fulldayChangePercent": 0.497,
+      "fiftyTwoWeekHigh": 781.62,
+      "fiftyTwoWeekLow": 629.28,
+      "regularMarketDayHigh": 770.46,
+      "regularMarketDayLow": 765.824,
+      "regularMarketVolume": 38390884,
+      "longName": "State Street SPDR S&P 500 ETF Trust",
+      "shortName": "State Street SPDR S&P 500 ETF T",
+      "chartPreviousClose": 778.1,
+      "previousClose": 763.25,
+      "scale": 3,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EDT",
+          "end": 1792416600,
+          "start": 1792396800,
+          "gmtoffset": -14400
+        },
+        "regular": {
+          "timezone": "EDT",
+          "end": 1792440000,
+          "start": 1792416600,
+          "gmtoffset": -14400
+        },
+        "post": {
+          "timezone": "EDT",
+          "end": 1792454400,
+          "start": 1792440000,
+          "gmtoffset": -14400
+        }
+      },
+      "tradingPeriods": {
+        "pre": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791898200,
+              "start": 1791878400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791984600,
+              "start": 1791964800,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792071000,
+              "start": 1792051200,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792157400,
+              "start": 1792137600,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792416600,
+              "start": 1792396800,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "post": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791936000,
+              "start": 1791921600,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792022400,
+              "start": 1792008000,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792108800,
+              "start": 1792094400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792195200,
+              "start": 1792180800,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792454400,
+              "start": 1792440000,
+              "gmtoffset": -14400
+            }
+          ]
+        ],
+        "regular": [
+          [
+            {
+              "timezone": "EDT",
+              "end": 1791921600,
+              "start": 1791898200,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792008000,
+              "start": 1791984600,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792094400,
+              "start": 1792071000,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792180800,
+              "start": 1792157400,
+              "gmtoffset": -14400
+            }
+          ],
+          [
+            {
+              "timezone": "EDT",
+              "end": 1792440000,
+              "start": 1792416600,
+              "gmtoffset": -14400
+            }
+          ]
+        ]
+      },
+      "dataGranularity": "1m",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  }
+]

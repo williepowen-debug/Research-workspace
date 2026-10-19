@@ -1,0 +1,107 @@
+{
+  "SNDK": {
+    "shares": 146000000,
+    "period_end": "2026-07-03",
+    "available_by": "2026-08-05",
+    "source": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-08-05-sandisk-reports-fiscal-fourth-quarter-2026-financial-results",
+    "basis": "146M outstanding, not149M issued; rounded millions"
+  },
+  "COHR": {
+    "shares": 195752792,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-14",
+    "source": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
+    "basis": "212615894 issued less16863102 treasury; SeriesB converted in December2025 per Note14"
+  },
+  "STX": {
+    "shares": 227000000,
+    "period_end": "2026-07-03",
+    "available_by": "2026-07-28",
+    "source": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/",
+    "basis": "Ordinary issued/outstanding227M rounded"
+  },
+  "WDC": {
+    "shares": 361000000,
+    "period_end": "2026-07-03",
+    "available_by": "2026-08-14",
+    "source": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+    "basis": "361M outstanding not364M issued; rounded; convertible preferred NIL July3 afterFY2026 conversion, prior229M"
+  },
+  "MGM": {
+    "shares": 251586206,
+    "period_end": "2026-06-30",
+    "available_by": "2026-07-29",
+    "source": "https://investors.mgmresorts.com/2026-07-29-MGM-RESORTS-INTERNATIONAL-REPORTS-SECOND-QUARTER-2026-FINANCIAL-AND-OPERATING-RESULTS",
+    "basis": "Issued/outstanding common251586206"
+  },
+  "MOS": {
+    "shares": 317895646,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-05",
+    "source": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000112/mos-20260630.htm",
+    "basis": "Outstanding317895646 notissued395563251"
+  },
+  "DELL": {
+    "shares": 640000000,
+    "period_end": "2026-07-31",
+    "available_by": "2026-09-08",
+    "source": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000046/dell-20260731.htm",
+    "basis": "A277M+B44M+C319M; equal economic rights A/B1:1convertC; rounded"
+  },
+  "SMCI": {
+    "shares": 656882499,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-31",
+    "source": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+    "basis": "Common656882499;4312500mandatoryconvertiblepreferred separate; not EV or fully diluted"
+  },
+  "MU": {
+    "shares": 1129000000,
+    "period_end": "2026-05-28",
+    "available_by": "2026-06-25",
+    "source": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm",
+    "basis": "1129Moutstanding not1275Missued; not1145MdilutedEPS; rounded"
+  },
+  "LITE": {
+    "shares": 91500000,
+    "period_end": "2026-06-27",
+    "available_by": "2026-08-17",
+    "source": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+    "basis": "88.6Mcommon+2.9MSeriesA:1:1convert,equal dividend/liquidation economics Note14; rounded. Common-only sensitivity88.6M still qualifies"
+  },
+  "WYNN": {
+    "shares": 103405133,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-05",
+    "source": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+    "basis": "135316099issued less31910966treasury; notJuly31covercount"
+  },
+  "LVS": {
+    "shares": 648000000,
+    "period_end": "2026-06-30",
+    "available_by": "2026-07-24",
+    "source": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000085/lvs-20260630.htm",
+    "basis": "648Moutstanding not842Missued or654Maverage; rounded; signed July24"
+  },
+  "CF": {
+    "shares": 151595676,
+    "period_end": "2026-06-30",
+    "available_by": "2026-08-06",
+    "source": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000019/cf-20260630.htm",
+    "basis": "151641530issued less45854treasury; signed August6"
+  },
+  "HPE": {
+    "shares": 1328115106,
+    "period_end": "2026-07-31",
+    "available_by": "2026-09-03",
+    "source": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm",
+    "basis": "Common only;30Mmandatoryconvertiblepreferred separate; Juniper changes mix"
+  },
+  "HPQ": {
+    "shares": 903000000,
+    "period_end": "2026-07-31",
+    "available_by": "2026-08-26",
+    "source": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000051/hpq-20260731.htm",
+    "basis": "903Mperiodend common; notAug19cover901790969; rounded"
+  }
+}

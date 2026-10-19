@@ -1,0 +1,119 @@
+[
+  {
+    "weak": "SNDK",
+    "candidate": "MU",
+    "weak_cap_bn": 261.6057121582031,
+    "candidate_cap_bn": 1146.8381862182616,
+    "size_ratio": 4.383842297467588,
+    "eligible": false,
+    "log_distance": 1.4779255767057187
+  },
+  {
+    "weak": "COHR",
+    "candidate": "LITE",
+    "weak_cap_bn": 62.12410320164746,
+    "candidate_cap_bn": 85.17826254272461,
+    "size_ratio": 1.3710984650554405,
+    "eligible": true,
+    "log_distance": 0.31561221788122445
+  },
+  {
+    "weak": "STX",
+    "candidate": "WDC",
+    "weak_cap_bn": 194.94532501220704,
+    "candidate_cap_bn": 159.33095471191407,
+    "size_ratio": 1.2235244894169324,
+    "eligible": true,
+    "log_distance": 0.20173561957026412
+  },
+  {
+    "weak": "WDC",
+    "candidate": "STX",
+    "weak_cap_bn": 159.33095471191407,
+    "candidate_cap_bn": 194.94532501220704,
+    "size_ratio": 1.2235244894169324,
+    "eligible": true,
+    "log_distance": 0.20173561957026412
+  },
+  {
+    "weak": "MGM",
+    "candidate": "WYNN",
+    "weak_cap_bn": 9.512474794361076,
+    "candidate_cap_bn": 8.446131294996743,
+    "size_ratio": 1.1262522996766586,
+    "eligible": true,
+    "log_distance": 0.11889557182659112
+  },
+  {
+    "weak": "MGM",
+    "candidate": "LVS",
+    "weak_cap_bn": 9.512474794361076,
+    "candidate_cap_bn": 25.90703970336914,
+    "size_ratio": 2.723480509901234,
+    "eligible": false,
+    "log_distance": 1.0019106615469329
+  },
+  {
+    "weak": "MOS",
+    "candidate": "CF",
+    "weak_cap_bn": 7.782085268558922,
+    "candidate_cap_bn": 19.358767362566713,
+    "size_ratio": 2.4876066882458545,
+    "eligible": false,
+    "log_distance": 0.9113210788779492
+  },
+  {
+    "weak": "DELL",
+    "candidate": "SMCI",
+    "weak_cap_bn": 363.5583984375,
+    "candidate_cap_bn": 25.677536986142314,
+    "size_ratio": 14.15861648388261,
+    "eligible": false,
+    "log_distance": 2.6503233775515436
+  },
+  {
+    "weak": "DELL",
+    "candidate": "HPE",
+    "weak_cap_bn": 363.5583984375,
+    "candidate_cap_bn": 80.69627161136289,
+    "size_ratio": 4.505268845485386,
+    "eligible": false,
+    "log_distance": 1.505247566412963
+  },
+  {
+    "weak": "DELL",
+    "candidate": "HPQ",
+    "weak_cap_bn": 363.5583984375,
+    "candidate_cap_bn": 31.06320137786865,
+    "size_ratio": 11.703829042441244,
+    "eligible": false,
+    "log_distance": 2.45991605684775
+  },
+  {
+    "weak": "SMCI",
+    "candidate": "DELL",
+    "weak_cap_bn": 25.677536986142314,
+    "candidate_cap_bn": 363.5583984375,
+    "size_ratio": 14.15861648388261,
+    "eligible": false,
+    "log_distance": 2.650323377551544
+  },
+  {
+    "weak": "SMCI",
+    "candidate": "HPE",
+    "weak_cap_bn": 25.677536986142314,
+    "candidate_cap_bn": 80.69627161136289,
+    "size_ratio": 3.142679597926902,
+    "eligible": false,
+    "log_distance": 1.1450758111385808
+  },
+  {
+    "weak": "SMCI",
+    "candidate": "HPQ",
+    "weak_cap_bn": 25.677536986142314,
+    "candidate_cap_bn": 31.06320137786865,
+    "size_ratio": 1.2097422503814474,
+    "eligible": true,
+    "log_distance": 0.1904073207037938
+  }
+]

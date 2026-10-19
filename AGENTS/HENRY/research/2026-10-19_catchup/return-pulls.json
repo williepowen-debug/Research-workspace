@@ -1,0 +1,92 @@
+[
+  {
+    "symbol": "SNDK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "COHR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "STX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STX?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "WDC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "MGM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MGM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "MOS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MOS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "DELL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "SMCI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMCI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "MU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "LITE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "WYNN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WYNN?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "LVS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LVS?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "CF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "HPE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  },
+  {
+    "symbol": "HPQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPQ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "status": 200,
+    "bars": 251
+  }
+]

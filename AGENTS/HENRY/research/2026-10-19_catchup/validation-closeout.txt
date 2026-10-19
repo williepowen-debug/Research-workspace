@@ -1,0 +1,9 @@
+# Catch-up validation disposition
+Retained-input reconcile: PASS (validation.txt); root.venv/bin/python required for xlrd.
+Read-cap HENRY: rc0, four heuristic reads underbudget; not full declared/injected coverage. STATUS101lines/MEMORY68lines.
+Corrections HENRY: rc0,37receipts,0unreceiptednamed; actions not independently certified by checker.
+Weekday STATUS: rc0.
+Route checker: --agent is not a scoped perimeter; ran fleet scan,rc1 due retired YEYOU charter,0live desks owed packets. HENRYtwo-lane row passes; own actual deliveries are analysis packets, prior gamma signal routed WALTER. No claim allfleetclean.
+Consumer date probes: rc0 execution but234crossdesk/301own thenrecursive1202own labels are NOT adjudicated stale claims. BareOctober31date collides with unrelated gates/forecasts/maturities and retained historical quotes; --series does not narrow this date scan. Output even self-matches saved probe logs. No bulk corrections or notifications on a date needle. HEN46operativeResolution_Date10/22checked directly; original10/31backstop preserved as history, replacement explicitly documented. Relevant owners informed by named packet. Full unedited checker outputs retained compressed in validation-full.txt.gz.
+Orphan advisory rc0: own six authored recipient packets are explicitly committed separately; otherdesksdirtyfiles notours, no sweep.
+Schemas: KB15columns and uniqueIDs; PRED7columns,onlyHEN46changed, ACTIVEfuture10/22. No overdue prediction rows. Read-cap guard's70Bheadroom advisory belongs existingLESSONS not edited here.

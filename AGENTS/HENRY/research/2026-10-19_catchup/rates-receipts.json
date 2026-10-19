@@ -1,0 +1,38 @@
+[
+  {
+    "series": "DGS2",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=2026-09-18",
+    "status": 200,
+    "bytes": 354
+  },
+  {
+    "series": "DGS10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2026-09-18",
+    "status": 200,
+    "bytes": 355
+  },
+  {
+    "series": "DGS30",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS30&cosd=2026-09-18",
+    "status": 200,
+    "bytes": 355
+  },
+  {
+    "series": "DFII10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2026-09-18",
+    "status": 200,
+    "bytes": 356
+  },
+  {
+    "series": "DFII30",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII30&cosd=2026-09-18",
+    "status": 200,
+    "bytes": 356
+  },
+  {
+    "series": "T10YIE",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE&cosd=2026-09-18",
+    "status": 200,
+    "bytes": 372
+  }
+]

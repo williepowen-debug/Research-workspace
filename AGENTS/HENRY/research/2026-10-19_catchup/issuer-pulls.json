@@ -1,0 +1,38 @@
+[
+  {
+    "name": "SNDK-issuer.html",
+    "url": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-08-05-sandisk-reports-fiscal-fourth-quarter-2026-financial-results",
+    "status": 200,
+    "bytes": 1342551
+  },
+  {
+    "name": "COHR-issuer.html",
+    "url": "https://ir.coherent.com/news-releases/news-release-details/coherent-corp-reports-fourth-quarter-and-full-year-fiscal-2026",
+    "status": 403,
+    "bytes": 520
+  },
+  {
+    "name": "WDC-issuer.html",
+    "url": "https://investor.wdc.com/node/28586",
+    "status": 403,
+    "bytes": 382
+  },
+  {
+    "name": "STX-issuer.html",
+    "url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/",
+    "status": 403,
+    "bytes": 5905
+  },
+  {
+    "name": "SMCI-issuer.html",
+    "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results/default.aspx",
+    "status": 403,
+    "bytes": 5913
+  },
+  {
+    "name": "DELL-10q.html",
+    "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000046/dell-20260731.htm",
+    "status": 200,
+    "bytes": 2433292
+  }
+]

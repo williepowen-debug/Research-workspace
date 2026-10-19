@@ -1,0 +1,3020 @@
+[
+  {
+    "symbol": "SKYD",
+    "sector": "XLC",
+    "raw20_pct": -32.321253672869744,
+    "exclusion": "corporate_action_identity_not_reconciled"
+  },
+  {
+    "symbol": "SNDK",
+    "sector": "XLK",
+    "raw20_pct": -27.48713598464132,
+    "exclusion": ""
+  },
+  {
+    "symbol": "COHR",
+    "sector": "XLK",
+    "raw20_pct": -26.613309805898666,
+    "exclusion": ""
+  },
+  {
+    "symbol": "STX",
+    "sector": "XLK",
+    "raw20_pct": -25.591821050547857,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WDC",
+    "sector": "XLK",
+    "raw20_pct": -24.77795903570782,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MGM",
+    "sector": "XLY",
+    "raw20_pct": -24.358635281671514,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MOS",
+    "sector": "XLB",
+    "raw20_pct": -23.120915032679733,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ARE",
+    "sector": "XLRE",
+    "raw20_pct": -21.913696060037523,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "DELL",
+    "sector": "XLK",
+    "raw20_pct": -20.48199133894306,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SMCI",
+    "sector": "XLK",
+    "raw20_pct": -19.084164748017407,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FICO",
+    "sector": "XLK",
+    "raw20_pct": -18.794751916435004,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HOOD",
+    "sector": "XLF",
+    "raw20_pct": -17.48456017359371,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "INTC",
+    "sector": "XLK",
+    "raw20_pct": -17.265193370165743,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VRT",
+    "sector": "XLI",
+    "raw20_pct": -17.23004130077389,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GEN",
+    "sector": "XLK",
+    "raw20_pct": -16.71837297483627,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BE",
+    "sector": "XLI",
+    "raw20_pct": -16.684862402590063,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FLEX",
+    "sector": "XLK",
+    "raw20_pct": -16.634411574970052,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AKAM",
+    "sector": "XLK",
+    "raw20_pct": -15.987370838117098,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BX",
+    "sector": "XLF",
+    "raw20_pct": -14.684699103713184,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "CHTR",
+    "sector": "XLC",
+    "raw20_pct": -14.090660841070445,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ALB",
+    "sector": "XLB",
+    "raw20_pct": -13.912181047696325,
+    "exclusion": ""
+  },
+  {
+    "symbol": "APP",
+    "sector": "XLC",
+    "raw20_pct": -13.61098487307667,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MU",
+    "sector": "XLK",
+    "raw20_pct": -13.482969088403218,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ORCL",
+    "sector": "XLK",
+    "raw20_pct": -13.129191789174188,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FIX",
+    "sector": "XLI",
+    "raw20_pct": -12.855992297304663,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AXON",
+    "sector": "XLI",
+    "raw20_pct": -12.835000893335714,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HPQ",
+    "sector": "XLK",
+    "raw20_pct": -12.761627906976736,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KKR",
+    "sector": "XLF",
+    "raw20_pct": -12.75174577471917,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "SCHW",
+    "sector": "XLF",
+    "raw20_pct": -12.627078384798107,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "TER",
+    "sector": "XLK",
+    "raw20_pct": -12.509758526933545,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GLW",
+    "sector": "XLK",
+    "raw20_pct": -12.076200626124024,
+    "exclusion": ""
+  },
+  {
+    "symbol": "APO",
+    "sector": "XLF",
+    "raw20_pct": -12.016519736319587,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "FSLR",
+    "sector": "XLK",
+    "raw20_pct": -11.900387834251902,
+    "exclusion": ""
+  },
+  {
+    "symbol": "UAL",
+    "sector": "XLI",
+    "raw20_pct": -11.59966884371263,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LITE",
+    "sector": "XLK",
+    "raw20_pct": -11.470496610843151,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BAC",
+    "sector": "XLF",
+    "raw20_pct": -11.259310583751947,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ANET",
+    "sector": "XLK",
+    "raw20_pct": -11.23927980340037,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MS",
+    "sector": "XLF",
+    "raw20_pct": -10.864843518609945,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "COIN",
+    "sector": "XLF",
+    "raw20_pct": -10.857142857142854,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "CMG",
+    "sector": "XLY",
+    "raw20_pct": -10.589291055937778,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SWKS",
+    "sector": "XLK",
+    "raw20_pct": -10.207300585849488,
+    "exclusion": ""
+  },
+  {
+    "symbol": "INCY",
+    "sector": "XLV",
+    "raw20_pct": -9.767775915729004,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CAT",
+    "sector": "XLI",
+    "raw20_pct": -9.67008244848515,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CVNA",
+    "sector": "XLY",
+    "raw20_pct": -9.64521578866534,
+    "exclusion": ""
+  },
+  {
+    "symbol": "STT",
+    "sector": "XLF",
+    "raw20_pct": -9.378246842018923,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ARES",
+    "sector": "XLF",
+    "raw20_pct": -9.313408723747985,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "HPE",
+    "sector": "XLK",
+    "raw20_pct": -9.265964450296238,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CHRW",
+    "sector": "XLI",
+    "raw20_pct": -8.824106150728806,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IBKR",
+    "sector": "XLF",
+    "raw20_pct": -8.821259234755763,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "GIS",
+    "sector": "XLP",
+    "raw20_pct": -8.783039647577084,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ECHO",
+    "sector": "XLC",
+    "raw20_pct": -8.656109565589542,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LRCX",
+    "sector": "XLK",
+    "raw20_pct": -8.389156919232244,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BG",
+    "sector": "XLP",
+    "raw20_pct": -8.16750302820557,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AVGO",
+    "sector": "XLK",
+    "raw20_pct": -8.07024412069014,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AMP",
+    "sector": "XLF",
+    "raw20_pct": -7.99698712178275,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "AMAT",
+    "sector": "XLK",
+    "raw20_pct": -7.935758148323091,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ETN",
+    "sector": "XLI",
+    "raw20_pct": -7.891329425336058,
+    "exclusion": ""
+  },
+  {
+    "symbol": "T",
+    "sector": "XLC",
+    "raw20_pct": -7.7165354330708595,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IVZ",
+    "sector": "XLF",
+    "raw20_pct": -7.631837536849007,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "WY",
+    "sector": "XLRE",
+    "raw20_pct": -7.587181903864282,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PFG",
+    "sector": "XLF",
+    "raw20_pct": -7.529531741310446,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "WYNN",
+    "sector": "XLY",
+    "raw20_pct": -7.443682664054863,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TKO",
+    "sector": "XLC",
+    "raw20_pct": -7.2704216421853545,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SW",
+    "sector": "XLB",
+    "raw20_pct": -7.15091360252651,
+    "exclusion": ""
+  },
+  {
+    "symbol": "JBL",
+    "sector": "XLK",
+    "raw20_pct": -7.116867510097801,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GNRC",
+    "sector": "XLI",
+    "raw20_pct": -7.115310451214807,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NTRS",
+    "sector": "XLF",
+    "raw20_pct": -6.942492551576818,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "VZ",
+    "sector": "XLC",
+    "raw20_pct": -6.8621334996880945,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BNY",
+    "sector": "XLF",
+    "raw20_pct": -6.82098966122634,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PNC",
+    "sector": "XLF",
+    "raw20_pct": -6.767594458978432,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PLD",
+    "sector": "XLRE",
+    "raw20_pct": -6.741323049540194,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "MRVL",
+    "sector": "XLK",
+    "raw20_pct": -6.722620266120771,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DOC",
+    "sector": "XLRE",
+    "raw20_pct": -6.640432857845536,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "GS",
+    "sector": "XLF",
+    "raw20_pct": -6.447983014862002,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "KLAC",
+    "sector": "XLK",
+    "raw20_pct": -6.3562913158935475,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BXP",
+    "sector": "XLRE",
+    "raw20_pct": -6.284628779483925,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "DE",
+    "sector": "XLI",
+    "raw20_pct": -6.159446775537658,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BEN",
+    "sector": "XLF",
+    "raw20_pct": -6.149651620720986,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PANW",
+    "sector": "XLK",
+    "raw20_pct": -5.935419990098456,
+    "exclusion": ""
+  },
+  {
+    "symbol": "F",
+    "sector": "XLY",
+    "raw20_pct": -5.904617713853155,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FDXF",
+    "sector": "XLI",
+    "raw20_pct": -5.760426204944647,
+    "exclusion": ""
+  },
+  {
+    "symbol": "C",
+    "sector": "XLF",
+    "raw20_pct": -5.699324580708809,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "AMD",
+    "sector": "XLK",
+    "raw20_pct": -5.54999821371156,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CFG",
+    "sector": "XLF",
+    "raw20_pct": -5.489260143198105,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "TMUS",
+    "sector": "XLC",
+    "raw20_pct": -5.398977286240935,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CF",
+    "sector": "XLB",
+    "raw20_pct": -5.364134690681288,
+    "exclusion": ""
+  },
+  {
+    "symbol": "JNJ",
+    "sector": "XLV",
+    "raw20_pct": -5.344642394162746,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DAL",
+    "sector": "XLI",
+    "raw20_pct": -5.337854810349163,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MTB",
+    "sector": "XLF",
+    "raw20_pct": -5.292332057542559,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "BMY",
+    "sector": "XLV",
+    "raw20_pct": -5.248969235648593,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LVS",
+    "sector": "XLY",
+    "raw20_pct": -4.927463731865933,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MKC",
+    "sector": "XLP",
+    "raw20_pct": -4.864532019704426,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RJF",
+    "sector": "XLF",
+    "raw20_pct": -4.837632776934752,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "CPRT",
+    "sector": "XLI",
+    "raw20_pct": -4.815573770491799,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FITB",
+    "sector": "XLF",
+    "raw20_pct": -4.800604800604802,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "TXT",
+    "sector": "XLI",
+    "raw20_pct": -4.718283347973385,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DGX",
+    "sector": "XLV",
+    "raw20_pct": -4.645972813958199,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CIEN",
+    "sector": "XLK",
+    "raw20_pct": -4.607224770642205,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CBRE",
+    "sector": "XLRE",
+    "raw20_pct": -4.602150537634397,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PCAR",
+    "sector": "XLI",
+    "raw20_pct": -4.514906083060499,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PNR",
+    "sector": "XLI",
+    "raw20_pct": -4.43490701001431,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CRWD",
+    "sector": "XLK",
+    "raw20_pct": -4.31727330107301,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FRT",
+    "sector": "XLRE",
+    "raw20_pct": -4.138490668109284,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "BA",
+    "sector": "XLI",
+    "raw20_pct": -4.031281533804232,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KEY",
+    "sector": "XLF",
+    "raw20_pct": -3.940413262854403,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "Q",
+    "sector": "XLK",
+    "raw20_pct": -3.8983756768013245,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NEM",
+    "sector": "XLB",
+    "raw20_pct": -3.897577181751888,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PAYX",
+    "sector": "XLI",
+    "raw20_pct": -3.883244360254867,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HBAN",
+    "sector": "XLF",
+    "raw20_pct": -3.8413098236775856,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "HWM",
+    "sector": "XLI",
+    "raw20_pct": -3.7923977881307858,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EME",
+    "sector": "XLI",
+    "raw20_pct": -3.7902118412457275,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NVR",
+    "sector": "XLY",
+    "raw20_pct": -3.7501199095353766,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DXCM",
+    "sector": "XLV",
+    "raw20_pct": -3.7045327364297553,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CMCSA",
+    "sector": "XLC",
+    "raw20_pct": -3.693931398416883,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RF",
+    "sector": "XLF",
+    "raw20_pct": -3.68421052631579,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "NVDA",
+    "sector": "XLK",
+    "raw20_pct": -3.6622126242857878,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LUV",
+    "sector": "XLI",
+    "raw20_pct": -3.6115178135675885,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EQIX",
+    "sector": "XLRE",
+    "raw20_pct": -3.4621183934830713,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "SOLV",
+    "sector": "XLV",
+    "raw20_pct": -3.410625844214321,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DLR",
+    "sector": "XLRE",
+    "raw20_pct": -3.376894355370086,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "FDX",
+    "sector": "XLI",
+    "raw20_pct": -3.3261979252428686,
+    "exclusion": ""
+  },
+  {
+    "symbol": "XYL",
+    "sector": "XLI",
+    "raw20_pct": -3.2632949051692117,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SLB",
+    "sector": "XLE",
+    "raw20_pct": -3.169014084507038,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PHM",
+    "sector": "XLY",
+    "raw20_pct": -3.1639092614702435,
+    "exclusion": ""
+  },
+  {
+    "symbol": "QCOM",
+    "sector": "XLK",
+    "raw20_pct": -3.1566509115462438,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KHC",
+    "sector": "XLP",
+    "raw20_pct": -3.0699959066721294,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TFC",
+    "sector": "XLF",
+    "raw20_pct": -3.06836902800659,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "TROW",
+    "sector": "XLF",
+    "raw20_pct": -3.0625960061443913,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ADM",
+    "sector": "XLP",
+    "raw20_pct": -3.0171401737497106,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CRH",
+    "sector": "XLB",
+    "raw20_pct": -2.925130586186897,
+    "exclusion": ""
+  },
+  {
+    "symbol": "JPM",
+    "sector": "XLF",
+    "raw20_pct": -2.8455400806474684,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "FCX",
+    "sector": "XLB",
+    "raw20_pct": -2.7956388034665935,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BKR",
+    "sector": "XLE",
+    "raw20_pct": -2.707423580786017,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GL",
+    "sector": "XLF",
+    "raw20_pct": -2.681351631876361,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "BKNG",
+    "sector": "XLY",
+    "raw20_pct": -2.650387135199539,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TSLA",
+    "sector": "XLY",
+    "raw20_pct": -2.6216817196035747,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WFC",
+    "sector": "XLF",
+    "raw20_pct": -2.6126335346028817,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "GOOGL",
+    "sector": "XLC",
+    "raw20_pct": -2.5605080963552185,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GD",
+    "sector": "XLI",
+    "raw20_pct": -2.4982297125053066,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TGT",
+    "sector": "XLP",
+    "raw20_pct": -2.4843542575384125,
+    "exclusion": ""
+  },
+  {
+    "symbol": "JBHT",
+    "sector": "XLI",
+    "raw20_pct": -2.3351120597652097,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LDOS",
+    "sector": "XLI",
+    "raw20_pct": -2.2241365807815883,
+    "exclusion": ""
+  },
+  {
+    "symbol": "USB",
+    "sector": "XLF",
+    "raw20_pct": -2.2144522144522227,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "GOOG",
+    "sector": "XLC",
+    "raw20_pct": -2.1776371185505683,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MCD",
+    "sector": "XLY",
+    "raw20_pct": -2.122945536577514,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PRU",
+    "sector": "XLF",
+    "raw20_pct": -2.103040540540546,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "HRL",
+    "sector": "XLP",
+    "raw20_pct": -2.06433029284685,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GEV",
+    "sector": "XLI",
+    "raw20_pct": -2.034392181468203,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DASH",
+    "sector": "XLY",
+    "raw20_pct": -1.9643412459832033,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CSCO",
+    "sector": "XLK",
+    "raw20_pct": -1.9358962651812694,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MAA",
+    "sector": "XLRE",
+    "raw20_pct": -1.9339107037753434,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "EW",
+    "sector": "XLV",
+    "raw20_pct": -1.8808067074552626,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SYF",
+    "sector": "XLF",
+    "raw20_pct": -1.8123667377398678,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "NFLX",
+    "sector": "XLC",
+    "raw20_pct": -1.7551190973673303,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VRTX",
+    "sector": "XLV",
+    "raw20_pct": -1.6917810913955167,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GPN",
+    "sector": "XLF",
+    "raw20_pct": -1.6341406066306186,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "J",
+    "sector": "XLI",
+    "raw20_pct": -1.617852161785216,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IRM",
+    "sector": "XLRE",
+    "raw20_pct": -1.6004897673605023,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "UPS",
+    "sector": "XLI",
+    "raw20_pct": -1.594992933575612,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WDAY",
+    "sector": "XLK",
+    "raw20_pct": -1.578377263114461,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ADBE",
+    "sector": "XLK",
+    "raw20_pct": -1.4944560501365944,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AMZN",
+    "sector": "XLY",
+    "raw20_pct": -1.4622994757794383,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NOC",
+    "sector": "XLI",
+    "raw20_pct": -1.4277858890005435,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IP",
+    "sector": "XLB",
+    "raw20_pct": -1.390095569070382,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SNA",
+    "sector": "XLI",
+    "raw20_pct": -1.3166733843880118,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ES",
+    "sector": "XLU",
+    "raw20_pct": -1.2847017129356209,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KEYS",
+    "sector": "XLK",
+    "raw20_pct": -1.131343283582098,
+    "exclusion": ""
+  },
+  {
+    "symbol": "JKHY",
+    "sector": "XLF",
+    "raw20_pct": -1.0720051662899577,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "WMB",
+    "sector": "XLE",
+    "raw20_pct": -1.0687022900763288,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AON",
+    "sector": "XLF",
+    "raw20_pct": -1.0451900960627758,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "O",
+    "sector": "XLRE",
+    "raw20_pct": -1.023649841157781,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "LULU",
+    "sector": "XLY",
+    "raw20_pct": -0.9789924535998473,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VTR",
+    "sector": "XLRE",
+    "raw20_pct": -0.9574345368554615,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "FOX",
+    "sector": "XLC",
+    "raw20_pct": -0.9005888465535183,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LH",
+    "sector": "XLV",
+    "raw20_pct": -0.8605905646846046,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PCG",
+    "sector": "XLU",
+    "raw20_pct": -0.8333333333333304,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NEE",
+    "sector": "XLU",
+    "raw20_pct": -0.832608425500192,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ALL",
+    "sector": "XLF",
+    "raw20_pct": -0.7805307609174306,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PWR",
+    "sector": "XLI",
+    "raw20_pct": -0.7617282593331387,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AWK",
+    "sector": "XLU",
+    "raw20_pct": -0.7064017660044164,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MMM",
+    "sector": "XLI",
+    "raw20_pct": -0.6872023630116297,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MRK",
+    "sector": "XLV",
+    "raw20_pct": -0.6264043031252275,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MPWR",
+    "sector": "XLK",
+    "raw20_pct": -0.5698801116768015,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CPT",
+    "sector": "XLRE",
+    "raw20_pct": -0.5347054075867663,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "VICI",
+    "sector": "XLRE",
+    "raw20_pct": -0.5059021922428242,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "TPL",
+    "sector": "XLE",
+    "raw20_pct": -0.4962145915445082,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FOXA",
+    "sector": "XLC",
+    "raw20_pct": -0.46547711404189007,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FTNT",
+    "sector": "XLK",
+    "raw20_pct": -0.4180405087140904,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LII",
+    "sector": "XLI",
+    "raw20_pct": -0.41755978064192956,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HAL",
+    "sector": "XLE",
+    "raw20_pct": -0.4161712247324645,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ZBH",
+    "sector": "XLV",
+    "raw20_pct": -0.39848993288590373,
+    "exclusion": ""
+  },
+  {
+    "symbol": "COF",
+    "sector": "XLF",
+    "raw20_pct": -0.3408585683940091,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "HII",
+    "sector": "XLI",
+    "raw20_pct": -0.31517994575973596,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VRSN",
+    "sector": "XLK",
+    "raw20_pct": -0.257323832145695,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BBY",
+    "sector": "XLY",
+    "raw20_pct": -0.23694130317716278,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ESS",
+    "sector": "XLRE",
+    "raw20_pct": -0.22958711349749805,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "UBER",
+    "sector": "XLI",
+    "raw20_pct": -0.21276595744681437,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ALGN",
+    "sector": "XLV",
+    "raw20_pct": -0.203238262990324,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CMI",
+    "sector": "XLI",
+    "raw20_pct": -0.16909982526350786,
+    "exclusion": ""
+  },
+  {
+    "symbol": "OKE",
+    "sector": "XLE",
+    "raw20_pct": -0.16049646907767556,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GE",
+    "sector": "XLI",
+    "raw20_pct": -0.14000700035001756,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TTWO",
+    "sector": "XLC",
+    "raw20_pct": -0.08274519347772902,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RTX",
+    "sector": "XLI",
+    "raw20_pct": -0.04123711340207059,
+    "exclusion": ""
+  },
+  {
+    "symbol": "D",
+    "sector": "XLU",
+    "raw20_pct": -0.031456432840504256,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SPG",
+    "sector": "XLRE",
+    "raw20_pct": 0.058445353594382965,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "VMRK",
+    "sector": "XLRE",
+    "raw20_pct": 0.06533812479581069,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "NRG",
+    "sector": "XLU",
+    "raw20_pct": 0.08682230368513011,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IQV",
+    "sector": "XLV",
+    "raw20_pct": 0.18016665415507838,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TWLO",
+    "sector": "XLK",
+    "raw20_pct": 0.2173556430446144,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TECH",
+    "sector": "XLV",
+    "raw20_pct": 0.27635760674311616,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PODD",
+    "sector": "XLV",
+    "raw20_pct": 0.35561877667140696,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AIZ",
+    "sector": "XLF",
+    "raw20_pct": 0.38266661942387703,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "REG",
+    "sector": "XLRE",
+    "raw20_pct": 0.39753255654557673,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "NDAQ",
+    "sector": "XLF",
+    "raw20_pct": 0.4596963865725723,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "LHX",
+    "sector": "XLI",
+    "raw20_pct": 0.49334789113995026,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CPAY",
+    "sector": "XLF",
+    "raw20_pct": 0.5229283990345834,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "NXPI",
+    "sector": "XLK",
+    "raw20_pct": 0.5877450765384484,
+    "exclusion": ""
+  },
+  {
+    "symbol": "INVH",
+    "sector": "XLRE",
+    "raw20_pct": 0.5945745076179954,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "NWS",
+    "sector": "XLC",
+    "raw20_pct": 0.6119951040391758,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HSY",
+    "sector": "XLP",
+    "raw20_pct": 0.6125213499028392,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AXP",
+    "sector": "XLF",
+    "raw20_pct": 0.6515598921555954,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PSA",
+    "sector": "XLRE",
+    "raw20_pct": 0.6749687826937967,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "REGN",
+    "sector": "XLV",
+    "raw20_pct": 0.7504618716952294,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FISV",
+    "sector": "XLF",
+    "raw20_pct": 0.7628734901462098,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "MCHP",
+    "sector": "XLK",
+    "raw20_pct": 0.7915927391838329,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AES",
+    "sector": "XLU",
+    "raw20_pct": 0.8091706001348564,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NWSA",
+    "sector": "XLC",
+    "raw20_pct": 0.83948959032909,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LEN",
+    "sector": "XLY",
+    "raw20_pct": 0.8504513934318947,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TRGP",
+    "sector": "XLE",
+    "raw20_pct": 0.9274786953694436,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DTE",
+    "sector": "XLU",
+    "raw20_pct": 0.9414877061935778,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MSI",
+    "sector": "XLK",
+    "raw20_pct": 0.9767370876665016,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DHI",
+    "sector": "XLY",
+    "raw20_pct": 0.9926097667004585,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ITW",
+    "sector": "XLI",
+    "raw20_pct": 1.0615396035928981,
+    "exclusion": ""
+  },
+  {
+    "symbol": "UDR",
+    "sector": "XLRE",
+    "raw20_pct": 1.0619469026548645,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "FIS",
+    "sector": "XLF",
+    "raw20_pct": 1.0948905109489093,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "DD",
+    "sector": "XLI",
+    "raw20_pct": 1.116192543213712,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EIX",
+    "sector": "XLU",
+    "raw20_pct": 1.1209546194178133,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IBM",
+    "sector": "XLK",
+    "raw20_pct": 1.128294489218029,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CRM",
+    "sector": "XLK",
+    "raw20_pct": 1.1684599865501077,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CINF",
+    "sector": "XLF",
+    "raw20_pct": 1.3313609467455523,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PEP",
+    "sector": "XLP",
+    "raw20_pct": 1.341040462427756,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PKG",
+    "sector": "XLB",
+    "raw20_pct": 1.3876358637281427,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EFX",
+    "sector": "XLI",
+    "raw20_pct": 1.4980801913514252,
+    "exclusion": ""
+  },
+  {
+    "symbol": "JCI",
+    "sector": "XLI",
+    "raw20_pct": 1.528475711892785,
+    "exclusion": ""
+  },
+  {
+    "symbol": "URI",
+    "sector": "XLI",
+    "raw20_pct": 1.5514197512599859,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KIM",
+    "sector": "XLRE",
+    "raw20_pct": 1.6866400355082023,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "SBUX",
+    "sector": "XLY",
+    "raw20_pct": 1.7635396013774285,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WTW",
+    "sector": "XLF",
+    "raw20_pct": 1.7775340344538426,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "HSIC",
+    "sector": "XLV",
+    "raw20_pct": 1.8151815181518094,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DVA",
+    "sector": "XLV",
+    "raw20_pct": 1.8764277167409915,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ERIE",
+    "sector": "XLF",
+    "raw20_pct": 1.9493829742731617,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "LYV",
+    "sector": "XLC",
+    "raw20_pct": 2.0284825275251217,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FE",
+    "sector": "XLU",
+    "raw20_pct": 2.0547945205479534,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CARR",
+    "sector": "XLI",
+    "raw20_pct": 2.078693392724573,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MLM",
+    "sector": "XLB",
+    "raw20_pct": 2.0789173324637256,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PH",
+    "sector": "XLI",
+    "raw20_pct": 2.098480191618801,
+    "exclusion": ""
+  },
+  {
+    "symbol": "XYZ",
+    "sector": "XLF",
+    "raw20_pct": 2.1106449921342474,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "EXR",
+    "sector": "XLRE",
+    "raw20_pct": 2.121278618974465,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "GM",
+    "sector": "XLY",
+    "raw20_pct": 2.1411192214111807,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AAPL",
+    "sector": "XLK",
+    "raw20_pct": 2.1807038943265855,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ABT",
+    "sector": "XLV",
+    "raw20_pct": 2.2220056524705267,
+    "exclusion": ""
+  },
+  {
+    "symbol": "STLD",
+    "sector": "XLB",
+    "raw20_pct": 2.244325427186933,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MNST",
+    "sector": "XLP",
+    "raw20_pct": 2.281368821292773,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FFIV",
+    "sector": "XLK",
+    "raw20_pct": 2.314654074948508,
+    "exclusion": ""
+  },
+  {
+    "symbol": "APH",
+    "sector": "XLK",
+    "raw20_pct": 2.3210831721470093,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PGR",
+    "sector": "XLF",
+    "raw20_pct": 2.3468240584598288,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "WAB",
+    "sector": "XLI",
+    "raw20_pct": 2.351639724512,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HON",
+    "sector": "XLI",
+    "raw20_pct": 2.3975588491717437,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BSX",
+    "sector": "XLV",
+    "raw20_pct": 2.422704199353931,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HIG",
+    "sector": "XLF",
+    "raw20_pct": 2.4490105390856165,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "PEG",
+    "sector": "XLU",
+    "raw20_pct": 2.4652429410921606,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TDY",
+    "sector": "XLK",
+    "raw20_pct": 2.5088655420409056,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LOW",
+    "sector": "XLY",
+    "raw20_pct": 2.5403917086601835,
+    "exclusion": ""
+  },
+  {
+    "symbol": "L",
+    "sector": "XLF",
+    "raw20_pct": 2.551730537255259,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ROK",
+    "sector": "XLI",
+    "raw20_pct": 2.552812665415538,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SRE",
+    "sector": "XLU",
+    "raw20_pct": 2.5827081539785857,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EXPD",
+    "sector": "XLI",
+    "raw20_pct": 2.6029119095003717,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WELL",
+    "sector": "XLRE",
+    "raw20_pct": 2.6128369816926567,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ROP",
+    "sector": "XLK",
+    "raw20_pct": 2.674786714599975,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HONA",
+    "sector": "XLI",
+    "raw20_pct": 2.7444987775061103,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PPG",
+    "sector": "XLB",
+    "raw20_pct": 2.7458859548411763,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ALLE",
+    "sector": "XLI",
+    "raw20_pct": 2.7974783293932104,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MDT",
+    "sector": "XLV",
+    "raw20_pct": 2.8438076630847853,
+    "exclusion": ""
+  },
+  {
+    "symbol": "APTV",
+    "sector": "XLY",
+    "raw20_pct": 2.913512273457197,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ON",
+    "sector": "XLK",
+    "raw20_pct": 2.915118605315792,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MSCI",
+    "sector": "XLF",
+    "raw20_pct": 2.931973158246981,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "CDW",
+    "sector": "XLK",
+    "raw20_pct": 2.934537246049662,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TSCO",
+    "sector": "XLY",
+    "raw20_pct": 2.9493945979509384,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NTAP",
+    "sector": "XLK",
+    "raw20_pct": 3.0385762677587413,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ETR",
+    "sector": "XLU",
+    "raw20_pct": 3.038917753161452,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AFL",
+    "sector": "XLF",
+    "raw20_pct": 3.1290294850855327,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ROL",
+    "sector": "XLI",
+    "raw20_pct": 3.1452358926919555,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HUBB",
+    "sector": "XLI",
+    "raw20_pct": 3.1728273516512973,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NUE",
+    "sector": "XLB",
+    "raw20_pct": 3.184636444158162,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HD",
+    "sector": "XLY",
+    "raw20_pct": 3.216881125408344,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SWK",
+    "sector": "XLI",
+    "raw20_pct": 3.2373297611073992,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TRMB",
+    "sector": "XLK",
+    "raw20_pct": 3.3009034051424635,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DUK",
+    "sector": "XLU",
+    "raw20_pct": 3.352335573896026,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CSX",
+    "sector": "XLI",
+    "raw20_pct": 3.3545647558386404,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LYB",
+    "sector": "XLB",
+    "raw20_pct": 3.3586307120943015,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DRI",
+    "sector": "XLY",
+    "raw20_pct": 3.378249235474007,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EXC",
+    "sector": "XLU",
+    "raw20_pct": 3.3990967435227004,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EXPE",
+    "sector": "XLY",
+    "raw20_pct": 3.436549131913358,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NDSN",
+    "sector": "XLI",
+    "raw20_pct": 3.447058445935114,
+    "exclusion": ""
+  },
+  {
+    "symbol": "UNP",
+    "sector": "XLI",
+    "raw20_pct": 3.4613594874181253,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RDDT",
+    "sector": "XLC",
+    "raw20_pct": 3.50679482930063,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LMT",
+    "sector": "XLI",
+    "raw20_pct": 3.5078180659192437,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TEL",
+    "sector": "XLK",
+    "raw20_pct": 3.5147502677441267,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MCO",
+    "sector": "XLF",
+    "raw20_pct": 3.5169337800635914,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "WAT",
+    "sector": "XLV",
+    "raw20_pct": 3.633517539074549,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SJM",
+    "sector": "XLP",
+    "raw20_pct": 3.6437576250508474,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TXN",
+    "sector": "XLK",
+    "raw20_pct": 3.6903690369036957,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AEE",
+    "sector": "XLU",
+    "raw20_pct": 3.766017802993238,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EG",
+    "sector": "XLF",
+    "raw20_pct": 3.801520608243303,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "MET",
+    "sector": "XLF",
+    "raw20_pct": 3.8334707337180474,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "GRMN",
+    "sector": "XLY",
+    "raw20_pct": 3.9152010508647805,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ICE",
+    "sector": "XLF",
+    "raw20_pct": 3.9171544349392295,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "CVS",
+    "sector": "XLV",
+    "raw20_pct": 3.9621791985592125,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TRV",
+    "sector": "XLF",
+    "raw20_pct": 3.98270247183814,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "AOS",
+    "sector": "XLI",
+    "raw20_pct": 3.985952589991215,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SYY",
+    "sector": "XLP",
+    "raw20_pct": 4.010120177103094,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TSN",
+    "sector": "XLP",
+    "raw20_pct": 4.036384309266627,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GILD",
+    "sector": "XLV",
+    "raw20_pct": 4.050363067084128,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NSC",
+    "sector": "XLI",
+    "raw20_pct": 4.061624649859952,
+    "exclusion": ""
+  },
+  {
+    "symbol": "OTIS",
+    "sector": "XLI",
+    "raw20_pct": 4.100992410974902,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FAST",
+    "sector": "XLI",
+    "raw20_pct": 4.10120383595185,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LNT",
+    "sector": "XLU",
+    "raw20_pct": 4.130467916476133,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DOW",
+    "sector": "XLB",
+    "raw20_pct": 4.176818656456671,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ELV",
+    "sector": "XLV",
+    "raw20_pct": 4.2121912641440495,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DVN",
+    "sector": "XLE",
+    "raw20_pct": 4.361242542686683,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BRK-B",
+    "sector": "XLF",
+    "raw20_pct": 4.364713498244299,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ATO",
+    "sector": "XLU",
+    "raw20_pct": 4.391765439800377,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EVRG",
+    "sector": "XLU",
+    "raw20_pct": 4.412133366758586,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AME",
+    "sector": "XLI",
+    "raw20_pct": 4.431072210065645,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DOV",
+    "sector": "XLI",
+    "raw20_pct": 4.471241062853504,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ABNB",
+    "sector": "XLY",
+    "raw20_pct": 4.5000601612321,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TPR",
+    "sector": "XLY",
+    "raw20_pct": 4.504347826086952,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SHW",
+    "sector": "XLB",
+    "raw20_pct": 4.511582951392135,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ACGL",
+    "sector": "XLF",
+    "raw20_pct": 4.520590360202292,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "AVY",
+    "sector": "XLB",
+    "raw20_pct": 4.5316319837815255,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ROST",
+    "sector": "XLY",
+    "raw20_pct": 4.536428224703215,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NKE",
+    "sector": "XLY",
+    "raw20_pct": 4.562095184455095,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GPC",
+    "sector": "XLY",
+    "raw20_pct": 4.590880699562772,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AMCR",
+    "sector": "XLB",
+    "raw20_pct": 4.653937947494047,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PLTR",
+    "sector": "XLK",
+    "raw20_pct": 4.723035352398108,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SBAC",
+    "sector": "XLRE",
+    "raw20_pct": 4.742706758497106,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "UHS",
+    "sector": "XLV",
+    "raw20_pct": 4.759748712434209,
+    "exclusion": ""
+  },
+  {
+    "symbol": "COO",
+    "sector": "XLV",
+    "raw20_pct": 4.792910110327364,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NOW",
+    "sector": "XLK",
+    "raw20_pct": 4.798110282719414,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CLX",
+    "sector": "XLP",
+    "raw20_pct": 4.801444043321301,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TDG",
+    "sector": "XLI",
+    "raw20_pct": 4.906772248054869,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DPZ",
+    "sector": "XLY",
+    "raw20_pct": 4.908225696804891,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MDLZ",
+    "sector": "XLP",
+    "raw20_pct": 5.028759244042713,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GWW",
+    "sector": "XLI",
+    "raw20_pct": 5.0599632088804025,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BALL",
+    "sector": "XLB",
+    "raw20_pct": 5.070656691604336,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FTV",
+    "sector": "XLI",
+    "raw20_pct": 5.072727272727273,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CMS",
+    "sector": "XLU",
+    "raw20_pct": 5.1423324150596805,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NI",
+    "sector": "XLU",
+    "raw20_pct": 5.174963035978308,
+    "exclusion": ""
+  },
+  {
+    "symbol": "OMC",
+    "sector": "XLC",
+    "raw20_pct": 5.2109181141439365,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ADI",
+    "sector": "XLK",
+    "raw20_pct": 5.248589375066537,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IEX",
+    "sector": "XLI",
+    "raw20_pct": 5.287859824780972,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WEC",
+    "sector": "XLU",
+    "raw20_pct": 5.36977803625085,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ORLY",
+    "sector": "XLY",
+    "raw20_pct": 5.383071656238947,
+    "exclusion": ""
+  },
+  {
+    "symbol": "APD",
+    "sector": "XLB",
+    "raw20_pct": 5.422619466535283,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PPL",
+    "sector": "XLU",
+    "raw20_pct": 5.488902219556091,
+    "exclusion": ""
+  },
+  {
+    "symbol": "XEL",
+    "sector": "XLU",
+    "raw20_pct": 5.5463347164592,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CB",
+    "sector": "XLF",
+    "raw20_pct": 5.621770784405844,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "TMO",
+    "sector": "XLV",
+    "raw20_pct": 5.917568501036152,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AEP",
+    "sector": "XLU",
+    "raw20_pct": 5.950000000000011,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BDX",
+    "sector": "XLV",
+    "raw20_pct": 5.974356140156956,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FANG",
+    "sector": "XLE",
+    "raw20_pct": 5.992100613241869,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WST",
+    "sector": "XLV",
+    "raw20_pct": 5.992106207391457,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SPGI",
+    "sector": "XLF",
+    "raw20_pct": 6.000197374913641,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "OXY",
+    "sector": "XLE",
+    "raw20_pct": 6.016315431679131,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BLK",
+    "sector": "XLF",
+    "raw20_pct": 6.0386247639701685,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "KR",
+    "sector": "XLP",
+    "raw20_pct": 6.05,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CNP",
+    "sector": "XLU",
+    "raw20_pct": 6.0962846677132365,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KVUE",
+    "sector": "XLP",
+    "raw20_pct": 6.176305446378438,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RSG",
+    "sector": "XLI",
+    "raw20_pct": 6.176915669280514,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RMD",
+    "sector": "XLV",
+    "raw20_pct": 6.213609493755268,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CNC",
+    "sector": "XLV",
+    "raw20_pct": 6.220242666257092,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FDS",
+    "sector": "XLF",
+    "raw20_pct": 6.2854525596307775,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "KO",
+    "sector": "XLP",
+    "raw20_pct": 6.402266288951841,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RVTY",
+    "sector": "XLV",
+    "raw20_pct": 6.406413384454512,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AJG",
+    "sector": "XLF",
+    "raw20_pct": 6.4305996325371595,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ZBRA",
+    "sector": "XLK",
+    "raw20_pct": 6.456452124743972,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CME",
+    "sector": "XLF",
+    "raw20_pct": 6.470780044201296,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ED",
+    "sector": "XLU",
+    "raw20_pct": 6.478232002276396,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AMT",
+    "sector": "XLRE",
+    "raw20_pct": 6.489251638119331,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "UNH",
+    "sector": "XLV",
+    "raw20_pct": 6.50835765455029,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ADP",
+    "sector": "XLI",
+    "raw20_pct": 6.51869331170265,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CEG",
+    "sector": "XLU",
+    "raw20_pct": 6.540771858191663,
+    "exclusion": ""
+  },
+  {
+    "symbol": "META",
+    "sector": "XLC",
+    "raw20_pct": 6.546000751032666,
+    "exclusion": ""
+  },
+  {
+    "symbol": "NCLH",
+    "sector": "XLY",
+    "raw20_pct": 6.586402266288971,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SO",
+    "sector": "XLU",
+    "raw20_pct": 6.618334892422828,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BRO",
+    "sector": "XLF",
+    "raw20_pct": 6.736388803445115,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "EXE",
+    "sector": "XLE",
+    "raw20_pct": 6.766487598582693,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TYL",
+    "sector": "XLK",
+    "raw20_pct": 6.924444444444444,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VLTO",
+    "sector": "XLI",
+    "raw20_pct": 6.931950470949322,
+    "exclusion": ""
+  },
+  {
+    "symbol": "TT",
+    "sector": "XLI",
+    "raw20_pct": 6.939945468527875,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PFE",
+    "sector": "XLV",
+    "raw20_pct": 6.941431670281983,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HUM",
+    "sector": "XLV",
+    "raw20_pct": 6.97529905235359,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VMC",
+    "sector": "XLB",
+    "raw20_pct": 6.975875098617279,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MAS",
+    "sector": "XLI",
+    "raw20_pct": 7.067293564501909,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SYK",
+    "sector": "XLV",
+    "raw20_pct": 7.102355335853461,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MSFT",
+    "sector": "XLK",
+    "raw20_pct": 7.14285714285714,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AIG",
+    "sector": "XLF",
+    "raw20_pct": 7.18173370503119,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "ECL",
+    "sector": "XLB",
+    "raw20_pct": 7.210717731759808,
+    "exclusion": ""
+  },
+  {
+    "symbol": "INTU",
+    "sector": "XLK",
+    "raw20_pct": 7.242982947986398,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HCA",
+    "sector": "XLV",
+    "raw20_pct": 7.278296041710508,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PSX",
+    "sector": "XLE",
+    "raw20_pct": 7.337165452348704,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BR",
+    "sector": "XLI",
+    "raw20_pct": 7.343836204254295,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CVX",
+    "sector": "XLE",
+    "raw20_pct": 7.388668798625364,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KMI",
+    "sector": "XLE",
+    "raw20_pct": 7.412060301507539,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WM",
+    "sector": "XLI",
+    "raw20_pct": 7.465656087162498,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DDOG",
+    "sector": "XLK",
+    "raw20_pct": 7.476513569937371,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EBAY",
+    "sector": "XLY",
+    "raw20_pct": 7.546494992846919,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CL",
+    "sector": "XLP",
+    "raw20_pct": 7.591174116840049,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VLO",
+    "sector": "XLE",
+    "raw20_pct": 7.605013550135498,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MRSH",
+    "sector": "XLF",
+    "raw20_pct": 7.6224215759099545,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "EMR",
+    "sector": "XLI",
+    "raw20_pct": 7.7041088580576345,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DIS",
+    "sector": "XLC",
+    "raw20_pct": 7.7140352585955085,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WRB",
+    "sector": "XLF",
+    "raw20_pct": 7.758251178739828,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "KMB",
+    "sector": "XLP",
+    "raw20_pct": 7.878602084610664,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CRL",
+    "sector": "XLV",
+    "raw20_pct": 7.9443285621808135,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BIIB",
+    "sector": "XLV",
+    "raw20_pct": 7.958236658932716,
+    "exclusion": ""
+  },
+  {
+    "symbol": "FERG",
+    "sector": "XLI",
+    "raw20_pct": 8.0119386279905,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MO",
+    "sector": "XLP",
+    "raw20_pct": 8.040851553509775,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VST",
+    "sector": "XLU",
+    "raw20_pct": 8.068529181772966,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CTAS",
+    "sector": "XLI",
+    "raw20_pct": 8.120825743776571,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ABBV",
+    "sector": "XLV",
+    "raw20_pct": 8.130019699954548,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DHR",
+    "sector": "XLV",
+    "raw20_pct": 8.134648977857516,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PYPL",
+    "sector": "XLF",
+    "raw20_pct": 8.185460789925592,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "LIN",
+    "sector": "XLB",
+    "raw20_pct": 8.260208514335377,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IR",
+    "sector": "XLI",
+    "raw20_pct": 8.283447027704316,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GEHC",
+    "sector": "XLV",
+    "raw20_pct": 8.482769374707622,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ISRG",
+    "sector": "XLV",
+    "raw20_pct": 8.483970203137314,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ODFL",
+    "sector": "XLI",
+    "raw20_pct": 8.50867052023121,
+    "exclusion": ""
+  },
+  {
+    "symbol": "STE",
+    "sector": "XLV",
+    "raw20_pct": 8.593445181428017,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EQT",
+    "sector": "XLE",
+    "raw20_pct": 8.599999999999985,
+    "exclusion": ""
+  },
+  {
+    "symbol": "GDDY",
+    "sector": "XLK",
+    "raw20_pct": 8.721526780217538,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PM",
+    "sector": "XLP",
+    "raw20_pct": 8.790160110274625,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VRSK",
+    "sector": "XLI",
+    "raw20_pct": 8.830739410523925,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PG",
+    "sector": "XLP",
+    "raw20_pct": 8.85306373386161,
+    "exclusion": ""
+  },
+  {
+    "symbol": "LLY",
+    "sector": "XLV",
+    "raw20_pct": 9.029169160313288,
+    "exclusion": ""
+  },
+  {
+    "symbol": "YUM",
+    "sector": "XLY",
+    "raw20_pct": 9.07312124066959,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MA",
+    "sector": "XLF",
+    "raw20_pct": 9.231476894770353,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "DECK",
+    "sector": "XLY",
+    "raw20_pct": 9.282162437842633,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AZO",
+    "sector": "XLY",
+    "raw20_pct": 9.290760022554467,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IFF",
+    "sector": "XLB",
+    "raw20_pct": 9.305689488910328,
+    "exclusion": ""
+  },
+  {
+    "symbol": "V",
+    "sector": "XLF",
+    "raw20_pct": 9.3187433815743,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "XOM",
+    "sector": "XLE",
+    "raw20_pct": 9.441115323468274,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IDXX",
+    "sector": "XLV",
+    "raw20_pct": 9.520179810417284,
+    "exclusion": ""
+  },
+  {
+    "symbol": "APA",
+    "sector": "XLE",
+    "raw20_pct": 9.538667260976164,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EOG",
+    "sector": "XLE",
+    "raw20_pct": 9.55418428898287,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ILMN",
+    "sector": "XLV",
+    "raw20_pct": 9.565144812619986,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ULTA",
+    "sector": "XLY",
+    "raw20_pct": 9.604791304669313,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HST",
+    "sector": "XLRE",
+    "raw20_pct": 9.752747252747241,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "DG",
+    "sector": "XLP",
+    "raw20_pct": 9.762274323993147,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PNW",
+    "sector": "XLU",
+    "raw20_pct": 9.7760322683367,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CI",
+    "sector": "XLV",
+    "raw20_pct": 9.815460621912253,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VTRS",
+    "sector": "XLV",
+    "raw20_pct": 10.088495575221245,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CTSH",
+    "sector": "XLK",
+    "raw20_pct": 10.288959412059473,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CHD",
+    "sector": "XLP",
+    "raw20_pct": 10.321899736147767,
+    "exclusion": ""
+  },
+  {
+    "symbol": "STZ",
+    "sector": "XLP",
+    "raw20_pct": 10.405984702025716,
+    "exclusion": ""
+  },
+  {
+    "symbol": "COR",
+    "sector": "XLV",
+    "raw20_pct": 10.408705227022486,
+    "exclusion": ""
+  },
+  {
+    "symbol": "COST",
+    "sector": "XLP",
+    "raw20_pct": 10.476818085355921,
+    "exclusion": ""
+  },
+  {
+    "symbol": "IT",
+    "sector": "XLK",
+    "raw20_pct": 10.533964904726023,
+    "exclusion": ""
+  },
+  {
+    "symbol": "A",
+    "sector": "XLV",
+    "raw20_pct": 10.545152425385051,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ADSK",
+    "sector": "XLK",
+    "raw20_pct": 10.578474302834762,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BAX",
+    "sector": "XLV",
+    "raw20_pct": 10.877192982456151,
+    "exclusion": ""
+  },
+  {
+    "symbol": "DLTR",
+    "sector": "XLP",
+    "raw20_pct": 10.914612361557708,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CSGP",
+    "sector": "XLRE",
+    "raw20_pct": 11.069095909247162,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "COP",
+    "sector": "XLE",
+    "raw20_pct": 11.135553364181128,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ZTS",
+    "sector": "XLV",
+    "raw20_pct": 11.176470588235276,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WMT",
+    "sector": "XLP",
+    "raw20_pct": 11.31827977138573,
+    "exclusion": ""
+  },
+  {
+    "symbol": "BF-B",
+    "sector": "XLP",
+    "raw20_pct": 11.333847340015414,
+    "exclusion": ""
+  },
+  {
+    "symbol": "WSM",
+    "sector": "XLY",
+    "raw20_pct": 11.578947368421066,
+    "exclusion": ""
+  },
+  {
+    "symbol": "KDP",
+    "sector": "XLP",
+    "raw20_pct": 11.821705426356587,
+    "exclusion": ""
+  },
+  {
+    "symbol": "EL",
+    "sector": "XLP",
+    "raw20_pct": 11.89125548539014,
+    "exclusion": ""
+  },
+  {
+    "symbol": "AMGN",
+    "sector": "XLV",
+    "raw20_pct": 12.145727991702326,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MPC",
+    "sector": "XLE",
+    "raw20_pct": 12.516180658523378,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CCI",
+    "sector": "XLRE",
+    "raw20_pct": 12.592389816589101,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "CAH",
+    "sector": "XLV",
+    "raw20_pct": 12.725175259561627,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HAS",
+    "sector": "XLY",
+    "raw20_pct": 12.778348749571776,
+    "exclusion": ""
+  },
+  {
+    "symbol": "HLT",
+    "sector": "XLY",
+    "raw20_pct": 12.883917181827087,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CDNS",
+    "sector": "XLK",
+    "raw20_pct": 12.94096854012019,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RCL",
+    "sector": "XLY",
+    "raw20_pct": 12.965298401204173,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MAR",
+    "sector": "XLY",
+    "raw20_pct": 14.496046264605212,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MCK",
+    "sector": "XLV",
+    "raw20_pct": 14.884811067284055,
+    "exclusion": ""
+  },
+  {
+    "symbol": "RL",
+    "sector": "XLY",
+    "raw20_pct": 15.040286481647257,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CASY",
+    "sector": "XLP",
+    "raw20_pct": 15.35448885318338,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CBOE",
+    "sector": "XLF",
+    "raw20_pct": 15.436487576046321,
+    "exclusion": "financial_or_REIT_sector"
+  },
+  {
+    "symbol": "TJX",
+    "sector": "XLY",
+    "raw20_pct": 15.789060044011327,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MTD",
+    "sector": "XLV",
+    "raw20_pct": 16.51703631349115,
+    "exclusion": ""
+  },
+  {
+    "symbol": "SNPS",
+    "sector": "XLK",
+    "raw20_pct": 18.09491648699897,
+    "exclusion": ""
+  },
+  {
+    "symbol": "CCL",
+    "sector": "XLY",
+    "raw20_pct": 18.58974358974359,
+    "exclusion": ""
+  },
+  {
+    "symbol": "P",
+    "sector": "XLK",
+    "raw20_pct": 19.080084501632435,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VEEV",
+    "sector": "XLV",
+    "raw20_pct": 19.272894969447773,
+    "exclusion": ""
+  },
+  {
+    "symbol": "ACN",
+    "sector": "XLK",
+    "raw20_pct": 26.692040377296046,
+    "exclusion": ""
+  },
+  {
+    "symbol": "MRNA",
+    "sector": "XLV",
+    "raw20_pct": 41.52817450012984,
+    "exclusion": ""
+  },
+  {
+    "symbol": "PTC",
+    "sector": "XLK",
+    "raw20_pct": 42.011921407020395,
+    "exclusion": ""
+  },
+  {
+    "symbol": "VYLR",
+    "sector": null,
+    "raw20_pct": null,
+    "exclusion": "sector_UNKNOWN"
+  }
+]
