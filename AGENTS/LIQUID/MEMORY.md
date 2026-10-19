@@ -2,7 +2,17 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-10-16 Fri 16:16–16:4x ET — PROME Tier-1 wake DOCKET L721, Claude Code / Opus 5.5)
+### CURRENT SESSION (2026-10-19 Mon — Will-launched Codex, host argv gpt-6.1-sol; L746)
+
+No pull/stash/reset/push per commission; concurrent tree preserved. Native session UUID UNKNOWN; no verified transport to PROME's independent terminal. → `analysis/2026-10-19_L746-published-close.md`.
+
+- **Own >320 sustained MET 3-of-3:** first-published325[10/14]→323[10/15]→331[10/16], graded10/19. Signal ALL + TERRY card ask via WALTER; RED/REGINALD own their counts. X1 CLOSED, no capital.
+- **069 L4 10/16 NOT FIRED:** HY+8 meets, no equity≤−15%; worst NBIS−12.1756% on daily raw bars. 2-of-2 gate count unchanged.
+- **Funding PARTIALLY INSTRUMENTED / SUPERVISOR-BLIND:** first-published10/16 SOFR−IORB−2bp,75th+3,99th+5,SRF$0.000B. LIQ-07 remains RESOLVED S2, not a new prediction.
+- **Whole inbox integrated:** initial2 top-level+6 WALTER; new WALTER-003 arrived mid-work,9 total(2+7). Volta WQ441 A NOT RED/B RED stays unresolved; L3 UNGRADED. GIBBS named deposits integrated without system-wide flight inference. VIX/fund-unwind cause unproven; COR-20261016-03 applies13:36:33ET timestamp.
+- **Gaps:** CFTC403 at required full boot; no fallback hunt. EUR/USD tool WITHHELD, no capacity/haircut instrument. Full closeout awaits PROME's explicit final-touch ask; delivery/notification/consumption are separate.
+
+### PRIOR SESSION (2026-10-16 Fri 16:16–16:4x ET — PROME Tier-1 wake DOCKET L721, Claude Code / Opus 5.5)
 
 No `git pull` (PROME/memory/WALTER dirty paths); pathspec commits only. → `analysis/2026-10-16_L721-four-legs.md`.
 
@@ -12,7 +22,7 @@ No `git pull` (PROME/memory/WALTER dirty paths); pathspec commits only. → `ana
 - **August TIC aggregate:** Treasuries official −24.1 / private +85.3 / total +61.2 ($B). Country flows not reached → ZHAO (packet).
 - Inbox 23 → 0; 3 corrections NO-OP. ⚠️ Self-caught: nearly re-answered TERRY's 10/15 ask with a different kill rule — the 10/15 afternoon session had answered it but left the packet unmoved. Check `git log -- AGENTS/<peer>/inbox` before replying to a packet still in the inbox.
 
-### PRIOR SESSION (2026-10-15 Thu 12:07–15:2x ET — Will-launched, Claude Code / Opus 5.5; closed 2026-10-15T15:14:41-0400)
+### EARLIER SESSION (2026-10-15 Thu 12:07–15:2x ET — Will-launched, Claude Code / Opus 5.5; closed 2026-10-15T15:14:41-0400)
 
 No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
@@ -26,7 +36,7 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 ### NEXT SESSION
 
-Mon 10/19 AM: ① WQ-444 third bar = 10/16 HY cell: >320.0 ⇒ MET ⇒ signal ALL via WALTER + TERRY card ask; ≤320.0 resets. ② 069 L4 10/16 session HY half (equity half provisionally NOT MET). ③ Read ZHAO's August TIC country grade; reconcile. ④ Swap-line WQ-404 fix pass (conditions first). ⑤ CFTC TFF 403 fallback hunt (076 UNMEASURED). ⑥ DAEDALUS 10/8 asks; stale OCIC/R2 line in CLAUDE.md ~84. ⑦ By 10/30: LIQ-04 PitchBook check; 069/076 reviews; 10/31 079 FIRE-leg bands proposal.
+Re-anchor current publications, STATUS and all inbox lanes. L746 is graded; no re-run of Friday research because a notification failed. PROME consumes the exact memo/version, mirrors L746/GATES and acknowledges; full desk closeout follows its explicit ask. Existing separate work remains: WQ404 conditions-first fix pass; deferred DAEDALUS10/8 asks; October30 reviews and October31 079 band proposal. Volta WQ441 remains unresolved until Will rules; no repeated supervisor-blind data-wall hunt.
 
 ### EARLIER SESSION (2026-10-15 Thu 08:23–08:5x ET — PROME `prome-73` Tier-1 WQ-184 wake, Claude Code / Opus; no other LIQUID session on host per PROME preflight 08:23)
 
