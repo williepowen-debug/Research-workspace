@@ -1,0 +1,831 @@
+{
+  "observed_at": "2026-10-19T15:44:13.225012+00:00",
+  "head": "bbf3cc41a8bba4620c15e0c0d2406b341033620d",
+  "files": [
+    {
+      "path": "AGENTS/NEXUS/BRIEFS_MAP.md",
+      "bytes": 22429,
+      "sha256": "90eeda92cc285e32750ead9c253f535faeb5afb61cb883c28240659c2ddeb096"
+    },
+    {
+      "path": "AGENTS/NEXUS/CONFIRMED.md",
+      "bytes": 10464,
+      "sha256": "2139303397c5730c53dc3a2daa87072f1aa33308cdfb082de36034f679914ba7"
+    },
+    {
+      "path": "AGENTS/NEXUS/LAST_COMPLETION.md",
+      "bytes": 24177,
+      "sha256": "c38a2adc53cdac083124d66a310d153f91f52bfcc8aa072e4d59def430075015"
+    },
+    {
+      "path": "AGENTS/NEXUS/PREDICTIONS_MONITOR.md",
+      "bytes": 17490,
+      "sha256": "da085402b8151dfae40fe98a38760996e3199eb27decf19f3e5032e61bd9bee9"
+    },
+    {
+      "path": "AGENTS/NEXUS/STATUS.md",
+      "bytes": 17333,
+      "sha256": "442b1b63c1191f3b532d91670cad300e15d222956d57cb41d4274a6c25fd46db"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_WQ342_review.md",
+      "bytes": 5225,
+      "sha256": "e4de4d6384c0f1266cefdc6039fd00c12130e1d3a4ddf7dc929233459d707a1f"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md",
+      "bytes": 11320,
+      "sha256": "254ebd836f06d0aba37628059404459a5db19fb81c4e4c93f24d22d500b160ff"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_WQ459_registration/CALENDAR.json",
+      "bytes": 1938,
+      "sha256": "5f051988a17daac143424206dbb37ea5ad87883aba0ea028297fde94d532c47d"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_WQ459_registration/RECORD.md",
+      "bytes": 2901,
+      "sha256": "d70d2e223a14e5d6b14256be757a059ccaf145e0da52c57adc6cbf82f77a3eb7"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_WQ459_registration/SOURCE_RECEIPT.json",
+      "bytes": 3326,
+      "sha256": "d4c9551c90fe7802f3799081886820df0c621c0396da4ab6a992af01716a53ca"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_continuation_controls.json",
+      "bytes": 25486,
+      "sha256": "aaa8d99338f56169a73afcecbefd9775ec12d059ce7a552dbd839fbbb99ab2a5"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_continuation_freshness.tsv",
+      "bytes": 10394,
+      "sha256": "51168545d17827a1ad71fec189538ad3bd1e2ff350d1a5f7bc1e13ba8e9659ae"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_continuation_record.md",
+      "bytes": 5968,
+      "sha256": "e40257ee9c492a4ec2f2fbc182522c47ab8207cab097a8f7ab11b1b3f7d05f4a"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_fleet_freshness.tsv",
+      "bytes": 10275,
+      "sha256": "0eecd5fa768d807b800b2e9207fdc3ec8abfacfac0412cceaff4c9a8d33b0d4f"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/BRIEF_MANIFEST.json",
+      "bytes": 10374,
+      "sha256": "88a00d303a93dacc5ae28bb6a2617f9f5e7217d8567be17408d07849294e5c98"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/BRIEF_READS.md",
+      "bytes": 7912,
+      "sha256": "e8c16bcaa8e08ee980cd78c26c3ee9357deb0f05b6eb09224c11553bee307006"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/CLOSEOUT.json",
+      "bytes": 6874,
+      "sha256": "51d5f85373ebeef764506a4a7ee2d98895fb0b65842f5e6ba699b68480bb079c"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/COLDREAD1.md",
+      "bytes": 1504,
+      "sha256": "b12fdd647429f18d30df9cc4164a736fd281eb2b7c59da49a7c9a76cd03f9715"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/COLDREAD2.md",
+      "bytes": 1651,
+      "sha256": "2029c5f274fb40cdb77813b2f948b6f6f5d9a96b501bd3544253531c85e04833"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/FRESHNESS_CLOSE.tsv",
+      "bytes": 10373,
+      "sha256": "653f0d0d1319d79021a1496e8b8765e8a61af9df185667327e80f4f04bcf779f"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/FRESHNESS_OPEN.tsv",
+      "bytes": 10380,
+      "sha256": "74bf76248fdcd92290d2e98a6118f2895056968a8d6a3531343f0baadfdbd3b7"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/NUMERIC_CHECK.json",
+      "bytes": 1594,
+      "sha256": "8c871297150731334e1582cdfe75fb43a56443d5e5d82bee65128091fe2ff1d2"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/PIN_CHECK.txt",
+      "bytes": 2633,
+      "sha256": "c061c3af80d1df7e42157a3b420c86bf5466ce19262466bd40368ec5ffe59ef8"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/PIN_CLOSE.txt",
+      "bytes": 2708,
+      "sha256": "369c614a853be3ae7c2eb90a51704673d2d99c765ade5afcfa2679f0b61ac699"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/RECORD.md",
+      "bytes": 20074,
+      "sha256": "377b99adbd289faa4b1954175bc4f4231845c85ad2eb694b136f3e613a8a41f8"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/RESIDUE_SCAN.json",
+      "bytes": 2091,
+      "sha256": "a12d3ecef856d4552e0d19cb5860498112c3e19815e5c2be9870233a1f6a044c"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/SELF_LETTER_AUDIT.md",
+      "bytes": 7531,
+      "sha256": "add08374502c6c06769359bf2f3309ca57a01b69a4477d9623034135ed186d9e"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/SOURCE_RECEIPT.json",
+      "bytes": 9933,
+      "sha256": "925dc22906c4a9d38d46d490266e1e2dcb6f03a1d64f91d94e3815350ad89455"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/WILL_SYNTHESIS.md",
+      "bytes": 5745,
+      "sha256": "456d2605cded7f6a9219e2faf875d7897b6f6f34c617da2874250f1911007462"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/fred_first_published.json",
+      "bytes": 8527,
+      "sha256": "1a8f498424f555f5aaf7ba4c8726966650bbf6bdad895a849fb22ef6300a1fa9"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/market_probe_audit.log",
+      "bytes": 833,
+      "sha256": "48c3450fb832bc7b811b356e14f90c7753f8bb9c020b8618ff93289b4d07f001"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_full_synthesis/vendor_probe.json",
+      "bytes": 3182,
+      "sha256": "45e2e6c418cd690d3e6e5546d0e20602a687bfa14ea202eada2335df35485971"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_morning_synthesis.md",
+      "bytes": 6670,
+      "sha256": "861ba5cb5c48a592ab432a6d224688106794e07635d071dba73a0803cc9ebee6"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_publication_check/receipt.json",
+      "bytes": 2142,
+      "sha256": "7f0520c4b0b631329a469c51babe547416292115fa19a7cfab8b442404442e80"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate/BAMLC0A0CM.csv",
+      "bytes": 12551,
+      "sha256": "67dc40993722282a9e1980aedc9b047a81e0c85bb5783173a1f6bced532861b6"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate/BAMLH0A0HYM2.csv",
+      "bytes": 12565,
+      "sha256": "6eee1be6d45008cf1be262b4eb3315aa7a3951b8fe69963a0a2a7528dd98b198"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate/BAMLH0A1HYBB.csv",
+      "bytes": 12568,
+      "sha256": "32bf02f6bef3f9329339d337e58e38a2d1eff0db19e2db8043b10937ac6b99ce"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate/BAMLH0A2HYB.csv",
+      "bytes": 12566,
+      "sha256": "0800131b48f5a663daba6faf50008ecadf692ba386a6fc5a53aa7a3eb0950606"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate/BAMLH0A3HYC.csv",
+      "bytes": 12668,
+      "sha256": "116e3d298181adba1037ad3eb86af8d5d5a509c80e15e274b9f5d6cffd6b48e2"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate_grid.py",
+      "bytes": 2332,
+      "sha256": "d5da0d33db6cee59001bb9059f64de03ce897f2263c8096ec5068d406f6bd000"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate_hy_guarded.py",
+      "bytes": 2401,
+      "sha256": "0c5b4cca48b7b8854df81bf6cd408e4d6d9f73dcb51f0b672577202d4f5eba67"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/gate_robust.py",
+      "bytes": 2114,
+      "sha256": "3a312b2cf5f23fb5c037a768a0b71ed547d319778514a4b1e309252b8182e36c"
+    },
+    {
+      "path": "AGENTS/NEXUS/research/2026-10-19_wq342_grid/refresh_receipt.json",
+      "bytes": 2815,
+      "sha256": "cd5831e26d2d92e55eab7eac15fcd7c6d78a948034520960659e931f44d9ec2b"
+    },
+    {
+      "path": "AGENTS/OTTO/LAST_COMPLETION.md",
+      "bytes": 1097,
+      "sha256": "914bfa14b2fb580d523488ee23ddb02cc08b02f3c96536f396bd5d6ebb88b5a5"
+    },
+    {
+      "path": "AGENTS/OTTO/NEXUS_BRIEF.md",
+      "bytes": 10527,
+      "sha256": "0f27ba8d070fba7e22a3eac79e62b1103267f4aa0f637a603eb42fb8b7604ab8"
+    },
+    {
+      "path": "AGENTS/OTTO/STATUS.md",
+      "bytes": 24287,
+      "sha256": "446327aed45690710ad49b7a5d703d92f0ea597a7a51b2646e801707fdef71b0"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/CLOSEOUT.md",
+      "bytes": 2524,
+      "sha256": "f98af1957b217b4ac315f661fdfbe6962a094360b07ca7e5ed62305451ee6bd9"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/METHOD_LOCK.md",
+      "bytes": 4212,
+      "sha256": "3b40a47213a172ab678626af926dd09ba2f39a82f69d7d7bfd349ee7d88a0b75"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/SOURCE_NOTES.md",
+      "bytes": 4342,
+      "sha256": "4dfbf17d835ec348d4430c08df48c4e57eb97eb0088cd9b2345080db35fbbf99"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/UNIVERSE_FIXED.md",
+      "bytes": 1646,
+      "sha256": "ba54e8a85b4285397cb02d95303c8cd27040c37bf5155fbb6c52d3687903a8c1"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/VERDICT.md",
+      "bytes": 14091,
+      "sha256": "1964f6321653819b3704b9f28028c75a91a3bde9cd4dabfe5403c2224c9fae33"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/closes.json",
+      "bytes": 17664,
+      "sha256": "157d3b9713d81594c75553f07142b364f4cc13dd2603a4b1f89ea30fcce4c86c"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/collect_sources.py",
+      "bytes": 1410,
+      "sha256": "84622c5cceb7e0ac924c1e906875ab38a7712e3930b92de6a40b671622310a00"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/equity_result.json",
+      "bytes": 4203,
+      "sha256": "02444eb9519b255945bfaab1aaf53fbe5ec1904f841143b4f7dbc9bd2f3a78dc"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/equity_test.py",
+      "bytes": 2689,
+      "sha256": "8b08664e155a9bb9009a63415b3f6b73614f1b9f8b942c8d1f70085ebf971552"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/events.tsv",
+      "bytes": 2212,
+      "sha256": "4a555480ad70440a0900df5e2da4c4955743085a6ae6e58af5776a5e7944bde9"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/filing_inventory.json",
+      "bytes": 12208,
+      "sha256": "cf61fd3df7b3a98605d5090297f35395d5175ce3bf990458a30a4cbc9b5b890d"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/hyg_candidate_rows.json",
+      "bytes": 13433,
+      "sha256": "788514bdb1121125864bc5eca1b4832bb339b6242e59582a31956d6bae23df64"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/issuer_coverage.tsv",
+      "bytes": 1860,
+      "sha256": "3cbbcb0584b9ad70f2971ca88db9f88798a7ce2ac8cf522334f0c738e045c914"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/primary_evidence.py",
+      "bytes": 3127,
+      "sha256": "2b15c991222c40dcaf66b71b624207a7d73c5a6a7bba254cc0eab11b21edb6af"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/primary_manifest.json",
+      "bytes": 10076,
+      "sha256": "ca81af72c4477f13eded67eab31d51f7c8893f7e9d72f70c5c44213d2c00929f"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/replay.txt",
+      "bytes": 672,
+      "sha256": "5c3940e6d80beb9e2e339b6fff207b17b3a5009799fba78c2dc8f8d6b91e49a4"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-2026-09-18-000192.html.gz",
+      "bytes": 6471,
+      "sha256": "ed9d31b91fe479ca28b6fe7d0088752657082ff9e0c6bb3ab21d70735afa5e1a"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-2026-09-18-000192.txt",
+      "bytes": 9141,
+      "sha256": "a20be982b387a66f96dd0fb40480b59066c4b88b99393b85a56000232f2e95f9"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-2026-09-21-000195.html.gz",
+      "bytes": 5223,
+      "sha256": "4c49b162f3609b4643f63345ce9ada591e70e92e76fd921f0457a98dcc680221"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-2026-09-21-000195.txt",
+      "bytes": 7324,
+      "sha256": "f3c2770f235b91edfffb101e6f5804e6215f9f1baaf7f66ad708ed530093a7df"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-latest-10Q.html.gz",
+      "bytes": 151801,
+      "sha256": "ab054b94a69903234ecbdaca073b6ee854446360e0c6d271b3b138fe3fdf25d3"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-latest-10Q.txt",
+      "bytes": 256553,
+      "sha256": "0387c2b939fb31ea4eb652e23fd331277bf4055217375dedce0382644a0bcc48"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CACC-submissions.json",
+      "bytes": 163948,
+      "sha256": "039a69a6b5fd82a1447936fd2fb8579c71c8b8911bf7da19a9d703c56c15264f"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CPSS-2026-10-13-007809.html.gz",
+      "bytes": 5735,
+      "sha256": "6adb152d6dd6a0adbf152f01d1f83cf2f6837d6ba10b9bb1c0156cf05a1bf736"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CPSS-2026-10-13-007809.txt",
+      "bytes": 5434,
+      "sha256": "3b5d50d794e916b84022e92e650e121213eee6d7fd6737f117d917cb2de7ab9b"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CPSS-submissions.json",
+      "bytes": 160476,
+      "sha256": "59e267ec1e2ab2f13fa4262f517e764acf5a0c3f9e843a1c87b059ef9699e0c7"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-09-18-006114.html.gz",
+      "bytes": 6635,
+      "sha256": "f66fc979d29f91488e0ad41c07ffdbb4f45356ef01feae859b6c7ca340767fb4"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-09-18-006114.txt",
+      "bytes": 10146,
+      "sha256": "9ff01fece76c0c8e475566a04495e13cb0cf0a643e2b25dc6c333a6a80d8f90a"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-09-24-006214.html.gz",
+      "bytes": 5751,
+      "sha256": "166fdc911df760db58d58b4ec3de1972ec60e51c279fc598d5ddfa5e1109877b"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-09-24-006214.txt",
+      "bytes": 6071,
+      "sha256": "34593b04ca947ac69a5715167040fc5d8afdba807e38b1c1c91a12c06b8fdbc0"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-09-24-006216.html.gz",
+      "bytes": 6634,
+      "sha256": "c0a1e1b76b0a6810dbadb1aff56b092bcffab87cc65261e02e9719335890b160"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-09-24-006216.txt",
+      "bytes": 10068,
+      "sha256": "a69041613331d7f0031f2035b1b2d0fe655b92e452257c61a9fde2e660caf5c2"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-10-01-006326.html.gz",
+      "bytes": 6656,
+      "sha256": "92c118b8a465cf49942fd2edb1b97c8a7880bccc1aefdee57605faa7a209bc17"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-10-01-006326.txt",
+      "bytes": 10159,
+      "sha256": "4b3e2ffad5e865befa6d08f40f8153b4c0d83a3b2423950398432ab848d31fa3"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-10-08-006538.html.gz",
+      "bytes": 6582,
+      "sha256": "92e3b36e4112fca01e0fd069827cb52e7079549c893fc2297d865266cf0b1f21"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-10-08-006538.txt",
+      "bytes": 10117,
+      "sha256": "05ed41cad26bf2734e34b01b255a6b4a2feffc7c85c649e7b0cfa750c05a5029"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-10-15-006667.html.gz",
+      "bytes": 6580,
+      "sha256": "5a8c20d0d12bb033c69a0a14a30c943409dfa64b6ec4e716e36271ead9820e20"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-2026-10-15-006667.txt",
+      "bytes": 10122,
+      "sha256": "b207837db1d465d3ba0bfa133a13eaabdb2099078932e6a4a15b02282d47b162"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CRMT-submissions.json",
+      "bytes": 162993,
+      "sha256": "6784a45e3d0a395a22346061520ff1f18379d4b01874e5f001d742d44f18bf7c"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/CVNA-submissions.json",
+      "bytes": 158254,
+      "sha256": "08cf3c3265f390fa8064fee29830b1fc30d61a08490c2415d0bef588760be594"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2022-2-20260929.html.gz",
+      "bytes": 9303,
+      "sha256": "5d958e1d46c35e2da05a9484593a69c5b20b02ff23c71124385e1529088ab4bf"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2022-2-20260929.txt",
+      "bytes": 9877,
+      "sha256": "617d5ddfaf7e5d8cad245cce06c5b599725abd75229e30ecb683734e88896fc1"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2022-3-20260929.html.gz",
+      "bytes": 9390,
+      "sha256": "4f300f72f15f5eb293a8f67951d48b09aa5d602d9f760fa7ed04ef788eec48ef"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2022-3-20260929.txt",
+      "bytes": 9877,
+      "sha256": "db320c859b3e69962455721c604d61214b6ec5add8786386cdf3def7a25e0a56"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2023-1-20260929.html.gz",
+      "bytes": 9161,
+      "sha256": "685da2a4bc72976730efa78cccd4b3561a3ddf8d09728522b5f8ca9fc30decd2"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2023-1-20260929.txt",
+      "bytes": 9507,
+      "sha256": "30fe80faa3dfa6e1ca692cff9f77ebe712bd5ee7e04ed9be1cb960ca6dead508"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2024-1-20260929.html.gz",
+      "bytes": 9141,
+      "sha256": "78e0918418e7d49c3214f978f17076e93d3cfe975de98c1457bac804f1ef4aa1"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/EART_2024-1-20260929.txt",
+      "bytes": 9570,
+      "sha256": "2f910df4f310abf175d201bf84cec2a62c5ce2b5bf0c5ec8a722c30d88527ca6"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-09-15-392151.html.gz",
+      "bytes": 7112,
+      "sha256": "5b34620e9145203818bdd3deb1a4abd03240b06c7aef22de4267063bb3f85464"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-09-15-392151.txt",
+      "bytes": 8013,
+      "sha256": "25cba40053ccdb15ed7ceec3d4c070cf210440f91ff4f4b011ca8f42410c901e"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-09-17-394356.html.gz",
+      "bytes": 5557,
+      "sha256": "5158c05f052976f3a4f7a10290e1b76d8ec70170b69b2a0ed7045bfeee46a4d5"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-09-17-394356.txt",
+      "bytes": 4115,
+      "sha256": "5fa33a82ed3addafd3ace5beef97e6547e11295741ce63a18dceac1c3b64547f"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-09-25-402851.html.gz",
+      "bytes": 8182,
+      "sha256": "8548eb937d285ad52f52da8592d26c1ccd6fdf42d7d4bc62c9d8e448f383db1f"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-09-25-402851.txt",
+      "bytes": 11160,
+      "sha256": "d94405758442ddbbd0c0a3e8f3259c175f7210b6990525f1563d02b1c2139486"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-10-13-420462.html.gz",
+      "bytes": 5317,
+      "sha256": "34756cb54e4cbd5e175f0ab0647fa44d51dfa66fe6a9c6586c14402c944a0a92"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-10-13-420462.txt",
+      "bytes": 3943,
+      "sha256": "e7e49a836c27cef2cdaf9f8976a51f10bc8912218bac53439ecc76f9d619ac0b"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-10-16-424282.html.gz",
+      "bytes": 5730,
+      "sha256": "443a025226c436d42740a6fb4b059df5265f2b95cb02efd39e04c8d43ca424ec"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-2026-10-16-424282.txt",
+      "bytes": 4917,
+      "sha256": "7687b35e3eeb1664df1c5b7b2a4f6a92b8ec51f50d9636879eeaeb6ff0e06074"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-latest-10Q.html.gz",
+      "bytes": 188124,
+      "sha256": "4279e404404abe698b7aedb646c1e1401622f530cd67768fc75806657ba5a33e"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-latest-10Q.txt",
+      "bytes": 175776,
+      "sha256": "e78c9bb009d44bcce42a5af823e33c73cfb702b5b8cc8ce9d4c3eeb1de26438f"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ENVA-submissions.json",
+      "bytes": 161389,
+      "sha256": "1be641612d868132c5f385beaece7c33c3f9b28d7e0b621a4e01ad9d3cf16366"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/FINRA-bond-lookup.html.gz",
+      "bytes": 17026,
+      "sha256": "5313dca9321d8398459ce680764c5765e9a929f1ee384aa40f306f1295e9e120"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/FINRA-bond-lookup.txt",
+      "bytes": 5152,
+      "sha256": "0474b3e8ec119a4315fed125df8f8406d95ebd4f7b7c179e04b41833a25a57cb"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ICE-FRED-CCC.html.gz",
+      "bytes": 17557,
+      "sha256": "acfec5c01235059b405818c268912d892296f1feebb58722acac32a9f8acfbf6"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/ICE-FRED-CCC.txt",
+      "bytes": 8080,
+      "sha256": "baf1cc226ec4f2adde0adde17e0bdf738632230d629ebdfc1ca073de2a14a158"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/OMF-latest-10Q.html.gz",
+      "bytes": 137444,
+      "sha256": "17b756f674e976833048976faf2099a691f25fcbce0daa4a9f0600ebeffcaff4"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/OMF-latest-10Q.txt",
+      "bytes": 188875,
+      "sha256": "6826679fcd5d50cf2d0a49ffbfcd1992e77420b47d6d26396423ee6b616155a9"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/OMF-submissions.json",
+      "bytes": 154293,
+      "sha256": "87ca9cfa2a6fc56889e7cec429615c8018c69dc785cb39b93ed5824a229e521d"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/OPRT-submissions.json",
+      "bytes": 122118,
+      "sha256": "c2e58ed7dd8368cddb23ee0d4870ce6b233dc0c64a4358e0a19b79cfae8a4b65"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/WRLD-2026-09-21-030771.html.gz",
+      "bytes": 5232,
+      "sha256": "d2f224c16aeb1c780c4331b9b53241d78a59d85166c7ee6f2abd51173ac6d698"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/WRLD-2026-09-21-030771.txt",
+      "bytes": 6682,
+      "sha256": "30e8d06f5978a721ed21578814b56319bfce37de158b1c6ac6ddec84ac590ea5"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/WRLD-latest-10Q.html.gz",
+      "bytes": 103511,
+      "sha256": "fc60c28585ab965ee8bd609b9d59ca347797c8e77de37e2927e329a6a9b01524"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/WRLD-latest-10Q.txt",
+      "bytes": 193312,
+      "sha256": "3cd72ebbdb8cc785733d313f3ba6e55abf10f3c911386817d7b6fb442f707504"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources/WRLD-submissions.json",
+      "bytes": 167394,
+      "sha256": "f0955e9196b4fa315fcc9d97a9b784f554de36603966a30cccbcb0598f7fa656"
+    },
+    {
+      "path": "AGENTS/OTTO/research/2026-10-19_L708/sources_manifest.tsv",
+      "bytes": 6094,
+      "sha256": "6351b60e63709eabc499b36d5b1b48f28e94b3f2b5a189065c28f3cb7ac22ad2"
+    },
+    {
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "bytes": 63771,
+      "sha256": "d1a5302e75c96fd757f59b0698503760d8757f017b97170ce4769adb94dd7597"
+    },
+    {
+      "path": "AGENTS/OTTO/thesis/THESIS.md",
+      "bytes": 67007,
+      "sha256": "4247afb8321048ade456c55e6b8189e8fe2d22e44d6f107e3679e691723cfa70"
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "bytes": 9985,
+      "sha256": "2549fa1b9740bd391d35c744412d3d65926fabcdaa7bd0953b8abdba23902f1a"
+    },
+    {
+      "path": "PROME/BRIEF.md",
+      "bytes": 4211,
+      "sha256": "0e80dcc9baf0506537f76eddeb56946ac18166a30a8f1e26a92cfc60eefd269c"
+    },
+    {
+      "path": "PROME/DOCKET.tsv",
+      "bytes": 1614838,
+      "sha256": "1a58da303a2dd9e1ac48191b099a9f0b7da816d822b38a30405f712d111d3199"
+    },
+    {
+      "path": "PROME/GATES.tsv",
+      "bytes": 69018,
+      "sha256": "1c2108a55de85e8d62cde14bebf09c646ecc1c01f276a488552d201cd393fdff"
+    },
+    {
+      "path": "PROME/HANDOFF.md",
+      "bytes": 9561,
+      "sha256": "f1d876c6c57214071f07a3e331535021d219fe38b3a84d2e1c64b716b639d2df"
+    },
+    {
+      "path": "PROME/SCRATCH.md",
+      "bytes": 22008,
+      "sha256": "a1b98171026bf338416705f09a530acd045e345b344a40025fba9bd48ae51261"
+    },
+    {
+      "path": "PROME/STATUS.md",
+      "bytes": 14872,
+      "sha256": "4a22bc88bed2560c49d645af5f186406479ccf7f0305315cfeba1de3caf26c70"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "bytes": 124245,
+      "sha256": "2782872a82dc8553d7967db9a884bcd80a4a4e0fde2a705df92472fbf18d9ab4"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-BRENT_monday-routine-wti-near-100-and-unconfirmed-mine-strikes.md",
+      "bytes": 3674,
+      "sha256": "c60e8c2326f1cdda862cb3351a3d470b594f1e341cb5c58d6fc3e49dcd34d261"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-GIBBS_morning-first-owner-PARTIAL.md",
+      "bytes": 5297,
+      "sha256": "c44bffd821b160da9d7291abc5e23f6bcc9621923b2c4352fd82e84493c0ce89"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-NEXUS_full-synthesis-execution.md",
+      "bytes": 6088,
+      "sha256": "51d9be7650a1d5de59ab98fb1cade2ef2b200fbae5ee957bb1df788cf4d8cdaf"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-NEXUS_morning-continuation-publication-and-persistence.md",
+      "bytes": 5502,
+      "sha256": "5ccb92ba0fa971d622d47f340b856fbd64368ff7d54af44bc3c78a2e0166968e"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-NEXUS_morning-independent-work-and-publication-pending.md",
+      "bytes": 8169,
+      "sha256": "99c5e2815fc5e6883a9fef76c79dfc4ed5d0dde42b866081f32c6175aba95506"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-OTTO_L708-credit-attribution-complete.md",
+      "bytes": 3242,
+      "sha256": "ad11773e9e894b39f40f0edfb6427dde600c1297c5109616c0b4b2c0c75c1855"
+    },
+    {
+      "path": "PROME/inbox/2026-10-19_from-WALTER_morning-bounded-interruption.md",
+      "bytes": 7931,
+      "sha256": "bba5d45b2b3eafdc3ddfc9c811aa503ae7c3bde8aac13c18fd30f616c47fd67d"
+    },
+    {
+      "path": "PROME/proposals/2026-10-19_bookmark-pilot-review-PROPOSAL.md",
+      "bytes": 1754,
+      "sha256": "1948b222cfe736a56d0bfdcc427cfe9959f45546658e71bf6d968ebb19a50aa4"
+    },
+    {
+      "path": "PROME/proposals/2026-10-19_credit-successor-PROPOSAL.md",
+      "bytes": 3105,
+      "sha256": "bb9b1e0ec79159c357a870938fef55af96249255298c84b3d525d40f6aca4daa"
+    },
+    {
+      "path": "PROME/proposals/2026-10-19_wq459-guarded-hy-RULED.md",
+      "bytes": 4108,
+      "sha256": "4ac602bcc57727ad57750cb7bac45c185d3951128b8108c60504f975a94d3d03"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_L630-cue-review.md",
+      "bytes": 2959,
+      "sha256": "5c805cb2a5add826c7454708581b601b15cc54a3142ebf48f0fbcea4e37bc5b6"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_L728-digest-receipt/RECEIPT.md",
+      "bytes": 1862,
+      "sha256": "6a5f2ae39a635cbc46f4d4d0f0b310eee22ef6fa5a43ec98c6cd6a1beb1b3c9b"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_L728-digest-receipt/dry-run.txt",
+      "bytes": 4186,
+      "sha256": "d3875bc4f54d2c0afc0ddc86f0e108716f90da4939737a1d4bfbd6a38e92ec2d"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_L728-digest-receipt/staged/.github/workflows/prome_digest.yml",
+      "bytes": 1383,
+      "sha256": "ebe83c4b3ca4cd4e9aa9585d78bdac4e79272a2647769df5eeb5a2901adc2414"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_L728-digest-receipt/staged/scripts/prome_digest.py",
+      "bytes": 5550,
+      "sha256": "eff9c3471def7b61fd360faed6238218558d54d78904e15eebdb17367daa84d0"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_NEXUS-execution-coordination.md",
+      "bytes": 4129,
+      "sha256": "e1f0d6828f137f5547b707bb66a4f4da7295849695be5ae3e78b42729ebe8dc5"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_heartbeat-rebase/HEARTBEAT_candidate.md",
+      "bytes": 9990,
+      "sha256": "48c88ea6dc883766cb4232c86c2a7efc55e2f2fe584df390a3970e63090b706d"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_heartbeat-rebase/SCRATCH_candidate.md",
+      "bytes": 21915,
+      "sha256": "ebdb72aee29295ab7b42677310c27fe54ad99d2bf7949455110e4c0fee9040a0"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_heartbeat-rebase/SCRATCH_removed_block.txt",
+      "bytes": 7609,
+      "sha256": "2321ddedd12b1cda748539d41a6badb8c0c9f3dd599fd3846102a9ad3ae99f43"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_heartbeat-rebase/dashboard-091057ET.txt",
+      "bytes": 5025,
+      "sha256": "6394c0f511d7e42f2bae62039711714c389a6e7c40788036d785bc8c2b1b1785"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_heartbeat-rebase/plan-read.md",
+      "bytes": 10487,
+      "sha256": "660014a03667ba9aeae6f04a8ce00ab4b04da86f8d759cc7cce18d36024ea363"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_heartbeat-rebase/result-read.md",
+      "bytes": 10955,
+      "sha256": "de64b127126c84156edc9cea6ceff858c74056415e8fcddb0e43385fba5d2c02"
+    },
+    {
+      "path": "PROME/reports/2026-10-19_morning-boot.md",
+      "bytes": 11701,
+      "sha256": "2c75acac26d1101acd3bd6a618966479fbf8aca7424292f779c5da73ffcd1738"
+    },
+    {
+      "path": "PROME/state/ORCH_INFLIGHT.md",
+      "bytes": 29029,
+      "sha256": "8cad5b58ffe98e284eff43518dd71ef2377f219a9c7cae187f2cd037397a522b"
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "bytes": 1405328,
+      "sha256": "ffb11e2d28a150860db834cce2939d776c54c84ea9983140e3d476626fb411c4"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/GIBBS.md",
+      "bytes": 3180,
+      "sha256": "0924d2f712b809d6893fef0e8304f16889dec09f2efc273a5f9b5dc86aa91d99"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/HOMER.md",
+      "bytes": 2916,
+      "sha256": "720d1f3e428c119de7d94a16b3db3091a8b89cb9074cb42cc73ab0bda3cce2f7"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/LIQUID.md",
+      "bytes": 2929,
+      "sha256": "2df05ab2a7f6a011ae313c2adb9b3d5c7e2beb9efc1187134f95a018c5ad072a"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/NEXUS-execution.md",
+      "bytes": 8515,
+      "sha256": "d26183ca566284ea6a14aff3ff21490c601db3eb5ecd755dacb23afb422fc75b"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/NEXUS-priority-plan.md",
+      "bytes": 10390,
+      "sha256": "167454c613918141be16c0acd1d28527d78c3cbcd2085bd486b84d1335e5286d"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/NEXUS.md",
+      "bytes": 3119,
+      "sha256": "fff257ec7a2da635f3bd579246bdfdd6b78f7cd5a20dcd9c61a6f98d4bae19f3"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/OTTO.md",
+      "bytes": 4036,
+      "sha256": "48968ef27c6725c2204ee74eae2ceeea936e39956cf9feafe8c2cde2c7ecfe3b"
+    },
+    {
+      "path": "PROME/tasks/2026-10-19_morning/WALTER.md",
+      "bytes": 3850,
+      "sha256": "f25e33a5d71985e1038bbf4a7df069994e0008b7f1d8e0f0e95c628e89dd70eb"
+    },
+    {
+      "path": "memory/2026-10-19.md",
+      "bytes": 2280,
+      "sha256": "98288a263219f95ff6aef15094bf21829007c0e39e23f476200e6dcf934d2fc4"
+    }
+  ]
+}

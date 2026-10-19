@@ -1,0 +1,51 @@
+{
+  "OTTO": {
+    "ENVA": {
+      "n_expected": 143,
+      "beta": 1.2675144440958737,
+      "sigma": 0.02909807398354254,
+      "primary": {
+        "negative_tail": 1,
+        "near_zero": 2,
+        "sessions": 7
+      },
+      "secondary": {
+        "negative_tail": 0,
+        "near_zero": 2,
+        "sessions": 5
+      }
+    },
+    "CVNA": {
+      "n_expected": 143,
+      "beta": 2.0440489295156095,
+      "sigma": 0.03216095684054952,
+      "primary": {
+        "negative_tail": 0,
+        "near_zero": 3,
+        "sessions": 7
+      },
+      "secondary": {
+        "negative_tail": 1,
+        "near_zero": 2,
+        "sessions": 5
+      }
+    }
+  },
+  "NEXUS": {
+    "BAMLH0A0HYM2": [
+      331,
+      323,
+      325
+    ],
+    "BAMLH0A2HYB": [
+      335,
+      326,
+      329
+    ],
+    "BAMLH0A3HYC": [
+      1297,
+      1278,
+      1282
+    ]
+  }
+}
