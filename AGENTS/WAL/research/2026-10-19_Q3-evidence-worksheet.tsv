@@ -11,7 +11,7 @@ Security_sale_FV_equity_income_M	Release/10-Q	3.0/8.3/11.9 onQ3comparativepresen
 Provision_and_ACL_rollforward_M	Release/10-Q	80.4 provision	80.0 provision; funded487.4+71.2-48.0+2.2=512.8;unfunded52.0+9.6=61.6	EX99.1 ACL	WAL credit, no chargeoff double count
 Common_equity_TCE_AOCI_M	Release/10-Q equity/Notes2,11	7547/6906/-451.2	7359/6720/-786; balancesrounded;fullflowPENDING-10-Q	EX99.1 balance/TCE	WAL matched common equity and intangibles
 Dividends_buybacks_ending_common_shares	10-Q equity/PartII Item2	Use actual Q3 movements	commondiv45.7;buyback92.1;ending108.0	EX99.1 capital/TCE;fullflowPENDING-10-Q	WAL common-equity bridge
-CET1_numerator_RWA_AOCI_treatment	Release/10-Q capital	Separate from TCE	parentratio10.9pct; numerator/RWA/treatmentNOT_PRINTED	EX99.1/slide15	WAL regulatory bridge, REGINALD integration
+CET1_numerator_RWA_AOCI_treatment	Release/10-Q capital	Separate from TCE	parentCET1capital7389M disclosed;ratio10.9pct preliminary;exactRWA/adjustmentsNOT_PRINTED	EX99.1 SelectedBalanceSheetData/CET1capital; full-readcorrectionOctober19	WAL regulatory bridge, REGINALD integration
 Life_science_99M_appraisal_bucket	Call/10-Q subsequent events/narrative	Nonaccrual/no chargeoff; segment unknown	NOT_IDENTIFIED_IN_RELEASE_OR_DECK;PENDING-CALL	24slidesvisual/release; no reservezero or cureinference	Frozen print§5 and 10-Q§4 only
 Office_classified_M_and_realized_losses	Deck/10-Q	316 derived office dollars	272.75 derived;grossCRE-NOO25.7;provisionalINVALIDATED;10-Qcrosscheckpending	slide13/EX99.1 ACL	Frozen print§2/cross-check only
 Explicit_new_office_migrations	Release/deck/call	0 addressed Q2; excludes99M	0explicitidentified,topicaddressed;DP2provisionalPENDING-CALL	slides13/24; W9	Frozen print§3, nondisclosure is not0

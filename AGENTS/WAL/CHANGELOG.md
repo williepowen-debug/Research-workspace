@@ -1,5 +1,9 @@
 # WAL THESIS — CHANGELOG
 
+## 2026-10-19 — full-read supplement; evidence correction only, v2.4 unchanged
+
+Will requestedfullreleased-materialread. All32releaseHTMLtables/narrative/footnotesreviewedalongside24slidedeck. Source showsparentCET1capital7389Malreadydisclosed; previousworksheetunavailableclaimcorrectedandcallquestion8narrowed. Provision80.8loanless0.8HTMrelease=80.0consolidated; KB243/244. Fullread `research/2026-10-19_Q3_FULL_READ.md`. OriginalStage1artifact/frozenframes/THESIS/SCENARIOS/PREDICTIONSunchanged; no probability,score,target,tradeorregisteredrulechange.
+
 ## 2026-10-19 — Q3 Stage1 grading; v2.4 unchanged
 
 Will directly commissioned release-night grading against the frozenSeptember24frame. SEC8-K0001628280-26-066286 release and all24slides obtained afterframe read. WAL02 INVALIDATED30bps; WAL01 provisionalINVALIDATED272.75M pending10-Qcross-check; prior25%/50%preserved. Coverage118%, peakedguideheld; $99MappraisalPENDING-CALL; DP2provisional, no finalcounteradvanceovernight. Mixedearnings/capitalandQ2comparativereclassification documented with10callquestions. No THESIS/SCENARIOS edit, score/composite/weight/EV/PT or traderulechange. Report `research/2026-10-19_Q3_STAGE1_GRADE.md`; ledgeractuals/ownedstateupdated; per-accountbrokercontextconsumedwithoutRHruletransfer.
