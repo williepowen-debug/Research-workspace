@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-19T19:04:54Z",
+  "route_commit": "6ffff7841",
+  "origin_ref": "be3df524b78575467039b08c851341346b6f207b",
+  "route_state": "pending",
+  "today_total_pairs": 101,
+  "proven_on_origin": 96,
+  "new_pairs": 5,
+  "local_route_files": "committedandpresent",
+  "source": "freshfetch/reconcileattempt19:04Z;noWALTERpush;foreigndirtywork",
+  "consumption": "UNKNOWN"
+}

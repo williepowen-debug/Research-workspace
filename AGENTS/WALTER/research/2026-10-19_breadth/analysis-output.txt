@@ -1,0 +1,14 @@
+Core proxies:
+SPY today 0.566 5d -1.968 20d 0.205 63d 3.107 2026-10-19T14:57:21-04:00
+RSP today -0.234 5d 0.493 20d 1.227 63d 1.165 2026-10-19T14:57:13-04:00
+QQQ today 1.353 5d -5.52 20d -1.512 63d 2.08 2026-10-19T14:57:20-04:00
+QQEW today 1.313 5d -5.62 20d -1.94 63d 0.429 2026-10-19T14:56:46-04:00
+IWM today 0.283 5d -3.047 20d -4.808 63d -7.24 2026-10-19T14:57:21-04:00
+DIA today 0.09 5d 0.601 20d 0.646 63d 0.56 2026-10-19T14:57:18-04:00
+SMH today 1.847 5d -10.532 20d -5.796 63d -3.407 2026-10-19T14:57:23-04:00
+KRE today -0.802 5d 1.159 20d -3.495 63d -7.488 2026-10-19T14:57:15-04:00
+Pairs [{"equal_weight": "RSP", "cap_weight": "SPY", "5d_arithmetic_gap_pp": 2.460577592361135, "5d_relative_ratio_pct": 2.5099664777024744, "20d_arithmetic_gap_pp": 1.0221725577223228, "20d_relative_ratio_pct": 1.020083351440615, "63d_arithmetic_gap_pp": -1.94177547828418, "63d_relative_ratio_pct": -1.8832661032387232, "intraday_gap_pp": -0.7995455878054392}, {"equal_weight": "QQEW", "cap_weight": "QQQ", "5d_arithmetic_gap_pp": -0.10031349648195143, "5d_relative_ratio_pct": -0.10617430791394211, "20d_arithmetic_gap_pp": -0.42785714196381663, "20d_relative_ratio_pct": -0.4344269299943804, "63d_arithmetic_gap_pp": -1.6516507225415866, "63d_relative_ratio_pct": -1.6179928386331643, "intraday_gap_pp": -0.0406456502340502}]
+Sectors+ 3 - 8 [('XLY', 1.78), ('XLK', 1.47), ('XLB', 0.21), ('XLC', -0.04), ('XLP', -0.17), ('XLV', -0.37), ('XLI', -0.44), ('XLE', -0.55), ('XLF', -0.66), ('XLRE', -1.17), ('XLU', -1.88)]
+Proxy contribution ranking [('AMZN', 4.88, 0.181), ('NVDA', 1.44, 0.113), ('TSLA', 4.01, 0.061), ('MSFT', 0.98, 0.058), ('AVGO', 1.94, 0.046), ('MU', 3.05, 0.046), ('GOOGL', 1.23, 0.037), ('PLTR', 4.59, 0.03), ('AMD', 2.17, 0.028), ('GOOG', 1.12, 0.027), ('INTC', 2.89, 0.02), ('SNDK', 5.78, 0.017)]
+Validation {"coverage": 503, "partition": "PASS", "missing": [], "quote_age_seconds_min": 2.539356, "quote_age_seconds_max": 434.539356, "quote_bar_method_discrepancies_gt_005pp": [], "bar_method_counts": {"up": 186, "down": 315, "flat": 2, "coverage": 503}, "independence": "metaquoteandchartbarshareYahoo;crosschecknotsourceindependence", "issuer_weight_sum_note": "SPYfileallnumericweightssum100.218976%;tradableequity99.929217%. Do notcertifyindexcontributionsfromthisfile;weightedrankingisonlyapproximate."}
+Plot export deferred: no plotting library installed; standalone SVG generated separately.

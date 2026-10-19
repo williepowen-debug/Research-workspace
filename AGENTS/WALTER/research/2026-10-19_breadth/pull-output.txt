@@ -1,0 +1,41 @@
+{
+  "started": "2026-10-19T18:57:13.818871+00:00",
+  "finished": "2026-10-19T18:57:22.539356+00:00",
+  "expected_securities": 503,
+  "returned": 503,
+  "usable_current_session": 503,
+  "missing": [],
+  "errors": [],
+  "up": 186,
+  "down": 315,
+  "unchanged": 2,
+  "first_quote": "2026-10-19T14:50:08-04:00",
+  "last_quote": "2026-10-19T14:57:20-04:00",
+  "mean_ret_pct": -0.23990137618605878,
+  "median_ret_pct": -0.39512037136996137,
+  "limits": [
+    "currentSPYholdingsproxy,notofficialindexbreadth",
+    "securitylinesincludeAlphabettwoclassesetc",
+    "asynchronousvendorquotes;fulltimestampperline",
+    "noassumeddataforfailed/stalesymbols",
+    "historicalcurrentbasketcountsnotpointintimeindexbreadth"
+  ],
+  "raw_price_moving_averages": {
+    "20": {
+      "covered": 502,
+      "above": 326,
+      "pct_above": 64.9402390438247
+    },
+    "50": {
+      "covered": 502,
+      "above": 222,
+      "pct_above": 44.223107569721115
+    },
+    "200": {
+      "covered": 500,
+      "above": 253,
+      "pct_above": 50.6
+    }
+  }
+}
+ETFchartresponses 24 errors []

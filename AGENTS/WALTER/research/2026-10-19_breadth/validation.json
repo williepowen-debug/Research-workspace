@@ -1,0 +1,14 @@
+{
+  "asof": "2026-10-19T19:03:31Z",
+  "coverage": 503,
+  "partition": "PASS 186+315+2=503",
+  "quote_bar_crosscheck": "PASS samevendor,notindependent",
+  "allcurrent_session": true,
+  "maximumquoteageseconds": 434.539356,
+  "strict_history_audit": "session-audit.json controls;rawsummarysuperseded",
+  "pairedETFstartdates": "asserted in analyze.py",
+  "sectorpartition": "PASS 3+8=11",
+  "rawbundle": "51memberhashesverified",
+  "svgXML": "PASS",
+  "limits": "Notexternalvendorvalidation,officialcloseorhistoricalpointintimemembership"
+}

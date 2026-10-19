@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520">
+<rect width="1120" height="520" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#1f2937}.small{font-size:13px}.title{font-size:24px;font-weight:bold}.label{font-size:16px}</style>
+<text x="35" y="38" class="title">A rising index can mask weak participation</text>
+<text x="35" y="67" class="label">Recent equal-weight recovery coexists with a narrow rebound today</text>
+<line x1="75" y1="365.0" x2="645" y2="365.0" stroke="#e5e7eb"/>
+<text x="32" y="370.0" class="small">97</text>
+<line x1="75" y1="304.99999999999983" x2="645" y2="304.99999999999983" stroke="#e5e7eb"/>
+<text x="32" y="309.99999999999983" class="small">100</text>
+<line x1="75" y1="245.0" x2="645" y2="245.0" stroke="#e5e7eb"/>
+<text x="32" y="250.0" class="small">102</text>
+<line x1="75" y1="185.0000000000002" x2="645" y2="185.0000000000002" stroke="#e5e7eb"/>
+<text x="32" y="190.0000000000002" class="small">104</text>
+<line x1="75" y1="125.0" x2="645" y2="125.0" stroke="#e5e7eb"/>
+<text x="32" y="130.0" class="small">106</text>
+<polyline points="75.0,292.5 84.0,270.1 93.1,273.3 102.1,306.6 111.2,303.9 120.2,303.4 129.3,297.0 138.3,338.1 147.4,294.0 156.4,274.7 165.5,236.2 174.5,186.8 183.6,192.4 192.6,196.9 201.7,179.9 210.7,180.7 219.8,189.6 228.8,182.7 237.9,163.2 246.9,168.7 256.0,182.0 265.0,200.9 274.0,195.1 283.1,218.4 292.1,207.1 301.2,215.3 310.2,206.4 319.3,205.8 328.3,187.7 337.4,194.0 346.4,202.3 355.5,221.4 364.5,209.1 373.6,180.2 382.6,191.0 391.7,206.3 400.7,219.1 409.8,235.6 418.8,212.3 427.9,224.6 436.9,237.2 446.0,249.3 455.0,218.4 464.0,214.8 473.1,172.1 482.1,172.5 491.2,192.7 500.2,195.0 509.3,179.9 518.3,200.6 527.4,205.8 536.4,211.4 545.5,206.5 554.5,186.0 563.6,167.2 572.6,151.8 581.7,158.6 590.7,170.5 599.8,153.7 608.8,155.4 617.9,155.7 626.9,186.2 636.0,178.3 645.0,209.2" fill="none" stroke="#2563eb" stroke-width="3"/>
+<text x="650" y="214.19735380883088" class="label" style="fill:#2563eb">SPY</text>
+<polyline points="75.0,292.5 84.0,288.2 93.1,289.0 102.1,298.8 111.2,278.0 120.2,257.7 129.3,226.0 138.3,250.7 147.4,255.1 156.4,259.8 165.5,233.3 174.5,193.9 183.6,200.2 192.6,214.7 201.7,195.7 210.7,194.0 219.8,188.1 228.8,183.2 237.9,162.4 246.9,161.9 256.0,186.8 265.0,199.5 274.0,170.7 283.1,193.3 292.1,175.7 301.2,172.5 310.2,174.5 319.3,170.2 328.3,178.5 337.4,188.1 346.4,204.5 355.5,227.2 364.5,214.5 373.6,196.2 382.6,209.4 391.7,238.1 400.7,264.5 409.8,283.0 418.8,261.6 427.9,259.8 436.9,273.1 446.0,294.3 455.0,281.3 464.0,294.2 473.1,279.1 482.1,277.6 491.2,296.5 500.2,309.8 509.3,299.0 518.3,316.4 527.4,319.4 536.4,338.2 545.5,325.8 554.5,316.5 563.6,298.9 572.6,283.6 581.7,305.5 590.7,289.4 599.8,274.6 608.8,272.7 617.9,271.3 626.9,286.6 636.0,249.7 645.0,261.3" fill="none" stroke="#c2410c" stroke-width="3"/>
+<text x="650" y="266.2680352855845" class="label" style="fill:#c2410c">RSP</text>
+<text x="50.0" y="395" class="small">07-20</text>
+<text x="240.0" y="395" class="small">08-18</text>
+<text x="430.0" y="395" class="small">09-17</text>
+<text x="620.0" y="395" class="small">10-16</text>
+<text x="75" y="103" class="label">63-session adjusted-price wealth proxy</text>
+<text x="75" y="422" class="small">SPY: size weighted   RSP: equal weight   Start = 100; through Oct 16</text>
+<text x="760" y="103" class="label">Oct 19, about 2:57 p.m. ET</text>
+<rect x="770" y="248.0857142857143" width="58" height="116.91428571428573" fill="#15803d"/>
+<text x="799" y="238.0857142857143" text-anchor="middle" class="label">186</text>
+<text x="799" y="395" text-anchor="middle" class="label">Up</text>
+<rect x="865" y="167.0" width="58" height="198.0" fill="#b91c1c"/>
+<text x="894" y="157.0" text-anchor="middle" class="label">315</text>
+<text x="894" y="395" text-anchor="middle" class="label">Down</text>
+<rect x="960" y="363.74285714285713" width="58" height="1.2571428571428571" fill="#6b7280"/>
+<text x="989" y="353.74285714285713" text-anchor="middle" class="label">2</text>
+<text x="989" y="395" text-anchor="middle" class="label">Flat</text>
+<text x="760" y="422" class="small">503 tradable equity lines in SPY holdings</text>
+<text x="35" y="466" class="small">Sources: SSGA holdings dated Oct 16 / Yahoo daily bars and quotes. Quote times 14:50–14:57 ET; intraday, not a closing grade.</text>
+<text x="35" y="490" class="small">Current-holdings proxy, not an official index count. Counts include multiple share classes. SPY and RSP are ETF proxies.</text>
+</svg>

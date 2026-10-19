@@ -1,0 +1,98 @@
+{
+  "SPY": {
+    "retrieved": "2026-10-19T18:57:24.429648+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "RSP": {
+    "retrieved": "2026-10-19T18:57:23.121773+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "QQQ": {
+    "retrieved": "2026-10-19T18:57:23.137407+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "QQEW": {
+    "retrieved": "2026-10-19T18:57:23.148097+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQEW?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "IWM": {
+    "retrieved": "2026-10-19T18:57:23.515358+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "DIA": {
+    "retrieved": "2026-10-19T18:57:24.635985+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DIA?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "MGK": {
+    "retrieved": "2026-10-19T18:57:24.515207+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MGK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "VTV": {
+    "retrieved": "2026-10-19T18:57:23.891882+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VTV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "VUG": {
+    "retrieved": "2026-10-19T18:57:24.280790+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VUG?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLK": {
+    "retrieved": "2026-10-19T18:57:24.623441+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLC": {
+    "retrieved": "2026-10-19T18:57:24.751632+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLY": {
+    "retrieved": "2026-10-19T18:57:24.901463+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLF": {
+    "retrieved": "2026-10-19T18:57:25.019082+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLV": {
+    "retrieved": "2026-10-19T18:57:25.657140+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLI": {
+    "retrieved": "2026-10-19T18:57:25.049181+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLI?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLP": {
+    "retrieved": "2026-10-19T18:57:25.242372+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLE": {
+    "retrieved": "2026-10-19T18:57:25.275819+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLU": {
+    "retrieved": "2026-10-19T18:57:25.415842+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLRE": {
+    "retrieved": "2026-10-19T18:57:26.862522+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLRE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "XLB": {
+    "retrieved": "2026-10-19T18:57:25.713489+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLB?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "SMH": {
+    "retrieved": "2026-10-19T18:57:25.804184+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "KRE": {
+    "retrieved": "2026-10-19T18:57:27.139612+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRE?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "^GSPC": {
+    "retrieved": "2026-10-19T18:57:26.079007+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  "^IXIC": {
+    "retrieved": "2026-10-19T18:57:26.095207+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=1y&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  }
+}

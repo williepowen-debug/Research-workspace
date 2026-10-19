@@ -1,0 +1,39 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    .claude/skills/boot/SKILL.md
+     [not yours]    .claude/skills/closeout/SKILL.md
+     [not yours]    AGENTS/BROCK/inbox/2026-10-19_from-GIBBS_canonical-NDFI-consumed.md
+     [not yours]    AGENTS/GIBBS/NEXUS_BRIEF.md
+     [not yours]    AGENTS/REGINALD/inbox/2026-10-19_from-GIBBS_first-owner-Q3-context.md
+     [not yours]    CLAUDE.md
+     [not yours]    PROME/.claude/skills/boot/SKILL.md
+     [not yours]    PROME/.claude/skills/closeout/SKILL.md
+     [not yours]    PROME/BOOT.md
+     [not yours]    PROME/BOOT_MODULES.md
+     [not yours]    PROME/CLOSEOUT.md
+     [not yours]    PROME/COMPLETION_SPEC.md
+     [not yours]    PROME/DOCKET.tsv
+     [not yours]    PROME/GATES.tsv
+     [not yours]    PROME/HANDOFF.md
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/STATUS.md
+     [not yours]    PROME/archive/GATES_STATE_HISTORY_2026-10-19_owner-returns.md
+     [not yours]    PROME/inbox/2026-10-19_from-GIBBS_morning-first-owner-PARTIAL.md
+     [not yours]    PROME/proposals/2026-10-19_remaining-read-budget-RULED.md
+     [not yours]    PROME/reports/2026-10-19_WALTER-bookmark-independent-review.md
+     [not yours]    PROME/reports/2026-10-19_closeout-blocker-investigation.md
+     [not yours]    PROME/reports/2026-10-19_closeout-repairs-and-owner-integration.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/argus_review.json
+     [not yours]    PROME/tools/ARGUS_CONTRACT.md
+     [not yours]    PROME/tools/argus_contract.py
+     [not yours]    PROME/tools/argus_scope.py
+     [not yours]    PROME/tools/orch_closeout.py
+     [not yours]    PROME/tools/tests/ACCEPTANCE_closeout_boundaries_2026-10-19.md
+     [not yours]    PROME/tools/tests/test_argus_contract.py
+     [not yours]    PROME/tools/tests/test_orch_closeout.py
+     [not yours]    docs/GIT_WORKTREE_PROCEDURES.md
+     [not yours]    memory/2026-10-19.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

@@ -1,0 +1,4774 @@
+{
+  "proxies": [
+    {
+      "symbol": "DIA",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:18-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 519.565,
+      "intraday_ret_pct": 0.0895828233352658,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.3990976474681607,
+      "1d_adj_ret_pct": -0.377304122162625,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 0.5793319872194003,
+      "5d_adj_ret_pct": 0.6013416455171505,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 0.6241704800821646,
+      "20d_adj_ret_pct": 0.6461878584845593,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 0.22395897962379507,
+      "63d_adj_ret_pct": 0.5602449219638261
+    },
+    {
+      "symbol": "IWM",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:21-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 271.205,
+      "intraday_ret_pct": 0.2828714508533059,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -1.6867763404664893,
+      "1d_adj_ret_pct": -1.6867763404664893,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -3.0472502780541477,
+      "5d_adj_ret_pct": -3.0472502780541477,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -4.808167324407653,
+      "20d_adj_ret_pct": -4.808167324407653,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -7.481781430620982,
+      "63d_adj_ret_pct": -7.240149462032774
+    },
+    {
+      "symbol": "KRE",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:15-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 69.25,
+      "intraday_ret_pct": -0.802173869328282,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.08601800515233293,
+      "1d_adj_ret_pct": 0.08601800515233293,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.159245613098281,
+      "5d_adj_ret_pct": 1.159245613098281,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -4.041240469286944,
+      "20d_adj_ret_pct": -3.4947053658044736,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -8.011598207871396,
+      "63d_adj_ret_pct": -7.48768391225636
+    },
+    {
+      "symbol": "MGK",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:20-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 91.103,
+      "intraday_ret_pct": 1.2255555555555464,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -2.2482890210551276,
+      "1d_adj_ret_pct": -2.2482890210551276,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -4.681209759225613,
+      "5d_adj_ret_pct": -4.681209759225613,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.9792049682308623,
+      "20d_adj_ret_pct": -0.9792049682308623,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 3.650809745591377,
+      "63d_adj_ret_pct": 3.650809745591377
+    },
+    {
+      "symbol": "QQEW",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:56:46-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 156.69,
+      "intraday_ret_pct": 1.312554176790015,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -3.0891614693337455,
+      "1d_adj_ret_pct": -3.0891614693337455,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -5.620303734366883,
+      "5d_adj_ret_pct": -5.620303734366883,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -1.9401455331665818,
+      "20d_adj_ret_pct": -1.9401455331665818,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 0.42857380656453614,
+      "63d_adj_ret_pct": 0.42857380656453614
+    },
+    {
+      "symbol": "QQQ",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:20-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 719.405,
+      "intraday_ret_pct": 1.3531998270240653,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -2.500001676790009,
+      "1d_adj_ret_pct": -2.500001676790009,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -5.519990237884931,
+      "5d_adj_ret_pct": -5.519990237884931,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -1.6148068773917168,
+      "20d_adj_ret_pct": -1.5122883912027651,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 1.9739663653373984,
+      "63d_adj_ret_pct": 2.0802245291061228
+    },
+    {
+      "symbol": "RSP",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:13-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 213.59,
+      "intraday_ret_pct": -0.233544932712082,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.42325751726017824,
+      "1d_adj_ret_pct": -0.42325751726017824,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 0.49286663764938066,
+      "5d_adj_ret_pct": 0.49286663764938066,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 0.8478982093761189,
+      "20d_adj_ret_pct": 1.2269799667198988,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 0.7861774707375258,
+      "63d_adj_ret_pct": 1.1650279067943137
+    },
+    {
+      "symbol": "SMH",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:23-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 549.76,
+      "intraday_ret_pct": 1.8470187255220205,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -3.408855470735972,
+      "1d_adj_ret_pct": -3.408855470735972,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -10.531556074233595,
+      "5d_adj_ret_pct": -10.531556074233595,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -5.795815352994104,
+      "20d_adj_ret_pct": -5.795815352994104,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -3.40712532974744,
+      "63d_adj_ret_pct": -3.40712532974744
+    },
+    {
+      "symbol": "SPY",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:21-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 767.57,
+      "intraday_ret_pct": 0.5660006550933572,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -1.1065157971047346,
+      "1d_adj_ret_pct": -1.1065157971047346,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -1.9677109547117544,
+      "5d_adj_ret_pct": -1.9677109547117544,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 0.204807408997576,
+      "20d_adj_ret_pct": 0.204807408997576,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 2.851402441587103,
+      "63d_adj_ret_pct": 3.1068033850784937
+    },
+    {
+      "symbol": "VTV",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:00-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 222.665,
+      "intraday_ret_pct": -0.3334692493162206,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.19733705834745763,
+      "1d_adj_ret_pct": 0.19733705834745763,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.2783931143909077,
+      "5d_adj_ret_pct": 1.2783931143909077,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 0.9762728416313537,
+      "20d_adj_ret_pct": 1.4434987681403832,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 2.9776477551222813,
+      "63d_adj_ret_pct": 3.454133707353102
+    },
+    {
+      "symbol": "VUG",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:21-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 88.925,
+      "intraday_ret_pct": 1.131581589185604,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -2.0605908880316215,
+      "1d_adj_ret_pct": -2.0605908880316215,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -4.392737699146521,
+      "5d_adj_ret_pct": -4.392737699146521,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.9239433181117973,
+      "20d_adj_ret_pct": -0.8247052749333128,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 3.0469921696109292,
+      "63d_adj_ret_pct": 3.150212714694889
+    },
+    {
+      "symbol": "XLB",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:23-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 51.025,
+      "intraday_ret_pct": 0.20620941639923895,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.7120189594070458,
+      "1d_adj_ret_pct": 0.7120189594070458,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 3.0143594063735346,
+      "5d_adj_ret_pct": 3.0143594063735346,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 1.8603649915041043,
+      "20d_adj_ret_pct": 2.329126313920571,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 1.778931463849509,
+      "63d_adj_ret_pct": 2.2473177870369065
+    },
+    {
+      "symbol": "XLC",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:18-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 110.28,
+      "intraday_ret_pct": -0.03625788155807719,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -1.8854524195575206,
+      "1d_adj_ret_pct": -1.8854524195575206,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -0.05435546302470229,
+      "5d_adj_ret_pct": -0.05435546302470229,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.4421964394597411,
+      "20d_adj_ret_pct": -0.11407550383635279,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -0.4332160141813035,
+      "63d_adj_ret_pct": -0.1050702891149724
+    },
+    {
+      "symbol": "XLE",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:16-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 67.865,
+      "intraday_ret_pct": -0.5495279535590814,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 2.52403901261693,
+      "1d_adj_ret_pct": 2.52403901261693,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 4.855556152131157,
+      "5d_adj_ret_pct": 4.855556152131157,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 6.111025430525174,
+      "20d_adj_ret_pct": 6.741751305950605,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 17.77700980529966,
+      "63d_adj_ret_pct": 18.47707859029233
+    },
+    {
+      "symbol": "XLF",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:16-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 55.155,
+      "intraday_ret_pct": -0.6574215683613716,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.45232494649796173,
+      "1d_adj_ret_pct": 0.45232494649796173,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.4434513468571941,
+      "5d_adj_ret_pct": 1.4434513468571941,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.6086647849496862,
+      "20d_adj_ret_pct": -0.2568991005241994,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -0.9279094383804587,
+      "63d_adj_ret_pct": -0.5772764201511627
+    },
+    {
+      "symbol": "XLI",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:22-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 167.03,
+      "intraday_ret_pct": -0.43514218570518404,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.07743456029848383,
+      "1d_adj_ret_pct": -0.07743456029848383,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -0.8803577507616289,
+      "5d_adj_ret_pct": -0.8803577507616289,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -1.1723154598904606,
+      "20d_adj_ret_pct": -0.9067034931401485,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -5.8163041176458545,
+      "63d_adj_ret_pct": -5.56317596409478
+    },
+    {
+      "symbol": "XLK",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:16-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 186.16,
+      "intraday_ret_pct": 1.466179081811303,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -3.023416220143371,
+      "1d_adj_ret_pct": -3.023416220143371,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -7.701980909856154,
+      "5d_adj_ret_pct": -7.701980909856154,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -3.233124834112988,
+      "20d_adj_ret_pct": -3.1201963525999465,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 4.416364583875176,
+      "63d_adj_ret_pct": 4.538220962991524
+    },
+    {
+      "symbol": "XLP",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:18-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 87.472,
+      "intraday_ret_pct": -0.16891433684395052,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 1.0844513591333316,
+      "1d_adj_ret_pct": 1.0844513591333316,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 5.022177185760257,
+      "5d_adj_ret_pct": 5.022177185760257,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 5.821255455523677,
+      "20d_adj_ret_pct": 6.517219861671264,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 3.252418237543342,
+      "63d_adj_ret_pct": 3.9314862060926936
+    },
+    {
+      "symbol": "XLRE",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:21-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 41.665,
+      "intraday_ret_pct": -1.174098314050387,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.40485392271962795,
+      "1d_adj_ret_pct": 0.40485392271962795,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.3217957918600032,
+      "5d_adj_ret_pct": 1.3217957918600032,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.8699716494345977,
+      "20d_adj_ret_pct": -0.0355646471126847,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -6.787529794152258,
+      "63d_adj_ret_pct": -6.002932180192833
+    },
+    {
+      "symbol": "XLU",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:21-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 41.415,
+      "intraday_ret_pct": -1.883437815010769,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 1.3445319041484272,
+      "1d_adj_ret_pct": 1.3445319041484272,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.9318986718386721,
+      "5d_adj_ret_pct": 1.9318986718386721,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 2.70073151231498,
+      "20d_adj_ret_pct": 3.4558820435744986,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -6.074765522164083,
+      "63d_adj_ret_pct": -5.384137853192373
+    },
+    {
+      "symbol": "XLV",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:02-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 176.06,
+      "intraday_ret_pct": -0.3678380901878886,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.2708932337747383,
+      "1d_adj_ret_pct": -0.2708932337747383,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 3.4541357295257535,
+      "5d_adj_ret_pct": 3.4541357295257535,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 4.940915347927843,
+      "20d_adj_ret_pct": 5.342540928380357,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 10.963897465536698,
+      "63d_adj_ret_pct": 11.388571003166547
+    },
+    {
+      "symbol": "XLY",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:17-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 114.465,
+      "intraday_ret_pct": 1.782856955228418,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.8376726452343108,
+      "1d_adj_ret_pct": -0.8376726452343108,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -0.3455909569532456,
+      "5d_adj_ret_pct": -0.3455909569532456,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 1.287940485362249,
+      "20d_adj_ret_pct": 1.5110245602523609,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -1.875928378351932,
+      "63d_adj_ret_pct": -1.6598140428119024
+    },
+    {
+      "symbol": "^GSPC",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:24-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 7701.94,
+      "intraday_ret_pct": 0.5548716214092586,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -1.0927099809045937,
+      "1d_adj_ret_pct": -1.0927099809045937,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -1.9471205024317317,
+      "5d_adj_ret_pct": -1.9471205024317317,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 0.11685434162800323,
+      "20d_adj_ret_pct": 0.11685434162800323,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 2.90409822671287,
+      "63d_adj_ret_pct": 2.90409822671287
+    },
+    {
+      "symbol": "^IXIC",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:23-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 26463.219,
+      "intraday_ret_pct": 1.2363785038436825,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -2.1450206699957897,
+      "1d_adj_ret_pct": -2.1450206699957897,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -4.480497740459799,
+      "5d_adj_ret_pct": -4.480497740459799,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -1.442206437036897,
+      "20d_adj_ret_pct": -1.442206437036897,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 2.477486445006827,
+      "63d_adj_ret_pct": 2.477486445006827
+    }
+  ],
+  "equal_vs_cap": [
+    {
+      "equal_weight": "RSP",
+      "cap_weight": "SPY",
+      "5d_arithmetic_gap_pp": 2.460577592361135,
+      "5d_relative_ratio_pct": 2.5099664777024744,
+      "20d_arithmetic_gap_pp": 1.0221725577223228,
+      "20d_relative_ratio_pct": 1.020083351440615,
+      "63d_arithmetic_gap_pp": -1.94177547828418,
+      "63d_relative_ratio_pct": -1.8832661032387232,
+      "intraday_gap_pp": -0.7995455878054392
+    },
+    {
+      "equal_weight": "QQEW",
+      "cap_weight": "QQQ",
+      "5d_arithmetic_gap_pp": -0.10031349648195143,
+      "5d_relative_ratio_pct": -0.10617430791394211,
+      "20d_arithmetic_gap_pp": -0.42785714196381663,
+      "20d_relative_ratio_pct": -0.4344269299943804,
+      "63d_arithmetic_gap_pp": -1.6516507225415866,
+      "63d_relative_ratio_pct": -1.6179928386331643,
+      "intraday_gap_pp": -0.0406456502340502
+    }
+  ],
+  "sector_snapshot": [
+    {
+      "symbol": "XLY",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:17-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 114.465,
+      "intraday_ret_pct": 1.782856955228418,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.8376726452343108,
+      "1d_adj_ret_pct": -0.8376726452343108,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -0.3455909569532456,
+      "5d_adj_ret_pct": -0.3455909569532456,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 1.287940485362249,
+      "20d_adj_ret_pct": 1.5110245602523609,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -1.875928378351932,
+      "63d_adj_ret_pct": -1.6598140428119024
+    },
+    {
+      "symbol": "XLK",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:16-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 186.16,
+      "intraday_ret_pct": 1.466179081811303,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -3.023416220143371,
+      "1d_adj_ret_pct": -3.023416220143371,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -7.701980909856154,
+      "5d_adj_ret_pct": -7.701980909856154,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -3.233124834112988,
+      "20d_adj_ret_pct": -3.1201963525999465,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 4.416364583875176,
+      "63d_adj_ret_pct": 4.538220962991524
+    },
+    {
+      "symbol": "XLB",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:23-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 51.025,
+      "intraday_ret_pct": 0.20620941639923895,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.7120189594070458,
+      "1d_adj_ret_pct": 0.7120189594070458,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 3.0143594063735346,
+      "5d_adj_ret_pct": 3.0143594063735346,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 1.8603649915041043,
+      "20d_adj_ret_pct": 2.329126313920571,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 1.778931463849509,
+      "63d_adj_ret_pct": 2.2473177870369065
+    },
+    {
+      "symbol": "XLC",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:18-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 110.28,
+      "intraday_ret_pct": -0.03625788155807719,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -1.8854524195575206,
+      "1d_adj_ret_pct": -1.8854524195575206,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -0.05435546302470229,
+      "5d_adj_ret_pct": -0.05435546302470229,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.4421964394597411,
+      "20d_adj_ret_pct": -0.11407550383635279,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -0.4332160141813035,
+      "63d_adj_ret_pct": -0.1050702891149724
+    },
+    {
+      "symbol": "XLP",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:18-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 87.472,
+      "intraday_ret_pct": -0.16891433684395052,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 1.0844513591333316,
+      "1d_adj_ret_pct": 1.0844513591333316,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 5.022177185760257,
+      "5d_adj_ret_pct": 5.022177185760257,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 5.821255455523677,
+      "20d_adj_ret_pct": 6.517219861671264,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 3.252418237543342,
+      "63d_adj_ret_pct": 3.9314862060926936
+    },
+    {
+      "symbol": "XLV",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:02-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 176.06,
+      "intraday_ret_pct": -0.3678380901878886,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.2708932337747383,
+      "1d_adj_ret_pct": -0.2708932337747383,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 3.4541357295257535,
+      "5d_adj_ret_pct": 3.4541357295257535,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 4.940915347927843,
+      "20d_adj_ret_pct": 5.342540928380357,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 10.963897465536698,
+      "63d_adj_ret_pct": 11.388571003166547
+    },
+    {
+      "symbol": "XLI",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:22-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 167.03,
+      "intraday_ret_pct": -0.43514218570518404,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": -0.07743456029848383,
+      "1d_adj_ret_pct": -0.07743456029848383,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": -0.8803577507616289,
+      "5d_adj_ret_pct": -0.8803577507616289,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -1.1723154598904606,
+      "20d_adj_ret_pct": -0.9067034931401485,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -5.8163041176458545,
+      "63d_adj_ret_pct": -5.56317596409478
+    },
+    {
+      "symbol": "XLE",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:16-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 67.865,
+      "intraday_ret_pct": -0.5495279535590814,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 2.52403901261693,
+      "1d_adj_ret_pct": 2.52403901261693,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 4.855556152131157,
+      "5d_adj_ret_pct": 4.855556152131157,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 6.111025430525174,
+      "20d_adj_ret_pct": 6.741751305950605,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": 17.77700980529966,
+      "63d_adj_ret_pct": 18.47707859029233
+    },
+    {
+      "symbol": "XLF",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:16-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 55.155,
+      "intraday_ret_pct": -0.6574215683613716,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.45232494649796173,
+      "1d_adj_ret_pct": 0.45232494649796173,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.4434513468571941,
+      "5d_adj_ret_pct": 1.4434513468571941,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.6086647849496862,
+      "20d_adj_ret_pct": -0.2568991005241994,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -0.9279094383804587,
+      "63d_adj_ret_pct": -0.5772764201511627
+    },
+    {
+      "symbol": "XLRE",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:21-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 41.665,
+      "intraday_ret_pct": -1.174098314050387,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 0.40485392271962795,
+      "1d_adj_ret_pct": 0.40485392271962795,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.3217957918600032,
+      "5d_adj_ret_pct": 1.3217957918600032,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": -0.8699716494345977,
+      "20d_adj_ret_pct": -0.0355646471126847,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -6.787529794152258,
+      "63d_adj_ret_pct": -6.002932180192833
+    },
+    {
+      "symbol": "XLU",
+      "last_complete": "2026-10-16",
+      "quote_time": "2026-10-19T14:57:21-04:00",
+      "intraday_date": "2026-10-19",
+      "intraday_price": 41.415,
+      "intraday_ret_pct": -1.883437815010769,
+      "1d_start": "2026-10-15",
+      "1d_price_ret_pct": 1.3445319041484272,
+      "1d_adj_ret_pct": 1.3445319041484272,
+      "5d_start": "2026-10-09",
+      "5d_price_ret_pct": 1.9318986718386721,
+      "5d_adj_ret_pct": 1.9318986718386721,
+      "20d_start": "2026-09-18",
+      "20d_price_ret_pct": 2.70073151231498,
+      "20d_adj_ret_pct": 3.4558820435744986,
+      "63d_start": "2026-07-20",
+      "63d_price_ret_pct": -6.074765522164083,
+      "63d_adj_ret_pct": -5.384137853192373
+    }
+  ],
+  "sector_positive": 3,
+  "sector_negative": 8,
+  "contribution_ranking_approx": [
+    {
+      "symbol": "AMZN",
+      "name": "AMAZON.COM INC",
+      "weight_pct_asof10_16": 3.717575,
+      "intraday_ret_pct": 4.8799999999999955,
+      "proxy_contribution_pp": 0.18141765999999981,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA CORP",
+      "weight_pct_asof10_16": 7.850898,
+      "intraday_ret_pct": 1.438378555083375,
+      "proxy_contribution_pp": 0.11292563321346959,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "TESLA INC",
+      "weight_pct_asof10_16": 1.514623,
+      "intraday_ret_pct": 4.005976544880463,
+      "proxy_contribution_pp": 0.060675442123364814,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "MICROSOFT CORP",
+      "weight_pct_asof10_16": 5.951445,
+      "intraday_ret_pct": 0.9828938663642539,
+      "proxy_contribution_pp": 0.05849638786504207,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "BROADCOM INC",
+      "weight_pct_asof10_16": 2.36956,
+      "intraday_ret_pct": 1.9376425855513357,
+      "proxy_contribution_pp": 0.04591360365019023,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "MU",
+      "name": "MICRON TECHNOLOGY INC",
+      "weight_pct_asof10_16": 1.503777,
+      "intraday_ret_pct": 3.0460607163988795,
+      "proxy_contribution_pp": 0.045805960459241575,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "ALPHABET INC CL A",
+      "weight_pct_asof10_16": 3.027833,
+      "intraday_ret_pct": 1.2293373264041785,
+      "proxy_contribution_pp": 0.03722228125018343,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "PALANTIR TECHNOLOGIES INC A",
+      "weight_pct_asof10_16": 0.648575,
+      "intraday_ret_pct": 4.593345159382878,
+      "proxy_contribution_pp": 0.0297912883674675,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "AMD",
+      "name": "ADVANCED MICRO DEVICES",
+      "weight_pct_asof10_16": 1.307775,
+      "intraday_ret_pct": 2.171158392435002,
+      "proxy_contribution_pp": 0.028393866666666847,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "GOOG",
+      "name": "ALPHABET INC CL C",
+      "weight_pct_asof10_16": 2.426167,
+      "intraday_ret_pct": 1.1175091270665627,
+      "proxy_contribution_pp": 0.027112637662877012,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "INTC",
+      "name": "INTEL CORP",
+      "weight_pct_asof10_16": 0.67649,
+      "intraday_ret_pct": 2.888146911519196,
+      "proxy_contribution_pp": 0.019538025041736212,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "SANDISK CORP",
+      "weight_pct_asof10_16": 0.287179,
+      "intraday_ret_pct": 5.775417532517513,
+      "proxy_contribution_pp": 0.016585786315708468,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "LAM RESEARCH CORP",
+      "weight_pct_asof10_16": 0.500488,
+      "intraday_ret_pct": 3.2564219140713835,
+      "proxy_contribution_pp": 0.01629800090929759,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "MARVELL TECHNOLOGY INC",
+      "weight_pct_asof10_16": 0.302369,
+      "intraday_ret_pct": 4.354123688715261,
+      "proxy_contribution_pp": 0.013165520256331449,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "ANET",
+      "name": "ARISTA NETWORKS INC",
+      "weight_pct_asof10_16": 0.280514,
+      "intraday_ret_pct": 3.53712283873886,
+      "proxy_contribution_pp": 0.009922124759859924,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "WDC",
+      "name": "WESTERN DIGITAL CORP",
+      "weight_pct_asof10_16": 0.181236,
+      "intraday_ret_pct": 4.662650602409646,
+      "proxy_contribution_pp": 0.008450401445783146,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "DDOG",
+      "name": "DATADOG INC   CLASS A",
+      "weight_pct_asof10_16": 0.125314,
+      "intraday_ret_pct": 6.207761725547312,
+      "proxy_contribution_pp": 0.007779194528752359,
+      "quote_time": "2026-10-19T14:56:31-04:00"
+    },
+    {
+      "symbol": "IBM",
+      "name": "INTL BUSINESS MACHINES CORP",
+      "weight_pct_asof10_16": 0.331152,
+      "intraday_ret_pct": 2.2723356595158117,
+      "proxy_contribution_pp": 0.007524884983199801,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "PANW",
+      "name": "PALO ALTO NETWORKS INC",
+      "weight_pct_asof10_16": 0.42245,
+      "intraday_ret_pct": 1.6432748538011799,
+      "proxy_contribution_pp": 0.006942014619883085,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "APPLIED MATERIALS INC",
+      "weight_pct_asof10_16": 0.492428,
+      "intraday_ret_pct": 1.3535634879913827,
+      "proxy_contribution_pp": 0.006665325612646206,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "STX",
+      "name": "SEAGATE TECHNOLOGY HOLDINGS",
+      "weight_pct_asof10_16": 0.219289,
+      "intraday_ret_pct": 2.863022487910971,
+      "proxy_contribution_pp": 0.00627829338351509,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UNITEDHEALTH GROUP INC",
+      "weight_pct_asof10_16": 0.546063,
+      "intraday_ret_pct": 1.0225942256433251,
+      "proxy_contribution_pp": 0.00558400870637471,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "ACN",
+      "name": "ACCENTURE PLC CL A",
+      "weight_pct_asof10_16": 0.213152,
+      "intraday_ret_pct": 2.590560780215956,
+      "proxy_contribution_pp": 0.005521832114245915,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "MRNA",
+      "name": "MODERNA INC",
+      "weight_pct_asof10_16": 0.122567,
+      "intraday_ret_pct": 3.9557818448695103,
+      "proxy_contribution_pp": 0.004848483133801212,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "NOW",
+      "name": "SERVICENOW INC",
+      "weight_pct_asof10_16": 0.222241,
+      "intraday_ret_pct": 2.1060787490314814,
+      "proxy_contribution_pp": 0.004680570472635055,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "ORACLE CORP",
+      "weight_pct_asof10_16": 0.335557,
+      "intraday_ret_pct": 1.3912500974811115,
+      "proxy_contribution_pp": 0.0046684370896046936,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "APH",
+      "name": "AMPHENOL CORP CL A",
+      "weight_pct_asof10_16": 0.296609,
+      "intraday_ret_pct": 1.562696912413375,
+      "proxy_contribution_pp": 0.004635099684940188,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "LIN",
+      "name": "LINDE PLC",
+      "weight_pct_asof10_16": 0.348289,
+      "intraday_ret_pct": 1.259956262664752,
+      "proxy_contribution_pp": 0.004388289067672438,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "COST",
+      "name": "COSTCO WHOLESALE CORP",
+      "weight_pct_asof10_16": 0.664712,
+      "intraday_ret_pct": 0.6121664931099557,
+      "proxy_contribution_pp": 0.004069144139681049,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "PEP",
+      "name": "PEPSICO INC",
+      "weight_pct_asof10_16": 0.272085,
+      "intraday_ret_pct": 1.4373716632443356,
+      "proxy_contribution_pp": 0.003910872689938351,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA CORP",
+      "weight_pct_asof10_16": 0.327881,
+      "intraday_ret_pct": 1.0438035477253527,
+      "proxy_contribution_pp": 0.003422433510317363,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "ISRG",
+      "name": "INTUITIVE SURGICAL INC",
+      "weight_pct_asof10_16": 0.228236,
+      "intraday_ret_pct": 1.4635575345676166,
+      "proxy_contribution_pp": 0.003340365174595745,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "MPWR",
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "weight_pct_asof10_16": 0.090258,
+      "intraday_ret_pct": 3.689113522620291,
+      "proxy_contribution_pp": 0.0033297200832466223,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "TWLO",
+      "name": "TWILIO INC   A",
+      "weight_pct_asof10_16": 0.057141,
+      "intraday_ret_pct": 5.65126652207717,
+      "proxy_contribution_pp": 0.003229190203380115,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "QUALCOMM INC",
+      "weight_pct_asof10_16": 0.278333,
+      "intraday_ret_pct": 1.0952297948986,
+      "proxy_contribution_pp": 0.0030483859450351203,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "CIENA CORP",
+      "weight_pct_asof10_16": 0.071277,
+      "intraday_ret_pct": 4.0843927508790845,
+      "proxy_contribution_pp": 0.002911232621044085,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "FTNT",
+      "name": "FORTINET INC",
+      "weight_pct_asof10_16": 0.157826,
+      "intraday_ret_pct": 1.8240406787678243,
+      "proxy_contribution_pp": 0.002878810441672106,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "MNST",
+      "name": "MONSTER BEVERAGE CORP",
+      "weight_pct_asof10_16": 0.099094,
+      "intraday_ret_pct": 2.8865077629564917,
+      "proxy_contribution_pp": 0.002860356002624106,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "WMT",
+      "name": "WALMART INC",
+      "weight_pct_asof10_16": 0.802334,
+      "intraday_ret_pct": 0.34929719720562247,
+      "proxy_contribution_pp": 0.002802530174227759,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "TER",
+      "name": "TERADYNE INC",
+      "weight_pct_asof10_16": 0.077197,
+      "intraday_ret_pct": 3.604615384615384,
+      "proxy_contribution_pp": 0.002782654938461538,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "BRK-B",
+      "name": "BERKSHIRE HATHAWAY INC CL B",
+      "weight_pct_asof10_16": 1.50124,
+      "intraday_ret_pct": 0.18514341566107095,
+      "proxy_contribution_pp": 0.0027794470132702616,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "SYK",
+      "name": "STRYKER CORP",
+      "weight_pct_asof10_16": 0.155736,
+      "intraday_ret_pct": 1.7172334215706186,
+      "proxy_contribution_pp": 0.002674350641417219,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "V",
+      "name": "VISA INC CLASS A SHARES",
+      "weight_pct_asof10_16": 1.039575,
+      "intraday_ret_pct": 0.255830704652138,
+      "proxy_contribution_pp": 0.002659552047887463,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "CDNS",
+      "name": "CADENCE DESIGN SYS INC",
+      "weight_pct_asof10_16": 0.133223,
+      "intraday_ret_pct": 1.88882977058622,
+      "proxy_contribution_pp": 0.00251635568526808,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "AXP",
+      "name": "AMERICAN EXPRESS CO",
+      "weight_pct_asof10_16": 0.250102,
+      "intraday_ret_pct": 0.9869574922669822,
+      "proxy_contribution_pp": 0.0024684004273095674,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "DASH",
+      "name": "DOORDASH INC   A",
+      "weight_pct_asof10_16": 0.107762,
+      "intraday_ret_pct": 2.043351837166263,
+      "proxy_contribution_pp": 0.002201956806767108,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "LITE",
+      "name": "LUMENTUM HOLDINGS INC",
+      "weight_pct_asof10_16": 0.110544,
+      "intraday_ret_pct": 1.850436217587026,
+      "proxy_contribution_pp": 0.002045546212369402,
+      "quote_time": "2026-10-19T14:56:58-04:00"
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS INC   A",
+      "weight_pct_asof10_16": 0.350952,
+      "intraday_ret_pct": 0.578301596376285,
+      "proxy_contribution_pp": 0.0020295610185145,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "JCI",
+      "name": "JOHNSON CONTROLS INTERNATION",
+      "weight_pct_asof10_16": 0.133687,
+      "intraday_ret_pct": 1.4882793703169028,
+      "proxy_contribution_pp": 0.001989636041795558,
+      "quote_time": "2026-10-19T14:56:52-04:00"
+    },
+    {
+      "symbol": "BE",
+      "name": "BLOOM ENERGY CORP  A",
+      "weight_pct_asof10_16": 0.09869,
+      "intraday_ret_pct": 1.8548642176132946,
+      "proxy_contribution_pp": 0.0018305654963625604,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "P",
+      "name": "EVERPURE INC A",
+      "weight_pct_asof10_16": 0.062413,
+      "intraday_ret_pct": 2.8868639625836634,
+      "proxy_contribution_pp": 0.001801778404967342,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "CRM",
+      "name": "SALESFORCE INC",
+      "weight_pct_asof10_16": 0.298544,
+      "intraday_ret_pct": 0.5941005400914134,
+      "proxy_contribution_pp": 0.0017736515164105094,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "VRTX",
+      "name": "VERTEX PHARMACEUTICALS INC",
+      "weight_pct_asof10_16": 0.191781,
+      "intraday_ret_pct": 0.9174770880858052,
+      "proxy_contribution_pp": 0.0017595467343018382,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "TT",
+      "name": "TRANE TECHNOLOGIES PLC",
+      "weight_pct_asof10_16": 0.153159,
+      "intraday_ret_pct": 1.1375275120399264,
+      "proxy_contribution_pp": 0.0017422257621652307,
+      "quote_time": "2026-10-19T14:56:55-04:00"
+    },
+    {
+      "symbol": "NUE",
+      "name": "NUCOR CORP",
+      "weight_pct_asof10_16": 0.087851,
+      "intraday_ret_pct": 1.8533692301689442,
+      "proxy_contribution_pp": 0.001628203402395719,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "RCL",
+      "name": "ROYAL CARIBBEAN CRUISES LTD",
+      "weight_pct_asof10_16": 0.104368,
+      "intraday_ret_pct": 1.4333045231921693,
+      "proxy_contribution_pp": 0.0014959112647652032,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "ROST",
+      "name": "ROSS STORES INC",
+      "weight_pct_asof10_16": 0.114856,
+      "intraday_ret_pct": 1.2896280974291852,
+      "proxy_contribution_pp": 0.0014812152475832648,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "BA",
+      "name": "BOEING CO/THE",
+      "weight_pct_asof10_16": 0.227631,
+      "intraday_ret_pct": 0.6177382892592398,
+      "proxy_contribution_pp": 0.0014061638452237003,
+      "quote_time": "2026-10-19T14:56:56-04:00"
+    },
+    {
+      "symbol": "VEEV",
+      "name": "VEEVA SYSTEMS INC CLASS A",
+      "weight_pct_asof10_16": 0.070218,
+      "intraday_ret_pct": 1.981569789921367,
+      "proxy_contribution_pp": 0.0013914186750869856,
+      "quote_time": "2026-10-19T14:56:25-04:00"
+    },
+    {
+      "symbol": "PH",
+      "name": "PARKER HANNIFIN CORP",
+      "weight_pct_asof10_16": 0.184068,
+      "intraday_ret_pct": 0.7256005148753353,
+      "proxy_contribution_pp": 0.001335598355720732,
+      "quote_time": "2026-10-19T14:55:03-04:00"
+    },
+    {
+      "symbol": "FIX",
+      "name": "COMFORT SYSTEMS USA INC",
+      "weight_pct_asof10_16": 0.076728,
+      "intraday_ret_pct": 1.7073526652629845,
+      "proxy_contribution_pp": 0.001310017553002983,
+      "quote_time": "2026-10-19T14:57:04-04:00"
+    },
+    {
+      "symbol": "HD",
+      "name": "HOME DEPOT INC",
+      "weight_pct_asof10_16": 0.467594,
+      "intraday_ret_pct": 0.2777508639343784,
+      "proxy_contribution_pp": 0.0012987463747053175,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "KEYS",
+      "name": "KEYSIGHT TECHNOLOGIES IN",
+      "weight_pct_asof10_16": 0.086041,
+      "intraday_ret_pct": 1.4114911989372425,
+      "proxy_contribution_pp": 0.0012144611424775929,
+      "quote_time": "2026-10-19T14:57:00-04:00"
+    },
+    {
+      "symbol": "BSX",
+      "name": "BOSTON SCIENTIFIC CORP",
+      "weight_pct_asof10_16": 0.09721,
+      "intraday_ret_pct": 1.22775399864834,
+      "proxy_contribution_pp": 0.0011934996620860511,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "Q",
+      "name": "QNITY ELECTRONICS INC",
+      "weight_pct_asof10_16": 0.036646,
+      "intraday_ret_pct": 3.2330761896506743,
+      "proxy_contribution_pp": 0.001184793100459386,
+      "quote_time": "2026-10-19T14:55:47-04:00"
+    },
+    {
+      "symbol": "FFIV",
+      "name": "F5 INC",
+      "weight_pct_asof10_16": 0.037827,
+      "intraday_ret_pct": 3.1208289030156378,
+      "proxy_contribution_pp": 0.0011805159491437252,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "SBUX",
+      "name": "STARBUCKS CORP",
+      "weight_pct_asof10_16": 0.168408,
+      "intraday_ret_pct": 0.6460213289581684,
+      "proxy_contribution_pp": 0.0010879515996718723,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "ADBE",
+      "name": "ADOBE INC",
+      "weight_pct_asof10_16": 0.147395,
+      "intraday_ret_pct": 0.7300163132137216,
+      "proxy_contribution_pp": 0.001076007544861365,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "COMCAST CORP CLASS A",
+      "weight_pct_asof10_16": 0.117174,
+      "intraday_ret_pct": 0.8904109589041198,
+      "proxy_contribution_pp": 0.0010433301369863134,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "APP",
+      "name": "APPLOVIN CORP CLASS A",
+      "weight_pct_asof10_16": 0.109191,
+      "intraday_ret_pct": 0.9431480855221164,
+      "proxy_contribution_pp": 0.0010298328260624542,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "HPE",
+      "name": "HEWLETT PACKARD ENTERPRISE",
+      "weight_pct_asof10_16": 0.11076,
+      "intraday_ret_pct": 0.9287139488481699,
+      "proxy_contribution_pp": 0.001028643569744233,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "WDAY",
+      "name": "WORKDAY INC CLASS A",
+      "weight_pct_asof10_16": 0.057884,
+      "intraday_ret_pct": 1.7242282899219141,
+      "proxy_contribution_pp": 0.0009980523033384008,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "KKR",
+      "name": "KKR + CO INC",
+      "weight_pct_asof10_16": 0.090496,
+      "intraday_ret_pct": 0.9975640876928482,
+      "proxy_contribution_pp": 0.0009027555967985199,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "ABNB",
+      "name": "AIRBNB INC CLASS A",
+      "weight_pct_asof10_16": 0.110228,
+      "intraday_ret_pct": 0.7484168105929889,
+      "proxy_contribution_pp": 0.0008249648819804399,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "CCL",
+      "name": "CARNIVAL CORP LTD",
+      "weight_pct_asof10_16": 0.049952,
+      "intraday_ret_pct": 1.5482625482625467,
+      "proxy_contribution_pp": 0.0007733881081081075,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "JBL",
+      "name": "JABIL INC",
+      "weight_pct_asof10_16": 0.044157,
+      "intraday_ret_pct": 1.7322551662174224,
+      "proxy_contribution_pp": 0.0007649119137466271,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "MCK",
+      "name": "MCKESSON CORP",
+      "weight_pct_asof10_16": 0.177695,
+      "intraday_ret_pct": 0.41300107479798065,
+      "proxy_contribution_pp": 0.0007338822598622717,
+      "quote_time": "2026-10-19T14:56:51-04:00"
+    },
+    {
+      "symbol": "MAR",
+      "name": "MARRIOTT INTERNATIONAL  CL A",
+      "weight_pct_asof10_16": 0.125426,
+      "intraday_ret_pct": 0.5823991753640012,
+      "proxy_contribution_pp": 0.0007304799896920522,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "PGR",
+      "name": "PROGRESSIVE CORP",
+      "weight_pct_asof10_16": 0.192329,
+      "intraday_ret_pct": 0.37530321753855844,
+      "proxy_contribution_pp": 0.0007218169252597341,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "BX",
+      "name": "BLACKSTONE INC",
+      "weight_pct_asof10_16": 0.121168,
+      "intraday_ret_pct": 0.5909389363099038,
+      "proxy_contribution_pp": 0.0007160288903479842,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP SEMICONDUCTORS NV",
+      "weight_pct_asof10_16": 0.087566,
+      "intraday_ret_pct": 0.8154188287620379,
+      "proxy_contribution_pp": 0.0007140296515937661,
+      "quote_time": "2026-10-19T14:56:25-04:00"
+    },
+    {
+      "symbol": "NTAP",
+      "name": "NETAPP INC",
+      "weight_pct_asof10_16": 0.060546,
+      "intraday_ret_pct": 1.0843964671246153,
+      "proxy_contribution_pp": 0.0006565586849852696,
+      "quote_time": "2026-10-19T14:56:36-04:00"
+    },
+    {
+      "symbol": "EW",
+      "name": "EDWARDS LIFESCIENCES CORP",
+      "weight_pct_asof10_16": 0.075714,
+      "intraday_ret_pct": 0.8660508083140783,
+      "proxy_contribution_pp": 0.0006557217090069213,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "BIIB",
+      "name": "BIOGEN INC",
+      "weight_pct_asof10_16": 0.052228,
+      "intraday_ret_pct": 1.2228669675478088,
+      "proxy_contribution_pp": 0.0006386789598108695,
+      "quote_time": "2026-10-19T14:55:35-04:00"
+    },
+    {
+      "symbol": "MCD",
+      "name": "MCDONALD S CORP",
+      "weight_pct_asof10_16": 0.260672,
+      "intraday_ret_pct": 0.24282833271598303,
+      "proxy_contribution_pp": 0.0006329854714574074,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "GLW",
+      "name": "CORNING INC",
+      "weight_pct_asof10_16": 0.158387,
+      "intraday_ret_pct": 0.39772727272726627,
+      "proxy_contribution_pp": 0.0006299482954545352,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "INTU",
+      "name": "INTUIT INC",
+      "weight_pct_asof10_16": 0.134464,
+      "intraday_ret_pct": 0.4613255420575113,
+      "proxy_contribution_pp": 0.000620316776872212,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "STLD",
+      "name": "STEEL DYNAMICS INC",
+      "weight_pct_asof10_16": 0.04907,
+      "intraday_ret_pct": 1.2347218757794876,
+      "proxy_contribution_pp": 0.0006058780244449945,
+      "quote_time": "2026-10-19T14:56:00-04:00"
+    },
+    {
+      "symbol": "MCHP",
+      "name": "MICROCHIP TECHNOLOGY INC",
+      "weight_pct_asof10_16": 0.060689,
+      "intraday_ret_pct": 0.9749492213947164,
+      "proxy_contribution_pp": 0.0005916869329722394,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "EXPE",
+      "name": "EXPEDIA GROUP INC",
+      "weight_pct_asof10_16": 0.050222,
+      "intraday_ret_pct": 1.1628309396089387,
+      "proxy_contribution_pp": 0.0005839969544904011,
+      "quote_time": "2026-10-19T14:56:57-04:00"
+    },
+    {
+      "symbol": "EL",
+      "name": "ESTEE LAUDER COMPANIES CL A",
+      "weight_pct_asof10_16": 0.03913,
+      "intraday_ret_pct": 1.3822460302276518,
+      "proxy_contribution_pp": 0.0005408728716280801,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "OXY",
+      "name": "OCCIDENTAL PETROLEUM CORP",
+      "weight_pct_asof10_16": 0.068784,
+      "intraday_ret_pct": 0.777492786149403,
+      "proxy_contribution_pp": 0.0005347906380250053,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "ZEBRA TECHNOLOGIES CORP CL A",
+      "weight_pct_asof10_16": 0.026674,
+      "intraday_ret_pct": 1.9565865423701423,
+      "proxy_contribution_pp": 0.0005218998943118117,
+      "quote_time": "2026-10-19T14:57:20-04:00"
+    },
+    {
+      "symbol": "CARR",
+      "name": "CARRIER GLOBAL CORP",
+      "weight_pct_asof10_16": 0.068647,
+      "intraday_ret_pct": 0.7181818181818178,
+      "proxy_contribution_pp": 0.0004930102727272725,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "LMT",
+      "name": "LOCKHEED MARTIN CORP",
+      "weight_pct_asof10_16": 0.169837,
+      "intraday_ret_pct": 0.28075132677642944,
+      "proxy_contribution_pp": 0.00047681963085728445,
+      "quote_time": "2026-10-19T14:56:52-04:00"
+    },
+    {
+      "symbol": "FCX",
+      "name": "FREEPORT MCMORAN INC",
+      "weight_pct_asof10_16": 0.151012,
+      "intraday_ret_pct": 0.30917457578369945,
+      "proxy_contribution_pp": 0.00046689071038248024,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "FAST",
+      "name": "FASTENAL CO",
+      "weight_pct_asof10_16": 0.088927,
+      "intraday_ret_pct": 0.5194041552332385,
+      "proxy_contribution_pp": 0.000461890533124262,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "CTSH",
+      "name": "COGNIZANT TECH SOLUTIONS A",
+      "weight_pct_asof10_16": 0.045032,
+      "intraday_ret_pct": 1.0146902922913759,
+      "proxy_contribution_pp": 0.0004569353324246524,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "SNPS",
+      "name": "SYNOPSYS INC",
+      "weight_pct_asof10_16": 0.131819,
+      "intraday_ret_pct": 0.3431361766711438,
+      "proxy_contribution_pp": 0.00045231867672613504,
+      "quote_time": "2026-10-19T14:56:55-04:00"
+    },
+    {
+      "symbol": "VRSN",
+      "name": "VERISIGN INC",
+      "weight_pct_asof10_16": 0.037203,
+      "intraday_ret_pct": 1.2039425811999793,
+      "proxy_contribution_pp": 0.00044790275848382834,
+      "quote_time": "2026-10-19T14:56:10-04:00"
+    },
+    {
+      "symbol": "APD",
+      "name": "AIR PRODUCTS + CHEMICALS INC",
+      "weight_pct_asof10_16": 0.101329,
+      "intraday_ret_pct": 0.42224373310191243,
+      "proxy_contribution_pp": 0.00042785535231483685,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "TDG",
+      "name": "TRANSDIGM GROUP INC",
+      "weight_pct_asof10_16": 0.095159,
+      "intraday_ret_pct": 0.42173539066476806,
+      "proxy_contribution_pp": 0.0004013191804026866,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "ETN",
+      "name": "EATON CORP PLC",
+      "weight_pct_asof10_16": 0.23035,
+      "intraday_ret_pct": 0.1623003194888062,
+      "proxy_contribution_pp": 0.00037385878594246505,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP INC",
+      "weight_pct_asof10_16": 0.041699,
+      "intraday_ret_pct": 0.8830389870043254,
+      "proxy_contribution_pp": 0.00036821842719093363,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "ADSK",
+      "name": "AUTODESK INC",
+      "weight_pct_asof10_16": 0.076902,
+      "intraday_ret_pct": 0.4606085869112153,
+      "proxy_contribution_pp": 0.0003542172155064628,
+      "quote_time": "2026-10-19T14:56:01-04:00"
+    },
+    {
+      "symbol": "HUBB",
+      "name": "HUBBELL INC",
+      "weight_pct_asof10_16": 0.037018,
+      "intraday_ret_pct": 0.9520711342442034,
+      "proxy_contribution_pp": 0.00035243769247451923,
+      "quote_time": "2026-10-19T14:56:30-04:00"
+    },
+    {
+      "symbol": "SMCI",
+      "name": "SUPER MICRO COMPUTER INC",
+      "weight_pct_asof10_16": 0.027024,
+      "intraday_ret_pct": 1.2962377489724952,
+      "proxy_contribution_pp": 0.0003502952892823271,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "ELV",
+      "name": "ELEVANCE HEALTH INC",
+      "weight_pct_asof10_16": 0.140414,
+      "intraday_ret_pct": 0.24517816279829852,
+      "proxy_contribution_pp": 0.0003442644655116029,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "FITB",
+      "name": "FIFTH THIRD BANCORP",
+      "weight_pct_asof10_16": 0.069145,
+      "intraday_ret_pct": 0.4864006352987893,
+      "proxy_contribution_pp": 0.00033632171927734785,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW CORP/DE",
+      "weight_pct_asof10_16": 0.028287,
+      "intraday_ret_pct": 1.1762360446571085,
+      "proxy_contribution_pp": 0.00033272188995215625,
+      "quote_time": "2026-10-19T14:56:38-04:00"
+    },
+    {
+      "symbol": "LDOS",
+      "name": "LEIDOS HOLDINGS INC",
+      "weight_pct_asof10_16": 0.023847,
+      "intraday_ret_pct": 1.361633960752906,
+      "proxy_contribution_pp": 0.0003247088506207455,
+      "quote_time": "2026-10-19T14:55:59-04:00"
+    },
+    {
+      "symbol": "AIG",
+      "name": "AMERICAN INTERNATIONAL GROUP",
+      "weight_pct_asof10_16": 0.063922,
+      "intraday_ret_pct": 0.5053257369333597,
+      "proxy_contribution_pp": 0.00032301431756254223,
+      "quote_time": "2026-10-19T14:56:45-04:00"
+    },
+    {
+      "symbol": "FICO",
+      "name": "FAIR ISAAC CORP",
+      "weight_pct_asof10_16": 0.025187,
+      "intraday_ret_pct": 1.2714117143635129,
+      "proxy_contribution_pp": 0.00032023046849673806,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "APA",
+      "name": "APA CORP",
+      "weight_pct_asof10_16": 0.026369,
+      "intraday_ret_pct": 1.200406917599195,
+      "proxy_contribution_pp": 0.0003165353001017317,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "EBAY",
+      "name": "EBAY INC",
+      "weight_pct_asof10_16": 0.072937,
+      "intraday_ret_pct": 0.41569670768206723,
+      "proxy_contribution_pp": 0.0003031967076820694,
+      "quote_time": "2026-10-19T14:56:53-04:00"
+    },
+    {
+      "symbol": "APO",
+      "name": "APOLLO GLOBAL MANAGEMENT INC",
+      "weight_pct_asof10_16": 0.079243,
+      "intraday_ret_pct": 0.35204910633688247,
+      "proxy_contribution_pp": 0.00027897427333453575,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "DECK",
+      "name": "DECKERS OUTDOOR CORP",
+      "weight_pct_asof10_16": 0.017468,
+      "intraday_ret_pct": 1.5867460039668657,
+      "proxy_contribution_pp": 0.0002771727919729321,
+      "quote_time": "2026-10-19T14:57:01-04:00"
+    },
+    {
+      "symbol": "SWKS",
+      "name": "SKYWORKS SOLUTIONS INC",
+      "weight_pct_asof10_16": 0.027589,
+      "intraday_ret_pct": 0.978670012547056,
+      "proxy_contribution_pp": 0.00027000526976160723,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "DOW",
+      "name": "DOW INC",
+      "weight_pct_asof10_16": 0.032642,
+      "intraday_ret_pct": 0.7851653859004326,
+      "proxy_contribution_pp": 0.0002562936852656192,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "ARES",
+      "name": "ARES MANAGEMENT CORP   A",
+      "weight_pct_asof10_16": 0.03807,
+      "intraday_ret_pct": 0.6680324218402145,
+      "proxy_contribution_pp": 0.00025431994299456967,
+      "quote_time": "2026-10-19T14:56:06-04:00"
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GODADDY INC   CLASS A",
+      "weight_pct_asof10_16": 0.020317,
+      "intraday_ret_pct": 1.2457531143827971,
+      "proxy_contribution_pp": 0.00025309966024915294,
+      "quote_time": "2026-10-19T14:57:01-04:00"
+    },
+    {
+      "symbol": "BALL",
+      "name": "BALL CORP",
+      "weight_pct_asof10_16": 0.025542,
+      "intraday_ret_pct": 0.9810126582278533,
+      "proxy_contribution_pp": 0.00025057025316455825,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "PKG",
+      "name": "PACKAGING CORP OF AMERICA",
+      "weight_pct_asof10_16": 0.031719,
+      "intraday_ret_pct": 0.777542372881368,
+      "proxy_contribution_pp": 0.0002466286652542411,
+      "quote_time": "2026-10-19T14:56:29-04:00"
+    },
+    {
+      "symbol": "ECHO",
+      "name": "ECHOSTAR CORP A",
+      "weight_pct_asof10_16": 0.017896,
+      "intraday_ret_pct": 1.3646480028112862,
+      "proxy_contribution_pp": 0.00024421740658310775,
+      "quote_time": "2026-10-19T14:56:43-04:00"
+    },
+    {
+      "symbol": "CASY",
+      "name": "CASEY S GENERAL STORES INC",
+      "weight_pct_asof10_16": 0.038724,
+      "intraday_ret_pct": 0.6209918458547348,
+      "proxy_contribution_pp": 0.0002404728823887875,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "EQT",
+      "name": "EQT CORP",
+      "weight_pct_asof10_16": 0.051566,
+      "intraday_ret_pct": 0.4604051565377576,
+      "proxy_contribution_pp": 0.0002374125230202601,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "ZTS",
+      "name": "ZOETIS INC",
+      "weight_pct_asof10_16": 0.049667,
+      "intraday_ret_pct": 0.4472159234063966,
+      "proxy_contribution_pp": 0.00022211873267825502,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "AMCR",
+      "name": "AMCOR PLC",
+      "weight_pct_asof10_16": 0.030567,
+      "intraday_ret_pct": 0.7183580387685184,
+      "proxy_contribution_pp": 0.00021958050171037302,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "FOXA",
+      "name": "FOX CORP   CLASS A",
+      "weight_pct_asof10_16": 0.019432,
+      "intraday_ret_pct": 1.0911925175369985,
+      "proxy_contribution_pp": 0.00021204053000778956,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "CVX",
+      "name": "CHEVRON CORP",
+      "weight_pct_asof10_16": 0.673634,
+      "intraday_ret_pct": 0.031112493888607595,
+      "proxy_contribution_pp": 0.00020958433708158288,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "CPAY",
+      "name": "CORPAY INC",
+      "weight_pct_asof10_16": 0.039688,
+      "intraday_ret_pct": 0.5177070828331409,
+      "proxy_contribution_pp": 0.00020546758703481697,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "NDSN",
+      "name": "NORDSON CORP",
+      "weight_pct_asof10_16": 0.025946,
+      "intraday_ret_pct": 0.7787533740808428,
+      "proxy_contribution_pp": 0.00020205535043901546,
+      "quote_time": "2026-10-19T14:56:13-04:00"
+    },
+    {
+      "symbol": "HAS",
+      "name": "HASBRO INC",
+      "weight_pct_asof10_16": 0.021095,
+      "intraday_ret_pct": 0.93155123531794,
+      "proxy_contribution_pp": 0.00019651073309031943,
+      "quote_time": "2026-10-19T14:57:00-04:00"
+    },
+    {
+      "symbol": "IFF",
+      "name": "INTL FLAVORS + FRAGRANCES",
+      "weight_pct_asof10_16": 0.03523,
+      "intraday_ret_pct": 0.5513895015438974,
+      "proxy_contribution_pp": 0.00019425452139391504,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "ON",
+      "name": "ON SEMICONDUCTOR",
+      "weight_pct_asof10_16": 0.042453,
+      "intraday_ret_pct": 0.4512635379061436,
+      "proxy_contribution_pp": 0.00019157490974729512,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "WAB",
+      "name": "WABTEC CORP",
+      "weight_pct_asof10_16": 0.073166,
+      "intraday_ret_pct": 0.2614880412802556,
+      "proxy_contribution_pp": 0.00019132034028311178,
+      "quote_time": "2026-10-19T14:56:19-04:00"
+    },
+    {
+      "symbol": "HUM",
+      "name": "HUMANA INC",
+      "weight_pct_asof10_16": 0.075307,
+      "intraday_ret_pct": 0.2505082776648182,
+      "proxy_contribution_pp": 0.00018865026866104461,
+      "quote_time": "2026-10-19T14:56:15-04:00"
+    },
+    {
+      "symbol": "MRSH",
+      "name": "MARSH + MCLENNAN COS",
+      "weight_pct_asof10_16": 0.136096,
+      "intraday_ret_pct": 0.13273161667108901,
+      "proxy_contribution_pp": 0.0001806424210246853,
+      "quote_time": "2026-10-19T14:56:53-04:00"
+    },
+    {
+      "symbol": "TRMB",
+      "name": "TRIMBLE INC",
+      "weight_pct_asof10_16": 0.021045,
+      "intraday_ret_pct": 0.8409014463504949,
+      "proxy_contribution_pp": 0.00017696770938446164,
+      "quote_time": "2026-10-19T14:56:48-04:00"
+    },
+    {
+      "symbol": "SYF",
+      "name": "SYNCHRONY FINANCIAL",
+      "weight_pct_asof10_16": 0.036107,
+      "intraday_ret_pct": 0.48859934853420217,
+      "proxy_contribution_pp": 0.00017641856677524438,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "DVN",
+      "name": "DEVON ENERGY CORP",
+      "weight_pct_asof10_16": 0.084293,
+      "intraday_ret_pct": 0.20697811945595834,
+      "proxy_contribution_pp": 0.00017446806623301096,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "EXPD",
+      "name": "EXPEDITORS INTL WASH INC",
+      "weight_pct_asof10_16": 0.038893,
+      "intraday_ret_pct": 0.44408146597927356,
+      "proxy_contribution_pp": 0.00017271660456331887,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "RMD",
+      "name": "RESMED INC",
+      "weight_pct_asof10_16": 0.052187,
+      "intraday_ret_pct": 0.32430849060551825,
+      "proxy_contribution_pp": 0.0001692468719923018,
+      "quote_time": "2026-10-19T14:56:39-04:00"
+    },
+    {
+      "symbol": "GPN",
+      "name": "GLOBAL PAYMENTS INC",
+      "weight_pct_asof10_16": 0.028159,
+      "intraday_ret_pct": 0.5975857535556406,
+      "proxy_contribution_pp": 0.0001682741723437328,
+      "quote_time": "2026-10-19T14:56:33-04:00"
+    },
+    {
+      "symbol": "INCY",
+      "name": "INCYTE CORP",
+      "weight_pct_asof10_16": 0.029146,
+      "intraday_ret_pct": 0.5615990094631762,
+      "proxy_contribution_pp": 0.00016368364729813734,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "HST",
+      "name": "HOST HOTELS + RESORTS INC",
+      "weight_pct_asof10_16": 0.024865,
+      "intraday_ret_pct": 0.6466416353775539,
+      "proxy_contribution_pp": 0.00016078744263662878,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "ROP",
+      "name": "ROPER TECHNOLOGIES INC",
+      "weight_pct_asof10_16": 0.057305,
+      "intraday_ret_pct": 0.2795850644090825,
+      "proxy_contribution_pp": 0.0001602162211596247,
+      "quote_time": "2026-10-19T14:56:33-04:00"
+    },
+    {
+      "symbol": "ALGN",
+      "name": "ALIGN TECHNOLOGY INC",
+      "weight_pct_asof10_16": 0.01473,
+      "intraday_ret_pct": 1.0861448645713034,
+      "proxy_contribution_pp": 0.00015998913855135298,
+      "quote_time": "2026-10-19T14:56:40-04:00"
+    },
+    {
+      "symbol": "IT",
+      "name": "GARTNER INC",
+      "weight_pct_asof10_16": 0.019423,
+      "intraday_ret_pct": 0.7742878013148324,
+      "proxy_contribution_pp": 0.0001503899196493799,
+      "quote_time": "2026-10-19T14:54:22-04:00"
+    },
+    {
+      "symbol": "FOX",
+      "name": "FOX CORP   CLASS B",
+      "weight_pct_asof10_16": 0.011641,
+      "intraday_ret_pct": 1.1883956658510941,
+      "proxy_contribution_pp": 0.00013834113946172585,
+      "quote_time": "2026-10-19T14:56:25-04:00"
+    },
+    {
+      "symbol": "NEM",
+      "name": "NEWMONT CORP",
+      "weight_pct_asof10_16": 0.189033,
+      "intraday_ret_pct": 0.07166947723440398,
+      "proxy_contribution_pp": 0.00013547896290051086,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "MTD",
+      "name": "METTLER TOLEDO INTERNATIONAL",
+      "weight_pct_asof10_16": 0.049523,
+      "intraday_ret_pct": 0.25488661090187215,
+      "proxy_contribution_pp": 0.00012622749631693413,
+      "quote_time": "2026-10-19T14:56:01-04:00"
+    },
+    {
+      "symbol": "TJX",
+      "name": "TJX COMPANIES INC",
+      "weight_pct_asof10_16": 0.24643,
+      "intraday_ret_pct": 0.047512387158077374,
+      "proxy_contribution_pp": 0.00011708477567365007,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "TYL",
+      "name": "TYLER TECHNOLOGIES INC",
+      "weight_pct_asof10_16": 0.02081,
+      "intraday_ret_pct": 0.5611439022362497,
+      "proxy_contribution_pp": 0.00011677404605536355,
+      "quote_time": "2026-10-19T14:56:44-04:00"
+    },
+    {
+      "symbol": "GNRC",
+      "name": "GENERAC HOLDINGS INC",
+      "weight_pct_asof10_16": 0.017063,
+      "intraday_ret_pct": 0.6720988166908803,
+      "proxy_contribution_pp": 0.0001146802210919649,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "NCLH",
+      "name": "NORWEGIAN CRUISE LINE HOLDIN",
+      "weight_pct_asof10_16": 0.010562,
+      "intraday_ret_pct": 1.0631229235880335,
+      "proxy_contribution_pp": 0.0001122870431893681,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "AVY",
+      "name": "AVERY DENNISON CORP",
+      "weight_pct_asof10_16": 0.020354,
+      "intraday_ret_pct": 0.536193029490617,
+      "proxy_contribution_pp": 0.00010913672922252018,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "AME",
+      "name": "AMETEK INC",
+      "weight_pct_asof10_16": 0.086369,
+      "intraday_ret_pct": 0.11685538139178941,
+      "proxy_contribution_pp": 0.0001009268243542746,
+      "quote_time": "2026-10-19T14:55:27-04:00"
+    },
+    {
+      "symbol": "GRMN",
+      "name": "GARMIN LTD",
+      "weight_pct_asof10_16": 0.071521,
+      "intraday_ret_pct": 0.13694301063942316,
+      "proxy_contribution_pp": 9.794301063942183e-05,
+      "quote_time": "2026-10-19T14:55:56-04:00"
+    },
+    {
+      "symbol": "OTIS",
+      "name": "OTIS WORLDWIDE CORP",
+      "weight_pct_asof10_16": 0.041113,
+      "intraday_ret_pct": 0.23131922052432863,
+      "proxy_contribution_pp": 9.510227113416721e-05,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "FISV",
+      "name": "FISERV INC",
+      "weight_pct_asof10_16": 0.038493,
+      "intraday_ret_pct": 0.24185068349107386,
+      "proxy_contribution_pp": 9.309558359621906e-05,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "ULTA",
+      "name": "ULTA BEAUTY INC",
+      "weight_pct_asof10_16": 0.038393,
+      "intraday_ret_pct": 0.23948460215197365,
+      "proxy_contribution_pp": 9.194532330420723e-05,
+      "quote_time": "2026-10-19T14:56:20-04:00"
+    },
+    {
+      "symbol": "KMB",
+      "name": "KIMBERLY CLARK CORP",
+      "weight_pct_asof10_16": 0.053203,
+      "intraday_ret_pct": 0.16103059581320522,
+      "proxy_contribution_pp": 8.567310789049957e-05,
+      "quote_time": "2026-10-19T14:56:46-04:00"
+    },
+    {
+      "symbol": "WM",
+      "name": "WASTE MANAGEMENT INC",
+      "weight_pct_asof10_16": 0.127691,
+      "intraday_ret_pct": 0.06391607158600099,
+      "proxy_contribution_pp": 8.161507096888051e-05,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "EG",
+      "name": "EVEREST GROUP LTD",
+      "weight_pct_asof10_16": 0.02102,
+      "intraday_ret_pct": 0.37136982780776595,
+      "proxy_contribution_pp": 7.806193780519241e-05,
+      "quote_time": "2026-10-19T14:56:07-04:00"
+    },
+    {
+      "symbol": "FDS",
+      "name": "FACTSET RESEARCH SYSTEMS INC",
+      "weight_pct_asof10_16": 0.016257,
+      "intraday_ret_pct": 0.42430470381542573,
+      "proxy_contribution_pp": 6.897921569927377e-05,
+      "quote_time": "2026-10-19T14:55:40-04:00"
+    },
+    {
+      "symbol": "PTC",
+      "name": "PTC INC",
+      "weight_pct_asof10_16": 0.031434,
+      "intraday_ret_pct": 0.2020934811897579,
+      "proxy_contribution_pp": 6.352606487718849e-05,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "FIS",
+      "name": "FIDELITY NATIONAL INFO SERV",
+      "weight_pct_asof10_16": 0.028259,
+      "intraday_ret_pct": 0.22216051096919376,
+      "proxy_contribution_pp": 6.278033879478447e-05,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "TXT",
+      "name": "TEXTRON INC",
+      "weight_pct_asof10_16": 0.019992,
+      "intraday_ret_pct": 0.25681548794942444,
+      "proxy_contribution_pp": 5.1342552350848935e-05,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "PCG",
+      "name": "P G + E CORP",
+      "weight_pct_asof10_16": 0.043768,
+      "intraday_ret_pct": 0.11459129106188293,
+      "proxy_contribution_pp": 5.0154316271964924e-05,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "IR",
+      "name": "INGERSOLL RAND INC",
+      "weight_pct_asof10_16": 0.040464,
+      "intraday_ret_pct": 0.12213936744664977,
+      "proxy_contribution_pp": 4.942247364361236e-05,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "PODD",
+      "name": "INSULET CORP",
+      "weight_pct_asof10_16": 0.014838,
+      "intraday_ret_pct": 0.29766123316796733,
+      "proxy_contribution_pp": 4.416697377746299e-05,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "IVZ",
+      "name": "INVESCO LTD",
+      "weight_pct_asof10_16": 0.019017,
+      "intraday_ret_pct": 0.23049645390071927,
+      "proxy_contribution_pp": 4.3833510638299784e-05,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "TXN",
+      "name": "TEXAS INSTRUMENTS INC",
+      "weight_pct_asof10_16": 0.382313,
+      "intraday_ret_pct": 0.010850694444441977,
+      "proxy_contribution_pp": 4.148361545137946e-05,
+      "quote_time": "2026-10-19T14:57:04-04:00"
+    },
+    {
+      "symbol": "KDP",
+      "name": "KEURIG DR PEPPER INC",
+      "weight_pct_asof10_16": 0.071516,
+      "intraday_ret_pct": 0.057770075101104545,
+      "proxy_contribution_pp": 4.131484690930593e-05,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "WST",
+      "name": "WEST PHARMACEUTICAL SERVICES",
+      "weight_pct_asof10_16": 0.041195,
+      "intraday_ret_pct": 0.08541221811364519,
+      "proxy_contribution_pp": 3.518556325191613e-05,
+      "quote_time": "2026-10-19T14:56:08-04:00"
+    },
+    {
+      "symbol": "WYNN",
+      "name": "WYNN RESORTS LTD",
+      "weight_pct_asof10_16": 0.008185,
+      "intraday_ret_pct": 0.3306878306878369,
+      "proxy_contribution_pp": 2.706679894179945e-05,
+      "quote_time": "2026-10-19T14:56:22-04:00"
+    },
+    {
+      "symbol": "ZBH",
+      "name": "ZIMMER BIOMET HOLDINGS INC",
+      "weight_pct_asof10_16": 0.027428,
+      "intraday_ret_pct": 0.08949252474204084,
+      "proxy_contribution_pp": 2.454600968624696e-05,
+      "quote_time": "2026-10-19T14:56:49-04:00"
+    },
+    {
+      "symbol": "LYB",
+      "name": "LYONDELLBASELL INDU CL A",
+      "weight_pct_asof10_16": 0.025183,
+      "intraday_ret_pct": 0.09373535385093223,
+      "proxy_contribution_pp": 2.3605374160280265e-05,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "COO",
+      "name": "COOPER COS INC/THE",
+      "weight_pct_asof10_16": 0.017161,
+      "intraday_ret_pct": 0.10355540214015413,
+      "proxy_contribution_pp": 1.777114256127185e-05,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "SJM",
+      "name": "JM SMUCKER CO/THE",
+      "weight_pct_asof10_16": 0.020639,
+      "intraday_ret_pct": 0.07847445656439245,
+      "proxy_contribution_pp": 1.6196343090324958e-05,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "LYV",
+      "name": "LIVE NATION ENTERTAINMENT IN",
+      "weight_pct_asof10_16": 0.040975,
+      "intraday_ret_pct": 0.03812093132367078,
+      "proxy_contribution_pp": 1.5620051609874102e-05,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "MAS",
+      "name": "MASCO CORP",
+      "weight_pct_asof10_16": 0.021551,
+      "intraday_ret_pct": 0.06861534239055445,
+      "proxy_contribution_pp": 1.478729243858839e-05,
+      "quote_time": "2026-10-19T14:56:49-04:00"
+    },
+    {
+      "symbol": "HRL",
+      "name": "HORMEL FOODS CORP",
+      "weight_pct_asof10_16": 0.009034,
+      "intraday_ret_pct": 0.1225490196078427,
+      "proxy_contribution_pp": 1.1071078431372509e-05,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "LVS",
+      "name": "LAS VEGAS SANDS CORP",
+      "weight_pct_asof10_16": 0.014731,
+      "intraday_ret_pct": 0.03946329913180335,
+      "proxy_contribution_pp": 5.813338595105951e-06,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "JKHY",
+      "name": "JACK HENRY + ASSOCIATES INC",
+      "weight_pct_asof10_16": 0.016522,
+      "intraday_ret_pct": 0.013055682485818565,
+      "proxy_contribution_pp": 2.157059860306943e-06,
+      "quote_time": "2026-10-19T14:55:31-04:00"
+    },
+    {
+      "symbol": "CME",
+      "name": "CME GROUP INC",
+      "weight_pct_asof10_16": 0.159791,
+      "intraday_ret_pct": 0.0,
+      "proxy_contribution_pp": 0.0,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "PPG",
+      "name": "PPG INDUSTRIES INC",
+      "weight_pct_asof10_16": 0.036338,
+      "intraday_ret_pct": 0.0,
+      "proxy_contribution_pp": 0.0,
+      "quote_time": "2026-10-19T14:54:24-04:00"
+    },
+    {
+      "symbol": "BR",
+      "name": "BROADRIDGE FINANCIAL SOLUTIO",
+      "weight_pct_asof10_16": 0.030233,
+      "intraday_ret_pct": -0.008566044200797318,
+      "proxy_contribution_pp": -2.589772143227053e-06,
+      "quote_time": "2026-10-19T14:57:04-04:00"
+    },
+    {
+      "symbol": "NWS",
+      "name": "NEWS CORP   CLASS B",
+      "weight_pct_asof10_16": 0.006086,
+      "intraday_ret_pct": -0.12165450121653931,
+      "proxy_contribution_pp": -7.403892944038583e-06,
+      "quote_time": "2026-10-19T14:56:26-04:00"
+    },
+    {
+      "symbol": "TDY",
+      "name": "TELEDYNE TECHNOLOGIES INC",
+      "weight_pct_asof10_16": 0.043526,
+      "intraday_ret_pct": -0.020206918849008382,
+      "proxy_contribution_pp": -8.795263498219388e-06,
+      "quote_time": "2026-10-19T14:56:27-04:00"
+    },
+    {
+      "symbol": "DVA",
+      "name": "DAVITA INC",
+      "weight_pct_asof10_16": 0.009598,
+      "intraday_ret_pct": -0.09609737867706247,
+      "proxy_contribution_pp": -9.223426405424456e-06,
+      "quote_time": "2026-10-19T14:54:07-04:00"
+    },
+    {
+      "symbol": "DOV",
+      "name": "DOVER CORP",
+      "weight_pct_asof10_16": 0.040066,
+      "intraday_ret_pct": -0.025536261491321266,
+      "proxy_contribution_pp": -1.0231358529112778e-05,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "BNY",
+      "name": "BANK OF NEW YORK MELLON CORP",
+      "weight_pct_asof10_16": 0.147035,
+      "intraday_ret_pct": -0.006978367062115964,
+      "proxy_contribution_pp": -1.0260642009782207e-05,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "AES",
+      "name": "AES CORP",
+      "weight_pct_asof10_16": 0.016187,
+      "intraday_ret_pct": -0.06688963210702559,
+      "proxy_contribution_pp": -1.0827424749164233e-05,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "DGX",
+      "name": "QUEST DIAGNOSTICS INC",
+      "weight_pct_asof10_16": 0.039494,
+      "intraday_ret_pct": -0.029787234042555344,
+      "proxy_contribution_pp": -1.1764170212766809e-05,
+      "quote_time": "2026-10-19T14:55:25-04:00"
+    },
+    {
+      "symbol": "LH",
+      "name": "LABCORP HOLDINGS INC",
+      "weight_pct_asof10_16": 0.038857,
+      "intraday_ret_pct": -0.04874980342820523,
+      "proxy_contribution_pp": -1.894271111809771e-05,
+      "quote_time": "2026-10-19T14:56:07-04:00"
+    },
+    {
+      "symbol": "TECH",
+      "name": "BIO TECHNE CORP",
+      "weight_pct_asof10_16": 0.017278,
+      "intraday_ret_pct": -0.12401818933441833,
+      "proxy_contribution_pp": -2.14278627532008e-05,
+      "quote_time": "2026-10-19T14:57:19-04:00"
+    },
+    {
+      "symbol": "CHD",
+      "name": "CHURCH + DWIGHT CO INC",
+      "weight_pct_asof10_16": 0.03751,
+      "intraday_ret_pct": -0.05739978953410718,
+      "proxy_contribution_pp": -2.1530661054243604e-05,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "CRL",
+      "name": "CHARLES RIVER LABORATORIES",
+      "weight_pct_asof10_16": 0.021954,
+      "intraday_ret_pct": -0.1032816924870894,
+      "proxy_contribution_pp": -2.2674462768615607e-05,
+      "quote_time": "2026-10-19T14:54:46-04:00"
+    },
+    {
+      "symbol": "NWSA",
+      "name": "NEWS CORP   CLASS A",
+      "weight_pct_asof10_16": 0.016629,
+      "intraday_ret_pct": -0.14985014985015033,
+      "proxy_contribution_pp": -2.4918581418581497e-05,
+      "quote_time": "2026-10-19T14:56:38-04:00"
+    },
+    {
+      "symbol": "MLM",
+      "name": "MARTIN MARIETTA MATERIALS",
+      "weight_pct_asof10_16": 0.045674,
+      "intraday_ret_pct": -0.059899369059968066,
+      "proxy_contribution_pp": -2.7358437824449816e-05,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "BRO",
+      "name": "BROWN + BROWN INC",
+      "weight_pct_asof10_16": 0.030236,
+      "intraday_ret_pct": -0.09365994236313346,
+      "proxy_contribution_pp": -2.8319020172917035e-05,
+      "quote_time": "2026-10-19T14:56:59-04:00"
+    },
+    {
+      "symbol": "KVUE",
+      "name": "KENVUE INC",
+      "weight_pct_asof10_16": 0.055126,
+      "intraday_ret_pct": -0.052882072977267214,
+      "proxy_contribution_pp": -2.9151771549448326e-05,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "RVTY",
+      "name": "REVVITY INC",
+      "weight_pct_asof10_16": 0.025855,
+      "intraday_ret_pct": -0.1179245283018715,
+      "proxy_contribution_pp": -3.0489386792448875e-05,
+      "quote_time": "2026-10-19T14:56:35-04:00"
+    },
+    {
+      "symbol": "VMC",
+      "name": "VULCAN MATERIALS CO",
+      "weight_pct_asof10_16": 0.050751,
+      "intraday_ret_pct": -0.06210456856731161,
+      "proxy_contribution_pp": -3.1518689593596316e-05,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "EXE",
+      "name": "EXPAND ENERGY CORP",
+      "weight_pct_asof10_16": 0.032541,
+      "intraday_ret_pct": -0.1070549191735326,
+      "proxy_contribution_pp": -3.483674124825924e-05,
+      "quote_time": "2026-10-19T14:56:52-04:00"
+    },
+    {
+      "symbol": "ERIE",
+      "name": "ERIE INDEMNITY COMPANY CL A",
+      "weight_pct_asof10_16": 0.009398,
+      "intraday_ret_pct": -0.4205818390710325,
+      "proxy_contribution_pp": -3.9526281235895636e-05,
+      "quote_time": "2026-10-19T14:50:08-04:00"
+    },
+    {
+      "symbol": "AOS",
+      "name": "SMITH (A.O.) CORP",
+      "weight_pct_asof10_16": 0.010059,
+      "intraday_ret_pct": -0.4052684903748771,
+      "proxy_contribution_pp": -4.076595744680889e-05,
+      "quote_time": "2026-10-19T14:56:52-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "name": "NIKE INC  CL B",
+      "weight_pct_asof10_16": 0.067628,
+      "intraday_ret_pct": -0.067330999192039,
+      "proxy_contribution_pp": -4.553460813359213e-05,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "DRI",
+      "name": "DARDEN RESTAURANTS INC",
+      "weight_pct_asof10_16": 0.0372,
+      "intraday_ret_pct": -0.1386642015252959,
+      "proxy_contribution_pp": -5.158308296741007e-05,
+      "quote_time": "2026-10-19T14:56:59-04:00"
+    },
+    {
+      "symbol": "FTV",
+      "name": "FORTIVE CORP",
+      "weight_pct_asof10_16": 0.026743,
+      "intraday_ret_pct": -0.22495241391244925,
+      "proxy_contribution_pp": -6.01590240526063e-05,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "TTWO",
+      "name": "TAKE TWO INTERACTIVE SOFTWRE",
+      "weight_pct_asof10_16": 0.054637,
+      "intraday_ret_pct": -0.11204208885424727,
+      "proxy_contribution_pp": -6.121643608729508e-05,
+      "quote_time": "2026-10-19T14:56:40-04:00"
+    },
+    {
+      "symbol": "HII",
+      "name": "HUNTINGTON INGALLS INDUSTRIE",
+      "weight_pct_asof10_16": 0.0162,
+      "intraday_ret_pct": -0.391544117647058,
+      "proxy_contribution_pp": -6.343014705882339e-05,
+      "quote_time": "2026-10-19T14:56:08-04:00"
+    },
+    {
+      "symbol": "ORLY",
+      "name": "O REILLY AUTOMOTIVE INC",
+      "weight_pct_asof10_16": 0.109347,
+      "intraday_ret_pct": -0.061610843508452806,
+      "proxy_contribution_pp": -6.736960905118789e-05,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "ALB",
+      "name": "ALBEMARLE CORP",
+      "weight_pct_asof10_16": 0.017073,
+      "intraday_ret_pct": -0.41893590280687176,
+      "proxy_contribution_pp": -7.152492668621722e-05,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "STZ",
+      "name": "CONSTELLATION BRANDS INC A",
+      "weight_pct_asof10_16": 0.029885,
+      "intraday_ret_pct": -0.23981728207079778,
+      "proxy_contribution_pp": -7.166939474685792e-05,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "IP",
+      "name": "INTERNATIONAL PAPER CO",
+      "weight_pct_asof10_16": 0.027315,
+      "intraday_ret_pct": -0.2936857562408024,
+      "proxy_contribution_pp": -8.022026431717518e-05,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "COHR",
+      "name": "COHERENT CORP",
+      "weight_pct_asof10_16": 0.069173,
+      "intraday_ret_pct": -0.12237011592958202,
+      "proxy_contribution_pp": -8.464708029196977e-05,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "CPT",
+      "name": "CAMDEN PROPERTY TRUST",
+      "weight_pct_asof10_16": 0.015044,
+      "intraday_ret_pct": -0.5781519423876724,
+      "proxy_contribution_pp": -8.697717821280144e-05,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "AKAM",
+      "name": "AKAMAI TECHNOLOGIES INC",
+      "weight_pct_asof10_16": 0.019374,
+      "intraday_ret_pct": -0.4726113198952331,
+      "proxy_contribution_pp": -9.156371711650246e-05,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "MGM",
+      "name": "MGM RESORTS INTERNATIONAL",
+      "weight_pct_asof10_16": 0.007627,
+      "intraday_ret_pct": -1.2062937062937151,
+      "proxy_contribution_pp": -9.200402097902166e-05,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "LII",
+      "name": "LENNOX INTERNATIONAL INC",
+      "weight_pct_asof10_16": 0.017185,
+      "intraday_ret_pct": -0.5451038492718108,
+      "proxy_contribution_pp": -9.367609649736068e-05,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "GEHC",
+      "name": "GE HEALTHCARE TECHNOLOGY",
+      "weight_pct_asof10_16": 0.047579,
+      "intraday_ret_pct": -0.20123616501364072,
+      "proxy_contribution_pp": -9.574615495184011e-05,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "ILMN",
+      "name": "ILLUMINA INC",
+      "weight_pct_asof10_16": 0.06002,
+      "intraday_ret_pct": -0.16378456616135129,
+      "proxy_contribution_pp": -9.830349661004304e-05,
+      "quote_time": "2026-10-19T14:56:34-04:00"
+    },
+    {
+      "symbol": "SOLV",
+      "name": "SOLVENTUM CORP",
+      "weight_pct_asof10_16": 0.018802,
+      "intraday_ret_pct": -0.5477217107563215,
+      "proxy_contribution_pp": -0.00010298263605640356,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "BEN",
+      "name": "FRANKLIN TEMPLETON INC",
+      "weight_pct_asof10_16": 0.013642,
+      "intraday_ret_pct": -0.7585539057456403,
+      "proxy_contribution_pp": -0.00010348192382182025,
+      "quote_time": "2026-10-19T14:56:44-04:00"
+    },
+    {
+      "symbol": "LULU",
+      "name": "LULULEMON ATHLETICA INC",
+      "weight_pct_asof10_16": 0.015434,
+      "intraday_ret_pct": -0.6797116374871237,
+      "proxy_contribution_pp": -0.00010490669412976268,
+      "quote_time": "2026-10-19T14:57:04-04:00"
+    },
+    {
+      "symbol": "GL",
+      "name": "GLOBE LIFE INC",
+      "weight_pct_asof10_16": 0.019883,
+      "intraday_ret_pct": -0.5303075191088524,
+      "proxy_contribution_pp": -0.00010544104402441314,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "MAA",
+      "name": "MID AMERICA APARTMENT COMM",
+      "weight_pct_asof10_16": 0.020603,
+      "intraday_ret_pct": -0.5230215210494715,
+      "proxy_contribution_pp": -0.00010775812398182262,
+      "quote_time": "2026-10-19T14:56:42-04:00"
+    },
+    {
+      "symbol": "UBER",
+      "name": "UBER TECHNOLOGIES INC",
+      "weight_pct_asof10_16": 0.217571,
+      "intraday_ret_pct": -0.04975124378109319,
+      "proxy_contribution_pp": -0.00010824427860696225,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "STE",
+      "name": "STERIS PLC",
+      "weight_pct_asof10_16": 0.033142,
+      "intraday_ret_pct": -0.33009970358393037,
+      "proxy_contribution_pp": -0.0001094016437617862,
+      "quote_time": "2026-10-19T14:56:17-04:00"
+    },
+    {
+      "symbol": "ALLE",
+      "name": "ALLEGION PLC",
+      "weight_pct_asof10_16": 0.020185,
+      "intraday_ret_pct": -0.5429922064647985,
+      "proxy_contribution_pp": -0.00010960297687491958,
+      "quote_time": "2026-10-19T14:56:56-04:00"
+    },
+    {
+      "symbol": "TEL",
+      "name": "TE CONNECTIVITY PLC",
+      "weight_pct_asof10_16": 0.093205,
+      "intraday_ret_pct": -0.12227238525206463,
+      "proxy_contribution_pp": -0.00011396397667418683,
+      "quote_time": "2026-10-19T14:56:41-04:00"
+    },
+    {
+      "symbol": "L",
+      "name": "LOEWS CORP",
+      "weight_pct_asof10_16": 0.027516,
+      "intraday_ret_pct": -0.4252623959464352,
+      "proxy_contribution_pp": -0.00011701520086862111,
+      "quote_time": "2026-10-19T14:56:51-04:00"
+    },
+    {
+      "symbol": "TROW",
+      "name": "T ROWE PRICE GROUP INC",
+      "weight_pct_asof10_16": 0.032839,
+      "intraday_ret_pct": -0.36644547885511525,
+      "proxy_contribution_pp": -0.0001203370308012313,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "DLTR",
+      "name": "DOLLAR TREE INC",
+      "weight_pct_asof10_16": 0.036133,
+      "intraday_ret_pct": -0.3341923014978265,
+      "proxy_contribution_pp": -0.00012075370430020965,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "TSCO",
+      "name": "TRACTOR SUPPLY COMPANY",
+      "weight_pct_asof10_16": 0.026397,
+      "intraday_ret_pct": -0.49155609167670367,
+      "proxy_contribution_pp": -0.00012975606151989947,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "XYL",
+      "name": "XYLEM INC",
+      "weight_pct_asof10_16": 0.036785,
+      "intraday_ret_pct": -0.3555982700624627,
+      "proxy_contribution_pp": -0.0001308068236424769,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "AIZ",
+      "name": "ASSURANT INC",
+      "weight_pct_asof10_16": 0.021325,
+      "intraday_ret_pct": -0.6141682256185832,
+      "proxy_contribution_pp": -0.00013097137411316286,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "DXCM",
+      "name": "DEXCOM INC",
+      "weight_pct_asof10_16": 0.048971,
+      "intraday_ret_pct": -0.273128777312881,
+      "proxy_contribution_pp": -0.00013375389353789094,
+      "quote_time": "2026-10-19T14:56:59-04:00"
+    },
+    {
+      "symbol": "HBAN",
+      "name": "HUNTINGTON BANCSHARES INC",
+      "weight_pct_asof10_16": 0.046992,
+      "intraday_ret_pct": -0.29469548133594925,
+      "proxy_contribution_pp": -0.00013848330058938927,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "ESS",
+      "name": "ESSEX PROPERTY TRUST INC",
+      "weight_pct_asof10_16": 0.026277,
+      "intraday_ret_pct": -0.5326058716549786,
+      "proxy_contribution_pp": -0.00013995284489477872,
+      "quote_time": "2026-10-19T14:56:01-04:00"
+    },
+    {
+      "symbol": "UAL",
+      "name": "UNITED AIRLINES HOLDINGS INC",
+      "weight_pct_asof10_16": 0.047359,
+      "intraday_ret_pct": -0.30176899063474316,
+      "proxy_contribution_pp": -0.00014291477627470801,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "SKYD",
+      "name": "SKYDANCE CORP",
+      "weight_pct_asof10_16": 0.005704,
+      "intraday_ret_pct": -2.532561505065123,
+      "proxy_contribution_pp": -0.0001444573082489146,
+      "quote_time": "2026-10-19T14:57:19-04:00"
+    },
+    {
+      "symbol": "BAX",
+      "name": "BAXTER INTERNATIONAL INC",
+      "weight_pct_asof10_16": 0.019914,
+      "intraday_ret_pct": -0.7318037974683667,
+      "proxy_contribution_pp": -0.00014573140822785055,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "HLT",
+      "name": "HILTON WORLDWIDE HOLDINGS IN",
+      "weight_pct_asof10_16": 0.117387,
+      "intraday_ret_pct": -0.12749188687992685,
+      "proxy_contribution_pp": -0.00014965890125173974,
+      "quote_time": "2026-10-19T14:56:41-04:00"
+    },
+    {
+      "symbol": "KEY",
+      "name": "KEYCORP",
+      "weight_pct_asof10_16": 0.027454,
+      "intraday_ret_pct": -0.5502751375687787,
+      "proxy_contribution_pp": -0.00015107253626813247,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "BF-B",
+      "name": "BROWN FORMAN CORP CLASS B",
+      "weight_pct_asof10_16": 0.007745,
+      "intraday_ret_pct": -1.9563711911357307,
+      "proxy_contribution_pp": -0.00015152094875346233,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "UDR",
+      "name": "UDR INC",
+      "weight_pct_asof10_16": 0.015308,
+      "intraday_ret_pct": -1.0070052539404517,
+      "proxy_contribution_pp": -0.00015415236427320436,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "CHRW",
+      "name": "C.H. ROBINSON WORLDWIDE INC",
+      "weight_pct_asof10_16": 0.02496,
+      "intraday_ret_pct": -0.6201161373575181,
+      "proxy_contribution_pp": -0.00015478098788443653,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "EMR",
+      "name": "EMERSON ELECTRIC CO",
+      "weight_pct_asof10_16": 0.136656,
+      "intraday_ret_pct": -0.11457236638384716,
+      "proxy_contribution_pp": -0.0001565700130055102,
+      "quote_time": "2026-10-19T14:56:40-04:00"
+    },
+    {
+      "symbol": "DPZ",
+      "name": "DOMINO S PIZZA INC",
+      "weight_pct_asof10_16": 0.015456,
+      "intraday_ret_pct": -1.0141264904095393,
+      "proxy_contribution_pp": -0.00015674339035769838,
+      "quote_time": "2026-10-19T14:56:49-04:00"
+    },
+    {
+      "symbol": "APTV",
+      "name": "APTIV PLC",
+      "weight_pct_asof10_16": 0.014421,
+      "intraday_ret_pct": -1.0922871154703584,
+      "proxy_contribution_pp": -0.0001575187249219804,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "EOG",
+      "name": "EOG RESOURCES INC",
+      "weight_pct_asof10_16": 0.125489,
+      "intraday_ret_pct": -0.1265742674514181,
+      "proxy_contribution_pp": -0.00015883678248211,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "FSLR",
+      "name": "FIRST SOLAR INC",
+      "weight_pct_asof10_16": 0.028141,
+      "intraday_ret_pct": -0.5792400370713602,
+      "proxy_contribution_pp": -0.00016300393883225147,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "ROK",
+      "name": "ROCKWELL AUTOMATION INC",
+      "weight_pct_asof10_16": 0.071988,
+      "intraday_ret_pct": -0.22992281162752537,
+      "proxy_contribution_pp": -0.00016551683363442296,
+      "quote_time": "2026-10-19T14:56:29-04:00"
+    },
+    {
+      "symbol": "VLTO",
+      "name": "VERALTO CORP",
+      "weight_pct_asof10_16": 0.037298,
+      "intraday_ret_pct": -0.46516231195566915,
+      "proxy_contribution_pp": -0.00017349623911322546,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "SNA",
+      "name": "SNAP ON INC",
+      "weight_pct_asof10_16": 0.028885,
+      "intraday_ret_pct": -0.6072157930565036,
+      "proxy_contribution_pp": -0.0001753942818243711,
+      "quote_time": "2026-10-19T14:56:25-04:00"
+    },
+    {
+      "symbol": "MKC",
+      "name": "MCCORMICK + CO NON VTG SHRS",
+      "weight_pct_asof10_16": 0.017929,
+      "intraday_ret_pct": -0.9924487594390574,
+      "proxy_contribution_pp": -0.00017793613807982862,
+      "quote_time": "2026-10-19T14:56:58-04:00"
+    },
+    {
+      "symbol": "BDX",
+      "name": "BECTON DICKINSON AND CO",
+      "weight_pct_asof10_16": 0.078879,
+      "intraday_ret_pct": -0.22685788787484285,
+      "proxy_contribution_pp": -0.0001789432333767973,
+      "quote_time": "2026-10-19T14:56:39-04:00"
+    },
+    {
+      "symbol": "WTW",
+      "name": "WILLIS TOWERS WATSON PLC",
+      "weight_pct_asof10_16": 0.044372,
+      "intraday_ret_pct": -0.412057434467028,
+      "proxy_contribution_pp": -0.0001828381248217097,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "DD",
+      "name": "DUPONT DE NEMOURS INC",
+      "weight_pct_asof10_16": 0.026857,
+      "intraday_ret_pct": -0.6822537370639981,
+      "proxy_contribution_pp": -0.00018323288616327795,
+      "quote_time": "2026-10-19T14:54:33-04:00"
+    },
+    {
+      "symbol": "NTRS",
+      "name": "NORTHERN TRUST CORP",
+      "weight_pct_asof10_16": 0.045861,
+      "intraday_ret_pct": -0.4017155974386788,
+      "proxy_contribution_pp": -0.00018423079014135248,
+      "quote_time": "2026-10-19T14:56:30-04:00"
+    },
+    {
+      "symbol": "RDDT",
+      "name": "REDDIT INC CL A",
+      "weight_pct_asof10_16": 0.034535,
+      "intraday_ret_pct": -0.5347764826437729,
+      "proxy_contribution_pp": -0.00018468505828102697,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "SWK",
+      "name": "STANLEY BLACK + DECKER INC",
+      "weight_pct_asof10_16": 0.020944,
+      "intraday_ret_pct": -0.9299307958477554,
+      "proxy_contribution_pp": -0.0001947647058823539,
+      "quote_time": "2026-10-19T14:56:58-04:00"
+    },
+    {
+      "symbol": "TKO",
+      "name": "TKO GROUP HOLDINGS INC",
+      "weight_pct_asof10_16": 0.015758,
+      "intraday_ret_pct": -1.2535612535612417,
+      "proxy_contribution_pp": -0.0001975361823361805,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "CHTR",
+      "name": "CHARTER COMMUNICATIONS INC A",
+      "weight_pct_asof10_16": 0.018642,
+      "intraday_ret_pct": -1.0671147034783335,
+      "proxy_contribution_pp": -0.00019893152302243093,
+      "quote_time": "2026-10-19T14:55:55-04:00"
+    },
+    {
+      "symbol": "FRT",
+      "name": "FEDERAL REALTY INVS TRUST",
+      "weight_pct_asof10_16": 0.012735,
+      "intraday_ret_pct": -1.5989465763732058,
+      "proxy_contribution_pp": -0.00020362584650112777,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "IEX",
+      "name": "IDEX CORP",
+      "weight_pct_asof10_16": 0.026473,
+      "intraday_ret_pct": -0.7896412651241858,
+      "proxy_contribution_pp": -0.0002090417321163257,
+      "quote_time": "2026-10-19T14:57:04-04:00"
+    },
+    {
+      "symbol": "VRT",
+      "name": "VERTIV HOLDINGS CO A",
+      "weight_pct_asof10_16": 0.120331,
+      "intraday_ret_pct": -0.17440170526110688,
+      "proxy_contribution_pp": -0.00020985931595774248,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "UHS",
+      "name": "UNIVERSAL HEALTH SERVICES B",
+      "weight_pct_asof10_16": 0.014489,
+      "intraday_ret_pct": -1.4586709886547755,
+      "proxy_contribution_pp": -0.0002113468395461904,
+      "quote_time": "2026-10-19T14:55:27-04:00"
+    },
+    {
+      "symbol": "ODFL",
+      "name": "OLD DOMINION FREIGHT LINE",
+      "weight_pct_asof10_16": 0.053047,
+      "intraday_ret_pct": -0.4021947581504315,
+      "proxy_contribution_pp": -0.00021335225335605937,
+      "quote_time": "2026-10-19T14:56:58-04:00"
+    },
+    {
+      "symbol": "ACGL",
+      "name": "ARCH CAPITAL GROUP LTD",
+      "weight_pct_asof10_16": 0.051904,
+      "intraday_ret_pct": -0.4147328922681992,
+      "proxy_contribution_pp": -0.0002152629604028861,
+      "quote_time": "2026-10-19T14:56:37-04:00"
+    },
+    {
+      "symbol": "EIX",
+      "name": "EDISON INTERNATIONAL",
+      "weight_pct_asof10_16": 0.032675,
+      "intraday_ret_pct": -0.6615412122295661,
+      "proxy_contribution_pp": -0.00021615859109601072,
+      "quote_time": "2026-10-19T14:57:19-04:00"
+    },
+    {
+      "symbol": "PNR",
+      "name": "PENTAIR PLC",
+      "weight_pct_asof10_16": 0.013106,
+      "intraday_ret_pct": -1.674775449101784,
+      "proxy_contribution_pp": -0.00021949607035927983,
+      "quote_time": "2026-10-19T14:57:20-04:00"
+    },
+    {
+      "symbol": "SW",
+      "name": "SMURFIT WESTROCK PLC",
+      "weight_pct_asof10_16": 0.032796,
+      "intraday_ret_pct": -0.6802721088435271,
+      "proxy_contribution_pp": -0.00022310204081632312,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "REG",
+      "name": "REGENCY CENTERS CORP",
+      "weight_pct_asof10_16": 0.018331,
+      "intraday_ret_pct": -1.2220098306936045,
+      "proxy_contribution_pp": -0.00022400662206444464,
+      "quote_time": "2026-10-19T14:56:46-04:00"
+    },
+    {
+      "symbol": "HIG",
+      "name": "HARTFORD INSURANCE GROUP INC",
+      "weight_pct_asof10_16": 0.055227,
+      "intraday_ret_pct": -0.4085257548845367,
+      "proxy_contribution_pp": -0.00022561651865008308,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "HON",
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "weight_pct_asof10_16": 0.1017,
+      "intraday_ret_pct": -0.22941204294971707,
+      "proxy_contribution_pp": -0.00023331204767986223,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "RL",
+      "name": "RALPH LAUREN CORP",
+      "weight_pct_asof10_16": 0.022013,
+      "intraday_ret_pct": -1.0622568093385243,
+      "proxy_contribution_pp": -0.00023383459143968936,
+      "quote_time": "2026-10-19T14:56:35-04:00"
+    },
+    {
+      "symbol": "CINF",
+      "name": "CINCINNATI FINANCIAL CORP",
+      "weight_pct_asof10_16": 0.0398,
+      "intraday_ret_pct": -0.6411678832116907,
+      "proxy_contribution_pp": -0.0002551848175182529,
+      "quote_time": "2026-10-19T14:55:38-04:00"
+    },
+    {
+      "symbol": "KIM",
+      "name": "KIMCO REALTY CORP",
+      "weight_pct_asof10_16": 0.023456,
+      "intraday_ret_pct": -1.1130510694020046,
+      "proxy_contribution_pp": -0.0002610772588389342,
+      "quote_time": "2026-10-19T14:56:19-04:00"
+    },
+    {
+      "symbol": "WY",
+      "name": "WEYERHAEUSER CO",
+      "weight_pct_asof10_16": 0.021309,
+      "intraday_ret_pct": -1.2493625701172961,
+      "proxy_contribution_pp": -0.00026622667006629465,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "VYLR",
+      "name": "VYLOR INC",
+      "weight_pct_asof10_16": 0.073393,
+      "intraday_ret_pct": -0.37406483790525247,
+      "proxy_contribution_pp": -0.00027453740648380196,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "STT",
+      "name": "STATE STREET CORP",
+      "weight_pct_asof10_16": 0.068758,
+      "intraday_ret_pct": -0.4042964035722796,
+      "proxy_contribution_pp": -0.000277986121168228,
+      "quote_time": "2026-10-19T14:56:50-04:00"
+    },
+    {
+      "symbol": "INVH",
+      "name": "INVITATION HOMES INC",
+      "weight_pct_asof10_16": 0.02203,
+      "intraday_ret_pct": -1.311414850387882,
+      "proxy_contribution_pp": -0.00028890469154045043,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "ROL",
+      "name": "ROLLINS INC",
+      "weight_pct_asof10_16": 0.014924,
+      "intraday_ret_pct": -1.9730941704035998,
+      "proxy_contribution_pp": -0.00029446457399103323,
+      "quote_time": "2026-10-19T14:57:19-04:00"
+    },
+    {
+      "symbol": "CMG",
+      "name": "CHIPOTLE MEXICAN GRILL INC",
+      "weight_pct_asof10_16": 0.057097,
+      "intraday_ret_pct": -0.5185680829708939,
+      "proxy_contribution_pp": -0.00029608681833389125,
+      "quote_time": "2026-10-19T14:57:01-04:00"
+    },
+    {
+      "symbol": "IDXX",
+      "name": "IDEXX LABORATORIES INC",
+      "weight_pct_asof10_16": 0.067136,
+      "intraday_ret_pct": -0.44168034834749514,
+      "proxy_contribution_pp": -0.00029652651866657434,
+      "quote_time": "2026-10-19T14:56:33-04:00"
+    },
+    {
+      "symbol": "BKR",
+      "name": "BAKER HUGHES CO",
+      "weight_pct_asof10_16": 0.083916,
+      "intraday_ret_pct": -0.35906642728905647,
+      "proxy_contribution_pp": -0.0003013141831238846,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "FANG",
+      "name": "DIAMONDBACK ENERGY INC",
+      "weight_pct_asof10_16": 0.063123,
+      "intraday_ret_pct": -0.48050992890413813,
+      "proxy_contribution_pp": -0.0003033122824221591,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "CSGP",
+      "name": "COSTAR GROUP INC",
+      "weight_pct_asof10_16": 0.020029,
+      "intraday_ret_pct": -1.532033426183843,
+      "proxy_contribution_pp": -0.000306850974930362,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "HSIC",
+      "name": "HENRY SCHEIN INC",
+      "weight_pct_asof10_16": 0.012691,
+      "intraday_ret_pct": -2.419541560546412,
+      "proxy_contribution_pp": -0.0003070640194489451,
+      "quote_time": "2026-10-19T14:56:40-04:00"
+    },
+    {
+      "symbol": "VRSK",
+      "name": "VERISK ANALYTICS INC",
+      "weight_pct_asof10_16": 0.037963,
+      "intraday_ret_pct": -0.8093242535358924,
+      "proxy_contribution_pp": -0.00030724376636983084,
+      "quote_time": "2026-10-19T14:56:27-04:00"
+    },
+    {
+      "symbol": "LEN",
+      "name": "LENNAR CORP A",
+      "weight_pct_asof10_16": 0.022417,
+      "intraday_ret_pct": -1.3816813700051833,
+      "proxy_contribution_pp": -0.00030973151271406195,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "DG",
+      "name": "DOLLAR GENERAL CORP",
+      "weight_pct_asof10_16": 0.044977,
+      "intraday_ret_pct": -0.692170288776428,
+      "proxy_contribution_pp": -0.00031131743078297404,
+      "quote_time": "2026-10-19T14:57:01-04:00"
+    },
+    {
+      "symbol": "NDAQ",
+      "name": "NASDAQ INC",
+      "weight_pct_asof10_16": 0.062828,
+      "intraday_ret_pct": -0.5108013195700756,
+      "proxy_contribution_pp": -0.000320926253059487,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "CLX",
+      "name": "CLOROX COMPANY",
+      "weight_pct_asof10_16": 0.016075,
+      "intraday_ret_pct": -1.997933172580102,
+      "proxy_contribution_pp": -0.00032116775749225135,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "COR",
+      "name": "CENCORA INC",
+      "weight_pct_asof10_16": 0.098495,
+      "intraday_ret_pct": -0.3270562008682365,
+      "proxy_contribution_pp": -0.00032213400504516954,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "MET",
+      "name": "METLIFE INC",
+      "weight_pct_asof10_16": 0.081241,
+      "intraday_ret_pct": -0.3969829297340244,
+      "proxy_contribution_pp": -0.0003225129019452187,
+      "quote_time": "2026-10-19T14:56:38-04:00"
+    },
+    {
+      "symbol": "BBY",
+      "name": "BEST BUY CO INC",
+      "weight_pct_asof10_16": 0.027667,
+      "intraday_ret_pct": -1.1767246032602707,
+      "proxy_contribution_pp": -0.0003255643959840191,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "ARE",
+      "name": "ALEXANDRIA REAL ESTATE EQUIT",
+      "weight_pct_asof10_16": 0.009876,
+      "intraday_ret_pct": -3.3157135992311293,
+      "proxy_contribution_pp": -0.0003274598750600663,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "RF",
+      "name": "REGIONS FINANCIAL CORP",
+      "weight_pct_asof10_16": 0.035565,
+      "intraday_ret_pct": -0.9289617486338719,
+      "proxy_contribution_pp": -0.00033038524590163655,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "NVR",
+      "name": "NVR INC",
+      "weight_pct_asof10_16": 0.022843,
+      "intraday_ret_pct": -1.4746225391988332,
+      "proxy_contribution_pp": -0.00033684802662918947,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "XYZ",
+      "name": "BLOCK INC",
+      "weight_pct_asof10_16": 0.063784,
+      "intraday_ret_pct": -0.5392219797149878,
+      "proxy_contribution_pp": -0.0003439373475414077,
+      "quote_time": "2026-10-19T14:56:14-04:00"
+    },
+    {
+      "symbol": "WSM",
+      "name": "WILLIAMS SONOMA INC",
+      "weight_pct_asof10_16": 0.044717,
+      "intraday_ret_pct": -0.7814998401023288,
+      "proxy_contribution_pp": -0.0003494632834985584,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "BXP",
+      "name": "BXP INC",
+      "weight_pct_asof10_16": 0.01431,
+      "intraday_ret_pct": -2.4662162162162216,
+      "proxy_contribution_pp": -0.00035291554054054134,
+      "quote_time": "2026-10-19T14:57:20-04:00"
+    },
+    {
+      "symbol": "LUV",
+      "name": "SOUTHWEST AIRLINES CO",
+      "weight_pct_asof10_16": 0.029305,
+      "intraday_ret_pct": -1.2151898734177102,
+      "proxy_contribution_pp": -0.00035611139240506,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "CVS",
+      "name": "CVS HEALTH CORP",
+      "weight_pct_asof10_16": 0.178857,
+      "intraday_ret_pct": -0.20030316154179273,
+      "proxy_contribution_pp": -0.00035825622563880424,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "PNW",
+      "name": "PINNACLE WEST CAPITAL",
+      "weight_pct_asof10_16": 0.01904,
+      "intraday_ret_pct": -1.904853993424871,
+      "proxy_contribution_pp": -0.0003626842003480955,
+      "quote_time": "2026-10-19T14:57:19-04:00"
+    },
+    {
+      "symbol": "KR",
+      "name": "KROGER CO",
+      "weight_pct_asof10_16": 0.05481,
+      "intraday_ret_pct": -0.6679239352506694,
+      "proxy_contribution_pp": -0.0003660891089108919,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "ALL",
+      "name": "ALLSTATE CORP",
+      "weight_pct_asof10_16": 0.094711,
+      "intraday_ret_pct": -0.3953525899628829,
+      "proxy_contribution_pp": -0.00037444239147974603,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "PNC",
+      "name": "PNC FINANCIAL SERVICES GROUP",
+      "weight_pct_asof10_16": 0.131323,
+      "intraday_ret_pct": -0.28520171121025895,
+      "proxy_contribution_pp": -0.00037453544321264834,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "OMC",
+      "name": "OMNICOM GROUP",
+      "weight_pct_asof10_16": 0.033467,
+      "intraday_ret_pct": -1.1233862959284968,
+      "proxy_contribution_pp": -0.00037596369165839,
+      "quote_time": "2026-10-19T14:56:43-04:00"
+    },
+    {
+      "symbol": "GEN",
+      "name": "GEN DIGITAL INC",
+      "weight_pct_asof10_16": 0.019707,
+      "intraday_ret_pct": -1.9660596026490174,
+      "proxy_contribution_pp": -0.00038745136589404187,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "EME",
+      "name": "EMCOR GROUP INC",
+      "weight_pct_asof10_16": 0.048194,
+      "intraday_ret_pct": -0.8161738214671699,
+      "proxy_contribution_pp": -0.00039334681151788787,
+      "quote_time": "2026-10-19T14:54:55-04:00"
+    },
+    {
+      "symbol": "EFX",
+      "name": "EQUIFAX INC",
+      "weight_pct_asof10_16": 0.028685,
+      "intraday_ret_pct": -1.3798449612403063,
+      "proxy_contribution_pp": -0.00039580852713178184,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "TSN",
+      "name": "TYSON FOODS INC CL A",
+      "weight_pct_asof10_16": 0.023517,
+      "intraday_ret_pct": -1.6939890710382488,
+      "proxy_contribution_pp": -0.000398375409836065,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "MOS",
+      "name": "MOSAIC CO/THE",
+      "weight_pct_asof10_16": 0.009148,
+      "intraday_ret_pct": -4.3570669500531345,
+      "proxy_contribution_pp": -0.0003985844845908607,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "VMRK",
+      "name": "VIVMARK RESIDENTIAL",
+      "weight_pct_asof10_16": 0.066561,
+      "intraday_ret_pct": -0.6039830231798882,
+      "proxy_contribution_pp": -0.0004020171400587653,
+      "quote_time": "2026-10-19T14:56:56-04:00"
+    },
+    {
+      "symbol": "GIS",
+      "name": "GENERAL MILLS INC",
+      "weight_pct_asof10_16": 0.026845,
+      "intraday_ret_pct": -1.5242982191367438,
+      "proxy_contribution_pp": -0.0004091978569272589,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "WRB",
+      "name": "WR BERKLEY CORP",
+      "weight_pct_asof10_16": 0.02586,
+      "intraday_ret_pct": -1.6043489790506626,
+      "proxy_contribution_pp": -0.0004148846459825014,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "WAT",
+      "name": "WATERS CORP",
+      "weight_pct_asof10_16": 0.06506,
+      "intraday_ret_pct": -0.6419498798489576,
+      "proxy_contribution_pp": -0.00041765259182973183,
+      "quote_time": "2026-10-19T14:56:41-04:00"
+    },
+    {
+      "symbol": "PFG",
+      "name": "PRINCIPAL FINANCIAL GROUP",
+      "weight_pct_asof10_16": 0.032103,
+      "intraday_ret_pct": -1.31421744324971,
+      "proxy_contribution_pp": -0.0004219032258064544,
+      "quote_time": "2026-10-19T14:56:21-04:00"
+    },
+    {
+      "symbol": "PYPL",
+      "name": "PAYPAL HOLDINGS INC",
+      "weight_pct_asof10_16": 0.073235,
+      "intraday_ret_pct": -0.5820105820105947,
+      "proxy_contribution_pp": -0.000426235449735459,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "CPRT",
+      "name": "COPART INC",
+      "weight_pct_asof10_16": 0.035371,
+      "intraday_ret_pct": -1.2199497667743087,
+      "proxy_contribution_pp": -0.00043150843200574074,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "SYY",
+      "name": "SYSCO CORP",
+      "weight_pct_asof10_16": 0.059695,
+      "intraday_ret_pct": -0.7419119435660426,
+      "proxy_contribution_pp": -0.00044288433471174915,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "YUM",
+      "name": "YUM  BRANDS INC",
+      "weight_pct_asof10_16": 0.062194,
+      "intraday_ret_pct": -0.7142382565942351,
+      "proxy_contribution_pp": -0.0004442133413062186,
+      "quote_time": "2026-10-19T14:56:58-04:00"
+    },
+    {
+      "symbol": "MTB",
+      "name": "M + T BANK CORP",
+      "weight_pct_asof10_16": 0.04689,
+      "intraday_ret_pct": -0.9499256781865473,
+      "proxy_contribution_pp": -0.000445420150501672,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "NI",
+      "name": "NISOURCE INC",
+      "weight_pct_asof10_16": 0.03098,
+      "intraday_ret_pct": -1.4526710402999021,
+      "proxy_contribution_pp": -0.00045003748828490966,
+      "quote_time": "2026-10-19T14:57:20-04:00"
+    },
+    {
+      "symbol": "MSI",
+      "name": "MOTOROLA SOLUTIONS INC",
+      "weight_pct_asof10_16": 0.115875,
+      "intraday_ret_pct": -0.39512037136996137,
+      "proxy_contribution_pp": -0.00045784573032494274,
+      "quote_time": "2026-10-19T14:56:25-04:00"
+    },
+    {
+      "symbol": "ITW",
+      "name": "ILLINOIS TOOL WORKS",
+      "weight_pct_asof10_16": 0.106851,
+      "intraday_ret_pct": -0.43705009548993257,
+      "proxy_contribution_pp": -0.0004669923975319479,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "AZO",
+      "name": "AUTOZONE INC",
+      "weight_pct_asof10_16": 0.077016,
+      "intraday_ret_pct": -0.6099808049119027,
+      "proxy_contribution_pp": -0.00046978281671095095,
+      "quote_time": "2026-10-19T14:55:02-04:00"
+    },
+    {
+      "symbol": "CF",
+      "name": "CF INDUSTRIES HOLDINGS INC",
+      "weight_pct_asof10_16": 0.027692,
+      "intraday_ret_pct": -1.7542407943731853,
+      "proxy_contribution_pp": -0.0004857843607778225,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "UPS",
+      "name": "UNITED PARCEL SERVICE CL B",
+      "weight_pct_asof10_16": 0.110513,
+      "intraday_ret_pct": -0.4411161263849106,
+      "proxy_contribution_pp": -0.0004874906647517563,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "RSG",
+      "name": "REPUBLIC SERVICES INC",
+      "weight_pct_asof10_16": 0.068497,
+      "intraday_ret_pct": -0.7190982119720135,
+      "proxy_contribution_pp": -0.0004925607022544701,
+      "quote_time": "2026-10-19T14:56:22-04:00"
+    },
+    {
+      "symbol": "GWW",
+      "name": "WW GRAINGER INC",
+      "weight_pct_asof10_16": 0.087303,
+      "intraday_ret_pct": -0.5681220410310273,
+      "proxy_contribution_pp": -0.0004959875854813178,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "CVNA",
+      "name": "CARVANA CO",
+      "weight_pct_asof10_16": 0.063988,
+      "intraday_ret_pct": -0.7819139894611582,
+      "proxy_contribution_pp": -0.000500331123576406,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "MDLZ",
+      "name": "MONDELEZ INTERNATIONAL INC A",
+      "weight_pct_asof10_16": 0.123308,
+      "intraday_ret_pct": -0.4068220935690814,
+      "proxy_contribution_pp": -0.0005016441871381629,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "EXR",
+      "name": "EXTRA SPACE STORAGE INC",
+      "weight_pct_asof10_16": 0.044777,
+      "intraday_ret_pct": -1.1460497099061828,
+      "proxy_contribution_pp": -0.0005131666786046914,
+      "quote_time": "2026-10-19T14:56:31-04:00"
+    },
+    {
+      "symbol": "HCA",
+      "name": "HCA HEALTHCARE INC",
+      "weight_pct_asof10_16": 0.102276,
+      "intraday_ret_pct": -0.5045331706041267,
+      "proxy_contribution_pp": -0.0005160163455670767,
+      "quote_time": "2026-10-19T14:56:56-04:00"
+    },
+    {
+      "symbol": "HAL",
+      "name": "HALLIBURTON CO",
+      "weight_pct_asof10_16": 0.042473,
+      "intraday_ret_pct": -1.2537313432835817,
+      "proxy_contribution_pp": -0.0005324973134328356,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "KHC",
+      "name": "KRAFT HEINZ CO/THE",
+      "weight_pct_asof10_16": 0.031037,
+      "intraday_ret_pct": -1.7314189189189144,
+      "proxy_contribution_pp": -0.0005373804898648635,
+      "quote_time": "2026-10-19T14:57:19-04:00"
+    },
+    {
+      "symbol": "AWK",
+      "name": "AMERICAN WATER WORKS CO INC",
+      "weight_pct_asof10_16": 0.040605,
+      "intraday_ret_pct": -1.3265154883651986,
+      "proxy_contribution_pp": -0.0005386316140506889,
+      "quote_time": "2026-10-19T14:56:51-04:00"
+    },
+    {
+      "symbol": "LNT",
+      "name": "ALLIANT ENERGY CORP",
+      "weight_pct_asof10_16": 0.026645,
+      "intraday_ret_pct": -2.0272248243559554,
+      "proxy_contribution_pp": -0.0005401540544496443,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "AFL",
+      "name": "AFLAC INC",
+      "weight_pct_asof10_16": 0.081053,
+      "intraday_ret_pct": -0.6751687921980554,
+      "proxy_contribution_pp": -0.0005472445611402897,
+      "quote_time": "2026-10-19T14:56:53-04:00"
+    },
+    {
+      "symbol": "J",
+      "name": "JACOBS SOLUTIONS INC",
+      "weight_pct_asof10_16": 0.025287,
+      "intraday_ret_pct": -2.176070314715073,
+      "proxy_contribution_pp": -0.0005502629004820004,
+      "quote_time": "2026-10-19T14:55:24-04:00"
+    },
+    {
+      "symbol": "EVRG",
+      "name": "EVERGY INC",
+      "weight_pct_asof10_16": 0.029159,
+      "intraday_ret_pct": -1.8967587034813937,
+      "proxy_contribution_pp": -0.0005530758703481396,
+      "quote_time": "2026-10-19T14:55:26-04:00"
+    },
+    {
+      "symbol": "FDX",
+      "name": "FEDEX CORP",
+      "weight_pct_asof10_16": 0.097836,
+      "intraday_ret_pct": -0.5688979730880672,
+      "proxy_contribution_pp": -0.0005565870209504415,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "AJG",
+      "name": "ARTHUR J GALLAGHER + CO",
+      "weight_pct_asof10_16": 0.098909,
+      "intraday_ret_pct": -0.5649717514124242,
+      "proxy_contribution_pp": -0.0005588079096045146,
+      "quote_time": "2026-10-19T14:57:00-04:00"
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S+P GLOBAL INC",
+      "weight_pct_asof10_16": 0.196475,
+      "intraday_ret_pct": -0.2909412531421629,
+      "proxy_contribution_pp": -0.0005716268271110645,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "CMS",
+      "name": "CMS ENERGY CORP",
+      "weight_pct_asof10_16": 0.032617,
+      "intraday_ret_pct": -1.7540029112081523,
+      "proxy_contribution_pp": -0.000572103129548763,
+      "quote_time": "2026-10-19T14:56:59-04:00"
+    },
+    {
+      "symbol": "IQV",
+      "name": "IQVIA HOLDINGS INC",
+      "weight_pct_asof10_16": 0.066324,
+      "intraday_ret_pct": -0.8729861371300052,
+      "proxy_contribution_pp": -0.0005789993255901045,
+      "quote_time": "2026-10-19T14:55:07-04:00"
+    },
+    {
+      "symbol": "BG",
+      "name": "BUNGE GLOBAL SA",
+      "weight_pct_asof10_16": 0.025317,
+      "intraday_ret_pct": -2.298850574712641,
+      "proxy_contribution_pp": -0.0005819999999999993,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "ATO",
+      "name": "ATMOS ENERGY CORP",
+      "weight_pct_asof10_16": 0.042822,
+      "intraday_ret_pct": -1.3624955181068543,
+      "proxy_contribution_pp": -0.0005834478307637171,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "PAYX",
+      "name": "PAYCHEX INC",
+      "weight_pct_asof10_16": 0.053922,
+      "intraday_ret_pct": -1.0839380094956552,
+      "proxy_contribution_pp": -0.0005844810534802472,
+      "quote_time": "2026-10-19T14:57:19-04:00"
+    },
+    {
+      "symbol": "IRM",
+      "name": "IRON MOUNTAIN INC",
+      "weight_pct_asof10_16": 0.050821,
+      "intraday_ret_pct": -1.159896898053514,
+      "proxy_contribution_pp": -0.0005894712025597763,
+      "quote_time": "2026-10-19T14:56:51-04:00"
+    },
+    {
+      "symbol": "TGT",
+      "name": "TARGET CORP",
+      "weight_pct_asof10_16": 0.106185,
+      "intraday_ret_pct": -0.5575003241280907,
+      "proxy_contribution_pp": -0.0005919817191754131,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "CFG",
+      "name": "CITIZENS FINANCIAL GROUP",
+      "weight_pct_asof10_16": 0.040674,
+      "intraday_ret_pct": -1.4678030303030276,
+      "proxy_contribution_pp": -0.0005970142045454535,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "GPC",
+      "name": "GENUINE PARTS CO",
+      "weight_pct_asof10_16": 0.027997,
+      "intraday_ret_pct": -2.1349656613914747,
+      "proxy_contribution_pp": -0.0005977263362197712,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "DAL",
+      "name": "DELTA AIR LINES INC",
+      "weight_pct_asof10_16": 0.067742,
+      "intraday_ret_pct": -0.8889478572376319,
+      "proxy_contribution_pp": -0.0006021910574499166,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "REGN",
+      "name": "REGENERON PHARMACEUTICALS",
+      "weight_pct_asof10_16": 0.117209,
+      "intraday_ret_pct": -0.5235602094240788,
+      "proxy_contribution_pp": -0.0006136596858638685,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "GD",
+      "name": "GENERAL DYNAMICS CORP",
+      "weight_pct_asof10_16": 0.132661,
+      "intraday_ret_pct": -0.4648055079452762,
+      "proxy_contribution_pp": -0.0006166156348952829,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "CRH",
+      "name": "CRH PLC",
+      "weight_pct_asof10_16": 0.084058,
+      "intraday_ret_pct": -0.7353820399378153,
+      "proxy_contribution_pp": -0.0006181474351309287,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "T",
+      "name": "AT+T INC",
+      "weight_pct_asof10_16": 0.243515,
+      "intraday_ret_pct": -0.25597269624574315,
+      "proxy_contribution_pp": -0.0006233319112628215,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "CL",
+      "name": "COLGATE PALMOLIVE CO",
+      "weight_pct_asof10_16": 0.113594,
+      "intraday_ret_pct": -0.5578578259483602,
+      "proxy_contribution_pp": -0.0006336930188077803,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "PHM",
+      "name": "PULTEGROUP INC",
+      "weight_pct_asof10_16": 0.032225,
+      "intraday_ret_pct": -1.9859092910612053,
+      "proxy_contribution_pp": -0.0006399592690444733,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "PSA",
+      "name": "PUBLIC STORAGE",
+      "weight_pct_asof10_16": 0.075964,
+      "intraday_ret_pct": -0.8514632429352131,
+      "proxy_contribution_pp": -0.0006468055378633053,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "TRGP",
+      "name": "TARGA RESOURCES CORP",
+      "weight_pct_asof10_16": 0.095746,
+      "intraday_ret_pct": -0.6781959986436048,
+      "proxy_contribution_pp": -0.0006493455408613058,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "DOC",
+      "name": "HEALTHPEAK PROPERTIES INC",
+      "weight_pct_asof10_16": 0.019838,
+      "intraday_ret_pct": -3.292939936775552,
+      "proxy_contribution_pp": -0.000653253424657534,
+      "quote_time": "2026-10-19T14:57:17-04:00"
+    },
+    {
+      "symbol": "TPL",
+      "name": "TEXAS PACIFIC LAND CORP",
+      "weight_pct_asof10_16": 0.031155,
+      "intraday_ret_pct": -2.1001937763592826,
+      "proxy_contribution_pp": -0.0006543153710247344,
+      "quote_time": "2026-10-19T14:56:47-04:00"
+    },
+    {
+      "symbol": "CNC",
+      "name": "CENTENE CORP",
+      "weight_pct_asof10_16": 0.051731,
+      "intraday_ret_pct": -1.286871023713132,
+      "proxy_contribution_pp": -0.0006657112492770403,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "FE",
+      "name": "FIRSTENERGY CORP",
+      "weight_pct_asof10_16": 0.03651,
+      "intraday_ret_pct": -1.861874864689328,
+      "proxy_contribution_pp": -0.0006797705130980737,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "VTRS",
+      "name": "VIATRIS INC",
+      "weight_pct_asof10_16": 0.032443,
+      "intraday_ret_pct": -2.1168274383708496,
+      "proxy_contribution_pp": -0.0006867623258306547,
+      "quote_time": "2026-10-19T14:56:49-04:00"
+    },
+    {
+      "symbol": "RTX",
+      "name": "RTX CORP",
+      "weight_pct_asof10_16": 0.395726,
+      "intraday_ret_pct": -0.1804867986798686,
+      "proxy_contribution_pp": -0.0007142331889438969,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FEDEX FREIGHT HOLDING CO",
+      "weight_pct_asof10_16": 0.020503,
+      "intraday_ret_pct": -3.489091069693484,
+      "proxy_contribution_pp": -0.000715368342019255,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "OKE",
+      "name": "ONEOK INC",
+      "weight_pct_asof10_16": 0.089256,
+      "intraday_ret_pct": -0.8037723716643463,
+      "proxy_contribution_pp": -0.000717415068052729,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "JBHT",
+      "name": "HUNT (JB) TRANSPRT SVCS INC",
+      "weight_pct_asof10_16": 0.025863,
+      "intraday_ret_pct": -2.8979805927091484,
+      "proxy_contribution_pp": -0.000749504720692367,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "NSC",
+      "name": "NORFOLK SOUTHERN CORP",
+      "weight_pct_asof10_16": 0.111224,
+      "intraday_ret_pct": -0.6851829193686543,
+      "proxy_contribution_pp": -0.000762087850238592,
+      "quote_time": "2026-10-19T14:56:52-04:00"
+    },
+    {
+      "symbol": "RJF",
+      "name": "RAYMOND JAMES FINANCIAL INC",
+      "weight_pct_asof10_16": 0.041294,
+      "intraday_ret_pct": -1.8752391886720177,
+      "proxy_contribution_pp": -0.000774361270570223,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "HSY",
+      "name": "HERSHEY CO/THE",
+      "weight_pct_asof10_16": 0.037656,
+      "intraday_ret_pct": -2.0605280103026424,
+      "proxy_contribution_pp": -0.000775912427559563,
+      "quote_time": "2026-10-19T14:56:37-04:00"
+    },
+    {
+      "symbol": "AEE",
+      "name": "AMEREN CORPORATION",
+      "weight_pct_asof10_16": 0.044561,
+      "intraday_ret_pct": -1.743966817496223,
+      "proxy_contribution_pp": -0.0007771290535444921,
+      "quote_time": "2026-10-19T14:56:55-04:00"
+    },
+    {
+      "symbol": "SBAC",
+      "name": "SBA COMMUNICATIONS CORP",
+      "weight_pct_asof10_16": 0.030114,
+      "intraday_ret_pct": -2.592750988987491,
+      "proxy_contribution_pp": -0.000780781032823693,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "AXON",
+      "name": "AXON ENTERPRISE INC",
+      "weight_pct_asof10_16": 0.048009,
+      "intraday_ret_pct": -1.6398062978810746,
+      "proxy_contribution_pp": -0.0007872546055497251,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "CTAS",
+      "name": "CINTAS CORP",
+      "weight_pct_asof10_16": 0.111352,
+      "intraday_ret_pct": -0.7159904534606243,
+      "proxy_contribution_pp": -0.0007972696897374744,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "VTR",
+      "name": "VENTAS INC",
+      "weight_pct_asof10_16": 0.066684,
+      "intraday_ret_pct": -1.2147682273468519,
+      "proxy_contribution_pp": -0.0008100560447239746,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "DTE",
+      "name": "DTE ENERGY COMPANY",
+      "weight_pct_asof10_16": 0.040979,
+      "intraday_ret_pct": -1.981037539505126,
+      "proxy_contribution_pp": -0.0008118093733138057,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "SLB",
+      "name": "SLB LTD",
+      "weight_pct_asof10_16": 0.111053,
+      "intraday_ret_pct": -0.7373737373737366,
+      "proxy_contribution_pp": -0.0008188756565656556,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "MSCI",
+      "name": "MSCI INC",
+      "weight_pct_asof10_16": 0.062892,
+      "intraday_ret_pct": -1.3064946931890198,
+      "proxy_contribution_pp": -0.0008216806424404384,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "O",
+      "name": "REALTY INCOME CORP",
+      "weight_pct_asof10_16": 0.080346,
+      "intraday_ret_pct": -1.0253209700427868,
+      "proxy_contribution_pp": -0.0008238043865905775,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "ADI",
+      "name": "ANALOG DEVICES INC",
+      "weight_pct_asof10_16": 0.291981,
+      "intraday_ret_pct": -0.28322880841594733,
+      "proxy_contribution_pp": -0.0008269743071009672,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "MCO",
+      "name": "MOODY S CORP",
+      "weight_pct_asof10_16": 0.109383,
+      "intraday_ret_pct": -0.7586533902323445,
+      "proxy_contribution_pp": -0.0008298378378378453,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "WEC",
+      "name": "WEC ENERGY GROUP INC",
+      "weight_pct_asof10_16": 0.053759,
+      "intraday_ret_pct": -1.5683929721276746,
+      "proxy_contribution_pp": -0.0008431523778861166,
+      "quote_time": "2026-10-19T14:57:18-04:00"
+    },
+    {
+      "symbol": "AON",
+      "name": "AON PLC CLASS A",
+      "weight_pct_asof10_16": 0.093782,
+      "intraday_ret_pct": -0.905828063578884,
+      "proxy_contribution_pp": -0.000849503674585549,
+      "quote_time": "2026-10-19T14:56:55-04:00"
+    },
+    {
+      "symbol": "IBKR",
+      "name": "INTERACTIVE BROKERS GRO CL A",
+      "weight_pct_asof10_16": 0.056728,
+      "intraday_ret_pct": -1.5116700931188776,
+      "proxy_contribution_pp": -0.0008575402104244768,
+      "quote_time": "2026-10-19T14:56:47-04:00"
+    },
+    {
+      "symbol": "URI",
+      "name": "UNITED RENTALS INC",
+      "weight_pct_asof10_16": 0.097037,
+      "intraday_ret_pct": -0.8886601142146899,
+      "proxy_contribution_pp": -0.0008623291150305086,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "PEG",
+      "name": "PUBLIC SERVICE ENTERPRISE GP",
+      "weight_pct_asof10_16": 0.054088,
+      "intraday_ret_pct": -1.5946286193873282,
+      "proxy_contribution_pp": -0.0008625027276542181,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "CNP",
+      "name": "CENTERPOINT ENERGY INC",
+      "weight_pct_asof10_16": 0.040269,
+      "intraday_ret_pct": -2.1454993834771785,
+      "proxy_contribution_pp": -0.000863971146732425,
+      "quote_time": "2026-10-19T14:56:50-04:00"
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T MOBILE US INC",
+      "weight_pct_asof10_16": 0.116281,
+      "intraday_ret_pct": -0.7605279698303047,
+      "proxy_contribution_pp": -0.0008843495285983765,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "VICI",
+      "name": "VICI PROPERTIES INC",
+      "weight_pct_asof10_16": 0.039345,
+      "intraday_ret_pct": -2.2669491525423746,
+      "proxy_contribution_pp": -0.0008919311440677973,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "LHX",
+      "name": "L3HARRIS TECHNOLOGIES INC",
+      "weight_pct_asof10_16": 0.070297,
+      "intraday_ret_pct": -1.275602591445002,
+      "proxy_contribution_pp": -0.000896710353708093,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "CAH",
+      "name": "CARDINAL HEALTH INC",
+      "weight_pct_asof10_16": 0.08924,
+      "intraday_ret_pct": -1.0076359914980682,
+      "proxy_contribution_pp": -0.0008992143588128761,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "MA",
+      "name": "MASTERCARD INC   A",
+      "weight_pct_asof10_16": 0.75654,
+      "intraday_ret_pct": -0.1190437627546892,
+      "proxy_contribution_pp": -0.0009006136827443257,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "A",
+      "name": "AGILENT TECHNOLOGIES INC",
+      "weight_pct_asof10_16": 0.074212,
+      "intraday_ret_pct": -1.2487714632595237,
+      "proxy_contribution_pp": -0.0009267382783141577,
+      "quote_time": "2026-10-19T14:56:58-04:00"
+    },
+    {
+      "symbol": "HWM",
+      "name": "HOWMET AEROSPACE INC",
+      "weight_pct_asof10_16": 0.133233,
+      "intraday_ret_pct": -0.696958725561192,
+      "proxy_contribution_pp": -0.0009285790188269428,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "DELL",
+      "name": "DELL TECHNOLOGIES  C",
+      "weight_pct_asof10_16": 0.206761,
+      "intraday_ret_pct": -0.45383099776403757,
+      "proxy_contribution_pp": -0.0009383455092869016,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "PPL",
+      "name": "PPL CORP",
+      "weight_pct_asof10_16": 0.040174,
+      "intraday_ret_pct": -2.359965880011372,
+      "proxy_contribution_pp": -0.0009480926926357687,
+      "quote_time": "2026-10-19T14:56:45-04:00"
+    },
+    {
+      "symbol": "CBRE",
+      "name": "CBRE GROUP INC   A",
+      "weight_pct_asof10_16": 0.057243,
+      "intraday_ret_pct": -1.6606552449654366,
+      "proxy_contribution_pp": -0.0009506088818755649,
+      "quote_time": "2026-10-19T14:56:26-04:00"
+    },
+    {
+      "symbol": "ADP",
+      "name": "AUTOMATIC DATA PROCESSING",
+      "weight_pct_asof10_16": 0.173785,
+      "intraday_ret_pct": -0.5503634475596986,
+      "proxy_contribution_pp": -0.0009564491173416222,
+      "quote_time": "2026-10-19T14:56:45-04:00"
+    },
+    {
+      "symbol": "WELL",
+      "name": "WELLTOWER INC",
+      "weight_pct_asof10_16": 0.256299,
+      "intraday_ret_pct": -0.37470725995315535,
+      "proxy_contribution_pp": -0.0009603709601873376,
+      "quote_time": "2026-10-19T14:57:01-04:00"
+    },
+    {
+      "symbol": "NOC",
+      "name": "NORTHROP GRUMMAN CORP",
+      "weight_pct_asof10_16": 0.105364,
+      "intraday_ret_pct": -0.9204401184934374,
+      "proxy_contribution_pp": -0.0009698125264494255,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "SHW",
+      "name": "SHERWIN WILLIAMS CO/THE",
+      "weight_pct_asof10_16": 0.115618,
+      "intraday_ret_pct": -0.8397971360381895,
+      "proxy_contribution_pp": -0.000970956652744634,
+      "quote_time": "2026-10-19T14:56:47-04:00"
+    },
+    {
+      "symbol": "LOW",
+      "name": "LOWE S COS INC",
+      "weight_pct_asof10_16": 0.167507,
+      "intraday_ret_pct": -0.585165670280674,
+      "proxy_contribution_pp": -0.0009801934593170487,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "ETR",
+      "name": "ENTERGY CORP",
+      "weight_pct_asof10_16": 0.074267,
+      "intraday_ret_pct": -1.3224241271049375,
+      "proxy_contribution_pp": -0.000982124726477024,
+      "quote_time": "2026-10-19T14:56:57-04:00"
+    },
+    {
+      "symbol": "PFE",
+      "name": "PFIZER INC",
+      "weight_pct_asof10_16": 0.255505,
+      "intraday_ret_pct": -0.3887762001352213,
+      "proxy_contribution_pp": -0.0009933426301554972,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "TPR",
+      "name": "TAPESTRY INC",
+      "weight_pct_asof10_16": 0.036081,
+      "intraday_ret_pct": -2.874854385089043,
+      "proxy_contribution_pp": -0.0010372762106839776,
+      "quote_time": "2026-10-19T14:56:10-04:00"
+    },
+    {
+      "symbol": "TRV",
+      "name": "TRAVELERS COS INC/THE",
+      "weight_pct_asof10_16": 0.122838,
+      "intraday_ret_pct": -0.8548544437028349,
+      "proxy_contribution_pp": -0.0010500861015556883,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "TFC",
+      "name": "TRUIST FINANCIAL CORP",
+      "weight_pct_asof10_16": 0.086877,
+      "intraday_ret_pct": -1.210962396430848,
+      "proxy_contribution_pp": -0.001052047801147228,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "CCI",
+      "name": "CROWN CASTLE INC",
+      "weight_pct_asof10_16": 0.052992,
+      "intraday_ret_pct": -2.0058351568198463,
+      "proxy_contribution_pp": -0.001062932166301973,
+      "quote_time": "2026-10-19T14:56:54-04:00"
+    },
+    {
+      "symbol": "CBOE",
+      "name": "CBOE GLOBAL MARKETS INC",
+      "weight_pct_asof10_16": 0.050125,
+      "intraday_ret_pct": -2.1350561940440715,
+      "proxy_contribution_pp": -0.001070196917264591,
+      "quote_time": "2026-10-19T14:56:53-04:00"
+    },
+    {
+      "symbol": "ECL",
+      "name": "ECOLAB INC",
+      "weight_pct_asof10_16": 0.110158,
+      "intraday_ret_pct": -0.9778808543044026,
+      "proxy_contribution_pp": -0.001077213991484644,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "XEL",
+      "name": "XCEL ENERGY INC",
+      "weight_pct_asof10_16": 0.072334,
+      "intraday_ret_pct": -1.5070108766872092,
+      "proxy_contribution_pp": -0.001090081247542926,
+      "quote_time": "2026-10-19T14:56:55-04:00"
+    },
+    {
+      "symbol": "DLR",
+      "name": "DIGITAL REALTY TRUST INC",
+      "weight_pct_asof10_16": 0.09366,
+      "intraday_ret_pct": -1.218957776893792,
+      "proxy_contribution_pp": -0.0011416758538387254,
+      "quote_time": "2026-10-19T14:56:04-04:00"
+    },
+    {
+      "symbol": "CMI",
+      "name": "CUMMINS INC",
+      "weight_pct_asof10_16": 0.110575,
+      "intraday_ret_pct": -1.0464306551484115,
+      "proxy_contribution_pp": -0.001157090696930356,
+      "quote_time": "2026-10-19T14:56:58-04:00"
+    },
+    {
+      "symbol": "PRU",
+      "name": "PRUDENTIAL FINANCIAL INC",
+      "weight_pct_asof10_16": 0.060357,
+      "intraday_ret_pct": -1.9325338624795019,
+      "proxy_contribution_pp": -0.001166419463376753,
+      "quote_time": "2026-10-19T14:56:39-04:00"
+    },
+    {
+      "symbol": "UNP",
+      "name": "UNION PACIFIC CORP",
+      "weight_pct_asof10_16": 0.2602,
+      "intraday_ret_pct": -0.4497647384445136,
+      "proxy_contribution_pp": -0.0011702878494326242,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "ADM",
+      "name": "ARCHER DANIELS MIDLAND CO",
+      "weight_pct_asof10_16": 0.060448,
+      "intraday_ret_pct": -2.033652100229988,
+      "proxy_contribution_pp": -0.001229302021547023,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "FERG",
+      "name": "FERGUSON ENTERPRISES INC",
+      "weight_pct_asof10_16": 0.067841,
+      "intraday_ret_pct": -1.8241872112603197,
+      "proxy_contribution_pp": -0.0012375468459911135,
+      "quote_time": "2026-10-19T14:56:14-04:00"
+    },
+    {
+      "symbol": "MMM",
+      "name": "3M CO",
+      "weight_pct_asof10_16": 0.128455,
+      "intraday_ret_pct": -0.9924127465857357,
+      "proxy_contribution_pp": -0.001274803793626707,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "CB",
+      "name": "CHUBB LTD",
+      "weight_pct_asof10_16": 0.191578,
+      "intraday_ret_pct": -0.6920703743850565,
+      "proxy_contribution_pp": -0.0013258545818394035,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "COIN",
+      "name": "COINBASE GLOBAL INC  CLASS A",
+      "weight_pct_asof10_16": 0.058482,
+      "intraday_ret_pct": -2.269577269577272,
+      "proxy_contribution_pp": -0.0013272941787941803,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "KO",
+      "name": "COCA COLA CO/THE",
+      "weight_pct_asof10_16": 0.551047,
+      "intraday_ret_pct": -0.2449414270500605,
+      "proxy_contribution_pp": -0.001349742385516547,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "GE",
+      "name": "GENERAL ELECTRIC",
+      "weight_pct_asof10_16": 0.493479,
+      "intraday_ret_pct": -0.2740337125195058,
+      "proxy_contribution_pp": -0.001352298824204132,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "MO",
+      "name": "ALTRIA GROUP INC",
+      "weight_pct_asof10_16": 0.190023,
+      "intraday_ret_pct": -0.7122886433231224,
+      "proxy_contribution_pp": -0.0013535122487018968,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG ENERGY INC",
+      "weight_pct_asof10_16": 0.033228,
+      "intraday_ret_pct": -4.139759036144575,
+      "proxy_contribution_pp": -0.0013755591325301194,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "COF",
+      "name": "CAPITAL ONE FINANCIAL CORP",
+      "weight_pct_asof10_16": 0.187709,
+      "intraday_ret_pct": -0.7584019034400757,
+      "proxy_contribution_pp": -0.0014235886289283317,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "DHI",
+      "name": "DR HORTON INC",
+      "weight_pct_asof10_16": 0.053527,
+      "intraday_ret_pct": -2.6759451897553577,
+      "proxy_contribution_pp": -0.0014323531817203503,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "CI",
+      "name": "THE CIGNA GROUP",
+      "weight_pct_asof10_16": 0.120955,
+      "intraday_ret_pct": -1.1958319550115837,
+      "proxy_contribution_pp": -0.001446418541184261,
+      "quote_time": "2026-10-19T14:57:04-04:00"
+    },
+    {
+      "symbol": "VST",
+      "name": "VISTRA CORP",
+      "weight_pct_asof10_16": 0.072615,
+      "intraday_ret_pct": -2.019471122220773,
+      "proxy_contribution_pp": -0.0014664389554006141,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "ES",
+      "name": "EVERSOURCE ENERGY",
+      "weight_pct_asof10_16": 0.038119,
+      "intraday_ret_pct": -3.8818249813014183,
+      "proxy_contribution_pp": -0.0014797128646222876,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "SPG",
+      "name": "SIMON PROPERTY GROUP INC",
+      "weight_pct_asof10_16": 0.100643,
+      "intraday_ret_pct": -1.484618380062308,
+      "proxy_contribution_pp": -0.0014941644762461086,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "PCAR",
+      "name": "PACCAR INC",
+      "weight_pct_asof10_16": 0.088547,
+      "intraday_ret_pct": -1.6964446850748938,
+      "proxy_contribution_pp": -0.001502150875293266,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "ED",
+      "name": "CONSOLIDATED EDISON INC",
+      "weight_pct_asof10_16": 0.062833,
+      "intraday_ret_pct": -2.43185462319615,
+      "proxy_contribution_pp": -0.001528007215392837,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "SRE",
+      "name": "SEMPRA",
+      "weight_pct_asof10_16": 0.082789,
+      "intraday_ret_pct": -1.894257283299361,
+      "proxy_contribution_pp": -0.001568236662270708,
+      "quote_time": "2026-10-19T14:56:59-04:00"
+    },
+    {
+      "symbol": "BKNG",
+      "name": "BOOKING HOLDINGS INC",
+      "weight_pct_asof10_16": 0.185769,
+      "intraday_ret_pct": -0.8748852860201772,
+      "proxy_contribution_pp": -0.001625265646986823,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "FLEX",
+      "name": "FLEX LTD",
+      "weight_pct_asof10_16": 0.050506,
+      "intraday_ret_pct": -3.27216449259341,
+      "proxy_contribution_pp": -0.001652639398629228,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "EXC",
+      "name": "EXELON CORP",
+      "weight_pct_asof10_16": 0.06799,
+      "intraday_ret_pct": -2.4482758620689604,
+      "proxy_contribution_pp": -0.001664582758620686,
+      "quote_time": "2026-10-19T14:57:16-04:00"
+    },
+    {
+      "symbol": "CSCO",
+      "name": "CISCO SYSTEMS INC",
+      "weight_pct_asof10_16": 0.641401,
+      "intraday_ret_pct": -0.26073191172362176,
+      "proxy_contribution_pp": -0.001672337089114427,
+      "quote_time": "2026-10-19T14:57:02-04:00"
+    },
+    {
+      "symbol": "USB",
+      "name": "US BANCORP",
+      "weight_pct_asof10_16": 0.13855,
+      "intraday_ret_pct": -1.2344627958453813,
+      "proxy_contribution_pp": -0.0017103482036437759,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "WMB",
+      "name": "WILLIAMS COS INC",
+      "weight_pct_asof10_16": 0.132134,
+      "intraday_ret_pct": -1.2976992143658772,
+      "proxy_contribution_pp": -0.0017147018799102082,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "D",
+      "name": "DOMINION ENERGY INC",
+      "weight_pct_asof10_16": 0.084874,
+      "intraday_ret_pct": -2.045311516677162,
+      "proxy_contribution_pp": -0.0017359376966645744,
+      "quote_time": "2026-10-19T14:57:04-04:00"
+    },
+    {
+      "symbol": "COP",
+      "name": "CONOCOPHILLIPS",
+      "weight_pct_asof10_16": 0.266498,
+      "intraday_ret_pct": -0.6552453757422527,
+      "proxy_contribution_pp": -0.0017462158214455886,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "ABT",
+      "name": "ABBOTT LABORATORIES",
+      "weight_pct_asof10_16": 0.274814,
+      "intraday_ret_pct": -0.6359042806749926,
+      "proxy_contribution_pp": -0.0017475539898941742,
+      "quote_time": "2026-10-19T14:56:48-04:00"
+    },
+    {
+      "symbol": "F",
+      "name": "FORD MOTOR CO",
+      "weight_pct_asof10_16": 0.073866,
+      "intraday_ret_pct": -2.373290426387775,
+      "proxy_contribution_pp": -0.001753054706355594,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "HONA",
+      "name": "HONEYWELL AEROSPACE INC",
+      "weight_pct_asof10_16": 0.080861,
+      "intraday_ret_pct": -2.1708608483550496,
+      "proxy_contribution_pp": -0.0017553797905883767,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "GM",
+      "name": "GENERAL MOTORS CO",
+      "weight_pct_asof10_16": 0.111359,
+      "intraday_ret_pct": -1.584087660790856,
+      "proxy_contribution_pp": -0.0017640241781800895,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "BMY",
+      "name": "BRISTOL MYERS SQUIBB CO",
+      "weight_pct_asof10_16": 0.184894,
+      "intraday_ret_pct": -0.9623430962343194,
+      "proxy_contribution_pp": -0.0017793146443514823,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "CSX",
+      "name": "CSX CORP",
+      "weight_pct_asof10_16": 0.136346,
+      "intraday_ret_pct": -1.3249794576828289,
+      "proxy_contribution_pp": -0.0018065564913722298,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "XOM",
+      "name": "EXXONMOBIL HOLDINGS CORP",
+      "weight_pct_asof10_16": 1.115105,
+      "intraday_ret_pct": -0.16202927701418623,
+      "proxy_contribution_pp": -0.0018067965694490416,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "AEP",
+      "name": "AMERICAN ELECTRIC POWER",
+      "weight_pct_asof10_16": 0.105033,
+      "intraday_ret_pct": -1.7225106182161332,
+      "proxy_contribution_pp": -0.0018092045776309511,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "EQIX",
+      "name": "EQUINIX INC",
+      "weight_pct_asof10_16": 0.147502,
+      "intraday_ret_pct": -1.2520537941946075,
+      "proxy_contribution_pp": -0.0018468043875129298,
+      "quote_time": "2026-10-19T14:56:12-04:00"
+    },
+    {
+      "symbol": "DIS",
+      "name": "WALT DISNEY CO/THE",
+      "weight_pct_asof10_16": 0.289493,
+      "intraday_ret_pct": -0.6465322361877246,
+      "proxy_contribution_pp": -0.0018716655665069295,
+      "quote_time": "2026-10-19T14:56:59-04:00"
+    },
+    {
+      "symbol": "HOOD",
+      "name": "ROBINHOOD MARKETS INC   A",
+      "weight_pct_asof10_16": 0.118485,
+      "intraday_ret_pct": -1.6152523515727824,
+      "proxy_contribution_pp": -0.001913831748761011,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "PSX",
+      "name": "PHILLIPS 66",
+      "weight_pct_asof10_16": 0.176927,
+      "intraday_ret_pct": -1.1972575638707905,
+      "proxy_contribution_pp": -0.0021182718900296734,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "ICE",
+      "name": "INTERCONTINENTAL EXCHANGE IN",
+      "weight_pct_asof10_16": 0.137327,
+      "intraday_ret_pct": -1.5536023768259466,
+      "proxy_contribution_pp": -0.002133515536023768,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "DUK",
+      "name": "DUKE ENERGY CORP",
+      "weight_pct_asof10_16": 0.143444,
+      "intraday_ret_pct": -1.5312422820449534,
+      "proxy_contribution_pp": -0.002196475179056563,
+      "quote_time": "2026-10-19T14:56:27-04:00"
+    },
+    {
+      "symbol": "PLD",
+      "name": "PROLOGIS INC",
+      "weight_pct_asof10_16": 0.180945,
+      "intraday_ret_pct": -1.2524850894632178,
+      "proxy_contribution_pp": -0.0022663091451292196,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "BLK",
+      "name": "BLACKROCK INC",
+      "weight_pct_asof10_16": 0.247355,
+      "intraday_ret_pct": -0.929582679525387,
+      "proxy_contribution_pp": -0.002299369236940021,
+      "quote_time": "2026-10-19T14:57:03-04:00"
+    },
+    {
+      "symbol": "KMI",
+      "name": "KINDER MORGAN INC",
+      "weight_pct_asof10_16": 0.101665,
+      "intraday_ret_pct": -2.295321637426906,
+      "proxy_contribution_pp": -0.002333538742690064,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "VZ",
+      "name": "VERIZON COMMUNICATIONS INC",
+      "weight_pct_asof10_16": 0.282106,
+      "intraday_ret_pct": -0.8818932797499346,
+      "proxy_contribution_pp": -0.0024878738557713507,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "AMP",
+      "name": "AMERIPRISE FINANCIAL INC",
+      "weight_pct_asof10_16": 0.066801,
+      "intraday_ret_pct": -3.76198083067093,
+      "proxy_contribution_pp": -0.0025130408146964876,
+      "quote_time": "2026-10-19T14:57:15-04:00"
+    },
+    {
+      "symbol": "AMT",
+      "name": "AMERICAN TOWER CORP",
+      "weight_pct_asof10_16": 0.131045,
+      "intraday_ret_pct": -1.9215199438657127,
+      "proxy_contribution_pp": -0.0025180558104388228,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "MPC",
+      "name": "MARATHON PETROLEUM CORP",
+      "weight_pct_asof10_16": 0.203606,
+      "intraday_ret_pct": -1.273872027108991,
+      "proxy_contribution_pp": -0.0025936798795155327,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "SO",
+      "name": "SOUTHERN CO/THE",
+      "weight_pct_asof10_16": 0.158817,
+      "intraday_ret_pct": -1.688966878701481,
+      "proxy_contribution_pp": -0.0026823665277473313,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "MS",
+      "name": "MORGAN STANLEY",
+      "weight_pct_asof10_16": 0.326699,
+      "intraday_ret_pct": -0.9414631444868982,
+      "proxy_contribution_pp": -0.0030757506784072513,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "MDT",
+      "name": "MEDTRONIC PLC",
+      "weight_pct_asof10_16": 0.176016,
+      "intraday_ret_pct": -1.8364116094986782,
+      "proxy_contribution_pp": -0.0032323782585751935,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "CAT",
+      "name": "CATERPILLAR INC",
+      "weight_pct_asof10_16": 0.509045,
+      "intraday_ret_pct": -0.6673873775247641,
+      "proxy_contribution_pp": -0.003397302075920935,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "GS",
+      "name": "GOLDMAN SACHS GROUP INC",
+      "weight_pct_asof10_16": 0.388495,
+      "intraday_ret_pct": -0.8987132060912728,
+      "proxy_contribution_pp": -0.00349145587000429,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "DHR",
+      "name": "DANAHER CORP",
+      "weight_pct_asof10_16": 0.216981,
+      "intraday_ret_pct": -1.6547327977645798,
+      "proxy_contribution_pp": -0.0035904557719175626,
+      "quote_time": "2026-10-19T14:57:11-04:00"
+    },
+    {
+      "symbol": "GILD",
+      "name": "GILEAD SCIENCES INC",
+      "weight_pct_asof10_16": 0.293603,
+      "intraday_ret_pct": -1.2484794160957713,
+      "proxy_contribution_pp": -0.0036655730200396675,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "PWR",
+      "name": "QUANTA SERVICES INC",
+      "weight_pct_asof10_16": 0.144104,
+      "intraday_ret_pct": -2.5986769221029937,
+      "proxy_contribution_pp": -0.0037447973918272983,
+      "quote_time": "2026-10-19T14:55:54-04:00"
+    },
+    {
+      "symbol": "ABBV",
+      "name": "ABBVIE INC",
+      "weight_pct_asof10_16": 0.764288,
+      "intraday_ret_pct": -0.518534090112821,
+      "proxy_contribution_pp": -0.0039630938266414775,
+      "quote_time": "2026-10-19T14:57:05-04:00"
+    },
+    {
+      "symbol": "CEG",
+      "name": "CONSTELLATION ENERGY",
+      "weight_pct_asof10_16": 0.135389,
+      "intraday_ret_pct": -3.100932306445081,
+      "proxy_contribution_pp": -0.004198321240372931,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "AMGN",
+      "name": "AMGEN INC",
+      "weight_pct_asof10_16": 0.354086,
+      "intraday_ret_pct": -1.2046521306851132,
+      "proxy_contribution_pp": -0.00426550454345769,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "PG",
+      "name": "PROCTER + GAMBLE CO/THE",
+      "weight_pct_asof10_16": 0.561335,
+      "intraday_ret_pct": -0.7624725447128999,
+      "proxy_contribution_pp": -0.0042800252588641565,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "JOHNSON + JOHNSON",
+      "weight_pct_asof10_16": 0.933186,
+      "intraday_ret_pct": -0.49694787916731986,
+      "proxy_contribution_pp": -0.004637448035686345,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "NEE",
+      "name": "NEXTERA ENERGY INC",
+      "weight_pct_asof10_16": 0.25233,
+      "intraday_ret_pct": -1.9862155388471137,
+      "proxy_contribution_pp": -0.005011817669172922,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "VLO",
+      "name": "VALERO ENERGY CORP",
+      "weight_pct_asof10_16": 0.193865,
+      "intraday_ret_pct": -2.594949517663192,
+      "proxy_contribution_pp": -0.0050306988824177475,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "DE",
+      "name": "DEERE + CO",
+      "weight_pct_asof10_16": 0.244282,
+      "intraday_ret_pct": -2.075997881157887,
+      "proxy_contribution_pp": -0.005071289144050109,
+      "quote_time": "2026-10-19T14:57:08-04:00"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "NETFLIX INC",
+      "weight_pct_asof10_16": 0.445108,
+      "intraday_ret_pct": -1.1555366510704657,
+      "proxy_contribution_pp": -0.005143386076846728,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "TMO",
+      "name": "THERMO FISHER SCIENTIFIC INC",
+      "weight_pct_asof10_16": 0.386702,
+      "intraday_ret_pct": -1.3521739130434862,
+      "proxy_contribution_pp": -0.005228883565217422,
+      "quote_time": "2026-10-19T14:56:47-04:00"
+    },
+    {
+      "symbol": "SCHW",
+      "name": "SCHWAB (CHARLES) CORP",
+      "weight_pct_asof10_16": 0.226667,
+      "intraday_ret_pct": -2.4304045237059535,
+      "proxy_contribution_pp": -0.005508925021748574,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "C",
+      "name": "CITIGROUP INC",
+      "weight_pct_asof10_16": 0.315954,
+      "intraday_ret_pct": -1.7704812489940491,
+      "proxy_contribution_pp": -0.005593906325446658,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "PM",
+      "name": "PHILIP MORRIS INTERNATIONAL",
+      "weight_pct_asof10_16": 0.484721,
+      "intraday_ret_pct": -1.242690058479523,
+      "proxy_contribution_pp": -0.00602357967836253,
+      "quote_time": "2026-10-19T14:57:07-04:00"
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE VERNOVA INC",
+      "weight_pct_asof10_16": 0.37186,
+      "intraday_ret_pct": -1.7965696917064733,
+      "proxy_contribution_pp": -0.006680724055579692,
+      "quote_time": "2026-10-19T14:57:09-04:00"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "APPLE INC",
+      "weight_pct_asof10_16": 7.594225,
+      "intraday_ret_pct": -0.0888021894834945,
+      "proxy_contribution_pp": -0.0067438380743029104,
+      "quote_time": "2026-10-19T14:57:14-04:00"
+    },
+    {
+      "symbol": "MRK",
+      "name": "MERCK + CO. INC.",
+      "weight_pct_asof10_16": 0.545693,
+      "intraday_ret_pct": -1.353203151764304,
+      "proxy_contribution_pp": -0.0073843348749571824,
+      "quote_time": "2026-10-19T14:57:06-04:00"
+    },
+    {
+      "symbol": "WFC",
+      "name": "WELLS FARGO + CO",
+      "weight_pct_asof10_16": 0.384421,
+      "intraday_ret_pct": -2.104447359007988,
+      "proxy_contribution_pp": -0.0080899375819721,
+      "quote_time": "2026-10-19T14:57:13-04:00"
+    },
+    {
+      "symbol": "BAC",
+      "name": "BANK OF AMERICA CORP",
+      "weight_pct_asof10_16": 0.504896,
+      "intraday_ret_pct": -1.629904352918199,
+      "proxy_contribution_pp": -0.00822932188170987,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    },
+    {
+      "symbol": "LLY",
+      "name": "ELI LILLY + CO",
+      "weight_pct_asof10_16": 1.523949,
+      "intraday_ret_pct": -0.5512994916589187,
+      "proxy_contribution_pp": -0.008401523090141173,
+      "quote_time": "2026-10-19T14:56:56-04:00"
+    },
+    {
+      "symbol": "META",
+      "name": "META PLATFORMS INC CLASS A",
+      "weight_pct_asof10_16": 2.369714,
+      "intraday_ret_pct": -0.6731704566281027,
+      "proxy_contribution_pp": -0.01595221455458008,
+      "quote_time": "2026-10-19T14:57:12-04:00"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMORGAN CHASE + CO",
+      "weight_pct_asof10_16": 1.368213,
+      "intraday_ret_pct": -1.5571647238902697,
+      "proxy_contribution_pp": -0.021305330183680776,
+      "quote_time": "2026-10-19T14:57:10-04:00"
+    }
+  ],
+  "validation": {
+    "coverage": 503,
+    "partition": "PASS",
+    "missing": [],
+    "quote_age_seconds_min": 2.539356,
+    "quote_age_seconds_max": 434.539356,
+    "quote_bar_method_discrepancies_gt_005pp": [],
+    "bar_method_counts": {
+      "up": 186,
+      "down": 315,
+      "flat": 2,
+      "coverage": 503
+    },
+    "independence": "metaquoteandchartbarshareYahoo;crosschecknotsourceindependence",
+    "issuer_weight_sum_note": "SPYfileallnumericweightssum100.218976%;tradableequity99.929217%. Do notcertifyindexcontributionsfromthisfile;weightedrankingisonlyapproximate."
+  }
+}

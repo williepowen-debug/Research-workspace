@@ -1,15 +1,16 @@
 # WALTER STATUS
-**Updated:** 2026-10-19T18:43:43Z — Will-launched afternoon catch-up; boot PARTIAL. BOARD **1517**; October19 **14 signals**,0kills,1verificationhelper,0cluster_mediating. Currentduties/receipts LAST_COMPLETION.md.
+**Updated:** 2026-10-19T19:03:31Z — Will-authorized breadth investigation; boot PARTIAL. BOARD **1518**; October19 **15 signals**,0kills,2verificationhelpers,0cluster_mediating. Current duties/receipts LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Credit entry325/323/331bp[October14–16] remains the leading signal; currentpublishedfrontierstillFriday and X1CLOSED/DON’T-SIZE. Afternooncatch-upaddsChinaGDP4.5%withweakdomesticinvestment,FranceMondaybondfollow-through,andOTTO’samendedAllycontract/current25%subjectivewarehouse-exitforecast. NoactualAllycancellationestablished. FourincomingOTTOpacketsintegrated;oneRule9verificationhelperreturned. Registered source/close/eventcoveragegapsretainbootPARTIAL; no trade or ownerthresholdchanged.
+Today's S&P rebound has weak participation: 315 of 503 security lines in the October16 SPY holdings proxy declined on October19 quotes around14:57ET, while SPY rose0.57% and RSP fell0.23%. This is a provisional current-holdings count, not official index breadth or a close. Counterevidence matters: Nasdaq100 equal weight rose nearly as much as cap weight; RSP outperformed SPY over the preceding5/20 completed sessions. Credit entry325/323/331bp[October14–16] remains already-routed, with X1 CLOSED/DON’T-SIZE and issuer/bank attribution unresolved. No owner grade, threshold or trade changed. General boot/source/acceptance gaps remain in LAST_COMPLETION.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
-| Afternoon market | October19 vendor intraday KRE69.33(−0.69%),WAL73.54(−1.30%),VIX18.26,SPY767.41(+0.55%),pulled18:39Z; not certified closes/day-path clearance. Credit publication frontier remains10/16. |
+| Breadth | October19 quotes14:50–14:57ET: SPY+0.566%,RSP−0.234%,503 SPY equity lines186up/315down/2flat;median−0.395%. QQEW+1.313%vsQQQ+1.353%;sectorETFs3up/8down. Through10/16,5-sessionTRproxiesRSP+0.493%/SPY−1.968%,20-session+1.227%/+0.205%;63-sessionratio−1.883%. Source015/research2026-10-19_breadth; current-holdings/asynchronous/proxy limits retained. |
+| Earlier afternoon market | October19 vendor intraday KRE69.33(−0.69%),WAL73.54(−1.30%),VIX18.26,SPY767.41(+0.55%),pulled18:39Z; not certified closes/day-path clearance. Credit publication frontier remains10/16. |
 | China / France | NBSQ3GDP4.5%y/y vs4.3%,weak9Minvestment;Francegoverningscreen10/19OAT4.85/spread142.3bp(+4.9vs10/16),finalfixingunverified. Sources013/014. |
 | Credit | HY331bp October16 after323 October15 and325 October14: RED-FT-02/REG-T-03 entry3/3; owner consequences and bank attribution separate (003). CCC1297,IG85,BBB106,BB203,B335 [10/16]. First-published HY agrees latest. +8bp d/d does not meet strict >25 safety net. |
 | Volatility | Cboe publisher daily rows October16: VIX19.99,high22.31,VVIX109.91,SKEW168.59; FRED VIXCLS19.99 now published. FT-06 exit1/5 >=18,not exit; FT-10 exit0/4. Friday intraday alert already027; no replay. |
@@ -41,7 +42,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed 2026-10-19T18:43:43Z from42owner leadheaders;47rows,membership/roles/bands retained. This does not certify full41-desk context or cross-runtimepresence;livenessUNKNOWN. Daily routing14signals;0cluster_mediating. Currentpublication/delivery/duties live only in LAST_COMPLETION.md.
+REGISTRY refreshed 2026-10-19T19:03:31Z from42owner lead headers;47rows,membership/roles/bands retained. This does not certify full41-desk context or cross-runtime presence; livenessUNKNOWN. Daily routing15signals;0cluster_mediating. HENRY's last owner update10/8 makes LIQUID the time-critical backup for015; no desk launched. Current publication/delivery and duties live only in LAST_COMPLETION.md. Two read-only verification helpers returned; source/sanity review does not establish domain consumption. Full narrative closeout clears the three light deferrals while retaining boot PARTIAL.
 
 ## Active LIAISON channels
 

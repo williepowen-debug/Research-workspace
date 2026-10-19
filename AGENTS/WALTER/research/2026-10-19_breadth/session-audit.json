@@ -1,0 +1,338 @@
+{
+  "reviewed_at": "2026-10-19T18:59:22.803115+00:00",
+  "history": [
+    {
+      "date": "2026-09-18",
+      "prior_session": "2026-09-17",
+      "covered": 502,
+      "up": 156,
+      "down": 345,
+      "flat": 1,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-21",
+      "prior_session": "2026-09-18",
+      "covered": 502,
+      "up": 291,
+      "down": 209,
+      "flat": 2,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-22",
+      "prior_session": "2026-09-21",
+      "covered": 500,
+      "up": 246,
+      "down": 253,
+      "flat": 1,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-23",
+      "prior_session": "2026-09-22",
+      "covered": 500,
+      "up": 168,
+      "down": 331,
+      "flat": 1,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-24",
+      "prior_session": "2026-09-23",
+      "covered": 500,
+      "up": 176,
+      "down": 323,
+      "flat": 1,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-25",
+      "prior_session": "2026-09-24",
+      "covered": 500,
+      "up": 328,
+      "down": 170,
+      "flat": 2,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-28",
+      "prior_session": "2026-09-25",
+      "covered": 502,
+      "up": 164,
+      "down": 334,
+      "flat": 4,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-29",
+      "prior_session": "2026-09-28",
+      "covered": 501,
+      "up": 197,
+      "down": 299,
+      "flat": 5,
+      "expected": 503
+    },
+    {
+      "date": "2026-09-30",
+      "prior_session": "2026-09-29",
+      "covered": 500,
+      "up": 114,
+      "down": 386,
+      "flat": 0,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-01",
+      "prior_session": "2026-09-30",
+      "covered": 500,
+      "up": 296,
+      "down": 202,
+      "flat": 2,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-02",
+      "prior_session": "2026-10-01",
+      "covered": 502,
+      "up": 292,
+      "down": 207,
+      "flat": 3,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-05",
+      "prior_session": "2026-10-02",
+      "covered": 503,
+      "up": 317,
+      "down": 183,
+      "flat": 3,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-06",
+      "prior_session": "2026-10-05",
+      "covered": 503,
+      "up": 338,
+      "down": 164,
+      "flat": 1,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-07",
+      "prior_session": "2026-10-06",
+      "covered": 502,
+      "up": 138,
+      "down": 361,
+      "flat": 3,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-08",
+      "prior_session": "2026-10-07",
+      "covered": 502,
+      "up": 339,
+      "down": 163,
+      "flat": 0,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-09",
+      "prior_session": "2026-10-08",
+      "covered": 503,
+      "up": 319,
+      "down": 184,
+      "flat": 0,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-12",
+      "prior_session": "2026-10-09",
+      "covered": 502,
+      "up": 320,
+      "down": 179,
+      "flat": 3,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-13",
+      "prior_session": "2026-10-12",
+      "covered": 502,
+      "up": 264,
+      "down": 237,
+      "flat": 1,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-14",
+      "prior_session": "2026-10-13",
+      "covered": 502,
+      "up": 240,
+      "down": 262,
+      "flat": 0,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-15",
+      "prior_session": "2026-10-14",
+      "covered": 502,
+      "up": 379,
+      "down": 123,
+      "flat": 0,
+      "expected": 503
+    },
+    {
+      "date": "2026-10-16",
+      "prior_session": "2026-10-15",
+      "covered": 503,
+      "up": 249,
+      "down": 254,
+      "flat": 0,
+      "expected": 503
+    }
+  ],
+  "moving_averages": {
+    "20": {
+      "required_sessions": 20,
+      "coverage": 492,
+      "above": 318,
+      "pct_above": 64.63414634146342,
+      "excluded": [
+        "WFC",
+        "CSX",
+        "CMI",
+        "ITW",
+        "BSX",
+        "VYLR",
+        "VMRK",
+        "TSN",
+        "TECH",
+        "AES",
+        "MOS"
+      ],
+      "basis": "currentquote+precedingn-1SPYsessions,rawvendorprices;currentholdingsproxy;notclosegrade"
+    },
+    "50": {
+      "required_sessions": 50,
+      "coverage": 486,
+      "above": 218,
+      "pct_above": 44.8559670781893,
+      "excluded": [
+        "WFC",
+        "CSX",
+        "CMCSA",
+        "CMI",
+        "ITW",
+        "MNST",
+        "BSX",
+        "VYLR",
+        "VMRK",
+        "PCG",
+        "DOW",
+        "KHC",
+        "TSN",
+        "DOC",
+        "TECH",
+        "AES",
+        "MOS"
+      ],
+      "basis": "currentquote+precedingn-1SPYsessions,rawvendorprices;currentholdingsproxy;notclosegrade"
+    },
+    "200": {
+      "required_sessions": 200,
+      "coverage": 447,
+      "above": 233,
+      "pct_above": 52.12527964205817,
+      "excluded": [
+        "NVDA",
+        "WFC",
+        "ABT",
+        "PFE",
+        "CSX",
+        "USB",
+        "CMCSA",
+        "CMI",
+        "SPG",
+        "MCO",
+        "ITW",
+        "MNST",
+        "FAST",
+        "PCAR",
+        "BSX",
+        "HONA",
+        "VYLR",
+        "F",
+        "KDP",
+        "NDAQ",
+        "VMRK",
+        "P",
+        "KR",
+        "KVUE",
+        "ROP",
+        "EQT",
+        "HBAN",
+        "ATO",
+        "PCG",
+        "CNP",
+        "VICI",
+        "FE",
+        "VTRS",
+        "DOW",
+        "STE",
+        "KHC",
+        "CMS",
+        "STZ",
+        "BRO",
+        "SMCI",
+        "JBHT",
+        "KIM",
+        "INVH",
+        "TSN",
+        "SWK",
+        "FDXF",
+        "DOC",
+        "AKAM",
+        "TECH",
+        "AES",
+        "TKO",
+        "NWSA",
+        "AOS",
+        "MOS",
+        "HRL",
+        "SKYD"
+      ],
+      "basis": "currentquote+precedingn-1SPYsessions,rawvendorprices;currentholdingsproxy;notclosegrade"
+    }
+  },
+  "weekly": [
+    {
+      "symbol": "SPY",
+      "start": "2026-10-02",
+      "end": "2026-10-09",
+      "price_return_pct": 1.1602817558622247,
+      "adj_return_pct": 1.1602817558622247
+    },
+    {
+      "symbol": "SPY",
+      "start": "2026-10-09",
+      "end": "2026-10-16",
+      "price_return_pct": -1.9677109547117544,
+      "adj_return_pct": -1.9677109547117544
+    },
+    {
+      "symbol": "RSP",
+      "start": "2026-10-02",
+      "end": "2026-10-09",
+      "price_return_pct": 1.578218483775573,
+      "adj_return_pct": 1.578218483775573
+    },
+    {
+      "symbol": "RSP",
+      "start": "2026-10-09",
+      "end": "2026-10-16",
+      "price_return_pct": 0.49286663764938066,
+      "adj_return_pct": 0.49286663764938066
+    }
+  ],
+  "limits": "historicalcurrentbasket,survivorship/indexmembershiplimitations;priorstocknullbarsnotfilled,skipnotallowed;nohistoricalbreadthclaimwithoutdatecoverage"
+}
