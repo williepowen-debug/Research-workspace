@@ -4795,3 +4795,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-19T20:05:09Z	SIG-W-20261019-016	VIOLET	INFO	CODEX	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-016.md	written_not_delivered_pending_push	Create-only;foreignworkingtree,pushdeferred;consumptionUNKNOWN
 2026-10-19T20:05:09Z	SIG-W-20261019-016	VULCAN	INFO	CODEX	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261019-016.md	written_not_delivered_pending_push	Create-only;foreignworkingtree,pushdeferred;consumptionUNKNOWN
 2026-10-19T20:05:09Z	SIG-W-20261019-016	NEXUS	INFO	CODEX	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20261019-016.md	written_not_delivered_pending_push	Create-only;foreignworkingtree,pushdeferred;consumptionUNKNOWN
+2026-10-19T20:17:24Z	SIG-W-20261019-017	HENRY	ACTION	CODEX	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261019-017.md	written_not_delivered_pending_push	Create-only;foreignwork,pushdeferred;consumptionUNKNOWN
+2026-10-19T20:17:24Z	SIG-W-20261019-017	LIQUID	ACTION	CODEX	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261019-017.md	written_not_delivered_pending_push	Create-only;foreignwork,pushdeferred;consumptionUNKNOWN
+2026-10-19T20:17:24Z	SIG-W-20261019-017	VIOLET	INFO	CODEX	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261019-017.md	written_not_delivered_pending_push	Create-only;foreignwork,pushdeferred;consumptionUNKNOWN
+2026-10-19T20:17:24Z	SIG-W-20261019-017	VULCAN	INFO	CODEX	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261019-017.md	written_not_delivered_pending_push	Create-only;foreignwork,pushdeferred;consumptionUNKNOWN
+2026-10-19T20:17:24Z	SIG-W-20261019-017	NEXUS	INFO	CODEX	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20261019-017.md	written_not_delivered_pending_push	Create-only;foreignwork,pushdeferred;consumptionUNKNOWN
