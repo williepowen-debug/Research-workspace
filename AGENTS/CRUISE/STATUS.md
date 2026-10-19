@@ -1,6 +1,6 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-19T22:42:08.618843+00:00** (bounded currency check: October19 closes, SEC/IR index checks and final HENRY delivery). Older contextual inputs retain explicit dates; full desk coverage is not certified. See `research/2026-10-19_currency-check/RESULT.md`.*
+*Last updated: **2026-10-19T22:54:12.204778+00:00** (tonight synthesis contribution and late LIQUID receipt). Market/fundamental source vintages remain as stated. `research/2026-10-19_cushion/TONIGHT_ASSESSMENT.md` separates findings, alternatives and gaps; broader desk freshness is not certified.*
 
 ## October 19 research finding — cushion survives as a dated contrast
 
@@ -13,7 +13,7 @@
 | **Alternative explanation: demand/execution** | Q2 CC yield RCL +1.2% / NCLH −2.6%; capacity +4.87%/+8.88%; deposit cash build +12.8%/−31.9%. Both groups include premium brands. No causal attribution to financing. KB-CRU-164 |
 | **WALTER window reproduced; CRU-11 OPEN** | September18–October16 RCL +12.97%, NCLH +6.59%, lag −6.38pp. Both rose; that window cannot grade October2–November14. Frozen preceding-session rule implies November13 if normally traded. PREDICTIONS/VX untouched. |
 | **NCLH Q3 date confirmed** | October29 06:30 ET release / 08:30 ET call, primary October15 announcement; CADENCE/watchlist updated. PROME receives existing L714 date-reconciliation ask. KB-CRU-165 |
-| **Coordination / consumption — updated** | HENRY5ca79d333 and LIQUIDbf6ac8f05/CLOSEOUT explicitly consume CRUISE findings. Original HENRY eight-name cohort6474d8726 delivered and consumed by LIQUID. Both workflow acknowledgments committed (HENRY1f27347f2; LIQUID45336d17d). HENRY final conditional shortlist4261b747e/receiptfb4b004b3 now consumed: primary MOS/HII/ADM/CPRT, recent recovery caveats; cruise study unchanged. Seven focused packets sent. Native live transport unavailable. `research/2026-10-19_cushion/COORDINATION.md`. |
+| **Coordination / consumption — updated** | HENRY5ca79d333 and LIQUIDbf6ac8f05/CLOSEOUT explicitly consume CRUISE findings. Original HENRY eight-name cohort6474d8726 delivered and consumed by LIQUID. Both workflow acknowledgments committed (HENRY1f27347f2; LIQUID45336d17d). HENRY final conditional shortlist4261b747e/receiptfb4b004b3 now consumed: primary MOS/HII/ADM/CPRT, recent recovery caveats; cruise study unchanged. LIQUID final conditional financing review5de5eeb1c now consumed; no common access-failure finding. Tonight CRUISE contribution sent to PROME/WALTER. Native live transport unavailable. `research/2026-10-19_cushion/COORDINATION.md`. |
 
 > ## ⚖️ PRIOR STATE — 2026-10-16 Fri, **D:L712 GRADED + L0 DRAIN.** $0, no trade, no Will-gated level moved.
 > | Item | Done | Receipt |
