@@ -1287,11 +1287,11 @@ def check_calendar_views():
     # Both checks use the same caller date even if the pair crosses ET midnight.
     as_of = dt.datetime.now(ZoneInfo("America/New_York")).date().isoformat()
     base = [sys.executable, "scripts/docket_view.py", "--as-of", as_of]
-    run_script(ADVISE, "generated calendar freshness", base + ["--check-generated", "PROME/SCRATCH.md"],
-               "Regenerate with scripts/docket_view.py --write PROME/SCRATCH.md; source is DOCKET.tsv",
+    run_script(ADVISE, "generated calendar freshness", base + ["--check-generated", "PROME/state/CALENDAR.md"],
+               "Regenerate with scripts/docket_view.py --write PROME/state/CALENDAR.md; source is DOCKET.tsv",
                summarize=summarize_generated)
     run_script(ADVISE, "handwritten calendar coverage", base + ["--check", "PROME/SCRATCH.md",
-               "--section", "catalyst calendar", "--ignore", r"\breviews?\b"],
+               "--section", "Calendar", "--ignore", r"\breviews?\b"],
                "Dated handwritten claims only; unassessed claims require inspection; generated content excluded",
                summarize=summarize_prose)
 

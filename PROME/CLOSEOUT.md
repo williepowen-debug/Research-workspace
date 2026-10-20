@@ -59,7 +59,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 | **WQ LEDGER** (`PROME/registry/WQ_LEDGER.tsv` + `.crc`) | generated — `wq_ledger.py sync` then `check`, after the WILL_QUEUE write | ⛔ hand-editing; it is sealed and append-only |
 | **THE HELM** · **DECISION DECK** | Helm generation, supporting `docket.html`, BRIEF/HANDBOOK presentation upkeep, change-feed advancement and publication are RETIRED (WQ-461). Deck is PAUSED BY WILL (WQ-460). Preserve history and shared libraries; maintain canonical records in their own rows above | regenerating retired/paused surfaces; presenting old HTML or feed history as current |
 
-**Generated blocks are written by their generator, never by hand:** SCRATCH's `DOCKET-VIEW` (`scripts/docket_view.py --write`) and `Pending Will` (`PROME/tools/willq_view.py --write`), the WQ ledger. **Preserve them; stop restating their contents in prose.**
+**Generated blocks are written by their generator, never by hand:** the calendar view `PROME/state/CALENDAR.md`'s `DOCKET-VIEW` (`scripts/docket_view.py --write`; moved out of SCRATCH 2026-10-20, Will) and SCRATCH's and `Pending Will` (`PROME/tools/willq_view.py --write`), the WQ ledger. **Preserve them; stop restating their contents in prose.**
 
 **Intentionally one-way (no write-back):** `PROME/CLOSEOUT.md` + `CLOSEOUT_PROCEDURES.md` (procedure reference) · `FLEET_SCAN.md` (superseded snapshot) · inbox/outbox scans (handled inline, never deferred) · OPEN-prediction resolution (domain-agent-owned).
 
@@ -70,7 +70,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 **Targeted updates at EVERY tier (WQ-240; was Light-only under WQ-232).** One test decides whether a surface gets written: **does the boot path already reach it?** A dated obligation (DOCKET), a decision (WILL_QUEUE), a gate state (GATES) — **do NOT restate.** Anything registered nowhere, and the resume pointer — **write it.** If nothing in a surface's column changed, the correct action is a **stated no-op**, never silence and never a rewrite.
 
 1. **GATES + DOCKET surgical, FIRST.** Enumerate every gate/catalyst the session touched; each gets a row edit or a stated no-op. Then regenerate the view:
-   `cd "$(git rev-parse --show-toplevel)" && python3 scripts/docket_view.py --write PROME/SCRATCH.md`
+   `cd "$(git rev-parse --show-toplevel)" && python3 scripts/docket_view.py --write PROME/state/CALENDAR.md`
 2. **WILL_QUEUE** paired write → `python3 PROME/tools/wq_ledger.py sync` then `check` → `python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`.
 3. **SCRATCH · STATUS · ACTIVE_DECISIONS · HEARTBEAT · HANDOFF** per the table above. **A5 (10/16): the session account is written ONCE, in memory; the rest point to it.** Byte-flow lines and rotation recipes → **`PROME/CLOSEOUT_PROCEDURES.md` § Byte-flow**. Blind-reader verification is triggered there too.
 4. **Memory** — the day's log; auto-memory only if a durable lesson was earned (root step 1d after).
