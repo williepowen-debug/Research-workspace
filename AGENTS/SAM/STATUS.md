@@ -4,6 +4,8 @@
 
 **View:** no fresh observed Japan-led carry unwind. Further BOJ tightening remains intended; October is not specifically signalled. **20Y auction FIRM** and Fukoku's H2 plan add evidence against a continuing domestic buyer strike. **September insurer foreign-LT-debt net dispositions rose to ¥288.6B from ¥137.3B in August** (MOF monthly, updated Oct-8); that counter-signal is real, but names/UST/forced-sale mechanism remain unproved. Fukoku's own planned maturity runoff is a separate observation. **v1.7 remains retired-to-LOW, no successor declared, no re-entry or prediction re-mark.** Last Will-confirmed FLAT June 29 is a dated desk record, not a fresh broker reconciliation. Credit abroad is wider; an orderly yen is not a global all-clear.
 
+**Internal steward review, October 20:** KOYOMI verified 17 mandatory Oct/Nov events with zero gaps; supplemental Nov5 BOJ minutes accepted (26 total forward rows). KURA corrected dated Fukoku claims in KB-096/153/212 and added KB-260 on the proposed tax/support bill; bounded harvest through October sweep accepted. METSUKE current trade-summary fixes applied; full SAM-31 qualifications preserved. First-November calendar audit owes Nov+Dec coverage; 56-day Nov30→Jan25 gap remains visible. No thesis promotion or prediction/money change. Receipts → `reports/2026-10-20_subagents/RUN.md`.
+
 ## LIVE MARKET DATA
 
 | Instrument / release | Level and observation date | Assessment / limit |

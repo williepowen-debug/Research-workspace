@@ -41,13 +41,28 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 
 ## CHANGES SINCE LAST RUN
 
-Run 17 (spawned 2026-09-29 ~09:4x ET per `date`) covers **2026-09-11 (post-Run-16) → 2026-09-29**, 18 days. Run 16's proposed watermark (09-11) counts as accepted in substance: SAM applied Run 16 in `056bb0f78`, and at `42b5777ef` turned `KURA.md`'s `Last harvest:` line into a POINTER to this file's § LAST RUN. Ledger at run start: **KB.tsv 193 rows, KB_ARCHIVE 63, 0 SUPERSEDED, max ID KB-SAM-257, next free 258**. No duplicate or reused IDs. ⚠️ **But not uniformly 9 fields: KB-253/254/255/256 have 7.**
-
-**What moved, mostly by SAM's own hand:** SAM filed **nine rows directly (KB-SAM-249–257)**: the 9/15 news-sweep four (FY2027 perimeter, Nakamura dating, outward equity flows, July IP), the 9/18 BOJ hike to 1.25% (253), the 9/18 ME-crude decay / US replacement barrels / wrong-barrel proxy trio (254–256), and the 9/24 CFTC record-swing row (257, delivery-week caveat appended 9/29). Run-16 escalation 1 was fixed at the code (`landed_rows()` keys on (ID, Topic)). Both rollers now read the clock. KB-240 was qualified to DIRECTIONAL ONLY, KB-245's category typo fixed, KB-223's cross-ref remapped. **Run-15 P1–P6 remain unapplied** (checked at disk). The window's events: rate check at ~158 (9/18), Silver Week closure (9/21–23), yen through the check level with no strike (9/23–24), JGB 10Y 3.075% (1996 high, 9/24), CATO R4 regrade of SAM-28 to QUALIFIED/NO-VERDICT (9/19), the joint US–Japan verbal leg (9/25–28), and the 40Y at 3.096× (9/29). THESIS v1.7 unchanged throughout.
-
----
+October 20, 2026: September 29 accepted watermark → October 20 owner integration. KB-258 landed October 1 on MOF ¥0; no other post-watermark KB adds. Fukoku H2 20Y/30Y plan withdraws ongoing 30Y-avoidance inference; September insurer-sector foreign-debt dispositions intensify to −¥288.6B, without named-company/UST/forced attribution. Food-tax bill is cabinet-approved, not enacted or funded by established offsets. October speech reads separate tightening intention from timing and repair Bessent Bangkok/Uchida date claims. Current prices and auction prints remain owner/feed facts. One new fiscal-design proposal, three precise existing-row corrections; no live-ledger write.
 
 ## LAST RUN
+
+### Run 18 — 2026-10-20 (FULL MODE; 2026-09-29 → 2026-10-20 harvest) — SAM WATERMARK SET 2026-10-20 (bounded coverage through ad61cfd51)
+
+**Result (helper return before SAM disposition):** 0 archive moves, 1 proposed add KB-SAM-260, 3 corrections (096/153/212), 0 TSV writes. Full exact text in KURA.md Run 18. At helper launch the accepted watermark was SAM's Run-17 September 29 stamp; October 1 KB-258 promotion is a disposition, not a newer harvest stamp. Covered post-Run-17 registration/October 1 records, October 9/14/15 recovery and October 20 sweep integration `ad61cfd51`, plus current owner sources. Missing October 14 sweep is documented as lost, not silently assumed read; October 20 supplies the completed primary speech reads. Docket and METSUKE live files not read.
+
+**Judgment:** new tax/support design passes as a dated bill-state reference with enactment/funding limits. Fukoku belongs in existing 096/153/212, not another row. September sector selling is a substantive contrary warning, but monthly telemetry remains TRACKER/STATUS territory; no named UST/forced-sale evidence invented. BOJ date/attendance repairs lack a current KB target. No original research.
+
+**Queue sweep:** 246–248 and 258–259 landed. 258 gate satisfied by September 30 ¥0 and October 1 SAM promotion. Run-15 233 ID collision remains technically present; semantics covered by 248/240/README, recommend SAM decline standalone without deleting unruled text. P1–P6 applied September 29 except expressly deferred KB-169 Notes collapse. Prior schema/category repairs and 257 qualifier verified present. Old legacy-model status sweep, archive convention, KB-152 routing, UST denominator/hedge-ratio and unresolved attribution gaps retained.
+
+**Runtime receipt:** KURA internal helper `/root/kura`, OpenAI Codex. Exact model/session UUID not exposed; no invented label. Git root verified `/home/willi/Research-workspace`; inherited cwd SAM; explicit root CLAUDE/AGENTS/USER and SAM CLAUDE reads plus KURA spec/state, COMPLETION_SPEC and runtime-mechanics section. Shell/read/write and parent collaboration channel available; fleet-wide presence/native cross-runtime transport not established or required for internal helper. No peers, spawns, market boot, pull, commit or push.
+
+**Checks and closeout:** raw-tab schemas, IDs, cross-refs and ledger hashes checked; CALIBRATION preserved byte-for-byte. Report-only roller output follows after final checks. Watermark proposed September 29 → October 20; SAM acceptance still required. Saved result is delivery, not SAM consumption.
+
+**Report-only roller receipts (exit 0 each, no --apply):** memory: 924 lines / 219K; proposes Run 15 (22 lines) and Run 14 (33 lines), after 867 lines / 203K, frees ~15K (~4K tokens, 7%). Proposal: 93K total / 87K proposed section; proposes Runs 16 (16K, all 3 landed) and 17 (19K, both landed), ~36K (~9K tokens). Run 15 retained on KB-233 Topic collision; Run 18 retained as newest. Do not infer terminal disposition from these previews. Unresolved flag text in candidate proposal blocks: Run 16 archive contradictions/convention and legacy sweep; Run 17 deferred KB-169 collapse and roller defect. Current PENDING/Run 18 indexes them; any SAM roll must preserve their exact source text and update pointers.
+
+**Validation receipt:** 195 live + 63 archive rows; 258 unique IDs, all raw TSV rows 9 fields; no already-SUPERSEDED live rows. Proposed 260 parses to 9 raw fields and is unused in both ledgers; its 235/249 references resolve. Three precise replacement targets in 153/212 occur once each (096 is an explicit whole-field proposal). Four TSV SHA256 hashes unchanged from read baseline. CALIBRATION compared to HEAD: byte-identical, 13,956 bytes, SHA256 `4d8be0fb8f70b611a66442b4d48074fca7d78f09045c05770c62e3dfa1a3856c`. Existing proposal text preserved verbatim; git diff --check passes. No test suite needed for Markdown-only proposals.
+
+**CLOSEOUT RECEIPT — KURA, October 20:** authorized FULL harvest finished; result persisted in KURA.md Run 18 and this state file. No TSV facts/status/grades changed, no archive move, no watermark acceptance, calibration edit, roller application, Git mutation, market boot, helper spawn or peer send. Ready for SAM read/disposition and parent-managed closeout; notification acceptance is not consumption.
+
 
 ### Run 17 — 2026-09-29 (Tue, FULL MODE, 18-day 9/11 → 9/29 window: SAM self-filed 9 rows [249–257], four of them MALFORMED · Run-16 escalation fixed at the code · 2 proposals, 3 Notes-appends, 6 flags · no archive move) — ⏳ **watermark PROPOSED, not set** — 🔏 WATERMARK SET 2026-09-29 by SAM: 2026-09-11 → 2026-09-29
 
@@ -364,6 +379,16 @@ Run 17 (spawned 2026-09-29 ~09:4x ET per `date`) covers **2026-09-11 (post-Run-1
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### Opened Run 18 (2026-10-20) — SAM DISPOSITIONED 2026-10-20; inherited maintenance carries remain open
+
+SAM applied KB-260 and C1–C3; accepted bounded harvest watermark through ad61cfd51. Run-15 proposed 233: NO NEW ROW — covered by 248/240/BOJ_OIS_README; preserve collision history. No rollers applied. Legacy label/status sweep, KB-169 collapse and roller repair remain deferred, not silently closed.
+
+- New: KB-260 tax/support bill design; C1/C2/C3 exact Fukoku corrections to 096/153/212. Full text KURA.md Run 18. No TSV changes.
+- Existing disposition reconciliation: 258 promoted October 1 after official ¥0; 259 and 246–248 landed; Run-15 P1–P6 applied September 29 except deferred KB-169 Notes collapse. This supplements older dated blocks; it does not delete or self-rule them. Run-15 233 standalone remains unruled and ID-collided, recommend `NO NEW ROW — covered by 248/240/README`.
+- Preserve live sector-selling warning (September −¥288.6B vs August −¥137.3B) alongside retired Channel 1; require named institutional disclosures before reactivation. Plans/maturity runoff and sector transactions are distinct evidence.
+- Carry roller run-body marker defect; no --apply. Carry old owner status/label sweep and archive convention gaps; no scope expansion or new research authorization.
+
+
 ### 🔍 SELF-AUDIT 2026-09-11 (NOT a harvest run — Will-directed audit of KURA's OWN four files; write-set was `KURA_MEMORY.md` only; nothing committed)
 
 Scope audited: `KURA.md` · `KURA_MEMORY.md` · `KURA_MEMORY_ARCHIVE.md` · `KURA_PROPOSALS_ARCHIVE.md`. **No KB/FLOW/VX file was read for harvest or written.** Every finding below was verified at disk or in `git show`, never inferred.
@@ -649,6 +674,21 @@ Spawn read = `KURA.md` + `KURA_MEMORY.md` (archives are not spawn-read). **Today
 
 ## STANDING MONITORS (surface each run until resolved)
 
+### Run-18 monitor audit (2026-10-20) — current layer
+
+| Monitor | Current disposition |
+|---|---|
+| Intervention record | September 30 MOF ¥0 / October 1 KB-258 promotion verified. Next late-October monthly for September 29–October 28; MOF quarterly (~Nov-9) and FRBNY Q3 (~Nov-13) remain checkpoints, not guaranteed Japanese-funding resolution. Re-run KB-259 study when actual per-op split arrives. |
+| Named-insurer H2 / sector sales | Fukoku Reuters plan supplies 30Y counterevidence; no company-origin H2 release. Larger-company plans and comparable two-window sales at two eligible institutions remain unverified. Sector September −¥288.6B is a real adverse warning, no UST/forced/name inference. |
+| Food-tax bill | Follow enactment, actual budget offsets and implementation; proposed April 2027 cut does not change October CPI. No quantitative CPI or issuance estimate filed. |
+| Totan | October 20 reviewed image, source expiry October 24 15:15 JST (earlier than October 30 decision expiry). Gate-1 decline for all odds; no KB prose refresh. |
+| Auctions / BOJ operations | October 20 20Y FIRM 5.844×/0.6bp, no precision limitation, buyer identity unknown. Operations audited through October 20 against September 30 schedule, falsifier un-fired, no early SAM-33 final grade. No daily KB refresh. |
+| Frozen / long-cycle | FLOW/VX/legacy BOJ_OIS remain frozen; do not refresh. JICPA, hedge-ratio, UST-denominator, KB-152 owner routing persist without new source findings. December delivery-week OI comparison still future, not new proof. |
+| CFTC drift instrument | Latest October 13 WoW −12,118 is within ±12,160; no two-consecutive-B0 result demonstrated in harvested evidence. Older one-more-run monitor has no named consumer; park as instrument guard, not a new research task or gate. |
+| Oil / proxy | October 20 named December contract guard passed, but oil-slate benchmark repair remains owed. No owner sustain ruling harvested; price alone does not fire. Funding proxy remains expired/manual-only; direct offshore basis missing. |
+| Rollers | Report-only. Proposal landing proves rows, not flags; Run-15 233 Topic collision retained. Memory run-body substring marker defect remains; no terminal ruling inferred. |
+
+
 ### Run-17 monitor audit (2026-09-29) — read this first; 4 monitors CLOSE, 2 CHANGE STATE
 
 | Monitor | State after Run 17 |
@@ -782,6 +822,9 @@ This block supersedes all earlier live-looking quote recommendations and elapsed
 
 ## CALIBRATION (precision-vs-recall tuning patterns)
 
+### SAM — Run 18, 2026-10-20
+Accepted 1/1 new add (KB-260 bill design, A1 minister account, not enactment) and 3/3 Fukoku corrections (096/153/212). Preserve dated exits; withdraw ongoing 30Y-absence inference only, no 40Y/Asahi/actual-sale extrapolation. Correctly declined a standalone monthly telemetry row while retaining intensifying sector selling as a material counter-signal. Watermark SET for bounded owner coverage through ad61cfd51; source gaps remain. No automatic memory/proposal roll; older debt unchanged.
+
 ### Run 17 (2026-09-29) — SAM's calibration note: **1 of 2 promoted, 1 held on a date gate KURA itself set · every flag verified before applying · and flag ⑥ overturned a SAM note**
 
 - **KB-SAM-259 PROMOTED** after SAM reproduced its headline from `output.json` (TLT +3d mean +0.42%, 4/5 positive; 30Y −2.7bp, 4/5 negative; ex-7/31 −0.85bp — KURA's limit is real). **KB-SAM-258 HELD** until the MOF monthly (~Sep-30 19:00 JST): KURA's own sequencing condition, accepted as written.
@@ -862,14 +905,14 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 
 ## NEXT RUN HINTS
 
-1. **Re-read the ledger; do not trust counts here.** At Run-17 close: KB.tsv **193** (195 if 258/259 promote), KB_ARCHIVE **63**, 0 SUPERSEDED, next free **258**. **Run a 9-field check FIRST** (`awk -F'\t' 'NR>1 && NF!=9' KB.tsv`): four 7-field rows existed at this run, and a hand-add can break the schema again at any time.
-2. **Watermark:** harvest from the last run SAM actually **accepted**. If the escalation (pointer self-advance) is unresolved, look for SAM's application commit of Run 17 (`git log -- AGENTS/SAM/workbook/KB.tsv` + commit message) before trusting the pointer; if Run 17 was never applied, re-cover 9/11 → today.
-3. **KB-258 is sequenced on the Sep-30 MOF monthly.** If it has landed, check its "no operation found" clause against the print. If the print is non-zero and 258 is still unpromoted, re-draft the clause rather than re-proposing it verbatim.
-4. **Do not re-propose:** 249–257 (SAM's), the KB-257 delivery-week caveat, the BOJ ops URL as a row (it is append A1), the intake matcher as KB (routed), the Totan two-clock rule (README), OIS percentages.
-5. **Dated items in the next window:** Sep-30 MOF monthly + BOJ Oct–Dec purchase schedule (SAM-33 check) + 2Y auction · Oct-1 SoO + Tankan + (maybe) the missing MOF weekly Sep-13–19 · Oct-2 Tokyo CPI + METI Aug crude-by-source (KB-255's named reversal test: Kuwait/Qatar back from zero?) + CFTC Sep-29 · Oct-3 OIS expiry · Oct-5 extraordinary Diet · Oct-8 30Y (frozen bars) · Oct-29/30 MPM.
-6. **Rollers stay report-only.** Before recommending `kura_proposal_roll.py --apply`, list any unresolved FLAGS in the blocks it would move; it proves rows only. The memory roller's run-block "marker" is a case-insensitive body substring ("fail closed" and "disclosed" both count), so in practice it rolls by age: check whether SAM ruled on it. **Write run blocks without the words C·LOSED/C·LEARED in any form** unless you mean closure.
-7. **Never anchor an edit to `KURA.md`/`KURA_MEMORY.md` on a heading string** (self-audit A1/A2, still unrepaired). Address by line index, assert the neighbouring lines, verify byte conservation. This run did so for all five section writes.
-8. **`## CALIBRATION` is SAM's; not touched this run** (last entry still Run 13; Runs 14–17 unscored).
+1. Derive counts/max ID from both ledgers; raw-tab 9-field check before any action. At this run 195 live + 63 archive, max 259, proposal 260 only. Do not treat queued IDs as free.
+2. Start from newest SAM WATERMARK SET heading, currently Run 17 September 29. Run 18 proposes October 20 through ad61cfd51; no acceptance stamp written by KURA.
+3. Verify SAM dispositions on 260 and C1–C3. Never restore ongoing Fukoku 30Y absence from old 096/153/212 text; no evidence about 40Y/Asahi. Do not re-propose monthly sector selling as structural KB telemetry.
+4. Run 15 233 is still a Topic collision, while its semantic content is already 248/240/README; await SAM disposition. P1–P6 have September 29 application, except 169 Notes collapse. Older pending language is dated; do not revive it.
+5. Keep intensifying insurer-sector selling prominent while awaiting named-company comparable disclosures. Check legislation and actual offsets separately for the food-tax bill. October CPI/BOJ outcomes not graded early.
+6. Rollers report-only, no --apply; review unresolved flags before any later SAM roll. CALIBRATION remains SAM-owned. Preserve unruled proposals and historical source statements.
+7. Use bounded heading maps and line-index edits; do not reload old audit/history as a substitute for current accepted watermark/owner evidence. No FLOW/VX refresh, no original research, no peer sends under this helper scope.
+
 
 ---
 

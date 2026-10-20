@@ -10,8 +10,22 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 ## CHANGES SINCE LAST RUN
 
-Run 23 (2026-09-29, first **sync** since Run 21; Run 22 was a self-audit) is **18 days** after Run 22. SAM applied Run-21 PENDING A (the October delta) at `7e5702fb3` the same day, then touched the docket in ~14 further commits: Sep-14 CME proxy retired **and unwired** (`xccy_basis.py` is out of `boot.py` BOOT_SEQUENCE and in `../CLAUDE.md` MANUAL-ONLY — verified this run); Sep-15 20Y AMBIGUOUS; the Sep-16/18 cluster resolved (FOMC hike, BOJ hike to 1.25%, SAM-28 QUALIFIED/NO-VERDICT, SAM-31 FALSE); 9/19 closeout skipped write-back step 10, which led SAM to build `scripts/closeout_check.py`; 9/20 Silver-Week miss + OIS-expiry rows; 9/24 and 9/29 catch-ups (the 9/29 one pruned Sep 25–29 and added four rows). **`KOYOMI.md` is unchanged since 2026-09-11 — none of Run 22's seven spec proposals has been ruled on in the spec.** STATUS was rewritten 9/29 08:55 ET.
+Run 24 — October 20, 2026: owner sweep at ad61cfd51 / brief b3235a59c supersedes September state. October 20 20Y is FIRM; reviewed OIS source-age expiry is October 24 15:15 JST. No prediction/trade change. September resolved tables are >7d; October first-run monthly baseline is owed despite September prefetch and is performed below.
 ## LAST RUN
+
+### Run 24 — 2026-10-20 ET (monthly October/November baseline + docket sync)
+
+Runtime: OpenAI Codex, internal task /root/koyomi, exact model and independent runtime session UUID UNKNOWN. Exposed tools: shell, filesystem, web and parent collaboration channel; no other desk read/write or external send attempted. Repo root /home/willi/Research-workspace verified; explicit root CLAUDE/AGENTS/USER and local SAM/KOYOMI instruction reads; inherited SAM cwd corrected. No SAM market boot, pull, commit, push, helper spawn, trade or prediction changes. Source owner read-set: STATUS, THESIS current integration, latest two TIMELINE entries and October 20 NEWS_SWEEP (ad61cfd51 / b3235a59c leads verified against files). KOYOMI state loaded by mapped bounded working sections, not whole-read; older history consulted only as relevant.
+
+Monthly trigger FIRED, October + November. September prefetch did not discharge it; this run does. CALIBRATION declined classes: none. Mandatory universe: **17 forward events, 0 gaps** (7 auctions: Oct29 + six November; BOJ Oct30; FOMC Oct28; four Japan CPI; GDP Nov16; trade Oct21/Nov18; US CPI Nov10). Remaining-month sources all fetched: MOF full October/November tables, both alteration URLs, BOJ MPM + statistical XLSX, Fed, Stats Bureau, ESRI, Customs and BLS. October 1 Tankan and already-past October events were checked as retrospective scope, not re-proposed. No October 40Y or November MPM/FOMC/Tankan/GDP second preliminary on these sources. Liquidity enhancement / JGBi / Climate Transition excluded per scope; weekly MOF/CFTC excluded, no current pre-registered short-side tripwire. **Mandatory baseline proposal delta: empty.** December belongs to next monthly audit; prior hint to expand this run into December is superseded by explicit October+November assignment/spec.
+
+Supplemental source discovery: Nov5 BOJ September minutes (08:50 JST), outside mandatory baseline universe; propose-only in PENDING, confirmed date in RELEASES. Nothing added to TSV. Raw BLS now HTTP200, confirms Nov10 CPI; Customs raw headers resolve whole-month provisional columns. Both prior basis caveats updated in the relevant TSV notes and CALENDAR. Alteration pages: raw HTTP404; web tool accessibility error alone was not used as an absence conclusion. Tankan tk/yotei URL HTTP404; recovered via outline/index → tkohyos.xlsx, no source-class blocker. System python lacks bs4; repository .venv supplies requests/bs4/openpyxl.
+
+Pruned September21–24 and September25–29 resolved tables (>7d). October20 resolved outcomes retained; current forward set already had expired guards migrated by SAM. Refreshed stale September intervention pointer, Oct8 next-auction language, Fukoku avoidance framing and nonexistent EIA/CFTC forward references. Preserved grades/thresholds, owner SAM42 25% as made vs frozen September29 comparator, current OIS source-age expiry Oct24 15:15 JST. No live spot added to structural watches. Historical prune notes remain historical.
+
+**Closeout validation:** catalyst_countdown rc0; 25 forward rows, strict date-sorted/8 fields/valid types; CALENDAR matches every event/date/priority/routing. claim_check weekday: two files clean. Calendar 26.9KB, below 32,550B cap. RELEASES original HEAD prefix unchanged, append-only additions. Runway 97 calendar days to Jan25; 9 events next14d; Nov30→Jan25 gap 56d. Calendar opening SAM31 reference carries owner qualification; no grade changed.
+
+**Roller report-only receipt:** proposes Run21 history 62 lines, Run20 history 22 lines and CLOSED PENDING-from-Run23 34 lines; reported 660→539 lines /130K→103K (−27K, −21%) before this receipt was appended. Known body-wide closure defect still applies; no adjudication inferred from nominations and --apply NOT used. History, PENDING and CALIBRATION preserved. Only four authorized docket paths saved. No commit/push/external send. Work complete; explicitly CLOSED OUT as KOYOMI, ready for SAM review/integration; recipient consumption not claimed.
 
 ### Run 23 — 2026-09-29 ET (docket SYNC; clock from `date`: start 09:43 EDT, write-back 09:5x EDT / 22:5x JST)
 
@@ -408,6 +422,16 @@ CALIBRATION declined-classes checked first: none declined. Sources fetched: MOF 
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### PENDING from Run 24 — October 20, 2026 — SAM DISPOSITIONED; supplemental applied, continuity carry remains
+
+SAM accepts 17-event mandatory audit, zero gaps. Supplemental Nov5 minutes independently checked at BOJ MPM table and accepted into both docket files (26 total forward rows; next14d remains9). Next first-November monthly run covers Nov+Dec before the Nov30→Jan25 gap; 97-day endpoint runway is not continuous coverage. Report-only rollers not applied; inherited spec/roller debt remains open.
+
+- **BASELINE monthly October/November: 17 forward universe events checked, zero gaps; proposed delta EMPTY.** No declined classes. Audit obligation discharged; inherited deferral/spec proposal history retained for SAM, not erased.
+- **Supplemental proposal (NOT APPLIED):** `2026-11-05	BOJ MPM minutes — September 17–18 meeting	Members’ discussion of September policy decision	Policy context before next November disclosures; no prediction re-mark inferred	🟡	SAM	OBSERVED BOJ release calendar/MPM schedule 2026-10-20; 08:50 JST	external`. Rationale: dated official reasoning release; same family as the already tracked Summary of Opinions, but minutes are outside mandatory universe and SAM decides relevance. RELEASES confirmation appended.
+- **Analytical items remain SAM-owned:** no new thesis/trade conclusion from orderly auctions; September sector insurer dispositions and Fukoku maturity runoff remain distinct. No new fixed-date insurer plan invented.
+- **Continuity limitation:** last regular event Nov30 to Jan25 is 56d; total runway alone conceals missing December coverage. Next first-November audit must cover Nov+Dec; propose-only, no December rows added here.
+- **Inherited unresolved:** Run22 spec proposals and roller closure-matching defect remain parent decisions. No --apply; do not interpret quoted CLOSED as an adjudication.
+
 ### PENDING from Run 23 — 2026-09-29 (3 applied ESCALATION-LOG defaults · 7 decisions SAM owns · 1 propose-only delta) — ✅ CLOSED 2026-09-29 by SAM: A1–A3 ACCEPTED (METI date re-confirmed by SAM at a second source before accepting) · B1 APPLIED to STATUS/NEXUS_BRIEF/MEMORY + packet to BRENT · B2 SAM REMOVED its own two rows (CFTC Oct-02, MOF weekly Oct-01) — the 7/21 and universe rulings stand; STATUS WHAT TO WATCH carries both · B3 DECLINED (RED's grade, with no SAM act attached) · B4 APPLIED · B5 APPLIED all 14 rows (CALENDAR notes shortened to basis tags to hold the read cap; full basis stays in RELEASES) · B6 AGREED: the pre-fetch is a head start, the October audit is still owed · B7 carried with the Run-22 proposals
 
 **A — ESCALATION-LOG (applied; any can be reversed with a one-line veto):**
@@ -580,37 +604,34 @@ It proposed rolling **Run 17** again. Run 20 already diagnosed it — the termin
 
 ## STANDING MONITORS (surface each run)
 
-- **⛔ Sep-18 cluster — DERIVE, never transcribe.** This monitor twice carried a hand-copied count that rotted ("four rows / exactly two internal" was stale from Sep-9 and read as live until Run 21). `CATALYSTS.tsv` owns it: `grep -c '^2026-09-18' CATALYSTS.tsv` and `grep '^2026-09-18' CATALYSTS.tsv | cut -f8 | sort | uniq -c`. *Context, not a count: the INFRA_AGENDA row is correctly gone — SAM recorded all four dispositions Sep-9 under the located Aug-21 ruling, so the auto-retirement never fired. A missing 4th row is not a regression.*
-- **✅ October gap — CLOSED, and the monitor itself is the lesson.** It asserted "the TSV runs out Sep-30 and does not resume until Nov-9" as a live fact; SAM applied the Run-21 delta at commit `7e5702fb3` the same day and it went false within hours. **Replaced by a derivation — run the gap check, don't read a remembered gap:** `cut -f1 CATALYSTS.tsv | tail -n +2 | awk 'NR>1{d=(mktime(gensub(/-/," ","g",$0)" 00 00 00")-p)/86400; if(d>21) print prev" -> "$0" ("d"d)"} {p=mktime(gensub(/-/," ","g",$0)" 00 00 00"); prev=$0}'` — or simply eyeball the dates for any gap >21d. ⚠️ **The spec's `DONE =` runway test does NOT catch this** (Run 22 proposal 3).
-- **✅ Sep-14 UNWIRE — DONE, verified Run 23:** `xccy_basis.py` is not in `boot.py` BOOT_SEQUENCE (it survives only in the LEDGERS map at `boot.py:111`) and is listed MANUAL-ONLY in `../CLAUDE.md`. The docket row was pruned 9/29 and the obligation has a home. Remove this monitor next run.
-- **🆕 A schedule-table fetch is a sample, not a read.** Two of Run-21's primary fetches were wrong on the first pass and right on an explicitly-exhaustive second: the BOJ MPM page (first said Sep 17-18 *was* an Outlook meeting — it is not) and the MOF October calendar (first omitted the Oct-8 30Y). Japan Customs needs raw-HTML parsing outright. **Always re-fetch with an exhaustive prompt before acting on an absence.**
-- **🆕 Never anchor an edit to this file on a `## ` heading string.** Line 5 of the header quotes `## NEXT RUN HINTS` and `## PENDING` by name; a plain `str.index` match on either splices out the whole file body. Run 21 did exactly that and restored from a backup. Use line-start regex plus a uniqueness assert, and `cp` before editing.
-- **🔴 The memory roller's next proposal from this file will be a LIVE block.** `### Run 20 — current dispositions` is a PENDING block *named* like a run-history block, so `RUN_BLOCK` matches it and `PENDING_BLOCK` does not — its closure is judged body-wide and its body says "CLOSED". Only `--keep-runs 3` (window {21,20,19}) spares it. **Once Run 23 is written it becomes the file's sole roll candidate.** Do not apply. See Run 22 item 5.
-- **⛔ RELEASES `✅ CONFIRMED` does not currently mean "observed at the primary."** Three live rows say CONFIRMED on an inference or a self-declared-unreliable fetch (Oct-21 TB, Oct-23 National CPI, Oct-30 BOJ MPM — Run 22 item 2). Until SAM rules on Run-22 proposal 1, **read the row's own prose, not its tick.**
-- **Sep-15 / Sep-29 grading instruments — RULED, no longer open.** 20Y: bars APPLY, PRECISION-LIMITED tag if trip margin <=0.1bp. 40Y: NOT-APPLICABLE, descriptive BTC only, **counter stays 0-of-2**, re-assess at n=5. Both verified against `thesis/AUCTION_GRADING_RULING_2026-09-11.md` at Run 21. Do not re-open; do not import 20Y/30Y tail bars to the 40Y.
-- **BOJ pricing:** current source is `workbook/BOJ_MEETING_OIS.tsv` + `BOJ_OIS_README.md`; `BOJ_OIS.tsv` is frozen history. New images need SAM review. ⚠️ **The 98% now appears in three docket cells while one TSV cell still forbids restating a percentage — PENDING C.** Never conflate the incremental 25bp equivalent with cumulative expected hike counts.
-- **CPI base:** dual 2020/2025 publication runs through December — **name the base on every CPI figure.**
-- **Far horizon:** Nov-9 MOF quarterly and Nov-13 FRBNY are **cadence ESTIMATES** — re-verify at the index pages in early November. MOF stays 🟠 per the Aug-17 ruling (confirmatory depth is not a first answer). Jan-25 2027 NBIM is a report deadline only; it establishes no executed buying and no implementation sequencing.
-- **BND-11:** no new weekly gate without BOND-ratified four-week terms. The 3-week test is SPENT; the single-week form is STOOD DOWN.
-- **Monthly baseline audit:** the inherited Run-19 spec-vs-convention deferral is **still open**; next trigger is the first run of October. Run-21's October work was an explicitly-requested completeness check, **not** the monthly audit, and does not discharge it.
-- **🆕 Rows SAM adds in a catch-up are where the defects enter.** Run 21 found `operation` plus the 10× figure; Run 23 found `data` ×4, the 5-field METI row and a date that was an unlabelled estimate. Every run: `awk -F'\t' '{print NF}' CATALYSTS.tsv | sort | uniq -c` and `cut -f8 CATALYSTS.tsv | sort | uniq -c`. **Check where each newly added date came from before trusting it.**
-- **🆕 METI petroleum preliminary:** the next-release date is printed at the bottom of the latest monthly page, `meti.go.jp/statistics/tyo/sekiyuso/result.html` ("次回の速報公表予定日"). curl with a UA works; the index page and WebFetch return 403. It is not a universe class; the row exists because BRENT's reversal test (Kuwait/Qatar from zero) reads it.
-- **🆕 MOF monthly FX total:** window start = first business day after the prior end (n=40, rule-verified). Release date is **not** reliably the last business day (Aug-2026). Check `feio/monthly/index.html` and treat a no-show as RESOLVED-LATER (Aug-27 ruling).
+- Derive counts, runway and consecutive gaps from TSV every run; no hand-carried cluster counts. Current far-horizon discontinuity is recorded in Run24, not assumed fixed by a distant deadline.
+- Monthly audit due first run of each month: current+following month. October obligation discharged Run24; November run owes Nov+Dec. September prefetch was not a substitute.
+- Full schedule tables and raw header/cell pairing before asserting absence. Alteration pages recheck on audit trigger; current HTTP404 is timestamped, not permanent.
+- Validate 8 columns, strict dates/order, external/sam-internal type tokens and CALENDAR equality. Preserve JGB + auction event tokens.
+- BOJ pricing source: reviewed BOJ_MEETING_OIS; current source-age expiry Oct24 15:15 JST. Never conflate incremental equivalents with cumulative hikes. Source changes require SAM review.
+- 20Y/30Y frozen grading bars unchanged; precision rule unchanged. 40Y descriptive only, no imported tail grade; owner decides n=5 review.
+- CPI base always named; dual publication through December does not license cross-base comparison.
+- MOF monthly/quarterly and FRBNY dates remain estimates unless explicitly source-announced; no-show is RESOLVED-LATER, not missed catch. NBIM January25 is a report deadline, not executed flows.
+- BND11: no replacement without BOND-ratified four-week terms; spent three-week and stood-down single-week forms remain so.
+- Routine MOF weekly/CFTC prints excluded; specific live preregistered gates follow CALIBRATION.
+- Memory roller report-only: known body-wide closure false-positive remains unresolved. Preserve live PENDING and SAM-owned CALIBRATION. Never anchor edits on an unqualified heading substring; line-start match + uniqueness/assert preserved history.
+- Date-basis flags: Nov10 BLS and Oct21/Nov18 trade now OBSERVED Run24. Other old RELEASES claims keep original provenance; ticks alone never authenticate observation.
 
 ## NEXT RUN HINTS
 
-Updated **Run 23, 2026-09-29 ET**. Supersedes the Run-22 list.
+Updated Run24, October20 ET.
 
-1. **If the next run is in October, the monthly baseline audit is DUE** (the Run-19 deferral has ridden five runs). November is pre-fetched in RELEASES with basis tags. What is still owed: `2611ae.htm` again, `2612e.htm`, December (BOJ Dec 17-18, FOMC Dec 8-9 SEP, BLS Dec-10, GDP Dec-8, Tankan December, whose date is **not yet fetched**), and a ruling on PENDING-from-Run-23 B6.
-2. **Sep-30 is a heavy day:** 2Y auction, METI 13:30 JST, BOJ Oct–Dec schedule 17:00 JST, MOF monthly ~19:00 JST. On the next run, migrate every Sep-30 row to a RESOLVED block with its outcome (**Oct-1 onward; prune-eligible from Oct-8**). A MOF-monthly no-show goes down as RESOLVED-LATER, not a miss.
-3. **The Sep 21–24 block becomes prune-eligible Oct-1 (Sep-24 row); Sep 25–29 from Oct-7.**
-4. **Check whether SAM propagated the METI Sep-30 date** to STATUS:85 / NEXUS_BRIEF / MEMORY, and whether BRENT was told (PENDING Run 23 B1). If not, re-escalate. Do not edit those files.
-5. **The OIS expiry row (Oct-3) is now `sam-internal`.** If SAM re-transcribes a new chart before then, the row will be re-dated by SAM. Verify it against `workbook/BOJ_MEETING_OIS.tsv`, not against the docket.
-6. **Roller:** `### Run 20 — current dispositions` and `### 🆕 Run 21 — …` sit in `## PENDING` but match RUN_BLOCK (the leading emoji is tolerated). Run 23's dry run did NOT propose either. It proposed the Run-20 **history** block instead, on the quoted-"closed" false positive (PENDING-E, n=4; Run 23 item 9). **Apply nothing until SAM rules on PENDING E.** This run's pending block is deliberately headed `### PENDING from Run 23`, so only a heading marker can close it.
-7. **Editing this file:** `cp` first; line-start regex; assert exactly one match (the header quotes its own section names); assert the file grew.
-8. **Do not corroborate the docket against itself, and write the basis of every date** (OBSERVED / RENDERED / INFERRED). This run found a date that had been carried for 11 days on an unlabelled "~late Sep/early Oct".
+1. Trade Oct21 08:50 JST = Oct20 19:50 ET; BOJ scheduled purchases Oct21; National CPI Oct23 on 2025 base. Read outcomes from owner before migration.
+2. OIS expiry Oct24 15:15 JST = 02:15 ET; refresh only after SAM review, no stale pricing fallback. BOJ Oct30, SAM42 cutoff Oct31 23:59 JST; no early grade.
+3. November first-run monthly audit covers Nov+Dec. December Tankan summary source date Dec14 08:50 JST now confirmed; GDP Dec8, FOMC Dec9, BOJ Dec18 are leads to refetch. No December TSV seed authorized here.
+4. SAM to decide supplemental Nov5 minutes row and older Run22 spec/roller proposals. All pending history preserved.
+5. Reverify estimated MOF monthly ~Oct30, quarterly ~Nov9 and FRBNY ~Nov13 at source; no automatic confirmation from cadence.
+6. Run roller report-only; never --apply. Keep CALIBRATION unchanged.
 
 ## CALIBRATION (SAM-owned — declined release classes + scope rulings; KOYOMI reads, never writes)
+
+### SAM — Run 24, 2026-10-20
+Monthly October/November accepted: 17 mandatory events checked, 0 gaps; supplemental Nov5 September MPM minutes accepted at primary BOJ schedule (08:50 JST). Raw BLS Nov10 CPI and Customs whole-month provisional basis upgrades verified. 404 alteration URLs mean unavailable at those paths, not proof no amendment. Keep 56-day later gap visible and cover Nov+Dec at first-November run. No declined mandatory release class; no roller authorization.
 
 ### Rulings as of 2026-07-02 (post Run-11)
 - **Declined release classes:** none.

@@ -2,9 +2,11 @@
 
 **Pruned October 15, 2026 (SAM recovery, WQ-436): Oct-13/14 rows resolved and removed — MOF 10/9 print confirmed (10Y 3.027 / 30Y 4.085) · OIS re-reviewed 10/15 11:15 JST (Oct 6%; expiry row re-dated to Mon 10/19) · 5Y auction orderly (BTC 3.560×, tail 0.50bp) · US CPI Sep read 10/15 (+0.6% m/m / 3.7% YoY; core +0.3 / 2.6) · BoP August read 10/15 (CA +¥4,062.0B).** **Pruned October 9, 2026 (SAM post-close touch): Oct-2…Oct-8 rows resolved and removed — Tokyo CPI Sep 2.7/2.7/3.0 · MOF 10/1 10Y 3.092 (new MOF high; 30Y 4.122 not) · OIS re-reviewed 10/9 (Oct 10%) · 10Y auction orderly · 30Y auction NEITHER bar · BoP August CARRIED to 10/13 (not read).** **Pruned October 1, 2026 (SAM L0 wake): Sep-30 and Oct-1 rows resolved and removed (MOF monthly ¥0 · Oct–Dec schedule · 2Y · SoO · Tankan; METI crude-by-source NOT read, carried in MEMORY); OIS expiry moved to Oct-05 on the 10/1 chart.** **Reconciled September 29, 2026 (KOYOMI Run 23: METI August crude-by-source date corrected Oct-02 → Sep-30 at the METI primary; Tankan / Summary of Opinions / Tokyo CPI dates re-confirmed at BOJ and Stats Bureau primaries; >7d resolved rows pruned; forward set in sync with `CATALYSTS.tsv`).** Prior reconcile **September 29, 2026** (SAM news catch-up: Sep 25–29 resolved; four rows added). Prior reconcile **September 20, 2026** (closeout: +Sep-22 OIS expiry row, in sync with `CATALYSTS.tsv`) — 🔴 **SILVER WEEK ADDED: Japan is SHUT Mon Sep-21 → Wed Sep-23 and this surface did not know it.** Also added: the Sep-24 effective date + MOF weekly, and the Sep-25 T-bill/liquidity-enhancement auctions found at the MOF September calendar. All six new rows are in sync with `CATALYSTS.tsv`. Prior reconcile **September 19, 2026** (Sep-18 rows resolved and pruned in sync with `CATALYSTS.tsv`; SAM-28/31 graded). Prior reconcile **September 18, 2026** (post-BOJ sweep; Sep-16/17 rows resolved and pruned to the RESOLVED block below, Oct-2 METI row added in sync with `CATALYSTS.tsv`). Prior reconcile September 15, 2026. Forward dates/events match `CATALYSTS.tsv`, including the October rows omitted from the previous human calendar. Raw BOJ sources settle October 1 Tankan and October 30 Outlook. Earlier preparation and historical resolutions remain in the [before-image](../research/outputs/2026-09-14_stale-sweep/before/docket/CALENDAR.md).
 
-## SEPTEMBER–JANUARY — forward event set synchronized with CATALYSTS.tsv
+**KOYOMI reconciled October 20, 2026:** October/November monthly baseline checked at source; 17 forward universe events, zero gaps. SAM accepted the supplemental November 5 BOJ minutes release; 26 total forward rows. Next first-November baseline must cover Nov+Dec; the Nov30→Jan25 gap is not continuous coverage. September resolved tables pruned under >7d rule.
 
-✅ **September 18 read order EXECUTED:** National CPI (1.9 / 1.7 / 1.9, 2025 base) → BOJ decision (**hiked to 1.25%, 7–2, both dissents DOVISH**) → ✅ **SAM-28/31 GRADED 2026-09-19** (SAM-28 **QUALIFIED / NO-VERDICT** after the PM CATO R4 ruling; SAM-31 **FALSE**) on the terms frozen in `2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md` (record: `2026-09-19_SAM28_SAM31_GRADE.md`). Prediction terms were never changed. **Two predictions remain open:** SAM-33 to Dec-31 and SAM-42 to Oct-31 JST (registered September 29). Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction resolved descriptive-only (BTC 3.096×; see RESOLVED September 25–29); September 15 20Y resolved AMBIGUOUS (record pruned 9/29 — narrative in TIMELINE 2026-09-15 and `../reports/2026-09-15_news-sweep.md`). Recurring releases below are the near-term watch set, not a complete annual calendar.
+## OCTOBER–JANUARY — forward event set synchronized with CATALYSTS.tsv
+
+✅ **September 18 read order EXECUTED:** National CPI (1.9 / 1.7 / 1.9, 2025 base) → BOJ decision (**hiked to 1.25%, 7–2, both dissents DOVISH**) → ✅ **SAM-28/31 GRADED 2026-09-19** (SAM-28 **QUALIFIED / NO-VERDICT** after the PM CATO R4 ruling; SAM-31 **FALSE, interpretive owner judgement with strict single-episode qualification and OPEN Sep-8/9 attribution; matched intraday evidence may reopen the row — see STATUS**) on the terms frozen in `2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md` (record: `2026-09-19_SAM28_SAM31_GRADE.md`). Prediction terms were never changed. **Two predictions remain open:** SAM-33 to Dec-31 and SAM-42 to Oct-31 JST (registered September 29). Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction resolved descriptive-only (BTC 3.096×; see RESOLVED September 25–29); September 15 20Y resolved AMBIGUOUS (record pruned 9/29 — narrative in TIMELINE 2026-09-15 and `../reports/2026-09-15_news-sweep.md`). Recurring releases below are the near-term watch set, not a complete annual calendar.
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
@@ -18,16 +20,17 @@
 | 🟡 Fri Oct 30 2026 | Tokyo CPI, October (preliminary) | Headline / core / core-core on the 2025 base | Prints the MORNING of the BOJ Oct-30 decision. ⚠️ 2025-BASE ONLY; never compare across bases. *(OBSERVED, re-read by SAM 9/29)* | SAM |
 | 🟠 Fri Oct 30 2026 | MOF monthly FX-intervention total (window ~Sep-29→~Oct-28) — ⚠️ DATE IS A CADENCE ESTIMATE | Aggregate yen amount; ¥0 or non-zero | Successor to the Sep-30 row. A no-show on this date is the estimate's other branch, NOT a miss (8/27 ruling) — re-check the next business day. *(INFERRED cadence)* | SAM,HENRY,PROME |
 | 🟡 Thu Nov 05 2026 | JGB 10Y auction | BTC, tail | Belly, not a super-long floor test. *(OBSERVED)* | SAM,LIQUID |
+| 🟡 Thu Nov 5 2026 | BOJ MPM minutes — September 17–18 meeting | Members’ discussion of September policy decision | Policy context; no prediction re-mark inferred; 08:50 JST. *(OBSERVED BOJ MPM schedule, SAM verified October 20)* | SAM |
 | 🟠 Mon Nov 09 2026 | MOF quarterly FX-intervention per-operation disclosure (Jul-Sep 2026 / Q3) — the JAPANESE-side definitive per-op record of the 7/30-31 ops | feio/quarter/2026_3Qe.html (or equivalent) — per-op date + yen amount for each op in the window; total for the quarter | Cadence-derived ESTIMATE, not announced: Q1(Jan-Mar) published May-12 (+42d after quarter-end); Q2(Apr-Jun) published Aug-7 (+38d) — own-verified at feio/quarter/2026_2Qe.html this run, which ALSO confirmed the long-pending per-op breakdown of the already-known ¥11,734.9B Apr-May aggregate (Apr-30 ¥6,278.7B / May-4 ¥780.2B / May-6 ¥4,675.9B — matches STATUS's MOF-monthly-5/29-sourced total exactly). Applying the ~38-42d cadence to Sep-30 quarter-end gives ~Nov-7 to Nov-11; row uses the midpoint. Lands within days of the already-tracked FRBNY Q3 (~Nov-13) row below — TWO independent primaries (Japanese MOF side + US NY-Fed side) converging on the same window for the 7/30-31 op record. ⚠️ Now also owed to break out the RECORD ¥15,399.3B Jul-30->Aug-26 aggregate into its per-op components (7/30 Bloomberg estimate ~¥8.45T, my derived 7/31 residual ~¥6.95T). | SAM,BOND,LIQUID,PROME |
 | 🟠 Tue Nov 10 2026 | JGB 30Y auction — frozen FIRM/SOFT bars apply | BTC and tail vs the frozen bars: SOFT = BTC<3.5 OR tail>2.0bp; FIRM = BTC>=4.0 AND tail<=1.0bp | Apply the PRECISION-LIMITED tag if the trip margin is <=0.1bp. *(OBSERVED)* | SAM,LIQUID,BOND |
 | 🟠 Tue Nov 10 2026 | BOJ Summary of Opinions — October 29-30 MPM | Board members' own words on the Oct decision | First written reasoning after the Oct-30 decision. *(OBSERVED)* | SAM |
-| 🟡 Tue Nov 10 2026 | US CPI, October data, 08:30 ET | Headline / core | Fed-side input. *(RENDERED only — re-confirm)* | SAM,HENRY |
+| 🟡 Tue Nov 10 2026 | US CPI, October data, 08:30 ET | Headline / core | Fed-side input. *(OBSERVED raw BLS schedule October 20; 08:30 ET)* | SAM,HENRY |
 | 🟡 Tue Nov 10 2026 | MOF Balance of Payments, September + 1H FY2026 (preliminary), 08:50 JST | Current account; goods vs primary income split | Denominator for the VECTOR-5 oil-channel verdict. *(carried, not re-fetched)* | SAM |
 | 🟡 Thu Nov 12 2026 | JGB 5Y auction | BTC, tail | Belly. *(OBSERVED)* | SAM,LIQUID |
 | 🔴 Fri Nov 13 2026 | FRBNY Q3-2026 FX Operations quarterly (Jul-Sep) — THE definitive public record of the 7/30-31 US intervention | Table 1 'Net Purchases and Sales' by account = the US-leg SIZE; Table 2 = post-op ESF vs SOMA composition; narrative = currencies sold and whether WAREHOUSING was used | SETTLES THE ONLY QUESTION LEFT: was the US leg Treasury/ESF-ONLY or joint ESF+SOMA? Capacity is NOT the issue (no balance-sheet ceiling at the $5-10B scale) - participation is. If SOMA participated above $5B it required a FULL FOMC direction under the Foreign Authorization ¶3.A (<=$5B = Subcommittee); the ESF has no such gate. Q1-2026 recorded Jan USD/JPY rate-checks made 'solely on behalf of the U.S. Treasury', implying no Fed leg | SAM,BOND,LIQUID,PROME |
 | 🟠 Mon Nov 16 2026 | Japan GDP Q3 1st preliminary, 08:50 JST | q/q annualised; private consumption; external demand | First activity read spanning the September hike and the oil shock. *(OBSERVED)* | SAM |
 | 🟡 Wed Nov 18 2026 | JGB 20Y auction | BTC, tail | Frozen bars APPLY at this tenor; PRECISION-LIMITED tag if the trip margin is <=0.1bp. *(OBSERVED)* | SAM,LIQUID |
-| 🟠 Wed Nov 18 2026 | Japan trade balance, October (provisional) | Balance; read crude VOLUME, not crude value | Oil-in-yen inversion test repeats. Quantities, prices and currency stay separate. *(date OBSERVED)* | SAM |
+| 🟠 Wed Nov 18 2026 | Japan trade balance, October (provisional) | Balance; read crude VOLUME, not crude value | Oil-in-yen inversion test repeats. Quantities, prices and currency stay separate. *(OBSERVED whole-month provisional column, 08:50 JST; raw Customs rechecked October 20)* | SAM |
 | 🟡 Fri Nov 20 2026 | Japan National CPI, October | Headline / core / core-core, 2025 base | Specify the base; parallel 2020/2025 publication continues through December. *(OBSERVED)* | SAM |
 | 🟡 Wed Nov 25 2026 | JGB 40Y auction — descriptive only | BTC, accepted amount, cutoff yield vs the 40Y's own series | NO FIRM/SOFT grade (ruling 2026-09-11). Series so far: May 2.702 / Jul 2.824 / Sep 3.096. *(OBSERVED)* | SAM,LIQUID |
 | 🟡 Fri Nov 27 2026 | Tokyo CPI, November (preliminary) | Headline / core / core-core, 2025 base | 2025-BASE ONLY. *(OBSERVED)* | SAM |
@@ -44,27 +47,7 @@
 | October 19 OIS expiry; follow-up October 20 | New October 20 15:15 JST image reviewed: Oct 5%, Dec 76%, April cumulative 1.93. Next source-age expiry October 24 above. |
 | October 20 20Y auction | BTC 5.844× / tail 0.6bp → FIRM, not precision-limited; source arithmetic verified. Buyer identity unknown. |
 
-## ✅ RESOLVED September 25–29 (pruned 2026-09-29, news catch-up)
-
-| Date | Event | Outcome |
-|---|---|---|
-| Fri Sep 25 | MOF weekly (wk Sep-13→19) | **NOT published** — still absent 9/29 12:48Z. Carried forward to Thu Oct-01. |
-| Fri Sep 25 | CFTC (Sep-22 positions) | **Net +71,982 LONG, −48,377** (40% of the long cut); TFF lev +7,423 / AM +41,629. OI −164,101 — mostly Sep delivery (June showed the same step). |
-| Fri Sep 25 | T-bill + liquidity-enhancement auctions; BOJ BIS banking stats | Not graded (no super-long bearing; not the global GLI). |
-| Fri–Mon Sep 25–28 | **Joint US–Japan verbal campaign** (Katayama/Trump-summit disclosure 9/25, Bessent "desirability of a strong yen" 9/25, Mimura "face value" 9/28) | USD/JPY 159.036 peak → 156.498 low; completed closes 157.185 / 157.433. **No rate check or operation found.** Playbook 2026-09-29 entry. |
-| Mon Sep 28 | BOJ July MPM minutes | Hawkish ("anchoring" underlying CPI at 2%; "double shock" warning) — per 2+ outlets, primary not read. |
-| Mon Sep 28 | BOJ OIS 4-day expiry (Sep-24 quote) | Expired; **new chart 9/29 15:15 JST transcribed same day** (Oct 36% / Dec 72% / cum 2.48). |
-| Tue Sep 29 | 40Y auction | **BTC 3.096× · highest accepted 4.125% · ¥299.7B** — firmest of the 40Y's n=3 series (May 2.702 / Jul 2.824). Descriptive only, no grade (ruling 9/11). |
-
-## ✅ RESOLVED September 21–24 (pruned 2026-09-24, catch-up session)
-
-| Date | Event | Outcome |
-|---|---|---|
-| Mon–Wed Sep 21–23 | Silver Week — Tokyo shut | **No confirmed intervention.** USD/JPY completed closes 157.311 / 157.470 / **158.266** (9/23 high 158.401 — first close above the 9/18 rate-check high of 158.054). London/NY traded thin. |
-| Tue Sep 22 | BOJ OIS 4-day expiry (Sep-18 quote) | Expired as predicted; **re-dark period ended 9/24** when a new chart (SHA `1f79f491…`, 2026-09-24 15:15 JST) was transcribed by SAM. Whether the publisher skipped the holidays is **not established** — only that no chart was ingested between. |
-| Thu Sep 24 | BOJ 1.25% effective; Tokyo reopens | Reopen ~157.87 low at 01:00Z, then a grind up to **159.036** high [15:00Z]. **MOF published the backlogged Sep-18 curve 9/24 ~08:58 JST** (10Y 2.981 / 30Y 4.044 / 40Y 4.033). MOF weekly **did NOT publish** — see forward row. |
-
-*Oct-30 + Nov rows: KOYOMI Run 23, applied 9/29; sources → `RELEASES.md`.*
+*Pruned October 20 (KOYOMI Run 24): September 21–29 resolved tables, all >7d; outcomes remain in TIMELINE September 24/29 and October 1, the September 29 news record, and prior calendar Git history. October 20 resolved block retained.*
 
 ## 🔭 BEYOND THE 6-WEEK HORIZON
 
@@ -72,7 +55,7 @@ November MOF/FRBNY estimate dates and the January NBIM deadline are included in 
 
 ## INTERVENTION WATCH — September 9 follow-through
 
-**Current live state is NOT this section — it is `../STATUS.md` § INTERVENTION STATUS** (as of 9/29: T1 rate check ~158 on 9/18, then a joint US–Japan verbal campaign 9/25–28 with no operation found). The dated hard-evidence rows are in the forward table: MOF monthly **Sep-30**, MOF quarterly **~Nov-9**, FRBNY Q3 **~Nov-13**. *(Pointer added KOYOMI Run 23; the section body below is the Sep-9 record.)*
+**Current live state is NOT this section — it is `../STATUS.md` § INTERVENTION STATUS** (October 20 owner sweep: no new intervention or rate check established; current ladder and qualifications live there). The dated hard-evidence rows are in the forward table: MOF monthly **~Oct-30** (estimate), MOF quarterly **~Nov-9**, FRBNY Q3 **~Nov-13**. *(Pointer added KOYOMI Run 23; the section body below is the Sep-9 record.)*
 
 Independent broker baseline found; Sep-9 FINAL −¥3,590B = provisional, +¥10B vs the Ueda Sep-3 forecast — the Sep-9 leg is closed as anticipated fiscal. Sep-8 residual remains unexplained; see `../reports/2026-09-10_news-catchup.md` §2 and `../reports/2026-09-09_followthrough.md`.
 
@@ -95,8 +78,8 @@ Live observations belong in STATUS; evidence and source limits in `../reports/20
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| JGB 30Y | **4.0% = demand FLOOR with a named bid under it** (Meiji Yasuda) — not a clean disorderly trigger | SAM-26 trap / CH-014. Aggregate auction strength does not identify named buyers; use the current JGB supply/demand owner assessment. **Sep-15 20Y resolved AMBIGUOUS; Sep-29 40Y resolved descriptive-only (BTC 3.096×). Next: Oct-8 30Y uses frozen bars and precision ruling.** |
-| JGB 30Y | **4.5% disorderly** | v1.6.7 J-GAAP statutory-impairment **TAIL** — mid-cap Fukoku/Asahi bifurcation watch; precursor only, not an entry trigger |
+| JGB 30Y | **4.0% = demand FLOOR with a named bid under it** (Meiji Yasuda) — not a clean disorderly trigger | SAM-26 trap / CH-014. Aggregate auction strength does not identify named buyers; use the current JGB supply/demand owner assessment. **October 20 20Y resolved FIRM; buyer identity unknown. Next 30Y: November 10, frozen bars and precision ruling unchanged.** |
+| JGB 30Y | **4.5% disorderly** | v1.6.7 J-GAAP statutory-impairment **TAIL** — mid-cap impairment-mechanism watch; precursor only, not an entry trigger. Fukoku now plans H2 20Y/30Y buying; do not carry ongoing 30Y avoidance (STATUS October 20) |
 | JGB 10Y | >2.40% = stress crossover | Structural watch only; current level and applicability belong in STATUS. |
 | Lifer long-end demand | absence = J-ICS amplifier active | DOMESTIC mechanism; **not** transmitting to foreign-asset selling — that is the whole reason Ch1 retired |
 | MOF ITS weekly | >¥1.5T selling = stress (**stress line UNCHANGED and still live**) | 🔧 **BND-11 RULING 2026-08-07 — the 3-week durable/transient test is SPENT and INCONCLUSIVE, and the single-week form is STOOD DOWN, not re-termed.** It could not have resolved: the registered **≥+¥500B bar sits at 0.49σ** of the weekly series' own dispersion (σ ≈ ¥1.02T, n=26), i.e. **inside noise** — 4 sign flips in the last 8 weeks; the 7/16 DURABLE call rested on a single +¥1.090T week and was overturned by the next two. **Setting fresh single-week terms would repeat the defect.** SAM proposes a **4-week rolling-sum** replacement; **BND-11 is BOND's gate, so BOND ratifies the terms** — routed with the dispersion table. That historical August 7 reading was **+¥33B ≈ FLAT; current weekly data live in STATUS**, which is what the 3-week test was groping toward. *(Class: calibrate a threshold against the instrument's own dispersion before writing its event table.)* |
@@ -106,7 +89,7 @@ Live observations belong in STATUS; evidence and source limits in `../reports/20
 
 ## ENERGY / RISK-OFF WATCH — September 8 assessment
 
-Compare physical supply, freight/insurance and oil-in-yen separately; stronger yen can cushion oil costs without eliminating the headwind. Genuine risk-off evidence is required for SAM-31. Current observations and limitations → `../reports/2026-09-08_catchup-assessment.md` §3–4. Forward EIA/CFTC dates are in the event table above; retired entry framing stays retired.
+Compare physical supply, freight/insurance and oil-in-yen separately; stronger yen can cushion oil costs without eliminating the headwind. Genuine risk-off evidence is required for SAM-31. Current observations and limitations → `../reports/2026-09-08_catchup-assessment.md` §3–4. Routine MOF weekly/CFTC telemetry remains outside the dated feed; retired entry framing stays retired.
 
 ## RETAIL / NISA FLOW MONITOR (added 2026-06-15 — structural counter-flow + latent carry-unwind amplifier; KB-SAM-193 / THESIS § STRUCTURAL COUNTER-FLOW)
 
@@ -122,7 +105,7 @@ Compare physical supply, freight/insurance and oil-in-yen separately; stronger y
 
 ## GEOPOLITICAL WATCH — September 8 owner assessment
 
-Track documented supply and delivery disruption separately from statements, closures and ceasefire claims. Follow physical restoration assumptions at the EIA publications above; event interpretation belongs to SAM and the energy owners. Current evidence → `../reports/2026-09-08_catchup-assessment.md` §4. Prior dated theater narrative → TIMELINE and the pre-catch-up calendar snapshot.
+Track documented supply and delivery disruption separately from statements, closures and ceasefire claims. Follow physical restoration evidence in the energy owners’ dated assessments; event interpretation belongs to SAM and the energy owners. Current evidence → `../reports/2026-09-08_catchup-assessment.md` §4. Prior dated theater narrative → TIMELINE and the pre-catch-up calendar snapshot.
 
 ---
 

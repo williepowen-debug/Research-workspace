@@ -34,6 +34,10 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 ## CHANGES SINCE LAST RUN
 
+### Run 25 (October 20, 2026 ET — compressed-history; watermark Run 24)
+
+Owner integration `ad61cfd51`; TRADE last edited `77f9bbfb9`, STRATEGY September 24. No October trade-doc edits. Run24 splice/HENRY fixes verified landed in actual `77f9bbfb9` diff (LIQUID half explicitly declined). Current v1.7 remains retired LOW/no successor; no rules/marks changed. Boot predictions reader now returns 2 OPEN/35 validated: SAM-33 and SAM-42.
+
 ### Run 24 (September 29, 2026 ET, 09:46 EDT — `compressed-history` mode; watermark Run 23)
 
 **Step zero:** trade docs last written `547d03c80` (2026-09-24 17:20, both docs); nothing since. HEAD `b3a5cc13b`. SAM marked PENDING 18/19/20/22/23 CLOSED in their HEADINGS and rolled them (7 blocks, archive 130,168 → 176,368 B). Run-23 F1/F2/R1/R2 all verified APPLIED at the artifact (diff `a8d1f3dec..547d03c80`). Run-21 PENDING items 1/2/3/5/6 still unapplied (roller last changed 9/11; `METSUKE.md` still names SAM-21/23/24/26 and the 20K/370K table). State 9/24 → 9/29 (SAM `51d70a248`): joint US–Japan VERBAL campaign (Bessent 9/25, Mimura 9/28) took USD/JPY 159.036 → 156.498 with no operation found; ladder T2-equivalent, not T3. CFTC Sep-22 +71,982 long (−48,377). BOJ OIS 9/29 Oct 36 / Dec 72 / cum 2.48. 40Y BTC 3.096×. VECTOR-5 leg (c) LAPSED 9/25. SAM-33 ops audited through 9/29, still OPEN. THESIS v1.7 unchanged (integration header + Channel 3 rider); CHANGELOG 2026-09-29 logs it, so there is no CHANGELOG-GAP. Book FLAT.
@@ -269,6 +273,22 @@ State-of-truth movement since STRATEGY.md `Last Updated: 2026-05-28`:
 
 ## LAST RUN
 
+### Run 25 — 2026-10-20 ET (full allowed-perimeter check; compressed-history; PROPOSE ONLY)
+
+**2 STALE-FRAMING clusters; other taxonomy classes 0.** Frozen August7 interiors not re-graded. Latest sweep `research/outputs/2026-10-20_sweep/NEWS_SWEEP.md`, owner `ad61cfd51`; THESIS header/channels and newest October20/October1 CHANGELOG/TIMELINE agree on v1.7 unchanged/no promotion. No trade/rules/marks changed in sweep.
+
+**F1 (both banners L34):** “**Only SAM-33 remains open**, to Dec-31.” `boot.py --predictions` rc0 mechanically derives 2 OPEN/35: SAM-33 (`thesis/PREDICTIONS.tsv:49`) and SAM-42 (:78, cutoff October31 23:59 JST); STATUS §PREDICTIONS agrees. This standalone current claim is separate from the historical grade summary above it. Proposed exact replacement: “Current OPEN predictions → `thesis/PREDICTIONS.tsv` (derive with `scripts/boot.py --predictions`); no retired entry rule re-arms.” Avoid another hand-copied count/ID mirror.
+
+**F2 (both banners L28, TRADE L300, STRATEGY L232):** current grade-summary riders say “SAM-31 FALSE” without its standing qualification. `docket/2026-09-19_CATO-R4-RULING.md:215` says “Preserve the qualification whenever this row is reported”. STATUS §PREDICTIONS requires interpretive regime-reading judgement, strict-single-episode QUALIFIED alternative, unresolved late return/July13, and re-openability. PREDICTIONS :48 already says “FALSE (channel/regime reading, same-clock evidence; QUALIFIED under a strict single-episode reading — see notes)”. Proposed surgical addition at current summary sites: “SAM-31's FALSE is an interpretive regime-reading judgement with standing qualifications; see STATUS §PREDICTIONS and CATO R4 ADDENDUM 2.” SAM decides wording; no grade, terms, qualification text or frozen-interior rewrite proposed. This is an omitted caveat, not a new October adjudication.
+
+**Checked clean / DO-NOT-TOUCH:** historical warning; no-successor/no-rearm; corrected CFTC basis; SAM28 qualification; SAM39 letter/spirit; conditional mixed JGB demand and oil/FX/physical limits; research watchlists; TLT named-institution/two-window rule; Totan source/units/review dependency; historical probability pointer adjective. No new live spot/pricing mirror. Former forward tables explicitly FROZEN HISTORICAL since September11: missing October dates are not CAL-DRIFT. Date baseline = frozen PRE-RUN `reports/2026-10-20_subagents/snapshot/CALENDAR.md` and `CATALYSTS.tsv`; parent reconciles concurrent KOYOMI final changes. Extracted 49 unique-per-doc file tokens: 45 resolve contextually; remaining two explicitly withdrawn peer TRADE references and two historical remote BOJ xlsx filenames are not broken current links. Historical 160 title, August narrative, option/position/rule figures stay protected.
+
+**Old obligations checked at sources:** Run24 both actual fixes landed at `77f9bbfb9`; Run21 item1 remains DEFERRED in SAM MEMORY TIER2, and actual roller NEVER_ROLL still protects hints/changes. Other Run21 items dispositioned at `77f9bbfb9`, visible in charter and retired monitors. No old pending claim resurrected; archives not auto-loaded. Only actual new obligations are F1/F2.
+
+**Runtime:** OpenAI Codex helper `/root/metsuke`; exact model/session UUID UNKNOWN (not exposed); inherited cwd `AGENTS/SAM`, root resolved `/home/willi/Research-workspace`. Explicit root CLAUDE/AGENTS/USER, SAM CLAUDE and METSUKE charter reads; COMPLETION and runtime mechanics read. Shell/files and parent task messaging verified; native fleet discovery/peer transport not used. Only this memory written. No pull/commit/push/full boot/spawn/peer send/money proposal/calibration edit. Mandatory roller/check receipt follows below.
+
+**Run25 explicit closeout receipt:** report-only roller rc0, “nothing terminal to roll”, freed 0B; --apply never used. Calibration SHA256 unchanged at `61f4c48230727a23700bcbe371b03907529a367e6eb0ce3a38b926c3ac446b7d` (actual anchored CALIBRATION section; malformed ownership preamble is not the section). Size after save 360832 bytes, delta 5684 bytes from pre-run 355148; projected freed 0B. Memory saved before delivery. Only changed path `AGENTS/SAM/METSUKE_MEMORY.md`; TRADE/STRATEGY unchanged by this helper. Work complete, no helper work outstanding; SAM owns F1/F2 disposition and deferred roller repair. No commit/push performed.
+
 ### Run 24 — 2026-09-29 ET (post-verbal-campaign catch-up, `compressed-history` mode; PROPOSE ONLY)
 
 **Outcome: 2 🟡 new flags. Both are defects in fix riders, and one of them came from my own Run-22 wording.** 0 flags come from the 9/25–9/29 market move. 0 MONEY-FIELD-ESCALATION (24th consecutive run). 0 STALE-MARK, 0 DUP-LIVE-SPOT, 0 TRIGGER-STATUS-DRIFT, 0 CAL-DRIFT, 0 CHANGELOG-GAP. Evidence: HEAD `b3a5cc13b`; trade docs clean in the working tree.
@@ -427,6 +447,13 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### Pending from Run 25 — 2026-10-20 — CLOSED by SAM 2026-10-20; F1/F2 applied
+
+SAM verified and applied both clusters to current banners and current grade-summary riders only. Current OPEN set uses canonical pointer; SAM-31 carries interpretive regime/strict single-episode/OPEN attribution/late-return/July-13 conflict qualifications. No regrade, money or frozen-interior change.
+
+1. F1 current OPEN-set mirror, both banners L34: replace with canonical pointer.
+2. F2 current SAM31 summary qualification: preserve standing caveat/pointer without changing grade or frozen interior.
+
 ### Pending from Run 21 — 2026-09-11 (SELF-AUDIT) — 🟠 ONE ITEM LEFT: items 2, 3, 5, 6 dispositioned by SAM 2026-09-29 (4 earlier); **item 1 DEFERRED** — a roller-eligibility change to `scripts/subagent_memory_roll.py` needs its own scoped session with tests, not audit spillover (tracked in SAM `MEMORY.md` TIER 2)
 
 1. **🔴 STRUCTURAL — roll-off is losing ~26K B/run and the roller is aimed at the wrong 26% of the file.** Three mechanical eligibility changes to `scripts/subagent_memory_roll.py` + `METSUKE.md` §📏 rule 4, in descending value: **(a)** roll `### Forward hints for Run N` / `### After Run N` on **RECENCY**, keeping only the latest vintage — a consumed hint needs no closure marker because **consumption is proved by the existence of the next run's block** (the PROVABLE-LANDING criterion SAM already ratified for `kura_proposal_roll.py`, which is stronger than a marker): **−114,743 B**; **(b)** same recency rule for `## CHANGES SINCE LAST RUN`, keeping the current run's delta: **−39,536 B**; **(c)** keep the last two `### Run N` blocks inside `## LAST RUN`, roll the rest: **−13,530 B**. Combined **−167,809 B = 46% of the file**, spawn read ~90K → ~48K tokens, and per-run growth falls from +26,292 to roughly +4,000. ⛔ Needs a `NEVER_ROLL` amendment: those three sections are working sets **at one vintage**, which is not what the current rule says.
@@ -448,6 +475,8 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 *All 4 Run-1 PENDING items resolved this turn — see LAST RUN > SAM-applied for the Stage-3 rewrite, VOL SIGNALS reset (3-of-3 directional), Key Check Dates roll-forward, and header sync stamp. No carryover.*
 
 ## STANDING MONITORS (surface each run)
+
+- **Run25 current-summary guard:** derive OPEN set rather than carry IDs/counts in current banner; preserve mandatory owner grade qualifications in current summaries. Do not extend to frozen interior re-grading.
 
 - **🆕 Run-24 SPLICE CHECK (extends Run-23 FRESH-WRITE INTEGRITY):** checking a rider's END for truncation is not enough. Also read the ORIGINAL sentence around an inserted rider from start to finish, *with the rider removed*. An insertion mid-sentence can leave the old false claim as the grammatical frame, as `TRADE.md:185` "… section above" did.
 - **🆕 Run-24 A CAUSE I WROTE IS THE ONE LEAST CHECKED:** Run-22 F5 gave "HENRY deleted at `86e22c293`" and Run 23 re-certified it, but that commit is a RENAME. Before stating any cause commit, run `git show -M --summary <sha>` and read `rename` against `delete`. "Does not exist" and "deleted at X" are two claims.
@@ -539,6 +568,9 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 ## CALIBRATION
 
+
+### SAM — Run 25, 2026-10-20
+Accepted 2/2 stale-framing clusters; canonical pointer replaces hand-maintained OPEN count in both banners. SAM-31 current summaries now preserve the standing CATO qualifications, without revising terms or grade. Other compressed-history perimeter clean as audited; not certification of frozen interiors. Roller remains report-only.
 *SAM-owned. METSUKE does NOT edit this section. Records SAM's pattern of which flag categories SAM accepts/applies vs declines, and what makes the difference. Lets METSUKE bias future reporting toward what SAM actually treats as drift.*
 
 ### After Run 14 (2026-08-07) — the thesis-break run. **Recorded honestly, including where the metric breaks down.**
@@ -604,6 +636,10 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 ---
 
 ## NEXT RUN HINTS
+
+### After Run 25 — current instructions (October 20)
+
+Verify F1/F2 at actual artifacts and SAM disposition. Run24 fixes proved landed; old Run21 roller eligibility repair remains separately scoped/tested. Keep compressed-history perimeter, derive OPEN rows mechanically, preserve current-summary qualifiers. Parent reconciles KOYOMI against frozen baseline. Report-only roller, never --apply.
 
 ### After Run 24 — current instructions (September 29)
 
