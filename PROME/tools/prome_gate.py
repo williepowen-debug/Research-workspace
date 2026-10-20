@@ -1196,7 +1196,9 @@ def check_symmetry():
     boot_reads = set()
     for ln in seq.splitlines():
         if re.search(r"\bRead\b", ln):
-            boot_reads.update(re.findall(r"`((?:PROME/)?[A-Z][A-Za-z_]+\.(?:md|tsv))`", ln))
+            # 2026-10-20: lowercase directory segments allowed — the old pattern could not see
+            # `PROME/state/CALENDAR.md` / `PROME/state/SPAWN_SLATE.md`, so it passed them unexamined.
+            boot_reads.update(re.findall(r"`((?:PROME/)?(?:[a-z_]+/)*[A-Z][A-Za-z_]+\.(?:md|tsv))`", ln))
     sym = close.split("## Boot↔Closeout symmetry", 1)[-1].split("\n## ", 1)[0]
     missing = sorted(s for s in boot_reads
                      if Path(s).name not in sym and s not in sym)

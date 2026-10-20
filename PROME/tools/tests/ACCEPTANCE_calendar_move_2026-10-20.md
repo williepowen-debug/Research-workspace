@@ -19,3 +19,18 @@ Written BEFORE editing (WQ-229).
 - **Wrong owner:** `scripts/docket_view.py` is SHARED (AUDIT_PERIMETER). It is not edited; only its target path changes.
 - **Missing information:** a session that reads SCRATCH whole and expects the calendar there. Covered by the pointer line (2) and BOOT step 2 (5).
 - **Concurrent activity:** other desks are live. PROME-only paths, pathspec commits.
+
+## Addendum — fleet-doc acknowledgement sweep (Will 13:21 ET: *"make for the calendar is aknowledged/supported by boot up/close out and direction documents inside PROME"*)
+- Pointed at `PROME/state/CALENDAR.md`:
+  - BOOT step 2 and step 8
+  - BOOT_MODULES need→read row
+  - CLOSEOUT generated-blocks line, step 1 command, symmetry table (new row; DOCKET row's views)
+  - SYSTEM doc table (new row; SCRATCH row no longer claims catalysts) and the canonical-sources row
+  - STATUS work-queue pointer
+  - boot and closeout skills, both copies, parity kept
+- **Instrument defect found and fixed:** `prome_gate.check_symmetry()` harvested boot reads with `` `(?:PROME/)?[A-Z]…` ``. It could not see any path with a lowercase directory, so it passed `PROME/state/CALENDAR.md` unexamined.
+  - New pattern allows lowercase segments.
+  - Counterexample: with the CALENDAR row removed, the check flags it.
+  - Its first honest run also surfaced `PROME/state/SPAWN_SLATE.md` and the pre-existing `PROME/BOOT_MODULES.md` gap. Both are declared one-way in CLOSEOUT.
+  - Result: "9 boot-read surfaces all registered".
+- State: IMPLEMENTED · TESTED. NOT independently verified (Will asked for no spawns at boot; reader offered).

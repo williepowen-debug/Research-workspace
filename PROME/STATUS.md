@@ -6,7 +6,7 @@
 
 ## Current Work Queue — PROME's own actions
 
-Immediate priorities, blockers, management clocks and required direct calendar reads → [SCRATCH](SCRATCH.md#-next-session--start-here). Continuity and older unresolved tails → [HANDOFF](HANDOFF.md). This is a selected source index, not another task ledger. Re-check byte flow at any append or next weekly spine audit, whichever first (`scripts/read_cap_check.py --agent PROME --require-manifest`).
+Immediate priorities, blockers and management clocks → [SCRATCH](SCRATCH.md#-next-session--start-here); the forward calendar → [state/CALENDAR.md](state/CALENDAR.md) (generated from DOCKET). Continuity and older unresolved tails → [HANDOFF](HANDOFF.md). This is a selected source index, not another task ledger. Re-check byte flow at any append or next weekly spine audit, whichever first (`scripts/read_cap_check.py --agent PROME --require-manifest`).
 
 | Subject | Authoritative record / field | PROME's remaining work |
 |---|---|---|

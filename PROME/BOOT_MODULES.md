@@ -17,7 +17,7 @@
 | Need | Read / Use |
 |---|---|
 | Market prices / dashboard | Read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
-| Forward catalyst dates / fire-time artifacts | **`PROME/DOCKET.tsv` = canonical** (SCRATCH card + HEARTBEAT gates are views); `scripts/firetime_check.py` = the freshness checker (boot gate above). |
+| Forward catalyst dates / fire-time artifacts | **`PROME/DOCKET.tsv` = canonical** (`PROME/state/CALENDAR.md` = the generated calendar view, read at BOOT step 2; SCRATCH card + HEARTBEAT gates are views); `scripts/firetime_check.py` = the freshness checker (boot gate above). |
 | Spine reconciliation (weekly) | `/spineaudit` → `PROME/tools/spine_audit.workflow.js`: 8 paired spine readers (including runners vs manuals) + 1 anchor reader sampling DOCKET's >7d PENDING tail at source; `firetime_check` covers ≤7d. Run when STATUS's stamp is >7d. Fix by delete-and-point, not accumulating correction tags; canon sweeps follow SYSTEM's Mirror Map. |
 | News routing / data feeds | Always-on collection runs in the **RESEARCH-INTAKE** repo (GitHub Actions; `[[project_research_intake_collection_lane]]`). **WALTER owns lane consumption; PROME never boot-reads the lane.** `FORGE/tools/news-sweep/sweep.py` = entity-index edits only (no cron). |
 | Roster / classification / fleet scan | `PROME/ROSTER.md` (activity and responsibility classes; refresh via commit-activity map, `[[finding_verify_roster_by_commit_activity]]`) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (maturity, DAEDALUS-owned) + `PROME/ORCHESTRAL_LAYER_DESIGN.md`. `PROME/FLEET_SCAN.md` is historical, never boot-read. |
