@@ -339,7 +339,7 @@ def _yf_ticker(t: str) -> str:
     return t.replace(".", "-")
 
 
-def layer_contributions(h: dict, holdings_asof: str):
+def layer_contributions(h: dict, holdings_asof: str, benchmark: str = "SPY"):
     """Decompose the index move into declared layers. Returns (rows, note).
 
     rows = list of dicts, one per window in LAYER_WINDOWS. On any failure returns
@@ -354,7 +354,7 @@ def layer_contributions(h: dict, holdings_asof: str):
 
     names = sorted(h.keys())
     tmap = {_yf_ticker(t): t for t in names}
-    want = sorted(tmap.keys()) + ["SPY"]
+    want = sorted(set(tmap.keys()) | {benchmark})
 
     # ~250 calendar days back covers the 63-trading-day window with slack.
     start = d - _dt.timedelta(days=200)
@@ -363,7 +363,7 @@ def layer_contributions(h: dict, holdings_asof: str):
                          progress=False, auto_adjust=True)["Close"]
     except Exception as e:  # noqa: BLE001
         return [], f"ERR:download-{type(e).__name__}"
-    if px is None or px.empty or "SPY" not in px.columns:
+    if px is None or px.empty or benchmark not in px.columns:
         return [], "ERR:no-price-frame"
     px = px[px.index.date <= d]
     if len(px) < max(LAYER_WINDOWS) + 1:
@@ -391,7 +391,7 @@ def layer_contributions(h: dict, holdings_asof: str):
                               ("PLATFORM", LAYER_PLATFORM), ("LEGACY", LAYER_LEGACY))}
     miss_note = ";".join(f"{g}-missing:{','.join(v)}" for g, v in missing.items() if v)
 
-    spy = px["SPY"].dropna()
+    spy = px[benchmark].dropna()
 
     # --- DAILY-CHAINED weights [see WHY, above] -----------------------------
     # w_i,t is rebuilt each day from shares x close, so the weight PATH is used

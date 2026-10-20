@@ -1,0 +1,515 @@
+{
+  "markdown_calendars_scanned": 10,
+  "structured_pairs": 437,
+  "structured_matches": 84,
+  "additional_iso_calendar_matches": 16,
+  "combined_date_matches": 100,
+  "nonpoint_addressed_rows_classified": 51,
+  "calendars": [
+    {
+      "path": "AGENTS/AEOLUS/CALENDAR.md",
+      "explicit_iso_dates": 27,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/CORAL/CALENDAR.md",
+      "explicit_iso_dates": 7,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/CREED/CALENDAR.md",
+      "explicit_iso_dates": 6,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/FLG/CALENDAR.md",
+      "explicit_iso_dates": 17,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/HAWK/CALENDAR.md",
+      "explicit_iso_dates": 5,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/LIQUID/CALENDAR.md",
+      "explicit_iso_dates": 40,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/OZK/CALENDAR.md",
+      "explicit_iso_dates": 5,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/RED/CALENDAR.md",
+      "explicit_iso_dates": 5,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/REGINALD/CALENDAR.md",
+      "explicit_iso_dates": 24,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    },
+    {
+      "path": "AGENTS/VIOLET/CALENDAR.md",
+      "explicit_iso_dates": 0,
+      "interpretation": "All explicit ISO dates, including history/prose. No month/day guessing or event/delivery claim."
+    }
+  ],
+  "extra_matches": [
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-10",
+      "recipient": "AEOLUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-11-01",
+      "recipient": "AEOLUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 49,
+      "date": "2026-10-13",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 59,
+      "date": "2026-11-05",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-22",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 44,
+      "date": "2026-10-19",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-16",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-10-21",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 33,
+      "date": "2026-11-05",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-10-01",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    }
+  ],
+  "nonpoint_rows": [
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "recurring-Wed",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "recurring-op",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "recurring-wk",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "watch",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "watch",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "watch",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "~mid-Oct 2026 (ATTOM Q3 report) \u2014 \u26a0\ufe0f\u26a0\ufe0f RE-KEYED 2026-08-22: THE MONTHLY PRESS RELEASE IS NOT A RELIABLE INSTRUMENT AND THIS ROW SHOULD NEVER HAVE BEEN KEYED TO ONE. Superseded keys preserved verbatim: \"~mid-to-late Aug \u2014 CHECKED 2026-08-14, NOT YET PUBLISHED, NOT LAPSED\" and before it \"~mid-Aug\"",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "standing (quarterly + event-driven)",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-22 (PHM Q3, ISSUER-STATED) / 2026-10-29 (DHI FQ4, ISSUER-STATED)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "standing \u2014 CHECKED 2026-10-19: WAITING-ON-INSTRUMENT; revisit with next registered Miami condo read",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "standing (from 2026-03 reporting)",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "standing (from 2026:Q1 reporting) \u2014 \u26a0\ufe0f MEASUREMENT BREAK, NOT A CATALYST",
+      "classification": "recurring/watch/standing"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "RESOLVED 2026-10-15 \u2014 KILL EXECUTED (inside the 10/31 deferral): MF maturity-adjusted ABSENT AT SOURCE a third consecutive month (Jul \u00b7 Aug \u00b7 Sep data); September PDF read in full at trepp.com/hubfs. Prior key: \u26d4 OPEN \u2014 LAPSED (owed since ~10/01) \u00b7 DATED DEFERRAL to 2026-10-31",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "RESOLVED-2026-09-29 \u2014 WILL RULED (his own word, in HOMER's session): >100K / >130K / >175K on STARTS, severity ladder only; INSTALLED (charter + PIPELINE.tsv first reading Q2 81,935 below Yellow)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "monthly, ~24th-28th \u2014 AUGUST CONSUMED 2026-09-29; SEPTEMBER NOT OUT at 2026-10-15 11:16 ET (URL 404); NEXT: ~2026-10-22/28",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "monthly, ~end of month/1st-3rd \u2014 SEPTEMBER CONSUMED 2026-10-15 (report dated 9/30); NEXT: OCTOBER ~2026-10-29/11-03",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "monthly, ~17th-19th \u2014 AUGUST CONSUMED 2026-09-24 (CB26-147); NEXT: 2026-10-20 (issuer-stated)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "monthly, ~24th-27th \u2014 AUGUST CONSUMED 2026-09-24 (CB26-155); NEXT: 2026-10-27 (issuer-stated)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "monthly, ~2nd week \u2014 SEPTEMBER CONSUMED 2026-10-15 (pub 10/14: 62.6%, record; Aug RESTATED 57.9 \u2192 56.9); NEXT: OCTOBER ~2026-11-10/14",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "monthly, last Tue \u2014 JULY CONSUMED 2026-09-29 PM at ISSUER PRIMARY (national +1.93%, June rev +1.6%); NEXT: AUGUST ~2026-10-27",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "RESOLVED-2026-09-29 \u2014 WILL RULED (his own word, in HOMER's session): Apartment List, HOMER-computed, levels UNCHANGED 20/40/55; INSTALLED (charter + tools/rent_breadth.py + frozen roster; first reading Sep-2026 46/100 ORANGE)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "RESOLVED-2026-09-29 \u2014 ENCODED as option (A), the NO-VERDICT PRECURSOR (was \"APPROVED 2026-08-23 \u2026 ENCODE NEXT SPAWN\", undated 37 days)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "RESOLVED-2026-10-15 \u2014 3c BUILT in thesis/THESIS.md \u00a78 (8a: 5-pt handle, scores as proposed 9/29, composite 19/25, 3 independent roots \u00b7 8b: join per CARL 10/01 answer + CARL 10/12 scope review, V3 NOT re-scoped), 6 days past the 10/09 due date; 3b DONE 2026-09-29. Prior key: 2026-10-09 \u2014 3c BUILD DUE (convergence handle; proposed link packeted to CARL 2026-09-29, CARL ack asked by 10/05). 3b DONE 2026-09-29",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "monthly, ~24th-30th \u2014 AUGUST BOTH CONSUMED (Freddie 0.64% 9/24; FANNIE 0.57% rel 9/25, read 2026-09-29); NEXT: SEPTEMBER both ~2026-10-23/30",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "monthly \u2014 OCTOBER CONSUMED 2026-10-19 (issuer HMI 29; cutters 43%; A3 0/3); NEXT: 2026-11-17 10:00 ET (ISSUER-STATED)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "monthly, ~last business day \u2014 AUGUST CONSUMED 2026-10-15 (posted 9/30; +2.19% YoY SA, JULY REVISED +2.31 \u2192 +1.89); NEXT: SEPTEMBER data ~2026-10-30",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "monthly \u2014 SEPTEMBER CONSUMED 2026-10-15 (3.99M, rel Tue 10/13 10:01 ET; Aug revised ~3.93M INFERRED); NEXT: OCTOBER data Thu 2026-11-12 10:00 ET (ISSUER-STATED, NAR 2026 schedule)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "monthly \u2014 AUGUST CONSUMED 2026-09-24 (rel 9/17); NEXT: SEPTEMBER 2026-10-20 (issuer-stated)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "monthly, early month (DQ ~1st, special servicing ~mid-month) \u2014 SEPTEMBER CONSUMED 2026-10-15 at ISSUER PRIMARY (DQ pub 10/02: MF 8.04%, +35bp, a 2026 high \u00b7 SS pub 10/13: MF 8.54%, +17bp); NEXT: OCTOBER DQ ~2026-11-02, SS ~2026-11-13",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "~mid-Nov 2026 (Q3-2026 NDS)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "monthly, ~mid-month \u2014 OCTOBER edition CONSUMED 2026-10-15 (pub 10/05; Aug data): Cure Rates band UNGRADED \u2014 ICE did not print the all-loans YoY %; NEXT: NOVEMBER edition ~2026-11-02/13",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 28,
+      "date": "2026-10-22 \u2014 ISSUER-STATED (pre-open; call 8:30 ET)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2026-10-29 \u2014 ISSUER-STATED (pre-open; call 8:30 ET)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2026-10-28 after close \u2014 ISSUER-STATED (call 10/29 11:00 ET)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 31,
+      "date": "~2026-10-21/23 \u2014 PATTERN (NVR reports Q3 ~3rd week of Oct; not announced)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 32,
+      "date": "~early Nov 2026 \u2014 PATTERN (not announced)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 33,
+      "date": "~early Nov 2026 \u2014 PATTERN (not announced)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 34,
+      "date": "~early-mid Dec 2026 \u2014 PATTERN (TOL FQ4, FY ends 10/31; not announced)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 35,
+      "date": "~mid-Dec 2026 \u2014 PATTERN (LEN FQ4, FY ends 11/30; FQ3 came 9/16; not announced)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 36,
+      "date": "~mid-Jan 2027 \u2014 PATTERN (KBH FQ4, FY ends 11/30; FQ3 came 9/22; not announced)",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 37,
+      "date": "2026-11-20 \u2014 FORMAL GRADE (pre-registered in thesis/THESIS.md \u00a74); then 2027-02-20",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 38,
+      "date": "monthly, ~mid-month \u2014 AUGUST CONSUMED 2026-09-29; CHECKED 2026-10-19: SEPTEMBER/Q3 access UNRESOLVED (403), not known unpublished; NEXT: retry next owner session",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 39,
+      "date": "monthly, ~1st\u20134th \u2014 OCTOBER SECONDARY INSPECTED 2026-10-19; RETRY primary/MF subtotal next owner session; NEXT: NOVEMBER ~2026-11-02/06",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 40,
+      "date": "~late Oct 2026 \u2014 Q3 ADVANCE estimate (BEA date UNVERIFIED \u2014 check bea.gov schedule); then 2nd/3rd estimates",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 42,
+      "date": "monthly, ~last week of month \u2014 SEPTEMBER file consumed 2026-09-29 (46/100, ORANGE); NEXT: OCTOBER file ~2026-10-27/31",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 43,
+      "date": "weekly Thu (observed cadence) \u201410/15 release CONSUMED10/19; NEXT~2026-10-22",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 44,
+      "date": "monthly mid-month (pattern) \u2014September CONSUMED2026-10-19; NEXT~2026-11-12/19",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 45,
+      "date": "monthly mid-month (pattern) \u2014September CONSUMED2026-10-19; NEXT~2026-11-13/20",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 46,
+      "date": "2027-01-01 (issuer effective date); preparedness check next owner Q4 pass",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-26..2026-10-29",
+      "classification": "non-point/qualified date"
+    },
+    {
+      "path": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2027-05-01..2027-05-31",
+      "classification": "non-point/qualified date"
+    }
+  ],
+  "conclusion": "All16structured registers and10Markdown calendars inspected at the explicit ISO-date level. No inference from undated/recurring/qualified dates. A date found in history/prose is only an upper bound on coverage; absence of an ISO match does not prove a missing event or transport failure. Original fleetwide causal/generalization claim remains unestablished; no further fleet sweep implied."
+}

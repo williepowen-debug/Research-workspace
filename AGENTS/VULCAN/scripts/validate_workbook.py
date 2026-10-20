@@ -46,6 +46,7 @@ import math
 import re
 import sys
 from collections import Counter
+from datetime import datetime
 from pathlib import Path
 
 WB = Path(__file__).resolve().parents[1] / "workbook"
@@ -141,9 +142,24 @@ def numeric_constraint(val, allowed):
 
 def type_ok(val, t, allowed):
     if t == "Date":
-        return bool(DATE_RE.match(val)) or bool(DMY_RE.match(val))
+        fmt = "%Y-%m-%d" if DATE_RE.fullmatch(val) else (
+            "%d-%b-%Y" if DMY_RE.fullmatch(val) else None
+        )
+        if fmt is None:
+            return False
+        try:
+            datetime.strptime(val, fmt)
+        except ValueError:
+            return False
+        return True
     if t == "Timestamp":
-        return bool(TS_RE.match(val))
+        if not TS_RE.fullmatch(val):
+            return False
+        try:
+            datetime.strptime(val, "%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            return False
+        return True
     if t == "Integer":
         return val.lstrip("-").isdigit()
     if t == "Float":

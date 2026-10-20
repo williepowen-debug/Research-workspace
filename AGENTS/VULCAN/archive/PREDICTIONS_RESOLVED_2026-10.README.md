@@ -1,0 +1,4 @@
+# Resolved forecasts — frozen October archive
+Archived 2026-10-20T12:51:51-04:00. Four already-graded rows moved byte-for-byte; original crc32 a1364617. Conservation: 9 rows = 4 archived + 5 live, same header. No criterion, grade, confidence or resolution changed.
+
+Forward commitments reviewed by ID before archival: VULCAN-02's contract watch remains STATUS S2; VULCAN-11's prohibition on extending the equity leading indicator remains STATUS triad and THESIS; VULCAN-12's contractual-ceilings-exist/margin-effect-unmeasured caveat remains STATUS/THESIS and the frozen resolver; VULCAN-14's cumulative-series discipline remains THESIS S4/CLAUDE thresholds. No new action is hidden here. PREDICTIONS.tsv now holds only the five OPEN rows. Historical letter lookup must include both September and October archives.

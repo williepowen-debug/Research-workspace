@@ -45,6 +45,16 @@ AGENT = HERE.parent
 
 # (label, ledger, column, value, must_be_caught)
 CASES = [
+    ("date impossible day", "GPU_SERIES.tsv", "reading_date", "2026-02-30", True),
+    ("date non-leap February 29", "GPU_SERIES.tsv", "reading_date", "2026-02-29", True),
+    ("date leap February 29", "GPU_SERIES.tsv", "reading_date", "2024-02-29", False),
+    ("date impossible month", "GPU_SERIES.tsv", "reading_date", "2026-13-01", True),
+    ("date zero day", "GPU_SERIES.tsv", "reading_date", "2026-01-00", True),
+    ("date DMY impossible", "GPU_SERIES.tsv", "reading_date", "30-Feb-2026", True),
+    ("date DMY real", "GPU_SERIES.tsv", "reading_date", "29-Feb-2024", False),
+    ("timestamp impossible date", "GPU_SERIES.tsv", "asof_utc", "2026-02-30T20:05:00Z", True),
+    ("timestamp impossible hour", "GPU_SERIES.tsv", "asof_utc", "2026-10-20T24:00:00Z", True),
+    ("timestamp leap real", "GPU_SERIES.tsv", "asof_utc", "2024-02-29T23:59:59Z", False),
     # --- GPU_SERIES: the ledger the review was about. Zero rows on disk, so every case
     #     writes a full synthetic row from GOOD below.
     ("gpu tier = BANANA",                    "GPU_SERIES.tsv", "tier",           "BANANA",              True),

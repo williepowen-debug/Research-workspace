@@ -1,0 +1,4208 @@
+{
+  "summary": {
+    "structured_registers": 16,
+    "structured_rows": 504,
+    "recipient_date_pairs": 437,
+    "date_carried": 84,
+    "date_not_carried": 353,
+    "unparseable_addressed_rows": 51,
+    "errors": [],
+    "markdown_calendars_not_classifiable": 10,
+    "method": "READ ONLY. Roster-name token match in explicit recipient columns; strict date parsed. Date-only correspondence, not event identity or delivery/read acknowledgment. Historical and future rows pooled descriptively; missing recipient registry explicit. No per-desk grade. Markdown/prose not pooled.",
+    "finding_scope": "The original fleet-wide claim is not established by this structured/date-only census. If most matching dates are present, this weakens the claim of general filing gaps, but says nothing about actual transport; do not declare fleet failure from local VULCAN misses.",
+    "recipient_without_structured_registry_pairs": 190,
+    "unmatched_with_existing_structured_registry": 163
+  },
+  "pairs": [
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-28",
+      "recipient": "ZHAO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-21",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-21",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-21",
+      "recipient": "ZHAO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-22",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-28",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-28",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-28",
+      "recipient": "VIOLET",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-29",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-29",
+      "recipient": "ZHAO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-04",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-04",
+      "recipient": "RED",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-04",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-11-09",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-11-13",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-11-13",
+      "recipient": "SAM",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-12-09",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-12-09",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-12-09",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2027-01-25",
+      "recipient": "SAM",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2027-01-25",
+      "recipient": "ZHAO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2027-01-27",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2027-01-27",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2027-01-27",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-10-22",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-10-16",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2026-10-29",
+      "recipient": "HANS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2026-10-29",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-10-29",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-10-29",
+      "recipient": "LABOR",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-10-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-10-30",
+      "recipient": "LABOR",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-11-02",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-11-02",
+      "recipient": "LABOR",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-11-03",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-11-03",
+      "recipient": "LABOR",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 28,
+      "date": "2026-11-05",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 28,
+      "date": "2026-11-05",
+      "recipient": "LABOR",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2026-11-06",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2026-11-06",
+      "recipient": "LABOR",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2026-11-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BOND",
+      "source": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2026-11-10",
+      "recipient": "LABOR",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-09-01",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-09-01",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-06",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-06",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-06",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-06",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-06",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-08",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-08",
+      "recipient": "ZHAO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-10",
+      "recipient": "AEOLUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-10",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-10",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-10",
+      "recipient": "FALCON",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-10",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-10",
+      "recipient": "SAM",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-10-10",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-10-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-10-10",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-10-14",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-10-15",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-10-15",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-10-15",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-10-22",
+      "recipient": "HANS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-10-22",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-10-22",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-24",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-24",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-30",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-30",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-30",
+      "recipient": "WALTER",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-10-31",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-10-31",
+      "recipient": "OSPREY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-10-31",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-11-01",
+      "recipient": "AEOLUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-11-01",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-11-01",
+      "recipient": "SAM",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-11-01",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-11-01",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-18",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-19",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-11-20",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-11-20",
+      "recipient": "ZHAO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-11-29",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2027-04-07",
+      "recipient": "DEWEY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2027-04-07",
+      "recipient": "OSPREY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2027-04-07",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2027-04-07",
+      "recipient": "YURI",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-10-22",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-10-28",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BRENT",
+      "source": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-11-03",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-05-11",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-05-14",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-06-04",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-06-09",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-06-09",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-07-25",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-07-25",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-07-27",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-07-28",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-07-29",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-07-29",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-08-05",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-08-05",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-08-05",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-08-07",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-08-10",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-08-12",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-08-12",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-08-14",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 32,
+      "date": "2026-09-07",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 32,
+      "date": "2026-09-07",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 38,
+      "date": "2027-04-30",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 39,
+      "date": "2026-11-13",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 40,
+      "date": "2026-10-31",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 40,
+      "date": "2026-10-31",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 41,
+      "date": "2026-09-11",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 41,
+      "date": "2026-09-11",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 42,
+      "date": "2026-09-21",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 44,
+      "date": "2026-09-24",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 45,
+      "date": "2026-10-01",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 46,
+      "date": "2026-10-07",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 47,
+      "date": "2026-10-08",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 48,
+      "date": "2026-10-15",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 49,
+      "date": "2026-10-13",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 51,
+      "date": "2026-10-09",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 52,
+      "date": "2026-10-15",
+      "recipient": "OTTO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 53,
+      "date": "2026-10-21",
+      "recipient": "OTTO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 54,
+      "date": "2026-10-22",
+      "recipient": "OTTO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 55,
+      "date": "2026-10-28",
+      "recipient": "OTTO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 56,
+      "date": "2026-10-13",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 57,
+      "date": "2026-10-23",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "BROCK",
+      "source": "AGENTS/BROCK/docket/CATALYSTS.tsv",
+      "line": 59,
+      "date": "2026-11-05",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-11-15",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-11-15",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-20",
+      "recipient": "BRENT",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-20",
+      "recipient": "OSPREY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-20",
+      "recipient": "RED",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-20",
+      "recipient": "OTTO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-20",
+      "recipient": "RED",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-11-06",
+      "recipient": "LABOR",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-11-30",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-12-31",
+      "recipient": "AEOLUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-12-31",
+      "recipient": "MARCO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-13",
+      "recipient": "DEWEY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-10-26",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "CARL",
+      "source": "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-10-29",
+      "recipient": "OTTO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-20",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-20",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-21",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-22",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-23",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-11-14",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "GIBBS",
+      "source": "AGENTS/GIBBS/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-15",
+      "recipient": "DAEDALUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-11-09",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-11-09",
+      "recipient": "MARCO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-30",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-11-06",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-11-06",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-11-06",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-11-06",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-11-06",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-11-03",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-11-03",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-11-03",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-12-11",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-12-11",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-12-11",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-05",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LABOR",
+      "source": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-05",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-07-25",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-07-25",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-07-27",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-07-29",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-07-30",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-07-30",
+      "recipient": "RED",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-07-30",
+      "recipient": "VULCAN",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-07-31",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-07-31",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-08-03",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-08-03",
+      "recipient": "RED",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-08-03",
+      "recipient": "VULCAN",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-08-14",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-08-24",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-08-24",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-08-26",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-08-28",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-08-28",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-08-28",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-08-29",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-08-29",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 16,
+      "date": "2026-09-03",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-09-09",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-09-09",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-09-15",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-09-15",
+      "recipient": "VULCAN",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-09-16",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-09-16",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-09-16",
+      "recipient": "ORACLE",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-09-23",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-09-24",
+      "recipient": "DAEDALUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-09-24",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-09-24",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-09-24",
+      "recipient": "SAM",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-09-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-09-30",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-09-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-09-30",
+      "recipient": "DAEDALUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-10-05",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-10-05",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-10-05",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-10-05",
+      "recipient": "RED",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-10-05",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-10-05",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 28,
+      "date": "2026-10-07",
+      "recipient": "HANS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2026-10-08",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2026-10-08",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2026-10-08",
+      "recipient": "HANS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2026-10-16",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2026-10-16",
+      "recipient": "RED",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2026-10-16",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2026-10-16",
+      "recipient": "WALTER",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 32,
+      "date": "2026-10-16",
+      "recipient": "SAM",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 32,
+      "date": "2026-10-16",
+      "recipient": "ZHAO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 33,
+      "date": "2026-11-04",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 34,
+      "date": "2026-12-31",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 35,
+      "date": "2026-12-31",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 35,
+      "date": "2026-12-31",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 35,
+      "date": "2026-12-31",
+      "recipient": "SHADE",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 36,
+      "date": "2026-12-31",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 37,
+      "date": "2026-10-16",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 39,
+      "date": "2026-10-16",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 39,
+      "date": "2026-10-16",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 39,
+      "date": "2026-10-16",
+      "recipient": "VULCAN",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 41,
+      "date": "2026-10-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 43,
+      "date": "2026-10-16",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 44,
+      "date": "2026-10-19",
+      "recipient": "RED",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 44,
+      "date": "2026-10-19",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 44,
+      "date": "2026-10-19",
+      "recipient": "WALTER",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 45,
+      "date": "2026-10-28",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 45,
+      "date": "2026-10-28",
+      "recipient": "ORACLE",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 47,
+      "date": "2026-10-30",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 48,
+      "date": "2026-10-30",
+      "recipient": "VULCAN",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 51,
+      "date": "2026-11-13",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 51,
+      "date": "2026-11-13",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 53,
+      "date": "2026-10-21",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 54,
+      "date": "2026-10-22",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 55,
+      "date": "2026-10-22",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 55,
+      "date": "2026-10-22",
+      "recipient": "OTTO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "LIQUID",
+      "source": "AGENTS/LIQUID/workbook/CATALYSTS.tsv",
+      "line": 56,
+      "date": "2026-10-22",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-28",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-28",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-28",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-28",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-11-02",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-11-02",
+      "recipient": "LABOR",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-11-03",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-11-03",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-12",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-11-12",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-11-15",
+      "recipient": "LABOR",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-12-04",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-12-04",
+      "recipient": "LABOR",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-12-15",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-12-15",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-12-15",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-12-15",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-12-31",
+      "recipient": "LABOR",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2027-03-15",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2027-05-15",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "MARCO",
+      "source": "AGENTS/MARCO/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2028-03-15",
+      "recipient": "CORAL",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "DEWEY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-22",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-16",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-20",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-20",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-10-20",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-21",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-21",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-10-21",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-10-21",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-10-21",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-10-27",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-28",
+      "recipient": "NEXUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-28",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-29",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-11-04",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-11-04",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "2026-11-06",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-11-11",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-12",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-15",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-11-16",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-11-30",
+      "recipient": "CARL",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2026-12-01",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2026-12-01",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-12-07",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-12-09",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-12-09",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2027-01-25",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2027-01-25",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2027-02-01",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2027-02-01",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2027-02-09",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2027-02-09",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2027-02-09",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 32,
+      "date": "2026-10-28",
+      "recipient": "BROCK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "OTTO",
+      "source": "AGENTS/OTTO/docket/CATALYSTS.tsv",
+      "line": 33,
+      "date": "2026-11-05",
+      "recipient": "REGINALD",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-21",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-29",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-10-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-11-05",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-11-09",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-11-09",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-11-10",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-11-10",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "2026-11-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-12",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-13",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-13",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-11-18",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-11-25",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-11-30",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2027-01-25",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "SAM",
+      "source": "AGENTS/SAM/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2027-01-25",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VIOLET",
+      "source": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-21",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VIOLET",
+      "source": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-28",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VIOLET",
+      "source": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-28",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VIOLET",
+      "source": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-11-18",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-17",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-10-17",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-19",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-10-19",
+      "recipient": "ZHAO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-10-20",
+      "recipient": "DAEDALUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-21",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-10-21",
+      "recipient": "VIOLET",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-10-23",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-10-23",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-10-28",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-10-28",
+      "recipient": "VIOLET",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-28",
+      "recipient": "CARL",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-28",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-28",
+      "recipient": "ZHAO",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-30",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-10-30",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-11-06",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "2026-11-06",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-11-08",
+      "recipient": "DAEDALUS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-09",
+      "recipient": "DEWEY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-09",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-09",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-09",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-09",
+      "recipient": "TERRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-11-10",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-11-10",
+      "recipient": "ZHAO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-11-10",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-11-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-11-10",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2026-11-10",
+      "recipient": "ZHAO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-11-10",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2026-11-10",
+      "recipient": "ZHAO",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "2026-11-13",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "2026-11-13",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-11-15",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-11-15",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "2026-11-15",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "2026-11-15",
+      "recipient": "DEWEY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-11-19",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-11-19",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-11-19",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "2026-11-19",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 28,
+      "date": "2026-11-20",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2026-11-20",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2026-11-27",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 31,
+      "date": "2026-11-27",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 32,
+      "date": "2026-12-04",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 33,
+      "date": "2026-12-11",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 34,
+      "date": "2026-12-15",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 34,
+      "date": "2026-12-15",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 35,
+      "date": "2026-12-15",
+      "recipient": "BROCK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 35,
+      "date": "2026-12-15",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 36,
+      "date": "2026-12-18",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "VULCAN",
+      "source": "AGENTS/VULCAN/docket/CATALYSTS.tsv",
+      "line": 37,
+      "date": "2026-12-24",
+      "recipient": "VIOLET",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-08-31",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "2026-08-31",
+      "recipient": "MIDAS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-09-01",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "2026-09-01",
+      "recipient": "MIDAS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-09-07",
+      "recipient": "BRENT",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-09-07",
+      "recipient": "MIDAS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-09-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 5,
+      "date": "2026-09-10",
+      "recipient": "RED",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-09-15",
+      "recipient": "MIDAS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "2026-09-15",
+      "recipient": "RED",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-09-16",
+      "recipient": "HANS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-09-16",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "2026-09-16",
+      "recipient": "SAM",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "2026-09-20",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-09-24",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "2026-09-24",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-09-30",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "2026-09-30",
+      "recipient": "MIDAS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-10-01",
+      "recipient": "BOND",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "2026-10-01",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-09",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-09",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-09",
+      "recipient": "VULCAN",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "2026-10-09",
+      "recipient": "WATT",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-10-16",
+      "recipient": "HANS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-10-16",
+      "recipient": "LIQUID",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "2026-10-16",
+      "recipient": "SAM",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-10-27",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "2026-10-27",
+      "recipient": "VULCAN",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "2026-11-10",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "2026-11-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "2026-11-10",
+      "recipient": "VULCAN",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-11-10",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "2026-11-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-10",
+      "recipient": "HAWK",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-10",
+      "recipient": "HENRY",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "2026-11-10",
+      "recipient": "VULCAN",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-27",
+      "recipient": "HAWK",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-27",
+      "recipient": "MIDAS",
+      "date_carried": false,
+      "recipient_has_registry": false
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "2026-11-27",
+      "recipient": "VULCAN",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "2026-12-01",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2027-01-25",
+      "recipient": "BOND",
+      "date_carried": true,
+      "recipient_has_registry": true
+    },
+    {
+      "publisher": "ZHAO",
+      "source": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "2027-01-25",
+      "recipient": "LIQUID",
+      "date_carried": false,
+      "recipient_has_registry": true
+    }
+  ],
+  "unparseable": [
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "recurring-Wed"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "recurring-op"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "recurring-wk"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "watch"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "watch"
+    },
+    {
+      "path": "AGENTS/BOND/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "watch"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 2,
+      "date": "~mid-Oct 2026 (ATTOM Q3 report) \u2014 \u26a0\ufe0f\u26a0\ufe0f RE-KEYED 2026-08-22: THE MONTHLY PRESS RELEASE IS NOT A RELIABLE INSTRUMENT AND THIS ROW SHOULD NEVER HAVE BEEN KEYED TO ONE. Superseded keys preserved verbatim: \"~mid-to-late Aug \u2014 CHECKED 2026-08-14, NOT YET PUBLISHED, NOT LAPSED\" and before it \"~mid-Aug\""
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 3,
+      "date": "standing (quarterly + event-driven)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 4,
+      "date": "2026-10-22 (PHM Q3, ISSUER-STATED) / 2026-10-29 (DHI FQ4, ISSUER-STATED)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 6,
+      "date": "standing \u2014 CHECKED 2026-10-19: WAITING-ON-INSTRUMENT; revisit with next registered Miami condo read"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 7,
+      "date": "standing (from 2026-03 reporting)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 8,
+      "date": "standing (from 2026:Q1 reporting) \u2014 \u26a0\ufe0f MEASUREMENT BREAK, NOT A CATALYST"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 9,
+      "date": "RESOLVED 2026-10-15 \u2014 KILL EXECUTED (inside the 10/31 deferral): MF maturity-adjusted ABSENT AT SOURCE a third consecutive month (Jul \u00b7 Aug \u00b7 Sep data); September PDF read in full at trepp.com/hubfs. Prior key: \u26d4 OPEN \u2014 LAPSED (owed since ~10/01) \u00b7 DATED DEFERRAL to 2026-10-31"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 10,
+      "date": "RESOLVED-2026-09-29 \u2014 WILL RULED (his own word, in HOMER's session): >100K / >130K / >175K on STARTS, severity ladder only; INSTALLED (charter + PIPELINE.tsv first reading Q2 81,935 below Yellow)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 11,
+      "date": "monthly, ~24th-28th \u2014 AUGUST CONSUMED 2026-09-29; SEPTEMBER NOT OUT at 2026-10-15 11:16 ET (URL 404); NEXT: ~2026-10-22/28"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "monthly, ~end of month/1st-3rd \u2014 SEPTEMBER CONSUMED 2026-10-15 (report dated 9/30); NEXT: OCTOBER ~2026-10-29/11-03"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 13,
+      "date": "monthly, ~17th-19th \u2014 AUGUST CONSUMED 2026-09-24 (CB26-147); NEXT: 2026-10-20 (issuer-stated)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 14,
+      "date": "monthly, ~24th-27th \u2014 AUGUST CONSUMED 2026-09-24 (CB26-155); NEXT: 2026-10-27 (issuer-stated)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 15,
+      "date": "monthly, ~2nd week \u2014 SEPTEMBER CONSUMED 2026-10-15 (pub 10/14: 62.6%, record; Aug RESTATED 57.9 \u2192 56.9); NEXT: OCTOBER ~2026-11-10/14"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 16,
+      "date": "monthly, last Tue \u2014 JULY CONSUMED 2026-09-29 PM at ISSUER PRIMARY (national +1.93%, June rev +1.6%); NEXT: AUGUST ~2026-10-27"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 17,
+      "date": "RESOLVED-2026-09-29 \u2014 WILL RULED (his own word, in HOMER's session): Apartment List, HOMER-computed, levels UNCHANGED 20/40/55; INSTALLED (charter + tools/rent_breadth.py + frozen roster; first reading Sep-2026 46/100 ORANGE)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 18,
+      "date": "RESOLVED-2026-09-29 \u2014 ENCODED as option (A), the NO-VERDICT PRECURSOR (was \"APPROVED 2026-08-23 \u2026 ENCODE NEXT SPAWN\", undated 37 days)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 19,
+      "date": "RESOLVED-2026-10-15 \u2014 3c BUILT in thesis/THESIS.md \u00a78 (8a: 5-pt handle, scores as proposed 9/29, composite 19/25, 3 independent roots \u00b7 8b: join per CARL 10/01 answer + CARL 10/12 scope review, V3 NOT re-scoped), 6 days past the 10/09 due date; 3b DONE 2026-09-29. Prior key: 2026-10-09 \u2014 3c BUILD DUE (convergence handle; proposed link packeted to CARL 2026-09-29, CARL ack asked by 10/05). 3b DONE 2026-09-29"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 20,
+      "date": "monthly, ~24th-30th \u2014 AUGUST BOTH CONSUMED (Freddie 0.64% 9/24; FANNIE 0.57% rel 9/25, read 2026-09-29); NEXT: SEPTEMBER both ~2026-10-23/30"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 21,
+      "date": "monthly \u2014 OCTOBER CONSUMED 2026-10-19 (issuer HMI 29; cutters 43%; A3 0/3); NEXT: 2026-11-17 10:00 ET (ISSUER-STATED)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "monthly, ~last business day \u2014 AUGUST CONSUMED 2026-10-15 (posted 9/30; +2.19% YoY SA, JULY REVISED +2.31 \u2192 +1.89); NEXT: SEPTEMBER data ~2026-10-30"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 23,
+      "date": "monthly \u2014 SEPTEMBER CONSUMED 2026-10-15 (3.99M, rel Tue 10/13 10:01 ET; Aug revised ~3.93M INFERRED); NEXT: OCTOBER data Thu 2026-11-12 10:00 ET (ISSUER-STATED, NAR 2026 schedule)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 24,
+      "date": "monthly \u2014 AUGUST CONSUMED 2026-09-24 (rel 9/17); NEXT: SEPTEMBER 2026-10-20 (issuer-stated)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 25,
+      "date": "monthly, early month (DQ ~1st, special servicing ~mid-month) \u2014 SEPTEMBER CONSUMED 2026-10-15 at ISSUER PRIMARY (DQ pub 10/02: MF 8.04%, +35bp, a 2026 high \u00b7 SS pub 10/13: MF 8.54%, +17bp); NEXT: OCTOBER DQ ~2026-11-02, SS ~2026-11-13"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 26,
+      "date": "~mid-Nov 2026 (Q3-2026 NDS)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 27,
+      "date": "monthly, ~mid-month \u2014 OCTOBER edition CONSUMED 2026-10-15 (pub 10/05; Aug data): Cure Rates band UNGRADED \u2014 ICE did not print the all-loans YoY %; NEXT: NOVEMBER edition ~2026-11-02/13"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 28,
+      "date": "2026-10-22 \u2014 ISSUER-STATED (pre-open; call 8:30 ET)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 29,
+      "date": "2026-10-29 \u2014 ISSUER-STATED (pre-open; call 8:30 ET)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 30,
+      "date": "2026-10-28 after close \u2014 ISSUER-STATED (call 10/29 11:00 ET)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 31,
+      "date": "~2026-10-21/23 \u2014 PATTERN (NVR reports Q3 ~3rd week of Oct; not announced)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 32,
+      "date": "~early Nov 2026 \u2014 PATTERN (not announced)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 33,
+      "date": "~early Nov 2026 \u2014 PATTERN (not announced)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 34,
+      "date": "~early-mid Dec 2026 \u2014 PATTERN (TOL FQ4, FY ends 10/31; not announced)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 35,
+      "date": "~mid-Dec 2026 \u2014 PATTERN (LEN FQ4, FY ends 11/30; FQ3 came 9/16; not announced)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 36,
+      "date": "~mid-Jan 2027 \u2014 PATTERN (KBH FQ4, FY ends 11/30; FQ3 came 9/22; not announced)"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 37,
+      "date": "2026-11-20 \u2014 FORMAL GRADE (pre-registered in thesis/THESIS.md \u00a74); then 2027-02-20"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 38,
+      "date": "monthly, ~mid-month \u2014 AUGUST CONSUMED 2026-09-29; CHECKED 2026-10-19: SEPTEMBER/Q3 access UNRESOLVED (403), not known unpublished; NEXT: retry next owner session"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 39,
+      "date": "monthly, ~1st\u20134th \u2014 OCTOBER SECONDARY INSPECTED 2026-10-19; RETRY primary/MF subtotal next owner session; NEXT: NOVEMBER ~2026-11-02/06"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 40,
+      "date": "~late Oct 2026 \u2014 Q3 ADVANCE estimate (BEA date UNVERIFIED \u2014 check bea.gov schedule); then 2nd/3rd estimates"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 42,
+      "date": "monthly, ~last week of month \u2014 SEPTEMBER file consumed 2026-09-29 (46/100, ORANGE); NEXT: OCTOBER file ~2026-10-27/31"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 43,
+      "date": "weekly Thu (observed cadence) \u201410/15 release CONSUMED10/19; NEXT~2026-10-22"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 44,
+      "date": "monthly mid-month (pattern) \u2014September CONSUMED2026-10-19; NEXT~2026-11-12/19"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 45,
+      "date": "monthly mid-month (pattern) \u2014September CONSUMED2026-10-19; NEXT~2026-11-13/20"
+    },
+    {
+      "path": "AGENTS/HOMER/docket/CATALYSTS.tsv",
+      "line": 46,
+      "date": "2027-01-01 (issuer effective date); preparedness check next owner Q4 pass"
+    },
+    {
+      "path": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 12,
+      "date": "2026-10-26..2026-10-29"
+    },
+    {
+      "path": "AGENTS/ZHAO/docket/CATALYSTS.tsv",
+      "line": 22,
+      "date": "2027-05-01..2027-05-31"
+    }
+  ]
+}
