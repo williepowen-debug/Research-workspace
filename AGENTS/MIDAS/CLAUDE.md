@@ -215,6 +215,10 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2â
 
 ---
 
+## Metal folders and filing policy
+
+Will requested metal buckets on October20,2026. Start navigation at `README.md`: `gold/`, `silver/`, `platinum/`, `palladium/`, `copper/`, and `shared/` for multi-metal material. Each metal's `README.md` indexes its existing evidence. Put new single-metal reports in `<metal>/research/` and captures/calculations in `<metal>/sources/YYYY-MM-DD_topic/`; put inseparable shared work in `shared/` and link it from each relevant metal. Update `METALS_CATALOG.tsv` and the topic index when adding research or a source bundle. Existing dated artifact paths remain canonical; do not move frozen references or duplicate shared datasets. Desk state, ledgers and scripts keep their current homes. These indexes are on-demand navigation, not added whole-file boot reads or separate live state.
+
 ## FILES
 
 | File | Purpose |

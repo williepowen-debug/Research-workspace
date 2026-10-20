@@ -1,5 +1,7 @@
 # MIDAS — source and access register
 
+**Metal navigation October20,2026:** `../README.md` and the five metal folders index these source bundles; multi-metal captures remain a single batch. New evidence files under `<metal>/sources/YYYY-MM-DD_topic/` or `shared/sources/` relative to MIDAS. Existing paths and this single access register remain authoritative; add new bundles to `../METALS_CATALOG.tsv`.
+
 **Reviewed October12,2026, approved maintenance.** Historical register preserved verbatim in `../analysis/BEFORE_MAINTENANCE_2026-10-12_sources_SOURCES.md`. Structured load-bearing numbers require raw responses and reconciliation; a summarized fetch is not their evidence. PRIMARY means issuer/origin document; MIRROR is a vendor reproduction; inferred quantities never become reported flows.
 
 | Source / role | Method, cadence and current disposition |

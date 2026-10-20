@@ -1,0 +1,82 @@
+bucket	metals	kind	path	title	note
+copper	copper	code	analysis/measure_i1_baseline_drift.py	measure_i1_baseline_drift.py	Existing implementation; leave self-location and registered paths intact.
+copper	copper	research	analysis/2026-08-23_i1-tracked-baseline-measured-effect.md	MIDAS — I1 TRACKED-BASELINE DEFECT: THE MEASURED EFFECT	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-08-28_cot3-grade.md	Gold COT vintage #3 — GRADE (as-of Tue 2026-08-25, released Fri 2026-08-28 15:30 ET)	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-08-28_midas-06-provisional-read-and-cot3-prep.md	MIDAS-06 — PROVISIONAL READ (Fri 2026-08-28) + Gold COT #3 pre-registration	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-08-28_row66-noverdict-band-DESIGN-DRAFT.md	Row 66 — DFII10 NO-VERDICT band: DESIGN DRAFT	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-08-31_midas-06-TERMINAL-GRADE.md	MIDAS-06 — TERMINAL GRADE: **(a) DIVERGE PERSISTS**	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-09-02_MIDAS-08-registration-m1-cot-successor.md	MIDAS-08 — REGISTRATION: the M1 successor test. Did the crowded gold spec long unwind into a −6.35% week?	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-09-05_MIDAS-08-GRADE.md	MIDAS-08 — TERMINAL GRADE: **(b) INDETERMINATE.** M1 holds 4. The conditional did NOT trigger.	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-09-11_VECTOR-3-gld-under-an-oil-shock-real-yield-regime.md	MIDAS — VECTOR 3: is GLD the wrong hedge under an oil-shock / real-yield regime?	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-10-12_M1-expanded-reference.md	MIDAS — expanded M1 conditional reference	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-10-12_M1-successor-DRAFT.md	M1 successor — preferred prospective DRAFT	Dated material; inspect its source dates and approval status.
+gold	gold	research	analysis/2026-10-20_GLD-OUTLOOK.md	GLD outlook after the rate and bullion flow review	Dated material; inspect its source dates and approval status.
+gold	gold	research	reports/2026-08-23_gld-rates-attribution.md	MIDAS — THE 8/19 GOLD SESSION: RATES ATTRIBUTION WRITE-UP	Dated material; inspect its source dates and approval status.
+gold	gold	sources	sources/2026-10-12_m1-draft	2026-10-12_m1-draft	Dated material; inspect its source dates and approval status.
+gold	gold	sources	sources/2026-10-12_m1-expanded	2026-10-12_m1-expanded	Dated material; inspect its source dates and approval status.
+gold	gold	sources	sources/2026-10-20_GLD-review	2026-10-20_GLD-review	Dated material; inspect its source dates and approval status.
+gold	gold	sources	sources/cot_gold_history_2010_2026.tsv	cot_gold_history_2010_2026.tsv	Frozen positioning reference; preserve bytes and grading basis.
+gold	gold	sources	sources/cot_vintages_consumed.tsv	cot_vintages_consumed.tsv	Append-only consumption record used by boot; do not move or duplicate.
+shared	gold,silver,platinum,palladium,copper	canonical	NEXUS_BRIEF.md	Cross-desk synthesis	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	OPEN_ITEMS.md	Canonical research obligations	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	SCRATCH.md	Session continuity	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	STATUS.md	Current dated desk state	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	THESIS.md	Shared transmission mechanisms and standing rules	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	workbook/FLOW.tsv	Shared transmission pathway ledger	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	workbook/KB.tsv	Canonical sourced knowledge ledger	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	workbook/PREDICTIONS.tsv	Canonical frozen forecasts and resolutions	One authoritative desk-level home; metal folders link here.
+shared	gold,silver,platinum,palladium,copper	canonical	workbook/VX.tsv	Shared indicator ledger	One authoritative desk-level home; metal folders link here.
+shared	silver,platinum,palladium	code	analysis/2026-09-25_band_stats.py	2026-09-25_band_stats.py	Existing implementation; leave self-location and registered paths intact.
+shared	silver,platinum,palladium	code	analysis/2026-09-25_cot_metals_build_hist.py	2026-09-25_cot_metals_build_hist.py	Existing implementation; leave self-location and registered paths intact.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_FLOW.tsv	BEFORE_MAINTENANCE_2026-10-12_FLOW.tsv	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_NEXUS_BRIEF.md	MIDAS — NEXUS_BRIEF	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_OPEN_ITEMS.md	MIDAS — OPEN ITEMS REGISTER	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_SCRATCH.md	MIDAS — SCRATCH	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_STATUS.md	MIDAS — STATUS	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_THESIS.md	MIDAS — THESIS (per-channel transmission tables)	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_VX.tsv	BEFORE_MAINTENANCE_2026-10-12_VX.tsv	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/BEFORE_MAINTENANCE_2026-10-12_sources_SOURCES.md	MIDAS — SOURCES register (data-access map)	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/LESSONS_ARCHIVE_2026-08.md	MIDAS — LESSONS ARCHIVE, JULY–AUGUST 2026 (full bodies, L-01 … L-44)	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/LESSONS_ARCHIVE_2026-09.md	MIDAS — LESSONS ARCHIVE, SEPTEMBER 2026 (full bodies, L-45 … )	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/NEXUS_BRIEF_ARCHIVE_2026-09.md	MIDAS — NEXUS_BRIEF ARCHIVE, SEPTEMBER 2026	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/NEXUS_BRIEF_ARCHIVE_2026-10.md	NEXUS_BRIEF — archived snapshot before 2026-10-12 review	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/OPEN_ITEMS_ARCHIVE_2026-10.md	MIDAS — closed open-item history, rotated 2026-10-12	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/SCRATCH_ARCHIVE_2026-08.md	MIDAS — SCRATCH ARCHIVE (sessions 2026-07-12 → 2026-08-23)	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/SCRATCH_ARCHIVE_2026-09.md	MIDAS — SCRATCH ARCHIVE, SEPTEMBER 2026	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/SCRATCH_ARCHIVE_2026-10.md	SCRATCH — archived snapshot before 2026-10-12 review	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/STATUS_ARCHIVE_2026-08.md	MIDAS — STATUS ARCHIVE, August 2026	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/STATUS_ARCHIVE_2026-09.md	MIDAS — STATUS ARCHIVE, SEPTEMBER 2026	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	history	analysis/STATUS_ARCHIVE_2026-10.md	STATUS — archived snapshot before 2026-10-12 review	Preserved historical record; not current desk state.
+shared	gold,silver,platinum,palladium,copper	operations	analysis/2026-10-12_APPROVED-maintenance-plan.md	MIDAS — approved maintenance pass	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	analysis/2026-10-12_MIDAS-domain-sitrep-and-maintenance-audit.md	MIDAS — domain sit-rep and maintenance audit	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	analysis/2026-10-12_approved-maintenance-result.md	MIDAS — approved maintenance result	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	analysis/2026-10-12_boot-read-byte-receipt.json	2026-10-12_boot-read-byte-receipt.json	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	analysis/2026-10-13_CLOSEOUT.md	MIDAS — October13,2026 closeout and next-session handoff	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	analysis/2026-10-20_STARTUP.md	MIDAS startup recovery — October 20, 2026	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	sources/2026-10-12_domain-audit	2026-10-12_domain-audit	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	sources/2026-10-13_closeout	2026-10-13_closeout	Desk operations or mixed maintenance evidence; not a new metal signal.
+shared	gold,silver,platinum,palladium,copper	operations	sources/SOURCES.md	MIDAS — source and access register	Canonical source-access register, not a duplicate per-metal register.
+shared	gold,copper	research	analysis/2026-08-27_registered-specs-keyed-to-moving-referents.md	MIDAS — BOTH REMAINING OPEN PREDICTIONS ARE KEYED TO REFERENTS THAT HAVE MOVED	Dated material; inspect its source dates and approval status.
+shared	platinum,palladium	research	analysis/2026-09-02_ofac-backfill-criterion2.md	MIDAS — OFAC BACKFILL on criterion ②, run retroactively on the 8/4 and 8/28 PGM sessions	Dated material; inspect its source dates and approval status.
+shared	platinum,palladium	research	analysis/2026-09-02_pgm-0828-news-sweep.md	MIDAS — NO-NEWS SWEEP on the 2026-08-28 PGM session	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	research	analysis/2026-09-25_band-base-rates.md	MIDAS band base rates: silver / platinum / palladium (gold as reference)	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	research	analysis/2026-09-25_cot-metals-history-summary.md	COT history summary — legacy futures-only, 2010-01-05 → 2026-09-15	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	research	analysis/2026-09-25_silver-pgm-bands-DRAFT.md	DRAFT — standalone alarm bands for SILVER, PLATINUM and PALLADIUM (for Will's ruling)	Dated material; inspect its source dates and approval status.
+shared	gold,copper	research	analysis/2026-10-01_MIDAS-01-02-RESOLUTION.md	MIDAS-01 + MIDAS-02 — RESOLVED 2026-10-01 on their FROZEN LETTERS, every basis printed	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	research	analysis/2026-10-12_MIDAS-news-sweep.md	MIDAS — news sweep, October12,2026	Dated material; inspect its source dates and approval status.
+shared	platinum,palladium	research	analysis/2026-10-12_PGM-inventory-flow-followup.md	MIDAS — bounded PGM inventory/flow follow-up — 2026-10-12	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	research	analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md	WQ-368 — CROSSING recommendation approved	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	research	analysis/2026-10-12_due-metals-review-held-GLD.md	MIDAS — due metals review and held GLD — 2026-10-12	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	research	analysis/2026-10-12_forecast-basis-review.md	MIDAS-09/10 — metal-per-share basis review	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	research	analysis/2026-10-12_metals-thesis-test.md	MIDAS — bounded metals thesis test, October 12, 2026	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	research	analysis/2026-10-20_PRECIOUS-METALS-NEWS.md	Precious metals news and implications as of October 20 2026	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	research	reports/2026-07-12_domain-sweep.md	MIDAS — Domain Sweep (4-lens), 2026-07-12	Dated material; inspect its source dates and approval status.
+shared	platinum,palladium	research	reports/2026-08-27_pgm-surge-attribution.md	"MIDAS — I2: THE TWO ""UNEXPLAINED PLATINUM SURGES,"" ATTRIBUTED"	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	sources	sources/2026-10-12_maintenance	2026-10-12_maintenance	Mixed primary inventory/source captures; retain the whole batch and its reconciliation records.
+shared	gold,silver,platinum,palladium,copper	sources	sources/2026-10-12_news-sweep	2026-10-12_news-sweep	Dated material; inspect its source dates and approval status.
+shared	platinum,palladium	sources	sources/2026-10-12_pgm-followup	2026-10-12_pgm-followup	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	sources	sources/2026-10-12_review	2026-10-12_review	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	sources	sources/2026-10-12_thesis-test	2026-10-12_thesis-test	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	sources	sources/2026-10-20_news	2026-10-20_news	Dated material; inspect its source dates and approval status.
+shared	silver,platinum,palladium	sources	sources/cot_metals_history_2010_2026.tsv	cot_metals_history_2010_2026.tsv	Frozen positioning reference; preserve bytes and grading basis.
+shared	silver,platinum,palladium	sources	sources/cot_metals_vintages_consumed.tsv	cot_metals_vintages_consumed.tsv	Append-only consumption record used by boot; do not move or duplicate.
