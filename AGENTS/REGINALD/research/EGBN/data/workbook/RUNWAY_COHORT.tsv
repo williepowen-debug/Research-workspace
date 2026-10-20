@@ -1,0 +1,15 @@
+# Last real data refresh: 2026-08-20 — FFIEC Schedule RI-B Part II, 14 matrix-cohort banks x 12 contiguous quarters. PURPOSE: reserve RUNWAY = ACL / TTM charge-offs, built at DAEDALUS's request to instrument FLG's K-3 kill cell. ★ REQ-1 DELIVERABLE IN ITS OWN RIGHT: per_chargeoffs_K is the PER-QUARTER series derived from YTD by differencing WITH THE Q1 RESET HANDLED (a 3/31 YTD figure IS that quarter's flow; every other quarter = YTD minus prior-quarter YTD within the same year). basis column records which rule produced each cell. ★ REQ-2: window_has_nontie flags any 4-quarter TTM window containing a quarter that fails the ACL identity (38% of windows — HIGHER than the 24.4% per-quarter rate because a 4-quarter window catches more). A runway figure resting on an adjusted quarter is VISIBLE, not silently absorbed. ⚠️ KNOWN BIAS, and it points PESSIMISTIC: runway assumes the trailing charge-off rate PERSISTS. For a bank mid-DISPOSITION (charge-offs elevated by deliberate asset sales rather than a run rate) it UNDERSTATES runway. EGBN is exactly that case — read its 0.53yr with the July 'de-risking through realized loss' grade beside it. ⚠️ Quarter column is M/D/YYYY: PARSE, never lexicographically sort. CADENCE: QUARTERLY alongside MI3/NDFI/ACL screens, next due 2026-11-07; JWT expires 2026-11-05.
+# Cadence: SCHEDULED next_due=2026-11-07 — quarterly FFIEC Call Report pull, same clock as MI3_COHORT.tsv (~45d after quarter-end; Q3-2026 data). The data clock is old ON PURPOSE between runs; this is the quiet-until date. (Added 2026-09-26 per DAEDALUS staleness sweep #5.)
+Ticker	Quarter	ACL_K	per_chargeoffs_K	per_provision_K	basis	TTM_chargeoffs_K	runway_years	window_has_nontie	quarter_ties
+EGBN	9/30/2023	83332	UNKNOWN	UNKNOWN	UNKNOWN-no-prior-in-year				YES
+EGBN	12/31/2023	85940	12202	14543	YTD-diff				YES
+EGBN	3/31/2024	99684	21569	35174	Q1=YTD				YES
+EGBN	6/30/2024	106301	2546	8903	YTD-diff				YES
+EGBN	9/30/2024	111867	5381	10870	YTD-diff	41698	2.6828	no	YES
+EGBN	12/31/2024	114390	9711	12058	YTD-diff	39207	2.9176	no	YES
+EGBN	3/31/2025	129470	11307	26309	Q1=YTD	28945	4.4730	no	YES
+EGBN	6/30/2025	183796	84391	138204	YTD-diff	110790	1.6590	no	YES
+EGBN	9/30/2025	156228	141050	113245	YTD-diff	246459	0.6339	no	YES
+EGBN	12/31/2025	159605	12515	15636	YTD-diff	249263	0.6403	no	YES
+EGBN	3/31/2026	147163	26096	13506	Q1=YTD	264052	0.5573	no	YES
+EGBN	6/30/2026	121141	49061	21900	YTD-diff	228722	0.5296	no	YES

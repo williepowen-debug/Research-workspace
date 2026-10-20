@@ -1,0 +1,24 @@
+{
+  "basis": "USD millions; Q3-2025 through Q2-2026; disclosed disposition components rounded to one decimal, approximate lower-bound calculation not exact strict >= rounded percentage",
+  "inputs": {
+    "Q3_25_gross": 141.051,
+    "FY25_gross": 249.262,
+    "9M25_gross": 236.748,
+    "Q1_26_gross": 26.096,
+    "Q2_26_gross": 49.061,
+    "Q3_25_HFS_transfer_chargeoffs": 109.5,
+    "FY25_HFS_sold_chargeoffs": 176.5,
+    "9M25_HFS_sold_chargeoffs": 170.3,
+    "H1_26_HFS_sold_chargeoffs": 36.7,
+    "allowance": 121.141
+  },
+  "results": {
+    "ttm_gross_chargeoffs_m": 228.722,
+    "identified_disposition_minimum_m": 152.39999999999998,
+    "allowance_m": 121.141,
+    "identified_share_pct": 66.63110675842287,
+    "unadjusted_stock_flow_ratio_years": 0.5296429726917393,
+    "ex_disposition_stock_flow_lower_bound_years": 1.5872356594428862,
+    "MF_criticized_growth_pct": 62.329056655508474
+  }
+}

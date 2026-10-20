@@ -1,0 +1,74 @@
+Maryland Land Records: FAQ: Creating An Account
+Maryland Land Records
+The Digital Repository for Land Records
+Created and verified by the Clerks of the Circuit Courts
+Presented by the Maryland State Archives
+msa.maryland.gov
+|
+HOME
+|
+INDICES
+|
+JUMP TO NEW VOLUME
+|
+RELATED LINKS
+|
+MY ACCOUNT
+|
+CREATE ACCOUNT
+|
+HELP
+|
+CONTACT US
+|
+LOGOUT
+|
+Clerk:
+Book:
+Page:
+NOTE:
+Search returns single page.
+Maryland Land Records Help
+User Guides
+Guide for Maryland Counties
+Guide for Searching
+Frequently Asked Questions
+|
+About Maryland Land Records
+|
+Creating an Account
+|
+Using Maryland Land Records
+|
+Troubleshooting
+|
+Related Info
+|
+More
+Creating an account
+Why is a user name and password necessary?
+In order to comply with the Maryland State Information Technology Security Policy and Standards, 
+                        login accounts are needed for remote access to Maryland Land Records. A user name and password is not necessary 
+                        to access Maryland Land Records from the public workstations at the Maryland County Circuit Courts or the Maryland State Archives.
+We require Maryland Land Records accounts to include contact information to better communicate with users regarding the questions, suggestions, 
+                        and corrections that they report. We also use patron information to generate aggregate statistics regarding site usage that help us further improve the site.
+I have applied for an account, but have received no response. What should I do?
+If you have not received a response within 30 minutes of your application, check your spam or junk folders to see if they contain an email from us. If you still cannot find a response, please contact the
+Archives' Help Desk
+.
+Can I have more than one account?
+Maryland Land Records allows one account per email address.
+I have forgotten my password. What should I do?
+Please
+click here
+to reset your account's password.
+Maryland Land Records (Version 5.0.0) © Maryland State Archives, 1999-
+2026
+.
+An
+Archives of Maryland Online
+electronic publication
+Use of this website constitutes an agreement by the user to abide by the
+Archives' Acceptable Use Policy
+.
+S52

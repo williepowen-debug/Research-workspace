@@ -1,0 +1,2 @@
+symbol,name,oct9_weight_pct,four_week_price_pct,four_week_adjusted_return_pct,four_week_current_weight_scenario_pp,three_month_price_pct,three_month_current_weight_scenario_pp,basis
+EGBN,EAGLE BANCORP INC,0.276852,2.246372910563532,2.246372910563532,0.0062191283303533,5.024184711412194,0.0140125215442681,October9 weights treated as fixed starting allocations; NOT historical fund contributions

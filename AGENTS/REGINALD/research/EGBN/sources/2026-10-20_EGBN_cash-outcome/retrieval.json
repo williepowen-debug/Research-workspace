@@ -1,0 +1,137 @@
+[
+  {
+    "id": "SEC-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001050441.json",
+    "retrieved_at": "2026-10-20T17:13:43.754737+00:00",
+    "status": 200,
+    "bytes": 165938,
+    "sha256": "73dcf9cb1cde0f75b9e66368ef1e6889de69d36a056195bbdc011158dbe32573",
+    "resolved_url": "https://data.sec.gov/submissions/CIK0001050441.json"
+  },
+  {
+    "id": "Q2-deck",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings.htm",
+    "retrieved_at": "2026-10-20T17:13:43.755224+00:00",
+    "status": 200,
+    "bytes": 63577,
+    "sha256": "cb61382a0927ca621515be746acaaa1e67eb87b13f610e5d2b8dceba050868fa",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings.htm"
+  },
+  {
+    "id": "Q1-deck",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000062/a1q2026egbnearningsdeck3.htm",
+    "retrieved_at": "2026-10-20T17:13:43.755530+00:00",
+    "status": 200,
+    "bytes": 66540,
+    "sha256": "475689eea2d65d1b21fd177b61a0490e31813529509c12c245d141087f750fb5",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000062/a1q2026egbnearningsdeck3.htm"
+  },
+  {
+    "id": "Q2-10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000096/egbn-20260630.htm",
+    "retrieved_at": "2026-10-20T17:13:43.755936+00:00",
+    "status": 200,
+    "bytes": 4150583,
+    "sha256": "cd8a0b09ad02f509aacc750da0529490e5ce22818565eb5214616d838dee0dc1",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000096/egbn-20260630.htm"
+  },
+  {
+    "id": "Q3-date",
+    "url": "https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/default.aspx",
+    "retrieved_at": "2026-10-20T17:13:43.756328+00:00",
+    "status": 403,
+    "bytes": 5868,
+    "sha256": "4df4a1260e55227597c1a997ca0b352325f876739747ea881ac70de2055c78a9",
+    "resolved_url": "https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/default.aspx"
+  },
+  {
+    "id": "IR-overview",
+    "url": "https://ir.eaglebankcorp.com/overview/default.aspx",
+    "retrieved_at": "2026-10-20T17:13:43.971931+00:00",
+    "status": 403,
+    "bytes": 5548,
+    "sha256": "4fdf30ec9edba27a8388216f1bd4927436ed853f7d0df41c1659702a506fad2e",
+    "resolved_url": "https://ir.eaglebankcorp.com/overview/default.aspx"
+  },
+  {
+    "id": "MD-land-records",
+    "url": "https://mdlandrec.net/main/",
+    "retrieved_at": "2026-10-20T17:13:44.047353+00:00",
+    "status": 200,
+    "bytes": 24793,
+    "sha256": "4be289b5c293f4dd78f6239f06f35f29547196538b448f5faf1e8f3aa4fae14b",
+    "resolved_url": "https://landrec.msa.maryland.gov/Pages/Login.aspx"
+  },
+  {
+    "id": "MD-case-search",
+    "url": "https://casesearch.courts.state.md.us/casesearch/",
+    "retrieved_at": "2026-10-20T17:13:44.073334+00:00",
+    "status": 403,
+    "bytes": 771,
+    "sha256": "12b692a8879a37ca5000055f5c8ee4482fbe40897412d434e3215eb684cd6b2d",
+    "resolved_url": "https://casesearch.courts.state.md.us/casesearch/"
+  },
+  {
+    "id": "Fairfax-land-records",
+    "url": "https://www.fairfaxcounty.gov/circuit/land-records/cpan",
+    "retrieved_at": "2026-10-20T17:13:44.103806+00:00",
+    "status": 404,
+    "bytes": 92846,
+    "sha256": "f4c8f4f09c3a7783e13d32711e978a2dd48a2b752c6f47f176f5a6815fb223c0",
+    "resolved_url": "https://www.fairfaxcounty.gov/circuit/land-records/cpan"
+  },
+  {
+    "id": "Q2-transcript-secondary",
+    "url": "https://stockanalysis.com/stocks/egbn/transcripts/653684-q2-2026/",
+    "retrieved_at": "2026-10-20T17:13:44.112989+00:00",
+    "status": 200,
+    "bytes": 306062,
+    "sha256": "9c0c14f528cb99173c05da57f886cf13eab416006b76ab3dc3058d36db2b449e",
+    "resolved_url": "https://stockanalysis.com/stocks/egbn/transcripts/653684-q2-2026/"
+  },
+  {
+    "id": "KBRA-Aug7",
+    "url": "https://www.kbra.com/publications/pHfCvcjR/kbra-affirms-ratings-for-eagle-bancorp-inc?format=web",
+    "retrieved_at": "2026-10-20T17:13:44.297532+00:00",
+    "status": 200,
+    "bytes": 68844,
+    "sha256": "4dbfd54ecf3ea44b6f8a33315577296a2dc1c92a3b93423195de7592d296cd85",
+    "resolved_url": "https://www.kbra.com/publications/pHfCvcjR/kbra-affirms-ratings-for-eagle-bancorp-inc?format=web"
+  },
+  {
+    "id": "Q2-slide025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings025.jpg",
+    "retrieved_at": "2026-10-20T17:13:45.299395+00:00",
+    "status": 200,
+    "bytes": 250185,
+    "sha256": "b6d7d184fb1e7e48e48abf4ae31f8294d1eb9be6b94ef8da10900a8b18f352b6",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings025.jpg"
+  },
+  {
+    "id": "Q2-slide026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings026.jpg",
+    "retrieved_at": "2026-10-20T17:13:45.348497+00:00",
+    "status": 200,
+    "bytes": 224983,
+    "sha256": "00333c4de2a23e959787d4e4d51f617f638ac8a532ea52cd00b0d8b108fdd183",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings026.jpg"
+  },
+  {
+    "id": "Q1-slide027",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000062/a1q2026egbnearningsdeck3027.jpg",
+    "retrieved_at": "2026-10-20T17:13:45.370574+00:00",
+    "status": 200,
+    "bytes": 235967,
+    "sha256": "77d1f9201bac5c57eab17d42c627c4126943c68660074997ffe836ff8b22be3d",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000062/a1q2026egbnearningsdeck3027.jpg"
+  },
+  {
+    "id": "Q1-slide028",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000062/a1q2026egbnearningsdeck3028.jpg",
+    "retrieved_at": "2026-10-20T17:13:45.636957+00:00",
+    "status": 200,
+    "bytes": 212407,
+    "sha256": "7689376c92d6343a16bb9a803d21d9bb24cc48407700b2bccb6c8ee935a802c5",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000062/a1q2026egbnearningsdeck3028.jpg"
+  }
+]

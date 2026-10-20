@@ -1,0 +1,2 @@
+group,ticker,name,price,change,previous_close_derived,change_pct,quote_time_et,source_url
+Regional,EGBN,Eagle,27.96,-0.23,28.19,-0.8158921603405462,2026-10-14T12:40:15-04:00,https://finance.yahoo.com/quote/EGBN/

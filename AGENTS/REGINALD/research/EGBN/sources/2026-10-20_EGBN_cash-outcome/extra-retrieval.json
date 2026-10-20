@@ -1,0 +1,74 @@
+[
+  {
+    "id": "Latest-8KA",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000106/gnw-20260629.htm",
+    "retrieved_at": "2026-10-20T17:15:42.681338+00:00",
+    "status": 200,
+    "bytes": 30713,
+    "sha256": "b7db8e3bc93f09a38084ea1f9a0b77f02a3fdc65937d9ccd35ee0bfa7ca4a8bf",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000106/gnw-20260629.htm"
+  },
+  {
+    "id": "Official-Q2-webcast",
+    "url": "https://edge.media-server.com/mmc/p/jdnqw6c5/",
+    "retrieved_at": "2026-10-20T17:15:42.681783+00:00",
+    "status": 200,
+    "bytes": 3810,
+    "sha256": "de234918ae3a2e79570fb14cf25fd7062fc23ae8f53a6fd674234ba94e0cbc86",
+    "resolved_url": "https://edge.media-server.com/mmc/p/jdnqw6c5/"
+  },
+  {
+    "id": "Official-Q2-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-erq2x2026xearnings.htm",
+    "retrieved_at": "2026-10-20T17:15:42.683835+00:00",
+    "status": 200,
+    "bytes": 38641,
+    "sha256": "c83776ae0171d9c183a5eba963470f69794d8aeeb60e1787f07a3de8c287baf9",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-erq2x2026xearnings.htm"
+  },
+  {
+    "id": "Fairfax-current-CPAN",
+    "url": "https://www.fairfaxcounty.gov/circuit/online-services/court-public-access-network",
+    "retrieved_at": "2026-10-20T17:15:42.685179+00:00",
+    "status": 200,
+    "bytes": 144002,
+    "sha256": "8c4d8097d18a33abd3cdf187b4badae96a6c530fb99f37f72313f9e0f97cdb34",
+    "resolved_url": "https://www.fairfaxcounty.gov/circuit/online-services/court-public-access-network"
+  },
+  {
+    "id": "MD-account-help",
+    "url": "https://landrec.msa.maryland.gov/Help/CreatingAnAccount.aspx",
+    "retrieved_at": "2026-10-20T17:15:42.685978+00:00",
+    "status": 200,
+    "bytes": 22542,
+    "sha256": "fb436725795d83584186fa5f3ae820b2cb092a2045b53e311ddc7452e0c7e149",
+    "resolved_url": "https://landrec.msa.maryland.gov/Help/CreatingAnAccount.aspx"
+  },
+  {
+    "id": "MD-search-guide",
+    "url": "https://guide.msa.maryland.gov/pages/viewer.aspx?page=deeds",
+    "retrieved_at": "2026-10-20T17:15:42.935181+00:00",
+    "status": 200,
+    "bytes": 17516,
+    "sha256": "b16ff483cf4390c333a27eb65fb97dc42d6b0a7b7c2cd7fae67333ec8f88691d",
+    "resolved_url": "https://guide.msa.maryland.gov/pages/viewer.aspx?page=deeds"
+  },
+  {
+    "id": "The-Six-origination",
+    "url": "https://www.eaglebankcorp.com/media/filer_public/02/8c/028cab82-d8da-4850-993d-153b2039b808/eaglebank_persus-transwestern_release__07182022_final.pdf",
+    "retrieved_at": "2026-10-20T17:15:42.941623+00:00",
+    "status": 200,
+    "bytes": 240786,
+    "sha256": "72aefafe82ab3faea0ed1a2fcc4697232cb06de49dca6ef041478cd8429e9cd1",
+    "resolved_url": "https://www.eaglebankcorp.com/media/filer_public/02/8c/028cab82-d8da-4850-993d-153b2039b808/eaglebank_persus-transwestern_release__07182022_final.pdf"
+  },
+  {
+    "id": "Margaux-origination",
+    "url": "https://www.eaglebankcorp.com/media/filer_public/70/cf/70cf6208-0ac4-4575-8822-5f3c47363035/eaglebank_-_the_margaux_release_final.pdf",
+    "retrieved_at": "2026-10-20T17:15:42.981824+00:00",
+    "status": 200,
+    "bytes": 238161,
+    "sha256": "816848e9f80ee948f4e725f4255d1fb98ef3e36dcf90adbe77e924a516832be1",
+    "resolved_url": "https://www.eaglebankcorp.com/media/filer_public/70/cf/70cf6208-0ac4-4575-8822-5f3c47363035/eaglebank_-_the_margaux_release_final.pdf"
+  }
+]

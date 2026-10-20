@@ -85,4 +85,4 @@ Will-directed reported-bank earnings catch-up → `reports/2026-10-20_reported-b
 
 **10/20 EGBN follow-up, direct Will:** `reports/2026-10-20_EGBN_cash-recovery_investigation.md`. Accessible current evidence investigated; four loan outcomes still UNKNOWN. Source scope/access gaps and July secondary expectations saved; cash/new expense/retained exposure remain next existing Q3-read fields. Appraisal-table inconsistency is a clarification gap, not a scored signal. No new monitor. Last touched2026-10-20.
 
-**EGBN navigation,10/20 Will-directed:** `research/EGBN/README.md` indexes current findings, sources and the existing loan-outcome cases. Originals retained; archived per-bank folder stays historical. No new investigation or monitor.
+**EGBN navigation,10/20 Will-directed:** `research/EGBN/README.md` now contains copied reports/sources, EGBN data extracts and a hash manifest. Originals retained; archived copies stay historical. No new investigation or monitor.

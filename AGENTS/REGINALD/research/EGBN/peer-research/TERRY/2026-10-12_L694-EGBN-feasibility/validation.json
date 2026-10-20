@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-12T13:18:30-04:00",
+  "fee_assumption": ".65 dollars per contract each opening/closing; not account terms or execution proof",
+  "arithmetic": [
+    {
+      "expiry": "2027-03-19",
+      "fetch_ts_local": "2026-10-12T13:14:37.931124",
+      "spot_fetch_reference": 28.75,
+      "strike": 25,
+      "DTE": 158,
+      "gross_entry": 340.0,
+      "all_in_opening_assumed": 340.65,
+      "same_screen_net_exit_assumed": 59.35,
+      "roundtrip_friction_assumed": 281.3,
+      "before_fee_expiry_breakeven": 21.6,
+      "before_fee_required_decline_pct": 24.869565,
+      "under_500_open_cost": true,
+      "gross_option_risk_max": 340.0
+    },
+    {
+      "expiry": "2026-12-18",
+      "fetch_ts_local": "2026-10-12T13:15:28.240069",
+      "spot_fetch_reference": 28.75,
+      "strike": 25,
+      "DTE": 67,
+      "gross_entry": 135.0,
+      "all_in_opening_assumed": 135.65,
+      "same_screen_net_exit_assumed": 19.35,
+      "roundtrip_friction_assumed": 116.3,
+      "before_fee_expiry_breakeven": 23.65,
+      "before_fee_required_decline_pct": 17.73913,
+      "under_500_open_cost": true,
+      "gross_option_risk_max": 135.0
+    }
+  ],
+  "sha256": {
+    "dec18-put-strip.json": "629035d178855d9bc56bc7677ce4b8568c1775ea8b35e5bf20785c2505834a07",
+    "march19-put-strip.json": "fa7c94db8b08f70b5a26738bad1afd5cc870e3e718feaabe57a1168c81c77e7a",
+    "expiries.json": "9fdf2e29cd6fbcd24597ac97082eaa9630c7a13cc385fed3b4f9e5f7698c9c3b",
+    "march19-full-returned-strip.json": "002766f5a7cd0ece00eb731cfd31fe6718042aaad3c52da55fe32f67868af352"
+  }
+}

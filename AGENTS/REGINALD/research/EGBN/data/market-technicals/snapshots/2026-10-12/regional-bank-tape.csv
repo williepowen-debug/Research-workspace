@@ -1,0 +1,2 @@
+ticker,name,asset_type,currency,last_price_or_index_level,daily_change_pct,three_month_price_change_pct,quote_time_et,retrieved_time_et,declared_feed_delay_minutes,historical_start,historical_end,note
+EGBN,"Eagle Bancorp, Inc.",EQUITY,USD,28.66,1.5591778880226892,5.024184711412194,2026-10-12T11:16:01-04:00,2026-10-12T11:16:40.009810-04:00,15,2026-07-10,2026-10-09,historical price returns excluding dividends; dated quote

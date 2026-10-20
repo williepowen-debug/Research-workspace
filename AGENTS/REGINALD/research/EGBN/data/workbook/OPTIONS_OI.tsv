@@ -1,0 +1,5 @@
+# FROZEN 2026-06-27 — orphaned data-feed: 0 live consumers, not in CLAUDE.md file table, last pull ~Apr 2026. Not maintained; STATUS/ROADMAP is canonical. Do not cite rows as current.
+Date	Ticker	Expiry	Total_Put_OI	Total_Call_OI	PC_Ratio	Top_Put_Strike	Top_Put_OI	Top5_Puts
+2026-04-09	EGBN	2026-04-17	64	33	1.94	17.5	50	$18=50; $20=10; $35=3; $22=1
+2026-04-09	EGBN	2026-05-15	1	3	0.33	22.5	1	$22=1
+2026-04-09	EGBN	2026-06-18	1424	108	13.19	5.0	1301	$5=1,301; $20=66; $10=27; $15=15; $22=6

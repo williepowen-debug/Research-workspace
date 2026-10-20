@@ -8,7 +8,7 @@
 
 | File | Date | What it holds | Feeds |
 |------|------|---------------|-------|
-| **[EGBN/ — Eagle Bancorp research hub](EGBN/README.md)** | 10/20 | Start here for current EGBN findings, earlier dossiers, source receipts/calculations and unresolved loan-outcome rows; original files stay authoritative | Existing EGBN release/filing review |
+| **[EGBN/ — Eagle Bancorp research hub](EGBN/README.md)** | 10/20 | Physical report/source copies, EGBN data extracts, frozen history and a source/hash manifest; originals stay authoritative | Existing EGBN release/filing review |
 | [WAL FY2027 earnings-path test](../reports/2026-10-14_WAL_2027_earnings-path-test.md) | 10/14 | Public ~$11 path,reverse expense budget,mortgage/ECR/credit counterevidence;conditional sensitivities | Existing WAL Q3 outcomes;owner bridge/grades unchanged |
 | **[market-technicals/](market-technicals/README.md)** | 10/12 | Will-directed home for regional-bank prices, performance, KRE holdings, charts and technical research; dated CSV snapshots, source provenance and historical-study index | Market comparison and technical research; original sources retain their homes |
 | **`FHLB/`** ★ **HUB: start at `FHLB/README.md`** | 10/10 | Everything on the Federal Home Loan Banks in one place (Will-directed consolidation): the two 10/10 reports (moved here; stubs at old paths), the check of Will's external draft, key filing tables, source list (PDFs local-only), a verbatim snapshot of every FHLB ledger row, and 25 crc-stamped copies of desk + fleet material | `REG-T-06` / WQ-414 · STATUS FHLB + H.8 rows · SHADE/BROCK insurer channel |

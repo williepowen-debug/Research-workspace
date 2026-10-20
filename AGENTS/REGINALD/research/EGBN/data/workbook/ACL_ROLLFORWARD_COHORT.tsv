@@ -1,0 +1,15 @@
+# Last real data refresh: 2026-08-20 — FFIEC CDR REST/JWT, Schedule RI-B Part II (ACL roll-forward), 14 matrix-cohort banks x 12 contiguous quarters = 168 bank-quarters, ALL at the primary. PURPOSE: base-rate CO/provision after FLG-desk's 14.6x reading, at DAEDALUS's request — the question was whether 14.6x is unusual. IT IS: 99th percentile, and the ENTIRE >=10x tail in 168 bank-quarters is FLG's own two 2026 quarters. COHORT NORM: median CO/prov = 1.00x — banks provision almost exactly what they charge off. p75 1.31 / p90 1.63 / p95 2.00. ⚠️ RIAD FIELDS ARE YEAR-TO-DATE and reset each 31 Dec; the ratio is valid at any quarter because BOTH legs are YTD, but LEVELS are not quarterly flows. ⚠️ IDENTITY TIE RATE: only 127/168 = 75.6% satisfy begin+recov+prov-CO==end; the rest carry RIADC233 adjustments / M&A. FLG ties 6/12 = 50%, an OUTLIER (worst: WAL 3/12, CUBI 5/12). ⚠️ provision <= 0 (a true RELEASE) occurs 2/168 = 1.2%, ZION only. CADENCE: QUARTERLY alongside the MI3 + NDFI cohort screens, next due 2026-11-07; JWT expires 2026-11-05. Scheduled, not event-driven. Reproduce: AGENTS/REGINALD/scripts/mi3_cohort_screen.py machinery, RSSDs from COHORT. ⚠️ ⚠️ READING THIS FILE: the Quarter column is M/D/YYYY and MUST BE PARSED, NOT SORTED — lexicographic sort puts '12/31/2023' before '3/31/2024' and silently reorders the series. DAEDALUS hit this recomputing off this file (got 27.0% and a 2-quarter streak vs the true 42.8% and 6-quarter streak) and caught it only because the printed order could not be chronological. Sort on parsed dates.
+# Cadence: SCHEDULED next_due=2026-11-07 — quarterly FFIEC Call Report pull, same clock as MI3_COHORT.tsv (~45d after quarter-end; Q3-2026 data). The data clock is old ON PURPOSE between runs; this is the quiet-until date. (Added 2026-09-26 per DAEDALUS staleness sweep #5.)
+Ticker	Quarter	ACL_begin_K	recoveries_K	provision_K	chargeoffs_K	ACL_end_K	CO_over_prov	identity_ties	Notes
+EGBN	12/31/2023	74444		30345	19522	85940	0.64	YES	
+EGBN	12/31/2024	85940		67005	39207	114390	0.59	YES	
+EGBN	12/31/2025	114390		293394	249263	159605	0.85	YES	
+EGBN	3/31/2024	85940		35174	21569	99684	0.61	YES	
+EGBN	3/31/2025	114390		26309	11307	129470	0.43	YES	
+EGBN	3/31/2026	159605		13506	26096	147163	1.93	YES	
+EGBN	6/30/2024	85940		44077	24115	106301	0.55	YES	
+EGBN	6/30/2025	114390		164513	95698	183796	0.58	YES	
+EGBN	6/30/2026	159605		35406	75157	121141	2.12	YES	
+EGBN	9/30/2023	74444		15802	7320	83332	0.46	YES	
+EGBN	9/30/2024	85940		54947	29496	111867	0.54	YES	
+EGBN	9/30/2025	114390		277758	236748	156228	0.85	YES	

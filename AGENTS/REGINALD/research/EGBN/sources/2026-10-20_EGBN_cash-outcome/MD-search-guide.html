@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xml:lang="en" lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1"><title>
+	Maryland State Archives - Guide to Government Records
+</title><link href="../css/screen.css" rel="stylesheet" type="text/css" media="screen" /><link href="../css/print.css" rel="stylesheet" type="text/css" media="print" /><link href="../css/modalbox.css" rel="stylesheet" type="text/css" media="screen" /><link href="../css/revised.css" rel="stylesheet" type="text/css" media="screen" /><link href="../css/jquery-ui.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/blitzer/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+
+    
+    <script src="../js/guide.js" type="text/javascript"></script>
+    <script src="../js/codebehind.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        maxCheckboxSelections = 5;
+    </script>
+
+
+</head>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const msg1 = document.getElementById("lblErrorTop");
+        const msg2 = document.getElementById("ErrorLabel");
+        const alert1 = document.getElementById('alertJump');
+        const alert2 = document.getElementById('alertJump2');
+
+        if (msg1 && msg1.textContent.trim() !== "" && alert1) {
+            alert1.setAttribute('role', 'alert');
+            alert1.setAttribute('aria-describedby', 'lblErrorTop');
+            alert1.setAttribute('aria-labelledby', 'errM');
+        } else if (alert1) {
+            alert1.removeAttribute('role');
+            alert1.removeAttribute('aria-describedby');
+            alert1.removeAttribute('aria-labelledby');
+        }
+
+        if (msg2 && msg2.textContent.trim() !== "" && alert2) {
+            alert2.setAttribute('role', 'alert');
+            alert2.setAttribute('aria-describedby', 'lblErrorTop');
+            alert2.setAttribute('aria-labelledby', 'errM2');
+        } else if (alert2) {
+            alert2.removeAttribute('role');
+            alert2.removeAttribute('aria-describedby');
+            alert2.removeAttribute('aria-labelledby');
+        }
+    });
+</script>
+<body>
+    <form method="post" action="./viewer.aspx?page=deeds" id="mainForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="98979F71" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="hv1QNrpz9awdK8G4D31mO7JVn5okovshEVjQro/mPvFRuqC1vatRqif6PeHNXZqrFv7PFUu/OeLcGIu7HWf3KmWrxUU3I+FN9C5viNpNiyw2BJtQUfNUYUnCL0S1J7o/ALf6Hrurv0ENC1hDOLNCoA==" />
+        <div id="container">
+            <div role="navigation" aria-label="Skip links">
+                <a class="skip-link" href="#main0">Skip to main content</a>
+                <a class="skip-link" href="#txtID_Top" id="skip2">Skip to search</a>
+            </div>
+            <div role="banner">            
+            <div id="banner" style="display: inline;">
+                <a href="index.aspx">
+                    <img src="../images/banner.jpg" alt="Maryland State Archives Guide to Government Records" style="border: 0px; z-index: 0;" /></a>
+            </div>
+            <div id="InternalMessage" style="top: 0px; float: right; position: relative; background-color: #FFFFFF; display: inline;">
+                <div id="lbnInternal2">
+                        <span style="position:absolute;width:100%;height:100%;top:0;left: 0;z-index: 1;"></span>
+                </div>
+                <span id="IPLabel"><strong>You are currently using the External guide.</strong></span>
+                <br />
+            </div>
+                </div>
+            <div role="navigation" aria-label="Menu">
+            <ul id="menu">
+                <li id="homeLI"><a href="index.aspx" id="homeLink">Home</a></li>
+                <li id="introLI"><a href="viewer.aspx?page=introduction" id="introLink">Introduction</a></li>
+                <li id="refLI"><a href="viewer.aspx?page=topviewed" id="refLink">Reference and Research</a></li>
+                <li id="orderLI"><a href="viewer.aspx?page=placeorder" id="orderLink">How To Place An Order</a></li>
+                <li id="searchLI"><a href="search.aspx?page=advsearch" id="advLink">Advanced Search</a></li>
+            </ul>
+            
+            <div id="topnavigation">
+                <div style="float: left">
+                    <span id="lblSeriesNavigation"></span>
+                </div>
+                <div style="float: right">
+                    <label id="Label2" for="txtID_Top">Jump By Series ID:</label>
+                    <input name="ctl00$txtID_Top" type="text" maxlength="30" id="txtID_Top" />
+                    <input type="submit" name="ctl00$jumpseriesbutton_Top" value="Jump" id="jumpseriesbutton_Top" />
+                    <p id="errM" class="sr-only">Error.</p>
+                    <div id="alertJump" aria-labelledby="errM" aria-describedby="lblErrorTop" style="display: inline;">
+                    
+                        </div>
+                </div>
+            </div>
+            </div>
+            <div role="main" id="main0">
+            <!-- Begin left column -->            
+                <div id="mainbody2">
+                    
+
+    
+
+<div class="section-header">
+    <img id="MainContent_listHeader_iconImage" class="icon" alt="" src="../images/icon/book.png" />&nbsp;<h1 id="MainContent_listHeader_headerLabel2" class="headers">Deeds and Mortgages</h1>
+</div>
+    
+        <div><table style="width: 100%; height: 100%;" border="0"><tbody><tr><td width="80%"><h1>Deeds &amp; Mortgages</h1><p style="margin-top: -5px;"><h4>Go to: <a href="https://landrec.msa.maryland.gov/Pages/Search.aspx">Maryland Land Records Online</a></h4><p></p><p>At the county level of government, land records have always made up the largest series of records. Land record books record deeds and mortgages, but you also can find bills of sale, manumissions, and certificates of freedom prior to Emancipation.</p><p>These land and property records, formerly held at the county courthouses, are now held at the Maryland State Archives for preservation. These are no longer circulated as preservation measures, and now are available online from home through MdLandRec.net. </p><p>Please check out our <a href="viewer.aspx?page=deeds-faqs"><strong>FAQs</strong></a> and <a href="viewer.aspx?page=deeds-tips-missing-records"><strong>Tips for Hard to Find Records</strong></a> for helplful tips for your land record research. Still hitting a brick wall? Send us an email at <a href="mailto:msa.helpdesk@maryland.gov">msa.helpdesk@maryland.gov</a>, and we will be happy to help.<br><h2 style="margin-bottom: -5px;">Introduction to Version 5.0.0</h2><p style="margin-top: -5px;">The Maryland State Archives is excited to share that an updated version of MDLandRec was launched today, November 17th. Please note that all users must create a new login. The Maryland Land Records website provides free online access to Maryland&rsquo;s land records from modern land records back to the earliest surviving land record for each county. You can access the website through the link on our home page, or by going straight to <a href="https://landrec.msa.maryland.gov/">landrec.msa.maryland.gov</a>.<p>Notable changes include multi-factor authentication: a security code will be sent to the email associated with the account upon logging in. Additional new features include "Indices" on the top of the page ("Active Indices" used to be found on the left hand side of the webpage, which now are renamed "Historical Indices."). Additionally, all text fields now contain the option to fine-tune a search by selecting from a list of search modifiers. For example, there are modifiers for partial information such as "Begins With", "Ends With", or "Contains" that can be applied to aid in the search process.<p>The URL is <a href="https://landrec.msa.maryland.gov/">landrec.msa.maryland.gov</a>, though the previous URL of "mdlandrec.net" will redirect users to the current version.<p>If you have questions or concerns, you can email our Help Desk at <a href="mailto:msa.helpdesk@maryland.gov">msa.helpdesk@maryland.gov</a>and we will return your email as quickly as possible.<h2 style="margin-bottom: -5px;">Certified Copies</h2><p>If you need a certified copy of a land record for legal purposes, then please visit our <a href="https://shop.msa.maryland.gov/orders/pages/orders.aspx">Order Website</a>, and use the &ldquo;Deed/Land Record Records&rdquo; form. Otherwise, if you just need images and do not need legally certified copies, then no need to place an order: you can find what you need online from home!</p><p></p></td><td width="20%" valign="top"><ul style="line-height: 1.8em;"><li><a href="viewer.aspx?page=land-records-main">Land Records home</a></li><br><li><a href="viewer.aspx?page=mdlandrec">Using the MDLandRec Website</a></li><br><li><a href="viewer.aspx?page=deeds-historical-background">Historical Background Information</a></li><br><li><a href="viewer.aspx?page=deeds-tips-missing-records">Tips for Hard to Find Records</a></li><br><li><a href="viewer.aspx?page=deeds-faqs">FAQs</a></li><br></ul></td></tr></tbody></table><hr><p align="center"><font face="Verdana">This web site is presented for reference purposes under the doctrine of fair use. When this material is used, in whole or in part, proper citation and credit must be attributed to the Maryland State Archives. PLEASE NOTE: The site may contain material from other sources which may be under copyright. Rights assessment, and full originating source citation, is the responsibility of the user.</font></p><p align="center"><a href="https://feedback.msa.maryland.gov/"><font face="Verdana">Tell Us What You Think About the Maryland State Archives Website!</font></a></p><p align="center"><font face="Verdana">350 Rowe Boulevard, Annapolis, MD 21401 | MD toll free (800) 235-4045 or (410) 260-6400<br>Email: </font><a href="mailto:msa.helpdesk@maryland.gov"><font face="Verdana">msa.helpdesk@maryland.gov</font></a><font face="Verdana"> | <a href="viewer.aspx?page=directions"> Directions &amp; Hours</a></font></p></div>
+
+
+                </div>
+
+                
+            <div class="spacer"></div>
+
+            <div id="copyrightDiv" role="contentinfo">
+                <p>Guide to Government Records Copyright © 2015 <a href="http://msa.maryland.gov">Maryland State Archives</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

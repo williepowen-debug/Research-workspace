@@ -1,0 +1,3162 @@
+[
+  {
+    "table": 0,
+    "rows": [
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 1,
+    "rows": [
+      "",
+      "Maryland | 52-2061461",
+      "(State or other jurisdiction of | incorporation or organization) | (I.R.S. Employer | Identification No.)",
+      "",
+      "7500 Old Georgetown Road | , | 15th Floor | , | Bethesda | , | Maryland | 20814",
+      "(Address of principal executive offices) | (Zip Code)"
+    ]
+  },
+  {
+    "table": 2,
+    "rows": [
+      "",
+      "Title of Each Class | Trading Symbol(s) | Name of Each Exchange on Which Registered",
+      "Common Stock, $0.01 par value | EGBN | The Nasdaq Stock Market LLC"
+    ]
+  },
+  {
+    "table": 3,
+    "rows": [
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 4,
+    "rows": [
+      "",
+      "Page",
+      "PART I. | FINANCIAL INFORMATION",
+      "Item 1. | Financial Statements | 3",
+      "Consolidated Balance Sheets as of | June\u00a030, 2026 | (unaudited) and | December\u00a031, 2025 | 3",
+      "Consolidated Statements of Operations for the | Three and Six | Months | Ended | June\u00a030, 2026 | and | 2025 | (unaudited) | 4",
+      "Consolidated Statements of Comprehensive Income (Loss) for the | Three and Six | Months Ended | June\u00a030, 2026 | and | 2025 | (unaudited) | 5",
+      "Consolidated Statements of Changes in Shareholders' Equity for the | Three and Six | Months Ended | June\u00a030, 2026 | and | 2025 | (unaudited) | 7",
+      "Consolidated Statements of Cash Flows for the | Six Months Ended June 30, 2026 | and | 2025 | (unaudited) | 8",
+      "Notes to Consolidated Financial Statements | 9",
+      "Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies | 9",
+      "Note\u00a02\u00a0\u2013 Cash and Due from Banks | 16",
+      "Note\u00a03\u00a0\u2013 Investment Securities | 16",
+      "Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses | 20",
+      "Note 5\u00a0\u2013 Leases | 30",
+      "Note\u00a06\u00a0\u2013 Derivatives and Hedging Activities | 31",
+      "Note\u00a07\u00a0\u2013 Deposits | 36",
+      "Note\u00a08\u00a0\u2013 Borrowings | 37",
+      "Note\u00a09\u00a0\u2013 Net Income (Loss) per Common Share | 38",
+      "Note\u00a010\u00a0\u2013 Other Comprehensive Income (Loss) | 39",
+      "Note\u00a011\u00a0\u2013 Fair Value Measurements | 41",
+      "Note\u00a012\u00a0\u2013 Segment Reporting | 46",
+      "Note 13 | \u2013 | Legal Contingencies | 46",
+      "Note 14 | \u2013 | Subsequent Events | 46",
+      "Item 2. | Management's Discussion and Analysis of Financial Condition and Results of Operations | 47",
+      "General | 47",
+      "Critical Accounting Policies and Estimates | 48",
+      "Results of Operations | 49",
+      "Balance Sheet Analysis | 57",
+      "Commitments and | Contractual Obligations | 68",
+      "Liquidity Management | 68",
+      "Capital Resources and Adequacy | 70",
+      "Asset/Liability Management | and Quantitative and Qualitative Disclosures about Market Risk | 71",
+      "Use of | Non-GAAP Financial Measures | 75",
+      "",
+      "Item 3. | Quantitative and Qualitative Disclosures about Market Risk | 75",
+      "Item 4. | Controls and Procedures | 75",
+      "",
+      "PART II. | OTHER INFORMATION",
+      "Item 1. | Legal Proceedings | 76",
+      "Item 1A. | Risk Factors | 76",
+      "Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds | 76",
+      "Item 3. | Defaults Upon Senior Securities | 76",
+      "Item 4. | Mine Safety Disclosures | 76",
+      "Item 5. | Other Information | 76",
+      "Item 6. | Exhibits | 77",
+      "",
+      "S | I | GNATURES | 78"
+    ]
+  },
+  {
+    "table": 5,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 2"
+    ]
+  },
+  {
+    "table": 6,
+    "rows": [
+      "",
+      "Table of Contents | Financial Statements and Supplementary Data",
+      ""
+    ]
+  },
+  {
+    "table": 7,
+    "rows": [
+      "",
+      "As of",
+      "June\u00a030, 2026 | (Unaudited) | December 31, 2025",
+      "Assets",
+      "Cash and due from banks | $ | 13,394 | $ | 11,692",
+      "",
+      "Interest-bearing deposits with banks and other short-term investments | 612,349 | 684,001",
+      "Investment securities available-for-sale (amortized cost of $ | 984,607 | and $ | 1,055,146 | , respectively, and allowance for credit losses of $ | 0 | and $ | 0 | , respectively) | 904,183 | 976,770",
+      "Investment securities held-to-maturity, net of allowance for credit losses of $ | 454 | and $ | 1,030 | , respectively (fair value of $ | 730,994 | and $ | 774,947 | , respectively) | 814,878 | 854,780",
+      "Federal Reserve and Federal Home Loan Bank stock | 32,500 | 28,327",
+      "Loans held for sale, at lower of cost or fair value | 49,663 | 90,650",
+      "Loans held for investment, at amortized cost | 6,622,435 | 7,280,459",
+      "Less: Allowance for credit losses | ( | 121,141 | ) | ( | 159,604 | )",
+      "Loans held for investment, net of allowance | 6,501,294 | 7,120,855",
+      "Premises and equipment, net | 13,239 | 12,800",
+      "Right-of-use assets - operating leases | 27,964 | 28,451",
+      "Deferred income taxes | 134,077 | 132,330",
+      "Bank-owned life insurance | 345,469 | 335,177",
+      "",
+      "Other real estate owned | 1,966 | 2,059",
+      "Other assets | 207,938 | 219,311",
+      "Total Assets | $ | 9,658,914 | $ | 10,497,203",
+      "",
+      "Liabilities and Shareholders\u2019 Equity",
+      "Liabilities",
+      "Deposits:",
+      "Noninterest-bearing demand | $ | 1,567,336 | $ | 1,433,952",
+      "Interest-bearing transaction | 973,651 | 1,038,154",
+      "Savings and money market | 3,061,987 | 3,624,813",
+      "Time deposits | 2,582,123 | 3,036,687",
+      "Total deposits | 8,185,097 | 9,133,606",
+      "",
+      "Other short-term borrowings | 100,000 | \u2014",
+      "Long-term borrowings | 76,593 | 76,428",
+      "Operating lease liabilities | 35,081 | 35,256",
+      "Reserve for unfunded commitments | 3,319 | 5,090",
+      "Other liabilities | 108,318 | 115,540",
+      "Total Liabilities | 8,508,408 | 9,365,920",
+      "",
+      "",
+      "",
+      "Shareholders\u2019 Equity",
+      "Common stock, par value | 0.01 | per share; shares authorized | 100,000,000 | , shares issued and outstanding | 30,490,409 | and | 30,359,632 | , respectively | 302 | 300",
+      "Additional paid-in capital | 385,082 | 382,499",
+      "Retained earnings | 858,601 | 837,643",
+      "Accumulated other comprehensive income (loss) | ( | 93,479 | ) | ( | 89,159 | )",
+      "Total Shareholders\u2019 Equity | 1,150,506 | 1,131,283",
+      "Total Liabilities and Shareholders\u2019 Equity | $ | 9,658,914 | $ | 10,497,203"
+    ]
+  },
+  {
+    "table": 8,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 3"
+    ]
+  },
+  {
+    "table": 9,
+    "rows": [
+      "",
+      "Table of Contents | Financial Statements and Supplementary Data",
+      ""
+    ]
+  },
+  {
+    "table": 10,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "2026 | 2025 | 2026 | 2025",
+      "Interest Income",
+      "Interest and fees on loans | $ | 106,358 | $ | 125,247 | $ | 215,924 | $ | 251,410",
+      "Interest and dividends on investment securities | 9,243 | 11,436 | 18,889 | 23,348",
+      "Interest on balances with other banks and short-term investments | 10,978 | 14,760 | 23,667 | 30,563",
+      "Total interest income | 126,579 | 151,443 | 258,480 | 305,321",
+      "Interest Expense",
+      "Interest on deposits | 61,623 | 78,912 | 127,804 | 156,123",
+      "Interest on customer repurchase agreements | \u2014 | 250 | \u2014 | 510",
+      "Interest on other short-term borrowings | 582 | 2,489 | 584 | 11,222",
+      "Interest on long-term borrowings | 2,024 | 2,016 | 4,048 | 4,041",
+      "Total interest expense | 64,229 | 83,667 | 132,436 | 171,896",
+      "Net Interest Income | 62,350 | 67,776 | 126,044 | 133,425",
+      "Provision for Credit Losses | 21,448 | 138,159 | 34,830 | 164,414",
+      "Provision for (Reversal of) Credit Losses for Unfunded Commitments | 8 | 1,759 | ( | 1,771 | ) | 1,462",
+      "Net Interest Income (Loss) After Provision for (Reversal of) Credit Losses | 40,894 | ( | 72,142 | ) | 92,985 | ( | 32,451 | )",
+      "",
+      "Noninterest Income",
+      "Service charges on deposits | 1,733 | 1,771 | 3,465 | 3,514",
+      "Gain (loss) on sale of loans | 2,291 | \u2014 | 5,841 | \u2014",
+      "Net gain (loss) on sale of investment securities | 266 | ( | 1,854 | ) | 269 | ( | 1,850 | )",
+      "Increase in the cash surrender value of bank-owned life insurance | 5,672 | 5,161 | 11,351 | 9,443",
+      "Other income | 797 | 1,336 | 2,541 | 3,514",
+      "Total noninterest income | 10,759 | 6,414 | 23,467 | 14,621",
+      "Noninterest Expense",
+      "Salaries and employee benefits | 23,366 | 21,940 | 46,613 | 43,908",
+      "Premises and equipment expenses | 2,445 | 3,019 | 4,978 | 6,222",
+      "Marketing and advertising | 1,161 | 1,144 | 2,029 | 2,515",
+      "Data processing | 4,257 | 4,293 | 8,461 | 8,271",
+      "Legal, accounting and professional fees | 4,783 | 1,550 | 9,095 | 4,672",
+      "FDIC insurance | 4,862 | 8,077 | 11,871 | 17,039",
+      "",
+      "",
+      "Other expenses | 3,154 | 3,447 | 9,721 | 6,294",
+      "Total noninterest expense | 44,028 | 43,470 | 92,768 | 88,921",
+      "Income (Loss) Before Income Tax Expense | 7,625 | ( | 109,198 | ) | 23,684 | ( | 106,751 | )",
+      "Income Tax Expense (Benefit) | 707 | ( | 39,423 | ) | 2,048 | ( | 38,651 | )",
+      "Net Income (Loss) | $ | 6,918 | $ | ( | 69,775 | ) | $ | 21,636 | $ | ( | 68,100 | )",
+      "Earnings (Loss) Per Common Share",
+      "Basic | $ | 0.23 | $ | ( | 2.30 | ) | $ | 0.71 | $ | ( | 2.25 | )",
+      "Diluted | $ | 0.23 | $ | ( | 2.30 | ) | $ | 0.71 | $ | ( | 2.25 | )"
+    ]
+  },
+  {
+    "table": 11,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 4"
+    ]
+  },
+  {
+    "table": 12,
+    "rows": [
+      "",
+      "Table of Contents | Financial Statements and Supplementary Data",
+      ""
+    ]
+  },
+  {
+    "table": 13,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "2026 | 2025 | 2026 | 2025",
+      "Net Income (Loss) | $ | 6,918 | $ | ( | 69,775 | ) | $ | 21,636 | $ | ( | 68,100 | )",
+      "",
+      "Other comprehensive income (loss), net of tax:",
+      "Unrealized gain (loss) on securities available-for-sale | ( | 1,264 | ) | 10,241 | ( | 1,343 | ) | 29,594",
+      "Reclassification adjustment for net (gain) loss included in net income (loss) | ( | 193 | ) | 1,185 | ( | 189 | ) | 1,180",
+      "Total unrealized gain (loss) on investment securities available-for-sale | ( | 1,457 | ) | 11,426 | ( | 1,532 | ) | 30,774",
+      "",
+      "Amortization of unrealized loss on securities transferred to held-to-maturity | 1,341 | 1,255 | 2,536 | 2,459",
+      "",
+      "Unrealized gain (loss) on derivatives | ( | 3,608 | ) | ( | 107 | ) | ( | 5,902 | ) | ( | 125 | )",
+      "Reclassification adjustment for (gain) loss on cash flow hedging relationships | 318 | \u2014 | 578 | \u2014",
+      "Total unrealized gain (loss) on derivatives | ( | 3,290 | ) | ( | 107 | ) | ( | 5,324 | ) | ( | 125 | )",
+      "Other comprehensive income (loss) | ( | 3,406 | ) | 12,574 | ( | 4,320 | ) | 33,108",
+      "Comprehensive Income (Loss) | $ | 3,512 | $ | ( | 57,201 | ) | $ | 17,316 | $ | ( | 34,992 | )"
+    ]
+  },
+  {
+    "table": 14,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 5"
+    ]
+  },
+  {
+    "table": 15,
+    "rows": [
+      "",
+      "Table of Contents | Financial Statements and Supplementary Data",
+      ""
+    ]
+  },
+  {
+    "table": 16,
+    "rows": [
+      "",
+      "Common | Additional Paid-in Capital | Retained | Earnings | Accumulated | Other | Comprehensive | Income (Loss) | Total | Shareholders\u2019 | Equity",
+      "Shares | Amount",
+      "Balance as of April\u00a01, 2026 | 30,494,659 | $ | 302 | $ | 383,050 | $ | 851,998 | $ | ( | 90,073 | ) | $ | 1,145,277",
+      "",
+      "Net Income (Loss) | \u2014 | \u2014 | \u2014 | 6,918 | \u2014 | 6,918",
+      "Other comprehensive income (loss), net of tax | \u2014 | \u2014 | \u2014 | \u2014 | ( | 3,406 | ) | ( | 3,406 | )",
+      "Stock-based compensation expense | \u2014 | \u2014 | 1,953 | \u2014 | 1,953",
+      "Issuance of common stock under share-based compensation arrangements | ( | 10,172 | ) | \u2014 | ( | 44 | ) | ( | 7 | ) | \u2014 | ( | 51 | )",
+      "Issuance of common stock related to employee stock purchase plan | 5,922 | \u2014 | 123 | \u2014 | 123",
+      "Cash dividends declared ($ | 0.01 | per share) | \u2014 | \u2014 | \u2014 | ( | 308 | ) | \u2014 | ( | 308 | )",
+      "",
+      "Balance as of June\u00a030, 2026 | 30,490,409 | $ | 302 | $ | 385,082 | $ | 858,601 | $ | ( | 93,479 | ) | $ | 1,150,506",
+      "",
+      "Balance as of April\u00a01, 2025 | 30,368,843 | $ | 300 | $ | 386,535 | $ | 978,995 | $ | ( | 120,939 | ) | $ | 1,244,891",
+      "",
+      "Net Income (Loss) | \u2014 | \u2014 | \u2014 | ( | 69,775 | ) | \u2014 | ( | 69,775 | )",
+      "Other comprehensive income, net of tax | \u2014 | \u2014 | \u2014 | \u2014 | 12,574 | 12,574",
+      "Stock-based compensation expense | \u2014 | \u2014 | 2,273 | \u2014 | \u2014 | 2,273",
+      "Issuance of common stock under share-based compensation arrangements | ( | 9,518 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014",
+      "Issuance of common stock related to employee stock purchase plan | 5,658 | \u2014 | 119 | \u2014 | \u2014 | 119",
+      "Cash dividends declared ($ | 0.165 | per share) | \u2014 | \u2014 | \u2014 | ( | 5,015 | ) | \u2014 | ( | 5,015 | )",
+      "",
+      "Balance as of June\u00a030, 2025 | 30,364,983 | $ | 300 | $ | 388,927 | $ | 904,205 | $ | ( | 108,365 | ) | $ | 1,185,067"
+    ]
+  },
+  {
+    "table": 17,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 6"
+    ]
+  },
+  {
+    "table": 18,
+    "rows": [
+      "",
+      "Table of Contents | Financial Statements and Supplementary Data",
+      ""
+    ]
+  },
+  {
+    "table": 19,
+    "rows": [
+      "",
+      "Common | Additional Paid-in Capital | Retained | Earnings | Accumulated | Other | Comprehensive | Income (Loss) | Total | Shareholders\u2019 | Equity",
+      "Shares | Amount",
+      "Balance as of January 1, 2026 | 30,359,632 | $ | 300 | $ | 382,499 | $ | 837,643 | $ | ( | 89,159 | ) | $ | 1,131,283",
+      "",
+      "Net Income (Loss) | \u2014 | \u2014 | \u2014 | 21,636 | \u2014 | 21,636",
+      "Other comprehensive income (loss), net of tax | \u2014 | \u2014 | \u2014 | \u2014 | ( | 4,320 | ) | ( | 4,320 | )",
+      "Stock-based compensation expense | \u2014 | \u2014 | 3,464 | \u2014 | \u2014 | 3,464",
+      "",
+      "Issuance of common stock under share-based compensation arrangements | 121,040 | 2 | ( | 1,081 | ) | ( | 67 | ) | \u2014 | ( | 1,146 | )",
+      "",
+      "",
+      "Issuance of common stock related to employee stock purchase plan | 9,737 | \u2014 | 200 | \u2014 | \u2014 | 200",
+      "Cash dividends declared ($ | 0.02 | per share) | \u2014 | \u2014 | \u2014 | ( | 611 | ) | \u2014 | ( | 611 | )",
+      "",
+      "Balance as of June\u00a030, 2026 | 30,490,409 | $ | 302 | $ | 385,082 | $ | 858,601 | $ | ( | 93,479 | ) | $ | 1,150,506",
+      "",
+      "Balance as of January 1, 2025 | 30,202,003 | $ | 298 | $ | 384,932 | $ | 982,304 | $ | ( | 141,473 | ) | $ | 1,226,061",
+      "",
+      "Net Income (Loss) | \u2014 | \u2014 | \u2014 | ( | 68,100 | ) | \u2014 | ( | 68,100 | )",
+      "Other comprehensive income, net of tax | \u2014 | \u2014 | \u2014 | \u2014 | 33,108 | 33,108",
+      "Stock-based compensation expense | \u2014 | \u2014 | 3,797 | \u2014 | \u2014 | 3,797",
+      "",
+      "Issuance of common stock under share-based compensation arrangements | 153,718 | 2 | ( | 2 | ) | \u2014 | \u2014 | \u2014",
+      "Issuance of common stock related to employee stock purchase plan | 9,262 | \u2014 | 200 | \u2014 | \u2014 | 200",
+      "Cash dividends declared ($ | 0.33 | per share) | \u2014 | \u2014 | \u2014 | ( | 9,999 | ) | \u2014 | ( | 9,999 | )",
+      "",
+      "Balance as of June\u00a030, 2025 | 30,364,983 | $ | 300 | $ | 388,927 | $ | 904,205 | $ | ( | 108,365 | ) | $ | 1,185,067",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 20,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 7"
+    ]
+  },
+  {
+    "table": 21,
+    "rows": [
+      "",
+      "Table of Contents | Financial Statements and Supplementary Data",
+      ""
+    ]
+  },
+  {
+    "table": 22,
+    "rows": [
+      "",
+      "For the Six Months Ended June 30,",
+      "2026 | 2025",
+      "Cash Flows From Operating Activities:",
+      "Net Income (loss) | $ | 21,636 | $ | ( | 68,100 | )",
+      "Adjustments to reconcile net income to net cash provided by operating activities:",
+      "Provision for credit losses | 34,830 | 164,414",
+      "(Reversal of) provision for unfunded commitments | ( | 1,771 | ) | 1,462",
+      "",
+      "Depreciation and amortization | 1,170 | 1,611",
+      "",
+      "Securities premium amortization (discount accretion), net | 2,402 | 2,288",
+      "",
+      "",
+      "Net gain on sale of other real estate owned | ( | 6 | ) | ( | 487 | )",
+      "Net increase in cash surrender value of bank-owned life insurance | ( | 11,351 | ) | ( | 9,443 | )",
+      "Net (gain) loss on sale of investment securities | ( | 269 | ) | 1,850",
+      "Stock-based compensation expense | 3,464 | 3,797",
+      "",
+      "Decrease (increase) in other assets | 11,627 | ( | 42,346 | )",
+      "Increase (decrease) in other liabilities | ( | 14,484 | ) | ( | 40,482 | )",
+      "Net cash provided by operating activities | 47,248 | 14,564",
+      "Cash Flows From Investing Activities:",
+      "Purchases of available-for-sale investment securities | \u2014 | ( | 28,224 | )",
+      "Proceeds from paydowns of available-for-sale securities | 51,505 | 60,151",
+      "Proceeds from sale/call and maturities of available-for-sale securities | 18,269 | 102,834",
+      "",
+      "Proceeds from paydowns of held-to-maturity securities | 30,557 | 33,786",
+      "Proceeds from call/maturities of held-to-maturity securities | 11,844 | 10,127",
+      "Proceeds from (purchases of) Federal Reserve stock | 194 | ( | 121 | )",
+      "Proceeds from (purchases of) Federal Home Loan Bank stock | ( | 4,367 | ) | 21,272",
+      "",
+      "Net change in loans | 331,376 | 80,541",
+      "Proceeds from sale of loans | 293,766 | \u2014",
+      "Net (purchases) redemptions of bank-owned life insurance | 805 | ( | 200,000 | )",
+      "Proceeds from sale of other real estate owned | 360 | 772",
+      "Purchase of premises and equipment | ( | 1,444 | ) | ( | 864 | )",
+      "Net cash (used in) provided by investing activities | 732,865 | 80,274",
+      "Cash Flows From Financing Activities:",
+      "Increase (decrease) in deposits | ( | 948,509 | ) | ( | 11,471 | )",
+      "Increase (decrease) in customer repurchase agreements | \u2014 | ( | 9,715 | )",
+      "Increase (decrease) in short-term borrowings | 100,000 | ( | 440,000 | )",
+      "",
+      "Net settlement of withholding taxes on the vesting of stock awards | ( | 1,146 | ) | \u2014",
+      "Proceeds from employee stock purchase plan | 200 | 200",
+      "",
+      "Cash dividends paid | ( | 608 | ) | ( | 9,999 | )",
+      "Net cash provided by (used in) financing activities | ( | 850,063 | ) | ( | 470,985 | )",
+      "Net Increase (Decrease) in Cash and Cash Equivalents | ( | 69,950 | ) | ( | 376,147 | )",
+      "Cash and Cash Equivalents at Beginning of Period | 695,693 | 633,480",
+      "Cash and Cash Equivalents at End of Period | $ | 625,743 | $ | 257,333",
+      "",
+      "",
+      "",
+      "",
+      "Supplemental Cash Flows Information:",
+      "Interest paid | $ | 135,577 | $ | 175,450",
+      "Income taxes paid | \u2014 | 1,460",
+      "",
+      "",
+      "Supplemental Non-Cash Disclosures:",
+      "Initial recognition of operating lease right-of-use assets | $ | 1,606 | $ | 15,838",
+      "",
+      "Transfer of loans held for investment to loans held for sale | 238,485 | 37,576",
+      ""
+    ]
+  },
+  {
+    "table": 23,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 8"
+    ]
+  },
+  {
+    "table": 24,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies",
+      ""
+    ]
+  },
+  {
+    "table": 25,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 9"
+    ]
+  },
+  {
+    "table": 26,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies",
+      ""
+    ]
+  },
+  {
+    "table": 27,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 10"
+    ]
+  },
+  {
+    "table": 28,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies",
+      ""
+    ]
+  },
+  {
+    "table": 29,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars in thousands) | 2026 | 2025 | 2026 | 2025",
+      "Provision for (reversal of) credit losses - loans | $ | 21,900 | $ | 138,205 | $ | 35,406 | $ | 164,513",
+      "Provision for (reversal of) credit losses - HTM debt securities | ( | 452 | ) | ( | 46 | ) | ( | 576 | ) | ( | 99 | )",
+      "",
+      "Total Provision for credit losses | $ | 21,448 | $ | 138,159 | $ | 34,830 | $ | 164,414"
+    ]
+  },
+  {
+    "table": 30,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 11"
+    ]
+  },
+  {
+    "table": 31,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies",
+      ""
+    ]
+  },
+  {
+    "table": 32,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 12"
+    ]
+  },
+  {
+    "table": 33,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies",
+      ""
+    ]
+  },
+  {
+    "table": 34,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 13"
+    ]
+  },
+  {
+    "table": 35,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies",
+      ""
+    ]
+  },
+  {
+    "table": 36,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 14"
+    ]
+  },
+  {
+    "table": 37,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a01\u00a0\u2013 Summary of Significant Accounting Policies",
+      ""
+    ]
+  },
+  {
+    "table": 38,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 15"
+    ]
+  },
+  {
+    "table": 39,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a02\u00a0\u2013 Cash and Due from Banks",
+      ""
+    ]
+  },
+  {
+    "table": 40,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Amortized Cost | Gross Unrealized Gains | Gross Unrealized Losses | Estimated Fair Value",
+      "",
+      "U.S. agency securities | $ | 331,363 | $ | \u2014 | $ | ( | 17,591 | ) | $ | 313,772",
+      "Residential mortgage-backed securities | 574,550 | 58 | ( | 59,860 | ) | 514,748",
+      "Commercial mortgage-backed securities | 68,359 | \u2014 | ( | 2,625 | ) | 65,734",
+      "Municipal bonds | 8,335 | \u2014 | ( | 392 | ) | 7,943",
+      "Corporate bonds | 2,000 | \u2014 | ( | 14 | ) | 1,986",
+      "Total available-for-sale securities | $ | 984,607 | $ | 58 | $ | ( | 80,482 | ) | $ | 904,183",
+      "",
+      "As of December\u00a031, 2025",
+      "(dollars in thousands) | Amortized Cost | Gross Unrealized Gains | Gross Unrealized Losses | Estimated Fair Value",
+      "",
+      "U.S. agency securities | $ | 355,249 | $ | \u2014 | $ | ( | 17,541 | ) | $ | 337,708",
+      "Residential mortgage-backed securities | 620,540 | 152 | ( | 58,188 | ) | 562,504",
+      "Commercial mortgage-backed securities | 68,931 | 117 | ( | 2,503 | ) | 66,545",
+      "Municipal bonds | 8,426 | \u2014 | ( | 380 | ) | 8,046",
+      "Corporate bonds | 2,000 | \u2014 | ( | 33 | ) | 1,967",
+      "Total available-for-sale securities | $ | 1,055,146 | $ | 269 | $ | ( | 78,645 | ) | $ | 976,770"
+    ]
+  },
+  {
+    "table": 41,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 16"
+    ]
+  },
+  {
+    "table": 42,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a03\u00a0\u2013 Investment Securities",
+      ""
+    ]
+  },
+  {
+    "table": 43,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Amortized Cost | Gross Unrealized Gains | Gross Unrealized Losses | Estimated Fair Value",
+      "",
+      "",
+      "Residential mortgage-backed securities | $ | 516,797 | $ | \u2014 | $ | ( | 62,731 | ) | $ | 454,066",
+      "Commercial mortgage-backed securities | 84,682 | \u2014 | ( | 10,409 | ) | 74,273",
+      "Municipal bonds | 106,753 | \u2014 | ( | 7,284 | ) | 99,469",
+      "Corporate bonds | 107,100 | 5 | ( | 3,919 | ) | 103,186",
+      "Total | 815,332 | $ | 5 | $ | ( | 84,343 | ) | $ | 730,994",
+      "Less: Allowance for credit losses | ( | 454 | )",
+      "Total held-to-maturity securities, net of ACL | $ | 814,878",
+      "",
+      "As of December\u00a031, 2025",
+      "(dollars in thousands) | Amortized Cost | Gross Unrealized Gains | Gross Unrealized Losses | Estimated Fair Value",
+      "",
+      "",
+      "Residential mortgage-backed securities | $ | 544,402 | $ | \u2014 | $ | ( | 58,836 | ) | $ | 485,566",
+      "Commercial mortgage-backed securities | 85,760 | \u2014 | ( | 9,787 | ) | 75,973",
+      "Municipal bonds | 106,875 | \u2014 | ( | 6,933 | ) | 99,942",
+      "Corporate bonds | 118,773 | 8 | ( | 5,315 | ) | 113,466",
+      "Total | 855,810 | $ | 8 | $ | ( | 80,871 | ) | $ | 774,947",
+      "Less: Allowance for credit losses | ( | 1,030 | )",
+      "Total held-to-maturity securities, net of ACL | $ | 854,780"
+    ]
+  },
+  {
+    "table": 44,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 17"
+    ]
+  },
+  {
+    "table": 45,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a03\u00a0\u2013 Investment Securities",
+      ""
+    ]
+  },
+  {
+    "table": 46,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "Less\u00a0than 12\u00a0Months | 12\u00a0Months or\u00a0Greater | Total",
+      "(dollars in thousands) | Number\u00a0of Securities | Estimated Fair Value | Unrealized Losses | Estimated Fair Value | Unrealized Losses | Estimated Fair Value | Unrealized Losses",
+      "Investment securities available-for-sale:",
+      "",
+      "U.S. agency securities | 50 | $ | \u2014 | $ | \u2014 | $ | 313,772 | $ | ( | 17,591 | ) | $ | 313,772 | $ | ( | 17,591 | )",
+      "Residential mortgage-backed securities | 140 | 16,642 | ( | 227 | ) | 489,180 | ( | 59,633 | ) | 505,822 | ( | 59,860 | )",
+      "Commercial mortgage-backed securities | 12 | 28,805 | ( | 198 | ) | 36,929 | ( | 2,427 | ) | 65,734 | ( | 2,625 | )",
+      "Municipal bonds | 1 | \u2014 | \u2014 | 7,943 | ( | 392 | ) | 7,943 | ( | 392 | )",
+      "Corporate bonds | 1 | \u2014 | \u2014 | 1,986 | ( | 14 | ) | 1,986 | ( | 14 | )",
+      "Total | 204 | $ | 45,447 | $ | ( | 425 | ) | $ | 849,810 | $ | ( | 80,057 | ) | $ | 895,257 | $ | ( | 80,482 | )",
+      "",
+      "Investment securities held-to-maturity:",
+      "",
+      "",
+      "Residential mortgage-backed securities | 131 | $ | \u2014 | $ | \u2014 | $ | 454,066 | $ | ( | 62,731 | ) | $ | 454,066 | $ | ( | 62,731 | )",
+      "Commercial mortgage-backed securities | 16 | 4,190 | ( | 559 | ) | 70,083 | ( | 9,850 | ) | 74,273 | ( | 10,409 | )",
+      "Municipal bonds | 33 | \u2014 | \u2014 | 98,469 | ( | 7,284 | ) | 98,469 | ( | 7,284 | )",
+      "Corporate bonds | 25 | 5,875 | ( | 47 | ) | 92,348 | ( | 3,872 | ) | 98,223 | ( | 3,919 | )",
+      "Total | 205 | $ | 10,065 | $ | ( | 606 | ) | $ | 714,966 | $ | ( | 83,737 | ) | $ | 725,031 | $ | ( | 84,343 | )"
+    ]
+  },
+  {
+    "table": 47,
+    "rows": [
+      "",
+      "As of December\u00a031, 2025",
+      "Less\u00a0than 12\u00a0Months | 12\u00a0Months or\u00a0Greater | Total",
+      "(dollars in thousands) | Number\u00a0of Securities | Estimated Fair Value | Unrealized Losses | Estimated Fair Value | Unrealized Losses | Estimated Fair Value | Unrealized Losses",
+      "Investment securities available-for-sale:",
+      "",
+      "U.S. agency securities | 52 | $ | \u2014 | $ | \u2014 | $ | 337,708 | $ | ( | 17,541 | ) | $ | 337,708 | $ | ( | 17,541 | )",
+      "Residential mortgage-backed securities | 139 | \u2014 | \u2014 | 546,514 | ( | 58,188 | ) | 546,514 | ( | 58,188 | )",
+      "Commercial mortgage-backed securities | 10 | \u2014 | \u2014 | 37,329 | ( | 2,503 | ) | 37,329 | ( | 2,503 | )",
+      "Municipal bonds | 1 | \u2014 | \u2014 | 8,046 | ( | 380 | ) | 8,046 | ( | 380 | )",
+      "Corporate bonds | 1 | \u2014 | \u2014 | 1,967 | ( | 33 | ) | 1,967 | ( | 33 | )",
+      "Total | 203 | $ | \u2014 | $ | \u2014 | $ | 931,564 | $ | ( | 78,645 | ) | $ | 931,564 | $ | ( | 78,645 | )",
+      "",
+      "Investment securities held-to-maturity:",
+      "",
+      "",
+      "Residential mortgage-backed securities | 136 | $ | \u2014 | $ | \u2014 | $ | 485,567 | $ | ( | 58,836 | ) | $ | 485,567 | $ | ( | 58,836 | )",
+      "Commercial mortgage-backed securities | 16 | 4,271 | ( | 503 | ) | 71,702 | ( | 9,284 | ) | 75,973 | ( | 9,787 | )",
+      "Municipal bonds | 33 | \u2014 | \u2014 | 98,942 | ( | 6,933 | ) | 98,942 | ( | 6,933 | )",
+      "Corporate bonds | 27 | 1,922 | ( | 18 | ) | 106,638 | ( | 5,297 | ) | 108,560 | ( | 5,315 | )",
+      "Total | 212 | $ | 6,193 | $ | ( | 521 | ) | $ | 762,849 | $ | ( | 80,350 | ) | $ | 769,042 | $ | ( | 80,871 | )"
+    ]
+  },
+  {
+    "table": 48,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 18"
+    ]
+  },
+  {
+    "table": 49,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a03\u00a0\u2013 Investment Securities",
+      ""
+    ]
+  },
+  {
+    "table": 50,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Amortized Cost | Estimated Fair\u00a0Value",
+      "Investment securities available-for-sale:",
+      "Within one year | $ | 70,524 | $ | 69,832",
+      "One to five years | 235,827 | 221,497",
+      "Five to ten years | 17,450 | 16,523",
+      "Beyond ten years | 17,897 | 15,849",
+      "Residential mortgage-backed securities | 574,550 | 514,748",
+      "Commercial mortgage-backed securities | 68,359 | 65,734",
+      "",
+      "",
+      "Less: allowance for credit losses | \u2014 | \u2014",
+      "Total investment securities available-for-sale | 984,607 | 904,183",
+      "",
+      "Investment securities held-to-maturity:",
+      "Within one year | 11,972 | 11,906",
+      "One to five years | 70,858 | 68,659",
+      "Five to ten years | 80,146 | 75,368",
+      "Beyond ten years | 50,877 | 46,722",
+      "Residential mortgage-backed securities: | 516,797 | 454,066",
+      "Commercial mortgage-backed securities | 84,682 | 74,273",
+      "",
+      "",
+      "Less: allowance for credit losses | ( | 454 | ) | \u2014",
+      "Total investment securities held-to-maturity | 814,878 | 730,994",
+      "Total | $ | 1,799,485 | $ | 1,635,177"
+    ]
+  },
+  {
+    "table": 51,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars in thousands) | 2026 | 2025 | 2026 | 2025",
+      "Proceeds from sales and calls | $ | 12,055 | $ | 62,909 | $ | 12,112 | $ | 112,961",
+      "Gross realized gains from sales and calls | 266 | 3 | 269 | 8",
+      "Gross realized losses from sales and calls | \u2014 | 1,857 | \u2014 | 1,858"
+    ]
+  },
+  {
+    "table": 52,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 19"
+    ]
+  },
+  {
+    "table": 53,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 54,
+    "rows": [
+      "",
+      "As of",
+      "June 30, 2026 | December 31, 2025",
+      "(dollars in thousands) | Amount | % | Amount | %",
+      "Commercial | $ | 1,540,766 | 23 | % | $ | 1,338,486 | 18 | %",
+      "",
+      "Income producing - commercial real estate | 2,729,383 | 41 | % | 3,350,718 | 46 | %",
+      "Owner occupied - commercial real estate | 1,660,748 | 25 | % | 1,602,124 | 22 | %",
+      "Real estate mortgage - residential | 35,535 | 1 | % | 37,100 | 1 | %",
+      "Construction - commercial and residential | 523,121 | 8 | % | 795,400 | 11 | %",
+      "Construction - C&I (owner occupied) | 88,458 | 1 | % | 108,468 | 1 | %",
+      "Home equity | 43,479 | 1 | % | 47,448 | 1 | %",
+      "Other consumer | 945 | \u2014 | % | 715 | \u2014 | %",
+      "Total loans | 6,622,435 | 100 | % | 7,280,459 | 100 | %",
+      "Less: allowance for credit losses | ( | 121,141 | ) | ( | 159,604 | )",
+      "Net loans | (1) | $ | 6,501,294 | $ | 7,120,855"
+    ]
+  },
+  {
+    "table": 55,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 20"
+    ]
+  },
+  {
+    "table": 56,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 57,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 21"
+    ]
+  },
+  {
+    "table": 58,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 59,
+    "rows": [
+      "",
+      "(dollars in thousands) | Commercial | Income | Producing\u00a0- Commercial Real\u00a0Estate | Owner | Occupied\u00a0- Commercial Real\u00a0Estate | Real\u00a0Estate Mortgage - Residential | Construction\u00a0-Commercial | and Residential | Construction - C&I (Owner Occupied) | Home Equity | Other Consumer | Total",
+      "For the Three Months Ended June 30, 2026",
+      "Allowance for credit losses:",
+      "Balance at beginning of quarter | $ | 26,291 | $ | 88,169 | $ | 17,997 | $ | 315 | $ | 12,603 | $ | 1,124 | $ | 631 | $ | 33 | $ | 147,163",
+      "Loans charged-off | ( | 2,388 | ) | ( | 37,970 | ) | \u2014 | \u2014 | ( | 8,703 | ) | \u2014 | \u2014 | \u2014 | ( | 49,061 | )",
+      "Recoveries of loans previously charged-off | 34 | 1,086 | 13 | \u2014 | 6 | \u2014 | \u2014 | \u2014 | 1,139",
+      "Net loans (charged-off) and recovered | ( | 2,354 | ) | ( | 36,884 | ) | 13 | \u2014 | ( | 8,697 | ) | \u2014 | \u2014 | \u2014 | ( | 47,922 | )",
+      "Provision for (reversal of) credit losses | 4,736 | 17,539 | ( | 824 | ) | ( | 10 | ) | 501 | ( | 12 | ) | ( | 26 | ) | ( | 4 | ) | 21,900",
+      "Ending balance | $ | 28,673 | $ | 68,824 | $ | 17,186 | $ | 305 | $ | 4,407 | $ | 1,112 | $ | 605 | $ | 29 | $ | 121,141",
+      "",
+      "For the Three Months Ended June 30, 2025",
+      "Allowance for credit losses:",
+      "Balance at beginning of quarter | $ | 20,662 | $ | 61,937 | $ | 26,872 | $ | 670 | $ | 16,891 | $ | 1,680 | $ | 724 | $ | 33 | $ | 129,469",
+      "Loans charged-off | ( | 698 | ) | ( | 68,025 | ) | ( | 4,935 | ) | \u2014 | ( | 10,703 | ) | \u2014 | \u2014 | ( | 31 | ) | ( | 84,392 | )",
+      "Recoveries of loans previously charged-off | 162 | 329 | 23 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 514",
+      "Net loans (charged-off) and recovered | ( | 536 | ) | ( | 67,696 | ) | ( | 4,912 | ) | \u2014 | ( | 10,703 | ) | \u2014 | \u2014 | ( | 31 | ) | ( | 83,878 | )",
+      "Provision for (reversal of) credit losses | 8,829 | 99,965 | 5,222 | 144 | 19,801 | 3,889 | 308 | 47 | 138,205",
+      "Ending balance | $ | 28,955 | $ | 94,206 | $ | 27,182 | $ | 814 | $ | 25,989 | $ | 5,569 | $ | 1,032 | $ | 49 | $ | 183,796",
+      "",
+      "For the Six Months Ended June 30, 2026",
+      "Allowance for credit losses:",
+      "Balance at beginning of period | $ | 26,607 | $ | 98,707 | $ | 20,719 | $ | 339 | $ | 11,171 | $ | 1,515 | $ | 519 | $ | 27 | $ | 159,604",
+      "Loans charged-off | ( | 13,921 | ) | ( | 49,527 | ) | ( | 2,926 | ) | ( | 80 | ) | ( | 8,703 | ) | \u2014 | \u2014 | \u2014 | ( | 75,157 | )",
+      "Recoveries of loans previously charged-off | 122 | 1,123 | 37 | \u2014 | 6 | \u2014 | \u2014 | \u2014 | 1,288",
+      "Net loans (charged-off) and recovered | ( | 13,799 | ) | ( | 48,404 | ) | ( | 2,889 | ) | ( | 80 | ) | ( | 8,697 | ) | \u2014 | \u2014 | \u2014 | ( | 73,869 | )",
+      "Provision for (reversal of) credit losses | 15,865 | 18,521 | ( | 644 | ) | 46 | 1,933 | ( | 403 | ) | 86 | 2 | 35,406",
+      "Ending balance | $ | 28,673 | $ | 68,824 | $ | 17,186 | $ | 305 | $ | 4,407 | $ | 1,112 | $ | 605 | $ | 29 | $ | 121,141",
+      "",
+      "For the Six Months Ended June 30, 2025",
+      "Allowance for credit losses:",
+      "Balance at beginning of year | $ | 19,390 | $ | 55,185 | $ | 22,654 | $ | 610 | $ | 14,585 | $ | 1,282 | $ | 653 | $ | 31 | $ | 114,390",
+      "Loans charged-off | ( | 968 | ) | ( | 74,195 | ) | ( | 9,797 | ) | \u2014 | ( | 10,703 | ) | \u2014 | \u2014 | ( | 35 | ) | ( | 95,698 | )",
+      "Recoveries of loans previously charged-off | 215 | 329 | 47 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 591",
+      "Net loans (charged-off) and recovered | ( | 753 | ) | ( | 73,866 | ) | ( | 9,750 | ) | \u2014 | ( | 10,703 | ) | \u2014 | \u2014 | ( | 35 | ) | ( | 95,107 | )",
+      "Provision for (reversal of) credit losses | 10,318 | 112,887 | 14,278 | 204 | 22,107 | 4,287 | 379 | 53 | 164,513",
+      "Ending balance | $ | 28,955 | $ | 94,206 | $ | 27,182 | $ | 814 | $ | 25,989 | $ | 5,569 | $ | 1,032 | $ | 49 | $ | 183,796",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 60,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 22"
+    ]
+  },
+  {
+    "table": 61,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 62,
+    "rows": [
+      "",
+      "As of",
+      "June 30, 2026 | December 31, 2025",
+      "(dollars in thousands) | Business/Other Assets | Real Estate | Business/Other Assets | Real Estate",
+      "Commercial | $ | 22,554 | $ | 2,669 | $ | 15,285 | $ | 2,813",
+      "",
+      "Income producing-commercial real estate | 880 | 74,185 | 880 | 61,657",
+      "Owner occupied - commercial real estate | \u2014 | 5,095 | \u2014 | 7,938",
+      "Real estate mortgage- residential | \u2014 | 552 | \u2014 | 579",
+      "Construction - commercial and residential | \u2014 | 4,952 | \u2014 | 17,394",
+      "Home equity | 137 | 501 | \u2014 | 351",
+      "",
+      "Total | $ | 23,571 | $ | 87,954 | $ | 16,165 | $ | 90,732"
+    ]
+  },
+  {
+    "table": 63,
+    "rows": [
+      "",
+      "Pass: | Loans in all classes that comprise the commercial and consumer portfolio segments that are not adversely rated, are contractually current as to principal and interest and are otherwise in compliance with the contractual terms of the loan agreement. Management believes that there is a low likelihood of loss related to those loans that are considered pass. We have several pass credit grades that are assigned to loans based on varying levels of risk, ranging from credits that are secured by cash or marketable securities, to watch credits, which have all the characteristics of an acceptable credit risk but warrant more than the normal level of monitoring.",
+      "",
+      "Special Mention: | Loans in the classes that comprise the commercial portfolio segment that have potential weaknesses that deserve management\u2019s close attention. If not addressed, these potential weaknesses may result in deterioration of the repayment prospects for the loan. The special mention credit quality indicator is not used for classes of loans that comprise the consumer portfolio segment. Management believes that there is a moderate likelihood of some loss related to those loans that are considered special mention.",
+      "",
+      "Classified (a) Substandard: | Loans inadequately protected by the current sound worth and paying capacity of the obligor or of the collateral pledged, if any. Loans so classified have a well-defined weakness or weaknesses that jeopardize the liquidation of the debt. They are characterized by the distinct possibility that the company will sustain some loss if the deficiencies are not corrected. Loss potential, while existing in the aggregate amount of substandard loans, does not have to exist in individual loans classified substandard.",
+      "",
+      "Classified (b) Doubtful: | Loans that have all the weaknesses inherent in a loan classified substandard, with the added characteristic that the weaknesses make collection or liquidation in full, on the basis of currently existing facts, conditions and values, highly questionable and improbable. The possibility of loss is extremely high, but because of certain important and reasonably specific pending factors, which may work to the advantage and strengthening of the assets, its classification as an estimated loss is deferred until its more exact status may be determined."
+    ]
+  },
+  {
+    "table": 64,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 23"
+    ]
+  },
+  {
+    "table": 65,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 66,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Prior | 2022 | 2023 | 2024 | 2025 | 2026 | Revolving Loans Amort. Cost Basis | Revolving Loans Convert. to Term | Total",
+      "Commercial:",
+      "Pass | $ | 95,440 | $ | 32,257 | $ | 67,680 | $ | 85,140 | $ | 357,968 | $ | 251,052 | $ | 558,378 | $ | 25,975 | $ | 1,473,890",
+      "Special Mention | 43 | 2,115 | \u2014 | \u2014 | \u2014 | \u2014 | 16,906 | \u2014 | 19,064",
+      "Substandard | 18,604 | 6,927 | 391 | 6,994 | \u2014 | 2,796 | 11,599 | 501 | 47,812",
+      "Total | 114,087 | 41,299 | 68,071 | 92,134 | 357,968 | 253,848 | 586,883 | 26,476 | 1,540,766",
+      "YTD gross charge-offs | ( | 9,621 | ) | ( | 53 | ) | \u2014 | \u2014 | \u2014 | \u2014 | ( | 2,045 | ) | ( | 11,719 | )",
+      "",
+      "",
+      "",
+      "",
+      "Income producing - commercial real estate:",
+      "Pass | 1,055,480 | 381,599 | 386,963 | 87,161 | 123,191 | 15,605 | 140,390 | \u2014 | 2,190,389",
+      "Special Mention | 125,863 | 56,189 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 182,052",
+      "Substandard | 227,385 | 128,949 | \u2014 | \u2014 | \u2014 | \u2014 | 608 | \u2014 | 356,942",
+      "Total | 1,408,728 | 566,737 | 386,963 | 87,161 | 123,191 | 15,605 | 140,998 | \u2014 | 2,729,383",
+      "YTD gross charge-offs | ( | 23,744 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 23,744 | )",
+      "Owner occupied - commercial real estate:",
+      "Pass | 776,000 | 90,699 | 130,068 | 127,161 | 338,073 | 134,157 | 1 | \u2014 | 1,596,159",
+      "Special Mention | 28,927 | \u2014 | \u2014 | \u2014 | 16,445 | \u2014 | \u2014 | \u2014 | 45,372",
+      "Substandard | 19,217 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 19,217",
+      "Total | 824,144 | 90,699 | 130,068 | 127,161 | 354,518 | 134,157 | 1 | \u2014 | 1,660,748",
+      "YTD gross charge-offs | ( | 2,926 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 2,926 | )",
+      "Real estate mortgage - residential:",
+      "Pass | 18,395 | 10,767 | 5,821 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 34,983",
+      "Substandard | 552 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 552",
+      "Total | 18,947 | 10,767 | 5,821 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 35,535",
+      "",
+      "Construction - commercial and residential:",
+      "Pass | 100,756 | 170,824 | 75,000 | 9,525 | 41,816 | 7,298 | 48,010 | 7,935 | 461,164",
+      "Special Mention | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 27,699 | \u2014 | 27,699",
+      "Substandard | 15,591 | 14,993 | 131 | \u2014 | \u2014 | \u2014 | 3,543 | \u2014 | 34,258",
+      "Total | 116,347 | 185,817 | 75,131 | 9,525 | 41,816 | 7,298 | 79,252 | 7,935 | 523,121",
+      "YTD gross charge-offs | ( | 28 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 28 | )",
+      "Construction - C&I (owner occupied):",
+      "Pass | 3,671 | \u2014 | 9,639 | 45,815 | 27,517 | 1,046 | 770 | \u2014 | 88,458",
+      "",
+      "",
+      "Home equity:",
+      "Pass | 1,666 | 113 | \u2014 | \u2014 | \u2014 | \u2014 | 40,398 | 310 | 42,487",
+      "Substandard | 415 | \u2014 | \u2014 | \u2014 | \u2014 | 36 | 376 | 165 | 992",
+      "Total | 2,081 | 113 | \u2014 | \u2014 | \u2014 | 36 | 40,774 | 475 | 43,479",
+      "",
+      "Other consumer:",
+      "Pass | \u2014 | \u2014 | \u2014 | \u2014 | 113 | 22 | 810 | \u2014 | 945",
+      "",
+      "",
+      "",
+      "",
+      "Total Recorded Investment | $ | 2,488,005 | $ | 895,432 | $ | 675,693 | $ | 361,796 | $ | 905,123 | $ | 412,012 | $ | 849,488 | $ | 34,886 | $ | 6,622,435",
+      "Total YTD gross charge-offs | $ | ( | 36,319 | ) | $ | ( | 53 | ) | $ | \u2014 | $ | \u2014 | $ | \u2014 | $ | \u2014 | $ | ( | 2,045 | ) | $ | \u2014 | $ | ( | 38,417 | )"
+    ]
+  },
+  {
+    "table": 67,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 24"
+    ]
+  },
+  {
+    "table": 68,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 69,
+    "rows": [
+      "",
+      "As of December\u00a031, 2025",
+      "(dollars in thousands) | Prior | 2021 | 2022 | 2023 | 2024 | 2025 | Revolving Loans Amort. Cost Basis | Revolving Loans Convert. to Term | Total",
+      "Commercial:",
+      "Pass | $ | 92,082 | $ | 18,390 | $ | 35,098 | $ | 66,402 | $ | 83,098 | $ | 357,934 | $ | 593,711 | $ | 3,815 | $ | 1,250,530",
+      "Special Mention | 524 | 309 | 11,264 | 994 | 10,360 | \u2014 | 7,018 | \u2014 | 30,469",
+      "Substandard | 22,721 | 433 | 18,134 | 406 | \u2014 | \u2014 | 13,102 | 2,691 | 57,487",
+      "Total | 115,327 | 19,132 | 64,496 | 67,802 | 93,458 | 357,934 | 613,831 | 6,506 | 1,338,486",
+      "YTD gross charge-offs | ( | 1,208 | ) | ( | 525 | ) | ( | 304 | ) | \u2014 | ( | 57 | ) | \u2014 | ( | 296 | ) | \u2014 | ( | 2,390 | )",
+      "",
+      "",
+      "",
+      "",
+      "Income producing - commercial real estate:",
+      "Pass | 1,087,720 | 435,579 | 533,070 | 364,692 | 88,823 | 123,114 | 145,256 | 13,381 | 2,791,635",
+      "Special Mention | 86,600 | 43,104 | 56,157 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 185,861",
+      "Substandard | 167,878 | 90,035 | 114,451 | \u2014 | \u2014 | \u2014 | 858 | \u2014 | 373,222",
+      "Total | 1,342,198 | 568,718 | 703,678 | 364,692 | 88,823 | 123,114 | 146,114 | 13,381 | 3,350,718",
+      "YTD gross charge-offs | ( | 35,833 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 10,500 | ) | \u2014 | ( | 46,333 | )",
+      "Owner occupied - commercial real estate:",
+      "Pass | 667,233 | 209,803 | 89,580 | 132,719 | 126,792 | 356,437 | 636 | \u2014 | 1,583,200",
+      "",
+      "Substandard | 14,263 | 3,137 | 1,072 | 452 | \u2014 | \u2014 | \u2014 | \u2014 | 18,924",
+      "Total | 681,496 | 212,940 | 90,652 | 133,171 | 126,792 | 356,437 | 636 | \u2014 | 1,602,124",
+      "YTD gross charge-offs | ( | 22,238 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 22,238 | )",
+      "Real estate mortgage - residential:",
+      "Pass | 13,331 | 6,411 | 10,941 | 5,838 | \u2014 | \u2014 | \u2014 | \u2014 | 36,521",
+      "Substandard | 579 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 579",
+      "Total | 13,910 | 6,411 | 10,941 | 5,838 | \u2014 | \u2014 | \u2014 | \u2014 | 37,100",
+      "",
+      "Construction - commercial and residential:",
+      "Pass | 10,095 | 106,241 | 307,223 | 120,558 | 10,228 | 23,415 | 92,900 | 8,294 | 678,954",
+      "Special Mention | \u2014 | \u2014 | 25,082 | \u2014 | \u2014 | \u2014 | 27,469 | \u2014 | 52,551",
+      "Substandard | 35,517 | 11,618 | 15,320 | \u2014 | \u2014 | \u2014 | 1,440 | \u2014 | 63,895",
+      "Total | 45,612 | 117,859 | 347,625 | 120,558 | 10,228 | 23,415 | 121,809 | 8,294 | 795,400",
+      "YTD gross charge-offs | ( | 1,579 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 1,579 | )",
+      "Construction - C&I (owner occupied):",
+      "Pass | 3,737 | \u2014 | \u2014 | 10,199 | 43,484 | 18,945 | 791 | 31,312 | 108,468",
+      "",
+      "",
+      "Home equity:",
+      "Pass | 1,282 | 35 | 114 | \u2014 | \u2014 | \u2014 | 44,822 | 805 | 47,058",
+      "Substandard | 248 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 82 | 60 | 390",
+      "Total | 1,530 | 35 | 114 | \u2014 | \u2014 | \u2014 | 44,904 | 865 | 47,448",
+      "YTD gross charge-offs | \u2014 | ( | 206 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 206 | )",
+      "Other consumer:",
+      "Pass | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 156 | 559 | \u2014 | 715",
+      "",
+      "",
+      "YTD gross charge-offs | ( | 3 | ) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | ( | 32 | ) | ( | 35 | )",
+      "",
+      "Total Recorded Investment | $ | 2,203,810 | $ | 925,095 | $ | 1,217,506 | $ | 702,260 | $ | 362,785 | $ | 880,001 | $ | 928,644 | $ | 60,358 | $ | 7,280,459",
+      "Total YTD gross charge-offs | $ | ( | 60,861 | ) | $ | ( | 731 | ) | $ | ( | 304 | ) | $ | \u2014 | $ | ( | 57 | ) | $ | \u2014 | $ | ( | 10,796 | ) | $ | ( | 32 | ) | $ | ( | 72,781 | )"
+    ]
+  },
+  {
+    "table": 70,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 25"
+    ]
+  },
+  {
+    "table": 71,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 72,
+    "rows": [
+      "",
+      "As of",
+      "June 30, 2026 | December\u00a031, 2025",
+      "(dollars in thousands) | Nonaccrual with No Allowance for Credit Loss | Nonaccrual with an Allowance for Credit Losses | Total Nonaccrual Loans | Nonaccrual with No Allowance for Credit Loss | Nonaccrual with an Allowance for Credit Losses | Total Nonaccrual Loans",
+      "Commercial | $ | 3,120 | $ | 21,648 | $ | 24,768 | $ | 3,397 | $ | 14,702 | $ | 18,099",
+      "Income producing - commercial real estate | 30,872 | 44,250 | 75,122 | 38,275 | 24,262 | 62,537",
+      "Owner occupied - commercial real estate | 5,093 | \u2014 | 5,093 | 3,199 | 4,738 | 7,937",
+      "Real estate mortgage - residential | 552 | \u2014 | 552 | 579 | \u2014 | 579",
+      "Construction- commercial and residential | 4,262 | 690 | 4,952 | 2,074 | 15,320 | 17,394",
+      "Home equity | 450 | 187 | 637 | 333 | 18 | 351",
+      "",
+      "Total | (1) | $ | 44,349 | $ | 66,775 | $ | 111,124 | $ | 47,857 | $ | 59,040 | $ | 106,897"
+    ]
+  },
+  {
+    "table": 73,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 26"
+    ]
+  },
+  {
+    "table": 74,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 75,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Loans 30-59\u00a0Days Past\u00a0Due | Loans 60-89\u00a0Days Past\u00a0Due | Loans 90\u00a0Days\u00a0or More\u00a0Past | Due | Total\u00a0Past Due\u00a0Loans | Current Loans | Nonaccrual Loans | Total\u00a0Recorded Investment\u00a0in Loans",
+      "Commercial | $ | 1,062 | $ | 145 | $ | \u2014 | $ | 1,207 | $ | 1,514,791 | $ | 24,768 | $ | 1,540,766",
+      "",
+      "Income producing - commercial real estate | 42,704 | \u2014 | \u2014 | 42,704 | 2,611,557 | 75,122 | 2,729,383",
+      "Owner occupied - commercial real estate | 176 | \u2014 | \u2014 | 176 | 1,655,479 | 5,093 | 1,660,748",
+      "Real estate mortgage \u2013 residential | \u2014 | \u2014 | \u2014 | \u2014 | 34,983 | 552 | 35,535",
+      "Construction - commercial and residential | \u2014 | \u2014 | \u2014 | \u2014 | 518,169 | 4,952 | 523,121",
+      "Construction - C&I (owner occupied) | \u2014 | \u2014 | \u2014 | \u2014 | 88,458 | \u2014 | 88,458",
+      "Home equity | \u2014 | \u2014 | \u2014 | \u2014 | 42,842 | 637 | 43,479",
+      "Other consumer | \u2014 | \u2014 | \u2014 | \u2014 | 945 | \u2014 | 945",
+      "Total | $ | 43,942 | $ | 145 | $ | \u2014 | $ | 44,087 | $ | 6,467,224 | $ | 111,124 | $ | 6,622,435",
+      "",
+      "As of December\u00a031, 2025",
+      "(dollars in thousands) | Loans 30-59\u00a0Days Past\u00a0Due | Loans 60-89\u00a0Days Past\u00a0Due | Loans 90\u00a0Days\u00a0or More\u00a0Past | Due | Total\u00a0Past Due\u00a0Loans | Current Loans | Nonaccrual Loans | Total\u00a0Recorded Investment\u00a0in Loans",
+      "Commercial | $ | 2,942 | $ | 44 | $ | \u2014 | $ | 2,986 | $ | 1,317,401 | $ | 18,099 | $ | 1,338,486",
+      "",
+      "Income producing - commercial real estate | 2,688 | \u2014 | \u2014 | 2,688 | 3,285,493 | 62,537 | 3,350,718",
+      "Owner occupied - commercial real estate | 167 | 12,573 | \u2014 | 12,740 | 1,581,447 | 7,937 | 1,602,124",
+      "Real estate mortgage \u2013 residential | 4,544 | \u2014 | \u2014 | 4,544 | 31,977 | 579 | 37,100",
+      "Construction - commercial and residential | 26,942 | \u2014 | \u2014 | 26,942 | 751,064 | 17,394 | 795,400",
+      "Construction - C&I (owner occupied) | \u2014 | \u2014 | \u2014 | \u2014 | 108,468 | \u2014 | 108,468",
+      "Home equity | \u2014 | 39 | \u2014 | 39 | 47,058 | 351 | 47,448",
+      "Other consumer | \u2014 | \u2014 | \u2014 | \u2014 | 715 | \u2014 | 715",
+      "Total | $ | 37,283 | $ | 12,656 | $ | \u2014 | $ | 49,939 | $ | 7,123,623 | $ | 106,897 | $ | 7,280,459"
+    ]
+  },
+  {
+    "table": 76,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 27"
+    ]
+  },
+  {
+    "table": 77,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 78,
+    "rows": [
+      "",
+      "(dollars in thousands) | Term Extension | Combination - Term Extension and Principal Payment Delay | Total | Percentage of Total Loan Type | Weighted Average Term and Principal Payment Extension | (1)",
+      "",
+      "For the Three Months Ended June 30, 2026",
+      "Commercial | $ | 7,163 | $ | 524 | $ | 7,687 | 0.5 | % | 16 | months",
+      "Income producing - commercial real estate | 20,814 | 14,244 | 35,058 | 1.3 | % | 8 | months",
+      "Owner occupied - commercial real estate | 1,547 | \u2014 | 1,547 | 0.1 | % | 3 | months",
+      "",
+      "Construction - commercial and residential | \u2014 | 10,639 | 10,639 | 2.0 | % | 2 | months",
+      "Total | $ | 29,524 | $ | 25,407 | $ | 54,931",
+      "",
+      "For the Three Months Ended June 30, 2025",
+      "Commercial | $ | 13,554 | $ | 10,490 | $ | 24,044 | 2.0 | % | 13 | months",
+      "Income producing - commercial real estate | 4,070 | 103,593 | 107,663 | 2.9 | % | 25 | months",
+      "Owner occupied - commercial real estate | 12,711 | \u2014 | 12,711 | 0.9 | % | 4 | months",
+      "Real estate mortgage - residential | \u2014 | 5,736 | 5,736 | 12.5 | % | 6 | months",
+      "Construction - commercial and residential | 1,900 | 11,161 | 13,061 | 1.1 | % | 8 | months",
+      "Total | $ | 32,235 | $ | 130,980 | $ | 163,215",
+      "",
+      "For the Six Months Ended June 30, 2026",
+      "Commercial | $ | 12,338 | $ | 524 | $ | 12,862 | 0.8 | % | 16 | months",
+      "Income producing - commercial real estate | 22,710 | 17,757 | 40,467 | 1.5 | % | 12 | months",
+      "Owner occupied - commercial real estate | 1,547 | \u2014 | 1,547 | 0.1 | % | 3 | months",
+      "Real estate mortgage - residential | 4,508 | \u2014 | 4,508 | 12.7 | % | 14 | months",
+      "Construction - commercial and residential | \u2014 | 10,639 | 10,639 | 2.0 | % | 2 | months",
+      "Total | $ | 41,103 | $ | 28,920 | $ | 70,023",
+      "",
+      "For the Six Months Ended June 30, 2025",
+      "Commercial | $ | 16,855 | $ | 10,490 | $ | 27,345 | 2.3 | % | 20 | months",
+      "Income producing - commercial real estate | 4,070 | 137,203 | 141,273 | 3.7 | % | 23 | months",
+      "Owner occupied - commercial real estate | 12,711 | \u2014 | 12,711 | 0.9 | % | 4 | months",
+      "Real estate mortgage - residential | \u2014 | 5,736 | 5,736 | 12.5 | % | 6 | months",
+      "Construction - commercial and residential | 1,900 | 11,161 | 13,061 | 1.1 | % | 8 | months",
+      "Total | $ | 35,536 | $ | 164,590 | $ | 200,126",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 79,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 28"
+    ]
+  },
+  {
+    "table": 80,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a04\u00a0\u2013 Loans and Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 81,
+    "rows": [
+      "",
+      "Payment Status (Amortized Cost Basis)",
+      "(dollars in thousands) | Current | 30-89 Days Past Due | 90 Days or More Past Due | Nonaccrual",
+      "June\u00a030, 2026",
+      "Commercial | $ | 12,461 | $ | \u2014 | $ | \u2014 | $ | 5,245",
+      "Income producing - commercial real estate | 86,776 | 3,510 | \u2014 | 20,526",
+      "Owner occupied - commercial real estate | 1,547 | \u2014 | \u2014 | \u2014",
+      "Real estate mortgage - residential | 4,508 | \u2014 | \u2014 | \u2014",
+      "Construction - commercial and residential | 10,639 | \u2014 | \u2014 | 1,087",
+      "",
+      "Total | $ | 115,931 | $ | 3,510 | $ | \u2014 | $ | 26,858",
+      "",
+      "June\u00a030, 2025",
+      "Commercial | $ | 43,093 | $ | \u2014 | $ | \u2014 | $ | 518",
+      "Income producing - commercial real estate | 120,646 | 5,656 | \u2014 | 63,413",
+      "Owner occupied - commercial real estate | 12,711 | \u2014 | \u2014 | \u2014",
+      "Real estate mortgage - residential | \u2014 | \u2014 | \u2014 | 5,736",
+      "Construction - commercial and residential | 18,083 | \u2014 | \u2014 | 9,831",
+      "Total | $ | 194,533 | $ | 5,656 | $ | \u2014 | $ | 79,498"
+    ]
+  },
+  {
+    "table": 82,
+    "rows": [
+      "",
+      "Amortized Cost Basis",
+      "(dollars in thousands) | Term Extension | Combination - Term Extension and Principal Payment Delay",
+      "June\u00a030, 2026",
+      "Commercial | $ | 5,245 | $ | \u2014",
+      "Income producing - commercial real estate | 12,381 | 11,655",
+      "",
+      "",
+      "Construction - commercial and residential | 397 | 690",
+      "Total | $ | 18,023 | $ | 12,345",
+      "",
+      "June\u00a030, 2025",
+      "Commercial | $ | \u2014 | $ | 518",
+      "Income producing - commercial real estate | \u2014 | 69,069",
+      "",
+      "Real estate mortgages - residential | \u2014 | 5,736",
+      "Construction - commercial and residential | \u2014 | 9,831",
+      "Total | $ | \u2014 | $ | 85,154"
+    ]
+  },
+  {
+    "table": 83,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 29"
+    ]
+  },
+  {
+    "table": 84,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note 5\u00a0\u2013 Leases",
+      ""
+    ]
+  },
+  {
+    "table": 85,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars in thousands) | 2026 | 2025 | 2026 | 2025",
+      "Lease cost:",
+      "Operating lease cost (cost resulting from lease payments) | $ | 1,353 | $ | 1,893 | $ | 2,702 | $ | 3,785",
+      "Variable lease cost (cost excluded from lease payments) | 125 | 140 | 248 | 255",
+      "",
+      "Net lease cost | $ | 1,478 | $ | 2,033 | $ | 2,950 | $ | 4,040",
+      "Operating lease - operating cash flows (fixed payments) | $ | 1,199 | $ | 1,512 | $ | 2,389 | $ | 3,011"
+    ]
+  },
+  {
+    "table": 86,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June 30, 2026 | December 31, 2025",
+      "Right-of-use assets - operating leases | $ | 27,964 | $ | 28,451",
+      "Operating lease liabilities | $ | 35,081 | $ | 35,256",
+      "Weighted average lease term - operating leases (in years) | 8.68 | 9.12",
+      "Weighted average discount rate - operating leases | 3.64 | % | 3.60 | %"
+    ]
+  },
+  {
+    "table": 87,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 30"
+    ]
+  },
+  {
+    "table": 88,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note 5\u00a0\u2013 Leases",
+      ""
+    ]
+  },
+  {
+    "table": 89,
+    "rows": [
+      "",
+      "(dollars in thousands) | As of June\u00a030, 2026",
+      "Twelve months ended:",
+      "June 30, 2027 | $ | 5,452",
+      "June 30, 2028 | 5,202",
+      "June 30, 2029 | 4,961",
+      "June 30, 2030 | 4,373",
+      "June 30, 2031 | 4,111",
+      "Thereafter | 17,519",
+      "Total future minimum lease payments | 41,618",
+      "Amounts representing interest | ( | 6,537 | )",
+      "Present value of net future minimum lease payments | $ | 35,081"
+    ]
+  },
+  {
+    "table": 90,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 31"
+    ]
+  },
+  {
+    "table": 91,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a06\u00a0\u2013 Derivatives and Hedging Activities",
+      ""
+    ]
+  },
+  {
+    "table": 92,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June 30, 2026 | December 31, 2025 | June 30, 2026 | December 31, 2025",
+      "Line Item in the Balance Sheet in Which the Hedged Item is Included | Carrying Amount of the Hedged Assets (Liabilities) | Cumulative Amount of Fair Value Hedging Adjustments Included in the Carrying Amount of the Hedged Assets (Liabilities)",
+      "Deposits | $ | ( | 383,550 | ) | $ | ( | 389,295 | ) | $ | 6,450 | $ | 705",
+      ""
+    ]
+  },
+  {
+    "table": 93,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 32"
+    ]
+  },
+  {
+    "table": 94,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a06\u00a0\u2013 Derivatives and Hedging Activities",
+      ""
+    ]
+  },
+  {
+    "table": 95,
+    "rows": [
+      "",
+      "As of",
+      "June 30, 2026 | December 31, 2025",
+      "(dollars in thousands) | Notional | Amount | Fair Value | Balance Sheet | Category | Notional | Amount | Fair Value | Balance Sheet | Category",
+      "Derivatives in an asset position:",
+      "Derivatives designated as hedging instruments:",
+      "Cash flow hedges | $ | \u2014 | $ | \u2014 | Other Assets | $ | 300,000 | $ | 60 | Other Assets",
+      "Fair value hedges | \u2014 | \u2014 | Other Assets | \u2014 | \u2014 | Other Assets",
+      "Total hedging instruments | \u2014 | \u2014 | 300,000 | 60",
+      "",
+      "Derivatives not designated as hedging instruments:",
+      "Interest rate swaps related to customer loans | 1,036,130 | 25,254 | Other Assets | 808,009 | 24,272 | Other Assets",
+      "",
+      "Total derivatives in an asset position | $ | 1,036,130 | $ | 25,254 | $ | 1,108,009 | $ | 24,332",
+      "",
+      "Derivatives in a liability position:",
+      "Derivatives designated as hedging instruments:",
+      "Cash flow hedges | $ | 600,000 | $ | 7,092 | Other Liabilities | $ | \u2014 | $ | \u2014 | Other Liabilities",
+      "Fair value hedges | 390,000 | 6,579 | Other Liabilities | 390,000 | 927 | Other Liabilities",
+      "Total hedging instruments | 990,000 | 13,671 | 390,000 | 927",
+      "",
+      "Derivatives not designated as hedging instruments:",
+      "Interest rate swaps related to customer loans | 1,036,130 | 24,293 | Other Liabilities | 808,009 | 23,015 | Other Liabilities",
+      "",
+      "Total derivatives in a liability position | $ | 2,026,130 | $ | 37,964 | $ | 1,198,009 | $ | 23,942"
+    ]
+  },
+  {
+    "table": 96,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 33"
+    ]
+  },
+  {
+    "table": 97,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a06\u00a0\u2013 Derivatives and Hedging Activities",
+      ""
+    ]
+  },
+  {
+    "table": 98,
+    "rows": [
+      "",
+      "The Effect of Cash Flow Hedge Accounting on Accumulated Other Comprehensive Income (Loss)",
+      "Amount of Gain (Loss) Recognized in OCI | Location of Gain (Loss) Recognized from Accumulated Other Comprehensive Income (Loss) into Income (Loss) | Amount of Gain or (Loss) Reclassified from Accumulated OCI into Income Year Ended Amount of Gain (Loss) Reclassified from Accumulated OCI into Income",
+      "(dollars in thousands) | Total | Included Component | Excluded Component | Total | Included Component | Excluded Component",
+      "For the Three Months Ended June 30, 2026",
+      "Derivatives in cash flow hedging relationships:",
+      "Interest rate products | $ | ( | 4,784 | ) | $ | ( | 4,784 | ) | $ | \u2014 | Interest income | $ | 421 | $ | 421 | $ | \u2014",
+      "",
+      "For the Three Months Ended June 30, 2025",
+      "Derivatives in cash flow hedging relationships:",
+      "Interest rate products | $ | \u2014 | $ | \u2014 | $ | \u2014 | Interest expense | $ | \u2014 | $ | \u2014 | $ | \u2014",
+      "",
+      "For the Six Months Ended June 30, 2026",
+      "Derivatives in cash flow hedging relationships:",
+      "Interest rate products | $ | ( | 7,826 | ) | $ | ( | 7,826 | ) | $ | \u2014 | Interest income | $ | 766 | $ | 766 | $ | \u2014",
+      "",
+      "For the Six Months Ended June 30, 2025",
+      "Derivatives in cash flow hedging relationships:",
+      "Interest rate products | $ | \u2014 | $ | \u2014 | $ | \u2014 | Interest expense | $ | \u2014 | $ | \u2014 | $ | \u2014",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 99,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 34"
+    ]
+  },
+  {
+    "table": 100,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a06\u00a0\u2013 Derivatives and Hedging Activities",
+      ""
+    ]
+  },
+  {
+    "table": 101,
+    "rows": [
+      "",
+      "The Effect of Fair Value and Cash Flow Hedge Accounting on the Consolidated Statements of Operations",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "2026 | 2025 | 2026 | 2025",
+      "(dollars in thousands) | Interest Income (Expense) | Interest Income (Expense)",
+      "Total amounts of expense line items presented in the Consolidated Statements of Operations in which the effects of fair value and cash flow hedges are recorded | $ | ( | 765 | ) | $ | \u2014 | $ | ( | 1,480 | ) | $ | \u2014",
+      "",
+      "The effect of fair value and cash flow hedging:",
+      "Gain (loss) on fair value hedging relationships in Subtopic 815-20:",
+      "Interest rate products:",
+      "Hedged items | $ | 3,400 | $ | \u2014 | $ | 5,745 | $ | \u2014",
+      "Derivatives designated as hedging instruments | ( | 3,744 | ) | \u2014 | ( | 6,459 | ) | \u2014",
+      "",
+      "Gain (loss) on cash flow hedging relationships in Subtopic 815-20:",
+      "Interest rate products:",
+      "Amount of gain (loss) reclassified from accumulated other comprehensive income (loss) into income (loss) | $ | ( | 421 | ) | $ | \u2014 | $ | ( | 766 | ) | $ | \u2014",
+      "Amount of gain (loss) reclassified from accumulated other comprehensive income into income as a result that a forecasted transaction is no longer probable of occurring | \u2014 | \u2014 | \u2014 | \u2014",
+      "Amount of gain (loss) reclassified from accumulated other comprehensive income (loss) into income (loss) - included component | ( | 421 | ) | \u2014 | ( | 766 | ) | \u2014",
+      "Amount of gain (loss) reclassified from accumulated other comprehensive income (loss) into income (loss) - excluded component | \u2014 | \u2014 | \u2014 | \u2014"
+    ]
+  },
+  {
+    "table": 102,
+    "rows": [
+      "",
+      "The Effect of Derivatives Not Designated as Hedging Instruments on the Consolidated Statements of Operations",
+      "(dollars in thousands) | Location of Gain or (Loss) Recognized in | Income on Derivative | Amount of Gain or (Loss) Recognized in Income on Derivatives",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "2026 | 2025 | 2026 | 2025",
+      "Derivatives Not Designated as Hedging Instruments under ASC 815-20:",
+      "Interest rate products | Other income / (expense) | $ | 274 | $ | 566 | $ | 695 | $ | 560",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 103,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 35"
+    ]
+  },
+  {
+    "table": 104,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a07\u00a0\u2013 Deposits",
+      ""
+    ]
+  },
+  {
+    "table": 105,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June 30, 2026 | December 31, 2025",
+      "Noninterest-bearing demand | $ | 1,567,336 | $ | 1,433,952",
+      "Interest-bearing transaction | 973,651 | 1,038,154",
+      "Savings and money market | 3,061,987 | 3,624,813",
+      "Time deposits | 2,582,123 | 3,036,687",
+      "Total | $ | 8,185,097 | $ | 9,133,606"
+    ]
+  },
+  {
+    "table": 106,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June 30, 2026 | December 31, 2025",
+      "2026 | $ | 1,151,458 | $ | 2,178,745",
+      "2027 | 1,063,619 | 516,925",
+      "2028 | 156,740 | 139,265",
+      "2029 | 80,359 | 75,687",
+      "2030 | 109,648 | 107,991",
+      "Thereafter | 20,299 | 18,074",
+      "Total | $ | 2,582,123 | $ | 3,036,687"
+    ]
+  },
+  {
+    "table": 107,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June 30, 2026 | December 31, 2025",
+      "Three months or less | $ | 213,054 | $ | 252,100",
+      "More than three months through six months | 284,029 | 391,299",
+      "More than six months through twelve months | 347,321 | 305,557",
+      "Over twelve months | 384,452 | 521,701",
+      "Total | $ | 1,228,856 | $ | 1,470,657"
+    ]
+  },
+  {
+    "table": 108,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 36"
+    ]
+  },
+  {
+    "table": 109,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a08\u00a0\u2013 Borrowings",
+      ""
+    ]
+  },
+  {
+    "table": 110,
+    "rows": [
+      "",
+      "(dollars in thousands) | Borrowings - Principal | Unamortized Deferred Issuance Costs | Net Borrowings Outstanding | Available Capacity | (1) | Maturity Dates | Interest Rates | (2)",
+      "As of June\u00a030, 2026",
+      "",
+      "",
+      "Short-term borrowings:",
+      "Secured borrowings:",
+      "FHLB | $ | 100,000 | $ | \u2014 | $ | 100,000 | $ | 719,130 | July 7, 2026 | (3) | 3.82 | %",
+      "FRB: Discount window | \u2014 | \u2014 | \u2014 | 1,195,914 | N/A | \u2014 | %",
+      "Total | 100,000 | \u2014 | 100,000 | 1,915,044",
+      "",
+      "Long-term borrowings:",
+      "Senior notes | 77,665 | ( | 1,072 | ) | 76,593 | \u2014 | September 30, 2029 | 10.00 | %",
+      "Total borrowings | $ | 177,665 | $ | ( | 1,072 | ) | $ | 176,593 | $ | 1,915,044",
+      "",
+      "As of December\u00a031, 2025",
+      "",
+      "",
+      "Short-term borrowings:",
+      "Secured borrowings:",
+      "FHLB | $ | \u2014 | $ | \u2014 | $ | \u2014 | $ | 1,349,351 | N/A | \u2014 | %",
+      "FRB: Discount window | \u2014 | \u2014 | \u2014 | 1,373,872 | N/A | \u2014%",
+      "Total | \u2014 | \u2014 | \u2014 | 2,723,223",
+      "",
+      "Long-term borrowings:",
+      "Senior notes | 77,665 | ( | 1,237 | ) | 76,428 | \u2014 | September 30, 2029 | 10.00 | %",
+      "Total borrowings | $ | 77,665 | $ | ( | 1,237 | ) | $ | 76,428 | $ | 2,723,223"
+    ]
+  },
+  {
+    "table": 111,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 37"
+    ]
+  },
+  {
+    "table": 112,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a09\u00a0\u2013 Net Income (Loss) per Common Share",
+      ""
+    ]
+  },
+  {
+    "table": 113,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars and shares in thousands, except per share data) | 2026 | 2025 | 2026 | 2025",
+      "Basic:",
+      "Net income (loss) | $ | 6,918 | $ | ( | 69,775 | ) | $ | 21,636 | $ | ( | 68,100 | )",
+      "Average common shares outstanding | 30,495 | 30,375 | 30,459 | 30,325",
+      "Basic net income (loss) per common share | $ | 0.23 | $ | ( | 2.30 | ) | $ | 0.71 | $ | ( | 2.25 | )",
+      "",
+      "Diluted:",
+      "Net income (loss) | $ | 6,918 | $ | ( | 69,775 | ) | $ | 21,636 | $ | ( | 68,100 | )",
+      "Average common shares outstanding | 30,495 | 30,375 | 30,459 | 30,325",
+      "Adjustment for common share equivalents | 75 | \u2014 | 58 | \u2014",
+      "Average common shares outstanding-diluted | 30,570 | 30,375 | 30,517 | 30,325",
+      "Diluted net income (loss) per common share | (1) | $ | 0.23 | $ | ( | 2.30 | ) | $ | 0.71 | $ | ( | 2.25 | )",
+      "",
+      "Anti-dilutive shares | 35 | 136 | 36 | 136"
+    ]
+  },
+  {
+    "table": 114,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 38"
+    ]
+  },
+  {
+    "table": 115,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a010\u00a0\u2013 Other Comprehensive Income (Loss)",
+      ""
+    ]
+  },
+  {
+    "table": 116,
+    "rows": [
+      "",
+      "(dollars in thousands) | Before Tax | Tax Effect | Net of Tax",
+      "For the Three Months Ended June 30, 2026",
+      "Unrealized gain (loss) on securities available-for-sale | $ | ( | 1,708 | ) | $ | 444 | $ | ( | 1,264 | )",
+      "Reclassification adjustment for net realized (gain) loss included in net income (loss) | ( | 259 | ) | 66 | ( | 193 | )",
+      "Total unrealized gain (loss) on securities available-for-sale | ( | 1,967 | ) | 510 | ( | 1,457 | )",
+      "",
+      "Amortization of unrealized gain (loss) on securities transferred to held-to-maturity | 1,736 | ( | 395 | ) | 1,341",
+      "",
+      "Unrealized gain (loss) on derivatives | ( | 4,784 | ) | 1,176 | ( | 3,608 | )",
+      "Reclassification adjustment for (gain) loss on cash flow hedging relationships | 421 | ( | 103 | ) | 318",
+      "Total unrealized gain (loss) on derivatives | ( | 4,363 | ) | 1,073 | ( | 3,290 | )",
+      "Other comprehensive income (loss) | $ | ( | 4,594 | ) | $ | 1,188 | $ | ( | 3,406 | )",
+      "",
+      "For the Three Months Ended June 30, 2025",
+      "Unrealized gain (loss) on securities available-for-sale | $ | 13,296 | $ | ( | 3,055 | ) | $ | 10,241",
+      "Reclassification adjustment for net realized (gain) loss included in net income (loss) | 1,854 | ( | 669 | ) | 1,185",
+      "Total unrealized gain (loss) on securities available-for-sale | 15,150 | ( | 3,724 | ) | 11,426",
+      "",
+      "Amortization of unrealized gain (loss) on securities transferred to held-to-maturity | 1,633 | ( | 378 | ) | 1,255",
+      "",
+      "Unrealized gain (loss) on derivatives | ( | 142 | ) | 35 | ( | 107 | )",
+      "Reclassification adjustment for (gain) loss on cash flow hedging relationships | \u2014 | \u2014 | \u2014",
+      "Total unrealized gain (loss) on derivatives | ( | 142 | ) | 35 | ( | 107 | )",
+      "Other comprehensive income (loss) | $ | 16,641 | $ | ( | 4,067 | ) | $ | 12,574",
+      "",
+      "For the Six Months Ended June 30, 2026",
+      "Unrealized gain (loss) on securities available-for-sale | $ | ( | 1,778 | ) | $ | 435 | $ | ( | 1,343 | )",
+      "Reclassification adjustment for net realized (gain) loss included in net income (loss) | ( | 255 | ) | 66 | ( | 189 | )",
+      "Total unrealized gain (loss) on securities available-for-sale | ( | 2,033 | ) | 501 | ( | 1,532 | )",
+      "",
+      "Amortization of unrealized gain (loss) on securities transferred to held-to-maturity | 3,289 | ( | 753 | ) | 2,536",
+      "",
+      "Unrealized gain (loss) on derivatives | ( | 7,826 | ) | 1,924 | ( | 5,902 | )",
+      "Reclassification adjustment for (gain) loss on cash flow hedging relationships | 766 | ( | 188 | ) | 578",
+      "Total unrealized gain (loss) on derivatives | ( | 7,060 | ) | 1,736 | ( | 5,324 | )",
+      "Other comprehensive income (loss) | $ | ( | 5,804 | ) | $ | 1,484 | $ | ( | 4,320 | )",
+      "",
+      "For the Six Months Ended June 30, 2025",
+      "Unrealized gain (loss) on securities available-for-sale | $ | 38,968 | $ | ( | 9,374 | ) | $ | 29,594",
+      "Reclassification adjustment for net realized (gain) loss included in net income (loss) | 1,850 | ( | 670 | ) | 1,180",
+      "Total unrealized gain (loss) on securities available-for-sale | 40,818 | ( | 10,044 | ) | 30,774",
+      "",
+      "Amortization of unrealized gain (loss) on securities transferred to held-to-maturity | 3,197 | ( | 738 | ) | 2,459",
+      "",
+      "Unrealized gain (loss) on derivatives | ( | 166 | ) | 41 | ( | 125 | )",
+      "Reclassification adjustment for loss on derivatives included in net income | \u2014 | \u2014 | \u2014",
+      "Total unrealized gain (loss) on derivatives | ( | 166 | ) | 41 | ( | 125 | )",
+      "Other comprehensive income (loss) | $ | 43,849 | $ | ( | 10,741 | ) | $ | 33,108",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 117,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 39"
+    ]
+  },
+  {
+    "table": 118,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a010\u00a0\u2013 Other Comprehensive Income (Loss)",
+      ""
+    ]
+  },
+  {
+    "table": 119,
+    "rows": [
+      "",
+      "(dollars in thousands) | Available-for-Sale Securities | Held-to-Maturity Securities | Derivatives | Accumulated\u00a0Other | Comprehensive Income (Loss)",
+      "For the Three Months Ended June 30, 2026",
+      "Balance at beginning of period | $ | ( | 59,561 | ) | $ | ( | 28,562 | ) | $ | ( | 1,950 | ) | $ | ( | 90,073 | )",
+      "Other comprehensive income (loss) before reclassifications | ( | 1,264 | ) | \u2014 | ( | 3,608 | ) | ( | 4,872 | )",
+      "Amortization of unrealized loss on securities transferred to held-to-maturity | \u2014 | 1,341 | \u2014 | 1,341",
+      "Amounts reclassified from accumulated other comprehensive income (loss) | ( | 193 | ) | \u2014 | 318 | 125",
+      "Net other comprehensive income (loss) during period | ( | 1,457 | ) | 1,341 | ( | 3,290 | ) | ( | 3,406 | )",
+      "Balance at end of period | $ | ( | 61,018 | ) | $ | ( | 27,221 | ) | $ | ( | 5,240 | ) | $ | ( | 93,479 | )",
+      "",
+      "For the Three Months Ended June 30, 2025",
+      "Balance at beginning of period | $ | ( | 87,504 | ) | $ | ( | 33,435 | ) | $ | \u2014 | $ | ( | 120,939 | )",
+      "Other comprehensive income (loss) before reclassifications | 10,241 | \u2014 | ( | 107 | ) | 10,134",
+      "Amortization of unrealized loss on securities transferred to held-to-maturity | \u2014 | 1,255 | \u2014 | 1,255",
+      "Amounts reclassified from accumulated other comprehensive income (loss) | 1,185 | \u2014 | \u2014 | 1,185",
+      "Net other comprehensive income (loss) during period | 11,426 | 1,255 | ( | 107 | ) | 12,574",
+      "Balance at end of period | $ | ( | 76,078 | ) | $ | ( | 32,180 | ) | $ | ( | 107 | ) | $ | ( | 108,365 | )",
+      "",
+      "For the Six Months Ended June 30, 2026",
+      "Balance at beginning of period | $ | ( | 59,486 | ) | $ | ( | 29,757 | ) | $ | 84 | $ | ( | 89,159 | )",
+      "Other comprehensive income (loss) before reclassifications | ( | 1,343 | ) | \u2014 | ( | 5,902 | ) | ( | 7,245 | )",
+      "Amortization of unrealized loss on securities transferred to held-to-maturity | \u2014 | 2,536 | \u2014 | 2,536",
+      "Amounts reclassified from accumulated other comprehensive income (loss) | ( | 189 | ) | \u2014 | 578 | 389",
+      "Net other comprehensive income (loss) during period | ( | 1,532 | ) | 2,536 | ( | 5,324 | ) | ( | 4,320 | )",
+      "Balance at end of period | $ | ( | 61,018 | ) | $ | ( | 27,221 | ) | $ | ( | 5,240 | ) | $ | ( | 93,479 | )",
+      "",
+      "For the Six Months Ended June 30, 2025",
+      "Balance at beginning of period | $ | ( | 106,852 | ) | $ | ( | 34,639 | ) | $ | 18 | $ | ( | 141,473 | )",
+      "Other comprehensive income (loss) before reclassifications | 29,594 | \u2014 | ( | 125 | ) | 29,469",
+      "Amortization of unrealized loss on securities transferred to held-to-maturity | \u2014 | 2,459 | \u2014 | 2,459",
+      "Amounts reclassified from accumulated other comprehensive income (loss) | 1,180 | \u2014 | \u2014 | 1,180",
+      "Net other comprehensive income (loss) during period | 30,774 | 2,459 | ( | 125 | ) | 33,108",
+      "Balance at end of period | $ | ( | 76,078 | ) | $ | ( | 32,180 | ) | $ | ( | 107 | ) | $ | ( | 108,365 | )",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 120,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 40"
+    ]
+  },
+  {
+    "table": 121,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a010\u00a0\u2013 Other Comprehensive Income (Loss)",
+      ""
+    ]
+  },
+  {
+    "table": 122,
+    "rows": [
+      "",
+      "Amount\u00a0Reclassified\u00a0from Accumulated | Other Comprehensive Income (Loss) | Affected\u00a0Line\u00a0Item\u00a0in | the\u00a0Statement\u00a0Where | Net Income (Loss) is Presented",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars in thousands) | 2026 | 2025 | 2026 | 2025",
+      "Realized gain (loss) on sale of investment securities | $ | 266 | $ | ( | 1,854 | ) | $ | 269 | $ | ( | 1,850 | ) | Net gain (loss) on sale of investment securities",
+      "Gain (loss) on fair value hedging relationships - AFS securities | ( | 7 | ) | \u2014 | ( | 14 | ) | \u2014 | Interest income",
+      "Gain (loss) on cash flow hedging relationships - Loans | ( | 421 | ) | \u2014 | ( | 766 | ) | \u2014 | Interest income",
+      "Income tax benefit (expense) | 37 | 669 | 122 | 670 | Income tax expense",
+      "Total | $ | ( | 125 | ) | $ | ( | 1,185 | ) | $ | ( | 389 | ) | $ | ( | 1,180 | ) | Net Income (Loss)"
+    ]
+  },
+  {
+    "table": 123,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 41"
+    ]
+  },
+  {
+    "table": 124,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a011\u00a0\u2013 Fair Value Measurements",
+      ""
+    ]
+  },
+  {
+    "table": 125,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Quoted Prices (Level\u00a01) | Significant Other Observable Inputs (Level\u00a02) | Significant Other Unobservable Inputs (Level\u00a03) | Total Fair\u00a0Value",
+      "Assets:",
+      "Investment securities available-for-sale:",
+      "",
+      "U.S. agency securities | $ | \u2014 | $ | 313,772 | $ | \u2014 | $ | 313,772",
+      "Residential mortgage-backed securities | \u2014 | 514,748 | \u2014 | 514,748",
+      "Commercial mortgage-backed securities | \u2014 | 65,734 | \u2014 | 65,734",
+      "Municipal bonds | \u2014 | 7,943 | \u2014 | 7,943",
+      "Corporate bonds | \u2014 | 1,986 | \u2014 | 1,986",
+      "",
+      "Derivative assets | \u2014 | 25,254 | \u2014 | 25,254",
+      "",
+      "",
+      "Total assets measured at fair value on a recurring basis | $ | \u2014 | $ | 929,437 | $ | \u2014 | $ | 929,437",
+      "Liabilities:",
+      "",
+      "",
+      "Derivative liabilities | $ | \u2014 | $ | 37,964 | $ | \u2014 | $ | 37,964",
+      "Total liabilities measured at fair value on a recurring basis | $ | \u2014 | $ | 37,964 | $ | \u2014 | $ | 37,964",
+      "",
+      "As of December\u00a031, 2025",
+      "(dollars in thousands) | Quoted Prices (Level\u00a01) | Significant Other Observable Inputs (Level\u00a02) | Significant Other Unobservable Inputs (Level\u00a03) | Total Fair\u00a0Value",
+      "Assets:",
+      "Investment securities available-for-sale:",
+      "",
+      "U.S. agency securities | \u2014 | 337,708 | \u2014 | 337,708",
+      "Residential mortgage-backed securities | \u2014 | 562,504 | \u2014 | 562,504",
+      "Commercial mortgage-backed securities | \u2014 | 66,545 | \u2014 | 66,545",
+      "Municipal bonds | \u2014 | 8,046 | \u2014 | 8,046",
+      "Corporate bonds | \u2014 | 1,967 | \u2014 | 1,967",
+      "",
+      "Derivative assets | \u2014 | 24,332 | \u2014 | 24,332",
+      "",
+      "",
+      "Total assets measured at fair value on a recurring basis | $ | \u2014 | $ | 1,001,102 | $ | \u2014 | $ | 1,001,102",
+      "Liabilities:",
+      "",
+      "",
+      "Derivative liabilities | $ | \u2014 | $ | 23,942 | $ | \u2014 | $ | 23,942",
+      "Total liabilities measured at fair value on a recurring basis | $ | \u2014 | $ | 23,942 | $ | \u2014 | $ | 23,942"
+    ]
+  },
+  {
+    "table": 126,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 42"
+    ]
+  },
+  {
+    "table": 127,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a011\u00a0\u2013 Fair Value Measurements",
+      ""
+    ]
+  },
+  {
+    "table": 128,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Quoted\u00a0Prices | (Level\u00a01) | Significant Other | Observable Inputs | (Level\u00a02) | Significant Other | Unobservable Inputs | (Level\u00a03) | Total | Fair\u00a0Value",
+      "Individually assessed loans:",
+      "Commercial | $ | \u2014 | $ | \u2014 | $ | 15,890 | $ | 15,890",
+      "Income producing - commercial real estate | \u2014 | \u2014 | 66,021 | 66,021",
+      "Owner occupied - commercial real estate | \u2014 | \u2014 | 5,095 | 5,095",
+      "Real estate mortgage - residential | \u2014 | \u2014 | 552 | 552",
+      "Construction - commercial and residential | \u2014 | \u2014 | 4,883 | 4,883",
+      "Consumer | \u2014 | \u2014 | 492 | 492",
+      "Loans held for sale | \u2014 | \u2014 | 49,663 | 49,663",
+      "Other real estate owned | \u2014 | \u2014 | 1,966 | 1,966",
+      "Total assets measured at fair value on a nonrecurring basis | $ | \u2014 | $ | \u2014 | $ | 144,562 | $ | 144,562"
+    ]
+  },
+  {
+    "table": 129,
+    "rows": [
+      "",
+      "As of December\u00a031, 2025",
+      "(dollars in thousands) | Quoted\u00a0Prices | (Level\u00a01) | Significant Other | Observable Inputs | (Level\u00a02) | Significant Other | Unobservable Inputs | (Level\u00a03) | Total | Fair\u00a0Value",
+      "Individually assessed loans:",
+      "Commercial | $ | \u2014 | $ | \u2014 | $ | 8,580 | $ | 8,580",
+      "Income producing - commercial real estate | \u2014 | \u2014 | 59,655 | 59,655",
+      "Owner occupied - commercial real estate | \u2014 | \u2014 | 3,695 | 3,695",
+      "Real estate mortgage - residential | \u2014 | \u2014 | 579 | 579",
+      "Construction - commercial and residential | \u2014 | \u2014 | 14,460 | 14,460",
+      "Consumer | \u2014 | \u2014 | 333 | 333",
+      "Loans held for sale | \u2014 | \u2014 | 90,650 | 90,650",
+      "",
+      "Other real estate owned | \u2014 | \u2014 | 2,059 | 2,059",
+      "Total assets measured at fair value on a nonrecurring basis | $ | \u2014 | $ | \u2014 | $ | 180,011 | $ | 180,011"
+    ]
+  },
+  {
+    "table": 130,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 43"
+    ]
+  },
+  {
+    "table": 131,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a011\u00a0\u2013 Fair Value Measurements",
+      ""
+    ]
+  },
+  {
+    "table": 132,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 44"
+    ]
+  },
+  {
+    "table": 133,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a011\u00a0\u2013 Fair Value Measurements",
+      ""
+    ]
+  },
+  {
+    "table": 134,
+    "rows": [
+      "",
+      "Fair\u00a0Value\u00a0Measurements",
+      "(dollars in thousands) | Carrying | Value | Fair Value | Quoted\u00a0Prices | (Level 1) | Significant\u00a0Other | Observable Inputs | (Level 2) | Significant Other Unobservable | Inputs (Level 3)",
+      "As of June\u00a030, 2026",
+      "Assets",
+      "Cash and due from banks | $ | 13,394 | $ | 13,394 | $ | 13,394 | $ | \u2014 | $ | \u2014",
+      "",
+      "Interest-bearing deposits with other banks | 612,349 | 612,349 | \u2014 | 612,349 | \u2014",
+      "Investment securities available-for-sale | 904,183 | 904,183 | \u2014 | 904,183 | \u2014",
+      "Investment securities held-to-maturity | 814,878 | 730,994 | \u2014 | 730,994 | \u2014",
+      "Federal Reserve and Federal Home Loan Bank stock | 32,500 | N/A | \u2014 | \u2014 | \u2014",
+      "Loans held for sale | 49,663 | 49,663 | \u2014 | 49,663",
+      "Loans held for investment | 6,622,435 | 6,505,181 | \u2014 | \u2014 | 6,505,181",
+      "Bank-owned life insurance | 345,469 | 345,469 | \u2014 | 345,469 | \u2014",
+      "Annuity investment | 11,558 | 11,558 | \u2014 | 11,558 | \u2014",
+      "",
+      "Interest rate product | 25,254 | 25,254 | \u2014 | 25,254 | \u2014",
+      "Accrued interest receivable | 36,050 | 36,050 | \u2014 | 36,050 | \u2014",
+      "",
+      "Liabilities",
+      "Noninterest-bearing deposits | 1,567,336 | 1,567,336 | \u2014 | 1,567,336 | \u2014",
+      "Interest-bearing deposits | 4,035,638 | 4,035,638 | \u2014 | 4,035,638 | \u2014",
+      "Time deposits | 2,582,123 | 2,582,686 | \u2014 | 2,582,686 | \u2014",
+      "",
+      "Other short-term borrowings | 100,000 | 100,000 | \u2014 | 100,000 | \u2014",
+      "Long-term borrowings | 76,593 | 79,397 | \u2014 | 79,397 | \u2014",
+      "Interest rate product | 37,964 | 37,964 | \u2014 | 37,964 | \u2014",
+      "Accrued interest payable | 9,598 | 9,598 | \u2014 | 9,598 | \u2014",
+      "",
+      "As of December\u00a031, 2025",
+      "Assets",
+      "Cash and due from banks | $ | 11,692 | $ | 11,692 | $ | 11,692 | $ | \u2014 | $ | \u2014",
+      "",
+      "Interest-bearing deposits with other banks | 684,001 | 684,001 | \u2014 | 684,001 | \u2014",
+      "Investment securities available-for-sale | 976,770 | 976,770 | \u2014 | 976,770 | \u2014",
+      "Investment securities held-to-maturity | 854,780 | 774,947 | \u2014 | 774,947 | \u2014",
+      "Federal Reserve and Federal Home Loan Bank stock | 28,327 | N/A | \u2014 | \u2014 | \u2014",
+      "Loans held for sale | 90,650 | 90,650 | \u2014 | 90,650",
+      "Loans held for investment | 7,280,459 | 7,093,276 | \u2014 | \u2014 | 7,093,276",
+      "Bank-owned life insurance | 335,177 | 335,177 | \u2014 | 335,177 | \u2014",
+      "Annuity investment | 12,061 | 12,061 | \u2014 | 12,061 | \u2014",
+      "Interest rate product | 24,332 | 24,332 | \u2014 | 24,332 | \u2014",
+      "Accrued interest receivable | 41,373 | 41,373 | \u2014 | 41,373 | \u2014",
+      "",
+      "Liabilities",
+      "Noninterest-bearing deposits | 1,433,952 | 1,433,952 | \u2014 | 1,433,952 | \u2014",
+      "Interest-bearing deposits | 4,662,967 | 4,662,967 | \u2014 | 4,662,967 | \u2014",
+      "Time deposits | 3,036,687 | 3,050,951 | \u2014 | 3,050,951 | \u2014",
+      "",
+      "",
+      "Long-term borrowings | 76,428 | 80,329 | \u2014 | 80,329 | \u2014",
+      "Interest rate product | 23,942 | 23,942 | \u2014 | 23,942 | \u2014",
+      "Accrued interest payable | 10,798 | 10,798 | \u2014 | 10,798 | \u2014"
+    ]
+  },
+  {
+    "table": 135,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 45"
+    ]
+  },
+  {
+    "table": 136,
+    "rows": [
+      "",
+      "Table of Contents | Notes to Consolidated Financial Statements | Note\u00a012\u00a0\u2013 Segment Reporting",
+      ""
+    ]
+  },
+  {
+    "table": 137,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 46"
+    ]
+  },
+  {
+    "table": 138,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis",
+      ""
+    ]
+  },
+  {
+    "table": 139,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 47"
+    ]
+  },
+  {
+    "table": 140,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | General",
+      ""
+    ]
+  },
+  {
+    "table": 141,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 48"
+    ]
+  },
+  {
+    "table": 142,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Critical Accounting Policies and Estimates",
+      ""
+    ]
+  },
+  {
+    "table": 143,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars in thousands) | 2026 | 2025 | Change | 2026 | 2025 | Change",
+      "Net Interest Income | $ | 62,350 | $ | 67,776 | $ | (5,426) | $ | 126,044 | $ | 133,425 | $ | (7,381)",
+      "Less: Provision for (Reversal of) Credit Losses | 21,448 | 138,159 | (116,711) | 34,830 | 164,414 | (129,584)",
+      "Less: Provision for (Reversal of) Credit Losses for Unfunded Commitments | 8 | 1,759 | (1,751) | (1,771) | 1,462 | (3,233)",
+      "Net Interest Income After Provision for (Reversal of) Credit Losses | 40,894 | (72,142) | 113,036 | 92,985 | (32,451) | 125,436",
+      "Noninterest income | 10,759 | 6,414 | 4,345 | 23,467 | 14,621 | 8,846",
+      "Less: Noninterest expense | 44,028 | 43,470 | 558 | 92,768 | 88,921 | 3,847",
+      "Income (Loss) Before Income Tax Expense | 7,625 | (109,198) | 116,823 | 23,684 | (106,751) | 130,435",
+      "Less: Income Tax Expense (Benefit) | 707 | (39,423) | 40,130 | 2,048 | (38,651) | 40,699",
+      "Net Income (Loss) | $ | 6,918 | $ | (69,775) | $ | 76,693 | $ | 21,636 | $ | (68,100) | $ | 89,736"
+    ]
+  },
+  {
+    "table": 144,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 49"
+    ]
+  },
+  {
+    "table": 145,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Results of Operations",
+      ""
+    ]
+  },
+  {
+    "table": 146,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 50"
+    ]
+  },
+  {
+    "table": 147,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Results of Operations | Net Interest Income and Net Interest Margin",
+      ""
+    ]
+  },
+  {
+    "table": 148,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30,",
+      "2026 | 2025",
+      "Average | Balance | Interest | Average | Yield / | Rate | Average | Balance | Interest | Average | Yield / | Rate",
+      "Assets",
+      "Interest earning assets:",
+      "Interest-bearing deposits with other banks and other short-term investments | $ | 1,226,640 | $ | 10,978 | 3.59% | $ | 1,377,966 | $ | 14,773 | 4.30%",
+      "Loans held for sale | 40,356 | 910 | 9.04% | 15,418 | 284 | 7.39%",
+      "Loans | (1) (2) | 6,888,734 | 105,448 | 6.14% | 7,942,333 | 124,939 | 6.31%",
+      "Investment securities available-for-sale | (2) | 950,891 | 5,147 | 2.17% | 1,233,206 | 6,491 | 2.11%",
+      "Investment securities held-to-maturity | 830,921 | 4,096 | 1.98% | 918,083 | 4,945 | 2.16%",
+      "",
+      "Total interest earning assets | 9,937,542 | 126,579 | 5.11% | 11,487,006 | 151,432 | 5.29%",
+      "",
+      "Noninterest earning assets | 737,466 | 635,125",
+      "Less: allowance for credit losses | (151,328) | (133,036)",
+      "Total noninterest earning assets | 586,138 | 502,089",
+      "Total assets | $ | 10,523,680 | $ | 11,989,095",
+      "",
+      "Liabilities and Shareholders\u2019 Equity",
+      "Interest-bearing liabilities:",
+      "Interest-bearing transaction | $ | 1,447,015 | $ | 9,379 | 2.60% | $ | 1,489,056 | $ | 9,982 | 2.69%",
+      "Savings and money market | 3,194,094 | 24,139 | 3.03% | 3,461,918 | 29,634 | 3.43%",
+      "Time deposits | 2,683,953 | 28,044 | 4.19% | 3,367,907 | 39,296 | 4.68%",
+      "Total interest-bearing deposits | 7,325,062 | 61,562 | 3.37% | 8,318,881 | 78,912 | 3.80%",
+      "Customer repurchase agreements and federal funds purchased | \u2014 | \u2014 | \u2014% | 34,387 | 250 | 2.92%",
+      "Derivative collateral liability | 14,834 | 60 | 1.62% | 12,710 | 118 | 3.72%",
+      "Other short-term borrowings | 60,440 | 583 | 3.87% | 245,291 | 2,360 | 3.86%",
+      "Long-term borrowings | 76,566 | 2,024 | 10.60% | 76,236 | 2,016 | 10.61%",
+      "Total interest-bearing liabilities | 7,476,902 | 64,229 | 3.45% | 8,687,505 | 83,656 | 3.86%",
+      "",
+      "Noninterest-bearing liabilities:",
+      "Noninterest-bearing demand | 1,760,058 | 1,907,214",
+      "Other liabilities | 133,356 | 142,124",
+      "Total noninterest-bearing liabilities | 1,893,414 | 2,049,338",
+      "",
+      "Shareholders\u2019 equity | 1,153,364 | 1,252,252",
+      "Total Liabilities and Shareholders\u2019 Equity | $ | 10,523,680 | $ | 11,989,095",
+      "",
+      "Net interest income | $ | 62,350 | $ | 67,776",
+      "Net interest spread | 1.66% | 1.43%",
+      "Net interest margin | 2.52% | 2.37%",
+      "Cost of funds | 2.79% | 3.17%"
+    ]
+  },
+  {
+    "table": 149,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 51"
+    ]
+  },
+  {
+    "table": 150,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Results of Operations | Net Interest Income and Net Interest Margin",
+      ""
+    ]
+  },
+  {
+    "table": 151,
+    "rows": [
+      "",
+      "For the Six Months Ended June 30,",
+      "2026 | 2025",
+      "(dollars in thousands) | Average | Balance | Interest | Average | Yield / | Rate | Average | Balance | Interest | Average | Yield / | Rate",
+      "Assets",
+      "Interest earning assets:",
+      "Interest-bearing deposits with other banks and other short-term investments | $ | 1,323,242 | $ | 23,667 | 3.61% | $ | 1,380,890 | $ | 30,614 | 4.47%",
+      "Loans held for sale | (1) | 62,602 | 2,290 | 7.38% | 7,836 | 284 | 7.31%",
+      "Loans | (1) (2) | 6,999,991 | 213,634 | 6.15% | 7,938,038 | 251,075 | 6.38%",
+      "Investment securities available-for-sale | (2) | 969,537 | 10,334 | 2.15% | 1,277,335 | 13,349 | 2.11%",
+      "Investment securities held-to-maturity | 840,310 | 8,555 | 2.05% | 925,938 | 9,999 | 2.18%",
+      "",
+      "",
+      "Total interest earning assets | 10,195,682 | 258,480 | 5.11% | 11,530,037 | 305,321 | 5.34%",
+      "",
+      "Noninterest earning assets | 736,237 | 616,889",
+      "Less: allowance for credit losses | (156,513) | (125,837)",
+      "Total noninterest earning assets | 579,724 | 491,052",
+      "Total Assets | $ | 10,775,406 | $ | 12,021,089",
+      "",
+      "Liabilities and Shareholders\u2019 Equity",
+      "Interest-bearing liabilities:",
+      "Interest-bearing transaction | $ | 1,454,741 | $ | 18,696 | 2.59% | $ | 1,429,165 | $ | 19,890 | 2.81%",
+      "Savings and money market | 3,314,993 | 49,990 | 3.04% | 3,571,459 | 62,023 | 3.50%",
+      "Time deposits | 2,808,531 | 59,001 | 4.24% | 3,160,661 | 74,210 | 4.73%",
+      "Total interest-bearing deposits | 7,578,265 | 127,687 | 3.40% | 8,161,285 | 156,123 | 3.86%",
+      "Customer repurchase agreements and federal funds purchased | \u2014 | \u2014 | \u2014% | 35,473 | 510 | 2.90%",
+      "Derivative collateral liability | 11,309 | 117 | 2.09% | 16,268 | 468 | 5.80%",
+      "Other short-term borrowings | 30,387 | 584 | 3.88% | 445,580 | 10,754 | 4.87%",
+      "Long-term borrowings | 76,524 | 4,048 | 10.67% | 76,191 | 4,041 | 10.70%",
+      "Total interest-bearing liabilities | 7,696,485 | 132,436 | 3.47% | 8,734,797 | 171,896 | 3.97%",
+      "",
+      "Noninterest-bearing liabilities:",
+      "Noninterest-bearing demand | 1,788,732 | 1,894,327",
+      "Other liabilities | 139,699 | 144,410",
+      "Total noninterest-bearing liabilities | 1,928,431 | 2,038,737",
+      "",
+      "Shareholders\u2019 equity | 1,150,490 | 1,247,555",
+      "Total Liabilities and Shareholders\u2019 Equity | $ | 10,775,406 | $ | 12,021,089",
+      "",
+      "Net interest income | $ | 126,044 | $ | 133,425",
+      "Net interest spread | 1.64% | 1.37%",
+      "Net interest margin | 2.49% | 2.33%",
+      "Cost of funds | 2.82% | 3.26%"
+    ]
+  },
+  {
+    "table": 152,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 52"
+    ]
+  },
+  {
+    "table": 153,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Results of Operations | Net Interest Income and Net Interest Margin",
+      ""
+    ]
+  },
+  {
+    "table": 154,
+    "rows": [
+      "",
+      "Three Months Ended June 30, 2026 Compared with | Three Months Ended June 30, 2025 | Six Months Ended June 30, 2026 Compared with | Six Months Ended June 30, 2025",
+      "(dollars in thousands) | Change | Due to | Volume | Change | Due to | Rate | Total | Increase | (Decrease) | Change | Due to | Volume | Change | Due to | Rate | Total | Increase | (Decrease)",
+      "Interest earned on:",
+      "Interest-bearing deposits with other banks and other short-term investments | $ | (1,623) | $ | (2,172) | $ | (3,795) | $ | (1,278) | $ | (5,669) | $ | (6,947)",
+      "Loans held for sale | 626 | \u2014 | 626 | 1,984 | 22 | 2,006",
+      "Loans | (16,574) | (2,917) | (19,491) | (29,670) | (7,771) | (37,441)",
+      "Investment securities available-for sale | (1,486) | 142 | (1,344) | (3,217) | 202 | (3,015)",
+      "Investment securities held-to-maturity | (469) | (380) | (849) | (925) | (519) | (1,444)",
+      "Derivative collateral asset | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014",
+      "",
+      "Total interest income | (19,526) | (5,327) | (24,853) | (33,106) | (13,735) | (46,841)",
+      "",
+      "Interest paid on:",
+      "Interest-bearing transaction | (282) | (321) | (603) | 356 | (1,550) | (1,194)",
+      "Savings and money market | (2,293) | (3,202) | (5,495) | (4,454) | (7,579) | (12,033)",
+      "Time deposits | (7,980) | (3,272) | (11,252) | (8,268) | (6,941) | (15,209)",
+      "Customer repurchase agreements | (118) | \u2014 | (118) | (510) | \u2014 | (510)",
+      "Derivative collateral liability | (142) | (48) | (190) | (143) | (208) | (351)",
+      "Other short-term borrowings | (1,778) | 1 | (1,777) | (10,020) | (150) | (10,170)",
+      "Long-term borrowings | 9 | (1) | 8 | 18 | (11) | 7",
+      "Total interest expense | (12,584) | (6,843) | (19,427) | (23,021) | (16,439) | (39,460)",
+      "Net interest income | $ | (6,942) | $ | 1,516 | $ | (5,426) | $ | (10,085) | $ | 2,704 | $ | (7,381)"
+    ]
+  },
+  {
+    "table": 155,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 53"
+    ]
+  },
+  {
+    "table": 156,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Results of Operations | Provision for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 157,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars in thousands) | 2026 | 2025 | 2026 | 2025",
+      "Provision for (reversal of) credit losses - loans | $ | 21,900 | $ | 138,205 | $ | 35,406 | $ | 164,513",
+      "Provision for (reversal of) credit losses - HTM debt securities | (452) | (46) | (576) | (99)",
+      "",
+      "Total Provision for credit losses | $ | 21,448 | $ | 138,159 | $ | 34,830 | $ | 164,414",
+      "",
+      "Net charge offs in ACL | $ | (47,922) | $ | (83,878) | $ | (73,869) | $ | (95,107)"
+    ]
+  },
+  {
+    "table": 158,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 54"
+    ]
+  },
+  {
+    "table": 159,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Results of Operations | Provision for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 160,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | Dollar | Percent",
+      "(dollars in thousands) | 2026 | 2025 | Change | Change",
+      "Service charges on deposits | $ | 1,733 | $ | 1,771 | $ | (38) | (2) | %",
+      "Gain (loss) on sale of loans | 2,291 | \u2014 | 2,291 | \u2014 | %",
+      "Net gain (loss) on sale of investment securities | 266 | (1,854) | 2,120 | (114) | %",
+      "Increase in the cash surrender value of bank-owned life insurance | 5,672 | 5,161 | 511 | 10 | %",
+      "Other income | 797 | 1,336 | (539) | (40) | %",
+      "Total | $ | 10,759 | $ | 6,414 | $ | 4,345 | 68 | %",
+      "",
+      "For the Six Months Ended June 30, | Dollar | Percent",
+      "(dollars in thousands) | 2026 | 2025 | Change | Change",
+      "Service charges on deposits | $ | 3,465 | $ | 3,514 | $ | (49) | (1) | %",
+      "Gain (loss) on sale of loans | 5,841 | \u2014 | 5,841 | \u2014 | %",
+      "Net gain (loss) on sale of investment securities | 269 | (1,850) | 2,119 | (115) | %",
+      "Increase in the cash surrender value of bank-owned life insurance | 11,351 | 9,443 | 1,908 | 20 | %",
+      "Other income | 2,541 | 3,514 | (973) | (28) | %",
+      "Total | $ | 23,467 | $ | 14,621 | $ | 8,846 | 61 | %"
+    ]
+  },
+  {
+    "table": 161,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 55"
+    ]
+  },
+  {
+    "table": 162,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Results of Operations | Noninterest Expense",
+      ""
+    ]
+  },
+  {
+    "table": 163,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | Dollar | Percent",
+      "(dollars in thousands) | 2026 | 2025 | Change | Change",
+      "Salaries and employee benefits | $ | 23,366 | $ | 21,940 | $ | 1,426 | 6 | %",
+      "Premises and equipment expenses | 2,445 | 3,019 | (574) | (19) | %",
+      "Marketing and advertising | 1,161 | 1,144 | 17 | 1 | %",
+      "Data processing | 4,257 | 4,293 | (36) | (1) | %",
+      "Legal, accounting and professional fees | 4,783 | 1,550 | 3,233 | 209 | %",
+      "FDIC insurance | 4,862 | 8,077 | (3,215) | (40) | %",
+      "",
+      "Other expenses | 3,154 | 3,447 | (293) | (9) | %",
+      "Total | $ | 44,028 | $ | 43,470 | $ | 558 | 1 | %",
+      "",
+      "For the Six Months Ended June 30, | Dollar | Percent",
+      "(dollars in thousands) | 2026 | 2025 | Change | Change",
+      "Salaries and employee benefits | $ | 46,613 | $ | 43,908 | $ | 2,705 | 6 | %",
+      "Premises and equipment expenses | 4,978 | 6,222 | (1,244) | (20) | %",
+      "Marketing and advertising | 2,029 | 2,515 | (486) | (19) | %",
+      "Data processing | 8,461 | 8,271 | 190 | 2 | %",
+      "Legal, accounting and professional fees | 9,095 | 4,672 | 4,423 | 95 | %",
+      "FDIC insurance | 11,871 | 17,039 | (5,168) | (30) | %",
+      "",
+      "",
+      "Other expenses | 9,721 | 6,294 | 3,427 | 54 | %",
+      "Total | $ | 92,768 | $ | 88,921 | $ | 3,847 | 4 | %"
+    ]
+  },
+  {
+    "table": 164,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 56"
+    ]
+  },
+  {
+    "table": 165,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis",
+      ""
+    ]
+  },
+  {
+    "table": 166,
+    "rows": [
+      "",
+      "As of",
+      "June 30, 2026 | December 31, 2025 | Change",
+      "Assets",
+      "Cash and cash equivalents | (1) | $ | 625,743 | $ | 695,693 | $ | (69,950)",
+      "Investment securities | (2) | 1,719,061 | 1,831,550 | (112,489)",
+      "Loans held for sale | 49,663 | 90,650 | (40,987)",
+      "Loans held for investment, at amortized cost | 6,622,435 | 7,280,459 | (658,024)",
+      "Less: Allowance for credit losses | (121,141) | (159,604) | 38,463",
+      "Loans held for investment, net of allowance | 6,501,294 | 7,120,855 | (619,561)",
+      "Deferred income taxes | 134,077 | 132,330 | 1,747",
+      "Bank-owned life insurance | 345,469 | 335,177 | 10,292",
+      "Other assets | (3) | 283,607 | 290,948 | (7,341)",
+      "Total Assets | $ | 9,658,914 | $ | 10,497,203 | $ | (838,289)",
+      "",
+      "Liabilities and Shareholders\u2019 Equity",
+      "Liabilities",
+      "Deposits:",
+      "Noninterest-bearing demand | $ | 1,567,336 | $ | 1,433,952 | $ | 133,384",
+      "Interest-bearing transaction | 973,651 | 1,038,154 | (64,503)",
+      "Savings and money market | 3,061,987 | 3,624,813 | (562,826)",
+      "Time deposits | 2,582,123 | 3,036,687 | (454,564)",
+      "Total deposits | 8,185,097 | 9,133,606 | (948,509)",
+      "",
+      "Borrowings | 176,593 | 76,428 | 100,165",
+      "Other liabilities | (4) | 146,718 | 155,886 | (9,168)",
+      "Total Liabilities | 8,508,408 | 9,365,920 | (857,512)",
+      "Shareholders\u2019 Equity | 1,150,506 | 1,131,283 | 19,223",
+      "Total Liabilities and Shareholders\u2019 Equity | $ | 9,658,914 | $ | 10,497,203 | $ | (838,289)"
+    ]
+  },
+  {
+    "table": 167,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 57"
+    ]
+  },
+  {
+    "table": 168,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis",
+      ""
+    ]
+  },
+  {
+    "table": 169,
+    "rows": [
+      "",
+      "As of",
+      "June\u00a030, 2026 | December\u00a031, 2025",
+      "(dollars in thousands) | Amount | % | Amount | %",
+      "Commercial | $ | 1,540,766 | 23 | % | $ | 1,338,486 | 18 | %",
+      "",
+      "Income producing - commercial real estate | 2,729,383 | 41 | % | 3,350,718 | 46 | %",
+      "Owner occupied - commercial real estate | 1,660,748 | 25 | % | 1,602,124 | 22 | %",
+      "Real estate mortgage - residential | 35,535 | 1 | % | 37,100 | 1 | %",
+      "Construction - commercial and residential | 523,121 | 8 | % | 795,400 | 11 | %",
+      "Construction - C&I (owner occupied) | 88,458 | 1 | % | 108,468 | 1 | %",
+      "Home equity | 43,479 | 1 | % | 47,448 | 1 | %",
+      "Other consumer | 945 | \u2014 | % | 715 | \u2014 | %",
+      "Total loans | 6,622,435 | 100 | % | 7,280,459 | 100 | %",
+      "Less: allowance for credit losses | (121,141) | (159,604)",
+      "Loans, net | (1) | $ | 6,501,294 | $ | 7,120,855"
+    ]
+  },
+  {
+    "table": 170,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 58"
+    ]
+  },
+  {
+    "table": 171,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Loan Portfolio",
+      ""
+    ]
+  },
+  {
+    "table": 172,
+    "rows": [
+      "",
+      "Washington, D.C. | Washington's Maryland Suburbs | Northern Virginia",
+      "",
+      "Other Maryland | Other Locations"
+    ]
+  },
+  {
+    "table": 173,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 59"
+    ]
+  },
+  {
+    "table": 174,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Loan Portfolio",
+      ""
+    ]
+  },
+  {
+    "table": 175,
+    "rows": [
+      "",
+      "Central business district of Washington, D.C. | Washington, D.C. (outside of the central business district)",
+      "",
+      "Washington's Maryland Suburbs | Northern Virginia"
+    ]
+  },
+  {
+    "table": 176,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "Maryland | Virginia",
+      "(dollars in thousands) | Washington, D.C. | Washington, D.C. Suburbs | Other | Northern Virginia | Other | Other | Total | Percent of Total",
+      "Collateral Type:",
+      "Hotel & motel | $ | 146,910 | $ | 70,103 | $ | 87,020 | $ | 48,592 | $ | \u2014 | $ | 20,407 | $ | 373,032 | 14 | %",
+      "Industrial | 836 | 57,064 | 23,743 | 31,618 | 10,229 | \u2014 | 123,490 | 5 | %",
+      "Mixed use | 99,531 | 43,647 | 2,995 | 6,658 | 20,519 | 4,834 | 178,184 | 6 | %",
+      "Multifamily | 297,763 | 149,850 | 297 | 92,495 | 108,546 | 43,821 | 692,772 | 25 | %",
+      "Office | 119,110 | 167,594 | 4,473 | 217,334 | 25,344 | \u2014 | 533,855 | 19 | %",
+      "Retail | 56,776 | 59,540 | 54,200 | 42,528 | 21,353 | 2,448 | 236,845 | 9 | %",
+      "Single / 1-4 Family & Res. Condo | 53,156 | 5,269 | 1,831 | 4,094 | 6,249 | 3,962 | 74,561 | 2 | %",
+      "Other | (1) | 177,356 | 119,715 | 9,763 | 190,889 | 5,388 | 17,791 | 520,902 | 20 | %",
+      "Total | $ | 951,438 | $ | 672,782 | $ | 184,322 | $ | 634,208 | $ | 197,628 | $ | 93,263 | $ | 2,733,641 | 100 | %",
+      "Percent of total | 35% | 25% | 7% | 23% | 7% | 3% | 100%",
+      "",
+      "Percent of Principal by Loan Size:",
+      "Less than $1 million | 2 | % | 3 | % | 2 | % | 3 | % | 2 | % | 2 | %",
+      "$1 million to $5 million | 11 | % | 11 | % | 17 | % | 8 | % | 7 | % | 16 | %",
+      "$5 million to $10 million | 5 | % | 7 | % | 18 | % | 7 | % | 12 | % | 29 | %",
+      "$10 million to $25 million | 22 | % | 13 | % | 23 | % | 39 | % | 38 | % | 14 | %",
+      "$25 million to $50 million | 36 | % | 25 | % | 40 | % | 30 | % | 13 | % | 39 | %",
+      "Greater than $50 million | 24 | % | 41 | % | \u2014 | % | 13 | % | 28 | % | \u2014 | %",
+      "Total | 100 | % | 100 | % | 100 | % | 100 | % | 100 | % | 100 | %"
+    ]
+  },
+  {
+    "table": 177,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 60"
+    ]
+  },
+  {
+    "table": 178,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Loan Portfolio",
+      ""
+    ]
+  },
+  {
+    "table": 179,
+    "rows": [
+      "",
+      "As of",
+      "June\u00a030, 2026 | December\u00a031, 2025",
+      "(dollars in thousands) | Special Mention | Substandard | Total | Special Mention | Substandard | Total",
+      "Hotel & motel | $ | 35,875 | $ | \u2014 | $ | 35,875 | $ | 6,275 | $ | \u2014 | $ | 6,275",
+      "Industrial | \u2014 | \u2014 | \u2014 | 2,697 | \u2014 | 2,697",
+      "Mixed use | \u2014 | 34,070 | 34,070 | 50,299 | 69,797 | 120,096",
+      "Multifamily | 79,228 | 204,942 | 284,170 | 43,201 | 132,419 | 175,620",
+      "Office | 10,827 | 66,264 | 77,091 | 23,705 | 84,185 | 107,890",
+      "Retail | \u2014 | 17,173 | 17,173 | \u2014 | 12,424 | 12,424",
+      "Single / 1-4 Family & Res. Condo | \u2014 | 4,537 | 4,537 | \u2014 | 5,747 | 5,747",
+      "Other | 56,196 | 30,360 | 86,556 | 59,838 | 69,119 | 128,957",
+      "Total | $ | 182,126 | $ | 357,346 | $ | 539,472 | $ | 186,015 | $ | 373,691 | $ | 559,706"
+    ]
+  },
+  {
+    "table": 180,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "(dollars in thousands) | Total | One Year or Less | Over One Year to Five Years | Over Five Years to Fifteen Years | Over Fifteen Years",
+      "Commercial | $ | 1,540,766 | $ | 427,662 | $ | 944,540 | $ | 144,722 | $ | 23,842",
+      "",
+      "Income producing - commercial real estate | (1) | 2,729,383 | 1,586,287 | 982,387 | 160,709 | \u2014",
+      "Owner occupied - commercial real estate | 1,660,748 | 61,555 | 846,326 | 460,181 | 292,686",
+      "Real estate mortgage - residential | 35,536 | 11,150 | 16,553 | 822 | 7,011",
+      "Construction - commercial and residential | 523,121 | 440,234 | 82,887 | \u2014 | \u2014",
+      "Construction - C&I (owner occupied) | 88,457 | 2,876 | 16,581 | 8,211 | 60,789",
+      "Home equity | 43,479 | 1,382 | 130 | 1,998 | 39,969",
+      "Other consumer | 945 | 576 | 71 | 15 | 283",
+      "Total loans | $ | 6,622,435 | $ | 2,531,722 | $ | 2,889,475 | $ | 776,658 | $ | 424,580",
+      "",
+      "Loans with:",
+      "Predetermined fixed interest rate | $ | 1,940,402 | $ | 556,075 | $ | 1,027,522 | $ | 285,306 | $ | 71,499",
+      "Floating or adjustable interest rate | 4,682,033 | 1,975,647 | 1,861,953 | 491,352 | 353,081",
+      "Total loans | $ | 6,622,435 | $ | 2,531,722 | $ | 2,889,475 | $ | 776,658 | $ | 424,580",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "table": 181,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 61"
+    ]
+  },
+  {
+    "table": 182,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Loan Maturity",
+      ""
+    ]
+  },
+  {
+    "table": 183,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 62"
+    ]
+  },
+  {
+    "table": 184,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 185,
+    "rows": [
+      "",
+      "For the Six Months Ended June 30,",
+      "(dollars in thousands) | 2026 | 2025",
+      "Balance at beginning of period | $ | 159,604 | $ | 114,390",
+      "Charge-offs:",
+      "Commercial | (13,921) | (968)",
+      "Income producing - commercial real estate | (49,527) | (74,195)",
+      "Owner occupied - commercial real estate | (2,926) | (9,797)",
+      "Real estate mortgage - residential | (80) | \u2014",
+      "Construction - commercial and residential | (8,703) | (10,703)",
+      "",
+      "Other consumer | \u2014 | (35)",
+      "Total charge-offs | (75,157) | (95,698)",
+      "",
+      "Recoveries:",
+      "Commercial | 122 | 215",
+      "Income producing - commercial real estate | 1,123 | 329",
+      "Owner occupied - commercial real estate | 37 | 47",
+      "",
+      "Construction - commercial and residential | 6 | \u2014",
+      "",
+      "",
+      "Total recoveries | 1,288 | 591",
+      "Net charge-offs | (73,869) | (95,107)",
+      "Provision for credit losses - loans | 35,406 | 164,513",
+      "Balance at end of period | $ | 121,141 | $ | 183,796",
+      "",
+      "Annualized ratio of net charge-offs to average loans outstanding during the period | 2.13 | % | 2.40 | %"
+    ]
+  },
+  {
+    "table": 186,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 63"
+    ]
+  },
+  {
+    "table": 187,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Allowance for Credit Losses",
+      ""
+    ]
+  },
+  {
+    "table": 188,
+    "rows": [
+      "",
+      "As of",
+      "June\u00a030, 2026 | December\u00a031, 2025",
+      "(dollars in thousands) | Amount | % of Total ACL | % of Total Loans | Amount | % of Total ACL | % of Total Loans",
+      "Commercial | $ | 28,673 | 24 | % | 23 | % | $ | 26,607 | 17 | % | 18 | %",
+      "Income producing - commercial real estate | 68,824 | 57 | % | 41 | % | 98,707 | 62 | % | 46 | %",
+      "Owner occupied - commercial real estate | 17,186 | 14 | % | 25 | % | 20,719 | 13 | % | 22 | %",
+      "Real estate mortgage - residential | 305 | \u2014 | % | 1 | % | 339 | \u2014 | % | 1 | %",
+      "Construction - commercial and residential | 4,407 | 4 | % | 8 | % | 11,171 | 7 | % | 11 | %",
+      "Construction - C&I (owner occupied) | 1,112 | 1 | % | 1 | % | 1,515 | 1 | % | 1 | %",
+      "Home equity | 605 | \u2014 | % | 1 | % | 519 | \u2014 | % | 1 | %",
+      "Other consumer | 29 | \u2014 | % | \u2014 | % | 27 | \u2014 | % | \u2014 | %",
+      "Total | $ | 121,141 | 100 | % | 100 | % | $ | 159,604 | 100 | % | 100 | %"
+    ]
+  },
+  {
+    "table": 189,
+    "rows": [
+      "",
+      "As of",
+      "June\u00a030, 2026 | December\u00a031, 2025",
+      "(dollars in thousands) | Amount | Percentage | Amount | Percentage",
+      "Hotel & motel | $ | 5,577 | 8 | % | $ | 3,934 | 4 | %",
+      "Industrial | 1,662 | 2 | % | 1,359 | 1 | %",
+      "Mixed use | 2,569 | 4 | % | 2,627 | 3 | %",
+      "Multifamily | 6,711 | 10 | % | 7,468 | 8 | %",
+      "Office | 38,978 | 57 | % | 71,364 | 72 | %",
+      "Retail | 5,909 | 8 | % | 2,791 | 3 | %",
+      "Single / 1-4 Family & Res. Condo | 725 | 1 | % | 885 | 1 | %",
+      "Other | 6,693 | 10 | % | 8,279 | 8 | %",
+      "Total ACL - Income producing - commercial real estate loans | $ | 68,824 | 100 | % | $ | 98,707 | 100 | %"
+    ]
+  },
+  {
+    "table": 190,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 64"
+    ]
+  },
+  {
+    "table": 191,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Nonperforming Assets",
+      ""
+    ]
+  },
+  {
+    "table": 192,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 65"
+    ]
+  },
+  {
+    "table": 193,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Nonperforming Assets",
+      ""
+    ]
+  },
+  {
+    "table": 194,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June 30, 2026 | December 31, 2025",
+      "Nonaccrual Loans:",
+      "Commercial | $ | 24,768 | $ | 18,099",
+      "",
+      "Income producing - commercial real estate | 75,122 | 62,537",
+      "Owner occupied - commercial real estate | 5,093 | 7,937",
+      "Real estate mortgage - residential | 552 | 579",
+      "Construction - commercial and residential | 4,952 | 17,394",
+      "",
+      "Home equity | 637 | 351",
+      "",
+      "",
+      "Total nonperforming loans | (1) | 111,124 | 106,897",
+      "Other real estate owned | 1,966 | 2,059",
+      "Total nonperforming assets | $ | 113,090 | $ | 108,956",
+      "",
+      "Coverage ratio: allowance for credit losses to total nonperforming loans | 109 | % | 149 | %",
+      "Ratio of nonperforming loans to total loans | 1.68 | % | 1.47 | %",
+      "Ratio of nonperforming assets to total assets | 1.17 | % | 1.04 | %"
+    ]
+  },
+  {
+    "table": 195,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 66"
+    ]
+  },
+  {
+    "table": 196,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Balance Sheet Analysis | Deposits and Other Borrowings",
+      ""
+    ]
+  },
+  {
+    "table": 197,
+    "rows": [
+      "",
+      "As of",
+      "June\u00a030, 2026 | December\u00a031, 2025",
+      "(dollars in thousands) | Balance | Percentage | Balance | Percentage",
+      "Noninterest-bearing demand | $ | 1,567,336 | 19 | % | $ | 1,433,952 | 16 | %",
+      "Interest-bearing transaction | 973,651 | 12 | % | 1,038,154 | 11 | %",
+      "Savings and money market | 3,061,987 | 37 | % | 3,624,813 | 40 | %",
+      "Time deposits | 2,582,123 | 32 | % | 3,036,687 | 33 | %",
+      "Total | $ | 8,185,097 | 100 | % | $ | 9,133,606 | 100 | %"
+    ]
+  },
+  {
+    "table": 198,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 67"
+    ]
+  },
+  {
+    "table": 199,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Commitments and Contractual Obligations",
+      ""
+    ]
+  },
+  {
+    "table": 200,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June\u00a030, 2026 | December\u00a031, 2025",
+      "Unfunded loan commitments | $ | 1,465,707 | $ | 1,482,325",
+      "Unfunded lines of credit | 81,971 | 79,232",
+      "Letters of credit | 53,404 | 61,319",
+      "",
+      "Total | $ | 1,601,082 | $ | 1,622,876"
+    ]
+  },
+  {
+    "table": 201,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 68"
+    ]
+  },
+  {
+    "table": 202,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Liquidity Management",
+      ""
+    ]
+  },
+  {
+    "table": 203,
+    "rows": [
+      "",
+      "As of",
+      "(dollars in thousands) | June 30, 2026 | December\u00a031, 2025",
+      "Primary sources of liquidity available:",
+      "Cash and cash equivalents | (1) | $ | 625,743 | $ | 695,693",
+      "Unencumbered securities | 1,616,593 | 1,289,474",
+      "Total primary sources of liquidity available | 2,242,336 | 1,985,167",
+      "",
+      "Secondary sources of liquidity available:",
+      "FHLB secured borrowings | (2) | 719,130 | 1,349,351",
+      "FRB secured borrowings | 1,195,914 | 1,373,872",
+      "Total secondary sources of liquidity available | 1,915,044 | 2,723,223",
+      "",
+      "Total liquidity available | $ | 4,157,380 | $ | 4,708,390"
+    ]
+  },
+  {
+    "table": 204,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 69"
+    ]
+  },
+  {
+    "table": 205,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Capital Resources and Adequacy",
+      ""
+    ]
+  },
+  {
+    "table": 206,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 70"
+    ]
+  },
+  {
+    "table": 207,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Capital Resources and Adequacy",
+      ""
+    ]
+  },
+  {
+    "table": 208,
+    "rows": [
+      "",
+      "",
+      "Company | Bank | Minimum Required | For Capital | Adequacy Purposes | (1) | To Be Well | Capitalized | Under Prompt | Corrective Action | Regulations | (2)",
+      "(dollars in thousands) | Actual | Amount | Ratio | Actual | Amount | Ratio",
+      "As of June\u00a030, 2026",
+      "CET1 capital (to risk weighted assets) | $ | 1,186,828 | 14.58 | % | $ | 1,210,564 | 14.95 | % | 7.00 | % | 6.50 | %",
+      "Total capital (to risk weighted assets) | 1,288,840 | 15.84 | % | 1,312,082 | 16.20 | % | 10.50 | % | 10.00 | %",
+      "Tier 1 capital (to risk weighted assets) | 1,186,828 | 14.58 | % | 1,210,564 | 14.95 | % | 8.50 | % | 8.00 | %",
+      "Tier 1 capital (to average assets) | 1,186,828 | 11.22 | % | 1,210,564 | 11.49 | % | 4.00 | % | 5.00 | %",
+      "",
+      "As of December\u00a031, 2025",
+      "",
+      "",
+      "CET1 capital (to risk weighted assets) | $ | 1,170,352 | 13.07 | % | $ | 1,190,094 | 13.37 | % | 7.00 | % | 6.50 | %",
+      "Total capital (to risk weighted assets) | 1,282,913 | 14.33 | % | 1,302,018 | 14.63 | % | 10.50 | % | 10.00 | %",
+      "Tier 1 capital (to risk weighted assets) | 1,170,352 | 13.07 | % | 1,190,094 | 13.37 | % | 8.50 | % | 8.00 | %",
+      "Tier 1 capital (to average assets) | 1,170,352 | 9.72 | % | 1,190,094 | 9.92 | % | 4.00 | % | 5.00 | %"
+    ]
+  },
+  {
+    "table": 209,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 71"
+    ]
+  },
+  {
+    "table": 210,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Asset/Liability Management and Quantitative and Qualitative Disclosures about Market Risk",
+      ""
+    ]
+  },
+  {
+    "table": 211,
+    "rows": [
+      "",
+      "As of",
+      "June\u00a030, 2026 | December\u00a031, 2025",
+      "Mortgage-backed securities | 69% | 69%",
+      "U.S. agency securities | 18% | 18%",
+      "Municipal bonds | 7% | 6%",
+      "Corporate bonds | 6% | 7%",
+      "",
+      "Total | 100% | 100%",
+      "Duration of the investment portfolio (in years) | 3.6 | 3.8"
+    ]
+  },
+  {
+    "table": 212,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 72"
+    ]
+  },
+  {
+    "table": 213,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Asset/Liability Management and Quantitative and Qualitative Disclosures about Market Risk",
+      ""
+    ]
+  },
+  {
+    "table": 214,
+    "rows": [
+      "",
+      "As of June\u00a030, 2026",
+      "Net Interest Income | Economic Value of Equity",
+      "Change in interest | rates (basis points) | Percentage\u00a0change\u00a0in\u00a012-month | Policy limits | Percentage\u00a0change in 12-month | Policy limits",
+      "+400 | 16.7% | (25)% | (7.5)% | (32)%",
+      "+300 | 12.4% | (20)% | (6.1)% | (25)%",
+      "+200 | 8.2% | (15)% | (4.3)% | (20)%",
+      "+100 | 4.1% | (8)% | (2.3)% | (10)%",
+      "\u2014 | \u2014% | \u2014% | \u2014% | \u2014%",
+      "(100) | (3.7)% | (8)% | 2.2% | (10)%",
+      "(200) | (7.6)% | (15)% | 4.3% | (20)%",
+      "(300) | (11.2)% | (20)% | 6.4% | (25)%",
+      "(400) | (14.8)% | (25)% | 7.9% | (32)%"
+    ]
+  },
+  {
+    "table": 215,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 73"
+    ]
+  },
+  {
+    "table": 216,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Asset/Liability Management and Quantitative and Qualitative Disclosures about Market Risk",
+      ""
+    ]
+  },
+  {
+    "table": 217,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 74"
+    ]
+  },
+  {
+    "table": 218,
+    "rows": [
+      "",
+      "Table of Contents | Management's Discussion and Analysis | Use of Non-GAAP Financial Measures",
+      ""
+    ]
+  },
+  {
+    "table": 219,
+    "rows": [
+      "",
+      "For the Three Months Ended June 30, | For the Six Months Ended June 30,",
+      "(dollars in thousands except per share data) | 2026 | 2025 | 2026 | 2025",
+      "Pre-provision net revenue:",
+      "Net interest income | $ | 62,350 | $ | 67,776 | $ | 126,044 | $ | 133,425",
+      "Noninterest income | 10,759 | 6,414 | 23,467 | 14,621",
+      "Total net revenue | 73,109 | 74,190 | 149,511 | 148,046",
+      "Less: Noninterest expense | (44,028) | (43,470) | (92,768) | (88,921)",
+      "Pre-provision net revenue | $ | 29,081 | $ | 30,720 | $ | 56,743 | $ | 59,125"
+    ]
+  },
+  {
+    "table": 220,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 75"
+    ]
+  },
+  {
+    "table": 221,
+    "rows": [
+      "",
+      "Table of Contents | Other Information",
+      ""
+    ]
+  },
+  {
+    "table": 222,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 76"
+    ]
+  },
+  {
+    "table": 223,
+    "rows": [
+      "",
+      "Table of Contents",
+      ""
+    ]
+  },
+  {
+    "table": 224,
+    "rows": [
+      "",
+      "10.1 | Employment agreement, dated May 7, 2026, between the Company and the Bank and Stephen Curley (incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed on May 12, 2026)",
+      "10.2 | Consulting agreement, dated May 9, 2026, between the Company and the Bank and Susan Riel (incorporated by reference to Exhibit 10.2 to the Company's Current Report on Form 8-K filed on May 12, 2026)",
+      "",
+      "31.1 | Certification of the Chief Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002",
+      "31.2 | Certification of the Chief Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002",
+      "32.1 | Certification of the Chief Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002",
+      "32.2 | Certification of the Chief Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002",
+      "",
+      "101 | Interactive data files pursuant to Rule 405 of Regulation S-T:",
+      "(i)\u00a0\u00a0\u00a0\u00a0Consolidated Balance Sheets as of June 30, 2026 and December 31, 2025",
+      "(ii)\u00a0\u00a0\u00a0Consolidated Statements of Operations for the three and six months ended June 30, 2026 and 2025",
+      "(iii)\u00a0\u00a0Consolidated Statements of Comprehensive Income (Loss) for the three and six months ended June 30, 2026 and 2025",
+      "(iv)\u00a0\u00a0Consolidated Statements of Changes in Shareholders' Equity for the three and six months ended June 30, 2026 and 2025",
+      "(v)\u00a0\u00a0\u00a0Consolidated Statements of Cash Flows for the six months ended June 30, 2026 and 2025",
+      "(vi)\u00a0\u00a0Notes to Consolidated Financial Statements",
+      "104 | The cover page of this Quarterly Report on Form 10-Q, formatted in Inline XBRL"
+    ]
+  },
+  {
+    "table": 225,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 77"
+    ]
+  },
+  {
+    "table": 226,
+    "rows": [
+      "",
+      "Table of Contents",
+      ""
+    ]
+  },
+  {
+    "table": 227,
+    "rows": [
+      "",
+      "EAGLE BANCORP,\u00a0INC.",
+      "",
+      "",
+      "",
+      "",
+      "August 6, 2026 | by: | /s/ Stephen R. Curley",
+      "Stephen R. Curley, President and CEO",
+      "",
+      "August 6, 2026 | by: | /s/ Eric R. Newell",
+      "Eric R. Newell, Senior Executive Vice President and Chief Financial Officer of the Company | (Principal Financial and Accounting Officer)",
+      ""
+    ]
+  },
+  {
+    "table": 228,
+    "rows": [
+      "",
+      "Eagle Bancorp, Inc Second Quarter 2026 Form 10-Q | 78"
+    ]
+  }
+]

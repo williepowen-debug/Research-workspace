@@ -1,0 +1,10 @@
+# FROZEN-VINTAGE 2026-10-10 — a one-off 6/30/2026 snapshot by design: the WQ-318 6/30/2026 funding baseline (reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md; Will: "not a recurring study"). Not maintained. A Q3 read writes a NEW vintage file; do not cite these rows as current.
+# Last real data refresh: 2026-10-07 — FFIEC CDR REST/JWT RetrieveFacsimile/SDF, bank-level Call Report, 6 banks x 5 quarters (6/30/25-6/30/26), ALL rows at the FFIEC primary. Written by scripts/wq318_funding_baseline.py.
+# PURPOSE: WQ-318 (DOCKET L527) funding legs on ONE basis. Bank-level Call Report != holdco 10-Q; do not mix. Formulas + MDRMs in the script docstring. Blank = not reported / not derivable (named in `missing`), never 0.
+# Cadence: ONE-OFF baseline for WQ-318 (Will: 'no new recurring study'). Q3 re-read only as part of the WQ-318 observation list grade; not a scheduled refresh.
+Ticker	RSSD	Quarter	filer_form	q_int_dep_K	avg_ib_dep_K	ib_dep_cost_pct	ib_dep_cost_pe_pct	rck_avg_to_pe_ib	nib_K	ib_K	nib_share_pct	dep_dom_K	uninsured_K	uninsured_pct	brokered_K	brokered_pct	reciprocal_K	fhlb_adv_K	other_borr_K	ffp_repo_K	total_liab_K	wholesale_pct	fhlb_pct_liab	missing
+EGBN	2652092	6/30/2025	041		10131471			1.333	1533052	7600423	16.78	9133475	2276135	24.92	3461211	37.9	1283149	50000	50000	23442	9351757	0.79	0.53	-
+EGBN	2652092	9/30/2025	041	79125	10014276	3.13	4.05	1.268	1577476	7895586	16.65	9473062	2310487	24.39	3515609	37.11	1407133	0	0	13725	9624986	0.14	0.0	-
+EGBN	2652092	12/31/2025	041	79598	10489662	3.01	4.05	1.361	1433952	7708348	15.68	9142300	2253203	24.65	3332565	36.45	1730695	0	0	0	9296106	0.0	0.0	-
+EGBN	2652092	3/31/2026	041	66170	9468173	2.83	3.62	1.332	1488860	7107657	17.32	8596517	2214889	25.76	2920081	33.97	1586701	0	0	0	8737400	0.0	0.0	-
+EGBN	2652092	6/30/2026	041	61610	8991194	2.75	3.6	1.358	1578973	6622624	19.25	8201597	2271133	27.69	2618316	31.92	1422956	100000	100000	0	8445545	1.18	1.18	-
