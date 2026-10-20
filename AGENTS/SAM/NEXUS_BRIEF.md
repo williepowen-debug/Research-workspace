@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-20T19:14:57+00:00, Will-directed key-file reconciliation and US-transmission interpretation. **STATUS commit `2b037532d`** (Amendment 11). Folded after final owner-state commit; market observations retain their own source dates.
+**As of:** 2026-10-20T19:22:17+00:00, Will-directed final closeout. **STATUS commit `0055442a8`** (Amendment 11). Folded after final owner-state commit; market observations retain their own source dates.
 
 ## VIEW
 
@@ -44,4 +44,4 @@ No Will ruling needed from this sweep. Watch whether stronger domestic sponsorsh
 | Nov-5 08:50 JST | September BOJ meeting minutes |
 | Approx. Oct-30 / Nov-9 / Nov-13 | MOF monthly / quarterly and FRBNY FX reports, estimated dates |
 
-[STATUS](STATUS.md) · [Key-file reconciliation](reports/2026-10-20_key-file-reconciliation.md) · [Full sweep/source limits](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Pull/push deferred under dirty-owner rule; local commits do not certify recipient consumption.
+[STATUS](STATUS.md) · [Key-file reconciliation](reports/2026-10-20_key-file-reconciliation.md) · [Full sweep/source limits](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Pull remains deferred for dirty peer files. Final closeout uses authorized fast-forward-gated safe push, which does not touch their working files; only its confirmed receipt establishes remote persistence. Neither local nor remote persistence certifies recipient consumption.
