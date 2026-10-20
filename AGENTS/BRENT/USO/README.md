@@ -1,12 +1,14 @@
 # USO — structure, positioning and technical research
 
-Owner: BRENT. Established October 20, 2026 on Will's direct request for a USO-focused subfolder to track structural, technical and related metrics. This extends the existing USO research; supersedes: none. Historical receipts remain at their existing paths.
+Owner: BRENT. Established October 20, 2026 on Will's direct request for a USO-focused subfolder to track structural, technical and related metrics. This extends the existing USO research; supersedes: none. On Will's follow-up request, the original investigation and all supporting files now live inside this folder. The former report path contains a forwarding link.
 
 ## Start here
 
+- [FINDINGS.md](FINDINGS.md): consolidated findings and follow-up analysis from the October 20 discussion.
+
 - [TRACKER.md](TRACKER.md): dated assessment, missing evidence and research questions.
 - [observations.tsv](observations.tsv): dated numerical observations, units, source coverage and limitations. This is the maintained numerical series for this folder; summaries link here rather than maintaining another current-value table.
-- [Initial short-interest investigation](../research/2026-10-20_USO-short-interest/REPORT.md): methodology, primary FINRA row/hash receipts, issuer data and denominator conflicts. Historical report, not a live dashboard.
+- [Initial short-interest investigation](research-2026-10-20-short-interest/REPORT.md): methodology, primary FINRA row/hash receipts, issuer data and denominator conflicts. Historical report, not a live dashboard.
 - [TRADE.md](../TRADE.md): position/approval references; broker/Will remains position truth. TERRY owns trade construction and grading.
 
 ## Coverage and source map

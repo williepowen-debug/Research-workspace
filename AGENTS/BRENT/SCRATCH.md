@@ -3,13 +3,14 @@
 **Handoff:** 2026-10-20T11:10:14-04:00 — Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. Native session ID and verified capabilities: [receipt](audits/2026-10-20_startup/receipt.json). Root/local rules explicitly read. News catch-up now authorized directly by Will; no helper or trade action.
 
 ## CHANGES SINCE LAST SESSION
-- [USO short-interest investigation](research/2026-10-20_USO-short-interest/REPORT.md) COMPLETE on Willrequest. DirectFINRAfourdates/repeatpull and issuerOctober19record saved; latestnetshortcountdeclined. Matchedfloat/market-wideborrowstress/motiveUNKNOWN; dated09:32IBKRsecondaryproxy recovered atreport. No newmonitor/trade/holdinggrade or thesischange.
+- [USO short-interest investigation](USO/research-2026-10-20-short-interest/REPORT.md) COMPLETE on Willrequest. DirectFINRAfourdates/repeatpull and issuerOctober19record saved; latestnetshortcountdeclined. Matchedfloat/market-wideborrowstress/motiveUNKNOWN; dated09:32IBKRsecondaryproxy recovered atreport. No newmonitor/trade/holdinggrade or thesischange.
 - [News catch-up](research/2026-10-20_deal-news/REPORT.md): same-contract crude reverses sharply from morninghigh; anonymous Qatar-Pakistan proposal is not verified signed peace. IEAOct15diesel acceleration and Oct16new-sanction waiver primaryread; older sanctions preserved. Newcurrentdata are scoped, no settled holding/entry grade.
 - Newer routine outputs and broker evidence recovered. Current positions/receipts live only at TRADE; October14 old-call outcome is now resolved against later evidence.
 - COT#10 already graded and consumed by PROME. No duplicate grade. October15 EIA output is saved; owner policy/inventory interpretation and BRT31 price-check remain open.
 - New HENRY December measurement evidence requests adoption/rejection; source-level review not performed in this startup.
 
 ## WHAT I DID THIS SESSION
+- On Will's follow-up, moved the complete USO investigation and 25 supporting/report files into USO/research-2026-10-20-short-interest; saved the discussion's findings, corrections and inferences at USO/FINDINGS.md. Updated evidence links; old report path forwards to the new home. Relocation is not a source refresh.
 - Will directly requested USO-focused structural/technical/metrics tracking. Created [USO](USO/README.md) with a dated tracker and sourced observations series; preserved original research paths. Imported primary receipts and captured subsequent broker/vendor proxy evidence with explicit scope. No autonomous schedule or trade trigger.
 - Reproduced USOposition row and ratio atFINRAprimary; investigated conflictingvendorfloat ratios, recovered issuerdynamicdailyrecord, separated dailyshorttransactions/ETPmechanics. No pendingdecision or secondarypercentage silentlyadopted.
 - Will-authorized news catch-up: recovered originalAl-Araby text, compared contraryReuters/officialremarks, saved quotes/contractmetadata/minutebars and source receipts. IEAannouncement catalyst graded, remainingdeliveryscope retained; no thesisversion/forecast/registeredthreshold change.

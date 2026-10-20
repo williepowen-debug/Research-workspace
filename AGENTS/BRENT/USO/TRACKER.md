@@ -2,6 +2,8 @@
 
 Setup / review date: October 20, 2026. SCOPED-PARTIAL: historical FINRA and issuer receipts imported; dated vendor lending/short-volume observations transcribed from the pages examined in this session. No new live price, option-chain or technical-chart study. Numerical observations live in [observations.tsv](observations.tsv).
 
+The complete initial investigation and its source receipts are now stored under [research-2026-10-20-short-interest](research-2026-10-20-short-interest/REPORT.md). The subsequent discussion is consolidated in [FINDINGS.md](FINDINGS.md). Relocation does not refresh any source observation.
+
 ## Facts and assessment
 
 | Question | Evidence | Assessment / confidence limit |
@@ -32,4 +34,4 @@ These are analytical interpretations, not registered alerts, entry criteria or t
 
 ## Session source receipts
 
-Primary numerical imports: the four `finra-*-USO.json` files and `issuer-dailyprice.json` under [initial research](../research/2026-10-20_USO-short-interest/REPORT.md). Vendor additions were read at [borrow history](https://chartexchange.com/symbol/nyse-uso/borrow-fee/) and [short volume](https://chartexchange.com/symbol/nyse-uso/short-volume/); transcribed rows are preserved in this folder's observations file, not claimed as raw primary files. Conflicting stale search snippets were excluded. October 19 short-volume primary retrieval was blocked; the vendor comparison remains provisional. No paid lending feed or current technical/options dataset was required to create the folder.
+Primary numerical imports: the four `finra-*-USO.json` files and `issuer-dailyprice.json` under [initial research](research-2026-10-20-short-interest/REPORT.md). Vendor additions were read at [borrow history](https://chartexchange.com/symbol/nyse-uso/borrow-fee/) and [short volume](https://chartexchange.com/symbol/nyse-uso/short-volume/); transcribed rows are preserved in this folder's observations file, not claimed as raw primary files. Conflicting stale search snippets were excluded. October 19 short-volume primary retrieval was blocked; the vendor comparison remains provisional. No paid lending feed or current technical/options dataset was required to create the folder.
