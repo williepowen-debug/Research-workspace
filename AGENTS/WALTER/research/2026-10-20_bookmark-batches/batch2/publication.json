@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-20T15:43:03Z",
+  "fresh_fetch": true,
+  "origin": "56983b88442446529ca7350a8f926bcf08dd34e2",
+  "commits": {
+    "70b8667a7": "published",
+    "e6fa499f4": "pending"
+  },
+  "recipient_consumption": "UNKNOWN"
+}

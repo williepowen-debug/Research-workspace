@@ -12,7 +12,7 @@ Final workflow/test downgrade correction23d8dbead; independent review/probes/has
 
 ## RESULT
 
-**Current batch receipt:** research/2026-10-20_bookmark-batches/batch2/RESULT.md and parent BATCH-PLAN.json. BM-20261020-02 CLOSED7/7contentitems (sixbookmarks):4DISPATCH/2FOLD/1NO-ACTION.004Patriotpending-consent/HAWK;005Koreaconditionalpolicy/HENRY;006Pepsi+QCOMqualifiedannouncements/LABOR;007HSBC+independentcontractmodel/VULCAN+LIQUID. IndiachartNO-ACTIONafterimageinspection. Fullmodeltext/allfourimagesread,selectedreferenceIRRreproduced;notvalidatedactualcontracts. Cumulative12of96dispositioned;84untriaged;9fullyread/3partlyreadwithfollow-ups. No production scan/mark/stage edit; one read-only single-postdetailGET200. Seen870unchanged. Newrouteslocal;publication/consumptionUNKNOWN. LIGHT routing; accumulatedfull-narrativedeferraldebt surfaced,notcleared. MissingoptionalCROSS_REFSforeachrouteddesk documented inSOURCE-READS; tables/carveouts/owner evidence used. No ownerlaunch/backgroundjob.
+**Current batch receipt:** research/2026-10-20_bookmark-batches/batch2/RESULT.md and parent BATCH-PLAN.json. BM-20261020-02 CLOSED7/7contentitems (sixbookmarks):4DISPATCH/2FOLD/1NO-ACTION.004Patriotpending-consent/HAWK;005Koreaconditionalpolicy/HENRY;006Pepsi+QCOMqualifiedannouncements/LABOR;007HSBC+independentcontractmodel/VULCAN+LIQUID. IndiachartNO-ACTIONafterimageinspection. Fullmodeltext/allfourimagesread,selectedreferenceIRRreproduced;notvalidatedactualcontracts. Cumulative12of96dispositioned;84untriaged;9fullyread/3partlyreadwithfollow-ups. No production scan/mark/stage edit; one read-only single-postdetailGET200. Seen870unchanged. Batch2routeslocal/pendingpublication; batch1noworiginproven. AllrecipientconsumptionUNKNOWN. LIGHT routing; accumulatedfull-narrativedeferraldebt surfaced,notcleared. MissingCROSS_REFSforeachrouteddesk documented inSOURCE-READS; tables/carveouts/owner evidence used. No ownerlaunch/backgroundjob.
 
 **New inbound carry:** SAM's October20Japan-sweeppacket read in full; integration/anynecessarycorrectiondispatch not yet complete. Packet remains NEW, no consumption declared. Owner work is currently dirty; preserve its dated20Yauction,Septembersectorflows,Fukokuplan/Uedabasis distinctions. Do not repeat stale ongoingFukoku30Yexit as fact. Source-reportreadpartial; no new grade or aggregatecarry-unwind conclusion. Finish this after the bounded batch; previous generalboot/financing/threshold/READS duties survive.
 
@@ -90,12 +90,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Light routing closeout of bookmark batch2. Twelve cumulative bookmark dispositions saved;84untriaged;0production marks,94real stage intact. Seven BOARD signals/twenty handoffs locally written;publication deferred with foreign SAM/REGINALD work. Batch1commit70b8667a7local,notoriginproven. Code acceptance remains published. Three current verification helpers closed;no background work. Prior/full-deferred/generalboot/source/financing duties preserved. Selected checks are not general procedure clearance.
+Light routing closeout of bookmark batch2. Twelve cumulative bookmark dispositions saved;84untriaged;0production marks,94real stage intact. Seven BOARD signals/twenty handoffs written;8batch1deliveries origin-proven,12batch2deliveries pending publication with foreign SAM/REGINALD work. Batch1commit70b8667a7originproven after freshfetch;8of20handoffs delivered. Batch2e6fa499f4pendingpublication. Code acceptance remains published. Three current verification helpers closed;no background work. Prior/full-deferred/generalboot/source/financing duties preserved. Selected checks are not general procedure clearance.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-20T15:41:25Z",
+  "as_of": "2026-10-20T15:43:03Z",
   "next_review": "2026-10-21",
   "publication": [
     {
@@ -112,14 +112,18 @@ Light routing closeout of bookmark batch2. Twelve cumulative bookmark dispositio
     },
     {
       "commit": "70b8667a7",
+      "state": "published"
+    },
+    {
+      "commit": "e6fa499f4",
       "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261020",
     "total": 20,
-    "delivered": 0,
-    "note": "Twenty handoffs for BOARD001\u2013007 locally written; publication deferred for foreign SAM/REGINALD work; consumption UNKNOWN."
+    "delivered": 8,
+    "note": "Freshfetchorigin56983b88442446529ca7350a8f926bcf08dd34e2provesbatch1eightdeliveries; batch2twelvehandoffs pending. RecipientconsumptionUNKNOWN."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -178,7 +182,7 @@ Light routing closeout of bookmark batch2. Twelve cumulative bookmark dispositio
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/RESULT.md",
-        "sha256": "61036ccc34177d369028c51145d2cb81c135c88fc15b2adf0374a629ac89fd59"
+        "sha256": "1999d70a62d4ffb8ab2edd815d558a50b0de2882314cf2472351fe8bc6ae1889"
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/SOURCE-READS.md",
@@ -199,6 +203,10 @@ Light routing closeout of bookmark batch2. Twelve cumulative bookmark dispositio
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
         "sha256": "828844a7bb69c317a33767e569483ebfda1f2255827930e58eb64148e7913921"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/publication.json",
+        "sha256": "a4a72ebe14794336286ed11d150a905b02ea569ec65f5e39cc372f3fc797af22"
       }
     ]
   },
@@ -214,7 +222,7 @@ Light routing closeout of bookmark batch2. Twelve cumulative bookmark dispositio
     "helpers": "three bounded verifiers explicitlyclosed; no ownerdesklaunch/backgroundwork",
     "7h": "12reviewentries,82null in exact94stage; no production scan/mark; single-post full-text GET200 for truncated source;2tail IDs await real resumption",
     "root.retirement": "prior receipt archived here verbatim; no source deletions; no claim of full historical source retirement",
-    "16": "batch1commit70b8667a7local; batch2exact-pathcommitpending; foreignSAM/REGINALD work blocks pull/sync; no consumption inferred",
+    "16": "Batch1commit70b8667a7publishedbyBRENTtrain;batch2e6fa499f4exact-pathcommitted/pendingpublication. Receipt reconciliation after freshfetch; foreignwork untouched.",
     "ledgers": "route/delivery/BATCH eventsupdated; killnoevent;REGISTRYnoownership/gradechange; source-only framing corrections create no prior-WALTER correction event; general clocks retained",
     "14": "sessionnote updated; no auto-memory;99lines",
     "basis": "generalboot/READS/threshold/fullnarrative gaps retained; missingrouteCROSS_REFSdocumented; no attestation renewed",
