@@ -1,22 +1,22 @@
-# WALTER LAST_COMPLETION — bookmark binding repair 2026-10-20
+# WALTER LAST_COMPLETION — independent bookmark acceptance and live technical check
 
-Updated 2026-10-20T14:55:35Z. Will-launched Codex/OpenAI, GPT-6 family, exact variant UNKNOWN; session01a159bd-f630-7e51-891e-183785fc0f61. Root/desk reads and capability gaps: research/2026-10-20_startup-recovery/BOOT-RECEIPT.md. General boot remains PARTIAL; this is a bounded repair touch.
+Updated 2026-10-20T15:14:55Z. Will-launched Codex/OpenAI, GPT-6 family, exact variant UNKNOWN; session01a159bd-f630-7e51-891e-183785fc0f61. User explicitly requested independent review, coordinated publication and one supervised live run; WQ458 separate. General boot remains PARTIAL. Predecessor receipt preserved verbatim in research/2026-10-20_bookmark-live-acceptance/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Bookmark binding repair implemented and author-tested65/65 in commit0c9de1e41. Independent repair acceptance and live pagination confirmation PENDING. No live bookmark scan/mark or pilot renewal. Previous evening contribution remains complete; approved financing investigation remains unfinished.
+Independent acceptance COMPLETE for final code23d8dbead,67tests/sixprobes. Accepted code PUBLISHED (fresh-fetch ancestor proof). Live production fetch/isolated copied-state mark/authenticated resumption passed.96discovered bookmarks still unreviewed;0production marks. Bounded technical check complete; normal source-consumption and existing general duties remain unfinished.
 
 ## CHANGED
 
-tools/x_bookmarks_workflow.py, x_bookmarks_scan.py, test_x_bookmarks_workflow.py; owning acceptance implementation note and operator guide; research/2026-10-20_bookmark-binding evidence; today's profile-auth receipt; continuity and exact incoming review-packet integration. No new BOARD signal, market pull, threshold, trade or unattended job.
+Final workflow/test downgrade correction23d8dbead; independent review/probes/hash-bound evidence, live fetch/copied-state receipts, pending-ID stage/fetched receipt, owning acceptance note/dependent guide, continuity and result packet. No BOARD dispatch/kill/market-grade event. One user-requested read-only review helper explicitly closed; no remaining helper/background work.
 
 ## RESULT
 
-Separate cursor proposal binds exact ordered IDs, timestamp and unique stage identity. New reviews also bind stage identity; marking consumes one validated staged snapshot. Damaged or unbound continuation stages refuse before seen/cursor writes and require a fresh authorized scan. Original501-ID counterexample reproduced before repair, then refused and all501IDs recovered after re-scan.65offline tests pass (33workflow/32base); original57plus8new cases. Real authentication earlier today401→automatic refresh→200; no browser reauthorization needed. File hashes and full test logs in research/2026-10-20_bookmark-binding/verification.json. Independent acceptance not claimed.
+Reviewed exact-ID binding plus metadata-loss recovery:67offline tests and six independent adversarial probes pass. First500-row live segment recovered94unprocessed IDs and correctly reported incomplete. Copied-state honest unread review/mark succeeded; real authenticated cursor resumption found2more and reached returned tail. Byte hashes prove production seen/stage/proposal unchanged by copied-state check; actual870consumed unchanged. Last headcheck15:10:35Z; resumedtail15:11:52Z,notfreshhead. This is technical acceptance, not completed source research. Code23d8dbead and earlier repair0c9de1e41/recordb1eaec4a2 proven on fetched origin/mastera4d7e79fe. No reauthorization needed. Full evidence research/2026-10-20_bookmark-live-acceptance/RESULT.md.
 
 ## GAPS / OWED
 
-- **Bookmark repair acceptance:** original defect repaired in0c9de1e41;65offline tests pass. PROME review packet identifies exact code/evidence for independent acceptance. Live pagination confirmation and WQ458 continuation remain separate and unresolved. No live scan/mark; auth refreshed successfully today. Incoming defect packet integrated into implementation/tests and filed; filing does not certify independent acceptance.
+- **Bookmark source backlog / production completion:** independent code acceptance and code publication are COMPLETE for23d8dbead. Live technical fetch/review-schema/isolated-mark/authenticated-resume checks passed.96IDs discovered remain UNREVIEWED (94in real pending stage;2from isolated live resume). Production seen870 unchanged,0production marks; normal source review/routing/disposition and production mark/resume remain owed. Never use isolated-smoke-review.json against real pending. Complete remote traversal on copied state is not production consumption or a changing-list snapshot. WQ458 remains separate/unresolved; today's bounded acceptance run has direct user authorization.
 
 - **Current financing attribution:** primaryfourunmatched;datedissuercreditpanel,currentcash/draw/covenant/fullobligation/newsclockgaps. Initial HENRY/LIQUID/CRUISE/WAL/VIOLET contribution dependencies delivered/read; no waiting-on-shortlist blocker. Science remains partial,not backgroundexecution.
 
@@ -27,7 +27,7 @@ Separate cursor proposal binds exact ordered IDs, timestamp and unique stage ide
 - General boot PARTIAL: October12 READS attestation stale; six changed dependencies at startup, scanner changed again during this repair. Whole ORCH_INFLIGHT read today; full owner context, fresh threshold/Cushing/BOARD/context execution and re-enumeration/attestation remain owed. Byte checks/doctor do not certify execution; see startup receipt. No hashes/attestation renewed without operational review.
 - Currentnews/sourcecoverageisbounded:officialsettlements,fullCREEDproperty/event/cohortandHANSqualitativeeventperimeter/finalclosesequencesincomplete;HANS-T12UNINSTRUMENTED,T15(b)unresolved. NBS/Reuterssubstantivetextrecoveredinsearchresponses,directopensfailed;ownercounterpartyfilingsnotallindependentlyreaudited. No freshIranfullsweep/all-clear;next~10/22.
 - Intake lane pulled to72201e8 today; last_runOctober19T20:20:29Z, one missed weekday, newsweep degraded. Nine NEW scanner groups await body review/disposition (one contains11NEW_WATCH items); no mark/dispatch inferred. Phone inbox absent normal, dropzone0. Previous direct Cushing fallback is dated evidence, not today's6c execution.
-- Startup main pull was up to date before foreign dirty work appeared. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. During repair foreign TERRY/BRENT work is dirty: no pull/stash/rebase/push. No verified independent-terminal PROME discovery/messaging or fleet census; presence UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
+- Startup main pull was up to date before foreign dirty work appeared. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. Initial foreign TERRY/BRENT work was untouched. Native codex queue now verified for the exact BRENT peer; limited Codex discovery plus native session metadata identified its thread, not a cross-runtime fleet census. Accepted code was carried by BRENT publication. Foreign PROME files are now dirty, so WALTER defers its own push; no foreign pull/stash/rebase. PROME cross-runtime presence/transport remains UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
 - FourOTTOqueueitemsaredischargedforWALTERsourcevalidation/routing;actualAlly10/20,CATOindependentOR1closure,THESISv1.610/30andrecipientconsumptionremainownerwork.
 
 ## WILL_NEEDS
@@ -40,9 +40,9 @@ None newlycreated. ExistingWQ458bookmarkcontinuationdecisionremainsregisteredwit
 
 **Current execution:** namedhistoryandboundedfinancialcomparisoncomplete;allhelpersclosed,nounattendedjob. Broaderrepresentativestudyunfinishedunderexistingapproval;nonewpermissionneeded. Next evidencereviewOctober20/existingownerwindows;no monitorinstalled.
 
-Existing approval remains Will’s “Okay approved go ahead and begin these.” Broader financing attribution is unfinished; initial owner screens and bounded evening integration are complete. Bookmark implementation history is rotated verbatim to SESSION_LOG; the binding repair is implemented; independent acceptance and live-test/WQ458 limits remain live above.
+Existing approval remains Will’s “Okay approved go ahead and begin these.” Broader financing attribution is unfinished; initial owner screens and bounded evening integration are complete. Bookmark implementation history is rotated verbatim to SESSION_LOG; the binding repair is implemented; independent acceptance/code publication are complete; production source-consumption and WQ458 limits remain live above.
 
-1. PROME consumes the October20 binding-repair result packet and coordinates independent review of commit0c9de1e41 and verification.json before an independently-verified/live-use claim; then the first authorized human-watched live check. L599/WQ458 and L728 receipt ownership remain with PROME. Will’s direct FULL closeout ask received and answered in this terminal; PROME consumption/native transport remains unverified. No digest or final-touch receipt inferred.
+1. Current bookmark acceptance result is research/2026-10-20_bookmark-live-acceptance/RESULT.md; independent review helper explicitly closed. WALTER reviews the94real staged sources before any production mark, then resumes the real cursor for2known tail IDs and checks a fresh head as authorized. WQ458/L599/L728 ownership stays with PROME; no pilot renewal inferred. PROME consumes the new accepted-result packet; native acceptance/consumption not inferred.
 2. RED/REGINALD apply their published3/3 entry consequences with REGINALD bank attribution separate; LIQUID's current MET rung retains X1 CLOSED/DON'T-SIZE. TERRY existing card request is BOARD003, not approval to size.
 3. GIBBS existing lane used by001: FITB published10/19 morning,09:00ETcall; PROME corrects oldL704AMC wording and integrates bank comparison/NDFI withBROCK. No new GIBBS launch here.
 4. FALCON/BRENT existing owner lanes for005; full Iran sweep due~10/22, no clock reset. CapeDao/GFS PRIDE and asset census remain owner work; no '$136physical','USaskedpermission' or 'Straitclosed' carried as fact. OSPREY terminal003Sunday; L661read2HOLD10/23.
@@ -86,20 +86,24 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Light closeout of bounded bookmark repair; full narrative/registry refresh deferred. Code0c9de1e41 locally committed; startup5acb77c1e now origin-proven by local fetched ref. WALTER push deferred under coordinated-push rule and foreign dirty work; no recipient consumption inferred. No new dispatches/delivery rows. Light checks: versions/archives/read-cap/weekday pass; ledger-nudge REVIEW retained (no new market/fire/kill event in bounded software repair). Boot-basis review remains open for changed dependencies, no attestation renewal. Incoming defect packet integrated; independent review and live verification remain pending. Prior closeout preserved verbatim in research/2026-10-20_bookmark-binding/prior-LAST_COMPLETION.md. Selected checks cannot certify general boot.
+Light closeout of bounded independent/live technical acceptance. Code publication proven; current result records locally prepared.0production marks;94real pending plus2tail IDs remain unreviewed.67tests/sixindependentprobes, reviewer closed; no background work. Prior/full-deferred/generalboot/source/financing duties preserved. Foreign PROME files dirty; do not sweep/pull/stash/push them. Selected checks are not general procedure clearance.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-20T14:55:35Z",
+  "as_of": "2026-10-20T15:14:55Z",
   "next_review": "2026-10-21",
   "publication": [
     {
-      "commit": "0c9de1e41",
-      "state": "pending"
+      "commit": "23d8dbead",
+      "state": "published"
     },
     {
-      "commit": "5acb77c1e",
+      "commit": "0c9de1e41",
+      "state": "published"
+    },
+    {
+      "commit": "b1eaec4a2",
       "state": "published"
     }
   ],
@@ -107,18 +111,38 @@ Light closeout of bounded bookmark repair; full narrative/registry refresh defer
     "signal_date": "20261020",
     "total": 0,
     "delivered": 0,
-    "note": "No new dispatches; October19 publication proved, consumption not inferred."
+    "note": "No new market dispatches in bounded technical acceptance; no source/recipient consumption inferred."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/RESULT.md",
-        "sha256": "51aa057c6332350de2604c99a7c07f19315fe39937099c25dc1ae5eefb1646e9"
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/RESULT.md",
+        "sha256": "282e6e2af626c99013da9717a619b46d4f009531427bd46e35c58b3139595749"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/verification.json",
-        "sha256": "8cc7fa8cc6a8818252fe212b40fefe5be53220a85a9e298041502bc361c4802d"
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/INDEPENDENT-REVIEW.md",
+        "sha256": "e6a7f2dcd7b781966e75308a5ec4aaff6dd9873883e274784bd9880c60ffbf89"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/accepted-version.json",
+        "sha256": "4cd7c905dfaad48440175c2293ebd504f207aa97c90a3018506cd3b5b63f8665"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/publication.json",
+        "sha256": "be9dae19ab7eb9df486639df60fa464ebc67896f14f9a521b114179b7fbd37a4"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/live-scan-1.json",
+        "sha256": "1253157ae942fe38ef130e5db3da2deb73fff11827ebab1f2572b4a642787357"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/live-mark-resume-smoke.json",
+        "sha256": "28cfe39a10d9d8f7bb99b10a9bbe21c98214738481bc1d9a52372d1290b206b4"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/UNREVIEWED-BACKLOG.json",
+        "sha256": "5f23342e9a6f2615feb4af9e1b313d59a1132dd8b2041c18d2148046c5cb8691"
       }
     ]
   },
@@ -126,17 +150,18 @@ Light closeout of bounded bookmark repair; full narrative/registry refresh defer
     "tier": "light",
     "boot": "PARTIAL",
     "owner": "WILL",
-    "ask": "Can we handle/fix that now?",
-    "closeout": "bounded bookmark binding repair; general desk duties retained"
+    "ask": "independent review, coordinated publication, one supervised live run; WQ458 separate",
+    "closeout": "bounded technical checks complete; production content backlog retained"
   },
   "manual_duties": {
-    "Tier1": "affected status/current duties updated; no market-clearance claim",
-    "7g": "one whole defect packet integrated and filed; independent repair acceptance pending",
-    "root.retirement": "bounded review retained prior receipt for audit; no old sources retired",
-    "16": "exact paths; foreign dirty work defers publication",
-    "14": "bookmark session note corrected; no new auto-memory",
-    "helpers": "none launched; no background execution",
-    "tests": "65 author offline tests, independent/live pending"
+    "Tier1": "affected STATUS/LAST/MEMORY updated; no new market observations",
+    "helpers": "one review helper, first-pass blocker then accepted re-review; explicit closeout received",
+    "7h": "normal live fetch94pending; copied-state mark94unread/live-resume2tail; production0marks",
+    "root.retirement": "prior receipt/evidence retained for acceptance audit; no old source deletions",
+    "16": "codepublished by coordinated train; current result packet publication separate/foreign PROME dirt",
+    "ledgers": "no market dispatch/kill/fire/correction/batch-triage event manufactured; raw technical ID test not content disposition",
+    "14": "sessionnote updated; no auto-memory;99lines",
+    "basis": "existing READS/bootbasis review gaps retained; byte checks do not certify general boot"
   }
 }
 END_CLOSEOUT_RECEIPT -->

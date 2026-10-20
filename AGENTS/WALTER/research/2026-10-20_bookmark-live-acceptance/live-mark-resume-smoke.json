@@ -1,0 +1,78 @@
+{
+  "started_at": "2026-10-20T15:11:48.672848+00:00",
+  "scope": "real staged-ID mark on isolated copied state, followed by authenticated live cursor resumption; no production consumption",
+  "production_before": {
+    "x_bookmarks_seen.json": "264c1fd2b76723d21a1cf4aae451acd08504b03a826f4f7ca114a7a86dabc316",
+    "x_bookmarks_pending.json": "d5d1145d0fa5eada187ee7ad694cca1dfe0ac51fd396611c7c926510d521bbf7",
+    "x_bookmarks_next_token.json": "094fffd249c7cb3317a2d6fe080d0aa9a28718774c955075191ca92aca5c5172",
+    "x_bookmarks_scan_token.json": null
+  },
+  "initial_production_unreviewed": 94,
+  "production_marks": 0,
+  "runs": [
+    {
+      "run": 1,
+      "kind": "authenticated live resume of copied checkpoint",
+      "started_at": "2026-10-20T15:11:48.686581+00:00",
+      "rc": 0,
+      "finished_at": "2026-10-20T15:11:52.060865+00:00",
+      "receipt": {
+        "kind": "fetched",
+        "checked_at": "2026-10-20T15:11:52Z",
+        "items": 2,
+        "scan": {
+          "checked_at": "2026-10-20T15:11:52Z",
+          "head_checked_at": "2026-10-20T15:10:35Z",
+          "head_checked_this_run": false,
+          "incomplete": false,
+          "attempts": 10
+        },
+        "review_recorded": false
+      },
+      "pending_count": 2,
+      "pending_ids": [
+        "2098425574377107724",
+        "2068355013886222500"
+      ]
+    }
+  ],
+  "isolated_mark_rc": 0,
+  "isolated_mark_receipt": {
+    "kind": "marked",
+    "checked_at": "2026-10-20T15:11:48Z",
+    "items": 94,
+    "scan": {
+      "checked_at": "2026-10-20T15:10:38Z",
+      "head_checked_at": "2026-10-20T15:10:35Z",
+      "head_checked_this_run": true,
+      "incomplete": true,
+      "attempts": 10
+    },
+    "review_recorded": true,
+    "read_counts": {
+      "unread": 94
+    },
+    "dispositions": {
+      "NO-ACTION": 94
+    },
+    "requests": []
+  },
+  "production_after": {
+    "x_bookmarks_seen.json": "264c1fd2b76723d21a1cf4aae451acd08504b03a826f4f7ca114a7a86dabc316",
+    "x_bookmarks_pending.json": "d5d1145d0fa5eada187ee7ad694cca1dfe0ac51fd396611c7c926510d521bbf7",
+    "x_bookmarks_next_token.json": "094fffd249c7cb3317a2d6fe080d0aa9a28718774c955075191ca92aca5c5172",
+    "x_bookmarks_scan_token.json": null
+  },
+  "production_unchanged": true,
+  "finished_at": "2026-10-20T15:11:52.062298+00:00",
+  "isolated_receipt_counts": {
+    "items": 94,
+    "review_recorded": true,
+    "read_counts": {
+      "unread": 94
+    },
+    "dispositions": {
+      "NO-ACTION": 94
+    }
+  }
+}

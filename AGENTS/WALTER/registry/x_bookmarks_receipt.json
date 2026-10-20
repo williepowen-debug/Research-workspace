@@ -1,0 +1,13 @@
+{
+  "kind": "fetched",
+  "checked_at": "2026-10-20T15:10:38Z",
+  "items": 94,
+  "scan": {
+    "checked_at": "2026-10-20T15:10:38Z",
+    "head_checked_at": "2026-10-20T15:10:35Z",
+    "head_checked_this_run": true,
+    "incomplete": true,
+    "attempts": 10
+  },
+  "review_recorded": false
+}

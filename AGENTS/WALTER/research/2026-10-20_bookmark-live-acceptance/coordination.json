@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-20T15:12:05.422318+00:00",
+  "owner": "WALTER",
+  "user_authorization": "Independent review, coordinated publication, one supervised live run; WQ458 separate",
+  "review_helper": "/root/bookmark_binding_review",
+  "reviewer_closeout": "explicit final receipt received; no remaining assignment",
+  "brent": {
+    "thread": "01a159be-1572-7be1-a965-f6f6e9854c4b",
+    "discovery": "supported codex agents UI showed BRENT cwd; matching native session index/header supplied exact thread identity; cross-runtime/fleet absence not established",
+    "transport": "codex queue --thread --message",
+    "queue_receipt": "01a159dc-ddfd-7cb0-b103-bdf54b3c11ca",
+    "state": "queued accepted; owner reply/consumption unverified",
+    "purpose": "Finish/persist own dirty paths before shared publication; no foreign edits or new research task"
+  }
+}

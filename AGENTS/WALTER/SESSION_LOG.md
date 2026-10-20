@@ -1,3 +1,7 @@
+## 2026-10-20T15:14:55Z — light-closeout — full deferred — independent bookmark acceptance/live technical check
+
+Will explicitly authorized review/publication/supervisedlivecheck. One read-only helper found/rechecked metadata-loss downgrade; final23d8dbeadaccepted67tests/sixprobes,explicitlyclosed. Codeoriginproven after coordinatedBRENTtrain. Realfetch94pending/copiedstateunreadmark/livecursorresume2tail;productionunchanged,96unreviewed,0productionmarks. WQ458separate;currentdutiesLAST_COMPLETION. No source-triage batch,market signal,kill,grade,trade or unattended work. Specs: acceptanceimplementationstatus+guideclarification only; no new scope/threshold. PriorLASTpreservedverbatim in research/2026-10-20_bookmark-live-acceptance/prior-LAST_COMPLETION.md.
+
 ## 2026-10-20T14:55:35Z — light-closeout — full deferred — bookmark binding repair
 
 Will explicitly authorized repair; exact-ID/stage binding implemented,65offline tests pass, no live scan/mark. Code/evidence0c9de1e41; independent acceptance/live check and WQ458 unresolved. GeneralbootPARTIAL; foreign dirty work defers publication. Current duties LAST_COMPLETION.md. No helpers/background job. Spec changes: acceptance§10implementation note and workflow schema2explanation; no contract/threshold/scope change. Prior complete LAST preserved verbatim in research/2026-10-20_bookmark-binding/prior-LAST_COMPLETION.md.
