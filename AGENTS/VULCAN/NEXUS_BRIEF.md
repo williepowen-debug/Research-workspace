@@ -2,7 +2,7 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**; one fired channel, **two S5 events** after Will's WQ-441 B selection/retention. Separate4→5proposal pending; no score or capital permission inferred.
 **Domain:** AI-capex / semiconductor / memory systemic transmission, S1–S5; shared AI-demand root counted once.
-**As of:** 2026-10-20T15:12:45-04:00 | **STATUS commit:** 2a3640f09
+**As of:** 2026-10-20T16:40:47-04:00 | **STATUS commit:** 72c6ebc03
 **Variant:** FULL. Research/state c6669e4f3; routed packets8825402cd. SOURCE/BASIS: report under reports/2026-10-20_catchup/. Native cross-fleet transport unavailable; receipt/consumption unverified.
 
 **Research navigation:** [CoreWeave library](CRWV/README.md) now consolidates 79 documents, seven data files and six ledger extracts as frozen reference copies. Original source paths and desk ownership remain authoritative; this organization update changes no score or research vintage.
@@ -10,6 +10,8 @@
 **CRWV synthesis:** [Financing and shareholder risk](CRWV/2026-10-20_analysis.md), KB-246/247: most June30 net debt recourse; deployment/acceptance and principal amortization can interact. Historical balances are not October runway. Parent/project cash bridge and valuation remain incomplete. Interest-loss shorthand qualified; five company falsifiers, scores and capital permissions unchanged.
 
 **Organization implemented:** [CRWV entry point](CRWV/README.md):20 company rows at CRWV/KB.tsv,227 broader rows at workbook/KB_GENERAL.tsv; workbook/KB.tsv is a generated247-row compatibility view. All IDs/fields preserved,53 regressions passed. Correction map and48-entry topic catalogue retain86 source aliases/copies. Schema/boot/closeout enforce both authorities and reject duplicate IDs/stale views. No market refresh or rule/score/capital change. Main implementation2a3640f09.
+
+**Boot audit October20 afternoon:** [Findings](reports/2026-10-20_boot-audit.md),72c6ebc03. WQ-464 OPEN (PROME recommends retaining S5=4/n=2); four intake packets assessed without market grade. GOOGL failure reproduced offline; boot silently skips failed backtests despite fresh collection. Charter/navigation and Oracle event-title debts remain; two modeled NVDA filing dates need reconciliation. CRWV authority/view and immutable archive checks pass. No live prices refreshed.
 
 ## CROSS-DOMAIN
 
@@ -24,7 +26,7 @@
 | CARL | Memory contract forecast stillpositive: DRAM+10–15%,NAND+15–20%4Q[9/30]. Equities/phones do not independently trip the contract rule. S2equity leading indicator retired after VULCAN-11FALSIFIED; contractual ceilings exist, margin effect unmeasured. | KB-186..188/230; Octoberforecastarchive |
 | ZHAO / HAWK | October20ZHAOowner re-check retains bothNovember10BIS/MOFCOMclocks; TariffCommission502andMOFCOM45/47missing remain blind spots. TSMCcumJan–Sep+41.1%,not newstress. No entity/BOMmap claimed. Bounded helium follow-through carries no new sectorwidefire; reportKB-236. | KB-239; ownercommitdaf16d62c |
 | BOND | Selected SEC-primary MetaMay$25B/14B20yr+andAmazonJuly$25B/9B20yr+are bounded source rows. Annual same-basis inventory andIGtenor denominator incomplete; no rates-causal or AI-only allocation claim. | ISSUANCE.md; KB-245 |
-| NEXUS / PROME | Scores15/25unchanged; two financing events are one fired channel. WQ-441B recorded2bb3f6474; retrospective choice preserves originalA NOTRED/no forecastHIT. Separate score proposal and concrete charter-slim candidate routed, not approved/applied. | STATUS; packets8825402cd |
+| NEXUS / PROME | Scores15/25unchanged; two financing events are one fired channel. WQ-441B recorded2bb3f6474; retrospective choice preserves originalA NOTRED/no forecastHIT. Separate score proposal registered WQ-464; concrete charter-slim candidate routed, not approved/applied and requires CRWV migration reconciliation. | STATUS; packets8825402cd |
 | DAEDALUS / WALTER | Date validator41/41;18intakefilesprocessed; fourforecastrows conserved; thesis history split. Structured/date-only census16registers+10calendars yields100/437date matches,51nonpointrowsseparate. This does not establish transport or fleetwidecoverage/absence. | KB-231..245; report/replays |
 
 ## VIEW
