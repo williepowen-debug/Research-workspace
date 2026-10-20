@@ -43,3 +43,10 @@ reads: 1 (CATO, independent, result read with fresh counterexamples; Will-direct
   - **Regression:** `test_symmetry_registration_2026-10-20.py`, 8 cases. They include CATO's row-only removal, the wrong-owner same basename, a comment mention, and the one-way path both ways.
 - **CM2 (LOW) — fixed.** The SPAWN_SLATE one-way note now says the gate writes it at boot and at closeout.
 - **State:** CM1/CM2 IMPLEMENTED · TESTED. The **two-correction stop has tripped on `prome_gate.py` this session**, so any further correction needs an independent read. CATO's re-review of the changed repair is the next read, on Will's direction.
+
+## CATO read 2 — result of the CM1/CM2 repair (f07dfbc71, `PROME/inbox/2026-10-20_from-CATO_symmetry-result-and-backlog-plan-review.md`)
+reads: 2. CM1 and CM2 are ACCEPTED within the current document format. 8 tests pass under ResourceWarning-as-error. **INDEPENDENTLY VERIFIED** within that scope.
+**Declared residue (not fixed, disclosed):**
+- **CM3:** a table row inside a fenced code example or a multiline HTML comment still counts as a registration. No such hidden row exists in the live symmetry section. It is deferred as lower-impact, and a fix needs a third read inside this episode's budget.
+- The regression tests read the live documents, which is a maintenance limitation.
+- `scripts/docket_view.py` help text still shows historical `--write PROME/SCRATCH.md` examples. That tool is SHARED; fix it at an authorized shared-tool touch.
