@@ -2,10 +2,12 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**; one fired channel, **two S5 events** after Will's WQ-441 B selection/retention. Separate4→5proposal pending; no score or capital permission inferred.
 **Domain:** AI-capex / semiconductor / memory systemic transmission, S1–S5; shared AI-demand root counted once.
-**As of:** 2026-10-20T14:09:35-04:00 | **STATUS commit:** 996406862
+**As of:** 2026-10-20T14:44:27-04:00 | **STATUS commit:** 8bead407a
 **Variant:** FULL. Research/state c6669e4f3; routed packets8825402cd. SOURCE/BASIS: report under reports/2026-10-20_catchup/. Native cross-fleet transport unavailable; receipt/consumption unverified.
 
 **Research navigation:** [CoreWeave library](CRWV/README.md) now consolidates 79 documents, seven data files and six ledger extracts as frozen reference copies. Original source paths and desk ownership remain authoritative; this organization update changes no score or research vintage.
+
+**CRWV synthesis:** [Financing and shareholder risk](CRWV/2026-10-20_analysis.md), KB-246/247: most June30 net debt recourse; deployment/acceptance and principal amortization can interact. Historical balances are not October runway. Parent/project cash bridge and valuation remain incomplete. Interest-loss shorthand qualified; five company falsifiers, scores and capital permissions unchanged.
 
 ## CROSS-DOMAIN
 
