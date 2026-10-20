@@ -1,4 +1,9 @@
-> # ⛔ 2026-10-20T15:10:59-04:00 — READ THIS BLOCK FIRST. Will authorized CRWV organization implementation.
+> # ⛔ 2026-10-20T16:40:07-04:00 — READ THIS BLOCK FIRST. Will-requested boot audit.
+> ▶ START HERE: `reports/2026-10-20_boot-audit.md`. WQ-441 already ruled; separate score decision WQ-464 registered, pending. Scores15/25 unchanged. Next clocks META10/21 and10/23readings/residuals.
+> Reproduced GOOGL backtest FAIL; boot silently skips failed window. Documentation debts:79,420Bcharter/old slim candidate, stale charter/navigation, Oracle disclosure-date title, two modeledNVDA dates. PROME owns overdue summons fix.
+> Four intake packets assessed; no new financial grade. CRWV KB/view and immutable library checks PASS. Codex session01a15b07-d0aa-7430-8336-732a3a6071c9; modelUNKNOWN; cross-runtime presence/notification UNKNOWN. No pull with other desks dirty; final persistence receipt follows separately.
+
+> # ⛔ 2026-10-20T15:10:59-04:00 — superseded resume block. Will authorized CRWV organization implementation.
 > ▶ START HERE: `CRWV/README.md` → `MAINTENANCE.md`. Edit company `CRWV/KB.tsv` or broader `workbook/KB_GENERAL.tsv`; regenerate legacy combined view with `scripts/kb_catalog.py --write`. Never edit the generated view.
 >20company+227general=247unchanged rows/IDs. Correction map and48-entry guide retain86 source aliases/copies.12new regression tests and41existingvalidatorcases passed; all frozen evidence preserved.
 > Scores15/25, five falsifiers and scheduled work unchanged. Three WALTER INFO packets consumed without fresh financial grades. Native fleet notification/consumption unverified; no pull with other desks’ residue.
