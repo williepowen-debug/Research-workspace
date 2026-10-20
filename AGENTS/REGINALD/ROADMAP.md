@@ -60,6 +60,7 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 ---
 
 ## OPEN QUESTIONS
+- **[10/20] Discount-window primary credit as a bank-stress observable?** $11.044B Wed 10/14 (H.4.1 10/15 verified; highest Wed since 2023-04-26; 3rd weekly rise; borrowers unnamed). No reading or watch registered (10/20 spawn scope). Decide at the 10/22 H.4.1 whether a base-rated descriptive watch earns registration. Source: SIG-W-20261016-029. Last touched 2026-10-20.
 *Flagged but not actively worked. Decide before next acting on them.*
 
 | Question | Surfaced | Action Owed |
