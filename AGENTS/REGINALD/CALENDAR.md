@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** **2026-10-20:** CUBI/FLG estimates promoted to issuer-CONFIRMED in the canonical table; dates unchanged. Prior **2026-10-13:** VLY issuer October7 notice rechecked: Q3 call08:30 ET confirmed; existing date/time unchanged. Prior **2026-10-12 (Mon boot):** corrected the old Affinius corporate-bond row to the sourced New Economy Assets–Phase 1 warehouse-ABS anticipated-repayment date and kept current repayment/exposure UNKNOWN (`SIG-W-20261012-023`). Prior: **2026-10-11 (Sun, WQ-414 option B):** REG-T-06 consequence REVIEW; entry/exit and official-quarter unit unchanged. Prior affected header/row → `archive/WQ414_operating_snapshot_2026-10-11.md`.
+**Last Updated:** **2026-10-20 closeout:** MTB/WAL release reads marked below; call/filing-only questions remain pending. Prior: **2026-10-20:** CUBI/FLG estimates promoted to issuer-CONFIRMED in the canonical table; dates unchanged. Prior **2026-10-13:** VLY issuer October7 notice rechecked: Q3 call08:30 ET confirmed; existing date/time unchanged. Prior **2026-10-12 (Mon boot):** corrected the old Affinius corporate-bond row to the sourced New Economy Assets–Phase 1 warehouse-ABS anticipated-repayment date and kept current repayment/exposure UNKNOWN (`SIG-W-20261012-023`). Prior: **2026-10-11 (Sun, WQ-414 option B):** REG-T-06 consequence REVIEW; entry/exit and official-quarter unit unchanged. Prior affected header/row → `archive/WQ414_operating_snapshot_2026-10-11.md`.
 *Stamp chain 9/11 and earlier → `archive/CALENDAR_rotation_2026-09-24.md` (verbatim, crc-stamped).*
 
 ---
@@ -31,8 +31,8 @@
 | Ticker | Date | Day | Timing | Status | Question | Source |
 |---|---|---|---|---|---|---|
 | CFG | 2026-10-16 | Fri | pre-open (time inferred); call 09:00 ET | CONFIRMED | Q1 | CFG IR 9/10; BROCK at issuer 10/9 (SIG-W-20261009-010) · ✅ PRINTED 10/16 (8-K acc 0000759944-26-000206); WQ-318 graded INCONCLUSIVE → `reports/2026-10-16_due-rows_CFG-Q3-grade_Nano_REG-T-03.md` |
-| MTB | 2026-10-16 | Fri | pre-open | CONFIRMED | ctx | BROCK at issuer 10/9 (SIG-W-20261009-010) |
-| WAL | 2026-10-19 | Mon | after close; call Tue 10/20 12:00 ET | CONFIRMED | Q1 Q2 | Business Wire 10/6 (issuer text) |
+| MTB | 2026-10-16 | Fri | pre-open | CONFIRMED | ctx | BROCK at issuer 10/9 (SIG-W-20261009-010) · ✅ RELEASE READ10/20 → `reports/2026-10-20_reported-bank-earnings-catchup.md` |
+| WAL | 2026-10-19 | Mon | after close; call Tue 10/20 12:00 ET | CONFIRMED | Q1 Q2 | Business Wire 10/6 (issuer text) · ✅ RELEASE READ10/20; WQ-318 INCONCLUSIVE; call/filing-only fields pending → same catch-up report |
 | OZK | 2026-10-20 | Tue | after close; call Wed 10/21 08:30 ET | CONFIRMED | Q1 Q2 | OZK release 9/30 |
 | EGBN | 2026-10-21 | Wed | after close; call Thu 10/22 10:00 ET | CONFIRMED | Q1 Q2 | EagleBank IR 10/7 |
 | BKU | 2026-10-21 | Wed | before open; call 09:00 ET | CONFIRMED | FL | Business Wire 9/22 (repost) |
