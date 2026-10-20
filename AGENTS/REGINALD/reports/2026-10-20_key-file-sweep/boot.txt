@@ -1,0 +1,280 @@
+
+######################################################################
+#                                                                    #
+#                       REGINALD BOOT SEQUENCE                       #
+#                                                                    #
+#                   Tuesday, October 20, 2026  15:28                 #
+#                                                                    #
+######################################################################
+
+  ⏳ Running Market Prices...
+
+=============================================
+  Positions
+=============================================
+  🟢 WAL      $     75.30  (+2.27%)
+  🟢 OZK      $     46.19  (+2.20%)
+  🟢 KRE      $     70.59  (+1.92%)
+  🟢 ZION     $     64.84  (+2.69%)
+  🟢 EGBN     $     28.48  (+2.23%)
+  🟢 SSB      $    102.68  (+1.49%)
+  🟢 IWM      $    276.05  (+1.76%)
+  🟢 HYG      $     76.86  (+0.03%)
+  🟢 TLT      $     80.14  (+0.85%)
+  🔴 CF       $    117.29  (-1.03%)
+  🔴 STNG     $     80.67  (-0.15%)
+  🟢 AAL      $     12.19  (+4.37%)
+
+=============================================
+  Watchlist
+=============================================
+  🔴 LNG      $    282.18  (-1.54%)
+  🟢 APO      $    111.91  (+0.86%)
+  🟢 FLG      $     11.12  (+1.41%)
+  🟢 CFG      $     64.53  (+2.81%)
+  🟢 VLY      $     12.87  (+2.35%)
+  🔴 USO      $    160.57  (-0.15%)
+
+=============================================
+  Benchmarks
+=============================================
+  🟢 SPY      $    768.24  (+0.23%)
+  🔴 QQQ      $    717.36  (-0.14%)
+  🔴 DX-Y.NYB $    101.73  (-0.25%)
+  🔴 CL=F     $     98.20  (-0.35%)
+  🔴 BZ=F     $    109.18  (-0.34%)
+  🔴 GC=F     $   4139.80  (-0.49%)
+  🔴 ^TNX     $      5.12  (-0.37%)
+  🔴 ^VIX     $     17.45  (-5.37%)
+
+  Note: CL=F = WTI Crude, ^TNX = 10Y Yield, DXY=F = Dollar Index
+
+
+  ⏳ Running Dark Pool + Short Vol...
+  Fetching dark pool data from chartexchange...
+  Fetching short volume from FINRA...
+
+======================================================================
+  REGINALD Dark Pool Monitor — 2026-10-20
+======================================================================
+
+  Ticker    Off-Ex%  30d Avg    Delta Signal             Short%
+  ------------------------------------------------------------
+  WAL             —        —        — NO DATA             29.7%
+  OZK             —        —        — NO DATA             46.2%
+  KRE             —        —        — NO DATA             57.1%
+  EGBN            —        —        — NO DATA             71.4%
+  ZION            —        —        — NO DATA             63.7%
+  CFG             —        —        — NO DATA             20.1%
+
+  Short volume date: 2026-10-19
+
+  SHORT_VOL.tsv is FROZEN; no rows appended
+
+
+
+  ⏳ Running Thresholds...
+
+======================================================================
+  REGINALD Threshold Monitor — 2026-10-20 15:28
+======================================================================
+
+  🔴 BREACHES
+  ------------------------------------------------------------
+  🔴 WAL    $   75.30  (threshold $78, -3.5%)  WAL price stress (REG-T-02); cause not pre-attributed
+
+  ⚠️  NEAR THRESHOLD (within 5%)
+  ------------------------------------------------------------
+  ⚠️  HYG    $   76.86  (threshold $75, +2.5%)  HY credit stress
+
+  CONTEXT
+  ------------------------------------------------------------
+  🟢 SPY      $    768.25  (+0.23%)
+  🟢 IWM      $    276.00  (+1.74%)
+  🔴 ^VIX     $     17.45  (-5.37%)
+  🔴 ^TNX     $      5.12  (-0.37%)
+  🟢 TLT      $     80.14  (+0.86%)
+
+  THESIS TICKERS
+  ------------------------------------------------------------
+  🔴 BZ=F     $    109.21  (-0.31%)
+  🟢 EGBN     $     28.48  (+2.23%)
+  🟢 HYG      $     76.86  (+0.03%)
+  🟢 KRE      $     70.59  (+1.93%)
+  🟢 OZK      $     46.19  (+2.20%)
+  🟢 WAL      $     75.30  (+2.27%)
+
+
+
+  ⏳ Running KRE Float...
+
+======================================================================
+  REGINALD KRE Float Monitor — 2026-10-20 15:29
+======================================================================
+
+  KRE Shares Outstanding: 53.82M
+  Total Assets (AUM):     $3.73B
+  NAV:                    $69.26
+  Price:                  $70.59  (+1.92% to NAV)
+
+  vs. last reading (2026-10-20):
+  Previous:  53.82M
+  Change:    +0.00M  (+0.0%)
+
+  ⚪ Roughly flat
+
+  Reference levels:
+    Mar 2026 peak: ~56.9M shares
+    Current:       53.82M  (-5.4% from Mar peak)
+
+
+
+  ⏳ Running Earnings Countdown...
+
+======================================================================
+  REGINALD Earnings Countdown — 2026-10-20 15:29  (source: CALENDAR.md)
+======================================================================
+
+  Ticker        Date  Trd  Status          Q      Timing
+  --------------------------------------------------------------------
+  OZK    Tue Oct 20    0  ✓ confirmed     Q1 Q2  after close; call Wed 10/21 08:30 ET  🔴 TODAY
+  BKU    Wed Oct 21    1  ✓ confirmed     FL     before open; call 09:00 ET  🔴 ≤2d
+  EGBN   Wed Oct 21    1  ✓ confirmed     Q1 Q2  after close; call Thu 10/22 10:00 ET  🔴 ≤2d
+  SSB    Wed Oct 21    1  ✓ confirmed     FL     after close; call Thu 10/22 09:00 ET  🔴 ≤2d
+  AMTB   Thu Oct 22    2  ✓ confirmed     Q3 FL  after close; call Fri 10/23 09:00 ET  🔴 ≤2d
+  CUBI   Thu Oct 22    2  ✓ confirmed     Q1     after close; call Fri10/23 09:00 ET  🔴 ≤2d
+  VLY    Thu Oct 22    2  ✓ confirmed     ctx    before open; call 08:30 ET  🔴 ≤2d
+  FLG    Fri Oct 23    3  ✓ confirmed     Q2     approximately06:00 ET; call08:00 ET  ⚠️  ≤5d
+  SBCF   Tue Oct 27    5  ✓ confirmed     FL     after close; call Wed 10/28 10:00 ET  ⚠️  ≤5d
+  Reported: CFG, MTB, WAL
+
+
+
+  ⏳ Running Short Interest...
+
+======================================================================
+  REGINALD Short Interest Monitor — 2026-10-20 15:29
+======================================================================
+
+  Ticker   Shares Short  % Float  Days-to-Cover      SI Date    vs. Prior
+  ----------------------------------------------------------------------
+  OZK        17,600,458   17.39%          15.3d   2026-09-29    unchanged 🔴 HIGH
+  WAL         6,219,780    5.86%           5.5d   2026-09-29    unchanged 🟠
+  EGBN        3,147,985   12.30%           9.9d   2026-09-29    unchanged 🔴 HIGH
+  ZION        6,397,056    5.14%           4.2d   2026-09-29    unchanged 🟠
+  CFG        16,975,977    4.65%           4.3d   2026-09-29    unchanged
+  SHORT_INTEREST.tsv is FROZEN; no rows appended
+
+  ⚠️  Note: yfinance SI data may lag 2-4 weeks. Cross-check against Fintel for latest bi-monthly report.
+  ⚠️  KRE (ETF) excluded — yfinance does not provide SI for ETFs. Track via KRE short volume in darkpool.py.
+
+
+
+  ⏳ Running Insider Activity...
+
+======================================================================
+  REGINALD Insider Monitor — 2026-10-20 15:29 (last 14 days)
+======================================================================
+
+  CFG (Citizens Financial Group) — SEC CIK 759944
+  --------------------------------------------------
+  ✅ No Form 4 filings in last 14 days ('CITIZENS FINANCIAL GROUP INC/RI').
+
+  CUBI (Customers Bancorp) — SEC CIK 1488813
+  --------------------------------------------------
+  ✅ No Form 4 filings in last 14 days ('Customers Bancorp, Inc.').
+
+  EGBN (Eagle Bancorp Inc) — SEC CIK 1050441
+  --------------------------------------------------
+  Filings: 2 | Buys: 0 | Sales: 0 | Routine: 3 | Unparsed: 0
+  Reporters: Lee Evelyn, Newell Eric R
+  All routine (RSU settlements, tax withholdings, awards). No conviction signals.
+
+  FLG (Flagstar Bank, N.A.) — SEC CIK 910073
+  --------------------------------------------------
+  Filings: 2 | Buys: 0 | Sales: 0 | Routine: 2 | Unparsed: 0
+  Reporters: Buchanan George, Marx Bryan
+  All routine (RSU settlements, tax withholdings, awards). No conviction signals.
+
+  OZK (Bank OZK) — FDIC cert 110
+  --------------------------------------------------
+  ✅ CLEAR: FDIC cert 110: 471 disclosures, none published since 2026-10-06 (newest 2026-08-14)
+
+  AMTB (Amerant Bancorp) — SEC CIK 1734342
+  --------------------------------------------------
+  Filings: 1 | Buys: 0 | Sales: 0 | Routine: 3 | Unparsed: 0
+  Reporters: Nursey Michael E.
+  All routine (RSU settlements, tax withholdings, awards). No conviction signals.
+
+  WAL (Western Alliance Bancorporation) — SEC CIK 1212545
+  --------------------------------------------------
+  Filings: 10 | Buys: 0 | Sales: 0 | Routine: 76 | Unparsed: 0
+  Reporters: Boothe Timothy W, Bruckner Tim R, GIBBONS DALE, Herndon Lynne, Idnani Vishal +5 more
+  All routine (RSU settlements, tax withholdings, awards). No conviction signals.
+
+  fetched 37 ok / 0 failed
+
+  ✅ No open market insider purchases across all 7 names (CFG, CUBI, EGBN, FLG, OZK, AMTB, WAL).
+
+
+
+  ⏳ Running 8-K Monitor...
+
+======================================================================
+  REGINALD 8-K Monitor — 2026-10-20 15:29 (last 7 days)
+======================================================================
+
+  CFG — SEC CIK 759944
+  📄 FOUND: 'CITIZENS FINANCIAL GROUP INC/RI': 1 8-K(s) since 2026-10-13
+     2026-10-16  8-K  🔴 2.02 Results of Operations (EARNINGS) · ⚪ 7.01 Regulation FD Disclosure · ⚪ 9.01 Financial Statements/Exhibits
+
+  CUBI — SEC CIK 1488813
+  ✅ CLEAR: 'Customers Bancorp, Inc.': no 8-K since 2026-10-13 (newest 2026-07-27; route live)
+
+  EGBN — SEC CIK 1050441
+  ✅ CLEAR: 'EAGLE BANCORP INC': no 8-K since 2026-10-13 (newest 2026-09-14; route live)
+
+  FLG — SEC CIK 910073
+  ✅ CLEAR: 'FLAGSTAR BANK, NATIONAL ASSOCIATION': no 8-K since 2026-10-13 (newest 2026-07-24; route live)
+
+  OZK — FDIC FLNG cert 110 (OZK desk flng_watch)
+  ✅ CLEAR: FDIC FLNG cert 110: 183 filings, none since 2026-10-13 (newest 2026-10-11). Filings only — FLNG does NOT carry OZK press releases
+
+  AMTB — SEC CIK 1734342
+  ✅ CLEAR: 'Amerant Bancorp Inc.': no 8-K since 2026-10-13 (newest 2026-09-17; route live)
+
+  WAL — SEC CIK 1212545
+  📄 FOUND: 'WESTERN ALLIANCE BANCORPORATION': 1 8-K(s) since 2026-10-13
+     2026-10-19  8-K  🔴 2.02 Results of Operations (EARNINGS) · ⚪ 9.01 Financial Statements/Exhibits
+
+  ZION — SEC CIK 109380
+  📄 FOUND: 'ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/': 1 8-K(s) since 2026-10-13
+     2026-10-19  8-K  🔴 2.02 Results of Operations (EARNINGS) · ⚪ 9.01 Financial Statements/Exhibits
+
+  VLY — SEC CIK 714310
+  ✅ CLEAR: 'VALLEY NATIONAL BANCORP': no 8-K since 2026-10-13 (newest 2026-09-28; route live)
+
+  🔴 REVIEW — filing(s) with a 🔴/🟠 item or UNPARSED items: CFG, WAL, ZION
+
+
+
+======================================================================
+  BOOT SUMMARY
+======================================================================
+
+  Script                      Status     Time
+  ---------------------------------------------
+  ✅ Market Prices                   OK    9.8s
+  ✅ Dark Pool + Short Vol           OK   17.7s
+  ✅ Thresholds                      OK    5.0s
+  ✅ KRE Float                       OK    2.0s
+  ✅ Earnings Countdown              OK    0.0s
+  ✅ Short Interest                  OK    2.8s
+  ✅ Insider Activity                OK   10.5s
+  🔔 8-K Monitor                  ALERT    9.7s
+
+  Total boot time: 57.5s
+  Date: 2026-10-20 | Day: Tuesday
+
+  🔔 ALERT (read the output): 8-K Monitor
+
