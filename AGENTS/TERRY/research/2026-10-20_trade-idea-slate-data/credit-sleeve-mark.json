@@ -1,0 +1,128 @@
+{
+  "scope": "Fidelity quantities from morning capture held constant; live vendor screening marks, not current broker positions/quotes. Includes ZION plus existing CRWV. Robinhood unknown.",
+  "rows": [
+    {
+      "ticker": "KRE",
+      "expiry": "2026-11-27",
+      "strike": 67,
+      "quantity_from_morning_capture": 4,
+      "fetch_ts": "2026-10-20T12:03:27.771449",
+      "bid": 0.76,
+      "ask": 2.46,
+      "mid_value": "644.00",
+      "bid_value": "304.00",
+      "flags": [
+        "NONMONO"
+      ]
+    },
+    {
+      "ticker": "KRE",
+      "expiry": "2026-12-18",
+      "strike": 60,
+      "quantity_from_morning_capture": 5,
+      "fetch_ts": "2026-10-20T12:03:27.570776",
+      "bid": 0.36,
+      "ask": 0.43,
+      "mid_value": "197.500",
+      "bid_value": "180.00",
+      "flags": [
+        "NONMONO"
+      ]
+    },
+    {
+      "ticker": "KRE",
+      "expiry": "2026-12-31",
+      "strike": 65,
+      "quantity_from_morning_capture": 2,
+      "fetch_ts": "2026-10-20T12:03:25.855484",
+      "bid": 1.04,
+      "ask": 1.26,
+      "mid_value": "230.00",
+      "bid_value": "208.00",
+      "flags": []
+    },
+    {
+      "ticker": "WAL",
+      "expiry": "2026-12-18",
+      "strike": 65,
+      "quantity_from_morning_capture": 4,
+      "fetch_ts": "2026-10-20T12:03:26.128416",
+      "bid": 0.8,
+      "ask": 1.1,
+      "mid_value": "380.00",
+      "bid_value": "320.0",
+      "flags": []
+    },
+    {
+      "ticker": "WAL",
+      "expiry": "2026-12-18",
+      "strike": 70,
+      "quantity_from_morning_capture": 2,
+      "fetch_ts": "2026-10-20T12:03:26.128416",
+      "bid": 1.8,
+      "ask": 2.05,
+      "mid_value": "385.000",
+      "bid_value": "360.0",
+      "flags": []
+    },
+    {
+      "ticker": "OZK",
+      "expiry": "2026-11-20",
+      "strike": 40,
+      "quantity_from_morning_capture": 4,
+      "fetch_ts": "2026-10-20T12:03:26.595650",
+      "bid": 0.1,
+      "ask": 0.3,
+      "mid_value": "80.0",
+      "bid_value": "40.0",
+      "flags": []
+    },
+    {
+      "ticker": "APO",
+      "expiry": "2026-12-18",
+      "strike": 95,
+      "quantity_from_morning_capture": 1,
+      "fetch_ts": "2026-10-20T12:04:10.460463",
+      "bid": 1.35,
+      "ask": 1.8,
+      "mid_value": "157.500",
+      "bid_value": "135.00",
+      "flags": []
+    },
+    {
+      "ticker": "ZION",
+      "expiry": "2026-11-20",
+      "strike": 62.5,
+      "quantity_from_morning_capture": 2,
+      "fetch_ts": "2026-10-20T12:04:10.300235",
+      "bid": 1.1,
+      "ask": 1.6,
+      "mid_value": "270.00",
+      "bid_value": "220.0",
+      "flags": []
+    },
+    {
+      "ticker": "CRWV",
+      "expiry": "2026-10-23",
+      "strike": 56,
+      "quantity_from_morning_capture": 1,
+      "fetch_ts": "2026-10-20T12:03:27.630612",
+      "bid": 0.63,
+      "ask": 0.66,
+      "mid_value": "64.500",
+      "bid_value": "63.00",
+      "flags": []
+    }
+  ],
+  "mid_total": "2408.500",
+  "bid_total": "1830.00",
+  "new_card_max_risk": "201.30",
+  "sum_mid_plus_new_card": "2609.800",
+  "new_risk_as_pct_current_screen_mid": "8.357899107328212580444259913",
+  "limits": [
+    "Gross premium mark sum, not delta/vega/value-at-risk/correlation model.",
+    "RH WAL70P1 absent in new broker capture, not assumed zero.",
+    "APO95 was display-window-excluded despite fullchainlegguardPASS; wide-windowre-pullsuppliesrow.",
+    "No newfill/closure, private data or brokerexecution inferred."
+  ]
+}

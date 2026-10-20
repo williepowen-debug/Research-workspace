@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-20T12:02:04.777376-04:00",
+  "checks": [
+    {
+      "cmd": [
+        "python3",
+        "AGENTS/TERRY/scripts/ledger_sweep.py"
+      ],
+      "rc": 0,
+      "stdout": "TERRY ledger sweep\n==================\n\nD. READ SANITY \u2014 did every surface actually parse?\n  \u2713 every surface returned rows (a zero here would be a parser defect, not a clean ledger)\n\nC. CARD HEADER vs ITS OWN BODY \u2014 22 card(s)\n  \u2713 every card header matches its latest in-body verdict\n\nA. STATE AGREEMENT \u2014 64 setup_ids across 52 surfaces\n  \u2713 all surfaces agree\n\nB. SUPERSEDED-VALUE DRIFT \u2014 4 corrected value(s) since '2 days ago': VIX3M/VIX min=1.0888, beta=0.28, beta=0.53, session high=18.71\n  \u2713 no naked superseded values\n\nE. FUTURE-DATED STAMPS \u2014 125 surface(s) (ledgers + cards), clock now 2026-10-20 12:02\n  \u2713 no stamp claims a time that has not happened yet\n\nF. UNREADABLE STATE CLAIMS \u2014 is a surface silently dropping out of check A?\n  \u2713 every non-empty claim parsed \u2014 check A's \u2713 means COMPARED, not merely unread\n\nG. STRUCTURE FINGERPRINT \u2014 strikes/expiry, where the STATE token agrees but the trade may not\n  \u2713 no surface disagrees with another on strikes or expiry\n\nH. CONTRACT COUNT vs OPEN REAL PAPER ROWS \u2014 2 live reference(s): TRY-BRENT-REFINER=1\u00d7, TRY-WAL-ROLL70=1\u00d7\n  \u2713 every registry surface carries the live contract count\n\nI. INBOX AT CLOSEOUT (advisory \u2014 never blocks) \u2014 1 undrained packet(s)\n  \ud83d\udcec inbox/2026-10-20_from-PROME_wq442-crwv-card.md\n       added 2026-10-20 (today) \u2014 likely landed AFTER the boot drain\n  \u2192 consume it, or state the disposition in the commit message. \u26d4 Do NOT git mv to processed/ just to clear this line \u2014 an unread packet filed as consumed is worse than one left visible.\n\n\u2705 CLEAN (A\u2013H)\n",
+      "stderr": ""
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "TERRY"
+      ],
+      "rc": 0,
+      "stdout": "READ-CAP [TERRY] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 1 boot section(s) in CLAUDE.md, 10 'read' line(s) scanned (0 on-demand/grep + 1 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 7 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 RISK_RULES.md                        23,913 B    73% of budget    (boot-step line 145)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,129 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 499 B.\n  \u2705 TRADE_BOOK.md                        23,768 B    73% of budget    (boot-step line 157)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 984 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 644 B.\n  \u2705 RISK_RULES_CONSTRUCTION.md           23,573 B    72% of budget    (boot-step line 156)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 789 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 839 B.\n  \u2705 SETUPS.tsv                           22,158 B    68% of budget    (boot-step line 157)\n  \u2705 STATUS.md                            19,913 B    61% of budget    (boot-step line 144)\n  \u2705 RISK_SCORING.md                      10,134 B    31% of budget    (boot-step line 146)\n  \u2705 TRADE_CARD_TEMPLATE.md                4,418 B    14% of budget    (boot-step line 156)\n\u2705 READ-CAP 0 [TERRY]: every boot-mandated read this check found is under budget (7 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/TERRY/CLAUDE.md = 32,053 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=TERRY reads=7 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=32053\n",
+      "stderr": ""
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/corrections_boot_check.py",
+        "TERRY"
+      ],
+      "rc": 0,
+      "stdout": "  INFO 1 dead-at-cap with no receipt from this desk: COR-20260925-13 \u2014 0 NAMED (still BLOCKING until receipted, WQ-254 D4(a)) \u00b7 1 ALL-row (broadcast expired: no warn, no block)\nCORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for TERRY (register 90 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 17) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n",
+      "stderr": ""
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "AGENTS/TERRY/STATUS.md"
+      ],
+      "rc": 0,
+      "stdout": "CLAIM-CHECK \u2713 1 file(s) clean [weekday]\n",
+      "stderr": ""
+    },
+    {
+      "cmd": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "rc": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "limits": [
+    "Source/issuer verification and positive-EV inference are not certified by mechanical checks.",
+    "Read-cap heuristic scope only.",
+    "RISK_RULES append re-trigger measures both halves, no new rotation performed.",
+    "No threshold superseded/no broker fill; consumer figure check not triggered.",
+    "No scripts/tests/auto-memory/probability; selftests/memory-index/calibration not triggered.",
+    "Current packet integration plus slate delivery; not full legacy structural audit/retirement/lifecycle closeout.",
+    "No verified native peer transport; thread-local tools do not establish fleet presence.",
+    "Git move hit transient shared-index lock; retried only owned moves after lock cleared, never removed lock."
+  ]
+}

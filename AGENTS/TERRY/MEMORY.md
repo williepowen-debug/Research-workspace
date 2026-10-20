@@ -4,13 +4,17 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## October20 current pickup — 2026-10-20T10:49:50.932166-04:00
+## October20 current pickup — 2026-10-20T12:01:18.796890-04:00
 
-WilldirectCapture1/2ingested; read `research/2026-10-20_broker-receipt/REPORT.md` FIRST, source/ACTIVITYkeysbeforeanynewbooking. QQQ720P1CLOSEDsale6.66/net665.32/DERIVED+474.66bookedONCE; noothernewrealized. NewQQQOctober22 715P1/net432.66 andUSOOctober30 165Cadd1/net315.66⇒now2/basis586.32;2cancelsnotfills;net−83pending. Current23positions/account37840.91/day−2480.70−6.15%tie. Clocks/bid/fullordersUNKNOWN;719Pbasischanged+$1to277.66,oldconditionalallocationnotcertified.
+**Changedoperatorbrief:** Will11:10/11:32stopmicromanagement/expiryreminders/held-linesellpush/checkins;C5PAUSED,existingcardsreferenceonly. Bookcapturesandactualdispositions,neverinfer.11:50“we can loosen rules for trade ideas”permitsNOT-FIREDproposalswithfigures;actualfillseparatelyapproved. Default500/card/X1closedshownpercard,no automaticexception/hardguard/daycolourrelaxation. VerifiedcommittedPROMEpacketsb480e2f1d/a5af2e30e/ff9531ffc,USER.mdcurrentwords;localCLAUDEandRISK_RULESdurablefinding1amendedwithoutnumberchanges. Broader11:32word supersedesinterimstandingpracticequestion.
 
-TodayQQQ719P1/value98and715P1/value37remain,Willhandles/WQ462mustnarrow,14:30proposedbackstop;newOctober22putvalue299/cardprepared/proposedOctober21 15:00stop. No rollinferred. OriginalUSOOctober30cardnowwhole2proposal. OZK4bytoday15:30/TBT5approvedexitsfillsowed;WAL4freshpostprintchoice/nooncallowed. OtherC5cardsalreadydone,bids/choicesstillowed. VLOoriginal1/added2UNKNOWN/scaleterminal;noOctober20crack/policygradefromstockmark. Missingolderfills/expiryoutcomes/RH/orderhandlingremain.
+Slatecomplete `research/2026-10-20_trade-idea-slate.md`: fivefullcardsVSTcommon2≤300.40,IEFJan90/92C3≤258.90,RSPJan215/225C1≤491.30,FXYJan58/60C1≤91.30.CRWVoriginalconceptnowfullJan65/60P1≤201.30underWQ442;fivefalsifiersincluded,creditsleeve2408.50vendor-mid/newrisk8.36%,notdiversification. AllNOT-FIRED/CONDITIONAL/unapproved,quotes11:55/chains11:54ETscreening;X1closedexplicitdecisionremains. BestVSTbusinessmapping,nextIEFrateshedge;RSPconfirmation/price,FXYweakcase. No calibratedpositiveEV;payoffratiodoesnotproveit. VSTissuerSEC/financinggap,callGreeks/brokerquotes/feesunknown;RSPscreenover500,FXYwide. Donot claimownerendorsementorindependentfivebets. Commissionprepared/delivered,notfiveautoorders.
 
-RuntimeOpenAI GPT-6/CodexexactvariantUNKNOWN,session01a159be-3941-7b10-8771-ca37a09505ca;root/localexplicitreadsandbootcomplete. Startupaa6687b13local;currentreceiptpersistenceindateddelivery. Nohelper/order/newtradeapproval/rule/monitor;foreignworkuntouched,nopull/stash. PriorOctober19pickuplinebelowishistorywhereOctober20supersedespositions;allunresolvedowner/evidencedutiescontinue. Legacyembedcohortcheck/L379stillneedreconciliation,notprovencompleted. Currentuserworkisreceiptintegration,notfullstructuralcleanup.
+Fivepacketsconsumed/filedafterintegration,includingWAL5b285249aearningsbridgehashverified/cardenrichedcontextonly/nogradeornewprice. NativePROMEread/ackUNKNOWN;notifiedtransportunavailable.NofreshWALcallanswersincorporated.
+
+Brokerrecordunchangedfromef82d240d:directOctober20Capture1/2,QQQ720Pclosednet665.32/DERIVED+474.66bookedonce,newQQQOct22 715P1cost432.66,USOOct30 165Cadd1cost315.66⇒held2basis586.32;net−83pending/23rowstie. Account37840.91/day−2480.70−6.15%datedcapture,notlivebid/fullrealizedP-L.719Pbasis277.66vsprior276.66,oldallocationunresolved. Remainingholdingsknownatcaptureonly;norepeatbooking/nagging. VLOoriginal1only/added2UNKNOWN/scaleterminal;FidelityWAL70P2distinctRH1,missingolderfills/expiryoutcomes/RH/orders/handlingremain. Earliercanonicalgate/killrulesunchanged;no automaticheldmanagementcardcommission.
+
+Nohelper/order/monitor/score. Foreignworkuntouched,nopull/stash. Priorstaledebtsclosedbyproof;legacyembedcohort/L379notreconciled;pendingrulecandidatesnotadopted. ResumeNOWnewideasoractualnewowner/brokerinput,notexpiryreminders. NextSessionbelowishistoricalwherethisoperatoroverridechangesit. Newchecks/publicationindateddelivery,notimpliedbyidle/processstate.
 
 ## Prior Session — 2026-10-19T18:39:46.051670-04:00 owed-task catch-up
 
@@ -38,10 +42,10 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-1. Reconcile later inbox/processed and broker evidence against October19 source hash/Activity keys before repeating any booking. PriorOctober15QQQ740P/USO150Cclosures already booked; cohort/partial totals are not additive.
-2. October20latestreceipt supersedes threeputs:720Pclosed,719P/715Peach1remain;newOctober22 715Pcardready. OZK10/20 15:30backstop first. Re-markheldquantity/orders/bids;Willapproves/orders. WALwindowended,ownerQ3grade/freshchoiceowed;TBT5approvedexitfillowed. October23cardsnext,otherC5draftsreadybutexecutablechecksowed.
-3. VLOoriginal1only;twoaddedsharescopeUNKNOWN,scaleterminal. FidelityWAL70P2 and ZION2 intake/date registration remain; KRE C5 dates are already registered (Nov24/Dec16), with future cards still owed. ActualQQQ/HBANexpiredoutcomes andbasisgapsawaitbroker,notinference.
-4. NCLH10/20date/ownercontextreviewcompletedearly10/19.002premisereadanswered/KEEPDORMANT;archivechoiceWill. Supersededprocessdebtsclearedbyproof,rulecandidatesstillunadopted. Noadditionalresearchbydefault. Rootexactpaths/freshpushproof andindependentacceptance/consumptionseparations remain.
+1. Read currentoperatoroverrideabove/USER.md beforeanyheld-linecommunication. Noexpiryreminders,sellpushesorrepeatedcheck-ins;C5paused.
+2. Newtradeidea slate/cardversionsat research/2026-10-20_trade-idea-slate.md; nofillsapproved. RefreshlivebrokerquotesatadecisionandpreserveX1/hardguards/daycolour;presentNOT-FIREDideaswithoutpretendingtriggerconfirmation.
+3. ReconcileanynewbrokerreceiptagainstOctober19ActivitykeysandOctober20sourcehashesbeforebooking. Olderdiscrepanciesstayunknownuntilactualevidence;noabsentholding⇒lapseinference.
+4. Readactualownerchangeswhenavailable,especiallyWALcall/sourceanswers;no duplicateownerresearch. Legacyprocessrecordsneedseparatereconciliation,notanunrequestedcleanup. Dashboardonrequest/Deckpaused/Helmretiredremain.
 
 ## Mandate (one line)
 

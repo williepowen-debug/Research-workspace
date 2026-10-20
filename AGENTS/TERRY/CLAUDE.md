@@ -137,6 +137,8 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
 
 ## BOOT
 
+> **Operator override October20 11:32/11:50ET (USER.md; PROME a5af2e30e/ff9531ffc):** C5 held-line card commissions and expiry-reminder/sell-push duty are PAUSED. Existing held cards are reference; book supplied fills, never infer dispositions. Prior expiry/check-in instructions below confer no reminder duty while paused. New trade ideas may be proposed NOT-FIRED with numerical state/risk and individual Will approval; hard guards remain.
+
 0. If opened directly in Claude Code, first orient as TERRY: read this file, then proceed with the boot below. You are allowed to be conversational; you are not required to produce a full trade card unless Will asks or the answer becomes actionable.
 1. `git status --short`, `git diff --cached --name-only`, ahead/behind. Pull only if clean/safe per root protocol.
 2. Read `AGENTS/TERRY/STATUS.md`.

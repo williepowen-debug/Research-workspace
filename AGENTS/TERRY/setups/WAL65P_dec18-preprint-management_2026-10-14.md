@@ -1,7 +1,11 @@
 # MANAGEMENT CARD — WAL Dec-18-2026 $65P ×4 (Fidelity) — into the Q3 print
 
 **Id:** `MGMT-WAL65P-DEC18`
-**Terry verdict:** CONDITIONAL — fresh post-print lean SELL ×4, subject to current broker holdings/orders/bid and a NEW Will ruling. WQ-429 preprint authority ended; no renewal, automatic HOLD or roll. Current proposal below supersedes dated October14 economics.
+**Terry verdict:** CONDITIONAL — reference only under Will's October20 lighter-management instruction; prior sell proposal is not an active push or renewed authority. No new order/roll.
+
+## October20 operator instruction and earnings context — 2026-10-20T11:59:53.683072-04:00
+
+Will's committed11:10/11:32words (PROME b480e2f1d/a5af2e30e, USER.md) pause held-line sell pushes/repeated expiry check-ins; prior proposal below is reference only. No holding disposition inferred and no new choice is pressed here. WAL recurring-earnings bridge5b285249a/reportSHAa35c89da4b7305d001875b77e17581f86aa9f928bb45c3b0db53d7df5d2b02fb verified and consumed: pretax+7.1M, consistent visible-gain-screen+1.1M; literal cost guide needsatleast24.6M Q4 ex-deposit reduction, accountingbasisunconfirmed. Midpointguidechangesroughlyoffset, not anEPSforecast/provenmiss. Creditquestions99Mappraisal/migrationsremainfirst; nooncallanswersnotyetreadhere. No frozenownergrade/probability/threshold/newprice changed. Fidelity70P2 and65P4 do not inheritRobinhood70P1rules. Source `AGENTS/WAL/research/2026-10-19_Q3-recurring-earnings-bridge.md`.
 
 ## Current post-print management proposal — 2026-10-19T17:44:09-04:00
 

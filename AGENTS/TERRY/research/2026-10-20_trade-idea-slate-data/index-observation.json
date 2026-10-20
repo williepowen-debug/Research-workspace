@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-20T12:12:49.342458-04:00",
+  "foreign_staged_owner": "BOND",
+  "foreign_cached_diff_sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "method": "Only literal exact TERRY paths and its self-authored PROME inbox packet will be staged/committed. BOND staged entries were not authored/staged by TERRY and are excluded. No reset/index removal/amend/unscoped commit.",
+  "note": "Initial hold avoided overlapping index mutation; exact-path shared-index procedure permits preserving peer staging. This observation is not a claim that peer state cannot advance independently."
+}

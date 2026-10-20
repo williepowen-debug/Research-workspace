@@ -101,3 +101,8 @@ Prior rows above are dated records. These rows supersede their current-state cla
 | 2026-10-20 | MGMT-QQQ720P-OCT20 | Will-direct | CLOSED | Filled STC1at6.66/net665.32 | CLOSED — holding0; derived realized+474.66; no repeatbooking | `setups/QQQ720P_20261020-sell-or-roll_2026-10-19.md` |
 | 2026-10-20 | MGMT-USO165C-OCT30 | Will-direct | CONDITIONAL | BTO addition1recorded; management choice owed | CONDITIONAL — now2held/basis586.32/value370; old1ticket superseded | `setups/USO165C_20261030-sell-or-roll_2026-10-19.md` |
 | 2026-10-20 | MGMT-QQQ715P-OCT22 | Will-direct | CONDITIONAL | Filled BTO1recorded; management choice owed | CONDITIONAL — held1; proposedOctober21 15:00ET sale; no rollapproved | `setups/QQQ715P_20261022-sell-or-roll_2026-10-20.md` |
+| 2026-10-20 | IDEA-VST-OCT20 | Evidence on card | CONDITIONAL | NOT APPROVED | CONDITIONAL — NOT-FIRED;VST2common;X1closed | `setups/VST_common_power-scarcity_2026-10-20.md` |
+| 2026-10-20 | IDEA-IEF-OCT20 | Evidence on card | CONDITIONAL | NOT APPROVED | CONDITIONAL — NOT-FIRED;IEF90/92C3;X1closed | `setups/IEF_jan90-92C_safe-asset-rebound_2026-10-20.md` |
+| 2026-10-20 | IDEA-RSP-OCT20 | Evidence on card | CONDITIONAL | NOT APPROVED | CONDITIONAL — NOT-FIRED;RSP215/225C1;X1closed | `setups/RSP_jan215-225C_breadth-confirmation_2026-10-20.md` |
+| 2026-10-20 | IDEA-FXY-OCT20 | Evidence on card | CONDITIONAL | NOT APPROVED | CONDITIONAL — NOT-FIRED;FXY58/60C1;X1closed | `setups/FXY_jan58-60C_yen-confirmation_2026-10-20.md` |
+| 2026-10-20 | TRY-COND-CRWV-RALLYFADE | VULCAN/LIQUID | CONDITIONAL | WQ442prepareonly | CONDITIONAL — NOT-FIRED;65/60P1,max201.30 | `setups/CRWV_jan15-put-spread_relief-rally-fade_CONCEPT_2026-10-15.md` |

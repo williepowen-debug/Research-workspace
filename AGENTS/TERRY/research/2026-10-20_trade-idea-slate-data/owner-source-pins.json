@@ -1,0 +1,82 @@
+{
+  "AGENTS/TERRY/inbox/2026-10-20_from-PROME_no-expiry-nagging-focus-new-trades.md": {
+    "sha256": "07638fd8e2dbc9647615309ac2d3e481dadcdd45257639d4f885809dafd78bbb",
+    "matches_HEAD": true,
+    "latest_path_commit": "a5af2e30e231816fc7171348ad0d5aacb7248616"
+  },
+  "AGENTS/TERRY/inbox/2026-10-20_from-PROME_trade-idea-slate-rules-loosened.md": {
+    "sha256": "cc7b208571636d1ac51ea9cc1eba3de1b991204f0c883a39915f660b7fe89682",
+    "matches_HEAD": true,
+    "latest_path_commit": "ff9531ffc7a624cdfc20664c59383fe69076abf3"
+  },
+  "AGENTS/TERRY/inbox/2026-10-20_from-PROME_will-tone-down-position-management.md": {
+    "sha256": "7c4dc3fad01b567df8a4a1af4d814bffefee1d0dad3f29148d5a0db867d70a9c",
+    "matches_HEAD": true,
+    "latest_path_commit": "b480e2f1d2cbc8bb75768cc0cea0f4abc3783f2b"
+  },
+  "AGENTS/WAL/research/2026-10-19_Q3-recurring-earnings-bridge.md": {
+    "sha256": "a35c89da4b7305d001875b77e17581f86aa9f928bb45c3b0db53d7df5d2b02fb",
+    "matches_HEAD": true,
+    "latest_path_commit": "5b285249a069d33d2f8f2812bfa843f5dcaae5c9"
+  },
+  "AGENTS/WATT/STATUS.md": {
+    "sha256": "df8019267765bcaa4680cc535ae05bff460a5945d11579d49ff47dc0b0714107",
+    "matches_HEAD": true,
+    "latest_path_commit": "eaddda1082dcfb9f07a982d7d98ca406c8e5b8ff"
+  },
+  "AGENTS/BOND/STATUS.md": {
+    "sha256": "f55169da7a9c5bc08b0b2653417f9979cabd40f2a49da288bbe95e15fb39c5da",
+    "matches_HEAD": true,
+    "latest_path_commit": "cada759e1a3bcbd0945c88934f6b18b2fadf4a75"
+  },
+  "AGENTS/HENRY/STATUS.md": {
+    "sha256": "c00c8fd683a985e94c3d850271ab4d5f0e102236e2b29de880f0b3c4db265807",
+    "matches_HEAD": true,
+    "latest_path_commit": "20118ce77611ddcedd80f69d34f5414dd9df5576"
+  },
+  "AGENTS/SAM/STATUS.md": {
+    "sha256": "502753e33d876d80f7dc4c989822fce5127e824217717ccd00e4f0c5d0a4ded8",
+    "matches_HEAD": true,
+    "latest_path_commit": "ad61cfd518efcb22651cd34cba3980fe103fec4f"
+  },
+  "USER.md": {
+    "sha256": "cf1ccc03a1aec9ab27d5c8bdcb99555be7d976fe18cc53798dda3ccc18f70299",
+    "matches_HEAD": true,
+    "latest_path_commit": "463c3e4570b54a22d24145196e6cb5d64fb19f90"
+  },
+  "PROME/STATUS.md": {
+    "sha256": "2e83e706aebb461af4f36aa777fee5990651dcc1e0dc032c9f479d3145f521eb",
+    "matches_HEAD": true,
+    "latest_path_commit": "463c3e4570b54a22d24145196e6cb5d64fb19f90"
+  },
+  "AGENTS/TERRY/inbox/2026-10-20_from-PROME_wq442-crwv-card.md": {
+    "sha256": "9ac10849d89774aa5f28a3b5b26fc0dbf2a873253f42e524e4e8c77a8dac0170",
+    "matches_HEAD": true,
+    "latest_path_commit": "472f587a6e28687d78ea039a2cc962d2a42fe65b"
+  },
+  "AGENTS/VULCAN/TRADE.md": {
+    "sha256": "acb21f2aabe6021bbf244f1a3214d498b17114c3f10dcaec6558763655861545",
+    "matches_HEAD": true,
+    "latest_path_commit": "da44950a85eff21ce9275211c3710f08cf2b0a1b"
+  },
+  "AGENTS/LIQUID/STATUS.md": {
+    "sha256": "c97c50b5e97a3242ef2ed9f8ff3a1866f47c0b8ea5a53dae56e9e835c1364c46",
+    "matches_HEAD": true,
+    "latest_path_commit": "5de5eeb1c8de699c15ec7ec7357e80ec89f2c0b4"
+  },
+  "AGENTS/WATT/TRADE.md": {
+    "sha256": "c65cb0598eb51e775be2ca9c90d54968ff43c89bcb40d1c353d88916458dc6f5",
+    "matches_HEAD": true,
+    "latest_path_commit": "eaddda1082dcfb9f07a982d7d98ca406c8e5b8ff"
+  },
+  "AGENTS/TERRY/inbox/processed/2026-10-15_from-VULCAN_CRWV-thesis-conditional-yes.md": {
+    "sha256": "df53474459ff5ad19c4c33a87a2af1eb37379c433c1cb820ed8e5aa1c0bbb981",
+    "matches_HEAD": true,
+    "latest_path_commit": "21c3231cc63e74c25ebb4844d037c51ad3b21061"
+  },
+  "AGENTS/TERRY/inbox/processed/2026-10-15_from-LIQUID_CRWV-concept-CDS-leg-answer.md": {
+    "sha256": "d7f6e34c6dbf37e8e87caf1b5b99f04e79e2d3035f797c8d56accf2c7c0430cc",
+    "matches_HEAD": true,
+    "latest_path_commit": "8be85154b7002693e6a2ed93619dc0a0c198b3c4"
+  }
+}

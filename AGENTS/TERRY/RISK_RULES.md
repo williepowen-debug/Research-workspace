@@ -91,6 +91,8 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 ### Capital & deployment
 
 1. **Deploy on a fired trigger, never on the calendar.** Will deploys fresh capital **only** on a fired trigger — never on mechanical book-maintenance. Funds are limited; **preserving dry powder is a position.** `[[feedback_deploy_on_trigger_not_calendar]]`
+
+   **October20 11:50ET operator amendment — IDEAS:** Will: “we can loosen rules for trade ideas” (committed PROME packet ff9531ffc; USER.md “Trade ideas loosened”). TERRY may propose NOT-FIRED ideas with numerical trigger state, candidate size and dollar risk. A size above the default$500 or a fill against X1 is an explicit per-card choice for Will, never pre-approved. Proposal permission does not itself authorize deployment or relax hard guards/day colour. This amends proposal scope against durable finding#1; Non-Negotiable#1 remains approval required. No stable number changes.
 2. **A cooldown gate is not uniform — MAIN arm vs HEDGE.** A vol/cooldown gate blocks fresh **main-arm** capital (paying vega on a new directional bet). It does **not** automatically block a small **pre-approved, defined-risk hedge** with fixed max loss. Different economics, different gate applicability — say which one you are applying. `[[finding_cooldown_gate_differential_main_vs_hedge]]`
 3. **Two-stage fill approval.** Will **[Approve in principle]** unblocks TERRY's live re-mark work; the final Will **[Approve]** on the one-line ticket is the actual execute authorization. Preserves rule #5 at lower Will-attention cost per stage. **Stage one is never permission to fill.** `[[finding_fill_in_principle_vs_final_approve_pattern]]`
 
