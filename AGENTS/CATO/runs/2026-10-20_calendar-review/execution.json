@@ -1,0 +1,23 @@
+{
+  "pinned_freshness": {
+    "rc": 0,
+    "output": "DOCKET-GENERATED FRESH: PROME/state/CALENDAR.md; evaluated 2026-10-20\nDOCKET-GENERATED-RESULT v1 rc=0 assessed=1 as_of=2026-10-20 docket_sha256=e72e0890b24f6c668c5a3a013bfaf2ccad0ad6f28e27ccb5750701a92e0bee02 view_sha256=84db80e12f4435c46246f7209207edf2a1d55857f8e8b0983b8ed72d3ae928cb"
+  },
+  "handwritten_pointer_section": {
+    "rc": 0,
+    "output": "DOCKET-CHECK PROME/SCRATCH.md \u00a7'Calendar': 0 dated claim(s) matched to DOCKET rows; 0 assessed; 0 unassessed; generated content EXCLUDED \u2014 \u26a0\ufe0f ZERO claims matched: the surface may not be a DOCKET view, or the shapes differ (a clean line over zero matches proves nothing)\nDOCKET-PROSE-RESULT v1 rc=0 matched=0 dated=0 assessed=0 unassessed=0 ignored=0 generated=excluded"
+  },
+  "write": {
+    "rc": 0,
+    "output": "DOCKET-VIEW \u26a0\ufe0f block is 10626 B > --budget 6000 B \u2014 the OVERDUE count is usually why; resolve/tombstone rows or pass --budget (advisory, still written)\nDOCKET-VIEW \u2713 unchanged \u2014 block byte-identical (10626 B) in PROME/state/CALENDAR.md"
+  },
+  "write_idempotent": true,
+  "stale_content": {
+    "rc": 1,
+    "output": "DOCKET-GENERATED STALE: PROME/state/CALENDAR.md; evaluated 2026-10-20\nDOCKET-GENERATED-RESULT v1 rc=1 assessed=1 as_of=2026-10-20 docket_sha256=e72e0890b24f6c668c5a3a013bfaf2ccad0ad6f28e27ccb5750701a92e0bee02 view_sha256=9e6f9492026ad79232aa2529d8425c3816102ad7bf3ee2ddafa11b8e5c719d0b"
+  },
+  "missing_view": {
+    "rc": 2,
+    "output": "DOCKET-GENERATED-RESULT v1 rc=2 assessed=0 as_of=2026-10-20\nDOCKET-VIEW \u2717 rc 2 \u2014 [Errno 2] No such file or directory: 'PROME/state/CALENDAR.md' (nothing written)"
+  }
+}

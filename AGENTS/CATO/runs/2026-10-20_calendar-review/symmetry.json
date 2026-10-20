@@ -1,0 +1,34 @@
+{
+  "pin": "adbc76d18",
+  "normal": {
+    "ok": true,
+    "detail": "9 boot-read surfaces all registered"
+  },
+  "calendar_row_removed": {
+    "ok": true,
+    "detail": "9 boot-read surfaces all registered"
+  },
+  "wrong_path_same_basename": {
+    "ok": true,
+    "detail": "9 boot-read surfaces all registered"
+  },
+  "row_removed_but_comment_mentions": {
+    "ok": true,
+    "detail": "9 boot-read surfaces all registered"
+  },
+  "harvested": [
+    "HEARTBEAT.md",
+    "PROME/ACTIVE_DECISIONS.md",
+    "PROME/BOOT_MODULES.md",
+    "PROME/GATES.tsv",
+    "PROME/HANDOFF.md",
+    "PROME/SCRATCH.md",
+    "PROME/STATUS.md",
+    "PROME/state/CALENDAR.md",
+    "PROME/state/SPAWN_SLATE.md"
+  ],
+  "skill_parity": {
+    "boot": true,
+    "closeout": true
+  }
+}
