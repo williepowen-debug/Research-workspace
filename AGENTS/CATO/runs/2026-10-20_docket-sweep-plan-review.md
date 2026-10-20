@@ -1,6 +1,14 @@
 # DOCKET overdue-sweep plan — CATO independent plan read, October 20, 2026
 
-## Recommendation
+## Current disposition — session-end reconciliation, October 20
+
+Will subsequently relayed PROME's revised approach: preserve overdue process dates, retain the seven prior classifications, reconcile the L384 instance with its September outcome and point to L386, use supported owner dates only, and put the DBPR hands task on WILL_QUEUE. CATO accepted that described approach in-session under existing authorization; no additional blanket approval or equivalent plan review was recommended. The BP1–BP3 design objections to the original batch are addressed at that proposal-description boundary. This supersedes the original HOLD as the current recommendation; the original pin and findings below remain evidence of why the first plan was rejected.
+
+PROME later reported execution: overdue count76→64, artifact-backed closures including L384/L350, preserved unfinished dependencies and WQ463 for DBPR with its overdue date retained. CATO judged the reported approach sensible but did not independently audit those latest edits or certify each closure. PROME owns any remaining implementation and the later ranked-list/display proposals. No further task is assigned to CATO. The source reports and remaining review/verification limits survive; this entry records Will's relayed disposition, not a fresh result read.
+
+Session-end checks: fresh fetch confirms all five substantive CATO review commits and the self-authored return packet on origin. Weekday check passes the three root-required PROME files plus updated CATO CONTINUITY and this report; intended inputs verified readable. All six actual startup files pass read-cap. Scoped whitespace check passes. Orphan advisory contains only untouched DAEDALUS work and WALTER caches outside CATO; no CATO-authored packet remains uncommitted. No conditional memory/consumer/STATUS-ledger check triggered. No code test repeated without changed code. Two CATO record paths are the entire closeout commit; exact publication receipt is delivered in-session. This closes CATO only, not the other desks or a machine handoff.
+
+## Original recommendation (plan at9d90db245)
 
 **HOLD the broad batch as drafted.** Permit evidence gathering, artifact-backed closures and the Will-owned queue handoff within existing grants; revise class A and the L384 exception before applying their edits. A smaller overdue count does not establish that useful work was completed. This review neither directs PROME to do all remaining work now nor revokes Will's existing instruction to fix the backlog.
 
