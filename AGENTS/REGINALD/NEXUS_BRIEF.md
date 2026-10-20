@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** 2026-10-16 13:46 ET | STATUS commit: 844abc79d — PROME-spawned due-row session: `reports/2026-10-16_due-rows_CFG-Q3-grade_Nano_REG-T-03.md`. REG-07 VOID (WQ-412). Inbox drained (46 items logged). No score/threshold/trade change. Prior pin `a4ba5de64` (10/14).
+**As of:** 2026-10-20 11:14 ET startup observation window | STATUS commit: f1d8aca50. Direct Will/Codex startup; `reports/2026-10-20_Will-directed-Codex-startup.md`. No new research/credit regrade; earlier evidence retains its stated vintage. Broker freshness/approval gaps → POSITIONS; primary threshold rows → STATUS.
 
 ## CROSS-DOMAIN
 
@@ -36,7 +36,7 @@
 | Will | FFIEC JWT renewal before **2026-11-05** | before Nov | The 11/07 Call Report run (MI3 + WQ-318 F1/F3/N confirm) dies without it |
 | CFG · WAL · OZK · EGBN | Q3 releases 10/16 · 10/19 · 10/20 · 10/21 | Oct | Grades the WQ-318 rows on their named lines |
 | FLG · CUBI | Q3 date announcements | Oct | Locks their WQ-318 grading dates |
-| Will | REG-07 VOID-or-grade (WQ-412) | before 10/21 | Decides whether REG-07 grades |
+| Will | WQ-454.REG27 successor + WQ-454.REGT06 publication basis | registered deadlines in WILL_QUEUE | REG-07 already VOID under WQ-412; successor remains DRAFT |
 | FDIC | Nano Banc Sunwest P&A posting (NOT posted 10/13) | re-check Tue 10/20 | Re-runs forensics §3 (L516) |
 | Will/PROME | Remaining contract ownership/card evidence atFORGE D-74/D-77; current structural records→POSITIONS | — | Clarifies management authority; broker holdings do not approve research/trades |
 
@@ -72,7 +72,7 @@
 
 ## CALIBRATION
 
-- **Conviction (decomposed):** direction-H on the *concentration* shape (5 independent confirmations; cross-bank Q2 CRE bad-loan rate FELL 2.46% → 2.23%; WQ-318 adds: funding not breaking at 6/30) · timing-M (resolvers: the 10/16–10/27 prints, then the 11/07 Call Report run) · level — **current threshold distances and dated observations→STATUS §THRESHOLD STATUS; WAL remains FIRED, HY0-of-3, FLG RED.** June figures do not clear October funding/capital; no demonstrated joint valuation edge.
+- **Conviction (decomposed):** direction-H on the *concentration* shape (5 independent confirmations; cross-bank Q2 CRE bad-loan rate FELL 2.46% → 2.23%; WQ-318 adds: funding not breaking at 6/30) · timing-M (resolvers: the 10/16–10/27 prints, then the 11/07 Call Report run) · level — **current threshold distances and dated observations→STATUS §THRESHOLD STATUS; WAL remains FIRED, HY CREDIT-CANARY-FIRED with BANK-ABSENT cross-check, FLG RED.** June figures do not clear October funding/capital; no demonstrated joint valuation edge.
 - **Diverge from market by:** less than at any point this year, and honestly so — the narrowing was driven by my own grades, not the tape. Where I still diverge: the market reads benign GSE MF headlines and clean small-tier prints at face value; I carry both as composition-masked (modification suppression; definitional NPA exclusions at BKU).
 - **Uncertain about:** (1) **whether the bank-equity leg is now running AHEAD of credit** (HY half-retraced while KRE/FLG/OZK kept falling) — a non-credit repricing my instruments cannot see, or credit about to re-widen into the prints; (2) whether CFG's +$3.85B Q2 FHLB draw is brokered substitution (INFERENCE) or funding pressure; (3) magnitude attributable to OZK news (owner found Oct6 short-bridge disclosure; Oct12 executed-extension primary now consumed, causal share unmeasured); (4) the MI3 cohort-selection rule, decide before 11/07; (5) **whether the small-bank borrowing step-up continues (10/16 H.8), how much of it is FHLB, and whether a Q3 print shows it with deposits leaving.**
 - **Failure patterns to mind:** a detector that exists only as a TSV cell has no lag guarantee — the FLG band-1 break sat 8 days, the band-2 break was caught at the first boot (zero lag) once `vx_ladder_check.py` existed (census every other frozen-baseline band into it); a broker chart's last print at the bell is not the vendor close (WAL $75.21 vs $75.76 on 9/29 — grade the settled bar, label the other); a correction to my figure gets the same recompute as the figure (lesson 40).
@@ -114,3 +114,5 @@
 *Final closeout/reboot fold,2026-10-14: last write-back follows STATUS commit `2903e7de4`; dated market/source and existing Q3 duties preserved. Earlier final-fold statements are historical. No external notification or peer consumption claimed.*
 
 *Final session-closeout fold,2026-10-14:last write-back follows STATUS commit `a4ba5de64`;first probability mark and existing outcomes retained. Late packets read with primary-verification limits;SCRATCH rotated verbatim. No new study,external send or position action.*
+
+*Startup fold,2026-10-20: after STATUS f1d8aca50. Whole-inbox recovery complete (one deferred PROME maintenance packet); current observations/limitations in startup receipt. No new research, score, threshold or trade action.*
