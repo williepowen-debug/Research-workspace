@@ -21,3 +21,6 @@ All nine git-moved to `inbox/processed/`; seven WALTER board-log entries appende
 Checks: boot_recomputeafterrc0;kb_lint/mirrorpass;correctionsrc0;docketrc0verifiednothing,issuerPDFmanuallyverifiedseparately. Standardrunner/freeze/commit/pushreceiptsinregistryandGit. ForeignWALTERdirtypathsleftuntouched;startup pull deferred. Venvdependenciesavailable;optionalLEDGER_GLOBabsent. Discoverythread-localonly;nativepeertransport/recipientconsumptionUNKNOWN. No external message,helper,trade,newcapitalrequestorexpiryreminder.
 
 Calendarpass:sevenmissingselectedmacrodatesaddedfromissuerBLS/BEA/Treasuryschedules(KB497);10completedcatalystrowsrotatedverbatimtosources. Pre-closeoutcheckrc0.
+
+## Closeout sequencing correction — October20 12:12 ET
+Owned research commit cfa4b4201 ran after a FREEZE MOVED verdict because verification and commit were placed in a shell command without a success guard. This violated C12 ordering. The digest includes staging state and global HEAD, and staging occurred after the earlier passing run. No data repair is inferred from a clean commit. No amend or reset performed. Restarting the full standard runner after final staging, then inspecting a separate verification result before any final commit/push. The final audit commit preserves this deviation and the new validation transcript.

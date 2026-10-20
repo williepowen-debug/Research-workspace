@@ -88,3 +88,6 @@ Read-cap pass identified prior rotation advisories. Rotated 10 completed docket 
 
 ## Final selected macro-calendar pass
 Issuer BLS/BEA/Treasury schedules checked throughNovember10: added missing GDP/PCE October29, ECI October30, borrowing November2, JOLTS November3, productivity November5, jobs November6, CPI November10 to the existing docket and STATUS twin (KB497). BLS GET403 was overcome by successful web issuer reads; transcribed schedule fields and BEA raw receipts saved. This is not a certificate of every minor/weekly release. Pre-closeout four-component check and post-update boot recompute each returnedrc0.
+
+## Closeout sequencing correction — October20 12:12 ET
+Owned research commit cfa4b4201 ran after a FREEZE MOVED verdict because verification and commit were placed in a shell command without a success guard. This violated C12 ordering. The digest includes staging state and global HEAD, and staging occurred after the earlier passing run. No data repair is inferred from a clean commit. No amend or reset performed. Restarting the full standard runner after final staging, then inspecting a separate verification result before any final commit/push. The final audit commit preserves this deviation and the new validation transcript.
