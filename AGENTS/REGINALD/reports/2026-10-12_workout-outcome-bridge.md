@@ -70,3 +70,7 @@ The next material upgrade is not more rows; it is replacing the named-loan `UNKN
 ## Source coverage and limits
 
 The bridge consumes full or decisive-table primary work already completed on this desk and the OZK owner desk. The EGBN, VLY and WAL official sources were reopened on October 12. EGBN slide 16 directly reproduced both cited portfolio roll-forwards and slide 25 supplied the four named-loan baselines. VLY's full 10-Q and the official slide-32 image were retrieved from EDGAR and hashed in the receipt. The FDIC-hosted OZK PDF remained unavailable through the current web reader, so those rows rely on the pinned local full owner report and preserved-filing hash named in the receipt. No source silence is treated as a zero or a successful outcome.
+
+## October20 outcome-investigation update
+
+Will-authorized Eagle follow-up → `2026-10-20_EGBN_cash-recovery_investigation.md`. Existing008/009/013/014 retain UNKNOWN outcomes and original loan observation dates; source/coverage/notes now record fresh October20 verification/search scope, secondary July expectations and authenticated-record limitations. No cash, provision or loss is invented. The nonaccrual roll-forward is freshly rechecked; gross outflow decomposition does not change the historical bridge. No new bank or row is added.

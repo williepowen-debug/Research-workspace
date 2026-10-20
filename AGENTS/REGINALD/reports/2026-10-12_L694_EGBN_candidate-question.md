@@ -20,3 +20,7 @@
 **Why this question:** a discrete loan-outcome test already exists. FLG's principal reset mechanism runs into2027; completed OZK L690 establishes no compelling specific near-term downside after extension/new capital. No automatic long inversion, second candidate, numerical re-mark or monitor.
 
 **Dated sources, reused only:** Sept26 `reports/2026-09-26_CRE_top3_dossiers/q2_EGBN.md` §§B2/B4/C (SEC10-Q **0001050441-26-000096**; deck/release **0001050441-26-000088**, s25/p12); Sept27 `reports/2026-09-27_cross-bank_CRE_transmission.md` §A2/F.1 and `reports/2026-09-27_EGBN_fairfax_observability.md`; current `CALENDAR.md`; completed morning tape/saved JSON at **bd29d8687**; OZK post-extension memo **961218af6**. No fresh filing/search, quote sweep or model rebuild claimed.
+
+## October20 direct-Will follow-up — earlier stop lifted within a bounded scope
+
+Will authorized the proposed cash-outcome investigation in this conversation. Result → `2026-10-20_EGBN_cash-recovery_investigation.md`. Q1/Q2 loan baselines and latest SEC carrier rechecked; four outcomes remain UNKNOWN. Secondary July management expectations, Q1 appraisal-table discrepancy and independent-record identification/access limits are explicit. No current quote/options/consensus refresh or trade feasibility conclusion; earlier mixed-date valuations are historical. Return to the existing Q3 release/filing dependency for new actual outcomes.

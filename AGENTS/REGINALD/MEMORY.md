@@ -20,8 +20,8 @@
 
 ## Session Notes
 
-### CURRENT RESULT — 2026-10-20, Will-directed M&T capacity follow-up
-`reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`: strongest bearish earnings reading not established; test operating capacity versus provisions, then distributions/book effects. Primary slide credit attribution narrows the CRE inference. Static scenarios saved with calculator/hash checks; Yahoo period dates recovered but EPS adjustment basis unverified, independent Nasdaq timed out. No new score/prior/cohort/trade. KB240–242. Earlier catch-up and original dated outcomes remain in `reports/2026-10-20_reported-bank-earnings-catchup.md`; issuer-confirmed dates remain CALENDAR-owned. Next existing filing/release read should append an outcome to the capacity report's conditional expectation, not create a new monitor.
+### CURRENT RESULT — 2026-10-20, Will-authorized Eagle cash-outcome investigation
+`reports/2026-10-20_EGBN_cash-recovery_investigation.md`: fresh Q1/Q2 originals, SEC latest filings, bounded external identification/record-access checks. Four existing outcomes UNKNOWN. Secondary July transcript expectations distinguish PG restructure from Montgomery storage year-end payoff; primary audio unavailable. Q1 same-date appraisal values conflict across tables; no June baseline replaced. Existing bridge008/009/013/014 and KB243–246 updated. Next existing Q3 disclosure should fill cash/concessions/retained exposure/loss, not grade disappearance as repayment. New bank/date/monitor/trade: none. Earlier M&T result remains qualified to recognized provisions/reported income in its report.
 
 *Prior dated evidence → `archive/MEMORY_earnings-catchup_rotation_2026-10-20.md` (verbatim, crc32 `d1293e92`). Current result → `reports/2026-10-20_reported-bank-earnings-catchup.md`; original judgments remain dated. Re-check at any append.*
 

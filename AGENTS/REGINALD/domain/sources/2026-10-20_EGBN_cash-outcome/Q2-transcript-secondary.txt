@@ -1,0 +1,777 @@
+Eagle Bancorp (EGBN) Q2 2026 Earnings Call Transcript & Audio
+Skip to main content
+Help
+Log In
+Sign Up
+Home
+Watchlist
+Stocks
+Stock Screener
+Stock Exchanges
+By Country
+Comparison Tool
+Earnings Calendar
+By Industry
+Stock Lists
+Top Stocks
+Corporate Actions
+IPOs
+Recent IPOs
+IPO Calendar
+IPO Lockups
+IPO Statistics
+IPO News
+IPO Screener
+ETFs
+ETF Screener
+Comparison Tool
+New Launches
+ETF Providers
+Analysts
+News
+Trending
+Private Companies
+Technical Chart
+Fundamental Chart
+Market Movers
+Top Gainers
+Top Losers
+Most Active
+Premarket
+After Hours
+Market Heatmap
+Market Newsletter
+Stock Analysis Pro
+Tools
+Collapse
+Sign Up
+Log In
+Help
+Eagle Bancorp, Inc. (EGBN)
+NASDAQ: EGBN · Real-Time Price · USD
+Full Chart
+Watchlist
+Alerts
+Compare
+28.52
++0.66 (2.37%)
+Oct 20, 2026, 12:52 PM EDT - Market open
+Overview
+Financials
+Forecast
+Statistics
+Dividends
+History
+Profile
+Chart
+Profile
+Employees
+Transcripts
+Filings
+← View all transcripts
+Earnings Call: Q2 2026
+Jul 23, 2026
+Full Transcript
+Full Summary
+Slides
+Earnings release
+Quarterly report
+Play Audio
+Download Transcript
+Full Transcript
+Full Summary
+Summary
+Net income declined to $6.9M due to higher provision expenses and a smaller asset base, but pre-provision net revenue and efficiency improved. Asset quality improved, with criticized and classified assets down over 30% from peak, and C&I loans up 24% YoY. Leadership aims to stabilize CRE, improve funding, and resume growth in 2027.
+Operator
+Good day and thank you for standing by.
+Welcome to Eagle Bancorp, Inc's second quarter 2026 earnings conference call.
+At this time, all participants are on a listen-only mode.
+After the speaker's presentation, there will be a question-and-answer session.
+To ask a question during the session, you will need to press star one one on your telephone.
+You will then hear an automated message advising that your hand is raised.
+Please be advised that today's conference is being recorded.
+I would now like to hand the conference over to your first speaker, Eric Newell, Chief Financial Officer of Eagle Bancorp.
+Please go ahead.
+Eric Newell
+CFO, Eagle Bancorp, Inc
+Good morning.
+This is Eric Newell, Chief Financial Officer of Eagle Bancorp.
+Before we begin the presentation, I would like to remind everyone that some of the comments made during the call are forward-looking statements.
+We cannot make any promises about future performance and caution you not to place undue reliance on these forward-looking statements.
+Our Form 10-K for the fiscal year 2025 and current reports on Form 8-K, including the earnings presentation slides, identify important factors that could cause the company's actual results to differ materially from any forward-looking statements made this morning, which speak only as of today.
+Eagle Bancorp does not undertake to update any forward-looking statements as a result of new information, future events, or developments, unless required by law.
+This morning's commentary will also include non-GAAP financial information.
+The earnings release, which is posted in the investor relations section of our website and filed with the SEC, contains reconciliations of this information to the most directly comparable GAAP information.
+Our periodic reports are available from the company online on our website or on the SEC's website.
+With me today is our new President and CEO, Steve Curley, our Chief Lending Officers, Ryan Riel and Evelyn Lee for commercial real estate and C&I respectively.
+I would now like to turn it over to Steve.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Thank you, Eric, and good morning, everyone.
+Before I start the quarter, let me say how honored I am to join Eagle as its new President and CEO.
+This is a franchise built over decades through strong client relationships, deep community ties, and an exceptional and seasoned team of bankers.
+While I've only been with Eagle for three weeks, I spent that time meeting and talking with employees, customers, shareholders, while conducting an intensive review of the business.
+Those conversations have reinforced what attracted me to Eagle in the first place, a strong franchise, talented people, and significant potential.
+My immediate priorities are clear: maintain disciplined execution, preserve our culture, and make decisions grounded in a thorough understanding of our franchise, our markets, and our best opportunities.
+Investors are looking for results, not promises.
+You'll judge us by what we do, not what we say, and that's exactly how we intend to earn your confidence.
+With that, let me turn to the four priorities receiving my greatest attention.
+First is asset quality.
+The issues within the portfolio have been identified, are well understood, and are being actively managed.
+Addressing them transparently is essential.
+It builds confidence in our financial reporting and gives investors greater clarity into the strength of the franchise.
+Our objective here is simple, maximize recoveries and minimize loss.
+We will continue to take a disciplined asset-by-asset approach to problem credits, reducing uncertainty around our future credit performance.
+Consistency will be key to strengthening investor confidence.
+To support that effort, we're recruiting a new Chief C redit Officer, an important leadership role that will help shape the future of our credit organization.
+In the meantime, we've benefited from the experience and guidance of Bill Perotti and Dan Callahan, who have been working closely with the bank since last fall.
+The team has made meaningful progress over the last 18 months, and I see additional opportunities to strengthen credit oversight, portfolio management, and risk discipline.
+We're also beginning the search for our next Chief Human Resource Officer following a planned retirement.
+As I look at the organization, it is critical we strengthen our bench.
+We need to bring in new expertise where appropriate, while also developing and advancing the strong team already in place.
+At the same time, we will continue to invest in technology, processes, and capabilities that can help us better serve customers.
+Our second priority is improving our funding profile and deposit base.
+Too often, banks start by growing loans and then figuring out how to fund them.
+We'll take the opposite approach, build relationship-based core deposits, and create the capacity to support disciplined loan growth.
+We are not managing the bank with the objective of shrinking.
+Our objective is to build a stronger funding franchise, improve asset quality, and position Eagle to deliver responsible growth.
+The sequencing matters, but growth remains part of this bank's future.
+We operate in one of the most attractive banking markets in the country.
+The Washington metropolitan region offers significant opportunities to deepen customer relationships, generate core operating deposits, and support high-quality lending activity.
+We're going to make the most out of our position in Washington and win new customers and grow valuable deposit franchise.
+Our third priority is improving operating performance.
+That means generating stronger returns from the investments we make across the organization.
+An important part of that effort is expanding our business banking capabilities and increasing branch productivity.
+While our branches successfully serve our long-term customer relationships, they have the potential to be an engine for core deposit and business banking growth.
+We'll remain disciplined on expenses while continuing to invest where we see attractive long-term returns.
+The fourth area receiving my attention is capital.
+One of the strengths of this franchise is its capital position, and I recognize that capital allocation is an important topic for shareholders and investors.
+As part of my broader review of the bank, I am evaluating our capital framework, including how we think about capital levels, capital flexibility, and the best ways to create long-term shareholder value.
+While it's too early to discuss specific capital targets or potential capital actions, we are approaching this topic thoughtfully and deliberately.
+Capital is a strategic asset, we want to ensure we are deploying it in a manner that supports both the safety and soundness of the bank, as well as the long-term interests of our shareholders.
+As we make progress in asset quality, funding, operating performance, and our capital framework, our longer-term strategic direction will come into sharper focus.
+Eagle already has a strategy, we've been executing against it.
+My responsibility is to build on that work, evaluate where we're making progress, identify areas where we can improve, and determine where adjustments may enhance our ability to create long-term value.
+Over the coming months, I'll continue to learn the organization, the market, and the opportunities available to us.
+In the meantime, I'm going to focus on execution.
+As we demonstrate progress, we'll provide additional perspective on our long-term priorities, our capital objectives, and our vision for creating sustainable shareholder value.
+I'm optimistic about the future.
+We have a strong franchise, a dedicated team here at Eagle, a valuable market position, and clear priorities.
+I look forward to updating you on our progress.
+With that, I'll turn it back over to Eric to review the quarter.
+Eric Newell
+CFO, Eagle Bancorp, Inc
+Thank you, Steve.
+During the quarter, we reported net income of $6.9 million, or $0.23 per diluted share, compared to $14.7 million the previous quarter.
+The decline primarily reflects elevated provision expense, a smaller interest-earning asset base, continued resolutions associated with addressing problem assets and strengthening the overall health of the balance sheet.
+We believe that the issues within the portfolio are identified, understood, are actively being managed.
+Our approach continues to be straightforward: recognize problems early, reserve adequately, pursue resolution, and maximize recovery.
+With that context, let me walk through the second quarter asset quality trends, I'll begin with our concentration metrics.
+The second quarter saw continued reductions in both our CRE and ADC concentrations as expected payoffs, asset resolutions, and completion of construction projects contributed to further reduction in the concentration risk.
+Our CRE concentration ratio, which measures CRE loans as a percentage of total risk-based capital and reserves, declined to 268% at quarter end from 295% the prior quarter, moving further below the 300% threshold.
+Our ADC concentration ratio ended the quarter at 66%.
+Turning to criticized and classified assets, combining substandard, special mention, and held-for-sale loans, balances declined by approximately $34.5 million during the quarter to $759.6 million at June 30th, compared to $794.1 million at March 31.
+As shown on slide 16 of our investor deck, criticized and classified balances have now declined more than 30% from their peak in the third quarter of 2025.
+As a percentage of Tier 1 capital and ACL, criticized and classified assets declined to 58.1% at quarter end, compared to 65.7% at year-end 2025.
+During the quarter, we experienced approximately $216 million of downgrade activity.
+Of this total, $102 million relates to multifamily loans, of which three loans represent all of the downgrade activity.
+Of that, $35 million has paid off after quarter end.
+The two remaining loans, representing $64 million, are undergoing restructuring activities with no future losses anticipated.
+Turning to held-for-sale loans.
+At quarter end, held-for-sale balances totaled $49.7 million, and importantly, that entire balance is currently under contract or have sold since quarter end.
+During the quarter, we transferred $155 million into held for sale and had $162 million of sales, resulting in a gain on sale of loans totaling $2.3 million.
+As criticized and classified balances improved during the quarter, so did non-performing loans, declining to $111.1 million, or 1.68% of total loans.
+Our focus remains on the broader trend.
+We continue to expect criticized and classified loans to decline from current levels and remain meaningfully below where they stood at year end 2025.
+We are starting to see some upgrades from the watch category.
+That category has fallen 50% from its peak and gives us confidence that inflows into criticized and classified will fall in subsequent quarters.
+Provision for credit losses totaled $21.4 million during the quarter.
+While elevated, the provision reflects our continued effort to proactively address problem assets and maintain appropriate reserve coverage as credits migrate through the risk rating process.
+The entire provision expense can be attributed to disposition activities that took place during the quarter.
+The allowance for credit losses ended the quarter at $121.1 million or 1.83% of total loans.
+Included within that balance is approximately $40 million of reserves allocated specifically to our income-producing office portfolio, reflecting our continued conservative approach to reserving for that sector.
+Net charge-offs totaled $47.9 million during the quarter.
+Of that, $18.5 million were charge-offs for loans being transferred from held for investment to held for sale. 30 - 89 day past due balances increased by $26.1 million to $44.1 million during the quarter.
+As of today's earnings call, one loan with a balance of $35.4 million was subsequently paid off in full.
+As a result, we do not view the quarter- end balance as indicative of a broader deterioration in delinquency trends.
+Turning to operating performance.
+Despite further balance sheet reduction in elevated credit costs, the franchise continued to generate positive earnings, improved pre-provision net revenue, and capital growth during the quarter.
+We continue to be encouraged by the momentum in C&I, where strategic talent acquisition, along with the bank's strong reputation for service and execution, is yielding a strong pipeline of opportunities for primary new relationships.
+C&I loans are up by 24% year-over-year.
+Production is well diversified.
+Credit quality in that portfolio remains strong.
+Importantly, the strength of our relationship focused model is also evident in CRE.
+Despite a $1.7 billion reduction in CRE loans year-over-year, deposits associated with the portfolio declined by only $152 million, demonstrating the durability of our core deposit franchise.
+As a result, the CRE portfolio deposit funding ratio improved to 36%, up from 27% a year ago, reflecting the success of our relationship focused strategy and the significant progress we've made in improving the portfolio's funding profile.
+Net interest income declined $1.3 million to $62.4 million, primarily reflecting continued commercial real estate payoffs and the resulting reduction in average earning assets, partially offset by improvement in our funding mix.
+Pre-provision net revenue was $29.1 million, an improvement of $1.4 million from the prior quarter.
+The increase was driven by lower non-interest expense, which declined $4.7 million to $44 million primarily due to lower FDIC insurance expense driven by improved risk and performance metrics, as well as reduced expenses related to loan dispositions.
+Altogether, these factors produced an efficiency ratio of 60.2% compared to 63.8% in the prior quarter.
+As we previously discussed, one of our objectives is to improve earnings power of the bank.
+While we're not where we want to be, we are making measurable progress.
+Year to date, pre-provision net revenue to average assets was approximately 109 basis points, an improvement from 2025 and a step towards our intermediate target of roughly 150 basis points.
+Pivoting to funding.
+Period end deposits declined $406.4 million from the prior quarter, driven primarily by lower savings, money market, and brokered time deposits.
+However, the overall funding profile continued to improve as brokered deposits declined $301.5 million, reflecting our ongoing strategy to reduce higher cost wholesale funding and replace it with more stable relationship-based deposits.
+Non-interest-bearing deposits increased to $1.56 billion or 5.2% from the prior quarter, contributing positively to both funding costs and net interest margin.
+While total core deposits declined during the quarter, driven in part by C&I, where deposits were incrementally lower on a linked- quarter basis, the portfolio continues to show strong trends as we onboard new relationships.
+From a profitability perspective, that improvement was reflected in net interest margin, which expanded 5 basis points to 2.52%.
+The expansion was primarily driven by the funding mix optimization that included less reliance on brokered time deposits, which helped mitigate the impact of lower average cash balances, CRE paydowns, and increased borrowing costs.
+There was roughly 2 basis point adverse impact on NIM due to the sale of a loan with COVID deferred interest that was not collected on.
+Turning briefly to our forecast for 2026, which you can find on slide 11 in our investor deck.
+There are changes to revisions for the outlook for average deposits, average loans, and average earning assets.
+These revisions predominantly reflect the actual reductions that occurred in the first half and do not reflect continued declines in the second half of 2026.
+We have also narrowed our net interest margin outlook to 2.6%-2.7% compared to our prior range, reflecting greater visibility into the earning asset mix and deployment opportunities.
+In addition, we have improved our non-interest expense outlook to a decline of 7%-11% year-over-year compared to our previous expectation, and that is primarily driven by lower FDIC insurance expense.
+We continue to expect non-interest income growth of 15%-25% for the year.
+As I indicated on our last call in response to a question about provision and charge-off levels, I had determined that Q1 provision and charge-off levels are a reasonable run rate for the remainder of 2026.
+While the second quarter run rate is higher, I stand by the original statement indicating our expectation of lower levels in the second half of 2026.
+With that, I'll turn the call back over to Steve for some closing remarks before opening up the line for questions.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Thank you, Eric.
+Before we move to questions, let me make a couple final comments.
+Since joining Eagle, I spent a significant time reviewing the portfolio alongside our credit and special asset teams.
+Together with our Director of Special Assets, I've personally visited almost all of our special mention and substandard relationships greater than $7 million, as well as several of our larger watch relationships.
+These visits have reinforced my belief that we understand the challenges within the portfolio, have realistic plans to address them, and are taking appropriate action to drive resolution.
+What I found was not a portfolio full of surprises.
+I found a portfolio with known issues, active resolution plans, and teams focused on executing against them.
+Asset quality remains my foremost area of focus.
+I don't believe there is a substitute for getting into the field, seeing the properties firsthand, meeting borrowers, and working alongside the teams responsible for resolving the problem credits.
+I'm encouraged by what I've seen so far at Eagle.
+We have a strong franchise, very talented people, an attractive market position, and a clear set of priorities.
+One of the things that attracted me to Eagle was its reputation for relationship banking and exceptional client service.
+After spending the last several weeks meeting with employees, customers, shareholders, and members of the community, Eagle's reputation is very well deserved.
+What attracted me to the organization before I joined has been reinforced by what I've experienced since arriving.
+The relationships first culture is real.
+It's evident in how our teams serve customers, how they support one another, and how they approach long-term relationships within our community.
+That's what makes Eagle special, and it's one of the reasons I'm so excited about the opportunity ahead.
+My objective isn't to create a different EagleBank, it's to build a stronger EagleBank.
+Thank you for your time and for your continued interest in our company.
+With that, I'll turn it over to the operator, and we're happy to take some questions.
+Operator
+Thank you.
+Ladies and gentlemen, as a reminder, to ask a question at this time, you will need to press star one one on your telephone and wait for your name to be announced.
+Please stand by while we compile the Q&A roster.
+Our first question coming from the line of Justin Crowley with Piper Sandler.
+Your line is now open.
+Justin Crowley
+Analyst, Piper Sandler
+Hey, good morning.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Hey, Justin.
+Justin Crowley
+Analyst, Piper Sandler
+Welcome, Steve.
+Good to be with you and everyone else on the call today.
+I was wondering if you could start out providing a little more detail on the makeup of the charge-offs in the quarter.
+It looked like the majority of that came outside of the office portfolio, and that appeared to be on that one D.C. loan that was on non-accrual.
+Just beyond that, just curious if you could give more detail on the other types of credits taking marks and just what loss severity looks like.
+Eric Newell
+CFO, Eagle Bancorp, Inc
+Justin, I can start with that.
+The majority of charge-offs in the quarter related to the disposition strategies that we deployed.
+You'll note in our deck there's a walk on the held-for-sale loans.
+I think it's $155 million or $156 million that was transferred in.
+We had strategies in place for those assets that were transferred in.
+When we transfer it from held for investment to held for sale, that results in that charge-off.
+Then there's one other charge-off that is related to one of the loans that's currently non-accrual as we continue to work through that disposition strategy as well.
+Justin Crowley
+Analyst, Piper Sandler
+Okay.
+Is that like multifamily or what's driving that?
+If I saw the chart correctly, it looked like held- for- sale additions and office were kind of flat.
+Just wondering what else might be in there.
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Justin, the loan that Eric was commenting on last is an office loan.
+Justin Crowley
+Analyst, Piper Sandler
+Okay.
+Gotcha.
+I guess, Eric, any thoughts on the trajectory of charge-offs beyond the balance of this year?
+Just as we get beyond 2026, is getting back to somewhere closer to 50 basis points, is that what you'd call normalized?
+Is that fair?
+If so, how long does it take to revert back to that kind of a level?
+Eric Newell
+CFO, Eagle Bancorp, Inc
+Well, when I look at where we're at June 30th for the criticized and classified portfolio, in my prepared commentary, I call this out.
+There's the watch category, which we're not showing here.
+That's the lowest pass category.
+That category has come down by 50% from its peak.
+We're also seeing some of the criticized and classified have positive trends, so they might upgrade.
+That could cause that total criticized and classified portfolio to come down.
+I think from my perspective, I look at that total portfolio, and as we continue to show that portfolio decline towards year-end and even into 2027, that could potentially feed non-accrual and charge-offs.
+As the overall portfolio declines, so will the charge-offs and so will the non-accrual loans.
+It's not linear, but to me, as the overall portfolio gets smaller, so will that incidence of charge-offs.
+Justin Crowley
+Analyst, Piper Sandler
+Okay.
+That's helpful.
+Then maybe just shifting over to loan growth.
+I think previously you guys had talked about material reduction in CRE through the first half of the year, which we've obviously seen, then a return to growth in the back half.
+Is that still kind of how you're thinking about things?
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Justin, we're confident that we can stabilize balances through the back half of the year.
+We've already engaged with clients, going back six to nine months, to get back into the production mode.
+That will happen.
+Stabilizing will happen.
+Growth is probably not going to happen in the second half of this year.
+Justin Crowley
+Analyst, Piper Sandler
+Okay, that is going to be a function of ramping production and doesn't necessarily mean that any additional moves into held for sale are going to necessarily slow?
+Eric Newell
+CFO, Eagle Bancorp, Inc
+I think the held for sale tool or mechanism for disposition of underperforming assets, it's certainly a tool that we'll continue to use.
+My expectation, absent inflow during this quarter, as I mentioned in my prepared comments, most of that portfolio has subsequently sold or is under contract to sell.
+That could potentially be at a zero balance at 9/30.
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Right.
+Importantly too, Justin, year-to-date through 6/30, we've seen just under $400 million of multifamily credits pay off in full that were watch or criticized and classified assets.
+Many of those assets, as we've talked about in this setting, don't contain loss content and the market can absorb and has absorbed the principal balances that are there.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Justin, one other thing I just want to say just to make sure we're answering your question.
+We're going to arrest the decline in the balance sheet in the back half of the year, we will return to a growth footing in 2027.
+Justin Crowley
+Analyst, Piper Sandler
+Okay.
+Got you.
+Maybe just one last one, bigger picture here.
+Just as you kind of continue down this process, you learn more about these workout strategies.
+I know it's early but Steve, would love to kind of hear your thoughts here.
+Just again, higher level, just any early thoughts on potential changes to the strategy that you're thinking about at this stage?
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Honestly, coming in, I had looked as part of my due diligence process before taking the job.
+I looked at statistics, portfolios, reports, and I talked to board members about asset quality and got comfortable.
+Still, nonetheless, when you show up, it's what's in the report and what you see with your eyes is slightly different.
+Honestly, that's why I went and saw every substandard and special dimension that I could get to.
+To me, the past feels materially different than the future because every asset, as you drive up to an asset, you either are like, "Oh, that's not too bad," or you get a pit in your stomach.
+I really actually rolled up on a lot of the assets and it felt pretty good.
+As I worked through with the Special Assets team, there was a very clear plan on each asset and what we're going to do.
+What's it going to take to upgrade it?
+What does the borrower need to do?
+If the borrower doesn't take X action, what's our response to that?
+Honestly, I felt pretty good after getting out in the field and looking at all the loans and all the underlying properties.
+Justin Crowley
+Analyst, Piper Sandler
+Great.
+I will leave it there.
+Thank you so much, guys.
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Thanks, Justin.
+Operator
+Thank you.
+Our next question coming from the line of David Chiaverini with Jefferies.
+Your line is now open.
+David Chiaverini
+Analyst, Jefferies
+Hi.
+Thanks for taking the questions.
+Maybe following up on that last question with a big picture one.
+Steve, only three weeks at the bank, where do you see the most immediate opportunity during the turnaround at EagleBank?
+What is the lowest hanging fruit that you'll be focused on?
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Well, I really do think it's arresting the decline in the balance sheet.
+I've never seen a bank shrink to greatness.
+From my perspective, there's actually, it's kind of a coiled spring here with people ready to move forward and kind of produce.
+You have to get through the asset quality issues first, you got to make sure you have a strong balance sheet and that you have capital to grow.
+I think everybody's confident in that, so I feel really good about the production franchise.
+I spent a lot of time on asset quality, now I look forward to going on a lot of sales calls.
+I think the biggest opportunity is really just, I think everyone's building a fantastic business in C&I think an immediate opportunity is really to start booking real estate loans again.
+I know we're below 300%, 250%, 260% is not where we want to be either.
+I feel good about commercial real estate and moving forward with that with a disciplined credit approach.
+I also think there's a lot of opportunity with the branch network and having the branches go out in a significant calling effort and building business banking.
+Right now, what I'm going to focus on is what we do well and improving on that.
+Once we're done with that and we've got the momentum in the franchise, we'll look at some new things.
+David Chiaverini
+Analyst, Jefferies
+Great.
+Thanks for that.
+That's a good segue into my follow-up on C&I loan growth.
+Very strong, up 24% year-over-year.
+Can you talk about the outlook here, areas or verticals showing the most strength within C&I and the hiring pipeline?
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+Sure.
+Thanks, David.
+Just a couple of things.
+I've been at Eagle for just under 24 months, and one thing I can say with certainty is we just benefit from a great franchise here at EagleBank.
+We've had a strategy that includes really ginning up the production machine that was here and then adding some really nice new talent in the market.
+We have the benefit of some fantastic bankers who are really well-known here in the D.M.V., and that's afforded us opportunities to bring in new primary relationships, and that is the growth strategy.
+What I would say about going forward is normalized growth for us will probably look more like high single digits, low double digits.
+We're really pleased with the momentum we've been able to build, kind of growing into that leveling out.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+What I've been really pleased to see is the discipline of the cross-sell on the deposit side.
+They go after the loan.
+They're booking loans.
+They're cross-selling deposits and treasury management as a function of their sales process, which I think reflects a much more sophisticated approach than you see at most community banks.
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+I didn't respond first time around to your sector question.
+We have some areas of expertise where we really execute well, the growth is very diversified, and that's our goal.
+We're not looking to outpace growth in a particular industry segment.
+We really want the book to grow in a way that's balanced.
+David Chiaverini
+Analyst, Jefferies
+Very helpful.
+Thank you.
+Operator
+Thank you.
+Our next question coming from the line of Catherine Mealor with KBW.
+Your line is now open.
+Catherine Mealor
+Analyst, KBW
+Thanks.
+Good morning.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Good morning, Catherine.
+Catherine Mealor
+Analyst, KBW
+I wanted to ask about the reserve.
+If I look at the balance between charge-offs and reserve release over the past couple quarters, your reserve release has been about 50% of your charge-offs.
+I don't know if that's just a coincidence that it was around that same level the past two quarters.
+I'm just trying to think about how we should be modeling the pace of reserve release relative to the level of charge-offs that we're modeling.
+I think both are a little bit of a shot in the dark from where we sit.
+I think the provision is the hardest thing to model.
+Right?
+Just kind of curious how you're thinking about how those two things play off each other, and then how we should really just be thinking about perhaps provision levels in the back half of the year.
+Thanks.
+Eric Newell
+CFO, Eagle Bancorp, Inc
+Hey, Catherine.
+This is Eric.
+I would look towards my comment that I made in the first quarter where I was asked about the pace of provision and charge-offs, and I had indicated that the first quarter is a good proxy for what you could see for the full year.
+While this quarter is a little bit higher, our expectation is that provision expense and charge-off will be lower in the back half.
+There is some provision expense coverage release that you'll expect at year-end.
+I just don't believe it will be at the pace that you've been seeing in the first half of the year.
+Some of the release or in terms of the reduction in the coverage ratio that you saw this quarter was related to a charge-off on a individually evaluated loan.
+There was reserve sitting there at March 31.
+We got additional information from the client on how we're going to resolve and restructure that resulted in us charging off the specific reserve on that loan.
+I don't think you're going to see a much more meaningful coverage reduction to loans like you saw in the first half of the year.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Catherine, I want to just tell you, we're always going to have a fully funded reserve that appropriately reflects the risk in our loan portfolio.
+I think last year we had to catch up quite a bit, we're always going to have a fully funded ACL that reflects the risks in our portfolio, and you'll be able to rely on that number.
+Catherine Mealor
+Analyst, KBW
+Okay, great.
+Maybe over to deposit cost.
+It's interesting.
+There's such a narrative right now about higher deposit costs and how competitive it is.
+As I look at your deposit costing, you're among the highest of your peers.
+As you improve your deposit mix, do you think there's actually opportunity for you to continue to lower deposit costs?
+Are we more just it's just so competitive that we're kind of stable at these levels with higher rates?
+Eric Newell
+CFO, Eagle Bancorp, Inc
+I do.
+I do think there is an opportunity.
+To me, there's a little bit of an elasticity effect there.
+If you have somebody that has very low deposit costs given the composition and mix of their book relative to us, they are experiencing some pressure.
+Since we're already a high-cost payer, I think that we have more opportunity to reduce our costs more than some of the other folks that are feeling that pressure.
+We've been demonstrating that in the first half of the year.
+I will continue to show NIM expansion in the back half of the year as that activity continues.
+Catherine Mealor
+Analyst, KBW
+Okay, great.
+Thank you.
+Welcome, Steve.
+Looking forward to working with you.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Thank you.
+Operator
+Thank you.
+Our next question in queue coming from the line of Steve Moss with Raymond James.
+Your line is now open.
+Steve Moss
+Analyst, Raymond James
+Good morning.
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Morning, Steve.
+Steve Moss
+Analyst, Raymond James
+Morning, Ryan.
+Steve, starting off with you here.
+Welcome aboard, and just curious here, you started with your introductory comments on deposits here.
+Just thinking about your background at Western Alliance, I know you ran a number of deposit-rich verticals.
+Just kind of curious if you're thinking about maybe adding something like that here at Eagle.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Honestly, I was reflecting on that last night because I'm also a shareholder still there.
+They had a good quarter.
+I think when I started at Western Alliance, we were about $6 billion in assets, and now they're just closing in on $100 billion, largely organically.
+When I think about that coming over here, I do really want to lean into what we're already good at.
+I'm highly confident in our ability to identify some new opportunities to grow loans, grow deposits, and build some new businesses.
+I do want to fortify the franchise first.
+I will tell you, I'm going to wake up every morning with a keen focus on low-cost granular deposits.
+I think that is the most accretive thing any CEO can do is what's our funding profile look like?
+What does our deposits look like?
+What are the cost of those deposits?
+How are they cross-sold into our customers?
+Are we generating treasury management fees?
+I don't know what businesses I'm going to build yet, but I'm confident that I'm going to find something, and that business is going to be focused on deposits, and the lower the cost those deposits are, the better.
+Steve Moss
+Analyst, Raymond James
+Okay.
+Appreciate that color there.
+My next question here, just in terms of the criticizing classified loans.
+There are a number of loans in both buckets that mature this quarter.
+In fact, the largest special mention and largest substandard loan mature this quarter.
+Just kind of curious what your guys' expectations are around resolution or if there's going to be an extension here on those types of properties.
+In particular, the $56 million apartment in Prince George's County, and then the storage facility in Montgomery.
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Right.
+Thanks, Steve.
+As part of our standard operating procedure, we engage on maturities six to nine months before that, engage with clients where there are challenges with the asset.
+We're engaged actively, there are active resolution plans, as Steve mentioned in his comments, for each of the loans that are in there.
+On those two specific loans, our expectation and belief is that the multifamily loan in Prince George's County will be restructured on a longer-term basis, and that restructure will result in an improved risk profile for that asset.
+The expectation on the self-storage facility in Montgomery County is that that will be paid off in full by the end of the year.
+Steve Moss
+Analyst, Raymond James
+Okay, great.
+In terms of the other additions on the list here, several were apartment buildings and mixed-use and condo type stuff.
+Just kind of curious, is there any common theme with regard to those properties?
+I know it's a bunch of them are in D.C.
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Yeah.
+You're breaking up a little bit there, Steve.
+Two-thirds of the inflow of the $216 million is comprised of four assets.
+One of which, $34.5 million, Eric mentioned in his prepared remarks that paid off subsequent to quarter end.
+That paid off in full.
+That was $35 million.
+We're in active discussions on the other two multifamily properties that we believe will result in upgrades in the near term.
+The other asset is an ongoing resolution plan that we have that's a maturity that's farther out there.
+Steve Moss
+Analyst, Raymond James
+Okay, great.
+In terms of the C&I loan growth this quarter, continuing three very strong quarters of growth.
+Just kind of curious, what are you guys seeing for origination yields?
+What's the typical average loan size these days?
+How much are you guys the lead versus participating?
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+Steve, you were breaking up a little bit, I think I heard enough parts of your question.
+Come back if I don't answer them all.
+As I mentioned when I answered the prior question, I think when you look forward, you can anticipate C&I growth that's more high single digit, low double digit.
+In terms of participations versus new primary relationships, the business development strategy is heavily focused on new primary relationships.
+One way that I kind of keep tabs on that is the growth in treasury management revenue.
+That's growing at a nice clip.
+I'm very pleased with that.
+While we certainly do some clubbing with other community banks, and we've entered into a handful of participations, if you looked at the production, it's dominated by either small clubs where we have significant deposits or ancillary and primary new relationships.
+In terms of new, I think you asked about new average loan size, is that right?
+Steve Moss
+Analyst, Raymond James
+Yeah.
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+If you look at the portfolio generally, typical relationship is somewhere between $5 million and $10 million in exposure for us in C&I.
+As we do new loan production, we're really trying to serve the true commercial and lower middle market client.
+While new loan production is a little on top of that, a little bit larger than that, it's still in the band you would expect.
+Think typically $7 million- $15 million or $20 million for a new relationship.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+I just want to kind of reinforce that position.
+This happened before I joined.
+The company since last year really has been very cognizant of the size of loans that they close and selling down pieces of things that are larger, whereas perhaps in the past, they would have kept the whole amount.
+Loan size discipline and concentration is being managed.
+I think frankly that's some of the challenges Ryan faces will some of the payoffs are $60 million, $70 million, and we have to do two, three loans to replace that.
+It takes a little while to build the production staff and the manufacturing capacity to do that.
+To me, it's well worth it.
+I'd rather have three $30 million loans than one $90 million loan.
+That's kind of the approach they've been taking, which I was pleased to see when I got here.
+Steve Moss
+Analyst, Raymond James
+Okay.
+That's great color.
+Just my one last question on the commercial is just kind of curious, where are new origination yields for the commercial book these days?
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+When you say where are they, geographically?
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+No.
+What's the yield?
+Steve Moss
+Analyst, Raymond James
+The yield.
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+I believe, you can keep me honest here.
+I think we're in the mid 200 basis point range.
+Eric Newell
+CFO, Eagle Bancorp, Inc
+Yeah.
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+Over.
+Eric Newell
+CFO, Eagle Bancorp, Inc
+Yeah, I would say, because I observe loan committee, we're probably between 225 to 275 over is most of the origination activity.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+I think that yield reflects the risk of the portfolio.
+That's the appropriate yield for the risk that we're taking.
+That's why we're comfortable with high single, low digit growth because it's good yield, but it's good credit.
+Steve Moss
+Analyst, Raymond James
+Okay, great.
+I really appreciate all the color here today.
+Thank you very much.
+Operator
+Thank you.
+Our next question in queue coming from the line of Christopher Marinac with Brean Capital, LLC .
+Your line is now open.
+Christopher Marinac
+Analyst, Brean Capital, LLC
+Hey, thanks.
+Good morning.
+Wanted to ask about C&I deposits and how new inflows are occurring and kind of new account openings in C&I that we may not see from the slide last night.
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+Yeah, sure.
+I think I've been really pleased with the new primary relationship additions that the team has been making since I joined the bank.
+I think that's really what shows in that 14% year-over-year growth in deposits.
+I will note that in our portfolio, we have a handful of really great long-dated clients that are impacted either by seasonality or by transaction timing.
+A good example of the former would be our charter school portfolio, where we receive a lot of funding at a certain time of year and then draw that down across the 12 months.
+A good example of the latter would be a class action law firm where inflows can really come in heavy and then get dispersed out.
+On a quarter-by-quarter basis, you could see some variability.
+But I'm pleased with that kind of overall trend.
+I think I mentioned one of the other metrics that we keep an eye on is the treasury management revenue growth kind of period over period.
+That's been climbing at a nice clip.
+To me, that's really indicative of new account openings, new primary relationships where you're getting all the treasury, all the payables and receivables.
+Overall, I think very strong positive trends.
+Christopher Marinac
+Analyst, Brean Capital, LLC
+You're incenting your team to bring in new deposits.
+There's been a whole behavior shift that we just haven't seen the balances realized yet.
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+We're definitely incenting the team on new deposits.
+I would argue we are seeing the benefits given the percentage growth that we've seen over the last four quarters.
+It's absolutely an important part of the incentive plan.
+Christopher Marinac
+Analyst, Brean Capital, LLC
+Steve, maybe the same question for you.
+As you've built deposit frameworks over the years, how important are incentives, and is that something that we'll hear more about in the next few quarters?
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Yeah, I think 50% is leadership and direction, and 50% is in incentives because you have to back up what you say with actions.
+To me, I'm going to wake up every day thinking about and asking about deposits, and that will percolate through the culture pretty quickly.
+I want to make sure that the people that kind of grab onto that we reward them appropriately.
+Early in my career, I was more of a loan officer, and it was a low interest rate environment, and it was kind of like, yeah, get a loan, and it was pretty easy to fund it.
+The last, since rates started rising, I just have had a real sea change.
+The value of a franchise is its deposits.
+Every day I wake up thinking about deposits and how can I get them, and how can I get more, and how can I cross-sell TM.
+It takes a little while for people can hear that, but it takes them a little while to learn how to do it and be good at it.
+I think they're through that transition.
+Then once they are good at it, they should certainly be rewarded for that behavior.
+You will hear more about that, and I think the change is well underway.
+Evelyn Lee
+Chief C&I Lending Officer, Eagle Bancorp, Inc
+One other thing just to mention is obviously, we can grow new primary relationships, but if we have relationships going out the back door, that can be futile.
+I've been very pleased with the client retention that the team has exhibited.
+I know Eric mentioned in his prepared remarks the deposit retention CRE as compared to the loan reduction.
+I think the team has done a really good job on retention and maintenance of the franchise and the brand.
+Now we're driving new relationships.
+Ryan Riel
+Chief Real Estate Lending Officer, Eagle Bancorp, Inc
+Chris, just to pile on too.
+On the incentive side of that question, we've implemented, in recent times, an incentive plan that covers our entire branch network and our business bankers that's enhanced and deposit- heavy.
+That behavior, to Steve's point, over time you will see the results of that behavior change.
+Christopher Marinac
+Analyst, Brean Capital, LLC
+Great.
+Thank you all for your input on that.
+Just one last asset quality question, which is, would foreclosures be something that you would do more of, and would that kind of accelerate further credit risk recognition?
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+I'm not afraid of foreclosures, and sometimes that's the best way.
+Sometimes an expedient way or in a very distressed or difficult situation, a note sale is better.
+The reality is sometimes you have to foreclose, and if that's what we have to do to get resolution on the assets, that's what we're going to do.
+Oftentimes a foreclosure process will result in the borrower realizing the seriousness of the situation and taking the appropriate action to protect their assets.
+Foreclosing on properties will be part of our resolution plans.
+Christopher Marinac
+Analyst, Brean Capital, LLC
+Great.
+Thanks again, Steve.
+Thank you everybody for hosting us this morning.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Thank you.
+Operator
+Thank you.
+I'm showing no further questions in the Q&A queue at this time.
+I will now turn the call back over to the company President and CEO, Mr. Steve Curley, for any closing comments.
+Steve Curley
+President and CEO, Eagle Bancorp, Inc
+Well, I just want to thank everybody for their participations and questions during the call.
+I just want to reiterate how proud I am to be here at Eagle and how much I'm looking forward to the future here.
+We look forward to connecting with you guys again next quarter.
+Thank you.
+Operator
+This concludes today's conference call.
+Thank you for your participation, and you may now disconnect.
+Data Source:
+Quartr
+Last updated:
+Jul 23, 2026
+Earnings call transcripts are provided by
+Quartr
+and are published within hours after each earnings call.
+Update frequency:
+Quarterly
+Data Sources
+Report a data error
+Play Audio
+Download Transcript
+Speakers (10)
+Slides
+Earnings release
+Quarterly report
+Install The App
+4.9
+7.2K
+4.8
+8.0K
+Sections
+Stocks
+IPOs
+ETFs
+Private Companies
+Services
+Stock Analysis Pro
+Free Newsletter
+Get Support
+Install The App
+Website
+Login
+Create Account
+Changelog
+Data Sources
+Advertise
+Help Center
+Company
+About
+Contact Us
+Terms of Use
+Privacy Policy
+Affiliate Program
+Market Newsletter
+Daily market news in bullet point format.
+Subscribe
+Site Theme
+Light
+Dark
+© 2026 StockAnalysis.com. All rights reserved.
