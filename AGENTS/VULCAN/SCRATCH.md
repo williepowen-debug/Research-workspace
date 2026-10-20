@@ -1,4 +1,10 @@
-> # ⛔ 2026-10-16 (Fri) POST-CLOSE — READ THIS BLOCK FIRST. PROME-spawned Tier-1 wake (WQ-184 L0 on the two P1 10/16 rows; spawner prome-7b), boot 17:08 ET → closeout ~17:22 ET (`date`). Scope: grade GPU reading 6 + Volta, record the 10/16 tape, drain the inbox.
+> # 2026-10-20T12:40:03-04:00 — READ THIS BLOCK FIRST. Bounded WQ-441 ruling receipt (Will, direct Codex session).
+> ▶ START HERE: Will selected B verbatim; see `outbox/2026-10-20_wq441-B-ruling-score-proposal.md`. Volta +150bp versus sounding = RED, S5 event n=2; preserve original A grade.
+> Existing canonical score remains S5 4 / composite 15/25. Separate 4->5 proposal routed to PROME; not self-applied. Reconcile STATUS/VX/THESIS/register/brief after disposition.
+> Startup backlog remains open: 17 inbox files, EDGAR stale, due housekeeping. No research refresh claimed. Model UNKNOWN; Codex session 01a15a0f-8a44-76c2-9ebc-c1d446e82bf0; fleet transport/discovery unverified.
+> Git: bounded bounce receipt; path-scoped commit and safe-push follow. PROME packet consumption pending.
+
+> # ⛔ 2026-10-16 (Fri) POST-CLOSE — superseded for resume purposes by the 2026-10-20 ruling block; PROME-spawned Tier-1 wake (WQ-184 L0 on the two P1 10/16 rows; spawner prome-7b), boot 17:08 ET → closeout ~17:22 ET (`date`). Scope: grade GPU reading 6 + Volta, record the 10/16 tape, drain the inbox.
 >
 > ## ONE LINE: **No score moved; composite 15/25. Volta GRADED: sold 10/15 at S+650 / OID 95 (Bloomberg) ⇒ NOT RED on the letter (reading A, formal launch talk); RED n=2 on reading B (SOFR+500 sounding). WQ-441 (Will, due 10/17) picks the reading — nothing self-applied** [KB-227].
 >
