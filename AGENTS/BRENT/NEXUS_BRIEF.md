@@ -1,9 +1,9 @@
 # BRENT — NEXUS Brief
 
-**Status:** Energy WAIT retained; authorised charter/reader cleanup implemented, original text conserved; independent PROME review pending.
+**Status:** Energy WAIT retained; first BRT31week evaluated, overallOPEN; cleanup accepted and numbering warning restored.
 **Domain:** Oil/energy supply, demand, structure and transmission.
 **Thesis version:** v5.13; no calibration or capital-authority change.
-**As of:** 2026-10-20T18:40:39-04:00 | STATUS commit: `b986c31bea7881296a74dae994ab9d90a63f6038` — C6(b) SCOPED-PARTIAL. Cross-domain/calibration sections below are preserved verbatim dated observations, not newly verified facts. October14 future-release/quantity/expiry/clear-mail wording is superseded by [TRADE](TRADE.md), [handoff](SCRATCH.md), [current news report](research/2026-10-20_deal-news/REPORT.md), and [docket](docket/CATALYSTS.tsv). USER.md governs expiry communication: Will manages expiries; no reminders. No historical candidate becomes a current quote or approved replacement.
+**As of:** 2026-10-20T19:21:01-04:00 | STATUS commit: `e91484c27396013b6591babc16d0c45bfabadc98` — C6(b) SCOPED-PARTIAL. Re-verified scope: October15EIA/weekOctober9 exact archived weekly gasoline inputs, required October12/October13,2025 retail pair, matched weekly regional diesel series, bounded tax-policy sources and PROMEcleanupacceptance. [Owner evaluation/source limitations](research/2026-10-20_eia-oct15-evaluation/REPORT.md). Other cross-domain/calibration observations retain their dated vintages. October14future-release/quantity/expiry/clear-mail language is superseded by TRADE/SCRATCH/currentnews/docket. No new broker, settlement/holding, company/cargo grade or capital authority. USER.md: Will manages expiries; no reminders. Archived weekly reconstruction is not a release-day localXLS capture; tax review is not exhaustive50stateabsence.
 
 ## CROSS-DOMAIN
 
@@ -11,6 +11,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| HENRY / CARL / TERRY / PROME | First BRT31weekOctober9 NON-QUALIFYING, exact4wkYoY−0.3959714212%; required priceYoY+41.4897092453%, streak0/pricefailures0; overallOPEN40%unchanged. Matchedweeklydieseloutput−101kb/d, ULSD−121 despite stronger refinery runs; preparation's4wk/weeklymix corrected. | 🟠 | No registered US demand-weakening confirmation or holding grade. NCin-windowgasolinecut3.7523%SEDScoveragealonebelow10%; other identified cuts prewindow. Policysearchbounded, not50stateclearance. Archivedprimaryrowsvalidate exactinputs; no release-daylocalXLSclaim. Lowerexports offsetpressure; no measured Russianincrement or companyearningsedge. [Report](research/2026-10-20_eia-oct15-evaluation/REPORT.md). |
 | HENRY / CARL / TERRY / PROME | WALTER014 primary-checked: EIAOctober12gasoline4.331/diesel6.179USDgal, both easedWoW; postedOctober14. FedExground/home surcharge28.75%October12–18 vs29.25% priorweek, indexedOctober5diesel. | 🟠 | Retail relief and lagged published customer pass-through coexist with high fuel costs. Contract/index/invoice/margin differ; no blanket carrier loss, Russian cargo receipt or diesel-to-core attribution. [Evidence](audits/2026-10-14_operational-followups/RETAIL-TRANSMISSION.md). |
 | TERRY / PROME | PROME independently ACCEPTED WQ420/L684 exact prospective VLO precision/window insert, sourceOctober14 13:46EDT; updated docket/result read during sweep. | 🟠 | Installation-acceptance debt closed in live BRENT readers/preparation. Actual source/holding grade remains TERRY's; originalshare only, D78unknown and terminalscale unchanged. No new order, owner acknowledgement or recipient consumption inferred. [Receipt](audits/2026-10-14_consistency-sweep/owner-acceptance-receipt.json). |
 | TERRY / PROME | Will-requested option-continuity study completed: USO Dec18 162/175 leads bounded comparison against outright calls, BNO and VLO/MPC/PSX. Current vendor screening only; material crossing friction, quote clocks/Greeks and price edge unproved. | 🟠 | Concrete owner-review input, no card or order. Structural tenor/cap/shape preserved; BNO Jan15 is93DTE, not eligible by relabelling. Formal entry/Will approval remain; no dispatch or recipient consumption claimed. [Study](research/2026-10-14_energy-option-continuity/REPORT.md). |
@@ -32,7 +33,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | IEA / country issuers | Board decisions, country diesel quantities, old/new schedules, supplemental nature, actual deliveries (OMR public analysis read) | OMRpublicreadOctober14; BoardOctober15; subsequentdeliveryevidencewhenpublished | Product relief versus remaining old pledges | Changes physical/expectation assessment; does not itself authorize an energy purchase. |
-| EIA / operators | WPSRweekOctober9 regional inputs/output/inventories/imports/exports; named-site states | October15noonEDTrelease; operator inputs when published | First eligible Isaias/BRT31print, mostly prelandfall and before RussiaOctober10permission | Cannot authenticate later cargoes/fullrestart. Own-site evidence determines who captures margins. |
+| EIA / operators | Next first-publishedWPSRweekOctober16; named-site/cargo evidence remains missing | October21,10:30ET under verified standard schedule | October15weekOctober9ownergrade is complete; next print may start a qualifying streak, cannot complete two after firstnonqualification | No inferred laterRussianreceipt/fullrestart/companycapture; capture exactseries/window first. |
 | TERRY | Existing WQ386/420 held-VLO source grade; installation acceptance now complete | Existingtouch; DecemberbasisOctober15 | Month switch applies to originalshare; no automaticsale | PROME L684accepted; TERRYgrades, Willorders. No new cadence, threshold or exit cancellation. |
 | FALCON | VI-2026-0028 laden-state/trigger(c), NewAndros/HerculesStar adjudication | Existing overdue obligation sinceSeptember14; not re-asked | Vessel evidence owner | No fresh casualty/barrel loss inferred from announcement. No BG02move. |
 | PortWatch / FALCON | Aug31–Sep1 target rows | Existing unresolved, dateUNKNOWN | Impeached transit measurement | Frozen branches only on target match; no new physical-normalization grade. |
@@ -57,7 +58,7 @@
 
 ## NEXT DECISION POINT
 
-Complete the saved October15 EIA/BRT31 evaluation, including its price leg, and the HENRY measurement handoff. Deferred WALTER ACTION work includes monthly jet-fuel basis and conflicting DOE reserve totals; no disputed figure adopted. Company capture, expectations and valuation remain necessary research inputs. No new Will decision or card created.
+October15 EIA/BRT31 first-week evaluation and price leg are complete. HENRY's December evidence adoption/rejection is next under the already-approved December basis; no discretionary month choice. Next EIAprint is October21,10:30ET. Deferred WALTER ACTION work includes monthly jet-fuel basis and conflicting DOE reserve totals; no disputed figure adopted. Company capture, expectations and valuation remain necessary research inputs. No new Will decision or card created.
 
 ## WATCH (next 2–4 weeks)
 
