@@ -1,4 +1,10 @@
-> # ⛔ 2026-10-20T13:01:00-04:00 — READ THIS BLOCK FIRST. Will-directed catch-up completed within the scope below.
+> # ⛔ 2026-10-20T14:07:21-04:00 — READ THIS BLOCK FIRST. Will requested a CoreWeave-focused subfolder.
+> ▶ START HERE: `CRWV/README.md` → `SOURCE_MAP.md`. Library has86 source copies (79documents/7datafiles) and6 frozen extracts, including36KBrecords. Originals unchanged; specialist records retain authority.
+> Read the DDTL and power-exposure corrections before older company research. Snapshots are dated evidence, not live quotes, new approvals or automatic task instructions. No score, threshold, forecast or trade change.
+> Next work remains META10/21 and10/23readings + GOOGLmethod/issuer-issuance residuals; score15/25. Earlier catch-up details remain in the block below and STATUS.
+> Validation: source-copy hashes and parsed extract rows checked; generated index/source links resolve. Path-scoped commit and safe-push follow; native cross-fleet notification/consumption unavailable/unverified.
+
+> # ⛔ 2026-10-20T13:01:00-04:00 — superseded resume block. Will-directed catch-up completed within the scope below.
 > ▶ START HERE: META10/21after close →10/23Mag7/S2/GPUslot; GOOGLcadence/issuanceresiduals registered10/23. Scores3/2/3/3/4=15/25. Bselectedandretained,2S5events; separate scoreproposal pending throughPROME.
 > Evidence: reports/2026-10-20_catchup/REPORT.md;18intakefilesprocessed;9issuercollection/30tier3rows;validator41/41;THESIS17,288B;4resolvedforecastsarchived;QQQCRWV0.120919%[10/19]. Material63-session reconstruction error0.4754pp retained.
 > Partial: GOOGLmodelrc2(23dvs24dmin), issuancefullinventory/denominator; transport explicit-date census complete with limitations; source rights/actual deployment loss unknown. No new score/trade or out-of-cadence series row. Charter31,021Bcandidate is proposal only.

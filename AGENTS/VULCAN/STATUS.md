@@ -2,6 +2,8 @@
 
 **Last Updated:** 2026-10-20T12:58:54-04:00 — Will-directed catch-up. Composite **15/25**, scores unchanged. **WQ-441 B selected and retained: Volta is S5 event n=2; separate S5 4→5 proposal pending, not applied.** Intake18→0 for the captured batch; later arrivals checked separately. Nine issuers fetched,30 new tier3 filings; no new tier1/2 event. Collection refreshed but GOOGL cadence component still fails (23d vs24d historical minimum); model window UNGRADEABLE. No old tape prices presented as current. Full synthesis: `reports/2026-10-20_catchup/REPORT.md` [KB-231..242].
 
+**Organization update 2026-10-20T14:07:21-04:00:** [CoreWeave research library](CRWV/README.md) now gathers86 dated source copies and6 focused ledger extracts (36 KB entries). Originals remain authoritative; copies are frozen references, not refreshed market data. Scores, rules and research gaps unchanged.
+
 **Class:** Market-agent (AI-capex/semi/memory → systemic risk) · **Spawnable by:** PROME or Will · **Maturity:** **L4** (DAEDALUS `FLEET_MAP.tsv` since 2026-09-05; Last_scored 2026-09-17, `7bfee0060`; ⚠️ DAEDALUS PR#7 RE-SCORED 2026-10-01, L4/H held — never sent to this desk, reported in its 10/08 refresh packet; refresh 10/08 also held L4/H)
 
 > ## 📖 WHERE THINGS LIVE (READ-CAP split 2026-09-02; rotated again 2026-09-25)

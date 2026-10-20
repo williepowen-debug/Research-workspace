@@ -219,6 +219,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 
 | File | Purpose |
 |------|---------|
+| `CRWV/README.md` | CoreWeave company research entry point. Source map + content-hash manifest; frozen document/data copies and focused ledger extracts under CRWV/archive/. Originals retain authority; no auto-refresh, new cadence or whole-library boot read. |
 | `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** <250 lines. |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas feeding PROME synthesis. FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |

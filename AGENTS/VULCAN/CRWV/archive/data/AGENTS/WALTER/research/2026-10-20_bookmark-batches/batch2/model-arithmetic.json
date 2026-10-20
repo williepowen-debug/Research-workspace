@@ -1,0 +1,28 @@
+{
+  "10": {
+    "annual_revenue_per_MW_millions": 10,
+    "capex_per_MW_millions": 30,
+    "capacity_MW": 200,
+    "annual_unlevered_aftertax_CF_millions": 1434.5,
+    "five_year_IRR_pct": 6.2608275175929045
+  },
+  "13": {
+    "annual_revenue_per_MW_millions": 13,
+    "capex_per_MW_millions": 30,
+    "capacity_MW": 200,
+    "annual_unlevered_aftertax_CF_millions": 1801.85,
+    "five_year_IRR_pct": 15.281792261985661
+  },
+  "image_equity_check": {
+    "rounded_image_cashflows_millions": [
+      -1200,
+      463,
+      538,
+      614,
+      690,
+      766
+    ],
+    "IRR_pct": 37.777776152177864
+  },
+  "limits": "Arithmetic checks of displayed reference/blended scenarios only, not validation of actual contracts, tax eligibility, financing price, residuals or the source workbook. Terminal tax shields excluded as source cash flows show zero after term. Source assumptions remain illustrative."
+}
