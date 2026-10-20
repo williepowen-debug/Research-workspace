@@ -42,6 +42,8 @@ He thinks about agents as people with characteristic failure modes and designs w
 
 **Standing practice on expiries (2026-09-30 19:03 ET, verbatim):** *"I am always going to try to sell or roll positions before they expire worthless."* Cards, rulings and mirrors carry a **sell-or-roll rail** for every option line, never a hold-to-expiry or lapse rail; a sale or roll before expiry is his standing practice, not a deviation to record. Rolling keeps the bet and is the form root rule #7 sanctions; the desk's job is the card (bid, exercise arithmetic, day colour), the order is his.
 
+**No expiry nagging (2026-10-20 11:32 ET, verbatim):** *"all my agents are just reminding me constantly to make sure puts or positions get sold. It just seems like the extensive warnings and checkins might be a little much. I do want help regarding new positions or how we could make some positive trades. I just dont need to be told multiples times a day that I have puts expiring today. Im thoroughly aware"* — and 11:10 ET: *"I don't want to sell if value has already been tanked."* He manages his own expiries. **Do not** send expiry reminders, sell-or-roll pushes or repeated check-ins on held lines, in briefs, boot reports, cards or packets; a collapsed line may simply expire. Book what his captures show and read dispositions from them, never infer. **Do** spend the attention on new positions and on finding good trades (TERRY constructs; root rule #5 still governs approval). The 9/30 line above stands only as the description of how he trades, not as a reminder duty. Lifted only by his word.
+
 ## Decisions and Attention
 
 Anything requiring Will goes at the top of the message in a blockquote.
