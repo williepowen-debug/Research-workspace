@@ -46,3 +46,7 @@ These were not completed by refreshing today's data. My prior “caught up” st
 R3 owner answer is written/committed; PROME's actual config landing remains unverified. Native cross-session notification/consumption is unverified, not owner absence. Existing MEMORY rotation advisory and charter explicit-read size/perimeter issue remain housekeeping. Optional LEDGER_GLOB is absent, but the actual ledger nudge checked three live ledgers; absence did not mean the check was unavailable. Foreign VULCAN/WALTER changes defer pulling and were untouched.
 
 **Recommendation:** prioritize grader alignment plus independent verification, then the two small output/documentation corrections. After the next auction duties, address the current HY market-access gap and bounded swap validation. No new Will ruling is requested by this audit; it identifies priorities and preserves existing deferrals.
+
+## Repair follow-up — October20
+
+Will authorized the four immediate repairs. Implementation and durable tests now saved; final independent review and heavy-closeout evidence are indexed at `../analysis/2026-10-20_monitor-repairs_ACCEPTANCE.md`. Original audit above remains the as-found record. The broader source-access, proxy-duration, event-time and governance gaps are not closed by these repairs.

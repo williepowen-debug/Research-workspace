@@ -1,29 +1,19 @@
-# BOND processing receipt — October20,2026 catch-up
+# BOND receipt — October20 monitor repairs
 
-Session: OpenAI Codex `01a15a02-565d-76c1-9d89-07653c5d3b62`; exact deployed model UNKNOWN. Will-directed live-news/file catch-up. Report: `analysis/2026-10-20_catchup/REPORT.md`. Standard closeout.
+Task: Will's “yes lets fix this now” following four-item owed-work audit. Runtime OpenAI Codex; exact model UNKNOWN; main session01a15a02-565d-76c1-9d89-07653c5d3b62. Heavy closeout.
 
-| Incoming file | Action | Evidence / record | State consequence |
-|---|---|---|---|
-| SIG-W-20261016-007 | INTEGRATE | KB484, FT11 FLOW attribution reviewed | No causal identification/hypothesis weight; owner grade unchanged |
-| SIG-W-20261016-020 | LOG_ONLY | KB485, LIQ07 limits preserved | Does not grade BOND's separate UNGRADED funding window |
-| SIG-W-20261016-021 | LOG_ONLY | KB486, Eurostat final/calendar | First of two finals; HANS consequence remains owner-owned |
-| SIG-W-20261018-004 | LOG_ONLY | KB487, France context/source disagreement | No collapse/censure-date inference |
-| SIG-W-20261019-003 | INTEGRATE | KB490 + current FRED sequence | >320sustain reproduced; no capital permission |
-| SIG-W-20261019-010 | INTEGRATE | KB489/476, LIQUID corporate/Treasury stock comparison | Selective net positions, not proven forced sales/refusal |
-| SIG-W-20261019-014 | INTEGRATE | KB488 + directly fetched current secondary screen | Clock/basis limits retained; no U.S. funding transmission inferred |
-| 2026-10-19_from-HENRY_rates-ACM-source-repair | INTEGRATE | KB491/478; ACM issuer arithmetic reproduced | Primary Treasury frontier newer than dated mirror |
-| 2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds | LOG_ONLY | KB492, dated companion | No current ORACLE odds substituted |
+| Item | Result | Evidence |
+|---|---|---|
+| Grader frozen2dp alignment | COMPLETE | All strict comparison legs use published bars; explicit --frozen-bars JSON identity/date/provenance/n validation. No snapshot = AUDIT ONLY; raw rolling audit retained. October21/22 existing freezes transcribed. |
+| L410 final independent review | COMPLETE within stated limits | Independent read-only Codex helper PASS; final hash and A1–A6 in analysis/2026-10-20_monitor-repairs_REVIEW.md. Historical October1 A2 byte-identical comparison not reconstructed. |
+| F2 packet frequency | COMPLETE | Dated original-issue-rank1/53 replaces stale live0/52 stub; >50% cut/calculations unchanged. |
+| HYG retired clause | COMPLETE | CDX monitor/tool mark8/23retirement; no live request/trigger. True CDX/data and duration-confound gaps retained. |
 
-All nine git-moved to `inbox/processed/`; seven WALTER board-log entries appended. No new threshold breach routed. Additional existing R3 verdict answered by name to PROME (KB496); config landing unclaimed.
+Acceptance/report: analysis/2026-10-20_monitor-repairs_ACCEPTANCE.md. Tests18/18 regression,38/38 grader; buybackselftest0fail; independent mockedCDXoutputrc0. Reviewer found five failure classes, repaired and independently rechecked. Exposed helper runtime has no Anthropic/Opus model; verification is Codex, actual helper model/session UNKNOWN.
 
-23KBrows475–497;26past-reviewACTIVErowsmarkedSTALE;17VXcurrentevidencerows and7FLOW evidence rows updated, no score/flow-state change. BND32 registered65%,base5/6completed2026meetings,OPEN1. Composite17/35,counter2. WQ357approvalrecovered,notnewlygranted;no fillinferred. Researchsourcefrontiers inSTATUS;originalrawbytesandfailurelimitsinreport. MEMORY/auto-memoryno-op.
+KB499; KB498as-found audit markedSUPERSEDED. STATUS/docket/TRADE/charter/handoff/brief updated. No new mail consumed or board_log rows. Earlier nine inbox deliveries remain processed; catchup receipts and sequencing deviation preserved in Git/SCRATCH. No market refresh, threshold/grade/score/token/position change or new capital request. Broader gaps unchanged. No new decision for Will.
 
-Checks: boot_recomputeafterrc0;kb_lint/mirrorpass;correctionsrc0;docketrc0verifiednothing,issuerPDFmanuallyverifiedseparately. Standardrunner/freeze/commit/pushreceiptsinregistryandGit. ForeignWALTERdirtypathsleftuntouched;startup pull deferred. Venvdependenciesavailable;optionalLEDGER_GLOBabsent. Discoverythread-localonly;nativepeertransport/recipientconsumptionUNKNOWN. No external message,helper,trade,newcapitalrequestorexpiryreminder.
+Closure evidence packet to PROME under self-authorship carve-out①. Saved/committed does not establish notification or consumption. Foreign dirty files untouched; startup pull deferred. System Python research dependencies missing, root venv complete; optional LEDGER_GLOB absent. Heavy C12 runner/freeze/transcript/commit/push establish persistence separately.
 
-Calendarpass:sevenmissingselectedmacrodatesaddedfromissuerBLS/BEA/Treasuryschedules(KB497);10completedcatalystrowsrotatedverbatimtosources. Pre-closeoutcheckrc0.
-
-## Closeout sequencing correction — October20 12:12 ET
-Owned research commit cfa4b4201 ran after a FREEZE MOVED verdict because verification and commit were placed in a shell command without a success guard. This violated C12 ordering. The digest includes staging state and global HEAD, and staging occurred after the earlier passing run. No data repair is inferred from a clean commit. No amend or reset performed. Restarting the full standard runner after final staging, then inspecting a separate verification result before any final commit/push. The final audit commit preserves this deviation and the new validation transcript.
-
-## October20 12:53 ET — owed-work question
-Auditreport reports/2026-10-20_owed-work-and-gaps.md,KB498. Fourlegacyrepair/verificationitemsremain;sourcegaps,scheduledreleasesandgovernance-deferralskeptdistinct. Ninepreviousincomingdeliveriesremainprocessed;no newmail. No repair/threshold/tradeproposed. Lightcloseout;analyticalsurfacesintentionallyunchanged.
+## Late arrival during heavy closeout
+VULCAN October20 selected-long-tenor issuance packet LOG_ONLY, moved to inbox/processed; KB500. Owner report and SEC locators read, no independent BOND SEC re-fetch. Selected MetaMay2026$25B/$14B20yr+;AmazonJuly9$25B/$9B20yr+. General-corporate proceeds not whollyAI;incompleteinventory/no matchedIGtenordenominator;no marketshare/ratescausality. No newscore/threshold/capitalconsequence. Total incoming10processedtoday;board_logunchanged(no newWALTERpacket). Firstheavy run failed on newly nonempty inbox; late packet integrated and full C12 restarted.

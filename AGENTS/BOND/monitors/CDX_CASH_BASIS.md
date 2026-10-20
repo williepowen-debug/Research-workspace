@@ -1,14 +1,14 @@
 # BOND Monitor — CDX/Cash Credit Basis
 
 **Owner:** BOND
-**Last Updated:** 2026-10-20 — proxy run in repository venv. Current evidence below supersedes prior header (preserved at `../domain/sources/2026-10-20_CDX_prior-header.md`).
+**Last Updated:** 2026-10-20 — retirement text reconciled after proxy run in repository venv. Current evidence below supersedes prior header (preserved at `../domain/sources/2026-10-20_CDX_prior-header.md`).
 **Purpose:** Detect when faster synthetic/hedging credit demand leads cash spread repricing.
 
 ## Current Read — 2026-10-20
 
 Yahoo proxy: October19 close HYG/IEF0.8529,z20−1.8456;LQD/IEF1.1421,z20−1.3231. October20 evolving row0.8518/−1.7865 and1.1431/−0.9289. Output: `../analysis/2026-10-20_catchup/cdx-proxy.txt` (KB481).
 
-**z20 breached −1.5 while cash HY also widened: co-movement, not synthetic-leading-cash divergence.** Cash HY329bp [10/19] is not tight relative to263anchor. The ratio is cash ETF versus a duration-mismatched Treasury ETF; HYG is not synthetic and the IEF denominator remains a confound. True CDX and the VIOLET option leg are not observed. VX06 stays1; no new cross-agent divergence signal.
+**z20 breached −1.5 while cash HY also widened: co-movement, not synthetic-leading-cash divergence.** Cash HY329bp [10/19] is not tight relative to263anchor. The ratio is cash ETF versus a duration-mismatched Treasury ETF; HYG is not synthetic and the IEF denominator remains a confound. True CDX is not observed. The HYG skew-direction trigger was RETIRED August23 (VX-BND-06); it is not an outstanding feed request. VX06 stays1; no new cross-agent divergence signal.
 
 ## Prior read — 2026-09-16 (SUPERSEDED 2026-09-28; retained as history)
 
@@ -49,9 +49,9 @@ Yahoo proxy: October19 close HYG/IEF0.8529,z20−1.8456;LQD/IEF1.1421,z20−1.32
 
 True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT free** [established ~2026-06-05, **re-test: 2026-12-01** — a paywall is a commercial decision and decays like any other claim; re-test by attempting a free primary, not by re-reading this line]. For weeks this vector sat as "🟡 data gap" — effectively dark. As of 6/5 it is monitored via a **free proxy**, with explicit limits:
 
-- **Proxy (BOND, free):** `monitors/cdx_proxy.py` — the **HYG/IEF ratio** (HY credit ETF stripped of duration via the 7-10Y UST ETF) isolates the credit component of HYG. LQD/IEF gives the IG cross-check. Run it any session; cross-check vs cash HY OAS (FRED `BAMLH0A0HYM2`).
+- **Proxy (BOND, free):** `monitors/cdx_proxy.py` — the **HYG/IEF ratio** compares a HY credit ETF with a duration-mismatched 7-10Y UST ETF; it does not isolate credit from rates. LQD/IEF gives the IG cross-check. Run it any session; cross-check vs cash HY OAS (FRED `BAMLH0A0HYM2`).
 - **What the proxy CAN see:** faster-cash (liquid ETF/hedging layer) vs slower-cash (computed OAS) lead/lag.
-- **What it CANNOT see:** HYG is *cash*, not *synthetic*. The genuinely synthetic, fast-money signal is **HYG option put-skew / implied vol** — that lives in **VIOLET's** domain (options/vol). For the true synthetic read, request HYG skew from VIOLET. True CDX needs the **S&P Global MCP connector (auth required)** or a paid Markit feed.
+- **What it CANNOT see:** true synthetic-versus-cash basis. HYG is cash. The HYG options skew-direction leg was **RETIRED 2026-08-23**, per `workbook/VX.tsv` VX-BND-06, following VIOLET's August20 reply: no standing history to measure steepening. Do not revive it as a request or trigger. True CDX access remains unverified/unavailable in this tool.
 
 ## Historical Read (7/28) — 🟢 **NO divergence, and the proxy INDEPENDENTLY CONFIRMS the credit widening is not credit-led**
 
@@ -93,10 +93,10 @@ True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT
 | HYG/IEF breaks to bottom of range (z20 < -1.5) while HY OAS stays tight for 2+ weeks | 🟠 signal HENRY/LIQUID — fast layer leading cash |
 | HYG/IEF and HY OAS both deteriorate >75bps-equiv from trough | 🔴 credit-equity lead active |
 | HYG/IEF normalizes while cash stays tight | downgrade prior divergence as resolved (current state) |
-| VIOLET reports HYG put-skew steepening while cash OAS flat | 🟠 true synthetic-leading-cash — escalate (BOND proxy blind to this) |
+| HYG options skew-direction leg | RETIRED 2026-08-23; no live trigger (VX-BND-06) |
 
 ## Automation Status
 
 - ✅ Free proxy wired (`cdx_proxy.py`) — repeatable, no auth needed.
-- 🟡 Synthetic/options leg: HYG put-skew from VIOLET (BOND-blind). ⚠️ **This checkbox read ⬜ for 76 days against a request that was NEVER DELIVERED** — the 2026-06-05 packet was written and committed to `outbox/` and never reached VIOLET's inbox. **Writing a packet is not sending it.** **RE-SENT 2026-08-20, restated as of today rather than re-delivering the stale June text; original moved to `outbox/delivered/` as the record. `re-test: 2026-09-20` — if no reply by then, RETIRE the "OR VIOLET skew-vs-flat-cash" clause from this vector's upgrade trigger rather than leaving it unfireable a second time.**
+- **RETIRED 2026-08-23:** HYG skew-direction clause (VX-BND-06). August20 re-delivery received a reply; no standing time series supports a direction test. The former September20 waiting/retest task is superseded. Historical delivery incident is recorded in `CLAUDE.md` §MAIL SYSTEM.
 - ⬜ True CDX: S&P Global MCP connector (auth) — evaluate when connectors are live headless.

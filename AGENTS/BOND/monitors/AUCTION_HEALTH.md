@@ -2,6 +2,8 @@
 
 **Owner:** BOND
 
+**Tool alignment repaired October20:** `grade_auction.py` uses published 2dp bars with STRICT comparisons on every leg. Grade with an identity-checked `--frozen-bars` JSON; without one the result is explicitly AUDIT ONLY and cannot set gates. The raw rolling benchmark is printed separately. October21/22 snapshots in `registry/auction_bars/` transcribe the October15 source captures without changing bars. Acceptance, tests and independent review: `analysis/2026-10-20_monitor-repairs_ACCEPTANCE.md`. The October1 tool-gap paragraph below is historical, resolved by this repair; no historical outcomes are regraded.
+
 **Current grade update10/8:** October8 30Y-R `912810UW6` CLEAN on frozen pooled63.89 / alt61.20 (ind72.316983, dlr6.793651, BTC2.54, high5.618 = highest 30Y stop since 2000-08-10 5.697); OLD/cover NOT MET; downgrade both legs pass ⇒ counter**2** (10/21 20Y-R can make 3). Prior 10/7: 3Y I-prime FIRED on58.90; 10Y-R clean. Full arithmetic: `analysis/2026-10-08_ninth-wake/REPORT.md`. Older counters below are dated record; STATUS owns current counter.
 
 > ## ⛔ BANNER 2026-09-29 (~13:4x ET) — READ FIRST · what is LIVE in this file and what is RECORD (PROME cold read 13:4x ET, 49 claims 17✅/21⚠️/11❌; ledger `analysis/2026-09-29_PROME-coldread_AUCTION_HEALTH_ledger.md`)

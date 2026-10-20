@@ -85,7 +85,7 @@
 
 ## Next Review — existing obligations only
 
-- October21 20Y grade on frozen October15 bars; manual frozen2dp comparator until existing disclosed tie-band defect is repaired. No outcome assumed.
+- October21 20Y grade on frozen October15 bars; use `--frozen-bars AGENTS/BOND/registry/auction_bars/2026-10-21_912810UX4.json` (Git-root-relative); missing snapshot means AUDIT ONLY. No outcome assumed.
 - October22 5Y TIPS (no I'), PMMS and expected next FR2004 publication; freeze month-end nominal bars at announcement.
 - BND32 registered October20; resolve October28 vsOctober27 on primary publication, ceilingNovember3. Calendar/source/vintage contract in ledger.
 - October27 F2; October28 FOMC/UKBudget/VX20 review; October29 ECB; November2 borrowing estimates; November4 QRA F1/F3.

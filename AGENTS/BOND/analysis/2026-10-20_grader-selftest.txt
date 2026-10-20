@@ -1,0 +1,4 @@
+[grade --selftest] 38 passed, 0 failed
+   Scope: bench() window discipline, the I' P15 bar, the STRICT boundary,
+   the 2026-09-15 silent-degradation path, the reopening alt, TIPS/nominal
+   separation and the FRN list. It does NOT test the network fetch or main().

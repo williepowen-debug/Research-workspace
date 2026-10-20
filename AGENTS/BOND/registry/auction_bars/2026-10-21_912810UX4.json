@@ -1,0 +1,14 @@
+{
+  "cusip": "912810UX4",
+  "auction_date": "2026-10-21",
+  "term": "20-Year",
+  "tips": false,
+  "frozen_on": "2026-10-15",
+  "source": "AGENTS/BOND/analysis/2026-10-15_post-PPI/bars_912810UX4.txt; KB-BND-466; docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 52.47,
+  "dlr_max": 17.59,
+  "btc_min": 2.36,
+  "p15": 57.96,
+  "p15_reopen": 64.24
+}

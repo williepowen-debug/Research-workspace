@@ -1,6 +1,6 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-20 catch-up (Will-directed, OpenAI Codex). **Last real data refresh: 2026-10-20.** Exact deployed model UNKNOWN; session `01a15a02-565d-76c1-9d89-07653c5d3b62`.
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-20 monitor repairs (Will-directed, OpenAI Codex). **Last real data refresh: 2026-10-20.** Exact deployed model UNKNOWN; session `01a15a02-565d-76c1-9d89-07653c5d3b62`.
 
 Frontiers: Treasury nominal/real **10/19** · ICE credit via FRED **10/19** · NY Fed repo **10/19** · FR2004 as-of **10/7** · ACM **10/16** · Bund fitted **10/20** · vendor intraday **10/20 11:40–11:55 ET**. FRED DGS/DFII mirror ends **10/16**, behind issuer. Evidence: `analysis/2026-10-20_catchup/REPORT.md`, `derived.json`, raw manifest. Prior October15 report is history.
 
@@ -76,15 +76,15 @@ WQ157/WQ291 recommendation MET; WQ357 approval recovered, no fill inferred; fund
 | Date | Existing obligation /disposition |
 |---|---|
 | 10/20 catch-up | COMPLETED: official10/15–19,FR2004 as-of10/7,dealer agenda,credit>320 sequence,prior WQ357 ruling,seven WALTER +two general packets |
-| 10/21 | 20Y-R912810UX4,13:00ET: frozen indirectI'<57.96%;OLD<52.47 AND dealer>17.59;BTC<2.36. Manual frozen2dp comparator. BND32 registered10/20 before owed deadline |
+| 10/21 | 20Y-R912810UX4,13:00ET: frozen indirectI'<57.96%;OLD<52.47 AND dealer>17.59;BTC<2.36. Identity-checked frozen-bars JSON prepared; no outcome assumed. BND32 registered10/20 before owed deadline |
 | 10/22 | 5Y TIPS91282CRR4:OLD indirect<51.43 AND dealer>25.42;BTC<2.10;noI'. PMMS release; next FR2004 publication as-of10/14 expected10/22 |
 | 10/26–29 | 2Y10/26,5Y10/27,FRN10/28,7Y10/29; freeze at10/22 announcement. Dealer agenda responses10/26 noon, meetings10/29–30 (context on existing questionnaire row) |
 | 10/27,10/28–29,11/2–4 | F2 operation10/27;FOMC+UK Budget+VX-BND-20 review10/28;ECB10/29;borrowing estimates11/2;QRA/F2 11/4 |
 | 10/29–11/10 macro | GDP/PCE10/29;ECI10/30;JOLTS11/3;productivity11/5;jobs11/6;CPI11/10 (issuer calendars verified10/20);BOND reads rates response |
 | 11/9,11/13,12/1,12/9 | FHLB Q3;FRBNY FX report (cadence-based);sovereign CDS retest;December FOMC+SEP |
 | 2027-1/25,1/27 | GPFG expert report;January FOMC |
-| Standing | MOF FX /Warsh /credit /FR2004 /buyback carrier;grader tie-band repair remains existing disclosed work |
+| Standing | MOF FX /Warsh /credit /FR2004 /buyback carrier;grader repair/tests completed; acceptance and independent review at analysis/2026-10-20_monitor-repairs_ACCEPTANCE.md |
 
 ## BOTTOM LINE
 
-U.S. long bonds retain buyers at high yields, and Monday only partly reversed last week's rally. The weakest corporate borrowers keep deteriorating, while dealer credit and Treasury stocks move differently; neither a broad issuance freeze nor a U.S. funding seizure is established. Treasury is consulting on larger buybacks and future supply, with no specific20Y suspension adopted. Tomorrow's20Y auction is the next direct demand test; no new trade approval follows from this refresh.
+U.S. long bonds retain buyers at high yields, and Monday only partly reversed last week's rally. The weakest corporate borrowers keep deteriorating, while dealer credit and Treasury stocks move differently; neither a broad issuance freeze nor a U.S. funding seizure is established. Treasury is consulting on larger buybacks and future supply, with no specific20Y suspension adopted. Tomorrow's20Y auction is the next direct demand test. The grader now uses explicit frozen bars; the repair changes no research threshold, current grade or trade approval.

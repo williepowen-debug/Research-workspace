@@ -17,8 +17,8 @@ faster hedging/derivatives layer signaling stress that cash bonds haven't
 repriced yet?"
 
 Proxy construct:
-  HYG/IEF ratio = HY credit ETF stripped of duration (IEF = 7-10Y UST ETF).
-  This isolates the CREDIT component of HYG from the rates component.
+  HYG/IEF ratio = HY credit ETF versus a 7-10Y UST ETF.
+  Durations are mismatched: rates moves can drive the ratio mechanically.
   - HYG/IEF ROLLS OVER while cash HY OAS (FRED) stays tight  -> fast layer
     leading cash -> proxy for "synthetic/fast-money leading cash."
   - HYG/IEF and cash OAS move together                       -> no divergence.
@@ -26,10 +26,9 @@ Proxy construct:
 LIMITATION (read this before citing it):
   HYG is CASH (an ETF holding bonds), not SYNTHETIC. So this is a
   faster-cash-vs-slower-cash lead/lag proxy, NOT the true synthetic-vs-cash
-  basis. The genuinely synthetic, fast-money signal lives in HYG OPTIONS
-  (put skew / implied vol) — which is VIOLET's domain. For the real synthetic
-  read, request HYG option-skew from VIOLET. True CDX requires the S&P Global
-  MCP connector (needs auth) or a paid Markit feed.
+  basis. HYG skew-direction leg RETIRED 2026-08-23 (VX-BND-06):
+  no standing history for measuring steepening; do not request it as a trigger.
+  True CDX is unobserved here; authenticated/paid data access remains a gap.
 
 USAGE
 -----
@@ -59,8 +58,8 @@ def main() -> int:
         print("no price data returned")
         return 1
 
-    hy_ratio = px["HYG"] / px["IEF"]      # HY credit excess (duration-stripped)
-    ig_ratio = px["LQD"] / px["IEF"]      # IG credit excess (cross-check)
+    hy_ratio = px["HYG"] / px["IEF"]      # duration-confounded cash ETF ratio
+    ig_ratio = px["LQD"] / px["IEF"]      # duration-confounded IG cross-check
 
     def z20(s: pd.Series) -> pd.Series:
         return (s - s.rolling(20).mean()) / s.rolling(20).std()
@@ -80,10 +79,10 @@ def main() -> int:
     print(f"HYG/IEF now {now:.4f} | 3mo range {lo:.4f}-{hi:.4f} | {pctile:.0f}th pctile of 3mo")
     print(f"20d chg: {(now/hy_ratio.iloc[-21]-1)*100:+.2f}% | z20 {out['HYG/IEF_z20'].iloc[-1]:+.2f}")
     print()
-    print("READ: ratio near TOP of range = credit-excess RICH, no hidden stress.")
-    print("      ratio breaking to BOTTOM while cash HY OAS stays tight = DIVERGENCE -> signal HENRY/LIQUID.")
+    print("READ: duration-mismatched cash ETF ratio; levels alone cannot establish credit calm.")
+    print("      Low ratio z20 with tight cash OAS is a proxy divergence candidate; check duration and persistence.")
     print("Cross-check vs cash: python3 FORGE/tools/market-data/fetch.py fred BAMLH0A0HYM2 --periods 5")
-    print("Synthetic/options leg (not visible here): request HYG put-skew from VIOLET.")
+    print("HYG skew-direction leg RETIRED 2026-08-23 (VX-BND-06); true CDX remains unobserved.")
     return 0
 
 

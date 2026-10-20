@@ -1,0 +1,23 @@
+test_bad_old_print_does_not_block_pending_reopening (test_monitor_repairs.GraderPaths.test_bad_old_print_does_not_block_pending_reopening) ... ok
+test_bad_snapshots_fail_closed (test_monitor_repairs.GraderPaths.test_bad_snapshots_fail_closed) ... ok
+test_both_loaders_exclude_and_report_bad_rows_each_load (test_monitor_repairs.GraderPaths.test_both_loaders_exclude_and_report_bad_rows_each_load) ... ok
+test_date_names_corrupt_neighbour_while_grading_clean (test_monitor_repairs.GraderPaths.test_date_names_corrupt_neighbour_while_grading_clean) ... ok
+test_degenerate_neighbours (test_monitor_repairs.GraderPaths.test_degenerate_neighbours) ... ok
+test_frozen_snapshot_remains_authority_when_audit_missing_or_thin (test_monitor_repairs.GraderPaths.test_frozen_snapshot_remains_authority_when_audit_missing_or_thin) ... ok
+test_latest_degenerate_never_falls_back_to_original (test_monitor_repairs.GraderPaths.test_latest_degenerate_never_falls_back_to_original) ... ok
+test_malformed_latest_rows_never_grade_stale_original (test_monitor_repairs.GraderPaths.test_malformed_latest_rows_never_grade_stale_original) ... ok
+test_no_snapshot_is_audit_only (test_monitor_repairs.GraderPaths.test_no_snapshot_is_audit_only) ... ok
+test_non_object_snapshots_fail_as_gap (test_monitor_repairs.GraderPaths.test_non_object_snapshots_fail_as_gap) ... ok
+test_preprint_rejects_mismatched_snapshot (test_monitor_repairs.GraderPaths.test_preprint_rejects_mismatched_snapshot) ... ok
+test_published_bar_boundaries_all_tenors (test_monitor_repairs.GraderPaths.test_published_bar_boundaries_all_tenors) ... ok
+test_registered_snapshot_wins_over_different_rolling_pool (test_monitor_repairs.GraderPaths.test_registered_snapshot_wins_over_different_rolling_pool) ... ok
+test_strict_old_and_cover_equality_then_breaches (test_monitor_repairs.GraderPaths.test_strict_old_and_cover_equality_then_breaches) ... ok
+test_thin_pool_prints_no_standalone_marker (test_monitor_repairs.GraderPaths.test_thin_pool_prints_no_standalone_marker) ... ok
+test_tips_grade_and_preprint_have_no_iprime (test_monitor_repairs.GraderPaths.test_tips_grade_and_preprint_have_no_iprime) ... ok
+test_tips_preprint_with_no_rolling_history (test_monitor_repairs.GraderPaths.test_tips_preprint_with_no_rolling_history) ... ok
+test_buyback_real_fixture_packet_uses_vintage_base_rate (test_monitor_repairs.PacketOutput.test_buyback_real_fixture_packet_uses_vintage_base_rate) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.167s
+
+OK

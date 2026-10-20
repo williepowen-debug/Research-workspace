@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-10-20 catch-up, standard closeout
+# BOND SCRATCH — 2026-10-20 monitor repairs, heavy closeout
 
 > STATE AT WRITING: TBT5 shown at FORGE10/20, WQ357 SELL APPROVED10/15, no sale fill evidenced; TLT82P closed10/12. NO-ADD WQ280; WQ291 kill MET recommendation, funding window UNGRADED. Composite17/35 (5+4+2+3+1+1+1), clean nominal counter2, OPEN predictions1(BND32). Frontiers: Treasury nominal/real10/19; ICE10/19; repo10/19; FR2004as-of10/7; ACM10/16; Bund10/20; vendor10/20intraday11:40–11:55ET.
 
@@ -23,14 +23,14 @@ Checks so far: kb_lintconformant;mirror_checkpass;boot_recomputeafter rc0,origin
 
 ## NEXT SESSION (dated)
 
-1. October21 at13:00ET:grade20Y-R912810UX4onfrozenOctober15bars (I'<57.96;OLDindirect<52.47 ANDdealer>17.59;BTC<2.36),manualfrozen2dpcomparator. Counter2cannotadvanceuntilactualgrade.
+1. October21 at13:00ET:grade20Y-R912810UX4onfrozenOctober15bars (I'<57.96;OLDindirect<52.47 ANDdealer>17.59;BTC<2.36),use --frozen-bars AGENTS/BOND/registry/auction_bars/2026-10-21_912810UX4.json (root-relative). Counter2cannotadvanceuntilactualgrade.
 2. October22:5YTIPS91282CRR4(OLDindirect<51.43 ANDdealer>25.42;BTC<2.10;noI'),PMMS,nextFR2004as-of10/14afterpublication. Freeze2Y/5Y/7Ybarsatannouncement;excludeFRN.
 3. October27F2;October28FOMC/UKBudget/VX20boundedreview;October29ECB. ResolveBND32onfirstsuccessfulprimarypublicationof10/28vs10/27,ceilingNovember3 17:00ET;UKBudgetoverlaplimitscausality.
 4. November2borrowingestimates;November4QRAF1/F3andF2. FHLBQ3November9,FXreportNovember13(cadenceinference),CDSretestDecember1,December9FOMC. Existingissuernewswatchstands.
 
 ## OPEN THREADS
 
-TrueCDX/optionsleg;CPI-morningsynchronizedTIPS;currentUSD-HYpulled-dealcensus;privatefunding/offshorebasis;ownerfirst-vintagereconstructionsremainrealgaps. Optionalworkbook/LEDGER_GLOBabsent;ledgernudgecanrun,butKB/VX/FLOWwereupdateddirectly. R3owneranswernotproofPROMElandedconfig. WQ291fundingwindowstillUNGRADED;LIQ07resultisadifferenttest. No task requires Will's ruling now.
+TrueCDX;HYGskew-directionlegRETIRED8/23;CPI-morningsynchronizedTIPS;currentUSD-HYpulled-dealcensus;privatefunding/offshorebasis;ownerfirst-vintagereconstructionsremainrealgaps. Optionalworkbook/LEDGER_GLOBabsent;ledgernudgecanrun,butKB/VX/FLOWwereupdateddirectly. R3owneranswernotproofPROMElandedconfig. WQ291fundingwindowstillUNGRADED;LIQ07resultisadifferenttest. No task requires Will's ruling now.
 
 ## POSITION
 
@@ -47,3 +47,15 @@ Owned research commit cfa4b4201 ran after a FREEZE MOVED verdict because verific
 
 ## Owed-work audit — October20 12:53 ET, light closeout
 Will asked whetherwork/gapsremain. Savedreports/2026-10-20_owed-work-and-gaps.md;KB498. Fourimmediatelegacyitems:graderrounding,L410fixed-codeindependentverification,liveF2stub0/52vsdocumented1/53,retiredVIOLETclausestilllive-lookinginCDXtext. No repairs made. Schedulecurrent,inboxempty,BND32notdue. MissingHYaccesscensus,unvalidatedswapcomparison,proxyconfound,event-timeTIPS/privatefundinglimitsseparatedfromgovernance-heldfundingwindow. STATUS/TRADE/THESIS/VX/FLOW/docket/predictions/boardlog/MEMORYno-op:no market/statechange. RECEIPTupdated;NEXUS_BRIEFno-op:auditchangesnoanalyticalstate. No packet/spawn/trade/newdecision. Final lightrunner/verify/scopedcommit/push follow.
+
+## Repair closeout — October20, heavy tier
+
+Will authorized the four audited immediate repairs. Acceptance written before edits: analysis/2026-10-20_monitor-repairs_ACCEPTANCE.md. Grader now compares strict published2dp registered bars via identity-checked --frozen-bars JSON; default invocation is AUDIT ONLY, not a gate. Production October21/22 JSONs transcribe existingOctober15 captures. Rolling recomputation remains audit and cannot replace snapshot values/n. Malformed latest rows cannot fall back to older original. No historical grade/threshold changed. F2 live stub now dated1/53 original-issue rank; CDX tool/monitor retire HYG-skew requests/trigger and name duration confound.
+
+Independent read-only Codex helper /root/bond_repair_review found five counterexample classes; all repaired/rechecked. Final grader SHA85f1681006bfdb6189b81f3a3df86e1476b1a1c49453c0dfffbf9375be878261; report analysis/2026-10-20_monitor-repairs_REVIEW.md. Requested Anthropic/Opus reader runtime unavailable in exposed helper tool; actual reader Codex, model/session UNKNOWN. Durable suite18/18, existing grader38/38, buyback0fail; mockedCDXoutput checked independently.
+
+C1 STATUS repair note/twin/bottomline updated; composite17/35 and counter2 re-summed, unchanged. C2 KB498markedSUPERSEDED/499added; VX/FLOWno-op:no indicator/channel-state change. C3 predictionsno-op:BND32onlyOPEN,notdue. C4 THESIS/CHANGELOG/tokensno-op:no thesis/gate/position change. C5 overdue tool row removed after closure; accepted report preserves record; future auctions unchanged. C6 TRADEgrade invocationupdated,noposture/marks. C7 handoff targeted, earlier catchup evidence/deviation preserved. C8 RECEIPToverwritten;boardlogno-op:nonewWALTERmail. C9 MEMORY/auto-memoryno-op:guards applied to known failure patterns;durable lessons already owned, no new promotion. C10 CLAUDEgraderrowaligned;CLOSEOUTunchangedprotocol. C11 NEXUSre-pin updatedlast. C12 heavy runner/verify/scopedcommit/push follow, retained in registry.
+
+No threshold/score/band superseded; output repairs conform to existing registered figures. Month-end bars still freeze10/22. OriginalOctober1A2byte-identicaloutput not reconstructed; full-series20Ytoolnotbuilt. BroaderHYaccess/event-timeTIPS/durationproxy/privatefundingandgovernancegapsremain. Dependencies:rootvenvcomplete,systemPythonresearchpackagesmissing;optionalLEDGER_GLOBabsent. ForeignCATO/WALTER/PROMEdirtypathsuntouched,pulldeferred. Closurepacketself-authoredtoPROME;notification/consumptionnotclaimed. No external send, new research scope, trade, new decision or reminder.
+
+Late closeout arrival: firstheavy run failedFILE-STATE because VULCAN packet landed after earlier inbox processing. Read ownerISSUANCEreport/SEClocators,LOG_ONLYKB500;gitmv→processed. SelectedMetaMay$25B/$14B20yr+andAmazonJuly$25B/$9B20yr+are USDprincipal/contractualtenor,not measured duration or fullmarketinventory. No AI-onlyproceeds/marketshare/Treasurycausality;BONDdidnotindependentlyre-fetchSEC. No score/channel/thesis change;VULCANfullinventoryowed10/23. RECEIPTlate-additionkeepspreviousrepairresult;boardlogno-op(noWALTERsignal). FullheavyC12restartafterNEXUSlastwrite.

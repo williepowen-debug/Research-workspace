@@ -1,0 +1,42 @@
+   ✅ 9/10 accepted total = $5,187,000,000 (details sum == ops row)
+   ✅ 9/10 legacy (coupon<=2.50) share = 75.09%
+   ✅ 9/10 top-3 share = 71.39%
+   ✅ 9/10 23 of 40 accepted
+   ✅ 9/10 recent_share = 12.55% on the VINTAGE rank (cut 2023-05-31) -> OFF-THE-RUN
+   ✅ ⚠️3: three 2016 30Ys bought -> recent 0% on the vintage rank (was 100% FIRES by maturity), legacy 100% -> OFF
+   ✅ ⚠️3 control: the SAME buy ranked by maturity reproduces the defect (100% FIRES) -- the fixture discriminates
+   ✅ missing vintage for one CUSIP -> recent_share None, verdict None, CUSIP named
+   ✅ missing vintage on an UNROUTED published op -> GAP + NO VERDICT, not owed/graded
+   ✅ original_issue_date() = earliest issueDate across reopenings (RQ3 records -> 2016-02-16)
+   ✅ 9/10 cover vs cap 1.75x
+   ✅ 9/10 in scope
+   ✅ TIPS op out of scope
+   ✅ 7Y-10Y op out of scope
+   ✅ cash-management op out of scope
+   ✅ announced op: not published
+   ✅ announced op TODAY -> pending, not owed, no gap
+   ✅ announced op PAST with null results -> a DATA GAP, not an owed read
+   ✅ published in-scope op, no ledger row -> OWED (gaps 0)
+   ✅ published in-scope op WITH a VALID ledger row (path resolves via inbox/processed/) -> routed, not owed (overlap)
+   ✅ ledger row with ONLY op_date does NOT discharge -> still OWED
+   ✅ ledger row whose packet_path resolves nowhere -> still OWED
+   ✅ two ops on one date -> GAP, no verdict, nothing 'routed' or 'fires'
+   ✅ details sum != ops row -> BLOCKED as a GAP, no verdict
+   ✅ null bucket on an in-window op -> UNCLASSIFIED GAP
+   ✅ whitespace/case-variant bucket still classifies IN scope
+   ✅ security_details rows with no ops row -> GAP (not invisible)
+   ✅ announced op with null cap -> reported, no crash
+   ✅ past WINDOW end -> ⛔ WINDOW EXPIRED gap, never rc=0
+   ✅ synthetic recent_share = 0.00% exactly (q=4 distinct vintages -> idx 3 -> cut 2056-02-15, whose par is 0)
+   ✅ synthetic 75% newest-quartile -> ON-THE-RUN fires
+   ✅ synthetic exactly 50% -> does NOT fire (strict >)
+   ✅ schedule: 6 future in-scope ops listed 📅
+   ✅ schedule: a PAST scheduled op missing from the feed is a GAP 🔴 (not an owed read)
+   ✅ full schedule on 2026-09-17 with the LIVE ledger: 9/10 routed (path resolves), 0 owed, 0 gaps, 6 scheduled
+   ✅ full schedule on 2026-09-17 with an EMPTY ledger: 9/10 is OWED (the L401 state before this tool)
+   ✅ 9/10 fixture is COMPLETE (40 rows == nbr_issues_eligible 40, ops total present)
+   ✅ partial rows (38 of 40 null) -> NOT complete
+   ✅ ops-row total null -> NOT complete
+   ✅ missing eligible row (39 of 40) -> NOT complete
+   ✅ partial publication in the report -> GAP + NO VERDICT, never owed/graded
+[buyback_f2] selftest: 0 failure(s)

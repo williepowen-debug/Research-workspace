@@ -474,7 +474,7 @@ def render_packet(m):
 {top}
 **Source:** FiscalData `od/buybacks_operations` + `od/buybacks_security_details`, operation_date={d}, re-fetched cache-busted at read time (both endpoints; ops row NOT a cached capture — KB-BND-272 lesson).
 **Priority:** {'🟠' if 'FIRES' in (m['verdict'] or '') else '🟡'} · Instrument: `AGENTS/BOND/monitors/buyback_f2.py --op {d}` · ledger `AGENTS/BOND/registry/f2_reads.tsv`.
-⛔ Cut is BOND-declared (base rate 0/52), not Will-ruled; a fire is a marker, never a YCC-lite verdict.
+⛔ Cut is BOND-declared (original-issue-date rank base rate 1/53, 2024-06-05 through 2026-09-24), not Will-ruled; a fire is a marker, never a YCC-lite verdict.
 """
 
 

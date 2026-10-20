@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CRR4",
+  "auction_date": "2026-10-22",
+  "term": "5-Year",
+  "tips": true,
+  "frozen_on": "2026-10-15",
+  "source": "AGENTS/BOND/analysis/2026-10-15_post-PPI/bars_91282CRR4.txt; KB-BND-466; docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 51.43,
+  "dlr_max": 25.42,
+  "btc_min": 2.10,
+  "p15": null,
+  "p15_reopen": null
+}

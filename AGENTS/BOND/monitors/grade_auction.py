@@ -37,6 +37,9 @@ USAGE
     python3 monitors/grade_auction.py --cusip 912810UX4      # pre-print: reports the BARS
     python3 monitors/grade_auction.py --date 2026-08-13
     python3 monitors/grade_auction.py --cusip X --n 12
+    # Registered grade: supply the pre-existing snapshot, Git-root-relative:
+    python3 monitors/grade_auction.py --cusip X --frozen-bars AGENTS/BOND/registry/auction_bars/X.json
+    # Without a snapshot, post-print results are AUDIT ONLY; no gate verdict.
 
     rc 0 = graded (or bars reported pre-print)   rc 2 = fetch/lookup failure
 """
@@ -44,6 +47,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
+from pathlib import Path
 import statistics as st
 import sys
 import urllib.request
@@ -154,15 +159,17 @@ def degenerate_reason(ind, dir_, pd_, comp_reported=None):
     """
     if None in (ind, dir_, pd_):
         return "missing"
-    if any(v != v or v < 0 for v in (ind, dir_, pd_)):      # NaN or negative (verifier CE8, 10/1)
+    if any(not math.isfinite(v) or v < 0 for v in (ind, dir_, pd_)):      # NaN or negative (verifier CE8, 10/1)
         return "non-finite or negative leg"
     tot = ind + dir_ + pd_
-    if tot <= 0:
+    if not math.isfinite(tot) or tot <= 0:
         return "no accepted amount on any leg"
     for nm, v in (("indirect", ind), ("direct", dir_), ("dealer", pd_)):
         if 100.0 * v / tot >= DEGEN_SINGLE_LEG:
             return f"single leg {nm} = {100.0 * v / tot:.2f}% of competitive accepted"
-    if comp_reported and comp_reported > 0 and abs(tot - comp_reported) / comp_reported > DEGEN_RECON_TOL:
+    if comp_reported is not None and (not math.isfinite(comp_reported) or comp_reported <= 0):
+        return "invalid reported competitive total"
+    if comp_reported is not None and abs(tot - comp_reported) / comp_reported > DEGEN_RECON_TOL:
         return f"legs sum {tot:,.0f} vs reported competitive {comp_reported:,.0f} (do not reconcile)"
     return None
 
@@ -192,12 +199,14 @@ def _from_ta_ws():
         ind, dir_, pd_ = (_f(r.get("indirectBidderAccepted")),
                           _f(r.get("directBidderAccepted")),
                           _f(r.get("primaryDealerAccepted")))
-        if None in (ind, dir_, pd_):
-            continue
-        comp = ind + dir_ + pd_
-        if comp <= 0:
-            continue
-        why = degenerate_reason(ind, dir_, pd_, _f(r.get("competitiveAccepted")))
+        comp = sum(v for v in (ind, dir_, pd_) if v is not None)
+        reported = _f(r.get("competitiveAccepted"))
+        btc = _f(r.get("bidToCoverRatio"))
+        why = degenerate_reason(ind, dir_, pd_, reported)
+        if not why and reported is None:
+            why = "missing reported competitive total"
+        if not why and (btc is None or not math.isfinite(btc) or btc <= 0):
+            why = "missing or invalid bid-to-cover"
         if why:
             DEGENERATE.append((r["auctionDate"][:10], r.get("cusip", ""), "TA_WS", why))
             continue
@@ -206,7 +215,7 @@ def _from_ta_ws():
                                        r.get("reopening") == "Yes", r.get("issueDate"), r.get("maturityDate")),
                     "secterm": r.get("securityTerm"), "tips": r.get("tips") == "Yes",
                     "reopening": r.get("reopening") == "Yes",
-                    "btc": _f(r.get("bidToCoverRatio")), "hy": r.get("highYield"),
+                    "btc": btc, "hy": r.get("highYield"),
                     "offering": _f(r.get("offeringAmount")) or 0.0, "comp": comp,
                     "ind": 100 * ind / comp, "dir": 100 * dir_ / comp,
                     "dlr": 100 * pd_ / comp, "src": "TA_WS"})
@@ -232,9 +241,11 @@ def _from_corpus():
             dir_ = _f(r.get("direct_bidder_accepted"))
             ind = _f(r.get("indirect_bidder_accepted"))
             btc = _f(r.get("bid_to_cover_ratio"))
-            if not comp or comp <= 0 or None in (pd_, dir_, ind) or btc is None:
-                continue
             why = degenerate_reason(ind, dir_, pd_, comp)
+            if not why and comp is None:
+                why = "missing reported competitive total"
+            if not why and (btc is None or not math.isfinite(btc) or btc <= 0):
+                why = "missing or invalid bid-to-cover"
             if why:
                 DEGENERATE.append((r["auction_date"][:10], r.get("cusip", ""), "corpus", why))
                 continue
@@ -329,11 +340,72 @@ def bench(recs, term, tips, before, n):
     return out
 
 
+def published_bar(value):
+    """Use exactly the same two-decimal representation as the published bar."""
+    return float(f"{value:.2f}")
+
+
+def effective_bars(b, path, cusip, date, term, tips):
+    """Separate raw rolling audit from an explicitly supplied registered snapshot.
+
+    Root-relative paths are resolved from this file's Git-root location, never cwd.
+    No automatic historical snapshot selection or retroactive regrading.
+    """
+    out = {} if b is None else {"ind_min": published_bar(b["ind"]["min"]),
+           "dlr_max": published_bar(b["dlr"]["max"]),
+           "btc_min": published_bar(b["btc"]["min"]),
+           "p15": published_bar(b["ind_p15"]) if b.get("ind_p15") is not None else None,
+           "p15_reopen": published_bar(b["ind_p15_reopen_only"]) if b.get("ind_p15_reopen_only") is not None else None}
+    if not path:
+        if b is None:
+            raise ValueError("no rolling history and no frozen snapshot")
+        out["n"] = b["n"]
+        print("  AUDIT ONLY — rounded rolling bars; no registered frozen snapshot supplied.")
+        print("  Do not use this audit to set gates or replace the snapshot in force.")
+        return out
+    f = Path(path)
+    if not f.is_absolute():
+        f = Path(__file__).resolve().parents[3] / f
+    snap = json.loads(f.read_text())
+    if not isinstance(snap, dict):
+        raise ValueError("snapshot must be a JSON object")
+    for key, expected in (("cusip", cusip), ("auction_date", date), ("term", term), ("tips", tips)):
+        if type(snap.get(key)) is not type(expected) or snap.get(key) != expected:
+            raise ValueError(f"snapshot {key} does not match target {expected!r}")
+    import datetime as dt
+    frozen = dt.date.fromisoformat(snap["frozen_on"])
+    if frozen >= dt.date.fromisoformat(date):
+        raise ValueError("snapshot must have been frozen before auction date")
+    if not isinstance(snap.get("source"), str) or not snap["source"].strip():
+        raise ValueError("snapshot needs recorded source provenance")
+    if type(snap.get("n")) is not int or snap["n"] < MIN_N_FOR_GATE:
+        raise ValueError("snapshot base too thin for a gate")
+    out = {}
+    for key in ("ind_min", "dlr_max", "btc_min", "p15", "p15_reopen"):
+        value = snap[key]
+        if value is None and (key == "p15_reopen" or (tips and key == "p15")):
+            out[key] = None
+            continue
+        if type(value) not in (int, float) or not math.isfinite(value):
+            raise ValueError(f"snapshot {key} must be finite numeric")
+        if value != published_bar(value) or not 0 <= value <= (100 if key != "btc_min" else 1000):
+            raise ValueError(f"snapshot {key} must be a valid published 2dp bar")
+        out[key] = value
+    if tips and (out["p15"] is not None or out["p15_reopen"] is not None):
+        raise ValueError("I' is NOT DEFINED FOR TIPS")
+    out["n"] = snap["n"]
+    print(f"  FROZEN BARS — {f}; frozen {frozen}; source: {snap['source']}")
+    print(f"  Governing published 2dp bars: {out}")
+    return out
+
+
 def show_bars(b, label):
-    print(f"\n  BENCHMARK — {label}")
+    print(f"\n  ROLLING BENCHMARK AUDIT — {label} (displayed 2dp)")
     print(f"    method : trailing-{b['n']} SAME-TENOR SAME-TIPS auctions, strictly prior,")
     print(f"             % of COMPETITIVE ACCEPTED (PD+direct+indirect)")
     print(f"    window : {b['from']} -> {b['to']}   n={b['n']}")
+    print("    RAW ROLLING AUDIT: " + repr({"ind_min": b["ind"]["min"], "dlr_max": b["dlr"]["max"],
+          "btc_min": b["btc"]["min"], "p15": b.get("ind_p15"), "p15_reopen": b.get("ind_p15_reopen_only")}))
     for k, nm in (("btc", "BTC"), ("ind", "indirect%"), ("dlr", "dealer%")):
         a = b[k]
         print(f"    {nm:10} median {a['median']:7.2f} | mean {a['mean']:7.2f} "
@@ -351,9 +423,8 @@ def show_bars(b, label):
         print("                                 (KB-BND-304; L410 decision 2026-10-01: tool brought to the spec).")
     elif b.get("ind_p15_error") and not b.get("tips"):
         print(f"    ⛔ I' (MATRIX_V2, 8/27) NOT COMPUTED — {b['ind_p15_error']}")
-        print(f"       THIS IS NOT A PASS. I' is the GOVERNING composition test; the OLD")
-        print(f"       conjunctive line above is retained only for the TLT-put ADD re-arm.")
-        print(f"       Re-run inside the repo venv (source .venv/bin/activate) before grading.")
+        print("       ROLLING AUDIT GAP; this does not invalidate an identity-checked frozen snapshot.")
+        print("       Without a frozen snapshot, no registered grade is available.")
     if b["n"] < MIN_N_FOR_GATE:
         print(f"    🔴 n={b['n']} < {MIN_N_FOR_GATE}: THIN BASE — this cannot support a composition gate.")
         print(f"       Report as a LEVEL read against its own thin base rate; do NOT set a gate.")
@@ -519,6 +590,7 @@ def main() -> int:
     ap.add_argument("--cusip"); ap.add_argument("--date")
     ap.add_argument("--n", type=int, default=12)
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--frozen-bars", help="Git-root-relative JSON snapshot; otherwise grades are AUDIT ONLY")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
@@ -589,12 +661,22 @@ def main() -> int:
               f"tips={r.get('tips')}  reopening={r.get('reopening')}  auction {r['auctionDate'][:10]}")
         if tips:
             print("  ⚠️ TIPS — different buyer base. Never benchmarked against nominals.")
+            print("  I' NOT DEFINED FOR TIPS — registered spec excludes TIPS")
         b = bench(recs, term, tips, r["auctionDate"][:10], a.n)
-        if not b:
-            print("  🔴 NO HISTORY for this tenor/tips combination — no bars derivable.")
-            return 0
-        show_bars(b, f"{term}{' TIPS' if tips else ''}")
-        print("\n  ⇒ Freeze these bars NOW, before the print. That is the whole point.")
+        if b:
+            show_bars(b, f"{term}{' TIPS' if tips else ''}")
+        else:
+            print("  GAP — no rolling history for audit.")
+        if a.frozen_bars:
+            try:
+                effective_bars(b, a.frozen_bars, r["cusip"], r["auctionDate"][:10], term, tips)
+            except (ValueError, KeyError, OSError, TypeError) as e:
+                print(f"  GAP — invalid frozen snapshot: {e}")
+                return 2
+        elif b:
+            print("\n  ⇒ Freeze these published 2dp bars NOW, before the print; retain source and identity.")
+        else:
+            return 2
         print("=" * 78)
         return 0
 
@@ -608,57 +690,62 @@ def main() -> int:
     print(f"  (percentages are of COMPETITIVE ACCEPTED = ${r['comp']/1e9:.3f}B)")
     if r["tips"]:
         print("  ⚠️ TIPS — benchmarked only against prior TIPS of the same tenor.")
-    if not b:
-        print("  🔴 NO BENCHMARK HISTORY — cannot grade.")
-        return 0
-    show_bars(b, f"{r['term']}{' TIPS' if r['tips'] else ''}")
+    if b:
+        show_bars(b, f"{r['term']}{' TIPS' if r['tips'] else ''}")
+        print("\n  LEG MARGINS vs ROLLING AUDIT (v1.1.4(e)):")
+        for k, nm in (("btc", "BTC"), ("ind", "indirect%"), ("dlr", "dealer%")):
+            v, a_ = r[k], b[k]
+            print(f"    {nm:10} {v:7.2f}   vs median {v-a_['median']:+7.2f}   vs mean {v-a_['mean']:+7.2f}")
+    else:
+        print("  GAP — no rolling history; audit unavailable. Frozen snapshot remains authoritative if valid.")
+        if r["tips"]:
+            print("  I' NOT DEFINED FOR TIPS — registered spec excludes TIPS")
 
-    print("\n  LEG MARGINS (v1.1.4(e) — every leg, always):")
-    legs = {}
-    for k, nm in (("btc", "BTC"), ("ind", "indirect%"), ("dlr", "dealer%")):
-        v, a_ = r[k], b[k]
-        legs[k] = {"v": v, "vs_med": v - a_["median"], "vs_mean": v - a_["mean"]}
-        print(f"    {nm:10} {v:7.2f}   vs median {v-a_['median']:+7.2f}   vs mean {v-a_['mean']:+7.2f}"
-              f"   {'⚠️ median/mean DISAGREE on sign' if (v>a_['median'])!=(v>a_['mean']) else ''}")
-
-    ind_fail = r["ind"] < b["ind"]["min"]
-    dlr_fail = r["dlr"] > b["dlr"]["max"]
-    cover = r["btc"] < b["btc"]["min"]
-    print("\n  VERDICT")
-    print(f"    indirect below trailing-{b['n']} MIN ? {'YES' if ind_fail else 'NO'}  "
-          f"({r['ind']:.2f} vs {b['ind']['min']:.2f}, margin {r['ind']-b['ind']['min']:+.2f}pp)")
-    print(f"    dealer  above trailing-{b['n']} MAX ? {'YES' if dlr_fail else 'NO'}  "
-          f"({r['dlr']:.2f} vs {b['dlr']['max']:.2f}, margin {r['dlr']-b['dlr']['max']:+.2f}pp)")
-    print(f"    BTC     below trailing-{b['n']} MIN ? {'YES' if cover else 'NO'}  "
-          f"({r['btc']:.2f} vs {b['btc']['min']:.2f}, margin {r['btc']-b['btc']['min']:+.2f})")
-    if b.get("ind_p15") is None and b.get("ind_p15_error") and not r["tips"]:
+    try:
+        bars = effective_bars(b, a.frozen_bars, r["cusip"], r["date"], r["term"], r["tips"])
+    except (ValueError, KeyError, OSError, TypeError) as e:
+        print(f"  GAP — invalid frozen snapshot: {e}")
+        return 2
+    grade_n = bars["n"]
+    ind_fail = r["ind"] < bars["ind_min"]
+    dlr_fail = r["dlr"] > bars["dlr_max"]
+    cover = r["btc"] < bars["btc_min"]
+    print("\n  VERDICT" if a.frozen_bars else "\n  AUDIT COMPARISONS — NOT A REGISTERED GRADE")
+    print(f"    indirect below trailing-{grade_n} MIN ? {'YES' if ind_fail else 'NO'}  "
+          f"({r['ind']:.2f} vs {bars['ind_min']:.2f}, margin {r['ind']-bars['ind_min']:+.2f}pp)")
+    print(f"    dealer  above trailing-{grade_n} MAX ? {'YES' if dlr_fail else 'NO'}  "
+          f"({r['dlr']:.2f} vs {bars['dlr_max']:.2f}, margin {r['dlr']-bars['dlr_max']:+.2f}pp)")
+    print(f"    BTC     below trailing-{grade_n} MIN ? {'YES' if cover else 'NO'}  "
+          f"({r['btc']:.2f} vs {bars['btc_min']:.2f}, margin {r['btc']-bars['btc_min']:+.2f})")
+    if b and b.get("ind_p15_error") and not r["tips"] and not a.frozen_bars:
         print(f"    ⛔ I' indirect below P15 (MATRIX_V2) ? NOT COMPUTED — {b['ind_p15_error']}")
         print( "       ⚠️ THE GOVERNING TEST DID NOT RUN. Do not read the verdict above as 'nothing fired'.")
-    if b.get("ind_p15") is not None and not r["tips"]:
-        ip = r["ind"] < b["ind_p15"]
+    if bars["p15"] is not None and not r["tips"] and grade_n >= MIN_N_FOR_GATE:
+        ip = r["ind"] < bars["p15"]
         print(f"    I' indirect below P15 (MATRIX_V2) ? {'YES — 🟠 STANDALONE MARKER' if ip else 'NO'}  "
-              f"({r['ind']:.2f} vs {b['ind_p15']:.2f}, margin {r['ind']-b['ind_p15']:+.2f}pp)")
-        if b.get("ind_p15_reopen_only") is not None:
-            ipr = r["ind"] < b["ind_p15_reopen_only"]
+              f"({r['ind']:.2f} vs {bars['p15']:.2f}, margin {r['ind']-bars['p15']:+.2f}pp)")
+        if bars["p15_reopen"] is not None:
+            ipr = r["ind"] < bars["p15_reopen"]
             band = (ip != ipr)
-            print(f"       reopening-only alt: {'YES' if ipr else 'NO'} ({r['ind']:.2f} vs {b['ind_p15_reopen_only']:.2f}, "
-                  f"{r['ind']-b['ind_p15_reopen_only']:+.2f}pp){'  ⚠️ CONVENTION-DEPENDENT — graded both ways, pooled governs' if band else ''}")
+            print(f"       reopening-only alt: {'YES' if ipr else 'NO'} ({r['ind']:.2f} vs {bars['p15_reopen']:.2f}, "
+                  f"{r['ind']-bars['p15_reopen']:+.2f}pp){'  ⚠️ CONVENTION-DEPENDENT — graded both ways, pooled governs' if band else ''}")
         print("       ⚠️ I' is the 🟠 MARKER; a bare I' fire is NOT a thesis kill (WQ-157 leg ①: standalone through")
-        print("          2026-09-10, PAIRED with a non-auction mechanism confirmation thereafter). The frozen 9/2")
-        print("          snapshot in monitors/AUCTION_HEALTH.md is the AUTHORITY for 9/8-9/10; this line is the live recompute.")
+        print("          2026-09-10, PAIRED with a non-auction mechanism confirmation thereafter).")
 
-    if b["n"] < MIN_N_FOR_GATE:
-        print(f"\n  ⚪ NO GATE VERDICT — n={b['n']} is too thin to support one. Level read only.")
+    if grade_n < MIN_N_FOR_GATE:
+        print(f"\n  ⚪ NO GATE VERDICT — n={grade_n} is too thin to support one. Level read only.")
+    elif not a.frozen_bars:
+        print("\n  NO GATE VERDICT — supply --frozen-bars for the registered grade.")
     elif ind_fail and dlr_fail:
         print("\n  🔴 COMPOSITION FAILURE — the demand-hole test. Foreign stepping away WHILE dealers warehouse.")
-        print("     Signal LIQUID, ZHAO, PROME SAME-DAY. This is the thesis-kill leg.")
+        print("     Signal LIQUID, ZHAO, PROME SAME-DAY under unchanged OLD-test routing; paired thesis kill is assessed separately.")
     elif cover:
         print("\n  🟠 COVER MARKER — thin cover; composition did NOT fail.")
         print("     ⚠️ SAY EXPLICITLY THAT THE MECHANISM DID NOT FAIL. A thin cover is a PRICE")
         print("     concession; only a composition failure is a mechanism failure.")
         if ind_fail or dlr_fail:
             leg = "indirect" if ind_fail else "dealer"
-            m = (r["ind"] - b["ind"]["min"]) if ind_fail else (r["dlr"] - b["dlr"]["max"])
+            m = (r["ind"] - bars["ind_min"]) if ind_fail else (r["dlr"] - bars["dlr_max"])
             print(f"     ⚠️ BUT ONE COMPOSITION LEG IS ALSO BREACHED: {leg} by {m:+.2f}pp.")
             print("        Do NOT report this as 'composition held' unqualified — the failure test")
             print("        needs BOTH legs, and it is not met, but one leg IS outside its bar.")

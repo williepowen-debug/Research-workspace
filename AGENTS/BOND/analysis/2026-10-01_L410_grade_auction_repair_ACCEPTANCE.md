@@ -31,3 +31,9 @@
 | **STILL UNRESOLVED** | 🟡 | (i) **Tie band (found by RED's fixture in the same pass):** the tool compares prints to the UNROUNDED bar while the frozen 2dp bar governs — a ≤0.005pp band where tool and rule can disagree (2Y/10Y/20Y one way, 3Y the other). Disclosed in `AUCTION_HEALTH.md` 10/1 block; tool alignment carried as a dated CATALYSTS row. (ii) The selftest still does not exercise `main()`; the reviewer's harness does (kept at the path below, not in the repo). (iii) A FULL-SERIES 20Y script must import `degenerate_reason()`; none exists today. |
 
 Reviewer harness (scratch, not committed): `/tmp/claude-1000/…/scratchpad/verify/ce.py`. Live founding-row reach: 0.
+
+## October20 follow-up — final fixed code independently reviewed
+
+The October1 results above are preserved as history. Will authorized closing the owed repair/verification work October20. **Current implementation TESTED and INDEPENDENTLY VERIFIED** by a separate read-only Codex helper: `2026-10-20_monitor-repairs_REVIEW.md`, with final code hash and A1–A6 dispositions. Durable main-path regressions now committed (`../monitors/test_monitor_repairs.py`,18/18); existing selftest38/38. Missing/nonfinite/latest malformed inputs and snapshot/audit neighbors covered. Tool alignment now uses published 2dp bars and explicit identity-checked frozen JSON; no threshold or historical grade changes.
+
+A2 limitation: the original October1 byte-identical before/after historical claim is not newly reconstructed. October20 intentionally changes output and strict boundary implementation under its own acceptance record. No full-series20Y script was built; future full-series work must use the loader guard.
