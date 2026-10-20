@@ -217,3 +217,20 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-15T03:53:43+00:00	SIG-W-20261014-035	info-only	INBOX_WALTER	CORRECTION to -032 with FALCON grades: losses 3->5, casualty ratchet RED, marks HELD B1/C14/D85. Receipted COR-20261014-35 NO-OP. No SAM surface.
 2026-10-15T12:43:37+00:00	2026-10-14_from-DAEDALUS_brief-pin-wiring	acted	INBOX_TOPLEVEL	ACTED at this fold: NEXUS_BRIEF header now carries 'STATUS commit 5ad363c8e' (amendment 11 pin). Check result recorded at closeout via scripts/brief_pin_check.py SAM. No other duty.
 2026-10-15T12:43:37+00:00	2026-10-15_from-PROME_crash-recovery-residue-WQ436	acted	INBOX_TOPLEVEL	ACTED (WQ-436 recovery): 4 residue files verified at artifacts and committed 5ad363c8e (1 dangling pointer + 1 stale count repaired; US CPI row restored by reading it); BoP Aug read; partial news sweep; MOF weekly ARMED for 10/16. Memo to PROME/inbox.
+2026-10-20T15:16:02+00:00	SIG-W-20261015-002	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261015-014	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261015-021	deferred	INBOX_WALTER	Startup-only scope: primary verification/owner assessment pending in reports/2026-10-20_startup.md; no inherited quotation promoted to verified finding.
+2026-10-20T15:16:02+00:00	SIG-W-20261015-024	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-003	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-006	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-010	acted	INBOX_WALTER	MOF boot primary CSV confirms week 10/4-10/10 LT debt -339.7B; current CSV prior week -345.7B versus ledger first print -347.6B. No insurer/UST attribution.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-018	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-022	deferred	INBOX_WALTER	Startup-only scope: primary verification/owner assessment pending in reports/2026-10-20_startup.md; no inherited quotation promoted to verified finding.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-026	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-035	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261016-039	deferred	INBOX_WALTER	Startup-only scope: primary verification/owner assessment pending in reports/2026-10-20_startup.md; no inherited quotation promoted to verified finding.
+2026-10-20T15:16:02+00:00	SIG-W-20261018-002	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261019-003	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261019-005	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261019-010	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:16:02+00:00	SIG-W-20261019-013	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.

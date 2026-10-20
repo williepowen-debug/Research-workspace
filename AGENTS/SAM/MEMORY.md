@@ -30,19 +30,15 @@
 ## Session Notes
 
 ### CHANGES SINCE LAST SESSION
-*(Prior block Fri 10/9. This block: Thu 10/15, PROME-spawned recovery (WQ-436) after the ~03:08 ET machine crash killed the Will-launched 10/14 boot (sam-a0) before its closeout.)*
-- **USD/JPY: closes 10/12 158.616 · 10/13 158.339 · 10/14 158.054 (a TIE with the check high); 10/9 158.246 FINAL.** Six completed closes above 158.054; ten sessions in ~157.8–158.95; no fast leg, no intervention found.
-- **JGBs rallied off the MOF records** (30Y 4.168 → 4.064 on 10/13; 10Y 3.111 → 3.015 on 10/14), orderly. 5Y auction 10/14 BTC 3.560× / tail 0.50bp.
-- **Totan Oct 10 → 6%, Dec 82%** (10/15 11:15 JST). CGPI Sep: the oil shock is now in import prices (+0.69pp energy). BoP Aug CA +¥4,062.0B. US CPI Sep +0.6% m/m / 3.7%.
-- IMF/WB + G20 meetings in Bangkok 10/12–10/18 (Bessent, Katayama, Ueda attending).
+- October 20 startup sweep recovered the October 15 handoff. New MOF curve, CFTC and weekly-flow vintages are in STATUS; new Totan image requires review and oil basis remains unresolved. News/BOJ operations have not been re-audited beyond the inherited dates.
 
 ### LAST SESSION
-**Two sessions, one handoff.** **(a) 10/14 sam-a0 (Will-directed boot, desk dark 10/9→10/14):** caught up all data (`e18f49659`), memo to PROME 23:58 ET + VX-026 packet to RED (`177cd99fe`), then kept editing STATUS/STATUS_REFERENCE/docket until the crash — never committed those edits and never wrote this MEMORY or the brief. **(b) 10/15 recovery (this fold):** verified that residue at the artifacts (every yen close, JGB, OIS, auction and CGPI figure; CGPI re-pulled from the BOJ PDF) and committed it (`5ad363c8e`). No thesis change, book FLAT, nothing re-armed, no re-mark.
-- ⚠️ **Lesson (n=1, crash residue): the 10/14 header pointed at a NEWS_SWEEP file that never reached disk, and one STATUS line (INTERVENTION live state) still said "four" closes while the header said six.** A crashed session's committed header can certify work held only in its context. The fix was to read every pointer at the artifact, not to trust the header. Also: the 10/14 residue **retired the US CPI 10/14 docket row with no recorded read** (none at `e18f49659` either) — caught by checking that every retired row was done or re-dated.
-- Re-swept 10/9→10/15 PARTIALLY (one aggregator + WebSearch; BOJ primaries not read) → `research/outputs/2026-10-15_recovery/NEWS_SWEEP.md`. Read BoP Aug (MOF table `6s-1-4` CSV — the `bp2026MM.pdf` URLs 404; the CSV is the stable source) and US CPI Sep (bls.gov 403s; FRED via `fetch.py fred` works).
-- Inbox: PROME WQ-436 brief + DAEDALUS brief-pin packet consumed (board_log). Brief now pins the STATUS commit hash (amendment 11).
+- October 20 user-directed startup, Codex thread 01a159df-bbc1-7591-a70c-b5aeaf24ef0f. Explicit root/local reads; 21-tool inventory no drift; 12/14 boot executions completed; corrections 0 NAMED outstanding. 17 WALTER packets read, receipted and filed; action deferrals in reports/2026-10-20_startup.md. No MSG-* pending.
+- Recovered WQ-336 approval; WQ-436 already completed October 15. No thesis promotion, trade or prediction re-mark. Pull/push deferred because WALTER and PROME have dirty work; commit only SAM files locally. Live fleet discovery/transport not verified.
 
 ### NEXT SESSION
+
+**TIER 0 — October 20 resume:** resolve OIS image review + oil basis failure; assess today’s 20Y auction; finish pending WALTER Ueda/Korea source checks. Exact scope → `reports/2026-10-20_startup.md`. Docket expired rows still represent pending work, not silent completion.
 
 **TIER 0 — FIRST ITEM: finish the 10/9→10/15 news sweep** the recovery left PARTIAL: BOJ primary texts for Uchida 10/4, Ueda 10/6, Koeda 10/15; Bangkok IMF/G20 communiqué yen language (after 10/18); Japanese-language wire coverage. OPEN: SAM-33, SAM-42.
 
