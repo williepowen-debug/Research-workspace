@@ -16,7 +16,7 @@ No file, folder, evidence copy, source receipt or ledger row was deleted. Origin
 | SUB_AGENTS.md | 3,153 | 2,680 | Original retained in contiguous archival blocks; current rewrite/pointers |
 | STATUS.md | 21,179 | 19,966 | Original retained in contiguous archival blocks; current rewrite/pointers |
 | MEMORY.md | 14,790 | 14,425 | Original retained in contiguous archival blocks; current rewrite/pointers |
-| NEXUS_BRIEF.md | 23,642 | 11,439 | Original retained in contiguous archival blocks; current rewrite/pointers |
+| NEXUS_BRIEF.md | 23,642 | 11,433 | Original retained in contiguous archival blocks; current rewrite/pointers |
 
 NEXUS after-size is the review-ready candidate until the final pin receipt below. Whole-read declaration includes explicitly read charters, shared protocol reads, conditional peers/intake, and bounded script inputs; no claim that the size heuristic grades full coverage. Actual shared `--require-manifest` returns2 until PROME registers. Candidate declaration conservatively measures all BOARD/SIG-W members although actual body reads remain selected; it exposes a39,509-byte historical WALTER BOARD record above budget. This is a shared-owner finding, not authority to edit BOARD or change signal inclusion. Charter now falls below22,785 bytes; calendar/other unchanged70–75% surfaces retain their pre-existing state, not a new rotation claim.
 
@@ -102,3 +102,7 @@ All original sections, including sections retained live, are included so that mi
 - All research hubs/evidence/ledger/registry/script paths unchanged against baseline. No tracked deletions. Any other desk's dirty files remain excluded from these commits; startup pull remains withheld under root protocol.
 - Charter post-review and READS registration are pending PROME actions. No verified live cross-runtime transport to that owner; file packet is durable delivery, not recipient-consumption or acceptance proof. No duplicate owner launched.
 - Research ledgers consciously unchanged: this organizational cleanup supplies no economic outcome or valid regrade. Existing funding/settled-bar backlog is not claimed complete. Frozen predictions, feeds, scoring and quarterly schedules remain intact.
+
+## Final fold receipt
+
+Final STATUS commit: `c610f9c20`. NEXUS live fold installed after that commit; header pin equals STATUS HEAD. Live NEXUS size: 11433 bytes. Template under this receipt directory is a review artifact with a reserved pin marker, never the live brief. Final verification output→`validation.txt`; candidate declaration check→`read-cap-candidate-final.txt`. PROME post-review/registration remain pending.

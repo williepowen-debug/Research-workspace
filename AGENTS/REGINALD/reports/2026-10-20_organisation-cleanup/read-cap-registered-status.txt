@@ -1,0 +1,2 @@
+READ-CAP 2 CANNOT-EVALUATE [REGINALD]: desk REGINALD has NO rows in the manifest (--require-manifest). The charter heuristic is available without this flag, and says so in its verdict.
+READ-CAP-RESULT v1 mode=agent rc=2 assessed=0 desk=REGINALD reads=0 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=22779

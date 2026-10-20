@@ -508,7 +508,10 @@
           "sha256": "34ad1815d1a267a41c98106920d6e72cc552a0b219b14b8308e4631630b3f753",
           "crc32": "70ce76b8"
         }
-      ]
+      ],
+      "after_bytes": 11433,
+      "after_sha256": "c0686776866b1bdccf2c5a264ff41c58ed333879280d01bb3643c71cebd6d5c7"
     }
-  ]
+  ],
+  "status_commit_pin": "c610f9c20"
 }
