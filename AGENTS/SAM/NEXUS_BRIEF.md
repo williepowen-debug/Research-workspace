@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-20T15:34:53+00:00, Will-directed October 9–20 catch-up. **STATUS commit `ad61cfd51`** (Amendment 11). Folded after final owner-state write.
+**As of:** 2026-10-20T16:06:24+00:00, October sweep plus Will-requested internal steward reviews. **STATUS commit `d9db5bf31`** (Amendment 11). Folded after final owner-state commit.
 
 ## VIEW
 
@@ -15,6 +15,8 @@
 **Fiscal/data:** food-tax/support bill cabinet-approved Oct-9, Diet debate Oct-20; proposed food tax **8→1% April 2027 for two years**, legislation/offsets unresolved. Core machinery orders +5.2% m/m August; BOJ household survey improves but remains strained and predates September hike. Wider US HY **329bp Oct-19** coexists with orderly yen; SOFR−IORB **−3bp same date** does not measure offshore yen swaps. No transmission attribution from those alone.
 
 ## CALIBRATION
+
+October20 internal reviews completed: current prediction summaries repaired with SAM-31 standing qualifications; KB Fukoku absence assumptions corrected. No thesis, prediction or trade change. Oct/Nov mandatory calendar has zero gaps; supplemental Nov5 BOJ minutes accepted. First-November audit owes December coverage.
 
 **35 validated rows; 2 OPEN: SAM-33, SAM-42.** No marks, terms or statuses changed. Historical SAM-28/31 qualifications remain in STATUS and the prediction record; no retired gate re-arms. No thesis promotion or trade commission.
 
