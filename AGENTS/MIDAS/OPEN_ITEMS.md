@@ -1,5 +1,7 @@
 # MIDAS — current open items
 
+**Startup recovery October20,2026:** WQ-421 APPROVE October15 is now consumed; the old pending/deadline text below is historical and superseded. Frozen MIDAS-09/10 letters remain unchanged, ordinary recurring fees do not automatically cause STUCK; structural-only wording is for separately registered successors. Resolution remains October30 close / next-US-business-day retrieval / November6 backstop. Boot rc2: both CFTC freshness legs HTTP403; no overdue predictions or named corrections. Actual8/20 is the last saved score, not recertified. Weekly review dueOctober19 remains outstanding; WALTER PPI handoff deferred for primary verification. Six packets consumed. Root/runtime/dependency receipt: `analysis/2026-10-20_STARTUP.md`. WQ451 remains unapproved; no new commission. Older market evidence and historical position references below retain their dates and are not current holdings or reminder duties.
+
 **Closeout-reviewed2026-10-13; market/source evidence remains datedOctober12 or earlier.** Read with STATUS's top3; change both when a top3 item changes. The complete pre-maintenance102-line register is preserved verbatim in `analysis/BEFORE_MAINTENANCE_2026-10-12_OPEN_ITEMS.md`. Closed historical grading records remain there and in their dated resolution artifacts; no prediction is reopened by this compression.
 
 ## Closeout reconciliation

@@ -36,3 +36,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-12T17:03:53-04:00	SIG-W-20261008-007	acted	INBOX_WALTER	COR20261008-07applied;plagueunestablished,nosmelterproductionimpact;KB123
 2026-10-12T17:03:53-04:00	SIG-W-20261008-033	acted	INBOX_WALTER	WQ399receiptformsencodedincharter;receiptcarriesartifactandvalidationref;KB124
 2026-10-12T17:03:53-04:00	SIG-W-20261010-004	noted	INBOX_WALTER	Citisupplycutforecastonly,Sheltonappointmentnotgold-policyinstrument;BOND/ZHAOowners;KB124
+2026-10-20T11:59:54-04:00	SIG-W-20261014-017	noted	INBOX_WALTER	KB156; dated owner rates split, no new MIDAS grade
+2026-10-20T11:59:54-04:00	SIG-W-20261014-011	info-only	INBOX_WALTER	KB157; compilation caveats retained, no thesis
+2026-10-20T11:59:54-04:00	SIG-W-20261015-003	deferred	INBOX_WALTER	KB158; primary PPI verification and channel assessment at existing review
+2026-10-20T11:59:54-04:00	SIG-W-20261019-003	noted	INBOX_WALTER	KB159; credit owner context, no sizing
