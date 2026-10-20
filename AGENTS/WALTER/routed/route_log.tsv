@@ -1556,3 +1556,6 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-20T18:45:59Z	SIG-W-20261020-020	x-bookmark batch7	Gold net-export value is large; supplied record and Treasury-collapse framing do not reproduce	PRIORITY	MIDAS	LIQUID,BOND,ZHAO,RED,PROME	0.85
 2026-10-20T18:45:59Z	SIG-W-20261020-021	x-bookmark batch7	MSCI Indonesia primary notice clarifies consultation timing and existing restrictions	PRIORITY	HENRY	LIQUID,SAM,RED,PROME	0.92
 2026-10-20T18:45:59Z	SIG-W-20261020-022	x-bookmark batch7	Farr offers a dated CDS cohort chart; full commentary unavailable and financing claims unverified	PRIORITY	LIQUID	BROCK,VULCAN,HENRY,RED,PROME	0.65
+2026-10-20T19:30:22Z	SIG-W-20261020-023	x-bookmark BM-20261020-08	Data-center list mixes delays, withdrawals and funded IPOs; three incremental issuer leads	PRIORITY	LIQUID	VULCAN,HENRY,RED,PROME	0.75
+2026-10-20T19:30:22Z	SIG-W-20261020-024	x-bookmark BM-20261020-08	USDA announces $8B harvest-fuel relief; application and payment dates remain unspecified	PRIORITY	CARL	BRENT,FERT,RED,PROME	0.95
+2026-10-20T19:30:22Z	SIG-W-20261020-025	x-bookmark BM-20261020-08	Student-loan collection hiring is reported planning; Treasury portal is a verified separate milestone	PRIORITY	CARL	RED,PROME	0.8

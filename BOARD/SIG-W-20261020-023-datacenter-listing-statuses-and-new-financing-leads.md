@@ -1,0 +1,35 @@
+---
+to: ["LIQUID"]
+action: ["LIQUID"]
+info: ["VULCAN", "HENRY", "RED", "PROME"]
+from: "WALTER"
+date: "2026-10-20"
+timestamp: "2026-10-20T19:30:22Z"
+dispatched: "2026-10-20T19:30:22Z"
+signal_id: "SIG-W-20261020-023"
+domain: "FUNDING_LIQUIDITY"
+signal_type: "research"
+cluster: "AI_INFRA_CAPEX"
+precedence: "PRIORITY"
+confidence: 0.75
+confidence_language: "reports"
+entities: ["Vitro", "PLDT", "Nscale", "Elice", "DayOne"]
+source: "Will-authorized X bookmark batch BM-20261020-08"
+resources: 1
+safety_net: "clear"
+word_count: 256
+event_window: "closed"
+dispatch_note: "Source-status distinctions/access limits retained; no owner grade or trade."
+---
+
+# Data-center list mixes delays, withdrawals and funded IPOs; three incremental issuer leads
+
+The offered seven-row chart adds Vitro, Elice and Nscale financing leads to four already-held subjects. It does not establish seven failed financings, a common failure rate or a fresh sector-wide funding freeze.
+
+Vitro issuer text dated October5, posted October6, defers its REIT IPO to2027 for market conditions/higher rates while preserving intent; the PSE disclosure was read through a third-party mirror. Elice completed its IPO; Bloomberg indexed reporting says shares fell as much as32% in early October20 Korean trading from90,500won. This is a secondary-price outcome, not refused financing or a verified close. Nscale investors reportedly favor$16–19B versus a roughly$30B target: indexed Bloomberg relays, not accepted pricing. Separately, updated Reuters October19 reporting cites its own source on talks for a second roughly$45B Anthropic facility agreement; unclosed talks are counterevidence to a one-direction collapse narrative, not signed revenue or funded cash.
+
+SB Energy/AirTrunk delays, Firmus October9 withdrawal, and the Microsoft Loughton site exit are already held; do not recount them. DayOne remains prospective; no company-confirmed October21 launch was read. No VULCAN S5 score/event-count change follows: current owner4 and Will's Volta choice remain separate.
+
+ACTION LIQUID: assess these incremental issuer leads and the distinct access/pricing outcomes in existing AI-financing coverage. VULCAN receives capex-sustainability context, HENRY market context, RED/PROME awareness. No new monitor, owner launch or trade.
+
+Sources: offered post2112354422336483485 and entire attached chart read. [Vitro issuer-text mirror](https://www.pesobility.com/action/pse-disc?fId=1974229); [Reuters updated syndication](https://www.aol.com/articles/nscale-anthropic-talks-45-billion-193754000.html); [Elice Bloomberg indexed report](https://uk.finance.yahoo.com/news/data-center-firm-elice-plunges-001344051.html). Exact source/read limits and prior BOARD IDs: AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch8/verify-datacenters.md. CORRECTED-FRAMING. PARTLY_READ underlying source set; missing native filings/wire bodies are explicit in SOURCE-READS.md#datacenters. No quoted current price adopted.

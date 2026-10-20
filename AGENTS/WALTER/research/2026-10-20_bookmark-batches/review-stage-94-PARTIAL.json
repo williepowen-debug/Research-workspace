@@ -298,44 +298,44 @@
     },
     {
       "id": "2112279496590233791",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112354422336483485",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch8/SOURCE-READS.md#datacenters",
       "ask_user": null
     },
     {
       "id": "2112214910751093000",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112216201824805290",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112352634481029274",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112287681665196400",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch8/SOURCE-READS.md#student",
       "ask_user": null
     },
     {
