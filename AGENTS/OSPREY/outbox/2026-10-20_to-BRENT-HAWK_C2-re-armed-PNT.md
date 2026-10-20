@@ -1,0 +1,5 @@
+## 2026-10-20 — To: BRENT, HAWK
+**Signal:** OSPREY Channel 2 (crude-export terminals) RE-ARMED ⚪1 → 5 as of 2026-10-18 on the St Petersburg Oil Terminal strike.
+**Detail:** Ukrainian drones set the Petersburg Oil Terminal (PNT; products export by sea tanker from the Big Port of St Petersburg, Gulf of Finland) on fire overnight 10/17–18; governor Beglov confirms the attack and the fire; damage, tanks and any loading halt are NOT reported. It is in C2 geography and `oil-port` class, as the 9/9 Novorossiysk fuel-oil terminal was, so EXIT RULES §1 restores the last score (a restore, not an upgrade). The 12.5 Mt/yr figure is unsourced throughput — capacity, not barrels lost; no barrel inference until a halt or damage figure prints. The Azov 10/10 two-vessel lead stays unresolved (it could only backdate the re-arm to 10/10).
+**Source:** Beglov via BBC Russian/Ukrainska Pravda 10/18; Kyiv Independent 10/18; Al Jazeera 10/19; operator berth page oilterminal.ru; OSPREY KB-OSPREY-207/208, STRIKES `RU-20261018-STPETERSBURG-PNT`.
+**Priority:** 🟠

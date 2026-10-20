@@ -1,6 +1,15 @@
 # OSPREY STATUS
-**Last Updated:** 2026-10-18 (Sun) 17:54 ET (from `date`): osprey-1018, PROME prome-65 Tier-1 spawn (WQ-184: GATE-OSPREY-001 review_by + DOCKET L661 read-1 fix + L0 inbox drain 2/2). **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live 5) / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
-**Evidence:** KB-OSPREY-204…206 · `workbook/WARRISK.tsv` (+1 LEAD row, data clock NOT advanced) · `scripts/tests/ACCEPTANCE_L661_strike_feed_read3_residue.md` § READ-1 FIX · `STRIKES.tsv` untouched (mark stays 10/11).
+**Last Updated:** 2026-10-20 (Tue) 09:19 ET (from `date`): osprey-1020, PROME Tier-1 due-row spawn (WQ-184: DOCKET L666 Azov C2 lead + L0 inbox drain). **Scores 5 / 5 RE-ARMED 10/18 (C2, was ⚪1 killed 10/9) / 3 — ONE mark moved, forced by `RU-20261018-STPETERSBURG-PNT` under EXIT RULES §1 last bullet. Band ~30% [EST] UNCHANGED.**
+**Evidence:** KB-OSPREY-207…208 · `STRIKES.tsv` +2 rows, Azov row updated in place (mark stays 10/11, NOT advanced) · board_log +4 · prior: KB-204…206 (10/18).
+
+## ACTIVE — 2026-10-20 (C2 RE-ARMED at 5 · L666 Azov still OPEN-UNRESOLVED · inbox 4/4 dispositioned · no band or threshold moved)
+1. **CHANNEL 2 RE-ARMS ⚪1 → 5 as of 2026-10-18 — the St Petersburg Oil Terminal strike.** (KB-207, `RU-20261018-STPETERSBURG-PNT`)
+   - Overnight 10/17–18 Ukrainian drones set the Petersburg Oil Terminal (PNT) on fire; governor Beglov confirms the attack and the fire (BBC Russian via Ukrainska Pravda 10/18; Al Jazeera 10/19). Fire Point claims its FP-1. Damage, tanks, berths and any loading halt NOT stated.
+   - **Why it counts:** PNT is a products-export SEA terminal in the Big Port of St Petersburg on the Gulf of Finland, with deepwater tanker berths (112-A/112-V, PNT-3/PNT-4 per the operator's page). In geography (Gulf of Finland coast, not a river port) and in class through `oil-port` — the same class under which the 9/9 Novorossiysk **fuel-oil** terminal counted on limb 1 (option ② unruled). §1 last bullet: re-open, restore the last score (5), KB row. A restore, not a Will-gated upgrade.
+   - The 10/9 kill STANDS (the event postdates it; not a backfill). New limb-1 clock from 10/18: earliest re-kill **11/17**. Routed BRENT/HAWK (`outbox/2026-10-20_to-BRENT-HAWK_C2-re-armed-PNT.md`).
+   - ⚠️ 12.5 Mt/yr is unsourced throughput: CAPACITY, NOT BARRELS. Not refinery-class: C1 and L718 leg A untouched. Ruchyi depot rowed separately (depot, no clock). +5d re-read ~10/23 (damage/halt).
+2. **DOCKET L666 (Azov 10/10, due 10/19) — STILL OPEN-UNRESOLVED, not graded on absence.** (KB-208) Palaemon 12–18 Oct NOT posted (index 10/20 ~09:1x ET). DefenseMagazine and Seawanderer 10/11: names/type not disclosed; EN/RU searches: governor relays only. **Materiality narrowed:** with C2 re-armed 10/18 anyway, a proven tanker at an oil berth would only BACKDATE the re-arm to 10/10 (and reset C3 if Ukraine-side). Proposed to PROME: re-date to Palaemon 12–18; close UNRESOLVED (void-on-backfill kept) if 12–18 and 19–25 add nothing.
+3. **Inbox 4/4 dispositioned:** SIG-W-20261018-003 acted (above) · 20261019-002 noted · 20261019-003 info-only · PROME L661 read-2 packet **deferred** to its own deadline 10/23 (left at inbox top level so that session meets it).
 
 ## ACTIVE — 2026-10-18 (GATE-OSPREY-001 graded · L661 read-1 fix · inbox 2/2 · no mark, band or threshold moved)
 1. **GATE-OSPREY-001 GRADED at its review_by: LIVE, no leg newly fired, NO Channel-2 upgrade, no BRENT route.** (KB-204/205)
@@ -32,7 +41,7 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 | Channel | Score | Mark state | Current evidence / upgrade test | Clock / downgrade test |
 |---|---:|---|---|---|
 | Refineries/products | **5** | **UPGRADED 9/29 on Will's word (WQ-276)**. Caveats: (a) end-Aug data only, (b) the Moscow read weakens the ban mechanism, (c) the 9/28 data decree. | Newest rows: Omsk 10/8, Salavat 10/8, Ukhta 10/9, **Ryazan 10/15** (KB-200). **Energy-strike pause 10/11–10/14, lifted 10/15** (KB-195, KB-201). Surgut ZSK 10/16 = condensate, NOT counted (OWED-46). Saratov 10/14 = class unestablished, NOT counted. ⛔ **CAPACITY, NOT BARRELS.** Sept/Oct independent aggregate SEARCH-NOT-FOUND (10/15). | **1/30 from Ryazan 10/15.** **5→4 (§1b): L544 graded NOT MET 10/15**; the 14-day leg now resets to Ryazan 10/15 (earliest 10/29); no aggregate print <40%. L718 graded on 10/23 as registered. Blackout day 42/60 ⇒ UNREACHABLE flag 11/2. KB-196. |
-| Crude-export terminals | **⚪1 KILLED 10/9** (last live 5) | **DORMANT-ARMED.** Re-arms at 5 on the next in-geography crude-terminal, pipeline or oil-port row. | Limb 1: no in-geography row since Novorossiysk 9/9 (Palaemon 5–11 Oct: 0 unrowed events). Limb 2: Bloomberg 4-wk 3.53–3.76 then **~3.7 to 10/11** (B3); Black Sea loading slow (Sheskharis ~4-day moorings) is friction, not a strike. **L666 Azov 10/10: OPEN-UNRESOLVED** (KB-194). | ⚠️ **Void-on-backfill:** a missed in-geography event dated after 9/9 (incl. Azov 10/10 if a tanker at an oil berth is ever established) voids the kill as of its date. |
+| Crude-export terminals | **5 RE-ARMED 10/18** (killed ⚪1 10/9→10/18) | **LIVE** (restored last score, §1 last bullet; not an upgrade). | **`RU-20261018-STPETERSBURG-PNT`** — Gulf of Finland products-export sea terminal, governor-confirmed fire (KB-207). Prior in-geography row Novorossiysk 9/9. Limb 2: Bloomberg 4-wk **~3.7 to 10/11** (B3). **L666 Azov 10/10: OPEN-UNRESOLVED** (KB-208) — now only a possible backdate of the re-arm to 10/10. | **Limb 1: 2/30 from 10/18; earliest re-kill 11/17** (both limbs; a mechanism-level sweep first, HAW-15). Downgrade §1b: Bloomberg 4-wk ≥3.9 on two prints AND 14 days with no in-channel row ⇒ 5→4. |
 | Shadow-fleet tankers | **3** | HELD-ON-EVIDENCE | Letter (9/19): merchant tanker, Ukraine-side, in geography. **AFRAMAX RIO 10/6** is the anchor. Excluded since: Bulgaria coast 10/13 (cargo, Russia-attributed), Azov 10/10 (type unknown). | **9/21 from `RU-20261006-AFRAMAX-RIO-SOCHI`; earliest limb-1 kill 10/27.** Limb 2 UNDETERMINED for the reset window (HAWK KB-HAWK-428): a dated in-window canvass (10 outlets + TD6) is owed before 10/27. |
 
 **⛔ C2 COMPANION WATCH (out of geography, resets nothing):**
@@ -40,7 +49,7 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 - Inland midstream, **live in October:** `RU-20261002-SAMARA-LPDS-PROSVET` (+10/7, +10/10) · `RU-20261006-VOLODARSKAYA-LPDS` (products) · `RU-20261010-ROSTOV-NZNP-TERMINAL` (river products terminal; fire to 8 of 12 tanks by 10/14).
 - Depots carry no channel clock.
 
-**Theater clock:** NOT RUNNING. One of three channels is killed (C2, 10/9). Under §2 sequencing the 60 days start only when the LAST of the three is killed, and C1 and C3 are live. The 10/11 energy 'ceasefire' was never agreed by Russia and Ukraine's pause ended 10/15: declaratory, not a ceasefire in force. The downgrade rule is in force; upgrades are Will-gated.
+**Theater clock:** NOT RUNNING. **No channel is killed** (C2 re-armed 10/18). Under §2 sequencing the 60 days start only when the LAST of the three is killed. The 10/11 energy 'ceasefire' was never agreed by Russia and Ukraine's pause ended 10/15: declaratory, not a ceasefire in force. The downgrade rule is in force; upgrades are Will-gated.
 
 ## Current sourced aggregates and limits
 - **Refining band 25–35% [EST], ~30% (KB-029), UNCHANGED** — July 3.6 / August 3.8 M bpd runs anchors. Runs decline is a **proxy**, not measured damaged capacity. Will withdrew the ~33% re-centre 9/8; not reactivated.
@@ -74,7 +83,10 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 | **✅ 10/15** | **OSP-06 deadline** | **CONFIRMED** (KB-197). Flip-on-backfill if an in-window 4-wk ≥ 3.9 surfaces. |
 | **✅ 10/15** | **C1 5→4 successor — first dated evaluation** (WQ-276; §1b; **DOCKET L544**) | **NOT MET; C1 stays 5** (KB-196). **✅ 10/15 DOCKET L666 Azov: OPEN-UNRESOLVED** (KB-194). |
 | **~10/18** | **H.R. 5334 implementation deadline** (30 days from 9/18) | Consumer read → BRENT/HAWK. Waivers are the observable (KB-164). |
-| **~10/19+** | **Palaemon 12–18 Oct** | NOT posted as of 10/18 ~18:00 ET. Read for C3 (10/12–10/18) and any Azov follow-up; it certifies the ledger past 10/11. |
+| **~10/20+** | **Palaemon 12–18 Oct** | NOT posted as of **10/20 ~09:1x ET**. Read for C3 (10/12–10/18), the Azov 10/10 follow-up (L666) and PNT 10/18; it certifies the ledger past 10/11. |
+| **~10/23** | **+5d re-read: St Petersburg PNT 10/18** (damage, tanks, loading halt) | KB-207. |
+| **10/23** | **L661 read-2 fix owed** (acceptance first; guard + CX2-1/2/3/11/14 tests; CX2-13 declared; 4 ⚠️ disposed) | PROME packet 10/18, deferred 10/20; then PROME commissions read 3 (the last). |
+| **11/17** | **C2 earliest re-kill** (limb 1 30/30 from PNT 10/18 + limb 2) | Mechanism-level sweep first. |
 | **✅ 10/18 (Sun)** | **GATE-OSPREY-001 review_by** (CPC: SPM structural damage · Tengiz FM; (b) stays fired) | **GRADED 10/18: LIVE, (a) NOT FIRED · (b) stays fired · (c) NOT FIRED; no upgrade** (KB-204/205). |
 | **11/18** | **GATE-OSPREY-001 next review_by** | Mine; earlier on any CPC terminal strike / SPM incident. |
 | **~10/20–21** | **+5d re-reads: Ryazan 10/15 (units, halt) · Surgut ZSK 10/16 (identity, damage)** | OWED-43 class. |
@@ -111,11 +123,12 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 Prior cross-agent blocks (9/19-9/24) rotated VERBATIM → `archive/STATUS_ROTATED_2026-09-29.md` Part 2. Delivery is on commit; receiver integration UNKNOWN. I do not edit `GATES.tsv`.
 
 ## BOTTOM LINE
-**All three marks hold at 5 / ⚪1 / 3. The CPC tripwire (GATE-OSPREY-001) was graded on its date: no new leg fired, so no Channel-2 upgrade.**
-- **CPC gate:** no SPM structural damage and no Tengiz force majeure found for 9/18–10/18; CPC ran 1.59 M bpd in September (Reuters 10/13). The (a) grade rests on absence, not on a fresh assessment. Next review 11/18.
+**Marks 5 / 5 / 3: Channel 2 (crude-export terminals) RE-ARMED at 5 as of 10/18 on the St Petersburg Oil Terminal strike. No band or threshold moved.**
+- **Export terminals (5, re-armed 10/18):** Ukrainian drones set the Petersburg Oil Terminal (a Gulf of Finland products-export sea terminal) on fire overnight 10/17–18, governor-confirmed. Same class as the Novorossiysk fuel-oil terminal that counted 9/9. Damage and any loading halt unknown; 12.5 Mt/yr is capacity, not barrels lost. Earliest re-kill 11/17.
+- **Azov 10/10 (L666):** still no hull names or types anywhere; Palaemon 12–18 Oct not posted. It can now only backdate the re-arm to 10/10.
 - **Refineries (5):** Ryazan 10/15 is still the newest refinery row; the downgrade test cannot be met before 10/29.
-- **Export terminals (⚪1, killed 10/9):** still no Black Sea, Azov or Baltic oil-port strike since 9/9.
-- **Tankers (3):** RIO anchor 10/6; earliest kill 10/27, only with the war-risk canvass. A Lukoil executive's ~$2.5M-per-vessel cover claim is a lead, not a print.
-- **Strike feed:** the read-1 fix is implemented and tested; unattended runs stay unavailable until PROME's read 2.
+- **Tankers (3):** RIO anchor 10/6; earliest kill 10/27, only with the war-risk canvass.
+- **CPC gate:** graded 10/18, no leg newly fired; next review 11/18.
+- **Strike feed:** read-2 fix owed by 10/23; unattended runs stay unavailable.
 
-**Watch:** Palaemon 12–18 Oct (C3 + Azov); Ryazan halt re-read ~10/20; the C3 war-risk canvass before 10/27; L718 on 10/23.
+**Watch:** Palaemon 12–18 Oct (C3 + Azov + PNT); PNT damage re-read ~10/23; the C3 war-risk canvass before 10/27; L718 and the L661 fix on 10/23.
