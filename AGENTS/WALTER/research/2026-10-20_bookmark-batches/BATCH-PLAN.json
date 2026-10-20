@@ -64,7 +64,17 @@
         "2112358803186372732",
         "2112225915757580375"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261020-03",
+      "dispositions": {
+        "DISPATCH": 4,
+        "FOLD": 1,
+        "NO-ACTION": 1
+      },
+      "read_counts": {
+        "fully_read": 4,
+        "partly_read": 2
+      }
     },
     {
       "batch": 4,
@@ -223,5 +233,5 @@
       "state": "UNREVIEWED"
     }
   ],
-  "remaining_not_triaged": 84
+  "remaining_not_triaged": 78
 }

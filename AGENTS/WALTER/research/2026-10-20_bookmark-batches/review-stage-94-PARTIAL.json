@@ -88,44 +88,44 @@
     },
     {
       "id": "2112342633519489260",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/SOURCE-READS.md#illinois-primary-gap",
       "ask_user": null
     },
     {
       "id": "2112362966737936583",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111126517233095052",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "FOLD",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112375916961951890",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112358803186372732",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112225915757580375",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/SOURCE-READS.md#lambda-primary-gap",
       "ask_user": null
     },
     {

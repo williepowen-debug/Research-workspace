@@ -1,0 +1,43 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BOND/STATUS.md
+     [not yours]    AGENTS/BOND/analysis/2026-10-20_catchup/
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261020-008.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261020-010.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261020-011.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261020-008.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261020-011.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-009.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-010.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-010.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-011.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-20_MTB_earnings-capacity/
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261020-008.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261020-011.md
+     [not yours]    AGENTS/SAM/METSUKE_MEMORY.md
+     [not yours]    AGENTS/SAM/docket/CALENDAR.md
+     [not yours]    AGENTS/SAM/docket/CATALYSTS.tsv
+     [not yours]    AGENTS/SAM/docket/KOYOMI_MEMORY.md
+     [not yours]    AGENTS/SAM/docket/RELEASES.md
+     [not yours]    AGENTS/SAM/reports/2026-10-20_subagents/
+     [not yours]    AGENTS/SAM/workbook/KURA.md
+     [not yours]    AGENTS/SAM/workbook/KURA_MEMORY.md
+     [not yours]    AGENTS/TERRY/CLAUDE.md
+     [not yours]    AGENTS/TERRY/RISK_RULES.md
+     [not yours]    AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/
+     [not yours]    AGENTS/TERRY/research/2026-10-20_trade-idea-slate.md
+     [not yours]    AGENTS/TERRY/setups/FXY_jan58-60C_yen-confirmation_2026-10-20.md
+     [not yours]    AGENTS/TERRY/setups/IEF_jan90-92C_safe-asset-rebound_2026-10-20.md
+     [not yours]    AGENTS/TERRY/setups/RSP_jan215-225C_breadth-confirmation_2026-10-20.md
+     [not yours]    AGENTS/TERRY/setups/VST_common_power-scarcity_2026-10-20.md
+     [not yours]    AGENTS/TERRY/setups/WAL65P_dec18-preprint-management_2026-10-14.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-009.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-010.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-011.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261020-008-illinois-center-november-sale-calendar-old-appraisal.md
+     [not yours]    BOARD/SIG-W-20261020-009-coreweave-insider-tax-sales-and-planned-transactions.md
+     [not yours]    BOARD/SIG-W-20261020-010-data-center-bond-cohort-oct16-oct19-dated-g-spreads.md
+     [not yours]    BOARD/SIG-W-20261020-011-lambda-kansas-city-cmbs-marketing-status-source-gap.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

@@ -1541,3 +1541,7 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-20T15:39:39Z	SIG-W-20261020-005	Will X bookmark batch BM-20261020-02	Korea short-sale headline traces to conditional October 16 remarks	ROUTINE	HENRY	SAM,VULCAN,RED,PROME	0.8
 2026-10-20T15:39:39Z	SIG-W-20261020-006	Will X bookmark batch BM-20261020-02	Pepsi and Qualcomm job announcements need distinct dates and notice treatment	PRIORITY	LABOR	CARL,HENRY,VULCAN,RED,PROME	0.8
 2026-10-20T15:39:39Z	SIG-W-20261020-007	Will X bookmark batch BM-20261020-02	CoreWeave research separates contract assumptions from financing observations	PRIORITY	VULCAN,LIQUID	BROCK,HENRY,RED,PROME	0.8
+2026-10-20T15:59:38Z	SIG-W-20261020-008	Will X bookmark batch BM-20261020-03	Illinois Center November foreclosure calendar is a lead; appraisal is older	PRIORITY	CREED	REGINALD,BROCK,RED,PROME	0.8
+2026-10-20T15:59:38Z	SIG-W-20261020-009	Will X bookmark batch BM-20261020-03	CoreWeave sale screenshot mixes tax withholding, plans and proposed sales	PRIORITY	VULCAN	HENRY,RED,PROME	0.85
+2026-10-20T15:59:38Z	SIG-W-20261020-010	Will X bookmark batch BM-20261020-03	Data-center bond charts add a dated tenant cohort, with pricing-basis limits	PRIORITY	LIQUID	BROCK,VULCAN,HENRY,RED,PROME	0.8
+2026-10-20T15:59:38Z	SIG-W-20261020-011	Will X bookmark batch BM-20261020-03	Lambda-linked CMBS lead needs dated execution and senior-class evidence	PRIORITY	CREED,LIQUID	REGINALD,BROCK,VULCAN,RED,PROME	0.75

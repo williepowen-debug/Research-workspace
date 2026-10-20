@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-10-20T16:01:09Z",
+  "production_scan_calls": 0,
+  "single_post_detail_calls": 0,
+  "production_mark_calls": 0,
+  "stage_count": 94,
+  "review_dispositioned": 18,
+  "untriaged": 78,
+  "files": {
+    "seen": {
+      "sha256": "264c1fd2b76723d21a1cf4aae451acd08504b03a826f4f7ca114a7a86dabc316",
+      "same_as_batch1": true
+    },
+    "pending": {
+      "sha256": "d5d1145d0fa5eada187ee7ad694cca1dfe0ac51fd396611c7c926510d521bbf7",
+      "same_as_batch1": true
+    },
+    "next_token": {
+      "sha256": "094fffd249c7cb3317a2d6fe080d0aa9a28718774c955075191ca92aca5c5172",
+      "same_as_batch1": true
+    }
+  }
+}
