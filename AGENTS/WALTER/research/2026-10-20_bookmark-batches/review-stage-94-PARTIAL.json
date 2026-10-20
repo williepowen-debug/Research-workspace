@@ -172,43 +172,43 @@
     },
     {
       "id": "2112483656816328769",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112416267600867621",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112381696897335438",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "FOLD",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112389254932205862",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "FOLD",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112239727147397566",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112232824614879543",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },

@@ -1,3 +1,61 @@
+## Batch5 rotation continuation
+
+Current partial-review hash retained in LAST_COMPLETION; archived hash copy is historical evidence. Additional oldest entries below VERBATIM to finish below70%budget.
+
+```json
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/publication.json",
+        "sha256": "a4a72ebe14794336286ed11d150a905b02ea569ec65f5e39cc372f3fc797af22"
+      },
+```
+
+## 2026-10-20T18:34:56Z — READ-CAP rotation of historical evidence
+
+Oldest contiguous receipt entries copied VERBATIM; proof batch5/read-cap-rotation.json. Current duties retained.
+
+```json
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/verify-carrier.md",
+        "sha256": "8aa2470c9e62b45f077971d63abbd88f3e5b240664682879627e7344376d0303"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/verify-housing.md",
+        "sha256": "5899ae3dd6c579779d320c5d4b48d6664ef9f071cd910dd0ee4bd8df2226418f"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/review-stage-94-PARTIAL.json",
+        "sha256": "a532073e40d48f090c5893499ebfb8739663ee09e2bbacc1066a3cfb5f5bb735"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/RESULT.md",
+        "sha256": "1999d70a62d4ffb8ab2edd815d558a50b0de2882314cf2472351fe8bc6ae1889"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/SOURCE-READS.md",
+        "sha256": "1666c45fe18e557b7f3a84d1b65bf9474c28b254adc0f078ae743c61e1b2a93c"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-patriot.md",
+        "sha256": "248b9ba0bbc858898e419e38b9a823fc9180b5a762afe283ec671be3968b61ce"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-korea.md",
+        "sha256": "b9d856758073ea4311b41dd350550f3cdf910b58bcd90680498c964966556414"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-layoffs.md",
+        "sha256": "d64468d61e445e01c7aab3d88ddcf34a737e040fa03d359781678d9272f35464"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
+        "sha256": "828844a7bb69c317a33767e569483ebfda1f2255827930e58eb64148e7913921"
+      },
+```
+
+## 2026-10-20T18:33:41Z — LIGHT bookmark batch5; full closeout deferred
+
+Sixbookmarks/6contentitems CLOSED:3DISPATCH/2FOLD/1DUP, signals015–017/12handoffs.30cumulative reviewed/66untriaged;25full/5earlierpartial. LondonGooglepower-event recoveredfor most; Asian closes dated/viralcaplossesunverified; GrantThornton10.5%initialtalk notfinal. OlderBrentchartDUP. AllthreeRule9helpers explicitly CLOSED; no ownerlaunch, grade/trade or backgroundjob. Productionseen/stage/cursor hashes unchanged,0API/marks. Priorbatchesorigin-proven, currentpublication coordinated/pending; consumption separate. Source/retirement decisions scoped; no deletions. Full-deferred breadcrumbs>=3 remain debt, not cleared by this LIGHT closeout. Currentduties solely LAST_COMPLETION.
+
 ## 2026-10-20T16:29Z — READ-CAP rotation: oldest closeout evidence entries
 
 VERBATIM contiguous historical receipt entries demoted from LAST_COMPLETION; current duties unchanged. Bytes 1956, crc32 f024e3d9, sha256 9c670b3b9a012993909e077d8aeecab6ce27be34784315c972c55dac8ca8c0dd. Original JSON list fragment, including commas, follows.

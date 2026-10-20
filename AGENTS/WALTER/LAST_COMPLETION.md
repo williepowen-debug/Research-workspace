@@ -1,18 +1,18 @@
-# WALTER LAST_COMPLETION — bookmark backlog batch 4
+# WALTER LAST_COMPLETION — bookmark backlog batch 5
 
-Updated 2026-10-20T17:30:05Z. Will-launched Codex/OpenAI, GPT-6 family, exact variant UNKNOWN; session01a159bd-f630-7e51-891e-183785fc0f61. User explicitly requested independent review, coordinated publication and one supervised live run; WQ458 separate. General boot remains PARTIAL. Predecessor receipt preserved verbatim in research/2026-10-20_bookmark-live-acceptance/prior-LAST_COMPLETION.md.
+Updated 2026-10-20T18:33:41Z. Will-launched Codex/OpenAI, GPT-6 family, exact variant UNKNOWN; session01a159bd-f630-7e51-891e-183785fc0f61. User explicitly requested independent review, coordinated publication and one supervised live run; WQ458 separate. General boot remains PARTIAL. Predecessor receipt preserved verbatim in research/2026-10-20_bookmark-live-acceptance/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Independent acceptance COMPLETE for final code23d8dbead,67tests/sixprobes. Accepted code PUBLISHED (fresh-fetch ancestor proof). Live production fetch/isolated copied-state mark/authenticated resumption passed.Batches1–4of16CLOSED:24bookmarks dispositioned,19fullyread/5partlyreadwithfollow-ups;72untriaged;0production marks. Bounded technical check complete; normal source-consumption and existing general duties remain unfinished.
+Independent acceptance COMPLETE for final code23d8dbead,67tests/sixprobes. Accepted code PUBLISHED (fresh-fetch ancestor proof). Live production fetch/isolated copied-state mark/authenticated resumption passed.Batches1–5of16CLOSED:30bookmarks dispositioned,25fullyread/5partlyreadwithfollow-ups;66untriaged;0production marks. Bounded technical check complete; normal source-consumption and existing general duties remain unfinished.
 
 ## CHANGED
 
-Finalbookmarkcodeacceptancecomplete/published. Batch4addsBOARD012–014/eightcreate-onlyhandoffs andCLOSED7contentmanifest(sixbookmarks). Amazon/VW/Censusnew;power/yuan/BrentcoreDUP;HMIextraDUP. Allthreeverifiersclosed. Batches1–4origin-proven;42of42todayhandoffsdelivered. Noownerlaunch/grade/trade/backgroundjob.
+Batch5 adds BOARD015–017 and12create-only handoffs: London cloud/bank-service recovery, qualified Asia closes, preliminary GrantThornton/CBIZ financing. Sixposts:3DISPATCH/2FOLD/1DUP; allofferedmaterialread. Allthreeverifiers CLOSED. Batches1–4 origin-proven;42of54today handoffs delivered,12new await coordinated publication. No owner launch/grade/trade/background job.
 
 ## RESULT
 
-**Current batch receipt:** research/2026-10-20_bookmark-batches/batch4/RESULT.md andparentBATCH-PLAN.json. BM-20261020-04CLOSED7/7contentitems:3DISPATCH/4DUP; sixbookmarkoutcomes3DISPATCH/3DUP.012Amazondeployment/cashtiming→VULCAN+WATT;013VWglobalpay-budgetproposal→HANS;014CensusSeptemberconstruction→HOMER. BLSAugustpowerpricealready1001-013;strongyuanframealreadyZHAO;morningBrenthigh/laterreversalalreadyBRENT;HMIalready1019-004. Newsmallpriceincrements/ancillaryunverifiedclaimsretainedwithdates/scope,notpromotedtofacts. Allsixofferedreadscomplete;24of96dispositioned,72untriaged;19full/5earlierpartial. No productionAPI/mark/stageedit;seen870unchanged. Threeverifiersclosed/noownerlaunch. All42handoffsorigin-proven;VULCAN012acted/KB-VULCAN-234PROVISIONAL;otherACTIONintegrationunconfirmed. Generalboot/READS/threshold/financing/SAM/fullnarrativedebt retained.
+**Current batch receipt:** research/2026-10-20_bookmark-batches/batch5/RESULT.md and parentBATCH-PLAN.json. BM-20261020-05 CLOSED6/6:3DISPATCH/2FOLD/1DUP.015Londonpower-event/bank-service disruption→HANS ACTION; recovery retained, no Europewide/grid/funding inference.016Korea−3.73%/Japan−1.30%October20closes→HENRY ACTION; threepostscombined, viralcaploss/rollingwindow/chipweightunverified, no carry mechanism or shortban.017GrantThorntonAdvisors/CBIZ→LIQUID+BROCK ACTION;10.5%initialtalk not executedterms, instrument/issuer/leverage/benchmark limits retained. BrentOctober19chart stale-to-owner DUP.30of96dispositioned,66untriaged;25full/5earlierpartial.0productionAPI/mark;seen870/exact94stage unchanged. VULCAN012 acted/KB-VULCAN-234PROVISIONAL previously verified; other integration unconfirmed. Generalboot/READS/threshold/financing/SAM/fullnarrative debts retained.
 
 **New inbound carry:** SAM's October20Japan-sweeppacket read in full; integration/anynecessarycorrectiondispatch not yet complete. Packet remains NEW, no consumption declared. Preserve its dated20Yauction,Septembersectorflows,Fukokuplan/Uedabasis distinctions. Do not repeat stale ongoingFukoku30Yexit as fact. Source-reportreadpartial; no new grade or aggregatecarry-unwind conclusion. Finish this after the bounded batch; previous generalboot/financing/threshold/READS duties survive.
 
@@ -20,7 +20,7 @@ Reviewed exact-ID binding plus metadata-loss recovery:67offline tests and six in
 
 ## GAPS / OWED
 
-- **Bookmark source backlog / production completion:** independent code acceptance and code publication are COMPLETE for23d8dbead. Live technical fetch/review-schema/isolated-mark/authenticated-resume checks passed.96IDs discovered:24dispositioned (19fullyread/5partlyreadwithfollow-up),72untriaged (70in real pending stage;2from isolated live resume). Exact94stage still intact; partial schema2review saved in research/2026-10-20_bookmark-batches;70null entries prohibit completion. Production seen870 unchanged,0production marks; normal source review/routing/disposition and production mark/resume remain owed. Never use isolated-smoke-review.json against real pending. Complete remote traversal on copied state is not production consumption or a changing-list snapshot. WQ458 remains separate/unresolved; today's bounded acceptance run has direct user authorization.
+- **Bookmark source backlog / production completion:** independent code acceptance and code publication are COMPLETE for23d8dbead. Live technical fetch/review-schema/isolated-mark/authenticated-resume checks passed.96IDs discovered:30dispositioned (25fullyread/5partlyreadwithfollow-up),66untriaged (64in real pending stage;2from isolated live resume). Exact94stage still intact; partial schema2review saved in research/2026-10-20_bookmark-batches;64null entries prohibit completion. Production seen870 unchanged,0production marks; normal source review/routing/disposition and production mark/resume remain owed. Never use isolated-smoke-review.json against real pending. Complete remote traversal on copied state is not production consumption or a changing-list snapshot. WQ458 remains separate/unresolved; today's bounded acceptance run has direct user authorization.
 
 - **Current financing attribution:** primaryfourunmatched;datedissuercreditpanel,currentcash/draw/covenant/fullobligation/newsclockgaps. Initial HENRY/LIQUID/CRUISE/WAL/VIOLET contribution dependencies delivered/read; no waiting-on-shortlist blocker. Science remains partial,not backgroundexecution.
 
@@ -31,7 +31,7 @@ Reviewed exact-ID binding plus metadata-loss recovery:67offline tests and six in
 - General boot PARTIAL: October12 READS attestation stale; six changed dependencies at startup, scanner changed again during this repair. Whole ORCH_INFLIGHT read today; full owner context, fresh threshold/Cushing/BOARD/context execution and re-enumeration/attestation remain owed. Byte checks/doctor do not certify execution; see startup receipt. No hashes/attestation renewed without operational review.
 - Currentnews/sourcecoverageisbounded:officialsettlements,fullCREEDproperty/event/cohortandHANSqualitativeeventperimeter/finalclosesequencesincomplete;HANS-T12UNINSTRUMENTED,T15(b)unresolved. NBS/Reuterssubstantivetextrecoveredinsearchresponses,directopensfailed;ownercounterpartyfilingsnotallindependentlyreaudited. No freshIranfullsweep/all-clear;next~10/22.
 - Intake lane pulled to72201e8 today; last_runOctober19T20:20:29Z, one missed weekday, newsweep degraded. Nine NEW scanner groups await body review/disposition (one contains11NEW_WATCH items); no mark/dispatch inferred. Phone inbox absent normal, dropzone0. Previous direct Cushing fallback is dated evidence, not today's6c execution.
-- Startup main pull was up to date before foreign dirty work appeared. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. Initial foreign TERRY/BRENT work was untouched. Native codex queue now verified for the exact BRENT peer; limited Codex discovery plus native session metadata identified its thread, not a cross-runtime fleet census. Accepted code was carried by BRENT publication. Current routes are origin-proven; future PRIORITY publication remains Will-coordinated under SPEC7; no fresh independent push window inferred; no foreign pull/stash/rebase. PROME cross-runtime presence/transport remains UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
+- Startup main pull was up to date before foreign dirty work appeared. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. Initial foreign TERRY/BRENT work was untouched. Native codex queue now verified for the exact BRENT peer; limited Codex discovery plus native session metadata identified its thread, not a cross-runtime fleet census. Accepted code was carried by BRENT publication. Batches1–4 and reconciliation592e6542a are origin-proven; batch5 PRIORITY publication awaits coordinated train under SPEC7; no fresh independent push window inferred; no foreign pull/stash/rebase. PROME cross-runtime presence/transport remains UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
 - FourOTTOqueueitemsaredischargedforWALTERsourcevalidation/routing;actualAlly10/20,CATOindependentOR1closure,THESISv1.610/30andrecipientconsumptionremainownerwork.
 
 ## WILL_NEEDS
@@ -46,7 +46,7 @@ None newlycreated. ExistingWQ458bookmarkcontinuationdecisionremainsregisteredwit
 
 Existing approval remains Will’s “Okay approved go ahead and begin these.” Broader financing attribution is unfinished; initial owner screens and bounded evening integration are complete. Bookmark implementation history is rotated verbatim to SESSION_LOG; the binding repair is implemented; independent acceptance/code publication are complete; production source-consumption and WQ458 limits remain live above.
 
-1. Current bookmark acceptance result is research/2026-10-20_bookmark-live-acceptance/RESULT.md; independent review helper explicitly closed. Will authorized batch review and explicitlyapprovedbeginning:16batchesof6;batches1–4closed,nextbatch5 IDs in BATCH-PLAN.json. Existingauthorization suffices; no repeated batch permission request. Accumulate all94valid review entries before production mark, then resume the real cursor for2known tail IDs and check a fresh head as authorized. Never substitute the copied-state smoke review. WQ458/L599/L728 ownership stays with PROME; no pilot renewal inferred. PROME consumes the new accepted-result packet; native acceptance/consumption not inferred.
+1. Current bookmark acceptance result is research/2026-10-20_bookmark-live-acceptance/RESULT.md; independent review helper explicitly closed. Will authorized batch review and explicitlyapprovedbeginning:16batchesof6;batches1–5closed,nextbatch6 IDs in BATCH-PLAN.json. Existingauthorization suffices; no repeated batch permission request. Accumulate all94valid review entries before production mark, then resume the real cursor for2known tail IDs and check a fresh head as authorized. Never substitute the copied-state smoke review. WQ458/L599/L728 ownership stays with PROME; no pilot renewal inferred. PROME consumes the new accepted-result packet; native acceptance/consumption not inferred.
 2. RED/REGINALD apply their published3/3 entry consequences with REGINALD bank attribution separate; LIQUID's current MET rung retains X1 CLOSED/DON'T-SIZE. TERRY existing card request is BOARD003, not approval to size.
 3. GIBBS existing lane used by001: FITB published10/19 morning,09:00ETcall; PROME corrects oldL704AMC wording and integrates bank comparison/NDFI withBROCK. No new GIBBS launch here.
 4. FALCON/BRENT existing owner lanes for005; full Iran sweep due~10/22, no clock reset. CapeDao/GFS PRIDE and asset census remain owner work; no '$136physical','USaskedpermission' or 'Straitclosed' carried as fact. OSPREY terminal003Sunday; L661read2HOLD10/23.
@@ -90,12 +90,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Light routing closeout ofbookmarkbatch4.24cumulativebookmarks/72untriaged;19full/5earlierpartial;0productionmarks/exact94stageintact. FourteenBOARDsignalstoday/42handoffs:42origin-proven;ownerintegrationseparate. Allthreecurrentverifiersclosed/noownerlaunch/backgroundjob. Full-deferred/generalboot/READS/source/financing/SAMdutiesretained;selectedchecksnotfullclearance.
+Light routing closeout of batch5.30bookmarks/66untriaged;25full/5earlierpartial,0productionmarks. SeventeenBOARDsignals today;54handoffs,42priororigin-proven/12currentpending coordinated publication. Threecurrentverifiers explicitlyCLOSED. Full-deferred/generalboot/READS/source/financing/SAMduties retained; selected checks are not full clearance.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-20T17:30:05Z",
+  "as_of": "2026-10-20T18:33:41Z",
   "next_review": "2026-10-21",
   "publication": [
     {
@@ -129,57 +129,21 @@ Light routing closeout ofbookmarkbatch4.24cumulativebookmarks/72untriaged;19full
     {
       "commit": "06a9c5d58",
       "state": "published"
+    },
+    {
+      "commit": "592e6542a",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261020",
-    "total": 42,
+    "total": 54,
     "delivered": 42,
-    "note": "Freshfetch e323b5eec1c834ea00b7925fb61b0523c4f7545d: batches1\u20134 published. VULCAN012 acted/KB-VULCAN-234 PROVISIONAL; other ACTION integration unconfirmed."
+    "note": "Freshfetch0728e2ded779268408281366ea6dfec9ab6aed86 proves batches1\u20134/reconciliation;12batch5handoffs pending coordinatedpublication. Owner integration separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/verify-carrier.md",
-        "sha256": "8aa2470c9e62b45f077971d63abbd88f3e5b240664682879627e7344376d0303"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/verify-housing.md",
-        "sha256": "5899ae3dd6c579779d320c5d4b48d6664ef9f071cd910dd0ee4bd8df2226418f"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/review-stage-94-PARTIAL.json",
-        "sha256": "52ec9d51ac001f555ed3b442d97d04b13d20b9a94e3ed901fe05f9873dc6394d"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/RESULT.md",
-        "sha256": "1999d70a62d4ffb8ab2edd815d558a50b0de2882314cf2472351fe8bc6ae1889"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/SOURCE-READS.md",
-        "sha256": "1666c45fe18e557b7f3a84d1b65bf9474c28b254adc0f078ae743c61e1b2a93c"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-patriot.md",
-        "sha256": "248b9ba0bbc858898e419e38b9a823fc9180b5a762afe283ec671be3968b61ce"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-korea.md",
-        "sha256": "b9d856758073ea4311b41dd350550f3cdf910b58bcd90680498c964966556414"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-layoffs.md",
-        "sha256": "d64468d61e445e01c7aab3d88ddcf34a737e040fa03d359781678d9272f35464"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
-        "sha256": "828844a7bb69c317a33767e569483ebfda1f2255827930e58eb64148e7913921"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/publication.json",
-        "sha256": "a4a72ebe14794336286ed11d150a905b02ea569ec65f5e39cc372f3fc797af22"
-      },
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/RESULT.md",
         "sha256": "93760fcb3f52ba2df838e59cdf8ce3a4e3c1b97f2650ef8a2ffbafda6fa8a811"
@@ -231,6 +195,38 @@ Light routing closeout ofbookmarkbatch4.24cumulativebookmarks/72untriaged;19full
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/publication.json",
         "sha256": "3627f476ed79787a93973579c7e9fb21178fe78b9a4b3adc3797326bcfe071b7"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/RESULT.md",
+        "sha256": "366eebfc94a82cec5a6ce8ad59f95448bb76564d109cd8ec2e3c2a8cb6154324"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/SOURCE-READS.md",
+        "sha256": "96096c97f7c6c005e2f9631ce76e57e9cd569e5491e8430e60c8faad35aa419a"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/verify-cloud.md",
+        "sha256": "a4b8468859a86ae9e769bffe3faa225fe38054a319f9922e1ede58c581dca6a1"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/verify-asia.md",
+        "sha256": "25df1dd215662c97d2113f1424b87b77a6b74782619c3f74fad80a1cc1749da9"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/verify-grant-thornton.md",
+        "sha256": "f3a4422410470ffb730c4fdadefba5929f79d50b3d1997d0775b3ca09675a9d4"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/review-evidence.json",
+        "sha256": "f8d21ac56486340557ee44f81b8a30f68bb2c16208b378b26e8672b23c28e873"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/publication-before.json",
+        "sha256": "6b3466507ebfb3fcf04a39e4cc280501de0de008d7d2536430ae9ce5e9400856"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/review-stage-94-PARTIAL.json",
+        "sha256": "a532073e40d48f090c5893499ebfb8739663ee09e2bbacc1066a3cfb5f5bb735"
       }
     ]
   },
@@ -239,18 +235,18 @@ Light routing closeout ofbookmarkbatch4.24cumulativebookmarks/72untriaged;19full
     "boot": "PARTIAL",
     "owner": "WILL",
     "ask": "Will explicitly requested progressing to next bookmark batch",
-    "closeout": "batches1\u20134CLOSED24dispositioned/72untriaged; LIGHT routing/fullnarrativedebt retained"
+    "closeout": "batches1\u20135 CLOSED30dispositioned/66untriaged; LIGHT routing/fullnarrative debt retained"
   },
   "manual_duties": {
-    "Tier1": "affectedSTATUS/LAST/MEMORYupdated; older levels not refreshed; source limits explicit",
-    "helpers": "threeRule9verifiersexplicitlyclosed;nodomaindesklaunch",
-    "7h": "24validentries/70null inexact94stage;0productionAPI/mark;19full/5priorpartialreadattestations;5earlierfollow-upsretained",
-    "root.retirement": "priorreceiptretainedverbatimhere;noowner/source deletions; nofullhistoricalretirementclaim",
-    "16": "batches1\u20134origin-proven;publication06a9c5d58confirmed;reconciliationcommitlocal;noforeignworktouched",
-    "ledgers": "route/delivery/BATCH eventsonly;42todaydeliveriesreconciled;kill/fire/ownership/grade/priorWALTERretractionnodefinedevent;clocksgapsretained",
+    "Tier1": "affected STATUS/LAST/MEMORY and3owner-header mirrors updated; older levels not refreshed; source limits explicit",
+    "helpers": "three Rule9 checks, each explicitly CLOSED; no domain desk launch or unattended work",
+    "7h": "30validentries/64null inexact94stage;0productionAPI/mark;25full/5earlierpartial;5priorfollowupsretained",
+    "root.retirement": "prior receipt saved verbatim batch5/prior-LAST_COMPLETION.md; no owner/source deletions or full historical retirement claim",
+    "16": "batches1\u20134/reconciliationorigin-proven; batch5exactpathscommitplanned;12handoffpublicationpendingcoordinatedtrainSPEC7",
+    "ledgers": "route/delivery/BATCH plus1NoveltyDUP kill; SAM/VULCAN/REGINALD mirrors refreshed from current lead headers; fire/grade/owner/retraction no event; clock/source gaps retained",
     "14": "sessionnote updated; no auto-memory;99lines",
     "basis": "canonicalrouting/carveouts/sourceevidenceused;missingCROSS_REFScachesnotinvented;generalboot/threshold/READS/fullnarrativedebtsretained; tenoldestevidenceentriesrotatedVERBATIMtoSESSION_LOGatread-captrigger; currentduties/currenthashreview retained",
-    "11": "three012\u2013014signals/eighthandoffs/CLOSED7contentmanifest acrosssixposts; cumulative14signalstoday/42handoffs",
+    "11": "three015\u2013017signals/12handoffs/CLOSED6contentmanifest;17signalstoday/54handoffs",
     "Tier1.breadcrumb": "SESSION_LOG LIGHT entry; >=3 full-deferred narrative debt surfaced; not cleared by selected checks",
     "7g": "newSAMpacketread, integration/correctionrouting pending; remains NEW; no consume claim"
   }

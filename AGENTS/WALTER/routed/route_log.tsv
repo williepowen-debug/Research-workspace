@@ -1548,3 +1548,6 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-20T16:27:10Z	SIG-W-20261020-012	Will X bookmark batch BM-20261020-04	Amazon rack-receipt reporting adds deployment and cash-timing questions	PRIORITY	VULCAN,WATT	LIQUID,HENRY,RED,PROME	0.85
 2026-10-20T16:27:10Z	SIG-W-20261020-013	Will X bookmark batch BM-20261020-04	Volkswagen global pay-budget directive remains a contested proposal	PRIORITY	HANS	LABOR,CARL,RED,PROME	0.85
 2026-10-20T16:27:10Z	SIG-W-20261020-014	Will X bookmark batch BM-20261020-04	September housing construction is new; sampling and revision limits matter	PRIORITY	HOMER	CARL,REGINALD,RED,PROME	0.85
+2026-10-20T18:32:29Z	SIG-W-20261020-015	x-bookmark batch5	London cloud outage disrupted bank services; most customers recovered	PRIORITY	HANS	VULCAN,LIQUID,REGINALD,CARL,RED,PROME	0.85
+2026-10-20T18:32:29Z	SIG-W-20261020-016	x-bookmark batch5	October20 Korea and Japan equity declines add dated continuation; viral loss totals unverified	PRIORITY	HENRY	LIQUID,SAM,VULCAN,RED,PROME	0.85
+2026-10-20T18:32:29Z	SIG-W-20261020-017	x-bookmark batch5	Grant Thornton Advisors markets CBIZ acquisition financing;10.5% is preliminary talk	PRIORITY	LIQUID,BROCK	REGINALD,HENRY,RED,PROME	0.8

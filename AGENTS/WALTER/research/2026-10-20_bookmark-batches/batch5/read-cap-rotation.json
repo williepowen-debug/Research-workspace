@@ -1,0 +1,16 @@
+{
+  "before_bytes": 24461,
+  "after_bytes": 22711,
+  "bytes": 1755,
+  "sha256": "04d56792859179f104b111b859670699f58a9e5c3b0a01a23a4fa31a2140284f",
+  "crc32": "2b772848",
+  "entries": 9,
+  "rule": "oldest contiguous historical evidence only; VERBATIM to SESSION_LOG; current duties unchanged",
+  "continuation": {
+    "bytes": 196,
+    "sha256": "207ab074099a03017bb380d1df4e168cab18e6cf952f836331a14fffe76525a9",
+    "crc32": "fce66b1f",
+    "entries": 1,
+    "current_partial_review_hash_retained": true
+  }
+}

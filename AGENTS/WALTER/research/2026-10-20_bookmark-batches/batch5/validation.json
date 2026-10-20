@@ -1,0 +1,17 @@
+{
+  "exact94stage_binding": "PASS",
+  "reviewed": 30,
+  "review_null": 64,
+  "read_counts": {
+    "fully_read": 25,
+    "partly_read": 5
+  },
+  "production_state_hashes_unchanged": "PASS",
+  "seen": 870,
+  "production_marks": 0,
+  "rotation_conservation": "PASS",
+  "receipt": "PASS 42/54 delivered;12pending",
+  "doctor": "0HIGH/10MED contextual, no new signal schema failure",
+  "selected_closeout": "REVIEW: ledger nudge, scope and reasons in commit; not general boot clearance",
+  "helpers": "three explicit CLOSED replies"
+}

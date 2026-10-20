@@ -1,0 +1,30 @@
+# Batch 5 bounded Asia-equity verification — 2026-10-20
+
+Runtime: OpenAI Codex; narrow read-only WALTER verification helper. No desk launch, owner/BOARD edit, commit, or bookmark mark. Root resolved by Git as `/home/willi/Research-workspace`; root CLAUDE/AGENTS/USER and WALTER CLAUDE explicitly read (combined tool output truncated; task-relevant scope/rules retained). No general boot/whole-fleet attestation. Unqualified `python` missing; root `.venv/bin/python` works with requests/bs4. Scope is the three offered posts/images and dated market observations, not attribution or owner grading.
+
+**Verdict: CORRECTED-framing for dated selloff; INDETERMINATE for viral totals, concentration and exact rolling endpoints.**
+
+## Dedup before external research
+
+Read matching BOARD 20261015-002 (Asia circuit-breaker selloff, Nikkei/Korea), 20261016-006 (KOSPI Friday rebound; prior Oct6→15 drawdown), 20261020-005 (conditional Oct16 stabilization remarks, no implemented ban), and SAM October20 STATUS/current sweep references. 20261019-005 is a shipping signal, not Asian equity evidence. HENRY STATUS still flags exchange-primary halt reconciliation deferred. SAM's Japan sweep does not establish a yen carry unwind. Those owners already hold the broad regional selloff; the October20 completed close is a dated continuation, not a newly discovered crisis or new circuit breaker.
+
+## Offered content actually read
+
+Saved source cards `/tmp/walter-bookmark-live-scan-1.txt` items26–28 read completely; all three downloaded images inspected using view_image:
+
+- BullTheoryio `2112416267600867621`, 05:30:59Z: https://pbs.twimg.com/media/HVDPEKRbIAAQpBf.jpg . Stylized candlestick chart, no horizontal dates/source/endpoint or aggregate market-cap method. Arrow labels −22% and −$745B; apparent end near5500. Neither chart nor post gives a security-universe calculation.
+- macropaperr `2112381696897335438`, 03:13:37Z: https://pbs.twimg.com/media/HVCr82gaoAAgLUj.jpg . Red Japanese-equity heatmap with individual ticker daily changes, including SoftBank9984 −5.24%, MUFG8306 −1.84%, SMFG8316 −1.80%. No date/clock/source, 13-day series, or market-cap calculation. Heatmap does not independently prove Nikkei weight or total market loss.
+- Barchart `2112389254932205862`, 03:43:39Z: https://pbs.twimg.com/media/HVC21XxWAAAJN0O.png . Delayed KOSPI .KS11/Korea Stock Exchange/KRW screenshot at **12:21PM JST**: **5,584.89; −183.12 (−3.17%)**, intraday1D chart. Not the completed close and not a 22% rolling-return calculation. Fold with same-day Korea observation rather than separate event.
+
+## Evidence locators and access limits
+
+1. **Yonhap original full body read**, via shell requests HTTP200 after web open failed: [Kim Han-joo, Oct20 15:54KST](https://en.yna.co.kr/view/AEN20261020007151320). KOSPI **5,552.74, −215.27/−3.73%**; intraday low **5,493.24**. Samsung **₩211,500/−2.98% day**, SKhynix **₩1.22M/−4.23% day**. FX **₩1,328.1/USD at15:30KST**. This establishes a fresh completed session, not the claimed cumulative loss, 50% weight, margin-call mechanism, or unique cause.
+2. [SBS original October6 full report](https://news.sbs.co.kr/english/article.do?news_id=N1008785459), web full body: KOSPI Oct6 close **6,941.39**; Oct2 close **7,003.74**. Mechanical Oct6→Oct20 close return **−20.0054%**. Therefore post's −22% cannot be called a verified two-week close-to-close return without its actual endpoints; it may use an intraday high or different start.
+3. [FRED/Nikkei daily-close series](https://fred.stlouisfed.org/graph/?id=NIKKEI225), complete returned source notes and current five observations read: Oct20 **64,075.42**, Oct19 **64,916.70**, implying **−1.29594% day**. Source Nikkei Industry Research Institute; daily close, not futures. Search returned earlier indexed same series Oct7 **70,035.71** and Oct6 **70,683.98**; those older endpoints were search-access observations, not independently downloaded historical CSV in this pass. Conditional arithmetic gives Oct7→20 **−8.5104%** (13calendar days), Oct6→20 **−9.35%** (14calendar days). Thus exact “more than9% in13days” endpoint convention remains unresolved; don't promote it as confirmed or label false without the source convention.
+4. [Nikkei official summary, search-returned page](https://indexes.nikkei.co.jp/nkave/archives/summary?dt=09292026&idx=nk225) returned explicit body date **Oct20**, close64,075.42/−1.30%, low63,807.15, constituent capitalization¥1,027.07T. **URL date and displayed date conflict**; exact-date retries failed; daily history shell403. Treat as corroboration only, not vintage proof or matched market-cap series. Reuters Japan morning report was available through search full reporting body at [Business Recorder](https://www.brecorder.com/news/40445086): 0204GMT64,360.16/−0.86%; shell403/webopenfailed. It is an earlier intraday observation, not contradictory close data. ¥100T loss and $650B equivalent not independently recovered.
+
+## Method and bounded routing conclusion
+
+₩1,118T/$745B implies **₩1,500.67/USD**, materially different from Yonhap's same-day15:30 rate1,328.1. This is a basis warning, not proof the won-loss figure itself is false. ¥100T/$650B implies **¥153.85/USD**; no matching conversion time or market-cap universe supplied. A price-weighted Nikkei return cannot mechanically establish capitalization loss for Japan's entire market. No exact constituent-weight reconstruction or primary historical KRX market-cap series obtained; do not repeat Samsung/SKhynix50%, −25%/−34%, either aggregate wealth total, forced-liquidation/contagion claims, or a newly implemented short ban as established facts.
+
+WALTER may route **one qualified October20 Asia-equity continuation** to existing index-mechanics/volatility owner HENRY, Japan owner SAM and AI-linked equity context VULCAN, subject to canonical recipient checks. Fold Barchart into the Korea item; separate Japan observation may share the same qualified dispatch rather than count a second independent shock. Owners decide whether it changes their monitoring. No new domain assignment, threshold grade, causal yen-unwind claim, or trade.
