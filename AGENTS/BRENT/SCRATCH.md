@@ -1,4 +1,4 @@
-# BRENT SCRATCH — October20,2026 — USO short-interest investigation
+# BRENT SCRATCH — October 20, 2026 — USO research home
 
 **Handoff:** 2026-10-20T11:10:14-04:00 — Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. Native session ID and verified capabilities: [receipt](audits/2026-10-20_startup/receipt.json). Root/local rules explicitly read. News catch-up now authorized directly by Will; no helper or trade action.
 
@@ -10,6 +10,7 @@
 - New HENRY December measurement evidence requests adoption/rejection; source-level review not performed in this startup.
 
 ## WHAT I DID THIS SESSION
+- Will directly requested USO-focused structural/technical/metrics tracking. Created [USO](USO/README.md) with a dated tracker and sourced observations series; preserved original research paths. Imported primary receipts and captured subsequent broker/vendor proxy evidence with explicit scope. No autonomous schedule or trade trigger.
 - Reproduced USOposition row and ratio atFINRAprimary; investigated conflictingvendorfloat ratios, recovered issuerdynamicdailyrecord, separated dailyshorttransactions/ETPmechanics. No pendingdecision or secondarypercentage silentlyadopted.
 - Will-authorized news catch-up: recovered originalAl-Araby text, compared contraryReuters/officialremarks, saved quotes/contractmetadata/minutebars and source receipts. IEAannouncement catalyst graded, remainingdeliveryscope retained; no thesisversion/forecast/registeredthreshold change.
 - Ran complete boot:7OK/3FINDINGS/0FAIL,rc2; read summary. Current local venv works. Recovered instructions, approvals and dependencies; saved receipt.
@@ -23,6 +24,7 @@
 3. **October23:** next COT#11/asofOctober20 after actual release. BRT30 endpointOctober26, shadow-run endpointOctober24, DSTNovember1, VLOreviewNovember18/19 remain at existing owners.
 
 ## OPEN THREADS / WATCHES
+- USO manual research tracking now authorized; next data dependencies and unavailable broad lending/technical/options series live at [USO/TRACKER](USO/TRACKER.md). October 26 FINRA publication will cover October 15, not October 20. No release-day run promised.
 - Deferred WALTER ACTION items: exact IDs and archived packet paths in startup receipt; intake is not completed research. OSPREY text-confirmation request remains pending in inbox.
 - PROME lazy-import recommendation for instrument_check saved, not implemented; full boot works locally but cloud dependency separation remains follow-up.
 - Live scheduler configuration/deployment/firstnormalrun acceptance remains unverified; existing CATO UI/export handoff. No scheduler migration, extra run or guaranteed touch.

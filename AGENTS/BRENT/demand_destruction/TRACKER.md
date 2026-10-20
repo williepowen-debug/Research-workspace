@@ -1,5 +1,7 @@
 # DEMAND DESTRUCTION TRACKER
 
+> **October 20 USO folder closeout — SCOPED-PARTIAL:** authorized structural/technical research home established at [USO](../USO/README.md). Only USO evidence organization and dated proxy observations reviewed; all existing alert rows retain their prior observation dates. No source, holding, settlement, EIA/COT or registered test refreshed by this folder change.
+
 > **October20 USOstudy closeout — SCOPED-PARTIAL:** share-short investigation completed at [report](../research/2026-10-20_USO-short-interest/REPORT.md); it adds no alertline and changes no registeredtest. All11existingalertrows retain their priorobservationdates; futures/retail/EIA/COT/currentcargo sources not re-verified by this stamp.
 
 > **October20 news closeout — SCOPED-PARTIAL:** re-verified IEAOctober15Board and October16WhiteHousewaiver plus original anonymousOctober20proposal report. Named contracts and delayed intraday data saved in [news report](../research/2026-10-20_deal-news/REPORT.md); no settlement-based alert/holding/prediction grade. Live alert rows retain prior observationdates; currentEIA/BRT31price-check/cargo-diesel fields not refreshed. ResearchWAIT/WQ192unchanged; no signeddeal or physicalreopening inferred.
