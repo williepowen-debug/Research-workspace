@@ -1,20 +1,24 @@
-# WALTER LAST_COMPLETION — LIGHT routing checkpoint; next bookmark batch12
+# WALTER LAST_COMPLETION — bookmark workflow improvements; batch12 remains saved
 
-Updated 2026-10-20T20:29:12Z. Will authorized next18bookmarks, batches9–11. Codex/OpenAI, exactvariant UNKNOWN. Generalboot remainsPARTIAL. Predecessor preserved verbatim in next18/prior-LAST_COMPLETION.md.
+Updated 2026-10-20T23:28:52Z. Will authorized implementing CATO’s six bookmark workflow recommendations. Batches9–11 remain complete. Codex/OpenAI, exactvariant UNKNOWN. Generalboot remainsPARTIAL. Predecessor preserved verbatim in next18/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Next18 COMPLETE:9DISPATCH/7DUP/2FOLD atbookmarklevel;20contentitems closed8/6/6.9newBOARD026–034 and29handoffs awaitpublication. Cumulative66of96dispositioned,30untriaged;50full/16partial,0productionmarks; exact94stage intact.
+Next18 COMPLETE:9DISPATCH/7DUP/2FOLD atbookmarklevel;20contentitems closed8/6/6.9BOARD026–034 and29handoffs are origin-proven;29delivery states reconciled. Six explicit VULCAN/BRENT dispositions verified; other recipient incorporation unestablished. Cumulative66of96dispositioned,30untriaged;50full/16partial,0productionmarks; exact94stage intact.
 
 ## CHANGED
+
+All six CATO practices applied in design/X_BOOKMARKS_WORKFLOW.md, with a boot-read MEMORY trigger. Findings precede counts; publication evidence refreshed before delivery reports; saved-ID prioritization preserves mandatory retrieval; material gaps identify conclusion/owner/revisit trigger; timely duties receive an explicit boundary disposition; downstream use requires existing recipient evidence. Rotation follow-up now names HENRY and the conclusion at stake. VULCAN assessed027 without a score change and treated034 as context; BRENT recorded029–032 without new oil-loss grades. No new tool/schema/monitor/research assignment. Evidence research/2026-10-20_workflow-improvements/RESULT.md.
 
 NewTurkeylimitedindexfreeze, reportedDeepSeek/Huaweifuturedesign, housinghours/spreadbasis, Ukraineofficialgridcount, Kharganonymousoptions, renewedcablethreat, contestedKonarak/USdenial, conditionalWilsonview anddefinedsectorrotation. Destroyerattackchainunverified; noFLASH established. Fullbankpostrecovered:500Bishypothetical,FDIC/streakalreadyheld. France/HMI/PNT/auto/studentdups retainbasis/date/caveats. ThreeRule9helpersCLOSED; no domainlaunch/grade/trade/monitor. FinalHIGHindexmismatchfromquotedmetadatafixedinreaders; sourcecardsunchanged,1558reconcile,6newtests/13reproductions/67assertionspass; next18/METADATA-REPAIR.md.
 
 ## RESULT
 
-48→66reviewed;30remaining (28stage+2tail),nextbatch12. Elevenfull/sevenpartialthispass,concretefollowupsin next18/SOURCE-READS.md.0bookmarkscan/mark; onebyID401→ordinarytokenrefresh→retry200, full53read;tokensignored,noreauth. Seen870/pending94/cursorhashes unchanged. Parent6ETFdatedcheck7.8397pp,nothistoricalrankcertification. Generalboot/READS/threshold/intake/SAM/financing/fullnarrative debts survive. Foreigndirtywork untouched;no pull/push/stash/rebase. Freshoriginproof in next18/publication-before.json; notification/consumption UNKNOWN.
+48→66reviewed;30remaining (28stage+2tail),nextbatch12. Elevenfull/sevenpartialthispass,concretefollowupsin next18/SOURCE-READS.md.0bookmarkscan/mark; onebyID401→ordinarytokenrefresh→retry200, full53read;tokensignored,noreauth. Seen870/pending94/cursorhashes unchanged. Parent6ETFdatedcheck7.8397pp,nothistoricalrankcertification. Generalboot/READS/threshold/intake/SAM/financing/fullnarrative debts survive. Foreigndirtywork untouched;no pull/push/stash/rebase. Historical pre-batch proof remains next18/publication-before.json; current fresh proof and six owner dispositions are in research/2026-10-20_workflow-improvements/publication.json. Other recipient incorporation remains unestablished.
 
 ## GAPS / OWED
+
+- **Current batch-boundary disposition:** no further bookmark reading in this implementation pass. SAM’s October20 packet is the only top-level inbox packet; whole packet and owner sweep read, but correction/routing integration is NOT complete and it remains NEW/unfiled. WALTER must integrate the Fukoku30Y withdrawal and dated auction/insurer-flow evidence before external intake. Fresh threshold/Cushing scan remains unexecuted and precedes another large bookmark batch; no stale levels or doctor output count as clearance. The local intake scan at23:26Z still reports9NEW groups, newsweep degraded, last_runOctober19T20:20:29Z; no mark. Owner-context/READS/full-narrative and broader financing duties below survive. This is an explicit deferral for the bounded workflow repair, not discharge or a new permission gate.
 
 - **Bookmark backlog:**66of96dispositioned after batches9–11;50fully_read/16partly_read,30untriaged (28null in exact94stage+2known tail). Sevennewsource-readinggaps explicitlycarried in next18/SOURCE-READS; originalfollowupsremain.0productionmarks,seen870unchanged. Accumulate all94valid review entries before production mark/resume/freshhead. Never use isolated-smoke-review against production. Acceptance/codepublicationcomplete; WQ458separate.
 
@@ -29,7 +33,7 @@ NewTurkeylimitedindexfreeze, reportedDeepSeek/Huaweifuturedesign, housinghours/s
 - General boot PARTIAL: October12 READS attestation stale; eight changed dependencies at this boot; no hash/attestation renewal. Whole ORCH_INFLIGHT read today; full owner context, fresh threshold/Cushing/BOARD/context execution and re-enumeration/attestation remain owed. Byte checks/doctor do not certify execution; see startup receipt. No hashes/attestation renewed without operational review.
 - Currentnews/sourcecoverageisbounded:officialsettlements,fullCREEDproperty/event/cohortandHANSqualitativeeventperimeter/finalclosesequencesincomplete;HANS-T12UNINSTRUMENTED,T15(b)unresolved. NBS/Reuterssubstantivetextrecoveredinsearchresponses,directopensfailed;ownercounterpartyfilingsnotallindependentlyreaudited. No freshIranfullsweep/all-clear;next~10/22.
 - Intake lane pulled to72201e8 today; last_runOctober19T20:20:29Z, one missed weekday, newsweep degraded. Nine NEW scanner groups await body review/disposition (one contains11NEW_WATCH items); no mark/dispatch inferred. Phone inbox absent normal, dropzone0. Previous direct Cushing fallback is dated evidence, not today's6c execution.
-- Startup main pull was up to date before foreign dirty work appeared. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. Initial foreign TERRY/BRENT work was untouched. Native codex queue now verified for the exact BRENT peer; limited Codex discovery plus native session metadata identified its thread, not a cross-runtime fleet census. Accepted code was carried by BRENT publication. Batches1–7 and reconciliation592e6542a are origin-proven. Will approved this LIGHT closeout; its final checkpoint is local/pending the next shared push-train under SPEC7 because foreign AGENTS/DAEDALUS/runs/GATE_LOG.tsv was dirty; no foreign work touched; no foreign pull/stash/rebase. PROME cross-runtime presence/transport remains UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
+- Startup main pull was up to date before foreign dirty work appeared. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. Initial foreign TERRY/BRENT work was untouched. Native codex queue now verified for the exact BRENT peer; limited Codex discovery plus native session metadata identified its thread, not a cross-runtime fleet census. Accepted code was carried by BRENT publication. Batches1–7 and reconciliation592e6542a are origin-proven. The earlier LIGHT checkpoint473e48cef and next18source4373f4566 are now fresh-origin-proven; earlier pending-publication carries are discharged. Foreign AGENTS/DAEDALUS/runs/GATE_LOG.tsv remains dirty; no foreign work touched; no foreign pull/stash/rebase. PROME cross-runtime presence/transport remains UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
 - FourOTTOqueueitemsaredischargedforWALTERsourcevalidation/routing;actualAlly10/20,CATOindependentOR1closure,THESISv1.610/30andrecipientconsumptionremainownerwork.
 
 ## WILL_NEEDS
@@ -88,12 +92,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9–11closed20/20contentitems;9newBOARD/29handoffs. No productionmark. ThreehelpersCLOSED. Publication/notification/recipientintegration separate; fullboot/narrativedebt retained.
+Bounded workflow implementation and delivery reconciliation. Latest source batch is published; current instruction/receipt edits require their own exact-path local commit and coordinated publication. Six VULCAN/BRENT owner dispositions verified; no universal recipient-integration claim. No source review or market scan completed by this repair. LIGHT routing history:66of96reviewed;30remaining,50full/16partial. Batches9–11closed20/20contentitems;9newBOARD/29handoffs. No productionmark. ThreehelpersCLOSED. Publication/notification/recipientintegration separate; fullboot/narrativedebt retained.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-20T20:34:45Z",
+  "as_of": "2026-10-20T23:28:52Z",
   "next_review": "2026-10-21",
   "publication": [
     {
@@ -110,21 +114,25 @@ LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9�
     },
     {
       "commit": "4373f4566d535bc305adfe5860a1187427dfb4bc",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "473e48cef8d865de780507dcef161efdefc89dd3",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261020",
     "total": 106,
-    "delivered": 77,
-    "note": "Freshfetch proves batch8published;7rows reconciled.77/106 delivered;29newpending. Consumption UNKNOWN."
+    "delivered": 106,
+    "note": "Fresh origin19211a62f confirms latest source and checkpoint;29 state-only flips,106/106 today handoffs published. Six VULCAN/BRENT dispositions evidenced; other incorporation unestablished."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md",
-        "sha256": "2fe86da2febb5b1a2c22d12e033e416f12391cc4c838cfd45ab4edcf10943bb7"
+        "sha256": "2a993c6cc1b06f5ec8cf217a26585d5711a1261fe01f0712d4b8948fc0e5a3d2"
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/verify-parent.md",
@@ -173,6 +181,10 @@ LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9�
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/existing-regressions.txt",
         "sha256": "d508125da585ecf0ba75f673fbc4521a407af8f5ebfd8415225db6d2a57761b9"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_workflow-improvements/publication.json",
+        "sha256": "5931a16618bd143decca6151e963dd0162be5b2396a96a2608e2b48d53c4888f"
       }
     ]
   },
@@ -180,8 +192,8 @@ LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9�
     "tier": "light",
     "boot": "PARTIAL",
     "owner": "WILL",
-    "ask": "Will requested next18; completed; no new decision",
-    "closeout": "LIGHT routing checkpoint; fullboot/narrativedebt retained"
+    "ask": "Will approved implementing CATO recommendations; no new decision",
+    "closeout": "Bounded workflow repair; generalboot PARTIAL and fullnarrative debt retained"
   },
   "manual_duties": {
     "11": "9signals/29handoffs;3CLOSEDmanifests20content/18bookmarks",
@@ -189,13 +201,14 @@ LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9�
     "Tier1": "newsourceknowledgequalified; boundedmetadatareaderfixverified; no freshmarketallclear",
     "Tier1.breadcrumb": "SESSION_LOG LIGHT entry; full narrative debt remains >=3deferrals, not cleared",
     "root.retirement": "priorLAST_COMPLETION preserved verbatim; no source/owner deletion",
-    "16": "Batch8published30dbc0907/e6850afc0;7deliveryrows reconciled. New9signals/29handoffs exact-path localpersistence,publicationdeferred foreigndirtytree. Newsource4373f4566d535bc305adfe5860a1187427dfb4bc committed; postcommitreceiptPASS, sourcehashesretained.",
+    "16": "Freshfetch proves4373f4566/473e48cef published;29 state-only delivery flips. Current workflow/receipt commit publication deferred for foreign dirty work, separate from source delivery.",
     "14": "MEMORYsessionnote updated;no auto-memory",
     "helpers": "3explicitCLOSEDreceipts",
-    "7g": "SAMremainsNEW;no newconsumeclaim",
-    "basis": "READSstale/general6c/context/intake/financing/SAMunfinished",
+    "7g": "Only SAMtop-level packet read with owner sweep; integration/routing NOT complete, remains NEW/unfiled; no consume claim.",
+    "basis": "General threshold/Cushing/source/context/READS/SAM/intake/financing/fullnarrative duties retained; explicit boundary disposition before more bookmark reading.",
     "ledgers": "9route/29delivery/3batchrecords;no newfire/grade/correction/doorbell",
-    "metadata-repair": "HIGHcaughtandfixed:quotedscalarreadercompatibility,6newtests/13existingreproductions/67behavioralassertions;1558reconcile,indexfresh,TSVstrict; sourcecardsunchanged"
+    "metadata-repair": "HIGHcaughtandfixed:quotedscalarreadercompatibility,6newtests/13existingreproductions/67behavioralassertions;1558reconcile,indexfresh,TSVstrict; sourcecardsunchanged",
+    "workflow": "Six practices applied to existing bookmark procedure; MEMORY trigger; rotation gap owner/decision explicit; six owner dispositions observed. No scanner/schema changes."
   }
 }
 END_CLOSEOUT_RECEIPT -->

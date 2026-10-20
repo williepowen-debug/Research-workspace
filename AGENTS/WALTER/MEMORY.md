@@ -1,5 +1,4 @@
 # WALTER MEMORY
-
 *Curated cross-session memory. Read at boot, write before finishing. **This file is a TRIGGER INDEX, not an archive** — each rule below is one line that must fire at boot or at dispatch; the full narrative, the instance and the evidence live at the surface named beside it.*
 
 
@@ -9,6 +8,8 @@
 
 ---
 ## Feedback
+
+- [2026-10-20, Will approved CATO recommendations] **Bookmark check-ins lead with findings; reconcile publication before reporting it.** Apply `design/X_BOOKMARKS_WORKFLOW.md` at saved-batch boundaries: prioritize consequential reading without skipping bodies/images, make material gaps conditional/owned, disposition timely desk work and report downstream use only from existing evidence.
 
 - [2026-10-14, Will direct] **Expiry management/reminders stay with Will and TERRY.** Will already tracks position expiries; WALTER must not participate in their management or repeat them in routine boot/news briefs. Keep WALTER focused on news, source verification and signal routing.
 

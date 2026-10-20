@@ -45,4 +45,4 @@ At FALCON existing review, reconcile AJ update5062691 and original CNN/US/ Irani
 
 ## rotation
 
-Obtain the remaining Lighthouse article through existing authorized access or supplied text if the historical outcome/invalidation sections affect a decision. No subscription/free-claim action or new study installed; do not infer unseen historical conclusions/thresholds.
+At HENRY's existing rotation review, obtain the remaining Lighthouse article through existing authorized access or supplied text if the historical outcome/invalidation sections affect a decision; LIQUID/VULCAN retain their routed context. The missing sections could change the distinction between benign broadening and crash-like leadership failure, including the author's invalidation conditions; the public figure alone does not decide it. No subscription/free-claim action or new study installed; do not infer unseen historical conclusions/thresholds.

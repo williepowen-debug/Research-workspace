@@ -1,0 +1,243 @@
+{
+  "as_of": "2026-10-20T23:28:52Z",
+  "fresh_fetch": true,
+  "origin": "19211a62f53205235238f965fdb8f1a5de3092b8",
+  "publication": [
+    {
+      "commit": "4373f4566d535bc305adfe5860a1187427dfb4bc",
+      "state": "published"
+    },
+    {
+      "commit": "473e48cef8d865de780507dcef161efdefc89dd3",
+      "state": "published"
+    }
+  ],
+  "reconciled_rows": [
+    {
+      "signal": "SIG-W-20261020-026",
+      "recipient": "HENRY",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-026.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-026",
+      "recipient": "LIQUID",
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-026.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-026",
+      "recipient": "SAM",
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261020-026.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-027",
+      "recipient": "VULCAN",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-027.md",
+      "origin_path_history_commit": "72c6ebc0378dae414bc245cda34f2ac1f8a1965b"
+    },
+    {
+      "signal": "SIG-W-20261020-027",
+      "recipient": "ZHAO",
+      "path": "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261020-027.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-027",
+      "recipient": "HENRY",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-027.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-027",
+      "recipient": "VIOLET",
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261020-027.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-028",
+      "recipient": "HOMER",
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261020-028.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-028",
+      "recipient": "REGINALD",
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261020-028.md",
+      "origin_path_history_commit": "0966d1cc9cad10db1111367f3b4a018325d37131"
+    },
+    {
+      "signal": "SIG-W-20261020-028",
+      "recipient": "BOND",
+      "path": "AGENTS/BOND/inbox/WALTER/SIG-W-20261020-028.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-029",
+      "recipient": "OSPREY",
+      "path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261020-029.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-029",
+      "recipient": "HAWK",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-029.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-029",
+      "recipient": "BRENT",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-029.md",
+      "origin_path_history_commit": "856796214852d069920bbd5b5b00419f5b511a3a"
+    },
+    {
+      "signal": "SIG-W-20261020-030",
+      "recipient": "FALCON",
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261020-030.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-030",
+      "recipient": "HAWK",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-030.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-030",
+      "recipient": "BRENT",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-030.md",
+      "origin_path_history_commit": "856796214852d069920bbd5b5b00419f5b511a3a"
+    },
+    {
+      "signal": "SIG-W-20261020-030",
+      "recipient": "SAM",
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261020-030.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-031",
+      "recipient": "FALCON",
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261020-031.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-031",
+      "recipient": "HAWK",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-031.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-031",
+      "recipient": "BRENT",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-031.md",
+      "origin_path_history_commit": "856796214852d069920bbd5b5b00419f5b511a3a"
+    },
+    {
+      "signal": "SIG-W-20261020-032",
+      "recipient": "FALCON",
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261020-032.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-032",
+      "recipient": "HAWK",
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-032.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-032",
+      "recipient": "BRENT",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-032.md",
+      "origin_path_history_commit": "856796214852d069920bbd5b5b00419f5b511a3a"
+    },
+    {
+      "signal": "SIG-W-20261020-032",
+      "recipient": "SAM",
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261020-032.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-033",
+      "recipient": "HENRY",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-033.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-033",
+      "recipient": "LIQUID",
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-033.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-034",
+      "recipient": "HENRY",
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-034.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-034",
+      "recipient": "LIQUID",
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-034.md",
+      "origin_path_history_commit": "4373f4566d535bc305adfe5860a1187427dfb4bc"
+    },
+    {
+      "signal": "SIG-W-20261020-034",
+      "recipient": "VULCAN",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-034.md",
+      "origin_path_history_commit": "72c6ebc0378dae414bc245cda34f2ac1f8a1965b"
+    }
+  ],
+  "changes_limited_to_state_column": true,
+  "production_state_sha256": {
+    "x_bookmarks_seen.json": "264c1fd2b76723d21a1cf4aae451acd08504b03a826f4f7ca114a7a86dabc316",
+    "x_bookmarks_pending.json": "d5d1145d0fa5eada187ee7ad694cca1dfe0ac51fd396611c7c926510d521bbf7",
+    "x_bookmarks_next_token.json": "094fffd249c7cb3317a2d6fe080d0aa9a28718774c955075191ca92aca5c5172"
+  },
+  "observed_owner_dispositions": [
+    {
+      "agent": "VULCAN",
+      "signal": "SIG-W-20261020-027",
+      "path": "AGENTS/VULCAN/board_log.tsv",
+      "owner_record": "2026-10-20T16:40:07-04:00\tSIG-W-20261020-027\tnoted\tINBOX_WALTER\tS4 design-collaboration relay assessed; anonymous origin and implemented software do not establish future silicon/yields/shipments/displacement or changed controls. No score change. Primary design or production evidence would support reassessment; audit report records owner judgment.",
+      "origin_blob_sha256": "90660ac1a4c0b2d2b62188b8063395ca7b77e497ac750dc784a1e8ad7ee223b5"
+    },
+    {
+      "agent": "VULCAN",
+      "signal": "SIG-W-20261020-034",
+      "path": "AGENTS/VULCAN/board_log.tsv",
+      "owner_record": "2026-10-20T16:40:07-04:00\tSIG-W-20261020-034\tinfo-only\tINBOX_WALTER\tDated sector-basket rotation permits bearish and benign interpretations; unreproduced historical ranks/episodes and paid conclusions not adopted. HENRY context; no independent S5 vote.",
+      "origin_blob_sha256": "90660ac1a4c0b2d2b62188b8063395ca7b77e497ac750dc784a1e8ad7ee223b5"
+    },
+    {
+      "agent": "BRENT",
+      "signal": "SIG-W-20261020-029",
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "owner_record": "2026-10-20T17:56:00-04:00\tSIG-W-20261020-029\tinfo-only\tINBOX_WALTER\tCollective grid-site count retained as attributed context; not crude/refinery throughput loss. OSPREY owns assessment.",
+      "origin_blob_sha256": "f5eb7f062c99d8a3a7b151be94cc4fef0d77f24d7fc9ea3b8ae0bb46371a757f"
+    },
+    {
+      "agent": "BRENT",
+      "signal": "SIG-W-20261020-030",
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "owner_record": "2026-10-20T17:56:00-04:00\tSIG-W-20261020-030\tinfo-only\tINBOX_WALTER\tAnonymous Kharg strike-options report; no approved/executed operation or export loss established. FALCON owns theater judgment.",
+      "origin_blob_sha256": "f5eb7f062c99d8a3a7b151be94cc4fef0d77f24d7fc9ea3b8ae0bb46371a757f"
+    },
+    {
+      "agent": "BRENT",
+      "signal": "SIG-W-20261020-031",
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "owner_record": "2026-10-20T17:56:00-04:00\tSIG-W-20261020-031\tinfo-only\tINBOX_WALTER\tRenewed cable threat; unauthenticated origin, no operator damage/outage established. FALCON owns assessment.",
+      "origin_blob_sha256": "f5eb7f062c99d8a3a7b151be94cc4fef0d77f24d7fc9ea3b8ae0bb46371a757f"
+    },
+    {
+      "agent": "BRENT",
+      "signal": "SIG-W-20261020-032",
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "owner_record": "2026-10-20T17:56:00-04:00\tSIG-W-20261020-032\tinfo-only\tINBOX_WALTER\tKonarak claim and US denial travel together; separate destroyer chain unverified. No new kinetic/loss grade.",
+      "origin_blob_sha256": "f5eb7f062c99d8a3a7b151be94cc4fef0d77f24d7fc9ea3b8ae0bb46371a757f"
+    }
+  ],
+  "recipient_incorporation": "Six explicit owner dispositions verified; remaining latest-batch recipients not established by this bounded check. Path history/moves alone do not establish incorporation.",
+  "pull_push": "deferred: foreign DAEDALUS dirty work; no foreign mutation"
+}

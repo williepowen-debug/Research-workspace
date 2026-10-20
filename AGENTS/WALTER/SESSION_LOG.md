@@ -1,3 +1,7 @@
+## 2026-10-20T23:28:52Z — LIGHT bookmark workflow repair; full closeout deferred
+
+Will approved CATO six recommendations. spec changes: X_BOOKMARKS_WORKFLOW (findings first, fresh delivery reconciliation, saved-stage priority/duplicate checks, actionable gaps, boundary disposition, evidenced downstream use); no core version bump.29state-onlydeliveryflips after freshfetch; next18published, sixVULCAN/BRENTdispositionsverified, otherincorporationunestablished. No Xscan/mark, new dispatch/helper/study. SAM packet+owner sweep read but remains NEW pending integration; threshold/Cushing/intake/READS/financing/fullnarrative debt retained. Currentduties LAST_COMPLETION; evidence research/2026-10-20_workflow-improvements. Foreign DAEDALUS untouched, pull/pushdeferred.
+
 ## 2026-10-20T20:29:12Z — LIGHT next18bookmarks; full closeout deferred
 
 Batches9–11closed8/6/6contentitems,18bookmarks:9DISPATCH/7DUP/2FOLD;026–034/29handoffs.66of96reviewed(50full/16partial),30remaining;0scan/mark,53detail401→refresh→200,seen870/pending94/cursorunchanged. ThreeRule9helpersCLOSED. QualifiedIranclaims/denialnotFLASH;rotation7.8397ppdatedproxy,nothistoricalrankcertification. Generalboot/READS/intake/SAM/threshold/financing/fullnarrative debts retained. Foreigndirtywork untouched; exact-pathlocalpersistence/publicationdeferred. DutiesLAST_COMPLETION.
