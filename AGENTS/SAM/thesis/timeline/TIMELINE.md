@@ -12,6 +12,8 @@ BOJ primary reads preserve the distinction between direction and timing. Ueda wa
 
 Fiscal policy is a separate forward risk: the cabinet approved a bill October 9 to cut the food consumption tax to 1% for two years from April 2027; legislation and detailed offsets remain unresolved. The bill could affect future inflation arithmetic, not current October CPI. Household hardship remains despite improving survey balances; core machinery orders support investment resilience. Wider US credit spreads coexist with an orderly yen; there is no global all-clear.
 
+**October20 discussion with Will:** orderly home-allocation adjustment is consistent with the paired observations, but the institution/asset/funding link is missing. For the US, loss of buying support, active credit sales, common global yield drivers and leveraged unwind have different signs and speeds. Equity stress can coexist with Treasury gains; no US yield/equity move is attributed to Japan from these aggregates. The fiscal bill can change future measured CPI without settling underlying inflation or funding. Structural interpretation → `../THESIS.md` § US TRANSMISSION.
+
 **Thesis consequence:** v1.7 unchanged, no successor, no entry or mark change. [Evidence, calculations and limits](../../research/outputs/2026-10-20_sweep/NEWS_SWEEP.md).
 
 ## 2026-10-01 — The official record says ¥0, and the market hands October to December

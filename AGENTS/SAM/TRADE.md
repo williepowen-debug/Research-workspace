@@ -37,6 +37,8 @@
 >
 > **Current-use limits — September 8, 2026.** EWJ/TLT/Japan-bank watchlists remain research ideas; their dated evidence and status notes below are not re-certified as current. Channel conditions live in `thesis/THESIS.md` and `STATUS.md`. Pillar 2 monitors conditional, mixed JGB sponsorship; a yield tag alone establishes neither forced selling nor repatriation. The September 3 30Y SOFT grade stands on its frozen test. Current tests belong in STATUS and the docket; the tenor-specific precision ruling is **no longer prospective — registered 2026-09-11** at `thesis/AUCTION_GRADING_RULING_2026-09-11.md` (PRECISION-LIMITED tag at ≤0.1bp trip margins; uniform-price tenors NOT gradable on the FIRM/SOFT bars). Oil-in-yen effects depend on separate oil/FX price, physical-supply and funding evidence; the old phase labels are historical, not an automatic sequence or entry route. Position records, money fields and frozen prediction terms remain unchanged.
 >
+> **October20 interpretation pointer:** US bond/equity transmission paths and evidence limits → `thesis/THESIS.md` § US TRANSMISSION and STATUS. This discussion supplies no current entry, instrument recommendation or reactivation.
+>
 > Full prior certification and dated riders: [before-image](research/outputs/2026-09-08_subagent_review/before/TRADE.md).
 >
 > **Position was FLAT throughout. $0 was ever at risk. Nothing was ever executed on this frame.**

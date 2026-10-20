@@ -1,6 +1,14 @@
 # JGB Long-End Supply/Demand — Conditional Demand and Mixed Sponsorship
 
-**Current assessment: September 24, 2026** (prior: September 15). Research completed June 30; “EXECUTED” described that research, not a trade. Signal research only. The old carry-convexity/long-JPY-vol expression retired August 7. No replacement position or entry trigger is authorized by this document.
+**Current assessment: October 20, 2026** (prior: September 24). Research completed June 30; “EXECUTED” described that research, not a trade. Signal research only. The old carry-convexity/long-JPY-vol expression retired August 7. No replacement position or entry trigger is authorized by this document.
+
+## October 20 evidence update — firmer domestic demand, worsening foreign dispositions
+
+The 20Y auction graded FIRM on the frozen test; the bidder identities remain unknown. Fukoku's attributed H2 plan includes 20Y/30Y purchases, so its January withdrawal no longer establishes ongoing 30Y absence. No conclusion follows about Fukoku 40Y or Asahi; plans are not actual purchases. BOJ operations checked through October20 do not establish an emergency JGB cap. Exact observations and clocks → [STATUS](../../STATUS.md); evidence → [October sweep](2026-10-20_sweep/NEWS_SWEEP.md).
+
+At the same time, September insurer-sector foreign-LT-debt dispositions increased. Stronger domestic sponsorship and weaker foreign sponsorship can coexist; the sector data do not link the sellers to JGB purchases, US assets or yen conversion. An orderly allocation adjustment is a working interpretation, not proof of repatriation or forced liquidation.
+
+Current US read-through → [THESIS § US TRANSMISSION](../../thesis/THESIS.md#us-transmission--october-20-2026-interpretation-of-existing-channels): reduced US buying support is conditional on the US asset identity; direct US-credit sales could widen spreads; leveraged unwind could hurt equities while Treasury safety demand lowers yields. Common global term-premium moves are a separate explanation. The July map below is historical. Channel 1's named-institution/two-window test and the signal-only scope stand; no trade frame is promoted.
 
 ## September 24 evidence update — first real stress day, BOJ did not cap
 
@@ -12,7 +20,7 @@
 | BOJ response | **None** — `ope20260924.xlsx` shows securities lending only; no outright, fixed-rate or unscheduled op | BOJ record, read by SAM |
 | Driver | Global rout: UST 10Y 5.18 / 30Y 5.47% (Treasury par 9/24; 30Y highest since 2004) | — |
 
-**Read:** ~+7–10bp/session is sharp but below SAM-33's ≥~20–40bp disorder exemption, so it counts inside the prediction's scope and the BOJ let it run — consistent with pace-not-level. **No super-long record** (30Y 4.21% / 40Y 4.40% highs, quote basis) and no auction in the window, so nothing here identifies a buyer or a forced seller. Next demand evidence: Sep-29 40Y (descriptive only), **Oct-8 30Y (frozen bars apply)**, Sep-30 BOJ Oct–Dec schedule. [Sources](../2026-09-24_catchup/NEWS_SWEEP.md).
+**Read:** ~+7–10bp/session is sharp but below SAM-33's ≥~20–40bp disorder exemption, so it counts inside the prediction's scope and the BOJ let it run — consistent with pace-not-level. **No super-long record** (30Y 4.21% / 40Y 4.40% highs, quote basis) and no auction in the window, so nothing here identifies a buyer or a forced seller. **Historical forward checks as of September24:** Sep-29 40Y, Oct-8 30Y and Sep-30 BOJ schedule are now past; outcomes/current next tests belong in STATUS and the synchronized docket. [Sources](2026-09-24_catchup/NEWS_SWEEP.md).
 
 ## September 15 evidence update
 
@@ -22,7 +30,7 @@
 
 Long-end vulnerability rests on a thinner and less reliable bid, not the absence of every buyer. Meiji's announced return disproved the blanket no-clearing-yield claim; subsequent firm auctions supported market demand without identifying Meiji as their buyer. J-ICS effects depend on duration gaps and buffers. A disorderly J-GAAP impairment tail can coexist with buying by stronger institutions. There is no automatic aggregate forced-selling boundary at 4.5%.
 
-September's evidence shows **mixed sponsorship**. The September 3 30Y auction was SOFT under the frozen test (2.1bp tail); September 8 5Y was firmer. August inward securities selling was mostly short-term debt; its long-term component cannot identify JGB tenor. Norway's proposed Japan increase is prospective demand, not a completed order; GPIF has published discussion, not an allocation change. A persistent structural pressure hypothesis remains useful, but it does not establish a mispricing or a one-way curve path.
+September's evidence showed **mixed sponsorship**; the October20 auction and Fukoku plan add contrary evidence to a continuing buyer strike. The September 3 30Y auction was SOFT under the frozen test (2.1bp tail); September 8 5Y was firmer. August inward securities selling was mostly short-term debt; its long-term component cannot identify JGB tenor. Norway's proposed Japan increase is prospective demand, not a completed order; GPIF has published discussion, not an allocation change. A persistent structural pressure hypothesis remains useful, but it does not establish a mispricing or a one-way curve path.
 
 Sources and exact vintages: [September assessment §5](../../reports/2026-09-08_catchup-assessment.md); current observations → `../../STATUS.md`. The original opening and trade claims are preserved verbatim in `../../research/outputs/2026-09-08_integration/before/research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`. The following dated adversarial rulings remain the historical evidence trail.
 
@@ -98,8 +106,8 @@ Counterintuitive but important: supply is *not* what's pushing yields up right n
 | Evidence | What it supports | What it cannot establish |
 |---|---|---|
 | Meiji's July super-long plan; earlier mid-size insurer pivots | Different institutions can buy and withdraw simultaneously | A permanent floor or an industry-wide buyer strike |
-| August life-insurer foreign long-term debt net sales | Sector activity worth tracking across releases | Named-insurer UST liquidation or domestic super-long allocation |
-| August trust-account buying offsetting bank-account selling abroad | Mixed sponsorship across account types | Trust accounts equal GPIF/pensions |
+| September life-insurer foreign long-term debt net dispositions (October20 read; current amounts in STATUS) | Sector activity worth tracking across releases | Named-insurer UST liquidation or domestic super-long allocation |
+| September trust-account buying partly offsetting bank banking-account selling abroad | Mixed sponsorship across account types | Trust accounts equal GPIF/pensions |
 | Foreign net sales of Japanese debt, dominated by short maturities | Need to decompose the headline before attributing long-end pressure | A measured foreign exit from 30Y/40Y JGBs |
 | Norway proposed Japan weight increase; GPIF portfolio discussion | Potential demand changes to monitor | Executed trades, timing or tenor |
 

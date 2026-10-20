@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-10-20T15:33:09+00:00 — Will-directed catch-up, October 9–20; earlier missing primary speech reads completed.** [Sweep and source evidence](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Runtime OpenAI Codex, session `01a159df-bbc1-7591-a70c-b5aeaf24ef0f`; exact model identifier not exposed. Pull/push deferred under dirty-owner rule; local persistence only.
+**Last written: 2026-10-20T19:12:57+00:00 — Will-directed key-file reconciliation after October 20 sweep and US-transmission discussion.** Market observations retain their individual October 19/20 source clocks; this is a documentation/interpretation update, not a new price refresh. [Sweep and source evidence](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Runtime OpenAI Codex, session `01a159df-bbc1-7591-a70c-b5aeaf24ef0f`; exact model identifier not exposed. Pull/push deferred under dirty-owner rule; local persistence only.
 
 **View:** no fresh observed Japan-led carry unwind. Further BOJ tightening remains intended; October is not specifically signalled. **20Y auction FIRM** and Fukoku's H2 plan add evidence against a continuing domestic buyer strike. **September insurer foreign-LT-debt net dispositions rose to ¥288.6B from ¥137.3B in August** (MOF monthly, updated Oct-8); that counter-signal is real, but names/UST/forced-sale mechanism remain unproved. Fukoku's own planned maturity runoff is a separate observation. **v1.7 remains retired-to-LOW, no successor declared, no re-entry or prediction re-mark.** Last Will-confirmed FLAT June 29 is a dated desk record, not a fresh broker reconciliation. Credit abroad is wider; an orderly yen is not a global all-clear.
 
@@ -37,6 +37,12 @@ BOJ policy rate **1.25%**, September 18 decision, effective September 24. Ueda O
 
 **Fiscal:** Cabinet approved food-tax/support bill Oct-9, Diet deliberation starts Oct-20; **8→1% from Apr-1 2027 for two years**, proposed restoration to 8% in Apr-2029. **Bill, not enacted policy.** Funding promised without special deficit-financing bonds; detailed offsets unresolved. Conditional future CPI arithmetic is not October inflation or a new BOJ rule. Primary MOF sources → sweep §6.
 
+## US TRANSMISSION — working interpretation, October 20
+
+**Orderly allocation adjustment is consistent with the evidence; the funding link is not established.** Better domestic sponsorship and larger foreign-debt dispositions can coexist without the same institutions financing one with the other. If US bonds are reduced, slower reinvestment can remove buying support and active sales can add pressure; other buyers and US fundamentals determine the net yield effect. US asset identity, maturity, hedge changes and conversion into yen remain unknown.
+
+For US equities, a sustained rise in long yields could pressure valuations and refinancing; direct US-credit selling could widen spreads. A separate rapid yen/funding shock could force leveraged equity sales. **Treasuries can rally during that equity stress if safety demand/Fed repricing dominates selling; credit can still weaken.** Common JGB/UST moves alone do not establish Japan-led transmission. Fiscal funding/issuance and underlying inflation matter more than a mechanical tax-driven CPI decline. No directional US bond/equity forecast, new probability or entry follows. Mechanisms, evidence tests and sources → `thesis/THESIS.md` § US TRANSMISSION.
+
 ## INTERVENTION STATUS
 
 **No new intervention or rate check found in the bounded October 9–20 official/news sweep; small/unreported action not excluded.** Recent completed ranges <1 yen do not show a large fast move. **Correction:** Bessent **missed Bangkok**, per Ueda's October 16 official transcript (published October 20), and Ueda reports no contact with him since Asheville. Prior attendance assertion withdrawn; September strong-yen endorsement is not withdrawn. Katayama Oct-16 reiterates G7/G20 FX commitments, withholds details; no fresh joint-operation announcement established. Ladder remains at inherited T2-equivalent, not upgraded by words.
@@ -71,6 +77,7 @@ August 7 **7d~3 / 30d~8 / 60d~13** is a **historical decomposed assessment**, no
 | **Oct-24 15:15 JST = 02:15 ET** | OIS source-age expiry; refresh/review changed chart before using pricing. |
 | Oct-29/30 | BOJ MPM + Outlook; SAM-42 resolves from BOJ statement, final cutoff Oct-31 23:59 JST. |
 | Approx. Oct-30 / Nov-9 / Nov-13 | MOF monthly / quarterly; FRBNY FX report, estimate dates. |
+| Nov-5 08:50 JST | BOJ minutes of September 17–18 meeting; policy reasoning, no automatic re-mark. |
 | Oct–Nov disclosures | Larger insurers' H2 plans; distinguish plans, maturities, actual sales and named sellers. |
 
 Full forward feed → `docket/CALENDAR.md` / `docket/CATALYSTS.tsv`. Still owed: MOF every-new-week scan, oil-benchmark repair, direct offshore basis, matched intraday Sep attribution. **METI August IIP revision not verified**: primary PDF/English page returned 403; no secondary value promoted.
