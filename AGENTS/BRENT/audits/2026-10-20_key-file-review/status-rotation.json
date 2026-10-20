@@ -1,0 +1,8 @@
+{
+  "source": "AGENTS/BRENT/STATUS.md",
+  "destination": "AGENTS/BRENT/archive/STATUS_dated_2026-10-20_key-file-review.md",
+  "payload_rule": "after first standalone ---; outer whitespace stripped; UTF-8 bytes",
+  "bytes": 2014,
+  "sha256": "d6e3668e5707619a8b0007813bc7277efad77a6f60354dea8ffe468e4f118fe4",
+  "crc32": "c7b019e6"
+}

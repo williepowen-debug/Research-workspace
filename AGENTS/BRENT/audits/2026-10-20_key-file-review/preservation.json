@@ -1,0 +1,14 @@
+{
+  "workbook/KB.tsv": "c2e985fc50ea95ec1f52485122567f1703cafd44ce232cc3e2da272c069fe5b4",
+  "workbook/VX.tsv": "d75a576afe7363d28c6df184db95ec61d2c59c422c9f6f0a52db8ee13e893f30",
+  "workbook/FLOW.tsv": "1580a5a641239d5a66bc3682823d8bbb210d2b4f4ba749db47a2959c4f0664db",
+  "workbook/GROUP_MAP.tsv": "d4f540f4df1d99fe85ac06aeba4767bcb724b540d736c4a260080234cf18791d",
+  "workbook/REGISTRY.tsv": "7c46ed66878284fda23a907788b6451e337a01c4dbe0462a148357d8b22002e3",
+  "workbook/LESSONS_INDEX.tsv": "9aff837c23006bf6c1be05aed857751640fc60cd9c097c7158f5aa5d8da0d04f",
+  "LESSONS.md": "01dc086b0085f0825f5528fa05480910b3d97ef821c7d17620749022a8f035b2",
+  "refinery_damage/INCIDENTS.tsv": "fcdffbf2fa1df313e5bab3976695dd6b7018763f1e12ca4baff8b5c6d7748254",
+  "TRADE.md": "a5d42bc1930db74a67431a7b8e653c7d671c1ad47fd0155cfab41046be6cff6d",
+  "thesis/PREDICTIONS.tsv": "67ee929a0ff354ca7f32c371976a93509f7246f1606bdf73d462c7ff89e64f4d",
+  "board_log.tsv": "98035ffa64bf8de8b3d22d23311df3ac0c5894b5cabd97c5e0830be4a5d457b9",
+  "COT_rows_sha256": "f4e8012379049b8b8a3b8fdefa9c15ddf53afc58e377083bb15b9827e3ca10e4"
+}

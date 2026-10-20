@@ -1,20 +1,16 @@
 # BRENT STATUS
 
-**October 20 USO tracking:** Will requested a dedicated home for structural, technical and positioning research. [USO folder](USO/README.md), [dated assessment](USO/TRACKER.md) and [observations](USO/observations.tsv) established; relocated [research receipts](USO/research-2026-10-20-short-interest/REPORT.md) preserved. Historical short counts and dated broker/vendor proxies are distinct; current aggregate shorts and broad loan stress remain UNKNOWN. [Consolidated findings](USO/FINDINGS.md) preserve the discussion and corrections. Manual research tracking; no scheduled automation or new trade/threshold authority. Earlier news/fundamental observations retain dates.
+**October 20 key-file review — SCOPED-PARTIAL:** workbook/USO coverage, COT header, thesis position context and calendar repaired; [audit](audits/2026-10-20_key-file-review/REPORT.md) records the distinction between maintenance and evidence freshness. Boot retains source/standing-state findings; see audit.
+
+**October 20 USO tracking:** [USO research home](USO/README.md) contains the investigation, source receipts, [findings/corrections](USO/FINDINGS.md) and dated observations. Current aggregate shorts and broad loan stress remain UNKNOWN; historical snapshots and broker proxies retain their dates. Manual research tracking; no scheduled automation or new trade/threshold authority.
 
 **October20 news catch-up — SCOPED-PARTIAL:** sharp same-contract crude reversal accompanies a Qatar-Pakistan proposal reported by anonymous Al-Araby sources; no signed deal/operating reopening verified. IEAOctober15 acceleration including>20Mdiesel confirmed at primary; October16GrahamAct waiver preserves older sanctions. **WAIT retained; no new grade/authority.** [Findings, prices/contracts/clocks and contrary evidence](research/2026-10-20_deal-news/REPORT.md). Market quotes observed about10:37EDT/captured10:48, not settlements. October15regionalWPSR/BRT31owner evaluation and HENRYadoption remain open. Broker truth/rules → [TRADE](TRADE.md).
 
-**Last real data refresh: 2026-10-14 14:12 EDT — SCOPED-PARTIAL:** direct EIA/FedEx bodies observe October12retail and lagged surcharge; utilization API returns October2, present but outside unchanged10day budget. Option quotes retain13:30EDT/unknownbid-askclocks; IEA retains September estimates/forecasts. Earlier boot6OK/4FINDINGS/0FAIL,rc2 not reissued. [Operational review](audits/2026-10-14_operational-followups/REPORT.md).
+**Last real data refresh (fundamental operational review): 2026-10-14 14:12 EDT — SCOPED-PARTIAL:** direct EIA/FedEx bodies observe October12retail and lagged surcharge; utilization API returns October2, present but outside unchanged10day budget. Option quotes retain13:30EDT/unknownbid-askclocks; IEA retains September estimates/forecasts. Earlier boot6OK/4FINDINGS/0FAIL,rc2 not reissued. [Operational review](audits/2026-10-14_operational-followups/REPORT.md).
 
-**October14 judgment (dated):** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
+**October14 judgment (dated):** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. That dated call-management context is superseded by the October 20 [TRADE](TRADE.md) recovery; holding rules and current structural receipts live there. Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
 
-**Shipping check / October15 prep 2026-10-14 13:05 EDT:** both requested stages COMPLETE in order. Fresh PortWatch queries show weaker matched seven-day Fujairah/Sohar tanker-export estimates through October9; not a post-sinking loss measurement. MPA direct body recovered; freight evidence mixed, with better later diesel-delivery economics. [Shipping result](research/2026-10-14_shipping-check/REPORT.md). Archived EIA baseline, exact series, policy accounting and BRT31 letter prepared; future October15 results remain ungraded. [Worksheet](research/2026-10-15_release-prep/WORKSHEET.md). Will handles calls; continued energy option exposure is the research question, no replacement ticket/roll approved. VLO holding-rule explanation is hold/exit assessment, not an instruction to sell; TERRY grades, original share only.
-
-**Call reflection:** favorable dated marked return; final realized outcome unverified. Tactical payoff analysis needs clearer separation from long-horizon WAIT. [Review](research/2026-10-14_boot-omr/CALL-REFLECTION.md). No new mark or rule.
-
-**Option screen October14 13:30 EDT:** leading research candidate USO Dec18 162/175 (65DTE); no owner card or capital approval. Vendor inputs/expiration arithmetic saved; material friction and price edge unproved. BNO has no60–90DTE expiry; refiner edge still missing. [Result](research/2026-10-14_energy-option-continuity/REPORT.md).
-
-**October14 follow-ups:** tracker/history and current readers cleaned; EIA diagnostic clarified,75tests passed.30registry enrollments reviewed without row changes; sixfacility review attempts preserve observation dates,24aged debts remain. CFTC403/live-scheduler verification unresolved. WALTER014fuel relief/contract-lag evidence integrated/filed. [Results](audits/2026-10-14_operational-followups/REPORT.md); prior [sweep](audits/2026-10-14_consistency-sweep/REPORT.md).
+**October 14 research history:** shipping/October 15 preparation, marked-return reflection and the dated option screen are preserved [verbatim](archive/STATUS_dated_2026-10-20_key-file-review.md); [byte/hash/CRC receipt](audits/2026-10-20_key-file-review/status-rotation.json). Current closed-leg and holding/approval context stays at [TRADE](TRADE.md); no historical candidate is a fresh quote or approved replacement.
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -79,6 +75,7 @@
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK IMPLEMENTATION — modeled end of first20-day frontloaded-diesel window (October2 commitment,100M oil over4months; incremental overlap not assumed) | 🟠 |
 | **Thu Oct 22** | VALERO Q3 2026 RESULTS — L689 margin/operations comparison | 🟠 |
 | **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
+| **Mon Oct 26** | USO SHORT INTEREST — October15 settlement snapshot publication | 🟡 |
 | **Wed Oct 28** | PHILLIPS66 Q3 2026 RESULTS — L689 refiner comparison | 🟡 |
 | **Fri Oct 30** | BZZ26 LAST TRADING DAY — boundary #8 (Brent 3:2:1) month switch: Dec legs BZZ26/RBZ26/HOZ26 → Jan BZF27/RBF27/HOF27 from the FIRST SESSION AFTER (Mon 11/2) | 🟡 |
 | **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
@@ -93,9 +90,9 @@
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 25 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 26 rows are modeled.*
 
-*25 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*26 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.

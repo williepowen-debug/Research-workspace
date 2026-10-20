@@ -1,0 +1,42 @@
+{
+  "scope": "Maintenance, not full source freshness",
+  "initial_full_boot": {
+    "OK": 6,
+    "FINDINGS": 4,
+    "FAIL": 0,
+    "exit_code": 2
+  },
+  "checks": {
+    "calendar": {
+      "exit_code": 2,
+      "output": "\u2705 CALENDAR: STATUS block matches docket/CATALYSTS.tsv (26 events)\n\ud83d\udfe0 STANDING STATE: 8 of 8 row(s) reconciled BEFORE a catalyst was graded \u2014 proven UNVERIFIED, not proven wrong:\n     \ud83d\udfe0 \ud83d\udce6 **DATED HISTORY 2026-08-27 \u2192 2026-08-09 \u2014 ROTATED VERBATIM, LOAD-BEARI \u2014 reconciled 2026-10-09, but the 2026-10-15 catalyst was fired 2026-10-15\n     \ud83d\udfe0 BRT-26 rig ladder / frozen line** \u00b7 as-of **2026-09-25** \u00b7 \u2713 **reconcile \u2014 reconciled 2026-10-09, but the 2026-10-15 catalyst was fired 2026-10-15\n     \ud83d\udfe0 \ud83d\udcca **RETAINED \u2014 `COT-FUEL-35B` BAND + LADDER (frozen spec).** \u23f1 **current \u2014 reconciled 2026-10-12, but the 2026-10-15 catalyst was fired 2026-10-15\n     \ud83d\udfe0 JWC / WAR-RISK BASELINE** \u00b7 document as-of **2026-09-16 (JWLA-035)** \u00b7 \u2713 \u2014 reconciled 2026-10-09, but the 2026-10-15 catalyst was fired 2026-10-15\n     \ud83d\udfe0 \u26d4\u26d4 **RETAINED \u2014 ALL 17 CORRECTED-CLAIM SENTINELS FROM THE ROTATED ROWS ( \u2014 reconciled 2026-10-09, but the 2026-10-15 catalyst was fired 2026-10-15\n     \ud83d\udfe0 EXPORT-SIGN WARNING** \u00b7 \u2713 **reconciled `2026-10-09`** (THESIS/October7 e \u2014 reconciled 2026-10-09, but the 2026-10-15 catalyst was fired 2026-10-15\n     \ud83d\udfe0 STANCE + GATE STATE** \u00b7 \u2713 **reconciled `2026-10-14`** (current thesis/TR \u2014 reconciled 2026-10-14, but the 2026-10-15 catalyst was fired 2026-10-15\n     \ud83d\udfe0 \u27a1\ufe0f EVERYTHING ELSE THAT USED TO BE RESTATED HERE NOW LIVES WITH ITS OWNE \u2014 reconciled 2026-10-09, but the 2026-10-15 catalyst was fired 2026-10-15\n     \u21d2 RE-READ each against its canonical record and re-stamp. NOT auto-fixed.\n"
+    },
+    "ledger_age": {
+      "exit_code": 1,
+      "output": "\n[BRENT]  (ledger age relative to STATUS.md; + = older than STATUS)\n  ok          +0d  AGENTS/BRENT/TRADE.md\n  ok          +0d  AGENTS/BRENT/USO/observations.tsv\n  ok          +0d  AGENTS/BRENT/board_log.tsv\n  ok          +0d  AGENTS/BRENT/docket/CATALYSTS.tsv\n  ok          +6d  AGENTS/BRENT/refinery_damage/INCIDENTS.tsv\n  ok          +4d  AGENTS/BRENT/workbook/COT_VINTAGES.tsv\n  FROZEN    +111d  AGENTS/BRENT/workbook/FLOW.tsv\n  FROZEN     +96d  AGENTS/BRENT/workbook/GROUP_MAP.tsv\n  FROZEN    +111d  AGENTS/BRENT/workbook/KB.tsv\n  \u26a0\ufe0f STALE   +11d  AGENTS/BRENT/workbook/LESSONS_INDEX.tsv\n  ok          +6d  AGENTS/BRENT/workbook/REGISTRY.tsv\n  FROZEN    +111d  AGENTS/BRENT/workbook/VX.tsv\n  \u2192 1 stale: freeze (add 'FROZEN <date> \u2014 ...' banner) or refresh at closeout.\n  perimeter [BRENT]: 13 ledger(s) scanned; 15 TSV(s) NOT scanned by this pass: audits/2026-10-12_desk-health/CATALYSTS-before.tsv, demand_destruction/data/yanbu_berth_2026-09-25.tsv, demand_destruction/data/yanbu_berth_2026-09-28.tsv, demand_destruction/data/yanbu_berth_2026-10-02.tsv (+11 more)\n"
+    },
+    "ledger_nudge": {
+      "exit_code": 1,
+      "output": "\u26a0\ufe0f  nudge: [BRENT] STATUS moving without ledgers \u2014 7 ledger(s) behind: LESSONS_INDEX.tsv (44 STATUS-writes behind), INCIDENTS.tsv (5 STATUS-writes behind), COT_VINTAGES.tsv (5 STATUS-writes behind), REGISTRY.tsv (5 STATUS-writes behind), TRADE.md (4 STATUS-writes behind), board_log.tsv (4 STATUS-writes behind), CATALYSTS.tsv (3 STATUS-writes behind) \u2014 freeze-or-refresh EACH, or say why not in the commit\n"
+    },
+    "read_cap": {
+      "exit_code": 0,
+      "output": "READ-CAP [BRENT] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 3 boot section(s) in CLAUDE.md, 29 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 TRADE.md                             22,661 B    70% of budget    (boot-step line 26)\n  \u2705 STATUS.md                            22,484 B    69% of budget    (boot-step line 26)\n  \u2705 LESSONS.md                           15,125 B    46% of budget    (boot-step line 30)\n  \u2705 domain/REFERENCE_TABLES.md            6,445 B    20% of budget    (boot-step line 31)\n  \u2705 SCRATCH.md                            5,437 B    17% of budget    (boot-step line 27)\n\u2705 READ-CAP 0 [BRENT]: every boot-mandated read this check found is under budget (5 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/BRENT/CLAUDE.md = 31,848 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BRENT reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31848\n"
+    },
+    "weekday": {
+      "exit_code": 0,
+      "output": "CLAIM-CHECK \u2713 5 file(s) clean [weekday]\n"
+    },
+    "lesson_structure": {
+      "exit_code": 0,
+      "output": "\n  PROSE/INDEX DRIFT CHECK \u2014 27 indexed rows, 27 prose blocks\n  --------------------------------------------------------------------------\n  \u2705 no drift: every indexed row has prose, every prose block is indexed,\n     and every AMENDED/SCOPED row's verify-date appears in its prose.\n"
+    },
+    "diff": {
+      "exit_code": 0,
+      "output": ""
+    }
+  },
+  "preservation": "PASS: unchanged governed/history files and COT data rows; previous25catalysts preserved; archived STATUS byte/hash/CRC matches",
+  "perimeter": "PASS:12->13 files, USO included exactly once; per-row freshness outside generic Git-age check",
+  "status_bytes": 22484
+}

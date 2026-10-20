@@ -92,3 +92,9 @@ refinery_damage/*.tsv
 # wildcard here would sweep STATUS/SCRATCH/THESIS/NEXUS_BRIEF/LESSONS and turn a
 # targeted check into noise — which is how a guard stops being read at all.
 TRADE.md
+
+# Added 2026-10-20 on Will's key-file/workbook review: manual USO observations.
+# supersedes: none; extends the existing ledger scan, not a new check or trading test.
+# This TSV has per-row as_of clocks; generic age/write checks use Git maintenance
+# time here, NOT each observation's freshness. Read USO/TRACKER.md for gaps.
+USO/observations.tsv

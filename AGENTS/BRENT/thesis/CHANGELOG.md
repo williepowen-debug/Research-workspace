@@ -1,3 +1,9 @@
+## 2026-10-20 — key-file/workbook reconciliation; v5.13 unchanged
+
+Will requested review of BRENT's key files, including workbook. THESIS position context now points to TRADE's October 20 recovery and October 19 secondary evidence; October 14 call outcome is no longer described as unresolved. No new broker verification, position booking or owner holding grade. October 20 news and USO findings linked with their source/measurement limits: acceleration announcement is not delivery, anonymous proposals are not reopening, and lagged share-short observations are not current squeeze evidence. Existing WAIT, phase, probabilities, thresholds, holding rules and capital authority retained.
+
+Workbook navigation now points to USO, the existing ledger scan covers its observations, and the FINRA publication dependency is in the canonical calendar. Saved COT header reconciled to its already-existing October 16 vintage append; row bytes unchanged. [Audit and remaining evidence work](../audits/2026-10-20_key-file-review/REPORT.md).
+
 ## 2026-10-14 — operational follow-ups and retail transmission; v5.13 unchanged
 
 Will approved the recommended maintenance/review. Direct EIAOctober14 posting now supplies October12retail gasoline4.331/diesel6.179USDgal; FedEx publishes lagged ground surcharge28.75% versus29.25%. Existing fuel-transmission channel gains a payer/contract/index example, not measured invoices/margins, Russian-delivery proof or diesel-to-core attribution. [Primary evidence](../audits/2026-10-14_operational-followups/RETAIL-TRANSMISSION.md). WALTER014 integrated/filed; no new phase/conviction/probability or BRT31grade.
