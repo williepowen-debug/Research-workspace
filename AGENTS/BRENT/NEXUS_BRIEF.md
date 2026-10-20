@@ -1,36 +1,9 @@
 # BRENT — NEXUS Brief
 
-**October20 resume — C6(b) SCOPED-PARTIAL:** boot and saved handoff re-read; [receipt](audits/2026-10-20_startup/resume-receipt.json). New WALTER jet-margin/SPR discrepancy work deferred; HENRY December adoption remains open. Other evidence below retains prior observation dates. No new forecast, grade or trade authority; no adjudicated new cross-agent disagreement.
-
-**October 20 key-file review — C6(b) SCOPED-PARTIAL:** [audit](audits/2026-10-20_key-file-review/REPORT.md) covers workbook navigation, USO ledger coverage/publication dependency, existing COT header and thesis/TRADE reader agreement. Only those artifacts re-verified; no new economic or holding grade. Final closeout is write-back only: scope/uncertainties retained, no additional source refresh. **SENDING TERRY/PROME:** original October 14 calls have a matched closed receipt at TRADE; USO metrics remain dated and incomplete. **CALIBRATION/tensions:** v5.13/WAIT retained; broad physical-source gaps and prior owner-adoption questions remain. Other source vintages below are unchanged.
-
-**October 20 USO C6(b) SCOPED-PARTIAL:** Will-authorized [USO research home](USO/README.md) established; numerical observations and evidence boundaries at [tracker](USO/TRACKER.md). Re-verified scope: saved FINRA/issuer receipts and dated one-broker/vendor proxy observations; no consolidated current short count, technical-chart study or options-chain refresh. **SENDING TERRY/PROME:** structural/technical tracking now has a persistent BRENT home, including the relocated investigation and [discussion findings](USO/FINDINGS.md); no squeeze or trader-motive conclusion. **CALIBRATION/tensions:** WAIT/v5.13/WQ192 retained, no new forecast or adjudicated owner disagreement. Other sections keep earlier verification boundaries.
-
-**October20 news C6(b) SCOPED-PARTIAL:** anonymous-source Qatar-Pakistan proposal recovered at original; no completed settlement or throughput measured. IEAOctober15Board acceleration including>20Mdiesel primary-confirmed; olderRussiaEOsanctions surviveOctober16waiver. Same-contract oil reversal is real; expiringNovemberWTI and December must not be spliced. [Source/basis/timing assessment](research/2026-10-20_deal-news/REPORT.md). **SENDING:** HENRY/CARL/TERRY/PROME: relief expectations can reprice crude before delivery; diesel-specific releases challenge persistent refining scarcity separately. No holding grade/order or primary cargo survey. **CALIBRATION/tensions:** v5.13moderate/WAIT retained; Reuters earlier anonymous hardline account conflicts with later proposal optimism, not resolved by decree. HENRYmeasurement adoption remains open. Earliersections retain their observation vintages; no broad market/source/currentbroker refresh.
-
-**October20 startup scope — C6(b) SCOPED-PARTIAL:** runtime/boot, newer broker transcription and TERRY October14 closing receipt re-read; current structural positions/rules → [TRADE](TRADE.md), findings/pending research → [startup receipt](audits/2026-10-20_startup/receipt.json). The October14 brief below is dated context: its unclosed-call, prior quantity and future-release language is superseded by those owner paths. Fundamental claims, company edge, settlements and holding grades below were not re-verified. No marks, new forecast, phase transition or capital approval.
-
-**CROSS-DOMAIN update:** HENRY supplied December margin evidence, pending BRENT source-level adoption/rejection; common-basis publication remains unresolved. WALTER correction receipts preserve headline-versus-core attribution, separate loss censuses and anonymous Dhahran production assertions; newer CapeDao source conflict remains FALCON-owned. Acute route-risk reports do not establish lost barrels. COT#10 already saved/consumed, no duplicate grade. Deferred WALTER ACTION items remain enumerated in the receipt.
-
-**CALIBRATION / tensions:** existing moderate/WAIT assessment retained from October14, no new numeric calibration. HENRY evidence awaiting adoption is a measurement-handoff gap, not an adjudicated disagreement. CapeDao chronology/status conflict remains unresolved. Source and live-scheduler gaps remain explicit; no fleet notification/consumption asserted. No new Will decision.
-
----
-
-## October14 brief — retained dated context
-
-**Status:** 🟠 Energy WAIT unchanged; delivered diesel, own-asset earnings capture and pricing edge remain unproved.
-**Domain:** Oil/energy physical balance, structure and transmission.
-**Thesis version:** v5.13 minor OMR evidence/interpretation refinement; dated numerical calibration retained.
-**As of:** 2026-10-14 14:28 EDT | STATUS commit: a070cfe15.
-
-**C6(b) canonical sweep:** TRADE/THESIS/STATUS/composite reconciled to saved October14 work; v5.13 unchanged. Latest quantity confirmation re-read from secondaryOctober14transcription, rawOctober13images retain prior independent check; currentorders/rawOctober14images/call outcome not certified. Demand composite uses October14OMRSeptemberestimates, savedOctober7EIAweekOctober2 and now directEIAOctober12retail/October14posting; other source vintages explicit. No new market-price/cargo/site poll. During sweep PROME L684 changed fromPENDING to independently ACCEPTED, source observed13:46EDT; disposition and updated docket read, [receipt](audits/2026-10-14_consistency-sweep/owner-acceptance-receipt.json) saved. Closes installation acceptance, not a numerical holding grade, extra-share scope or capital approval. D78 remainsUNKNOWN. [Audit/checks](audits/2026-10-14_consistency-sweep/REPORT.md); dated history preserved with computed receipts, hot readers below rotation stop. Prior scopes below retain observation dates; no broad timestamp freshness or recipient-consumption claim.
-
-**C6(b) current option-research scope:** Will approved a fresh bounded continuation screen. Vendor chains saved13:30EDT; underlying observations13:29:51–13:30:12, option bid/ask clocks unavailable. USO December18 162/175 (65DTE) is the leading research construction; current debit/width geometry fits existing letter, but substantial quote friction and unproved physical/price edge prevent a buy recommendation. No at-fire grade, TERRY card/dispatch, WQ192 lift, green-day exception, new order or approved roll. BNO has no listed60–90DTE expiry; refiners retain missing earnings premise. Full input/hash/contract/payoff validation at [study](research/2026-10-14_energy-option-continuity/REPORT.md). Earlier physical, broker, holding and registered-line claims below retain their observation dates; no fresh verification of those sources or ownership outcomes by this stamp. THESIS5.13 unchanged.
-
-**C6(b) SCOPED-PARTIAL:** Will-requested shipping check completed first, then explicitly approved October15 preparation completed. Fresh MPA direct body recovered (earlier access gap closed); full Reuters English wire, provider analyses and PortWatch payloads/hash/dated arithmetic saved. PortWatch throughOctober11strait/October9hubs; no post-sinking volume measurement. Archived October7 EIA baseline re-extracted, regional keys and four-week gasoline method checked; full BRT31note/v2letter read, no future grade. [Shipping](research/2026-10-14_shipping-check/REPORT.md), [prep](research/2026-10-15_release-prep/WORKSHEET.md), [validation](research/2026-10-14_shipping-check/validation.json). Earlier OMR, BLS and company/holding sources retain dates. Will actively handles calls; continuing option exposure is a separate question, no automatic roll/new card or trade. NOT re-verified: raw/currentbrokerimages/orders/USOweights, acceptednewsettlements/holding grade, candidate currentoperations/expectations/valuation, fullregisteredlines/COTreissue/GIE/JWC/incidents, cloudacceptance or owner casualty/gate scores. UKMTO403/Riviera429/marine timeout; latest attack effects remain unmeasured. Wider news coverage partial; three later WALTER packets consumed; no native notification/recipient consumption claimed. Subsequent operational review below resolves TRACKERsize debt; source/24incident/pairedcoverage gaps remain.
-
-
-**C6(b) October14 operational follow-ups:** [Report](audits/2026-10-14_operational-followups/REPORT.md) and58preservation checks cover approved local maintenance.30live registry enrollments statically reviewed, row bytes unchanged. EIAutilization primary200 confirms92.7% observedOctober2: present but12days old versus unchanged10day budget. BothCFTCrawpaths403; currentreissue unverified. Sixfacilityrows reviewed without new current loss/restart evidence; all statuses/numericalfields/last_verified unchanged,24aged debts remain. TRACKER182807→22645UTF8bytes and FASTOW datedrunhistory rotated with exact originals/hashes; operative letters,11alert lines and FASTOWpending/calibration preserved. Onlyline4retail observation refreshed; no threshold/grade/position change.75offline tests passed. Four saved routine prompt hashes reproduce, but live prompt/config/Thursdayconnectors/normal-run acceptance cannot be read with currenttools/CLI and remain UNVERIFIED at existing UI/export handoff. Prior market/broker/holding/theater claims retain dates; no new holding grade, capital approval, scheduler deployment or recipient consumption.
+**Status:** Energy WAIT retained; this pass organises existing evidence and corrects expiry communication only.
+**Domain:** Oil/energy supply, demand, structure and transmission.
+**Thesis version:** v5.13; no calibration or capital-authority change.
+**As of:** 2026-10-20T17:57:58-04:00 | STATUS commit: `856796214852d069920bbd5b5b00419f5b511a3a` — C6(b) SCOPED-PARTIAL. Cross-domain/calibration sections below are preserved verbatim dated observations, not newly verified facts. October14 future-release/quantity/expiry/clear-mail wording is superseded by [TRADE](TRADE.md), [handoff](SCRATCH.md), [current news report](research/2026-10-20_deal-news/REPORT.md), and [docket](docket/CATALYSTS.tsv). USER.md governs expiry communication: Will manages expiries; no reminders. No historical candidate becomes a current quote or approved replacement.
 
 ## CROSS-DOMAIN
 
@@ -69,13 +42,9 @@
 
 ## VIEW
 
-- Current chains narrow the continuation choice to a USO December spread rather than an affordable far-out outright call. Candidate geometry is measurable; calibrated advantage is not. Payoff scenarios are not forecasts or owner/capital approval. [Research](research/2026-10-14_energy-option-continuity/REPORT.md).
-- Fresh lagged hub estimates weakened before the latest attacks; current net crude loss remains unmeasured. Provider paper delivery economics improve into December even while prompt tonnage stays tight. This supports event vulnerability with a real relief counterbranch, no priced replacement-option edge.
-- Relief is more concrete at permission, country-product and timing levels; delivered net addition is still unknown. Enough counterevidence to demand proof before adding refiner exposure, not enough to declare normalization.
-- A working refinery can earn through scarcity; a disrupted unit can lose earnings during a high crack. The reported WoodRiverFCCissue reinforces this distinction, with event/output verification still missing.
-- Latest saved finalOctober12 US matched margins compressed while crude rose (not refreshedOctober14). That is product-side market evidence, not a sole-cause attribution, Russian cargo receipt or issuer realized-margin forecast.
-- Separate Q3endedSeptember30from Q4/outlook. Public strong profits and a retrieved expectation of high earnings make a raw “good quarter” insufficient; measured underpricing remains absent.
-- Registered US Phase2test unconfirmed; IEA globaldemandcontraction already part of balance assessment. v5.13minorrefinement; calibration/stand-down unchanged. Recorded USO/BNO fit comparison is not a switch; no VLOadd or new capital ticket.
+- Existing assessment distinguishes persistent product scarcity from recovering crude supply. Announcement repricing can precede delivery; physical normalization and issuer earnings/valuation advantage remain unproved.
+- October20 proposal news does not establish a signed deal or operating reopening. The IEA acceleration announcement challenges the persistence branch separately; delivered net additional diesel remains unknown.
+- HENRY's December evidence awaits source-level BRENT adoption/rejection. Common-basis publication is not implied by receiving a packet; TERRY retains holding grades and original-share scope.
 
 ## CALIBRATION
 
@@ -88,22 +57,8 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** IEA OMR public body consumedOctober14; countrydelivery/supplementalquestions remain for IEA BoardOctober15 and later flow evidence. DEWEY bounded work already closed; WPSROctober15. WeekOctober9 balance predates permission and most storm recovery.
-- **What changes the view:** linked useful additional diesel can defeat margin persistence; a positive long case still needs functioning assets and realized earnings/value beyond expectations. A new announcement may change pricing before physical delivery, without proving it.
-- **Holding boundary:** Will explicitly handles USOOctober14calls; no more generic disposition prompts, future receipt still owed. Continued option exposure is distinct; no replacement approved. VLODecemberbasis startsOctober15under WQ386/420; no monitor/holding grade/order created. Earlier established exits survive.
+Complete the saved October15 EIA/BRT31 evaluation, including its price leg, and the HENRY measurement handoff. Deferred WALTER ACTION work includes monthly jet-fuel basis and conflicting DOE reserve totals; no disputed figure adopted. Company capture, expectations and valuation remain necessary research inputs. No new Will decision or card created.
 
 ## WATCH (next 2–4 weeks)
 
-| Date | Existing event | Signal / boundary |
-|---|---|---|
-| October14 | OMRpublicreviewCOMPLETE; no DEWEY return owed; last NovemberlegAsettle; USOcall expiry | Will actively manages calls; no further generic prompt or invented review time; receipt/outcome not inferred. |
-| October15 | Board; WPSRnoonweekOctober9; DecemberlegAbegins | Match commitment/delivery/observation clocks; first BRT31letter-grade eligible, no earlygrade. |
-| October16 | COT#10asofOctober13,~15:30ET | #9alreadygraded, no duplicate; failed retrieval is not print absence. |
-| October22 /28 /November3 | VLO /PSX /MPCQ3results | Q3realized bridge plus Q4outlook; no guaranteed surprise. |
-| October26 | BRT30endpoint | Frozen JWLA034baseline; no earlygrade or source-timeout resolution. |
-| October31 /November1 | Russianproducer-ban date /routineDSTreset /OPECmeeting | Existing catalyst owner record; no implied generalban lapse or new deployment. |
-| November18–19 | Held-VLOnext-basis review /last authorizedDecemberobservation | No automaticJanuaryroll; prior exits survive. |
-
-Canonical forward state: docket/CATALYSTS.tsv. Cloud live deployment/firstnormalrun acceptance remains parked at CATO handoff in STATUS. No verified native fleet notification or consumption. Final-company continuity packet committed 1ce834c41; prior evidence memo e40ea12fb is dated history; Gitpublication/recipientconsumption receipts remain separate.
-
-Latest file/news audit coordinationpacket committed529b007bb; rawbrokerimages not committed. WALTER subsequently completed the captured72-bookmark assessment/routing; source and market coverage remain partial. Earlier seven-packet closeout retains its date; WALTER014 additionally consumed/logged/filed during operational follow-ups. TRACKER size debt resolved by verified rotation; source, incident and live-cloud gaps remain explicit. No timestamp-only clearance.
+Forward dates live at [CATALYSTS](docket/CATALYSTS.tsv); next-work state at [SCRATCH](SCRATCH.md). Routine deployment remains unverified at the existing CATO handoff. Older detailed chronology is preserved [verbatim](archive/2026-10-20_organisation-cleanup/NEXUS_BRIEF.md.before.md); [conservation map](audits/2026-10-20_organisation-cleanup/manifest.json). Original relative links in before-images resolve from BRENT, not the archive directory. Notification, publication and recipient consumption remain distinct.
