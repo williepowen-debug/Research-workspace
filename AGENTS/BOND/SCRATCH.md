@@ -32,3 +32,7 @@ TBT 5 (FORGE 10/14); TBT −3.1% on 10/15 vendor tape. No action by BOND.
 
 ## MAIL
 WALTER lane drained (5). General inbox not swept: `inbox/2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7.md` (info; figures cited). Packet sent: RED F2 read (committed).
+
+## Startup recovery checkpoint — 2026-10-20 11:52 ET
+Codex session 01a15a02-565d-76c1-9d89-07653c5d3b62. Instructions explicitly loaded; report: reports/2026-10-20_startup-recovery.md. Pull deferred for foreign WALTER untracked caches. Corrections clean; OPEN predictions 0. docket_check rc0 verified no dates; boot_recompute rc1 has five drift findings. Seven WALTER packets read, integration still pending. Research state/positions/approvals not changed; October15 STATE AT WRITING above remains historical. Resume at FR2004 October7 and pending mail, then October21 auction/forecast obligations. No new trade decision or expiry reminder. Closeout tier light; STATUS, thesis, TRADE, ledgers, docket, MEMORY and NEXUS_BRIEF intentionally not refreshed at this recovery checkpoint.
+Light runner rc0 at 11:53 (including bundled check rc0), despite separate boot rc1 findings; those were NOT repaired and remain owed. RECEIPT overwritten with recovery limits. Promotion scan no-op; no durable new lesson. Final freeze/runner/verify and scoped persistence follow.
