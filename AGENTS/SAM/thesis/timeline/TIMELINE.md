@@ -1,5 +1,19 @@
 # SAM TIMELINE
 
+## 2026-10-20 — Domestic demand improves while October tightening is priced away
+
+The 20Y auction drew 5.844× cover with a 0.6bp tail: FIRM on the frozen bars, comfortably outside the precision band. The curve had already rallied from its early-October records. BOJ records show only scheduled October 16 purchases; October 19–20 carried no emergency JGB cap. This extends SAM-33's observed un-fired falsifier, not its final grade.
+
+MOF's September investor-type data add a separate warning: life-insurer foreign-LT-debt net dispositions grew to ¥288.6B from ¥137.3B in August. Bank selling was larger; trust-account buying partly offset it. This is real sector selling, but not identified USTs, forced repatriation or two named eligible institutions. The reactivation test remains unmet; the counter-signal must travel with the otherwise orderly read.
+
+The insurer evidence changes too. Fukoku's October 15 Reuters interview, published October 16, names 20Y/30Y purchases in its H2 yen-bond plan. The old ongoing-30Y-avoidance shorthand is withdrawn. Its foreign-book decline is mainly maturities not reinvested, a plan rather than forced selling; no UST or sector-wide reactivation follows.
+
+BOJ primary reads preserve the distinction between direction and timing. Ueda wants further normalization and stresses avoiding an inflation overshoot, but leaves the pace open. Koeda is hawkish and likewise names no fixed pace. Reviewed Totan October 20 gives October 5% of a 25bp step and December 76%; SAM-42 remains 25% as made, neither registered re-mark met. The Bangkok transcript also corrects SAM's attendance claim: Bessent missed the meetings. That does not withdraw September's strong-yen endorsement.
+
+Fiscal policy is a separate forward risk: the cabinet approved a bill October 9 to cut the food consumption tax to 1% for two years from April 2027; legislation and detailed offsets remain unresolved. The bill could affect future inflation arithmetic, not current October CPI. Household hardship remains despite improving survey balances; core machinery orders support investment resilience. Wider US credit spreads coexist with an orderly yen; there is no global all-clear.
+
+**Thesis consequence:** v1.7 unchanged, no successor, no entry or mark change. [Evidence, calculations and limits](../../research/outputs/2026-10-20_sweep/NEWS_SWEEP.md).
+
 ## 2026-10-01 — The official record says ¥0, and the market hands October to December
 
 The MOF's monthly total for August 27 to September 28 is **¥0** (`20260930e.html`, published 9/30). That closes the question the last two entries carried. The September 18 rate check near 158 and the joint US–Japan campaign of 9/25–28 moved the yen about 2.5 yen without a single yen spent in that window. KB-SAM-258, which held its "no operation found" clause until this print, is promoted unchanged. USD/JPY has since sat at 157.4 on three straight completed closes, about half a yen under the check's high. No fast leg has printed.

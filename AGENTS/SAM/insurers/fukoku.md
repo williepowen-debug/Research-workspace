@@ -1,5 +1,11 @@
 # Fukoku Mutual Life
 
+## Current investment plan — Reuters interview October 15, published October 16, 2026
+
+**H2 yen bonds +¥55B**, including **20Y/30Y JGBs** and corporate bonds up to 20Y; FY plan +¥165B, H1 expected +¥110B. Foreign-bond FY plan **−¥25B**, H1 expected −¥15B; implied H2 −¥10B is arithmetic, not a separate quoted target. Hedged foreign bonds remain zero; unhedged maturities generally not reinvested. These are plans, not executed or forced sales, and not UST-specific.
+
+**The historical January 30Y/40Y exit no longer establishes ongoing 30Y avoidance.** Current 30Y plan reverses that carried inference; 40Y and Asahi unchanged/unknown here. Channel 1's named-institution/two-window direct-sales reactivation test is not met by this item. Source: [Reuters Japanese syndication](https://www.newsweekjapan.jp/articles/-/337078); company-origin H2 release not located. Full source limits → [October 20 sweep §4](../research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). The June balance disclosures below remain dated observations, not October holdings.
+
 ## Current disclosure — reviewed September 14 ET, 2026
 
 General-account assets **¥8,026.456B**, June 30, versus ¥7,779.532B March. Foreign securities **¥1,875.779B**, versus ¥1,776.793B.

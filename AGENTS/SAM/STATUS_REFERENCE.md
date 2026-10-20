@@ -85,13 +85,13 @@ Canonical mechanism and policy interpretation → `thesis/THESIS.md` and Septemb
 | UST 10Y / 30Y | **5.17% / 5.49%** [FRED 9/25]; ^TNX **5.24** [9/28 vendor], 5.22 [9/29 live] | Never blend FRED constant-maturity with vendor yields. 30Y 5.49% FRED = new high in this run (5.47 on 9/24). |
 | FXY ATM IV (proxy) | → `workbook/FXY_OPTIONS.tsv` (9/29 snapshot written at boot) | ⚠️ KB-183: read the proxy's SIGN, not its level; FXY ETF options ≠ CME CVOL/OTC. |
 | Japan-ETF tape | EWJ **96.83** / DXJ **179.67** / YCS **53.85** / FXY **58.22** [9/28] | YCS (2× short yen) 54.76 → 53.85 since 9/24. |
-| MOF Aug lifer / trust | lifer LT −¥137.3B / trust +¥2,332.6B [Aug, published Sep] | Unchanged — monthly; next with the September release. Trust ≠ GPIF; LT debt ≠ UST. |
+| MOF September lifer / trust | lifer foreign LT **−¥288.6B** / trust **+¥1,195.3B** [Sep, MOF updated Oct-8; read Oct-20] | Supersedes August as latest (Aug lifer −¥137.3B). Intensifying sector dispositions; no named seller/UST/forced-sale identification. Trust ≠ GPIF. Source/units → `research/outputs/2026-10-20_sweep/NEWS_SWEEP.md` §5. |
 
 ## FUNDING (U.S. / Japan)
 
-**Refreshed 2026-09-29 (FRED). Current and citable, not boot-read.**
+**Refreshed October 20, 2026, FRED MIRROR; observations through October 19.**
 
-| U.S. / Japan funding | **SOFR 3.90% / IORB 3.90% ⇒ 0bp** [FRED 9/28]; HY OAS **293bp** / IG **81bp** [9/25] | SOFR drifted 3.87 → 3.90 into quarter-end (9/30) — at IORB, not above it; a quarter-end print ABOVE IORB would be the first funding tell. **HY 273 → 293bp in two sessions [9/23 → 9/25], +20bp** as UST 30Y made a new high; IG 77 → 81bp. Credit is HENRY's domain — context here, no SAM mechanism. Japan O/N / repo last recorded Sep-14 (0.977% / 1.000%) — **pre-hike, stale; not refreshed this session.** |
+| U.S. / Japan funding | SOFR **3.87% / IORB 3.90% ⇒ −3bp**, Oct-19; HY OAS **329bp** Oct-19 (331 Oct-16) | Repo spread alone does not show funding pressure, while credit is wider than the September 25 HY 293bp snapshot. HY direction is not a Japan transmission attribution. IG 81bp [Sep-25] and Japanese O/N/repo [Sep-14] are **stale, not refreshed**. Raw mirror series and scope → `research/outputs/2026-10-20_sweep/evidence/`. |
 
 ⚠️ GC T/N ~1.005% (pre-hike) is a separate instrument. **None of these measures offshore FX swaps** — that gap is what RED salvage ④ (a real JPY xccy-basis instrument) is owed for.
 

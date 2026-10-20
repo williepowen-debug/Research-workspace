@@ -4,15 +4,14 @@
 
 ## SEPTEMBER–JANUARY — forward event set synchronized with CATALYSTS.tsv
 
-✅ **September 18 read order EXECUTED:** National CPI (1.9 / 1.7 / 1.9, 2025 base) → BOJ decision (**hiked to 1.25%, 7–2, both dissents DOVISH**) → ✅ **SAM-28/31 GRADED 2026-09-19** (SAM-28 **QUALIFIED / NO-VERDICT** after the PM CATO R4 ruling; SAM-31 **FALSE**) on the terms frozen in `2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md` (record: `2026-09-19_SAM28_SAM31_GRADE.md`). Prediction terms were never changed. **Only SAM-33 remains open**, to Dec-31. Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction resolved descriptive-only (BTC 3.096×; see RESOLVED September 25–29); September 15 20Y resolved AMBIGUOUS (record pruned 9/29 — narrative in TIMELINE 2026-09-15 and `../reports/2026-09-15_news-sweep.md`). Recurring releases below are the near-term watch set, not a complete annual calendar.
+✅ **September 18 read order EXECUTED:** National CPI (1.9 / 1.7 / 1.9, 2025 base) → BOJ decision (**hiked to 1.25%, 7–2, both dissents DOVISH**) → ✅ **SAM-28/31 GRADED 2026-09-19** (SAM-28 **QUALIFIED / NO-VERDICT** after the PM CATO R4 ruling; SAM-31 **FALSE**) on the terms frozen in `2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md` (record: `2026-09-19_SAM28_SAM31_GRADE.md`). Prediction terms were never changed. **Two predictions remain open:** SAM-33 to Dec-31 and SAM-42 to Oct-31 JST (registered September 29). Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction resolved descriptive-only (BTC 3.096×; see RESOLVED September 25–29); September 15 20Y resolved AMBIGUOUS (record pruned 9/29 — narrative in TIMELINE 2026-09-15 and `../reports/2026-09-15_news-sweep.md`). Recurring releases below are the near-term watch set, not a complete annual calendar.
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
-| 🟡 Tue Oct 20 2026 | PENDING follow-up: October 16 flows/CFTC and post-meetings yen language | MOF/CFTC read October 20; finish Bangkok primary yen-language check | MOF week 10/4-10/10 LT debt -339.7B, CFTC Oct-13 net +50,207 LONG. No forced-selling attribution. Bangkok wording not checked; follow-up date is not release date. | SAM,LIQUID,HENRY |
-| 🟡 Tue Oct 20 2026 | PENDING review: expired BOJ meeting OIS quote | Prepare and visually review changed Totan chart | October 15 11:15 JST quote EXPIRED October 19 11:15 JST (October 18 22:15 ET). New image SHA 7f7a5bcf requires review; no current quote. SAM-42 trigger (b) >=60% unchanged. | SAM |
-| 🟡 Tue Oct 20 2026 | JGB 20Y auction | BTC, tail | Frozen bars APPLY at this tenor (20Y BTC spans 2.967-4.820, straddles both bars; tail published). PRECISION-LIMITED tag if the trip margin is <=0.1bp. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM,LIQUID |
 | 🟠 Wed Oct 21 2026 | Japan trade balance, September (provisional, whole-month) | Balance; and read crude VOLUME, not crude value | The oil-in-yen inversion test repeats here after the 9/16 August print. Jul: crude value +87.8% YoY but VOLUME +5.5%. Quantities, prices and currency stay separate. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM |
+| 🟡 Wed Oct 21 2026 | BOJ scheduled JGB purchase operations — SAM-33 check | Offer dates/sizes vs September 30 quarterly plan | Scheduled: 1-3Y 3300, 5-10Y 3050, 25Y+ 750 (100 million yen units). Scheduled purchases do not falsify SAM-33; check for any unscheduled/fixed-rate cap of a gradual rise. | SAM,LIQUID |
 | 🟡 Fri Oct 23 2026 | Japan National CPI, September | Headline / core / core-core, 2025 base | Specify the base; parallel 2020/2025 publication continues through December. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM |
+| 🟡 Sat Oct 24 2026 | BOJ meeting OIS source-age expiry — 15:15 JST | Review current Totan chart before quoting pricing | October 20 15:15 JST quote reaches four-day source-age limit October 24 15:15 JST = 02:15 ET. Decision expiry October 30 is later. SAM-42 >=60% re-mark bar unchanged. | SAM |
 | 🟠 Wed Oct 28 2026 | FOMC decision (Oct 27-28) — NO SEP | Statement and any dot commentary | No Summary of Economic Projections at this meeting — the registered Fed-side tripwire is an actual dot walk-back, which needs a SEP meeting. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | ALL |
 | 🟡 Thu Oct 29 2026 | JGB 2Y auction | BTC, tail vs the Sep-30 result | Front end. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM,LIQUID |
 | 🔴 Fri Oct 30 2026 | BOJ MPM day 2 decision + Outlook Report (Oct 29-30) | Rate, vote, Outlook projections and guidance | Outlook meeting (BOJ table verified). **SAM-42 resolves by Oct-31 JST: P(hike) 25% vs Totan 36% frozen 9/29.** | ALL |
@@ -36,6 +35,14 @@
 | 🟠 Mon Jan 25 2027 | NBIM/GPFG bond-index restructure — expert-group report due (JGB weight 4.6% -> 7.4%) | Does the expert group endorse the JGB leg? Any mandate language on phasing | PROPOSAL, not executed flows: JGB benchmark 4.6% to 7.4%; no tenor-specific allocation or implementation date established. Earlier nothing-lands-in-2026 inference withdrawn. | SAM, BOND, LIQUID |
 
 ---
+
+## ✅ RESOLVED October 20 (user-directed sweep)
+
+| Original event / obligation | Outcome |
+|---|---|
+| October 16 MOF/CFTC and post-meetings wording; follow-up October 20 | MOF LT debt −¥339.7B, CFTC net +50,207 long; Bangkok primaries read, Bessent absence corrects handoff. No new joint operation established. |
+| October 19 OIS expiry; follow-up October 20 | New October 20 15:15 JST image reviewed: Oct 5%, Dec 76%, April cumulative 1.93. Next source-age expiry October 24 above. |
+| October 20 20Y auction | BTC 5.844× / tail 0.6bp → FIRM, not precision-limited; source arithmetic verified. Buyer identity unknown. |
 
 ## ✅ RESOLVED September 25–29 (pruned 2026-09-29, news catch-up)
 

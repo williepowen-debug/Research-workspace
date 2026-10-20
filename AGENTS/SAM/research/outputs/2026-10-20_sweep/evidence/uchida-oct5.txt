@@ -1,0 +1,252 @@
+Opening Remarks by Deputy Governor UCHIDA at the ECONDAT 2026 Fall Meeting (AI, Big Data, and Monetary Policy)  : 日本銀行 Bank of Japan
+Skip to main content
+日本語
+English
+Home
+About the Bank
+About the Bank
+Outline of the Bank
+Outline of the Bank
+History
+List of Governors
+Location (Guide Map to Head Office) / Visiting the Bank
+Head Office, Branches, and Overseas Offices
+Archives
+Organization of the Bank
+Organization of the Bank
+Policy Board
+Responsibilities of the Governor, Deputy Governors, and Executive Directors
+Organization of Head office, Branches and Offices
+Laws and Rules
+The Bank's Accounts
+Activities
+Activities
+The Bank's Organizational Core Principles
+Medium-Term Strategic Plan
+Annual Review
+Business Continuity Planning
+Speeches and Statements
+Research Papers, Reports, Speeches and Statements Related to the Bank
+Research Papers, Reports, Speeches and Statements Related to the Bank
+Research Papers
+Speeches
+Statements
+Other Releases
+Tours and Museums
+Guides to the Bank
+Services
+Services
+Exchange of Damaged Cash
+Tours of the Bank's Head Office
+Climate Change
+Links
+Monetary Policy
+Monetary Policy
+Outline of Monetary Policy
+Outline of Monetary Policy
+Price Stability Target of 2 Percent
+Review of Monetary Policy from a Broad Perspective
+Monetary Policy Meetings
+Monetary Policy Meetings
+Summary of Opinions
+Minutes
+Others
+Monetary Policy Releases
+Monetary Policy Measures
+Monetary Policy Measures
+Market Operations
+Principal Terms and Conditions
+Outlook for Economic Activity and Prices
+Reports to the Diet
+Research Papers, Reports, Speeches and Statements Related to Monetary Policy
+Research Papers, Reports, Speeches and Statements Related to Monetary Policy
+Research Papers
+Speeches
+Statements
+Financial System
+Financial System
+Overview: The Bank's Initiatives for Financial Stability
+On-Site Examinations and Off-Site Monitoring
+Financial System Report
+Policy Actions for Financial Stability
+Coordination with the Financial Services Agency
+Seminars for Financial Institutions
+Other Releases Related to Financial System
+Other Releases Related to Financial System
+Research Papers
+Speeches
+Statements
+Payments and Markets
+Payments and Markets
+Outline of Payment and Settlement Systems
+Outline of Payment and Settlement Systems
+Payment and Settlement Systems and the Bank
+Oversight
+Forums
+Payment and Settlement Systems Operated by the Private Sector
+Operation of BOJ-NET
+JGB Book-Entry System
+FinTech Center
+Central Bank Digital Currency
+Money Market
+Money Market
+Cross-Industry Committee on Japanese Yen Interest Rate Benchmarks
+Cross-Industry Forum on Interest Rate Benchmarks
+Study Group of Market Participants
+Repo Market Forum
+Bond Market
+Credit Market
+Forums and Conferences
+Research Papers, Reports, Speeches and Statements Related to Payment and Markets
+Research Papers, Reports, Speeches and Statements Related to Payment and Markets
+Payment and Settlement Systems Report
+Market Operations in Each Fiscal Year
+Market Functioning Survey concerning Climate Change
+Research Papers
+Speeches
+Statements
+Other Releases Related to Payment and Markets
+Banknotes, The Bank's Treasury Funds and JGS Services
+Banknotes, The Bank's Treasury Funds and JGS Services
+General Information of Banknotes and Coins
+General Information of Banknotes and Coins
+A New Series of Banknotes and a New 500 Yen Coin
+Banknotes and Coins in Use
+Security Features of Bank of Japan Notes
+Outline of Banknotes and Coins
+Related Releases
+Publications and Other Information
+Exchange of Damaged Cash
+Treasury Funds Services
+JGS Services
+The Bank's Transactions with the Government
+Research Papers, Reports, Speeches and Statements Related to Banknotes, Treasury Funds and JGS Services
+Research Papers, Reports, Speeches and Statements Related to Banknotes, Treasury Funds and JGS Services
+Research Papers
+Speeches
+Statements
+International Finance
+International Finance
+Outline of International Finance
+International Meetings
+Foreign Currency Assets
+Cooperation with Other Central Banks
+Financial Cooperation in Asia
+Research Papers, Reports, Speeches and Statements Related to International Finance
+Research Papers, Reports, Speeches and Statements Related to International Finance
+Research Papers
+Speeches
+Statements
+Other Releases Related to International Finance
+Research and Studies
+Research and Studies
+Outline of Research and Studies
+List of Reports & Research Papers
+BOJ Reports & Research Papers
+BOJ Reports & Research Papers
+Financial System Report
+Market Operations in Each Fiscal Year
+Payment and Settlement Systems Report
+Regional Economic Report
+Research Papers
+Working Paper Series, Review Series, and Research Laboratory Series
+Research Data
+Research Papers Released by IMES
+Study Group Reports
+Opinion Survey
+Conferences
+Alternative Data Analysis
+Discontinued Research Releases
+Statistics
+Statistics
+Outline of Statistics and Statistical Release Schedule
+Outline of Statistics and Statistical Release Schedule
+Notices of Changes and Corrections
+Explanations of Statistics
+Notices of Changes and Revisions
+Notes
+Bank of Japan Statistics
+Currency
+Financial Markets
+Financial Institutions Accounts
+Deposits and Loans Market
+Flow of Funds
+Related to BIS/FSB
+Payment and Settlement
+TANKAN
+Prices
+Public Finance
+Balance of Payments Related Statistics
+Discontinued Statistics / Revised Base Statistics
+Historical Statistics on the Web Site of IMES
+BOJ Time-Series Data Search
+Social Networking Site Management Policy
+About the Bank
+Home
+>
+About the Bank
+>
+Speeches and Statements
+>
+Speeches 2026
+>
+Opening Remarks by Deputy Governor UCHIDA at the ECONDAT 2026 Fall Meeting (AI, Big Data, and Monetary Policy)
+[Speech]
+AI, Big Data, and Monetary Policy
+Opening Remarks at the ECONDAT 2026 Fall Meeting
+日本語
+UCHIDA Shinichi
+Deputy Governor of the Bank of Japan
+October 5, 2026
+Full Text [PDF 42KB]
+I. Introduction
+It is my great pleasure to welcome all of you to the ECONDAT 2026 Fall Meeting. Since its establishment in 2019, this conference has become a unique and important platform where researchers, policymakers, and experts from various fields come together.
+This year's conference focuses on AI and big data. In particular, we will examine two important roles they play for central banks: first, their contributions to advancing analytical methods and research; second, the economic implications of AI adoption for productivity and labor markets.
+AI affects a wide range of central banking businesses, which include conducting monetary policy, maintaining financial stability, and operating payment and settlement infrastructures. Among these, I would like to talk about the effects of AI from the monetary policy perspective and raise two questions associated with the topics to be discussed today and tomorrow.
+II. The Role of AI and Big Data in Central Bank Analyses
+The first question is how AI and big data are reshaping analyses by central banks.
+In essence, AI and big data appear to be removing two significant constraints: the limitation of computational power and the limitation of data availability.
+Computational power has grown remarkably. Tasks that used to require significant human efforts can now be completed quickly and efficiently by using machine learning techniques and generative AI. AI adoption has enabled central bank researchers to manage much larger datasets and carry out more complex analyses than before.
+In addition, recent technological progress has expanded the frontier of data collection and research design. Advancements in large language models and generative AI have transformed unstructured data into structured one. Data availability has significantly improved in volume and variety.
+Let me give you a few examples of recent use cases. Central banks have implemented an increasing number of textual data analyses, which were not commonly seen in previous decades. At the time of the pandemic, we used high-frequency human mobility data to assess the severity of the recession in real time. More recently, we have leveraged alternative data derived from vessel tracking services to monitor the impact of the Middle East conflict on crude oil imports and supply chains.
+That said, there remains much that we do not fully understand. The effectiveness of non-traditional data might depend on the state of the economy and the relevance of data. I hope discussions on the first day of this conference will contribute to developing more effective analytical tools and identifying suitable datasets for policy research.
+III. Economic Implications of AI Adoption
+The second question is what are the economic implications of AI adoption.
+Looking back at the history of technological breakthroughs, AI is likely to significantly affect our lives as a general-purpose technology. Like the steam engine and the internet, AI has the potential to transform industries and drive innovation across the board. In contrast with the past technological changes, however, AI will substitute for human cognitive skills and intellectual tasks rather than physical labor.
+Due partly to such a difference, we have observed diverse views among experts on the speed of AI adoption and its economic implications.
+Some show optimistic views that AI will change the economy in a transformational manner so that the pace of AI diffusion will be rapid. Others are more cautious, suggesting that the pace will be gradual due to so-called "weak-link constraints," where human processing abilities cannot keep up with AI.
+More importantly, the adoption of AI might have both positive and negative implications for productivity and labor markets. On the positive side, AI releases workers from routine cognitive tasks. It could also accelerate innovation in creative and complex fields like R&D. AI explores all possible combinations of various ideas in cognitive tasks, making it likely to produce transformational impacts. These positive characteristics of AI would lead to substantial improvements in productivity and long-term economic growth.
+On the negative side, however, AI could rapidly make certain forms of human capital obsolete, particularly skills that were designed for intellectual labor. This poses challenges for workers who may struggle to adapt to new roles. It may also affect social inequality, as people with more technological skills and flexibility could gain far more benefits than others.
+I hope discussions on the second day, including the panel discussion, will provide food for thought on how we can deal with these fundamental questions.
+IV. Closing Notes
+In recent years, AI has been a favorite topic among central bankers. In the early stage, we tended to discuss AI conceptually, trying to derive implications for the future conduct of monetary policy. Now, it is a pressing issue to be discussed in conjunctural context as well. At Monetary Policy Meetings here at the Bank, AI has become a key topic of discussion, as might be the case for central banks around the world.
+Indeed, AI has implications for some core parameters of monetary policymaking, including the output gap, financial conditions, and star variables. First, it is a big positive demand shock, which has put upward pressure on the economy and prices. Second, it could affect the supply side, perhaps positively by raising productivity and enhancing capital stock accumulations, which might in turn affect r-star (r*). Third, it has boosted stock prices, making financial conditions easier, while large-volume bond issuances by AI-related companies have been putting upward pressure on long-term interest rates, thereby making financial conditions tighter. Fourth, it may change the labor markets structurally, as discussed earlier. Each of these factors affects the conduct of monetary policy in different directions and in different time horizons.
+We all know that AI is important. We can also understand in which directions each of these factors would affect the economy within our traditional policy framework. But, to what extent and degree? In what time horizons? We don't have a clear answer yet.
+In the meantime, we will continue to carefully examine economic and financial indicators, and to grasp a consistent picture of the impacts of AI adoption. Tentatively, it appears that the demand side has come first and that it has been making financial conditions more accommodative on balance, while there is a risk of correction, if profits do not follow. The effects on r* and u-star (u*) at this juncture are hard to gauge.
+As a policymaker in practice, I always ask myself if I make balanced decisions, neither underestimating nor overestimating the impacts of AI. As always, central banks assess the economy as a whole, including the sectors that are less affected by AI.
+It is possible that conventional statistics cannot keep up with the speed of AI adoption, while alternative data may help address this point, I hope. Furthermore, this challenging task would require broader and longer-term perspectives, taking into account other economic developments like geopolitical tensions and climate change, as well as interactions with society including frameworks to control AI.
+AI will not answer these important questions. We need human involvement, gathering in the same venue, engaging in face-to-face communication, and exchanging views among experts from various fields, at conferences like this.
+Thank you again for participating in this important event. I look forward to receiving fruitful and inspiring feedback from this conference and witnessing the progress we will achieve together.
+2-1-1 Nihonbashi-Hongokucho,Chuo-ku,Tokyo (
+location
+)
+Tel:+81-3-3279-1111
+Services
+Exchange of Damaged Cash
+Organization
+Organization of the Bank
+Head Office, Branches, and Overseas Offices
+2-1-1 Nihonbashi-Hongokucho,Chuo-ku,Tokyo
+(
+location
+)
+Tel:+81-3-3279-1111
+Other Links
+Institute for Monetary and Economic Studies
+About the Site
+E-mail Service
+Help
+Contact
+Links
+Site Map
+Copyright Bank of Japan All Rights Reserved.

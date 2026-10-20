@@ -1,0 +1,13 @@
+$BZV26.NYM: possibly delisted; no price data found  (1d 2026-10-13 -> 2026-10-21) (Yahoo error = "No data found, symbol may be delisted")
+$BZX26.NYM: possibly delisted; no price data found  (1d 2026-10-13 -> 2026-10-21) (Yahoo error = "No data found, symbol may be delisted")
+OIL ROLL CHECK — BZ=F  2026-10-13..2026-10-20
+    2026-10-13    105.69  BZZ26.NYM
+    2026-10-14    106.06  BZZ26.NYM
+    2026-10-15    105.92  BZZ26.NYM
+    2026-10-16    109.86  BZZ26.NYM
+    2026-10-19    109.55  BZZ26.NYM
+    2026-10-20    107.01  BZZ26.NYM
+  ✅ NO ROLL — single contract BZZ26.NYM across all 6 session(s).
+     BZ=F 2026-10-13->2026-10-20: 105.69 -> 107.01 = +1.25% (basis-clean)
+
+Boot mode: a roll is reported as BASIS, not failure; non-zero here means UNRESOLVED.

@@ -234,3 +234,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T15:16:02+00:00	SIG-W-20261019-005	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
 2026-10-20T15:16:02+00:00	SIG-W-20261019-010	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
 2026-10-20T15:16:02+00:00	SIG-W-20261019-013	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
+2026-10-20T15:31:42+00:00	SIG-W-20261016-039	acted	INBOX_WALTER	Deferred startup read completed: primary Ueda Oct-16 Bangkok transcript kk261020a.pdf and address read; no October-specific guidance established, SAM-42 remains 25%; research/outputs/2026-10-20_sweep/NEWS_SWEEP.md sections 1-2.

@@ -8,6 +8,10 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-10-20 — User-directed catch-up; v1.7 unchanged
+
+**Evidence integration, no promotion or probability change.** Old ongoing Fukoku 30Y-avoidance inference → superseded by H2 20Y/30Y purchase plan (Reuters, rel Oct-16; plan, not flow). Sector foreign-LT-debt dispositions −¥137.3B August → −¥288.6B September add a real counter-signal, without meeting named-seller reactivation. Existing mixed domestic-demand assessment gains a FIRM Oct-20 20Y auction (5.844×/0.6bp). SAM-33 audit extends through Oct-20, no unscheduled cap. BOJ direction hawkish, timing open; SAM-42 stays 25% as made, reviewed October equivalent 5%. Corrected Bessent Bangkok attendance and Uchida speech date (Oct-5). Fiscal bill and domestic data integrated with legislative/source-clock limits. New TIMELINE entry; full evidence → `../research/outputs/2026-10-20_sweep/NEWS_SWEEP.md`. Terms, thresholds, retired entry rules and money fields untouched.
+
 ## 2026-10-01 — L0 wake: MOF monthly ¥0 · October OIS 36→18% · MOF weekly one-week bar tripped (wk 9/13–19). **THESIS v1.7 UNCHANGED.**
 
 **Old view → new view:** none at thesis level. Records: KB-SAM-258 promoted (MOF ¥0 cleared its gate); SAM-33 op-audit through 10/1 (Oct–Dec schedule = scheduled taper, excluded); SAM-42 evidence appended, NO re-mark (SoO anonymous ⇒ trigger (a) cannot fire; Totan Oct 18% < 60% ⇒ (b) un-fired). MOF weekly trip → WALTER signal `4171d2c43`; `mof_flows.py` latest-week-only alert defect logged (fix owed). **TIMELINE:** new 2026-10-01 block.

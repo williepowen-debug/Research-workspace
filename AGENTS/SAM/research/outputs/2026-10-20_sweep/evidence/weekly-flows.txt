@@ -1,0 +1,443 @@
+報 道 発 表 ・ 財 務 省
+令 和 8 年 10 月 16 日
+
+Ministry
+October
+
+of
+16,
+
+Finance
+2026
+
+対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）
+International Transactions in Securities (Weekly; based on reports from designated major investors)
+
+(単位：億円)
+(￥100 million)
+
+1．対外証券投資【居住者による取得・処分】
+1. Portfolio Investment Assets
+
+株式 ・投資ファンド持分
+Equity and investment fund shares
+
+中長期債
+Long-term debt securities
+
+取得
+
+処分
+
+ネット
+
+取得
+
+処分
+
+ネット
+
+小計
+Subtotal
+
+ネット
+
+短期債
+Short-term debt securities
+
+合計
+Total
+
+取得
+
+処分
+
+ネット
+
+ネット
+
+Acquisition Disposition
+
+Net
+
+Acquisition Disposition
+
+Net
+
+Net
+
+Acquisition
+
+Disposition
+
+Net
+
+Net
+
+令和8年9月6日～9月12日
+
+30,061
+
+28,497
+
+1,564
+
+117,578
+
+106,668
+
+10,910
+
+12,474
+
+18,524
+
+17,015
+
+1,508
+
+13,983
+
+September 6, - September 12, 2026
+
+令和8年9月13日～9月19日
+
+33,405
+
+32,963
+
+443
+
+102,477
+
+121,527
+
+-19,049
+
+-18,607
+
+17,805
+
+14,333
+
+3,471
+
+-15,135
+
+September 13, - September 19, 2026
+
+令和8年9月20日～9月26日
+
+18,896
+
+16,637
+
+2,258
+
+95,891
+
+102,714
+
+-6,823
+
+-4,565
+
+12,451
+
+11,136
+
+1,315
+
+-3,250
+
+September 20, - September 26, 2026
+
+令和8年9月27日～10月3日
+
+45,616 *
+
+32,330
+
+13,286 *
+
+133,301 *
+
+136,758
+
+-3,457 *
+
+9,829 *
+
+9,771
+
+11,331
+
+-1,560
+
+8,269 *
+
+September 27, - October 3, 2026
+
+令和8年10月4日～10月10日
+
+36,600
+
+44,205
+
+-7,606
+
+78,407
+
+81,804
+
+-3,397
+
+-11,002
+
+8,544
+
+7,842
+
+703
+
+-10,300
+
+October 4, - October 10, 2026
+
+2．対内証券投資【非居住者による取得・処分】
+2. Portfolio Investment Liabilities
+
+株式 ・投資ファンド持分
+Equity and investment fund shares
+
+中長期債
+Long-term debt securities
+
+取得
+
+処分
+
+ネット
+
+取得
+
+処分
+
+ネット
+
+小計
+Subtotal
+
+ネット
+
+短期債
+Short-term debt securities
+
+合計
+Total
+
+取得
+
+処分
+
+ネット
+
+ネット
+
+Acquisition Disposition
+
+Net
+
+Acquisition Disposition
+
+Net
+
+Net
+
+Acquisition
+
+Disposition
+
+Net
+
+Net
+
+令和8年9月6日～9月12日
+
+381,097
+
+396,301
+
+-15,204
+
+75,999
+
+53,597
+
+22,402
+
+7,199
+
+32,871
+
+45,000
+
+-12,128
+
+-4,929
+
+September 6, - September 12, 2026
+
+令和8年9月13日～9月19日
+
+367,388
+
+416,813
+
+-49,425
+
+49,238
+
+50,081
+
+-843
+
+-50,268
+
+42,939
+
+30,428
+
+12,511
+
+-37,757
+
+September 13, - September 19, 2026
+
+令和8年9月20日～9月26日
+
+160,574
+
+164,116
+
+-3,542
+
+19,702
+
+33,120
+
+-13,418
+
+-16,960
+
+17,075
+
+49,747
+
+-32,672
+
+-49,633
+
+September 20, - September 26, 2026
+
+令和8年9月27日～10月3日
+
+379,104 *
+
+357,107
+
+21,997 *
+
+75,594 *
+
+69,512 *
+
+6,081 *
+
+28,079 *
+
+28,512
+
+30,897
+
+-2,385
+
+25,694 *
+
+September 27, - October 3, 2026
+
+令和8年10月4日～10月10日
+
+406,706
+
+371,491
+
+35,215
+
+63,156
+
+52,355
+
+10,801
+
+46,016
+
+39,336
+
+30,921
+
+8,416
+
+54,432
+
+October 4, - October 10, 2026
+
+（備考） ① *は、修正値である。
+
+②
+
+③
+
+④
+
+⑤
+⑥
+
+(Notes) 1
+2
+
+3
+
+4
+5
+6
+
+平成17年1月より、国際収支統計関連の見直しに伴い、本統計における対内及び対外の分類基準を、建値通貨から証券発行体の居住性に変更し、「対外及び対内証券売
+買契約等の状況（指定報告機関ベース）」とするとともに、商品別区分の拡充（短期債の新規公表）を行った。
+
+指定報告機関とは、「外国為替の取引等の報告に関する省令」第21条により財務大臣が指定した銀行等、金融商品取引業者、保険会社、投資信託委託会社及び資産運
+用会社をいう。
+平成26年1月より、投資ファンドに係る取引については、それまで中長期債に含まれた契約型投資信託（オープンエンド型）も含め、「株式・投資ファンド持分」に計上され
+る。
+四捨五入のため、合計に合わないことがある。
+ネットのプラス（＋）は取得超、マイナス（－）は処分超を表す。
+
+Figures with "*" are revised.
+Following a revision of balance of payments related statistics, the former "Securities Investment at Home and Abroad (Contract Basis, Weekly)" is revised as
+"International Transactions in Securities (Weekly; based on reports from designated major investors)" starting from January 2005. In the new statistics,
+portfolio investments are classified based on the residence of issuers of securities, whereas the "Outward / Inward" classification in the previous statistics was made
+based on securities' currency of denomination. In addition, data on transactions of short-term debt securities have become available.
+"Designated Major Investors" indicate banks, financial instruments firms, insurance companies, investment trust management companies and asset management
+companies, etc. that were designated by the Minister of Finance in accordance with Article 21 of the Ministerial Ordinance Concerning Report on
+Foreign Exchange transactions, etc.
+Transactions related to investment funds will be recorded under the　new items "Equity and investment fund shares" starting from January 2014.
+Totals may not add due to rounding.
+International Transactions in Securities show net acquisition with a plus sign(＋) and net disposition with a minus sign(－).
+
+連絡・問い合わせ先
+
+財務省国際局為替市場課国際収支第2係
+
+ＴＥＬ：03-3581-4111 
+
+

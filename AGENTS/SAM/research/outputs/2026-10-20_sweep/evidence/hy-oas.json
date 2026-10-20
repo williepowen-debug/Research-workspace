@@ -1,0 +1,22 @@
+{
+  "series": "BAMLH0A0HYM2",
+  "label": "HY OAS",
+  "observations": [
+    {
+      "date": "2026-10-19",
+      "value": "3.29"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "3.31"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "3.23"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "3.25"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+オペ
+Financial Markets Department | 日本銀行金融市場局
+Bank of Japan
+オペレーション（10月19日＜月＞）
+Market Operations by the Bank of Japan for October 19 (Mon)
+（単位：億円、％）
+（100 million yen, percent per annum）
+オファー | 落札結果
+Offers | Results
+種類 | オファー額(注1) | スタート日(注2) | エンド日(注2) | 貸付利率(注3) | 利回り(注4) | 応札総額(注5) | 落札総額(注5) | 按分レート | 全取レート | 平均落札レート | 按分比率
+・利回較差(注6) | ・利回較差(注6) | ・利回較差(注6)
+・価格較差(注7) | ・価格較差(注7) | ・価格較差(注7)
+Instrument | Amounts | Date of | Date of Resale | Loan Rate3 | Yield4 | Amounts of | Amounts of | Pro-rata Rate/ | Non-pro-rata Rate/ | Average Successful  | Allocation on a
+Offered1 | Exercise2 | or Repurchase | Competitive | Successful | Yield Spread6/ | Yield Spread6/ | Bid-Rate/ |  Pro-rata Basis
+or Repayment2 | Bid5 | Bid5 | Price Spread7 | Price Spread7 | Yield Spread6/ | Rate
+Price Spread7
+国債補完供給（国債売現先）・即日（午前オファー分） |  | 2026-10-19 00:00:00 | 2026-10-20 00:00:00 |  | 0.8 | 356 | 356 |  | 0.8 | 0.8 | 
+Securities lending facility (Sales of JGSs under repurchase agreements) /offered in the morning/same-day-start operation
+国債補完供給（国債売現先）・即日（午後オファー分） |  | 2026-10-19 00:00:00 | 2026-10-20 00:00:00 |  | 0.8 | 0 | 0 |  |  |  | 
+Securities lending facility (Sales of JGSs under repurchase agreements) /offered in the afternoon/same-day-start operation
+(注1) | 　オペの種類が、米ドル資金供給の場合は、適格担保の範囲内で制限を設けない。
+(注2) | 　オペの種類が、米ドル資金供給の場合は、米国東部時間。
+(注3) | 　オペの種類が、共通担保資金供給＜変動金利方式＞の場合は、当初貸付利率。
+(注4) | 　オペの種類が、国債補完供給（国債売現先）、米ドル資金供給用担保国債供給（国債売現先）の場合は、上限期間利回り。国債買現先の場合は、下限期間利回り。国債買入の場合は、下限利回較差。国債買入（固定利回り方式）の場合は、固定利回較差。
+(注5) | 　オペの種類が、米ドル資金供給の場合、単位は100万米ドル。
+(注6) | 　オペの種類が、国庫短期証券買入、国庫短期証券売却、国債買入（残存期間1年以下、1年超5年以下、1年超3年以下、3年超5年以下、5年超10年以下、10年超、10年超25年以下、25年超）の場合は利回較差を示す。
+(注7) | 　オペの種類が、国債買入（変動利付債、物価連動債）の場合は価格較差を示す（単位は円）。
+Notes:
+1. |  For the case of US Dollar Funds-Supplying Operations against Pooled Collateral, funds are provided for unlimited amount against pooled collateral.
+2. |  For the case of US Dollar Funds-Supplying Operations against Pooled Collateral, the dates are in US Eastern Standard Time.
+3. |  For the case of Funds-Supplying Operations against Pooled Collateral (Floating rate), the loan rates are initial loan rates.
+4. |  For the case of Securities lending facility (Sales of JGSs under repurchase agreements) and Securities lending to provide JGSs as collateral for US Dollar Funds-Supplying Operations against Pooled Collateral (Sales of JGSs under repurchase agreements), the yields are the upper limits on selling yields. For the case of Purchases of JGSs under repurchase agreements, the yields are the lower limits on purchasing yields. For the case of the Outright purchases of JGBs, the yields are the lower limits on the yield spreads. For the case of the Outright purchases of JGBs (fixed-rate method), the yields are the fixed yield spreads.
+5. |  For the case of US Dollar Funds-Supplying Operations against Pooled Collateral, the figures are represented in million U.S. dollars.
+6. |  These figures represent the yield spreads in Outright purchases of T-Bills, Outright sales of T-Bills, Outright purchases of JGBs (residual maturity of up to 1 year, more than 1 year and up to 5 years, more than 1 year and up to 3 years, more than 3 years and up to 5 years, more than 5 years and up to 10 years, more than 10 years, more than 10 years and up to 25 years, and more than 25 years).
+7. |  These figures represent the price spreads in Outright purchases of JGBs (floating-rate bonds and inflation-indexed bonds) (unit of price spread is yen).
