@@ -1,0 +1,137 @@
+{
+  "as_of": "2026-10-20T14:55:40Z",
+  "tier": "light",
+  "selected_check_state": "REVIEW",
+  "procedure_completion": "UNVERIFIED \u2014 owner must account for manual duties",
+  "checks": [
+    {
+      "check": "receipt",
+      "state": "REVIEW",
+      "rc": 1,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python",
+        "AGENTS/WALTER/tools/closeout_check.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/checks/receipt.txt"
+    },
+    {
+      "check": "read-cap",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "WALTER"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/checks/read-cap.txt"
+    },
+    {
+      "check": "archives",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python",
+        "AGENTS/WALTER/tools/archive_pair_check.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/checks/archives.txt"
+    },
+    {
+      "check": "orphans",
+      "state": "ADVISORY",
+      "rc": 0,
+      "command": [
+        "bash",
+        "scripts/orphan_check.sh",
+        "WALTER"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/checks/orphans.txt"
+    },
+    {
+      "check": "weekdays",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/WALTER/STATUS.md"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/checks/weekdays.txt"
+    },
+    {
+      "check": "ledger-nudge",
+      "state": "REVIEW",
+      "rc": 1,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python",
+        "scripts/ledger_staleness.py",
+        "--nudge",
+        "WALTER"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/checks/ledger-nudge.txt"
+    },
+    {
+      "check": "versions",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python",
+        "AGENTS/WALTER/tools/version_drift_check.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-20_bookmark-binding/checks/versions.txt"
+    }
+  ],
+  "manual_duties": [
+    {
+      "step": "11",
+      "state": "UNVERIFIED",
+      "duty": "Account for authored signals, handoffs and batches; preserve delivery/consumption limits."
+    },
+    {
+      "step": "Tier1",
+      "state": "UNVERIFIED",
+      "duty": "Refresh affected/stale live state or record unavailable evidence; preserve dated observations."
+    },
+    {
+      "step": "15",
+      "state": "UNVERIFIED",
+      "duty": "Review carried duties and owner evidence; retain unresolved work in LAST_COMPLETION."
+    },
+    {
+      "step": "root.retirement",
+      "state": "UNVERIFIED",
+      "duty": "Assess research/source retirement under root Data Hygiene; record scope and disposition."
+    },
+    {
+      "step": "16",
+      "state": "UNVERIFIED",
+      "duty": "Exact-path commit and authorized publication or explicit deferral; reconcile after publication."
+    },
+    {
+      "step": "Tier1.breadcrumb",
+      "state": "UNVERIFIED",
+      "duty": "Record the light-closeout breadcrumb; full narrative regeneration is deferred."
+    }
+  ],
+  "conditional_selection": {
+    "status_changed": true,
+    "spec_changed": true,
+    "memory_slugs": [],
+    "superseded": []
+  },
+  "limits": "No fetch or source writes. Local origin can be stale. Advisory findings and manual judgments require review. Conditional flags must match actual work; unselected checks are not passes.",
+  "receipt_observation": {
+    "as_of": "2026-10-20T14:55:35Z",
+    "origin_ref": "f2727832dd3aa526b5a5273517026936a4e16e41",
+    "delivery_scope": "20261020",
+    "delivered": 0,
+    "total": 0,
+    "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
+    "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
+  }
+}

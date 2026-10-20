@@ -1,3 +1,7 @@
+## 2026-10-20T14:55:35Z — light-closeout — full deferred — bookmark binding repair
+
+Will explicitly authorized repair; exact-ID/stage binding implemented,65offline tests pass, no live scan/mark. Code/evidence0c9de1e41; independent acceptance/live check and WQ458 unresolved. GeneralbootPARTIAL; foreign dirty work defers publication. Current duties LAST_COMPLETION.md. No helpers/background job. Spec changes: acceptance§10implementation note and workflow schema2explanation; no contract/threshold/scope change. Prior complete LAST preserved verbatim in research/2026-10-20_bookmark-binding/prior-LAST_COMPLETION.md.
+
 ## October19 evening — prior execution/implementation snapshots rotated verbatim
 
 **Earlier execution status clarified to Will:** no research helper remains active after the bounded continuation. Existing-approved market-wide attribution remains unresolved, not a running job. Next market evidence is subsequent closing breadth versus recent equal-weight recovery; no new unattended monitor/schedule. Field-level prerequisite for company attribution is reconciled rolling maturities/available funding and intervening events, not an ETF-quality substitute.

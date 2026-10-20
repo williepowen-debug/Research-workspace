@@ -92,7 +92,7 @@
 
 **2026-10-19T16:41:51Z resumed owner:** publishedHY0033/3;004HMI;005newJMICrisk/tug,existinglossconflict;006OTTO;007office-routecorrection,008OTTOpanel44/44+forecast8%OPEN,009HOMERnine-readqualifieddigest,010dealer/ETFcounterevidence,011CRWVvaluations. Interrupted8-itembatchclosed; ownerinbox6integrated. L599notrepeated/noextension. Authrepair onWill’s directrequest:401/refresh400→reauth→200;seenunchanged,0bookmarkfetch/mark. Evidence `research/2026-10-19_resume/`; currentdutiesandpublication/consumptionlimitsinLAST_COMPLETION.
 
-**10/19 bookmark feedback:** Will enjoys capture workflow. Offline501item cap/mark/rescan leaves1unseen; see resume RESULT and bookmark-workflow-offline-check.json. Live occurrenceUNKNOWN; repair nowimplemented/57author tests, independentreviewfoundbindingdefect;repair/liveverificationpending; WQ458notrenewed. Currentoperator guide design/X_BOOKMARKS_WORKFLOW.md.
+**10/20 bookmark repair:** Will enjoys capture workflow; original501-cap defect and independent damaged-stage counterexample are preserved in dated research. Exact-ID/unique-stage proposal and schema2review binding now implemented;65offline tests pass. Independent acceptance/live pagination pending; WQ458notrenewed. Evidence research/2026-10-20_bookmark-binding; guide design/X_BOOKMARKS_WORKFLOW.md. Auth401→refresh→200today;0bookmarkfetch/mark.
 
 **Bookmark completion:** new stages require --review-template + --mark --review; --receipt is local-only. Fully/partly/unread labels are attestations; material reading gaps need follow-up/request. Repairevidence research/2026-10-19_bookmark-repair/.
 
