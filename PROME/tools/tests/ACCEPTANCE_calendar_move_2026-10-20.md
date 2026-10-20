@@ -34,3 +34,12 @@ Written BEFORE editing (WQ-229).
   - Its first honest run also surfaced `PROME/state/SPAWN_SLATE.md` and the pre-existing `PROME/BOOT_MODULES.md` gap. Both are declared one-way in CLOSEOUT.
   - Result: "9 boot-read surfaces all registered".
 - State: IMPLEMENTED · TESTED. NOT independently verified (Will asked for no spawns at boot; reader offered).
+
+## Correction — CATO result review (44ff05b5f, `AGENTS/CATO/runs/2026-10-20_calendar-review.md`)
+reads: 1 (CATO, independent, result read with fresh counterexamples; Will-directed in CATO's window)
+- **Calendar move: ACCEPTED by CATO** within tested scope.
+- **CM1 (MEDIUM) — PROME overclaimed.** The addendum above said "with the CALENDAR row removed, the check flags it". That is false on the final snapshot. PROME's own test replaced every CALENDAR mention, not only the row. The check matched the basename anywhere in the section, so the DOCKET row's mention kept it passing.
+  - **Fixed:** `symmetry_registered()` accepts only a table row's first cell or the explicit one-way line. Matching is by path, never by basename.
+  - **Regression:** `test_symmetry_registration_2026-10-20.py`, 8 cases. They include CATO's row-only removal, the wrong-owner same basename, a comment mention, and the one-way path both ways.
+- **CM2 (LOW) — fixed.** The SPAWN_SLATE one-way note now says the gate writes it at boot and at closeout.
+- **State:** CM1/CM2 IMPLEMENTED · TESTED. The **two-correction stop has tripped on `prome_gate.py` this session**, so any further correction needs an independent read. CATO's re-review of the changed repair is the next read, on Will's direction.

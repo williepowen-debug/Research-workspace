@@ -1182,29 +1182,54 @@ def check_dashboard_state():
            "PROME/tools/fleet_dashboard.py (rebuild + fix the parser, never the state file)")
 
 
+def symmetry_boot_reads(boot_text):
+    """Mandatory boot reads = backticked paths on a BOOT.md Boot-Sequence line that carries
+    the word `Read` (T2-c v1 contract, DAEDALUS 7/28). Lowercase directory segments allowed
+    (2026-10-20): the old pattern could not see `PROME/state/CALENDAR.md` at all."""
+    seq = boot_text.split("## Boot Sequence", 1)[-1].split("## Conditional Modules")[0]
+    reads = set()
+    for ln in seq.splitlines():
+        if re.search(r"\bRead\b", ln):
+            reads.update(re.findall(r"`((?:PROME/)?(?:[a-z_]+/)*[A-Z][A-Za-z_]+\.(?:md|tsv))`", ln))
+    return reads
+
+
+def symmetry_registered(close_text):
+    """Registered = the path in a symmetry-table row's FIRST cell, or named on the explicit
+    `**Intentionally one-way` line. A prose mention, a comment, or another row's cell does
+    NOT register a surface (CATO CM1, 2026-10-20: the old `name in section` test passed with
+    the CALENDAR row deleted, because the DOCKET row mentioned the file)."""
+    sym = close_text.split("## Boot↔Closeout symmetry", 1)[-1].split("\n## ", 1)[0]
+    reg = set()
+    for ln in sym.splitlines():
+        m = re.match(r"^\|\s*`([^`]+)`\s*\|", ln)
+        if m:
+            reg.add(m.group(1).strip())
+        elif ln.startswith("**Intentionally one-way"):
+            reg.update(x.strip() for x in re.findall(r"`([^`]+)`", ln))
+    return reg
+
+
+def symmetry_missing(boot_text, close_text):
+    reg = symmetry_registered(close_text)
+    # A bare root-relative name (e.g. `HEARTBEAT.md`) matches only itself; a `PROME/` path
+    # matches itself or its PROME-relative spelling. Never a basename match across owners.
+    def registered(s):
+        return s in reg or (s.startswith("PROME/") and s[len("PROME/"):] in reg)
+    return sorted(s for s in symmetry_boot_reads(boot_text) if not registered(s))
+
+
 def check_symmetry():
     """T2-c: a boot-read surface isn't wired until its CLOSEOUT symmetry row
     exists (paired-write or explicitly one-way). BOOT absorbed 4 gates in 48h
     the table never learned about — growth must register at the slow surface."""
     boot = (ROOT / "PROME/BOOT.md").read_text(errors="ignore")
     close = (ROOT / "PROME/CLOSEOUT.md").read_text(errors="ignore")
-    seq = boot.split("## Boot Sequence", 1)[-1].split("## Conditional Modules")[0]
-    # T2-c v1 (DAEDALUS ruling 7/28, shipped 8/9): harvest ONLY lines carrying an
-    # explicit `Read` directive (case-sensitive word). Mention-harvesting registered
-    # pointers and even retirement notices as reads (the TODAY.md phantom class).
-    # Contract: a mandatory boot read carries the word "Read" on its line in BOOT.md.
-    boot_reads = set()
-    for ln in seq.splitlines():
-        if re.search(r"\bRead\b", ln):
-            # 2026-10-20: lowercase directory segments allowed — the old pattern could not see
-            # `PROME/state/CALENDAR.md` / `PROME/state/SPAWN_SLATE.md`, so it passed them unexamined.
-            boot_reads.update(re.findall(r"`((?:PROME/)?(?:[a-z_]+/)*[A-Z][A-Za-z_]+\.(?:md|tsv))`", ln))
-    sym = close.split("## Boot↔Closeout symmetry", 1)[-1].split("\n## ", 1)[0]
-    missing = sorted(s for s in boot_reads
-                     if Path(s).name not in sym and s not in sym)
+    missing = symmetry_missing(boot, close)
+    n = len(symmetry_boot_reads(boot))
     record(ADVISE, "boot↔closeout symmetry", not missing,
            ("boot-reads with no symmetry row: " + ", ".join(missing)) if missing
-           else f"{len(boot_reads)} boot-read surfaces all registered",
+           else f"{n} boot-read surfaces all registered",
            "PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)")
 
 

@@ -62,7 +62,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 
 **Generated blocks are written by their generator, never by hand:** the calendar view `PROME/state/CALENDAR.md`'s `DOCKET-VIEW` (`scripts/docket_view.py --write`; moved out of SCRATCH 2026-10-20, Will) and SCRATCH's and `Pending Will` (`PROME/tools/willq_view.py --write`), the WQ ledger. **Preserve them; stop restating their contents in prose.**
 
-**Intentionally one-way (no write-back):** `PROME/CLOSEOUT.md` + `CLOSEOUT_PROCEDURES.md` (procedure reference) · `PROME/BOOT_MODULES.md` (boot procedure modules, edited only as canon) · `PROME/state/SPAWN_SLATE.md` (written by the boot gate itself, never at closeout) · `FLEET_SCAN.md` (superseded snapshot) · inbox/outbox scans (handled inline, never deferred) · OPEN-prediction resolution (domain-agent-owned).
+**Intentionally one-way (no write-back):** `PROME/CLOSEOUT.md` + `CLOSEOUT_PROCEDURES.md` (procedure reference) · `PROME/BOOT_MODULES.md` (boot procedure modules, edited only as canon) · `PROME/state/SPAWN_SLATE.md` (a gate-generated view, written by `prome_gate.py` at boot and at closeout; no separate manual write-back) · `FLEET_SCAN.md` (superseded snapshot) · inbox/outbox scans (handled inline, never deferred) · OPEN-prediction resolution (domain-agent-owned).
 
 ---
 
