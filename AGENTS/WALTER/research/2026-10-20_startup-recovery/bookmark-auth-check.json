@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-20T14:46:35.336918+00:00",
+  "endpoint": "GET /2/users/me",
+  "bookmark_fetches": 0,
+  "bookmark_marks": 0,
+  "credentials_present": true,
+  "initial_http": 401,
+  "refresh": "succeeded",
+  "final_http": 200,
+  "result": "authenticated"
+}

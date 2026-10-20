@@ -579,11 +579,12 @@ def main(argv=None):
     seen = load_seen()
 
     if args.mark:
-        pending = load_pending()
-        if not pending:
+        if not _pending_path().exists():
             print("\n[--mark] nothing staged. Run without --mark first, route, then --mark.")
             return 0
-        stamp = pending_stamp()
+        # Use one snapshot for validation, review, binding and consumed IDs.
+        raw_stage = workflow.read_json(_pending_path())
+        stamp = raw_stage.get('staged_at') if isinstance(raw_stage, dict) else None
         # read-3 b3/b4/b5/b6: a stage with no timestamp, the legacy list form, staged_at<=0, or a
         # non-numeric stamp is UNVERIFIABLE — refuse rather than fail open. bool excluded (int subclass).
         if (not isinstance(stamp, (int, float)) or isinstance(stamp, bool)
@@ -596,12 +597,16 @@ def main(argv=None):
             print(f"\n[--mark] REFUSING: the stage is {age_h:.0f}h old (from a prior session). "
                   "Run a report run first so you mark what you just routed, not a stale list.")
             return 0
-        staged = workflow.validate_stage(workflow.read_json(_pending_path()))
+        staged = workflow.validate_stage(raw_stage)
+        checkpoint = workflow.proposed_checkpoint(SEEN, staged)
+        pending = staged['ids']
+        if not pending:
+            print("\n[--mark] nothing staged. Run without --mark first, route, then --mark.")
+            return 0
         if staged.get('review_required') and not args.review:
             print('REFUSING: this scan needs a completed --review before marking. No IDs marked.')
             return 1
         review = workflow.load_review(args.review, staged) if args.review else None
-        checkpoint = workflow.proposed_checkpoint(SEEN, staged)
         print(f"\n[--mark] consuming {len(pending)} staged id(s): {', '.join(pending[:10])}"
               f"{' …' if len(pending) > 10 else ''}")
         seen["consumed"] = sorted(set(seen.get("consumed", [])) | set(pending))

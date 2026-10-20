@@ -95,6 +95,105 @@ class Workflow(unittest.TestCase):
         _, output = self.main('--receipt')
         self.assertIn('newer bookmarks were not checked', output)
 
+    def test_damaged_501_stage_cannot_skip_unreviewed_id(self):
+        self.make_items(501)
+        self.main()
+        staged = w.read_json(x._pending_path())
+        staged['ids'].remove('499')
+        w.atomic_json(x._pending_path(), staged)
+        # A fresh, otherwise valid review must not authorize the original cursor.
+        path = self.review()
+        before = {p: p.read_bytes() for p in self.root.glob('*.json')}
+        with self.assertRaisesRegex(SystemExit, 'binding'):
+            self.main('--mark', '--review', str(path))
+        self.assertEqual({p: p.read_bytes() for p in before}, before)
+        self.assertEqual(x.load_seen()['consumed'], [])
+        self.assertFalse(w.path_for(x.SEEN, 'scan_token').exists())
+        # A safe fresh scan recovers the missing ID and then the 501st item.
+        self.main()
+        self.assertIn('499', x.load_pending())
+        self.mark()
+        self.main()
+        self.mark()
+        self.assertEqual(set(x.load_seen()['consumed']), {str(i) for i in range(501)})
+
+    def test_new_stage_missing_binding_fields_refuses_before_writes(self):
+        self.main()
+        original = w.read_json(x._pending_path())
+        path = self.review()
+        for field in ['checkpoint_hash', 'stage_id', 'stage_schema', 'review_required']:
+            with self.subTest(field=field):
+                damaged = dict(original)
+                damaged.pop(field, None)
+                w.atomic_json(x._pending_path(), damaged)
+                with self.assertRaisesRegex(SystemExit, 'binding'):
+                    self.main('--mark', '--review', str(path))
+                self.assertEqual(x.load_seen()['consumed'], [])
+                self.assertFalse(w.path_for(x.SEEN, 'scan_token').exists())
+
+    def test_stage_identity_survives_timestamp_collision(self):
+        with patch('time.time', return_value=__import__('time').time()):
+            self.main()
+            path = self.review()
+            self.main()  # identical IDs AND timestamp, but a different scan
+            with self.assertRaisesRegex(SystemExit, 'does not match'):
+                self.main('--mark', '--review', str(path))
+        self.assertEqual(x.load_seen()['consumed'], [])
+
+    def test_old_unbound_continuation_requires_rescan(self):
+        self.main()
+        staged = w.read_json(x._pending_path())
+        checkpoint = w.proposed_checkpoint(x.SEEN, staged)
+        proposal = w.path_for(x.SEEN, 'next_token')
+        w.atomic_json(proposal, checkpoint)  # October19's unbound format
+        old = {'ids': staged['ids'], 'staged_at': staged['staged_at'],
+               'review_required': True, 'scan': staged['scan'],
+               'checkpoint_hash': __import__('hashlib').sha256(proposal.read_bytes()).hexdigest()}
+        w.atomic_json(x._pending_path(), old)
+        with self.assertRaisesRegex(SystemExit, 'binding'):
+            self.main('--mark')
+        self.assertEqual(x.load_seen()['consumed'], [])
+
+    def test_timestamped_legacy_stage_without_continuation_still_marks(self):
+        x.save_pending(['old'])
+        self.main('--mark')
+        self.assertEqual(x.load_seen()['consumed'], ['old'])
+        self.assertFalse(w.path_for(x.SEEN, 'scan_token').exists())
+
+    def test_empty_damaged_stage_refuses_instead_of_claiming_no_work(self):
+        self.main()
+        staged = w.read_json(x._pending_path())
+        w.atomic_json(x._pending_path(), dict(staged, ids=[]))
+        with self.assertRaisesRegex(SystemExit, 'binding'):
+            self.main('--mark')
+        self.assertEqual(x.load_seen()['consumed'], [])
+
+    def test_proposal_from_another_stage_cannot_be_rebound_by_hash(self):
+        self.main()
+        old_proposal = w.path_for(x.SEEN, 'next_token').read_bytes()
+        self.main()  # same IDs but a different stage identity
+        staged = w.read_json(x._pending_path())
+        proposal = w.path_for(x.SEEN, 'next_token')
+        proposal.write_bytes(old_proposal)
+        staged['checkpoint_hash'] = __import__('hashlib').sha256(old_proposal).hexdigest()
+        w.atomic_json(x._pending_path(), staged)
+        with self.assertRaisesRegex(SystemExit, 'binding'):
+            self.main('--mark', '--review', str(self.review()))
+        self.assertEqual(x.load_seen()['consumed'], [])
+
+    def test_mark_retry_after_cursor_write_and_receipt_failure(self):
+        self.make_items(501)
+        self.main()
+        path = self.review()
+        with patch.object(w, 'mark_receipt', side_effect=OSError('simulated receipt failure')):
+            with self.assertRaises(OSError):
+                self.main('--mark', '--review', str(path))
+        self.assertEqual(len(x.load_seen()['consumed']), 500)
+        self.assertEqual(w.read_json(w.path_for(x.SEEN, 'scan_token'))['next_token'], '500')
+        self.main('--mark', '--review', str(path))
+        self.main()
+        self.assertEqual(x.load_pending(), ['500'])
+
     def test_1001_three_scans_never_exceed_request_budget(self):
         self.make_items(1001)
         for expected in [500, 500, 1]:
@@ -268,7 +367,8 @@ class Workflow(unittest.TestCase):
             self.main()
         self.assertEqual(count, 10)
         self.assertEqual(len(x.load_pending()), 450)
-        self.assertEqual(w.read_json(w.path_for(x.SEEN, 'next_token'))['next_token'], '450')
+        staged = w.read_json(x._pending_path())
+        self.assertEqual(w.proposed_checkpoint(x.SEEN, staged)['next_token'], '450')
         self.mark()
         self.main()
         self.assertEqual(len(x.load_pending()), 51)

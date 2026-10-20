@@ -10,6 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 import os
+import uuid
 
 ROOT = Path(__file__).resolve().parents[3]
 DISPOSITIONS = {'DISPATCH', 'FOLD', 'DUP', 'NOTE', 'KILL', 'NO-ACTION'}
@@ -82,11 +83,15 @@ class ScanBatch(list):
 
 def stage(seen_path, ids, checkpoint=None, scan=None):
     value = {'ids': list(ids), 'staged_at': __import__('time').time(),
+             'stage_schema': 2, 'stage_id': uuid.uuid4().hex,
              'review_required': True, 'scan': scan or {}}
-    if checkpoint is not None:
-        destination = path_for(seen_path, 'next_token')
-        atomic_json(destination, validate_state(checkpoint))
-        value['checkpoint_hash'] = hashlib.sha256(destination.read_bytes()).hexdigest()
+    # Write the binding separately from pending, so a damaged pending file cannot
+    # authorize the original cursor merely by supplying a newly matching review.
+    destination = path_for(seen_path, 'next_token')
+    proposal = {'schema': 2, 'stage': stage_identity(value),
+                'checkpoint': validate_state(checkpoint) if checkpoint is not None else None}
+    atomic_json(destination, proposal)
+    value['checkpoint_hash'] = hashlib.sha256(destination.read_bytes()).hexdigest()
     atomic_json(path_for(seen_path, 'pending'), value)
     receipt = {'kind': 'fetched', 'checked_at': now(), 'items': len(ids),
                'scan': value['scan'], 'review_recorded': False}
@@ -95,6 +100,7 @@ def stage(seen_path, ids, checkpoint=None, scan=None):
 
 
 def proposed_checkpoint(seen_path, staged):
+    staged = validate_stage(staged)
     digest = staged.get('checkpoint_hash')
     if digest is None:
         return None  # historical stages had no continuation
@@ -105,7 +111,18 @@ def proposed_checkpoint(seen_path, staged):
         actual = None
     if not isinstance(digest, str) or actual != digest:
         raise SystemExit('REFUSING: staged continuation is missing/changed. Re-scan; no IDs marked.')
-    return validate_state(read_json(destination))
+    proposal = read_json(destination)
+    if (not isinstance(proposal, dict)
+            or set(proposal) != {'schema', 'stage', 'checkpoint'}
+            or type(proposal.get('schema')) is not int or proposal['schema'] != 2
+            or proposal['stage'] != stage_identity(staged)):
+        raise SystemExit('REFUSING: stage/continuation binding mismatch. Re-scan; no IDs marked.')
+    checkpoint = proposal['checkpoint']
+    return validate_state(checkpoint) if checkpoint is not None else None
+
+
+def stage_identity(staged):
+    return {key: staged[key] for key in ('stage_id', 'staged_at', 'ids')}
 
 
 def commit_checkpoint(seen_path, checkpoint):
@@ -120,6 +137,16 @@ def validate_stage(staged):
     normalized = [str(key) for key in staged['ids']]
     if len(set(normalized)) != len(normalized):
         raise SystemExit('REFUSING: duplicate staged IDs. Re-scan; no IDs marked.')
+    modern = {'stage_schema', 'stage_id', 'checkpoint_hash', 'review_required', 'scan'}
+    if modern & set(staged):
+        if (not modern <= set(staged)
+                or type(staged['stage_schema']) is not int or staged['stage_schema'] != 2
+                or staged['review_required'] is not True
+                or not isinstance(staged['stage_id'], str) or len(staged['stage_id']) != 32
+                or any(c not in '0123456789abcdef' for c in staged['stage_id'])
+                or not isinstance(staged['checkpoint_hash'], str) or len(staged['checkpoint_hash']) != 64
+                or any(c not in '0123456789abcdef' for c in staged['checkpoint_hash'])):
+            raise SystemExit('REFUSING: missing/invalid stage binding. Re-scan; no IDs marked.')
     return dict(staged, ids=normalized)
 
 
@@ -130,6 +157,8 @@ def review_template(seen_path, destination):
     value = {'schema': 1, 'staged_at': staged['staged_at'], 'items': [
         {'id': key, 'disposition': None, 'read_state': None,
          'follow_up': None, 'ask_user': None} for key in staged['ids']]}
+    if 'stage_id' in staged:
+        value.update(schema=2, stage_id=staged['stage_id'])
     # Create-only: never overwrite a completed review, seen file or credential file.
     with Path(destination).open('x', encoding='utf-8') as stream:
         stream.write(json.dumps(value, indent=2) + '\n')
@@ -138,8 +167,14 @@ def review_template(seen_path, destination):
 
 def load_review(destination, staged):
     value = read_json(destination)
-    if (not isinstance(value, dict) or set(value) != {'schema', 'staged_at', 'items'}
-            or value.get('schema') != 1 or value.get('staged_at') != staged['staged_at']
+    keys = {'schema', 'staged_at', 'items'}
+    if 'stage_id' in staged:
+        keys.add('stage_id')
+    if (not isinstance(value, dict) or set(value) != keys
+            or type(value.get('schema')) is not int
+            or value.get('schema') != (2 if 'stage_id' in staged else 1)
+            or value.get('stage_id') != staged.get('stage_id')
+            or value.get('staged_at') != staged['staged_at']
             or not isinstance(value.get('items'), list)):
         raise SystemExit('REFUSING: review does not match this staged scan. No IDs marked.')
     found = set()
