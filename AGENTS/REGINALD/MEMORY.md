@@ -22,7 +22,10 @@
 
 ⚠️ **Open question at close:** did Eagle's troubled loans receive genuine outside cash/recovery or continued bank support? Four existing outcomes remain UNKNOWN; no independent property match. The M&T capacity result covers recognized provisions/reported earnings, not complete economic losses.
 
-### LAST SESSION — 2026-10-20T15:29:37-04:00, closed at Will's request
+### LAST SESSION — 2026-10-20T17:41:09-04:00, organizational review
+Read shared/desk instructions and reviewed responsibility, file ownership, runtime, intake and monitoring. Result→`reports/2026-10-20_organizational-review.md`; no organizational changes implemented. Current structure is peer-based; reconcile old CREED/sub-agent, Claude-only and routing/push language before relying on it. Full boot7 OK/1 filing ALERT including newly posted OZK Q3 (not substantively read/graded here); dark-pool NO DATA, SI9/29. SIG-W-20261020-028 INFO_ONLY; HOMER owns analysis. Pull withheld for dirty peer paths. Prior research/next steps below remain; no new monitor or trade.
+
+### PRIOR RESEARCH SESSION — 2026-10-20T15:29:37-04:00, closed at Will's request
 Completed reported-bank earnings catch-up, M&T capacity/recognition qualification, EGBN cash-outcome investigation, and physical EGBN consolidation. Reports/locators → `research/EGBN/README.md` and `reports/2026-10-20_session-closeout.md`. EGBN inventory:140 copied/extracted evidence files; hashes verified. KB240–246 and existing workout rows updated in prior commits. No new trade, score, threshold or probability; frozen REG-01/06 unchanged. Concurrent key-file audit committed5665c47bc; additional owed work is in that report. VX extract refreshed for its FLG context row; EGBN-specific rows unchanged and prior copy archived. Older handoff preserved verbatim → `archive/MEMORY_session-closeout_rotation_2026-10-20.md`, crc32 `3fce9e4a`; re-check at any append.
 
 ### CHANGES SINCE LAST SESSION

@@ -88,3 +88,5 @@ Will-directed reported-bank earnings catch-up → `reports/2026-10-20_reported-b
 **EGBN navigation,10/20 Will-directed:** `research/EGBN/README.md` now contains copied reports/sources, EGBN data extracts and a hash manifest. Originals retained; archived copies stay historical. No new investigation or monitor.
 
 **Session closed10/20 at Will’s request:** closeout receipt → `reports/2026-10-20_session-closeout.md`. Next-session handoff rewritten in MEMORY; no new task/monitor or approval. EGBN snapshot verification passed; original research/data unchanged by consolidation.
+
+**10/20 organizational review completed, direct Will:** `reports/2026-10-20_organizational-review.md`. Ownership/session/file map and instruction/state-drift assessment; cleanup recommendations are proposals, no migration or new program. Existing research obligations unchanged.
