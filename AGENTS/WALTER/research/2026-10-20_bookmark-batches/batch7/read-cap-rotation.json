@@ -1,0 +1,9 @@
+{
+  "before_bytes": 25552,
+  "after_bytes": 22613,
+  "bytes": 2939,
+  "sha256": "b6a9ce24d4ec729373795e080f22daa27b490b76f9ba8309b9af7261b2dec5ad",
+  "crc32": "d452b3db",
+  "entries": 15,
+  "rule": "oldest contiguous historical receipt entries VERBATIM to SESSION_LOG; current partial-review hash and duties retained"
+}

@@ -1,0 +1,26 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261020-020.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-018.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-019.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261020-022.md
+     [not yours]    AGENTS/CRUISE/inbox/WALTER/SIG-W-20261020-018.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-018.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-019.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-021.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-022.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-020.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-021.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-022.md
+     [not yours]    AGENTS/MIDAS/inbox/WALTER/SIG-W-20261020-020.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261020-021.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-022.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261020-020.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261020-018-september-usgc-jet-brent-monthly-spot-margin-basis.md
+     [not yours]    BOARD/SIG-W-20261020-019-doe-oct16-spr-inventory-conflicting-primary-totals.md
+     [not yours]    BOARD/SIG-W-20261020-020-gold-net-export-value-jan-aug-treasury-demand-basis.md
+     [not yours]    BOARD/SIG-W-20261020-021-indonesia-msci-standalone-consultation-primary-clock.md
+     [not yours]    BOARD/SIG-W-20261020-022-farr-ai-cds-chart-source-only-partial-article.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

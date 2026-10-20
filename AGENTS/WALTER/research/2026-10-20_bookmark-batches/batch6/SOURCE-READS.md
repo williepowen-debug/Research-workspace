@@ -1,0 +1,8 @@
+# Batch6 source scope and follow-up
+
+Six complete offered posts read; four direct attachments plus the Hedgeye-linked original unique chart read. Source metadata in SOURCE-CARDS; observations in parent-source-reads.md and verify-energy.md. Outcomes: EuropeknownsovereignmoveDUP1019-014; jetmonthlybasisDISPATCH018; SPRprimarydateDISPATCH019/PARTLY_READ; WTI/Brent technicalpredictionsNO-ACTION/Relevance; nearbyWTIpremiumDUPownerOct20REPORT. OriginalheadlinewasnotusedaloneforSPRdisposition.
+
+## spr-article
+Offered Reuters October19 article https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-lowest-level-since-1982-2026-10-19/ remains PARTLY_READ. Direct401; exactMarketScreenerrelay membergated; publicreprintsbotgated/excerpts only. DOEinventoryimage andQuickFacts independentlyread andconflict282.7vs282.2MOctober16; EIA282.983MOctober9 differsinvintage. Do not use primaryverification to certify unseenReutersbody. Concrete follow-up: obtain completebody through existingauthorizedaccess/suppliedtext or an accessible exactdatedrelay before assessing additionalarticleclaims; then update this bookmark's read_state/evidence. No new paid subscription or credential request, and no automatic retry job. Optional BrightData CLI absent here, as recorded in parent-source-reads.
+
+DUPscopepreservesunverifiedancillaryquote/timezone/contractclaims; TA/opinion NO-ACTION is not FALSE. The jetmonthlyrecord is not globalIATA/futures, real-timeprofit, airfare, bunkerprice or #6/#8grade. +211.2% unresolved; primarymonthlySeptember arithmetic255.15% retained on its own date/basis. AllthreeRule9helpers for this two-batch pass CLOSED; no desklaunch or backgroundwork.

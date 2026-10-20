@@ -214,85 +214,85 @@
     },
     {
       "id": "2112197963661627748",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112219351235661968",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112368231071567981",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch6/SOURCE-READS.md#spr-article",
       "ask_user": null
     },
     {
       "id": "2112359988815622537",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112231261112787232",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112245226140242236",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112236334505164965",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112153287705214999",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112209804890636390",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112213913999921635",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112365186933785012",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch7/SOURCE-READS.md#farr-article",
       "ask_user": null
     },
     {
       "id": "2112287830059982867",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },

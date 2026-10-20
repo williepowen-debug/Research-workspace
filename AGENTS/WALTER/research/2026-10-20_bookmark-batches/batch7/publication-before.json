@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-20T18:47:38Z",
+  "origin": "eff812d706963683a64aa3b516831ae770deafd3",
+  "fresh_fetch": true,
+  "commits": {
+    "729c79018": "published"
+  },
+  "delivery_reconciliation": {
+    "flipped_prior_batch5": 12,
+    "current_pending": 16,
+    "today_delivered": 54,
+    "today_total": 70,
+    "pending_paths": "16 current source-authored existing handoffs not on origin; not lost files"
+  },
+  "consumption": "not inferred from publication"
+}

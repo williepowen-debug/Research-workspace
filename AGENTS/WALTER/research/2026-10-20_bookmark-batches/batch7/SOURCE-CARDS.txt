@@ -1,0 +1,19 @@
+Source metadata only. Full supplied post text read from /tmp/walter-bookmark-live-scan-1.txt; own observations in parent-source-reads/verification artifacts.
+  37. 2112236334505164965  @caseyjdonaldson  2026-10-19T17:36:00.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HU9VnoIWAAAD7Bv.jpg
+
+  38. 2112153287705214999  @caseyjdonaldson  2026-10-19T12:06:00.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HU9Nm1_W4AA9SwD.png
+
+  39. 2112209804890636390  @DarioCpx  2026-10-19T15:50:35.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HVATnyRbsAAVHBQ.jpg
+
+  40. 2112213913999921635  @Analyst_G  2026-10-19T16:06:54.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HVAXOdEWUAAmRNZ.jpg
+
+  41. 2112365186933785012  @farrmacro  2026-10-20T02:08:01.000Z  [DIG: link]
+     🔗 https://farrmageddon.substack.com/p/show-me-the-cache?r=m4mmz&utm_campaign=post-expanded-share&utm_medium=post%20viewer
+
+  42. 2112287830059982867  @great_martis  2026-10-19T21:00:37.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HVBaKoMbgAAujJ3.jpg
+

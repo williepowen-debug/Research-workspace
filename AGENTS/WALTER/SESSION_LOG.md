@@ -1,3 +1,72 @@
+## 2026-10-20T18:47:38Z — LIGHT bookmark batches6–7; full closeout deferred
+
+12posts/twoCLOSED6contentmanifests:5DISPATCH/3DUP/4NO-ACTION; signals018–022/16handoffs.42cumulative/54untriaged,35full/7partial,0productionmarks; exact94stage/seen870/cursorhashes unchanged. Jetmonthlymargin/SPRdatedconflict/goldnetvalue/MSCIprimaryclock/Farrsourcechart qualified. Sourcegaps preserved; bdata executable unavailable. ThreeRule9helpers explicitly CLOSED; no domainlaunch, grade/trade or backgroundjob. Priorbatch5 noworigin-proven/12rowsreconciled; currentpublicationpending, consumptionseparate. MIDAS/BOND header mirrors refreshed. Generalboot/READS/financing/SAM/fullnarrative debt retained; >=3full-deferred breadcrumbs remain surfaced, not cleared. Currentduties solelyLAST_COMPLETION.
+
+READ-CAP rotation at75%budget trigger: oldest15historicalevidenceentries moved VERBATIM below; currentreviewhash/dutiesretained, proof batch7/read-cap-rotation.json.
+
+```json
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/RESULT.md",
+        "sha256": "93760fcb3f52ba2df838e59cdf8ce3a4e3c1b97f2650ef8a2ffbafda6fa8a811"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/SOURCE-READS.md",
+        "sha256": "8fde0ddb85d25a52d2fb5395f64aa490484839eea516f6c8eeb048923f9a26ff"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/verify-illinois.md",
+        "sha256": "c76e728df0e1520ec2ccebcc58e77279cf8ee09a11470df263c919e3484a2813"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/verify-insiders.md",
+        "sha256": "568a44e22be1e355b39eb831bdb80aeddd46f411eafcadebf0ab4854f23e3dcc"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/verify-lambda.md",
+        "sha256": "93adc92ca44d9828d75a97607159411b4747a2cbafe3b2dac771e06a9859448c"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/publication-before.json",
+        "sha256": "6a0e622376a07a803d640fd2039013e2083a2533248fc9824468460d012ed269"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/RESULT.md",
+        "sha256": "72f75ebf2842b9b1c04a10acc2e4dd56973556fa86414345829cc7ae5c77ee33"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/SOURCE-READS.md",
+        "sha256": "39d755529fa98dd8def570cf4d61af21b425ae83843f483e7f36766355f28a5a"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/verify-amazon.md",
+        "sha256": "804f94358c0997d43eb67fd8a91aa645de7e3c2a16d384525b28861d94eab071"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/verify-volkswagen.md",
+        "sha256": "479424c81b001c6d9265da0cdd409d1f09a0a6a64af45d0b8c3f3ab27f6a69c0"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/verify-housing.md",
+        "sha256": "497bf834f943f5af64a5d13d2d8879fcb4b2279688e04b8c409e961ab59ecac1"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/publication-before.json",
+        "sha256": "fa63ff1ae1f59f655c793796111e08c85dbe88790242cae9768031e10c6912dc"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/publication.json",
+        "sha256": "3627f476ed79787a93973579c7e9fb21178fe78b9a4b3adc3797326bcfe071b7"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/RESULT.md",
+        "sha256": "366eebfc94a82cec5a6ce8ad59f95448bb76564d109cd8ec2e3c2a8cb6154324"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch5/SOURCE-READS.md",
+        "sha256": "96096c97f7c6c005e2f9631ce76e57e9cd569e5491e8430e60c8faad35aa419a"
+      },
+```
+
 ## Batch5 rotation continuation
 
 Current partial-review hash retained in LAST_COMPLETION; archived hash copy is historical evidence. Additional oldest entries below VERBATIM to finish below70%budget.

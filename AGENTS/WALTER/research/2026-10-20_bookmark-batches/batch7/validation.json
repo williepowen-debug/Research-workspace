@@ -1,0 +1,23 @@
+{
+  "reviewed": 42,
+  "untriaged": 54,
+  "exact_stage": 94,
+  "review_null": 52,
+  "read_counts": {
+    "fully_read": 35,
+    "partly_read": 7
+  },
+  "binding_and_production_hashes": "PASS, stage_id/staged_at/orderedIDs match; seen870/cursor/stage unchanged",
+  "production_API_detail_mark_calls": 0,
+  "manifests": "BM-20261020-06 and07 CLOSED6/6",
+  "dispositions": {
+    "DISPATCH": 5,
+    "DUP": 3,
+    "NO-ACTION": 4
+  },
+  "source_read_limits": "SPR original and Farr fullbody PARTLY_READ with concrete SOURCE-READS followups; bdata CLI unavailable",
+  "helpers": "three explicit CLOSED receipts; no domain launch/unattended work",
+  "checks": "all selected standard checks PASS, orphans advisory; receipt54/70; doctor0HIGH/8MED contextual, not general boot clearance",
+  "rotation": "oldest historical entries VERBATIM conserved in SESSION_LOG; current duties and partial-review hash retained; LAST22613bytes below70percentbudget",
+  "publication": "priorbatch5 on origin; current16handoffs pending coordinated publication; consumption separate"
+}

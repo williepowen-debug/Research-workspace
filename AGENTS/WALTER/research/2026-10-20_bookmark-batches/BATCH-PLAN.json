@@ -133,7 +133,18 @@
         "2112231261112787232",
         "2112245226140242236"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261020-06",
+      "content_items": 6,
+      "dispositions": {
+        "DISPATCH": 2,
+        "NO-ACTION": 2,
+        "DUP": 2
+      },
+      "read_counts": {
+        "fully_read": 5,
+        "partly_read": 1
+      }
     },
     {
       "batch": 7,
@@ -145,7 +156,18 @@
         "2112365186933785012",
         "2112287830059982867"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261020-07",
+      "content_items": 6,
+      "dispositions": {
+        "DISPATCH": 3,
+        "NO-ACTION": 2,
+        "DUP": 1
+      },
+      "read_counts": {
+        "fully_read": 5,
+        "partly_read": 1
+      }
     },
     {
       "batch": 8,
@@ -256,5 +278,5 @@
       "state": "UNREVIEWED"
     }
   ],
-  "remaining_not_triaged": 66
+  "remaining_not_triaged": 54
 }

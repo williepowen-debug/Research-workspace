@@ -1,0 +1,18 @@
+Source metadata only. Full supplied post text read from /tmp/walter-bookmark-live-scan-1.txt; own observations in parent-source-reads/verification artifacts.
+  31. 2112197963661627748  @great_martis  2026-10-19T15:03:31.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HVAI2dvaUAA52IB.jpg
+
+  32. 2112219351235661968  @Hedgeye  2026-10-19T16:28:31.000Z
+
+  33. 2112368231071567981  @Reuters  2026-10-20T02:20:06.000Z  [DIG: link, pointer]
+     🔗 https://reut.rs/3TNTodf
+
+  34. 2112359988815622537  @DarioCpx  2026-10-20T01:47:21.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HVCcL2Ha4AAqoTi.png
+
+  35. 2112231261112787232  @PeterLBrandt  2026-10-19T17:15:50.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HVAm5Yba0AALiUS.png
+
+  36. 2112245226140242236  @Rory_Johnston  2026-10-19T18:11:20.000Z  [DIG: media]
+     🖼  photo: https://pbs.twimg.com/media/HVAzfB4WMAAtRJt.png
+
