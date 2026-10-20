@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-10-20T19:22:56Z",
+  "origin": "b613efeef280b8c220350722c06d88b5ae182d64",
+  "fresh_fetch": true,
+  "commit": "5370995f5",
+  "state": "published",
+  "delivery_reconciled": 16,
+  "delivery_today": {
+    "delivered": 70,
+    "total": 70
+  },
+  "consumption": "separate, not inferred",
+  "checkpoint_publication": "pending shared push-train; foreign AGENTS/DAEDALUS/runs/GATE_LOG.tsv modified, untouched"
+}
