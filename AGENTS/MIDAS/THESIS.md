@@ -6,14 +6,16 @@ Metals carry two macro tells: monetary demand/rates through gold and silver, ind
 
 ## M1 — gold, real rates and structural buying
 
+October20 follow-up: issuer holdings1058.47t October19,+2.77t fromSept30 withGLD-0.30%; buying does not establish a floor. October9→16 realyield-17bp/USD-0.16% yetGLD-0.67%. One-monthneutral/slightlynegative; three-monthmodestlypositive withLOWconfidence and explicitcontinued-buying/no-renewed-rate-surge assumptions. `analysis/2026-10-20_GLD-OUTLOOK.md` ownsjudgment/sourcechecks. MIDAS11/12 areseparatesigncalls, notactivationofmissedOctober19M1draft.
+
 | Stage | Current evidence | Limit / test |
 |---|---|---|
-| Real-rate opportunity cost | Saved rolling120 GLD/DFII10 beta−0.1632% return/bp through10/8, R²0.165, n120; existing−0.08 diagnostic flip not met | One-factor association, not a causal or net-book hedge ratio; same-ending-date changes can span different starts |
+| Real-rate opportunity cost | Current rolling120 GLD/DFII10 beta−0.1526% return/bp through10/16, R²0.154,n120; prior−0.1632through10/8 reproduced; existing−0.08 flip not met | One-factor association, not a causal or net-book hedge ratio; same-ending-date changes can span different starts |
 | Structural demand | PRIMARY WGC July30 Q2 table: Central Banks and Other Institutions288.9t; September global ETFs+67t/+US$10bn, holdings4256t | Monthly reported August39t is incomplete and a different object; Q1's old244t estimate was revised to57t |
 | Cyclical/speculative demand | CFTC gold10/6 net/OI53.1003%, third weekly decrease but p97.12 on the frozen reference | Net contracts and OI also travel; ratios can damp flow when both decline. Composition shares remain unquantified |
 | Live stress pattern | Named GCZ26 diagnostic and no-roll GLD are compared on dated endpoints; three-Friday-interval GLD shape is binding for the standing weekly rail | Print source/basis sensitivity and the three joint-up signs. Weekly-continuous is the declined alternative, never a hidden condition |
 
-The mirrored17 GLD shares, received10/11 with capture time UNKNOWN, remain relevant to fiscal diversification. The old local association estimate−US$106.71 per+10bp uses the10/9 mark and the10/8 beta; it is illustrative, not a new measurement or TERRY's net coverage. TERRY owns the mirrored TLT82P October16 expiry and October14 management clock, plus TBT10shares. Off-repo Will/broker evidence is position truth.
+The following is a historical October11 holdings illustration, not current position truth: mirrored17 GLD shares, capture time UNKNOWN. The old local association estimate−US$106.71 per+10bp uses the10/9 mark and the10/8 beta; it is illustrative, not a new measurement or TERRY's net coverage. TERRY owns the mirrored TLT82P October16 expiry and October14 management clock, plus TBT10shares. Off-repo Will/broker evidence is position truth.
 
 **Standing rules retained:** legacy gold shelf US$3317 from7/10/2025, without a major real-yield spike (legacy DFII10<2.6); quarterly central-bank floor100t, with the existing Q2 test above its boundary; gold rising through rising real yields over three weekly intervals; bidirectional gold<US$4050 with DFII10≥2.40→2. No near-boundary futures grade is certified from a vendor bar alone: verify settlement/contract basis. Existing default grading/revision rules remain in force; this maintenance does not reopen a graded quarter or frozen row.
 

@@ -1,0 +1,233 @@
+{
+  "fit": {
+    "20": {
+      "n": 20,
+      "first": "2026-09-18",
+      "last": "2026-10-16",
+      "intercept_pct": -0.10772134327086846,
+      "beta_pct_per_bp": -0.09436640765517927,
+      "se_ordinary": 0.0532231580077086,
+      "t_ordinary": -1.7730328523818837,
+      "r2": 0.14868039176479042,
+      "mismatched_start_dates": 1
+    },
+    "60": {
+      "n": 60,
+      "first": "2026-07-23",
+      "last": "2026-10-16",
+      "intercept_pct": 0.1063832680807103,
+      "beta_pct_per_bp": -0.12291550943456972,
+      "se_ordinary": 0.04378271076579417,
+      "t_ordinary": -2.8073983379439156,
+      "r2": 0.11963126478860042,
+      "mismatched_start_dates": 1
+    },
+    "120": {
+      "n": 120,
+      "first": "2026-04-27",
+      "last": "2026-10-16",
+      "intercept_pct": 0.02011280328124701,
+      "beta_pct_per_bp": -0.1525655759073776,
+      "se_ordinary": 0.032892001528859335,
+      "t_ordinary": -4.6383792051546955,
+      "r2": 0.15421015122894388,
+      "mismatched_start_dates": 1
+    }
+  },
+  "reproduce_Oct8": {
+    "n": 120,
+    "first": "2026-04-20",
+    "last": "2026-10-08",
+    "intercept_pct": 0.007399234463333321,
+    "beta_pct_per_bp": -0.16322189032693135,
+    "se_ordinary": 0.0337768808389678,
+    "t_ordinary": -4.832355335150577,
+    "r2": 0.1652025763368824,
+    "mismatched_start_dates": 0
+  },
+  "same_start_in_current120": {
+    "n": 119,
+    "first": "2026-04-27",
+    "last": "2026-10-16",
+    "intercept_pct": 0.026096828377176196,
+    "beta_pct_per_bp": -0.15380068312801226,
+    "se_ordinary": 0.033131286122137185,
+    "t_ordinary": -4.64215854950611,
+    "r2": 0.15553729783127457,
+    "mismatched_start_dates": 0
+  },
+  "common_windows": [
+    {
+      "gld_sessions": 5,
+      "start": "2026-10-09",
+      "end": "2026-10-16",
+      "gld_start": 384.5799865722656,
+      "gld_end": 382.010009765625,
+      "gld_pct": -0.6682554725602419,
+      "dfii10_start": 2.91,
+      "dfii10_end": 2.74,
+      "dy_bp": -17.0,
+      "broad_usd_start": 121.6023,
+      "broad_usd_end": 121.4048,
+      "broad_usd_pct": -0.16241469116949903,
+      "dxy_start": 102.20999908447266,
+      "dxy_end": 101.83999633789062,
+      "dxy_pct": -0.36200249476202595
+    },
+    {
+      "gld_sessions": 20,
+      "start": "2026-09-18",
+      "end": "2026-10-16",
+      "gld_start": 401.1700134277344,
+      "gld_end": 382.010009765625,
+      "gld_pct": -4.776030864919267,
+      "dfii10_start": 2.68,
+      "dfii10_end": 2.74,
+      "dy_bp": 6.0,
+      "broad_usd_start": 119.5133,
+      "broad_usd_end": 121.4048,
+      "broad_usd_pct": 1.5826690418555778,
+      "dxy_start": 100.22000122070312,
+      "dxy_end": 101.83999633789062,
+      "dxy_pct": 1.6164389318056083
+    },
+    {
+      "gld_sessions": 60,
+      "start": "2026-07-23",
+      "end": "2026-10-16",
+      "gld_start": 371.5199890136719,
+      "gld_end": 382.010009765625,
+      "gld_pct": 2.823541414232511,
+      "dfii10_start": 2.43,
+      "dfii10_end": 2.74,
+      "dy_bp": 31.0,
+      "broad_usd_start": 120.9075,
+      "broad_usd_end": 121.4048,
+      "broad_usd_pct": 0.41130616380289364,
+      "dxy_start": 101.43000030517578,
+      "dxy_end": 101.83999633789062,
+      "dxy_pct": 0.40421574630906676
+    }
+  ],
+  "issuer_points": [
+    {
+      "date": "2026-08-31",
+      "close": 408.42,
+      "tonnes": 1042.36,
+      "ounces": 33512833.02,
+      "ounces_per_share": 0.09171089,
+      "nav_usd": 152861201667.25
+    },
+    {
+      "date": "2026-09-30",
+      "close": 380.84,
+      "tonnes": 1055.7,
+      "ounces": 33941669.27,
+      "ounces_per_share": 0.09167828,
+      "nav_usd": 141702408295.58
+    },
+    {
+      "date": "2026-10-09",
+      "close": 384.58,
+      "tonnes": 1053.13,
+      "ounces": 33859170.91,
+      "ounces_per_share": 0.09166937,
+      "nav_usd": 141682530606.86
+    },
+    {
+      "date": "2026-10-16",
+      "close": 382.01,
+      "tonnes": 1059.04,
+      "ounces": 34049273.53,
+      "ounces_per_share": 0.09166227,
+      "nav_usd": 142614466710.27
+    },
+    {
+      "date": "2026-10-19",
+      "close": 379.69,
+      "tonnes": 1058.47,
+      "ounces": 34030941.72,
+      "ounces_per_share": 0.09165907,
+      "nav_usd": 141124116892.55
+    }
+  ],
+  "issuer_changes_to_latest": [
+    {
+      "from": "2026-08-31",
+      "through": "2026-10-19",
+      "tonnes_change": 16.110000000000127,
+      "close_pct": -7.034425346457085,
+      "nav_pct": -7.678262794407065,
+      "metal_per_share_pct": -0.05650364967563215
+    },
+    {
+      "from": "2026-09-30",
+      "through": "2026-10-19",
+      "tonnes_change": 2.769999999999982,
+      "close_pct": -0.3019640794034162,
+      "nav_pct": -0.4081027344459254,
+      "metal_per_share_pct": -0.020953708991933162
+    },
+    {
+      "from": "2026-10-09",
+      "through": "2026-10-19",
+      "tonnes_change": 5.339999999999918,
+      "close_pct": -1.271516979562115,
+      "nav_pct": -0.3941302515689027,
+      "metal_per_share_pct": -0.011236032275563357
+    },
+    {
+      "from": "2026-10-16",
+      "through": "2026-10-19",
+      "tonnes_change": -0.5699999999999363,
+      "close_pct": -0.6073139446611364,
+      "nav_pct": -1.0450200825332434,
+      "metal_per_share_pct": -0.0034910765356443996
+    }
+  ],
+  "issuer_ounce_tonne_max_error_t": 0.013248403188981683,
+  "issuer_ounce_tonne_initial_0_011t_tolerance_pass": false,
+  "issuer_unit_caveat": "Issuer ounces converted at exact troy factor exceed published tonnes by up to0.01325t; initial identity tolerance FAILED, not certified. Preserve both, use reported tonne changes with ounce-derived delta crosscheck; no rounding cause assumed.",
+  "issuer_vendor_recent_max_price_error_usd": 1.464843751364242e-05,
+  "illustrative_shocks_not_forecasts": [
+    {
+      "yield_shock_bp": -25,
+      "associated_gld_pct": 3.81413939768444,
+      "illustrative_gld_price": 394.17190587906805
+    },
+    {
+      "yield_shock_bp": -10,
+      "associated_gld_pct": 1.525655759073776,
+      "illustrative_gld_price": 385.48276235162723
+    },
+    {
+      "yield_shock_bp": 10,
+      "associated_gld_pct": -1.525655759073776,
+      "illustrative_gld_price": 373.89723764837277
+    },
+    {
+      "yield_shock_bp": 25,
+      "associated_gld_pct": -3.81413939768444,
+      "illustrative_gld_price": 365.20809412093195
+    }
+  ],
+  "trend_context_not_new_bands": {
+    "close_date": "2026-10-19",
+    "close": 379.6900024414063,
+    "ma20": 383.3855010986328,
+    "ma50": 396.8084002685547,
+    "ma200": 414.895350189209,
+    "daily_sigma120_pct": 1.528019548376256,
+    "observed_recent20_low_close": 375.8800048828125,
+    "observed_recent20_high_close": 400.0700073242188
+  },
+  "asof_common": "2026-10-16",
+  "input_hashes": {
+    "METHOD.md": "f69dabc143c2b13fa3473ec7a98ebc560569857993a6f3583f0b0226c7caea97",
+    "GLD.csv": "ee293d8ea31275c77618971fb99677189114db1bb09a9c3fb5d13a2e9f3ca9b3",
+    "DXY.csv": "157bd753075edcc6c6213f3ed64378a238a6c426dffc24af3694b52dbf57435d",
+    "DFII10.json": "ded317b493e5f3159575ef4a7185b0aa6a31a0c3cf0a4a96324e29b4ff91a7a7",
+    "DTWEXBGS.json": "030fb317f88705c7ff2bda50a9a9327a718b9db74941860c7f11eb752f6888b6",
+    "spdr_archive.xlsx": "d2e35ce7b39fb0415f7a18d352ba119e973b7fc539adb5ec5bdd68650c16ee8e"
+  }
+}

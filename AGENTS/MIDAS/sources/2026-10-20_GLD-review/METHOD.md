@@ -1,0 +1,11 @@
+# GLD follow-up method fixed before fresh calculation
+
+Will authorized the existing GLD follow-up October20: refresh real-yield sensitivity, actual ETF metal flows, and competing rate/dollar pressures; deliver one-month and three-month directional judgments with contrary evidence. This is not activation/reanchoring of the missed October19 M1-successor draft or WQ451's separate mechanism instrument.
+
+Descriptive calculations: raw unadjusted Yahoo GLD daily Close, completed sessions throughOctober19; FRED DFII10 latest-revised observations. Percentage GLD close-to-close returns and100 times yield percentage-point changes paired on common ending dates, preserving existing 20/60/120-pair OLS-with-intercept method and units percent GLD return per basis point. Report beta, ordinary standard error, t and R-squared; no causal claim. Explicitly count change-start mismatches and compare a same-start sensitivity check rather than silently changing the standing method. Reproduce October8's saved120-pair beta before interpreting current changes. No optimized window or new multivariate decomposition.
+
+Compare fixed 5/20/60-session GLD price changes and date-matched yield changes. Broad dollar DTWEXBGS (FRED MIRROR) and DXY vendor index, if obtainable, remain separately named; no substitution or double counting. IncompleteOctober20 bars are excluded from regressions and close comparisons.
+
+ETF evidence: issuer GLD historical archive reported tonnes, ounces and shares. Compare September30, October9, October16 and latest completed issuer observation, with actual source dates. Tonnage changes reflect net bullion holdings, not gross purchases; shares and metal-per-share distinguish creations/redemptions from fees. Do not infer flow from AUM/NAV division. WGC weekly regional/fund holdings and physical changes provide context, not a substitute for inaccessible issuer data.
+
+Illustrative rate shocks +/-10 and +/-25 basis points use the current120-pair association only, labelled local sensitivity, not a price target or an assumption about future yields. Qualitative one-month/three-month judgments follow evidence rather than optimized historical analogues; no calibrated probability is claimed. Existing scoring rules and frozen MIDAS09/10 are preserved.

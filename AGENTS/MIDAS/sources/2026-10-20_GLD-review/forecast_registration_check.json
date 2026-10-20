@@ -1,0 +1,12 @@
+{
+  "made_at": "2026-10-20T16:41:26.746652+00:00",
+  "new_ids": [
+    "MIDAS-11",
+    "MIDAS-12"
+  ],
+  "existing_rows_unchanged": true,
+  "existing_prediction_rows": 10,
+  "preappend_sha256": "63ca9c26436075dec60c51d16e7d9098a3dca95567e740444b48177b8bf4e235",
+  "probabilities": "UNASSIGNED; qualitative sign judgments",
+  "future_price_reference": "379.69USD/share issuerOctober19close; not intraday purchaseprice"
+}

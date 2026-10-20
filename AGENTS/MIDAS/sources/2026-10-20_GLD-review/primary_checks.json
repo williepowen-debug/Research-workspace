@@ -1,0 +1,23 @@
+[
+  {
+    "key": "fed_h15",
+    "url": "https://www.federalreserve.gov/releases/h15/",
+    "status": 200,
+    "at": "2026-10-20T16:37:43.202697+00:00",
+    "sha256": "b344210b0c6163877aeb6a247f4fa3d15a837e8d7c6d4a6608bb2f44f4a5c706"
+  },
+  {
+    "key": "fed_h10",
+    "url": "https://www.federalreserve.gov/releases/h10/current/",
+    "status": 200,
+    "at": "2026-10-20T16:37:43.427381+00:00",
+    "sha256": "fb996bc660756afe7be57e9300f2df10923dfe92f30e5eb5b47ef6bcf0b37d37"
+  },
+  {
+    "key": "fomc_calendar",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "status": 200,
+    "at": "2026-10-20T16:37:43.596815+00:00",
+    "sha256": "32cfa23b0f4939f7ab83720e948744441d97df87b4aa59ab220a8068dca6f9e8"
+  }
+]

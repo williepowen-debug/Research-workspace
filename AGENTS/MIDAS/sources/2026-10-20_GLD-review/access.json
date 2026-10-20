@@ -1,0 +1,38 @@
+[
+  {
+    "key": "spdr_archive",
+    "url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+    "status": 200,
+    "bytes": 542026,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "d2e35ce7b39fb0415f7a18d352ba119e973b7fc539adb5ec5bdd68650c16ee8e",
+    "retrieved_at": "2026-10-20T16:35:05.371268+00:00"
+  },
+  {
+    "key": "wgc_monthly",
+    "url": "https://www.gold.org/download/file/21216/ETF_Flows_2026-10-02_1401.xlsx",
+    "status": 403,
+    "bytes": 54822,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "22ece08720fb6573195ac772c9d8f463412d2ccb6c0205a29add6196bf8859c8",
+    "retrieved_at": "2026-10-20T16:35:05.516100+00:00"
+  },
+  {
+    "key": "fred_dfii10",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&cosd=2024-01-01&id=DFII10",
+    "status": 200,
+    "bytes": 77626,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "2104f31e482308aae48fee9c672eb3abea0921df4d469e29836abeb9e0de8cef",
+    "retrieved_at": "2026-10-20T16:35:07.311204+00:00"
+  },
+  {
+    "key": "treasury_real",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+    "status": 404,
+    "bytes": 96407,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "e7dde4dff174133a905cd5363b5dc61765f3b5513dc2cf0a2acd13ccf4b9320a",
+    "retrieved_at": "2026-10-20T16:35:05.626443+00:00"
+  }
+]

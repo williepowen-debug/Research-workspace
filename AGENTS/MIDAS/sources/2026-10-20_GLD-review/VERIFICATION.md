@@ -1,0 +1,10 @@
+# Verification and limits of this review
+
+- Fixed method written before fresh calculations. Saved October8 rolling120 beta reproduced to full precision; independent numpy least-squares calculation agrees with refreshed beta within1e-12.
+- Issuer and fresh vendor raw closing prices agree over the recent interval to about0.000015USD/share. An earlier intraday fast quote is not a conflicting October19 close.
+- Exact ounces-to-tonnes identity FAILED the initial0.011t tolerance; maximum discrepancy0.01325t retained, not relabelled a PASS. Reported and exact-ounce-derived NET changes agree in direction and to under0.007t on selected intervals.
+- Federal Reserve H15/H10 primary HTML verifies latest real-rate and broad-dollar observations. Treasury endpoint404 and WGCmonthlyworkbook403 retained; no unavailable source inferred quiet. WGCweeklytable visually read frompage13 with partial-coverage and issuer-disagreement caveats retained.
+- Consumer check performed cross-desk and SELF. Cross-desk match is a datedOctober15report explicitly citing the October8value. SELF matches are the October12report, BEFORE_MAINTENANCE preserved historical artifacts, and a currentTHESISrow carrying the olddatedvalue BESIDE the refreshedone. These are historical comparisons, not live stale claims; no history overwritten and no packet sent on a falsepositive.
+- All existing prediction rows preserved exactly. MIDAS11/12 are separately registered unpriced sign calls; probabilities UNASSIGNED, ASSUMPTION confidence, no calibrated edge. Fixed anchor/endpoints/source vintage and nonresolution specified. No activation or reanchor of the missedOctober19conditionalbeta draft.
+- Prediction/KB field counts and unique IDs, future dates, weekday claims, desk read budgets and git whitespace checked. Only scoped existing checks run; no codefeature or new monitor installed.
+- matplotlib unavailable for optional plotting; tabular report supplies all evidence needed. CFTC positioning remains inaccessible under the earlier403checks; it was not consumed or represented as refreshed.
