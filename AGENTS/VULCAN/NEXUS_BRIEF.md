@@ -2,7 +2,7 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**; one fired channel, **two S5 events** after Will's WQ-441 B selection/retention. Separate4→5proposal pending; no score or capital permission inferred.
 **Domain:** AI-capex / semiconductor / memory systemic transmission, S1–S5; shared AI-demand root counted once.
-**As of:** 2026-10-20T16:40:47-04:00 | **STATUS commit:** 72c6ebc03
+**As of:** 2026-10-20T16:51:00-04:00 | **STATUS commit:** 1e5bb4943
 **Variant:** FULL. Research/state c6669e4f3; routed packets8825402cd. SOURCE/BASIS: report under reports/2026-10-20_catchup/. Native cross-fleet transport unavailable; receipt/consumption unverified.
 
 **Research navigation:** [CoreWeave library](CRWV/README.md) now consolidates 79 documents, seven data files and six ledger extracts as frozen reference copies. Original source paths and desk ownership remain authoritative; this organization update changes no score or research vintage.
@@ -11,7 +11,7 @@
 
 **Organization implemented:** [CRWV entry point](CRWV/README.md):20 company rows at CRWV/KB.tsv,227 broader rows at workbook/KB_GENERAL.tsv; workbook/KB.tsv is a generated247-row compatibility view. All IDs/fields preserved,53 regressions passed. Correction map and48-entry topic catalogue retain86 source aliases/copies. Schema/boot/closeout enforce both authorities and reject duplicate IDs/stale views. No market refresh or rule/score/capital change. Main implementation2a3640f09.
 
-**Boot audit October20 afternoon:** [Findings](reports/2026-10-20_boot-audit.md),72c6ebc03. WQ-464 OPEN (PROME recommends retaining S5=4/n=2); four intake packets assessed without market grade. GOOGL failure reproduced offline; boot silently skips failed backtests despite fresh collection. Charter/navigation and Oracle event-title debts remain; two modeled NVDA filing dates need reconciliation. CRWV authority/view and immutable archive checks pass. No live prices refreshed.
+**Startup repair October20:** [Verification and guard map](reports/2026-10-20_startup-repair.md),1e5bb4943. FIXED: silent failed-window skip, inaccurate date-role labels and stale startup/navigation instructions. Charter79,420→32,131B; original bytes archived. Six new wiring tests plus22filing guards pass. GOOGL10-Q method remains UNGRADEABLE/October23 research; three annual histories too thin for date-model certification. No score, registered forecast or market vintage changed; WQ-464 still OPEN.
 
 ## CROSS-DOMAIN
 
@@ -26,7 +26,7 @@
 | CARL | Memory contract forecast stillpositive: DRAM+10–15%,NAND+15–20%4Q[9/30]. Equities/phones do not independently trip the contract rule. S2equity leading indicator retired after VULCAN-11FALSIFIED; contractual ceilings exist, margin effect unmeasured. | KB-186..188/230; Octoberforecastarchive |
 | ZHAO / HAWK | October20ZHAOowner re-check retains bothNovember10BIS/MOFCOMclocks; TariffCommission502andMOFCOM45/47missing remain blind spots. TSMCcumJan–Sep+41.1%,not newstress. No entity/BOMmap claimed. Bounded helium follow-through carries no new sectorwidefire; reportKB-236. | KB-239; ownercommitdaf16d62c |
 | BOND | Selected SEC-primary MetaMay$25B/14B20yr+andAmazonJuly$25B/9B20yr+are bounded source rows. Annual same-basis inventory andIGtenor denominator incomplete; no rates-causal or AI-only allocation claim. | ISSUANCE.md; KB-245 |
-| NEXUS / PROME | Scores15/25unchanged; two financing events are one fired channel. WQ-441B recorded2bb3f6474; retrospective choice preserves originalA NOTRED/no forecastHIT. Separate score proposal registered WQ-464; concrete charter-slim candidate routed, not approved/applied and requires CRWV migration reconciliation. | STATUS; packets8825402cd |
+| NEXUS / PROME | Scores15/25unchanged; two financing events are one fired channel. WQ-441B recorded2bb3f6474; retrospective choice preserves originalA NOTRED/no forecastHIT. Separate score proposal registered WQ-464; Will-authorized startup repair applied1e5bb4943; earlier slim candidate superseded, no longer awaiting approval. | STATUS; packets8825402cd |
 | DAEDALUS / WALTER | Date validator41/41;18intakefilesprocessed; fourforecastrows conserved; thesis history split. Structured/date-only census16registers+10calendars yields100/437date matches,51nonpointrowsseparate. This does not establish transport or fleetwidecoverage/absence. | KB-231..245; report/replays |
 
 ## VIEW
@@ -47,11 +47,11 @@ Collection refreshednineissuers/30tier3filings; GOOGLcadence component stillrc2(
 
 METAOctober21afterclose/16:30ETcall, issuerrecheckedOctober20. ThenOctober23post-closeMag7/S2/GPUreadings; MSFT/GOOGL/HynixOctober28andSamsung/AMZN~October29. §4bconfirms if≥2stocksfalloncapexraises, ORmanagementcitesinference-price/open-weight/ROIpressure, ORanycapexCUTYoY;≥2raisesrewardedwithnocutfalsifiesforthiscluster; mixed=NO-VERDICT. RewritefirstofclusterresolutionorNovember15.
 
-GOOGLmethodandannualissuance/denominatorresiduals are registeredOctober23; no newbound widenedtopass. Charter31,021Bcandidate awaitsreviewbeforeapplication. FiveOPENforecastclocks remain in workbook/PREDICTIONS.tsv; VULCAN-17successorVULCAN-18registers onlyatgrading. No new trade proposed.
+GOOGLmethodandannualissuance/denominatorresiduals are registeredOctober23; no newbound widenedtopass. Startupcharterrepairapplied1e5bb4943;oldcandidateishistorical. FiveOPENforecastclocks remain in workbook/PREDICTIONS.tsv; VULCAN-17successorVULCAN-18registers onlyatgrading. No new trade proposed.
 
 ## WATCH (next 2–4 weeks) — ⏱️ THE CLOCK
 
-Exact event set generated from docket/CATALYSTS.tsv; register governs, including later horizons.
+Exact event set generated from docket/CATALYSTS.tsv; register governs, including later horizons. Watch-start and estimated filing dates are not issuer confirmations or maturities.
 
 | When | What | Whose |
 |---|---|---|
@@ -75,8 +75,9 @@ Exact event set generated from docket/CATALYSTS.tsv; register governs, including
 | 2026-11-10 | TSMC October revenue 6-K (monthly) — S4 series reading | VULCAN, ZHAO, HAWK |
 | 2026-11-13 | GPU-rental panel reading 10 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-11-13 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 10 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
-| 2026-11-15 | FERC abeyance window ends (EL26-67-000) — AND the hard backstop on the EXIT_PROTOCOL kill-rail rewrite | WATT,LIQUID,BROCK,PROME |
-| 2026-11-15 | NVDA Q3 FY27 10-Q — DEWEY's registered test T3 on the AI order book | VULCAN, DEWEY |
+| 2026-11-15 | EXIT_PROTOCOL rewrite HARD BACKSTOP and VULCAN-13/-15 grading — self-set November15, not the FERC response deadline | WATT,LIQUID,BROCK,PROME |
+| 2026-11-15 | NVDA Q3 FY27 10-Q — EARLY WATCH for DEWEY T3; modeled filing ~November19, not a November15 announcement | VULCAN, DEWEY |
+| 2026-11-16 | FERC EL26-67 responses due — actual procedural deadline, separate from November15 forecast/rewrite backstop | VULCAN, WATT, LIQUID, BROCK, PROME |
 | 2026-11-19 | NVDA Q3 FY27 10-Q (ESTIMATED from cadence: Q3 FY26's filed 2025-11-19; period ends ~2026-10-25) — VULCAN-17 READING 1 + DOCKET L322's T-tests (T1 MoU→definitive · T2 escrow vs SB Energy · T3 revenue attribution quantified · T4 DSO >60d a 2nd qtr · T6 3.8 GW option) | VULCAN · PROME (L322 consumer read), HENRY (earnings-quality thread is its own row), LIQUID, BROCK, VIOLET |
 | 2026-11-20 | GPU-rental panel reading 11 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-11-20 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 11 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
@@ -84,7 +85,7 @@ Exact event set generated from docket/CATALYSTS.tsv; register governs, including
 | 2026-11-27 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 12 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-04 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 13 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-11 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 14 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
-| 2026-12-15 | ORCL $3.3B lessor-borrowing guarantee matures — the nearest dated credit item on my board | BROCK,LIQUID |
+| 2026-12-15 | ORCL $3.3B lessor guarantee — estimated Q2 filing/disclosure follow-up; stated September maturity passed, outcome UNKNOWN | BROCK,LIQUID |
 | 2026-12-15 | ORCL Q2 FY27 10-Q — thesis-kill LEG 4 reading 1 of 2 (off-BS DC leases not yet commenced) | VULCAN, LIQUID, BROCK |
 | 2026-12-18 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 15 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-24 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 16 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
