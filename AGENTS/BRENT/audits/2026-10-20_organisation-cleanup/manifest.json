@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-20T17:54:10-04:00",
+  "authority": "inbox/2026-10-20_from-PROME_organisation-cleanup-go-ahead.md",
+  "payload_rule": "whole file; UTF-8 bytes; no newline normalization beyond original read/write on this Linux workspace",
+  "files": {
+    "CLAUDE.md": {
+      "archive": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "bytes": 31848,
+      "sha256": "5cd942b4215fab61c6d62a07370847c1f00625a046199be6dc68314416c8dec3",
+      "crc32": "8aefbd18"
+    },
+    "STATUS.md": {
+      "archive": "archive/2026-10-20_organisation-cleanup/STATUS.md.before.md",
+      "bytes": 22877,
+      "sha256": "c2380c4fc0833a9d42185c33b37e6b235046dd108d5b0a9b61f7ba4a97222aad",
+      "crc32": "c3fe6488"
+    },
+    "NEXUS_BRIEF.md": {
+      "archive": "archive/2026-10-20_organisation-cleanup/NEXUS_BRIEF.md.before.md",
+      "bytes": 26279,
+      "sha256": "43b5d036497be2f563901f4233b264be3d86b98ceaf6d7407d851a049b7bc697",
+      "crc32": "484b8401"
+    },
+    "TRADE.md": {
+      "archive": "archive/2026-10-20_organisation-cleanup/TRADE.md.before.md",
+      "bytes": 22661,
+      "sha256": "a5d42bc1930db74a67431a7b8e653c7d671c1ad47fd0155cfab41046be6cff6d",
+      "crc32": "73111f1f"
+    },
+    "SCRATCH.md": {
+      "archive": "archive/2026-10-20_organisation-cleanup/SCRATCH.md.before.md",
+      "bytes": 6353,
+      "sha256": "fab86da8aa183e6ce492e803998a8a65f15d389ce278bc41b055fe861a91b529",
+      "crc32": "33e4c3a0"
+    },
+    "RULINGS.md": {
+      "archive": "archive/2026-10-20_organisation-cleanup/RULINGS.md.before.md",
+      "bytes": 67641,
+      "sha256": "6f1848fdda541bd4b9d7c271a6867ebba6b6ce7d617e058e9a4040df721a0dc0",
+      "crc32": "d4df8bf0"
+    },
+    "demand_destruction/TRACKER.md": {
+      "archive": "archive/2026-10-20_organisation-cleanup/demand_destruction__TRACKER.md.before.md",
+      "bytes": 32543,
+      "sha256": "29e29ad57cc6868caa12a32c2ddec8892e8686c49aa21199f99118e6ec0adfb2",
+      "crc32": "d7109175"
+    }
+  },
+  "moves": [
+    {
+      "source": "TRADE.md",
+      "source_section": "BINDING WILL RULINGS \u2014 superseded standing-practice bullet",
+      "original_utf8_start": 19538,
+      "original_utf8_end": 19669,
+      "destination": "archive/2026-10-20_organisation-cleanup/TRADE.md.before.md",
+      "destination_section": "BINDING WILL RULINGS \u2014 superseded standing-practice bullet (original heading/row retained)",
+      "sha256": "70bbea9895396928b1e9b91a5849d8b2f243d353e8c97938df5fb2caf6b2aaf9",
+      "bytes": 131
+    },
+    {
+      "source": "TRADE.md",
+      "source_section": "POSITIONS (live) \u2014 **USO Oct23 $163C \u00d71** expiry=2026-10-23",
+      "original_utf8_start": 12950,
+      "original_utf8_end": 13163,
+      "destination": "archive/2026-10-20_organisation-cleanup/TRADE.md.before.md",
+      "destination_section": "POSITIONS (live) \u2014 **USO Oct23 $163C \u00d71** expiry=2026-10-23 (original heading/row retained)",
+      "sha256": "7b497ab33fbd4cc5bd99185683014dc223a02cc5a253e7cda54ecdfcb2ba8819",
+      "bytes": 213
+    },
+    {
+      "source": "TRADE.md",
+      "source_section": "POSITIONS (live) \u2014 **USO Oct28 $165C \u00d71** expiry=2026-10-28",
+      "original_utf8_start": 13164,
+      "original_utf8_end": 13377,
+      "destination": "archive/2026-10-20_organisation-cleanup/TRADE.md.before.md",
+      "destination_section": "POSITIONS (live) \u2014 **USO Oct28 $165C \u00d71** expiry=2026-10-28 (original heading/row retained)",
+      "sha256": "d3ea555b19ef6dc309da6c71602d55cdc43449b0e9983199dca16e83d8ae9534",
+      "bytes": 213
+    },
+    {
+      "source": "TRADE.md",
+      "source_section": "POSITIONS (live) \u2014 **USO Oct30 $165C \u00d71** expiry=2026-10-30",
+      "original_utf8_start": 13378,
+      "original_utf8_end": 13591,
+      "destination": "archive/2026-10-20_organisation-cleanup/TRADE.md.before.md",
+      "destination_section": "POSITIONS (live) \u2014 **USO Oct30 $165C \u00d71** expiry=2026-10-30 (original heading/row retained)",
+      "sha256": "28dc5ec05aa5ff6be8b454d3d90471070abd566f43f5828bcc7777eca02fa340",
+      "bytes": 213
+    },
+    {
+      "source": "TRADE.md",
+      "source_section": "Startup recovery \u2014 superseded expiry wording",
+      "original_utf8_start": 796,
+      "original_utf8_end": 878,
+      "destination": "archive/2026-10-20_organisation-cleanup/TRADE.md.before.md",
+      "destination_section": "Startup recovery \u2014 superseded expiry wording (original heading/row retained)",
+      "sha256": "c0e7a48bea10ed7e46bdf364f24417839bcc7633294fcebb9a1740310bc39a63",
+      "bytes": 82
+    },
+    {
+      "source": "STATUS.md",
+      "source_section": "Opening dated update paragraphs",
+      "original_utf8_start": 15,
+      "original_utf8_end": 3506,
+      "destination": "archive/2026-10-20_organisation-cleanup/STATUS.md.before.md",
+      "destination_section": "Opening dated update paragraphs (original heading/row retained)",
+      "sha256": "4da9510c0c2f3d29fb2b5faa27d2f3317003620b535584996fe85b0fda4a64f8",
+      "bytes": 3491
+    },
+    {
+      "source": "NEXUS_BRIEF.md",
+      "source_section": "Opening updates and October14 context",
+      "original_utf8_start": 0,
+      "original_utf8_end": 9225,
+      "destination": "archive/2026-10-20_organisation-cleanup/NEXUS_BRIEF.md.before.md",
+      "destination_section": "Opening updates and October14 context (original heading/row retained)",
+      "sha256": "b683d62d272aeee075fbedc8d992d6ac42ae8c961bb09d689bee56c64ad3c5e9",
+      "bytes": 9225
+    },
+    {
+      "source": "NEXUS_BRIEF.md",
+      "source_section": "VIEW",
+      "original_utf8_start": 20127,
+      "original_utf8_end": 21859,
+      "destination": "archive/2026-10-20_organisation-cleanup/NEXUS_BRIEF.md.before.md",
+      "destination_section": "VIEW (original heading/row retained)",
+      "sha256": "eda9404a5ad97ed390681b942e1dcccbad6c815d396f53d2514c2ca2a6429e69",
+      "bytes": 1732
+    },
+    {
+      "source": "NEXUS_BRIEF.md",
+      "source_section": "NEXT DECISION POINT / WATCH / delivery history",
+      "original_utf8_start": 23478,
+      "original_utf8_end": 26279,
+      "destination": "archive/2026-10-20_organisation-cleanup/NEXUS_BRIEF.md.before.md",
+      "destination_section": "NEXT DECISION POINT / WATCH / delivery history (original heading/row retained)",
+      "sha256": "e20960e894da1b4148bc5c4cf9da208778680393e40eaa14f8040b0c8c72bab3",
+      "bytes": 2801
+    },
+    {
+      "source": "demand_destruction/TRACKER.md",
+      "source_section": "Opening scoped closeout notes",
+      "original_utf8_start": 0,
+      "original_utf8_end": 2954,
+      "destination": "archive/2026-10-20_organisation-cleanup/demand_destruction__TRACKER.md.before.md",
+      "destination_section": "Opening scoped closeout notes",
+      "bytes": 2954,
+      "sha256": "18686ec8836b10e12f4651fb321e0844207818c7a678877e5deb67312cdc953c"
+    },
+    {
+      "source": "SCRATCH.md",
+      "source_section": "Entire prior handoff",
+      "original_utf8_start": 0,
+      "original_utf8_end": 6353,
+      "destination": "archive/2026-10-20_organisation-cleanup/SCRATCH.md.before.md",
+      "destination_section": "Whole file",
+      "bytes": 6353,
+      "sha256": "fab86da8aa183e6ce492e803998a8a65f15d389ce278bc41b055fe861a91b529"
+    }
+  ]
+}

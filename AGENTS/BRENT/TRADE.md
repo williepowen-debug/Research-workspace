@@ -2,7 +2,7 @@
 
 **Startup recovery October20 — last position evidence: October19 secondary PROME transcription.** USO/VLO quantities and calls below supersede October14 current-state claims. Original October15/19 screenshots are off-repo and were not independently read here; capture/fill clocks, current orders and post-snapshot changes UNKNOWN. Source: `PROME/data/2026-10-19_broker-capture-TRANSCRIPTION.md` (positions rows3/17/18/21/22, activity rows2/3/18). No marks adopted, duplicate booking or inferred roll linkage.
 
-**October14 USO150C×2 CLOSED:** exact Fidelity contract matched to October15 transcription Activity and TERRY's closing receipt: net $760.68 against $375.33 basis, DERIVED realized +$385.35; not broker-reported realized P/L, times UNKNOWN. New October23/28/30 calls are distinct instruments; standing sell-or-roll applies. TERRY owns construction/management; no old stop or December-replacement approval inherited.
+**October14 USO150C×2 CLOSED:** exact Fidelity contract matched to October15 transcription Activity and TERRY's closing receipt: net $760.68 against $375.33 basis, DERIVED realized +$385.35; not broker-reported realized P/L, times UNKNOWN. New October23/28/30 calls are distinct instruments; [USER.md: Will manages expiries; no reminders](../../USER.md#how-will-thinks). TERRY owns construction/management; no old stop or December-replacement approval inherited.
 
 **Authority recovered:** WQ192 STAND DOWN remains. WQ386/420 cover only the original VLO share, December observations October15–November19; prior established exits survive. Two added shares' management scope remains UNKNOWN; former scale instruction TERMINAL. The [WQ420 Approved exact insert](../../PROME/proposals/2026-10-11_wq418-420-RULED.md#approved-exact-insert) governs precision and [14:28,14:30) proxy selection; read it completely before any grade. PROME L684 installation acceptance was already complete October14 ([receipt](audits/2026-10-14_consistency-sweep/owner-acceptance-receipt.json)), not a holding grade. Complete decision read paths below remain binding; no new source/holding grade made. October14 USO December screen remains dated research only. [Startup receipt](audits/2026-10-20_startup/receipt.json).
 
@@ -72,9 +72,9 @@ Thesis and calibration: [THESIS](thesis/THESIS.md). **WAIT; WQ-189/192 STAND DOW
 | **VLO original1 sh** | Fidelity | Bought September18 @$412.00, fill time UNKNOWN (D55); original share within October19 total3, secondary positions row18 | WQ213 original entry, no crack filter at entry. WQ386/420 original-share rule only, GATE-TERRY-VLO-HELD-01; [TERRY card](../TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md). TERRY grades, Will executes. |
 | **VLO additional2 sh** | Fidelity | October19 total3; October12 added1 receipt preserved below; latest added1 fill/date UNKNOWN | D78 management/authorization scope UNKNOWN; no automatic original-share extension; scale TERMINAL. |
 | **USO Oct-14 $150C ×2** expiry=2026-10-14 | Fidelity | **CLOSED — SOLD CLOSE October14**, net $760.68, DERIVED realized +$385.35 | Matched October15 Activity + TERRY closing receipt; no duplicate booking. |
-| **USO Oct23 $163C ×1** expiry=2026-10-23 | Fidelity | October19 BTO fill2.89, net debit$289.66; secondary transcription | Standing sell-or-roll; current orders/management card not verified; no inherited stop. |
-| **USO Oct28 $165C ×1** expiry=2026-10-28 | Fidelity | October19 BTO fill3.35, net debit$335.66; secondary transcription | Standing sell-or-roll; current orders/management card not verified; no inherited stop. |
-| **USO Oct30 $165C ×1** expiry=2026-10-30 | Fidelity | October19 BTO fill2.70, net debit$270.66; secondary transcription | Standing sell-or-roll; current orders/management card not verified; no inherited stop. |
+| **USO Oct23 $163C ×1** expiry=2026-10-23 | Fidelity | October19 BTO fill2.89, net debit$289.66; secondary transcription | [USER.md: Will manages expiries; no reminders](../../USER.md#how-will-thinks); current orders/management card not verified; no inherited stop. |
+| **USO Oct28 $165C ×1** expiry=2026-10-28 | Fidelity | October19 BTO fill3.35, net debit$335.66; secondary transcription | [USER.md: Will manages expiries; no reminders](../../USER.md#how-will-thinks); current orders/management card not verified; no inherited stop. |
+| **USO Oct30 $165C ×1** expiry=2026-10-30 | Fidelity | October19 BTO fill2.70, net debit$270.66; secondary transcription | [USER.md: Will manages expiries; no reminders](../../USER.md#how-will-thinks); current orders/management card not verified; no inherited stop. |
 | USO Oct-09 $150C ×1 expiry=2026-10-09 | Fidelity | **SOLD CLOSE / OPTION LIQUIDATION October9**, net **+$0.99**, remaining-lot realized **−$298.67** [derived] | Prior WQ-396 'expired worthless' superseded by broker Activity. Fill time, initiator, gross price UNKNOWN; receipt in EXECUTION LOG. |
 | USO Sep-16 $165C ×1 (RH) | Robinhood | **Not held**: past expiry and absent from the 9/27 RH card. Disposition (sold / expired / misread) **UNKNOWN, not inferred** | FORGE D-57 · PROME WQ-169. |
 | STNG | — | **Tracked, never held** (Stage-A tanker-liveness composite). FORGE D-17: absent from every capture since 8/2 | — |
@@ -129,7 +129,7 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 - **WQ-366 (10/3), historical:** early-sale DECLINE on prior October9 call; its rail discharged by the recorded closing receipt, not inherited by October14 calls.
 - **WQ-330 (9/28 18:36):** "both" ⇒ `GATE-TERRY-VLO-HELD-01` legs A and B on the held VLO share (TERRY's letter, `PROME/GATES.tsv`).
 - **WQ-316:** the Sep-30 $159C was Will's hand; discharged by his 9/30 sale-to-close (EXECUTION LOG).
-- **Standing practice (Will 9/30 19:03 ET, `USER.md`):** sell or roll every option line before expiry; never a hold-to-expiry rail.
+- **Expiry communication:** [USER.md — No expiry nagging](../../USER.md#how-will-thinks) governs. Will manages expiries; no reminders or repeated sell-or-roll prompts. A collapsed line may expire. Record broker evidence without inferring disposition.
 - **WQ-234 (9/22):** "C" ⇒ BG-02 C1–C6.
 - **WQ-207 (9/10 12:35):** the 150/165 management rule; discharged the same day.
 - **WQ-200 (9/10):** USO shares have NO harvest/give-back rule; Will manages by hand.
@@ -163,3 +163,5 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 ## Lesson reconciliation
 
 [October7 application record](archive/2026-10-12_thesis-trade-update/TRADE-before.md#lesson-reconciliation--october-7-ruling-application) preserved verbatim. October14 sweep reconciles research/readers only; binding rules/specs unchanged. Full lesson/caveat readers remain in Decision read paths.
+
+Superseded expiry wording is preserved verbatim at [before-image](archive/2026-10-20_organisation-cleanup/TRADE.md.before.md); [conservation map](audits/2026-10-20_organisation-cleanup/manifest.json). Holdings, receipts, thresholds and complete decision paths are unchanged.

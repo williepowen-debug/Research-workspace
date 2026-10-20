@@ -624,3 +624,9 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T15:28:03-04:00	SIG-W-20261020-003	info-only	INBOX_WALTER	Named Polar supplier allocation; conditional shutdown only. VULCAN owns impact; no new energy damage or shipping grade.
 2026-10-20T15:28:03-04:00	SIG-W-20261020-018	deferred	INBOX_WALTER	Monthly USGC jet versus Europe Brent spot basis; owner source assessment deferred to refined-products work. No futures/holding grade or adoption.
 2026-10-20T15:28:03-04:00	SIG-W-20261020-019	deferred	INBOX_WALTER	DOE October16 image and QuickFacts totals conflict; exact SPR level/weekly change not adopted pending primary reconciliation.
+2026-10-20T17:56:00-04:00	SIG-W-20261020-024	info-only	INBOX_WALTER	USDA relief announcement context only; no disbursement or improved fuel supply established.
+2026-10-20T17:56:00-04:00	SIG-W-20261020-029	info-only	INBOX_WALTER	Collective grid-site count retained as attributed context; not crude/refinery throughput loss. OSPREY owns assessment.
+2026-10-20T17:56:00-04:00	SIG-W-20261020-030	info-only	INBOX_WALTER	Anonymous Kharg strike-options report; no approved/executed operation or export loss established. FALCON owns theater judgment.
+2026-10-20T17:56:00-04:00	SIG-W-20261020-031	info-only	INBOX_WALTER	Renewed cable threat; unauthenticated origin, no operator damage/outage established. FALCON owns assessment.
+2026-10-20T17:56:00-04:00	SIG-W-20261020-032	info-only	INBOX_WALTER	Konarak claim and US denial travel together; separate destroyer chain unverified. No new kinetic/loss grade.
+2026-10-20T17:56:00-04:00	2026-10-20_from-PROME_organisation-cleanup-go-ahead.md	acted	INBOX	Accepted bounded no-deletion cleanup. Non-charter work completed; live charter unchanged, draft and exact before/after request at audits/2026-10-20_organisation-cleanup. PROME review pending.

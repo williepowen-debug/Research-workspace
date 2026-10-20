@@ -1,0 +1,250 @@
+{
+  "status": "DRAFT \u2014 NOT INSTALLED; PROME before/after review REQUIRED",
+  "before_bytes": 31848,
+  "proposed_bytes": 25072,
+  "moves": [
+    {
+      "original_line": 22,
+      "original_utf8_start": 1325,
+      "original_utf8_end": 1995,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 22",
+      "original_sha256": "5d9ffffab022de97d4a7f3f66a6ae724c0ee3a8d4962624060ae20af4bc8d916",
+      "proposed_replacement": "**Boot and closeout are symmetric.** Run steps7\u201314 at EVERY session end, including intraday sessions (`[[feedback_intra_day_closeout_discipline]]`). Read\u2192write: STATUS1\u21927; SCRATCH2\u219211; predictions5\u21928 (all fields and linked complete notes before grading); thesis via STATUS\u21929; NEXUS_BRIEF\u219212 every session.\n"
+    },
+    {
+      "original_line": 28,
+      "original_utf8_start": 2721,
+      "original_utf8_end": 3327,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 28",
+      "original_sha256": "17cca67515fefdfd894af50db323be2b0e51087fb42b0da98c28dcf47da194c0",
+      "proposed_replacement": "2b. **Read the NEWEST `monday_*`, `friday_*` or `eia_*` output in `demand_destruction/data/`.** The autonomous Monday routine self-commits market/geopolitical pulls and independent alert checks. If its run date is newer than boot, IT WINS ON TAPE: reconcile before writing levels to STATUS.\n"
+    },
+    {
+      "original_line": 38,
+      "original_utf8_start": 4174,
+      "original_utf8_end": 4593,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 38",
+      "original_sha256": "139d825c9cc8b465a99a60eab78243655d0d225b3a3f8feabdf2719fa8e8a1c8",
+      "proposed_replacement": "   **Web-search only for narrative/headline catalysts outside the kit.** Review expired OPEN Timeframes, event preconditions and internal sub-deadlines yourself. The scan honors explicit outer bounds and surfaces BRT-29 M, but STUCK rows remain outside it; a sub-obligation alert is not a final grade.\n"
+    },
+    {
+      "original_line": 45,
+      "original_utf8_start": 5640,
+      "original_utf8_end": 6440,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 45",
+      "original_sha256": "54edb2da25a5a24f97629b26019e6e875d632023a901159c07e20083b0b90862",
+      "proposed_replacement": "   > **Ledger checks:** boot passes `--days 7`, based on the September7 measurement. TWO preconditions, verified by RUNNING: `workbook/LEDGER_GLOB` covers the real ledgers; `boot.py` FINDINGS_MARKERS promotes rc0 on STALE. Age is not agreement: a fresh wrong figure passes. Pull the LIVE CHAIN at every decision (`RISK_RULES` #5). Original reasoning: [RULINGS](RULINGS.md) \u00a7 R-2026-08-17.\n"
+    },
+    {
+      "original_line": 53,
+      "original_utf8_start": 7209,
+      "original_utf8_end": 7716,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 53",
+      "original_sha256": "f4c3e4a3fa81b6a81f0cc04eabd2f4d53b51081d9f7591b960b252929b5ea0b4",
+      "proposed_replacement": "6b. **General inbox triage:** list top-level `inbox/*.md`; decide consume-now or defer for every new arrival. Deferral is allowed; silence is not. Log each consumed item to `board_log.tsv` with `source=INBOX`, then `git mv` to `inbox/processed/`. Every moved file MUST have a ledger row. Full processing remains a separate task.\n"
+    },
+    {
+      "original_line": 55,
+      "original_utf8_start": 8030,
+      "original_utf8_end": 8801,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 55",
+      "original_sha256": "5f1d574d538c3ee2dfaa15cb94892637018df30ff13bc7aca1ff41ad6a6d8b75",
+      "proposed_replacement": "6d. **R1 corrections:** `python3 \"$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py\" BRENT` (\u00a79 rc0/1/2). rc1: read each NAMED unreceipted correction and use `--receipt <id>` with `--action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>`, `--action NO-OP --scope <text>`, `--action DEFERRED --review YYYY-MM-DD`, or `--action CONTESTED [--scope <text>]`. No semicolons/tabs/newlines in values. WQ-399 writer rejects incomplete receipts with rc2/no write. Commit `registry/corrections_receipts.tsv`.\n"
+    },
+    {
+      "original_line": 58,
+      "original_utf8_start": 8814,
+      "original_utf8_end": 9027,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 58",
+      "original_sha256": "98d6d12c0dae9f7660f6d820bf4d5b97637bf9ec2723cf6a6b1d9798f336d8ae",
+      "proposed_replacement": "**EXECUTE THE TASK.** Keep execution unnumbered; closeout7\u201314, including SCRATCH11 and NEXUS12, are stable references.\n"
+    },
+    {
+      "original_line": 61,
+      "original_utf8_start": 9083,
+      "original_utf8_end": 9833,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 61",
+      "original_sha256": "834c93261b90aedd94ed72733c4b0062369c34abb87fdfe921dbf465745f903b",
+      "proposed_replacement": "7. **Write STATUS:** prices, storage, convergence; threshold breaches first; obey OUTPUT RULES byte/rotation duties. **TRADE owns positions, plans, arm triggers and execution log** (STATUS has only a one-line pointer). Follow TRADE decision paths to complete binding specs. Put dated analysis in evidence notes; keep TRADE LIVE whenever positions/plans move.\n"
+    },
+    {
+      "original_line": 62,
+      "original_utf8_start": 9833,
+      "original_utf8_end": 10673,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 62",
+      "original_sha256": "afe013de1a5fe8c464da1795915c70b176fe2a148d421bbe066453f6b17f59ae",
+      "proposed_replacement": "8. **Predictions/ledgers:** KB.tsv, VX.tsv and FLOW.tsv are FROZEN; never write them. Facts/claims \u2192 STATUS + THESIS; indicator levels \u2192 STATUS; transmission mechanics \u2192 THESIS. Resolve EVERY DUE prediction in `thesis/PREDICTIONS.tsv`: resolve, re-arm-with-reason or push-date-with-reason; never OPEN-but-stale. Read all fields and complete linked notes first. Separate mechanism from stuck/breached threshold (`[[finding_threshold_vs_mechanism]]`). Closed rows retain a short lesson/history link; dated reasoning goes to linked notes or PREDICTIONS_ARCHIVE, not TSV preamble. Log changes to CHANGELOG.\n"
+    },
+    {
+      "original_line": 63,
+      "original_utf8_start": 10673,
+      "original_utf8_end": 11210,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 63",
+      "original_sha256": "3cb5fdf05daef344e72d8aa563a92daa268448a96aa6844a3057b901ba4fb701",
+      "proposed_replacement": "9. **Thesis changes:** update `thesis/THESIS.md` + CHANGELOG, recording old\u2192new. TIMELINE.md is FROZEN: never write/resurrect it. Forward state \u2192 docket/CATALYSTS.tsv; reasons \u2192 CHANGELOG. New channel, conviction shift, phase transition, threshold breach or prediction resolution triggers an update. Major X = structural/conviction reversal/phase transition; minor Y = refinement.\n"
+    },
+    {
+      "original_line": 64,
+      "original_utf8_start": 11210,
+      "original_utf8_end": 12756,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 64",
+      "original_sha256": "45810d5e7a1145d339ea2203d22c5e3067ba122634e86483d33767d458ba457a",
+      "proposed_replacement": "10. **Forward state:** `docket/CATALYSTS.tsv` is canonical (8 columns, date_class confirmed/modeled). Prune fired rows beyond1week ONLY once GRADED; add dated catalysts and revise modeled dates when projections shift. STATUS calendar is GENERATED: `scripts/render_calendar.py --write`, never hand-edit; Derived Views fails on drift. FASTOW may maintain catalysts. New facility-damage strikes \u2192 INCIDENTS.tsv, primary-verified (LESSONS #1); military operations \u2192 HAWK. Check OSPREY/FALCON live `domain/energy-strikes/STRIKES.tsv` first; HAWK table is FROZEN since2026-07-12. **At EVERY closeout**, refresh the demand tracker REGISTERED ALERT LINES block or explicitly stamp SCOPED-PARTIAL with re-verified/not-re-verified boundaries, even if demand did not move: cloud routines read it on THEIR schedule. Rationale: RULINGS \u00a7 R-2026-08-17-step10.\n"
+    },
+    {
+      "original_line": 65,
+      "original_utf8_start": 12756,
+      "original_utf8_end": 13182,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 65",
+      "original_sha256": "f46e6c13fb4be1f47be185732723e1621378800cd6808e63fb6db634832b36b1",
+      "proposed_replacement": "11. **Rewrite SCRATCH** using `templates/SCRATCH.template.md`: CHANGES SINCE / WHAT I DID / dated future-verifiable NEXT SESSION / OPEN THREADS / pending position decisions / mail state. Canonical handoff; LAST_COMPLETION retired. MEMORY holds persistent lessons, not session handoff.\n"
+    },
+    {
+      "original_line": 71,
+      "original_utf8_start": 14107,
+      "original_utf8_end": 14594,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 71",
+      "original_sha256": "cfd6f92917aeb9667667ac7079d5a7290210f89cb8705a261f5fa898558cfa38",
+      "proposed_replacement": "    > Protect CROSS-DOMAIN and CALIBRATION-divergence under length pressure; compress FORWARD CATALYSTS/VIEW first. READ-CAP bytes govern, no line cap. Reference owners, never duplicate state. Cross-agent tensions REQUIRED (`None active this cycle` if empty). No P/L or marks; structural positions only. NEXUS reads this instead of raw STATUS.\n"
+    },
+    {
+      "original_line": 72,
+      "original_utf8_start": 14594,
+      "original_utf8_end": 15758,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 72",
+      "original_sha256": "6b58c0c0f12e154d04b10a79c05fe67cbcb824ba7c51075f3fb63355e332baa5",
+      "proposed_replacement": "13. **Promotion:** thesis-level finding \u2192 THESIS + CHANGELOG; transferable lesson \u2192 auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line MEMORY index); BRENT-only durable lesson \u2192 local MEMORY. Remove local copy after promotion to auto-memory. Cross-agent signals \u2192 Outbox Protocol. A received RULING \u2192 dated RULINGS entry (DAEDALUS P4/ACTION12); binding letter stays in its operational surface, cited by SECTION NAME. RULINGS records WHY, never relocates the binding rule (`[[finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs]]`).\n"
+    },
+    {
+      "original_line": 98,
+      "original_utf8_start": 18633,
+      "original_utf8_end": 19198,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 98",
+      "original_sha256": "dfe2010d08586cca0352cdc89f3f363bcea4c598d0dc830b5c62107e10b1b5ea",
+      "proposed_replacement": "- **RETIREMENT RATCHET:** every new check, registry row or protocol step names its replacement or `supersedes: none`. First consider extending an existing mechanism. This governs STATE; apply the same restraint to prose. History belongs in RULINGS.\n"
+    },
+    {
+      "original_line": 104,
+      "original_utf8_start": 19843,
+      "original_utf8_end": 20139,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 104",
+      "original_sha256": "2131dacbae0882c2dbc93e0a64342060d3c1e95045515aaa41b73de9cf3b8a02",
+      "proposed_replacement": "> **RULINGS records WHY; it is not a boot read.** Consult it before changing a rule or checking deliberate decisions.\n"
+    },
+    {
+      "original_line": 106,
+      "original_utf8_start": 20140,
+      "original_utf8_end": 20628,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 106",
+      "original_sha256": "f98676ecfa5a2253b1b92ff8648ee1b8d565131dbb0377d0294e16d3ddbd36bf",
+      "proposed_replacement": "**MAIL:** boot includes triage6b; full processing (cross-reference, thesis impact, replies) is a separate task, never unbidden. Archive at13a. Defer freely; never silently ignore arrivals.\n"
+    },
+    {
+      "original_line": 124,
+      "original_utf8_start": 21867,
+      "original_utf8_end": 22341,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 124",
+      "original_sha256": "7f8d0c48eddaef15318b965acc961dd081b815410d155f0fa31acadcf617f740",
+      "proposed_replacement": "**Primary cross-agent surface:** NEXUS_BRIEF CROSS-DOMAIN SENDING/WAITING-FOR tables, refreshed at step12; NEXUS reads them at boot6. Outbox is for acute signals and PROME-action requests only. HERMES is retired.\n"
+    },
+    {
+      "original_line": 137,
+      "original_utf8_start": 22998,
+      "original_utf8_end": 23285,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 137",
+      "original_sha256": "2bb3c59c54e6796170497c32fce03a12ac70bd076e1edf75481aceddda0b1e1d",
+      "proposed_replacement": "- **PROME delivery goes to root `PROME/inbox/`; domain delivery goes to `AGENTS/<NAME>/inbox/`.** Original delivery-failure history is preserved in the charter before-image linked below.\n"
+    },
+    {
+      "original_line": 138,
+      "original_utf8_start": 23285,
+      "original_utf8_end": 23778,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 138",
+      "original_sha256": "a4103c127439919c208340e055b2d53ce9205fbf970a5d676bea6a693fa50b19",
+      "proposed_replacement": "  - \u26d4 `AGENTS/PROME/inbox/` is DEAD; never recreate `AGENTS/PROME/`. A write to an invented path can succeed while the packet remains unseen.\n"
+    },
+    {
+      "original_line": 139,
+      "original_utf8_start": 23778,
+      "original_utf8_end": 23998,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 139",
+      "original_sha256": "818cf27e9377f5f55e9d8d06f286d216ef0f264d0e62e1defce8a7ab89e60986",
+      "proposed_replacement": ""
+    },
+    {
+      "original_line": 157,
+      "original_utf8_start": 25310,
+      "original_utf8_end": 26232,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 157",
+      "original_sha256": "b9d5563172afec33175bd722caece50855d11f52e44a7242f7fbc8832742e7ab",
+      "proposed_replacement": "- **STATUS byte budget, never line count:** `scripts/read_cap_check.py --agent BRENT`. Rotate overflow verbatim into `archive/` (`STATUS_DETAIL_YYYY-MM.md` or `STATUS_dated_*.md`), with crc receipt, explicit PAYLOAD RULE and computed UTF-8 BYTES (`len(s.encode())`, not characters). Historical `workbook/STATUS_archive_*` paths remain where they are; add no new archives there.\n"
+    },
+    {
+      "original_line": 177,
+      "original_utf8_start": 27232,
+      "original_utf8_end": 27799,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 177",
+      "original_sha256": "0293e44af57215231df5257222d7a32f2f6d0066d73f97adcb654bf1a7ecf5a4",
+      "proposed_replacement": "- **Positions:** TRADE owns current legs, receipts and approvals; Will/broker remains truth. No copied legs, marks or dollar totals here. STNG is tracked, NEVER owned (Stage-A tanker-liveness composite). Correction history: RULINGS \u00a7 R-2026-08-04-positions; dated before-image: `research/2026-09-16_cross-war-oil/before/CLAUDE.md`.\n"
+    },
+    {
+      "original_line": 192,
+      "original_utf8_start": 28479,
+      "original_utf8_end": 28805,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 192",
+      "original_sha256": "12207646c6045ab34f7951964eda6047d6112a3d2477c2ba4b07104b28cf1a5d",
+      "proposed_replacement": "> **Topology:** [AGENTS/_NETWORK.md](../_NETWORK.md) is canonical and wins disagreements. Do not rebuild a mirror (root Transmission chain). Original table retired2026-09-07, DAEDALUS C7.\n"
+    },
+    {
+      "original_line": 200,
+      "original_utf8_start": 28934,
+      "original_utf8_end": 29403,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 200",
+      "original_sha256": "8a3f1bcaf626041bf207b75f435a0a0ea7b02b35b56131e70a40e4105aa007e4",
+      "proposed_replacement": "> **Machine state:** [REGISTRY.tsv](workbook/REGISTRY.tsv) owns test levels/instruments; thresholds.py reads registered price/FRED levels, other tests keep their readers/grades, instrument_check probes coverage. [THESIS KEY THRESHOLDS](thesis/THESIS.md) owns meaning/rationale, NO live state. NEVER recreate a threshold table here.\n"
+    },
+    {
+      "original_line": 201,
+      "original_utf8_start": 29403,
+      "original_utf8_end": 29625,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 201",
+      "original_sha256": "1b992f2f96ddbbdf5c559e71c2848d0120667359b7a4fb77e224210a85315f1e",
+      "proposed_replacement": "> F3: one table, one home; duplicate-table history is preserved in RULINGS \u00a7 F3/F4.\n"
+    },
+    {
+      "original_line": 204,
+      "original_utf8_start": 29695,
+      "original_utf8_end": 30117,
+      "destination": "archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md",
+      "destination_section": "original line 204",
+      "original_sha256": "ed82d359050bda773a49538ed541773a8cad177c923c15a0a03d172d976bdf39",
+      "proposed_replacement": "> F3/F4 retired `Gasoline crack >$30` (permanent breach) and `VLCC rate >WS200` (unmeasurable Worldscale feed). BOTH stay RETIRED. Reinstatement requires NEW registration + base rates, never a re-level. [RULINGS](RULINGS.md) \u00a7 F3/F4.\n"
+    }
+  ]
+}
