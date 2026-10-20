@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-20T15:17:11+00:00. October 20 startup recovery, user-directed. **STATUS commit `e48fdf1b7`** (amendment 11). Brief folded after final STATUS write.
+**As of:** 2026-10-20T15:18:00+00:00. October 20 startup recovery, user-directed. **STATUS commit `e48fdf1b7`** (amendment 11). Brief folded after final STATUS write.
 
 ## VIEW
 
