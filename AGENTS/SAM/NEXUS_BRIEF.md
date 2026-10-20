@@ -1,52 +1,40 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-15T12:44Z (Thu 08:44 ET, from `date`): recovery fold (PROME WQ-436) after the ~03:08 ET 10/15 crash; the 10/14 boot never folded. **STATUS commit `5ad363c8e`** (amendment 11 pin). Brief written last per schema Amendment 10. Prior fold (10/9) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
-
-🟠 **FOR PEERS, THREE THINGS:** **(1)** USD/JPY closed 10/12 **158.616**, 10/13 **158.339**, 10/14 **158.054** (a tie with the 9/18 rate-check high, not above); 10/9 158.246 is FINAL. That makes **six** completed closes above 158.054, ten sessions in ~157.8–158.95, no fast leg, **no intervention or rate check found** 10/9–10/15. **(2)** JGBs **rallied off the MOF records**: 30Y 4.168 → 4.064 (10/13), 10Y 3.111 → 3.015 (10/14), orderly. The BOJ did not act (SAM-33 un-fired through 10/15 AM). **(3)** October is priced out: **Totan Oct 6%, Dec 82%** (10/15 11:15 JST).
+**As of:** 2026-10-20T15:17:11+00:00. October 20 startup recovery, user-directed. **STATUS commit `e48fdf1b7`** (amendment 11). Brief folded after final STATUS write.
 
 ## VIEW
 
-**Intervention (Channel 3).** Words only (MOF monthly to 9/28 = ¥0). Six closes through the 9/18 check high drew no operation; the level is not the trigger, speed is (reading 1, still **untested**). Bessent, Katayama and Ueda are in Bangkok for the IMF/WB + G20 meetings 10/12–10/18: the next WORD test. The cross-pairs show the yen slightly firmer 10/9→10/15, so the 158–159 test is dollar strength. Next official evidence: MOF monthly ~10/30, quarterly ~11/9, FRBNY ~11/13.
+v1.7 remains retired-to-LOW; no successor declared. Last recorded position FLAT is historical desk state, not a fresh broker confirmation. Startup is complete as orientation; unresolved evidence is retained explicitly.
 
-**BOJ.** October off the table (Totan 10 → 6%); December carries the hike (82%). Uchida 10/4, Ueda 10/6 and Koeda 10/15 were hawkish on direction and set no October timetable (secondary reports). Cumulative 2.00 hikes to Apr-2027 (a count, not a probability).
+MOF October 19 curve: 10Y 2.935%, 30Y 4.028%, 40Y 4.040%; the long end remains above the demand-floor investigation level. October 20 auction parser retrieved 20Y BTC 5.844x / tail 0.6bp; source/frozen-bar owner assessment remains pending. No auction or transmission grade issued here.
 
-**JGBs (Pillar 2).** Grind to records 10/1→10/6, then an orderly five-session rally (~1–5bp/session). 5Y auction 10/14 orderly (BTC 3.560×, tail 0.50bp). Nothing near the disorder bar.
+MOF week October 4–10 foreign LT-debt net −¥339.7B, inside the one-week selling bar. Current CSV revises the prior week to −¥345.7B while the ledger retains first-print −¥347.6B. These are designated reporting investors and global foreign debt, not insurer-only or UST-only sales. CFTC October 13 net +50,207 yen LONG, down 12,118; no forced-liquidation inference. No retired channel re-arms.
 
-**Prices/flows/oil.** CGPI Sep: import prices **+1.0% m/m** in contract currency with energy **+0.69pp**, so the September oil shock has now reached Japan's import data. BoP Aug: CA **+¥4,062.0B**, primary income +¥5,133.2B against a goods deficit of −¥687.7B (the inversion holds). VECTOR-5 stays **NONE**: oil-in-yen ≈¥16,491 vs ¥18,000.
+BOJ rate pricing is unavailable currently: changed Totan image requires visual review; October 15 quote expired. Oil basis guard failed on unavailable vendor contract history. Do not propagate prior 6% as current or infer a fresh oil-in-yen trigger. News/BOJ ops assessment remains at inherited October 15 scope pending primary reads.
 
 ## CALIBRATION
 
-**Scoreboard: 16 CONFIRMED / 15 FAILED / 1 special / 1 qualified / 2 OPEN**, re-derived from `thesis/PREDICTIONS.tsv` (35 rows).
-- **SAM-42** (BOJ hikes >1.25% by Oct-31 JST): SAM **25%** as made vs Totan 36% frozen 9/29; **market now 6%**. No re-mark trigger fired.
-- **SAM-33** (72%, to Dec-31): ops audited at the record through **10/15 AM**. Falsifier un-fired.
-- RED VX-026: SAM reads it **CONFIRM-DEAD** on RED's own letter (CFTC-cover leg fired 8/7), not NO-VERDICT; packet with RED.
+35 validated prediction rows, **2 OPEN: SAM-33 and SAM-42**. No grade, re-mark or term change. SAM-42 remains 25% as made, authorized WQ-336; its registered re-mark tests govern. SAM-33 ops review is pending after October 15 AM. Historical SAM-28/31 qualifications remain in STATUS and the prediction record.
 
 ## CROSS-DOMAIN
 
-**SENDING**
-- **→ PROME:** 10/14 rate-check re-read (nothing arms) and this recovery memo.
-- **→ RED:** VX-026 CONFIRM-DEAD packet (`AGENTS/RED/inbox/2026-10-15_from-SAM_vx026-confirm-dead-not-no-verdict.md`).
-- **→ HENRY:** carry-convexity stays RETIRED; no speed event. US CPI Sep (+0.6% m/m / 3.7%) is your read, not mine.
+**SENDING:** no new signal or notice sent during startup; 17 existing WALTER packets read and receipted. Figures above are startup observations, not a new entry engine.
 
-**WAITING-FOR**
-- **MOF:** weekly flows 10/4–10/10 (not posted at 21:36 JST 10/15; ARMED for 10/16).
-- **Bangkok:** any joint US–Japan yen statement after 10/18.
-- **PROME:** landing SAM's R3 WATCH_FOR set (packet 10/1) — not re-checked.
+**WAITING-FOR:** OIS image review, oil contract-basis resolution, BOJ primary/news catch-up including Ueda October 16 and post-meetings yen language, today's auction/ops assessment. Korea close/intraday exact-value gap remains deferred. Legacy RED reply is outside normal-boot inbox scope.
 
 ## NEXT DECISION POINT
 
-**None owed.** SAM-42 resolves on the BOJ statement after the Oct 29–30 MPM. Next tests: MOF weekly + CFTC (10/16), the 20Y auction (10/20, frozen bars), any fast yen leg.
+No Will decision identified at startup. Resume exact pending work in `reports/2026-10-20_startup.md`; no new-direction research or trade commission inferred. Git synchronization pending because other owners have dirty paths. Native fleet notification/consumption unverified.
 
 ## FORWARD CATALYSTS
 
 | When | What |
 |---|---|
-| Fri Oct-16 | MOF weekly 10/4–10/10 · CFTC Oct-13 · IMF/WB plenary, Bangkok |
-| Sun Oct-18 22:15 ET | Totan OIS source-age expiry (11:15 JST 10/19) |
-| Tue Oct-20 | **20Y auction (frozen bars)** |
-| Wed Oct-21 | Japan trade balance, September (crude volume) |
-| Oct-29/30 | BOJ MPM + Outlook (SAM-42) · MOF monthly Sep-29→Oct-28 |
+| Pending | OIS visual review; October 20 20Y source/frozen-bar assessment |
+| October 21 | September Japan trade balance; crude volume |
+| October 23 | September Japan CPI, 2025 base |
+| October 29–30 | BOJ MPM + Outlook |
+| October 31 23:59 JST | SAM-42 outcome boundary |
+| Approx. October 30 / November 9 / November 13 | MOF monthly / quarterly and FRBNY FX reports; estimated dates retain source caveats |
 
-⛔ **Do not cite from this brief:** "6% = probability of an October hike" (it is an incremental 25bp equivalent); "the 10/14 close was above 158.054" (a tie at stored precision); "JGB 10Y all-time high" (3.111 was the highest since 1996); a vendor JGB level differenced against the MOF curve; the official quotes above as primary (they are secondary until the BOJ texts are read).
-
-[STATUS](STATUS.md) · [Totan OIS](https://www.totan.com/archives/15647) · [MOF JGB curve](https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1): route objections there.
+[STATUS](STATUS.md) · [startup receipt](reports/2026-10-20_startup.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1).
