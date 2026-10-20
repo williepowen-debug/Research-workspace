@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-10-20T17:30:05Z",
+  "origin": "e323b5eec1c834ea00b7925fb61b0523c4f7545d",
+  "fresh_fetch": true,
+  "commits": {
+    "06a9c5d58": "published"
+  },
+  "delivery_reconciliation": {
+    "flipped": 23,
+    "orphans": 0,
+    "unknown": 0,
+    "today_delivered": 42,
+    "today_total": 42
+  },
+  "owner_evidence": {
+    "VULCAN": "board_log.tsv acted receipt; workbook/KB.tsv KB-VULCAN-234 PROVISIONAL; relay verified, publisher web unavailable to owner",
+    "others": "integration not confirmed"
+  }
+}
