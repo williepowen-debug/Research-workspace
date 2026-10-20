@@ -103,7 +103,12 @@ def proposed_checkpoint(seen_path, staged):
     staged = validate_stage(staged)
     digest = staged.get('checkpoint_hash')
     if digest is None:
-        return None  # historical stages had no continuation
+        # Field loss is not evidence of legacy provenance. A remaining proposal
+        # or committed cursor proves continuation state needs a bound stage.
+        if staged['ids'] and any(path_for(seen_path, name).exists()
+                                 for name in ('next_token', 'scan_token')):
+            raise SystemExit('REFUSING: legacy-shaped stage has continuation state but no binding. Re-scan; no IDs marked.')
+        return None  # historical stages without continuation remain supported
     destination = path_for(seen_path, 'next_token')
     try:
         actual = hashlib.sha256(destination.read_bytes()).hexdigest()

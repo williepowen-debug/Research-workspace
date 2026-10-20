@@ -160,6 +160,29 @@ class Workflow(unittest.TestCase):
         self.assertEqual(x.load_seen()['consumed'], ['old'])
         self.assertFalse(w.path_for(x.SEEN, 'scan_token').exists())
 
+    def test_all_modern_metadata_lost_cannot_downgrade_to_legacy(self):
+        self.make_items(501)
+        self.main()
+        staged = w.read_json(x._pending_path())
+        w.atomic_json(x._pending_path(), {key: staged[key] for key in ('ids', 'staged_at')})
+        before = {p: p.read_bytes() for p in self.root.glob('*.json')}
+        with self.assertRaisesRegex(SystemExit, 'binding'):
+            self.main('--mark')
+        self.assertEqual({p: p.read_bytes() for p in before}, before)
+        self.assertEqual(x.load_seen()['consumed'], [])
+
+    def test_legacy_shape_with_active_cursor_and_lost_proposal_refuses(self):
+        self.make_items(1001)
+        self.main()
+        self.mark()
+        self.main()
+        staged = w.read_json(x._pending_path())
+        w.atomic_json(x._pending_path(), {key: staged[key] for key in ('ids', 'staged_at')})
+        w.path_for(x.SEEN, 'next_token').unlink()
+        with self.assertRaisesRegex(SystemExit, 'binding'):
+            self.main('--mark')
+        self.assertEqual(len(x.load_seen()['consumed']), 500)
+
     def test_empty_damaged_stage_refuses_instead_of_claiming_no_work(self):
         self.main()
         staged = w.read_json(x._pending_path())

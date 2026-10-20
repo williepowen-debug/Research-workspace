@@ -1,0 +1,10 @@
+# Independent bookmark binding review
+
+Observed receipt: 2026-10-20T15:10:09.456724+00:00
+Reviewer: /root/bookmark_binding_review, user-requested read-only verification helper, Codex/OpenAI; exact model UNKNOWN. First pass completed independently before substantive contact. Re-review is POST-CONTACT: owner received first-pass concrete blocker and repaired it; reviewer independently ran fresh probes against resulting bytes. No repository writes, credentials, live API or commits by reviewer. Explicit final closeout received; no remaining assignment/background work.
+
+First-pass verdict: WITHHELD on exact0c9de1e41 version.65original tests passed; five new probes found one blocker: removing every modern field from pending left a legacy-shaped ids/staged_at stage, which marked500IDs without review while a modern proposal remained. It did not advance the cursor or demonstrate skipped tail. Original exact-ID skip was fixed. Four other probes refused/recovered safely.
+
+Owner correction: proposed_checkpoint refuses a nonempty legacy-shaped stage whenever either proposal or committed cursor sidecar exists. Empty cleared stages stay no-op. Genuine legacy timestamped stages without continuation sidecars remain supported; ambiguity requires re-scan. Added complete-metadata-loss and active-cursor/proposal-loss regressions; both fail before repair, pass afterwards.
+
+FINAL VERDICT: ACCEPT offline binding repair; no remaining concrete blockers found.67tests pass in separate Python processes (35workflow/32reader). Six independent adversarial probes pass: complete metadata loss refuses before any writes, re-scan recovers501; reorderedIDs and nonUTF8proposal refuse; proposal-write/pending-write crash recovers501; zero-new-checkpoint interruption recovers1001; compatibility probe confirms genuine legacy/no-sidecar marking, cleared-empty-stage no-op, ambiguous legacy/corrupt-sidecar refusal and safe re-scan. Probe source preserved as independent-probes.py (synthetic isolated/tmp only). Reviewed hashes are in accepted-version.json. Live behavior and WQ458 continuation expressly outside reviewer scope.
