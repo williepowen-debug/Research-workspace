@@ -6,7 +6,7 @@
 
 **Last real data refresh (fundamental operational review): 2026-10-14 14:12 EDT — SCOPED-PARTIAL.** [Exact former refresh boundary and dated updates](archive/2026-10-20_organisation-cleanup/STATUS.md.before.md); [block conservation map](audits/2026-10-20_organisation-cleanup/manifest.json). Boot diagnostics and organisational maintenance do not refresh market evidence.
 
-**Navigation:** [start here](README.md) · [USO research](USO/README.md) · [handoff](SCRATCH.md). Live routine deployment/normal-run acceptance remains unverified at the [existing CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
+**Navigation:** [start here](README.md) · [completed charter cleanup and conservation](audits/2026-10-20_organisation-cleanup/INSTALLATION.md) · [USO research](USO/README.md) · [handoff](SCRATCH.md). Live routine deployment/normal-run acceptance remains unverified at the [existing CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
 
 ---
 

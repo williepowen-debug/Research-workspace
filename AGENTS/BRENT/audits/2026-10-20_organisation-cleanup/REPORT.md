@@ -1,6 +1,6 @@
 # BRENT organisation cleanup — October20,2026
 
-Status: PARTIAL. Approved non-charter work is implemented; charter remains a review draft, not installed. No research/evidence file moved and no file, source receipt or ledger row deleted. Mail packets were Git-renamed after logging dispositions. Foreign working-tree changes left untouched; pull deferred under root Git rules.
+Status: IMPLEMENTED under Will's subsequent direct instruction to start. Charter installed; independent PROME review remains pending. [Final installation/conservation receipt](INSTALLATION.md). The phase-one account below retains its original measurements; pre-install wording/review sequencing is historical and superseded by that receipt. [Exact pre-install report](REPORT.pre-install.md). No research/evidence file moved and no file, source receipt or ledger row deleted. Mail packets were Git-renamed after logging dispositions. Foreign working-tree changes left untouched; pull deferred under root Git rules.
 
 ## Authority and scope
 

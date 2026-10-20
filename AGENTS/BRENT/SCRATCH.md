@@ -8,11 +8,11 @@
 - Corrected TRADE expiry wording to USER.md; holdings, source receipts and binding decision paths unchanged.
 - Replaced accumulated STATUS/NEXUS/TRACKER opening layers with scoped current context; all displaced text preserved verbatim with byte/hash/range maps. NEXUS CROSS-DOMAIN and CALIBRATION preserved literally.
 - Added short README navigation. Research/evidence files and data ledgers unchanged; no deletion or new schedule/threshold/check.
-- Prepared charter candidate and diff for PROME before/after review; live CLAUDE.md untouched. Candidate remains above the approximate requested size target; further reduction and installation are pending review, not complete.
+- Will directly instructed starting without waiting for PROME pre-review. Installed the slimmed charter; all original text preserved verbatim, stable step numbers and executable fenced commands conserved. [Installation receipt](audits/2026-10-20_organisation-cleanup/INSTALLATION.md). Independent PROME review remains pending.
 - [Audit/report](audits/2026-10-20_organisation-cleanup/REPORT.md), [conservation manifest](audits/2026-10-20_organisation-cleanup/manifest.json). Prior handoff preserved [whole](archive/2026-10-20_organisation-cleanup/SCRATCH.md.before.md).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. October20: PROME reviews live charter versus candidate and conservation map; incorporate findings, install only after pre-review, then request post-review. No claim of charter completion before both reviews.
+1. October20: PROME reviews installed charter against original and final conservation map; address concrete findings. Implementation is complete under Will's direct instruction; no independent review acknowledgement claimed.
 2. October20remainingresearch: full October15EIA/policy/BRT31evaluation including price leg, and HENRYDecembermeasurement adoption/rejection. Routine output is not an owner grade. TERRY owns holding consequences.
 3. October23: nextCOTasofOctober20 only after actual release; existing savedCOT#10not regraded. October24shadow-run and October26BRT30 endpoints remain at existing owners. October26USOpublication observesOctober15, manual dependency not guaranteed automation.
 4. November1/18/19: existing DST migration and VLO basis/last-observation dates remain in docket/TRADE. Live scheduler deployment unverified.
@@ -27,7 +27,9 @@
 - No new Will decision. Latest broker truth off-repo; TRADE owns structural receipts and original/additional-share scope. USER.md governs expiry communication; no reminders. TERRY constructs/grades, Will executes.
 
 ## MAIL STATE
-- FiveWALTERINFO and onePROMEapproval consumed/logged/filed thissession; HENRY/OSPREYdeferred in place. Older deferredACTION work remains tracked at startup/resume receipts. ThreeOctober13outbox packets retained: this pass did not establish their loops closed. Review packet saved to PROME/inbox; recipient consumption UNKNOWN.
+- FiveWALTERINFO and onePROMEapproval consumed/logged/filed thissession; HENRY/OSPREYdeferred in place. Older deferredACTION work remains tracked at startup/resume receipts. ThreeOctober13outbox packets retained: this pass did not establish their loops closed. Installation packet supersedes the earlier pre-review request; recipient consumption UNKNOWN.
 
 ## WORKBOOK HEALTH
 - No observation, registry, prediction, incident, COT, lesson/index or frozen historical ledger amended. Source and maintenance-age findings remain. Generated calendar event set unchanged. Prior publication/closeout details are preserved in the earlier handoff; this pass makes no new data-freshness attestation.
+
+Prior pre-install handoff preserved verbatim at [before-image](archive/2026-10-20_organisation-cleanup/SCRATCH.pre-install.md).

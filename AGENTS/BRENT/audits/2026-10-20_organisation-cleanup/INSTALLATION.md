@@ -1,0 +1,13 @@
+# Charter cleanup installed — 2026-10-20T18:39:37-04:00
+
+Will directly: “I think you should just be able to start.” Proceeded without waiting for PROME pre-review; all other preservation conditions remain. Implementation complete; independent PROME review pending, not claimed complete.
+
+CLAUDE.md: **31,848 → 22,773 UTF-8 bytes**, a reduction of 9,075 bytes (28.49%). Below the existing70%budget target22,785bytes. No new mandatory file, check, schedule, threshold or authority.
+
+Original text: `archive/2026-10-20_organisation-cleanup/CLAUDE.md.before.md` (whole file). Final artifact: [CLAUDE.installed.md](CLAUDE.installed.md). [Final diff](CLAUDE.installed.diff), [source-section/byte/hash map](charter-installed-map.json). All 30 changed original blocks are conserved literally at the recorded archive byte offsets; replacement text is included in the map. Original SHA256 `5cd942b4215fab61c6d62a07370847c1f00625a046199be6dc68314416c8dec3`; installed SHA256 `a900b37af30a3222a9e47b967299802b114ea0f768804b0da6dcc420c6ae2ea0`, CRC32 `713c7161`; payload rule whole file, UTF-8 bytes.
+
+Author comparison retained boot/closeout numbering, required full trade/spec reads, correction receipt fields, every-session write-back and scoped freshness duties, frozen surfaces, message dispositions, routing, instrument/source limits, retired-threshold constraints, and approval boundaries. No research or evidence file moved; no file or data row deleted. Source-date/economic-grade debts remain unchanged. This author comparison is not independent semantic review.
+
+[Installation validation](installation-validation.json): 687 assertions passed, zero failures. Most are protected-file hashes; they do not represent independent semantic tests. Original executable fenced blocks and protocol step labels match; selected stable rule identifiers retained; protected research, USO, scripts, workbook, trade specs, docket, predictions and incident files unchanged. READ-CAP still finds the same five whole-read files; all within budget, NEXUS under rotation threshold. No full market boot needed for prose-only edits. Weekday and local-link checks run at final persistence.
+
+Earlier draft and review request remain dated history; the installation packet supersedes their pending-installation state. Phase-one report saved at REPORT.pre-install.md. Prior follow-through handoff/rulings/tracker/status text is conserved verbatim at `archive/2026-10-20_organisation-cleanup/{SCRATCH,RULINGS,TRACKER,STATUS}.pre-install.md`; payload rule whole file. Cross-domain and calibration sections retain their existing evidence-vintage boundaries. Publication is distinct from recipient consumption.
