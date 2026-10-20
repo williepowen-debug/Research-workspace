@@ -4,6 +4,10 @@ Use this folder for comparisons, common macro drivers and evidence covering more
 
 Examples: gold/silver ratios; platinum/palladium vehicle-demand and supply studies; shared COT history; multi-metal news sweeps; common rates, dollar and cross-market source captures.
 
+## Knowledge base
+
+[KB.tsv](KB.tsv) contains multi-metal entries and general desk records from the [permanent MIDAS KB](../workbook/KB.tsv). This is a generated view: original IDs, sources, dates, confidence and historical corrections are preserved. Paired-metal findings appear in each relevant metal's KB and in shared. Edit the permanent ledger and [metal tags](../KB_METALS.tsv), then refresh; do not edit this view directly. [Maintenance instructions](../README.md#knowledge-bases). Current judgments remain in STATUS.
+
 ## Shared research and evidence
 
 - [MIDAS — BOTH REMAINING OPEN PREDICTIONS ARE KEYED TO REFERENTS THAT HAVE MOVED](../analysis/2026-08-27_registered-specs-keyed-to-moving-referents.md) — gold,copper.

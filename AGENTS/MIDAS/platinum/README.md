@@ -4,6 +4,10 @@ Platinum and PPLT research, automotive and industrial demand, inventories, inves
 
 This folder is the topic entry point. [STATUS](../STATUS.md) owns current state; [THESIS](../THESIS.md) owns mechanisms and standing rules; [PREDICTIONS](../workbook/PREDICTIONS.tsv) owns forecast letters. The links below are dated artifacts, not independent live summaries.
 
+## Knowledge base
+
+[KB.tsv](KB.tsv) contains platinum entries from the [permanent MIDAS KB](../workbook/KB.tsv). This is a generated view: original IDs, sources, dates, confidence and historical corrections are preserved. Paired-metal findings appear in each relevant metal's KB and in shared. Edit the permanent ledger and [metal tags](../KB_METALS.tsv), then refresh; do not edit this view directly. [Maintenance instructions](../README.md#knowledge-bases). Current judgments remain in STATUS.
+
 ## Research and interpretation
 
 Existing focused evidence is part of the shared studies below. Add new single-metal reports under `research/` in this folder.

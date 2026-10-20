@@ -80,3 +80,12 @@ shared	silver,platinum,palladium	sources	sources/2026-10-12_thesis-test	2026-10-
 shared	gold,silver,platinum,palladium,copper	sources	sources/2026-10-20_news	2026-10-20_news	Dated material; inspect its source dates and approval status.
 shared	silver,platinum,palladium	sources	sources/cot_metals_history_2010_2026.tsv	cot_metals_history_2010_2026.tsv	Frozen positioning reference; preserve bytes and grading basis.
 shared	silver,platinum,palladium	sources	sources/cot_metals_vintages_consumed.tsv	cot_metals_vintages_consumed.tsv	Append-only consumption record used by boot; do not move or duplicate.
+gold	gold	derived-kb	gold/KB.tsv	Gold knowledge base	Generated from workbook/KB.tsv and KB_METALS.tsv; preserve original IDs; do not edit directly.
+silver	silver	derived-kb	silver/KB.tsv	Silver knowledge base	Generated from workbook/KB.tsv and KB_METALS.tsv; preserve original IDs; do not edit directly.
+platinum	platinum	derived-kb	platinum/KB.tsv	Platinum knowledge base	Generated from workbook/KB.tsv and KB_METALS.tsv; preserve original IDs; do not edit directly.
+palladium	palladium	derived-kb	palladium/KB.tsv	Palladium knowledge base	Generated from workbook/KB.tsv and KB_METALS.tsv; preserve original IDs; do not edit directly.
+copper	copper	derived-kb	copper/KB.tsv	Copper knowledge base	Generated from workbook/KB.tsv and KB_METALS.tsv; preserve original IDs; do not edit directly.
+shared		derived-kb	shared/KB.tsv	Shared knowledge base	Generated from workbook/KB.tsv and KB_METALS.tsv; preserve original IDs; do not edit directly.
+operations		metadata	KB_METALS.tsv	Reviewed KB metal classifications	Derived-view maintenance; workbook/KB.tsv remains authoritative.
+operations		code	refresh_metal_kbs.py	Refresh/check focused metal KB views	Derived-view maintenance; workbook/KB.tsv remains authoritative.
+operations		code	test_metal_kbs.py	KB filtering and boot freshness verification	Derived-view maintenance; workbook/KB.tsv remains authoritative.

@@ -11,6 +11,14 @@ Find research and data by metal. These folders are topic indexes and the filing 
 | [Copper](copper/README.md) | Copper, CPER, Chinese demand, mine supply and inventories |
 | [Shared studies](shared/README.md) | Ratios, paired metals, shared macro evidence and multi-metal datasets |
 
+## Knowledge bases
+
+Each metal has a focused KB: [gold](gold/KB.tsv), [silver](silver/KB.tsv), [platinum](platinum/KB.tsv), [palladium](palladium/KB.tsv), and [copper](copper/KB.tsv). [Shared KB](shared/KB.tsv) holds multi-metal comparisons and general desk records.
+
+These are generated views of the permanent [knowledge ledger](workbook/KB.tsv), with its original IDs, full facts, source references, confidence, dates and correction history intact. Multi-metal entries appear in each relevant view and in shared; desk-only records appear only in shared. A metal mentioned incidentally does not automatically get a tag. Historical rows retain their original status; read later corrections and STATUS before using a claim as current.
+
+To add knowledge or a correction, append to `workbook/KB.tsv` under [its schema](workbook/SCHEMA.tsv), classify every new ID in [KB_METALS.tsv](KB_METALS.tsv), then run `python3 AGENTS/MIDAS/refresh_metal_kbs.py --refresh` from the Git root. Tag rationale is navigation metadata, not a new research claim. Never edit generated `KB.tsv` views directly. The script needs only Python's standard library and resolves paths from its own location. Run it with `--check` for a read-only content check; boot includes this check in its ledger leg. Unclassified/invalid inputs fail visibly; stale views require review. Views are on-demand reading, not new whole-file boot reads.
+
 ## Filing policy
 
 Within each metal, new reports go in `research/` and new evidence in `sources/YYYY-MM-DD_topic/`. Create deeper price, positioning, flow, stock, supply or demand categories when they contain material. Inseparable multi-metal research and source bundles belong in `shared/`, with links from each relevant metal.

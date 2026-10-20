@@ -11,7 +11,8 @@ launch cwd.
 Boot step 4 in CLAUDE.md. Five legs:
   0. metals_watch.py — real yield (FRED DFII10) + gold/silver/copper/Pt/Pd
      spot (futures + ETF proxy) + GSR + M1 divergence classifier.
-  1. ledger staleness — workbook/*.tsv AND TRADE.md vs STATUS mtime (shared script).
+  1. ledger staleness — workbook/*.tsv AND TRADE.md (shared script), plus
+     derived metal KB content freshness against the canonical ledger and tags.
   2. predictions-due  — workbook/PREDICTIONS.tsv rows past resolve_date still OPEN.
   3. COT vintage freshness — is CFTC serving a gold COT vintage this desk has not
      consumed? (wired 2026-09-05, closing DAEDALUS F-2.)
@@ -312,12 +313,14 @@ def main():
         print("  🔴 metals_watch.py NOT FOUND — leg cannot certify, verdict is NOT quiet")
         legs.append(("metals watch", 2))
 
-    print("\n--- 1. ledger staleness (workbook + TRADE.md vs STATUS) ---")
+    print("\n--- 1. ledger staleness (workbook + TRADE.md + metal KB views) ---")
     sw = run_alert([str(STALENESS), "MIDAS", "--quiet"])
     st = run_alert([str(STALENESS), "MIDAS", "--trade", "--quiet"])
-    if sw == st == 0:
+    kv = run_marked([str(HERE / "refresh_metal_kbs.py"), "--check"])
+    if sw == st == kv == 0:
         print("  ✓ quiet (alert-contract: output only when stale/misconfigured)")
-    legs.append(("ledger staleness", 2 if 2 in (sw, st) else (1 if 1 in (sw, st) else 0)))
+    legs.append(("ledger staleness / metal KB views",
+                 2 if 2 in (sw, st, kv) else (1 if 1 in (sw, st, kv) else 0)))
 
     print("\n--- 2. predictions-due scan ---")
     n_due, due = predictions_due()

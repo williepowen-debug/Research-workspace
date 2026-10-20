@@ -4,6 +4,10 @@ Copper and CPER research, Chinese demand, exchange inventories, mining supply an
 
 This folder is the topic entry point. [STATUS](../STATUS.md) owns current state; [THESIS](../THESIS.md) owns mechanisms and standing rules; [PREDICTIONS](../workbook/PREDICTIONS.tsv) owns forecast letters. The links below are dated artifacts, not independent live summaries.
 
+## Knowledge base
+
+[KB.tsv](KB.tsv) contains copper entries from the [permanent MIDAS KB](../workbook/KB.tsv). This is a generated view: original IDs, sources, dates, confidence and historical corrections are preserved. Paired-metal findings appear in each relevant metal's KB and in shared. Edit the permanent ledger and [metal tags](../KB_METALS.tsv), then refresh; do not edit this view directly. [Maintenance instructions](../README.md#knowledge-bases). Current judgments remain in STATUS.
+
 ## Research and interpretation
 
 - [MIDAS — I1 TRACKED-BASELINE DEFECT: THE MEASURED EFFECT](../analysis/2026-08-23_i1-tracked-baseline-measured-effect.md)

@@ -1,0 +1,171 @@
+id	metals	rationale
+KB-MIDAS-001	gold	Reviewed M1 subject: gold.
+KB-MIDAS-002	gold	Reviewed M1 subject: gold.
+KB-MIDAS-003	copper	Reviewed I1 subject: copper.
+KB-MIDAS-004	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-005	gold	Reviewed M1 subject: gold.
+KB-MIDAS-006	gold,silver,copper	Three-metal COT baseline.
+KB-MIDAS-007	gold	Reviewed M1 subject: gold.
+KB-MIDAS-008	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-009	copper	Reviewed I1 subject: copper.
+KB-MIDAS-010	copper	Reviewed I1 subject: copper.
+KB-MIDAS-011	copper	Reviewed I1 subject: copper.
+KB-MIDAS-012	gold	Reviewed M1 subject: gold.
+KB-MIDAS-013	gold	Reviewed M1 subject: gold.
+KB-MIDAS-014	gold	Reviewed M1 subject: gold.
+KB-MIDAS-015	gold	Reviewed M1 subject: gold.
+KB-MIDAS-016	gold	Reviewed M1 subject: gold.
+KB-MIDAS-017	copper	Reviewed I1 subject: copper.
+KB-MIDAS-018	copper	Reviewed I1 subject: copper.
+KB-MIDAS-019	gold	Reviewed M1 subject: gold.
+KB-MIDAS-020	palladium	Russian palladium anti-dumping determination.
+KB-MIDAS-021	gold	Reviewed M1 subject: gold.
+KB-MIDAS-022	copper	Reviewed I1 subject: copper.
+KB-MIDAS-023	gold	Reviewed M1 subject: gold.
+KB-MIDAS-024	gold,copper	Monetary-versus-industrial comparison.
+KB-MIDAS-025	gold	Reviewed M1 subject: gold.
+KB-MIDAS-026	gold	Reviewed M1 subject: gold.
+KB-MIDAS-027	copper	Reviewed I1 subject: copper.
+KB-MIDAS-028	gold	Reviewed M1 subject: gold.
+KB-MIDAS-029	gold	Reviewed M1 subject: gold.
+KB-MIDAS-030	gold	Reviewed M1 subject: gold.
+KB-MIDAS-031	gold	Reviewed M1 subject: gold.
+KB-MIDAS-032	gold,silver,platinum,palladium	GSR and PGM comparison of the hard-asset rally.
+KB-MIDAS-033	copper	Reviewed I1 subject: copper.
+KB-MIDAS-034	gold	Reviewed M1 subject: gold.
+KB-MIDAS-035	gold	Reviewed M1 subject: gold.
+KB-MIDAS-036	gold	Reviewed M1 subject: gold.
+KB-MIDAS-037	gold,silver,platinum,palladium,copper	Settlement/session clocks for the five metals.
+KB-MIDAS-038	gold	Reviewed M1 subject: gold.
+KB-MIDAS-039	gold	Reviewed M1 subject: gold.
+KB-MIDAS-041	gold	Reviewed M1 subject: gold.
+KB-MIDAS-042	gold	Gold COT base-rate correction.
+KB-MIDAS-043	gold	Reviewed M1 subject: gold.
+KB-MIDAS-044	gold	Reviewed M1 subject: gold.
+KB-MIDAS-045	copper	Reviewed I1 subject: copper.
+KB-MIDAS-046	gold	Gold futures-versus-GLD rates beta correction.
+KB-MIDAS-047	gold	Gold in-flight daily-bar correction.
+KB-MIDAS-048	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-049	gold	Reviewed M1 subject: gold.
+KB-MIDAS-050	gold	Gold futures contract-roll basis defect.
+KB-MIDAS-051	copper	Reviewed I1 subject: copper.
+KB-MIDAS-052	gold	Gold roll label refinement.
+KB-MIDAS-053	gold	Reviewed M1 subject: gold.
+KB-MIDAS-054	gold	Reviewed M1 subject: gold.
+KB-MIDAS-055	gold	Reviewed M1 subject: gold.
+KB-MIDAS-056	shared	Reviewed cross subject: desk operations or general context.
+KB-MIDAS-057	shared	Delivery and continuity process failure; gold evidence resides in its own rows.
+KB-MIDAS-058	copper	Reviewed I1 subject: copper.
+KB-MIDAS-059	copper	Reviewed I1 subject: copper.
+KB-MIDAS-060	shared	Cross-desk acknowledgement verification failure.
+KB-MIDAS-061	gold	Reviewed M1 subject: gold.
+KB-MIDAS-062	gold,platinum	Platinum residual relative to gold.
+KB-MIDAS-063	gold,platinum,palladium	Paired PGM residuals relative to gold.
+KB-MIDAS-064	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-065	gold	Reviewed M1 subject: gold.
+KB-MIDAS-066	gold	Reviewed M1 subject: gold.
+KB-MIDAS-067	gold,silver	Gold/silver ratio across contract rolls.
+KB-MIDAS-068	gold	Reviewed M1 subject: gold.
+KB-MIDAS-069	gold	Reviewed M1 subject: gold.
+KB-MIDAS-070	gold,copper	Frozen gold/copper forecast referents and prospective rules.
+KB-MIDAS-071	gold	Reviewed M1 subject: gold.
+KB-MIDAS-072	copper	Reviewed I1 subject: copper.
+KB-MIDAS-073	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-074	gold,platinum,palladium	Three-metal moving-bar validation example.
+KB-MIDAS-075	shared	Kernel submission provenance and authoring procedure.
+KB-MIDAS-076	shared	Reviewed cross subject: desk operations or general context.
+KB-MIDAS-077	shared	Reviewed cross subject: desk operations or general context.
+KB-MIDAS-078	shared	Reviewed cross subject: desk operations or general context.
+KB-MIDAS-079	gold	Reviewed M1 subject: gold.
+KB-MIDAS-080	gold	Reviewed M1 subject: gold.
+KB-MIDAS-081	gold,platinum,palladium	PGM residual comparison across gold denominator bases.
+KB-MIDAS-082	gold	Reviewed M1 subject: gold.
+KB-MIDAS-083	gold	Reviewed M1 subject: gold.
+KB-MIDAS-084	gold	Reviewed M1 subject: gold.
+KB-MIDAS-085	shared	Cross-commodity continuous-futures method; gold instances in separate rows.
+KB-MIDAS-086	gold	Reviewed M1 subject: gold.
+KB-MIDAS-087	gold	Reviewed M1 subject: gold.
+KB-MIDAS-088	gold	Reviewed M1 subject: gold.
+KB-MIDAS-089	gold,platinum,palladium	Palladium-versus-platinum residuals relative to gold.
+KB-MIDAS-090	gold	Reviewed M1 subject: gold.
+KB-MIDAS-091	shared	Reviewed cross subject: desk operations or general context.
+KB-MIDAS-092	gold	Reviewed M1 subject: gold.
+KB-MIDAS-093	gold	Reviewed M1 subject: gold.
+KB-MIDAS-094	gold,platinum,palladium	Confirmed PGM tail residuals relative to gold.
+KB-MIDAS-095	gold,platinum,palladium	Correction to the shared PGM-versus-gold residual result.
+KB-MIDAS-096	gold	Reviewed M1 subject: gold.
+KB-MIDAS-097	gold	Reviewed M1 subject: gold.
+KB-MIDAS-098	copper	Reviewed I1 subject: copper.
+KB-MIDAS-099	gold	Reviewed M1 subject: gold.
+KB-MIDAS-100	gold	Reviewed M1 subject: gold.
+KB-MIDAS-101	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-102	gold	Reviewed M1 subject: gold.
+KB-MIDAS-103	gold	Reviewed M1 subject: gold.
+KB-MIDAS-104	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-105	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-106	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-107	copper	Reviewed I1 subject: copper.
+KB-MIDAS-108	copper	Reviewed I1 subject: copper.
+KB-MIDAS-109	gold	Reviewed M1 subject: gold.
+KB-MIDAS-110	gold	Reviewed M1 subject: gold.
+KB-MIDAS-111	gold	Reviewed M1 subject: gold.
+KB-MIDAS-112	gold,silver,platinum,palladium,copper	Continuous-futures pointer defects measured across all five metals.
+KB-MIDAS-113	copper	Reviewed I1 subject: copper.
+KB-MIDAS-114	gold	Reviewed M1 subject: gold.
+KB-MIDAS-115	gold	Reviewed M1 subject: gold.
+KB-MIDAS-116	gold	Reviewed M1 subject: gold.
+KB-MIDAS-117	silver,platinum,palladium	Reviewed M2/I2 subject: silver / platinum / palladium.
+KB-MIDAS-118	silver,platinum,palladium	Reviewed M2/I2 subject: silver / platinum / palladium.
+KB-MIDAS-119	gold,copper	Reviewed M1/I1 subject: gold / copper.
+KB-MIDAS-120	gold	Reviewed M1 subject: gold.
+KB-MIDAS-121	silver,platinum,palladium	Reviewed M2/I2 subject: silver / platinum / palladium.
+KB-MIDAS-122	gold	Reviewed M1 subject: gold.
+KB-MIDAS-123	shared	Unconfirmed smelter story; no specific covered-metal production impact identified.
+KB-MIDAS-124	shared	Reviewed cross subject: desk operations or general context.
+KB-MIDAS-125	gold	Reviewed M1 subject: gold.
+KB-MIDAS-126	gold	Reviewed M1 subject: gold.
+KB-MIDAS-127	gold,silver,platinum,palladium	Four-metal COT update.
+KB-MIDAS-128	silver,platinum,palladium	Reviewed M2/I2 subject: silver / platinum / palladium.
+KB-MIDAS-129	copper	Reviewed I1 subject: copper.
+KB-MIDAS-130	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-131	silver	Reviewed M2 subject: silver.
+KB-MIDAS-132	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-133	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-134	gold	Reviewed M1 subject: gold.
+KB-MIDAS-135	shared	Desk audit summary; individual evidence rows supply metal findings.
+KB-MIDAS-136	gold,silver,platinum,palladium,copper	Named-contract and GSR input repairs cover all five metals.
+KB-MIDAS-137	gold	Reviewed M1 subject: gold.
+KB-MIDAS-138	gold	Reviewed M1 subject: gold.
+KB-MIDAS-139	copper	Reviewed I1 subject: copper.
+KB-MIDAS-140	silver	Silver solar-demand and physical inventory evidence.
+KB-MIDAS-141	gold,silver,platinum,palladium	Silver/PGM bands, paired-ETF basis review and PGM policy checks.
+KB-MIDAS-142	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-143	silver	Reviewed M2 subject: silver.
+KB-MIDAS-144	silver	Reviewed M2 subject: silver.
+KB-MIDAS-145	copper	Reviewed I1 subject: copper.
+KB-MIDAS-146	gold,platinum,palladium	Gold macro calendar and PGM production calendar.
+KB-MIDAS-147	gold,silver,platinum,palladium,copper	Silver/copper provenance checks and four precious-metal ETF closes.
+KB-MIDAS-148	gold	Reviewed M1 subject: gold.
+KB-MIDAS-149	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-150	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-151	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-152	silver	Reviewed M2 subject: silver.
+KB-MIDAS-153	shared	Closeout and shared coordination obligations.
+KB-MIDAS-154	gold	Reviewed M1 subject: gold.
+KB-MIDAS-155	gold,silver,platinum,palladium	Frozen gold/silver and platinum/palladium ETF-pair interpretation.
+KB-MIDAS-156	gold	Reviewed M1 subject: gold.
+KB-MIDAS-157	shared	Qualified cross-domain government-equity context.
+KB-MIDAS-158	gold	Reviewed M1 subject: gold.
+KB-MIDAS-159	shared	Cross-domain credit-spread handoff without a metal-specific finding.
+KB-MIDAS-160	gold	Reviewed M1 subject: gold.
+KB-MIDAS-161	gold	Reviewed M1 subject: gold.
+KB-MIDAS-162	gold	Reviewed M1 subject: gold.
+KB-MIDAS-163	platinum,palladium	Reviewed I2 subject: platinum / palladium.
+KB-MIDAS-164	platinum	China platinum imports and exchange stocks.
+KB-MIDAS-165	silver	Reviewed M2 subject: silver.
+KB-MIDAS-166	gold	Reviewed M1 subject: gold.
+KB-MIDAS-167	gold	Reviewed M1 subject: gold.
+KB-MIDAS-168	gold	Reviewed M1 subject: gold.
+KB-MIDAS-169	gold	Reviewed M1 subject: gold.
+KB-MIDAS-170	shared	Reviewed cross subject: desk operations or general context.
+KB-MIDAS-171	shared	Reviewed cross subject: desk operations or general context.
