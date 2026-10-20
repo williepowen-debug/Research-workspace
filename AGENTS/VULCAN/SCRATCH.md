@@ -1,4 +1,9 @@
-> # ⛔ 2026-10-20T14:57:41-04:00 — READ THIS BLOCK FIRST. Will requested a CRWV organization audit and asked about local KB rows.
+> # ⛔ 2026-10-20T15:10:59-04:00 — READ THIS BLOCK FIRST. Will authorized CRWV organization implementation.
+> ▶ START HERE: `CRWV/README.md` → `MAINTENANCE.md`. Edit company `CRWV/KB.tsv` or broader `workbook/KB_GENERAL.tsv`; regenerate legacy combined view with `scripts/kb_catalog.py --write`. Never edit the generated view.
+>20company+227general=247unchanged rows/IDs. Correction map and48-entry guide retain86 source aliases/copies.12new regression tests and41existingvalidatorcases passed; all frozen evidence preserved.
+> Scores15/25, five falsifiers and scheduled work unchanged. Three WALTER INFO packets consumed without fresh financial grades. Native fleet notification/consumption unverified; no pull with other desks’ residue.
+
+> # ⛔ 2026-10-20T14:57:41-04:00 — superseded resume block. Will requested a CRWV organization audit and asked about local KB rows.
 > ▶ START HERE: `CRWV/2026-10-20_organization-review.md`. Proposed companyKB ownership needs reader/validator migration; currently mainKB canonical, frozen extract historical.
 > Audit:12 redundant copies, routing overlap, KB243 capture omission, three later-qualified snapshot rows. No deletions, document moves, KB migration or new financial grades applied. Scores15/25 and scheduled work unchanged.
 

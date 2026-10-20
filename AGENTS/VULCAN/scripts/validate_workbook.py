@@ -49,6 +49,8 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+import kb_catalog
+
 WB = Path(__file__).resolve().parents[1] / "workbook"
 SCHEMA = WB / "SCHEMA.tsv"
 
@@ -267,6 +269,11 @@ def validate(only=None):
                 if bad:
                     warns.append(f"{ledger}: {len(bad)} id(s) not matching prefix {pre}-: {bad[:3]}")
 
+    # KB.tsv remains readable at the historical path, but is now derived from
+    # the company and general authorities. Schema checks alone miss stale views
+    # and duplicate IDs split across otherwise individually valid ledgers.
+    if only is None or only in {"KB.tsv", "KB_GENERAL.tsv", "../CRWV/KB.tsv"}:
+        errs.extend(kb_catalog.check(WB.parent))
     return errs, warns, notes
 
 

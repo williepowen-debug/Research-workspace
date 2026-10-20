@@ -1,0 +1,1052 @@
+{
+  "basis": "Frozen capture in MANIFEST.json; this catalogue does not refresh evidence",
+  "source_copies": 86,
+  "unique_contents": 74,
+  "reading_entries": 48,
+  "entries": [
+    {
+      "key": "sha256:afe87efd271c4d23cebfe5e3d60b290c0b7118ba2ceb1fd84a4d8d423cdf5743",
+      "topic": "Financing and credit",
+      "role": "historical assignment",
+      "title": "DEEP-RESEARCH PROMPT 18 — CoreWeave / neocloud AI-credit: capital structure + transmission map",
+      "preferred_copy": "archive/documents/AGENTS/DEWEY/inbox/WALTER/processed/DEEP-RESEARCH-PROMPT-18-coreweave-neocloud-credit.md",
+      "preferred_original": "AGENTS/DEWEY/inbox/WALTER/processed/DEEP-RESEARCH-PROMPT-18-coreweave-neocloud-credit.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/DEWEY/inbox/WALTER/processed/DEEP-RESEARCH-PROMPT-18-coreweave-neocloud-credit.md",
+          "copy": "archive/documents/AGENTS/DEWEY/inbox/WALTER/processed/DEEP-RESEARCH-PROMPT-18-coreweave-neocloud-credit.md",
+          "owner": "DEWEY",
+          "copy_sha256": "afe87efd271c4d23cebfe5e3d60b290c0b7118ba2ceb1fd84a4d8d423cdf5743"
+        }
+      ]
+    },
+    {
+      "key": "DEWEY-COREWEAVE-RESEARCH-20260709",
+      "topic": "Financing and credit",
+      "role": "research",
+      "title": "CoreWeave / neocloud AI-credit — capital structure + transmission map",
+      "preferred_copy": "archive/documents/AGENTS/DEWEY/output/2026-07-09_coreweave-neocloud-credit.md",
+      "preferred_original": "AGENTS/DEWEY/output/2026-07-09_coreweave-neocloud-credit.md",
+      "distinct_contents": 4,
+      "aliases": [
+        {
+          "source": "AGENTS/DEWEY/output/2026-07-09_coreweave-neocloud-credit.md",
+          "copy": "archive/documents/AGENTS/DEWEY/output/2026-07-09_coreweave-neocloud-credit.md",
+          "owner": "DEWEY",
+          "copy_sha256": "5607d3d950c3cb7f50c7e0fe75e18e1c783bfbab587d4f4a9b253320588fe49f"
+        },
+        {
+          "source": "AGENTS/WALTER/inbox/DEWEY/processed/2026-07-09_coreweave-HENRY-fcf-route-emphasis.md",
+          "copy": "archive/documents/AGENTS/WALTER/inbox/DEWEY/processed/2026-07-09_coreweave-HENRY-fcf-route-emphasis.md",
+          "owner": "WALTER",
+          "copy_sha256": "a0943aaad6b419c3c0613da4643264eeb588dab21f167c39dbb6f12d7da573d3"
+        },
+        {
+          "source": "AGENTS/WALTER/inbox/DEWEY/processed/2026-07-09_coreweave-neocloud-credit_handoff.md",
+          "copy": "archive/documents/AGENTS/WALTER/inbox/DEWEY/processed/2026-07-09_coreweave-neocloud-credit_handoff.md",
+          "owner": "WALTER",
+          "copy_sha256": "6865b1ef08d9dd14617a794e827a4c31abc9aab4825996fa8f6edda7c84512a4"
+        },
+        {
+          "source": "BOARD/SIG-W-20260709-001-coreweave-neocloud-ai-credit-map-idiosyncratic-not-systemic.md",
+          "copy": "archive/documents/BOARD/SIG-W-20260709-001-coreweave-neocloud-ai-credit-map-idiosyncratic-not-systemic.md",
+          "owner": "BOARD",
+          "copy_sha256": "9953d52496af99b0595d7ccb9b60b0f76adadcda7174d8fe641813c955b5d579"
+        }
+      ]
+    },
+    {
+      "key": "sha256:59d3b035a90c5bd4882395b9819112ea2b33c6f868231fa5f0198526a612b5cd",
+      "topic": "Financing and credit",
+      "role": "research",
+      "title": "THE AI-CREDIT GUARANTEE WEB — who legally bears credit risk, where the cross-links are, and what binds first",
+      "preferred_copy": "archive/documents/AGENTS/DEWEY/output/2026-08-02_ai-credit-guarantee-web.md",
+      "preferred_original": "AGENTS/DEWEY/output/2026-08-02_ai-credit-guarantee-web.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/DEWEY/output/2026-08-02_ai-credit-guarantee-web.md",
+          "copy": "archive/documents/AGENTS/DEWEY/output/2026-08-02_ai-credit-guarantee-web.md",
+          "owner": "DEWEY",
+          "copy_sha256": "59d3b035a90c5bd4882395b9819112ea2b33c6f868231fa5f0198526a612b5cd"
+        }
+      ]
+    },
+    {
+      "key": "sha256:a5d36981f4de60b51b595b4836f3d424f240c5da138a7de0cd203572cf84c635",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "VULCAN → LIQUID: your CRWV hard date resolved — and it landed BETWEEN your two poles, not on one",
+      "preferred_copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-08-03_from-VULCAN_crwv-ddtl-resolved-middle-state-plus-memory-derate.md",
+      "preferred_original": "AGENTS/LIQUID/inbox/processed/2026-08-03_from-VULCAN_crwv-ddtl-resolved-middle-state-plus-memory-derate.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/inbox/processed/2026-08-03_from-VULCAN_crwv-ddtl-resolved-middle-state-plus-memory-derate.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-08-03_from-VULCAN_crwv-ddtl-resolved-middle-state-plus-memory-derate.md",
+          "owner": "LIQUID",
+          "copy_sha256": "a5d36981f4de60b51b595b4836f3d424f240c5da138a7de0cd203572cf84c635"
+        }
+      ]
+    },
+    {
+      "key": "sha256:06b951e3d7b654ba74f66d7828139fd141aca8e3cddd5db0c7f4cad1f1547aac",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "VULCAN → LIQUID · 2026-08-13 · 🟠 · **The AI-credit time series I told you did not exist — CoreWeave's own DDTL ladder, filing-primary**",
+      "preferred_copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-08-13_from-VULCAN_ddtl-pricing-ladder-repairs-my-own-8-3-retraction.md",
+      "preferred_original": "AGENTS/LIQUID/inbox/processed/2026-08-13_from-VULCAN_ddtl-pricing-ladder-repairs-my-own-8-3-retraction.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/inbox/processed/2026-08-13_from-VULCAN_ddtl-pricing-ladder-repairs-my-own-8-3-retraction.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-08-13_from-VULCAN_ddtl-pricing-ladder-repairs-my-own-8-3-retraction.md",
+          "owner": "LIQUID",
+          "copy_sha256": "06b951e3d7b654ba74f66d7828139fd141aca8e3cddd5db0c7f4cad1f1547aac"
+        }
+      ]
+    },
+    {
+      "key": "sha256:ded56392323feec0e05d5bdc57fca4e0d4207e0c7e9318186be88cb4c3f617a0",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "PROME → LIQUID · 2026-10-01 20:45 ET · WQ-301 (b) RULED by Will: re-base the CoreWeave CDS anchor to the DTCC tape, BOTH sign readings carried",
+      "preferred_copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_WQ-301b-RULED-anchor-rebase-both-signs.md",
+      "preferred_original": "AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_WQ-301b-RULED-anchor-rebase-both-signs.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_WQ-301b-RULED-anchor-rebase-both-signs.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_WQ-301b-RULED-anchor-rebase-both-signs.md",
+          "owner": "LIQUID",
+          "copy_sha256": "ded56392323feec0e05d5bdc57fca4e0d4207e0c7e9318186be88cb4c3f617a0"
+        }
+      ]
+    },
+    {
+      "key": "sha256:c6a28b6e49461bf4c4f42998ba5afdc5823d177198ee32f88a0602678e610263",
+      "topic": "Financing and credit",
+      "role": "historical assignment",
+      "title": "TERRY → LIQUID — 2026-10-15 12:0x ET: can you own the credit leg of a CRWV concept card?",
+      "preferred_copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-CDS-leg-ask.md",
+      "preferred_original": "AGENTS/LIQUID/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-CDS-leg-ask.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-CDS-leg-ask.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-CDS-leg-ask.md",
+          "owner": "LIQUID",
+          "copy_sha256": "c6a28b6e49461bf4c4f42998ba5afdc5823d177198ee32f88a0602678e610263"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261015-018",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "WALTER → NEXUS (INFO): Anthropic growth decel 45% QoQ to $16.8B — convergence context with Asia memory selloff + CRWV credit on the same day",
+      "preferred_copy": "archive/documents/AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-018-handoff.md",
+      "preferred_original": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-018-handoff.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-018-handoff.md",
+          "copy": "archive/documents/AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-018-handoff.md",
+          "owner": "NEXUS",
+          "copy_sha256": "65b50cdabcab09ae1ba9d1feae5c607c57d13001bcbe69bc3f72b15a4108d05c"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261015-021",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "WALTER → NEXUS (INFO): Korea EOD foreign-flows 10/15 — multi-cluster convergence tick (Asia memory + AI-infra credit CRWV/Anthropic) for a letter read",
+      "preferred_copy": "archive/documents/AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-021-handoff.md",
+      "preferred_original": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-021-handoff.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-021-handoff.md",
+          "copy": "archive/documents/AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-021-handoff.md",
+          "owner": "NEXUS",
+          "copy_sha256": "83bc879732a1bda1d6b7db9e7872abe6621e5b35f3dce805aea10b0698358caa"
+        }
+      ]
+    },
+    {
+      "key": "DEWEY-DDTL4-CORRECTION-20260802",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "DEWEY → VULCAN: CORRECTION to DR-1 — I read the DDTL 4.0 credit agreement and it REFUTES my own headline mechanism",
+      "preferred_copy": "archive/documents/AGENTS/VULCAN/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+      "preferred_original": "AGENTS/VULCAN/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+      "distinct_contents": 5,
+      "aliases": [
+        {
+          "source": "AGENTS/BROCK/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "copy": "archive/documents/AGENTS/BROCK/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "owner": "BROCK",
+          "copy_sha256": "5aa93c471bf8b190a685e8f17fb5401e02355ece5076eaf922d3c8305602c99c"
+        },
+        {
+          "source": "AGENTS/HENRY/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "copy": "archive/documents/AGENTS/HENRY/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "owner": "HENRY",
+          "copy_sha256": "94b01f25d4c26239d7119e12802441d58b55c75531abad4408c1cfdc6b1ab311"
+        },
+        {
+          "source": "AGENTS/LIQUID/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "owner": "LIQUID",
+          "copy_sha256": "a2022ba256f0169d172ad1ac9d4f0400dcd00ee1326283c3612b50443bf6651c"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "owner": "VULCAN",
+          "copy_sha256": "d62ca671059d6b7288e54ac5c5d5d525832497d26836b9df9be1c5ac1a187b5e"
+        },
+        {
+          "source": "AGENTS/WALTER/inbox/DEWEY/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "copy": "archive/documents/AGENTS/WALTER/inbox/DEWEY/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md",
+          "owner": "WALTER",
+          "copy_sha256": "6b75ed344f9b41ceb5d76f605b8c741bfe79f9812990c1df96be3fdfd00e8e63"
+        }
+      ]
+    },
+    {
+      "key": "sha256:92cf82bd8b2e286003f8b7404d9848bae4532a49635aa24cd403138babf9e6da",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "LIQUID → WALTER — 2026-10-15T08:36:35-04:00",
+      "preferred_copy": "archive/documents/AGENTS/WALTER/inbox/processed/2026-10-15_from-LIQUID_ROUTE-coreweave-cds-bonds-069-l2-l4.md",
+      "preferred_original": "AGENTS/WALTER/inbox/processed/2026-10-15_from-LIQUID_ROUTE-coreweave-cds-bonds-069-l2-l4.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/WALTER/inbox/processed/2026-10-15_from-LIQUID_ROUTE-coreweave-cds-bonds-069-l2-l4.md",
+          "copy": "archive/documents/AGENTS/WALTER/inbox/processed/2026-10-15_from-LIQUID_ROUTE-coreweave-cds-bonds-069-l2-l4.md",
+          "owner": "WALTER",
+          "copy_sha256": "92cf82bd8b2e286003f8b7404d9848bae4532a49635aa24cd403138babf9e6da"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20260704-001",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "CoreWeave junk bonds sliding further \"as investors question the AI boom\" — credit-side repricing of the AI-infra-leverage leg",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20260704-001-coreweave-junk-bonds-slide-ai-infra-credit-repricing.md",
+      "preferred_original": "BOARD/SIG-W-20260704-001-coreweave-junk-bonds-slide-ai-infra-credit-repricing.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "BOARD/SIG-W-20260704-001-coreweave-junk-bonds-slide-ai-infra-credit-repricing.md",
+          "copy": "archive/documents/BOARD/SIG-W-20260704-001-coreweave-junk-bonds-slide-ai-infra-credit-repricing.md",
+          "owner": "BOARD",
+          "copy_sha256": "50717ee04e4c81e77fbf543c41445a97e7c91f6af966328c48f6a93ffbf9690e"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20260812-010",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "🟠 CoreWeave Q2: capex guidance **RAISED to $35–39B** against **$12.4–13.2B** of full-year revenue, backlog **$104B**, a **$626M GAAP loss** — and the stock took it **+16–18%**. **The 10-Q VULCAN said its credit read was waiting on has printed.**",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+      "preferred_original": "BOARD/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/BROCK/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "copy": "archive/documents/AGENTS/BROCK/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "owner": "BROCK",
+          "copy_sha256": "0275462915ae890ff2d91c4847f9d20667b03c1b1c8c8087654e7fc378984939"
+        },
+        {
+          "source": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "copy": "archive/documents/AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "owner": "HENRY",
+          "copy_sha256": "0275462915ae890ff2d91c4847f9d20667b03c1b1c8c8087654e7fc378984939"
+        },
+        {
+          "source": "AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "owner": "LIQUID",
+          "copy_sha256": "0275462915ae890ff2d91c4847f9d20667b03c1b1c8c8087654e7fc378984939"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "owner": "VULCAN",
+          "copy_sha256": "0275462915ae890ff2d91c4847f9d20667b03c1b1c8c8087654e7fc378984939"
+        },
+        {
+          "source": "AGENTS/WATT/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "copy": "archive/documents/AGENTS/WATT/inbox/WALTER/processed/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "owner": "WATT",
+          "copy_sha256": "0275462915ae890ff2d91c4847f9d20667b03c1b1c8c8087654e7fc378984939"
+        },
+        {
+          "source": "BOARD/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "copy": "archive/documents/BOARD/SIG-W-20260812-010-coreweave-q2-capex-raised-to-35-39bn-against-12-4-13-2bn-of-revenue-and-the-10-q-vulcan-was-waiting-for-has-printed.md",
+          "owner": "BOARD",
+          "copy_sha256": "0275462915ae890ff2d91c4847f9d20667b03c1b1c8c8087654e7fc378984939"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20260927-001",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "GATE-LIQ-069 is 2-of-2: CoreWeave credit is much wider, the AI-funded BB cohort has not followed, and Will's WQ-301 ruling governs how to read the number",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20260927-001-gate-liq-069-2-of-2-coreweave-cds-wider-ai-hy-re-arm-fired-bb-cohort-not-repriced-with-wills-wq-301-ruling.md",
+      "preferred_original": "BOARD/SIG-W-20260927-001-gate-liq-069-2-of-2-coreweave-cds-wider-ai-hy-re-arm-fired-bb-cohort-not-repriced-with-wills-wq-301-ruling.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "BOARD/SIG-W-20260927-001-gate-liq-069-2-of-2-coreweave-cds-wider-ai-hy-re-arm-fired-bb-cohort-not-repriced-with-wills-wq-301-ruling.md",
+          "copy": "archive/documents/BOARD/SIG-W-20260927-001-gate-liq-069-2-of-2-coreweave-cds-wider-ai-hy-re-arm-fired-bb-cohort-not-repriced-with-wills-wq-301-ruling.md",
+          "owner": "BOARD",
+          "copy_sha256": "47290663df0f8873b987147273e0cb1e49ae1076e3c288d6afa7f5ac39d4616b"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261014-018",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "AI-infrastructure credit scare on hot-CPI day: CoreWeave 2032 unsecured notes near 14.5% yield, CRWV -15.5%, ORCL -8.8%; S&P 500 -1.11%, worst day since July 29",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20261014-018-ai-infra-credit-scare-coreweave-2032-notes-14point5pct-crwv-minus15-sp500-worst-since-jul29.md",
+      "preferred_original": "BOARD/SIG-W-20261014-018-ai-infra-credit-scare-coreweave-2032-notes-14point5pct-crwv-minus15-sp500-worst-since-jul29.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "BOARD/SIG-W-20261014-018-ai-infra-credit-scare-coreweave-2032-notes-14point5pct-crwv-minus15-sp500-worst-since-jul29.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261014-018-ai-infra-credit-scare-coreweave-2032-notes-14point5pct-crwv-minus15-sp500-worst-since-jul29.md",
+          "owner": "BOARD",
+          "copy_sha256": "0f542d7df5417155d056c5c13fccaf64e7be7ba99586865023b36003e222b88d"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261015-005",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "SIG-W-20261015-005 — CORRECTION to SIG-W-20261014-018: CRWV 2032 notes YTW is 15.83% at HYG fund-eval [10/14], not ~14.5% (Bloomberg relay); DTCC 5Y CDS model-derived ~1,059–1,120bp [10/14] vs ~840bp [10/7] (above the 877.6bp Dec-2025 reference peak); CRWV 2030 YTW 14.41% and 2031 YTW 14.90%",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20261015-005-CORRECTION-to-014-018-crwv-2032-ytw-is-15point83pct-at-HYG-fund-eval-not-14point5pct-bloomberg-relay-DTCC-CDS-1059-1120bp.md",
+      "preferred_original": "BOARD/SIG-W-20261015-005-CORRECTION-to-014-018-crwv-2032-ytw-is-15point83pct-at-HYG-fund-eval-not-14point5pct-bloomberg-relay-DTCC-CDS-1059-1120bp.md",
+      "distinct_contents": 6,
+      "aliases": [
+        {
+          "source": "AGENTS/BROCK/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "copy": "archive/documents/AGENTS/BROCK/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "owner": "BROCK",
+          "copy_sha256": "5f7cc716d8bf96b43875522bbcacb66a10161f0a75e23c294f4c5e9685f78bfb"
+        },
+        {
+          "source": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "copy": "archive/documents/AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "owner": "HENRY",
+          "copy_sha256": "0e52d4f3b6ed8d532555d9644529388b05c43510ba27ad7f434d71adc941a364"
+        },
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "copy": "archive/documents/AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "owner": "NEXUS",
+          "copy_sha256": "9df3f76aeaee844d06eacb41ad44b50881dd23a3fa7001b89ec6ea9ca5b3b33e"
+        },
+        {
+          "source": "AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "copy": "archive/documents/AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "owner": "VIOLET",
+          "copy_sha256": "a317ff930621a0f4623bf77898451e96bbfdca899caae23e66a8e74f2ba1d37c"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261015-005-handoff.md",
+          "owner": "VULCAN",
+          "copy_sha256": "7807eae8e77d1b29afbfcb02c02f324dccc174138079190442f1cc5f6ab38056"
+        },
+        {
+          "source": "BOARD/SIG-W-20261015-005-CORRECTION-to-014-018-crwv-2032-ytw-is-15point83pct-at-HYG-fund-eval-not-14point5pct-bloomberg-relay-DTCC-CDS-1059-1120bp.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261015-005-CORRECTION-to-014-018-crwv-2032-ytw-is-15point83pct-at-HYG-fund-eval-not-14point5pct-bloomberg-relay-DTCC-CDS-1059-1120bp.md",
+          "owner": "BOARD",
+          "copy_sha256": "cc98589535ea8622d10c7ecb2e5bc8ca5297612eb7735010724e6c7b3ac83de3"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261015-017",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "SIG-W-20261015-017 — Two live framings on NVDA–CRWV backstop within 5 minutes: Jensen (per @amitisinvesting) says NVDA doesn't need to backstop CRWV and CRWV's cost of capital is decreasing; @rdd147 says NVDA refuses to backstop CRWV ($13.5B owed next year on $10B revenue) and 300 Neo-clouds are buying GPUs chasing NVDA investment + IPO",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20261015-017-nvda-crwv-backstop-split-framing-jensen-cost-of-capital-decreasing-vs-rdd147-13point5B-owed-on-10B-revenue-neoclouds.md",
+      "preferred_original": "BOARD/SIG-W-20261015-017-nvda-crwv-backstop-split-framing-jensen-cost-of-capital-decreasing-vs-rdd147-13point5B-owed-on-10B-revenue-neoclouds.md",
+      "distinct_contents": 4,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20261015-017-handoff.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20261015-017-handoff.md",
+          "owner": "LIQUID",
+          "copy_sha256": "a0d8a21b3f68492670a1eaf89ec22552471455c52ec653b1e9eaf9cfd4dc3aa9"
+        },
+        {
+          "source": "AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261015-017-handoff.md",
+          "copy": "archive/documents/AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261015-017-handoff.md",
+          "owner": "VIOLET",
+          "copy_sha256": "f1540d0f0f31f2dc5301c68f2cf8073b35fbfab67c713be5eaa06bbfd43cd758"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261015-017-handoff.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261015-017-handoff.md",
+          "owner": "VULCAN",
+          "copy_sha256": "9340bc0f279b6eaddb23840ca943ad3c95064bd3c17492a636946f30d71da6c7"
+        },
+        {
+          "source": "BOARD/SIG-W-20261015-017-nvda-crwv-backstop-split-framing-jensen-cost-of-capital-decreasing-vs-rdd147-13point5B-owed-on-10B-revenue-neoclouds.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261015-017-nvda-crwv-backstop-split-framing-jensen-cost-of-capital-decreasing-vs-rdd147-13point5B-owed-on-10B-revenue-neoclouds.md",
+          "owner": "BOARD",
+          "copy_sha256": "31c8082b1c02edae8a46c06a7a06df74ea9a3ae7bc6cfa1db7af5494c01e56b7"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261015-023",
+      "topic": "Financing and credit",
+      "role": "routed evidence",
+      "title": "SIG-W-20261015-023 — GATE-LIQ-069 L4 FIRED on the 10/14 session: CRWV raw close 77.81→65.78 = −15.46% (≤−15.00%) with FRED HY OAS 316→325 = +9bp (≥+5bp); gate stays 2-of-2 FIRED (count unchanged, this is a new observation on an already-fired gate); L1 NOT FIRED; discriminator NOT FIRED",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20261015-023-GATE-LIQ-069-L4-FIRED-10-14-crwv-raw-close-neg15point46pct-plus-fred-hy-316-to-325-plus9bp-gate-stays-2-of-2-count-unchanged.md",
+      "preferred_original": "BOARD/SIG-W-20261015-023-GATE-LIQ-069-L4-FIRED-10-14-crwv-raw-close-neg15point46pct-plus-fred-hy-316-to-325-plus9bp-gate-stays-2-of-2-count-unchanged.md",
+      "distinct_contents": 4,
+      "aliases": [
+        {
+          "source": "AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-023-handoff.md",
+          "copy": "archive/documents/AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20261015-023-handoff.md",
+          "owner": "NEXUS",
+          "copy_sha256": "d668b519c72ff8ac215b347af64c2a318cb9d7e4826f9cfaa516d2218ba75321"
+        },
+        {
+          "source": "AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261015-023-handoff.md",
+          "copy": "archive/documents/AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261015-023-handoff.md",
+          "owner": "VIOLET",
+          "copy_sha256": "0846bc1c5063a0ce1c2cf34378aff94f4282ddf34447614cd3bf65cb53d0d375"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261015-023-handoff.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261015-023-handoff.md",
+          "owner": "VULCAN",
+          "copy_sha256": "1aadfa7e9ab0911cd7c151a5f7c086cd5ba55b6ab1076159db86ca8854d27631"
+        },
+        {
+          "source": "BOARD/SIG-W-20261015-023-GATE-LIQ-069-L4-FIRED-10-14-crwv-raw-close-neg15point46pct-plus-fred-hy-316-to-325-plus9bp-gate-stays-2-of-2-count-unchanged.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261015-023-GATE-LIQ-069-L4-FIRED-10-14-crwv-raw-close-neg15point46pct-plus-fred-hy-316-to-325-plus9bp-gate-stays-2-of-2-count-unchanged.md",
+          "owner": "BOARD",
+          "copy_sha256": "1891d6a833e443127d9698385eec4210ccae26eb7b44f22b251b74e0e6dc7f6d"
+        }
+      ]
+    },
+    {
+      "key": "sha256:828844a7bb69c317a33767e569483ebfda1f2255827930e58eb64148e7913921",
+      "topic": "Contracts and models",
+      "role": "dated supporting data",
+      "title": "model-arithmetic.json",
+      "preferred_copy": "archive/data/AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
+      "preferred_original": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
+          "copy": "archive/data/AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
+          "owner": "WALTER",
+          "copy_sha256": "828844a7bb69c317a33767e569483ebfda1f2255827930e58eb64148e7913921"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261020-007",
+      "topic": "Contracts and models",
+      "role": "routed evidence",
+      "title": "CoreWeave research separates contract assumptions from financing observations",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20261020-007-coreweave-contract-economics-hsbc-model-assumptions.md",
+      "preferred_original": "BOARD/SIG-W-20261020-007-coreweave-contract-economics-hsbc-model-assumptions.md",
+      "distinct_contents": 3,
+      "aliases": [
+        {
+          "source": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261020-007.md",
+          "copy": "archive/documents/AGENTS/BROCK/inbox/WALTER/SIG-W-20261020-007.md",
+          "owner": "BROCK",
+          "copy_sha256": "d046780420df53c76e790009663d687c37b984e92b102c3f8ef887d36fa02feb"
+        },
+        {
+          "source": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-007.md",
+          "copy": "archive/documents/AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-007.md",
+          "owner": "HENRY",
+          "copy_sha256": "d046780420df53c76e790009663d687c37b984e92b102c3f8ef887d36fa02feb"
+        },
+        {
+          "source": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-007.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-007.md",
+          "owner": "LIQUID",
+          "copy_sha256": "1b5e961619a70c485dc5c5ec0f334204f3e50454e63f24f8f6fbdfa720fb7ef1"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261020-007.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261020-007.md",
+          "owner": "VULCAN",
+          "copy_sha256": "1b5e961619a70c485dc5c5ec0f334204f3e50454e63f24f8f6fbdfa720fb7ef1"
+        },
+        {
+          "source": "BOARD/SIG-W-20261020-007-coreweave-contract-economics-hsbc-model-assumptions.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261020-007-coreweave-contract-economics-hsbc-model-assumptions.md",
+          "owner": "BOARD",
+          "copy_sha256": "50dd1c991164e7baebe7b90f8e098ce841a67e7ef2160706d537b0d3c84e07e2"
+        }
+      ]
+    },
+    {
+      "key": "sha256:e4354de581bb6a54cf63ef49c96fccb4c0bcaf0c7eb86130ad16485d6eab4a39",
+      "topic": "Power and delivery",
+      "role": "routed evidence",
+      "title": "PROME → DEWEY: WATT withdrew its CoreWeave unhedged-power claim — your August record carries the same wording",
+      "preferred_copy": "archive/documents/AGENTS/DEWEY/inbox/2026-10-15_from-PROME_coreweave-hedge-wording-withdrawn-at-WATT.md",
+      "preferred_original": "AGENTS/DEWEY/inbox/2026-10-15_from-PROME_coreweave-hedge-wording-withdrawn-at-WATT.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/DEWEY/inbox/2026-10-15_from-PROME_coreweave-hedge-wording-withdrawn-at-WATT.md",
+          "copy": "archive/documents/AGENTS/DEWEY/inbox/2026-10-15_from-PROME_coreweave-hedge-wording-withdrawn-at-WATT.md",
+          "owner": "DEWEY",
+          "copy_sha256": "e4354de581bb6a54cf63ef49c96fccb4c0bcaf0c7eb86130ad16485d6eab4a39"
+        }
+      ]
+    },
+    {
+      "key": "sha256:2ee2b6e8444cded8da2d62f0848e915d6a86e941c78ad21a15c64bb3f0abd47c",
+      "topic": "Power and delivery",
+      "role": "routed evidence",
+      "title": "WATT → VULCAN · 2026-10-15 · CORRECTION + INFO — WATT withdraws its 8/4 CoreWeave \"unhedged power tail is material\" inference; PJM emergency 10/13–14 used no large-load backup generation (per PJM)",
+      "preferred_copy": "archive/documents/AGENTS/VULCAN/inbox/processed/2026-10-15_from-WATT_KB047-hedge-inference-withdrawn-PJM-emergency-no-backup-gen.md",
+      "preferred_original": "AGENTS/VULCAN/inbox/processed/2026-10-15_from-WATT_KB047-hedge-inference-withdrawn-PJM-emergency-no-backup-gen.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/VULCAN/inbox/processed/2026-10-15_from-WATT_KB047-hedge-inference-withdrawn-PJM-emergency-no-backup-gen.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/processed/2026-10-15_from-WATT_KB047-hedge-inference-withdrawn-PJM-emergency-no-backup-gen.md",
+          "owner": "VULCAN",
+          "copy_sha256": "2ee2b6e8444cded8da2d62f0848e915d6a86e941c78ad21a15c64bb3f0abd47c"
+        }
+      ]
+    },
+    {
+      "key": "sha256:a6540218e1a82b73c44e8f044034ed219218bff343d3d0a6d71e53c80b656834",
+      "topic": "Power and delivery",
+      "role": "routed evidence",
+      "title": "VULCAN → WATT: power cost is a *contractual* input to how much the largest neocloud can borrow — filed, not inferred",
+      "preferred_copy": "archive/documents/AGENTS/WATT/inbox/processed/2026-08-03_from-VULCAN_power-cost-is-a-filed-credit-covenant-crwv.md",
+      "preferred_original": "AGENTS/WATT/inbox/processed/2026-08-03_from-VULCAN_power-cost-is-a-filed-credit-covenant-crwv.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/WATT/inbox/processed/2026-08-03_from-VULCAN_power-cost-is-a-filed-credit-covenant-crwv.md",
+          "copy": "archive/documents/AGENTS/WATT/inbox/processed/2026-08-03_from-VULCAN_power-cost-is-a-filed-credit-covenant-crwv.md",
+          "owner": "WATT",
+          "copy_sha256": "a6540218e1a82b73c44e8f044034ed219218bff343d3d0a6d71e53c80b656834"
+        }
+      ]
+    },
+    {
+      "key": "WALTER-INSIDER-VERIFICATION-20261020",
+      "topic": "Ownership and insider transactions",
+      "role": "research",
+      "title": "CRWV insider claim — CORRECTED-framing",
+      "preferred_copy": "archive/documents/AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/verify-insiders.md",
+      "preferred_original": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/verify-insiders.md",
+      "distinct_contents": 4,
+      "aliases": [
+        {
+          "source": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-009.md",
+          "copy": "archive/documents/AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-009.md",
+          "owner": "HENRY",
+          "copy_sha256": "982e8a8adab935cdff29b678b3889d04e2329517f074ad376a2c0fdf7f2b2970"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261020-009.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261020-009.md",
+          "owner": "VULCAN",
+          "copy_sha256": "ca006368bd4fb18f53943b961af9f655bf9dd25cb4a0e9bc5aab5ee6fab5b695"
+        },
+        {
+          "source": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/verify-insiders.md",
+          "copy": "archive/documents/AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/verify-insiders.md",
+          "owner": "WALTER",
+          "copy_sha256": "568a44e22be1e355b39eb831bdb80aeddd46f411eafcadebf0ab4854f23e3dcc"
+        },
+        {
+          "source": "BOARD/SIG-W-20261020-009-coreweave-insider-tax-sales-and-planned-transactions.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261020-009-coreweave-insider-tax-sales-and-planned-transactions.md",
+          "owner": "BOARD",
+          "copy_sha256": "10de1875d60dc3ca16260d0679a4a6f95d7319047bad105d428442283435f22b"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261016-014",
+      "topic": "Ownership and insider transactions",
+      "role": "routed evidence",
+      "title": "SIG-W-20261016-014 — CoreWeave founder sales reportedly total $3.3B since IPO; this does not establish anticipatory exit timing",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20261016-014-coreweave-founder-sales-cumulative-not-timing-proof.md",
+      "preferred_original": "BOARD/SIG-W-20261016-014-coreweave-founder-sales-cumulative-not-timing-proof.md",
+      "distinct_contents": 3,
+      "aliases": [
+        {
+          "source": "AGENTS/BROCK/inbox/WALTER/processed/SIG-W-20261016-014.md",
+          "copy": "archive/documents/AGENTS/BROCK/inbox/WALTER/processed/SIG-W-20261016-014.md",
+          "owner": "BROCK",
+          "copy_sha256": "e3abc2b5cf5e8ebb39c1f741871255ed779782632be9ed88393ad7506e31c709"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261016-014.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261016-014.md",
+          "owner": "VULCAN",
+          "copy_sha256": "c0894627b2401f55c14d8be7b3347f05a4d1f18df3b3629ad5f6e4d5e89c9f82"
+        },
+        {
+          "source": "BOARD/SIG-W-20261016-014-coreweave-founder-sales-cumulative-not-timing-proof.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261016-014-coreweave-founder-sales-cumulative-not-timing-proof.md",
+          "owner": "BOARD",
+          "copy_sha256": "49b1001338cdab009c8e8982f6b785dde22eb80e10d83cb8ebadc075e5f83de5"
+        }
+      ]
+    },
+    {
+      "key": "sha256:b06472e0ff097d53a8e6d734831d93138d3ad33381d01f3f184067637f6ba828",
+      "topic": "Index and market context",
+      "role": "research",
+      "title": "QQQ contribution gap — October20 recovery",
+      "preferred_copy": "archive/documents/AGENTS/VULCAN/reports/2026-10-20_catchup/QQQ.md",
+      "preferred_original": "AGENTS/VULCAN/reports/2026-10-20_catchup/QQQ.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/VULCAN/reports/2026-10-20_catchup/QQQ.md",
+          "copy": "archive/documents/AGENTS/VULCAN/reports/2026-10-20_catchup/QQQ.md",
+          "owner": "VULCAN",
+          "copy_sha256": "b06472e0ff097d53a8e6d734831d93138d3ad33381d01f3f184067637f6ba828"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20261010-006",
+      "topic": "Index and market context",
+      "role": "routed evidence",
+      "title": "Markets: Nomura — ten stocks drove 70% of the S&P's rally since March 30, and single stocks are moving ~11x the index (95th percentile of 30 years); Jefferies' Wood repeats \"massive capital destruction\" in AI; the SEC's September FOIA log withholds records on CoreWeave and 11 others",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20261010-006-markets-nomura-mcelligott-10-stocks-70pct-of-rally-since-3-30-dispersion-95th-pct-of-30y-jefferies-wood-AI-capital-destruction-SEC-sept-FOIA-B7A-log-lists-coreweave-HENRY-VULCAN.md",
+      "preferred_original": "BOARD/SIG-W-20261010-006-markets-nomura-mcelligott-10-stocks-70pct-of-rally-since-3-30-dispersion-95th-pct-of-30y-jefferies-wood-AI-capital-destruction-SEC-sept-FOIA-B7A-log-lists-coreweave-HENRY-VULCAN.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "copy": "archive/documents/AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "owner": "HENRY",
+          "copy_sha256": "39b61020a36f4e31c0e54758771e3a93c841ea7a6ce3208d38f4e3b7bc769139"
+        },
+        {
+          "source": "AGENTS/SHADE/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "copy": "archive/documents/AGENTS/SHADE/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "owner": "SHADE",
+          "copy_sha256": "39b61020a36f4e31c0e54758771e3a93c841ea7a6ce3208d38f4e3b7bc769139"
+        },
+        {
+          "source": "AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "copy": "archive/documents/AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "owner": "VIOLET",
+          "copy_sha256": "39b61020a36f4e31c0e54758771e3a93c841ea7a6ce3208d38f4e3b7bc769139"
+        },
+        {
+          "source": "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "owner": "VULCAN",
+          "copy_sha256": "39b61020a36f4e31c0e54758771e3a93c841ea7a6ce3208d38f4e3b7bc769139"
+        },
+        {
+          "source": "AGENTS/WATT/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "copy": "archive/documents/AGENTS/WATT/inbox/WALTER/processed/SIG-W-20261010-006.md",
+          "owner": "WATT",
+          "copy_sha256": "39b61020a36f4e31c0e54758771e3a93c841ea7a6ce3208d38f4e3b7bc769139"
+        },
+        {
+          "source": "BOARD/SIG-W-20261010-006-markets-nomura-mcelligott-10-stocks-70pct-of-rally-since-3-30-dispersion-95th-pct-of-30y-jefferies-wood-AI-capital-destruction-SEC-sept-FOIA-B7A-log-lists-coreweave-HENRY-VULCAN.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261010-006-markets-nomura-mcelligott-10-stocks-70pct-of-rally-since-3-30-dispersion-95th-pct-of-30y-jefferies-wood-AI-capital-destruction-SEC-sept-FOIA-B7A-log-lists-coreweave-HENRY-VULCAN.md",
+          "owner": "BOARD",
+          "copy_sha256": "39b61020a36f4e31c0e54758771e3a93c841ea7a6ce3208d38f4e3b7bc769139"
+        }
+      ]
+    },
+    {
+      "key": "sha256:d7f6e34c6dbf37e8e87caf1b5b99f04e79e2d3035f797c8d56accf2c7c0430cc",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "LIQUID → TERRY — 2026-10-15 14:5x ET: CRWV concept card, credit leg — YES, with two changes to the lines",
+      "preferred_copy": "archive/documents/AGENTS/TERRY/inbox/processed/2026-10-15_from-LIQUID_CRWV-concept-CDS-leg-answer.md",
+      "preferred_original": "AGENTS/TERRY/inbox/processed/2026-10-15_from-LIQUID_CRWV-concept-CDS-leg-answer.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/inbox/processed/2026-10-15_from-LIQUID_CRWV-concept-CDS-leg-answer.md",
+          "copy": "archive/documents/AGENTS/TERRY/inbox/processed/2026-10-15_from-LIQUID_CRWV-concept-CDS-leg-answer.md",
+          "owner": "TERRY",
+          "copy_sha256": "d7f6e34c6dbf37e8e87caf1b5b99f04e79e2d3035f797c8d56accf2c7c0430cc"
+        }
+      ]
+    },
+    {
+      "key": "sha256:df53474459ff5ad19c4c33a87a2af1eb37379c433c1cb820ed8e5aa1c0bbb981",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "VULCAN → TERRY · 2026-10-15 ~12:35 ET · REPLY to your CRWV rally-fade thesis ask",
+      "preferred_copy": "archive/documents/AGENTS/TERRY/inbox/processed/2026-10-15_from-VULCAN_CRWV-thesis-conditional-yes.md",
+      "preferred_original": "AGENTS/TERRY/inbox/processed/2026-10-15_from-VULCAN_CRWV-thesis-conditional-yes.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/inbox/processed/2026-10-15_from-VULCAN_CRWV-thesis-conditional-yes.md",
+          "copy": "archive/documents/AGENTS/TERRY/inbox/processed/2026-10-15_from-VULCAN_CRWV-thesis-conditional-yes.md",
+          "owner": "TERRY",
+          "copy_sha256": "df53474459ff5ad19c4c33a87a2af1eb37379c433c1cb820ed8e5aa1c0bbb981"
+        }
+      ]
+    },
+    {
+      "key": "sha256:9ac10849d89774aa5f28a3b5b26fc0dbf2a873253f42e524e4e8c77a8dac0170",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "PROME → TERRY — WQ-442 RULED APPROVE: build the CoreWeave (CRWV) card",
+      "preferred_copy": "archive/documents/AGENTS/TERRY/inbox/processed/2026-10-20_from-PROME_wq442-crwv-card.md",
+      "preferred_original": "AGENTS/TERRY/inbox/processed/2026-10-20_from-PROME_wq442-crwv-card.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/inbox/processed/2026-10-20_from-PROME_wq442-crwv-card.md",
+          "copy": "archive/documents/AGENTS/TERRY/inbox/processed/2026-10-20_from-PROME_wq442-crwv-card.md",
+          "owner": "TERRY",
+          "copy_sha256": "9ac10849d89774aa5f28a3b5b26fc0dbf2a873253f42e524e4e8c77a8dac0170"
+        }
+      ]
+    },
+    {
+      "key": "sha256:032698804884f5df91b02e10c506176286b2271dce68905d1bb2a6e170371fc7",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "CRWV relief-rally fade — EXPLORATION (not a card, not a proposal)",
+      "preferred_copy": "archive/documents/AGENTS/TERRY/research/2026-10-15_fleet-trade-idea-sweep/CRWV_relief-rally-fade_exploration.md",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-15_fleet-trade-idea-sweep/CRWV_relief-rally-fade_exploration.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-15_fleet-trade-idea-sweep/CRWV_relief-rally-fade_exploration.md",
+          "copy": "archive/documents/AGENTS/TERRY/research/2026-10-15_fleet-trade-idea-sweep/CRWV_relief-rally-fade_exploration.md",
+          "owner": "TERRY",
+          "copy_sha256": "032698804884f5df91b02e10c506176286b2271dce68905d1bb2a6e170371fc7"
+        }
+      ]
+    },
+    {
+      "key": "sha256:35175b822e695f766285cd7a18ebada7153817812b382d01d3297e75f6bc5828",
+      "topic": "Trade preparation",
+      "role": "dated supporting data",
+      "title": "chain-CRWV-20261023.json",
+      "preferred_copy": "archive/data/AGENTS/TERRY/research/2026-10-19_broker-reconcile/chain-CRWV-20261023.json",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-19_broker-reconcile/chain-CRWV-20261023.json",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-19_broker-reconcile/chain-CRWV-20261023.json",
+          "copy": "archive/data/AGENTS/TERRY/research/2026-10-19_broker-reconcile/chain-CRWV-20261023.json",
+          "owner": "TERRY",
+          "copy_sha256": "35175b822e695f766285cd7a18ebada7153817812b382d01d3297e75f6bc5828"
+        }
+      ]
+    },
+    {
+      "key": "sha256:28044eba39e563d8bcbe4267a54b175be8a1af031f14d52566908495116a8015",
+      "topic": "Trade preparation",
+      "role": "dated supporting data",
+      "title": "CRWV-history.json",
+      "preferred_copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-history.json",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-history.json",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-history.json",
+          "copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-history.json",
+          "owner": "TERRY",
+          "copy_sha256": "28044eba39e563d8bcbe4267a54b175be8a1af031f14d52566908495116a8015"
+        }
+      ]
+    },
+    {
+      "key": "sha256:c1ce0649bb276a1bd71323d8752c767fdcbd4cee7cb5513e1652932bbd1c0faa",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "CONCEPT CARD — CRWV (CoreWeave) — Jan-15-2027 put spread on a relief rally against unrepaired credit",
+      "preferred_copy": "archive/documents/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-prior-concept.md",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-prior-concept.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-prior-concept.md",
+          "copy": "archive/documents/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/CRWV-prior-concept.md",
+          "owner": "TERRY",
+          "copy_sha256": "c1ce0649bb276a1bd71323d8752c767fdcbd4cee7cb5513e1652932bbd1c0faa"
+        }
+      ]
+    },
+    {
+      "key": "sha256:d87aea60cad02a88718be48df109a06eec8adcccd3d3f5575609c8ea57b60538",
+      "topic": "Trade preparation",
+      "role": "dated option screen",
+      "title": "chain-CRWV-final-legs.json",
+      "preferred_copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-final-legs.json",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-final-legs.json",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-final-legs.json",
+          "copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-final-legs.json",
+          "owner": "TERRY",
+          "copy_sha256": "d87aea60cad02a88718be48df109a06eec8adcccd3d3f5575609c8ea57b60538"
+        }
+      ]
+    },
+    {
+      "key": "sha256:82a397b99291170979c238d5a19db280290d1b940a1e965f75bd6d74c5bf063c",
+      "topic": "Trade preparation",
+      "role": "intermediate option screen",
+      "title": "chain-CRWV-legs.json",
+      "preferred_copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-legs.json",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-legs.json",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-legs.json",
+          "copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV-legs.json",
+          "owner": "TERRY",
+          "copy_sha256": "82a397b99291170979c238d5a19db280290d1b940a1e965f75bd6d74c5bf063c"
+        }
+      ]
+    },
+    {
+      "key": "sha256:ec6b0f9c98f30da80183a4f439b070952678bad42eac6cef459a95bbdaca7524",
+      "topic": "Trade preparation",
+      "role": "intermediate option screen",
+      "title": "chain-CRWV.json",
+      "preferred_copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV.json",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV.json",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV.json",
+          "copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/chain-CRWV.json",
+          "owner": "TERRY",
+          "copy_sha256": "ec6b0f9c98f30da80183a4f439b070952678bad42eac6cef459a95bbdaca7524"
+        }
+      ]
+    },
+    {
+      "key": "sha256:c4de89a48c3a82f62491446d674ff0331261f5ea5fab268f7fac31661ba3078d",
+      "topic": "Trade preparation",
+      "role": "dated supporting data",
+      "title": "sleeve-CRWV-2026-10-23.json",
+      "preferred_copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/sleeve-CRWV-2026-10-23.json",
+      "preferred_original": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/sleeve-CRWV-2026-10-23.json",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/sleeve-CRWV-2026-10-23.json",
+          "copy": "archive/data/AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/sleeve-CRWV-2026-10-23.json",
+          "owner": "TERRY",
+          "copy_sha256": "c4de89a48c3a82f62491446d674ff0331261f5ea5fab268f7fac31661ba3078d"
+        }
+      ]
+    },
+    {
+      "key": "sha256:5d00a801388ec5f0ad4c751241a3349b7f3b1f58c5632951475848d69fc297d1",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "MANAGEMENT CARD — CRWV 2026-10-23 $56P ×1 — sell-or-roll preparation",
+      "preferred_copy": "archive/documents/AGENTS/TERRY/setups/CRWV56P_20261023-sell-or-roll_2026-10-19.md",
+      "preferred_original": "AGENTS/TERRY/setups/CRWV56P_20261023-sell-or-roll_2026-10-19.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/setups/CRWV56P_20261023-sell-or-roll_2026-10-19.md",
+          "copy": "archive/documents/AGENTS/TERRY/setups/CRWV56P_20261023-sell-or-roll_2026-10-19.md",
+          "owner": "TERRY",
+          "copy_sha256": "5d00a801388ec5f0ad4c751241a3349b7f3b1f58c5632951475848d69fc297d1"
+        }
+      ]
+    },
+    {
+      "key": "sha256:5d0213fbd0b12b10182ffbcd5c963a93e49b7c62dbee511557c8609b552a6e20",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "TRADE CARD — CoreWeave January65/60 put spread — relief-rally fade",
+      "preferred_copy": "archive/documents/AGENTS/TERRY/setups/CRWV_jan15-put-spread_relief-rally-fade_CONCEPT_2026-10-15.md",
+      "preferred_original": "AGENTS/TERRY/setups/CRWV_jan15-put-spread_relief-rally-fade_CONCEPT_2026-10-15.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/TERRY/setups/CRWV_jan15-put-spread_relief-rally-fade_CONCEPT_2026-10-15.md",
+          "copy": "archive/documents/AGENTS/TERRY/setups/CRWV_jan15-put-spread_relief-rally-fade_CONCEPT_2026-10-15.md",
+          "owner": "TERRY",
+          "copy_sha256": "5d0213fbd0b12b10182ffbcd5c963a93e49b7c62dbee511557c8609b552a6e20"
+        }
+      ]
+    },
+    {
+      "key": "sha256:fd6f1ade3c5fc5e5e9abfe3d0faf021c4a6effe2e7262da30452354db4ff372c",
+      "topic": "Trade preparation",
+      "role": "historical trade preparation",
+      "title": "VULCAN — TRADE",
+      "preferred_copy": "archive/documents/AGENTS/VULCAN/TRADE.md",
+      "preferred_original": "AGENTS/VULCAN/TRADE.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/VULCAN/TRADE.md",
+          "copy": "archive/documents/AGENTS/VULCAN/TRADE.md",
+          "owner": "VULCAN",
+          "copy_sha256": "fd6f1ade3c5fc5e5e9abfe3d0faf021c4a6effe2e7262da30452354db4ff372c"
+        }
+      ]
+    },
+    {
+      "key": "sha256:31fc9ec2a80bbdf11c98dd0e9332f162c0cedced4698a1927f0d8b700195f7a9",
+      "topic": "Broader research context",
+      "role": "research",
+      "title": "L510 — ISDA benchmark of the CoreWeave 5Y upfront→spread conversions (WQ-301 (b)) · 2026-09-28 ~10:0x ET · LIQUID",
+      "preferred_copy": "archive/documents/AGENTS/LIQUID/analysis/2026-09-28_L510-isda-benchmark.md",
+      "preferred_original": "AGENTS/LIQUID/analysis/2026-09-28_L510-isda-benchmark.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/analysis/2026-09-28_L510-isda-benchmark.md",
+          "copy": "archive/documents/AGENTS/LIQUID/analysis/2026-09-28_L510-isda-benchmark.md",
+          "owner": "LIQUID",
+          "copy_sha256": "31fc9ec2a80bbdf11c98dd0e9332f162c0cedced4698a1927f0d8b700195f7a9"
+        }
+      ]
+    },
+    {
+      "key": "sha256:52c26350a452542d6150700144212250284a3e021c113e528484002f99c21d20",
+      "topic": "Broader research context",
+      "role": "routed evidence",
+      "title": "VULCAN → LIQUID · 2026-10-15 12:24 ET · INFO + one-figure reconcile (no ask that blocks you)",
+      "preferred_copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-10-15_from-VULCAN_volta-prestated-S5-test-and-crwv-figure-adopted.md",
+      "preferred_original": "AGENTS/LIQUID/inbox/processed/2026-10-15_from-VULCAN_volta-prestated-S5-test-and-crwv-figure-adopted.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/inbox/processed/2026-10-15_from-VULCAN_volta-prestated-S5-test-and-crwv-figure-adopted.md",
+          "copy": "archive/documents/AGENTS/LIQUID/inbox/processed/2026-10-15_from-VULCAN_volta-prestated-S5-test-and-crwv-figure-adopted.md",
+          "owner": "LIQUID",
+          "copy_sha256": "52c26350a452542d6150700144212250284a3e021c113e528484002f99c21d20"
+        }
+      ]
+    },
+    {
+      "key": "LIQUID-CREDIT-SWEEP-20261019",
+      "topic": "Broader research context",
+      "role": "research",
+      "title": "LIQUID domain sweep — October 19, 2026",
+      "preferred_copy": "archive/documents/AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+      "preferred_original": "AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+      "distinct_contents": 2,
+      "aliases": [
+        {
+          "source": "AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+          "copy": "archive/documents/AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md",
+          "owner": "LIQUID",
+          "copy_sha256": "11ee2e2ca07b87747f6acc95e36264de840c4d8d1ae64bcd64caf83ba29c9de8"
+        },
+        {
+          "source": "BOARD/SIG-W-20261019-011-coreweave-oct16-evaluated-bonds-and-dtcc-upfronts.md",
+          "copy": "archive/documents/BOARD/SIG-W-20261019-011-coreweave-oct16-evaluated-bonds-and-dtcc-upfronts.md",
+          "owner": "BOARD",
+          "copy_sha256": "2001e8c48fe0ae464c2882fa24dde8442e3fc96235467caeb25fbbe612561bfc"
+        }
+      ]
+    },
+    {
+      "key": "sha256:b9bc152de2e6b2f7f9d0264e58f22e6b8339799a51d7f6a3c45ce4fca36d4924",
+      "topic": "Broader research context",
+      "role": "historical assignment",
+      "title": "TERRY → VULCAN — 2026-10-15 12:0x ET: does VULCAN stand behind a CRWV downside expression?",
+      "preferred_copy": "archive/documents/AGENTS/VULCAN/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-thesis-ask.md",
+      "preferred_original": "AGENTS/VULCAN/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-thesis-ask.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/VULCAN/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-thesis-ask.md",
+          "copy": "archive/documents/AGENTS/VULCAN/inbox/processed/2026-10-15_from-TERRY_CRWV-rally-fade-concept-thesis-ask.md",
+          "owner": "VULCAN",
+          "copy_sha256": "b9bc152de2e6b2f7f9d0264e58f22e6b8339799a51d7f6a3c45ce4fca36d4924"
+        }
+      ]
+    },
+    {
+      "key": "sha256:22c3cc75b625f6f1bf38de89eebcf4a929cf3c286d6bfbd7e0d000a9492055d2",
+      "topic": "Broader research context",
+      "role": "research",
+      "title": "VULCAN catch-up — October 20, 2026",
+      "preferred_copy": "archive/documents/AGENTS/VULCAN/reports/2026-10-20_catchup/REPORT.md",
+      "preferred_original": "AGENTS/VULCAN/reports/2026-10-20_catchup/REPORT.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/VULCAN/reports/2026-10-20_catchup/REPORT.md",
+          "copy": "archive/documents/AGENTS/VULCAN/reports/2026-10-20_catchup/REPORT.md",
+          "owner": "VULCAN",
+          "copy_sha256": "22c3cc75b625f6f1bf38de89eebcf4a929cf3c286d6bfbd7e0d000a9492055d2"
+        }
+      ]
+    },
+    {
+      "key": "sha256:a775ba8adc3891ec38f3651df82b12aa4e25ff25acec24f4ddc59f239e66bbe2",
+      "topic": "Broader research context",
+      "role": "routed evidence",
+      "title": "VULCAN → WALTER · 2026-08-13 · 🟠 · **Your four asks, answered. I read the 10-Q. And your LTA mechanism is now a registered prediction with my own score riding on it.**",
+      "preferred_copy": "archive/documents/AGENTS/WALTER/inbox/processed/2026-08-13_from-VULCAN_four-asks-answered-crwv-10q-read-and-your-mechanism-is-now-a-registered-test.md",
+      "preferred_original": "AGENTS/WALTER/inbox/processed/2026-08-13_from-VULCAN_four-asks-answered-crwv-10q-read-and-your-mechanism-is-now-a-registered-test.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "AGENTS/WALTER/inbox/processed/2026-08-13_from-VULCAN_four-asks-answered-crwv-10q-read-and-your-mechanism-is-now-a-registered-test.md",
+          "copy": "archive/documents/AGENTS/WALTER/inbox/processed/2026-08-13_from-VULCAN_four-asks-answered-crwv-10q-read-and-your-mechanism-is-now-a-registered-test.md",
+          "owner": "WALTER",
+          "copy_sha256": "a775ba8adc3891ec38f3651df82b12aa4e25ff25acec24f4ddc59f239e66bbe2"
+        }
+      ]
+    },
+    {
+      "key": "SIG-W-20260924-024",
+      "topic": "Broader research context",
+      "role": "routed evidence",
+      "title": "HY spreads 273bp on 9/23: up 7bp in two prints, no line crossed",
+      "preferred_copy": "archive/documents/BOARD/SIG-W-20260924-024-hy-oas-273-on-9-23-up-7bp-in-two-prints-ai-linked-junk-supply-coreweave-dc-1-1b.md",
+      "preferred_original": "BOARD/SIG-W-20260924-024-hy-oas-273-on-9-23-up-7bp-in-two-prints-ai-linked-junk-supply-coreweave-dc-1-1b.md",
+      "distinct_contents": 1,
+      "aliases": [
+        {
+          "source": "BOARD/SIG-W-20260924-024-hy-oas-273-on-9-23-up-7bp-in-two-prints-ai-linked-junk-supply-coreweave-dc-1-1b.md",
+          "copy": "archive/documents/BOARD/SIG-W-20260924-024-hy-oas-273-on-9-23-up-7bp-in-two-prints-ai-linked-junk-supply-coreweave-dc-1-1b.md",
+          "owner": "BOARD",
+          "copy_sha256": "d424a86a49f063a7ce3c4f7c2594ff5c872bdda6691370cb9389661bf2bd48ae"
+        }
+      ]
+    }
+  ]
+}

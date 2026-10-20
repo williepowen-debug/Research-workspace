@@ -143,3 +143,21 @@ GPU_SERIES.tsv	source_class	Enum	exchange_primary | index_vendor | marketplace_a
 GPU_SERIES.tsv	source_url	String	URL or SEARCH-NOT-FOUND:<what>	Yes	The artifact. An unreachable source is recorded as SEARCH-NOT-FOUND with the exact thing that was unreachable named [finding_a_named_unchecked_fallback_makes_an_absence_closable]. ⚠️ FORMAT: URL or `SEARCH-NOT-FOUND:<what>`; free-form by design.
 GPU_SERIES.tsv	validation	String	free text; ERR: prefix on failure	Yes	The zero-free-parameter check this row passed. Fails LOUD. ⚠️ PATTERN, deliberately String: `ERR:` PREFIX + free-form body, not a closed set.
 GPU_SERIES.tsv	notes	String	free text	No	Caveats, off-cadence declarations, panel-change rationale.
+KB_GENERAL.tsv	id	String	KB-VULCAN-NNN (sequential)	Yes	Unique KB row id
+KB_GENERAL.tsv	date	Date	YYYY-MM-DD	Yes	Date the fact was recorded/observed
+KB_GENERAL.tsv	channel	Enum	S1|S2|S3|S4|S5|cross	Yes	Which transmission channel the fact feeds
+KB_GENERAL.tsv	fact	String		Yes	The knowledge item, one sentence, sourced
+KB_GENERAL.tsv	value	String		No	The load-bearing number WITH UNIT; blank if narrative
+KB_GENERAL.tsv	source	String		Yes	Origin (filing/TrendForce/SIA/BIS/TSMC/agent handoff). No naked numbers
+KB_GENERAL.tsv	as_of	String	YYYY-MM-DD preferred; a PERIOD expression where the vintage genuinely is one	Yes	As-of vintage OF THE VALUE — may lag `date` and often should. ⚠️ TYPE RELAXED Date->String 2026-08-21 after the validator flagged 15 rows: the data was RIGHT and the schema was WRONG. A KB vintage is legitimately sometimes a period ('FY2025 filings', '2026-03-31 to 2026-06-22', 'late-2025/early-2026'), and coercing those to an ISO day would manufacture FALSE PRECISION — worse than the imprecision. ⚠️ THE REAL COST, stated rather than hidden: KB `as_of` is therefore NOT machine-sortable and no staleness check can key on it. Use a precise ISO date whenever one exists.
+KB_GENERAL.tsv	confidence	Enum	EMPIRICAL|PROVISIONAL|ASSUMPTION	Yes	Evidence tier. ONE TOKEN — qualifiers belong in `notes`
+KB_GENERAL.tsv	notes	String		No	Caveats, cross-refs, routing
+../CRWV/KB.tsv	id	String	KB-VULCAN-NNN (sequential)	Yes	Unique KB row id
+../CRWV/KB.tsv	date	Date	YYYY-MM-DD	Yes	Date the fact was recorded/observed
+../CRWV/KB.tsv	channel	Enum	S1|S2|S3|S4|S5|cross	Yes	Which transmission channel the fact feeds
+../CRWV/KB.tsv	fact	String		Yes	The knowledge item, one sentence, sourced
+../CRWV/KB.tsv	value	String		No	The load-bearing number WITH UNIT; blank if narrative
+../CRWV/KB.tsv	source	String		Yes	Origin (filing/TrendForce/SIA/BIS/TSMC/agent handoff). No naked numbers
+../CRWV/KB.tsv	as_of	String	YYYY-MM-DD preferred; a PERIOD expression where the vintage genuinely is one	Yes	As-of vintage OF THE VALUE — may lag `date` and often should. ⚠️ TYPE RELAXED Date->String 2026-08-21 after the validator flagged 15 rows: the data was RIGHT and the schema was WRONG. A KB vintage is legitimately sometimes a period ('FY2025 filings', '2026-03-31 to 2026-06-22', 'late-2025/early-2026'), and coercing those to an ISO day would manufacture FALSE PRECISION — worse than the imprecision. ⚠️ THE REAL COST, stated rather than hidden: KB `as_of` is therefore NOT machine-sortable and no staleness check can key on it. Use a precise ISO date whenever one exists.
+../CRWV/KB.tsv	confidence	Enum	EMPIRICAL|PROVISIONAL|ASSUMPTION	Yes	Evidence tier. ONE TOKEN — qualifiers belong in `notes`
+../CRWV/KB.tsv	notes	String		No	Caveats, cross-refs, routing

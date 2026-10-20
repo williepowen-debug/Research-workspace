@@ -1,0 +1,3 @@
+# Desk ledgers plus maintained company evidence; archived snapshots excluded.
+workbook/*.tsv
+CRWV/KB.tsv

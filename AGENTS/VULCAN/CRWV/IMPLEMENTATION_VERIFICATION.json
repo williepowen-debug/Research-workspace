@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-20T15:11:46-04:00",
+  "scope": "Organization implementation, not financial-source refresh",
+  "company_rows": 20,
+  "general_rows": 227,
+  "combined_rows": 247,
+  "all_original_ids_fields_preserved": true,
+  "legacy_view_byte_identical_at_migration": true,
+  "frozen_source_hashes_verified": 86,
+  "frozen_extract_hashes_verified": 6,
+  "catalogue_groups": 48,
+  "catalogue_origin_aliases": 86,
+  "local_document_links_verified": 136,
+  "tests": {
+    "migration_and_library": 12,
+    "existing_validator": 41,
+    "failures": 0
+  },
+  "authority_files": {
+    "company": "CRWV/KB.tsv",
+    "general": "workbook/KB_GENERAL.tsv",
+    "generated_read_view": "workbook/KB.tsv"
+  },
+  "refresh_note": "Generated files do not refresh source observation dates; original snapshots remain frozen."
+}

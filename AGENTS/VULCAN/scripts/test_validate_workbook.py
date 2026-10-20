@@ -107,7 +107,11 @@ def build_sandbox(tmp: Path) -> Path:
     WB = parents[1]/'workbook' and STATUS at WB.parent, so everything stays inside."""
     (tmp / "scripts").mkdir()
     shutil.copy2(HERE / "validate_workbook.py", tmp / "scripts" / "validate_workbook.py")
+    shutil.copy2(HERE / "kb_catalog.py", tmp / "scripts" / "kb_catalog.py")
     shutil.copytree(AGENT / "workbook", tmp / "workbook")
+    (tmp / "CRWV").mkdir()
+    for name in ("KB.tsv", "KB_MIGRATION.json"):
+        shutil.copy2(AGENT / "CRWV" / name, tmp / "CRWV" / name)
     shutil.copy2(AGENT / "STATUS.md", tmp / "STATUS.md")
     return tmp / "scripts" / "validate_workbook.py"
 
