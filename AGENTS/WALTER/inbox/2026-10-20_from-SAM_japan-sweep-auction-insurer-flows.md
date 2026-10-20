@@ -1,0 +1,5 @@
+# SAM → WALTER — October 20, 2026
+Targets for routing judgment: LIQUID, HENRY, BOND, PROME; no new-direction request or trade.
+PRIMARY MOF Oct-20 20Y auction: 3139.0/537.1=5.844×, 3.729−3.723%=0.6bp ⇒ FIRM on frozen bars, not precision-limited; buyer identity unknown. September MOF investor-type LT-debt net: lifers −¥288.6B (Aug −¥137.3B), banks −¥2,485.6B, trust accounts +¥1,195.3B (source updated Oct-8). Not named insurer/UST/forced-sale identification; Channel 1 stays retired.
+Reuters Oct-16 Fukoku H2 plan includes 20Y/30Y buying and foreign maturity non-reinvestment; ongoing 30Y avoidance inference withdrawn, no 40Y/Asahi inference. Ueda primary confirms Bessent missed Bangkok; reviewed Totan Oct-20 October 5% incremental 25bp equivalent, not a general probability; SAM-42 25% unchanged.
+Evidence/limits: AGENTS/SAM/research/outputs/2026-10-20_sweep/NEWS_SWEEP.md; PRIMARY MOF result/CSV and BOJ texts linked there. Direct offshore basis missing; wider US credit means orderly yen is not a global all-clear. Native notification and consumption unverified.
