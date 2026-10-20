@@ -37,7 +37,7 @@ Current regime + scenario weights → `HEARTBEAT.md` (its own header names the c
 
 ## Fidelity — Off-thesis / day-trade class
 
-> Will-direct, short-dated, owned by no agent unless separately recorded. Standing rail **SELL-OR-ROLL before expiry** (`USER.md`, 9/30 19:03 ET) is Will's own rule, quoted once here; TERRY recommends, Will orders, and this mirror records holdings and evidence only (Will 10/20 11:10 ET: tone down micromanagement of active positions). The capture establishes holdings/fills, not contract-specific cards or approvals; grouping is navigation, not a thesis or scope ruling. Last marks are not executable bids; working orders UNKNOWN. Receipt-day DTE is scheduling only.
+> Will-direct, short-dated, owned by no agent unless separately recorded. **Will manages his own expiries** (`USER.md` § No expiry nagging, 10/20 11:32 ET; supersedes the 9/30 sell-or-roll rail as an instruction): no expiry reminders or sell pushes, and a collapsed line may expire. This mirror records holdings and evidence only; dispositions are read from his captures, never inferred. The capture establishes holdings/fills, not contract-specific cards or approvals; grouping is navigation, not a thesis or scope ruling. Last marks are not executable bids; working orders UNKNOWN. Receipt-day DTE is scheduling only.
 
 | Ticker | Strike | Expiry | Qty | Cost | Mark 10/20 intraday rcv | Value | P&L | Note |
 |--------|--------|--------|-----|------|---------------|-------|-----|------|
