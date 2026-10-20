@@ -91,3 +91,22 @@ Proposed: move to WILL_QUEUE as a hands item (check the DBPR portal), with the D
 2. `prome_gate.py` DOCKET checks stay green: overdue-unannotated and buried-token.
 3. `spawn_list.py` wakes no desk on a row this sweep closed.
 4. No row was resolved without a cited artifact.
+
+---
+## REVISION — 2026-10-20 14:15 ET (CATO plan read: HOLD → revised plan accepted; Will "Okay approved")
+CATO's three findings are accepted: BP1 (L600 forbids covering rows), BP2 (the WQ-379 reclassifications survive), BP3 (L384 → reconcile the instance, class at L386). **Section A's blanket re-date is WITHDRAWN.** Class A rows stay overdue. PROME refreshes the existing ranked table (`PROME/proposals/2026-10-03_l600-process-backlog-ranked-table-PROPOSAL.md`) before the 10/25 L600 review, and Will rules row by row there. Execution conditions (CATO): ownership stays as recorded on each row; no supported new date means the row stays overdue; L384 closes only on verified evidence.
+
+### Executed 2026-10-20 (each verified at the cited artifact)
+- **RESOLVED:**
+  - L384: CL=F roll, BRENT 38d5fce3d; class row L386
+  - L350: fresh fleet read-cap run; HANS flagged by packet
+  - L176: MIDAS 2946f173b
+  - L321: HAWK bba2e26fd
+  - L464: VIOLET d179af27b / db430d019
+  - L548: DAEDALUS 4d179ddb1; apply at L628
+  - L657: RED 4a88cd3ed + BROCK 44f607aa9
+- **Moved to Will's list:** L597 → WQ-463. The DOCKET row stays overdue at its own date.
+- **Annotated, owner leg done, date NOT moved:** L667 (VIOLET rider open), L530 (PROME apply), L499 (PROME plan read + insertion), L526 (BRENT draft; Will installs).
+- **Left as is, still owed:** L467 (waits on FLG's ruling), L40 and L263 (need a DAEDALUS session; slated to Will 9/18), L334 (WALTER owes it per its own LAST_COMPLETION), L490 (PARTIAL by legs), L517 (hearing outcome not yet read), L568 (owes a last independent read), L639 (WALTER §5 + the build decision), L704 (GIBBS evidence open).
+- **Calendar OVERDUE:** 76 → 64. Gate DOCKET checks green. No closed row appears in `spawn_list.py`.
+- **Still to do:** refresh the L600 ranked table before 10/25. That is PROME work, next session (process ceiling reached today).
