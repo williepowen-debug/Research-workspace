@@ -19,6 +19,9 @@
 
 ## Session Notes
 
+### STARTUP — 2026-10-20, direct Will / Codex
+`reports/2026-10-20_Will-directed-Codex-startup.md`: explicit boot/approval recovery, full monitor7OK/1filing ALERT; no additional research begun. Next existing work WAL after noon call, OZK tonight; prior closeout-residue packet remains in inbox. FORGE10/20 supersedes local position vintage; approved sales unfilled in supplied evidence. Pull withheld for peer dirty work; runtime/model/transport gaps recorded.
+
 ### CURRENT RESULT — 2026-10-20, PROME due-row spawn (L516 + REG-T-03 + drain)
 `reports/2026-10-20_Nano-PA-recheck_REG-T-03-fire_inbox-drain.md`. Nano P&A NOT POSTED 09:16ET 10/20 (claims bar date 2027-01-20 found); REG-T-03 FIRED [10/16 close] with BANK-ABSENT ~0.6 beside it; whole inbox drained (6 packets + 19 WALTER, 2 NO-OP correction receipts); GIBBS seams confirmed by packet. Gap: WAL WQ-318 grade owed (release IB-cost line not in hand; EDGAR needs contact UA).
 ### PRIOR RESULT — 2026-10-14, session closed at Will’s request
