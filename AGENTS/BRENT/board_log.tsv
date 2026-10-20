@@ -621,3 +621,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T10:40:38-04:00	2026-10-19_from-PROME_broker-energy-receipts.md	acted	INBOX	Startup recovery at audits/2026-10-20_startup/receipt.json; code recommendation not implemented; no source/threshold/capital grade.
 2026-10-20T10:40:38-04:00	2026-10-16_from-PROME_instrument-check-decouple-rec-and-COT10-consumed.md	noted	INBOX	Startup recovery at audits/2026-10-20_startup/receipt.json; code recommendation not implemented; no source/threshold/capital grade.
 2026-10-20T10:40:38-04:00	2026-10-15_from-PROME_ORACLE-pulls-iran-odds-fell-crude-1.957-oil110-9pct.md	noted	INBOX	Startup recovery at audits/2026-10-20_startup/receipt.json; code recommendation not implemented; no source/threshold/capital grade.
+2026-10-20T15:28:03-04:00	SIG-W-20261020-003	info-only	INBOX_WALTER	Named Polar supplier allocation; conditional shutdown only. VULCAN owns impact; no new energy damage or shipping grade.
+2026-10-20T15:28:03-04:00	SIG-W-20261020-018	deferred	INBOX_WALTER	Monthly USGC jet versus Europe Brent spot basis; owner source assessment deferred to refined-products work. No futures/holding grade or adoption.
+2026-10-20T15:28:03-04:00	SIG-W-20261020-019	deferred	INBOX_WALTER	DOE October16 image and QuickFacts totals conflict; exact SPR level/weekly change not adopted pending primary reconciliation.

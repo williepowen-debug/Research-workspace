@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-20T15:28:03-04:00",
+  "scope": "Will-requested BRENT boot and continuity recovery; no new research grade",
+  "runtime": "Codex",
+  "provider": "OpenAI",
+  "model": "GPT-6 based; exact variant UNKNOWN",
+  "session_id": "01a15ac7-725c-7930-bdb3-3a1387a916be",
+  "repo_root": "/home/willi/Research-workspace",
+  "launch_cwd": "/home/willi/Research-workspace/AGENTS/BRENT",
+  "instructions": "Explicitly read root CLAUDE.md, AGENTS.md, USER.md, local CLAUDE.md, COMPLETION_SPEC and Runtime mechanics; STATUS/SCRATCH/MEMORY/LESSONS and newest Monday routine read.",
+  "pull": "DEFERRED: foreign DAEDALUS/MIDAS/WALTER dirty paths; no stash or pull",
+  "capabilities": {
+    "shell_git_python": "verified",
+    "web": "exposed; unused this boot",
+    "fleet_presence": "UNKNOWN; thread tools do not enumerate cross-runtime sessions",
+    "fleet_messaging": "no exact-pair verification; no messages sent",
+    "scheduler": "unverified; unchanged"
+  },
+  "boot": {
+    "rc": 2,
+    "OK": 5,
+    "FINDINGS": 5,
+    "FAIL": 0,
+    "duration_seconds": 23.8,
+    "output": "boot-resume.txt",
+    "findings": [
+      "EIA utilization October9 outside 10-day budget",
+      "JWC human stamp stale, paired instrument coverage incomplete, facility verification aged",
+      "LESSONS_INDEX activity age exceeds 7 days",
+      "Six ledgers behind STATUS writes; file activity is not economic freshness",
+      "Eight standing rows not reconciled since the graded catalyst; not proven wrong"
+    ]
+  },
+  "corrections": "0 unreceipted named rows; check passed",
+  "predictions": "No overdue OPEN endpoint flagged; BRT30 due October26, no new grade",
+  "intake": {
+    "SIG-W-20261020-003": [
+      "info-only",
+      "Named Polar supplier allocation; conditional shutdown only. VULCAN owns impact; no new energy damage or shipping grade."
+    ],
+    "SIG-W-20261020-018": [
+      "deferred",
+      "Monthly USGC jet versus Europe Brent spot basis; owner source assessment deferred to refined-products work. No futures/holding grade or adoption."
+    ],
+    "SIG-W-20261020-019": [
+      "deferred",
+      "DOE October16 image and QuickFacts totals conflict; exact SPR level/weekly change not adopted pending primary reconciliation."
+    ]
+  },
+  "general_inbox": "HENRY October19 December evidence and OSPREY October15 read for triage; deferred in place for source-level review; no owner adoption",
+  "research_resume": "EIA October15 full BRT31 evaluation including price check; HENRY December measurement adoption/rejection; USO evidence tracking remains available",
+  "authority": "No new threshold, forecast, order, trade proposal, helper or schedule. Latest USER.md no-expiry-nagging and NOT-FIRED idea rules read; no expiry prompt issued."
+}

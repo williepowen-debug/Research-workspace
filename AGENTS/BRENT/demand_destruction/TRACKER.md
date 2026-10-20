@@ -1,5 +1,7 @@
 # DEMAND DESTRUCTION TRACKER
 
+> **October20 15:27 resume — SCOPED-PARTIAL:** boot sources/coverage checked; EIA utilization remains October9 and outside10day budget. All alert rows retain prior observation dates and owner grades; no settlement, composite, delivery or holding grade refreshed. New SPR discrepancy and monthly jet-margin packet remain pending owner verification. [Receipt](../audits/2026-10-20_startup/resume-receipt.json).
+
 > **October 20 key-file review — SCOPED-PARTIAL:** workbook/calendar/thesis metadata reconciled; [audit](../audits/2026-10-20_key-file-review/REPORT.md). Boot accessed EIA week October 9, but utilization remains outside its unchanged age budget; no alert row or holding grade refreshed here. All existing observation dates/letters remain; no live-source clearance inferred from maintenance. Final closeout reviewed this boundary; no additional source poll or alert change.
 
 > **October 20 USO folder closeout — SCOPED-PARTIAL:** authorized structural/technical research home established at [USO](../USO/README.md). Original research and follow-up findings now stored inside USO, with previous report link forwarding. Only USO evidence organization and dated proxy observations reviewed; all existing alert rows retain their prior observation dates. No source, holding, settlement, EIA/COT or registered test refreshed by this folder change.

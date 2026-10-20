@@ -2,14 +2,16 @@
 
 **Handoff:** 2026-10-20T13:52:08-04:00 — Codex/OpenAI GPT-6 family, exact model variant UNKNOWN; session/runtime verification at [startup receipt](audits/2026-10-20_startup/receipt.json). Git root /home/willi/Research-workspace. Root/local instructions explicitly read in this session. Will directly requested key-file/workbook review after authorizing USO tracking and storage.
 
-**Final closeout:** 2026-10-20T14:28:51-04:00 — requested research, USO storage and key-file repair complete; research/review publication confirmed through `221028f09`. [Closeout receipt](audits/2026-10-20_key-file-review/CLOSEOUT.md). Resume at NEXT SESSION; existing evidence debts and approvals preserved.
+**Previous closeout:** 2026-10-20T14:28:51-04:00 — requested research, USO storage and key-file repair complete; research/review publication confirmed through `221028f09`. [Closeout receipt](audits/2026-10-20_key-file-review/CLOSEOUT.md). Resume at NEXT SESSION; existing evidence debts and approvals preserved.
+
+**Resume 2026-10-20T15:28:03-04:00:** Codex/OpenAI boot recovered; [receipt](audits/2026-10-20_startup/resume-receipt.json), full boot5OK/5FINDINGS/0FAIL,rc2. Three new WALTER packets read/logged/filed:003 INFO,018 jet margin and019 SPR discrepancy deferred for source review. HENRY/OSPREY top-level packets triaged and remain deferred in place. Prior research resume below preserved; no new grade or capital action. Latest USER.md preferences loaded.
 
 ## CHANGES SINCE LAST SESSION
 - [USO](USO/README.md) now holds the full investigation, receipts and consolidated discussion. Historical short counts and dated broker/vendor proxies do not establish October20 positions; broad loan series and current technical/options studies absent.
 - [News research](research/2026-10-20_deal-news/REPORT.md) verified the IEA acceleration announcement and original anonymous proposal report; no signed deal, restored throughput or delivered additional diesel established. Named quotes retain their October20 morning clocks.
 - Current structural broker evidence remains the October19 secondary transcription and matched earlier closing receipt at [TRADE](TRADE.md). No new raw image/order/fill-clock verification or booking this review.
 
-## WHAT I DID THIS SESSION
+## WHAT I DID BEFORE THIS RESUME
 - Completed [key-file/workbook review](audits/2026-10-20_key-file-review/REPORT.md): added USO/COT navigation and exact USO ledger coverage; recorded the FINRA publication dependency and generated the calendar.
 - Reconciled saved COT header to the existing October16 append, preserving all data rows. Repaired THESIS's obsolete holdings/call-outcome paragraph against TRADE; linked completed news/USO studies with scope. v5.13/WAIT and existing rule/approval state retained.
 - Rotated dated STATUS context with byte/hash/CRC receipt after hitting the existing size trigger. Key readers and routine tracker explicitly scoped; no false broad refresh.
@@ -31,12 +33,13 @@
 - Company earnings/valuation/price edge and delivered-diesel evidence remain unproved. Recordkeeping updates do not clear those research blockers.
 
 ## POSITION DECISIONS PENDING
-- No new Will decision created. TRADE owns quantities/receipts and added-share scope gaps; current orders/marks unknown. TERRY constructs/grades; Will executes. Standing sell-or-roll applies to each open option.
+- No new Will decision created. TRADE owns quantities/receipts and added-share scope gaps; current orders/marks unknown. TERRY constructs/grades; Will executes. No expiry reminders; latest USER.md governs.
 
 ## MAIL STATE
 - WALTER:27 previously read/logged/Git-filed; deferred ACTION work retained. General:3previously consumed/logged/filed,2deferred in place. No new packet consumption or native notification/recipient acknowledgement this review.
 
 ## WORKBOOK HEALTH
+- Resume READ-CAP: own5whole-read files under budget; NEXUS_BRIEF owner notice at81%ofbudget remains rotation debt, no archive surgery during boot.
 - Frozen history, REGISTRY, PREDICTIONS, TRADE, INCIDENTS, lessons/index and mail ledger preserved; COT data rows unchanged. USO observations included in existing scan; generic scan measures maintenance/Git age for this headerless TSV, not per-row source freshness.
 - Calendar has26events, one USO dependency added. Event set matches; eight standing-state age findings remain. Lesson prose/index structure matches; older semantic dates remain. Final checks and preservation receipts at audit.
 - Foreign PROME/WALTER work left untouched, pull deferred. Exact-path own commit/publication does not establish recipient consumption.

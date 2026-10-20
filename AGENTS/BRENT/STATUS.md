@@ -1,5 +1,7 @@
 # BRENT STATUS
 
+**October20 15:27 resume — SCOPED-PARTIAL:** boot5OK/5FINDINGS/0FAIL,rc2; [receipt](audits/2026-10-20_startup/resume-receipt.json). Source age/coverage, ledger activity and standing reconciliation remain unresolved. Three new WALTER packets triaged; jet-margin and conflicting SPR totals deferred without adopting figures. Existing research stance retained; no new grade or capital action.
+
 **October 20 key-file review — SCOPED-PARTIAL:** workbook/USO coverage, COT header, thesis position context and calendar repaired; [audit](audits/2026-10-20_key-file-review/REPORT.md) records the distinction between maintenance and evidence freshness. Boot retains source/standing-state findings; see audit.
 
 **October 20 USO tracking:** [USO research home](USO/README.md) contains the investigation, source receipts, [findings/corrections](USO/FINDINGS.md) and dated observations. Current aggregate shorts and broad loan stress remain UNKNOWN; historical snapshots and broker proxies retain their dates. Manual research tracking; no scheduled automation or new trade/threshold authority.
