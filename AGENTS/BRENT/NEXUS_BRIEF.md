@@ -1,9 +1,9 @@
 # BRENT — NEXUS Brief
 
-**Status:** Energy WAIT retained; this pass organises existing evidence and corrects expiry communication only.
+**Status:** Energy WAIT retained; authorised charter/reader cleanup implemented, original text conserved; independent PROME review pending.
 **Domain:** Oil/energy supply, demand, structure and transmission.
 **Thesis version:** v5.13; no calibration or capital-authority change.
-**As of:** 2026-10-20T17:57:58-04:00 | STATUS commit: `856796214852d069920bbd5b5b00419f5b511a3a` — C6(b) SCOPED-PARTIAL. Cross-domain/calibration sections below are preserved verbatim dated observations, not newly verified facts. October14 future-release/quantity/expiry/clear-mail wording is superseded by [TRADE](TRADE.md), [handoff](SCRATCH.md), [current news report](research/2026-10-20_deal-news/REPORT.md), and [docket](docket/CATALYSTS.tsv). USER.md governs expiry communication: Will manages expiries; no reminders. No historical candidate becomes a current quote or approved replacement.
+**As of:** 2026-10-20T18:40:39-04:00 | STATUS commit: `b986c31bea7881296a74dae994ab9d90a63f6038` — C6(b) SCOPED-PARTIAL. Cross-domain/calibration sections below are preserved verbatim dated observations, not newly verified facts. October14 future-release/quantity/expiry/clear-mail wording is superseded by [TRADE](TRADE.md), [handoff](SCRATCH.md), [current news report](research/2026-10-20_deal-news/REPORT.md), and [docket](docket/CATALYSTS.tsv). USER.md governs expiry communication: Will manages expiries; no reminders. No historical candidate becomes a current quote or approved replacement.
 
 ## CROSS-DOMAIN
 
