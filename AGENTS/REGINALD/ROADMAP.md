@@ -84,3 +84,5 @@ Will-directed reported-bank earnings catch-up → `reports/2026-10-20_reported-b
 **10/20 M&T capacity question ANSWERED within reported evidence:** `reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`. Earnings cover observed credit cleanup; distributions/OCI constrain retention earlier. Existing filing/release read can test the conditional expectation; borrower-level recovery and vendor EPS basis remain unknown. No new monitor/cohort or formal thesis change. Last touched2026-10-20.
 
 **10/20 EGBN follow-up, direct Will:** `reports/2026-10-20_EGBN_cash-recovery_investigation.md`. Accessible current evidence investigated; four loan outcomes still UNKNOWN. Source scope/access gaps and July secondary expectations saved; cash/new expense/retained exposure remain next existing Q3-read fields. Appraisal-table inconsistency is a clarification gap, not a scored signal. No new monitor. Last touched2026-10-20.
+
+**EGBN navigation,10/20 Will-directed:** `research/EGBN/README.md` indexes current findings, sources and the existing loan-outcome cases. Originals retained; archived per-bank folder stays historical. No new investigation or monitor.
