@@ -4,6 +4,10 @@ Organized 2026-10-20T14:06:11-04:00, at Will's request. This is the local entry 
 
 **Authority and freshness:** copies under `archive/` are FROZEN reference snapshots, not automatically updated mirrors. Their original research/data dates still apply. Check the original owner before using a market quote, trade card or changed ruling. Consolidation does not independently validate a claim. Historical instructions in copied packets/prompts are records, not new assignments or approvals.
 
+## Analysis
+
+[October 20 financing and shareholder analysis](2026-10-20_analysis.md) connects deployment, project cash restrictions and parent funding. Historical Q2 figures independently rechecked; no current cash runway or valuation claimed. The frozen source collection below is unchanged.
+
 ## Read these first
 
 1. **Corrected financing mechanism:** [DEWEY’s DDTL 4.0 correction](archive/documents/AGENTS/VULCAN/inbox/processed/2026-08-02_from-DEWEY_DR1-CORRECTION-ddtl4-mechanism.md). The earlier GPU-depreciation → automatic borrowing-base reduction claim was withdrawn. The filed cash-flow/power-cost provisions and their scope matter.

@@ -84,6 +84,10 @@ Standing bands unchanged: cleared new issue flex≥150bp or PULLED; a second jur
 
 Illustrative HSBC/independent contract models are not observed marginal contracts, company IRRs or live financing. WALTER reproduced arithmetic only; revenue/MW, useful life, deployment lag, tax, residual and debt terms remain assumptions [KB-241]. Insider tax/plan sales are real transactions but not issuer funding withdrawals or proved panic [KB-242].
 
+### CoreWeave October20 synthesis
+
+[Company analysis](CRWV/2026-10-20_analysis.md), KB-246/247: June30 recourse31.405B/non-recourse3.663B net; generalizing one protected SPV to the whole parent is inappropriate. Principal amortization can precede final maturity, and conditional facility availability is not cash. Delivery/acceptance can affect collections and debt service together; actual breach unestablished. Interest/net-loss similarity is not sole causation. Historical Q2 balances, not current runway; existing company falsifiers and scores unchanged.
+
 ## NVDA guarantee mechanism and forward instrument
 
 8-K August17 accession0001045810-26-000069; filed10-Q August26 accession0001045810-26-000075 [KB-111/120..126/153..155]. Residual-value support covers an OpenAI-affiliate tenant at PORTS-Pike, ~4.25GW committed plus~3.8GW discretionary option; nine20-year phases, first service FY2029 (~calendar2028). Guarantee rises with phases and declines as OpenAI pays. OpenAI indemnifies NVDA but payment may not arrive promptly/in full. Re-letting or selling AI-specific capacity may be hardest when Nvidia's own demand is weakest: correlated exposure, not diversification.
