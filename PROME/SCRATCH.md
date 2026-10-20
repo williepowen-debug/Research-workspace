@@ -4,6 +4,7 @@
 ## ★ NEXT SESSION — START HERE
 
 **October20 afternoon (session b94e8a3e, Standard closeout 15:3x ET):** account → `memory/2026-10-20.md` § b94e8a3e. Will's Codex windows (CATO · WALTER · BRENT · TERRY · REGINALD · SAM) are HIS sessions, not PROME spawns. **Standing from today:** no expiry reminders or sell-or-roll pushes anywhere (`USER.md` § No expiry nagging; C5 PAUSED); trade ideas may be NOT-FIRED (`USER.md` § Trade ideas loosened). The calendar now lives at `state/CALENDAR.md`.
+- **⚠️ Closeout delivery UNRESOLVED (first thing next session):** e9df9d3fa (Standard closeout, ARGUS-reviewed ❌0 at round 2) was PUBLISHED by WALTER's shared push 16:34 ET 10/20. PROME's own `--verify-review` returned rc 1: concurrent desk inbox moves plus `scripts/account_guard.py` outside the audit perimeter. PROME withheld its own push correctly, but the content shipped anyway. **Reconcile through the existing schema-2 delivery-contract workflow** (`tools/ARGUS_CONTRACT.md`; CATO verified it in a disposable repo; `AGENTS/CATO/runs/2026-10-20_closeout-delivery-review.md`, daae4a642). Do not re-freeze onto the old verdict. If a perimeter exception is added, classify the guard SHARED, not PROME-owned (CATO). ARGUS baseline NOT advanced (step 12 requires a verified delivery). No rollback indicated.
 - **Owed, in order:**
   1. Install **L628** once DAEDALUS re-hashes (packet 4330db8a5); CATO then does the result read.
   2. Encode **WQ-453** in GATES on ORACLE's packet (FOMC 10/28).
