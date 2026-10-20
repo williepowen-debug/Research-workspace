@@ -1,6 +1,4 @@
-# VULCAN continuity — 2026-10-20T16:48:25-04:00
-
-## READ THIS BLOCK FIRST
+> # ⛔ 2026-10-20T16:51:29-04:00 — READ THIS BLOCK FIRST. VULCAN startup repair.
 
 ▶ START HERE: Will requested repair of broken diagnostics, inaccurate calendar labels and stale startup documents; then reassess incomplete research. See `reports/2026-10-20_startup-repair.md`. This is maintenance, not a financial refresh. Prior continuity preserved verbatim in `archive/SCRATCH_PRE_STARTUP_REFRESH_2026-10-20.md`.
 
