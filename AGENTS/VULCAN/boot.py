@@ -6,8 +6,8 @@ Built by DAEDALUS 2026-07-10 (VULCAN build). cwd-proof + self-locating: lives at
 AGENTS/VULCAN/boot.py -> parents[2] == repo root; finds scripts/ledger_staleness.py
 regardless of launch cwd.
 
-Boot step 4 in CLAUDE.md. SEVEN legs:
-  1. ledger staleness — workbook/*.tsv AND TRADE.md vs STATUS mtime (shared script).
+Boot step 4 in CLAUDE.md. TEN legs (1–7 below; 8–10 follow):
+  1. ledger staleness — workbook/*.tsv AND TRADE.md vs STATUS content vintages (shared script).
   2. predictions-due  — workbook/PREDICTIONS.tsv rows past resolve_date still OPEN.
   3. S2 series age    — workbook/S2_SERIES.tsv vintage, CONTENT-derived from the
      row's own asof_utc (never mtime — git sync restamps mtime and the check would
@@ -34,18 +34,22 @@ Boot step 4 in CLAUDE.md. SEVEN legs:
      MARKET forecasts — so 7 of 10 dated commitments had NO surfacing mechanism at all.
 
   7. workbook schema — scripts/validate_workbook.py --boot: enforces SCHEMA.tsv against
-     ALL EIGHT ledgers. Added 2026-08-21. Until that day SCHEMA.tsv described KB.tsv ONLY
+     all SCHEMA-declared ledgers. Added 2026-08-21. Until that day SCHEMA.tsv described KB.tsv ONLY
      (9 rows for 1 of 8 ledgers) while CLAUDE.md said "read before writing" — a ritual with
      no mechanism. First run found 2 genuine defects among 18 raw flags: a confidence cell
      carrying TWO tiers as prose (matched no filter, invisible to every scan) and a
      compound value in FLOW's channel enum.
 
-⚠️ S3 and S5 STILL HAVE NO SERIES INSTRUMENT, and that is a DECISION, not an omission:
+  8. EDGAR collection vintage + periodic model validity/open windows (offline).
+  9. named correction receipts.
+ 10. commits touching VULCAN paths ahead of the local origin ref (includes inbound packets).
+
+S3 and S5 use an event instrument rather than a daily price proxy:
    both channels' registered thresholds are EVENT-triggered (a cleared new-issue vs talk,
    a collateral posting, a FERC order), not cadence-sampled. Building a daily price proxy
    for them would resolve something other than the concept the threshold names
    (`finding_registry_names_a_concept_tool_resolves_an_instrument`). They are covered by
-   leg 6 instead — dated-event coverage, which is the shape their evidence actually has.
+   legs 6 and 8 — registered dates plus the retained filing collection.
 
 Combined exit: 0 = quiet · 1 = REVIEW (stale ledger or prediction due) · 2 = a leg failed.
 """
@@ -61,7 +65,7 @@ HERE = Path(__file__).resolve().parent
 STALENESS = ROOT / "scripts" / "ledger_staleness.py"
 PREDICTIONS = HERE / "workbook" / "PREDICTIONS.tsv"
 S2_SERIES = HERE / "workbook" / "S2_SERIES.tsv"
-S2_MAX_AGE_DAYS = 7  # S2 is a score-3 channel; a week-old series is a stale channel
+S2_MAX_AGE_DAYS = 7  # a week-old memory series is stale; this bound is not a live score
 MAG7_SERIES = HERE / "workbook" / "MAG7_SERIES.tsv"
 # 21d, and the bound is set from the CADENCE of what it measures, not inherited:
 # index weights drift slowly, so a daily bound would cry wolf. But it must be well
@@ -155,7 +159,7 @@ def s2_series_age():
     """
     if not S2_SERIES.exists():
         return 1, ("  S2 series ABSENT — run: python3 AGENTS/VULCAN/tools/semi_watch.py\n"
-                   "    (S2 is at score 3 with no retained history; the live read is a point, not a trend.)")
+                   "    (Without retained history the live read is a point, not a trend.)")
     try:
         rows = list(csv.DictReader(S2_SERIES.open(encoding="utf-8"), delimiter="\t"))
         if not rows:
@@ -319,7 +323,8 @@ def edgar_sweep():
                    "\n    (S3/S5 are EVENT-triggered channels; the filing sweep IS their "
                    "instrument.)")
     try:
-        rows = list(csv.DictReader(EDGAR_SEEN.open(encoding="utf-8"), delimiter="\t"))
+        with EDGAR_SEEN.open(encoding="utf-8") as ledger:
+            rows = list(csv.DictReader(ledger, delimiter="\t"))
         if not rows:
             return 1, "  EDGAR ledger is header-only — run tools/edgar_watch.py"
         # CONTENT vintage: the newest observation stamp in the file, never mtime.
@@ -335,7 +340,7 @@ def edgar_sweep():
                    f"the 4d and 5d misses that built this tool)"
                    f"\n    run: python3 AGENTS/VULCAN/tools/edgar_watch.py")
     else:
-        out.append(f"  ✓ EDGAR sweep fresh ({age}d, {len(rows)} rows, last swept {last_run})")
+        out.append(f"  ✓ EDGAR collection fresh ({age}d, {len(rows)} rows, last swept {last_run})")
 
     # ── OPEN filing windows, computed offline from the retained ledger ──
     try:
@@ -352,10 +357,22 @@ def edgar_sweep():
                          if x["form"] in ("10-K", "20-F", "40-F") and x["report_date"]})
             for form in sorted({x["form"] for x in fl} & EW.PERIODIC):
                 hist = EW.lags(fl, form)
-                if EW.backtest(hist)[0] != "PASS":
+                verdict, detail = EW.backtest(hist)
+                if verdict != "PASS":
+                    # Observation freshness never certifies a forecasting method.
+                    # Thin history is a review; an observed failure cannot certify.
+                    rc = max(rc, 1 if verdict == "UNGRADEABLE" else 2)
+                    out.append(f"    ⚠️ {tick} {form} backtest {verdict}: {detail} — "
+                               "window UNGRADEABLE; collection freshness is separate")
                     continue
                 nw = EW.next_window(hist, today, fy, form)
-                if not nw or nw.get("stale"):
+                if nw and nw.get("stale"):
+                    rc = max(rc, 1)
+                    out.append(f"    ⚠️ {tick} {form} history STALE "
+                               f"({nw.get('behind_days', 'UNKNOWN')}d behind) — "
+                               "window UNGRADEABLE; inspect retained coverage")
+                    continue
+                if not nw:
                     continue
                 if nw["earliest"] <= today <= nw["latest"]:
                     rc = max(rc, 1)
@@ -418,15 +435,15 @@ def push_leg():
     except Exception as e:  # noqa: BLE001
         return 2, f"  🔴 push leg FAILED: {e}"
     if not out:
-        return 0, "  ✓ no VULCAN commit ahead of origin/master (local ref — `git fetch` refreshes it)"
+        return 0, "  ✓ no commit touching VULCAN paths ahead of origin/master (local ref — `git fetch` refreshes it)"
     old = prior_day_unpushed(out, date.today())
-    msg = f"  {'⚠️' if old else 'ℹ️ '} {len(out)} VULCAN commit(s) not on origin/master (local ref)"
+    msg = f"  {'⚠️' if old else 'ℹ️ '} {len(out)} commit(s) touching VULCAN paths not on origin/master (local ref)"
     if old:
         msg += f" — {len(old)} from a PRIOR day: a delegated push did not land, or the ref is stale. `git fetch` then re-check; if still ahead, run scripts/safe-push.sh"
         for l in old[:4]:
             msg += f"\n      {l[:100]}"
         return 1, msg
-    return 0, msg + " — all from today (this session's own, pending push)"
+    return 0, msg + " — all from today; may include inbound routing commits, not proof of owner activity"
 
 
 def main():
@@ -499,7 +516,7 @@ def main():
         print("  VULCAN boot: a leg FAILED — check manually, do NOT assume quiet.")
         return 2
     if 1 in rcs:
-        print("  VULCAN boot: REVIEW — stale ledger or prediction due.")
+        print("  VULCAN boot: REVIEW — inspect the named findings above.")
         return 1
     print("  VULCAN boot: all quiet.")
     return 0

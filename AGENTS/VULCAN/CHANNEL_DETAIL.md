@@ -1,6 +1,6 @@
 # VULCAN — CHANNEL DETAIL (live, cold, on-demand — NOT a boot read)
 
-**Split from `STATUS.md` 2026-09-02** · **Last real data refresh: 2026-08-27** · **Owner:** VULCAN
+**Split from `STATUS.md` 2026-09-02** · **Evidence vintage: section-specific (later rotations through October16)** · **Navigation reconciled October20; no market refresh** · **Owner:** VULCAN
 
 > **STATUS is canonical for SCORE, BAND STATE and FIRED-COUNT. This file is canonical for the EVIDENCE UNDER them.**
 > It is **live, not archived** — the per-channel evidence bodies are current analysis, and burying live evidence in an archive banner is `finding_live_claim_in_a_closed_container_is_invisible`. Read it on demand (per channel), never whole at boot.
@@ -9,7 +9,7 @@
 >
 > ⚠️ **Rule 17 — this destination is OFF the boot path.** Every obligation that moved was enumerated and re-homed; the audit is in `outbox/2026-09-02_to-PROME_*.md`. **If you add a new watch, standing rule or owed action here, it does not travel — put it on `STATUS.md`, `workbook/PREDICTIONS.tsv` or `docket/CATALYSTS.tsv` as well.**
 >
-> **Content below is VERBATIM as of the split** (`STATUS.md` lines 68-190 at HEAD). Receipts: matrix **20,139 B** crc `caf25840` · live reads **31,529 B** crc `1a707e33` · triad **13,518 B** crc `47ec75b6` · open **9,551 B** crc `332378cb`.
+> **Historical split receipt (the original §A–E bodies are now archived, not below):** `STATUS.md` lines68–190 at the split HEAD. Receipts: matrix **20,139 B** crc `caf25840` · live reads **31,529 B** crc `1a707e33` · triad **13,518 B** crc `47ec75b6` · open **9,551 B** crc `332378cb`.
 >
 > ⚠️ **Known stale-at-split, corrected on `STATUS.md` the same day — do not cite these from here:** ① the MU FQ4 date appears below as **~2026-09-29** (triad flip) and **~9/22** (open block); **both are wrong — MU CONFIRMED 2026-09-30, 2:30pm MT, issuer press release 2026-08-26.** ② VULCAN-16 appears as OPEN; it was **graded REFUTED 2026-09-02**. ③ CXMT "~17% of global DRAM by 2028" appears as a bit figure; it is **WAFERS** (ZHAO 2026-09-02, bits ~12% 2027).
 

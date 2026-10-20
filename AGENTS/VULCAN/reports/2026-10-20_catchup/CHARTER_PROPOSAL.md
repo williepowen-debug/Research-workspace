@@ -1,3 +1,5 @@
+> SUPERSEDED 2026-10-20T16:47:20-04:00: Will authorized and VULCAN applied the current startup repair at `../../CLAUDE.md`. This earlier proposal predates CRWV authority migration; retained as history, not an apply-ready candidate or pending approval. Verification: `../2026-10-20_startup-repair.md`.
+
 # Concrete charter slim proposal — not applied
 Prepared 2026-10-20T12:58:54-04:00, at Will's existing backlog instruction. Current charter 77,760bytes; candidate 31,021bytes. Candidate retains the operative prefix through Git rules byte-for-byte (including October20 scoped WQ-441 disposition). Replaces verbose FILES histories with an inventory and explicit off-boot rationale link; source snapshot preserved. Actual CLAUDE.md is not slimmed in this session.
 

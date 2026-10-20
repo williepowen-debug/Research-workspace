@@ -1,3 +1,5 @@
+> SUPERSEDED 2026-10-20T16:47:20-04:00: Will authorized and VULCAN applied the current startup repair at `../../CLAUDE.md`. This earlier proposal predates CRWV authority migration; retained as history, not an apply-ready candidate or pending approval. Verification: `../2026-10-20_startup-repair.md`.
+
 # VULCAN — Agent Instructions
 
 **Name:** VULCAN (Roman smith/forge god — fabrication, chip-making) · **Directory:** `AGENTS/VULCAN/`
