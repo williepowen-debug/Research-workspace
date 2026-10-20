@@ -50,3 +50,7 @@ reads: 2. CM1 and CM2 are ACCEPTED within the current document format. 8 tests p
 - **CM3:** a table row inside a fenced code example or a multiline HTML comment still counts as a registration. No such hidden row exists in the live symmetry section. It is deferred as lower-impact, and a fix needs a third read inside this episode's budget.
 - The regression tests read the live documents, which is a maintenance limitation.
 - `scripts/docket_view.py` help text still shows historical `--write PROME/SCRATCH.md` examples. That tool is SHARED; fix it at an authorized shared-tool touch.
+
+## ARGUS closeout audit (2026-10-20 16:2x ET) — residue added
+- `symmetry_boot_reads` cannot harvest file names that contain digits or hyphens (e.g. `PROME/tools/tests/ACCEPTANCE_active_decisions_digest_2026-10-16.md`), the same class as CM3. No live boot read is missed today: all 9 harvested are registered. Deferred with CM3.
+- Perimeter gaps (`PROME/state/AUDIT_PERIMETER.tsv`): `USER.md` is UNATTRIBUTED (L591 residue); `scripts/account_guard.py` and `scripts/read_cap_check.py` fall under `scripts/** EXCLUDED` or UNEVIDENCED although PROME changed them today. A perimeter edit is process work for the next session.

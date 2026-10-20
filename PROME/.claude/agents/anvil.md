@@ -27,7 +27,11 @@ Your spawn prompt supplies the per-run variables: **(a)** the broker-export tran
 - Report: headline deltas (account total, cash, what moved), the discrepancy list urgency-ranked with owners, consumer-sweep verdict (rule 3), diff stat, and an explicit "awaiting commit authorization" line.
 - After authorization: commit hash reported back (from `commit_check`'s verify line), tree state noted.
 
-## Known state at last edit (2026-10-19 — verify at the artifact)
+## Known state at last edit (2026-10-20 — verify at the artifact)
+- 2026-10-20 run: Claude Code subagent `anvil` (Opus), spawned by PROME b94e8a3e at Will's 11:10 ET word. October20 10:43 ET intraday capture (clocks UNKNOWN). 23 rows tie $37,840.91; 1 new (QQQ Oct22 715P) / 1 qty (USO Oct30 165C 1→2) / 1 gone (QQQ Oct20 720P sold) / 21 mark-only. New D-87 (today-G/L vs mirror-delta gaps on 11 option rows). Committed by PROME e4511a622; closeout ask answered (ORCH_LOG 2-CLOSEOUT-RECEIPT). Open: D-70 mapping re-review (PROME).
+
+### Prior run — October19 (history)
+
 - Codex clerk `/root/anvil_1019`, requested model gpt-6.1-sol; helper exposed GPT-6 family only. October19 post-close receipt, exact clocks UNKNOWN.23rows tie$39,887.29;9new/4quantity/10mark-only;3expired contracts absent, actual outcomes unknown. New D84–86; carried gaps retained in FORGE. Parent mapping re-review complete; owner card/booking acceptance pending. Clerk explicitly CLOSED without Git; PROME commits. Mirror run SHA256 `9a91e4b110be2c6f4e1e73ad97c12bfce55a06e06cc0e06e9764c105f17f3341`. Acceptance: `PROME/reports/2026-10-19_broker-reconcile-acceptance.md`.
 
 ### Prior run — October15 (history)

@@ -9,9 +9,18 @@ import hashlib, re, subprocess, sys
 
 KNOWN = {"5db70a6e830c3e54a86d08a3d10328b290f99f846a4f54bebc40494451fba245"}  # Fidelity Traditional IRA (•1326)
 LABELLED = re.compile(r"(?i)\b(?:account\s*(?:no\.?|number|num|#)|acct\.?\s*(?:no\.?|#)?)\s*[:#]?\s*\**\s*(\d{6,})")
-# Separators allowed (2026-10-20, PROME): "123-45-6789" / "123 45 6789" / "123.45.6789" passed the
-# old contiguous-only pattern. A match is hashed with its separators stripped, so only the KNOWN numbers refuse.
-RUN = re.compile(r"(?<![\d])\d(?:[ .\-]?\d){5,11}(?![\d])")
+# Separators allowed (2026-10-20, PROME; corrected the same day on ARGUS ❌1): a run of digits joined by
+# any of space . - / _ – — is stripped to digits and EVERY 6-12 digit window is hashed, so a neighbouring
+# digit ("qty 5 123456789", "2026-10-20 123-45-6789") cannot hide the number. Only KNOWN hashes refuse.
+RUN = re.compile(r"\d(?:[ .\-/_\u2013\u2014]?\d)+")
+def _known(body):
+    for m in RUN.finditer(body):
+        d = re.sub(r"\D", "", m.group())
+        for n in range(6, 13):
+            for i in range(len(d) - n + 1):
+                if hashlib.sha256(d[i:i + n].encode()).hexdigest() in KNOWN:
+                    return True
+    return False
 
 def main():
     try:
@@ -25,7 +34,7 @@ def main():
             path = line[6:] if line.startswith("+++ b/") else line[4:]
         elif line.startswith("+") and not line.startswith("+++"):
             body = line[1:]
-            if any(hashlib.sha256(re.sub(r"[ .\-]", "", m.group()).encode()).hexdigest() in KNOWN for m in RUN.finditer(body)):
+            if _known(body):
                 hits.append(f"{path}: a known account number (full digits)")
             elif LABELLED.search(body):
                 hits.append(f"{path}: 'account no.' followed by 6+ digits")
