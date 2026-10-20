@@ -1,0 +1,26 @@
+[docket_check] requested window 2026-10-20 -> 2026-11-10 (21d)
+[docket_check] feed sees through NOTHING  |  coupon auctions in reference set: 0  |  docketed: 0  |  MISSING: 0
+
+[docket_check] ⚠️ COVERAGE IS PARTIAL — VERIFIED ONLY THROUGH (nothing).
+   BLIND SPAN: 2026-10-20 -> 2026-11-10 (22d of the 21d window).
+   Cause is STRUCTURAL, not a fetch problem: TA_WS/upcoming lists only ANNOUNCED
+   auctions (~1wk ahead for coupons); the forward schedule is a QRA PDF outside
+   TA_WS. No API path closes it. The gap is WIDEST for the LARGEST events.
+   🔴 THIS TOOL CANNOT ADJUDICATE THAT SPAN — IT CAN ONLY DECLARE IT.
+      Two drafts of this check tried to auto-clear the span by text-matching the
+      docket. Both were wrong in the SAME direction, and the second was caught only
+      by running it: the row it counted as September coverage was this desk's OWN
+      warning row reading 'SEPTEMBER COUPON CALENDAR IS NOT DOCKETED'. A commentary
+      row and a real auction row are not reliably distinguishable by vocabulary, so
+      ANY auto-clear here is v1's disease again: a claim stronger than the measurement.
+   ⇒ The span is reported UNVERIFIED, always. Verify it against the Treasury QRA /
+      tentative auction schedule by hand; the owed action lives on the DOCKET as a
+      dated row, not in this tool's exit code.
+   ℹ️ FYI — 4 docket row(s) fall in the span and mention auction
+      language. LISTED AS INFORMATION, EXPLICITLY NOT AS A VERDICT:
+        · 2026-10-21  **US 20Y REOPENING, 1:00PM ET (announced 10/15; settles 10/23)** — the
+        · 2026-10-22  **US 5Y TIPS, 1:00PM ET (announced 10/15; settles 10/30)** · CUSIP9128
+        · 2026-10-29  **MONTH-END CLUSTER: 2Y 10/26 · 5Y 10/27 · 2Y FRN 10/28 · 7Y 10/29** (
+        · 2026-11-04  **NOVEMBER QUARTERLY REFUNDING ANNOUNCEMENT (QRA) — carries BOND's F1 
+[docket_check] rc=0 — NOTHING ACTIONABLE, which is NOT 'the window is covered'. Coverage is PROVEN only through None; 22d of the window remain UNVERIFIED by this tool.
+[docket_check] ⚠️ Scope: this tool covers TreasuryDirect COUPON AUCTIONS only. FOMC/ECB/CPI/MTS and every other non-auction catalyst are OUTSIDE its guarantee — a clean auction check is NOT a clean calendar.

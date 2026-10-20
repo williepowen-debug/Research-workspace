@@ -59,22 +59,13 @@
 | Basis trade leverage | CFTC/SEC/Fed reports / market research | Monthly/event | Hidden duration/funding fragility |
 | SOFR/repo pressure | LIQUID | Daily | Funding consequence, not BOND-owned |
 
-## Current Read
+## Current Read — 2026-10-20
 
-NYFed primary, series break resolved dynamically SBN2024; pulled 10/8 16:37 ET. Latest common as-of 2026-09-30: long end $133.1B (−$7.5B w/w; 7–11Y 38.6 / 11–21Y 57.0 / >21Y 37.5); 3–6Y $52.885B (−$7.194B from the 9/23 $60.079B build, unrevised); 2–3Y $22.396B; 6–7Y $23.304B. Falling inventory with firm indirect at the 10/7–10/8 auctions = the BENIGN-distribution pattern. Next as-of 10/7 expected Thu 10/15. Stock score 2 unchanged (KB-BND-427).
+PRIMARY NY Fed, dynamically resolved series break SBN2024, latest common as-of2026-10-07: long-end total$135.084B (+$2.022B w/w);7–11Y$38.492B (−0.107),11–21Y$57.842B (+0.881),>21Y$38.750B (+1.248).3–6Y$54.933B (+2.048);6–7Y$20.460B (−2.844). Evidence `../analysis/2026-10-20_catchup/raw/fr2004.json`, KB476.
 
-| Bucket ($B) |9/16|9/23|w/w|
-|---|---:|---:|---:|
-|7–11Y|35.127|34.245|−0.882|
-|11–21Y|68.456|68.486|+0.030|
-|>21Y|40.790|37.814|−2.976|
-|LONG-ENDTOTAL|144.373|140.545|−3.828|
-|3–6Y(WQ291)|47.986|60.079|+12.093|
-|6–7Y|27.845|23.199|−4.646|
+**One total build after declines, not two.** Stock score2 stays. The11–21Y increase does not support a simple bucket-level sale-into-buyback claim for October1; offsetting flows and seller identities remain unobserved. LIQUID's same-week corporate below-IG netstock fell$2.795B: selective net adjustment, not uniform dealer retreat. Net stocks do not identify gross forced sales, shorts, hedges or capacity refusal (KB489).
 
-**Bucket divergence matters.** TOTALfelltwice,so two-consecutive-buildsletterunmet. The3–6Ybuild satisfiesWQ291bar56.586 with3.493margin,and thusoperationalkillMET;it is not the long-end stock trigger. Netinventorydoesnotestablishauction-specificwarehousing,andfundingwindowremainsUNGRADED. Latestshared10/2SOFR-IORB−2bp is context ownedbyLIQUID,notaretrospectivegrade. The earlier benign-distribution interpretation is not carried forward as proven causal identification.
-
-Originalsourceandrawrecords→`../analysis/2026-10-05_live-refresh/raw/fr2004.json`;pairedletter→STATUSandTHESIS. Oldhistoricaltablesbelowretaintheirdates.
+WQ291's September23 operational letter remains MET on its first-published window; later inventory does not regrade it. Funding window remains UNGRADED. October19 public SOFR−IORB−3bp is current context, not a retrospective grade. Next as-ofOctober14 expected publicationOctober22, only after actual release. Prior tables below retain their dates.
 
 ## Rolling Table
 

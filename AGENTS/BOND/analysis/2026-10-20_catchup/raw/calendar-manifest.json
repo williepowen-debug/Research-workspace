@@ -1,0 +1,15 @@
+{
+  "bls_oct_calendar.html": {
+    "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "bls_nov_calendar.html": {
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "bea_calendar.html": {
+    "url": "https://www.bea.gov/news/schedule",
+    "bytes": 71459,
+    "time": "2026-10-20T12:09:23.187248-04:00"
+  }
+}

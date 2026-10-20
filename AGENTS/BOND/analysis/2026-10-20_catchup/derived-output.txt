@@ -1,0 +1,415 @@
+MEETINGS [datetime.date(2021, 1, 27), datetime.date(2021, 3, 17), datetime.date(2021, 4, 28), datetime.date(2021, 6, 16), datetime.date(2021, 7, 28), datetime.date(2021, 9, 22), datetime.date(2021, 11, 3), datetime.date(2021, 12, 15), datetime.date(2022, 1, 26), datetime.date(2022, 3, 16), datetime.date(2022, 5, 4), datetime.date(2022, 6, 15), datetime.date(2022, 7, 27), datetime.date(2022, 9, 21), datetime.date(2022, 11, 2), datetime.date(2022, 12, 14), datetime.date(2023, 2, 1), datetime.date(2023, 3, 22), datetime.date(2023, 5, 3), datetime.date(2023, 6, 14), datetime.date(2023, 7, 26), datetime.date(2023, 9, 20), datetime.date(2023, 11, 1), datetime.date(2023, 12, 13), datetime.date(2024, 1, 31), datetime.date(2024, 3, 20), datetime.date(2024, 5, 1), datetime.date(2024, 6, 12), datetime.date(2024, 7, 31), datetime.date(2024, 9, 18), datetime.date(2024, 11, 7), datetime.date(2024, 12, 18), datetime.date(2025, 1, 29), datetime.date(2025, 3, 19), datetime.date(2025, 5, 7), datetime.date(2025, 6, 18), datetime.date(2025, 7, 30), datetime.date(2025, 9, 17), datetime.date(2025, 10, 29), datetime.date(2025, 12, 10), datetime.date(2026, 1, 28), datetime.date(2026, 3, 18), datetime.date(2026, 4, 29), datetime.date(2026, 6, 17), datetime.date(2026, 7, 29), datetime.date(2026, 9, 16), datetime.date(2026, 10, 28), datetime.date(2026, 12, 9), datetime.date(2027, 1, 27), datetime.date(2027, 3, 17), datetime.date(2027, 4, 28), datetime.date(2027, 6, 9), datetime.date(2027, 7, 28), datetime.date(2027, 9, 15), datetime.date(2027, 10, 27), datetime.date(2027, 12, 8)]
+{
+  "nominal_frontier": "2026-10-19",
+  "real_frontier": "2026-10-19",
+  "curve_rows": [
+    {
+      "date": "2026-10-07",
+      "nominal": {
+        "1 Mo": 4.07,
+        "1.5 Month": 4.13,
+        "2 Mo": 4.14,
+        "3 Mo": 4.22,
+        "4 Mo": 4.28,
+        "6 Mo": 4.28,
+        "1 Yr": 4.42,
+        "2 Yr": 4.77,
+        "3 Yr": 4.87,
+        "5 Yr": 5.03,
+        "7 Yr": 5.15,
+        "10 Yr": 5.28,
+        "20 Yr": 5.71,
+        "30 Yr": 5.67
+      },
+      "real": {
+        "5 YR": 2.66,
+        "7 YR": 2.78,
+        "10 YR": 2.92,
+        "20 YR": 3.2,
+        "30 YR": 3.36
+      },
+      "2s10s_bp": 51,
+      "5s30s_bp": 64,
+      "10y_nominal_minus_real": 2.36,
+      "30y_nominal_minus_real": 2.31
+    },
+    {
+      "date": "2026-10-08",
+      "nominal": {
+        "1 Mo": 4.14,
+        "1.5 Month": 4.14,
+        "2 Mo": 4.13,
+        "3 Mo": 4.23,
+        "4 Mo": 4.29,
+        "6 Mo": 4.3,
+        "1 Yr": 4.44,
+        "2 Yr": 4.75,
+        "3 Yr": 4.85,
+        "5 Yr": 4.99,
+        "7 Yr": 5.11,
+        "10 Yr": 5.22,
+        "20 Yr": 5.64,
+        "30 Yr": 5.6
+      },
+      "real": {
+        "5 YR": 2.62,
+        "7 YR": 2.74,
+        "10 YR": 2.87,
+        "20 YR": 3.15,
+        "30 YR": 3.31
+      },
+      "2s10s_bp": 47,
+      "5s30s_bp": 61,
+      "10y_nominal_minus_real": 2.35,
+      "30y_nominal_minus_real": 2.29
+    },
+    {
+      "date": "2026-10-09",
+      "nominal": {
+        "1 Mo": 4.13,
+        "1.5 Month": 4.13,
+        "2 Mo": 4.13,
+        "3 Mo": 4.25,
+        "4 Mo": 4.29,
+        "6 Mo": 4.32,
+        "1 Yr": 4.47,
+        "2 Yr": 4.8,
+        "3 Yr": 4.89,
+        "5 Yr": 5.02,
+        "7 Yr": 5.13,
+        "10 Yr": 5.24,
+        "20 Yr": 5.65,
+        "30 Yr": 5.6
+      },
+      "real": {
+        "5 YR": 2.68,
+        "7 YR": 2.79,
+        "10 YR": 2.91,
+        "20 YR": 3.17,
+        "30 YR": 3.32
+      },
+      "2s10s_bp": 44,
+      "5s30s_bp": 58,
+      "10y_nominal_minus_real": 2.33,
+      "30y_nominal_minus_real": 2.28
+    },
+    {
+      "date": "2026-10-13",
+      "nominal": {
+        "1 Mo": 4.1,
+        "1.5 Month": 4.15,
+        "2 Mo": 4.15,
+        "3 Mo": 4.26,
+        "4 Mo": 4.32,
+        "6 Mo": 4.34,
+        "1 Yr": 4.48,
+        "2 Yr": 4.79,
+        "3 Yr": 4.9,
+        "5 Yr": 5.0,
+        "7 Yr": 5.11,
+        "10 Yr": 5.21,
+        "20 Yr": 5.6,
+        "30 Yr": 5.56
+      },
+      "real": {
+        "5 YR": 2.67,
+        "7 YR": 2.77,
+        "10 YR": 2.88,
+        "20 YR": 3.13,
+        "30 YR": 3.28
+      },
+      "2s10s_bp": 42,
+      "5s30s_bp": 56,
+      "10y_nominal_minus_real": 2.33,
+      "30y_nominal_minus_real": 2.28
+    },
+    {
+      "date": "2026-10-14",
+      "nominal": {
+        "1 Mo": 4.11,
+        "1.5 Month": 4.15,
+        "2 Mo": 4.15,
+        "3 Mo": 4.28,
+        "4 Mo": 4.36,
+        "6 Mo": 4.37,
+        "1 Yr": 4.53,
+        "2 Yr": 4.82,
+        "3 Yr": 4.92,
+        "5 Yr": 5.0,
+        "7 Yr": 5.09,
+        "10 Yr": 5.19,
+        "20 Yr": 5.57,
+        "30 Yr": 5.52
+      },
+      "real": {
+        "5 YR": 2.64,
+        "7 YR": 2.73,
+        "10 YR": 2.84,
+        "20 YR": 3.09,
+        "30 YR": 3.24
+      },
+      "2s10s_bp": 37,
+      "5s30s_bp": 52,
+      "10y_nominal_minus_real": 2.35,
+      "30y_nominal_minus_real": 2.28
+    },
+    {
+      "date": "2026-10-15",
+      "nominal": {
+        "1 Mo": 4.17,
+        "1.5 Month": 4.15,
+        "2 Mo": 4.19,
+        "3 Mo": 4.28,
+        "4 Mo": 4.35,
+        "6 Mo": 4.35,
+        "1 Yr": 4.49,
+        "2 Yr": 4.77,
+        "3 Yr": 4.85,
+        "5 Yr": 4.91,
+        "7 Yr": 5.0,
+        "10 Yr": 5.1,
+        "20 Yr": 5.48,
+        "30 Yr": 5.43
+      },
+      "real": {
+        "5 YR": 2.58,
+        "7 YR": 2.67,
+        "10 YR": 2.78,
+        "20 YR": 3.03,
+        "30 YR": 3.18
+      },
+      "2s10s_bp": 33,
+      "5s30s_bp": 52,
+      "10y_nominal_minus_real": 2.32,
+      "30y_nominal_minus_real": 2.25
+    },
+    {
+      "date": "2026-10-16",
+      "nominal": {
+        "1 Mo": 4.12,
+        "1.5 Month": 4.14,
+        "2 Mo": 4.17,
+        "3 Mo": 4.26,
+        "4 Mo": 4.32,
+        "6 Mo": 4.34,
+        "1 Yr": 4.46,
+        "2 Yr": 4.74,
+        "3 Yr": 4.82,
+        "5 Yr": 4.89,
+        "7 Yr": 4.98,
+        "10 Yr": 5.09,
+        "20 Yr": 5.47,
+        "30 Yr": 5.43
+      },
+      "real": {
+        "5 YR": 2.52,
+        "7 YR": 2.62,
+        "10 YR": 2.74,
+        "20 YR": 3.01,
+        "30 YR": 3.16
+      },
+      "2s10s_bp": 35,
+      "5s30s_bp": 54,
+      "10y_nominal_minus_real": 2.35,
+      "30y_nominal_minus_real": 2.27
+    },
+    {
+      "date": "2026-10-19",
+      "nominal": {
+        "1 Mo": 4.11,
+        "1.5 Month": 4.14,
+        "2 Mo": 4.17,
+        "3 Mo": 4.27,
+        "4 Mo": 4.34,
+        "6 Mo": 4.37,
+        "1 Yr": 4.5,
+        "2 Yr": 4.77,
+        "3 Yr": 4.85,
+        "5 Yr": 4.94,
+        "7 Yr": 5.04,
+        "10 Yr": 5.15,
+        "20 Yr": 5.53,
+        "30 Yr": 5.48
+      },
+      "real": {
+        "5 YR": 2.56,
+        "7 YR": 2.67,
+        "10 YR": 2.8,
+        "20 YR": 3.06,
+        "30 YR": 3.21
+      },
+      "2s10s_bp": 38,
+      "5s30s_bp": 54,
+      "10y_nominal_minus_real": 2.35,
+      "30y_nominal_minus_real": 2.27
+    }
+  ],
+  "30y_regime": {
+    "basis": "Treasury 2026 file, published sessions >= threshold; missing dates skipped",
+    "threshold": 5.0,
+    "n": 200,
+    "days_ge": 89,
+    "trailing_run": 73
+  },
+  "real10_regime": {
+    "basis": "Treasury 2026 file, published sessions >= threshold; missing dates skipped",
+    "threshold": 2.5,
+    "n": 200,
+    "days_ge": 27,
+    "trailing_run": 27
+  },
+  "dealer_rows": [
+    {
+      "date": "2026-09-16",
+      "7-11Y": 35.127,
+      "11-21Y": 68.456,
+      ">21Y": 40.79,
+      "3-6Y": 47.986,
+      "2-3Y": 29.579,
+      "6-7Y": 27.845,
+      "total_long": 144.373
+    },
+    {
+      "date": "2026-09-23",
+      "7-11Y": 34.245,
+      "11-21Y": 68.486,
+      ">21Y": 37.814,
+      "3-6Y": 60.079,
+      "2-3Y": 25.791,
+      "6-7Y": 23.199,
+      "total_long": 140.545
+    },
+    {
+      "date": "2026-09-30",
+      "7-11Y": 38.599,
+      "11-21Y": 56.961,
+      ">21Y": 37.502,
+      "3-6Y": 52.885,
+      "2-3Y": 22.396,
+      "6-7Y": 23.304,
+      "total_long": 133.062
+    },
+    {
+      "date": "2026-10-07",
+      "7-11Y": 38.492,
+      "11-21Y": 57.842,
+      ">21Y": 38.75,
+      "3-6Y": 54.933,
+      "2-3Y": 21.14,
+      "6-7Y": 20.46,
+      "total_long": 135.084
+    }
+  ],
+  "bund_evals": [
+    {
+      "date": "2026-10-09",
+      "value": 3.53,
+      "prior5": "2026-10-02",
+      "delta_bp": 4.0,
+      "met": false
+    },
+    {
+      "date": "2026-10-12",
+      "value": 3.53,
+      "prior5": "2026-10-05",
+      "delta_bp": 2.0,
+      "met": false
+    },
+    {
+      "date": "2026-10-13",
+      "value": 3.49,
+      "prior5": "2026-10-06",
+      "delta_bp": -3.0,
+      "met": false
+    },
+    {
+      "date": "2026-10-14",
+      "value": 3.51,
+      "prior5": "2026-10-07",
+      "delta_bp": -4.0,
+      "met": false
+    },
+    {
+      "date": "2026-10-15",
+      "value": 3.45,
+      "prior5": "2026-10-08",
+      "delta_bp": -12.0,
+      "met": false
+    },
+    {
+      "date": "2026-10-16",
+      "value": 3.48,
+      "prior5": "2026-10-09",
+      "delta_bp": -5.0,
+      "met": false
+    },
+    {
+      "date": "2026-10-19",
+      "value": 3.49,
+      "prior5": "2026-10-12",
+      "delta_bp": -4.0,
+      "met": false
+    },
+    {
+      "date": "2026-10-20",
+      "value": 3.48,
+      "prior5": "2026-10-13",
+      "delta_bp": -1.0,
+      "met": false
+    }
+  ],
+  "acm_frontier": "2026-10-16",
+  "acm_oct7_16": {
+    "ACMY10": -20.597088,
+    "ACMTP10": -22.858395,
+    "ACMRNY10": 2.261307
+  },
+  "acm_latest": {
+    "ACMY10": 5.066818765747076,
+    "ACMTP10": 0.7562018768292216,
+    "ACMRNY10": 4.310616888917854
+  },
+  "fomc_2026_base_rate": {
+    "definition": "2s30s decision-day close minus prior published session; >0bp = steepens; <=0 = does not; all six completed 2026 meetings, Treasury primary",
+    "events": [
+      {
+        "decision": "2026-01-28",
+        "prior": "2026-01-27",
+        "delta_2s30s_bp": -1.0,
+        "steepens": false
+      },
+      {
+        "decision": "2026-03-18",
+        "prior": "2026-03-17",
+        "delta_2s30s_bp": -5.0,
+        "steepens": false
+      },
+      {
+        "decision": "2026-04-29",
+        "prior": "2026-04-28",
+        "delta_2s30s_bp": -4.0,
+        "steepens": false
+      },
+      {
+        "decision": "2026-06-17",
+        "prior": "2026-06-16",
+        "delta_2s30s_bp": -15.0,
+        "steepens": false
+      },
+      {
+        "decision": "2026-07-29",
+        "prior": "2026-07-28",
+        "delta_2s30s_bp": 15.0,
+        "steepens": true
+      },
+      {
+        "decision": "2026-09-16",
+        "prior": "2026-09-15",
+        "delta_2s30s_bp": -8.0,
+        "steepens": false
+      }
+    ],
+    "n": 6,
+    "steepens": 1
+  }
+}

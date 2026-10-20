@@ -1,9 +1,18 @@
 # BOND Monitor — Credit Primary Market Function
 
+## Current Read — 2026-10-20
+
+ICE/FRED October19 OAS:HY329,CCC1310,B336,BB200,BBB108,IG87bp. DailyHY−2 whileCCC+13 andIG+2;tail deterioration persists beyond the Treasury rally. HY21bpbelow350;existing>300marker MET;no new sizing permission. KB477.
+
+PRIMARY SIFMA October14release reports throughSeptember corporate issuance$2,195.1B,+24.5%YoY. This is lagged aggregate,not a currentOctoberHY-access or failed-deal census. Detailed workbookdownload opens a contactform;none submitted. No comprehensive current pulled-deal census;absence of verified failures is not zero failures. KB480. CoreWeave project-finance counterclaim is secondary analyst context,not verifiedcurrentfundingterms (KB493).
+
+Current basis/report: `../analysis/2026-10-20_catchup/REPORT.md`. Prior sections below are dated history; any old “no pulled deals” claim is confined to its named search window.
+
+
 **Owner:** BOND
 **Last Updated:** 2026-10-05T10:38:00-04:00 — full current table to10/2, issuer pricing to9/30. Prior file snapshot: `domain/sources/2026-10-05_monitors_CREDIT_PRIMARY_MARKET.md_pre-live-refresh`.
 
-## Current Read — 2026-10-05, credit observation10/2
+## Historical Read — 2026-10-05, credit observation10/2
 
 | Metric | Level | Source/basis | Read |
 |---|---:|---|---|

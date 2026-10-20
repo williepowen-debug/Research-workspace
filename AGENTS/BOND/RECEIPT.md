@@ -1,17 +1,23 @@
-# BOND startup receipt — 2026-10-20 11:53 ET
+# BOND processing receipt — October20,2026 catch-up
 
-OpenAI Codex; session 01a15a02-565d-76c1-9d89-07653c5d3b62; exact deployed model UNKNOWN. Explicit root/local instruction loading completed. Owned recovery artifact: reports/2026-10-20_startup-recovery.md.
+Session: OpenAI Codex `01a15a02-565d-76c1-9d89-07653c5d3b62`; exact deployed model UNKNOWN. Will-directed live-news/file catch-up. Report: `analysis/2026-10-20_catchup/REPORT.md`. Standard closeout.
 
-| Check | Disposition |
-|---|---|
-| Git pull | Deferred under root dirty-owner rule: eight WALTER untracked cache directories |
-| Python | Repository venv dependencies present; system Python incomplete |
-| Predictions / corrections | Zero OPEN predictions; zero unreceipted named corrections |
-| Auction docket | rc0, no forward dates verified; October20–November10 blind span |
-| Live boot recompute | rc1, five stale-data findings; reconciliation remains owed |
-| WALTER lane | Seven packets read for recovery; integration/KB/board-log/moves pending, not claimed consumed |
-| General inbox | Not swept per MAIL rule; HENRY October19 source-repair packet noted by runner, not integrated |
-| Analytical state | October15 state remains dated; no score/gate/position/threshold change |
-| Closeout | Light runner rc0 at 11:53; separate boot findings remain unresolved; final rerun/verify and persistence follow |
+| Incoming file | Action | Evidence / record | State consequence |
+|---|---|---|---|
+| SIG-W-20261016-007 | INTEGRATE | KB484, FT11 FLOW attribution reviewed | No causal identification/hypothesis weight; owner grade unchanged |
+| SIG-W-20261016-020 | LOG_ONLY | KB485, LIQ07 limits preserved | Does not grade BOND's separate UNGRADED funding window |
+| SIG-W-20261016-021 | LOG_ONLY | KB486, Eurostat final/calendar | First of two finals; HANS consequence remains owner-owned |
+| SIG-W-20261018-004 | LOG_ONLY | KB487, France context/source disagreement | No collapse/censure-date inference |
+| SIG-W-20261019-003 | INTEGRATE | KB490 + current FRED sequence | >320sustain reproduced; no capital permission |
+| SIG-W-20261019-010 | INTEGRATE | KB489/476, LIQUID corporate/Treasury stock comparison | Selective net positions, not proven forced sales/refusal |
+| SIG-W-20261019-014 | INTEGRATE | KB488 + directly fetched current secondary screen | Clock/basis limits retained; no U.S. funding transmission inferred |
+| 2026-10-19_from-HENRY_rates-ACM-source-repair | INTEGRATE | KB491/478; ACM issuer arithmetic reproduced | Primary Treasury frontier newer than dated mirror |
+| 2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds | LOG_ONLY | KB492, dated companion | No current ORACLE odds substituted |
 
-Will received a short status before additional research. No decision requested, no trade proposed, no expiry reminder. No external message or subagent launch. No promotion to memory; NEXUS_BRIEF intentionally unchanged because analytical state was not promoted.
+All nine git-moved to `inbox/processed/`; seven WALTER board-log entries appended. No new threshold breach routed. Additional existing R3 verdict answered by name to PROME (KB496); config landing unclaimed.
+
+23KBrows475–497;26past-reviewACTIVErowsmarkedSTALE;17VXcurrentevidencerows and7FLOW evidence rows updated, no score/flow-state change. BND32 registered65%,base5/6completed2026meetings,OPEN1. Composite17/35,counter2. WQ357approvalrecovered,notnewlygranted;no fillinferred. Researchsourcefrontiers inSTATUS;originalrawbytesandfailurelimitsinreport. MEMORY/auto-memoryno-op.
+
+Checks: boot_recomputeafterrc0;kb_lint/mirrorpass;correctionsrc0;docketrc0verifiednothing,issuerPDFmanuallyverifiedseparately. Standardrunner/freeze/commit/pushreceiptsinregistryandGit. ForeignWALTERdirtypathsleftuntouched;startup pull deferred. Venvdependenciesavailable;optionalLEDGER_GLOBabsent. Discoverythread-localonly;nativepeertransport/recipientconsumptionUNKNOWN. No external message,helper,trade,newcapitalrequestorexpiryreminder.
+
+Calendarpass:sevenmissingselectedmacrodatesaddedfromissuerBLS/BEA/Treasuryschedules(KB497);10completedcatalystrowsrotatedverbatimtosources. Pre-closeoutcheckrc0.

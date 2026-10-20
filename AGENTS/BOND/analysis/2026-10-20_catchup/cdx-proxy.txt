@@ -1,0 +1,21 @@
+=== BOND CDX-basis PROXY (free) — HYG/IEF credit-excess ===
+            HYG/IEF  HYG/IEF_z20  LQD/IEF  LQD/IEF_z20
+Date                                                  
+2026-10-07   0.8661       1.2613   1.1458      -0.3486
+2026-10-08   0.8624      -0.8337   1.1456      -0.4536
+2026-10-09   0.8639      -0.0255   1.1455      -0.4679
+2026-10-12   0.8643       0.1510   1.1470      -0.0206
+2026-10-13   0.8610      -1.6310   1.1453      -0.5207
+2026-10-14   0.8562      -2.9303   1.1444      -0.7269
+2026-10-15   0.8537      -2.8421   1.1455      -0.2871
+2026-10-16   0.8500      -2.8042   1.1436      -0.8672
+2026-10-19   0.8529      -1.8456   1.1421      -1.3231
+2026-10-20   0.8518      -1.7865   1.1431      -0.9289
+
+HYG/IEF now 0.8518 | 3mo range 0.8452-0.8676 | 23th pctile of 3mo
+20d chg: -1.20% | z20 -1.79
+
+READ: ratio near TOP of range = credit-excess RICH, no hidden stress.
+      ratio breaking to BOTTOM while cash HY OAS stays tight = DIVERGENCE -> signal HENRY/LIQUID.
+Cross-check vs cash: python3 FORGE/tools/market-data/fetch.py fred BAMLH0A0HYM2 --periods 5
+Synthetic/options leg (not visible here): request HYG put-skew from VIOLET.

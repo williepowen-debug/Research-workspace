@@ -1,38 +1,43 @@
-# BOND SCRATCH — 2026-10-15 (Thu) end-of-day, standard closeout
+# BOND SCRATCH — 2026-10-20 catch-up, standard closeout
 
-> STATE AT WRITING: TBT 5 held / TLT 82P closed 10/12; WQ357 TBT decision is Will/TERRY's. NO-ADD WQ280; WQ291 kill MET recommendation, funding window UNGRADED. Composite 17/35 (5+4+2+3+1+1+1), counter 2, OPEN predictions 0. Frontiers: Treasury curve/real 10/14 · ICE 10/14 · NY Fed repo 10/14 · FR2004 9/30 · vendor 10/15 13:50.
+> STATE AT WRITING: TBT5 shown at FORGE10/20, WQ357 SELL APPROVED10/15, no sale fill evidenced; TLT82P closed10/12. NO-ADD WQ280; WQ291 kill MET recommendation, funding window UNGRADED. Composite17/35 (5+4+2+3+1+1+1), clean nominal counter2, OPEN predictions1(BND32). Frontiers: Treasury nominal/real10/19; ICE10/19; repo10/19; FR2004as-of10/7; ACM10/16; Bund10/20; vendor10/20intraday11:40–11:55ET.
 
-## WHAT I DID (Claude Code / Opus 5.5, Will-launched)
-- **Boot:** docket_check rc=0 (verified through 10/22; blind span 10/23→11/05 UNVERIFIED) · boot_recompute rc=0 · corrections rc=1 → COR-20261014-36 NO-OP receipt. HEAD == origin/master at boot fetch; no pull needed. Foreign dirty WALTER/TERRY paths and WALTER's staged rename left untouched.
-- **10/14 official close confirmed:** 2Y +3, 10Y −2 (real −4, comp +2), 30Y −4 → bull flattener (KB-460).
-- **10/15 PPI day:** 10Y −11bp already at 08:20 BEFORE the PPI; PPI blip +2.5bp faded; haven bid from Asia selloff; FF contracts −3 to −6bp vs 10Y ~−10 (KB-461/467).
-- Credit 10/14 HY 325 / CCC 1282 / IG 84; SOFR−IORB −2bp; PMMS 7.40 (221bp); Bund 3.45, WQ400 NOT MET (5th eval) (KB-462..465).
-- **Bars frozen:** 20Y-R 912810UX4 I' indirect <57.96% (old conj <52.47 AND >17.59; cover <2.36). 5Y TIPS 91282CRR4 conj <51.43 AND >25.42; cover <2.10; no I' (KB-466, docket rows). Run grade_auction from `.venv` (system python lacks numpy → I' NOT COMPUTED).
-- **F2 10/15:** OFF-THE-RUN 0.33%, 93% into 912810TC2 → RED packet committed cbf40ee2b (carve-out ①); ledger row `registry/f2_reads.tsv`.
-- **Buyback dig (Will ask):** `analysis/2026-10-15_buyback-dig/REPORT.md`, KB-469..471. Prior-close spread "collapse" = TIMING ARTIFACT; op-window spread flat ~11–13bp (10–20Y), ~7bp (20–30Y). ~30% DV01 offset since 9/10. Record 10–20Y offers concentrated in single 2041–42 bonds; 912810TH1 28.2% retired.
-- **News sweep (Will ask):** `analysis/2026-10-15_buyback-dig/NEWS.md`, KB-472..474. No Fed support; Treasury intent yes, effect limited; 20Y cut = analyst speculation (Bloomberg 10/12), Treasury silent; QTD buybacks $43.13B vs $38B guided; 20Y>30Y hump only since 9/10. **Docketed Fri 10/16 dealer questionnaire** (date press-reported, date_class estimated).
+## WHAT I DID
 
-## Closeout C1–C12 outcomes (standard)
-C1 STATUS rewritten (dashboard, gates, matrix re-summed 17, catalysts, bottom line). C2 KB-460..474 (15 rows), VX 12 Current_State refreshed (scores unchanged), FLOW 01/02/03/07/15/16 evidence (statuses unchanged; FL-07 got dated COUNTER-evidence: haven worked). C3 no-op — nothing DUE; 10/28 FOMC curve-shape registration owed by 10/21. C4 THESIS current-evidence legs + channel table updated; no version/regime/gate change, token unchanged. C5 docket: 10/14-confirmation row COMPLETED, PMMS re-dated 10/22, 10/21 + 10/22 frozen bars recorded, 10/16 dealer questionnaire added. C6 TRADE §2/§3/review updated; posture/gates/token unchanged. C7 this file. C8 RECEIPT overwritten; board_log 5 rows. C9 MEMORY: timing-artifact lesson (BOND-local, links fleet vintage-clock finding); outbox none. C10 n/a (standard). C11 NEXUS_BRIEF re-pinned last. C12: first run declared `--superseded 61.72 57.96` in error — those are frozen I' bars for two DIFFERENT 20Y auctions (9/15 vs 10/21, rolling trailing-12), not a superseded figure; the 9/15 grade file is correct history. Re-run without it.
+Will authorized getting BOND caught up to live news/files after the explicit startup checkpoint. OpenAI Codex session01a15a02-565d-76c1-9d89-07653c5d3b62, deployed model UNKNOWN. Root/local instructions read explicitly in startup; PROTOCOL/SCHEMA/VOCABULARIES read for this refresh. Root-relative paths resolved at Git root. No helper spawned.
+
+- Captured primary Treasury nominal/real (now10/19), NYFed ACM, FR2004/repo, Bundesbank, Freddie, dealer agenda and issuer calendars. Raw manifests + code + calculations: `analysis/2026-10-20_catchup/`. FRED H15 mirror ends10/16; primary is newer. Separate clocks preserved.
+- Treasury Monday real-led partial reversal of prior rally; official10/15−9bp confirmed. ACM model premium compression reproduced; not buyback/haven causal attribution. Credit tail continues worsening (HY329/CCC1310/IG87). One long-end Treasury-stock rebuild vs corporate credit-stock decline (latter consumed from LIQUID); not uniform retreat or gross forced-sales proof.
+- Current news: Treasury dealer agenda contains buyback/liquidity/intermediation and structural-demand questions, no specific20Y-suspension proposal. France latest secondaryscreen150.8bp10/20, bond-closeclock unverified; HANS remains owner. CoreWeave project-finance story is secondary analyst counterclaim, terms unverified. SIFMA throughSep aggregate2195.1B is lagged, not current HY-access clearance.
+- Same-day-close bracket for10/15buyback completed in a new wrapper/output, preserving old dig: paidyielddiscount+10.3bp vs same-dayclose,+11.4operationadjusted. Five recordedF2opsOFF;carrier clean,next10/27.
+- Issuer schedulePDF visually verified by columns:20Y10/21,TIPS10/22,2Y/5Y/FRN/7Y10/26–29,nominalrefunding11/9/10/12. docket_check rc0 butemptycouponset:verified no dates;primaryPDF verification is separate. Frozen bars and manual2dp fallback unchanged;no grader repair.
+- Seven WALTER deliveries integrated,7board_logrows,gitmv→inbox/processed. General inbox drained2: HENRYACMrepair independently reproduced;PROMEORACLEdatedcompanion LOG_ONLY. No source-owner claims silently replaced.
+- Recovered missed approval: WQ357 RULED APPROVE10/15 supersedes staleLATER/HOLD;posture token corrected onSTATUS/THESIS/TRADE, holdingsnotchanged. WQ360oldcardlapsedunapproved. User10/20no-expiry-reminders observed;newNOT-FIREDideasstillTERRY/Will.
+- ExistingR3carry recovered:processedOctober1verdict had no locatedanswer. Namedrejections/replacements answered toPROME;seven testedclean termsadopted/retained,noisyUSD-HYquerydeclined. No config/feed/cadencechange claimed.
+
+## Closeout C1–C12 outcomes
+
+C1 STATUS rewritten,17/35resummed;all20VXIDs traceable. C2 KB475–497(23rows),26expired-reviewACTIVErows markedSTALE withoutrefutinghistoricalclaims;VX17currentevidencecells,FLOW7evidencecells refreshed,scores/statusesunchanged. C3 BND32 registeredbefore10/21deadline,65%October28non-steepening2s30s;5/6completed2026meetingsbase,Decimalboundarycontract,publicationceiling11/3;noDUErows. C4 THESIScurrentlegs/channeltableandapprovalrecordupdated;no thesisversion/regimechange,posturetokenmovesonlyonrecoveredapproval. Frozenletters/historynotretuned. C5 selected21daynon-auctionBLS/BEA/Treasurycalendarcheckedand7missingdatedrowsadded;docketrecurringvintages/servedagenda/predictionregistrationupdated;10completedrowsrotatedtodomain/sources/2026-10-20_completed-catalysts.tsv;monthendfuturefreezeclaimfixed;ECBdateissuerverified. C6 TRADEcurrentevidence/approval/cardlapse/reviewlistupdated,no marks. C7 thishandoff. C8 RECEIPToverwritten,7board_logrows,9incomingmoves. C9 promotionno-op:no new transferablelesson;MEMORY/auto-memoryunchanged. C10 notapplicable:livecharter/tool/thresholdnotchanged;analysiscapture/derivewrappersonly. C11 NEXUS_BRIEF rewrittenlast. C12 standardrunner/verify/commits/safe-pushfollow.
+
+Checks so far: kb_lintconformant;mirror_checkpass;boot_recomputeafter rc0,originalfivefindingscleared;correctionsrc0(0unreceiptednamed). Runnerreadcap/advisoriesandfinalfreezeverificationretainedinregistry. No supersededTHRESHOLD/SCORE/BAND declared:refreshed datedobservations are distinct vintages,notchangedfrozenbars. Old20YSeptember/Octoberbarsmustnotbeconsumer-declaredasonefigure.
 
 ## NEXT SESSION (dated)
-1. **FR2004 next weekly as-of** (publishes Thu 10/15 ~16:15 ET, after this closeout) → VX-BND-04 stock read + weak 11–21Y test of dealer selling into the first October 10–20Y buyback op (buyback-dig REPORT §Owed).
-2. **Official 10/15 Treasury close** → confirm vendor −10bp; fill the 10/15 same-day-close bracket in `analysis/2026-10-15_buyback-dig/dig.py` (re-run with refreshed `nominal.csv`).
-3. **Fri 10/16 dealer questionnaire** → read special topics (20Y / bills / buyback cap after 11/4). FRED 10/15 HY cell 10/16 AM (RED/REGINALD own >320 count).
-4. **By 10/21:** register the 10/28 FOMC curve-shape prediction with base rate. **10/21** grade 20Y-R vs frozen bars; **10/22** 5Y TIPS.
-5. 10/27 F2 op (20–30Y) · 10/28 FOMC · 11/2 borrowing estimates · 11/4 QRA F1/F3 + buyback-cap expiry.
+
+1. October21 at13:00ET:grade20Y-R912810UX4onfrozenOctober15bars (I'<57.96;OLDindirect<52.47 ANDdealer>17.59;BTC<2.36),manualfrozen2dpcomparator. Counter2cannotadvanceuntilactualgrade.
+2. October22:5YTIPS91282CRR4(OLDindirect<51.43 ANDdealer>25.42;BTC<2.10;noI'),PMMS,nextFR2004as-of10/14afterpublication. Freeze2Y/5Y/7Ybarsatannouncement;excludeFRN.
+3. October27F2;October28FOMC/UKBudget/VX20boundedreview;October29ECB. ResolveBND32onfirstsuccessfulprimarypublicationof10/28vs10/27,ceilingNovember3 17:00ET;UKBudgetoverlaplimitscausality.
+4. November2borrowingestimates;November4QRAF1/F3andF2. FHLBQ3November9,FXreportNovember13(cadenceinference),CDSretestDecember1,December9FOMC. Existingissuernewswatchstands.
 
 ## OPEN THREADS
-- Offered Will a RED follow-up on the timing-corrected buyback pricing (second independent leg vs F2 YCC-lite); no answer — not sent.
-- KB lint FYI: KB-BND-352/422/423 Stale_By 10/14 overdue (423 Fed path superseded in substance by 467) — lifecycle not edited.
-- Asia figures (KOSPI/Nikkei) only X-feed + press; HENRY/ZHAO lanes.
+
+TrueCDX/optionsleg;CPI-morningsynchronizedTIPS;currentUSD-HYpulled-dealcensus;privatefunding/offshorebasis;ownerfirst-vintagereconstructionsremainrealgaps. Optionalworkbook/LEDGER_GLOBabsent;ledgernudgecanrun,butKB/VX/FLOWwereupdateddirectly. R3owneranswernotproofPROMElandedconfig. WQ291fundingwindowstillUNGRADED;LIQ07resultisadifferenttest. No task requires Will's ruling now.
 
 ## POSITION
-TBT 5 (FORGE 10/14); TBT −3.1% on 10/15 vendor tape. No action by BOND.
 
-## MAIL
-WALTER lane drained (5). General inbox not swept: `inbox/2026-10-15_from-PROME_ORACLE-pulls-fed-oct-hike-odds-30pct-cpi-3.7.md` (info; figures cited). Packet sent: RED F2 read (committed).
+FORGE10/20TBT5stilldisplayed;WQ357approvedsell,no sale fillseen. TLT82Pclosed10/12. No holding/positiontruthinferredfrombarpricesandnotradebyBOND. Do not create expiry reminders or sell/roll pushes.
 
-## Startup recovery checkpoint — 2026-10-20 11:52 ET
-Codex session 01a15a02-565d-76c1-9d89-07653c5d3b62. Instructions explicitly loaded; report: reports/2026-10-20_startup-recovery.md. Pull deferred for foreign WALTER untracked caches. Corrections clean; OPEN predictions 0. docket_check rc0 verified no dates; boot_recompute rc1 has five drift findings. Seven WALTER packets read, integration still pending. Research state/positions/approvals not changed; October15 STATE AT WRITING above remains historical. Resume at FR2004 October7 and pending mail, then October21 auction/forecast obligations. No new trade decision or expiry reminder. Closeout tier light; STATUS, thesis, TRADE, ledgers, docket, MEMORY and NEXUS_BRIEF intentionally not refreshed at this recovery checkpoint.
-Light runner rc0 at 11:53 (including bundled check rc0), despite separate boot rc1 findings; those were NOT repaired and remain owed. RECEIPT overwritten with recovery limits. Promotion scan no-op; no durable new lesson. Final freeze/runner/verify and scoped persistence follow.
+## MAIL / DELIVERY
+
+Nineincomingpacketsprocessed,includingsevenWALTER. Completion/R3packets→PROME/inbox,explicitcarve-out①commits. Thread-localdiscoveryexposesonly/root;fullfleet/nativepeertransportUNKNOWN,notDARK. Recipientnotification/consumptionnotclaimed. Startup pull remainsdeferredforforeignWALTERdirtypaths;thoseuntouched. Safe-pushfreshfetchwillestablishgraphcurrencyorabortunderrootprotocol;neverforce.
+
+Pre-closeoutcheckrc0(allfourcomponents),boot-recomputeafterrc0. Finalcalendarpassaddedsevenexisting-domainmacrorelease rows;KB497. BLSordinaryGET403butwebissuerreadsuccess;BEArawsaved. Docketcompletedrowsrotatedverbatim(10),nowunderrotationstop. MEMORYrotationadvisorynoted;charterexplicitreadbytecountoutsidecheckerperimeterreported,neitherchanged.

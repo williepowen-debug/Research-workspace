@@ -1,8 +1,9 @@
 # BOND → NEXUS — current owner pointers
-**Last refresh:** 2026-10-15 end-of-day (standard closeout) — October 15 evidence; no score, gate, regime, version or position change.
-<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
+**Last refresh:** October20,2026 catch-up (standard closeout). Source frontiers and qualifications → STATUS; full report/raw receipts → `analysis/2026-10-20_catchup/REPORT.md`.
+<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
 
-- **Current read → `STATUS.md` + `analysis/2026-10-15_post-PPI/REPORT.md`.** Official 10/14: bull flattener, 10Y −2 = real −4 + compensation +2. 10/15: long end ~−10bp on haven demand, set BEFORE the hot PPI (vendor). Credit 10/14 HY 325 / CCC 1282 / IG 84, tail + AI-infra cohort, not real-yield-driven. Repo calm (SOFR−IORB −2bp).
-- **Official support question → `analysis/2026-10-15_buyback-dig/REPORT.md` + `NEWS.md`.** Buybacks 5/5 OFF-THE-RUN; timing-corrected yield paid flat ~11–13bp over curve (no overpaying); ~30% DV01 offset since 9/10. No Fed support. 20Y cut = analyst speculation; first read Fri 10/16 dealer questionnaire; decision 11/4 QRA.
-- **Matrix 17/35, counter 2, OPEN 0.** 20Y-R 10/21 bars frozen (I' indirect <57.96%). Next: FR2004 next weekly as-of (10/15 ~16:15 ET), 10/21 prediction registration, 10/28 FOMC.
-- **Capital → FORGE/TERRY:** TBT 5; WQ357 TBT decision Will/TERRY; NO-ADD WQ280; kill MET recommendation, funding window UNGRADED.
+- **Current read → STATUS/report:** Official Treasury throughOctober19;FREDH15onlyOctober16. Monday10Y+6bp/30Y+5,real-led;October14→19bothstill−4. ACMOctober7–16premiumcompressionis modelaccounting,not buyback/havencausality. CreditOctober19HY329/CCC1310/IG87;tailworsensdespiteHY−2daily. Broadissuancefreezenotverified.
+- **Distribution → dealer monitor/report:** October7USTlongend+2.022B,onebuild;LIQUIDcorporatebelowIGnetstock−2.795Bsameweek. Selectivenetadjustment,notuniformretreat/orgrossforcedsalesproof. October19SOFR−IORB−3bp;private/offshorechannelsunobserved.
+- **Official demand → report §4:** Dealeragenda consults onbuybackeffects/structuraldemand,nospecific20Ysuspensionproposal. FiveF2readsOFF-THE-RUN;October15same-dayclosepaid-yielddiscount+10.3bp,operation-adjusted+11.4. Prior30%DV01shareisdefinedSeptember10–October15sample,notliveabsorptionfraction. November4F1/F3unresolved.
+- **Matrix17/35,counter2,OPEN1(BND32).** Tomorrow20Y-R10/21frozenI'<57.96%;manual2dpfallback;TIPS10/22noI'. BND32:65%October28non-steepening2s30s,base5/6completed2026meetings;publicationceiling11/3. ForecastdoesnotidentifyFedcausality(UKBudgetoverlap). SelectedGDP/PCE/ECI/JOLTS/jobs/CPIissuerdatesnowindocket/STATUStwin.
+- **Capital → FORGE/TERRY/PROME:** WQ357SELLTBT5APPROVED10/15,recoveredfromstaleLATERwording;FORGE10/20shows5,no sale fill. NO-ADDWQ280;killMETrecommendation,fundingwindowUNGRADED. No newproposal/approvalinthisrefresh.

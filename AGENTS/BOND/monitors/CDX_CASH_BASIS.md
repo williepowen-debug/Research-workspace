@@ -1,20 +1,14 @@
 # BOND Monitor — CDX/Cash Credit Basis
 
 **Owner:** BOND
-**Last Updated:** **2026-09-28 13:14 ET by BOND — proxy RE-RUN (`monitors/cdx_proxy.py`, venv) because its metric moved (cash HY +25bp in 3 sessions).** · *prior:* **2026-09-17 ~10:0x ET by BOND — proxy RE-RUN on the Will-requested stale sweep (this doc had been 21 days old while its metric moved).** Data through the **2026-09-16 CLOSE** (a monitor vintage — deliberately NOT the 9/17 intraday tick): **HYG/IEF 0.8643, z20 +1.74, 100th pctile of the trailing 3mo (n=63)** = credit-excess RICH and RICHER than the 9/08 read (0.8585 / +1.28). **LQD/IEF 1.1512, z20 +2.63 — POSITIVE 11 OF 11 sessions** (the 8/25 sign flip recorded below has fully persisted and deepened; the 8/21 "negative every session" assertion stays refuted). ⛔ **Upgrade leg is z20 < −1.5 and BOTH ratios are strongly POSITIVE ⇒ no divergence, synthetic is NOT leading cash, `VX-BND-06` UNCHANGED at 1.** ⚠️ **The CONFOUND below is load-bearing for this particular run: IEF fell 90.82 → 90.73 across the window, so part of the z-move is arithmetic, not credit.** *(Prior header, 2026-08-27 ~12:2x ET — retained verbatim:)* **proxy RE-RUN** (`cdx_proxy.py` under the **repo venv**, data through **TODAY 8/27**): **HYG/IEF 0.8567, z20 +0.82, 92nd pctile of 3mo** = credit-excess RICH, **no divergence**. Upgrade leg is z20 **< −1.5** and it is POSITIVE ⇒ **`VX-BND-06` UNCHANGED at 1.** *(Read 0.8574 / +1.17 / 98th [8/21] until today — six days, four sessions.)* 🔴 **AND THE LQD/IEF SIGN HAS FLIPPED, against an explicit assertion this desk published: STATUS read *"negative every session of the last 10 … the sign persists; the signal has faded."* Live: −0.38 [8/21] → −0.00 [8/24] → **+0.61 [8/25] → +1.32 [8/26] → +1.36 [8/27]** — POSITIVE three consecutive sessions. The fade did not stop at zero; it crossed.** **Nothing is triggered** — recorded because the cell claimed persistence and the claim is refuted, not because a line moved. ⚠️ **Invocation note: `cdx_proxy.py` needs the repo venv (`/home/willi/Research-workspace/.venv/bin/python`) — bare `python3` has no pandas and the script correctly exits rc=1. That is a fail-loud script and a mis-invocation, NOT a tool defect; recorded so the next session does not read the traceback as a broken monitor.**
+**Last Updated:** 2026-10-20 — proxy run in repository venv. Current evidence below supersedes prior header (preserved at `../domain/sources/2026-10-20_CDX_prior-header.md`).
 **Purpose:** Detect when faster synthetic/hedging credit demand leads cash spread repricing.
 
-## Current Read — 2026-09-28 (proxy run 13:14 ET; last full close 9/25, 9/28 row is INTRADAY)
+## Current Read — 2026-10-20
 
-| Date | HYG/IEF | z20 | LQD/IEF | z20 |
-|---|--:|--:|--:|--:|
-| 9/22 | 0.8630 | +0.84 | 1.1528 | +1.63 |
-| 9/24 | 0.8684 | +2.05 | 1.1501 | +0.71 |
-| 9/25 (close) | 0.8651 | +1.01 | 1.1468 | −0.18 |
-| 9/28 (intraday) | 0.8657 | +1.08 | 1.1442 | −0.85 |
+Yahoo proxy: October19 close HYG/IEF0.8529,z20−1.8456;LQD/IEF1.1421,z20−1.3231. October20 evolving row0.8518/−1.7865 and1.1431/−0.9289. Output: `../analysis/2026-10-20_catchup/cdx-proxy.txt` (KB481).
 
-HYG/IEF 97th pctile of its 3mo range (0.8378–0.8684). **Registered divergence trigger (z20 < −1.5 while cash HY stays TIGHT): NOT fired — and its premise is gone, cash HY is no longer tight (293 [9/25], +25bp/3 sessions).**
-**Read: the ETF ratio did NOT follow cash spreads wider — HYG/IEF held near its 3mo top while HY OAS widened 25bp.** ⚠️ **This is the confound this doc already names, now live: in a rising-rate tape IEF (higher duration) falls more than HYG, which props the ratio up regardless of credit.** So the proxy cannot read "synthetic leading cash" here in either direction; **cash OAS is the unconfounded leg and it is widening.** LQD/IEF z20 swung +2.56 [9/16] → −0.85 [9/28 intraday] — the IG ETF weakening relative to duration, while IG OAS only +4bp. **No signal to HENRY/LIQUID from this instrument** (the synthetic/options leg — HYG put skew — is VIOLET's, not pulled).
+**z20 breached −1.5 while cash HY also widened: co-movement, not synthetic-leading-cash divergence.** Cash HY329bp [10/19] is not tight relative to263anchor. The ratio is cash ETF versus a duration-mismatched Treasury ETF; HYG is not synthetic and the IEF denominator remains a confound. True CDX and the VIOLET option leg are not observed. VX06 stays1; no new cross-agent divergence signal.
 
 ## Prior read — 2026-09-16 (SUPERSEDED 2026-09-28; retained as history)
 
@@ -59,7 +53,7 @@ True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT
 - **What the proxy CAN see:** faster-cash (liquid ETF/hedging layer) vs slower-cash (computed OAS) lead/lag.
 - **What it CANNOT see:** HYG is *cash*, not *synthetic*. The genuinely synthetic, fast-money signal is **HYG option put-skew / implied vol** — that lives in **VIOLET's** domain (options/vol). For the true synthetic read, request HYG skew from VIOLET. True CDX needs the **S&P Global MCP connector (auth required)** or a paid Markit feed.
 
-## Current Read (7/28) — 🟢 **NO divergence, and the proxy INDEPENDENTLY CONFIRMS the credit widening is not credit-led**
+## Historical Read (7/28) — 🟢 **NO divergence, and the proxy INDEPENDENTLY CONFIRMS the credit widening is not credit-led**
 
 **The test that mattered:** cash HY OAS widened **+11bp in two sessions** (268 [7/22] → 279 [7/24]). If that widening were genuine credit stress, HYG should underperform IEF and the ratio should break down. **It didn't.**
 

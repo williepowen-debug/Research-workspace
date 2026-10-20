@@ -1,0 +1,68 @@
+{
+  "nominal.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&_format=csv",
+    "captured_et": "2026-10-20T11:55:21.165404-04:00",
+    "status": 200,
+    "bytes": 16310
+  },
+  "real.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&_format=csv",
+    "captured_et": "2026-10-20T11:55:21.166152-04:00",
+    "status": 200,
+    "bytes": 7242
+  },
+  "ACM.xls": {
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xls",
+    "captured_et": "2026-10-20T11:55:21.166790-04:00",
+    "status": 200,
+    "bytes": 10161152
+  },
+  "bund10.csv": {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?format=csv&lang=en",
+    "captured_et": "2026-10-20T11:55:21.167575-04:00",
+    "status": 200,
+    "bytes": 231540
+  },
+  "dealer_agenda.pdf": {
+    "url": "https://home.treasury.gov/system/files/221/Dealer-Agenda-November-2026.pdf",
+    "captured_et": "2026-10-20T11:55:21.168149-04:00",
+    "status": 200,
+    "bytes": 458303
+  },
+  "auction_schedule.pdf": {
+    "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+    "captured_et": "2026-10-20T11:55:21.168638-04:00",
+    "status": 200,
+    "bytes": 17195
+  },
+  "fomc_calendar.html": {
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "captured_et": "2026-10-20T11:55:21.169091-04:00",
+    "status": 200,
+    "bytes": 165751
+  },
+  "ecb_calendar.html": {
+    "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+    "captured_et": "2026-10-20T11:55:21.169660-04:00",
+    "status": 200,
+    "bytes": 106610
+  },
+  "refunding.html": {
+    "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/",
+    "captured_et": "2026-10-20T11:55:21.538856-04:00",
+    "status": 200,
+    "bytes": 73682
+  },
+  "nyfed_rates.json": {
+    "url": "https://markets.newyorkfed.org/api/rates/all/latest.json",
+    "captured_et": "2026-10-20T11:55:21.591076-04:00",
+    "status": 200,
+    "bytes": 1427
+  },
+  "pmms.csv": {
+    "url": "https://www.freddiemac.com/pmms/docs/PMMS_history.csv",
+    "captured_et": "2026-10-20T11:55:21.605846-04:00",
+    "status": 200,
+    "bytes": 97536
+  }
+}

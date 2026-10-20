@@ -74,3 +74,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-15T15:17:46-04:00	SIG-W-20261014-022	info-only	INBOX_WALTER	Bloomberg Econ CPI breadth ~40% six-month annualized (secondary, paywalled). Breakeven context. KB-468.
 2026-10-15T15:17:46-04:00	SIG-W-20261014-036	acted	INBOX_WALTER	CORRECTION to -019 (NY Fed tariff 12-month contribution negative after Aug-2026). COR-20261014-36 receipted NO-OP: BOND never cited -019.
 2026-10-15T15:17:46-04:00	SIG-W-20261015-003	acted	INBOX_WALTER	Sept PPI FD +1.3% m/m +6.3% y/y. BOND timing correction: 10Y rally set BEFORE 08:30 print (vendor 5-min), PPI blip +2.5bp. KB-461/468.
+2026-10-20T12:05:02.103371-04:00	SIG-W-20261016-007	acted	INBOX_WALTER	KB484;FLOW classifier cannot distinguish haven/buyback demand;model/timing evidence not causal identification;no hypothesis weight.
+2026-10-20T12:05:02.103371-04:00	SIG-W-20261016-020	info-only	INBOX_WALTER	KB485;no registered reserve-channel accompaniment in LIQ07 windows,not all funding loops;not BOND9/23UNGRADED window.
+2026-10-20T12:05:02.103371-04:00	SIG-W-20261016-021	info-only	INBOX_WALTER	KB486;Septemberfinalcore2.5 is firstof2,HANSowner;November4flash/18final;no new fire.
+2026-10-20T12:05:02.103371-04:00	SIG-W-20261018-004	info-only	INBOX_WALTER	KB487;Francecontext with turnout disagreement;2018quote not2026;no governmentcollapse/censuredate established.
+2026-10-20T12:05:02.103371-04:00	SIG-W-20261019-003	info-only	INBOX_WALTER	KB490;325/323/331>320sequence reproduced;owner consequences,not sizing/fundingseizure.
+2026-10-20T12:05:02.103371-04:00	SIG-W-20261019-010	acted	INBOX_WALTER	KB489/476;corporate netstock down/UST up sameweek;selectiveadjustment,notgrossforcedsales/refusedcapacity.
+2026-10-20T12:05:02.103371-04:00	SIG-W-20261019-014	acted	INBOX_WALTER	KB488;MondayFrancefollowthrough,latestsecondaryscreenclockqualified;no USfundingtransmission or fresh ownerfiregrade.

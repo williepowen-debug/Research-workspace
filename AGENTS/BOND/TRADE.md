@@ -1,25 +1,25 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-10-15 15:16 ET — October 15 evidence (official 10/14 close, PPI-day haven rally, buyback dig, 20Y-cut news) folded into §2–§3 and the review list; posture, gates and approvals unchanged.
+**Last Updated:** 2026-10-20 catch-up — current evidence and already-recorded approvals reconciled. No new card, threshold or trade proposal.
 **Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.11** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
-<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
+<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
 
-**Approval reconciliation 2026-10-14T14:10:05.827217-04:00:** **WQ-357: Will ruled LATER on 2026-10-03 21:08 ET. SurvivingTBT5remainsunderTERRYpathCto10/14clock;TLT82Pclosed10/12perFORGE10/14receipt; the exit is neither approved nor declined. L608 research was delivered October 5 and consumed by PROME (ff0992bf1 / 518baafa2). The October 14 decision clock remains open. Kill remains MET as an operational recommendation; unusual net inventory is not proof of warehousing, the funding window remains UNGRADED, and the rule makes no predictive claim. WQ-280 NO-ADD stands. WQ-339 approved card drafting only; WQ-360 execution remains unapproved.**
-**Registered predictions covering this book:** OPEN 0; BND-30/31 TRUE on 10/1. Tally: 16 TRUE / 13 FALSE / 1 VOID. Ledger canonical; next curve-shape registration by10/21.
+**Approval reconciliation October20:** WQ357 SELL remainingTBT5 was RULED APPROVE October15 12:23ET (committed PROME/WILL_QUEUE record), superseding October3 LATER. FORGE October20 still displaysTBT5; no sale fill evidenced. Approval is not execution. TLT82P closedOctober12. WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
+**Registered predictions:** OPEN1, BND32 (65% October28 2s30s non-steepening;5/6 base), full contract in thesis/PREDICTIONS.tsv. Older resolved tally not restated here.
 
 ---
 
-## The view (October 15 update; existing approvals unchanged)
+## The view (October20; report is the dated evidence home)
 
-**1. Operational letter and analytical evidence stay separate.** The 9/23 5Y OLD fire was confirmed clean on10/1; its WQ291 dealer leg MET. The rule's exit recommendation remains in force, but Will ruled LATER10/3, path C to10/14. Net inventory is not proof of auction warehousing, funding window UNGRADED, no predictive claim.
+**Operational letter:** WQ291 kill recommendation remains MET; unusual net inventory is not auction-warehousing proof, funding window UNGRADED, no predictive claim. WQ357 approval is already recorded, with no fill inferred. Existing NO-ADD stands.
 
-**2. Completed research is incorporated, including October14.** L608 was delivered October5. The October14 report (`analysis/2026-10-14_post-CPI/REPORT.md`) records the initial CPI yield jump and afternoon long-end retracement, firmer futures policy pricing, and qualified real-yield/inflation-compensation evidence. Clean October7/8 auctions and the September30 inventory unwind weaken a continuing demand-break claim. The broader real-rate rise and cumulative credit broadening remain adverse evidence. Official October14 daily decomposition and morning synchronized TIPS were unavailable at the report cutoff. These observations do not overturn the MET operational recommendation, prove a lasting rebound, reopen an add, or approve a fill. Independent dated OIS/FedWatch remains missing. **October 15 addendum (`analysis/2026-10-15_post-PPI/REPORT.md`):** official 10/14 close confirmed a bull flattener (2Y +3, 10Y −2 = real −4 + compensation +2, 30Y −4). On 10/15 long yields fell ~10bp, set overnight on the Asia equity selloff BEFORE the hot 08:30 PPI — the long end worked as a haven. This is evidence for "expensive, not broken", not a thesis change, and it moves no gate or approval.
+**Rates:** October15 rally confirmed by Treasury; Monday partially reversed it through real yields. ACM accounting supports premium compression over October7–16, while expected-rate component rose. Neither decomposition identifies buyback causation. Current source frontiers and statistics → STATUS and `analysis/2026-10-20_catchup/REPORT.md`; this posture surface carries no market marks.
 
-**3. Treasury's official bid is real but bounded.** Five of five stepped-up operations read OFF-THE-RUN (10/15: recent share 0.33%, $6.0B full fill, 93% into 912810TC2); read delivered to RED (cbf40ee2b). Timing-corrected, the yield Treasury pays over the curve is flat at ~11–13bp (10–20Y) and ~7bp (20–30Y) — no overpaying; buybacks offset ~30% of new 20Y/30Y DV01 since 9/10; quarter-to-date liquidity buybacks $43.13B vs $38B guided (`analysis/2026-10-15_buyback-dig/`). Full cap utilization is not yield control or a price-cap finding. A 20Y cut/suspension is press-reported analyst speculation (Bloomberg 10/12), not Treasury policy. F1/F3 await 11/4; the dealer questionnaire (expected 10/16) is the first read.
+**Official demand:** Five recorded F2 buybacks OFF-THE-RUN. Completed October15 timing bracket supports a discount to both contemporaneous curves. Released dealer agenda asks about buyback effectiveness/structural demand, without a specific20Y suspension or adopted supply change. November4 remains F1/F3.
 
-**4. Credit marker and capital gates remain separate.** October13 HY/CCC/IG and the October14 LIQUID return show cumulative stronger-tier broadening with tail-dominated widening; the October6 tightening example is historical. One large secured issuer's verified pricing shows that issuer had access, not that all issuers did. A comprehensive pulled-deal census is unavailable. BOND's existing credit-to-equity spread band remains unmet, and HYG sizing remains gated by LIQUID/BROCK/TERRY/Will's existing rules. No index trade is newly proposed.
+**Credit:** Weaker tiers continue deteriorating; current HY lead band remains unmet. ETF/cash co-movement is not synthetic lead. Lagged SIFMA aggregate cannot clear current HY access; pulled-deal census missing. X1 CLOSED/DONT-SIZE stays with its owners. No index trade newly proposed.
 
-**5. Current sleeve: TBT5shares; TLT Oct-16 82P CLOSED10/12**, perFORGE10/14brokerreceipt/Activity. Exactfill/capturetimesUNKNOWN;no executablemarks. OlderOctober7 TBT10/TLT1 mirror superseded. Sep-30 77Pwas sold9/30. WQ280NO-ADD stands. WQ339 authorized card drafting only; WQ360 execution remains unapproved. ExistingTERRYdurationexitcardand10/14TBTdecisionclockgovern; BOND executes nothing.
+**Holdings:** TBT5 shown in FORGE October20; TLT82P closedOctober12. Exact future order/fill status is not inferred from approval or marks. BOND executes nothing.
 
 ---
 
@@ -85,8 +85,8 @@
 
 ## Next Review — existing obligations only
 
-- October14 research/catalyst read completed; prior nominal-auction counter2 and F2 four OFF reads remain. WQ400 Bund definition is encoded prospectively, not pending approval. VX20 review serviced October14, next October28 or issuer news.
-- October 15 DONE: official 10/14 confirmation, PMMS, F2 result→RED, 20Y/TIPS bars frozen (20Y-R I' indirect <57.96%). Owed next touch: FR2004 as-of 10/7 (VX-04), official 10/15 close, 10/16 dealer questionnaire special topics. Morning synchronized TIPS remains a separate source gap.
-- Existing WQ357 decision concerns TBT5 only; TLT82P sold October12. WQ360's October14 15:00 card window has elapsed at this review; BOND grants no extension or fill and PROME/TERRY own its disposition.
-- October21: register the existing October28 FOMC curve-shape test with its base rate; grade the actual20Y auction before moving counter2.
-- October28: FOMC/VX20 checkpoint; November4: QRA F1/F3; remaining F2 operations under the existing carrier.
+- October21 20Y grade on frozen October15 bars; manual frozen2dp comparator until existing disclosed tie-band defect is repaired. No outcome assumed.
+- October22 5Y TIPS (no I'), PMMS and expected next FR2004 publication; freeze month-end nominal bars at announcement.
+- BND32 registered October20; resolve October28 vsOctober27 on primary publication, ceilingNovember3. Calendar/source/vintage contract in ledger.
+- October27 F2; October28 FOMC/UKBudget/VX20 review; October29 ECB; November2 borrowing estimates; November4 QRA F1/F3.
+- Live holdings/approvals remain FORGE/TERRY/PROME records. No expiry-reminder duty under USER October20.

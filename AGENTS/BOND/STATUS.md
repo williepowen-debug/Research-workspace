@@ -1,88 +1,90 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-15 15:18 ET (standard closeout). **Last real data refresh: 2026-10-15.** Claude Code / Opus 5.5 (claude-opus-5-5), Will-launched boot.
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-20 catch-up (Will-directed, OpenAI Codex). **Last real data refresh: 2026-10-20.** Exact deployed model UNKNOWN; session `01a15a02-565d-76c1-9d89-07653c5d3b62`.
 
-Frontiers: official Treasury curve **10/14** · ICE credit (FRED) **10/14** · NY Fed repo **10/14** · FR2004 as-of **9/30** (next weekly as-of publishes 10/15 ~16:15 ET) · vendor intraday **10/15 13:35–13:50 ET**. Evidence: `analysis/2026-10-15_post-PPI/REPORT.md` + `raw/`. Prior day: `analysis/2026-10-14_post-CPI/REPORT.md`.
+Frontiers: Treasury nominal/real **10/19** · ICE credit via FRED **10/19** · NY Fed repo **10/19** · FR2004 as-of **10/7** · ACM **10/16** · Bund fitted **10/20** · vendor intraday **10/20 11:40–11:55 ET**. FRED DGS/DFII mirror ends **10/16**, behind issuer. Evidence: `analysis/2026-10-20_catchup/REPORT.md`, `derived.json`, raw manifest. Prior October15 report is history.
 
 ## Current judgment
 
-**CPI day closed as a bull flattener, and the official close confirms the vendor read.** Treasury 10/14 vs 10/13: 2Y 4.82 (+3bp), 10Y 5.19 (−2), 30Y 5.52 (−4); real 10Y 2.84 (−4); 10Y nominal−real 2.35 (+2), 30Y 2.28 (0) [CONF PRIMARY Treasury CSV 10/15]. The front priced hikes; the long end fell on lower real yields.
+**Long bonds still clear at expensive yields; the weak credit tail remains the warning.** Monday10/19 Treasury10Y rose6bp, entirely real-led on fitted-par subtraction; 30Y rose5bp, also real-led. That partly reversed last week's relief: October14→19 10Y and30Y remain4bp lower. Official October15 close confirms the prior provisional rally: both long yields fell9bp. ACM October7→16 attributes the fitted10Y fall to premium compression while expected-rate component rose; model accounting does not establish buyback or haven causation.
 
-**PPI day: the rally came before the print, not after it.** Yahoo ^TNX was already 5.081 at the first 08:20 bar (−11bp vs 5.190), blipped +2.5bp on the 08:30 PPI release, made a 5.037 low at 10:00 and sat at 5.085 at 13:35; 30Y 5.421 (−10bp), 5Y 4.899 (−9bp), 3M flat [CONF VENDOR 5-min bars, not close]. The fleet's "rallied −14bp into hot PPI" framing is right on the level and wrong on the timing: the bid was set overnight alongside the Asia equity selloff (KOSPI −8% circuit breaker, per X-feed, unverified at exchange). Fed-funds contracts fell only 3–6bp while the 10Y fell ~10bp, so most of the move is haven demand / term premium, not policy path. **Long Treasuries were bought as the safe asset on a hot-inflation day — expensive, not broken.**
+**Credit is diverging by quality.** ICE/FRED October19 HY329bp (−2 daily), CCC1310 (+13), IG87 (+2). HY remains21bp below350, +66 from263 and9–34bp short of BOND's credit-equity lead band. Wider credit alongside last week's lower real yields defeats a simple rates-only explanation. No broad issuance freeze established: SIFMA through September is lagged aggregate evidence; a current pulled-deal census is missing.
 
-**Credit: weak tail widening, high grade flat.** HY 325 (+9), CCC 1282 (window high), IG 84 (+1) [10/14]. HY is 25bp below 350. No funding stress: SOFR−IORB −2bp [10/14].
+**Dealer evidence is selective.** Latest published as-of10/7 Treasury long-end stock$135.084B (+$2.022B), one build, not two. LIQUID's primary-backed below-IG corporate net stock fell$2.795B in that same lagged week. Net stocks cannot identify gross forced sales, shorts or capacity refusal. SOFR−IORB −3bp [10/19] gives no acute median repo stress; private/offshore channels remain unobserved.
 
-**Buyback dig (Will-asked, `analysis/2026-10-15_buyback-dig/REPORT.md`):** Treasury is not paying up — the yield it pays over the curve is flat at ~11–13bp (10–20Y) once corrected for intraday timing; buybacks offset ~30% of new long-bond DV01 since 9/10; record 10–20Y offers ($46.4B, $40.8B) are concentrated in single 2041–42 bonds, while 20–30Y offers are below median. News sweep (`NEWS.md`): no Fed support; a 20Y cut/suspension is analyst speculation (Bloomberg 10/12), Treasury silent; quarter-to-date buybacks $43.13B vs $38B guided. No score change.
+**Treasury's October16 dealer agenda asks about buyback effects and structural demand, not a specific20Y suspension.** The cut story remains speculation; November4 resolves F1/F3. October15 buyback timing bracket now complete: paid yield+10.3bp over same-day close curve, +11.4bp over vendor-adjusted operation curve. No overpaying demonstrated by this sample; F2 five-of-five OFF-THE-RUN. Tomorrow's20Y auction remains ungraded against its frozen bars.
 
-**Current FORGE holdings: TBT 5; TLT Oct16 82P closed 10/12.** WQ357 TBT decision is TERRY/Will's. TBT −3.1% on 10/15 vendor tape (39.885 at 13:45; not a broker quote). Kill MET recommendation / funding window UNGRADED and WQ280 NO-ADD unchanged.
-
-## Regime
-<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
-C-36 TWO-PART unchanged. Policy-path channel alive; term-premium contribution assessed on its own model/window. No thesis version, capital approval or new threshold this session.
+## Regime and capital record
+<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
+C-36 TWO-PART unchanged; no thesis version, research threshold or score change. **Approval correction:** WQ357 already RULED APPROVE10/15 12:23 ET (SELL remainingTBT5), superseding this desk's stale LATER/HOLD wording. FORGE October20 still displaysTBT5, sale fill not evidenced; approval≠execution. TLT82P sold10/12. WQ280 NO-ADD; WQ360 old put card lapsed unapproved10/14, not a live execution permission. No trade executed or new trade proposed. User's October20 no-expiry-reminders instruction governs communication.
 
 ## Current dashboard
 
 | Metric | Dated observation | Source / basis |
 |---|---|---|
-| Official 2Y/5Y/10Y/20Y/30Y | 4.82 / 5.00 / 5.19 / 5.57 / 5.52% [10/14]; Δ +3/0/−2/−3/−4bp | [CONF PRIMARY Treasury CSV pulled 10/15 13:50] |
-| Official real 5Y/10Y/30Y | 2.64 / 2.84 / 3.24% [10/14] | [CONF PRIMARY Treasury real CSV] |
-| Official 10Y/30Y nominal−real | 2.35 / 2.28% [10/14]; Δ +2 / 0bp | [EST fitted-par subtraction] |
-| 2s10s / 5s30s | 37 / 52bp [10/14]; Δ −5 / −4 | [EST Treasury CSV subtraction] |
-| 10/15 intraday 5Y/10Y/30Y | 4.899 / 5.085 / 5.421% at 13:35; ≈ −9/−10/−10bp | [CONF VENDOR Yahoo 5-min]; not close |
-| 5Y5Y forward / 10Y breakeven | 2.34 / 2.35% [10/14] | [CONF MIRROR FRED T5YIFR/T10YIE]; 16bp below 2.50 |
-| ACM 10Y TP / KW 10Y TP | 0.8086% [10/14] (−4.3bp d/d) / 1.0729% [10/9] | [EST NY Fed ACM / FRED KW]; different windows |
-| Fed path | Nov 3.950 = +7.0bp vs EFFR ≈ 28% of +25 at 10/28; Dec 4.105; peak 4.650 Oct-27 | [EST CBOT vendor bars 10/15 13:49]; ORACLE: Polymarket 31.5 / Kalshi 29.0 [10/15 12:39Z] |
-| HY/CCC/B/BB/BBB/IG OAS | 325 / 1282 / 329 / 199 / 104 / 84bp [10/14]; Δ +9/+15/+12/+8/+1/+1 | [CONF MIRROR FRED ICE] |
-| HY distance to 350 | 25bp | [EST] first cell >320 (RED/REGINALD counts 1 of 3) |
-| SOFR / TGCR / EFFR / IORB | 3.88 / 3.86 / 3.88 / 3.90% [10/14]; SOFR 99th pct 3.97 | [CONF PRIMARY NY Fed]; SOFR vol $2,974B |
-| SOFR−IORB | −2bp [10/14] | [EST]; LIQUID owns verdict |
-| FR2004 stock | long-end $133.062B (−7.483 w/w); 3–6Y $52.885B (−7.194) [9/30] | [CONF PRIMARY]; next weekly as-of publishes Thu 10/15 ~16:15 ET, after this closeout |
-| PMMS | 7.40% [10/15], unch; − Treasury 10Y 5.19 [10/14] = 221bp | [CONF Freddie / EST]; inside 180–230; not MBS OAS |
-| Bund fitted 10Y | 3.45% [10/15]; −12bp vs 10/8 | [CONF PRIMARY Bundesbank Svensson] |
+| Official 2Y/5Y/10Y/20Y/30Y | 4.77 /4.94 /5.15 /5.53 /5.48% [10/19]; daily+3/+5/+6/+6/+5bp | [CONF PRIMARY Treasury nominal CSV pulled10/20] |
+| Official real 5Y/10Y/30Y | 2.56 /2.80 /3.21% [10/19] | [CONF PRIMARY Treasury real CSV] |
+| Official10Y/30Y nominal−real | 2.35 /2.27% [10/19], each unchanged daily | [EST fitted-par subtraction; not pure inflation expectations] |
+| 2s10s /5s30s | 38 /54bp [10/19], daily+3 /0 | [EST PRIMARY Treasury subtraction] |
+| FRED H.15 companion | DGS10 5.09 /DGS30 5.43 /DFII10 2.74% [10/16] | [CONF MIRROR, older than issuer; not10/19 levels] |
+| 10/20 intraday5Y/10Y/30Y | 4.918 /5.109 /5.430% at11:40 ET | [CONF VENDOR Yahoo bars; not closes/gate inputs] |
+| 5Y5Y forward /10Y breakeven | 2.32 /2.35% [10/19] | [CONF MIRROR FRED T5YIFR/T10YIE]; forward18bp below2.50 |
+| ACM10Y TP /KW10Y TP | 0.7562% [10/16] /1.0729% [10/9] | [EST PRIMARY NY Fed /MIRROR FRED]; different model/windows |
+| Fed path | Nov3.920, +4bp vs EFFR ≈16% of one+25bp step10/28; strip peak4.650 Sep27 | [EST CBOT vendor evolving bar10/20 11:55]; not settlement/OIS |
+| HY/CCC/B/BB/BBB/IG OAS | 329 /1310 /336 /200 /108 /87bp [10/19]; daily−2/+13/+1/−3/+2/+2 | [CONF MIRROR-WALLED ICE via FRED] |
+| HY distance to350 | 21bp; >320 sustain325/323/331 [10/14–16] | [EST]; RED/REGINALD/LIQUID own consequences |
+| SOFR/TGCR/EFFR/IORB | 3.87 /3.85 /3.88 /3.90% [10/19]; SOFR99th3.95 | [CONF PRIMARY NY Fed; IORB mirror]; SOFR volume$2,888B |
+| SOFR−IORB | −3bp;99th percentile+5bp [10/19] | [EST]; private/offshore channels unobserved, LIQUID owns verdict |
+| FR2004 stock | Long-end$135.084B (+2.022);3–6Y$54.933B (+2.048) [10/7] | [CONF PRIMARY NY Fed]; one total build after declines |
+| PMMS spread | 7.40%−Treasury10Y5.10% [both10/15] =230bp | [CONF PRIMARY Freddie/Treasury; EST]; at boundary, not beyond; not MBS OAS |
+| Bund fitted10Y | 3.48% [10/20]; five-session−1bp | [CONF PRIMARY Bundesbank Svensson] |
+| France−Germany10Y | Screen150.8bp [10/20], vs142.3 [10/19]; bond close clock unverified | [CONF SECONDARY ideal-investisseur directly fetched]; not a fresh HANS owner grade |
 
 ## Gates and derived statistics
 
 | Existing gate | Dated state |
 |---|---|
-| Real 10Y ≥2.50 sustain | Treasury 2.84 [10/14], 34bp through, trailing run 24 (2026 file); FRED DFII10 2.88 [10/13]. WQ246 state MET unchanged |
-| OLD auction add re-arm | MET 9/23; add DECLINED WQ280; no fresh 5Y fire |
-| WQ291 paired kill | MET first-published 9/23 stock; window closed, not regraded; funding window UNGRADED |
-| Inflation anchoring | T5YIFR 2.34 [10/14], 16bp below 2.50 |
-| HY marker / lead | HY 325 [10/14] >300; 25bp below 350; +62 from 263, 13–38bp short of the 338–363 lead band; VIX leg VIOLET |
-| CCC escalation | 1282 [10/14] >1100, prior fire; no guessed score 5 |
-| 30Y ≥5.00 | Treasury 2026 scan through 10/14: 86/197 sessions, trailing run 70 |
-| WQ400 Bund disorderly | Level >3.25 AND five-session rise >17.0bp strict: 5th prospective evaluation NOT MET (−12bp) |
+| Real10Y≥2.50 sustain | MET unchanged (FRED keyed); Treasury2.80 [10/19],30bp through, trailing run27 in2026 file; mirrorDFII10 2.74 [10/16] |
+| OLD auction add re-arm | MET9/23; add DECLINED WQ280; no fresh fire |
+| WQ291 paired kill | MET first-published9/23 stock; closed window, not regraded; funding window UNGRADED |
+| Inflation anchoring | T5YIFR2.32 [10/19],18bp below2.50 |
+| HY marker /lead | HY329 [10/19]>300;21bp below350;+66 from263,9–34bp short of338–363; VIX leg VIOLET |
+| CCC escalation | 1310 [10/19]>1100, prior fire; score4 held, no guessed score5 |
+| 30Y≥5.00 | PRIMARY Treasury2026 scan through10/19:89/200 sessions, trailing run73; MIRROR through10/16:88/199, run72 |
+| WQ400 Bund disorderly | >3.25 AND strict five-session rise>17bp:8th prospective evaluation NOT MET (−1bp);0/8 so far |
 
 ## Convergence Matrix
 
-| # | Target / vector | Score | Key evidence | Upgrade condition |
-|---|---|---:|---|---|
-| 1 | Long end / duration VX-BND-05 / VX-BND-12 / VX-BND-14 | 5 | High real-yield regime, 30Y run 70; 10/15 haven bid −10bp | Existing top score |
-| 2 | Treasury auction health VX-BND-01 / VX-BND-08 / VX-BND-13 | 4 | 10/7–8 clean 10Y/30Y; counter 2; 20Y-R bars frozen | Second composition failure with confirmed mechanism leg |
-| 3 | Dealer absorption VX-BND-04 / VX-BND-16 | 2 | 9/30 stock unwind; F2 reads 5 of 5 OFF-THE-RUN (10/15: 0.33%); buyback prices flat at ~11–13bp cheap to curve, timing-corrected (KB-469) | Existing two-build / weak composition or carrier fire |
-| 4 | HY function VX-BND-02 / VX-BND-11 | 3 | HY 325 / CCC 1282, weak-tail + AI-infra cohort | HY >350 or verified pulled-deal cluster |
-| 5 | IG function VX-BND-03 / VX-BND-10 | 1 | IG 84, BBB 104 | Existing IG 120 / failed syndication |
-| 6 | CDX/cash VX-BND-06 | 1 | True CDX unavailable | Confirmed fast-layer lead |
-| 7 | Credit-equity VX-BND-07 | 1 | HY +62 from 263; VIX 16.7 | Existing +75–100 with VIX <20 |
+| # | Target /vector | Score | Status | Key evidence | Upgrade condition |
+|---|---|---:|---|---|---|
+| 1 | Long end /duration VX-BND-05 /VX-BND-12 /VX-BND-14 | 5 | 🔴🔴 | Real-rate regime; Monday partial reversal of rally; 30Y run73 | Existing top score |
+| 2 | Treasury auction health VX-BND-01 /VX-BND-08 /VX-BND-13 | 4 | 🔴 | Last10Y/30Y clean; counter2;20Y bars frozen | Second composition failure with confirmed mechanism leg |
+| 3 | Dealer absorption VX-BND-04 /VX-BND-16 | 2 | 🟡 | One total rebuild;F2 five OFF-THE-RUN | Existing two-build /weak-composition condition |
+| 4 | HY function VX-BND-02 /VX-BND-11 | 3 | 🟠 | HY329/CCC1310; tail deteriorates, no broad access freeze verified | HY>350 or verified pulled-deal cluster |
+| 5 | IG function VX-BND-03 /VX-BND-10 | 1 | ⚪ | IG87/BBB108; data broadens, no failed-syndication cluster | Existing IG120 /failed syndication |
+| 6 | CDX/cash VX-BND-06 | 1 | ⚪ | Proxy z<−1.5 with cash widening = co-move; true CDX gap | Confirmed fast-layer lead |
+| 7 | Credit-equity VX-BND-07 | 1 | ⚪ | HY+66; spread band unmet | Existing+75–100 with VIX<20 |
 
-**Composite 17/35 = 5+4+2+3+1+1+1, unchanged.** Auction downgrade counter 2; 20Y-R 10/21 could reach 3 only after an actual grade. TIPS/FRN excluded. Outside composite: VX-BND-15=2, VX-BND-17=1, VX-BND-18=2, VX-BND-19=3, VX-BND-20=2. FL14 LATENT unchanged.
+**Composite17/35 =5+4+2+3+1+1+1, unchanged:** one5, one4, one3, one2, three1. Elevated duration/auction risk, tail credit watch. Auction clean counter2;20Y10/21 could reach3 only after actual grade; TIPS/FRN excluded. Outside composite: VX-BND-15=2,VX-BND-17=1,VX-BND-18=2,VX-BND-19=3,VX-BND-20=2. French spread is secondary/current-clock-qualified, not a newly primary-certified BOND fire. FL14 LATENT.
 
-## Exit / falsification
+## Exit /falsification
 
-WQ157/WQ291 prior operational recommendation remains MET, through TERRY + Will; inventory ≠ warehousing, funding window UNGRADED. WQ357 decision applies to surviving TBT 5. Original 10Y <4.15 AND 30Y <5.00 ×3 plus clean refunding letter unchanged; not met at 10/14 (10Y 5.19 / 30Y 5.52). OPEN predictions 0; next FOMC curve prediction registration by 10/21. VX-BND-09 auction tails retired.
+WQ157/WQ291 recommendation MET; WQ357 approval recovered, no fill inferred; funding window UNGRADED. Existing position falsifier10Y<4.15 AND30Y<5.00 for3 sessions plus clean refunding not met at10/19 (5.15/5.48). Convergence downgrade needs third clean nominal auction; counter2. Position construction and any60-DTE review stay TERRY-owned; no expiry-reminder duty. OPEN prediction1: BND32,65% non-steepening2s30s on10/28, base5/6 completed2026 meetings; resolves first-published primary close, ceiling11/3. VX-BND-09 auction tails remain retired.
 
 ## Immediate Catalysts (same event set as docket/CATALYSTS.tsv)
 
-| Date | Existing obligation / disposition |
+| Date | Existing obligation /disposition |
 |---|---|
-| Thu 10/15 | DONE: 10/14 official split; PMMS; 20Y/TIPS bars frozen; WQ400 eval. F2 op 10–20Y OFF-THE-RUN (0.33% recent share, $6.0B full fill, 93% into 2% Nov-2041) → RED. PENDING: FR2004 next weekly as-of ~16:15; official 10/15 close tonight |
-| Fri 10/16 | Treasury primary dealer questionnaire for the 11/4 refunding (press-reported date; read special topics: 20Y / bills / buyback cap); FRED 10/15 HY cell (RED/REGINALD >320 count); TERRY WQ-365 window 15:00 |
-| 10/21, 10/22, 10/26–29 | 20Y-R 912810UX4; 5Y TIPS 91282CRR4; 2Y/5Y/FRN/7Y cluster; curve prediction registration by 10/21 |
-| 10/27, 10/28, 11/4 | F2 op; FOMC + UK Budget + VX20 bounded review; QRA and F2 op |
-| 11/9, 11/13, 12/1, 12/9 | FHLB Q3; FRBNY FX report; US sovereign CDS retest; December FOMC + SEP |
-| 2027-1/25, 1/27 | GPFG expert report; January FOMC |
-| Standing | MOF FX / Warsh / credit / FR2004 / buyback carrier, existing docket scope |
+| 10/20 catch-up | COMPLETED: official10/15–19,FR2004 as-of10/7,dealer agenda,credit>320 sequence,prior WQ357 ruling,seven WALTER +two general packets |
+| 10/21 | 20Y-R912810UX4,13:00ET: frozen indirectI'<57.96%;OLD<52.47 AND dealer>17.59;BTC<2.36. Manual frozen2dp comparator. BND32 registered10/20 before owed deadline |
+| 10/22 | 5Y TIPS91282CRR4:OLD indirect<51.43 AND dealer>25.42;BTC<2.10;noI'. PMMS release; next FR2004 publication as-of10/14 expected10/22 |
+| 10/26–29 | 2Y10/26,5Y10/27,FRN10/28,7Y10/29; freeze at10/22 announcement. Dealer agenda responses10/26 noon, meetings10/29–30 (context on existing questionnaire row) |
+| 10/27,10/28–29,11/2–4 | F2 operation10/27;FOMC+UK Budget+VX-BND-20 review10/28;ECB10/29;borrowing estimates11/2;QRA/F2 11/4 |
+| 10/29–11/10 macro | GDP/PCE10/29;ECI10/30;JOLTS11/3;productivity11/5;jobs11/6;CPI11/10 (issuer calendars verified10/20);BOND reads rates response |
+| 11/9,11/13,12/1,12/9 | FHLB Q3;FRBNY FX report (cadence-based);sovereign CDS retest;December FOMC+SEP |
+| 2027-1/25,1/27 | GPFG expert report;January FOMC |
+| Standing | MOF FX /Warsh /credit /FR2004 /buyback carrier;grader tie-band repair remains existing disclosed work |
 
 ## BOTTOM LINE
 
-CPI day closed with the front end up and the long end down, the 10-year's drop mostly from lower real yields; the official close confirms yesterday's provisional read. Today Treasuries rallied about 10bp, but the move happened overnight with the Asia equity selloff, before the hot PPI print, and long bonds traded as a safe haven, which supports "expensive, not broken." Junk-bond spreads widened to 325bp with the weakness still in the lowest-rated tail and investment grade flat; funding markets are calm. No change to scores, gates or the TBT position, which stays TERRY's and Will's call.
+U.S. long bonds retain buyers at high yields, and Monday only partly reversed last week's rally. The weakest corporate borrowers keep deteriorating, while dealer credit and Treasury stocks move differently; neither a broad issuance freeze nor a U.S. funding seizure is established. Treasury is consulting on larger buybacks and future supply, with no specific20Y suspension adopted. Tomorrow's20Y auction is the next direct demand test; no new trade approval follows from this refresh.
