@@ -1,0 +1,200 @@
+{
+  "WAL_funding": {
+    "period_nib_change_pct": "-7.433501078360891445003594540",
+    "period_share_q3_pct": "31.49899088740749801235398447",
+    "period_share_q2_pct": "33.97904096538583677357891394",
+    "average_nib_change_pct": "-4.878879765595720759088276380",
+    "ib_cost_change_bp": "2.00",
+    "total_borrowing_change_pct": "-9.990378447722899294419499680",
+    "period_share_change_pp": "-2.48005007797833876122492947"
+  },
+  "KEY_NPL_bridge": {
+    "begin": "809",
+    "inflows": "165",
+    "outflows": {
+      "Charge-offs": "121",
+      "Loans sold": "28",
+      "Payments": "190",
+      "Transfers to OREO": "1",
+      "Loans returned to accrual status": "16"
+    },
+    "end": "618"
+  },
+  "MTB_allowance_bridge": [
+    "2176",
+    "130",
+    "127",
+    "2179"
+  ],
+  "source_rows": [
+    {
+      "source": "WAL-release",
+      "table": 10,
+      "label": "Non-interest bearing deposits",
+      "raw_row": "Non-interest bearing deposits |  | $ | 25,752 |  |  | $ | 27,820 |  |  | $ | 28,078 |  |  | $ | 24,353 |  |  | $ | 26,628 | ",
+      "numeric_cells": [
+        "25752",
+        "27820",
+        "28078",
+        "24353",
+        "26628"
+      ]
+    },
+    {
+      "source": "WAL-release",
+      "table": 10,
+      "label": "Total deposits",
+      "raw_row": "Total deposits |  | 81,755 |  |  | 81,874 |  |  | 82,723 |  |  | 77,159 |  |  | 77,247 | ",
+      "numeric_cells": [
+        "81755",
+        "81874",
+        "82723",
+        "77159",
+        "77247"
+      ]
+    },
+    {
+      "source": "WAL-release",
+      "table": 13,
+      "label": "Non-interest-bearing deposits",
+      "raw_row": "Non-interest-bearing deposits |  | 27,919 |  |  |  |  |  |  | 29,351 |  |  |  |  | ",
+      "numeric_cells": [
+        "27919",
+        "29351"
+      ]
+    },
+    {
+      "source": "WAL-release",
+      "table": 13,
+      "label": "Total interest-bearing deposits",
+      "raw_row": "Total interest-bearing deposits |  | 54,906 |  |  | 382.5 |  |  | 2.76 |  |  | 54,184 |  |  | 370.5 |  |  | 2.74 | ",
+      "numeric_cells": [
+        "54906",
+        "382.5",
+        "2.76",
+        "54184",
+        "370.5",
+        "2.74"
+      ]
+    },
+    {
+      "source": "WAL-release",
+      "table": 10,
+      "label": "Borrowings",
+      "raw_row": "Borrowings |  | 5,613 |  |  | 6,236 |  |  | 5,610 |  |  | 5,240 |  |  | 3,862 | ",
+      "numeric_cells": [
+        "5613",
+        "6236",
+        "5610",
+        "5240",
+        "3862"
+      ]
+    },
+    {
+      "source": "KEY-release",
+      "table": 34,
+      "label": "Balance at beginning of period",
+      "raw_row": "Balance at beginning of period | $ | 809 |  | $ | 682 |  | $ | 615 |  | $ | 658 |  | $ | 696 | ",
+      "numeric_cells": [
+        "809",
+        "682",
+        "615",
+        "658",
+        "696"
+      ]
+    },
+    {
+      "source": "KEY-release",
+      "table": 34,
+      "label": "Loans placed on nonaccrual status",
+      "raw_row": "Loans placed on nonaccrual status | 165 |  | 365 |  | 253 |  | 248 |  | 210 | ",
+      "numeric_cells": [
+        "165",
+        "365",
+        "253",
+        "248",
+        "210"
+      ]
+    },
+    {
+      "source": "KEY-release",
+      "table": 34,
+      "label": "Balance at end of period",
+      "raw_row": "Balance at end of period | $ | 618 |  | $ | 809 |  | $ | 682 |  | $ | 615 |  | $ | 658 | ",
+      "numeric_cells": [
+        "618",
+        "809",
+        "682",
+        "615",
+        "658"
+      ]
+    },
+    {
+      "source": "MTB-SEC-release",
+      "table": 16,
+      "label": "Allowance for loan losses",
+      "raw_row": "Allowance for loan losses |  | $ | 2,179 |  |  | $ | 2,176 |  |  | \u2014 |  |  | $ | 2,161 |  |  | 1 | ",
+      "numeric_cells": [
+        "2179",
+        "2176",
+        "2161",
+        "1"
+      ]
+    },
+    {
+      "source": "MTB-SEC-release",
+      "table": 16,
+      "label": "Allowance for loan losses",
+      "raw_row": "Allowance for loan losses |  | $ | 2,179 |  |  | $ | 2,176 |  |  | \u2014 |  |  | $ | 2,161 |  |  | 1 | ",
+      "numeric_cells": [
+        "2179",
+        "2176",
+        "2161",
+        "1"
+      ]
+    },
+    {
+      "source": "MTB-SEC-release",
+      "table": 16,
+      "label": "Provision for loan losses",
+      "raw_row": "Provision for loan losses |  | $ | 130 |  |  | $ | 120 |  |  | 8 |  |  | $ | 110 |  |  | 18 | ",
+      "numeric_cells": [
+        "130",
+        "120",
+        "8",
+        "110",
+        "18"
+      ]
+    },
+    {
+      "source": "MTB-SEC-release",
+      "table": 16,
+      "label": "Net charge-offs",
+      "raw_row": "Net charge-offs |  | 127 |  |  | 80 |  |  | 59 |  |  | 146 |  |  | -12 | ",
+      "numeric_cells": [
+        "127",
+        "80",
+        "59",
+        "146",
+        "-12"
+      ]
+    }
+  ],
+  "checks": "PASS: WAL F1/F2 arithmetic; KEY NPL flow identity; MTB loan allowance identity",
+  "limitations": "Same-source extraction/arithmetic checks, not independent economic evidence; no F3/N inference.",
+  "source_hashes": {
+    "WAL-release-tables.json": "b8b2e7b21797a233072ef447d8b2cc1f6d6947d1c6c4d9e7d936ac227100a370",
+    "MTB-8k-tables.json": "e044bd8057ec5ef74d6f4d7d74343d465a00b6920b365851c1ab4a7a98640488",
+    "RF-release-tables.json": "791dfacd7a0b5d7e32a5a6833dc7868ed42909bf72f79a8197248523eccfcd18",
+    "TFC-index-tables.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "TFC-deck-tables.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "ZION-release-tables.json": "1972ad5a2a11ba32b1d0d392c2714bd43188b3049f3583254a974114a0c3e209",
+    "MTB-index-tables.json": "b2848dc8dcdcdd5d002da8bc72ade797dedf10f25b0dd31fb8a90d39040a303b",
+    "CUBI-date-tables.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "MTB-SEC-release-tables.json": "d4db730f482babdffe1e2466fcd718d4e90179073f886470cb1caf687f1cf397",
+    "TFC-release-tables.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "CFG-supplement-tables.json": "73b81b6478970cc18c357c12eab0a134acf19c4d9c30058f6fc9472f0a32bd53",
+    "CFG-release-tables.json": "1a69c339c4d9afc91a5bd31f8937c44779e0ba4e7809735feeedea233ed1abe9",
+    "KEY-release-tables.json": "2b3f3db658641e6332800d95837d5ea836091394ac4452857a183dc19ea9d94e"
+  }
+}

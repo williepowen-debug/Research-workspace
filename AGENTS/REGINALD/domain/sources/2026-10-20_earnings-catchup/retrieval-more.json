@@ -1,0 +1,47 @@
+[
+  {
+    "id": "MTB-8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/mbt-20261016.htm",
+    "at": "2026-10-20T15:25:29.594554+00:00",
+    "status": 200,
+    "bytes": 38962,
+    "sha256": "fdd5370bd1433f19cb26cca35280d1fc51ad6fac6f48a7616b9929b5acd9c0df",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/mbt-20261016.htm"
+  },
+  {
+    "id": "MTB-index",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/0000036270-26-000057-index.htm",
+    "at": "2026-10-20T15:25:29.595726+00:00",
+    "status": 200,
+    "bytes": 21042,
+    "sha256": "f42f242ece849c5e440aae9345f326a0fb0a071254d9dd9d22ffc74e2748e836",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/0000036270-26-000057-index.htm"
+  },
+  {
+    "id": "RF-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm",
+    "at": "2026-10-20T15:25:29.596909+00:00",
+    "status": 200,
+    "bytes": 433885,
+    "sha256": "cffe5b159c6a31e3c13fc191e291191ad8a598a14a04c1659aea0d2ab90f1218",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm"
+  },
+  {
+    "id": "TFC-release",
+    "url": "https://ir.truist.com/download/TFC_3Q26_Earnings_Release.pdf",
+    "at": "2026-10-20T15:25:29.598224+00:00",
+    "status": 200,
+    "bytes": 457354,
+    "sha256": "27e7fd8da2fbf694949e02b484eaaaf65a4b129c3732923473de385242a0802e",
+    "resolved_url": "https://filecache.investorroom.com/mr5ir_truist/1172/download/TFC_3Q26_Earnings_Release.pdf"
+  },
+  {
+    "id": "TFC-deck",
+    "url": "https://ir.truist.com/download/TFC_3Q26_Earnings_Deck.pdf",
+    "at": "2026-10-20T15:25:29.975221+00:00",
+    "status": 200,
+    "bytes": 1352728,
+    "sha256": "fa9e3668408818d050600ec9bc9b302b16f3ad715586c68165916aff28b7ffa8",
+    "resolved_url": "https://filecache.investorroom.com/mr5ir_truist/1173/download/TFC_3Q26_Earnings_Deck.pdf"
+  }
+]

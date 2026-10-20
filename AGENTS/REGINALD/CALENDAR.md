@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** **2026-10-13:** VLY issuer October7 notice rechecked: Q3 call08:30 ET confirmed; existing date/time unchanged. Prior **2026-10-12 (Mon boot):** corrected the old Affinius corporate-bond row to the sourced New Economy Assets–Phase 1 warehouse-ABS anticipated-repayment date and kept current repayment/exposure UNKNOWN (`SIG-W-20261012-023`). Prior: **2026-10-11 (Sun, WQ-414 option B):** REG-T-06 consequence REVIEW; entry/exit and official-quarter unit unchanged. Prior affected header/row → `archive/WQ414_operating_snapshot_2026-10-11.md`.
+**Last Updated:** **2026-10-20:** CUBI/FLG estimates promoted to issuer-CONFIRMED in the canonical table; dates unchanged. Prior **2026-10-13:** VLY issuer October7 notice rechecked: Q3 call08:30 ET confirmed; existing date/time unchanged. Prior **2026-10-12 (Mon boot):** corrected the old Affinius corporate-bond row to the sourced New Economy Assets–Phase 1 warehouse-ABS anticipated-repayment date and kept current repayment/exposure UNKNOWN (`SIG-W-20261012-023`). Prior: **2026-10-11 (Sun, WQ-414 option B):** REG-T-06 consequence REVIEW; entry/exit and official-quarter unit unchanged. Prior affected header/row → `archive/WQ414_operating_snapshot_2026-10-11.md`.
 *Stamp chain 9/11 and earlier → `archive/CALENDAR_rotation_2026-09-24.md` (verbatim, crc-stamped).*
 
 ---
@@ -39,8 +39,8 @@
 | SSB | 2026-10-21 | Wed | after close; call Thu 10/22 09:00 ET | CONFIRMED | FL | 8-K 7.01 acc 0001193125-26-411326 |
 | VLY | 2026-10-22 | Thu | before open; call 08:30 ET | CONFIRMED | ctx | GlobeNewswire issuer notice10/7, rechecked10/13 |
 | AMTB | 2026-10-22 | Thu | after close; call Fri 10/23 09:00 ET | CONFIRMED | Q3 FL | AMTB IR 9/30 |
-| CUBI | 2026-10-22 | Thu | after close (pattern) | NOT-ANNOUNCED | Q1 | ESTIMATE from the Q2 pattern (Thu after close, Fri webcast); no notice found 10/9 21:2x ET |
-| FLG | 2026-10-23 | Fri | before open (pattern) | NOT-ANNOUNCED | Q2 | ESTIMATE from the Friday pattern; Earnings Whispers says Mon 10/26; no notice found 10/9 21:2x ET |
+| CUBI | 2026-10-22 | Thu | after close; call Fri10/23 09:00 ET | CONFIRMED | Q1 | Customers issuer10/13 notice, freshly read10/20; source/locator in reports/2026-10-20_reported-bank-earnings-catchup.md |
+| FLG | 2026-10-23 | Fri | approximately06:00 ET; call08:00 ET | CONFIRMED | Q2 | Flagstar issuer10/9 notice, web-indexed primary read10/20 (direct403); source/locator in reports/2026-10-20_reported-bank-earnings-catchup.md |
 | SBCF | 2026-10-27 | Tue | after close; call Wed 10/28 10:00 ET | CONFIRMED | FL | SBCF IR 10/5 |
 <!-- reginald:earnings-dates:end -->
 

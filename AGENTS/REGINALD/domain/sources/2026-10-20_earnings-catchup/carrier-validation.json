@@ -1,0 +1,97 @@
+[
+  {
+    "id": "MTB-SEC-release",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "MTB-8k",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "MTB-index",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "RF-release",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "TFC-release",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "TFC-deck",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "CUBI-date",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "FLG-date",
+    "status": 403,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "WAL-release",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "ZION-release",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "MTB-release",
+    "status": 403,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "KEY-release",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "CFG-release",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "CFG-supplement",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "TFC-index",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "RF-submissions",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "MTB-submissions",
+    "status": 200,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "FITB-index",
+    "status": 403,
+    "hash_matches_saved_carrier": true
+  },
+  {
+    "id": "RF-index",
+    "status": 403,
+    "hash_matches_saved_carrier": true
+  }
+]

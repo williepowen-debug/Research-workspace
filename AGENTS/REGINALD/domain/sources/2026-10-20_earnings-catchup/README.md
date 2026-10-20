@@ -1,0 +1,7 @@
+# Q3 earnings catch-up source bundle — October20,2026
+
+Seven successful primary release carriers: CFG,MTB,WAL,ZION,KEY,RF,TFC; CFG supplement/TFC deck also saved. Retrieval*.json record actual UTC/status/URL/bytes/SHA256. PDF raw bytes are TFC-release.pdf and TFC-deck.pdf (retrieval-more records them by logical id; original fetch used .html until PDF signature inspection). Their -tables/-links JSON files contain no usable PDF financial table extraction; use the actual PDFs/text. HTML table indices are zero-based. Raw .txt extracts are complete carrier text, not a claim that every table was analyzed.
+
+MTB-release.html, FITB-index.html, RF-index.html and FLG-date.html are FAILED HTTP403 response bodies; never cite them as financial content. M&T SEC replacement succeeded. FITB is existing GIBBS owner evidence only. FLG date verification is search-rendered primary text with direct403, explicitly recorded in issuer-date-verification.json. CUBI-date.html is a successful issuer announcement; its EST spelling is retained as a source caveat.
+
+verify.py reproduces WAL funding tests and KEY/MTB accounting identities from actual saved HTML rows; verification.json preserves source rows and arithmetic. These are same-source validation checks, not independent observations. No transcript, consensus estimate, price, specialist grade, or Call Report is manufactured from missing source content. Bank sources are unaudited September30/Q3, not live exposures.

@@ -102,3 +102,15 @@ Will relayed WAL's review; REGINALD then read the complete owner review, focused
 The review strengthens the countercase and narrows the remaining questions: borrower identity/new recognition behind nonbank nonaccrual movements; bank RC-P versus parent mortgage population, disclosed costs, the servicing residual and persistence. Reuse completed parent components and REGINALD's funding work. WAL's full proposed investigations remain unstarted; this acknowledgment does not launch or commission them. A conditional earnings shortfall still requires a dated expectations, valuation and timing bridge before it establishes a put advantage. No new loss/EPS forecast or change to the original §6 expectations, owner frames or positions.
 
 Read receipts: `../WAL/research/2026-10-14_REGINALD-earnings-test-review.json` (SHA256 `cda8f82a3ffe27093b0044762893a4f421555638b6f2c0c95b3cdb4835936d11`), `../WAL/research/2026-10-14_WAL-focused-followup-scope.json` (SHA256 `7a435e707aa71064d1353556fe977ad22d39368298cda73bf01a6f900c27e222`). Review names original REGINALD source commit `423e52e6844f46cd73f02e3215c1fbf0bea0e852`; its protected-record assertions remain owner-reported, not a fresh REGINALD audit of all WAL files.
+
+## October20 outcome append — release evidence before noon call
+
+The §6 expectations and their original PENDING cells above remain the pre-release record. This dated append records the available outcomes without introducing a numerical pass band:
+
+| Original question | Actual evidence / limit |
+|---|---|
+| Mortgage near Q2 | Parent mortgage84.7M→79.5M (−6.1%); origination53.4→55.7, servicing31.3→23.8. Reported revenue lower; underlying sustainable shortfall UNKNOWN until marks/hedges/costs reconciled. No invented tolerance or forecast score. |
+| Net funding/profit conversion | PPNR412.4→419.1M; owner's same-presentation visible-gain diagnostic401.1→401.8M. ECR/referral total234.2→223.7M is already in earnings; do not add savings twice. Net optimization economics and guide basis still UNKNOWN, not demonstrated favorable conversion. |
+| New credit expense vs normalization | Consolidated provision80.4→80.0M; NCO55.0→45.8M. Nonaccrual falls but OREO/special mention rise;99M loan remains unidentified. Counterevidence to broad realized-loss acceleration, not a cash-cure finding or absence of new migration. |
+
+Primary release freshly retrieved and decisive tables checked; WAL owner's completed earnings bridge consumed read-only. Sources/locators and funding grade: `reports/2026-10-20_reported-bank-earnings-catchup.md`. Reclassification means the older October14 historical screen is not a current run rate. No new FY27 EPS forecast, contemporary consensus comparison or valuation edge. Noon call remains future at evidence cutoff.

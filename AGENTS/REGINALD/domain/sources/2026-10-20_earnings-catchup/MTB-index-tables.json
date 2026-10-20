@@ -1,0 +1,53 @@
+[
+  {
+    "table": 0,
+    "rows": [
+      "Seq | Description | Document | Type | Size",
+      "1 | 8-K | mbt-20261016.htm iXBRL | 8-K | 38856",
+      "2 | EX-99.1 | ex991release3q26.htm | EX-99.1 | 1587036",
+      "3 | EX-99.2 | a3q26earningspresentatio.htm | EX-99.2 | 42248",
+      "8 |  | a3q26earningspresentatio001.jpg | GRAPHIC | 118776",
+      "9 |  | a3q26earningspresentatio002.jpg | GRAPHIC | 227364",
+      "10 |  | a3q26earningspresentatio003.jpg | GRAPHIC | 108921",
+      "11 |  | a3q26earningspresentatio004.jpg | GRAPHIC | 127609",
+      "12 |  | a3q26earningspresentatio005.jpg | GRAPHIC | 124903",
+      "13 |  | a3q26earningspresentatio006.jpg | GRAPHIC | 28856",
+      "14 |  | a3q26earningspresentatio007.jpg | GRAPHIC | 122215",
+      "15 |  | a3q26earningspresentatio008.jpg | GRAPHIC | 97920",
+      "16 |  | a3q26earningspresentatio009.jpg | GRAPHIC | 74947",
+      "17 |  | a3q26earningspresentatio010.jpg | GRAPHIC | 119515",
+      "18 |  | a3q26earningspresentatio011.jpg | GRAPHIC | 137596",
+      "19 |  | a3q26earningspresentatio012.jpg | GRAPHIC | 100367",
+      "20 |  | a3q26earningspresentatio013.jpg | GRAPHIC | 118244",
+      "21 |  | a3q26earningspresentatio014.jpg | GRAPHIC | 131577",
+      "22 |  | a3q26earningspresentatio015.jpg | GRAPHIC | 126516",
+      "23 |  | a3q26earningspresentatio016.jpg | GRAPHIC | 158749",
+      "24 |  | a3q26earningspresentatio017.jpg | GRAPHIC | 105512",
+      "25 |  | a3q26earningspresentatio018.jpg | GRAPHIC | 83120",
+      "26 |  | a3q26earningspresentatio019.jpg | GRAPHIC | 102128",
+      "27 |  | a3q26earningspresentatio020.jpg | GRAPHIC | 126654",
+      "28 |  | a3q26earningspresentatio021.jpg | GRAPHIC | 100885",
+      "29 |  | a3q26earningspresentatio022.jpg | GRAPHIC | 76285",
+      "30 |  | a3q26earningspresentatio023.jpg | GRAPHIC | 107959",
+      "31 |  | a3q26earningspresentatio024.jpg | GRAPHIC | 26986",
+      "32 |  | a3q26earningspresentatio025.jpg | GRAPHIC | 106766",
+      "33 |  | a3q26earningspresentatio026.jpg | GRAPHIC | 89337",
+      "34 |  | a3q26earningspresentatio027.jpg | GRAPHIC | 98043",
+      "35 |  | a3q26earningspresentatio028.jpg | GRAPHIC | 99556",
+      "36 |  | a3q26earningspresentatio029.jpg | GRAPHIC | 99048",
+      "37 |  | image_0.jpg | GRAPHIC | 12981",
+      " | Complete submission text file | 0000036270-26-000057.txt |  | 6291122"
+    ]
+  },
+  {
+    "table": 1,
+    "rows": [
+      "Seq | Description | Document | Type | Size",
+      "4 | XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT | mbt-20261016.xsd | EX-101.SCH | 3566",
+      "5 | XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT | mbt-20261016_def.xml | EX-101.DEF | 17340",
+      "6 | XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT | mbt-20261016_lab.xml | EX-101.LAB | 33061",
+      "7 | XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT | mbt-20261016_pre.xml | EX-101.PRE | 18198",
+      "47 | EXTRACTED XBRL INSTANCE DOCUMENT | mbt-20261016_htm.xml | XML | 6729"
+    ]
+  }
+]

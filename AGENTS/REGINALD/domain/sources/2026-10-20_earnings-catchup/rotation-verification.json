@@ -1,0 +1,32 @@
+[
+  {
+    "source": "STATUS.md",
+    "archive": "archive/STATUS_earnings-catchup_rotation_2026-10-20.md",
+    "crc32": "d35467da",
+    "bytes": 3662
+  },
+  {
+    "source": "ROADMAP.md",
+    "archive": "archive/ROADMAP_earnings-catchup_rotation_2026-10-20.md",
+    "crc32": "3d6fdb05",
+    "bytes": 5042
+  },
+  {
+    "source": "NEXUS_BRIEF.md",
+    "archive": "archive/NEXUS_earnings-catchup_rotation_2026-10-20.md",
+    "crc32": "2e01b832",
+    "bytes": 4499
+  },
+  {
+    "source": "STATUS.md",
+    "archive": "archive/STATUS_bottomline-catchup_rotation_2026-10-20.md",
+    "crc32": "ec49b491",
+    "bytes": 1905
+  },
+  {
+    "source": "MEMORY.md",
+    "archive": "archive/MEMORY_earnings-catchup_rotation_2026-10-20.md",
+    "crc32": "d1293e92",
+    "bytes": 2755
+  }
+]

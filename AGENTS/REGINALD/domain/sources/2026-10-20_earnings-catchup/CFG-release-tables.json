@@ -1,0 +1,503 @@
+[
+  {
+    "table": 0,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  | Key Financial Data |  | 3Q26 | 2Q26 | 3Q25 |  |  |  |  |  | Third Quarter 2026 Highlights",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Income Statement |  | ($s in millions) |  |  |  |  |  |  |  |  |  | \u25a0 EPS of $1.41; ROTCE of 15.1% \u2013 Continued strong Private Bank progress, contributing $0.16 to EPS \u25a0 PPNR of $929\u00a0million, up 4.5% QoQ, up 18.6% YoY \u2013 NII up 2.7% QoQ, with NIM up 2 bps to 3.19%; NII up 13% YoY, with NIM up 19 bps \u2013 Fees down 1% QoQ reflecting lower Mortgage and Capital Markets, partially offset by record Wealth; up 2.7% YoY \u2013 Positive operating leverage of 1.8% QoQ and 5.3% YoY \u25a0 Average loans up 1% QoQ, with growth led by Private Bank and retail; up 0.5% QoQ on a spot basis \u25a0 Credit continues to be broadly favorable; net charge-offs of 37 bps, stable QoQ; ACL coverage of 1.47% \u25a0 Average and spot deposits broadly stable QoQ \u2013 Private Bank spot deposits of $18.5 billion, up ~$750 million, or 4%, QoQ \u2013 Total deposit costs well controlled, up 3 bps QoQ \u25a0 Strong liquidity profile; spot LDR of 80.0% \u25a0 Strong CET1 ratio of 10.5% \u25a0 TBV/share of $35.78, down 6.6% QoQ",
+      " | Total revenue |  | $ | 2,322 |  | $ | 2,283 |  | $ | 2,118 |  |  |  |  | ",
+      " | Pre-provision profit |  | 929 |  | 889 |  | 783 |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  | ",
+      " | Provision for credit losses |  | 125 |  | 134 |  | 154 |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  | ",
+      " | Net income |  | 636 |  | 587 |  | 494 |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  | ",
+      "Balance Sheet & Credit Quality |  | ($s in billions) |  |  |  |  |  |  |  | ",
+      " | Period-end loans and leases |  | $ | 148.2 |  | $ | 147.5 |  | $ | 140.9 |  |  |  |  | ",
+      " | Average loans and leases |  | 147.4 |  | 146.1 |  | 140.0 |  |  |  |  |  | ",
+      " | Period-end deposits |  | 185.2 |  | 185.6 |  | 180.0 |  |  |  |  | ",
+      " | Average deposits |  | 183.7 |  | 183.6 |  | 176.0 |  |  |  |  | ",
+      " | Loan-to-deposit ratio (spot) |  | 80.0 | % | 79.5 | % | 78.3 | % |  |  |  | ",
+      " |  |  |  |  |  |  |  |  | ",
+      " | NCO ratio |  | 0.37 | % | 0.37 | % | 0.46 | % |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  | ",
+      "Financial Metrics |  | Diluted EPS |  | $ | 1.41 |  | $ | 1.30 |  | $ | 1.05 |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  | ",
+      " | ROTCE |  | 15.1 | % | 13.9 | % | 11.7 | % |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  | ",
+      " | Net interest margin, FTE |  | 3.19 |  | 3.17 |  | 3.00 |  |  |  |  |  | ",
+      " | Efficiency ratio |  | 60.0 |  | 61.1 |  | 63.0 |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  | ",
+      " | CET1 |  | 10.5 | % | 10.4 | % | 10.7 | % |  |  |  |  | ",
+      " | TBV/Share |  | $ | 35.78 |  | $ | 38.29 |  | $ | 36.73 |  |  |  |  | "
+    ]
+  },
+  {
+    "table": 1,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Comments from Chairman and CEO Bruce Van Saun"
+    ]
+  },
+  {
+    "table": 2,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  | Quarterly Trends |  | ",
+      " |  |  |  |  |  | 3Q26 change from |  |  |  |  |  | ",
+      "($s in millions, except per share data) |  | 3Q26 | 2Q26 | 3Q25 |  | 2Q26 |  | 3Q25 |  |  |  |  | ",
+      "Earnings |  |  |  |  |  | $/bps/% | % |  | $/bps/% | % |  |  |  |  |  | ",
+      "Net interest income |  | $ | 1,675 |  | $ | 1,631 |  | $ | 1,488 |  |  | $ | 44 |  | 3 | % |  | $ | 187 |  | 13 | % |  |  |  |  |  | ",
+      "Noninterest income |  | 647 |  | 652 |  | 630 |  |  | (5) |  | (1) |  |  | 17 |  | 3 |  |  |  |  |  |  | ",
+      "Total revenue |  | 2,322 |  | 2,283 |  | 2,118 |  |  | 39 |  | 2 |  |  | 204 |  | 10 |  |  |  |  |  |  | ",
+      "Noninterest expense |  | 1,393 |  | 1,394 |  | 1,335 |  |  | (1) |  | \u2014 |  |  | 58 |  | 4 |  |  |  |  |  |  | ",
+      "Pre-provision profit |  | 929 |  | 889 |  | 783 |  |  | 40 |  | 4 |  |  | 146 |  | 19 |  |  |  |  |  |  | ",
+      "Provision for credit losses |  | 125 |  | 134 |  | 154 |  |  | (9) |  | (7) |  | (29) |  | (19) |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Net income |  | 636 |  | 587 |  | 494 |  |  | 49 |  | 8 |  |  | 142 |  | 29 |  |  |  |  |  |  | ",
+      "Preferred dividends/other (2) |  | 37 |  | 33 |  | 37 |  |  | 4 |  | 12 |  |  | \u2014 |  | \u2014 |  |  |  |  |  |  | ",
+      "Net income available to common stockholders |  | $ | 599 |  | $ | 554 |  | $ | 457 |  |  | $ | 45 |  | 8 | % |  | $ | 142 |  | 31 | % |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Average common shares outstanding |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Basic (in millions) |  | 421.1 |  | 422.9 |  | 431.4 |  |  | (1.7) |  | \u2014 |  |  | (10.2) |  | (2) |  |  |  |  |  |  | ",
+      "Diluted (in millions) |  | 425.7 |  | 426.7 |  | 435.5 |  |  | (1.0) |  | \u2014 |  |  | (9.8) |  | (2) |  |  |  |  |  |  | ",
+      "Diluted earnings per share |  | 1.41 |  | 1.30 |  | 1.05 |  |  | 0.11 |  | 8 |  | 0.36 |  | 34 |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Performance metrics |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Net interest margin |  | 3.18 | % | 3.16 | % | 2.99 | % |  | 2 | bps |  |  | 19 | bps |  |  |  |  |  |  | ",
+      "Net interest margin, FTE |  | 3.19 |  | 3.17 |  | 3.00 |  |  | 2 |  |  |  | 19 |  |  |  |  |  |  |  | ",
+      "Effective income tax rate |  | 20.9 |  | 22.3 |  | 21.4 |  |  | (143) |  |  |  | (52) |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Efficiency ratio |  | 60.0 |  | 61.1 |  | 63.0 |  |  | (110) |  |  |  | (305) |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Return on average tangible common equity |  | 15.1 |  | 13.9 |  | 11.7 |  |  | 117 |  |  |  | 333 |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Return on average total tangible assets |  | 1.13 | % | 1.06 | % | 0.93 | % |  | 7 | bps |  |  | 20 | bps |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Capital adequacy (3,4) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Common equity tier 1 capital ratio |  | 10.5 | % | 10.4 | % | 10.7 | % |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Total capital ratio |  | 13.7 |  | 13.6 |  | 13.9 |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Tier 1 leverage ratio |  | 9.2 |  | 9.2 |  | 9.4 |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Tangible common equity ratio |  | 6.7 |  | 7.2 |  | 7.4 |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Allowance for credit losses to loans and leases |  | 1.47 | % | 1.48 | % | 1.56 | % |  | (1) | bps |  |  | (9) | bps |  |  |  |  |  |  | ",
+      "Asset quality (4) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Nonaccrual loans and leases to loans and leases |  | 0.99 | % | 0.97 | % | 1.08 | % |  | 2 | bps |  |  | (9) | bps |  |  |  |  |  |  | ",
+      "Allowance for credit losses to nonaccrual loans and leases |  | 149 |  | 152 |  | 145 |  |  | (3) | % |  |  | 4 | % |  |  |  |  |  |  | ",
+      "Net charge-offs as a % of average loans and leases |  | 0.37 | % | 0.37 | % | 0.46 | % |  | \u2014 | bps |  |  | (9) | bps |  |  |  |  |  |  | "
+    ]
+  },
+  {
+    "table": 3,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  | 3Q26 change from",
+      "($s in millions) |  | 3Q26 |  | 2Q26 |  | 3Q25 |  | 2Q26 |  | 3Q25",
+      " |  |  |  |  |  |  |  | $/bps | % |  | $/bps | %",
+      "Total assets |  | $ | 234,464 |  |  | $ | 233,836 |  |  | $ | 222,747 |  |  | $ | 628 |  | \u2014 | % |  | $ | 11,717 |  | 5 | %",
+      "Total loans and leases |  | 148,227 |  |  | 147,491 |  |  | 140,870 |  |  | 736 |  | \u2014 |  |  | 7,357 |  | 5 | ",
+      "Total loans held for sale |  | 884 |  |  | 1,458 |  |  | 1,334 |  |  | (574) |  | (39) |  |  | (450) |  | (34) | ",
+      "Deposits |  | 185,228 |  |  | 185,620 |  |  | 180,011 |  |  | (392) |  | \u2014 |  |  | 5,217 |  | 3 | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Stockholders' equity |  | 25,162 |  |  | 26,183 |  |  | 25,829 |  |  | (1,021) |  | (4) |  |  | (667) |  | (3) | ",
+      "Stockholders' common equity |  | 22,952 |  |  | 24,072 |  |  | 23,718 |  |  | (1,120) |  | (5) |  |  | (766) |  | (3) | ",
+      "Tangible common equity |  | $ | 15,070 |  |  | $ | 16,185 |  |  | $ | 15,848 |  |  | $ | (1,115) |  | (7) | % |  | $ | (778) |  | (5) | %",
+      "Loan-to-deposit ratio (period-end) (2) |  | 80.0 | % |  | 79.5 | % |  | 78.3 | % |  | 56 | bps |  |  | 176 | bps | ",
+      "Loan-to-deposit ratio (average) (2) |  | 80.2 | % |  | 79.6 | % |  | 79.6 | % |  | 62 | bps |  |  | 63 | bps | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      "(1) Represents period-end unless otherwise noted. |  |  |  |  |  | ",
+      "(2) Excludes loans held for sale.",
+      " |  |  |  |  |  | "
+    ]
+  },
+  {
+    "table": 4,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Net interest income |  |  |  |  |  |  |  | 3Q26 change from",
+      "($s in millions) |  | 3Q26 |  | 2Q26 |  | 3Q25 |  | 2Q26 |  | 3Q25",
+      " |  |  |  |  |  |  |  | $/bps |  | % |  | $/bps |  | %",
+      "Interest income: |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Interest and fees on loans and leases and loans held for sale |  | $ | 2,056 |  |  | $ | 1,994 |  |  | $ | 1,928 |  |  | $ | 62 |  |  | 3 | % |  | $ | 128 |  |  | 7 | %",
+      "Investment securities |  | 462 |  |  | 446 |  |  | 433 |  |  | 16 |  |  | 4 |  |  | 29 |  |  | 7 | ",
+      "Interest-bearing deposits in banks |  | 103 |  |  | 103 |  |  | 97 |  |  | \u2014 |  |  | \u2014 |  |  | 6 |  |  | 6 | ",
+      "Total interest income |  | $ | 2,621 |  |  | $ | 2,543 |  |  | $ | 2,458 |  |  | $ | 78 |  |  | 3 | % |  | $ | 163 |  |  | 7 | %",
+      "Interest expense: |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Deposits |  | $ | 767 |  |  | $ | 747 |  |  | $ | 816 |  |  | $ | 20 |  |  | 3 | % |  | $ | (49) |  |  | (6) | %",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Short-term borrowed funds |  | 12 |  |  | 9 |  |  | 5 |  |  | 3 |  |  | 33 |  |  | 7 |  |  | 140 | ",
+      "Long-term borrowed funds |  | 167 |  |  | 156 |  |  | 149 |  |  | 11 |  |  | 7 |  |  | 18 |  |  | 12 | ",
+      "Total interest expense |  | $ | 946 |  |  | $ | 912 |  |  | $ | 970 |  |  | $ | 34 |  |  | 4 | % |  | $ | (24) |  |  | (2) | %",
+      "Net interest income |  | $ | 1,675 |  |  | $ | 1,631 |  |  | $ | 1,488 |  |  | $ | 44 |  |  | 3 | % |  | $ | 187 |  |  | 13 | %",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Net interest margin, FTE |  | 3.19 | % |  | 3.17 | % |  | 3.00 | % |  | 2 | bps |  |  |  | 19 | bps |  | ",
+      ""
+    ]
+  },
+  {
+    "table": 5,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | second quarter 2026"
+    ]
+  },
+  {
+    "table": 6,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | third quarter 2025"
+    ]
+  },
+  {
+    "table": 7,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Noninterest Income |  |  |  |  |  |  |  | 3Q26 change from",
+      "($s in millions) |  | 3Q26 |  | 2Q26 |  | 3Q25 |  | 2Q26 |  | 3Q25",
+      " |  |  |  |  |  |  |  | $ |  | % |  | $ |  | %",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Service charges and fees |  | $ | 120 |  |  | $ | 117 |  |  | $ | 112 |  |  | $ | 3 |  |  | 3 | % |  | $ | 8 |  |  | 7 | %",
+      "Capital markets fees |  | 149 |  |  | 153 |  |  | 166 |  |  | (4) |  |  | (3) |  |  | (17) |  |  | (10) | ",
+      "Wealth fees |  | 109 |  |  | 102 |  |  | 93 |  |  | 7 |  |  | 7 |  |  | 16 |  |  | 17 | ",
+      "Card fees |  | 90 |  |  | 89 |  |  | 87 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 3 | ",
+      "Mortgage banking fees |  | 35 |  |  | 42 |  |  | 49 |  |  | (7) |  |  | (17) |  |  | (14) |  |  | (29) | ",
+      "Foreign exchange and derivative products |  | 49 |  |  | 47 |  |  | 42 |  |  | 2 |  |  | 4 |  |  | 7 |  |  | 17 | ",
+      "Letter of credit and loan fees |  | 54 |  |  | 52 |  |  | 48 |  |  | 2 |  |  | 4 |  |  | 6 |  |  | 13 | ",
+      "Securities gains, net |  | 11 |  |  | 6 |  |  | 2 |  |  | 5 |  |  | 83 |  | 9 |  |  | NM",
+      "Other income (1) |  | 30 |  |  | 44 |  |  | 31 |  |  | (14) |  |  | (32) |  | (1) |  |  | (3)",
+      "Noninterest income |  | $ | 647 |  |  | $ | 652 |  |  | $ | 630 |  |  | $ | (5) |  |  | (1) | % |  | $ | 17 |  |  | 3 | %",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "(1) Includes bank-owned life insurance income and other miscellaneous income for all periods presented."
+    ]
+  },
+  {
+    "table": 8,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | second quarter 2026"
+    ]
+  },
+  {
+    "table": 9,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | third quarter 2025"
+    ]
+  },
+  {
+    "table": 10,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Noninterest Expense |  |  |  |  |  | 3Q26 change from",
+      "($s in millions) |  | 3Q26 |  | 2Q26 |  | 3Q25 |  | 2Q26 |  | 3Q25",
+      " |  |  |  |  |  |  |  | $ | % |  | $ | %",
+      "Salaries and employee benefits |  | $ | 750 |  |  | $ | 745 |  |  | $ | 705 |  |  | $ | 5 |  | 1 | % |  | $ | 45 |  | 6 | %",
+      "Equipment and software |  | 202 |  |  | 195 |  |  | 197 |  |  | 7 |  | 4 |  |  | 5 |  | 3 | ",
+      "Outside services |  | 174 |  |  | 174 |  |  | 161 |  |  | \u2014 |  | \u2014 |  |  | 13 |  | 8 | ",
+      "Occupancy |  | 107 |  |  | 108 |  |  | 106 |  |  | (1) |  | (1) |  |  | 1 |  | 1 | ",
+      "Other operating expense |  | 160 |  |  | 172 |  |  | 166 |  |  | (12) |  | (7) |  |  | (6) |  | (4) | ",
+      "Noninterest expense |  | $ | 1,393 |  |  | $ | 1,394 |  |  | $ | 1,335 |  |  | $ | (1) |  | \u2014 | % |  | $ | 58 |  | 4 | %",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | "
+    ]
+  },
+  {
+    "table": 11,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | second quarter 2026"
+    ]
+  },
+  {
+    "table": 12,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | third quarter 2025"
+    ]
+  },
+  {
+    "table": 13,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Interest-earning assets |  |  |  |  | 3Q26 change from |  |  | ",
+      "($s in millions) | 3Q26 | 2Q26 | 3Q25 |  | 2Q26 |  | 3Q25 |  |  | ",
+      "Period-end interest-earning assets |  |  |  |  | $ |  | % |  | $ |  | % |  |  | ",
+      "Investments | $ | 45,690 |  | $ | 46,345 |  | $ | 44,456 |  |  | $ | (655) |  |  | (1) | % |  | $ | 1,234 |  |  | 3 | % |  |  | ",
+      "Interest-bearing deposits in banks | 12,517 |  | 12,648 |  | 11,090 |  |  | (131) |  |  | (1) |  |  | 1,427 |  |  | 13 |  |  |  | ",
+      "Commercial loans and leases | 77,223 |  | 77,284 |  | 72,493 |  |  | (61) |  |  | \u2014 |  |  | 4,730 |  |  | 7 |  |  |  | ",
+      "Retail loans | 71,004 |  | 70,207 |  | 68,377 |  |  | 797 |  |  | 1 |  |  | 2,627 |  |  | 4 |  |  |  | ",
+      "Total loans and leases | 148,227 |  | 147,491 |  | 140,870 |  |  | 736 |  |  | \u2014 |  |  | 7,357 |  |  | 5 |  |  |  | ",
+      "Loans held for sale | 884 |  | 1,458 |  | 1,334 |  |  | (574) |  |  | (39) |  |  | (450) |  |  | (34) |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Total loans and leases and loans held for sale | 149,111 |  | 148,949 |  | 142,204 |  |  | 162 |  |  | \u2014 |  |  | 6,907 |  |  | 5 |  |  |  | ",
+      "Total period-end interest-earning assets | $ | 207,318 |  | $ | 207,942 |  | $ | 197,750 |  |  | $ | (624) |  |  | \u2014 | % |  | $ | 9,568 |  |  | 5 | % |  |  | ",
+      "Average interest-earning assets (1) |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Investments | $ | 49,211 |  | $ | 48,088 |  | $ | 46,453 |  |  | $ | 1,123 |  |  | 2 | % |  | $ | 2,758 |  |  | 6 | % |  |  | ",
+      "Interest-bearing deposits in banks | 10,941 |  | 10,839 |  | 9,015 |  |  | 102 |  |  | 1 |  |  | 1,926 |  |  | 21 |  |  |  | ",
+      "Commercial loans and leases | 76,920 |  | 76,548 |  | 72,150 |  |  | 372 |  |  | \u2014 |  |  | 4,770 |  |  | 7 |  |  |  | ",
+      "Retail loans | 70,434 |  | 69,580 |  | 67,861 |  |  | 854 |  |  | 1 |  |  | 2,573 |  |  | 4 |  |  |  | ",
+      "Total loans and leases | 147,354 |  | 146,128 |  | 140,011 |  |  | 1,226 |  |  | 1 |  |  | 7,343 |  |  | 5 |  |  |  | ",
+      "Loans held for sale | 1,436 |  | 1,715 |  | 2,119 |  |  | (279) |  |  | (16) |  |  | (683) |  |  | (32) |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Total loans and leases and loans held for sale | 148,790 |  | 147,843 |  | 142,130 |  |  | 947 |  |  | 1 |  |  | 6,660 |  |  | 5 |  |  |  | ",
+      "Total average interest-earning assets | $ | 208,942 |  | $ | 206,770 |  | $ | 197,598 |  |  | $ | 2,172 |  |  | 1 | % |  | $ | 11,344 |  |  | 6 | % |  |  | ",
+      "(1) Total average interest-earning assets excludes the mark-to-market on investment securities and unsettled purchases or sales of loans and investments. |  |  | "
+    ]
+  },
+  {
+    "table": 14,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | second quarter 2026"
+    ]
+  },
+  {
+    "table": 15,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | third quarter 2025"
+    ]
+  },
+  {
+    "table": 16,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Deposits |  |  |  |  | 3Q26 change from",
+      "($s in millions) | 3Q26 | 2Q26 | 3Q25 |  | 2Q26 |  | 3Q25",
+      "Period-end deposits |  |  |  |  | $ |  | % |  | $ |  | %",
+      "Noninterest-bearing demand | $ | 40,916 |  | $ | 40,939 |  | $ | 39,472 |  |  | $ | (23) |  |  | \u2014 | % |  | $ | 1,444 |  |  | 4 | %",
+      "Checking with interest | 38,526 |  | 40,258 |  | 35,219 |  |  | (1,732) |  |  | (4) |  |  | 3,307 |  |  | 9 | ",
+      "Savings | 22,424 |  | 23,570 |  | 24,759 |  |  | (1,146) |  |  | (5) |  |  | (2,335) |  |  | (9) | ",
+      "Money market | 63,379 |  | 60,029 |  | 59,709 |  |  | 3,350 |  |  | 6 |  |  | 3,670 |  |  | 6 | ",
+      "Time | 19,983 |  | 20,824 |  | 20,852 |  |  | (841) |  |  | (4) |  |  | (869) |  |  | (4) | ",
+      "Total period-end deposits | $ | 185,228 |  | $ | 185,620 |  | $ | 180,011 |  |  | $ | (392) |  |  | \u2014 | % |  | $ | 5,217 |  |  | 3 | %",
+      "Average deposits |  |  |  |  |  |  |  |  |  |  | ",
+      "Noninterest-bearing demand | $ | 40,567 |  | $ | 39,881 |  | $ | 38,070 |  |  | $ | 686 |  |  | 2 | % |  | $ | 2,497 |  |  | 7 | %",
+      "Checking with interest | 38,684 |  | 38,632 |  | 34,748 |  |  | 52 |  |  | \u2014 |  |  | 3,936 |  |  | 11 | ",
+      "Savings | 22,923 |  | 23,780 |  | 25,001 |  |  | (857) |  |  | (4) |  |  | (2,078) |  |  | (8) | ",
+      "Money market | 61,115 |  | 60,295 |  | 57,783 |  |  | 820 |  |  | 1 |  |  | 3,332 |  |  | 6 | ",
+      "Time | 20,447 |  | 21,032 |  | 20,355 |  |  | (585) |  |  | (3) |  |  | 92 |  |  | \u2014 | ",
+      "Total average deposits | $ | 183,736 |  | $ | 183,620 |  | $ | 175,957 |  |  | $ | 116 |  |  | \u2014 | % |  | $ | 7,779 |  |  | 4 | %",
+      ""
+    ]
+  },
+  {
+    "table": 17,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | second quarter 2026"
+    ]
+  },
+  {
+    "table": 18,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | third quarter 2025"
+    ]
+  },
+  {
+    "table": 19,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Borrowed Funds |  |  |  |  | 3Q26 change from",
+      "($s in millions) | 3Q26 | 2Q26 | 3Q25 |  | 2Q26 |  | 3Q25",
+      "Period-end borrowed funds |  |  |  |  | $ |  | % |  | $ |  | %",
+      "Short-term borrowed funds | $ | 819 |  | $ | 1,159 |  | $ | 214 |  |  | $ | (340) |  |  | (29)\u00a0% |  | $ | 605 |  |  | NM",
+      "Long-term borrowed funds |  |  |  |  |  |  |  |  |  |  | ",
+      "FHLB advances | 7,613 |  | 5,763 |  | 14 |  |  | 1,850 |  |  | 32 |  | 7,599 |  |  | NM",
+      "Senior debt | 7,318 |  | 7,078 |  | 6,825 |  |  | 240 |  |  | 3 |  |  | 493 |  |  | 7 | ",
+      "Subordinated debt and other debt | 1,422 |  | 1,421 |  | 1,620 |  |  | 1 |  |  | \u2014 |  |  | (198) |  |  | (12) | ",
+      "Auto collateralized borrowings | 660 |  | 928 |  | 1,982 |  |  | (268) |  |  | (29) |  |  | (1,322) |  |  | (67) | ",
+      "Total borrowed funds | $ | 17,832 |  | $ | 16,349 |  | $ | 10,655 |  |  | $ | 1,483 |  |  | 9 | % |  | $ | 7,177 |  |  | 67 | %",
+      "Average borrowed funds |  |  |  |  |  |  |  |  |  |  | ",
+      "Short-term borrowed funds | $ | 1,627 |  | $ | 989 |  | $ | 589 |  |  | $ | 638 |  |  | 65\u00a0% |  | $ | 1,038 |  |  | 176 | %",
+      "Long-term borrowed funds |  |  |  |  |  |  |  |  |  |  | ",
+      "FHLB advances | 4,718 |  | 3,538 |  | 1,009 |  |  | 1,180 |  |  | 33\u00a0% |  | 3,709 |  |  | NM",
+      "Senior debt | 7,117 |  | 7,078 |  | 6,823 |  |  | 39 |  |  | 1 |  |  | 294 |  |  | 4 | ",
+      "Subordinated debt and other debt | 1,422 |  | 1,419 |  | 1,622 |  |  | 3 |  |  | \u2014 |  |  | (200) |  |  | (12) | ",
+      "Auto collateralized borrowings | 784 |  | 1,077 |  | 2,189 |  |  | (293) |  |  | (27) |  |  | (1,405) |  |  | (64) | ",
+      "Total average borrowed funds | $ | 15,668 |  | $ | 14,101 |  | $ | 12,232 |  |  | $ | 1,567 |  |  | 11 | % |  | $ | 3,436 |  |  | 28 | %",
+      ""
+    ]
+  },
+  {
+    "table": 20,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | second quarter 2026"
+    ]
+  },
+  {
+    "table": 21,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | third quarter 2025"
+    ]
+  },
+  {
+    "table": 22,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Capital |  |  |  |  |  |  | 3Q26 change from",
+      "($s and shares in millions, except per share data) | 3Q26 |  | 2Q26 |  | 3Q25 |  | 2Q26 |  | 3Q25",
+      "Period-end capital |  |  |  |  |  |  | $ |  | % |  | $ |  | %",
+      "Stockholders' equity | $ | 25,162 |  |  | $ | 26,183 |  |  | $ | 25,829 |  |  | $ | (1,021) |  |  | (4) | % |  | $ | (667) |  |  | (3) | %",
+      "Stockholders' common equity | 22,952 |  |  | 24,072 |  |  | 23,718 |  |  | (1,120) |  |  | (5) |  |  | (766) |  |  | (3) | ",
+      "Tangible common equity | 15,070 |  |  | 16,185 |  |  | 15,848 |  |  | (1,115) |  |  | (7) |  |  | (778) |  |  | (5) | ",
+      "Tangible book value per common share | $ | 35.78 |  |  | $ | 38.29 |  |  | $ | 36.73 |  |  | $ | (2.51) |  |  | (7) | % |  | $ | (0.95) |  |  | (3) | %",
+      "Common shares - at end of period | 421.2 |  |  | 422.7 |  |  | 431.5 |  |  | (1.5) |  |  | \u2014 |  |  | (10.2) |  |  | (2) | ",
+      "Common shares - average (diluted) | 425.7 |  |  | 426.7 |  |  | 435.5 |  |  | (1.0) |  |  | \u2014 | % |  | (9.8) |  |  | (2) | %",
+      "Common equity tier 1 capital ratio (1) | 10.5 | % |  | 10.4 | % |  | 10.7 | % |  |  |  |  |  |  |  | ",
+      "Total capital ratio (1) | 13.7 |  |  | 13.6 |  |  | 13.9 |  |  |  |  |  |  |  |  | ",
+      "Tangible common equity ratio | 6.7 |  |  | 7.2 |  |  | 7.4 |  |  |  |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "(1) Current reporting-period regulatory capital ratios are preliminary."
+    ]
+  },
+  {
+    "table": 23,
+    "rows": [
+      " |  | ",
+      "Third quarter 2026"
+    ]
+  },
+  {
+    "table": 24,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Credit quality review |  |  |  |  |  |  |  | 3Q26 change from",
+      "($s in millions) |  | 3Q26 |  | 2Q26 |  | 3Q25 |  | 2Q26 |  | 3Q25",
+      " |  |  |  |  |  |  |  | $/bps/% |  | % |  | $/bps/% |  | %",
+      "Nonaccrual loans and leases (1) |  | $ | 1,461 |  |  | $ | 1,435 |  |  | $ | 1,518 |  |  | $ | 26 |  |  | 2 | % |  | $ | (57) |  |  | (4) | %",
+      "90+ days past due and accruing (2) |  | 165 |  |  | 183 |  |  | 162 |  |  | (18) |  |  | (10) |  |  | 3 |  |  | 2 | ",
+      "Net charge-offs |  | 137 |  |  | 135 |  |  | 162 |  |  | 2 |  |  | 1 |  |  | (25) |  |  | (15) | ",
+      "Provision for credit losses |  | 125 |  |  | 134 |  |  | 154 |  |  | (9) |  |  | (7) |  |  | (29) |  |  | (19) | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Allowance for credit losses |  | $ | 2,172 |  |  | $ | 2,184 |  |  | $ | 2,201 |  |  | $ | (12) |  |  | (1) | % |  | $ | (29) |  |  | (1) | %",
+      "Nonaccrual loans and leases to loans and leases |  | 0.99 | % |  | 0.97 | % |  | 1.08 | % |  | 2 | bps |  |  |  | (9) | bps |  | ",
+      "Net charge-offs as a % of total loans and leases |  | 0.37 |  |  | 0.37 |  |  | 0.46 |  |  | \u2014 |  |  |  |  | (9) |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Allowance for credit losses to loans and leases |  | 1.47 |  |  | 1.48 |  |  | 1.56 |  |  | (1) |  |  |  |  | (9) |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Allowance for credit losses to nonaccrual loans and leases |  | 149 | % |  | 152 | % |  | 145 | % |  | (3) | % |  |  |  | 4 | % |  | ",
+      "(1) Loans fully or partially guaranteed by the FHA, VA and USDA are classified as accruing.",
+      "(2) 90+ days past due and accruing includes $157\u00a0million, $172\u00a0million, and $114\u00a0million of loans fully or partially guaranteed by the FHA, VA, and USDA for September 30, 2026, June 30, 2026, and September 30, 2025, respectively."
+    ]
+  },
+  {
+    "table": 25,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | second quarter 2026"
+    ]
+  },
+  {
+    "table": 26,
+    "rows": [
+      " |  |  |  |  |  |  |  | ",
+      "Third quarter 2026 | vs. | third quarter 2025"
+    ]
+  },
+  {
+    "table": 27,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  | QUARTERLY TRENDS |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | 3Q26 Change |  |  |  |  |  | ",
+      " |  | 3Q26 |  | 2Q26 |  |  |  |  |  | 3Q25 |  | 2Q26 |  | 3Q25 |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | $/bps |  | % |  | $/bps |  | % |  |  |  |  |  |  |  | ",
+      "Pre-provision profit: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Total revenue (GAAP) | A | $2,322 |  |  | $2,283 |  |  |  |  |  |  | $2,118 |  |  | $39 |  | 2 | % |  | $204 |  |  | 10 | % |  |  |  |  |  |  |  | ",
+      "Less: Noninterest expense (GAAP) | B | 1,393 |  |  | 1,394 |  |  |  |  |  |  | 1,335 |  |  | (1) |  | \u2014 |  |  | 58 |  |  | 4 |  |  |  |  |  |  |  |  | ",
+      "Pre-provision profit (non-GAAP) |  | $929 |  |  | $889 |  |  |  |  |  |  | $783 |  |  | $40 |  | 4 | % |  | $146 |  |  | 19 | % |  |  |  |  |  |  |  | ",
+      "Operating leverage: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Total revenue (GAAP) | A | $2,322 |  |  | $2,283 |  |  |  |  |  |  | $2,118 |  |  | $39 |  |  | 1.72 | % |  | $204 |  |  | 9.64 | % |  |  |  |  |  |  |  | ",
+      "Less: Noninterest expense (GAAP) | B | 1,393 |  |  | 1,394 |  |  |  |  |  |  | 1,335 |  |  | (1) |  |  | (0.11) |  |  | 58 |  |  | 4.32 |  |  |  |  |  |  |  |  | ",
+      "Operating leverage |  |  |  |  |  |  |  |  |  |  |  |  |  | 1.83 | % |  |  |  | 5.32 | % |  |  |  |  |  |  |  | ",
+      "Efficiency ratio: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Efficiency ratio | B/A | 59.98 | % |  | 61.08 | % |  |  |  |  |  | 63.03 | % |  | (110) | bps |  |  |  | (305) | bps |  |  |  |  |  |  |  |  |  | ",
+      "Book value per common share and tangible book value per common share: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Common shares - at period-end (GAAP) | C | 421,219,810 |  |  | 422,677,660 |  |  |  |  |  |  | 431,453,142 |  |  | (1,457,850) |  |  | \u2014 | % |  | (10,233,332) |  | (2 | %) |  |  |  |  |  |  |  | ",
+      "Common stockholders' equity (GAAP) | D | $22,952 |  |  | $24,072 |  |  |  |  |  |  | $23,718 |  |  | ($1,120) |  | (5) |  |  | ($766) |  | (3) |  |  |  |  |  |  |  |  | ",
+      "Less: Goodwill (GAAP) |  | 8,220 |  |  | 8,220 |  |  |  |  |  |  | 8,187 |  |  | \u2014 |  | \u2014 |  |  | 33 |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Less: Other intangible assets (GAAP) |  | 100 |  |  | 105 |  |  |  |  |  |  | 123 |  |  | (5) |  | (5) |  |  | (23) |  | (19) |  |  |  |  |  |  |  |  | ",
+      "Add: Deferred tax liabilities related to goodwill and other intangible assets (GAAP) |  | 438 |  |  | 438 |  |  |  |  |  |  | 440 |  |  | \u2014 |  | \u2014 |  |  | (2) |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Tangible common equity (non-GAAP) | E | $15,070 |  |  | $16,185 |  |  |  |  |  |  | $15,848 |  |  | ($1,115) |  | (7 | %) |  | ($778) |  | (5 | %) |  |  |  |  |  |  |  | ",
+      "Book value per common share (GAAP) | D/C | $54.49 |  |  | $56.95 |  |  |  |  |  |  | $54.97 |  |  | ($2.46) |  | (4 | %) |  | ($0.48) |  | (1 | %) |  |  |  |  |  |  |  | ",
+      "Tangible book value per common share (non-GAAP) | E/C | 35.78 |  |  | 38.29 |  |  |  |  |  |  | 36.73 |  |  | (2.51) |  | (7) |  |  | (0.95) |  | (3) |  |  |  |  |  |  |  |  | ",
+      "Net interest income and net interest margin on an FTE basis: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Net interest income (annualized) (GAAP) | F | $6,645 |  |  | $6,542 |  |  |  |  |  |  | $5,902 |  |  | $103 |  | 2 | % |  | $743 |  | 13 | % |  |  |  |  |  |  |  | ",
+      "Average interest-earning assets (GAAP) | G | 208,942 |  |  | 206,770 |  |  |  |  |  |  | 197,598 |  |  | 2,172 |  | 1 |  |  | 11,344 |  | 6 |  |  |  |  |  |  |  |  | ",
+      "Net interest margin (GAAP) | F/G | 3.18 | % |  | 3.16 | % |  |  |  |  |  | 2.99 | % |  | 2 | bps |  |  |  | 19 | bps |  |  |  |  |  |  |  |  |  | ",
+      "Net interest income (GAAP) |  | $1,675 |  |  | $1,631 |  |  |  |  |  |  | $1,488 |  |  | $44 |  | 3 | % |  | $187 |  | 13 | % |  |  |  |  |  |  |  | ",
+      "FTE adjustment |  | 3 |  |  | 3 |  |  |  |  |  |  | 4 |  |  | \u2014 |  | \u2014 |  |  | (1) |  | (25) |  |  |  |  |  |  |  |  | ",
+      "Net interest income on an FTE basis (non-GAAP) |  | 1,678 |  |  | 1,634 |  |  |  |  |  |  | 1,492 |  |  | 44 |  | 3 |  |  | 186 |  | 12 |  |  |  |  |  |  |  |  | ",
+      "Net interest income on an FTE basis (annualized) (non-GAAP) | H | 6,657 |  |  | 6,555 |  |  |  |  |  |  | 5,919 |  |  | 102 |  | 2 |  |  | 738 |  | 12 |  |  |  |  |  |  |  |  | ",
+      "Net interest margin on an FTE basis (non-GAAP) | H/G | 3.19 | % |  | 3.17 | % |  |  |  |  |  | 3.00 | % |  | 2 | bps |  |  |  | 19 | bps |  |  |  |  |  |  |  |  |  | ",
+      "Return on average common equity and return on average tangible common equity: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Net income available to common stockholders (GAAP) | I | $599 |  |  | $554 |  |  |  |  |  |  | $457 |  |  | $45 |  | 8 | % |  | $142 |  | 31 | % |  |  |  |  |  |  |  | ",
+      "Average common equity (GAAP) | J | $23,644 |  |  | $23,839 |  |  |  |  |  |  | $23,288 |  |  | ($195) |  | (1) |  |  | $356 |  | 2 |  |  |  |  |  |  |  |  | ",
+      "Less: Average goodwill (GAAP) |  | 8,220 |  |  | 8,221 |  |  |  |  |  |  | 8,187 |  |  | (1) |  | \u2014 |  |  | 33 |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Less: Average other intangibles (GAAP) |  | 103 |  |  | 109 |  |  |  |  |  |  | 126 |  |  | (6) |  | (6) |  |  | (23) |  | (18) |  |  |  |  |  |  |  |  | ",
+      "Add: Average deferred tax liabilities related to goodwill and other intangible assets (GAAP) |  | 438 |  |  | 438 |  |  |  |  |  |  | 440 |  |  | \u2014 |  | \u2014 |  |  | (2) |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Average tangible common equity (non-GAAP) | K | $15,759 |  |  | $15,947 |  |  |  |  |  |  | $15,415 |  |  | ($188) |  | (1 | %) |  | $344 |  | 2 | % |  |  |  |  |  |  |  | ",
+      "Return on average common equity (GAAP) | I/J | 10.05 | % |  | 9.31 | % |  |  |  |  |  | 7.77 | % |  | 74 | bps |  |  |  | 228 | bps |  |  |  |  |  |  |  |  |  | ",
+      "Return on average tangible common equity (non-GAAP) | I/K | 15.08 | % |  | 13.91 | % |  |  |  |  |  | 11.75 | % |  | 117 | bps |  |  |  | 333 | bps |  |  |  |  |  |  |  |  |  | ",
+      "Return on average total assets and return on average total tangible assets: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Net income (GAAP) | L | $636 |  |  | $587 |  |  |  |  |  |  | $494 |  |  | $49 |  | 8 | % |  | $142 |  | 29 | % |  |  |  |  |  |  |  | ",
+      "Average total assets (GAAP) | M | $231,250 |  |  | $229,263 |  |  |  |  |  |  | $219,117 |  |  | $1,987 |  | 1 |  |  | $12,133 |  | 6 |  |  |  |  |  |  |  |  | ",
+      "Less: Average goodwill (GAAP) |  | 8,220 |  |  | 8,221 |  |  |  |  |  |  | 8,187 |  |  | (1) |  | \u2014 |  |  | 33 |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Less: Average other intangibles (GAAP) |  | 103 |  |  | 109 |  |  |  |  |  |  | 126 |  |  | (6) |  | (6) |  |  | (23) |  | (18) |  |  |  |  |  |  |  |  | ",
+      "Add: Average deferred tax liabilities related to goodwill and other intangible assets (GAAP) |  | 438 |  |  | 438 |  |  |  |  |  |  | 440 |  |  | \u2014 |  | \u2014 |  |  | (2) |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Average tangible assets (non-GAAP) | N | $223,365 |  |  | $221,371 |  |  |  |  |  |  | $211,244 |  |  | $1,994 |  | 1 | % |  | $12,121 |  | 6 | % |  |  |  |  |  |  |  | ",
+      "Return on average total assets (GAAP) | L/M | 1.09 | % |  | 1.03 | % |  |  |  |  |  | 0.90 | % |  | 6 | bps |  |  |  | 19 | bps |  |  |  |  |  |  |  |  |  | ",
+      "Return on average total tangible assets (non-GAAP) | L/N | 1.13 | % |  | 1.06 | % |  |  |  |  |  | 0.93 | % |  | 7 | bps |  |  |  | 20 | bps |  |  |  |  |  |  |  |  |  | "
+    ]
+  },
+  {
+    "table": 28,
+    "rows": [
+      " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      " |  | QUARTERLY TRENDS |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | 3Q26 Change |  |  |  |  |  | ",
+      " |  | 3Q26 |  | 2Q26 |  |  |  |  |  | 3Q25 |  | 2Q26 |  | 3Q25 |  |  |  |  |  | ",
+      " |  |  |  |  |  |  |  |  |  |  |  | $/bps |  | % |  | $/bps |  | % |  |  |  |  |  |  |  | ",
+      "Common equity ratio and tangible common equity ratio: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+      "Total assets (GAAP) | O | $234,464 |  |  | $233,836 |  |  |  |  |  |  | $222,747 |  |  | $628 |  | \u2014 | % |  | $11,717 |  | 5 | % |  |  |  |  |  |  |  | ",
+      "Less: Goodwill (GAAP) |  | 8,220 |  |  | 8,220 |  |  |  |  |  |  | 8,187 |  |  | \u2014 |  | \u2014 |  |  | 33 |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Less: Other intangible assets (GAAP) |  | 100 |  |  | 105 |  |  |  |  |  |  | 123 |  |  | (5) |  | (5) |  |  | (23) |  | (19) |  |  |  |  |  |  |  |  | ",
+      "Add: Deferred tax liabilities related to goodwill and other intangible assets (GAAP) |  | 438 |  |  | 438 |  |  |  |  |  |  | 440 |  |  | \u2014 |  | \u2014 |  |  | (2) |  | \u2014 |  |  |  |  |  |  |  |  | ",
+      "Tangible assets (non-GAAP) | P | $226,582 |  |  | $225,949 |  |  |  |  |  |  | $214,877 |  |  | $633 |  | \u2014 | % |  | $11,705 |  | 5 | % |  |  |  |  |  |  |  | ",
+      "Common equity ratio (GAAP) | D/O | 9.8 | % |  | 10.3 | % |  |  |  |  |  | 10.6 | % |  | (50) bps |  |  |  | (86) bps |  |  |  |  |  |  |  |  |  | ",
+      "Tangible common equity ratio (non-GAAP) | E/P | 6.7 |  |  | 7.2 |  |  |  |  |  |  | 7.4 |  |  | (50) bps |  |  |  | (70) bps |  |  |  |  |  |  |  |  |  | "
+    ]
+  }
+]

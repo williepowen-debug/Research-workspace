@@ -1,0 +1,101 @@
+[
+  {
+    "id": "WAL-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/pressrelease-9302026.htm",
+    "at": "2026-10-20T15:24:50.818967+00:00",
+    "status": 200,
+    "bytes": 1269362,
+    "sha256": "35365024cc9b883f9ddb7cd34667673b3e553073467302e4f2014ae4c75512c9",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/pressrelease-9302026.htm"
+  },
+  {
+    "id": "ZION-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/109380/000010938026000125/exh991earningsrelease20260.htm",
+    "at": "2026-10-20T15:24:50.819367+00:00",
+    "status": 200,
+    "bytes": 1435277,
+    "sha256": "f3a92fe310a552fa64e37905a8da1b3c95615613eb6e663284e50da97fcc77b6",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/109380/000010938026000125/exh991earningsrelease20260.htm"
+  },
+  {
+    "id": "MTB-release",
+    "url": "https://ir.mtb.com/news-releases/news-release-details/mt-bank-corporation-nysemtb-announces-third-quarter-2026-results",
+    "at": "2026-10-20T15:24:50.821387+00:00",
+    "status": 403,
+    "bytes": 515,
+    "sha256": "a20a587ed000a4704b1ef8e5820c7e2066295a6ad9f163c50fb9e9c36c3752d5",
+    "resolved_url": "https://ir.mtb.com/news-releases/news-release-details/mt-bank-corporation-nysemtb-announces-third-quarter-2026-results"
+  },
+  {
+    "id": "KEY-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+    "at": "2026-10-20T15:24:50.822649+00:00",
+    "status": 200,
+    "bytes": 1712783,
+    "sha256": "04a2a205cf2837083a53295588e66f096d42adfea75b42ea5a947d91b2ba648b",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm"
+  },
+  {
+    "id": "CFG-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm",
+    "at": "2026-10-20T15:24:51.029928+00:00",
+    "status": 200,
+    "bytes": 764460,
+    "sha256": "fb859d1680390be8279aeadc92ad2bd5d9f23035b21fa658908da39dea031d0f",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm"
+  },
+  {
+    "id": "CFG-supplement",
+    "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/q326financialsupplement.htm",
+    "at": "2026-10-20T15:24:51.534068+00:00",
+    "status": 200,
+    "bytes": 2629998,
+    "sha256": "4560c98a80e1fee8ef9ac992fe33c3e050413df3a99cf7ed09ec6a0b6a332670",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/q326financialsupplement.htm"
+  },
+  {
+    "id": "TFC-index",
+    "url": "https://ir.truist.com/earnings",
+    "at": "2026-10-20T15:24:49.611094+00:00",
+    "status": 200,
+    "bytes": 44726,
+    "sha256": "eb679373f06bb9f3b26532d4ff922e5713fee4c1575ce015b639b5b9a88955b4",
+    "resolved_url": "https://ir.truist.com/earnings"
+  },
+  {
+    "id": "RF-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001281761.json",
+    "at": "2026-10-20T15:24:49.864466+00:00",
+    "status": 200,
+    "bytes": 150954,
+    "sha256": "061c8b68ccdc5f66410ee9bbdc769652c8e8802515dd3a838ba68d11e2eb10ef",
+    "resolved_url": "https://data.sec.gov/submissions/CIK0001281761.json"
+  },
+  {
+    "id": "MTB-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000036270.json",
+    "at": "2026-10-20T15:24:50.165164+00:00",
+    "status": 200,
+    "bytes": 159414,
+    "sha256": "0cdbee70d444aea86abff75d40ee7e4db5acd5da6f90c35843073ace1da24291",
+    "resolved_url": "https://data.sec.gov/submissions/CIK0000036270.json"
+  },
+  {
+    "id": "FITB-index",
+    "url": "https://ir.53.com/home/default.aspx",
+    "at": "2026-10-20T15:24:50.178307+00:00",
+    "status": 403,
+    "bytes": 5525,
+    "sha256": "01643e4dda547b3b83ad73c86326b7ee7131a0cb647f90f41c1180db7e7927c8",
+    "resolved_url": "https://ir.53.com/home/default.aspx"
+  },
+  {
+    "id": "RF-index",
+    "url": "https://ir.regions.com/financial-information/quarterly-results/default.aspx",
+    "at": "2026-10-20T15:24:50.179884+00:00",
+    "status": 403,
+    "bytes": 5699,
+    "sha256": "138489ecb69105fe96a6d80c95539b3fa5f1af9a9483f3a9eba6fbfa8e9df6f6",
+    "resolved_url": "https://ir.regions.com/financial-information/quarterly-results/default.aspx"
+  }
+]

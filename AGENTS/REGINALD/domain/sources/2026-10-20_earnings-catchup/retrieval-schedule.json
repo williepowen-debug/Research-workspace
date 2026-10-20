@@ -1,0 +1,20 @@
+[
+  {
+    "id": "CUBI-date",
+    "url": "https://www.customersbank.com/investor-relations/press-releases/press-release/Customers-Bancorp-Inc--Hosts-Third-Quarter-2026-Earnings-Webcast-Friday-October-23-2026-1799/",
+    "at": "2026-10-20T15:28:29.340773+00:00",
+    "status": 200,
+    "bytes": 167695,
+    "sha256": "a8f7af699d80bb829e8ca8e1b0926c22beff174bf5abd9d9d9065023feaf3193",
+    "resolved_url": "https://www.customersbank.com/investor-relations/press-releases/press-release/Customers-Bancorp-Inc--Hosts-Third-Quarter-2026-Earnings-Webcast-Friday-October-23-2026-1799/"
+  },
+  {
+    "id": "FLG-date",
+    "url": "https://ir.flagstar.com/news-and-events/news-releases/press-release-details/2026/FLAGSTAR-BANK-N-A--TO-REPORT-THIRD-QUARTER-2026-EARNINGS-AND-HOST-CONFERENCE-CALL-ON-OCTOBER-23RD/default.aspx",
+    "at": "2026-10-20T15:28:29.341297+00:00",
+    "status": 403,
+    "bytes": 6194,
+    "sha256": "10af6d2626aa8a2936ad4c927847655327350bdc1fd41cf3fb4eb5de5610de9f",
+    "resolved_url": "https://ir.flagstar.com/news-and-events/news-releases/press-release-details/2026/FLAGSTAR-BANK-N-A--TO-REPORT-THIRD-QUARTER-2026-EARNINGS-AND-HOST-CONFERENCE-CALL-ON-OCTOBER-23RD/default.aspx"
+  }
+]

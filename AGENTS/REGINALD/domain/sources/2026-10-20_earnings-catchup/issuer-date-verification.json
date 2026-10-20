@@ -1,0 +1,21 @@
+[
+  {
+    "ticker": "FLG",
+    "url": "https://ir.flagstar.com/news-and-events/news-releases/press-release-details/2026/FLAGSTAR-BANK-N-A--TO-REPORT-THIRD-QUARTER-2026-EARNINGS-AND-HOST-CONFERENCE-CALL-ON-OCTOBER-23RD/default.aspx",
+    "publication_date": "2026-10-09",
+    "release_date": "2026-10-23",
+    "release_time": "approximately06:00ET",
+    "call_time": "08:00ET",
+    "verification": "Primary issuer notice substantive text returned by web search on2026-10-20; direct HTTP403. A search-rendered primary, not locally downloaded announcement bytes."
+  },
+  {
+    "ticker": "CUBI",
+    "url": "https://www.customersbank.com/investor-relations/press-releases/press-release/Customers-Bancorp-Inc--Hosts-Third-Quarter-2026-Earnings-Webcast-Friday-October-23-2026-1799/",
+    "publication_date": "2026-10-13",
+    "release_date": "2026-10-22",
+    "release_time": "after market close",
+    "call_date": "2026-10-23",
+    "call_time": "09:00ET",
+    "verification": "Direct issuer HTTP200 and web-reader full primary text. Issuer says EST while date is daylight-saving time; calendar retains wall-clock09:00ET, not a silently shifted hour."
+  }
+]
