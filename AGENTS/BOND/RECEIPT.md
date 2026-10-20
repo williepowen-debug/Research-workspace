@@ -24,3 +24,6 @@ Calendarpass:sevenmissingselectedmacrodatesaddedfromissuerBLS/BEA/Treasuryschedu
 
 ## Closeout sequencing correction — October20 12:12 ET
 Owned research commit cfa4b4201 ran after a FREEZE MOVED verdict because verification and commit were placed in a shell command without a success guard. This violated C12 ordering. The digest includes staging state and global HEAD, and staging occurred after the earlier passing run. No data repair is inferred from a clean commit. No amend or reset performed. Restarting the full standard runner after final staging, then inspecting a separate verification result before any final commit/push. The final audit commit preserves this deviation and the new validation transcript.
+
+## October20 12:53 ET — owed-work question
+Auditreport reports/2026-10-20_owed-work-and-gaps.md,KB498. Fourlegacyrepair/verificationitemsremain;sourcegaps,scheduledreleasesandgovernance-deferralskeptdistinct. Ninepreviousincomingdeliveriesremainprocessed;no newmail. No repair/threshold/tradeproposed. Lightcloseout;analyticalsurfacesintentionallyunchanged.
