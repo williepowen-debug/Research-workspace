@@ -1,0 +1,32 @@
+{
+  "scope": "Saved vendor data arithmetic, not independent price-source verification; offline bookmark fixtures only.",
+  "source_members_verified": 545,
+  "symbols_checked": 506,
+  "symbol_windows_checked": 1518,
+  "existing_L755_reproduced": {
+    "consumed_count": 500,
+    "id_499_consumed": false,
+    "scan_complete": true,
+    "pending": []
+  },
+  "interrupted_mark_receipt_gap": {
+    "consumed": [
+      "0"
+    ],
+    "pending": [],
+    "receipt": {
+      "kind": "fetched",
+      "checked_at": "2026-10-20T13:20:04Z",
+      "items": 0,
+      "scan": {
+        "checked_at": "2026-10-20T13:20:04Z",
+        "head_checked_at": "2026-10-20T13:20:04Z",
+        "head_checked_this_run": true,
+        "incomplete": false,
+        "attempts": 1
+      },
+      "review_recorded": false
+    },
+    "original_review_survives": true
+  }
+}
