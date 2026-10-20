@@ -93,7 +93,7 @@ LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9â€
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-20T20:29:12Z",
+  "as_of": "2026-10-20T20:34:45Z",
   "next_review": "2026-10-21",
   "publication": [
     {
@@ -107,6 +107,10 @@ LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9â€
     {
       "commit": "e6850afc0",
       "state": "published"
+    },
+    {
+      "commit": "4373f4566d535bc305adfe5860a1187427dfb4bc",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -185,7 +189,7 @@ LIGHT routing checkpoint.66of96reviewed;30remaining,50full/16partial. Batches9â€
     "Tier1": "newsourceknowledgequalified; boundedmetadatareaderfixverified; no freshmarketallclear",
     "Tier1.breadcrumb": "SESSION_LOG LIGHT entry; full narrative debt remains >=3deferrals, not cleared",
     "root.retirement": "priorLAST_COMPLETION preserved verbatim; no source/owner deletion",
-    "16": "Batch8published30dbc0907/e6850afc0;7deliveryrows reconciled. New9signals/29handoffs exact-path localpersistence,publicationdeferred foreigndirtytree.",
+    "16": "Batch8published30dbc0907/e6850afc0;7deliveryrows reconciled. New9signals/29handoffs exact-path localpersistence,publicationdeferred foreigndirtytree. Newsource4373f4566d535bc305adfe5860a1187427dfb4bc committed; postcommitreceiptPASS, sourcehashesretained.",
     "14": "MEMORYsessionnote updated;no auto-memory",
     "helpers": "3explicitCLOSEDreceipts",
     "7g": "SAMremainsNEW;no newconsumeclaim",
