@@ -1,0 +1,8 @@
+{
+  "target": "01a15626-abda-7862-89d6-c1fb8e9481ef",
+  "mechanism": "installed codex queue --thread --message",
+  "queue_message_id": "01a1567f-316c-7aa2-9cde-45eabe0a74bc",
+  "state": "queued-accepted",
+  "recipient_consumption": "UNKNOWN",
+  "artifact_commit": "96db4685e"
+}

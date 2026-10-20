@@ -1,0 +1,96 @@
+
+FILE AGENTS/ORACLE/STATUS.md
+# ORACLE STATUS
+
+**Live dashboard: prediction-market probabilities, divergences, alerts.**
+**10/16 DAILY PULL (Fri, PROME-spawned `prome-ac`, DOCKET L729 pull 1 of 11, WQ-314 (b) cadence).** Polymarket `pull --log` **2026-10-16T17:36Z** 53 rows rc=0 · Kalshi `pull --log` 17:39Z 11/11 (unsigned). **Supersedes the 10/15 figures below for the rows named here; everything else below is 10/15 or older.**
+- 🟡 **OIL v5 — OCT $110 LEG 20.5% (9.0 on 10/15), QUALIFIED (liq $34.8K, vol $125.6K). Band run = 3 (10/14 9.5 · 10/15 9.0 · 10/16 20.5) ⇒ ARMED, no Alert (needs 3 qualified reads ≥40.0).** WQ-314 (b) APPROVED 10/15 and now encoded on VX-ORC-04 (state 🟡: Watch Δ7d +10.5). Spot proxy CME CLZ26 $98.64 (`fetch.py` 17:37Z, +2.22%) ⇒ $110 is +11.5%. Kalshi Brent @Oct-30 `>$100.99` 73.0 (Δ +9). Ledger `workbook/V5_OCT110_READS.tsv`. Settlement text now verbatim in the letter §7.1. **Next read Mon 10/19.** Spread tool not run.
+- 🔴 **VX-ORC-07 (48h pairs, WQ-439 A encoded): Fed NO-change-at-Oct 66.0 → 86.5 (+20.5, 29h, liq $549.6K) = Critical.** Fed HIKE-at-Oct (PM, meeting-specific) **31.5 → 12.5** (liq $352.8K); Kalshi `KXFED-26OCT >4.00` **16.0** (Δprev −8). Dec-meeting hike PM 77.5. The 10/15 Alert 2 below is SUPERSEDED. → LIQUID packet sent · KB-ORC-105. VX-ORC-08 RETIRED as SPENT (WQ-440); successor proposal with PROME.
+- **Iran (PM, 17:36Z):** next senior meeting by 12/31 35.5 (liq $47.6K) · blockade-end by 3/31/27 58.5 ($96.6K) · ceasefire-through top leg (ends 10/17) 99.4 · invade <2027 15.5 ($74.4M vol).
+- ⚠️ **Bank failure any-by-Dec-31 84.5% (42.0 on 10/15) on a THIN $3.0K book — not marked.** WALTER's -013 "fourth failure" item was FALSE (-002 correction, COR-20261016-02 receipted NO-OP); the jump may be the same false item. ≥3-day re-check.
+
+**10/15 RECOVERY UPDATE (Thu, PROME-spawned WQ-436, `prome-73`, Opus, laptop `WilliePOwen`, Kalshi lane UNSIGNED: no creds on this box).** Pulls **2026-10-15T12:39Z** (pre-market): Polymarket `pull --log` 53 rows rc=0 · Kalshi `pull --log` 11/11 rc=0 (**unsigned public read**) · spread row +78.5pp. Event drill-ins 12:42Z (Iran ×3, 10Y, Oct CPI, best-asset, named banks) and spot via `fetch.py` 12:42Z. **Alerts 0–6 below were re-read and rewritten this session. The Signal Dashboard tables are still the 9/27 read: ⚠️ 18 days stale, do not cite.**
+**What the crashed session left (and what this one did with it).** Will launched session `0ce3f089` at 23:56 ET 10/14 on this laptop. Its last tool call was 00:03 ET and the machine died at 03:08 ET with nothing committed. On disk it left: (1) a `scripts/kalshi.py` change that reads UNSIGNED when no creds are present instead of dying at import; (2) both watchlists rolled from September to October pins; (3) appended log rows: ODDS_LOG +62 (50 @ 03:56Z + 12 @ 04:02Z), KALSHI_ODDS_LOG +25 (14 @ 03:57Z + 11 @ 04:02Z), spread +1 (+77.0pp @ 03:56Z). It did **not** touch this file. This session checked every residue file whole. Every appended row has its pull stamp and market id, and no row was deleted. September pins were retired with resolution records, not deleted, and each resolution was re-verified at Gamma (`closed=true`) or the Kalshi API. Code: `scripts/test_cred_modes.py` passes 13/13 offline in both modes and kills 4/4 mutants. Live unsigned runs of `status` (rc=3), `market`, `pull` and candlesticks all work. **Signed round-trip UNVERIFIED (desktop-only creds): run `kalshi.py status` → rc=0 at the next desktop boot.** One false residue claim was corrected: `watchlist.tsv` said the `bank failure` watch term had gone to WALTER, but no packet existed. It was sent this session. ⚠️ The 03:57Z Kalshi rows for FINALIZED markets (Sept CPI ×3, Sept U3 ×2, Brent Sep-30 ×2, Iran crude) log last-trade prints, not probabilities. This is the pull's standing behaviour.
+**Not run this session:** `history --write`, `coverage`, `movers`. The crashed session ran `movers` and `coverage --domain` (rc=0, output lost with its scratchpad), and its `history --write` never finished: `HISTORY.tsv` is still the 9/27 file. Coverage is still overdue (last completed ~9/22).
+
+> **Prices here are a LOG, not a live quote.** Never cite this file as the current price; re-pull. Every figure carries platform/date/volume. Thin books (<$5K liq) are flagged ⚠️ and never marked on one print.
+> All 10/15 figures are **2026-10-15T12:39Z** unless stamped. **"10/9"** = the 2026-10-09T14:26Z pull. Kalshi depth proxy = **open interest**.
+
+---
+
+## 🔴 Alerts (read first)
+
+**0. 🟠 10/15 MOVERS (one read each, NOT re-graded; → PROME triage under the >10pp/48h rule, basis caveat below).** ① **Fed October hike jumped around the September CPI print:** PM hike-25 CLOB path (3h bars) 18.5 (10/14 12:00Z) → **39.5** (15:00Z) → 23.5 (10/15 03:00Z) → 27.5 (12:00Z); Gamma reads **31.5** at 12:39Z ($9.6M vol / $119.5K liq). Attribution to the 08:30 ET print is INFERRED from timing only. Over 48h: **+9pp on the CLOB series** (18.5 @ 10/13 12:00Z → 27.5); Gamma's 31.5 against the same 10/13 print is +13, a mixed basis. ⚠️ **Whether this crosses VX-ORC-07's >10pp/48h line depends on the basis.** No ORACLE command produces a 48h move; that question is DAEDALUS ⑰ item 2, now with Will via PROME. ② **Iran talks odds collapsed across the dark gap:** next senior meeting by 12/31 **37.5** (9/27: 77.5; $179.4K vol / $57.3K liq). The move is undated inside the 9/28→10/15 gap. ③ 10Y-before-2027 5.4% rung 33.0 (Δ7d −41.5, ⚠️ $1.7K liq).
+
+**1. 🟠 A US "ANY BANK FAILS BY DEC 31" MARKET EXISTS AGAIN (relisted 9/28); IT IS THIN.**
+PM `us-bank-failure-by-december-31-2026-20260928` (Gamma id 5100024, created 2026-09-28T23:24Z, window = creation → 12/31 11:59 PM ET, FDIC Failed Bank List): **42.0%** (Δ7d −13.5) · **$2.2K lifetime vol / $470 liq ⚠️ thin**, never marked on one print. The relist came ~2.9 days after Nano Banc resolved its predecessor (9/26T01:12Z). Pinned 10/15 by the crashed session; the price was verified live this session. The `bank failure` watch term went to WALTER today (`AGENTS/WALTER/inbox/2026-10-15_from-ORACLE_bank-failure-watch-term.md`). Named-bank EOY ($83.1K event): top **Santander 4.9%** (⚠️ $369 liq), JPM 3.8, Citi 3.4, so no move outside noise. Bailout <2027 6.5 (⚠️ $426 liq). The priced-below-base-rate read (KB-ORC-101) stands untested. → REGINALD · VX-ORC-01
+
+**2. 🟠 FED: THE OCTOBER HIKE IS BACK TO ~30% ON BOTH VENUES (it was ~16% on 10/9); DECEMBER STAYS THE LIVE MEETING.**
+October: PM hike-25 **31.5** Gamma / 27.5 CLOB (10/9: 15.5) · no-change 66.0 ($12.3M / $169.4K liq) · Kalshi `KXFED-26OCT >4.00` **29.0** (10/9: 18.0; OI 74.5K, 2¢) ⇒ venues within 2.5pp. December: PM Dec-meeting hike **78.5** ($119.4K liq) · Kalshi `KXFED-26DEC >4.00` **87.0** (cumulative ≥1 more hike by Dec; OI 17.7K, 3¢; pinned 10/15) · `>4.25` **25.0** (OI 25.8K, ⚠️ 5¢). Another hike in 2026: PM 85.5. No cuts 2026: PM 96.9. ⚠️ **ORACLE sent LIQUID 15.5/18.0 on 10/9. Those figures are superseded by this read.** → LIQUID, HENRY, BOND · KB-ORC-103 (10/9 basis)
+
+**3. ✅ SEPTEMBER CPI PRINTED 3.7% YoY, ONE NOTCH ABOVE THE CROWD'S MODE.**
+Kalshi `KXCPIYOY-26SEP` finalized with **expiration_value 3.7**: `>3.5` YES · `>3.6` YES · `>3.7` NO (verified at the API 10/15). PM's 3.7% leg resolved 100. At ORACLE's last pre-print read (10/9 14:26Z, last-trade basis) Kalshi had `>3.5` 88 · `>3.6` 39 · `>3.7` 9 ⇒ P(3.6) ≈ 49 · **P(3.7) ≈ 30** · P(≥3.8) ≈ 9, and PM's modal leg was 3.6% at 47.0 (⚠️ $1.9K liq). The print landed on the crowd's second-most-likely outcome; this is a calibration datum, not a shock. October CPI (prints ~mid-Nov): PM modal **3.7% 61.0** ($7.8K event; ⚠️ every rung <$1.3K liq). `KXCPIYOY-26OCT` has **0 markets** (12:4xZ), so cite Kalshi once it lists. → HENRY, LIQUID, BOND, LABOR · KB-ORC-085
+
+FILE AGENTS/OSPREY/STATUS.md
+# OSPREY STATUS
+**Last Updated:** 2026-10-18 (Sun) 17:54 ET (from `date`): osprey-1018, PROME prome-65 Tier-1 spawn (WQ-184: GATE-OSPREY-001 review_by + DOCKET L661 read-1 fix + L0 inbox drain 2/2). **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live 5) / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
+**Evidence:** KB-OSPREY-204…206 · `workbook/WARRISK.tsv` (+1 LEAD row, data clock NOT advanced) · `scripts/tests/ACCEPTANCE_L661_strike_feed_read3_residue.md` § READ-1 FIX · `STRIKES.tsv` untouched (mark stays 10/11).
+
+## ACTIVE — 2026-10-18 (GATE-OSPREY-001 graded · L661 read-1 fix · inbox 2/2 · no mark, band or threshold moved)
+1. **GATE-OSPREY-001 GRADED at its review_by: LIVE, no leg newly fired, NO Channel-2 upgrade, no BRENT route.** (KB-204/205)
+   - **(a) CPC SPM structural damage confirmed by assessment: NOT FIRED.** Window 9/18→10/18. No SPM-damage report located (EN+RU). Reuters 10/13 (via Baird Maritime): CPC throughput 6.0 Mt (1.59 M bpd) in September vs 6.28 Mt in August, the drop put on Karachaganak maintenance; no terminal or SPM damage reported. ⚠️ **Absence-based this time** — unlike 9/18 no assessment ran (none was called for); cpc.ru press pages 404, operator primary NOT read.
+   - **(b) FIRED 7/24, stays fired.**
+   - **(c) Tengiz force majeure: NOT FIRED.** TCO's own news index (10 items 8/19→10/16) mentions no FM, halt or suspension; Reuters 10/13 mentions none. SEARCH-NOT-FOUND, not VERIFIED-absent (index read to 100k of 305k chars).
+   - **Next review_by 2026-11-18** (30 days), or at once on any CPC terminal strike or SPM incident. PROME transcribes; I do not edit GATES.
+2. **`strike_feed.py` L661 read-1 ❌1 FIXED — IMPLEMENTED + TESTED, NOT independently verified.** Leftmost window wins: a later two-year date pair in the anchor text can no longer make a stale bulletin read fresh (CX-A now `BULLETIN_STALE`, NOT_READ 1). Acceptance first `31053d1f6`, fix `7299a2e39`. 64 tests OK (8 new); 3 F on the pre-fix code, 16 F on the released code; read-1 mutants MR2/MR4/MR5/MR7 caught. ⚠️1 declared (pinned), ⚠️2 pinned, ⚠️3 residue list now non-exhaustive (+CX-D2, CX-E), ⚠️4 "~7 days". **Unattended feed run UNAVAILABLE on either version until read 2** (PROME 10/16 as corrected); PROME commissions read 2.
+3. **War-risk: Lukoil-Bulgaria executive says Black Sea tanker cover rose ~$200K → ~$2.5M per vessel** (BNT, reported ~10/13). **Admissible as a dated claim, NOT a rate print** — one interested source, no broker primary, a different metric (USD per vessel). WARRISK LEAD row; data clock stays 9/18. Input to the C3 limb-2 canvass before 10/27 (HAWK grades). The 10/6 and 10/13 Bulgarian-coast incidents it cites are rowed and Russia-attributed (C3-excluded). (KB-206)
+4. **L666 / L718 — nothing new; not graded early.** Palaemon 12–18 Oct still NOT posted (index read 10/18 ~17:5x ET); Azov 10/10 hulls stay unidentified. One name-free refinery query found no refinery row after Ryazan 10/15 (not a sweep; mark stays 10/11). L718 (10/23): leg A still cannot be met before 10/29.
+5. **Inbox 2/2 drained** (census 0/0): PROME L661 packet + SIG-W-20261016-032.
+
+## ACTIVE — 2026-10-16 (L661 strike_feed residue · inbox 5/5 · no mark, band or threshold moved)
+1. **Ryazan refinery hit overnight 10/14–15 — the first refinery strike after the pause; NEW C1 anchor.** (KB-200, `RU-20261015-RYAZAN`)
+   - Governor Malkov (via Moscow Times 10/15): a major Ukrainian drone attack set the refinery on fire; *"The material damage is now being assessed."* Halt not established; +5d re-read owed.
+   - **Read at the ledger:** C1 kill clock **1/30**. The §1b 14-day leg cannot be met before **10/29** (was 10/23). **L718 (10/23) is not graded early**; its own letter says any refinery row resets leg A.
+   - ⚠️ **The 10/15 session missed it** ("no post-resumption strike found to ~08:30 ET"), although Reuters carried it from ~03:47 ET. The WALTER handoff caught it. 10/12–10/15 was swept, not certified, so no certification is false; the miss is real.
+2. **The 10/11 "energy ceasefire" is TERMINATED in practice and was never in force** (KB-201). Zelensky to the FT 10/15: *"The block is out. We're done."* Peskov 10/15: Kyiv never complied. §2: no ceasefire in force. The Energy Intelligence "diesel ban lifted" headline is superseded at primary (partial permission, KB-198).
+3. **Surgut condensate plant 10/16, graded:** event confirmed (governor: fire at an industrial facility after drones); identity probable (OSINT and residents name the Surgut ZSK, Gazprom); attribution inferred; damage unknown. **Not refinery-class** (OWED-46 open). (KB-202)
+4. **Sberbank Balakovo data centre 10/14** = a non-energy target class, out of every count. It is the data-centre element of the Saratov 10/14 row; the "energy facility" there is still unidentified. (KB-203)
+5. **`strike_feed.py` — DOCKET L661 (READ-3 residue, new episode): IMPLEMENTED and TESTED, NOT independently verified.** Four new doubt tells: out-of-date-order links below the followed bulletin; a featured duplicate keeps its list position; a title/slug disagreement over 180 days; the two-year window form parses. The single-date note no longer claims a window END. 56 tests OK; 11 fail on the released code; 15 mutants caught. Three cases are still silent (declared in the acceptance file and the feed README). Live index 10/16: newest 5–11 Oct, 0 doubts. Acceptance `e5fe3a692`, fix `48342e63a`. PROME commissions the read.
+6. **GATE-OSPREY-001 review was due Sun 10/18 — ✅ GRADED 10/18 (ACTIVE 2026-10-18 item 1).** Evidence held (10/15): no CPC halt reported; the RIO spill reached the CPC SPM area (a spill, not structural damage); no Tengiz force majeure seen. That is not a dated canvass, so it is not a grade.
+7. **Inbox 5/5 drained** (census 0/0). `strike_feed.py` NOT run live (a bounded spawn, not a sweep); mark stays 10/11.
+
+## ACTIVE — 2026-10-15 — ROTATED VERBATIM → `archive/STATUS_ROTATED_2026-10-16.md` (crc32 635854654)
+L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) · OSP-06 CONFIRMED (KB-197) · energy-strike pause 10/11–10/14, lifted 10/15 (KB-195) · ledger mark 10/07 → 10/11 BOUNDED (KB-193) · diesel: a partial permission, not a lift (KB-198) · inbox 28/28. Live items carried in the dashboard and the OWED register.
+
+
+FILE AGENTS/OTTO/STATUS.md
+# OTTO STATUS
+
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding 🟢 7/4 · bank contagion 🟠 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-19 EDT (s030, existing L708 commission)
+
+> **📌 Session 030 (Oct 19 — L708 attribution).** **NO_INSTRUMENT**, strict n=0: no two verified corporate B/CCC bond + in-window ICE membership + daily-data joins. Frozen Enova/Carvana supplementary equities = MIXED in both windows, no attribution support; not proof of absence. Result: `research/2026-10-19_L708/VERDICT.md`. CRMT seventh bridge consumed from BROCK (through 10/22); CARL seasoning repair verified, BLAST computed clock labelled in `workbook/PANEL_10D_SCHEMA.md`. Convergence remains `4+5+5+4+2+2+1+3+4+3 = 33/50`; no local colour, prediction or threshold moved.
+> - **OWED next:** Sept SDART/BLAST + M&T Wilmington read pending 10/20 (missed 10/15–16; bounded commission took priority) · BlackRock confer outcome pending 10/21 · Ally 10/20 · OTTO-07 10/21 · THESIS v1.6 by 10/30. L708 durable packets to NEXUS/PROME; recipient consumption unverified. Push held by Will/PROME.
+> **📌 Cold half:** settled reasoning, resolved predictions, per-vector narrative and old pointers, verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §1–15 (not a boot read; hot STATUS wins on any disagreement).
+
+---
+
+## THESIS
+
+> **Canonical thesis: [`thesis/THESIS.md`](thesis/THESIS.md) v1.5 (2026-08-27).** This block mirrors case status and validation tags only; framing, mechanism, conviction decomposition and risk matrix live there.
+
+**Primary — "The Cockroach":** when you find one fraud, there are more. **4 confirmed cases** (Tricolor / First Brands / MFS / PrimaLend) + 1 alleged carve-out (Carvana). 🔴 **HIGH conviction** on pattern + **fraud-recovery magnitude**. ⚠ **Both systemic-transmission legs are DISCONFIRMED: funding (Jul 4 — BBB spreads tightened, issuance robust) and bank contagion (Aug 14 — OTTO-30 FALSIFIED, zero new US bank names).** Pattern + recovery magnitude stand (THESIS v1.3+).
+
+**Secondary — "The Invisible Exit":** immigrant subprime skip-defaults bypassing the 30→60→90 DQ chain. **Two convictions, never quoted as one (split 8/14):** (a) **at Tricolor: HIGH** — criminally charged Jun 24 (*"manipulated delinquent loan data to make non-performing loans appear current"*), cooperator-corroborated, 30K missing vehicles; (b) **general deep-subprime: LOW** — the SDT REFUTED it on first run (DQ +1.85pp vs severity +0.06pp). Next SDT ~11/15; a second REFUTE ⇒ cut (a)'s load-bearing role, do not narrow again.
+
+**Carvana sub-thesis (carved out):** related-party allegation only; LOWER conviction (GT retained 5/5, no DOJ action). Not in the confirmed-case count.
+
+| Case | Type | Live status |
+|------|------|------|
+| Tricolor | Double-pledging + skip | ~3% recovery; $113M gridlock; superseding 8-count indictment 6/24 (§225); COO Goodgame guilty + cooperating; **trial 1/25/27** (Chu only) |
+| First Brands | Invoice fab + Ponzi | 🔴🔴 **Ch.7 — order ENTERED 9/1 (Dkt 3748)** `[CONF, read 9/30]`; trustee **Eva S. Engelhart**; admin expenses > estate value; DIP 22.8¢ (BROCK); criminal trial **2/9/27** (US v. James) |
+| MFS (UK) | Double-pledging | CONFIRMED Feb 26 — Barclays + Atlas SP/Apollo £2B+ |
+| PrimaLend | BVY2 fraud | Plan confirmed Feb 2026 |
+| *Carvana (alleged)* | Related-party | No new short report, no GT resignation. Collateral read (8/27): BLAST 2024-1 60+ DQ 15.30, extensions LOW ⇒ not-masking holds. Price: fetch live (8/27 row → `STATUS_COLD.md` §11) |
+
+---
+

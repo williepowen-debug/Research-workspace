@@ -1,0 +1,128 @@
+
+FILE AGENTS/HANS/STATUS.md
+# HANS STATUS.md
+**Updated:** 2026-10-09 (Fri) — **hans-1009b (PROME Tier-1 follow-up): ECB 10/8 bidders = 3; 10/01 tops.csv history claim CORRECTED; doc_audit C2 recurrence fixed; READS attested.** Earlier: **hans-1009, PROME Tier-1 wake (DOCKET L637, C6): ARMED RULE APPLIED — `T-13` and `T-06` NOT-FIRED 2026-10-08** (TE 10/8 closes 30Y 5.9384 / 10Y 5.4238; CNBC 5.9972 / 5.4852 — every basis under) · whole inbox drained (5 + 26, every sender) · LIQUID floor AGREED · READS declared · Budget date fixed fleet-side of this desk · L546 float-tie fixed. *Prior headers → `workbook/STATUS_ROTATED_2026-10-09.md`.*
+**Boot:** rc1 (attention) · R1 corrections **rc=0** after 6 receipts (WQ-399 form) · mail lanes processed (L0 drain). I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
+
+---
+
+## 🔴 CARRY FORWARD — the live consequences through **10/09**. **Narrative → `SESSION_LOG.md`** · verbatim → `workbook/`
+
+**Conclusions that change the next session's actions.** The how is in `SESSION_LOG.md`.
+
+- 🔴 **10/09 (hans-1009) — `T-13` UK 30Y NOT-FIRED 10/08: TE close 5.9384, 6.2bp under >6.00; CNBC London-close basis 5.9972, 0.3bp under.** ⚠️ TE snaps its close AFTER the 16:30 BST London close — the fall from ~5.99 to 5.938 came after it; **on the London-close basis 10/8 missed by 0.3bp.** Four intraday touches, no close through (10/01 6.029 · 10/07 6.036 · 10/08 6.047). **10/9 LIVE (not a close): 5.954, ~4.6bp under — still contested into the 10/28 Budget (gov.uk).** `T-06` UK 10Y NOT-FIRED 10/08: TE 5.4238 (7.6bp under), CNBC 5.4852; 10/9 live 5.445. → `PROME/inbox/processed/2026-10-09_from-HANS_armed-rule-grade-t13-t06.md`
+
+- 🟠 **10/09 (hans-1009b) — swap-line letter legs [HANS]: ECB USD op `20260089` (settled 10/08) $205mn · 3 bidders · 4.13% · 7-day — quiet** (per-tender page + `tops.csv`, read 14:56Z). ❌ **My 10/01 "USD history only from 2022-11, March 2020 unreachable" was FALSE** — `tops.csv` holds 1,179 USD ops from 2007-12; `bidders ≥8` FIRED 2020-03-18 (22/44) and at 12 other pre-2022 ops (mostly year-ends), 0 since 2022. No threshold moved (letter = WQ-398). Corrected at `research/2026-10-01_T12_…` banner; → LIQUID, PROME.
+
+- 🔴 **10/02 rulings still live (verbatim → `workbook/STATUS_ROTATED_2026-10-09.md`):** `T-16` flash 2.5% AT watch line — **FINAL + sustain-2 letter**; Sept final ~10/17 is the first candidate print · `T-15` leg (b) not evaluable until that final (m/m basis) · **`T-04` NOT-MET and the catalyst moved OUT: Reuters poll (73) — 70 see a HOLD 10/29, 64 see +25bp in DECEMBER** (via WALTER `-022`, 10/8); ECB September account: "all members", long-end rise "orderly" · UK energy cap +16% Jan-27, NL storage-mandate scrap — carry only.
+
+- 🔴 **`T-10` FIRED 9/24 (`HANS-F-006`), MET-OPEN 139.8bp / 4.90 [i-i 10/08]**; EXIT spread <90 AND OAT <4.40 ×5 i-i sessions, clock **0/5**. Not France-only (10/01 periphery-wide read HOLDS). ⛔ **"Japanese fund (SMDS) dumped ALL OATs" (WALTER `-1003-019`) — NOT CARRIED:** crypto-account relays only, no fund/wire primary; the 10/1 OAT auction drew ~2× cover. `T-07` graded on the NAMED contract (`TTFX26.NYM`, exp 10/29); X/Z expiries re-verify by 10/26 (owed #26). → `KB-HANS-097` · `100` · `101` · `103`
+
+- 🔴 **`T-14`'s SILENCE MEANS LESS THAN IT LOOKS.** ESRB `report202602` read at primary 9/19: identified bank exposure to private equity/private credit is **€4bn**, which the report calls *"far below the figures implied by supervisory intelligence"* before **dropping the class from its analysis**; leverage there *"cannot be computed from existing data"* and the non-EU gap is *"likely to remain"* after reform. **`T-14` is NOT fired and this does not fire it** — but leg (b) waits for a supervisor to NAME institutions, which is downstream of that supervisor being able to SEE the exposure. **Band unchanged, deliberately not re-tuned.** → `KB-HANS-090`–`092`, `ML-HANS-464`
+- 🔑 **`HNS-09` keeps 70% on a NEW BASIS:** euro-area banks are aggregate **NET DEBTORS** to NBFI (~15% of balance sheets) where US banks are net lenders ⇒ **FUNDING is the dominant euro-area route.** ⛔ **It does NOT bound the credit channel.** Funding withdrawal and credit losses **co-occur** — the same counterparty stress drives both — and a net position says nothing about GROSS exposure: the report puts asset-side NBFI exposure at **~10% of SI assets, ~a quarter to potentially leveraged entities**. ⚠️ **Two perimeters never merged:** FSR **€62.5bn drawn** ≠ ESRB **€4bn identified**. ⛔ **Not claiming the exposure is larger — it is unquantifiable.**
+- ⛔ **THE STORAGE GAP MOVED −19.7 → −15.99pp AND THAT IS A BASIS CORRECTION, NOT A RECOVERY** (~80% denominator: norm 88.0 → an AGSI-native 85.05; fill moved +0.76pp). **`HANS-F-004` STAYS OPEN**, 1.0pp inside its band. **Anyone reading the direction as good news is reading it wrong.** → `KB-HANS-094`
+- 🔴 **AGSI: a REJECTED KEY RETURNS HTTP 200 + AN EMPTY ARRAY**, identical to an unpublished gas day; with an AGSI-native norm a dead key blinds **both legs**. `fetch_eu` discriminates (KEY REJECTED / no-data / BLIND); **quirk-dependent, re-check 2026-12-19** (owed #22). → `KB-HANS-095`
+- ⚠️ **`VX-HANS-5.01` held EURO STOXX 50 against SX7E bands for 3 weeks** — could not fire; C10/C11 both passed. Now **SX7E 313.44**. **GREEN there is a weak negative, not corroboration.** LEVEL two-source; 52-wk range/YTD single **secondary**. → `KB-HANS-093`, `ML-HANS-465`
+- 🟡 **10/01 post-delivery (dated, sourced):** LIQUID read T-10 at its side and found no US-funding transmission (its figures: SOFR99−IORB +9bp, SRF $1.2bn [9/30]; `ef013f618`). The EUR basis is unmeasured on both desks. DEWEY DR-4 re-run is registered **DOCKET L566 for 10/12**, so HNS-07 rule (b) is deferred and the mark stays 65%. **DOCKET L549 RESOLVED** by PROME (WQ-317 delivered; read corrected to periphery-wide). **T-12: ONE joint letter, PENDING Will, NOT registered.** PROME ruled LIQUID owns USAGE (`usd_swapline.py`); HANS keeps bidders ≥8 + daily-ops/tenor legs; my $1.5bn line withdrawn → `research/2026-10-01_T12_…`
+- ⚠️ **STANDING PRIOR, TEN sessions: every defect is found from OUTSIDE or by a script, never by re-reading.** 10/01: WALTER `-009` caught the Bund-leg error.
+
+## ENERGY — STORAGE RE-WIDENED THROUGH THE BAND. **Full block** → `workbook/2026-09-18_SESSION1_ENERGY_ECB_READS.md`
+
+| Metric | Latest | Ladder / band | Source ✓ |
+|---|---|---|---|
+
+FILE AGENTS/HAWK/STATUS.md
+# HAWK STATUS
+**Last Updated:** 2026-10-10 Sat 12:53 ET (`date` read 12:52:16 immediately before the write; an earlier typed "13:0x" was ahead of the clock and is corrected here). **L0 DRAIN after 12 dark days** (last session 9/28; PROME `prome-ce` Tier 1, DOCKET L669; session hawk-1010, Claude Code, model Opus 5.5). **Basis: the Fri 10/9 close.** Vendor last trade read Sat 12:4x ET via `fetch.py`: Brent front month **$104.72 (+0.42%)**, contract identity UNKNOWN by name-cut; WTI Nov (CLX26) **$91.85 (+0.39%)**. BRENT owns price. **$0. No mark, band, threshold, score or prediction letter moved.**
+
+**Drain receipt:**
+- **Inbox drained whole:** 7 top-level packets, 66 WALTER-lane signals and 3 BOARD info-lane signals found by ID-diff. Lane dispositions: 12 acted / 38 noted / 16 info-only; the 3 BOARD rows: 2 noted / 1 info-only.
+- **6 named corrections receipted** in the WQ-399 form (corrections check rc 0); details in `board_log.tsv` and `registry/corrections_receipts.tsv`.
+- ⛔ **Late, stated:** WALTER SIG-W-20261004-014 (ACTION, *"before Monday's open"*, 10/05) **lapsed unanswered while this desk was dark.** It is answered late here and in KB-HAWK-434.
+
+**What changed while dark (synthesis; owners in brackets):**
+1. **Gulf: the threat moved upstream and inside the Gulf.**
+   - The Saudi transport chain is REPORTED recovered. Petroline has three flow estimates, never averaged: ~3.5 (Bloomberg 9/28), ~5.5 (Argus 10/01) and the minister's "5.8" (10/06, no daily unit).
+   - **Yanbu port was struck 10/01** (temporary terminal-wide suspension, Vanguard).
+   - Houthi spokesman Saree (10/08) told staff at ALL Saudi oil facilities to leave target areas.
+   - **Shedgum gas plant burning since 10/09** and north-Ghawar upstream heat on 10/10. Cause is UNVERIFIED and FIRMS never counts [FALCON].
+   - **The hull war moved west of the Strait:** off Qatar 10/07 and off RAK 10/09; the IRGC threatens ships outside the Strait [FALCON].
+   - FALCON holds B1/C14/D85, losses 3. KB-HAWK-434.
+2. **Iran diplomacy: my 9/28 "rejection stands" read is RETIRED.**
+   - The US reply was handed over in Doha 9/29 and Iran is amending via mediators; the state is a mediated exchange with no framework.
+   - Trump (10/08): no attack before the 11/3 midterms. That is tape, not a decision record, and a three-day strike option is reported drafted. KB-HAWK-431.
+3. **Russia: refinery strikes continued through the US–Russia diesel deal** [OSPREY].
+   - Volgograd fully halted 10/02; Omsk, Salavat, Ukhta and the Rostov products terminal were also hit. Capacity, not barrels.
+   - OSPREY C2 was KILLED 10/09 (dormant-armed). C3 reset to AFRAMAX RIO 10/06.
+4. **Sanctions coalition is diverging by jurisdiction AND product.**
+   - US OFAC GL 135 (10/09) licenses Russian diesel to 2027-04-07.
+   - The UK designated 8 ships on 10/01 and 38 targets including Zarubezhneft on 10/08; the EU 22nd package was agreed 10/07.
+   - The US tightened on Iran the same week (17 vessels). KB-HAWK-429/433.
+5. **NATO: Russia's Kaliningrad nuclear non-paper (9/30) moves no EURMIL rung; ORANGE holds.** KB-HAWK-430.
+
+**Answers delivered to siblings** (packet `AGENTS/OSPREY/inbox/2026-10-10_from-HAWK_c3-limb2-undetermined-gl135-partly-supported.md`):
+- **OSPREY C3 limb 2 for the 10/06 window = UNDETERMINED.** No in-window insurer/P&I act or print is held, and the 9/21 REPRICED grade is pre-window (KB-HAWK-428).
+
+FILE AGENTS/HENRY/STATUS.md
+# HENRY STATUS
+
+**Last owner update:** 2026-10-08T08:25:29-04:00 — PROME WQ-389 due-row wake (`prome-fc`, Tier 1). **DOCKET L612 graded:** September ISM Services first print, HEN-48–56 → ranges **5/6 HIT** (business activity MISS), directions **2/3 HIT** (headline >55.4 MISS). Fresh pre-open gamma board: **POSITIVE at both horizons**, flip ~7,746–7,750. Whole inbox drained (19 logged). $0; no letter, threshold, score or capital line moved.
+**Superseded blocks** (10/4 adoption block, 10/2 gamma boards, RSP week-7 detail, Sep NFP, 10/2 GAPS/BOTTOM LINE) → `STATUS_COLD.md` §ROT-10/8, verbatim.
+
+## SEPTEMBER ISM SERVICES — GRADED (DOCKET L612) · detail `research/2026-10-08_ISM-services-september-grade/GRADE.md`
+
+| Release | Actual (first print, 10/5 10:00 ET) | Consensus | Prior (Aug) | Market reaction | Thesis implication |
+|---|---|---|---|---|---|
+| Services PMI | **54.9** | 55.0 / 55.2 / 55.7 by source (secondary, unreconciled) | 55.4 | ~1bp 10Y dip + SPX −0.08% at 10:00, both round-tripped by 10:30; day: 10Y +3bp, SPX +0.66% | Soft on VOLUME, firm on HIRING, hot on COSTS — a stagflation-leaning mix |
+| Activity · Orders | **56.5** (−5.2) · **59.8** (−1.1) | — | 61.7 · 60.9 | — | The miss sits here |
+| Employment | **50.1** (+2.3, first expansion in 3 months) | — | 47.8 | — | Weakens the soft-labor path read taken from NFP +29K |
+| Prices | **74.0** (+1.4; highest since Jul-2022 74.5) | — | 72.6 | — | Premium/inflation side: with Mfg Prices 77.9 [Sep], both surveys >70 |
+| Deliveries | **53.2** · Export orders 46.9 (−9.4) | — | 51.3 · 56.3 | — | — |
+
+**Source:** ISM's own report PDF `rain202609svcs.pdf` (sha256 `a953539c…`, metadata ModDate 2026-09-30, pre-release), corroborated by investingLive at 10:04 EDT 10/5. The ISM HTML page was reCAPTCHA-walled. KB `ML-HEN-177`.
+
+| ID | Claim | Grade | Err |
+|---|---|---|---|
+| HEN-48 · 49 · 50 | headline [54,58] · employment [47,52] · prices [70,78] | ✅ HIT · ✅ HIT · ✅ HIT | −1.1 · +0.6 · 0.0 |
+| HEN-51 · 52 · 53 | activity [58,64] · orders [58,65] · deliveries [50,55] | ❌ **MISS** · ✅ HIT · ✅ HIT | −4.5 · −1.7 · +1.2 |
+| HEN-54 · 55 · 56 | headline >55.4 · employment >47.8 · prices ≥70 | ❌ **MISS** · ✅ HIT · ✅ HIT | −0.5 · +2.3 · +4.0 margin |
+
+- **L612 adoption outcome:** adoption was **prospective** (declared 10/4 20:52:57 EDT, commit `2bb57dddb` 21:20:09, ~13h pre-release), so the no-retroactive-adoption clause was **not engaged**. The market map was **never registered** and is not graded; the reaction above is observation only.
+- ⚠️ **Graded ~64h after the CHOSEN 10/5 16:00 deadline.** This is disclosed, not silently extended. The release was published inside the window, and none of the letter's NO-VERDICT conditions hold. **But under an evaluator-timing reading of the review's sentence, all nine rows are NO-VERDICT** (GRADE.md §4). That reading is open for PROME/a reader to rule.
+- ⚠️ **5/6 is weak skill evidence:** the ranges were 4–8 points wide and would have contained 17/24 of the prior four months' cells. The informative outcomes are the activity MISS, which also decided HEN-54, and the employment-direction HIT.
+
+## GEX / GAMMA — PRE-OPEN 10/8 08:18 ET (OI = 10/7 EOD; spot = 10/7 close)
+
+`HENRY 2026-10-08 pre-open: flip ~7,750 (14d, 4,141 contracts) / ~7,746 (35d, 7,307 contracts), src=CBOE; spot 7,801.77 [^GSPC 10/7 close] → +52/+56pt ABOVE at both. Sign POSITIVE at both horizons; Net GEX +$42.0B / +$50.8B per 1%. Walls WITHHELD.`
+
+FILE AGENTS/HOMER/STATUS.md
+# HOMER STATUS — HOT SURFACE
+
+*Promoted from CARL sub-agent 2026-07-12 (Will-directed).*
+
+> ⚠️ Rotated 2026-09-14 — pre-rotation file preserved byte-for-byte at `archive/STATUS_2026-09-14_pre-catchup-VERBATIM.md`. Evidence lives in `workbook/` (the record); `STATUS_COLD.md` FROZEN 9/2 (**this file wins**). The 9/14 BOTTOM LINE's full synthesis → `reports/2026-09-14_three-week-catchup-release-ledger.md`.
+> ⛔ **VALUES + BANDS + OBLIGATIONS ONLY.** Target: `read_cap_check.py` <70% of budget (22,785 B).
+
+---
+
+## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
+
+✅ **10/19 — L725:** October HMI integrated; spread recomputed; Texas auction report inspected with source gaps. Evidence and dispositions → `reports/2026-10-19_morning-L725.md`. Independent Will-launched Codex terminal; local persistence, PROME coordinates push.
+✅ **10/15 PM — L722 FULL CATCH-UP (PROME Tier-1 wake; Will's 10/14 ask).** Pulled at issuer: Trepp Sept DQ + SS (PDFs) · PMMS 10/08 + 10/15 · NAR EHS Sept · ICE Mortgage Monitor Oct · FMHPI Aug · Realtor.com Sept · Redfin Sept (gap + monthly) · MBA wk 10/2 + 10/9 · MND. **NOT OUT at 10/15 noon:** NAHB Oct (Mon 10/19) · ICE First Look Sept (~10/22–28) · ATTOM Sept/Q3. **NOT PULLED:** TX Oct auction list. ⛔ **Trepp MF mat-adj DATED KILL EXECUTED** (absent at source 3 months; successor MF SS).
+⚠️ **10/15 AM (WQ-436 crash recovery):** residue committed, no data refreshed → `archive/STATUS_bottom_line_2026-10-15-AM.md`.
+✅ **10/02 (Tier-2 bounded spawn):** PMMS 10/01 7.28% graded HOLD; CREED MF relay triaged.
+⚠️ **YEAR TRAP, now n=4 on this desk:** verify the page's publication YEAR, not just the month.
+
+---
+
+## SIGNAL DASHBOARD — LIVE VALUES ONLY
+*Evidence, provenance, superseded figures → `workbook/`. Bands → `CLAUDE.md`.*
+
+> ⚠️⚠️ **BAND RULE: report the highest UNCROSSED rung and the distance to it.** **THREE rows now have NO uncrossed rung (30-Yr PMMS, Freddie MF, Existing Home Sales)** — report the distance ABOVE the top and say the ladder carries no information upward. ⛔ Instruments grading NOTHING → §C.
+
+### Foreclosure Pipeline
+| Metric | Value (as of) | Band |
+|---|---|---|
+| **★★ ICE national DQ** | **3.53% AUG, +14bps MoM (ICE: calendar effect, ~flat underlying)**, +10bps YoY; 30+ +81K MoM · Jul 3.39% | 🟡 **inflow — July's improvement did not extend** |
+| **⚠️⚠️ ICE CURE RATE (the band's NATIVE basis)** | **AUGUST: all-loans YoY % NOT PRINTED by ICE (Oct edition, pub 10/05) ⇒ UNGRADED.** Level **7.8%** (Jul 8.0%, a 9-mo high). Chart-derived −25 to −29% YoY = INFERRED, not ICE's, not used to grade. **FHA −37% YoY** (Jul −39%). New defaults: FHA −15% YoY, **GSE +18%** (largest in 19 mo), VA +23% | 🟡 **last graded YELLOW (Jul −28%)**; no evidence of an ORANGE (<−30%) cross. ⛔ the First Look MoM count never grades this band |
+| **ATTOM AUGUST monthly (pub 9/17, found 9/29)** | **REO +42% YoY (+22% MoM)**; filings +13%, starts +7% YoY — an observation, not the band basis; ATTOM: volumes 'well below historical norms' | 🔴 conversion |

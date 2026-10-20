@@ -1,0 +1,128 @@
+
+FILE AGENTS/FALCON/STATUS.md
+# FALCON STATUS
+
+**Last updated:** 2026-10-14 ~22:0x ET (Will-launched boot, *"catch up on recent news"*; PROME `prome-8e` named the three owed reviews at 21:35 ET). Runtime Claude Code, model Opus (`claude-opus-5-5`), desktop. Read: [10/14 review report](reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md) + PROME memo `PROME/inbox/2026-10-14_from-FALCON_weekly-review-losses-ratchet-gate001.md`. *Prior:* 2026-10-10 ~12:2x ET (`falcon-1010b`); rotated header and table → [archive 10/14](domain/sources/STATUS_archive_2026-10-14_rotation.md).
+**Decision read (10/14):** **Marks HELD B 1 / C 14 / D 85 at the 7-day review — but two things lit.** ① **Ship losses 3 → 5:** GFS PRIDE (container ship) sank 10/13 in Hormuz (Singapore MPA, IMO) and CAPE DAO (bulker, struck 9/23) is "Sunk" on the IMO table — both **class (ii)** ⇒ same-day re-mark proposal to PROME ⇒ **RULED HOLD (WQ-431, Will 2026-10-14 22:01 ET, verbatim "Approve 431, 432 and 433"; record `PROME/proposals/2026-10-14_wq431-433-RULED.md`)**, with the rail-cap caveat on the record. ② **Casualty ratchet RED:** GACA confirms 12 killed / 309 injured at Riyadh airport 10/10 ⇒ rolling 30d killed 21 vs 6 ⇒ rate-step LIT, ORANGE (i) LIT ⇒ EXIT §3 **7 of 8** (indicator, no mark move). **Production rung D 85→92 NOT FIRED:** Dhahran HQ 10/13 = office (OUT); **Abqaiq 10/08 = own FIRMS anomaly (626 MW day-sum, largest in 40 days, out within ~13 h) with no counting source**; Haradh BM intercepted. ➕ Geometry (KB-293): the Abqaiq heat sat on the processing facility's two mapped FLARE stacks (one inside the fence), not on the tank farm or GOSP-6 ⇒ reads as emergency flaring after a plant upset (cause unknown). GATE-FALCON-001 leg 2 NOT FIRED; **leg 2 KEPT PROVISIONAL + amendments ① ④ (WQ-432)**; **FAL-06 dated-search text adopted (WQ-433)**. Next review **10/21**.
+
+## Current marks and authority
+
+| State | Current disposition |
+|---|---|
+| B / C / D | **1 / 14 / 85** (re-marked 2026-09-28 by the Will-registered rung). **7-day review 2026-10-14: HELD** — D→C needs a 72h two-sided halt (hulls struck 10/09, 10/10, 10/11, 10/13, 10/14); C→B needs a DATED framework (Rezaei 10/11: US reply "insufficient", Iran "no longer… responding"; Oman–Pakistan met 10/14, no date); nothing above 85 fired. Class-(ii) re-mark: **RULED HOLD — WQ-431 (Will 2026-10-14 22:01 ET, verbatim "Approve 431, 432 and 433"; record `PROME/proposals/2026-10-14_wq431-433-RULED.md`)**. Next review **2026-10-21**. |
+| D 75→85 rung | **FIRED 2026-09-28 (trigger b).** One move; cannot fire again. Letter: [EXIT_PROTOCOL §2](workbook/EXIT_PROTOCOL.md) → archive. |
+| Production rung D 85→92 | **REGISTERED 2026-10-01 (Will, WQ-355). ARMED, NOT FIRED** (graded 10/14: Dhahran admin/HQ tower 10/13 = office OUT; Abqaiq 10/08 = IN-class site, FIRMS + imagery + claimant only, no counting source; Haradh 10/13 intercepted; Shedgum/Hawiyah/Tanajib = gas plants OUT). Fires on a counting source confirming BOTH a hostile strike AND a Gulf-ally crude PRODUCTION-class facility (on/after 9/29); minor damage counts; FIRMS/imagery/claimants never count. Letter [EXIT_PROTOCOL §2a](workbook/EXIT_PROTOCOL.md). ⚠️ Base rate = 2 episodes; source list not independently reviewed; numbers only, no trade (WQ-192). |
+| Ship losses (`VX-FALCON-SUNK-01`) | **5 since spinout** (dhow 8/4 class i · Kylo 9/5, Riesco 9/8 class iii-B · **CAPE DAO** class ii, IMO basis, sinking date unstated · **GFS PRIDE 10/13** class ii). (iii-A) n=0. **Four instruments, four sets — never summed:** IMO "Sunk" = Safeen Prestige 3/4 · Cape Dao · GFS PRIDE (no Kylo/Riesco); UKMTO "5 total losses YTD" (membership unpublished); CENTCOM "10 tankers destroyed" (≠ sunk). **No mine detonation on a hull established** (GFS PRIDE: MPA "unknown projectile"; IRGC claim names no ship). KB-276/277. |
+| Predictions | FAL-05 FAILED 9/28. **FAL-06 OPEN at 70%** (no NET Gulf-ally crude/condensate loss to 2026-11-05): no force majeure; no stated production offline; no vendor aggregate-export print ≥20% down; IEA: September Gulf crude exports 13.9 mb/d, +4.4 m/m (KB-288). Scoreboard **1C / 3F / 1P / 0V / 1 OPEN**. **Dated-search precondition ADOPTED 10/14 (WQ-433, Will 2026-10-14 22:01 ET, verbatim "Approve 431, 432 and 433"; record `PROME/proposals/2026-10-14_wq431-433-RULED.md`) — encoded on the FAL-06 row** (search run on 11/05 inside the window; after 11/05 = NO-VERDICT). |
+| GATE-FALCON-001 | **LIVE. Graded 2026-10-14 (review_by, on time)** — canonical letter + blocks: [FRESH_LEG_BASELINE §GATE-FALCON-001](domain/FRESH_LEG_BASELINE.md). Leg 1 FIRED 7/23 · **leg 2 NOT FIRED** (TankerMap completed UTC days 10/08–10/14, none qualified; 10/14 `100×71 = 7,100` vs `65×76 = 4,940`; 7dma ~10, flat; [bars 10/14](domain/tankermap/2026-10-14_bab_daily_bars.csv), KB-287) · leg 3 FIRED 8/15. **Event override NOT TRIGGERED** (no Houthi act on shipping 10/08–10/14). **DOCKET L619 RULED (WQ-432, Will 2026-10-14 22:01 ET, verbatim "Approve 431, 432 and 433"; record `PROME/proposals/2026-10-14_wq431-433-RULED.md`): KEPT PROVISIONAL + ① R1 vintage rule + ④ clarifications — encoded in the letter 10/14; ≥35% unchanged.** **Next review_by 2026-10-21 (owner-set 10/14).** PROME owns the registry cell (key `G:GATE-FALCON-001`). |
+| WARRISK falsifier | 🔴 LIT (Yanbu ~3% vs 0.1% baseline; quote date **9/24**, corrected from 9/25). **Re-pulled 10/14: 1 of 5 legs** — Hormuz **6–10%** (FT brokers ~10/06, second-hand; quoted before the 10/11–10/13 run). WC Saudi (registered falsifier), S. Red Sea, spread: SEARCH-NOT-FOUND; Bab "~3%" (no unit, population conflict) not adopted; JWC unchanged (JWLA-035). Data clock NOT advanced; 4 rows EXPIRED. |
+| Casualty ratchet (§3 #5) | 🔴 **RED RATE-STEP LIT 10/14** (from `CASUALTIES.tsv`): killed 9/15–10/14 = **21** (Cape Dao 1 · airports 10/07 3 · KKIA 10/08 3 · **KKIA 10/10 12 GACA + 1 Indian Embassy** · KKIA T4 10/11 1) vs 8/16–9/14 = **6** ⇒ 3.5× (excl. contested Sirik 21 vs 1). 🟠 **ORANGE (i) LIT**: injured 376 vs 151 (soft edge: Sirik ~70). Class-step UNFIRED (no US/GCC-military/coalition death). ⚠️ [10/14 self-catch] the "no US death since 6/27" baseline is FALSE — 2 US service members KILLED in Jordan 7/17 (CENTCOM; CAS-2026-032, KB-294); the MILITARY_US class-step is RULED B by Will 2026-10-14 22:18 ET (WQ-434, verbatim "Approve 434", PROME/proposals/2026-10-14_wq434-RULED.md): the class-step is anchored to 9/8 — a US death on/after 9/8 = RED. PETRO DOLPHIN 2 missing (not counted); ACERS (158-26) count unknown. CAS-026..031; KB-278. IMO-verified (own fetch 10/15): KB-291. |
+| EXIT §3 indicators | **7 of 8 lit** (#1 #2 #3-energy #4-actor #5 #6 #8); only #7 bypass unlit (HOLDING 96,309 vs floor 31,639 t/d, print 10/09). |
+| Thesis-kill (EXIT §1) | **0/7.** EXIT_PROTOCOL v3 + THESIS v3.0 (10/01): letter = crude premium falsified, D 85 · composition = route loss, not a demonstrated barrel loss. §5 rewrite trigger checked 10/14: not fired (new losses are class ii). |
+| Capital / other owners | No trade or capital grade. BRENT owns prices (not re-pulled). TERRY construction, Will approvals. No settle-count clock; step 12b no-op. |
+
+## What changed since 10/10 (sourcing: KB-FALCON-276..292; rows before 10/10 → [archive 10/14](domain/sources/STATUS_archive_2026-10-14_rotation.md))
+
+| Date | Event | Grade |
+|---|---|---|
+| 10/13 (SGT) | **GFS PRIDE (container ship, 2,824 TEU) SANK in Hormuz** after an "unknown projectile"; 21 crew safe (MPA); IRGC mine claim names no ship; GFS GISELLE struck 10/14, afloat | KB-276; VI-0064/0065; **class (ii)** |
+| 10/14 (IMO) | **CAPE DAO marked "Sunk"** (bulker, UAE-linked; struck 9/23, 1 killed); IMO: 113 incidents, 24 seafarer deaths | KB-277; VI-0036; **class (ii)** |
+| 10/10 | **KKIA (Riyadh airport): 12 killed / 309 injured (GACA)**; 13th death 10/11 (Indian Embassy) | KB-278; CAS-026/027; airport OUT; ratchet RED |
+| 10/11 | KKIA T4 1 killed / 11 injured (GACA); KFIA Dammam attacked | KB-278; CAS-028 |
+| 10/13 | **Aramco Dhahran admin building / HQ tower hit** — MoE "limited fire", 0 casualties; Reuters sources "extensive damage", production unaffected | KB-279; office OUT |
+
+FILE AGENTS/FERT/STATUS.md
+# FERT — Status
+
+**Domain:** Fertilizer supply/price/policy → food-CPI transmission → CF Industries positioning
+**Class:** Market domain — EVENT-DRIVEN SPECIALIST (wakes on named triggers; no standing daily desk)
+**Last real data refresh:** 2026-10-15 08:05–08:07 ET (crash-recovery spawn, PROME `prome-73`, Opus: DTN 10/14 + BLS Sep re-verified first-party; IPL award still NOT public, `KB-FERT-078`) · 2026-10-14 23:46–23:58 ET (WQ-184 due-row spawn `prome-8e`, GATES G3/G5 + DOCKET L576/L577: `KB-FERT-069`…`077` — items in What Changed) · Prior: 2026-10-09 AM (`KB-FERT-067`)
+**Session wall clock:** 2026-10-15 08:03 Thursday (boot.py) · prior 2026-10-14 23:45 Wednesday (died ~03:08 ET, uncommitted; residue verified + committed this session)
+**Situation Tier:** 🟡 MONITORING — **retail MAP $979 broke FERT-12's $975 cap** (fifth straight rise; DAP flat $934); G5 NOT FIRED, **$21** short, ~2.1 months at the 9-week pace. Producer-side squeeze (Q4 Tampa sulfur unsettled; Mosaic South Fort Meade idled), not rock (flat $170.0/mt). Nitrogen dead (IPL counters ~$352–356/mt CFR, award not public). China adding export volume (G3 NOT FIRED). Food at home −0.07% (Sep). Pink Sheet label corrections 10/07 + expired futures rows → `archive/STATUS_rotated_2026-10-15.md`.
+
+> **Rebuild note.** The FROZEN 2026-03-20 STATUS is archived at `archive/STATUS_2026-03-20_FROZEN.md` — historical only. Every price cell below is benchmark + unit + date + source. **"Urea" alone is not a price.** Grading record: `PROME/research/2026-08-16_fert-revival-assessment.md`.
+
+---
+
+## Price Panel — benchmark-split (never one row called "urea")
+
+| Benchmark (full name) | Unit | Level | As-of | Source authority |
+|---|---|---|---|---|
+| DTN retail urea, US national avg | **$/ton** | **$672** (−$11 vs 10/7; +12% YoY) | data wk Oct 5–9 2026 | PRIMARY-publisher — DTN 10/14/26, pulled first-party 10/14 |
+| NOLA granular urea barge FOB | **$/st** | **"$430"** on Oct 9 [The Pacific's Daily Brief 10/14, secondary] · **"$430s"** midweek w/c 9/28 [Profercy 10/02] · **$450–455** wk to 9/25 [Green Markets] — intermittent headline levels, not a weekly series. 🧊 Advanced Turf $385–410 = FROZEN 8/7 vintage | Oct 9 · w/c 9/28 · wk to 9/25/26 | MIRROR (secondary) · PRIMARY headline — Profercy 10/02 · Green Markets `KB-FERT-047` |
+| India CFR, **lowest OFFER per coast** (IPL 1.7 Mt tender, closed 10/07) | **$/mt CFR** (basis **STATED** by AFC 10/12) | **$352.10 east** (Millennium, 60,000 t) / **$356.25 west** (Aditya Birla, 350,000 t); ranges E $352.10–465, W $356.25–416.50; 25 companies, ~5.3 Mt gross. **IPL countered at these L1s** [secondary 10/14]. **Award: NOT public at 08:06 ET 10/15** (`KB-FERT-071`/`078`) | offers 10/07/26 · counters 10/14 | MIRROR — AFC weekly w/e 10/9 (pub 10/12) + Bloomberg via Business Standard 10/9 (`KB-FERT-067`) |
+| World Bank Pink Sheet urea, **prill spot FOB Middle East** (series name "Urea, E. Europe"; WB definition since Mar-2022) | **$/mt** | **$407.5** (Sep) ← $390.0 (Aug) ← $400.0 (Jul) ← **$856.9** (Apr) | monthly, Sep 2026 | PRIMARY — WB Pink Sheet, pub 10/2/26, read 10/07 |
+| Urea granular FOB **Middle East** (AFC weekly) | **$/mt** | **$470–480** (carried; ~$465 late Sep per Global Agriculture 10/12) | w/e 9/18/26 | MIRROR — AFC weekly `KB-FERT-053` |
+| Urea granular **CFR Brazil** (AFC weekly) · China **prilled FOB** | **$/mt** | Brazil offers **$480–485** / bids $450–470 [AFC w/e 10/9] · China prilled **~$372** FOB [Global Agriculture 10/12] · China netback from the IPL offers **~$320** FOB [AFC] | w/e 10/9/26 · 10/12/26 | MIRROR — AFC weekly (pub 10/12) · Global Agriculture 10/12 |
+| India **DAP** CFR (AFC weekly) | **$/mt** | **$890–905** ("previous reported range") | w/e 10/9/26 | MIRROR — AFC weekly (pub 10/12) |
+| DTN retail **DAP**, US national avg | **$/ton** | **$934** (**$0 w/w**; +2% YoY) | data wk **Oct 5–9 2026** | PRIMARY-publisher — DTN 10/14/26, pulled first-party 10/14 |
+| DTN retail **MAP**, US national avg | **$/ton** | **$979** (**+$5 w/w, +0.51%**; +6% YoY) — **binding leg on G5; FERT-12 MISS** | data wk **Oct 5–9 2026** | PRIMARY-publisher — DTN 10/14/26, pulled first-party 10/14 |
+| DTN retail **potash**, US national avg *(triage-depth row)* | **$/ton** | **$502** (+4% YoY) | data wk Oct 5–9 2026 | PRIMARY-publisher — DTN 10/14/26 |
+| DTN retail **anhydrous** | $/ton | **$977** (−$2 vs 10/7; +20% YoY) | data wk Oct 5–9 2026 | PRIMARY-publisher — DTN 10/14/26 |
+| DTN retail UAN28 / UAN32 / 10-34-0 | $/ton | **$442** / **$485** / **$702** (+$12 / +$2 / $0 vs 10/7; UAN32 +6% vs month-ago, the week's only ≥5% move per DTN) | data wk Oct 5–9 2026 | PRIMARY-publisher — DTN 10/14/26 |
+| NOLA **DAP** barge FOB | $/st | 🧊 $795–798 — FROZEN 8/7 vintage, no free successor. Nearest free phosphate $/st: Central Florida DAP/MAP $840/st [Green Markets 9/18]; NOLA **TSP** $675–$695/st FOB [Green Markets 9/25] — DIFFERENT benchmarks, not NOLA DAP prints | 8/7/26 · 9/18 · 9/25/26 | MIRROR — Advanced Turf 8/10 · PRIMARY headline — Green Markets |
+| NOLA **MAP** barge FOB | $/st | 🧊 $775–785 — FROZEN 8/7 vintage | 8/7/26 | MIRROR — Advanced Turf 8/10/26 |
+
+FILE AGENTS/FLG/STATUS.md
+# FLG STATUS
+
+**Last Updated:** 2026-10-01 11:1x ET Thursday — **T-08 fire grade (PROME Tier-1 spawn on GATE-FLG-T08 / DOCKET L236): the rent freeze is in force; graded on the letter.** Prior: 2026-09-27 catch-up; 2026-09-24 catch-up; 2026-08-28 first live session.
+
+✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
+
+**Class:** Market domain — print-driven single-name specialist · **Level:** L1 · **Thesis:** `THESIS.md` **v1.0 — THESIS OF RECORD** (promoted from v0.1 skeleton this session)
+
+---
+
+## ✅ SESSION 2026-10-01 — T-08 FIRED: the rent freeze is in force, graded on the letter (PROME Tier-1 spawn)
+
+| Leg | Grade | Basis |
+|---|---|---|
+| 1 · 10/1 arrived | ✅ VERIFIED | wall clock |
+| 2 · Order #58 in force, no stay/annulment | ✅ **INFERRED (high)** | **PRIMARY:** RGB Order #58 page, fetched 10/1 ~11:07 ET — 0% one- and two-year, leases commencing 10/1/26–9/30/27, no stay notice. **SECONDARY ×4** dated 9/30 16:22 → 10/1 10:11 ET (Hell Gate, Brick Underground, Patch, Crain's headline): no stay, appeal or emergency application reported. ⚠️ **Court docket NOT read** — NYSCEF, AD1, WebCivil all 403 (WQ-279) |
+
+**State:** `FIRED 10/1 @ Order #58 0%/0% in force` · Response `EXECUTED` (KB-FLG-071; REGINALD + HOMER packeted). **Book leg:** exposure at fire = the 6/30 primary — **$8.9B** on ≥50%-rent-regulated collateral, inside **$13.4B** NYC multi-family, inside **$26.9B** multi-family; the 2027 vintage (**$8.5B**) reprices into it. **Nothing moved:** the pre-registered expectation stands — Q3/Q4 brings provision commentary, not new nonaccruals; the DSCR bite is Q2-2028 (T-11). One addition from the order text: a two-year lease signed inside the window stays at 0% until as late as **9/29/2029**. No threshold, prediction, score or THESIS change.
+
+**Price (information only — REGINALD grades the ladder):** closes 9/28 **$12.04** · 9/29 **$11.84** · 9/30 **$11.67**, three at or below ORANGE $12.10, one bar with REGINALD. **10/1 11:06 ET $11.39 (−2.44%) = AT the RED line, unsettled.** 9/25→9/30 FLG −5.7% vs VLY −3.5%, KRE −3.0%; no filing since 8/14 (EDGAR, 10/1); cause UNKNOWN.
+
+**Also:** inbox drained (1 item, REGINALD 9/29 → INTEGRATED to T-07); correction `COR-20260927-07` receipted APPLIED. T-07/T-08/T-12 re-dated to **10/23** (the DOCKET L522 wake): "weekly" checks on an idle desk were hand clocks, not wakes. Intake term (DOCKET L467): owner view = drop to routine 10/07, keep through the merits ruling.
+
+## 🟠 SESSION 2026-09-27 — CATCH-UP: no new filings; freeze starts 10/1 (no stay); the "payoff" leg is not par; a $250M buyback went unlogged
+
+**Still no new filing.** EDGAR (CIK 0000910073) newest = 2026-08-14 13F-NT, so every credit figure is still the Q2-2026 10-Q. The session re-read older primaries and found three things the desk had wrong or missing.
+
+| What | Fact | So what | KB |
+|---|---|---|---|
+| **Rent freeze: no stay** | 9/24 hearing: Lantry issued no stay; freeze "will for now stay in place" for leases from **10/01**. City produces screenshots **9/29**, full docs ~**10/24**; merits ruling "before the end of the year" | T-08 fires 10/1 as registered. The live legal question moves to the **merits**, which would land **after** frozen leases are signed. Retroactivity is an unread known-unknown. ⚠️ WALTER's "declined a stay" overstates the source (no ruled denial reported); the practical effect is identical. Told WALTER | 060 |
+
+FILE AGENTS/GIBBS/STATUS.md
+# GIBBS STATUS
+
+**Last Updated: 2026-10-19 — first owner morning session, Codex / gpt-6.1-sol, /root/gibbs_morning.**
+
+> **FIRST-LIVE-SESSION BANNER — PARTIAL.** WQ-426 / D:L704 eight-item commissioning is not complete; retain until remaining source reads, Citi asset verification, and owner responses close.
+
+## Current judgment
+
+Q1: deposit-cost pressure extends to large-bank perimeter names, but one matched CFG/FITB item does not establish industry-wide bank stress. Q2: JPM/WFC/C attribution remains INSUFFICIENT per BROCK canonical release read; not clean/flat and not a qualifying fire. No thresholds, predictions, grades or book created.
+
+| Work item | Owner state |
+|---|---|
+| Perimeter IDs |16/16 SEC issuer names verified;15 Q2 Assets numeric facts verified from10-Q tags. Citi Assets absent; seed retained flagged. BK SEC ticker BNY, desk key unchanged pending named handling. |
+| Four-item read |52 firm/item slots for13 printed issuers;15 measured/canonical observations and37 PENDING; not52 completed reads. One limited INDUSTRY-WIDE deposit item against CFG;51 NOT-YET-DETERMINABLE. |
+| NDFI one figure | BROCK research/2026-10-14_wave/bank_Q3_read.md consumed. JPM/WFC/C figures not independently redefined. No other13-name NDFI figure published. |
+| REGINALD seam | Cohort pointer integrated; AOCI stays REGINALD pending mutual transfer; HBAN remains REGINALD until actual category-change primary plus named handoff. |
+| Registration | PROME request remains: register docket/CATALYSTS.tsv in SUMMONS_LEDGERS. No shared surface edited. |
+| Falsification | EXIT_PROTOCOL re-derived10/19 with directional Q1/Q2 reads; R0 November15 review unchanged. |
+
+## Decisive observations
+
+FITB has published this morning; issuer schedule06:30 expected release/09:00 call. D:L704 AMC wording is wrong; actual release second unknown. Average IB deposit cost2.24% vs2.13%, demand balances stable/up: same direction as CFG cost +5bp and NIB +1.7%, tagged at that narrow comparison only. Comerica/sweep migration matters.
+
+BNY average deposits declined0.94%, average NIB2.97%; Schwab bank deposits declined2.24% while broader transactional sweep cash rose$7.1B. LIQUID packet routes the two distinct instruments without inferring system cash flight. WFC annual NII guide approximately$50B unchanged, Q4 approximately$13B.
+
+## Source/continuity limits
+
+See research/2026-10-19_first-owner-morning.md and research/2026-10-19_sources/{retrieval_receipt,review_extracts}.json. SEC fetch approved after sandbox DNS failure. Direct FITB HTTP403; web search rendered substantive primary tables and schedule browser read succeeded. Five issuers' exhibit-discovery routes returned no attachments; finish before calling their items read. Q3 calls/final10-Qs remain. FFIEC NIC CAPTCHA wall remains; no session spent against it.
+
+## Inbox / delivery

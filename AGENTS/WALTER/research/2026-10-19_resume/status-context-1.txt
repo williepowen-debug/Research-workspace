@@ -1,0 +1,124 @@
+
+FILE AGENTS/AEOLUS/STATUS.md
+# AEOLUS STATUS
+
+**Last Updated:** 2026-10-10 12:34 ET (**Will-directed:** news sweep → El Niño winter re-point of C2/C3 → Colorado search; KB-191…204, AEO-13). Prior: 10/9 21:32 ET (L627 owner). Full rebuild 9/28 (`archive/STATUS_ARCHIVE_2026-09-18_full.md`).
+**Status:** 🟡 **C1 — Hurricane Isaias made landfall near Destin, FL at 8:30 PM CDT Fri 10/9 as a Category 2 (90 kt / 105 mph, 971 mb); the major-landfall trigger did NOT FIRE (6 kt under).** 🔴🔴 **C5 — Rhine below its all-time record low at both graded gauges every complete day 9/18→10/9 (22 days); still FIRED; WSV's 10/10 run shows no exit through 10/12.** 🔴 **C6 — Mead 1,037.60 ft [10/9], 2.60 ft above Hoover 1,035.**
+**Class:** Market-agent (climate → economy) · **Self-level:** L2
+**Sessions 10/9–10:** landfall (KB-189) · catch-up KB-177…190 · sweep KB-191…194 · **C2/C3 winter re-point KB-195…200, AEO-13** · Panama KB-201 · Colorado KB-202…204. Yangtze source timed out.
+
+> Data is primary-sourced and dated below. Per Critical Rule #3, verify against the primaries (CPC/NHC/USBR/WSV/ACP/NIFC/NWPS) before any trade use. No naked numbers.
+> **STATUS budget: 32,550 B (`READ_CAP.md`) · <250 lines.** Measure with `PROME/tools/measure.py`. **Rulings that still govern:** `wksst9120.for` is the sole weekly ENSO figure (KB-088) — **CPC discussion prose quotes the RELATIVE monthly index; never label it "weekly" (KB-181)** · §C6 "USBR's path projects a breach" is SATISFIED-AT-WRITE-TIME, never a live leg · **SLOTS ≠ TRANSITS** · grade Rhine on **UNROUNDED** means only · Mississippi stored on **UTC-day** daily means (KB-159) · **NHC intensity is graded in KNOTS as stated (5-kt steps) — never a mph→kt conversion.**
+
+---
+## CONVERGENCE MATRIX
+
+| # | Channel | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger |
+|---|---|:--:|---|---|---|---|
+| C1 | Insurance / reinsurance | **2 🟡** (held) | **Isaias LANDFALL near Destin FL 0130Z 10/10 — Cat 2; major trigger NOT FIRED** | El Niño root (suppress) — yet a 105-kt peak over 30 °C water; C4 hinge | **Landfall 90 kt (105 mph) / 971 mb** (NHC TCU 0130Z); peak **105 kt** over water 10/9 12–18Z · ACE **18.02 = 17.46%** of to-date normal · pre-landfall loss estimates **mid-single-digit $bn** (BMS $4–6B) · cat-bond spread 4.57% [9/25] | **Spent for Isaias (NOT FIRED)**; re-arms on the next Gulf/FL system · C4 >$10B leg on post-landfall estimates |
+| C2 | Agriculture / food | **2 🟡** (↓ 10/9) | **re-pointed 10/10 to the forward El Niño crop: SOUTHERN AFRICA MAIZE** (2027 harvest) | drought root shared w/ C4; ENSO reaches C2 via S. Africa / Asia-Pacific | **SA corn ≤−15% in 5/6 strong-El-Niño harvests vs 1/17 neutral** (KB-198); USDA still a 16.50 MMT placeholder · Aus wheat −10.3% vs 5-yr · FAO cereals **+17.2% y/y** (cause not El Niño, KB-199) | **→3:** first SA reading (CEC/USDA) ≤−15% OR Aus ≤−15% (**bands REGISTERED 10/10, Will-ruled**, KB-200) |
+| C3 | Energy demand | **2 🟡 ↓ from 3** | **re-pointed to WINTER heating** (10/10); shoulder season, no weather-driven stress | El Niño root (w/ C1/C6) | PJM 10/7 $2,978/MWh spike was **supply-side** (70.3 GW maintenance, no heat — WATT) · strong-El-Niño DJF HDD **5/5 below normal** (MidAtl median −11.9%) vs official forecasts only −2 to −6% (KB-195/196) | **→3:** a DJF 30-day MidAtl/ENC HDD window ≥0% vs 1991-2020 (**REGISTERED 10/10, Will-ruled**, KB-200) OR EEA2+ with a weather cause |
+| C4 | Property / physical | **2 🟡** | peril leg cool; **loss leg = Isaias, below the >$10B line on every estimate** | partly independent (fire = drought; Isaias = SAME event as C1, count once) | **NIFC PL 2** (since 9/22); acres **9,013,486 = 145%** of 10-yr avg [10/9] (+409k after 9/30, cause unstated) · Isaias pre-landfall **mid-single-digit $bn**; Twelve Securis: >$10B "less likely" | Q3 cat tally **≥110%** OR a **>$10B** insured cat OR PL ≥4 |
+| **C5** | Supply chain / logistics | **5 🔴🔴** | 🔴🔴 **FIRED-ON-LETTER since 9/28 — no exit through 10/9** | **European basin = its own root** (Rhine + Danube counted ONCE); Panama = ENSO root (w/ C6) — not contributing | **Kaub 1.323 / 0.990 / 7.583 cm vs 25 · Duisburg 129.979 / 138.333 / 140.396 vs 153 [10/7–9]** · WSV: Kaub 25 at 10/12 21:00, Duisburg 154 peak (single readings) · Contargo Kaub €1,075 / Ruhrort €675 (from €800) | **Exit:** the same 3-day test failing |
+| C6 | Water scarcity / allocation | **4 🔴** | 🔴 Mead drifting down again (−0.08 ft/day 10/4–8) | El Niño Western-hydrology root; **Powell↔Mead ONE system** | **Mead 1,037.60 [10/9], 2.60 ft above 1,035** · Powell **3,518.97** [10/9], 8.97 above 3,510 · **2027-28 Guidelines: no 10/01 effective date — effective only on executed agreements (§3, KB-185)** · Oct 24MS not out | **→5:** see §C6 (leg 2 re-keyed 10/10) |
+
+**Composite: 17/30 · range 1–5 · moved 10/9–10: 2 (C2 −1, C3 −1; C1 held at its landfall grade) · fired 1/6.** Conservation: 2+2+2+2+5+4 = 17 = published; one verdict cell FIRED (C5). ⚠️ C3 is 9/18 vintage.
+> The scalar stays impeached (disposition 8/21); the four-figure form carries the information. ⚠️ **C5 at 5 is driven by ONE root** (Central-European drought) — a reader must not add the Danube as a second witness. ⚠️ **Isaias is ONE event for C1 and C4** — a loss estimate moves one leg, never both.
+
+---
+## 🔴 UPGRADE TRIGGERS — live rules
+
+### C1 — Isaias graded 2026-10-09: **NOT FIRED** (landfall near Destin 0130Z 10/10 at **90 kt** / 971 mb, Cat 2; letter ≥96 kt at landfall — KB-189, L627). C1 held at 2 by the rule pre-committed at `30d0ab065`. **Exit leg 2 stays LIVE to 11/30.** Operational intensity governs — a post-season TCR revision is logged as history, **never a re-grade**. The trigger **re-arms on the next Gulf/FL system**. Grade table → `archive/STATUS_ARCHIVE_2026-10-10_C1-isaias-grade.md`.
+**VEHICLE trigger (TRADE.md, L-47 — boot-visible here):** long RNR arms on *a Gulf/FL major landfall OR a credible Gulf/FL track* → **same-session packet to TERRY**. Armed by Isaias 10/6–8; packet missed, **late notice 10/10**; domain conviction 1/5 (no hardening). Re-arms on the next Gulf/FL system.
+
+FILE AGENTS/ATHENA/STATUS.md
+# ATHENA — Status
+
+**Created:** 2026-03-14
+**Purpose:** Reading companion, knowledge compounder, cross-pollinator.
+
+## Currently Reading
+
+| Book | Author | Started | Status | Notes |
+|------|--------|---------|--------|-------|
+| Thinking in Systems | Donella Meadows | 2026-03-14 | 📖 Active | First book |
+
+## Reading Queue
+| Book | Author | Why |
+|------|--------|-----|
+| Gödel, Escher, Bach | Hofstadter | Consciousness from non-conscious parts. Strange loops. Emergence of awareness. |
+| The Master and His Emissary | McGilchrist | Brain hemispheres, narrative vs. quantitative cognition. Maps to Will's thinking style. |
+| Emergence | Steven Johnson | Simple agents → complex collective intelligence. Direct parallel to agent network. |
+
+## Library Stats
+- Books: 1 (active)
+- Concepts extracted: 8
+- Cross-connections logged: 7
+- Open questions: 3 (NEXUS as hierarchy flaw, DARWIN as system property, phase transition in distributed LLM systems)
+
+## Recent Activity
+- 2026-03-14: Agent created. Thinking in Systems started. Deep session — hierarchy, intermediate forms, events/behavior/structure, consciousness as subsystem, LLM-as-cell hypothesis. Multiple parked threads for cross-book synthesis.
+
+FILE AGENTS/BOND/STATUS.md
+# BOND — Status
+
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-15 15:18 ET (standard closeout). **Last real data refresh: 2026-10-15.** Claude Code / Opus 5.5 (claude-opus-5-5), Will-launched boot.
+
+Frontiers: official Treasury curve **10/14** · ICE credit (FRED) **10/14** · NY Fed repo **10/14** · FR2004 as-of **9/30** (next weekly as-of publishes 10/15 ~16:15 ET) · vendor intraday **10/15 13:35–13:50 ET**. Evidence: `analysis/2026-10-15_post-PPI/REPORT.md` + `raw/`. Prior day: `analysis/2026-10-14_post-CPI/REPORT.md`.
+
+## Current judgment
+
+**CPI day closed as a bull flattener, and the official close confirms the vendor read.** Treasury 10/14 vs 10/13: 2Y 4.82 (+3bp), 10Y 5.19 (−2), 30Y 5.52 (−4); real 10Y 2.84 (−4); 10Y nominal−real 2.35 (+2), 30Y 2.28 (0) [CONF PRIMARY Treasury CSV 10/15]. The front priced hikes; the long end fell on lower real yields.
+
+**PPI day: the rally came before the print, not after it.** Yahoo ^TNX was already 5.081 at the first 08:20 bar (−11bp vs 5.190), blipped +2.5bp on the 08:30 PPI release, made a 5.037 low at 10:00 and sat at 5.085 at 13:35; 30Y 5.421 (−10bp), 5Y 4.899 (−9bp), 3M flat [CONF VENDOR 5-min bars, not close]. The fleet's "rallied −14bp into hot PPI" framing is right on the level and wrong on the timing: the bid was set overnight alongside the Asia equity selloff (KOSPI −8% circuit breaker, per X-feed, unverified at exchange). Fed-funds contracts fell only 3–6bp while the 10Y fell ~10bp, so most of the move is haven demand / term premium, not policy path. **Long Treasuries were bought as the safe asset on a hot-inflation day — expensive, not broken.**
+
+**Credit: weak tail widening, high grade flat.** HY 325 (+9), CCC 1282 (window high), IG 84 (+1) [10/14]. HY is 25bp below 350. No funding stress: SOFR−IORB −2bp [10/14].
+
+**Buyback dig (Will-asked, `analysis/2026-10-15_buyback-dig/REPORT.md`):** Treasury is not paying up — the yield it pays over the curve is flat at ~11–13bp (10–20Y) once corrected for intraday timing; buybacks offset ~30% of new long-bond DV01 since 9/10; record 10–20Y offers ($46.4B, $40.8B) are concentrated in single 2041–42 bonds, while 20–30Y offers are below median. News sweep (`NEWS.md`): no Fed support; a 20Y cut/suspension is analyst speculation (Bloomberg 10/12), Treasury silent; quarter-to-date buybacks $43.13B vs $38B guided. No score change.
+
+**Current FORGE holdings: TBT 5; TLT Oct16 82P closed 10/12.** WQ357 TBT decision is TERRY/Will's. TBT −3.1% on 10/15 vendor tape (39.885 at 13:45; not a broker quote). Kill MET recommendation / funding window UNGRADED and WQ280 NO-ADD unchanged.
+
+## Regime
+<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
+C-36 TWO-PART unchanged. Policy-path channel alive; term-premium contribution assessed on its own model/window. No thesis version, capital approval or new threshold this session.
+
+## Current dashboard
+
+| Metric | Dated observation | Source / basis |
+|---|---|---|
+| Official 2Y/5Y/10Y/20Y/30Y | 4.82 / 5.00 / 5.19 / 5.57 / 5.52% [10/14]; Δ +3/0/−2/−3/−4bp | [CONF PRIMARY Treasury CSV pulled 10/15 13:50] |
+| Official real 5Y/10Y/30Y | 2.64 / 2.84 / 3.24% [10/14] | [CONF PRIMARY Treasury real CSV] |
+| Official 10Y/30Y nominal−real | 2.35 / 2.28% [10/14]; Δ +2 / 0bp | [EST fitted-par subtraction] |
+| 2s10s / 5s30s | 37 / 52bp [10/14]; Δ −5 / −4 | [EST Treasury CSV subtraction] |
+
+FILE AGENTS/BRENT/STATUS.md
+# BRENT STATUS
+
+**Last real data refresh: 2026-10-14 14:12 EDT — SCOPED-PARTIAL:** direct EIA/FedEx bodies observe October12retail and lagged surcharge; utilization API returns October2, present but outside unchanged10day budget. Option quotes retain13:30EDT/unknownbid-askclocks; IEA retains September estimates/forecasts. Earlier boot6OK/4FINDINGS/0FAIL,rc2 not reissued. [Operational review](audits/2026-10-14_operational-followups/REPORT.md).
+
+**Current judgment:** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
+
+**Shipping check / October15 prep 2026-10-14 13:05 EDT:** both requested stages COMPLETE in order. Fresh PortWatch queries show weaker matched seven-day Fujairah/Sohar tanker-export estimates through October9; not a post-sinking loss measurement. MPA direct body recovered; freight evidence mixed, with better later diesel-delivery economics. [Shipping result](research/2026-10-14_shipping-check/REPORT.md). Archived EIA baseline, exact series, policy accounting and BRT31 letter prepared; future October15 results remain ungraded. [Worksheet](research/2026-10-15_release-prep/WORKSHEET.md). Will handles calls; continued energy option exposure is the research question, no replacement ticket/roll approved. VLO holding-rule explanation is hold/exit assessment, not an instruction to sell; TERRY grades, original share only.
+
+**Call reflection:** favorable dated marked return; final realized outcome unverified. Tactical payoff analysis needs clearer separation from long-horizon WAIT. [Review](research/2026-10-14_boot-omr/CALL-REFLECTION.md). No new mark or rule.
+
+**Option screen October14 13:30 EDT:** leading research candidate USO Dec18 162/175 (65DTE); no owner card or capital approval. Vendor inputs/expiration arithmetic saved; material friction and price edge unproved. BNO has no60–90DTE expiry; refiner edge still missing. [Result](research/2026-10-14_energy-option-continuity/REPORT.md).
+
+**October14 follow-ups:** tracker/history and current readers cleaned; EIA diagnostic clarified,75tests passed.30registry enrollments reviewed without row changes; sixfacility review attempts preserve observation dates,24aged debts remain. CFTC403/live-scheduler verification unresolved. WALTER014fuel relief/contract-lag evidence integrated/filed. [Results](audits/2026-10-14_operational-followups/REPORT.md); prior [sweep](audits/2026-10-14_consistency-sweep/REPORT.md).
+
+**Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
+
+---
+
+# ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
+
+
+**Dated October14 OMR detail and October9–13 receipts:** [verbatim before-image](archive/2026-10-14_consistency-sweep/STATUS-before.md), 24195 UTF-8 bytes, crc32 `86cc5000`; payload rule: whole file. [Sweep manifest](archive/2026-10-14_consistency-sweep/manifest.json). OMR/shipping findings remain at their evidence notes.
+
+**Correction sentinels retained hot:** GulfTimes October12 transit figures match Reuters August17; quarantine as October evidence ([check](research/2026-10-12_resume-l633/MAIL_UPDATE.md#cor-20261012-04--transit-vintage)). Dated Brent >$120 was a real breach (EIA RBRTE125.44 on10/6,135.51 on10/2); the10/8 anomaly/not-real-breach label remains withdrawn. These are dated corrections, not fresh observations or proof of barrels lost.
+
+## 📌 STANDING STATE — *current values, live rules and active obligations. Read this; it is the hot half.*
+
+> ⚑ **CREATED 2026-09-07 — first application site of READ_CAP rule 19** (Will-ruled; DAEDALUS P1 ACTIONs 1–4).
+> **Closeout reconciliation October9 (4th session): archive receipts re-hashed (`4bb7aad6`, `d82761d3` reproduce); COT ladder regrade of 9/29 reproduces; THESIS v5.11 / TRADE / three SPECS read whole; BRT-26 row closed; JWC REGISTRY row unchanged; no sentinel revived by today's claims. Per-row notes keep their prior basis; source vintages unchanged.**
+> **The rows below are STANDING, not dated** — extracted verbatim, each carrying `⏱ as-of` (data vintage) and `✓ reconciled` (last checked against its canonical record). 📖 *(how the extraction was scoped, and the stale line-number near-miss: `archive/STATUS_DETAIL_2026-09.md` § repairs)*
