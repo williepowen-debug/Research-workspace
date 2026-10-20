@@ -205,3 +205,7 @@ ASMADE-AUDIT 1: >=1 MISMATCH candidate — candidates, owner verifies at the nam
 ## October 3 receipt correction (bounded three-owner read)
 
 The September17 NONE claims for MARCO, REGINALD and HENRY are superseded: owner artifacts already existed (MARCO September17; REGINALD and HENRY September11). HENRY has the Confidence column; historical backfill remains absent. Eight prior + three found = eleven desks with recorded action, not eleven completed calibrations. Full outcomes, remaining rows, chronology and evidence limits: `runs/2026-10-03_H2_RECEIPT_RECONCILIATION.md`. No re-score, no full-fleet freshness reset.
+
+## October 20 owner correction (OTTO, packet 2026-10-14)
+
+OTTO reports, from git: OTTO-30 was written at **60%** (`0bc51c74d`, 4/15), not 65% (65% set 5/21, `20cd8a532`); as-made Brier 0.3600, not 0.4225. This audit also missed OTTO-05 (seed 60%, cell showed 48% unmarked) and five rows with walked cells unmarked; all seven are fixed in OTTO's ledger. OTTO's as-made scoreboard: 5 of 10 counted, mean Brier 0.2400. DAEDALUS has NOT re-verified the git values; the figures above in this file are superseded for OTTO by the owner's ledger. No consumer outside OTTO cites the old figure (OTTO's `consumer_check` + grep).

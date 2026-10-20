@@ -1,13 +1,13 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-10-14.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-10-20.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **Cf** (confidence: H=read-verified, M=read+mechanical, L=mechanical-only) + **Scored** (last-scored date) + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never by-design. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
 **WF:** configured phrase-list entries at render time, not hits or routing health. `0` = explicit empty list; `—` = no list; `n/a` = owner-declared non-query desk; `UNKNOWN` = source unavailable/unsupported. Regenerate after lane edits; the existing directory-age guard watches ROSTER/FLEET_MAP only.
-WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `aa0ed367941a1c710c52e5060f9754071635f35c6401574c3f4e88ae6e064a2b`.
+WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `90647b8d00e91af4bc0f76bf9055f156eda1bfef4ec6c9e9456029cea99ab464`.
 
 ## 🟢 ACTIVE — persistent domain owners
 
@@ -56,7 +56,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `a
 | CREED | Market | L4 | H | 2026-10-01 | National CRE / CMBS | L5 at the next tier-2 CREED spawn whose closeout carries a BOTTOM LINE… | 36 |
 | DEWEY | Utility | L4 | M | 2026-10-01 | Deep on-demand research | L5 on a labeled CONTRACT block (PRODUCES / CONSUMED BY / PROOF) in CLAU… | n/a |
 | HANS | Market | L5 | H | 2026-10-01 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | SUSTAIN at the first HANS closeout after a large-EU-bank Q3 result prin… | 10 |
-| OTTO | Market | L4 | H | 2026-10-01 | Auto-industry fraud & stress | L5 at the OTTO closeout that lands the §2 5-pt | 9 |
+| OTTO | Market | L5 | M | 2026-10-20 | Auto-industry fraud & stress | Conf M→H at a read-verified PR where the §2 source-cell rule holds thro… | 9 |
 
 ## ⚪ DORMANT — revive only on explicit need
 

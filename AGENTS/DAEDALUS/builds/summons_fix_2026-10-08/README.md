@@ -2,6 +2,8 @@
 
 ⛔ Not built by PROME 9/29 — the session's one process change was the registry line (R1).
 
+## ★ RE-VERIFIED 2026-10-20 09:2x ET on live HEAD 93a12fc5a — same patch, NEW hashes in `target_hashes.json` → `reverified_2026-10-20` (before `619c7853…`, after `1aa0c7b9…`). `git apply --check` clean; L548 tests 16/16; the four `test_gate_isolation_L294_F7` failures are pre-existing (identical with and without the patch). The step-1 precondition below uses these hashes from today.
+
 ## ★ REBASED 2026-10-14 20:2x ET — use THIS bundle state (PROME prome-8e: old before-hash no longer matched)
 `prome_gate.py` changed under the patch twice: **cfb9c12d1** (10/10, VIOLET ledger registered + `EMPTY_FORWARD_DAYS` advisory + `priority`→`expected_vol_impact` fallback, all inside `check_desk_catalyst_summons`) and **0671f5612** (WQ-417 P1 run_script lines, outside it). Old hunk 1 (`_check_log_path`) applied clean; hunks 2–4 rejected and were merged by hand, keeping BOTH behaviours: EMPTY-FORWARD lines join `dead_ledgers`, so the detail order is **window rows → MISSING/unreadable/EMPTY-FORWARD → one past-due bit per desk**, and all of them reach the full log.
 - **Patch:** `summons-fix.patch` (rebased, base `fcaffa62b`); hashes `target_hashes.json` (before `10d14d73…` = live at 20:2x ET, verified). Old bundle kept as `*_2026-10-08_base-45b320134.*`.

@@ -15,11 +15,13 @@ USAGE
       --brief_defects "..." --inbox_before 5 --inbox_after 2 --brief_defect_count 0
       # validates the NEW row and the EXISTING ledger, then appends atomically (.tmp + os.replace).
       # rc 0 appended · 2 refused (nothing written). Omit a typed flag to record EMPTY (= UNKNOWN).
+      # L733 (2026-10-20): REFUSES when the ledger holds rows the current view does not count (rows entered without this
+      # writer) unless --acknowledge-unobserved K names exactly that delta (echoed into notes); refuses a view ahead of the ledger.
   python3 scripts/orch_log.py view [--window-days 30]   # regenerate PROME/state/ORCH_INFLIGHT.md (L262 (a)); `append` does this as its LAST step
   python3 scripts/orch_log.py rotate --through YYYY-MM  # L262 (c): move rows dated <= YYYY-MM (not IN-FLIGHT) to PROME/archive/ORCH_LOG_<run-month>.tsv
       # under the writer lock; REFUSES (rc 2, nothing written) on: any IN-FLIGHT candidate · a hot or archive file that
       # fails `check` before or after · broken row conservation · a --through month not strictly before the run month.
-  python3 scripts/orch_log.py --selftest                # 11 core drills (incl. IN-FLIGHT-by-form) + 10 L262 drills (view · append→view · rotate both paths)
+  python3 scripts/orch_log.py --selftest                # 11 core drills (incl. IN-FLIGHT-by-form) + 10 L262 drills (view · append→view · rotate both paths) + 13 L733 drills (hand row · ack · inode swap · \r)
 CONTRACT (CHECK_STANDARD §9): rc 0 · 2 CANNOT-CERTIFY / refused. Never pads, never truncates, never repairs.
 
 L262 (PROME-ruled 2026-09-04, DAEDALUS rule-15 input; Will "L262 go ahead" 9/4 ~10:0x). (a) The VIEW is a typed-only
@@ -88,6 +90,11 @@ def validate_line(fields, lineno):
         probs.append(f"L{lineno}: `touch` = {fields[3][:30]!r} is neither a TOUCH token (integer[+suffix]) nor CLOSE — unknown event class")
     if not fields[0].strip() or not fields[1].strip():
         probs.append(f"L{lineno}: date/desk empty")
+    if fields[0].lstrip().startswith("#") or fields[0] == "date":
+        probs.append(f"L{lineno}: `date` = {fields[0][:20]!r} would be read as a comment/header by `check` — the row would be invisible (L733 read R5)")
+    cr = [COLS[i] for i, v in enumerate(fields) if "\r" in v]
+    if cr:
+        probs.append(f"L{lineno}: carriage return inside cell(s) {cr} — `check` reads universal newlines, so a \\r splits the row (L733 CE4)")
     return probs
 
 
@@ -121,34 +128,100 @@ def check(path=LEDGER, quiet=False):
     return 0, rows
 
 
-def append(args, path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS):
+LOCK_RETRIES = 5
+RE_VIEW_COUNT = re.compile(r"source (\S+) \((\d+) data rows\)")
+
+
+def _locked_open(path, _after_open=None):
+    """L733 CE3 (2026-10-20): open + exclusive flock on the file CURRENTLY at `path`. `rotate` replaces the ledger with
+    os.replace, so a writer that waited on the OLD inode's lock would write to an unlinked file. After the lock is held,
+    compare the descriptor's inode with the path's; on a mismatch, drop it and reopen (bounded). Returns fh or None."""
+    for _ in range(LOCK_RETRIES):
+        try:
+            fh = open(path, "a+", encoding="utf-8")
+        except OSError as e:
+            print(f"ORCH-LOG ✗ rc 2 — {e}"); return None
+        if _after_open:
+            _after_open()
+        fcntl.flock(fh, fcntl.LOCK_EX)
+        try:
+            same = os.fstat(fh.fileno()).st_ino == os.stat(path).st_ino
+        except OSError:
+            same = False
+        if same:
+            return fh
+        fcntl.flock(fh, fcntl.LOCK_UN); fh.close()
+    print(f"ORCH-LOG ✗ rc 2 — could not lock the current {os.path.relpath(path, ROOT)} after {LOCK_RETRIES} tries (file replaced repeatedly); nothing written")
+    return None
+
+
+def _view_count(view_path, path):
+    """L733 CE1 (2026-10-20): ('missing', None) · ('bad', reason) · ('ok', N) from the view header."""
+    if not os.path.exists(view_path):
+        return "missing", None
+    try:
+        head = open(view_path, encoding="utf-8").read(4096)
+    except OSError as e:
+        return "bad", f"view unreadable: {e}"
+    m = RE_VIEW_COUNT.search(head)
+    if not m:
+        return "bad", "view header carries no `source … (N data rows)`"
+    # The header's `source` path is NOT compared here (PROME's stated follow-up, packet 2026-10-15) — count only.
+    return "ok", int(m.group(2))
+
+
+def append(args, path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _after_open=None):
     """Validate the new row and the existing ledger, then ONE O_APPEND write under an exclusive lock.
     (First cut used a fixed .tmp + os.replace: atomic in visibility, not safe against two concurrent
     appenders — Codex 9/3. A single small O_APPEND write is atomic per POSIX; the flock makes the
     validate-then-write sequence exclusive too.)"""
-    fields = [(getattr(args, c) or "").replace("\t", " ").replace("\n", " ") for c in COLS]
+    fields = [(getattr(args, c) or "").replace("\t", " ").replace("\r", " ").replace("\n", " ") for c in COLS]
     probs = validate_line(fields, 0)
     if probs:
         print("ORCH-LOG ✗ rc 2 — new row refused: " + "; ".join(probs)); return 2
-    try:
-        fh = open(path, "a+", encoding="utf-8")
-    except OSError as e:
-        print(f"ORCH-LOG ✗ rc 2 — {e}"); return 2
+    ack = getattr(args, "acknowledge_unobserved", None)
+    fh = _locked_open(path, _after_open)
+    if fh is None:
+        return 2
+    first_use = False
     with fh:
-        fcntl.flock(fh, fcntl.LOCK_EX)
         try:
-            rc, _ = check(path, quiet=True)
+            rc, rows = check(path, quiet=True)
             if rc:
                 print("ORCH-LOG ✗ rc 2 — refusing to append to a ledger that does not validate (run `check`)"); return 2
+            # L733 CE1: rows entered WITHOUT this writer are named here, never absorbed by the regenerated view.
+            state, val = _view_count(view_path, path)
+            if state == "missing":
+                first_use = True
+            elif state == "bad":
+                print(f"ORCH-LOG ✗ rc 2 — append REFUSED: {val}; run `orch_log.py view` only after naming any unobserved rows; nothing written"); return 2
+            else:
+                delta = len(rows) - val
+                if delta < 0:
+                    print(f"ORCH-LOG ✗ rc 2 — append REFUSED: the view counts {val} rows but the ledger holds {len(rows)} — {-delta} row(s) VANISHED from the ledger (append-only); nothing written"); return 2
+                if delta > 0:
+                    if ack is None or ack != delta:
+                        print(f"ORCH-LOG ✗ rc 2 — append REFUSED: {len(rows)} ledger rows vs the view's {val} — {delta} row(s) entered without this writer; run `check`, name them, then re-run with --acknowledge-unobserved {delta}"
+                              + (f" (you passed {ack})" if ack is not None else "") + "; nothing written"); return 2
+                    fields[8] = "; ".join(x for x in (f"ACK-UNOBSERVED {delta}", fields[8].strip()) if x)
+                elif ack:
+                    print(f"ORCH-LOG ✗ rc 2 — append REFUSED: --acknowledge-unobserved {ack} given but the view and ledger agree (0 unobserved); nothing written"); return 2
             fh.seek(0, os.SEEK_END)
             prefix = "" if (fh.tell() == 0 or open(path, "rb").read()[-1:] == b"\n") else "\n"
             fh.write(prefix + "\t".join(fields) + "\n")
             fh.flush(); os.fsync(fh.fileno())
+            # L733 CE4: the success line is printed only if the ledger still validates AFTER the write.
+            rc_after, rows_after = check(path, quiet=True)
+            if rc_after:
+                print(f"ORCH-LOG ✗ rc 2 — row appended but the ledger NO LONGER VALIDATES (run `check`); view NOT regenerated"); return 2
+            if len(rows_after) != len(rows) + 1:
+                print(f"ORCH-LOG ✗ rc 2 — row written but `check` now counts {len(rows_after)} rows, not {len(rows) + 1}: the row is not visible to the instruments; view NOT regenerated"); return 2
             # L262 (a): the view is regenerated HERE, under the same lock, as the last step — one writer, no drift.
             vrc = write_view(path, view_path, window_days, quiet=True)
         finally:
             fcntl.flock(fh, fcntl.LOCK_UN)
-    print(f"ORCH-LOG ✓ appended 1 row ({fields[0]} {fields[1]} touch {fields[3]}, {event_type(fields)}) — ledger validates"
+    print(f"ORCH-LOG ✓ appended 1 row ({fields[0]} {fields[1]} touch {fields[3]}, {event_type(fields)}) — ledger validates after the write"
+          + (" · first use: no view existed" if first_use else "")
           + (f" · view regenerated → {os.path.relpath(view_path, ROOT)}" if vrc == 0 else " · ⚠️ ROW APPENDED BUT VIEW NOT REGENERATED — run `orch_log.py view`"))
     return 0 if vrc == 0 else 2
 
@@ -251,12 +324,10 @@ def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=
         print("ORCH-LOG ✗ rc 2 — rotate: --through must be YYYY-MM"); return 2
     if through >= run_month:
         print(f"ORCH-LOG ✗ rc 2 — rotate REFUSED: --through {through} is not strictly before the run month {run_month} (the container is named by the month the rotation RUNS and asserts every row predates it)"); return 2
-    try:
-        fh = open(path, "a+", encoding="utf-8")
-    except OSError as e:
-        print(f"ORCH-LOG ✗ rc 2 — {e}"); return 2
+    fh = _locked_open(path)
+    if fh is None:
+        return 2
     with fh:
-        fcntl.flock(fh, fcntl.LOCK_EX)
         try:
             rc, rows_before = check(path, quiet=True)
             if rc:
@@ -313,15 +384,25 @@ def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=
             if len(rows_before) != len(hot_rows_after) + len(move) or len(arc_rows_after) != len(arc_rows_before) + len(move):
                 print(f"ORCH-LOG ✗ rc 2 — rotate REFUSED: row conservation broken (hot {len(rows_before)} → {len(hot_rows_after)} + moved {len(move)}; archive {len(arc_rows_before)} → {len(arc_rows_after)}); nothing written"); return 2
             # commit to disk: archive FIRST (an extra copy is recoverable and reported by the consumer half), hot second
-            for target, text in ((arc, arc_text_new), (path, hot_text_new)):
-                tmp = target + ".tmp"
-                with open(tmp, "w", encoding="utf-8") as w:
-                    w.write(text); w.flush(); os.fsync(w.fileno())
-                os.replace(tmp, target)
+            tmp = arc + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as w:
+                w.write(arc_text_new); w.flush(); os.fsync(w.fileno())
+            os.replace(tmp, arc)
+            # L733 read R1 (2026-10-20): the NEW hot file is locked BEFORE it replaces the old one, so an appender that
+            # opens the path after the swap waits for this rotate (and its view) instead of locking an unheld inode.
+            tmp = path + ".tmp"
+            newfh = open(tmp, "w", encoding="utf-8")
+            fcntl.flock(newfh, fcntl.LOCK_EX)
+            newfh.write(hot_text_new); newfh.flush(); os.fsync(newfh.fileno())
+            os.replace(tmp, path)
             print(f"ORCH-LOG ✓ rotated {len(move)} row(s) dated <= {through} → {os.path.relpath(arc, ROOT)} (crc32 {crc}); hot {len(rows_before)} → {len(hot_rows_after)} rows; conservation {len(rows_before)} == {len(hot_rows_after)} + {len(move)} ✓")
+            # L733 CE3: regenerate the view BEFORE releasing the locks (old inode and new), so no appender sees the new ledger with the old view.
+            try:
+                return write_view(path, view_path, window_days, today)
+            finally:
+                fcntl.flock(newfh, fcntl.LOCK_UN); newfh.close()
         finally:
             fcntl.flock(fh, fcntl.LOCK_UN)
-    return write_view(path, view_path, window_days, today)
 
 
 def selftest():
@@ -398,7 +479,44 @@ def selftest():
         open(hot, "w").write(ht + r("2026-09-30", "SAM", "3", "2", "OK") + "\n")
         rc = rotate("2026-09", hot, ad, T, vp, 30); rc_a, ar2 = check(arc, quiet=True)
         drill("rotate into an EXISTING archive appends (header once), validates, conservation 5 → 6", rc == 0 and rc_a == 0 and len(ar2) == 6 and open(arc).read().count("\ndate\t") == 1)
-    print("ORCH-LOG SELFTEST " + ("✓ 21/21" if not fails else f"✗ {fails}/21 FAILED")); return 1 if fails else 0
+        # ---------- L733 drills (2026-10-20) — CE1 hand row · CE3 inode swap · CE4 carriage return; alert AND clean paths
+        lp = os.path.join(td, "L733.tsv"); lv = os.path.join(td, "L733.md")
+        def ns3(**kw):
+            n = argparse.Namespace(**{c: "" for c in COLS}); n.date = "2026-10-20"; n.desk = "SAM"; n.tier = "subagent"; n.touch = "1"; n.drained = "1"
+            n.acknowledge_unobserved = None
+            for k, v in kw.items(): setattr(n, k, v)
+            return n
+        open(lp, "w").write(hdr + good + "\n")
+        rc = append(ns3(), lp, lv); drill("L733 first use (no view) ⇒ rc 0, view created", rc == 0 and os.path.exists(lv))
+        rc = append(ns3(desk="BOND"), lp, lv); drill("L733 writer-only sequence ⇒ rc 0 (view count follows)", rc == 0 and check(lp, quiet=True)[1].__len__() == 3)
+        open(lp, "a").write(good + "\n"); snap = open(lp).read()
+        rc = append(ns3(desk="HAND1"), lp, lv); drill("L733 CE1: hand row then append ⇒ rc 2, NOTHING written", rc == 2 and open(lp).read() == snap)
+        rc = append(ns3(desk="HAND2", acknowledge_unobserved=2), lp, lv); drill("L733 wrong --acknowledge-unobserved K ⇒ rc 2, nothing written", rc == 2 and open(lp).read() == snap)
+        rc = append(ns3(desk="ACK", notes="n"), lp, lv, ); rc = append(ns3(desk="ACK", notes="n", acknowledge_unobserved=1), lp, lv)
+        drill("L733 correct --acknowledge-unobserved 1 ⇒ rc 0, notes carry ACK-UNOBSERVED 1", rc == 0 and "ACK-UNOBSERVED 1; n" in open(lp).read())
+        rc = append(ns3(desk="X", acknowledge_unobserved=1), lp, lv); drill("L733 ack given when view and ledger agree ⇒ rc 2", rc == 2)
+        txt = open(lp).read(); open(lp, "w").write(txt.rsplit(good + "\n", 1)[0] + txt.rsplit(good + "\n", 1)[1]); snap = open(lp).read()
+        rc = append(ns3(desk="Y"), lp, lv); drill("L733 view AHEAD of ledger (row vanished) ⇒ rc 2, nothing written", rc == 2 and open(lp).read() == snap)
+        write_view(lp, lv, quiet=True); vt = open(lv).read(); open(lv, "w").write(vt.replace(os.path.relpath(lp, ROOT), "PROME/state/OTHER.tsv"))
+        rc = append(ns3(desk="Z"), lp, lv); drill("L733 view header naming another source is NOT compared (count-only, PROME's follow-up) ⇒ rc 0 when counts agree", rc == 0)
+        open(lv, "w").write("# no count here\n"); rc = append(ns3(desk="Z"), lp, lv); drill("L733 view header without a count ⇒ rc 2", rc == 2)
+        write_view(lp, lv, quiet=True)
+        rc = append(ns3(desk="CR", notes="line1\r\nline2\rline3"), lp, lv)
+        drill("L733 CE4: \\r in --notes is neutralised; ledger still validates", rc == 0 and check(lp, quiet=True)[0] == 0 and "\r" not in open(lp, newline="").read())
+        drill("L733 CE4: validate_line rejects a cell containing \\r", bool(validate_line(["2026-10-20", "SAM", "s", "1", "t", "1", "d", "OK", "a\rb", "", "", "", ""], 1)))
+        n_before = len(check(lp, quiet=True)[1])
+        swapped = []
+        def swap():   # CE3: the ledger is replaced ONCE (as one rotate does) between the writer's open and its lock
+            if swapped: return
+            swapped.append(1); t = open(lp).read(); tmp = lp + ".swap"; open(tmp, "w").write(t); os.replace(tmp, lp)
+        rc = append(ns3(desk="SWAP"), lp, lv, _after_open=swap)
+        drill("L733 CE3: inode replaced between open and lock ⇒ writer relocks; row lands in the CURRENT file", rc == 0 and len(check(lp, quiet=True)[1]) == n_before + 1 and "\tSWAP\t" in open(lp).read())
+        open(lp, "w").write(hdr + good + "\n"); write_view(lp, lv, quiet=True); snap = open(lp).read()
+        rc = append(ns3(date="#x", desk="HID"), lp, lv); drill("L733 R5: a `#`-leading date is refused (would be invisible to check), nothing written", rc == 2 and open(lp).read() == snap)
+        open(lp, "a").write(good + "\n"); rc = append(ns3(desk="E", acknowledge_unobserved=1), lp, lv)
+        drill("L733 R8: ack with empty notes has no dangling separator", rc == 0 and "\tACK-UNOBSERVED 1\t" in open(lp).read())
+    total = 21 + 15
+    print("ORCH-LOG SELFTEST " + (f"✓ {total}/{total}" if not fails else f"✗ {fails}/{total} FAILED")); return 1 if fails else 0
 
 
 def main():
@@ -412,6 +530,8 @@ def main():
     ap.add_argument("--archive-dir", default=ARCHIVE_DIR)
     for c in COLS:
         ap.add_argument(f"--{c}", default="")
+    ap.add_argument("--acknowledge-unobserved", type=int, default=None, dest="acknowledge_unobserved",
+                    help="append: K rows were entered without this writer since the last view; K must equal the delta (echoed into notes)")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
@@ -420,7 +540,15 @@ def main():
     if a.mode == "append":
         return append(a, a.ledger, a.view_path, a.window_days)
     if a.mode == "view":
-        return write_view(a.ledger, a.view_path, a.window_days)
+        # L733 read R2 (2026-10-20): `view` takes the writer lock, so `view ∥ append` cannot leave a stale count.
+        fh = _locked_open(a.ledger)
+        if fh is None:
+            return 2
+        with fh:
+            try:
+                return write_view(a.ledger, a.view_path, a.window_days)
+            finally:
+                fcntl.flock(fh, fcntl.LOCK_UN)
     if a.mode == "rotate":
         return rotate(a.through, a.ledger, a.archive_dir, None, a.view_path, a.window_days)
     ap.print_help(); return 2

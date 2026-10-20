@@ -9,5 +9,18 @@
     "before": null,
     "after": "c6c280f7cae3da79e7ede7593fa1afb2119f87bdc2ecc9c9b804d9d5968840b0"
   },
-  "prior_bundle": "summons-fix_2026-10-08_base-45b320134.patch + target_hashes_2026-10-08_base-45b320134.json (before f84daeda... no longer matches live)"
+  "prior_bundle": "summons-fix_2026-10-08_base-45b320134.patch + target_hashes_2026-10-08_base-45b320134.json (before f84daeda... no longer matches live)",
+  "reverified_2026-10-20": {
+    "by": "DAEDALUS 2026-10-20 09:2x ET",
+    "live_base_commit": "93a12fc5a",
+    "PROME/tools/prome_gate.py": {
+      "before": "619c7853cd4bbbf087a5eadeb8a24403ce0c42ca468bb6a5b1b2a540f668c66d",
+      "after": "1aa0c7b9c1f124da34eed4f8d3f4b4ce70a47cde32c74240611df2677ac353ce"
+    },
+    "PROME/tools/tests/test_summons_window_first_L548.py": {
+      "before": null,
+      "after": "c6c280f7cae3da79e7ede7593fa1afb2119f87bdc2ecc9c9b804d9d5968840b0"
+    },
+    "note": "Same patch file, applied with `git apply` to live HEAD in a temp worktree (no fuzz needed). L548 tests 16/16; the gate test set has the SAME 4 pre-existing failures (test_gate_isolation_L294_F7) with and without the patch. Live hash moved because PROME commits 0a537997e\u2026989c11daa touched other hunks. Use THESE hashes at apply."
+  }
 }

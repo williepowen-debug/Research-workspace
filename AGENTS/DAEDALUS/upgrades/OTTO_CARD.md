@@ -40,6 +40,7 @@
 1. **FLEET_MAP + reply-packet to OTTO** (DAEDALUS own files + sanctioned expected reply) — DONE this session.
 2. **§5 ARCHIVE backfill + #6/#7 write-backs** — highest-value OTTO-lane cluster (doc-truth restoration, PAT-032 class); route as one task-packet.
 3. **§2 handle overlay** (5-pt + Independence) — the one real section handle; batch with §6 vestige deletion (#SIGNALS.md line).
+   - ✅ **LANDED 2026-10-14 (OTTO s029, `1084bc3d1`); verified by DAEDALUS 2026-10-20** at `AGENTS/OTTO/STATUS.md:33` (10 vectors, composite 33/50 as arithmetic, Independence column; a STATUS block before the dashboard, the card's own alternative). Gate met with `rotation_due=0` ⇒ OTTO **L5/M** (FLEET_MAP 10/20). OTTO's blueprint suggestion — §2 to require each row to NAME its source cell — carried to the next blueprint sitting (STATUS). §6 vestige deletion: not checked here.
 4. **Staleness cluster #1/#2/#8** — freeze-or-refresh decisions, OTTO's own closeout work.
 5. **#3 push-policy + #4 version stamps** — fold into OTTO's next lazy-sweep to root canon.
 6. **#5 research retirement** — one archive pass; flag WAL/ folder disposition to PROME (spinout-incubation, not OTTO debt).

@@ -383,7 +383,33 @@ EXEMPT_RE = re.compile(r"not correction-class", re.I)
 # A correcting signal named `...-to-YYYYMMDD-NNN-...` identifies the signal it corrects. The desks
 # that RECEIVED the wrong figure are that original's action+info; a row targeting only the
 # correction's own routing misses them (10/8: BRENT on -1004-011, HENRY on -1008-009).
-CORRECTS_RE = re.compile(r"-to-(?:(\d{8})-)?(\d{3})\b")  # same-day form `-to-NNN` = the correcting date
+CORRECTS_RE = re.compile(r"-to-(?:(\d{8})-)?(\d{3})\b")  # same-day form `-to-NNN` = the correcting date (legacy; kept for reference)
+# 2026-10-20 (WALTER finding 10/16, adopted by DAEDALUS): the filename regex read `-to-014-018` as same-day 014 and
+# `-to-012-035-and-014-006` as same-day 012, ignoring explicit cross-date IDs. Resolution order now: (1) EVERY
+# `SIG-W-YYYYMMDD-NNN` in the frontmatter `corrects:` field; (2) an unambiguous filename form only — full
+# `-to-YYYYMMDD-NNN` or same-day `-to-NNN` NOT followed by another `-NNN`; chained shorthand is never guessed.
+EXPLICIT_ID_RE = re.compile(r"SIG-W-\d{8}-\d{3}\b")
+FN_FULL_RE = re.compile(r"-to-(\d{8})-(\d{3})(?!-\d{3}\b)\b")
+FN_SHORT_RE = re.compile(r"-to-(\d{3})(?!-\d{3}\b)\b")
+
+
+def corrected_originals(filename, fm):
+    """([SIG ids], basis). basis ∈ frontmatter · explicit-nonsignal · filename-full · filename-same-day · unresolved."""
+    val = fm.get("corrects", "")
+    if val:
+        ids = list(dict.fromkeys(EXPLICIT_ID_RE.findall(val)))
+        if ids:
+            return ids, "frontmatter"
+        if val.upper().startswith("EXTERNAL:"):
+            return [], "explicit-nonsignal"      # a declared external claim — never guessed from the filename
+        return [], "explicit-malformed"          # independent read 10/20 CE1: e.g. `sig-w-20261014-018` must FAIL, not go quiet
+    full = FN_FULL_RE.search(filename)
+    if full:
+        return [f"SIG-W-{full.group(1)}-{full.group(2)}"], "filename-full"
+    short, own = FN_SHORT_RE.search(filename), SIG_FILE_RE.match(filename)
+    if short and own:
+        return [f"SIG-W-{own.group(2)}{own.group(3)}{own.group(4)}-{short.group(1)}"], "filename-same-day"
+    return [], "unresolved"
 ROUTE_RE = re.compile(r"^(action|info):\s*\[(.*)\]\s*$")
 
 
@@ -397,8 +423,8 @@ def board_frontmatter(path):
         if ln.strip() == "---":
             return fm, True
         k, sep, v = ln.partition(":")
-        if sep and k.strip() in ("signal_type", "dispatch_note"):
-            fm[k.strip()] = v.strip()
+        if sep and k.strip() in ("signal_type", "dispatch_note", "corrects"):
+            fm[k.strip()] = v.strip().strip("\"'")   # quoted `signal_type: "correction"` normalised (WALTER 10/16)
     return fm, False
 
 
@@ -427,7 +453,7 @@ def cmd_write_compliance(board_dir, reg_path, since):
                 got.update(t.strip().strip("\"'").upper() for t in m2.group(2).split(",") if t.strip())
         return got
 
-    short_targets, unresolved = [], 0
+    short_targets, unresolved, bad_pointer = [], 0, []
     scanned, owed, exempt, ok_rows, no_fm = 0, [], [], 0, 0
     for f in sorted(board_dir.iterdir()):
         m = SIG_FILE_RE.match(f.name)
@@ -451,16 +477,28 @@ def cmd_write_compliance(board_dir, reg_path, since):
         basis = "type+title" if typed and titled else ("type" if typed else "title")
         if sid in registered:
             ok_rows += 1
-            cm = CORRECTS_RE.search(f.name)
-            orig_id = f"{cm.group(1) or sid[6:14]}-{cm.group(2)}" if cm else None
-            orig = recipients(f"SIG-W-{orig_id}") if cm else None
+            ids, how = corrected_originals(f.name, fm)
             tgt = registered[sid].get("targets") or ""
-            if orig is None:
+            if how == "explicit-malformed":
+                bad_pointer.append((sid, registered[sid].get("correction_id", "?"), [f"unparseable `corrects: {fm.get('corrects', '')[:40]}`"]))
+                continue
+            if not ids:
                 unresolved += 1
-            elif tgt.strip().upper() != "ALL":
-                missing = sorted(orig - {t.strip().upper() for t in tgt.split(",") if t.strip()})
+                continue
+            got = [(i, recipients(i)) for i in ids]
+            dead = [i for i, r in got if r is None]
+            if dead and how == "frontmatter":
+                # An EXPLICIT pointer that resolves to no BOARD file fails; it is never guessed around.
+                bad_pointer.append((sid, registered[sid].get("correction_id", "?"), dead))
+                continue
+            if dead:          # a filename-derived original not on BOARD: not checkable, as before
+                unresolved += 1
+                continue
+            need = set().union(*(r for _, r in got)) | (recipients(sid) or set())   # corrected ∪ correcting
+            if tgt.strip().upper() != "ALL":
+                missing = sorted(need - {t.strip().upper() for t in tgt.split(",") if t.strip()})
                 if missing:
-                    short_targets.append((sid, registered[sid].get("correction_id", "?"), orig_id, missing))
+                    short_targets.append((sid, registered[sid].get("correction_id", "?"), ",".join(i[6:] for i in ids), missing))
         elif EXEMPT_RE.search(fm.get("dispatch_note", "")):
             exempt.append((sid, basis))
         else:
@@ -475,11 +513,15 @@ def cmd_write_compliance(board_dir, reg_path, since):
             f"(signal_type: correction OR title marker) · {ok_rows} with a register row · "
             f"{len(exempt)} exempt (dispatch_note 'not correction-class') · "
             f"{no_fm} without a closed frontmatter block (title-only basis) · "
-            f"{ok_rows - unresolved} row(s) target-checked against the corrected signal's recipients, "
-            f"{unresolved} not checkable (pointer names no '-to-YYYYMMDD-NNN' original, or it is not on BOARD)")
-    if owed or short_targets:
+            f"{ok_rows - unresolved - len(bad_pointer)} row(s) target-checked against the corrected ∪ correcting recipients, "
+            f"{unresolved} not checkable (no explicit `corrects:` SIG id and no unambiguous filename pointer, or a filename-derived original not on BOARD) · "
+            f"{len(bad_pointer)} explicit `corrects:` pointer(s) resolving to no BOARD file")
+    if owed or short_targets or bad_pointer:
         print(f"R1-WRITE 1 OWED: {len(owed)} correction-class signal(s) with NO register row · "
-              f"{len(short_targets)} row(s) whose targets miss a recipient of the corrected signal — {head}")
+              f"{len(short_targets)} row(s) whose targets miss a recipient of the corrected or correcting signal · "
+              f"{len(bad_pointer)} unresolvable explicit pointer(s) — {head}")
+        for sid, cid, dead in bad_pointer:
+            print(f"  ⛔ BAD-POINTER {cid} ({sid}): frontmatter `corrects:` → {','.join(dead)} — not a SIG-W id on BOARD; fix the pointer (or write `EXTERNAL: <what>`); never guessed")
         for sid, basis, name in owed:
             print(f"  ⛔ NO-ROW {sid} [{basis}] {name[:120]}")
         for sid, cid, orig, missing in short_targets:
@@ -710,7 +752,54 @@ def cmd_selftest():
         npass += good
         extra = "" if good else f" | unchanged={same} note={note_got!r} check_rc={chk_rc} out={out.strip()[:160]!r}"
         print(f"  {'PASS' if good else 'FAIL'}  {label}: rc={got} (want {want}){extra}")
-    total = len(cases) + len(d4) + len(w399)
+    # ---- R1 resolver (2026-10-20, WALTER finding 10/16): explicit `corrects:` pointers beat the filename ----
+    print("SELFTEST R1-RESOLVER — explicit pointers first, corrected ∪ correcting recipients, no guessing:")
+    # contextlib imported above; io is module-level (a local import here would shadow it for the earlier drills)
+    def sig(d, name, action, info="", extra=""):
+        (d / name).write_text(f"---\nsignal_type: {extra or 'update'}\naction: [{action}]\ninfo: [{info}]\n---\nbody\n")
+    def corr(d, name, action, corrects=None, info=""):
+        cl = f"corrects: {corrects}\n" if corrects is not None else ""
+        (d / name).write_text(f"---\nsignal_type: \"correction\"\n{cl}action: [{action}]\ninfo: [{info}]\n---\nbody\n")
+    def run_r1(build, targets):
+        with tempfile.TemporaryDirectory() as td:
+            b = Path(td) / "BOARD"; b.mkdir(); build(b)
+            reg = Path(td) / "R.tsv"
+            reg.write_text("\t".join(REQUIRED_COLS) + "\n" + "\t".join(["COR-20261015-05", "2026-10-15", "WALTER", targets,
+                           "SIG-W-20261015-005", "2026-10-30", "OPEN"]) + "\n")
+            out = io.StringIO()
+            try:
+                with contextlib.redirect_stdout(out):
+                    rc = cmd_write_compliance(b, reg, date(2026, 10, 14))
+            except SystemExit as e:
+                rc = e.code
+            return rc, out.getvalue()
+    def base(b):
+        sig(b, "SIG-W-20261014-018-x.md", "BROCK,REGINALD"); sig(b, "SIG-W-20261015-014-y.md", "SAM,ZHAO")
+    r1 = [
+        ("R1a ordinary: same-day `-to-014` filename only, targets cover ⇒ 0",
+         lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-to-014-z.md", "SAM")), "SAM,ZHAO", 0, None),
+        ("R1b the 10/16 defect: `-to-014-018` + frontmatter 20261014-018 ⇒ checked against 018, not same-day 014 ⇒ 0",
+         lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-to-014-018-z.md", "BROCK", "SIG-W-20261014-018")), "BROCK,REGINALD", 0, None),
+        ("R1c overlap: two explicit originals ⇒ union of both required (one missing ⇒ 1)",
+         lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-z.md", "BROCK", "SIG-W-20261014-018, SIG-W-20261015-014")), "BROCK,REGINALD,SAM", 1, "ZHAO"),
+        ("R1d wrong owner: a recipient on the CORRECTING signal only must be targeted ⇒ 1",
+         lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-z.md", "HENRY", "SIG-W-20261014-018")), "BROCK,REGINALD", 1, "HENRY"),
+        ("R1e missing information: explicit pointer to a signal not on BOARD ⇒ 1 BAD-POINTER, never guessed from filename",
+         lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-to-014-z.md", "SAM", "SIG-W-20261013-099")), "SAM,ZHAO", 1, "BAD-POINTER"),
+        ("R1f chained shorthand with no frontmatter ⇒ not checkable, never guessed ⇒ 0",
+         lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-to-014-018-z.md", "BROCK")), "BROCK", 0, "1 not checkable"),
+        ("R1g explicit non-signal pointer (`EXTERNAL: claim`) ⇒ not checkable, filename NOT used ⇒ 0",
+         lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-to-014-z.md", "BROCK", "EXTERNAL: claim")), "BROCK", 0, "1 not checkable"),
+    ]
+    for label, build, targets, want, needle in r1:
+        got, out = run_r1(build, targets)
+        good = got == want and (needle is None or needle in out)
+        ok = ok and good; npass += good
+        print(f"  {'PASS' if good else 'FAIL'}  {label}: rc={got} (want {want})" + ("" if good else f" | out={out.strip()[:200]!r}"))
+    got, out = run_r1(lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-to-20261014-018-z.md", "BROCK", "sig-w-20261014-018")), "BROCK")
+    good = got == 1 and "BAD-POINTER" in out; ok = ok and good; npass += good
+    print(f"  {'PASS' if good else 'FAIL'}  R1h malformed explicit pointer (lower-case id) ⇒ 1 BAD-POINTER, never quiet (independent read CE1): rc={got} (want 1)")
+    total = len(cases) + len(d4) + len(w399) + len(r1) + 1
     print(f"SELFTEST {'0 PASS' if ok else '1 FAIL'}: {npass}/{total} cases")
     return 0 if ok else 1
 
