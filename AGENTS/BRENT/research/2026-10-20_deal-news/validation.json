@@ -1,0 +1,15 @@
+{
+  "diff": "PASS",
+  "read_cap": "PASS heuristic perimeter; no rotation this turn",
+  "weekday": "PASS",
+  "calendar_event_set": "PASS",
+  "standing_row_age": "FINDINGS:8 row reconciliation dates precede newly gradedOctober15announcement; no unverified restamp",
+  "source_capture": "sources.json distinguishes web-reader recovery from direct-request403/timeout",
+  "mail": "no new inbound consumed; prior deferred obligations preserved",
+  "outbox": "reviewed top-level packet inventory; no demonstrated newly closed loop; left in place",
+  "consumer": "no threshold/band/flip-state changed; not triggered",
+  "predictions": "no due row at earlier boot; no new outcome grade",
+  "auto_memory": "none written",
+  "capital": "no order, recommendation card, approval or threshold change",
+  "pull": "still deferred for foreign dirty work; untouched"
+}

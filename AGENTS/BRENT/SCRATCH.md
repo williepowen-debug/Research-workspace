@@ -1,13 +1,15 @@
-# BRENT SCRATCH — October20,2026 — startup recovery
+# BRENT SCRATCH — October20,2026 — news catch-up
 
-**Handoff:** 2026-10-20T10:40:38-04:00 — Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. Native session ID and verified capabilities: [receipt](audits/2026-10-20_startup/receipt.json). Root/local rules explicitly read. No helper, additional research or trade action.
+**Handoff:** 2026-10-20T10:51:08-04:00 — Codex/OpenAI GPT-6 family; exact model variant UNKNOWN. Native session ID and verified capabilities: [receipt](audits/2026-10-20_startup/receipt.json). Root/local rules explicitly read. News catch-up now authorized directly by Will; no helper or trade action.
 
 ## CHANGES SINCE LAST SESSION
+- [News catch-up](research/2026-10-20_deal-news/REPORT.md): same-contract crude reverses sharply from morninghigh; anonymous Qatar-Pakistan proposal is not verified signed peace. IEAOct15diesel acceleration and Oct16new-sanction waiver primaryread; older sanctions preserved. Newcurrentdata are scoped, no settled holding/entry grade.
 - Newer routine outputs and broker evidence recovered. Current positions/receipts live only at TRADE; October14 old-call outcome is now resolved against later evidence.
 - COT#10 already graded and consumed by PROME. No duplicate grade. October15 EIA output is saved; owner policy/inventory interpretation and BRT31 price-check remain open.
 - New HENRY December measurement evidence requests adoption/rejection; source-level review not performed in this startup.
 
 ## WHAT I DID THIS SESSION
+- Will-authorized news catch-up: recovered originalAl-Araby text, compared contraryReuters/officialremarks, saved quotes/contractmetadata/minutebars and source receipts. IEAannouncement catalyst graded, remainingdeliveryscope retained; no thesisversion/forecast/registeredthreshold change.
 - Ran complete boot:7OK/3FINDINGS/0FAIL,rc2; read summary. Current local venv works. Recovered instructions, approvals and dependencies; saved receipt.
 - Reconciled October14 USO closing receipt and October19 holdings/entry facts in TRADE; no new holding/card/threshold grade or duplicate broker booking.
 - Read every delivered WALTER packet; logged dispositions and Git-filed all27. ACTION research deferred explicitly in receipt. Three named corrections restricted current readers; no independent primary re-audit claimed.
@@ -31,5 +33,6 @@
 - WALTER:27 read/logged/Git-filed, deferred ACTION work enumerated in receipt. General:3 consumed/logged/filed,2 deferred in place. No MSG files found. Outbox consumption not established; no native fleet notice/acknowledgment claimed.
 
 ## WORKBOOK HEALTH
+- News calendar event set matches; standing-row age guard nowflags8 historicalreconciliationdates after October15announcementgrade, retainedUNVERIFIED with scoped boundary; no stamp laundering.
 - Boot findings retained honestly; pending-receipt rerun follows broker repair. No frozenKB/VX/FLOW/TIMELINE edits, registered line changes or historical prediction regrades.
 - Foreign WALTER dirty caches prevented pull; no stash/foreign edit. Exact-path commit/publication follows root Git protocol; publication does not establish consumption.

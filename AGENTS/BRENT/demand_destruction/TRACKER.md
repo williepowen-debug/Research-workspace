@@ -1,5 +1,7 @@
 # DEMAND DESTRUCTION TRACKER
 
+> **October20 news closeout — SCOPED-PARTIAL:** re-verified IEAOctober15Board and October16WhiteHousewaiver plus original anonymousOctober20proposal report. Named contracts and delayed intraday data saved in [news report](../research/2026-10-20_deal-news/REPORT.md); no settlement-based alert/holding/prediction grade. Live alert rows retain prior observationdates; currentEIA/BRT31price-check/cargo-diesel fields not refreshed. ResearchWAIT/WQ192unchanged; no signeddeal or physicalreopening inferred.
+
 > **October20 startup closeout — SCOPED-PARTIAL:** re-verified saved October15 EIA output, COT#10 ledger existence/consumer packet, October19 routine and unchanged REGISTRY roll letter. Alert-table observations retain their own dates; no level/settlement/source/holding grade refreshed. Monday prose saying CLX26 governs through October20 settle conflicts with the quoted roll rule: REGISTRY governs, not that sentence. No fire/un-fire inferred. `straits.live` remains excluded by SPECS_TRADE_RULES BH13; IRGC claims do not establish capacity loss or interdicted-trade classification. Policy/EIA/BRT31 owner work and HENRY measurement adoption remain pending. [Receipt](../audits/2026-10-20_startup/receipt.json).
 
 > # 📟 **REGISTERED ALERT LINES — THIS BLOCK IS READ AT RUN TIME BY THE FOUR CLOUD ROUTINES. IT IS THE SINGLE POINT OF TRUTH FOR WHAT THEY WATCH.**

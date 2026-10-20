@@ -1,0 +1,62 @@
+[
+  {
+    "key": "proposal",
+    "url": "https://www.alaraby.co.uk/politics/خاص-مقترح-قطري-باكستاني-وسطي-لإحياء-المفاوضات-بين-واشنطن-وطهران",
+    "retrieved_at": "2026-10-20T14:49:38.285264+00:00",
+    "web_reader": "substantive body read in this session",
+    "http_status": 200,
+    "final_url": "https://www.alaraby.co.uk/politics/%D8%AE%D8%A7%D8%B5-%D9%85%D9%82%D8%AA%D8%B1%D8%AD-%D9%82%D8%B7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86%D9%8A-%D9%88%D8%B3%D8%B7%D9%8A-%D9%84%D8%A5%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A8%D9%8A%D9%86-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D8%B7%D9%87%D8%B1%D8%A7%D9%86",
+    "bytes": 111887,
+    "sha256": "ca247d291e2256897c9475d0719c99eb15674a9108ce2f2917dbeebf9fde5ad8",
+    "saved": "proposal.html"
+  },
+  {
+    "key": "iea",
+    "url": "https://www.iea.org/news/iea-governing-board-statement-on-energy-markets-and-security",
+    "retrieved_at": "2026-10-20T14:49:38.647363+00:00",
+    "web_reader": "substantive body read in this session",
+    "http_status": 403,
+    "final_url": "https://www.iea.org/news/iea-governing-board-statement-on-energy-markets-and-security",
+    "bytes": 5671,
+    "sha256": "8126b36afbea17b45831024b2af498b6ec0f62e3adbbc0523ace67ed63fdf84b"
+  },
+  {
+    "key": "waiver",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+    "retrieved_at": "2026-10-20T14:49:38.736639+00:00",
+    "web_reader": "substantive body read in this session",
+    "http_status": 200,
+    "final_url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+    "bytes": 313732,
+    "sha256": "35de5b633d0164dff2924b6070bc2f4921a338cc1c6f0d3128ecc68ba0aa8c10",
+    "saved": "waiver.html"
+  },
+  {
+    "key": "qatari-remarks",
+    "url": "https://www.aa.com.tr/en/us-israel-iran-war/iran-us-negotiations-ongoing-as-regional-tensions-mount-qatari-official/4094349",
+    "retrieved_at": "2026-10-20T14:49:38.861151+00:00",
+    "web_reader": "substantive body read in this session",
+    "direct_capture_error": "HTTPSConnectionPool(host='www.aa.com.tr', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "key": "reuters-stalemate",
+    "url": "https://www.investing.com/news/commodities-news/iran-prolongs-talks-in-stalemate-to-influence-us-midterms-officials-say-4959490",
+    "retrieved_at": "2026-10-20T14:49:52.118231+00:00",
+    "web_reader": "substantive body read in this session",
+    "http_status": 403,
+    "final_url": "https://www.investing.com/news/commodities-news/iran-prolongs-talks-in-stalemate-to-influence-us-midterms-officials-say-4959490",
+    "bytes": 3,
+    "sha256": "d26eae87829adde551bf4b852f9da6b8c3c2db9b65b8b68870632a2db5f53e00"
+  },
+  {
+    "key": "reuters-morning",
+    "url": "https://www.aol.com/articles/oil-eases-markets-assess-potential-004807000.html",
+    "retrieved_at": "2026-10-20T14:49:52.219853+00:00",
+    "web_reader": "substantive body read in this session",
+    "http_status": 200,
+    "final_url": "https://www.aol.com/articles/oil-eases-markets-assess-potential-004807000.html",
+    "bytes": 785569,
+    "sha256": "9a1ae2fcb76d513c1ead220646dc4c6e17093165bc8e8b5b20b2b28830cef69d",
+    "saved": "reuters-morning.html"
+  }
+]

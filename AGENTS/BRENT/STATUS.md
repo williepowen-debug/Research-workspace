@@ -1,12 +1,10 @@
 # BRENT STATUS
 
-**Startup recovery October20 — SCOPED-PARTIAL:** boot 7 OK / 3 FINDINGS / 0 FAIL, rc2. EIA utilization stale; JWC/CFTC instrument gaps remain. Broker reconciliation now closes the stale October14 call row; positions and authority → [TRADE](TRADE.md). Last fundamental owner synthesis below remains October14, not refreshed by this receipt. [Runtime, approvals, mail dispositions and dependencies](audits/2026-10-20_startup/receipt.json).
-
-**Recovered work:** October15 EIA routine output and October16 COT#10 already exist; do not repeat the latter grade. Policy/inventory owner interpretation, BRT31 price-check and HENRY December measurement adoption remain open. WAIT / WQ192 unchanged; no new Will decision or trade authority. Three correction restrictions applied in startup receipt; deferred mail is not completed research.
+**October20 news catch-up — SCOPED-PARTIAL:** sharp same-contract crude reversal accompanies a Qatar-Pakistan proposal reported by anonymous Al-Araby sources; no signed deal/operating reopening verified. IEAOctober15 acceleration including>20Mdiesel confirmed at primary; October16GrahamAct waiver preserves older sanctions. **WAIT retained; no new grade/authority.** [Findings, prices/contracts/clocks and contrary evidence](research/2026-10-20_deal-news/REPORT.md). Market quotes observed about10:37EDT/captured10:48, not settlements. October15regionalWPSR/BRT31owner evaluation and HENRYadoption remain open. Broker truth/rules → [TRADE](TRADE.md).
 
 **Last real data refresh: 2026-10-14 14:12 EDT — SCOPED-PARTIAL:** direct EIA/FedEx bodies observe October12retail and lagged surcharge; utilization API returns October2, present but outside unchanged10day budget. Option quotes retain13:30EDT/unknownbid-askclocks; IEA retains September estimates/forecasts. Earlier boot6OK/4FINDINGS/0FAIL,rc2 not reissued. [Operational review](audits/2026-10-14_operational-followups/REPORT.md).
 
-**Current judgment:** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
+**October14 judgment (dated):** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.
 
 **Shipping check / October15 prep 2026-10-14 13:05 EDT:** both requested stages COMPLETE in order. Fresh PortWatch queries show weaker matched seven-day Fujairah/Sohar tanker-export estimates through October9; not a post-sinking loss measurement. MPA direct body recovered; freight evidence mixed, with better later diesel-delivery economics. [Shipping result](research/2026-10-14_shipping-check/REPORT.md). Archived EIA baseline, exact series, policy accounting and BRT31 letter prepared; future October15 results remain ungraded. [Worksheet](research/2026-10-15_release-prep/WORKSHEET.md). Will handles calls; continued energy option exposure is the research question, no replacement ticket/roll approved. VLO holding-rule explanation is hold/exit assessment, not an instruction to sell; TERRY grades, original share only.
 
@@ -75,7 +73,7 @@
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **Sat Oct 10** | DIESEL TAX RELIEF — five-day implementation directive from October5 order | 🟠 |
 | **Wed Oct 14** | 🟠 IEA OMR OCTOBER — stock-release delivery / supplemental-diesel watch + global stock draw | 🟠 |
-| **Thu Oct 15** | IEA GOVERNING BOARD — diesel-release implementation and supplemental-volume assessment | 🟠 |
+| **Thu Oct 15** | ✅ IEA GOVERNING BOARD — GRADED October20: October15 statement/acceleration verified; delivery sizing remains open | 🟠 |
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK IMPLEMENTATION — modeled end of first20-day frontloaded-diesel window (October2 commitment,100M oil over4months; incremental overlap not assumed) | 🟠 |
 | **Thu Oct 22** | VALERO Q3 2026 RESULTS — L689 margin/operations comparison | 🟠 |
 | **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
