@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-10-20 monitor repairs, heavy closeout
+# BOND SCRATCH — 2026-10-20 final session close, standard tier
 
 > STATE AT WRITING: TBT5 shown at FORGE10/20, WQ357 SELL APPROVED10/15, no sale fill evidenced; TLT82P closed10/12. NO-ADD WQ280; WQ291 kill MET recommendation, funding window UNGRADED. Composite17/35 (5+4+2+3+1+1+1), clean nominal counter2, OPEN predictions1(BND32). Frontiers: Treasury nominal/real10/19; ICE10/19; repo10/19; FR2004as-of10/7; ACM10/16; Bund10/20; vendor10/20intraday11:40–11:55ET.
 
@@ -11,7 +11,7 @@ Will authorized getting BOND caught up to live news/files after the explicit sta
 - Current news: Treasury dealer agenda contains buyback/liquidity/intermediation and structural-demand questions, no specific20Y-suspension proposal. France latest secondaryscreen150.8bp10/20, bond-closeclock unverified; HANS remains owner. CoreWeave project-finance story is secondary analyst counterclaim, terms unverified. SIFMA throughSep aggregate2195.1B is lagged, not current HY-access clearance.
 - Same-day-close bracket for10/15buyback completed in a new wrapper/output, preserving old dig: paidyielddiscount+10.3bp vs same-dayclose,+11.4operationadjusted. Five recordedF2opsOFF;carrier clean,next10/27.
 - Issuer schedulePDF visually verified by columns:20Y10/21,TIPS10/22,2Y/5Y/FRN/7Y10/26–29,nominalrefunding11/9/10/12. docket_check rc0 butemptycouponset:verified no dates;primaryPDF verification is separate. Frozen bars and manual2dp fallback unchanged;no grader repair.
-- Seven WALTER deliveries integrated,7board_logrows,gitmv→inbox/processed. General inbox drained2: HENRYACMrepair independently reproduced;PROMEORACLEdatedcompanion LOG_ONLY. No source-owner claims silently replaced.
+- Seven WALTER deliveries integrated,7board_logrows,gitmv→inbox/processed. Earlier catch-up processed two general packets: HENRY ACM repair independently reproduced; PROME ORACLE dated companion LOG_ONLY. No source-owner claims silently replaced.
 - Recovered missed approval: WQ357 RULED APPROVE10/15 supersedes staleLATER/HOLD;posture token corrected onSTATUS/THESIS/TRADE, holdingsnotchanged. WQ360oldcardlapsedunapproved. User10/20no-expiry-reminders observed;newNOT-FIREDideasstillTERRY/Will.
 - ExistingR3carry recovered:processedOctober1verdict had no locatedanswer. Namedrejections/replacements answered toPROME;seven testedclean termsadopted/retained,noisyUSD-HYquerydeclined. No config/feed/cadencechange claimed.
 
@@ -38,7 +38,7 @@ FORGE10/20TBT5stilldisplayed;WQ357approvedsell,no sale fillseen. TLT82Pclosed10/
 
 ## MAIL / DELIVERY
 
-Nineincomingpacketsprocessed,includingsevenWALTER. Completion/R3packets→PROME/inbox,explicitcarve-out①commits. Thread-localdiscoveryexposesonly/root;fullfleet/nativepeertransportUNKNOWN,notDARK. Recipientnotification/consumptionnotclaimed. Startup pull remainsdeferredforforeignWALTERdirtypaths;thoseuntouched. Safe-pushfreshfetchwillestablishgraphcurrencyorabortunderrootprotocol;neverforce.
+Ten incoming packets processed today, including seven WALTER and the late VULCAN packet (KB500). Completion/R3packets→PROME/inbox,explicitcarve-out①commits. Thread-localdiscoveryexposesonly/root;fullfleet/nativepeertransportUNKNOWN,notDARK. Recipientnotification/consumptionnotclaimed. Startup pull remainsdeferredforforeignWALTERdirtypaths;thoseuntouched. Safe-pushfreshfetchwillestablishgraphcurrencyorabortunderrootprotocol;neverforce.
 
 Pre-closeoutcheckrc0(allfourcomponents),boot-recomputeafterrc0. Finalcalendarpassaddedsevenexisting-domainmacrorelease rows;KB497. BLSordinaryGET403butwebissuerreadsuccess;BEArawsaved. Docketcompletedrowsrotatedverbatim(10),nowunderrotationstop. MEMORYrotationadvisorynoted;charterexplicitreadbytecountoutsidecheckerperimeterreported,neitherchanged.
 
@@ -59,3 +59,13 @@ C1 STATUS repair note/twin/bottomline updated; composite17/35 and counter2 re-su
 No threshold/score/band superseded; output repairs conform to existing registered figures. Month-end bars still freeze10/22. OriginalOctober1A2byte-identicaloutput not reconstructed; full-series20Ytoolnotbuilt. BroaderHYaccess/event-timeTIPS/durationproxy/privatefundingandgovernancegapsremain. Dependencies:rootvenvcomplete,systemPythonresearchpackagesmissing;optionalLEDGER_GLOBabsent. ForeignCATO/WALTER/PROMEdirtypathsuntouched,pulldeferred. Closurepacketself-authoredtoPROME;notification/consumptionnotclaimed. No external send, new research scope, trade, new decision or reminder.
 
 Late closeout arrival: firstheavy run failedFILE-STATE because VULCAN packet landed after earlier inbox processing. Read ownerISSUANCEreport/SEClocators,LOG_ONLYKB500;gitmv→processed. SelectedMetaMay$25B/$14B20yr+andAmazonJuly$25B/$9B20yr+are USDprincipal/contractualtenor,not measured duration or fullmarketinventory. No AI-onlyproceeds/marketshare/Treasurycausality;BONDdidnotindependentlyre-fetchSEC. No score/channel/thesis change;VULCANfullinventoryowed10/23. RECEIPTlate-additionkeepspreviousrepairresult;boardlogno-op(noWALTERsignal). FullheavyC12restartafterNEXUSlastwrite.
+
+## Final session close — October20
+
+Will requested closing here. Repair commit2e1117ae4 pushed and fresh-fetch confirmed before this closing turn. Four immediate repairs complete; independent Codex review and test receipts saved. Inbox rechecked by final runner. Other desks' cache paths untouched; pull deferred. No further research, trade, source update or approval request. PROME packet committed; consumption remains unverified.
+
+C1 STATUS closing header updated; composite17/35,counter2 unchanged. C2 KB/VX/FLOWno-op:no new evidence or vector/channel movement. C3 predictionsno-op:BND32notdue. C4 THESIS/CHANGELOG/tokensno-op:no thesis/gate/position change. C5 docketno-op:no catalyst outcome or new date. C6 TRADEno-op:posture/invocation already current. C7 final handoff saved. C8 RECEIPT/boardlogno-op:no new tasked research or incoming signal processed this closing turn. C9 MEMORY/auto-memoryno-op:no new lesson. C10 not applicable:no tool/spec change. C11 NEXUS_BRIEF intentional no-op:owner pointers and analytical state current, no new consumed figure. C12 standard runner, separate freeze verification, exact-path commit and safe-push follow; receipts in registry/Git.
+
+Next entry: October21 20Y-R actual grade using existing frozen-bars JSON; October22 TIPS/FR2004/PMMS and month-end nominal-bar freeze. No outcome assumed. Broader access/proxy/event-time gaps and governance deferrals remain as listed above. Nothing requires Will's decision at this ending.
+
+Final close correction: WALTER INFO packet SIG-W-20261020-020 arrived after the earlier repair closeout. Read for triage only; retained unprocessed in inbox/WALTER for next session. It disputes Treasury-collapse framing of gold-trade figures and supplies dated TIC context; no acute escalation or capital action identified. No packet evidence adopted or board-log receipt claimed. Current inbox is NOT drained: one pending WALTER packet at inspection. First final standard run failed on an earlier undated completion claim; corrected its historical scope and restarted C12. KB/VX/FLOW intentionally frozen: this closing turn changes no evidence, level, score or channel; ledger advisory disposition is this record and commit message.

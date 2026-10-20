@@ -1,6 +1,8 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-20 monitor repairs (Will-directed, OpenAI Codex). **Last real data refresh: 2026-10-20.** Exact deployed model UNKNOWN; session `01a15a02-565d-76c1-9d89-07653c5d3b62`.
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-20 session close (Will-directed, OpenAI Codex); repairs completed and pushed at `2e1117ae4`. **Last real data refresh: 2026-10-20.** Exact deployed model UNKNOWN; session `01a15a02-565d-76c1-9d89-07653c5d3b62`.
+
+Close handoff: one newly arrived WALTER INFO packet (`SIG-W-20261020-020`) triaged, retained for next-session processing; no new evidence incorporated.
 
 Frontiers: Treasury nominal/real **10/19** · ICE credit via FRED **10/19** · NY Fed repo **10/19** · FR2004 as-of **10/7** · ACM **10/16** · Bund fitted **10/20** · vendor intraday **10/20 11:40–11:55 ET**. FRED DGS/DFII mirror ends **10/16**, behind issuer. Evidence: `analysis/2026-10-20_catchup/REPORT.md`, `derived.json`, raw manifest. Prior October15 report is history.
 
