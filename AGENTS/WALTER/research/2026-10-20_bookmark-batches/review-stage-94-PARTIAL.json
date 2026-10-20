@@ -46,43 +46,43 @@
     },
     {
       "id": "2112548894135689316",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112515388583940598",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112409180606992703",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/SOURCE-READS.md#layoffs",
       "ask_user": null
     },
     {
       "id": "2112417814518616387",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112385534039331199",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112529225890591163",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "FOLD",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },

@@ -1,24 +1,26 @@
-# WALTER LAST_COMPLETION — bookmark backlog batch 1
+# WALTER LAST_COMPLETION — bookmark backlog batch 2
 
-Updated 2026-10-20T15:25:40Z. Will-launched Codex/OpenAI, GPT-6 family, exact variant UNKNOWN; session01a159bd-f630-7e51-891e-183785fc0f61. User explicitly requested independent review, coordinated publication and one supervised live run; WQ458 separate. General boot remains PARTIAL. Predecessor receipt preserved verbatim in research/2026-10-20_bookmark-live-acceptance/prior-LAST_COMPLETION.md.
+Updated 2026-10-20T15:41:25Z. Will-launched Codex/OpenAI, GPT-6 family, exact variant UNKNOWN; session01a159bd-f630-7e51-891e-183785fc0f61. User explicitly requested independent review, coordinated publication and one supervised live run; WQ458 separate. General boot remains PARTIAL. Predecessor receipt preserved verbatim in research/2026-10-20_bookmark-live-acceptance/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Independent acceptance COMPLETE for final code23d8dbead,67tests/sixprobes. Accepted code PUBLISHED (fresh-fetch ancestor proof). Live production fetch/isolated copied-state mark/authenticated resumption passed.Batch1of16dispositioned:6items (3dispatch,2DUP,1NO-ACTION),4fullyread/2partlyreadwithfollow-ups;90untriaged;0production marks. Bounded technical check complete; normal source-consumption and existing general duties remain unfinished.
+Independent acceptance COMPLETE for final code23d8dbead,67tests/sixprobes. Accepted code PUBLISHED (fresh-fetch ancestor proof). Live production fetch/isolated copied-state mark/authenticated resumption passed.Batches1–2of16CLOSED:12bookmarks dispositioned,9fullyread/3partlyreadwithfollow-ups;84untriaged;0production marks. Bounded technical check complete; normal source-consumption and existing general duties remain unfinished.
 
 ## CHANGED
 
-Final workflow/test downgrade correction23d8dbead; independent review/probes/hash-bound evidence, live fetch/copied-state receipts, pending-ID stage/fetched receipt, owning acceptance note/dependent guide, continuity and result packet. Current batch adds BOARD001–003,8create-only recipient handoffs, route/delivery logs and CLOSED manifest BM-20261020-01. No market-grade event or trade. Carrier/housing narrow verification helpers explicitly closed; no remaining helper/background work.
+Final workflow/test downgrade correction23d8dbead; independent review/probes/hash-bound evidence, live fetch/copied-state receipts, pending-ID stage/fetched receipt, owning acceptance note/dependent guide, continuity and result packet. Batch2addsBOARD004–007,12create-only handoffs and CLOSED7-content-item manifest BM-20261020-02 (six bookmarks;Pepsi/QCOM separate). Batch1previouslyadded001–003/eight handoffs. No market-grade event/trade. Allthreecurrentverifiers explicitlyclosed; no remaining helper/background work.
 
 ## RESULT
 
-**Current batch receipt:** research/2026-10-20_bookmark-batches/RESULT.md and BATCH-PLAN.json. BM-20261020-01 CLOSED6/6. Housing001toHOMER(newSeptemberprint;recordwithheld),AI002toVULCAN(datedSeptember22primary;premiumrelaypartlyread),helium003toVULCAN(namedfactoryallocationreport;transcriptread/video-unwatched). CarrierDUP1002-003;USODUPBRENTtoday;Oct5OATopinionNO-ACTION. No production scan/mark,seen870unchanged. Source follow-ups are explicit, not autonomous jobs. New routes written locally; publication and recipient consumption not yet confirmed. Current run remains LIGHT routing closeout; accumulated full-deferred narrative debt is surfaced, not cleared by selected checks. General boot/financing/threshold/READS obligations below survive. Next review next user-directed batch/existing owner windows.
+**Current batch receipt:** research/2026-10-20_bookmark-batches/batch2/RESULT.md and parent BATCH-PLAN.json. BM-20261020-02 CLOSED7/7contentitems (sixbookmarks):4DISPATCH/2FOLD/1NO-ACTION.004Patriotpending-consent/HAWK;005Koreaconditionalpolicy/HENRY;006Pepsi+QCOMqualifiedannouncements/LABOR;007HSBC+independentcontractmodel/VULCAN+LIQUID. IndiachartNO-ACTIONafterimageinspection. Fullmodeltext/allfourimagesread,selectedreferenceIRRreproduced;notvalidatedactualcontracts. Cumulative12of96dispositioned;84untriaged;9fullyread/3partlyreadwithfollow-ups. No production scan/mark/stage edit; one read-only single-postdetailGET200. Seen870unchanged. Newrouteslocal;publication/consumptionUNKNOWN. LIGHT routing; accumulatedfull-narrativedeferraldebt surfaced,notcleared. MissingoptionalCROSS_REFSforeachrouteddesk documented inSOURCE-READS; tables/carveouts/owner evidence used. No ownerlaunch/backgroundjob.
+
+**New inbound carry:** SAM's October20Japan-sweeppacket read in full; integration/anynecessarycorrectiondispatch not yet complete. Packet remains NEW, no consumption declared. Owner work is currently dirty; preserve its dated20Yauction,Septembersectorflows,Fukokuplan/Uedabasis distinctions. Do not repeat stale ongoingFukoku30Yexit as fact. Source-reportreadpartial; no new grade or aggregatecarry-unwind conclusion. Finish this after the bounded batch; previous generalboot/financing/threshold/READS duties survive.
 
 Reviewed exact-ID binding plus metadata-loss recovery:67offline tests and six independent adversarial probes pass. First500-row live segment recovered94unprocessed IDs and correctly reported incomplete. Copied-state honest unread review/mark succeeded; real authenticated cursor resumption found2more and reached returned tail. Byte hashes prove production seen/stage/proposal unchanged by copied-state check; actual870consumed unchanged. Last headcheck15:10:35Z; resumedtail15:11:52Z,notfreshhead. This is technical acceptance, not completed source research. Code23d8dbead and earlier repair0c9de1e41/recordb1eaec4a2 proven on fetched origin/mastera4d7e79fe. No reauthorization needed. Full evidence research/2026-10-20_bookmark-live-acceptance/RESULT.md.
 
 ## GAPS / OWED
 
-- **Bookmark source backlog / production completion:** independent code acceptance and code publication are COMPLETE for23d8dbead. Live technical fetch/review-schema/isolated-mark/authenticated-resume checks passed.96IDs discovered:6dispositioned (4fullyread/2partlyreadwithfollow-up),90untriaged (88in real pending stage;2from isolated live resume). Exact94stage still intact; partial schema2review saved in research/2026-10-20_bookmark-batches; null entries prohibit completion. Production seen870 unchanged,0production marks; normal source review/routing/disposition and production mark/resume remain owed. Never use isolated-smoke-review.json against real pending. Complete remote traversal on copied state is not production consumption or a changing-list snapshot. WQ458 remains separate/unresolved; today's bounded acceptance run has direct user authorization.
+- **Bookmark source backlog / production completion:** independent code acceptance and code publication are COMPLETE for23d8dbead. Live technical fetch/review-schema/isolated-mark/authenticated-resume checks passed.96IDs discovered:12dispositioned (9fullyread/3partlyreadwithfollow-up),84untriaged (82in real pending stage;2from isolated live resume). Exact94stage still intact; partial schema2review saved in research/2026-10-20_bookmark-batches;82null entries prohibit completion. Production seen870 unchanged,0production marks; normal source review/routing/disposition and production mark/resume remain owed. Never use isolated-smoke-review.json against real pending. Complete remote traversal on copied state is not production consumption or a changing-list snapshot. WQ458 remains separate/unresolved; today's bounded acceptance run has direct user authorization.
 
 - **Current financing attribution:** primaryfourunmatched;datedissuercreditpanel,currentcash/draw/covenant/fullobligation/newsclockgaps. Initial HENRY/LIQUID/CRUISE/WAL/VIOLET contribution dependencies delivered/read; no waiting-on-shortlist blocker. Science remains partial,not backgroundexecution.
 
@@ -44,7 +46,7 @@ None newlycreated. ExistingWQ458bookmarkcontinuationdecisionremainsregisteredwit
 
 Existing approval remains Will’s “Okay approved go ahead and begin these.” Broader financing attribution is unfinished; initial owner screens and bounded evening integration are complete. Bookmark implementation history is rotated verbatim to SESSION_LOG; the binding repair is implemented; independent acceptance/code publication are complete; production source-consumption and WQ458 limits remain live above.
 
-1. Current bookmark acceptance result is research/2026-10-20_bookmark-live-acceptance/RESULT.md; independent review helper explicitly closed. Will authorized batch review now:16batchesof6;batch1closed, nextbatch2 IDs in BATCH-PLAN.json. Accumulate all94valid review entries before production mark, then resume the real cursor for2known tail IDs and check a fresh head as authorized. Never substitute the copied-state smoke review. WQ458/L599/L728 ownership stays with PROME; no pilot renewal inferred. PROME consumes the new accepted-result packet; native acceptance/consumption not inferred.
+1. Current bookmark acceptance result is research/2026-10-20_bookmark-live-acceptance/RESULT.md; independent review helper explicitly closed. Will authorized batch review and explicitlyapprovedbeginning:16batchesof6;batches1–2closed,nextbatch3 IDs in BATCH-PLAN.json. Existingauthorization suffices; no repeated batch permission request. Accumulate all94valid review entries before production mark, then resume the real cursor for2known tail IDs and check a fresh head as authorized. Never substitute the copied-state smoke review. WQ458/L599/L728 ownership stays with PROME; no pilot renewal inferred. PROME consumes the new accepted-result packet; native acceptance/consumption not inferred.
 2. RED/REGINALD apply their published3/3 entry consequences with REGINALD bank attribution separate; LIQUID's current MET rung retains X1 CLOSED/DON'T-SIZE. TERRY existing card request is BOARD003, not approval to size.
 3. GIBBS existing lane used by001: FITB published10/19 morning,09:00ETcall; PROME corrects oldL704AMC wording and integrates bank comparison/NDFI withBROCK. No new GIBBS launch here.
 4. FALCON/BRENT existing owner lanes for005; full Iran sweep due~10/22, no clock reset. CapeDao/GFS PRIDE and asset census remain owner work; no '$136physical','USaskedpermission' or 'Straitclosed' carried as fact. OSPREY terminal003Sunday; L661read2HOLD10/23.
@@ -88,12 +90,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-Light routing closeout of bookmark batch1. Six dispositions saved;90untriaged;0production marks,94real stage intact. Three BOARD signals/eight handoffs locally written; publication deferred with foreign SAM/REGINALD work. Code acceptance remains published. Two verification helpers closed; no background work. Prior/full-deferred/generalboot/source/financing duties preserved. Selected checks are not general procedure clearance.
+Light routing closeout of bookmark batch2. Twelve cumulative bookmark dispositions saved;84untriaged;0production marks,94real stage intact. Seven BOARD signals/twenty handoffs locally written;publication deferred with foreign SAM/REGINALD work. Batch1commit70b8667a7local,notoriginproven. Code acceptance remains published. Three current verification helpers closed;no background work. Prior/full-deferred/generalboot/source/financing duties preserved. Selected checks are not general procedure clearance.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-20T15:26:49Z",
+  "as_of": "2026-10-20T15:41:25Z",
   "next_review": "2026-10-21",
   "publication": [
     {
@@ -107,13 +109,17 @@ Light routing closeout of bookmark batch1. Six dispositions saved;90untriaged;0p
     {
       "commit": "b1eaec4a2",
       "state": "published"
+    },
+    {
+      "commit": "70b8667a7",
+      "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261020",
-    "total": 8,
+    "total": 20,
     "delivered": 0,
-    "note": "Eight create-only handoffs for BOARD001\u2013003 written locally; publication deferred for foreign SAM/REGINALD work; consumption UNKNOWN."
+    "note": "Twenty handoffs for BOARD001\u2013007 locally written; publication deferred for foreign SAM/REGINALD work; consumption UNKNOWN."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -152,7 +158,7 @@ Light routing closeout of bookmark batch1. Six dispositions saved;90untriaged;0p
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/BATCH-PLAN.json",
-        "sha256": "ef703679b423b2496695faf7e0bc71a46e6cf7c415c0826ae7a501f739442c7f"
+        "sha256": "0401181997b9ef4d02861fae2e832c147f5446688f12e7984063b17301cb61f9"
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md",
@@ -168,7 +174,31 @@ Light routing closeout of bookmark batch1. Six dispositions saved;90untriaged;0p
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/review-stage-94-PARTIAL.json",
-        "sha256": "62c9cd7984c547f9431863edcdbd5a466657bf84475cbfd60637ed6acee272f1"
+        "sha256": "d4ba6af1fff418e3c59122b04bd48435a3562137fcdbbfce1b39c587942cb816"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/RESULT.md",
+        "sha256": "61036ccc34177d369028c51145d2cb81c135c88fc15b2adf0374a629ac89fd59"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/SOURCE-READS.md",
+        "sha256": "1666c45fe18e557b7f3a84d1b65bf9474c28b254adc0f078ae743c61e1b2a93c"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-patriot.md",
+        "sha256": "248b9ba0bbc858898e419e38b9a823fc9180b5a762afe283ec671be3968b61ce"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-korea.md",
+        "sha256": "b9d856758073ea4311b41dd350550f3cdf910b58bcd90680498c964966556414"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/verify-layoffs.md",
+        "sha256": "d64468d61e445e01c7aab3d88ddcf34a737e040fa03d359781678d9272f35464"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/model-arithmetic.json",
+        "sha256": "828844a7bb69c317a33767e569483ebfda1f2255827930e58eb64148e7913921"
       }
     ]
   },
@@ -176,20 +206,21 @@ Light routing closeout of bookmark batch1. Six dispositions saved;90untriaged;0p
     "tier": "light",
     "boot": "PARTIAL",
     "owner": "WILL",
-    "ask": "Will authorized batch review of unprocessed bookmarks; age/duplicate checks",
-    "closeout": "batch1 CLOSED6/6;90untriaged;0production marks; LIGHT routing; full narrative debt surfaced"
+    "ask": "Will approved beginning next bookmark batch under existing backlog review authorization",
+    "closeout": "batches1\u20132 CLOSED;12bookmarks dispositioned,84untriaged; LIGHT routing and full narrative debt retained"
   },
   "manual_duties": {
-    "Tier1": "STATUS/LAST/MEMORY affected bookmark counts updated; older market levels explicitly dated; no broad market refresh",
-    "helpers": "two narrow carrier/housing verifiers explicitly closed; no owner launch/background work",
-    "7h": "six dispositions saved in exact94-stage partial review;88entries null; no production scan/mark;2known tail IDs require later production resume",
+    "Tier1": "affectedSTATUS/LAST/MEMORYupdated; older levels not refreshed; source limits explicit",
+    "helpers": "three bounded verifiers explicitlyclosed; no ownerdesklaunch/backgroundwork",
+    "7h": "12reviewentries,82null in exact94stage; no production scan/mark; single-post full-text GET200 for truncated source;2tail IDs await real resumption",
     "root.retirement": "prior receipt archived here verbatim; no source deletions; no claim of full historical source retirement",
-    "16": "exact-path local commit planned; publication deferred for foreign dirt; no consumption inferred",
-    "ledgers": "route/delivery/BATCH events updated; kill_log no KILL event, REGISTRY no new ownership or grade, correction/fire/deep-research/doorbell logs no qualifying event; prior general review clocks not renewed",
+    "16": "batch1commit70b8667a7local; batch2exact-pathcommitpending; foreignSAM/REGINALD work blocks pull/sync; no consumption inferred",
+    "ledgers": "route/delivery/BATCH eventsupdated; killnoevent;REGISTRYnoownership/gradechange; source-only framing corrections create no prior-WALTER correction event; general clocks retained",
     "14": "sessionnote updated; no auto-memory;99lines",
-    "basis": "existing READS/bootbasis review gaps retained; byte checks do not certify general boot",
-    "11": "three BOARD signals/route rows,eight create-only handoffs,CLOSED6/6manifest; two DUP and one NO-ACTION rationale in RESULT",
-    "Tier1.breadcrumb": "SESSION_LOG LIGHT entry; >=3 full-deferred narrative debt surfaced; not cleared by selected checks"
+    "basis": "generalboot/READS/threshold/fullnarrative gaps retained; missingrouteCROSS_REFSdocumented; no attestation renewed",
+    "11": "fournewBOARD004\u2013007/route rows,twelvecreate-onlyhandoffs;CLOSED7contentmanifest; cumulative12bookmarks/13contentitems/20handoffs",
+    "Tier1.breadcrumb": "SESSION_LOG LIGHT entry; >=3 full-deferred narrative debt surfaced; not cleared by selected checks",
+    "7g": "newSAMpacketread, integration/correctionrouting pending; remains NEW; no consume claim"
   }
 }
 END_CLOSEOUT_RECEIPT -->

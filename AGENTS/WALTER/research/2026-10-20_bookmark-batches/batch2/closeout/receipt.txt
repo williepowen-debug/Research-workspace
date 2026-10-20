@@ -1,0 +1,22 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "70b8667a7: claimed pending, origin proves published",
+    "SIG-W-20261020-001/HOMER: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261020-001/REGINALD: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261020-002/VULCAN: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261020-002/HENRY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261020-002/VIOLET: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261020-003/VULCAN: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261020-003/HAWK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261020-003/BRENT: ledger/origin disagree; reconcile or investigate",
+    "delivery receipt mismatch: actual 8/20"
+  ],
+  "as_of": "2026-10-20T15:41:25Z",
+  "origin_ref": "56983b88442446529ca7350a8f926bcf08dd34e2",
+  "delivery_scope": "20261020",
+  "delivered": 8,
+  "total": 20,
+  "next_review": "2026-10-21",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}
