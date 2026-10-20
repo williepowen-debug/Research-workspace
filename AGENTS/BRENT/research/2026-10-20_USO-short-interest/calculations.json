@@ -1,0 +1,28 @@
+{
+  "shares_short": 10437989,
+  "change_vs_September15": -1542614,
+  "pct_change_vs_September15": -12.875929533763863,
+  "pct_change_vs_May29": -46.908430068211906,
+  "pct_change_vs_August31": 9.104633418811602,
+  "days_to_cover_reproduction": 1.6201051253456387,
+  "issuer_shares": 12323603.0,
+  "issuer_date": "2026-10-19T05:00:00",
+  "mixed_date_ratio_pct_context_only": 84.69916630712625,
+  "warning": "September30 short numerator divided by October19 issuer outstanding denominator; NOT current or matched-date short float",
+  "marketbeat_reported_float_pct": 92.21,
+  "marketbeat_implied_float": 11319801.539963128,
+  "chartexchange_search_Sept30_pct": 77.76,
+  "chartexchange_implied_denominator": 13423339.763374487,
+  "FINRA_pct_float": "NOT PROVIDED",
+  "current_borrow_fee": "Market-wide/current primary UNKNOWN; dated one-broker secondary snapshot in borrow-proxy.json",
+  "dated_broker_proxy": {
+    "source_url": "https://chartexchange.com/symbol/nyse-uso/borrow-fee/",
+    "underlying_source_claim": "Interactive Brokers",
+    "as_of": "2026-10-20T09:32:58-04:00",
+    "retrieved_at": "2026-10-20T11:11:01-04:00",
+    "fee_pct_annual": 3.07,
+    "shares_available": 150000,
+    "source_class": "secondary redistribution of one broker inventory; primary IBKR loan file not directly recovered",
+    "limits": "Earlier snapshot, not current all-broker inventory, total shares on loan, utilization or guarantee of borrowing. Earlier same-page zero observations are not market-wide absence."
+  }
+}

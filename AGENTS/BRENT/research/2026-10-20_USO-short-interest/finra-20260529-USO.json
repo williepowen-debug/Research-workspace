@@ -1,0 +1,42 @@
+{
+  "url": "https://cdn.finra.org/equity/otcmarket/biweekly/shrt20260529.csv",
+  "status": 200,
+  "bytes": 2148757,
+  "sha256": "aa2f117eb21ef704d919e566aeb265b82f9faca69b47f5571089080bd3514d0a",
+  "retrieved_at": "2026-10-20T15:07:10.294951+00:00",
+  "USO_rows": [
+    {
+      "accountingYearMonthNumber": "20260529",
+      "symbolCode": "USO",
+      "issueName": "United States Oil Fund, LP",
+      "issuerServicesGroupExchangeCode": "E",
+      "marketClassCode": "ARCA",
+      "currentShortPositionQuantity": "19660351",
+      "previousShortPositionQuantity": "18730027",
+      "stockSplitFlag": "",
+      "averageDailyVolumeQuantity": "8600937",
+      "daysToCoverQuantity": "2.29",
+      "revisionFlag": "",
+      "changePercent": "4.97",
+      "changePreviousNumber": "930324",
+      "settlementDate": "2026-05-29"
+    }
+  ],
+  "total_rows": 21989,
+  "fields": [
+    "accountingYearMonthNumber",
+    "symbolCode",
+    "issueName",
+    "issuerServicesGroupExchangeCode",
+    "marketClassCode",
+    "currentShortPositionQuantity",
+    "previousShortPositionQuantity",
+    "stockSplitFlag",
+    "averageDailyVolumeQuantity",
+    "daysToCoverQuantity",
+    "revisionFlag",
+    "changePercent",
+    "changePreviousNumber",
+    "settlementDate"
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "key": "finra-metadata",
+    "url": "https://api.finra.org/metadata/group/otcMarket/name/equityShortInterest",
+    "status": 200,
+    "bytes": 2943,
+    "preview": "   {\"datasetGroup\":\"OTCMARKET\",\"datasetName\":\"EQUITYSHORTINTEREST\",\"description\":\"FINRA Rule 4560 requires FINRA member firms to report their short positions in"
+  },
+  {
+    "key": "finra-otc-metadata",
+    "url": "https://api.finra.org/metadata/group/otcMarket/name/consolidatedShortInterest",
+    "status": 200,
+    "bytes": 2487,
+    "preview": "   {\"datasetGroup\":\"OTCMARKET\",\"datasetName\":\"CONSOLIDATEDSHORTINTEREST\",\"description\":\"FINRA Rule 4560 requires FINRA member firms to report their short positi"
+  },
+  {
+    "key": "nasdaq-short",
+    "url": "https://api.nasdaq.com/api/quote/USO/short-interest?assetclass=etf",
+    "status": 200,
+    "bytes": 183,
+    "preview": "{\"data\":null,\"message\":\"Short interest is not available. Short interest is only supported for Nasdaq Listed stocks\",\"status\":{\"rCode\":200,\"bCodeMessage\":null,\"d"
+  },
+  {
+    "key": "issuer",
+    "url": "https://www.uscfinvestments.com/uso",
+    "status": 200,
+    "bytes": 48127,
+    "preview": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id="
+  },
+  {
+    "key": "issuer-holdings",
+    "url": "https://www.uscfinvestments.com/holdings/uso",
+    "status": 200,
+    "bytes": 28760,
+    "preview": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n  <!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id="
+  }
+]
