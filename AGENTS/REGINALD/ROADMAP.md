@@ -80,3 +80,5 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 ## RECENTLY RESOLVED — October20
 
 Will-directed reported-bank earnings catch-up → `reports/2026-10-20_reported-bank-earnings-catchup.md`; four cohort/three contextual primary releases, plus existing partial FITB owner evidence. WAL release funding grade completed; original expectation outcomes appended. Remaining call/filing questions and upcoming prints retain their existing carriers; no new monitor or research universe.
+
+**10/20 M&T capacity question ANSWERED within reported evidence:** `reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`. Earnings cover observed credit cleanup; distributions/OCI constrain retention earlier. Existing filing/release read can test the conditional expectation; borrower-level recovery and vendor EPS basis remain unknown. No new monitor/cohort or formal thesis change. Last touched2026-10-20.

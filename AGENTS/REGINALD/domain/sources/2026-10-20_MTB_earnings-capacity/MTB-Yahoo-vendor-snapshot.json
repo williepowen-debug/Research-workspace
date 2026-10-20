@@ -1,0 +1,120 @@
+{
+  "retrieved_at": "2026-10-20T16:00:20.118937+00:00",
+  "quote_info": {
+    "symbol": "MTB",
+    "shortName": "M&T Bank Corporation",
+    "regularMarketPrice": 217.89,
+    "regularMarketTime": 1792512003,
+    "regularMarketChangePercent": 1.9416084,
+    "currency": "USD",
+    "quoteType": "EQUITY",
+    "exchangeDataDelayedBy": 20,
+    "marketCap": 31466858496,
+    "sharesOutstanding": 144416262,
+    "trailingEps": 18.92,
+    "forwardEps": 21.08267,
+    "forwardPE": 10.335029,
+    "priceToBook": 1.2454274,
+    "earningsTimestamp": 1792153800,
+    "earningsTimestampStart": 1792153800,
+    "earningsTimestampEnd": 1792153800
+  },
+  "earnings_estimate": {
+    "0q": {
+      "avg": 4.98531,
+      "low": 4.91,
+      "high": 5.09,
+      "yearAgoEps": 4.67,
+      "numberOfAnalysts": 15,
+      "growth": 0.0675
+    },
+    "+1q": {
+      "avg": 4.57608,
+      "low": 4.39,
+      "high": 4.81,
+      "yearAgoEps": 4.13,
+      "numberOfAnalysts": 12,
+      "growth": 0.108
+    },
+    "0y": {
+      "avg": 19.46013,
+      "low": 19.13,
+      "high": 19.59,
+      "yearAgoEps": 17.0,
+      "numberOfAnalysts": 16,
+      "growth": 0.1447
+    },
+    "+1y": {
+      "avg": 21.08267,
+      "low": 20.76,
+      "high": 21.4,
+      "yearAgoEps": 19.46013,
+      "numberOfAnalysts": 17,
+      "growth": 0.0834
+    }
+  },
+  "eps_trend": {
+    "0q": {
+      "current": 4.98531,
+      "7daysAgo": 4.91351,
+      "30daysAgo": 4.96224,
+      "60daysAgo": 4.94012,
+      "90daysAgo": 4.95501
+    },
+    "+1q": {
+      "current": 4.57608,
+      "7daysAgo": 4.56679,
+      "30daysAgo": 4.58702,
+      "60daysAgo": 4.59557,
+      "90daysAgo": 4.5919
+    },
+    "0y": {
+      "current": 19.46013,
+      "7daysAgo": 19.27551,
+      "30daysAgo": 19.34027,
+      "60daysAgo": 19.30029,
+      "90daysAgo": 19.31036
+    },
+    "+1y": {
+      "current": 21.08267,
+      "7daysAgo": 21.04615,
+      "30daysAgo": 21.08546,
+      "60daysAgo": 21.06782,
+      "90daysAgo": 21.06663
+    }
+  },
+  "revenue_estimate": {
+    "0q": {
+      "avg": 2542255380,
+      "low": 2528000000,
+      "high": 2550000000,
+      "numberOfAnalysts": 8,
+      "yearAgoRevenue": 2475000000,
+      "growth": 0.0272
+    },
+    "+1q": {
+      "avg": 2531213750,
+      "low": 2498000000,
+      "high": 2554000000,
+      "numberOfAnalysts": 4,
+      "yearAgoRevenue": 2441000000,
+      "growth": 0.037
+    },
+    "0y": {
+      "avg": 10058072330,
+      "low": 10034000000,
+      "high": 10103498530,
+      "numberOfAnalysts": 11,
+      "yearAgoRevenue": 9690000000,
+      "growth": 0.038
+    },
+    "+1y": {
+      "avg": 10416359360,
+      "low": 10274334000,
+      "high": 10594302850,
+      "numberOfAnalysts": 11,
+      "yearAgoRevenue": 10058072330,
+      "growth": 0.0356
+    }
+  }
+}

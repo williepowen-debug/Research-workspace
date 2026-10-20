@@ -19,8 +19,8 @@
 
 ## Session Notes
 
-### CURRENT RESULT — 2026-10-20, Will-directed reported-bank earnings catch-up
-`reports/2026-10-20_reported-bank-earnings-catchup.md`: fresh releases for CFG/MTB/WAL/ZION and contextual KEY/RF/TFC; GIBBS FITB partial read consumed. WAL funding grade INCONCLUSIVE provisional; exact F3/N and noon-call evidence remain. Original October13/14 expectations gained dated outcome appendices. CUBI/FLG estimates now issuer-confirmed. No new scores/priors/cohort/trade. Source hash/arithmetic checks saved; KB232–238.
+### CURRENT RESULT — 2026-10-20, Will-directed M&T capacity follow-up
+`reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`: strongest bearish earnings reading not established; test operating capacity versus provisions, then distributions/book effects. Primary slide credit attribution narrows the CRE inference. Static scenarios saved with calculator/hash checks; Yahoo period dates recovered but EPS adjustment basis unverified, independent Nasdaq timed out. No new score/prior/cohort/trade. KB240–242. Earlier catch-up and original dated outcomes remain in `reports/2026-10-20_reported-bank-earnings-catchup.md`; issuer-confirmed dates remain CALENDAR-owned. Next existing filing/release read should append an outcome to the capacity report's conditional expectation, not create a new monitor.
 
 *Prior dated evidence → `archive/MEMORY_earnings-catchup_rotation_2026-10-20.md` (verbatim, crc32 `d1293e92`). Current result → `reports/2026-10-20_reported-bank-earnings-catchup.md`; original judgments remain dated. Re-check at any append.*
 

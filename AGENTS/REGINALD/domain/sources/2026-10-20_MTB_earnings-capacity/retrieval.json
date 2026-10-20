@@ -1,0 +1,59 @@
+[
+  {
+    "id": "Q3-presentation",
+    "url": "https://ir.mtb.com/static-files/5e370b06-317f-4dd2-a3e9-9bccff37b8bb",
+    "retrieved_at": "2026-10-20T15:59:29.914026+00:00",
+    "status": 403,
+    "bytes": 433,
+    "sha256": "ce69849c97189ca3b503f9ba67e974d85d40034aa8f66ba9a4ee438aef407c91",
+    "resolved_url": "https://ir.mtb.com/static-files/5e370b06-317f-4dd2-a3e9-9bccff37b8bb"
+  },
+  {
+    "id": "Q2-10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000050/mtb-20260630.htm",
+    "retrieved_at": "2026-10-20T15:59:29.914562+00:00",
+    "status": 200,
+    "bytes": 6194101,
+    "sha256": "1006d7c96462ceafb20a8d9ccb076da61870b54cb3d2df258767f3c0419a9afb",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000050/mtb-20260630.htm"
+  },
+  {
+    "id": "Q3-8K",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/mbt-20261016.htm",
+    "retrieved_at": "2026-10-20T15:59:29.915042+00:00",
+    "status": 200,
+    "bytes": 38962,
+    "sha256": "fdd5370bd1433f19cb26cca35280d1fc51ad6fac6f48a7616b9929b5acd9c0df",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/mbt-20261016.htm"
+  },
+  {
+    "id": "Q3-release",
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+    "retrieved_at": "2026-10-20T15:59:29.916103+00:00",
+    "status": 200,
+    "bytes": 1587142,
+    "sha256": "865bc71be175c3e4ec4de914c65b05ea92ff89544cae0487d4dfac7ea3491dac",
+    "resolved_url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm"
+  },
+  {
+    "id": "MTB-Nasdaq-forecast",
+    "url": "https://api.nasdaq.com/api/analyst/MTB/earnings-forecast",
+    "retrieved_at": "2026-10-20T15:59:30.133901+00:00",
+    "error": "HTTPSConnectionPool(host='api.nasdaq.com', port=443): Read timed out. (read timeout=30)"
+  },
+  {
+    "id": "MTB-Nasdaq-estimates",
+    "url": "https://api.nasdaq.com/api/analyst/MTB/earnings-date",
+    "retrieved_at": "2026-10-20T15:59:30.469888+00:00",
+    "error": "HTTPSConnectionPool(host='api.nasdaq.com', port=443): Read timed out. (read timeout=30)"
+  },
+  {
+    "id": "MTB-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000036270.json",
+    "retrieved_at": "2026-10-20T15:59:30.686255+00:00",
+    "status": 200,
+    "bytes": 159414,
+    "sha256": "0cdbee70d444aea86abff75d40ee7e4db5acd5da6f90c35843073ace1da24291",
+    "resolved_url": "https://data.sec.gov/submissions/CIK0000036270.json"
+  }
+]

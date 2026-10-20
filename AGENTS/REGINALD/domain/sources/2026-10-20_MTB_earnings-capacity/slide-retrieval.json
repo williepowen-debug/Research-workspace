@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio010.jpg",
+    "path": "a3q26earningspresentatio010.jpg",
+    "status": 200,
+    "bytes": 119515,
+    "sha256": "92f17a6ac3942062afe23c19bf81ee5ad369ca8012c2c7a33efbbadcb2be8c0d",
+    "at": "2026-10-20T16:00:45.942610+00:00"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio013.jpg",
+    "path": "a3q26earningspresentatio013.jpg",
+    "status": 200,
+    "bytes": 118244,
+    "sha256": "b50e1ace8c446e384fb64a2d2000d0f052641256fb24a45493a038b665651288",
+    "at": "2026-10-20T16:00:45.937713+00:00"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio018.jpg",
+    "path": "a3q26earningspresentatio018.jpg",
+    "status": 200,
+    "bytes": 83120,
+    "sha256": "9363a57314ba38a571fa655dc8fe9f33116672447bdced1b76ac457c57ee4fca",
+    "at": "2026-10-20T16:00:45.693005+00:00"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio019.jpg",
+    "path": "a3q26earningspresentatio019.jpg",
+    "status": 200,
+    "bytes": 102128,
+    "sha256": "322ff98f427a47776b01531613a97c1caf4d69a6992474ab41b2cdadcae6f0fd",
+    "at": "2026-10-20T16:00:45.844724+00:00"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio022.jpg",
+    "path": "a3q26earningspresentatio022.jpg",
+    "status": 200,
+    "bytes": 76285,
+    "sha256": "f3eddd5ee1c5c248e118f475e503b6971f1f36301c5de0dbf09ac611c0e76493",
+    "at": "2026-10-20T16:00:46.193336+00:00"
+  }
+]

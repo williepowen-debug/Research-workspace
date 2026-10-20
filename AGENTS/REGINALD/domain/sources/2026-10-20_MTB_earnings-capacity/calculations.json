@@ -1,0 +1,96 @@
+{
+  "inputs": {
+    "nii": 1793,
+    "fees": 743,
+    "expense": 1393,
+    "provision": 135,
+    "tax": 233,
+    "pretax": 1008,
+    "net_income": 775,
+    "ib_deposits": 123069,
+    "common_dividends": 217,
+    "preferred_dividends": 42,
+    "buybacks": 323,
+    "loan_provision": 130,
+    "nco": 127,
+    "beginning_allowance": 2176,
+    "ending_allowance": 2179
+  },
+  "ppnr": 1143,
+  "provision_share_of_ppnr": 0.11811023622047244,
+  "ppnr_provision_multiple": 8.466666666666667,
+  "effective_tax_rate": 0.23115079365079366,
+  "distributions": 582,
+  "retained_before_oci": 193,
+  "provision_ceiling_to_cover_all_Q3_distributions": 386.02451612903224,
+  "provision_ceiling_for_net_income_zero": 1143,
+  "q4_guidance_te_ppnr_low": 1130,
+  "q4_guidance_te_ppnr_high": 1190,
+  "price": 217.89,
+  "quote_epoch": 1792512003,
+  "price_to_q3_tbv": 1.8803072143596824,
+  "vendor_forward_pe": 10.335028722642814,
+  "scenarios": [
+    {
+      "label": "Q3 actual arithmetic",
+      "total_provision": 135,
+      "extra_deposit_cost_bp": 0,
+      "extra_funding_expense": 0.0,
+      "extra_operating_expense": 0,
+      "pretax": 1008.0,
+      "net_income": 774.9999999999999,
+      "retained_after_unchanged_distributions": 192.9999999999999
+    },
+    {
+      "label": "Higher credit expense only",
+      "total_provision": 400,
+      "extra_deposit_cost_bp": 0,
+      "extra_funding_expense": 0.0,
+      "extra_operating_expense": 0,
+      "pretax": 743.0,
+      "net_income": 571.2549603174602,
+      "retained_after_unchanged_distributions": -10.745039682539755
+    },
+    {
+      "label": "Provisions250 plus deposit cost25bp",
+      "total_provision": 250,
+      "extra_deposit_cost_bp": 25,
+      "extra_funding_expense": 77.55032876712329,
+      "extra_operating_expense": 0,
+      "pretax": 815.4496712328767,
+      "net_income": 626.9578325451184,
+      "retained_after_unchanged_distributions": 44.957832545118436
+    },
+    {
+      "label": "Provisions400 plus deposit cost25bp",
+      "total_provision": 400,
+      "extra_deposit_cost_bp": 25,
+      "extra_funding_expense": 77.55032876712329,
+      "extra_operating_expense": 0,
+      "pretax": 665.4496712328767,
+      "net_income": 511.6304515927375,
+      "retained_after_unchanged_distributions": -70.36954840726253
+    },
+    {
+      "label": "Provisions600 plus deposit cost50bp and expense5pct",
+      "total_provision": 600,
+      "extra_deposit_cost_bp": 50,
+      "extra_funding_expense": 155.10065753424658,
+      "extra_operating_expense": 69.65,
+      "pretax": 318.24934246575344,
+      "net_income": 244.6857543759513,
+      "retained_after_unchanged_distributions": -337.3142456240487
+    }
+  ],
+  "verified_primary_downloads": [
+    "Q2-10Q.html",
+    "Q3-8K.html",
+    "Q3-release.html",
+    "MTB-submissions.json",
+    "a3q26earningspresentatio010.jpg",
+    "a3q26earningspresentatio013.jpg",
+    "a3q26earningspresentatio018.jpg",
+    "a3q26earningspresentatio019.jpg",
+    "a3q26earningspresentatio022.jpg"
+  ]
+}
