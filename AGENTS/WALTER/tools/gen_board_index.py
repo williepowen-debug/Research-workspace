@@ -17,7 +17,7 @@ Structure preserved EXACTLY for walter_doctor's parser: ToC rows `| [NAME](#anch
 section headings `## NAME (N)`, and the `| **TOTAL** | **N** |` row.
 """
 from __future__ import annotations
-import argparse, hashlib, os, re, sys, glob
+import argparse, hashlib, os, re, sys, glob, json
 from collections import OrderedDict, defaultdict
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
@@ -30,6 +30,20 @@ ROW_RE = re.compile(r"^\s*\| (SIG-W-\d{8}-\d{3}) \|")
 MARK_RE = re.compile(r"SUPERSEDED|FALSIFIED|EVENT-PASSED|PARTIALLY-CORRECTED|PARTIALLY-SUPERSEDED|ERRATUM \d|CORRECTED 2026|→ `SIG-W")
 
 # ---------------------------------------------------------------- frontmatter
+def scalar_value(value: str) -> str:
+    """Decode a quoted YAML string; keep lists and malformed input visible."""
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] == '"':
+        try:
+            decoded = json.loads(value)
+        except ValueError:
+            return value
+        return decoded if isinstance(decoded, str) else value
+    if len(value) >= 2 and value[0] == value[-1] == "'":
+        return value[1:-1].replace("''", "'")
+    return value
+
+
 def parse_front(text: str) -> dict:
     if not text.startswith("---\n"):
         return {}
@@ -40,7 +54,11 @@ def parse_front(text: str) -> dict:
     for line in text[4:end].split("\n"):
         m = re.match(r"^([A-Za-z_]+):\s*(.*)$", line)
         if m:
-            fm[m.group(1)] = m.group(2).strip()
+            key, value = m.group(1), m.group(2).strip()
+            # Decode structured identity fields, preserving historical prose markers.
+            if key in {"cluster", "date", "timestamp", "dispatched", "precedence", "domain"}:
+                value = scalar_value(value)
+            fm[key] = value
     fm["__body"] = text[end + 5:]
     return fm
 

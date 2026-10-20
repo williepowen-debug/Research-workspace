@@ -2893,7 +2893,9 @@ def check_future_timestamps(_fields=None):
             head = f.read_text(errors="replace")[:600]
             for line in head.splitlines():
                 if line.startswith(("timestamp:", "time_dispatched:")):
-                    _scan("BOARD", line.split(":", 1)[1].strip(), f.name)
+                    # YAML quoting belongs to BOARD metadata, not TSV timestamps.
+                    from gen_board_index import scalar_value
+                    _scan("BOARD", scalar_value(line.split(":", 1)[1]), f.name)
 
     def _verdict():
         out = []

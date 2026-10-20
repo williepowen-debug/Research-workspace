@@ -1,0 +1,7 @@
+# Bounded metadata-reader repair
+
+Final doctor caught a HIGH index mismatch: twelve quoted cluster scalars (batch8plusnext18) became quoted section names, so the strict index reader counted them under its prior section. Valid quotedBOARDtimestamps were also called malformed. Signal bodies and metadata meanings were not edited.
+
+Fixed only structured scalar decoding in gen_board_index.parse_front forcluster/date/timestamp/dispatched/precedence/domain, and the doctor's BOARDtimestamp extraction. TSVtimestamp validation stays strict; malformedquotedinputs stay visible. Scope limited to reader compatibility; no taxonomy/routing/threshold definition changed. All historical parsed records unchanged; exactly12 currentcards change parsed cluster/domain/precedence representation. Delta metadata-repair-delta.json. No sourcecard changed during repair.
+
+Sixnewbehavioraltests: validquotedmetadata parity, arrays/malformedquotes visible, quotedcurrentBOARDtimestamp accepted, quotedfuturetimestamp stillHIGH, quotedjunkstillMED, quotedTSVstillMED. Beforefix3of6failed; afterfix6pass. Existingdoctor13reproductions and false-assurance67assertions pass. Postfixlivechecks:1558ToC/section/files/TOTALreconcile, indexrowhash5818ed6a8ded matches, timestampcheckerINFOonly. ExistingLABOR_DOWNtaxonomy/historyNOTE/registry/feed/backlog findings remain, not cleared by this repair. No all-market or fullboot clearance.

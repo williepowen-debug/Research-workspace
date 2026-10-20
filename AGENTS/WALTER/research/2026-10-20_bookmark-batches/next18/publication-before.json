@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-20T20:29:12Z",
+  "fresh_fetch": true,
+  "origin": "e0a6064d67ecc512a8f833bade1250ec3010b01e",
+  "prior_batch8": [
+    {
+      "commit": "30dbc0907",
+      "state": "published"
+    },
+    {
+      "commit": "e6850afc0",
+      "state": "published"
+    }
+  ],
+  "new_signals": "uncommitted at this observation;29handoffs not yet published",
+  "foreign_dirty": "observed;pull/pushdeferred;no foreign edits"
+}

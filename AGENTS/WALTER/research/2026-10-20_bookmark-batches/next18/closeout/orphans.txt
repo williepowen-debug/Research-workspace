@@ -1,0 +1,45 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261020-028.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-029.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-030.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-031.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-032.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-20_CODEX_BOOT_RECOVERY.md
+     [not yours]    AGENTS/DAEDALUS/runs/GATE_LOG.tsv
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261020-030.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261020-031.md
+     [not yours]    AGENTS/FALCON/inbox/WALTER/SIG-W-20261020-032.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-029.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-030.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-031.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-032.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-026.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-027.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-033.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-034.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261020-028.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-026.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-033.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261020-034.md
+     [not yours]    AGENTS/OSPREY/inbox/WALTER/SIG-W-20261020-029.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261020-028.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261020-026.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261020-030.md
+     [not yours]    AGENTS/SAM/inbox/WALTER/SIG-W-20261020-032.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261020-027.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-027.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-034.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261020-027.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261020-026-msci-turkey-limited-freeze-conditional-review.md
+     [not yours]    BOARD/SIG-W-20261020-027-deepseek-huawei-future-chip-design-report.md
+     [not yours]    BOARD/SIG-W-20261020-028-housing-hours-and-mortgage-spread-bases.md
+     [not yours]    BOARD/SIG-W-20261020-029-ukraine-oct19-grid-damage-count-basis.md
+     [not yours]    BOARD/SIG-W-20261020-030-kharg-anonymous-options-report-provenance.md
+     [not yours]    BOARD/SIG-W-20261020-031-irgc-renewed-hormuz-cable-threat.md
+     [not yours]    BOARD/SIG-W-20261020-032-konarak-claim-denial-and-unverified-destroyer-chain.md
+     [not yours]    BOARD/SIG-W-20261020-033-wilson-conditional-risk-addition-report.md
+     [not yours]    BOARD/SIG-W-20261020-034-defensive-energy-growth-rotation-window.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

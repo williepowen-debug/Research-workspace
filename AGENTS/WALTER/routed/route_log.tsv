@@ -1559,3 +1559,12 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-20T19:30:22Z	SIG-W-20261020-023	x-bookmark BM-20261020-08	Data-center list mixes delays, withdrawals and funded IPOs; three incremental issuer leads	PRIORITY	LIQUID	VULCAN,HENRY,RED,PROME	0.75
 2026-10-20T19:30:22Z	SIG-W-20261020-024	x-bookmark BM-20261020-08	USDA announces $8B harvest-fuel relief; application and payment dates remain unspecified	PRIORITY	CARL	BRENT,FERT,RED,PROME	0.95
 2026-10-20T19:30:22Z	SIG-W-20261020-025	x-bookmark BM-20261020-08	Student-loan collection hiring is reported planning; Treasury portal is a verified separate milestone	PRIORITY	CARL	RED,PROME	0.8
+2026-10-20T20:26:26Z	SIG-W-20261020-026	x-bookmark next18	MSCI Turkey primary notice implements a limited freeze; future reclassification remains conditional	PRIORITY	HENRY	LIQUID,SAM,RED,PROME	0.94
+2026-10-20T20:26:26Z	SIG-W-20261020-027	x-bookmark next18	DeepSeek reportedly influences future Huawei chip designs; implementation remains unverified	PRIORITY	VULCAN	ZHAO,HENRY,VIOLET,RED,PROME	0.75
+2026-10-20T20:26:26Z	SIG-W-20261020-028	x-bookmark next18	Housing payment-hours chart is dated; mortgage spread framing mixes measurement windows	PRIORITY	HOMER	CARL,REGINALD,BOND,RED,PROME	0.85
+2026-10-20T20:26:26Z	SIG-W-20261020-029	x-bookmark next18	Ukraine reports a new grid attack; official28 count includes substations and other energy sites	PRIORITY	OSPREY	HAWK,BRENT,RED,PROME	0.9
+2026-10-20T20:26:26Z	SIG-W-20261020-030	x-bookmark next18	Kharg strike-options story traces through Erem; no approved or executed operation established	PRIORITY	FALCON	HAWK,BRENT,SAM,RED,PROME	0.7
+2026-10-20T20:26:26Z	SIG-W-20261020-031	x-bookmark next18	IRGC renews a dated Hormuz cable threat; no cable damage or service loss verified	PRIORITY	FALCON	HAWK,BRENT,RED,PROME	0.8
+2026-10-20T20:26:26Z	SIG-W-20261020-032	x-bookmark next18	Konarak claim is contested; destroyer-attack and retaliation chain remain unverified	PRIORITY	FALCON	HAWK,BRENT,SAM,RED,PROME	0.85
+2026-10-20T20:26:26Z	SIG-W-20261020-033	x-bookmark next18	Wilson reportedly favors adding risk after reconciliation; timing remains conditional	PRIORITY	HENRY	LIQUID,RED,PROME	0.8
+2026-10-20T20:26:26Z	SIG-W-20261020-034	x-bookmark next18	Defensive-plus-energy basket outperformed growth; historical rarity remains source-defined	PRIORITY	HENRY	LIQUID,VULCAN,RED,PROME	0.85

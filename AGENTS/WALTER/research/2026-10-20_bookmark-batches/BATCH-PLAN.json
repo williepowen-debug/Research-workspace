@@ -207,7 +207,23 @@
         "2112244896669344152",
         "2112256700149285130"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261020-09",
+      "content_items": 8,
+      "bookmark_dispositions": {
+        "DUP": 2,
+        "DISPATCH": 3,
+        "FOLD": 1
+      },
+      "read_counts": {
+        "fully_read": 4,
+        "partly_read": 2
+      },
+      "dispositions": {
+        "DISPATCH": 3,
+        "DUP": 3,
+        "FOLD": 2
+      }
     },
     {
       "batch": 10,
@@ -219,7 +235,21 @@
         "2112257259590094996",
         "2112225209059279168"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261020-10",
+      "content_items": 6,
+      "bookmark_dispositions": {
+        "DISPATCH": 4,
+        "DUP": 2
+      },
+      "read_counts": {
+        "fully_read": 3,
+        "partly_read": 3
+      },
+      "dispositions": {
+        "DISPATCH": 4,
+        "DUP": 2
+      }
     },
     {
       "batch": 11,
@@ -231,7 +261,23 @@
         "2112168145083420694",
         "2112231804786618413"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261020-11",
+      "content_items": 6,
+      "bookmark_dispositions": {
+        "FOLD": 1,
+        "DUP": 3,
+        "DISPATCH": 2
+      },
+      "read_counts": {
+        "fully_read": 4,
+        "partly_read": 2
+      },
+      "dispositions": {
+        "DISPATCH": 2,
+        "DUP": 3,
+        "FOLD": 1
+      }
     },
     {
       "batch": 12,
@@ -294,5 +340,5 @@
       "state": "UNREVIEWED"
     }
   ],
-  "remaining_not_triaged": 48
+  "remaining_not_triaged": 30
 }

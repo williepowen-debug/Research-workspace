@@ -340,127 +340,127 @@
     },
     {
       "id": "2112292761810378979",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112167450552721750",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#kharg",
       "ask_user": null
     },
     {
       "id": "2112225907402305845",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "FOLD",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112287169381294235",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#chips",
       "ask_user": null
     },
     {
       "id": "2112244896669344152",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112256700149285130",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112208649334726828",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112199930026582382",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#ukraine",
       "ask_user": null
     },
     {
       "id": "2112254011294564555",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112167647043547252",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112257259590094996",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#cables",
       "ask_user": null
     },
     {
       "id": "2112225209059279168",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#konarak",
       "ask_user": null
     },
     {
       "id": "2112256753752785127",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#konarak",
       "ask_user": null
     },
     {
       "id": "2112254543018999877",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112201605814657492",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111994498754445614",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#rotation",
       "ask_user": null
     },
     {
       "id": "2112168145083420694",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112231804786618413",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
