@@ -1,0 +1,8 @@
+AGENTS/REGINALD/CLAUDE.md: 13 contiguous blocks; reconstructed original equals Git baseline; hashes and CRCs recomputed
+AGENTS/REGINALD/SUB_AGENTS.md: 5 contiguous blocks; reconstructed original equals Git baseline; hashes and CRCs recomputed
+AGENTS/REGINALD/STATUS.md: 14 contiguous blocks; reconstructed original equals Git baseline; hashes and CRCs recomputed
+AGENTS/REGINALD/MEMORY.md: 8 contiguous blocks; reconstructed original equals Git baseline; hashes and CRCs recomputed
+AGENTS/REGINALD/NEXUS_BRIEF.md: 6 contiguous blocks; reconstructed original equals Git baseline; hashes and CRCs recomputed
+PASS: STATUS threshold table, EXIT RULES, matrix and cross-agent trigger sections byte-identical.
+PASS: MEMORY six existing NEXT SESSION items byte-identical.
+PASS: charter hidden-CRE and key-threshold sections retained verbatim.

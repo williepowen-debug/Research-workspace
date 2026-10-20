@@ -1,0 +1,514 @@
+{
+  "created_at": "2026-10-20T19:13:00-04:00",
+  "authorization": "Will direct start now; PROME go-ahead commit 9caa3a5b5",
+  "sources": [
+    {
+      "source": "AGENTS/REGINALD/CLAUDE.md",
+      "archive": "AGENTS/REGINALD/archive/2026-10-20_organisation-cleanup_CLAUDE.md",
+      "before_bytes": 45337,
+      "before_sha256": "e76c15a9ec705f541c14ecd06c4de1894110638535e509c66bd677e3e9be7a86",
+      "blocks": [
+        {
+          "id": "B01",
+          "section": "# REGINALD \u2014 Agent Instructions",
+          "line_start": 1,
+          "line_end": 7,
+          "offset": 332,
+          "bytes": 366,
+          "sha256": "760d70faa9ec50ba2a2c5ed88f6f3cf18b0e8353a533b621a44d2b3cb5539f6f",
+          "crc32": "50b829b8"
+        },
+        {
+          "id": "B02",
+          "section": "## \u26a1 SPAWNED-MODE BOOT CARD (a coordinator spawn prompt can point here in one line)",
+          "line_start": 8,
+          "line_end": 19,
+          "offset": 770,
+          "bytes": 1502,
+          "sha256": "b9c595df87413f88010bc8a1a0421b6c9634d50a21cb58d5968fafe9d9e70029",
+          "crc32": "5c407a14"
+        },
+        {
+          "id": "B03",
+          "section": "## IDENTITY",
+          "line_start": 20,
+          "line_end": 31,
+          "offset": 2345,
+          "bytes": 1004,
+          "sha256": "bfbeb70ac59cbddc82d07aca1695c1c52c17cf59deab3624e053bef75497ee89",
+          "crc32": "81ce7c89"
+        },
+        {
+          "id": "B04",
+          "section": "## SPAWN PROTOCOL",
+          "line_start": 32,
+          "line_end": 130,
+          "offset": 3423,
+          "bytes": 19383,
+          "sha256": "512a466102779c5f07f9d99d27bfc8982e4c427a93e0d21e83cf2c6a116b99ea",
+          "crc32": "43f6bc03"
+        },
+        {
+          "id": "B05",
+          "section": "## YYYY-MM-DD \u2014 To: [TARGET_AGENT]",
+          "line_start": 131,
+          "line_end": 153,
+          "offset": 22881,
+          "bytes": 982,
+          "sha256": "f28012cda667594ea4ea01772b13f8cf4fdf64941875875beca56544e20e0c44",
+          "crc32": "49451173"
+        },
+        {
+          "id": "B06",
+          "section": "## \u26a0\ufe0f READ-CAP \u2014 this desk breached it; the remedy is STRUCTURAL (2026-09-02)",
+          "line_start": 154,
+          "line_end": 167,
+          "offset": 23938,
+          "bytes": 2676,
+          "sha256": "453dbd0fef71d9628bfd2823fedaf2cc6e8eeea6605475068f9dfcd20281f50b",
+          "crc32": "2412e0c2"
+        },
+        {
+          "id": "B07",
+          "section": "## OUTPUT RULES",
+          "line_start": 168,
+          "line_end": 196,
+          "offset": 26689,
+          "bytes": 3717,
+          "sha256": "d214439afa65b5ea2ce7722833f9824b38415c0a64a94f389a76703b9780c080",
+          "crc32": "a3edd0d5"
+        },
+        {
+          "id": "B08",
+          "section": "## DOMAIN SCOPE",
+          "line_start": 197,
+          "line_end": 222,
+          "offset": 30481,
+          "bytes": 2412,
+          "sha256": "77819e7655eb91b11ca56a08f24d543435c56c2578fb5a47acaa342c6a5636ec",
+          "crc32": "f4422492"
+        },
+        {
+          "id": "B09",
+          "section": "## CROSS-AGENT SIGNALS",
+          "line_start": 223,
+          "line_end": 246,
+          "offset": 32968,
+          "bytes": 740,
+          "sha256": "20983249c4f6d517ab2e70f9dcb64f73eaa835231ee0a91a3f36f9fda94d5c3e",
+          "crc32": "fb732853"
+        },
+        {
+          "id": "B10",
+          "section": "## HIDDEN CRE METHODOLOGY (Original Discovery) \u2014 \u2705 COHORT RE-RUN SHIPPED 2026-08-13",
+          "line_start": 247,
+          "line_end": 260,
+          "offset": 33783,
+          "bytes": 2520,
+          "sha256": "f2d0c6f6f011b431b7bba7509394c61dbbe80f4caf99b1efdeebd08d1236982b",
+          "crc32": "92b6bb7f"
+        },
+        {
+          "id": "B11",
+          "section": "## BANK WATCHLIST",
+          "line_start": 261,
+          "line_end": 272,
+          "offset": 36378,
+          "bytes": 1204,
+          "sha256": "e44941cbc9f4e4c9a2979e995d7098390fd4ec041f8183283e7892dcba683c74",
+          "crc32": "6494c27a"
+        },
+        {
+          "id": "B12",
+          "section": "## KEY THRESHOLDS",
+          "line_start": 273,
+          "line_end": 287,
+          "offset": 37657,
+          "bytes": 1646,
+          "sha256": "44363b95b0381846c4e4d56f767a708157e44f649cce6cf189a41a3eb28781f0",
+          "crc32": "fbf45f96"
+        },
+        {
+          "id": "B13",
+          "section": "## FILES",
+          "line_start": 288,
+          "line_end": 333,
+          "offset": 39378,
+          "bytes": 7185,
+          "sha256": "3ac0b19d59649d316aa73b3d471412e239f9242c44c1de146446eb5a052cf9a7",
+          "crc32": "83b7ef41"
+        }
+      ],
+      "after_bytes": 22779,
+      "after_sha256": "55a9da289b3f27a98474fac025605dc56bd162036f4e49f20a95d156acdc9840"
+    },
+    {
+      "source": "AGENTS/REGINALD/SUB_AGENTS.md",
+      "archive": "AGENTS/REGINALD/archive/2026-10-20_organisation-cleanup_SUB_AGENTS.md",
+      "before_bytes": 3153,
+      "before_sha256": "dd18d1455bcd7f4ce7a26036a4fb29514fce1e2ad60dfd44364ebefef671e13f",
+      "blocks": [
+        {
+          "id": "B01",
+          "section": "# REGINALD Sub-Agent & Peer Coordination",
+          "line_start": 1,
+          "line_end": 4,
+          "offset": 336,
+          "bytes": 327,
+          "sha256": "1fc333bcefb58d2b0eee399f797f23c0ac23bba604013a77e545683901bfb4d7",
+          "crc32": "946ff3b0"
+        },
+        {
+          "id": "B02",
+          "section": "## Overview",
+          "line_start": 5,
+          "line_end": 8,
+          "offset": 734,
+          "bytes": 321,
+          "sha256": "b1ab658cfa466541e8a6f0473bf4ece94186d0303e04c9e34fbf14372a4d5db0",
+          "crc32": "7899bc3c"
+        },
+        {
+          "id": "B03",
+          "section": "## Directory (verified 2026-07-17)",
+          "line_start": 9,
+          "line_end": 20,
+          "offset": 1127,
+          "bytes": 1335,
+          "sha256": "c5d5d0a6d04ae133efc903e93841040f1dfa8bd86b6c9fb4e8fb8bc4625c0053",
+          "crc32": "e8f3d0d1"
+        },
+        {
+          "id": "B04",
+          "section": "## Coordination protocol (current)",
+          "line_start": 21,
+          "line_end": 27,
+          "offset": 2535,
+          "bytes": 531,
+          "sha256": "28604ff3ed01b8a532172182ad868fe89f350354a7ca1822cd076372917ad469",
+          "crc32": "2b539f98"
+        },
+        {
+          "id": "B05",
+          "section": "## Historical vector-sync map (reference only \u2014 Feb vintage, verify before reuse)",
+          "line_start": 28,
+          "line_end": 34,
+          "offset": 3139,
+          "bytes": 639,
+          "sha256": "3c542e3e6a7feedce10a9a8fceacf6de8eea0c9c59ea562805896df39038cc2c",
+          "crc32": "5a866085"
+        }
+      ],
+      "after_bytes": 2680,
+      "after_sha256": "c3fa668b36243ea169ff5d4bfb3d7a539c78437c3f3048a64346d5fbb7ef7044"
+    },
+    {
+      "source": "AGENTS/REGINALD/STATUS.md",
+      "archive": "AGENTS/REGINALD/archive/2026-10-20_organisation-cleanup_STATUS.md",
+      "before_bytes": 21179,
+      "before_sha256": "3e18f72a05aeaa937cc8e6c135b0c519b1d7fbafa1cea0c0f54a1b2ae38836d3",
+      "blocks": [
+        {
+          "id": "B01",
+          "section": "# REGINALD STATUS",
+          "line_start": 1,
+          "line_end": 14,
+          "offset": 333,
+          "bytes": 3128,
+          "sha256": "81a7a473c29e8238b1b372e54aeddf07571a2dc5b06916f37294ab42e7ab2c48",
+          "crc32": "1790f066"
+        },
+        {
+          "id": "B02",
+          "section": "## THESIS: The Convergence",
+          "line_start": 15,
+          "line_end": 32,
+          "offset": 3534,
+          "bytes": 3235,
+          "sha256": "53d9c98d3b558bad504c0082219fbe7d09c8c1766babf6eb48727d11fbab67be",
+          "crc32": "9469c9c7"
+        },
+        {
+          "id": "B03",
+          "section": "## SIGNAL DASHBOARD \u2192 **`STATUS_DASHBOARD.md`** (cold, on-demand \u2014 NOT a boot read)",
+          "line_start": 33,
+          "line_end": 36,
+          "offset": 6842,
+          "bytes": 248,
+          "sha256": "0fc96899e4c74cf786634b9139d7faab07755a9c80a49f65a464a9fb35c77f7f",
+          "crc32": "bac3c650"
+        },
+        {
+          "id": "B04",
+          "section": "## RESEARCH \u2014 POSITION NAMES (pointers to canonical state)",
+          "line_start": 37,
+          "line_end": 43,
+          "offset": 7163,
+          "bytes": 290,
+          "sha256": "70d9e9c0e5836e0a87de1aa33e71adac89860b3c33d93ad29ff98b0038dc462b",
+          "crc32": "02ec7282"
+        },
+        {
+          "id": "B05",
+          "section": "## CONVERGENCE MATRIX \u2014 Targets & Positions",
+          "line_start": 44,
+          "line_end": 55,
+          "offset": 7526,
+          "bytes": 1337,
+          "sha256": "80f232231805c2441dee2afd6931a3701e13dc2a5761e8c1a75349996def8dbc",
+          "crc32": "490fd2a2"
+        },
+        {
+          "id": "B06",
+          "section": "## KEY CATALYSTS",
+          "line_start": 56,
+          "line_end": 61,
+          "offset": 8936,
+          "bytes": 336,
+          "sha256": "e1905e3a2aa78ce85a8755ffbe8cc9843e928ea74270282bc3798858cade4f5e",
+          "crc32": "0bd98747"
+        },
+        {
+          "id": "B07",
+          "section": "## CROSS-AGENT TRIGGERS",
+          "line_start": 62,
+          "line_end": 75,
+          "offset": 9345,
+          "bytes": 2066,
+          "sha256": "7ea785b3f996284e47f731302fb5060c9951f41c728b111a55d087ba02f205d8",
+          "crc32": "b7902f16"
+        },
+        {
+          "id": "B08",
+          "section": "## FRAMEWORKS (detail in workbook/)",
+          "line_start": 76,
+          "line_end": 81,
+          "offset": 11484,
+          "bytes": 525,
+          "sha256": "db553c4524d58fd3b3ee593f63119b4dab6b2f8c12dcc033a12be3c5d20649a2",
+          "crc32": "fc4a3fdb"
+        },
+        {
+          "id": "B09",
+          "section": "## SUB-AGENTS & PEER COORDINATION",
+          "line_start": 82,
+          "line_end": 87,
+          "offset": 12082,
+          "bytes": 475,
+          "sha256": "20c7904c922252313f7fff4e878fe07020706e9fc2ec1dc8ccbe01f66429a233",
+          "crc32": "f0a1bf9c"
+        },
+        {
+          "id": "B10",
+          "section": "## PREDICTIONS",
+          "line_start": 88,
+          "line_end": 93,
+          "offset": 12630,
+          "bytes": 353,
+          "sha256": "747d5831caba2d32c32f954a44ed376cab69392fdddbbbe75138e972b6d1a2ac",
+          "crc32": "4113b947"
+        },
+        {
+          "id": "B11",
+          "section": "## EXIT RULES",
+          "line_start": 94,
+          "line_end": 104,
+          "offset": 13057,
+          "bytes": 908,
+          "sha256": "64d6ddde2bf91dc9aa6b9482d152ee2a69c3fe2f11daab63c38c19980985de4e",
+          "crc32": "609db087"
+        },
+        {
+          "id": "B12",
+          "section": "## \u26a0\ufe0f THRESHOLD STATUS (10/14 noon boot: quotes12:11ET window; WAL/FLG settled10/13,current-day excluded; fresh FRED HY/CCC/B/BB10/13. Other rows retain stated vintages.)",
+          "line_start": 105,
+          "line_end": 129,
+          "offset": 14040,
+          "bytes": 6994,
+          "sha256": "56e3383f3382a479cd8e9409ee7b0b152511fd36c9006a9ee5fcc967534bfbd3",
+          "crc32": "4d49841c"
+        },
+        {
+          "id": "B13",
+          "section": "## BOTTOM LINE",
+          "line_start": 130,
+          "line_end": 137,
+          "offset": 21109,
+          "bytes": 600,
+          "sha256": "afbdb0088a7ae4c2e1e168771f2712a355abf83c83e1c3e1041975a44d3863a5",
+          "crc32": "2a42b024"
+        },
+        {
+          "id": "B14",
+          "section": "## OPEN PROCESS ASKS \u2014 dated answers (DAEDALUS 10/8 packets; DONE-WHEN = fixed or answered here)",
+          "line_start": 138,
+          "line_end": 145,
+          "offset": 21784,
+          "bytes": 684,
+          "sha256": "ffa82a678f02d2ab6cf0df99ffd7581a7c21cc6b0dbc38a4715e20c1dd4a66ea",
+          "crc32": "1c220a4a"
+        }
+      ],
+      "after_bytes": 19966,
+      "after_sha256": "f315860f393be3adc8e300fcd4d0340094ae69f741ab3b494d97e9b501ece215"
+    },
+    {
+      "source": "AGENTS/REGINALD/MEMORY.md",
+      "archive": "AGENTS/REGINALD/archive/2026-10-20_organisation-cleanup_MEMORY.md",
+      "before_bytes": 14790,
+      "before_sha256": "c624be737a743a2b73a68cb073574058a8924db9e6f0176bb58cad58e5e2f01c",
+      "blocks": [
+        {
+          "id": "B01",
+          "section": "# REGINALD MEMORY",
+          "line_start": 1,
+          "line_end": 6,
+          "offset": 332,
+          "bytes": 239,
+          "sha256": "bdead728d3393fc107c28c5ed4b72ef3c13a52fcc80fb55e038cd7f3ba912a18",
+          "crc32": "a411417b"
+        },
+        {
+          "id": "B02",
+          "section": "## Feedback",
+          "line_start": 7,
+          "line_end": 16,
+          "offset": 643,
+          "bytes": 2717,
+          "sha256": "3d58187894f9fb3b958ac6c4a913eff2a1e9c7f4db70e7a5502717674f4d7f4a",
+          "crc32": "0f582476"
+        },
+        {
+          "id": "B03",
+          "section": "## Findings + References \u2192 **`MEMORY_REFERENCE.md`** (COLD, on-demand \u2014 **NOT a boot read**)",
+          "line_start": 17,
+          "line_end": 20,
+          "offset": 3433,
+          "bytes": 825,
+          "sha256": "886ef5a0e7269a2eea23aec58710503d0ff87a5da06d8c394d55f08aa595f42d",
+          "crc32": "69833f44"
+        },
+        {
+          "id": "B04",
+          "section": "## Session Notes",
+          "line_start": 21,
+          "line_end": 24,
+          "offset": 4331,
+          "bytes": 318,
+          "sha256": "9f7c115080543e9de7332b6275fb442bdca870e54f6e70f48cffdc8373a3d2e7",
+          "crc32": "f27d858e"
+        },
+        {
+          "id": "B05",
+          "section": "### LAST SESSION \u2014 2026-10-20T17:41:09-04:00, organizational review",
+          "line_start": 25,
+          "line_end": 27,
+          "offset": 4722,
+          "bytes": 673,
+          "sha256": "e4b3a918b3e41bb5427c5b0157cddfbda849113fbeeb79c3476a4be8bdca0d19",
+          "crc32": "3efcae45"
+        },
+        {
+          "id": "B06",
+          "section": "### PRIOR RESEARCH SESSION \u2014 2026-10-20T15:29:37-04:00, closed at Will's request",
+          "line_start": 28,
+          "line_end": 30,
+          "offset": 5468,
+          "bytes": 857,
+          "sha256": "8507564588fc91aa3e04e09f282c77e4556bd4897bc6924878bb3a8c23632b71",
+          "crc32": "10cf8ec9"
+        },
+        {
+          "id": "B07",
+          "section": "### CHANGES SINCE LAST SESSION",
+          "line_start": 31,
+          "line_end": 32,
+          "offset": 6398,
+          "bytes": 32,
+          "sha256": "1ffe0501aa765bcec88db296a4dcff7429558bc31661eee9c40c0ba6a3fe98a6",
+          "crc32": "02ed9c51"
+        },
+        {
+          "id": "B08",
+          "section": "### NEXT SESSION",
+          "line_start": 33,
+          "line_end": 71,
+          "offset": 6503,
+          "bytes": 9129,
+          "sha256": "dd320ea3962778a6f580d237f79882fb9b8eef3422b2bd589db12117e99737bc",
+          "crc32": "2fb3e521"
+        }
+      ],
+      "after_bytes": 14425,
+      "after_sha256": "24e74f086cc3c061979fe3da2cc654f1dd757a74cfc9eb054c9556578cfb3af5"
+    },
+    {
+      "source": "AGENTS/REGINALD/NEXUS_BRIEF.md",
+      "archive": "AGENTS/REGINALD/archive/2026-10-20_organisation-cleanup_NEXUS_BRIEF.md",
+      "before_bytes": 23642,
+      "before_sha256": "9d9686f9bcb4f1e0afe197ee8a6af681f5407101e618f01b2fdeb40e6cd776f4",
+      "blocks": [
+        {
+          "id": "B01",
+          "section": "# REGINALD \u2014 NEXUS Brief",
+          "line_start": 1,
+          "line_end": 12,
+          "offset": 338,
+          "bytes": 3968,
+          "sha256": "ae642dbcbc644ebf6a1be7c0cf19aa8604d695ab469c44a2e9409e977173f96e",
+          "crc32": "3bb8d3d6"
+        },
+        {
+          "id": "B02",
+          "section": "## CROSS-DOMAIN",
+          "line_start": 13,
+          "line_end": 42,
+          "offset": 4379,
+          "bytes": 3105,
+          "sha256": "47c69d9040efc30023449c2baa686e6229a7711a6fec1b06b26b8cb263cdcc63",
+          "crc32": "db28669d"
+        },
+        {
+          "id": "B03",
+          "section": "## VIEW",
+          "line_start": 43,
+          "line_end": 70,
+          "offset": 7557,
+          "bytes": 8345,
+          "sha256": "76df52c2efa0041ce516bac8dc16aa3933edc7eb7b9b552860eb4d6c4076c700",
+          "crc32": "31a71f12"
+        },
+        {
+          "id": "B04",
+          "section": "## CALIBRATION",
+          "line_start": 71,
+          "line_end": 77,
+          "offset": 15975,
+          "bytes": 2100,
+          "sha256": "97c8421c4d3edd2970dad22ef494c0c7e8a3f31858792ef8f0634e4b0d2f35c1",
+          "crc32": "8c83bed3"
+        },
+        {
+          "id": "B05",
+          "section": "## NEXT DECISION POINT",
+          "line_start": 78,
+          "line_end": 89,
+          "offset": 18148,
+          "bytes": 2056,
+          "sha256": "535ba3ba179e2100f203b01743a487529972033a6016ff411fac84cc84eed1f5",
+          "crc32": "034160ea"
+        },
+        {
+          "id": "B06",
+          "section": "## FORWARD CATALYSTS (next 2-6 weeks)",
+          "line_start": 90,
+          "line_end": 120,
+          "offset": 20278,
+          "bytes": 4068,
+          "sha256": "34ad1815d1a267a41c98106920d6e72cc552a0b219b14b8308e4631630b3f753",
+          "crc32": "70ce76b8"
+        }
+      ]
+    }
+  ]
+}

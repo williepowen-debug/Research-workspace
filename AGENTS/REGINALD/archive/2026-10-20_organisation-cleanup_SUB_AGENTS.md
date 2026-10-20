@@ -1,0 +1,68 @@
+# SUB_AGENTS.md — pre-cleanup contiguous blocks
+
+Preserved 2026-10-20T19:13:00-04:00; historical text, not current authority. Reconstruct by concatenating payloads in block order; byte offsets/hashes in reports/2026-10-20_organisation-cleanup/manifest.json. No payload was edited.
+
+## B01 — original lines 1–4
+
+<!-- BEGIN B01 -->
+# REGINALD Sub-Agent & Peer Coordination
+
+> **Rewritten 2026-07-17 (audit)** — the prior version (Feb-16 vintage) listed dead `sub-agents/TEX|RENO/` paths, described CREED as a live local sub-agent, omitted OZK, and shipped retired OpenClaw `sessions_spawn` recipes (platform cut 2026-06-26). Prior content → git history.
+
+
+<!-- END B01 -->
+
+## B02 — original lines 5–8
+
+<!-- BEGIN B02 -->
+## Overview
+
+REGINALD is the convergence point for regional-bank stress. Domain coverage that once lived in local sub-agents has largely **promoted to top-level agents** — coordination is now file-based (inbox/outbox + read-only cross-reads), not spawn-based. All agents are Claude Code sessions per root `CLAUDE.md`.
+
+
+<!-- END B02 -->
+
+## B03 — original lines 9–20
+
+<!-- BEGIN B03 -->
+## Directory (verified 2026-07-17)
+
+| Agent | Domain | Where | Status |
+|-------|--------|-------|--------|
+| **CREED** | CRE / CMBS market-level (DQ, special servicing, maturity wall) | `AGENTS/CREED/` — **top-level Tier-2 agent** | 🟢 LIVE — read `../CREED/STATUS.md`. Local copy **archived 2026-08-13 → `archive/sub-agents/CREED/`** (Feb fossil; FROZEN banners preserved as the record, incl. the 7/4 Will-routed freeze-legacy provenance). |
+| **BROCK** | BDC / private credit | `AGENTS/BROCK/` — top-level peer | 🟢 LIVE |
+| **CORAL** | Florida (condo/HOA/SIRS, Citizens, FL-bank exposure) | `AGENTS/CORAL/` — top-level peer (promoted 2026-06-19) | 🟢 LIVE |
+| **OZK** | Single-name bank deep coverage | `AGENTS/OZK/` — top-level peer | 🟢 LIVE (REGINALD cross-reads; positions OZK-owned) |
+| **BELT** | Mortgage-DQ belt (MS/LA/MD) | `archive/sub-agents/BELT/` *(archived 2026-08-13)* | 🧊 FROZEN shell (Feb vintage) — **revive only on a mortgage-DQ catalyst.** ⚠️ **The revival gate outlives the shell's location — archiving the tree does NOT retire the condition.** |
+| **RENO** | Nevada stress | `archive/sub-agents/RENO/` | ⬜ ARCHIVED (research/sources only, no live STATUS) |
+| **TEX** | Texas/Florida stress | `archive/sub-agents/TEX/` | ⬜ ARCHIVED (research/sources only, no live STATUS) |
+
+
+<!-- END B03 -->
+
+## B04 — original lines 21–27
+
+<!-- BEGIN B04 -->
+## Coordination protocol (current)
+
+- **Read-only cross-reads:** peer STATUS files at boot step 9 when relevant (`../CREED/`, `../BROCK/`, `../CORAL/`, `../OZK/`).
+- **Signals:** write `.md` packets directly to the target agent's `inbox/` (outbox = PROME-action requests only). See CLAUDE.md Outbox Protocol.
+- **Escalation:** threshold breach → STATUS.md + `AGENTS/SIGNALS.md` row per CLAUDE.md Cross-Agent Signals.
+- **No spawn recipes** — OpenClaw `sessions_*` API retired 6/26; agents are launched by Will as CC sessions.
+
+
+<!-- END B04 -->
+
+## B05 — original lines 28–34
+
+<!-- BEGIN B05 -->
+## Historical vector-sync map (reference only — Feb vintage, verify before reuse)
+
+CREED → VX-REG-3.01, 9.01-9.03, 13.01-13.02 · BROCK → VX-REG-2.03, 9.04, 12.01 · CORAL → VX-REG-8.01, 15.03, 19.02, FLOW-REG-6.01/20.01. *(VX.tsv itself is STALE-VINTAGE-bannered for Jan-Apr rows — see its header.)*
+
+---
+
+*Last updated: **2026-08-13** — BELT + CREED local fossil trees `git mv`'d to `archive/sub-agents/` (Will-directed: REGINALD should not be burdened by unnecessary dated context). **Both rows kept**; paths re-pointed; **BELT's revival condition preserved verbatim.** Prior: 2026-07-17 (audit rewrite; prior 2026-02-16).*
+
+<!-- END B05 -->
+

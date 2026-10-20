@@ -1,0 +1,53 @@
+row_kind	reader	path	mode	source_boot_step	declared_by	declared_on	notes
+ATTESTATION	REGINALD	AGENTS/REGINALD/CLAUDE.md	manifest-complete	REGINALD:CLAUDE.md-Boot	REGINALD	2026-10-20	Desk-attested by REGINALD after walking full charter, shared runtime requirements, conditional branches and boot.py subprocess inputs. Includes conditional reads as such; row modes describe actual context entry. Local proposal only; PROME registers. Whole own/root charters explicitly read in Codex; injection unconfirmed. Sources archived and ownership unchanged.
+BASIS	REGINALD	AGENTS/REGINALD/CLAUDE.md	boot-defining	REGINALD:runtime-and-Boot	REGINALD	2026-10-20	Re-attest after boot-defining change; shared playbook only Runtime mechanics is read.
+BASIS	REGINALD	PROME/COMPLETION_SPEC.md	boot-defining	REGINALD:runtime-and-Boot	REGINALD	2026-10-20	Re-attest after boot-defining change; shared playbook only Runtime mechanics is read.
+BASIS	REGINALD	PROME/ORCHESTRATION_PLAYBOOK.md	boot-defining	REGINALD:runtime-and-Boot	REGINALD	2026-10-20	Re-attest after boot-defining change; shared playbook only Runtime mechanics is read.
+READ	REGINALD	CLAUDE.md	whole	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Explicit whole instruction read; own charter explicit in Codex, injection not inferred.
+READ	REGINALD	AGENTS.md	whole	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Explicit whole instruction read; own charter explicit in Codex, injection not inferred.
+READ	REGINALD	USER.md	whole	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Explicit whole instruction read; own charter explicit in Codex, injection not inferred.
+READ	REGINALD	PROME/COMPLETION_SPEC.md	whole	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Explicit whole instruction read; own charter explicit in Codex, injection not inferred.
+READ	REGINALD	AGENTS/REGINALD/CLAUDE.md	whole	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Explicit whole instruction read; own charter explicit in Codex, injection not inferred.
+READ	REGINALD	PROME/ORCHESTRATION_PLAYBOOK.md	scoped	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Addressable Runtime mechanics section only; full playbook not injected/read. Root owner retains any rule8 size remedy; no scope narrowing of work authority.
+READ	REGINALD	PROME/ROSTER.md	scoped	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Addressable REGINALD responsibility class, named peers, Tier-2 CREED row and its explicit-permission condition; launch/class check when needed.
+READ	REGINALD	AGENTS/_NETWORK.md	whole	REGINALD:IDENTITY-AND-AUTHORITY	REGINALD	2026-10-20	Network topology consulted as a whole when checking interfaces.
+READ	REGINALD	docs/GIT_WORKTREE_PROCEDURES.md	scoped	REGINALD:Git-and-paths	REGINALD	2026-10-20	Before pulling / Before committing sections in full immediately before respective action.
+READ	REGINALD	AGENTS/REGINALD/STATUS.md	whole	REGINALD:CLAUDE.md-Boot-1	REGINALD	2026-10-20	Mandatory whole continuity read, not scoped to a header.
+READ	REGINALD	AGENTS/REGINALD/LESSONS.md	whole	REGINALD:CLAUDE.md-Boot-2	REGINALD	2026-10-20	Mandatory whole continuity read, not scoped to a header.
+READ	REGINALD	AGENTS/REGINALD/CALENDAR.md	whole	REGINALD:CLAUDE.md-Boot-3	REGINALD	2026-10-20	Mandatory whole continuity read, not scoped to a header.
+READ	REGINALD	AGENTS/REGINALD/MEMORY.md	whole	REGINALD:CLAUDE.md-Boot-4	REGINALD	2026-10-20	Mandatory whole continuity read, not scoped to a header.
+READ	REGINALD	AGENTS/REGINALD/ROADMAP.md	whole	REGINALD:CLAUDE.md-Boot-5	REGINALD	2026-10-20	Mandatory whole continuity read, not scoped to a header.
+READ	REGINALD	AGENTS/REGINALD/BANK_RESEARCH_STANDARD.md	whole	REGINALD:CLAUDE.md-Boot-5a	REGINALD	2026-10-20	Conditional bank-credit/valuation work; not tape-only boot.
+READ	REGINALD	AGENTS/REGINALD/SCRATCH.md	whole	REGINALD:CLAUDE.md-Boot-6	REGINALD	2026-10-20	Optional continuing-day/unresolved-pointer branch; whole when traversed.
+READ	REGINALD	AGENTS/REGINALD/POSITIONS.md	whole	REGINALD:spawn-card	REGINALD	2026-10-20	Conditional pre-fire broker/export currency check; read mirror and source limits, not independent position truth.
+READ	REGINALD	FORGE/STATUS.md	scoped	REGINALD:spawn-card	REGINALD	2026-10-20	Conditional latest-broker header and REGINALD bank/credit position sections for comparison; not full portfolio context.
+READ	REGINALD	AGENTS/BROCK/STATUS.md	whole	REGINALD:CLAUDE.md-Boot-9	REGINALD	2026-10-20	Conditional relevant-peer read; existing read, no launch or permission inferred.
+READ	REGINALD	AGENTS/CORAL/STATUS.md	whole	REGINALD:CLAUDE.md-Boot-9	REGINALD	2026-10-20	Conditional relevant-peer read; existing read, no launch or permission inferred.
+READ	REGINALD	AGENTS/OZK/STATUS.md	whole	REGINALD:CLAUDE.md-Boot-9	REGINALD	2026-10-20	Conditional relevant-peer read; existing read, no launch or permission inferred.
+READ	REGINALD	AGENTS/WAL/STATUS.md	whole	REGINALD:CLAUDE.md-Boot-9	REGINALD	2026-10-20	Conditional relevant-peer read; existing read, no launch or permission inferred.
+READ	REGINALD	AGENTS/CREED/STATUS.md	whole	REGINALD:CLAUDE.md-Boot-9	REGINALD	2026-10-20	Conditional relevant-peer read; existing read, no launch or permission inferred.
+READ	REGINALD	AGENTS/REGINALD/inbox/*.md	whole	REGINALD:MAIL	REGINALD	2026-10-20	Conditional explicit processing or actionable assignment recovery; normal-spawn general inbox is names/senders only. Per matching file, excluding processed.
+READ	REGINALD	AGENTS/REGINALD/inbox/WALTER/*.md	whole	REGINALD:WALTER-intake	REGINALD	2026-10-20	Conditional unlogged packet per id; processed files not a standing read class. Empty drained lane is expected.
+READ	REGINALD	AGENTS/REGINALD/board/BOARD_LOG.tsv	summary	REGINALD:WALTER-intake-and-9b	REGINALD	2026-10-20	Script reads existing IDs/cursor; context gets only unmatched IDs/last-date and bounded rows needed to append; not entire log.
+READ	REGINALD	BOARD/INDEX.md	scoped	REGINALD:CLAUDE.md-Boot-9b	REGINALD	2026-10-20	Only addressable Cluster overview section. Signal metadata scan, not a predicate masquerading as scoped whole-body read; matching individual signal bodies declared below.
+READ	REGINALD	BOARD/SIG-W-*.md	summary	REGINALD:CLAUDE.md-Boot-9b-discovery	REGINALD	2026-10-20	Programmatic metadata/ID/date/cluster/action scan prints only relevant unmatched IDs; raw full-history bodies do not enter context.
+READ	REGINALD	BOARD/SIG-W-*.md	whole	REGINALD:CLAUDE.md-Boot-9b-selected	REGINALD	2026-10-20	Conditional per matching selected signal body; class glob conservatively measures every member. All REGINALD-action/mediating unconditional, primary info always, secondary info ticker-filtered; no arbitrary history cutoff.
+READ	REGINALD	AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md	scoped	REGINALD:CLAUDE.md-Boot-9b	REGINALD	2026-10-20	Addressable watchlist section for secondary-cluster ticker check; detailed method is task-specific, not mandatory whole boot.
+READ	REGINALD	AGENTS/REGINALD/workbook/*.tsv	summary	REGINALD:CLAUDE.md-Boot-7a	REGINALD	2026-10-20	Ledger staleness reads content headers/cadence; prints bounded age/freeze verdict. Includes scheduled/frozen feeds. No raw workbook in context.
+READ	REGINALD	AGENTS/REGINALD/CALENDAR.md	summary	REGINALD:CLAUDE.md-Boot-7b	REGINALD	2026-10-20	earnings_countdown.py reads calendar internally; countdown/table verdict only. Whole manual calendar read separately declared.
+READ	REGINALD	AGENTS/REGINALD/scripts/.kre_float_state.json	summary	REGINALD:CLAUDE.md-Boot-7b	REGINALD	2026-10-20	kre_float.py reads/writes previous observation; bounded comparison only.
+READ	REGINALD	AGENTS/REGINALD/workbook/SHORT_INTEREST.tsv	summary	REGINALD:CLAUDE.md-Boot-7b	REGINALD	2026-10-20	si_refresh.py reads prior rows/freeze banner; prints bounded named-bank comparison, frozen writer not revived.
+READ	REGINALD	AGENTS/REGINALD/workbook/DARKPOOL.tsv	summary	REGINALD:CLAUDE.md-Boot-7b	REGINALD	2026-10-20	darkpool.py freeze/history read; bounded data availability/monitor output only.
+READ	REGINALD	AGENTS/REGINALD/workbook/SHORT_VOL.tsv	summary	REGINALD:CLAUDE.md-Boot-7b	REGINALD	2026-10-20	darkpool.py freeze/history read; bounded output only.
+READ	REGINALD	AGENTS/WALTER/registry/CORRECTIONS.tsv	summary	REGINALD:CLAUDE.md-Boot-9c	REGINALD	2026-10-20	corrections_boot_check reads registry; bounded owed/named pointers only.
+READ	REGINALD	AGENTS/REGINALD/registry/corrections_receipts.tsv	summary	REGINALD:CLAUDE.md-Boot-9c	REGINALD	2026-10-20	corrections_boot_check reads receipt ids; bounded correctness-of-presence verdict only.
+READ	REGINALD	AGENTS/DAEDALUS/FLEET_DIRECTORY.md	summary	REGINALD:CLAUDE.md-Boot-9c	REGINALD	2026-10-20	corrections checker validates agent name; does not inject full fleet directory.
+READ	REGINALD	AGENTS/REGINALD/inbox/*.md	summary	REGINALD:CLAUDE.md-Boot-8	REGINALD	2026-10-20	General inbox file listing/sender discovery only at ordinary boot; whole-body processing separately conditional.
+READ	REGINALD	AGENTS/REGINALD/NEXUS_BRIEF.md	whole	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Conditional derived-surface/final fold; existing full brief, not an additional every-boot source.
+READ	REGINALD	AGENTS/REGINALD/DECK_EVIDENCE.md	whole	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Conditional derived-surface review; frozen body not refreshed by cleanup.
+READ	REGINALD	AGENTS/REGINALD/thesis/CHANGELOG.md	whole	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Conditional thesis-level change only; no retired-stub edit.
+READ	REGINALD	AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md	scoped	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Addressable schema and maintenance §§2/4.1; no owner schema change.
+READ	REGINALD	AGENTS/REGINALD/registry/REG_T02_EXIT_LOG.tsv	scoped	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Header plus latest rows for existing count/source check; historical data required for missing-bar repair are task-specific.
+READ	REGINALD	AGENTS/REGINALD/registry/THRESHOLDS.tsv	whole	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Conditional fire/grade; paired basis in NOTES required.
+READ	REGINALD	AGENTS/REGINALD/registry/NOTES.md	scoped	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Addressable named REG-T section at existing grade; no silent letter change.
+READ	REGINALD	PROME/registry/READS.tsv	summary	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	read_cap_check consumes declarations; bounded verdict only; registrar remains PROME.

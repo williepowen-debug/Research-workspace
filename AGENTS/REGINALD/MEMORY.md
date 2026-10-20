@@ -20,13 +20,14 @@
 
 ## Session Notes
 
+Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanup_MEMORY.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
+
 ⚠️ **Open question at close:** did Eagle's troubled loans receive genuine outside cash/recovery or continued bank support? Four existing outcomes remain UNKNOWN; no independent property match. The M&T capacity result covers recognized provisions/reported earnings, not complete economic losses.
 
-### LAST SESSION — 2026-10-20T17:41:09-04:00, organizational review
-Read shared/desk instructions and reviewed responsibility, file ownership, runtime, intake and monitoring. Result→`reports/2026-10-20_organizational-review.md`; no organizational changes implemented. Current structure is peer-based; reconcile old CREED/sub-agent, Claude-only and routing/push language before relying on it. Full boot7 OK/1 filing ALERT including newly posted OZK Q3 (not substantively read/graded here); dark-pool NO DATA, SI9/29. SIG-W-20261020-028 INFO_ONLY; HOMER owns analysis. Pull withheld for dirty peer paths. Prior research/next steps below remain; no new monitor or trade.
+### LAST SESSION — 2026-10-20T19:13:00-04:00, bounded organizational cleanup
+Implemented Will/PROME's approved documentation pass: charter/peer wording, current STATUS/MEMORY/NEXUS summaries, verbatim contiguous archives and block receipt. No evidence/hub/ledger/script moves or deletions. Source/claim/rule/threshold/score/prediction/position authority unchanged. Charter post-review and boot-read registration are PROME-owned and pending; packet/receipt→`reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Existing economic outcomes and unresolved next work below remain. Pull withheld for dirty peer paths; no new quote/source/broker retrieval in cleanup.
 
-### PRIOR RESEARCH SESSION — 2026-10-20T15:29:37-04:00, closed at Will's request
-Completed reported-bank earnings catch-up, M&T capacity/recognition qualification, EGBN cash-outcome investigation, and physical EGBN consolidation. Reports/locators → `research/EGBN/README.md` and `reports/2026-10-20_session-closeout.md`. EGBN inventory:140 copied/extracted evidence files; hashes verified. KB240–246 and existing workout rows updated in prior commits. No new trade, score, threshold or probability; frozen REG-01/06 unchanged. Concurrent key-file audit committed5665c47bc; additional owed work is in that report. VX extract refreshed for its FLG context row; EGBN-specific rows unchanged and prior copy archived. Older handoff preserved verbatim → `archive/MEMORY_session-closeout_rotation_2026-10-20.md`, crc32 `3fce9e4a`; re-check at any append.
+Prior session records moved verbatim → `archive/2026-10-20_organisation-cleanup_MEMORY.md` (source-line/section receipt below). No research completion inferred from organizational cleanup.
 
 ### CHANGES SINCE LAST SESSION
 
@@ -68,4 +69,4 @@ Completed reported-bank earnings catch-up, M&T capacity/recognition qualificatio
 *Lessons 12-31 are indexed in `archive/MEMORY_rotation_2026-09-24d.md` (which points on to their verbatim archives: `MEMORY_carried_lessons_27-31` crc `05486924`, `…22-26` crc `9148add8`; 12-21 in git history).*
 *32-35 aged 2026-09-24 to one-line rules (above); full text + the 8/27 housekeeping flags → `archive/MEMORY_rotation_2026-09-24b.md`.*
 
-(leave blank — next-boot market.py + drift-grep populates)
+*CHANGES SINCE is populated at the next market boot; this cleanup does not invent a fresh observation.*

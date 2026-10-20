@@ -1,16 +1,14 @@
 # REGINALD STATUS
-**Organizational review10/20:** `reports/2026-10-20_organizational-review.md` — current peer-based organization, ownership map and documentation conflicts; recommendations only. Boot filing alert includes newly posted OZK Q3; specialist grade not consumed here.
-**Key-file audit10/20:** `reports/2026-10-20_key-file-sweep/REPORT.md` — funding/exit-log follow-up owed; stale handoffs/trade table; inbox clear. EGBN hub→`research/EGBN/README.md`.
-**Will-directed EGBN cash-outcome investigation,10/20:** `reports/2026-10-20_EGBN_cash-recovery_investigation.md`. Four existing maturity outcomes remain UNKNOWN; no independently matched borrower/property/cash exit. June PG56M extension/downgrade verified; July restructure/year-end storage payoff expectations are SECONDARY transcript evidence. Q1 same-loan appraisal-table discrepancy needs clarification, not a loss inference. Authentication limits/current disclosure scope preserved. Existing bridge updated; no score, thesis, threshold or trade change.
-**Will-directed M&T capacity test,10/20:** `reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`. **Qualification after Will’s reporting challenge: this covers recognized provisions using reported income; completeness of economic losses and collectibility of earnings remain untested.** Reported recognized pressure remains absorbable: $1,143M GAAP pre-provision earnings versus $135M provision; adverse-combination flag requires this scaling qualification. Nearer tension is distributions/book rebuilding, not demonstrated earnings shortfall. Most criticized growth is C&I auto leasing; margin bridge is not pure funding. Static sensitivities are not forecasts; vendor EPS basis/independent consensus unresolved. Concentration thesis, matrix and frozen rules unchanged.
-**Will-directed reported-bank earnings catch-up,10/20 (before WAL noon call):** `reports/2026-10-20_reported-bank-earnings-catchup.md`. Four cohort reporters and three primary contextual peers compared; FITB existing GIBBS read consumed with PARTIAL scope. M&T quarterly losses/nonaccruals/costs rise; CFG total loss rate hides higher CRE losses; WAL lower losses with OREO/special mention up; Zions low realized losses with nonaccruals up. WAL WQ-318 funding grade **INCONCLUSIVE provisional** (IB-cost line recovered; F3/N remain UNKNOWN); CFG grade unchanged. Deposit repricing/book pressure is visible; no formal breadth grade or new thesis/score/trade change. CUBI/FLG dates now issuer-confirmed in CALENDAR.
-*Earlier startup/due-row history and update stamps rotated verbatim → `archive/STATUS_session-closeout_rotation_2026-10-20.md`, crc32 `29fee981`. Re-check at any append.*
 
-**Last Updated:** 2026-10-20T17:41:09-04:00; Will-directed organizational review/boot. Market retrieval saved in review boot receipt; numerical rows below retain their original observation dates. No thesis, score, rule or trade change.
+**Last Updated:** 2026-10-20T19:13:00-04:00; bounded organizational cleanup. No new market/broker/source retrieval or economic regrade; numerical tables below keep their dated evidence. PROME charter review and READS registration remain pending.
 
-> **Thesis state:** STATUS is thesis-canonical (THESIS retired 8/13). Older carry blocks → `archive/STATUS_rotation_2026-09-02.md` BLOCK N and `archive/STATUS_rotation_2026-09-24b.md`.
+**Current judgment:** severity is concentrated, not tier-wide. Latest bank comparison → `reports/2026-10-20_reported-bank-earnings-catchup.md`; no formal breadth verdict from release headlines. WAL funding grade INCONCLUSIVE provisional; F3/N/call/filing questions unresolved.
 
----
+**Evidence limits:** Eagle's four existing cash outcomes remain UNKNOWN, with no independently matched property/borrower cash exit; July restructuring/payoff expectations are SECONDARY, and the Q1 appraisal-table discrepancy is not quantified loss. `research/EGBN/README.md` → latest investigation/source audit. M&T capacity uses recognized provisions and reported income: economic-loss completeness and earnings collectibility remain UNTESTED; consensus/EPS basis and pricing edge unresolved. → `reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`.
+
+**Next existing work:** MEMORY NEXT SESSION/CALENDAR own the handoff/dates: consume specialist Q3 grades, complete weekly funding and settled exit follow-through, fill same-loan cash outcomes at existing disclosures. The previous boot detected OZK Q3 posted, not graded here. No new task universe or trade authority. Research-gap audit → `reports/2026-10-20_key-file-sweep/REPORT.md`.
+
+**Cleanup receipt:** `reports/2026-10-20_organisation-cleanup/RECEIPT.md`; Original contiguous blocks B01–B14 → `archive/2026-10-20_organisation-cleanup_STATUS.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
 
 ## THESIS: The Convergence
 
@@ -87,7 +85,7 @@
 
 ## PREDICTIONS
 
-> **Single source of truth: `workbook/PREDICTIONS.tsv`** (20 rows, REG-01…REG-26; REG-16/21/22/23 → OZK 4/24; REG-24/25 → WAL 7/25 as WAL-01/02, OPEN to the Q3 10-Q; REG-26 RESOLVED-DISCONFIRMED 7/21). `REG-07` re-mark and `REG-03` re-spec are OWED at the Q3 print (MEMORY 6/6d). *Prior text → BLOCK T9, crc32 `eb89e2c3`.*
+**Canonical state: `workbook/PREDICTIONS.tsv`.** REG-07 is VOID under WQ-412 (10/16 ledger refresh); no successor is registered by this cleanup. REG-01/REG-06 remain byte-frozen; original remaining predictions, ownership and outcome rules stay in the ledger. Prior prose (including the superseded REG-07 re-mark instruction) → `archive/2026-10-20_organisation-cleanup_STATUS.md` §B10; exact map → cleanup RECEIPT. REG-03's existing re-spec remains carried, not resolved here.
 
 ---
 
@@ -102,7 +100,7 @@
 
 ---
 
-## ⚠️ THRESHOLD STATUS (10/14 noon boot: quotes12:11ET window; WAL/FLG settled10/13,current-day excluded; fresh FRED HY/CCC/B/BB10/13. Other rows retain stated vintages.)
+## ⚠️ THRESHOLD STATUS — observations retain each row’s source date; cleanup is not a refresh
 
 > *(→ BLOCK T30, `597017ec`)*
 
