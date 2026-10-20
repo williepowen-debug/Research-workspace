@@ -46,6 +46,7 @@ Listed so they are not mistaken for PROME work, and so their standing instructio
 
 **Capital and trading**
 - Deploy fresh capital **only on a fired trigger**, **$500 per card** (Will 2026-06-26).
+  - **LOOSENED FOR IDEAS (Will 2026-10-20 11:50 ET, verbatim *"we can loosen rules for trade ideas"*):** TERRY may PROPOSE trades whose trigger has not fired. Each card is labelled **NOT-FIRED** and states the trigger state, the size and the risk in figures; Will decides each one under root rule #5. PROME's reading, stated back to Will: the word loosens what may be PROPOSED. A larger size, or a fill against X1 below, is shown on the card as a choice for Will. Neither is approved in advance. `USER.md` § No expiry nagging.
 - **No auto-trading and no trade execution.** ORACLE measures · TERRY evaluates · Will approves.
 - **X1 sizing gate CLOSED — DON'T-SIZE.** The wrapper half is adjudicated NOT ARMED, so no fresh capital absent an X1 or wrapper fire.
 - **Position truth is off-repo** (Will/broker direct). `FORGE/STATUS.md` is the mirror, never the truth.

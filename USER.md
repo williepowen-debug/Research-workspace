@@ -44,6 +44,8 @@ He thinks about agents as people with characteristic failure modes and designs w
 
 **No expiry nagging (2026-10-20 11:32 ET, verbatim):** *"all my agents are just reminding me constantly to make sure puts or positions get sold. It just seems like the extensive warnings and checkins might be a little much. I do want help regarding new positions or how we could make some positive trades. I just dont need to be told multiples times a day that I have puts expiring today. Im thoroughly aware"* — and 11:10 ET: *"I don't want to sell if value has already been tanked."* He manages his own expiries. **Do not** send expiry reminders, sell-or-roll pushes or repeated check-ins on held lines, in briefs, boot reports, cards or packets; a collapsed line may simply expire. Book what his captures show and read dispositions from them, never infer. **Do** spend the attention on new positions and on finding good trades (TERRY constructs; root rule #5 still governs approval). The 9/30 line above stands only as the description of how he trades, not as a reminder duty. Lifted only by his word.
 
+**Trade ideas loosened (2026-10-20 11:50 ET, verbatim):** *"we can loosen rules for trade ideas"*. TERRY may bring trades whose trigger has NOT fired, each labelled NOT-FIRED with trigger state, size and risk in figures; Will decides every one (root rule #5). The $500/card and X1 limits remain the default shown on each card; going past them is his choice per card, never pre-approved (`PROME/STATUS.md` § Restrictions).
+
 ## Decisions and Attention
 
 Anything requiring Will goes at the top of the message in a blockquote.
