@@ -1,0 +1,372 @@
+{
+  "observed_at": "2026-10-20T10:45:55.054783-04:00",
+  "source_class": "BROKER-PRIMARY images supplied directly by Will",
+  "capture_time": "UNKNOWN",
+  "quote_time": "UNKNOWN",
+  "fill_times": "UNKNOWN",
+  "account": "Fidelity Traditional IRA; identifier fully obscured, continuity INFERRED",
+  "images": [
+    {
+      "path": "/mnt/c/Users/willi/OneDrive/Desktop/Capture1.JPG",
+      "sha256": "86238c32f62467f4531a97fad4b267b61b82d9267daae4c763be9680dafef344",
+      "visually_read": true
+    },
+    {
+      "path": "/mnt/c/Users/willi/OneDrive/Desktop/Capture2.JPG",
+      "sha256": "6f011c952c550381bfc92f43da7d1f2ee5a837d5b3dd54cf9da72cfff604c865",
+      "visually_read": true
+    }
+  ],
+  "account_summary": {
+    "cash_usd": "17053.29",
+    "pending_usd": "-83.00",
+    "account_total_usd": "37840.91",
+    "today_gl_usd": "-2480.70",
+    "today_gl_pct": "-6.15",
+    "open_gl_usd": "-2340.98",
+    "open_gl_pct": "-10.09"
+  },
+  "positions": [
+    {
+      "symbol": "USO",
+      "type": "Call",
+      "expiry": "2026-10-30",
+      "strike": "165",
+      "quantity": 2,
+      "value_usd": "370.00",
+      "basis_usd": "586.32",
+      "today_gl_usd": "-280.66",
+      "open_gl_usd": "-216.32"
+    },
+    {
+      "symbol": "WAL",
+      "type": "Put",
+      "expiry": "2026-12-18",
+      "strike": "65",
+      "quantity": 4,
+      "value_usd": "320.00",
+      "basis_usd": "682.65",
+      "today_gl_usd": "-280.00",
+      "open_gl_usd": "-362.65"
+    },
+    {
+      "symbol": "QQQ",
+      "type": "Put",
+      "expiry": "2026-10-20",
+      "strike": "719",
+      "quantity": 1,
+      "value_usd": "98.00",
+      "basis_usd": "277.66",
+      "today_gl_usd": "-241.00",
+      "open_gl_usd": "-179.66"
+    },
+    {
+      "symbol": "KRE",
+      "type": "Put",
+      "expiry": "2026-11-27",
+      "strike": "67",
+      "quantity": 4,
+      "value_usd": "268.00",
+      "basis_usd": "510.65",
+      "today_gl_usd": "-240.00",
+      "open_gl_usd": "-242.65"
+    },
+    {
+      "symbol": "WAL",
+      "type": "Put",
+      "expiry": "2026-12-18",
+      "strike": "70",
+      "quantity": 2,
+      "value_usd": "340.00",
+      "basis_usd": "551.33",
+      "today_gl_usd": "-210.00",
+      "open_gl_usd": "-211.33"
+    },
+    {
+      "symbol": "ZION",
+      "type": "Put",
+      "expiry": "2026-11-20",
+      "strike": "62.5",
+      "quantity": 2,
+      "value_usd": "220.00",
+      "basis_usd": "435.33",
+      "today_gl_usd": "-210.00",
+      "open_gl_usd": "-215.33"
+    },
+    {
+      "symbol": "QQQ",
+      "type": "Put",
+      "expiry": "2026-10-20",
+      "strike": "715",
+      "quantity": 1,
+      "value_usd": "37.00",
+      "basis_usd": "200.66",
+      "today_gl_usd": "-161.00",
+      "open_gl_usd": "-163.66"
+    },
+    {
+      "symbol": "USO",
+      "type": "Stock",
+      "expiry": "--",
+      "strike": "--",
+      "quantity": 35,
+      "value_usd": "5470.15",
+      "basis_usd": "4266.43",
+      "today_gl_usd": "-158.20",
+      "open_gl_usd": "1203.72"
+    },
+    {
+      "symbol": "QQQ",
+      "type": "Put",
+      "expiry": "2026-10-22",
+      "strike": "715",
+      "quantity": 1,
+      "value_usd": "299.00",
+      "basis_usd": "432.66",
+      "today_gl_usd": "-133.66",
+      "open_gl_usd": "-133.66"
+    },
+    {
+      "symbol": "USO",
+      "type": "Call",
+      "expiry": "2026-10-23",
+      "strike": "163",
+      "quantity": 1,
+      "value_usd": "82.00",
+      "basis_usd": "289.66",
+      "today_gl_usd": "-133.00",
+      "open_gl_usd": "-207.66"
+    },
+    {
+      "symbol": "USO",
+      "type": "Call",
+      "expiry": "2026-10-28",
+      "strike": "165",
+      "quantity": 1,
+      "value_usd": "139.00",
+      "basis_usd": "335.66",
+      "today_gl_usd": "-128.00",
+      "open_gl_usd": "-196.66"
+    },
+    {
+      "symbol": "OZK",
+      "type": "Put",
+      "expiry": "2026-11-20",
+      "strike": "40",
+      "quantity": 4,
+      "value_usd": "40.00",
+      "basis_usd": "322.65",
+      "today_gl_usd": "-88.00",
+      "open_gl_usd": "-282.65"
+    },
+    {
+      "symbol": "KRE",
+      "type": "Put",
+      "expiry": "2026-12-31",
+      "strike": "65",
+      "quantity": 2,
+      "value_usd": "210.00",
+      "basis_usd": "337.33",
+      "today_gl_usd": "-64.00",
+      "open_gl_usd": "-127.33"
+    },
+    {
+      "symbol": "CRWV",
+      "type": "Put",
+      "expiry": "2026-10-23",
+      "strike": "56",
+      "quantity": 1,
+      "value_usd": "45.00",
+      "basis_usd": "179.66",
+      "today_gl_usd": "-51.00",
+      "open_gl_usd": "-134.66"
+    },
+    {
+      "symbol": "APO",
+      "type": "Put",
+      "expiry": "2026-12-18",
+      "strike": "95",
+      "quantity": 1,
+      "value_usd": "135.00",
+      "basis_usd": "1184.67",
+      "today_gl_usd": "-45.00",
+      "open_gl_usd": "-1049.67"
+    },
+    {
+      "symbol": "KRE",
+      "type": "Put",
+      "expiry": "2026-12-18",
+      "strike": "60",
+      "quantity": 3,
+      "value_usd": "105.00",
+      "basis_usd": "878.02",
+      "today_gl_usd": "-30.00",
+      "open_gl_usd": "-773.02"
+    },
+    {
+      "symbol": "KRE",
+      "type": "Put",
+      "expiry": "2026-12-18",
+      "strike": "60",
+      "quantity": 2,
+      "value_usd": "70.00",
+      "basis_usd": "513.34",
+      "today_gl_usd": "-20.00",
+      "open_gl_usd": "-443.34"
+    },
+    {
+      "symbol": "VLO",
+      "type": "Stock",
+      "expiry": "--",
+      "strike": "--",
+      "quantity": 3,
+      "value_usd": "1282.02",
+      "basis_usd": "1296.73",
+      "today_gl_usd": "-17.91",
+      "open_gl_usd": "-14.71"
+    },
+    {
+      "symbol": "TBT",
+      "type": "Stock",
+      "expiry": "--",
+      "strike": "--",
+      "quantity": 5,
+      "value_usd": "198.60",
+      "basis_usd": "172.01",
+      "today_gl_usd": "-4.50",
+      "open_gl_usd": "26.59"
+    },
+    {
+      "symbol": "CMG",
+      "type": "Put",
+      "expiry": "2026-10-30",
+      "strike": "28",
+      "quantity": 1,
+      "value_usd": "41.00",
+      "basis_usd": "54.66",
+      "today_gl_usd": "-4.00",
+      "open_gl_usd": "-13.66"
+    },
+    {
+      "symbol": "AAPL",
+      "type": "Stock",
+      "expiry": "--",
+      "strike": "--",
+      "quantity": 4,
+      "value_usd": "1368.98",
+      "basis_usd": "94.58",
+      "today_gl_usd": "-2.78",
+      "open_gl_usd": "1274.40"
+    },
+    {
+      "symbol": "APD",
+      "type": "Stock",
+      "expiry": "--",
+      "strike": "--",
+      "quantity": 2,
+      "value_usd": "597.47",
+      "basis_usd": "589.57",
+      "today_gl_usd": "0.17",
+      "open_gl_usd": "7.90"
+    },
+    {
+      "symbol": "GLD",
+      "type": "Stock",
+      "expiry": "--",
+      "strike": "--",
+      "quantity": 24,
+      "value_usd": "9134.40",
+      "basis_usd": "9019.37",
+      "today_gl_usd": "21.84",
+      "open_gl_usd": "115.03"
+    }
+  ],
+  "activity": [
+    {
+      "source_row": 1,
+      "action": "BTO",
+      "symbol": "USO",
+      "type": "Call",
+      "expiry": "2026-10-30",
+      "strike": "165",
+      "quantity": 1,
+      "fill": "3.15",
+      "net_usd": "-315.66",
+      "status": "Filled",
+      "limit": "3.17",
+      "date": "2026-10-20",
+      "fill_time": "UNKNOWN",
+      "event_key": "FID-20261020-CAP2-A01"
+    },
+    {
+      "source_row": 2,
+      "action": "BTO",
+      "symbol": "USO",
+      "type": "Call",
+      "expiry": "2026-10-30",
+      "strike": "165",
+      "quantity": 1,
+      "fill": null,
+      "net_usd": null,
+      "status": "Verified Canceled",
+      "limit": "3.15",
+      "date": "2026-10-20",
+      "fill_time": "UNKNOWN",
+      "event_key": "FID-20261020-CAP2-A02"
+    },
+    {
+      "source_row": 3,
+      "action": "BTO",
+      "symbol": "QQQ",
+      "type": "Put",
+      "expiry": "2026-10-22",
+      "strike": "715",
+      "quantity": 1,
+      "fill": "4.32",
+      "net_usd": "-432.66",
+      "status": "Filled",
+      "limit": "4.32",
+      "date": "2026-10-20",
+      "fill_time": "UNKNOWN",
+      "event_key": "FID-20261020-CAP2-A03"
+    },
+    {
+      "source_row": 4,
+      "action": "BTO",
+      "symbol": "QQQ",
+      "type": "Put",
+      "expiry": "2026-10-22",
+      "strike": "715",
+      "quantity": 1,
+      "fill": null,
+      "net_usd": null,
+      "status": "Verified Canceled",
+      "limit": "4.26",
+      "date": "2026-10-20",
+      "fill_time": "UNKNOWN",
+      "event_key": "FID-20261020-CAP2-A04"
+    },
+    {
+      "source_row": 5,
+      "action": "STC",
+      "symbol": "QQQ",
+      "type": "Put",
+      "expiry": "2026-10-20",
+      "strike": "720",
+      "quantity": 1,
+      "fill": "6.66",
+      "net_usd": "665.32",
+      "status": "Filled",
+      "limit": "6.44",
+      "date": "2026-10-20",
+      "fill_time": "UNKNOWN",
+      "event_key": "FID-20261020-CAP2-A05"
+    }
+  ],
+  "limits": [
+    "Image file mtime is not capture/quote/fill time.",
+    "The Pending heading contains filled and canceled rows; it is not a complete working-order census.",
+    "Displayed position prices/values are marks, not executable bids.",
+    "No Robinhood evidence. No new TERRY approval inferred."
+  ]
+}

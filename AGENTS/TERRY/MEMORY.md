@@ -4,7 +4,15 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-19T18:39:46.051670-04:00 owed-task catch-up
+## October20 current pickup — 2026-10-20T10:49:50.932166-04:00
+
+WilldirectCapture1/2ingested; read `research/2026-10-20_broker-receipt/REPORT.md` FIRST, source/ACTIVITYkeysbeforeanynewbooking. QQQ720P1CLOSEDsale6.66/net665.32/DERIVED+474.66bookedONCE; noothernewrealized. NewQQQOctober22 715P1/net432.66 andUSOOctober30 165Cadd1/net315.66⇒now2/basis586.32;2cancelsnotfills;net−83pending. Current23positions/account37840.91/day−2480.70−6.15%tie. Clocks/bid/fullordersUNKNOWN;719Pbasischanged+$1to277.66,oldconditionalallocationnotcertified.
+
+TodayQQQ719P1/value98and715P1/value37remain,Willhandles/WQ462mustnarrow,14:30proposedbackstop;newOctober22putvalue299/cardprepared/proposedOctober21 15:00stop. No rollinferred. OriginalUSOOctober30cardnowwhole2proposal. OZK4bytoday15:30/TBT5approvedexitsfillsowed;WAL4freshpostprintchoice/nooncallowed. OtherC5cardsalreadydone,bids/choicesstillowed. VLOoriginal1/added2UNKNOWN/scaleterminal;noOctober20crack/policygradefromstockmark. Missingolderfills/expiryoutcomes/RH/orderhandlingremain.
+
+RuntimeOpenAI GPT-6/CodexexactvariantUNKNOWN,session01a159be-3941-7b10-8771-ca37a09505ca;root/localexplicitreadsandbootcomplete. Startupaa6687b13local;currentreceiptpersistenceindateddelivery. Nohelper/order/newtradeapproval/rule/monitor;foreignworkuntouched,nopull/stash. PriorOctober19pickuplinebelowishistorywhereOctober20supersedespositions;allunresolvedowner/evidencedutiescontinue. Legacyembedcohortcheck/L379stillneedreconciliation,notprovencompleted. Currentuserworkisreceiptintegration,notfullstructuralcleanup.
+
+## Prior Session — 2026-10-19T18:39:46.051670-04:00 owed-task catch-up
 
 Current owed answers: `research/2026-10-19_owed-answers.md`. HENRY final conditional-day shortlist4261b747e consumed; both exact-workflow acknowledgments verified, discharging previous pending/unverified labels. Four primary cases, only MOS confirms five-session repetition; primary4unmatched, financing causality unresolved. Three old outbox copies proven consumed by PROME and moved to delivered. Existing8C5cards done; broker/Will/registrar gaps unchanged, no new trade/sizing authority.
 
@@ -31,7 +39,7 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 ## Next Session — start here
 
 1. Reconcile later inbox/processed and broker evidence against October19 source hash/Activity keys before repeating any booking. PriorOctober15QQQ740P/USO150Cclosures already booked; cohort/partial totals are not additive.
-2. TomorrowQQQthreeputs andOZK10/20 15:30backstop first. Re-markheldquantity/orders/bids;Willapproves/orders. WALwindowended,ownerQ3grade/freshchoiceowed;TBT5approvedexitfillowed. October23cardsnext,otherC5draftsreadybutexecutablechecksowed.
+2. October20latestreceipt supersedes threeputs:720Pclosed,719P/715Peach1remain;newOctober22 715Pcardready. OZK10/20 15:30backstop first. Re-markheldquantity/orders/bids;Willapproves/orders. WALwindowended,ownerQ3grade/freshchoiceowed;TBT5approvedexitfillowed. October23cardsnext,otherC5draftsreadybutexecutablechecksowed.
 3. VLOoriginal1only;twoaddedsharescopeUNKNOWN,scaleterminal. FidelityWAL70P2 and ZION2 intake/date registration remain; KRE C5 dates are already registered (Nov24/Dec16), with future cards still owed. ActualQQQ/HBANexpiredoutcomes andbasisgapsawaitbroker,notinference.
 4. NCLH10/20date/ownercontextreviewcompletedearly10/19.002premisereadanswered/KEEPDORMANT;archivechoiceWill. Supersededprocessdebtsclearedbyproof,rulecandidatesstillunadopted. Noadditionalresearchbydefault. Rootexactpaths/freshpushproof andindependentacceptance/consumptionseparations remain.
 

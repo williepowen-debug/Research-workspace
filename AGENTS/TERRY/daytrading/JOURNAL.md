@@ -4,6 +4,10 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## October20 — partial broker intake, not a full-day review
+
+Observed 2026-10-20T10:48:04.905951-04:00; direct Will Capture1/2; exact clocks/fullhistory UNKNOWN. Source `../research/2026-10-20_broker-receipt/source.json`. QQQ720P closure DERIVED+474.66 is booked ONCE in POSTMORTEMS, not again here. NewQQQOctober22 715P1net432.66 and USOOctober30 165Cadd1net315.66 are openpurchases; netvisiblecash−83.00. Canceled2notfills. Accountdisplayday−2480.70/−6.15% is brokerdaychange, not closed-tradeperformance; all23positiondaydeltas tie it. TwoQQQexpiringtodayremain1each/value135combined; October22putvalue299. No pre-entry reason/clock or same-time market comparison: no behavioral/frequency/full-day score fabricated. Existing standalone daytradingreview remains subordinate to thesisbook.
+
 ## October19 — partial broker intake; existing QQQ review-loop question answered
 
 Observed 2026-10-19T18:02:50-04:00. Source `../research/2026-10-19_broker-reconcile/ACTIVITY.tsv` / frozen broker-source.json, October19 cropped Fidelity Activity and holdings; exact fill/capture clocks and earlier rows UNKNOWN. **Yes: these Will-direct short-dated QQQ puts/calls belong here.** This is a partial-intake note, not a new full-day/session performance review or an additional realized booking.

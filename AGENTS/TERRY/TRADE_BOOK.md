@@ -97,3 +97,7 @@ Prior rows above are dated records. These rows supersede their current-state cla
 | 2026-10-19 catchup | MGMT-VLO-SHARE | BRENT/HENRY | CONDITIONAL | Original1scope only | CONDITIONAL — A10/16and10/19 NOT FIRED/no notice; C3ESTIMATE99.4509072906/99.8656630518; added2scopeUNKNOWN; no order | `setups/VLO-SHARE_management-proposal_2026-09-28.md` |
 | 2026-10-19 catchup | TRY-FIRE-002 | CARL/REGINALD | STAGED | Ungradedarchivechoice toWill | STAGED — KEEP DORMANT reply10/10 consumed10/11, re-lockNO; reviewwrittenlate, no entry or archive execution | `setups/PRINT-TRIGGER_WAL-EGBN-build.md` |
 | 2026-10-19 catchup | TRY-COND-NCLHDEC14P | CRUISE | CONDITIONAL | No card/entry | CONDITIONAL — NOT PROPOSED; Q3dateconfirmed10/29,10/30expiryspansrelease; owner/edge prerequisitesremain, no freshpricing | `options/PRINT_ENVELOPE_CRUISE_2026-09-19.md` (datedanalysis) |
+
+| 2026-10-20 | MGMT-QQQ720P-OCT20 | Will-direct | CLOSED | Filled STC1at6.66/net665.32 | CLOSED — holding0; derived realized+474.66; no repeatbooking | `setups/QQQ720P_20261020-sell-or-roll_2026-10-19.md` |
+| 2026-10-20 | MGMT-USO165C-OCT30 | Will-direct | CONDITIONAL | BTO addition1recorded; management choice owed | CONDITIONAL — now2held/basis586.32/value370; old1ticket superseded | `setups/USO165C_20261030-sell-or-roll_2026-10-19.md` |
+| 2026-10-20 | MGMT-QQQ715P-OCT22 | Will-direct | CONDITIONAL | Filled BTO1recorded; management choice owed | CONDITIONAL — held1; proposedOctober21 15:00ET sale; no rollapproved | `setups/QQQ715P_20261022-sell-or-roll_2026-10-20.md` |
