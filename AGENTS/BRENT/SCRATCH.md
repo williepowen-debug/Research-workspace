@@ -2,6 +2,8 @@
 
 **Handoff:** 2026-10-20T13:52:08-04:00 — Codex/OpenAI GPT-6 family, exact model variant UNKNOWN; session/runtime verification at [startup receipt](audits/2026-10-20_startup/receipt.json). Git root /home/willi/Research-workspace. Root/local instructions explicitly read in this session. Will directly requested key-file/workbook review after authorizing USO tracking and storage.
 
+**Final closeout:** 2026-10-20T14:28:51-04:00 — requested research, USO storage and key-file repair complete; research/review publication confirmed through `221028f09`. [Closeout receipt](audits/2026-10-20_key-file-review/CLOSEOUT.md). Resume at NEXT SESSION; existing evidence debts and approvals preserved.
+
 ## CHANGES SINCE LAST SESSION
 - [USO](USO/README.md) now holds the full investigation, receipts and consolidated discussion. Historical short counts and dated broker/vendor proxies do not establish October20 positions; broad loan series and current technical/options studies absent.
 - [News research](research/2026-10-20_deal-news/REPORT.md) verified the IEA acceleration announcement and original anonymous proposal report; no signed deal, restored throughput or delivered additional diesel established. Named quotes retain their October20 morning clocks.
