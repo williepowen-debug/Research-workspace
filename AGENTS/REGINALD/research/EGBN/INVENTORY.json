@@ -1697,16 +1697,26 @@
       "category": "EGBN_REFERENCING_WORKBOOK_ROWS",
       "source": "AGENTS/REGINALD/workbook/VX.tsv",
       "destination": "AGENTS/REGINALD/research/EGBN/data/workbook/VX.tsv",
-      "source_sha256": "2dc265cd4a6ba99e8b3c931b1e326349617dee00a4b85ab3f702598519ae8a9b",
-      "destination_sha256": "45be7b27395389be4a307bc6877910ca1411face903dca9ba900791cc5e8cbbb",
-      "bytes": 7640,
-      "captured_at_utc": "2026-10-20T18:38:30.223496+00:00",
+      "source_sha256": "d20045123425ae86e3baca472257a287a9293c7016fd3f018a8a841346934d30",
+      "destination_sha256": "a162bafb9cdd2c743bc14c5365b52ac8c246bc8d1c2b8fe1db4e188ebf54cbfd",
+      "bytes": 7848,
+      "captured_at_utc": "2026-10-20T19:34:47.150226+00:00",
       "selection": "Original complete rows with standalone EGBN in any cell; includes multibank references",
       "selected_rows": 3,
       "source_line_numbers": [
-        14,
-        21,
-        35
+        15,
+        22,
+        36
+      ],
+      "revision_history": [
+        {
+          "prior_source_sha256": "2dc265cd4a6ba99e8b3c931b1e326349617dee00a4b85ab3f702598519ae8a9b",
+          "prior_destination_sha256": "45be7b27395389be4a307bc6877910ca1411face903dca9ba900791cc5e8cbbb",
+          "prior_capture_utc": "2026-10-20T18:38:30.223496+00:00",
+          "archived_destination": "AGENTS/REGINALD/research/EGBN/historical/snapshots/2026-10-20T183830_VX.tsv",
+          "refreshed_at_utc": "2026-10-20T19:34:47.150226+00:00",
+          "reason": "Concurrent audit5665c47bc refreshed FLG contextual row6.03, which mentions EGBN. EGBN-specific rows6.10/11.04 unchanged; prior extract preserved."
+        }
       ]
     },
     {
@@ -1801,5 +1811,6 @@
       "selection": "CSV rows with standalone EGBN in any cell; original columns retained",
       "selected_rows": 1
     }
-  ]
+  ],
+  "last_refreshed_at_utc": "2026-10-20T19:34:47.150226+00:00"
 }

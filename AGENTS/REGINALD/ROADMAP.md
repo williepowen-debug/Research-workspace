@@ -1,10 +1,10 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** **2026-10-13 evening (direct-Will research resumed; next cash/loss/valuation evidence attached to existing bridge; prior closeout remains historical).** Other rows retain their stated observation dates. Prior affected operating text → `archive/WQ414_operating_snapshot_2026-10-11.md`.
+**Updated:** **2026-10-20T15:29:37-04:00 — Will-requested closeout; EGBN current-data hub/unknown outcomes retained; prior stamps below are historical.** Prior: **2026-10-13 evening (direct-Will research resumed; next cash/loss/valuation evidence attached to existing bridge; prior closeout remains historical).** Other rows retain their stated observation dates. Prior affected operating text → `archive/WQ414_operating_snapshot_2026-10-11.md`.
 *Stamps 10/10 AM (BLOCK R5, crc32 `3693ce98`) and 10/9 PM · 10/7 · 9/29 (BLOCK R3, crc32 `adb2708f`) rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-10.md`.*
 *Stamps 9/27 PM, 9/27 and 9/26 rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-07.md` BLOCK R1, crc32 `ebe14531`.*
 *Stamps 9/14 and 9/02 rotated VERBATIM → `archive/STATUS_rotation_2026-09-27.md` BLOCK R1, crc32 `cb6c187f`.*
 
-Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes, intra-day workspace. **MEMORY.md Session Notes** = session-bridge handoff (what just happened, what's next). **STATUS** = live dashboard. **ROADMAP** = what threads are open, what data we're waiting on, what questions are unresolved, what we want to investigate next, what just got done.
+October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventories owed work and stale reminders; rows below retain their dates. Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes, intra-day workspace. **MEMORY.md Session Notes** = session-bridge handoff (what just happened, what's next). **STATUS** = live dashboard. **ROADMAP** = what threads are open, what data we're waiting on, what questions are unresolved, what we want to investigate next, what just got done.
 
 **Maintenance discipline:** Updated at session end before commit. If a thread is moved to RESOLVED, that's the audit trail of what each session shipped. Pruned aggressively — promote to thesis/KB/research or delete; do not just accumulate.
 
@@ -86,3 +86,5 @@ Will-directed reported-bank earnings catch-up → `reports/2026-10-20_reported-b
 **10/20 EGBN follow-up, direct Will:** `reports/2026-10-20_EGBN_cash-recovery_investigation.md`. Accessible current evidence investigated; four loan outcomes still UNKNOWN. Source scope/access gaps and July secondary expectations saved; cash/new expense/retained exposure remain next existing Q3-read fields. Appraisal-table inconsistency is a clarification gap, not a scored signal. No new monitor. Last touched2026-10-20.
 
 **EGBN navigation,10/20 Will-directed:** `research/EGBN/README.md` now contains copied reports/sources, EGBN data extracts and a hash manifest. Originals retained; archived copies stay historical. No new investigation or monitor.
+
+**Session closed10/20 at Will’s request:** closeout receipt → `reports/2026-10-20_session-closeout.md`. Next-session handoff rewritten in MEMORY; no new task/monitor or approval. EGBN snapshot verification passed; original research/data unchanged by consolidation.
